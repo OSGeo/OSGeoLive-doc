@@ -7,7 +7,7 @@
 :Version: OSGeo-Live 6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-rasdaman.png
+.. image:: /images/project_logos/logo-rasdaman.png
   :scale: 100 %
   :alt: project logo
   :align: right

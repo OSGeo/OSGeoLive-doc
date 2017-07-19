@@ -4,16 +4,16 @@
 :Версия: osgeo-live5.5
 :Лицензия: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. (no logo) .. image:: ../../images/project_logos/logo-GDAL.png
+.. (no logo) .. image:: /images/project_logos/logo-GDAL.png
 ..  :alt: Логотип проекта
 ..  :align: right
 ..  :target: http://trac.osgeo.org/metacrs/wiki
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_community.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 MetaCRS
 ================================================================================
@@ -21,7 +21,7 @@ MetaCRS
 Трансформации координатных систем
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/project_logos/logo-metacrs.png
+.. image:: /images/project_logos/logo-metacrs.png
   :alt: Пример проекции карты
   :align: right
   :target: http://trac.osgeo.org/metacrs/wiki

@@ -4,10 +4,16 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geonode.png
+.. image:: /images/project_logos/logo-geonode.png
   :alt: project logo
   :align: right
   :target: http://geonode.org
+
+.. image:: /images/logos/OSGeo_project.png
+    :scale: 100
+    :alt: OSGeo Project
+    :align: right
+    :target: http://www.osgeo.org
 
 
 GeoNode
@@ -20,7 +26,7 @@ Sistema de Gestión de Contenido Geoespacial
 
 GeoNode está desarrollado sobre: GeoServer, GeoExplorer, pycsw, Django, y GeoExt.
 
-.. image:: ../../images/screenshots/800x600/geonode_basic_application.png
+.. image:: /images/screenshots/800x600/geonode_basic_application.png
   :scale: 50%
   :alt: GeoNode application
   :align: right

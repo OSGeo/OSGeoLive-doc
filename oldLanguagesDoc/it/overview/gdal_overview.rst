@@ -4,16 +4,16 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GDAL.png
+.. image:: /images/project_logos/logo-GDAL.png
   :alt: project logo
   :align: right
   :target: http://gdal.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GDAL/OGR
 ================================================================================
@@ -35,7 +35,7 @@ il motore primario di accesso ai dati per molte applicazioni includendo MapServe
 GRASS, QGIS, and OpenEV. È anche utilizzata da pacchetti come OSSIM,
 Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide e ArcGIS.
 
-.. image:: ../../images/screenshots/1024x768/gdal_ogr_proj_overview.png
+.. image:: /images/screenshots/1024x768/gdal_ogr_proj_overview.png
   :scale: 60 %
   :alt: GDAL supporta molti formati di geodati
   :align: right

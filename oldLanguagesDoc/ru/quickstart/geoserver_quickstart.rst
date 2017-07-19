@@ -7,9 +7,15 @@
 .. |GS| replace:: GeoServer
 .. |UG| replace:: uDig 
 
-.. image:: ../../images/project_logos/logo-GeoServer.png
+.. image:: /images/project_logos/logo-GeoServer.png
   :alt: Логотип проекта
   :align: right
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 Начало работы с GeoServer
@@ -32,7 +38,7 @@ GeoServer — это приложение, написанное на языке
 #. Приложению потребуется некоторое время для запуска.
 #. Перейдите на веб-страницу http://localhost:8082/geoserver/web 
 
-.. image:: ../../images/screenshots/800x600/geoserver-login.png
+.. image:: /images/screenshots/800x600/geoserver-login.png
     :scale: 70 %
 
 Первый просмотр
@@ -40,17 +46,17 @@ GeoServer — это приложение, написанное на языке
 
 При первом открытии страницы |GS| вы увидите форму ввода сверху экрана, вы должны войти, используя имя пользователя *admin* и пароль *geoserver*. После этого вы увидите *admin page*. 
 
-.. image:: ../../images/screenshots/800x600/geoserver-welcome.png
+.. image:: /images/screenshots/800x600/geoserver-welcome.png
     :scale: 70 %
 
 Пункт **Layer Preview**, расположенный слева сверху в меню *Data*, позволяет сделать предварительный просмотр всех слоёв, загруженных на сервер. 
 
-.. image:: ../../images/screenshots/800x600/geoserver-layerpreview.png
+.. image:: /images/screenshots/800x600/geoserver-layerpreview.png
     :scale: 70 %
 
 Перейдите к нижней части страницы и нажмите на ссылку **OpenLayers** в строке **tiger-ny**, после этого откроется новое окно предварительного просмотра некоторых выборочных данных. 
 
-.. image:: ../../images/screenshots/800x600/geoserver-preview.png
+.. image:: /images/screenshots/800x600/geoserver-preview.png
     :scale: 70 %
 
 Вы можете менять масштаб карты тремя разными способами:
@@ -75,14 +81,14 @@ GeoServer — это приложение, написанное на языке
 
 Нам необходимо создать хранилище для наших данных. С начальной страницы |GS| перейдите к *Stores* и затем выберите "Add new Store". Вы увидите такую страницу:
 
-.. image:: ../../images/screenshots/800x600/geoserver-newstore.png
+.. image:: /images/screenshots/800x600/geoserver-newstore.png
     :scale: 70 %
     :align: center
     :alt: Страница создания хранилища данных
 
 Выберите :guilabel:`Directory of spatial files`:
 
-.. image:: ../../images/screenshots/800x600/geoserver-new-vector.png
+.. image:: /images/screenshots/800x600/geoserver-new-vector.png
     :scale: 70 %
     :align: center
     :alt: Заполнение поля имя хранилища данных
@@ -91,14 +97,14 @@ GeoServer — это приложение, написанное на языке
 
 Вы можете использовать кнопку поиска, чтобы найти папку, если ваши данные где-то ещё. Нажмите :guilabel:`save`.
 
-.. image:: ../../images/screenshots/800x600/geoserver-naturalearth.png
+.. image:: /images/screenshots/800x600/geoserver-naturalearth.png
     :align: center 
     :scale: 70 %
     :alt: Хранилище данных Natural Earth
 
 Нажмите :guilabel:`publish` для одного из слоёв, чтобы завершить добавление данных. Вы перейдёте на страницу *Layers*:
 
-.. image:: ../../images/screenshots/800x600/geoserver-publish.png
+.. image:: /images/screenshots/800x600/geoserver-publish.png
     :align: center
     :scale: 70 %
     :alt: Страница публикации слоя
@@ -125,7 +131,7 @@ GeoServer — это приложение, написанное на языке
 Для начала откроем |UG| и добавим шейп-файлы (используя кнопку *add data* в верхнем левом углу). Перенесём слои "10m_land"
 и "10m_ocean" в окно карты. |UG| автоматически применил стиль (поэтому мы можем видеть данные). 
 
-.. image:: ../../images/screenshots/800x600/geoserver-udig_startup.png
+.. image:: /images/screenshots/800x600/geoserver-udig_startup.png
    :align: center
    :scale: 70 %
    :alt: Стиль по умолчанию в uDig
@@ -133,7 +139,7 @@ GeoServer — это приложение, написанное на языке
 Очевидно, что оранжевый океан выглядит немного странно. В списке слоёв :ref:`Layer list <Layer_list>` выберите кнопку стилей (она похожа на палитру красок). 
 
 .. _Layer_list:
-.. image:: ../../images/screenshots/800x600/geoserver-layer-chooser.png
+.. image:: /images/screenshots/800x600/geoserver-layer-chooser.png
    :align: center
    :scale: 70 %
    :alt: Окно слоев
@@ -141,28 +147,28 @@ GeoServer — это приложение, написанное на языке
 Откроется :ref:`Style Pane <Style_Pane>` — в простом окне можео выбрать приятный голубой цвет для океанов нажатием на цветные прямоугольники в окне заливки и выбором необходимого цвета простым щелчком. Также можно повысить непрозрачность заливки до 100%, чтобы она выглядела лучше. Для границ также можно выбрать голубой цвет.
 
 .. _Style_Pane:
-.. image:: ../../images/screenshots/800x600/geoserver-style-pane.png
+.. image:: /images/screenshots/800x600/geoserver-style-pane.png
    :align: center
    :scale: 70 %
    :alt: Панель стилей 
 
 Когда все сделано, нажмите ``OK``, и |UG| покажет изменения.
 
-.. image:: ../../images/screenshots/800x600/geoserver-blue-ocean.png
+.. image:: /images/screenshots/800x600/geoserver-blue-ocean.png
    :align: center
    :scale: 70 %
    :alt: Синий океан
 
 Теперь давайте изменим цвет суши с зелёного на более правдоподобный и повторим все шаги по изменению цвета в слое *land*. Если ни один из цветов по умолчанию вам не приглянулся, можно открыть ``define custom colors``, чтобы создать свой цвет.
 
-.. image:: ../../images/screenshots/800x600/geoserver-custom-colour.png
+.. image:: /images/screenshots/800x600/geoserver-custom-colour.png
    :align: center
    :scale: 70 %
    :alt: Выбор более красивого цвета земли
 
 В результате получаем красивую базовую карту мира.
 
-.. image:: ../../images/screenshots/800x600/geoserver-basic-world.png
+.. image:: /images/screenshots/800x600/geoserver-basic-world.png
    :align: center
    :scale: 70 %
    :alt: Базовая карта мира
@@ -173,7 +179,7 @@ GeoServer — это приложение, написанное на языке
 Теперь необходимо перенести эти стили в |GS| — в окне стилей есть кнопка *export*, позволяющая сохранить SLD-файл, который определяет наш стиль. Как только мы сохранили два стиля, можно перейти к странице |GS| *admin page* и выбрать ``Styles`` (снизу секции ``Data``). Затем выбираем ``Add New Style``, снизу страницы появится форма загрузки и кнопка поиска. Нажатие на неё позволяет произвести поиск только что сохранённых файлов на жёстком диске. Как только нужные файлы найдены, жмём *upload* (находится рядом с кнопкой поиска), и копия файла появляется в редакторе. Если щёлкнуть по кнопке *validate*, то подсвеченные линии покажут, где есть ошибки, но можно также безопасно её проигнорировать (или удалить ненужные строки).
 
 
-.. image:: ../../images/screenshots/800x600/geoserver-add-style.png
+.. image:: /images/screenshots/800x600/geoserver-add-style.png
    :align: center
    :scale: 70 %
    :alt: Добавление стиля в GeoServer
@@ -193,7 +199,7 @@ GeoServer — это приложение, написанное на языке
 
 Каталог Natural Earth содержит вложенный каталог :file:`HYP_50M_SR_W`, в котором находится растровое изображение. Вы можете загрузить его напрямую в |GS|, перейдя к странице stores и выбрав :menuselection:`New Stores --> World Image` и написав :file:`/home/user/data/natural_earth/HYP_50M_SR_W/HYP_50M_SR_W.tif` в форме ввода :guilabel:`URL`.
 
- .. image:: ../../images/screenshots/800x600/geoserver-raster.png
+ .. image:: /images/screenshots/800x600/geoserver-raster.png
         :align: center
         :scale: 70 %
         :alt: Добавление растра
@@ -210,7 +216,7 @@ GeoServer — это приложение, написанное на языке
 
     * :doc:`OpenLayers <../overview/openlayers_overview>`
 
-    * :doc:`Atlas Styler <../overview/atlasstyler_overview>`
+    * AtlasStyler
 
     * :doc:`MapBender <../overview/mapbender_overview>`
 

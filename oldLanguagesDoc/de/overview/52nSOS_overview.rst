@@ -1,9 +1,10 @@
-:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org), Simon Jirka (s.jirka@52north.org)
+:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
+:Author: Simon Jirka (s.jirka@52north.org)
 :Reviewer:
-:Version: osgeo-live10.0
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: 52°North - exploring horizons
   :align: right
   :target: http://52north.org/sos
@@ -21,7 +22,7 @@ erlaubt den Zugriff auf Echtzeit-Sensordaten sowie auf Sensordatenarchive. Ein
 Sensor kann dabei z.B. eine Wetterstation, ein Pegel an einem Fluss oder eine
 Station zur Messung der Luftqualität sein.
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_overview.png
+.. image:: /images/screenshots/1024x768/52n_sos_overview.png
   :scale: 60 %
   :alt: 52°North SOS and JavaScript client
   :align: right
@@ -34,9 +35,10 @@ Funktionalität
   Anwendung ausgeliefert. Diese ermöglicht die Administration und Konfiguration
   der Service-Instanz, sowie das Senden von Testanfragen für SOS-Operationen;
   entsprechende Beispiel-Anfragen sind enthalten.
-* **JavaScript-Anwendung**: Der SOS beinhaltet eine JavaScript-Anwendung
-  zur Darstellung von Zeitreihen-Daten. Mit dessen Hilfe können Zeitreihen ohne
-  zusätzliche Software visualisiert werden.
+* **Helgoland**: Der SOS beinhaltet die Anwendung Helgoland. Diese kann für die
+  Erkundung, Analyse und Visualisierung von Sensor-Web-Daten verschiedener Themen
+  wie z.B. Hydrologie, Meterologie, Umwelt-Überwachung und Verkehrsverwaltung
+  verwendet werden.
 * **Spezifikation**: Der vorliegende 52°North SOS implementiert die aktuelle Spezifikationsversion
   (2.0.0 und die Vorgängerversion 1.0.0). In der folgenden Liste sind für die
   beiden Standard-Versionen die jeweils implementierten Operationen aufgelistet.
@@ -114,11 +116,14 @@ OGC SOS 2.0.0
   Profile - OGC Best Practice
   <http://docs.opengeospatial.org/bp/14-004r1/14-004r1.html#38>`_).
 
-**Operation “Delete Observation”**:
+**Weitere Operationen**:
 
-* DeleteObservation, zum Löschen von Messdaten via Messdaten-Identifier (kein
-  Teil der SOS 2.0 Spezifikation).
+Diese zusätzlichen Operationen sind nicht Teil der SOS 2.0 Spezifikation.
 
+* DeleteObservation, zum Löschen von Messdaten via Messdaten-Identifier
+* InsertFeatureOfInterest um Features einzufügen
+* DeleteResultTemplate um resultTemplates anhand des Identifiers
+  oder eines offering observedProperty Paares zu löschen
 
 Einige Operationen erlauben die Anwendungen folgender Filter-Operatoren, soweit
  sinnvoll:
@@ -165,9 +170,11 @@ Details
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
+**Unterstützte Java Version:** 7+, (bundle version: 8+)
+
 **Unterstützte DBMS:** PostgreSQL (9+) + PostGIS (2+), MariaDB/MySQL (5.6+), Oracle DB (9+), SQL-Server 2012
 
-**API-Schnittstellen:** Java
+**API:** Java, HTTP + JSON/XML/SOAP/KVP
 
 **Kommerzielle Unterstützung:** http://52north.org/
 

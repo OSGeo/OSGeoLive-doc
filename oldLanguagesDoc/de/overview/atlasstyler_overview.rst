@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-AtlasStyler.png
+.. image:: /images/project_logos/logo-AtlasStyler.png
   :alt: project logo
   :align: right
   :target: http://de.geopublishing.org/AtlasStyler
@@ -20,7 +20,7 @@ Die Anwendung bietet eine Vielzahl intuitiver Dialoge, die eine produktive Arbei
 
 
 
-.. image:: ../../images/screenshots/1024x768/atlasstyler-overview.png
+.. image:: /images/screenshots/1024x768/atlasstyler-overview.png
   :scale: 40 %
   :alt: Screenshot
   :align: right

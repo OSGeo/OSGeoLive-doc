@@ -3,12 +3,12 @@
 
 .. _wps-overview-el:
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -18,7 +18,7 @@ Web Processing Service (WPS)
 
 Το πρότυπο WPS παρέχει κανόνες για την προτυποποίηση δεδομένων εισόδου και εξόδου (αιτήματα και απαντήσεις) για υπηρεσίες χωρικής επεξεργασίας, όπως την επίθεση πολυγώνων και τα δεδομένα εισόδου και εξόδου της.
 
-.. image:: ../../images/standards/wps.jpg
+.. image:: /images/standards/wps.jpg
   :scale: 55%
   :alt: WPS in Context
 

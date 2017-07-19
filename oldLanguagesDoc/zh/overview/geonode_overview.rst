@@ -4,16 +4,23 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geonode.jpg
+.. image:: /images/project_logos/logo-geonode.jpg
   :alt: project logo
   :align: right
   :target: http://geonode.org
+
+.. image:: /images/logos/OSGeo_project.png
+    :scale: 100
+    :alt: OSGeo Project
+    :align: right
+    :target: http://www.osgeo.org
 
 
 GeoNode
 ================================================================================
 
 .. Geospatial Content Management System
+
 地理空间内容管理系统
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -24,14 +31,16 @@ styled and aggregated through browser based tools,
 maps and metadata can be published and searched, and reviews, ratings and comments can be captured from users.
 
 .. GeoNode is built upon: GeoServer, GeoExplorer, pycsw, Django, and GeoExt.
+
 GeoNode基于GeoServer、GeoExplorer、pycsw、Django与GeoExt构建。
 
-.. image:: ../../images/screenshots/800x600/geonode_basic_application.png
+.. image:: /images/screenshots/800x600/geonode_basic_application.png
   :scale: 50%
   :alt: GeoNode application
   :align: right
 
 .. Core Features
+
 核心功能
 --------------------------------------------------------------------------------
 

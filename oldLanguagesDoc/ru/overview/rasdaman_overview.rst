@@ -6,16 +6,10 @@
 :Версия: osgeo-live6.0
 :Лицензия: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-rasdaman.png
+.. image:: /images/project_logos/logo-rasdaman.png
  :alt: Логотип проекта
   :align: right
   :target: http://rasdaman.org
-
-.. image:: ../../images/logos/OSGeo_incubation.png
-  :scale: 100
-  :alt: OSGeo Incubation Project
-  :align: right
-  :target: http://www.osgeo.org
 
 Rasdaman
 ================================================================================
@@ -27,7 +21,7 @@ Rasdaman расширяет стандартные реляционные баз
 
 Технология **rasdaman** стабильна и отработана, её история разработки насчитывает более 10 лет; французский Национальный Институт географии использует **rasdaman** в создании карт воздушных масс, занимающих десятки терабайт. В 2007 году на конференции, посвящённой принципам систем баз данных, при поддержке Ассоциации вычислительной техники, эксперт по растровым базам данных Rona Machlin охарактеризовала rasdaman как "наиболее полную реализацию подобной системы".
 
-.. image:: ../../images/screenshots/1024x768/rasdaman-collage.png
+.. image:: /images/screenshots/1024x768/rasdaman-collage.png
   :scale: 50 %
   :align: right
 

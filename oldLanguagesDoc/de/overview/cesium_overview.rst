@@ -3,7 +3,7 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-cesium.png 
+.. image:: /images/project_logos/logo-cesium.png 
   :alt: project logo
   :align: right
   :target: http://cesiumjs.org
@@ -16,16 +16,16 @@ Cesium
 
 Cesium ist eine JavaScript Bibliothek zur Erstellung von 3D Globen und 2D Karten im Browser ohne jegliche Plugins. Cesium verwendet WebGL für Hardware beschleunigte Graphiken. Es ist plattformunabhängig, browserunabhängig und ist für die dynamische Datenvisualisierung optimiert.
 
-.. image:: ../../images/screenshots/1024x768/cesiumjs_3in1.png
+.. image:: /images/screenshots/1024x768/cesiumjs_3in1.png
   :scale: 50 %
   :alt: Cesium example
   :align: right
 
 Kernfunktionen
 --------------------------------------------------------------------------------
-* Dynamic räumliche Darstellung:
+* Dynamische räumliche Darstellung:
 
-  * Erzeugt Daten gesteuerte, zeitdynamische Szenen mit `CZML <https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide>`_.
+  * Erzeugt Daten-gesteuerte, zeitdynamische Szenen mit `CZML <https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide>`_.
   * Visualisiert ein hochauflösendes weltweites Terrain.
   * Zeichnet Rastererbenen mit Hilfe von WMS, TMS, OpenStreetMaps, Bing, und Esri Standards.
   * Zeichnet Vektor Daten über GeoJSON und TopoJSON.
@@ -34,9 +34,9 @@ Kernfunktionen
 
 * Entwickelt für Performanz und Präzision:
 
-  * Optimiertes WebGL über stabelweise und effizientes Auslesen von Hardware beschleunigten Graphiken.
+  * Optimiertes WebGL um die Graphiken effizient zu beschleunigen.
   * Zeichnet eine große Auswahl an Geometrien inklusive Polylinien, Polygonen, Marker, Beschriftungen, Verdrängungen und Korridore.
-  * Kontroolliert die Kamera und erzeugt Flugrouten.
+  * Kontrolliert die Kamera und erzeugt Flugrouten.
   * Verwendet Standard Widgets zur kontrolle der Animationszeit, Auswahl von Bildebenen und Zoom auf Positionen.
 
 * Eine API, drei Ansichten: 

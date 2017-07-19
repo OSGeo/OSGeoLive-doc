@@ -4,10 +4,17 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-otb.png
+.. image:: /images/project_logos/logo-otb.png
   :scale: 80 %
   :alt: project logo
   :align: right
+  :target: http://www.orfeo-toolbox.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 Guida rapida su OTB
@@ -88,7 +95,7 @@ Effettuare la segmentazione con Monteverdi
 * Nella finestra principale, clicca il tasto destro su "Clustered Image" nel dataset risultante
   "MeanShift0" e seleziona "Display in viewer"
 
-  .. image:: ../../images/screenshots/800x600/otb-mean_shift.jpg
+  .. image:: /images/screenshots/800x600/otb-mean_shift.jpg
      :scale: 100 %
 
 Effettuare la classificazione assistita basata su SVM con Monteverdi
@@ -103,7 +110,7 @@ Effettuare la classificazione assistita basata su SVM con Monteverdi
 * Clicca sul bottone `Learn` per creare un modello di classificazione dalle classi del campione in input
 * Clicca sul bottone `Display` per mostrare il risultato della classificazione assistita sull'intera immagine
 
-  .. image:: ../../images/screenshots/800x600/otb-svm.jpg
+  .. image:: /images/screenshots/800x600/otb-svm.jpg
      :scale: 100 %
 
 Per il tutorial completo vedi l'  `articolo`_.

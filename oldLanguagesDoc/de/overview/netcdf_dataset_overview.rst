@@ -4,7 +4,7 @@
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-netcdf.png 
+.. image:: /images/project_logos/logo-netcdf.png 
   :alt: Projekt Logo
   :align: right
   :target: http://wiki.osgeo.org/wiki/Category:Education
@@ -27,7 +27,7 @@ Datenbereitstellung der University of Victoria PCIC (Pacific Climate Impacts Con
 in Kooperation mit AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba, Japan), NIES (National Institute for Environmental Studies, Ibaraki, Japan), JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa, Japan). 
 
 
-.. image:: ../../images/screenshots/800x600/netcdf_annual_avg_max_temp.png
+.. image:: /images/screenshots/800x600/netcdf_annual_avg_max_temp.png
   :scale: 60 %
   :alt: Panoply NetCDF txxETCCDI_yr_MIROC5 screenshot
   :align: right
@@ -38,7 +38,7 @@ Details
 
 **Webseite:** http://www.pacificclimate.org/
 
-**Lizenz:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_
+**Lizenz:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`_
 
 **Daten Version:** 2013
 

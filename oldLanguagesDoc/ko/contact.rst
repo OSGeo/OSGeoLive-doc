@@ -9,7 +9,7 @@ Community Support
 
 질문이나 의견, 문제 사항 등이 있으시면 `이메일 리스트 <http://lists.osgeo.org/mailman/listinfo/live-demo>`_ 에 메시지를 남겨주세요.
 
-검색이 가능한 메일 리스트를 `Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ 와 `Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_ 이 관리하고 있습니다.
+검색이 가능한 메일 리스트를 `Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_ 이 관리하고 있습니다.
 
 인터넷 채팅 이용자들은 실시간의 도움이 필요할 경우 Freenode.net의 #osgeolive 혹은 #osgeo 채널을 이용해 보세요.
 
@@ -18,7 +18,7 @@ Community Support
 Commercial Support
 ================================================================================
 
-.. image:: ../images/logos/jirotechlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :scale: 100%
   :alt: Jirotech
   :target: http://jirotech.com

@@ -3,7 +3,7 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-spatialite.png
+.. image:: /images/project_logos/logo-spatialite.png
   :alt: Projekt Logo
   :align: right
   :target: http://www.gaia-gis.it/gaia-sins/
@@ -23,7 +23,7 @@ Die Dateien sind auch portabel; die gleiche Datenbank-Datei läuft auf Windows, 
 
 .. _SQLite: http://www.sqlite.org/
 
-.. image:: ../../images/screenshots/1024x768/spatialite.jpg
+.. image:: /images/screenshots/1024x768/spatialite.jpg
   :scale: 50 %
   :alt: Bildschirmfoto
   :align: right
@@ -49,7 +49,7 @@ Highlights:
 * Durchführung von standardkonformen SQL Abfragen auf externen CSV/TxtTab-Dateien, ohne diese zu importieren oder zu konvertieren
 * Ein GUI Werkzeug unterstützt all Funktionen auf eine benutzerfreundliche Art und Weise
 * Zugriff auf XML Dokumente, gespeicherte BLOB (komprimierte Binär-Objekte), inklusiver syntaktisch "wohlgeformter" 
-und XSF Schema Validation Constrained Prüfungen. Spezifische Unterstützung für ISO-Metadata, SLD/SE Styles und SVG Grafiken. XML Dokumente können über Standard XPath Syntax abgefragt werden.
+    und XSF Schema Validation Constrained Prüfungen. Spezifische Unterstützung für ISO-Metadata, SLD/SE Styles und SVG Grafiken. XML Dokumente können über Standard XPath Syntax abgefragt werden.
 * Abfrage externer WFS
 * Parsen externer DXF Dateien (alle Versionen) und Speichern der Themen und Geometrien 
 * Generierung und Export von DXF Dateien

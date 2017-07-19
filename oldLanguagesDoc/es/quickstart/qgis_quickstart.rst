@@ -6,11 +6,17 @@
 
 .. _qgis-quickstart-es:
  
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 Guía de inicio rápido de QGIS 
@@ -40,7 +46,7 @@ Editar un proyecto de QGIS
 
    * Los Poblados ahora son desplegados:
 
-     .. image:: ../../images/screenshots/1024x768/qgis.png
+     .. image:: /images/screenshots/1024x768/qgis.png
         :scale: 50 %
 
 #. Doble clic en **10m_rivers_lake_centerlines** en el árbol de capas.

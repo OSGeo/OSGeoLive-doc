@@ -3,14 +3,14 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoNetwork.png
+.. image:: /images/project_logos/logo-GeoNetwork.png
   :alt: project logo
   :align: right
   :target: http://geonetwork-opensource.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
-  :alt: Λογισμικό ενσωματωμένο στο OSGeo
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
 
@@ -22,7 +22,7 @@ GeoNetwork
 
 Το GeoNetwork OpenSource είναι μια εφαρμογή καταλόγου για τη διαχείριση χωρικά ορισμένων πηγών. Παρέχει ισχυρές δυνατότητες επεξεργασίας και αναζήτησης μεταδεδομένων, έναν ενσωματωμένο δυναμικό διαδικτυακό χάρτη, και είναι βασισμένο σε ανοιχτά πρότυπα.
 
-.. image:: ../../images/screenshots/1024x768/geonetwork-overview.jpg
+.. image:: /images/screenshots/1024x768/geonetwork-overview.jpg
   :scale: 50 %
   :alt: project logo
   :align: right

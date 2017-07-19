@@ -3,7 +3,7 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-mapslicer.png
+.. image:: /images/project_logos/logo-mapslicer.png
   :alt: project logo
   :align: right
 ..  :target: https://wiki.osgeo.org/wiki/MapSlicer
@@ -32,6 +32,7 @@ MapSlicerはマルチプラットフォームのデスクトップアプリケ�
 * 商用のレイヤ(Google, Bing, Yahoo)またはOpenStreetMapと簡単マッシュアップ
 * Tiles は OSGEO TMS (Tile Map Service Specification)に準拠
 * 様々なラスタフォーマット処理能力: TIFF/GeoTIFF, MrSID, ECW, JPEG2000, Erdas HFA, NOAA BSB, JPEG など
+
 .. * 商用へのサポートおよびマルチコアCPUまたはAmazon EC2クラスター上の並列レンダリング処理
 
 詳細

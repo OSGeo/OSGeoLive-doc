@@ -3,7 +3,7 @@
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Kosmo.png
+.. image:: /images/project_logos/logo-Kosmo.png
   :alt: project logo
   :align: right
   :target: http://www.opengis.es/index.php?lang=en
@@ -20,7 +20,7 @@ Kosmo - Desktop はユーザーフレンドリなデスクトップ GIS アプ�
 様々な OGS 標準に対応しており、すばらしいトポロジ完全を提供します。
 プラグインアーキテクチャにより特定の目的用に簡単に機能拡張ができるようになっています。
 
-.. image:: ../../images/screenshots/1024x768/kosmo.jpg
+.. image:: /images/screenshots/1024x768/kosmo.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -4,7 +4,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
-.. image:: ../../images/project_logos/logo-osm.png
+.. image:: /images/project_logos/logo-osm.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -133,7 +133,7 @@ continguts en una extracció de la base d'OpenStreetMap (.osm). El resultat s'em
 en un arxiu de la base de dades SQLite. El directory `/usr/local/share/data/osm` conté un
 conjunt de dades d'exemple que es poden explorar amb el programa `SQLite database browser` que 
 podeu trobar en el menu de bases de dades.
-Dintre de les utilitat contingudes al DVD, el programa :doc:`GpsDrive <../overview/gpsdrive_overview>`
+Dintre de les utilitat contingudes al DVD, el programa GpsDrive
 usa aquesta utilitat per a buscar dintre d'una llista d'equipaments locals.
 Per executar el programa manualment, feu:
 

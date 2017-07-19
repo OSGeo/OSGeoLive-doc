@@ -3,11 +3,17 @@
 :Version: osgeo-live10.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-pgRouting.png
+.. image:: /images/project_logos/logo-pgRouting.png
 	:scale: 100 %
 	:alt: pgRouting logo
 	:align: right
 	:target: http://www.pgrouting.org
+
+.. image:: /images/logos/OSGeo_community.png
+   :scale: 100
+   :alt: OSGeo Community Project
+   :align: right
+   :target: http://www.osgeo.org
 
 ********************************************************************************
 pgRouting クイックスタート
@@ -22,15 +28,15 @@ pgRouting は、経路探索と他のネットワーク解析機能を :doc:`Pos
 このサンプルでは、 `city_routing` というデータベースを作成し、そのデータベースで pgRouting を有効化します。
 
 * メニューから :menuselection:`Applications --> Accessories --> Terminal` を開き、 psql を起動します:
-(psql は、PostgreSQL にパッケージされているコマンドラインツールです。)
+    (psql は、PostgreSQL にパッケージされているコマンドラインツールです。)
 
-.. code-block:: bash
+::
 
   	psql
 
 psql のプロンプトで、以下をタイプします:
 
-.. code-block:: sql
+::
 
 	CREATE DATABASE city_routing;
 	\connect city_routing;
@@ -42,11 +48,11 @@ psql のプロンプトで、以下をタイプします:
 
 インストールの確認は、以下の実行により可能です:
 
-.. code-block:: sql
+::
 
 	SELECT  * FROM pgr_version();
 
-.. code-block:: bash
+::
 
 	 version |       tag       |  hash   | branch | boost
 	---------+-----------------+---------+--------+--------
@@ -62,19 +68,19 @@ osm2pgrouting は .osm ファイルを pgRouting の互換フォーマットに�
 
 最初に、インストールされている osm2pgrouting のバージョンの確認を行います。 2.1 かそれ以上である必要があります。
 
-.. code-block:: bash
+::
 
 	osm2pgrouting --version
 
 出力が表示されます:
 
-.. code-block:: bash
+::
 
 	This is osm2pgrouting Version 2.1
 
 では、 osm ファイルからデータを読み込みます。
 
-.. code-block:: bash
+::
 
 	 cd 
 	 bzcat data/osm/feature_city.osm.bz2 > /tmp/feature_city.osm
@@ -84,7 +90,7 @@ osm2pgrouting は .osm ファイルを pgRouting の互換フォーマットに�
 
 出力は以下のような形となるはずです:
 
-.. code-block:: bash
+::
 
 	Opening data file: feature_city.osm
 	    Parsing data
@@ -126,13 +132,13 @@ pgRouting を実行する
 
 * メニューから、 :menuselection:`Applications --> Accessories --> Terminal` を開き、 ``city_routing`` データベースに接続します。
 
-.. code-block:: bash
+::
 
 	psql -U postgres city_routing
 
 * :command:`\\d` とタイプすると、利用可能なテーブルの一覧が表示されます。
 
-.. code-block:: sql
+::
 
 	                    List of relations
 	 Schema |           Name           |   Type   |  Owner
@@ -158,7 +164,7 @@ pgRouting を実行する
 
 * ダイクストラ法による最短経路探索関数を、無方向での移動を想定して実行します。
 
-.. code-block:: sql
+::
 
 	SELECT seq, node, edge, cost 
 		FROM pgr_dijkstra('
@@ -167,7 +173,7 @@ pgRouting を実行する
 			100, 600, false
 		);
 
-.. code-block:: sql
+::
 
 	 seq | node | edge  |         cost
 	-----+------+-------+-----------------------
@@ -187,14 +193,14 @@ pgr_dijkstra はさらにノードとエッジに bigint 型を使用可能で�
 ノードと一致する osm_id を検索するために、以下のクエリを使用してみます。
 
 
-.. code-block:: sql
+::
 
 	SELECT id, osm_id 
 		FROM ways_vertices_pgr where id IN( 100, 600);
 
 これは以下を出力します:
 
-.. code-block:: bash
+::
 
 	 id  |   osm_id
 	-----+------------
@@ -206,7 +212,7 @@ pgr_dijkstra はさらにノードとエッジに bigint 型を使用可能で�
 osm_id を使用するために、
 以下のクエリに変更してみます:
 
-.. code-block:: sql
+::
 
 	SELECT seq, node, edge, cost 
 	FROM pgr_dijkstra('
@@ -221,7 +227,7 @@ pgr_dijkstra のクエリカラムが source と target になります。
 
 出力は:
 
-.. code-block:: sql
+::
 
 	 seq |    node    | edge  |         cost
 	-----+------------+-------+-----------------------
@@ -249,7 +255,7 @@ pgRouting の全ての関数は、 bigint 型を使用できるよう変更さ�
 
 * 経路のジオメトリを出力するために、結果を道路のジオメトリにリンクさせます。
 
-.. code-block:: sql
+::
 
 	SELECT seq, edge, rpad(b.the_geom::text,60,' ') AS "the_geom (truncated)" 
 		FROM pgr_dijkstra('
@@ -259,7 +265,7 @@ pgRouting の全ての関数は、 bigint 型を使用できるよう変更さ�
 		) a INNER JOIN ways b ON (a.edge = b.gid) ORDER BY seq;
 
 
-.. code-block:: sql
+::
 	
 	 seq | edge  |                     the_geom (truncated)
 	-----+-------+--------------------------------------------------------------
@@ -275,8 +281,8 @@ pgRouting の全ての関数は、 bigint 型を使用できるよう変更さ�
 
 
 * 経路は :doc:`OpenJump <../overview/openjump_overview>` や
-:doc:`QGIS <../overview/qgis_overview>` DbManager プラグインなどの
-グラフィカルツールを使用して表示することができます。
+    :doc:`QGIS <../overview/qgis_overview>` DbManager プラグインなどの
+    グラフィカルツールを使用して表示することができます。
 
 QGIS の DbManager プラグインを使用するには、QGIS を起動し、メニューから ``Database -> DB Manager -> DB Manager`` を選択します。
 SQL Window アイコンを選択し、上記の pgRouting クエリをカット&ペーストします。
@@ -288,7 +294,7 @@ SQL Window アイコンを選択し、上記の pgRouting クエリをカット&
 異なるかもしれません。
 これらの場合、 `reverse_cost` カラムを、クエリに追加する必要があります。
 
-.. code-block:: sql
+::
 
 	SELECT seq, node, edge, cost 
 		FROM pgr_dijkstra('
@@ -305,9 +311,7 @@ SQL Window アイコンを選択し、上記の pgRouting クエリをカット&
 ================================================================================
 
 * **pgRouting ウェブサイト** - プロジェクトのウェブサイト http://www.pgrouting.org で、pgRouting についてさらに学ぶことができます。
-
 * **pgRouting ドキュメント** - 最新のドキュメントは http://docs.pgrouting.org にあります。
-
 * **pgRouting ワークショップ** - ワークショップ `"FOSS4G routing with pgRouting tools and OpenStreetMap road data"` が http://workshop.pgrouting.org で利用可能です。
 * **osm2pgRouting でのデータ読み込み** - https://github.com/pgRouting/osm2pgrouting/wiki/Documentation-for-osm2pgrouting-v2.1
 * **QGIS pgRoutingLayer プラグイン** - https://plugins.qgis.org/plugins/pgRoutingLayer/ は pgRouting 関数のための GUI を提供し、地図と連動するため、SQL を書く必要がなくなります。

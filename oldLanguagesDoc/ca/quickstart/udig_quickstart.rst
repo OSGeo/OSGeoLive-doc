@@ -34,7 +34,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: udig-devel list
 
-.. image:: ../../images/project_logos/logo-uDig.png
+.. image:: /images/project_logos/logo-uDig.png
   :scale: 60 %
   :alt: project logo
   :align: right
@@ -59,7 +59,7 @@ Iniciar uDig
 #. Seleccioneu |osgeolive-appmenupath-udig| en el menú d'inici
 #. L'aplicació trigarà uns moments en iniciar-se
 
-.. image:: ../../images/screenshots/800x600/udig_Quickstart1Splash.png
+.. image:: /images/screenshots/800x600/udig_Quickstart1Splash.png
    :scale: 70 %
 
 Si teniu qualsevol problema amb l'execució d'uDig, reviseu si us plau la pàgina de referència 'Running uDig'.
@@ -73,7 +73,7 @@ En aquesta pantalla podreu veure enllaços a documentació d'ajuda, a manuals en
 #. Feu clic sobre la fletxa anomenada 'Workbench', que apareix en la cantonada superior dreta, per tal de mostrar 
 el contingut de l'entorn de treball d'uDig.
   
-  .. image:: ../../images/screenshots/800x600/udig_welcome.png
+  .. image:: /images/screenshots/800x600/udig_welcome.png
    :scale: 70 %
    
 Sempre que vulgueu podeu tornar a aquesta pantalla de benvinguda seleccionant l'opció :menuselection:`Help --> Welcome` en la barra de menú.
@@ -84,7 +84,7 @@ Entorn de treball (Workbench)
 La finestra de l'entorn de treball (Workbench) ofereix diversos Editors (cadascú mostrant un mapa) i 
 suporta diferents Vistes que mostren informació sobre el mapa amb què es treballa.
 
-  .. image:: ../../images/screenshots/800x600/udig_workbench.png
+  .. image:: /images/screenshots/800x600/udig_workbench.png
    :scale: 70 %
 
 La imatge anterior mostra una sessió típica d'uDIG amb 
@@ -137,7 +137,7 @@ Per començar carregarem algunes de les dades d'exemple incloses en el DVD.
 
 #. Seleccioneu la capa `HYP_50M_SR_W` en la vista de catàleg i arrossegueu-la al final de la llista.
   
-  .. image:: ../../images/screenshots/800x600/udig_QuickstartCountriesMap.png
+  .. image:: /images/screenshots/800x600/udig_QuickstartCountriesMap.png
    :scale: 70 %
 
 .. note::
@@ -155,30 +155,30 @@ Amb les eines de navegació, que trobareu en la barra de menú superior, podeu c
 
 #. L'eina de Zoom |ZOOM| està disponible per defecte
    
-   .. |ZOOM| image:: ../../images/screenshots/800x600/udig_zoom_mode.png
+   .. |ZOOM| image:: /images/screenshots/800x600/udig_zoom_mode.png
    
    * Podeu usar aquesta eina dibuixant una caixa amb el botó esquerre del ratolí marcant l'àrea del mapa que es vol veure.
    * Per fer zoom out, dibuixeu una caixa amb el botó dret del ratolí. L'extensió del mapa que s'està visualitzant quedarà dintre de la caixa dibuixada.
 
 #. L'eina Pan |PAN| es pot usar per moure's pel mapa canviant l'escala.
   
-   .. |PAN| image:: ../../images/screenshots/800x600/udig_pan_mode.png
+   .. |PAN| image:: /images/screenshots/800x600/udig_pan_mode.png
 
 #. N'hi han altres botons de navegació que es poden usar en qualssevol moment:
  
    * |SHOWALL| Mostrar tot, mostra l'extensió total del mapa.
    
-     .. |SHOWALL| image:: ../../images/screenshots/800x600/udig_zoom_extent_co.png
+     .. |SHOWALL| image:: /images/screenshots/800x600/udig_zoom_extent_co.png
 
    * |ZOOM_IN| Apropar-se i |ZOOM_OUT| Allunyar-se es poden usar per canviar l'escala de visualització a un valor determinat.
 
-     .. |ZOOM_IN| image:: ../../images/screenshots/800x600/udig_zoom_in_co.png
-     .. |ZOOM_OUT| image:: ../../images/screenshots/800x600/udig_zoom_out_co.png
+     .. |ZOOM_IN| image:: /images/screenshots/800x600/udig_zoom_in_co.png
+     .. |ZOOM_OUT| image:: /images/screenshots/800x600/udig_zoom_out_co.png
 
    * Podeu usar Navigation Back |BNAV| i Forward |FNAV| que estan disponibles en la barra de menú, per tornar a localitzacions que hagueu consultat prèviament.
 
-     .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.png
-     .. |FNAV| image:: ../../images/screenshots/800x600/udig_forward_nav.png
+     .. |BNAV| image:: /images/screenshots/800x600/udig_backward_nav.png
+     .. |FNAV| image:: /images/screenshots/800x600/udig_forward_nav.png
 
 Servidor Web de Mapes (Web Map Server)
 ================================================================================
@@ -197,7 +197,7 @@ d'informació que es poden incloure en els vostres mapes.
 
 #. Canvieu a la vista **Web** fent clic en la següent pestanya per accedir a la vista **Catalog** on es desplegarà la vista *Web*.
 
-	.. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
+	.. image:: /images/screenshots/800x600/udig_WebViewClick.png
 		:scale: 50 %
 
 #. Feu clic en l'enllaç WMS\:`dm solutions`_ link
@@ -210,19 +210,19 @@ d'informació que es poden incloure en els vostres mapes.
    * Parks
    * Cities
    
-	.. image:: ../../images/screenshots/800x600/udig_AddWMSLayers.png
+	.. image:: /images/screenshots/800x600/udig_AddWMSLayers.png
 		:scale: 70 %
 
 #. Feu clic sobre :guilabel:`Finish` per tal d'afegir aquestes capes sobre el vostre mapa
    
-	.. image:: ../../images/screenshots/800x600/udig_WMSMap.png
+	.. image:: /images/screenshots/800x600/udig_WMSMap.png
 		:scale: 70 %
 
 #. Fent ús de l'eina de Zoom |ZOOM|,  apropeu-vos a un dels parcs (capa Parks)
 
 #. Seleccioneu l'eina d'informació |INFO| i feu clic sobre un dels parcs per consultar la informació associada
 
-.. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.png
+.. |INFO| image:: /images/screenshots/800x600/udig_info_mode.png
 
 .. tip:: Podeu canviar la selecció entre les eines de zoom i d'informació usant les tecles `Z` i `I`.
 
@@ -243,7 +243,7 @@ Estils
    
    * Label: En la pestanya :guilabel:`Labels` seleccioneu l'opció :guilabel:`enable/disable labeling`, i escolliu l'atribut **NAME** de la llista d'atributs
 
-   .. image:: ../../images/screenshots/800x600/udig_StyleEditor.png
+   .. image:: /images/screenshots/800x600/udig_StyleEditor.png
       :scale: 70 %
 
 #. Feu clic sobre :guilabel:`Apply` per veure quin aspecte té finalment el mapa, la vista **Layer** s'actualitzarà per reflectir l'estil actual
@@ -261,7 +261,7 @@ Podeu focalitzar la vostra tasca en l'aspecte que més us interessi seleccionant
 Usant la vista *Layer* podeu seleccionar diferents capes per veure els efectes de l'aplicació dels estils.
 Per desactivar aquest efecte podeu fer servir en qualssevol moment l'opció :menuselection:`Map --> Mylar` de la barra de menú.
   
-	.. image:: ../../images/screenshots/800x600/udig_MapMylar.png
+	.. image:: /images/screenshots/800x600/udig_MapMylar.png
 		:scale: 70 %
 
 Coses per provar

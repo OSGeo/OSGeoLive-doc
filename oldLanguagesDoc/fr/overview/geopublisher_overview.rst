@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Geopublisher.png
+.. image:: /images/project_logos/logo-Geopublisher.png
   :alt: Logo du projet
   :align: right
   :target: http://en.geopublishing.org/Geopublisher
@@ -23,7 +23,7 @@ Les entités uniques de Geopublisher le rendent spécialement applicable dans le
 
 Caractéristiques principales
 --------------------------------------------------------------------------------
-.. image:: ../../images/screenshots/1024x768/geopublisher-overview.png
+.. image:: /images/screenshots/1024x768/geopublisher-overview.png
   :scale: 40 %
   :alt: Capture d'écran de Geopublisher pour éditer un atlas
   :align: right

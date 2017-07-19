@@ -3,10 +3,17 @@
 :Version: OSGeo-Live 4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-otb.png
+.. image:: /images/project_logos/logo-otb.png
   :scale: 80 %
   :alt: project logo
   :align: right
+  :target: http://www.orfeo-toolbox.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 OTB 快速入门 
@@ -51,7 +58,7 @@ Monteverdi 影象分割
 * 点击 "Close" 完成；
 * 在主界面中对生成的 "MeanShift0" 右击 "Clustered Image" 并选择 "Display in viewer" 显示。
 
-  .. image:: ../../images/screenshots/800x600/otb-mean_shift.jpg
+  .. image:: /images/screenshots/800x600/otb-mean_shift.jpg
      :scale: 100 %
 
 Monteverdi SVM 监督分类
@@ -66,7 +73,7 @@ Monteverdi SVM 监督分类
 * 点击 `Learn` 学习；
 * 点击 `Display` 执行分类。
 
-  .. image:: ../../images/screenshots/800x600/otb-svm.jpg
+  .. image:: /images/screenshots/800x600/otb-svm.jpg
      :scale: 100 %
 
 　　完整的教程见 `该网页`_ 。

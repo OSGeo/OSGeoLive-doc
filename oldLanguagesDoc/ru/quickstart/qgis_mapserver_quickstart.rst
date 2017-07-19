@@ -3,10 +3,16 @@
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-qgis_mapserver.png
+.. image:: /images/project_logos/logo-qgis_mapserver.png
   :scale: 100 %
   :alt: логотип проекта
   :align: right
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 Начало работы с QGIS Server
@@ -39,7 +45,7 @@ OSGeo-Live содержит пример просмотрщика карт на 
 
 Вы должны увидеть окно браузера с веб-просмотрщиком карт, отображающим карту мира.
    
-.. image:: ../../images/screenshots/800x600/qgis_mapserver_browser.jpg
+.. image:: /images/screenshots/800x600/qgis_mapserver_browser.jpg
 
 Теперь мы изменим стиль отображения карты, используя QGIS.
 
@@ -102,5 +108,5 @@ OSGeo-Live содержит пример просмотрщика карт на 
 
 Хорошей отправной точкой для более подробного изучения QGIS Server являются `Руководство пользователя QGIS`_ и `вики-страница QGIS Server`_.
 
-.. _`QGIS User Guide`: http://docs.qgis.org/2.4/en/docs/user_manual/working_with_ogc/ogc_server_support.html
-.. _`QGIS Server Wiki page`: http://hub.qgis.org/wiki/quantum-gis/QGIS_Server_Tutorial
+.. _`Руководство пользователя QGIS`: http://docs.qgis.org/2.4/en/docs/user_manual/working_with_ogc/ogc_server_support.html
+.. _`вики-страница QGIS Server`: http://hub.qgis.org/wiki/quantum-gis/QGIS_Server_Tutorial

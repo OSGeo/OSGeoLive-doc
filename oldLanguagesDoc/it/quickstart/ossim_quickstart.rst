@@ -5,10 +5,16 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-ossim.png
+.. image:: /images/project_logos/logo-ossim.png
   :scale: 80 %
   :alt: project logo
   :align: right
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 Guida Rapida su OSSIM
@@ -34,7 +40,7 @@ Imagelinker
 * Selezionare un :menuselection:`image window --> select the pan icon --> click on the image --> press the button "propagate"`
 * Verificare che si veda 3 immagini satellitari a scale di grigio. 
 
-  .. image:: ../../images/screenshots/800x600/ossim_imagelinker2.jpg
+  .. image:: /images/screenshots/800x600/ossim_imagelinker2.jpg
      :scale: 100 %
 
 Per un tutorial completo vedere questo `articolo di un blog`_.

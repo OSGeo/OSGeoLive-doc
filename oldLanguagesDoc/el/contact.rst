@@ -12,8 +12,7 @@
 στην ηλεκτρονική μας `λίστα <http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
 
 Τα πρακτικά (με δυνατότητα αναζήτησης) της ηλεκτρονικής λίστας φιλοξενούνται από τους
-`Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ και 
-`Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_.
+`Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_.
 
 Οι χρήστες των προτοκόλων IRC μπορούν να δοκιμάσουν τα κανάλια  #osgeolive ή #osgeo στον εξυπηρετητή Freenode.net για επικοινωνία 
 σε πραγματικό χρόνο.
@@ -25,7 +24,7 @@
 Επαγγελματική Υποστήριξη
 ================================================================================
 
-.. image:: ../images/logos/jirotechlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :scale: 100%
   :alt: Jirotech
   :target: http://jirotech.com

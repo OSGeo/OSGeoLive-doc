@@ -4,7 +4,7 @@
 
 .. _mapslicer-overview-pl:
 
-.. image:: ../../images/project_logos/logo-mapslicer.png
+.. image:: /images/project_logos/logo-mapslicer.png
   :alt: project logo
   :align: right
   :target: https://wiki.osgeo.org/wiki/MapSlicer

@@ -1,7 +1,7 @@
 OSGeo-Live 赞助者
 ================================================================================
 
-.. image:: ../images/logos/OSGeo_compass_with_text_square.png
+.. image:: /images/logos/OSGeo_compass_with_text_square.png
   :alt: OSGeo
   :target: http://www.osgeo.org
 
@@ -9,7 +9,7 @@ OSGeo-Live 赞助者
 
 　
 
-.. image:: ../images/logos/jirotechlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :alt: Jirotech
   :target: http://jirotech.com
 
@@ -17,7 +17,7 @@ OSGeo-Live 赞助者
 
 　
 
-.. image:: ../images/logos/ucd_ice_logo.png
+.. image:: /images/logos/ucd_ice_logo.png
   :alt: Information Center for the Environment at the University of California, Davis
   :target: http://ice.ucdavis.edu
 
@@ -29,7 +29,7 @@ OSGeo-Live project.
 
 　
 
-.. image:: ../images/logos/debiangis_mollweide.png
+.. image:: /images/logos/debiangis_mollweide.png
   :scale: 60 %
   :alt: The DebianGIS and UbuntuGIS projects
   :target: http://wiki.debian.org/DebianGis
@@ -38,15 +38,12 @@ OSGeo-Live project.
 
 　
 
-.. image:: ../images/logos/OSDM_stacked.png
-  :alt: The Australian Government's Office of Spatial Data Management
-  :target: http://www.osdm.gov.au
+.. image:: /images/logos/georepublic.png
+  :alt:  Geolocation Technology Company
+  :target: https://georepublic.info
 
-The Australian Government's Office of Spatial Data Management sponsored
-Jirotech's review of Application Overviews, to achieve consistent,
-quality project write ups.
-
-　　澳大利亚政府的空间信息管理处为 Jirotech 对 OSGeo-Live 的简介文档编写提供了赞助，保证了稳定和高质量的文档支持。
+Georepublic is a Geolocation Technology Company, that embraces the idea of Free Software,
+and provide support and custom development for Open Source GIS software.
 
 　
 

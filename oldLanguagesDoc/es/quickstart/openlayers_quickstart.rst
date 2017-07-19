@@ -9,11 +9,17 @@
 Guía de inicio rápido de OpenLayers 
 ********************************************************************************
 
-.. image:: ../../images/project_logos/logo-OpenLayers.png
+.. image:: /images/project_logos/logo-OpenLayers.png
   :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://openlayers.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 Esta Guía de Inicio Rápido describe algunos pasos básicos necesarios para empezar a trabajar con penLayers3: crear un mapa básico, añadir capas raster y vectorial y dar estilos a los elementos. 
 
@@ -101,7 +107,7 @@ Crear un archivo, por ejemplo en /home/user/ llamado basic-map.html, y copiar lo
 
 Ahora, intentar abri el archivo basic-map.html desde un navegador web. Se debería ver lo siguiente:
 
-.. image:: ../../images/screenshots/800x600/openlayers-basic-map.png
+.. image:: /images/screenshots/800x600/openlayers-basic-map.png
   :scale: 100 %
 
 Notas:
@@ -178,7 +184,7 @@ Las capas vectoriales están representadas por la clase ``ol.layer.Vector`` y de
 
 **Ej. 5:** Construcción de una capa vectorial GeoJSON
 
-.. image:: ../../images/screenshots/800x600/openlayers-vector.png
+.. image:: /images/screenshots/800x600/openlayers-vector.png
   :scale: 100 %
 
 Nota: en el código anterior se debe cambiar ``url_to_file`` para apuntar a un fichero GeoJSON válido localizado en el servidor. 
@@ -225,7 +231,7 @@ El estilo está determinado por una combinación de relleno, grosor, texto e ima
 
 Un estilo se representa por la clase ``ol.style.Style`` que tiene propiedades para definir el relleno (``fill``),  grosor(``stroke``), texto (``text``) e imágen (``image``) a ser aplicadas. El siguiente ejemplo muestra los límites administrativos mundiales con un estilo que les da relleno verde y grosor.
 
-.. image:: ../../images/screenshots/800x600/openlayers-styling.png
+.. image:: /images/screenshots/800x600/openlayers-styling.png
   :scale: 100 %
 
 .. code-block:: javascript

@@ -4,7 +4,7 @@
 :Version: OSGeo-Live 5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ncdataset.png 
+.. image:: /images/project_logos/logo-ncdataset.png 
   :alt: project logo
   :align: right
   :target: http://wiki.osgeo.org/wiki/Category:Education
@@ -27,7 +27,7 @@ OSGeo 美国北卡洛莱娜州教育用数据集
 
 * 一小部分水域，栅格空间分辨率 3m-1m
 
-.. image:: ../../images/screenshots/1024x768/north_carolina_dataset_nviz.jpg
+.. image:: /images/screenshots/1024x768/north_carolina_dataset_nviz.jpg
   :scale: 60 %
   :alt: North Carolina dataset screenshot
   :align: right
@@ -59,7 +59,7 @@ OSGeo 美国北卡洛莱娜州教育用数据集
 
 **官方网站：** http://www.grassbook.org/data_menu3rd.php
 
-**版权协议：** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_
+**版权协议：** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`_
 
 **采集时间：** 2008 年
 

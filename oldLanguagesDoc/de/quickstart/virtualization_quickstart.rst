@@ -17,9 +17,8 @@ Vorteile einer Virtuellen Maschine
 --------------------------------------------------------------------------------
 
 * Antwortzeiten einer VM sind viel schneller als die einer DVD und vergleichbar mit einer direkten Installation auf dem Gastrechner.
-
 * Alle Konfigurationsanpassungen, Softwareaktualisierungen und gespeicherte Dateien sind permanent, so wie auf einem normalen Computer.
-mputer. Daher
+    Daher
 
  * können Sie das System anpassen und aktualisieren
  * können Sie ihre Anpassungen innerhalb der VM speichern
@@ -31,7 +30,7 @@ Systemvoraussetzungen
 --------------------------------------------------------------------------------
 
 * RAM: mindestens 2 GB. Das Lubuntu System läuft gut mit 1 GB RAM, es werden mindestens ebenso viel RAM für das Gastsystem benötigt.
-So werden 2 GB für reibungslosen Einsatz benötigt.
+    So werden 2 GB für reibungslosen Einsatz benötigt.
 * Freier Festplattenspeicher: Die Virtuelle Maschinen Datei (vmdk) von:  `live.osgeo.org <http://live.osgeo.org/en/download.html>`_  ist entpackt etwa 10 GB groß. Sie benötigt noch weiteren Speicher, um Arbeiten auf der Virtuellen Maschine zu ermöglichen. So sind 20 GB Speicher eine gute Empfehlung.
 * CPU: Jede CPU reicht aus, doch ist ein Prozessor, der "Virtualization Technology" unterstützt schneller. Sie können ihre CPU `hier <http://www.intel.com/support/processors/sb/cs-030729.htm>`_ prüfen.
 
@@ -55,38 +54,38 @@ Klicken Sie auf den "Download Virtuelle Maschine" Button. Entpacken Sie die heru
 
 Starten Sie die VirtualBox Anwendung und klicken Sie auf den Neu Button, um eine neue VM zu erzeugen, klicken Sie anschließend auf weiter.
 
-  .. image:: ../../images/screenshots/800x600/virtualbox.png
+  .. image:: /images/screenshots/800x600/virtualbox.png
          :scale: 50 %
 
 Geben Sie einen Namen für die VM wie beispielsweise OSGeo-Live ein, und wählen Sie Linux als "Operating System" und Ubuntu als "Version".
 
-  .. image:: ../../images/screenshots/800x600/virtualbox_select_name.png
+  .. image:: /images/screenshots/800x600/virtualbox_select_name.png
          :scale: 70 %
 
 Setzen Sie im nächsten Fenster den Speicher auf 1024 MB (oder mehr, wenn ihr Gastrechner über mehr als 4GB verfügt).
 
-  .. image:: ../../images/screenshots/800x600/vmdk_memory.jpg
-              :scale: 65 %
+  .. image:: /images/screenshots/800x600/vmdk_memory.png
+     :scale: 65 %
 
 Gehen Sie zum nächsten Fenster und wählen Sie "Bestehende Festplatte verwenden". Klicken Sie nun auf den Button (ein Ordnersymbol), um zu dem Speicherort der OSGeo-Live vmdk-Datei zu gelangen. Wählen Sie diese Datei aus und klicken Sie weiter und Erzeugen.
 
-  .. image:: ../../images/screenshots/800x600/vmdk_disk.jpg
-                   :scale: 65 %
+  .. image:: /images/screenshots/800x600/vmdk_disk.png
+     :scale: 65 %
 
 Sobald die VM erzeugt wurde, klicken Sie auf den Einstellungen Button. Gehen Sie im Bereich "Allgemein" zum Reiter "Erweitert" und klicken Sie "Show at top of screen" zur Anzeige der Werkzeugleiste im oberen Bereich.
 
-  .. image:: ../../images/screenshots/800x600/vmdk_general_advanced.jpg
-                   :scale: 65 %
+  .. image:: /images/screenshots/800x600/vmdk_general_advanced.png
+     :scale: 65 %
 
 Gehen Sie zu dem Bereich "Anzeige" und erhöhen Sie den Video Speicher auf 32 oder 64 MB.
 
-  .. image:: ../../images/screenshots/800x600/vmdk_display.jpg
-                   :scale: 65 %
+  .. image:: /images/screenshots/800x600/vmdk_display.png
+     :scale: 65 %
 
 Gehen Sie außerdem in den Bereich "Gemeinsame Ordner" und klicken Sie "Ordner hinzufügen" (grünes Ordnersymbol mit Plus auf der rechten Seite) und wählen Sie ein Verzeichnis auf ihrem Gastrechner aus, das Sie innerhalb der VM freigeben möchten.
 
- .. image:: ../../images/screenshots/800x600/vmdk_shared_folders.jpg
-                      :scale: 65 %
+ .. image:: /images/screenshots/800x600/vmdk_shared_folders.png
+     :scale: 65 %
 
 Dabei können gemeinsame Ordner wahlweise nur lesend und automatisch verbunden werden. Klicken Sie ok, sobald der "Ordnerpfad" und "Ordnername" definiert wurde und nochmals OK, um die Einstellungen zu speichern und das Fenster zu schließen.
 

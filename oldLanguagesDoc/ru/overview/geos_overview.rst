@@ -4,16 +4,16 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GEOS.png
+.. image:: /images/project_logos/logo-GEOS.png
   :alt: логотип проекта
   :align: right
   :target: http://geos.osgeo.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: Проект OSGeo
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GEOS
 ================================================================================

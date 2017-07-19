@@ -4,16 +4,16 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geomoose.png
+.. image:: /images/project_logos/logo-geomoose.png
   :alt: project logo
   :align: right
   :target: http://www.geomoose.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: OSGeo Project in Incubation
+  :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org/
 
 
 GeoMoose
@@ -28,7 +28,7 @@ GeoMOOSE is fast, performing well with hundreds of layers and/or services at a t
 
 The user interface is easily configurable, and additional services can be added through a modular architecture.
 
-.. image:: ../../images/screenshots/800x600/geomoose-screenshot-800x600.png
+.. image:: /images/screenshots/800x600/geomoose-screenshot-800x600.png
   :scale: 55 %
   :alt: geomoose-screenshot-800x600.png
   :align: right

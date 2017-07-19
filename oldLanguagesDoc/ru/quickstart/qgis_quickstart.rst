@@ -3,11 +3,17 @@
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :scale: 100 %
   :alt: Лого проекта
   :align: right
   :target: http://www.qgis.org
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 QGIS: начало работы
@@ -38,7 +44,7 @@ Quantum GIS (QGIS) — это дружественная к пользовате
 
    * Отобразятся города:
 
-     .. image:: ../../images/screenshots/1024x768/qgis.png
+     .. image:: /images/screenshots/1024x768/qgis.png
         :scale: 50 %
 
 #. Дважды щёлкните на **10m_rivers_lake_centerlines** в списке слоёв.

@@ -4,29 +4,29 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoTools.png
+.. image:: /images/project_logos/logo-GeoTools.png
   :alt: project logo
   :align: right
   :target: http://geotools.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GeoTools
 ================================================================================
 
 GeoTools és una llibreria Java de codi obert (LGPL) que proporciona mètodes que compleixen estàndards per manipular geodades, i usa estructures de dades basades en les especificacions de l'Open Geospatial Consortium (OGC).
 
-.. image:: ../../images/screenshots/800x600/geotools-overview.png
+.. image:: /images/screenshots/800x600/geotools-overview.png
   :scale: 60 %
   :alt: GeoTools és una llibreria modular amb suport per complements per a formats addicionals
   :align: right
 
 GeoTools s'utilitza a força projectes, incloent serveis web, eines de línia de comandes i aplicacions d'escriptori. Algunes de les aplicacions d'OSGeo-Live que inclouen GeoTools són: 
-:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, i :doc:`udig_overview`.
+:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, AtlasStyler, :doc:`geomajas_overview`, Geopublisher, :doc:`geoserver_overview`, i :doc:`udig_overview`.
 
 Característiques principals
 --------------------------------------------------------------------------------
@@ -59,7 +59,7 @@ Característiques principals
 
   * Proporciona capacitats addicionals construïdes usant les facilitats espacials de la llibreria.
   
-  .. image:: ../../images/screenshots/800x600/geotools-extension.png
+  .. image:: /images/screenshots/800x600/geotools-extension.png
      :alt: Extensions construïdes usant la llibreria GeoTools
 
   * Les extensions proporcionen suport de graf i xarxa (per trobar el recorregut més curt), validació, un client per al servidor web de mapes, enllaços per anàlisi xml i triador de colors.

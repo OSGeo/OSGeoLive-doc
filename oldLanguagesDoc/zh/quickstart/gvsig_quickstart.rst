@@ -3,9 +3,15 @@
 :Version: OSGeo-Live 5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-gvSIG.png
+.. image:: /images/project_logos/logo-gvSIG.png
    :scale: 50 
    :align: right
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 gvSIG 快速入门文档
@@ -37,7 +43,7 @@ gvSIG 快速入门文档
 #. gvSIG 默认在启动时将新建一个类型为“View”的空工程。
 #. 点击 [New] 新建一个视图。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_001.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_001.png
    :scale: 55 
 
 定义视图坐标系统
@@ -50,7 +56,7 @@ gvSIG 快速入门文档
 #. 点击 [Properties] 开启 **View properties 视图配置** 面板。
 #. 点击 'Current projection' 旁边的 [...] 按钮，开启 **New CRS 新坐标系统** 对话框。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_002.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_002.png
    :scale: 55 
 
 定义坐标系统
@@ -60,7 +66,7 @@ gvSIG 快速入门文档
 #. 输入 EPSG 坐标系统编码。本例中使用的是 EPSG=4326（WGS84 2D Geographic Projection）。点击 [Search] 按钮搜索。列表中将会显示所需项目。（注：EPSG 坐标系统编码可以在 spatialreference.org 查询。）
 #. 点击 [OK] 回到 **View Properties** 面板。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_003.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_003.png
    :scale: 55 
 
 保存视图配置
@@ -69,7 +75,7 @@ gvSIG 快速入门文档
 #. EPSG code 将更新为 4326 ，地图单位也将变为度。
 #. 点击 [OK] 回到 **Project Manager 工程管理页面** 。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_004.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_004.png
    :scale: 55 
 
 开启视图
@@ -83,7 +89,7 @@ gvSIG 快速入门文档
 #. 右侧主要面板为地图显示面板；
 #. 点击 'Maximise window' 可最大化显示。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_005.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_005.png
    :scale: 55 
 
 视图－添加栅格与矢量数据
@@ -96,7 +102,7 @@ gvSIG 快速入门文档
 #. 点击 **Add layer** 的 [Add] 按钮。默认选项为 *File 文件*，**Open 打开文件** 面板将开启。
 #. 选择 ``/usr/local/share/data/natural_earth/HYP_50M_SR_W`` 示例数据目录。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_006.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_006.png
    :scale: 55 
 
 选择栅格文件
@@ -106,7 +112,7 @@ gvSIG 快速入门文档
 #. 选择 ``HYP_50M_SR_W.tif`` 文件。
 #. 点击 [OK] 按钮回到 **Add layer** 面板。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_007.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_007.png
    :scale: 55 
 
 选择矢量文件
@@ -120,7 +126,7 @@ gvSIG 快速入门文档
 #. 点击 [OK] 回到 **Add layer** 。
 #. 点击 **Add layer** 中的 [OK] 回到主界面。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_008.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_008.png
    :scale: 55 
 
 视图和基本导航操作
@@ -134,7 +140,7 @@ gvSIG 快速入门文档
 #. 默认条件下，主工具栏中激活的工具是 *Zoom in 放大显示* 。
 #. 本示例中，可以在澳大利亚东南部绘制一个缩放显示框。按住鼠标键拖拽即可。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_009.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_009.png
    :scale: 55 
 
 高精度导航
@@ -145,7 +151,7 @@ gvSIG 快速入门文档
 #. 左侧面板的宽度可以调整以方便显示长文件。
 #. 使用截图中高亮的工具可以进一步实现显示调整。这里将 Victoria 地图放置于画面中央。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_010.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_010.png
    :scale: 55 
 
 视图－图层样式设置
@@ -158,7 +164,7 @@ gvSIG 快速入门文档
 #. 选择 *Properties 属性* 菜单；
 #. **Layer properties 图层属性** 对话框将开启。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_011.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_011.png
    :scale: 55 
 
 矢量图层渲染样式设置
@@ -169,7 +175,7 @@ gvSIG 快速入门文档
 #. 取消 *Fill color* 勾选使多边形内部透明；
 #. 点击 [OK] 回到 **Layers properties** 。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_012.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_012.png
    :scale: 55 
 
 矢量图层标注设置
@@ -178,7 +184,7 @@ gvSIG 快速入门文档
 #. 在 **Layers properties** 选择 *Labelling* 。
 #. 根据截图尝试更改设置，选择 [Accept] 确认。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_013.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_013.png
    :scale: 55 
 
 显示效果
@@ -186,7 +192,7 @@ gvSIG 快速入门文档
    
 　　如图，以上操作获得了一个基本的矢量图形叠加于栅格图像之上的 GIS 显示。运用同样的方法可以使用其它各类影象、数字高程模型及其它格式的矢量数据。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_014.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_014.png
    :scale: 55 
 
 练习－改变点、线图层的样式和标注
@@ -194,7 +200,7 @@ gvSIG 快速入门文档
 
 　　同前述类似，尝试改变河流和市镇图层的设定，使得其样式和标注与截图一致。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_015.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_015.png
    :scale: 55 
 
 简单分析操作－选定一定区域内的城镇
@@ -207,7 +213,7 @@ gvSIG 快速入门文档
 #. 点击 'Select by point' 图标；
 #. 选中代表 Victoria 州的多边形（如图）。默认设置下，该多边形将变为明黄色。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_016.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_016.png
    :scale: 55 
 
 选择区域内的市镇
@@ -218,7 +224,7 @@ gvSIG 快速入门文档
 #. 在 **Selection by Layer 以图层选择** 对话框设置相应的选择标准，点击 [New set] 执行选择。
 #. 点击 **Selection by Layer** 中的 [Cancel] 回到主界面。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_017.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_017.png
    :scale: 55 
 
 取消多边形选择并查看市镇图层的选择结果
@@ -228,7 +234,7 @@ gvSIG 快速入门文档
 #. 点击工具栏中的 'Clear selection' 图标；
 #. 现在画面上被选中的市镇要素得以清晰显示。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_018.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_018.png
    :scale: 55 
 
 将选中的要素输出至 shp 文件
@@ -240,7 +246,7 @@ gvSIG 快速入门文档
 #. 在 **Save 保存** 保存对话框，设置文件名和路径，点击 [Save] 。若在设置路径已有同名文件，程序将给出警告；
 #. 在 **Add layer 添加图层** 对话框，点击 [Yes] 确认将新数据添加到工程中。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_019.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_019.png
    :scale: 55 
 
 显示特定区域的市镇
@@ -252,7 +258,7 @@ gvSIG 快速入门文档
 #. Select the 'Close window' icon to return to the **Project manager** so we
    can create a map using this view.
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_020.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_020.png
    :scale: 55 
    
 创建地图
@@ -268,7 +274,7 @@ gvSIG 快速入门文档
 #. 一个空地图文档将会在其独立窗口显示。其标题为 ``Map: Untitled - 0`` ；图上显示的点是用于帮助调整页面布局的参考点；
 #. 点击 'Maximise window' 最大化窗口。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_021.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_021.png
    :scale: 55 
 
 创建坐标格网
@@ -284,7 +290,7 @@ gvSIG 快速入门文档
 #. 设置 'font size' 字体大小为 14 左右较为合适；
 #. 点击 [Ok] 回到 **Properties of view framework** 并选择 [Accept] 回到主界面。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_022.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_022.png
    :scale: 55 
 
 其它操作示例
@@ -295,7 +301,7 @@ gvSIG 快速入门文档
 #. 地图可以打印或输出到 PDF/Postscript 用于外部程序编辑。
 #. 点击 'Close window' 图标回到 **Project manager** 。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_023.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_023.png
    :scale: 55 
 
 保存工程和退出
@@ -304,7 +310,7 @@ gvSIG 快速入门文档
 #. 工程文件通过 ``File > Save as...`` 可以保存。
 #. 通过 ``File > Exit`` 可以退出程序。
 
-.. image:: ../../images/screenshots/1024x768/gvsig_qs_024.png
+.. image:: /images/screenshots/1024x768/gvsig_qs_024.png
    :scale: 55 
 
 其它信息

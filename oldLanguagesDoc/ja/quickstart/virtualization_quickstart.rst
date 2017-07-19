@@ -49,37 +49,37 @@
 
 VirtualBox アプリケーションを起動し、新しい VM を作成するために New ボタンをクリックし、Next をクリックします。
 
-  .. image:: ../../images/screenshots/800x600/virtualbox.png
+  .. image:: /images/screenshots/800x600/virtualbox.png
          :scale: 50 %
 
 イメージに OSGeo-Live のような名前を付け、"Operating System" に Linux、"Version" に Ubuntu を選択します。
 
-  .. image:: ../../images/screenshots/800x600/virtualbox_select_name.png
+  .. image:: /images/screenshots/800x600/virtualbox_select_name.png
          :scale: 70 %
 
 次の画面でメモリを 1024 MB に設定します (ホストコンピュータが 4GB 以上の場合はより大きな値を設定できます)。
 
-  .. image:: ../../images/screenshots/800x600/vmdk_memory.jpg
+  .. image:: /images/screenshots/800x600/vmdk_memory.png
               :scale: 65 %
 
 続けて、次の画面で "Use existing hard disk" を選択します。フォルダアイコンのボタンをクリックし、保存した osgeo-live-vm-6.0.vmdk ファイルを選択し、Next と Create を押下します。
 
-  .. image:: ../../images/screenshots/800x600/vmdk_disk.jpg
+  .. image:: /images/screenshots/800x600/vmdk_disk.png
                    :scale: 65 %
 
 VM が作成されたら、Settings ボタンをクリックします。"General" セクションで Advanced タブを選択し、Mini toolbar で "Show at top of screen" をクリックして選択します。
 
-  .. image:: ../../images/screenshots/800x600/vmdk_general_advanced.jpg
+  .. image:: /images/screenshots/800x600/vmdk_general_advanced.png
                    :scale: 65 %
 
 "Display" セクションで、ビデオメモリを 32 か 64 MB に増やします。
 
-  .. image:: ../../images/screenshots/800x600/vmdk_display.jpg
+  .. image:: /images/screenshots/800x600/vmdk_display.png
                    :scale: 65 %
 
 さらに、"Shared Folders" セクションに移動し、"Add folder" (右側の緑の "+" アイコン) をクリックし、VM 内部で共有したいホストコンピュータのディレクトリを指定します。
 
- .. image:: ../../images/screenshots/800x600/vmdk_shared_folders.jpg
+ .. image:: /images/screenshots/800x600/vmdk_shared_folders.png
                       :scale: 65 %
 
 "Folder path" と "Folder name" が決まったら、OK をクリックし、再度 OK をクリックして、設定ウィンドウを終了して閉じます。
@@ -92,7 +92,7 @@ OSGeo システムが起動したら、VirtualBox の "Guest Additions" を追�
 
 VirtualBox ウィンドウ内で、 :menuselection:`Devices` メニューを開き、 :menuselection:`Install Guest Additions` をクリックします。これにより、OSGeo Live VM 内で、Guest Additions が CD ドライブとしてマウントされます。
 
-  .. image:: ../../images/screenshots/800x600/vmdk_guest_additions.jpg
+  .. image:: /images/screenshots/800x600/vmdk_guest_additions.jpg
                         :scale: 80 %
 
 CD フォルダが表示されたら、ターミナルを開き、以下のコマンドを実行します:

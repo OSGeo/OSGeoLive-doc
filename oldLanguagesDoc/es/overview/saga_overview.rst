@@ -4,7 +4,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-saga.png
+.. image:: /images/project_logos/logo-saga.png
   :alt: project logo
   :align: right
   :target: http://www.saga-gis.org
@@ -29,7 +29,7 @@ SAGA está en desarrollo desde 2001, y el centro de desarrollo de SAGA se
 localiza en el Instituto de Geografía de la Universidad de Hamburgo, con
 las contribuciones de una creciente comunidad mundial.
 
-.. image:: ../../images/screenshots/1024x768/saga_overview.png
+.. image:: /images/screenshots/1024x768/saga_overview.png
   :scale: 40%
   :alt: screenshot
   :align: right

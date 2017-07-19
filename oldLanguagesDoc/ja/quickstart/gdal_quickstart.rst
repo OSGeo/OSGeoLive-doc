@@ -2,11 +2,17 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-GDAL.png
+.. image:: /images/project_logos/logo-GDAL.png
   :scale: 60 %
   :alt: project logo
   :align: right
   :target: http://gdal.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 
 ********************************************************************************
@@ -170,7 +176,7 @@ shp ファイルのタイルインデックスを作成できます。
 出力した shp ファイルを QGIS と ogrinfo で見ると以下のようになっています。
 （詳細は後述する ogrinfo の使い方を参照してください。）
 
-  .. image:: ../../images/screenshots/800x600/gdal_gdaltindex.png
+  .. image:: /images/screenshots/800x600/gdal_gdaltindex.png
      :scale: 80
 
 ::
@@ -213,7 +219,7 @@ gdalwarp コマンドでは画像の再投影ができます。ここでは WGS8
 
 gadlinfo で投影法の変換が行えたことを確認し、画像を見てみましょう。
 
-  .. image:: ../../images/screenshots/800x600/gdal_mercator.png
+  .. image:: /images/screenshots/800x600/gdal_mercator.png
      :scale: 80
 
 続いて、正射投影 に変換してみます。
@@ -223,7 +229,7 @@ gadlinfo で投影法の変換が行えたことを確認し、画像を見て�
    gdalwarp -t_srs '+proj=ortho +datum=WGS84' HYP_50M_SR_W_4326.tif ortho.tif
 
 
-.. image:: ../../images/screenshots/800x600/gdal_ortho.png
+.. image:: /images/screenshots/800x600/gdal_ortho.png
      :scale: 80
 
 ノート 極付近を切り出すにはどうしたらよいでしょうか？ gdalwarp ではすべてのデータを読むことができないため、極付近は投影を変換できません。足りない部分のデータを周辺のデータで強制的に埋めることで読み込ませることができます。詳しくは http://trac.osgeo.org/gdal/wiki/UserDocs/ にあるラスタチュートリアルをご覧下さい。

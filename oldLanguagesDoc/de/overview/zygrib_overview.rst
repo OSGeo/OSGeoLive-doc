@@ -3,7 +3,7 @@
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-zygrib.png
+.. image:: /images/project_logos/logo-zygrib.png
   :alt: Projekt Logo
   :align: right
   :target: http://www.zygrib.org
@@ -19,7 +19,7 @@ zyGrib ist ein Programm, um Daten zur Wettervorhersage im standardmäßigen GRIB
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/zygrib_xynthia_010b.jpg
+.. image:: /images/screenshots/1024x768/zygrib_xynthia_010b.jpg
   :scale: 40 %
   :alt: Bildschirmfoto
   :align: right

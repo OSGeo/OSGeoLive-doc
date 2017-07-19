@@ -16,37 +16,7 @@ Die OSGeo Foundation empfiehlt weder die damit in Bezug stehende Software, deren
 
 `Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, dass es Ihnen von Nutzen sein wird, aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite Garantie der MARKTREIFE oder der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK.`
 
-OSGeo unterstützende Sponsoren
---------------------------------------------------------------------------------
 
-.. image:: ../images/logos/geocat_logo.png
-  :alt: GeoCat
-  :target: http://geocat.net/
-
-
-.. image:: ../images/logos/Boundless_Logo.png
-  :alt: Boundless
-  :target: http://boundlessgeo.com/
-
-.. image:: ../images/logos/gaia3d.png
-  :alt: Gaia3D
-  :target: http://www.gaia3d.com/
-
-.. image:: ../images/logos/astun.png
-  :alt: Astun Technology
-  :target: https://astuntechnology.com/
-
-.. image:: ../images/logos/chameleon-john-logo.png
-  :alt: ChameleonJohn
-  :target: https://www.chameleonjohn.com/
-
-.. image:: ../images/logos/apps-for-rent-logo.png
-  :alt: Apps4Rent
-  :target: http://www.apps4rent.com/
-
-.. image:: ../images/logos/DealIslands.png
-  :alt: Dealslands
-  :target: http://www.dealslands.co.uk/
 
 
 Weitere Informationen

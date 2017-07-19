@@ -32,9 +32,8 @@ La méthode du packaging framework est un peu plus pointue, mais assure que la q
 * http://github.com/downloads/mapbox/tilemill/TileMill-0.10.1.zip
 
 
-   .. toctree::
+..   .. toctree::
      :maxdepth: 1
      :hidden:
      :glob:
-
      ../MacInstallers/index

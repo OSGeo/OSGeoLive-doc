@@ -4,16 +4,16 @@
 :Version: osgeo-live5.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoServer.png
+.. image:: /images/project_logos/logo-GeoServer.png
   :alt: project logo
   :align: right
   :target: http://geoserver.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org/
 
 GeoServer
 ================================================================================
@@ -30,7 +30,7 @@ Web 服务
 :doc:`../standards/wms_overview` 。
 GeoServer已成了Geospatial Web的一个核心组件。 
 
-.. image:: ../../images/screenshots/800x600/geoserver.png
+.. image:: /images/screenshots/800x600/geoserver.png
   :scale: 60 %
   :alt: Screen Shot of GeoServer
   :align: right

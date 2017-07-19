@@ -3,7 +3,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
-.. image:: ../../images/project_logos/logo-osm.png
+.. image:: /images/project_logos/logo-osm.png
   :scale: 100 %
   :alt: логотип проекта
   :align: right
@@ -138,7 +138,7 @@ osm2poidb
 Обработанная версия объектов OSM типа "город", входящая в состав данных на этом диске,
 находится в директории `/usr/local/share/data/osm` и может быть обнаружена
 с помощью программы `SQLite database browser` в меню Базы данных (Databases). На этом диске
-используется программное обеспечение :doc:`GpsDrive <../overview/gpsdrive_overview>` для 
+используется программное обеспечение GpsDrive для 
 получения доступного для поиска списка местных объектов инфраструктуры (ключ *amenity*). 
 Чтобы запустить его "вручную", выполните следующую команду:
 

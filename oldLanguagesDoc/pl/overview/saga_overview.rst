@@ -4,7 +4,7 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-saga.png
+.. image:: /images/project_logos/logo-saga.png
   :alt: project logo
   :align: right
   :target: http://www.saga-gis.org
@@ -28,7 +28,7 @@ SAGA jest tworzona od 2001r., a centrum jej rozwoju znajduje się
 w Instytucie Geografii na Uniwersytecie w Hamburgu, z udziałem 
 rosnącej światowej społeczności.
 
-.. image:: ../../images/screenshots/1024x768/saga_overview.png
+.. image:: /images/screenshots/1024x768/saga_overview.png
   :scale: 40%
   :alt: screenshot
   :align: right

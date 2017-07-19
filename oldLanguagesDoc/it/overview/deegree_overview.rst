@@ -4,12 +4,12 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-deegree.png
+.. image:: /images/project_logos/logo-deegree.png
   :alt: project logo
   :align: right
   :target: http://www.deegree.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right
@@ -39,7 +39,7 @@ nonché i servizi di sensori e di elaborazione.
 deegree rende il vostro SDI installato e funzionante, utilizzando i vostri dati e 
 soddisfacendo le vostre esigenze.
 
-.. image:: ../../images/screenshots/1024x768/deegree_mainpage.png
+.. image:: /images/screenshots/1024x768/deegree_mainpage.png
   :scale: 50%
   :alt: project logo
   :align: right

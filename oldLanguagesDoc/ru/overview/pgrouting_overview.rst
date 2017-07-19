@@ -3,10 +3,16 @@
 :Версия: osgeo-live5.5
 :Лицензия: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-pgRouting.png
+.. image:: /images/project_logos/logo-pgRouting.png
   :alt: Логотип pgRouting
   :align: right
   :target: http://www.pgrouting.org/
+
+.. image:: /images/logos/OSGeo_community.png
+   :scale: 100
+   :alt: OSGeo Community Project
+   :align: right
+   :target: http://www.osgeo.org
 
 pgRouting
 ================================================================================
@@ -22,7 +28,7 @@ pgRouting
 * Изменения данных моментально отражаются роутинговым движком. Нет необходимости в предварительной обработке.
 * Значение стоимости могут быть рассчитаны динамически при помощи SQL в зависимости от значений нескольких полей таблицы.
 
-.. image:: ../../images/screenshots/800x600/pgrouting.png
+.. image:: /images/screenshots/800x600/pgrouting.png
   :scale: 60 %
   :alt: Запрос к pgRouting в pgAdminIII
   :align: right

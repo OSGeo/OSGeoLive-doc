@@ -8,7 +8,7 @@
 
 　　若对 OSGeo-Live 有任何问题、意见或建议，请在 `我们的邮件列表 <http://lists.osgeo.org/mailman/listinfo/live-demo>`_ 上说明。
 
-　　在 `Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ 和 `Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_ 上可以查看以往的邮件，并能够搜索。
+　　`Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_ 上可以查看以往的邮件，并能够搜索。
 
 　　IRC 用户通过我们在 Freenode.net 的 #osgeolive 和 #osgeo 两个频道可以获得实时的帮助。
 
@@ -17,7 +17,7 @@
 商业性支持（英文）
 ================================================================================
 
-.. image:: ../images/logos/jirotechlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :scale: 100%
   :alt: Jirotech
   :target: http://jirotech.com

@@ -11,15 +11,15 @@
   Project logos are stored here:
     https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
-    ../../images/project_logos/<filename>
+    /images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -34,7 +34,7 @@ Sensor Model Language (SensorML)
 
 Der OGC Sensor Model Language (SensorML) Standard beschreibt ein Informationsmodel und XML-Encoding, welche das Auffinden und Nutzbarmachen von Web-verfügbaren Sensoren wie auch die Erforschung von Sensorbeobachtungen ermöglicht. Innerhalb dieses Kontextes erlaubt SensorML dem Entwickler, Modelle und XML-Schemata zu definieren, sowie jeglichen Prozeß inklusive der Messungen eines Sensorsystems zu beschreiben und zu verarbeiten. (http://www.opengeospatial.org/standards/sensorml)
 
-.. image:: ../../images/standards/sensorml.jpg
+.. image:: /images/standards/sensorml.jpg
   :scale: 55%
   :alt: sensorML in Context
 

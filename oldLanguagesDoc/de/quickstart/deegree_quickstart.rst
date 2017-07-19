@@ -2,11 +2,17 @@
 :Version: OSGeo-Live DVD, Version 7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-deegree.png
+.. image:: /images/project_logos/logo-deegree.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.deegree.org
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 deegree 3 webservices quickstart 
@@ -110,7 +116,7 @@ Ebenen. Hier kann die vom deegree WMS angebotene INSPIRE Ebene aktiviert werden.
     einem Mausklick ein Rechteck gezogen werden, auf das gezoomt wird.
 
 Informationen und Step-By-Step Tutorials zur Konfiguration des INSPIRE workspaces finden Sie in
-ausführlicher Form in der  *deegree* `Dokumentation <http://download.deegree.org/documentation/3.3.18/html/lightly.html#example-workspace-1-inspire-network-services/>`_.
+ausführlicher Form in der  *deegree* `Dokumentation <http://download.deegree.org/documentation/3.3.20/html/lightly.html#example-workspace-1-inspire-network-services/>`_.
 
 
 Wie geht es weiter?

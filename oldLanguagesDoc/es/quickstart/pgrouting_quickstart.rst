@@ -4,11 +4,17 @@
 :Version: osgeo-live10.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-pgRouting.png
+.. image:: /images/project_logos/logo-pgRouting.png
 	:scale: 100 %
 	:alt: pgRouting logo
 	:align: right
 	:target: http://www.pgrouting.org
+
+.. image:: /images/logos/OSGeo_community.png
+   :scale: 100
+   :alt: OSGeo Community Project
+   :align: right
+   :target: http://www.osgeo.org
 
 ********************************************************************************
 Guía de inicio rápido de pgRouting
@@ -26,13 +32,13 @@ En este ejemplo se crea la base de datos llamada `city_routing` y se habilita pg
 
 (psql es una herramienta de línea de comandos empaquetada junto con PostgreSQL)
 
-.. code-block:: bash
+::
 
   	psql
 
 En el promt de psql, teclear:
 
-.. code-block:: sql
+::
 
 	CREATE DATABASE city_routing;
 	\connect city_routing;
@@ -44,11 +50,11 @@ Si estas usando PostgreSQL 9.6+, puedes omitir la linea :code:`CREATE EXTENSION 
 
 Para verificar la instalación ejecutar:
 
-.. code-block:: sql
+::
 
 	SELECT  * FROM pgr_version();
 
-.. code-block:: bash
+::
 
 	 version |       tag       |  hash   | branch | boost
 	---------+-----------------+---------+--------+--------
@@ -64,19 +70,19 @@ Esta es la manera de usar osm2pgrouting version 2.1.0+
 
 Primero verificar la versión de osm2pgrouting instalada, debe ser 2.1 o mayor:
 
-.. code-block:: bash
+::
 
 	osm2pgrouting --version
 
 El resultado muestra:
 
-.. code-block:: bash
+::
 
 	This is osm2pgrouting Version 2.1
 
 Cargar los datos de el archivo `.osm`:
 
-.. code-block:: bash
+::
 
 	 cd
 	 bzcat data/osm/feature_city.osm.bz2 > /tmp/feature_city.osm
@@ -86,7 +92,7 @@ Cargar los datos de el archivo `.osm`:
 
 La salida muestra algo como:
 
-.. code-block:: bash
+::
 
 	Opening data file: feature_city.osm
 	    Parsing data
@@ -128,13 +134,13 @@ Ejecutando pgRouting
 
 * Abrir una ventana :menuselection:`Applications --> Accessories --> Terminal` y conectarse a la base de datos ``city_routing``:
 
-.. code-block:: bash
+::
 
 	psql -U postgres city_routing
 
 * Teclea :command:`\\d` y se mostrará la lista de todas las tablas disponibles:
 
-.. code-block:: sql
+::
 
 	                    List of relations
 	 Schema |           Name           |   Type   |  Owner
@@ -160,7 +166,7 @@ Ejecutando pgRouting
 
 * Ejecutar la función de el camino más corto de Dijkstra suponiendo un grafo sin dirección:
 
-.. code-block:: sql
+::
 
 	SELECT seq, node, edge, cost
 		FROM pgr_dijkstra('
@@ -169,7 +175,7 @@ Ejecutando pgRouting
 			100, 600, false
 		);
 
-.. code-block:: sql
+::
 
 	 seq | node | edge  |         cost
 	-----+------+-------+-----------------------
@@ -189,14 +195,14 @@ los identificadores osm_id,
 por lo que alternativamente se puede usar el osm_id en vez de el auto-generado `source` y `target` para los nodos.
 Para buscar los correspondientes osm_ids para los nodos, usar esta consulta:
 
-.. code-block:: sql
+::
 
 	SELECT id, osm_id
 		FROM ways_vertices_pgr where id IN( 100, 600);
 
 Which outputs:
 
-.. code-block:: bash
+::
 
 	 id  |   osm_id
 	-----+------------
@@ -207,7 +213,7 @@ Which outputs:
 
 *  Ejecutar la función de el camino más corto de Dijkstra suponiendo un grafo sin dirección usando identificadores OSM.
 
-.. code-block:: sql
+::
 
 	SELECT seq, node, edge, cost
 	FROM pgr_dijkstra('
@@ -222,7 +228,7 @@ Como se están usando campos `source_osm` y `target_osm`, se necesita crear un a
 
 El resultado es:
 
-.. code-block:: sql
+::
 
 	 seq |    node    | edge  |         cost
 	-----+------------+-------+-----------------------
@@ -251,7 +257,7 @@ el identificador OSM.
 
 * Para generar la gemetría de una ruta, hay que ligar el resultado con las geometrías de los caminos:
 
-.. code-block:: sql
+::
 
 	SELECT seq, edge, rpad(b.the_geom::text,60,' ') AS "the_geom (truncated)"
 		FROM pgr_dijkstra('
@@ -261,7 +267,7 @@ el identificador OSM.
 		) a INNER JOIN ways b ON (a.edge = b.gid) ORDER BY seq;
 
 
-.. code-block:: sql
+::
 
 	 seq | edge  |                     the_geom (truncated)
 	-----+-------+--------------------------------------------------------------
@@ -290,7 +296,7 @@ Para casos donde existen caminos de un solo sentido, o distintas velocidades en 
 el costo de ir en una dirección del camino puede ser differente al de ir en la dirección opuesta.
 Para estos casos se necesita una columna adicional a la sub-consulta `reverse_cost`.
 
-.. code-block:: sql
+::
 
 	SELECT seq, node, edge, cost
 		FROM pgr_dijkstra('
@@ -307,9 +313,7 @@ Que sigue?
 ================================================================================
 
 * **pgRouting Website** - Visita el itio Web del projecto http://www.pgrouting.org para aprender más sobre pgRouting.
-
 * **pgRouting Documentation** - Ve la documentatión más reciente en http://docs.pgrouting.org
-
 * **pgRouting Workshop** - El taller `"FOSS4G routing with pgRouting tools and OpenStreetMap road data"` está disponible en: http://workshop.pgrouting.org
 * **osm2pgRouting loading data** - https://github.com/pgRouting/osm2pgrouting/wiki/Documentation-for-osm2pgrouting-v2.1
 * **QGIS pgRouting Layer Plugin** - https://plugins.qgis.org/plugins/pgRoutingLayer/ proviee un GUI para las functiones de pgRouting e interactúa con el mapa de esta forma no escribes consultas SQL.

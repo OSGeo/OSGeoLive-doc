@@ -6,7 +6,7 @@
 
 .. _zygrib-overview-pl:
 
-.. image:: ../../images/project_logos/logo-zygrib.png
+.. image:: /images/project_logos/logo-zygrib.png
   :alt: project logo
   :align: right
   :target: http://www.zygrib.org
@@ -23,7 +23,7 @@ zyGrib jest programem do pobierania i wizualizacji danych prognoz pogody w stand
 Główne funkcje
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/zygrib_xynthia_010b.jpg
+.. image:: /images/screenshots/1024x768/zygrib_xynthia_010b.jpg
   :scale: 40 %
   :alt: screenshot
   :align: right

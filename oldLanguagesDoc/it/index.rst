@@ -23,7 +23,7 @@ Benvenuti in |osgeo-live-version|
 a sorgente aperta senza installare nulla. È composta interamente di software libero,
 che permette di distribuirlo, duplicarlo e passarlo in giro liberamente.
 
-.. image:: ../images/screenshots/800x600/osgeolive_menu.png
+.. image:: /images/screenshots/800x600/osgeolive_menu.png
   :scale: 70 %
   :alt: boot select
   :align: right
@@ -62,17 +62,19 @@ Molte applicazioni sono anche provviste dell'installer per `Apple OSX <../MacIns
      :glob:
 
      overview/overview
-     standards/standards
+     overview/*
+     quickstart/*
+     standards/*
      contact
      copyright
      disclaimer
      download
      sponsors
      sponsors_osgeo
-     presentation
      metrics
      mac_installers
      win_installers
+     prior_applications
 
 
 

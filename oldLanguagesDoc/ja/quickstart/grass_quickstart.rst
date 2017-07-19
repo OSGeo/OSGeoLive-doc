@@ -4,11 +4,17 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Copyright: 2011-2015 by The OSGeo Foundation
 
-.. image:: ../../images/project_logos/logo-GRASS.png
+.. image:: /images/project_logos/logo-GRASS.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://grass.osgeo.org
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 
 ********************************************************************************
@@ -32,7 +38,7 @@ Live DVDでGRASSを起動するには、
 "GRASSへようこそ" と書かれた起動画面にて、ロケーションに North Carolina データセット、
 マップセットに "user1" を選択し、 [*Start Grass*] をクリックしてください。
 
-.. image:: ../../images/screenshots/800x600/grass-startup.png
+.. image:: /images/screenshots/800x600/grass-startup.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -55,14 +61,14 @@ Live DVDでGRASSを起動するには、
 マップの表示
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/grass-layerman.png
+.. image:: /images/screenshots/800x600/grass-layerman.png
   :scale: 50 %
   :alt: screenshot
   :align: left
 
 PERMANENT マップセットから "`elevation.10m`" といったラスターレイヤーを加えます。
 `GIS レイヤマネージャ` ウィンドウにて
- "+" 記号のついたツールバーボタンをクリックして下さい。
+"+" 記号のついたツールバーボタンをクリックして下さい。
 そして "*表示するマップ*" リストからマップ名を選択して、
 :guilabel:`Ok` をクリックして下さい。
 
@@ -80,7 +86,7 @@ PERMANENT マップセットから "`elevation.10m`" といったラスターレ
 標高プロファイルの表示
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/grass-profile.png
+.. image:: /images/screenshots/800x600/grass-profile.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -111,7 +117,7 @@ PERMANENT マップセットから "`elevation.10m`" といったラスターレ
 "Optional" タブのオプションを調整し [*Run*] をクリックします。
 そして *r.surf.fractal* ダイアログウィンドウの [*Close*] をクリックして閉じます。
 
-.. image:: ../../images/screenshots/800x600/grass-fractal.png
+.. image:: /images/screenshots/800x600/grass-fractal.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -136,7 +142,7 @@ PERMANENT マップセットから "`elevation.10m`" といったラスターレ
 陰影図の作成
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/grass-shadedrelief.png
+.. image:: /images/screenshots/800x600/grass-shadedrelief.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -188,7 +194,7 @@ PERMANENTマップセットの "`elevation`" に一致しているかを確認�
 集水域の背後に透けて見えるのを確認してみてください。
 
 
-.. image:: ../../images/screenshots/800x600/grass-watersheds.png
+.. image:: /images/screenshots/800x600/grass-watersheds.png
   :scale: 50 %
   :alt: screenshot
   :align: left
@@ -231,7 +237,7 @@ PERMANENTマップセットの "`elevation`" に一致しているかを確認�
 ベクターデータの処理機能もラスター同様に様々な機能を持っています。
 GRASSのトポロジーエンジンは多くの強力な解析を可能にしています。
 
-.. image:: ../../images/screenshots/1024x768/grass-vectattrib.png
+.. image:: /images/screenshots/1024x768/grass-vectattrib.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -260,7 +266,7 @@ GRASSのトポロジーエンジンは多くの強力な解析を可能にして
 *v.colors* ダイアログを閉じます。
 変更した色を見るために再描画をする必要があるかもしれません。
 
-.. image:: ../../images/screenshots/800x600/grass-vector-basins.png
+.. image:: /images/screenshots/800x600/grass-vector-basins.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -271,11 +277,11 @@ GRASSのトポロジーエンジンは多くの強力な解析を可能にして
 次にそれぞれの集水域ポリゴンに対して平均標高などの属性情報を加えます。
 ベクターメニューで :menuselection:`Update attributes --> Update area attributes from raster` を選択します。
 ベクターポリゴンとして ``basin_areas`` 、統計計算するラスターとして ``elevation`` を選択し、
- "Column prefix for new attribute columns" に ``elev`` を設定して [*Run*] をクリックします。
+"Column prefix for new attribute columns" に ``elev`` を設定して [*Run*] をクリックします。
 終了したらダイアログを閉じてください。
 `Layer List` でポリゴン名が選択されているのを確認したあと
- `Map Display` ウィンドウの左から5番目のアイコンを使うことで、
- クリックしたポリゴンの値を調べることができます。
+`Map Display` ウィンドウの左から5番目のアイコンを使うことで、
+クリックしたポリゴンの値を調べることができます。
 
 `v.colors`` モジュールを使うことでポリゴンの平均標高値から色の設定をすることができます。
 ベクターメニューで	:menuselection:`Manage colors --> Color tables` を選択します。
@@ -305,7 +311,7 @@ Where句として ``SELECT * FROM basin_areas WHERE`` を、
 3D 可視化
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/1024x768/grass-nviz.png
+.. image:: /images/screenshots/1024x768/grass-nviz.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -344,7 +350,7 @@ Pythonプログラミングに興味のある人手あれば多くの素晴ら�
 ``help(grass.core)`` と入力すれば
 GIS Pyhthonライブラリで利用可能な多くの機能のリストを見ることができます。
 コアとなるGIS機能だけでなく、
- `array` (NumPy)、 `db` (database)、 `raster`、 そして `vector` のライブラリが利用可能です。
+`array` (NumPy)、 `db` (database)、 `raster`、 そして `vector` のライブラリが利用可能です。
 GRASSのCライブラリに直接アクセスできる `Pythons CTypes` といった高度な機能も
 Python プログラマーに用意されています。
 

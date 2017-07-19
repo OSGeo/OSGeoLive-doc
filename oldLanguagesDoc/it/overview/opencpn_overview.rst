@@ -5,7 +5,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-opencpn.png
+.. image:: /images/project_logos/logo-opencpn.png
   :alt: project logo
   :align: right
   :target: http://www.opencpn.org
@@ -34,7 +34,7 @@ ad un pilota automatico esterno per sugire un direzione precisa.
 Caratteristiche principali
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/opencpn_screenshot.png
+.. image:: /images/screenshots/1024x768/opencpn_screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

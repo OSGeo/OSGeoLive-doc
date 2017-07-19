@@ -3,17 +3,23 @@
 :Version: OSGeo-Live 5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-mapproxy.png
+.. image:: /images/project_logos/logo-mapproxy.png
   :alt: project logo
   :align: right
   :target: http://mapproxy.org/
+
+.. image:: /images/logos/OSGeo_community.png
+  :scale: 100
+  :alt: OSGeo Community Project
+  :align: right
+  :target: http://www.osgeo.org
 
 MapProxy 快速入门文档
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 　　MapProxy 是 WMS 网页地图服务与切片服务提供者的瑞士军刀。它对已有服务的数据服务进行缓存、加速和转换，服务任何支持 OGC 标准的桌面与网页客户端。
 
-.. image:: ../../images/screenshots/800x600/mapproxy.png
+.. image:: /images/screenshots/800x600/mapproxy.png
   :alt: MapProxy diagram
   :align: center
 
@@ -41,7 +47,7 @@ MapProxy 快速入门文档
 
 　　MapProxy 示例配置包含了若干不同的数据源。详见后述。
 
-.. figure:: ../../images/screenshots/800x600/mapproxy_udig.png
+.. figure:: /images/screenshots/800x600/mapproxy_udig.png
   :alt: MapProxy example in uDig
   :align: center
   

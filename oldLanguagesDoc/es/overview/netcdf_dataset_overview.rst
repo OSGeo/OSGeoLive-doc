@@ -4,7 +4,7 @@
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-netcdf.png 
+.. image:: /images/project_logos/logo-netcdf.png 
   :alt: project logo
   :align: right
   :target: http://wiki.osgeo.org/wiki/Category:Education
@@ -22,7 +22,7 @@ Este juego de datos de ejemplo proporciona los máximos anuales de las temperatu
 Estos datos son cortesía de la Universidad de Victoria PCIC (Pacific Climate Impacts Consortium), en cooperación conAORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba, Japan), NIES (National Institute for Environmental Studies, Ibaraki, Japan), JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa, Japan). 
 
 
-.. image:: ../../images/screenshots/800x600/netcdf_annual_avg_max_temp.png
+.. image:: /images/screenshots/800x600/netcdf_annual_avg_max_temp.png
   :scale: 60 %
   :alt: Panoply NetCDF txxETCCDI_yr_MIROC5 screenshot
   :align: right
@@ -33,7 +33,7 @@ Detalles
 
 **Página web:** http://www.pacificclimate.org/
 
-**Licencia:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_
+**Licencia:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`_
 
 **Versión de los datos:** 2013
 

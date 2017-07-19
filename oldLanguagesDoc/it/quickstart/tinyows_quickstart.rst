@@ -4,7 +4,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-TinyOWS.png
+.. image:: /images/project_logos/logo-TinyOWS.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -67,7 +67,7 @@ Visualizzare un layer WFS con QGIS
 
    * Il layer WFS verrà visualizzato:
 
-.. image:: ../../images/screenshots/800x600/tinyows_wfs_layer.png
+.. image:: /images/screenshots/800x600/tinyows_wfs_layer.png
   :scale: 80 %
 
 Editare dati con WFS-T

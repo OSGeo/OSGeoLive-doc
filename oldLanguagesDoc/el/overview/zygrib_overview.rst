@@ -4,7 +4,7 @@
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 
-.. image:: ../../images/project_logos/logo-zygrib.png
+.. image:: /images/project_logos/logo-zygrib.png
   :alt: project logo
   :align: right
   :target: http://www.zygrib.org
@@ -21,7 +21,7 @@ zyGrib
 Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/zygrib_xynthia_010b.jpg
+.. image:: /images/screenshots/1024x768/zygrib_xynthia_010b.jpg
   :scale: 40 %
   :alt: screenshot
   :align: right

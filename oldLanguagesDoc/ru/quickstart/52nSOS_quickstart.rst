@@ -3,7 +3,7 @@
 :Version: osgeo-live10.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :scale: 100 %
   :alt: 52°North - exploring horizons - logo
   :align: right
@@ -21,9 +21,11 @@
 Данное введение описывает:
 * Как делать запросы 52°North SOS Capabilities для определения того, какие
   запросы поддерживаются
+
 * Как запрашивать подробности о наблюдениях из SOS
 * Как использовать простой инструмент для визуализации, поставляемый вместе с
   SOS, для исследований доступных данных
+
 * Как использовать конечный REST API для клиентов разработчиков.
 
 .. contents:: Contents
@@ -33,7 +35,7 @@
 
 2) Связанный браузер откроет страницу приглашения тестового клиентского приложения 52°North SOS (см. Рис. 1). Пожалуйста выберите версию спецификации, которую вы хотели бы использовать, например, 1.0.0:
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_start.png
+.. image:: /images/screenshots/1024x768/52n_sos_start.png
   :scale: 100 %
   :alt: 52°North SOS client welcome page
   :align: center
@@ -42,7 +44,7 @@
 
 3) Тестовый клиент может быть использован для отправки(`запросов <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=2.0.0>`_, (см. Рис._2)) к сервису, используя простую форму. В выпадающем списке можно выбрать один из предопределенных запросов, адаптированных к выбранной на предыдущем шаге версии сервиса.
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_get_capabilities.png
+.. image:: /images/screenshots/1024x768/52n_sos_get_capabilities.png
   :scale: 100 %
   :alt: Тестовый клиент 52°North SOS с запросом GetCapabilities
   :align: center
@@ -90,13 +92,15 @@
 * Изменять запросы для получения различной информации
 * `SOS administrator <http://localhost:8080/52nSOS/admin/index>`_,
   используя имя пользователя "user" и пароль "user".
-* `View Client <http://localhost:8080/52nSOS/static/client/jsClient/>`_ (см. Рис. 3).
-.. image:: ../../images/screenshots/1024x768/52n_sos_viewclient.png
-  :scale: 100 %
-  :alt: 52°North SOS — JavaScript-клиент для временных серий данных.
-  :align: center
 
-**Рис. 3**: 52°North SOS — JavaScript-клиент для временных серий данных.
+* `View Client <http://localhost:8080/52nSOS/static/client/jsClient/>`_ (см. Рис. 3).
+
+    .. image:: /images/screenshots/1024x768/52n_sos_viewclient.png
+      :scale: 100 %
+      :alt: 52°North SOS — JavaScript-клиент для временных серий данных.
+      :align: center
+
+    **Рис. 3**: 52°North SOS — JavaScript-клиент для временных серий данных.
 
 * Попробуйте `REST API <http://localhost:8080/52nSOS/api/v1/>`_ (see Listing 2):
 

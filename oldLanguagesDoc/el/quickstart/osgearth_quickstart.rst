@@ -5,7 +5,7 @@
 
 .. _osgearth-quickstart-el:
  
-.. image:: ../../images/project_logos/logo-osgearth.png
+.. image:: /images/project_logos/logo-osgearth.png
   :scale: 100 %
   :alt: project logo
   :align: right

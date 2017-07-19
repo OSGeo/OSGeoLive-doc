@@ -4,13 +4,13 @@
 :Version: OSGeo-Live 5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Mapbender3.png
+.. image:: /images/project_logos/logo-Mapbender3.png
   :alt: project logo
   :align: right
   :target: http://www.mapbender3.org
 
-.. image:: ../../images/logos/OSGeo_project.png
-  :scale: 90 %
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
   :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
@@ -32,7 +32,7 @@ Mapbender
 
 　　Mapbender 为空间数据服务体系的管理提供了完全依赖标准网页浏览器实现的全新解决方案。
 
-.. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
+.. image:: /images/screenshots/800x600/mapbender3_basic_application.png
   :scale: 50%
   :alt: Mapbender application
   :align: right

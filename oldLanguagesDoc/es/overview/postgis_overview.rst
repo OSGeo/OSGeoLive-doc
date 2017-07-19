@@ -23,9 +23,9 @@
    Los logos del proyecto están almacenados en:
    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
    y se puede acceder a ellos en:
-   ../../images/project_logos/<filename>
+   /images/project_logos/<filename>
 
-.. image:: ../../images/project_logos/logo-PostGIS.png
+.. image:: /images/project_logos/logo-PostGIS.png
   :alt: project logo
   :align: right
   :target: http://postgis.net/
@@ -33,14 +33,12 @@
 .. Consejo para redactar:
    Incluya un logo de OSGeo si el proyecto es un proyecto de OSGeo o si está en incubación.
    Hay una lista de los proyectos de OSGeo en esta página: http://www.osgeo.org/
-   .. image:: images/logos/OSGeo_incubation.png
-   .. image:: images/logos/OSGeo_project.png
 
-../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 .. Consejo para redactar: Nombre de la aplicación
 
@@ -84,7 +82,7 @@ crear visualizar y manipular tablas espaciales PostGIS.
    No debe aparecer el fondo de escritorio porque cambia con cada versión
    y se podrá datar.
 
-.. image:: ../../images/screenshots/800x600/pgadmin.png
+.. image:: /images/screenshots/800x600/pgadmin.png
   :scale: 70 %
   :alt: pgAdmin database manager
   :align: right

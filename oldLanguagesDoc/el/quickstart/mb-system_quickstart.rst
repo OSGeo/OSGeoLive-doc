@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-mb-system.png
+.. image:: /images/project_logos/logo-mb-system.png
   :scale: 30 %
   :alt: project logo
   :align: right

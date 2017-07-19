@@ -4,7 +4,7 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-R.png
+.. image:: /images/project_logos/logo-R.png
   :alt: project logo
   :align: right
   :target: http://cran.r-project.org
@@ -43,7 +43,7 @@ versión comercial de S, TIBCO Spotfire S+. Esta compatibilidad permite converti
 diferentes versiones de código S para que corran sin grandes modificaciones en
 R.
 
-.. image:: ../../images/screenshots/1024x768/r-screenshot.png
+.. image:: /images/screenshots/1024x768/r-screenshot.png
   :scale: 50 %
   :alt: project logo
   :align: right
@@ -52,7 +52,7 @@ Características principales
 --------------------------------------------------------------------------------
 
 * Completo Lenguage de programación orientado a objetos diseñado para la
-estadística y otras aplicaciones matemáticas. 
+    estadística y otras aplicaciones matemáticas. 
 * Cientos de paquetes estadísticos para el análisis espacial desarrollados por la comunidad.
 * Clases para datos espaciales.
 * Manejo de datos espaciales.

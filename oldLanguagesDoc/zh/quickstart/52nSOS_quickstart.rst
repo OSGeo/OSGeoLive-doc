@@ -4,7 +4,7 @@
 :Version: OSGeo-Live 6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :scale: 100 %
   :alt: 52°North - exploring horizons - logo
   :align: right
@@ -23,7 +23,7 @@ Getting Started
 
 2) Firefox 浏览器将开启 52° North SOS 演示客户端的欢迎页面（见图1）。请选择你希望使用的版本，例如此图中的 1.0.0 版：
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_start.png
+.. image:: /images/screenshots/1024x768/52n_sos_test_client_start.png
   :scale: 100 %
   :alt: screenshot of 52°North SOS test client welcome page
   :align: center
@@ -32,7 +32,7 @@ Getting Started
 
 3) 演示客户端将会显示。
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
+.. image:: /images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
   :scale: 100 %
   :alt: screenshot of 52°North SOS test client version 1.0.0
   :align: center
@@ -43,7 +43,7 @@ Getting Started
   
 5) 点击 **Send 按钮** （见图2 中的 [2]）将请求发送至 52°North SOS 。返回结果是一个 XML 文档（见图3），显示出目标传感器的信息，包括提供者、关键字、可用操作、滤波器等元数据以及观测数据。按 Ctrl+U 可以显示源码。
 
-.. image:: ../../images/screenshots/1024x768/52n_sos_response.png
+.. image:: /images/screenshots/1024x768/52n_sos_response.png
   :scale: 70 %
   :alt: screenshot of 52°North SOS output - GetCapabilities response encoded in XML
   :align: center
@@ -79,7 +79,7 @@ Getting Started
 
 * 这一版本的 52°North SOS 由 European FP7 的 `EO2HEAVEN <http://www.eo2heaven.org/>`_ 科研项目支持开发，并得到了欧盟委员会 n°244100 协议的支持：
 
-.. image:: ../../images/project_logos/logo_52North_other_200px.png
+.. image:: /images/project_logos/logo_52North_other_200px.png
   :scale: 100 %
   :alt: EO2HEAVEN - Earth Observation and ENVironmental Modeling for the Mitigation of HEAlth Risks
   :align: center

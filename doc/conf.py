@@ -13,7 +13,7 @@
 
 import sys, os
 
-execfile('settings.py')
+exec(open("settings.py").read())
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -73,7 +73,9 @@ today_fmt = '%B %d, %Y'
 
 # List of directories, relative to source directory, that shouldn't be searched
 # for source files.
-exclude_trees = ['_build']
+exclude_patterns = [ '_build/*',
+	 'id/*',
+	 'retired_docs/*' ]
 
 # The reST default role (used for this markup: `text`) to use for all documents.
 #default_role = None
@@ -174,6 +176,8 @@ html_last_updated_fmt = '%b %d, %Y'
 # Output file base name for HTML help builder.
 htmlhelp_basename = '%sdoc' % project
 
+# Don't copy sources
+html_copy_source = False
 
 # -- Options for LaTeX output --------------------------------------------------
 
@@ -243,59 +247,73 @@ rst_epilog="""
 .. |osgeolive-appmenupath-geoserver| replace:: :menuselection:`Geospatial --> Web Services --> GeoServer --> Start GeoServer`
 .. |osgeolive-appmenupath-udig| replace:: :menuselection:`Geospatial --> Desktop GIS --> uDig`
 .. |osgeolive-appmenupath-52nWPS| replace:: :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North WPS`
-.. |version-52nSOS| replace:: 4.3.9
-.. |version-52nWPS| replace:: 3.4.0
+.. |nologo| image:: /images/logos/nologo.png
+                        :align: bottom
+                        :height: 18
+.. |osgeoproject| image:: /images/logos/OSGeo_compass.png
+                        :alt: OSGeo Project
+                        :align: bottom
+                        :height: 18
+                        :target: ../sponsors_osgeo.html
+.. |osgeocommunity| image:: /images/logos/OSGeo_compass.png
+                        :alt: OSGeo Community
+                        :align: middle
+                        :height: 18
+                        :target: ../sponsors_osgeo.html
+.. |version-52nSOS| replace:: 4.4.0
+.. |version-52nWPS| replace:: 3.6.1
 .. |version-cartaro| replace:: 1.9
-.. |version-cesium| replace:: 1.18
-.. |version-deegree| replace:: 3.3.18
+.. |version-cesium| replace:: 1.34
+.. |version-deegree| replace:: 3.3.20
 .. |version-eoxserver| replace:: 0.4.0
-.. |version-gdal| replace:: 2.1.3
+.. |version-gdal| replace:: 2.2.0
 .. |version-geokettle| replace:: 2.6
 .. |version-geomajas| replace:: 2.4.0
-.. |version-geomoose| replace:: 2.9.2
-.. |version-geonetwork| replace:: 3.0.3
-.. |version-geonode| replace:: 2.4.0
-.. |version-geoserver| replace:: 2.10.1
+.. |version-geomoose| replace:: 2.9.3
+.. |version-geonetwork| replace:: 3.2.1
+.. |version-geonode| replace:: 2.6.1
+.. |version-geoserver| replace:: 2.10.4
 .. |version-geos| replace:: 3.5.1
 .. |version-gvsig| replace:: 2.2
 .. |version-gmt| replace:: 5.2.1
-.. |version-gpsprune| replace:: 18.3.0
+.. |version-gpsprune| replace:: 18.6.0
 .. |version-grass| replace:: 7.2.0
+.. |version-ideditor| replace:: 2.2.2
 .. |version-iris| replace:: 1.9.2
-.. |version-istsos| replace:: 2.3.0
-.. |version-jupyter| replace:: 4.1
+.. |version-istsos| replace:: 2.3.1
+.. |version-jupyter| replace:: 4.2
 .. |version-kosmo| replace:: 3.1
-.. |version-leaflet| replace:: 0.7.3
+.. |version-leaflet| replace:: 1.0.3
 .. |version-liblas| replace:: 1.8.1
-.. |version-mapbender| replace:: 3.0.5.3
+.. |version-mapbender| replace:: 3.0.6.1
 .. |version-mapnik| replace:: 3.0.11
-.. |version-mapproxy| replace:: 1.9.0
-.. |version-mapserver| replace:: 7.0.4
+.. |version-mapproxy| replace:: 1.10.0
+.. |version-mapserver| replace:: 7.0.5
 .. |version-mapslicer| replace:: 1.0.rc2
 .. |version-marble| replace:: 1.12.20
 .. |version-mb-system| replace:: 5.5.2274
-.. |version-ncWMS| replace:: 1.2
-.. |version-opencpn| replace:: 4.2.0
-.. |version-openjump| replace:: 1.10.0
-.. |version-openlayers| replace:: 3.13.1
+.. |version-ncWMS| replace:: 2.2.8
+.. |version-opencpn| replace:: 4.6.1
+.. |version-openjump| replace:: 1.11.0
+.. |version-openlayers| replace:: 4.1.1
 .. |version-osgearth| replace:: 2.5.0
 .. |version-ossim| replace:: 1.8.20-3
-.. |version-otb| replace:: 5.8.0
-.. |version-pgrouting| replace:: 2.3.2
+.. |version-otb| replace:: 6.0.0
+.. |version-pgrouting| replace:: 2.4.1
 .. |version-postgis| replace:: 2.3.2
 .. |version-proj4| replace:: 4.4.9
-.. |version-pycsw| replace:: 2.0.2
-.. |version-pywps| replace:: 3.2.5
-.. |version-qgis_mapserver| replace:: 2.14.11
-.. |version-qgis| replace:: 2.14.11
-.. |version-rasdaman| replace:: 9.3.2
-.. |version-R| replace:: 3.3.1
+.. |version-pycsw| replace:: 2.0.3
+.. |version-pywps| replace:: 4.0.0
+.. |version-qgis_mapserver| replace:: 2.14.14
+.. |version-qgis| replace:: 2.14.14
+.. |version-rasdaman| replace:: 9.4.1
+.. |version-R| replace:: 3.4.0
 .. |version-saga| replace:: 2.3.1
 .. |version-sahana| replace:: snapshot 1-1-2015
 .. |version-spatialite| replace:: 4.3.0a
 .. |version-tinyows| replace:: 1.1.1
 .. |version-tomcat.rst| replace:: 8.0.32
-.. |version-udig| replace:: 1.4.0b
+.. |version-udig| replace:: 2.0.0.RC1
 .. |version-ushahidi| replace:: 2.7.4
 .. |version-viking| replace:: 1.6.0
 .. |version-worldwindjava| replace:: 2.0.0

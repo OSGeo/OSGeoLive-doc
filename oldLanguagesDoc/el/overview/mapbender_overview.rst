@@ -3,14 +3,15 @@
 :Version: osgeo-live7.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-Mapbender3.png
+.. image:: /images/project_logos/logo-Mapbender3.png
   :alt: project logo
   :align: right
   :target: http://www.mapbender3.org
 
-.. image:: ../../images/logos/OSGeo_project.png
-  :scale: 90 %
-  :alt: Λογισμικό ενσωματωμένο στο OSGeo
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
 
@@ -29,7 +30,7 @@ Mapbender
 
 Ο Mapbender3 βασίζεται στα Symfony2, OpenLayers, Mapproxy και jQuery.
 
-.. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
+.. image:: /images/screenshots/800x600/mapbender3_basic_application.png
   :scale: 50%
   :alt: Mapbender application
   :align: right

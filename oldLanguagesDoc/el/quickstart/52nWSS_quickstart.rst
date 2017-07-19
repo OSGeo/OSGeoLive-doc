@@ -4,7 +4,7 @@
 
 .. _52nWSS-quickstart-el:
  
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :scale: 100 %
   :alt: 52°North - exploring horizons - logo
   :align: right

@@ -3,7 +3,7 @@
 :Version: osgeo-live 6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/jts_project.png
+.. image:: /images/project_logos/jts_project.png
   :alt: project logo
   :align: right
 
@@ -24,7 +24,7 @@ JTS используется в большинстве основанных на
 C++ , используется в большинстве приложений, написанных на C. Дополнительные
 порты доступны для C # и JavaScript .
 
-.. image:: ../../images/screenshots/800x600/jts-overview.jpg
+.. image:: /images/screenshots/800x600/jts-overview.jpg
   :scale: 90 %
   :alt: JTS Topology Suite - Test Builder application
   :align: right

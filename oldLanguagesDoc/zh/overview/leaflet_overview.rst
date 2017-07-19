@@ -4,7 +4,7 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-leaflet.png 
+.. image:: /images/project_logos/logo-leaflet.png 
   :alt: project logo
   :align: right
   :target: http://leafletjs.com
@@ -17,7 +17,7 @@ Leaflet
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-.. image:: ../../images/screenshots/1024x768/leaflet-overview.png
+.. image:: /images/screenshots/1024x768/leaflet-overview.png
   :scale: 50
   :alt: leaflet
   :align: right

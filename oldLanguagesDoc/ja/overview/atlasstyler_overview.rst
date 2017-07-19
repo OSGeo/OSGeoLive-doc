@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-AtlasStyler.png
+.. image:: /images/project_logos/logo-AtlasStyler.png
   :alt: project logo
   :align: right
   :target: http://en.geopublishing.org/AtlasStyler
@@ -19,7 +19,7 @@ AtlasStyler
 
 作成したSLDファイルはOGS SLD標準に準拠しており、:doc:`GeoServer <geoserver_overview>`、:doc:`uDig <udig_overview>` などのプログラムと互換性があります。スタイル作成を単純化するために直感的に使用できる多数のダイアログを提供しています。利用者はユニークな値、等分位または等間隔による彩色などの理論的な分類を適用できます。加えて、オンラインのシンボルデータベースへの接続を利用できます。シンボルエディタでシンボルの作成、保存することができ、分類や他のプロジェクトでの再利用もできます。
 
-.. image:: ../../images/screenshots/1024x768/atlasstyler-overview.png
+.. image:: /images/screenshots/1024x768/atlasstyler-overview.png
   :scale: 40 %
   :alt: screenshot
   :align: right

@@ -4,12 +4,12 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geomoose_w-title.png
+.. image:: /images/project_logos/logo-geomoose.png
   :alt: project logo
   :align: right
   :target: http://www.geomoose.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
@@ -28,7 +28,7 @@ GeoMOOSE est rapide, fonctionne plutôt bien même avec des centaines de couches
 
 L'interface utilisateur est facilement configurable, et des services additionnels peuvent être ajoutés via une architecture modulaire.
 
-.. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot001.png
+.. image:: /images/screenshots/1024x768/geomoose-2_6-screenshot001.png
   :alt: GeoMoose Screenshot
   :align: right
   

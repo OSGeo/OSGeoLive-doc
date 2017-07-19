@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ncdataset.png 
+.. image:: /images/project_logos/logo-ncdataset.png 
   :alt: project logo
   :align: right
   :target: http://wiki.osgeo.org/wiki/Category:Education
@@ -31,7 +31,7 @@
 
 * небольшой участок в сельской местности с растровыми данными разрешением 1-3 м (см. изображение).
 
-.. image:: ../../images/screenshots/1024x768/north_carolina_dataset_nviz.jpg
+.. image:: /images/screenshots/1024x768/north_carolina_dataset_nviz.jpg
   :scale: 60 %
   :alt: North Carolina dataset screenshot
   :align: right
@@ -63,7 +63,7 @@
 
 **Веб-сайт:** http://www.grassbook.org/data_menu3rd.php
 
-**Лицензия:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_
+**Лицензия:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`_
 
 **Версия данных:** 2008
 

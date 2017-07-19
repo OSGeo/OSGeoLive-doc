@@ -3,29 +3,29 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoTools.png
+.. image:: /images/project_logos/logo-GeoTools.png
   :alt: project logo
   :align: right
   :target: http://geotools.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GeoTools
 ================================================================================
 
 Η GeoTools είναι μια ανοιχτή (LGPL) βιβλιοθήκη σε Java η οποία παρέχει τυπικές μεθόδους για την διαχείρηση γεωχωρικών δεδομένων και δομών βασισμένες σε προδιαγραφές του Open Geospatial Consortium (OGC).
 
-.. image:: ../../images/screenshots/800x600/geotools-overview.png
+.. image:: /images/screenshots/800x600/geotools-overview.png
   :scale: 60 %
   :alt: GeoTools is a modular library supported by plugins for additional formats
   :align: right
 
 Η GeoTools χρησιμοποιείται από έναν αριθμό προγραμμάτων στα οποία περιλαμβάνονται δικτυακές υπηρεσίες (web services), εργαλεία από την γραμμή εντολών και εφαρμογές με γραφική διεπαφή (desktop applications). Οι εφαρμογές OSGeo-Live στις οποίες περιλαμβάνεται η GeoTools: 
-:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
+:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, AtlasStyler, :doc:`geomajas_overview`, Geopublisher, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
 Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
@@ -58,7 +58,7 @@ GeoTools
 
   * Παρέχουν επιπλέον δυνατότητες μέσω των χωρικών λειτουργιών της κεντρικής (core) βιβλιοθήκης.
   
-  .. image:: ../../images/screenshots/800x600/geotools-extension.png
+  .. image:: /images/screenshots/800x600/geotools-extension.png
      :alt: Πρόσθετα που χρησιμοποιούν την βιβλιοθήκη GeoTools
 
   * Επεκτάσεις οι οποίες παρέχουν γραφικές και διαδικτυακές λειτουργίες (πχ αλγόριθμος ελάχιστης διαδρομής), αξιολόγηση δεδομένων, έναν web map server client, συνδέσμους για διάβασμα αρχείων xml και κωδικοποίηση.

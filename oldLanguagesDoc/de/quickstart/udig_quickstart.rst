@@ -39,7 +39,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: udig-devel list
 
-.. image:: ../../images/project_logos/logo-uDig.png
+.. image:: /images/project_logos/logo-uDig.png
   :scale: 60 %
   :alt: Projektlogo
   :align: right
@@ -83,7 +83,7 @@ uDig starten
 #. |osgeolive-appmenupath-udig| im Startmenü des Desktops wählen
 #. nach einem Moment wird die Anwendung gestartet und ein Begrüßungsbildschirm angezeigt
 
-.. image:: ../../images/screenshots/800x600/udig_Quickstart1Splash.png
+.. image:: /images/screenshots/800x600/udig_Quickstart1Splash.png
    :scale: 70 %
 
 Willkommensansicht
@@ -93,7 +93,7 @@ Willkommensansicht
  
 #. Bewegen Sie die Maus auf den Pfeil **Workbench**. Klicken Sie auf das Icon, um diese Ansicht zu schließen und den Arbeitsbereich anzuzeigen zu lassen. 
   
-  .. image:: ../../images/screenshots/800x600/udig_welcome.png
+  .. image:: /images/screenshots/800x600/udig_welcome.png
    :scale: 70 %
 
 Die Willkommensansicht können Sie jederzeit wieder herstellen, indem Sie im Applikationsmenü :menuselection:`Help --> Welcome` auswählen.
@@ -104,7 +104,7 @@ Arbeitsbereich
 Im Arbeitsbereich gibt es einen Bereich für die Karten, der umgeben ist von Ansichten, die das Arbeiten mit der Karte unterstützen. 
 Viele Ansichten zeigen dabei kontextbezogene Informationen zur aktuell geöffneten und ausgewählten Karte an.
 
-  .. image:: ../../images/screenshots/800x600/udig_workbench.png
+  .. image:: /images/screenshots/800x600/udig_workbench.png
    :scale: 70 %
 
 Oben ist ein typischer uDig -Arbeitsplatz mit Ansichten für die 
@@ -153,7 +153,7 @@ Um einen ersten Eindruck der Anwendung zu gewinnen, werden wir Beispieldaten lad
 
 #. Wählen Sie den Layer `HYP_50M_SR_W` in der Layeransicht und schieben diesen per Drag&Drop an das Ende der Liste.
   
-  .. image:: ../../images/screenshots/800x600/udig_QuickstartCountriesMap.png
+  .. image:: /images/screenshots/800x600/udig_QuickstartCountriesMap.png
    :scale: 70 %
 
 .. Writing Tip:
@@ -178,7 +178,7 @@ Interesse ist. Die Werkzeuge sind in der Werkzeugleiste direkt unter dem Applika
 
 #. Das Zoomwerkzeug |ZOOM| ist nach dem Start standardmäßig aktiv
    
-   .. |ZOOM| image:: ../../images/screenshots/800x600/udig_zoom_mode.png
+   .. |ZOOM| image:: /images/screenshots/800x600/udig_zoom_mode.png
    
    * Verwenden Sie dieses Werkzeug innerhalb des Kartenfensters und spannen Sie mit Hilfe der Maus ein Rechteck auf. Die Aktion wird begonnen beim ersten Klick mit der linken Maustaste und beendet mit dem zweiten Klick mit der gleichen Maustaste. Zwischen den zwei Klicks können 	 Sie die Maus bewegen um das gewünschte Rechteck einzustellen. Mit gelber Farbe wird der potentiell neue Ausschnitt während der Mausbewegung mit dargestellt.
 	 
@@ -186,23 +186,23 @@ Interesse ist. Die Werkzeuge sind in der Werkzeugleiste direkt unter dem Applika
 
 #. Mit Hilfe des Verschiebewerkzeuges |PAN| können sie den Ausschnitt der Karte bewegen, ohne dabei den Maßstab anzupassen.
   
-     .. |PAN| image:: ../../images/screenshots/800x600/udig_pan_mode.png
+     .. |PAN| image:: /images/screenshots/800x600/udig_pan_mode.png
 
 #. Weitere Navigationswerkzeuge, die jederzeit genutzt werden können:
  
    * |SHOWALL| Zeige alles, kann verwendet werden, um einen Ausschnitt um alle in der Karte enthaltene Daten einzustellen.
    
-     .. |SHOWALL| image:: ../../images/screenshots/800x600/udig_zoom_extent_co.png
+     .. |SHOWALL| image:: /images/screenshots/800x600/udig_zoom_extent_co.png
 
    * Zoom In |ZOOM_IN| und Zoom Out |ZOOM_OUT| können jederzeit genutzt werden, um den Maßstab um einen fixen Anteil zu vergrößern bzw. zu verkleinern.
 
-     .. |ZOOM_IN| image:: ../../images/screenshots/800x600/udig_zoom_in_co.png
-     .. |ZOOM_OUT| image:: ../../images/screenshots/800x600/udig_zoom_out_co.png
+     .. |ZOOM_IN| image:: /images/screenshots/800x600/udig_zoom_in_co.png
+     .. |ZOOM_OUT| image:: /images/screenshots/800x600/udig_zoom_out_co.png
 
    * Sie können mit den Werkzeugen Zurück |BNAV| und Vorwärts |FNAV| in der Historie der eingestellten Ausschnitte hin und herschalten.
 
-     .. |BNAV| image:: ../../images/screenshots/800x600/udig_backward_nav.png
-     .. |FNAV| image:: ../../images/screenshots/800x600/udig_forward_nav.png
+     .. |BNAV| image:: /images/screenshots/800x600/udig_backward_nav.png
+     .. |FNAV| image:: /images/screenshots/800x600/udig_forward_nav.png
 
 .. tip:: 
    Die meisten Werkzeuge erlauben es Ihnen, bei gedrückter mittlerer Maustaste den Ausschnitt zu verschieben 
@@ -216,14 +216,16 @@ Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugängl
 .. note:: Sollten Sie keine Verbindung ins Internet herstellen können, starten Sie einfach über |osgeolive-appmenupath-geoserver| einen lokalen WMS Server. Das Skript wird eine Seite öffnen, die einen Links unter "Service Capabilities" auflistet. Ziehen Sie per Drag&Drop einen der **WMS** Links in Ihre Karte.
 
 .. tip:: 
-   Sie können eine Verbindung zu Web Map Servern aufbauen, indem Sie über den **Add Data** 
-   Wizard (:menuselection:`Layer --> Add...`) gehen oder per Drag&Drop einen WMS Hyperlinks in die Karte ziehen.
+   Sie können die WMS URL (z.B. `WMS 1.1.1`_) aus dem rechten Bereich der `GeoServer Startseite`_ kopieren und entweder auf der **Karte** oder aber in der **Layer**-Ansicht einfügen. Es öffnet sich ein Wizard um die zur Verfügung gestellten Layer für die **Karte** auswählen zu können. Sie können alternativ auch eine Verbindung zu Web Map Servern aufbauen, indem Sie über den **Add Data** Wizard (:menuselection:`Layer --> Add...`) gehen und da den WMS Hyperlinks verwenden.
+   
+	.. _GeoServer Startseite: http://localhost:8082/geoserver/web
+	.. _WMS 1.1.1: http://localhost:8082/geoserver/ows?service=wms&version=1.1.1&request=GetCapabilities
 
 #. Wählen Sie hierfür :menuselection:`File --> New --> New Map` im Applikationsmenü
 
 #. Wechseln Sie in die **Web** Ansicht, diese befindet sich neben der Katalogansicht unterhalb der Karte.
 
-	.. image:: ../../images/screenshots/800x600/udig_WebViewClick.png
+	.. image:: /images/screenshots/800x600/udig_WebViewClick.png
 		:scale: 50 %
 
 #. Wählen Sie innerhalb der **Web** Ansicht den Link WMS\:`dm solutions`_ aus
@@ -236,19 +238,19 @@ Mit uDig haben Sie die Möglichkeit auf Geodaten, die freie im Internet zugängl
    * Parks
    * Cities
    
-	.. image:: ../../images/screenshots/800x600/udig_AddWMSLayers.png
+	.. image:: /images/screenshots/800x600/udig_AddWMSLayers.png
 		:scale: 70 %
 
 #. Bestätigen Sie mit :guilabel:`Finish`, dass die Layer zur Karte hinzugefügt werden sollen
    
-	.. image:: ../../images/screenshots/800x600/udig_WMSMap.png
+	.. image:: /images/screenshots/800x600/udig_WMSMap.png
 		:scale: 70 %
   
 #. Verwenden Sie das Zoom |ZOOM| Werkzeug, um die Parks detaillierter  anzuzeigen
 
 #. Wechseln Sie dann zum Info Tool |INFO| und klicken Sie auf einen Park in der Karte, um weitere Details zu diesem Objekt anzuzeigen 
    
-	.. |INFO| image:: ../../images/screenshots/800x600/udig_info_mode.png
+	.. |INFO| image:: /images/screenshots/800x600/udig_info_mode.png
 
 .. tip:: 
     Sie können zwischen dem Info und dem Zoom Tool hin und her schalten, indem Sie auf der Tastatur `I` und `Z` drücken.
@@ -270,7 +272,7 @@ Stile
    
    * Label : Aktivieren sie die Checkbox :guilabel:`enable/disable labeling` unter dem Tab :guilabel:`Labels` und wählen Sie in Attributliste zu :guilabel:`label` das Attribut **NAME** aus
    
-   .. image:: ../../images/screenshots/800x600/udig_StyleEditor.png
+   .. image:: /images/screenshots/800x600/udig_StyleEditor.png
       :scale: 70 %
 
 #. Bestätigen Sie :guilabel:`Apply`, um zu sehen, wie sich der Stil auf die Karte auswirkt. Die Ansicht **Layers** wird ebenso aktualisiert, das Icon vor dem Namen des Layers reflektiert die aktuelle Stilkonfiguration
@@ -281,7 +283,7 @@ Stile
 
 Mitunter ist es schwierig aufgrund der Stile der verschiedenen Layer das wesentliche auf der Karte zu erkennen. Es gibt die Möglichkeit über :menuselection:`Map --> Mylar` vom Applikationsmenü auf den in der **Layers** Ansicht ausgewählten zu fokussieren. Damit werden alle anderen Layer leicht transparent dargestellt. Klicken Sie in der **Layers** Ansicht auf unterschiedliche Layer, damit Sie eine Idee davon bekommen, wie dieser Effekt wirkt. Sie können diesen Effekt über :menuselection:`Map --> Mylar` wieder deaktivieren.
 
-	.. image:: ../../images/screenshots/800x600/udig_MapMylar.png
+	.. image:: /images/screenshots/800x600/udig_MapMylar.png
 		:scale: 70 %
 
 Was kann man noch probieren?

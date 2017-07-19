@@ -3,29 +3,29 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoTools.png
+.. image:: /images/project_logos/logo-GeoTools.png
   :alt: Логотип
   :align: right
   :target: http://geotools.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GeoTools
 ================================================================================
 
 GeoTools — это Java-библиотека с открытым исходным кодом (LGPL), которая предоставляет стандартные методы для работы с геопространственными данными и использует структуры данных, основанные на спецификациях Open Geospatial Consortium (OGC).
 
-.. image:: ../../images/screenshots/800x600/geotools-overview.png
+.. image:: /images/screenshots/800x600/geotools-overview.png
   :scale: 60 %
   :alt: GeoTools - это модульная библиотека с поддержкой дополнительных форматов при помощи плагинов
   :align: right
 
 Библиотека GeoTools используется в ряде проектов, включая веб сервисы, утилиты командной строки и настольные приложения. Приложения из состава OSGeo-Live , которые используют GeoTools, включают: 
-:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
+:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, AtlasStyler, :doc:`geomajas_overview`, Geopublisher, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
 Базовые функции
 --------------------------------------------------------------------------------
@@ -58,7 +58,7 @@ GeoTools — это Java-библиотека с открытым исходн�
 
   * Предоставляет дополнительные возможности по сборке, используя пространственные возможности базовой библиотеки
   
-  .. image:: ../../images/screenshots/800x600/geotools-extension.png
+  .. image:: /images/screenshots/800x600/geotools-extension.png
      :alt: Сборка расширения с использованием библиотеки GeoTools
 
   * Расширения предоставляют графические и сетевые возможности (поиск кратчайшего пути), возможности валидации, клиент для картографического веб-сервера, привязки к инструментам разбора XML, декодирования и создания палитр.

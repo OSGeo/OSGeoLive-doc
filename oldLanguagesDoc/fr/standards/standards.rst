@@ -24,7 +24,7 @@ En développant des applications de Web Services utilisant les standards OGC (et
 La plupart des services des standards OGC qui ont été développés dans les dernières années sont des standards pour un environnement de services web, et ces standards sont collectivement appelés comme Services Web OGC (OWS en anglais). La figure ci-dessous fournit le schéma d'architecture général pour les Services Web OGC. Ce schéma identifie les classes génériques de services qui participent dans différentes activités de géotraitements et de localisation.
 
 
-.. figure:: ../../images/standards/publish_find_bind.jpg
+.. figure:: /images/standards/publish_find_bind.jpg
   :scale: 55%
   :alt: Cadre de travail des services web des standards OGC de géotraitements 
 
@@ -36,7 +36,7 @@ Les acronymes dans la figure sont définis ci-dessous. Certains d'entre eux sont
    :maxdepth: 1
    :glob:
    
-   *_overview
+   *
 
 * Sensor Planning Service (SPS)
 * Web Terrain Service (WTS)

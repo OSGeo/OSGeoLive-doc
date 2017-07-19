@@ -4,12 +4,17 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Copyright: 2011-2015 by The OSGeo Foundation
 
-.. image:: ../../images/project_logos/logo-GRASS.png
+.. image:: /images/project_logos/logo-GRASS.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://grass.osgeo.org
 
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 GRASS GIS 7 Quickstart 
@@ -23,7 +28,7 @@ Um GRASS auf der Live DVD zu starten, klicken Sie auf den GRASS Link im Menü un
 Im "Welcome to GRASS GIS" Fenster wählen Sie den North Carolina Datensatz als Location 
 und "user1" als Mapset. Klicken Sie dann auf [*Start GRASS*].
 
-.. image:: ../../images/screenshots/800x600/grass-startup.png
+.. image:: /images/screenshots/800x600/grass-startup.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -31,6 +36,7 @@ und "user1" als Mapset. Klicken Sie dann auf [*Start GRASS*].
 Dies started GRASS mit der `grafischen Benutzeroberfläche (geschrieben in wxPython) <../../grass/wxGUI.html>`_.
 
 .. tip::  Wenn Sie auf einem Netbook mit kleinem Display (800x600 Auflösung) arbeiten, 
+
 kann der Startbildschirm zu groß und der [*Start GRASS*] Knopf eventuell 
 versteckt sein. In diesem Fall sollten Sie das Fenster an einer Ecke etwas 
 größer ziehen. Oder Sie können das gesamte Fenster weiter nach oben schieben, 
@@ -44,7 +50,7 @@ instead of the special PERMANENT Mapset, das die Projektions-Metadaten und Basis
 Karten anzeigen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/grass-layerman.png
+.. image:: /images/screenshots/800x600/grass-layerman.png
   :scale: 50 %
   :alt: screenshot
   :align: left
@@ -69,7 +75,7 @@ Sie sollten nun die beiden Karten im Kartenfenster sehen.
 Ein Höhenprofil erstellen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/grass-profile.png
+.. image:: /images/screenshots/800x600/grass-profile.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -97,7 +103,7 @@ Reiter an, wenn Sie wollen (die Standards sind aber bereits ok), und klicken
 Sie dann auf [*Run*]. Sie können nun das Fenster des *r.surf.fractal* Moduls 
 schließen mit dem Knopf [Schließen].
 
-.. image:: ../../images/screenshots/800x600/grass-fractal.png
+.. image:: /images/screenshots/800x600/grass-fractal.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -120,7 +126,7 @@ und wählen Sie einen Eintrag aus. Klicken Sie auf den [Los] Knopf und schließe
 Erstellen einer Reliefschattierung
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/grass-shadedrelief.png
+.. image:: /images/screenshots/800x600/grass-shadedrelief.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -149,11 +155,11 @@ wählen Sie :menuselection:`Set computational region from selected map(s)`
 aus dem Kontextmenü um die volle Ausdehnung für die Berechnung der Wassereinzugsgebiete zu erhalten.
 
 .. note:: Die wxGUI Karte Anzeige und Zoom ist unabhängig 
-und hat keinen Effekt auf die Berechnung. Prüfen Sie die Berechnungsregion über 
-:menuselection:`Settings --> Region --> Display Region`; 
-dies ist äußerst wichtig für jede Raster Grid Operation.
-Raster Karten mit verschiedenen Begrenzungen und Auflösungen werden  
-on-the-fly auf die Berechnungsregion angepasst.
+    und hat keinen Effekt auf die Berechnung. Prüfen Sie die Berechnungsregion über 
+    :menuselection:`Settings --> Region --> Display Region`; 
+    dies ist äußerst wichtig für jede Raster Grid Operation.
+    Raster Karten mit verschiedenen Begrenzungen und Auflösungen werden  
+    on-the-fly auf die Berechnungsregion angepasst.
 
 Wählen Sie nun im Menü `Raster` :menuselection:`Hydrologische Modellierung --> 
 Wassereinzugsgebiet Analyse`. Der ``r.watershed`` Dialog öffnet sich. 
@@ -170,7 +176,7 @@ und wählen Sie "Deckkraft ändern". Setzen Sie den Wert auf 50%
 und rendern Sie 
 die Karte nochmal.
 
-.. image:: ../../images/screenshots/800x600/grass-watersheds.png
+.. image:: /images/screenshots/800x600/grass-watersheds.png
   :scale: 50 %
   :alt: screenshot
   :align: left
@@ -209,7 +215,7 @@ Vektorumgebung.
 3D Visualisierung
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/1024x768/grass-nviz.png
+.. image:: /images/screenshots/1024x768/grass-nviz.png
   :scale: 50 %
   :alt: screenshot
   :align: right

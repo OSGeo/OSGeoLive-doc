@@ -3,11 +3,17 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
-.. image:: ../../images/project_logos/logo-GRASS.png
+.. image:: /images/project_logos/logo-GRASS.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://grass.osgeo.org
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 
 ********************************************************************************
@@ -25,7 +31,7 @@
 незначительными корректировками могут быть применены к набору
 данных NC.        
 
-.. image:: ../../images/screenshots/800x600/grass-startup.png
+.. image:: /images/screenshots/800x600/grass-startup.png
   :scale: 40 %
   :alt: screenshot
   :align: right
@@ -43,7 +49,7 @@
 Отображение данных
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/grass-layerman.png
+.. image:: /images/screenshots/800x600/grass-layerman.png
   :scale: 50 %
   :alt: screenshot
   :align: left
@@ -68,7 +74,7 @@
 Построение профиля поверхности
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/grass-profile.png
+.. image:: /images/screenshots/800x600/grass-profile.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -95,7 +101,7 @@
 параметры по желанию на вкладке "Optional" (умолчальные значения вполне
 подойдут); нажмите [Run]. Теперь вы можете закрыть окно модуля *r.surf.fractal*.  
 
-.. image:: ../../images/screenshots/800x600/grass-fractal.png
+.. image:: /images/screenshots/800x600/grass-fractal.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -126,7 +132,7 @@
 Создание растра светотеневой отмывки рельефа
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/800x600/grass-shadedrelief.png
+.. image:: /images/screenshots/800x600/grass-shadedrelief.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -163,7 +169,7 @@ from selected map(s)". В меню `Raster` выберите
 чтобы он отображался позади других слоёв, и поставьте галочку, чтобы
 растр отображался в фоне.
 
-.. image:: ../../images/screenshots/800x600/grass-watersheds.png
+.. image:: /images/screenshots/800x600/grass-watersheds.png
   :scale: 50 %
   :alt: screenshot
   :align: left
@@ -201,7 +207,7 @@ from selected map(s)". В меню `Raster` выберите
 функциональными. GRASS поддерживает полностью топологическую векторную
 модель данных, которая позволяет проводить все основные виды анализа.  
 
-.. image:: ../../images/screenshots/1024x768/grass-vectattrib.png
+.. image:: /images/screenshots/1024x768/grass-vectattrib.png
   :scale: 30 %
   :alt: screenshot
   :align: right
@@ -255,7 +261,7 @@ from selected map(s)". В меню `Raster` выберите
 3D-визуализация
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/screenshots/1024x768/grass-nviz.png
+.. image:: /images/screenshots/1024x768/grass-nviz.png
   :scale: 30 %
   :alt: screenshot
   :align: right

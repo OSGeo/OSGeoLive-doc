@@ -3,7 +3,7 @@
 :Version: OSGeo-Live 4.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-prune.png
+.. image:: /images/project_logos/logo-prune.png
   :alt: project logo
   :align: right
   :target: http://gpsprune.activityworkshop.net/

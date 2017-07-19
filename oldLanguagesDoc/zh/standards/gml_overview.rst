@@ -11,15 +11,15 @@
   Project logos are stored here:
     https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
-    ../../images/project_logos/<filename>
+    /images/project_logos/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: ../../images/project_logos/logo-OGC-left.png
+.. image:: /images/project_logos/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: ../../images/project_logos/logo-OGC-right.png
+.. image:: /images/project_logos/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
@@ -34,7 +34,7 @@ Geography Markup Language (GML) 地理注记
 
 　　GML (http://www.opengeospatial.org/standards/gml) 是一种 XML 语法，用于表述地理要素。它既是 GIS 系统的数据类型，也是网络中公开交换地理信息的媒介。它不仅包含了传统的矢量信息，也包含了观测信息的某些成分，具有很高的通用性。
 
-.. image:: ../../images/standards/gml.jpg
+.. image:: /images/standards/gml.jpg
   :scale: 55%
   :alt: GML in Context
 

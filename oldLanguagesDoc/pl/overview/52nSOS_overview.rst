@@ -6,7 +6,7 @@
 
 .. _52nSOS-overview-pl:
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: project logo
   :align: right
   :target: http://52north.org/sos
@@ -23,7 +23,7 @@ pozwala na czytanie zarówno archiwalnych, jak i danych odbieranych bezpośredni
 przez sensory zdalne bądź in-situ. Sensorem może być kamera znajdująca się 
 na satelicie lub wodomierz w strumieniu.
  
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
+.. image:: /images/screenshots/1024x768/52n_sos_overview.png
   :scale: 60 %
   :alt: screenshot of 52°North SOS test client version 1.0.0
   :align: right
@@ -43,9 +43,9 @@ OGC SOS 1.0.0
 
 * GetCapabilities - zapytanie o opis usługi.
 * GetObservation - zapytanie o czyste dane z sensora, zakodowane 
-w Observations & Measurements (O&M).
+    w Observations & Measurements (O&M).
 * DescribeSensor - zapytanie o informacje o samym sensorze, zakodowane 
-w standardzie Sensor Model Language (SensorML).
+    w standardzie Sensor Model Language (SensorML).
 
 **Transakcyjne operacje SOS**:
 
@@ -57,7 +57,7 @@ w standardzie Sensor Model Language (SensorML).
 * GetResult - cykliczne pobieranie danych z sensora.
 * GetObservationById - pobieranie konkretnych, pojedynczych obserwacji.
 * GetFeatureOfInterest - pobieranie informacji w postacji zakodowanej 
-w GML o funkcji, która jest przedmiotem obserwacji.
+    w GML o funkcji, która jest przedmiotem obserwacji.
 * GetFeatureOfInterestTime - czasowa dostępność danych z sensora.
 
 OGC SOS 2.0.0
@@ -65,11 +65,11 @@ OGC SOS 2.0.0
 
 * GetCapabilities- zapytanie o opis usługi.
 * GetObservation - zapytanie o czyste dane z sensora, zakodowane 
-w Observations & Measurements (O&M).
+    w Observations & Measurements (O&M).
 * DescribeSensor- zapytanie o informacje o samym sensorze, zakodowane 
-w standardzie Sensor Model Language (SensorML).
+    w standardzie Sensor Model Language (SensorML).
 * GetFeatureOfInterest - zapytanie o zakodowaną w GML reprezentację 
-obiektu będącego celem obserwacji.
+    obiektu będącego celem obserwacji.
 
 Z powyższymi zapytaniami możliwe są następujące operatory filtrujące:
 
@@ -103,7 +103,7 @@ Szczegóły
 
 **Strona internetowa społeczności:** http://52north.org/communities/sensorweb/
 
-**Inne projekty 52°North:** :doc:`WPS <./52nWPS_overview>` , :doc:`WSS <./52nWSS_overview>`
+**Inne projekty 52°North:** :doc:`WPS <./52nWPS_overview>` , 52nWSS
 
 Wprowadzenie
 --------------------------------------------------------------------------------

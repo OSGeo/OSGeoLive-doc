@@ -6,6 +6,18 @@
 Guide de démarrage rapide OpenLayers
 ********************************************************************************
 
+.. image:: /images/project_logos/logo-OpenLayers.png
+  :scale: 80 %
+  :alt: project logo
+  :align: right
+  :target: http://openlayers.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 Exemples OpenLayers
 --------------------------------------------------------------------------------
 Parfois, le meilleur moyen de comprendre comment OpenLayers fonctionne est de regarder les 

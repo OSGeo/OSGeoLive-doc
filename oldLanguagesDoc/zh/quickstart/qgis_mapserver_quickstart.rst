@@ -4,10 +4,16 @@
 :Version: OSGeo-live 4.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-qgis_mapserver.png
+.. image:: /images/project_logos/logo-qgis_mapserver.png
   :scale: 100 %
   :alt: project logo
   :align: right
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 QGIS 服务器 快速入门
@@ -40,7 +46,7 @@ QGIS 网页客户端：
 
 　　浏览器中将显示一幅世界地图。
    
-.. image:: ../../images/screenshots/800x600/qgis_mapserver_browser.jpg
+.. image:: /images/screenshots/800x600/qgis_mapserver_browser.jpg
 
 　　访问 http://localhost/qgis_server 这个 URL 也可以得到同样的结果。
 

@@ -4,16 +4,10 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-rasdaman.png
+.. image:: /images/project_logos/logo-rasdaman.png
  :alt: project logo
   :align: right
   :target: http://rasdaman.org
-
-.. image:: ../../images/logos/OSGeo_incubation.png
-  :scale: 100
-  :alt: OSGeo Incubation Project
-  :align: right
-  :target: http://www.osgeo.org
 
 Rasdaman
 ================================================================================
@@ -37,7 +31,7 @@ Terabyte di immagine aeree. Alla confernza ACM Principles of Database Systems ne
 l'esperto di database raster Rona Machlin caratterizza rasdaman come "l'implementazione 
 più completa di un tale sistema".
 
-.. image:: ../../images/screenshots/1024x768/rasdaman-collage.png
+.. image:: /images/screenshots/1024x768/rasdaman-collage.png
   :scale: 50 %
   :align: right
 

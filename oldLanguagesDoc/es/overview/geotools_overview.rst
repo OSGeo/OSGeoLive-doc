@@ -1,4 +1,4 @@
- :Author: Jody Garnett
+:Author: Jody Garnett
 :Reviewer: Cameron Shorter, Jirotech
 :Translator: Samuel Mesa
 :Translator: David Mateos
@@ -7,30 +7,30 @@
 
 .. _geotools-overview-es:
 
-.. image:: ../../images/project_logos/logo-GeoTools.png
+.. image:: /images/project_logos/logo-GeoTools.png
   :alt: project logo
   :align: right
   :target: http://geotools.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GeoTools
 ================================================================================
 
 GeoTools es una biblioteca de software libre (LGPL) en Java que proporciona métodos que cumplen con estándares para manipular información geográfica, usando estructuras de datos basadas en las especificaciones del Open Geospatial Consortium (OGC).
 
-.. image:: ../../images/screenshots/800x600/geotools-overview.png
+.. image:: /images/screenshots/800x600/geotools-overview.png
   :scale: 60 %
   :alt: GeoTools es un a biblioteca modular que soporta plugins para formatos adicionales
   :align: right
 
 GeoTools es usada por multitud de proyectos incluyendo servicios web, herramientas de consola y aplicaciones de escritorio.
 Las aplicaciones de OSGeo-Live que utilizan GeoTools son:
-:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
+:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, AtlasStyler, :doc:`geomajas_overview`, Geopublisher, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
 Funcionalidades básicas
 --------------------------------------------------------------------------------
@@ -63,7 +63,7 @@ Funcionalidades básicas
 
   * Proporcionan funcionalidades adicionales usando las características espaciales de la biblioteca principal.
   
-  .. image:: ../../images/screenshots/800x600/geotools-extension.png
+  .. image:: /images/screenshots/800x600/geotools-extension.png
      :alt: Extensiones desarrolladas usando la biblioteca GeoTools
      
   * Las extensiones proporcionan soporte para grafos y redes (para encontrar rutas ópitmas), validación, un cliente de servicios de mapas, enlaces para parseo y codificación de XML y para las paletas de colores *Color Brewer*

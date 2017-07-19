@@ -12,8 +12,7 @@ W razie pytań, uwag lub problemów, pisz do nas na
 `listę dyskusyjną <http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
 
 Archiwa list dyskusyjnych obsługiwane są przez 
-`Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ oraz
-`Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_.
+`Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_.
 
 Użytkownicy IRC mogą skorzystać z kanałów #osgeolive lub #osgeo na Freenode.net by uzyskać pomoc na bieżąco.
 
@@ -23,7 +22,7 @@ jest również `system zgłaszania życzeń i błędów <https://trac.osgeo.org/
 Wsparcie komercyjne
 ================================================================================
 
-.. image:: ../images/logos/jirotechlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :scale: 100%
   :alt: Jirotech
   :target: http://jirotech.com

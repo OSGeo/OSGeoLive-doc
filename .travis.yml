@@ -9,6 +9,25 @@ group: edge
 dist: trusty    
 
 
+#<<<<<<< HEAD
+#addons:
+#  apt:
+#    sources:
+#    packages:
+#      - python-sphinx
+#      - python-pil
+#      - python-imaging
+
+#script: 
+# - make html
+#  - make html SPHINXOPTS=" -v"
+#  - du -ch _build/html
+#  - make clean
+#  - make small SPHINXOPTS=" -v" &> errors.txt
+#  - if ! grep -Fq 'build succeeded, 11 warnings' errors.txt; then cat errors.txt; exit 1; fi;
+#  - du -ch _build/html
+#=======
+
 # executed. So things have to be tested oe by one.
 addons:
   apt:

@@ -21,37 +21,37 @@ Wymagania systemowe
 Instalowanie OSGeo-Live
 --------------------------------------------------------------------------------
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install_start.png
+  .. image:: /images/screenshots/800x600/osgeolive_install_start.png
     :scale: 70 %
 
 Wybierz :guilabel:`Install RELEASE`
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install_password.png
+  .. image:: /images/screenshots/800x600/osgeolive_install_password.png
     :scale: 70 %
 
 Wpisz hasło="user"
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install1_language.png
+  .. image:: /images/screenshots/800x600/osgeolive_install1_language.png
     :scale: 70 %
 
 Wybierz język
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install2_timezone.png
+  .. image:: /images/screenshots/800x600/osgeolive_install2_timezone.png
     :scale: 70 %
 
 Określ strefę czasową
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install3_keyboard.png
+  .. image:: /images/screenshots/800x600/osgeolive_install3_keyboard.png
     :scale: 70 %
 
 Wybierz typ klawiatury
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install4_disk.png
+  .. image:: /images/screenshots/800x600/osgeolive_install4_disk.png
     :scale: 70 %
 
 Wybierz dysk, na którym chcesz zainstalować OSGeo-Live. (Uważaj, może to usunąć istniejącą partycję).
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install5_username.png
+  .. image:: /images/screenshots/800x600/osgeolive_install5_username.png
     :scale: 70 %
 
 Defaults for settings are:
@@ -62,7 +62,7 @@ Defaults for settings are:
    * nazwa komputera = "osgeolive"
    * Zaloguj się automatycznie
 
-  .. image:: ../../images/screenshots/800x600/osgeolive_install7_check.png
+  .. image:: /images/screenshots/800x600/osgeolive_install7_check.png
     :scale: 70 %
 
 Wybierz :guilabel:`Install`

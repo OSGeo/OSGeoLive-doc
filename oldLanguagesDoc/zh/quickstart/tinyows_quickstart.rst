@@ -3,7 +3,7 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-TinyOWS.png
+.. image:: /images/project_logos/logo-TinyOWS.png
   :scale: 100 %
   :alt: project logo
   :align: right
@@ -68,7 +68,7 @@ TinyOWS 快速入门文档
 
    * WFS 图层将显示：
 
-.. image:: ../../images/screenshots/800x600/tinyows_wfs_layer.png
+.. image:: /images/screenshots/800x600/tinyows_wfs_layer.png
   :scale: 80 %
 
 使用 WFS-T 编辑数据

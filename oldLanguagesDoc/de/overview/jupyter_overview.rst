@@ -5,7 +5,7 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-jupyter.png
+.. image:: /images/project_logos/logo-jupyter.png
   :alt: project logo
   :align: right
   :target: http://jupyter.org/
@@ -25,12 +25,12 @@ können, die Live-Code, Gleichungen, Visualisierungen und erklärenden Text enth
 Jupyter Notebook verbindet damit zwei Komponenten:  
 
 * Eine Webanwendung, die browser-based, interaktives veröffentlichen 
-von notebook Dokumenten bereitstellt.
+    von notebook Dokumenten bereitstellt.
 
 * Notebook Dokumente speichern eine Repräsentation von allen sichtbaren 
-Inhalten in der Webanwendung, inklusive Eingaben und Ausgaben
-von Berechnungen, erklärenden text, Berechnungen, Code, Bilder, Videos,
-Diagramme, Karten und andere Rich Media Repräsentationen von Objekten.
+    Inhalten in der Webanwendung, inklusive Eingaben und Ausgaben
+    von Berechnungen, erklärenden text, Berechnungen, Code, Bilder, Videos,
+    Diagramme, Karten und andere Rich Media Repräsentationen von Objekten.
 
 Notebooks können mit anderen auf GitHub, Dropbox und dem `Jupyter Notebook Viewer <https://nbviewer.jupyter.org/>`_ geteilt werden.
 
@@ -39,9 +39,9 @@ numerische Simulation, statistische Modellierung,
 machine learning und viel mehr.
 
 .. Cameron comment: I like the collage layout and selected examples, however
-  the image scale: above should change from 100% to 70% for 1024x768 images, to fit text layout. (this image is actually 1007x725). The image should be stored in images/screenshots/1024x768. The font size in the image is too small to see the text layout (which is a really cool message to get across). I suggest resampling, probably in a 800x600 resolution, maybe limit source collage images to 3. Maybe have one screenshot as the entire background, then place other samples on top - see the geoserver screenshot.
+  the image scale: above should change from 100% to 70% for 1024x768 images, to fit text layout. (this image is actually 1007x725). The image should be stored in /images/screenshots/1024x768. The font size in the image is too small to see the text layout (which is a really cool message to get across). I suggest resampling, probably in a 800x600 resolution, maybe limit source collage images to 3. Maybe have one screenshot as the entire background, then place other samples on top - see the geoserver screenshot.
    
-.. image:: ../../images/screenshots/800x600/jupyter-screenshot.png
+.. image:: /images/screenshots/800x600/jupyter-screenshot.png
   :scale: 70 %
   :alt: screenshot
   :align: right

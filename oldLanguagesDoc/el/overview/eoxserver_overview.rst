@@ -4,7 +4,7 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-eoxserver-2.png
+.. image:: /images/project_logos/logo-eoxserver-2.png
   :alt: project logo
   :align: right
   :target: http://eoxserver.org/
@@ -26,7 +26,7 @@ EOxServer
   Django/GeoDjango, :doc:`GDAL <gdal_overview>`, PROJ.4, :doc:`SpatiaLite <spatialite_overview>` ή 
   :doc:`PostGIS <postgis_overview>`
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: /images/screenshots/1024x768/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer embedded client
   :align: right
@@ -40,8 +40,8 @@ EOxServer
 * Διαχειριστική διαδικτυακή εφαρμογή
 * Δημοσίευση δεδομένων μέσω :doc:`προτύπων του Open Geospatial Consortium (OGC) <../standards/standards>`:
 
-  * :doc:`Web Coverage Service (WCS) <../standards/wcs_overview>`_ 1.0, 1.1, 2.0 και προτεινόμενου EO-WCS
-  * :doc:`Web Map Service (WMS) <../standards/wms_overview>`_ και EO-WMS
+  * `Web Coverage Service (WCS) <../standards/wcs_overview>`_ 1.0, 1.1, 2.0 και προτεινόμενου EO-WCS
+  * `Web Map Service (WMS) <../standards/wms_overview>`_ και EO-WMS
   * Προτεινόμενες επεκτάσεις του WCS περιλαμβάνουν: κωδικοποίηση GeoTIFF, προεπιλεγμενες 
     χαρτογραφικές προβολές (CRSs), μετατροπή κλίμακας και δειγματοληψία.
   * Τα προτόκολα που υποστηρίζονται είναι: KVP και XML/POST (σε συνεργασία με SOAP2POST

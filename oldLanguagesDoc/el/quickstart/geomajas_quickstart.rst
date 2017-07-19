@@ -4,12 +4,18 @@
 
 .. _geomajas-quickstart-el:
  
-.. image:: ../../images/project_logos/logo-geomajas.png
+.. image:: /images/project_logos/logo-geomajas.png
   :width: 50px
   :height: 50px
   :alt: project logo
   :align: right
   :target: http://www.geomajas.org
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 Εγχειρίδιο Γρήγορης Εκκίνησης Geomajas 
@@ -20,7 +26,7 @@
 
 Το Geomajas είναι ένα προγραμματιστικό περιβάλλον για την δημιουργία διαδικτυακών εφαρμογών GIS. Επομένως αυτό που είναι εγκατεστημένο στο παρών λειτουργικό είναι μια εφαρμογή επίδειξης υλοποιημένη με την τεχνολογία Geomajas.
 
-.. image:: ../../images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: /images/screenshots/1024x768/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

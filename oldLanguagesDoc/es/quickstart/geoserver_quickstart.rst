@@ -11,9 +11,15 @@
 
 .. _geoserver-quickstart-es:
  
-.. image:: ../../images/project_logos/logo-GeoServer.png
+.. image:: /images/project_logos/logo-GeoServer.png
   :alt: project logo
   :align: right
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 GeoServer Quickstart 
@@ -36,7 +42,7 @@ Iniciar |GS|
 #. La aplicación tardará unos segundos en iniciar
 #. Vaya a la pagina web de GeoServer en http://localhost:8082/geoserver/web 
 
-.. image:: ../../images/screenshots/800x600/geoserver-login.png
+.. image:: /images/screenshots/800x600/geoserver-login.png
     :width: 90 %
     :align: left
 
@@ -49,14 +55,14 @@ primero necesita loguearse usando el usuario admin y la password geoserver.
 Entonces verá la *página de administración*
 
 
-.. image:: ../../images/screenshots/800x600/geoserver-welcome.png
+.. image:: /images/screenshots/800x600/geoserver-welcome.png
     :width: 90%
     :align: left
 
 El enlace **Previsualización de Capas** en el menú de la izquierda le permite
 previsualizar los layer que están cargados en el servidor.
   
-.. image:: ../../images/screenshots/800x600/geoserver-layerpreview.png
+.. image:: /images/screenshots/800x600/geoserver-layerpreview.png
     :width: 90%
     :align: left
 
@@ -64,7 +70,7 @@ Desplacese hasta el final de la página y haga click en el enlace **OpenLayers**
 en la fila **tiger-ny**. Esto abrirá una nueva ventana con una previsualización
 de algunos de los datos de ejemplo.
 
-.. image:: ../../images/screenshots/800x600/geoserver-preview.png
+.. image:: /images/screenshots/800x600/geoserver-preview.png
     :width: 90%
     :align: left
     
@@ -105,7 +111,7 @@ Ahora necesitamos crear un Almacén de datos para nuestros datos. En la página 
 administración de |GS| vaya a  :guilabel:`Almacenes de datos` y haga click en 
 :guilabel:`Agregar nuevo almacén`. Verá la siguiente página:
 
-.. figure:: ../../images/screenshots/800x600/geoserver-newstore.png
+.. figure:: /images/screenshots/800x600/geoserver-newstore.png
     :align: center
     :width: 90%
     
@@ -113,7 +119,7 @@ administración de |GS| vaya a  :guilabel:`Almacenes de datos` y haga click en
 
 Seleccione :guilabel:`Directory of spatial files`, y verá lo siguiente: 
 
-.. figure:: ../../images/screenshots/800x600/geoserver-new-vector.png
+.. figure:: /images/screenshots/800x600/geoserver-new-vector.png
     :align: center
     
     *Completando la página Nuevo origen de datos vectoriales*
@@ -122,7 +128,7 @@ Escriba un nombre para el almacén de datos - Usamos *Natural Earth* y completam
 la URL al conjunto de datos - en este caso :file:`data/naturaleath`. La URL es 
 relativa al directorio de datos de |GS|. Presione :guilabel:`Guardar`.
 
-.. figure:: ../../images/screenshots/800x600/geoserver-naturalearth.png
+.. figure:: /images/screenshots/800x600/geoserver-naturalearth.png
     :align: center 
     :width: 100%
 
@@ -131,7 +137,7 @@ relativa al directorio de datos de |GS|. Presione :guilabel:`Guardar`.
 Presione :guilabel:`publicar` en la fila de uno de las capas para finalizar la
 incorporación de datos. Esto lo llevará a la página *Capas*:
 
-.. figure:: ../../images/screenshots/800x600/geoserver-publish.png
+.. figure:: /images/screenshots/800x600/geoserver-publish.png
     :align: center
     :width: 90%
 
@@ -178,7 +184,7 @@ Una vez abierto |UG| y agregados los archivos shape (usando el botón add data
 que está arriba a la izquierda). Arrastrar las tablas 10m_land y 10m_ocean 
 en la ventana de mapas. |UG| aplica automáticamente un estilo (para que se puedan visualizar los datos).
 
-.. figure:: ../../images/screenshots/800x600/geoserver-udig_startup.png
+.. figure:: /images/screenshots/800x600/geoserver-udig_startup.png
    :align: center
    :width: 90%
 
@@ -188,7 +194,7 @@ Obviamente un océano anaranjado no se ve bien (aunque la tierra verde es acepta
 como la paleta de un artista). 
 
 .. _Layer_list_es:
-.. figure:: ../../images/screenshots/800x600/geoserver-layer-chooser.png
+.. figure:: /images/screenshots/800x600/geoserver-layer-chooser.png
    :align: center
 
    *La ventana de lista de capas (Layer List)*
@@ -201,7 +207,7 @@ de colores que ofrece. También se puede incrementar la opacidad hasta el 100%
 para que el color se vea mejor.
 
 .. _Style_Pane_es:
-.. figure:: ../../images/screenshots/800x600/geoserver-style-pane.png
+.. figure:: /images/screenshots/800x600/geoserver-style-pane.png
    :align: center
 
    *El panel de estilos (Style Pane)*
@@ -210,7 +216,7 @@ para que el color se vea mejor.
 Una vez listo, hacer click en ``OK`` y |UG| mostrará los cambios.
 
 
-.. figure:: ../../images/screenshots/800x600/geoserver-blue-ocean.png
+.. figure:: /images/screenshots/800x600/geoserver-blue-ocean.png
    :align: center
    :width: 90%
 
@@ -221,14 +227,14 @@ de manera que repetimos los pasos explicados para cambiar el color de la capa la
 Ninguno de los colores predeterminados nos parece adecuado, asi que vamos a la sección
 ``define custom colors`` para crear uno que nos guste.
 
-.. figure:: ../../images/screenshots/800x600/geoserver-custom-colour.png
+.. figure:: /images/screenshots/800x600/geoserver-custom-colour.png
    :align: center
 
    *Definiendo un color mas agradable para la tierra*
 
 Esto da como resultado un mapa básico del mundo que se ve bien
 
-.. figure:: ../../images/screenshots/800x600/geoserver-basic-world.png
+.. figure:: /images/screenshots/800x600/geoserver-basic-world.png
    :align: center
    :width: 90%
 
@@ -247,7 +253,7 @@ Haciendo click en esto nos permite buscar en el disco rígido los archivos que
 acabamos de guardar. Una vez que encontramos lo que queremos, hacemos click en el 
 link para subir el archivo (junto al boton de explorar) y una copia de esos archivos aparece en el editor.
 
-.. figure:: ../../images/screenshots/800x600/geoserver-add-style.png
+.. figure:: /images/screenshots/800x600/geoserver-add-style.png
    :align: center
    :width: 90%
 
@@ -280,7 +286,7 @@ en :file:`/usr/local/share/geoserver`.
     :file:`/home/user/data/natural_earth/HYP_50M_SR_W/HYP_50M_SR_W.tif`
     en el campo :guilabel:`URL`.
 
-    .. figure:: ../../images/screenshots/800x600/geoserver-raster.png
+    .. figure:: /images/screenshots/800x600/geoserver-raster.png
         :align: center
         :width: 90%
 
@@ -302,6 +308,6 @@ sirviendo desde |GS|. Esta es una lista de algunos de ellos:
 
     * :doc:`OpenLayers <../overview/openlayers_overview>`
 
-    * :doc:`Atlas Styler <../overview/atlasstyler_overview>`
+    * AtlasStyler
 
     * :doc:`MapBender <../overview/mapbender_overview>`

@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-sahana-eden.png
+.. image:: /images/project_logos/logo-sahana-eden.png
   :alt: project logo
   :align: right
   :target: http://www.sahanafoundation.org
@@ -27,7 +27,7 @@ Le système a été officiellement utilisé par le gouvernement du Sri Lanka et 
 et distribué comme logiciel gratuit et Open Source software. Ensuite, le projet de ré-écriture de celui-ci, comme un des outils génériques
 de gestion des catastrophes, a été incubé avec des soutiens financiers de l'Agence Suédoise de Développement International (Swedish International Development Agency), IBM, la US National Science Foundation et depuis et il a été utilisé par des dizaines de gouvernements et d'ONG.
 
-.. image:: ../../images/screenshots/800x600/sahana-camp-dist_0.jpg
+.. image:: /images/screenshots/800x600/sahana-camp-dist_0.jpg
   :scale: 80 %
   :alt: screenshot
   :align: right

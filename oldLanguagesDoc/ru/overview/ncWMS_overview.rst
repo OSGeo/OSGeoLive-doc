@@ -3,7 +3,7 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ncWMS.png
+.. image:: /images/project_logos/logo-ncWMS.png
  :alt: Логотип проекта
  :align: right
  :target: http://www.resc.rdg.ac.uk/trac/ncWMS/
@@ -19,7 +19,7 @@ ncWMS публикует многомерные данные (такие, как
 картографические изображения из массивных наборов файлов, обычно ассоциирующихся
 с геоданными.
 
-.. image:: ../../images/screenshots/1024x768/ncWMS-03-timeseries.png
+.. image:: /images/screenshots/1024x768/ncWMS-01-start_screen.png
   :scale: 60 %
   :alt: Скриншот GeoServer
   :align: right

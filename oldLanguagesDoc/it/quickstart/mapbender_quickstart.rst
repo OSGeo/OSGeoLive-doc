@@ -5,10 +5,16 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: mapbender-user list
 
-.. image:: ../../images/project_logos/logo-Mapbender3.png
+.. image:: /images/project_logos/logo-Mapbender3.png
   :scale: 100 %
   :alt: project logo
   :align: right
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 Guida rapida su Mapbender3
@@ -41,7 +47,7 @@ Questa guida rapida descrive come:
 
 L'immagine che segue mostra come può apparire l'interfaccia di una applicazione creata con Mapbender:
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
+  .. image:: /images/screenshots/800x600/mapbender3_basic_application.png
      :scale: 80
 
 
@@ -63,7 +69,7 @@ Avviare Mapbender in modalità debug (app_dev.php)
 ================================================================================
 Symfony mette a disposizione degli sviluppatori una modalità di debug che mostra varie informazioni riguardanti la tua applicazione (logs, eccezioni, database queries, uso della memoria, tempi di esecuzione e altro). Questa modalità é disponibile solo da localhost.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_app_dev.png
+  .. image:: /images/screenshots/800x600/mapbender3_app_dev.png
      :scale: 80
 
 
@@ -72,7 +78,7 @@ Symfony mette a disposizione degli sviluppatori una modalità di debug che mostr
 #. Dai un'occhiata alle informazioni offerte da questa modalità.
 
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_symfony_profiler.png
+  .. image:: /images/screenshots/800x600/mapbender3_symfony_profiler.png
      :scale: 80
 
 
@@ -89,7 +95,7 @@ Pagina di benvenuto
 
 #. Puoi effettuare il login utilizzando il nome utente generato durante l'installazione. Questo potrà essere :guilabel:`root` e password :guilabel:`root` (questi sono username e password predefiniti, ottenuti durante l'installazione di Mapbender con OSGeo-Live. Puoi cambiare la password se vuoi lavorare in un ambiente di produzione. Non cancellare, però, la user :guilabel:`root`.).
   
-  .. image:: ../../images/screenshots/800x600/mapbender3_welcome.png
+  .. image:: /images/screenshots/800x600/mapbender3_welcome.png
      :scale: 80
 
 
@@ -113,7 +119,7 @@ La panoramica di riepilogo dell'applicazione fornisce le seguenti informazioni e
 
   .. NON ANCORA IMPLEMENTATO: In Mapbender hai a disposizione dei template di applicazioni, che puoi usare per creare le tue nuove applicazioni.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_application_overview.png
+  .. image:: /images/screenshots/800x600/mapbender3_application_overview.png
      :scale: 80
 
 
@@ -133,7 +139,7 @@ Ora puoi creare una nuova applicazione fornendo alcune informazioni di base su d
 
 #. la tua applicazione é stata creata. Adesso hai bisogno di una mappa WMS da visualizzare nella tua applicazione. Questo sarà descritto nella sezione **Amministrazione di fonti di dati**.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_create_application.png
+  .. image:: /images/screenshots/800x600/mapbender3_create_application.png
      :scale: 80
 
 ..
@@ -191,7 +197,7 @@ Un servizio WMS restituisce un file XML quando viene effettuata una richiesta ge
 
 #. Dopo la registrazione del servizio, Mapbender visualizzerà una panoramica sulle informazioni fornite dal servizio stesso.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_wms_load.png
+  .. image:: /images/screenshots/800x600/mapbender3_wms_load.png
      :scale: 80
 
 
@@ -227,7 +233,7 @@ Dopo avere caricato il servizio WMS, puoi aggiungere il WMS alla tua applicazion
 
 #. Puoi cambiare l'ordine dei servizi nella tua applicazione con un drag & drop.
 	
-  .. image:: ../../images/screenshots/800x600/mapbender3_add_source_to_application.png
+  .. image:: /images/screenshots/800x600/mapbender3_add_source_to_application.png
      :scale: 80
 
 Configurare il servizio WMS
@@ -240,7 +246,7 @@ Puoi configurare il servizio WMS secondo le necessità della tua specifica appli
 
 #. Puoi cambiare l'ordine dei layers con un drag & drop
 
-.. image:: ../../images/screenshots/800x600/mapbender3_wms_application_settings.png
+.. image:: /images/screenshots/800x600/mapbender3_wms_application_settings.png
   :scale: 80
 
 
@@ -276,7 +282,7 @@ Aggiungere elementi a una applicazione
 ================================================================================
 Mapbender mette a disposizione un insieme di elementi. Puoi aggiungere questi elementi alla tua applicazione. Esistono differenti regioni (Toolbar, Sidepane, Content, Footer) nelle quali puoi inserire gli elementi.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_application_add_element.png
+  .. image:: /images/screenshots/800x600/mapbender3_application_add_element.png
      :scale: 80
 
 #. Scegli :menuselection:`Applications --> edit-Button --> Layers --> Button+` per avere una panoramica sugli elementi forniti da Mapbender3.
@@ -289,7 +295,7 @@ Mapbender mette a disposizione un insieme di elementi. Puoi aggiungere questi el
 
 A questo punto dovresti avere un'idea di quanto sia semplice modificare una applicazione creata con Mapbender senza dover effettuare modifiche al codice.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_application_elements.png
+  .. image:: /images/screenshots/800x600/mapbender3_application_elements.png
      :scale: 80
 
 .. NON ANCORA IMPLEMENTATO 
@@ -353,7 +359,7 @@ Creare un profilo utente
 
 #. Salva il tuo nuovo profilo utente.
 
-.. image:: ../../images/screenshots/800x600/mapbender3_create_user.png
+.. image:: /images/screenshots/800x600/mapbender3_create_user.png
      :scale: 80 
 
 
@@ -375,7 +381,7 @@ Assegnare utenti a un gruppo
 
 #. Assegna un utente a un gruppo cliccando sul pulsante :menuselection:`Users --> Edit-Button--> Groups`.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_assign_user_to_group.png
+  .. image:: /images/screenshots/800x600/mapbender3_assign_user_to_group.png
      :scale: 80
  
 
@@ -389,7 +395,7 @@ Mapbender3 fornisce differenti ruoli per l'assegnazione a un gruppo.
 
 Assegna ruoli a un utente attraverso il tab :menuselection:`Users --> Edit your User --> Security`.
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_roles.png
+  .. image:: /images/screenshots/800x600/mapbender3_roles.png
      :scale: 80 
 
 
@@ -409,7 +415,7 @@ Assegnare una applicazione a un Utente/Gruppo
 
 #. Effettua il login con il nuovo profilo utente
 
-  .. image:: ../../images/screenshots/800x600/mapbender3_security.png
+  .. image:: /images/screenshots/800x600/mapbender3_security.png
      :scale: 80
 
 

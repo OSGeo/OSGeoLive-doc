@@ -5,12 +5,12 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-deegree.png
+.. image:: /images/project_logos/logo-deegree.png
   :alt: project logo
   :align: right
   :target: http://www.deegree.org
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right
@@ -29,7 +29,7 @@ deegree proporciona servicios web geoespaciales basados en las especificaciones 
 * `Catalogue Services for the Web (CSW) <http://www.opengeospatial.org/standards/cat>`_: Desarrolla búsquedas de conjuntos de datos y servicios geoespaciales. 
 * `Web Processing Services (WPS) <http://www.opengeospatial.org/standards/wps>`_: Ejecuta procesamientos geoespaciales.
 
-.. image:: ../../images/screenshots/1024x768/deegree_mainpage.png
+.. image:: /images/screenshots/1024x768/deegree_mainpage.png
   :scale: 55 %
   :alt: TBD
   :align: right
@@ -61,8 +61,7 @@ Características principales
 * El soporte para SE elimina la necesidad de un montón de extensiones propietarias.
 * Configuración sencilla de HTML y otros formatos de salida para las respuestas a GetFeatureInfo.
 * Uses stream-based data access, minimal memory footprint.
-* Soporte casi completo para simbología raster tal y como está definida en SE (con algunas extensiones
-.
+* Soporte casi completo para simbología raster tal y como está definida en SE (con algunas extensiones.
 * Soporte completo para TIEMPO/ELEVACIÖN y otras dimensiones tanto para entidades como para datos ráster. 
 * Supporta numerosos *backends*, como PostGIS, Oracle Spatial, MS SQL Server, Shapefiles o GML.
 * Puede renderizar modelos de datos complejos directamente.

@@ -4,7 +4,7 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-eoxserver-2.png
+.. image:: /images/project_logos/logo-eoxserver-2.png
   :scale: 65 %
   :alt: project logo
   :align: right
@@ -49,13 +49,13 @@
 
 Το εικονίδιο στην επιφάνεια εργασίας με τον τίτλο `EOxServer` ανοίγει έναν περιηγητή που δείχνει στην κεντρική σελίδα της εφαρμογής: http://localhost/eoxserver/.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_start.png
+.. image:: /images/screenshots/1024x768/eoxserver_start.png
   :scale: 50 %
   :alt: Εκκίνηση EOxServer
 
 Το δεύτερο εικονίδιο με τίτλο `EOxServer Documentation` ανοίγει μια εφαρμογή θέασης pdf που αφορά το εγχειρίδιο χρήσης.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_documentation.png
+.. image:: /images/screenshots/1024x768/eoxserver_documentation.png
   :scale: 50 %
   :alt: Εγχειρίδιο EOxServer
 
@@ -64,37 +64,37 @@
 
 Η διαδικτυακή εφαρμογή επιτρέπει στον χρήστη να δεί μια λίστα με τις διαθέσιμες `Σειρές δεδομένων` και τα `Μωσαικά Εικόνων`. Η δοκιμαστική εφαρμογή έχει μια σειρά δεδομένων με το όνομα "MER FRS 1P RGB reduced" που περιλαμβάνει τρείς σκηνές ENVISAT MERIS. Παρακαλούμε να ανατρέξετε στο διαδικτυακό  `εγχειρίδιο <http://eoxserver.org/doc/en/users/demonstration.html>`_ για περισσότερες πληροφορίες σχτικά με τα διαθέσιμα δεδομένα.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient1.png
+.. image:: /images/screenshots/1024x768/eoxserver_webclient1.png
   :scale: 50 %
   :alt: Δοκιμαστική εφαρμογή EOxServer με προβολή σειράς δεδομένων
 
 Επιλέγοντας μια εγγραφή από τη λίστα, παρουσιάζεται στο χάρτη το περίγραμμα των διαθέσιμων δεδομένων.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient2.png
+.. image:: /images/screenshots/1024x768/eoxserver_webclient2.png
   :scale: 50 %
   :alt: Περίγραμμα δεδομένων EOxServer
 
 Χρησιμοποιώντας τα κλασικά εργαλεία της εφαρμογής OpenLayers, μπορεί ο χρήστης να ενεργοποιήσει την προεπισκόπηση των διαθεσίμων δεδομένων.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: /images/screenshots/1024x768/eoxserver_screenshot.png
   :scale: 50 %
   :alt: Παρουσίαση προεπισκόπησης εικόνων εντός EOxServer
 
 Με το εργαλείο χρόνου τα δεδομένα που αντιστοιχούν σε μια χρονική περίοδο μπορούν να φιλτραριστούν από τον χρήστη ανάλογα με τις απαιτήσεις του.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient3.png
+.. image:: /images/screenshots/1024x768/eoxserver_webclient3.png
   :scale: 50 %
   :alt: Παρουσίαση δεδομένων με βάση την χρονική περίοδο στον EOxServer
 
 Το κουμπί **Download** παρέχει μια λίστα με τα διαθέσιμα δεδομένα για μεταφόρτωση. Η μεταφόρτωση μπορεί να γίνει με τη χρήση πολυγώνου στον χάρτη ή με την έκταση του χάρτη που βλέπει ο χρήστης, είτε με την χρονική περίοδο που έχει καθοριστεί. Ο χρήστης μπορεί να επιλέξει ποια δεδομένα θα κατεβάσει, σε ποιο μέγεθος, σε ποιο σύστημα συντεταγμένων, σε ποιό τύπο αρχείου και με ποια φασματικά κανάλια.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient4.png
+.. image:: /images/screenshots/1024x768/eoxserver_webclient4.png
   :scale: 50 %
   :alt: Επιλογή μεταφόρτωσης EOxServer
 
 Το κουμπί **Start Download** εκκινεί τη διαδικασία μεταφόρτωσης που μπορεί να οδηγήσει σε πολλαπλά αρχεία εφόσον περισότερα από ένα δεδομένα έχουν επιλεγεί.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_webclient5.png
+.. image:: /images/screenshots/1024x768/eoxserver_webclient5.png
   :scale: 50 %
   :alt: Παράδειγμα μεταφόρτωσης δεδομένων στον EOxServer
 
@@ -103,19 +103,19 @@
 
 Η συντόμευση **Admin Client** μεταφέρει τον χρήστη σε σελίδα πιστοποίησης της διαχειριστικής εφαρμογής. Ο κωδικός ασφαλείας για τον χρήστη `admin` είναι `admin`.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_adminclient1.png
+.. image:: /images/screenshots/1024x768/eoxserver_adminclient1.png
   :scale: 50 %
   :alt: Εισαγωγή χρήστη διαχειριστικής εφαρμογής EOxServer
 
 Η διαχειριστική εφαρμογή είναι βασισμένη στην διαχειριστική εφαρμογή του Django και επιτρέπει στον χρήστη να ρυθμίσει τα διαθέσιμα δεδομένα στο σύστημα. Μπορείτε να πειραματιστείτε με την εφαρμογή. Περισότερες πληροφορίες μπορούν να βρεθούν στις παρακάτω `πηγές <http://eoxserver.org/doc/en/users/operators.html>`_.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_adminclient2.png
+.. image:: /images/screenshots/1024x768/eoxserver_adminclient2.png
   :scale: 50 %
   :alt: Έναρξη διαχειριστικής εφαρμογής EOxServer
 
 Είναι για παράδειγμα δυνατό για τον χρήστη να δεί και να αλλάξει τα μεταδεδομένα της σειράς δεδομένων που διατίθενται στην εφαρμογή.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_adminclient3.png
+.. image:: /images/screenshots/1024x768/eoxserver_adminclient3.png
   :scale: 50 %
   :alt: Παράδειγμα διαχειριστικής εφαρμογής EOxServer
 
@@ -124,7 +124,7 @@
 
 Ο σύνδεσμος **Log Viewer** παρέχει έναν έυκολο τρόπο για εποπτεία των συμβάντων στον εξυπηρετητή και αποσφαλμάτωση.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_logviewer.png
+.. image:: /images/screenshots/1024x768/eoxserver_logviewer.png
   :scale: 50 %
   :alt: Ημερολόγιο συμβάντων EOxServer
 

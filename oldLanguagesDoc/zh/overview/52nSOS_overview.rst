@@ -3,7 +3,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: project logo
   :align: right
   :target: http://52north.org/sos
@@ -18,7 +18,7 @@ Web服务
 52°North :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` 
 支持访问来自当地与远程传感器实时获取或者历史存档的数据。传感器可以是安装在卫星上的照相机或者河流里的水位仪。
  
-.. image:: ../../images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
+.. image:: /images/screenshots/1024x768/52n_sos_overview.png
   :scale: 100 %
   :alt: screenshot of sos test client
   :align: right

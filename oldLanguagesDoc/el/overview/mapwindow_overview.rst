@@ -4,7 +4,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-MapWindow.png
+.. image:: /images/project_logos/logo-MapWindow.png
   :alt: MapWindow GIS
   :align: right
   :width: 220
@@ -24,7 +24,7 @@ MapWindow GIS
 
 .. note:: Το MapWindow απαιτεί σύστημα Microsoft Windows για την εκτέλεσή του. Τα αρχεία εγκατάστασης περιλαμβάνονται  στην πλήρη έκδοση του `OSGeo-Live <http://live.osgeo.org>`_ ή μπορούν να τηλεφορτωθούν από τη διεύθυνση http://mapwindow4.codeplex.com/releases.
    
-.. image:: ../../images/screenshots/1024x768/mapwindow-screenshot.jpg
+.. image:: /images/screenshots/1024x768/mapwindow-screenshot.jpg
   :alt: Mapwindow Screenshot
   :scale: 50 %
   :align: right

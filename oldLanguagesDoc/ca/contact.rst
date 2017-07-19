@@ -10,8 +10,7 @@ Suport de la comunitat
 Si teniu qualsevol pregunta, comentari, o problemes amb l'execució dels programes, podeu deixar una nota en
 `la nostra llista de correu <http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
 
-En `Gmane <http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ i
-`Nabble <http://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_
+En Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_
 podeu consultar els arxius històrics de la llista de correu.
 
 Els usuaris d'IRC podeu escollir entre els canals #osgeolive i #osgeo de Freenode.net
@@ -24,7 +23,7 @@ així com `un sistema de recerca d'errors i de suggeriments <https://trac.osgeo.
 Suport comercial
 ================================================================================
 
-.. image:: ../images/logos/jirotechlogo.jpg
+.. image:: /images/logos/jirotechlogo.jpg
   :scale: 100%
   :alt: Jirotech
   :target: http://jirotech.com

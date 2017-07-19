@@ -3,7 +3,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-gpsdrive.png
+.. image:: /images/project_logos/logo-gpsdrive.png
   :alt: Logo du projet
   :align: right
   :target: http://www.gpsdrive.de
@@ -26,7 +26,7 @@ comme le démon et multiplexeur GPS `Gpsd <http://gpsd.berlios.de>`_ .
 Caractéristiques principales
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/gpsdrive-cyclemap.png
+.. image:: /images/screenshots/1024x768/gpsdrive-cyclemap.png
   :scale: 50 %
   :alt: Capture d'écran GpsDrive
   :align: right

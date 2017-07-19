@@ -19,7 +19,7 @@ Cercare una località
 Bisogna cliccare per ingrandire la lente e digitare la località che si sta cercando.
 Nella seguente immagine, si sta cercando l'India.
 
-.. image:: ../../images/screenshots/1024x768/cesium_1_SearchingLocation.png
+.. image:: /images/screenshots/1024x768/cesium_1_SearchingLocation.png
   :scale: 70 %
   :alt: Cesium Searching Location
 
@@ -28,13 +28,13 @@ Cambiare tra 3D, 2.5D e 2D
 Si deve cliccare sull'icona del globo e selezionare la vostra vista preferita.
 Qui la vista 2.5D Columbus è stata selezionata.
 
-.. image:: ../../images/screenshots/1024x768/cesium_2_2253d.png
+.. image:: /images/screenshots/1024x768/cesium_2_2253d.png
   :scale: 70 %
   :alt: Cesium switching between 3D, 2.5D and 2D
 
 Ora la mappa 2D è selezionata.
 
-.. image:: ../../images/screenshots/1024x768/cesium_3_2D.png
+.. image:: /images/screenshots/1024x768/cesium_3_2D.png
   :scale: 70 %
   :alt: Cesium 2D map
 
@@ -43,7 +43,7 @@ Selezionare la layer immagine
 Bisogna cliccare sull'ultima icona e selezionare il servizio di immagini che si vuole.
 Qui Natural Earth II è selezionato e si può vedere come il layer della mappa sia cambiato
 
-.. image:: ../../images/screenshots/1024x768/cesium_4_Layer.png
+.. image:: /images/screenshots/1024x768/cesium_4_Layer.png
   :scale: 70 %
   :alt: Cesium 2D map
 
@@ -51,10 +51,10 @@ Qui Natural Earth II è selezionato e si può vedere come il layer della mappa s
 
 Ed ora?
 ==========
-* Ci sono video tutorial `qui <https://www.youtube.com/playlist?list=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V>`_.
+* Ci sono video tutorial `qui <https://www.youtube.com/playlist?list=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V>`__.
 
-* Tutorial web sono `qui <http://cesiumjs.org/tutorials.html>`_.
+* Tutorial web sono `qui <http://cesiumjs.org/tutorials.html>`__.
 
 * È possibile sviluppare alcune applicazione semplici utilizzando il sito Sandcastle seguendo questo `link <http://cesiumjs.org/Cesium/Apps/Sandcastle/index.html?src=Custom%20DataSource.html&label=Tutorials>`_.
 
-* Una documentazione più approfondita è disponibili in locale `qui <http://localhost/cesium/>`_.
+* Una documentazione più approfondita è disponibili in locale `qui <http://localhost/cesium/>`__.

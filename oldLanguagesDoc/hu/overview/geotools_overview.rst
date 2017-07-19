@@ -4,16 +4,16 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoTools.png
+.. image:: /images/project_logos/logo-GeoTools.png
   :alt: projekt logo
   :align: right
   :target: http://geotools.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Projekt
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GeoTools
 ================================================================================
@@ -23,7 +23,7 @@ megfelelő eljárásokat biztosít a térinformatikai adatok kezeléséhez és a
 Open Geospatial Consortium (OGC) specifikációin alapuló adatszerkezeteket 
 használ.
 
-.. image:: ../../images/screenshots/800x600/geotools-overview.png
+.. image:: /images/screenshots/800x600/geotools-overview.png
   :scale: 60 %
   :alt: A GeoTools egy moduláris könyvtár, bővítő modulokkal további formátumokhoz
   :align: right
@@ -31,7 +31,7 @@ használ.
 A GeoTools-t számos projekt használja, többek között web szolgáltatások,
 parancssori programok és asztali alkalmazások. GeoTools-t használó OSGeo-Live
 alkalmazások:
-:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
+:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, AtlasStyler, :doc:`geomajas_overview`, Geopublisher, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
 Alapfunkciók
 --------------------------------------------------------------------------------
@@ -64,7 +64,7 @@ Alapfunkciók
 
   * További képességeket biztosít a mag könyvtár funkcióinak felhasználásával. 
 
-  .. image:: ../../images/screenshots/800x600/geotools-extension.png
+  .. image:: /images/screenshots/800x600/geotools-extension.png
      :alt: A GeoTools könyvtárral készült bővítmény
 
   * Bővítmények biztosítják a gráf és a hálózatkezelést (lerövidebb útvonal keresés), az ellenőrzést, egy térkép szerver klienst, az xml értelmezéshez és kódoláshoz kötéseket és a színkezelést.

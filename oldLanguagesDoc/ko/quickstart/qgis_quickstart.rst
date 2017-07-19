@@ -3,11 +3,17 @@
 :Version: osgeo-live4.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 QGIS Quickstart 
@@ -36,7 +42,7 @@ QGIS 프로젝트 편집
 
    * 사람이 거주하는 지역을 볼 수 있습니다:
 
-     .. image:: ../../images/screenshots/1024x768/qgis.png
+     .. image:: /images/screenshots/1024x768/qgis.png
         :scale: 50 %
 
 #. Layers에서 **10m_rivers_lake_centerlines** 더블 클릭.

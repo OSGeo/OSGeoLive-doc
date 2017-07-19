@@ -4,7 +4,7 @@
 :Version: OSGeo-Live 6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-eoxserver-2.png
+.. image:: /images/project_logos/logo-eoxserver-2.png
   :alt: project logo
   :align: right
   :target: http://eoxserver.org/
@@ -27,7 +27,7 @@ Web 服务
 * 基于开放标准的服务：开放地理信息协会（OGC）标准; WMS, WCS, EO-WMS, EO-WCS
 * 高效的数据利用：用户可自定义数据获取范围，并浏览和下载。
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: /images/screenshots/1024x768/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer embedded client screen shot
   :align: right

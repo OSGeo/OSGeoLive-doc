@@ -6,7 +6,7 @@
 
 .. _zygrib-overview-es:
 
-.. image:: ../../images/project_logos/logo-zygrib.png
+.. image:: /images/project_logos/logo-zygrib.png
   :alt: project logo
   :align: right
   :target: http://www.zygrib.org
@@ -23,7 +23,7 @@ el formato de distribución estándar GRIB.
 Características Principales
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/zygrib_xynthia_010b.jpg
+.. image:: /images/screenshots/1024x768/zygrib_xynthia_010b.jpg
   :scale: 40 %
   :alt: screenshot
   :align: right

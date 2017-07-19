@@ -3,16 +3,16 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-GeoTools.png
+.. image:: /images/project_logos/logo-GeoTools.png
   :alt: project logo
   :align: right
   :target: http://geotools.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GeoTools
 ================================================================================
@@ -22,7 +22,7 @@ de données géospatiale et utilise une structuration de la donnée basée sur l
 de l'Open Geospatial Consortium (OGC).
 
 
-.. image:: ../../images/screenshots/800x600/geotools-overview.png
+.. image:: /images/screenshots/800x600/geotools-overview.png
   :scale: 60 %
   :alt: GeoTools is a modular library supported by plugins for additional formats
   :align: right
@@ -30,7 +30,7 @@ de l'Open Geospatial Consortium (OGC).
 GeoTools est utilisé par un grand nombre de projets y compris de services web, 
 des outils en ligne de commande et des applications de bureau. Les applications
 de l'OSGeo-live DVD qui embarque GeoTools sont :
-:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
+:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, AtlasStyler, :doc:`geomajas_overview`, Geopublisher, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
 Éléments centraux
 --------------------------------------------------------------------------------
@@ -66,7 +66,7 @@ de l'OSGeo-live DVD qui embarque GeoTools sont :
   * Permet l'ajout de possibilités de construction utilisant les possibilités des éléments 
     centraux de la librairie
   
-  .. image:: ../../images/screenshots/800x600/geotools-extension.png
+  .. image:: /images/screenshots/800x600/geotools-extension.png
      :alt: Extensions built using the GeoTools library
 
   * Les extensions permettent de construire de graphe de réseau (pour trouver le chemin le plus court), la validation,

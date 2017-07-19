@@ -5,12 +5,12 @@
 :Version: osgeo-live8.5-draft
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-pycsw.png
+.. image:: /images/project_logos/logo-pycsw.png
   :alt: project logo
   :align: right
   :target: http://pycsw.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100
   :alt: OSGeo Project
   :align: right
@@ -30,7 +30,7 @@ pycsw è un'implementazione in `Python`_ del: doc: :doc:`OGC Catalogue Services 
 
 pycsw e` Open Source, rilasciato con una licenza MIT, e funziona su tutte le principali piattaforme (Windows, Linux, Mac OS X).
 
-.. image:: ../../images/screenshots/1024x768/pycsw_overview.jpg
+.. image:: /images/screenshots/1024x768/pycsw_overview.jpg
   :scale: 50 %
   :alt: project logo
   :align: right

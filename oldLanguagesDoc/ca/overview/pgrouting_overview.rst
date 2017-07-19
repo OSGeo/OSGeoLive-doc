@@ -7,10 +7,16 @@
 
 .. _pgrouting-overview:
 
-.. image:: ../../images/project_logos/logo-pgRouting.png
+.. image:: /images/project_logos/logo-pgRouting.png
   :alt: pgRouting logo
   :align: right
   :target: http://www.pgrouting.org/
+
+.. image:: /images/logos/OSGeo_community.png
+   :scale: 100
+   :alt: OSGeo Community Project
+   :align: right
+   :target: http://www.osgeo.org
 
 pgRouting
 ================================================================================
@@ -27,7 +33,7 @@ Els avantatges del càlcul de rutes sobre una base de dades són:
 * Els canvis en les dades es poden reflectir automàticament a través del motor de càlcul de rutes. No cal fer cap càlcul previ.
 * El paràmetre "cost" es pot calcular de manera dinàmica per mitjà de SQL i el seu valor pot provenir de diversos camps i taules. 
 
-.. image:: ../../images/screenshots/800x600/pgrouting.png
+.. image:: /images/screenshots/800x600/pgrouting.png
   :scale: 60 %
   :alt: consulta pgRouting en pgAdminIII
   :align: right

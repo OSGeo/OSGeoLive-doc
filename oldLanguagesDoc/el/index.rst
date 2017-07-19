@@ -21,7 +21,7 @@
 χωρίς να χρειαστεί να εγκαταστήσετε τίποτα στον υπολογιστή σας. Αποτελείται αποκλειστικά από ελεύθερο λογισμικό,
 επιτρέποντας την ελεύθερη διανομή και αναπαραγωγή.
 
-.. image:: ../images/screenshots/800x600/osgeolive_menu.png
+.. image:: /images/screenshots/800x600/osgeolive_menu.png
   :scale: 70 %
   :alt: boot select
   :align: right
@@ -60,15 +60,19 @@
      :glob:
 
      overview/overview
-     quickstart/*quickstart
-     standards/standards
+     overview/*
+     quickstart/*
+     standards/*
      contact
      copyright
      disclaimer
      download
      sponsors
      sponsors_osgeo
-     presentation
+     metrics
+     mac_installers
+     win_installers
+     prior_applications
 
 Παρουσίαση
 --------------------------------------------------------------------------------

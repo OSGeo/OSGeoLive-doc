@@ -4,7 +4,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geokettle.png
+.. image:: /images/project_logos/logo-geokettle.png
   :alt: project logo
   :align: right
   :target: http://www.geokettle.org/
@@ -21,7 +21,7 @@ GeoKettle possibilita l'Extracció de dades des de fonts de dades, la Transforma
 
 En l'àmbit geoespacial Geokettle es pot comparar amb FME, una eina ETL espacial privativa. GeoKettle és estable, és ràpid, respecta els estàndards, té centenars de funcions i suport per llegir i escriure molts formats d'arxius, serveis i DBMS. GeoKettle s'utilitza a diverses organitzations d'arreu del món, com agències del govern, bancs, asseguradores i integradors de sistemes geoespacials.
 
-.. image:: ../../images/screenshots/1024x768/geokettle-overview.png
+.. image:: /images/screenshots/1024x768/geokettle-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right

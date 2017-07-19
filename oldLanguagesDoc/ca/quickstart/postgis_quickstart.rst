@@ -5,11 +5,17 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-PostGIS.png
+.. image:: /images/project_logos/logo-PostGIS.png
   :scale: 30 %
   :alt: project logo
   :align: right
   :target: http://postgis.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 
 ********************************************************************************
@@ -259,7 +265,7 @@ A continuació veurà com generar un mapa amb Quantum GIS.
 Inicieu Quantum GIS i escolliu ``Add PostGIS layer`` en el menú Layer. 
 Com que no s'ha usat PostGIS des de QGIS abans, obtindrà una llista buida de connexions PostGIS.
 
-.. image:: ../../images/screenshots/1024x768/postgis_addlayers.png
+.. image:: /images/screenshots/1024x768/postgis_addlayers.png
   :scale: 50 %
   :alt: Afegir capa PostGIS
   :align: center
@@ -269,7 +275,7 @@ No cal donar nom d'usuari ni contrasenya, ja que la seguretat està configurada 
 En cas que estigués activada, desactiveu l'opció de comprovació sobre les taules sense geometria - permetrà fer 
 les coses una mica més senzilles.
 
-.. image:: ../../images/screenshots/1024x768/postgis_naturalearth.png
+.. image:: /images/screenshots/1024x768/postgis_naturalearth.png
   :scale: 100 %
   :alt: Connexió a Natural Earth
   :align: center
@@ -278,14 +284,14 @@ Punxi el botó ``Test Connect``, i si tot està correcte obtindrà un missatge a
 Premeu ``OK`` i la seva informació de connexió es guardarà amb el nom en la llista de connexions. 
 Ara ja pot punxar ``Connect`` i obtenir un llistat de les taules espacials de la base de dades:
 
-.. image:: ../../images/screenshots/1024x768/postgis_listtables.png
+.. image:: /images/screenshots/1024x768/postgis_listtables.png
   :scale: 50 %
   :alt: Capes de dades de Natural Earth
   :align: center
 
 Trieu la taula de llacs i premi ``Add`` (no ``Load`` - que guarda les consultes), i s'hauria de carregar en QGIS:
 
-.. image:: ../../images/screenshots/1024x768/postgis_lakesmap.png
+.. image:: /images/screenshots/1024x768/postgis_lakesmap.png
   :scale: 50 %
   :alt: La meva primera capa de dades en PostGIS
   :align: center
@@ -308,7 +314,7 @@ per tal de poder iniciar el gestor.
 A continuació, PostGIS Manager farà servir la configuració que vostè ha definit prèviament per poder-se connectar a la base de dades Natural Earth.
 Si li demana la contrasenya deixi-la en blanc. Veureu la finestra principal del gestor.
 
-.. image:: ../../images/screenshots/1024x768/postgis_getmanager.png
+.. image:: /images/screenshots/1024x768/postgis_getmanager.png
   :scale: 50 %
   :alt: Plugin de PostGIS Manager 
   :align: center
@@ -317,7 +323,7 @@ Podeu utilitzar les altres pestanyes del panell del costat dret per comprovar el
 obtenir un mapa bàsic amb capacitat de zoom i panoràmica. En aquest cas hem seleccionat la capa de poblacions
 i hem fet zoom a una petita illa que coneixem:
 
-.. image:: ../../images/screenshots/1024x768/postgis_managerpreview.png
+.. image:: /images/screenshots/1024x768/postgis_managerpreview.png
   :scale: 50 %
   :alt: Visualització prévia de PostGIS Manager
   :align: center
@@ -329,14 +335,14 @@ Carolina del Nord que s'inclouen en un dels add-ons del paquet estadístic R.
 Triar l'opció ``Load data from shapefile`` al menú ``Data``.
 Premi el botó ``...`` i busqui el shapefile ``sids.shp`` en el paquet ``maptools`` de R:
 
-.. image:: ../../images/screenshots/1024x768/postgis_browsedata.png
+.. image:: /images/screenshots/1024x768/postgis_browsedata.png
   :scale: 50 %
   :alt: Buscar el shapefile
   :align: center
 
 Deixi tota la resta com està i premi ``Load``
 
-.. image:: ../../images/screenshots/1024x768/postgis_importsids.png
+.. image:: /images/screenshots/1024x768/postgis_importsids.png
   :scale: 50 %
   :alt: Importar un shapefile
   :align: center
@@ -348,7 +354,7 @@ A continuació carregarem les dades SIDS al mapa fent ús de l'opció 'Add PostG
 Reorganitzant algunes capes i aplicant color, hauria de ser capaç de produir
 un mapa de coropletes dels comptes de síndrome de mort sobtada infantil a Carolina del Nord:
 
-.. image:: ../../images/screenshots/1024x768/postgis_sidsmap.png
+.. image:: /images/screenshots/1024x768/postgis_sidsmap.png
   :scale: 50 %
   :alt: SIDS data mapped
   :align: center
@@ -361,12 +367,12 @@ Conegui pgAdmin III
 Podeu utilitzar el client gràfic de la base de dades ``pgAdmin III`` per consultar i modificar una base de dades sense component espacial.
 Aquest és el client oficial de PostgreSQL, i li permet manipular les taules de dades mitjançant SQL.
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen1.png
+.. image:: /images/screenshots/1024x768/postgis_adminscreen1.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
 
-.. image:: ../../images/screenshots/1024x768/postgis_adminscreen2.png
+.. image:: /images/screenshots/1024x768/postgis_adminscreen2.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center

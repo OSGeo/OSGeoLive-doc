@@ -5,11 +5,17 @@
 
 .. _qgis-quickstart:
  
-.. image:: ../../images/project_logos/logo-QGIS.png
+.. image:: /images/project_logos/logo-QGIS.png
   :scale: 100 %
   :alt: project logo
   :align: right
   :target: http://www.qgis.org
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 **********************************
 Εγχειρίδιο Γρήγορης Εκκίνησης QGIS
@@ -38,7 +44,7 @@ To Quantum GIS (QGIS) είναι μια φιλική GIS Desktop εφαρμογ�
 
    * Οι κατοικήσιμες περιοχές πλέον προβάλλονται στο QGIS:
 
-     .. image:: ../../images/screenshots/1024x768/qgis.png
+     .. image:: /images/screenshots/1024x768/qgis.png
         :scale: 50 %
 
 #. Διπλό αριστερό κλικ **10m_rivers_lake_centerlines** στο δέντρο των Layers.

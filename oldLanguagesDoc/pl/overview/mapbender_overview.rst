@@ -6,13 +6,13 @@
 
 .. _mapbender-overview-pl:
 
-.. image:: ../../images/project_logos/logo-Mapbender3.png
+.. image:: /images/project_logos/logo-Mapbender3.png
   :alt: project logo
   :align: right
   :target: http://www.mapbender3.org
 
-.. image:: ../../images/logos/OSGeo_project.png
-  :scale: 90 %
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
   :alt: OSGeo Project
   :align: right
   :target: http://www.osgeo.org
@@ -32,7 +32,7 @@ Mapbender management applications are straight forward and easy to use providing
 
 Mapbender is based on Symfony2, OpenLayers, Mapproxy and jQuery. 
 
-.. image:: ../../images/screenshots/800x600/mapbender3_basic_application.png
+.. image:: /images/screenshots/800x600/mapbender3_basic_application.png
   :scale: 70%
   :alt: Mapbender application
   :align: right

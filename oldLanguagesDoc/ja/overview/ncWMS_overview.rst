@@ -3,7 +3,7 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ncWMS.png
+.. image:: /images/project_logos/logo-ncWMS.png
  :alt: project logo
  :align: right
  :target: http://www.resc.rdg.ac.uk/trac/ncWMS/
@@ -12,11 +12,11 @@ ncWMS
 ================================================================================
 
 Webマップサービス
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 ncWMSはOGC準拠のWebマップサービス（WMS）として多次元データ（例えば、環境や気象データなど）を公開します。ncWMSは、迅速かつ効率的に、典型的には環境データに関連付けられた非常に大きなデータファイルからマップ画像を抽出します。
 
-.. image:: ../../images/screenshots/1024x768/ncWMS-03-timeseries.png
+.. image:: /images/screenshots/1024x768/ncWMS-03-timeseries.png
   :scale: 60 %
   :alt: Screen Shot of GeoServer
   :align: right
@@ -34,8 +34,8 @@ ncWMSはOGC準拠のWebマップサービス（WMS）として多次元データ
 
 * ベクトルコンポーネントの認識とベクトル矢印の自動生成
 
-*（ソースデータとターゲット画像の両方のための）座標系の広範囲をサポート
- 
+* （ソースデータとターゲット画像の両方のための）座標系の広範囲をサポート
+
 * アニメーション作成のサポート
 
 * ブラウザクライアントが含まれる
@@ -71,7 +71,7 @@ ncWMSはOGC準拠のWebマップサービス（WMS）として多次元データ
 
 
 クイックスタート	
-----------
+-------------------------
 
 * :doc:`クイックスタート文書 <../quickstart/ncWMS_quickstart>`
 

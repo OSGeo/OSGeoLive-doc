@@ -4,7 +4,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo_52North_160.png
+.. image:: /images/project_logos/logo_52North_160.png
   :alt: logotip del projecte
   :align: right
   :target: http://52north.org/security
@@ -32,7 +32,7 @@ Actúa com a proxy d'un número arbitrari de Serveiw Web OGC, rebent totes les p
 Per tant, no cal modificar la implementació del servei que ja existeix.
 Les polítiques i els usuaris es defineixen en un arxiu de configuració XML, que es mantenen des d'una interface general de gestió.
 
-.. image:: ../../images/screenshots/1024x768/52n_wss_mgmt.png
+.. image:: /images/screenshots/1024x768/52n_wss_mgmt.png
   :scale: 70 %
   :alt: Captura de pantalla de WSS Management UI
   :align: right

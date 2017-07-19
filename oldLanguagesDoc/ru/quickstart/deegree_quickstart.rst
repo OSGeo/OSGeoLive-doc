@@ -2,11 +2,17 @@
 :Version: OSGeo-Live DVD, Version 7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-deegree.png
+.. image:: /images/project_logos/logo-deegree.png
   :scale: 100 %
   :alt: логотип проекта
   :align: right
   :target: http://www.deegree.org
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 Начало работы с deegree 3
@@ -86,7 +92,7 @@
    Картографический клиент базируется на `OpenLayers <http://openlayers.org/>`_. 
    Вы можете перемещаться по карте, удерживая нажатой левую кнопку мыши и двигаясь. Изменение масштаба карты возможно через колесо мыши или с помощью элементов навигации слева.
 
-Дополнительную информацию и пошаговые руководства о рабочих наборах INSPIRE вы можете найти в `документации <http://download.deegree.org/documentation/3.3.18/html/lightly.html#example-workspace-1-inspire-network-services>`_.
+Дополнительную информацию и пошаговые руководства о рабочих наборах INSPIRE вы можете найти в `документации <http://download.deegree.org/documentation/3.3.20/html/lightly.html#example-workspace-1-inspire-network-services>`_.
 
 
 Что дальше?

@@ -4,7 +4,7 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-josm.png
+.. image:: /images/project_logos/logo-josm.png
   :alt: project logo
   :align: right
   :target: http://josm.openstreetmap.de
@@ -22,7 +22,7 @@ GPXトラックは、通常、GPS受信機または他のソースから事前�
 
 JOSMのために記述された特殊なプラグインのいくつかは、ダウンロードしてインストールが可能です。
 
-.. image:: ../../images/screenshots/1024x768/josm_inteface.png
+.. image:: /images/screenshots/1024x768/josm_inteface.png
   :scale: 55 %
   :alt: JOSM Editor.
   :align: right
@@ -47,7 +47,7 @@ JOSMのために記述された特殊なプラグインのいくつかは、ダ�
   
   * OSMからベースマップを可視化、Bingsat、Lansat、MapBox衛星、マップクエストオープンエアリアルまたはその他のWMS源。
 
-*編集ツール：
+* 編集ツール：
 
   * ノード：マージ、結合、引き離し、分割、円の整列、線の整列、ウェイへのノードの結合、ほか。
   * ウェイ：分割、結合、簡素化、ウェイの引き離し、ほか。

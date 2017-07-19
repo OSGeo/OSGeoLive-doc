@@ -5,7 +5,7 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Frank Gasdorf, Stephan Meissl
 
-.. image:: ../../images/project_logos/logo-eoxserver.png
+.. image:: /images/project_logos/logo-eoxserver.png
   :alt: project logo
   :align: right
   :target: https://eoxserver.readthedocs.org/
@@ -30,7 +30,7 @@ EOxServer basiert komplett auf Open Source Software wie Python,
 <gdal_overview>`, PROJ.4 und einer :doc:`SpatiaLite <spatialite_overview>` 
 oder :doc:`PostGIS <postgis_overview>` Datenbank.
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: /images/screenshots/1024x768/eoxserver_screenshot.png
   :scale: 50 %
   :alt: In EOxServer eingebauter Klient
   :align: right

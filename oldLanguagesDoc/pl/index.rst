@@ -27,7 +27,7 @@ geoprzestrzennych, bez konieczności ich instalowania. Na płycie
 znajduje się wyłącznie oprogramowanie opatrzone wolnymi licencjami, 
 uprawniającymi do powielania i rozpowszechniania go.
 
-.. image:: ../images/screenshots/800x600/osgeolive_menu.png
+.. image:: /images/screenshots/800x600/osgeolive_menu.png
   :scale: 70 %
   :alt: boot select
   :align: right
@@ -67,17 +67,19 @@ Dla wielu aplikacji znajdziesz pakiety instalacyjne dla
      :glob:
 
      overview/overview
-     standards/standards
+     overview/*
+     quickstart/*
+     standards/*
      contact
      copyright
      disclaimer
      download
      sponsors
      sponsors_osgeo
-     presentation
      metrics
      mac_installers
      win_installers
+     prior_applications
 
 	 
 Prezentacja

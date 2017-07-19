@@ -4,16 +4,16 @@
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-PostGIS.png
+.. image:: /images/project_logos/logo-PostGIS.png
   :alt: Projekt Logo
   :align: right
   :target: http://postgis.net/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 PostGIS
 ================================================================================
@@ -28,7 +28,7 @@ PostGIS ist die am weitest verbreitete räumliche Datenbank. Es ist stabil, schn
 PostGIS wird weltweit von vielen großen Organisationen und Firmen eingestetzt um große Datenmengen zu verwalten und online zu Verfügung zu stellen. 
 Die Datenbank-Administration ist unter anderem mit pgAdmin und phpPgAdmin möglich. Der Im- und Export von Daten wird von verschiedenen Konverter-Tools (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) unterstützt. Es gibt zahlreiche Desktop-GIS- und Browser-Anwendungen zur Anzeige von PostGIS-Daten.
 
-.. image:: ../../images/screenshots/800x600/pgadmin.png
+.. image:: /images/screenshots/800x600/pgadmin.png
   :scale: 70 %
   :alt: pgAdmin database manager
   :align: right

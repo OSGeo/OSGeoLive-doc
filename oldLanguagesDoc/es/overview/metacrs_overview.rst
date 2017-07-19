@@ -5,16 +5,16 @@
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. (no logo) .. image:: ../../images/project_logos/logo-GDAL.png
+.. (no logo) .. image:: /images/project_logos/logo-GDAL.png
 ..  :alt: project logo
 ..  :align: right
 ..  :target: http://trac.osgeo.org/metacrs/wiki
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_community.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 MetaCRS
 ================================================================================
@@ -22,7 +22,7 @@ MetaCRS
 Transformaciones entre sistemas de referencia de coordenadas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../../images/project_logos/logo-metacrs.png
+.. image:: /images/project_logos/logo-metacrs.png
   :alt: map projection example
   :align: right
   :target: http://trac.osgeo.org/metacrs/wiki

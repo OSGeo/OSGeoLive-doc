@@ -3,7 +3,7 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ushahidi.png
+.. image:: /images/project_logos/logo-ushahidi.png
   :alt: project logo
   :align: right
   :target: http://www.ushahidi.com
@@ -21,7 +21,7 @@ línea de tiempo. El objetivo de Ushahidi es crear herramientas para la
 democratización de la información, aumentando la transparencia y reduciendo las
 barreras a los individuos para compartir sus historias.
 
-.. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

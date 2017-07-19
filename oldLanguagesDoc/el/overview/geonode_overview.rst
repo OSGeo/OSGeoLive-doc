@@ -2,10 +2,16 @@
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geonode.jpg
+.. image:: /images/project_logos/logo-geonode.jpg
   :alt: project logo
   :align: right
   :target: http://geonode.org
+
+.. image:: /images/logos/OSGeo_project.png
+    :scale: 100
+    :alt: OSGeo Project
+    :align: right
+    :target: http://www.osgeo.org
 
 
 GeoNode
@@ -34,7 +40,7 @@ GeoNode
 
 Με το που οι χάρτες αποθηκεύονται, είναι δυνατό να ενσωματωθούν σε οποιαδήποτε ιστοσελίδα ή να εκτυπωθεί ο χάρτης σε PDF.
 
-.. image:: ../../images/screenshots/800x600/geonode_basic_application.png
+.. image:: /images/screenshots/800x600/geonode_basic_application.png
   :scale: 50%
   :alt: Εφαρμογή GeoNode
   :align: right

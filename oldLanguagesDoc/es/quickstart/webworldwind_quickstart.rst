@@ -1,26 +1,26 @@
 :Author: Gabriele Prestifilippo
 :Translator: David Mateos
 :Version: Pre-release
-:License: `NASA OPEN SOURCE AGREEMENT VERSION 1.3 <http://worldwind.arc.nasa.gov/worldwind-nosa-1.3.html/>`_ 
+:License: `NASA OPEN SOURCE AGREEMENT VERSION 1.3 <https://ti.arc.nasa.gov/opensource/nosa/>`_ 
 
 
 
-.. image:: ../../images/project_logos/logoNasaWWW.png
+.. image:: /images/project_logos/logoNasaWWW.png
   :alt: project logo
   :align: right
   :target: http://webworldwind.org/
 
 
 ********************************************************************************
-GuÌa de inicio r·pido de Web World Wind
+Gu√≠a de inicio r√°pido de Web World Wind
 ********************************************************************************
-___________
+__________________
 Para empezar
-___________
+__________________
 
-Web World Wind es una API de globo virtual 3D para HTML5 y Javascript. Las p·ginas web incluyen Web World Wind para crear uno o m·s globos vituales en dichas p·ginas. 
+Web World Wind es una API de globo virtual 3D para HTML5 y Javascript. Las p√°ginas web incluyen Web World Wind para crear uno o m√°s globos vituales en dichas p√°ginas. 
 
-Es muy f·cil empezar a usar Web World Wind. No hay que descargar nada, simplemente incluir un pequeÒo script en una p·gina HTML, como en este ejemplo: ::
+Es muy f√°cil empezar a usar Web World Wind. No hay que descargar nada, simplemente incluir un peque√±o script en una p√°gina HTML, como en este ejemplo: ::
 
  <!DOCTYPE html>
  <!-- Este es un ejemplo muy simple de uso de Web World Wind. -->
@@ -39,7 +39,7 @@ Es muy f·cil empezar a usar Web World Wind. No hay que descargar nada, simplemen
      </canvas>
  </div>
  <script>
-     // Registra un "escuchador" de eventos (*event listener*) y lo llama cuando se carga la p·gina
+     // Registra un "escuchador" de eventos (*event listener*) y lo llama cuando se carga la p√°gina
      window.addEventListener("load", eventWindowLoaded, false);
  
      // Define el event listener para inicializar Web World Wind.
@@ -47,11 +47,11 @@ Es muy f·cil empezar a usar Web World Wind. No hay que descargar nada, simplemen
          // Crea un World Window para el lienzo.
          var wwd = new WorldWind.WorldWindow("canvasOne");
 
-         // AÒade algunas capas de imagen al globo World Window.
+         // A√±ade algunas capas de imagen al globo World Window.
          wwd.addLayer(new WorldWind.BMNGOneImageLayer());
          wwd.addLayer(new WorldWind.BingAerialWithLabelsLayer());
  
-         // AÒade una br˙jula, un visor de coordenadas y algunos controles de visualizaciÛn al World Window.
+         // A√±ade una br√∫jula, un visor de coordenadas y algunos controles de visualizacii√≥n al World Window.
          wwd.addLayer(new WorldWind.CompassLayer());
          wwd.addLayer(new WorldWind.CoordinatesDisplayLayer(wwd));
          wwd.addLayer(new WorldWind.ViewControlsLayer(wwd));
@@ -60,17 +60,17 @@ Es muy f·cil empezar a usar Web World Wind. No hay que descargar nada, simplemen
  </body>
  </html>
 
-Este ejemplo primero incluye la librerÌa  Web World Wind library, worldwindlib.js, despuÈs crea un lienzo HTML5s, finalmente define un script que crea elWorld Window y lo rellena con dos capas de im·gen y tres capas de controles. Clic este enlace para ver la p·gina web que se ha creado n una ventana nueva. La p·gina contiene un globo virtual 3D. Intenta Intentar hacer zoom con la rueda del ratÛn o en un dispositvo mÛvil con el gesto de pellizcar. Arrastrar el ratÛn o el dedo para desplazarse alrededor del globo. Arrastrar el botÛn derecho del ratÛn o dos dedos hacia arriba para inclinar el globo.  
+Este ejemplo primero incluye la librer√≠a  Web World Wind library, worldwindlib.js, despu√©s crea un lienzo HTML5s, finalmente define un script que crea elWorld Window y lo rellena con dos capas de im√°gen y tres capas de controles. Clic este enlace para ver la p√°gina web que se ha creado n una ventana nueva. La p√°gina contiene un globo virtual 3D. Intenta Intentar hacer zoom con la rueda del rat√≥n o en un dispositvo m√≥vil con el gesto de pellizcar. Arrastrar el rat√≥n o el dedo para desplazarse alrededor del globo. Arrastrar el bot√≥n derecho del rat√≥n o dos dedos hacia arriba para inclinar el globo.  
 
-_______________________________
+____________________________________________________
 Ejecutar de forma local dentro de un servidor
-_______________________________
+____________________________________________________
 
-Para ejecutar localmente una aplicaciÛn Web World Wind, navegar a:
+Para ejecutar localmente una aplicaci√≥n Web World Wind, navegar a:
 
  http://localhost/WebWorlWindexamples/BasicExample.html
 
-y se deberÌa ver este mismo ejemplo Web World Wind example en el navegador web.
+y se deber√≠a ver este mismo ejemplo Web World Wind example en el navegador web.
 
 _______________________________
 Ficheros fuente
@@ -79,6 +79,6 @@ Abriendo: ::
 
  /var/www/html/WebWorldWind
 
-se pueden encontrar m·s ejemplos junto con los archivos fuente.
+se pueden encontrar m√°s ejemplos junto con los archivos fuente.
 
-| Web World Wind proporciona muchas m·s funcionalidades que las disponibles en este sencillo ejemplo. La p·gina de Ejemplos ilustra muchas de ests funcionalidades a travÈs de ejemplos simples. La GuÌa de Desarrollo describe la funcionalidad de Web World Windís en detalle. La p·gina de Despliegue, explica como desplegar Web World Wind en una p·gina web.
+| Web World Wind proporciona muchas m√°s funcionalidades que las disponibles en este sencillo ejemplo. La p√°gina de Ejemplos ilustra muchas de ests funcionalidades a trav√©s de ejemplos simples. La Gu√≠a de Desarrollo describe la funcionalidad de Web World Wind en detalle. La p√°gina de Despliegue, explica como desplegar Web World Wind en una p√°gina web.

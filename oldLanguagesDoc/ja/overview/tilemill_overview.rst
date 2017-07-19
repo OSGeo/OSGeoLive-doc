@@ -4,7 +4,7 @@
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-tilemill.png
+.. image:: /images/project_logos/logo-tilemill.png
   :alt: TileMill
   :align: right
   :target: http://www.tilemill.com
@@ -29,7 +29,7 @@ Tilemillは :doc:`Mapnik <mapnik_overview>` （OpenStreeMapによって使用さ
 
 TileMillは通常、アイコン、パターンやテクスチャを作成するためのデータを作成する（QuantumGISのような）デスクトップGIS、および（GIMPのような）グラフィックエディタと組み合わせて使用されます。
 
-.. image:: ../../images/screenshots/1024x768/tilemill_interface2.png
+.. image:: /images/screenshots/1024x768/tilemill_interface2.png
   :scale: 50 %
   :alt: TilleMill user interface
   :align: right

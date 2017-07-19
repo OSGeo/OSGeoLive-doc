@@ -4,16 +4,16 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-geomoose.png
+.. image:: /images/project_logos/logo-geomoose.png
   :alt: project logo
   :align: right
   :target: http://www.geomoose.org/
 
-.. image:: ../../images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
-  :alt: OSGeo Project in Incubation
+  :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org/
 
 
 GeoMoose
@@ -28,7 +28,7 @@ GeoMOOSE — быстрое приложение, отлично работаю
 
 Пользовательский интерфейс легко настраивается, а модульная архитектура позволяет добавлять дополнительные сервисы.
 
-.. image:: ../../images/screenshots/1024x768/geomoose-2_6-screenshot001.png
+.. image:: /images/screenshots/1024x768/geomoose-2_6-screenshot001.png
   :alt: GeoMoose Screenshot
   :align: right
 

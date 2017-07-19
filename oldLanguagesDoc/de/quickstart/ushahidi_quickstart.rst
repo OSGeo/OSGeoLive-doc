@@ -2,7 +2,7 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: ../../images/project_logos/logo-ushahidi.png
+.. image:: /images/project_logos/logo-ushahidi.png
   :scale: 100 %
   :alt: project logo
   :align: right 
@@ -21,7 +21,7 @@ Ushahidi zum Laufen bekommen
    Web-Browser und bringt Sie auf die Seite für die Installation. Eine Ushahidi 
    Seite ist ziemlich einfach einzurichten
 
-.. image:: ../../images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: ushahidi desktop icons
   :align: center 
@@ -38,7 +38,7 @@ Ushahidi zum Laufen bekommen
    verwendet. Fürs Erste setzen Sie diese auf **"ushahidi@localhost.localdomain"** 
    oder **"ushahidi@example.org"** oder so ähnlich und wählen Sie **"Continue"**.
    
-.. image:: ../../images/screenshots/1024x768/ushahidi_installer_mode_screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi_installer_mode_screenshot.png
    :scale: 50 %
    :alt: mapguide desktop icons
    :align: center
@@ -65,7 +65,7 @@ Ushahidi zum Laufen bekommen
 3. Anschließend werden Sie nach einer Anmelde-Email und Passwort gefragt. Setzen Sie die Emailadressen auf
 **"admin@example.org"** und das Passwort auf **"admin"** (zweimal eingeben). Danach ist alles erledigt ist, und es wird Ihnen mitgeteilt, dass die Installation erfolgreich war, sowie unter welchem Link Ihre Webseite aufrufbar ist.
 
-.. image:: ../../images/screenshots/1024x768/ushahidi_installer_finished_screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi_installer_finished_screenshot.png
   :scale: 50%
   :alt: ushahidi installer finishes
   :align: center
@@ -77,7 +77,7 @@ Ushahidi zum Laufen bekommen
    **"Map provider"** zu OpenStreetMaps ändern (keine API Schlüssel erforderlich 
    für OSM :-) ). Speichern Sie die Einstellungen über :guilabel:`SAVE SETTINGS`.
 
-.. image:: ../../images/screenshots/1024x768/ushahidi_admin_login_screenshot.png
+.. image:: /images/screenshots/1024x768/ushahidi_admin_login_screenshot.png
    :scale: 50%
    :alt: ushahidi admin login
    :align: center

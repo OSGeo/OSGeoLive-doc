@@ -37,10 +37,10 @@ Creación de la unidad USB desde Ubuntu
 (Este es el proceso recomendado para crear el USB. Es aplicable para Ubuntu y variantes como OsGeo-Live).
 
 .. note:: 
-	La versión de Ubuntu que esté utilizando debe de ser la misma o más
-reciente que la versión de Lubuntu que va a instalar en su USB. Si está 
-instalando OSGeo-Live 8.0 en el USB, necesitará ejecutar este proceso
-  sobre Ubuntu 14.04 o posterior.
+    La versión de Ubuntu que esté utilizando debe de ser la misma o más
+    reciente que la versión de Lubuntu que va a instalar en su USB. Si está 
+    instalando OSGeo-Live 8.0 en el USB, necesitará ejecutar este proceso
+    sobre Ubuntu 14.04 o posterior.
 
 `Descargue <http://live.osgeo.org/en/download.html>`_ osgeo-live u osgeo-live al disco duro de su computadora.
 
@@ -48,12 +48,12 @@ Arranque su equipo con una distribución reciente Ubuntu/Xubuntu. Se puede hacer
 
 Inserte la unidad USB en su computadora. Si está usando un DVD entonces colóquelo en la unidad de disco.
 
-  .. image:: ../../images/screenshots/800x600/usb_select.png
+  .. image:: /images/screenshots/800x600/usb_select.png
     :scale: 70 %
 
 Seleccione  :menuselection:`System Tools --> Startup Disk Creator`` o busque `Startup Disk Creator` desde el escritorio Unity.
 
-  .. image:: ../../images/screenshots/800x600/usb_set_params.png
+  .. image:: /images/screenshots/800x600/usb_set_params.png
     :scale: 70 %
 
 Seleccione la imagen ISO osgeo-live u osgeo-live-mini que ha descargado.
@@ -62,7 +62,7 @@ Seleccione la unidad USB. Si tiene espacio de sobra, se puede ajustar el desliza
 
 Seleccione :guilabel:`Make Startup Disk`
 
-  .. image:: ../../images/screenshots/800x600/usb_installing.png
+  .. image:: /images/screenshots/800x600/usb_installing.png
     :scale: 70 %
 
 Espere aproximadamente unos 20 minutos para que se vuelque la información
@@ -77,8 +77,7 @@ Arranque desde la unidad USB
 
    * Muchas computadoras no establecen por defecto la unidad USB en la secuencia de búsqueda de dispositivos de arranque.
    * Durante el arranque, buscar un mensaje que indica como acceder "Boot Menu" (suele ser alguna de las teclas de función).
-   * Si el equipo no tiene menú de arranque, entonces arrancar en la BIOS del sistema. El botón para entrar en la BIOS varía según marcas y modelos de PC (generalmente presionando la tecla <Delete>, F12 u otra tecla de función). Si no consigues averiguarlo intenta esta página web que lista muchas de las teclas de acceso a la BIOS. 
-http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems/
+   * Si el equipo no tiene menú de arranque, entonces arrancar en la BIOS del sistema. El botón para entrar en la BIOS varía según marcas y modelos de PC (generalmente presionando la tecla <Delete>, F12 u otra tecla de función). Si no consigues averiguarlo intenta esta página web que lista muchas de las teclas de acceso a la `BIOS. <http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems>`__
 
 #. Select to boot from the USB device.
 
@@ -97,6 +96,6 @@ Véase también:
 * :doc:`osgeolive_quickstart`
 * :doc:`virtualbox_quickstart`
 * :doc:`osgeolive_install_quickstart`
- * Métodos alternativos para la creación de USB y las últimas peculiaridades y trucos están recogidas aquí: `wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_
- * Puede dirigir sus preguntas a nuestra lista de correo: http://lists.osgeo.org/mailman/listinfo/live-demo
+* Métodos alternativos para la creación de USB y las últimas peculiaridades y trucos están recogidas aquí: `wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_
+* Puede dirigir sus preguntas a nuestra lista de correo: http://lists.osgeo.org/mailman/listinfo/live-demo
 

@@ -3,11 +3,17 @@
 :Translator: Zhengfan Lin
 :License: Creative Commons
 
-.. image:: ../../images/project_logos/logo-pycsw.png
+.. image:: /images/project_logos/logo-pycsw.png
   :scale: 80 %
   :alt: project logo
   :align: right
   :target: http://pycsw.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 pycsw 快速入门
@@ -94,27 +100,27 @@ OpenSUSE 系统下安装
 
 　　在 FireFox 中访问 ``http://localhost/pycsw/tester/index.html`` 或在 Web Services 应用组中选择 ``pycsw tester`` 可以启动软件环境测试工具。
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_startup.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_startup.png
   :scale: 75 %
 
 　　在左侧下拉菜单中可以看到一系列已定义的 POST 请求。这些请求是以 XML 文档保存的。
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_selection.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_selection.png
   :scale: 75 %
 
 　　例如，选择 "apiso/DescribeRecord" 这一项并单击 "Send" 按钮，可以在右侧面板得到返回的 ISO 标准的 Application Profile 记录：
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_describe_apiso_record.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_describe_apiso_record.png
   :scale: 75 %
 
 　　选择 "GetCapabilities-SOAP" 并点击 "Send" ，将发送一个 SOAP 简单对象访问协议用于获取其功能。
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_soap_capabillities.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_soap_capabillities.png
   :scale: 75 %
 
 　　同时，用户可以搜索特定的数据记录。通过选择 "GetRecords-filter-bbox" 并编辑坐标可以就一定的空间范围检索。
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_getrecords_bbox_filter.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_getrecords_bbox_filter.png
   :scale: 75 %
 
 　　用户可以尝试测试其它各种测试项目。参考下面的内容可以做出更具体的测试。
@@ -138,12 +144,12 @@ European Open Source Metadata Editor (EUOSME) 创建
 
 　　首先，用户需要选择各个选项卡，输入必需的元数据条目。这些信息包括数据所有者名称、关键字、数据源地址、数据覆盖地理范围（地名或坐标范围）等。
 
-.. image:: ../../images/screenshots/1024x768/pycsw_euosme_metadata_input.png
+.. image:: /images/screenshots/1024x768/pycsw_euosme_metadata_input.png
   :scale: 75 % 
 
 　　输入后点击“validation”按键可以测试数据是否符合 INSPIRE 元数据规范。
 
-.. image:: ../../images/screenshots/1024x768/pycsw_euosme_save_metadata.png
+.. image:: /images/screenshots/1024x768/pycsw_euosme_save_metadata.png
   :scale: 75 %
 
 　　若测试通过，元数据可以存储为 XML 文档，可由文本编辑器或浏览器查看和编辑。
@@ -162,7 +168,7 @@ GIMED
 
 　　用户可以同操作 EUOSME 一样输入和编辑元数据，无需网络连接。
 
-.. image:: ../../images/screenshots/1024x768/pycsw_gimed.png
+.. image:: /images/screenshots/1024x768/pycsw_gimed.png
   :scale: 75 %
 
 
@@ -223,32 +229,32 @@ QGIS CSW
 
 　　从 Desktop GIS group 启动 QGIS 并选择 "Manage Plugins"。
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_plugin.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_plugin.png
   :scale: 75 %
 
 　　启用 CSW 插件。
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_plugin_enable.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_plugin_enable.png
   :scale: 75 %
 
 　　从工具栏选择 CSW 按钮启动客户端。
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_open.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_csw_plugin_open.png
   :scale: 75 %
 
 　　按 "New" 新建服务并输入 ``http://localhost/pycsw/csw.py`` 添加 pycsw 示例服务。
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_add_server.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_csw_plugin_add_server.png
   :scale: 75 %
 
 　　通过 "Add default servers" 可以配置默认服务。"Server info" 用于显示服务器信息。
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_server_info.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_csw_plugin_server_info.png
   :scale: 75 %
 
 　　在编录中可以使用坐标范围或字符串检索。
 
-.. image:: ../../images/screenshots/1024x768/pycsw_qgis_csw_plugin_search.png
+.. image:: /images/screenshots/1024x768/pycsw_qgis_csw_plugin_search.png
   :scale: 75 %
 
 测试
@@ -256,7 +262,7 @@ QGIS CSW
 
 　　利用测试程序也可以进行数据检索。例如以下使用字符串 "imagery" 检索得到相应的由 EUOSME 创建的 XML 文档。
 
-.. image:: ../../images/screenshots/1024x768/pycsw_tester_discovery.png
+.. image:: /images/screenshots/1024x768/pycsw_tester_discovery.png
   :scale: 75 %
 
 　　进一步的教程请见 pycsw 网站的 `文档`_ 。

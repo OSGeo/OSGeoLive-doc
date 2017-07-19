@@ -5,7 +5,7 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-eoxserver.png
+.. image:: /images/project_logos/logo-eoxserver.png
   :alt: project logo
   :align: right
   :target: http://eoxserver.readthedocs.org/
@@ -29,7 +29,7 @@ Django/GeoDjango, :doc:`GDAL <gdal_overview>`, PROJ.4,
 :doc:`SpatiaLite <spatialite_overview>`, o :doc:`PostGIS <postgis_overview>`
 come database
 
-.. image:: ../../images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: /images/screenshots/1024x768/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer embedded client
   :align: right
@@ -77,7 +77,7 @@ Dettagli
 
 **Sito Web:** https://eoxserver.readthedocs.org/
 
-**Licenza:** `MIT-style license`_
+**Licenza:** `MIT-style license <https://eoxserver.readthedocs.org/en/latest/copyright.html#license>`_
 
 **Versione Software:** |version-eoxserver|
 

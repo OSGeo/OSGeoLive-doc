@@ -4,16 +4,16 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Translator: Luca Delucchi
 
-.. image:: ../../images/project_logos/logo-GeoTools.png
+.. image:: /images/project_logos/logo-GeoTools.png
   :alt: project logo
   :align: right
   :target: http://geotools.org/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GeoTools
 ================================================================================
@@ -22,7 +22,7 @@ GeoTools è una libreria Java open source (LGPL) che fornisce metodi conformi ag
 standard per gestire dati geospaziali, e le strutture dei dati sono basate sulle
 specifiche del Open Geospatial Consortium (OGC).
 
-.. image:: ../../images/screenshots/800x600/geotools-overview.png
+.. image:: /images/screenshots/800x600/geotools-overview.png
   :scale: 60 %
   :alt: GeoTools is a modular library supported by plugins for additional formats
   :align: right
@@ -30,8 +30,8 @@ specifiche del Open Geospatial Consortium (OGC).
 GeoTools è usata da un gran numero di progetti incluso servizi web, strumenti da
 linea di comando e applicazioni desktop. Le applicazio di OSGeo-Live che includono
 GeoTools: 
-:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, 
-:doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, e :doc:`udig_overview`.
+:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, AtlasStyler, 
+:doc:`geomajas_overview`, Geopublisher, :doc:`geoserver_overview`, e :doc:`udig_overview`.
 
 Caratteristiche principali
 --------------------------------------------------------------------------------
@@ -69,7 +69,7 @@ Caratteristiche principali
   * Fornisce funzionalità addizionali costruite usando le funzionalità spaziali
     della libreria principala.
 
-  .. image:: ../../images/screenshots/800x600/geotools-extension.png
+  .. image:: /images/screenshots/800x600/geotools-extension.png
      :alt: Extensions built using the GeoTools library
 
   * Estensioni fornisco supporto ai grafi e alle analisi di reti (per trovare il

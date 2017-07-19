@@ -10,37 +10,6 @@ OSGeo 开源地理信息基金会
 `　　请注意，OSGeo 为您提供这些软件，希望其对您有益，但并不提供任何形式的保证，哪怕是对软件针对某一用途适用性的隐含的保证。`
 
 
-OSGeo 赞助者
---------------------------------------------------------------------------------
-
-.. image:: ../images/logos/geocat_logo.png
-  :alt: GeoCat
-  :target: http://geocat.net/
-
-
-.. image:: ../images/logos/Boundless_Logo.png
-  :alt: Boundless
-  :target: http://boundlessgeo.com/
-
-.. image:: ../images/logos/gaia3d.png
-  :alt: Gaia3D
-  :target: http://www.gaia3d.com/
-
-.. image:: ../images/logos/astun.png
-  :alt: Astun Technology
-  :target: https://astuntechnology.com/
-
-.. image:: ../images/logos/chameleon-john-logo.png
-  :alt: ChameleonJohn
-  :target: https://www.chameleonjohn.com/
-
-.. image:: ../images/logos/apps-for-rent-logo.png
-  :alt: Apps4Rent
-  :target: http://www.apps4rent.com/
-
-.. image:: ../images/logos/DealIslands.png
-  :alt: Dealslands
-  :target: http://www.dealslands.co.uk/
 
 
 更多相关信息

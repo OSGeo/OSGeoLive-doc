@@ -4,9 +4,9 @@ Copyright OSGeo-Live
 OSGeo-Live repose entièrement sur des logiciels libres, ce qui permet de le redistribuer, dupliquer gratuitement et de le passer à n'importe qui.
 
 * Les vues d'ensemble de projet et les traductions afférentes sont fournies sous une
-  `license Creative Commons Attribution 3.0 non transposé (CC BY 3.0) <http://creativecommons.org/licenses/by/3.0/deed.fr>`_.
+  `license Creative Commons Attribution 3.0 non transposé (CC BY 3.0) <https://creativecommons.org/licenses/by/3.0/deed.fr>`_.
 * Les guides de démarrage rapide et les traductions afférentes sont fournies sous une
-  `license Creative Commons Paternité - Partage dans les Mêmes Conditions 3.0 non transposé (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/deed.fr>`_.
+  `license Creative Commons Paternité - Partage dans les Mêmes Conditions 3.0 non transposé (CC BY-SA 3.0) <https://creativecommons.org/licenses/by-sa/3.0/deed.fr>`_.
 * La documentation peut aussi être disponible sous d'autres licences, comme listées dessous.
 * Les logiciels de OSGeo-Live sont disponibles sous différentes licences libres et opensource, comme
   listées dans les vues d'ensemble des projets.
@@ -15,7 +15,7 @@ OSGeo-Live repose entièrement sur des logiciels libres, ce qui permet de le red
 Attribution relative à la documentation OSGeo-Live
 --------------------------------------------------------------------------------
 En suivant les `termes de la licence Creative Commons <http://wiki.creativecommons.org/Frequently_Asked_Questions#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_, si vous incluez la documentation OSGeo-Live dans un nouveau document, vous devrez mentionner les noms des contributeurs.
-De plus, si les guides de démarrage rapide sont inclus, qui sont sous licence `CC By-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/deed.fr>`_ , alors le nouveau document devra aussi être licencié sous la licence `CC By-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/deed.fr>`_.
+De plus, si les guides de démarrage rapide sont inclus, qui sont sous licence `CC By-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.fr>`_ , alors le nouveau document devra aussi être licencié sous la licence `CC By-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.fr>`_.
 
 Notez que les images ne sont pas nécessairement fournies sous la même license Creative Commons que le texte; vérifiez avec l'auteur.
 
@@ -23,23 +23,23 @@ Vous êtes susceptibles d'utiliser un texte d'attribution similaire à l'un des 
 
 **Verbeux, adapté pour un rapport d'une centaine de pages:**
 
-  |CC-By-SA-med| Ce document inclut le contenu du "guide de démarrage rapide gvSIG" créé par Simon Cropper sous la license Creative Commons Attribution 3.0 non transposé, http://creativecommons.org/licenses/by-sa/3.0/deed.fr disponible sur le projet OSGeo-Live, http://live.osgeo.org/fr/quickstart/gvsig_quickstart.html, et téléchargé le 25 Juillet 2011. Le travail original a été traduit de l'anglais au français.
+  |CC-By-SA-med| Ce document inclut le contenu du "guide de démarrage rapide gvSIG" créé par Simon Cropper sous la license Creative Commons Attribution 3.0 non transposé, https://creativecommons.org/licenses/by-sa/3.0/deed.fr disponible sur le projet OSGeo-Live, http://live.osgeo.org/fr/quickstart/gvsig_quickstart.html, et téléchargé le 25 Juillet 2011. Le travail original a été traduit de l'anglais au français.
 
-  .. |CC-By-SA-med| image:: ../images/logos/CC-By-SA-med.png
-    :target: http://creativecommons.org/licenses/by-sa/3.0/deed.fr
+  .. |CC-By-SA-med| image:: /images/logos/CC-By-SA-med.png
+    :target: https://creativecommons.org/licenses/by-sa/3.0/deed.fr
 
 **CC-By-SA concise avec attribution:**
 
 .. _les contributeurs OSGeo-Live: http://live.osgeo.org/fr/copyright.html
 
-  © 2011 [Votre Nom] sous une `licence CC By SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/deed.fr>`_.  [Dérivant|Incluant|Etendant] la documentation `OSGeo-Live <http://live.osgeo.org/fr>`_ faite par `les contributeurs OSGeo-Live`_.
+  © 2011 [Votre Nom] sous une `licence CC By SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/deed.fr>`_.  [Dérivant|Incluant|Etendant] la documentation `OSGeo-Live <http://live.osgeo.org/fr>`_ faite par `les contributeurs OSGeo-Live`_.
 
 **Alternative avec CC-By et attribution:**
 
   |CC-By-small| © 2011 [Votre Nom]. [Dérivant|Incluant|Etendant] les vues d'ensemble du projet `OSGeo-Live <http://live.osgeo.org>`__ faites par `les contributeurs OSGeo-Live`_.
 
-  .. |CC-By-small| image:: ../images/logos/CC-By-small.png
-    :target: http://creativecommons.org/licenses/by/3.0/deed.fr
+  .. |CC-By-small| image:: /images/logos/CC-By-small.png
+    :target: https://creativecommons.org/licenses/by/3.0/deed.fr
 
 **Minimum (pour les vues d'ensemble du projet) avec attribution seulement:**
 

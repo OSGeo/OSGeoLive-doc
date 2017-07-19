@@ -5,16 +5,16 @@
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-gvSIG.png
+.. image:: /images/project_logos/logo-gvSIG.png
   :alt: project logo
   :align: right
   :target: http://www.gvsig.com/
 
-.. image:: ../../images/logos/OSGeo_project.png
+.. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 
 gvSIG Desktop
@@ -39,7 +39,7 @@ gvSIG ist bekannt für:
 * in über 20 Sprachen verfügbar (Spanisch, Englisch, Deutsch, Französisch, Italienisch,...)
 * verfügbar für Windows und Linux (es liegen nicht offizielle Mac OS X Versionen vor).
 
-.. image:: ../../images/screenshots/1024x768/gvsig_desktop.png
+.. image:: /images/screenshots/1024x768/gvsig_desktop.png
   :scale: 50 %
   :alt: screenshot
   :align: right

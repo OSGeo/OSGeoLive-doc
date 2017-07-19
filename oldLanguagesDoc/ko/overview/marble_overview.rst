@@ -3,10 +3,16 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-marble.png
+.. image:: /images/project_logos/logo-marble.png
   :alt: project logo
   :align: right
   :target: http://edu.kde.org/marble/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 
 Marble
@@ -25,7 +31,7 @@ encouraged to include a KDE Marble widget in your application.
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: ../../images/screenshots/1024x768/marble-history.png
+.. image:: /images/screenshots/1024x768/marble-history.png
   :scale: 50 %
   :alt: screenshot
   :align: right

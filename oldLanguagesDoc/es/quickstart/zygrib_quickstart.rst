@@ -5,7 +5,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
-.. image:: ../../images/project_logos/logo-zygrib.png
+.. image:: /images/project_logos/logo-zygrib.png
   :scale: 150 %
   :alt: project logo
   :align: right
@@ -32,7 +32,7 @@ interesado. El Golfo de México o el sur de Africa a menudo tiene vientos dinám
 Con el rectángulo dibujado en el mapa, hacer un click en el icono de acercar en la zona seleccionada disponible en la barra de herramientas (la lupa con el pequeño rectángulo debajo), y nuevamente marcar una zona de interés arrastrando el ratón manteniendo el botón izquierdo del mouse presionado, ahora se cubre mucho o todo el acercamiento en el mapa.
 
 Ahora seleccionar :menuselection:`Archivo --> Descargar GRIB` y elegir los  elementos que se quieren descargar. Si se tiene dudas la selección por
-omisión será correcta. Cuando esté listo presione el botón ``Descargar``en la parte de abajo  y salve el archivo en el disco.
+omisión será correcta. Cuando esté listo presione el botón ``Descargar`` en la parte de abajo  y salve el archivo en el disco.
 
 Si todo va bien, se debería ver el mapa del tiempo con un desplazador de tiempo a lo largo de la parte inferior. Se puede utilizar la rueda del ratón para acercarse, si así se desea.
 
@@ -65,7 +65,7 @@ Hacer click en el botón rojo de energía para cerrar.
 Ver También
 ================================================================================
 
-El :doc:`OpenCPN software <../overview/opencpn_overview>` (también en este disco) tiene un plugin de overlay de GRIB que usted puede probar con eln archivo GRIB que acaba de descargar. Ver la :doc:`Guía de inicio rápido de OpenCPN <../quickstart/opencpn_quickstart.html>`_ 
+El :doc:`OpenCPN software <../overview/opencpn_overview>` (también en este disco) tiene un plugin de overlay de GRIB que usted puede probar con eln archivo GRIB que acaba de descargar. Ver la :doc:`Guía de inicio rápido de OpenCPN <../quickstart/opencpn_quickstart.html>` 
 para mas detalles.
 
 

@@ -4,7 +4,7 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: ../../images/project_logos/logo-ncdataset.png 
+.. image:: /images/project_logos/logo-ncdataset.png 
   :alt: project logo
   :align: right
   :target: http://wiki.osgeo.org/wiki/Category:Education
@@ -31,7 +31,7 @@ I dati sono sono forniti a tre livelli di gerarchia:
 
 * un piccolo bacino idrografico in una area rurale con risoluzione dei dari di 1m-3m (vedere immagine).
 
-.. image:: ../../images/screenshots/1024x768/north_carolina_dataset_nviz.jpg
+.. image:: /images/screenshots/1024x768/north_carolina_dataset_nviz.jpg
   :scale: 60 %
   :alt: North Carolina dataset screenshot
   :align: right
@@ -63,7 +63,7 @@ Dettagli
 
 **Sito Web:** http://www.grassbook.org/data_menu3rd.php
 
-**Licenza:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_
+**Licenza:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`_
 
 **Versione Dati:** 2008
 
