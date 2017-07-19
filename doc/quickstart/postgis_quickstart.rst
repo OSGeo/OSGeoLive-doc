@@ -27,6 +27,12 @@
   :align: right
   :target: http://postgis.net
 
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 ********************************************************************************
 PostGIS Quickstart
 ********************************************************************************
@@ -355,7 +361,7 @@ To quit PostgreSQL command line, enter:
 
 ::
 
-    \q
+\q
 
 You are now back to system console:
 
@@ -535,7 +541,7 @@ Here are some additional challenges for you to try:
 
 #. Try to import data with ``shp2pgsql`` on the command line to your database.
 
-#. Try to do road routing using :doc:`pgROuting <../overview/pgrouting_overview>`.
+#. Try to do road routing using :doc:`../overview/pgrouting_overview`.
 
 
 

@@ -29,15 +29,10 @@ through the internet using :doc:`OGC standards <../standards/standards>`
 such as :doc:`WMS <../standards/wms_overview>`, :doc:`WFS 
 <../standards/wfs_overview>`, and :doc:`WCS <../standards/wcs_overview>`.
 
-This Quick Start describes how to:
-     
-  * :ref:`mapserver-quickstart-configure-with-mapfile-en`
-  * :ref:`mapserver-quickstart-wms-request-en`
-  * :ref:`mapserver-quickstart-cmd-en`
-  * :ref:`mapserver-quickstart-add-new-layer-en`
-  * :ref:`mapserver-quickstart-styling-a-layer-en`
+.. contents:: This Quick Start Contents
+    :local:
+    :depth: 1
 
-.. _mapserver-quickstart-configure-with-mapfile-en:
 
 Configure MapServer using the MapFile configuration file
 ================================================================================
@@ -139,7 +134,6 @@ contains a bunch of properties and objects too. Among them are:
   <http://mapserver.org/mapfile/index.html>`_.
 
 
-.. _mapserver-quickstart-wms-request-en:
 
 Render a map image with MapServer using a WMS **GetMap** request
 ================================================================================
@@ -171,7 +165,6 @@ result looks like the following:
   "*?map=/home/user/mapserver_quickstart.map*", which is MapServer-specific.
 
 
-.. _mapserver-quickstart-cmd-en:
 
 Render a map image with MapServer using the command line
 ========================================================
@@ -189,7 +182,6 @@ If this command runs successfully, you are able to see your rendered map at
 file:///home/user/mymap.png.
 
 
-.. _mapserver-quickstart-add-new-layer-en:
 
 Add a new layer to the MapFile to serve a local shapefile
 ================================================================================
@@ -231,7 +223,6 @@ addition of the lakes from our new layer:
     :scale: 70 %
 
 
-.. _mapserver-quickstart-styling-a-layer-en:
 
 Style a layer using MapFile configurations
 ================================================================================

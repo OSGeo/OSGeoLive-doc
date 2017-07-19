@@ -56,7 +56,7 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** https://sourceforge.net/projects/jts-topo-suite/
+**Website:** ttps://www.locationtech.org/projects/technology.jts
 
 **Licence:** LGPL
 

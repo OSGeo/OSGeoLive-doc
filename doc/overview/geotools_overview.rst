@@ -12,7 +12,7 @@
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
+  :target: http://www.osgeo.org
 
 GeoTools
 ================================================================================
@@ -25,7 +25,7 @@ GeoTools is an open source (LGPL) Java library which provides standards complian
   :align: right
 
 GeoTools is used by a number of projects including web services, command line tools and desktop applications. OSGeo-Live applications which include GeoTools include:
-:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, :doc:`atlasstyler_overview`, :doc:`geomajas_overview`, :doc:`geopublisher_overview`, :doc:`geoserver_overview`, and :doc:`udig_overview`.
+:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, AtlasStyler, :doc:`geomajas_overview`, Geopublisher, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
 Core Features
 --------------------------------------------------------------------------------
@@ -110,13 +110,13 @@ Details
 
 **Licence:** LGPL
 
-**Supported Platforms:** Cross Platform Java 6
+**Supported Platforms:** Cross Platform Java 6,7,8
 
 **API Interfaces:** Java
 
 **Support:** `Communication and Support <http://docs.geotools.org/latest/userguide/welcome/support.html>`_
 
-Quickstart
+GeoTools_Support
 --------------------------------------------------------------------------------
 
 * `Quickstart documentation <http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_

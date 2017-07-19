@@ -9,6 +9,12 @@
   :align: right
   :target: http://gdal.org/
 
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 
 ********************************************************************************
 GDAL/OGR Quickstart
@@ -18,7 +24,7 @@ You will need nothing but a terminal for this quickstart. If you want to
 visualize the results, you can use one of the Desktop GIS Software
 applications on OSGeo-Live like :doc:`../overview/qgis_overview`. 
 
-This Quick Start is devided in two parts GDAL (raster data) and OGR
+This Quick Start is divided into two parts: GDAL (raster data) and OGR
 (vector data). We will start with GDAL.
 
 This Quick Start describes how to:
@@ -57,7 +63,7 @@ You will then find a NaturalEarth Raster file and a .tfw World-file at:
  ls /home/user/gdal_natural_earth/HYP_50M_SR_W.*
 
 
-.. tip:: Open the file with a Desktop GIS like QGIS. And have a look.
+.. tip:: Open the file with a Desktop GIS like QGIS, and have a look.
 
 Get information about the raster data with gdalinfo
 ================================================================================
@@ -274,7 +280,7 @@ Get to know OGR
   cd /home/user/gdal_natural_earth/
 
 
-.. tip:: Open the shape file with a Desktop GIS like QGIS. And have a look.
+.. tip:: Open the shape file with a Desktop GIS like QGIS, and have a look.
 
 
 Get information about the vector data with ogrinfo

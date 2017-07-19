@@ -1,4 +1,4 @@
-:Author: Daniel Kastl, Georepublic
+:Author: Daniel Kastl
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos, OSGeo
 :Version: osgeo-live11.0
@@ -8,6 +8,12 @@
   :alt: pgRouting logo
   :align: right
   :target: http://www.pgrouting.org/
+
+.. image:: /images/logos/OSGeo_community.png
+   :scale: 100
+   :alt: OSGeo Community Project
+   :align: right
+   :target: http://www.osgeo.org
 
 
 pgRouting
@@ -44,6 +50,7 @@ pgRouting provides functions for:
 * Shortest Path Dijkstra
 * Driving Distance
 * K-Shortest Path, Multiple Alternative Paths
+* K-Dijkstra, One to Many Shortest Path
 * Traveling Sales Person
 * Turn Restriction Shortest Path (TRSP)
 

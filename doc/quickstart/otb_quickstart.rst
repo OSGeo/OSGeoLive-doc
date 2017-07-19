@@ -7,6 +7,13 @@
   :scale: 80 %
   :alt: project logo
   :align: right
+  :target: http://www.orfeo-toolbox.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
 
 ********************************************************************************
 OTB Quickstart 
@@ -16,7 +23,7 @@ ORFEO Toolbox library (OTB) is a high performance library for image processing t
 
 This Quick Start describes how to:
 
-  * Get metadata informations in an image
+  * Get metadata informations from an image
   * Perform mathematical operations between image bands
   * Open raster images with the application monteverdi, perform segmentation (mean-shift clustering) and visualize the result
   * Perform supervised classification based on Support Vector Machine algorithm
@@ -30,6 +37,7 @@ The OTB applications provide lot's of interesting tools which facilitate the man
 Sample data used in this quickstart can be found in :
   * /home/user/data/north_carolina/rast_geotiffs
 
+.. contents:: Contents
 
 Display metadata informations in an image 
 ================================================================================
@@ -54,6 +62,10 @@ This homebrewed digital calculator is also bundled with custom functions allowin
 
 The file `lsat7_2002_30.tif` corresponds to Landsat 7 red channel, `lsat7_2002_40.tif` corresponds to Near Infra-Red.
 
+You can then visualize input images and the result with the command ::
+
+  monteverdi lsat7_2002_30.tif lsat7_2002_40.tif ~/ndvi.tif
+
 Pixel based classification
 ================================================================================
 The classification in the application framework provides a supervised pixel-wise
@@ -66,6 +78,10 @@ It supports huge images through streaming and multi-threading. The
 classification chain performs a training step based on the intensities of each 
 pixel as features. Please note that all the input images must have the same number 
 of bands to be comparable.
+
+To discover this application, you can use the command ::
+
+  otbgui_TrainImagesClassifier
 
 
 Perform segmentation
@@ -114,7 +130,7 @@ OTB includes also a framework to perform tile-wise segmentation of very large
 image with theoretical guarantees of getting identical results to those without
 tiling called LSMS_.
 
-.. _LSMS: https://www.orfeo-toolbox.org/CookBook/CookBooksu42.html
+.. _LSMS: https://www.orfeo-toolbox.org/CookBook/recipes/improc.html#large-scale-mean-shift-lsms-segmentation
 
 
 OTB in QGis
@@ -149,17 +165,17 @@ What Next?
   processing. 
   
   * `OTBSoftwareGuide.pdf <http://www.orfeo-toolbox.org/packages/OTBSoftwareGuide.pdf>`_
-  * `Online html version Guide <https://www.orfeo-toolbox.org/SoftwareGuide/index.html>`_
+  * `Online html OTB Software Guide <https://www.orfeo-toolbox.org/SoftwareGuide/index.html>`_
 
 * OTB CookBook
 
-  A guide for OTB-Applications and Monteverdi2 dedicated for
+  A guide for OTB-Applications and Monteverdi dedicated for
   non-developers is also available.This guide is composed of a brief
   tour of of OTB-Applications and Monteverdi, followed by a set of
   recipes to perform usual remote sensing tasks with both tools. 
   
   * `OTBCookBook.pdf <http://orfeo-toolbox.org/packages/OTBCookBook.pdf>`_
-  * `Online html version CookBook <https://www.orfeo-toolbox.org/CookBook/CookBook.html>`_  
+  * `Online html OTB CookBook <https://www.orfeo-toolbox.org/CookBook>`_
 
 * OTB Tutorials
 
@@ -171,9 +187,9 @@ What Next?
 
   See also detailed documentation about OTB applications_
 
-.. _applications: http://orfeo-toolbox.org/Applications/
+.. _applications: https://www.orfeo-toolbox.org/CookBook/Applications.html
 
-* OTB courses with Pleiades images to learn how to use OTB applications and Monteverdi2
+* OTB courses with Pleiades images to learn how to use OTB applications and Monteverdi
 
   Follow the courses_ to learn more about OTB (see section Tutorials).
 

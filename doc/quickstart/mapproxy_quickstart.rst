@@ -1,11 +1,18 @@
 :Author: Oliver Tonnhofer
-:Version: osgeo-live5.0
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. image:: /images/project_logos/logo-mapproxy.png
   :alt: project logo
   :align: right
   :target: http://mapproxy.org/
+
+.. image:: /images/logos/OSGeo_community.png
+  :scale: 100
+  :alt: OSGeo Community Project
+  :align: right
+  :target: http://www.osgeo.org
 
 MapProxy Quickstart
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -18,6 +25,8 @@ It caches, accelerates and transforms data from existing map services and serves
   :align: center
 
 MapProxy is not only a tile cache solution, but also offers many new and innovative features like full support for WMS clients.
+
+.. contents:: Contents
 
 Start demo service
 --------------------------------------------------------------------------------
@@ -42,6 +51,7 @@ You can add MapProxy in any WMS Desktop GIS like uDig, QGIS or gvSIG. The servic
 The MapProxy example configuration contains a few layers that use different map engines and map data. See below for more details about each layer. 
 
 .. figure:: /images/screenshots/800x600/mapproxy_udig.png
+  :scale: 70 %
   :alt: MapProxy example in uDig
   :align: center
   
@@ -53,9 +63,9 @@ Available layers
 **mapnik**:
   The world population rendered by Mapnik. You don't need to start the Mapnik service, because this layer makes use of the integrated Mapnik support in MapProxy.
 
-**tilelite**:
-  TileLite is a simple server that delivers tiles from the Mapnik world population service. This layer demonstrates the ability to include existing tile services in MapProxy and to make them available as WMS.
-  You need to start TileLite with *Start Mapnik & TileLite* before accessing this layer.
+**tilestache**:
+  TileStache is a server that delivers tiles from the Mapnik world population service. This layer demonstrates the ability to include existing tile services in MapProxy and to make them available as WMS.
+  You need to start TileStache with *Start Mapnik & TileStache* before accessing this layer.
 
 **geoserver**:
   The US population rendered by the :doc:`GeoServer <../overview/geoserver_overview>` WMS. This layer also supports ``GetFeatureInfo`` requests which are cascaded to the source WMS.

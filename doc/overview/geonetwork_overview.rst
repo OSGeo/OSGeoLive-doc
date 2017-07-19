@@ -1,6 +1,7 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live5.5
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: /images/project_logos/logo-GeoNetwork.png
@@ -23,7 +24,7 @@ Metadata Catalog
 
 GeoNetwork OpenSource is a catalog application for managing spatially referenced resources. It provides powerful metadata editing and search functions, an embedded interactive web map viewer, and is based upon Open Standards.
 
-.. image:: /images/screenshots/800x600/geonetwork/once-samples-are-loaded.png
+.. image:: /images/screenshots/1024x768/geonetwork_once-samples-are-loaded.png
   :alt: Geonetwork after samples are loaded
   :scale: 50%
   :align: right
@@ -71,5 +72,5 @@ Details
 
 Quickstart
 --------------------------------------------------------------------------------
-    
+
 * :doc:`Quickstart documentation <../quickstart/geonetwork_quickstart>`

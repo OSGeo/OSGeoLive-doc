@@ -1,6 +1,6 @@
 :Author: Gabriele Prestifilippo
 :Version: Pre-release
-:License: `NASA OPEN SOURCE AGREEMENT VERSION 1.3 <http://worldwind.arc.nasa.gov/worldwind-nosa-1.3.html/>`_ 
+:License: `NASA OPEN SOURCE AGREEMENT VERSION 1.3 <https://ti.arc.nasa.gov/opensource/nosa/>`_ 
 
 
 
@@ -19,7 +19,7 @@ ___________
 
 Web World Wind is a 3D virtual globe API for HTML5 and JavaScript. Web pages include Web World Wind to provide one or more virtual globes on that page.
 
-It is very easy to get started using Web World Wind. There is nothing to download. You simply include a short script in an HTML page, as in this example: ::
+It's very easy to get started using Web World Wind. There's nothing to download. You simply include a short script in an HTML page, as in this example: ::
 
  <!DOCTYPE html>
  <!-- This is a very simple example of using Web World Wind. -->

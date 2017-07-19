@@ -1,7 +1,8 @@
 :Author: Johan Van de Wauw
 :Author: Vladimir Agafonkin
 :Reviewer: Cameron Shorter
-:Version: osgeo-live8.0
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 .. image:: /images/project_logos/logo-leaflet.png 

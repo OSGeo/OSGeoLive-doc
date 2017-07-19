@@ -9,7 +9,7 @@
   :align: right
   :target: http://pywps.org/
 
-.. image:: /images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_community.png
   :scale: 100
   :alt: OSGeo Project in Incubation
   :align: right
@@ -25,7 +25,7 @@ PyWPS provides web access to custom geospatial operations (referred
 to as Processes) via the :doc:`Web Processing Service (WPS) <../standards/wps_overview>` standard.
 
 Processes are written in the Python programming language and can integrate tools such as
-:doc:`GRASS GIS <grass_overview>`, :doc:`R <R_overview>`, :doc:`GDAL/OGR <gdal_overview>`, :doc:`proj.4 <metacrs_overview>` and other libraries with
+:doc:`GRASS GIS <grass_overview>`, :doc:`R <R_overview>`, :doc:`GDAL/OGR <gdal_overview>`, :doc:`proj.4 <proj4_overview>` and other libraries with
 Python bindings.  Source data can be provided with WPS requests or accessed from data on the WPS server.
 
 .. image:: /images/screenshots/1024x768/pywps_client.png

@@ -10,9 +10,9 @@
   :align: right
   :target: http://pywps.org
 
-.. image:: /images/logos/OSGeo_incubation.png
+.. image:: /images/logos/OSGeo_community.png
   :scale: 100
-  :alt: OSGeo Project in Incubation
+  :alt: OSGeo Community Project
   :align: right
   :target: http://www.osgeo.org
 

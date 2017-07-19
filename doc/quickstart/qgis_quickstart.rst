@@ -21,9 +21,15 @@
   :align: right
   :target: http://www.qgis.org
 
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
 
 ********************************************************************************
-QGIS Quickstart 
+QGIS Quickstart
 ********************************************************************************
 
 QGIS is a user friendly Desktop GIS client which lets
@@ -85,7 +91,7 @@ Now let's try customising the style of the map.
 #. Zoom in a little on the map, then double click ``ne_10m_rivers_lake_centerlines`` in
    the Layers tree.
 
-#. In the `Layer Properties` dialog on the `Style` tab click on the 
+#. In the `Layer Properties` dialog on the `Style` tab click on the
 `Color` to select a different color, say yellow.
 
 #. Press :guilabel:`OK`.
@@ -104,7 +110,7 @@ Let's now create a new QGIS project and load our own data.
 #. Choose :menuselection:`Project --> New`. You will be asked whether to save the previous project, you can press :guilabel:`Close without Saving`.
 
 #. Click :menuselection:`Layer --> Add Layer--> Add Vector Layer...` Or click on the 'Add Vector Layer' button (the one with the 'V' shape, in the red rectangle in the image).
-You can also use the keyboard shortcut 'Ctrl+Shift+V' 
+You can also use the keyboard shortcut 'Ctrl+Shift+V'
 
      .. image:: /images/screenshots/1024x768/qgis_add_layer.png
         :scale: 70
@@ -140,7 +146,7 @@ Let's now include a layer from a Postgres database.
      If you wanted to connect to a different database, you would select
      the :guilabel:`New` button and fill in the database parameters.
 
-#. Select the "Natural Earth" connection and press :guilabel:`Connect`. Then 
+#. Select the "Natural Earth" connection and press :guilabel:`Connect`. Then
 click on the Public schema to deploy it:
 
   * A list of database tables will appear.
@@ -163,7 +169,7 @@ click on the Public schema to deploy it:
 #. Let's represent one of the database attributes in the data as a bubble plot.
    In the middle of the `Style` tab, drag the Transparency
    slider to **50%**. Click on the small button at the right of the size field and select
-   :menuselection:`Size scale field`, then choose **scalerank** 
+   :menuselection:`Size scale field`, then choose **scalerank**
    (it's near to the beginning of the list). Then click :guilabel:`Ok`.
 
 #. You can then click on the query button on the toolbar (cursor arrow with
@@ -185,7 +191,7 @@ from :doc:`GRASS GIS <../overview/grass_overview>`.
 .. note::
     You will need to change permissions of the grass data folder in order
     to carry out the following steps. Please open a terminal and execute the following:
-    "sudo chmod -R 775 /usr/local/share/grass/nc_basic_spm_grass"
+    "sudo chmod -R 775 /usr/local/share/grass/nc_basic_spm_grass7"
 
 #. Clear the slate with :menuselection:`Project --> New`.
 
@@ -298,9 +304,9 @@ Importing OpenStreetMap data
      a working copy of the OSM data in the home directory:
 
      ::
-     
-       cp data/osm/feature_city_CBD.osm.bz2 .
-       bzip2 -d feature_city_CBD.osm.bz2
+
+       cp data/osm/feature_city.osm.bz2 .
+       bzip2 -d feature_city.osm.bz2
 
 #. In QGIS, choose :menuselection:`Project --> New`. If you had the
    Processing Toolbox open you might want to close it.
@@ -376,4 +382,3 @@ The `QGIS User Guide`_ `[1]`_ is also included on the OSGeo-Live disc.
 .. _`A Gentle Introduction to GIS`: http://docs.qgis.org/2.8/en/docs/gentle_gis_introduction/
 .. _`QGIS User Guide`: http://docs.qgis.org/2.8/en/docs/user_manual/
 .. _`[1]`: ../../qgis/QGIS-2.2-UserGuide-en.pdf
-

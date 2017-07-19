@@ -1,8 +1,14 @@
 :Author: Vladimir Agafonkin, adopted for live dvd by Johan Van de Wauw
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 
 ********************************************************************************
 Leaflet Quickstart
 ********************************************************************************
+
+Leaflet is a JavaScript library for browser-based, mobile-friendly, interactive maps.  It is lightweight, yet has all the features most developers ever need for online maps. Leaflet is designed with simplicity, performance and usability in mind.
+
+.. contents:: Contents
 
 Running
 ================================================================================
@@ -12,11 +18,11 @@ This will provide background tiles that will be used in this demo.
 
 View the example_
 
-.. tip :: If you are reading this quickstart outside the live dvd you may prefer reading the original demo on: http://leafletjs.com/examples/quick-start.html, since this demo uses tilestache on the live dvd.
+.. tip :: If you are reading this quickstart outside the live dvd you may prefer reading the original demo on: http://leafletjs.com/examples/quick-start/, since this demo uses tilestache on the live dvd.
 
 Preparing your page
 ===================
-Before writing any code for the map, you need to do the following prerpation steps on your page:
+Before writing any code for the map, you need to do the following preparation steps on your page:
 
 * Include Leaflet CSS files in the head section of your document
 
@@ -70,11 +76,11 @@ Creating a tile layer usually involves setting the URL template for the tile ima
 
 If you have online access you may want to use a nicer tilemap as the background:
 
-.. code-block:: javascript
+::
 
  L.tileLayer('http://{s}.tile.cloudmade.com/API-key/997/256/{z}/{x}/{y}.png', {
 			maxZoom: 18,
-			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>'
+			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>'
 		}).addTo(map);
 
 Make sure all the code is called after the **div** and **leaflet.js** inclusion. That's it! You have a working Leaflet map now.
@@ -141,7 +147,7 @@ Every time something happens in Leaflet, e.g. user clicks on a marker or map zoo
 
 Each object has its own set of events - see documentation_ for details. The first argument of the listener function is an event object - it contains useful information about the event that happened. For example, map click event object (e in the example above) has latlng property which is a location at which the click occured.
 
-Lets improve our example by using a popup instead of an alert:
+Let's improve our example by using a popup instead of an alert:
 
 .. code-block:: javascript
 
@@ -157,6 +163,9 @@ Lets improve our example by using a popup instead of an alert:
  map.on('click', onMapClick);
 
 Try clicking on the map and you will see the coordinates in a popup. View the full example_
+
+What Next?
+================================================================================
 
 Now you've learned Leaflet basics and can start building map apps straight away! Don't forget to take a look at the detailed documentation_ or other examples_.
 
