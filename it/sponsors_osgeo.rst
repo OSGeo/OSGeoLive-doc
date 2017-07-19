@@ -29,27 +29,6 @@ ma SENZA NESSUNA GARANZIA; senza neppure la garanzia implicita di
 COMMERCIABILITÀ o IDONEITÀ PER UN PARTICOLARE SCOPO.`
 
 
-Sponsor che supportanto OSGeo
---------------------------------------------------------------------------------
-
-.. image:: /images/logos/geocat_logo.png
-  :alt: GeoCat
-  :target: http://geocat.net/
-
-
-.. image:: /images/logos/Boundless_Logo.png
-  :alt: Boundless
-  :target: http://boundlessgeo.com/
-
-.. image:: /images/logos/gaia3d.png
-  :alt: Gaia3D
-  :target: http://www.gaia3d.com/
-
-.. image:: /images/logos/astun.png
-  :alt: Astun Technology
-  :target: https://astuntechnology.com/
-
-
 
 Per maggiori informazioni
 --------------------------------------------------------------------------------
