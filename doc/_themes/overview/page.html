@@ -1,0 +1,86 @@
+{% extends "basic/page.html" %}
+
+{%- block extrahead %} 
+	<script type="text/javascript" src="{{ pathto('_static/osgeolive.js', 1) }}"></script>
+{% endblock %}
+
+{%- macro languagebar(showrel=True) %}
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+            ${OSGeoLiveDoc_LANGUAGES_BAR}
+		</div>
+	</font>
+    </div>
+{%- endmacro %}
+
+{# header for overview quicstart standards#}
+{%- macro header1(showrel=True) %}
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../_static/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../standards/standards.html">Standards</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+{%- endmacro %}
+
+{%- macro header2(showrel=True) %}
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="_static/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./overview/overview.html">Contents</a></li>
+              <li><a href="./standards/standards.html">Standards</a></li>
+              <li><a href="./download.html">Download</a></li>
+              <li><a href="./metrics.html">Metrics</a></li>
+              <li><a href="./sponsors.html">Sponsors</a></li>
+              <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+{%- endmacro %}
+
+
+
+
+{% block header %}
+{%- if pagename in ['index', 'contact', 'disclaimer.rst', 'mac_installers',  'osgeo_contact',  'presentation', 'scripts',  'translators',
+            'win_installers', 'contributors', 'download', 'metrics', 'prior_applications', 'sponsors_osgeo', 'copyright', 'sponsors']
+%}
+    {{ header2(True) }} 
+{% else  %}
+    {# header for overview quicstart standards#}
+    {{ header1(True) }} 
+{% endif %}
+{% endblock %}
+
+
+
+{% block languages %}
+ {{ languagebar(True) }}
+{% endblock %}
+
+{% block relbar1 %}
+    {%- if pagename != 'index' %}{{ languagebar(True) }}{% endif %}
+{% endblock %}
+
+{% block sidebarsearch %}{% endblock %}
+
+{%- block sidebar2 %}{% endblock %}
+
+{% block footer %}
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+{% endblock %}
+

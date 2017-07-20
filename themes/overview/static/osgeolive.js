@@ -6,7 +6,7 @@
  * the supported languages for osgeo-live DVD, 
  * update if an other translation is available
  */
-var supported_languages= [${OSGeoLiveDoc_INSTALLED_LANGUAGES}];
+var supported_languages= ["ca", "de", "el", "en", "es", "fr", "it", "jp", "pl", "zh"];
 
 /**
  * creates a location object from url string 
@@ -47,9 +47,7 @@ var redirectFromUrlToLang = function(url, lang) {
     } else {
         language = lang.toLowerCase();
     }
-    if (false === isLanguageSupported(language)) return;
-
-    var pathName = url.href;
+    var pathName = url.pathname;
     
     var currentContext = createContextObject(pathName);
 

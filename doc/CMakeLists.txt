@@ -75,8 +75,8 @@ add_custom_command(
 # Adding the sphinx subdirectories and files
 #---------------------------------------------
 configure_file("conf.py.in" "conf.py" @ONLY)
-add_subdirectory(themes)
-add_subdirectory(static)
+add_subdirectory(_themes)
+add_subdirectory(_static)
 
 set(SPHINX_DOCUMENTATION_DIR "${CMAKE_CURRENT_BINARY_DIR}")
 set(SPHINX_BUILD_DIR "${CMAKE_CURRENT_BINARY_DIR}/_build")

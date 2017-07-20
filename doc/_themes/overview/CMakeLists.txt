@@ -1,11 +1,11 @@
 
 
-#TODO Delete if needed
-if(FALSE)
+#TODO Fix file
+message(STATUS "${CMAKE_CURRENT_SOURCE_DIR}: OSGeoLiveDoc_BUILD_LANGUAGES = ${OSGeoLiveDoc_BUILD_LANGUAGES}")
 # -----------------------------------------
 #  <a href="javascript:defaultRedirect('en')">English</a> 
 # BUilding:
-#  | <a href="javascript:defaultRedirect('en')">Language</a> 
+#  | <a href="javascript:defaultRedirect('XX')">Language</a> 
 #  
 # Needed in page.html
 # -----------------------------------------
@@ -13,12 +13,15 @@ if(FALSE)
 set(OSGeoLiveDoc_LANGUAGES_BAR "")
 foreach (lang ${OSGeoLiveDoc_BUILD_LANGUAGES})
     if(DEFINED "LangMap_${lang}")
-        set(OSGeoLiveDoc_LANGUAGES_BAR "${OSGeoLiveDoc_LANGUAGES_BAR} | <a href=\"javascript:defaultRedirect('${lang}')\">${LangMap_${lang}}</a>")
+        if (NOT ${lang} MATCHES "en")
+            set(OSGeoLiveDoc_LANGUAGES_BAR "${OSGeoLiveDoc_LANGUAGES_BAR} | ")
+        endif()
+        set(OSGeoLiveDoc_LANGUAGES_BAR "${OSGeoLiveDoc_LANGUAGES_BAR}  <a href=\"javascript:defaultRedirect('${lang}')\">${LangMap_${lang}}</a>")
     endif()
 endforeach()
-endif()
 
 
+if(FALSE)
 # -----------------------------------------
 # <a href="{{ pathto('en/index') }}">English</a>
 #
@@ -28,8 +31,7 @@ endif()
 # Needed in page.html
 # -----------------------------------------
 
-message(STATUS "${CMAKE_CURRENT_SOURCE_DIR}: OSGeoLiveDoc_BUILD_LANGUAGES = ${OSGeoLiveDoc_BUILD_LANGUAGES}")
-set(OSGeoLiveDoc_LANGUAGES_BAR "")
+#set(OSGeoLiveDoc_LANGUAGES_BAR "")
 foreach (lang ${OSGeoLiveDoc_BUILD_LANGUAGES})
     if(DEFINED "LangMap_${lang}")
         if (NOT ${lang} MATCHES "en")
@@ -39,6 +41,7 @@ foreach (lang ${OSGeoLiveDoc_BUILD_LANGUAGES})
         set(OSGeoLiveDoc_LANGUAGES_BAR "${OSGeoLiveDoc_LANGUAGES_BAR} <a href=\"{{  pathto('${lang}/index') }}\">${LangMap_${lang}}</a>")
     endif()
 endforeach()
+endif()
 
 message(STATUS "${CMAKE_CURRENT_SOURCE_DIR}: OSGeoLiveDoc_LANGUAGES_BAR = ${OSGeoLiveDoc_LANGUAGES_BAR}")
 

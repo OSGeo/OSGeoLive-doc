@@ -18,4 +18,5 @@ message(STATUS "${CMAKE_CURRENT_SOURCE_DIR}: OSGeoLiveDoc_INSTALLED_LANGUAGES = 
 add_subdirectory(img)
 configure_file("osgeolive.js" "osgeolive.js")
 configure_file("overview.css"  "overview.css")
+configure_file("osgeolive.css"  "osgeolive.css")
 configure_file("sphinxdoc.css" "sphinxdoc.css")
