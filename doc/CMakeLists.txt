@@ -18,6 +18,7 @@ set(OSGeoLiveDoc_FILES
     "mac_installers.rst"
     "presentation.rst"
     "sponsors_osgeo.rst"
+    "prior_applications.rst"
     "win_installers.rst"
     )
 

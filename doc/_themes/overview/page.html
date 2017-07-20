@@ -15,8 +15,8 @@
     </div>
 {%- endmacro %}
 
-{# header for overview quicstart standards#}
-{%- macro header1(showrel=True) %}
+{# header for subdirectories' files like: overview quicstart#}
+{%- macro header1() %}
     <div class="header">
 	<div class="banner"><a href="http://live.osgeo.org/"><img src="../_static/banner.png"></a></div>
         <div class="nowrap">
@@ -34,7 +34,8 @@
     </div>
 {%- endmacro %}
 
-{%- macro header2(showrel=True) %}
+{# header for files at the level of index#}
+{%- macro header2() %}
     <div class="header">
 	<div class="banner"><a href="http://live.osgeo.org/"><img src="_static/banner.png"></a></div>
         <div class="nowrap">
@@ -56,29 +57,33 @@
 
 
 {% block header %}
+{# TODO this list should be set on the CMakeLists based on configuration #}
 {%- if pagename in ['index', 'contact', 'disclaimer.rst', 'mac_installers',  'osgeo_contact',  'presentation', 'scripts',  'translators',
             'win_installers', 'contributors', 'download', 'metrics', 'prior_applications', 'sponsors_osgeo', 'copyright', 'sponsors']
 %}
-    {{ header2(True) }} 
+    {{ header2() }} 
 {% else  %}
-    {# header for overview quicstart standards#}
-    {{ header1(True) }} 
+    {# header for subdirectories' files like: overview quicstart#}
+    {{ header1() }} 
 {% endif %}
 {% endblock %}
 
 
 
-{% block languages %}
- {{ languagebar(True) }}
-{% endblock %}
-
+{# language bar at the top of the page #}
 {% block relbar1 %}
-    {%- if pagename != 'index' %}{{ languagebar(True) }}{% endif %}
+    {{ languagebar(True) }}
 {% endblock %}
 
-{% block sidebarsearch %}{% endblock %}
+{# language bar at the bottom of the page #}
+{% block relbar2 %}
+    {{ languagebar(True) }}
+{% endblock %}
 
-{%- block sidebar2 %}{% endblock %}
+
+{#% block sidebarsearch %}{% endblock %#}
+
+{#%- block sidebar2 %}{% endblock %#}
 
 {% block footer %}
 <span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>

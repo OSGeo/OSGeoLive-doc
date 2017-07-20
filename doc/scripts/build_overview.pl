@@ -166,8 +166,14 @@ sub write_script {
 |osgeo-live-version| Contents
 ================================================================================
 
-$sections
+.. contents::
+    :local:
 
+
+$sections
+    ../prior_applications
+
+:doc:`../prior_applications`
 
 EOF
 
