@@ -28,6 +28,14 @@ render reSt documents as HTML from the online SVN browser.
 
    View output in _build/html/en/index.html
 
+3. It is also possible to generate a debian package from the documentation
+::
+   sudo apt install devscripts
+   debuild -b
+   sudo dpkg -i ../osgeolive-docs_11.0~beta1_all.deb
+
+   The actual packagename will depend on the current version in debian/changelog
+
 References:
 ~~~~~~~~~~~
 
