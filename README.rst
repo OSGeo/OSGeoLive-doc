@@ -9,7 +9,7 @@ around.
 This repository contains the documentation for OSGeo live.
 
 reStructured Text
-=================
+~~~~~~~~~~~~~~~~~
 
 The majority of our documentation is generated from reStructured text
 sources using Sphinx. reSt is similar to wiki markup, and readable in
