@@ -11,9 +11,7 @@ Disclaimer
 This Live GIS disc and virtual-machine has been put together by members
 of the OSGeo community to showcase their favourite Free and Open Source
 (FOSS) geospatial software. We've included a number of non-OSGeo software
-packages, GIS focused and otherwise, which we hope you will find to be as
-useful as we do. The OSGeo Foundation does not recommend or guarantee any
-associated software, projects, or companies found within.
+packages, from both the spatial and non-spatial realms, which we hope you will find to be as useful as we do. The OSGeo Foundation does not recommend or guarantee any associated software, projects, or companies found within.
 
 `These programs are distributed in the hope that they will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
