@@ -1,9 +1,4 @@
-.. OSGeo-Live documentation master file, created by
-   sphinx-quickstart on Tue Jul  6 14:54:20 2010.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Métriques du projet |osgeo-live-version|
+Métriques du projet |osgeo-live-version| 
 ================================================================================
 
 Les métriques fournies par `OpenHUB <https://www.openhub.net/>`_ sont dérivées à partir des dépôts du code du projet. Notez que ces métriques ont connu des déficiences (causées par des changements de dépôts), et fournissent seulement des indications partielles à propos du développement du projet. Un manque de changement dans des paquets plus petits concis et librairies peuvent simplement refléter un niveau de maturité et de complétude.
@@ -74,7 +69,7 @@ Publication des données spatiales sur internet :
 
 Manquant :
 
-* :doc:`overview/qgis_mapserver_overview` (Incorporated in QGIS codebase)
+* :doc:`overview/qgis_mapserver_overview` (Intégré dans la base du code QGIS)
 
 Bases de données
 --------------------------------------------------------------------------------
@@ -112,7 +107,7 @@ Outils OpenStreetMap
 
 Outils Spatiaux
 --------------------------------------------------------------------------------
-Specific analysis tools:
+Outils d'analyses spécifique :
 
 .. raw:: html
 
@@ -136,7 +131,7 @@ Applications ciblées pour un domaine spécifique :
 
 Manquant :
 
-* :doc:`overview/zygrib_overview` - Weather Forecast Maps
+* :doc:`overview/zygrib_overview` - Cartes de prévision météo
 
 Librairies Géospatiales
 --------------------------------------------------------------------------------
