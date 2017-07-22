@@ -12,7 +12,7 @@ Séléctionné l'image qui vous convient :
 
 **osgeo-live iso**: |osgeolive-iso-size|
 
-Image basée sur Lubuntu bootable, qui peut  être copiée sur une clé USB 8 GB (plus rapide et recommandé) ou DVD (moins chers). Elle peut aussi être utilisée pour créer une machine virtuelle en partant de zéro.
+Image basée sur Lubuntu bootable, qui peut être copiée sur une clé USB 8 GB (plus rapide et recommandé) ou DVD (moins chers). Elle peut aussi être utilisée pour créer une machine virtuelle en partant de zéro.
 
 **osgeo-live-vm**: |osgeolive-vm-7z-size|
 
@@ -20,13 +20,13 @@ L'image disque virtuelle pré-contruite (.vmdk) basée sur osgeo-live, adaptée 
 
 **amd64 or i386 architecture**
 
-Images ISO sont disponible pour les procésseurs amd64 récents (recommandé) ainsi que pour les anciens processeurs i386.
+Les images ISO sont disponibles pour les processeurs amd64 récents (recommandé) ainsi que pour les anciens processeurs i386.
 
 **md5 checksum**
 
-Vous pouvez utiliser la somme md5 pour vérifier que l'image a été télécharger avec succès.
+Vous pouvez utiliser la somme md5 pour vérifier que l'image a été téléchargé avec succès.
 
 **Ressources systèmes**
 
-`Ressources systèmes minimum conseillée: 1 GB RAM (2 GB est mieux pour essayer les applications basées sur Java), processeur 1GHz
+`Ressources systèmes minimums conseillées: 1 GB RAM (2 GB est mieux pour essayer les applications basées sur Java), processeur 1GHz
 i386 ou compatible amd64. Pas de disque dur requis. Les utilisateurs Mac bénéficierons d'avoir une souris USB à 3 boutons.`
