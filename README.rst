@@ -11,10 +11,9 @@ This repository contains the documentation for OSGeo live.
 reStructured Text
 ~~~~~~~~~~~~~~~~~
 
-The majority of our documentation is generated from reStructured text
-sources using Sphinx. reSt is similar to wiki markup, and readable in
-plain ascii. As a quick check, the Trac system viewer will (partially)
-render reSt documents as HTML from the online SVN browser.
+The majority of our documentation is generated from reStructured text sources
+using Sphinx. reSt is similar to wiki markup, and readable in plain ascii. As a
+quick check, github will (partially) render reSt documents as HTML.
 
 1. Install python and sphinx version 0.6.4 or greater (as provided with Ubuntu >10.04), (install_main_docs.sh does this too)
 ::
