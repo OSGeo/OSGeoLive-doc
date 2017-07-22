@@ -74,17 +74,29 @@ Get information about the raster data with gdalinfo
 	Files: HYP_50M_SR_W.tif
 	       HYP_50M_SR_W.tfw
 	Size is 10800, 5400
-	Coordinate System is `'
+	
+	Coordinate System is:
+	GEOGCS["WGS 84",
+	    DATUM["WGS_1984",
+		SPHEROID["WGS 84",6378137,298.257223563,
+		    AUTHORITY["EPSG","7030"]],
+		AUTHORITY["EPSG","6326"]],
+	    PRIMEM["Greenwich",0],
+	    UNIT["degree",0.0174532925199433],
+	    AUTHORITY["EPSG","4326"]]
 	Origin = (-179.999999999999972,90.000000000000000)
 	Pixel Size = (0.033333333333330,-0.033333333333330)
 	Metadata:
-	  TIFFTAG_SOFTWARE=Adobe Photoshop CS3 Macintosh
-	  TIFFTAG_DATETIME=2009:09:19 10:13:17
+	  AREA_OR_POINT=Area
+	  TIFFTAG_DATETIME=2012:07:16 09:16:14
+	  TIFFTAG_RESOLUTIONUNIT=2 (pixels/inch)
+	  TIFFTAG_SOFTWARE=Adobe Photoshop CS5 Macintosh
 	  TIFFTAG_XRESOLUTION=342.85699
 	  TIFFTAG_YRESOLUTION=342.85699
-	  TIFFTAG_RESOLUTIONUNIT=2 (pixels/inch)
 	Image Structure Metadata:
+	  COMPRESSION=YCbCr JPEG
 	  INTERLEAVE=PIXEL
+	  SOURCE_COLOR_SPACE=YCbCr
 	Corner Coordinates:
 	Upper Left  (-180.0000000,  90.0000000) 
 	Lower Left  (-180.0000000, -90.0000000) 
@@ -100,7 +112,7 @@ Note:
   * Size is 10800x5400
   * 3 Bands of type Byte. 
   * Coordinates
-  * no coordinate system
+  * Coordinate system is "WGS 84"
 
 
 
