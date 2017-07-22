@@ -1,4 +1,4 @@
-Willkommen auf der OSGeo Live GIS DVD.
+Willkommen auf der OSGeo-Live 11.0.
 
 
 Auf dem Desktop finden Sie einen Hilfe Button, über den
@@ -11,11 +11,8 @@ Anmeldefensters finden Sie das Menü zur Sprachauswahl.  Nach dem
 erneuten Anmelden (das Paßwort ist "user") finden Sie ein
 Flaggensymbol im Menü, über das die Tastaturbelegung ausgewählt
 werden kann. Diese Tastaturbelegung kann auch über die
-Systemsteuerung über Anwendungen > System > Language Support
-erfolgen.
-
-Installer für Mac OS X und Microsoft Windows finden sich in
-den Verzeichnissen MacInstallers und WindowsInstallers
+Systemsteuerung über Einstellungen > Sprachen
+erfolgen. Wenn das Flaggensymbol nach der ersten Anmeldung nicht erscheint, einfach noch einmal anmelden.
 
 Verschiedene Paßworte finden sich auf dem Desktop in der Datei
 passwords.txt.
@@ -27,7 +24,7 @@ anschließend das Paßwort "user" ein.
 Das FAQ finden Sie hier:
   http://wiki.osgeo.org/wiki/Live_GIS_Disc_FAQ
 
-
+Das Desktopbild basiert auf einer Karte der United States Geological Survey.
 
 Happy mapping!
 Das OSGeo Live GIS Team
