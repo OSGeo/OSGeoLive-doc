@@ -7,7 +7,6 @@
 ================================================================================
 
 
-
 Desktop GIS
 --------------------------------------------------------------------------------
 Generelle Geodaten Anzeige, Barbeitung und Analyse über den Desktop:
@@ -20,8 +19,6 @@ Generelle Geodaten Anzeige, Barbeitung und Analyse über den Desktop:
 |osgeoproject| :doc:`gvsig_overview` - [:doc:`QuickStart <../quickstart/gvsig_quickstart>`]
 
 |nologo| :doc:`udig_overview` - [:doc:`QuickStart <../quickstart/udig_quickstart>`]
-
-
 
 |nologo| :doc:`openjump_overview` - [:doc:`QuickStart <../quickstart/openjump_quickstart>`]
 
@@ -77,12 +74,6 @@ Veröffentlichung von Geodaten im Netz:
 
 |osgeocommunity| :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 
-
-
-
-
-
-
 Datenbanken
 --------------------------------------------------------------------------------
 Speicherung von räumlichen Daten:
@@ -103,13 +94,13 @@ Navigation und Karten
 
 |osgeoproject| :doc:`marble_overview` - [:doc:`QuickStart <../quickstart/marble_quickstart>`] - Virtual Globe
 
+|nologo| :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - OpenStreetMap Tools
 
+|nologo| :doc:`ideditor_overview` - [:doc:`QuickStart <../quickstart/ideditor_quickstart>`] - OpenStreetMap Web Editor
 
 |nologo| :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Darstellung von Seekarten und GPS
 
 |nologo| :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - Open Street Map Werkzeuge
-
-
 
 Spezielle GIS Software
 --------------------------------------------------------------------------------
@@ -128,18 +119,10 @@ Spezielle Anwendungen
 
 |osgeoproject| :doc:`ossim_overview` - [:doc:`Quickstart <../quickstart/ossim_quickstart>`] - Bildprozessierung
 
-
-
 GIS Werkzeuge
 --------------------------------------------------------------------------------
 Anwendungen mit besonderem Schwerpunkt
 
-
-
-
-
-
-|nologo| :doc:`mb-system_overview` - [:doc:`QuickStart <../quickstart/mb-system_quickstart>`] - Sea Floor Mapping
 
 |nologo| :doc:`zygrib_overview` - [:doc:`QuickStart <../quickstart/zygrib_quickstart>`] - Wettervorhersagekarten
 
@@ -160,7 +143,6 @@ Auwahl räumlicher Daten:
 GIS Bibliotheken
 --------------------------------------------------------------------------------
 
-
 |osgeoproject| :doc:`gdal_overview`  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools
 
 |nologo| :doc:`jts_overview` - Java Topology Suite
@@ -172,7 +154,6 @@ GIS Bibliotheken
 |osgeocommunity| :doc:`proj4_overview` - [:doc:`QuickStart <../quickstart/proj4_quickstart>`] - Coordinate Reference System Transformations (MetaCRS) 
 
 |nologo| :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - LiDAR Data Access 
-
 
 
 Weitere interessante Software (nicht direkt verfügbar)
