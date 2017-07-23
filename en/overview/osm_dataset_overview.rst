@@ -1,5 +1,5 @@
 :Authors: Hamish Bowman, Marco Brancolini
-:Reviewer: 
+:Reviewer:
 :Version: osgeo-live10.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -23,7 +23,7 @@ The heart of the project is the underlying data which is open for all to edit, v
 
 The OSGeo-Live distribution includes a city sized extract of OSM data which is used for examples by some applications.
 
-.. image:: /images/screenshots/1024x768/osm-screenshot.jpg 
+.. image:: /images/screenshots/1024x768/osm-screenshot.jpg
   :scale: 55 %
   :alt: OSM screenshot
   :align: right
@@ -43,19 +43,14 @@ Core Features
 * A global repository of local knowledge.
 
 
-Data Sets included in OSGeo Live
+Data Set included in OSGeo-Live
 --------------------------------------------------------------------------------
 
 - feature_city.osm.bz2: A large extract of the greater city area as a BZip2 compressed XML text file.
 
-- feature_city_CBD.osm.bz2: A smaller subset covering just the Central Business District (CBD).
-
-- feature_city_poi.db: Sqlite DB of "positions of interest" nodes extracted from the above larger city OSM extract. Contains locations of pubs, fuel stations, restaurants, supermarkets, etc.
-
-- Files referencing the name of the featured city contain the same data as the above files. Quickstarts and overviews use the generic file names so that the example city can change with each new release.
+Files referencing the name of the featured city contain the same data as the above files. Quickstarts and overviews use the generic file names so that the example city can change with each new release.
 
 The OSM feature city data has been imported into a PostGIS database called "osm_local" using the osm2pgsql tool. The spatial reference system used for this database is latitude-longitude with the WGS84 datum (EPSG code 4326) and can be reprojected to other Spatial Reference Systems (SRS), such as Spherical-Mercator, on demand.
-The smaller CBD extract is loaded into another PostGIS database called "pgrouting".
 
 
 Details
@@ -72,4 +67,3 @@ Details
 **Spatial coordinate system:** Latitude-Longitude WGS84
 
 **Support:** https://www.openstreetmap.org/help
-
