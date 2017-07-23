@@ -43,14 +43,14 @@ Core Features
 * A global repository of local knowledge.
 
 
-Data Set included in OSGeo Live
+Data Set included in OSGeo-Live
 --------------------------------------------------------------------------------
 
 - feature_city.osm.bz2: A large extract of the greater city area as a BZip2 compressed XML text file.
 
 Files referencing the name of the featured city contain the same data as the above files. Quickstarts and overviews use the generic file names so that the example city can change with each new release.
 
-The OSM feature city data has been imported into a PostGIS database called "osm_local" using the osm2pgsql tool. The spatial reference system used for this database is latitude-longitude with the WGS84 datum (EPSG code 4326) and can be reprojected to other Spatial Reference Systems (SRS), such as Spherical-Mercator, on demand. The :doc:`pgrouting quickstart <pgrouting_quickstart>` creates another PostGIS database called "pgrouting".
+The OSM feature city data has been imported into a PostGIS database called "osm_local" using the osm2pgsql tool. The spatial reference system used for this database is latitude-longitude with the WGS84 datum (EPSG code 4326) and can be reprojected to other Spatial Reference Systems (SRS), such as Spherical-Mercator, on demand.
 
 
 Details
