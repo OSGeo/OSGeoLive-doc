@@ -28,9 +28,7 @@ Pour essayer ces applications simplement:
 #. Appuyez sur la touche "Entrée" pour démarrer et vous connecter.
 #. Essayez les applications en les lançant à partir du menu "Geospatial".
 
-De nombreuses applications sont aussi fournies avec des installateurs pour
-`Apple OSX <../MacInstallers/>`_ et `Microsoft Windows 
-<../WindowsInstallers/>`_.
+OSGeo-Live est un projet de la `fondation OSGeo <http://osgeo.org/>`_ . La fondation OSGeo est une organisation à but non lucratif supportant le développement, la promotion et `l'éducation <http://www.geoforall.org/>`_ aux logiciels Open Source géospatiaux.
 
 
 Guides de démarrage rapide
@@ -67,7 +65,6 @@ Guides de démarrage rapide
 
 Présentation
 --------------------------------------------------------------------------------
-Une présentation d'une demi-heure, mettant en avant toutes les applications de OSGeo-Live,
-est disponible en vidéo, avec les sources des slides et les scripts.
 
-Voir les détails sur la partie `presentation <../en/presentation/index.html>`_.
+Une `présentation <presentation/index.html>`_ d'une demi-heure, mettant en avant toutes les applications de OSGeo-Live,
+est disponible avec les slides, les scripts et `un résumé <presentation/abstract.txt>`_.

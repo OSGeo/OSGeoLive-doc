@@ -4,6 +4,23 @@ Nous contacter
 Le développement de OSGeo-Live est coordonné par email et chat internet (IRC)
 comme indiqué sur le `Wiki OSGeo <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_.
 
+Avertissement
+================================================================================
+
+Le disque Live GIS et la machine virtuelle ont été mis en place par des 
+membres de la communauté OSGeo pour mettre en valeur leurs logiciels 
+géospatiaux libres et open source favoris. Nous avons inclus un certain nombre 
+de logiciels non-OSGeo, à la fois dans les domaines spatiaux et non spatiaux, 
+que nous espérons que vous trouverez aussi utiles que nous. La Fondation 
+OSGeo ne recommande ni ne garantit aucun des logiciels, des projets ou 
+sociétés associés.
+
+`Ces programmes sont distribués dans l'espoir qu'ils seront utiles,
+mais SANS AUCUNE GARANTIE; sans même la garantie implicite de QUALITÉ MARCHANDE ou ADAPTATION À UN USAGE PARTICULIER.`
+
+Pour plus d'informations sur la distribution de chaque programme,
+revoyez leur licence comme indiqué sur la page de chaque programme.
+
 Support communautaire
 ================================================================================
 
@@ -30,7 +47,7 @@ Support commercial
 
 Jirotech fournit le support commercial pour la construction du Live DVD, ainsi
 que pour de nombreuses applications qui sont packagées dedans.
-Plus de détails sur: http://jirotech.com
+Plus de détails sur http://jirotech.com
 
 La plupart des applications packagées ont à la fois un support communautaire et
 commercial pour elles. Référez-vous aux descriptions spécifiques aux applications
@@ -40,4 +57,3 @@ En outre, il y a de nombreuses sociétés de conseil dans le monde qui fournisse
 du support pour les projets membres de l'OSGeo.
 Voir http://www.osgeo.org/search_profile pour trouvez une société qui réponde à
 vos besoins.
-
