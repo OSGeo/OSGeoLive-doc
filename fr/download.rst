@@ -6,27 +6,27 @@
 Téléchargement
 ================================================================================
 
-La dernière version stable de |osgeo-live-version|. Téléchargement https://sourceforge.net/projects/osgeo-live/files/10.5/:
+La dernière version stable de |osgeo-live-version| et peut être téléchargée ici : https://sourceforge.net/projects/osgeo-live/files/10.5/
 
-Picking the right image for you:
+Séléctionné l'image qui vous convient :
 
 **osgeo-live iso**: |osgeolive-iso-size|
 
-Image basé sur Lubuntu, qui inclut aussi les installateurs windows et mac. Il peut aussi être copié sur une clé USB 8 GB bootable.
+Image basée sur Lubuntu bootable, qui peut être copiée sur une clé USB 8 GB (plus rapide et recommandé) ou DVD (moins chers). Elle peut aussi être utilisée pour créer une machine virtuelle en partant de zéro.
 
 **osgeo-live-vm**: |osgeolive-vm-7z-size|
 
-Image disque virtuelle compressé avec `7-Zip <http://www.7-zip.org/>`_ (.vmdk) adapté pour un usage dans VirtualBox, VMWare, KVM et autres applications de virtualisation d'ordinateurs. Ne contient pas les installateurs Windows et Mac. 
+L'image disque virtuelle pré-contruite (.vmdk) basée sur osgeo-live, adaptée pour un usage dans VirtualBox, VMWare, KVM et d'autres applications de virtualisation. L'image est compressée avec `7-Zip <http://www.7-zip.org/>`_.
 
 **amd64 or i386 architecture**
 
-ISO images are available for recent amd64 hardware (recommended) as well as older i386 hardware.
+Les images ISO sont disponibles pour les processeurs amd64 récents (recommandé) ainsi que pour les anciens processeurs i386.
 
 **md5 checksum**
 
-Vérifier votre téléchargement avec sa somme md5.
+Vous pouvez utiliser la somme md5 pour vérifier que l'image a été téléchargé avec succès.
 
-**Ressources système**
+**Ressources systèmes**
 
-`Ressources système minimum conseillée: 768MB RAM (2 GB est mieux pour essayer les applications basées sur Java), processeur 1GHz
-compatible i686. Pas de disque dur requis. Les utilisateurs Mac bénéficierons d'avoir une souris USB à 3 boutons. Pour l'installation sur une clé USB, une taille de 8GB est recommandée`
+`Ressources systèmes minimums conseillées: 1 GB RAM (2 GB est mieux pour essayer les applications basées sur Java), processeur 1GHz
+i386 ou compatible amd64. Pas de disque dur requis. Les utilisateurs Mac bénéficierons d'avoir une souris USB à 3 boutons.`
