@@ -6,7 +6,7 @@
 Μεταφόρτωση - Download
 ================================================================================
 
-Η τελευταία σταθερή έκδοση του OSGeo-Live είναι η |osgeo-live-version| και μπορεί να μεταφορτωθεί από: https://sourceforge.net/projects/osgeo-live/files/10.5/
+Η τελευταία σταθερή έκδοση του OSGeo-Live είναι η |osgeo-live-version| και μπορεί να μεταφορτωθεί από: https://sourceforge.net/projects/osgeo-live/files/11.0/
 
 Επιλέξτε το κατάλληλο αρχείο:
 

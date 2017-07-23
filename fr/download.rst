@@ -6,7 +6,7 @@
 Téléchargement
 ================================================================================
 
-La dernière version stable de |osgeo-live-version| et peut être téléchargée ici : https://sourceforge.net/projects/osgeo-live/files/10.5/
+La dernière version stable de |osgeo-live-version| et peut être téléchargée ici : https://sourceforge.net/projects/osgeo-live/files/11.0/
 
 Séléctionné l'image qui vous convient :
 

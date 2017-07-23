@@ -7,7 +7,7 @@ Download
 ================================================================================
 
 Die aktuelle stabile Version ist |osgeo-live-version| und kann unter dem folgenden Link heruntergeladen werden:
-https://sourceforge.net/projects/osgeo-live/files/10.5/
+https://sourceforge.net/projects/osgeo-live/files/11.0/
 
 Auswahl des geeigneten Images:
 
