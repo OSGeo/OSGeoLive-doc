@@ -1,9 +1,11 @@
 :Author: OSGeo-Live
 :Author: Stephan Meissl, Stephan Krause
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live7.0
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-:Translator: Frank Gasdorf, Stephan Meissl
+:Translator: Frank Gasdorf 
+:Translator: Stephan Meissl
 
 .. image:: /images/project_logos/logo-eoxserver.png
   :alt: project logo
@@ -34,7 +36,6 @@ oder :doc:`PostGIS <postgis_overview>` Datenbank.
   :scale: 50 %
   :alt: In EOxServer eingebauter Klient
   :align: right
-
 
 Kernfunktionen
 --------------------------------------------------------------------------------

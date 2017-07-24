@@ -33,7 +33,7 @@ durch Hardware und Entwicklerleistungen.
 .. image:: /images/logos/debiangis_mollweide.png
   :scale: 60 %
   :alt: The DebianGIS and UbuntuGIS projects
-  :target: http://wiki.debian.org/DebianGis
+  :target: https://wiki.debian.org/DebianGis
 
 Das DebianGIS und UbuntuGIS Projekt stellen viele der Hauptprojekte bereit und sorgen für eine Qualitätssicherung.
 
@@ -47,6 +47,7 @@ Computerresourcen kostenfrei zur Verfügung stellt. Okeanos baut
 auf existierende bewährte Open Source Software (beispielsweise Synnefo, 
 Google Ganeti) auf. Okeanos stellt freundlicherweise die Virtuellen 
 Maschinen, auf denen die OSGeoLive iso-Images gebaut werden.
+
 
 .. image:: /images/logos/georepublic.png
   :alt:  Geolocation Technology Company
