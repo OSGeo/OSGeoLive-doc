@@ -39,9 +39,9 @@ können ohne die anderen Programme zu beeinflussen.
 * http://grassmac.wikidot.com/frameworks
 * http://grassmac.wikidot.com/downloads
 
-   .. toctree::
+..   .. toctree::
      :maxdepth: 1
      :hidden:
      :glob:
 
-     ../MacInstallers/index
+..     ../MacInstallers/index
