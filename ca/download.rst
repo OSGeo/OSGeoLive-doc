@@ -6,7 +6,7 @@
 Descarregar
 ================================================================================
 
-La darrera versió estable d' |osgeo-live-version|. Descarregar https://sourceforge.net/projects/osgeo-live/files/10.5/
+La darrera versió estable d' |osgeo-live-version|. Descarregar https://sourceforge.net/projects/osgeo-live/files/11.0/
 
 **osgeo-live iso**: |osgeolive-iso-size|
 

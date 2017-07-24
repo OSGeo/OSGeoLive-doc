@@ -39,13 +39,21 @@ Le Laboratoire de Télédétection à l'Université Technique d'Athènes, fourni
 Les projets DebianGIS et UbuntuGIS fournissent et vérifient la qualité de nombreux 
 paquets principaux.
 
+.. image:: /images/logos/okeanos-logo.jpg
+  :alt: The Greek Academic cloud service
+  :target: https://okeanos.grnet.gr
+
+Okeanos le service cloud académique de Grèce (IaaS) qui fournit les ressources 
+informatiques virtualisées sans coût pour les universités grecs et les centres 
+de recherche publiques. Okeanos est construit à partir de logiciel open source 
+éprouvé (Synnefo, Google Ganeti). Okeanos fournit les machines virtuelles pour construire les images iso de l'OSGeoLive.
 
 .. image:: /images/logos/georepublic.png
   :alt:  Geolocation Technology Company
   :target: https://georepublic.info
 
-Georepublic is a Geolocation Technology Company, that embraces the idea of Free Software,
-and provide support and custom development for Open Source GIS software.
+Georepublic est une société de technologie de geolocalisation, qui embrasse l'idée du logiciel libre,
+et fournit du support et le développement personnalisé pour les logiciels SIG Open Source.
 
 .. include :: sponsors_osgeo.rst
 
