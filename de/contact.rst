@@ -10,9 +10,7 @@ Disclaimer
 This Live GIS disc and virtual-machine has been put together by members
 of the OSGeo community to showcase their favourite Free and Open Source
 (FOSS) geospatial software. We've included a number of non-OSGeo software
-packages, GIS focused and otherwise, which we hope you will find to be as
-useful as we do. The OSGeo Foundation does not recommend or guarantee any
-associated software, projects, or companies found within.
+packages, from both the spatial and non-spatial realms, which we hope you will find to be as useful as we do. The OSGeo Foundation does not recommend or guarantee any associated software, projects, or companies found within.
 
 `These programs are distributed in the hope that they will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -47,6 +45,7 @@ weitere Informationen unter:
 http://jirotech.com
 
 Für viele der enthaltenen Softwarepakete gibt es sowohl Unterstützung durch die Community als auch kommerziellen Support. Besuchen Sie die Webseiten der Softwareprojekte für weitergehende Informationen.
+
 Darüber hinaus gibt es eine große Auswahl von Unternehmen, die Support für OSGeo Projekte anbieten.
 Unter http://www.osgeo.org/search_profile können Sie ein Unternehmen finden, das Ihren Anforderungen entspricht.
 
