@@ -1,5 +1,9 @@
-:Author: Johannes Wilden, Danilo Bretschneider
-:Version: osgeo-live7.0
+:Author: Johannes Wilden
+:Author: Markus Schneider
+:Author: Danilo Bretschneider
+:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: /images/project_logos/logo-deegree.png
@@ -13,9 +17,11 @@
   :align: right
   :target: http://www.osgeo.org
 
-
-deegree webservices
+deegree
 ================================================================================
+
+Web Services
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Die deegree Webservices sind Implementierungen der Webservice Spezifikationen des `Open Geospatial Consortium (OGC) <http://www.opengeospatial.org>`_ und der `INSPIRE Network Services <http://inspire.jrc.ec.europa.eu>`_. deegree webservices 3.3 enthält die folgenden Dienste:
 
@@ -25,10 +31,17 @@ Die deegree Webservices sind Implementierungen der Webservice Spezifikationen de
 * `Catalogue Service for the Web (CSW) <http://www.opengeospatial.org/standards/cat>`_: Durchführung von Suchen nach räumlichen Datensätzen und Diensten
 * `Web Processing Service (WPS) <http://www.opengeospatial.org/standards/wps>`_: Führt Berechnungen auf räumlichen Daten aus
 
+.. image:: /images/screenshots/1024x768/deegree_mainpage.png
+  :scale: 55 %
+  :alt: TBD
+  :align: right
+
 Mit einer deegree Webservices Installation können Sie sowohl einzelne dieser Dienste, alle, oder auch mehrere des gleichen Typs betreiben.
 
-Eigenschaften des deegree WFS
+Kernfunktionen
 --------------------------------------------------------------------------------
+
+**Eigenschaften des deegree WFS**
 
 Der deegree WFS ist eine Implementierung der `OGC Web Feature Service Spezifikation <http://www.opengeospatial.org/standards/wfs>`_. Einige Eigenschaften:
 
@@ -45,8 +58,7 @@ Der deegree WFS ist eine Implementierung der `OGC Web Feature Service Spezifikat
 * Advanced filter expression support based on XPath 1.0
 * Supports numerous backends, such as PostGIS, Oracle Spatial, MS SQL Server, Shapefiles or GML instance documents
 
-Eigenschaften des deegree WMS
---------------------------------------------------------------------------------
+**Eigenschaften des deegree WMS**
 
 Der deegree WMS ist eine Implementierung der `OGC Web Map Service Spezifikation <http://www.opengeospatial.org/standards/wms>`_. Einige Eigenschaften:
 
@@ -63,8 +75,7 @@ Der deegree WMS ist eine Implementierung der `OGC Web Map Service Spezifikation 
 * Supports numerous backends, such as PostGIS, Oracle Spatial, Shapefiles or GML instance documents
 * Can render rich data models directly
 
-Eigenschaften des deegree WMTS
---------------------------------------------------------------------------------
+**Eigenschaften des deegree WMTS**
 
 Der deegree WMTS ist eine Implementierung der `OGC Web Map Tile Service Spezifikation <http://www.opengeospatial.org/standards/wmts>`_. Einige Eigenschaften:
 
@@ -74,8 +85,7 @@ Der deegree WMTS ist eine Implementierung der `OGC Web Map Tile Service Spezifik
 * Supports on-the-fly caching (using EHCache)
 * Supports GetFeatureInfo for remote WMS backends
 
-Eigenschaften des deegree CSW
---------------------------------------------------------------------------------
+**Eigenschaften des deegree CSW**
 
 Der deegree CSW ist eine Implementierung der `OGC Catalogue Service Spezifikation <http://www.opengeospatial.org/standards/cat>`_. Einige Eigenschaften:
 
@@ -90,8 +100,7 @@ Der deegree CSW ist eine Implementierung der `OGC Catalogue Service Spezifikatio
 * Handles all defined queryable properties (for Dublin Core as well as ISO profile) 
 * Complex filter expressions
 
-Eigenschaften des deegree WPS
---------------------------------------------------------------------------------
+**Eigenschaften des deegree WPS**
 
 Der deegree WPS ist eine Implementierung der `OGC Processing Service Spezifikation <http://www.opengeospatial.org/standards/wps>`_. Einige Eigenschaften:
 

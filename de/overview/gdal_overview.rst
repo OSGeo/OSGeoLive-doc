@@ -1,6 +1,9 @@
 :Author: OSGeo-Live
-:Version: osgeo-live6.5
+:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Translator: Astrid Emde, OSGeo
 
 .. image:: /images/project_logos/logo-GDAL.png
   :alt: project logo
@@ -46,14 +49,13 @@ GDAL unterstützt über 50 Rasterdatenformate, OGR unterstützt über 20 Vektord
 
 Diese beinhalten:
 
-* **Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, DTED und weitere  ...
-* **Vector:** MapInfo (tab und mid/mif), ESRI Shapefile, ESRI Coverages, ESRI Personal Geodatabase, DGN, GML, PostGIS, Oracle Spatial und weitere ...
+* **Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, DTED, NITF, GeoPackage  und weitere  ...
+* **Vector:** GeoPackage, ESRI Shapefile, GML, GeoJSON, AutoCAD DWG, MapInfo (tab und mid/mif), ESRI Coverages, ESRI Personal Geodatabase, DGN, PostGIS, Oracle Spatial und weitere ...
 
 Implementierte Standards
 --------------------------------------------------------------------------------
 
 Das OGR Vektor Datenmodell folgt der OGC Simple Features Spezifikation.
-
 
 Details
 --------------------------------------------------------------------------------
@@ -66,7 +68,7 @@ Details
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
-**API Schnittstellen:** Python, Java, C#, Ruby, VB6 and Perl
+**API Schnittstellen:**C, C++, Python, Java, C#, Ruby, VB6 and Perl
 
 **Support:** http://lists.osgeo.org/mailman/listinfo/gdal-dev, http://www.osgeo.org/search_profile
 

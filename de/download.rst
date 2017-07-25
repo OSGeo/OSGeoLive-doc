@@ -13,7 +13,7 @@ Auswahl des geeigneten Images:
 
 **osgeo-live iso**: |osgeolive-iso-size|
 
-Ein auf Lubuntu basierendes bootbares Image, das auf einen 8 GB USB Stick kopiert werden kann (schneller und empfohlen) oderr DVD (günstiger). 
+Ein auf Lubuntu basierendes bootbares Image, das auf einen 8 GB USB Stick kopiert werden kann (schneller und empfohlen) oder DVD (günstiger). 
 Es kann auch dazu verwendet werden, eine Virtuelle Maschine von Grund auf aufzubauen.
 
 **osgeo-live-vm**: |osgeolive-vm-7z-size|

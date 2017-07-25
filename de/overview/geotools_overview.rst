@@ -1,4 +1,5 @@
 :Author: Jody Garnett
+:Reviewer: Cameron Shorter, Jirotech
 :Author: Astrid Emde
 :Author: Frank Gasdorf
 :Version: osgeo-live5.5
