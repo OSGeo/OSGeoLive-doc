@@ -120,7 +120,7 @@ option(LOCALE
     All supported languages are considered" OFF
     )
 
-foreach(opt HTML DIRHTML PICKLE JSON HTMLHELP LATEX)
+foreach(opt HTML DIRHTML SINGLEHTML PICKLE JSON HTMLHELP LATEX)
     if (${${opt}} OR ALL_DOC)
         string(TOLOWER ${opt} val)
         list(APPEND OSGeoLiveDoc_DOC_TARGETS ${val})
