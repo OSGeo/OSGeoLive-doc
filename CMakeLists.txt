@@ -92,6 +92,10 @@ option(DIRHTML
     STATUS: the navigation does not work " OFF
     )
 
+option(SINGLEHTML
+    "Set ON|OFF (default=OFF) to build Documentation library tree as a single HTML file" OFF
+    )
+
 option(PICKLE
     "Set ON|OFF (default=OFF) to build Documentation library tree as PICKLE" OFF)
 
