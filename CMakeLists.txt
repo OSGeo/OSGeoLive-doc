@@ -20,7 +20,7 @@ set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 #---------------------------------------------
 # Setting the version number
 #---------------------------------------------
-set(OSGeoLiveDoc_VERSION_MAJOR "11")
+set(OSGeoLiveDoc_VERSION_MAJOR "12")
 set(OSGeoLiveDoc_VERSION_MINOR "0")
 set(OSGeoLiveDoc_VERSION_PATCH "0")
 set(OSGeoLiveDoc_VERSION_DEV "-dev")
@@ -33,7 +33,7 @@ set(OSGeoLiveDoc_NAME "OSGeo-Live")
 #---------------------------------------------
 set(SPHINX_MINIMUM_VERSION "1.1")
 
-                 
+
 #---------------------------------------------
 # Fining sphinx
 #---------------------------------------------
@@ -258,7 +258,7 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     endif()
 
     string(CONCAT  OSGeoLiveDoc_PROJECTS_VERSIONS ${OSGeoLiveDoc_PROJECTS_VERSIONS} ".. |version-${project_name}| replace:: ${project_version}\n")
-    if (NOT "${wantDoc}" MATCHES "Y") 
+    if (NOT "${wantDoc}" MATCHES "Y")
         if (OSGeoLiveDoc_VERBOSE_DEBUG)
             message(STATUS "${project_name} is not for documentation")
         endif()
