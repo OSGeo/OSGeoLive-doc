@@ -15,13 +15,7 @@ in der räumlichen Datenverarbeitung einsetzt.
 
 OSGeo Bestrebungen und Aktivitäten beinhalten:
 
-* `Lokale Gruppen (Local Chapters) <http://www.osgeo.org/content/chapters/index.html>`__: Lokale, regionale Gruppen 
-sowie Gruppen mit gleicher Sprache unterstützen Graswurzel-Aktivitäten.
-* `GeoForAll <http://www.geoforall.org>`_: Über 100 Geospatial-Labore wurden weltweit eingerichtet. 
-Diese arbeiten mit Partner daran, die die Lehre 
-rund um Geospatial und die Möglichkeiten für alle verfügbar.
-* `OSGeo-Live <http://live.osgeo.org>`__: 
-Eine Sammlung von etablierter Geospatial Open Source Software, 
-vorkonfiguriert mit Beispieldaten und Quickstart-Dokumenten. Mit OSGeo-Live können 
-die Programme direkt ausprobiert werden.
+* `Lokale Gruppen (Local Chapters) <http://www.osgeo.org/content/chapters/index.html>`__: Lokale, regionale Gruppen sowie Gruppen mit gleicher Sprache unterstützen Graswurzel-Aktivitäten.
+* `GeoForAll <http://www.geoforall.org>`_: Über 100 Geospatial-Labore wurden weltweit eingerichtet. Diese arbeiten mit Partner daran, die die Lehre rund um Geospatial und die Möglichkeiten für alle verfügbar.
+* `OSGeo-Live <http://live.osgeo.org>`__: Eine Sammlung von etablierter Geospatial Open Source Software, vorkonfiguriert mit Beispieldaten und Quickstart-Dokumenten. Mit OSGeo-Live können die Programme direkt ausprobiert werden.
 * `FOSS4G <http://foss4g.org>`_: Jährlich stattfindende internationale Konferenz für *Freie und Open Source Software rund um Geospatial*, sowie zahreiche regionale und lokale `Veranstaltungen <http://www.osgeo.org/events>`_.
