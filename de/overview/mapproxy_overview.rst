@@ -1,7 +1,8 @@
 :Author: Oliver Tonnhofer
 :Author: Dominik Helle
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live9.5
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: /images/project_logos/logo-mapproxy.png
@@ -28,8 +29,6 @@ WMS- & Kachel-Proxy
 MapProxy beschleunigt Kartenanwendungen durch das Vorgenerieren und Zwischenspeichern von Karten in einem lokalen Cache. Karten können durch MapProxy kombiniert, umtransformiert und manipuliert werden. So verfügt MapProxy zum Beispiel über die Möglichkeit Transparenz hinzuzufügen oder Wasserzeichen in der Karte einzublenden.
 
 MapProxy ist flexibel einsetzbar und kann bei einfachen, aber auch bei komplexen Anwendungsfällen zum Einsatz kommen: Vom einfachen Zwischenspeicher für eine OpenLayers Web-Anwendung bis hin zum Einsatz als zentraler Knotenpunkt in einer GDI, bei dem MapProxy  dutzende WMS Dienste kombiniert, vereinheitlicht und beschleunigt.
-
-Beispiele aus der Praxis: MapProxy wird im Breitbandatlas des BMWi verwendet um Karten an tausende Benutzer so schnell wie möglich auszuliefern. Außerdem wird MapProxy vom Bundesamt für Kartographie und Geodäsie verwendet um unterschiedliche WMS Dienste aller 16 Bundesländern on-the-fly zusammenzufassen.
 
 
 Funktionen von MapProxy

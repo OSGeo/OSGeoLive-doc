@@ -23,7 +23,7 @@ Das Herz des Projekts sind die zugrunde liegenden Daten, die von allen zur Bearb
 
 Die OSGeo-Live ditribution beinhaltet einen Auszug der OSM Daten, die für einige Anwendungen als Beispieldaten genutzt werden.
 
-.. image:: /images/screenshots/1024x768/osm-screenshot.jpg 
+.. image:: /images/screenshots/1024x768/osm-screenshot.jpg
   :scale: 55 %
   :alt: OSM screenshot
   :align: right
@@ -48,16 +48,11 @@ Datensätze in OSGeo-Live
 
 - feature_city.osm.bz2: ein großflächigerer Bereich der Stadtfläche als komprimierte BZip2-Datei einer XML Textdatei.
 
-- feature_city_CBD.osm.bz2: kleinerer Auszug, der lediglich den zentralen Geschäftsbereich abdeckt.
-
-- feature_city_poi.db: Sqlite Database mit POIs ("positions of interest"-Knoten) umfassen ebenfalls Auszüge des Stadtbereichs. Die Daten beinhalten Standorte von Kneipen (pubs), Tankstellen (fuel stations), Restaurants, Supermärkte, usw. 
-
-- Dateien, die auf das soeben genannte featured city referenzieren, enthalten dieselben Daten, wie oben beschrieben. Quickstarts und Overviews benutzen diese Dateien/Pfadname, ungeachtet von möglichen Änderungen der Beispielstadt zwischen verschiedenen Releases.
+Dateien, die auf das soeben genannte featured city referenzieren, enthalten dieselben Daten, wie oben beschrieben. Quickstarts und Overviews benutzen diese Dateien/Pfadname, ungeachtet von möglichen Änderungen der Beispielstadt zwischen verschiedenen Releases.
 
 Die OSM Daten wurden mit Hilfe des Tools osm2pgsql nach PostGIS in die Datenbank "osm_local" importiert.
 Das verwendete Koordinatenreferenzsystem ist lat/lon mit dem Datum WGS84 (EPSG:4326).
 Die Daten können in andere SRS wie beispielsweise Spherical Mercator umgewandelt werden.
-Ein kleinerer CBD Auszug wurde in die PostGIS Datenbank "pg_routing" geladen.
 
 Details
 --------------------------------------------------------------------------------
@@ -73,4 +68,3 @@ Details
 **Räumliches Koordinatensystem:** Latitude-Longitude WGS84
 
 **Support:** https://www.openstreetmap.org/help
-

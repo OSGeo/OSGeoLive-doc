@@ -2,9 +2,11 @@
 :Author: OSGeo-Live
 :Author: Roald de Wit
 :Author: Antonio Santiago
+:Author: Bart van den Eijnden
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live9.5
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Translator: Daniel Kastl
 
 .. image:: /images/project_logos/logo-OpenLayers.png
   :scale: 80 %
@@ -19,7 +21,7 @@
   :target: http://www.osgeo.org
 
 
-OpenLayers3
+OpenLayers
 ================================================================================
 
 Browser/Mobile Map Biliothek und GIS Anwendung
@@ -41,8 +43,8 @@ Kernfunktionen
 
 * Ebenen
 
-  * Raster: WMS/WMTS, OpenStreetMap, MapQuest, Stamen, Bing, statische Bilder, usw.
-  * Vektor: WFS, KML, GeoJSON, TopoJSON, GPX, und IGC.
+  * Raster: WMS/WMTS, OpenStreetMap, Stamen, Bing, andere XYZ Quellen, statische Bilder, usw.
+  * Vektor: WFS, KML, GeoJSON, TopoJSON, GPX, GML und MapBox Vektor Kacheln.
   * Heatmaps.
   * Darstellung von Vektorthemen als Raster.
 
@@ -54,7 +56,7 @@ Kernfunktionen
 * Styling und Anpassungen
 
   * Leistungsstarkes Styling von Objekten: Punkte, Linien, Polygone sowie Icons.
-  * Anpassung der Bedienelemente via CSS3.
+  * Anpassung der Bedienelemente via CSS.
 
 * Overlays
 
@@ -70,6 +72,7 @@ Kernfunktionen
 * Weiteres
 
   * Unterstützung Mobiler Browser.
+  * Raster Umprojektion.
   * Leichtgewichtige Bibliothek. Erstellung angepasster Pakete zur Gewichtsreduzierung.
   * Kartenerstellung über verschiedene Technologien: Canvas, WebGL, DOM.
   * Raster Analyse (Veränderung Farbton/Farbsättigung).
@@ -85,7 +88,7 @@ Details
 
 **API Schnittstellen:** JavaScript
 
-**Support:** https://groups.google.com/forum/#!forum/ol3-dev
+**Support:** https://stackoverflow.com/questions/tagged/openlayers (Anwender) and https://groups.google.com/forum/#!forum/openlayers-dev (Entwickler)
 
 
 Quickstart

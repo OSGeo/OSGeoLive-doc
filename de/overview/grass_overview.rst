@@ -1,9 +1,11 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Markus Neteler
-:Version: osgeo-live8.5
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Copyright: 2011-2015 by The OSGeo Foundation
+:Translator: Otto Dassau
 
 .. image:: /images/project_logos/logo-GRASS.png
   :alt: project logo
@@ -63,7 +65,7 @@ Kernfunktionen
 --------------------------------------------------------------------------------
 
 * Suche eine Funktionalität und GRASS GIS bietet das `passende Modul <http://grass.osgeo.org/grass70/manuals/keywords.html>`_.
-* Entdecke die `Screenshot Gallerie <http://grass.osgeo.org/screenshots/>`_.
+* Entdecke die `Screenshot Galerie <http://grass.osgeo.org/screenshots/>`_.
 
 Details
 --------------------------------------------------------------------------------
@@ -72,7 +74,7 @@ Details
 
 **Lizenz:** GNU General Public License (GPL) version 2
 
-**Software Version:** |version-grass| 
+**Software Version:** |version-grass|
 
 **Unterstützte Plattformen:** GNU/Linux, Mac OSX, MS Windows
 

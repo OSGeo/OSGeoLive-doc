@@ -3,6 +3,7 @@
 :Reviewer: Angelos Tzotsos, OSGeo
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Translator: Astrid Emde
 
 .. image:: /images/project_logos/logo-GeoNetwork.png
   :alt: project logo
@@ -49,7 +50,7 @@ Implementierte Standards
 * Open Archives Initiatives (OAI-PMH)
 * OpenSearch-Geo
 * OAI-PMH
-* Metadaten standards:
+* Metadaten Standards:
 
  * ISO19115/ISO19119/ISO19139/ISO19110 und ISO Profiles
  * Dublin Core
@@ -72,5 +73,5 @@ Details
 
 Quickstart
 --------------------------------------------------------------------------------
-    
+
 * :doc:`Quickstart Dokumentation <../quickstart/geonetwork_quickstart>`

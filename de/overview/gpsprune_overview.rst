@@ -1,6 +1,7 @@
 :Author: activityworkshop
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live5.5
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: /images/project_logos/logo-gpsprune.png
@@ -35,7 +36,7 @@ Kernfunktionen
   :align: right
 
 * Daten aus Textdateien, Gpx-, Kml- oder Kmzdateien laden, oder aus einem GPS-Gerät
-* Zeigt die Daten mit zoombaren Karten von OpenStreetMap oder anderen Servern (z.B. OpenCycleMap, OpenPisteMap)
+* Zeigt die Daten mit zoombaren Karten von OpenStreetMap oder anderen Servern (z.B. OpenCycleMap, OpenPisteMap, Reit- und Wanderkarte etc)
 * Höhenprofil oder Geschwindigkeitsprofil Ansicht
 * Bearbeitungswerkzeug zum Erzeugen, Ändern, Löschen, Bereich umkehren und Track komprimieren
 * Drehbare 3D Ansicht der Daten, oder nach POV-Datei exportieren für 3D-Rendering
@@ -43,6 +44,7 @@ Kernfunktionen
 * Automatisches Korrelieren von Fotos und Audiodateien anhand von Zeitstempeln
 * Erzeugen von Diagrammen wie zum Beispiel Höhe gegen Distanz, oder Geschwindigkeit gegen Zeit
 * Entfernungen, Anstiege, Abfahrten, Zeitschätzungen und mehr
+* Einbindung von Quellen wie Wikipedia, gpsies und lokale Wettervorhersagen
 
 Details
 --------------------------------------------------------------------------------

@@ -66,8 +66,7 @@ Details
 
 **Webseite:** http://www.orfeo-toolbox.org/
 
-**Lizenz:** CeCILL (CeCILL kompatibel mit GPL und erweitert
-  für französisches Recht)
+**Lizenz:** Apache v2.0
 
 **Software Version:** |version-otb|
 
