@@ -1,6 +1,7 @@
 :Author: Hamish Bowman
 :Reviewer: Markus Neteler
-:Version: osgeo-live8.5
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Copyright: 2011-2015 by The OSGeo Foundation
 
@@ -16,9 +17,14 @@
   :align: right
   :target: http://www.osgeo.org
 
+
 ********************************************************************************
 GRASS GIS 7 Quickstart 
 ********************************************************************************
+
+GRASS GIS ist ein leistungsstarkes GIS über das räumliche Daten visualisiert, verwaltet, analysiert und bearbeitet werden können.
+
+.. contents:: Contents
 
 Ablauf
 ================================================================================
@@ -43,9 +49,9 @@ größer ziehen. Oder Sie können das gesamte Fenster weiter nach oben schieben,
 in dem Sie die Alt-Taste gedrückt halten und dann das Fenster mit der 
 linken Maustaste verschieben.
 
-Regardless of the dataset you choose
-it is recommended that you always use a `user` mapset for your everyday work
-instead of the special PERMANENT Mapset, das die Projektions-Metadaten und Basiskartographie enthält.
+.. Regardless of the dataset you choose it is recommended that you always
+ use a `user` mapset for your everyday work instead of the special PERMANENT
+ mapset which contains the projection metadata and base cartography.
 
 Karten anzeigen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -154,12 +160,7 @@ verändert haben sollten, klicken Sie mit der rechten Maustaste auf den Layernam
 wählen Sie :menuselection:`Set computational region from selected map(s)`
 aus dem Kontextmenü um die volle Ausdehnung für die Berechnung der Wassereinzugsgebiete zu erhalten.
 
-.. note:: Die wxGUI Karte Anzeige und Zoom ist unabhängig 
-    und hat keinen Effekt auf die Berechnung. Prüfen Sie die Berechnungsregion über 
-    :menuselection:`Settings --> Region --> Display Region`; 
-    dies ist äußerst wichtig für jede Raster Grid Operation.
-    Raster Karten mit verschiedenen Begrenzungen und Auflösungen werden  
-    on-the-fly auf die Berechnungsregion angepasst.
+.. note:: Die wxGUI Karte Anzeige und Zoom ist unabhängig und hat keinen Effekt auf die Berechnung. Prüfen Sie die Berechnungsregion über :menuselection:`Settings --> Region --> Display Region`; dies ist äußerst wichtig für jede Raster Grid Operation. Raster Karten mit verschiedenen Begrenzungen und Auflösungen werden on-the-fly auf die Berechnungsregion angepasst.
 
 Wählen Sie nun im Menü `Raster` :menuselection:`Hydrologische Modellierung --> 
 Wassereinzugsgebiet Analyse`. Der ``r.watershed`` Dialog öffnet sich. 
@@ -211,6 +212,11 @@ Die Aufgaben haben nur einige Rasteranalysen vorgestellt. GRASS GIS bietet
 aber auch eine Vielzahl von Vektor Modulen, die genauso umfangreich 
 sind wie für die Rasteranalyse. GRASS bietet eine topologische 
 Vektorumgebung.
+
+.. image:: /images/screenshots/1024x768/grass-vectattrib.png
+  :scale: 50 %
+  :alt: screenshot
+  :align: right
 
 3D Visualisierung
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
