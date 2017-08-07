@@ -56,7 +56,7 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** ttps://www.locationtech.org/projects/technology.jts
+**Website:** https://www.locationtech.org/projects/technology.jts
 
 **Licence:** LGPL
 
