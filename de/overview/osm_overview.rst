@@ -1,7 +1,9 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live5.5
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons
+:Translator: Daniel Kastl
 
 .. image:: /images/project_logos/logo-osm.png
   :alt: Projekt Logo
@@ -33,9 +35,13 @@ Kernfunktionen
   :align: right
 
 * Global massively crowdsouced dataset
+
 * Es stehen einige Editoren zur Auswahl
+
 * Es gibt einige Werkzeuge zur Visualisierung (inklusive benutzerdefiniert sowie Online)
+
 * Freie Nutzung
+
 * Weit verbreitete Integration in Geo-Anwendungen
 
 Details
@@ -58,9 +64,9 @@ Details
 
 **Software Versionen:**
 
-* JOSM: Latest stable snapshot (svn r10526)
+* JOSM: Latest stable snapshot (svn r11427)
 
-* Merkaartor: 1.18.2
+* Merkaartor: 0.18.2
 
 * Osmosis: 0.44.1
 

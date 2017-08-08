@@ -98,9 +98,9 @@ Navigation und Karten
 
 |nologo| :doc:`ideditor_overview` - [:doc:`QuickStart <../quickstart/ideditor_quickstart>`] - OpenStreetMap Web Editor
 
-|nologo| :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Darstellung von Seekarten und GPS
+|nologo| :doc:`josm_overview` - [:doc:`QuickStart <../quickstart/josm_quickstart>`] - OpenStreetMap Desktop Editor
 
-|nologo| :doc:`osm_overview` - [:doc:`QuickStart <../quickstart/osm_quickstart>`] - Open Street Map Werkzeuge
+|nologo| :doc:`opencpn_overview` - [:doc:`QuickStart <../quickstart/opencpn_quickstart>`] - Darstellung von Seekarten und GPS
 
 Spezielle GIS Software
 --------------------------------------------------------------------------------
@@ -145,8 +145,6 @@ GIS Bibliotheken
 
 |osgeoproject| :doc:`gdal_overview`  - [:doc:`QuickStart <../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools
 
-|nologo| :doc:`jts_overview` - Java Topology Suite
-
 |osgeoproject| :doc:`geotools_overview` - Java GIS Toolkit 
 
 |osgeoproject| :doc:`geos_overview` - C/C++ Spatial Library 
@@ -155,8 +153,10 @@ GIS Bibliotheken
 
 |nologo| :doc:`liblas_overview` - [:doc:`QuickStart <../quickstart/liblas_quickstart>`] - LiDAR Data Access 
 
+|nologo| :doc:`jts_overview` - Java Topology Suite
 
-Weitere interessante Software (nicht direkt verfügbar)
+
+Verfügbar in älteren OSGeo-Live Versionen
 --------------------------------------------------------------------------------
 
 * :doc:`../prior_applications`

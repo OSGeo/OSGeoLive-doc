@@ -57,7 +57,7 @@ Unterstützte Standards
 Details
 --------------------------------------------------------------------------------
 
-**Webseite:** https://sourceforge.net/projects/jts-topo-suite/
+**Webseite:** https://www.locationtech.org/projects/technology.jts
 
 **Lizenz:** LGPL
 

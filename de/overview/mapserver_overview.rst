@@ -1,7 +1,9 @@
 :Author: Alan Boudreault, Steve Lime
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live5.5
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Translator: Astrid Emde
 
 .. image:: /images/project_logos/logo-mapserver-new.png
   :alt: project logo
@@ -88,7 +90,15 @@ Implementierte Standards
 
 * Unterstützung zahlreicher Open Geospatial Consortium (OGC) Standards
 
-  * :doc:`../standards/wms_overview` (Client/Server), :doc:`../standards/wfs_overview` (nicht-transaktional, Client/Server), WMC, :doc:`../standards/wcs_overview`, :doc:`../standards/fe_overview`, :doc:`../standards/sld_overview`, :doc:`../standards/gml_overview`, SOS, OM
+  * :doc:`../standards/wms_overview` (client/server)
+  * :doc:`../standards/wfs_overview` (non-transactional, client/server)
+  * WMC
+  * :doc:`../standards/wcs_overview`
+  * :doc:`../standards/fe_overview`
+  * :doc:`../standards/sld_overview`
+  * :doc:`../standards/gml_overview`
+  * SOS
+  * OM
 
 * INSPIRE View Service
 
@@ -100,7 +110,7 @@ Demo
 Dokumentation
 --------------------------------------------------------------------------------
 
-* `MapServer 6.4 Dokumentation <../../mapserver/doc/index.html>`_
+* `MapServer 7.0 Dokumentation (englisch) <../../../mapserver/doc/index.html>`_
 * `MapServer Dokumentation in deutscher Sprache <http://mapserver.org/de/>`_
 
 Details

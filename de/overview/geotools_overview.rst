@@ -1,9 +1,9 @@
 :Author: Jody Garnett
 :Reviewer: Cameron Shorter, Jirotech
-:Author: Astrid Emde
-:Author: Frank Gasdorf
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Translator: Astrid Emde
+:Translator: Frank Gasdorf
 
 .. image:: /images/project_logos/logo-GeoTools.png
   :alt: project logo
@@ -111,12 +111,12 @@ Unterstützung für eine breite Palette der Open Geospatial Consortium (OGC) Sta
 
 Details
 --------------------------------------------------------------------------------
- 
+
 **Webseite:** http://geotools.org/
 
 **Lizenz:** LGPL
 
-**Unterstütze Plattformen:** Alle Java 6 Plattformen
+**Unterstütze Plattformen:** plattformübergreifend Java 6,7,8
 
 **API Schnittstellen:** Java
 

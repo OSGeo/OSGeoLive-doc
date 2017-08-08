@@ -1,7 +1,9 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live8.5
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Translator: Astrid Emde, OSGeo
 
 .. image:: /images/project_logos/logo-QGIS.png
   :alt: project logo

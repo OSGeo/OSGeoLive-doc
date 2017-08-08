@@ -68,7 +68,7 @@ Details
 
 **Unterstützte Plattformen:** Windows, Linux, Mac
 
-**API Schnittstellen:**C, C++, Python, Java, C#, Ruby, VB6 and Perl
+**API Schnittstellen:** C, C++, Python, Java, C#, Ruby, VB6 and Perl
 
 **Support:** http://lists.osgeo.org/mailman/listinfo/gdal-dev, http://www.osgeo.org/search_profile
 

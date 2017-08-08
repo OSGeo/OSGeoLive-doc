@@ -1,8 +1,8 @@
 :Author: Barbara Angerer, Angelos Tzotsos
 :Reviewer: Cameron Shorter, Jirotech
-:Translator: Astrid Emde
-:Version: osgeo-live9.5
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Translator: Astrid Emde
 
 .. image:: /images/project_logos/logo-geonode.png
   :alt: project logo
@@ -14,6 +14,7 @@
     :alt: OSGeo Project
     :align: right
     :target: http://www.osgeo.org
+
 
 GeoNode
 ================================================================================

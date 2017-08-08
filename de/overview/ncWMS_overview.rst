@@ -1,4 +1,4 @@
-:Author: Guy Griffiths (guy.griffiths@reading.ac.uk)
+:Author: Guy Griffiths (guy.griffiths@the-iea.org)
 :Reviewer: Cameron Shorter
 :Translator: Astrid Emde
 :Version: osgeo-live7.0
@@ -7,7 +7,7 @@
 .. image:: /images/project_logos/logo-ncWMS.png
  :alt: Projekt Logo
  :align: right
- :target: http://www.resc.rdg.ac.uk/trac/ncWMS/
+ :target: https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/
 
 ncWMS
 ================================================================================
@@ -36,7 +36,7 @@ Kernfunktionen
 * Automatische Erkennung von Vektor-Komponenten und Generierung von Vektorpfeilen
 
 * Unterstützung zahlreicher Projektionen (für Quell- und Zieldaten)
- 
+
 * Unterstützung von Animationen
 
 * Integrierter Browser Client
@@ -47,7 +47,6 @@ Kernfunktionen
 
 * Ausgabeformate: PNG, JPEG, animiertes GIF, KML
 
-
 Unterstützte Standards
 --------------------------------------------------------------------------------
 
@@ -55,25 +54,23 @@ Unterstützte Standards
 
 * :doc:`../standards/kml_overview`
 
-
 Details
 -----------------------------------------------------------
 
-**Webseite:** http://www.resc.rdg.ac.uk/trac/ncWMS/
+**Webseite:** https://github.com/Reading-eScience-Centre/ncwms
 
-**Lizenz:** `Modified BSD License <http://www.resc.rdg.ac.uk/trac/ncWMS/wiki/LicencePage>`_
+**Lizenz:** `Modified BSD License <https://github.com/Reading-eScience-Centre/ncwms/releases/download/ncwms-2.2.8/licence.txt>`_
 
 **Software Version:** |version-ncWMS|
 
-**Unterstützte Plattformen:** Alle Java 1.5 Plattformen: Windows, Linux, Mac
+**Unterstützte Plattformen:** Alle Java 1.8 Plattformen: Windows, Linux, Mac
 
 **API Schnittstellen:** Java; WMS
 
-**Support:** http://www.resc.rdg.ac.uk/trac/ncWMS/wiki/MailingLists
+**Support:** https://github.com/Reading-eScience-Centre/ncwms/issues
 
 
 Quickstart
 ----------
 
 * :doc:`Quickstart documentation <../quickstart/ncWMS_quickstart>`
-

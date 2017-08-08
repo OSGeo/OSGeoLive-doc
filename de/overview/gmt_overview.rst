@@ -3,11 +3,12 @@
 :Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
+:Translator: Daniel Kastl
 
 .. image:: /images/project_logos/logo-GMT.png
   :alt: Projekt Logo
   :align: right
-  :target: http://gmt.soest.hawaii.edu
+  :target: https://gmt.soest.hawaii.edu
 
 
 GMT
@@ -17,7 +18,7 @@ Die Generic Mapping Tools
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GMT ist eine Sammlung von Werkzeugen, die es Benutzern erlauben, gezielt (x, y) 
-und (x, y, z) Datensätze zu manipulieren (einschließlich Filterung, Trend-Fitting, 
+und (x,y,z) Datensätze zu manipulieren (einschließlich Filterung, Trend-Fitting, 
 Rasterung, Projektion, etc.) und Encapsulated PostScript Datei (EPS) 
 Illustrationen zu produzieren, von einfachen xy-Plots über Reliefkarten bis hin 
 zu künstlich beleuchteten Oberflächen und 3D Perspektive in Schwarz und Weiß, 

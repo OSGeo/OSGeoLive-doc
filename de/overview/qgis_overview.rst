@@ -1,8 +1,10 @@
 :Author: OSGeo-Live
 :Reviewer: Cameron Shorter, Jirotech
-:Reviewer: Angelos Tzotsos
-:Version: osgeo-live9.5
+:Reviewer: Angelos Tzotsos, OSGeo
+:Reviewer: Nicolas Roelandt
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Translator: Otto Dassau
 
 .. image:: /images/project_logos/logo-QGIS.png
   :alt: project logo
@@ -87,9 +89,9 @@ Details
 
 **Unterstützte Plattformen:** Windows, Linux, Mac, Unix
 
-**Community Support:** http://qgis.org/de/gemeinschaft.html
+**Community Support:** http://qgis.org/en/site/forusers/support.html
 
-**Kommerzieller Support:** http://qgis.org/de/kommerzieller-support.html
+**Kommerzieller Support:** http://qgis.org/en/site/forusers/commercial_support.html
 
 Quickstart
 --------------------------------------------------------------------------------

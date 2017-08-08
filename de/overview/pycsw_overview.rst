@@ -1,8 +1,10 @@
 :Author: OSGeo-Live
-:Author: Tom Kralidis, Angelos Tzotsos
+:Author: Tom Kralidis
+:Author: Angelos Tzotsos, OSGeo
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live9.5
-:License: Creative Commons
+:Version: osgeo-live11.0
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
+:Translator: Astrid Emde
 
 .. image:: /images/project_logos/logo-pycsw.png
   :alt: project logo
@@ -61,11 +63,12 @@ Implementierte Standards
 
 OGC Standards:
 
-* CSW 	2.0.2
-* Filter 	1.1.0
-* OWS Common 	1.0.0
+* CSW 	2.0.2, 3.0.0
+* Filter 	1.1.0, 2.0.0
+* OWS Common 	1.0.0, 2.0.0
 * GML 	3.1.1
 * OGC SFSQL 	1.2.1
+* OGC OpenSearch  1.0
 
 Metadata Standards:
 
@@ -76,7 +79,9 @@ Metadata Standards:
 * ISO 19119 	2005
 * NASA DIF 	9.7
 * FGDC CSDGM 	1998
+* GM03  2.1
 * SRU 	1.1
+* OAI-PMH   2.0
 * A9 OpenSearch 	1.1
 
 Details
@@ -96,7 +101,7 @@ Details
 
 .. _`Python`: http://www.python.org/
 .. _`MIT`: http://pycsw.org/docs/license.html#license
-.. _`OGC Compliant`: http://www.opengeospatial.org/resource/products/details/?pid=1104
+.. _`OGC Compliant`: http://www.opengeospatial.org/resource/products/details/?pid=1374
 .. _`OGC Reference Implementation`: http://demo.pycsw.org/
 
 Quickstart

@@ -1,3 +1,4 @@
+:Author: Dave Register
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live5.5
@@ -19,6 +20,7 @@ OpenCPN ist eine freie Navigationssoftware für die Anzeige von Schiffskursen al
 OpenCPN informiert den Nutzer durch akkurate Seekarten über die derzeitige Position des Schiffes, desen Geschwindigkeit und Kurs. Ebenso wreden Informationen zu Gezeiten und aktuelle Wettervorhersagen bereitgestellt. Über eine einfache Funkverbindung können weitere Informationen zu Positinen und Kursen anderer Schiffe empfangen und dargestellt werden.
 
 Bewegt sich das Schiff, werden neue Seekarten geladen und dargestellt. Hierbei kann eine benutzerspezifische Auflösung und der Detailgrad eingestellt werden. Darüber hinaus kann der Benutzer Routen eingeben und Wegpunkte setzen. Diese ermöglichen es einem externen Autopiloten präzise der Route zu folgen.
+
 
 Kernfunktionen
 --------------------------------------------------------------------------------

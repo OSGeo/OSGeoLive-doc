@@ -1,7 +1,8 @@
 :Author: OSGeo-Live
 :Author: Bob Basques
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live8.5
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 .. image:: /images/project_logos/logo-geomoose.png
@@ -22,14 +23,14 @@ GeoMoose
 Web GIS Portal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GeoMOOSE ist ein Browser basiertes Mapping Framework zur Anzeige von verteilten räumlichen Daten. Es eignet sich vor allem zur Verwaltung von räumlichen und nicht-räumlichen Daten innerhalb der Landes-, Stadt- und Kommunalverwaltung. Es erweitert die Funktionalität von MapServer und OpenLayers um vorgefertigte Dienste bereit zu stellen wie hierachische Anfragen zur Anzeige, die Organisation von vielen Layern, Selektionen und die Suche in Datensätzen.   
+GeoMoose ist ein Browser basiertes Mapping Framework zur Anzeige von verteilten räumlichen Daten. Es eignet sich vor allem zur Verwaltung von räumlichen und nicht-räumlichen Daten innerhalb der Landes-, Stadt- und Kommunalverwaltung. Es erweitert die Funktionalität von MapServer und OpenLayers um vorgefertigte Dienste bereit zu stellen wie hierachische Anfragen zur Anzeige, die Organisation von vielen Layern, Selektionen und die Suche in Datensätzen.   
 
-GeoMOOSE ist schnell, gleichzeitige Anfragen mit hunderten von Layern und/oder Diensten werden performant bearbeitet.
+GeoMoose ist schnell, gleichzeitige Anfragen mit hunderten von Layern und/oder Diensten werden performant bearbeitet.
 Die Daten können von unterschiedlichen Verwaltern mit unterschiedliche Werkzeugen und unterschiedlichen Plänen administriert werden, da jeder Kartenlayer über eigene Konfigurationsdateien für die Veröffentlichung, Symbolik, Vorlagen sowie Datenquellen  verfügt.
 
 Das Benutzerinterface ist leicht zu konfigurieren und zusätzliche Dienste können über eine modulare Architektur hinzugefügt werden.
 
-.. image:: /images/screenshots/1024x768/geomoose-2_6-screenshot001.png
+.. image:: /images/screenshots/1024x768/geomoose-2_9-screenshot001.png
   :alt: GeoMoose Screenshot
   :align: right
 

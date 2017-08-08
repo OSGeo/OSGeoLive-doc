@@ -1,9 +1,9 @@
 :Author: OSGeo-Live
 :Author: Javier Sanchez, GeoNaTec
 :Reviewer: Cameron Shorter, Jirotech
-:Translator: Astrid Emde
-:Version: osgeo-live6.5
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Translator: Astrid Emde
 
 .. image:: /images/project_logos/logo-josm.png
   :alt: project logo

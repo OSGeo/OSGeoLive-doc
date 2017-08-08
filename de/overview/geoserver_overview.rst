@@ -1,8 +1,10 @@
 :Author: Ian Turton
 :Author: Frank Gasdorf
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live7.0
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Translator: Astrid Emde
 
 .. image:: /images/project_logos/logo-GeoServer.png
   :alt: project logo
@@ -19,13 +21,15 @@ GeoServer
 ================================================================================
 
 Internet Dienste
-~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GeoServer ist ein WebServer, der es ermöglicht Karten und Daten verschiedener Formate Standardanwendungen wie Web Browsern und Desktop GIS Anwendungen bereit zu stellen. Die Daten werden über Eingabemasken, die sich an den Standards (WMS, WFS, WCS, WPS, Tile Caching und mehr) orientieren, veröffentlicht. GeoServer verfügt über eine browserbasierte Administration und verbindet so im Hintergrund viele Datenquellen.
+GeoServer ist ein WebServer, der es ermöglicht Karten und Daten verschiedener Formate Standardanwendungen wie Web Browsern und Desktop GIS Anwendungen bereit zu stellen. 
+Die Daten werden über Eingabemasken, die sich an den Standards (WMS, WFS, WCS, WPS, Tile Caching und mehr) orientieren, veröffentlicht. 
+GeoServer verfügt über eine browserbasierte Administration und verbindet so im Hintergrund viele Datenquellen.
 
 .. image:: /images/screenshots/800x600/geoserver.png
   :scale: 60 %
-  :alt: GeoServer Screenshots
+  :alt: Screen Shot of GeoServer
   :align: right
 
 Kernfunktionen
@@ -56,7 +60,7 @@ Kernfunktionen
     `GeoWebCache <http://geowebcache.org/>`_ wurde in GeoServer integriert. GeoWebCache kachelt und legt eine Zwischenspeicher von Kartenbilder von einer Vielzahl von Quellen beispielweise WMS an. Es wurden verschiedene Service Interfaces geschaffen (WMS-C, WMTS, TMS, Google Maps KML, Virtual Earth), um die Bildauslieferung zu beschleunigen und zu optimieren. Kacheln können ebenso wieder zusammengefügt werden, um mit gängigen WMS Clients zu arbeiten.
 
 **Web Processing Service (WPS)**
-    Räumliche Algorithmen, inklusive der :doc:`JTS <jts_overview>` Algorithme, können über GeoServer's :doc:`WPS <../standards/wps_overview>` Interface aufgerufen werden. Dies beinhaltet das Verketten von Prozessen und verwendet Renderingtransformationen, um eine beeindruckende Darstellungdurch das WMS Interface zu erzeugen.
+    Räumliche Algorithmen, inklusive der :doc:`JTS <jts_overview>` Algorithmen, können über GeoServer's :doc:`WPS <../standards/wps_overview>` Interface aufgerufen werden. Dies beinhaltet das Verketten von Prozessen und verwendet Renderingtransformationen, um eine beeindruckende Darstellung durch das WMS Interface zu erzeugen.
 
 Implementierte Standards
 --------------------------------------------------------------------------------
@@ -65,13 +69,13 @@ Implementierte Standards
 
   * :doc:`../standards/wms_overview`
   * Web Map Tile Service (WMTS)
-  * :doc:`../standards/wfs_overview`, WFS-T (transaktional)
+  * :doc:`../standards/wfs_overview`, WFS-T (transactional)
   * :doc:`../standards/wcs_overview`
   * :doc:`../standards/wps_overview`
   * :doc:`../standards/fe_overview`
   * :doc:`../standards/sld_overview`
   * :doc:`../standards/gml_overview`
-  * :doc:`../standards/kml_overview` 
+  * :doc:`../standards/kml_overview`
 
 Details
 --------------------------------------------------------------------------------
@@ -82,7 +86,7 @@ Details
 
 **Software Version:** |version-geoserver|
 
-**Unterstützte Plattformen:** Alle Java 6 Plattformen: - Windows, Linux, Mac
+**Unterstützte Plattformen:** Java 8 (Oracle JDK and OpenJDK) unter Windows, Linux, Mac
 
 **API Schnittstellen:** WMS, WFS, WCS, REST
 

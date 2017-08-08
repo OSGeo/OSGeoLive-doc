@@ -1,8 +1,10 @@
 :Author: OSGeo-Live
 :Author: Barry Rowlingson
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live7.9
+:Reviewer: Angelos Tzotsos, OSGeo
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+:Translator: Daniel Kastl
 
 .. image:: /images/project_logos/logo-PostGIS.png
   :alt: Projekt Logo
