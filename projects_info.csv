@@ -52,6 +52,7 @@ Y  |  osm  |  josm (11427)  |  Y  |  Y  |  Navigation and Maps  |    |  OpenStre
 Y  |  osm_dataset  |  NA  |  N  |  Y  |  NA  |    |  Sample extract from OpenStreetMap  |  
 Y  |  ossim  |  1.8.20-3  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  ossim
 Y  |  otb  |  6.0.0  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  otb
+# TODO, version change pending on pgRouting
 Y  |  pgrouting  |  2.4.1  |  Y  |  Y  |  Data Stores  |    |  Routing for PostGIS  |  pgrouting
 Y  |  postgis  |  2.3.2  |  Y  |  Y  |  Data Stores  |    |  Spatial Database  |  postgis
 Y  |  proj4  |  4.9.2  |  Y  |  Y  |  Coordinate Reference System Libraries  |    |    |  proj4
