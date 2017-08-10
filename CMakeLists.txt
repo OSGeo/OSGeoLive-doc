@@ -261,13 +261,13 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
         message(STATUS "${wantDoc} \t${project_name} \t${project_version} \twant_quickstart:${want_quickstart} \twant_overview:${want_overview}")
     endif()
 
-    string(CONCAT  OSGeoLiveDoc_PROJECTS_VERSIONS ${OSGeoLiveDoc_PROJECTS_VERSIONS} ".. |version-${project_name}| replace:: ${project_version}\n")
     if (NOT "${wantDoc}" MATCHES "Y")
         if (OSGeoLiveDoc_VERBOSE_DEBUG)
             message(STATUS "${project_name} is not for documentation")
         endif()
         continue()
     endif()
+string(CONCAT  OSGeoLiveDoc_PROJECTS_VERSIONS ${OSGeoLiveDoc_PROJECTS_VERSIONS} ".. |version-${project_name}| replace:: ${project_version}\n")
 
 
     if ("${want_quickstart}" MATCHES "Y")
