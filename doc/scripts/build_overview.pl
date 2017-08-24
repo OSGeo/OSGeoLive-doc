@@ -64,30 +64,42 @@ sub read_and_parse_configuration {
     
     # try to open the file or die
     open(IN, $file) || die "ERROR: Failed to open '$file'\n";
-
-    my $state = 0;
+    
+    
+    # Reads the file line by line and stores it in $line, 
+    # if empty, operation becomes true and while loop ends
     while (my $line = <IN>) {
+    
+        # if the lines is commented, it is ignored (or a message is print in debug mode)
         if ($line =~ /^#/) {
             print "found comment: $line\n" if $DEBUG;
             next;
         };
+        
         # Remove spaces from the line
         $line =~ s/\s*$//;
         my @values = split('\|', $line);
 
         #removes spaces of all elements
         s{^\s+|\s+$}{}g foreach @values;
-
+        
+        # if the project is not subject to documentation, it is ignored
         if ($values[0] =~ "N") {
             print "Not for documentation: $line\n" if $DEBUG;
             next;
         }
+        
+        # push the value in right section
+        # put the $line in the bucket that has the name stored in $values[5]
         print "Section: '$values[5]' on line: $line\n" if $DEBUG;
         push @{$hash{$values[5]}}, $line;
-    }
-
+        
+    } # end of while loop
+    
+    # close the file
     close(IN);
-
+    
+    # return collected data in a hash data type
     return \%hash;
 }
 
