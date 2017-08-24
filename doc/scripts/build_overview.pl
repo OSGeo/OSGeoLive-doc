@@ -13,10 +13,6 @@ use vars qw/*name *dir *prune/;
 *dir    = *File::Find::dir;
 *prune  = *File::Find::prune;
 
-sub Usage {
-    die "Usage:\nFrom the cmake:
-    build_overview <old_version>";
-}
 
 my $DEBUG = "@OSGeoLiveDoc_DEBUG@";
 my $version = "@OSGeoLiveDoc_VERSION@";
