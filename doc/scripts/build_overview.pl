@@ -56,10 +56,13 @@ exit 0;
 
 # read and parse the .sig file and store the results in a hash
 sub read_and_parse_configuration {
+    # get the parameter and store it in the variable $file
     my $file = shift;
-
+    
+    #Initialise hash Hash.
     my %hash = ();
-
+    
+    # try to open the file or die
     open(IN, $file) || die "ERROR: Failed to open '$file'\n";
 
     my $state = 0;
