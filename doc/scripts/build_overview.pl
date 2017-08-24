@@ -62,11 +62,6 @@ sub read_and_parse_configuration {
 
     open(IN, $file) || die "ERROR: Failed to open '$file'\n";
 
-    # state:
-    # 0 - starting process
-    # 1 - processing types
-    # 2 - processing functions
-    # Other kinds of postgres objctes are not used in 2.x version of pgRouting
     my $state = 0;
     while (my $line = <IN>) {
         if ($line =~ /^#/) {
