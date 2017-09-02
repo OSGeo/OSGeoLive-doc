@@ -31,7 +31,7 @@ gvSIG 桌面系统
 * 支持二十余种语言
 * 支持 MS Windows、GNU/Linux、Mac OS X 平台
 
-.. image:: /images/screenshots/1024x768/gvsig_desktop.png
+.. image:: /images/screenshots/gvsig/gvsig_desktop.png
   :scale: 50 %
   :alt: screenshot
   :align: right

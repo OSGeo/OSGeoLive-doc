@@ -39,7 +39,7 @@ gvSIG ist bekannt für:
 * in über 20 Sprachen verfügbar (Spanisch, Englisch, Deutsch, Französisch, Italienisch,...)
 * verfügbar für Windows und Linux (es liegen nicht offizielle Mac OS X Versionen vor).
 
-.. image:: /images/screenshots/1024x768/gvsig_desktop.png
+.. image:: /images/screenshots/gvsig/gvsig_desktop.png
   :scale: 50 %
   :alt: screenshot
   :align: right

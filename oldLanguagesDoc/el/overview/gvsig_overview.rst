@@ -33,7 +33,7 @@ gvSIG Desktop
   Ιταλικά,...) .
 * Είναι διαθέσιμο για Windows και Linux (υπάρχουν και ανεπίσημες πηγές για Mac OS X):
 
-.. image:: /images/screenshots/1024x768/gvsig_desktop.png
+.. image:: /images/screenshots/gvsig/gvsig_desktop.png
   :scale: 50 %
   :alt: screenshot
   :align: right

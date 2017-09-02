@@ -39,7 +39,7 @@ gvSIG is known for:
   Italian,...) .
 * being available for Windws, Linux, and Mac OS X platforms:
 
-.. image:: /images/screenshots/1024x768/gvsig_desktop.png
+.. image:: /images/screenshots/gvsig/gvsig_desktop.png
   :scale: 50 %
   :alt: screenshot
   :align: right

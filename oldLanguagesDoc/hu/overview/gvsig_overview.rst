@@ -40,7 +40,7 @@ A gvSIG ezekről ismert:
 * több mint 20 nyelven áll rendelkezésre (spanyol, angol, német, francia, olasz, ...).
 * használható Windowson és Linuxon (van egy nem hivatalos Mac OS X verzió is).
 
-.. image:: /images/screenshots/1024x768/gvsig_desktop.png
+.. image:: /images/screenshots/gvsig/gvsig_desktop.png
   :scale: 50 %
   :alt: képernyőkép
   :align: right

@@ -53,7 +53,7 @@ secondi per l'avvio.
    tipo di documento 'Vista' selezionato. 
 #. Cliccare sul pulsante [Nuovo] per creare una vista.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_001.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_001.png
    :scale: 55 
 
 Definire la proiezione di una vista
@@ -69,7 +69,7 @@ Aprire la finestra delle proprietà della vista
 #. Cliccare sul pulsante [...] accanto a 'Proiezione attuale'. 
    Questa azione apre la finestra **Nuovo CRS**.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_002.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_002.png
    :scale: 55 
 
 Definire un sistema di coordinate (CRS)
@@ -82,7 +82,7 @@ Definire un sistema di coordinate (CRS)
    sottostante la casella di testo di ricerca.
 #. Cliccare sul pulsante [Accetta] per tornare alla finestra **Proprietà della vista**.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_003.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_003.png
    :scale: 55 
 
 Salvare le proprietà della vista
@@ -91,7 +91,7 @@ Salvare le proprietà della vista
 #. Si noti che ora il codice EPSG è 4326 e le unità di mappa sono espresse in gradi.
 #. Cliccare sul pulsante [Accetta] per tornare alla finestra **Gestore di progetto**.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_004.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_004.png
    :scale: 55 
 
 Aprire la vista
@@ -108,7 +108,7 @@ Aprire la vista
    vettoriali e raster.
 #. Selezionare l'icona 'Ripristina' per massimizzare l'area occupata dalla vista.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_005.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_005.png
    :scale: 55 
 
 Aggiungere layer vettoriali e raster nella vista
@@ -124,7 +124,7 @@ Aprire la finestra Aggiungi layer
    finestra di dialogo **Apri** per l'apertura di file.
 #. Esplorare la cartella ``/usr/local/share/data/natural_earth2/``.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_006.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_006.png
    :scale: 55 
 
 Selezionare un file raster
@@ -136,7 +136,7 @@ Selezionare un file raster
 #. Selezionare il file ``HYP_50M_SR_W.tif``.
 #. Cliccare sul pulsante [Apri] per ritornare alla finestra **Aggiungi layer**.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_007.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_007.png
    :scale: 55 
 
 Selezionare un file vettoriale
@@ -156,7 +156,7 @@ Selezionare un file vettoriale
 #. Cliccare sul pulsante [Accetta] nella finestra **Aggiungi layer** per ritornare 
    alla vista.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_008.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_008.png
    :scale: 55 
 
 Strumenti di base di navigazione della vista
@@ -177,7 +177,7 @@ delle preferenze dell'utente.
    trascinare l'angolo in basso a destra fino a comprendere l'area da selezionare.
    Rilasciare il tasto sinistro del mouse una volta definita l'area di interesse. 
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_009.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_009.png
    :scale: 55 
 
 Navigazione nella vista
@@ -192,7 +192,7 @@ di selezione.
    attivi nella barra degli strumenti in modo da mostrare la città di Vittoria 
    al centro della vista. 
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_010.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_010.png
    :scale: 55 
 
 Cambiare la modalità di rappresentazione dei layer nella vista
@@ -206,7 +206,7 @@ Rendere un poligono trasparente
 #. Selezionare l'opzione *Proprietà* dal menù contestuale.
 #. Apparirà la finestra **Proprietà del layer**.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_011.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_011.png
    :scale: 55 
 
 Cambiare la simbologia di un layer vettoriale
@@ -219,7 +219,7 @@ Cambiare la simbologia di un layer vettoriale
    trasparenti.
 #. Cliccare sul pulsante [Accetta] per ritornare alla finestra **Proprietà del layer**.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_012.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_012.png
    :scale: 55 
 
 Cambiare l'etichettatura di un layer vettoriale
@@ -229,7 +229,7 @@ Cambiare l'etichettatura di un layer vettoriale
 #. Cambiare il *Campo da etichettare* con quello da mostrare nella vista, poi 
    cliccare sul pulsante [Accetta].
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_013.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_013.png
    :scale: 55 
 
 Il risultato
@@ -240,7 +240,7 @@ e un altro di poligoni sovrapposti ad un layer raster. E' facile utilizzare una
 foto aerea o un modello digitale del terreno (DTM) come sfondo ai dati vettoriali 
 o per mostrare altri dati vettoriali memorizzati in altro formato.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_014.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_014.png
    :scale: 55 
 
 Esercizio - cambiare la simbologia e l'etichettatura dei layer di punti e di linee
@@ -250,7 +250,7 @@ Seguendo i passaggi precedenti, cambiare la simbologia, il colore e l'etichettat
 dei fiumi e delle città in modo da ottenere un risultato simile a quello della 
 seguente schermata.  
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_015.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_015.png
    :scale: 55 
 
 Semplice analisi - selezione delle città in una regione
@@ -265,7 +265,7 @@ Selezionare la regione
 #. Cliccare sul poligono che rappresenta lo Stato di Vittoria. Il poligono 
    diventerà di colore giallo o un altro in funzione delle proprie preferenze utente.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_016.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_016.png
    :scale: 55 
 
 Selezionare le città contenute nella regione
@@ -281,7 +281,7 @@ Selezionare le città contenute nella regione
 #. Cliccare sul pulsante [Cancella] nella finestra **Selezione con layer** per 
    ritornare alla vista.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_017.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_017.png
    :scale: 55 
 
 Annullare la selezione del poligono in modo da vedere il risultato
@@ -293,7 +293,7 @@ Annullare la selezione del poligono in modo da vedere il risultato
 #. Si osserverà che solo le città contenute nello stato di vittoria sono state 
    selezionate.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_018.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_018.png
    :scale: 55 
 
 Esportare le città selezionate in un nuovo shapefile
@@ -313,7 +313,7 @@ Esportare le città selezionate in un nuovo shapefile
 #. Apparirà la finestra **Aggiungi layer**. Cliccare sul pulsante [Si] per 
    aggiungere il nuovo shapefile alla ToC.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_019.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_019.png
    :scale: 55 
 
 Mostrare solo le città contenute in una regione
@@ -327,7 +327,7 @@ Mostrare solo le città contenute in una regione
 #. Cliccare sull'icona 'Chiudi' per tornare al **Gestore di progetto** in modo 
    da poter creare una mappa con questa vista.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_020.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_020.png
    :scale: 55 
    
 Come creare una mappa
@@ -346,7 +346,7 @@ Creare una nuova mappa e aprirla
    ed è utilizzata per agganciare gli oggetti durante la composizione di una mappa.
 #. Cliccare sull'icona 'Ingrandisci' in modo che la mappa occupi l'intero schermo. 
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_021.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_021.png
    :scale: 55 
 
 Inserire una vista con griglia/reticolato geografico
@@ -372,7 +372,7 @@ Inserire una vista con griglia/reticolato geografico
 #. Cliccare sul pulsante [Accetta] per ritornare alla finestra **Proprietà della 
    griglia**, poi cliccare sul pulsante [Accetta] per uscire e ritornare alla mappa.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_022.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_022.png
    :scale: 55 
 
 Cos'altro è possibile fare con una mappa?
@@ -390,7 +390,7 @@ Cos'altro è possibile fare con una mappa?
    utilizzarle in altri lavori.
 #. Cliccare sull'icona 'Chiudi' per tornare al **Gestore di progetto**.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_023.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_023.png
    :scale: 55 
 
 Salvare il progetto o uscire da gvSIG
@@ -400,7 +400,7 @@ Salvare il progetto o uscire da gvSIG
    l'opzione di menù ``File > Salva come...``.
 #. E' possibile chiudere i progetti usando l'opzione di menù ``File > Esci``.
 
-.. image:: /images/screenshots/1024x768/gvsig_qs_024.png
+.. image:: /images/screenshots/gvsig/gvsig_qs_024.png
    :scale: 55 
 
 Risorse utili

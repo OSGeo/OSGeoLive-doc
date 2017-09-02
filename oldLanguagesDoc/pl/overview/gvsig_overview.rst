@@ -43,7 +43,7 @@ gvSIG jest znany z:
   niemieckim, francuskim, włoskim, ...).
 * bycia dostępnym dla platform Windws, Linux (sa również nieoficjalne wydania na Mac OS X).
 
-.. image:: /images/screenshots/1024x768/gvsig_desktop.png
+.. image:: /images/screenshots/gvsig/gvsig_desktop.png
   :scale: 50 %
   :alt: screenshot
   :align: right
