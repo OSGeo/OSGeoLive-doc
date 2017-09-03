@@ -24,7 +24,7 @@ Daten-Managementwerkzeug
 
 istSOS ist ein Managementwerkzeug für Sensordaten, das das Sammeln, Pflegen und Monitoren von Beobachtungen mit Hilfe der Standards des Open Geospatial Consortium (OGC) :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` ermöglicht.
 
-.. image:: /images/screenshots/1024x768/screenshot_istsos.png
+.. image:: /images/screenshots/istsos/screenshot_istsos.png
   :scale: 60 %
   :alt: Datenviewer
   :align: right

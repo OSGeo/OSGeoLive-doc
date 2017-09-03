@@ -27,7 +27,7 @@ Einige Anwendungen wurden ausgewählt: JOSM, Merkaartor, Osmosis, Osm2pgsql sowi
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/1024x768/osm-screenshot.jpg
+.. image:: /images/screenshots/osm_dataset/osm-screenshot.jpg
   :scale: 50 %
   :alt: Bildschirmfoto
   :align: right

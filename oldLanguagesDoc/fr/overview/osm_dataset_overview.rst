@@ -23,7 +23,7 @@ Le coeur du projet est la donnée sous-jacente qui est ouverte pour éditer, voi
 
 La distribution OSGeo-Live inclut un extrait des données de l'échelle d'une ville qui est utilisée pour les exemples par certaines des applications.
 
-.. image:: /images/screenshots/1024x768/osm-screenshot.jpg 
+.. image:: /images/screenshots/osm_dataset/osm-screenshot.jpg 
   :scale: 55 %
   :alt: Capture d'écran OSM
   :align: right

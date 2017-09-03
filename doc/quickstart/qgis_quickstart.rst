@@ -352,7 +352,7 @@ Importing OpenStreetMap data
    highways. You can repeat this process with new layers to render different
    road types with different widths and styles.
 
-   .. image:: /images/screenshots/1024x768/QGIS_spatialite_add_layer.png
+   .. image:: /images/screenshots/qgis/QGIS_spatialite_add_layer.png
      :scale: 50 %
      :alt:  The OpenStreetMap add layer
 

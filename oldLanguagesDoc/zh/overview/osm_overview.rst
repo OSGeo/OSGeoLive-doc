@@ -23,7 +23,7 @@ Open Street Map 工具组
 核心功能
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/1024x768/osm-screenshot.jpg
+.. image:: /images/screenshots/osm_dataset/osm-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

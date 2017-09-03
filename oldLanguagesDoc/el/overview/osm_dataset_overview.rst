@@ -24,7 +24,7 @@ OpenStreetMap
 
 Η διανομή OSGeo-Live περιλαμβάνει δεδομένα που έχουν εξαχθεί από το OSM για την κάλυψη της έκτασης περίπου μιας πόλης, τα οποία χρησιμοποιούνται σαν παράδειγμα σε κάποια λογισμικά που περιλαμβάνονται στη διανομή.
 
-.. image:: /images/screenshots/1024x768/osm-screenshot.jpg 
+.. image:: /images/screenshots/osm_dataset/osm-screenshot.jpg 
   :scale: 55 %
   :alt: OSM screenshot
   :align: right

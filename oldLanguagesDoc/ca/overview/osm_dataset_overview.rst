@@ -32,7 +32,7 @@ Fonamentalment, OSM s'enfoca en les dades i els mapes resultants són simplement
 La distribució OSGeo-Live inclou un extracte de les dades de OSM a nivell de ciutats, 
 que s'utilitza en els exemples d'altres aplicacions.
 
-.. image:: /images/screenshots/1024x768/osm-screenshot.jpg 
+.. image:: /images/screenshots/osm_dataset/osm-screenshot.jpg 
   :scale: 55 %
   :alt: OSM screenshot
   :align: right
