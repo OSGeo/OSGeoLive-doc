@@ -172,7 +172,7 @@ Aquí carregarem dos shapefiles: els límits de països i les localitats poblade
 
 Això dibuixa un mapa del Món simple:
 
-.. image:: /images/projects/r/r_plot1.png
+.. image:: /images/projects/R/r_plot1.png
 
 Quan unes dades OGR es llegeixen des d'R, s'obté un objecte que es comporta com una ``data frame`` en molts sentits. Podem fer servir el camp ``ADMIN`` per a agafar un subconjunt de les dades del Món i quedar-nos només amb el Regne Unit:
 
@@ -181,7 +181,7 @@ Quan unes dades OGR es llegeixen des d'R, s'obté un objecte que es comporta com
 	> uk = countries[countries$ADMIN=="United Kingdom",]
 	> plot(uk); axis(1); axis(2)
 
-.. image:: /images/projects/r/r_plot2.png
+.. image:: /images/projects/R/r_plot2.png
 
 Aquest mapa semblarà una mica aixafat a qualsevol persona que visqui, ja que estem més familiaritzats amb sistemes de coordenades centrats a la nostra latitud. En aquests moments, l'objecte no té un sistema de coordenades assignat. Podem comprovar-ho amb aquesta i altres funcions:
 
@@ -220,7 +220,7 @@ Afegim aquests punts al mapa base, escalant-ne la mida segons l'arrel quadrada e
 
 i la imatge final apareix:
 
-.. image:: /images/projects/r/r_plot3.png
+.. image:: /images/projects/R/r_plot3.png
 
 Vinyetes
 ================================================================================

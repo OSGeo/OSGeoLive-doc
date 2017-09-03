@@ -41,7 +41,7 @@ az előd S és S-Plus kódok és a modern S kereskedelmi verziója között, TIB
 Spotfire S+. Ez lehetővé teszi, hogy S kód fusson R-ben nagyobb kód módosítások
 nélkül.
 
-.. image:: /images/projects/r/r-screenshot.png
+.. image:: /images/projects/R/r-screenshot.png
   :scale: 50 %
   :alt: projekt logo
   :align: right

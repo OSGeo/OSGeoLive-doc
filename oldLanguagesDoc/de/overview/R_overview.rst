@@ -22,7 +22,7 @@ Mit R wird hauptsächlich auf der Kommandozeile gearbeitet. Dies bietet eine gro
 
 R ist eine Implemetierung der S Programmiersprache und es besteht eine signifikante Kompatibilität zwischen R und dem älteren S und S-Plus Code, sowie zwischen R und der modernen kommerziellen Versionen von S, TIBCO Spotfire S+. Diese Kompatibilität ermöglicht es, verschiedene Versionen von S Code als R ohne große Anpassungen laufen zu lassen.
 
-.. image:: /images/projects/r/r-screenshot.png
+.. image:: /images/projects/R/r-screenshot.png
   :scale: 50 %
   :alt: project logo
   :align: right
