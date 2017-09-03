@@ -59,25 +59,25 @@ Klicken Sie auf die easyvmx Schaltfläche und geben Sie folgende Einstellungen b
         - Hardisk Drives: Disk#1 Disk Size 20GB (mindestens) und aktivieren Sie SCSI
         - Sound and IO: alle Optionen deaktivieren
 
-.. image:: /images/screenshots/800x600/vmware_easyvmx_form.png
+.. image:: /images/screenshots/vmdk/vmware_easyvmx_form.png
         :scale: 75
 
 
-.. image:: /images/screenshots/800x600/vmware_easyvmx_disk.png
+.. image:: /images/screenshots/vmdk/vmware_easyvmx_disk.png
         :scale: 75
 
 Klicken Sie auf die Schaltfläche "Create Experimental Virtual Machine". Es wird eine formatierte **vmx** Datei von der Webseite bereitgestellt, die die oben eingegebenen Einstellungen beinhaltet. Die Datei ist in dem Verzeichnis Ihres Computers abzulegen, wo zuvor die die OSGeo vmdk Datei aus dem ZIP Archiv entpackt wurde. Die in der folgenden Ansicht zu sehenden Zeilen, beginnend ab ``#!/usr/bin/vmplayer`` bis ``# END OF EasyVMX! CONFIG`` sind zu kopieren und in eine neue Datei `osgeolive-5.5.vmx` einzufügen. 
 
-.. image:: /images/screenshots/800x600/vmware_easyvmx_output.png
+.. image:: /images/screenshots/vmdk/vmware_easyvmx_output.png
         :scale: 75
 
 Der Dateiname (ohne der Extension vmx) sollte dem der vmdk Datei entsprechen. Bitte prüfen Sie sorgfältig die Datei, besonders die Zeile für die SCSI Definition ``scsi0:0.fileName =``. Stellen Sie sicher, dass der referenzierte Dateiname dem der vmdk Datei entspricht. Speichern Sie anschließend die neue Datei in das gleiche Verzeichnis der vmdk Datei.
 
 Sie können nun den VMWare Player starten und im Menü über **Open a Virtual Machine** die vmdk Datei auswählen, die im Verzeichnis zu finden ist, wo zuvor die vmx Datei gespeichert worden ist. Die neue VM sollte nun in der Liste des VMWare Players erscheinen. Wählen Sie **Play Virtual Machine** und die VM sollte booten.
 
-.. image:: /images/screenshots/800x600/vmware_open.png
+.. image:: /images/screenshots/vmdk/vmware_open.png
         :scale: 90
-.. image:: /images/screenshots/800x600/vmware_play.png
+.. image:: /images/screenshots/vmdk/vmware_play.png
         :scale: 90
 
 ================================================================================
@@ -92,7 +92,7 @@ Als ersten Schritt sollten Sie die VMWare Tools installieren. Sobald diese insta
 
 Im Fenster des VMWare Players wählen Sie :menuselection:`Virtual Machine --> Virtual Machine Settings` wechseln Sie in den Optionen Tab und klicken Sie anschließend auf die Shared Folder Einstellungen. Hier können Sie mit "+" neue Verzeichnisse hinzufügen. Für den Fall, dass Sie unter Windows das Verzeichnis `C:\\Users\\your_name\\Downloads` nutzen wollen, navigieren Sie zum entsprechenden Verzeichnis und geben Sie der Freigabe den Namen "Downloads". Anschließend die Konfiguration übernehmen und speichern, fertig.
 
-.. image:: /images/screenshots/800x600/vmware_shared.png 
+.. image:: /images/screenshots/vmdk/vmware_shared.png 
         :scale: 80
 
 Im Terminal der VM sollten noch zwei Kommandos aufgerufen werden, um diese Freigabe nutzen zu können:

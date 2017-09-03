@@ -31,27 +31,27 @@ Herunterladen und Installieren von `Virtual Box <http://www.virtualbox.org/>`_. 
 
 Öffne Virtual Box 
 
-  .. image:: /images/screenshots/800x600/virtualbox.png
+  .. image:: /images/screenshots/vmdk/virtualbox.png
     :scale: 70 %
 
 Wähle :guilabel:`New`, um eine neue Virtualisierungsumgebung zu erstellen.
 
-  .. image:: /images/screenshots/800x600/virtualbox_create_vm.png
+  .. image:: /images/screenshots/vmdk/virtualbox_create_vm.png
     :scale: 70 %
 
 Wähle :guilabel:`Next`
 
-  .. image:: /images/screenshots/800x600/virtualbox_select_name.png
+  .. image:: /images/screenshots/vmdk/virtualbox_select_name.png
     :scale: 70 %
 
 Gebe einen Namen für das Image an und wähle "Linux", "Ubuntu".
 
-  .. image:: /images/screenshots/800x600/virtualbox_memory.png
+  .. image:: /images/screenshots/vmdk/virtualbox_memory.png
     :scale: 70 %
 
 Setze den Arbeitsspeicher auf mindestens 768 MB, 1 GB ist besser zum Test von Java basierten Anwendungen.
 
-  .. image:: /images/screenshots/800x600/virtualbox_no_hard_disk.png
+  .. image:: /images/screenshots/vmdk/virtualbox_no_hard_disk.png
     :scale: 70 %
 
 Einfache Installation: Deaktivieren der Option "Boot Hard Disk", die 
@@ -61,17 +61,17 @@ Wenn Sie eine dauerhafte Virtualisierungsumgebung wünschen, um Einstellungen
 zu speichern oder die Bildschirmauflösung zu optimieren, dann fügen Sie auch 
 die hard disk hinzu und installieren später.
 
-  .. image:: /images/screenshots/800x600/virtualbox_warning_no_hard_disk.png
+  .. image:: /images/screenshots/vmdk/virtualbox_warning_no_hard_disk.png
     :scale: 70 %
 
 Wähle :guilabel:`Continue`
 
-  .. image:: /images/screenshots/800x600/virtualbox_final_check.png
+  .. image:: /images/screenshots/vmdk/virtualbox_final_check.png
     :scale: 70 %
 
 Wähle :guilabel:`Finish`
 
-  .. image:: /images/screenshots/800x600/virtualbox_select_settings.png
+  .. image:: /images/screenshots/vmdk/virtualbox_select_settings.png
     :scale: 70 %
 
 Das Image ist nun erstellt, wir können die Simulation starten, mit der OSGeo-Live 
@@ -79,17 +79,17 @@ DVD im DVD Laufwerk.
 
 Klicken Sie mit der rechten Maustaste auf "osgeo-live" Image und wählen Sie :guilabel:`Settings`.
 
-  .. image:: /images/screenshots/800x600/virtualbox_set_cd.png
+  .. image:: /images/screenshots/vmdk/virtualbox_set_cd.png
     :scale: 70 %
 
 Wähle "Storage", CD/DVD Device, ...
 
-  .. image:: /images/screenshots/800x600/virtualbox_add_dvd.png
+  .. image:: /images/screenshots/vmdk/virtualbox_add_dvd.png
     :scale: 70 %
 
 Wählen Sie das OSGeo-Live Image.
 
-  .. image:: /images/screenshots/800x600/virtualbox_start_vm.png
+  .. image:: /images/screenshots/vmdk/virtualbox_start_vm.png
     :scale: 70 %
 
 Jetzt können Sie die Virtualisierungsumgebung starten, wie unter :doc:`osgeolive_quickstart`
@@ -108,19 +108,19 @@ kopieren und einfügen zwischen Gast und Host, Graphikbeschelunigung u.v.m. erm�
 
 Stellen Sie sicher, dass der PC mit dem Internet verbunden ist.
 
-  .. image:: /images/screenshots/800x600/virtualbox_synaptic_menu.png
+  .. image:: /images/screenshots/vmdk/virtualbox_synaptic_menu.png
     :scale: 70 %
 
 Wählen Sie die "synaptic package manager" Anwendung.
 
 Das Passwort ist = "user"
 
-  .. image:: /images/screenshots/800x600/virtualbox_synaptic_select_tools.png
+  .. image:: /images/screenshots/vmdk/virtualbox_synaptic_select_tools.png
     :scale: 70 %
 
 Markieren Sie "virtualbox-ose-guest-utils" für die Installation.
 
-  .. image:: /images/screenshots/800x600/virtualbox_synaptic_apply.png
+  .. image:: /images/screenshots/vmdk/virtualbox_synaptic_apply.png
     :scale: 70 %
 
 Übernehmen Sie die Änderungen.

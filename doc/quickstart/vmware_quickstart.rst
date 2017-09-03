@@ -60,16 +60,16 @@ Click on the easyvmx button and enter these configuration options in the form:
         - Hardisk Drives: Disk#1 Disk Size 20GB (at least) and check SCSI
         - Sound and IO: uncheck all
 
-.. image:: /images/screenshots/800x600/vmware_easyvmx_form.png
+.. image:: /images/screenshots/vmdk/vmware_easyvmx_form.png
         :scale: 75
 
 
-.. image:: /images/screenshots/800x600/vmware_easyvmx_disk.png
+.. image:: /images/screenshots/vmdk/vmware_easyvmx_disk.png
         :scale: 75
 
 Click the button at bottom "Create Experimental Virtual Machine". The website creates a properly formated **vmx** file containing all the above configurations. You need to place this file into the directory on your computer where the OSGeo vmdk file is located. So in the next screen, copy all lines from ``#!/usr/bin/vmplayer`` to ``# END OF EasyVMX! CONFIG`` and paste into a new file named osgeolive-5.5.vmx. 
 
-.. image:: /images/screenshots/800x600/vmware_easyvmx_output.png
+.. image:: /images/screenshots/vmdk/vmware_easyvmx_output.png
         :scale: 75
 
 The file basename (without the vmx extension) should match the file basename of the OSGeo vmdk file. Also double check the line in the vmx file that refers to ``scsi0:0.fileName =``. Make sure that this also **exactly matches the downloaded vmdk** file name.
@@ -77,9 +77,9 @@ Save this new vmx file into the same directory as your downloaded OSGeo vmdk.
 
 Now fire up VMWare Player and click the **Open a Virtual Machine** button. Browse to the directory where both the downloaded vmdk and the newly created vmx are located. Point to the vmx and the new virtual machine should be added to the list in the Player window. Click the **Play Virtual Machine** button and the OSGeo VM should boot up.
 
-.. image:: /images/screenshots/800x600/vmware_open.png
+.. image:: /images/screenshots/vmdk/vmware_open.png
         :scale: 90
-.. image:: /images/screenshots/800x600/vmware_play.png
+.. image:: /images/screenshots/vmdk/vmware_play.png
         :scale: 90
 
 ================================================================================
@@ -94,7 +94,7 @@ The first thing you'll want to do is install the VMWare-tools packages. Once the
 
 In the Virtual Machine window, select :menuselection:`Virtual Machine --> Virtual Machine Settings` menu, shift over to the Options tab, and click the Shared Folders setting. Now you can click the "+" button to add a directory from your host computer to be shared inside the virtual OSGeo-Live system. Suppose you want to share the directory `C:\\Users\\your_name\\Downloads`. Click the browse button to find the directory, give it a name such as "Downloads", and click "Save".
 
-.. image:: /images/screenshots/800x600/vmware_shared.png 
+.. image:: /images/screenshots/vmdk/vmware_shared.png 
         :scale: 80
 
 

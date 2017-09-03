@@ -28,61 +28,61 @@ Téléchargez et installez`la Virtual Box<http://www.virtualbox.org/>`_. Sur lin
 
 Ouvrez la Virtual Box 
 
-  .. image:: /images/screenshots/800x600/virtualbox.png
+  .. image:: /images/screenshots/vmdk/virtualbox.png
     :scale: 70 %
 
 Sélectionnez :guilabel:`New` pour créer une nouvelle Machine Virtuelle.
 
-  .. image:: /images/screenshots/800x600/virtualbox_create_vm.png
+  .. image:: /images/screenshots/vmdk/virtualbox_create_vm.png
     :scale: 70 %
 
 Sélectionnez :guilabel:`Next`
 
-  .. image:: /images/screenshots/800x600/virtualbox_select_name.png
+  .. image:: /images/screenshots/vmdk/virtualbox_select_name.png
     :scale: 70 %
 
 Indiquez un nom pour l'image, et sélectionnez "Linux", "Ubuntu".
 
-  .. image:: /images/screenshots/800x600/virtualbox_memory.png
+  .. image:: /images/screenshots/vmdk/virtualbox_memory.png
     :scale: 70 %
 
 Indiquez la mémoire de base au plus à 768 MB, 1 GB est mieux pour essayer les applications absées sur java.
 
-  .. image:: /images/screenshots/800x600/virtualbox_no_hard_disk.png
+  .. image:: /images/screenshots/vmdk/virtualbox_no_hard_disk.png
     :scale: 70 %
 
 Installation simple: Déselectionnez "Boot Hard Disk", la Machine Virtuelle démarrera toujouirs depuis un DVD simulé.
 
 Si vous voulez avoir une machine virtuelle permanente, qui conserve l'état entre les sessions et qui a amélioré les paramètres de résolution de l'écran et les outils, inluez alors le disque dur, et installez-la plus tard.
 
-  .. image:: /images/screenshots/800x600/virtualbox_warning_no_hard_disk.png
+  .. image:: /images/screenshots/vmdk/virtualbox_warning_no_hard_disk.png
     :scale: 70 %
 
 Sélectionnez :guilabel:`Continue`
 
-  .. image:: /images/screenshots/800x600/virtualbox_final_check.png
+  .. image:: /images/screenshots/vmdk/virtualbox_final_check.png
     :scale: 70 %
 
 Sélectionnez :guilabel:`Finish`
 
-  .. image:: /images/screenshots/800x600/virtualbox_select_settings.png
+  .. image:: /images/screenshots/vmdk/virtualbox_select_settings.png
     :scale: 70 %
 
 L'image est maintenant créée, mais nous avons maintenant besoin de simuler avoir un DVD OSGeo-Live dans le lecteur de CD.
 
 Click-droit sur l'image "osgeo-live", et sélectionnez :guilabel:`Settings`.
 
-  .. image:: /images/screenshots/800x600/virtualbox_set_cd.png
+  .. image:: /images/screenshots/vmdk/virtualbox_set_cd.png
     :scale: 70 %
 
 Sélectionnez "Storage", CD/DVD Device, ...
 
-  .. image:: /images/screenshots/800x600/virtualbox_add_dvd.png
+  .. image:: /images/screenshots/vmdk/virtualbox_add_dvd.png
     :scale: 70 %
 
 Sélectionnez l'image OSGeo-Live.
 
-  .. image:: /images/screenshots/800x600/virtualbox_start_vm.png
+  .. image:: /images/screenshots/vmdk/virtualbox_start_vm.png
     :scale: 70 %
 
 Maintenant vous pouvez démarrer la machine virtuelle ainsi :doc:`osgeolive_quickstart`
@@ -97,19 +97,19 @@ Vous pouvez ajouter les outils d'amorçage virtuel qui supportent une résolutio
 
 Assurez-vous que votre ordinateur est connecté sur internet.
 
-  .. image:: /images/screenshots/800x600/virtualbox_synaptic_menu.png
+  .. image:: /images/screenshots/vmdk/virtualbox_synaptic_menu.png
     :scale: 70 %
 
 Sélectionnez l'application de gestion des paquets synaptiques.
 
 Entrez le mot de passe = "user"
 
-  .. image:: /images/screenshots/800x600/virtualbox_synaptic_select_tools.png
+  .. image:: /images/screenshots/vmdk/virtualbox_synaptic_select_tools.png
     :scale: 70 %
 
 Marquez "virtualbox-ose-guest-utils" pour l'installation.
 
-  .. image:: /images/screenshots/800x600/virtualbox_synaptic_apply.png
+  .. image:: /images/screenshots/vmdk/virtualbox_synaptic_apply.png
     :scale: 70 %
 
 Appliquez les changements.
