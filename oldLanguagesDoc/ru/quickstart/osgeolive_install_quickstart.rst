@@ -21,38 +21,38 @@ ISO для создания виртуальной машины с OSGeo-Live.
 Установка OSGeo-Live
 --------------------------------------------------------------------------------
 
-  .. image:: /images/screenshots/800x600/osgeolive_install_start.png
+  .. image:: /images/screenshots/osgeolive/osgeolive_install_start.png
     :scale: 70 %
 
 Выберите :guilabel:`Install RELEASE`
 
-  .. image:: /images/screenshots/800x600/osgeolive_install_password.png
+  .. image:: /images/screenshots/osgeolive/osgeolive_install_password.png
     :scale: 70 %
 
 Введите пароль "user"
 
-  .. image:: /images/screenshots/800x600/osgeolive_install1_language.png
+  .. image:: /images/screenshots/osgeolive/osgeolive_install1_language.png
     :scale: 70 %
 
 Выберите язык
 
-  .. image:: /images/screenshots/800x600/osgeolive_install2_timezone.png
+  .. image:: /images/screenshots/osgeolive/osgeolive_install2_timezone.png
     :scale: 70 %
 
 Выберите временную зону
 
-  .. image:: /images/screenshots/800x600/osgeolive_install3_keyboard.png
+  .. image:: /images/screenshots/osgeolive/osgeolive_install3_keyboard.png
     :scale: 70 %
 
 Выберите клавиатуру
 
-  .. image:: /images/screenshots/800x600/osgeolive_install4_disk.png
+  .. image:: /images/screenshots/osgeolive/osgeolive_install4_disk.png
     :scale: 70 %
 
 Укажите диск, на который хотите установить OSGeo-Live. Будьте осторожны, это
 может удалить существующую разметку диска.
   
-  .. image:: /images/screenshots/800x600/osgeolive_install5_username.png
+  .. image:: /images/screenshots/osgeolive/osgeolive_install5_username.png
     :scale: 70 %
 
 Значения по умолчанию:
@@ -63,7 +63,7 @@ ISO для создания виртуальной машины с OSGeo-Live.
    * компьютер = "osgeolive"
    * Входить автоматически
 
-  .. image:: /images/screenshots/800x600/osgeolive_install7_check.png
+  .. image:: /images/screenshots/osgeolive/osgeolive_install7_check.png
     :scale: 70 %
 
 Выберите :guilabel:`Install`

@@ -38,19 +38,19 @@ Uruchomienie:
   ustawienia BIOS-u lub zaraz po uruchomieniu komputera wcisnąć 
   klawisz wyświetlający menu bootowania.
   
-   .. image:: /images/screenshots/800x600/osgeolive_boot_select.png
+   .. image:: /images/screenshots/osgeolive/osgeolive_boot_select.png
      :scale: 70 %
      :alt: boot select
 
   Kiedy zobaczysz powyższy ekran, możesz nacisnąć spację, aby otworzyć specjalne opcje menu bootowania. W większości przypadków nie będzie to konieczne.
 
-   .. image:: /images/screenshots/800x600/osgeolive_boot.png
+   .. image:: /images/screenshots/osgeolive/osgeolive_boot.png
      :scale: 70 %
      :alt: boot
 
   Zaczekaj na ponowne uruchomienie się systemu.
 
-   .. image:: /images/screenshots/800x600/osgeolive_menu.png
+   .. image:: /images/screenshots/osgeolive/osgeolive_menu.png
      :scale: 70 %
      :alt: boot select
 

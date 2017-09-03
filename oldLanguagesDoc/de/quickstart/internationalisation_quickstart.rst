@@ -20,7 +20,7 @@ Es wurden viele geläufige Sprachen installiert. Um die Sprache auf Ihre Belange
    #. Betätigen Sie den :guilabel:`Log in` Button.
    #. Wiederholen Sie den Vorgang, wenn Sie eine andere Sprache einstellen möchten
 
-   .. image:: /images/screenshots/800x600/osgeolive_login.png
+   .. image:: /images/screenshots/osgeolive/osgeolive_login.png
      :scale: 70 %
      :alt: login screen
 

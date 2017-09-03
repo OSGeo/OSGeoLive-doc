@@ -33,13 +33,13 @@ OSGeo-Live クイックスタート
   コンピューターが CD から起動可能になっていれば、地理空間アプリケーションをインストールした Lubuntu のシステムが起動します。
   CD から起動可能になっていない場合には BIOS の設定を変更するか、電源投入時に起動メニューボタンを押してください。
 
-   .. image:: /images/screenshots/800x600/osgeolive_boot.png
+   .. image:: /images/screenshots/osgeolive/osgeolive_boot.png
      :scale: 70 %
      :alt: 起動
 
   システムが起動されるまで待ちます。
 
-   .. image:: /images/screenshots/800x600/osgeolive_menu.png
+   .. image:: /images/screenshots/osgeolive/osgeolive_menu.png
      :scale: 70 %
      :alt: boot select
 

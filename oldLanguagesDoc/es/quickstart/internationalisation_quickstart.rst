@@ -21,7 +21,7 @@ Hemos instalado muchos idiomas comunes. Para cambiar el sistema necesitarás hac
    #. Selecciona otro idioma e introduce el password, y continúa después el proceso de acceso(login) habitual.
    #. Repite el proceso cuando quieras volver a cambiar el idioma.
 
-   .. image:: /images/screenshots/800x600/osgeolive_login.png
+   .. image:: /images/screenshots/osgeolive/osgeolive_login.png
      :scale: 70 %
      :alt: login screen
 

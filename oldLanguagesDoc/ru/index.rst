@@ -25,7 +25,7 @@
 свободного программного обеспечения, что позволяет ему быть свободно
 распространяемым, копируемым и используемым.
 
-.. image:: /images/screenshots/800x600/osgeolive_menu.png
+.. image:: /images/screenshots/osgeolive/osgeolive_menu.png
   :scale: 70 %
   :alt: boot select
   :align: right

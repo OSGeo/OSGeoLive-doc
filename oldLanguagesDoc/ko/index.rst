@@ -6,7 +6,7 @@
  프로젝트로, 완전히 무료 소프트웨어로 구성되어 있기 때문에 분포, 복사 등이 자유롭습니다. 
 
  
-.. image:: /images/screenshots/800x600/osgeolive_menu.png
+.. image:: /images/screenshots/osgeolive/osgeolive_menu.png
   :scale: 70 %
   :alt: boot select
   :align: right

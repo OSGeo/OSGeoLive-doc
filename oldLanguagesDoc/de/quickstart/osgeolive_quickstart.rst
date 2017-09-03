@@ -32,13 +32,13 @@ Starten:
 
   Wenn ihr Computer entsprechend eingestellt ist (wie es häufig der Fall ist) startet er jetzt von der DVD ein Lubuntu mit installierten Geodaten-Anwendungen. Ansonsten müssen Sie die im BIOS die Starteinstellungen ändern oder den Bootmenü-Button (sofern vorhanden) direkt nach dem Einschalten drücken.
 
-   .. image:: /images/screenshots/800x600/osgeolive_boot.png
+   .. image:: /images/screenshots/osgeolive/osgeolive_boot.png
      :scale: 70 %
      :alt: boot
 
 Lehnen Sie sich zurück, während das System startet.
 
-   .. image:: /images/screenshots/800x600/osgeolive_menu.png
+   .. image:: /images/screenshots/osgeolive/osgeolive_menu.png
      :scale: 70 %
      :alt: boot select
 
