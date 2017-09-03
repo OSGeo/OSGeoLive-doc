@@ -17,7 +17,7 @@ Servicio Web de Mapas
 
 ncWMS publica datos multi-dimensionales (tales como datos medioambientales y de tiempo atmosférico) como un Servicio Web de Mapas (WMS) que cumple con el estándar OGC. ncWMS extrae de forma rápida y eficiente las imágenes de los mapas a partir de los pesados archivos de datos normalmente sociados con la información ambiental.
 
-.. image:: /images/screenshots/1024x768/ncWMS-03-timeseries.png
+.. image:: /images/screenshots/ncWMS/ncWMS-03-timeseries.png
   :scale: 60 %
   :alt: Screen Shot of GeoServer
   :align: right

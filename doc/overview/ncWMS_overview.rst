@@ -16,7 +16,7 @@ Web Map Service
 
 ncWMS publishes multi-dimensional data (such as environmental and weather data) as an OGC compliant Web Map Service (WMS). ncWMS quickly and efficiently extracts the map images from the very large data files typically associated with environmental data.
 
-.. image:: /images/screenshots/1024x768/ncWMS-02-variable_view.png
+.. image:: /images/screenshots/ncWMS/ncWMS-02-variable_view.png
   :scale: 60 %
   :alt: Screen Shot of ncWMS
   :align: right
