@@ -31,7 +31,7 @@ MapServer ara és un projecte d'`OSGeo <http://www.osgeo.org>`_, i és mantingut
 Característiques principals
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/1024x768/mapserver.png
+.. image:: /images/screenshots/mapserver/mapserver.png
   :scale: 50 %
   :alt: screenshot
   :align: right

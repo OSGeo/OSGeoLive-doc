@@ -162,7 +162,7 @@ MapServer di "*usare il mapfile seguente per riprodurre i layer specificat come 
 "*&LAYERS=...*" che hanno *STATUS ON* nel mapfile insieme a tutti i layer con *STATUS DEFAULT*
 saranno riprodotti.  Il risultato dovrebbe assomigliare al seguente:
 
-  .. image:: /images/screenshots/800x600/mapserver_map.png
+  .. image:: /images/screenshots/mapserver/mapserver_map.png
     :scale: 70 %
 
 .. note:: 
@@ -208,7 +208,7 @@ nome del nuovo layer alla lista della proprietà "LAYERS", in questo modo::
 L'immagine restituita da MapServer assomiglia alla nostra mappa precedente ma con
 l'aggiunta dei laghi del nostro nuovo layer:
 
-  .. image:: /images/screenshots/800x600/mapserver_lakes.png
+  .. image:: /images/screenshots/mapserver/mapserver_lakes.png
     :scale: 70 %
 
 .. _mapserver-quickstart-styling-di-un-layer-it:
@@ -266,7 +266,7 @@ attributo utilizzare per la valutazione dell'EXPRESSIONs definite nell'oggetto C
 Il risultato di questa nuova aggiunta dovrebbe mostrare i laghi più grandi nella nostra mappa
 con una linea di contorno nera, come nell'immagine di seguito:
 
-  .. image:: /images/screenshots/800x600/mapserver_lakes_scalerank.png
+  .. image:: /images/screenshots/mapserver/mapserver_lakes_scalerank.png
     :scale: 70 %
 
 .. note:: 

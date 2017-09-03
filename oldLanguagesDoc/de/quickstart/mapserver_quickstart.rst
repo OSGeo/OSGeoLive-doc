@@ -142,7 +142,7 @@ Darstellen einer Karte mit MapServer mittels eines WMS **GetMap** Requests
 
 Was bedeutet der Aufruf? Einfach gesagt, es ist ein `Web Map Service (WMS) <http://www.opengeospatial.org/standards/wms>`_ **GetMap** Request, der MapServer sagt, er soll die angegebene Mapdatei verwenden, um bestimmte Layer als PNG Bild mit festgelegten Eigenschaften wie Bildgröße, Ausdehnung, Projektion, etc.* darzustellen. Alle Layer im "*&LAYERS=...*" Bereich, die *STATUS ON* oder *STATUS DEFAULT* in der Mapdatei haben, werden nun dargestellt. Das Ergebnis sieht wie folgt aus:
 
-  .. image:: /images/screenshots/800x600/mapserver_map.png
+  .. image:: /images/screenshots/mapserver/mapserver_map.png
     :scale: 70 %
 
 .. note:: 
@@ -180,7 +180,7 @@ Nehmen wir nun unseren vorherigen WMS **GetMap** Request und ergänzen den neuen
 
 Das Bild, das nun vom MapServer dargestellt wird sieht aus wie das vorherige, nur mit dem zusätzlichen neuen lake-Layer:
 
-  .. image:: /images/screenshots/800x600/mapserver_lakes.png
+  .. image:: /images/screenshots/mapserver/mapserver_lakes.png
     :scale: 70 %
 
 .. _mapserver-quickstart-styling-a-layer-de:
@@ -222,7 +222,7 @@ Die Klasse definiert, dass das Elemente mit der "ScaleRank"-Eigenschaft gleich "
 
 Das Ergebnis dieser Ergänzung bewirkt, dass große Seen mit einem schwarzen Umriss gezeichnet werden:
 
-  .. image:: /images/screenshots/800x600/mapserver_lakes_scalerank.png
+  .. image:: /images/screenshots/mapserver/mapserver_lakes_scalerank.png
     :scale: 70 %
 
 .. note:: Lernen Sie mehr über `EXPRESSIONS <http://mapserver.org/mapfile/expressions.html>`_ im MapServer.

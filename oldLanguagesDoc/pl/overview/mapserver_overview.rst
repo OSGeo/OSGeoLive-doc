@@ -31,7 +31,7 @@ MapServer is now a project of `OSGeo <http://www.osgeo.org>`_, and is maintained
 Główne funkcje
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/1024x768/mapserver.png
+.. image:: /images/screenshots/mapserver/mapserver.png
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -82,7 +82,7 @@
 
 Θα πρέπει να δείτε ένα χάρτη της βόρειας αμερικής.
 
-  .. image:: /images/screenshots/800x600/mapserver_map.png
+  .. image:: /images/screenshots/mapserver/mapserver_map.png
     :scale: 70 %
 
 * Προσθέτωντας ένα νέο θεματικό επίπεδο (layer) από ένα shapefile
@@ -108,7 +108,7 @@
 
 Θα πρέπει τώρα να βλέπετε τον αρχικό χάρτη σε συνδυασμό με τις λίμνες από το νέο θεματικό μας επίπεδο.
 
-  .. image:: /images/screenshots/800x600/mapserver_lakes.png
+  .. image:: /images/screenshots/mapserver/mapserver_lakes.png
     :scale: 70 %
 
 * Βελτιώνοντας την εμφάνιση ενός θεματικού επιπέδου
@@ -138,7 +138,7 @@
 
 Οι ανωτέρω ρυθμίσεις σχεδιάζουν τις μεγάλες λίμνες με ένα ελαφρύ μπλε με μαύρο περίγραμμα, ενώ όλες οι υπόλοιπες λίμνες σχεδιάζονται με σκούρο μπλε.
 
-  .. image:: /images/screenshots/800x600/mapserver_lakes_scalerank.png
+  .. image:: /images/screenshots/mapserver/mapserver_lakes_scalerank.png
     :scale: 70 %
 
 Τι επίκειται;
