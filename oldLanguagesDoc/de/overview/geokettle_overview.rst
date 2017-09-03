@@ -23,7 +23,7 @@ GeoKettle ist besonders geeignet für die Automatisierung komplexer und sich wie
 
 In der GIS-Domäne kann Geokettle mit FME, einem urheberrechtlich geschütztem räumliche ETL-Tool, verglichen werden. GeoKettle ist stabil, schnell, standardkonform, mit vielen Funktionen ausgestattet und bietet Unterstützung für lesende und schreibende Zugriffe auf viele Dateiformate, Datenbanken als auch Web Services. GeoKettle wird von verschiedenen Organisationen auf der ganzen Welt verwendet, einschließlich Regierungestellen, Banken und Versicherungen sowie Systemintegratoren im Umfeld von Geoinformationssystemen.
 
-.. image:: /images/screenshots/1024x768/geokettle-overview.png
+.. image:: /images/screenshots/geokettle/geokettle-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right

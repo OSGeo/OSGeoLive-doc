@@ -21,7 +21,7 @@ GeoKettle
 
 　　在地理空间信息软件领域，GeoKettle 类似于 Feature Manipulation Engine ，一款私有的商业性 ETL 工具。作为一款稳定，高效，兼容国际标准，拥有数百种功能，支持读写大量的数据格式、服务和数据库的 ETL 产品，GeoKettle 被全球包括政府机构、银行、保险、空间信息集成在内的众多机构选用。
 
-.. image:: /images/screenshots/1024x768/geokettle-overview.png
+.. image:: /images/screenshots/geokettle/geokettle-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right

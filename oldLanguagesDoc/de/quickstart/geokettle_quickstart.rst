@@ -41,14 +41,14 @@ GeoKettle starten
 #. Folgender Dialog fordert Sie auf, ein Repository anzugeben bzw. auszuwählen. 
    Geben Sie die Informationen an oder klicken Sie einfach auf :guilabel:`No repository`, um die GeoKettle Workbench anzuzeigen.
 
-  .. image:: /images/screenshots/800x600/geokettle_welcome.png
+  .. image:: /images/screenshots/geokettle/geokettle_welcome.png
 
 Workbench
 ================================================================================
 
 Wie im folgenden Screenshot dargestellt, ist das Workbench-Fenster aus verschiedenen Bereichen zusammengesetzt.
 
-  .. image:: /images/screenshots/1024x768/geokettle_workbench.png
+  .. image:: /images/screenshots/geokettle/geokettle_workbench.png
 
 Der linke Teil agiert dabei als Katalog, der einzelne Schritte für Daten-Transformationen, die miteinander 
 kombiniert werden können, enthält. Im rechten Teil werden die Transformationen selbst bearbeitet und können 
@@ -66,7 +66,7 @@ Transformationen in Dateien mit der Endung `*.ktr`.
 
 Das folgende Bild zeigt die Beispiel-Transformation « intersection ».
 
-  .. image:: /images/screenshots/1024x768/geokettle_intersection_transformation.png
+  .. image:: /images/screenshots/geokettle/geokettle_intersection_transformation.png
 
 Eine Beschreibung der Transformation und der optionalen Direktiven sind im gelben Tooltip-Bereich  dargestellt.
 
@@ -74,7 +74,7 @@ Um mit einer Transformation beginnen zu können, ist zunächst ein Shapefile (`*
 Klicken Sie hierfür auf jedes der :guilabel:`GIS file input` Icons im rechten Teil der Anwendung. Es wird folgender 
 Dialog in Erscheinung treten.
 
-  .. image:: /images/screenshots/800x600/geokettle_shapefile_input_step.png
+  .. image:: /images/screenshots/geokettle/geokettle_shapefile_input_step.png
 
 .. note: 
    Sie können alle Schritte der Transformation per Doppelklick mit der Maus anpassen.
@@ -98,7 +98,7 @@ können die Transformation unter einem anderen Namen speichern, indem Sie über 
 Wie im folgenden Bild dargestellt, sind alle Transformations-Schritte über Kategorien im linken Teil der Anwendung 
 aufgelistet. Expandieren Sie die Kategorien, um alle darin enthaltenen Schritte einsehen zu können.
 
-  .. image:: /images/screenshots/800x600/geokettle_your_transformation.png
+  .. image:: /images/screenshots/geokettle/geokettle_your_transformation.png
 
 Ziehen Sie per Drag&Drop aus dem **Steps** Bereich einen Schritt in Ihre Transformation im **transformation** Bereich 
 im rechtenTeil der Anwendung. Sie können die Bearbeitung des hinzugefügten Schrittes starten, indem Sie per Doppelklick 
@@ -110,7 +110,7 @@ Ein Sprung definiert den Datenfluss zwischen zwei Schritten und wird als Pfeil d
 Darstellung zu sehen bedeutet die Verbindung zwischen **Table input** und **Add sequence**, dass die resultierende 
 Ausgabe aus **Table input** als Parameter in **Add sequence** für die weitere Verarbeitung verwendet werden.
 
-  .. image:: /images/screenshots/800x600/geokettle_hop.png
+  .. image:: /images/screenshots/geokettle/geokettle_hop.png
     :scale: 60 %
 
 Ein neuer Sprung wird auf einem Schritt über die rechte Maustaste :menuselection:`New hop` angelegt. Alternativ 
@@ -137,7 +137,7 @@ werden. Die Spalte **Active** informiert Sie darüber, ob ein Schritt bereits ge
 oder abgebrochen wurde. Sind Schritte gestartet, wird in der Spalte **Time** die verbleibende Zeit angezeigt. Zusätzlich 
 zeigt Ihnen die Spalte **Speed** die durchschnittliche Geschwindigkeit eines Schrittes in Zeilen pro Sekunde an.
 
-  .. image:: /images/screenshots/1024x768/geokettle_running_transformation.png
+  .. image:: /images/screenshots/geokettle/geokettle_running_transformation.png
 
 **Vorschau einer Transformation**
 
@@ -145,7 +145,7 @@ Der Versuch, eine Transformation auszuführen kann zu Fehlern führen, die im Be
 werden. Bitte prüfen Sie die Einträge im Tab **Logging**. Hier sind hilfreiche Informationen zur Quelle und den Grund 
 des Fehlers zu finden. Passen Sie die Parameter des entsprechenden Schrittes an und starten Sie die Transformation erneut.
 
-  .. image:: /images/screenshots/1024x768/geokettle_transformation_fail.png
+  .. image:: /images/screenshots/geokettle/geokettle_transformation_fail.png
 
 Um die Quelle eines Fehlers besser einzugrenzen, können Sie die Resultate bereits ausgeführter Schritte einer Transformation
 einsehen. Klicken Sie dafür mit der rechten Maustaste auf einen Schritte und wählen im Kontextmenü :menuselection:`Preview`.

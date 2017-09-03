@@ -34,7 +34,7 @@ funzioni e supporto per la scrittura/lettura di molti formati di file, servizi e
 GeoKettle è usato da diverse organizzazione in tutto il monto, incluso agenzia governative, 
 banche, assicurazioni e  and geospatial system integrators.
 
-.. image:: /images/screenshots/1024x768/geokettle-overview.png
+.. image:: /images/screenshots/geokettle/geokettle-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right
