@@ -28,7 +28,7 @@
 它作为任意一个OGC Web服务的代理程序，接收所有请求并根据规定策略执行程序。如此，已实现的服务不需要改变。
 策略和用户被定义在XML配置文件中，通过一个通用管理界面维护。
 
-.. image:: /images/screenshots/1024x768/52n_wss_mgmt.png
+.. image:: /images/screenshots/52n_wss/52n_wss_mgmt.png
   :scale: 70 %
   :alt: Screenshot of WSS Management UI
   :align: right

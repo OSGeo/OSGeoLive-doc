@@ -37,7 +37,7 @@ Tomcat.
 Политики и пользователи задаются в конфигурационном файле XML, управление ими
 осуществляется через общий интерфейс управления.
 
-.. image:: /images/screenshots/1024x768/52n_wss_mgmt.png
+.. image:: /images/screenshots/52n_wss/52n_wss_mgmt.png
   :scale: 70 %
   :alt: Снимок экрана с интерфейсом управления WSS
   :align: right

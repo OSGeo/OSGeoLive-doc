@@ -34,7 +34,7 @@ implémentations de services existantes n'ont pas besoin d'être changées.
 Les politiques et les utilisateurs sont définis dans les fichiers de 
 configuration XML, qui sont gérés à partir d'une interface de gestion.
 
-.. image:: /images/screenshots/1024x768/52n_wss_mgmt.png
+.. image:: /images/screenshots/52n_wss/52n_wss_mgmt.png
   :scale: 70 %
   :alt: Capture d'écran de l'interface de gestion WSS
   :align: right

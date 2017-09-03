@@ -31,7 +31,7 @@ e dando seguito alle politiche definite. Così, le implementazioni dei servizi e
 bisogno di essere cambiate. Politiche e gli utenti sono definiti in file di configurazione XML, 
 che sono mantenuti da una interfaccia di gestione generale.
 
-.. image:: /images/screenshots/1024x768/52n_wss_mgmt.png
+.. image:: /images/screenshots/52n_wss/52n_wss_mgmt.png
   :scale: 70 %
   :alt: Screenshot of WSS Management UI
   :align: right
