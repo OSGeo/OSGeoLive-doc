@@ -32,7 +32,7 @@ usa tecnologías de los navegadores modernos como HTML5, WebGL y CSS3.
 
 OpenLayers3 supone una reescritura completa de la biblioteca anterior, OpenLayers2, robusta y ampliamente implementada. Ambas ofrecen un gran conjunto de funcionalidades que cubren los requisitos básicos y avanzados de SIG y mapeo web.
 
-.. image:: /images/screenshots/800x600/openlayers-basic.png
+.. image:: /images/screenshots/openlayers/openlayers-basic.png
   :scale: 70 %
   :alt: screenshot
   :align: right

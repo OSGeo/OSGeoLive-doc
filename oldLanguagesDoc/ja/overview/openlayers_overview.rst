@@ -30,7 +30,7 @@ OpenLayers3 は Web とモバイルクライアント向けの軽量なマッピ
 OpenLayers3 は以前の堅牢で広く利用されていた OpenLayers2 ライブラリを完全に書き直したものです。
 いずれも、Web マッピングと GIS の要件を基本から応用までカバーする、広範な機能セットを提供します。
 
-.. image:: /images/screenshots/800x600/openlayers-basic.png
+.. image:: /images/screenshots/openlayers/openlayers-basic.png
   :scale: 70 %
   :alt: screenshot
   :align: right

@@ -33,7 +33,7 @@ OpenLayers3 — это полностью переписанная версия 
 базовых, так и продвинутых возможностей, необходимых при создании веб-карт и
 ГИС.
 
-.. image:: /images/screenshots/800x600/openlayers-basic.png
+.. image:: /images/screenshots/openlayers/openlayers-basic.png
   :scale: 70 %
   :alt: Скриншот
   :align: right
