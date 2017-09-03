@@ -30,7 +30,7 @@ Mapbender
 
 Ο Mapbender3 βασίζεται στα Symfony2, OpenLayers, Mapproxy και jQuery.
 
-.. image:: /images/screenshots/800x600/mapbender3_basic_application.png
+.. image:: /images/screenshots/mapbender/mapbender3_basic_application.png
   :scale: 50%
   :alt: Mapbender application
   :align: right

@@ -56,7 +56,7 @@ implementado en PHP y PostgreSQL/PostGIS.
 Mapbender da una nueva perspectiva a la gestión de las IDE al utilizar nada más
 que un navegador web estándar.
 
-.. image:: /images/screenshots/800x600/mapbender3_basic_application.png
+.. image:: /images/screenshots/mapbender/mapbender3_basic_application.png
   :scale: 70%
   :alt: Mapbender application
   :align: right

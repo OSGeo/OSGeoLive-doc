@@ -58,7 +58,7 @@ Mapbender — веб-ориентированный набор инструме
 
 #. Вы можете войти как пользователь :guilabel:`root` с паролем :guilabel:`root` (Это пользователь по-умолчанию со стандартным паролем, установленный после развёртывания Mapbender. Пожалуйста, измените пароль пользователя *root*, если вы хотите использовать установленное приложение в реальной работе. Пожалуйста, не удаляйте пользователя :guilabel:`root`, т.к. этот пользователь имеет доступ к шаблонным приложениям Mapbender и используется для обновления).
   
-  .. image:: /images/screenshots/800x600/mapbender_welcome.png
+  .. image:: /images/screenshots/mapbender/mapbender_welcome.png
      :scale: 80
 
 После успешного входа вы будете направлены на :guilabel:`application overview`.
@@ -68,7 +68,7 @@ Mapbender — веб-ориентированный набор инструме
 ================================================================================
 После входа вы будете перенаправлены на страницу :guilabel:`application overview` со списком приложений к которым вы имеете доступ. В Mapbender имеются шаблонные приложения, которые вы можете использовать для настройки ваших собственных приложений.
 
-  .. image:: /images/screenshots/800x600/mapbender_application_overview.png
+  .. image:: /images/screenshots/mapbender/mapbender_application_overview.png
      :scale: 80
 
 Mapbender предоставляет:
@@ -95,12 +95,12 @@ Mapbender предоставляет:
 
 На картинке ниже представлен раздел *admin2_en*. С левой стороны вы можете видеть меню с перечнем возможностей, которые предлагает приложение.
 
-  .. image:: /images/screenshots/800x600/mapbender_admin2_en.png
+  .. image:: /images/screenshots/mapbender/mapbender_admin2_en.png
      :scale: 80
 
 .. tip:: Вы можете вернуться к окну описания приложений при помощи кнопки |HOME|.
 
-  .. |HOME| image:: /images/screenshots/800x600/mapbender_home.png
+  .. |HOME| image:: /images/screenshots/mapbender/mapbender_home.png
      :scale: 100
 
 Картографическое приложение
@@ -113,7 +113,7 @@ Mapbender предоставляет:
    
    * например, выберите gui, gui_digitize
      
-  .. image:: /images/screenshots/800x600/mapbender_gui_digitize.png
+  .. image:: /images/screenshots/mapbender/mapbender_gui_digitize.png
      :scale: 80
 
 .. tip:: Если ваш браузер поддерживает вкладки, вы можете открыть приложения во вкладках и легко переключаться между ними.
@@ -122,7 +122,7 @@ Mapbender предоставляет:
 ================================================================================
 Вы можете создавать приложение контейнер для размещения вашего WMS. Контейнер WMS не показывается. При помощи контейнеров вы можете создавать сложные репозитории сервисов.
 
-  .. image:: /images/screenshots/800x600/mapbender_container.png
+  .. image:: /images/screenshots/mapbender/mapbender_container.png
      :scale: 60
 
 Создание собственного приложения
@@ -193,7 +193,7 @@ WhereGroup OSM WMS
 
 http://osm.wheregroup.com/cgi-bin/osm_basic.xml?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.1.1
  
-.. image::/images/screenshots/800x600/mapbender_admin2_en.png
+.. image::/images/screenshots/mapbender/mapbender_admin2_en.png
   :scale: 80
 
 Вы можете загрузить более одного WMS в приложение. Выберите *WMS application settings* для изменения порядка следования WMS или удаления WMS из вашего приложения.
@@ -207,7 +207,7 @@ WMS с индексом *0* определяет систему координа
 ================================================================================
 После загрузки WMS вы можете настроить WMS в соответствии со спецификой вашего приложения. Возможно, вам не нужно предоставлять все слои, или вы хотите изменить порядок заголовков слоёв, или отключить инструмент идентификации, или изменить максимальный масштаб слоя.
 
-.. image:: /images/screenshots/800x600/mapbender_wms_application_settings.png
+.. image:: /images/screenshots/mapbender/mapbender_wms_application_settings.png
   :scale: 80
 
 * on/off — активирует/деактивирует слой для отдельного приложения
@@ -265,7 +265,7 @@ WMS с индексом *0* определяет систему координа
 
 #. Введите имя пользователя и пароль. 
 
-.. image:: /images/screenshots/800x600/mapbender_create_user.png
+.. image:: /images/screenshots/mapbender/mapbender_create_user.png
      :scale: 80 
 
 
@@ -291,7 +291,7 @@ WMS с индексом *0* определяет систему координа
 
 #. Что произойдет, если пользователь имеет доступ к нескольким приложениям?
 
-  .. |LOGOUT| image:: /images/screenshots/800x600/mapbender_logout.png
+  .. |LOGOUT| image:: /images/screenshots/mapbender/mapbender_logout.png
      :scale: 100
 
 ********************************************************************************
@@ -324,14 +324,14 @@ Mapbender поддерживает OGC Web Feature Service (WFS) версий 1.
 
 http://wms.wheregroup.com/geoserver/wfs?REQUEST=getCapabilities&VERSION=1.0.0&SERVICE=WFS
 
-.. image:: /images/screenshots/800x600/mapbender_loadWFS.png
+.. image:: /images/screenshots/mapbender/mapbender_loadWFS.png
      :scale: 80 
 
 Создание конфигурации WFS
 ================================================================================
 На следующем шаге настроим конфигурацию WFS. После настройки и аутентификации в приложении, конфигурация может быть использована.
 
-.. image:: /images/screenshots/800x600/mapbender_configure_WFS_featureType.png
+.. image:: /images/screenshots/mapbender/mapbender_configure_WFS_featureType.png
      :scale: 80 
 
 **Конфигурация**
@@ -360,7 +360,7 @@ http://wms.wheregroup.com/geoserver/wfs?REQUEST=getCapabilities&VERSION=1.0.0&SE
 #. вашей конфигурации будет присвоен идентификатор.
 
 
-.. image:: /images/screenshots/800x600/mapbender_configure_WFS_featureType_attribute_table.png
+.. image:: /images/screenshots/mapbender/mapbender_configure_WFS_featureType_attribute_table.png
      :scale: 80 
 
 Назначение конфигурации WFS-приложению
@@ -371,7 +371,7 @@ http://wms.wheregroup.com/geoserver/wfs?REQUEST=getCapabilities&VERSION=1.0.0&SE
 #. Выберите приложение
 #. Переместите вашу конфигурацию *GUI configuration list* вправо
 
-.. image:: /images/screenshots/800x600/mapbender_set_featureType_access.png
+.. image:: /images/screenshots/mapbender/mapbender_set_featureType_access.png
      :scale: 80 
 
 
@@ -379,12 +379,12 @@ http://wms.wheregroup.com/geoserver/wfs?REQUEST=getCapabilities&VERSION=1.0.0&SE
 ================================================================================
 Для настройки WFS в приложении перейдите *admin_en_services -> Edit application elements* выберите ваше приложение и перейдите к элементу *gazetteerWFS*. Элемент имеет свойство *wfsConfIdString*. Здесь вы можете просмотреть список конфигураций WFS (разделены запятой). В порядке списка будут отображаться результаты поиска.
 
-.. image:: /images/screenshots/800x600/mapbender_wfsConfIdString.png
+.. image:: /images/screenshots/mapbender/mapbender_wfsConfIdString.png
      :scale: 80 
 
 Обратите внимание, как поиск может быть использован в вашем приложении. В примере ниже имеется фрейм слева, в котором осуществляется поиск пользователя Mapbender. Вы можете запустить пространственный поиск и определить регион или осуществить пространственный поиск. Результаты поиска будут отображены в специальной таблице. По щелчку на строке таблицы результатов Mapbender приближается к местоположению объекта и выводит детальную информацию.
 
-.. image:: /images/screenshots/800x600/mapbender_WFS_search.png
+.. image:: /images/screenshots/mapbender/mapbender_WFS_search.png
      :scale: 100
 
 Настройка возможности редактирования в WFS
@@ -395,7 +395,7 @@ http://wms.wheregroup.com/geoserver/wfs?REQUEST=getCapabilities&VERSION=1.0.0&SE
 
 Теперь вы можете искать с использованием пространственных запросов объекты, отображаемые в текущий момент на карте. Объекты могут быть изменены (перемещены, добавлены точки, отредактированы их атрибуты, разбиты или продолжены линии, объединены полигоны). Также вы можете создавать новые объекты.
 
-.. image:: /images/screenshots/800x600/mapbender_gui_digitize.png
+.. image:: /images/screenshots/mapbender/mapbender_gui_digitize.png
      :scale: 80 
 
 Что можно попробовать
