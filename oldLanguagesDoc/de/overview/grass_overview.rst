@@ -34,7 +34,7 @@ anspruchsvoller Präsentationsgrafiken und druckfertiger Karten. GRASS
 wurde bisher in mehr als 20 Sprachen übersetzt und unterstützt eine 
 Vielzahl unterschiedlichster Geodaten-Formate.
 
-.. image:: /images/screenshots/1024x768/grass-vectattrib.png
+.. image:: /images/screenshots/grass/grass-vectattrib.png
    :scale: 50 %
    :alt: screenshot
    :align: right

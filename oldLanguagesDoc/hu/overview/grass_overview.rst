@@ -36,7 +36,7 @@ optimalizálták. Alkalmas kifinomult prezentációk és nyomtatott térképek
 előállítására. A GRASS GIS-t sok nyelvre lefordították és az adatformátumok 
 óriási halmazát képes kezelni.
 
-.. image:: /images/screenshots/1024x768/grass-vectattrib.png
+.. image:: /images/screenshots/grass/grass-vectattrib.png
    :scale: 50 %
    :alt: képernyőkép
    :align: right

@@ -37,7 +37,7 @@ produce sophisticated presentation graphics and hardcopy maps. GRASS GIS has
 been translated into many languages and supports a huge array of data
 formats.
 
-.. image:: /images/screenshots/1024x768/grass-vectattrib.png
+.. image:: /images/screenshots/grass/grass-vectattrib.png
    :scale: 50 %
    :alt: screenshot
    :align: right

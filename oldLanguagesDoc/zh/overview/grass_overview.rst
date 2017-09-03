@@ -25,7 +25,7 @@ GRASS GIS
 
 　　Geographic Resources Analysis Support System，简称 GRASS GIS ，在同一个集成软件包中提供了强大的栅格、矢量和空间处理引擎。GRASS 包括空间建模工具、栅格和矢量数据可视化、地理空间数据管理与分析、以及卫片与航片处理等工具。此外，还提供高级图形显示和印刷地图输出功能。GRASS 现如今已经被翻译成 20 余种语言，支持大量的数据格式。
 
-.. image:: /images/screenshots/1024x768/grass-vectattrib.png
+.. image:: /images/screenshots/grass/grass-vectattrib.png
    :scale: 50 %
    :alt: screenshot
    :align: right

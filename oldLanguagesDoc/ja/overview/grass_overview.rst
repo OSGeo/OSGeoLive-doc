@@ -30,7 +30,7 @@ GRASSはには空間モデル、ラスタおよびベクタデータの視覚化
 さらに、プレゼンテーション用のすばらしい画像の作成、地図の印刷も可能です。
 GRASSは現在20の言語に翻訳されており、多数のデータフォーマットに対応しています。
 
-.. image:: /images/screenshots/1024x768/grass-vectattrib.png
+.. image:: /images/screenshots/grass/grass-vectattrib.png
    :scale: 50 %
    :alt: スクリーンショット
    :align: right

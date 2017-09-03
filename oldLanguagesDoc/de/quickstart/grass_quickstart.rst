@@ -28,7 +28,7 @@ Um GRASS auf der Live DVD zu starten, klicken Sie auf den GRASS Link im Menü un
 Im "Welcome to GRASS GIS" Fenster wählen Sie den North Carolina Datensatz als Location 
 und "user1" als Mapset. Klicken Sie dann auf [*Start GRASS*].
 
-.. image:: /images/screenshots/800x600/grass-startup.png
+.. image:: /images/screenshots/grass/grass-startup.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -50,7 +50,7 @@ instead of the special PERMANENT Mapset, das die Projektions-Metadaten und Basis
 Karten anzeigen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/800x600/grass-layerman.png
+.. image:: /images/screenshots/grass/grass-layerman.png
   :scale: 50 %
   :alt: screenshot
   :align: left
@@ -75,7 +75,7 @@ Sie sollten nun die beiden Karten im Kartenfenster sehen.
 Ein Höhenprofil erstellen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/800x600/grass-profile.png
+.. image:: /images/screenshots/grass/grass-profile.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -103,7 +103,7 @@ Reiter an, wenn Sie wollen (die Standards sind aber bereits ok), und klicken
 Sie dann auf [*Run*]. Sie können nun das Fenster des *r.surf.fractal* Moduls 
 schließen mit dem Knopf [Schließen].
 
-.. image:: /images/screenshots/800x600/grass-fractal.png
+.. image:: /images/screenshots/grass/grass-fractal.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -126,7 +126,7 @@ und wählen Sie einen Eintrag aus. Klicken Sie auf den [Los] Knopf und schließe
 Erstellen einer Reliefschattierung
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/800x600/grass-shadedrelief.png
+.. image:: /images/screenshots/grass/grass-shadedrelief.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -176,7 +176,7 @@ und wählen Sie "Deckkraft ändern". Setzen Sie den Wert auf 50%
 und rendern Sie 
 die Karte nochmal.
 
-.. image:: /images/screenshots/800x600/grass-watersheds.png
+.. image:: /images/screenshots/grass/grass-watersheds.png
   :scale: 50 %
   :alt: screenshot
   :align: left
@@ -215,7 +215,7 @@ Vektorumgebung.
 3D Visualisierung
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/1024x768/grass-nviz.png
+.. image:: /images/screenshots/grass/grass-nviz.png
   :scale: 50 %
   :alt: screenshot
   :align: right

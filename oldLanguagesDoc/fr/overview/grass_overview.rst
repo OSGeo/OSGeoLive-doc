@@ -31,7 +31,7 @@ Il est également capable de produire des représentations graphiques sophistiqu
 papier. GRASS est aujourd'hui traduit dans vingt langues et supporte un très grand nombre de formats
 de données.
 
-.. image:: /images/screenshots/1024x768/grass-vectattrib.png
+.. image:: /images/screenshots/grass/grass-vectattrib.png
    :scale: 50 %
    :alt: capture d'écran
    :align: right

@@ -32,7 +32,7 @@ obrazów satelitarnych i zdjęć lotniczych. Pozwala również na tworzenie
 wyrafinowanych prezentacji graficznych oraz map. GRASS jest przetłumaczony 
 na 20 języków, a także obsługuje wiele formatów danych.
 
-.. image:: /images/screenshots/1024x768/grass-vectattrib.png
+.. image:: /images/screenshots/grass/grass-vectattrib.png
   :scale: 50 %
   :alt: screenshot
   :align: right

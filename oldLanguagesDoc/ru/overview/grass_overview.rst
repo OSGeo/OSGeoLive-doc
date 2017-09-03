@@ -35,7 +35,7 @@ GRASS включает средства для пространственног�
 В настоящее время GRASS переведена на 20 языков и поддерживает множество
 форматов данных.
 
-.. image:: /images/screenshots/1024x768/grass-vectattrib.png
+.. image:: /images/screenshots/grass/grass-vectattrib.png
    :scale: 50 %
    :alt: screenshot
    :align: right

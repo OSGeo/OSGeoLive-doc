@@ -39,7 +39,7 @@ the :menuselection:`Geospatial --> Desktop GIS` menu.
 From the "Welcome to GRASS GIS " window select the North Carolina dataset
 for the location, and "user1" for the mapset, then click on [*Start GRASS*].
 
-.. image:: /images/screenshots/800x600/grass-startup.png
+.. image:: /images/screenshots/grass/grass-startup.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -62,7 +62,7 @@ This will launch GRASS into the `graphical user interface (written in wxPython) 
 Displaying maps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/800x600/grass-layerman.png
+.. image:: /images/screenshots/grass/grass-layerman.png
   :scale: 50 %
   :alt: screenshot
   :align: left
@@ -87,7 +87,7 @@ You should now see the maps displayed.
 Plot an elevation profile
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/800x600/grass-profile.png
+.. image:: /images/screenshots/grass/grass-profile.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -118,7 +118,7 @@ give your new map a name; and adjust any options you like in the "Optional"
 tab (the defaults are fine); and click [*Run*]. You can then [*Close*] the
 *r.surf.fractal* module's dialog window.
 
-.. image:: /images/screenshots/800x600/grass-fractal.png
+.. image:: /images/screenshots/grass/grass-fractal.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -143,7 +143,7 @@ window. The colors should then update automatically.
 Create a shaded relief map
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/800x600/grass-shadedrelief.png
+.. image:: /images/screenshots/grass/grass-shadedrelief.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -194,7 +194,7 @@ to lower down in the layer list if you wish for it to be drawn behind the
 watershed basins map layer, and make sure to tick its visibility box to
 view it as a backdrop.
 
-.. image:: /images/screenshots/800x600/grass-watersheds.png
+.. image:: /images/screenshots/grass/grass-watersheds.png
   :scale: 50 %
   :alt: screenshot
   :align: left
@@ -237,7 +237,7 @@ and modules are every bit as full-featured as the raster ones. GRASS GIS
 maintains a fully topological vector engine which allows all sorts
 of very powerful analyses.
 
-.. image:: /images/screenshots/1024x768/grass-vectattrib.png
+.. image:: /images/screenshots/grass/grass-vectattrib.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -266,7 +266,7 @@ from the list. Once done click the [*Run*] button and close the *v.colors*
 dialog window. You may need to re-draw the map to see the colorized vector
 map.
 
-.. image:: /images/screenshots/800x600/grass-vector-basins.png
+.. image:: /images/screenshots/grass/grass-vector-basins.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -311,7 +311,7 @@ and mesas show up in the ``Map Display``.
 3D visualization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/1024x768/grass-nviz.png
+.. image:: /images/screenshots/grass/grass-nviz.png
   :scale: 50 %
   :alt: screenshot
   :align: right
