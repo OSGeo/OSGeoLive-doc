@@ -229,7 +229,7 @@ Add new observations
     #. Click the "Plot" button and check that the data have been added (watch out at your time zone!)
 
 
-.. image:: /images/screenshots/1024x768/istsos_viewer.png
+.. image:: /images/screenshots/istsos/istsos_viewer.png
   :scale: 50 %
 
 .. Edit data with the CALCULATOR
