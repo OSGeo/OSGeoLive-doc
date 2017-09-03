@@ -40,25 +40,25 @@ Arranque de |GN|
 - La aplicación tardará unos momentos en arrancar.
 - Vaya a la página principal de |GN| en http://localhost:8880/geonetwork. La primera vista de |GN| debería asemejarse a la siguiente captura de pantalla.
 
-.. figure:: /images/screenshots/800x600/geonetwork-firstviews.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-firstviews.png
 
 - Para utilizar |GN| en español, seleccione 'Español' en el desplegable situado en la esquina superior derecha.
 - Para aprender a manejar |GN| se va a agregar un conjunto de metadatos de ejemplo. Identifíquese en |GN| escribiendo el nombre de usuario *admin* y la contraseña *admin* en los campos de texto designados a tal efecto en la esquina superior derecha de la pantalla, y clique en el botón de 'Iniciar Sesión'.
 
-.. figure:: /images/screenshots/800x600/geonetwork-login.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-login.png
 
 - Debería haber aparecido un enlace *Administrador* en la cabecera. Clique en el enlace.
 
-.. figure:: /images/screenshots/800x600/geonetwork-administration-banner.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-administration-banner.png
 
 - Una vez en la página de *Administrador*, desplácese hasta el final de la página y cargue los datos de ejemplo clicando en el último botón, 'Añadir metadatos de ejemplo'.
 
-.. figure:: /images/screenshots/800x600/geonetwork-addsampledatabutton.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-addsampledatabutton.png
 
 - Al cabo de unos instantes, se le notificará que los datos han sido cargados.
 - Regrese entonces a la página principal (enlace 'Inicio' en la cabecera) para seguir los pasos de esta guía de inicio rápido. Al regresar a la página principal, la pantalla será similar a la mostrada a continuación.
 
-.. figure:: /images/screenshots/800x600/geonetwork-returntohomepage.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-returntohomepage.png
 
 Búsquedas
 --------------------------------------------------------------------------------
@@ -79,7 +79,7 @@ Teclee un término de búsqueda en el campo *¿QUÉ?*. Escriba aquí cualquier c
 
 El texto introducido y los operadores lógicos ('*and*', '*or*', '*not*') no distinguen entre mayúsculas y minúsculas.
 
-.. figure:: /images/screenshots/800x600/geonetwork-what.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-what.png
 
   *Campo de texto libre*
 	
@@ -89,13 +89,13 @@ Existen dos alternativas para definir el área geográfica en la que realizar la
 
 - Puede seleccionarse una **región** dentro de una lista predefinida;
 
-.. figure:: /images/screenshots/800x600/geonetwork-where1.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-where1.png
   
   *Selector de región*
 
 - O bien puede definirse un *área de interés* de un modo más interactivo. En la sección *¿PAÍS/REGIÓN?* se muestra un pequeño mapa de situación global sobre el que se puede delimitar manualmente el encuadre de interés clicando y arrastrando. Para ello, debe seleccionarse la herramienta de la derecha situada en la barra superior del mapa.
 
-.. figure:: /images/screenshots/800x600/geonetwork-where2.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-where2.png
   
   *Selección interactiva del Área de Interés*
 
@@ -105,7 +105,7 @@ Ambos tipos de búsqueda, de texto libre y por área geográfica, pueden combina
 
 Clique el botón *Buscar* para mostrar los resultados.
 
-.. figure:: /images/screenshots/800x600/geonetwork-search_button.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-search_button.png
 
   *El botón de búsqueda*
 
@@ -116,7 +116,7 @@ Un método alternativo para realizar búsquedas en la base de datos de |GN| desd
 
 Para mostrar sólo los mapas, seleccione **Mapas & gráficos**. Se mostrará la lista de mapas disponibles. Para consultar todos los detalles de un mapa, clique sobre **Página de Metadatos**.
 
-.. figure:: /images/screenshots/800x600/geonetwork-Categories.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-Categories.png
 
   *Búsqueda por Categoría*
   
@@ -125,13 +125,13 @@ Búsqueda Experta
 
 La opción de búsqueda experta funciona de forma similar a la búsqueda simple, pero permite ser más específico en los criterios de búsqueda, al proporcionar nuevos criterios de búsqueda: *¿QUÉ?, ¿PAÍS/REGIÓN?, ¿CUÁNDO?* 
 
-.. figure:: /images/screenshots/800x600/geonetwork-advanced_search1.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search1.png
 
   *Opciones de búsqueda experta*
 
 Para realizar una **búsqueda experta**, clique **Experta**, bajo el botón Buscar.
 
-.. figure:: /images/screenshots/800x600/geonetwork-advanced_search_button.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_button.png
 
   *Mostrar las opciones de búsqueda experta*
 
@@ -143,7 +143,7 @@ En la sección **¿QUÉ?**, los criterios de búsqueda se refieren al contenido 
 
 - Puede indicarse la **Precisión** de la búsqueda, basada en una medida de similitud en el deletreo de las palabras, desde **Exacto** = 1 hasta **Impreciso** = 0.2, con tres pasos intermedios que se corresponden con valores de similitud 0.8, 0.6 y 0.4 respectivamente.
 
-.. figure:: /images/screenshots/800x600/geonetwork-advanced_search_what.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_what.png
 
   *Sección "¿QUÉ?" en la búsqueda experta*
 
@@ -155,7 +155,7 @@ La sección **¿PAÍS/REGIÓN?** están relacionados con la extensión geográfi
 
 - Para situar el ámbito geográfico en una **Región predefinida**, selecciónela en el desplegable.
 
-.. figure:: /images/screenshots/800x600/geonetwork-advanced_search_where.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_where.png
 
   *Sección "¿PAÍS/REGIÓN?" en la Búsqueda experta*
 
@@ -175,7 +175,7 @@ La sección **¿CUÁNDO?** proporciona la posiblidad de restringir la búsqueda 
 
 - Para borrar las restricciones temporales, clique en la X blanca a su derecha; la opción **Cualquier momento** se seleccionará automáticamente, y se realizará la búsqueda sin aplicar restricciones temporales.
 
-.. figure:: /images/screenshots/800x600/geonetwork-advanced_search_when.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_when.png
 
   *Sección "¿CUÁNDO?" en la búsqueda experta*
 
@@ -189,7 +189,7 @@ Por último, puede elegir en **Opciones** el número de elementos por página de
 
 - Clique el botón **Search**.
 
-.. figure:: /images/screenshots/800x600/geonetwork-advanced_search_morerest.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_morerest.png
 
   *Opciones adicionales de la búsqueda experta*
 
@@ -198,7 +198,7 @@ Resultados de la búsqueda
 
 El resultado de una búsqueda consiste una lista de los registros de metadatos que cumplen las condiciones indicadas. Para cada registro, la página de resultados muestra el título, un resumen y la lista de palabras clave. Dependiendo de los privilegios que hayan sido otorgados, pueden consultarse hasta cuatro secciones de metadatos, tal como se muestra a continuación.
 
-.. figure:: /images/screenshots/800x600/geonetwork-search_output2.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-search_output2.png
 
     *Resultados de la búsqueda*
 
@@ -206,23 +206,23 @@ El resultado de una búsqueda consiste una lista de los registros de metadatos q
 
 #. **Descarga**: Según los privilegios que se haya asignado al registro se mostrará un botón de descarga, que permite recuperar el conjunto de datos. El proceso para obtener los datos es rápido y simple, bien clicando el boton de descarga, o bien accediendo al enlace en la sección de "información de distribución" en la vista completa del registro de metadatos.
 
-.. figure:: /images/screenshots/800x600/geonetwork-search_output1.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-search_output1.png
     
         *Un único resultado de búsqueda*
     
-.. figure:: /images/screenshots/800x600/geonetwork-download.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-download.png
     
         *Servicios disponibles relativos al recurso*
 
 #. **Mapa Interactivo**: La secció de servicio de mapa también es opcional. Cuando se muestre este botón, se puede acceder a un servicio de mapa interactivo para la capa, que se podrá cargar en un visualizador interactivo. Para ello, clique en el enlace de *Recurso en línea* y **Mostrar mapa** en la parte superior del panel de resultados.
 
-.. figure:: /images/screenshots/800x600/geonetwork-interactive_map.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-interactive_map.png
     
         *El visualizador de mapas interactivo*
 
 #. **Vistas previas**: Existen dos vistas previas, una pequeña y otra grande, que permiten realizar una primera evaluación visual de los datos. Estas vistas son especialmente útiles cuando no se dispone de un servicio de mapa interactivo. Clique sobre la vista pequeña en la lista de resultados para obtener la vista mayor.
 
-.. figure:: /images/screenshots/800x600/geonetwork-thumbnail.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-thumbnail.png
     
         *Vista previa grande*
 
@@ -235,7 +235,7 @@ Cualquier usuario puede buscar y acceder sin restricciones a la **información p
 
 Para identificarse, vaya a la página principal y escriba su nombre de usuario y su contraseña en los campos de la esquina superior derecha de la página. Clique el botón de *Iniciar Sesión*.
 
-.. figure:: /images/screenshots/800x600/geonetwork-login.png
+.. figure:: /images/screenshots/geonetwork/geonetwork-login.png
 
     *Iniciar Sesión*
 

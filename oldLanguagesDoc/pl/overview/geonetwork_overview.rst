@@ -30,7 +30,7 @@ metadanych oraz narzędzia do przeszukiwania, a także wbudowaną interaktywną
 przeglądarkę map. Aplikacja bazuje na otwartych standardach.
 
 
-.. image:: /images/screenshots/1024x768/geonetwork-overview.jpg
+.. image:: /images/screenshots/geonetwork/geonetwork-overview.jpg
   :scale: 50 %
   :alt: project logo
   :align: right

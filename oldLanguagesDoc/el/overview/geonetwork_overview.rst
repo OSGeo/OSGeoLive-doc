@@ -22,7 +22,7 @@ GeoNetwork
 
 Το GeoNetwork OpenSource είναι μια εφαρμογή καταλόγου για τη διαχείριση χωρικά ορισμένων πηγών. Παρέχει ισχυρές δυνατότητες επεξεργασίας και αναζήτησης μεταδεδομένων, έναν ενσωματωμένο δυναμικό διαδικτυακό χάρτη, και είναι βασισμένο σε ανοιχτά πρότυπα.
 
-.. image:: /images/screenshots/1024x768/geonetwork-overview.jpg
+.. image:: /images/screenshots/geonetwork/geonetwork-overview.jpg
   :scale: 50 %
   :alt: project logo
   :align: right
