@@ -28,7 +28,7 @@ OSGeo North Carolina, USA Educational dataset
 
 * 1-3ma 解像度データによる農村地域の小流域（画像を参照）
 
-.. image:: /images/screenshots/1024x768/north_carolina_dataset_nviz.jpg
+.. image:: /images/screenshots/nc_dataset/north_carolina_dataset_nviz.jpg
   :scale: 60 %
   :alt: North Carolina dataset screenshot
   :align: right

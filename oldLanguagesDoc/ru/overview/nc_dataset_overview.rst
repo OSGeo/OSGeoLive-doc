@@ -31,7 +31,7 @@
 
 * небольшой участок в сельской местности с растровыми данными разрешением 1-3 м (см. изображение).
 
-.. image:: /images/screenshots/1024x768/north_carolina_dataset_nviz.jpg
+.. image:: /images/screenshots/nc_dataset/north_carolina_dataset_nviz.jpg
   :scale: 60 %
   :alt: North Carolina dataset screenshot
   :align: right

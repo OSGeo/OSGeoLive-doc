@@ -33,7 +33,7 @@ Los datos son proporcionados en tres niveles jerárquicos:
 
 * una pequeña cuenca en área rural con resoluciones de datos de 1m-3m (ver imagen).
 
-.. image:: /images/screenshots/1024x768/north_carolina_dataset_nviz.jpg
+.. image:: /images/screenshots/nc_dataset/north_carolina_dataset_nviz.jpg
   :scale: 60 %
   :alt: Captura de pantalla del conjunto de datos de Carolina del Norte
   :align: right
