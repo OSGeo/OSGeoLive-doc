@@ -81,7 +81,7 @@ the Managed Extensibility Framework, making it more easy and flexible to create 
 -------------------------------------------------------------------------------
 2.3 Adding data layers
 -------------------------------------------------------------------------------
-.. image:: /images/screenshots/800x600/Mapwindow_LayerProperties.png
+.. image:: /images/screenshots/mapwindow/Mapwindow_LayerProperties.png
   :alt: Layer properties
   :align: right
   :scale: 80 % 
@@ -121,7 +121,7 @@ Tiles will be warped to the projection of the map, which is determined by the fi
 -------------------------------------------------------------------------------
 2.4 Projections
 -------------------------------------------------------------------------------
-.. image:: /images/screenshots/800x600/Mapwindow_SetMapProjection.png
+.. image:: /images/screenshots/mapwindow/Mapwindow_SetMapProjection.png
   :alt: Set map projection
   :align: right
   :scale: 80 %
