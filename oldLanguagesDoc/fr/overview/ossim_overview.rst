@@ -35,7 +35,7 @@ Il embarque de nombreux utilitaires de ligne de commande, des applications graph
 Éléments centraux
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/800x600/ossim-imagelinker.jpg
+.. image:: /images/screenshots/ossim/ossim-imagelinker.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

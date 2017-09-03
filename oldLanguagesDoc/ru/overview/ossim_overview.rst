@@ -41,7 +41,7 @@ OSSIM разрабатывается как набор высокопроизв�
 Базовые функции
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/800x600/ossim-imagelinker.jpg
+.. image:: /images/screenshots/ossim/ossim-imagelinker.jpg
   :scale: 50 %
   :alt: Скриншот
   :align: right

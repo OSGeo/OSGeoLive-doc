@@ -33,7 +33,7 @@ OSSIM
 Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/800x600/ossim-imagelinker.jpg
+.. image:: /images/screenshots/ossim/ossim-imagelinker.jpg
   :scale: 70 %
   :alt: screenshot
   :align: right

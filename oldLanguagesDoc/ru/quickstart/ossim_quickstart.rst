@@ -37,7 +37,7 @@ ImageLinker
 * Затем :menuselection:`Image window --> select the pan icon --> click on the image --> press the button "propagate"`
 * Убедитесь, что вы видите 3 серых спутниковых снимка.
 
-  .. image:: /images/screenshots/800x600/ossim_imagelinker2.jpg
+  .. image:: /images/screenshots/ossim/ossim_imagelinker2.jpg
      :scale: 100 %
 
 Развернутое описание можно найти в `блоге`_.

@@ -39,7 +39,7 @@ wurden entwickelt - von denen mehrere in dem Softwarepaket enthalten sind.
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/800x600/ossim-imagelinker.jpg
+.. image:: /images/screenshots/ossim/ossim-imagelinker.jpg
   :scale: 70 %
   :alt: Bildschirmfoto
   :align: right

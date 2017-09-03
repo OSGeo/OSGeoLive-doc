@@ -38,7 +38,7 @@ e sistemi integrati; molti di questi sono forniti con la distribuzione del softw
 Caratteristiche principali
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/800x600/ossim-imagelinker.jpg
+.. image:: /images/screenshots/ossim/ossim-imagelinker.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

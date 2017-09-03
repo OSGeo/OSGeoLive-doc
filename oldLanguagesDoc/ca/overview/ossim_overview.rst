@@ -33,7 +33,7 @@ Diverses utilitats de línia de comandes, aplicacions GUI i sistemes integrats h
 Característiques principals
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/800x600/ossim-imagelinker.jpg
+.. image:: /images/screenshots/ossim/ossim-imagelinker.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

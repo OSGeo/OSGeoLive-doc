@@ -35,7 +35,7 @@ Imagelinker
 * 选择 :menuselection:`image window --> pan 图标 --> 点击影像 --> 点击 "propagate"` ；
 * 窗口中应出现三幅灰阶影像。
 
-  .. image:: /images/screenshots/800x600/ossim_imagelinker2.jpg
+  .. image:: /images/screenshots/ossim/ossim_imagelinker2.jpg
      :scale: 100 %
 
 　　更多内容请看相关 `博文`_ 。

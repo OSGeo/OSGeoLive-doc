@@ -33,7 +33,7 @@ Se han implementado muchas utilidades en la línea de comandos, aplicaciones GUI
 Funciones principales
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/800x600/ossim-imagelinker.jpg
+.. image:: /images/screenshots/ossim/ossim-imagelinker.jpg
   :scale: 70 %
   :alt: screenshot
   :align: right

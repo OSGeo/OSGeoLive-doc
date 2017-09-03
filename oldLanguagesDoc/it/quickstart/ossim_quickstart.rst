@@ -40,7 +40,7 @@ Imagelinker
 * Selezionare un :menuselection:`image window --> select the pan icon --> click on the image --> press the button "propagate"`
 * Verificare che si veda 3 immagini satellitari a scale di grigio. 
 
-  .. image:: /images/screenshots/800x600/ossim_imagelinker2.jpg
+  .. image:: /images/screenshots/ossim/ossim_imagelinker2.jpg
      :scale: 100 %
 
 Per un tutorial completo vedere questo `articolo di un blog`_.
