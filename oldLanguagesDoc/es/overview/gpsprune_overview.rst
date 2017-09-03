@@ -31,7 +31,7 @@ GpsPrune corre en Mac OSX, Windows y Linux, y está disponible en más de diez i
 Características principales
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/1024x768/prune_denver.png
+.. image:: /images/screenshots/prune/prune_denver.png
   :scale: 50 %
   :alt: screenshot
   :align: right

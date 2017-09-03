@@ -29,7 +29,7 @@ verschiedenen Sprachen verfügbar.
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/1024x768/prune_denver_de.png
+.. image:: /images/screenshots/prune/prune_denver_de.png
   :scale: 50 %
   :alt: screenshot
   :align: right

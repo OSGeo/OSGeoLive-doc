@@ -35,7 +35,7 @@ różnych językach.
 Główne funkcje
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/1024x768/prune_denver.png
+.. image:: /images/screenshots/prune/prune_denver.png
   :scale: 50 %
   :alt: screenshot
   :align: right

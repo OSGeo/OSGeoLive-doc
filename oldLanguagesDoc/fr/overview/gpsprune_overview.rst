@@ -29,7 +29,7 @@ dans plus de dix langues différentes.
 Caractéristiques principales
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/1024x768/prune_denver.png
+.. image:: /images/screenshots/prune/prune_denver.png
   :scale: 50 %
   :alt: Capture d'écran
   :align: right
