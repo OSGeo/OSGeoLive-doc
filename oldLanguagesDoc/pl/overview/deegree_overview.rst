@@ -28,7 +28,7 @@ deegree dostarcza geoprzestrzennych usług sieciowych bazujących na specyfikacj
 * `Catalogue Services for the Web (CSW) <http://www.opengeospatial.org/standards/cat>`_: Performs searches for geospatial datasets and services
 * `Web Processing Services (WPS) <http://www.opengeospatial.org/standards/wps>`_: Executes geospatial processes
 
-.. image:: /images/screenshots/1024x768/deegree_mainpage.png
+.. image:: /images/screenshots/deegree/deegree_mainpage.png
   :scale: 55 %
   :alt: TBD
   :align: right

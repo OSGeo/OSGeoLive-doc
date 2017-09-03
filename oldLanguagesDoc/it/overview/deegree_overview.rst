@@ -39,7 +39,7 @@ nonché i servizi di sensori e di elaborazione.
 deegree rende il vostro SDI installato e funzionante, utilizzando i vostri dati e 
 soddisfacendo le vostre esigenze.
 
-.. image:: /images/screenshots/1024x768/deegree_mainpage.png
+.. image:: /images/screenshots/deegree/deegree_mainpage.png
   :scale: 50%
   :alt: project logo
   :align: right

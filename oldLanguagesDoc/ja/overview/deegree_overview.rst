@@ -26,7 +26,7 @@ deegreeはウェブおよびデスクトップの地理情報システム（GIS�
 
 deegreeは貴方のSDIの価値を高め、貴方自身のデータを実行、利用させ、要求を十分に満たします。
 
-.. image:: /images/screenshots/1024x768/deegree_mainpage.png
+.. image:: /images/screenshots/deegree/deegree_mainpage.png
   :scale: 55 %
   :alt: TBD
   :align: right
