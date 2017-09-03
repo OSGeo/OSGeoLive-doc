@@ -21,7 +21,7 @@ utilizzando il formato standard GRIB.
 Caratteristiche principali
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/1024x768/zygrib_xynthia_010b.jpg
+.. image:: /images/screenshots/zygrib/zygrib_xynthia_010b.jpg
   :scale: 40 %
   :alt: screenshot
   :align: right
