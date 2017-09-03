@@ -22,7 +22,7 @@ de données géospatiale et utilise une structuration de la donnée basée sur l
 de l'Open Geospatial Consortium (OGC).
 
 
-.. image:: /images/screenshots/800x600/geotools-overview.png
+.. image:: /images/screenshots/geotools/geotools-overview.png
   :scale: 60 %
   :alt: GeoTools is a modular library supported by plugins for additional formats
   :align: right
@@ -66,7 +66,7 @@ de l'OSGeo-live DVD qui embarque GeoTools sont :
   * Permet l'ajout de possibilités de construction utilisant les possibilités des éléments 
     centraux de la librairie
   
-  .. image:: /images/screenshots/800x600/geotools-extension.png
+  .. image:: /images/screenshots/geotools/geotools-extension.png
      :alt: Extensions built using the GeoTools library
 
   * Les extensions permettent de construire de graphe de réseau (pour trouver le chemin le plus court), la validation,

@@ -20,7 +20,7 @@ GeoTools
 
 GeoTools és una llibreria Java de codi obert (LGPL) que proporciona mètodes que compleixen estàndards per manipular geodades, i usa estructures de dades basades en les especificacions de l'Open Geospatial Consortium (OGC).
 
-.. image:: /images/screenshots/800x600/geotools-overview.png
+.. image:: /images/screenshots/geotools/geotools-overview.png
   :scale: 60 %
   :alt: GeoTools és una llibreria modular amb suport per complements per a formats addicionals
   :align: right
@@ -59,7 +59,7 @@ Característiques principals
 
   * Proporciona capacitats addicionals construïdes usant les facilitats espacials de la llibreria.
   
-  .. image:: /images/screenshots/800x600/geotools-extension.png
+  .. image:: /images/screenshots/geotools/geotools-extension.png
      :alt: Extensions construïdes usant la llibreria GeoTools
 
   * Les extensions proporcionen suport de graf i xarxa (per trobar el recorregut més curt), validació, un client per al servidor web de mapes, enllaços per anàlisi xml i triador de colors.
