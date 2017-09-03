@@ -21,7 +21,7 @@ Gracias al uso de Modelos Digitales de Elevaciones (MDE, *DEM* por sus siglas en
 
 Organizaciones de todo el mundo utilizan WorldWind para hacer seguimiento de patrones meteorológicos, visualizar ciudades y terrenos, monitorizar el movimiento de aviones, vehículos y barcos, analizar información geoespacial y es usado en proyectos de educación sobre la Tierra.
 
-.. image:: /images/projects/javaworldwind/javaworldwind_main.png
+.. image:: /images/projects/worldwindjava/javaworldwind_main.png
  :scale: 50 %
  :alt: WorldWind Java Example
  :align: right

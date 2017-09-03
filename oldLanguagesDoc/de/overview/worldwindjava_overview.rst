@@ -25,7 +25,7 @@ Weltweit nutzen Organisation WorldWind um Wettermuster, Städte und Gelände,
 die Bewegungen von Flugzeugen, Fahrzeugen und Schiffen zu visulalisieren und 
 räumliche Daten zu analysieren sowie in der Lehre.
 
-.. image:: /images/projects/javaworldwind/javaworldwind_main.png
+.. image:: /images/projects/worldwindjava/javaworldwind_main.png
  :scale: 50 %
  :alt: Java World Wind Example
  :align: right
