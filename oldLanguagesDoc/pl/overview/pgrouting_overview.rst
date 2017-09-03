@@ -29,7 +29,7 @@ Zalety bazodanowego podejścia do trasowania:
 * Zmiany danych mogą być natychmiast odzwierciedlone w trasowaniu. Nie map potrzeby wstępnych kalkulacji.
 * Parametr "kosztu" może być dynamicznie obliczany za pomocą SQL a jego wartość może wynikać z wielu pól lub tabel.
 
-.. image:: /images/screenshots/800x600/pgrouting.png
+.. image:: /images/screenshots/pgrouting/pgrouting.png
   :scale: 60 %
   :alt: pgRouting query in pgAdminIII
   :align: right

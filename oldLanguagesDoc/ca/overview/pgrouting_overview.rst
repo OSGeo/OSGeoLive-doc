@@ -33,7 +33,7 @@ Els avantatges del càlcul de rutes sobre una base de dades són:
 * Els canvis en les dades es poden reflectir automàticament a través del motor de càlcul de rutes. No cal fer cap càlcul previ.
 * El paràmetre "cost" es pot calcular de manera dinàmica per mitjà de SQL i el seu valor pot provenir de diversos camps i taules. 
 
-.. image:: /images/screenshots/800x600/pgrouting.png
+.. image:: /images/screenshots/pgrouting/pgrouting.png
   :scale: 60 %
   :alt: consulta pgRouting en pgAdminIII
   :align: right

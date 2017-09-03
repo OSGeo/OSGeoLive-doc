@@ -30,7 +30,7 @@ pgRouting は地理空間における経路探索や他のネットワーク解�
 
 pgRouting は GPLv2 ライセンスで提供され、個人、企業及び団体からなる、成長中のコミュニティによってサポートされています。
 
-.. image:: /images/screenshots/800x600/pgrouting.png
+.. image:: /images/screenshots/pgrouting/pgrouting.png
   :scale: 70 %
   :alt: pgRouting query in pgAdminIII
   :align: right

@@ -30,7 +30,7 @@ Les avantages de l'approche par routage de la base de données sont :
 
 pgRouting est disponible sous licence GPLv2 et est maintenu par une communauté de particuliers, d'entreprises et d'organisations.
 
-.. image:: /images/screenshots/800x600/pgrouting.png
+.. image:: /images/screenshots/pgrouting/pgrouting.png
   :scale: 70 %
   :alt: requête pgRouting dans pgAdminIII
   :align: right
