@@ -36,52 +36,52 @@ Avviare MapSlicer
 
 2. Seleziona **Tile Profile**. Scegli *Image Based Tiles (raster)* for standard web publishing. Clicca *Continue*.
 
-.. image:: /images/screenshots/1024x768/mapslicer1.jpg
+.. image:: /images/screenshots/mapslicer/mapslicer1.jpg
     :align: center
 
 3. Scegli il **Source Data Files**. Sfoglia per selezionare l'immagine raster che vuoi dividere. E` anche possibile scegliere un colore per i NODATA che appariranno trasparenti nell'immagine risultante. Clicca *Continue*.
 
-.. image:: /images/screenshots/1024x768/mapslicer2.jpg
+.. image:: /images/screenshots/mapslicer/mapslicer2.jpg
     :align: center
 
 4. Specifica il **sistema di riferimento (Spatial Reference System / Coordinate System)** dell'immagine. Specifica il codice id-number dal database EPSG. Clicca *Continue*.
 
-.. image:: /images/screenshots/1024x768/mapslicer3.jpg
+.. image:: /images/screenshots/mapslicer/mapslicer3.jpg
     :align: center
 
 5. Specifica i dettagli riguardo le **Tile Pyramid**. Le impostazioni automatiche per i livelli di zoom e il formato del file sono spesso le migliori. Clicca *Continue*.
 
-.. image:: /images/screenshots/1024x768/mapslicer4.jpg
+.. image:: /images/screenshots/mapslicer/mapslicer4.jpg
     :align: center
 
 6. Specifica i dettagli riguardo la **cartella di destinazione e indirizzi (Destination folder and Addresses / URLs)** per l'insieme di tile. Se non le conosci, possono essere aggiunte nei file di default *googlemaps.html* e *openlayers.html* dopo la separazione in tile. Clicca *Continue*.
 
-.. image:: /images/screenshots/1024x768/mapslicer5.jpg
+.. image:: /images/screenshots/mapslicer/mapslicer5.jpg
     :align: center
 
 7. Spunta **Visualizzatori che devono essere generati (Viewers that should be generated)**. In automatico, viene generato un file *openlayers.html*. Clicca *Continue*.
 
-.. image:: /images/screenshots/1024x768/mapslicer6.jpg
+.. image:: /images/screenshots/mapslicer/mapslicer6.jpg
     :align: center
 
 8. Specifica i **Dettagli per generare i visualizzatori (Details for generating the Viewers)**, come il titolo, il copyright, e le chiavi API. Se non le conosci, possono essere aggiunte nei file di default *googlemaps.html / openlayers.html* dopo la separazione in tile. Clicca *Continue*.
 
-.. image:: /images/screenshots/1024x768/mapslicer7.jpg
+.. image:: /images/screenshots/mapslicer/mapslicer7.jpg
     :align: center
 
 9. Clicca **Render** per cominciare a rappresentare l'immagine.
 
-.. image:: /images/screenshots/1024x768/mapslicer8.jpg
+.. image:: /images/screenshots/mapslicer/mapslicer8.jpg
     :align: center
 
 10. Una volta completato, MapSlicer fornisce un link al gruppo di tile completo.
 
-.. image:: /images/screenshots/1024x768/mapslicer9.jpg
+.. image:: /images/screenshots/mapslicer/mapslicer9.jpg
     :align: center
 
 11. Apri il file *openlayers.html* in un browser per visualizzare il gruppo di tile come sovrapposizione sulla mappa online. Per pubblicare sul web, copia l'intero gruppo di tile e tutte le cartelle secondarie in un server web, e modifica i file googlemaps.html o openlayers.html come richiesto.
 
-.. image:: /images/screenshots/1024x768/mapslicer10.jpg
+.. image:: /images/screenshots/mapslicer/mapslicer10.jpg
     :align: center
 
 

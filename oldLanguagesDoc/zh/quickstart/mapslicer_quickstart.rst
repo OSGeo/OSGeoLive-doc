@@ -26,43 +26,43 @@ MapSlicer 快速入门文档
 
 2. 选择 **Tile Profile 切片格网定义** 。选择 *Google Maps Compatible (Spherical Mercator)* 适合标准的地图服务。若需要生成 KML 文件用于 Google Earth 等软件，请选择 *Google Earth (KML SuperOverlay)* 。点击 *Continue* 继续。
 
-.. image:: /images/screenshots/1024x768/mapslicer1.jpg
+.. image:: /images/screenshots/mapslicer/mapslicer1.jpg
     :width: 60 %
     :align: center
 
 3. 选择 **Source Data Files 源文件** 。指定需要制作切片的影象即可。 点击 *Continue* 继续。
 
-.. image:: /images/screenshots/1024x768/mapslicer2.jpg
+.. image:: /images/screenshots/mapslicer/mapslicer2.jpg
     :width: 60 %
     :align: center
 
 4. 定义 **Spatial Reference System / Coordinate System 坐标投影系统** 。定义可以使用 EPSG/ESRI 投影库的 ID 号。比如 `EPSG:27700 with TOWGS84 <http://help.maptiler.org/coordinates/europe/uk>`_ 是英国范围内常用的一个投影。点击*Continue* 继续。
 
-.. image:: /images/screenshots/1024x768/mapslicer3.jpg
+.. image:: /images/screenshots/mapslicer/mapslicer3.jpg
     :width: 60 %
     :align: center
 
 5. 确定 **Tile Pyramid 切片层级** 的具体设置。默认的比例和文件格式一般能够满足要求。点击 *Continue* 继续。
 
-.. image:: /images/screenshots/1024x768/mapslicer4.jpg
+.. image:: /images/screenshots/mapslicer/mapslicer4.jpg
     :width: 60 %
     :align: center
 
 6. 设定 **Destination folder and Addresses / URLs 目标路径** 。如果不能明确的话，可以在生成切片后将其加入 *googlemaps.html* 、*openlayers.html* 等配置。点击 *Continue* 继续。
 
-.. image:: /images/screenshots/1024x768/mapslicer5.jpg
+.. image:: /images/screenshots/mapslicer/mapslicer5.jpg
     :width: 60 %
     :align: center
 
 7. 勾选 **Viewers that should be generated 目标视图** 。默认配置为 *googlemaps.html* 和 *openlayers.html* 。若需要，可以生成一个 KML 图层用于 Google Earth 。点击 *Continue* 继续。
 
-.. image:: /images/screenshots/1024x768/mapslicer6.jpg
+.. image:: /images/screenshots/mapslicer/mapslicer6.jpg
     :width: 60 %
     :align: center
 
 8. 设置 **Details for generating the Viewers 视图配置细节** 。这里设计名称、版权声明、API Key 等。若不能明确，可以在生成切片后再编辑 *googlemaps.html / openlayers.html* 文件。点击 *Continue* 继续。
 
-.. image:: /images/screenshots/1024x768/mapslicer7.jpg
+.. image:: /images/screenshots/mapslicer/mapslicer7.jpg
     :width: 60 %
     :align: center
 
