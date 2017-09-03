@@ -23,7 +23,7 @@ Geopublisher
 
 Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
-.. image:: /images/screenshots/1024x768/geopublisher-overview.png
+.. image:: /images/screenshots/geopublisher/geopublisher-overview.png
   :scale: 40 %
   :alt: Εικόνα επεξεργασίας Άτλαντα με τον Geopublisher
   :align: right

@@ -24,7 +24,7 @@ Les característiques úniques de Geopublisher el fan especialment indicat en ca
 
 Característiques principals
 --------------------------------------------------------------------------------
-.. image:: /images/screenshots/1024x768/geopublisher-overview.png
+.. image:: /images/screenshots/geopublisher/geopublisher-overview.png
   :scale: 40 %
   :alt: screenshot of Geopublisher editing an atlas
   :align: right

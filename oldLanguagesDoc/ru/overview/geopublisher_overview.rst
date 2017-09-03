@@ -31,7 +31,7 @@ Geopublisher предоставляет инструменты для контр
 
 Базовые функции
 --------------------------------------------------------------------------------
-.. image:: /images/screenshots/1024x768/geopublisher-overview.png
+.. image:: /images/screenshots/geopublisher/geopublisher-overview.png
   :scale: 40 %
   :alt: скриншот процесса редактирования атласа в Geopublisher
   :align: right

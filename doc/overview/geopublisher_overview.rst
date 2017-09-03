@@ -23,7 +23,7 @@ Geopublisher's unique features make it especially applicable in the fields of in
 
 Core Features
 --------------------------------------------------------------------------------
-.. image:: /images/screenshots/1024x768/geopublisher-overview.png
+.. image:: /images/screenshots/geopublisher/geopublisher-overview.png
   :scale: 40 %
   :alt: screenshot of Geopublisher editing an atlas
   :align: right
