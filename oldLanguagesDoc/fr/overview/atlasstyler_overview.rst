@@ -30,7 +30,7 @@ ont accès à une base de données de symboles en ligne. Les utilisateurs peuven
 créer et enregistrer des symboles dans l'éditeur de symboles et les réutiliser 
 dans d'autres classifications ou dans d'autres projets.
 
-.. image:: /images/screenshots/1024x768/atlasstyler-overview.png
+.. image:: /images/screenshots/atlasstyler/atlasstyler-overview.png
   :scale: 40 %
   :alt: Capture d'écran AtlasStyler
   :align: right

@@ -29,7 +29,7 @@ uguale. Inoltre gli utenti hanno integrato l'accesso ad un database on-line di s
 Gli utenti possono creare e salvare i simboli con il SymbolEditor e riutilizzarli
 in altri progetti o classificazioni.
 
-.. image:: /images/screenshots/1024x768/atlasstyler-overview.png
+.. image:: /images/screenshots/atlasstyler/atlasstyler-overview.png
   :scale: 40 %
   :alt: screenshot
   :align: right
