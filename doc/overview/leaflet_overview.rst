@@ -17,7 +17,7 @@ Browser/Mobile Map Library
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-.. image:: /images/screenshots/1024x768/leaflet-overview.png
+.. image:: /images/screenshots/leaflet/leaflet-overview.png
   :scale: 50
   :alt: leaflet
   :align: right
