@@ -29,7 +29,7 @@ Web制图框架平台
 
 　　MapFish 还提供完整的面向 RIA 的 JavaScript 工具箱、JavaScript 测试环境、以及 JavaScript 代码压缩工具。JavaScript 工具箱由 `ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>` , `GeoExt <http://www.geoext.org>`_ JavaScript Toolkits 组成。
 
-.. image:: /images/screenshots/800x600/mapfish-screenshot.jpg
+.. image:: /images/screenshots/mapfish/mapfish-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

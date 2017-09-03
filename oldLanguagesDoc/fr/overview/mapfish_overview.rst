@@ -37,7 +37,7 @@ environnement JavaScript de test et des outils pour compresser le code
 JavaScript. La boîte à outils Javascript est composée des bibliothèques `ExtJS 
 <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>`  et `GeoExt <http://www.geoext.org>`_.
 
-.. image:: /images/screenshots/800x600/mapfish-screenshot.jpg
+.. image:: /images/screenshots/mapfish/mapfish-screenshot.jpg
   :scale: 50 %
   :alt: Capture d'écran de Mapfish
   :align: right
