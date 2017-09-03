@@ -85,7 +85,7 @@ que permeten visualitzar i manipular les dades PostGIS.
   Les captures de pantalla s'han de fer amb una resolució de pantalla de 1024x768.
   El fons d'escriptori no ha d'aparèixer degut a que pot canviar amb les versions.
 
-.. image:: /images/screenshots/800x600/pgadmin.png
+.. image:: /images/screenshots/pgadmin/pgadmin.png
   :scale: 55 %
   :alt: pgAdmin database manager
   :align: right

@@ -82,7 +82,7 @@ crear visualizar y manipular tablas espaciales PostGIS.
    No debe aparecer el fondo de escritorio porque cambia con cada versión
    y se podrá datar.
 
-.. image:: /images/screenshots/800x600/pgadmin.png
+.. image:: /images/screenshots/pgadmin/pgadmin.png
   :scale: 70 %
   :alt: pgAdmin database manager
   :align: right

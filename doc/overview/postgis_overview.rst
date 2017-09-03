@@ -74,7 +74,7 @@ from desktop and web GIS clients. These clients can also map and manipulate Post
   Don't include the desktop background as this changes with each release
   and will become dated.
 
-.. image:: /images/screenshots/800x600/pgadmin.png
+.. image:: /images/screenshots/pgadmin/pgadmin.png
   :scale: 70 %
   :alt: pgAdmin database manager
   :align: right
