@@ -24,7 +24,7 @@ Un driver rasdaman es parte de :doc:`GDAL <gdal_overview>` (Geospatial Data Abst
 
 La tecnología rasdaman es estable y madura, es empleada en producción desde hace más de 10 años; el Instituto Francés Nacional de Geografía emplea rasdaman con una docena de Terabytes de mapas de imágenes aéreas. En los principios del ACM de la Conferencia de Sistemas de Bases de Datos en 2007, Rona Machlin describió rasdaman como "la implementación más completa de un sistema".
 
-.. image:: /images/screenshots/1024x768/rasdaman-collage.png
+.. image:: /images/screenshots/rasdaman/rasdaman-collage.png
   :scale: 50 %
   :align: right
 

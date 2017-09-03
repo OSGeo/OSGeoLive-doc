@@ -26,7 +26,7 @@ Rasdaman
 
 Η τεχνολογία rasdaman είναι σταθερή, ώριμη, και χρησιμοποιείται σε περιβάλλον παραγωγής για περισσότερο από 10 χρόνια. Για παράδειγμα, η Γαλλική Εθνική Γεωγραφική Υπηρεσία χρησιμοποιεί το rasdaman σε έναν ορθοφωτοχάρτη 12 Terabyte. Στο συνέδρειο ACM Principles of Database Systems το 2007, ο ειδικός σε θέματα βάσεων εικονιστικών δεδομένων Rona Machlin χαρακτήρισε το rasdaman ως "την πιο κατανοητή υλοποίηση ενός τέτοιου συστήματος".
 
-.. image:: /images/screenshots/1024x768/rasdaman-collage.png
+.. image:: /images/screenshots/rasdaman/rasdaman-collage.png
   :scale: 50 %
   :align: right
 

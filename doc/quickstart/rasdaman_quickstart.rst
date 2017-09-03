@@ -35,7 +35,7 @@ Running Coverage
 
 The example coverage which will be used in the seqeul is a 6 MB image as bellow:
 
-.. image:: /images/screenshots/800x600/rasdaman_ndvi1.png
+.. image:: /images/screenshots/rasdaman/rasdaman_ndvi1.png
    :scale: 25 %
 
 Access A Coverage
@@ -63,7 +63,7 @@ Click on the `subsetting <http://localhost:8080/rasdaman/ows?query=for%20c%20in%
 
 The query result is an image as follows:
 
-.. image:: /images/screenshots/800x600/rasdaman_ndvi2.png
+.. image:: /images/screenshots/rasdaman/rasdaman_ndvi2.png
    :scale: 25 %
 
 
@@ -80,7 +80,7 @@ Click on `band extraction <http://localhost:8080/rasdaman/ows?query=for%20c%20in
 
 You should see the following image in the browser:
 
-.. image:: /images/screenshots/800x600/rasdaman_ndvi3.png
+.. image:: /images/screenshots/rasdaman/rasdaman_ndvi3.png
    :scale: 25 %
 
 Arithmetic Operation: Extracting NDVI of the Coverage
@@ -93,7 +93,7 @@ The WCPS query to derive NDVI from the coverage is as follows:
 
    for c in ( NIR ) return encode( ( (char) ( ( ( ((float)c).0-((float)c).1 ) / ( (float)c.0+((float)c).1 )) > 0 ) * 255), "png" )
 
-.. image:: /images/screenshots/800x600/rasdaman_ndvi4.png
+.. image:: /images/screenshots/rasdaman/rasdaman_ndvi4.png
    :scale: 25 %
 
 

@@ -24,7 +24,7 @@ La paralléisation de Cloud/cluster est accomplie d'un manière sécurisée, con
 En plus du language de requêtage raster, rasdaman supporte les standards OGC des service web WMS, WCS et WCPS web service standards, ainsi que des API C++ et Java. 
 Un ensemble de démonstrations interactives est disponible à cette adresse: http://standards.rasdaman.org.  Un pilote rasdaman est intégré GDAL et MapServer.
 
-.. image:: /images/screenshots/1024x768/rasdaman-collage.jpg
+.. image:: /images/screenshots/rasdaman/rasdaman-collage.jpg
   :scale: 50 %
   :alt: rasdaman screenshot collage
   :align: right
