@@ -28,7 +28,7 @@ pycsw は、:doc:`OGC Catalogue Services for the Web (CSW) 標準<../standards/c
 
 pycswは、MITライセンス化でリリースされているオープンソースであり、主要な全てのプラットフォーム (Windows, Linux, Mac OSX) で動作します。
 
-.. image:: /images/screenshots/1024x768/pycsw_overview.jpg
+.. image:: /images/screenshots/pycsw/pycsw_overview.jpg
   :scale: 50 %
   :alt: project logo
   :align: right

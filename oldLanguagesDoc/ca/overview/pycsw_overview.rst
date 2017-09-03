@@ -31,7 +31,7 @@ El projecte està certificat com a `OGC Compliant`_, i és una `OGC Reference Im
 
 pycsw és codi obert, amb una llicència MIT, i es pot executar a la majoria de sistemes operatius (Windows, Linux, Mac OS X).
 
-.. image:: /images/screenshots/1024x768/pycsw_overview.jpg
+.. image:: /images/screenshots/pycsw/pycsw_overview.jpg
   :scale: 50 %
   :alt: project logo
   :align: right

@@ -30,7 +30,7 @@ pycsw
 
 Το pycsw είναι Λογισμικό Ανοιχτού Κώδικα, υπό την άδεια MIT, και υποστηρίζει όλες τις κύριες πλατφόρμες (Windows, Linux, Mac OS X).
 
-.. image:: /images/screenshots/1024x768/pycsw_overview.jpg
+.. image:: /images/screenshots/pycsw/pycsw_overview.jpg
   :scale: 50 %
   :alt: project logo
   :align: right

@@ -29,7 +29,7 @@ pycsw est une implémentation en `Python`_  du :doc:` standard OGC Catalogue Ser
 
 pycsw est Open Source, mis à disposition sous licence MIT, et fonctionne sur toutes les plates-formes majeurs (Windows, Linux, Mac OS X).
 
-.. image:: /images/screenshots/1024x768/pycsw_overview.jpg
+.. image:: /images/screenshots/pycsw/pycsw_overview.jpg
   :scale: 50 %
   :alt: Logo du projet
   :align: right

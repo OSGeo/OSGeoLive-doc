@@ -29,27 +29,27 @@ Running the tester application
 
 To run the pycsw tester, use the pycsw launcher from the Web Services group, or open Firefox and navigate to ``http://localhost/pycsw/tests/index.html``:
 
-.. image:: /images/screenshots/1024x768/pycsw_tester_startup.png
+.. image:: /images/screenshots/pycsw/pycsw_tester_startup.png
   :scale: 75 %
 
 By selecting the left drop-down list, the user can see various predefined POST requests, encoded as XML, that can be sent to pycsw: 
 
-.. image:: /images/screenshots/1024x768/pycsw_tester_selection.png
+.. image:: /images/screenshots/pycsw/pycsw_tester_selection.png
   :scale: 75 %
 
 For example, by selecting "apiso/DescribeRecord", and pushing the "Send" button, a description of the ISO Application Profile record is presented on the right panel:
 
-.. image:: /images/screenshots/1024x768/pycsw_tester_describe_apiso_record.png
+.. image:: /images/screenshots/pycsw/pycsw_tester_describe_apiso_record.png
   :scale: 75 %
 
 By selecting "GetCapabilities-SOAP" and pushing the "Send" button, a SOAP request is sent to the server to advertise their web service capabilities:
 
-.. image:: /images/screenshots/1024x768/pycsw_tester_soap_capabillities.png
+.. image:: /images/screenshots/pycsw/pycsw_tester_soap_capabillities.png
   :scale: 75 %
 
 Also, the user can search for data records, performing a spatial bounding box query, by selecting "GetRecords-filter-bbox" and editing the coordinates in the XML request:
 
-.. image:: /images/screenshots/1024x768/pycsw_tester_getrecords_bbox_filter.png
+.. image:: /images/screenshots/pycsw/pycsw_tester_getrecords_bbox_filter.png
   :scale: 75 %
 
 The user can go through all the available requests and perform various requests from this testing application.
@@ -72,12 +72,12 @@ Metadata files for a spatial dataset or a spatial web service can be created thr
 
 The user fills the mandatory metadata fields going through the application tabs, adding information like the name of the data owner, keywords, resource location on the web, geographic location (using a bounding box or the name of a country) etc. 
 
-.. image:: /images/screenshots/1024x768/pycsw_euosme_metadata_input.png
+.. image:: /images/screenshots/pycsw/pycsw_euosme_metadata_input.png
   :scale: 75 % 
 
 After the user has added all the information available, must push the validation button on top of the page, so that a check to be performed for consistency with the INSPIRE directive. 
 
-.. image:: /images/screenshots/1024x768/pycsw_euosme_save_metadata.png
+.. image:: /images/screenshots/pycsw/pycsw_euosme_save_metadata.png
   :scale: 75 %
 
 After a sucessful validation, the XML file can be saved to the local disk and viewed through a text editor or a browser.
@@ -143,22 +143,22 @@ Data Discovery through QGIS MetaSearch Plugin
 
 Start QGIS from the Desktop GIS group and click on the MetaSearch button (CSW icon)
 
-.. image:: /images/screenshots/1024x768/pycsw_qgis_metasearch_open.png
+.. image:: /images/screenshots/pycsw/pycsw_qgis_metasearch_open.png
   :scale: 75 %
 
 Add the pycsw server by pressing the "New" button and type in ``http://localhost/pycsw/``
 
-.. image:: /images/screenshots/1024x768/pycsw_qgis_metasearch_add.png
+.. image:: /images/screenshots/pycsw/pycsw_qgis_metasearch_add.png
   :scale: 75 %
 
 The user can add some default servers using the "Add default servers" button and also get the capabilities of the server using "Server info" button
 
-.. image:: /images/screenshots/1024x768/pycsw_qgis_metasearch_server_info.png
+.. image:: /images/screenshots/pycsw/pycsw_qgis_metasearch_server_info.png
   :scale: 75 %
 
 Perform search using the catalogue, either by a string value or with a bounding box
 
-.. image:: /images/screenshots/1024x768/pycsw_qgis_metasearch_search.png
+.. image:: /images/screenshots/pycsw/pycsw_qgis_metasearch_search.png
   :scale: 75 %
 
 
@@ -167,7 +167,7 @@ Things to try
 
 #. Try to discover data through the Tester application by setting the appropriate requests eg. any text search with the string "imagery" leads to discovering the xml data created previously by EUOSME
 
-.. image:: /images/screenshots/1024x768/pycsw_tester_discovery.png
+.. image:: /images/screenshots/pycsw/pycsw_tester_discovery.png
   :scale: 75 %
 
 #. Try to discover data through the Python `OWSLib CSW`_ interface.
