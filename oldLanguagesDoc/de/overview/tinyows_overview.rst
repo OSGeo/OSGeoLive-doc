@@ -23,7 +23,7 @@ Web Feature Service
 
 TinyOWS ist ein hochperformanter, leichtgewichtiger und einfach einzurichtender Transaktionaler Web Feature Service (WFS-T), der CGI und FastCGI Schnittstellen unterstützt und :doc:`PostGIS <postgis_overview>` für die Datenspeicherung nutzt.
 
-.. image:: /images/screenshots/800x600/tinyows_digitizing.jpg
+.. image:: /images/screenshots/tinyows/tinyows_digitizing.jpg
   :scale: 55 %
   :alt: digitizing
   :align: right

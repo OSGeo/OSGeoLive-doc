@@ -68,7 +68,7 @@ TinyOWS 快速入门文档
 
    * WFS 图层将显示：
 
-.. image:: /images/screenshots/800x600/tinyows_wfs_layer.png
+.. image:: /images/screenshots/tinyows/tinyows_wfs_layer.png
   :scale: 80 %
 
 使用 WFS-T 编辑数据

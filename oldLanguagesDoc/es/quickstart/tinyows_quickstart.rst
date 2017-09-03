@@ -71,7 +71,7 @@ Mostrar una capa WFS en QGIS
 
    * Ahora la capa WFS layer es mostrada:
 
-.. image:: /images/screenshots/800x600/tinyows_wfs_layer.png
+.. image:: /images/screenshots/tinyows/tinyows_wfs_layer.png
   :scale: 80 %
 
 Editar datos con WFS-T en QGIS

@@ -70,7 +70,7 @@ Mostrar una capa WFS en un projecte de QGIS
 
    * Ara es mostra la capa WFS:
 
-.. image:: /images/screenshots/800x600/tinyows_wfs_layer.png
+.. image:: /images/screenshots/tinyows/tinyows_wfs_layer.png
   :scale: 80 %
 
 Editar la capa amb WFS-T
