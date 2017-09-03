@@ -32,19 +32,19 @@ Desde el menú de inicio, en la esquina inferior izquierda.
  
 * Elegir  *Geospatial* -> *Spatial Tools* -> *Start Jupyter Notebook*
 
-.. image:: /images/screenshots/1024x768/jupyter1-1.png
+.. image:: /images/screenshots/jupyter/jupyter1-1.png
    :scale: 60 %
   
 Se abrirá una ventana de terminal y empezará a bajar un log de inicio.
 
 * Elegir   *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook* 
 
-.. image:: /images/screenshots/1024x768/jupyter1-2.png
+.. image:: /images/screenshots/jupyter/jupyter1-2.png
    :scale: 60 %
 
 Se abre un navegador web mostrando el panel del cuaderno (*notebook*).
 
-.. image:: /images/screenshots/1024x768/jupyter1-3.png
+.. image:: /images/screenshots/jupyter/jupyter1-3.png
    :scale: 60 %
 
 Desde aquí se puede navegar el árbol de directorios, empezar nuevos cuadernos, crear ficheros y directorio, así como renombrarlos, borrarlos yo cargarlos. 
@@ -61,19 +61,19 @@ Desde la página principal clic en el directorio GSOC.
 .. Cameron Comment: We are going through too many steps here to find the
   Cesium example. We should be able to select Cesium from the first TOC.
 
-.. image:: /images/screenshots/1024x768/jupyter2.png
+.. image:: /images/screenshots/jupyter/jupyter2.png
    :scale: 80 %
 
 Elegir el cuaderno Introduction. 
  
-.. image:: /images/screenshots/1024x768/jupyter3.png
+.. image:: /images/screenshots/jupyter/jupyter3.png
    :scale: 60 %
 
 Este es un cuaderno simple, que contiene textos y enlaces, como una página web HTML.
 
 Entonces, bajo "Simple-web-gis-products" seleccionar "CESIUM".
 
-.. image:: /images/screenshots/1024x768/jupyter4.png
+.. image:: /images/screenshots/jupyter/jupyter4.png
    :scale: 60 %
 
 .. Cameron Comments:
@@ -84,7 +84,7 @@ Hacer clic en "CesiumWidget Interact-Example", que usa la extensión de widget, 
 
 Desde la barra de herramientas en la parte superior del cuaderno, seleccionar : cell->run all. Si todo funciona como se espera, se deberían poder ver los resultados al final de la página.
 
-.. image:: /images/screenshots/1024x768/jupyter5.png
+.. image:: /images/screenshots/jupyter/jupyter5.png
    :scale: 60 %
 
 Cambiar código

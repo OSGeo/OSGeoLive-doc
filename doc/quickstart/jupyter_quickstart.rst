@@ -31,19 +31,19 @@ From the application launch menu in the lower left corner.
  
 * Choose  *Geospatial* -> *Spatial Tools* -> *Start Jupyter Notebook*
 
-.. image:: /images/screenshots/1024x768/jupyter1-1.png
+.. image:: /images/screenshots/jupyter/jupyter1-1.png
    :scale: 60 %
   
 A terminal window will open and a startup log will begin to scroll.
 
 * Choose   *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook* 
 
-.. image:: /images/screenshots/1024x768/jupyter1-2.png
+.. image:: /images/screenshots/jupyter/jupyter1-2.png
    :scale: 60 %
 
 A web browser is launched showing the notebook dashboard.
 
-.. image:: /images/screenshots/1024x768/jupyter1-3.png
+.. image:: /images/screenshots/jupyter/jupyter1-3.png
    :scale: 60 %
 
 From the notebook dashboard you can navigate the directory tree, start new notebooks, create files and directories, as well as rename, delete and upload files.
@@ -60,19 +60,19 @@ Let's open an existing notebook. From the main page click on the directory GSOC.
 .. Cameron Comment: We are going through too many steps here to find the
   Cesium example. We should be able to select Cesium from the first TOC.
 
-.. image:: /images/screenshots/1024x768/jupyter2.png
+.. image:: /images/screenshots/jupyter/jupyter2.png
    :scale: 80 %
 
 Choose the Introduction notebook. 
  
-.. image:: /images/screenshots/1024x768/jupyter3.png
+.. image:: /images/screenshots/jupyter/jupyter3.png
    :scale: 60 %
 
 This is a simple notebook, which contains text and links, like a HTML web page.
 
 Then under "Simple-web-gis-products" select "CESIUM".
 
-.. image:: /images/screenshots/1024x768/jupyter4.png
+.. image:: /images/screenshots/jupyter/jupyter4.png
    :scale: 60 %
 
 .. Cameron Comments:
@@ -83,7 +83,7 @@ Let's click on "CesiumWidget Interact-Example", which uses the widget extension,
 
 From the toolbar on top of the notebook choose: cell->run all. If everything worked as planned you should be able to see the results at the bottom of the page.
 
-.. image:: /images/screenshots/1024x768/jupyter5.png
+.. image:: /images/screenshots/jupyter/jupyter5.png
    :scale: 60 %
 
 Change code
