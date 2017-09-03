@@ -30,7 +30,7 @@ GMT поддерживает многие общераспространённы
 В состав GMT входят, помимо самих утилит, наборы разномасштабных 
 геоданных — политические границы, береговые линии, реки.
 
-.. image:: /images/screenshots/800x600/gmt-example28.png
+.. image:: /images/projects/800x600/gmt-example28.png
   :scale: 50 %
   :alt: screenshot
   :align: right

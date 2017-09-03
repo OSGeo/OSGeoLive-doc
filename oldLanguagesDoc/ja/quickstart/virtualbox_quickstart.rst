@@ -30,27 +30,27 @@ VirtualBox はオープンソースの仮想マシン環境です。 OSGeo-Live 
 
 Virtualboxを開きます。
 
-  .. image:: /images/screenshots/virtualization/virtualbox.png
+  .. image:: /images/projects/virtualization/virtualbox.png
     :scale: 70 %
 
 新しい仮想環境作成のため、 :guilabel:`New` を選択します。
 
-  .. image:: /images/screenshots/virtualization/virtualbox_create_vm.png
+  .. image:: /images/projects/virtualization/virtualbox_create_vm.png
     :scale: 70 %
 
 :guilabel:`Next` で次に進みます。
 
-  .. image:: /images/screenshots/virtualization/virtualbox_select_name.png
+  .. image:: /images/projects/virtualization/virtualbox_select_name.png
     :scale: 70 %
 
 イメージに名前を付け、 "Linux", "Ubuntu" を選択します。
 
-  .. image:: /images/screenshots/virtualization/virtualbox_memory.png
+  .. image:: /images/projects/virtualization/virtualbox_memory.png
     :scale: 70 %
 
 ベースメモリを 768 MB にします。Java ベースのアプリケーションを使用するには 1 GB 以上にするとよいでしょう。
 
-  .. image:: /images/screenshots/virtualization/virtualbox_no_hard_disk.png
+  .. image:: /images/projects/virtualization/virtualbox_no_hard_disk.png
     :scale: 70 %
 
 "Boot Hard Disk" のチェックを外すと、仮想マシンを常に DVD のイメージから起動する設定となります。
@@ -58,34 +58,34 @@ Virtualboxを開きます。
 より広い画面を使ったり、画面の解像度変更を保存する、ツールの設定保存など、仮想環境内に情報を保存したい場合には
 ハードディスクから起動するようにしてください。設定の方法は後述します。
 
-  .. image:: /images/screenshots/virtualization/virtualbox_warning_no_hard_disk.png
+  .. image:: /images/projects/virtualization/virtualbox_warning_no_hard_disk.png
     :scale: 70 %
 
 :guilabel:`Continue` をクリックしてください。
 
-  .. image:: /images/screenshots/virtualization/virtualbox_final_check.png
+  .. image:: /images/projects/virtualization/virtualbox_final_check.png
     :scale: 70 %
 
 :guilabel:`Finish` をクリックしてください。
 
-  .. image:: /images/screenshots/virtualization/virtualbox_select_settings.png
+  .. image:: /images/projects/virtualization/virtualbox_select_settings.png
     :scale: 70 %
 
 ここまでで仮想マシンのイメージは作成できています。ここで OSGeo-Live DVD を CD ドライブに挿入してください。
 
 "osgeo-live" のイメージを右クリックして :guilabel:`Settings` を選択してください。
 
-  .. image:: /images/screenshots/virtualization/virtualbox_set_cd.png
+  .. image:: /images/projects/virtualization/virtualbox_set_cd.png
     :scale: 70 %
 
 "Storage" から CD/DVD Device を選択します
 
-  .. image:: /images/screenshots/virtualization/virtualbox_add_dvd.png
+  .. image:: /images/projects/virtualization/virtualbox_add_dvd.png
     :scale: 70 %
 
 OSGeo-Live イメージを選択します
 
-  .. image:: /images/screenshots/virtualization/virtualbox_start_vm.png
+  .. image:: /images/projects/virtualization/virtualbox_start_vm.png
     :scale: 70 %
 
 以上で :doc:`osgeolive_quickstart` と同様に仮想マシンから使用できます。
@@ -101,19 +101,19 @@ OSGeo-Live DVD を頻繁に使用する際には、持続的な仮想マシン�
 
 コンピューターをインターネットに接続した状態で次のようにします。
 
-  .. image:: /images/screenshots/virtualization/virtualbox_synaptic_menu.png
+  .. image:: /images/projects/virtualization/virtualbox_synaptic_menu.png
     :scale: 70 %
 
 synaptic package manager を起動します。
 
 パスワードは "user" としてください。
 
-  .. image:: /images/screenshots/virtualization/virtualbox_synaptic_select_tools.png
+  .. image:: /images/projects/virtualization/virtualbox_synaptic_select_tools.png
     :scale: 70 %
 
 インストールするため、"virtualbox-ose-guest-utils" をチェックしてください。
 
-  .. image:: /images/screenshots/virtualization/virtualbox_synaptic_apply.png
+  .. image:: /images/projects/virtualization/virtualbox_synaptic_apply.png
     :scale: 70 %
 
 変更を反映してください。

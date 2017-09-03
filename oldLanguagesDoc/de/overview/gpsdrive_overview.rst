@@ -26,7 +26,7 @@ GPS Daemon und Multiplexer verwendete Binärprotokoll kennen.
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/gpsdrive/gpsdrive-cyclemap.png
+.. image:: /images/projects/gpsdrive/gpsdrive-cyclemap.png
   :scale: 50 %
   :alt: Bildschirmfoto
   :align: right

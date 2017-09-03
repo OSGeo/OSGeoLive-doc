@@ -32,7 +32,7 @@ MapGuide включает базу данных на основе XML для у�
 MapGuide может быть развернут на Linux или Windows, поддерживает веб-серверы Apache и IIS и предоставляет обширные API
 для разработки приложений на PHP, .NET, Java и JavaScript. MapGuide Open Source распространяется под лицензией LGPL.
 
-.. image:: /images/screenshots/mapguide/mapguide_viewer.png
+.. image:: /images/projects/mapguide/mapguide_viewer.png
   :scale: 50%
   :alt: скриншот
   :align: right

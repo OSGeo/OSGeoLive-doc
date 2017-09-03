@@ -31,7 +31,7 @@ Terabyte di immagine aeree. Alla confernza ACM Principles of Database Systems ne
 l'esperto di database raster Rona Machlin caratterizza rasdaman come "l'implementazione 
 più completa di un tale sistema".
 
-.. image:: /images/screenshots/rasdaman/rasdaman-collage.png
+.. image:: /images/projects/rasdaman/rasdaman-collage.png
   :scale: 50 %
   :align: right
 

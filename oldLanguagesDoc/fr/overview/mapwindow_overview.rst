@@ -32,7 +32,7 @@ boite à outils, plug-ins, un éditeur de shapefile pleinement fonctionnel, ou l
     Les fichiers d'installation sont inclus dans l'ISO `OSGeo-Live <http://live.osgeo.org>`_ ou peuvent 
     être téléchargés à partir de:  https://mapwindow4.codeplex.com/releases/view/542097.
    
-.. image:: /images/screenshots/mapwindow/mapwindow_screenshot.png
+.. image:: /images/projects/mapwindow/mapwindow_screenshot.png
   :alt: Mapwindow Open Source GIS Lite
   :scale: 50 %
   :align: right

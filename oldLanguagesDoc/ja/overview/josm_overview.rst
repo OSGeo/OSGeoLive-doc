@@ -22,7 +22,7 @@ GPXトラックは、通常、GPS受信機または他のソースから事前�
 
 JOSMのために記述された特殊なプラグインのいくつかは、ダウンロードしてインストールが可能です。
 
-.. image:: /images/screenshots/josm/josm_inteface.png
+.. image:: /images/projects/josm/josm_inteface.png
   :scale: 55 %
   :alt: JOSM Editor.
   :align: right

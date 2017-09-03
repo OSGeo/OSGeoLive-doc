@@ -26,7 +26,7 @@ GMT supporte de nombreux systèmes communs de projections linéaires, logs, et �
 et est fournit avec das données de support tels que des lignes de côtes, des rivières, et de limites politiques.
 
 
-.. image:: /images/screenshots/800x600/gmt-example28.png
+.. image:: /images/projects/800x600/gmt-example28.png
   :scale: 50 %
   :alt: Capture d'écran
   :align: right

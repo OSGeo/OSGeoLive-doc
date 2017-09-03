@@ -35,7 +35,7 @@ OpenCPN предоставляет пользователю информацию
 Базовые функции
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/opencpn/opencpn_screenshot.png
+.. image:: /images/projects/opencpn/opencpn_screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

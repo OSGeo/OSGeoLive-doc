@@ -21,7 +21,7 @@ El `format ASPRS LAS`_ és un format binari seqüencial que s'utilitza per emmag
 provinents directament de sensors LiDAR com les que s'han obtingut per processament de dades LiDAR 
 amb programari d'intercanvi de dades.
 
-.. image:: /images/screenshots/liblas/liblas.jpg
+.. image:: /images/projects/liblas/liblas.jpg
   :alt: LiDAR Acquisition
   :align: right
   :scale: 80 %

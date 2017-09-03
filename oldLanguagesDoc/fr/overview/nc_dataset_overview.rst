@@ -28,7 +28,7 @@ Les données sont fournies à trois niveaux hiérarchiques:
 
 * un petit bassin versant en zone rurale avec des données à la résolution de 1m-3m (voir l'image).
 
-.. image:: /images/screenshots/nc_dataset/north_carolina_dataset_nviz.jpg
+.. image:: /images/projects/nc_dataset/north_carolina_dataset_nviz.jpg
   :scale: 60 %
   :alt: North Carolina dataset screenshot
   :align: right

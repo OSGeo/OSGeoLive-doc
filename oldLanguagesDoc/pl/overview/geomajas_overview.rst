@@ -31,7 +31,7 @@ interaktywne mapy, zaawansowane funkcje, dostosowanych do potrzeb użytkownika.
 Pozwala na dostęp do wielu rodzajów źródeł danych i funkcjonalności przez 
 przeglądarkę internetową.
 
-.. image:: /images/screenshots/geomajas/geomajas_1024x768_screen1.png
+.. image:: /images/projects/geomajas/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

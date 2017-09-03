@@ -58,7 +58,7 @@ Monteverdi 影象分割
 * 点击 "Close" 完成；
 * 在主界面中对生成的 "MeanShift0" 右击 "Clustered Image" 并选择 "Display in viewer" 显示。
 
-  .. image:: /images/screenshots/otb/otb-mean_shift.jpg
+  .. image:: /images/projects/otb/otb-mean_shift.jpg
      :scale: 100 %
 
 Monteverdi SVM 监督分类
@@ -73,7 +73,7 @@ Monteverdi SVM 监督分类
 * 点击 `Learn` 学习；
 * 点击 `Display` 执行分类。
 
-  .. image:: /images/screenshots/otb/otb-svm.jpg
+  .. image:: /images/projects/otb/otb-svm.jpg
      :scale: 100 %
 
 　　完整的教程见 `该网页`_ 。

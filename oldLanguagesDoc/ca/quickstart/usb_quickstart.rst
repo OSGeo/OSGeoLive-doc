@@ -38,13 +38,13 @@ Descarregueu osgeo-live o osgeo-live-mini al disc dur del vostre ordinador.
 
 Connecteu el disc USB al vostre ordinador.
 
-  .. image:: /images/screenshots/usb/usb_select.png
+  .. image:: /images/projects/usb/usb_select.png
     :scale: 70 %
 
 Escolliu :menuselection:`System --> Administration --> Startup Disk Creator`,
 o cerqueu `Startup Disk Creator` des de l'escriptori Unity.
 
-  .. image:: /images/screenshots/usb/usb_set_params.png
+  .. image:: /images/projects/usb/usb_set_params.png
     :scale: 70 %
 
 Escolliu la imatge ISO d'osgeo-live o bé d'osgeo-live-mini.
@@ -53,7 +53,7 @@ Escolliu el disc USB.
 
 Escolliu :guilabel:`Make Startup Disk`
 
-  .. image:: /images/screenshots/usb/usb_installing.png
+  .. image:: /images/projects/usb/usb_installing.png
     :scale: 70 %
 
 Espereu uns 20 minuts més o menys fins que s'hagi creat el disc USB.
@@ -66,11 +66,11 @@ Connecteu el disc USB al vostre ordinador.
 Descarregueu i executeu l'Instal·lador Universal d'USB des de:
 http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
 
-  .. image:: /images/screenshots/usb/usb_penlinux_licence.png
+  .. image:: /images/projects/usb/usb_penlinux_licence.png
 
 Accepteu les condicions de la llicència
 
-  .. image:: /images/screenshots/usb/usb_penlinux_selection.png
+  .. image:: /images/projects/usb/usb_penlinux_selection.png
 
 Pas 1: Distribució: Seleccioneu la distribució xubuntu i386 per a la imatge
 osgeo-live. (Per OSGeo-Live 5.5, seleccioneu xubuntu 11.04 Desktop i386)
@@ -85,7 +85,7 @@ Pas 4: Escolliu Persistence si voleu que es recordi l'estat entre sessions.
 
 Escolliu :guilabel:`Create`
 
-  .. image:: /images/screenshots/usb/usb_penlinux_installing.png
+  .. image:: /images/projects/usb/usb_penlinux_installing.png
 
 Espereu uns 20 minuts més o menys fins que s'hagi creat el disc USB
 d'OSGeo-Live.
@@ -105,7 +105,7 @@ Pas 4: Seleccioneu la imatge ISO d'OSGeo-Live.
 
 Escolliu :guilabel:`OK`
 
-  .. image:: /images/screenshots/1024x768/unetbootin_live_osgeo.png
+  .. image:: /images/projects/1024x768/unetbootin_live_osgeo.png
 
 Definiu l'ordre d'arrencada a la BIOS:
 --------------------------------------------------------------------------------

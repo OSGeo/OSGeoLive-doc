@@ -23,7 +23,7 @@ Les entités uniques de Geopublisher le rendent spécialement applicable dans le
 
 Caractéristiques principales
 --------------------------------------------------------------------------------
-.. image:: /images/screenshots/geopublisher/geopublisher-overview.png
+.. image:: /images/projects/geopublisher/geopublisher-overview.png
   :scale: 40 %
   :alt: Capture d'écran de Geopublisher pour éditer un atlas
   :align: right

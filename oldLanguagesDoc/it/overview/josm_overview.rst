@@ -23,7 +23,7 @@ Le tracce GPX, sono usualmente scaricate precedentemente da un ricevitore GPS o 
 
 Un grande numero di plugins specializzati sono stati scritti per JSOM, che sono disponibili per lo scaricamento e l'installazione
 
-.. image:: /images/screenshots/josm/josm_inteface.png
+.. image:: /images/projects/josm/josm_inteface.png
   :scale: 55 %
   :alt: JOSM Editor.
   :align: right

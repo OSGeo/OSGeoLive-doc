@@ -27,7 +27,7 @@ MapGuide Open Source
 
 Το MapGuide μπορεί να εγκατασταθεί σε περιβάλλον Linux ή Windows, υποστηρίζει τους εξυπηρετητές Apache και IIS, και παρέχει εκτεταμένη υποστήριξη για τις γλώσσες PHP, .NET, Java, και JavaScript για την ανάπτυξη εφαρμογών. Το MapGuide Open Source διατίθεται υπό την άδεια LGPL.
 
-.. image:: /images/screenshots/mapguide/mapguide_viewer.png
+.. image:: /images/projects/mapguide/mapguide_viewer.png
   :scale: 50%
   :alt: screenshot
   :align: right

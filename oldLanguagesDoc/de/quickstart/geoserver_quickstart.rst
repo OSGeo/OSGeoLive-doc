@@ -37,7 +37,7 @@ Start |GS|
 #. Die Applikation wird einen kurzen Augenblick benötigen, um vollständig gestartet zu sein
 #. Öffnen Sie den Browser und geben Sie die URL http://localhost:8082/geoserver/web um zur Startseite der |GS| Instanz
 
-.. image:: /images/screenshots/geoserver/geoserver-login.png
+.. image:: /images/projects/geoserver/geoserver-login.png
     :scale: 70 %
 
 Erste Oberflächen
@@ -47,19 +47,19 @@ Erste Oberflächen
 Um den |GS| administrieren zu können, müssen Sie sich anmelden mit den Benutzer `admin` und dem Passwort `geoserver`. 
 Im Anschluss daran sehen Sie die *admin page*
 
-.. image:: /images/screenshots/geoserver/geoserver-welcome.png
+.. image:: /images/projects/geoserver/geoserver-welcome.png
     :scale: 70 %
 
 Über den Link zur Layer-Vorschau (**Layer Preview**) innerhalb des *Data* Bereiches im linken Menübaum 
 ermöglicht es Ihnen, die Layer des GeoServers anzusehen.
 
-.. image:: /images/screenshots/geoserver/geoserver-layerpreview.png
+.. image:: /images/projects/geoserver/geoserver-layerpreview.png
     :scale: 70 %
 
 Scrollen Sie die Seite soweit herunter, dass eine Zeile mit **tiger-ny** sehen und klicken Sie auf 
 den **OpenLayers** Link. Es öffnet sich eine neue Seite, in der Sie ein Kartenfenster mit Inhalt des Layers sehen.
 
-.. image:: /images/screenshots/geoserver/geoserver-preview.png
+.. image:: /images/projects/geoserver/geoserver-preview.png
     :scale: 70 %
     
 Sie haben in diesem Kartenfenster drei Möglichkeiten, Kartenausschnitte einzustellen:
@@ -85,14 +85,14 @@ In diesem Beispiel werden wir die :doc:`Natural Earth Datensätze <../overview/n
 
 Es muss ein **Store** für unsere Daten angelegt werden. Von der |GS| Administrationsseite gehen Sie zu :guilabel:`Stores` und klicken Sie auf :guilabel:`Add new Store`. Folgende Ansicht werden Sie vor sich haben:
 
-.. image:: /images/screenshots/geoserver/geoserver-newstore.png
+.. image:: /images/projects/geoserver/geoserver-newstore.png
     :align: center
     :scale: 70 %
     :alt: Die New Store Seite
 
 Wählen Sie :guilabel:`Directory of spatial files` und sie werden folgendes sehen:
 
-.. image:: /images/screenshots/geoserver/geoserver-new-vector.png
+.. image:: /images/projects/geoserver/geoserver-new-vector.png
     :align: center
     :scale: 70 %
     :alt: Ausfüllen der New Store Seite
@@ -102,7 +102,7 @@ für den Datensatz, in unserem Fall :file:`/usr/local/share/data/natural_earth/`
 :guilabel:`Browse` Schaltfläche nutzen, um ein Verzeichnis auf dem Dateisystem zu finden, falls 
 sonstige Daten eingebunden werden sollen. Um den Vorgang abzuschließen, bestätigen Sie mit :guilabel:`Save`.
 
-.. image:: /images/screenshots/geoserver/geoserver-naturalearth.png
+.. image:: /images/projects/geoserver/geoserver-naturalearth.png
     :align: center 
     :scale: 70 %
     :alt: Der Natural Earth Datastore
@@ -110,7 +110,7 @@ sonstige Daten eingebunden werden sollen. Um den Vorgang abzuschließen, bestät
 Klicken Sie auf :guilabel:`Publish` auf einen der Einträge der nächsten Seite, um das veröffentlichen 
 der Layer abzuschließen. Dies wird sie zur *Layers* Seite führen: 
 
-.. image:: /images/screenshots/geoserver/geoserver-publish.png
+.. image:: /images/projects/geoserver/geoserver-publish.png
     :align: center
     :scale: 70 %
     :alt: Die Layer `Publishing` Seite
@@ -151,7 +151,7 @@ Sobald Sie |UG| gestartet haben, können Sie per Drag&Drop die zwei folgenden Sh
   * 10m_land
   * 10m_ocean
 
-.. image:: /images/screenshots/geoserver/geoserver-udig_startup.png
+.. image:: /images/projects/geoserver/geoserver-udig_startup.png
    :align: center
    :scale: 70 %
    :alt: Standard Styling in uDig
@@ -161,7 +161,7 @@ könnte. Zum Ändern eines Stils des aktuell ausgewählten Layers in der :ref:`L
 klicken Sie auf den Style Button - dieser sieht aus wie eine Farbpalatte - in der Toolbar.
 
 .. _Layer_list_de:
-.. image:: /images/screenshots/geoserver/geoserver-layer-chooser.png
+.. image:: /images/projects/geoserver/geoserver-layer-chooser.png
    :align: center
    :scale: 70 %
    :alt: Die Listenansicht der Layer
@@ -171,7 +171,7 @@ ein zusagendes Blau abändern. Zusätzlich wurde bei dem Beispiel der Ozeane die
 Ebenso wurde die gleiche Farbe für die begrenzenden Linien (im Tab `Border`) festgelegt.
 
 .. _Style_Pane_de:
-.. image:: /images/screenshots/geoserver/geoserver-style-pane.png
+.. image:: /images/projects/geoserver/geoserver-style-pane.png
    :align: center
    :scale: 70 %
    :alt: Der Stil Dialog
@@ -183,7 +183,7 @@ Ebenso wurde die gleiche Farbe für die begrenzenden Linien (im Tab `Border`) fe
 Haben Sie einen Stil zu Ihrer Zufriedenheit konfiguriert, können Sie diesen Dialg mit 
 ``OK`` verlassen, |UG| wird die Änderungen anwenden und die Karte neu darstellen.
 
-.. image:: /images/screenshots/geoserver/geoserver-blue-ocean.png
+.. image:: /images/projects/geoserver/geoserver-blue-ocean.png
    :align: center
    :scale: 70 %
    :alt: Blaue Ozeane
@@ -192,14 +192,14 @@ Abschließend möchten wir die Farbe für die Landflächen abändern. Gehen Sie 
 der Länder auswählen. Gefällt Ihnen keine der Standardfarben, können Sie eine benutzerdefinierte Farben (``define custom colors``) 
 selbst festlegen.
 
-.. image:: /images/screenshots/geoserver/geoserver-custom-colour.png
+.. image:: /images/projects/geoserver/geoserver-custom-colour.png
    :align: center
    :scale: 70 %
    :alt: Definition der Farbe für Landflächen
 
 Dies ergibt einen angenehmere anzusehende Karte.
 
-.. image:: /images/screenshots/geoserver/geoserver-basic-world.png
+.. image:: /images/projects/geoserver/geoserver-basic-world.png
    :align: center
    :scale: 70 %
    :alt: Basis Weltkarte
@@ -219,7 +219,7 @@ entsprechende Fehlermeldung erscheinen und der betroffene Bereich der Datei mark
 Fehler beim Validieren auftreten, können Sie diese gefahrlos ignorieren oder den betroffenen Bereich 
 entfernen, sofern er nicht relevant ist.
 
-.. image:: /images/screenshots/geoserver/geoserver-add-style.png
+.. image:: /images/projects/geoserver/geoserver-add-style.png
    :align: center
    :scale: 70 %
    :alt: Stil zu GeoServer hinzufügen
@@ -249,7 +249,7 @@ Seite und prüfen Sie, ob dieser gut aussieht.
     *file:/home/user/data/natural_earth/HYP_50M_SR_W/HYP_50M_SR_W.tif*
     into the :guilabel:`URL` box.
 
-    .. image:: /images/screenshots/geoserver/geoserver-raster.png
+    .. image:: /images/projects/geoserver/geoserver-raster.png
         :align: center
         :scale: 70 %
         :alt: Adding a Raster

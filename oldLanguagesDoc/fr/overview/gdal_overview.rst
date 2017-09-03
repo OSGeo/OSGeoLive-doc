@@ -34,7 +34,7 @@ fournit le moteur d'accès principal aux données pour de nombreuses application
 dont MapServer, GRASS, QGIS, et OpenEV. Elle est aussi utilisé par des logiciels comme 
 OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide et ArcGIS.
 
-.. image:: /images/screenshots/gdal/gdal_ogr_proj_overview.png
+.. image:: /images/projects/gdal/gdal_ogr_proj_overview.png
   :scale: 60 %
   :alt: GDAL supporte de nombreux formats de données géographiques
   :align: right

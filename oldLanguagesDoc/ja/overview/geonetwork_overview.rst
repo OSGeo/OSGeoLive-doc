@@ -22,7 +22,7 @@ GeoNetwork
 
 GeoNetwork OpenSource は空間的に参照されるリソースを管理するためのカタログアプリケーションです.このソフトウェアは強力なメタデータ編集機能と検索機能、組み込みインタラクティブウェッブ地図ビューアーを提供し、それらはオープンスタンダードに準拠しています. 
 
-.. image:: /images/screenshots/geonetwork/geonetwork_once-samples-are-loaded.png
+.. image:: /images/projects/geonetwork/geonetwork_once-samples-are-loaded.png
   :scale: 50%
   :alt: project logo
   :align: right

@@ -20,7 +20,7 @@ Kosmo - Desktop はユーザーフレンドリなデスクトップ GIS アプ�
 様々な OGS 標準に対応しており、すばらしいトポロジ完全を提供します。
 プラグインアーキテクチャにより特定の目的用に簡単に機能拡張ができるようになっています。
 
-.. image:: /images/screenshots/kosmo.jpg
+.. image:: /images/projects/kosmo.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

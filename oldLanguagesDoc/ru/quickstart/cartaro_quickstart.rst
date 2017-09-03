@@ -54,7 +54,7 @@ Cartaro — геопространственная CMS (система упра�
   For images, use a scale of 50% from a 1024x768 display (preferred) or
   70% from a 800x600 display.
   Images should be stored here:
-    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/screenshots/1024x768/
+    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/projects/1024x768/
 
 
 Главная страница
@@ -63,7 +63,7 @@ Cartaro — геопространственная CMS (система упра�
 Когда Cartaro откроется, вы увидите главную страницу (см. рис. ниже). Она
 содержит горбальную карту со столичными городами.
 
-.. image:: /images/screenshots/cartaro/cartaro_frontpage.png
+.. image:: /images/projects/cartaro/cartaro_frontpage.png
     :scale: 60 %
     :align: center
 
@@ -73,7 +73,7 @@ Cartaro — геопространственная CMS (система упра�
   пользователя и *geoserver* в качестве пароля. После этого вы сможете увидеть
   административную панель меню сверху страницы.
 
-.. image:: /images/screenshots/cartaro/cartaro_userpage.png
+.. image:: /images/projects/cartaro/cartaro_userpage.png
     :scale: 60 %
     :align: center
   
@@ -93,13 +93,13 @@ Cartaro — геопространственная CMS (система упра�
 * Выберите :menuselection:`Structure --> Content types` на панели меню и кликните на **Add content type**.
 
 
-.. image:: /images/screenshots/cartaro/cartaro_addcontenttype.png
+.. image:: /images/projects/cartaro/cartaro_addcontenttype.png
     :scale: 80 %
     :align: center
 
 * Наберите имя нового типа контента и опишите его, если пожелаете.
 
-.. image:: /images/screenshots/cartaro/cartaro1.png
+.. image:: /images/projects/cartaro/cartaro1.png
     :scale: 50 %
     :align: center
 
@@ -110,7 +110,7 @@ Cartaro — геопространственная CMS (система упра�
   имени. Мы хотим создать поле с геопространственной информацией под названием
   *Geometry*. Выберите тип поля *Geospatial data* и *OpenLayers Map* как виджет.
 
-.. image:: /images/screenshots/cartaro/cartaro2.png
+.. image:: /images/projects/cartaro/cartaro2.png
     :scale: 70 %
     :align: center
 
@@ -120,7 +120,7 @@ Cartaro — геопространственная CMS (система упра�
   соответствует геопространственной информации. Укажите *Polygon*, как в нашем
   примере.
 
-.. image:: /images/screenshots/cartaro/cartaro3.png
+.. image:: /images/projects/cartaro/cartaro3.png
     :scale: 70 % 
     :align: center
 
@@ -129,13 +129,13 @@ Cartaro — геопространственная CMS (система упра�
 
 * Закончите нажатием на **Save field settings**.
 
-.. image:: /images/screenshots/cartaro/cartaro4.png
+.. image:: /images/projects/cartaro/cartaro4.png
     :scale: 70 % 
     :align: center
 
 * Нажмите *Save settings*, чтобы закончить создание поля.
 
-.. image:: /images/screenshots/cartaro/cartaro5.png
+.. image:: /images/projects/cartaro/cartaro5.png
     :scale: 70 % 
     :align: center
 
@@ -150,7 +150,7 @@ Cartaro — геопространственная CMS (система упра�
 
 * Выберите :menuselection:`Structure --> GeoServer` в меню для открытия конфигурационной страницы GeoServer.
 
-.. image:: /images/screenshots/cartaro/cartaro_geoserver_entry.png
+.. image:: /images/projects/cartaro/cartaro_geoserver_entry.png
     :scale: 70 %
     :align: center
 
@@ -160,7 +160,7 @@ Cartaro — геопространственная CMS (система упра�
 * Выберите :menuselection:`Structure --> GeoServer` в меню, чтобы открыть конфигурационную страницу GeoServer.
 * Выберите :menuselection:`Layers` и кликните **Add** для добавления нового слоя.
 
-.. image:: /images/screenshots/cartaro/cartaro_geoserver_addnewlayer.png
+.. image:: /images/projects/cartaro/cartaro_geoserver_addnewlayer.png
     :scale: 60 %
     :align: center
 
@@ -170,7 +170,7 @@ Cartaro — геопространственная CMS (система упра�
 #. Отметьте галочку *Provide an OpenLayers WFS layer* в разделе OpenLayers.
 #. Закончите настройку, кликнув **Save**.
 
-.. image:: /images/screenshots/cartaro/cartaro7.png
+.. image:: /images/projects/cartaro/cartaro7.png
     :scale: 55 %
     :align: center
 
@@ -189,14 +189,14 @@ Cartaro — геопространственная CMS (система упра�
 
 * Обратите внимание на *frontmap* — заранее сформированную карту (по умолчанию) и выберите **Edit** справа.
 
-.. image:: /images/screenshots/cartaro/cartaro_openl_maps_frontmapedit.png
+.. image:: /images/projects/cartaro/cartaro_openl_maps_frontmapedit.png
     :scale: 70 %
     :align: center
 
 * Конфигурационная страница для текущей карты выглядит так, как показано на скриншоте
   ниже.
 
-.. image:: /images/screenshots/cartaro/cartaro_openlayers_frontmapediting.png
+.. image:: /images/projects/cartaro/cartaro_openlayers_frontmapediting.png
     :scale: 70 %
     :align: center
 
@@ -205,7 +205,7 @@ Cartaro — геопространственная CMS (система упра�
 * Обратите внимание на созданный слой GeoServer («lakes» в нашем случае).
 * Поставьте галочки для *Enabled*, *Activated* и *In Switcher*, чтобы активировать ваг новый слой «*lakes*» на карте.
 
-.. image:: /images/screenshots/cartaro/cartaro_openl_layersstylessettings.png
+.. image:: /images/projects/cartaro/cartaro_openl_layersstylessettings.png
     :scale: 70 %
     :align: center
 
@@ -220,7 +220,7 @@ Cartaro — геопространственная CMS (система упра�
 * Выберите :menuselection:`Content` в меню, чтобы увидеть все имеющиеся элементы
   контента в Cartaro.
 
-.. image:: /images/screenshots/cartaro/cartaro_contentlist.png
+.. image:: /images/projects/cartaro/cartaro_contentlist.png
     :scale: 70 %
     :align: center
 
@@ -239,20 +239,20 @@ Cartaro — геопространственная CMS (система упра�
 
 .. note:: В нашей тестовой конфигурации для каждого элемента может быть отрисована только одна геометрия. Создайте дополнительные элементы контента для добавления большего числа полигонов.
 		  
-.. image:: /images/screenshots/cartaro/cartaro8.png
+.. image:: /images/projects/cartaro/cartaro8.png
     :scale: 70 %
     :align: center
 
 * Теперь вы должны увидеть ваш новый элемент контента.
 
-.. image:: /images/screenshots/cartaro/cartaro_addedcontent_lakefr.png
+.. image:: /images/projects/cartaro/cartaro_addedcontent_lakefr.png
     :scale: 50 %
     :align: center
 
 * Чтобы увидеть ваш новый элемент контента на текущей карте, кликните на значке
   с домиком в левом верхнем углу.
 
-.. image:: /images/screenshots/cartaro/cartaro_addedcontent_frontmap.png
+.. image:: /images/projects/cartaro/cartaro_addedcontent_frontmap.png
     :scale: 50 %
     :align: center
 

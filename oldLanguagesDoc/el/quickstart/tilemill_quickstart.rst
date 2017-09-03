@@ -30,13 +30,13 @@
 
 1. Εκκινήστε το TileMill και κλικάρετε στο κουμπί “New project” στην κύρια οθόνη.
 
-.. image:: /images/screenshots/tilemill_newproject.png
+.. image:: /images/projects/tilemill_newproject.png
    :scale: 70 %
 
 
 2- Εισάγεται τα ακόλουθα δεδομένα στη φόρμα, και επιλέξτε “Add”:
 
-.. image:: /images/screenshots/tilemill_projectinfo.png
+.. image:: /images/projects/tilemill_projectinfo.png
    :scale: 70 %
 
 
@@ -58,9 +58,9 @@
 
 1. Καθώς προσθέτουμε θεματικά επίπεδα από την PostGis. Πρώτα, κλικάρουμε στο κουμπί των θεματικών επιπέδων ( |LAYER|) και πατήστε το κουμπί '+ Add layer'. Στη φόρμα 'Add layer' , επιλέγουμε πρώτα ως πηγή δεδομένων, την PostGIS:
 
-.. |LAYER| image:: /images/screenshots/tilemill_layerbtn.png
+.. |LAYER| image:: /images/projects/tilemill_layerbtn.png
 
-.. image:: /images/screenshots/tilemill_addpostgis.png
+.. image:: /images/projects/tilemill_addpostgis.png
    :scale: 70 %
 
 2. Προσθέτουμε το θεματικό επίπεδο των δρόμων από την PostGIS, δίνοντας τα ακόλουθα δεδομένα, και κλικάροντας στη συνέχεια 'Save & Style':
@@ -117,9 +117,9 @@
 ================================================================================
 Για να θέσετε τις αρχικές τιμές στην περιοχή εργασίας, κάντε κλίκ στο κουμπί |TOOLS|. Τώρα μπορείτε να κεντράρετε την περιοχή εργασίας και να θέστετε το κέντρο της περιοχής. Μπορείτε επίσης να θέσετε το κέντρο και τα όρια κατευθείαν στη φόρμα.
 
-.. |TOOLS| image:: /images/screenshots/tilemill_confbtn.png
+.. |TOOLS| image:: /images/projects/tilemill_confbtn.png
 
-.. image:: /images/screenshots/tilemill_project_settings.png
+.. image:: /images/projects/tilemill_project_settings.png
    :scale: 70 %
 
 Οπτικοποιώντας τα δεδομένα
@@ -201,7 +201,7 @@
 	
 	
 
-.. image:: /images/screenshots/tilemill_customizedview.png
+.. image:: /images/projects/tilemill_customizedview.png
    :scale: 70 %
 
 Επεξηγήσεις
@@ -212,7 +212,7 @@
 1. Ανοίξτε τον πίνακα "Templates" κλικάροντας στο κουμπί 'pointer' κάτω αριστερά ( |POINTER|
 ) 
 
-.. |POINTER| image:: /images/screenshots/tilemill_pointerbtn.png
+.. |POINTER| image:: /images/projects/tilemill_pointerbtn.png
 
 2. Κάντε κλικ στην καρτέλα “Teaser”. Το περιεχόμενο της καρτέλας Teaser εμφανίζεται όταν περνάτε πάνω από ένα χαρακτηρικό και το πλήρες περιχόμενο όταν κλικάρετε σε ένα χαρακτηριστικό. Μπορείτε να χρησιμοποιείσετε το πεδίο 'Location' για να ορίσετε να φορτώνετε το περιεχόμενο μιας διεύθυνσης (URL) όταν ένα πεδίο κλικάρεται.
 
@@ -226,13 +226,13 @@
 	Type:{{{amenity}}}<br/>
 	Name:{{{name}}}
 
-.. image:: /images/screenshots/tilemill_teaser_frm.png
+.. image:: /images/projects/tilemill_teaser_frm.png
    :scale: 70 %
 
 6. Κάντε κλικ στο “Save” για να αποθηκεύσετε τις ρυθμίσεις και να ανανεώσετε το χάρτη. Κλείστε την καρτέλα, πατώντας το κουμπί τερματισμού (X) ή το πλήκτρο ESC στο πληκτρολόγιο. Περάστε το ποντίκι πάνω από μερικά σημεία για να δείτε τις επεξηγήσεις.
 
 
-.. image:: /images/screenshots/tilemill_tooltip.png
+.. image:: /images/projects/tilemill_tooltip.png
    :scale: 70 %
 
 
@@ -251,12 +251,12 @@
 
 	<strong>OSGeo Live TileMill Quick Start</strong><br/>Points locate different amenities in Nottingham</br>
 
-.. image:: /images/screenshots/tilemill_legend_text.png
+.. image:: /images/projects/tilemill_legend_text.png
    :scale: 70 %
 
 #. Κάντε κλικ στο "Save" και κλείστε την καρτέλα. Θα δείτε τώρα το υπόμνημά σας στην κάτω δεξιά γωνία του χάρτη.
 
-.. image:: /images/screenshots/tilemill_legend.png
+.. image:: /images/projects/tilemill_legend.png
    :scale: 70 %
 
 
@@ -276,7 +276,7 @@
 #. Όταν η διαδικασία της εξαγωγής ολοκληρωθεί, η μπάρα που παρουσιάζει την πρόοδο της διαδικασίας θα αντικατασταθεί από το κουμπί αποθήκευση (Save). Αυτή η ενέργεια θα αποθηκεύσει ένα αντίγραφο του αρχείου τοπικά, σε μια τοποθεσία στο δίσκο που εσείς θα καθορίσετε.
 
 
-.. image:: /images/screenshots/tilemill_viewexports.png
+.. image:: /images/projects/tilemill_viewexports.png
    :scale: 70 %
    
 Μπορείτε να επιστρέψετε στην αρχική σελίδα, επιλέγοντας οποιαδήποτε στιγμή :menuselection:`Help --> Welcome` από την μπάρα των επιλογών.
@@ -297,7 +297,7 @@
 
 * Μπορείτε να πάρετε πληρέστερη βοήθεια από το περιβάλλον, πατώντας το κουμπί της βοήθειας (|HELP|)
 
-.. |HELP| image:: /images/screenshots/tilemill_helpbtn.png
+.. |HELP| image:: /images/projects/tilemill_helpbtn.png
 
 * Μάθετε περισσότερα για τη γλώσσα cartocss στην `Τεκμηρίωση του API <http://mapbox.com/carto/api/2.1.0/>`_
 

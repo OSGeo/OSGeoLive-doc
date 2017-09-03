@@ -89,13 +89,13 @@ cp -p images/banner.png "$target/../../_images/"
 cp -p images/presentation/* "$target/../../_images/"
 
 # copy the others images linked in the presentation
-cp -pr images/screenshots/1024x768/* "$target/../../_images/"
-cp -p images/screenshots/800x600/* "$target/../../_images/"
+cp -pr images/projects/1024x768/* "$target/../../_images/"
+cp -p images/projects/800x600/* "$target/../../_images/"
 cp -p images/project_logos/* "$target/../../_images/"
 cp -p images/logos/* "$target/../../_images/"
 
 # change all image URL references to be placed into _images/ dir
-#<img src="../../images/screenshots/1024x768/mapwindow-screenshot.jpg"
+#<img src="../../images/projects/1024x768/mapwindow-screenshot.jpg"
 # becomes <img src="_images/mapwindow-screenshot.jpg"
 sed -e 's#\(<img.*\)\(src="../../images[^\.]*/\)\([^\.]*\.[^\/]*"\)#\1 src="../../_images/\3#' "$tmp" > "$target/index.html"
 

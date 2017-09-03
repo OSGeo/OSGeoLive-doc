@@ -27,7 +27,7 @@ Mac OSX, Windows, Linux で動作し、多くの言語に対応しています�
 主な機能
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/prune/prune_denver.png
+.. image:: /images/projects/prune/prune_denver.png
   :scale: 50 %
   :alt: screenshot
   :align: right

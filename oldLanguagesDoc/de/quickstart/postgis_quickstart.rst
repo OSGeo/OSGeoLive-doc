@@ -377,14 +377,14 @@ Sie können hier weitere Verbindungen zu Servern definieren und die Einstellunge
 erneuten Aufruf wieder zur Verfügung stehen. Wählen Sie aus der Auswahl der Verbindungen Natrual Earth aus. Klicken Sie ``Edit`` (Bearbeiten), um die Verbindungsparameter anzusehen oder zu bearbeiten. Oder aber einfach 
 ``Connect`` (Verbinden) um fortzufahren:
 
-.. image:: /images/screenshots/postgis/postgis_addlayers.png
+.. image:: /images/projects/postgis/postgis_addlayers.png
   :scale: 50%
   :alt: Verbindung mit Natural Earth aufbauen
   :align: center
 
 Im Anschluss daran erscheint eine Liste der Tabellen mit räumlichen Informationen:
 
-.. image:: /images/screenshots/postgis/postgis_listtables.png
+.. image:: /images/projects/postgis/postgis_listtables.png
   :scale: 50 %
   :alt: Natural Earth Layers
   :align: center
@@ -392,7 +392,7 @@ Im Anschluss daran erscheint eine Liste der Tabellen mit räumlichen Information
 Wählen Sie ne_10m_lakes table (Seen) und klicken Sie ``Hinzufügen`` (nicht ``Abfrage erstellen``). 
 Die Daten sollten nun in QGIS geladen werden:
 
-.. image:: /images/screenshots/postgis/postgis_lakesmap.png
+.. image:: /images/projects/postgis/postgis_lakesmap.png
   :scale: 50 %
   :alt: My First PostGIS layer
   :align: center
@@ -420,7 +420,7 @@ Im Bereich public finden sich die Layer, die sich bereits in der Datenbank befin
 links die Tabelle. Diese können ausgewählt werden. Über die Reiter auf der rechten Seite erhalten Sie Informationen
 über die Layer. Der Preview Reiter zeigt eine kleine Karte.
 
-.. image:: /images/screenshots/postgis/postgis_managerpreview.png
+.. image:: /images/projects/postgis/postgis_managerpreview.png
   :scale: 50 %
   :alt: QGIS Manager Vorschau
   :align: center
@@ -432,14 +432,14 @@ Wählen Sie über das Menü ``Tabelle` die Option ``Layer/Datei importieren``.
 Klicken Sie den Button ``...`` und wählen Sie die Shapedatei ``sids.shp`` in dem R ``Maptools`` Paket 
 (dies befindet sich unter /usr/lib/R/site-library/spdep/etc/shapes/) aus:
 
-.. image:: /images/screenshots/postgis/postgis_browsedata.png
+.. image:: /images/projects/postgis/postgis_browsedata.png
   :scale: 50 %
   :alt: Auswahl der Shapedatei
   :align: center
 
 Belassen Sie die übrigen Angaben und klicken Sie ``Load``
 
-.. image:: /images/screenshots/postgis/postgis_importsids.png
+.. image:: /images/projects/postgis/postgis_importsids.png
   :scale: 50 %
   :alt: Import der Shapedatei
   :align: center
@@ -450,7 +450,7 @@ gehen Sie zurück in das QGIS Hauptfenster.
 Laden Sie nun die SIDS Daten über 'PostGIS-Layer hinzufügen' in Ihre Karte.
 Über ein paar Anpassungen der Ebenenreihenfolge und der Farbgebung sollten Sie eine thematische Karte zum plötzlichen Kindstod (SIDS) in North Carolina erzeugen können;
 
-.. image:: /images/screenshots/postgis/postgis_sidsmap.png
+.. image:: /images/projects/postgis/postgis_sidsmap.png
   :scale: 50 %
   :alt: thematische Karte zu SIDS
   :align: center
@@ -463,7 +463,7 @@ Ihre Daten zu verwalten.  pgAdmin III verfügt außerdem über einen Plugin zum 
 ein komfortables Datenmanagement.
 Sie können pgAdmin III im Datenbank-Ordner auf dem OSGeo-Live Desktop finden und starten.
 
-.. image:: /images/screenshots/postgis/postgis_pgadmin_main_window.png
+.. image:: /images/projects/postgis/postgis_pgadmin_main_window.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
@@ -472,7 +472,7 @@ Hier haben Sie die Möglichkeit eine neue Verbindung zu einem PostgreSQl Server 
 
 Nachdem die Verbindung aufgebaut wurde, sehen Sie die Liste der Datenbanken, die bereits vorliegen.
 
-.. image:: /images/screenshots/postgis/postgis_adminscreen0.png
+.. image:: /images/projects/postgis/postgis_adminscreen0.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
@@ -485,7 +485,7 @@ Das rote "X" verschwindet nun und links erscheint ein "+". Per Klick auf das "+"
 
 Navigieren Sie zu ``Schemata`` und öffnen Sie den Unterbaum. Öffnen Sie danach das Schema ``public``. Öffnen Sie anschließend ``Tabellen``. Sie sehen hier alle Tabellen dieses Schemas.
 
-.. image:: /images/screenshots/postgis/postgis_adminscreen1.png
+.. image:: /images/projects/postgis/postgis_adminscreen1.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
@@ -507,7 +507,7 @@ select name, 1000*sid74/bir74 as rate from sids order by rate;
 
 Über den grünen Pfeil wird die Abfrage ausgeführt.
 
-.. image:: /images/screenshots/postgis/postgis_adminscreen2.png
+.. image:: /images/projects/postgis/postgis_adminscreen2.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center

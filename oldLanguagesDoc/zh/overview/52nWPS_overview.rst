@@ -17,7 +17,7 @@ Web 服务
 
 　　52° North WPS 'Web Processing Service (WPS) <../standards/wps_overview>' 网络地理数据处理服务支持从网络访问由 Sextane、ArcGIS Server、或定制开发功能提供的地理空间数据处理算法。算法可能如区分两个季节的流感病例一样简单，也可能如全球变化模型般复杂。
 
-.. image:: /images/screenshots/52nWPS/52nWPS_test_client.png
+.. image:: /images/projects/52nWPS/52nWPS_test_client.png
   :scale: 50 %
   :alt: screenshot
   :align: right

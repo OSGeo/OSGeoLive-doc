@@ -33,7 +33,7 @@ El costat del client Mapbender es basa en Symfony2, OpenLayers, Mapproxy usant l
 
 Mapbender dóna una perspectiva totalment nova a la gestió de les IDE usant res més que un navegador web estàndard. 
 
-.. image:: /images/screenshots/mapbender/mapbender3_basic_application.png
+.. image:: /images/projects/mapbender/mapbender3_basic_application.png
   :scale: 70%
   :alt: Mapbender application
   :align: right

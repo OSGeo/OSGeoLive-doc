@@ -26,7 +26,7 @@ MapGuide Open Source
 MapGuideはコンテンツ管理用としてXMLデータベースを含んでいます。マップオーサリング環境であるMaestroを使用すると、データベースの編集やコードを書くことなくウェブサイトの構築が可能です。MapGuideはまた最も一般的な地図ファイルフォーマットやデータベース、規格に対応しています。
 MapGuideはLinux または Windows上で動作し、Apache および IISウェブサーバをサポートしています。さらに開発言語としてPHP, .NET, Java, そして JavaScript APIsを提供します。
 
-.. image:: /images/screenshots/mapguide/mapguide_viewer.png
+.. image:: /images/projects/mapguide/mapguide_viewer.png
   :scale: 50%
   :alt: screenshot
   :align: right

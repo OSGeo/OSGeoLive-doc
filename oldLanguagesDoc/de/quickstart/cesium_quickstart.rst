@@ -17,7 +17,7 @@ Ortssuche
 =======================
 Über die Lupe kann ein Ort eingegeben werden. Auf dem folgenden Bild wird nach Indien gesucht.
 
-.. image:: /images/screenshots/cesium/cesium_1_SearchingLocation.png
+.. image:: /images/projects/cesium/cesium_1_SearchingLocation.png
   :scale: 70 %
   :alt: Cesium Searching Location
 
@@ -25,13 +25,13 @@ Wechsel zwischen 3D, 2.5D und 2D
 =================================
 Sie können auf den Button mit dem Globus klicken, um in eine andere Ansicht zu wechseln. Auf dem folgenden Bild wurde die 2.5D Columbus Ansicht ausgewählt.
 
-.. image:: /images/screenshots/cesium/cesium_2_2253d.png
+.. image:: /images/projects/cesium/cesium_2_2253d.png
   :scale: 70 %
   :alt: Cesium switching between 3D, 2.5D and 2D
 
 Nun wurde die 2D Karte ausgewählt.
 
-.. image:: /images/screenshots/cesium/cesium_3_2D.png
+.. image:: /images/projects/cesium/cesium_3_2D.png
   :scale: 70 %
   :alt: Cesium 2D map
 
@@ -39,7 +39,7 @@ Auswahl der Kartenebene
 =========================
 Über den Button ganz rechts kann der Kartendienst ausgewählt werden, der angezeigt werden soll. Im Beispiel wurde Natural Earth II ausgewählt und Sie können sehen, wie sich das Kartenbild verändert.
 
-.. image:: /images/screenshots/cesium/cesium_4_Layer.png
+.. image:: /images/projects/cesium/cesium_4_Layer.png
   :scale: 70 %
   :alt: Cesium 2D map
 

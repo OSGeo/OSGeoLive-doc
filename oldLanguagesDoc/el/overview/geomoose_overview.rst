@@ -28,7 +28,7 @@ Web GIS Portal
 Ο πυρήνας του GeoMOOSE είναι γραμμένος σε JavaScript and HTML. Είναι δυνατόν να εκτελεστεί από έναν απλό / βασικό webserver (Nginx, Apache, IIS). Πέρα απ'αυτό ενσωματώνει επιπλέον ένα πλήθος εργαλείων/λειτουργιών γραμμένα σε PHP. Τα εργαλεία αυτά έχουν την δυνατότητα να εκτελούν λειτουργίες αναγνώρισης, επιλογής και αναζήτησης σε δεδομένα. Επίσης αν έχετε άλλα εργαλεία για παρόμοιες εργασίες το GeoMOOSE ρυθμίζεται να συνεργάζεται με αυτά ανεξάρτητα απ'την γλώσσα στην οποία είναι γραμμένα.
 Ως Ανοιχτό Λογισμικό έχει στηριχθεί πάνω σε άλλα ΕΛ/ΛΑΚ όπως τα MapServer και OpenLayers.
 
-.. image:: /images/screenshots/geomoose/geomoose-2_6-screenshot001.png
+.. image:: /images/projects/geomoose/geomoose-2_6-screenshot001.png
   :scale: 55 %
   :alt: GeoMoose Screenshot
   :align: right

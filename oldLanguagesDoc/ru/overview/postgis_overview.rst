@@ -71,7 +71,7 @@ PostGIS отличается стабильностью, скоростью ра
   Don't include the desktop background as this changes with each release
   and will become dated.
 
-.. image:: /images/screenshots/pgadmin/pgadmin.png
+.. image:: /images/projects/pgadmin/pgadmin.png
   :scale: 55 %
   :alt: Менеджер баз данных pgAdmin
   :align: right

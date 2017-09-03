@@ -45,7 +45,7 @@ MapSlicer starten
    für die Veröffentlichung ins Web. Wählen Sie *Google Earth (KML SuperOverlay)*, wenn Sie ebenso KML 
    Dateien für Google Earth generiert bekommen möchten. Klicken Sie auf *Continue*.
 
-   .. image:: /images/screenshots/mapslicer/mapslicer1.jpg
+   .. image:: /images/projects/mapslicer/mapslicer1.jpg
       :width: 60 %
       :align: center
 
@@ -53,7 +53,7 @@ MapSlicer starten
    Ebenso ist es möglich, eine Farbe für NODATA (keine Daten), die letzendlich transparent in den 
    resultierenden Bildern wird. Auch hier klicken Sie *Continue*.
 
-   .. image:: /images/screenshots/mapslicer/mapslicer2.jpg
+   .. image:: /images/projects/mapslicer/mapslicer2.jpg
       :width: 60 %
       :align: center
 
@@ -62,13 +62,13 @@ MapSlicer starten
    die Transfromation die Information `EPSG:27700 with TOWGS84 <http://help.maptiler.org/coordinates/europe/uk>`_ 
    als Parameter enthalten. licken Sie auf *Continue* 
 
-   .. image:: /images/screenshots/mapslicer/mapslicer3.jpg
+   .. image:: /images/projects/mapslicer/mapslicer3.jpg
       :width: 60 %
       :align: center
 
 #. Geben Sie die Details für die Pyramidenbildung (**Tile Pyramid**). Die Standardeinstellungen für die Zoomstufen und das Deteiformat sind meistens passend. Weiter mit  *Continue*.
 
-   .. image:: /images/screenshots/mapslicer/mapslicer4.jpg
+   .. image:: /images/projects/mapslicer/mapslicer4.jpg
       :width: 60 %
       :align: center
 
@@ -76,7 +76,7 @@ MapSlicer starten
    Kachelsatz an. Wissen Sie zu diesem Zeitpunkt die URLs noch nicht, können diese später in die 
    Standardseiten *googlemaps.html* und *openlayers.html* eingetragen werden. Weiter mit *Continue*.
 
-   .. image:: /images/screenshots/mapslicer/mapslicer5.jpg
+   .. image:: /images/projects/mapslicer/mapslicer5.jpg
       :width: 60 %
       :align: center
 
@@ -84,7 +84,7 @@ MapSlicer starten
    bekommen möchten. Als Vorgabe sind *googlemaps.html* und *openlayers.html* gewählt. Weiter mit *Continue*.
 
 
-   .. image:: /images/screenshots/mapslicer/mapslicer6.jpg
+   .. image:: /images/projects/mapslicer/mapslicer6.jpg
       :width: 60 %
       :align: center
 
@@ -92,7 +92,7 @@ MapSlicer starten
    Wissen Sie diese zu diesem Zeitpunkt noch nicht, können diese später in die Standardseiten 
    *googlemaps.html* und *openlayers.html* eingetragen werden. Weiter mit *Continue*. 
 
-   .. image:: /images/screenshots/mapslicer/mapslicer7.jpg
+   .. image:: /images/projects/mapslicer/mapslicer7.jpg
       :width: 60 %
       :align: center
 

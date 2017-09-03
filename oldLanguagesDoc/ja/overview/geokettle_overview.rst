@@ -21,7 +21,7 @@ GeoKettle はソースからデータを抽出し、誤り修正のために変�
 
 地理空間情報分野の商用の空間 ETL ツールである FME と Geokettle を比較すると、GeoKettle は安定、高速に動作し、標準規格に準拠、何百ものファイルフォーマット、サービス、 DBMS の読み書きに対応しています。GeoKettle は政府関連機関、銀行、保険、地理空間サービス作成企業など、世界中の様々な組織で利用されています。
 
-.. image:: /images/screenshots/geokettle/geokettle-overview.png
+.. image:: /images/projects/geokettle/geokettle-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right

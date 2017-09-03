@@ -39,7 +39,7 @@
   
 #. В окне браузера откроется интерфейс управления 52°North WSS. Нажмите *Manage WSS* (**1**), чтобы получить список сервисов, к которым можно подключиться через WSS.
 
-   .. image:: /images/screenshots/52nWSS/52nWSS_start_manager.png
+   .. image:: /images/projects/52nWSS/52nWSS_start_manager.png
 	  :scale: 70 %
      
 .. tip::
@@ -55,7 +55,7 @@ WSS-менеджер
 
 Таблица имеет следующие колонки:
 
-   .. image:: /images/screenshots/52nWSS/52nWSS_manager_interface.png
+   .. image:: /images/projects/52nWSS/52nWSS_manager_interface.png
      :scale: 70 %
 
 
@@ -83,7 +83,7 @@ WSS-менеджер
 
 #. Нажмите ссылку `Create` (**1**) в главном окне менеджера
 
-   .. image:: /images/screenshots/52nWSS/52nWSS_create_enforcement_point.png
+   .. image:: /images/projects/52nWSS/52nWSS_create_enforcement_point.png
      :scale: 70 %
 
 #. Заполните свойства нового защищенного сервера
@@ -93,12 +93,12 @@ WSS-менеджер
    * `Type` : WMS (**3**)
    * `Autenthication Scheme` : HTTP Basic (**4**)
 
-   .. image:: /images/screenshots/52nWSS/52nWSS_create_new_enforcement_point_properties.png
+   .. image:: /images/projects/52nWSS/52nWSS_create_new_enforcement_point_properties.png
      :scale: 70 %
 
 #. Нажмите кнопку :guilabel:`Create` для создания новой `защищенной точки`. В главном окне менеджера появится новая строка.
 
-   .. image:: /images/screenshots/52nWSS/52nWSS_new_enforcement_point_added.png
+   .. image:: /images/projects/52nWSS/52nWSS_new_enforcement_point_added.png
      :scale: 70 %
 
 
@@ -119,7 +119,7 @@ WSS-менеджер
       <Role name="livedvd"/>
     </User>
 
-   .. image:: /images/screenshots/52nWSS/52nWSS_users_xml.png
+   .. image:: /images/projects/52nWSS/52nWSS_users_xml.png
      :scale: 70 %
 
 #. Сохраните изменения и закройте текстовый редактор
@@ -166,7 +166,7 @@ WSS-менеджер
       </Permission>
     </PermissionSet>
 
-   .. image:: /images/screenshots/52nWSS/52nWSS_permissions_xml.png
+   .. image:: /images/projects/52nWSS/52nWSS_permissions_xml.png
      :scale: 70 %
 
 #. Сохраните изменения и закройте текстовый редакторю
@@ -195,7 +195,7 @@ WSS-менеджер
 
 #. Войдите как `livedvd`/`livedvd`, чтобы получить доступ к полным разрешениям или войдите как `bob`/`bob`, чтобы получить доступ к сервису с ограниченными правами (будет доступен только слой `tasmania`)
 
-   .. image:: /images/screenshots/52nWSS/52nWSS_authorization_required.png
+   .. image:: /images/projects/52nWSS/52nWSS_authorization_required.png
      :scale: 70 %
 
 .. note::
@@ -210,12 +210,12 @@ WSS-менеджер
 
 #. Нажмите кнопку :guilabel:`Add WMS Layer` на главной панели инструментом (**1**)
 
-   .. image:: /images/screenshots/52nWSS/52nWSS_qgis_add_wms_layer.png
+   .. image:: /images/projects/52nWSS/52nWSS_qgis_add_wms_layer.png
      :scale: 70 %
 
 #. Нижмите кнопку :guilabel:`New` (**1**) для того чтобы создать новое подключение к WMS
 
-   .. image:: /images/screenshots/52nWSS/52nWSS_qgis_new_wms_connection.png
+   .. image:: /images/projects/52nWSS/52nWSS_qgis_new_wms_connection.png
      :scale: 70 %
 
 #. Задайте параметры подключения и нажмите кнопку :guilabel:`Ok` (**5**) для создания подключения
@@ -225,17 +225,17 @@ WSS-менеджер
    * `User name` : livedvd (**3**)
    * `Password` : livedvd (**4**)
 
-   .. image:: /images/screenshots/52nWSS/52nWSS_livedvd_wms_connection_properties.png
+   .. image:: /images/projects/52nWSS/52nWSS_livedvd_wms_connection_properties.png
      :scale: 70 %
 
 #. Нажмите кнопку :guilabel:`Connect` (**1**) для загрузки WMS-слоёв. Полный список слоёв будет доступен для пользователя `livedvd`.
 
-   .. image:: /images/screenshots/52nWSS/52nWSS_qgis_livedvd_wms_layers.png
+   .. image:: /images/projects/52nWSS/52nWSS_qgis_livedvd_wms_layers.png
      :scale: 70 %
 
 #. Нажмите кнопку :guilabel:`Edit` (**1**) для редактирования свойств соединения
 
-   .. image:: /images/screenshots/52nWSS/52nWSS_qgis_edit_wms_connection.png
+   .. image:: /images/projects/52nWSS/52nWSS_qgis_edit_wms_connection.png
      :scale: 70 %
 
 #. Снова задайте свойства соединения и нажмите кнопку :guilabel:`Ok` (**3**) для редактирования соединения
@@ -243,12 +243,12 @@ WSS-менеджер
    * `User name` : bob (**1**)
    * `Password` : bob (**2**)
 
-   .. image:: /images/screenshots/52nWSS/52nWSS_bob_wms_connection_properties.png
+   .. image:: /images/projects/52nWSS/52nWSS_bob_wms_connection_properties.png
      :scale: 70 %
 
 #. Нажмите кнопку :guilabel:`Connect` (**1**) для перезагрузки WMS-слоёв. Только слой `tasmania` будет доступен для пользователя `bob`
 
-   .. image:: /images/screenshots/52nWSS/52nWSS_qgis_bob_wms_layers.png
+   .. image:: /images/projects/52nWSS/52nWSS_qgis_bob_wms_layers.png
      :scale: 70 %
 
 

@@ -28,7 +28,7 @@ przykładów służących pomocą, aby szybko i sprawnie zacząć pracę.
 
 .. _OpenSceneGraph: http://www.openscenegraph.org/
 
-.. image:: /images/screenshots/1024x768/osgearth.jpg
+.. image:: /images/projects/1024x768/osgearth.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

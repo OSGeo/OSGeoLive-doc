@@ -24,7 +24,7 @@ MapWindow GIS
 
 .. note:: Το MapWindow απαιτεί σύστημα Microsoft Windows για την εκτέλεσή του. Τα αρχεία εγκατάστασης περιλαμβάνονται  στην πλήρη έκδοση του `OSGeo-Live <http://live.osgeo.org>`_ ή μπορούν να τηλεφορτωθούν από τη διεύθυνση http://mapwindow4.codeplex.com/releases.
    
-.. image:: /images/screenshots/mapwindow/mapwindow-screenshot.jpg
+.. image:: /images/projects/mapwindow/mapwindow-screenshot.jpg
   :alt: Mapwindow Screenshot
   :scale: 50 %
   :align: right

@@ -20,7 +20,7 @@ osgEarth supporte tous les types de données et il est fournit avec un grand nom
 
 .. _OpenSceneGraph: http://www.openscenegraph.org/
 
-.. image:: /images/screenshots/1024x768/osgearth.jpg
+.. image:: /images/projects/1024x768/osgearth.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

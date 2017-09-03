@@ -30,7 +30,7 @@ Abrir un terminal,
   cd mbinfo
   ./mbinfo.cmd
 
-.. image:: /images/screenshots/mb-system/mb-system_screenshot.png
+.. image:: /images/projects/mb-system/mb-system_screenshot.png
   :scale: 35 %
   :alt: relieve sombreado 2D
   :align: right

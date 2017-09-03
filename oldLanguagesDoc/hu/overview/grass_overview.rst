@@ -36,7 +36,7 @@ optimalizálták. Alkalmas kifinomult prezentációk és nyomtatott térképek
 előállítására. A GRASS GIS-t sok nyelvre lefordították és az adatformátumok 
 óriási halmazát képes kezelni.
 
-.. image:: /images/screenshots/grass/grass-vectattrib.png
+.. image:: /images/projects/grass/grass-vectattrib.png
    :scale: 50 %
    :alt: képernyőkép
    :align: right
@@ -62,7 +62,7 @@ Alapfunkciók
 --------------------------------------------------------------------------------
 
 * Nevezze meg, létezik erre egy `eszköz <http://grass.osgeo.org/grass70/manuals/keywords.html>`_.
-* Fedezze fel a `képernyőkép gyűjteményt <http://grass.osgeo.org/screenshots/>`_.
+* Fedezze fel a `képernyőkép gyűjteményt <http://grass.osgeo.org/projects/>`_.
 
 Részletek
 --------------------------------------------------------------------------------

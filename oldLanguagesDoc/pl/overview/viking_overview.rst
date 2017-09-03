@@ -26,7 +26,7 @@ Współpracuje z danymi OpenStreetMap oraz wieloma usługami serwującymi dane w
 Główne funkcje
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/viking/viking-0_9_8-europe.jpg
+.. image:: /images/projects/viking/viking-0_9_8-europe.jpg
   :scale: 40 %
   :alt: screenshot
   :align: right

@@ -30,7 +30,7 @@ EOxServer basiert komplett auf Open Source Software wie Python,
 <gdal_overview>`, PROJ.4 und einer :doc:`SpatiaLite <spatialite_overview>` 
 oder :doc:`PostGIS <postgis_overview>` Datenbank.
 
-.. image:: /images/screenshots/eoxserver/eoxserver_screenshot.png
+.. image:: /images/projects/eoxserver/eoxserver_screenshot.png
   :scale: 50 %
   :alt: In EOxServer eingebauter Klient
   :align: right

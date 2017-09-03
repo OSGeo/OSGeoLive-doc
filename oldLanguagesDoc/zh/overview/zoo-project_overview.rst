@@ -27,7 +27,7 @@ ZOO-Project
 
 ZOO 包含三个部分：
 
-.. image:: /images/screenshots/zoo/zoo-project-demo-2.png
+.. image:: /images/projects/zoo/zoo-project-demo-2.png
   :scale: 40 %
   :alt: screenshot
   :align: right

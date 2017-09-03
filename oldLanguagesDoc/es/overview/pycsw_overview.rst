@@ -45,7 +45,7 @@ relacionados.
 pycsw es software de código abierto, liberado bajo la licencia MIT, y es ejecutable
 en las mayores plataformas (Windows, Linux, Mac OS X).
 
-.. image:: /images/screenshots/pycsw/pycsw_overview.jpg
+.. image:: /images/projects/pycsw/pycsw_overview.jpg
   :scale: 50 %
   :alt: project logo
   :align: right

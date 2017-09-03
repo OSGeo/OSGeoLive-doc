@@ -44,7 +44,7 @@ To Quantum GIS (QGIS) είναι μια φιλική GIS Desktop εφαρμογ�
 
    * Οι κατοικήσιμες περιοχές πλέον προβάλλονται στο QGIS:
 
-     .. image:: /images/screenshots/qgis/qgis.png
+     .. image:: /images/projects/qgis/qgis.png
         :scale: 50 %
 
 #. Διπλό αριστερό κλικ **10m_rivers_lake_centerlines** στο δέντρο των Layers.

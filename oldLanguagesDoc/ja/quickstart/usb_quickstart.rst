@@ -36,12 +36,12 @@ Boot your computer into a recent Ubuntu/Xbuntu distribution. You can do this by 
 
 USB flash ドライブをコンピューターに接続してください。
 
-  .. image:: /images/screenshots/usb/usb_select.png
+  .. image:: /images/projects/usb/usb_select.png
     :scale: 70 %
 
 メニューから :menuselection:`System Tools --> Startup Disk Creator` を選択するか、デスクトップから  `Startup Disk Creator` を検索してください。
 
-  .. image:: /images/screenshots/usb/usb_set_params.png
+  .. image:: /images/projects/usb/usb_set_params.png
     :scale: 70 %
 
 osgeo-live か osgeo-live-mini の ISO イメージを選択します。
@@ -50,7 +50,7 @@ USB flash ドライブを選択します。If you have extra room you might adju
 
 :guilabel:`Make Startup Disk` を選択します。
 
-  .. image:: /images/screenshots/usb/usb_installing.png
+  .. image:: /images/projects/usb/usb_installing.png
     :scale: 70 %
 
 20分ほど待てば USB flash ドライブが作成されます。

@@ -16,7 +16,7 @@ Ushahidi
 
 Движок `Ushahidi <http://www.ushahidi.com/>`_ представляет собой открытую платформу, которая может быть использована для сбора распределённой информации посредством SMS или электронной почты и её визуализации на карте или временной шкале. Основная цель Ushahidi - создание инструментов, упрощающих доступ к информации, повышение её прозрачности и снижение барьеров для всех желающих поделиться своими данными.
 
-.. image:: /images/screenshots/ushahidi/ushahidi-drc-screenshot.png
+.. image:: /images/projects/ushahidi/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

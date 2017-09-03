@@ -39,12 +39,12 @@ Tworzenie rozruchowego PenDrive USB na Ubuntu
 Boot your computer into a recent Ubuntu/Xbuntu distribution. You can do this by running from an OSGeo-Live DVD, as explained in :doc:`osgeolive_quickstart`.
 
 Wsuń PenDrive do napędu USB komputera.
-  .. image:: /images/screenshots/usb/usb_select.png
+  .. image:: /images/projects/usb/usb_select.png
     :scale: 70 %
 
 Wybierz :menuselection:`Applications --> System --> Startup Disk Creator`, lub wyszukaj `Startup Disk Creator` z Unity desktop.
 
-  .. image:: /images/screenshots/usb/usb_set_params.png
+  .. image:: /images/projects/usb/usb_set_params.png
     :scale: 70 %
 	
 Wybierz pobrany obraz ISO osgeo-live lub osgeo-live-mini.
@@ -52,7 +52,7 @@ Wskaż PenDrive USB. Jeśli masz więcej miejsca, możesz dopasować suwakiem do
 
 Wybierz :guilabel:`Make Startup Disk`
 
-  .. image:: /images/screenshots/usb/usb_installing.png
+  .. image:: /images/projects/usb/usb_installing.png
     :scale: 70 %
 
 Poczekaj około 20 minut na stworzenie PenDrive USB.

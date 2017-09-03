@@ -36,23 +36,23 @@ To ανοιχτού κώδικα |GN| είναι ένα σύστημα διαν�
 - Η εφαρμογή θέλει λίγο χρόνο για να ξεκινήσει
 - Πηγαίνετε στην κεντρική σελίδα του |GN| στο http://localhost:8880/geonetwork. Η πρώτη απεικόνηση του |GN| πρέπει να μοιάζει με το παρακάτω στιγμιότυπο οθόνης.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-firstviews.png
+.. figure:: /images/projects/geonetwork/geonetwork-firstviews.png
 
 - Για να αρχίσετε να μαθαίνετε το |GN| θα πρέπει να φορτώσετε κάποια δείγματα μεταδεδομένων. Κάντε είσοδο στο |GN| χρησιμοποιώντας ως όναμα χρήστη το *admin* και ως κωδικό το *admin* στα αντίστοιχα πεδία στην πάνω δεδξιά γωνία, στην συνέχεια κλικάρετε το κουμπί της ειδόσου.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-login.png
+.. figure:: /images/projects/geonetwork/geonetwork-login.png
 
 - Πρέπει να δείτε ένα σύνδεσμο *Administration* στο διαφημιστικό εικονίδιο. Κλικάρετέ το.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-administration-banner.png
+.. figure:: /images/projects/geonetwork/geonetwork-administration-banner.png
 
 - Στην συνέχεια εμφανίζεται η σελίδα *Administration*, μετακινηθείτε στο κάτω μέρος της σελίδας και φορωστε τα δεδομένα κλικάρωντας το κουμπί 'Add sample metadata'.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-addsampledatabutton.png
+.. figure:: /images/projects/geonetwork/geonetwork-addsampledatabutton.png
 
 - Επιστρέψτε στην σελίδα 'Home' αφού φορτωθούν τα μεταδεδομένα του δείγματος και συνεχίστε τον υπόλοιπο οδηγό χρήγορης εκκίνησης. Όταν γυρίσετε στην κεντρική σελίδα η οθόνη σας πρέπει να μοιάζει με κάτι σαν την παρακάτω απεικόνηση.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-returntohomepage.png
+.. figure:: /images/projects/geonetwork/geonetwork-returntohomepage.png
 
 Αναζήτηση
 --------------------------------------------------------------------------------
@@ -72,7 +72,7 @@ To ανοιχτού κώδικα |GN| είναι ένα σύστημα διαν�
 
 Το κείμενο και οι τελεστές (και, ή, όχι) δεν είναι ευαίσθητοι σε υποθέσεις.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-what.png
+.. figure:: /images/projects/geonetwork/geonetwork-what.png
 
   *Το πεδίο κειμένου.*
 	
@@ -80,13 +80,13 @@ To ανοιχτού κώδικα |GN| είναι ένα σύστημα διαν�
 
 Μπορείτε να επιλέξετε μια **περιοχή - region** από την προκαθορισμένη λίστα,
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-where1.png
+.. figure:: /images/projects/geonetwork/geonetwork-where1.png
   
   *Το πεδίο περιοχής*
 
 Μπορείτε να επιλέξετε την δική σας *περιοχή ενδιαφέροντος* με έναν πιο διαδραστικό τρόπο. Ένας μικρός παγκόσμιος χάρτης εμφανίζεται στην οθόνη σας από τον οποίο μπορείτε να προσαρμόσετε το πλαίσιο στην δική σας περιοχή. Μετά απλά κλικάρετε στο κουμπί πάνω δεξιά στην οθόνη του χάρτη.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-where2.png
+.. figure:: /images/projects/geonetwork/geonetwork-where2.png
   
   *Διαδραστική περιοχή ενδιαφέροντος στο χάρτη*
 
@@ -94,7 +94,7 @@ To ανοιχτού κώδικα |GN| είναι ένα σύστημα διαν�
 
 Κλικάρετε το κουμπί *Search* για να προχωρήσετε και να εμφανίσετε τα αποτελέσματα.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-search_button.png
+.. figure:: /images/projects/geonetwork/geonetwork-search_button.png
 
   *Το κουμπί Αναζήτησης*
 
@@ -105,7 +105,7 @@ To ανοιχτού κώδικα |GN| είναι ένα σύστημα διαν�
 
 Για αναζήτηση μόνο σε χάρτες, κλικάρετε στο **Maps and Graphics**. Μια λίστα από χάρτες θα σας εμφανιστεί από την οποία θα μπορείτε να δείτε λεπτομέρειες από κάθε ξεχωριστό χάρτη, απλά κλικάρετε στο κουμπί **Metadata** του χάρτη που θέλετε να δείτε.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-Categories.png
+.. figure:: /images/projects/geonetwork/geonetwork-Categories.png
 
   *Αναζήτηση ανά κατηγορία*
   
@@ -114,13 +114,13 @@ To ανοιχτού κώδικα |GN| είναι ένα σύστημα διαν�
 
 Η επιλογή της προχωρημένης αναζήτησης λειτουργεί παρόμοια με την εξ ορισμού αναζήτηση. Παρόλα αυτά, μποτείτε να γίνετε πιο συγκεκριμένοι στα κριτήρια αναζήτησής σας, καθώς προσφέρει διαφορετικά στοιχεία για εύρεση δεδομένων, από τα οποία κάθε ένα εστιάζει σε μια από τις ακόλουθες οπτικές: *What?, Where?, When?*
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search1.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search1.png
 
   *Προχωρημένες επιλογές αναζήτησης*
 
 Για να πραγματοποιηθεί μια **προχωρημένη αναζήτηση**, από την κεντρική σελίδα κάντε κλίκ στο **Advanced** ακριβώς κάτω από το κουμπί της αναζήτησης.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_button.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search_button.png
 
   *Εμφάνηση επιλογών προχωρημένης αναζήτησης*
 
@@ -130,7 +130,7 @@ To ανοιχτού κώδικα |GN| είναι ένα σύστημα διαν�
 
 - Μπορείτε να επιλέξετε το **accuracy of your search**, με όρους ορθογραφίας λέξεων, από **Precise** = 1 σε **Imprecise** = 0.2, με 3 συνεχώμενα βήματα που είναι ίσα με 0.8, 0.6, 0.4.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_what.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search_what.png
 
   *Πεδίο "What" στις προχωρημένες επιλογές*
 
@@ -142,7 +142,7 @@ To ανοιχτού κώδικα |GN| είναι ένα σύστημα διαν�
 
 - Για χρήση των συντεταγμένων μιας **προκαθορισμένης περιοχής**, επιλέξτε μια περιοχή από την αναπτυσσόμενη προς τα κάτω λίστα.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_where.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search_where.png
 
   *Πεδίο "Where" στις προχωρημένες επιλογές*
 
@@ -162,7 +162,7 @@ To ανοιχτού κώδικα |GN| είναι ένα σύστημα διαν�
 
 - Για να καθαρίσετε το πεδίο του χρόνου, απλά κλικάρετε το λευκό σταυρό στα δεξιά, το κουτί **Any** θα επιλεχθεί αυτόματα και η αναζήτηση θα πραγματοποιηθεί χωρίς κάποιο περιορισμό στη χρονική περίοδο.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_when.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search_when.png
 
   *Πεδίο "When" στις προχωρημένες επιλογές*
 
@@ -179,7 +179,7 @@ To ανοιχτού κώδικα |GN| είναι ένα σύστημα διαν�
 
 - Κλικάρετε το κουμπί **Search**.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_morerest.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search_morerest.png
 
   *Άλλες προχωρημένες επιλογές*
 
@@ -191,7 +191,7 @@ To ανοιχτού κώδικα |GN| είναι ένα σύστημα διαν�
 λέξεις κλειδιά. Σύμφωνα με τα προνόμια που έχετε δώσει για κάθε μεταδεδομένο, το περισσότερο
 τέσσερις παράγραφοι μπορούν να εμφανιστούν, όπως φαίνεται και παρακάτω.  
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-search_output2.png
+.. figure:: /images/projects/geonetwork/geonetwork-search_output2.png
 
     *Αποτελέσματα αναζήτησης*
 
@@ -199,23 +199,23 @@ To ανοιχτού κώδικα |GN| είναι ένα σύστημα διαν�
 
 #. **Download**: Ανάλογα με τα προνόμια που έχουν δοθεί στην καταχώρηση, όταν παρουσιάζετε αυτό το κουμπί, η ομάδα δεδομένων είναι διαθέσιμη και μπορεί να τα κατέβάσετε. Η διαδικασία για ανάκτηση είναι απλή και γρήγορη απλά κλικάροντας το κουμπί για κατέβασμα ή με χρήση του σωστού συνδέσμου στη συγκεκριμένη παράγραφο μεταδεδομένων για πληροφορίες διανομής στη πλήρη απεικόνηση των μεταδεδομένων.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-search_output1.png
+.. figure:: /images/projects/geonetwork/geonetwork-search_output1.png
     
         *Αποτέλεσμα μεμονωμένης αναζήτησης*
     
-.. figure:: /images/screenshots/geonetwork/geonetwork-download.png
+.. figure:: /images/projects/geonetwork/geonetwork-download.png
     
         *Διαθέσιμες υπηρεσίες για μια πηγή δεδομένων*
 
 #. **Interactive Map**: Οι υπηρεσίες χάρτη είναι επίσης προαιρετικές. Όταν εμφανίζεται αυτό το κουμπί, ένας διαδραστικός χάρτης για αυτό το στρώμα είναι διαθέσιμος και, εξ ορισμού, θα εμφανιστεί στην οθόνη του χάρτη της απλής αναζήτησης. Για καλύτερη απεικόνηση του χάρτη μέσω του προγράμματος απεικόνησης του χάρτη, **click** στο **Show Map** στο πάνω πίνακα του αποτελέσματος αναζήτησης.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-interactive_map.png
+.. figure:: /images/projects/geonetwork/geonetwork-interactive_map.png
     
         *Ο διαδραστικός χάρτης*
 
 #. **Graphic Overviews**: Υπάρχουν μικρές και μεγάλες επισκοπήσεις του χάρτη για χρήση της σωστής αξιολόγησης της χρησιμότητας των δεδομένων, κυρίως εάν ο διαδραστικός χάρτης δεν είναι διαθέσιμος. Απλά κλικάρετε στο μικρό σχήμα και μεγαλώστε το.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-thumbnail.png
+.. figure:: /images/projects/geonetwork/geonetwork-thumbnail.png
     
         *Μεγάλη προεπισκόπηση*
 
@@ -228,7 +228,7 @@ To ανοιχτού κώδικα |GN| είναι ένα σύστημα διαν�
 
 Για να πραγματοποιήσετε είσοδο, απλά πηγαίνετε στην κεντρική σελίδα και εισάγετε το όνομα χρήστη και το κωδικό στα ανάλογα πεδία στην πάνω δεξιά γωνία, έπειτα κλικάρετε στο κουμπί εισόδου.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-login.png
+.. figure:: /images/projects/geonetwork/geonetwork-login.png
 
     *Είσοδος χρήστη*
 

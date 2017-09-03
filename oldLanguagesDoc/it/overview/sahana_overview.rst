@@ -41,7 +41,7 @@ delle catastrofi con la sponsorizzazione della Swedish International
 Development Agency, IBM, la US National Science Foundation, e da allora
 è stato utilizzato da una dozzina di governi e di ONG.
 
-.. image:: /images/screenshots/sahana/sahana-camp-dist_0.jpg
+.. image:: /images/projects/sahana/sahana-camp-dist_0.jpg
   :scale: 80 %
   :alt: screenshot
   :align: right

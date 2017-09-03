@@ -18,7 +18,7 @@ Cartaro provides geospatial functionality and web services within the Drupal Con
 
 Cartaro is designed for CMS websites needing to handle geospatial data, and for organisations wanting a light-weight Spatial Data Infrastructure (SDI) with minimal configuration and programming.
 
-.. image:: /images/screenshots/cartaro/cartaro_frontpage.png
+.. image:: /images/projects/cartaro/cartaro_frontpage.png
   :scale: 50%
   :alt: Cartaro Frontpage
   :align: right

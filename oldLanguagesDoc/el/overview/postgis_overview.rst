@@ -29,7 +29,7 @@ PostGIS
 
 Η διαχείριση της βάσης δεδομένων γίνεται μεταξύ άλλων μέσω των pgAdmin και phpPgAdmin. Η είσοδος και έξοδος δεδομένων παρέχεται από πληθώρα εργαλείων μετατροπής (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis). Και υπάρχουν πολλά λογισμικά GIS (desktop και διαδικτυακά) για επισκόπηση δεδομένων σε PostGIS.
 
-.. image:: /images/screenshots/pgadmin/pgadmin.png
+.. image:: /images/projects/pgadmin/pgadmin.png
   :scale: 55 %
   :alt: pgAdmin database manager
   :align: right

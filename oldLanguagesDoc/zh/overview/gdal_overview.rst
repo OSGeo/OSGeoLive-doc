@@ -26,7 +26,7 @@ GDAL/OGR
 
 　　GDAL/OGR 是一个最广泛使用的地理空间数据访问库，为许多应用系统提供了主要数据访问引擎，包括 MapServer、GRASS、QGIS 和 OpenEV 。同时，也被其他软件利用，诸如OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS.
 
-.. image:: /images/screenshots/gdal/gdal_ogr_proj_overview.png
+.. image:: /images/projects/gdal/gdal_ogr_proj_overview.png
   :scale: 60 %
   :alt: GDAL supports many geodata formats
   :align: right

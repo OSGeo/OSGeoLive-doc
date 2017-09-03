@@ -40,23 +40,23 @@ http://localhost:8880/geonetwork/docs/eng/users/index.html или по щелч�
 - Запуск займет пару секунд
 - Перейдите на домашнюю страницу |GN| http://localhost:8880/geonetwork. Вы увидите первую страницу |GN|, которая выглядит, как на скриншоте ниже.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-firstviews.png
+.. figure:: /images/projects/geonetwork/geonetwork-firstviews.png
 
 - Для ознакомления с |GN| мы загрузим пробный набор метаданных. Войдите в |GN|, введя имя *admin* и пароль *admin* в соответствующих полях в верхнем правом углу и нажав кнопку 'login'.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-login.png
+.. figure:: /images/projects/geonetwork/geonetwork-login.png
 
 - Вы должны увидеть ссылку *Administration* на баннере. Щёлкните по ней.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-administration-banner.png
+.. figure:: /images/projects/geonetwork/geonetwork-administration-banner.png
 
 - Когда появится страница *Administration*, прокрутите её до самого низа и загрузите пробные данные, нажав кнопку 'Add sample metadata'.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-addsampledatabutton.png
+.. figure:: /images/projects/geonetwork/geonetwork-addsampledatabutton.png
 
 - После того, как пробные метаданные загрузятся, вернитесь на домашнюю страницу ("Home" ) для продолжения. Когда вы вернётесь на домашнюю страницу, ваш экран будет выглядеть примерно так, как показано ниже.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-returntohomepage.png
+.. figure:: /images/projects/geonetwork/geonetwork-returntohomepage.png
 
 Поиск
 --------------------------------------------------------------------------------
@@ -84,7 +84,7 @@ http://localhost:8880/geonetwork/docs/eng/users/index.html или по щелч�
 
 Текст и операторы (and, or, not) нечувствительны к регистру.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-what.png
+.. figure:: /images/projects/geonetwork/geonetwork-what.png
 
   *Поле произвольного текста.*
 
@@ -92,7 +92,7 @@ http://localhost:8880/geonetwork/docs/eng/users/index.html или по щелч�
 
 Вы можете выбрать **регион** из списка:
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-where1.png
+.. figure:: /images/projects/geonetwork/geonetwork-where1.png
 
   *Поле региона*
 
@@ -101,7 +101,7 @@ http://localhost:8880/geonetwork/docs/eng/users/index.html или по щелч�
 рамку, охватывающую нужную область. Просто нажмите кнопку в правом 
 верхнем углу карты.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-where2.png
+.. figure:: /images/projects/geonetwork/geonetwork-where2.png
 
   *Интерактивное выделение интересующей области*
 
@@ -110,7 +110,7 @@ http://localhost:8880/geonetwork/docs/eng/users/index.html или по щелч�
 
 Нажмите кнопку *Search (Поиск)* для отображения результатов.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-search_button.png
+.. figure:: /images/projects/geonetwork/geonetwork-search_button.png
 
   *Кнопка Search*
 
@@ -130,7 +130,7 @@ Other information resources (Другие информационные ресу�
 где вы сможете увидеть подробную информацию по каждой карте, просто нажимая
 кнопку **Metadata** у интересующей карты.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-Categories.png
+.. figure:: /images/projects/geonetwork/geonetwork-Categories.png
 
   *Поиск по категориям*
 
@@ -142,14 +142,14 @@ Other information resources (Другие информационные ресу�
 фокусируется на одном из следующих аспектов: 
 *What? (Что?), Where? (Где?), When? (Когда?)*
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search1.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search1.png
 
   *Параметры расширенного поиска*
 
 Для выполнения **Расширенного поиска (advanced search)** на домашней 
 странице щелкните **Advanced** сразу под формой поиска.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_button.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search_button.png
 
   *Переход к расширенным параметрам поиска*
 
@@ -163,7 +163,7 @@ Other information resources (Другие информационные ресу�
 
 - Вы можете указать **точность поиска**, в условиях разбора слов, от **Precise (Точно)** = 1 до **Imprecise (Грубо)** = 0.2, через 3 шага, равных 0.8, 0.6, 0.4.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_what.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search_what.png
 
   *Секция "What" в расширенном поиске*
 
@@ -178,7 +178,7 @@ Other information resources (Другие информационные ресу�
 
 - Для использования координат **предустановленного региона**, выберите регион из выпадающего списка.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_where.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search_where.png
 
   *Секция "Where" в расширенном поиске*
 
@@ -203,7 +203,7 @@ Other information resources (Другие информационные ресу�
 
 - Для очистки полей с датами просто щёлкните по белому крестику справа от них; автоматически отметится пункт **Anytime**, и поиск выполнится без учета периода времени.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_when.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search_when.png
 
   *Секция "When" в расширенном поиске*
 
@@ -223,7 +223,7 @@ Other information resources (Другие информационные ресу�
 
 - Нажмите кнопку **Search**.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_morerest.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search_morerest.png
 
   *Прочие опции в расширенном поиске*
 
@@ -236,7 +236,7 @@ Other information resources (Другие информационные ресу�
 могут быть назначены для любых метаданных, могут быть доступны максимум 
 четыре секции.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-search_output2.png
+.. figure:: /images/projects/geonetwork/geonetwork-search_output2.png
 
     *Результаты поиска*
 
@@ -251,11 +251,11 @@ Other information resources (Другие информационные ресу�
 сводится к простому нажатию на кнопку загрузки, либо щелчку по ссылке 
 в специальной секции метаданных в режиме полного просмотра.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-search_output1.png
+.. figure:: /images/projects/geonetwork/geonetwork-search_output1.png
 
 	*Отдельно взятый результат поиска*
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-download.png
+.. figure:: /images/projects/geonetwork/geonetwork-download.png
 
 	*Доступные сервисы, относящиеся к ресурсу*
 
@@ -264,7 +264,7 @@ Other information resources (Другие информационные ресу�
 отображается в простом поиске. Для лучшей визуализации, **щёлкните** по 
 **Show Map (Показать карту)** в верхней части панели результатов.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-interactive_map.png
+.. figure:: /images/projects/geonetwork/geonetwork-interactive_map.png
 
 	*Просмотр интерактивной карты*
 
@@ -272,7 +272,7 @@ Other information resources (Другие информационные ресу�
 (особенно если интерактивная карта не доступна), существует малый и 
 увеличенный обзор. Просто щёлкните по маленькой картинке для увеличения.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-thumbnail.png
+.. figure:: /images/projects/geonetwork/geonetwork-thumbnail.png
 
 	*Увеличенный обзор*
 
@@ -291,7 +291,7 @@ Other information resources (Другие информационные ресу�
 пользователя и пароль в соответствующие поля в правом верхнем углу, 
 затем нажмите кнопку login.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-login.png
+.. figure:: /images/projects/geonetwork/geonetwork-login.png
 
     *Вход*
 

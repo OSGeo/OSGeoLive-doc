@@ -37,7 +37,7 @@ aux utilisateurs.
 * utilisation efficace par les utilisateurs : ceux si définissent des sélections; visualisent et 
   téléchargent.
 
-.. image:: /images/screenshots/eoxserver/eoxserver_screenshot.png
+.. image:: /images/projects/eoxserver/eoxserver_screenshot.png
   :scale: 50 %
   :alt: Capture d'écran du client encapsulé de EOxServer
   :align: right

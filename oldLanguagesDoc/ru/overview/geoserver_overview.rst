@@ -33,7 +33,7 @@ GeoServer — это эталонная реализация стандарто�
 а также высокопроизводительная сертифицированная реализация :doc:`../standards/wms_overview`. GeoServer является основным
 компонентом Geospatial Web.
 
-.. image:: /images/screenshots/geoserver/geoserver.png
+.. image:: /images/projects/geoserver/geoserver.png
   :scale: 60 %
   :alt: Скриншот GeoServer
   :align: right

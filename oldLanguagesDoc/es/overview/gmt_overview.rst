@@ -31,7 +31,7 @@ GMT soporta varias de las proyecciones cartográficas más comunes, adicionalmen
 de escalamiento lineal, logarítmica y exponencial, y soporta datos como líneas 
 de costa, ríos y límites administrativos.
 
-.. image:: /images/screenshots/800x600/gmt-example28.png
+.. image:: /images/projects/800x600/gmt-example28.png
   :scale: 50 %
   :alt: screenshot
   :align: right

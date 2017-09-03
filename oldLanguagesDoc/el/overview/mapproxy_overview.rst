@@ -28,7 +28,7 @@ MapProxy
 
 Μερικά πραγματικά παραδείγματα: Ο MapProxy χρησιμοποιείται για την Γερμανική Χαρτογραφική Υπηρεσία για να σερβίρει χάρτες σε χιλιάδες χρήστες όσο πιο γρήγορα είναι δυνατόν, καθώς επίσης χρησιμοποιείται και από την Γερμανική Υπηρεσία Χαρτογραφίας και Γεωδαισίας για να συνδυάζει υπηρεσίες WMS από τις 16 πολιτείες.
 
-.. image:: /images/screenshots/mapproxy/mapproxy.png
+.. image:: /images/projects/mapproxy/mapproxy.png
   :alt: MapProxy diagram
   :align: right
 
@@ -36,7 +36,7 @@ MapProxy
 Χαρακτηριστικά του MapProxy
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/mapproxy/mapproxy_demo.png
+.. image:: /images/projects/mapproxy/mapproxy_demo.png
   :width: 796
   :height: 809
   :scale: 70 %

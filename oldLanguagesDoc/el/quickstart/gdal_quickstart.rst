@@ -173,7 +173,7 @@ OGR
 
 Ρίξτε μια ματιά στο αρχείο εξόδου shapefile με το Quantum GIS και το ogrinfo (θα μάθετε μερισσότερα για το ogrinfo αργότερα σε αυτόν τον οδηγό)
 
-  .. image:: /images/screenshots/gdal/gdal_gdaltindex.png
+  .. image:: /images/projects/gdal/gdal_gdaltindex.png
      :scale: 80
 
 ::
@@ -217,7 +217,7 @@ OGR
 Χρησιμοποιείστε την gdalinfo για να επιβεβαιώσετε τις αλλαγές και να ρίξετε μια ματιά στην εικόνα.
 
 
-  .. image:: /images/screenshots/gdal/gdal_mercator.png
+  .. image:: /images/projects/gdal/gdal_mercator.png
      :scale: 80
 
 Εδώ προβάλαμε στην Ορθή προβολή. 
@@ -227,7 +227,7 @@ OGR
    gdalwarp -t_srs '+proj=ortho +datum=WGS84' HYP_50M_SR_W_4326.tif ortho.tif
 
 
-.. image:: /images/screenshots/gdal/gdal_ortho.png
+.. image:: /images/projects/gdal/gdal_ortho.png
      :scale: 80
 
 Παρατηρείτε πως οι πόλοι είναι κομμένοι; Αυτό συμβαίενι επειδή οι ακμές στους πόλους

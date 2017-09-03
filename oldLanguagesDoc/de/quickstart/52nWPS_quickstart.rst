@@ -23,7 +23,7 @@ Starten und verwenden
 
 * Die 52n WPS Willkommenseite wird erscheinen.
 
-  .. image:: /images/screenshots/52nWPS/52nWPS_welcome_page.png
+  .. image:: /images/projects/52nWPS/52nWPS_welcome_page.png
     :scale: 70 %
     :alt: screenshot
 
@@ -39,7 +39,7 @@ Prozessieren von Daten
 
 * Klicken Sie auf den Link in der Sektion :guilabel:`Test Client`, um einen Test-Client zu öffnen.
 
-  .. image:: /images/screenshots/52nWPS/52nWPS_welcome_page_2.png
+  .. image:: /images/projects/52nWPS/52nWPS_welcome_page_2.png
     :scale: 70 %
     :alt: screenshot
 
@@ -49,7 +49,7 @@ Prozessieren von Daten
 * Wählen Sie den einfachen Aufruf "SimpleBuffer_out_wfs.xml" aus der Auswahlliste:
   
 
-  .. image:: /images/screenshots/52nWPS/52nWPS_test_client.png
+  .. image:: /images/projects/52nWPS/52nWPS_test_client.png
     :scale: 70 %
     :alt: screenshot
   
@@ -58,14 +58,14 @@ Prozessieren von Daten
   übermittelt. Dieser wird eine XML-Repräsentation der Puffer um die Hauptstraßen von Tasmanien mit 
   einem Abstand von 0.05 Grad zurückliefern und in GeoServer speichern.
 
-.. image:: /images/screenshots/52nWPS/52nWPS_output_stored_in_wfs.png
+.. image:: /images/projects/52nWPS/52nWPS_output_stored_in_wfs.png
   :scale: 70 %
   :alt: screenshot
 
 * Kopieren Sie den Wert der ResourceID vom zurückgelieferten Dokument. Dies ist der Name des GeoServer Layers. Fügen Sie die ID zur folgender Anfrage hinzu: http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers=Fügen-Sie-hier-die-ResourceID-ein
   Folgendes Ergebnis sollte zu sehen sein:
 
-  .. image:: /images/screenshots/52nWPS/52nWPS_result_in_geoserver.png
+  .. image:: /images/projects/52nWPS/52nWPS_result_in_geoserver.png
     :scale: 70 %
     :alt: screenshot
 

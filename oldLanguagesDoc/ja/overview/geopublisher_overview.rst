@@ -22,7 +22,7 @@ Geopublisherのユニークな特徴は、国際的な調査や、参加型GIS�
 
 主な特徴
 --------------------------------------------------------------------------------
-.. image:: /images/screenshots/geopublisher/geopublisher-overview.png
+.. image:: /images/projects/geopublisher/geopublisher-overview.png
   :scale: 40 %
   :alt: screenshot of Geopublisher editing an atlas
   :align: right

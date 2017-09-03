@@ -45,7 +45,7 @@ QGIS projekt szerkesztése
 Kezdjünk egy létező QGIS projekt megnyitásával és kapcsoljunk be és ki
 rétegeket.
 
-     .. image:: /images/screenshots/qgis/qgis_project_open.png
+     .. image:: /images/projects/qgis/qgis_project_open.png
        :scale: 70 %
        :alt: Egy QGIS projekt megnyitása
 
@@ -62,7 +62,7 @@ rétegeket.
 
    * A lakott helyek zöld pontokkal jelennek meg:
 
-     .. image:: /images/screenshots/qgis/qgis.png
+     .. image:: /images/projects/qgis/qgis.png
         :scale: 70 %
         :alt: Térkép a QGIS-ben
 
@@ -82,7 +82,7 @@ Réteg stílus beállítás
 
 Próbáljuk meg a térkép stílusát módosítani. 
 
-     .. image:: /images/screenshots/qgis/qgis_style_set.png
+     .. image:: /images/projects/qgis/qgis_style_set.png
         :scale: 70 %
         :alt: Stílus beállítások
 
@@ -96,7 +96,7 @@ Próbáljuk meg a térkép stílusát módosítani.
 
    * Vegye észre, hogy a folyók az új színnel jelennek meg.
 
-     .. image:: /images/screenshots/qgis/qgis_style.png
+     .. image:: /images/projects/qgis/qgis_style.png
         :scale: 70
         :alt: Térkép a QGIS-ben
 
@@ -119,11 +119,11 @@ Hozzunk létre egy új QGIS projektet és töltsük be saját adatainkat.
 
    * A világ országai jelennek meg.
 
-     .. image:: /images/screenshots/qgis/qgis_add_layer.png
+     .. image:: /images/projects/qgis/qgis_add_layer.png
         :scale: 70
         :alt: Réteg hozzáadás
 
-     .. image:: /images/screenshots/qgis/qgis_countries.png
+     .. image:: /images/projects/qgis/qgis_countries.png
         :scale: 70
         :alt: Réteg hozzáadás eredménye
 
@@ -140,7 +140,7 @@ Töltsünk be egy réteget a Postgres adatbázisból.
 #. A baloldali réteg listában kapcsolja ki a ``ne_10m_admin_0_countries`` réteg
    megjelenítését, kattinson a jelölő négyzetbe a réteg tartalom elrejtéséhez.
 
-   .. image:: /images/screenshots/qgis/qgis_postgis_connect.png
+   .. image:: /images/projects/qgis/qgis_postgis_connect.png
       :scale: 70 %
       :alt: Kapcsolódás PostGIS adatbázishoz
       :align: right
@@ -181,7 +181,7 @@ Töltsünk be egy réteget a Postgres adatbázisból.
    utána kattinson a térképen az egyik buborékra az egyes városok adatainak
    megjelenítéséhez.
 
-     .. image:: /images/screenshots/qgis/qgis_bubble.png
+     .. image:: /images/projects/qgis/qgis_bubble.png
         :scale: 70
         :alt: Buborék térkép
 
@@ -195,7 +195,7 @@ térinformatikai feldolgozó modult teszi elérhetővé.
 
 #. Induljunk tiszta lappal :menuselection:`Project --> New`.
 
-   .. image:: /images/screenshots/qgis/qgis_plugin.png
+   .. image:: /images/projects/qgis/qgis_plugin.png
       :scale: 70 %
       :alt: GRASS modul bekapcsolása
       :align: right
@@ -224,7 +224,7 @@ térinformatikai feldolgozó modult teszi elérhetővé.
    * A PERMANENT térképhalmazból válassza az `aspect` térképet és kattintson
      az :guilabel:`Ok`-ra.
 
-     .. image:: /images/screenshots/qgis/qgis_grass_layers.jpg
+     .. image:: /images/projects/qgis/qgis_grass_layers.jpg
        :scale: 50 %
        :alt: QGIS-be betöltött GRASS GIS réteg
        :align: right
@@ -287,7 +287,7 @@ megjelenítő eszközhöz:
    a finom felbontást 1-re, aztán, ha szükséges kattintson a zöld
    :guilabel:`DRAW` gombra a bal felső részen és várjon az eredményre.
 
-   .. image:: /images/screenshots/qgis/qgis_3d.jpg
+   .. image:: /images/projects/qgis/qgis_3d.jpg
       :scale: 70 %
       :alt: 3D visualization
 
@@ -307,7 +307,7 @@ Ez úgy működik mint egy szabványosított felület számos más eszközkészl
    * Egy új eszköztár jelenik meg a képernyő jobb oldalán, sok feldolgozó
      eszközzel, melyek közül választhat. Szánjon rá időt és nézzen körül.
 
-   .. image:: /images/screenshots/qgis/qgis_toolbox.png
+   .. image:: /images/projects/qgis/qgis_toolbox.png
       :scale: 70 %
       :alt: Feldolgozás eszköztár
 
@@ -317,7 +317,7 @@ Ez úgy működik mint egy szabványosított felület számos más eszközkészl
      kikapcsolta. Térjen át az "Advanced Interface"-re (lásd a jobb alsó
      sarkot a képernyő képen) a szolgáltatók megtekintéséért:
 
-   .. image:: /images/screenshots/qgis/qgis_enable_provider.png
+   .. image:: /images/projects/qgis/qgis_enable_provider.png
       :scale: 70 %
       :alt: A GRASS GIS 7 szolgáltatás bekapcsolása a feldolgozás beállításokban
 
@@ -341,7 +341,7 @@ OpenStreetMap adatok importálása
    Ha a Processing Toolbox nyitva van zárja le.
 
 
-   .. image:: /images/screenshots/qgis/qgis_osm_plugin.png
+   .. image:: /images/projects/qgis/qgis_osm_plugin.png
      :scale: 50 %
      :alt:  Az OpenStreetMap modul
      :align: right

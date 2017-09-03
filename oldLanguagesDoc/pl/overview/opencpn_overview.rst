@@ -25,7 +25,7 @@ As the host vessel moves, new charts are selected and displayed at user specifie
 Główne funkcje
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/opencpn/opencpn_screenshot.png
+.. image:: /images/projects/opencpn/opencpn_screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

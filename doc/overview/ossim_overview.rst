@@ -32,7 +32,7 @@ Many command line utilities, GUI applications, and integrated systems have been 
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/ossim/ossim-imagelinker.jpg
+.. image:: /images/projects/ossim/ossim-imagelinker.jpg
   :scale: 70 %
   :alt: screenshot
   :align: right

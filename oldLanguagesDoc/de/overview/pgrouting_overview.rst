@@ -30,7 +30,7 @@ Vorteile des Datenbank-Routing Konzepts sind:
 
 pgRouting steht unter GPLv2 Lizens und wird von einer wachsenden Zahl von Nutzern, Organisationen und Unternehmen unterstützt.
 
-.. image:: /images/screenshots/pgrouting/pgrouting.png
+.. image:: /images/projects/pgrouting/pgrouting.png
   :scale: 70 %
   :alt: pgRouting Abfrage in pgAdminIII
   :align: right

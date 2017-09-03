@@ -197,7 +197,7 @@ yoff xsize ysize). Вы также можете использовать фла�
 Посмотрим на получившийся шейп-файл в QGIS и *ogrinfo* (мы ещё рассмотрим 
 ogrinfo ниже).  
 
-  .. image:: /images/screenshots/gdal/gdal_gdaltindex.png
+  .. image:: /images/projects/gdal/gdal_gdaltindex.png
      :scale: 80
 
 ::
@@ -243,7 +243,7 @@ ogrinfo ниже).
 Используйте *gdalinfo*, чтобы проверить изменения и посмотреть на
 свойства растра. 
 
-  .. image:: /images/screenshots/gdal/gdal_mercator.png
+  .. image:: /images/projects/gdal/gdal_mercator.png
      :scale: 80
 
 Теперь перепроецируем растр в ортографическую проекцию:
@@ -253,7 +253,7 @@ ogrinfo ниже).
    gdalwarp -t_srs '+proj=ortho +datum=WGS84' HYP_50M_SR_W_4326.tif ortho.tif
 
 
-.. image:: /images/screenshots/gdal/gdal_ortho.png
+.. image:: /images/projects/gdal/gdal_ortho.png
      :scale: 80
 
 Вы обратили внимание, что земные полюса "обрезаны"? Это случилось потому,

@@ -19,7 +19,7 @@ zyGrib est un programne pour télécharger et visualiser des données de prévis
 Caractéristiques principales
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/zygrib/zygrib_xynthia_010b.jpg
+.. image:: /images/projects/zygrib/zygrib_xynthia_010b.jpg
   :scale: 40 %
   :alt: Capture d'écran
   :align: right

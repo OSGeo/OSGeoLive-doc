@@ -24,7 +24,7 @@
 
 GeoMoose — это ГИС-портал фреймфорков. На установочном диске OSgeo-Live вы найдёте примеры с наборами данных.
 
-.. image:: /images/screenshots/geomoose/geomoose-screenshot-1024x786.jpg
+.. image:: /images/projects/geomoose/geomoose-screenshot-1024x786.jpg
   :scale: 50 %
   :alt: Geomajas Showcase
   :align: right
@@ -33,12 +33,12 @@ GeoMoose — это ГИС-портал фреймфорков. На устан
 
 * Запустите GeoMOOSE: Geospatial -> Browser clients --> GeoMOOSE. Появится район Дакоты.
 
-  .. image:: /images/screenshots/geomoose/geomoose-osgeo-menu.png
+  .. image:: /images/projects/geomoose/geomoose-osgeo-menu.png
     :scale: 50 %
 
 * Вы увидите типичный интерфейс GeoMoose.
 
-  .. image:: /images/screenshots/geomoose/geomoose-2_4-screenshot002.jpg
+  .. image:: /images/projects/geomoose/geomoose-2_4-screenshot002.jpg
     :scale: 50 %
 
 Интерфейс состоит из следующих частей:
@@ -66,7 +66,7 @@ GeoMoose — это ГИС-портал фреймфорков. На устан
 
 Вы можете посмотреть подробную информацию о любом объекте при помощи кнопки "identify", (круглая синяя иконка "i") на панели инструментов сверху. Активируйте её, затем кликните на конкретном объекте на карте.
 
-  .. image:: /images/screenshots/geomoose/geomoose-2_4-screenshot003.jpg
+  .. image:: /images/projects/geomoose/geomoose-2_4-screenshot003.jpg
     :scale: 50 %
 
 Справа будет отображена информация о выделенном объекте. Эта возможность в GeoMoose Demo доступна только для слоя "Parcel"
@@ -76,7 +76,7 @@ GeoMoose — это ГИС-портал фреймфорков. На устан
 
 По умолчанию в GeoMoose установлены несколько инструментов для измерения длин и площадей. Кликните на иконку с линейкой на панели инструментов. На карте можно отметить сколько угодно узловых точек, через которые пройдёт линия измерения. Двойной клик зафиксирует траекторию. Суммарное расстояние отобразится в поле "Total Length". Единицы измерения можно настроить, указав их в меню "Units"
 
-  .. image:: /images/screenshots/geomoose/geomoose-2_4-screenshot006.jpg
+  .. image:: /images/projects/geomoose/geomoose-2_4-screenshot006.jpg
     :scale: 50 %
 
 В GeoMoose есть возможность добавить свою панель инструментов через GeoMoose's MAPBOOK (файл mapbook.xml и папке config).
@@ -86,17 +86,17 @@ GeoMoose — это ГИС-портал фреймфорков. На устан
 ================================================================================
 Вы можете выделить группу объектов по маске при помощи полигона, линии или даже точки. Нажмите на кнопку "Buffered Select" (прямоугольник с карандашом) и начинайте рисовать маску выделения на карте. Двойной клик мышью закончит создание маски выделения. Справа на кладке "Informaion"  можно задать параметры объектов (геометрию, слой, и пр.), информация о которых появится в окошке. В нашем случае (на скриншоте) выбраны полигоны из слоя "Parcels" с нулевыми значениями.
 
-  .. image:: /images/screenshots/geomoose/geomoose-2_4-screenshot008.jpg
+  .. image:: /images/projects/geomoose/geomoose-2_4-screenshot008.jpg
     :scale: 50 %
 
 На следующем примере добавлены ещё критерии. Для слоя "PARCEL", кроме маски, указаны ещё и значение длины для объектов, 100 футов.
 
-  .. image:: /images/screenshots/geomoose/geomoose-2_4-screenshot010.jpg
+  .. image:: /images/projects/geomoose/geomoose-2_4-screenshot010.jpg
     :scale: 50 %
 
 Кликните на кнопку "Go". Будет сгенерирован отчет об объектах. Заметьте: сгенерированный отчёт можно открыть в новом окне или сохранить в других форматах: PDF, HTML, CSV.
 
-  .. image:: /images/screenshots/geomoose/geomoose-2_4-screenshot012.jpg
+  .. image:: /images/projects/geomoose/geomoose-2_4-screenshot012.jpg
     :scale: 50 %
 
 Приведённые примеры иллюстрируют возможность выборки объектов, состоящую из маски и запроса. Фиолетовым цветом подсвечиваются объекты, соприкасающиеся с маской. Оранжевым — объекты, попадающие под параметр 100 футов. Жёлтым — соприкасающиеся объекты.
@@ -106,17 +106,17 @@ GeoMoose — это ГИС-портал фреймфорков. На устан
 
 Кнопка "Print" на панели инструментов GeoMoose позволяет распечатать растровое изображение карты-подложки. В правом окне можно настроить парамеры печати: ориентацию, масштаб, разрешение. 
 
-  .. image:: /images/screenshots/geomoose/geomoose-2_4-screenshot013.jpg
+  .. image:: /images/projects/geomoose/geomoose-2_4-screenshot013.jpg
     :scale: 50 %
 
 Следующее окно позволяет выбрать формат печати. По умолчанию в GeoMoose это растровое изображение, HTML или PDF. Выберите PDF, появится диалог, похожий на этот:
 
-  .. image:: /images/screenshots/geomoose/geomoose-php-pdf-download-dialog.png
+  .. image:: /images/projects/geomoose/geomoose-php-pdf-download-dialog.png
     :scale: 50 %
 
 Следующий пример иллюстрирует готовый PDF-файл.
 
-  .. image:: /images/screenshots/geomoose/geomoose-php-pdf-download.png
+  .. image:: /images/projects/geomoose/geomoose-php-pdf-download.png
     :scale: 50 %
 
 

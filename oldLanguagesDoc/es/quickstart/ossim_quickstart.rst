@@ -36,7 +36,7 @@ Imagelinker
 * Selecciona :menuselection:`ventana de imagen --> seleccionar el botón de arrastrar --> clic en la imagen -->  pulsa el botón "propagate"`
 * Verifica que puedes ver tres imágenes de satélite en escala de grises. 
 
-  .. image:: /images/screenshots/ossim/ossim_imagelinker2.jpg
+  .. image:: /images/projects/ossim/ossim_imagelinker2.jpg
      :scale: 100 %
 
 Para ver un tutorial completo puedes visitar este `artículo`_.

@@ -37,7 +37,7 @@ Imagelinker
 * Wiederhole die vorherige Operation für die Dateien : `clip20.tif`
   und `clip30.tif`
 
-  .. image:: /images/screenshots/ossim/ossim_imagelinker3.jpg
+  .. image:: /images/projects/ossim/ossim_imagelinker3.jpg
      :scale: 60 %
      :align: right
 

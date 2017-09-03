@@ -40,7 +40,7 @@ publicación, simbología, plantillas así como datos de origen.
 La interfaz de usuario es fácilmente configurable, y gracias a su arquitectura
 modular se pueden agregar servicios adicionales.
 
-.. image:: /images/screenshots/geomoose/geomoose-2_6-screenshot001.png
+.. image:: /images/projects/geomoose/geomoose-2_6-screenshot001.png
   :alt: GeoMoose Screenshot
   :align: right
 

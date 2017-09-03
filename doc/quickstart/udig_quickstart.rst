@@ -83,13 +83,13 @@ start uDig
 #. Choose |osgeolive-appmenupath-udig| from menu
 #. The application will take a few moments to start up
 
-.. image:: /images/screenshots/udig/udig_Quickstart1Splash.png
+.. image:: /images/projects/udig/udig_Quickstart1Splash.png
    :scale: 70 %
 .. Writing Tip:
   For images, use a scale of 50% from a 1024x768 display (preferred) or
   70% from a 800x600 display.
   Images should be stored here:
-    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/screenshots/1024x768/
+    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/projects/1024x768/
 
 
 If you have any difficulties, or are running uDig please review the Running uDig reference page.
@@ -102,7 +102,7 @@ Welcome View
 
 #. Click the arrow labelled Workbench in the upper right corner, to reveal the contents of the uDig workbench.
   
-  .. image:: /images/screenshots/udig/udig_welcome.png
+  .. image:: /images/projects/udig/udig_welcome.png
    :scale: 70 %
    
 You can return to the Welcome view at any time by selecting the :menuselection:`Help --> Welcome` from the menu bar.
@@ -113,7 +113,7 @@ Workbench
 The Workbench window offers multiple Editors (each showing a Map) and supporting Views (offering
 information about the current Map).
 
-  .. image:: /images/screenshots/udig/udig_workbench.png
+  .. image:: /images/projects/udig/udig_workbench.png
    :scale: 70 %
 
 Shown above is a typical uDig session with the 
@@ -167,7 +167,7 @@ To start out with we are going to load some of the sample data included on the D
 
 #. Select the `HYP_50M_SR_W` layer in the catalog view and drag it to the bottom of the list
   
-  .. image:: /images/screenshots/udig/udig_QuickstartCountriesMap.png
+  .. image:: /images/projects/udig/udig_QuickstartCountriesMap.png
    :scale: 70 %
 
 .. Writing Tip:
@@ -195,7 +195,7 @@ You can control where in the world the Map Editor is looking by using the naviga
 
 #. The |ZOOM| Zoom tool is available by default
    
-   .. |ZOOM| image:: /images/screenshots/udig/udig_zoom_mode.png
+   .. |ZOOM| image:: /images/projects/udig/udig_zoom_mode.png
    
    * Use the zoom tool by drawing a box using the left mouse button around the area of the world you wish
      to see.
@@ -204,24 +204,24 @@ You can control where in the world the Map Editor is looking by using the naviga
 
 #. The |PAN| Pan tool can be used to scroll around your map with out changing scale.
   
-   .. |PAN| image:: /images/screenshots/udig/udig_pan_mode.png
+   .. |PAN| image:: /images/projects/udig/udig_pan_mode.png
 
 #. There are also several navigation buttons that can be used at any time:
  
    * |SHOWALL| Show All, can be used to return to the full extents at any time
    
-     .. |SHOWALL| image:: /images/screenshots/udig/udig_zoom_extent_co.png
+     .. |SHOWALL| image:: /images/projects/udig/udig_zoom_extent_co.png
 
    * |ZOOM_IN| Zoom In and |ZOOM_OUT| Zoom Out can be used to change the scale by a fixed amount.
 
-     .. |ZOOM_IN| image:: /images/screenshots/udig/udig_zoom_in_co.png
-     .. |ZOOM_OUT| image:: /images/screenshots/udig/udig_zoom_out_co.png
+     .. |ZOOM_IN| image:: /images/projects/udig/udig_zoom_in_co.png
+     .. |ZOOM_OUT| image:: /images/projects/udig/udig_zoom_out_co.png
 
    * You can use Navigation Back |BNAV| and Forward |FNAV| in the menu bar to cycle though previously
      visited locations.
 
-     .. |BNAV| image:: /images/screenshots/udig/udig_backward_nav.png
-     .. |FNAV| image:: /images/screenshots/udig/udig_forward_nav.png
+     .. |BNAV| image:: /images/projects/udig/udig_backward_nav.png
+     .. |FNAV| image:: /images/projects/udig/udig_forward_nav.png
 
 .. tip:: Most tools allow you to Pan by holding the center button and control the scale using the
    scroll wheel.
@@ -246,7 +246,7 @@ available layers of information that you can mix into your own maps.
 
 #. Change to the **Web** view, click on the tab next to the **Catalog** view to reveal the *Web* view.
 
-	.. image:: /images/screenshots/udig/udig_WebViewClick.png
+	.. image:: /images/projects/udig/udig_WebViewClick.png
 		:scale: 50 %
 
 #. Click on the link WMS\:`dm solutions`_ link
@@ -259,19 +259,19 @@ available layers of information that you can mix into your own maps.
    * Parks
    * Cities
    
-	.. image:: /images/screenshots/udig/udig_AddWMSLayers.png
+	.. image:: /images/projects/udig/udig_AddWMSLayers.png
 		:scale: 70 %
 
 #. Press :guilabel:`Finish` to add these layers to your map
    
-	.. image:: /images/screenshots/udig/udig_WMSMap.png
+	.. image:: /images/projects/udig/udig_WMSMap.png
 		:scale: 70 %
 
 #. Use the |ZOOM| Zoom Tool to move closer to one of the Parks
 
 #. Switch to the |INFO| Info Tool and click on one the parks to learn more about it
 
-.. |INFO| image:: /images/screenshots/udig/udig_info_mode.png
+.. |INFO| image:: /images/projects/udig/udig_info_mode.png
 
 .. tip:: You can switch between the zoom and info tools by pressing `Z` and `I` on the keyboard.
 
@@ -292,7 +292,7 @@ Style
    
    * Label: On Tab :guilabel:`Labels` check the box :guilabel:`enable/disable labeling`, and choose the attribute **NAME** from the list of attributes
 
-   .. image:: /images/screenshots/udig/udig_StyleEditor.png
+   .. image:: /images/projects/udig/udig_StyleEditor.png
       :scale: 70 %
 
 #. Press :guilabel:`Apply` to see what this looks like on your Map, the **Layer** view will also be updated
@@ -304,7 +304,7 @@ Style
 
 Sometimes it is a bit hard to see what is going on with layer providing much details. To get focused on the task you like to work on, you can choose :menuselection:`Map --> Mylar` from the menu bar. Using the *Layer* view select different layers in turn to see the effect. You can turn off this effect at any time using :menuselection:`Map --> Mylar` from the menu bar.
   
-	.. image:: /images/screenshots/udig/udig_MapMylar.png
+	.. image:: /images/projects/udig/udig_MapMylar.png
 		:scale: 70 %
 
 .. Writing tip

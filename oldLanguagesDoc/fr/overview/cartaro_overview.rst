@@ -18,7 +18,7 @@ Cartaro fournit une fonctionnalité géospatiale et des services web dans le Sys
 
 Cartaro est conçu pour les sites web ayant besoin de gérer des données géospatiales, et pour les organisations voulant une Infrastructure de Données Spatiales - Spatial Data Infrastructure (SDI) - avec une configuration et une programmation minimale.
 
-.. image:: /images/screenshots/cartaro/cartaro_frontpage.png
+.. image:: /images/projects/cartaro/cartaro_frontpage.png
   :scale: 50%
   :alt: Cartaro Frontpage
   :align: right

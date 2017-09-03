@@ -18,7 +18,7 @@ Cartaro предоставляет геопространственную фун
 
 Cartaro предназначен как для сайтов, нуждающихся в использовании геопространственных данных, так и для организаций, ищущих простую инфраструктуру пространственных данных с минимальным конфигурированием и программированием.
 
-.. image:: /images/screenshots/cartaro/cartaro_frontpage.png
+.. image:: /images/projects/cartaro/cartaro_frontpage.png
   :scale: 50%
   :alt: Главная страница Cartaro
   :align: right

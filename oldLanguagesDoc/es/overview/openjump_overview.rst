@@ -18,7 +18,7 @@ OpenJUMP es un SIG de escritorio poderoso y fácil de usar que permite a los usu
 Tiene una versión CORE y una versión PLUS, teneiendo la última añadidos montones de complementos útiles.
 Tambíen es una excelente plataforma para realizar pruebas de desarrollos de funcionion SIG personalizadas.
 
-.. image:: /images/screenshots/openjump/openjump-screenshot.png
+.. image:: /images/projects/openjump/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
   :align: center

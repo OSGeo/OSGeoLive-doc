@@ -51,7 +51,7 @@ table:
 * Select :menuselection:`File->Connecting an existing SQLite DB`
 * Browse to the :file:`/home/user/data/spatialite` directory and choose :file:`trento.sqlite`.
 
-  .. image:: /images/screenshots/spatialite/spatialite-gui-trento.png
+  .. image:: /images/projects/spatialite/spatialite-gui-trento.png
     :scale: 70 %
 
 .. TBD: Cameron Review Comment:
@@ -59,7 +59,7 @@ table:
 
 * Right click on the MunicipalHallsView table and select "Show Columns"
 
-  .. image:: /images/screenshots/spatialite/spatialite-gui-columns.png
+  .. image:: /images/projects/spatialite/spatialite-gui-columns.png
       :scale: 70 %
 
 * You will notice the display broken into 3 areas:
@@ -94,7 +94,7 @@ table:
   and click the "Execute SQL" button at the right, and see the results in
   the bottom right pane.
 
-  .. image:: /images/screenshots/spatialite/spatialite-gui-select.png
+  .. image:: /images/projects/spatialite/spatialite-gui-select.png
       :scale: 70 %
 
 

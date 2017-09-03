@@ -21,7 +21,7 @@ Um SAGA GIS auf der Live DVD zu starten, klicken Sie den SAGA Link auf dem Deskt
 
 Wenn Sie SAGA das erste Mal öffnen, sehen Sie drei Unterfenster: Den Workspace, die Objekteigenschaften und das Message-Fenster. Die Informationen im Fenster Objekteigenschaften wechseln in Abhängigkeit von der Selektion im Workspace-Fenster.
 
-  .. image:: /images/screenshots/saga/saga_guioverview.png
+  .. image:: /images/projects/saga/saga_guioverview.png
      :scale: 80
 
 Daten laden
@@ -48,7 +48,7 @@ Um die Karte anzuzeigen, genügt ein Doppelklick auf den Datensatz im Reiter Dat
 
 Nun zoomen und schwenken Sie mit Hilfe der Navigations-Tools. Das Zoom-Werkzeug ist standardmäßig ausgewählt. Ein Linksklick auf die Karte zoomt hinein, mit der rechten Maustaste zoomt man heraus. Indem Sie die linke Maustaste gedrückt halten, in die gegenüberliegende Ecke ziehen und die Maustaste wieder loslassen, können Sie einen Area of Interest vergrößern. Wenn Sie weit hinein zoomen, werden Sie sehen, dass die einzelnen Zellenwerte angezeigt werden. Zum Verschieben, markieren Sie das Pan-Werkzeug und klicken und ziehen mit der Maus, um die Karte zu verschieben. Werfen Sie einen Blick auf die anderen Knöpfe in der Werkzeugleiste: Diese ermöglichen es Ihnen z.B. auf die volle Ausdehnung zu zoomen.
 
-.. image:: /images/screenshots/saga/saga_fullextent.png
+.. image:: /images/projects/saga/saga_fullextent.png
 
 .. tip:: SAGA zoomt sehr schnell, wenn sie sich dabei verlieren, klicken Sie auf den 'Zoom to Full Extent' Knopf in der Werkzeugleiste
 
@@ -65,7 +65,7 @@ Wechseln Sie in den Reiter Karten des Workspace-Fensters. Sie sehen den Eintrag 
 
 Wählen Sie bei Bedarf eine andere Transparenz-Einstellung oder versuchen sie, eine andere Shading-Methode im Analytischen Hillshading Modul (falls Sie den Namen für den Ausgabeparameter nicht ändern, wird das Raster direkt überschrieben, d.h. Sie sehen die Änderungen in der Karte sofort).
 
-.. image:: /images/screenshots/saga/saga_withhillshade.png
+.. image:: /images/projects/saga/saga_withhillshade.png
     :scale: 80
 
 3D Visualisierung
@@ -73,7 +73,7 @@ Wählen Sie bei Bedarf eine andere Transparenz-Einstellung oder versuchen sie, e
 
 In einem nächsten Schritt können Sie Ihre Karte in 3D visualisieren. Gehen Sie sicher, dass Ihre Karte markiert ist und drücken Sie die 'Show 3D-View' Taste in der Werkzeugleiste. Im Dialog wählen Sie das Koordinatensystem und den Höhendatensatz und stellen Sie den Mount St. Helens Datensatz als Höhenparameter ein. Sobald Sie die Taste OK drücken, wird die 3D-Ansicht Ihrer Karte angezeigt. Halten Sie die linke Maustaste gedrückt und bewegen Sie die Maus, um die Karte zu drehen und zu kippen. Verwenden Sie die rechte Maustaste zum zoomen und verschieben. Werfen Sie auch einen Blick auf die Werkzeugleiste der 3D-Ansicht: die Tasten replizieren die Maus Operationen und bieten weitere Funktionalität. Um die 3D-Ansicht zu schliessen, wählen Sie die Option Schließen im Menü-Fenster.
 
-.. image:: /images/screenshots/saga/saga_3d.png
+.. image:: /images/projects/saga/saga_3d.png
     :scale: 80
 
 Konturlinien erstellen
@@ -87,7 +87,7 @@ History überprüfen
 
 Wenn Sie einen Datensatz (z.B. die Höhenlinien) im Reiter Workspace auswählen, können Sie im Bereich Objekteigenschaften zur "History" wechseln, um zu sehen, welche Optionen verwendet wurden, um den Datensatz zu erstellen. Diese Informationen werden auch mitgespeichert, wenn Sie Ihre Dateien speichern (als .hshp und .hgrd).
 
-.. image:: /images/screenshots/saga/saga_contour_history.png
+.. image:: /images/projects/saga/saga_contour_history.png
     :scale: 80
 
 Daten speichern

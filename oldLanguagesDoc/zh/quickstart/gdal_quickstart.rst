@@ -174,7 +174,7 @@ GDAL
 
 　　可以使用 QGIS 和 ogrinfo（相见后述）查看输出的 shp 文件。
 
-  .. image:: /images/screenshots/gdal/gdal_gdaltindex.png
+  .. image:: /images/projects/gdal/gdal_gdaltindex.png
      :scale: 80
 
 ::
@@ -215,7 +215,7 @@ GDAL
 
 　　使用 gdalinfo 验证或显示查看。
 
-  .. image:: /images/screenshots/gdal/gdal_mercator.png
+  .. image:: /images/projects/gdal/gdal_mercator.png
      :scale: 80
 
 　　这里再将影象重采样到正交投影：
@@ -225,7 +225,7 @@ GDAL
    gdalwarp -t_srs '+proj=ortho +datum=WGS84' HYP_50M_SR_W_4326.tif ortho.tif
 
 
-.. image:: /images/screenshots/gdal/gdal_ortho.png
+.. image:: /images/projects/gdal/gdal_ortho.png
      :scale: 80
 
 　　请注意，地球两极被部分裁切了，这是因为非常靠近两极的边缘是难以重投影的，gdalwarp 放弃了这部分的数据。通过强制 gdalwarp 读取两极数据可以改善这一问题。相见栅格处理教程中的有关内容：http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial 。

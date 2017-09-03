@@ -31,7 +31,7 @@ internazionale, del GIS partecipativo, del capacity building e della cooperazion
 
 Caratteristiche di base
 --------------------------------------------------------------------------------
-.. image:: /images/screenshots/geopublisher/geopublisher-overview.png
+.. image:: /images/projects/geopublisher/geopublisher-overview.png
   :scale: 40 %
   :alt: screenshot of Geopublisher editing an atlas
   :align: right

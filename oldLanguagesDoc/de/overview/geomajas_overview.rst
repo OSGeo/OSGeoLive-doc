@@ -29,7 +29,7 @@ Der Schwerpunkt von Geomajas ist es, eine Anwendung bereit zu stellen, die eine 
 
 Eine Besonderheit von Geomajas ist die starke serverseitge Fokussierung. Das Verarbeiten, Stylen, Filtern und Zwischenspeichern von Daten wird in einem abgesicherten Bereich durchgeführt. So sind Anwendungen, die über GeoMajas bereitgestellt werden gut skalierbar und performant.
 
-.. image:: /images/screenshots/geomajas/geomajas_1024x768_screen1.png
+.. image:: /images/projects/geomajas/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

@@ -20,7 +20,7 @@ de sites web et de les visualiser sur une carte ou une chronologie. Le but d'Ush
 démocratiser l'information, améliorer la transparence et diminuer les barrières 
 pour les individus pour partager leurs histoires.
 
-.. image:: /images/screenshots/ushahidi/ushahidi-drc-screenshot.png
+.. image:: /images/projects/ushahidi/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

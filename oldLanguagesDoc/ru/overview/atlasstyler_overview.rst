@@ -31,7 +31,7 @@ SLD/SE.
 символами. Пользователи могут создавать и сохранять стили в редакторе
 стилей и использовать их в классификациях и других проектах.
 
-.. image:: /images/screenshots/atlasstyler/atlasstyler-overview.png
+.. image:: /images/projects/atlasstyler/atlasstyler-overview.png
   :scale: 40 %
   :alt: снимок экрана
   :align: right

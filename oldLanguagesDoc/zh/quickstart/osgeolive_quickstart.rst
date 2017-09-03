@@ -30,25 +30,25 @@ OSGeo-Live 启动指南
 
 　　通常的系统会设置为默认从 CD 启动。这样应当载入 Lubuntu 操作系统和各款地理信息软件。如果不能直接载入，则需要调整 BIOS 设置或选择临时启动项。
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_boot.png
+  .. image:: /images/projects/osgeolive/osgeolive_boot.png
     :scale: 70 %
     :alt: boot
 
 　　点击 :kbd:`回车` 继续。
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_boot_select.png
+  .. image:: /images/projects/osgeolive/osgeolive_boot_select.png
     :scale: 70 %
     :alt: boot select
 
 　　选择 :guilabel:`live - boot the Live System` 。
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_login.png
+  .. image:: /images/projects/osgeolive/osgeolive_login.png
     :scale: 70 %
     :alt: boot select
 
 　　直接点击 :kbd:`回车` 即可登录默认账户。
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_menu.png
+  .. image:: /images/projects/osgeolive/osgeolive_menu.png
     :scale: 70 %
     :alt: boot select
 

@@ -20,7 +20,7 @@ Thanks to the use of Digital Elevation Models (DEM), it is possible to view topo
 
 Organizations across the world use WorldWind to monitor weather patterns, visualize cities and terrain, track the movement of planes, vehicles and ships, analyze geospatial data, and educate people about the earth.
 
-.. image:: /images/screenshots/javaworldwind/javaworldwind_main.png
+.. image:: /images/projects/javaworldwind/javaworldwind_main.png
  :scale: 50 %
  :alt: WorldWind Java Example
  :align: right

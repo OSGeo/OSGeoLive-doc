@@ -38,7 +38,7 @@ http://java.com/en/download/index.jsp)
 information bar at the bottom displaying mouse pointer coordinates, processing 
 reports, and memory usage. Ένα παράθυρο σχεδίου περιέχει μια λίστα με τα επίπεδα και μια προβολή αυτών. Κάθε εκκίνηση του OpenJUMP μπορεί να περιέχει πολλαπλά σχέδια. Σε αυτή τη γρήγορη εκκίνηση, θα δουλεύουμε μόνο με ένα παράθυρο.
 
-.. image:: /images/screenshots/openjump/openjump_ss_01.png
+.. image:: /images/projects/openjump/openjump_ss_01.png
    :scale: 55 
 
 Άνοιγμα ενός ESRI Shapefile
@@ -48,7 +48,7 @@ reports, and memory usage. Ένα παράθυρο σχεδίου περιέχε
 
 Στην πάνω λίστα του OpenJUMP, Επιλέξτε την λίστα [File]. Μετά επιλέξτε την επιλογή [Open File...]. Αυτό θα σας ανοίξει ένα πλαίσιο διαλόγου που σας επιτρέπει να ανοίξετε αρχεία που περιέχουν γεωχωρικά δεδομένα. Στο παράδειγμά μας, θέλετε να να αναζητήσετε ένα ESRI shapefile. Αναζητήστε ένα αρχείο με κατάληξη .shp. Επιλέξτε το αρχείο και επιλέξτε το κουμπί [Finish] στο διάλογο. Μετά από λίγη ώρα , θα μπορείτε να δείτε τα δεδομένα του shapefile στο Layer View. Θα δείτε επίσης ένα νέο επίπεδο που δημιουργήθηκε για τα δεδομένα σας στη Λίστα των επιπέδων (Layer List). To όνομα του επιπέδου θα ταυτίζεται με το όνομα του shapefile.
 
-.. image:: /images/screenshots/openjump/openjump_ss_02.png
+.. image:: /images/projects/openjump/openjump_ss_02.png
    :scale: 55 
 
 Μια πιο γρήγορη επιλογή είναι να σύρετε και να αφήσετε απευθείας το shapefile στο Layer view.
@@ -64,10 +64,10 @@ reports, and memory usage. Ένα παράθυρο σχεδίου περιέχε
 
 * Οι χρήστες του MacOSX πατήστε το πλήκτρο :guilabel:`Apple` για να αποκτήσετε πρόσβαση σε αυτή τη λίστα.
 
-.. image:: /images/screenshots/openjump/openjump_ss_03.png
+.. image:: /images/projects/openjump/openjump_ss_03.png
    :scale: 55 
    
-.. image:: /images/screenshots/openjump/openjump_ss_04.png
+.. image:: /images/projects/openjump/openjump_ss_04.png
    :scale: 55 
 
 Επεξαργασία γεωμετριών σε ένα Επίπεδο
@@ -76,26 +76,26 @@ reports, and memory usage. Ένα παράθυρο σχεδίου περιέχε
 Στη λίστα των επιπέδων, κάντε δεξί κλικ στο όνομα του επιπέδου. Αυτό θα εμφανίζει έναν αναδυόμενο διάλογο. 
 Επιλέξτε το κουτί δίπλα στην αναφορά της λίστας Editable με το όνομα "Editable". Αυτό θα ανοίξει μια νέα γραμμή εργαλείων πάνω από το Layer View στα δεξιά. Αυτή η γραμμή εργαλείων έχει ένα σύνολο από κουμπιά που μπορείτε να χρησιμοποιήσετε για να επεξεργαστείτε τη γεωμετρία ενός χαρακτηριστικού.
 
-.. image:: /images/screenshots/openjump/openjump_ss_05.png
+.. image:: /images/projects/openjump/openjump_ss_05.png
    :scale: 55 
    
-.. image:: /images/screenshots/openjump/openjump_ss_06.png
+.. image:: /images/projects/openjump/openjump_ss_06.png
    :scale: 55 
 
 Ας δοκιμάσουμε μια γρήγορη επεξεργασία. Πρώτα θα πρέπει να διαλέξουμε μια γεωμετρια και μετά θα μετακινήσουμε ένα σημείο της γεωμετρίας. Για να συμβεί αυτό, πρώτα επιλέγουμε το κουμπί που δείχνει ένα κέρσορα ποντικιού στην γραμμή εργαλείων editing. Χρησιμοποιήστε το για να κλικάρετε και να επιλέξετε ένα και μόνο χαρακτηριστικό στο Layer View. Θα πρέπει να αλλάξει σε κίτρινο και μικρά κιτρινα τετράγωνα να εμφανιστούν σε κάθε γωνία της γεωμετρίας. 
 
-.. image:: /images/screenshots/openjump/openjump_ss_07.png
+.. image:: /images/projects/openjump/openjump_ss_07.png
    :scale: 55 
 
 Στη συνέχεια, πατήστε στο κουμπί που δείχνει ένα μπλε σταυρό με ένα κίτρινο τετράγωνο στη μέση, το :guilabel:`Move Vertex Tool` 
 (Περνώντας το δείχτη του ποντικιού πάνω από τα κουμπιά, σας δίνει μια περιγραφή του κουμπιού). Θα πρέπει τώρα να δείτε το δείκτη του ποντικιού άλλαξε σε ένα μικρό μαύρο κέρσορα όταν το κινείτε πάνω στο Layer View. 
 
-.. image:: /images/screenshots/openjump/openjump_ss_08.png
+.. image:: /images/projects/openjump/openjump_ss_08.png
    :scale: 55 
 
 Δοκιμάστε αυτό να κινήσετε το διάνυσμα της γεωμετρίας που διαλέξατε κλικάρωντας στο διάνυσμα και τραβώντας το (κρατήστε πατημένο το αριστερό κλικ).
 
-.. image:: /images/screenshots/openjump/openjump_ss_09.png
+.. image:: /images/projects/openjump/openjump_ss_09.png
    :scale: 55 
    
 Άλλες πηγές εκμάθησης του OpenJUMP

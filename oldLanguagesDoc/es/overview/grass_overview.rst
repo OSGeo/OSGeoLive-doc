@@ -34,7 +34,7 @@ de imágenes aéreas y de satélite. Posee también la capacidad de producir
 gráficos complejos y de generar mapas en papel. GRASS se ha traducido a veinte
 idiomas diferentes y soporta una enorme variedad de formátos de datos.
 
-.. image:: /images/screenshots/grass/grass-vectattrib.png
+.. image:: /images/projects/grass/grass-vectattrib.png
    :scale: 50 %
    :alt: screenshot
    :align: right
@@ -51,7 +51,7 @@ Características clave
 --------------------------------------------------------------------------------
 
 * Sea lo que sea que necesite, existe `una herramienta ello <http://grass.osgeo.org/grass70/manuals/keywords.html>`_.
-* Explore la `colección de pantallazos de la aplicación <http://grass.osgeo.org/screenshots/>`_.
+* Explore la `colección de pantallazos de la aplicación <http://grass.osgeo.org/projects/>`_.
 
 Detalles
 --------------------------------------------------------------------------------

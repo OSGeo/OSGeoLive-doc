@@ -24,7 +24,7 @@ QGIS Server provides a web map service (WMS) using the same libraries as the Qua
 Maps and print templates created in QGIS desktop can be published as web maps simply by copying the QGIS project file into the server directory. The resulting web maps look exactly the same as in the desktop.
 QGIS Server is usually run as CGI/FastCGI module within the Apache Webserver.
 
-.. image:: /images/screenshots/qgis/qgis-mapserver-screenshot.jpg
+.. image:: /images/projects/qgis/qgis-mapserver-screenshot.jpg
   :scale: 40 %
   :alt: project logo
   :align: right

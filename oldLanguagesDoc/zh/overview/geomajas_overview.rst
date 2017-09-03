@@ -30,7 +30,7 @@ Geomajas
 
 　　关注服务器端的设计思想是 Geomajas 的独特之处。所有的数据处理、表达、过滤、缓存等过程都发生在服务器端安全的环境下，使得 Geomajas 应用非常高效且易于规模化，而客户端保持着小巧的特性。
 
-.. image:: /images/screenshots/geomajas/geomajas_1024x768_screen1.png
+.. image:: /images/projects/geomajas/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

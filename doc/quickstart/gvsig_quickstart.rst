@@ -69,7 +69,7 @@ about a minute to startup.
 
 #. Click on the :guilabel:`New` button to create a view. It will be opened automatically.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_001_.png
+.. image:: /images/projects/gvsig/gvsig_qs_001_.png
    :scale: 55
 
 Define the projection of your view
@@ -80,7 +80,7 @@ Open the view properties dialog
 
 #. Select :menuselection:`View --> Properties`.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_002_.png
+.. image:: /images/projects/gvsig/gvsig_qs_002_.png
    :scale: 55
 
 Defining your Coordinate Reference System
@@ -99,7 +99,7 @@ Defining your Coordinate Reference System
 
 #. Select :guilabel:`OK` to return to the **Project Manager**.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_003_.png
+.. image:: /images/projects/gvsig/gvsig_qs_003_.png
    :scale: 55
 
 
@@ -114,7 +114,7 @@ Knowing the parts of a view
 #. The right cell is the main display area where raster and vector data is
    rendered.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_005_.png
+.. image:: /images/projects/gvsig/gvsig_qs_005_.png
    :scale: 55
 
 The View - adding raster and vector data
@@ -129,7 +129,7 @@ Adding layers from files
 #. Drill down to the ``/usr/local/share/data/natural_earth2/`` directory.
 #. Select the files as shown in the picture.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_006_.png
+.. image:: /images/projects/gvsig/gvsig_qs_006_.png
    :scale: 55
 
 .. note:: By default all formats are shown so we can select both vector and raster files at a time by keeping pressed the :kbd:`CTRL` key.
@@ -148,7 +148,7 @@ Preparing the view
    help see long file names.
 #. In case the raster layer is on the top it should be moved manually to the bottom.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_008_.png
+.. image:: /images/projects/gvsig/gvsig_qs_008_.png
    :scale: 55
 
 Zoom into a region
@@ -161,7 +161,7 @@ Zoom into a region
    the bounding box over the selected area. Release the left-mouse button once
    you have the approximate area defined.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_009_.png
+.. image:: /images/projects/gvsig/gvsig_qs_009_.png
    :scale: 55
 
 The View - changing how layers look
@@ -175,7 +175,7 @@ Making a polygon transparent
 #. Select the :menuselection:`Properties` submenu.
 #. The **Layer properties** dialog box will appear.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_010_.png
+.. image:: /images/projects/gvsig/gvsig_qs_010_.png
    :scale: 55
 
 Changing the symbology of a vector layer
@@ -193,7 +193,7 @@ Removing the fill symbol and changing the border color
 #. Click on the :guilabel:`OK` button to return to the **Symbol selector** dialog.
 #. Click on the :guilabel:`OK` button to return to the **Layers properties** dialog.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_012_.png
+.. image:: /images/projects/gvsig/gvsig_qs_012_.png
    :scale: 55
 
 Changing the labelling of a vector layer
@@ -203,7 +203,7 @@ Changing the labelling of a vector layer
 #. Change the text attributes to those shown on the image, then click on the
    :guilabel:`Accept` button.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_013_.png
+.. image:: /images/projects/gvsig/gvsig_qs_013_.png
    :scale: 55
 
 The result
@@ -214,7 +214,7 @@ file superimposed over a raster file. It is just as easy to have an aerial
 photograph or Digital Terrain Model as a backdrop to your vector data, or
 to show other vector data stored in different formats.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_014_.png
+.. image:: /images/projects/gvsig/gvsig_qs_014_.png
    :scale: 55
 
 A user exercise - change the symbology and labelling of the point and line layers
@@ -223,7 +223,7 @@ A user exercise - change the symbology and labelling of the point and line layer
 Following the previous few steps change the symbols, colour and labelling
 of the rivers and towns to generally match the following screen shot.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_015_.png
+.. image:: /images/projects/gvsig/gvsig_qs_015_.png
    :scale: 55
 
 Adding an overview or locator
@@ -234,7 +234,7 @@ Opening the Locator setup
 
 #. Select :menuselection:`View --> Locator setup`.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_016_.png
+.. image:: /images/projects/gvsig/gvsig_qs_016_.png
    :scale: 55
 
 Adding a layer to the overview zone
@@ -246,7 +246,7 @@ Adding a layer to the overview zone
 #. Click on the :guilabel:`Open` button to return to the Add layer window.
 #. Click on the :guilabel:`Ok` button and close the Configure locator window.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_017_.png
+.. image:: /images/projects/gvsig/gvsig_qs_017_.png
    :scale: 55
 
 The result
@@ -254,7 +254,7 @@ The result
 
 Now we can easily know where the view is located in the world.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_018_.png
+.. image:: /images/projects/gvsig/gvsig_qs_018_.png
    :scale: 55
 
 
@@ -270,7 +270,7 @@ Selecting the region
 #. Click the polygon representing the State of New South Wales. The polygon will
    go yellow or some other colour depending on your user preferences.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_019_.png
+.. image:: /images/projects/gvsig/gvsig_qs_019_.png
    :scale: 55
 
 Opening the Selection by layer tool
@@ -279,7 +279,7 @@ Opening the Selection by layer tool
 #. Select the ``ne_10m_populated_places.shp`` layer using the left-mouse-button.
 #. Select :menuselection:`Selection --> Select by layer` to open the **Selection by Layer** dialog
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_020_.png
+.. image:: /images/projects/gvsig/gvsig_qs_020_.png
    :scale: 55
 
 Selecting the towns contained within a region
@@ -292,7 +292,7 @@ Selecting the towns contained within a region
 #. Select the :guilabel:`Cancel` button in the **Selection by Layer** dialog to return
    to the view.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_021_.png
+.. image:: /images/projects/gvsig/gvsig_qs_021_.png
    :scale: 55
 
 Unselect the polygon so you can see what has happened
@@ -302,7 +302,7 @@ Unselect the polygon so you can see what has happened
 #. Select the 'Clear selection' icon in the main toolbar.
 #. You can now see that only those towns within New South Wales are selected.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_022_.png
+.. image:: /images/projects/gvsig/gvsig_qs_022_.png
    :scale: 55
 
 Export selected features to a new shapefile
@@ -316,7 +316,7 @@ Selecting the output file format
 #. Select *Shape Format*.
 #. Click on *Next*.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_023_.png
+.. image:: /images/projects/gvsig/gvsig_qs_023_.png
    :scale: 55
 
 Selecting the output file name
@@ -325,7 +325,7 @@ Selecting the output file name
 #. Choose a folder and type the file name.
 #. Click on *Open* and then on *Next*.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_024_.png
+.. image:: /images/projects/gvsig/gvsig_qs_024_.png
    :scale: 55
 
 Reference system
@@ -341,7 +341,7 @@ Export options
    New South Wales.
 #. Click on *Export*.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_025_.png
+.. image:: /images/projects/gvsig/gvsig_qs_025_.png
    :scale: 55
 
 The Result
@@ -351,7 +351,7 @@ The Result
 #. In order to check that the export was ok set the original file as invisible.
    Only the towns of New South Wales should be shown.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_026_.png
+.. image:: /images/projects/gvsig/gvsig_qs_026_.png
    :scale: 55
 
 How to create a map
@@ -375,7 +375,7 @@ What else can you do to a map?
    into other works.
 #. Select the :guilabel:`Close window` icon to return to the **Project manager**
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_029_.png
+.. image:: /images/projects/gvsig/gvsig_qs_029_.png
    :scale: 55
 
 Saving your project or exiting gvSIG
@@ -385,7 +385,7 @@ Saving your project or exiting gvSIG
    menu option, or
 #. Projects can be exited or closed by using the :menuselection:`File --> Exit` menu option.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_030_.png
+.. image:: /images/projects/gvsig/gvsig_qs_030_.png
    :scale: 55
 
 Installing an add-on
@@ -400,7 +400,7 @@ Opening the add-ons manager
 #. Choose the repo URL shown in the picture.
 #. Click on the *Next* button.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_031_.png
+.. image:: /images/projects/gvsig/gvsig_qs_031_.png
    :scale: 55
 
 Finding an add-on
@@ -411,7 +411,7 @@ Finding an add-on
 #. Check the add-on called *Symbols: Forestry* (it's a symbol library).
 #. Click on *Next*.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_032__.png
+.. image:: /images/projects/gvsig/gvsig_qs_032__.png
    :scale: 55
 
 Finishing the installation
@@ -432,7 +432,7 @@ Adding a OpenStreetMap layer
 #. Select 'Mapnik' from the available layers.
 #. Click on *Ok*.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_036__.png
+.. image:: /images/projects/gvsig/gvsig_qs_036__.png
    :scale: 55
 
 The result
@@ -441,9 +441,9 @@ The result
 A new layer has been added to the view. Just doing zoom over a region we could see
 the detailed Open Street Map data.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_037_.png
+.. image:: /images/projects/gvsig/gvsig_qs_037_.png
    :scale: 55
-.. image:: /images/screenshots/gvsig/gvsig_qs_038_.png
+.. image:: /images/projects/gvsig/gvsig_qs_038_.png
    :scale: 55
 
 
@@ -462,7 +462,7 @@ Selecting a server
 #. Click on *Connect*.
 #. Click on *Next*.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_039_.png
+.. image:: /images/projects/gvsig/gvsig_qs_039_.png
    :scale: 55
 
 Selecting one of the available layers
@@ -472,7 +472,7 @@ Selecting one of the available layers
 #. Click on *Add*.
 #. Click on *Next*.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_040_.png
+.. image:: /images/projects/gvsig/gvsig_qs_040_.png
    :scale: 55
 
 Selecting image format and reference system
@@ -483,7 +483,7 @@ Selecting image format and reference system
    cancel, change it and start again).
 #. Click on *Accept*.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_041_.png
+.. image:: /images/projects/gvsig/gvsig_qs_041_.png
    :scale: 55
 
 The result
@@ -491,7 +491,7 @@ The result
 
 A new layer has been added to the view.
 
-.. image:: /images/screenshots/gvsig/gvsig_qs_042_.png
+.. image:: /images/projects/gvsig/gvsig_qs_042_.png
    :scale: 55
 
 Where to from here...

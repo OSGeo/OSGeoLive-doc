@@ -30,7 +30,7 @@ Tilemill fa uso della libreria di restituzione di mappe :doc:`Mapnik <mapnik_ove
 
 Tilemill è tipicamente usato insieme con software GIS desktop (come QuantumGIS) per preparare i dati, e editor grafici (come GIMP) per creare icone, patterns e tessiture.
 
-.. image:: /images/screenshots/tilemill_interface2.png
+.. image:: /images/projects/tilemill_interface2.png
   :scale: 50 %
   :alt: TilleMill user interface
   :align: right

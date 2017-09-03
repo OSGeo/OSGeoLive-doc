@@ -22,7 +22,7 @@ Metadaten Katalog
 
 GeoNetwork OpenSource ist eine Kataloganwendung für räumliche Datenquellen. Die Anwendung bietet leistungsstarke Bearbeitungs- und Suchfunktionen für Metadaten sowie eine integrierte interaktive Kartenkomponente und basiert auf offenen Standards.
 
-.. image:: /images/screenshots/geonetwork/geonetwork-overview.png
+.. image:: /images/projects/geonetwork/geonetwork-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right

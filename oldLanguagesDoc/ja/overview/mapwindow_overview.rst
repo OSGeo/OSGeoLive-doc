@@ -32,7 +32,7 @@ OSGeo-Live にインストールされている MapWindow Lite バージョン�
 インストールファイルは、 `OSGeo-Live <http://live.osgeo.org>`_ のフルバージョンのISOに含まれているほか、
 https://mapwindow4.codeplex.com/releases/view/542097 からもダウンロード可能でしょう。
    
-.. image:: /images/screenshots/mapwindow/mapwindow_screenshot.png
+.. image:: /images/projects/mapwindow/mapwindow_screenshot.png
   :alt: Mapwindow Open Source GIS Lite
   :scale: 50 %
   :align: right

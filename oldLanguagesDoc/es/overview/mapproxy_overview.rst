@@ -21,7 +21,7 @@ MapProxy
 Servicio de teselas y Proxy WMS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/mapproxy/mapproxy.png
+.. image:: /images/projects/mapproxy/mapproxy.png
   :alt: MapProxy diagram
   :align: right
 
@@ -38,7 +38,7 @@ Algunos ejemplos del mundo real: MapProxy es usado por el atlas de banda ancha a
 Funcionalidades de MapProxy
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/mapproxy/mapproxy_demo.png
+.. image:: /images/projects/mapproxy/mapproxy_demo.png
   :width: 796
   :height: 809
   :scale: 70 %

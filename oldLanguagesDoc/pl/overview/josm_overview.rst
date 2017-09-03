@@ -26,7 +26,7 @@ GPX tracks, are usually downloaded in advance from a GPS receiver or from other 
 
 A number of specialised plugins have been written for JSOM, which are available for download and install.
 
-.. image:: /images/screenshots/josm/josm_inteface.png
+.. image:: /images/projects/josm/josm_inteface.png
   :scale: 55 %
   :alt: JOSM Editor.
   :align: right

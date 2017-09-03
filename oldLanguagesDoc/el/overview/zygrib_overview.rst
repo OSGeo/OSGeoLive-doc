@@ -21,7 +21,7 @@ zyGrib
 Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/zygrib/zygrib_xynthia_010b.jpg
+.. image:: /images/projects/zygrib/zygrib_xynthia_010b.jpg
   :scale: 40 %
   :alt: screenshot
   :align: right

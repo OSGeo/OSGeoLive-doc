@@ -21,7 +21,7 @@ MapProxy
 Proxy WMS & server di tile
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/mapproxy/mapproxy.png
+.. image:: /images/projects/mapproxy/mapproxy.png
   :alt: MapProxy diagram
   :align: right
 
@@ -42,7 +42,7 @@ unire servizi WMS di tutti i 16 stati al volo.
 Caratteristiche principali
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/mapproxy/mapproxy_demo.png
+.. image:: /images/projects/mapproxy/mapproxy_demo.png
   :width: 796
   :height: 809
   :scale: 70 %

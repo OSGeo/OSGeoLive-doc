@@ -35,7 +35,7 @@ OGC στον κόσμο του Ελεύθερου λογισμικού. Περι
 
 
 
-.. image:: /images/screenshots/deegree/deegree_mainpage.png
+.. image:: /images/projects/deegree/deegree_mainpage.png
   :scale: 50%
   :alt: project logo
   :align: right

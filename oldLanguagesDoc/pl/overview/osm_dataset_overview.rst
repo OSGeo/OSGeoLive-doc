@@ -24,7 +24,7 @@ The heart of the project is the underlying data which is open for all to edit, v
 
 The OSGeo-Live distribution includes a city sized extract of OSM data which is used for examples by some applications.
 
-.. image:: /images/screenshots/osm_dataset/osm-screenshot.jpg 
+.. image:: /images/projects/osm_dataset/osm-screenshot.jpg 
   :scale: 55 %
   :alt: OSM screenshot
   :align: right

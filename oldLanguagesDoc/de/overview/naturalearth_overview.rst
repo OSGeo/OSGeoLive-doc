@@ -19,7 +19,7 @@ Natural Earth stellt Kartographen gebrauchsfertige Lösungen zum Erstellen von K
 
 Natural Earth löst das weitverbreitete Problem von Kartographen: Das Finden von Vektordaten zum Erstellen von Karten kleinerer Maßstäbe, mit entsprechender Qualität für Publikationen und dem gewünschten Detaillierungsgrad.
 
-.. image:: /images/screenshots/naturalearth/naturalearth.png
+.. image:: /images/projects/naturalearth/naturalearth.png
   :scale: 55 %
   :alt: natural earth screenshot
   :align: right

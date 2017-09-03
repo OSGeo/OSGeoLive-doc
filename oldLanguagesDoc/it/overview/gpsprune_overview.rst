@@ -30,7 +30,7 @@ GpsPrune gira su Mac OSX, Windows e Linux, ed è disponibile in più di dieci li
 Caratteristiche principali
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/prune/prune_denver.png
+.. image:: /images/projects/prune/prune_denver.png
   :scale: 50 %
   :alt: screenshot
   :align: right

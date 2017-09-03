@@ -40,7 +40,7 @@ sablonokhoz és a forrás adatokhoz.
 A felhasználói felület könnyen testreszabható és a moduláris architektúrának
 köszönhetően további szolgáltatások adhatók hozzá.
 
-.. image:: /images/screenshots/geomoose/geomoose-2_6-screenshot001.png
+.. image:: /images/projects/geomoose/geomoose-2_6-screenshot001.png
   :alt: GeoMoose képernyőkép
   :align: right
 

@@ -29,7 +29,7 @@ Ottenere MapGuide funzionante
 
 .. comment: 1. Go to Desktop->Server, click icon Start MapGuide. This will start both MapGuide server and MapGuide Web server
 
-.. comment: .. image:: /images/screenshots/mapguide/mapguide_desktopIcons.png
+.. comment: .. image:: /images/projects/mapguide/mapguide_desktopIcons.png
 .. comment:   :scale: 50 %
 .. comment:   :alt: mapguide desktop icons
 .. comment:   :align: center 
@@ -45,7 +45,7 @@ Ottenere MapGuide funzionante
 2. Aprire un browser all'indirizzo http://localhost:8008/mapguide/phpviewersample/ajaxtiledviewersample.php
 per vedere l'applicazione di esempio 
 
-.. image:: /images/screenshots/mapguide/mapguide_viewer.png
+.. image:: /images/projects/mapguide/mapguide_viewer.png
   :scale: 50 %
   :alt: mapguide desktop icons
   :align: center
@@ -57,14 +57,14 @@ MapGuide Maestro
 questo aprirà Maestro login GUI, e mostrerà il seguente screenshot. Login in http://localhost:8008/mapguide/mapagent/mapagent.fcgi
 con l'utente "Administrator" e la password "admin" 
 
-.. image:: /images/screenshots/mapguide/mapguide_maestroLogin.png
+.. image:: /images/projects/mapguide/mapguide_maestroLogin.png
   :scale: 50%
   :alt: screenshot
   :align: center
  
 2. Cliccate Ok per andare nella GUI principale di Maestro, come mostrato nel seguente screenshot.
 
-.. image:: /images/screenshots/mapguide/mapguide_maestroMain.png
+.. image:: /images/projects/mapguide/mapguide_maestroMain.png
    :scale: 50%
    :alt: mapguide maestro main GUI
    :align: center
@@ -73,7 +73,7 @@ con l'utente "Administrator" e la password "admin"
 doppio click Buildings, si aprirà l'editor del larye per Buildings sul pannello di destra,
 come mostrato nel seguente screenshot:
 
-.. image:: /images/screenshots/mapguide/mapguide_maestroLayerFeatures.png
+.. image:: /images/projects/mapguide/mapguide_maestroLayerFeatures.png
    :scale: 50%
    :alt: mapguide maestro layer features
    :align: center
@@ -81,12 +81,12 @@ come mostrato nel seguente screenshot:
 4. Scroll down il pannello a destra per vedere lo stile del layer. Sulla colonna Featurestyle,
 cliccate la cella ... per portare avanti lo Style Editor, come mostrato nel seguente screenshot: 
 
-.. image:: /images/screenshots/mapguide/mapguide_maestroLayerStyle.png
+.. image:: /images/projects/mapguide/mapguide_maestroLayerStyle.png
    :scale: 50%
    :alt: mapguide maestro layer stype panel
    :align: center
 
-.. image:: /images/screenshots/mapguide/mapguide_maestroStyleEditor.png
+.. image:: /images/projects/mapguide/mapguide_maestroStyleEditor.png
    :scale: 50%
    :alt: mapguide maestro color chooser
    :align: center
@@ -94,7 +94,7 @@ cliccate la cella ... per portare avanti lo Style Editor, come mostrato nel segu
 5. nella lista a tendina Foreground Color, selezionate Green, cliccate Ok per chiudere Style Editor.
 Nella GUI principale di Maestro, cliccate l'icona del disco per salvare. 
 
-.. image:: /images/screenshots/mapguide/mapguide_maestroSaveIcon.png
+.. image:: /images/projects/mapguide/mapguide_maestroSaveIcon.png
    :scale: 50%
    :alt: mapguide maestro Save icon 
    :align: center
@@ -104,12 +104,12 @@ nella barra degli strumenti GUI principale di Maestro, che aprirà un browser al
 Nel visualizzatore navigate la mappa, aumentate lo zoom al livello degli edifici, il colore degli 
 edifici è ora verde.
 
-.. image:: /images/screenshots/mapguide/mapguide_buildingColorBeforeChanging.png
+.. image:: /images/projects/mapguide/mapguide_buildingColorBeforeChanging.png
    :scale: 50%
    :alt: Building color is grey 
    :align: center
 
-.. image:: /images/screenshots/mapguide/mapguide_buildingColorAfterChanging.png
+.. image:: /images/projects/mapguide/mapguide_buildingColorAfterChanging.png
    :scale: 50%
    :alt: Building color is green 
    :align: center

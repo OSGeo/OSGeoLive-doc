@@ -23,7 +23,7 @@ MapWindow es pot integrar fàcilment als productes basats en MS-Office com són 
 
 .. note:: MapWindow s'ha d'instal·lar en un sistema Microsoft Windows per executar-lo. Els arxius d'instal·lació són a la versió completa en ISO d'`OSGeo-Live <http://live.osgeo.org>`_ o bé es poden descarregar de http://mapwindow4.codeplex.com/releases.
    
-.. image:: /images/screenshots/mapwindow/mapwindow-screenshot.jpg
+.. image:: /images/projects/mapwindow/mapwindow-screenshot.jpg
   :alt: Mapwindow Screenshot
   :scale: 50 %
   :align: right

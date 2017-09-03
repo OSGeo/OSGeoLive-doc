@@ -31,7 +31,7 @@ us animem a incloure un giny KDE Marble a la vostra aplicació.
 Característiques principals
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/marble/marble-history.png
+.. image:: /images/projects/marble/marble-history.png
   :scale: 50 %
   :alt: screenshot
   :align: right

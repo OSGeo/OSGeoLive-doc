@@ -32,7 +32,7 @@ Mapbender
 
 　　Mapbender 为空间数据服务体系的管理提供了完全依赖标准网页浏览器实现的全新解决方案。
 
-.. image:: /images/screenshots/mapbender/mapbender3_basic_application.png
+.. image:: /images/projects/mapbender/mapbender3_basic_application.png
   :scale: 50%
   :alt: Mapbender application
   :align: right

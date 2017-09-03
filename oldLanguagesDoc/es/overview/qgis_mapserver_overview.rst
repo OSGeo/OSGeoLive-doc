@@ -28,7 +28,7 @@ QGIS en el directorio del servidorr, y ver así los mapas web exactamente como e
 escritorio. QGIS Server normalmente es ejecutado como un módulo CGI/FastCGI
 dentro de Apache Webserver.
 
-.. image:: /images/screenshots/qgis/qgis-mapserver-screenshot.jpg
+.. image:: /images/projects/qgis/qgis-mapserver-screenshot.jpg
   :scale: 50 %
   :alt: project logo
   :align: right

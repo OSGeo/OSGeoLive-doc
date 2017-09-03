@@ -31,7 +31,7 @@ La misión de EOxServer: Proporcionar un entorno de desarrollo de software abier
   Geospatial Consortium (OGC); WMS, WCS, EO-WMS, EO-WCS
 * Explotación eficiente por parte de los usuarios: sub-setting definidos por el usuario; vista y descarga
 
-.. image:: /images/screenshots/eoxserver/eoxserver_screenshot.png
+.. image:: /images/projects/eoxserver/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer embedded client screen shot
   :align: right

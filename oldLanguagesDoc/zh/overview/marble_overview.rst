@@ -29,7 +29,7 @@ Google Earth 的开源 KDE 教育项目计划。除了可以用于查看各种�
 主要功能
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/marble/marble-history.png
+.. image:: /images/projects/marble/marble-history.png
   :scale: 50 %
   :alt: screenshot
   :align: right

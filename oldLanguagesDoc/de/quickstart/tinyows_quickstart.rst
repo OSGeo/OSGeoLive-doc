@@ -66,7 +66,7 @@ WFS Layer mit QGIS anzeigen
 
    * Der WFS Layer wird jetzt angezeigt:
 
-.. image:: /images/screenshots/tinyows/tinyows_wfs_layer.png
+.. image:: /images/projects/tinyows/tinyows_wfs_layer.png
   :scale: 80 %
 
 Daten editieren mit WFS-T

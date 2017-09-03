@@ -48,7 +48,7 @@ Empezamos por visualizar una base de datos y mirar las columnas de una tabla:
 * Hacer clic en el botón :menuselection:`File->Connect existing SQLite DB`.
 * Navegar a la carpeta ``/home/user/data/spatialite`` y elegir :file:`trento.sqlite`.
 
-  .. image:: /images/screenshots/spatialite/spatialite-gui-trento.png
+  .. image:: /images/projects/spatialite/spatialite-gui-trento.png
     :scale: 70 %
 
 .. TBD: Cameron Review Comment:
@@ -57,7 +57,7 @@ Empezamos por visualizar una base de datos y mirar las columnas de una tabla:
 * Hacer clic con el botón derecho en la tabla ``MunicpalHallsView`` y
   seleccionar "Show Columns".
 
-  .. image:: /images/screenshots/spatialite/spatialite-gui-columns.png
+  .. image:: /images/projects/spatialite/spatialite-gui-columns.png
       :scale: 70 %
 
 * La ventana está dividida en tres áreas:
@@ -88,7 +88,7 @@ Empezamos por visualizar una base de datos y mirar las columnas de una tabla:
 
 y hacer clic en el botón "Execute SQL" de la derecha, y ver los resultados en el panel de abajo a la derecha.
 
-  .. image:: /images/screenshots/spatialite/spatialite-gui-select.png
+  .. image:: /images/projects/spatialite/spatialite-gui-select.png
       :scale: 70 %
 
 Crear una nueva base de datos con spatialite-gui
@@ -118,7 +118,7 @@ Abrir una base de datos existente en **spatialite-gui**
 
   y hacer clic en el botón "Execute SQL" de la derecha, y ver los resultados en el panel de abajo a la derecha.
 
-  .. image:: /images/screenshots/spatialite/spatialite-gui-select.png
+  .. image:: /images/projects/spatialite/spatialite-gui-select.png
       :scale: 70 %
 
 

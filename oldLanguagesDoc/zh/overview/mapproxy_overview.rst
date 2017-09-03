@@ -21,7 +21,7 @@ Map Proxy
 网络地图服务及切片代理程序
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/mapproxy/mapproxy.png
+.. image:: /images/projects/mapproxy/mapproxy.png
   :alt: MapProxy diagram
   :align: right
 
@@ -35,7 +35,7 @@ Map Proxy
 核心功能
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/mapproxy/mapproxy_demo.png
+.. image:: /images/projects/mapproxy/mapproxy_demo.png
   :width: 796
   :height: 809
   :scale: 70 %

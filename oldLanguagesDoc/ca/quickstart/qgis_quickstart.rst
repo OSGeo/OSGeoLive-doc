@@ -42,7 +42,7 @@ Editar un projecte QGIS
 
    * Es mostren els llocs habitats:
 
-     .. image:: /images/screenshots/qgis/qgis.png
+     .. image:: /images/projects/qgis/qgis.png
         :scale: 50 %
 
 #. Feu doble clic a  **10m_rivers_lake_centerlines** a l'arbre de Capes.

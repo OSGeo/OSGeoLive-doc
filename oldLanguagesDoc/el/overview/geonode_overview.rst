@@ -40,7 +40,7 @@ GeoNode
 
 Με το που οι χάρτες αποθηκεύονται, είναι δυνατό να ενσωματωθούν σε οποιαδήποτε ιστοσελίδα ή να εκτυπωθεί ο χάρτης σε PDF.
 
-.. image:: /images/screenshots/geonode/geonode_basic_application.png
+.. image:: /images/projects/geonode/geonode_basic_application.png
   :scale: 50%
   :alt: Εφαρμογή GeoNode
   :align: right

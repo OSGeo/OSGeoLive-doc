@@ -19,7 +19,7 @@
 
 * 52n WPS 欢迎页面将会显示
 
-.. image:: /images/screenshots/52nWPS/52nWPS_welcome_page.png
+.. image:: /images/projects/52nWPS/52nWPS_welcome_page.png
   :scale: 100 %
   :alt: screenshot
   :align: center
@@ -28,7 +28,7 @@
 * 请确保 :doc:`GeoServer <../overview/geoserver_overview>` 处于运行状态。以下需要用到来自 GeoServer 的数据支持。
 
 
-.. image:: /images/screenshots/800x600/52n_test_client.png
+.. image:: /images/projects/800x600/52n_test_client.png
   :scale: 100 %
   :alt: screenshot
   :align: center
@@ -36,7 +36,7 @@
   
 * 点击“Send”按钮发送测试请求。返回的结果是以 XML 文档编码的坦桑尼亚主要道路半径 0.05 度的缓冲区。
 
-.. image:: /images/screenshots/1024x768/52n_wps_response.png
+.. image:: /images/projects/1024x768/52n_wps_response.png
   :scale: 100 %
   :alt: screenshot
   :align: center

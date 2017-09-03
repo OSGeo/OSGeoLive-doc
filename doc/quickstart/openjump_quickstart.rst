@@ -46,7 +46,7 @@ reports, and memory usage. A project window contains a layer list and a layer
 view. Each instance of OpenJUMP can contain multiple projects. In our quick 
 start, we will only be working with a single window.
 
-.. image:: /images/screenshots/openjump/openjump_ss_01.png
+.. image:: /images/projects/openjump/openjump_ss_01.png
    :scale: 55 
 
 Open an ESRI Shapefile
@@ -64,7 +64,7 @@ to see the data from your shapefile in the Map View. You will also see a new
 layer created for your data in the Layer List. The name of the layer will match 
 the name of the shapefile.
 
-.. image:: /images/screenshots/openjump/openjump_ss_02.png
+.. image:: /images/projects/openjump/openjump_ss_02.png
    :scale: 55 
 
 Another quicker option is to directly drag and drop your shapefile in the Layer View.
@@ -83,10 +83,10 @@ maximum and minimum scales the layer is displayed at.
 
 * MacOSX users press the :guilabel:`Ctrl` key to access this menu.
 
-.. image:: /images/screenshots/openjump/openjump_ss_03.png
+.. image:: /images/projects/openjump/openjump_ss_03.png
    :scale: 55 
    
-.. image:: /images/screenshots/openjump/openjump_ss_04.png
+.. image:: /images/projects/openjump/openjump_ss_04.png
    :scale: 55 
 
 Edit Feature Geometries in a Layer
@@ -98,10 +98,10 @@ is shown. This will open a new floating toolbar over the Map View
 on the right side. This toolbar has a set of buttons that you can use to edit 
 the geometry of a geographic feature.
 
-.. image:: /images/screenshots/openjump/openjump_ss_05.png
+.. image:: /images/projects/openjump/openjump_ss_05.png
    :scale: 55 
    
-.. image:: /images/screenshots/openjump/openjump_ss_06.png
+.. image:: /images/projects/openjump/openjump_ss_06.png
    :scale: 55 
 
 Let's try a quick edit. First we need to select a geometry and then we move a 
@@ -111,7 +111,7 @@ feature in the Layer View to select it. If the selection worked, then the featur
 line color should change to yellow and small yellow squares appear at each angle 
 point (vertex) in the feature geometry. 
 
-.. image:: /images/screenshots/openjump/openjump_ss_07.png
+.. image:: /images/projects/openjump/openjump_ss_07.png
    :scale: 55 
 
 Next, click on the button that shows a blue crosshair with a yellow square in the 
@@ -119,13 +119,13 @@ middle, the :guilabel:`Move Vertex Tool` (Hoovering over the buttons gives you a
 button description). You should now see your mouse cursor change to a small black 
 crosshair when you move it over the Map View. 
 
-.. image:: /images/screenshots/openjump/openjump_ss_08.png
+.. image:: /images/projects/openjump/openjump_ss_08.png
    :scale: 55 
 
 Try using this to move one of the vertices/points of the geometry you selected before
 by clicking on one of the vertices and dragging it (leaving the mouse button pressed).
 
-.. image:: /images/screenshots/openjump/openjump_ss_09.png
+.. image:: /images/projects/openjump/openjump_ss_09.png
    :scale: 55 
    
 Other Learning Resources for OpenJUMP

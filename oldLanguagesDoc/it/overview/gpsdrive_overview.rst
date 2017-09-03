@@ -26,7 +26,7 @@ protocollo binario conosciuto a `Gpsd <http://gpsd.berlios.de>`_ demone GPS e mu
 Caratteristiche principali
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/gpsdrive/gpsdrive-cyclemap.png
+.. image:: /images/projects/gpsdrive/gpsdrive-cyclemap.png
   :scale: 50 %
   :alt: screenshot
   :align: right

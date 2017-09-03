@@ -25,7 +25,7 @@ GPS ナビソフト
 主な機能
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/gpsdrive/gpsdrive-cyclemap.png
+.. image:: /images/projects/gpsdrive/gpsdrive-cyclemap.png
   :scale: 50 %
   :alt: screenshot
   :align: right

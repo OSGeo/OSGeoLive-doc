@@ -22,7 +22,7 @@ GPX-треки должны быть заранее загружены с GPS-п
 
 Множество специализированных плагинов, написанных для JOSM, доступны для скачивания и установки.
 
-.. image:: /images/screenshots/josm/josm_inteface.png
+.. image:: /images/projects/josm/josm_inteface.png
   :scale: 55 %
   :alt: Редактор JOSM.
   :align: right

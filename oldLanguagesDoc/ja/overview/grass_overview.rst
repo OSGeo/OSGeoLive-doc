@@ -30,7 +30,7 @@ GRASSはには空間モデル、ラスタおよびベクタデータの視覚化
 さらに、プレゼンテーション用のすばらしい画像の作成、地図の印刷も可能です。
 GRASSは現在20の言語に翻訳されており、多数のデータフォーマットに対応しています。
 
-.. image:: /images/screenshots/grass/grass-vectattrib.png
+.. image:: /images/projects/grass/grass-vectattrib.png
    :scale: 50 %
    :alt: スクリーンショット
    :align: right
@@ -52,7 +52,7 @@ GRASSの開発は30年近く続いており、最も歴史ある、最も巨大�
 --------------------------------------------------------------------------------
 
 * どんなものでも、 `処理するツール  <http://grass.osgeo.org/grass70/manuals/keywords.html>`_ があります。
-*  `スクリーンショット集 <http://grass.osgeo.org/screenshots/>`_ をご覧下さい。
+*  `スクリーンショット集 <http://grass.osgeo.org/projects/>`_ をご覧下さい。
 
 詳細
 --------------------------------------------------------------------------------

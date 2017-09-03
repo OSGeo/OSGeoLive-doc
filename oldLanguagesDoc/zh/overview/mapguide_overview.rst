@@ -27,7 +27,7 @@ MapGuide包括了一个XML数据库用以管理内容，支持用户使用Maestr
 
 MapGuide可以部署在Linux或Windows上，支持Apache和IIS服务器，提供众多的PHP, .NET, Java和JavaScript等API接口以支持应用程序开发。MapGuide Open Source版权是LGPL。
 
-.. image:: /images/screenshots/mapguide/mapguide_viewer.png
+.. image:: /images/projects/mapguide/mapguide_viewer.png
   :scale: 50%
   :alt: screenshot
   :align: right

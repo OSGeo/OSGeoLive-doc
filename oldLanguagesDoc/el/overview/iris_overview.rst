@@ -17,7 +17,7 @@ Iris - Μια βιβλιοθήκη Python για Μετεωρολογία και
 Η Iris είναι μια ισχυρή και εύκολη στη χρήση βιβλιοθήκη Python για την ανάλυση
 και την οπτικοποίηση μετεωρολογικών και οκεανοφραφικών δεδομένων.
 
-.. image:: /images/screenshots/iris/iris.jpg
+.. image:: /images/projects/iris/iris.jpg
   :alt: Iris
   :align: right
   :scale: 80 %

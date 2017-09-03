@@ -27,7 +27,7 @@ MapGuide Einrichten und Starten
 
 .. comment: 1. Go to Desktop->Server, click icon Start MapGuide. This will start both MapGuide server and MapGuide Web server
 
-.. comment: .. image:: /images/screenshots/mapguide/mapguide_desktopIcons.png
+.. comment: .. image:: /images/projects/mapguide/mapguide_desktopIcons.png
 .. comment:   :scale: 50 %
 .. comment:   :alt: mapguide desktop icons
 .. comment:   :align: center 
@@ -39,7 +39,7 @@ MapGuide Einrichten und Starten
 2. Öffnen Sie einen Browser und geben Sie folgende Adresse ein, um die Beispiel-Anwendung zu sehen: 
    http://localhost:8008/mapguide/phpviewersample/ajaxtiledviewersample.php 
 
-.. image:: /images/screenshots/mapguide/mapguide_viewer.png
+.. image:: /images/projects/mapguide/mapguide_viewer.png
   :scale: 50 %
   :alt: mapguide desktop icons
   :align: center
@@ -52,14 +52,14 @@ MapGuide Maestro
    sich unter http://localhost:8008/mapguide/mapagent/mapagent.fcgi mit dem Benutzer "Administrator" 
    und dem Kennwort "admin" an.
 
-.. image:: /images/screenshots/mapguide/mapguide_maestroLogin.png
+.. image:: /images/projects/mapguide/mapguide_maestroLogin.png
   :scale: 50%
   :alt: screenshot
   :align: center
  
 2. Klicken Sie auf :guilabel:`Ok`, um zur Anwendung zu gelangen.
 
-.. image:: /images/screenshots/mapguide/mapguide_maestroMain.png
+.. image:: /images/projects/mapguide/mapguide_maestroMain.png
    :scale: 50%
    :alt: mapguide maestro main GUI
    :align: center
@@ -68,7 +68,7 @@ MapGuide Maestro
    :menuselection:`Samples --> Sheboygan --> Layers`. Doppelklick auf den Eintrag **Buildings**, der 
    Layer-Editor wird auf der rechten Seite geöffnet.
 
-.. image:: /images/screenshots/mapguide/mapguide_maestroLayerFeatures.png
+.. image:: /images/projects/mapguide/mapguide_maestroLayerFeatures.png
    :scale: 50%
    :alt: mapguide maestro layer features
    :align: center
@@ -76,12 +76,12 @@ MapGuide Maestro
 4. Blättern Sie im rechten Fenster, bis der Layer-Stil angezeigt wird. In der Spalte Featurestyle 
    klicken Sie "...", um den Style-Editor zu öffnen.
 
-.. image:: /images/screenshots/mapguide/mapguide_maestroLayerStyle.png
+.. image:: /images/projects/mapguide/mapguide_maestroLayerStyle.png
    :scale: 50%
    :alt: mapguide maestro layer stype panel
    :align: center
 
-.. image:: /images/screenshots/mapguide/mapguide_maestroStyleEditor.png
+.. image:: /images/projects/mapguide/mapguide_maestroStyleEditor.png
    :scale: 50%
    :alt: mapguide maestro color chooser
    :align: center
@@ -90,7 +90,7 @@ MapGuide Maestro
    um den Stil-Editor wieder zu beenden. Im Hauptmenü von Maestro klicken Sie den Save-Button, um die 
    Änderung zu speichern.
 
-.. image:: /images/screenshots/mapguide/mapguide_maestroSaveIcon.png
+.. image:: /images/projects/mapguide/mapguide_maestroSaveIcon.png
    :scale: 50%
    :alt: mapguide maestro Save icon 
    :align: center
@@ -101,12 +101,12 @@ MapGuide Maestro
    Sie die Gebäude sehen können. Die Gebäude sollten nun in Grün dargestellt werden.
 
 
-.. image:: /images/screenshots/mapguide/mapguide_buildingColorBeforeChanging.png
+.. image:: /images/projects/mapguide/mapguide_buildingColorBeforeChanging.png
    :scale: 50%
    :alt: Building color is grey 
    :align: center
 
-.. image:: /images/screenshots/mapguide/mapguide_buildingColorAfterChanging.png
+.. image:: /images/projects/mapguide/mapguide_buildingColorAfterChanging.png
    :scale: 50%
    :alt: Building color is green 
    :align: center

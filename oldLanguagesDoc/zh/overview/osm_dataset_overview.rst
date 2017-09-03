@@ -24,7 +24,7 @@ Open Street Map
 
 　　OSGeo-Live 包含 OSM 中一块城市大小的切片，可以在 Live 所包含的一些软件中使用。
 
-.. image:: /images/screenshots/osm_dataset/osm-screenshot.jpg 
+.. image:: /images/projects/osm_dataset/osm-screenshot.jpg 
   :scale: 55 %
   :alt: OSM screenshot
   :align: right

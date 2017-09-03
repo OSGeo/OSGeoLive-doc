@@ -23,7 +23,7 @@ Ushahidi
 για την δημοκρατικότητα της πληροφορίας, την αύξηση της διαφάνειας και την ελάττωση των εμποδίων 
 για μεμονομένα άτομα να μοιραστούν τις πληροφορίες και τις ιστορίες τους.
 
-.. image:: /images/screenshots/ushahidi/ushahidi-drc-screenshot.png
+.. image:: /images/projects/ushahidi/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

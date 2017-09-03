@@ -23,7 +23,7 @@ GpsPrune работает на Mac OS X, Windows и Linux, имеет подде
 Базовые функции
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/prune/prune_denver.png
+.. image:: /images/projects/prune/prune_denver.png
   :scale: 50 %
   :alt: Внешний вид
   :align: right

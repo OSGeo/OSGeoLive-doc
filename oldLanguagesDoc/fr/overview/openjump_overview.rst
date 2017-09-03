@@ -20,7 +20,7 @@ Il est fourni en édition CORE ou PLUS, cette dernière version ajoutant de nomb
 plugins pratiques. 
 OpenJUMP est excellent pour l'édition de données le prototypage rapide de fonctions SIG.
 
-.. image:: /images/screenshots/openjump/openjump-screenshot.png
+.. image:: /images/projects/openjump/openjump-screenshot.png
   :scale: 50 %
   :alt: Capture d'écran de OpenJump
   :align: right

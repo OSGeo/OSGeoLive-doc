@@ -71,7 +71,7 @@ PostGIS는 수많은 공간적 기능을 제공하고 안정적이고 빠르며 
   Don't include the desktop background as this changes with each release
   and will become dated.
 
-.. image:: /images/screenshots/pgadmin/pgadmin.png
+.. image:: /images/projects/pgadmin/pgadmin.png
   :scale: 55 %
   :alt: pgAdmin database manager
   :align: right

@@ -20,7 +20,7 @@
 は、現地もしくは遠隔センサがリアルタイムに蓄積したデータの取得をサポートします。
 センサとしては人工衛星に搭載したカメラから、川の水量メーターまで様々な物を取り扱うことができます。
  
-.. image:: /images/screenshots/52n_sos/52n_sos_overview.png
+.. image:: /images/projects/52n_sos/52n_sos_overview.png
   :scale: 60 %
   :alt: 52°North SOS and JavaScript client
   :align: right

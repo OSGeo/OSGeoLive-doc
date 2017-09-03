@@ -25,7 +25,7 @@ Se han incluido varios programas: JOSM, Merkaartor, Osmosis y Osm2pgsql, junto c
 Propiedades Fundamentales
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/osm_dataset/osm-screenshot.jpg
+.. image:: /images/projects/osm_dataset/osm-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

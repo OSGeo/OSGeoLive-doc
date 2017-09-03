@@ -29,7 +29,7 @@ Incluye una potente funcionalidad de análisis mediante la integración con
 :doc:`GRASS <grass_overview>`. 
 Funciona en Linux, Unix, Mac OSX y Windows, soporta numerosas funcionalidades y formatos vectoriales, raster y bases de datos.
 
-.. image:: /images/screenshots/qgis/qgis.png
+.. image:: /images/projects/qgis/qgis.png
   :scale: 50 %
   :alt: project logo
   :align: right

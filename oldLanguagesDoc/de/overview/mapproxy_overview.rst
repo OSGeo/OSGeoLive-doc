@@ -21,7 +21,7 @@ MapProxy
 WMS- & Kachel-Proxy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/mapproxy/mapproxy.png
+.. image:: /images/projects/mapproxy/mapproxy.png
   :alt: MapProxy diagram
   :align: right
 
@@ -35,7 +35,7 @@ Beispiele aus der Praxis: MapProxy wird im Breitbandatlas des BMWi verwendet um 
 Funktionen von MapProxy
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/mapproxy/mapproxy_demo.png
+.. image:: /images/projects/mapproxy/mapproxy_demo.png
   :width: 796
   :height: 809
   :scale: 70 %

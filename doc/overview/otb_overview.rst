@@ -41,7 +41,7 @@ and is distributed as open source.
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/otb/otb-mvd3-screenshot.jpg
+.. image:: /images/projects/otb/otb-mvd3-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

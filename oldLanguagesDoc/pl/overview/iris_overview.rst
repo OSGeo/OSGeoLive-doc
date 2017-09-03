@@ -22,7 +22,7 @@ arytmetyki, interpolacji i statystyki a tak¿e zestaw zintegrowanych opcji wydruk
 Obecnie Iris pozwala na dostêp typu odczyt/zapis do wielu formatów danych, w³¹czaj¹c
 pliki (CF-)netCDF, GRIB, i PP.
 
-.. image:: /images/screenshots/iris/iris.jpg
+.. image:: /images/projects/iris/iris.jpg
   :alt: Iris
   :align: right
   :scale: 80 %

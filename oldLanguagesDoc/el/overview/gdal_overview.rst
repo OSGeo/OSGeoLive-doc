@@ -26,7 +26,7 @@ GDAL/OGR
 
 Σήμερα είναι η πλέον διαδεδομένη βιβλιοθήκη διαχείρισης γεωχωρικών δεδομένων. Λειτουργεί στην μηχανή πρόσβασης στα δεδομένα σε πολλά γνωστά λογισμικά όπως: MapServer, GRASS, QGIS, and OpenEV. Επίσης υποστηρίζεται από πακέτα όπως: OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS.
 
-.. image:: /images/screenshots/gdal/gdal_ogr_proj_overview.png
+.. image:: /images/projects/gdal/gdal_ogr_proj_overview.png
   :scale: 60 %
   :alt: Η GDAL υποστηρίζει πολλά format 
   :align: right

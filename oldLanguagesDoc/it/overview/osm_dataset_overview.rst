@@ -33,7 +33,7 @@ sui dati, le mappe ricche sono solo la conseguenza di ciò.
 La distribuzione OSGeo-Live include un estratto della dimensione di una città dei 
 dati di OSM che è usato come esempi di alcune applicazioni.
 
-.. image:: /images/screenshots/osm_dataset/osm-screenshot.jpg 
+.. image:: /images/projects/osm_dataset/osm-screenshot.jpg 
   :scale: 55 %
   :alt: OSM screenshot
   :align: right

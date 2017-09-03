@@ -31,7 +31,7 @@ dans votre globe (ce qui inclut `OpenStreetMaps <http://www.osm.org>`_), vous
 Caractéristiques principales
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/marble/marble-history.png
+.. image:: /images/projects/marble/marble-history.png
   :scale: 50 %
   :alt: Capture d'écran
   :align: right

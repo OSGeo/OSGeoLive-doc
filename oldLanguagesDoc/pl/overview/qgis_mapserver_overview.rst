@@ -25,7 +25,7 @@ QGIS Server dostarcza usług sieciowych WMS opartych na bibliotekach pochodzący
 Ścisła integracja z programem QGIS oznacza możliwość łatwego eksportu do Internetu map stworzonych desktopowym narzędziem, poprzez skopiowanie pliku projektu QGIS do ścieżki serwera. Mapy w Internecie będą wyglądały dokładnie tak samo jak w aplikacji desktopowej.
 QGIS Server najczęściej używa się jako modył CGI/FastCGI poprzez serwer sieciowy Apache.
 
-.. image:: /images/screenshots/qgis/qgis-mapserver-screenshot.jpg
+.. image:: /images/projects/qgis/qgis-mapserver-screenshot.jpg
   :scale: 40 %
   :alt: project logo
   :align: right

@@ -59,16 +59,16 @@
         - Hardisk Drives: Disk#1 Disk Size 20GB (τουλάχιστο) και επιλέξτε SCSI
         - Sound and IO: μην επιλέξετε τίποτα
 
-.. image:: /images/screenshots/virtualization/vmware_easyvmx_form.png
+.. image:: /images/projects/virtualization/vmware_easyvmx_form.png
         :scale: 75
 
 
-.. image:: /images/screenshots/virtualization/vmware_easyvmx_disk.png
+.. image:: /images/projects/virtualization/vmware_easyvmx_disk.png
         :scale: 75
 
 Κάντε κλίκ στο κουμπί "Create Experimental Virtual Machine" στο κάτω μέρος της σελίδας. Η σελίδα θα δημιουργήσει ένα αρχείο **vmx** με τις ρυθμίσεις. Τοποθετήστε αυτό το αρχείο στο φάκελο του υπολογιστή σας που περιλαμβάνει το αρχείο vmdk της εικονικής μηχανής OSGeo. Στην επόμενη οθόνη, αντιγράψτε όλες τις γραμμές από το ``#!/usr/bin/vmplayer`` σε ``# END OF EasyVMX! CONFIG`` και κάντε επικόληση σε ένα αρχείο με όνομα osgeolive-6.0.vmx. 
 
-.. image:: /images/screenshots/virtualization/vmware_easyvmx_output.png
+.. image:: /images/projects/virtualization/vmware_easyvmx_output.png
         :scale: 75
 
 Το όνομα του αρχείου (χωρίς την επέκταση vmx) θα πρέπει να ταιριάζει στο όνομα του αρχείου vmdk. Επιπλέον ελέγξτε την γραμμή του αρχείου vmx που αναφέρεται σε ``scsi0:0.fileName =``. Θα πρέπει να είναι σε καε περίπτωση σύμφωνο με το όνομα του αρχείου vmdk που κατέβηκε από το διαδίκτυο.
@@ -76,9 +76,9 @@
 
 Ξεκινήστε το λογισμικό VMWare Player και κάντε κλίκ στο κουμπί **Open a Virtual Machine**. Βρείτε το φάκελο στον οποίο είναι αποθηκευμένα τα αρχεία vmdk και το νέο αρχείο vmx. Επιλέξτε το αρχείο vmx και η νέα εικονική μηχανή θα προστεθεί στη λίστα του λογισμικού VMWare Player. Κάντε κλίκ στο κουμπί **Play Virtual Machine** και η μηχανή θα ξεκινήσει.
 
-.. image:: /images/screenshots/virtualization/vmware_open.png
+.. image:: /images/projects/virtualization/vmware_open.png
         :scale: 90
-.. image:: /images/screenshots/virtualization/vmware_play.png
+.. image:: /images/projects/virtualization/vmware_play.png
         :scale: 90
 
 ================================================================================
@@ -93,7 +93,7 @@
 
 Στο παράθυρο της εικονικής μηχανής επιλέξτε από το μενού :menuselection:`Virtual Machine --> Virtual Machine Settings`, μετακινηθείτε στην καρτέλα Options, και κάντε κλίκ στην επιλογή Shared Folders. Από αυτή τη στιγμή υπάρχει η δυνατότητα με το κουμπί "+" να μοιραστείτε ένα φάκελο από τον εξωτερικό υπολογιστή σας μέσα στο σύστημα OSGeo-Live. Εαν θέλετε να μοιραστείτε το φάκελο `C:\\Users\\your_name\\Downloads`. Κάντε κλίκ στο κουμπί της περιήγησης για να εντοπίσετε το φάκελο , δώστε του ένα όνομα πχ "Downloads", και κάντε κλίκ στο "Save".
 
-.. image:: /images/screenshots/virtualization/vmware_shared.png 
+.. image:: /images/projects/virtualization/vmware_shared.png 
         :scale: 80
 
 

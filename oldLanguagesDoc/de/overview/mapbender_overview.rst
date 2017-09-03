@@ -30,7 +30,7 @@ Mapbender ist das Werkzeug der Wahl für GIS Administratoren, die Karten- und Da
 
 Der Mapbender basiert auf Symfony und OpenLayers, Mapproxy und jQuery.
 
-.. image:: /images/screenshots/mapbender/mapbender3_basic_application.png
+.. image:: /images/projects/mapbender/mapbender3_basic_application.png
   :scale: 70%
   :alt: Mapbender Anwendung
   :align: right

@@ -35,7 +35,7 @@ per servir mapes, entitats (*features*) i serveis de catàleg, així com sensors
 degree proporciona una IDE preparada per usar-la amb dades pròpies i que acompleix els requeriments d'usuari.
 
 
-.. image:: /images/screenshots/deegree/deegree_mainpage.png
+.. image:: /images/projects/deegree/deegree_mainpage.png
   :scale: 50%
   :alt: logo del projecte
   :align: right

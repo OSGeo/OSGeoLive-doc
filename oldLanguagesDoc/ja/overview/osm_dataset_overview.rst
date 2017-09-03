@@ -23,7 +23,7 @@ OSMを最も目にする光景は、 https://www.openstreetmap.org のオンラ�
 
 OSGeo-Liveのディストリビューションには、いくつかのアプリケーションで例に使用されているOSMデータの都市サイズに抽出されたデータが含まれています。
 
-.. image:: /images/screenshots/osm_dataset/osm-screenshot.jpg 
+.. image:: /images/projects/osm_dataset/osm-screenshot.jpg 
   :scale: 55 %
   :alt: OSM screenshot
   :align: right

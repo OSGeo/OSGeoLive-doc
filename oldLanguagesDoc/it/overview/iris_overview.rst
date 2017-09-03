@@ -23,7 +23,7 @@ di visualizzazione integrate.
 Iris attualmente supporta l'accesso in lettura/scrittura per diversi formati di dati,
 incluso (CF-)netCDF, GRIB, e PP.
 
-.. image:: /images/screenshots/iris/iris.jpg
+.. image:: /images/projects/iris/iris.jpg
   :alt: Iris
   :align: right
   :scale: 80 %

@@ -30,7 +30,7 @@ MB-System развивается с 1993 года с активной подде
 Базовые функции
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/mb-system/mb-system_screenshot.png
+.. image:: /images/projects/mb-system/mb-system_screenshot.png
   :scale: 60 %
   :alt: screenshot
   :align: right

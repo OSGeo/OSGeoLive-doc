@@ -28,7 +28,7 @@ Cartaro jest zaprojektowane dla stron CMS, które muszą obsługiwać dane przes
 i dla organizacji chcących lekkiej infrastruktury Danych Przestrzennych (SDI) 
 przy minimalnych nakładach na konfigurację i programowanie.
 
-.. image:: /images/screenshots/cartaro/cartaro_frontpage.png
+.. image:: /images/projects/cartaro/cartaro_frontpage.png
   :scale: 50%
   :alt: Cartaro Frontpage
   :align: right

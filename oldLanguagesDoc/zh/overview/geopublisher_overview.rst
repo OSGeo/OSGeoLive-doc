@@ -24,7 +24,7 @@ Geopublisher
 
 核心功能
 --------------------------------------------------------------------------------
-.. image:: /images/screenshots/geopublisher/geopublisher-overview.png
+.. image:: /images/projects/geopublisher/geopublisher-overview.png
   :scale: 40 %
   :alt: screenshot of Geopublisher editing an atlas
   :align: right

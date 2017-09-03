@@ -22,7 +22,7 @@ Geopublishers Alleinstellungsmerkmale machen die Software besonders einsetzbar i
 
 Kernfunktionen
 --------------------------------------------------------------------------------
-.. image:: /images/screenshots/geopublisher/geopublisher-overview.png
+.. image:: /images/projects/geopublisher/geopublisher-overview.png
   :scale: 40 %
   :alt: Screenshot: Geopublisher mit geöffnetem Atlas
   :align: right

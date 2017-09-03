@@ -95,7 +95,7 @@ Effettuare la segmentazione con Monteverdi
 * Nella finestra principale, clicca il tasto destro su "Clustered Image" nel dataset risultante
   "MeanShift0" e seleziona "Display in viewer"
 
-  .. image:: /images/screenshots/otb/otb-mean_shift.jpg
+  .. image:: /images/projects/otb/otb-mean_shift.jpg
      :scale: 100 %
 
 Effettuare la classificazione assistita basata su SVM con Monteverdi
@@ -110,7 +110,7 @@ Effettuare la classificazione assistita basata su SVM con Monteverdi
 * Clicca sul bottone `Learn` per creare un modello di classificazione dalle classi del campione in input
 * Clicca sul bottone `Display` per mostrare il risultato della classificazione assistita sull'intera immagine
 
-  .. image:: /images/screenshots/otb/otb-svm.jpg
+  .. image:: /images/projects/otb/otb-svm.jpg
      :scale: 100 %
 
 Per il tutorial completo vedi l'  `articolo`_.

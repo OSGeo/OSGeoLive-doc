@@ -28,7 +28,7 @@ und exponentielle Skalierung, und es unterstützt Daten wie Küstenlinien, Flüs
 und politischen Grenzen.
 
 
-.. image:: /images/screenshots/800x600/gmt-example28.png
+.. image:: /images/projects/800x600/gmt-example28.png
   :scale: 50 %
   :alt: Bildschirmfoto
   :align: right

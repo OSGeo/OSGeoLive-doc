@@ -44,7 +44,7 @@ Quantum GIS (QGIS) — это дружественная к пользовате
 
    * Отобразятся города:
 
-     .. image:: /images/screenshots/qgis/qgis.png
+     .. image:: /images/projects/qgis/qgis.png
         :scale: 50 %
 
 #. Дважды щёлкните на **10m_rivers_lake_centerlines** в списке слоёв.

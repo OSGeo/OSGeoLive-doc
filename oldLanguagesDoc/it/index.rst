@@ -23,7 +23,7 @@ Benvenuti in |osgeo-live-version|
 a sorgente aperta senza installare nulla. È composta interamente di software libero,
 che permette di distribuirlo, duplicarlo e passarlo in giro liberamente.
 
-.. image:: /images/screenshots/osgeolive/osgeolive_menu.png
+.. image:: /images/projects/osgeolive/osgeolive_menu.png
   :scale: 70 %
   :alt: boot select
   :align: right

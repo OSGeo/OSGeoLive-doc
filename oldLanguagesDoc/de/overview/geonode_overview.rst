@@ -26,7 +26,7 @@ Datensätze können in verschiedenen Formaten hochgeladen werden, Karten können
 
 GeoNode baut auf folgender Soaftware auf: GeoServer, GeoExplorer, pycsw, Django und GeoExt.
 
-.. image:: /images/screenshots/geonode/geonode_basic_application.png
+.. image:: /images/projects/geonode/geonode_basic_application.png
   :scale: 50%
   :alt: GeoNode Anwendung
   :align: right

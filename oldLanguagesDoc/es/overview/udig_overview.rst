@@ -18,7 +18,7 @@ User-friendly Desktop Internet GIS (uDig)
 SIG de Escritorio
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/udig/udig-overview.png
+.. image:: /images/projects/udig/udig-overview.png
   :scale: 50
   :alt: udig workshop
   :align: right

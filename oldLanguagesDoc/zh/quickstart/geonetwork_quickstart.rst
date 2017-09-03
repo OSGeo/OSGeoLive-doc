@@ -37,23 +37,23 @@ GeoNetwork 快速入门文档
 - |GN| 将稍候启动
 - 前往 |GN| 示例主页 http://localhost:8880/geonetwork 。该页面截图如下：
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-firstviews.png
+.. figure:: /images/projects/geonetwork/geonetwork-firstviews.png
 
 - 作为 |GN| 的入门示例，这里读取一份简单的元数据记录。请将用户名/密码“admin” 输入右上角表格，点击“Login”进入 |GN| 。
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-login.png
+.. figure:: /images/projects/geonetwork/geonetwork-login.png
 
 - 在页面顶部将出现 *Administration* 链接。点击进入。
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-administration-banner.png
+.. figure:: /images/projects/geonetwork/geonetwork-administration-banner.png
 
 - 在 *Administration* 页面中，底部的“Add sample metadata”可以用于载入 Live 预装的元数据。
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-addsampledatabutton.png
+.. figure:: /images/projects/geonetwork/geonetwork-addsampledatabutton.png
 
 - 完成读取后退回主页。此时页面应当显示如下：
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-returntohomepage.png
+.. figure:: /images/projects/geonetwork/geonetwork-returntohomepage.png
 
 检索
 --------------------------------------------------------------------------------
@@ -72,7 +72,7 @@ GeoNetwork 快速入门文档
 
 　　检索词和逻辑运算符（and, or, not）默认均不对大小写敏感。
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-what.png
+.. figure:: /images/projects/geonetwork/geonetwork-what.png
 
   *默认自由检索栏*
 
@@ -80,19 +80,19 @@ GeoNetwork 快速入门文档
 
 　　通过预定义的 **region** 区域菜单选择；
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-where1.png
+.. figure:: /images/projects/geonetwork/geonetwork-where1.png
   
   *区域检索框*
 
 　　你也可以通过绘制区域检索框限制检索的空间范围。点击地图显示右上角的按钮即可拖拽检索范围。
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-where2.png
+.. figure:: /images/projects/geonetwork/geonetwork-where2.png
 
   *交互式目标区选择*
 
 　　**执行检索** 文本和区域检索可以组合以缩小结果的范围，点击 *Search* 按钮即可执行和显示检索。
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-search_button.png
+.. figure:: /images/projects/geonetwork/geonetwork-search_button.png
 
   *检索按钮*
 
@@ -103,7 +103,7 @@ GeoNetwork 快速入门文档
 
 　　若需要在地图数据中检索，选择 **Maps and Graphics** 即可。系统将显示可用的地图数据源。点击 **Metadata** 可显示更详细的元数据信息。
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-Categories.png
+.. figure:: /images/projects/geonetwork/geonetwork-Categories.png
 
   *分类检索*
 
@@ -112,13 +112,13 @@ GeoNetwork 快速入门文档
 
 　　高级检索（Advanced Search）提供了更细致的条件组合，对数据源表现何地、何时、何种对象等各个方面进行限制。
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search1.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search1.png
 
   *高级检索*
 
 　　选择主页中的“Advanced Search”可以进入高级检索。
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_button.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search_button.png
 
   *高级检索选项页面*
 
@@ -128,7 +128,7 @@ GeoNetwork 快速入门文档
 
 - 检索的 **模糊匹配程度（accuracy）** 可以自由设置。1.0 表示精确匹配，其它小于 1 的数字表示模糊匹配，0.2 模糊程度最高的方案。
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_what.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search_what.png
 
   *“What”文本检索条件区*
 
@@ -140,7 +140,7 @@ GeoNetwork 快速入门文档
 
 - 若需套用预定义区域的坐标，从 **predefined region** 下拉菜单中选择。
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_where.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search_where.png
 
   *“Where”区域检索条件区*
 
@@ -160,7 +160,7 @@ GeoNetwork 快速入门文档
 
 - 右侧的 **x** 可以清除所在一行的选项。清除所有时间范围后，页面会自动选择 **Any（任何时间）** ，此时执行检索不会有数据集时间限制。
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_when.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search_when.png
 
   *时间范围选择面板*
 
@@ -176,7 +176,7 @@ GeoNetwork 快速入门文档
 
 - 点击 **Search 检索** 按钮执行检索。
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_morerest.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search_morerest.png
 
   *高级检索其它设置项*
 
@@ -185,7 +185,7 @@ GeoNetwork 快速入门文档
 
 　　检索结果页面显示了满足条件的所有条目的元数据。每个条目都显示了标题、摘要和关键词等。取决于各个条目上的有效权限，每个条目最多可以显示四栏信息。
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-search_output2.png
+.. figure:: /images/projects/geonetwork/geonetwork-search_output2.png
 
     *检索结果页面*
 
@@ -193,23 +193,23 @@ GeoNetwork 快速入门文档
 
 #. **Download 下载**：在有相应权限的情况下，显示该按钮表示可以下载数据。点击该按钮或根据元数据访问相应的链接即可。
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-search_output1.png
+.. figure:: /images/projects/geonetwork/geonetwork-search_output1.png
 
         *检索结果的一个条目*
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-download.png
+.. figure:: /images/projects/geonetwork/geonetwork-download.png
 
         *一个数据源可用的服务*
 
 #. **Interactive Map 交互式数据浏览图**：这项服务在可用时会对数据覆盖进行交互式的地图显示。其内容默认显示在上部的地图窗口。点击 **Show Map** 显示视图。
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-interactive_map.png
+.. figure:: /images/projects/geonetwork/geonetwork-interactive_map.png
     
         *交互式数据浏览图*
 
 #. **Graphic Overviews 预览图**：数据集所带有的预览图有助于了解数据集的内容，尤其是在交互式浏览试图不可用的条件下。点击预览图可以放大。
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-thumbnail.png
+.. figure:: /images/projects/geonetwork/geonetwork-thumbnail.png
     
         *放大显示的预览图*
 
@@ -222,7 +222,7 @@ GeoNetwork 快速入门文档
 
 　　在主页输入用户名（username）和密码（password）并点击“login”即可以相应身份登录系统。
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-login.png
+.. figure:: /images/projects/geonetwork/geonetwork-login.png
 
     *Login 登录*
 

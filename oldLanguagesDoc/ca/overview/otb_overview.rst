@@ -30,7 +30,7 @@ OTB ha estat finançat per l'agència espacial de França (CNES) en el marc de l
 Característiques principals
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/otb/otb-mapping.jpg
+.. image:: /images/projects/otb/otb-mapping.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

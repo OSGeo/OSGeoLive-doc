@@ -28,7 +28,7 @@ pgRouting
 * Изменения данных моментально отражаются роутинговым движком. Нет необходимости в предварительной обработке.
 * Значение стоимости могут быть рассчитаны динамически при помощи SQL в зависимости от значений нескольких полей таблицы.
 
-.. image:: /images/screenshots/pgrouting/pgrouting.png
+.. image:: /images/projects/pgrouting/pgrouting.png
   :scale: 60 %
   :alt: Запрос к pgRouting в pgAdminIII
   :align: right

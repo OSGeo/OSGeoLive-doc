@@ -28,7 +28,7 @@ JOSM περιλαμβάνονται.
 Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/osm_dataset/osm-screenshot.jpg
+.. image:: /images/projects/osm_dataset/osm-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

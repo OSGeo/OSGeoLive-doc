@@ -382,14 +382,14 @@ drop-down menu. You can define new server connections here, and store the settin
 recall. Click on Connections drop down menu and choose Natural Earth. Hit ``Edit`` if you want to see what those parameters are for Natural Earth, or just
 hit ``Connect`` to continue:
 
-.. image:: /images/screenshots/postgis/postgis_addlayers.png
+.. image:: /images/projects/postgis/postgis_addlayers.png
   :scale: 75 %
   :alt: Connect to Natural Earth
   :align: center
 
 You will now get a list of the spatial tables in the database:
 
-.. image:: /images/screenshots/postgis/postgis_listtables.png
+.. image:: /images/projects/postgis/postgis_listtables.png
   :scale: 75 %
   :alt: Natural Earth Layers
   :align: center
@@ -398,7 +398,7 @@ Choose the ne_10m_lakes table and hit ``Add`` at the bottom (not ``Load`` at the
 top - that loads database connection parameters), and it should be
 loaded into QGIS:
 
-.. image:: /images/screenshots/postgis/postgis_lakesmap.png
+.. image:: /images/projects/postgis/postgis_lakesmap.png
   :scale: 75 %
   :alt: My First PostGIS layer
   :align: center
@@ -421,7 +421,7 @@ the password blank if it asks. In the public item, there is the list of the laye
 tables from the database and use the tabs on the right find out about them. The Preview tab
 will show you a little map.
 
-.. image:: /images/screenshots/postgis/postgis_managerpreview.png
+.. image:: /images/projects/postgis/postgis_managerpreview.png
   :scale: 75 %
   :alt: QGIS Manager Preview
   :align: center
@@ -434,14 +434,14 @@ From the ``Table`` menu choose the ``Import layer/file`` option.
 Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R ``maptools`` package
 (located in /usr/lib/R/site-library/spdep/etc/shapes/):
 
-.. image:: /images/screenshots/postgis/postgis_browsedata.png
+.. image:: /images/projects/postgis/postgis_browsedata.png
   :scale: 75 %
   :alt: Find the shapefile
   :align: center
 
 Leave everything else as it is and hit ``Load``
 
-.. image:: /images/screenshots/postgis/postgis_importsids.png
+.. image:: /images/projects/postgis/postgis_importsids.png
   :scale: 75 %
   :alt: Import a shapefile
   :align: center
@@ -453,7 +453,7 @@ Now load the SIDS data into the map using the 'Add PostGIS Layer'
 option. With a bit of rearranging of the layers and some colouring, you should be able to produce
 a choropleth map of the sudden infant death syndrome counts in North Carolina:
 
-.. image:: /images/screenshots/postgis/postgis_sidsmap.png
+.. image:: /images/projects/postgis/postgis_sidsmap.png
   :scale: 75 %
   :alt: SIDS data mapped
   :align: center
@@ -468,7 +468,7 @@ You can use the graphical database client ``pgAdmin III`` from the Databases men
 is the official client for PostgreSQL, and lets you use SQL to manipulate your data tables. You can find and launch pgAdmin III 
 from the Databases folder, existing on the OSGeo Live Desktop.
 
-.. image:: /images/screenshots/postgis/postgis_pgadmin_main_window.png
+.. image:: /images/projects/postgis/postgis_pgadmin_main_window.png
   :scale: 50 %
   :alt: pgAdmin III
   :align: center
@@ -479,7 +479,7 @@ In this case, we are going to connect to the predefined ``local`` server.
 
 After connection established, you can see the list of the databases already existing in the system.
 
-.. image:: /images/screenshots/postgis/postgis_adminscreen0.png
+.. image:: /images/projects/postgis/postgis_adminscreen0.png
   :scale: 75 %
   :alt: pgAdmin III
   :align: center
@@ -497,7 +497,7 @@ Navigate at the ``schemas`` subtree, expand it. Afterwards expand the
 ``Tables``, you can see all the tables contained within this schema.
 
 
-.. image:: /images/screenshots/postgis/postgis_adminscreen1.png
+.. image:: /images/projects/postgis/postgis_adminscreen1.png
   :scale: 75 %
   :alt: pgAdmin III
   :align: center
@@ -522,7 +522,7 @@ on the text editor of the SQL Window):
 
 Afterwards, you should press the green arrow button, pointing to the right (execute query).
 
-.. image:: /images/screenshots/postgis/postgis_adminscreen2.png
+.. image:: /images/projects/postgis/postgis_adminscreen2.png
   :scale: 75 %
   :alt: pgAdmin III
   :align: center

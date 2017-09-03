@@ -38,7 +38,7 @@ Live DVDでGRASSを起動するには、
 "GRASSへようこそ" と書かれた起動画面にて、ロケーションに North Carolina データセット、
 マップセットに "user1" を選択し、 [*Start Grass*] をクリックしてください。
 
-.. image:: /images/screenshots/grass/grass-startup.png
+.. image:: /images/projects/grass/grass-startup.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -61,7 +61,7 @@ Live DVDでGRASSを起動するには、
 マップの表示
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/grass/grass-layerman.png
+.. image:: /images/projects/grass/grass-layerman.png
   :scale: 50 %
   :alt: screenshot
   :align: left
@@ -86,7 +86,7 @@ PERMANENT マップセットから "`elevation.10m`" といったラスターレ
 標高プロファイルの表示
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/grass/grass-profile.png
+.. image:: /images/projects/grass/grass-profile.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -117,7 +117,7 @@ PERMANENT マップセットから "`elevation.10m`" といったラスターレ
 "Optional" タブのオプションを調整し [*Run*] をクリックします。
 そして *r.surf.fractal* ダイアログウィンドウの [*Close*] をクリックして閉じます。
 
-.. image:: /images/screenshots/grass/grass-fractal.png
+.. image:: /images/projects/grass/grass-fractal.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -142,7 +142,7 @@ PERMANENT マップセットから "`elevation.10m`" といったラスターレ
 陰影図の作成
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/grass/grass-shadedrelief.png
+.. image:: /images/projects/grass/grass-shadedrelief.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -194,7 +194,7 @@ PERMANENTマップセットの "`elevation`" に一致しているかを確認�
 集水域の背後に透けて見えるのを確認してみてください。
 
 
-.. image:: /images/screenshots/grass/grass-watersheds.png
+.. image:: /images/projects/grass/grass-watersheds.png
   :scale: 50 %
   :alt: screenshot
   :align: left
@@ -237,7 +237,7 @@ PERMANENTマップセットの "`elevation`" に一致しているかを確認�
 ベクターデータの処理機能もラスター同様に様々な機能を持っています。
 GRASSのトポロジーエンジンは多くの強力な解析を可能にしています。
 
-.. image:: /images/screenshots/grass/grass-vectattrib.png
+.. image:: /images/projects/grass/grass-vectattrib.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -266,7 +266,7 @@ GRASSのトポロジーエンジンは多くの強力な解析を可能にして
 *v.colors* ダイアログを閉じます。
 変更した色を見るために再描画をする必要があるかもしれません。
 
-.. image:: /images/screenshots/grass/grass-vector-basins.png
+.. image:: /images/projects/grass/grass-vector-basins.png
   :scale: 50 %
   :alt: screenshot
   :align: right
@@ -311,7 +311,7 @@ Where句として ``SELECT * FROM basin_areas WHERE`` を、
 3D 可視化
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/grass/grass-nviz.png
+.. image:: /images/projects/grass/grass-nviz.png
   :scale: 50 %
   :alt: screenshot
   :align: right

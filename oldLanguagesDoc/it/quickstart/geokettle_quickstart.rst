@@ -43,7 +43,7 @@ Avviare GeoKettle
 #. Si visualizzerà la seguente finestra. Riempire le informazione sul repository o
 semplicemente cliccare il bottone "No repository" per entrare ter the GeoKettle's workbench
 
-  .. image:: /images/screenshots/geokettle/geokettle_welcome.png
+  .. image:: /images/projects/geokettle/geokettle_welcome.png
     :scale: 80 %
 
 Workbench
@@ -52,7 +52,7 @@ Workbench
 Come illustrato nel seguente screenshot, the Workbench window è composta di
 diversi pannelli.
 
-  .. image:: /images/screenshots/geokettle/geokettle_workbench.png
+  .. image:: /images/projects/geokettle/geokettle_workbench.png
     :scale: 80 %
 
 La parte sinistra funziona come catalogo contenente tutti i passaggi che possono
@@ -73,7 +73,7 @@ GeoKettle sono salvate in file con l'estensione `*.ktr`.
 
 La seguente figura mostra la trasformazione di esempio « intersezione ».
 
-  .. image:: /images/screenshots/geokettle/geokettle_intersection_transformation.png
+  .. image:: /images/projects/geokettle/geokettle_intersection_transformation.png
     :scale: 80 %
 
 Una descrizione della trasformazione e direttive opzionali possone essere
@@ -83,7 +83,7 @@ Prima di iniziare la trasformazione, si dovrà specificare quale shapefile usare
 Per fare ciò, doppio click su ogni passaggio del « GIS file input » per far
 apparire la seguenti finestra.
 
-  .. image:: /images/screenshots/geokettle/geokettle_shapefile_input_step.png
+  .. image:: /images/projects/geokettle/geokettle_shapefile_input_step.png
 
 .. note:
    You may also customize any steps of any transformation by double clicking on it.
@@ -108,7 +108,7 @@ Come mostrato nella figura seguente, tutti i passaggi disponibili sono elencate
 per categoria nell'area a sinistra del workbench. Espandi una categoria per
 vedere i passaggi disponibili.
 
-  .. image:: /images/screenshots/geokettle/geokettle_your_transformation.png
+  .. image:: /images/projects/geokettle/geokettle_your_transformation.png
     :scale: 80 %
 
 Per aggiungere un nuovo passaggio alla trasformazione, trascinarla dal pannello
@@ -123,7 +123,7 @@ passaggi. Come mostrato nella figura seguente, aggiungendo un hop da **Table Inp
 a **Add sequence** significa che l'output ottenuto di **Table Input** sarò spedito al
 passaggio **Add sequence** per ulteriori analisi e ecc.
 
-  .. image:: /images/screenshots/geokettle/geokettle_hop.png
+  .. image:: /images/projects/geokettle/geokettle_hop.png
     :scale: 60 %
 
 Per creare un nuovo hop, selezionare 2 passaggi, tasto destro su uno di loro
@@ -158,7 +158,7 @@ gli utenti se il passaggio è iniziato, si sta eseguendo, finito, stoppato, ecc.
 Il tempo passato dall'inizio dello passaggio è mostrato nella colonna **Time**,
 così come la velocità media (colonna **Speed**) del passaggio (righe/secondi).
 
-  .. image:: /images/screenshots/geokettle/geokettle_running_transformation.png
+  .. image:: /images/projects/geokettle/geokettle_running_transformation.png
     :scale: 70 %
 
 
@@ -170,7 +170,7 @@ del pannello **Logging**. C'è sempre molte informazioni utili che informano con
 sorgente e la motivazione dell'errore. Modificare i parametri del passaggio con
 errori e riavviare la trasformazione.
 
-  .. image:: /images/screenshots/geokettle/geokettle_transformation_fail.png
+  .. image:: /images/projects/geokettle/geokettle_transformation_fail.png
     :scale: 70 %
 
 Ad aiutare a trovare la sorgente di un errore, si può anche vedere in anteprima

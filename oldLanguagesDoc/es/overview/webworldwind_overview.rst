@@ -22,7 +22,7 @@ Es fácil de usar, sólo necesita un ratón de dos botones. Se usa para monitori
 
 Web World Wind proporciona una plataforma javascript extensible, que permite a desarrolladores web crear rápidamente globos y mapas bidimensionales personalizados que pueden expresar, manipular y analizar información espacial. Se pueden mostrar terrenos e imágenes de alta resolución espacial, incluyendo una brújula, coordenadas y controles.
 
-.. image:: /images/screenshots/1024x768/webworldwind_main.png
+.. image:: /images/projects/1024x768/webworldwind_main.png
  :scale: 50 %
  :alt: Web World Wind Example
  :align: right

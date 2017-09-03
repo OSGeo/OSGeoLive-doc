@@ -21,7 +21,7 @@ línea de tiempo. El objetivo de Ushahidi es crear herramientas para la
 democratización de la información, aumentando la transparencia y reduciendo las
 barreras a los individuos para compartir sus historias.
 
-.. image:: /images/screenshots/ushahidi/ushahidi-drc-screenshot.png
+.. image:: /images/projects/ushahidi/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -16,7 +16,7 @@ Webマップサービス
 
 ncWMSはOGC準拠のWebマップサービス（WMS）として多次元データ（例えば、環境や気象データなど）を公開します。ncWMSは、迅速かつ効率的に、典型的には環境データに関連付けられた非常に大きなデータファイルからマップ画像を抽出します。
 
-.. image:: /images/screenshots/ncWMS/ncWMS-03-timeseries.png
+.. image:: /images/projects/ncWMS/ncWMS-03-timeseries.png
   :scale: 60 %
   :alt: Screen Shot of GeoServer
   :align: right

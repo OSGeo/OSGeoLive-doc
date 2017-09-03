@@ -45,7 +45,7 @@ MapServer изначально был разработан в рамках пр�
 Базовые функции
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/mapserver/mapserver.png
+.. image:: /images/projects/mapserver/mapserver.png
   :scale: 50 %
   :alt: скриншот
   :align: right

@@ -20,7 +20,7 @@ popularnego formatu `LAS` `LiDAR`_. `ASPRS LAS format`_ jest binarnym formatem
 przechowywania danych pochodzących z sensorów LiDAR lub programów przetwarzających 
 dane LiDAR w celu wymiany lub archiwizacji danych.
 
-.. image:: /images/screenshots/liblas/liblas.jpg
+.. image:: /images/projects/liblas/liblas.jpg
   :alt: LiDAR Acquisition
   :align: right
   :scale: 80 %

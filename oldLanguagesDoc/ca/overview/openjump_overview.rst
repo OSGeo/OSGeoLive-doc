@@ -20,7 +20,7 @@ OpenJump és un SIG d'escriptori molt potent i fàcil d'usar que permet als usua
 editar, analitzar, combinar, guardar i visualitzar dades geogràfiques. També és una 
 excel·lent plataforma per a l'edició de dades i per a desenvolupar prototips de funcions SIG.
 
-.. image:: /images/screenshots/openjump/openjump-screenshot.png
+.. image:: /images/projects/openjump/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
   :align: right

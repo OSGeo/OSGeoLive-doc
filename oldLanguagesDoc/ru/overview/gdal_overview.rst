@@ -32,7 +32,7 @@ GDAL/OGR — наиболее широко распространенная б�
 GRASS, QGIS и OpenEV и многих других. Она также используется в таких приложениях, как OSSIM,
 Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide и ArcGIS.
 
-.. image:: /images/screenshots/gdal/gdal_ogr_proj_overview.png
+.. image:: /images/projects/gdal/gdal_ogr_proj_overview.png
   :scale: 60 %
   :alt: GDAL поддерживает множество форматов геоданных
   :align: right

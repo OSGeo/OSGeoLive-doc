@@ -37,7 +37,7 @@ entorno de pruebas para JavaScript y herramientas para comprimir el código Java
 La caja de herramientas JavaScript está compuesta por los kits de herramientas
 `ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>` y `GeoExt <http://www.geoext.org>`_ JavaScript.
 
-.. image:: /images/screenshots/mapfish/mapfish-screenshot.jpg
+.. image:: /images/projects/mapfish/mapfish-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

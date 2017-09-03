@@ -28,7 +28,7 @@ scaling, and comes with support data such as coastlines, rivers, and
 political boundaries.
 
 
-.. image:: /images/screenshots/gmt/gmt-example28.png
+.. image:: /images/projects/gmt/gmt-example28.png
   :scale: 50 %
   :alt: screenshot
   :align: right

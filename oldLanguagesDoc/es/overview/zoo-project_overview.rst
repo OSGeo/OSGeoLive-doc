@@ -31,7 +31,7 @@ módulo para Python) basado en las librerías :doc:`GEOS <geos_overview>` y :doc
 
 ZOO está compuesto de tres partes diferenciadas:
 
-.. image:: /images/screenshots/zoo/zoo-project-demo-2.png
+.. image:: /images/projects/zoo/zoo-project-demo-2.png
   :scale: 40 %
   :alt: screenshot
   :align: right

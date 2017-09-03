@@ -18,7 +18,7 @@ Iris ist eine leistungsstarke Python Bibliothek für die Analyse und Visualisier
 
 Derzeit unterstützt Iris read/write Zugriff auf eine Reihe von Datenformaten inklusive (CF-)netCDF, GRIB, und PP Dateien.
 
-.. image:: /images/screenshots/iris/iris.jpg
+.. image:: /images/projects/iris/iris.jpg
   :alt: Iris
   :align: right
   :scale: 80 %

@@ -46,7 +46,7 @@ Editar un proyecto de QGIS
 
    * Los Poblados ahora son desplegados:
 
-     .. image:: /images/screenshots/qgis/qgis.png
+     .. image:: /images/projects/qgis/qgis.png
         :scale: 50 %
 
 #. Doble clic en **10m_rivers_lake_centerlines** en el árbol de capas.

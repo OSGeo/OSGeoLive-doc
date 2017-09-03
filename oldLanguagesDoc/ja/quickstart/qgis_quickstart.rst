@@ -45,7 +45,7 @@ QGIS プロジェクトを編集する
 
 #. :menuselection:`Geospatial --> Desktop GIS --> QGIS` から QGIS を起動し、メニューバーから :menuselection:`Project --> Open` を選択してください。
 
-     .. image:: /images/screenshots/qgis/qgis_project_open.png
+     .. image:: /images/projects/qgis/qgis_project_open.png
        :scale: 70 %
        :alt: Open a QGIS project
 
@@ -57,7 +57,7 @@ QGIS プロジェクトを編集する
 
    * 人口の多い地域が、たくさんの緑のドットで表示されます:
 
-     .. image:: /images/screenshots/qgis/qgis.png
+     .. image:: /images/projects/qgis/qgis.png
         :scale: 70 %
         :alt: Map in QGIS
 
@@ -71,7 +71,7 @@ QGIS プロジェクトを編集する
    You can also zoom in and out with the mouse wheel, and pan with a
    left-click drag.
 
-     .. image:: /images/screenshots/qgis/qgis_zoom_toolbar.png
+     .. image:: /images/projects/qgis/qgis_zoom_toolbar.png
         :scale: 70 %
         :alt: Map in QGIS
 
@@ -81,7 +81,7 @@ Style a layer
 
 Now let's try customising the style of the map.
 
-     .. image:: /images/screenshots/qgis/qgis_style_set.png
+     .. image:: /images/projects/qgis/qgis_style_set.png
         :scale: 70 %
         :alt: Style setting
 
@@ -96,7 +96,7 @@ Now let's try customising the style of the map.
 
    * 川が選択した色で表示されます。
 
-     .. image:: /images/screenshots/qgis/qgis_style.png
+     .. image:: /images/projects/qgis/qgis_style.png
         :scale: 70
         :alt: Map in QGIS
 
@@ -110,7 +110,7 @@ Let's now create a new QGIS project and load our own data.
 #. :menuselection:`Layer --> Add Layer--> Add Vector Layer...` をクリック、もしくは 'Add Vector Layer' ボタン(V型のボタンで、画像の赤枠内のもの)をクリック。
 キーボードショートカット 'Ctrl+Shift+V' を使用することも可能です。
 
-     .. image:: /images/screenshots/qgis/qgis_add_layer.png
+     .. image:: /images/projects/qgis/qgis_add_layer.png
         :scale: 70
         :alt: Add layer
 
@@ -120,7 +120,7 @@ Let's now create a new QGIS project and load our own data.
 
    * 世界の国が表示されます。
 
-     .. image:: /images/screenshots/qgis/qgis_countries.png
+     .. image:: /images/projects/qgis/qgis_countries.png
         :scale: 70
         :alt: Add layer result
 
@@ -149,7 +149,7 @@ click on the Public schema to deploy it:
 
   * A list of database tables will appear.
 
-   .. image:: /images/screenshots/qgis/qgis_postgis_connect.png
+   .. image:: /images/projects/qgis/qgis_postgis_connect.png
       :scale: 70 %
       :alt: Connecting to a PostGIS DB
 
@@ -174,7 +174,7 @@ click on the Public schema to deploy it:
    a blue "i") and then on the map canvas bubbles to view information about
    the individual cities.
 
-     .. image:: /images/screenshots/qgis/qgis_bubble.png
+     .. image:: /images/projects/qgis/qgis_bubble.png
         :scale: 70
         :alt: Scale field map
 
@@ -188,7 +188,7 @@ from :doc:`GRASS GIS <../overview/grass_overview>`.
 
 #. Clear the slate with :menuselection:`Project --> New`.
 
-   .. image:: /images/screenshots/qgis/qgis_plugin.png
+   .. image:: /images/projects/qgis/qgis_plugin.png
       :scale: 70 %
       :alt: Enable GRASS plugin
 
@@ -210,7 +210,7 @@ from :doc:`GRASS GIS <../overview/grass_overview>`.
 
    * In the PERMANENT mapset select the `elevation` map and double click to add to the map.
 
-     .. image:: /images/screenshots/qgis/qgis_grass_layers.jpg
+     .. image:: /images/projects/qgis/qgis_grass_layers.jpg
        :scale: 50 %
        :alt: GRASS GIS layers loaded into QGIS
 
@@ -249,7 +249,7 @@ modules and visualization tools:
 
 #. Select the output layer name (e.g. contour_lines), then click :guilabel:`Run`.
 
-   .. image:: /images/screenshots/qgis/qgis_contours.jpg
+   .. image:: /images/projects/qgis/qgis_contours.jpg
       :scale: 70 %
       :alt: Contour creation
 
@@ -270,7 +270,7 @@ It acts as a standardized wrapper around a number of other sets to tools.
    * A new toolbar will open on the right side of the screen with many
      processing tools to choose from. Take some time and have a look around.
 
-   .. image:: /images/screenshots/qgis/qgis_toolbox.png
+   .. image:: /images/projects/qgis/qgis_toolbox.png
       :scale: 70 %
       :alt: Processing Toolbox
 
@@ -280,7 +280,7 @@ It acts as a standardized wrapper around a number of other sets to tools.
      Additionally, switch to the "Advanced Interface" (see lower right corner
      in the screenshot) in order to see the providers:
 
-   .. image:: /images/screenshots/qgis/qgis_enable_provider.png
+   .. image:: /images/projects/qgis/qgis_enable_provider.png
       :scale: 70 %
       :alt: Enabling the GRASS GIS 7 provider in the Processing settings.
 
@@ -305,7 +305,7 @@ Importing OpenStreetMap data
    Processing Toolbox open you might want to close it.
 
 
-   .. image:: /images/screenshots/qgis/qgis_osm_plugin.png
+   .. image:: /images/projects/qgis/qgis_osm_plugin.png
      :scale: 50 %
      :alt:  The OpenStreetMap plugin
 
@@ -345,7 +345,7 @@ Importing OpenStreetMap data
    highways. You can repeat this process with new layers to render different
    road types with different widths and styles.
 
-   .. image:: /images/screenshots/qgis/QGIS_spatialite_add_layer.png
+   .. image:: /images/projects/qgis/QGIS_spatialite_add_layer.png
      :scale: 50 %
      :alt:  The OpenStreetMap add layer
 

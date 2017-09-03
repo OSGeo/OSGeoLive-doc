@@ -38,7 +38,7 @@ R は S 言語の実装でもあり、R と過去の S、S-Plus コード、
 この互換性により、異なるバージョンの S のコードを大きく変更することなく
 R で実行できるよう変換可能です。
 
-.. image:: /images/screenshots/r/r-screenshot.png
+.. image:: /images/projects/r/r-screenshot.png
   :scale: 50 %
   :alt: project logo
   :align: right

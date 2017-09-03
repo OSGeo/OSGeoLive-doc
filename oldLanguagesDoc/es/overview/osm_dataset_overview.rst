@@ -31,7 +31,7 @@ consecuencia de esto.
 
 La distribución OSGeo-Live incluye un extracto de los datos de OSM a nivel de ciudades, que es usado en ejemplos de otras aplicaciones.
 
-.. image:: /images/screenshots/osm_dataset/osm-screenshot.jpg 
+.. image:: /images/projects/osm_dataset/osm-screenshot.jpg 
   :scale: 55 %
   :alt: captura de pantalla de OSM 
   :align: right

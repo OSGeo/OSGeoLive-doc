@@ -179,7 +179,7 @@ wird ein Polygon mit dem Umring der Rasterdatei und dem Pfad zur Rasterdatei erz
 Schauen Sie sich Ihre Ausgabe-Shapedatei mit QGIS und ogrinfo an (später werden Sie
 noch mehr über ogrinfo erfahren).
 
-  .. image:: /images/screenshots/gdal/gdal_gdaltindex.png
+  .. image:: /images/projects/gdal/gdal_gdaltindex.png
      :scale: 80
 
 ::
@@ -225,7 +225,7 @@ Geographischen Projektion WGS84 in die Mercator Projektion umwandeln:
 
 Verwenden Sie gdalinfo, um sich die Veränderung anzuschauen. Schauen Sie sich das Bild auch mit QGIS an.
 
-  .. image:: /images/screenshots/gdal/gdal_mercator.png
+  .. image:: /images/projects/gdal/gdal_mercator.png
      :scale: 80
 
 Nun projizieren wir in die Orthoprojektion.  
@@ -235,7 +235,7 @@ Nun projizieren wir in die Orthoprojektion.
    gdalwarp -t_srs '+proj=ortho +datum=WGS84' HYP_50M_SR_W_4326.tif ortho.tif
 
 
-.. image:: /images/screenshots/gdal/gdal_ortho.png
+.. image:: /images/projects/gdal/gdal_ortho.png
      :scale: 80
 
 Beachten Sie, wie die Pole abgeschnitten werden. Weil die Ecken an den Polen nicht umprojiziert werden können, kann gdalwarp nicht alle Daten lesen. Als Lösung können wir gdalwarp zwingen, ein wenig zusätzliche Daten zu lesen. Zu diesem Thema erfahren Sie mehr im Raster-Tutorial http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial.

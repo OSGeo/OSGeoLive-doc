@@ -24,7 +24,7 @@ SQLite is un Sistema Gestor de Bases de Datos (DBMS, por sus siglas en inglés) 
 
 .. _SQLite: http://www.sqlite.org/
 
-.. image:: /images/screenshots/spatialite/spatialite.jpg
+.. image:: /images/projects/spatialite/spatialite.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

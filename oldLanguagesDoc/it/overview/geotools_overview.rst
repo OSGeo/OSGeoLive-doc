@@ -22,7 +22,7 @@ GeoTools è una libreria Java open source (LGPL) che fornisce metodi conformi ag
 standard per gestire dati geospaziali, e le strutture dei dati sono basate sulle
 specifiche del Open Geospatial Consortium (OGC).
 
-.. image:: /images/screenshots/geotools/geotools-overview.png
+.. image:: /images/projects/geotools/geotools-overview.png
   :scale: 60 %
   :alt: GeoTools is a modular library supported by plugins for additional formats
   :align: right
@@ -69,7 +69,7 @@ Caratteristiche principali
   * Fornisce funzionalità addizionali costruite usando le funzionalità spaziali
     della libreria principala.
 
-  .. image:: /images/screenshots/geotools/geotools-extension.png
+  .. image:: /images/projects/geotools/geotools-extension.png
      :alt: Extensions built using the GeoTools library
 
   * Estensioni fornisco supporto ai grafi e alle analisi di reti (per trovare il

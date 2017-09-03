@@ -16,7 +16,7 @@ Globos 3D  y Mapas 2D en el Navegador
 
 Cesium es una biblioteca JavaScript para la creación de globos 3D y mapas 2D en un navegador sin plugins. Usa WebGL para gráficos con aceleración de hardware, y es multi-plataforma, multi-navegador y enfocada para la visualización de datos dinámicos.
 
-.. image:: /images/screenshots/cesium/cesiumjs_3in1.png
+.. image:: /images/projects/cesium/cesiumjs_3in1.png
   :scale: 50 %
   :alt: ejemplo de Cesium 
   :align: right

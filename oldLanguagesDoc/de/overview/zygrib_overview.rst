@@ -19,7 +19,7 @@ zyGrib ist ein Programm, um Daten zur Wettervorhersage im standardmäßigen GRIB
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/zygrib/zygrib_xynthia_010b.jpg
+.. image:: /images/projects/zygrib/zygrib_xynthia_010b.jpg
   :scale: 40 %
   :alt: Bildschirmfoto
   :align: right

@@ -23,7 +23,7 @@ Catalogo per i metadati
 
 GeoNetwork OpenSource è una applicazione di catalogo per la gestione delle risorse spazialmente georiferite. Esso fornisce potenti funzioni per la modifica e la  ricerca dei metadati, un visualizzatore di mappe web interattivo integrato, e si basa su standard aperti.
 
-.. image:: /images/screenshots/geonetwork/geonetwork_once-samples-are-loaded.png
+.. image:: /images/projects/geonetwork/geonetwork_once-samples-are-loaded.png
   :scale: 100
   :alt: project logo
   :align: right

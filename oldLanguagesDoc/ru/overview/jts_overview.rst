@@ -24,7 +24,7 @@ JTS используется в большинстве основанных на
 C++ , используется в большинстве приложений, написанных на C. Дополнительные
 порты доступны для C # и JavaScript .
 
-.. image:: /images/screenshots/jts/jts-overview.jpg
+.. image:: /images/projects/jts/jts-overview.jpg
   :scale: 90 %
   :alt: JTS Topology Suite - Test Builder application
   :align: right

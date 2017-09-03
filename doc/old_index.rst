@@ -25,7 +25,7 @@ source geospatial software without installing anything. It is composed
 entirely of free software, allowing it to be freely distributed, duplicated
 and passed around.
 
-.. image:: /images/screenshots/osgeolive/osgeolive_menu.png
+.. image:: /images/projects/osgeolive/osgeolive_menu.png
   :scale: 70 %
   :alt: boot select
   :align: right

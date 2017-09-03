@@ -21,7 +21,7 @@ Edytor stylów obiektów
 
 Utworzone pliki SLD kompatybilne są ze wszystkimi programami, które używają standardu OGC SLD, przykładem może być :doc:`GeoServer <geoserver_overview>`, :doc:`uDig <udig_overview>` i inne. Aplikacja zbudowana jest z intuicyjnych okien dialogowych, w których łatwo buduje się style. Użytkownicy mogą zastosować metody klasyfikacji, np. unikalne wartości, kwantyle lub równą odległość. Dodatkowo, użytkownicy zyskują zintegrowany dostęp do bazy danych symboli online. Użytkownicy mogą tworzyć i zapisywać symbole w SymbolEditor oraz używać ich ponownie w klasyfikacji lub innych projektach.
 
-.. image:: /images/screenshots/atlasstyler/atlasstyler-overview.png
+.. image:: /images/projects/atlasstyler/atlasstyler-overview.png
   :scale: 40 %
   :alt: screenshot
   :align: right

@@ -28,7 +28,7 @@ mappe interattive, widget estendibili e casi d'uso personalizzati. Permette di
 accedere ad un vasto range di sorgenti di dati e funzionalità attraverso un
 browser web.
 
-.. image:: /images/screenshots/geomajas/geomajas_1024x768_screen1.png
+.. image:: /images/projects/geomajas/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

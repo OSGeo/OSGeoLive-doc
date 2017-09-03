@@ -52,12 +52,12 @@ Boot your computer into a recent Ubuntu/Xbuntu distribution. You can do this by 
 
 Insert the USB flash drive into your computer.
 
-  .. image:: /images/screenshots/usb/usb_select.png
+  .. image:: /images/projects/usb/usb_select.png
     :scale: 70 %
 
 Select :menuselection:`System Tools --> Startup Disk Creator`, or search for `Startup Disk Creator` from the Unity desktop.
 
-  .. image:: /images/screenshots/usb/usb_set_params.png
+  .. image:: /images/projects/usb/usb_set_params.png
     :scale: 70 %
 
 Select the osgeo-live or osgeo-live-mini ISO Image that you downloaded earlier.
@@ -66,7 +66,7 @@ Select the USB flash drive. If you have extra room you might adjust the slider t
 
 Select :guilabel:`Make Startup Disk`
 
-  .. image:: /images/screenshots/usb/usb_installing.png
+  .. image:: /images/projects/usb/usb_installing.png
     :scale: 70 %
 
 Wait 20 minutes or so for the USB flash drive to be created.

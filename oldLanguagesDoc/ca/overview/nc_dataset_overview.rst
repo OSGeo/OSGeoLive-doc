@@ -30,7 +30,7 @@ Les dades provenen de 3 nivells jeràrquics:
 
 * una petita conca a l'àrea rural a resolució de 1m-3m (veure imatge).
 
-.. image:: /images/screenshots/nc_dataset/north_carolina_dataset_nviz.jpg
+.. image:: /images/projects/nc_dataset/north_carolina_dataset_nviz.jpg
   :scale: 60 %
   :alt: North Carolina dataset screenshot
   :align: right

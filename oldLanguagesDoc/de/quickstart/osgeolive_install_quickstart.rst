@@ -21,38 +21,38 @@ Systemvoraussetzungen
 Install OSGeo-Live
 --------------------------------------------------------------------------------
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_install_start.png
+  .. image:: /images/projects/osgeolive/osgeolive_install_start.png
     :scale: 70 %
 
 Wählen Sie :guilabel:`Install RELEASE`
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_install_password.png
+  .. image:: /images/projects/osgeolive/osgeolive_install_password.png
     :scale: 70 %
 
 Geben Sie als Password "user" (ohne Anführungszeichen) ein
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_install1_language.png
+  .. image:: /images/projects/osgeolive/osgeolive_install1_language.png
     :scale: 70 %
 
 Wählen Sie die gewünschte Sprache
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_install2_timezone.png
+  .. image:: /images/projects/osgeolive/osgeolive_install2_timezone.png
     :scale: 70 %
 
 Wählen Sie die Zeitzone
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_install3_keyboard.png
+  .. image:: /images/projects/osgeolive/osgeolive_install3_keyboard.png
     :scale: 70 %
 
 Wählen Sie die Tastatur
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_install4_disk.png
+  .. image:: /images/projects/osgeolive/osgeolive_install4_disk.png
     :scale: 70 %
 
 Geben Sie an, auf welche Festplatte Sie installieren möchten (Achtung, 
 überschreiben Sie nicht aus Versehen eine existierende Partition).
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_install5_username.png
+  .. image:: /images/projects/osgeolive/osgeolive_install5_username.png
     :scale: 70 %
 
 Standardeinstellungen sind:
@@ -63,7 +63,7 @@ Standardeinstellungen sind:
    * computer name = "osgeolive"
    * Log In automatically
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_install7_check.png
+  .. image:: /images/projects/osgeolive/osgeolive_install7_check.png
     :scale: 70 %
 
 Wählen Sie :guilabel:`Install`

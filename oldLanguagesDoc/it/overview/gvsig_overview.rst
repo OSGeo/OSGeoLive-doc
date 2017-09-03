@@ -45,7 +45,7 @@ gvSIG è noto per:
 * è disponibile per i sistemi operativi Windows, Linux (esistono anche versioni
   non ufficiali per Mac OS X):
 
-.. image:: /images/screenshots/gvsig/gvsig_desktop.png
+.. image:: /images/projects/gvsig/gvsig_desktop.png
   :scale: 50 %
   :alt: screenshot
   :align: right

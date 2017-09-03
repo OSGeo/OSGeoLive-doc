@@ -36,7 +36,7 @@
 
 Θα πρέπει να μπορείτε να δείτε έναν παγκόσμιο χάρτη σε ένα παράθυρο του περιηγητή σας.
    
-.. image:: /images/screenshots/qgis/qgis_mapserver_browser.jpg
+.. image:: /images/projects/qgis/qgis_mapserver_browser.jpg
 
 Στη συνέχεια θα αλλάξουμε το στύλ του χάρτη μέσω του λογισμικού QGIS.
 

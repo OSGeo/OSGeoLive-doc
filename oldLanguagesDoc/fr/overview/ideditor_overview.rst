@@ -18,7 +18,7 @@ L’éditeur iD (lancé en 2013) est le nouvel éditeur d’ `OpenStreetMap <htt
 
 L’éditeur iD est le meilleur moyen d’éditer la carte pour faire toutes les petites modifications qui ne requièrent pas toute la complexité de  :doc:`JOSM <josm_overview>`.
 
-.. image:: /images/screenshots/1024x768/ideditor.png
+.. image:: /images/projects/1024x768/ideditor.png
   :scale: 50 %
   :alt: iD Editor
   :align: right

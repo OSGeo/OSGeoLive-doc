@@ -37,7 +37,7 @@ grossi dati geospaziali. Il software inoltre permette di produrre sofisticate
 rappresentazioni grafiche e mappe stampabili. GRASS GIS è attualmente
 tradotto in molte lingue e supporta un grande numero di formati di dati.
 
-.. image:: /images/screenshots/grass/grass-vectattrib.png
+.. image:: /images/projects/grass/grass-vectattrib.png
    :scale: 50 %
    :alt: screenshot
    :align: right
@@ -62,7 +62,7 @@ Caratteristiche principali
 --------------------------------------------------------------------------------
 
 * Tu lo nomini, ed esiste uno `strumento per quello <http://grass.osgeo.org/grass70/manuals/keywords.html>`_.
-* Esplora la `galleria di screenshot <http://grass.osgeo.org/screenshots/>`_.
+* Esplora la `galleria di screenshot <http://grass.osgeo.org/projects/>`_.
 
 Dettagli
 --------------------------------------------------------------------------------

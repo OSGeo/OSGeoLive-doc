@@ -45,7 +45,7 @@ OSGeo-Live содержит пример просмотрщика карт на 
 
 Вы должны увидеть окно браузера с веб-просмотрщиком карт, отображающим карту мира.
    
-.. image:: /images/screenshots/qgis/qgis_mapserver_browser.jpg
+.. image:: /images/projects/qgis/qgis_mapserver_browser.jpg
 
 Теперь мы изменим стиль отображения карты, используя QGIS.
 

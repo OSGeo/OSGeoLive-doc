@@ -19,7 +19,7 @@ GeoTools
 
 GeoTools は Open Geospatial Consortium (OGC)の標準に準拠した空間データの操作やデータ構造の利用するための標準に準拠したオープンソース(LGPL) のJavaライブラリです.
 
-.. image:: /images/screenshots/geotools/geotools-overview.png
+.. image:: /images/projects/geotools/geotools-overview.png
   :scale: 60 %
   :alt: GeoTools は追加フォーマットをプラグインでサポートできるモジュール構造ライブラリです
   :align: right
@@ -58,7 +58,7 @@ GeoTools はいくつものプロジェクトで利用されています,そこ�
 
   * コアライブラリの空間機能を使ってビルドに追加機能を提供します.
   
-  .. image:: /images/screenshots/geotools/geotools-extension.png
+  .. image:: /images/projects/geotools/geotools-extension.png
      :alt: GeoTools ライブラリを使ってエクステンションをビルドします
 
   * エクステンションとしてグラフ,ネットワーキングサポート(最短経路検索のため), 検証, ウェッブマップサーバクライアント, xml構文解析とエンコーディング,色の調整機能等を提供できます.

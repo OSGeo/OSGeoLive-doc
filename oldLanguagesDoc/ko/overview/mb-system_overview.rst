@@ -30,7 +30,7 @@ from a number of research and science organisations.
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/mb-system/mb-system_screenshot.png
+.. image:: /images/projects/mb-system/mb-system_screenshot.png
   :scale: 60 %
   :alt: screenshot
   :align: right

@@ -30,7 +30,7 @@ Er agiert als Proxy für eine beliebe Anzahl von OGC Web Services, der alle Requ
 und entsprechend der definierten Regeln reagiert.
 Regeln und Benutzer sind in XML Konfigurationsdateien definiert, die über ein generelles Management Interface gepflegt werden.
 
-.. image:: /images/screenshots/52n_wss/52n_wss_mgmt.png
+.. image:: /images/projects/52n_wss/52n_wss_mgmt.png
   :scale: 70 %
   :alt: Bildschirmfoto WSS Management UI
   :align: right

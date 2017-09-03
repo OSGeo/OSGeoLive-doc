@@ -128,7 +128,7 @@ WMS の **GetMap** リクエストで地図画像をレンダリングする
 "*&LAYERS=...*" で指定した全てのレイヤのうち、 mapfile で *STATUS ON* のものと、 *STATUS DEFAULT* のレイヤをレンダリングします。このリクエストの結果は以下の様になります。
 
 
-  .. image:: /images/screenshots/mapserver/mapserver_map.png
+  .. image:: /images/projects/mapserver/mapserver_map.png
     :scale: 70 %
 
 .. note::
@@ -179,7 +179,7 @@ mapfile に新しいレイヤを追加します。mapfile にある最後の *EN
 
 MapServer でレンダリングすると、先程の結果と良く似ていますが、追加した湖のレイヤを追加した画像になります。
 
-  .. image:: /images/screenshots/mapserver/mapserver_lakes.png
+  .. image:: /images/projects/mapserver/mapserver_lakes.png
     :scale: 70 %
 
 
@@ -221,7 +221,7 @@ mapfile では、レイヤオブジェクトはいくつでもクラスオブジ
 この変更を加えると、大きな湖は黒い境界線で描くようになります。
 
 
-  .. image:: /images/screenshots/mapserver/mapserver_lakes_scalerank.png
+  .. image:: /images/projects/mapserver/mapserver_lakes_scalerank.png
     :scale: 70 %
 
 .. note::

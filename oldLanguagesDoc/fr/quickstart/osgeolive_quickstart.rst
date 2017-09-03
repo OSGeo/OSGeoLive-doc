@@ -39,26 +39,26 @@ Lancement:
   Dans le cas contraire, vous devrez ajuster vos paramètres de démarrage dans le
   BIOS ou appuyer sur le bouton de menu juste après démarrage de l'ordinateur.
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_boot.png
+  .. image:: /images/projects/osgeolive/osgeolive_boot.png
     :scale: 70 %
     :alt: boot
 
   Appuyez sur le bouton :kbd:`Entrée` pour passer à l'écran suivant.
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_boot_select.png
+  .. image:: /images/projects/osgeolive/osgeolive_boot_select.png
     :scale: 70 %
     :alt: Sélection du boot
 
   Sélectionnez :guilabel:`live - boot the Live System`
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_login.png
+  .. image:: /images/projects/osgeolive/osgeolive_login.png
     :scale: 70 %
     :alt: Sélection du boot
 
   A la page de connexion, appuyez simplement sur :kbd:`Entrée` ou attendez la
   fin du compte à rebours.
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_menu.png
+  .. image:: /images/projects/osgeolive/osgeolive_menu.png
     :scale: 70 %
     :alt: Sélection du boot
 

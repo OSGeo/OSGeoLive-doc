@@ -19,38 +19,38 @@ Requerimientos de Sistema
 Instalar OSGeo-Live
 --------------------------------------------------------------------------------
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_install_start.png
+  .. image:: /images/projects/osgeolive/osgeolive_install_start.png
     :scale: 70 %
 
 Seleccionar :guilabel:`Install RELEASE`
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_install_password.png
+  .. image:: /images/projects/osgeolive/osgeolive_install_password.png
     :scale: 70 %
 
 Entrar el *password* = "user"
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_install1_language.png
+  .. image:: /images/projects/osgeolive/osgeolive_install1_language.png
     :scale: 70 %
 
 Seleccionar idioma
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_install2_timezone.png
+  .. image:: /images/projects/osgeolive/osgeolive_install2_timezone.png
     :scale: 70 %
 
 Seleccionar zona horaria
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_install3_keyboard.png
+  .. image:: /images/projects/osgeolive/osgeolive_install3_keyboard.png
     :scale: 70 %
 
 Seleccionar teclado
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_install4_disk.png
+  .. image:: /images/projects/osgeolive/osgeolive_install4_disk.png
     :scale: 70 %
 
 Especificar el disco en el que se quiere instalar. (Precaución, esto puede borrar una
   partición existente instalada).
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_install5_username.png
+  .. image:: /images/projects/osgeolive/osgeolive_install5_username.png
     :scale: 70 %
 
 Las propiedades por defecto son:
@@ -61,7 +61,7 @@ Las propiedades por defecto son:
    * computer name = "osgeolive"
    * Log In automatically
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_install7_check.png
+  .. image:: /images/projects/osgeolive/osgeolive_install7_check.png
     :scale: 70 %
 
 Seleccionar :guilabel:`Install`

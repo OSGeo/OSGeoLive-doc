@@ -21,7 +21,7 @@ La interfície principal de R és una consola de comandes que proporciona una ex
 
 R és una implementació del llenguatge de programació S i, per això, hi ha un alt grau de compatibilitat entre els codis de R i els de S-Plus o *legacy S* així com amb versions comercials actuals de S i TIBCO Spotfire S+. La seva compatibilitat permet convertir diferents versions de codi S perquè corrin en R sense grans modificacions del codi.
 
-.. image:: /images/screenshots/r/r-perspective.png
+.. image:: /images/projects/r/r-perspective.png
   :scale: 50 %
   :alt: project logo
   :align: right

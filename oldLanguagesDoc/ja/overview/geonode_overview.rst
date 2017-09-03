@@ -25,7 +25,7 @@ GeoNode
 
 GeoNodeはGeoServer, GeoExplorer, pycsw, Django, GeoExt上に構築されています。
 
-.. image:: /images/screenshots/geonode/geonode_basic_application.png
+.. image:: /images/projects/geonode/geonode_basic_application.png
   :scale: 50%
   :alt: GeoNode application
   :align: right

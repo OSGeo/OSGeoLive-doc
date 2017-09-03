@@ -34,7 +34,7 @@ anspruchsvoller Präsentationsgrafiken und druckfertiger Karten. GRASS
 wurde bisher in mehr als 20 Sprachen übersetzt und unterstützt eine 
 Vielzahl unterschiedlichster Geodaten-Formate.
 
-.. image:: /images/screenshots/grass/grass-vectattrib.png
+.. image:: /images/projects/grass/grass-vectattrib.png
    :scale: 50 %
    :alt: screenshot
    :align: right
@@ -63,7 +63,7 @@ Kernfunktionen
 --------------------------------------------------------------------------------
 
 * Suche eine Funktionalität und GRASS GIS bietet das `passende Modul <http://grass.osgeo.org/grass70/manuals/keywords.html>`_.
-* Entdecke die `Screenshot Gallerie <http://grass.osgeo.org/screenshots/>`_.
+* Entdecke die `Screenshot Gallerie <http://grass.osgeo.org/projects/>`_.
 
 Details
 --------------------------------------------------------------------------------

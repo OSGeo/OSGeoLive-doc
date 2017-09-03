@@ -29,7 +29,7 @@ SAGA está en desarrollo desde 2001, y el centro de desarrollo de SAGA se
 localiza en el Instituto de Geografía de la Universidad de Hamburgo, con
 las contribuciones de una creciente comunidad mundial.
 
-.. image:: /images/screenshots/saga/saga_overview.png
+.. image:: /images/projects/saga/saga_overview.png
   :scale: 40%
   :alt: screenshot
   :align: right

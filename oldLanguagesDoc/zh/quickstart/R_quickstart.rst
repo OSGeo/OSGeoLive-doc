@@ -180,7 +180,7 @@ generate these things. Here's a simple sequence:
 
 　　输出为简单的世界地图位图：
 
-.. image:: /images/screenshots/r/r_plot1.png
+.. image:: /images/projects/r/r_plot1.png
 
 　　OGR 数据集在 R 中以 data frame 表达。此处通过 ``admin`` 字段可以提取英国部分的数据：
 
@@ -189,7 +189,7 @@ generate these things. Here's a simple sequence:
 	> uk = countries[countries$admin=="United Kingdom",]
 	> plot(uk); axis(1); axis(2)
 
-.. image:: /images/screenshots/r/r_plot2.png
+.. image:: /images/projects/r/r_plot2.png
 
 　　这样的显示对于英国居民而言不符合习惯，因为数据分布的位置不在图件的中心位置。目前该地图还没有投影信息。此处查询投影：
 
@@ -228,7 +228,7 @@ generate these things. Here's a simple sequence:
 
 　　最终结果：
 
-.. image:: /images/screenshots/r/r_plot3.png
+.. image:: /images/projects/r/r_plot3.png
 
 功能简介短文
 ================================================================================

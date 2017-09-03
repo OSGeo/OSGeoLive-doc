@@ -19,7 +19,7 @@ zyGrib és un programa per descarregar i visualitzar dades de prediccions meteor
 Característiques principals
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/zygrib/zygrib_xynthia_010b.jpg
+.. image:: /images/projects/zygrib/zygrib_xynthia_010b.jpg
   :scale: 40 %
   :alt: screenshot
   :align: right

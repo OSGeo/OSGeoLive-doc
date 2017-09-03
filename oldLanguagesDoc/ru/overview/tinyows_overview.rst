@@ -24,7 +24,7 @@ TinyOWS — это легковесный и простой в развёрты�
 с поддержкой режима редактирования (WFS-T) и интерфейсов CGI и FastCGI. Для
 хранения данных используется :doc:`PostGIS <postgis_overview>`.
 
-.. image:: /images/screenshots/tinyows/tinyows_digitizing.jpg
+.. image:: /images/projects/tinyows/tinyows_digitizing.jpg
   :scale: 55 %
   :alt: digitizing
   :align: right

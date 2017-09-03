@@ -22,7 +22,7 @@ Serveur WFS (Web Feature Service)
 
 TinyOWS est un serveur haute performance, de WFS/WFS-T (Transactional Web Feature Service) qui est très léger et facile à déployer, utilisant une interface CGI ou FastCGI et reposant sur :doc:`PostGIS <postgis_overview>` pour le stockage de données.
 
-.. image:: /images/screenshots/tinyows/tinyows_digitizing.jpg
+.. image:: /images/projects/tinyows/tinyows_digitizing.jpg
   :scale: 55 %
   :alt: Digitalisation
   :align: right

@@ -27,7 +27,7 @@ Zwykle Mapnik był używany w aplikacjach map internetowych opartych na pythonie
 ulepszenie skalowalności sprawiło, że Mapnik jest ostatnio używany również do redakcji 
 wysokiej rozdzielczości map papierowych.
 
-.. image:: /images/screenshots/mapnik/mapnik-screenshot-barcelona.png
+.. image:: /images/projects/mapnik/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: screenshot
   :align: right

@@ -22,7 +22,7 @@ JTS は Java ベースのオープンソース地理空間アプリケーショ�
 また、JTS の C++ 移植の :doc:`geos_overview` は C ベースのアプリケーションで最も多く
 使用されています。他の移植は、C# と JavaScript で利用可能です。
 
-.. image:: /images/screenshots/jts/jts-overview.jpg
+.. image:: /images/projects/jts/jts-overview.jpg
   :scale: 90 %
   :alt: JTS Topology Suite - Test Builder application
   :align: right

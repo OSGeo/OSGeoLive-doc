@@ -20,7 +20,7 @@ zyGrib
 核心功能
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/zygrib/zygrib_xynthia_010b.jpg
+.. image:: /images/projects/zygrib/zygrib_xynthia_010b.jpg
   :scale: 40 %
   :alt: screenshot
   :align: right

@@ -26,7 +26,7 @@ Geographic Resources Analysis Support System (GRASS)는 하나의 통합된 소�
 GRASS는 공간적 모델링, 래스터와 벡터 데이터 시각화, 지리공간 데이터의 관리와 분석, 위성 및 항공 사진의 처리를 위한 툴을 포함하고 있습니다. 
 또한 정교한 프리젠테이션 그래픽과 지도를 제작할 수도 있습니다. GRASS는 현재 20개의 언어로 번역되어 수많은 데이터 형식을 지원하고 있습니다. 
 
-.. image:: /images/screenshots/grass/grass-vectattrib.png
+.. image:: /images/projects/grass/grass-vectattrib.png
    :scale: 50 %
    :alt: screenshot
    :align: right
@@ -45,7 +45,7 @@ GRASS 소프트웨어는 400개 이상의 분석 모듈을 포함하고 있습�
 --------------------------------------------------------------------------------
 
 * 검색을 해보면 툴을 찾을 수 있습니다.You name it, there's a tool for it.
-* `screenshot collection <http://grass.osgeo.org/screenshots/>`_ 을 참고하십시오.
+* `screenshot collection <http://grass.osgeo.org/projects/>`_ 을 참고하십시오.
 
 자세한 사항
 --------------------------------------------------------------------------------

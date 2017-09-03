@@ -30,61 +30,61 @@ Pobierz i zainstaluj `Virtual Box <http://www.virtualbox.org/>`_. Na systemie li
 
 Otwórz Virtual Box 
 
-  .. image:: /images/screenshots/virtualization/virtualbox.png
+  .. image:: /images/projects/virtualization/virtualbox.png
     :scale: 70 %
 
 Wybierz :guilabel:`New` aby utworzyć nową wirtualną maszynę.
 
-  .. image:: /images/screenshots/virtualization/virtualbox_create_vm.png
+  .. image:: /images/projects/virtualization/virtualbox_create_vm.png
     :scale: 70 %
 
 Wybierz :guilabel:`Next`
 
-  .. image:: /images/screenshots/virtualization/virtualbox_select_name.png
+  .. image:: /images/projects/virtualization/virtualbox_select_name.png
     :scale: 70 %
 
 Wprowadź nazwę dla obrazu, i wybierz "Linux", "Ubuntu".
 
-  .. image:: /images/screenshots/virtualization/virtualbox_memory.png
+  .. image:: /images/projects/virtualization/virtualbox_memory.png
     :scale: 70 %
 
 Ustaw wielkość pamięci na co najmniej 768 MB.
 
-  .. image:: /images/screenshots/virtualization/virtualbox_no_hard_disk.png
+  .. image:: /images/projects/virtualization/virtualbox_no_hard_disk.png
     :scale: 70 %
 
 Instalacja uproszczona: Nie zaznaczaj "Boot Hard Disk", a wirtualna maszyna zawsze uruchomi się z symulowanego DVD.
 
 Jeśli chcesz utworzyć stałą wirtualna maszynę, która zapisuje stan między sesjami oraz ma lepsze ustawienia rozdzielczości ekranu, a także zestawy narzędzi, zaznacz "Boot Dard Disk" i zainstaluj później.
 
-  .. image:: /images/screenshots/virtualization/virtualbox_warning_no_hard_disk.png
+  .. image:: /images/projects/virtualization/virtualbox_warning_no_hard_disk.png
     :scale: 70 %
 
 Wybierz :guilabel:`Continue`
 
-  .. image:: /images/screenshots/virtualization/virtualbox_final_check.png
+  .. image:: /images/projects/virtualization/virtualbox_final_check.png
     :scale: 70 %
 
 Wybierz :guilabel:`Finish`
 
-  .. image:: /images/screenshots/virtualization/virtualbox_select_settings.png
+  .. image:: /images/projects/virtualization/virtualbox_select_settings.png
     :scale: 70 %
 
 Obraz został stworzony, ale musimy teraz symulować istnienie OSGeo-Live DVD w napędzie CD.
 
 Kliknij prawym na obrazie "osgeo-live" i wybierz :guilabel:`Settings`.
 
-  .. image:: /images/screenshots/virtualization/virtualbox_set_cd.png
+  .. image:: /images/projects/virtualization/virtualbox_set_cd.png
     :scale: 70 %
 
 Wybierz "Storage", CD/DVD Device, ...
 
-  .. image:: /images/screenshots/virtualization/virtualbox_add_dvd.png
+  .. image:: /images/projects/virtualization/virtualbox_add_dvd.png
     :scale: 70 %
 
 Dodaj obraz OSGeo-Live.
 
-  .. image:: /images/screenshots/virtualization/virtualbox_start_vm.png
+  .. image:: /images/projects/virtualization/virtualbox_start_vm.png
     :scale: 70 %
 
 Teraz możesz uruchomić wirtualną maszynę jak opisano w :doc:`osgeolive_quickstart`
@@ -99,19 +99,19 @@ Teraz możesz dodać wirtualne narzędzia bootowania, które wspomagają większ
 
 Upewnij się, że komputer ma połączenie z Internetem.
 
-  .. image:: /images/screenshots/virtualization/virtualbox_synaptic_menu.png
+  .. image:: /images/projects/virtualization/virtualbox_synaptic_menu.png
     :scale: 70 %
 
 Wybierz aplikację "Synaptic Package Manager".
 
 Wprowadź hasło = "user"
 
-  .. image:: /images/screenshots/virtualization/virtualbox_synaptic_select_tools.png
+  .. image:: /images/projects/virtualization/virtualbox_synaptic_select_tools.png
     :scale: 70 %
 
 Zaznacz "virtualbox-ose-guest-utils" do instalacji.
 
-  .. image:: /images/screenshots/virtualization/virtualbox_synaptic_apply.png
+  .. image:: /images/projects/virtualization/virtualbox_synaptic_apply.png
     :scale: 70 %
 
 Zatwierdź zmiany.

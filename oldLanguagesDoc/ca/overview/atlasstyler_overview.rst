@@ -24,7 +24,7 @@ L'aplicació proporciona gran quantitat de diàlegs d'ús molt senzill i intuït
 Es poden aplicar classificacions abstractes com: valors únics, quantils per color o equidistàncies. Inclús es disposa d'accés integrat a una base de dades de simbologia on-line.
 A més, es poden crear i guardar el símbols creats en l'Editor de Simbologia (SymbolEditor) per tal de poder reutilitzar-les en altres projectes.
 
-.. image:: /images/screenshots/atlasstyler/atlasstyler-overview.png
+.. image:: /images/projects/atlasstyler/atlasstyler-overview.png
   :scale: 40 %
   :alt: screenshot
   :align: right

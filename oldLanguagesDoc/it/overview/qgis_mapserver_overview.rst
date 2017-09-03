@@ -30,7 +30,7 @@ del server. Le mappe web risultati appaiono esattamente come nel desktop.
 QGIS Server è usualmente eseguito come module CGI/FastCGI con il Webserver Apache.
 
 
-.. image:: /images/screenshots/qgis/qgis-mapserver-screenshot.jpg
+.. image:: /images/projects/qgis/qgis-mapserver-screenshot.jpg
   :scale: 50 %
   :alt: project logo
   :align: right

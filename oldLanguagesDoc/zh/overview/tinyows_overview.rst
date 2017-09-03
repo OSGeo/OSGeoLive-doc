@@ -23,7 +23,7 @@ TinyOWS
 
 　　TinyOWS 是一套高性能的事务性网络地理要素服务（WFS-T）系统。它使用 CGI/FastCGI 接口运行，利用 :doc:`PostGIS <postgis_overview>` 存储数据，轻量而易于部署。
 
-.. image:: /images/screenshots/tinyows/tinyows_digitizing.jpg
+.. image:: /images/projects/tinyows/tinyows_digitizing.jpg
   :scale: 55 %
   :alt: digitizing
   :align: right

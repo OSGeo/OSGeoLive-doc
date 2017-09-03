@@ -30,7 +30,7 @@ logarítmics i potencials i es distribueix amb dades auxiliars tals com línies 
 costa, rius i delimitacions polítiques.
 
 
-.. image:: /images/screenshots/800x600/gmt-example28.png
+.. image:: /images/projects/800x600/gmt-example28.png
   :scale: 50 %
   :alt: screenshot
   :align: right

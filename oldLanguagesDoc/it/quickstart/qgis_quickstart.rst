@@ -45,7 +45,7 @@ Modificare un progetto QGIS
 
    * Il layer "Populated places" viene visualizzato:
 
-     .. image:: /images/screenshots/qgis/qgis.png
+     .. image:: /images/projects/qgis/qgis.png
         :scale: 50 %
 
 #. Doppio click su **ne_10m_rivers_lake_centerlines** nella legenda.

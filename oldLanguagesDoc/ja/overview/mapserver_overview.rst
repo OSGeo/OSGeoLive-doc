@@ -31,7 +31,7 @@ MapServerはNASA、Minnesota Department of Natural Resources (MNDNR)の協力の
 主要機能
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/mapserver/mapserver.png
+.. image:: /images/projects/mapserver/mapserver.png
   :scale: 50 %
   :alt: screenshot
   :align: right

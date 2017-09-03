@@ -25,7 +25,7 @@ Au fur et à mesure que le navire principal se déplace, de nouvelles cartes son
 Eléments centraux
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/opencpn/opencpn_screenshot.png
+.. image:: /images/projects/opencpn/opencpn_screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

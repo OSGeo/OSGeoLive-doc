@@ -25,7 +25,7 @@ Geomajas 快速入门文档
 
 　　Geomajas 是用于创建网络 GIS 服务的开发框架。OSGeo Live 提供了一套运用 Geomajas 技术制作的一个示例项目。
 
-.. image:: /images/screenshots/geomajas/geomajas_1024x768_screen1.png
+.. image:: /images/projects/geomajas/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

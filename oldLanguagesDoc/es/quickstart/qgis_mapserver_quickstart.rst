@@ -38,7 +38,7 @@ GeoExt y usando QGIS Server para representar el mapa.
 
 Debe ver una ventana del navegador con un visor web de mapas mostrando un mapa del mundo.
    
-.. image:: /images/screenshots/qgis/qgis_mapserver_browser.jpg
+.. image:: /images/projects/qgis/qgis_mapserver_browser.jpg
 
 Ahora se va a cambiar el estilo del mapa usando QGIS.
 

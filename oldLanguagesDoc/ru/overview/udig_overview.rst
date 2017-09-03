@@ -16,7 +16,7 @@ uDig
 Настольная ГИС
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/udig/udig-overview.png
+.. image:: /images/projects/udig/udig-overview.png
   :scale: 50
   :alt: Интерфейс udig
   :align: right

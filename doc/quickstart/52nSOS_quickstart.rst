@@ -37,7 +37,7 @@ Getting Started
 2. This will open the 52°North SOS client welcome page in firefox at
    http://localhost:8080/52nSOS/ (see Fig. 1).
 
-   .. image:: /images/screenshots/52n_sos/52n_sos_start.png
+   .. image:: /images/projects/52n_sos/52n_sos_start.png
      :scale: 70 %
      :alt: 52°North SOS client welcome page
      :align: center
@@ -50,7 +50,7 @@ Getting Started
    information from the capabilities, you can adjust the available example
    queries.
 
-   .. image:: /images/screenshots/52n_sos/52n_sos_get_capabilities.png
+   .. image:: /images/projects/52n_sos/52n_sos_get_capabilities.png
      :scale: 70 %
      :alt: 52°North SOS client - test client with GetCapabilities request
      :align: center
@@ -115,7 +115,7 @@ Things to Try
   4. Open `Helgoland <http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_
      again and explore the generated sample data.
 
-.. image:: /images/screenshots/52n_sos/52n_sos_viewclient.png
+.. image:: /images/projects/52n_sos/52n_sos_viewclient.png
   :scale: 70 %
   :alt: 52°North SOS client - JavaScript client with time series data
   :align: center

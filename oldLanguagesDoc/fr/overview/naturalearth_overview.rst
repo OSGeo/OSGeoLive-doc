@@ -19,7 +19,7 @@ Natural Earth fournit aux cartographes une solution "sur étagère" pour créer 
 
 Natural Earth résoud le problème commun que de nombreux cartographes rencontrent: trouver des données vecteur pour faire des cartes à petite échelle pour publication avec un niveau de détail approprié aux cartes qu'ils font.
 
-.. image:: /images/screenshots/naturalearth/naturalearth.png
+.. image:: /images/projects/naturalearth/naturalearth.png
   :scale: 55 %
   :alt: Capture d'écran Natural Earth
   :align: right

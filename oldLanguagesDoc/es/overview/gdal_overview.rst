@@ -35,7 +35,7 @@ para muchas aplicaciones, incluyendo MapServer, GRASS, QGIS, y OpenEV.
 También es utilizado por OSSIM, Cadcorp SIS, FME, Google Earth,
 VTP, Thuban, ILWIS, MapGuide y ArcGIS.
 
-.. image:: /images/screenshots/gdal/gdal_ogr_proj_overview.png
+.. image:: /images/projects/gdal/gdal_ogr_proj_overview.png
   :scale: 60 %
   :alt: GDAL supports many geodata formats
   :align: right

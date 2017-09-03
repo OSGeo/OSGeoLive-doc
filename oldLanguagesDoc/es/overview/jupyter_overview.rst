@@ -21,13 +21,13 @@ El Jupyter *Notebook*  (cuaderno Jupyter) es una aplicación web que permite cre
 
 Combina dos componentes:
 
-.. image:: /images/screenshots/jupyter/jupyter-screenshot.png
+.. image:: /images/projects/jupyter/jupyter-screenshot.png
   :scale: 70 %
   :alt: screenshot
   :align: center
 
 .. Cameron Comment: Reverted to prior screenshot
-  New image was: .. image:: /images/screenshots/jupyter/jupyter6.png
+  New image was: .. image:: /images/projects/jupyter/jupyter6.png
   The new image is too big, and has too much white space. Either it will need to be one snapshot, or layered over each other. The GeoServer image might provide some good inspiration: http://adhoc.osgeo.osuosl.org/livedvd/docs/_images/geoserver3.png
 .. TBD: The image should show use of iPython Notebook with maps, possibly as
    collage. Show an [In] cell with code. Show a heading or 2 and text

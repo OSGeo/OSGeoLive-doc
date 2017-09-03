@@ -30,7 +30,7 @@ MapServer目前是`OSGeo <http://www.osgeo.org>`_的一个项目, 由一个日�
 主要功能
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/mapserver/mapserver.png
+.. image:: /images/projects/mapserver/mapserver.png
   :scale: 50 %
   :alt: screenshot
   :align: right

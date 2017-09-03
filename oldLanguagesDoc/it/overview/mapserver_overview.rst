@@ -45,7 +45,7 @@ e altri contributori.
 Caratteristiche principali
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/mapserver/mapserver.png
+.. image:: /images/projects/mapserver/mapserver.png
   :scale: 50 %
   :alt: screenshot
   :align: right

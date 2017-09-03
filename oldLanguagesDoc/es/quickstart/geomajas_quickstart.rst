@@ -27,7 +27,7 @@ Primeros pasos
 
 Geomajas es un framework de desarrollo para crear aplicaciones SIG Web. Por tanto, lo que ve en el Live DVD es un ejemplo de una aplicación construída utilizando la tecnología de Geomajas.Esta apliación representa un mapa, controles de navegación, varias capas de datos, una barra de herramientas SIG y el árbol de capas
 
-.. image:: /images/screenshots/geomajas/geomajas_1024x768_screen1.png
+.. image:: /images/projects/geomajas/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

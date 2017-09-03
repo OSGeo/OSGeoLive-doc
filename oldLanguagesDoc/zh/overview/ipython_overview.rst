@@ -22,7 +22,7 @@ IPython中为交互计算提供了强劲的功能：
 * 灵活的，可嵌入的解释器方便加入到自己的项目。
 * 支持并行计算的简单易用、高性能的工具。
 
-.. image:: /images/screenshots/ipython/ipython-notebook1.png
+.. image:: /images/projects/ipython/ipython-notebook1.png
   :scale: 100 %
   :alt: screenshot
   :align: right

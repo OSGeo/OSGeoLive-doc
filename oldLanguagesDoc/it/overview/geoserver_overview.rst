@@ -36,7 +36,7 @@ GeoServer e` l'implementazione di riferimento degli standard
 :doc:`../standards/wms_overview` certificato con alte prestazioni.
 GeoServer costituisce una componente di base del Geospatial Web.
 
-.. image:: /images/screenshots/geoserver/geoserver.png
+.. image:: /images/projects/geoserver/geoserver.png
   :scale: 60 %
   :alt: Screen Shot of GeoServer
   :align: right

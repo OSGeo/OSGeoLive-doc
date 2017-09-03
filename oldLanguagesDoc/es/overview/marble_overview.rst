@@ -31,7 +31,7 @@ una ventana KDE Marble en su aplicación.
 Principales Características
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/marble/marble-history.png
+.. image:: /images/projects/marble/marble-history.png
   :scale: 64 %
   :alt: screenshot
   :align: right

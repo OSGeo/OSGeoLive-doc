@@ -28,7 +28,7 @@ TileMill
 
 　　TileMill 常和 QuantumGIS 等桌面 GIS 一并使用以准备数据，并通过 GIMP 等图形编辑器创建图标、纹理等素材。
 
-.. image:: /images/screenshots/tilemill_interface2.png
+.. image:: /images/projects/tilemill_interface2.png
   :scale: 70 %
   :alt: TilleMill user interface
   :align: right

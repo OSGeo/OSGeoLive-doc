@@ -17,7 +17,7 @@ ncWMS
 Το λογισμικό ncWMS δημοσιεύει πολυδιάστατα δεδομένα (όπως περιβαλοντικά δεδομένα και δεδομένα καιρού) μέσω του προτύπου OGC Web Map Service (WMS). Το λογισμικό ncWMS εξάγει με ταχύτητα τους χάρτες από τα μεγάλα αρχεία δεδομένων, που τυπικά υπάρχουν στα περιβαλλοντικά δεδομένα.
 
 
-.. image:: /images/screenshots/ncWMS/ncWMS-03-timeseries.png 
+.. image:: /images/projects/ncWMS/ncWMS-03-timeseries.png 
   :scale: 60 % 
   :alt: Screen Shot of GeoServer 
   :align: right 

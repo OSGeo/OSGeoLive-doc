@@ -32,7 +32,7 @@ gvSIG は次のような点で知られています:
 * 20ヶ国語を超える言語 (スペイン語、英語、ドイツ語、フランス語、イタリア語など)で利用可能です
 * Windws, Linux, そして Mac OS X プラットフォームで利用可能です:
 
-.. image:: /images/screenshots/gvsig/gvsig_desktop.png
+.. image:: /images/projects/gvsig/gvsig_desktop.png
   :scale: 50 %
   :alt: screenshot
   :align: right

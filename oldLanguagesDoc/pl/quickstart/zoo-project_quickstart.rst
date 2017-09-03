@@ -26,7 +26,7 @@ Jak zacząć
 *	Firefox otworzy demo ZOO Project Spatial Tools.
 
 
-.. image:: /images/screenshots/zoo/zoo-project-demo-1.png
+.. image:: /images/projects/zoo/zoo-project-demo-1.png
   :scale: 50 %
   :alt: screenshot
   :align: center
@@ -34,7 +34,7 @@ Jak zacząć
   
 *	Click on the map to select a feature from the :doc:`GeoServer <../overview/geoserver_overview>` WFS Server, the feature will be displayed in blue, then click on simple geometry process like Buffer, Centroid, ConvexHull or Boundary and the result will be displayed in yellow.
 
-.. image:: /images/screenshots/zoo/zoo-project-demo-2.png
+.. image:: /images/projects/zoo/zoo-project-demo-2.png
   :scale: 50 %
   :alt: screenshot
   :align: center
@@ -42,7 +42,7 @@ Jak zacząć
 
 *	Now select another feature near the first you've selected then click on multiple geometries process button Union, Intersection, Symmetric Difference or Difference to get the result displayed in red on the map.
 
-.. image:: /images/screenshots/zoo/zoo-project-demo-3.png
+.. image:: /images/projects/zoo/zoo-project-demo-3.png
   :scale: 50 %
   :alt: screenshot
   :align: center

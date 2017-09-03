@@ -33,7 +33,7 @@ Testumgebung und Werkzeuge, um Java Programmcode zu komprimieren. Die JavaScript
 Toolbox ist zusammengesetzt aus `ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>`, `GeoExt <http://www.geoext.org>`_ JavaScript
 toolkits.
 
-.. image:: /images/screenshots/mapfish/mapfish-screenshot.jpg
+.. image:: /images/projects/mapfish/mapfish-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

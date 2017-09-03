@@ -37,7 +37,7 @@ Deegree rend votre IDS prête et fonctionnelle en utilisant vos propres données
 en répondant à vos exigences.
 
 
-.. image:: /images/screenshots/deegree/deegree_mainpage.png
+.. image:: /images/projects/deegree/deegree_mainpage.png
   :scale: 50%
   :alt: Capture d'écran
   :align: right

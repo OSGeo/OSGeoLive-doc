@@ -21,7 +21,7 @@ Les interfícies d'accés inclouen OGC WCS, WCPS, i WPS, així com API en C++ i 
 
 La tecnologia de rasdaman és estable i madura, i s'ha desplegat en entorns de producció des de fa 10 anys; l'IGN francès utilitza rasdaman en mapes d'imatges aèries de dotzenes de TB. A la conferència ACM sobre Principis de Sistemes de Bases de Dades de 2007, l'expert en bases de dades ràster Rona Machlin va descriure rasdaman com "la implementació més entenedora d'un sistema d'aquesta tipus".
 
-.. image:: /images/screenshots/rasdaman/rasdaman-collage.png
+.. image:: /images/projects/rasdaman/rasdaman-collage.png
   :scale: 50 %
   :align: right
 

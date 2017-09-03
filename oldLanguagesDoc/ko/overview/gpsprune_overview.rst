@@ -29,7 +29,7 @@ in over ten different languages.
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/prune/prune_denver.png
+.. image:: /images/projects/prune/prune_denver.png
   :scale: 50 %
   :alt: screenshot
   :align: right

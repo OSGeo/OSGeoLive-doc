@@ -30,7 +30,7 @@
 そのため、既に動作しているサービスに手を加える必要はありません。方針とユーザーは一般的な管理インターフェースで設定する
 XML の設定ファイルで設定を行います。
 
-.. image:: /images/screenshots/52n_wss/52n_wss_mgmt.png
+.. image:: /images/projects/52n_wss/52n_wss_mgmt.png
   :scale: 70 %
   :alt: Screenshot of WSS Management UI
   :align: right

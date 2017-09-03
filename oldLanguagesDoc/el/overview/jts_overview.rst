@@ -21,7 +21,7 @@
 :doc:`geos_overview`, που είναι μια μεταφορά της JTS σε γώσσα C++, και η οποία χρησιμοποιείται από τις 
 περισσότερες εφαρμογές σε γλώσσα C. Επιπλέον μεταφορές της βιβλιοθήκης υπάρχουν για C# και JavaScript.
 
-.. image:: /images/screenshots/jts/jts-overview.jpg
+.. image:: /images/projects/jts/jts-overview.jpg
   :scale: 90 %
   :alt: JTS Topology Suite - Test Builder application
   :align: right

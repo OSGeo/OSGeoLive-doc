@@ -36,7 +36,7 @@ Quantum GIS (QGIS)
 Ενσωματώνει ισχυρές αναλυτικές δυνατότητες μέσω της ολοκλήρωσής του με το GRASS.
 Μπορεί να εκτελεστεί σε Linux, Unix, Mac OSX, και Windows. Υποστηρίζει πολλαπλά διανυσματικά, εικονιστικά πρότυπα αρχείων, πολλαπλούς τύπους βάσεων δεδομένων και αντίστοιχη λειτουργικότητα γι αυτά.
 
-.. image:: /images/screenshots/qgis/qgis.png
+.. image:: /images/projects/qgis/qgis.png
   :scale: 50 %
   :alt: project logo
   :align: right

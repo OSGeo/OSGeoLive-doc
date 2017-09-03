@@ -23,7 +23,7 @@ SQLite는 대중적인 DBMS로서, 간단하고 사용하기 쉬우며 저용량
 
 .. _SQLite: http://www.sqlite.org/
 
-.. image:: /images/screenshots/spatialite/spatialite.jpg
+.. image:: /images/projects/spatialite/spatialite.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

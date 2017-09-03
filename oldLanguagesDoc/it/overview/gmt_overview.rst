@@ -31,7 +31,7 @@ lineare, logaritmico e a potenza, e viene fornito con supporto a dati come
 linee di costa, fiumi e confini politici.
 
 
-.. image:: /images/screenshots/800x600/gmt-example28.png
+.. image:: /images/projects/800x600/gmt-example28.png
   :scale: 50 %
   :alt: screenshot
   :align: right

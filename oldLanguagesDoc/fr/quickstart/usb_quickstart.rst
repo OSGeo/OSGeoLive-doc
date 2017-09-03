@@ -30,12 +30,12 @@ Téléchargez osgeo-live ou osgeo-live-mini sur le disque dur de votre ordinateu
 
 Insérez la clé flash USB dans votre ordinateur.
 
-  .. image:: /images/screenshots/usb/usb_select.png
+  .. image:: /images/projects/usb/usb_select.png
     :scale: 70 %
 
 Sélectionnez :menuselection:`System --> Administration --> Startup Disk Creator`, ou cherchez `Startup Disk Creator` dans l'unité du bureau.
 
-  .. image:: /images/screenshots/usb/usb_set_params.png
+  .. image:: /images/projects/usb/usb_set_params.png
     :scale: 70 %
 
 Sélectionnez osgeo-live ou l'image ISO osgeo-live-mini.
@@ -44,7 +44,7 @@ Sélectionnez la clé USB flash.
 
 Sélectionnez :guilabel:`Make Startup Disk`
 
-  .. image:: /images/screenshots/usb/usb_installing.png
+  .. image:: /images/projects/usb/usb_installing.png
     :scale: 70 %
 
 Attendez 20 minutes ou jusqu'à que la clé flash USB soit créée.
@@ -56,11 +56,11 @@ Insérez une clé USB dans votre ordinateur.
 
 Téléchargez et faites fonctionner l'installateur universel USB depuis: http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
 
-  .. image:: /images/screenshots/usb/usb_penlinux_licence.png
+  .. image:: /images/projects/usb/usb_penlinux_licence.png
 
 Acceptez les termes de la licence.
 
-  .. image:: /images/screenshots/usb/usb_penlinux_selection.png
+  .. image:: /images/projects/usb/usb_penlinux_selection.png
 
 Etape 1: Distribution: Sélectionez la distribution xubuntu i386 utilisée pour l'image osgeo-live. (pour OSGeo-Live 5.5, sélectionez xubuntu 11.04 Desktop i386)
 
@@ -72,7 +72,7 @@ Etape 4: Sélectionnez Permanente si vous souhaitez conserver l'état entre les 
 
 Sélectionnez :guilabel:`Create`
 
-  .. image:: /images/screenshots/usb/usb_penlinux_installing.png
+  .. image:: /images/projects/usb/usb_penlinux_installing.png
 
 Attendez 20 minutes ou jusqu'à ce que la clé flash USB soit créée.
 
@@ -89,7 +89,7 @@ Etape 4: Sélectionnez le fichier ISO OSGeo-Live.
 
 Sélectionnez :guilabel:`OK`
 
-  .. image:: /images/screenshots/1024x768/unetbootin_live_osgeo.png
+  .. image:: /images/projects/1024x768/unetbootin_live_osgeo.png
 
 Lancez l'ordre de boot du BIOS:
 --------------------------------------------------------------------------------

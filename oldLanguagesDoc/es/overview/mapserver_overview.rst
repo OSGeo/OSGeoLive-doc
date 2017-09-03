@@ -32,7 +32,7 @@ MapServer es ahora un proyecto de `OSGeo <http://www.osgeo.org>`_, y lo mantiene
 Características clave
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/mapserver/mapserver.png
+.. image:: /images/projects/mapserver/mapserver.png
   :scale: 50 %
   :alt: screenshot
   :align: right

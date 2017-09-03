@@ -20,7 +20,7 @@ Erste Schritte
 
 Um GpsPrune auf OSGeo-Live laufen zu lassen, wählen Sie "GpsPrune" im Menü "Navigation und Karten" aus. Sie erhalten ein leeren Fenster wie im folgenden Bild.
 
-.. image:: /images/screenshots/gpsprune/gpsprune_emptywindow.png
+.. image:: /images/projects/gpsprune/gpsprune_emptywindow.png
    :scale: 55
 
 Nun werden wir eine Datei über den Menüeintrag :menuselection:`Datei --> Datei öffnen` laden.
@@ -28,7 +28,7 @@ Wählen Sie eine Datei. Die Datei kann entweder eine GPX-, KML- oder KMZ-Datei s
 Darüberhinaus können kommaseparierte oder tab-separierte Dateien geladen werden.
 Eine geeignete GPX-Datei mit einigen Tracks findet sich unter :file:`~/data/vector/R/test_trk2.gpx`. Laden Sie diese Datei.
 
-.. image:: /images/screenshots/gpsprune/gpsprune_trackselect.png
+.. image:: /images/projects/gpsprune/gpsprune_trackselect.png
 
 Da die Datei zwei Tracks enthält, werden wir aufgefordert welche geladen werden soll/en.
 Wählen Sie nur den ersten Track aus und klicken Sie ok.
@@ -37,12 +37,12 @@ Jetzt sollten Sie den Track in blau auf einem weißen Hintergrund sehen.
 Sofern dieser Track über Wegpunkte verfügen würde (die er nicht hat), würden diese
 ebenfalls mit ihren Namen angezeigt. Unter Hauptkarte wird ein Höhendiagramm angezeigt, sofern der Track über Höhenangaben verfügt.
 
-.. image:: /images/screenshots/gpsprune/gpsprune_test_trk2.png
+.. image:: /images/projects/gpsprune/gpsprune_test_trk2.png
    :scale: 55
 
 Falls eine Netzwerkverbindung vorliegt, können Sie Karten über den Globus Button oder über die Menüoption :menuselection:`Ansicht --> Karte zeigen` hinzuschalten.
 
-.. image:: /images/screenshots/gpsprune/gpsprune_mapnik.png
+.. image:: /images/projects/gpsprune/gpsprune_mapnik.png
    :scale: 55
 
 Jetzt können Sie die Karte mit der Maus rumschieben und ein- und auszoomen. Das Zoomen kann per Mausrad oder über Doppelklick erfolgen. Über den gedrückten rechten Mausbutton kann ein Rechteck aufgezogen werden. Über das Kontextmenü stehen weitere Optionen zur Auswahl.
@@ -58,7 +58,7 @@ einmal eine alternative Karte an wie beispielsweise die "Cyclemap" (Radkarte).
 Diese verwendet Karten von OpenCycleMap, um für das Wandern und Rad fahren zusätzliche nützliche Information 
 wie Höhenlinien und Radwege anzuzeigen.
 
-.. image:: /images/screenshots/gpsprune/gpsprune_cyclemap.png
+.. image:: /images/projects/gpsprune/gpsprune_cyclemap.png
    :scale: 55
 
 Wikipedia
@@ -71,7 +71,7 @@ Diese Aktion zeigt eine Liste von Artikeln, deren Koordinaten am nächsten
 zum ausgewählten Punkt liegen. Per Klick auf einen Eintrag werden
 weitere Informationen in der unteren Box angezeigt.
 
-.. image:: /images/screenshots/gpsprune/gpsprune_wikipedialist.png
+.. image:: /images/projects/gpsprune/gpsprune_wikipedialist.png
 
 Sie können über den Button `Laden` diesen Punkt in GpsPrune laden, oder
  über `Webseite anzeigen` die Wikipedia-Seite im Browser öffnen.
@@ -84,7 +84,7 @@ verwenden und auf der Webseite gpsies.com nach Tracks suchen.
 Wieder erhalten wir eine Liste von passenden Einträgen. Bei Auswahl eines Tracks 
 wird eine Beschreibung zum Track angezeigt.
 
-.. image:: /images/screenshots/gpsprune/gpsprune_gpsieslist.png
+.. image:: /images/projects/gpsprune/gpsprune_gpsieslist.png
 
 Klicken Sie auf `Laden`, um den Track zu den bereits vorhandenen Daten zu laden.  
 Nun sehen Sie beide Tracks in einer Ansicht.
@@ -98,7 +98,7 @@ Höhendiagramms und wählen :menuselection:`Range --> Set range end`. Nun könne
 wir im "Range details" Bereich sehen, dass dieser Teil des Tracks 8.55 km 
 lang ist, Aufstieg 346 m und Abstieg lediglich 10 m.
 
-.. image:: /images/screenshots/gpsprune/gpsprune_rangedetails.png
+.. image:: /images/projects/gpsprune/gpsprune_rangedetails.png
    :scale: 55
 
 GpsPrune auf anderen Systemen verwenden

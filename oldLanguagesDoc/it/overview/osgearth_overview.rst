@@ -26,7 +26,7 @@ per aiutarvi a iniziare a lavorare velocemente e facilmente.
 
 .. _OpenSceneGraph: http://www.openscenegraph.org/
 
-.. image:: /images/screenshots/1024x768/osgearth.jpg
+.. image:: /images/projects/1024x768/osgearth.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

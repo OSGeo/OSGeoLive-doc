@@ -22,7 +22,7 @@ Getting Ushahidi Up and Running
    browser and brings you to the Installation page. A Ushahidi site is 
    pretty easy to set up
 
-   .. image:: /images/screenshots/ushahidi/ushahidi-drc-screenshot.png
+   .. image:: /images/projects/ushahidi/ushahidi-drc-screenshot.png
      :scale: 50 %
      :alt: ushahidi desktop icons
      :align: center 
@@ -37,7 +37,7 @@ Getting Ushahidi Up and Running
    database and maps, and send automated reports from. For now set it to 
    something like **"ushahidi@localhost.localdomain"** or **"ushahidi@example.org"** and **"Continue"**.
 
-   .. image:: /images/screenshots/ushahidi/ushahidi_installer_mode_screenshot.png
+   .. image:: /images/projects/ushahidi/ushahidi_installer_mode_screenshot.png
       :scale: 50 %
       :alt: mapguide desktop icons
       :align: center
@@ -68,7 +68,7 @@ Getting Ushahidi Up and Running
    After that is all done it should tell you that installation was
    successful and give you a link to 'View your website'.
 
-   .. image:: /images/screenshots/ushahidi/ushahidi_installer_finished_screenshot.png
+   .. image:: /images/projects/ushahidi/ushahidi_installer_finished_screenshot.png
      :scale: 50%
      :alt: ushahidi installer finishes
      :align: center
@@ -82,7 +82,7 @@ Getting Ushahidi Up and Running
    necessary for OSM, as it's Open :-) ). Then click the :guilabel:`SAVE SETTINGS`
    button at the bottom of the page.
 
-   .. image:: /images/screenshots/ushahidi/ushahidi_admin_login_screenshot.png
+   .. image:: /images/projects/ushahidi/ushahidi_admin_login_screenshot.png
       :scale: 50%
       :alt: ushahidi admin login
       :align: center

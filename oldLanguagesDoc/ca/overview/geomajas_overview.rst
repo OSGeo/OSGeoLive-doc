@@ -30,7 +30,7 @@ L'objectiu de Geomajas és proporcionar una plataforma per la **integració a la
 
 El que fa que Geomajas sigui únic és la seva forta focalització cap a la banda del servidor. El processament, simbolització, filtratge, *caching*, etc., de dades geoespacials sempre es duu a terme dins un context segur. Tot això fa que les aplicacions Geomajas siguin increïblement escalables i d'alt rendiment, permetent que el client sigui un **client realment lleuger**.
 
-.. image:: /images/screenshots/geomajas/geomajas_1024x768_screen1.png
+.. image:: /images/projects/geomajas/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

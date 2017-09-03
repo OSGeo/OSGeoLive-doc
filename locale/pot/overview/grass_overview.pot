@@ -45,7 +45,7 @@ msgid "You name it, there's a `tool for it <http://grass.osgeo.org/grass70/manua
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:65
-msgid "Explore the `screenshot collection <http://grass.osgeo.org/screenshots/>`_."
+msgid "Explore the `screenshot collection <http://grass.osgeo.org/projects/>`_."
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:68

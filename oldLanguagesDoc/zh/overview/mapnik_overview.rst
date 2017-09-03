@@ -19,7 +19,7 @@ Mapnik
 
 　　Mapnik 通常被嵌入在 Python 应用程序中，用于在网络上发布地图。最近 Mapnik 被扩展，也用来绘制高分辨率的纸质地图。
 
-.. image:: /images/screenshots/mapnik/mapnik-screenshot-barcelona.png
+.. image:: /images/projects/mapnik/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: screenshot
   :align: right

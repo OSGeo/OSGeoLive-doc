@@ -29,7 +29,7 @@ hatvány skálázás állítható be és olyan adatokat tartalmaz mint a tenger
 partvonalak, a folyók és a politikai határok.
 
 
-.. image:: /images/screenshots/800x600/gmt-example28.png
+.. image:: /images/projects/800x600/gmt-example28.png
   :scale: 50 %
   :alt: képernyőkép
   :align: right

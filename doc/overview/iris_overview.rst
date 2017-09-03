@@ -18,7 +18,7 @@ Iris is a powerful, Python library for analysing and visualising meteorological 
 
 Iris currently supports read/write access to a range of data formats, including (CF-)netCDF, GRIB, and PP files.
 
-.. image:: /images/screenshots/iris/iris.jpg
+.. image:: /images/projects/iris/iris.jpg
   :alt: Iris
   :align: right
   :scale: 80 %

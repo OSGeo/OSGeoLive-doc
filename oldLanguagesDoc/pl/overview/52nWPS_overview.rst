@@ -21,7 +21,7 @@ do algorytmów przetwarzania geodanych dostpnych w Sextante, ArcGIS Server, R, G
 Algorytmy mogą być tak proste jak określenie różnicy przypadków grypy w różnych porach roku
 lub tak skomplikowane jak model globalnych zmian klimatycznych.
 
-.. image:: /images/screenshots/52nWPS/52nWPS_test_client.png
+.. image:: /images/projects/52nWPS/52nWPS_test_client.png
   :scale: 50 %
   :alt: screenshot
   :align: right

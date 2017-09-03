@@ -32,12 +32,12 @@ wollen einen Blick auf die Spalten einer Tabelle werfen.
 * Starten Sie Spatialite GUI über :menuselection:`Geospatial->Databases->Spatialite GUI`
 * Klicken Sie Browse und gehen Sie in das Verzeichnis /home/user/data/spatialite/ und wählen Sie :file:`trento.sqlite`.
 
-  .. image:: /images/screenshots/spatialite/spatialite-gui-trento.png
+  .. image:: /images/projects/spatialite/spatialite-gui-trento.png
     :scale: 70 %
 
 * Klicken Sie mit der rechten Maustaste auf die Tabelle MunicpalHallsView und wählen Sie "Show Columns"
 
-  .. image:: /images/screenshots/spatialite/spatialite-gui-columns.png
+  .. image:: /images/projects/spatialite/spatialite-gui-columns.png
       :scale: 70 %
 
 * Sie sehen eine in 3 Bereiche aufgeteilte Ansicht:
@@ -66,7 +66,7 @@ wollen einen Blick auf die Spalten einer Tabelle werfen.
 
    und klicken anschließend zum Ausführen den Button "Execute SQL" auf der rechten Seite
 
-  .. image:: /images/screenshots/spatialite/spatialite-gui-select.png
+  .. image:: /images/projects/spatialite/spatialite-gui-select.png
       :scale: 70 %
 
 

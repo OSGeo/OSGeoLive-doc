@@ -19,7 +19,7 @@ ncWMS публикует многомерные данные (такие, как
 картографические изображения из массивных наборов файлов, обычно ассоциирующихся
 с геоданными.
 
-.. image:: /images/screenshots/ncWMS/ncWMS-01-start_screen.png
+.. image:: /images/projects/ncWMS/ncWMS-01-start_screen.png
   :scale: 60 %
   :alt: Скриншот GeoServer
   :align: right

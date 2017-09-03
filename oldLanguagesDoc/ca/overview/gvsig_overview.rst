@@ -38,7 +38,7 @@ A gvSIG se'l coneix per:
 * està disponible en més de 20 idiomes (Espanyol, Anglès, Alemany, Francès, Italià,...).
 * estar disponible per Windows, Linux i Mac OS X.
 
-.. image:: /images/screenshots/gvsig/gvsig_desktop.png
+.. image:: /images/projects/gvsig/gvsig_desktop.png
   :scale: 50 %
   :alt: screenshot
   :align: right

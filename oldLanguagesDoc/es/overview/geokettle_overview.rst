@@ -24,7 +24,7 @@ GeoKettle resulta particularmente útil cuando se pretende pretende automatizar 
 
 En el ámbito geoespacial Geokettle puede ser comparado con FME, una herramienta de software privativo para realizar ETL con capacidades espaciales. GeoKettle es estable, rápida, cumple con los estándares, tiene cientos de funciones y lee y escribe en diversos formatos de ficheros, servicios y SGBD. GeoKettle está siendo usada por diversas organizaciones en todo el mundo, incluyendo gobiernos, bancos, aseguradoras e integradores de sistemas geoespaciales.
 
-.. image:: /images/screenshots/geokettle/geokettle-overview.png
+.. image:: /images/projects/geokettle/geokettle-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right

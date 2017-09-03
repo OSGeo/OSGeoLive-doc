@@ -19,7 +19,7 @@
 MapProxy — "швейцарский армейский нож" для работы с WMS-сервисами и сервисами тайлирования.
 Он кэширует и трансформирует данные уже существующих картографических сервисов, а также ускоряет доступ к ним.
 
-.. image:: /images/screenshots/mapproxy/mapproxy.png
+.. image:: /images/projects/mapproxy/mapproxy.png
   :alt: диаграмма MapProxy
   :align: center
 
@@ -47,7 +47,7 @@ MapProxy имеет гибкие возможности развёртывани
 
 Пример конфигурационного файла MapProxy содержит несколько слоёв, которые используют различные картографические движки и данные. Детальная информация о каждом слое приведена ниже.
 
-.. figure:: /images/screenshots/mapproxy/mapproxy_udig.png
+.. figure:: /images/projects/mapproxy/mapproxy_udig.png
   :alt: пример MapProxy в uDig
   :align: center
   

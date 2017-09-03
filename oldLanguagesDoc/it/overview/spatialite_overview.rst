@@ -28,7 +28,7 @@ Questi files sono anche portabili; il medesimo file-database funzionerà su Wind
 
 .. _SQLite: http://www.sqlite.org/
 
-.. image:: /images/screenshots/spatialite/spatialite.jpg
+.. image:: /images/projects/spatialite/spatialite.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

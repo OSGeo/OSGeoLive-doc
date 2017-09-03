@@ -23,7 +23,7 @@ OpenLayers
 Λογισμικό GIS στον περιηγητή
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/openlayers/openlayers-basic.png
+.. image:: /images/projects/openlayers/openlayers-basic.png
   :scale: 100 %
   :alt: screenshot
   :align: right

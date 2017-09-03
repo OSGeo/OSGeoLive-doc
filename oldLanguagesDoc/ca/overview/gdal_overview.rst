@@ -33,7 +33,7 @@ GDAL/OGR és la llibreria d'accés a dades geoespacials d'ús més comú.
 Per a moltes aplicacions és el motor principal d'accés a dades, incloent MapServer, GRASS, QGIS, i OpenEV.
 Altres aplicacions com: OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide i ArcGIS també la utilitzen.
 
-.. image:: /images/screenshots/gdal/gdal_ogr_proj_overview.png
+.. image:: /images/projects/gdal/gdal_ogr_proj_overview.png
   :scale: 60 %
   :alt: GDAL supports many geodata formats
   :align: right

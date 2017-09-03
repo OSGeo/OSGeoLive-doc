@@ -31,7 +31,7 @@ OSSIMは、諜報および防衛コミュニティにおける幾つかの米国
 主な機能
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/ossim/ossim-imagelinker.jpg
+.. image:: /images/projects/ossim/ossim-imagelinker.jpg
   :scale: 70 %
   :alt: screenshot
   :align: right

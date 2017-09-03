@@ -148,7 +148,7 @@ MapServer — это серверное приложение `с открыты�
 и имеющие *STATUS ON* в map-файле, а также все слои, имеющие *STATUS DEFAULT*.
 Результат будет выглядеть следующим образом :
 
-.. image:: /images/screenshots/mapserver/mapserver_map.png
+.. image:: /images/projects/mapserver/mapserver_map.png
     :scale: 70 %
 
 .. note:: Все параметры запроса определяются в стандарте WMS, за исключением "*?map=/home/user/mapserver_quickstart.map*", который является специфичным для MapServer.
@@ -188,7 +188,7 @@ MapServer — это серверное приложение `с открыты�
 Полученное изображение будет выглядеть, как и в предыдущем
 случае, за исключением того, что в него будет добавлен новый слой озёр:
 
-.. image:: /images/screenshots/mapserver/mapserver_lakes.png
+.. image:: /images/projects/mapserver/mapserver_lakes.png
     :scale: 70 %
 
 .. _mapserver-quickstart-styling-a-layer-ru:
@@ -247,7 +247,7 @@ CLASS включают определение класса, не содержа�
 В результате этого дополнения большие озёра на нашей карте будут
 отрисованы с чёрной обводкой:
 
-.. image:: /images/screenshots/mapserver/mapserver_lakes_scalerank.png
+.. image:: /images/projects/mapserver/mapserver_lakes_scalerank.png
     :scale: 70 %
 
 .. note:: Узнайте больше об `EXPRESSIONS <http://mapserver.org/mapfile/expressions.html>`_ в документации MapServer.

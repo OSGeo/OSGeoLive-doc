@@ -22,7 +22,7 @@ Web フィーチャーサービス
 
 TinyOWS は高性能で軽量なトランザクショナルな WFS (WFS-T、Web Feature Service) です。CGI や FastCGI をインターフェースに用い、データベースに :doc:`PostGIS <postgis_overview>` を使用して容易な開発が可能です。
 
-.. image:: /images/screenshots/tinyows/tinyows_digitizing.jpg
+.. image:: /images/projects/tinyows/tinyows_digitizing.jpg
   :scale: 55 %
   :alt: digitizing
   :align: right

@@ -21,7 +21,7 @@ SQLite は動作が軽く、シンプルで堅牢、簡単に使える人気の�
 
 .. _SQLite: http://www.sqlite.org/
 
-.. image:: /images/screenshots/spatialite/spatialite.jpg
+.. image:: /images/projects/spatialite/spatialite.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

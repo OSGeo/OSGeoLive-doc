@@ -29,7 +29,7 @@ Linux、Unix、Mac OSX、Windowsで動作し、多くのベクタ、ラスタ、
 
 
 
-.. image:: /images/screenshots/qgis/qgis.png
+.. image:: /images/projects/qgis/qgis.png
   :scale: 50 %
   :alt: project logo
   :align: right

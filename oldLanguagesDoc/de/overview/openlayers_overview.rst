@@ -31,7 +31,7 @@ ein umfangreiches Set von Mapping-Werkzeugen und Widgets, ähnlich wie die der
 Google Maps API. Alle Funktionen laufen innerhalb des Web-Browsers, was 
 einfach macht, OpenLayers ohne serverseitige Abhängigkeiten zu installieren, 
 
-.. image:: /images/screenshots/openlayers/openlayers-basic.png
+.. image:: /images/projects/openlayers/openlayers-basic.png
   :scale: 70 %
   :alt: Bildschirmfoto
   :align: right

@@ -23,7 +23,7 @@ NetCDF バージョン 4.0 以上では、大容量数値データの格納・�
 データの権利は University of Victoria PCIC (Pacific Climate Impacts Consortium)、 AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba, Japan)、 NIES (National Institute for Environmental Studies, Ibaraki, Japan)、 JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa, Japan)に帰属します。
 
 
-.. image:: /images/screenshots/netcdf/netcdf_annual_avg_max_temp.png
+.. image:: /images/projects/netcdf/netcdf_annual_avg_max_temp.png
   :scale: 60 %
   :alt: Panoply NetCDF txxETCCDI_yr_MIROC5 screenshot
   :align: right

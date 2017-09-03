@@ -25,7 +25,7 @@ TinyOWS is a high performance, Transactional Web Feature Service (WFS-T) which i
 light weight and easy to deploy, usando un'interfaccia a CGI o FastCGI e 
 :doc:`PostGIS <postgis_overview>` per archiviare i dati.
 
-.. image:: /images/screenshots/tinyows/tinyows_digitizing.jpg
+.. image:: /images/projects/tinyows/tinyows_digitizing.jpg
   :scale: 55 %
   :alt: digitizing
   :align: right

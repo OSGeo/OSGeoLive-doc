@@ -24,7 +24,7 @@ Web Feature Service
 
 Ο TinyOWS είναι ένας εξυπηρετητής υψηλών επιδόσεων του προτύπου Transactional Web Feature Service (WFS-T), ο οποίος είναι εύκολο να εγκατασταθεί και να χρησιμοποιηθεί, με τη χρήση διεπαφών CGI ή FastCGI και τη χρήση της :doc:`PostGIS <postgis_overview>` για αποθήκευση δεδομένων.
 
-.. image:: /images/screenshots/tinyows/tinyows_digitizing.jpg
+.. image:: /images/projects/tinyows/tinyows_digitizing.jpg
   :scale: 55 %
   :alt: digitizing
   :align: right

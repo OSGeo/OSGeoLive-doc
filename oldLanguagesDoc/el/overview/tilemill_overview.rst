@@ -32,7 +32,7 @@ Design studio for Web Maps
 
 Το TileMill τυπικά χρησιμοποιείται σε σύνδεση με το GIS (όπως το QGIS) για προετοιμασία δεδομένων και με ένα γραφικό συντάκτη (όπως το GIMP) για δημιουργία εικονιδίων, προτύπων και υφής.
 
-.. image:: /images/screenshots/tilemill_interface.png
+.. image:: /images/projects/tilemill_interface.png
   :scale: 50 %
   :alt: TilleMill user interface
   :align: right

@@ -20,7 +20,7 @@ GeoKettle позволяет извлекать данные из исходно
 
 Geokettle сравнивают с FME, проприетарным ETL-инструментом. GeoKettle стабилен, быстр, поддерживает множество стандартов и чтение/запись и обработку сотен различных форматов данных, сервисов и баз данных. GeoKettle используется различными организациями по всему миру, включая правительственные структуры, банки, страховые компании и системы интеграции пространственных данных.
 
-.. image:: /images/screenshots/geokettle/geokettle-overview.png
+.. image:: /images/projects/geokettle/geokettle-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right

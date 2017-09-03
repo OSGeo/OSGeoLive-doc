@@ -32,21 +32,21 @@
 
 #. Η εφαρμογή παίρνει κάποια δευτερόλεπτα για να ξεκινήσει (κατά την διάρκεια φορτώματος μια κηλίδα εμφανίτεται στην οθόνη)
 
-   .. image:: /images/screenshots/kosmo_splash_screen.png
+   .. image:: /images/projects/kosmo_splash_screen.png
 
 #. Στο διάλογο καλωσορίσματος, επιλέξτε την επιλογή *Create a new project > With a new view* (**1**) και πατήστε το κουμπί *Ok* (**2**)
 
-   .. image:: /images/screenshots/kosmo_welcome_dialog.png
+   .. image:: /images/projects/kosmo_welcome_dialog.png
 
 #. Στο διάλογο επιλογής του Χωρικού Αναφερόμενου Συστήματος, πιέστε το κουμπί *...*
 
-   .. image:: /images/screenshots/kosmo_select_srs.png
+   .. image:: /images/projects/kosmo_select_srs.png
 
 #. Επιλέξτε την επιλογή *EPSG* στο γραφικό περιβάλλον για τον χρήστη τύπου SRS (**1**), εισάγετε το κείμενο `4326` στο πεδίο κειμένου και πατήστε το κουμπί *Search* (**2**)
 
 #. Επιλέξτε το SRS EPSG:4326 - WSG4 (**3**) και πατήστς το κουμπί *Ok* (**4**)
 
-   .. image:: /images/screenshots/kosmo_select_srs_epsg_4326.png
+   .. image:: /images/projects/kosmo_select_srs_epsg_4326.png
 
 #. Πατήστε το κουμπί *Ok* ξανά και επιλέξτε το SRS να φορτώνεται. Η απεικόνηση θα αρχίσει με το EPSG:4326 σαν βασική προβολή
     
@@ -60,7 +60,7 @@
 
 Το βασικό παράθυρο του Kosmo Desktop έχει τις παρακάτω επιλογές:
 
-  .. image:: /images/screenshots/kosmo_main_window.jpg
+  .. image:: /images/projects/kosmo_main_window.jpg
 
 * Βασικά μενού
 
@@ -96,7 +96,7 @@
 
 #. Πατήστε το κουμπί *Ok* για να φορτώσετε το επιλεγμένο αρχείο τύπου shapefile (**3**)
 
-   .. image:: /images/screenshots/kosmo_select_shape_file.png
+   .. image:: /images/projects/kosmo_select_shape_file.png
 
 #. Στο δέντρο στρωμάτων, πατήστε το κουτί για εμφάνιση προκειμένου να γίνουν τα στρώματα ορατά
 
@@ -108,13 +108,13 @@
 
 #. Πατήστε το κουμπί *Ok* για να φορτώσετε το επιλεγμένο αρχείο εικόνας (**3**)
 
-   .. image:: /images/screenshots/kosmo_select_raster_file.png
+   .. image:: /images/projects/kosmo_select_raster_file.png
 
 #. Στο δέντρο στρωμάτων, πατήστε το κουτί για εμφάνιση προκειμένου να γίνουν τα στρώματα ορατά
 
 #. Μπορείτε να δείτε πως η σειρά που ζωγραφίζονται τα στρώματα είναι από κάτω προς τα πάνω στο δέντρο των στρωμάτων: τροποποιείστε την σειρά των στρωμάτων σύροντάς τα προκειμένου να εμφανίζονται σωστά
 
-   .. image:: /images/screenshots/kosmo_load_file_example.jpg
+   .. image:: /images/projects/kosmo_load_file_example.jpg
 
 .. note::
    Το OSGeo-Live DVD περιέχει μερικά αρχεία δεδομένων με παραδείγματα στους παρακάτω φακέλους αρχείων:
@@ -155,11 +155,11 @@
 
 #. Πατήστε το κουμπί *Ok* για να φορτώσετε τον επιλεγμένο πίνακα της βάσης δεδομένων (**4**)
 
-   .. image:: /images/screenshots/kosmo_database_connection.png
+   .. image:: /images/projects/kosmo_database_connection.png
   
 #. Στο δέντρο των στρωμάτων, πατήστε το κουτί για ορατότητας για να κάνετε το στρώμα ορατό
 
-   .. image:: /images/screenshots/kosmo_load_database_example.jpg
+   .. image:: /images/projects/kosmo_load_database_example.jpg
 
 
 Υπηρεσίες OGC
@@ -171,21 +171,21 @@
 
 #. Στο ταμπλό *Select SDI service type*, επιλέξτε την επιλογή *WMS Service* (**1**) και πατήστε το κουμπί *Next* (**2**)
 
-   .. image:: /images/screenshots/kosmo_wms_1.png
+   .. image:: /images/projects/kosmo_wms_1.png
 
 #. Στο *Select Uniform Resource Locator (URL)*, πληκτρολογήστε το URL http://localhost:8082/geoserver/ows?VERSION=1.1.1 (**1**) στο αντίστοιχο πεδίο κειμένου και πατήστε το κουμπί *Connect* (**2**)
 
 #. Εάν η σύνδεδη είναι πετυχημένη, πατήστε το κουμπί *Next* για να πάτε στο επόμενο ταμπλό (**3**)
 
-   .. image:: /images/screenshots/kosmo_wms_2.png
+   .. image:: /images/projects/kosmo_wms_2.png
 
 #. Επιλέξτε το στρώμα `North America Sample Imagery` (**1**) και πατήστε το κουμπί *>* (**2**) για να το μετακινήσετε στην δεξιά λίστα. Πατήστε το κουμπί *Next*. (**3**)
 
-   .. image:: /images/screenshots/kosmo_wms_3.png
+   .. image:: /images/projects/kosmo_wms_3.png
 
 #. Αφήστε τις εξ ορισμού επιλογές φορτώστε και πατήστε το κουμπί *Finish* (**1**) για να αρχίσετε να φορτώνετε τα στρώματα
 
-   .. image:: /images/screenshots/kosmo_wms_4.png
+   .. image:: /images/projects/kosmo_wms_4.png
 
 #. Στο δέντρο των στρωμάτων, πατήστε το κουμπί της ορατότητας για να κάνετε τα στώματα ορατά
 
@@ -193,7 +193,7 @@
 
 #. Ξανα οργανώστε το δέντρο στρωμάτων σύροντας το νέο στρώμα και τοποθετώντας το στο στρώμα σε μορφή πλέγματος *HYP_50M_SR_W*
 
-   .. image:: /images/screenshots/kosmo_load_wms_results.jpg
+   .. image:: /images/projects/kosmo_load_wms_results.jpg
 
 
 .. note::
@@ -208,7 +208,7 @@
 
 1. |ZOOM| Ζουμάρισμα μέσα/έξω
 
-  .. |ZOOM| image:: /images/screenshots/kosmo_zoom.png
+  .. |ZOOM| image:: /images/projects/kosmo_zoom.png
   
   * Είναι το εργαλείο που επιλέγεται εξ ορισμού όταν αρχίζετε την συνεδρία σας
   * Χρησιμοποιείστε το αριστερό κουμπί του ποντικιού για να κάνετε ζουμάρισμα προς τα μέσα σε μια περιοχή στο σημείο του χάρτη που επιλέγεται
@@ -217,50 +217,50 @@
   
 2. |PAN| Μετάθεση χάρτη
   
-  .. |PAN| image:: /images/screenshots/kosmo_pan.png
+  .. |PAN| image:: /images/projects/kosmo_pan.png
 
   * Επιτρέπει την μετακίνηση γύρω από τον κόσμο χωρίς αλλαγή της κλίμακας
   * Πατήστε το αριστερό κουμπί του ποντικιού, μετακινήστε το ποντίκι και αφήστε το έτσι ώστε να μετακινηθεί ο χάρτης στην επιλεγμένη θέση
       
 3. |ZOOM_PREV| Προηγούμενο Ζουμάρισμα
 
-  .. |ZOOM_PREV| image:: /images/screenshots/kosmo_zoom_prev.png
+  .. |ZOOM_PREV| image:: /images/projects/kosmo_zoom_prev.png
   
   * Επιτρέπει το ζουμάρισμα στη προηγούμενη απεικόνηση από την ιστορία του ζουμ (εάν είναι διαθέσιμο)
   
 4. |ZOOM_NEXT| Επόμενο Ζουμάρισμα
 
-  .. |ZOOM_NEXT| image:: /images/screenshots/kosmo_zoom_next.png
+  .. |ZOOM_NEXT| image:: /images/projects/kosmo_zoom_next.png
   
   * Επιτρέπει το ζουμάρισμα στην επόμενη απεικόνηση από την ιστορία του ζουμ (εάν είναι διαθέσιμο)
     
 5. |ZOOM_FULL_EXTENT| Ζουμάρισμα σε όλη την έκταση
 
-  .. |ZOOM_FULL_EXTENT| image:: /images/screenshots/kosmo_zoom_to_full_extent.png
+  .. |ZOOM_FULL_EXTENT| image:: /images/projects/kosmo_zoom_to_full_extent.png
   
   * Επιτρέπει την αλλαγή του τρέχοντος χάρτη για να περιέχει όλα τα ορατά στρώματα
   
 6. |ZOOM_TO_LAYER| Ζουμάρισμα σε στρώμα
 
-  .. |ZOOM_TO_LAYER| image:: /images/screenshots/kosmo_zoom_to_layer.png
+  .. |ZOOM_TO_LAYER| image:: /images/projects/kosmo_zoom_to_layer.png
   
   * Επιτρέπει την αλλαγή του τρέχοντος χάρτη για να προσαρμόσει τα επιλεγμένα στρώματα
     
 7. |ZOOM_TO_SELECTED_ITEMS| Ζουμάρισμα στα επιλεγμένα αντικείμενα
 
-  .. |ZOOM_TO_SELECTED_ITEMS| image:: /images/screenshots/kosmo_zoom_to_selected_items.png
+  .. |ZOOM_TO_SELECTED_ITEMS| image:: /images/projects/kosmo_zoom_to_selected_items.png
   
   * Επιτρέπει την αλλαγή του τρέχοντος χάρτη για να προσαρμόσει τα επιλεγμένα αντικείμενα
     
 8. |PAN_TO_CLICK| Μετάθεση του χάρτη με κλικ
 
-  .. |PAN_TO_CLICK| image:: /images/screenshots/kosmo_pan_to_click.png
+  .. |PAN_TO_CLICK| image:: /images/projects/kosmo_pan_to_click.png
   
   * Κεντράρει το χάρτη στο σημείο που κλικάρεται, χωρίς να αλλάξει την τρέχουσα κλίμακα
   
 9. |COORDINATE_LOCALIZATION| Τοποθέτηση συντεταγμένων
 
-  .. |COORDINATE_LOCALIZATION| image:: /images/screenshots/kosmo_coordinate_localization.png
+  .. |COORDINATE_LOCALIZATION| image:: /images/projects/kosmo_coordinate_localization.png
   
   * Κεντράρει τον χάρτη στις συντεταγμένες X - Y που δίνονται
 
@@ -288,11 +288,11 @@
 
 #. Πατήστε το κουμπί *Ok* για να εφαρμόσετε τις αλλαγές (**5**)
 
-   .. image:: /images/screenshots/kosmo_basic_style_classification.png
+   .. image:: /images/projects/kosmo_basic_style_classification.png
 
 #. Τα στρώματα θα αλλάξουν το στίλ τους για να απεικονίσουν τις αλλαγές:
 
-   .. image:: /images/screenshots/kosmo_styled_layer_by_range.jpg
+   .. image:: /images/projects/kosmo_styled_layer_by_range.jpg
 
 
 Πράγματα για προσπάθεια

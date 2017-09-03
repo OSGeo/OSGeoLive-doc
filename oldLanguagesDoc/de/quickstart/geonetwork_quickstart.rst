@@ -42,23 +42,23 @@ Start |GN|
 - Die Anwendung braucht ein paar Minuten zum starten
 - Gehen Sie zur |GN| Webseite http://localhost:8080/geonetwork. Ihr erster Besuch |GN| sollte wie der Screenshot unten aussehen.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-firstviews.png
+.. figure:: /images/projects/geonetwork/geonetwork-firstviews.png
 
 - Um |GN| kennenzulernen laden wir die Beispielmetadaten. Melden Sie sich mit dem Nutzer *admin* und Passwort *admin* oben rechts an.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-login.png
+.. figure:: /images/projects/geonetwork/geonetwork-login.png
 
 - Sie sollten nun einen *Administration* Menüpunkt im Banner vorfinden. Klicken Sie auf diesen.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-administration-banner.png
+.. figure:: /images/projects/geonetwork/geonetwork-administration-banner.png
 
 - Gehen Sie zum Ende der Seite und klicken Sie auf den 'Add sample metadata' button.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-addsampledatabutton.png
+.. figure:: /images/projects/geonetwork/geonetwork-addsampledatabutton.png
 
 - Gehen Sie zurück auf die Startseite, um mit der Quickstartanleitung fortzufahren. sie sollten nun folgende Ansicht erhalten.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-returntohomepage.png
+.. figure:: /images/projects/geonetwork/geonetwork-returntohomepage.png
 
 Suchen
 ------
@@ -78,7 +78,7 @@ Die einfache Suche erlaubt Ihnen einen Begriff im gesamten Metadatendokument zu 
 
 Text und Operatoren (and, or, not) sind nicht case sensitive. 
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-what.png
+.. figure:: /images/projects/geonetwork/geonetwork-what.png
 
   *Das Freitext Feld.*
 	
@@ -86,13 +86,13 @@ Text und Operatoren (and, or, not) sind nicht case sensitive.
 
 Sie können eine **Region** von einer vordefinierten Liste wählen;
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-where1.png
+.. figure:: /images/projects/geonetwork/geonetwork-where1.png
   
   *Das Regionsfeld*
 
 Sie können eine Auswahl über drag and drop über die Karte wählen. Klicken Sie dazu den Button in der rechten oberen Ecke des Kartenviewers.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-where2.png
+.. figure:: /images/projects/geonetwork/geonetwork-where2.png
   
   *Interaktive Karte zum wählen einer Region*
 
@@ -100,7 +100,7 @@ Sie können eine Auswahl über drag and drop über die Karte wählen. Klicken Si
 
 Klicken Sie den *Suche* Button um die Suche zu starten und sich die Ergebnisse anzeigen zu lassen.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-search_button.png
+.. figure:: /images/projects/geonetwork/geonetwork-search_button.png
 
   *Der Suchbutton*
 
@@ -111,7 +111,7 @@ Ein anderer Weg um Daten zu suchen ist die Suche an Hand von **Kategorien**. Ein
 
 Wenn Sie nur nach Karten suchen, klicken Sie auf **Maps and Graphics**. Eine Liste aller Karten wird Ihnen angezeigt, von denen Sie sich auch die Details ansehen können: Klicken Sie nur auf den **Metadaten**-Button der Karte, die Sie sehen wollen.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-Categories.png
+.. figure:: /images/projects/geonetwork/geonetwork-Categories.png
 
   *Suche an Hand von Kategorien*
   
@@ -120,13 +120,13 @@ Erweiterte Suche
 
 Die Optionen der erweiterten Suche funktionieren ähnlich der einfachen Suche. Sie können hier nur spezifischere Einschränkunen in den Suchparametern definieren. Dies folgt dem Muster: *Was?, Wo?, Wann?*
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search1.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search1.png
 
   *Optionen der erweiterten Suche*
 
 Um die **erweiterte Suche** zu starten, klicken Sie auf der Startseite auf **erweitert** direkt unter dem Suche-Button.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_button.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search_button.png
 
   *Zeige erweiterte Suchoptionen*
 
@@ -134,13 +134,13 @@ In der **WAS?** Sektion sind alle Elemente mit den Daten verbunden. In Erweiteru
 
 - Um nach **Titel, Kurzzusammenfassung, Freitext, oder Schlüsselwörtern** zu suchen, geben Sie in dem entsprechenden Feld(ern) den/die Suchbegriff(e) ein. Sie können in beliebigen Feldern Text eintragen. Sie können Felder auch leer lassen;
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_what.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search_what.png
 
   *"Was" Sektion in der erweiterten Suche*
 
 Die **WO?** Parameter, beziehen sich auf den räumlichen Extent, und erlauben Ihnen, wie in der einfachen Suche, die Auswahl einer Region über drag&drop oder über eine vordefinierten Region über eine Auswahlbox.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_where.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search_where.png
 
   *"Wo" Sektion in der erweiterten Suche*
 
@@ -148,7 +148,7 @@ Was für Typen von Metadaten Sie auch suchen, in dem Feld **räumliche Auswahlty
 
 Die **WANN?** Sektion gibt Ihnen die Möglichkeit die Suche um die zeitliche Dimension einzuschränken, Sie können zwischen Erstellungsdatum und Publikationsdatum wählen.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_when.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search_when.png
 
   *"Wann" Sektion in der erweiterten Suche*
 
@@ -158,7 +158,7 @@ sie können auch die Anzahl der Ergebnisse pro Seite spezifizieren.
 
 - Klicken Sie zum Schluss den **Suche** Button.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-advanced_search_morerest.png
+.. figure:: /images/projects/geonetwork/geonetwork-advanced_search_morerest.png
 
   *Weitere Optionen in der erweiterten Suche*
 
@@ -167,7 +167,7 @@ Suchergebnisse
 
 Sie erhalten nach Abschicken der Suche eine Liste der Metadatensätze, die auf Ihre Suchanfrage passt. Für jeden Datensatz sehen Sie den Titel, die Kurzzusammenfassung und die Schlüsselwörter. Je nach Privilegien werden maximal 4 Sektionen angezeigt (siehe unten).
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-search_output2.png
+.. figure:: /images/projects/geonetwork/geonetwork-search_output2.png
 
     *Suchergebnisse*
 
@@ -175,23 +175,23 @@ Sie erhalten nach Abschicken der Suche eine Liste der Metadatensätze, die auf I
 
 #. **Download**: Je nach Zugriffsrecht und Datensatz erlaubt Ihn dieser Button die Daten herunterzuladen.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-search_output1.png
+.. figure:: /images/projects/geonetwork/geonetwork-search_output1.png
     
         *Ein einzelnes Suchergebniss*
     
-.. figure:: /images/screenshots/geonetwork/geonetwork-download.png
+.. figure:: /images/projects/geonetwork/geonetwork-download.png
     
         *Verfügbare Services zu diesem Datensatz*
 
 #. **Interaktive Karte**: Der Kartenservice ist opional. Mit Klick auf diesen Button, wird der Datensatz dem Kartenviewer hizugefügt. UM den Datensatz besser sehen zu können, klicken Sie auf **Zeige Karte** oben auf der Seite.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-interactive_map.png
+.. figure:: /images/projects/geonetwork/geonetwork-interactive_map.png
     
         *Der interaktive Kartenviewer*
 
 #. **Graphik Überblick**: Es gibt kleine und große Übersichten. Klicken Sie auf die kleine Übersicht, um eine große Übersicht zu erhalten.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-thumbnail.png
+.. figure:: /images/projects/geonetwork/geonetwork-thumbnail.png
     
         *großes Übersichtsbild*
 
@@ -202,7 +202,7 @@ Privilegien, Rollen und Nutzergruppen
 
 Es gibt keine Restriktionen für Nutzer beim Zugriff auf **öffenltiche Information** in |GN| opensource. Um auf **zugriffsbeschränkte Informationen** und erweitertet Funktionalitäten zugreifen zu können, wir ein Account benötigt. Dieser wird Ihnen durch den Administrator bereitgestellt.
 
-.. figure:: /images/screenshots/geonetwork/geonetwork-login.png
+.. figure:: /images/projects/geonetwork/geonetwork-login.png
 
     *Login*
 

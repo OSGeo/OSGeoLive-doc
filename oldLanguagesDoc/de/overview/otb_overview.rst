@@ -39,7 +39,7 @@ ITK(v4) und ist Open Source.
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/otb/otb-mvd3-screenshot.jpg
+.. image:: /images/projects/otb/otb-mvd3-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

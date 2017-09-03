@@ -27,7 +27,7 @@ PyWPS non contiene nessun processo già predisposto (eccetto per gli esempi usat
 per i test di unità). Ogni utente deve / può creare qualsiasi processo abbia bisogno
 di interfacciare con internet.
 
-..  .. image:: /images/screenshots/pywps/pywps_client.png
+..  .. image:: /images/projects/pywps/pywps_client.png
     :scale: 50 %
     :alt: screenshot
     :align: right

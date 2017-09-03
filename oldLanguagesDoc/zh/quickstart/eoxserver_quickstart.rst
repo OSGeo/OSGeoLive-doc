@@ -46,13 +46,13 @@
 
 　　点击桌面上的“EOxServer“图标可以启动示例。你也可以访问 http://localhost/eoxserver/ 。
 
-.. image:: /images/screenshots/eoxserver/eoxserver_start.png
+.. image:: /images/projects/eoxserver/eoxserver_start.png
   :scale: 50 %
   :alt: EOxServer demonstration start
 
 　　另一个图标“EOxServer Documentation”指向一份 PDF 格式的说明文档。
 
-.. image:: /images/screenshots/eoxserver/eoxserver_documentation.png
+.. image:: /images/projects/eoxserver/eoxserver_documentation.png
   :scale: 50 %
   :alt: EOxServer documentation
 
@@ -64,37 +64,37 @@ Series”（数据集）和“Stitched Mosaics”（拼接影象）。本示例�
 名为”MER FRS 1P RGB reduced“，包含了三景 ENVISAT MERIS 卫星影象。其 `线上说明 
 <http://eoxserver.org/doc/en/users/demonstration.html>`_ 提供了更多信息。
 
-.. image:: /images/screenshots/eoxserver/eoxserver_webclient1.png
+.. image:: /images/projects/eoxserver/eoxserver_webclient1.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client dataset series selection
 
 　　选择其中一个项目，你将看到可用数据的外框显示。
 
-.. image:: /images/screenshots/eoxserver/eoxserver_webclient2.png
+.. image:: /images/projects/eoxserver/eoxserver_webclient2.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines
 
 　　通过标准的 OpenLayers 控制方式，你也可以进行预览。
 
-.. image:: /images/screenshots/eoxserver/eoxserver_screenshot.png
+.. image:: /images/projects/eoxserver/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines and previews
 
 　　通过时间控制轴可以控制所显示的 Dataset 的时间段。
 
-.. image:: /images/screenshots/eoxserver/eoxserver_webclient3.png
+.. image:: /images/projects/eoxserver/eoxserver_webclient3.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client date change
 
 　　点击 **Download** （下载）按钮将显示可以下载的数据列表。此处下载数据的范围是当前视图空间范围和时间段。你也可以控制下载数据的尺寸、格式和波段组合。
 
-.. image:: /images/screenshots/eoxserver/eoxserver_webclient4.png
+.. image:: /images/projects/eoxserver/eoxserver_webclient4.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client download selection
 
 　　点击 **Start Download** 开始下载。取决于范围选择，可能会一次下载多幅影象。
 
-.. image:: /images/screenshots/eoxserver/eoxserver_webclient5.png
+.. image:: /images/projects/eoxserver/eoxserver_webclient5.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client download
 
@@ -103,19 +103,19 @@ Series”（数据集）和“Stitched Mosaics”（拼接影象）。本示例�
 
 　　点击 **Admin Client** （管理员客户端）链接可开启其登录界面。演示用的用户名和密码均为“Admin”。
 
-.. image:: /images/screenshots/eoxserver/eoxserver_adminclient1.png
+.. image:: /images/projects/eoxserver/eoxserver_adminclient1.png
   :scale: 50 %
   :alt: EOxServer demonstration admin client login
 
 　　这套管理用客户端是 Djangos 的标准客户端，用于配置数据服务。更多信息请访问 `线上文档 <http://eoxserver.org/doc/en/users/operators.html>`__ 。
 
-.. image:: /images/screenshots/eoxserver/eoxserver_adminclient2.png
+.. image:: /images/projects/eoxserver/eoxserver_adminclient2.png
   :scale: 50 %
   :alt: EOxServer demonstration admin client start
 
 　　作为实例，你可以浏览和编辑各个 Dataset Series 的 EO Metadata 元数据信息。
 
-.. image:: /images/screenshots/eoxserver/eoxserver_adminclient3.png
+.. image:: /images/projects/eoxserver/eoxserver_adminclient3.png
   :scale: 50 %
   :alt: EOxServer demonstration admin client 
 
@@ -124,7 +124,7 @@ Series”（数据集）和“Stitched Mosaics”（拼接影象）。本示例�
 
 　　**Log Viewer** 日志查看器链接指向系统的日志。
 
-.. image:: /images/screenshots/eoxserver/eoxserver_logviewer.png
+.. image:: /images/projects/eoxserver/eoxserver_logviewer.png
   :scale: 50 %
   :alt: EOxServer demonstration log viewer
 

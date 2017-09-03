@@ -42,7 +42,7 @@ A TileMill-t tipikusan együtt használják az adatok előkészítése során eg
 asztali GIS-sel (pl. QGIS), az ikonok és kitöltési minták létrehozása során
 pedig egy grafikus szerkesztőprogrammal (pl. Gimp).
 
-.. image:: /images/screenshots/tilemill_interface2.png
+.. image:: /images/projects/tilemill_interface2.png
   :scale: 50 %
   :alt: TilleMill felhasználói interfész
   :align: right

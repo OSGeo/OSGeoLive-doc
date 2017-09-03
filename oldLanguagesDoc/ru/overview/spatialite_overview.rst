@@ -27,7 +27,7 @@ SQLite — популярная СУБД, простая, надёжная, ле
 
 .. _SQLite: http://www.sqlite.org/
 
-.. image:: /images/screenshots/spatialite/spatialite.jpg
+.. image:: /images/projects/spatialite/spatialite.jpg
   :scale: 50 %
   :alt: Скриншот
   :align: right

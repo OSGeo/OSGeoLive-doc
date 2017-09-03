@@ -27,7 +27,7 @@ MapGuide inclut une base de données XML pour gérer le contenu. Maestro permet 
 
 MapGuide peut être déployé sur Linux ou Windows, supporte les serveurs web Apache et IIS, et offre des API étendues pour PHP, .NET, Java et JavaScript pour le développement des application. MapGuide Open Source est sous licence LGPL.
 
-.. image:: /images/screenshots/mapguide/mapguide_viewer.png
+.. image:: /images/projects/mapguide/mapguide_viewer.png
   :scale: 50%
   :alt: Capture d'écran MapGuide
   :align: right

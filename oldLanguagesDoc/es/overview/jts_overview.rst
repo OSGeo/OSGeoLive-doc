@@ -19,7 +19,7 @@ JTS incluye el "JTS Test Builder" que permite a los usuarios ejecutar tests y ex
 
 JTS es utilizada por la mayoría de las aplicaciones geoespaciales Open Source basadas en Java, y  :doc:`geos_overview`, que es una versión de JTS para C++, se usa en la mayoría de aplicaciones basadas en C. Existen además otras versiones para C# y JavaScript.
 
-.. image:: /images/screenshots/jts/jts-overview.jpg
+.. image:: /images/projects/jts/jts-overview.jpg
   :scale: 90 %
   :alt: JTS Topology Suite - aplicación Test Builder 
   :align: right

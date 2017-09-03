@@ -26,7 +26,7 @@ Geomajas — это фреймворк для разработки геопро
 примеры на данном LiveDVD являются приложениями, построенными с использованием 
 технологий Geomajas.
 
-.. image:: /images/screenshots/geomajas/geomajas_1024x768_screen1.png
+.. image:: /images/projects/geomajas/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Демонстрация Geomajas
   :align: right

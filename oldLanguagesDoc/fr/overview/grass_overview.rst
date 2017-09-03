@@ -31,7 +31,7 @@ Il est également capable de produire des représentations graphiques sophistiqu
 papier. GRASS est aujourd'hui traduit dans vingt langues et supporte un très grand nombre de formats
 de données.
 
-.. image:: /images/screenshots/grass/grass-vectattrib.png
+.. image:: /images/projects/grass/grass-vectattrib.png
    :scale: 50 %
    :alt: capture d'écran
    :align: right
@@ -55,7 +55,7 @@ Fonctionnalités principales
 --------------------------------------------------------------------------------
 
 * Vous nommez une fonction, vous trouverez `un outil pour ça <http://grass.osgeo.org/grass70/manuals/keywords.html>`_ dans GRASS.
-* Explorez la `collection de captures d'écran <http://grass.osgeo.org/screenshots/>`_.
+* Explorez la `collection de captures d'écran <http://grass.osgeo.org/projects/>`_.
 
 Détails
 --------------------------------------------------------------------------------

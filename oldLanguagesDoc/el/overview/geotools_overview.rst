@@ -19,7 +19,7 @@ GeoTools
 
 Η GeoTools είναι μια ανοιχτή (LGPL) βιβλιοθήκη σε Java η οποία παρέχει τυπικές μεθόδους για την διαχείρηση γεωχωρικών δεδομένων και δομών βασισμένες σε προδιαγραφές του Open Geospatial Consortium (OGC).
 
-.. image:: /images/screenshots/geotools/geotools-overview.png
+.. image:: /images/projects/geotools/geotools-overview.png
   :scale: 60 %
   :alt: GeoTools is a modular library supported by plugins for additional formats
   :align: right
@@ -58,7 +58,7 @@ GeoTools
 
   * Παρέχουν επιπλέον δυνατότητες μέσω των χωρικών λειτουργιών της κεντρικής (core) βιβλιοθήκης.
   
-  .. image:: /images/screenshots/geotools/geotools-extension.png
+  .. image:: /images/projects/geotools/geotools-extension.png
      :alt: Πρόσθετα που χρησιμοποιούν την βιβλιοθήκη GeoTools
 
   * Επεκτάσεις οι οποίες παρέχουν γραφικές και διαδικτυακές λειτουργίες (πχ αλγόριθμος ελάχιστης διαδρομής), αξιολόγηση δεδομένων, έναν web map server client, συνδέσμους για διάβασμα αρχείων xml και κωδικοποίηση.

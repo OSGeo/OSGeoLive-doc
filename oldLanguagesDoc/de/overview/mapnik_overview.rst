@@ -26,7 +26,7 @@ Internet bereitstellen. Trotzdem wird Mapnik, dank Verbesserungen im Bereich der
 Skalierbarkeit, seit kurzem auch zur Erstellung hochauflösender Landkarten in 
 Papierform verwendet.
 
-.. image:: /images/screenshots/mapnik/mapnik-screenshot-barcelona.png
+.. image:: /images/projects/mapnik/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: Bildschirmfoto
   :align: right

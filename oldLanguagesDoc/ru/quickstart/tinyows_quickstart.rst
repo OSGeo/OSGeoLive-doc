@@ -67,7 +67,7 @@ TinyOWS — это легковесный и простой в развёрты�
 
    * Отобразился WFS слой:
 
-.. image:: /images/screenshots/tinyows/tinyows_wfs_layer.png
+.. image:: /images/projects/tinyows/tinyows_wfs_layer.png
   :scale: 80 %
 
 Редактирование слоя WFS-T

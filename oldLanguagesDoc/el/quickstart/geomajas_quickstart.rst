@@ -26,7 +26,7 @@
 
 Το Geomajas είναι ένα προγραμματιστικό περιβάλλον για την δημιουργία διαδικτυακών εφαρμογών GIS. Επομένως αυτό που είναι εγκατεστημένο στο παρών λειτουργικό είναι μια εφαρμογή επίδειξης υλοποιημένη με την τεχνολογία Geomajas.
 
-.. image:: /images/screenshots/geomajas/geomajas_1024x768_screen1.png
+.. image:: /images/projects/geomajas/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

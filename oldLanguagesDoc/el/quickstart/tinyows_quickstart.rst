@@ -68,7 +68,7 @@
 
    * Το επίπεδο WFS τώρα εμφανίζεται:
 
-.. image:: /images/screenshots/tinyows/tinyows_wfs_layer.png
+.. image:: /images/projects/tinyows/tinyows_wfs_layer.png
   :scale: 80 %
 
 Επεξεργασία δεδομένων μέσω WFS-T

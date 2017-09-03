@@ -36,13 +36,13 @@ Esecuzione:
   Altrimenti dovrete aggiustare le impostazioni di avvio all'interno del BIOS premendo il pulsante
   del menu di boot appena acceso il computer.
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_boot.png
+  .. image:: /images/projects/osgeolive/osgeolive_boot.png
     :scale: 70 %
     :alt: boot
 
   Aspettate mentre il sistema si avvia
 
-  .. image:: /images/screenshots/osgeolive/osgeolive_menu.png
+  .. image:: /images/projects/osgeolive/osgeolive_menu.png
     :scale: 70 %
     :alt: boot select
 

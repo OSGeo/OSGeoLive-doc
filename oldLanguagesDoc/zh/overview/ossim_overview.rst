@@ -33,7 +33,7 @@ OSSIM
 核心功能
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/ossim/ossim-imagelinker.jpg
+.. image:: /images/projects/ossim/ossim-imagelinker.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

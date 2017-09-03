@@ -22,7 +22,7 @@ OpenLayers
 浏览器中的 GIS 客户端
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/openlayers/openlayers-basic.png
+.. image:: /images/projects/openlayers/openlayers-basic.png
   :scale: 100 %
   :alt: screenshot
   :align: right

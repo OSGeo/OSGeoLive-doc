@@ -25,7 +25,7 @@ Mapnik solitamente viene utilizzato in applicazioni Python per distribuire le
 proprie mappe attraverso internet anche se i miglioramenti alla scala hanno fatto
 sì che mapnik è stato recentemente usato per creare mappe cartacee ad alta risoluzione.
 
-.. image:: /images/screenshots/mapnik/mapnik-screenshot-barcelona.png
+.. image:: /images/projects/mapnik/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: screenshot
   :align: right

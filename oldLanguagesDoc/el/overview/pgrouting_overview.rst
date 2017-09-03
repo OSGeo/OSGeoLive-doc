@@ -29,7 +29,7 @@ pgRouting
 * Οι αλλαγές στα δεδομένα μπορούν να αναπαρασταθούν άμεσα μέσω της μηχανής δρομολόγησης. Δεν χρειάζεται προϋπολογισμός.
 * Η παράμετρος "κόστους" μπορεί να υπολογιστεί δυναμικά μέσω κώδικα SQL και η τιμή της μπορεί να προκύψει από πολλές εγγραφές ή πίνακες.
 
-.. image:: /images/screenshots/pgrouting/pgrouting.png
+.. image:: /images/projects/pgrouting/pgrouting.png
   :scale: 60 %
   :alt: pgRouting query in pgAdminIII
   :align: right

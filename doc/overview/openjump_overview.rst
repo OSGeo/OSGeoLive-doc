@@ -19,7 +19,7 @@ to display, edit, analyse and conflate geographic data.
 It comes in a CORE and a PLUS edition, with the latter adding lots of useful plugins. 
 OpenJUMP is excellent for data editing and rapid prototyping of GIS functions.
 
-.. image:: /images/screenshots/openjump/openjump-screenshot.png
+.. image:: /images/projects/openjump/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
   :align: right

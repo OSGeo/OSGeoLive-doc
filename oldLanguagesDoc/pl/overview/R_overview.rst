@@ -44,7 +44,7 @@ nową komercyjną wersją S, TIBCO Spotfire S+. Pozwala to na konwersję
 różnych wersji kodu S w celu ich uruchomienia w R bez znaczących 
 modyfikacji.
 
-.. image:: /images/screenshots/r/r-screenshot.png
+.. image:: /images/projects/r/r-screenshot.png
   :scale: 50 %
   :alt: project logo
   :align: right

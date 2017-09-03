@@ -25,7 +25,7 @@ QGIS Server
 Ο QGIS Server παρέχει μια υπηρεσία web map service (WMS) βασισμένη σε βιβλιοθήκες από το λογισμικό Quantum GIS (QGIS). Η στενή συσχέτιση με το QGIS σημαίνει ότι οι χάρτες που δημιουργούνται από λογισμικό  μπορούν εύκολα να δημοσιευθούν στο διαδίκτυο με μια απλή αντιγραφή του αρχείου έργου του QGIS στον φάκελο του εξυπηρετητή, και οι διαδικτυακοί χάρτες μοιάζουν ίδιοι με αυτούς που δημιουργήθηκαν στην επιφάνεια εργασίας.Ο εξυπηρετητής QGIS Server συνήθως εκτελείται σαν διαδικασία CGI/FastCGI εντός του διαδικτυακού εξυπηρετητή Apache.
 
 
-.. image:: /images/screenshots/qgis/qgis-mapserver-screenshot.jpg
+.. image:: /images/projects/qgis/qgis-mapserver-screenshot.jpg
   :scale: 40 %
   :alt: project logo
   :align: right

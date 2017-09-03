@@ -34,7 +34,7 @@ maps and metadata can be published and searched, and reviews, ratings and commen
 
 GeoNode基于GeoServer、GeoExplorer、pycsw、Django与GeoExt构建。
 
-.. image:: /images/screenshots/geonode/geonode_basic_application.png
+.. image:: /images/projects/geonode/geonode_basic_application.png
   :scale: 50%
   :alt: GeoNode application
   :align: right

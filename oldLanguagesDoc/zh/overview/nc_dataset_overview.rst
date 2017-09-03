@@ -27,7 +27,7 @@ OSGeo 美国北卡洛莱娜州教育用数据集
 
 * 一小部分水域，栅格空间分辨率 3m-1m
 
-.. image:: /images/screenshots/nc_dataset/north_carolina_dataset_nviz.jpg
+.. image:: /images/projects/nc_dataset/north_carolina_dataset_nviz.jpg
   :scale: 60 %
   :alt: North Carolina dataset screenshot
   :align: right

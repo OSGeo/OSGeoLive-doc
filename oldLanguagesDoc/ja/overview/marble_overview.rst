@@ -26,7 +26,7 @@ PC上の地球儀に `OpenStreetMaps <http://www.osm.org>`_ を含む様々な�
 主な機能
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/marble/marble-history.png
+.. image:: /images/projects/marble/marble-history.png
   :scale: 64 %
   :alt: screenshot
   :align: right

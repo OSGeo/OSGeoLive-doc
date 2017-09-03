@@ -23,7 +23,7 @@ Das Herz des Projekts sind die zugrunde liegenden Daten, die von allen zur Bearb
 
 Die OSGeo-Live ditribution beinhaltet einen Auszug der OSM Daten, die für einige Anwendungen als Beispieldaten genutzt werden.
 
-.. image:: /images/screenshots/osm_dataset/osm-screenshot.jpg 
+.. image:: /images/projects/osm_dataset/osm-screenshot.jpg 
   :scale: 55 %
   :alt: OSM screenshot
   :align: right

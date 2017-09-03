@@ -21,7 +21,7 @@ SVG によるスケーリング可能なシンボル作成などを提供しま�
 Open Street Map のメインレイヤ描画エンジンとしてよく知られていますが、Web
 で高解像度の地図を配信するPythonアプリケーションにも多く使用されています。
 
-.. image:: /images/screenshots/mapnik/mapnik-screenshot-barcelona.png
+.. image:: /images/projects/mapnik/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: screenshot
   :align: right

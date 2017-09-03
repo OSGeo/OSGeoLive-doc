@@ -28,7 +28,7 @@ GeoMOOSE est rapide, fonctionne plutôt bien même avec des centaines de couches
 
 L'interface utilisateur est facilement configurable, et des services additionnels peuvent être ajoutés via une architecture modulaire.
 
-.. image:: /images/screenshots/geomoose/geomoose-2_6-screenshot001.png
+.. image:: /images/projects/geomoose/geomoose-2_6-screenshot001.png
   :alt: GeoMoose Screenshot
   :align: right
   

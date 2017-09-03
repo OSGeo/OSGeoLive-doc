@@ -21,7 +21,7 @@ Mapnik es una herramienta para el renderizado de bonitos mapas, con bordes de ge
 
 Mapnik se suele embeber típicamente en aplicaciones Python que publican mapas en Internet, aunque las últimas mejoras incorporadas han permitido que Mapnik también se utilice para crear mapas de alta resolución en papel.
 
-.. image:: /images/screenshots/mapnik/mapnik-screenshot-barcelona.png
+.. image:: /images/projects/mapnik/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: screenshot
   :align: right

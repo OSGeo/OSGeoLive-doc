@@ -28,7 +28,7 @@ MB-System està en desenvolupament des de 1993, amb suport actiu per part d'unes
 Característiques principals
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/mb-system/mb-system_screenshot.png
+.. image:: /images/projects/mb-system/mb-system_screenshot.png
   :scale: 60 %
   :alt: screenshot
   :align: right

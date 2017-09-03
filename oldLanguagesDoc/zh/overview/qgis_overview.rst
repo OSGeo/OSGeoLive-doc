@@ -23,7 +23,7 @@ Quantum GIS (QGIS)
 
 Quantum GIS (QGIS)是一个用户界面友好、开源代码的GIS客户端程序，支持数据的可视化、管理、编辑与分析和印刷地图的制作。通过集成GRASS，支持强大的分析功能，可运行于Linux、Unix、Mac OSX和Windows系统，并支持多种矢量、栅格与数据库格式及功能。
 
-.. image:: /images/screenshots/qgis/qgis.png
+.. image:: /images/projects/qgis/qgis.png
   :scale: 50 %
   :alt: project logo
   :align: right

@@ -29,7 +29,7 @@ Cesium 快速开始
 
 点击查找图标，并键入想要查找的位置。在下图中，我们来查找印度。
 
-.. image:: /images/screenshots/cesium/cesium_1_SearchingLocation.png
+.. image:: /images/projects/cesium/cesium_1_SearchingLocation.png
   :scale: 70 %
   :alt: Cesium Searching Location
 
@@ -41,7 +41,7 @@ Cesium 快速开始
 
 通过点击地球图标，可以选择希望的视图模式。下图中选择了2.5维的Columbus视图。
 
-.. image:: /images/screenshots/cesium/cesium_2_2253d.png
+.. image:: /images/projects/cesium/cesium_2_2253d.png
   :scale: 70 %
   :alt: Cesium 在3维，2.5维，2维之间进行切换
 
@@ -50,7 +50,7 @@ Cesium 快速开始
 下图是2维地图模式
 
 
-.. image:: /images/screenshots/cesium/cesium_3_2D.png
+.. image:: /images/projects/cesium/cesium_3_2D.png
   :scale: 70 %
   :alt: Cesium 2维地图
 
@@ -60,7 +60,7 @@ Cesium 快速开始
 
 通过点击最后一个图标，可以选择希望的影像服务类型。下图中，选择了Natural Earth II，你可以看到地图的影像图层变化了。
 
-.. image:: /images/screenshots/cesium/cesium_4_Layer.png
+.. image:: /images/projects/cesium/cesium_4_Layer.png
   :scale: 70 %
   :alt: Cesium 2维地图
 

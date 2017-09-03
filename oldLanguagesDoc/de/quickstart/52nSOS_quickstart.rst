@@ -36,7 +36,7 @@ Erste Schritte
 2. Es öffnet sich ein Browser-Fenster, welches die Willkommens-Seite der
    52°North SOS-Anwendung anzeigt (siehe Abb. 1).
 
-.. image:: /images/screenshots/52n_sos/52n_sos_start.png
+.. image:: /images/projects/52n_sos/52n_sos_start.png
   :scale: 100 %
   :alt: 52°North SOS-Anwendung - Willkommens-Seite
   :align: center
@@ -48,7 +48,7 @@ Erste Schritte
    Mit Hilfe der Inhalte des Capabilities-Dokuments (siehe Abb. 2) können die
    Beispielanfragen aus der Beispielliste individuell angepasst werden.
 
-.. image:: /images/screenshots/52n_sos/52n_sos_get_capabilities.png
+.. image:: /images/projects/52n_sos/52n_sos_get_capabilities.png
   :scale: 100 %
   :alt: 52°North SOS Anwendung - Test Client mit GetCapabilities-Anfrage
   :align: center
@@ -111,7 +111,7 @@ Ausprobieren
   4. Öffnen Sie `helgoland <http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_
      erneut und erkunden Sie die erzeugten Beispieldaten.
 
-.. image:: /images/screenshots/52n_sos/52n_sos_viewclient.png
+.. image:: /images/projects/52n_sos/52n_sos_viewclient.png
   :scale: 100 %
   :alt: 52°North SOS Anwendung - JavaScript-Client mit Zeitreihendaten
   :align: center

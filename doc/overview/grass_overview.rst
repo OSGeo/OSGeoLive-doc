@@ -37,7 +37,7 @@ produce sophisticated presentation graphics and hardcopy maps. GRASS GIS has
 been translated into many languages and supports a huge array of data
 formats.
 
-.. image:: /images/screenshots/grass/grass-vectattrib.png
+.. image:: /images/projects/grass/grass-vectattrib.png
    :scale: 50 %
    :alt: screenshot
    :align: right
@@ -62,7 +62,7 @@ Core Features
 --------------------------------------------------------------------------------
 
 * You name it, there's a `tool for it <http://grass.osgeo.org/grass70/manuals/keywords.html>`_.
-* Explore the `screenshot collection <http://grass.osgeo.org/screenshots/>`_.
+* Explore the `screenshot collection <http://grass.osgeo.org/projects/>`_.
 
 Details
 --------------------------------------------------------------------------------

@@ -25,7 +25,7 @@ El servidor QGIS proporciona un Web Map Service (WMS) emprant les mateixes llibr
 Els mapes i les plantilles d'impressió creats a QGIS d'escriptori es poden publicar com mapes a la web, simplement copiant el fitxer de projecte de QGIS al directori del servidor. Els mapes web resultants tenen el mateix aspecte que a l'escriptori.
 El servidor de QGIS normalment s'executa com un mòdul CGI/FastCGI dins del servidor web Apache.
 
-.. image:: /images/screenshots/qgis/qgis-mapserver-screenshot.jpg
+.. image:: /images/projects/qgis/qgis-mapserver-screenshot.jpg
   :scale: 40 %
   :alt: project logo
   :align: right

@@ -27,7 +27,7 @@ geoprzestrzennych, bez konieczności ich instalowania. Na płycie
 znajduje się wyłącznie oprogramowanie opatrzone wolnymi licencjami, 
 uprawniającymi do powielania i rozpowszechniania go.
 
-.. image:: /images/screenshots/osgeolive/osgeolive_menu.png
+.. image:: /images/projects/osgeolive/osgeolive_menu.png
   :scale: 70 %
   :alt: boot select
   :align: right

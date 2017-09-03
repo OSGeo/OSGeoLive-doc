@@ -28,7 +28,7 @@ PostGIS ist die am weitest verbreitete räumliche Datenbank. Es ist stabil, schn
 PostGIS wird weltweit von vielen großen Organisationen und Firmen eingestetzt um große Datenmengen zu verwalten und online zu Verfügung zu stellen. 
 Die Datenbank-Administration ist unter anderem mit pgAdmin und phpPgAdmin möglich. Der Im- und Export von Daten wird von verschiedenen Konverter-Tools (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) unterstützt. Es gibt zahlreiche Desktop-GIS- und Browser-Anwendungen zur Anzeige von PostGIS-Daten.
 
-.. image:: /images/screenshots/pgadmin/pgadmin.png
+.. image:: /images/projects/pgadmin/pgadmin.png
   :scale: 70 %
   :alt: pgAdmin database manager
   :align: right

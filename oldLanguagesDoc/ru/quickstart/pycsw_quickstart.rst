@@ -116,32 +116,32 @@ OpenSUSE Build Service.
 Запустить проверочное приложение pycsw можно при помощи ярлыка pycsw в группе
 Web Services или открыв Firefox и указав адрес ``http://localhost/pycsw/tester/index.html``:
 
-.. image:: /images/screenshots/pycsw/pycsw_tester_startup.png
+.. image:: /images/projects/pycsw/pycsw_tester_startup.png
   :scale: 75 %
 
 В левом выпадающем списке пользователь может выбирать предустановленные
 POST-запросы в формате XML, которые затем будут отправлены pycsw:
 
-.. image:: /images/screenshots/pycsw/pycsw_tester_selection.png
+.. image:: /images/projects/pycsw/pycsw_tester_selection.png
   :scale: 75 %
 
 Например, если выбрать "apiso/DescribeRecord" и нажать кнопку "Send", в
 правой панели отобразится описание записи в ISO Application Profile:
 
-.. image:: /images/screenshots/pycsw/pycsw_tester_describe_apiso_record.png
+.. image:: /images/projects/pycsw/pycsw_tester_describe_apiso_record.png
   :scale: 75 %
 
 Если выбрать "GetCapabilities-SOAP" и нажать кнопку "Send", на сервер будет
 отправлен SOAP-запрос на получение его возможностей:
 
-.. image:: /images/screenshots/pycsw/pycsw_tester_soap_capabillities.png
+.. image:: /images/projects/pycsw/pycsw_tester_soap_capabillities.png
   :scale: 75 %
 
 Кроме того, пользователь может выполнять поиск данных с фильтрацией по охвату,
 выбрав "GetRecords-filter-bbox" и отредактировав координаты в XML-представлении
 запроса:
 
-.. image:: /images/screenshots/pycsw/pycsw_tester_getrecords_bbox_filter.png
+.. image:: /images/projects/pycsw/pycsw_tester_getrecords_bbox_filter.png
   :scale: 75 %
 
 Пользователь может пройтись по всем доступным запросам и выполнять различные
@@ -178,13 +178,13 @@ European Open Source Metadata Editor (EUOSME). Это приложение мо�
 размещении, географическом охвате (задавая координаты ограничивающего
 прямоугольника или название страны) и т.д.
 
-.. image:: /images/screenshots/pycsw/pycsw_euosme_metadata_input.png
+.. image:: /images/projects/pycsw/pycsw_euosme_metadata_input.png
   :scale: 75 %
 
 После добавления всей необходимой информации необходимо нажать кнопку валидации
 вверху страницы, чтобы проверить целостность и соответствие директивам INSPIRE.
 
-.. image:: /images/screenshots/pycsw/pycsw_euosme_save_metadata.png
+.. image:: /images/projects/pycsw/pycsw_euosme_save_metadata.png
   :scale: 75 %
 
 После успешной валидации файл можно сохранить на диск и просмотреть, используя
@@ -207,7 +207,7 @@ European Open Source Metadata Editor (EUOSME). Это приложение мо�
 Пользователь может вводить или редактировать метаданные как и при использовании
 EUOSME, но без необходимости в подключении к Интернет.
 
-.. image:: /images/screenshots/pycsw/pycsw_gimed.png
+.. image:: /images/projects/pycsw/pycsw_gimed.png
   :scale: 75 %
 
 
@@ -274,34 +274,34 @@ pycsw поддерживает следующие базы данных:
 
 Запустите QGIS из группы Desktop GIS и найдите пункт "Manage Plugins"
 
-.. image:: /images/screenshots/pycsw/pycsw_qgis_plugin.png
+.. image:: /images/projects/pycsw/pycsw_qgis_plugin.png
   :scale: 75 %
 
 Активируйте модуль CSW
 
-.. image:: /images/screenshots/pycsw/pycsw_qgis_plugin_enable.png
+.. image:: /images/projects/pycsw/pycsw_qgis_plugin_enable.png
   :scale: 75 %
 
 Затем при помощи кнопки CSW на панели инструментов запустите CSW Client
 
-.. image:: /images/screenshots/pycsw/pycsw_qgis_csw_plugin_open.png
+.. image:: /images/projects/pycsw/pycsw_qgis_csw_plugin_open.png
   :scale: 75 %
 
 Добавьте сервер pycsw, нажав на кнопку "New" и введя адрес ``http://localhost/pycsw/csw.py``
 
-.. image:: /images/screenshots/pycsw/pycsw_qgis_csw_plugin_add_server.png
+.. image:: /images/projects/pycsw/pycsw_qgis_csw_plugin_add_server.png
   :scale: 75 %
 
 Также можно добавить несколько предустановленных серверов, нажав кнопку
 "Add default servers" и получить описание возможностей сервера при помощи
 кнопки "Server info"
 
-.. image:: /images/screenshots/pycsw/pycsw_qgis_csw_plugin_server_info.png
+.. image:: /images/projects/pycsw/pycsw_qgis_csw_plugin_server_info.png
   :scale: 75 %
 
 Выполнять поиск данных в каталоге можно как по описанию, так и по охвату
 
-.. image:: /images/screenshots/pycsw/pycsw_qgis_csw_plugin_search.png
+.. image:: /images/projects/pycsw/pycsw_qgis_csw_plugin_search.png
   :scale: 75 %
 
 Проверочное приложение
@@ -311,7 +311,7 @@ pycsw поддерживает следующие базы данных:
 соответствущий запрос, например, поиск по фразе "imagery" приведет к отображению
 всех данных, созданных ранее в EUOSME
 
-.. image:: /images/screenshots/pycsw/pycsw_tester_discovery.png
+.. image:: /images/projects/pycsw/pycsw_tester_discovery.png
   :scale: 75 %
 
 Более подробное описание pycsw можно получить в `документации`_, размещенной

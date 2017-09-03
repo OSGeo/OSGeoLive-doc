@@ -31,7 +31,7 @@ OTB
 Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/otb/otb-mapping.jpg
+.. image:: /images/projects/otb/otb-mapping.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -28,7 +28,7 @@ Quantum GIS (QGIS) — это дружественная к пользовате
 QGIS работает в Linux, Unix, Mac OSX и Windows, поддерживает множество векторных, растровых форматов, 
 а также различные базы данных.
 
-.. image:: /images/screenshots/qgis/qgis.png
+.. image:: /images/projects/qgis/qgis.png
   :scale: 50 %
   :alt: Скриншот
   :align: right

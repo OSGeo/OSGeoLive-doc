@@ -23,7 +23,7 @@ Rasdaman
 
 　　Rasdaman 系统成熟稳定，已有超过 10 年的应用历史。法国国家地理研究所使用该系统支持千万兆容量的航片数据库。在 2007 年 ACM Principles of Database Systems 会议上，栅格数据库系统专家 Rona Machlin 将其称为“此类系统中最完善的实例”。
 
-.. image:: /images/screenshots/rasdaman/rasdaman-collage.png
+.. image:: /images/projects/rasdaman/rasdaman-collage.png
   :scale: 50 %
   :align: right
 

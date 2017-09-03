@@ -30,7 +30,7 @@ Sahana Eden
 (Swedish International Development Agency), της IBM, του Εθνικού Οργανισμού Επιστημών των ΗΠΑ και έχει χρησιμοποιηθεί
 από δεκάδες κυβερνήσεις και εθνικούς οργανισμούς από τότε.
 
-.. image:: /images/screenshots/sahana/sahana-camp-dist_0.jpg
+.. image:: /images/projects/sahana/sahana-camp-dist_0.jpg
   :scale: 80 %
   :alt: screenshot
   :align: right

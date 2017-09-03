@@ -24,7 +24,7 @@ QGIS Server stellt einen Web Map Service (WMS) auf Basis von Bibliotheken der So
 Die enge Integration mit QGIS bedeutet, dass visualisierte Karten der Desktop-Anwendung einfach als WMS bereitgestellt werden können, indem die QGIS Projektdatei in das entsprechende Serververzeichnis kopiert werden. Dabei sieht die Karte im Internet genauso aus, wie auf dem Desktop.
 QGIS Server läuft in der Regel als CGI/FastCGI Modul innerhalb des Apache Webservers.
 
-.. image:: /images/screenshots/qgis/qgis-mapserver-screenshot.jpg
+.. image:: /images/projects/qgis/qgis-mapserver-screenshot.jpg
   :scale: 50 %
   :alt: project logo
   :align: right

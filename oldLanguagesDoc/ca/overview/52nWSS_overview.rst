@@ -32,7 +32,7 @@ Actúa com a proxy d'un número arbitrari de Serveiw Web OGC, rebent totes les p
 Per tant, no cal modificar la implementació del servei que ja existeix.
 Les polítiques i els usuaris es defineixen en un arxiu de configuració XML, que es mantenen des d'una interface general de gestió.
 
-.. image:: /images/screenshots/52n_wss/52n_wss_mgmt.png
+.. image:: /images/projects/52n_wss/52n_wss_mgmt.png
   :scale: 70 %
   :alt: Captura de pantalla de WSS Management UI
   :align: right

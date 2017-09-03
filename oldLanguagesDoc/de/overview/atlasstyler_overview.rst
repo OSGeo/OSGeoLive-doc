@@ -20,7 +20,7 @@ Die Anwendung bietet eine Vielzahl intuitiver Dialoge, die eine produktive Arbei
 
 
 
-.. image:: /images/screenshots/atlasstyler/atlasstyler-overview.png
+.. image:: /images/projects/atlasstyler/atlasstyler-overview.png
   :scale: 40 %
   :alt: Screenshot
   :align: right

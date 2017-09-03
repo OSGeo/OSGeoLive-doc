@@ -33,7 +33,7 @@ robusta e ampiamente sviluppata. Entrambi offrono un estensivo set di
 caratteristiche che coprono sia le richieste di mappe web e GIS sia
 basiche che avanzate.
 
-.. image:: /images/screenshots/openlayers/openlayers-basic.png
+.. image:: /images/projects/openlayers/openlayers-basic.png
   :scale: 70 %
   :alt: screenshot
   :align: right

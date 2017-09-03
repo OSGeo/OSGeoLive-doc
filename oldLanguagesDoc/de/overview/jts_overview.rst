@@ -23,7 +23,7 @@ JTS wird von den meisten Java basierten Open Source Geospatial Anwendungen verwe
 :doc:`geos_overview`, eine nach C++ portierte Version der JTS, wird von den meisten C basierten Anwendungen verwendet. 
 Weitere Schnittstellen liegen für C# und JavaScript vor.
 
-.. image:: /images/screenshots/jts/jts-overview.jpg
+.. image:: /images/projects/jts/jts-overview.jpg
   :scale: 90 %
   :alt: JTS Topology Suite - Test Builder Anwendung
   :align: right

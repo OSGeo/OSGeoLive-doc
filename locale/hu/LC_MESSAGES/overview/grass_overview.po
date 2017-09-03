@@ -75,7 +75,7 @@ msgstr ""
 #: ../../../overview/grass_overview.rst:65
 msgid ""
 "Explore the `screenshot collection "
-"<http://grass.osgeo.org/screenshots/>`_."
+"<http://grass.osgeo.org/projects/>`_."
 msgstr ""
 
 #: ../../../overview/grass_overview.rst:68

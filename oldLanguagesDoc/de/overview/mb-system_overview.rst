@@ -29,7 +29,7 @@ MB-System wird seit 1993 durch aktive Unterstützung einiger Forschungs- und Wis
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/mb-system/mb-system_screenshot.png
+.. image:: /images/projects/mb-system/mb-system_screenshot.png
   :scale: 60 %
   :alt: screenshot
   :align: right

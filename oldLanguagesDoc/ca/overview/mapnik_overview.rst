@@ -28,7 +28,7 @@ Mapnik s'acostuma a incrustar dintre d'aplicacions en Python que permeten la
 generació de mapes en internet, encara que les darreres millores també permeten
 la creació i la impressió de mapes amb gran resolució.
 
-.. image:: /images/screenshots/mapnik/mapnik-screenshot-barcelona.png
+.. image:: /images/projects/mapnik/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: screenshot
   :align: right

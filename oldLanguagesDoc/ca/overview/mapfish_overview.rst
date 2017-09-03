@@ -38,7 +38,7 @@ MapFish també proporciona un conjunt complet d'eines JavaScript orientat a Apli
 un entorn de proves JavaScript, i eines per comprimir el codi JavaScript. Aquest `toolbox` JavaScript està compost 
 de les eines `ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>` i `GeoExt <http://www.geoext.org>`_.
 
-.. image:: /images/screenshots/mapfish/mapfish-screenshot.jpg
+.. image:: /images/projects/mapfish/mapfish-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

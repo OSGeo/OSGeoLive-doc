@@ -21,7 +21,7 @@ Instal·lar i posar en marxa Ushahidi
 l'explorador d'internet i mostrarà la pàgina d'Instal·lació. Un lloc web
 d'Ushahidi és força simple de crear
 
-.. image:: /images/screenshots/ushahidi/ushahidi-drc-screenshot.png
+.. image:: /images/projects/ushahidi/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: ushahidi desktop icons
   :align: center 
@@ -61,7 +61,7 @@ d'Ushahidi és força simple de crear
    Ara heu de tornar al segon pas de l'instal·lació d'Ushahidi i acabar d'omplir
    els detalls.
 
-.. image:: /images/screenshots/ushahidi/ushahidi_installer_mode_screenshot.png
+.. image:: /images/projects/ushahidi/ushahidi_installer_mode_screenshot.png
   :scale: 50 %
   :alt: mapguide desktop icons
   :align: center
@@ -69,7 +69,7 @@ d'Ushahidi és força simple de crear
 3. Després de tot aixٍ us hauria de dir que la instal·lació ha acabat amb éxit i
    us donarà un enllaç a 'View your website'.
 
-.. image:: /images/screenshots/ushahidi/ushahidi_installer_finished_screenshot.png
+.. image:: /images/projects/ushahidi/ushahidi_installer_finished_screenshot.png
   :scale: 50%
   :alt: ushahidi installer finishes
   :align: center
@@ -81,7 +81,7 @@ d'Ushahidi és força simple de crear
    el **"Map provider"** a OpenStreetMaps (no cal una clau API per OSM, ja que
    és Obert :-) ).
 
-.. image:: /images/screenshots/ushahidi/ushahidi_admin_login_screenshot.png
+.. image:: /images/projects/ushahidi/ushahidi_admin_login_screenshot.png
    :scale: 50%
    :alt: ushahidi admin login
    :align: center

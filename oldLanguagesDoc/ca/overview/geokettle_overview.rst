@@ -21,7 +21,7 @@ GeoKettle possibilita l'Extracció de dades des de fonts de dades, la Transforma
 
 En l'àmbit geoespacial Geokettle es pot comparar amb FME, una eina ETL espacial privativa. GeoKettle és estable, és ràpid, respecta els estàndards, té centenars de funcions i suport per llegir i escriure molts formats d'arxius, serveis i DBMS. GeoKettle s'utilitza a diverses organitzations d'arreu del món, com agències del govern, bancs, asseguradores i integradors de sistemes geoespacials.
 
-.. image:: /images/screenshots/geokettle/geokettle-overview.png
+.. image:: /images/projects/geokettle/geokettle-overview.png
   :scale: 50 %
   :alt: project logo
   :align: right

@@ -40,7 +40,7 @@ standard<../standards/csw_overview>` на языке `Python`_. Стандарт
 pycsw имеет открытый исходный код, распространяется под лицензией MIT и работает
 на всех основных платформах (Windows, Linux, Mac OS X).
 
-.. image:: /images/screenshots/pycsw/pycsw_overview.jpg
+.. image:: /images/projects/pycsw/pycsw_overview.jpg
   :scale: 50 %
   :alt: Скриншот
   :align: right

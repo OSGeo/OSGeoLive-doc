@@ -24,7 +24,7 @@ Map Window GIS
 
 注：Map Window 需要在 Microsoft Windows 操作系统下安装和运行。在 `OSGeo-Live <http://live.osgeo.org>`_ 完整版及 `官方下载页面 <http://mapwindow4.codeplex.com/releases>`_ 可以下载其安装文件。
    
-.. image:: /images/screenshots/mapwindow/mapwindow-screenshot.jpg
+.. image:: /images/projects/mapwindow/mapwindow-screenshot.jpg
   :alt: Mapwindow Screenshot
   :scale: 50 %
   :align: right

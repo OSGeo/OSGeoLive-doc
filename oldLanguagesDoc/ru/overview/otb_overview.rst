@@ -34,7 +34,7 @@ OTB был создан Французским Космическим Агент
 Базовые функции
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/otb/otb-mapping.jpg
+.. image:: /images/projects/otb/otb-mapping.jpg
   :scale: 50 %
   :alt: Скриншот
   :align: right

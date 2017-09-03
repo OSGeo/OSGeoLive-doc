@@ -33,7 +33,7 @@ włączenia widżetu KDE Marble do Twojej aplikacji.
 Główne funkcje
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/marble/marble-history.png
+.. image:: /images/projects/marble/marble-history.png
   :scale: 50 %
   :alt: screenshot
   :align: right

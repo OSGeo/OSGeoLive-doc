@@ -35,7 +35,7 @@ shapefile, o il supporto a PostGIS)
 	  full ISO di `OSGeo-Live <http://live.osgeo.org>`_ o posso essere scaricati
 	  da http://mapwindow4.codeplex.com/releases/view/542097.
 
-.. image:: /images/screenshots/mapwindow/mapwindow_screenshot.png
+.. image:: /images/projects/mapwindow/mapwindow_screenshot.png
   :alt: Mapwindow Open Source GIS Lite
   :scale: 50 %
   :align: right

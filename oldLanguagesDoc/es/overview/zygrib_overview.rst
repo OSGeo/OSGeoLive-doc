@@ -23,7 +23,7 @@ el formato de distribución estándar GRIB.
 Características Principales
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/zygrib/zygrib_xynthia_010b.jpg
+.. image:: /images/projects/zygrib/zygrib_xynthia_010b.jpg
   :scale: 40 %
   :alt: screenshot
   :align: right

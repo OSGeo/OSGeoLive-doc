@@ -43,7 +43,7 @@ versión comercial de S, TIBCO Spotfire S+. Esta compatibilidad permite converti
 diferentes versiones de código S para que corran sin grandes modificaciones en
 R.
 
-.. image:: /images/screenshots/r/r-screenshot.png
+.. image:: /images/projects/r/r-screenshot.png
   :scale: 50 %
   :alt: project logo
   :align: right

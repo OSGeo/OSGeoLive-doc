@@ -33,7 +33,7 @@ gvSIG is known for:
 * being available in over 20 languages (Spanish, English, German, French, Italian,...).
 * being available for Windows and Linux (there are also non-oficial Mac OS X versions).
 
-.. image:: /images/screenshots/gvsig/gvsig_desktop.png
+.. image:: /images/projects/gvsig/gvsig_desktop.png
   :scale: 50 %
   :alt: screenshot
   :align: right

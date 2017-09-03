@@ -29,7 +29,7 @@ SAGA è sviluppato dal 2001, e il centro dello sviluppo di SAGA è localizzato
 nell'Istituto di Geografia dell'Università di Amburgo, con la contribuzione
 di una crescente comunità mondiale.
 
-.. image:: /images/screenshots/saga/saga_overview.png
+.. image:: /images/projects/saga/saga_overview.png
   :scale: 40%
   :alt: screenshot
   :align: right

@@ -29,7 +29,7 @@ GeoMOOSE és ràpid, amb un bon rendiment gestionant centenars de capes i/o serv
 
 L'interfície de l'usuari es pot configurar fàcilment, i es poden afegir serveis addicionals gràcies a l'arquitectura modular.
 
-.. image:: /images/screenshots/geomoose/geomoose-2_6-screenshot001.png
+.. image:: /images/projects/geomoose/geomoose-2_6-screenshot001.png
   :alt: Geomoose Screenshot
   :align: right
 

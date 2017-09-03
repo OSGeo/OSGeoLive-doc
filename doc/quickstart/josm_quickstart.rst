@@ -15,7 +15,7 @@ This quickstart covers basic usage of the Java OpenStreetMap editor.
 
 -  When JOSM starts, it will look something like this:
 
-.. image:: /images/screenshots/josm/josm-splash-page.png
+.. image:: /images/projects/josm/josm-splash-page.png
    :alt: JOSM splash page
 
 JOSM Preferences
@@ -28,7 +28,7 @@ different one.
 
 -  To access the Preferences window, click Edit -> Preferences.
 
-.. image:: /images/screenshots/josm/josm_preferences.png
+.. image:: /images/projects/josm/josm_preferences.png
    :alt: Preferences window
 
 -  On the left side, click the icon that looks like a paint can and
@@ -36,7 +36,7 @@ different one.
 -  At the top of the window, click the tab that says “Look and Feel”.
 -  Choose your language in the dropdown box next to the word “Language”.
 
-.. image:: /images/screenshots/josm/josm_look-and-feel.png
+.. image:: /images/projects/josm/josm_look-and-feel.png
    :alt: Look and feel
 
 -  Click OK.
@@ -54,7 +54,7 @@ Learn Basic Drawing with JOSM
 -  Now let’s open the sample map file in JOSM. Click the “Open” button
    in the upper left.
 
-.. image:: /images/screenshots/josm/josm_open-file.png
+.. image:: /images/projects/josm/josm_open-file.png
    :alt: Open file
 
 -  Find the file **sample.osm**. It is probably in your Downloads
@@ -62,7 +62,7 @@ Learn Basic Drawing with JOSM
    click “Open”.
 -  You should now see a sample map that looks like this:
 
-.. image:: /images/screenshots/josm/josm_sample-file.png
+.. image:: /images/projects/josm/josm_sample-file.png
    :alt: Sample file
 
 
@@ -82,7 +82,7 @@ Basic Operations
    and right by holding your left mouse down and moving the bar left or
    right with your mouse.
 
-.. image:: /images/screenshots/josm/josm_scale-bar.png
+.. image:: /images/projects/josm/josm_scale-bar.png
    :alt: Scale bar
 
 
@@ -155,7 +155,7 @@ Drawing
 -  Until now, you have been using the Select tool, which looks like
    this:
 
-.. image:: /images/screenshots/josm/josm_select-tool.png
+.. image:: /images/projects/josm/josm_select-tool.png
    :alt: Select tool
 
 
@@ -164,7 +164,7 @@ Drawing
    nothing is selected.
 -  Click on the second button, the Draw tool.
 
-.. image:: /images/screenshots/josm/josm_draw-tool.png
+.. image:: /images/projects/josm/josm_draw-tool.png
    :alt: Draw tool
 
 
@@ -185,7 +185,7 @@ Add Presets
    shapes are fields, buildings, or something else.
 -  Click on the Select tool, in the column of buttons on the left.
 
-.. image:: /images/screenshots/josm/josm_select-tool.png
+.. image:: /images/projects/josm/josm_select-tool.png
    :alt: Select tool
 
 

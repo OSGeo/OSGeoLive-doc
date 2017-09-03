@@ -31,7 +31,7 @@ I dati sono sono forniti a tre livelli di gerarchia:
 
 * un piccolo bacino idrografico in una area rurale con risoluzione dei dari di 1m-3m (vedere immagine).
 
-.. image:: /images/screenshots/nc_dataset/north_carolina_dataset_nviz.jpg
+.. image:: /images/projects/nc_dataset/north_carolina_dataset_nviz.jpg
   :scale: 60 %
   :alt: North Carolina dataset screenshot
   :align: right

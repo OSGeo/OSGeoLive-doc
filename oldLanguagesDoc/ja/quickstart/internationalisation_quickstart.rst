@@ -20,7 +20,7 @@ OSGeo-Live は標準で多くの言語に対応しています。言語を切り
    #. :guilabel:`Log in` ボタンをクリックしてください。
    #. ほかの言語に変更したいときは再度言語を選択してください。
 
-   .. image:: /images/screenshots/osgeolive/osgeolive_login.png
+   .. image:: /images/projects/osgeolive/osgeolive_login.png
      :scale: 70 %
      :alt: login screen
 

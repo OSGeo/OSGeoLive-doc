@@ -27,7 +27,7 @@ Ejecutar la aplicación
 
 
 
-    .. image:: /images/screenshots/zoo/zoo-project-demo-1.png
+    .. image:: /images/projects/zoo/zoo-project-demo-1.png
       :scale: 50 %
       :alt: screenshot
       :align: center
@@ -36,7 +36,7 @@ Ejecutar la aplicación
 *	De click sobre el mapa para seleccionar un feature del servidor WFS de :doc:`GeoServer <../overview/geoserver_overview>`, el feature será desplegado en azul, luego de click en un proceso de geometría simple como Buffer, Centroid, ConvexHull o Boundary y el resultado será desplegado en amarillo.
 
 
-    .. image:: /images/screenshots/zoo/zoo-project-demo-2.png
+    .. image:: /images/projects/zoo/zoo-project-demo-2.png
       :scale: 50 %
       :alt: screenshot
       :align: center
@@ -45,7 +45,7 @@ Ejecutar la aplicación
 *	Ahora seleccione otro feature cercano al anterior, de click en el botón de procesar múltiples geometrías Union, Intersection, Symmetric Difference o Difference para obtener el resultado desplegado en color rojo en el mapa.
 
 
-    .. image:: /images/screenshots/zoo/zoo-project-demo-3.png
+    .. image:: /images/projects/zoo/zoo-project-demo-3.png
       :scale: 50 %
       :alt: screenshot
       :align: center
