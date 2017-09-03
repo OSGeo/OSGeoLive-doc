@@ -39,7 +39,7 @@ oraz wysokiej wydajności i zgodnym ze standardami
 :doc:`../standards/wms_overview`. 
 GeoServer forms a core component of the Geospatial Web. 
 
-.. image:: /images/screenshots/800x600/geoserver.png
+.. image:: /images/screenshots/geoserver/geoserver.png
   :scale: 60 %
   :alt: Screen Shot of GeoServer
   :align: right

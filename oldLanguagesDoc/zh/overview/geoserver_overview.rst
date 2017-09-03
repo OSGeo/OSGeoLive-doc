@@ -30,7 +30,7 @@ Web 服务
 :doc:`../standards/wms_overview` 。
 GeoServer已成了Geospatial Web的一个核心组件。 
 
-.. image:: /images/screenshots/800x600/geoserver.png
+.. image:: /images/screenshots/geoserver/geoserver.png
   :scale: 60 %
   :alt: Screen Shot of GeoServer
   :align: right

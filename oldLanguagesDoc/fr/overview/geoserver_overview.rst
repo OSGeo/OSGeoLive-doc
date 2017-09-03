@@ -36,7 +36,7 @@ Consortium <http://www.opengeospatial.org>`_ (OGC) pour les standards
 conforme au :doc:`../standards/wms_overview`. 
 GeoServer forme un des composants essentiels du web géospatial. 
 
-.. image:: /images/screenshots/800x600/geoserver.png
+.. image:: /images/screenshots/geoserver/geoserver.png
   :scale: 60 %
   :alt: Capture d'écran de GeoServer
   :align: right

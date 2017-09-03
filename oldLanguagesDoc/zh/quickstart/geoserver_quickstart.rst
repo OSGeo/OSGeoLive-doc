@@ -37,7 +37,7 @@ GeoServer 快速入门文档
 #. 稍等片刻，系统将会启动。
 #. 访问位于 http://localhost:8082/geoserver/web 的系统界面。
 
-.. image:: /images/screenshots/800x600/geoserver-login.png
+.. image:: /images/screenshots/geoserver/geoserver-login.png
     :scale: 70 %
 
 基本视图
@@ -45,17 +45,17 @@ GeoServer 快速入门文档
 
 　　开启 |GS| 界面后，使用用户名“admin”和密码“geoserver”登录。管理界面将会显示。
 
-.. image:: /images/screenshots/800x600/geoserver-welcome.png
+.. image:: /images/screenshots/geoserver/geoserver-welcome.png
     :scale: 70 %
 
 　　*Data 数据* 面板中的 **Layer Preview** 连接可以用于预览服务中载入的数据。
   
-.. image:: /images/screenshots/800x600/geoserver-layerpreview.png
+.. image:: /images/screenshots/geoserver/geoserver-layerpreview.png
     :scale: 70 %
 
 　　在页面底部 **tiger-ny** 一览点击 **OpenLayers** ，可以用 OpenLayers 开启示例数据的显示。
 
-.. image:: /images/screenshots/800x600/geoserver-preview.png
+.. image:: /images/screenshots/geoserver/geoserver-preview.png
     :scale: 70 %
 
 　　该界面的缩放可以用三种方式控制：
@@ -79,28 +79,28 @@ GeoServer 快速入门文档
 
 　　为了存储服务所需的数据，需要创建一个“Store”。在 |GS| 的管理员页面选择 :guilabel:`Stores` 并点击 :guilabel:`Add new Store` 建立。
 
-.. image:: /images/screenshots/800x600/geoserver-newstore.png
+.. image:: /images/screenshots/geoserver/geoserver-newstore.png
     :scale: 70 %
     :align: center
     :alt: The New Store page
 
 　　选择 :guilabel:`Directory of spatial files` 类别，创建页面显示如下：
 
-.. image:: /images/screenshots/800x600/geoserver-new-vector.png
+.. image:: /images/screenshots/geoserver/geoserver-new-vector.png
     :scale: 70 %
     :align: center
     :alt: Filling in the New Store page
 
 　　输入所需的名称，例如 *Natural Earth* ；以及目标目录，例如 :file:`/usr/local/share/data/natural_earth/` 。 :guilabel:`Browse` 按钮可用于选择目标目录。完成后点击 :guilabel:`save` 。
 
-.. image:: /images/screenshots/800x600/geoserver-naturalearth.png
+.. image:: /images/screenshots/geoserver/geoserver-naturalearth.png
     :align: center 
     :scale: 70 %
     :alt: The Natural Earth Datastore
 
 　　点击各个图层右侧的 :guilabel:`publish` 执行发布。界面将转到 *Layers*：
 
-.. image:: /images/screenshots/800x600/geoserver-publish.png
+.. image:: /images/screenshots/geoserver/geoserver-publish.png
     :align: center
     :scale: 70 %
     :alt: The layer publishing page
@@ -128,7 +128,7 @@ GeoServer 快速入门文档
 
 　　开启 |UG| 并添加（左上角“add data”按钮）shp 文件，或者拖拽目标至地图显示窗口亦可。这里使用 10m_land 和 10m_ocean 两个数据。 |UG| 会自动使用一个默认的样式进行显示。
 
-.. image:: /images/screenshots/800x600/geoserver-udig_startup.png
+.. image:: /images/screenshots/geoserver/geoserver-udig_startup.png
    :align: center
    :scale: 70 %
    :alt: Default Styling in uDig
@@ -136,7 +136,7 @@ GeoServer 快速入门文档
 　　这里默认的桔黄色海洋看上去很不自然。在 :ref:`Layer list 图层列表 <Layer_list>` 选择形似调色板的样式编辑按钮：
 
 .. _Layer_list:
-.. image:: /images/screenshots/800x600/geoserver-layer-chooser.png
+.. image:: /images/screenshots/geoserver/geoserver-layer-chooser.png
    :align: center
    :scale: 70 %
    :alt: The Layer list window
@@ -144,7 +144,7 @@ GeoServer 快速入门文档
 　　这将开启 :ref:`Style Pane 样式控制面板 <Style_Pane>` 。这里可以直接选择蓝色作为海洋图层的颜色，调节透明度（此处设为 100%），并调节边界颜色使之匹配。
 
 .. _Style_Pane:
-.. image:: /images/screenshots/800x600/geoserver-style-pane.png
+.. image:: /images/screenshots/geoserver/geoserver-style-pane.png
    :align: center
    :scale: 70 %
    :alt: The Style Pane 
@@ -152,21 +152,21 @@ GeoServer 快速入门文档
 　　双击 ``OK`` 后， |UG| 将显示结果。
 
 
-.. image:: /images/screenshots/800x600/geoserver-blue-ocean.png
+.. image:: /images/screenshots/geoserver/geoserver-blue-ocean.png
    :align: center
    :scale: 70 %
    :alt: Blue Oceans
 
 　　
 
-.. image:: /images/screenshots/800x600/geoserver-custom-colour.png
+.. image:: /images/screenshots/geoserver/geoserver-custom-colour.png
    :align: center
    :scale: 70 %
    :alt: Defining a nicer land color
 
 　　调整后的世界地图显示效果。
 
-.. image:: /images/screenshots/800x600/geoserver-basic-world.png
+.. image:: /images/screenshots/geoserver/geoserver-basic-world.png
    :align: center
    :scale: 70 %
    :alt: A basic word map
@@ -176,7 +176,7 @@ GeoServer 快速入门文档
 
 　　完成以上步骤后，需要将样式导入 |GS| 中。在 |UG| 界面点击“Export”可以输出 SLD 文件。完成两个图层的输出后，在 |GS| 管理界面选择 ``Styles``（``Data`` 面板），并点击 ``Add New Style`` 。在页面底部点击 ``browse`` 可以浏览选择之前创建的 SLD 文件。选中后点击 ``browse`` 旁边的 ``upload`` 可导入该文件。导入后，编辑器中若出现高亮的错误行，系统可以执行检查并提供进一步的信息。若不需要这些行的信息，也可以直接忽略。
 
-.. image:: /images/screenshots/800x600/geoserver-add-style.png
+.. image:: /images/screenshots/geoserver/geoserver-add-style.png
    :align: center
    :scale: 70 %
    :alt: Adding a Style to GeoServer
@@ -195,7 +195,7 @@ GeoServer 快速入门文档
 
     　　在 Natural Earth 目录有 :file:`HYP_50M_SR_W` ，其中包含了一副栅格影象。在 |GS| 的 Store 页面选择 :menuselection:`New Stores --> World Image` 并在 :guilabel:`URL` 输入 :file:`/home/user/data/natural_earth/HYP_50M_SR_W/HYP_50M_SR_W.tif` 即可导入。
 
-    .. image:: /images/screenshots/800x600/geoserver-raster.png
+    .. image:: /images/screenshots/geoserver/geoserver-raster.png
         :align: center
         :scale: 70 %
         :alt: Adding a Raster

@@ -25,7 +25,7 @@ GeoServer
 
 Ο GeoServer είναι ένας διαδικτυακός εξυπηρετητής που επιτρέπει την δημοσίευση χαρτών και χωρικών δεδομένων από πληθώρα προτύπων σε λογισμικά πελάτες όπως οι περιηγητές διαδικτύου και τα λογισμικά GIS. Τα δεδομένα δημοσιεύονται μέσω ανοιχτών διεπαφών όπως τα WMS, WFS, WCS, WPS, Tile Caching κλπ. Ο GeoServer προσφέρει μια διαδικτυακή εφαρμογή για την παραμετροποίηση των υπηρεσιών και την διασύνδεση τους με πολλές πηγές δεδομένων.
 
-.. image:: /images/screenshots/800x600/geoserver.png
+.. image:: /images/screenshots/geoserver/geoserver.png
   :scale: 60 %
   :alt: Screen Shot of GeoServer
   :align: right
