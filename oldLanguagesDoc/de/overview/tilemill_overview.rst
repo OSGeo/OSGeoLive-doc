@@ -38,7 +38,7 @@ TileMill wird typischerweise in Verbindung mit einem Desktop GIS (wie
 beispielsweise QGIS) für die Vorbereitung der Daten und einem Graphikprogramm
 (wie GIMP) für die Erzeugung von Symbolen, Mustern und Texten verwendet.
 
-.. image:: /images/screenshots/1024x768/tilemill_interface2.png
+.. image:: /images/screenshots/tilemill_interface2.png
   :scale: 50 %
   :alt: TilleMill Benutzeroberfläche
   :align: right
