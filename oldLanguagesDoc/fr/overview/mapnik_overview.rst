@@ -19,7 +19,7 @@ Mapnik est une boîte à outils pour générer des belles cartes, avec des bordu
 
 Typiquement, Mapnik est encapsulé dans des applications Python qui fournissent des cartes via Internet malgré le fait qu'avec l'amélioration des résolutions et de la mise à l'échelle, Mapnik ait été aussi récemment utilisé pour créer des cartes papier haute-résolutions.
 
-.. image:: /images/screenshots/1024x768/mapnik-screenshot-barcelona.png
+.. image:: /images/screenshots/mapnik/mapnik-screenshot-barcelona.png
   :scale: 40 %
   :alt: Capture d'écran Mapnik
   :align: right
