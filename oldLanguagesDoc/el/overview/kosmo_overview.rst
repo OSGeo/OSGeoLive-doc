@@ -20,7 +20,7 @@ Kosmo Desktop
 Το Kosmo - Desktop ακολουθεί τα πρότυπα του OGC και παρέχει άριστη τοπολογική ακεραιότητα. 
 Διαθέτει αρχιτεκτονική με πρόσθετα (plug-in) και είναι εύκολο να προσαρμοστεί σε συγκεκριμένες απαιτήσεις και σκοπούς.
 
-.. image:: /images/screenshots/1024x768/kosmo.jpg
+.. image:: /images/screenshots/kosmo.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

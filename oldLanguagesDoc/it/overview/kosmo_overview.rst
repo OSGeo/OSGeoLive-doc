@@ -22,7 +22,7 @@ e formati vettoriali e raster.
 Kosmo - Desktop segue gli standards OGC e fornisce un'eccellente integrità topologica. 
 La sua archittettura a plugin permette che sia facilmente personalizzazione per specifici scopi.
 
-.. image:: /images/screenshots/1024x768/kosmo.jpg
+.. image:: /images/screenshots/kosmo.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

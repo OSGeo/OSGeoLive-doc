@@ -21,7 +21,7 @@ y analizar datos espaciales desde gran variedad de bases de datos, formatos vect
 Kosmo - Cliente de Escritorio cumple los estándares OGC y proporciona una excelente integridad topológica.
 Su arquitectura de extensiones permite personalizarlo fácilmente para fines específicos.
 
-.. image:: /images/screenshots/1024x768/kosmo.jpg
+.. image:: /images/screenshots/kosmo.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

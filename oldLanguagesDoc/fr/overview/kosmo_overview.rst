@@ -20,7 +20,7 @@ et d'analyser les données spatiales d'une variété de bases de données, en fo
 Kosmo - Desktop respecte les standards OGC et fournit une excellente intégrité topologique. 
 C'est une architecture de plugins qui permet d'être facilement adaptés pour des besoins spécifiques.
 
-.. image:: /images/screenshots/1024x768/kosmo.jpg
+.. image:: /images/screenshots/kosmo.jpg
   :scale: 50 %
   :alt: Capture d'écran
   :align: right
