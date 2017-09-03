@@ -32,7 +32,7 @@ basés sur les bibliothèques GEOS et OGR.
 
 ZOO est composé de trois parties:
 
-.. image:: /images/projects/zoo/zoo-project-demo-2.png
+.. image:: /images/projects/zoo-project/zoo-project-demo-2.png
   :scale: 40 %
   :alt: Capture d'écran ZOO
   :align: right

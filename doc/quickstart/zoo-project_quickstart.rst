@@ -36,7 +36,7 @@ Running
 
 *       Firefox will open the ZOO Project demonstration landing page. From here, you can decide what is the demonstration you want to use.
 
-.. image:: /images/projects/zoo/zoo-demo-2.png
+.. image:: /images/projects/zoo-project/zoo-demo-2.png
   :scale: 50 %
   :alt: screenshot
   :align: center
@@ -46,7 +46,7 @@ OGR spatial tools
 
 *	Click on the map to select a feature from the :doc:`GeoServer <../overview/geoserver_overview>` WFS Server, the feature will be displayed in blue, then click on simple geometry process like Buffer, Centroid, ConvexHull or Boundary and the result will be displayed in yellow.
 
-.. image:: /images/projects/zoo/zoo-demo-3.png
+.. image:: /images/projects/zoo-project/zoo-demo-3.png
   :scale: 50 %
   :alt: screenshot
   :align: center
@@ -54,7 +54,7 @@ OGR spatial tools
 
 *	Now select another feature near the first you've selected then click on multiple geometries process button Union, Intersection, Symmetric Difference or Difference to get the result displayed in red on the map.
 
-.. image:: /images/projects/zoo/zoo-demo-4.png
+.. image:: /images/projects/zoo-project/zoo-demo-4.png
   :scale: 50 %
   :alt: screenshot
   :align: center
@@ -64,7 +64,7 @@ CGAL triangulations
 
 *	From the CGAL triangulations application, you simply have to press the Voronoi or Delaunay button to display on your map the result of the WPS service execution, as shown bellow.
 
-.. image:: /images/projects/zoo/zoo-demo-5.png
+.. image:: /images/projects/zoo-project/zoo-demo-5.png
   :scale: 50 %
   :alt: screenshot
   :align: center
@@ -76,7 +76,7 @@ OTB Applications
 
 *	From the OTB application demonstration interface, you have to fill the form on the left to configure the WPS service execution. Once, you have selected the value for yoru processing, you can then press the Execute button at the bottom of the left form. In case you choose image/png as the output format, you will see the result of your processing displayed on the map. You can see bellow a sample KMeansClassification execution when selecting the image/png output format.
 
-.. image:: /images/projects/zoo/zoo-demo-1.png
+.. image:: /images/projects/zoo-project/zoo-demo-1.png
   :scale: 50 %
   :alt: screenshot
   :align: center

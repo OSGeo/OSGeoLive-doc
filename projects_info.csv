@@ -1,25 +1,19 @@
 # document? | page/project name |version| Quickstart? |Overview?|Classification| last | One Liner| OpenHub name 
 Y  |  52nSOS  |  4.4.0  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  SensorObservationService
 Y  |  52nWPS  |  3.6.1  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  n52-wps
-Y|  52nWSS  |  retired  |  Y  |  Y  |    |6.5|  Web Security Service, retired after OSGeo-Live 6.5  |  
-Y|  atlasstyler  |  retired  |  Y  |  Y  |    |6|  Style Editor, retired after OSGeo-Live 6.0  |  Geopublishing
-Y|  cartaro  |  retired  |  Y  |  Y  |    |10|  Geospatial CMS  |  
 Y  |  cesium  |1.34|  Y  |  Y  |  Browser Facing GIS  |    |  3D globes and 2D maps in a browser  |  cesiumjs
 Y  |  deegree  |  3.3.20  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  deegree3
 Y  |  eoxserver  |  0.4.0  |  Y  |  Y  |  Web Services  |    |  Web Coverage Service  |  eoxserver
 Y  |  gdal  |  2.2.0  |  Y  |  Y  |  Geospatial Libraries  |    |  Geospatial Data Translation Tools  |  gdal
-N  |  geokettle  |  retire  |  N  |  N  |  Spatial Tools  |11|  ETL (Extract, Transform and Load) Tool  |  geokettle
-Y  |  geomajas  |  retire?  |  Y  |  Y  |  Browser Facing GIS  |    |  Browser GIS Client  |  geomajas
+Y  |  geomajas  ||  Y  |  Y  |  Browser Facing GIS  |    |  Browser GIS Client  |  geomajas
 Y  |  geomoose  |  2.9.3  |  Y  |  Y  |  Browser Facing GIS  |    |  Web GIS Portal  |  geomoose
 Y  |  geonetwork  |  3.2.1  |  Y  |  Y  |    |    |  Metadata Catalogue  |  geonetwork-opensource
 Y  |  geonode  |  2.6.0  |  Y  |  Y  |  Browser Facing GIS  |    |  Geospatial Content Management System  |  geonode
-N  |  geopublisher  |  retired  |  N  |  N  |    |6|  Catalogue, retired after OSGeo-Live 6.0  |  Geopublishing
 Y  |  geos  |  3.6.1  |  N  |  Y  |  Geospatial Libraries  |    |  C/C++ Spatial Library  |  geos
 Y  |  geoserver  |  2.10.1  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  geoserver
 Y  |  geotools  |  NA  |  N  |  Y  |  Geospatial Libraries  |    |  Java GIS Toolkit  |  geotools
-N  |  gmt  |  retire  |  N  |  N  |  Spatial Tools  |11|  Cartographic Rendering  |  GMT
-N  |  gpsdrive  |  retired  |  N  |  N  |    |9|  GPS Navigation, retired after OSGeo-Live 9.0  |  
-Y  |  gpsprune  |  NA  |  Y  |  Y  |  Navigation and Maps  |    |  View, Edit and Convert GPS Tracks  |  gpsprune
+N  |  gmt  |  5.2.1|  N  |  N  |  Spatial Tools  |11|  Cartographic Rendering  |  GMT
+Y  |  gpsprune  |   18.6.0  |  Y  |  Y  |  Navigation and Maps  |    |  View, Edit and Convert GPS Tracks  |  gpsprune
 Y  |  grass  |  7.2.1  |  Y  |  Y  |  Desktop GIS  |    |    |  grass_gis
 Y  |  gvsig  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  gvsig-desktop-2
 Y  | ideditor|  2.2.2|Y|Y|  Navigation and Maps  || OpenStreetMap Web Editor|iD_OSM
@@ -76,3 +70,12 @@ N  |  webworldwind  |  NA  |  N  |  N  |  NA  |    |    |
 N  |  worldwindjava  |  NA  |  N  |  N  |  Navigation and Maps  |    |  Desktop Virtual Globe  |  
 Y  |  zoo-project  |  1.6.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  zoo-project
 Y  |  zygrib  |  7.0.0  |  Y  |  Y  |  Domain Specific GIS  |    |    |  
+######################||||||||
+# RETIERED||||||||
+######################||||||||
+N  |  52nWSS  |  retired  |  N  |  N  |    |6.5|  Web Security Service, retired after OSGeo-Live 6.5  |  
+N  |  atlasstyler  |  retired  |  N  |  N  |    |6|  Style Editor, retired after OSGeo-Live 6.0  |  Geopublishing
+N  |  cartaro  |  retired  |  N  |  N  |    |10|  Geospatial CMS  |  
+N  |  geokettle  |  retire  |  N  |  N  |  Spatial Tools  |11|  ETL (Extract, Transform and Load) Tool  |  geokettle
+N  |  geopublisher  |  retired  |  N  |  N  |    |6|  Catalogue, retired after OSGeo-Live 6.0  |  Geopublishing
+N  |  gpsdrive  |  retired  |  N  |  N  |    |9|  GPS Navigation, retired after OSGeo-Live 9.0  |  

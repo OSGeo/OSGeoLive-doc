@@ -29,7 +29,7 @@ ZOO Project
 
 Το ZOO αποτελείται από τρία μέρη:
 
-.. image:: /images/projects/zoo/zoo-project-demo-2.png
+.. image:: /images/projects/zoo-project/zoo-project-demo-2.png
   :scale: 40 %
   :alt: screenshot
   :align: right

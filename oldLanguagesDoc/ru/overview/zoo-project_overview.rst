@@ -31,7 +31,7 @@ ZOO-Project поддерживает множество языков прогр�
 
 ZOO включает три части:
 
-.. image:: /images/projects/zoo/zoo-project-demo-2.png
+.. image:: /images/projects/zoo-project/zoo-project-demo-2.png
   :scale: 40 %
   :alt: снимок экрана
   :align: right

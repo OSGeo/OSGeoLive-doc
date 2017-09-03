@@ -27,7 +27,7 @@ Gebrauch machen, basierend auf den  :doc:`GEOS <geos_overview>` und :doc:`OGR <g
 
 ZOO besteht aus drei Komponenten:
 
-.. image:: /images/projects/zoo/zoo-project-demo-2.png
+.. image:: /images/projects/zoo-project/zoo-project-demo-2.png
   :scale: 40 %
   :alt: Bildschirmfoto
   :align: right

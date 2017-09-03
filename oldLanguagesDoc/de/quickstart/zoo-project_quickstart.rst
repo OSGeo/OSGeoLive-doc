@@ -34,7 +34,7 @@ Ablauf
 
 *	Die "ZOO Project Spatial Tools Demo" öffnet sich hierauf in Firefox.
 
-.. image:: /images/projects/zoo/zoo-project-demo-1.png
+.. image:: /images/projects/zoo-project/zoo-project-demo-1.png
   :scale: 50 %
   :alt: Zoo Projekt Demo
   :align: center
@@ -42,7 +42,7 @@ Ablauf
   
 *	Wähle ein :doc:`GeoServer <../overview/geoserver_overview>` WFS-Server Objekt durch Klick auf die Karte. Das Objekt wird daraufhin in Blau hervorgehoben. Nach Auswahl einfacher Geoverarbeitungsabfragen, wie "Buffer", "Centroid", "ConvexHull" oder "Boundary", werden die Berechnungsergebnisse in Gelb dargestellt.
 
-.. image:: /images/projects/zoo/zoo-project-demo-2.png
+.. image:: /images/projects/zoo-project/zoo-project-demo-2.png
   :scale: 50 %
   :alt: Zoo Projekt Demo
   :align: center
@@ -50,7 +50,7 @@ Ablauf
 
 *	Jetzt wählt man ein weiteres Objekt in der näheren Umgebung des vorherigen Objekts, und nach Auswahl einer Methode für kombinierte Geoverarbeitung, wie "Union", "Intersection", "Symmetric Difference" oder "Difference", wird das Ergebnis auf der Karte in Rot dargestellt.
 
-.. image:: /images/projects/zoo/zoo-project-demo-3.png
+.. image:: /images/projects/zoo-project/zoo-project-demo-3.png
   :scale: 50 %
   :alt: Zoo Projekt Demo
   :align: center

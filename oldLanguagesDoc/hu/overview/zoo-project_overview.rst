@@ -32,7 +32,7 @@ Python modul), melyek a :doc:`GEOS <geos_overview>` és a
 
 A ZOO három részből áll:
 
-.. image:: /images/projects/zoo/zoo-project-demo-2.png
+.. image:: /images/projects/zoo-project/zoo-project-demo-2.png
   :scale: 40 %
   :alt: screenshot
   :align: right

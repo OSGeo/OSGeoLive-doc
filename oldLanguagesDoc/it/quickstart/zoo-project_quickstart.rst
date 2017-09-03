@@ -41,7 +41,7 @@ Running
 * Verrà avviato Firefox sulla demo ZOO Project Spatial Tools.
 
 
-.. image:: /images/projects/zoo/zoo-project-demo-1.png
+.. image:: /images/projects/zoo-project/zoo-project-demo-1.png
   :scale: 50 %
   :alt: screenshot
   :align: center
@@ -52,7 +52,7 @@ Running
   processi con geometria semplice come Buffer, Centroid, ConvexHull o Boundary e il
   risultato sarà visualizzato in giallo.
 
-.. image:: /images/projects/zoo/zoo-project-demo-2.png
+.. image:: /images/projects/zoo-project/zoo-project-demo-2.png
   :scale: 50 %
   :alt: screenshot
   :align: center
@@ -62,7 +62,7 @@ Running
   un pulsante dei pocressi geometrie multiple come Union, Intersection, Symmetric
   Difference o Difference e otterete il risultato sulla mappa rappresentato in rosso.
 
-.. image:: /images/projects/zoo/zoo-project-demo-3.png
+.. image:: /images/projects/zoo-project/zoo-project-demo-3.png
   :scale: 50 %
   :alt: screenshot
   :align: center

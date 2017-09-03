@@ -30,7 +30,7 @@ The three demontration applications are available from the ZOO-Project demo land
 
 ZOO is made of three parts:
 
-.. image:: /images/projects/zoo/zoo-demo-2.png
+.. image:: /images/projects/zoo-project/zoo-demo-2.png
   :scale: 40 %
   :alt: screenshot
   :align: right
