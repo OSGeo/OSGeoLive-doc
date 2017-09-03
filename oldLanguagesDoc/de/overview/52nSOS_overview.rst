@@ -22,7 +22,7 @@ erlaubt den Zugriff auf Echtzeit-Sensordaten sowie auf Sensordatenarchive. Ein
 Sensor kann dabei z.B. eine Wetterstation, ein Pegel an einem Fluss oder eine
 Station zur Messung der Luftqualität sein.
 
-.. image:: /images/projects/52n_sos/52n_sos_overview.png
+.. image:: /images/projects/52nSOS/52n_sos_overview.png
   :scale: 60 %
   :alt: 52°North SOS and JavaScript client
   :align: right

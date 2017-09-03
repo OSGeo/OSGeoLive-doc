@@ -23,7 +23,7 @@ pozwala na czytanie zarówno archiwalnych, jak i danych odbieranych bezpośredni
 przez sensory zdalne bądź in-situ. Sensorem może być kamera znajdująca się 
 na satelicie lub wodomierz w strumieniu.
  
-.. image:: /images/projects/52n_sos/52n_sos_overview.png
+.. image:: /images/projects/52nSOS/52n_sos_overview.png
   :scale: 60 %
   :alt: screenshot of 52°North SOS test client version 1.0.0
   :align: right

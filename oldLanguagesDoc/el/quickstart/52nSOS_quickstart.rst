@@ -23,7 +23,7 @@
 
 2) Ο περιηγητής Firefox θα ανοίξει στην δοκιμαστική εφαρμογή 52°North SOS (δείτε Εικόνα 1):
 
-.. image:: /images/projects/52n_sos/52n_sos_test_client_start.png
+.. image:: /images/projects/52nSOS/52n_sos_test_client_start.png
   :scale: 100 %
   :alt: screenshot of 52°North SOS test client
   :align: center
@@ -35,7 +35,7 @@
 
 4) Πατήστε το κουμπί **Send** [2] και το αίτημά σας θα μεταδοθεί στο 52°North SOS. Ως αποτέλεσμα επιστρέφει ένα XML αρχείο (δείτε Εικόνα 2), το οποίο εμφανίζει τις δυνατότητες (Capabilities) του SOS (διαθέσιμα δεδομένα, μεταδεδομένα υπηρεσίας...).
 
-.. image:: /images/projects/52n_sos/52n_sos_response.png
+.. image:: /images/projects/52nSOS/52n_sos_response.png
   :scale: 70 %
   :alt: screenshot of 52°North SOS output - GetCapabilities response encoded in XML
   :align: center

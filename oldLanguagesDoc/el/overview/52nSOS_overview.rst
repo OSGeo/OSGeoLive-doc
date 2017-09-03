@@ -19,7 +19,7 @@
 Η υπηρεσία `Sensor Observation Service (SOS) <../standards/sos_overview>`_ της 52°North υποστηρίζει την διαλειτουργική επισκόπηση δεδομένων από ενεργούς δέκτες ή από αποθηκευμένα αρχεία παρατηρήσεων τους. Ένας δέκτης μπορεί να μετρά το ύψος της στάθμης του νερού σε ένα ποτάμι, μπορεί να είναι ένας μετεωρολογικός σταθμός ή ένας σταθμός μέτρησης ποιότητας του αέρα. 
 
 
-.. image:: /images/projects/52n_sos/52n_sos_overview.png
+.. image:: /images/projects/52nSOS/52n_sos_overview.png
   :scale: 60 %
   :alt: εικόνα της έκδοσης 1.0.0 της υπηρεσίας 52°North SOS
   :align: right

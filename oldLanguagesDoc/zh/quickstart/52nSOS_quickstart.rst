@@ -23,7 +23,7 @@ Getting Started
 
 2) Firefox 浏览器将开启 52° North SOS 演示客户端的欢迎页面（见图1）。请选择你希望使用的版本，例如此图中的 1.0.0 版：
 
-.. image:: /images/projects/52n_sos/52n_sos_test_client_start.png
+.. image:: /images/projects/52nSOS/52n_sos_test_client_start.png
   :scale: 100 %
   :alt: screenshot of 52°North SOS test client welcome page
   :align: center
@@ -32,7 +32,7 @@ Getting Started
 
 3) 演示客户端将会显示。
 
-.. image:: /images/projects/52n_sos/52n_sos_test_client_v1_0_0_GetCapabilities.png
+.. image:: /images/projects/52nSOS/52n_sos_test_client_v1_0_0_GetCapabilities.png
   :scale: 100 %
   :alt: screenshot of 52°North SOS test client version 1.0.0
   :align: center
@@ -43,7 +43,7 @@ Getting Started
   
 5) 点击 **Send 按钮** （见图2 中的 [2]）将请求发送至 52°North SOS 。返回结果是一个 XML 文档（见图3），显示出目标传感器的信息，包括提供者、关键字、可用操作、滤波器等元数据以及观测数据。按 Ctrl+U 可以显示源码。
 
-.. image:: /images/projects/52n_sos/52n_sos_response.png
+.. image:: /images/projects/52nSOS/52n_sos_response.png
   :scale: 70 %
   :alt: screenshot of 52°North SOS output - GetCapabilities response encoded in XML
   :align: center

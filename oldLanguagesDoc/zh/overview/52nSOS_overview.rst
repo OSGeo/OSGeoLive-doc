@@ -18,7 +18,7 @@ Web服务
 52°North :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` 
 支持访问来自当地与远程传感器实时获取或者历史存档的数据。传感器可以是安装在卫星上的照相机或者河流里的水位仪。
  
-.. image:: /images/projects/52n_sos/52n_sos_overview.png
+.. image:: /images/projects/52nSOS/52n_sos_overview.png
   :scale: 100 %
   :alt: screenshot of sos test client
   :align: right

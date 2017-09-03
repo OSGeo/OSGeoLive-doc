@@ -24,7 +24,7 @@ la lecture en directe et la capture de données compressées depuis des capteurs
 Un capteur peut aussi bien être une caméra sur un satellite qu'une échelle pour mesurer le niveau d'eau 
 dans un courant, une station météo ou de mesure de la qualité de l'air.
  
-.. image:: /images/projects/52n_sos/52n_sos_overview.png
+.. image:: /images/projects/52nSOS/52n_sos_overview.png
   :scale: 60 %
   :alt: Capture d'écran du client javascript de 52°North SOS
   :align: right

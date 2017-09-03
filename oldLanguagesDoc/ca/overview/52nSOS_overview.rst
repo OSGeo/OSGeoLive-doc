@@ -22,7 +22,7 @@ així com les que hagin estat capturades tant per sensors in-situ com remots. El
 de tipus molt diferents, com per exemple una càmera digital en un satèl·lit o 
 bé un dispositiu per mesurar el cabdal d'un riu. 
 
-.. image:: /images/projects/52n_sos/52n_sos_overview.png
+.. image:: /images/projects/52nSOS/52n_sos_overview.png
   :scale: 100 %
   :alt: captura de pantalla d'un client SOS
   :align: right
