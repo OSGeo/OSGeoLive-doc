@@ -17,7 +17,7 @@ Meteorología y Climatología
 
 Iris is una potente biblioteca de Python para analizar y visualizar datos meteorológicos y oceanográficos l. Incluye operaciones de manipulación de datos, como aritmética, interpolaciones y estadísticas; y ciertas opciones para hacer gráficos de forma integrada. Iris permite actualmente acceso de lectura/escritura para varios formatos, incluyendo (CF-)netCDF, GRIB,  y fichero PP.
 
-.. image:: /images/screenshots/800x600/iris.jpg
+.. image:: /images/screenshots/iris/iris.jpg
   :alt: Iris
   :align: right
   :scale: 80 %

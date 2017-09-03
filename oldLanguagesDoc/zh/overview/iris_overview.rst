@@ -28,7 +28,7 @@ Iris是一个功能强大的Python库，用于分析和可视化气象和海洋�
 Iris支持读写许多数据格式，包括(CF-)netCDF、 GRIB、 及PP 文件。
 
 
-.. image:: /images/screenshots/800x600/iris.jpg
+.. image:: /images/screenshots/iris/iris.jpg
   :alt: Iris
   :align: right
   :scale: 80 %

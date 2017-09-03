@@ -18,7 +18,7 @@ Iris — мощная библиотека Python, предназначенна�
 
 Iris в настоящее время поддерживает чтение/запись для ряда форматов включая (CF-)netCDF, GRIB и PP-файлы.
 
-.. image:: /images/screenshots/800x600/iris.jpg
+.. image:: /images/screenshots/iris/iris.jpg
   :alt: Iris
   :align: right
   :scale: 80 %
