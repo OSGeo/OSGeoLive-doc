@@ -27,7 +27,7 @@ GIS 网络服务
 
 　　QGIS Server 服务器通常在 Apache 服务器环境下以 CGI/FastCGI 组件运行。
 
-.. image:: /images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
+.. image:: /images/screenshots/qgis/qgis-mapserver-screenshot.jpg
   :scale: 40 %
   :alt: project logo
   :align: right

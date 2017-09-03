@@ -47,7 +47,7 @@ utilizza QGIS Server per la restituzione della mappa.
 
 Dovreste vedere una finestra di un browser con un visualizzatore di mappe contenente una mappa del mondo.
 
-.. image:: /images/screenshots/800x600/qgis_mapserver_browser.jpg
+.. image:: /images/screenshots/qgis/qgis_mapserver_browser.jpg
 
 Altrimenti potete accedere all'applicazione usando un browser all'indirizzo http://localhost/qgis_server
 

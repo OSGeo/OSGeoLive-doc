@@ -24,7 +24,7 @@ Quantum GIS (QGIS)
 Quantum GIS (QGIS)는 오픈 소스로서 데이터를 시각화, 관리, 편집, 분석 및 지도화할 수 있는 GIS 클라이언트입니다.
 QGIS는 GRASS와 통합하여 강력한 분석 기능을 포함하고 있습니다. Linux, Unix, Mac OSX 및 Windows에서 실행 가능하며, 다양한 벡터, 래스터 및 데이터 형식과 기능을 지원합니다.
 
-.. image:: /images/screenshots/1024x768/qgis.png
+.. image:: /images/screenshots/qgis/qgis.png
   :scale: 50 %
   :alt: project logo
   :align: right

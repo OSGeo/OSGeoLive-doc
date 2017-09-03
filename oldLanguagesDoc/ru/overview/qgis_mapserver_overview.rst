@@ -24,7 +24,7 @@ QGIS Server реализует WMS-сервис, используя те же б
 Карты и шаблоны для печати, созданные в настольной ГИС QGIS, могут быть опубликованы в веб простым копированием файла проекта в директорию сервера. В результате веб-карты выглядят так же, как и в настольном приложении.
 QGIS Server обычно работает как CGI/FastCGI модуль веб-сервера Apache.
 
-.. image:: /images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
+.. image:: /images/screenshots/qgis/qgis-mapserver-screenshot.jpg
   :scale: 50 %
   :alt: снимок экрана QGIS Mapserver
   :align: right

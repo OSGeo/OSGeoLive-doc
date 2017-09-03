@@ -27,7 +27,7 @@ Poprzez integrację z systemem GRASS, zawiera potężne funkcje analityczne.
 Pracuje na Linux, Unix, Mac OSX oraz Windows, obsługuje wiele wektorowych,
 rastrowych i bazodanowych formatów oraz funkcji.
 
-.. image:: /images/screenshots/1024x768/qgis.png
+.. image:: /images/screenshots/qgis/qgis.png
   :scale: 50 %
   :alt: project logo
   :align: right

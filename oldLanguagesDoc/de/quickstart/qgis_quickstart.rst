@@ -45,7 +45,7 @@ Bearbeiten eines QGIS Projektes
 
    * Es werden Städte der Welt angezeigt:
 
-     .. image:: /images/screenshots/1024x768/qgis.png
+     .. image:: /images/screenshots/qgis/qgis.png
         :scale: 70 %
         :alt: Map in QGIS
 
@@ -57,7 +57,7 @@ Bearbeiten eines QGIS Projektes
 
    * Die Flüsse werden jetzt in der gewählten Farbe dargestellt
 
-     .. image:: /images/screenshots/1024x768/qgis_zoom_toolbar.png
+     .. image:: /images/screenshots/qgis/qgis_zoom_toolbar.png
         :scale: 70 %
         :alt: Map in QGIS
 
@@ -69,7 +69,7 @@ Neues QGIS Projekt erstellen
 
 #. Wählen Sie :menuselection:`Layer --> Vektorlayer hinzufügen...`
 
-     .. image:: /images/screenshots/1024x768/qgis_add_layer.png
+     .. image:: /images/screenshots/qgis/qgis_add_layer.png
         :scale: 70
         :alt: Add layer
 
@@ -79,7 +79,7 @@ Neues QGIS Projekt erstellen
 
    * Sie sollten jetzt alle Länder der Welt sehen
 
-     .. image:: /images/screenshots/1024x768/qgis_countries.png
+     .. image:: /images/screenshots/qgis/qgis_countries.png
         :scale: 70
         :alt: Add layer result
 

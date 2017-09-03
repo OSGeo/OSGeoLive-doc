@@ -30,7 +30,7 @@ integráción keresztül.
 Linux, Unix, Mac OSX és Windows rendszereken fut és számos vektor, raszter és
 adatbázis formátumot támogat.
 
-.. image:: /images/screenshots/1024x768/qgis.png
+.. image:: /images/screenshots/qgis/qgis.png
   :scale: 50 %
   :alt: project logo
   :align: right

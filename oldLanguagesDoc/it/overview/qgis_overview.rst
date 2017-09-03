@@ -29,7 +29,7 @@ Fornisce potenti funzionalità analitiche grazie all'integrazione con :doc:`GRAS
 QGIS funziona su Linux, Unix, Mac OSX e Windows e supporta formati di
 dati vettoriali, raster ed i database. 
 
-.. image:: /images/screenshots/1024x768/qgis.png
+.. image:: /images/screenshots/qgis/qgis.png
   :scale: 50 %
   :alt: project logo
   :align: right

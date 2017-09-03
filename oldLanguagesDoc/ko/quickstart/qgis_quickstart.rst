@@ -42,7 +42,7 @@ QGIS 프로젝트 편집
 
    * 사람이 거주하는 지역을 볼 수 있습니다:
 
-     .. image:: /images/screenshots/1024x768/qgis.png
+     .. image:: /images/screenshots/qgis/qgis.png
         :scale: 50 %
 
 #. Layers에서 **10m_rivers_lake_centerlines** 더블 클릭.

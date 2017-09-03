@@ -46,7 +46,7 @@ QGIS 网页客户端：
 
 　　浏览器中将显示一幅世界地图。
    
-.. image:: /images/screenshots/800x600/qgis_mapserver_browser.jpg
+.. image:: /images/screenshots/qgis/qgis_mapserver_browser.jpg
 
 　　访问 http://localhost/qgis_server 这个 URL 也可以得到同样的结果。
 

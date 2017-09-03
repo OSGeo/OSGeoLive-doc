@@ -26,7 +26,7 @@ Quantum GIS (QGIS) és un client SIG amigable i de codi obert amb el qual es pot
 Inclou funcions analítiques potents a través de la integració amb :doc:`GRASS <grass_overview>`.  
 Es pot emprar a Linux, Unix, Mac OSX, i Windows i suporta nombrosos formats i funcions tant per vector com per ràster com per bases de dades.
 
-.. image:: /images/screenshots/1024x768/qgis.png
+.. image:: /images/screenshots/qgis/qgis.png
   :scale: 50 %
   :alt: project logo
   :align: right

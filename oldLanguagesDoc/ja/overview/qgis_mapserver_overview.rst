@@ -25,7 +25,7 @@ QGIS で作成した地図、印刷テンプレートをサーバにプロジェ
 こうして作ったウェブ地図はデスクトップで作成したものと全く同じになります。
 QGIS Server は Apache Webserver 上の CGI/FastCGI モジュールとして動作します。
 
-.. image:: /images/screenshots/1024x768/qgis-mapserver-screenshot.jpg
+.. image:: /images/screenshots/qgis/qgis-mapserver-screenshot.jpg
   :scale: 50 %
   :alt: project logo
   :align: right
