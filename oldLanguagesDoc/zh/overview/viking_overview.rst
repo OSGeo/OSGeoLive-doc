@@ -20,7 +20,7 @@ GPS 数据管理与显示
 核心功能
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/1024x768/viking-0_9_8-europe.jpg
+.. image:: /images/screenshots/viking/viking-0_9_8-europe.jpg
   :scale: 40 %
   :alt: screenshot
   :align: right
