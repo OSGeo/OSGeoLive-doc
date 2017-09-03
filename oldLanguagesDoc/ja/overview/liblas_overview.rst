@@ -18,7 +18,7 @@ libLAS は一般的な `LAS` `LiDAR`_ フォーマットを読み書きするた
 `ASPRS LAS format`_ は LiDAR センサや LiDAR 処理ソフトウェアがデータの保存、交換，アーカイブに使用している
 シーケンシャルなバイナリフォーマットです。
 
-.. image:: /images/screenshots/800x600/liblas.jpg
+.. image:: /images/screenshots/liblas/liblas.jpg
   :alt: LiDAR Acquisition
   :align: right
   :scale: 80 %

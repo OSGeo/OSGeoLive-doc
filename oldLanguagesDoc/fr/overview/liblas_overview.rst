@@ -19,7 +19,7 @@ pour le `LiDAR`_ , `LAS`. Le `format LAS ASPRS`_ est un format séquentiel binai
 utilisé pour stocker des données de capteurs LiDAR et par les logiciels de 
 traitement de données LiDAR pour l'échange et l'archivage.
 
-.. image:: /images/screenshots/800x600/liblas.jpg
+.. image:: /images/screenshots/liblas/liblas.jpg
   :alt: Acquisition LiDAR
   :align: right
   :scale: 80 %

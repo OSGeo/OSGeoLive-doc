@@ -18,7 +18,7 @@ Acceso a datos LiDAR
 
 libLAS es una librería C/C++ para lectura y escritura en el formato común `LiDAR`_ denominado `LAS` El `formato ASPRS LAS`_ es un formato binario secuencial utilizado para almacenar datos procedentes de sensores LiDAR y de software de procesamiento de datos para intercambio y archivado.
 
-.. image:: /images/screenshots/800x600/liblas.jpg
+.. image:: /images/screenshots/liblas/liblas.jpg
   :alt: LiDAR Acquisition
   :align: right
   :scale: 80 %
