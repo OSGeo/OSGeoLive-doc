@@ -32,7 +32,7 @@ EOxServer — это сервер для работы со снимками Ear
 Посмотрите также :doc:`Обзор EOxServer <../overview/eoxserver_overview>`, the 
 `локальную документацию EOxServer <../../eoxserver-docs/EOxServer_documentation.pdf>`_ или `онлайн документацию <http://eoxserver.org/doc/>`_ для более подробной информации.
 
-.. image:: /images/screenshots/1024x768/eoxserver_documentation.png
+.. image:: /images/screenshots/eoxserver/eoxserver_documentation.png
   :scale: 50 %
   :alt: EOxServer documentation
 
@@ -68,7 +68,7 @@ EOxServer — это сервер для работы со снимками Ear
 показывающий демонстрационную страницу http://localhost/eoxserver/ с теми же
 данными, которые доступны `онлайн <https://eoxserver.org/demo_stable/>`_.
 
-.. image:: /images/screenshots/1024x768/eoxserver_start.png
+.. image:: /images/screenshots/eoxserver/eoxserver_start.png
   :scale: 50 %
   :alt: EOxServer demonstration start
 
@@ -82,14 +82,14 @@ EOxServer — это сервер для работы со снимками Ear
 `онлайн-документации <http://eoxserver.org/doc/en/users/demonstration.html>`_ есть информация  
 о всех доступных данных.
 
-.. image:: /images/screenshots/1024x768/eoxserver_webclient1.png
+.. image:: /images/screenshots/eoxserver/eoxserver_webclient1.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client dataset series selection
 
 Выбор элемента списка предоставляет обзорную карту, показывающую границы
 доступных наборов данных (`Datasets`).
 
-.. image:: /images/screenshots/1024x768/eoxserver_webclient2.png
+.. image:: /images/screenshots/eoxserver/eoxserver_webclient2.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines
 
@@ -99,14 +99,14 @@ EOxServer — это сервер для работы со снимками Ear
 или колесо мыши, или удердивайте нажатой кнопку Shift и кликните левой кнопкой
 мыши, рисуя регион на карте.
 
-.. image:: /images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: /images/screenshots/eoxserver/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines and previews
 
 Слайдером (**Date slider**) наборы данных `Datasets` могут быть
 ограничены по времени с помощью интересующих вас интервалов.
 
-.. image:: /images/screenshots/1024x768/eoxserver_webclient3.png
+.. image:: /images/screenshots/eoxserver/eoxserver_webclient3.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client date change
 
@@ -116,14 +116,14 @@ EOxServer — это сервер для работы со снимками Ear
 Вы можете выбрать наборы данных для загрузки, определив также размеры, проекции, формат данных
 и диапазон каналов.
 
-.. image:: /images/screenshots/1024x768/eoxserver_webclient4.png
+.. image:: /images/screenshots/eoxserver/eoxserver_webclient4.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client download selection
 
 Пункт **Start Download** вызывает начало реальной загрузки данных, в том числе, 
 нескольких файлов, если было выбрано несколько наборов данных.  
 
-.. image:: /images/screenshots/1024x768/eoxserver_webclient5.png
+.. image:: /images/screenshots/eoxserver/eoxserver_webclient5.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client download
 
@@ -133,7 +133,7 @@ EOxServer — это сервер для работы со снимками Ear
 Ссылка **Admin Client**  приводит на страницу входа в службу управления (`Admin Client`). 
 В нашем случае пароль для пользователя `admin` — `admin`.
 
-.. image:: /images/screenshots/1024x768/eoxserver_adminclient1.png
+.. image:: /images/screenshots/eoxserver/eoxserver_adminclient1.png
   :scale: 50 %
   :alt: EOxServer demonstration admin client login
 
@@ -141,14 +141,14 @@ EOxServer — это сервер для работы со снимками Ear
 позволяет настраивать данные. Больше информации можно найти в
 `онлайн-документации <http://eoxserver.org/doc/en/users/operators.html>`__.
 
-.. image:: /images/screenshots/1024x768/eoxserver_adminclient2.png
+.. image:: /images/screenshots/eoxserver/eoxserver_adminclient2.png
   :scale: 50 %
   :alt: EOxServer demonstration admin client start
 
 Для примера можно просмотреть и дополнить метаданные `EO Metadata` в сконфигурированных
 наборах данных.
 
-.. image:: /images/screenshots/1024x768/eoxserver_adminclient3.png
+.. image:: /images/screenshots/eoxserver/eoxserver_adminclient3.png
   :scale: 50 %
   :alt: EOxServer demonstration admin client 
 
@@ -157,7 +157,7 @@ EOxServer — это сервер для работы со снимками Ear
 
 Ссылка **Log Viewer** предоставляет лёгкий способ для просмотра последних сообщений.
 
-.. image:: /images/screenshots/1024x768/eoxserver_logviewer.png
+.. image:: /images/screenshots/eoxserver/eoxserver_logviewer.png
   :scale: 50 %
   :alt: EOxServer demonstration log viewer
 

@@ -26,7 +26,7 @@ EOxServer — это сервер для просмотра данных дис
 * Сервисы, использующие открытые и находящиеся в свободном доступе стандарты Open Geospatial Consortium (OGC): WMS, WCS, EO-WMS, EO-WCS.
 * Удобство для пользователей: определяемые пользователем настройки, просмотр и получение данных.
 
-.. image:: /images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: /images/screenshots/eoxserver/eoxserver_screenshot.png
   :scale: 50 %
   :alt: встроенный клиент EOxServer
   :align: right

@@ -51,13 +51,13 @@ Instancia de demostración
 
 El nuevo icono en el escritorio etiquetado como `EOxServer` lanza el navegador web, mostrando la instancia de demostración disponible en http://localhost/eoxserver/.
 
-.. image:: /images/screenshots/1024x768/eoxserver_start.png
+.. image:: /images/screenshots/eoxserver/eoxserver_start.png
   :scale: 50 %
   :alt: Inicio de la demostración de EOxServer
 
 El otro icono nuevo etiquetado como `EOxServer Documentation` abre el visor de archivos PDF, mostrando la documentación disponible.
 
-.. image:: /images/screenshots/1024x768/eoxserver_documentation.png
+.. image:: /images/screenshots/eoxserver/eoxserver_documentation.png
   :scale: 50 %
   :alt: Documentación de EOxServer
 
@@ -67,38 +67,38 @@ Cliente web
 El enlace al **cliente web** te permite ver una lista de los `Dataset 
 Series` y `Stitched Mosaics` (series de datos y mosaicos) disponibles. La demostración tiene un `Dataset Series` configurado llamado "MER FRS 1P RGB reduced" que contiene tres escenas ENVISAT MERIS. Para obtener más información sobre los datos disponibles por favor dirígete a la `documentación en línea <http://eoxserver.org/doc/en/users/demonstration.html>`__.
 
-.. image:: /images/screenshots/1024x768/eoxserver_webclient1.png
+.. image:: /images/screenshots/eoxserver/eoxserver_webclient1.png
   :scale: 50 %
   :alt: Selección de juegos de datos en el cliente incrustado de demostración de EOxServer
 
 Seleccionando una entrada de la lista se muestra un mapa con los bordes de los juegos de datos disponibles.
 
-.. image:: /images/screenshots/1024x768/eoxserver_webclient2.png
+.. image:: /images/screenshots/eoxserver/eoxserver_webclient2.png
   :scale: 50 %
   :alt: Bordes en el cliente incrustado de demostración de EOxServer
 
 También puedes activar previsualizaciones de los datos disponibles usando los controles estándar de OpenLayers.
 
-.. image:: /images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: /images/screenshots/eoxserver/eoxserver_screenshot.png
   :scale: 50 %
   :alt: Bordes y previsualizaciones en el cliente incrustado de demostración de EOxServer
 
 Con el control deslizante de fecha (*Date slider*) los juegos de datos se pueden filtrar a un intervalo de tiempo que sea de interés.
 
-.. image:: /images/screenshots/1024x768/eoxserver_webclient3.png
+.. image:: /images/screenshots/eoxserver/eoxserver_webclient3.png
   :scale: 50 %
   :alt: Cambio de fecha en el cliente incrustado de demostración de EOxServer
 
 El botón **Download** proporciona una lista de juegos de datos descargables. 
 Descargable significa en el contexto del cuadrado de coordenadas seleccionado, o datos mostrados en la extensión del mapa si no se ha establecido un intervalo de tiempo. Puedes seleccionar qué juegos de datos a descargar, qué tamaño, proyección, formato y subconjunto de bandas.
 
-.. image:: /images/screenshots/1024x768/eoxserver_webclient4.png
+.. image:: /images/screenshots/eoxserver/eoxserver_webclient4.png
   :scale: 50 %
   :alt: Selección de descarga en el cliente incrustado de demostración de EOxServer
 
 **Start Download** inicia la descarga que puede resultar en varios ficheros si se han seleccionado varios juegos de datos.
 
-.. image:: /images/screenshots/1024x768/eoxserver_webclient5.png
+.. image:: /images/screenshots/eoxserver/eoxserver_webclient5.png
   :scale: 50 %
   :alt: Descarga en el cliente incrustado de demostración de EOxServer
 
@@ -107,19 +107,19 @@ Cliente de administración
 
 El enlace al cliente de administración te envía a la página de acceso. La contraseña para el usuario `admin` es `admin`.
 
-.. image:: /images/screenshots/1024x768/eoxserver_adminclient1.png
+.. image:: /images/screenshots/eoxserver/eoxserver_adminclient1.png
   :scale: 50 %
   :alt: Acceso al cliente de administración de EOxServer
 
 El cliente de administración es la aplicación estándar de Django y te permite configurar los datos disponibles. Por favor, siéntete libre de explorar el cliente. Se puede encontrar más información en la `documentación en línea <http://eoxserver.org/doc/en/users/operators.html>`_.
 
-.. image:: /images/screenshots/1024x768/eoxserver_adminclient2.png
+.. image:: /images/screenshots/eoxserver/eoxserver_adminclient2.png
   :scale: 50 %
   :alt: Arranque del cliente de administración de EOxServer
 
 Es por ejemplo posible ver y alterar los `EO Metadata` de los juegos de datos configurados.
 
-.. image:: /images/screenshots/1024x768/eoxserver_adminclient3.png
+.. image:: /images/screenshots/eoxserver/eoxserver_adminclient3.png
   :scale: 50 %
   :alt: Cliente de administración de EOxServer 
 
@@ -128,7 +128,7 @@ Visor de logs
 
 El enlace al visor de logs (*Log Viewer*)  proporciona un mecanismo sencillo para visualizar las últimas entradas de log.
 
-.. image:: /images/screenshots/1024x768/eoxserver_logviewer.png
+.. image:: /images/screenshots/eoxserver/eoxserver_logviewer.png
   :scale: 50 %
   :alt: Visor de logs de EOxServer
 

@@ -32,7 +32,7 @@ eficient dels usuaris.
   Geospatial Consortium (OGC); WMS, WCS, EO-WMS, EO-WCS
 * Explotació eficient pels usuaris: Els usuaris poden definir subconjunts de dades; visualitzar-les i descarregar-les
 
-.. image:: /images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: /images/screenshots/eoxserver/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer embedded client screen shot
   :align: right

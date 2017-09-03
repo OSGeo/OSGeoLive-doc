@@ -44,7 +44,7 @@ Python, :doc:`MapServer <mapserver_overview>`, Django/GeoDjango, :doc:`GDAL
     Geospatial Consortium) 標準の WMS, WCS, EO-WMS, EO-WCS に対応
   * ユーザーによる効率的な開発: ビューとダウンロードの設定作成
 
-.. image:: /images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: /images/screenshots/eoxserver/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer embedded client
   :align: right

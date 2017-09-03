@@ -27,7 +27,7 @@ Web 服务
 * 基于开放标准的服务：开放地理信息协会（OGC）标准; WMS, WCS, EO-WMS, EO-WCS
 * 高效的数据利用：用户可自定义数据获取范围，并浏览和下载。
 
-.. image:: /images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: /images/screenshots/eoxserver/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer embedded client screen shot
   :align: right

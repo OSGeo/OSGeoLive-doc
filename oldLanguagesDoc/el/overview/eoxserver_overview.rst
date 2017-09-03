@@ -26,7 +26,7 @@ EOxServer
   Django/GeoDjango, :doc:`GDAL <gdal_overview>`, PROJ.4, :doc:`SpatiaLite <spatialite_overview>` ή 
   :doc:`PostGIS <postgis_overview>`
 
-.. image:: /images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: /images/screenshots/eoxserver/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer embedded client
   :align: right

@@ -40,7 +40,7 @@ Weiterführende Informationen finden Sie im :doc:`EOxServer Overview
 <../../eoxserver-docs/EOxServer_documentation.pdf>`_ oder der `online 
 verfügbaren EOxServer Dokumentation <http://eoxserver.org/doc/>`_.
 
-.. image:: /images/screenshots/1024x768/eoxserver_documentation.png
+.. image:: /images/screenshots/eoxserver/eoxserver_documentation.png
   :scale: 50 %
   :alt: EOxServer Dokumentation
 
@@ -58,7 +58,7 @@ welches einen Browser startet der die Demonstrationsinstanz anzeigt. Diese
 ist unter http://localhost/eoxserver/ verfügbar und stellt dieselben Daten 
 zur Verfügung wie die `online Demo <https://eoxserver.org/demo_stable/>`_
 
-.. image:: /images/screenshots/1024x768/eoxserver_start.png
+.. image:: /images/screenshots/eoxserver/eoxserver_start.png
   :scale: 50 %
   :alt: Start der EOxServer Demonstration
 
@@ -73,14 +73,14 @@ Weiterführende Informationen zu diesen Daten finden Sie in der  `online
 Dokumentation zur Demonstration 
 <http://eoxserver.org/doc/en/users/demonstration.html>`_.
 
-.. image:: /images/screenshots/1024x768/eoxserver_webclient1.png
+.. image:: /images/screenshots/eoxserver/eoxserver_webclient1.png
   :scale: 50 %
   :alt: EOxServer Demonstration des eingebauten Klienten Dataset Series Auswahl
 
 Durch Auswählen eines Eintrages gelangen Sie zu einer Karte auf der die 
 Fußabdrücke der verfügbaren `Datasets` angezeigt werden.
 
-.. image:: /images/screenshots/1024x768/eoxserver_webclient2.png
+.. image:: /images/screenshots/eoxserver/eoxserver_webclient2.png
   :scale: 50 %
   :alt: EOxServer Demonstration des eingebauten Klienten Fußabdrücke
 
@@ -89,14 +89,14 @@ Bedienelemente zur Anzeige gebracht werden. Klicken Sie auf das **(+** oben rech
 Selektion zu erhalten. Zum Zoomen können Sie entweder das Mausrad verwenden oder
 oder bei gedrückter Shift Taste mit der linken Maustaste ein Rechteck auf der Karte aufziehen.
 
-.. image:: /images/screenshots/1024x768/eoxserver_screenshot.png
+.. image:: /images/screenshots/eoxserver/eoxserver_screenshot.png
   :scale: 50 %
   :alt: EOxServer Demonstration des eingebauten Klienten Fußabdrücke und Daten
 
 Mit dem **Datumsschieber** (Date slider) können Sie die angezeigten 
 `Datasets` auf ein Intervall limitieren.
 
-.. image:: /images/screenshots/1024x768/eoxserver_webclient3.png
+.. image:: /images/screenshots/eoxserver/eoxserver_webclient3.png
   :scale: 50 %
   :alt: EOxServer Demonstration des eingebauten Klienten Datumsänderung
 
@@ -107,14 +107,14 @@ angezeigten Gebietes und innerhalb des gesetzten Intervalls liegt. Die
 herunterzuladenden `Datasets` sowie Größe, Projektion, Format und Bänder 
 können ausgewählt werden.
 
-.. image:: /images/screenshots/1024x768/eoxserver_webclient4.png
+.. image:: /images/screenshots/eoxserver/eoxserver_webclient4.png
   :scale: 50 %
   :alt: EOxServer Demonstration des eingebauten Klienten Auswahl Herunterladen
 
 **Start Download** initiiert das eigentliche Herunterladen unter Umständen 
 von mehreren Dateien falls mehrere `Datasets` ausgewählt wurden.
 
-.. image:: /images/screenshots/1024x768/eoxserver_webclient5.png
+.. image:: /images/screenshots/eoxserver/eoxserver_webclient5.png
   :scale: 50 %
   :alt: EOxServer Demonstration des eingebauten Klienten Herunterladen
 
@@ -124,7 +124,7 @@ Administrationsklient
 Der **Admin Client** Link führt zur Anmeldeseite des 
 Administrationsklienten. Das Passwort für den Benutzer `admin` ist `admin`.
 
-.. image:: /images/screenshots/1024x768/eoxserver_adminclient1.png
+.. image:: /images/screenshots/eoxserver/eoxserver_adminclient1.png
   :scale: 50 %
   :alt: EOxServer Demonstration des Administrationsklienten Anmeldeseite
 
@@ -133,14 +133,14 @@ Konfiguration der verfügbaren Daten. Gerne können Sie die Funktionen des
 Administrationsklienten erkunden. Weiterführende Informationen liefert der 
 `Operators' Guide <http://eoxserver.org/doc/en/users/operators.html>`_.
 
-.. image:: /images/screenshots/1024x768/eoxserver_adminclient2.png
+.. image:: /images/screenshots/eoxserver/eoxserver_adminclient2.png
   :scale: 50 %
   :alt: EOxServer Demonstration des Administrationsklienten Beginn
 
 Zum Beispiel ist es möglich die `EO Metadaten Einträge` der konfigurierten `Dataset 
 Series` anzuzeigen und zu ändern.
 
-.. image:: /images/screenshots/1024x768/eoxserver_adminclient3.png
+.. image:: /images/screenshots/eoxserver/eoxserver_adminclient3.png
   :scale: 50 %
   :alt: EOxServer Demonstration des Administrationsklienten EO Metadaten
 
@@ -150,7 +150,7 @@ Log Betrachter
 Der **Log Viewer** Link bietet eine einfache Möglichkeit die letzten Log 
 Einträge zu betrachten.
 
-.. image:: /images/screenshots/1024x768/eoxserver_logviewer.png
+.. image:: /images/screenshots/eoxserver/eoxserver_logviewer.png
   :scale: 50 %
   :alt: EOxServer Demonstration Log Betrachter
 
