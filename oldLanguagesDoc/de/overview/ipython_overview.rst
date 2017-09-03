@@ -15,7 +15,7 @@ IPython Notebook
 Vermischen von Rich Media in Präsentationen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/800x600/ipython-notebook1.png
+.. image:: /images/screenshots/ipython/ipython-notebook1.png
   :scale: 100 %
   :alt: screenshot
   :align: right

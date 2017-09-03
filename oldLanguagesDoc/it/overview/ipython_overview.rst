@@ -24,7 +24,7 @@ IPython fornisce una ricca architettura per lo sviluppo interattivo con:
 * Flessibile, interpreti incorporati per caricare il vostro progetto.
 * Facile da usere, strumenti per alte performance per calcolo parallelizzato.
 
-.. image:: /images/screenshots/800x600/ipython-notebook1.png
+.. image:: /images/screenshots/ipython/ipython-notebook1.png
   :scale: 100 %
   :alt: screenshot
   :align: right

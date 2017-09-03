@@ -15,7 +15,7 @@ IPython Notebook
 Встраивание разнообразных медиа-данных в презентации
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/800x600/ipython-notebook1.png
+.. image:: /images/screenshots/ipython/ipython-notebook1.png
   :scale: 100 %
   :alt: Скриншот
   :align: right
