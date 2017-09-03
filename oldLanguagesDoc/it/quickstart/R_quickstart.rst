@@ -201,7 +201,7 @@ dati di Natural Earth. Usiamo due pacchetti installati (add-on) per ottenere le 
 
 Questo ci dà una semplice mappa del mondo:
 
-.. image:: /images/screenshots/1024x768/r_plot1.png
+.. image:: /images/screenshots/r/r_plot1.png
 
 Quando un dataset OGR viene letto in R in questo modo otteniamo un oggetto che per molti aspetti
 si comporta come un data frame. Possiamo utilizzare il campo ``ADMIN`` per fare un subset dei dati
@@ -212,7 +212,7 @@ del mondo e ottenere, ad esempio, la Gran Bretagna (UK, United Kingdom):
         > uk = countries[countries$ADMIN == "United Kingdom",]
         > plot(uk); axis(1); axis(2)
 
-.. image:: /images/screenshots/1024x768/r_plot2.png
+.. image:: /images/screenshots/r/r_plot2.png
 
 Questa immagine può apparire un po' schiacciata a chiunque viva in Gran Bretagna poichè siamo
 abituati con sistemi di coordinate centrate alle nostre latitudini. Attualmente l'oggetto non
@@ -259,7 +259,7 @@ colori (col=) in rosso e i caratteri (pch=) come punti pieni:
 
 e la nostra immagine finale appare:
 
-.. image:: /images/screenshots/1024x768/r_plot3.png
+.. image:: /images/screenshots/r/r_plot3.png
 
 Vignettes
 ================================================================================

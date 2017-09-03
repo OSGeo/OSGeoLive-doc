@@ -174,7 +174,7 @@ Aquí vamos a cargar dos archivos shape, los límites del país y los lugares po
 
 Esto nos da un mapa simple del mundo:
 
-.. image:: /images/screenshots/1024x768/r_plot1.png
+.. image:: /images/screenshots/r/r_plot1.png
 
 Cuando un conjunto de datos OGR es introducido en R obtenemos como respuesta un objeto que se comporta de muchas formas como una trama de datos. Podemos usar el campo ``ADMIN`` para obtener sólo el Reino Unido:
 
@@ -183,7 +183,7 @@ Cuando un conjunto de datos OGR es introducido en R obtenemos como respuesta un 
 	> uk = countries[countries$ADMIN=="United Kingdom",]
 	> plot(uk); axis(1); axis(2)
 
-.. image:: /images/screenshots/1024x768/r_plot2.png
+.. image:: /images/screenshots/r/r_plot2.png
 
 Esto parece un poco aplastado para los que vivimos aquí, ya que estamos familiarizados con un sistema de coordenadas centrado en nuestra latitud. En este momento, el objeto no tiene un sistema de coordenadas asignado y podemos verificarlo con algunas funciones:
 
@@ -221,7 +221,7 @@ Agregamos estos puntos al mapa base, escalamos su tamaño de acuerdo a la raíz 
 
 y nuestra imagen final aparece:
 
-.. image:: /images/screenshots/1024x768/r_plot3.png
+.. image:: /images/screenshots/r/r_plot3.png
 
 Viñetas
 ================================================================================

@@ -20,7 +20,7 @@ R 空间分析功能
 
 　　R 是 S 编程语言的一种实现方式。在 R 和 S 与 S-Plus 代码、还有 R 和现代商业版本 S 、TIBCO Spotfire S+ 之间，有着突出的兼容性。这使得不同版本的 S 代码可以在 R 平台不经大的修改即可运行。
 
-.. image:: /images/screenshots/1024x768/r-perspective.png
+.. image:: /images/screenshots/r/r-perspective.png
   :scale: 50 %
   :alt: project logo
   :align: right

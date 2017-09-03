@@ -43,7 +43,7 @@ aussi bien qu'il y en a entre R et la versions commerciale moderne de S, TIBCO
 Spotfire S+. Cela rend possible la conversion entre différentes versions de 
 code S pour exécuter R sans modifications majeures du code.
 
-.. image:: /images/screenshots/1024x768/r-screenshot.png
+.. image:: /images/screenshots/r/r-screenshot.png
   :scale: 50 %
   :alt: Logo du projet
   :align: right
