@@ -24,7 +24,7 @@ Cesium
 Cesium 是一个用来在Web浏览器中创建3维地球与2维地图的JavaScript库，不需要使用任何的插件。\
 它使用WebGL进行硬件图形加速，并且跨平台，跨浏览器，适合用来进行动态数据可视化。
 
-.. image:: /images/screenshots/1024x768/cesiumjs_3in1.png
+.. image:: /images/screenshots/cesium/cesiumjs_3in1.png
   :scale: 50 %
   :alt: Cesium example
   :align: right

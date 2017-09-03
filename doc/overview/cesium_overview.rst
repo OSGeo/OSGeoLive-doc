@@ -16,7 +16,7 @@ Cesium
 
 Cesium is a JavaScript library for creating 3D globes and 2D maps in a web browser without any plugins. It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for dynamic-data visualization.
 
-.. image:: /images/screenshots/1024x768/cesiumjs_3in1.png
+.. image:: /images/screenshots/cesium/cesiumjs_3in1.png
   :scale: 50 %
   :alt: Cesium example
   :align: right
