@@ -29,7 +29,7 @@ GeoMOOSE jest szybki, potrafi jednocześnie obsłużyć tysiące warstw i/lub us
 
 Interfejs użytkownika może być konfigurowany w prosty sposób a dodatkowe usługi dodawane z wykorzystaniem architektury modułowej.
 
-.. image:: /images/screenshots/1024x768/geomoose-2_6-screenshot001.png
+.. image:: /images/screenshots/geomoose/geomoose-2_6-screenshot001.png
   :alt: GeoMoose Screenshot
   :align: right
 

@@ -28,7 +28,7 @@ GeoMOOSE — быстрое приложение, отлично работаю
 
 Пользовательский интерфейс легко настраивается, а модульная архитектура позволяет добавлять дополнительные сервисы.
 
-.. image:: /images/screenshots/1024x768/geomoose-2_6-screenshot001.png
+.. image:: /images/screenshots/geomoose/geomoose-2_6-screenshot001.png
   :alt: GeoMoose Screenshot
   :align: right
 

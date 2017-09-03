@@ -28,7 +28,7 @@ GeoMOOSE は高速に動作し、数百のレイヤもしくはサービスを�
 
 ユーザインターフェースは簡単にカスタマイズでき、モジュールを用いて新たなサービスを追加していくことができます。
 
-.. image:: /images/screenshots/1024x768/geomoose-2_6-screenshot001.png
+.. image:: /images/screenshots/geomoose/geomoose-2_6-screenshot001.png
   :alt: GeoMoose Screenshot
   :align: right
 

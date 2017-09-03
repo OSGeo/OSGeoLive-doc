@@ -29,7 +29,7 @@ Die Daten können von unterschiedlichen Verwaltern mit unterschiedliche Werkzeug
 
 Das Benutzerinterface ist leicht zu konfigurieren und zusätzliche Dienste können über eine modulare Architektur hinzugefügt werden.
 
-.. image:: /images/screenshots/1024x768/geomoose-2_6-screenshot001.png
+.. image:: /images/screenshots/geomoose/geomoose-2_6-screenshot001.png
   :alt: GeoMoose Screenshot
   :align: right
 
