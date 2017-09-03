@@ -25,7 +25,7 @@ Las soluciones están disponibles para los sectores relacionados con la gestión
 El proyecto Sahana se inició por voluntarios de la comunidad de desarrolladores Sri Lanka FOSS para ayudar a sus compatriotas afectados durante el Tsunami de diciembre de 2004 en Asia.
 El sistema fue utilizado oficialmente por el Gobierno de Sri Lanka y se liberó como Software Libre y de Código Abierto. Posteriormente se reescribió como una herramientas genérica para la administración de desastres y fue incubado con el patrocinio de la Swedish International Development Agency, IBM y la US National Science Foundation. Desde entonces ha sido utilizado por docenas de Gobiernos y Organizaciones No Gubernamentales.
 
-.. image:: /images/screenshots/800x600/sahana-camp-dist_0.jpg
+.. image:: /images/screenshots/sahana/sahana-camp-dist_0.jpg
   :scale: 80 %
   :alt: screenshot
   :align: right
