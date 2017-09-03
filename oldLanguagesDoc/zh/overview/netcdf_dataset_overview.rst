@@ -36,7 +36,7 @@ JAMSTEC（日本海洋 - 地球科学技术代理署，神奈川县，日本）�
 
 
 
-.. image:: /images/screenshots/800x600/netcdf_annual_avg_max_temp.png
+.. image:: /images/screenshots/netcdf/netcdf_annual_avg_max_temp.png
   :scale: 60 %
   :alt: Panoply NetCDF txxETCCDI_yr_MIROC5 screenshot
   :align: right

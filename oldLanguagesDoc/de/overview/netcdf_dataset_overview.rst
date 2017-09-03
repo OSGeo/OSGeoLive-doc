@@ -27,7 +27,7 @@ Datenbereitstellung der University of Victoria PCIC (Pacific Climate Impacts Con
 in Kooperation mit AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba, Japan), NIES (National Institute for Environmental Studies, Ibaraki, Japan), JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa, Japan). 
 
 
-.. image:: /images/screenshots/800x600/netcdf_annual_avg_max_temp.png
+.. image:: /images/screenshots/netcdf/netcdf_annual_avg_max_temp.png
   :scale: 60 %
   :alt: Panoply NetCDF txxETCCDI_yr_MIROC5 screenshot
   :align: right
