@@ -20,7 +20,7 @@ SAGA
 
 　　SAGA 从 2001 年开始开发，主要由汉堡大学地理学系进行，并有一支来自世界各地且不断增长的开发者团队参与。
 
-.. image:: /images/screenshots/1024x768/saga_overview.png
+.. image:: /images/screenshots/saga/saga_overview.png
   :scale: 40%
   :alt: screenshot
   :align: right

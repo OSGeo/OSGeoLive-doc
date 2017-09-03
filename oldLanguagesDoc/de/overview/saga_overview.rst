@@ -23,7 +23,7 @@ Auf die Funktionalität kann über eine graphische Oberfläche, über die Komman
 SAGA wird seit 2001 entwickelt. Dabei findet der Großteil der Entwicklung am 
 Institut für Geographie an der Universität Hamburg statt und wird von einer wachsenden weltweiten Community unterstützt.
 
-.. image:: /images/screenshots/1024x768/saga_overview.png
+.. image:: /images/screenshots/saga/saga_overview.png
   :scale: 40%
   :alt: screenshot
   :align: right

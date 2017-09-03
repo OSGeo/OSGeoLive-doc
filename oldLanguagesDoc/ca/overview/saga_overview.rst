@@ -20,7 +20,7 @@ SAGA (Sistema per Anàlisi Geocientífic Automatitzat) és un sistema d'Informac
 
 SAGA s'ha estat desenvolupant des de 2001, i el centre del desenvolupamnt de SAGA és l'Institute of Geography a la Universitat d'Hamburg, amb contribucions de la creixent comunitat mundial.
 
-.. image:: /images/screenshots/1024x768/saga_overview.png
+.. image:: /images/screenshots/saga/saga_overview.png
   :scale: 40%
   :alt: screenshot
   :align: right

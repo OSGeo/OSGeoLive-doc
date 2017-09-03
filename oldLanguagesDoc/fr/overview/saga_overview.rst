@@ -24,7 +24,7 @@ la ligne de commande ou en utilisant l'API C++.
 SAGA a été développé depuis 2001, et le centre de développement de SAGA est situé à l'Institut
 de Géographie de l'Université de Hamburg, avec des contributions d'une communauté mondiale grandissante.
 
-.. image:: /images/screenshots/1024x768/saga_overview.png
+.. image:: /images/screenshots/saga/saga_overview.png
   :scale: 40%
   :alt: Capture d'écran
   :align: right

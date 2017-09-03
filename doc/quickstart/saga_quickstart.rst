@@ -42,7 +42,7 @@ window.
    Try closing one of the windows to get more place for your map. You can show
    closed windows again in the **Window** menu.
 
-  .. image:: /images/screenshots/1024x768/saga_guioverview.png
+  .. image:: /images/screenshots/saga/saga_guioverview.png
      :scale: 80
 
 Opening Data
@@ -95,7 +95,7 @@ To display the dataset in a map view:
    to move the map. Have a look at the other buttons in the tool bar: these allow you to zoom
    e.g. to Full Extent.
 
-.. image:: /images/screenshots/800x600/saga_fullextent.png
+.. image:: /images/screenshots/saga/saga_fullextent.png
 
 .. tip:: Saga zooms very fast, if you are lost while browsing your data, click the 'Zoom to
    Full Extent' button in the toolbar
@@ -130,7 +130,7 @@ We will enhance the map display by calculating a shaded relief map.
    the elevation dataset in the dialog popping up (Add layer to selected map).
    This will place the hillshade on top of the elevation dataset.
 
-.. image:: /images/screenshots/1024x768/saga_add_layer.png
+.. image:: /images/screenshots/saga/saga_add_layer.png
     :scale: 80
 
 #. Switch to the Maps tab of the Manager window. You will see on the Tree tab
@@ -147,7 +147,7 @@ We will enhance the map display by calculating a shaded relief map.
 
 Feel free to try other Transparency settings or even try other Shading Methods in the Analytical Hillshading module (in case you do not change the output dataset parameter, the changes will be written to the grid already created, i.e. you will see the changes in the map view immediately).
 
-.. image:: /images/screenshots/1024x768/saga_withhillshade.png
+.. image:: /images/screenshots/saga/saga_withhillshade.png
     :scale: 80
 
 3D visualization
@@ -166,7 +166,7 @@ In a next step, you might like to visualize your map in 3D.
    mouse operations and offer further functionality. To close the 3D view select
    the Close option from the Window menu.
 
-.. image:: /images/screenshots/1024x768/saga_3d.png
+.. image:: /images/screenshots/saga/saga_3d.png
     :scale: 80
 
 Creating Contour Lines
@@ -198,7 +198,7 @@ window, you can switch the object properties tab to 'history' to review which
 module and which options were used to create the dataset. This information is
 also kept when you save your files (in .mshp and .mgrd files).
 
-.. image:: /images/screenshots/1024x768/saga_contour_history.png
+.. image:: /images/screenshots/saga/saga_contour_history.png
     :scale: 80
 
 .. tip:: You can create a tool chain from your history - which allows you to

@@ -28,7 +28,7 @@ SAGA jest tworzona od 2001r., a centrum jej rozwoju znajduje się
 w Instytucie Geografii na Uniwersytecie w Hamburgu, z udziałem 
 rosnącej światowej społeczności.
 
-.. image:: /images/screenshots/1024x768/saga_overview.png
+.. image:: /images/screenshots/saga/saga_overview.png
   :scale: 40%
   :alt: screenshot
   :align: right

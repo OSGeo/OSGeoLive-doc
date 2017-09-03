@@ -29,7 +29,7 @@ SAGA
 τοποθετημένο στο Ινστιτούτο Γεωγραφίας στο Πανεπιστήμιο του Αμβούργου, με συνεισφορά από 
 μια μεγάλη παγκόσμια κοινότητα προγραμματιστών.
 
-.. image:: /images/screenshots/1024x768/saga_overview.png
+.. image:: /images/screenshots/saga/saga_overview.png
   :scale: 40%
   :alt: screenshot
   :align: right
