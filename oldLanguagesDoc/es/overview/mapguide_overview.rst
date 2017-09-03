@@ -38,7 +38,7 @@ Apache como IIS, y puede ser extensible con PHP, .NET, Java, y JavaScript APIs
 para desarrollar aplicaciones personalizadas. La licencia de MapGuide Open
 Source es LGPL.
 
-.. image:: /images/screenshots/1024x768/mapguide_viewer.png
+.. image:: /images/screenshots/mapguide/mapguide_viewer.png
   :scale: 50%
   :alt: screenshot
   :align: right

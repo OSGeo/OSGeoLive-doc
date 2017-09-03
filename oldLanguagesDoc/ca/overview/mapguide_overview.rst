@@ -29,7 +29,7 @@ MapGuide inclou suport XML per a la gestió de continguts. Permet editar la base
 
 MapGuide es pot implementar en Linux o Windows, així com en els servidors web Apache i Microsoft IIS, i es pot estendre amb PHP, .NET, Java i les APIs JavaScript per al desenvolupament d'aplicacions. La llicència de MapGuide Open Source és LGPL.
 
-.. image:: /images/screenshots/1024x768/mapguide_viewer.png
+.. image:: /images/screenshots/mapguide/mapguide_viewer.png
   :scale: 50%
   :alt: screenshot
   :align: right
