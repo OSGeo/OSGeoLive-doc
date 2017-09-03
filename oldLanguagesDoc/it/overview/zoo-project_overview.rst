@@ -31,7 +31,7 @@ con due applicazioni demo usando semplici servizi di servizi spaziali
 
 ZOO è composto di tre parti:
 
-.. image:: /images/screenshots/1024x768/zoo-project-demo-2.png
+.. image:: /images/screenshots/zoo/zoo-project-demo-2.png
   :scale: 40 %
   :alt: screenshot
   :align: right

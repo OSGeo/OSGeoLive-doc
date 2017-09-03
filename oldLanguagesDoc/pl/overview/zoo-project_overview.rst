@@ -31,7 +31,7 @@ C oraz moduł Pythona) bazujących na bibliotekach GEOS i OGR.
 
 ZOO składa się z trzech komponentów:
 
-.. image:: /images/screenshots/1024x768/zoo-project-demo-2.png
+.. image:: /images/screenshots/zoo/zoo-project-demo-2.png
   :scale: 40 %
   :alt: screenshot
   :align: right

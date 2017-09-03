@@ -26,7 +26,7 @@ ZOO-Projectは、多くのプログラミング言語をサポートし、:doc:`
 
 ZOO は３つのパーツから構成されます:
 
-.. image:: /images/screenshots/1024x768/zoo-project-demo-2.png
+.. image:: /images/screenshots/zoo/zoo-project-demo-2.png
   :scale: 40 %
   :alt: screenshot
   :align: right

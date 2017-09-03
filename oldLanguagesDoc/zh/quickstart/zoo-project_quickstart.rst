@@ -35,7 +35,7 @@ ZOO 快速入门
 *	火狐将打开 ZOO Project Spatial Tools 演示。
 
 
-.. image:: /images/screenshots/1024x768/zoo-project-demo-1.png
+.. image:: /images/screenshots/zoo/zoo-project-demo-1.png
   :scale: 50 %
   :alt: screenshot
   :align: center
@@ -43,7 +43,7 @@ ZOO 快速入门
   
 *	点击地图上要素可以从 :doc:`GeoServer <../overview/geoserver_overview>` WFS 服务器选择地理要素。选中对象高亮显示。选择缓冲区（Buffer），中心点（Centroid）、包围凸多边形（ConvexHull）、坐标边界框（Boundary）等运算。结果将以黄色显示。
 
-.. image:: /images/screenshots/1024x768/zoo-project-demo-2.png
+.. image:: /images/screenshots/zoo/zoo-project-demo-2.png
   :scale: 50 %
   :alt: screenshot
   :align: center
@@ -51,7 +51,7 @@ ZOO 快速入门
 
 *	选择一个临近的要素，执行并（Union）、交（Intersection）、对称作差（Symmetric Difference）、减（Difference）等多对象操作。
 
-.. image:: /images/screenshots/1024x768/zoo-project-demo-3.png
+.. image:: /images/screenshots/zoo/zoo-project-demo-3.png
   :scale: 50 %
   :alt: screenshot
   :align: center

@@ -24,21 +24,21 @@
 
 * Веб-браузер Firefox откроет демо ZOO Project Spatial Tools.
 
-.. image:: /images/screenshots/1024x768/zoo-project-demo-1.png
+.. image:: /images/screenshots/zoo/zoo-project-demo-1.png
   :scale: 50 %
   :alt: снимок экрана
   :align: center
   
 * Щёлкните на экран для выбора для выбора пространственного объекта из :doc:`GeoServer <../overview/geoserver_overview>` WFS. Объект будет показан в синем цвете. Когда запускается простой инструмент геообработки, например, буферизация, создание центроидов, выпуклая оболочка или граница, результат будет показан жёлтым цветом.
 
-.. image:: /images/screenshots/1024x768/zoo-project-demo-2.png
+.. image:: /images/screenshots/zoo/zoo-project-demo-2.png
   :scale: 50 %
   :alt: снимок экрана
   :align: center
 
 * Теперь выберите другой объект недалеко от первого и щёлкните по кнопке обработки нескольких геометрий: "объединить", "пересечь", "симметричное вычитание" или "вычитание", чтобы получить результат на карте в красном цвете.
 
-.. image:: /images/screenshots/1024x768/zoo-project-demo-3.png
+.. image:: /images/screenshots/zoo/zoo-project-demo-3.png
   :scale: 50 %
   :alt: снимок экрана
   :align: center
