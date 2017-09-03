@@ -25,7 +25,7 @@ Natural Earth
 картографы: наличие данных для создания качественных мелкомасштабных карт,
 причём данных с соответствующей детальностью.
 
-.. image:: /images/screenshots/1024x768/naturalearth.png
+.. image:: /images/screenshots/naturalearth/naturalearth.png
   :scale: 55 %
   :alt: natural earth screenshot
   :align: right

@@ -25,7 +25,7 @@ Natural Earth risolve il problema comune affrontato da molti cartografi: trovare
 dati vettoriali per effettuare pubblicazione di qualità per mappe a piccola scale 
 al livello di dettagli appropriato per le mappa che si sta creando.
 
-.. image:: /images/screenshots/1024x768/naturalearth.png
+.. image:: /images/screenshots/naturalearth/naturalearth.png
   :scale: 55 %
   :alt: natural earth screenshot
   :align: right

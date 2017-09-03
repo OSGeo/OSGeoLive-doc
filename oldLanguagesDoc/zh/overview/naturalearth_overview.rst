@@ -20,7 +20,7 @@ Natural Earth 地图数据
 
 　　Natural Earth 为众多制图人员解决了一个常见的问题：即获得出版所需质量的数据用于制作小比例尺地图，并就所用比例尺选取合适的数据量。
 
-.. image:: /images/screenshots/1024x768/naturalearth.png
+.. image:: /images/screenshots/naturalearth/naturalearth.png
   :scale: 55 %
   :alt: natural earth screenshot
   :align: right

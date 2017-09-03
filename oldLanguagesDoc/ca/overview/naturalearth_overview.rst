@@ -22,7 +22,7 @@ Natural Earth proporciona als cartògrafs una solució fora de la plataforma per
 Natural Earth soluciona el problema amb el que s'enfronten la majoria de cartografs: trobar dades vectorials per a publicar amb qualitat mapes a petita escala en un nivell apropiat de detall.
 
 
-.. image:: /images/screenshots/1024x768/naturalearth.png
+.. image:: /images/screenshots/naturalearth/naturalearth.png
   :scale: 55 %
   :alt: natural earth screenshot
   :align: right
