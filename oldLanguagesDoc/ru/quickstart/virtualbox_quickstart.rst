@@ -28,27 +28,27 @@ VirtualBox является виртуальной машиной с откры�
 
 Откройте VirtualBox 
 
-  .. image:: /images/screenshots/vmdk/virtualbox.png
+  .. image:: /images/screenshots/virtualization/virtualbox.png
     :scale: 70 %
 
 Выберите :guilabel:`New` для создания новой виртуальной машины.
 
-  .. image:: /images/screenshots/vmdk/virtualbox_create_vm.png
+  .. image:: /images/screenshots/virtualization/virtualbox_create_vm.png
     :scale: 70 %
 
 Нажмите :guilabel:`Next`
 
-  .. image:: /images/screenshots/vmdk/virtualbox_select_name.png
+  .. image:: /images/screenshots/virtualization/virtualbox_select_name.png
     :scale: 70 %
 
 Задайте имя виртуальной машины, выберите тип "Linux", "Ubuntu".
 
-  .. image:: /images/screenshots/vmdk/virtualbox_memory.png
+  .. image:: /images/screenshots/virtualization/virtualbox_memory.png
     :scale: 70 %
 
 Установите объём выделяемой оперативной памяти (минимум 768 Мб), 1 Гб для лучшей работы Java-приложений.
 
-  .. image:: /images/screenshots/vmdk/virtualbox_no_hard_disk.png
+  .. image:: /images/screenshots/virtualization/virtualbox_no_hard_disk.png
     :scale: 70 %
 
 Простая установка: удалите "Boot Hard Disk", виртуальная машина будет всегда 
@@ -57,17 +57,17 @@ VirtualBox является виртуальной машиной с откры�
 Для сохранения состояния сессий и настроек виртуальной машины 
 включите и установите виртуальный жёсткий диск.
 
-  .. image:: /images/screenshots/vmdk/virtualbox_warning_no_hard_disk.png
+  .. image:: /images/screenshots/virtualization/virtualbox_warning_no_hard_disk.png
     :scale: 70 %
 
 Нажмите :guilabel:`Continue`
 
-  .. image:: /images/screenshots/vmdk/virtualbox_final_check.png
+  .. image:: /images/screenshots/virtualization/virtualbox_final_check.png
     :scale: 70 %
 
 Нажмите :guilabel:`Finish`
 
-  .. image:: /images/screenshots/vmdk/virtualbox_select_settings.png
+  .. image:: /images/screenshots/virtualization/virtualbox_select_settings.png
     :scale: 70 %
 
 Всё, создание виртуального жёсткого диска завершено. Теперь нужно создать виртуальный привод с 
@@ -75,17 +75,17 @@ OSGeo-Live DVD в нём.
 
 Щёлкните правой кнопкой мыши на образе "osgeo-live" и выберите :guilabel:`Settings`.
 
-  .. image:: /images/screenshots/vmdk/virtualbox_set_cd.png
+  .. image:: /images/screenshots/virtualization/virtualbox_set_cd.png
     :scale: 70 %
 
 Выберите "Storage", CD/DVD Device, ...
 
-  .. image:: /images/screenshots/vmdk/virtualbox_add_dvd.png
+  .. image:: /images/screenshots/virtualization/virtualbox_add_dvd.png
     :scale: 70 %
 
 Выберите образ OSGeo-Live.
 
-  .. image:: /images/screenshots/vmdk/virtualbox_start_vm.png
+  .. image:: /images/screenshots/virtualization/virtualbox_start_vm.png
     :scale: 70 %
 
 Теперь вы можете запустить виртуальную машину в соответствии с :doc:`osgeolive_quickstart`
@@ -103,19 +103,19 @@ OSGeo-Live DVD в нём.
 
 Убедитесь, что ваш компьютер подключён к сети Интернет.
 
-  .. image:: /images/screenshots/vmdk/virtualbox_synaptic_menu.png
+  .. image:: /images/screenshots/virtualization/virtualbox_synaptic_menu.png
     :scale: 70 %
 
 Выберите приложение для управления пакетами *Synaptic*.
 
 Введите пораль = "user"
 
-  .. image:: /images/screenshots/vmdk/virtualbox_synaptic_select_tools.png
+  .. image:: /images/screenshots/virtualization/virtualbox_synaptic_select_tools.png
     :scale: 70 %
 
 Отметьте "virtualbox-ose-guest-utils" для установки.
 
-  .. image:: /images/screenshots/vmdk/virtualbox_synaptic_apply.png
+  .. image:: /images/screenshots/virtualization/virtualbox_synaptic_apply.png
     :scale: 70 %
 
 Примените изменения.

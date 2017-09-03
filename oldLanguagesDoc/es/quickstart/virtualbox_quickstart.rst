@@ -29,61 +29,61 @@ Descargar e instalar `Virtual Box <http://www.virtualbox.org/>`_. En Linux hacer
 
 Abrir Virtual Box 
 
-  .. image:: /images/screenshots/vmdk/virtualbox.png
+  .. image:: /images/screenshots/virtualization/virtualbox.png
     :scale: 70 %
 
 Seleccionar :guilabel:`Nuevo` para crear una nueva Máquina Virtual.
 
-  .. image:: /images/screenshots/vmdk/virtualbox_create_vm.png
+  .. image:: /images/screenshots/virtualization/virtualbox_create_vm.png
     :scale: 70 %
 
 Seleccionar :guilabel:`Siguiente`
 
-  .. image:: /images/screenshots/vmdk/virtualbox_select_name.png
+  .. image:: /images/screenshots/virtualization/virtualbox_select_name.png
     :scale: 70 %
 
 Introducir un nombre para la imagen, por ejemplo "osgeo-live" y elegir "Linux", "Ubuntu".
 
-  .. image:: /images/screenshots/vmdk/virtualbox_memory.png
+  .. image:: /images/screenshots/virtualization/virtualbox_memory.png
     :scale: 70 %
 
 Asignar la Memoria Base con al menos 768 MB (1 GB es mejor para probar aplicaciones basadas en java).
 
-  .. image:: /images/screenshots/vmdk/virtualbox_no_hard_disk.png
+  .. image:: /images/screenshots/virtualization/virtualbox_no_hard_disk.png
     :scale: 70 %
 
 Instalación simple: Desmarcar "Boot Hard Disk" para que la Máquina Virtual siempre arranque desde el DVD simulado.
 
 Si desea tener una Máquina Virtual persistente, que almacene el estado entre sesiones y que pueda ajustar la resolución de pantalla u otras herramientas, entonces incluya el "disco duro" para su instalación posterior.
 
-  .. image:: /images/screenshots/vmdk/virtualbox_warning_no_hard_disk.png
+  .. image:: /images/screenshots/virtualization/virtualbox_warning_no_hard_disk.png
     :scale: 70 %
 
 Seleccionar :guilabel:`Siguiente`
 
-  .. image:: /images/screenshots/vmdk/virtualbox_final_check.png
+  .. image:: /images/screenshots/virtualization/virtualbox_final_check.png
     :scale: 70 %
 
 Seleccionar :guilabel:`Crear`
 
-  .. image:: /images/screenshots/vmdk/virtualbox_select_settings.png
+  .. image:: /images/screenshots/virtualization/virtualbox_select_settings.png
     :scale: 70 %
 
 La imagen se creará, pero es necesario simular la existencia de un OSGeo-Live DVD en la unidad de CD.
 
 Pulse el botón derecho de ratón sobre la imagen "osgeo-live" y seleccione :guilabel:`Configuración`.
 
-  .. image:: /images/screenshots/vmdk/virtualbox_set_cd.png
+  .. image:: /images/screenshots/virtualization/virtualbox_set_cd.png
     :scale: 70 %
 
 Seleccionar "Almacenamiento", "Unidad CD/DVD", ...
 
-  .. image:: /images/screenshots/vmdk/virtualbox_add_dvd.png
+  .. image:: /images/screenshots/virtualization/virtualbox_add_dvd.png
     :scale: 70 %
 
 Escoger el fichero con la imagen del OSGeo-Live.
 
-  .. image:: /images/screenshots/vmdk/virtualbox_start_vm.png
+  .. image:: /images/screenshots/virtualization/virtualbox_start_vm.png
     :scale: 70 %
 
 Ahora ya es posible iniciar la Máquina Virtual como se indica en :doc:`osgeolive_quickstart`
@@ -99,19 +99,19 @@ copiar y pegar textos entre el sistema huésped y anfitrión, aceleración gráf
 
 Para ello, asegurar que el ordenador está conectado a internet correctamente.
 
-  .. image:: /images/screenshots/vmdk/virtualbox_synaptic_menu.png
+  .. image:: /images/screenshots/virtualization/virtualbox_synaptic_menu.png
     :scale: 70 %
 
 Seleccionar la aplicación de 'Gestión de paquetes Synaptic'.
 
 Introduzca la contraseña = "user"
 
-  .. image:: /images/screenshots/vmdk/virtualbox_synaptic_select_tools.png
+  .. image:: /images/screenshots/virtualization/virtualbox_synaptic_select_tools.png
     :scale: 70 %
 
 Marcar "virtualbox-ose-guest-utils" para su instalación.
 
-  .. image:: /images/screenshots/vmdk/virtualbox_synaptic_apply.png
+  .. image:: /images/screenshots/virtualization/virtualbox_synaptic_apply.png
     :scale: 70 %
 
 Aplicar cambios.

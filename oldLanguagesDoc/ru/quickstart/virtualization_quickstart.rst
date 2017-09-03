@@ -49,37 +49,37 @@
 
 Запустите VirtualBox и нажмите на кнопку *Создать*, затем нажмите *Вперёд*.
 
-  .. image:: /images/screenshots/vmdk/virtualbox.png
+  .. image:: /images/screenshots/virtualization/virtualbox.png
          :scale: 50 %
 
 Введите имя, например "OSGeo-Live", выберите операционную систему Linux, версия — Ubuntu.
 
-  .. image:: /images/screenshots/vmdk/virtualbox_select_name.png
+  .. image:: /images/screenshots/virtualization/virtualbox_select_name.png
          :scale: 70 %
 
 Установите размер основной памяти 1024 MB (или больше, если у вашего компьютера более 4GB ОЗУ).
 
-  .. image:: /images/screenshots/vmdk/vmdk_memory.png
+  .. image:: /images/screenshots/virtualization/vmdk_memory.png
               :scale: 65 %
 
 Для продолжения нажмите "Вперёд". Выберите "Использовать существующий жёсткий диск". Нажмите на кнопку обзора (иконка в виде папки) и укажите путь, куда вы сохранили *osgeo-live-vm-6.0.vmdk*. Выберите этот файл, нажмите "Открыть", затем "Создать".
 
-  .. image:: /images/screenshots/vmdk/vmdk_disk.png
+  .. image:: /images/screenshots/virtualization/vmdk_disk.png
                    :scale: 65 %
 
 После того, как виртуальная машина будет создана, нажмите кнопку "Свойства". В пункте меню "Общие" выберите вкладку "Дополнительно", и для мини-тулбара отметьте "Расположить сверху экрана".
 
-  .. image:: /images/screenshots/vmdk/vmdk_general_advanced.png
+  .. image:: /images/screenshots/virtualization/vmdk_general_advanced.png
                    :scale: 65 %
 
 Откройте пункт "Дисплей" и установите значение видео-памяти равным 32 или 64 MB.
 
-  .. image:: /images/screenshots/vmdk/vmdk_display.png
+  .. image:: /images/screenshots/virtualization/vmdk_display.png
                    :scale: 65 %
 
 Далее перейдите в пункт меню "Общие папки", выберите "Добавить папку" (иконка с зеленым "плюсом" на папке справа). Выберите папку на локальной машине, которую вы бы хотели сделать доступной из виртуальной машины.
 
- .. image:: /images/screenshots/vmdk/vmdk_shared_folders.png
+ .. image:: /images/screenshots/virtualization/vmdk_shared_folders.png
                       :scale: 65 %
 
 После того, как будут указаны "Путь к папке" и "Имя папки", нажмите OK и еще раз OK для того, чтобы закончить настройку параметров и закрыть окно свойств.
@@ -93,7 +93,7 @@
 
 В окне VirtualBox откройте меню :menuselection:`Устройства` и выберите :menuselection:`Установить Дополнения гостевой ОС`. После этого ISO-образ смонтируется в CD-привод виртуальной машины OSGeo-Live.
 
-  .. image:: /images/screenshots/vmdk/vmdk_guest_additions.jpg
+  .. image:: /images/screenshots/virtualization/vmdk_guest_additions.jpg
                         :scale: 80 %
 
 После этого откройте терминал и выполните следующие команды:
