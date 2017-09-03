@@ -19,7 +19,7 @@ Conseguir iniciar y configurar Ushahidi
 
 1. Iniciando Ushahidi desde el icono del escritorio o ítem del menú abre el navegador web y en la pagina de instalación. Y desde el sitio es realmente facil de configurar.
 
-.. image:: /images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: /images/screenshots/ushahidi/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: ushahidi desktop icons
   :align: center 
@@ -41,14 +41,14 @@ Conseguir iniciar y configurar Ushahidi
 
    Ahora regrese al instalador web de Ushahidi.
 
-.. image:: /images/screenshots/1024x768/ushahidi_installer_mode_screenshot.png
+.. image:: /images/screenshots/ushahidi/ushahidi_installer_mode_screenshot.png
   :scale: 50 %
   :alt: mapguide desktop icons
   :align: center
 
 3. Después de que todo esta terminado debería decirle que la instalación fue satisfactoria y darle un enlace a 'View your website'.
 
-.. image:: /images/screenshots/1024x768/ushahidi_installer_finished_screenshot.png
+.. image:: /images/screenshots/ushahidi/ushahidi_installer_finished_screenshot.png
   :scale: 50%
   :alt: ushahidi installer finishes
   :align: center
@@ -56,7 +56,7 @@ Conseguir iniciar y configurar Ushahidi
 4. Para hacer cambios en `Área de Administración <http://localhost/ushahidi/admin>`_, el nombre de usuario para el acceso es **"admin"** y la contraseña es **"admin"**. 
    Por ejemplo en la página de configuración quizás desee  **"Settings"** (Arriba a la derecha) y luego la pestaña **"Map"**, y cambie  **"Map provider"** a OpenStreetMaps (no es necesaria una clave de acceso para OSM, es abierto :-) ).
 
-.. image:: /images/screenshots/1024x768/ushahidi_admin_login_screenshot.png
+.. image:: /images/screenshots/ushahidi/ushahidi_admin_login_screenshot.png
    :scale: 50%
    :alt: ushahidi admin login
    :align: center

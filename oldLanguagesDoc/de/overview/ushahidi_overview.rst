@@ -16,7 +16,7 @@ Kartenerstellung und Zeitachse für Ereignisse
 
 `Ushahidi <http://www.ushahidi.com/>`_ ist eine freie Open Source Plattform, die es erlaubt, verteilte Daten via SMS, Email oder Internet zusammenzutragen, und diese auf einer Landkarte oder einer Zeitachse darzustellen. Unser Ziel ist es, Werkzeuge zu erstellen für die freie Verbreitung von Informationen und größere Transparenz, und es dem Einzelnen zu erleichtern, persönliche Geschichten mitzuteilen.
 
-.. image:: /images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: /images/screenshots/ushahidi/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: Bildschirmfoto
   :align: right

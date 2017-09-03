@@ -17,7 +17,7 @@ Ushahidi
 
 　　 `Ushahidi <http://www.ushahidi.com/>`_ 系统是一套自由和开源的事件信息管理软件。通过它，任何人都可以短信、电邮、网页界面等手段发布和收集分散的数据，并以时间线或地图的形式进行可视化。Ushahidi 项目的目标是为信息的开放、透明化提供工具，降低社会成员分享公共信息的技术壁垒。
 
-.. image:: /images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: /images/screenshots/ushahidi/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

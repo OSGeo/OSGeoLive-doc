@@ -21,7 +21,7 @@ Internet oraz wizualizację tych danych na mapach lub wykresach ze zmienną czas
 Celem Ushahidi jest stworzenie narzędzia do demokratyzacji i zwiększenia przejrzytości 
 informacji oraz zmniejszenia bariery dzielenia się swoimi historiami przez zwykłych ludzi.
 
-.. image:: /images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: /images/screenshots/ushahidi/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

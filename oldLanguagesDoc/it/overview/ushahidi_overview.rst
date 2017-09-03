@@ -23,7 +23,7 @@ di Ushahidi è quello di creare strumenti per democratizzare
 l'informazione, accrescere la trasparenza e ridurre gli ostacoli alla
 condivisione delle esperienze personali di singoli individui.
 
-.. image:: /images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: /images/screenshots/ushahidi/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

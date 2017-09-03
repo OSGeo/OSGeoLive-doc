@@ -21,7 +21,7 @@ Configurare Ushahidi e eseguirlo
    e vi porterà alla pagina di Installazione. Un sito Ushahidi è molto semplice da
    impostare
 
-.. image:: /images/screenshots/1024x768/ushahidi-drc-screenshot.png
+.. image:: /images/screenshots/ushahidi/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: ushahidi desktop icons
   :align: center 
@@ -58,7 +58,7 @@ Configurare Ushahidi e eseguirlo
 
    Ora tornato all'installer web di Ushahidi al passaggio 2 e riempite i dettagli.
 
-.. image:: /images/screenshots/1024x768/ushahidi_installer_mode_screenshot.png
+.. image:: /images/screenshots/ushahidi/ushahidi_installer_mode_screenshot.png
   :scale: 50 %
   :alt: mapguide desktop icons
   :align: center
@@ -66,7 +66,7 @@ Configurare Ushahidi e eseguirlo
 3. Dopo questo è tutto fatto e questo dovrebbe dirvi che l'installazione è andata
    a buon fine e ritorna un collegamento a 'View your website'.
 
-.. image:: /images/screenshots/1024x768/ushahidi_installer_finished_screenshot.png
+.. image:: /images/screenshots/ushahidi/ushahidi_installer_finished_screenshot.png
   :scale: 50%
   :alt: ushahidi installer finishes
   :align: center
@@ -77,7 +77,7 @@ Configurare Ushahidi e eseguirlo
    (top right) e quindi la scheda **"Map"**, e cambiare la **"Sorgente di Mappe"** a
    OpenStreetMaps (nessuna chiave API necessaria per OSM, siccome è Aperto :-) ).
 
-.. image:: /images/screenshots/1024x768/ushahidi_admin_login_screenshot.png
+.. image:: /images/screenshots/ushahidi/ushahidi_admin_login_screenshot.png
    :scale: 50%
    :alt: ushahidi admin login
    :align: center
