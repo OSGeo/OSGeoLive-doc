@@ -24,7 +24,7 @@ Geomajas itself is an application framework allowing you to build very diverse a
 
 On this OSGeo Live DVD we have included a ready-to-use Geomajas Application. This application features a map, navigation controllers, several data layers, a ribbon toolbar with GIS tools and the Layer Tree.
     
-.. image:: /images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: /images/screenshots/geomajas/geomajas_1024x768_screen1.png
     :scale: 50%
     :align: right
     :alt: An example application using the Geomajas framework
@@ -45,14 +45,14 @@ When using the stand-alone application, run either startup.bat on Windows, or st
 Using Geomajas applications
 ===========================
 
-.. image:: /images/screenshots/1024x768/geomajas_screenshot.png
+.. image:: /images/screenshots/geomajas/geomajas_screenshot.png
     :width: 100%
     :alt: The default view of the provided Geomajas application
 
 Looking around
 --------------
 
-.. image:: /images/screenshots/1024x768/geomajas_screenshot_zoom.png
+.. image:: /images/screenshots/geomajas/geomajas_screenshot_zoom.png
     :alt: The provided control for zooming within the Geomajas application
 
 You can drag around the map with the mouse so the desired area is centered on your screen.
@@ -62,7 +62,7 @@ To get a closer look, you can either use the mousewheel to zoom in or use the pr
 Legend
 ------
 
-.. image:: /images/screenshots/1024x768/geomajas_screenshot_legend.png
+.. image:: /images/screenshots/geomajas/geomajas_screenshot_legend.png
     :alt: Layers can be consulted and toggled from the legend in the Geomajas application
 
 In the upper right, a toggleable legend box is provided. This legend gives you an overview of all the layers currently loaded into the application, with the option to turn them on or off. This also shows more detailed info about each layers regarding icons, colouring, …

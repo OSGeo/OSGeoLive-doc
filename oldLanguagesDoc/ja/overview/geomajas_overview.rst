@@ -29,7 +29,7 @@ Geomajas は、地理情報（ :doc:`GeoTools <geotools_overview>` や Hibernate
 
 Geomajas の独特で強力なサーバサイドに注目すると、処理、スタイル編集、フィルアリング、キャッシュなど、あらゆる時点で地理情報をセキュアなコンテキストで扱っています。これにより Geomajas は非常にスケーラブルで軽快な動作を維持しており、 **本当に軽いクライアント** を実現します。
 
-.. image:: /images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: /images/screenshots/geomajas/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

@@ -28,7 +28,7 @@ L'essentiel de Geomajas est de fournir une plateforme pour **l'intégration du c
 
 Ce qui rend Geomajas unique est son solide aspect du côté serveur. Le processus, le style, le filtre, la capture, etc. de données géospatiales arrivent toujours dans un contexte sécurisé. Tout cela fait de Geomajas une application incroyablement adaptable et performante, gardant le client un **véritable client léger**.
 
-.. image:: /images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: /images/screenshots/geomajas/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

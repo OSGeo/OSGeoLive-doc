@@ -27,7 +27,7 @@ Geomajas è un ambiente di sviluppo per creare applicazioni WebGIS. Quindi,quell
 che che potrete vedere in questo Live DVD è un'applicazione di esempio creata 
 usando la tecnologia Geomajas.
 
-.. image:: /images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: /images/screenshots/geomajas/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

@@ -28,7 +28,7 @@ The focus of Geomajas is to provide a platform for **server-side integration** o
 
 What makes Geomajas unique is its strong server side focus. The processing, styling, filtering, caching, etc. of geospatial data always happens within a secured context. All this makes Geomajas applications incredibly scalable and performing, keeping the client a **real thin client**.
 
-.. image:: /images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: /images/screenshots/geomajas/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right

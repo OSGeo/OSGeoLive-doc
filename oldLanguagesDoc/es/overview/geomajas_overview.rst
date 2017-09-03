@@ -27,7 +27,7 @@ Cliente ligero GIS
 
 El cliente permite a los desarrolladores crear potentes aplicaciones SIG incluyendo mapas interactivos, *widgets* extensibles y casos de uso personalizados. Permite el acceso a un amplio rango de fuentes de dato y funcionalidades a través de un navegador web.
 
-.. image:: /images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: /images/screenshots/geomajas/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Caso Geomajas 
   :align: right

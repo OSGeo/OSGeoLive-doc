@@ -24,7 +24,7 @@ Geomajas Beispielanwendung
 
 Geomajas ist ein Entwicklungs-Framekwork um WebGIS Anwendungen zu erstellen. Auf der Live DVD wurde hierfür eine Beispiel-Anwendung mit Hilfe der Geomajas Technologie bereitgestellt. 
 
-.. image:: /images/screenshots/1024x768/geomajas_1024x768_screen1.png
+.. image:: /images/screenshots/geomajas/geomajas_1024x768_screen1.png
   :scale: 50%
   :alt: Geomajas Showcase
   :align: right
