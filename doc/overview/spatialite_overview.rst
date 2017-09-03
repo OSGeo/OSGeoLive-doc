@@ -22,7 +22,7 @@ SQLite is a Database Management System (DBMS) which is simple, robust, easy to u
 
 .. _SQLite: http://www.sqlite.org/
 
-.. image:: /images/screenshots/1024x768/spatialite.jpg
+.. image:: /images/screenshots/spatialite/spatialite.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

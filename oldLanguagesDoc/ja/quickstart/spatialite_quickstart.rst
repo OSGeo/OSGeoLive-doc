@@ -50,7 +50,7 @@ table:
 * :menuselection:`File->Connecting an existing SQLite DB` メニューを選択してください。
 * :file:`/home/user/data/spatialite` を開き、 :file:`trento.sqlite` を選択してください。
 
-  .. image:: /images/screenshots/800x600/spatialite-gui-trento.png
+  .. image:: /images/screenshots/spatialite/spatialite-gui-trento.png
     :scale: 70 %
 
 .. TBD: Cameron Review Comment:
@@ -58,7 +58,7 @@ table:
 
 * MunicipalHallsView テーブルで右クリックし、"Show Columns" を選択してください。
 
-  .. image:: /images/screenshots/800x600/spatialite-gui-columns.png
+  .. image:: /images/screenshots/spatialite/spatialite-gui-columns.png
       :scale: 70 %
 
 * You will notice the display broken into 3 areas:
@@ -93,7 +93,7 @@ table:
   右側の "Execute SQL" ボタンをクリックし、and see the results in
   the bottom right pane.
 
-  .. image:: /images/screenshots/800x600/spatialite-gui-select.png
+  .. image:: /images/screenshots/spatialite/spatialite-gui-select.png
       :scale: 70 %
 
 

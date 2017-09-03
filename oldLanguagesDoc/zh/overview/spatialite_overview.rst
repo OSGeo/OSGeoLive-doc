@@ -23,7 +23,7 @@ SQLite是一个深受欢迎的数据库管理系统，具有简单、稳定、�
 
 .. _SQLite: http://www.sqlite.org/
 
-.. image:: /images/screenshots/1024x768/spatialite.jpg
+.. image:: /images/screenshots/spatialite/spatialite.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

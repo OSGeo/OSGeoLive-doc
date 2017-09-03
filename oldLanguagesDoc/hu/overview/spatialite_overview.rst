@@ -24,7 +24,7 @@ másolhatja, tömörítheti átviheti Windows, Linux, MacOs, stb. között.
 
 .. _SQLite: http://www.sqlite.org/
 
-.. image:: /images/screenshots/1024x768/spatialite.jpg
+.. image:: /images/screenshots/spatialite/spatialite.jpg
   :scale: 50 %
   :alt: képernyőkép
   :align: right

@@ -49,7 +49,7 @@ SpatiaLite 快速入门
 * 选择 :menuselection:`File->Connecting an existing SQLite DB`
 * 在 :file:`/home/user/data/spatialite` 目录选择 :file:`trento.sqlite`
 
-  .. image:: /images/screenshots/800x600/spatialite-gui-trento.png
+  .. image:: /images/screenshots/spatialite/spatialite-gui-trento.png
     :scale: 70 %
 
 .. TBD: Cameron Review Comment:
@@ -57,7 +57,7 @@ SpatiaLite 快速入门
 
 * 在 MunicipalHallsView 右击选择 "Show Columns" 显示字段。
 
-  .. image:: /images/screenshots/800x600/spatialite-gui-columns.png
+  .. image:: /images/screenshots/spatialite/spatialite-gui-columns.png
       :scale: 70 %
 
 * 界面将分为三个部分：
@@ -91,7 +91,7 @@ SpatiaLite 快速入门
 
 　　点击 "Execute SQL" 执行，结果将显示在右下角。
 
-  .. image:: /images/screenshots/800x600/spatialite-gui-select.png
+  .. image:: /images/screenshots/spatialite/spatialite-gui-select.png
       :scale: 70 %
 
 

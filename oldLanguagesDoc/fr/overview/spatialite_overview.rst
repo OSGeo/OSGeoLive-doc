@@ -23,7 +23,7 @@ Les fichiers sont aussi portables; le même fichier de base de données fonction
 
 .. _SQLite: http://www.sqlite.org/
 
-.. image:: /images/screenshots/1024x768/spatialite.jpg
+.. image:: /images/screenshots/spatialite/spatialite.jpg
   :scale: 50 %
   :alt: Capture d'écran Spatialite
   :align: right
