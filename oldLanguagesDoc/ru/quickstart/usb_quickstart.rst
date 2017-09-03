@@ -46,13 +46,13 @@ http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB
 
 Вставьте USB-диск в компьютер.
 
-  .. image:: /images/screenshots/800x600/usb_select.png
+  .. image:: /images/screenshots/usb/usb_select.png
     :scale: 70 %
 
 Выберите :menuselection:`System Tools --> Startup Disk Creator` или
 найдите `Startup Disk Creator` через интерфейс Unity.
 
-  .. image:: /images/screenshots/800x600/usb_set_params.png
+  .. image:: /images/screenshots/usb/usb_set_params.png
     :scale: 70 %
 
 Выберите *osgeo-live* или *osgeo-live-mini* ISO-образы, загруженные ранее.  
@@ -63,7 +63,7 @@ http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB
 
 Выберите :guilabel:`Make Startup Disk`.
 
-  .. image:: /images/screenshots/800x600/usb_installing.png
+  .. image:: /images/screenshots/usb/usb_installing.png
     :scale: 70 %
 
 Подождите 20 минут или около того, пока USB-диск создаётся.
