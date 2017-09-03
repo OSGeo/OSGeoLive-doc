@@ -172,7 +172,7 @@ Podeu construir un shapefile com a índex de tesel·la d'un ràster. Per a cada 
 
 Mireu el fitxer de sortida amb QGIS i ogrinfo (aprendreu més coses sobre ogrinfo més tard en aquesta mateixa guia)
 
-  .. image:: /images/screenshots/800x600/gdal_gdaltindex.png
+  .. image:: /images/screenshots/gdal/gdal_gdaltindex.png
      :scale: 80
 
 ::
@@ -213,7 +213,7 @@ La comanda gdalwarp es pot fer servir per a re-projectar imatges. Aquí, re-proj
 
 Feu servir gdalinfo per a verificat el canvi i mireu la imatge.
 
-  .. image:: /images/screenshots/800x600/gdal_mercator.png
+  .. image:: /images/screenshots/gdal/gdal_mercator.png
      :scale: 80
 
 Aquí, re-projectem la imatge a projecció ortogràfica.
@@ -223,7 +223,7 @@ Aquí, re-projectem la imatge a projecció ortogràfica.
    gdalwarp -t_srs '+proj=ortho +datum=WGS84' HYP_50M_SR_W_4326.tif ortho.tif
 
 
-.. image:: /images/screenshots/800x600/gdal_ortho.png
+.. image:: /images/screenshots/gdal/gdal_ortho.png
      :scale: 80
 
 Heu vist com els pols queden tallats? Això és degut a que les vores al pols no es poden re-projectar i gdalwarp, en conseqüència, no llegeix les dades. Es pot forçar gdalwarp perquè llegeixi més dades al voltant dels trossos sobrants com a forma de resoldre-ho. Podeu llegir més sobra això al tutorial sobre ràster http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial.

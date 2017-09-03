@@ -33,7 +33,7 @@ Mapserver、GRASS、QGIS、OpenEV など多数のアプリケーションで
 OSSIM、Cadcorp SIS、FME、Google Earth、VTP、Thuban、ILWIS、MapGuide、ArcGIS
 などのパッケージソフトウェアでも使用されています。
 
-.. image:: /images/screenshots/1024x768/gdal_ogr_proj_overview.png
+.. image:: /images/screenshots/gdal/gdal_ogr_proj_overview.png
   :scale: 60 %
   :alt: GDALは数多くのフォーマットをサポートしています
   :align: right

@@ -35,7 +35,7 @@ il motore primario di accesso ai dati per molte applicazioni includendo MapServe
 GRASS, QGIS, and OpenEV. È anche utilizzata da pacchetti come OSSIM,
 Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide e ArcGIS.
 
-.. image:: /images/screenshots/1024x768/gdal_ogr_proj_overview.png
+.. image:: /images/screenshots/gdal/gdal_ogr_proj_overview.png
   :scale: 60 %
   :alt: GDAL supporta molti formati di geodati
   :align: right

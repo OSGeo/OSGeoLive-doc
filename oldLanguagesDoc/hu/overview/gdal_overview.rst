@@ -35,7 +35,7 @@ motort számos alkalmazásnak ezek közé tartozik a MapServer, GRASS, QGIS és
 OpenEV. Programcsomagok is használják mint például az OSSIM, 
 Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide és ArcGIS.
 
-.. image:: /images/screenshots/1024x768/gdal_ogr_proj_overview.png
+.. image:: /images/screenshots/gdal/gdal_ogr_proj_overview.png
   :scale: 60 %
   :alt: A GDAL sok geoadat formátumot támogat
   :align: right

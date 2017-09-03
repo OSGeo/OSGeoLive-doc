@@ -186,7 +186,7 @@ al file.
 Controllate lo shapefile di output con QGIS e ogrinfo (imparerete di più su
 ogrinfo dopo in questo tutorial)
 
-  .. image:: /images/screenshots/800x600/gdal_gdaltindex.png
+  .. image:: /images/screenshots/gdal/gdal_gdaltindex.png
      :scale: 80
 
 ::
@@ -231,7 +231,7 @@ l'immagine WGS84 in una proiezione di Mercatore:
 
 Usare gdalinfo per verificare il cambio e visualizzate l'immagine.
 
-  .. image:: /images/screenshots/800x600/gdal_mercator.png
+  .. image:: /images/screenshots/gdal/gdal_mercator.png
      :scale: 80
 
 Qui si riproietta in una proiezione Ortho.
@@ -241,7 +241,7 @@ Qui si riproietta in una proiezione Ortho.
    gdalwarp -t_srs '+proj=ortho +datum=WGS84' HYP_50M_SR_W_4326.tif ortho.tif
 
 
-.. image:: /images/screenshots/800x600/gdal_ortho.png
+.. image:: /images/screenshots/gdal/gdal_ortho.png
      :scale: 80
 
 Notare come i poli sono tagliati?  Questo perchè gli angoli al polo non possono
