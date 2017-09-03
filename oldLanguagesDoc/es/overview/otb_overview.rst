@@ -43,7 +43,7 @@ como código de fuente abierta.
 Características principales
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/1024x768/otb-mvd3-screenshot.jpg
+.. image:: /images/screenshots/otb/otb-mvd3-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

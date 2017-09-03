@@ -39,7 +39,7 @@ ITK e viene distribuito come sorgente aperto.
 Caratteristiche principali
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/1024x768/otb-monteverdi2-screenshot.jpg
+.. image:: /images/screenshots/otb/otb-monteverdi2-screenshot.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right
