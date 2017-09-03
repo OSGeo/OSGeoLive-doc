@@ -28,7 +28,7 @@ in fondo alla pagina.)
 2) Firefox aprirà la pagina principale del client di test 52°North SOS (vedere Fiq. 1). 
 Selezionare la versione che vorrete usare, 1.0.0 per esempio:
 
-.. image:: /images/screenshots/1024x768/52n_sos_test_client_start.png
+.. image:: /images/screenshots/52n_sos/52n_sos_test_client_start.png
   :scale: 100 %
   :alt: screenshot of 52°North SOS test client welcome page
   :align: center
@@ -39,7 +39,7 @@ Selezionare la versione che vorrete usare, 1.0.0 per esempio:
 Un menù a tendina vi permetterà di selezionarne una da una collezione di richieste predefinite,
 che sono adottate dalle rispettive versioni del servizio selezionato nel passaggio precedente.
 
-.. image:: /images/screenshots/1024x768/52n_sos_test_client_v1_0_0_GetCapabilities.png
+.. image:: /images/screenshots/52n_sos/52n_sos_test_client_v1_0_0_GetCapabilities.png
   :scale: 100 %
   :alt: screenshot of 52°North SOS test client version 1.0.0
   :align: center
@@ -54,7 +54,7 @@ Come risultato, un documento XML sarà ritornato (vedere Fig. 3), che mostra le 
 i metadati del servizio parole chiave o il fornitore, operazioni disponibili e filtri, dati delle
 osservazioni contenute,...). Per vedere la risposta originale aprire la sorgente (Ctrl+U).
 
-.. image:: /images/screenshots/1024x768/52n_sos_response.png
+.. image:: /images/screenshots/52n_sos/52n_sos_response.png
   :scale: 70 %
   :alt: screenshot of 52°North SOS output - GetCapabilities response encoded in XML
   :align: center
