@@ -25,7 +25,7 @@ e GeoWebCache, :doc:`OpenLayers <../overview/openlayers_overview>` nel browser, 
 Cartaro è pensato per siti internet CMS con il bisogno di gestire dati geospaziali, e per organizzazioni che
 desiderano un Spatial Data Infrastructure (SDI) leggero con la configurazione e programmazione minima.
 
-.. image:: /images/screenshots/1024x768/cartaro_frontpage.png
+.. image:: /images/screenshots/cartaro/cartaro_frontpage.png
   :scale: 50%
   :alt: Cartaro Frontpage
   :align: right

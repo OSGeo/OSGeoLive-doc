@@ -74,7 +74,7 @@ Cartaro是一个具有地理功能的内容管理系统（CMS），来管理与�
 .. When the Cartaro page is opened, you will see the screen below. The front page contains a global map with capital cities as an example.
 当Cartaro页面打开后，你会看到下面的内容。首页包含了具备首都城市的世界地图作为示例。
 
-.. image:: /images/screenshots/1024x768/cartaro_frontpage.png
+.. image:: /images/screenshots/cartaro/cartaro_frontpage.png
     :scale: 60 %
     :align: center
 
@@ -83,7 +83,7 @@ Cartaro是一个具有地理功能的内容管理系统（CMS），来管理与�
 
 * 请在右上角处使用用户名 *admin*，密码 *geoserver*  **登录**，来访问管理界面。现在你可以页面的顶部看到管理菜单条。
 
-.. image:: /images/screenshots/1024x768/cartaro_userpage.png
+.. image:: /images/screenshots/cartaro/cartaro_userpage.png
     :scale: 60 %
     :align: center
   
@@ -102,13 +102,13 @@ Cartaro是一个具有地理功能的内容管理系统（CMS），来管理与�
 
 * 在菜单栏中选择 :menuselection:`结构 --> 内容类型` ，并点击 **添加内容类型** 
 
-.. image:: /images/screenshots/1024x768/cartaro_addcontenttype.png
+.. image:: /images/screenshots/cartaro/cartaro_addcontenttype.png
     :scale: 80 %
     :align: center
 
 * 为新的内容类型输入名称，以及相应的描述信息
 
-.. image:: /images/screenshots/1024x768/cartaro1.png
+.. image:: /images/screenshots/cartaro/cartaro1.png
     :scale: 50 %
     :align: center
 
@@ -119,7 +119,7 @@ Cartaro是一个具有地理功能的内容管理系统（CMS），来管理与�
 * 通过输入描述性的名称，来为新的内容类型添加新的字段。我们希望使用名称 *Geometry* 来创建一个地理空间字段。
 选择 *Geospatial data* 作为字段类型， *OpenLayers Map* 作为小组件。
 
-.. image:: /images/screenshots/1024x768/cartaro2.png
+.. image:: /images/screenshots/cartaro/cartaro2.png
     :scale: 70 %
     :align: center
 
@@ -129,7 +129,7 @@ Cartaro是一个具有地理功能的内容管理系统（CMS），来管理与�
 
 *  在新窗口中选择字段的设置：选择与你想存储的地理空间信息相匹配的几何类型。
 
-.. image:: /images/screenshots/1024x768/cartaro3.png
+.. image:: /images/screenshots/cartaro/cartaro3.png
     :scale: 70 % 
     :align: center
 
@@ -138,13 +138,13 @@ Cartaro是一个具有地理功能的内容管理系统（CMS），来管理与�
 
 * 点击 **保存字段设置** 来关闭
 
-.. image:: /images/screenshots/1024x768/cartaro4.png
+.. image:: /images/screenshots/cartaro/cartaro4.png
     :scale: 70 % 
     :align: center
 
 * 点击 *保存设置* 来结束字段的创建
 
-.. image:: /images/screenshots/1024x768/cartaro5.png
+.. image:: /images/screenshots/cartaro/cartaro5.png
     :scale: 70 % 
     :align: center
 
@@ -158,7 +158,7 @@ Cartaro是一个具有地理功能的内容管理系统（CMS），来管理与�
 
 * 从菜单栏中选择 :menuselection:`结构 --> GeoServer` 来访问 GeoServer 配置页面
 
-.. image:: /images/screenshots/1024x768/cartaro_geoserver_entry.png
+.. image:: /images/screenshots/cartaro/cartaro_geoserver_entry.png
     :scale: 70 %
     :align: center
 
@@ -168,7 +168,7 @@ Cartaro是一个具有地理功能的内容管理系统（CMS），来管理与�
 * 在菜单栏中选择 :menuselection:`结构 --> GeoServer` 来再次访问 GeoServer 配置页面
 * 选择 :menuselection:`图层` 并点击 **添加** 来添加一个新的图层
 
-.. image:: /images/screenshots/1024x768/cartaro_geoserver_addnewlayer.png
+.. image:: /images/screenshots/cartaro/cartaro_geoserver_addnewlayer.png
     :scale: 60 %
     :align: center
 
@@ -178,7 +178,7 @@ Cartaro是一个具有地理功能的内容管理系统（CMS），来管理与�
 #. 在 OpenLayers 部分勾选 *提供 OpenLayers WFS 图层*
 #. 点击 **保存** 来完成配置
 
-.. image:: /images/screenshots/1024x768/cartaro7.png
+.. image:: /images/screenshots/cartaro/cartaro7.png
     :scale: 55 %
     :align: center
 
@@ -196,13 +196,13 @@ Cartaro是一个具有地理功能的内容管理系统（CMS），来管理与�
 
 * 找到 *frontmap* - 一个预生成的、缺省的地图，并在右边选择 **编辑**：
 
-.. image:: /images/screenshots/1024x768/cartaro_openl_maps_frontmapedit.png
+.. image:: /images/screenshots/cartaro/cartaro_openl_maps_frontmapedit.png
     :scale: 70 %
     :align: center
 
 * 然后会出现如下所示的 frontmap 配置页面 
 
-.. image:: /images/screenshots/1024x768/cartaro_openlayers_frontmapediting.png
+.. image:: /images/screenshots/cartaro/cartaro_openlayers_frontmapediting.png
     :scale: 70 %
     :align: center
 
@@ -211,7 +211,7 @@ Cartaro是一个具有地理功能的内容管理系统（CMS），来管理与�
 * 打到你创建的  GeoServer 图层 (在我们的示例中是 'lakes' )
 * 勾选上 *Enabled*, *Activated* 与 *In Switcher* ，来在你的地图中激活你的新图层
 
-.. image:: /images/screenshots/1024x768/cartaro_openl_layersstylessettings.png
+.. image:: /images/screenshots/cartaro/cartaro_openl_layersstylessettings.png
     :scale: 70 %
     :align: center
 
@@ -227,7 +227,7 @@ Cartaro是一个具有地理功能的内容管理系统（CMS），来管理与�
 
 * 在菜单栏上选择 :menuselection:`Content` ，在你安装的 Cartaro 程序中查看所有已经存在的内容单元 
 
-.. image:: /images/screenshots/1024x768/cartaro_contentlist.png
+.. image:: /images/screenshots/cartaro/cartaro_contentlist.png
     :scale: 70 %
     :align: center
 
@@ -241,19 +241,19 @@ Cartaro是一个具有地理功能的内容管理系统（CMS），来管理与�
 
 .. note:: 在我们的示例配置中，只可以为每个内容单元创建一个几何图形。创建另外的内容单元来添加更多的多边形。
 
-.. image:: /images/screenshots/1024x768/cartaro8.png
+.. image:: /images/screenshots/cartaro/cartaro8.png
     :scale: 70 %
     :align: center
 
 * 你现在可以查看新的内容单元
 
-.. image:: /images/screenshots/1024x768/cartaro_addedcontent_lakefr.png
+.. image:: /images/screenshots/cartaro/cartaro_addedcontent_lakefr.png
     :scale: 50 %
     :align: center
 
 * 在首页中查看你的新内容单元，在左上角点击房屋形状的图标
 
-.. image:: /images/screenshots/1024x768/cartaro_addedcontent_frontmap.png
+.. image:: /images/screenshots/cartaro/cartaro_addedcontent_frontmap.png
     :scale: 50 %
     :align: center
 

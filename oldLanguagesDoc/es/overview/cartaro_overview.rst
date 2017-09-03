@@ -19,7 +19,7 @@ Cartaro proporciona funcionalidad geoespacial y servicios web dentro del Sistema
 
 Cartaro está diseñado para portales tipo CMS que necesiten gestionar datos Geoespaciales, o crear una Infraestructura de Datos Espaciales (IDE) ligera con la configuración y programación mínima.
 
-.. image:: /images/screenshots/1024x768/cartaro_frontpage.png
+.. image:: /images/screenshots/cartaro/cartaro_frontpage.png
   :scale: 50%
   :alt: Cartaro Frontpage
   :align: right

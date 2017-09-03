@@ -18,7 +18,7 @@ Cartaro
 
 To Cartaro είναι σχεδιασμένο για χρήση σε ιστοχώρους  CMS οι οποίοι χειρίζονται γεωχωρικά δεδομένα και για οργανισμούς οι οποίοι επιθυμούν μια Υποδομή Χωρικών Δεδομένων (SDI) με ελάχιστη διαμόρφωση και προγραμματισμό.  
 
-.. image:: /images/screenshots/1024x768/cartaro_frontpage.png
+.. image:: /images/screenshots/cartaro/cartaro_frontpage.png
   :scale: 50%
   :alt: Cartaro Frontpage
   :align: right

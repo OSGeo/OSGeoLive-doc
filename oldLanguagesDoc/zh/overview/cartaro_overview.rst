@@ -19,7 +19,7 @@ Cartaro
 
 　　Cartaro 为需要处理空间数据的 CMS 站点和需要轻量化空间数据基础服务（SDI）的组织设计，对用户配置和二次开发的要求很小。
 
-.. image:: /images/screenshots/1024x768/cartaro_frontpage.png
+.. image:: /images/screenshots/cartaro/cartaro_frontpage.png
   :scale: 50%
   :alt: Cartaro Frontpage
   :align: right
