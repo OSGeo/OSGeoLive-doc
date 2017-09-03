@@ -19,7 +19,7 @@ MapProxy Quickstart
 
 MapProxy ist das "Schweizer Taschenmesser" für alle WMS- und Kacheldienste. MapProxy speichert, beschleunigt und transformiert bestehende Kartendienste aller Art.
 
-.. image:: /images/screenshots/800x600/mapproxy.png
+.. image:: /images/screenshots/mapproxy/mapproxy.png
   :alt: MapProxy diagram
   :align: center
 
@@ -47,7 +47,7 @@ Die Dienste, die über MapProxy zu Verfügung gestellt werden, können Sie in da
 
 Die Beispiel-Konfiguration des MapProxy beinhaltet einige Layer die unterschiedliche Kartenserver und Kartendaten verwenden. Im Folgenden sind nähere Einzelheiten zu den einzelnen Layern beschrieben:
 
-.. figure:: /images/screenshots/800x600/mapproxy_udig.png
+.. figure:: /images/screenshots/mapproxy/mapproxy_udig.png
   :alt: MapProxy Beispiel in uDig
   :align: center
   

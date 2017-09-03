@@ -21,7 +21,7 @@ MapProxy
 Proxy WMS & tile services
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/800x600/mapproxy.png
+.. image:: /images/screenshots/mapproxy/mapproxy.png
   :alt: MapProxy diagram
   :align: right
 
@@ -34,7 +34,7 @@ MapProxy is flexible and scales from simple to complex use-cases: from a single 
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/800x600/mapproxy_demo.png
+.. image:: /images/screenshots/mapproxy/mapproxy_demo.png
   :width: 796
   :height: 809
   :scale: 70 %

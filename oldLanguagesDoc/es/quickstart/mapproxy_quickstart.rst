@@ -22,7 +22,7 @@ Guía de Inicio Rápido de MapProxy
 
 MapProxy es **la** navaja suiza para todo tipo de servicios WMS y de teselas. Cachea, acelera y transforma datos provenientes de servicios de mapas existentes y los sirve a cualquier cliente de escritorio o web.
 
-.. image:: /images/screenshots/800x600/mapproxy.png
+.. image:: /images/screenshots/mapproxy/mapproxy.png
   :alt: Diagrama de MapProxy
   :align: center
 
@@ -54,7 +54,7 @@ Puedes aregar MapProxy en cualquier SIG de escritorio con soporte para WMS, como
 
 La configuración de ejemplo de MapProxy contiene unas cuantas capas que usan diferentes motores de mapas y distintos datos. Abajo puedes ver más detalles acerca de cada capa.
 
-.. figure:: /images/screenshots/800x600/mapproxy_udig.png
+.. figure:: /images/screenshots/mapproxy/mapproxy_udig.png
   :alt: Ejemplo de MapProxy en uDig
   :align: center
   

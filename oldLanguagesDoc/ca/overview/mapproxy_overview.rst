@@ -22,7 +22,7 @@ MapProxy
 Proxy WMS i serveis de rajola (tile)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/800x600/mapproxy.png
+.. image:: /images/screenshots/mapproxy/mapproxy.png
   :alt: MapProxy diagram
   :align: right
 
@@ -44,7 +44,7 @@ per afegir els serveis WMS de tots els 16 estats sobre la marxa.
 Característiques Principals
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/800x600/mapproxy_demo.png
+.. image:: /images/screenshots/mapproxy/mapproxy_demo.png
   :width: 796
   :height: 809
   :scale: 70 %

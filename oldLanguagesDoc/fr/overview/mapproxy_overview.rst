@@ -20,7 +20,7 @@ MapProxy
 Proxy WMS & services de tuiles
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/800x600/mapproxy.png
+.. image:: /images/screenshots/mapproxy/mapproxy.png
   :alt: Diagramme MapProxy
   :align: right
 
@@ -35,7 +35,7 @@ MapProxy est utilisé pour l'atlas allemand de la bande passante, pour transmett
 Caractéristiques principales
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/800x600/mapproxy_demo.png
+.. image:: /images/screenshots/mapproxy/mapproxy_demo.png
   :width: 796
   :height: 809
   :scale: 70 %

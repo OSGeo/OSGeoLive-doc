@@ -19,7 +19,7 @@ MapProxy 快速入门文档
 
 　　MapProxy 是 WMS 网页地图服务与切片服务提供者的瑞士军刀。它对已有服务的数据服务进行缓存、加速和转换，服务任何支持 OGC 标准的桌面与网页客户端。
 
-.. image:: /images/screenshots/800x600/mapproxy.png
+.. image:: /images/screenshots/mapproxy/mapproxy.png
   :alt: MapProxy diagram
   :align: center
 
@@ -47,7 +47,7 @@ MapProxy 快速入门文档
 
 　　MapProxy 示例配置包含了若干不同的数据源。详见后述。
 
-.. figure:: /images/screenshots/800x600/mapproxy_udig.png
+.. figure:: /images/screenshots/mapproxy/mapproxy_udig.png
   :alt: MapProxy example in uDig
   :align: center
   

@@ -18,7 +18,7 @@
 
 Το MapProxy είναι ΤΟ πολυεργαλείο για όλες τις λειτουργίες WMS. Αποθηκεύει προσωρινά, επιταχύνει και μετατρέπει δεδομένα από υπάρχοντες παρόχους χαρτών σε κάθε σύστημα ή περιβάλλον web GIS.
 
-.. image:: /images/screenshots/800x600/mapproxy.png
+.. image:: /images/screenshots/mapproxy/mapproxy.png
   :alt: MapProxy diagram
   :align: center
 
@@ -43,7 +43,7 @@ To MapProxy δεν είναι μόνο μια λύση προσωρινής απ
 
 Το παράδειγμα περιέχει μερικά επίπεδα απεικόνισης τα οποία χρησιμοποιούν διαφορετικές μηχανές και χαρτογραφικά δεδομένα. Δείτε παρακάτω περισσότερες λεπτομέρειες για κάθε ένα.
 
-.. figure:: /images/screenshots/800x600/mapproxy_udig.png
+.. figure:: /images/screenshots/mapproxy/mapproxy_udig.png
   :alt: MapProxy example in uDig
   :align: center
   

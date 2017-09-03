@@ -20,7 +20,7 @@ MapProxy Quickstart
 MapProxy is *the* swiss army knife for all WMS and tile services.
 It caches, accelerates and transforms data from existing map services and serves any desktop or web GIS client.
 
-.. image:: /images/screenshots/800x600/mapproxy.png
+.. image:: /images/screenshots/mapproxy/mapproxy.png
   :alt: MapProxy diagram
   :align: center
 
@@ -50,7 +50,7 @@ You can add MapProxy in any WMS Desktop GIS like uDig, QGIS or gvSIG. The servic
 
 The MapProxy example configuration contains a few layers that use different map engines and map data. See below for more details about each layer. 
 
-.. figure:: /images/screenshots/800x600/mapproxy_udig.png
+.. figure:: /images/screenshots/mapproxy/mapproxy_udig.png
   :scale: 70 %
   :alt: MapProxy example in uDig
   :align: center
