@@ -26,7 +26,7 @@ Sistema de Gestión de Contenido Geoespacial
 
 GeoNode está desarrollado sobre: GeoServer, GeoExplorer, pycsw, Django, y GeoExt.
 
-.. image:: /images/screenshots/800x600/geonode_basic_application.png
+.. image:: /images/screenshots/geonode/geonode_basic_application.png
   :scale: 50%
   :alt: GeoNode application
   :align: right
