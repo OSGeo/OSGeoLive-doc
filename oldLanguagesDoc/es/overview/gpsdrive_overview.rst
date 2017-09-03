@@ -23,7 +23,7 @@ Software de navegación GPS
 Características principales
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/1024x768/gpsdrive-cyclemap.png
+.. image:: /images/screenshots/gpsdrive/gpsdrive-cyclemap.png
   :scale: 50 %
   :alt: screenshot
   :align: right

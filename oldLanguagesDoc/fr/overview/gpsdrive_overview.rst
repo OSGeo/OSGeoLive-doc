@@ -26,7 +26,7 @@ comme le démon et multiplexeur GPS `Gpsd <http://gpsd.berlios.de>`_ .
 Caractéristiques principales
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/1024x768/gpsdrive-cyclemap.png
+.. image:: /images/screenshots/gpsdrive/gpsdrive-cyclemap.png
   :scale: 50 %
   :alt: Capture d'écran GpsDrive
   :align: right
