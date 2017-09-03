@@ -27,7 +27,7 @@ basiert. MapWindow Open Source GIS Lite, basiert auf MapWinGIS v4.9.5.
 
 .. note:: MapWindow muss auf einem Microsoft Windows System installiert werden. Die Installationsdateien sind bei der Full-ISO-Version der `OSGeo-Live <http://live.osgeo.org>`_  enthalten oder können unter http://mapwindow4.codeplex.com/releases/view/542097 heruntergeladen werden.
 
-.. image:: /images/screenshots/1024x768/mapwindow_screenshot.png
+.. image:: /images/screenshots/mapwindow/mapwindow_screenshot.png
   :alt: Mapwindow Open Source GIS Lite
   :scale: 50 %
   :align: right

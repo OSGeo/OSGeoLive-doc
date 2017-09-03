@@ -37,7 +37,7 @@ PostGIS).
    <http://live.osgeo.org>`_ или могут быть загружены по адресу
    https://mapwindow4.codeplex.com/releases/view/542097.
 
-.. image:: /images/screenshots/1024x768/mapwindow_screenshot.png
+.. image:: /images/screenshots/mapwindow/mapwindow_screenshot.png
   :alt: Mapwindow Open Source GIS Lite
   :scale: 50 %
   :align: right

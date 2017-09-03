@@ -17,7 +17,7 @@
 ===============================================================================
 1. MapWindow GIS Lite
 ===============================================================================
-.. image:: /images/screenshots/1024x768/mapwindow_screenshot.png
+.. image:: /images/screenshots/mapwindow/mapwindow_screenshot.png
   :alt: Mapwindow Open Source GIS Lite
   :scale: 50 %
   :align: right
@@ -157,27 +157,27 @@ drag at the dotted line). Also several keyboard shortcuts are available.
 
 =============================================================================== =================================================================
 =============================================================================== =================================================================
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-new-map.png            Start with a blank map. Shortcut 'CTRL-N'.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-load-project.png       Load a project. Shortcut 'CTRL-L'.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-save.png               Save the current project. Shortcut 'CTRL-S'.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-save-as.png            Save the current project under a different name.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-layer-add.png          Add a layer, all formats can be selected. Shortcut: 'CTRL-O'.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-layer-vector-add.png   Add a vector layer, defaults to ESRI shapefile format. Other vector formats can be selected.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-layer-raster-add.png   Add a raster layer. Image and grid formats can be selected.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-layer-db-add.png       Add a PostGIS layer. Fill in the connection details and select a PostGIS layer.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-layer-create.png       Creates a new shapefile layer with the extent and projection of the current map.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-layer-remove.png       Removes the selected layer from the map.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomin.png             Zoom in: either click the area of interest or draw a bounding box. Zooming in and out can also be done using the mouse wheel. Shortcut: 'z' key.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomout.png            Zoom out. Shortcut: 'z' key, if you are already in zoom mode the 'z' key will toggle between zoom in and zoom out. 
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomfullextent.png     Zoom to the full extent of all visible layers. Shortcut: 'Home' key.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-zoomlayer.png          Zoom to the extent of the target layer.        
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-pan.png                Click and drag the map within the display window. Shortcut: 'Spacebar', after release the spacebar the previous tool is selected again.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-projection.png         Click to set the projection of the map, only enabled when no layers have been loaded yet.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-find-location.png      Click to find a location, uses OpenStreetMap Nominatim.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-identify.png           Click to view the attributes of shapes in the target layer.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-measure.png            After selecting this button, click on the map to measure distances. Shortcut: 'm' key, also toggles between distance and area.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-measure-area.png       After selecting this button, click on the map to measure areas. Shortcut: 'm' key, also toggles between distance and area.
-.. image:: /images/screenshots/800x600/mapwindow-toolbar-select.png             Select shapes by rectangle from the target layer. Ctrl-click to select multiple shapes, or draw a bounding box. You can also select by hand-drawn polygon.
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-new-map.png            Start with a blank map. Shortcut 'CTRL-N'.
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-load-project.png       Load a project. Shortcut 'CTRL-L'.
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-save.png               Save the current project. Shortcut 'CTRL-S'.
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-save-as.png            Save the current project under a different name.
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-layer-add.png          Add a layer, all formats can be selected. Shortcut: 'CTRL-O'.
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-layer-vector-add.png   Add a vector layer, defaults to ESRI shapefile format. Other vector formats can be selected.
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-layer-raster-add.png   Add a raster layer. Image and grid formats can be selected.
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-layer-db-add.png       Add a PostGIS layer. Fill in the connection details and select a PostGIS layer.
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-layer-create.png       Creates a new shapefile layer with the extent and projection of the current map.
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-layer-remove.png       Removes the selected layer from the map.
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-zoomin.png             Zoom in: either click the area of interest or draw a bounding box. Zooming in and out can also be done using the mouse wheel. Shortcut: 'z' key.
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-zoomout.png            Zoom out. Shortcut: 'z' key, if you are already in zoom mode the 'z' key will toggle between zoom in and zoom out. 
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-zoomfullextent.png     Zoom to the full extent of all visible layers. Shortcut: 'Home' key.
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-zoomlayer.png          Zoom to the extent of the target layer.        
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-pan.png                Click and drag the map within the display window. Shortcut: 'Spacebar', after release the spacebar the previous tool is selected again.
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-projection.png         Click to set the projection of the map, only enabled when no layers have been loaded yet.
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-find-location.png      Click to find a location, uses OpenStreetMap Nominatim.
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-identify.png           Click to view the attributes of shapes in the target layer.
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-measure.png            After selecting this button, click on the map to measure distances. Shortcut: 'm' key, also toggles between distance and area.
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-measure-area.png       After selecting this button, click on the map to measure areas. Shortcut: 'm' key, also toggles between distance and area.
+.. image:: /images/screenshots/mapwindow/mapwindow-toolbar-select.png             Select shapes by rectangle from the target layer. Ctrl-click to select multiple shapes, or draw a bounding box. You can also select by hand-drawn polygon.
 =============================================================================== =================================================================
 
 ===============================================================================
@@ -194,7 +194,7 @@ symbology (color scheme, outlines, style, etc.) by using the
 3.1.1 Unique values
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-.. image:: /images/screenshots/800x600/mapwindow-unique-categories.png
+.. image:: /images/screenshots/mapwindow/mapwindow-unique-categories.png
   :alt: Create unique categories
   :align: right
   :scale: 80 % 
@@ -216,7 +216,7 @@ It will be empty when you begin, indicating that no symbology has been defined.
 3.1.2 Continuous data
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-.. image:: /images/screenshots/800x600/mapwindow-continuous-categories.png
+.. image:: /images/screenshots/mapwindow/mapwindow-continuous-categories.png
   :alt: Create continiuous categories
   :align: right
   :scale: 80 % 
@@ -237,7 +237,7 @@ palette options. Do not check the
 -------------------------------------------------------------------------------
 3.3 Adding labels
 -------------------------------------------------------------------------------
-.. image:: /images/screenshots/800x600/mapwindow-labels-setup.png
+.. image:: /images/screenshots/mapwindow/mapwindow-labels-setup.png
   :alt: Label style
   :align: right
   :scale: 80 % 
@@ -303,21 +303,21 @@ The editor toolbar has several buttons which will be briefly explained below:
 
 ============================================================================= =================================================================
 ============================================================================= =================================================================
-.. image:: /images/screenshots/800x600/mapwindow-editor-start.png             Start editing the shapefile.
-.. image:: /images/screenshots/800x600/mapwindow-editor-save.png              Save your changes to the shapefile.
-.. image:: /images/screenshots/800x600/mapwindow-editor-vector-create.png     Draw a new shape.
-.. image:: /images/screenshots/800x600/mapwindow-editor-vertex-tool.png       Vertex editor. Add, delete or move nodes.
-.. image:: /images/screenshots/800x600/mapwindow-editor-merge.png             Merge the selected shapes.
-.. image:: /images/screenshots/800x600/mapwindow-editor-split.png             Split the selected shape.
-.. image:: /images/screenshots/800x600/mapwindow-editor-move.png              Move the selected shape
-.. image:: /images/screenshots/800x600/mapwindow-editor-rotate.png            Rotate the selected shape.
-.. image:: /images/screenshots/800x600/mapwindow-editor-polygon-overlay.png   Erase, clip or split by polygon
-.. image:: /images/screenshots/800x600/mapwindow-editor-clip-by-line.png      Split by polyline
-.. image:: /images/screenshots/800x600/mapwindow-editor-copy.png              Copy the selected shape.
-.. image:: /images/screenshots/800x600/mapwindow-editor-cut.png               Cut the selected shape.
-.. image:: /images/screenshots/800x600/mapwindow-editor-paste.png             Paste a new shape.
-.. image:: /images/screenshots/800x600/mapwindow-editor-undo.png              Undo last action.
-.. image:: /images/screenshots/800x600/mapwindow-editor-redo.png              Redo last action.
+.. image:: /images/screenshots/mapwindow/mapwindow-editor-start.png             Start editing the shapefile.
+.. image:: /images/screenshots/mapwindow/mapwindow-editor-save.png              Save your changes to the shapefile.
+.. image:: /images/screenshots/mapwindow/mapwindow-editor-vector-create.png     Draw a new shape.
+.. image:: /images/screenshots/mapwindow/mapwindow-editor-vertex-tool.png       Vertex editor. Add, delete or move nodes.
+.. image:: /images/screenshots/mapwindow/mapwindow-editor-merge.png             Merge the selected shapes.
+.. image:: /images/screenshots/mapwindow/mapwindow-editor-split.png             Split the selected shape.
+.. image:: /images/screenshots/mapwindow/mapwindow-editor-move.png              Move the selected shape
+.. image:: /images/screenshots/mapwindow/mapwindow-editor-rotate.png            Rotate the selected shape.
+.. image:: /images/screenshots/mapwindow/mapwindow-editor-polygon-overlay.png   Erase, clip or split by polygon
+.. image:: /images/screenshots/mapwindow/mapwindow-editor-clip-by-line.png      Split by polyline
+.. image:: /images/screenshots/mapwindow/mapwindow-editor-copy.png              Copy the selected shape.
+.. image:: /images/screenshots/mapwindow/mapwindow-editor-cut.png               Cut the selected shape.
+.. image:: /images/screenshots/mapwindow/mapwindow-editor-paste.png             Paste a new shape.
+.. image:: /images/screenshots/mapwindow/mapwindow-editor-undo.png              Undo last action.
+.. image:: /images/screenshots/mapwindow/mapwindow-editor-redo.png              Redo last action.
 ============================================================================= =================================================================
 
 
