@@ -26,7 +26,7 @@ Python-привязками. Дистрибутив PyWPS не содержит 
 пользователь может создать любой процесс, который будет взаимодействовать через
 Интернет.
 
-..  .. image:: /images/screenshots/800x600/pywps_client.png
+..  .. image:: /images/screenshots/pywps/pywps_client.png
     :scale: 50 %
     :alt: screenshot
     :align: right
