@@ -27,7 +27,7 @@ MB-System lleva en continuo desarrollo desde 1993, y tiene el apoyo activo de di
 Características Principales
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/1024x768/mb-system_screenshot.png
+.. image:: /images/screenshots/mb-system/mb-system_screenshot.png
   :scale: 60 %
   :alt: screenshot
   :align: right

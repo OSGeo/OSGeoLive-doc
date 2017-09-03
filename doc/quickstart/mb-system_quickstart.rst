@@ -40,7 +40,7 @@ Open a terminal, then
   cd mbinfo
   ./mbinfo.cmd
 
-.. image:: /images/screenshots/1024x768/mb-system_screenshot.png
+.. image:: /images/screenshots/mb-system/mb-system_screenshot.png
   :scale: 35 %
   :alt: 2D shaded relief
   :align: right

@@ -33,7 +33,7 @@ ze strony wielu organizacji badawczych i naukowych.
 Główne funkcje
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/1024x768/mb-system_screenshot.png
+.. image:: /images/screenshots/mb-system/mb-system_screenshot.png
   :scale: 60 %
   :alt: screenshot
   :align: right
