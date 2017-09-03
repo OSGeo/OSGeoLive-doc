@@ -37,7 +37,7 @@ definidas. Por lo tanto, no es necesario modificar las implementaciones
 existentes. Las políticas y usuarios se definen en ficheros de configuración
 XML, que se mantienen desde una interfaz de gestión general.
 
-.. image:: /images/projects/52n_wss/52n_wss_mgmt.png
+.. image:: /images/projects/52nWSS/52n_wss_mgmt.png
   :scale: 70 %
   :alt: Pantalla de la interfaz de gestión de WSS
   :align: right
