@@ -32,12 +32,12 @@ Starting the iD Editor
 -  Click on the small arrow next to **Edit**. Then click **Edit with iD
    (in-browser editor)**.
 
-  .. image:: /images/projects/id-editor/id-editor_image1.png
+  .. image:: /images/projects/ideditor/id-editor_image1.png
 
 iD Editor User Interface
 ------------------------
 
-  .. image:: /images/projects/id-editor/id-editor_image2.png
+  .. image:: /images/projects/ideditor/id-editor_image2.png
 
 1. **Edit Feature Panel:** This panel shows tags from the object
    selected on the map.
@@ -227,14 +227,14 @@ Rather draw these contours separate, attach tags to the outer contour
 only, select all contours and hit **c** in order to combine them into
 what is called a multipolygon.
 
-  .. image:: /images/projects/id-editor/id-editor_create_multipolygon.png
+  .. image:: /images/projects/ideditor/id-editor_create_multipolygon.png
    :alt: create multipolygon
 
 
 When you select any of the contours of the newly created multipolygon
 you can see on the left to which multipolygons it belongs
 
-  .. image:: /images/projects/id-editor/id-editor_part_of_multipolygon.png
+  .. image:: /images/projects/ideditor/id-editor_part_of_multipolygon.png
    :alt: part of multipolygon
 
 
@@ -305,74 +305,74 @@ What Next?
 
 - Try the LearnOSM documentation, from which this quickstart was derived: http://learnosm.org/en/beginner/id-editor/
 
-.. |image3| image:: /images/projects/id-editor/id-editor_image3.png
+.. |image3| image:: /images/projects/ideditor/id-editor_image3.png
   :height: 24px
-.. |image4| image:: /images/projects/id-editor/id-editor_image4.png
+.. |image4| image:: /images/projects/ideditor/id-editor_image4.png
   :height: 24px
-.. |image5| image:: /images/projects/id-editor/id-editor_image5.png
+.. |image5| image:: /images/projects/ideditor/id-editor_image5.png
   :height: 24px
-.. |image6| image:: /images/projects/id-editor/id-editor_image6.png
+.. |image6| image:: /images/projects/ideditor/id-editor_image6.png
   :height: 24px
-.. |image7| image:: /images/projects/id-editor/id-editor_image7.png
+.. |image7| image:: /images/projects/ideditor/id-editor_image7.png
   :height: 24px
-.. |image8| image:: /images/projects/id-editor/id-editor_image8.png
+.. |image8| image:: /images/projects/ideditor/id-editor_image8.png
   :height: 24px
-.. |image9| image:: /images/projects/id-editor/id-editor_image9.png
+.. |image9| image:: /images/projects/ideditor/id-editor_image9.png
   :height: 24px
-.. |image10| image:: /images/projects/id-editor/id-editor_image10.png
+.. |image10| image:: /images/projects/ideditor/id-editor_image10.png
   :height: 24px
-.. |image11| image:: /images/projects/id-editor/id-editor_image11.png
+.. |image11| image:: /images/projects/ideditor/id-editor_image11.png
   :height: 24px
-.. |image12| image:: /images/projects/id-editor/id-editor_image12.png
+.. |image12| image:: /images/projects/ideditor/id-editor_image12.png
   :height: 24px
-.. |Map Data| image:: /images/projects/id-editor/id-editor_map_data.png
-.. |image13| image:: /images/projects/id-editor/id-editor_image13.png
+.. |Map Data| image:: /images/projects/ideditor/id-editor_map_data.png
+.. |image13| image:: /images/projects/ideditor/id-editor_image13.png
   :height: 24px
-.. |image14| image:: /images/projects/id-editor/id-editor_image14.png
+.. |image14| image:: /images/projects/ideditor/id-editor_image14.png
   :height: 24px
-.. |image15| image:: /images/projects/id-editor/id-editor_image15.png
-.. |image16| image:: /images/projects/id-editor/id-editor_image16.png
+.. |image15| image:: /images/projects/ideditor/id-editor_image15.png
+.. |image16| image:: /images/projects/ideditor/id-editor_image16.png
   :height: 24px
-.. |image17| image:: /images/projects/id-editor/id-editor_image17.png
-.. |osm gps traces| image:: /images/projects/id-editor/id-editor_gps_public.png
-.. |image18| image:: /images/projects/id-editor/id-editor_image18.png
-.. |image20| image:: /images/projects/id-editor/id-editor_image20.png
-.. |image21| image:: /images/projects/id-editor/id-editor_image21.png
-.. |image22| image:: /images/projects/id-editor/id-editor_image22.png
-.. |image23| image:: /images/projects/id-editor/id-editor_image23.png
+.. |image17| image:: /images/projects/ideditor/id-editor_image17.png
+.. |osm gps traces| image:: /images/projects/ideditor/id-editor_gps_public.png
+.. |image18| image:: /images/projects/ideditor/id-editor_image18.png
+.. |image20| image:: /images/projects/ideditor/id-editor_image20.png
+.. |image21| image:: /images/projects/ideditor/id-editor_image21.png
+.. |image22| image:: /images/projects/ideditor/id-editor_image22.png
+.. |image23| image:: /images/projects/ideditor/id-editor_image23.png
   :height: 24px
-.. |image24| image:: /images/projects/id-editor/id-editor_image24.png
-.. |image30| image:: /images/projects/id-editor/id-editor_image30.png
+.. |image24| image:: /images/projects/ideditor/id-editor_image24.png
+.. |image30| image:: /images/projects/ideditor/id-editor_image30.png
   :height: 24px
-.. |image26| image:: /images/projects/id-editor/id-editor_image26.png
+.. |image26| image:: /images/projects/ideditor/id-editor_image26.png
   :height: 24px
-.. |image27| image:: /images/projects/id-editor/id-editor_image27.png
+.. |image27| image:: /images/projects/ideditor/id-editor_image27.png
   :height: 24px
-.. |image29| image:: /images/projects/id-editor/id-editor_image29.png
+.. |image29| image:: /images/projects/ideditor/id-editor_image29.png
   :height: 24px
-.. |image31| image:: /images/projects/id-editor/id-editor_image31.png
+.. |image31| image:: /images/projects/ideditor/id-editor_image31.png
   :height: 24px
-.. |image32| image:: /images/projects/id-editor/id-editor_image32.png
+.. |image32| image:: /images/projects/ideditor/id-editor_image32.png
   :height: 24px
-.. |image34| image:: /images/projects/id-editor/id-editor_image34.png
+.. |image34| image:: /images/projects/ideditor/id-editor_image34.png
   :height: 24px
-.. |image35| image:: /images/projects/id-editor/id-editor_image35.png
-.. |image36| image:: /images/projects/id-editor/id-editor_image36.png
-.. |image37| image:: /images/projects/id-editor/id-editor_image37.png
+.. |image35| image:: /images/projects/ideditor/id-editor_image35.png
+.. |image36| image:: /images/projects/ideditor/id-editor_image36.png
+.. |image37| image:: /images/projects/ideditor/id-editor_image37.png
   :height: 24px
-.. |image38| image:: /images/projects/id-editor/id-editor_image38.png
+.. |image38| image:: /images/projects/ideditor/id-editor_image38.png
   :height: 24px
-.. |image39| image:: /images/projects/id-editor/id-editor_image39.png
+.. |image39| image:: /images/projects/ideditor/id-editor_image39.png
   :height: 24px
-.. |image40| image:: /images/projects/id-editor/id-editor_image40.png
+.. |image40| image:: /images/projects/ideditor/id-editor_image40.png
   :height: 24px
-.. |image41| image:: /images/projects/id-editor/id-editor_image41.png
+.. |image41| image:: /images/projects/ideditor/id-editor_image41.png
   :height: 24px
-.. |image42| image:: /images/projects/id-editor/id-editor_image42.png
+.. |image42| image:: /images/projects/ideditor/id-editor_image42.png
   :height: 24px
-.. |image43| image:: /images/projects/id-editor/id-editor_image43.png
+.. |image43| image:: /images/projects/ideditor/id-editor_image43.png
   :height: 24px
-.. |image44| image:: /images/projects/id-editor/id-editor_image44.png
+.. |image44| image:: /images/projects/ideditor/id-editor_image44.png
   :height: 24px
-.. |image45| image:: /images/projects/id-editor/id-editor_image45.png
+.. |image45| image:: /images/projects/ideditor/id-editor_image45.png
 
