@@ -20,7 +20,7 @@ El `Servei Web de Processament <../standards/wps_overview.html>`_ (Web Processin
 permet l'accés web als algorismes de processament geoespacial de Sextante, ArcGIS Server, R, Grass 7, així com a funcions pròpies. Els algorismes poden ser tan simples com determinar la diferència 
 entre els casos de grip en dues estacions de l'any diferents, o tan complexos com un model global de canvi climàtic.
 
-.. image:: /images/screenshots/800x600/52nWPS_test_client.png
+.. image:: /images/screenshots/52nWPS/52nWPS_test_client.png
   :scale: 50 %
   :alt: captura de pantalla
   :align: right

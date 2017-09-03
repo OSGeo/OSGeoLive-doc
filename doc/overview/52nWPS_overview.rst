@@ -21,7 +21,7 @@ processing algorithms provided by Sextante, ArcGIS Server, R, GRASS 7, or custom
 functions. Algorithms may be as simple as determining the difference in 
 influenza cases between two different seasons, or as complicated as a global climate change model.
 
-.. image:: /images/screenshots/800x600/52nWPS_welcome_page.png
+.. image:: /images/screenshots/52nWPS/52nWPS_welcome_page.png
   :scale: 50 %
   :alt: screenshot
   :align: right

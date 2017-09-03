@@ -19,7 +19,7 @@ Jak zacząć
 
 * Pojawi się strona powitalna 52n WPS. 
 
-.. image:: /images/screenshots/800x600/52nWPS_welcome_page.png
+.. image:: /images/screenshots/52nWPS/52nWPS_welcome_page.png
   :scale: 100 %
   :alt: screenshot
   :align: center

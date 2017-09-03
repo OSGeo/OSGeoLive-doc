@@ -22,7 +22,7 @@ personnalisés. Les algorithmes peuvent être aussi simples que déterminer la
 différence dans les cas de grippe entre deux saisons ou aussi compliqués qu'un 
 modèle du changement climatique mondial.
 
-.. image:: /images/screenshots/800x600/52nWPS_test_client.png
+.. image:: /images/screenshots/52nWPS/52nWPS_test_client.png
   :scale: 50 %
   :alt: Capture d'écran du client de test
   :align: right

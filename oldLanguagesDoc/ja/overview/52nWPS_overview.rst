@@ -17,7 +17,7 @@ Webサービス
 
 52°North `Web Processing Service (WPS) <../standards/wps_overview.html>`_ はWeb から Sextant, ArcGISサーバー、独自に開発した地理空間分析アルゴリズムへのアクセスを可能にします。アルゴリズムは異なる複数の時期でのインフルエンザの違いを決定するようにシンプルであることもありますし、全球気候変動のように複雑であることもあります。
 
-.. image:: /images/screenshots/800x600/52nWPS_welcome_page.png
+.. image:: /images/screenshots/52nWPS/52nWPS_welcome_page.png
   :scale: 50 %
   :alt: screenshot
   :align: right

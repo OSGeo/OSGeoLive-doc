@@ -22,7 +22,7 @@ Eseguire
 
 * Apparirà la pagina introduttiva di 52n WPS. 
 
-.. image:: /images/screenshots/800x600/52nWPS_welcome_page.png
+.. image:: /images/screenshots/52nWPS/52nWPS_welcome_page.png
   :scale: 100 %
   :alt: screenshot
 
@@ -35,7 +35,7 @@ Eseguire
   la dimostrazione richiede dati dall'installazione locale di GeoServer.
 
 
-.. image:: /images/screenshots/800x600/52nWPS_test_client.png
+.. image:: /images/screenshots/52nWPS/52nWPS_test_client.png
   :scale: 70 %
   :alt: screenshot
   
@@ -44,7 +44,7 @@ Eseguire
   un XML per un buffer intorno alle strade più importanti della Tasmania con una distanza
   di 0.05 gradi e ritornerà il risultato con GeoServer.
 
-.. image:: /images/screenshots/800x600/52nWPS_output_stored_in_wfs.png
+.. image:: /images/screenshots/52nWPS/52nWPS_output_stored_in_wfs.png
   :scale: 70 %
   :alt: screenshot
   
@@ -52,7 +52,7 @@ Eseguire
   alla seguente richiesta: http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers=Add-ResourceID-here
   Dovreste ottenere il seguente risultato:
   
-  .. image:: /images/screenshots/800x600/52nWPS_result_in_geoserver.png
+  .. image:: /images/screenshots/52nWPS/52nWPS_result_in_geoserver.png
     :scale: 70 %
     :alt: screenshot
 

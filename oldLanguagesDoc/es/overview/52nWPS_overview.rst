@@ -23,7 +23,7 @@ El Servicio Web de Procesamiento (WPS) de 52°North <../standards/wps_overview>`
 Los algoritmos pueden ser tan simples como determinar la diferencia en casos de gripe entre dos estaciones diferentes, o tan complejos como un modelo de cambio climático global.
 
 
-.. image:: /images/screenshots/800x600/52nWPS_welcome_page.png
+.. image:: /images/screenshots/52nWPS/52nWPS_welcome_page.png
   :scale: 50 %
   :alt: screenshot
   :align: right

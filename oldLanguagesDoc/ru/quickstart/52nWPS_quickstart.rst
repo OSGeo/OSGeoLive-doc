@@ -26,7 +26,7 @@
 
 * Появится стартовая страница 52°North WPS.
 
-.. image:: /images/screenshots/800x600/52nWPS_welcome_page.png
+.. image:: /images/screenshots/52nWPS/52nWPS_welcome_page.png
   :scale: 70 %
   :alt: снимок экрана
 
@@ -43,7 +43,7 @@
 		
 * Щёлкните по ссылке, чтобы открыть тестовый клиент 52nWPS. 
 
-  .. image:: /images/screenshots/800x600/52nWPS_welcome_page_2.png
+  .. image:: /images/screenshots/52nWPS/52nWPS_welcome_page_2.png
     :scale: 70 %
     :alt: screenshot
 
@@ -56,20 +56,20 @@
   
 * Выберите пример запроса "SimpleBuffer_out_wfs.xml" из выпадающего списка:
   
-  .. image:: /images/screenshots/800x600/52nWPS_test_client.png
+  .. image:: /images/screenshots/52nWPS/52nWPS_test_client.png
     :scale: 70 %
     :alt: screenshot
 
 * Нажмите кнопку *Send*, и 52°North WPS отправит запрос, который создаст XML-представление буферной зоны вокруг основных дорог Тасмании с шириной 0.05 градусов, и сохранит результат в GeoServer.
 
-  .. image:: /images/screenshots/800x600/52nWPS_output_stored_in_wfs.png
+  .. image:: /images/screenshots/52nWPS/52nWPS_output_stored_in_wfs.png
     :scale: 70 %
     :alt: screenshot
 
 * Скопируйте ResourceID из ответа. Это имя слоя GeoServer. Добавьте ID в следующий запрос: http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers=Add-ResourceID-here
   Вы должны получить такой результат:
 
-  .. image:: /images/screenshots/800x600/52nWPS_result_in_geoserver.png
+  .. image:: /images/screenshots/52nWPS/52nWPS_result_in_geoserver.png
     :scale: 70 %
     :alt: screenshot
 

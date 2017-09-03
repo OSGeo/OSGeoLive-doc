@@ -20,7 +20,7 @@ Verarbeitungsalgorithmen, die verfügbar sind in Sextante, ArcGIS Server oder au
 Dabei können die Algorithmen einfach sein wie eine Bestimmung der unterschiedlichen Einflüsse der verschiedenen Jahreszeiten
 bis hin zu komplizierten globalen Klimaänderungsmodellen.
 
-.. image:: /images/screenshots/800x600/52nWPS_welcome_page.png
+.. image:: /images/screenshots/52nWPS/52nWPS_welcome_page.png
   :scale: 50 %
   :alt: screenshot
   :align: right
