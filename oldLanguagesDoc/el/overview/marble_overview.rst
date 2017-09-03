@@ -31,7 +31,7 @@ Google Earth. Εκτός από τη δυνατότητα επισκόπησης
 Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/1024x768/marble-history.png
+.. image:: /images/screenshots/marble/marble-history.png
   :scale: 50 %
   :alt: screenshot
   :align: right

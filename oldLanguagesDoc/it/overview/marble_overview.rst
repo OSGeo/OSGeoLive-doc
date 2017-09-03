@@ -43,7 +43,7 @@ della Luna e altri pianeti.
 Caratteristiche principali
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/800x600/marble-history.png
+.. image:: /images/screenshots/marble/marble-history.png
   :scale: 64 %
   :alt: screenshot
   :align: right

@@ -43,7 +43,7 @@ Google Earth. Помимо выбора любого количества кар
 Базовые функции
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/1024x768/marble-history.png
+.. image:: /images/screenshots/marble/marble-history.png
   :scale: 50 %
   :alt: снимок экрана
   :align: right

@@ -43,7 +43,7 @@ of the moon and other planets.
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/800x600/marble-history.png
+.. image:: /images/screenshots/marble/marble-history.png
   :scale: 64 %
   :alt: screenshot
   :align: right

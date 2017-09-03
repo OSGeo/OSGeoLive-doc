@@ -44,7 +44,7 @@ Karten vom Mond und anderen Planeten.
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/800x600/marble-history.png
+.. image:: /images/screenshots/marble/marble-history.png
   :scale: 64 %
   :alt: Bildschirmfoto
   :align: right
