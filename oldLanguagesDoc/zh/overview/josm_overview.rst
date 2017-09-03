@@ -22,7 +22,7 @@ Open Street Map 编辑器桌面程序
 
 　　JSOM 包含了一些类用于专门用途的扩展，供有需要的客户下载安装。
 
-.. image:: /images/screenshots/1024x768/josm_inteface.png
+.. image:: /images/screenshots/josm/josm_inteface.png
   :scale: 55 %
   :alt: JOSM Editor.
   :align: right

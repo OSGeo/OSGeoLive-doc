@@ -23,7 +23,7 @@ Los tracks GPX, normalmente se descargan previamente de GPS o de otras fuentes.
 
 Hay muchos plugings especializados para JOSM, disponibles para descargar e instalar.
 
-.. image:: /images/screenshots/1024x768/josm_inteface.png
+.. image:: /images/screenshots/josm/josm_inteface.png
   :scale: 55 %
   :alt: JOSM Editor.
   :align: right

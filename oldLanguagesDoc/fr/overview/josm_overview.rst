@@ -24,7 +24,7 @@ Les traces GPX sont généralment téléchargées à l'avance à partir d'un ré
 
 De nombreux plugins spécialisés ont été écrit pour JOSM, et sont disponibles au téléchargement et à l'installation.
 
-.. image:: /images/screenshots/1024x768/josm_inteface.png
+.. image:: /images/screenshots/josm/josm_inteface.png
   :scale: 55 %
   :alt: JOSM Editor.
   :align: right

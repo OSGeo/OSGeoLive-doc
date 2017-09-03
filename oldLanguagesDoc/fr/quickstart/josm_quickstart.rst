@@ -15,7 +15,7 @@ Ce guide de démarrage rapide couvre les usages de base de l'éditeur Java d'Ope
 
 -  Quand JOSM démarre, cela devrait ressembler à cela:
 
-.. image:: /images/screenshots/1024x768/josm-splash-page.png
+.. image:: /images/screenshots/josm/josm-splash-page.png
    :alt: écran de chargement de JOSM
 
 Préférences de JOSM
@@ -28,7 +28,7 @@ une langue différente.
 
 -  Pour accèder à la fenêtre des Préférences, cliquez sur Edit -> Preferences.
 
-.. image:: /images/screenshots/1024x768/josm_preferences.png
+.. image:: /images/screenshots/josm/josm_preferences.png
    :alt: Fenêtre des Préférences
 
 -  Sur le côté gauche, cliquez sur l'icône qui ressemble à un pot de peinture et
@@ -36,7 +36,7 @@ une langue différente.
 -  En haut de la fenêtre, cliquez sur l'onglet intitulé “Look and Feel”.
 -  Choisissez votre langue dans le menu déroulant à côté du mot “Language”.
 
-.. image:: /images/screenshots/1024x768/josm_look-and-feel.png
+.. image:: /images/screenshots/josm/josm_look-and-feel.png
    :alt: Onglet Look and feel
 
 -  Cliquez sur OK.
@@ -54,7 +54,7 @@ Apprendre les techniques de base de dessin avec JOSM
 -  Maintenant ouvrons-le dans JOSM. Cliquez sur le bouton “Open”
    en haut à gauche.
 
-.. image:: /images/screenshots/1024x768/josm_open-file.png
+.. image:: /images/screenshots/josm/josm_open-file.png
    :alt: Ouvrir un fichier
 
 -  Trouvez le fichier **sample.osm**. Il est probablement dans votre dossier Téléchargements,
@@ -62,7 +62,7 @@ Apprendre les techniques de base de dessin avec JOSM
    cliquez sur “Open”.
 -  Vous devriez voir un exemple de carte qui ressemble à ça:
 
-.. image:: /images/screenshots/1024x768/josm_sample-file.png
+.. image:: /images/screenshots/josm/josm_sample-file.png
    :alt: fichier exemple
 
 
@@ -79,7 +79,7 @@ Opérations basiques
    dans le coin en haut à gauche de la carte. Déplacer la barre vers la gauche ou
    vers la droite avec votre souris pour zoomer ou dézoomer.
 
-.. image:: /images/screenshots/1024x768/josm_scale-bar.png
+.. image:: /images/screenshots/josm/josm_scale-bar.png
    :alt: Barre d'échelle
 
 
@@ -150,7 +150,7 @@ Tracer
 -  Jusqu’à présent, vous avez utilisé l’outil de sélection, qui ressemble à
    ceci:
 
-.. image:: /images/screenshots/1024x768/josm_select-tool.png
+.. image:: /images/screenshots/josm/josm_select-tool.png
    :alt: Outil de sélection
 
 
@@ -158,7 +158,7 @@ Tracer
    toujours avec l’outil de sélection, cliquez dans une zone vide de la carte.
 -  Vous pouvez maintenant cliquer sur le deuxième bouton, celui pour tracer.
 
-.. image:: /images/screenshots/1024x768/josm_draw-tool.png
+.. image:: /images/screenshots/josm/josm_draw-tool.png
    :alt: Outil de traçage
 
 
@@ -179,7 +179,7 @@ Utiliser les modèles d'attributs
    et de même si nos polygones sont des champs, des bâtiments, ou autre chose.
 -  Dans la barre d’outils à gauche, cliquez de nouveau sur l’outil de sélection.
 
-.. image:: /images/screenshots/1024x768/josm_select-tool.png
+.. image:: /images/screenshots/josm/josm_select-tool.png
    :alt: Outil de sélection
 
 

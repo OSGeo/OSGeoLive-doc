@@ -24,7 +24,7 @@ GPX Tracks werden in der Regel im Vorfeld über einen GPS Empfänger oder andere
 
 Es wurde einige spezialisierte Plugins für JOSM geschreiben. Diese stehen zum Download.
 
-.. image:: /images/screenshots/1024x768/josm_inteface.png
+.. image:: /images/screenshots/josm/josm_inteface.png
   :scale: 55 %
   :alt: JOSM Editor.
   :align: right
