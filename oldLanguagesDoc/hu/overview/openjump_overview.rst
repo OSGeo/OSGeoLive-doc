@@ -23,7 +23,7 @@ modullal együtt.
 Az OpenJump kíválló az adatszerkesztésben és a GIS függvények prototípusának 
 gyors előállításában.
 
-.. image:: /images/screenshots/1024x768/openjump-screenshot.png
+.. image:: /images/screenshots/openjump/openjump-screenshot.png
   :scale: 50 %
   :alt: projekt képernyőkép
   :align: right

@@ -32,7 +32,7 @@ OpenJUMP 快速入门
 
 　　OpenJUMP 的主要图形界面同许多 GIS 系统一样，由四个部分组成。(i) 第一个为顶部的菜单栏，提供了众多命令。(ii) 第二个是菜单栏下方的主要工具栏，提供重要的显示与导航功能。(iii) 第三个是左侧的图层列表窗口。(iv) 第四个为主要显示区，显示各个图层的空间数据。最下方的状态栏给出了光标位置、操作结果提示和内存消耗。一个项目窗口包含了一个图层列表和一个主显示。每一个 OpenJUMP 实例可以显示多个项目窗口。
 
-.. image:: /images/screenshots/1024x768/openjump_ss_01.png
+.. image:: /images/screenshots/openjump/openjump_ss_01.png
    :scale: 55 
 
 开启 ESRI Shp 文件
@@ -42,7 +42,7 @@ OpenJUMP 快速入门
 
 　　在 OpenJUMP 的顶部工具栏中，选择 [File] 文件菜单中的 [Open File...] 打开文件。这将开启一个窗口用于选择文件。这里打开一个任意的 .shp 文件并点击 [Finish] 完成。稍候该文件的内容将显示于主显示区，图层列表会显示一个以文件名命名的新图层。
 
-.. image:: /images/screenshots/1024x768/openjump_ss_02.png
+.. image:: /images/screenshots/openjump/openjump_ss_02.png
    :scale: 55 
 
 　　直接拖拽数据文件也可以实现载入。
@@ -56,10 +56,10 @@ OpenJUMP 快速入门
 
 * MacOSX 中可以按 :guilabel:`Apple` 键。
 
-.. image:: /images/screenshots/1024x768/openjump_ss_03.png
+.. image:: /images/screenshots/openjump/openjump_ss_03.png
    :scale: 55 
    
-.. image:: /images/screenshots/1024x768/openjump_ss_04.png
+.. image:: /images/screenshots/openjump/openjump_ss_04.png
    :scale: 55 
 
 要素几何编辑
@@ -67,25 +67,25 @@ OpenJUMP 快速入门
 
 　　在图层列表中选中图层右击。选中“Editable”可编辑选项。在顶部将显示一个新的浮动工具栏，其中包含一系列工具用于地理要素的几何编辑。
 
-.. image:: /images/screenshots/1024x768/openjump_ss_05.png
+.. image:: /images/screenshots/openjump/openjump_ss_05.png
    :scale: 55 
    
-.. image:: /images/screenshots/1024x768/openjump_ss_06.png
+.. image:: /images/screenshots/openjump/openjump_ss_06.png
    :scale: 55 
 
 　　尝试简单的编辑。这里需要选中一个要素并拖拽其中的节点。选择编辑工具条中形如一般光标的工具，点击选中主面板中的一个要素。目标将显示为明黄色，各个节点会以方框显示。
 
-.. image:: /images/screenshots/1024x768/openjump_ss_07.png
+.. image:: /images/screenshots/openjump/openjump_ss_07.png
    :scale: 55 
 
 　　选择蓝色十字中央显示黄色方框的工具，即 :guilabel:`Move Vertex Tool` 按钮（光标悬浮与工具上会显示提示）。光标在主面板应显示为黑色十字。
 
-.. image:: /images/screenshots/1024x768/openjump_ss_08.png
+.. image:: /images/screenshots/openjump/openjump_ss_08.png
    :scale: 55 
 
 　　选中节点并拖拽可以移动节点。
 
-.. image:: /images/screenshots/1024x768/openjump_ss_09.png
+.. image:: /images/screenshots/openjump/openjump_ss_09.png
    :scale: 55 
 
 进一步学习 OpenJUMP

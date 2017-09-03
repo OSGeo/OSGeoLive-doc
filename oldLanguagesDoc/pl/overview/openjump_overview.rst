@@ -22,7 +22,7 @@ Jest również znakomitym frameworkiem dla programistów jako
 szybko dostępna baza do stworzenia systemu GIS dostosowanego 
 do potrzeb użytkownika.
 
-.. image:: /images/screenshots/1024x768/openjump-screenshot.png
+.. image:: /images/screenshots/openjump/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
   :align: right

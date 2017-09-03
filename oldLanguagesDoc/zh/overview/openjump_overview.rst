@@ -19,7 +19,7 @@ OpenJUMP GIS
 
 　　OpenJUMP 非常擅长于数据编辑和 GIS 功能原型化开发的用途。
 
-.. image:: /images/screenshots/1024x768/openjump-screenshot.png
+.. image:: /images/screenshots/openjump/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
   :align: right

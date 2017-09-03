@@ -18,7 +18,7 @@ OpenJUMP ist ein einfach zu handhabendes und leistungsstarkes DesktopGIS, das es
 zu bearbeiten, zu analysieren, zu vereinigen, zu speichern und anzuzeigen.
 Es ist außerdem sehr gut zur schnellen Entwicklung von Prototypen mit angepassten GIS Funktionen geeignet.
 
-.. image:: /images/screenshots/1024x768/openjump-screenshot.png
+.. image:: /images/screenshots/openjump/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
   :align: right

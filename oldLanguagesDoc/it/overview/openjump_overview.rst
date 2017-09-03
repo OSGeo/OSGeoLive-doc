@@ -20,7 +20,7 @@ visualizzare, moficare, analizzare e unire dati geografici.
 Viene distribuito in un versione CORE e una PLUS,  con le ultime modifiche e tanti utili plugins. 
 OpenJUMP e eccellente per l'editing dei dati e un rapido modellamento di funzioni GIS.
 
-.. image:: /images/screenshots/1024x768/openjump-screenshot.png
+.. image:: /images/screenshots/openjump/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
   :align: right

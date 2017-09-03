@@ -24,7 +24,7 @@ OpenJUMP предоставляется в двух версиях — CORE (б
 OpenJUMP отлично подходит для редактирования векторных данных и быстрого
 прототипирования ГИС-функций. 
 
-.. image:: /images/screenshots/1024x768/openjump-screenshot.png
+.. image:: /images/screenshots/openjump/openjump-screenshot.png
   :scale: 50 %
   :alt: project screenshots
   :align: right
