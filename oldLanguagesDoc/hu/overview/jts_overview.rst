@@ -25,7 +25,7 @@ használja, a :doc:`geos_overview`, mely a JTS egy C++ átírása, melyet a
 legtöbb C alapú alkalmazás használ. További átírások érhetők el C# és
 JavaScript nyelvekhez.
 
-.. image:: /images/screenshots/800x600/jts-overview.jpg
+.. image:: /images/screenshots/jts/jts-overview.jpg
   :scale: 90 %
   :alt: JTS Topology Suite - Test Builder application
   :align: right

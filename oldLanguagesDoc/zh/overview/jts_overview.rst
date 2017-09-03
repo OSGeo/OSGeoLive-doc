@@ -16,7 +16,7 @@ JTS Topology Suite (JTS) 拓扑运算函数库
 
 　　JTS 被大量 Java 开源地理信息软件使用，并有 :doc:`geos_overview` 这一 C++ 移植版用于大量 C++ 软件。另有 C# 和 JavaScript 移植。
 
-.. image:: /images/screenshots/800x600/jts-overview.jpg
+.. image:: /images/screenshots/jts/jts-overview.jpg
   :scale: 90 %
   :alt: JTS Topology Suite - Test Builder application
   :align: right
