@@ -26,7 +26,7 @@ OpenCPN
 Βασικά Χαρακτηριστικά
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/1024x768/opencpn_screenshot.png
+.. image:: /images/screenshots/opencpn/opencpn_screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

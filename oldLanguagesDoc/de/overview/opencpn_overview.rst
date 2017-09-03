@@ -23,7 +23,7 @@ Bewegt sich das Schiff, werden neue Seekarten geladen und dargestellt. Hierbei k
 Kernfunktionen
 --------------------------------------------------------------------------------
 
-.. image:: /images/screenshots/1024x768/opencpn_screenshot.png
+.. image:: /images/screenshots/opencpn/opencpn_screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right
