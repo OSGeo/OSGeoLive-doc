@@ -15,7 +15,7 @@ User-friendly Desktop Internet GIS (uDig)
 Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/screenshots/1024x768/udig-overview.png
+.. image:: /images/screenshots/udig/udig-overview.png
   :scale: 50
   :alt: udig workshop
   :align: right

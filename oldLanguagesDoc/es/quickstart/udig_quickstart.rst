@@ -94,7 +94,7 @@ Iniciar uDig
   Images should be stored here:
     https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/screenshots/1024x768/
 
-  .. image:: /images/screenshots/800x600/udig_Quickstart1Splash.png
+  .. image:: /images/screenshots/udig/udig_Quickstart1Splash.png
    :scale: 70 %
 
 Si tiene alguna dificultad ejecutando uDig por favor lea la pagina de referencia Running uDig.
@@ -106,7 +106,7 @@ Ventana de Bienvenida
 
 #. Haciendo Click en la flecha titulada Workbench, se accede a los contenidos del banco de trabajo de uDig.
   
-  .. image:: /images/screenshots/800x600/udig_welcome.png
+  .. image:: /images/screenshots/udig/udig_welcome.png
 
 En cualquier momento se puede volver a la vista de Bienvenida seleccionando :menuselection:`Help --> Welcome` en la barra de menú.
 
@@ -115,7 +115,7 @@ Workbench
 
 La ventana Workbench ofrece múltiples Editores (cada uno muestra un Mapa) y soporta Vistas (para ofrecer información acerca del mapa actual).
 
-  .. image:: /images/screenshots/800x600/udig_workbench.png
+  .. image:: /images/screenshots/udig/udig_workbench.png
 
 En la imagen anterior se presenta una típica sesión de uDig con un mapa en el editor llamado Map, la vista Project (Proyecto), la vista Layer (Capa) y finalmente la vista Catalog (Catalogo).
 Estas vistas serán descriptas en mas detalle cuando se muestre su uso.
@@ -162,7 +162,7 @@ Para comenzar vamos a cargar algunos de los datos de ejemplo incluidos en el DVD
 
 #. Seleccione la capa clouds.jpg en la vista de catálogo y arrastrela al pie de la lista
   
-  .. image:: /images/screenshots/800x600/udig_QuickstartCountriesMap.png
+  .. image:: /images/screenshots/udig/udig_QuickstartCountriesMap.png
 
 .. Writing Tip:
   Notes are used to provide descriptions and background information without
@@ -191,7 +191,7 @@ pantalla.
 
 #. La herramienta de Zoom |ZOOM| está habilitada por omisión
    
-   .. |ZOOM| image:: /images/screenshots/800x600/udig_zoom_mode.png
+   .. |ZOOM| image:: /images/screenshots/udig/udig_zoom_mode.png
    
    * Use la herramienta de zoom para dibujar un rectángulo utilizando el botón derecho del ratón en el área del mundo que desea ver.
 
@@ -200,23 +200,23 @@ pantalla.
 
 #. La herramienta Pan |PAN| puede utilizarse para desplazarse sobre el mapa cambiendo la escala.
   
-   .. |PAN| image:: /images/screenshots/800x600/udig_pan_mode.png
+   .. |PAN| image:: /images/screenshots/udig/udig_pan_mode.png
 
 #. Existen también varios botones de navegación que pueden utilizarse en cualquier momento: 
  
    * |SHOWALL| Mostrar todo, puede utilizarse para retornar a la extensión completa en cualquier momento
    
-     .. |SHOWALL| image:: /images/screenshots/800x600/udig_zoom_extent_co.png
+     .. |SHOWALL| image:: /images/screenshots/udig/udig_zoom_extent_co.png
 
    * |ZOOM_IN| Alejar y |ZOOM_OUT| Acercar pueden ser utilizadas para cambiar la escala a una cantidad determinada.
 
-     .. |ZOOM_IN| image:: /images/screenshots/800x600/udig_zoom_in_co.png
-     .. |ZOOM_OUT| image:: /images/screenshots/800x600/udig_zoom_out_co.png
+     .. |ZOOM_IN| image:: /images/screenshots/udig/udig_zoom_in_co.png
+     .. |ZOOM_OUT| image:: /images/screenshots/udig/udig_zoom_out_co.png
 
    * Puede usar Navigation Back |BNAV| and Forward |FNAV| en la barra de menú para ciclar entre las localizaciones previamente visitadas.
 
-     .. |BNAV| image:: /images/screenshots/800x600/udig_backward_nav.png
-     .. |FNAV| image:: /images/screenshots/800x600/udig_forward_nav.png
+     .. |BNAV| image:: /images/screenshots/udig/udig_backward_nav.png
+     .. |FNAV| image:: /images/screenshots/udig/udig_forward_nav.png
 
 .. tip:: También es posible una hacer una panorámica manteniendo presionado el botón central y controlar la escala usando la rueda de desplazamiento.
 
@@ -237,7 +237,7 @@ cuentan con capas de información que pueden ser incluidos en un mapa propio.
 
 #. Cambiar a la vista **Web**, click en la siguiente pestaña para presentar la vista **Catalog** para desplegar la vista *Web* 
 
-	.. image:: /images/screenshots/800x600/udig_WebViewClick.png
+	.. image:: /images/screenshots/udig/udig_WebViewClick.png
 		:scale: 50 %
 
 #. Hacer click en el vínculo `WMS\:dm solution`_
@@ -250,19 +250,19 @@ cuentan con capas de información que pueden ser incluidos en un mapa propio.
    * Parks
    * Cities
 
-	.. image:: /images/screenshots/800x600/udig_AddWMSLayers.png
+	.. image:: /images/screenshots/udig/udig_AddWMSLayers.png
 		:scale: 70 %
 
 #. Presione :guilabel:`Finish` para agregar estas capas en su mapa
    
-	.. image:: /images/screenshots/800x600/udig_WMSMap.png
+	.. image:: /images/screenshots/udig/udig_WMSMap.png
 		:scale: 70 %
 
 #. Use la herramienta Zoom |ZOOM| para acercarse a uno de los parques (Parks)
 
 #. Cambie a la herramienta Info |INFO| y haga un click sobre los parques para obtener mas información de ellos.
 
-.. |INFO| image:: /images/screenshots/800x600/udig_info_mode.png
+.. |INFO| image:: /images/screenshots/udig/udig_info_mode.png
 
 .. tip:: Es posible cambiar de la herramienta Zoom a Info presionando las teclas Z e I.
 
@@ -283,7 +283,7 @@ Estilo
    
    * Label: marcar con un tilde la casilla, y seleccione CNTRY_NAME de la lista de atributos
    
-   .. image:: /images/screenshots/800x600/udig_StyleEditor.png
+   .. image:: /images/screenshots/udig/udig_StyleEditor.png
       :scale: 70 %
 
 #. Presionar :guilabel:`Apply` para ver como se presenta el Mapa, la vista **Layer** se actualizará
@@ -302,7 +302,7 @@ Estilo
 
 #. Utilizar la vista *Layer* para seleccionar timezone, counties y clouds.jpg sucesivamente para ver el efecto  
 
-	.. image:: /images/screenshots/800x600/udig_MapMylar.png
+	.. image:: /images/screenshots/udig/udig_MapMylar.png
 		:scale: 70 %
 
 #. Se puede cambiar a apagado (off) este efecto en cualquier momento usando :menuselection:`Map --> Mylar` en la barra de menú  
