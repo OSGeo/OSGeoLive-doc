@@ -33,21 +33,21 @@ Kosmo 快速入门文档
 
 #. 程序可能需要几分钟进行初始化并启动；
 
-   .. image:: /images/projects/kosmo_splash_screen.png
+   .. image:: /images/projects/kosmo/kosmo_splash_screen.png
 
 #. 在 Welcome 欢迎界面，选择 *Create a new project > With a new view* (**1**) 并点击 *Ok* (**2**) 。
 
-   .. image:: /images/projects/kosmo_welcome_dialog.png
+   .. image:: /images/projects/kosmo/kosmo_welcome_dialog.png
 
 #. 在 Spatial Reference System 坐标系统面板点击 *...* 按钮。
 
-   .. image:: /images/projects/kosmo_select_srs.png
+   .. image:: /images/projects/kosmo/kosmo_select_srs.png
 
 #. 在 SRS 坐标系统类型中选择 *EPSG* (**1**)，输入示例数据所用的 `4236` 并点击 *Search* 搜索 (**2**) 。
 
 #. 选择 SRS EPSG:4326 - WSG4 (**3**) 并点击 *Ok* (**4**) 。
 
-   .. image:: /images/projects/kosmo_select_srs_epsg_4326.png
+   .. image:: /images/projects/kosmo/kosmo_select_srs_epsg_4326.png
 
 #. 点击 *Ok* ，以 EPSG:4326 作为显示坐标系开启显示。
     
@@ -61,7 +61,7 @@ Kosmo 主界面操作
 
 　　Kosmo 桌面系统的主界面分为以下几个部分：
 
-  .. image:: /images/projects/kosmo_main_window.jpg
+  .. image:: /images/projects/kosmo/kosmo_main_window.jpg
 
 * 主菜单
 
@@ -97,7 +97,7 @@ Kosmo 主界面操作
 
 #. 点击 *Ok* 按钮读取文件 shapefile (**3**)；
 
-   .. image:: /images/projects/kosmo_select_shape_file.png
+   .. image:: /images/projects/kosmo/kosmo_select_shape_file.png
 
 #. 在图层表中勾选添加的图层使之显示；
 
@@ -109,13 +109,13 @@ Kosmo 主界面操作
 
 #. 点击 *Ok* 读取影象 (**3**)
 
-   .. image:: /images/projects/kosmo_select_raster_file.png
+   .. image:: /images/projects/kosmo/kosmo_select_raster_file.png
 
 #. 在图层列表中，同样开启该图层的显示；
 
 #. 图层的渲染顺序为从上到下，通过拖拽可以改变顺序；
 
-   .. image:: /images/projects/kosmo_load_file_example.jpg
+   .. image:: /images/projects/kosmo/kosmo_load_file_example.jpg
 
 .. note::
   在 OSGeo-Live 的以下位置还有其它示例数据：
@@ -156,11 +156,11 @@ Kosmo 主界面操作
 
 #. 点击 *Ok* 读取数据表 (**4**)；
 
-   .. image:: /images/projects/kosmo_database_connection.png
+   .. image:: /images/projects/kosmo/kosmo_database_connection.png
   
 #. 在图层窗口勾选该图层使之显示。
 
-   .. image:: /images/projects/kosmo_load_database_example.jpg
+   .. image:: /images/projects/kosmo/kosmo_load_database_example.jpg
 
 
 OGC 服务
@@ -172,21 +172,21 @@ OGC 服务
 
 #. 在 *Select SDI service type* 面板选择 *WMS Service* (**1**) 并点击 *Next* button (**2**) 继续；
 
-   .. image:: /images/projects/kosmo_wms_1.png
+   .. image:: /images/projects/kosmo/kosmo_wms_1.png
 
 #. 在 *Select Uniform Resource Locator (URL)* 输入 http://localhost:8082/geoserver/ows?VERSION=1.1.1 (**1**) 并点击 *Connect* (**2**) 连接；
 
 #. 若成功连接，点击 *Next* (**3**) 继续；
 
-   .. image:: /images/projects/kosmo_wms_2.png
+   .. image:: /images/projects/kosmo/kosmo_wms_2.png
 
 #. 选择 `North America Sample Imagery` (**1**) 图层并点击 *>* (**2**) 将其加入右侧列表中。点击 *Next* (**3**) 继续；
 
-   .. image:: /images/projects/kosmo_wms_3.png
+   .. image:: /images/projects/kosmo/kosmo_wms_3.png
 
 #. 直接点击 *Finish* (**1**) 按钮开始载入；
 
-   .. image:: /images/projects/kosmo_wms_4.png
+   .. image:: /images/projects/kosmo/kosmo_wms_4.png
 
 #. 在图层列表勾选显示新图层；
 
@@ -194,7 +194,7 @@ OGC 服务
 
 #. 将新图层拖拽至 *HYP_50M_SR_W* 上方；
 
-   .. image:: /images/projects/kosmo_load_wms_results.jpg
+   .. image:: /images/projects/kosmo/kosmo_load_wms_results.jpg
 
 
 .. note::
@@ -208,7 +208,7 @@ OGC 服务
 
 1. |ZOOM| Zoom In/Out 缩放
 
-  .. |ZOOM| image:: /images/projects/kosmo_zoom.png
+  .. |ZOOM| image:: /images/projects/kosmo/kosmo_zoom.png
   
   * 这是开启新对话后的默认工具；
   * 鼠标左键用于放大；
@@ -217,50 +217,50 @@ OGC 服务
   
 2. |PAN| Pan 移动
   
-  .. |PAN| image:: /images/projects/kosmo_pan.png
+  .. |PAN| image:: /images/projects/kosmo/kosmo_pan.png
 
   * 用于平移视窗；
   * 点击左键拖拽操作；
       
 3. |ZOOM_PREV| Zoom Previous 缩放回退
 
-  .. |ZOOM_PREV| image:: /images/projects/kosmo_zoom_prev.png
+  .. |ZOOM_PREV| image:: /images/projects/kosmo/kosmo_zoom_prev.png
   
   * 回退到上个选择的缩放比率；
   
 4. |ZOOM_NEXT| 缩放复进
 
-  .. |ZOOM_NEXT| image:: /images/projects/kosmo_zoom_next.png
+  .. |ZOOM_NEXT| image:: /images/projects/kosmo/kosmo_zoom_next.png
 
   * 复进到回退前的缩放比率；
     
 5. |ZOOM_FULL_EXTENT| Zoom To Full Extent 全局视图
 
-  .. |ZOOM_FULL_EXTENT| image:: /images/projects/kosmo_zoom_to_full_extent.png
+  .. |ZOOM_FULL_EXTENT| image:: /images/projects/kosmo/kosmo_zoom_to_full_extent.png
   
   * 浏览整个工程涉及的范围；
   
 6. |ZOOM_TO_LAYER| Zoom To Layer 缩放至图层；
 
-  .. |ZOOM_TO_LAYER| image:: /images/projects/kosmo_zoom_to_layer.png
+  .. |ZOOM_TO_LAYER| image:: /images/projects/kosmo/kosmo_zoom_to_layer.png
   
   * 缩放至某个图层的数据范围；
     
 7. |ZOOM_TO_SELECTED_ITEMS| Zoom To Selected Items 缩放至所选对象
 
-  .. |ZOOM_TO_SELECTED_ITEMS| image:: /images/projects/kosmo_zoom_to_selected_items.png
+  .. |ZOOM_TO_SELECTED_ITEMS| image:: /images/projects/kosmo/kosmo_zoom_to_selected_items.png
   
   * 缩放至被选择的对象；
     
 8. |PAN_TO_CLICK| Pan To Click 点击居中
 
-  .. |PAN_TO_CLICK| image:: /images/projects/kosmo_pan_to_click.png
+  .. |PAN_TO_CLICK| image:: /images/projects/kosmo/kosmo_pan_to_click.png
   
   * 将视窗居中到点击位置；
   
 9. |COORDINATE_LOCALIZATION| Coordinate Localization 坐标居中
 
-  .. |COORDINATE_LOCALIZATION| image:: /images/projects/kosmo_coordinate_localization.png
+  .. |COORDINATE_LOCALIZATION| image:: /images/projects/kosmo/kosmo_coordinate_localization.png
   
   * 以给定坐标居中；
 
@@ -288,11 +288,11 @@ OGC 服务
 
 #. 点击 *Ok* (**5**) 应用设置；
 
-   .. image:: /images/projects/kosmo_basic_style_classification.png
+   .. image:: /images/projects/kosmo/kosmo_basic_style_classification.png
 
 #. 图层的显示将会改变。
 
-   .. image:: /images/projects/kosmo_styled_layer_by_range.jpg
+   .. image:: /images/projects/kosmo/kosmo_styled_layer_by_range.jpg
 
 
 其它示例

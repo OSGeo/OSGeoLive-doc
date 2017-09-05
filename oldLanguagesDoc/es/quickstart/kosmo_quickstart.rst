@@ -35,21 +35,21 @@ Para iniciar la aplicación, siga los siguientes pasos:
 
 #. La aplicación tardará unos segundos para iniciarse (se muestra una pantalla de bienvenida al cargar)
 
-   .. image:: /images/projects/kosmo_splash_screen.png
+   .. image:: /images/projects/kosmo/kosmo_splash_screen.png
 
 #. En el diálogo de bienvenida, seleccione la opción *Crear un nuevo proyecto > Nueva vista* (**1**) y presione el botón *Aceptar* (**2**)
  
-   .. image:: /images/projects/kosmo_welcome_dialog.png
+   .. image:: /images/projects/kosmo/kosmo_welcome_dialog.png
 
 #. En el cuadro de diálogo de selección de sistema de referencia espacial, pulse el botón *...*
 
-   .. image:: /images/projects/kosmo_select_srs.png
+   .. image:: /images/projects/kosmo/kosmo_select_srs.png
 
 #. Seleccione la opción *EPSG* en la lista desplegable con los tipos de SRS (**1**), inserte el texto '4326' en el campo de texto y presione el botón *Buscar* (**2**)
 
 #. Seleccione el SRS EPSG:4326 - WSG4 (**3**) y presione el botón *Aceptar* (**4**)
 
-   .. image:: /images/projects/kosmo_select_srs_epsg_4326.png
+   .. image:: /images/projects/kosmo/kosmo_select_srs_epsg_4326.png
 
 #. Pulse el botón *Aceptar* otra vez para seleccionar el SRS cargado. La vista se iniciará con EPSG:4326 como la proyección base
 
@@ -63,7 +63,7 @@ Ventana principal de Kosmo - Cliente de escritorio
 
 La ventana principal de Kosmo - Cliente de Escritorio tiene las siguientes secciones:
 
-  .. imagen::./images/projects/kosmo_main_window.jpg
+  .. imagen::./images/projects/kosmo/kosmo_main_window.jpg
 
 * Menú principal
  
@@ -99,7 +99,7 @@ Para empezar, vamos a cargar algunos de los datos de ejemplo incluidos en el OSG
 
 #. Pulse el botón *Aceptar* para cargar el archivo shapefile seleccionado (**3**)
 
-   .. image:: /images/projects/kosmo_select_shape_file.png
+   .. image:: /images/projects/kosmo/kosmo_select_shape_file.png
 
 #. En el árbol de capas, marque la casilla de visibilidad para hacer visible la capa
 
@@ -111,13 +111,13 @@ Para empezar, vamos a cargar algunos de los datos de ejemplo incluidos en el OSG
 
 #. Pulse el botón *Aceptar* para cargar el archivo de imagen seleccionado (**3**)
 
-   .. image:: /images/projects/kosmo_select_raster_file.png
+   .. image:: /images/projects/kosmo/kosmo_select_raster_file.png
 
 #. En el árbol de capas, marque la casilla de visibilidad para hacer visible la capa
 
 #. Puede ver que el orden de la capa dibujada se muestra de abajo a arriba en el árbol de capas: para modificar el orden de las capas arrástrelas con el fin de mostrarlas correctamente
 
-   .. image:: /images/projects/kosmo_load_file_example.jpg
+   .. image:: /images/projects/kosmo/kosmo_load_file_example.jpg
 
 .. note::
   El OSGeo-Live DVD contiene algunos archivos de datos de ejemplo en los siguientes directorios:
@@ -158,11 +158,11 @@ Vamos a cargar una tabla de una base de datos como ejemplo:
 
 #. Presione el botón *Aceptar* para cargar la tabla seleccionada de la base de datos (**4**)
 
-   .. image:: /images/projects/kosmo_database_connection.png
+   .. image:: /images/projects/kosmo/kosmo_database_connection.png
   
 #. En el árbol de capas, marque la casilla de visibilidad para hacer visible la capa
 
-   .. image:: /images/projects/kosmo_load_database_example.jpg
+   .. image:: /images/projects/kosmo/kosmo_load_database_example.jpg
 
 	
 Servicios OGC
@@ -174,21 +174,21 @@ Servicios OGC
 
 #. En *Seleccionar tipo de servicio IDE*, escoja la opción *Servicio WMS* (**1**) y pulse el botón *Siguiente* (**2**)
 
-   .. image:: /images/projects/kosmo_wms_1.png
+   .. image:: /images/projects/kosmo/kosmo_wms_1.png
 
 #. En *Seleccionar el Localizador uniforme de recursos (URL)*, escriba la dirección URL http://localhost:8082/geoserver/ows?VERSION=1.1.1 (**1**) en el campo de texto correspondiente y presione el botón *Conectar* (**2**)
 
 #. Si la conexión es correcta, pulse el botón *Siguiente* para ir al panel siguiente (**3**)
 
-   .. image:: /images/projects/kosmo_wms_2.png
+   .. image:: /images/projects/kosmo/kosmo_wms_2.png
 
 #. Seleccione la capa `North America Sample Imagery` (**1**) y pulse el botón *>* (**2**) para moverlo a la lista de la derecha. Pulse el botón *Siguiente* (**3**)
 
-   .. image:: /images/projects/kosmo_wms_3.png
+   .. image:: /images/projects/kosmo/kosmo_wms_3.png
 
 #. Deje las opciones cargadas por defecto y presione el botón *Terminar* (**1**) para iniciar la carga de la capa
 
-   .. image:: /images/projects/kosmo_wms_4.png
+   .. image:: /images/projects/kosmo/kosmo_wms_4.png
 
 #. En el árbol de capas, marque la casilla de visibilidad para hacer visible la capa
 
@@ -196,7 +196,7 @@ Servicios OGC
 
 #. Reorganice el árbol de capas arrastrando la nueva capa y colóquela sobre la capa ráster *HYP_50M_SR_W*
 
-   .. image:: /images/projects/kosmo_load_wms_results.jpg
+   .. image:: /images/projects/kosmo/kosmo_load_wms_results.jpg
 
 
 .. note::
@@ -211,7 +211,7 @@ Puede controlar donde se localiza el mapa en el mundo utilizando las herramienta
 
 1. |ZOOM| Acercarse/Alejarse
 
-  .. |ZOOM| image:: /images/projects/kosmo_zoom.png
+  .. |ZOOM| image:: /images/projects/kosmo/kosmo_zoom.png
 	
   * Es la herramienta seleccionada de forma predeterminada al iniciar su sesión
   * Utilice el botón izquierdo del ratón para acercar una cantidad fija al hacer clic en un punto del mapa
@@ -220,50 +220,50 @@ Puede controlar donde se localiza el mapa en el mundo utilizando las herramienta
   
 2. |PAN| Desplazarse
   
-  .. |PAN| image:: /images/projects/kosmo_pan.png
+  .. |PAN| image:: /images/projects/kosmo/kosmo_pan.png
 	
   * Permite moverse por el mundo sin cambiar la escala
   * Pulse el botón izquierdo del ratón, mueva el ratón y libérelo para mover el mapa a la ubicación deseada
       
 3. |ZOOM_PREV| Zoom anterior
 
-  .. |ZOOM_PREV| image:: /images/projects/kosmo_zoom_prev.png
+  .. |ZOOM_PREV| image:: /images/projects/kosmo/kosmo_zoom_prev.png
   	
   * Permite hacer un zoom a la visualización anterior desde el historial de zoom (si está disponible)
   
 4. |ZOOM_NEXT| Zoom siguiente
 
-  .. |ZOOM_NEXT| image:: /images/projects/kosmo_zoom_next.png
+  .. |ZOOM_NEXT| image:: /images/projects/kosmo/kosmo_zoom_next.png
   
   * Permite hacer un zoom a la visualización siguiente desde el historial de zoom (si está disponible)
     
 5. |ZOOM_FULL_EXTENT| Zoom a escala completa
 
-  .. |ZOOM_FULL_EXTENT| image:: /images/projects/kosmo_zoom_to_full_extent.png
+  .. |ZOOM_FULL_EXTENT| image:: /images/projects/kosmo/kosmo_zoom_to_full_extent.png
   
   * Permite cambiar el nivel de zoom del mapa para incluir en la vista todas las capas visibles
   
 6. |ZOOM_TO_LAYER| Zoom a la capa
 
-  .. |ZOOM_TO_LAYER| image:: /images/projects/kosmo_zoom_to_layer.png
+  .. |ZOOM_TO_LAYER| image:: /images/projects/kosmo/kosmo_zoom_to_layer.png
   
   * Modifica la vista a una escala que permita visualizar completamente la capa seleccionada en el árbol de capas.
     
 7. |ZOOM_TO_SELECTED_ITEMS| Zoom a los elementos seleccionados
 
-  .. |ZOOM_TO_SELECTED_ITEMS| image:: /images/projects/kosmo_zoom_to_selected_items.png
+  .. |ZOOM_TO_SELECTED_ITEMS| image:: /images/projects/kosmo/kosmo_zoom_to_selected_items.png
   
   * Modifica la vista a una escala que permita visualizar completamente aquellos elementos seleccionados.
     
 8. |PAN_TO_CLICK| Centrar mapa
 
-  .. |PAN_TO_CLICK| image:: /images/projects/kosmo_pan_to_click.png
+  .. |PAN_TO_CLICK| image:: /images/projects/kosmo/kosmo_pan_to_click.png
 
   Centra el mapa en el punto donde se ha hecho clic, sin cambiar la escala actual
   
 9. |COORDINATE_LOCALIZATION| Localización por coordenadas
 
-  .. |COORDINATE_LOCALIZATION| image:: /images/projects/kosmo_coordinate_localization.png
+  .. |COORDINATE_LOCALIZATION| image:: /images/projects/kosmo/kosmo_coordinate_localization.png
   
   * Centra el mapa en las coordenadas X-Y indicadas
 
@@ -291,11 +291,11 @@ En esta sección vamos a asignar un estilo por rango a una capa con la població
 
 #. Pulse el botón *Aceptar* para aplicar los cambios (**5**)
 
-   .. image:: /images/projects/kosmo_basic_style_classification.png
+   .. image:: /images/projects/kosmo/kosmo_basic_style_classification.png
   
 #. La capa modificará su estilo para reflejar los cambios:
 
-   .. image:: /images/projects/kosmo_styled_layer_by_range.jpg
+   .. image:: /images/projects/kosmo/kosmo_styled_layer_by_range.jpg
 	
 	
 Cosas para probar

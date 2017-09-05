@@ -20,7 +20,7 @@ Kosmo - Desktop és una aplicació SIG d'escriptori amigable que us permet explo
 Kosmo - Desktop segueix els estàndards OGC i proporciona una excel·lent integritat topològica. 
 La seva arquitectura de complements permet que sigui fàcilment adaptat a qualsevol propòsit.
 
-.. image:: /images/projects/kosmo.jpg
+.. image:: /images/projects/kosmo/kosmo.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

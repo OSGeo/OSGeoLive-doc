@@ -33,22 +33,22 @@ Kosmo Desktop — это ГИС-приложение с понятным пол
 
 #. Приложению потребуется несколько секунд, чтобы запуститься (во время загрузки появится экран-заставка).
 
-   .. image:: /images/projects/kosmo_splash_screen.png
+   .. image:: /images/projects/kosmo/kosmo_splash_screen.png
      :scale: 70 %
 
 #. В диалоговом окне "Приветствие" выберите опцию :menuselection:`Create a new project --> With a new view` (**1**) и нажмите кнопку *Ok* (**2**)
 
-   .. image:: /images/projects/kosmo_welcome_dialog.png
+   .. image:: /images/projects/kosmo/kosmo_welcome_dialog.png
    
 #. В диалоговом окне "Пространственная система координат" нажмите кнопку *...*.
 
-   .. image:: /images/projects/kosmo_select_srs.png
+   .. image:: /images/projects/kosmo/kosmo_select_srs.png
 
 #. Выберите опцию *EPSG*  в поле-списке "Пространственная система координат" (**1**), введите текст `4326` в текстовое поле, затем нажмите кнопку *Search* (**2**).
 
 #. Выберите систему координат EPSG:4326, WSG4  (**3**) и нажмите кнопку *Ok* (**4**)
 
-   .. image:: /images/projects/kosmo_select_srs_epsg_4326.png
+   .. image:: /images/projects/kosmo/kosmo_select_srs_epsg_4326.png
 
 #. Нажмите кнопку *Ok* еще раз, чтобы выбрать подгруженную систему координат. Окно вида будет использовать при запуске проекцию EPSG:4326  как базовую.
     
@@ -63,7 +63,7 @@ Kosmo Desktop — основное окно
 
 Основное окно Kosmo состоит из следующих частей:
 
-  .. image:: /images/projects/kosmo_main_window.jpg
+  .. image:: /images/projects/kosmo/kosmo_main_window.jpg
     :scale: 70 %
 
 * Основное меню
@@ -100,7 +100,7 @@ Kosmo Desktop — основное окно
 
 #. Нажмите кнопку *Ok* для загрузки шейпфайла (**3**).
 
-   .. image:: /images/projects/kosmo_select_shape_file.png
+   .. image:: /images/projects/kosmo/kosmo_select_shape_file.png
 
 #. В дереве слоёв поставьте флажок, чтобы сделать слой видимым, при необходимости щёлкнув правой кнопкой мыши (ПКМ) на папке *Working*.
 
@@ -112,13 +112,13 @@ Kosmo Desktop — основное окно
 
 #. Нажмите кнопку *Ok* для загрузки файла изображения (**3**).
 
-   .. image:: /images/projects/kosmo_select_raster_file.png
+   .. image:: /images/projects/kosmo/kosmo_select_raster_file.png
 
 #. В дереве слоёв поставьте флажок, чтобы сделать слой видимым.
 
 #. Вы можете увидеть, что порядок отрисовки слоёв начинается от нижнего слоя к верхнему. Перетаскивая слои, измените их порядок для удобного отображения данных.
 
-   .. image:: /images/projects/kosmo_load_file_example.jpg
+   .. image:: /images/projects/kosmo/kosmo_load_file_example.jpg
 
 .. note::
    OSGeo-Live содержит примеры данных, которые находятся в следующих директориях:
@@ -158,11 +158,11 @@ Kosmo Desktop — основное окно
 
 #. Нажмите кнопку *Ok* , чтобы загрузить выбранную таблицу (**4**).
 
-   .. image:: /images/projects/kosmo_database_connection.png
+   .. image:: /images/projects/kosmo/kosmo_database_connection.png
   
 #. В дереве слоёв поставьте флажок, чтобы сделать слой видимым.
 
-   .. image:: /images/projects/kosmo_load_database_example.jpg
+   .. image:: /images/projects/kosmo/kosmo_load_database_example.jpg
      :scale: 70 %
 
 
@@ -175,21 +175,21 @@ Kosmo Desktop — основное окно
 
 #. На панели *Select SDI service type* выберите опцию *WMS Service* (**1**) и нажмите кнопку *Next* (**2**).
 
-   .. image:: /images/projects/kosmo_wms_1.png
+   .. image:: /images/projects/kosmo/kosmo_wms_1.png
 
 #. В текстовое поле *Select Uniform Resource Locator (URL)*, введите URL http://localhost:8082/geoserver/ows?VERSION=1.1.1 (**1**), а затем нажмите кнопку *Connect* (**2**).
 
 #. Если соединение прошло успешно, то нажмите кнопку *Next* (**3**).
 
-   .. image:: /images/projects/kosmo_wms_2.png
+   .. image:: /images/projects/kosmo/kosmo_wms_2.png
 
 #. Выберите слой `North America Sample Imagery` (**1**); нажмите кнопку *>*  (**2**), чтобы переместить изображение в правую часть списка, затем нажмите кнопку *Next* (**3**).
 
-   .. image:: /images/projects/kosmo_wms_3.png
+   .. image:: /images/projects/kosmo/kosmo_wms_3.png
 
 #. Не изменяйте значения в появившемся окне, нажмите кнопку *Finish*  (**1**) для загрузки слоя.
 
-   .. image:: /images/projects/kosmo_wms_4.png
+   .. image:: /images/projects/kosmo/kosmo_wms_4.png
 
 #. В списке слоёв поставьте флажок, чтобы сделать слой видимым.
 
@@ -197,7 +197,7 @@ Kosmo Desktop — основное окно
 
 #. Поменяйте порядок подгруженных слоёв, перетаскивая их так, чтобы растровый слой *HYP_50M_SR_W* оказался внизу. 
 
-   .. image:: /images/projects/kosmo_load_wms_results.jpg
+   .. image:: /images/projects/kosmo/kosmo_load_wms_results.jpg
 
 
 .. note::
@@ -212,7 +212,7 @@ Kosmo Desktop — основное окно
 
 1. |ZOOM| Инструменты масштабирования
 
-  .. |ZOOM| image:: /images/projects/kosmo_zoom.png
+  .. |ZOOM| image:: /images/projects/kosmo/kosmo_zoom.png
   
   * Когда вы начинаете новую сессию, этот инструмент будет выбран по умолчанию.
   * Используйте левую кнопку мыши (ЛКМ), чтобы приблизиться до необходимого уровня к выбранной точке на карте.
@@ -221,50 +221,50 @@ Kosmo Desktop — основное окно
   
 2. |PAN| Перемещение
   
-  .. |PAN| image:: /images/projects/kosmo_pan.png
+  .. |PAN| image:: /images/projects/kosmo/kosmo_pan.png
 
   * Позволяет перемещаться по карте без изменения её масштаба.
   * Зажмите ЛКМ, затем переместите мышь в желаемое место и отпустите клавишу.
   
 3. |ZOOM_PREV| Вернуться к предыдущему виду
 
-  .. |ZOOM_PREV| image:: /images/projects/kosmo_zoom_prev.png
+  .. |ZOOM_PREV| image:: /images/projects/kosmo/kosmo_zoom_prev.png
   
   * Возвращает к предыдущему виду, хранящемуся в истории (при его наличии).
   
 4. |ZOOM_NEXT| Вернуться к следующему виду
 
-  .. |ZOOM_NEXT| image:: /images/projects/kosmo_zoom_next.png
+  .. |ZOOM_NEXT| image:: /images/projects/kosmo/kosmo_zoom_next.png
   
   * Возвращает к следующему виду, хранящемуся в истории (при его наличии).
     
 5. |ZOOM_FULL_EXTENT| Перейти к просмотру всех объектов
 
-  .. |ZOOM_FULL_EXTENT| image:: /images/projects/kosmo_zoom_to_full_extent.png
+  .. |ZOOM_FULL_EXTENT| image:: /images/projects/kosmo/kosmo_zoom_to_full_extent.png
   
   * Изменяет вид карты таким образом, что все объекты видимых слоёв отображаются на карте.
   
 6. |ZOOM_TO_LAYER| Перейти к выбранному слою
 
-  .. |ZOOM_TO_LAYER| image:: /images/projects/kosmo_zoom_to_layer.png
+  .. |ZOOM_TO_LAYER| image:: /images/projects/kosmo/kosmo_zoom_to_layer.png
   
   * Изменяет вид карты таким образом, что все объекты выбранного слоя отображаются на карте.
     
 7. |ZOOM_TO_SELECTED_ITEMS| Перейти к выбранным объектам
 
-  .. |ZOOM_TO_SELECTED_ITEMS| image:: /images/projects/kosmo_zoom_to_selected_items.png
+  .. |ZOOM_TO_SELECTED_ITEMS| image:: /images/projects/kosmo/kosmo_zoom_to_selected_items.png
   
   * Изменяет вид карты, отображая на ней все выбранные объекты 
     
 8. |PAN_TO_CLICK| Переместить по щелчку
 
-  .. |PAN_TO_CLICK| image:: /images/projects/kosmo_pan_to_click.png
+  .. |PAN_TO_CLICK| image:: /images/projects/kosmo/kosmo_pan_to_click.png
   
   * Центрирует карту в точке щелчка ЛКМ без изменения масштаба
   
 9. |COORDINATE_LOCALIZATION| Координатная локализация
 
-  .. |COORDINATE_LOCALIZATION| image:: /images/projects/kosmo_coordinate_localization.png
+  .. |COORDINATE_LOCALIZATION| image:: /images/projects/kosmo/kosmo_coordinate_localization.png
   
   * Центрирует карту по ввёденным координатам X и Y (широта/долгота)
 
@@ -292,11 +292,11 @@ Kosmo Desktop — основное окно
 
 #. Нажмите кнопку *Ok* , чтобы применить изменения (**5**).
 
-   .. image:: /images/projects/kosmo_basic_style_classification.png
+   .. image:: /images/projects/kosmo/kosmo_basic_style_classification.png
 
 #. Слой поменяет своё оформление:
 
-   .. image:: /images/projects/kosmo_styled_layer_by_range.jpg
+   .. image:: /images/projects/kosmo/kosmo_styled_layer_by_range.jpg
      :scale: 70 %
 
 

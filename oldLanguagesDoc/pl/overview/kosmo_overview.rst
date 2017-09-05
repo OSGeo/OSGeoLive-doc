@@ -22,7 +22,7 @@ Kosmo - Desktop jest przyjazną dla użytkownika aplikacją desktop GIS, która 
 Kosmo - Desktop stosuje standardy OGC i zapewnia znakomitą integrację topologii. 
 Jego architektura wtyczek pozwala na łatwe dostosowanie do potrzeb klientów o różnych potrzebach. 
 
-.. image:: /images/projects/kosmo.jpg
+.. image:: /images/projects/kosmo/kosmo.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

@@ -23,7 +23,7 @@ Kosmo следует стандартам OGC и предоставляет от
 Архитектура приложения, основанная на плагинах, позволяет легко
 приспосабливать Kosmo к решению конкретных задач.      
 
-.. image:: /images/projects/kosmo.jpg
+.. image:: /images/projects/kosmo/kosmo.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

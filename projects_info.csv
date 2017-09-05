@@ -9,7 +9,7 @@ Y  |  qgis  |  2.14.14  |  Y  |  Y  |  Desktop GIS  |    |    |  qgis
 Y  |  saga  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  saga-gis
 Y  |  udig  |2|  Y  |  Y  |  Desktop GIS  |    |    |  udig
 # RETIERED||||||||
-N  |  kosmo  |  retired  |  N  |  N  |  Desktop GIS  |    |    |  kosmo_desktop
+N  |  kosmo  |  retired  |  Y  |  Y  |  Desktop GIS  |    |    |  kosmo_desktop
 ######################||||||||
 # Browser Facing GIS||||||||
 ######################||||||||
