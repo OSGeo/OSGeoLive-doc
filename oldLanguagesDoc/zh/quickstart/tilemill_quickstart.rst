@@ -31,7 +31,7 @@ TileMill 快速入门
 
 1. 启动 TileMill 并选择 “New project” 新建项目。
 
-.. image:: /images/projects/tilemill_newproject.png
+.. image:: /images/projects/tilemill/tilemill_newproject.png
    :scale: 70 %
 
 .. Writing Tip:
@@ -42,7 +42,7 @@ TileMill 快速入门
 
 2- 输入示例信息并点击 “Add”：
 
-.. image:: /images/projects/tilemill_projectinfo.png
+.. image:: /images/projects/tilemill/tilemill_projectinfo.png
    :scale: 70 %
 
 
@@ -64,9 +64,9 @@ TileMill 快速入门
 
 1. 从 PostGIS 导入数据。首先，点击图层按钮（|LAYER|）并选择 '+ Add layer' 添加图层。在 'Add layer' 中选择数据源类型为 PostGIS：
 
-.. |LAYER| image:: /images/projects/tilemill_layerbtn.png
+.. |LAYER| image:: /images/projects/tilemill/tilemill_layerbtn.png
 
-.. image:: /images/projects/tilemill_addpostgis.png
+.. image:: /images/projects/tilemill/tilemill_addpostgis.png
    :scale: 70 %
 
 2. 从 PostGIS 添加道路（roads）图层。选择图层后点击 'Save & Style' 确认：
@@ -123,9 +123,9 @@ TileMill 快速入门
 ================================================================================
 　　点击 |TOOLS| 并移动到工程的目标区域设置中心点（center point）。在表格中也可以直接输入中心点和边界（bounds）坐标值。
 
-.. |TOOLS| image:: /images/projects/tilemill_confbtn.png
+.. |TOOLS| image:: /images/projects/tilemill/tilemill_confbtn.png
 
-.. image:: /images/projects/tilemill_project_settings.png
+.. image:: /images/projects/tilemill/tilemill_project_settings.png
    :scale: 70 %
 
 样式配置
@@ -208,7 +208,7 @@ TileMill 快速入门
 	
 	
 
-.. image:: /images/projects/tilemill_customizedview.png
+.. image:: /images/projects/tilemill/tilemill_customizedview.png
    :scale: 70 %
 
 工具提示
@@ -218,7 +218,7 @@ TileMill 快速入门
 
 1. 在左下角点击 |POINTER| 开启模板（Templates）配置界面。
 
-.. |POINTER| image:: /images/projects/tilemill_pointerbtn.png
+.. |POINTER| image:: /images/projects/tilemill/tilemill_pointerbtn.png
 
 2. 点击摘要（Teaser）选项卡。摘要信息是光标浮于目标之上而未点击时显示的信息。完整（Full）信息则会在点击时显示。在目标地址（Location）一栏可以填入一个希望打开的 URL 。
 
@@ -232,13 +232,13 @@ TileMill 快速入门
 	Type:{{{amenity}}}<br/>
 	Name:{{{name}}}
 
-.. image:: /images/projects/tilemill_teaser_frm.png
+.. image:: /images/projects/tilemill/tilemill_teaser_frm.png
    :scale: 70 %
 
 6. 点击 “Save” 保存配置并刷新。点击 (X) 或键盘 ESC 关闭面板。移动光标查看工具提示的显示情况。
 
 
-.. image:: /images/projects/tilemill_tooltip.png
+.. image:: /images/projects/tilemill/tilemill_tooltip.png
    :scale: 70 %
 
 
@@ -257,12 +257,12 @@ TileMill 快速入门
 
 	<strong>OSGeo Live TileMill Quick Start</strong><br/>Points locate different amenities in Nottingham</br>
 
-.. image:: /images/projects/tilemill_legend_text.png
+.. image:: /images/projects/tilemill/tilemill_legend_text.png
    :scale: 70 %
 
 #. Click save and close the panel. You will now see your legend in the bottom right corner of the map.
 
-.. image:: /images/projects/tilemill_legend.png
+.. image:: /images/projects/tilemill/tilemill_legend.png
    :scale: 70 %
 
 
@@ -282,7 +282,7 @@ TileMill 快速入门
 #. 完成后，进度条会变为保存（Save）按钮，点击保存至指定目录。
 
 
-.. image:: /images/projects/tilemill_viewexports.png
+.. image:: /images/projects/tilemill/tilemill_viewexports.png
    :scale: 70 %
 
 　　在菜单中选择 :menuselection:`Help --> Welcome` 可以回到欢迎界面。
@@ -306,7 +306,7 @@ TileMill 快速入门
 
 * 在操作中随时可以点击 |HELP| 获取帮助。
 
-.. |HELP| image:: /images/projects/tilemill_helpbtn.png
+.. |HELP| image:: /images/projects/tilemill/tilemill_helpbtn.png
 
 * CartoCSS 语言 `API 文档 <http://mapbox.com/carto/api/2.1.0/>`_
 

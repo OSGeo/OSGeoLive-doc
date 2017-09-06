@@ -30,13 +30,13 @@ Create a project
 
 1. Start TileMill and click on the “New project” button on the main screen.
 
-   .. image:: /images/projects/tilemill_newproject.png
+   .. image:: /images/projects/tilemill/tilemill_newproject.png
       :scale: 70 %
 
 
 2. Enter de following data in the form, and click “Add”:
 
-   .. image:: /images/projects/tilemill_projectinfo.png
+   .. image:: /images/projects/tilemill/tilemill_projectinfo.png
       :scale: 70 %
 
 
@@ -58,9 +58,9 @@ We can add new layers from File, SQLite or PostGIS. Let's say we want to add lay
 
 1. As are going to add layers from PostGis data. First, we click on layer button ( |LAYER|) and press on '+ Add layer' button. In the 'Add layer' form, we first select the source data type, PostGIS:
 
-   .. |LAYER| image:: /images/projects/tilemill_layerbtn.png
+   .. |LAYER| image:: /images/projects/tilemill/tilemill_layerbtn.png
 
-   .. image:: /images/projects/tilemill_addpostgis.png
+   .. image:: /images/projects/tilemill/tilemill_addpostgis.png
       :scale: 70 %
 
 2. Add roads layer from PostGIS, given the following data, and click on 'Save & Style':
@@ -117,9 +117,9 @@ Set default visualization for the project
 ================================================================================
 In order to set the dafault values for the working area, click on |TOOLS| buttom. Now you can center the working area, and set the center point. You can also type the center and bounds values directly in the form.
 
-.. |TOOLS| image:: /images/projects/tilemill_confbtn.png
+.. |TOOLS| image:: /images/projects/tilemill/tilemill_confbtn.png
 
-.. image:: /images/projects/tilemill_project_settings.png
+.. image:: /images/projects/tilemill/tilemill_project_settings.png
    :scale: 70 %
 
 Styling data
@@ -201,7 +201,7 @@ This is our code after changing certain style values and coding some conditional
 	
 	
 
-.. image:: /images/projects/tilemill_customizedview.png
+.. image:: /images/projects/tilemill/tilemill_customizedview.png
    :scale: 70 %
 
 Tooltips
@@ -211,7 +211,7 @@ Tooltips allow you to make maps interactive with dynamic content that appears wh
 
 1. Open the Templates  panel by clicking on the pointer button on the bottom left ( |POINTER|) 
 
-   .. |POINTER| image:: /images/projects/tilemill_pointerbtn.png
+   .. |POINTER| image:: /images/projects/tilemill/tilemill_pointerbtn.png
 
 2. Click on the “Teaser” tab. Teaser content appears when you hover over a feature and Full content appears when you click on a feature. You can use the Location field to define a URL to be loaded when a feature is clicked.
 
@@ -226,13 +226,13 @@ Tooltips allow you to make maps interactive with dynamic content that appears wh
 	   Type:{{{amenity}}}<br/>
 	   Name:{{{name}}}
 
-   .. image:: /images/projects/tilemill_teaser_frm.png
+   .. image:: /images/projects/tilemill/tilemill_teaser_frm.png
       :scale: 70 %
 
 6. Click “Save” to save your settings and refresh the map. Close the panel by clicking the close button (X) or by pressing the ESC key. Move your mouse over some points to see the tooltips.
 
 
-   .. image:: /images/projects/tilemill_tooltip.png
+   .. image:: /images/projects/tilemill/tilemill_tooltip.png
       :scale: 70 %
 
 
@@ -251,12 +251,12 @@ Let’s add a legend that describes the theme of the map.
 
 	<strong>OSGeo Live TileMill Quick Start</strong><br/>Points locate different amenities in Nottingham</br>
 
-.. image:: /images/projects/tilemill_legend_text.png
+.. image:: /images/projects/tilemill/tilemill_legend_text.png
    :scale: 70 %
 
 #. Click save and close the panel. You will now see your legend in the bottom right corner of the map.
 
-.. image:: /images/projects/tilemill_legend.png
+.. image:: /images/projects/tilemill/tilemill_legend.png
    :scale: 70 %
 
 
@@ -276,7 +276,7 @@ If you want to export to MBTiles:
 #. When the export process is complete, the progress bar will be replaced by a Save button. This will save a copy of the file locally to a specified location.
 
 
-.. image:: /images/projects/tilemill_viewexports.png
+.. image:: /images/projects/tilemill/tilemill_viewexports.png
    :scale: 70 %
    
 You can return to the Welcome view at any time by selecting the :menuselection:`Help --> Welcome` from the menu bar.
@@ -300,7 +300,7 @@ This is only the first step on the road to using TileMill. There is a lot more g
 
 * Get more help from the environment, click on help button (|HELP|)
 
-.. |HELP| image:: /images/projects/tilemill_helpbtn.png
+.. |HELP| image:: /images/projects/tilemill/tilemill_helpbtn.png
 
 * Learn more about cartocss language on `API Documentation <http://mapbox.com/carto/api/2.1.0/>`_
 
