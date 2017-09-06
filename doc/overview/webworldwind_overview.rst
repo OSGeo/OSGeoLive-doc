@@ -21,7 +21,7 @@ It is easy to use, only requiring a two button mouse.  It is used to monitor wea
 
 Web World Wind provides an extensible, javascript platform which enables web developers to quickly create custom globes and 2 dimensional maps which can express, manipulate and analyze spatial data.  You can show terrain and high-resolution imagery, include a compass, map coordinates, and view controls.
 
-.. image:: /images/projects/1024x768/webworldwind_main.png
+.. image:: /images/projects/webworldwind/webworldwind_main.png
  :scale: 50 %
  :alt: Web World Wind Example
  :align: right

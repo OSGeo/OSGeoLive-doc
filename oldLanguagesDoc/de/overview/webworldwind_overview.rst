@@ -23,7 +23,7 @@ Die Anwendung ist leicht zu bedienen und benötigt lediglich eine Maus mit 2 Sch
 
 Web World Wind verfügt über eine erweiterbare JavaScript Plattform, die es Web-Entwicklern ermöglicht, schnell angepasste Globen zu erzeugen und 2-dimensionale Karten zu generieren, die räumliche Daten darstellen, verändern und analysieren. Sie können Gelände und hochauflösende Bilddaten darstellen, einen Kompass einfügen, Koordinaten anzeigen und weitere Werkzeuge verwenden.
 
-.. image:: /images/projects/1024x768/webworldwind_main.png
+.. image:: /images/projects/webworldwind/webworldwind_main.png
  :scale: 50 %
  :alt: Web World Wind Example
  :align: right
