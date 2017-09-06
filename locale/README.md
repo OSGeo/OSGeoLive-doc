@@ -14,7 +14,7 @@
 To get latest pot files
 ```
 cd build
-cmake  -LOCALE=ON ..
+cmake  -DLOCALE=ON ..
 make locale
 ```
 
