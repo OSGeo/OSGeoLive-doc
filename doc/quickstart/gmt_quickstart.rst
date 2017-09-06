@@ -109,7 +109,7 @@ and the flag `-By` to set a label `m` on the `y axis`.
 
 The output ps document should look like:
 
-.. image:: /images/projects/GMT/GMT_tut_OSGeo-Live.png
+.. image:: /images/projects/gmt/GMT_tut_OSGeo-Live.png
   :scale: 70 %
   :alt: North Caroline - sample elevation data
   :align: center
