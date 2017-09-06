@@ -20,7 +20,7 @@ osgEarth unterstützt eine Vielzahl an Datenquellen und wird mit zahlreichen Bei
 
 .. _OpenSceneGraph: http://www.openscenegraph.org/
 
-.. image:: /images/projects/1024x768/osgearth.jpg
+.. image:: /images/projects/osgearth/osgearth.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

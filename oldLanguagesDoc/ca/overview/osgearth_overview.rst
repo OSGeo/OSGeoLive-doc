@@ -28,7 +28,7 @@ que l'ajudaran a posar-se en marxa d'una manera ràpida i senzilla.
 
 .. _OpenSceneGraph: http://www.openscenegraph.org/
 
-.. image:: /images/projects/1024x768/osgearth.jpg
+.. image:: /images/projects/osgearth/osgearth.jpg
   :scale: 50 %
   :alt: screenshot
   :align: right

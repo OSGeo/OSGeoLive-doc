@@ -28,7 +28,7 @@ osgEarth поддерживает все типы данных и поставл
 
 .. _OpenSceneGraph: http://www.openscenegraph.org/
 
-.. image:: /images/projects/1024x768/osgearth.jpg
+.. image:: /images/projects/osgearth/osgearth.jpg
   :scale: 50 %
   :alt: скриншот с osgEarth
   :align: right
