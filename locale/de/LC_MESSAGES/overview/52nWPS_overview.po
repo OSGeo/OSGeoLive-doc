@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,141 +17,141 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../overview/52nWPS_overview.rst:13
+#: ../../build/doc/overview/52nWPS_overview.rst:14
 msgid "52°North WPS"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:16
+#: ../../build/doc/overview/52nWPS_overview.rst:17
 msgid "Web Service"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:18
+#: ../../build/doc/overview/52nWPS_overview.rst:19
 msgid ""
-"The 52°North :doc:`Web Processing Service (WPS) "
-"<../standards/wps_overview>` enables web access to geospatial processing "
-"algorithms provided by Sextante, ArcGIS Server, R, GRASS 7, or custom "
-"developed functions. Algorithms may be as simple as determining the "
-"difference in influenza cases between two different seasons, or as "
-"complicated as a global climate change model."
+"The 52°North :doc:`Web Processing Service (WPS) <../standards/wps_overview>`"
+" enables web access to geospatial processing algorithms provided by "
+"Sextante, ArcGIS Server, R, GRASS 7, or custom developed functions. "
+"Algorithms may be as simple as determining the difference in influenza cases"
+" between two different seasons, or as complicated as a global climate change"
+" model."
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:29
+#: ../../build/doc/overview/52nWPS_overview.rst:30
 msgid "Core Features"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:31
+#: ../../build/doc/overview/52nWPS_overview.rst:32
 msgid "Core GIS functions:"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:33
+#: ../../build/doc/overview/52nWPS_overview.rst:34
 msgid "SimpleBufferAlgorithm"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:34
+#: ../../build/doc/overview/52nWPS_overview.rst:35
 msgid "DouglasPeuckerAlgorithm"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:35
+#: ../../build/doc/overview/52nWPS_overview.rst:36
 msgid "IntersectionAlgorithm"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:36
+#: ../../build/doc/overview/52nWPS_overview.rst:37
 msgid "AddRasterValuesAlgorithm"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:37
+#: ../../build/doc/overview/52nWPS_overview.rst:38
 msgid "CoordinateTransformAlgorithm"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:39
+#: ../../build/doc/overview/52nWPS_overview.rst:40
 msgid "Backend algorithms available through:"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:41
+#: ../../build/doc/overview/52nWPS_overview.rst:42
 msgid "Sextante"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:42
+#: ../../build/doc/overview/52nWPS_overview.rst:43
 msgid "ArcGIS Server"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:43
+#: ../../build/doc/overview/52nWPS_overview.rst:44
 msgid "R"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:44
+#: ../../build/doc/overview/52nWPS_overview.rst:45
 msgid "GRASS 7"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:46
+#: ../../build/doc/overview/52nWPS_overview.rst:47
 msgid "Input and Output formats supported:"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:48
-msgid "Vector Data: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN, JSON"
+#: ../../build/doc/overview/52nWPS_overview.rst:49
+msgid ""
+"Vector Data: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN, JSON"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:49
+#: ../../build/doc/overview/52nWPS_overview.rst:50
 msgid "Raster Data: Geotiff, AsciiGrid, NetCDF, JPEG, PNG, HDF-EOS, ERDAS HFA"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:50
+#: ../../build/doc/overview/52nWPS_overview.rst:51
 msgid "Outputs can be stored in GeoServer/MapServer"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:52
+#: ../../build/doc/overview/52nWPS_overview.rst:53
 msgid "A browser based client"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:55
+#: ../../build/doc/overview/52nWPS_overview.rst:56
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:57
+#: ../../build/doc/overview/52nWPS_overview.rst:58
 msgid "OGC Web Processing Service (WPS)"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:58
+#: ../../build/doc/overview/52nWPS_overview.rst:59
 msgid "OGC GML2 SimpleFeatures"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:59
+#: ../../build/doc/overview/52nWPS_overview.rst:60
 msgid "OGC GML3 SimpleFeatures"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:62
+#: ../../build/doc/overview/52nWPS_overview.rst:63
 msgid "Details"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:64
+#: ../../build/doc/overview/52nWPS_overview.rst:65
 msgid "**Website:** http://52north.org/wps"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:66
+#: ../../build/doc/overview/52nWPS_overview.rst:67
 msgid "**Licence:** GPL 2"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:68
+#: ../../build/doc/overview/52nWPS_overview.rst:69
 msgid "**Software Version:** |version-52nWPS|"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:70
+#: ../../build/doc/overview/52nWPS_overview.rst:71
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:72
+#: ../../build/doc/overview/52nWPS_overview.rst:73
 msgid "**Commercial Support:** http://52north.org"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:74
+#: ../../build/doc/overview/52nWPS_overview.rst:75
 msgid "**Other 52°North projects:** :doc:`SOS <./52nSOS_overview>`"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:78
+#: ../../build/doc/overview/52nWPS_overview.rst:79
 msgid "Quickstart"
 msgstr ""
 
-#: ../../../overview/52nWPS_overview.rst:80
+#: ../../build/doc/overview/52nWPS_overview.rst:81
 msgid ":doc:`Quickstart documentation <../quickstart/52nWPS_quickstart>`"
 msgstr ""
-

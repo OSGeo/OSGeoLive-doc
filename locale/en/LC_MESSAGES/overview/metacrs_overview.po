@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,198 +17,198 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../overview/metacrs_overview.rst:19
+#: ../../build/doc/overview/metacrs_overview.rst:19
 msgid "MetaCRS"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:22
+#: ../../build/doc/overview/metacrs_overview.rst:22
 msgid "Coordinate Reference System Transformations"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:30
+#: ../../build/doc/overview/metacrs_overview.rst:30
 msgid ""
 "`The group of MetaCRS projects <http://trac.osgeo.org/metacrs/wiki>`_ "
 "provide libraries of methods to transform between different coordinate "
 "reference systems. A geographic coordinate reference systems allows all "
-"points on the earth to be described as set of coordinates (such as "
-"latitude, longitude and elevation). Different systems are used to "
-"represent the 3 dimensional earth on a flat, 2 dimensional map."
+"points on the earth to be described as set of coordinates (such as latitude,"
+" longitude and elevation). Different systems are used to represent the 3 "
+"dimensional earth on a flat, 2 dimensional map."
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:37
+#: ../../build/doc/overview/metacrs_overview.rst:37
 msgid ""
 "The MetaCRS libraries are included in other projects and some are also "
 "available via a command line interface."
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:40
+#: ../../build/doc/overview/metacrs_overview.rst:40
 msgid "The sub-projects that make up MetaCRS include:"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:42
+#: ../../build/doc/overview/metacrs_overview.rst:42
 msgid ""
-"PROJ.4 (C++) - used in :doc:`MapServer <mapserver_overview>`, :doc:`GRASS"
-" GIS <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik "
-"<mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation "
-"and various others."
+"PROJ.4 (C++) - used in :doc:`MapServer <mapserver_overview>`, :doc:`GRASS "
+"GIS <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik "
+"<mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation and "
+"various others."
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:43
-msgid "Proj4js (JavaScript) - used in :doc:`OpenLayers <openlayers_overview>`."
+#: ../../build/doc/overview/metacrs_overview.rst:43
+msgid ""
+"Proj4js (JavaScript) - used in :doc:`OpenLayers <openlayers_overview>`."
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:44
+#: ../../build/doc/overview/metacrs_overview.rst:44
 msgid "CS-Map (C++) - used in MapGuide."
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:45
+#: ../../build/doc/overview/metacrs_overview.rst:45
 msgid "GeoTIFF/libgeotiff (C++)."
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:46
+#: ../../build/doc/overview/metacrs_overview.rst:46
 msgid "Proj4J (Java)."
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:47
+#: ../../build/doc/overview/metacrs_overview.rst:47
 msgid ""
 "`SpatialReference.org <http://spatialreference.org/>`_  - website to "
 "retrieve coordinate system definitions."
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:50
+#: ../../build/doc/overview/metacrs_overview.rst:50
 msgid "Core Features"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:52
+#: ../../build/doc/overview/metacrs_overview.rst:52
 msgid ""
 "Provides point transformation from one coordinate reference system to "
 "another."
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:53
+#: ../../build/doc/overview/metacrs_overview.rst:53
 msgid "Includes transformation between datums."
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:54
+#: ../../build/doc/overview/metacrs_overview.rst:54
 msgid "Large number of projection classes supported."
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:58
+#: ../../build/doc/overview/metacrs_overview.rst:58
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:60
+#: ../../build/doc/overview/metacrs_overview.rst:60
 msgid ""
-"The projects typically use coordinate system definitions as defined by "
-"the `European Petroleum Survey Group (EPSG) <http://www.epsg.org/>`_ and "
-"defined in Well Known Text (WKT) format."
+"The projects typically use coordinate system definitions as defined by the "
+"`European Petroleum Survey Group (EPSG) <http://www.epsg.org/>`_ and defined"
+" in Well Known Text (WKT) format."
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:65
+#: ../../build/doc/overview/metacrs_overview.rst:65
 msgid "PROJ.4"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:67
+#: ../../build/doc/overview/metacrs_overview.rst:67
 msgid "**Website:**  http://trac.osgeo.org/proj/"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:69
-#: ../../../overview/metacrs_overview.rst:84
-#: ../../../overview/metacrs_overview.rst:110
+#: ../../build/doc/overview/metacrs_overview.rst:69
+#: ../../build/doc/overview/metacrs_overview.rst:84
+#: ../../build/doc/overview/metacrs_overview.rst:110
 msgid ""
 "**Licence:** `X/MIT style Open Source license "
 "<http://trac.osgeo.org/proj/wiki/WikiStart#License>`_"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:71
+#: ../../build/doc/overview/metacrs_overview.rst:71
 msgid "**Software Version:** 4.8.0"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:73
-#: ../../../overview/metacrs_overview.rst:86
-#: ../../../overview/metacrs_overview.rst:99
-#: ../../../overview/metacrs_overview.rst:123
+#: ../../build/doc/overview/metacrs_overview.rst:73
+#: ../../build/doc/overview/metacrs_overview.rst:86
+#: ../../build/doc/overview/metacrs_overview.rst:99
+#: ../../build/doc/overview/metacrs_overview.rst:123
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:75
+#: ../../build/doc/overview/metacrs_overview.rst:75
 msgid "**API Interfaces:** C, C++, Python, Java, Ruby"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:77
+#: ../../build/doc/overview/metacrs_overview.rst:77
 msgid "**Support:** http://lists.maptools.org/mailman/listinfo/proj"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:80
+#: ../../build/doc/overview/metacrs_overview.rst:80
 msgid "Proj4js"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:82
+#: ../../build/doc/overview/metacrs_overview.rst:82
 msgid "**Website:**  http://proj4js.org"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:88
+#: ../../build/doc/overview/metacrs_overview.rst:88
 msgid "**API Interfaces:** JavaScript"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:90
-#: ../../../overview/metacrs_overview.rst:103
+#: ../../build/doc/overview/metacrs_overview.rst:90
+#: ../../build/doc/overview/metacrs_overview.rst:103
 msgid "**Support:** http://lists.osgeo.org/mailman/listinfo/MetaCRS"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:93
+#: ../../build/doc/overview/metacrs_overview.rst:93
 msgid "CS-Map"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:95
+#: ../../build/doc/overview/metacrs_overview.rst:95
 msgid "**Website:**  http://trac.osgeo.org/csmap/"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:97
+#: ../../build/doc/overview/metacrs_overview.rst:97
 msgid ""
 "**Licence:** `custom "
 "<http://svn.osgeo.org/metacrs/csmap/trunk/CsMapDev/license.txt>`_"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:101
+#: ../../build/doc/overview/metacrs_overview.rst:101
 msgid "**API Interfaces:** C, C++"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:106
+#: ../../build/doc/overview/metacrs_overview.rst:106
 msgid "GeoTIFF/libgeotiff"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:108
+#: ../../build/doc/overview/metacrs_overview.rst:108
 msgid "**Website:**  http://trac.osgeo.org/geotiff/"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:112
+#: ../../build/doc/overview/metacrs_overview.rst:112
 msgid "**Software Version:** 1.4.0"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:114
+#: ../../build/doc/overview/metacrs_overview.rst:114
 msgid "**Support:** http://lists.maptools.org/mailman/listinfo/geotiff"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:117
+#: ../../build/doc/overview/metacrs_overview.rst:117
 msgid "Proj4J"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:119
+#: ../../build/doc/overview/metacrs_overview.rst:119
 msgid "**Website:**  http://trac.osgeo.org/proj4j/"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:121
+#: ../../build/doc/overview/metacrs_overview.rst:121
 msgid ""
 "**Licence:** `Apache License, Version 2.0 "
 "<http://www.apache.org/licenses/LICENSE-2.0>`_"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:125
+#: ../../build/doc/overview/metacrs_overview.rst:125
 msgid "**API Interfaces:** Java"
 msgstr ""
 
-#: ../../../overview/metacrs_overview.rst:127
+#: ../../build/doc/overview/metacrs_overview.rst:127
 msgid "**Support:** http://lists.osgeo.org/mailman/listinfo/proj4j"
 msgstr ""
-

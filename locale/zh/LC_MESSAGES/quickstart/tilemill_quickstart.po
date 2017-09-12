@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,481 +17,480 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../quickstart/tilemill_quickstart.rst:14
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:14
 msgid "TileMill Quickstart"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:16
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:16
 msgid ""
 "TileMill is a tool to quickly and easily design maps for the web using "
-"custom data. It is built on the powerful open-source map rendering "
-"library Mapnik ( the same software OpenStreetMap and MapQuest use to make"
-" some of their maps ) and uses CartoCSS as a stylesheet language."
+"custom data. It is built on the powerful open-source map rendering library "
+"Mapnik ( the same software OpenStreetMap and MapQuest use to make some of "
+"their maps ) and uses CartoCSS as a stylesheet language."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:18
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:18
 msgid "This Quick Start describes how to:"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:20
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:20
 msgid "Add layers from a PostGIS connection"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:21
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:21
 msgid "Customize styles"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:22
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:22
 msgid "Configure Tooltips"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:23
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:23
 msgid "Write a legend"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:24
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:24
 msgid "Export maps"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:29
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:29
 msgid "Create a project"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:31
-msgid "Start TileMill and click on the “New project” button on the main screen."
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:31
+msgid ""
+"Start TileMill and click on the “New project” button on the main screen."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:42
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:42
 msgid "2- Enter de following data in the form, and click “Add”:"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:48
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:48
 msgid "**Filename:**   tilemill_quickstart"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:50
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:50
 msgid "**Name:**       TileMill Quickstart OSGeo Live"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:52
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:52
 msgid "**Description:**        Quickstart from OSGeo Live"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:54
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:54
 msgid "**Default Data:**       Leave selected"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:57
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:57
 msgid ""
-"Click on the new project to open it. The project contains a default layer"
-" called #countries styled with some example CartoCSS code."
+"Click on the new project to open it. The project contains a default layer "
+"called #countries styled with some example CartoCSS code."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:61
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:61
 msgid "Add new layers to the project"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:62
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:62
 msgid ""
-"We can add new layers from File, SQLite or PostGIS. Let's say we want to "
-"add layers from OSM data stored in PostGIS. In this tutorial we assume "
-"that we already know the tables, fields and types of data we want to "
-"represent in the map. We can do this previous analysis either querying "
-"PostGIS directly  using pgAdminIII, or by means of any desktop GIS with "
-"PostGIS connection, like QGIS or Open Jump."
+"We can add new layers from File, SQLite or PostGIS. Let's say we want to add"
+" layers from OSM data stored in PostGIS. In this tutorial we assume that we "
+"already know the tables, fields and types of data we want to represent in "
+"the map. We can do this previous analysis either querying PostGIS directly  "
+"using pgAdminIII, or by means of any desktop GIS with PostGIS connection, "
+"like QGIS or Open Jump."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:64
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:64
 msgid ""
 "As are going to add layers from PostGis data. First, we click on layer "
 "button ( |LAYER|) and press on '+ Add layer' button. In the 'Add layer' "
 "form, we first select the source data type, PostGIS:"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:71
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:71
 msgid ""
-"Add roads layer from PostGIS, given the following data, and click on "
-"'Save & Style':"
+"Add roads layer from PostGIS, given the following data, and click on 'Save &"
+" Style':"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:73
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:73
 msgid "**ID:** osm_roads"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:75
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:75
 msgid "**Class:**      osmroads"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:77
-#: ../../../quickstart/tilemill_quickstart.rst:93
-#: ../../../quickstart/tilemill_quickstart.rst:109
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:77
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:93
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:109
 msgid ""
 "**Connection:** host=localhost port=5432 user=user password=user "
 "dbname=osm_local"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:79
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:79
 msgid "**Table or subquery:**  planet_osm_roads"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:81
-#: ../../../quickstart/tilemill_quickstart.rst:97
-#: ../../../quickstart/tilemill_quickstart.rst:113
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:81
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:97
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:113
 msgid "**Unique key field:**   osm_id"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:83
-#: ../../../quickstart/tilemill_quickstart.rst:99
-#: ../../../quickstart/tilemill_quickstart.rst:115
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:83
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:99
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:115
 msgid "**Geometry field:**     way"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:85
-#: ../../../quickstart/tilemill_quickstart.rst:101
-#: ../../../quickstart/tilemill_quickstart.rst:117
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:85
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:101
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:117
 msgid "**SRS:**        Select WGS84"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:87
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:87
 msgid ""
 "Add  a lines layer from PostGIS, given the following data, and click on "
 "'Save & Style':Click on 'Save & Style':"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:89
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:89
 msgid "**ID:** osm_line"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:91
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:91
 msgid "**Class:**      osmline"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:95
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:95
 msgid "**Table or subquery:**  planet_osm_line"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:103
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:103
 msgid ""
 "Add  a points layer from PostGIS, given the following data, and click on "
 "'Save & Style':"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:105
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:105
 msgid "**ID:** osm_points"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:107
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:107
 msgid "**Class:**      osmpoints"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:111
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:111
 msgid ""
-"**Table or subquery:**  (select osm_id, amenity, way from "
-"planet_osm_point where amenity is not null) AS amen"
+"**Table or subquery:**  (select osm_id, amenity, way from planet_osm_point "
+"where amenity is not null) AS amen"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:119
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:119
 msgid ""
 "In the osm_points layer we are importing a subset of points of the table "
-"planet_osm_point table in osm_local dataset, considering only those "
-"points with not empty amenity value."
+"planet_osm_point table in osm_local dataset, considering only those points "
+"with not empty amenity value."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:122
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:122
 msgid "Set default visualization for the project"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:123
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:123
 msgid ""
-"In order to set the dafault values for the working area, click on |TOOLS|"
-" buttom. Now you can center the working area, and set the center point. "
-"You can also type the center and bounds values directly in the form."
+"In order to set the dafault values for the working area, click on |TOOLS| "
+"buttom. Now you can center the working area, and set the center point. You "
+"can also type the center and bounds values directly in the form."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:131
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:131
 msgid "Styling data"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:132
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:132
 msgid ""
 "TileMill uses a language called CartoCSS to determine the look of a map. "
-"Colors, sizes, and shapes can all be manipulated by applying their "
-"relative CartoCS parameters in the stylesheet panel to the right of the "
-"map. Read the CartoCSS manual for a more detailed introduction to the "
-"language. As new PostGIS layers have been imported using “Save&Style” "
-"button, they have automatically been added several styling parameters to "
-"your stylesheet and gave them an initial value:"
+"Colors, sizes, and shapes can all be manipulated by applying their relative "
+"CartoCS parameters in the stylesheet panel to the right of the map. Read the"
+" CartoCSS manual for a more detailed introduction to the language. As new "
+"PostGIS layers have been imported using “Save&Style” button, they have "
+"automatically been added several styling parameters to your stylesheet and "
+"gave them an initial value:"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:135
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:135
 msgid "#osm_point"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:136
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:136
 msgid "This is the layer to which the styles are applied."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:137
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:137
 msgid "marker-width"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:138
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:138
 msgid ""
-"This determines the size of the markers, in pixels. You can experiment "
-"with changing this by typing in a different number."
+"This determines the size of the markers, in pixels. You can experiment with "
+"changing this by typing in a different number."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:140
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:140
 msgid "marker-fill"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:140
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:140
 msgid ""
 "This is the color of the inside of the marker. There are two methods for "
-"changing color values. You can either type in a new value, or you can use"
-" the color swatches at the bottom of the CartoCSS panel"
+"changing color values. You can either type in a new value, or you can use "
+"the color swatches at the bottom of the CartoCSS panel"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:143
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:143
 msgid "marker-line-color"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:143
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:143
 msgid "This is the color of the border of the marker."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:146
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:146
 msgid "5.- marker-allow-overlap"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:146
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:146
 msgid ""
 "This allows markers to be placed on top of each other. If this is not "
 "specified or set to false, potentially overlapping markers will not be "
 "displayed."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:148
-msgid "Any of this values can be changed and visualized after saving the project."
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:148
+msgid ""
+"Any of this values can be changed and visualized after saving the project."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:152
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:152
 msgid "Conditional styles"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:153
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:153
 msgid ""
 "Conditional CartoCSS styles allow you to change the appearance of the "
 "features on your map, based on data attributes. Here we will customize "
-"osm_points and osm_roads, in order to highlight some types of feature, "
-"given certain values. We will apply different styles to points depending "
-"on whether they represent 'post_box', 'pub'or 'bicyle_parking', as we "
-"know in advance that those are given values in the field 'amenity' of the"
-" table. We will define a different style to lines that represent "
-"'cycleway', as we know in advance that 'cycleway' is a given value in the"
-" field 'highway' of the table. This is our code after changing certain "
-"style values and coding some conditional styles:"
+"osm_points and osm_roads, in order to highlight some types of feature, given"
+" certain values. We will apply different styles to points depending on "
+"whether they represent 'post_box', 'pub'or 'bicyle_parking', as we know in "
+"advance that those are given values in the field 'amenity' of the table. We "
+"will define a different style to lines that represent 'cycleway', as we know"
+" in advance that 'cycleway' is a given value in the field 'highway' of the "
+"table. This is our code after changing certain style values and coding some "
+"conditional styles:"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:213
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:213
 msgid "Tooltips"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:215
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:215
 msgid ""
 "Tooltips allow you to make maps interactive with dynamic content that "
-"appears when a user hovers over or clicks on a map. They can contain HTML"
-" and are useful for revealing additional data, images, and other content."
+"appears when a user hovers over or clicks on a map. They can contain HTML "
+"and are useful for revealing additional data, images, and other content."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:217
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:217
 msgid ""
-"1. Open the Templates  panel by clicking on the pointer button on the "
-"bottom left ( |POINTER| )"
+"1. Open the Templates  panel by clicking on the pointer button on the bottom"
+" left ( |POINTER| )"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:222
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:222
 msgid ""
 "Click on the “Teaser” tab. Teaser content appears when you hover over a "
-"feature and Full content appears when you click on a feature. You can use"
-" the Location field to define a URL to be loaded when a feature is "
-"clicked."
+"feature and Full content appears when you click on a feature. You can use "
+"the Location field to define a URL to be loaded when a feature is clicked."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:224
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:224
 msgid ""
 "Select the 'osm_point' layer to use it for interaction. TileMill only "
 "supports one interactive layer at a time."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:225
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:225
 msgid ""
-"The data fields for the layer are displayed wrapped in "
-"curly Mustache tags. These tags will be replaced by data when you "
-"interact with the map. Locate the fields you want to use."
+"The data fields for the layer are displayed wrapped in curly Mustache tags. "
+"These tags will be replaced by data when you interact with the map. Locate "
+"the fields you want to use."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:227
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:227
 msgid ""
-"Write your template using the Mustache tags. Paste the following code "
-"into the Teaser field and use the preview to make sure it looks good:"
+"Write your template using the Mustache tags. Paste the following code into "
+"the Teaser field and use the preview to make sure it looks good:"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:237
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:237
 msgid ""
-"Click “Save” to save your settings and refresh the map. Close the panel "
-"by clicking the close button (X) or by pressing the ESC key. Move your "
-"mouse over some points to see the tooltips."
+"Click “Save” to save your settings and refresh the map. Close the panel by "
+"clicking the close button (X) or by pressing the ESC key. Move your mouse "
+"over some points to see the tooltips."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:245
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:245
 msgid "Legends"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:247
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:247
 msgid ""
 "A legend is permanently on a map and is useful for displaying titles, "
 "descriptions, and keys for what is being mapped. It can be styled using "
 "HTML, or it can simply contain an image."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:249
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:249
 msgid "Let’s add a legend that describes the theme of the map."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:251
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:251
 msgid ""
 "Open the Templates panel by clicking on the pointer button in the bottom "
 "left"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:252
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:252
 msgid "The Legend tab is open by default."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:253
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:253
 msgid "Enter your legend text/html in the Legend field:"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:262
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:262
 msgid ""
-"Click save and close the panel. You will now see your legend in the "
-"bottom right corner of the map."
+"Click save and close the panel. You will now see your legend in the bottom "
+"right corner of the map."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:269
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:269
 msgid "Exporting the map"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:270
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:270
 msgid ""
-"TileMill can export maps to MBTiles, PNG, PDF, SVG, or Mapnik XML "
-"formats. A full listing and overview is in the `Exporting documentation "
+"TileMill can export maps to MBTiles, PNG, PDF, SVG, or Mapnik XML formats. A"
+" full listing and overview is in the `Exporting documentation "
 "<http://mapbox.com/tilemill/docs/manual/exporting/>`_"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:272
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:272
 msgid "If you want to export to MBTiles:"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:274
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:274
 msgid "Click the “Export” button. A drop down menu will appear."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:275
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:275
 msgid "Click “MBTiles”. The window will transition to the export tool."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:276
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:276
 msgid ""
 "Choose a “Filename”“. The name of the project will be placed here by "
 "default."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:277
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:277
 msgid ""
-"Select Zoom levels. Set the furthest zoom to 1 by dragging the left end "
-"to the right. Set the closest zoom to 6 by dragging the right end to the "
-"left."
+"Select Zoom levels. Set the furthest zoom to 1 by dragging the left end to "
+"the right. Set the closest zoom to 6 by dragging the right end to the left."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:278
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:278
 msgid ""
-"Select the “Center” of the map. This determines the starting center and "
-"zoom level of the map when it is first loaded. You can manually enter "
-"these values or click a point in the map preview. Zoom to level three and"
-" click the center of the United States."
+"Select the “Center” of the map. This determines the starting center and zoom"
+" level of the map when it is first loaded. You can manually enter these "
+"values or click a point in the map preview. Zoom to level three and click "
+"the center of the United States."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:279
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:279
 msgid ""
 "Select the map “Bounds”. This is the area of the map to be exported. By "
-"default the entire world is selected. If your map is allocated to a "
-"smaller region of the globe, you can save processing time and disk space "
-"by cropping to that area. This can be done by manually entering values in"
-" the Bounds fields, or by holding the SHIFT key and clicking and dragging"
-" on the map. Leave the default value."
+"default the entire world is selected. If your map is allocated to a smaller "
+"region of the globe, you can save processing time and disk space by cropping"
+" to that area. This can be done by manually entering values in the Bounds "
+"fields, or by holding the SHIFT key and clicking and dragging on the map. "
+"Leave the default value."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:280
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:280
 msgid "Click “Export”."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:281
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:281
 msgid ""
-"When the export process is complete, the progress bar will be replaced by"
-" a Save button. This will save a copy of the file locally to a specified "
+"When the export process is complete, the progress bar will be replaced by a "
+"Save button. This will save a copy of the file locally to a specified "
 "location."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:287
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:287
 msgid ""
 "You can return to the Welcome view at any time by selecting the "
 ":menuselection:`Help --> Welcome` from the menu bar."
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:290
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:290
 msgid "Things to Try"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:292
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:292
 msgid "Here are some additional challenges for you to try:"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:294
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:294
 msgid "Try changing fixed or conditional styles on your own"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:295
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:295
 msgid ""
-"Try importing data from other sources, like .CSV file or sqlite ( You can"
-" follow `on-line TileMill crashcourse documentation "
+"Try importing data from other sources, like .CSV file or sqlite ( You can "
+"follow `on-line TileMill crashcourse documentation "
 "<http://mapbox.com/tilemill/docs/crashcourse/introduction/>`_)"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:299
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:299
 msgid "What Next?"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:304
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:304
 msgid ""
-"This is only the first step on the road to using TileMill. There is a lot"
-" more great material (and ability) left for you to discover:"
+"This is only the first step on the road to using TileMill. There is a lot "
+"more great material (and ability) left for you to discover:"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:306
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:306
 msgid "Get more help from the environment, click on help button (|HELP|)"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:310
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:310
 msgid ""
 "Learn more about cartocss language on `API Documentation "
 "<http://mapbox.com/carto/api/2.1.0/>`_"
 msgstr ""
 
-#: ../../../quickstart/tilemill_quickstart.rst:312
+#: ../../build/doc/quickstart/tilemill_quickstart.rst:312
 msgid ""
 "Learn how to run `TileMill as an Ubuntu Service "
 "<http://mapbox.com/tilemill/docs/guides/ubuntu-service/>`_"
 msgstr ""
-

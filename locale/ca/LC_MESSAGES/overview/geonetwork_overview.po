@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,140 +17,140 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../overview/geonetwork_overview.rst:19
+#: ../../build/doc/overview/geonetwork_overview.rst:20
 msgid "GeoNetwork"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:22
+#: ../../build/doc/overview/geonetwork_overview.rst:23
 msgid "Metadata Catalog"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:24
+#: ../../build/doc/overview/geonetwork_overview.rst:25
 msgid ""
 "GeoNetwork OpenSource is a catalog application for managing spatially "
 "referenced resources. It provides powerful metadata editing and search "
-"functions, an embedded interactive web map viewer, and is based upon Open"
-" Standards."
+"functions, an embedded interactive web map viewer, and is based upon Open "
+"Standards."
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:32
+#: ../../build/doc/overview/geonetwork_overview.rst:33
 msgid "Core Features"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:33
+#: ../../build/doc/overview/geonetwork_overview.rst:34
 msgid "Immediate search access to local and distributed geospatial catalogues"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:34
+#: ../../build/doc/overview/geonetwork_overview.rst:35
 msgid ""
 "Up and downloading of data, graphics, documents, pdf files and any other "
 "content type"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:35
+#: ../../build/doc/overview/geonetwork_overview.rst:36
 msgid ""
-"An interactive Web Map Viewer to combine Web Map Services from "
-"distributed servers around the world"
+"An interactive Web Map Viewer to combine Web Map Services from distributed "
+"servers around the world"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:36
-msgid "Recently updated entries are accessible as RSS news feeds and as GeoRSS."
+#: ../../build/doc/overview/geonetwork_overview.rst:37
+msgid ""
+"Recently updated entries are accessible as RSS news feeds and as GeoRSS."
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:37
+#: ../../build/doc/overview/geonetwork_overview.rst:38
 msgid "Online editing of metadata with a powerful template system"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:38
+#: ../../build/doc/overview/geonetwork_overview.rst:39
 msgid ""
 "Native support for ISO19115/ISO19119/ISO19139/ISO19110 and Dublin Core "
 "formatted metadata"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:39
+#: ../../build/doc/overview/geonetwork_overview.rst:40
 msgid ""
 "Scheduled harvesting and synchronization of metadata between distributed "
 "catalogues (GeoNetwork, CSW, OGC WxS GetCapabilities, WebDav, ArcSDE, "
 "Thredds, OGC WFS Features, OAI-PMH)"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:40
+#: ../../build/doc/overview/geonetwork_overview.rst:41
 msgid "Fine-grained access control"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:41
+#: ../../build/doc/overview/geonetwork_overview.rst:42
 msgid "Group and user management"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:42
+#: ../../build/doc/overview/geonetwork_overview.rst:43
 msgid "Multi-lingual user interface"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:45
+#: ../../build/doc/overview/geonetwork_overview.rst:46
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:47
+#: ../../build/doc/overview/geonetwork_overview.rst:48
 msgid "OGC Catalogue Service-Web (CSW) 2.0.2 ISO"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:48
+#: ../../build/doc/overview/geonetwork_overview.rst:49
 msgid "Open Archives Initiatives (OAI-PMH)"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:49
+#: ../../build/doc/overview/geonetwork_overview.rst:50
 msgid "OpenSearch-Geo"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:50
+#: ../../build/doc/overview/geonetwork_overview.rst:51
 msgid "OAI-PMH"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:51
+#: ../../build/doc/overview/geonetwork_overview.rst:52
 msgid "Metadata standards:"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:53
+#: ../../build/doc/overview/geonetwork_overview.rst:54
 msgid "ISO19115/ISO19119/ISO19139/ISO19110 and ISO Profiles"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:54
+#: ../../build/doc/overview/geonetwork_overview.rst:55
 msgid "Dublin Core"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:57
+#: ../../build/doc/overview/geonetwork_overview.rst:58
 msgid "Details"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:59
+#: ../../build/doc/overview/geonetwork_overview.rst:60
 msgid "**Website:** http://geonetwork-opensource.org"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:61
+#: ../../build/doc/overview/geonetwork_overview.rst:62
 msgid "**Licence:** GNU General Public License (GPL) version 2"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:63
+#: ../../build/doc/overview/geonetwork_overview.rst:64
 msgid "**Software Version:** |version-geonetwork|"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:65
+#: ../../build/doc/overview/geonetwork_overview.rst:66
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:67
+#: ../../build/doc/overview/geonetwork_overview.rst:68
 msgid "**API Interfaces:** Java"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:69
+#: ../../build/doc/overview/geonetwork_overview.rst:70
 msgid "**Support:** http://www.osgeo.org/search_profile"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:73
+#: ../../build/doc/overview/geonetwork_overview.rst:74
 msgid "Quickstart"
 msgstr ""
 
-#: ../../../overview/geonetwork_overview.rst:75
+#: ../../build/doc/overview/geonetwork_overview.rst:76
 msgid ":doc:`Quickstart documentation <../quickstart/geonetwork_quickstart>`"
 msgstr ""
-

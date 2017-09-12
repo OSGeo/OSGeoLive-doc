@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-03 08:36-0500\n"
+"POT-Creation-Date: 2017-09-12 09:55-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid "To run GpsPrune on the live DVD, select the icon \"GpsPrune\" in the Navi
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:26
-msgid "We will now load a file by using the menu command :menuselection:`File --> Open file` and selecting the file to load.  This can be a GPX file, a KML or KMZ file, or even a comma-separated or tab-separated file if you have one.  A suitable GPX file containing a couple of tracks can be found on the disc at :file:`~/data/vector/R/test_trk2.gpx` so we will load this one."
+msgid "We will now load a file by using the menu command :menuselection:`File --> Open file` and selecting the file to load.  This can be a GPX file, a KML or KMZ file, or even a comma-separated or tab-separated file if you have one.  A suitable GPX file containing a couple of tracks can be found on the disc at :file:`~/data/vector/gpx/test_trk2.gpx` so we will load this one."
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:30
@@ -69,7 +69,7 @@ msgid "Wikipedia"
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:56
-msgid "Now let's find out some more information about where this track is.  We can do this by selecting a point, and then choosing the menu option :menuselection:`Track --> Get nearby Wikipedia articles`.  This shows a list of articles whose coordinates are nearest to the selected point.  Clicking one of these entries in the list will show more information in the box below."
+msgid "Now let's find out some more information about where this track is.  We can do this by selecting a point, and then choosing the menu option :menuselection:`Online --> Get nearby Wikipedia articles`.  This shows a list of articles whose coordinates are nearest to the selected point.  Clicking one of these entries in the list will show more information in the box below."
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:60
@@ -81,7 +81,7 @@ msgid "Gpsies"
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:64
-msgid "Finally, let's download another track from the same area.  We can use the menu command :menuselection:`Track --> Get Gpsies tracks` to search for tracks on the website gpsies.com.  Again, we get a list of matching entries, and we can select one to view the description."
+msgid "Finally, let's download another track from the same area.  We can use the menu command :menuselection:`Online --> Get Gpsies tracks` to search for tracks on the website gpsies.com.  Again, we get a list of matching entries, and we can select one to view the description."
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:68
@@ -105,11 +105,11 @@ msgid "After trying out GpsPrune on this live DVD, you may want to use it on ano
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:81
-msgid "It doesn't need to be installed, but it does need a java runtime to be installed, version 1.5 or higher.  You can extend GpsPrune's functionalities by installing other free software, such as *Gpsbabel*, *Gnuplot*, *Exiftool* or *Java3d*."
+msgid "It doesn't need to be installed, but it does need a java runtime to be installed, version 1.5 or higher.  You can extend GpsPrune's functionalities by installing other free software, such as *Gpsbabel*, *Gnuplot*, *Exiftool* and *Java3d*."
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:83
-msgid "Once you've installed GpsPrune on your permanent system, you can save your settings with the menu option :menuselection:`Settings --> Save settings`.  Then they will be remembered for the next time you run GpsPrune.  However, note that when using this live DVD, all files that you save in the regular file system are lost when you shut down the computer."
+msgid "Once you've installed GpsPrune on your permanent system, you can save your settings with the menu option :menuselection:`Settings --> Save settings`.  Then they will be remembered for the next time you run GpsPrune.  However, note that when using this live system, all files that you save in the regular file system are lost when you shut down the computer."
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:85

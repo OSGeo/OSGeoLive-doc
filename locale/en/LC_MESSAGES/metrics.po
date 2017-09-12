@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,128 +17,107 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../metrics.rst:2
+#: ../../build/doc/metrics.rst:6
 msgid "|osgeo-live-version| Project Metrics"
 msgstr ""
 
-#: ../../../metrics.rst:4
+#: ../../build/doc/metrics.rst:8
 msgid ""
-"Metrics provided by `OpenHUB <https://www.openhub.net/>`_ which are "
-"derived from the projects' code repositories. Note these metrics have "
-"known deficiencies (such as caused by repositories moving), and only "
-"provide partial indications about the projects' development. Lack of "
-"change in smaller, concise packages and libraries may simply reflect a "
-"level of maturity and completeness."
+"Metrics provided by `OpenHUB <https://www.openhub.net/>`_ which are derived "
+"from the projects' code repositories. Note these metrics have known "
+"deficiencies (such as caused by repositories moving), and only provide "
+"partial indications about the projects' development. Lack of change in "
+"smaller, concise packages and libraries may simply reflect a level of "
+"maturity and completeness."
 msgstr ""
 
-#: ../../../metrics.rst:10
+#: ../../build/doc/metrics.rst:14
 msgid ""
 "Viewing the metrics requires an Internet connection and Javascript to be "
 "enabled."
 msgstr ""
 
-#: ../../../metrics.rst:17
+#: ../../build/doc/metrics.rst:22
 msgid "Desktop GIS"
 msgstr ""
 
-#: ../../../metrics.rst:18
-msgid "General GIS viewing, editing, and analysis on the desktop:"
-msgstr ""
-
-#: ../../../metrics.rst:29 ../../../metrics.rst:48 ../../../metrics.rst:74
-#: ../../../metrics.rst:136 ../../../metrics.rst:159
-msgid "Missing:"
-msgstr ""
-
-#: ../../../metrics.rst:31
-msgid ":doc:`overview/kosmo_overview`"
-msgstr ""
-
-#: ../../../metrics.rst:34
+#: ../../build/doc/metrics.rst:35
 msgid "Browser Facing GIS"
 msgstr ""
 
-#: ../../../metrics.rst:35
-msgid "General GIS viewing, editing and analysis in the browser:"
-msgstr ""
-
-#: ../../../metrics.rst:50
-msgid ":doc:`overview/cartaro_overview`"
-msgstr ""
-
-#: ../../../metrics.rst:53
+#: ../../build/doc/metrics.rst:49
 msgid "Web Services"
 msgstr ""
 
-#: ../../../metrics.rst:54
-msgid "Publishing spatial data to the internet:"
-msgstr ""
-
-#: ../../../metrics.rst:76
-msgid ":doc:`overview/qgis_mapserver_overview` (Incorporated in QGIS codebase)"
-msgstr ""
-
-#: ../../../metrics.rst:79
+#: ../../build/doc/metrics.rst:69
 msgid "Data Stores"
 msgstr ""
 
-#: ../../../metrics.rst:80
-msgid "Storing spatial data:"
-msgstr ""
-
-#: ../../../metrics.rst:91
+#: ../../build/doc/metrics.rst:80
 msgid "Navigation and Maps"
 msgstr ""
 
-#: ../../../metrics.rst:103
-msgid "OpenStreetMap tools"
-msgstr ""
-
-#: ../../../metrics.rst:113
+#: ../../build/doc/metrics.rst:92
 msgid "Spatial Tools"
 msgstr ""
 
-#: ../../../metrics.rst:114
-msgid "Specific analysis tools:"
-msgstr ""
+#~ msgid "General GIS viewing, editing, and analysis on the desktop:"
+#~ msgstr ""
 
-#: ../../../metrics.rst:126
-msgid "Domain Specific GIS"
-msgstr ""
+#~ msgid "Missing:"
+#~ msgstr ""
 
-#: ../../../metrics.rst:127
-msgid "Applications targeted at a specific domain:"
-msgstr ""
+#~ msgid ":doc:`overview/kosmo_overview`"
+#~ msgstr ""
 
-#: ../../../metrics.rst:138
-msgid ":doc:`overview/zygrib_overview` - Weather Forecast Maps"
-msgstr ""
+#~ msgid "General GIS viewing, editing and analysis in the browser:"
+#~ msgstr ""
 
-#: ../../../metrics.rst:141
-msgid "Geospatial Libraries"
-msgstr ""
+#~ msgid ":doc:`overview/cartaro_overview`"
+#~ msgstr ""
 
-#: ../../../metrics.rst:153
-msgid "Coordinate Reference System Libraries"
-msgstr ""
+#~ msgid "Publishing spatial data to the internet:"
+#~ msgstr ""
 
-#: ../../../metrics.rst:161
-msgid "Proj4js (JavaScript) - used in OpenLayers."
-msgstr ""
+#~ msgid ""
+#~ ":doc:`overview/qgis_mapserver_overview` (Incorporated in QGIS codebase)"
+#~ msgstr ""
 
-#: ../../../metrics.rst:162
-msgid "CS-Map (C++) - used in MapGuide."
-msgstr ""
+#~ msgid "Storing spatial data:"
+#~ msgstr ""
 
-#: ../../../metrics.rst:163
-msgid "GeoTIFF/libgeotiff (C++)."
-msgstr ""
+#~ msgid "OpenStreetMap tools"
+#~ msgstr ""
 
-#: ../../../metrics.rst:164
-msgid "Proj4J (Java)."
-msgstr ""
+#~ msgid "Specific analysis tools:"
+#~ msgstr ""
 
-#: ../../../metrics.rst:167
-msgid "Other software of interest (not available Live)"
-msgstr ""
+#~ msgid "Domain Specific GIS"
+#~ msgstr ""
 
+#~ msgid "Applications targeted at a specific domain:"
+#~ msgstr ""
+
+#~ msgid ":doc:`overview/zygrib_overview` - Weather Forecast Maps"
+#~ msgstr ""
+
+#~ msgid "Geospatial Libraries"
+#~ msgstr ""
+
+#~ msgid "Coordinate Reference System Libraries"
+#~ msgstr ""
+
+#~ msgid "Proj4js (JavaScript) - used in OpenLayers."
+#~ msgstr ""
+
+#~ msgid "CS-Map (C++) - used in MapGuide."
+#~ msgstr ""
+
+#~ msgid "GeoTIFF/libgeotiff (C++)."
+#~ msgstr ""
+
+#~ msgid "Proj4J (Java)."
+#~ msgstr ""
+
+#~ msgid "Other software of interest (not available Live)"
+#~ msgstr ""

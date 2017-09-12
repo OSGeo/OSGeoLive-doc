@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,31 +17,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../overview/opencpn_overview.rst:14
+#: ../../build/doc/overview/opencpn_overview.rst:14
 msgid "OpenCPN"
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:17
+#: ../../build/doc/overview/opencpn_overview.rst:17
 msgid "Marine GPS navigation software"
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:18
+#: ../../build/doc/overview/opencpn_overview.rst:18
 msgid ""
-"OpenCPN provides free navigation software for use at the helm of vessels "
-"of all types and sizes, as well as offline for route planning. It has "
-"been developed by a team of active sailors using real world conditions "
-"for program testing and refinement."
+"OpenCPN provides free navigation software for use at the helm of vessels of "
+"all types and sizes, as well as offline for route planning. It has been "
+"developed by a team of active sailors using real world conditions for "
+"program testing and refinement."
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:20
+#: ../../build/doc/overview/opencpn_overview.rst:20
 msgid ""
-"OpenCPN presents a user with the vessel's current position, speed and "
-"course superimposed upon accurate navigational chart images, tide and "
-"current predictions. Information received by standard radio links "
-"describing the position and intent of other vessels can also be shown."
+"OpenCPN presents a user with the vessel's current position, speed and course"
+" superimposed upon accurate navigational chart images, tide and current "
+"predictions. Information received by standard radio links describing the "
+"position and intent of other vessels can also be shown."
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:22
+#: ../../build/doc/overview/opencpn_overview.rst:22
 msgid ""
 "As the host vessel moves, new charts are selected and displayed at user "
 "specified resolution and detail. Further, the user may enter routes and "
@@ -49,79 +49,78 @@ msgid ""
 "following."
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:26
+#: ../../build/doc/overview/opencpn_overview.rst:26
 msgid "Core Features"
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:33
+#: ../../build/doc/overview/opencpn_overview.rst:33
 msgid "OpenCPN supports:"
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:35
+#: ../../build/doc/overview/opencpn_overview.rst:35
 msgid "BSB raster, C-MAP (CM93/2) and S-57 ENC vector charts"
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:36
+#: ../../build/doc/overview/opencpn_overview.rst:36
 msgid "AIS input decoding"
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:37
+#: ../../build/doc/overview/opencpn_overview.rst:37
 msgid "NMEA GPS or `Gpsd <http://gpsd.berlios.de>`_ daemon input"
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:38
+#: ../../build/doc/overview/opencpn_overview.rst:38
 msgid "Waypoint / autopilot navigation"
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:39
+#: ../../build/doc/overview/opencpn_overview.rst:39
 msgid "Unlimited route/mark creation"
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:40
+#: ../../build/doc/overview/opencpn_overview.rst:40
 msgid "Quilted charts"
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:41
+#: ../../build/doc/overview/opencpn_overview.rst:41
 msgid "International language support"
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:42
+#: ../../build/doc/overview/opencpn_overview.rst:42
 msgid "Cross-platform support"
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:43
+#: ../../build/doc/overview/opencpn_overview.rst:43
 msgid "GRIB weather data overlay"
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:46
+#: ../../build/doc/overview/opencpn_overview.rst:46
 msgid "Details"
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:48
+#: ../../build/doc/overview/opencpn_overview.rst:48
 msgid "**Website:** http://www.opencpn.org"
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:50
+#: ../../build/doc/overview/opencpn_overview.rst:50
 msgid "**Licence:** GNU General Public License (GPL) version 2"
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:52
+#: ../../build/doc/overview/opencpn_overview.rst:52
 msgid "**Software Version:** |version-opencpn|"
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:54
+#: ../../build/doc/overview/opencpn_overview.rst:54
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:56
+#: ../../build/doc/overview/opencpn_overview.rst:56
 msgid "**Support:** http://www.cruisersforum.com/forums/f134"
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:60
+#: ../../build/doc/overview/opencpn_overview.rst:60
 msgid "Quickstart"
 msgstr ""
 
-#: ../../../overview/opencpn_overview.rst:62
+#: ../../build/doc/overview/opencpn_overview.rst:62
 msgid ":doc:`Quickstart documentation <../quickstart/opencpn_quickstart>`"
 msgstr ""
-

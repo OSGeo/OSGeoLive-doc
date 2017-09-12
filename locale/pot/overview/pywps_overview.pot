@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-03 08:36-0500\n"
+"POT-Creation-Date: 2017-09-12 09:55-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "PyWPS provides web access to custom geospatial operations (referred to as
 msgstr ""
 
 #: ../../build/doc/overview/pywps_overview.rst:27
-msgid "Processes are written in the Python programming language and can integrate tools such as :doc:`GRASS GIS <grass_overview>`, :doc:`R <R_overview>`, :doc:`GDAL/OGR <gdal_overview>`, :doc:`proj.4 <metacrs_overview>` and other libraries with Python bindings.  Source data can be provided with WPS requests or accessed from data on the WPS server."
+msgid "Processes are written in the Python programming language and can integrate tools such as :doc:`GRASS GIS <grass_overview>`, :doc:`R <R_overview>`, :doc:`GDAL/OGR <gdal_overview>`, :doc:`proj.4 <proj4_overview>` and other libraries with Python bindings.  Source data can be provided with WPS requests or accessed from data on the WPS server."
 msgstr ""
 
 #: ../../build/doc/overview/pywps_overview.rst:37

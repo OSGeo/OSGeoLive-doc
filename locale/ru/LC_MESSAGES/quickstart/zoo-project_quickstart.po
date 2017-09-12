@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,81 +17,129 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../quickstart/zoo-project_quickstart.rst:14
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:20
 msgid "ZOO Project Quickstart"
 msgstr ""
 
-#: ../../../quickstart/zoo-project_quickstart.rst:16
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:22
 msgid ""
-"The ZOO-Project provides a developer friendly Web Processing Service "
-"(WPS) framework for creating and chaining Web Processing Services. A WPS "
-"provides web access to functions which run spatial algorithms."
+"The ZOO-Project provides a developer friendly Web Processing Service (WPS) "
+"framework for creating and chaining Web Processing Services. A WPS provides "
+"web access to functions which run spatial algorithms."
 msgstr ""
 
-#: ../../../quickstart/zoo-project_quickstart.rst:19
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:25
 msgid "This Quick Start describes how to:"
 msgstr ""
 
-#: ../../../quickstart/zoo-project_quickstart.rst:21
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:27
 msgid "Apply processes to a WFS from a web browser."
 msgstr ""
 
-#: ../../../quickstart/zoo-project_quickstart.rst:27
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:33
 msgid "Running"
 msgstr ""
 
-#: ../../../quickstart/zoo-project_quickstart.rst:29
-msgid ""
-"To run the ZOO Project demo from the OSGeo-Live DVD, click successively "
-"on the |osgeolive-appmenupath-geoserver| then on the \"ZOO Project\" "
-"links on the desktop or you will find it in the menu-items."
-msgstr ""
-
-#: ../../../quickstart/zoo-project_quickstart.rst:32
-msgid "Firefox will open the ZOO Project Spatial Tools demo."
-msgstr ""
-
-#: ../../../quickstart/zoo-project_quickstart.rst:41
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:47
 msgid ""
 "Click on the map to select a feature from the :doc:`GeoServer "
-"<../overview/geoserver_overview>` WFS Server, the feature will be "
-"displayed in blue, then click on simple geometry process like Buffer, "
-"Centroid, ConvexHull or Boundary and the result will be displayed in "
-"yellow."
+"<../overview/geoserver_overview>` WFS Server, the feature will be displayed "
+"in blue, then click on simple geometry process like Buffer, Centroid, "
+"ConvexHull or Boundary and the result will be displayed in yellow."
 msgstr ""
 
-#: ../../../quickstart/zoo-project_quickstart.rst:49
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:55
 msgid ""
 "Now select another feature near the first you've selected then click on "
-"multiple geometries process button Union, Intersection, Symmetric "
-"Difference or Difference to get the result displayed in red on the map."
+"multiple geometries process button Union, Intersection, Symmetric Difference"
+" or Difference to get the result displayed in red on the map."
 msgstr ""
 
-#: ../../../quickstart/zoo-project_quickstart.rst:57
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:87
 msgid "What Next?"
 msgstr ""
 
-#: ../../../quickstart/zoo-project_quickstart.rst:60
-msgid ""
-"You can build your own requests and send them to the ZOO Kernel from the "
-"following page:"
-msgstr ""
-
-#: ../../../quickstart/zoo-project_quickstart.rst:60
-msgid "http://localhost/zoo-demo/test_services.html"
-msgstr ""
-
-#: ../../../quickstart/zoo-project_quickstart.rst:63
-msgid "You would need the capabilities of the ZOO WPS Server:"
-msgstr ""
-
-#: ../../../quickstart/zoo-project_quickstart.rst:63
-msgid "http://localhost/zoo/?Request=GetCapabilities&Service=WPS"
-msgstr ""
-
-#: ../../../quickstart/zoo-project_quickstart.rst:65
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:92
 msgid ""
 "For further questions you can contact the ZOO Project mailing list: zoo-"
 "discuss@lists.osgeo.org"
 msgstr ""
 
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
+msgid "Contents"
+msgstr ""
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:35
+msgid ""
+"To run the ZOO Project demo from the OSGeo-Live DVD, click on the \"ZOO "
+"Project\" link you will find it in the menu-items under \"Geospatial\" > "
+"\"Web Services\"."
+msgstr ""
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:37
+msgid ""
+"Firefox will open the ZOO Project demonstration landing page. From here, you"
+" can decide what is the demonstration you want to use."
+msgstr ""
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:45
+msgid "OGR spatial tools"
+msgstr ""
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:63
+msgid "CGAL triangulations"
+msgstr ""
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:65
+msgid ""
+"From the CGAL triangulations application, you simply have to press the "
+"Voronoi or Delaunay button to display on your map the result of the WPS "
+"service execution, as shown bellow."
+msgstr ""
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:75
+msgid "OTB Applications"
+msgstr ""
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:77
+msgid ""
+"From the OTB application demonstration interface, you have to fill the form "
+"on the left to configure the WPS service execution. Once, you have selected "
+"the value for yoru processing, you can then press the Execute button at the "
+"bottom of the left form. In case you choose image/png as the output format, "
+"you will see the result of your processing displayed on the map. You can see"
+" bellow a sample KMeansClassification execution when selecting the image/png"
+" output format."
+msgstr ""
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:90
+msgid "You can access the capabilities of the ZOO WPS Server:"
+msgstr ""
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:90
+msgid ""
+"http://localhost/cgi-bin/zoo_loader.cgi?Request=GetCapabilities&Service=WPS"
+msgstr ""
+
+#~ msgid ""
+#~ "To run the ZOO Project demo from the OSGeo-Live DVD, click successively on "
+#~ "the |osgeolive-appmenupath-geoserver| then on the \"ZOO Project\" links on "
+#~ "the desktop or you will find it in the menu-items."
+#~ msgstr ""
+
+#~ msgid "Firefox will open the ZOO Project Spatial Tools demo."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can build your own requests and send them to the ZOO Kernel from the "
+#~ "following page:"
+#~ msgstr ""
+
+#~ msgid "http://localhost/zoo-demo/test_services.html"
+#~ msgstr ""
+
+#~ msgid "You would need the capabilities of the ZOO WPS Server:"
+#~ msgstr ""
+
+#~ msgid "http://localhost/zoo/?Request=GetCapabilities&Service=WPS"
+#~ msgstr ""

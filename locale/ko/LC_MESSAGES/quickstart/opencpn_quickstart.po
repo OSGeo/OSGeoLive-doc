@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,106 +17,104 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../quickstart/opencpn_quickstart.rst:14
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:14
 msgid "OpenCPN Quickstart"
 msgstr ""
 
-#: ../../../quickstart/opencpn_quickstart.rst:16
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:16
 msgid ""
-"OpenCPN is a concise Chart Plotter and Navigator (CPN). As always, never "
-"use a piece of software or electronic equipment as your only means of "
+"OpenCPN is a concise Chart Plotter and Navigator (CPN). As always, never use"
+" a piece of software or electronic equipment as your only means of "
 "navigation and keep an eye out the window."
 msgstr ""
 
-#: ../../../quickstart/opencpn_quickstart.rst:22
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:22
 msgid "Running"
 msgstr ""
 
-#: ../../../quickstart/opencpn_quickstart.rst:25
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:25
 msgid "Setting up your charts"
 msgstr ""
 
-#: ../../../quickstart/opencpn_quickstart.rst:26
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:26
 msgid ""
-"Before running OpenCPN on the LiveDVD you should activate the sample "
-"data. This is a condition of redistributing NOAA's free nautical charts. "
-"The first time you run OpenCPN from the :menuselection:`Geospatial --> "
-"Navigation and Maps` menu or Desktop icon you will be presented with the "
-"option to do this automatically."
+"Before running OpenCPN on the LiveDVD you should activate the sample data. "
+"This is a condition of redistributing NOAA's free nautical charts. The first"
+" time you run OpenCPN from the :menuselection:`Geospatial --> Navigation and"
+" Maps` menu or Desktop icon you will be presented with the option to do this"
+" automatically."
 msgstr ""
 
-#: ../../../quickstart/opencpn_quickstart.rst:36
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:36
 msgid ""
 "You can download additional US nautical charts from NOAA at "
 "http://www.charts.noaa.gov"
 msgstr ""
 
-#: ../../../quickstart/opencpn_quickstart.rst:41
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:41
 msgid "Setting up your GPS"
 msgstr ""
 
-#: ../../../quickstart/opencpn_quickstart.rst:42
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:42
 msgid ""
-"If you have a GPS connected you will want to start the gpsd service. To "
-"do that run:"
+"If you have a GPS connected you will want to start the gpsd service. To do "
+"that run:"
 msgstr ""
 
-#: ../../../quickstart/opencpn_quickstart.rst:49
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:49
 msgid "and"
 msgstr ""
 
-#: ../../../quickstart/opencpn_quickstart.rst:55
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:55
 msgid ""
-"BlueTooth GPS users should take special care to read up about the no-"
-"probe option."
+"BlueTooth GPS users should take special care to read up about the no-probe "
+"option."
 msgstr ""
 
-#: ../../../quickstart/opencpn_quickstart.rst:61
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:61
 msgid "'`xgps`' is a good program to check that Gpsd can see your GPS ok."
 msgstr ""
 
-#: ../../../quickstart/opencpn_quickstart.rst:65
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:65
 msgid "Documentation"
 msgstr ""
 
-#: ../../../quickstart/opencpn_quickstart.rst:67
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:67
 msgid ""
 "Documentation is available from the `Help menu "
 "<../../opencpn/help_en_US.html>`_, or online at "
 "http://www.opencpn.org/ocpn/opencpn_manual"
 msgstr ""
 
-#: ../../../quickstart/opencpn_quickstart.rst:71
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:71
 msgid "`Getting started tips <../../opencpn/tips.html>`_"
 msgstr ""
 
-#: ../../../quickstart/opencpn_quickstart.rst:75
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:75
 msgid "See also"
 msgstr ""
 
-#: ../../../quickstart/opencpn_quickstart.rst:77
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:77
 msgid ""
 "Current weather and wave forecast data can be downloaded and draped over "
 "your charts using the GRIB plugin. The :doc:`zyGrib software "
 "<../overview/zygrib_overview>` (also on this disc) is an easy way to "
 "download that. See the :doc:`zyGrib quickstart "
-"<../quickstart/zygrib_quickstart>` for details. Enable the plugin from "
-"the right most tab of the OpenCPN configuration menu; a new windsock icon"
-" will appear at the right end of the main toolbar."
+"<../quickstart/zygrib_quickstart>` for details. Enable the plugin from the "
+"right most tab of the OpenCPN configuration menu; a new windsock icon will "
+"appear at the right end of the main toolbar."
 msgstr ""
 
-#: ../../../quickstart/opencpn_quickstart.rst:84
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:84
 msgid ""
 "If you saved the zyGrib file into your home directory, navigate to "
-":file:`/home` and select your ``user`` directory as the GRIB data "
-"directory. Then right click on the file listing's background to show "
-"hidden files, including the ``.zygrib`` directory that contains the GRIB "
-"download files."
+":file:`/home` and select your ``user`` directory as the GRIB data directory."
+" Then right click on the file listing's background to show hidden files, "
+"including the ``.zygrib`` directory that contains the GRIB download files."
 msgstr ""
 
-#: ../../../quickstart/opencpn_quickstart.rst:89
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:89
 msgid ""
-"There is no need to uncompress the file.  Click on the \">\" to the left "
-"of the filename and select from the list of available forecast times."
+"There is no need to uncompress the file.  Click on the \">\" to the left of "
+"the filename and select from the list of available forecast times."
 msgstr ""
-

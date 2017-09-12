@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,184 +17,254 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../quickstart/52nSOS_quickstart.rst:14
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:16
 msgid "52°North SOS Quickstart"
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:16
-msgid ""
-"The 52°North SOS is a web service, that allows to provide interoperable "
-"access to (spatial) observation data and associated metadata."
-msgstr ""
-
-#: ../../../quickstart/52nSOS_quickstart.rst:19
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:21
 msgid "This Quick Start describes how to:"
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:21
-msgid "Query the 52°North SOS Capabilities to determine what queries it supports."
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:23
+msgid ""
+"Query the 52°North SOS Capabilities to determine what queries it supports."
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:22
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:24
 msgid "Query details about an Observation from the SOS."
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:23
-msgid ""
-"Use a lightweight visualisation tool delivered together with the SOS to "
-"explore the available data."
-msgstr ""
-
-#: ../../../quickstart/52nSOS_quickstart.rst:25
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:27
 msgid "Explore the REST API endpoint for client developers."
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:31
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:33
 msgid "Getting Started"
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:33
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:35
 msgid ""
 "Select :menuselection:`Geospatial --> Web Services --> 52North --> Start "
 "52North SOS` to start the 52°North SOS."
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:35
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:37
 msgid ""
 "This will open the 52°North SOS client welcome page in firefox at "
 "http://localhost:8080/52nSOS/ (see Fig. 1)."
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:43
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:45
 msgid "**Fig. 1**: 52°North SOS client - welcome page."
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:45
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:47
 msgid ""
 "Once you know `the capabilities of a SOS "
 "<http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=2.0.0>`_,"
-" (see Fiq. 2) you can craft appropriate queries. Again, this is made "
-"easier by selecting sample queries from the test client pull down list. "
-"Using the information from the capabilities, you can adjust the available"
-" example queries."
+" (see Fiq. 2) you can craft appropriate queries. Again, this is made easier "
+"by selecting sample queries from the test client pull down list. Using the "
+"information from the capabilities, you can adjust the available example "
+"queries."
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:56
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:58
 msgid ""
-"**Fig. 2**: 52°North SOS client - test client with GetCapabilities "
-"request."
+"**Fig. 2**: 52°North SOS client - test client with GetCapabilities request."
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:58
-msgid ""
-"To get for each time series the available observation data within the "
-"time interval from 2017-02-28T23:45:00.000+00:00 to "
-"2017-03-01T23:45:00.000+00:00, insert the following request after "
-"selecting service \"SOS\" --> version \"2.0.0\" --> binding \"SOAP\" --> "
-"operation \"GetObservation\" in the `test client "
-"<http://localhost:8080/52nSOS/client>`_ in the field request:"
-msgstr ""
-
-#: ../../../quickstart/52nSOS_quickstart.rst:93
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:96
 msgid "**Listing 1:** Request of observations."
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:97
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:100
 msgid "Things to Try"
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:99
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:102
 msgid "Try some of the other example queries from the pull down list."
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:100
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:103
 msgid "Try tweaking some of these queries to get different information."
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:101
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:104
 msgid ""
 "Try the `SOS administrator <http://localhost:8080/52nSOS/admin/index>`_ "
 "using"
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:102
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:105
 msgid "username \"user\" and password \"user\"."
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:103
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:123
 msgid ""
-"Try the `View Client "
-"<http://localhost:8080/52nSOS/static/client/jsClient/>`_ (see Fiq. 3)."
+"**Fig. 3**: 52°North SOS client - JavaScript client with time series data."
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:110
-msgid "**Fig. 3**: 52°North SOS client - JavaScript client with time series data."
-msgstr ""
-
-#: ../../../quickstart/52nSOS_quickstart.rst:112
-msgid ""
-"Try the `REST API <http://localhost:8080/52nSOS/api/v1/>`_ (see Listing "
-"2):"
-msgstr ""
-
-#: ../../../quickstart/52nSOS_quickstart.rst:159
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:182
 msgid "**Listing 2:** Output of REST API endpoint."
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:163
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:186
 msgid "What Next?"
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:165
-msgid ""
-"To learn more about 52°North SOS and/or the 52°North Sensor Web "
-"Community, potential starting points are:"
-msgstr ""
-
-#: ../../../quickstart/52nSOS_quickstart.rst:168
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:191
 msgid "52°North :doc:`SOS overview <../overview/52nSOS_overview>`,"
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:169
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:192
 msgid "52°North Sensor Web mailing list: swe@52north.org,"
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:170
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:193
 msgid ""
 "52°North `Sensor Web community forum "
 "<http://sensorweb.forum.52north.org/>`_,"
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:171
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:194
 msgid "52°North `SOS Client <http://sensorweb.demo.52north.org/SOSclient/>`_,"
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:172
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:195
 msgid ""
-"52°North `SOS Web site <http://52north.org/communities/sensorweb/sos/>`_,"
-" or"
+"52°North `SOS Web site <http://52north.org/communities/sensorweb/sos/>`_, or"
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:173
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:196
 msgid ""
 "The website of the `52°North Sensor Web Community "
 "<http://52north.org/communities/sensorweb/>`_."
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:176
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:199
 msgid ""
 "The development of this version of the 52°North SOS was supported by "
-"different projects, organizations, and persons. More details can be found"
-" in the `52°North SOS client <http://localhost:8080/52nSOS/index>`_."
+"different projects, organizations, and persons. More details can be found in"
+" the `52°North SOS client <http://localhost:8080/52nSOS/index>`_."
 msgstr ""
 
-#: ../../../quickstart/52nSOS_quickstart.rst:180
-msgid ""
-"When the SOS is not available, please check if the tomcat servlet engine "
-"is running using the following commands:"
-msgstr ""
-
-#: ../../../quickstart/52nSOS_quickstart.rst:192
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:215
 msgid "**Listing 3:** Tomcat Status and Start (password for sudo: user)."
 msgstr ""
 
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:18
+msgid ""
+"The 52°North SOS is a web service, that enables to provision of "
+"interoperable access to (spatial) observation data and associated metadata."
+msgstr ""
+
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:25
+msgid ""
+"Use the lightweight visualisation tool \"Helgoland\" delivered with the SOS "
+"to explore the available data."
+msgstr ""
+
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:0
+msgid "Contents"
+msgstr ""
+
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:60
+msgid ""
+"To get the available observation data within the time interval from "
+"2017-02-28T23:45:00.000+00:00 to 2017-03-01T23:45:00.000+00:00 for each time"
+" series, insert the following request after selecting service \"SOS\" --> "
+"version \"2.0.0\" --> binding \"SOAP\" --> operation \"GetObservation\" in "
+"the `test client's <http://localhost:8080/52nSOS/client>`_ in the field "
+"request:"
+msgstr ""
+
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:106
+msgid ""
+"Try Helgoland - the `Viewer Client "
+"<http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ (see Fiq. 3)."
+msgstr ""
+
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:107
+msgid "Try other sample data by performing the following steps:"
+msgstr ""
+
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:109
+msgid ""
+"Open the SOS administrator `database maintenance page "
+"<http://localhost:8080/52nSOS/admin/datasource>`_."
+msgstr ""
+
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:110
+msgid ""
+"Empty the database using the \"Clear Datasource\" button (this will delete "
+"the example data. You can restart OSGeoLive to get the data back.)."
+msgstr ""
+
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:112
+msgid ""
+"Insert dynamically generated sample data by clicking the \"Insert sample "
+"data\" button. Please be informed that this operation might take some "
+"minutes."
+msgstr ""
+
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:115
+msgid ""
+"Open `Helgoland "
+"<http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ again and "
+"explore the generated sample data."
+msgstr ""
+
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:125
+msgid ""
+"Try the `REST API <http://localhost:8080/52nSOS/api/>`_ (see Listing 2):"
+msgstr ""
+
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:188
+msgid ""
+"To learn more about the 52°North SOS and/or the 52°North Sensor Web "
+"Community, potential starting points are:"
+msgstr ""
+
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:203
+msgid ""
+"When the SOS is not available, please check if the tomcat servlet engine is "
+"running. Use the following commands:"
+msgstr ""
+
+#~ msgid ""
+#~ "The 52°North SOS is a web service, that allows to provide interoperable "
+#~ "access to (spatial) observation data and associated metadata."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use a lightweight visualisation tool delivered together with the SOS to "
+#~ "explore the available data."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To get for each time series the available observation data within the time "
+#~ "interval from 2017-02-28T23:45:00.000+00:00 to "
+#~ "2017-03-01T23:45:00.000+00:00, insert the following request after selecting "
+#~ "service \"SOS\" --> version \"2.0.0\" --> binding \"SOAP\" --> operation "
+#~ "\"GetObservation\" in the `test client "
+#~ "<http://localhost:8080/52nSOS/client>`_ in the field request:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Try the `View Client "
+#~ "<http://localhost:8080/52nSOS/static/client/jsClient/>`_ (see Fiq. 3)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Try the `REST API <http://localhost:8080/52nSOS/api/v1/>`_ (see Listing 2):"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To learn more about 52°North SOS and/or the 52°North Sensor Web Community, "
+#~ "potential starting points are:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When the SOS is not available, please check if the tomcat servlet engine is "
+#~ "running using the following commands:"
+#~ msgstr ""

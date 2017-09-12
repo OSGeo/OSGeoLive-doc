@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,19 +17,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../presentation.rst:5
+#: ../../build/doc/presentation.rst:5
 msgid "Presentation"
 msgstr ""
 
-#: ../../../presentation.rst:6
+#: ../../build/doc/presentation.rst:6
 msgid ""
 "A 30 minute presentation highlighting all OSGeo-Live applications is "
 "available with slides and script."
 msgstr ""
 
-#: ../../../presentation.rst:8
+#: ../../build/doc/presentation.rst:8
 msgid ""
 "Details at: https://github.com/OSGeo/OSGeoLive-"
 "doc/tree/master/en/presentation"
 msgstr ""
-

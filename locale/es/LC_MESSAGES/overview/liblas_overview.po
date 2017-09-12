@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,86 +17,84 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../overview/liblas_overview.rst:12
+#: ../../build/doc/overview/liblas_overview.rst:13
 msgid "libLAS"
 msgstr ""
 
-#: ../../../overview/liblas_overview.rst:15
+#: ../../build/doc/overview/liblas_overview.rst:16
 msgid "LiDAR Data Access"
 msgstr ""
 
-#: ../../../overview/liblas_overview.rst:17
+#: ../../build/doc/overview/liblas_overview.rst:18
 msgid ""
 "libLAS is a C/C++ library for reading and writing the very common `LAS` "
-"`LiDAR`_ format. The `ASPRS LAS format`_ is a sequential binary format "
-"used to store data from LiDAR sensors and by LiDAR processing software "
-"for data interchange and archival."
+"`LiDAR`_ format. The `ASPRS LAS format`_ is a sequential binary format used "
+"to store data from LiDAR sensors and by LiDAR processing software for data "
+"interchange and archival."
 msgstr ""
 
-#: ../../../overview/liblas_overview.rst:27
+#: ../../build/doc/overview/liblas_overview.rst:28
 msgid ""
 "LiDAR (Light Detection and Ranging) is a form of high precision range "
 "detection much like a radar system that uses laser light as the "
 "electromagnetic emission. One of LiDAR systems' products is a \"point "
 "cloud\" data product that can be conceptualized as a series of point "
-"measurements representing distance from the sensor to a returned "
-"emission.  A common storage format for these point cloud data is ASPRS "
-"LAS format."
+"measurements representing distance from the sensor to a returned emission.  "
+"A common storage format for these point cloud data is ASPRS LAS format."
 msgstr ""
 
-#: ../../../overview/liblas_overview.rst:34
+#: ../../build/doc/overview/liblas_overview.rst:35
 msgid "Core Features"
 msgstr ""
 
-#: ../../../overview/liblas_overview.rst:36
+#: ../../build/doc/overview/liblas_overview.rst:37
 msgid "C/C++/Python APIs for reading, writing, and manipulating LAS data"
 msgstr ""
 
-#: ../../../overview/liblas_overview.rst:37
-msgid "`Command line utilities`_ for manipulating LAS data based on `LAStools`_"
+#: ../../build/doc/overview/liblas_overview.rst:38
+msgid ""
+"`Command line utilities`_ for manipulating LAS data based on `LAStools`_"
 msgstr ""
 
-#: ../../../overview/liblas_overview.rst:38
+#: ../../build/doc/overview/liblas_overview.rst:39
 msgid "Coordinate reprojection via `GDAL <http://gdal.org>`__"
 msgstr ""
 
-#: ../../../overview/liblas_overview.rst:41
+#: ../../build/doc/overview/liblas_overview.rst:42
 msgid "Details"
 msgstr ""
 
-#: ../../../overview/liblas_overview.rst:43
+#: ../../build/doc/overview/liblas_overview.rst:44
 msgid "**Website:** http://liblas.org"
 msgstr ""
 
-#: ../../../overview/liblas_overview.rst:45
+#: ../../build/doc/overview/liblas_overview.rst:46
 msgid "**Licence:** BSD"
 msgstr ""
 
-#: ../../../overview/liblas_overview.rst:47
+#: ../../build/doc/overview/liblas_overview.rst:48
 msgid "**Software Version:** |version-liblas|"
 msgstr ""
 
-#: ../../../overview/liblas_overview.rst:49
+#: ../../build/doc/overview/liblas_overview.rst:50
 msgid ""
 "**Supported Platforms:** Cross Platform C++ -- Mac OS X, Windows (via "
 "`OSGeo4W`_), and Linux"
 msgstr ""
 
-#: ../../../overview/liblas_overview.rst:51
+#: ../../build/doc/overview/liblas_overview.rst:52
 msgid "**API Interfaces:** C, C++, Python"
 msgstr ""
 
-#: ../../../overview/liblas_overview.rst:53
+#: ../../build/doc/overview/liblas_overview.rst:54
 msgid ""
-"**Support:** `Communication and Support "
-"<http://liblas.org/community.html>`_"
+"**Support:** `Communication and Support <http://liblas.org/community.html>`_"
 msgstr ""
 
-#: ../../../overview/liblas_overview.rst:56
+#: ../../build/doc/overview/liblas_overview.rst:57
 msgid "Quickstart"
 msgstr ""
 
-#: ../../../overview/liblas_overview.rst:58
+#: ../../build/doc/overview/liblas_overview.rst:59
 msgid ":doc:`Quickstart documentation <../quickstart/liblas_quickstart>`"
 msgstr ""
-

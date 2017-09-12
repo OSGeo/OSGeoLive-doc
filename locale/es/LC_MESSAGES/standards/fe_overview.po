@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../standards/fe_overview.rst:30
+#: ../../build/doc/standards/fe_overview.rst:30
 msgid "Filter Encoding (FE)"
 msgstr ""
 
-#: ../../../standards/fe_overview.rst:35
+#: ../../build/doc/standards/fe_overview.rst:35
 msgid ""
 "The OGC® Filter Encoding Standard (FE) defines an XML encoding for "
 "expressing filters for spatial queries in order to select a subset of "
@@ -29,46 +29,44 @@ msgid ""
 "(http://www.opengeospatial.org/standards/filter)"
 msgstr ""
 
-#: ../../../standards/fe_overview.rst:42
+#: ../../build/doc/standards/fe_overview.rst:42
 msgid ""
 "A subset of features might be identified to render them in a particular "
-"color or convert them into a user-specified format. The neutral XML "
-"filter encoding allows easy parsing and validation by a server "
-"implementing the OGC WFS standard before the filter expression is "
-"transformed into the targeted language of the data store that is being "
-"queried. This standard is used by a number of OGC Web Services, including"
-" the Web Feature Service, the Catalogue Service and the Styled Layer "
-"Descriptor Standard."
+"color or convert them into a user-specified format. The neutral XML filter "
+"encoding allows easy parsing and validation by a server implementing the OGC"
+" WFS standard before the filter expression is transformed into the targeted "
+"language of the data store that is being queried. This standard is used by a"
+" number of OGC Web Services, including the Web Feature Service, the "
+"Catalogue Service and the Styled Layer Descriptor Standard."
 msgstr ""
 
-#: ../../../standards/fe_overview.rst:44
+#: ../../build/doc/standards/fe_overview.rst:44
 msgid ""
 "Filter constraints can be specified on values of spatial, temporal and "
 "scalar properties. An example of a spatial filter is: “Find all the "
 "properties in Omstead County owned by Peter Vretanos.” An example of a "
 "temporal filter is: “Find all the dams in Massachusetts that were built "
-"before 1900.” An example of a scalar filter is: “Find all the temperature"
-" sensors in Paris that are reporting temperature between 20 degrees C. "
-"and 24 degrees C.”"
+"before 1900.” An example of a scalar filter is: “Find all the temperature "
+"sensors in Paris that are reporting temperature between 20 degrees C. and 24"
+" degrees C.”"
 msgstr ""
 
-#: ../../../standards/fe_overview.rst:47
+#: ../../build/doc/standards/fe_overview.rst:47
 msgid "See Also"
 msgstr ""
 
-#: ../../../standards/fe_overview.rst:52
+#: ../../build/doc/standards/fe_overview.rst:52
 msgid ":doc:`sld_overview`"
 msgstr ""
 
-#: ../../../standards/fe_overview.rst:53
+#: ../../build/doc/standards/fe_overview.rst:53
 msgid ":doc:`csw_overview`"
 msgstr ""
 
-#: ../../../standards/fe_overview.rst:54
+#: ../../build/doc/standards/fe_overview.rst:54
 msgid ":doc:`wfs_overview`"
 msgstr ""
 
-#: ../../../standards/fe_overview.rst:55
+#: ../../build/doc/standards/fe_overview.rst:55
 msgid ":doc:`wms_overview`"
 msgstr ""
-

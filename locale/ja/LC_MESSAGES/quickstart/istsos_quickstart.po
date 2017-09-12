@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,219 +17,470 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../quickstart/istsos_quickstart.rst:13
+#: ../../build/doc/quickstart/istsos_quickstart.rst:19
 msgid "istSOS Quickstart"
 msgstr ""
 
-#: ../../../quickstart/istsos_quickstart.rst:15
-msgid ""
-"istSOS is sensor data management tool that allows collection, maintenance"
-" and publishing of monitoring observations using the Open Geospatial "
-"Consortium (OGC) :doc:`Sensor Observation Service (SOS) "
-"<../standards/sos_overview>` standard."
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:17
-msgid "This QuickStart describes how to:"
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:19
-msgid "Add new observations using a python script and the RestFul API."
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:20
-msgid "View and edit data with the administration interface."
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:23
+#: ../../build/doc/quickstart/istsos_quickstart.rst:183
 msgid "Add new observations"
 msgstr ""
 
-#: ../../../quickstart/istsos_quickstart.rst:25
+#: ../../build/doc/quickstart/istsos_quickstart.rst:185
 msgid ""
-"First we will create a text file with sensor data, formatted according to"
-" \"text/csv, subtype=istSOS\". The file uses a Comma Separated Values "
-"(CSV) format. The first line contains header information, including URI "
-"names of the observed properties. The following lines contain the data."
+"First we will create a text file with sensor data, formatted according to "
+"\"text/csv, subtype=istSOS\". The file uses a Comma Separated Values (CSV) "
+"format. The first line contains header information, including URI names of "
+"the observed properties. The following lines contain the data."
 msgstr ""
 
-#: ../../../quickstart/istsos_quickstart.rst:27
-msgid "Open a text editor by selecting :menuselection:`Accessories --> Leafpad`."
+#: ../../build/doc/quickstart/istsos_quickstart.rst:187
+msgid ""
+"Open a text editor by selecting :menuselection:`Accessories --> Leafpad`."
 msgstr ""
 
-#: ../../../quickstart/istsos_quickstart.rst:29
+#: ../../build/doc/quickstart/istsos_quickstart.rst:189
 msgid "Copy and paste the follwing text into the text editor window:"
 msgstr ""
 
-#: ../../../quickstart/istsos_quickstart.rst:46
+#: ../../build/doc/quickstart/istsos_quickstart.rst:206
 msgid ""
 "Save the file as \"T_LUGANO_20140603161000000.dat\" on the Desktop. The "
 "filename convention being used is: PROCEDURENAME_YYYYMMDDhhmmssfff.dat"
 msgstr ""
 
-#: ../../../quickstart/istsos_quickstart.rst:48
-msgid "Open a terminal by selecting :menuselection:`Accessories --> LXTerminal`."
+#: ../../build/doc/quickstart/istsos_quickstart.rst:208
+msgid ""
+"Open a terminal by selecting :menuselection:`Accessories --> LXTerminal`."
 msgstr ""
 
-#: ../../../quickstart/istsos_quickstart.rst:50
+#: ../../build/doc/quickstart/istsos_quickstart.rst:210
 msgid "In the terminal, enter: \"cd /usr/share/istsos/\" and press ENTER"
 msgstr ""
 
-#: ../../../quickstart/istsos_quickstart.rst:52
+#: ../../build/doc/quickstart/istsos_quickstart.rst:212
 msgid ""
-"Write \"python scripts/csv2istsos.py -p T_LUGANO -u "
-"http://localhost/istsos -s demo -w ~/Desktop\" and press ENTER"
+"Write \"python scripts/csv2istsos.py -p T_LUGANO -u http://localhost/istsos "
+"-s demo -w ~/Desktop\" and press ENTER"
 msgstr ""
 
-#: ../../../quickstart/istsos_quickstart.rst:54
+#: ../../build/doc/quickstart/istsos_quickstart.rst:214
 msgid "You should see a message \"Insert observation success: True\""
 msgstr ""
 
-#: ../../../quickstart/istsos_quickstart.rst:56
-#: ../../../quickstart/istsos_quickstart.rst:78
+#: ../../build/doc/quickstart/istsos_quickstart.rst:216
 msgid "Click :menuselection:`Geospatial --> Webservices --> istSOS`."
 msgstr ""
 
-#: ../../../quickstart/istsos_quickstart.rst:58
+#: ../../build/doc/quickstart/istsos_quickstart.rst:218
 msgid "Click the ENTER button in the administration page"
 msgstr ""
 
-#: ../../../quickstart/istsos_quickstart.rst:60
-#: ../../../quickstart/istsos_quickstart.rst:80
+#: ../../build/doc/quickstart/istsos_quickstart.rst:220
 msgid "Click :menuselection:`Data Management --> Data Viewer`."
 msgstr ""
 
-#: ../../../quickstart/istsos_quickstart.rst:65
+#: ../../build/doc/quickstart/istsos_quickstart.rst:225
 msgid "Select the following:"
 msgstr ""
 
-#: ../../../quickstart/istsos_quickstart.rst:63
+#: ../../build/doc/quickstart/istsos_quickstart.rst:223
 msgid "Service = demo"
 msgstr ""
 
-#: ../../../quickstart/istsos_quickstart.rst:64
+#: ../../build/doc/quickstart/istsos_quickstart.rst:224
 msgid "Offering = temporary"
 msgstr ""
 
-#: ../../../quickstart/istsos_quickstart.rst:65
+#: ../../build/doc/quickstart/istsos_quickstart.rst:225
 msgid "Procedure T_LUGANO"
 msgstr ""
 
-#: ../../../quickstart/istsos_quickstart.rst:67
-msgid "Click the Add button"
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:69
-msgid ""
-"Click the Plot button and check that the data have been added (watch out "
-"at your time zone!)"
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:76
-msgid "Edit data with the CALCULATOR"
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:82
-msgid "Select the following: Service = demo, Offering = temporary"
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:84
-msgid ""
-"Select and add the following procedures: BELLINZONA​, LOCARNO​ and "
-"​T_LUGANO"
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:86
-msgid "On the right panel choose the Property: ​air­temperature"
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:88
-msgid "Press “​Plot​”, the last week of measurements is loaded and displayed"
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:90
-msgid "On the left panel select the “​Editor​” tab"
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:92
-msgid "Select ​T_LUGANO​ from the combo list"
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:94
-msgid "press “​Start editing​”, the grid is now displayed"
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:96
-msgid ""
-"At the bottom­right corner of the chart there are 3 buttons “Day”, “Week”"
-" and “All”:"
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:98
-msgid "Click on “​Day​”, the chart is zoomed to contain only one day of data"
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:99
-msgid ""
-"Drag the timeline bar on the right where you will see that T_LUGANO has "
-"no data"
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:101
-msgid ""
-"Click on the chart to select the last observation before the “​nodata​” "
-"hole, a green line is displayed and in the ​Editing Grid​ the "
-"corresponding row is selected."
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:103
-msgid "Now go to the ​\"Editing Grid​\" panel"
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:105
-msgid "Click the first row where data are ​NaN​,"
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:106
-msgid "Scroll to the last ​NaN​ record and holding the ​SHIFT​ Key click on it"
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:107
-msgid "The press the “​Calculator​” button"
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:109
-msgid ""
-"WIth the ​Calculator​ we are able to correct an interval of data in a "
-"single action. It is possible to set a numeric value or also use a "
-"function using data from the other loaded procedures. Let’s build a "
-"function that make the average of the data from BELLINZONA and LOCARNO "
-"and then removes two degrees:"
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:116
-msgid ""
-"Copy the formula in the calculator and select the quality index as QI 500"
-" (manually adjusted)."
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:118
-msgid ""
-"Press the enter button and check your new data with gap filled (Press "
-"Save if yyou want to permanently save the updates in the database!)"
-msgstr ""
-
-#: ../../../quickstart/istsos_quickstart.rst:125
+#: ../../build/doc/quickstart/istsos_quickstart.rst:283
 msgid "What Next?"
 msgstr ""
 
-#: ../../../quickstart/istsos_quickstart.rst:128
+#: ../../build/doc/quickstart/istsos_quickstart.rst:286
 msgid ""
-"To learn more about istSOS, a starting point is the `istSOS "
-"Documentation`_"
+"To learn more about istSOS, a starting point is the `istSOS Documentation`_"
 msgstr ""
 
-#: ../../../quickstart/istsos_quickstart.rst:128
+#: ../../build/doc/quickstart/istsos_quickstart.rst:286
 msgid "and the `istSOS Tutorial`_."
 msgstr ""
 
+#: ../../build/doc/quickstart/istsos_quickstart.rst:21
+msgid ""
+"istSOS is an OGC `SOS <http://www.opengeospatial.org/standards/sos>`_ server"
+" implementation written in `Python <https://www.python.org/>`_. istSOS "
+"allows for managing and dispatch observations from monitoring sensors "
+"according to the Sensor Observation Service standard."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:24
+msgid ""
+"The project provides also a Graphical user Interface that allows for easing "
+"the daily operations and a RESTFull Web api for automatizing administration "
+"procedures."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:26
+msgid ""
+"istSOS is released under the GPLv2 licence, and runs on all major platforms "
+"(Windows, Linux, Mac OS X), even though it has been used in production in "
+"linux environment only."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:31
+msgid "Create postgis database"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:33
+msgid "Open a terminal and execute the following commands:"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:42
+msgid "Setting up an istSOS service instance"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:44
+msgid ""
+"With istSOS you can organize your sensor data in different instances. Every "
+"instance has its own database schema independent from other instances. You "
+"can even deploy other databases over your network according to your needs."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:48
+msgid ""
+"The first steps into istSOS setup is to configure the default configuration "
+"options. These options will then be automatically used for your convenience "
+"by every new istSOS instance created."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:50
+msgid "**1) Open the Web Admin interface**"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:52
+msgid "Open a browser and go to `<http://localhost/istsos/admin>`_"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:54
+msgid "**2) Configure your database connection**"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:56
+msgid ""
+"From the toolbar buttons menu press the \"Database\" button and fill in the "
+"database configuration options:"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:66
+msgid "**3) Configure the default Service provider information**"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:69
+msgid ""
+"Press the \"Service provider\" button and fill it using your institutional "
+"information."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:72
+msgid "**4) Configure the default Service identification information**"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:75
+msgid ""
+"Press the \"Service identification\" button and fill up with custom metadata"
+" that describe the service usage."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:77
+msgid "**5) Configure your service coordinates system**"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:79
+msgid ""
+"Press the \"Coordinates system\" button to manage the Coordiante Reference "
+"System (CRS)."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:81
+msgid ""
+"*Default EPSG code*: this will be the native Coordinate Reference Systems of"
+" your geometries in the database."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:83
+msgid ""
+"*Permitted EPSG*: here you can configure which other Coordinate Reference "
+"Systems your system will support and reproject if requested."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:85
+msgid "**6) Configure your getobservation request options**"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:87
+msgid ""
+"From the toolbar buttons menu press the \"GetObservation Configuration\" "
+"button to set maximum time interval per getObservation requests (zero for no"
+" limits) and aggregation no-data value."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:90
+msgid "**7) Configure your service proxy address**"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:93
+msgid "The Proxy URL field is the base URL seen beyond a reverse proxy."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:97
+msgid "Create a new service"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:100
+msgid ""
+"Now that you have configured istSOS, it's time to create a new service "
+"instance."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:102
+msgid "**1) Create a new service**"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:105
+msgid "From the toolbar buttons menu press the \"new service\" button:"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:108
+msgid ""
+"Choose the name of your instance. In this workshop use the name **demo**."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:111
+msgid ""
+"In the EPSG field you can set the database native projection. Leaving it "
+"empty, the default one will be used."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:114
+msgid ""
+"Clicking on the \"Customize database\" box, you are able to change the "
+"default database configuration for this new istSOS instance."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:118
+msgid "**2) Press “next”**"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:120
+msgid ""
+"As you pressed the “next” button, the server status panel is displayed. If "
+"something's gone wrong during the creation you will see here an alert."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:125
+msgid ""
+"The istSOS “demo” instance has inherited all the configuration options from "
+"the default configuration. If, for any reason you decide to modify them, the"
+" changes will affect only this instance."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:129
+msgid "Add a new procedure"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:131
+msgid ""
+"From the “services” drop down button of the admin interface "
+"(http://localhost/istsos/admin ) choose the desired instance."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:133
+msgid "From the toolbar buttons menu press the \"New procedure\" button."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:136
+msgid "Fill in the form using appropriate information."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:139
+msgid ""
+"Once a procedure is created the outputs (observed properties) cannot be "
+"changed."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:142
+msgid "*Optional parameters:* Fill at your own need and willing"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:147
+msgid "*Example* (minimal configuration)"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:149
+msgid "Name: T_LUGANO"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:151
+msgid "Description: temperature weather station in Lugano"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:153
+msgid "Keywords: weather, meteorological, IST"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:155
+msgid "System type: insitu-fixed-point"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:157
+msgid "Sensor type: PTC thermistors of the \"switching\" type"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:159
+msgid "FOI name: LUGANO"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:161
+msgid "EPSG: 4326"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:163
+msgid "Coordinates: x: 8.96127 y: 46.02723 z: 344.1"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:166
+msgid "*Outputs (confirm the outputs pressing the \"add\" button):*"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:169
+msgid ""
+"Observed property: urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:171
+msgid "Unit of measure: °C"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:173
+msgid "Description (optional): conversion from resistance to temperature"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:175
+msgid "quality index check (optional): Between / from -40 to +60"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:179
+msgid "Register the new sensor (procedure) pressing the \"submit\" button."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:227
+msgid "Click the \"Add\" button"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:229
+msgid ""
+"Click the \"Plot\" button and check that the data have been added (watch out"
+" at your time zone!)"
+msgstr ""
+
+#~ msgid ""
+#~ "istSOS is sensor data management tool that allows collection, maintenance "
+#~ "and publishing of monitoring observations using the Open Geospatial "
+#~ "Consortium (OGC) :doc:`Sensor Observation Service (SOS) "
+#~ "<../standards/sos_overview>` standard."
+#~ msgstr ""
+
+#~ msgid "This QuickStart describes how to:"
+#~ msgstr ""
+
+#~ msgid "Add new observations using a python script and the RestFul API."
+#~ msgstr ""
+
+#~ msgid "View and edit data with the administration interface."
+#~ msgstr ""
+
+#~ msgid "Click the Add button"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click the Plot button and check that the data have been added (watch out at "
+#~ "your time zone!)"
+#~ msgstr ""
+
+#~ msgid "Edit data with the CALCULATOR"
+#~ msgstr ""
+
+#~ msgid "Select the following: Service = demo, Offering = temporary"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select and add the following procedures: BELLINZONA​, LOCARNO​ and ​T_LUGANO"
+#~ msgstr ""
+
+#~ msgid "On the right panel choose the Property: ​air­temperature"
+#~ msgstr ""
+
+#~ msgid "Press “​Plot​”, the last week of measurements is loaded and displayed"
+#~ msgstr ""
+
+#~ msgid "On the left panel select the “​Editor​” tab"
+#~ msgstr ""
+
+#~ msgid "Select ​T_LUGANO​ from the combo list"
+#~ msgstr ""
+
+#~ msgid "press “​Start editing​”, the grid is now displayed"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "At the bottom­right corner of the chart there are 3 buttons “Day”, “Week” "
+#~ "and “All”:"
+#~ msgstr ""
+
+#~ msgid "Click on “​Day​”, the chart is zoomed to contain only one day of data"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Drag the timeline bar on the right where you will see that T_LUGANO has no "
+#~ "data"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click on the chart to select the last observation before the “​nodata​” "
+#~ "hole, a green line is displayed and in the ​Editing Grid​ the corresponding "
+#~ "row is selected."
+#~ msgstr ""
+
+#~ msgid "Now go to the ​\"Editing Grid​\" panel"
+#~ msgstr ""
+
+#~ msgid "Click the first row where data are ​NaN​,"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Scroll to the last ​NaN​ record and holding the ​SHIFT​ Key click on it"
+#~ msgstr ""
+
+#~ msgid "The press the “​Calculator​” button"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "WIth the ​Calculator​ we are able to correct an interval of data in a single"
+#~ " action. It is possible to set a numeric value or also use a function using "
+#~ "data from the other loaded procedures. Let’s build a function that make the "
+#~ "average of the data from BELLINZONA and LOCARNO and then removes two "
+#~ "degrees:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Copy the formula in the calculator and select the quality index as QI 500 "
+#~ "(manually adjusted)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Press the enter button and check your new data with gap filled (Press Save "
+#~ "if yyou want to permanently save the updates in the database!)"
+#~ msgstr ""

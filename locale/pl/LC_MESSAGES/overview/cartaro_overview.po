@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,158 +17,156 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../overview/cartaro_overview.rst:13
+#: ../../build/doc/overview/cartaro_overview.rst:13
 msgid "Cartaro"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:16
+#: ../../build/doc/overview/cartaro_overview.rst:16
 msgid "Geospatial CMS"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:17
+#: ../../build/doc/overview/cartaro_overview.rst:17
 msgid ""
-"Cartaro provides geospatial functionality and web services within the "
-"Drupal Content Management System (CMS). With just a few clicks within "
-"Cartaro, you can set-up and run OGC standards based web services, as well"
-" as build maps into web pages. Cartaro builds upon robust Open Source "
-"components: the :doc:`PostGIS <../overview/postgis_overview>` database, "
-":doc:`GeoServer <../overview/geoserver_overview>` and GeoWebCache web "
-"services, :doc:`OpenLayers <../overview/openlayers_overview>` maps in the"
-" browser, all managed from within the powerful `Drupal "
-"<http://drupal.org>`_ CMS."
+"Cartaro provides geospatial functionality and web services within the Drupal"
+" Content Management System (CMS). With just a few clicks within Cartaro, you"
+" can set-up and run OGC standards based web services, as well as build maps "
+"into web pages. Cartaro builds upon robust Open Source components: the "
+":doc:`PostGIS <../overview/postgis_overview>` database, :doc:`GeoServer "
+"<../overview/geoserver_overview>` and GeoWebCache web services, "
+":doc:`OpenLayers <../overview/openlayers_overview>` maps in the browser, all"
+" managed from within the powerful `Drupal <http://drupal.org>`_ CMS."
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:19
+#: ../../build/doc/overview/cartaro_overview.rst:19
 msgid ""
-"Cartaro is designed for CMS websites needing to handle geospatial data, "
-"and for organisations wanting a light-weight Spatial Data Infrastructure "
-"(SDI) with minimal configuration and programming."
+"Cartaro is designed for CMS websites needing to handle geospatial data, and "
+"for organisations wanting a light-weight Spatial Data Infrastructure (SDI) "
+"with minimal configuration and programming."
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:27
+#: ../../build/doc/overview/cartaro_overview.rst:27
 msgid "Core Features"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:29
+#: ../../build/doc/overview/cartaro_overview.rst:29
 msgid ""
 "Most SDI functionality comes right out of the box through the close "
 "integration of Drupal with PostGIS and GeoServer. The main features of "
 "Cartaro are:"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:31
+#: ../../build/doc/overview/cartaro_overview.rst:31
 msgid "Spatial data storage with true geometry data types"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:32
+#: ../../build/doc/overview/cartaro_overview.rst:32
 msgid "Creation of data types from within the Drupal GUI"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:33
+#: ../../build/doc/overview/cartaro_overview.rst:33
 msgid "Integrated online editing of geospatial data"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:34
+#: ../../build/doc/overview/cartaro_overview.rst:34
 msgid "Data publishing with integrated maps"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:35
+#: ../../build/doc/overview/cartaro_overview.rst:35
 msgid "Configuration of map layouts and behaviors"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:36
+#: ../../build/doc/overview/cartaro_overview.rst:36
 msgid "Symbol styling"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:37
+#: ../../build/doc/overview/cartaro_overview.rst:37
 msgid ""
-"Data publishing through OGC standards-compliant web services (OWS) like "
-"WMS and WFS"
+"Data publishing through OGC standards-compliant web services (OWS) like WMS "
+"and WFS"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:38
+#: ../../build/doc/overview/cartaro_overview.rst:38
 msgid "High performance map output through GeoWebCache"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:39
+#: ../../build/doc/overview/cartaro_overview.rst:39
 msgid "Transparent privilege handling and security for all spatial data"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:40
+#: ../../build/doc/overview/cartaro_overview.rst:40
 msgid "Content publication workflow and revision moderation"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:41
+#: ../../build/doc/overview/cartaro_overview.rst:41
 msgid "Basic metadata collection through access to GeoServer-GUI"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:42
+#: ../../build/doc/overview/cartaro_overview.rst:42
 msgid ""
 "Full extensibility through thousands of Drupal modules or individual "
 "programming"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:45
+#: ../../build/doc/overview/cartaro_overview.rst:45
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:47
+#: ../../build/doc/overview/cartaro_overview.rst:47
 msgid ":doc:`../standards/wms_overview`"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:48
+#: ../../build/doc/overview/cartaro_overview.rst:48
 msgid ":doc:`../standards/wfs_overview`"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:49
+#: ../../build/doc/overview/cartaro_overview.rst:49
 msgid ":doc:`../standards/wcs_overview`"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:50
+#: ../../build/doc/overview/cartaro_overview.rst:50
 msgid ":doc:`../standards/fe_overview`"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:51
+#: ../../build/doc/overview/cartaro_overview.rst:51
 msgid ":doc:`../standards/sld_overview`"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:52
+#: ../../build/doc/overview/cartaro_overview.rst:52
 msgid ":doc:`../standards/gml_overview`"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:55
+#: ../../build/doc/overview/cartaro_overview.rst:55
 msgid "Details"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:57
+#: ../../build/doc/overview/cartaro_overview.rst:57
 msgid "**Website:** http://cartaro.org/"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:59
+#: ../../build/doc/overview/cartaro_overview.rst:59
 msgid "**Licence:** GNU General Public License (GPL) version 2"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:61
+#: ../../build/doc/overview/cartaro_overview.rst:61
 msgid "**Software Version:** |version-cartaro|"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:63
+#: ../../build/doc/overview/cartaro_overview.rst:63
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:65
+#: ../../build/doc/overview/cartaro_overview.rst:65
 msgid "**API Interfaces:** JavaScript, PHP"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:67
+#: ../../build/doc/overview/cartaro_overview.rst:67
 msgid "**Support:** http://www.geops.de"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:70
+#: ../../build/doc/overview/cartaro_overview.rst:70
 msgid "Quickstart"
 msgstr ""
 
-#: ../../../overview/cartaro_overview.rst:72
+#: ../../build/doc/overview/cartaro_overview.rst:72
 msgid ":doc:`Quickstart documentation <../quickstart/cartaro_quickstart>`"
 msgstr ""
-

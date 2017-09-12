@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,76 +17,75 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../overview/gmt_overview.rst:14
+#: ../../build/doc/overview/gmt_overview.rst:14
 msgid "GMT"
 msgstr ""
 
-#: ../../../overview/gmt_overview.rst:17
+#: ../../build/doc/overview/gmt_overview.rst:17
 msgid "The Generic Mapping Tools"
 msgstr ""
 
-#: ../../../overview/gmt_overview.rst:19
+#: ../../build/doc/overview/gmt_overview.rst:19
 msgid ""
 "GMT is a collection of tools that allow users to manipulate (x,y) and "
-"(x,y,z) data sets (including filtering, trend fitting, gridding, "
-"projecting, etc.) and produce Encapsulated PostScript File (EPS) "
-"illustrations ranging from simple x-y plots through contour maps to "
-"artificially illuminated surfaces and 3-D perspective views in black and "
-"white, gray tone, hachure patterns, and 24-bit color."
+"(x,y,z) data sets (including filtering, trend fitting, gridding, projecting,"
+" etc.) and produce Encapsulated PostScript File (EPS) illustrations ranging "
+"from simple x-y plots through contour maps to artificially illuminated "
+"surfaces and 3-D perspective views in black and white, gray tone, hachure "
+"patterns, and 24-bit color."
 msgstr ""
 
-#: ../../../overview/gmt_overview.rst:26
+#: ../../build/doc/overview/gmt_overview.rst:26
 msgid ""
 "GMT supports many common map projections plus linear, log, and power "
 "scaling, and comes with support data such as coastlines, rivers, and "
 "political boundaries."
 msgstr ""
 
-#: ../../../overview/gmt_overview.rst:37
+#: ../../build/doc/overview/gmt_overview.rst:37
 msgid "Core Features"
 msgstr ""
 
-#: ../../../overview/gmt_overview.rst:39
+#: ../../build/doc/overview/gmt_overview.rst:39
 msgid "Journal quality cartography."
 msgstr ""
 
-#: ../../../overview/gmt_overview.rst:40
+#: ../../build/doc/overview/gmt_overview.rst:40
 msgid "Gridding and contouring functions."
 msgstr ""
 
-#: ../../../overview/gmt_overview.rst:43
+#: ../../build/doc/overview/gmt_overview.rst:43
 msgid "Details"
 msgstr ""
 
-#: ../../../overview/gmt_overview.rst:45
+#: ../../build/doc/overview/gmt_overview.rst:45
 msgid "**Website:** https://gmt.soest.hawaii.edu"
 msgstr ""
 
-#: ../../../overview/gmt_overview.rst:47
+#: ../../build/doc/overview/gmt_overview.rst:47
 msgid "**Licence:** GNU General Public License (GPL) version 2"
 msgstr ""
 
-#: ../../../overview/gmt_overview.rst:49
+#: ../../build/doc/overview/gmt_overview.rst:49
 msgid "**Software Version:** |version-gmt|"
 msgstr ""
 
-#: ../../../overview/gmt_overview.rst:51
+#: ../../build/doc/overview/gmt_overview.rst:51
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
 msgstr ""
 
-#: ../../../overview/gmt_overview.rst:53
+#: ../../build/doc/overview/gmt_overview.rst:53
 msgid "**API Interfaces:** Command line"
 msgstr ""
 
-#: ../../../overview/gmt_overview.rst:55
+#: ../../build/doc/overview/gmt_overview.rst:55
 msgid "**Support:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
 msgstr ""
 
-#: ../../../overview/gmt_overview.rst:59
+#: ../../build/doc/overview/gmt_overview.rst:59
 msgid "Quickstart"
 msgstr ""
 
-#: ../../../overview/gmt_overview.rst:61
+#: ../../build/doc/overview/gmt_overview.rst:61
 msgid ":doc:`Quickstart documentation <../quickstart/gmt_quickstart>`"
 msgstr ""
-

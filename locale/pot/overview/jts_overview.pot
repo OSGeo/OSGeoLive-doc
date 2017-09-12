@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-03 08:36-0500\n"
+"POT-Creation-Date: 2017-09-12 09:55-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,7 +105,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/jts_overview.rst:59
-msgid "**Website:** https://sourceforge.net/projects/jts-topo-suite/"
+msgid "**Website:** ttps://www.locationtech.org/projects/technology.jts"
 msgstr ""
 
 #: ../../build/doc/overview/jts_overview.rst:61

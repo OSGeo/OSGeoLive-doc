@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,181 +17,181 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../overview/tilemill_overview.rst:13
+#: ../../build/doc/overview/tilemill_overview.rst:13
 msgid "TileMill"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:17
+#: ../../build/doc/overview/tilemill_overview.rst:17
 msgid "Design studio for Web Maps"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:19
+#: ../../build/doc/overview/tilemill_overview.rst:19
 msgid ""
-"TileMill is a design studio for creating beautiful, web based, "
-"interactive maps from a wide range of existing spatial data sources."
+"TileMill is a design studio for creating beautiful, web based, interactive "
+"maps from a wide range of existing spatial data sources."
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:24
+#: ../../build/doc/overview/tilemill_overview.rst:24
 msgid ""
 "Generated webmaps can use hover tooltips, clickable pop ups, interactive "
 "graphs and images, SVG markers, rich textures, and multiple layers.  "
-"Customized maps can be exported to different formats like: .png, .pdf, "
-".svg and MBTiles. The MBTiles spec defines how to store tiles as a single"
-" file, as a SQLite database."
+"Customized maps can be exported to different formats like: .png, .pdf, .svg "
+"and MBTiles. The MBTiles spec defines how to store tiles as a single file, "
+"as a SQLite database."
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:26
+#: ../../build/doc/overview/tilemill_overview.rst:26
 msgid ""
-"Data can be sourced from vector data (CSV, shapefile, KML, GeoJSON), "
-"raster (GeoTiff), as well as large data sources like OpenStreetMap, "
+"Data can be sourced from vector data (CSV, shapefile, KML, GeoJSON), raster "
+"(GeoTiff), as well as large data sources like OpenStreetMap, "
 "PostgreSQL/PostGIS and SQLite."
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:28
+#: ../../build/doc/overview/tilemill_overview.rst:28
 msgid ""
 "Tilemill makes use of the :doc:`Mapnik <mapnik_overview>` map rendering "
 "library (as used by OpenStreeMap) and uses the CartoCSS as a stylesheet "
 "language."
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:30
+#: ../../build/doc/overview/tilemill_overview.rst:30
 msgid ""
-"TileMill is typically used in conjunction with a desktop GIS (like QGIS) "
-"for preparing data, and a graphics editor (like GIMP) for creating icons,"
-" patterns and textures."
+"TileMill is typically used in conjunction with a desktop GIS (like QGIS) for"
+" preparing data, and a graphics editor (like GIMP) for creating icons, "
+"patterns and textures."
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:38
+#: ../../build/doc/overview/tilemill_overview.rst:38
 msgid "Core Features"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:40
+#: ../../build/doc/overview/tilemill_overview.rst:40
 msgid "Load data from a wide range of sources"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:42
+#: ../../build/doc/overview/tilemill_overview.rst:42
 msgid "ESRI Shapefile"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:43
+#: ../../build/doc/overview/tilemill_overview.rst:43
 msgid "KML"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:44
+#: ../../build/doc/overview/tilemill_overview.rst:44
 msgid "GeoJSON"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:45
+#: ../../build/doc/overview/tilemill_overview.rst:45
 msgid "GeoTiff"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:46
+#: ../../build/doc/overview/tilemill_overview.rst:46
 msgid "CSV spreadsheet"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:47
+#: ../../build/doc/overview/tilemill_overview.rst:47
 msgid "OpenStreetMap"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:49
+#: ../../build/doc/overview/tilemill_overview.rst:49
 msgid "Connecting to Geospatial databases"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:51
+#: ../../build/doc/overview/tilemill_overview.rst:51
 msgid "PostgreSQL + PostGIS"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:52
+#: ../../build/doc/overview/tilemill_overview.rst:52
 msgid "SQLite"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:54
+#: ../../build/doc/overview/tilemill_overview.rst:54
 msgid "Manage custom layers"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:56
+#: ../../build/doc/overview/tilemill_overview.rst:56
 msgid "Data Styling"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:58
+#: ../../build/doc/overview/tilemill_overview.rst:58
 msgid "Style using presets or custom colors"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:59
+#: ../../build/doc/overview/tilemill_overview.rst:59
 msgid "Conditional styles"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:61
+#: ../../build/doc/overview/tilemill_overview.rst:61
 msgid "Add tooltips and legends"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:63
+#: ../../build/doc/overview/tilemill_overview.rst:63
 msgid "Publish"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:65
+#: ../../build/doc/overview/tilemill_overview.rst:65
 msgid "Image Files: .png, .pdf, .svg, MBTiles."
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:66
+#: ../../build/doc/overview/tilemill_overview.rst:66
 msgid "Publish as webpage"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:67
-msgid "Embed map in a webpage or Content Management System (WordPress, Drupal)"
+#: ../../build/doc/overview/tilemill_overview.rst:67
+msgid ""
+"Embed map in a webpage or Content Management System (WordPress, Drupal)"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:69
+#: ../../build/doc/overview/tilemill_overview.rst:69
 msgid "JavaScript API"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:72
+#: ../../build/doc/overview/tilemill_overview.rst:72
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:74
+#: ../../build/doc/overview/tilemill_overview.rst:74
 msgid "TileMill does not support OGC standards, like WMS or WFS."
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:76
+#: ../../build/doc/overview/tilemill_overview.rst:76
 msgid ""
-"Rather it adheres to the widespread practices of z/x/y tile schemes used "
-"by Google and OSM and is based on the MBTiles and UTFGrid specifications."
+"Rather it adheres to the widespread practices of z/x/y tile schemes used by "
+"Google and OSM and is based on the MBTiles and UTFGrid specifications."
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:79
+#: ../../build/doc/overview/tilemill_overview.rst:79
 msgid "Details"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:81
+#: ../../build/doc/overview/tilemill_overview.rst:81
 msgid "**Website:** http://tilemill.com"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:83
+#: ../../build/doc/overview/tilemill_overview.rst:83
 msgid "**Licence:** BSD"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:85
+#: ../../build/doc/overview/tilemill_overview.rst:85
 msgid "**Software Version:** 0.10.2"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:87
+#: ../../build/doc/overview/tilemill_overview.rst:87
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:89
+#: ../../build/doc/overview/tilemill_overview.rst:89
 msgid "**API Interfaces:** JavaScript"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:91
+#: ../../build/doc/overview/tilemill_overview.rst:91
 msgid "**Support:** http://www.tilemill.com"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:95
+#: ../../build/doc/overview/tilemill_overview.rst:95
 msgid "Quickstart"
 msgstr ""
 
-#: ../../../overview/tilemill_overview.rst:97
+#: ../../build/doc/overview/tilemill_overview.rst:97
 msgid ":doc:`Quickstart documentation <../quickstart/tilemill_quickstart>`"
 msgstr ""
-

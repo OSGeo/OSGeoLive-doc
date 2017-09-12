@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,81 +17,80 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../overview/zygrib_overview.rst:12
+#: ../../build/doc/overview/zygrib_overview.rst:12
 msgid "zyGrib"
 msgstr ""
 
-#: ../../../overview/zygrib_overview.rst:15
+#: ../../build/doc/overview/zygrib_overview.rst:15
 msgid "Weather forecasting"
 msgstr ""
 
-#: ../../../overview/zygrib_overview.rst:17
+#: ../../build/doc/overview/zygrib_overview.rst:17
 msgid ""
-"zyGrib is a program to download and visualize weather forecast data in "
-"the standard GRIB distribution format."
+"zyGrib is a program to download and visualize weather forecast data in the "
+"standard GRIB distribution format."
 msgstr ""
 
-#: ../../../overview/zygrib_overview.rst:21
+#: ../../build/doc/overview/zygrib_overview.rst:21
 msgid "Core Features"
 msgstr ""
 
-#: ../../../overview/zygrib_overview.rst:28
+#: ../../build/doc/overview/zygrib_overview.rst:28
 msgid "Visualization of meteorologic data from files in GRIB format"
 msgstr ""
 
-#: ../../../overview/zygrib_overview.rst:29
+#: ../../build/doc/overview/zygrib_overview.rst:29
 msgid "Automatic download of weather and wave forecasts"
 msgstr ""
 
-#: ../../../overview/zygrib_overview.rst:30
+#: ../../build/doc/overview/zygrib_overview.rst:30
 msgid "Automatic download from IAC (fleetcode) data"
 msgstr ""
 
-#: ../../../overview/zygrib_overview.rst:31
+#: ../../build/doc/overview/zygrib_overview.rst:31
 msgid "Play animations of 8-day forecasts"
 msgstr ""
 
-#: ../../../overview/zygrib_overview.rst:32
+#: ../../build/doc/overview/zygrib_overview.rst:32
 msgid ""
 "Create your own regional weather maps (worldwide), or view a detailed "
 "quantitative forecast for a particular location."
 msgstr ""
 
-#: ../../../overview/zygrib_overview.rst:33
+#: ../../build/doc/overview/zygrib_overview.rst:33
 msgid ""
 "Plot wind, pressure, temperature, humidity, rain, snow, cloud cover, dew "
 "point, wave height, and high altitude data."
 msgstr ""
 
-#: ../../../overview/zygrib_overview.rst:36
+#: ../../build/doc/overview/zygrib_overview.rst:36
 msgid "Details"
 msgstr ""
 
-#: ../../../overview/zygrib_overview.rst:38
+#: ../../build/doc/overview/zygrib_overview.rst:38
 msgid "**Website:** http://www.zygrib.org"
 msgstr ""
 
-#: ../../../overview/zygrib_overview.rst:40
+#: ../../build/doc/overview/zygrib_overview.rst:40
 msgid "**Licence:** GNU General Public License (GPL) version 3"
 msgstr ""
 
-#: ../../../overview/zygrib_overview.rst:42
+#: ../../build/doc/overview/zygrib_overview.rst:42
 msgid "**Software Version:** |version-zygrib|"
 msgstr ""
 
-#: ../../../overview/zygrib_overview.rst:44
+#: ../../build/doc/overview/zygrib_overview.rst:44
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
 msgstr ""
 
-#: ../../../overview/zygrib_overview.rst:46
+#: ../../build/doc/overview/zygrib_overview.rst:46
 msgid "**Support:** http://zygrib.org/forum/"
 msgstr ""
 
-#: ../../../overview/zygrib_overview.rst:50
+#: ../../build/doc/overview/zygrib_overview.rst:50
 msgid "Quickstart"
 msgstr ""
 
-#: ../../../overview/zygrib_overview.rst:52
+#: ../../build/doc/overview/zygrib_overview.rst:52
 msgid ":doc:`Quickstart documentation <../quickstart/zygrib_quickstart>`"
 msgstr ""
-

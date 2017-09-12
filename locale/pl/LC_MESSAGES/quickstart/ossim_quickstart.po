@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,136 +17,133 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../quickstart/ossim_quickstart.rst:14
+#: ../../build/doc/quickstart/ossim_quickstart.rst:20
 msgid "Ossim Quickstart"
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:16
+#: ../../build/doc/quickstart/ossim_quickstart.rst:22
 msgid ""
 "Open Source Software Image Map (OSSIM) is a high performance engine for "
 "remote sensing, image processing, geographical information system (GIS) "
 "tasks and photogrammetry."
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:20
+#: ../../build/doc/quickstart/ossim_quickstart.rst:26
 msgid "This Quick Start describes how to:"
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:22
+#: ../../build/doc/quickstart/ossim_quickstart.rst:28
 msgid "Multi-view multiband raster satellite images with Imagelinker"
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:23
+#: ../../build/doc/quickstart/ossim_quickstart.rst:29
 msgid "Drape a georeferenced raster map on a 3D globe with ossimPlanet"
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:27
+#: ../../build/doc/quickstart/ossim_quickstart.rst:33
 msgid "Imagelinker"
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:29
+#: ../../build/doc/quickstart/ossim_quickstart.rst:35
 msgid ""
 "Start Imagelinker from its icon from the \"Spatial Tools\" folder on the "
 "desktop"
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:32
+#: ../../build/doc/quickstart/ossim_quickstart.rst:38
 msgid ""
 "Open an image file, using :menuselection:`File --> Open Image --> "
 "/home/user/data/landsat/clip10.tif`"
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:34
+#: ../../build/doc/quickstart/ossim_quickstart.rst:40
 msgid ""
-"Repeat the previous operation for the files : `clip20.tif` and "
-"`clip30.tif`"
+"Repeat the previous operation for the files : `clip20.tif` and `clip30.tif`"
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:41
+#: ../../build/doc/quickstart/ossim_quickstart.rst:47
 msgid ""
-"Another way to load all the images at once is to simply drag and drop "
-"them into the Imagelinker main window"
+"Another way to load all the images at once is to simply drag and drop them "
+"into the Imagelinker main window"
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:44
+#: ../../build/doc/quickstart/ossim_quickstart.rst:50
 msgid ""
-"To tidy up the windows, maximize the main window, then in the top menu "
-"bar go to :menuselection:`Window --> Tile`"
+"To tidy up the windows, maximize the main window, then in the top menu bar "
+"go to :menuselection:`Window --> Tile`"
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:47
+#: ../../build/doc/quickstart/ossim_quickstart.rst:53
 msgid ""
 "You can keep all the satellite band views in sync by clicking "
-":guilabel:`Fit` in one of the smaller windows, then :guilabel:`Propagate`"
-" in that same window. Try doing the same in the larger window."
+":guilabel:`Fit` in one of the smaller windows, then :guilabel:`Propagate` in"
+" that same window. Try doing the same in the larger window."
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:51
+#: ../../build/doc/quickstart/ossim_quickstart.rst:57
 msgid ""
-"Again in the large image window make sure the zoom button (magnifying "
-"glass) is depressed and click in middle of the big road intersection. "
-"With the closer view in the window, again click the :guilabel:`Propagate`"
-" button in the large image window to sync that view with the other band "
-"windows. In a similar way you can press the pan button (hand icon) and "
-"then click to move along the road, and then the :guilabel:`Propagate` "
-"button to align the other windows."
+"Again in the large image window make sure the zoom button (magnifying glass)"
+" is depressed and click in middle of the big road intersection. With the "
+"closer view in the window, again click the :guilabel:`Propagate` button in "
+"the large image window to sync that view with the other band windows. In a "
+"similar way you can press the pan button (hand icon) and then click to move "
+"along the road, and then the :guilabel:`Propagate` button to align the other"
+" windows."
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:61
+#: ../../build/doc/quickstart/ossim_quickstart.rst:67
 msgid "OssimPlanet"
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:63
+#: ../../build/doc/quickstart/ossim_quickstart.rst:69
 msgid ""
 "Launch OssimPlanet from its icon in the \"Desktop GIS\" folder on the "
 "desktop"
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:66
+#: ../../build/doc/quickstart/ossim_quickstart.rst:72
 msgid ""
 "Select :menuselection:`File --> Open Image --> "
-"/home/user/data/landsat/clip10.tif` to load a LANDSAT image (or simply "
-"drag and drop the image into the main window)."
+"/home/user/data/landsat/clip10.tif` to load a LANDSAT image (or simply drag "
+"and drop the image into the main window)."
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:69
+#: ../../build/doc/quickstart/ossim_quickstart.rst:75
 msgid ""
-"In the `Layer` tree panel on the left side, click on the small triangle "
-"to the left of *Image Layers* to expand it. Next double-click on "
-"``clip10``. You should now see the scene zoom to the image's location."
+"In the `Layer` tree panel on the left side, click on the small triangle to "
+"the left of *Image Layers* to expand it. Next double-click on ``clip10``. "
+"You should now see the scene zoom to the image's location."
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:73
+#: ../../build/doc/quickstart/ossim_quickstart.rst:79
 msgid ""
-"To turn off the daylight auto-shading, `un`-check :menuselection:`File "
-"--> Preferences --> Environment --> Enable Ephemeris`"
+"To turn off the daylight auto-shading, `un`-check :menuselection:`File --> "
+"Preferences --> Environment --> Enable Ephemeris`"
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:75
+#: ../../build/doc/quickstart/ossim_quickstart.rst:81
 msgid ""
 "Experiment with navigating the scene using the mouse. Dragging the left "
-"mouse button pans; dragging the middle mouse button rolls; and dragging "
-"the right mouse button zooms in and out."
+"mouse button pans; dragging the middle mouse button rolls; and dragging the "
+"right mouse button zooms in and out."
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:81
+#: ../../build/doc/quickstart/ossim_quickstart.rst:87
 msgid ""
-"If you get lost, double clicking on the Blue Marble image in the Layer "
-"tree will zoom back out to a view of the whole planet, resetting the "
-"view."
+"If you get lost, double clicking on the Blue Marble image in the Layer tree "
+"will zoom back out to a view of the whole planet, resetting the view."
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:86
+#: ../../build/doc/quickstart/ossim_quickstart.rst:92
 msgid "What Next?"
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:88
+#: ../../build/doc/quickstart/ossim_quickstart.rst:94
 msgid ""
 "We have prepared a number of tutorials_ demonstrating more of Ossim's "
 "capabilities."
 msgstr ""
 
-#: ../../../quickstart/ossim_quickstart.rst:94
+#: ../../build/doc/quickstart/ossim_quickstart.rst:100
 msgid "See also the included documentation_ on this Live DVD."
 msgstr ""
-

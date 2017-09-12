@@ -1,0 +1,348 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-12 09:55-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../build/doc/prior_applications.rst:5
+msgid "Previously available applications"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Name"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Last Available"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+msgid "|nologo|"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`OGC Standards`_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+msgid "10.5"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "OGC Standards descriptions"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Viking_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <Viking_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "GPS Data Analysis and Viewer"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Ushahidi_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <Ushahidi_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Mapping and Timeline for events"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "TinyOWS_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <TinyOWS_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "WFS-T Service"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "|osgeocommunity|"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "PyWPS_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <PyWPS_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Web Processing Service"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "osgEarth_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <osgEarth_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "3D Terrain Rendering"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`Kosmo Desktop`_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <Kosmo Desktop_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`WorldWind Java`_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <WorldWind Java_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Desktop Virtual Globe"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Iris_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <Iris_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Meteorology and Climatology"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "GeoKettle_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <GeoKettle_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "ETL (Extract, Transform and Load) Tool"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Sahana_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <Sahana_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Disaster management"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`MB System`_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <MB System_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Sea Floor Mapping"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Cartaro_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <Cartaro_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "10.0"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Geospatial CMS"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "TileMill_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <TileMill_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "9.5"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Styling and Publishing"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "GpsDrive_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <GpsDrive_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "9.0"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "GPS Navigation"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`Map Window`_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <Map Window_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "8.0"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Microsoft Windows based Desktop GIS."
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+msgid "|osgeoproject|"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "MapFish_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <MapFish_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "7.9"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Web Mapping Framework"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "52NorthWSS_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <52NorthWSS_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "6.5"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Web Security Service"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Geopublisher_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+msgid "6.0"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Catalogue"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "AtlasStyler_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Style Editor"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "MapGuide_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <MapGuide_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "5.0"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Web Service"
+msgstr ""
+

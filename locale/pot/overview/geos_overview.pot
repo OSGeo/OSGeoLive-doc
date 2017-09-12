@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-03 08:36-0500\n"
+"POT-Creation-Date: 2017-09-12 09:55-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "Spatial Library"
 msgstr ""
 
 #: ../../build/doc/overview/geos_overview.rst:24
-msgid "GEOS (Geometry Engine - Open Source) is a C++ port of the `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_. It includes the OpenGIS Simple Features for SQL spatial predicate functions and spatial operators, as well as specific JTS enhanced topology functions."
+msgid "GEOS (Geometry Engine - Open Source) is a C++ port of the `JTS Topology Suite (JTS) <https://www.locationtech.org/proposals/jts-topology-suite>`_. It includes the OpenGIS Simple Features for SQL spatial predicate functions and spatial operators, as well as specific JTS enhanced topology functions."
 msgstr ""
 
 #: ../../build/doc/overview/geos_overview.rst:26

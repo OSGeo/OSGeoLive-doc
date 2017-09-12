@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,63 +17,97 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../sponsors_osgeo.rst:2
+#: ../../build/doc/sponsors_osgeo.rst:7
 msgid "The OSGeo Foundation"
 msgstr ""
 
-#: ../../../sponsors_osgeo.rst:4
+#: ../../build/doc/sponsors_osgeo.rst:9
+msgid "*Empower everyone with open source geospatial*"
+msgstr ""
+
+#: ../../build/doc/sponsors_osgeo.rst:11
 msgid ""
-"The `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`_, is a"
-" not-for-profit organization whose mission is to support and promote the "
-"collaborative development of open geospatial technologies and data. The "
-"foundation provides financial, organizational and legal support to the "
-"broader open source geospatial community. It serves as an independent "
-"legal entity to which community members can contribute code, funding and "
-"other resources, secure in the knowledge that their contributions will be"
-" maintained for public benefit. OSGeo also serves as an outreach and "
-"advocacy organization for the open source geospatial community, and "
-"provides a common forum and shared infrastructure for improving cross-"
-"project collaboration."
+"The `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`__ is a "
+"not-for-profit organization whose mission is to foster global adoption of "
+"open geospatial technology by being an inclusive software foundation devoted"
+" to an open philosophy and participatory community driven development."
 msgstr ""
 
-#: ../../../sponsors_osgeo.rst:17
-msgid "The foundation's projects are all freely available and useable under an"
+#: ../../build/doc/sponsors_osgeo.rst:17
+msgid "OSGeo outreach and activities include:"
 msgstr ""
 
-#: ../../../sponsors_osgeo.rst:17
+#: ../../build/doc/sponsors_osgeo.rst:19
 msgid ""
-"`OSI-certified open source license. "
-"<http://www.opensource.org/licenses/>`_"
+"`Local Chapters <http://www.osgeo.org/content/chapters/index.html>`__: "
+"Local, regional and language groups support grass roots activities."
 msgstr ""
 
-#: ../../../sponsors_osgeo.rst:19
+#: ../../build/doc/sponsors_osgeo.rst:20
 msgid ""
-"This Live GIS disc and virtual-machine has been put together by members "
-"of the OSGeo community to showcase their favourite Free and Open Source "
-"(FOSS) geospatial software. We've included a number of non-OSGeo software"
-" packages, GIS focused and otherwise, which we hope you will find to be "
-"as useful as we do. The OSGeo Foundation does not recommend or guarantee "
-"any associated software, projects, or companies found within."
+"`GeoForAll <http://www.geoforall.org>`_: Over 100 educational labs from "
+"around the world who work with partners to make geospatial education and "
+"opportunities accessible to all."
 msgstr ""
 
-#: ../../../sponsors_osgeo.rst:26
+#: ../../build/doc/sponsors_osgeo.rst:21
 msgid ""
-"`These programs are distributed in the hope that they will be useful, but"
-" WITHOUT ANY WARRANTY; without even the implied warranty of "
-"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.`"
+"`OSGeo Live <http://live.osgeo.org>`__: A distribution of established "
+"geospatial open source software, pre-configured with sample data and "
+"quickstarts, ready to try out."
 msgstr ""
 
-#: ../../../sponsors_osgeo.rst:32
-msgid "OSGeo Supporting Sponsors"
-msgstr ""
-
-#: ../../../sponsors_osgeo.rst:65
-msgid "For more information"
-msgstr ""
-
-#: ../../../sponsors_osgeo.rst:67
+#: ../../build/doc/sponsors_osgeo.rst:22
 msgid ""
-"To sponsor OSGeo or discuss sponsorship opportunities further, please "
-"contact:"
+"`FOSS4G <http://foss4g.org>`_: Annual, international conference for *Free "
+"and Open Source Software for Geospatial*, as well as many regional and local"
+" `events <http://www.osgeo.org/events>`_."
 msgstr ""
 
+#~ msgid ""
+#~ "The `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`_, is a "
+#~ "not-for-profit organization whose mission is to support and promote the "
+#~ "collaborative development of open geospatial technologies and data. The "
+#~ "foundation provides financial, organizational and legal support to the "
+#~ "broader open source geospatial community. It serves as an independent legal "
+#~ "entity to which community members can contribute code, funding and other "
+#~ "resources, secure in the knowledge that their contributions will be "
+#~ "maintained for public benefit. OSGeo also serves as an outreach and advocacy"
+#~ " organization for the open source geospatial community, and provides a "
+#~ "common forum and shared infrastructure for improving cross-project "
+#~ "collaboration."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The foundation's projects are all freely available and useable under an"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`OSI-certified open source license. <http://www.opensource.org/licenses/>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This Live GIS disc and virtual-machine has been put together by members of "
+#~ "the OSGeo community to showcase their favourite Free and Open Source (FOSS) "
+#~ "geospatial software. We've included a number of non-OSGeo software packages,"
+#~ " GIS focused and otherwise, which we hope you will find to be as useful as "
+#~ "we do. The OSGeo Foundation does not recommend or guarantee any associated "
+#~ "software, projects, or companies found within."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`These programs are distributed in the hope that they will be useful, but "
+#~ "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
+#~ "or FITNESS FOR A PARTICULAR PURPOSE.`"
+#~ msgstr ""
+
+#~ msgid "OSGeo Supporting Sponsors"
+#~ msgstr ""
+
+#~ msgid "For more information"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To sponsor OSGeo or discuss sponsorship opportunities further, please "
+#~ "contact:"
+#~ msgstr ""

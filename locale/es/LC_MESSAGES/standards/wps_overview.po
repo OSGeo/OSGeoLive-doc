@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,98 +17,95 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../standards/wps_overview.rst:30
+#: ../../build/doc/standards/wps_overview.rst:30
 msgid "Web Processing Service (WPS)"
 msgstr ""
 
-#: ../../../standards/wps_overview.rst:35
+#: ../../build/doc/standards/wps_overview.rst:35
 msgid ""
 "The WPS standard provides rules for standardizing inputs and outputs "
-"(requests and responses) for geospatial processing services, such as "
-"polygon overlays and their inputs and outputs."
+"(requests and responses) for geospatial processing services, such as polygon"
+" overlays and their inputs and outputs."
 msgstr ""
 
-#: ../../../standards/wps_overview.rst:41
+#: ../../build/doc/standards/wps_overview.rst:41
 msgid ""
 "The OGC® Web Processing Service (WPS) Standard describes how to access "
-"geospatial processes from a web interface. Processes include any "
-"algorithm, calculation or model that operates on spatially referenced "
-"vector or raster data. A WPS may offer calculations as simple as "
-"subtracting one set of spatially referenced numbers from another (e.g., "
-"determining the difference in influenza cases between two different "
-"seasons), or as complicated as a global climate change model.  "
-"(http://www.opengeospatial.org/standards/wps)"
+"geospatial processes from a web interface. Processes include any algorithm, "
+"calculation or model that operates on spatially referenced vector or raster "
+"data. A WPS may offer calculations as simple as subtracting one set of "
+"spatially referenced numbers from another (e.g., determining the difference "
+"in influenza cases between two different seasons), or as complicated as a "
+"global climate change model.  (http://www.opengeospatial.org/standards/wps)"
 msgstr ""
 
-#: ../../../standards/wps_overview.rst:44
+#: ../../build/doc/standards/wps_overview.rst:44
 msgid "A WPS is particularly useful for:"
 msgstr ""
 
-#: ../../../standards/wps_overview.rst:46
+#: ../../build/doc/standards/wps_overview.rst:46
 msgid ""
-"Reducing complexity in data processing by providing plug & play "
-"algorithms."
+"Reducing complexity in data processing by providing plug & play algorithms."
 msgstr ""
 
-#: ../../../standards/wps_overview.rst:47
+#: ../../build/doc/standards/wps_overview.rst:47
 msgid "Enabling processes to be chained together."
 msgstr ""
 
-#: ../../../standards/wps_overview.rst:48
+#: ../../build/doc/standards/wps_overview.rst:48
 msgid "Enabling processing to be deployed once then used everywhere."
 msgstr ""
 
-#: ../../../standards/wps_overview.rst:49
+#: ../../build/doc/standards/wps_overview.rst:49
 msgid ""
-"Streamlined maintenance. Processes/models are maintained in a central "
-"place by the entities who created them."
+"Streamlined maintenance. Processes/models are maintained in a central place "
+"by the entities who created them."
 msgstr ""
 
-#: ../../../standards/wps_overview.rst:50
+#: ../../build/doc/standards/wps_overview.rst:50
 msgid ""
 "Taking advantage of high-speed computational capabilities on a central "
 "server."
 msgstr ""
 
-#: ../../../standards/wps_overview.rst:51
+#: ../../build/doc/standards/wps_overview.rst:51
 msgid ""
-"Easy and interoperable access to highly complex processes, such as "
-"climate change models."
+"Easy and interoperable access to highly complex processes, such as climate "
+"change models."
 msgstr ""
 
-#: ../../../standards/wps_overview.rst:54
+#: ../../build/doc/standards/wps_overview.rst:54
 msgid "See Also"
 msgstr ""
 
-#: ../../../standards/wps_overview.rst:59
+#: ../../build/doc/standards/wps_overview.rst:59
 msgid "Other OGC data service standards:"
 msgstr ""
 
-#: ../../../standards/wps_overview.rst:61
+#: ../../build/doc/standards/wps_overview.rst:61
 msgid "Web Coverage Processing Service"
 msgstr ""
 
-#: ../../../standards/wps_overview.rst:62
+#: ../../build/doc/standards/wps_overview.rst:62
 msgid "Sensor Planning Service"
 msgstr ""
 
-#: ../../../standards/wps_overview.rst:63
+#: ../../build/doc/standards/wps_overview.rst:63
 msgid ":doc:`wcs_overview`"
 msgstr ""
 
-#: ../../../standards/wps_overview.rst:64
+#: ../../build/doc/standards/wps_overview.rst:64
 msgid ":doc:`wms_overview`"
 msgstr ""
 
-#: ../../../standards/wps_overview.rst:65
+#: ../../build/doc/standards/wps_overview.rst:65
 msgid ":doc:`wfs_overview`"
 msgstr ""
 
-#: ../../../standards/wps_overview.rst:66
+#: ../../build/doc/standards/wps_overview.rst:66
 msgid "Grid Coverage Service"
 msgstr ""
 
-#: ../../../standards/wps_overview.rst:67
+#: ../../build/doc/standards/wps_overview.rst:67
 msgid ":doc:`sos_overview`"
 msgstr ""
-

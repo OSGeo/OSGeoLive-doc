@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,71 +17,101 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../contact.rst:2
+#: ../../build/doc/contact.rst:2
 msgid "Contact Us"
 msgstr ""
 
-#: ../../../contact.rst:4
+#: ../../build/doc/contact.rst:4
 msgid ""
-"OSGeo-Live development is coordinated via email and internet chat (IRC) "
-"as detailed on the `OSGeo Wiki "
+"OSGeo-Live development is coordinated via email and internet chat (IRC) as "
+"detailed on the `OSGeo Wiki "
 "<http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_."
 msgstr ""
 
-#: ../../../contact.rst:9
+#: ../../build/doc/contact.rst:26
 msgid "Community Support"
 msgstr ""
 
-#: ../../../contact.rst:11
+#: ../../build/doc/contact.rst:28
 msgid ""
-"If you have any questions, comments, or run into any problems, please "
-"drop us a note on `our mailing list "
-"<http://lists.osgeo.org/mailman/listinfo/live-demo>`_."
+"If you have any questions, comments, or run into any problems, please drop "
+"us a note on `our mailing list <http://lists.osgeo.org/mailman/listinfo"
+"/live-demo>`_."
 msgstr ""
 
-#: ../../../contact.rst:14
-msgid ""
-"Searchable archives of the mailing list are hosted by `Gmane "
-"<http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ and `Nabble <http"
-"://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_."
-msgstr ""
-
-#: ../../../contact.rst:18
+#: ../../build/doc/contact.rst:34
 msgid ""
 "IRC users might try the #osgeolive or #osgeo channel at Freenode.net for "
 "real-time assistance."
 msgstr ""
 
-#: ../../../contact.rst:21
+#: ../../build/doc/contact.rst:37
 msgid ""
 "A wealth of information is available on our `Wiki site "
-"<http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_, and a `bug and wish "
-"tracking system <https://trac.osgeo.org/osgeo/report/10>`_ is also "
-"available."
+"<http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_, and a `bug and wish tracking "
+"system <https://trac.osgeo.org/osgeo/report/10>`_ is also available."
 msgstr ""
 
-#: ../../../contact.rst:25
+#: ../../build/doc/contact.rst:41
 msgid "Commercial Support"
 msgstr ""
 
-#: ../../../contact.rst:32
+#: ../../build/doc/contact.rst:48
 msgid ""
 "Jirotech provide commercial support for the building of the Live DVD, as "
 "well as many of the applications packaged in it. Details at: "
 "http://jirotech.com"
 msgstr ""
 
-#: ../../../contact.rst:36
+#: ../../build/doc/contact.rst:52
 msgid ""
 "Most packaged applications have both community and commercial support "
-"offerings for them. Refer to specific application descriptions linked "
-"from the :doc:`Contents <./overview/overview>` for details."
+"offerings for them. Refer to specific application descriptions linked from "
+"the :doc:`Contents <./overview/overview>` for details."
 msgstr ""
 
-#: ../../../contact.rst:39
+#: ../../build/doc/contact.rst:55
 msgid ""
-"In addition, there are a large number of consultancy firms world wide who"
-" provide support for OSGeo member projects. See "
+"In addition, there are a large number of consultancy firms world wide who "
+"provide support for OSGeo member projects. See "
 "http://www.osgeo.org/search_profile for one that meets your needs."
 msgstr ""
 
+#: ../../build/doc/contact.rst:9
+msgid "Disclaimer"
+msgstr ""
+
+#: ../../build/doc/contact.rst:11
+msgid ""
+"This Live GIS disc and virtual-machine has been put together by members of "
+"the OSGeo community to showcase their favourite Free and Open Source (FOSS) "
+"geospatial software. We've included a number of non-OSGeo software packages,"
+" GIS focused and otherwise, which we hope you will find to be as useful as "
+"we do. The OSGeo Foundation does not recommend or guarantee any associated "
+"software, projects, or companies found within."
+msgstr ""
+
+#: ../../build/doc/contact.rst:18
+msgid ""
+"`These programs are distributed in the hope that they will be useful, but "
+"WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
+"or FITNESS FOR A PARTICULAR PURPOSE.`"
+msgstr ""
+
+#: ../../build/doc/contact.rst:22
+msgid ""
+"For additional information on the distribution of each program review their "
+"license as indicated on the page for each program."
+msgstr ""
+
+#: ../../build/doc/contact.rst:31
+msgid ""
+"Searchable archives of the mailing list are hosted by `Nabble <http://osgeo-"
+"org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_."
+msgstr ""
+
+#~ msgid ""
+#~ "Searchable archives of the mailing list are hosted by `Gmane "
+#~ "<http://news.gmane.org/gmane.comp.gis.osgeo.livedemo>`_ and `Nabble <http"
+#~ "://osgeo-org.1803224.n2.nabble.com/OSGeo-FOSS4G-LiveDVD-f3623430.html>`_."
+#~ msgstr ""

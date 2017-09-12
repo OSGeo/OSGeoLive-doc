@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,185 +17,254 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../quickstart/osm_quickstart.rst:15
+#: ../../build/doc/quickstart/osm_quickstart.rst:15
 msgid "OpenStreetMap Quickstart"
 msgstr ""
 
-#: ../../../quickstart/osm_quickstart.rst:18
+#: ../../build/doc/quickstart/osm_quickstart.rst:18
 msgid "About"
 msgstr ""
 
-#: ../../../quickstart/osm_quickstart.rst:22
+#: ../../build/doc/quickstart/osm_quickstart.rst:22
 msgid ""
-"OpenStreetMap is a free street level map of the world, created by an ever"
-" growing community of mappers. Anyone can edit OpenStreetMap. The `Learn "
-"OSM website <http://learnosm.org>`_ provides easy to understand, step-by-"
-"step guides for you to get started with contributing to OpenStreetMap and"
-" using OpenStreetMap and using OpenStreetMap data. The Learn OSM guide at"
-" the link above shows step by step how to navigate the OpenStreetMap "
-"website, view and print maps, and sign up for a user account. After you "
-"have your own username and password, you will be able to add your first "
-"points to the map, learn how to do street surveys and work with aerial "
-"imagery."
+"OpenStreetMap is a free street level map of the world, created by an ever "
+"growing community of mappers. Anyone can edit OpenStreetMap. The `Learn OSM "
+"website <http://learnosm.org>`_ provides easy to understand, step-by-step "
+"guides for you to get started with contributing to OpenStreetMap and using "
+"OpenStreetMap and using OpenStreetMap data. The Learn OSM guide at the link "
+"above shows step by step how to navigate the OpenStreetMap website, view and"
+" print maps, and sign up for a user account. After you have your own "
+"username and password, you will be able to add your first points to the map,"
+" learn how to do street surveys and work with aerial imagery."
 msgstr ""
 
-#: ../../../quickstart/osm_quickstart.rst:33
-msgid ""
-"The remainder of this quickstart introduces some of the off-line software"
-" used to edit and render OSM data."
-msgstr ""
-
-#: ../../../quickstart/osm_quickstart.rst:38
+#: ../../build/doc/quickstart/osm_quickstart.rst:38
 msgid "Programs"
 msgstr ""
 
-#: ../../../quickstart/osm_quickstart.rst:41
+#: ../../build/doc/quickstart/osm_quickstart.rst:59
 msgid "JOSM"
 msgstr ""
 
-#: ../../../quickstart/osm_quickstart.rst:43
-msgid ""
-"**JOSM** (Java OpenStreetMap Editor) is an editor for OpenStreetMap (OSM)"
-" written in Java. The current version supports stand alone GPX tracks, "
-"GPX track data from OSM database and existing nodes, line segments and "
-"metadata tags from the OSM database."
-msgstr ""
-
-#: ../../../quickstart/osm_quickstart.rst:48
+#: ../../build/doc/quickstart/osm_quickstart.rst:67
 msgid "Homepage: https://josm.openstreetmap.de"
 msgstr ""
 
-#: ../../../quickstart/osm_quickstart.rst:50
-msgid "The JOSM plugin collection contains the following plugins:"
-msgstr ""
-
-#: ../../../quickstart/osm_quickstart.rst:52
-msgid "colorscheme        - Allows to create different color schemes."
-msgstr ""
-
-#: ../../../quickstart/osm_quickstart.rst:53
-msgid "livegps            - Supports live GPS input together with gpsd."
-msgstr ""
-
-#: ../../../quickstart/osm_quickstart.rst:54
-msgid ""
-"measurement        - Adds a dialog and a layer to measure length and "
-"angle of segments and create measurement paths."
-msgstr ""
-
-#: ../../../quickstart/osm_quickstart.rst:55
-msgid ""
-"openvisible        - Allows opening gpx and osm files that intersect the "
-"currently visible screen area."
-msgstr ""
-
-#: ../../../quickstart/osm_quickstart.rst:56
-msgid "surveyor           - Allows adding markers/nodes on current gps positions."
-msgstr ""
-
-#: ../../../quickstart/osm_quickstart.rst:57
-msgid ""
-"cadastre-fr        - A special handler for the French land registry WMS "
-"server."
-msgstr ""
-
-#: ../../../quickstart/osm_quickstart.rst:58
-msgid ""
-"DirectUpload       - Directly uploads GPS Traces from current active "
-"layer in JOSM to openstreetmap.org."
-msgstr ""
-
-#: ../../../quickstart/osm_quickstart.rst:59
-msgid ""
-"editgpx            - Anonymizes timestamps and deletes parts of huge GPX "
-"tracks very fast."
-msgstr ""
-
-#: ../../../quickstart/osm_quickstart.rst:60
-msgid "lakewalker         - Helps vectorizing WMS images."
-msgstr ""
-
-#: ../../../quickstart/osm_quickstart.rst:61
-msgid "routing            - Provides routing capabilities."
-msgstr ""
-
-#: ../../../quickstart/osm_quickstart.rst:65
+#: ../../build/doc/quickstart/osm_quickstart.rst:52
+#: ../../build/doc/quickstart/osm_quickstart.rst:70
 msgid "Further reading"
 msgstr ""
 
-#: ../../../quickstart/osm_quickstart.rst:67
+#: ../../build/doc/quickstart/osm_quickstart.rst:72
 msgid "User guide: https://wiki.openstreetmap.org/wiki/JOSM/Guide"
 msgstr ""
 
-#: ../../../quickstart/osm_quickstart.rst:68
-msgid ""
-"`Video tutorial "
-"<http://showmedo.com/videotutorials/video?name=1800050&amp;fromSeriesID=180>`_"
-msgstr ""
-
-#: ../../../quickstart/osm_quickstart.rst:69
-msgid ""
-"Open the sample data with :menuselection:`File --> Open... --> "
-"/usr/local/share/data/osm/feature_city.osm.bz2`"
-msgstr ""
-
-#: ../../../quickstart/osm_quickstart.rst:70
-msgid "Further instructions are given when you launch the application."
-msgstr ""
-
-#: ../../../quickstart/osm_quickstart.rst:74
+#: ../../build/doc/quickstart/osm_quickstart.rst:78
 msgid "Merkaartor"
 msgstr ""
 
-#: ../../../quickstart/osm_quickstart.rst:76
+#: ../../build/doc/quickstart/osm_quickstart.rst:80
 msgid ""
-"**Merkaartor** is a map editor for OpenStreetMap which uses the Qt "
-"toolkit. It's a bit more user friendly than JOSM, but has a few less "
-"features."
+"**Merkaartor** is a map editor for OpenStreetMap which uses the Qt toolkit. "
+"It's a bit more user friendly than JOSM, but has a few less features."
 msgstr ""
 
-#: ../../../quickstart/osm_quickstart.rst:79
+#: ../../build/doc/quickstart/osm_quickstart.rst:83
 msgid "Homepage: http://merkaartor.be"
 msgstr ""
 
-#: ../../../quickstart/osm_quickstart.rst:80
-msgid "Online help: https://wiki.openstreetmap.org/wiki/Merkaartor/Documentation"
+#: ../../build/doc/quickstart/osm_quickstart.rst:84
+msgid ""
+"Online help: https://wiki.openstreetmap.org/wiki/Merkaartor/Documentation"
 msgstr ""
 
-#: ../../../quickstart/osm_quickstart.rst:84
+#: ../../build/doc/quickstart/osm_quickstart.rst:98
 msgid "Osmosis"
 msgstr ""
 
-#: ../../../quickstart/osm_quickstart.rst:85
-msgid ""
-"**Osmosis** is a highly capable utility program for performing many tasks"
-" at a raw level on OSM data. This includes data import and export to "
-"databases, sorting, cleaning, and creating data dumps. See the `detailed "
-"usage page <https://wiki.openstreetmap.org/wiki/Osmosis#Usage>`_ for more"
-" information. A simple report of author contributions can be performed as"
-" follows. Open a new Terminal, and at a command prompt type the "
-"following:"
-msgstr ""
-
-#: ../../../quickstart/osm_quickstart.rst:96
-msgid ""
-"Then look in the new `entity-report.txt` file in the home directory for "
-"the report details."
-msgstr ""
-
-#: ../../../quickstart/osm_quickstart.rst:101
+#: ../../build/doc/quickstart/osm_quickstart.rst:109
 msgid "osm2pgsql"
 msgstr ""
 
-#: ../../../quickstart/osm_quickstart.rst:103
+#: ../../build/doc/quickstart/osm_quickstart.rst:111
 msgid ""
-"**osm2pgsql** is a utility program that converts OpenStreetMap (.osm) "
-"data into a format that can be loaded into PostgreSQL (PostGIS). It is "
-"often used to render OSM data visually using Mapnik, as Mapnik can query "
-"PostgreSQL for map data, but does not work directly with OSM files."
+"**osm2pgsql** is a utility program that converts OpenStreetMap (.osm) data "
+"into a format that can be loaded into PostgreSQL (PostGIS). It is often used"
+" to render OSM data visually using Mapnik, as Mapnik can query PostgreSQL "
+"for map data, but does not work directly with OSM files."
 msgstr ""
 
-#: ../../../quickstart/osm_quickstart.rst:108
+#: ../../build/doc/quickstart/osm_quickstart.rst:116
 msgid "Homepage: https://wiki.openstreetmap.org/wiki/Osm2pgsql"
 msgstr ""
 
+#: ../../build/doc/quickstart/osm_quickstart.rst:33
+msgid ""
+"The remainder of this quickstart introduces some of the on-line and off-line"
+" software used to edit and render OSM data."
+msgstr ""
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:42
+msgid "iD"
+msgstr ""
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:44
+msgid ""
+"**iD** is the default on-line editor for OpenStreetMap (OSM). iD is fast and"
+" easy to use, and allows mapping from various data sources such as ground "
+"survey, satellite and aerial imageries, GPS traces or street-level imagery."
+msgstr ""
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:48
+msgid "Start page: https://www.openstreetmap.org/edit"
+msgstr ""
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:54
+msgid "Documentation: https://wiki.openstreetmap.org/wiki/ID"
+msgstr ""
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:55
+msgid "Tutorial: http://learnosm.org/en/beginner/id-editor/"
+msgstr ""
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:61
+msgid ""
+"**JOSM** (Java OpenStreetMap Editor) is an advanced editor for OpenStreetMap"
+" (OSM) written in Java. It is more powerful and complex than iD, can be used"
+" for bulk editing, off-line or on an unreliable Internet connection. It can "
+"be extended with plugins, custom presets and more extensions."
+msgstr ""
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:73
+msgid "Tutorial: http://learnosm.org/en/josm/start-josm/"
+msgstr ""
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:74
+msgid "JOSM plugin collection: https://josm.openstreetmap.de/wiki/Plugins"
+msgstr ""
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:88
+msgid "QGIS"
+msgstr ""
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:90
+msgid ""
+"OpenStreetMap data can be loaded in **QGIS** as vector layer, as a core "
+"functionality or through plugins like QuickOSM."
+msgstr ""
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:93
+msgid "QuickOSM: http://plugins.qgis.org/plugins/QuickOSM/"
+msgstr ""
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:94
+msgid ""
+"Online help: "
+"https://wiki.openstreetmap.org/wiki/QGIS#QGIS_2:_Importing_OSM_vector_layers"
+msgstr ""
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:95
+msgid "Tutorial: http://learnosm.org/en/osm-data/osm-in-qgis/"
+msgstr ""
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:100
+msgid ""
+"**Osmosis** is a highly capable utility program for performing many tasks at"
+" a raw level on OSM data. This includes data import and export to databases,"
+" sorting, cleaning, and creating data dumps."
+msgstr ""
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:104
+msgid "Documentation: https://wiki.openstreetmap.org/wiki/Osmosis#Usage"
+msgstr ""
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:105
+msgid "Tutorial: http://learnosm.org/en/osm-data/osmosis/"
+msgstr ""
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:117
+msgid "Tutorial: http://learnosm.org/en/osm-data/osm2pgsql/"
+msgstr ""
+
+#~ msgid ""
+#~ "The remainder of this quickstart introduces some of the off-line software "
+#~ "used to edit and render OSM data."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**JOSM** (Java OpenStreetMap Editor) is an editor for OpenStreetMap (OSM) "
+#~ "written in Java. The current version supports stand alone GPX tracks, GPX "
+#~ "track data from OSM database and existing nodes, line segments and metadata "
+#~ "tags from the OSM database."
+#~ msgstr ""
+
+#~ msgid "The JOSM plugin collection contains the following plugins:"
+#~ msgstr ""
+
+#~ msgid "colorscheme        - Allows to create different color schemes."
+#~ msgstr ""
+
+#~ msgid "livegps            - Supports live GPS input together with gpsd."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "measurement        - Adds a dialog and a layer to measure length and angle "
+#~ "of segments and create measurement paths."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "openvisible        - Allows opening gpx and osm files that intersect the "
+#~ "currently visible screen area."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "surveyor           - Allows adding markers/nodes on current gps positions."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "cadastre-fr        - A special handler for the French land registry WMS "
+#~ "server."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "DirectUpload       - Directly uploads GPS Traces from current active layer "
+#~ "in JOSM to openstreetmap.org."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "editgpx            - Anonymizes timestamps and deletes parts of huge GPX "
+#~ "tracks very fast."
+#~ msgstr ""
+
+#~ msgid "lakewalker         - Helps vectorizing WMS images."
+#~ msgstr ""
+
+#~ msgid "routing            - Provides routing capabilities."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Video tutorial "
+#~ "<http://showmedo.com/videotutorials/video?name=1800050&amp;fromSeriesID=180>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the sample data with :menuselection:`File --> Open... --> "
+#~ "/usr/local/share/data/osm/feature_city.osm.bz2`"
+#~ msgstr ""
+
+#~ msgid "Further instructions are given when you launch the application."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Osmosis** is a highly capable utility program for performing many tasks at"
+#~ " a raw level on OSM data. This includes data import and export to databases,"
+#~ " sorting, cleaning, and creating data dumps. See the `detailed usage page "
+#~ "<https://wiki.openstreetmap.org/wiki/Osmosis#Usage>`_ for more information. "
+#~ "A simple report of author contributions can be performed as follows. Open a "
+#~ "new Terminal, and at a command prompt type the following:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Then look in the new `entity-report.txt` file in the home directory for the "
+#~ "report details."
+#~ msgstr ""

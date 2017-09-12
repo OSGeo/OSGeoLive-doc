@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-03 08:36-0500\n"
+"POT-Creation-Date: 2017-09-12 09:55-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "Web Map Service"
 msgstr ""
 
 #: ../../build/doc/overview/ncWMS_overview.rst:17
-msgid "ncWMS publishes multi-dimensional data (such as environmental and weather data) as an OGC compliant Web Map Service (WMS). ncWMS quickly and efficiently extracts the map images from the very the large data files typically associated with environmental data."
+msgid "ncWMS publishes multi-dimensional data (such as environmental and weather data) as an OGC compliant Web Map Service (WMS). ncWMS quickly and efficiently extracts the map images from the very large data files typically associated with environmental data."
 msgstr ""
 
 #: ../../build/doc/overview/ncWMS_overview.rst:27
@@ -89,11 +89,11 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/ncWMS_overview.rst:59
-msgid "**Website:** http://www.resc.rdg.ac.uk/trac/ncWMS/"
+msgid "**Website:** https://github.com/Reading-eScience-Centre/ncwms"
 msgstr ""
 
 #: ../../build/doc/overview/ncWMS_overview.rst:61
-msgid "**Licence:** `Modified BSD License <http://www.resc.rdg.ac.uk/trac/ncWMS/wiki/LicencePage>`_"
+msgid "**Licence:** `Modified BSD License <https://github.com/Reading-eScience-Centre/ncwms/releases/download/ncwms-2.2.8/licence.txt>`_"
 msgstr ""
 
 #: ../../build/doc/overview/ncWMS_overview.rst:63
@@ -101,7 +101,7 @@ msgid "**Software Version:** |version-ncWMS|"
 msgstr ""
 
 #: ../../build/doc/overview/ncWMS_overview.rst:65
-msgid "**Supported Platforms:** All Java 1.5 platforms: Windows, Linux, Mac"
+msgid "**Supported Platforms:** All Java 1.8 platforms: Windows, Linux, Mac"
 msgstr ""
 
 #: ../../build/doc/overview/ncWMS_overview.rst:67
@@ -109,7 +109,7 @@ msgid "**API Interfaces:** Java; WMS"
 msgstr ""
 
 #: ../../build/doc/overview/ncWMS_overview.rst:69
-msgid "**Support:** http://www.resc.rdg.ac.uk/trac/ncWMS/wiki/MailingLists"
+msgid "**Support:** https://github.com/Reading-eScience-Centre/ncwms/issues"
 msgstr ""
 
 #: ../../build/doc/overview/ncWMS_overview.rst:73

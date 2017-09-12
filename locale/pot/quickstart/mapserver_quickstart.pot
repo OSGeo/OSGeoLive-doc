@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-03 08:36-0500\n"
+"POT-Creation-Date: 2017-09-12 09:55-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,219 +24,199 @@ msgstr ""
 msgid "MapServer is an `Open Source <http://www.opensource.org>`_ server based application that allows you to publish geographic map images and vector data through the internet using :doc:`OGC standards <../standards/standards>` such as :doc:`WMS <../standards/wms_overview>`, :doc:`WFS <../standards/wfs_overview>`, and :doc:`WCS <../standards/wcs_overview>`."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:32
-msgid "This Quick Start describes how to:"
-msgstr ""
-
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:34
-msgid ":ref:`mapserver-quickstart-configure-with-mapfile-en`"
-msgstr ""
-
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:35
-msgid ":ref:`mapserver-quickstart-wms-request-en`"
-msgstr ""
-
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:36
-msgid ":ref:`mapserver-quickstart-cmd-en`"
-msgstr ""
-
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:37
-msgid ":ref:`mapserver-quickstart-add-new-layer-en`"
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:0
+msgid "This Quick Start Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:38
-msgid ":ref:`mapserver-quickstart-styling-a-layer-en`"
-msgstr ""
-
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:43
 msgid "Configure MapServer using the MapFile configuration file"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:47
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:42
 msgid "**What will I learn ?** In this section, you will learn what a MapFile is and how to configure it to allow MapServer to serve a shapefile as images using WMS requests."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:52
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:47
 msgid "What is a MapFile ?"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:54
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:49
 msgid "The `Mapfile <http://mapserver.org/mapfile/index.html>`_ is the configuration file that MapServer uses to render geospatial data as images or vector data. Its main purpose is to define the layers it can draw, how to read necessary data, and how to render it (e.g. color, symbol, label, etc...)."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:60
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:55
 msgid "Creating my first MapFile"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:62
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:57
 msgid "Open any text editor (e.g. :menuselection:`Applications --> Accessories --> Leafpad`)."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:64
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:59
 msgid "Create the file \"mapserver_quickstart.map\" in your home directory: :file:`/home/user/mapserver_quickstart.map`"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:67
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:62
 msgid "Put the following content in it::"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:105
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:100
 msgid "The example uses the natural earth dataset, which is already installed on the live dvd at :file:`~/data/natural_earth2` (a short cut to :file:`/usr/local/share/data/natural_earth2`)."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:109
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:104
 msgid "Each object in a MapFile starts with its name (for example **MAP**) and ends with an **END**.  A MapFile always starts with the **MAP** object and should contain a list of **LAYER** objects the MapFile can read and draw. In our MapFile, we currently have only one layer defined."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:114
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:109
 msgid "Let's take a look at some of the objects (and properties) defined in our MapFile:"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:117
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:112
 msgid "EXTENT: sets the default geospatial bounding box for this configuration."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:118
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:113
 msgid "LAYER: defines access and display properties for a spatial dataset.  We'll add another layer later."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:120
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:115
 msgid "SHAPEPATH: sets a base path for file-based data (e.g. shapefiles or tiff images)."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:123
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:118
 msgid "If we look closer at the **LAYER** in our MapFile, we'll see that it contains a bunch of properties and objects too. Among them are:"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:126
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:121
 msgid "STATUS: defines whether the layer can be drawn (*ON*), can't be drawn (*OFF*) or is always drawn (*DEFAULT*)."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:128
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:123
 msgid "TYPE: the geometry type that MapServer should use when rendering the data as an image. In our MapFile, the data will be drawn as *polygons*."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:130
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:125
 msgid "DATA: the name of the spatial data file this layer uses, in this case a shapefile."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:132
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:127
 msgid "CLASS: determines how to draw a layer (styling). We'll cover this object in more detail later."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:137
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:132
 msgid "A complete list of the available objects and properties a MapFile can have can be found in the `MapServer documentation page <http://mapserver.org/mapfile/index.html>`_."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:145
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:139
 msgid "Render a map image with MapServer using a WMS **GetMap** request"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:149
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:143
 msgid "**What will I learn ?** You will learn how to use to render an image with layers from a MapFile with MapServer using an OGC WMS request."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:152
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:146
 msgid "Open a web browser and enter the following URL::"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:156
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:150
 msgid "What does the above mean?  If we put it in simple words, it's a `Web Map Service (WMS) <http://www.opengeospatial.org/standards/wms>`_ **GetMap** request that tells MapServer to \"*use the following MapFile to render the specified layers as a png image based on some user-supplied parameters such as image size, geographical extent, projection, etc.*\".  All layers specified in the \"*&LAYERS=...*\" property having *STATUS ON* in the MapFile will be rendered in addition to all layers with *STATUS DEFAULT*. The result looks like the following:"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:170
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:164
 msgid "All parameters of the request are WMS-specific, except \"*?map=/home/user/mapserver_quickstart.map*\", which is MapServer-specific."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:177
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:170
 msgid "Render a map image with MapServer using the command line"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:179
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:172
 msgid "Although MapServer is geared towards web applications, it can also produce images on the command line. This can be useful if you are looking for repetitive mapping, or while debugging."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:183
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:176
 msgid "Open a terminal (:menuselection:`Applications --> Accessories --> Terminal Emulator`) and type::"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:188
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:181
 msgid "If this command runs successfully, you are able to see your rendered map at file:///home/user/mymap.png."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:195
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:187
 msgid "Add a new layer to the MapFile to serve a local shapefile"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:199
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:191
 msgid "**What will I learn ?** You will learn how to add a new layer object definition to your MapFile."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:202
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:194
 msgid "We will now add a new layer to our MapFile. Before the last *END* statement in the MapFile, add the following layer configuration::"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:217
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:209
 msgid "Now we have 2 layer definitions in our MapFile. Note that the new one we just added has the \"STATUS\" property set to \"ON\". That means that unless we specifically request it, it won't be rendered."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:221
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:213
 msgid "Let's take our previous WMS **GetMap** request and add our new \"Lakes\" layer to the image rendered. We simply need to add the new layer name to the \"LAYERS\" property list::"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:227
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:219
 msgid "The image rendered by MapServer looks like our previous map, but with the addition of the lakes from our new layer:"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:237
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:228
 msgid "Style a layer using MapFile configurations"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:241
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:232
 msgid "**What will I learn ?** You will see an example of styling elements inside a layer depending on some of its data properties."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:244
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:235
 msgid "In a MapFile, a LAYER object can contain an infinite number of CLASS objects. These are used to style the elements contained in the spatial data file (DATA). For example, if we look closer at our \"ne_10m_lakes\" data file using a tool such as `ogrinfo <http://www.gdal.org/ogrinfo.html>`_, we'll see the geometry and attribute definitions it contains. These attribute values can be used as a way to draw the elements inside a dataset differently using multiple CLASS objects."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:252
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:243
 msgid "In our \"ne_10m_lakes\" dataset, we have a *ScaleRank* attribute, which seems to be related ot the size of the lakes. We can use this as a way to render the lakes differently. In the LAYER object, we'll add another CLASS object just before our current one::"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:277
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:268
 msgid "What does our new CLASS object do? It basically tells MapServer to draw the elements having the \"ScaleRank\" property equal to \"0\" or \"1\" with a black outline. Class objects are always read from the top to the bottom for each feature to be drawn. When a feature matches the \"EXPRESSION\" specified in a class, that class is going to render the feature. If the feature does not match a class the next class is checked. If a feature does not match any class then it is not rendered at all but if the last class in a layer contains no EXPRESSION then that class acts as a default. The LAYER \"CLASSITEM\" property tells MapServer which attribute to use when evaluating EXPRESSIONs defined in the CLASS objects."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:288
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:279
 msgid "The result of this new addition should make the big lakes in our map image rendered with a black outline:"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:296
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:287
 msgid "Learn more about `EXPRESSIONS <http://mapserver.org/mapfile/expressions.html>`_ in MapServer."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:301
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:292
 msgid "What Next?"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:303
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:294
 msgid "This is a simple example, but you can do much, much more. The MapServer project website contains many resources to help you get started. Here's a few resources to check out next:"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:307
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:298
 msgid "Read the `Introduction to MapServer <http://mapserver.org/introduction.html#introduction>`_."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:309
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:300
 msgid "Have a look at the `MapServer Tutorial <http://www.mapserver.org/tutorial/index.html>`_ which contains more MapFile examples."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:312
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:303
 msgid "Check the `OGC Support and Configuration <http://www.mapserver.org/ogc/index.html>`_ to learn more about OGC standards in MapServer (WMS, WFS, SLD, WFS Filter Encoding, WCS, SOS, etc.)."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:315
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:306
 msgid "Ready to use MapServer? Then join the community on the `Mailing Lists <http://www.mapserver.org/community/lists.html>`_ to exchange ideas, discuss potential software improvements and ask questions."
 msgstr ""
 

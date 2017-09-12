@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,123 +17,124 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../overview/jts_overview.rst:11
+#: ../../build/doc/overview/jts_overview.rst:11
 msgid "JTS Topology Suite (JTS)"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:13
+#: ../../build/doc/overview/jts_overview.rst:13
 msgid ""
 "JTS is an open source library of spatial predicates and functions for "
 "processing geometries.  It provides a complete, consistent, and robust "
-"implementation of fundamental algorithms for processing linear geometry "
-"on the 2-dimensional Cartesian plane."
+"implementation of fundamental algorithms for processing linear geometry on "
+"the 2-dimensional Cartesian plane."
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:17
+#: ../../build/doc/overview/jts_overview.rst:17
 msgid ""
-"JTS includes the \"JTS Test Builder\" which allows users to run tests and"
-" experiment with geometry through an interactive desktop interface. JTS "
+"JTS includes the \"JTS Test Builder\" which allows users to run tests and "
+"experiment with geometry through an interactive desktop interface. JTS "
 "stability is ensured through an extensive test suite."
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:21
+#: ../../build/doc/overview/jts_overview.rst:21
 msgid ""
 "JTS is used by most java based Open Source geospatial applications, and "
-":doc:`geos_overview`, which is a C++ port of JTS, is used by most C based"
-" applications.  Additional ports are available for C# and JavaScript."
+":doc:`geos_overview`, which is a C++ port of JTS, is used by most C based "
+"applications.  Additional ports are available for C# and JavaScript."
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:31
+#: ../../build/doc/overview/jts_overview.rst:31
 msgid "Core Features"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:33
+#: ../../build/doc/overview/jts_overview.rst:33
 msgid "Geometry model (point, line, area)"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:34
+#: ../../build/doc/overview/jts_overview.rst:34
 msgid "Geometry operations (e.g., intersect, union, within, etc.)"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:35
+#: ../../build/doc/overview/jts_overview.rst:35
 msgid "Precision handling"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:36
+#: ../../build/doc/overview/jts_overview.rst:36
 msgid "Geometric constructions"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:37
+#: ../../build/doc/overview/jts_overview.rst:37
 msgid "Metric functions (e.g., Cartesian 2D distance, Hausdorff distance)"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:38
+#: ../../build/doc/overview/jts_overview.rst:38
 msgid ""
-"Spatial algorithms (e.g. buffer creation, line offsets, line "
-"simplification)"
+"Spatial algorithms (e.g. buffer creation, line offsets, line simplification)"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:39
+#: ../../build/doc/overview/jts_overview.rst:39
 msgid "Geometric math functions (e.g., angles, distances, etc.)"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:40
+#: ../../build/doc/overview/jts_overview.rst:40
 msgid "Spatial structures (e.g. Quadtree and R-tree, Delauney triangulation)"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:41
+#: ../../build/doc/overview/jts_overview.rst:41
 msgid "Input/Output (e.g., WKT, GML)"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:42
+#: ../../build/doc/overview/jts_overview.rst:42
 msgid "High-precision arithmetic"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:45
+#: ../../build/doc/overview/jts_overview.rst:45
 msgid "Supported Formats"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:47
+#: ../../build/doc/overview/jts_overview.rst:47
 msgid "Well Known Text (WKT) and Well Known Binary (WKB)"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:48
+#: ../../build/doc/overview/jts_overview.rst:48
 msgid "GML 2"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:49
+#: ../../build/doc/overview/jts_overview.rst:49
 msgid "Java Swing/AWT writing"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:52
+#: ../../build/doc/overview/jts_overview.rst:52
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:54
+#: ../../build/doc/overview/jts_overview.rst:54
 msgid "OGC Simple Features for SQL (SFSQL)"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:57
+#: ../../build/doc/overview/jts_overview.rst:57
 msgid "Details"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:59
-msgid "**Website:** https://sourceforge.net/projects/jts-topo-suite/"
-msgstr ""
-
-#: ../../../overview/jts_overview.rst:61
+#: ../../build/doc/overview/jts_overview.rst:61
 msgid "**Licence:** LGPL"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:63
+#: ../../build/doc/overview/jts_overview.rst:63
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:65
+#: ../../build/doc/overview/jts_overview.rst:65
 msgid "**API Interfaces:** Java"
 msgstr ""
 
-#: ../../../overview/jts_overview.rst:67
+#: ../../build/doc/overview/jts_overview.rst:67
 msgid "**Support:** https://sourceforge.net/projects/jts-topo-suite/"
 msgstr ""
 
+#: ../../build/doc/overview/jts_overview.rst:59
+msgid "**Website:** ttps://www.locationtech.org/projects/technology.jts"
+msgstr ""
+
+#~ msgid "**Website:** https://sourceforge.net/projects/jts-topo-suite/"
+#~ msgstr ""

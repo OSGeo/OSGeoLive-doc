@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,131 +17,149 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../quickstart/marble_quickstart.rst:15
+#: ../../build/doc/quickstart/marble_quickstart.rst:21
 msgid "KDE-edu Marble Quickstart"
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:20
+#: ../../build/doc/quickstart/marble_quickstart.rst:26
 msgid "Getting Started"
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:22
+#: ../../build/doc/quickstart/marble_quickstart.rst:28
 msgid ""
 "Click on the desktop icon in the \"Navigation and Maps\" folder to open "
 "Marble. You will see a window like this:"
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:27
+#: ../../build/doc/quickstart/marble_quickstart.rst:33
 msgid "You can:"
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:29
-msgid ""
-"Scale the globe by rotating the wheel at your mouse. To move around press"
-" the left button of your mouse and move it."
-msgstr ""
-
-#: ../../../quickstart/marble_quickstart.rst:31
+#: ../../build/doc/quickstart/marble_quickstart.rst:37
 msgid "Marble has got 11 different views:"
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:33
+#: ../../build/doc/quickstart/marble_quickstart.rst:39
 msgid "Atlas"
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:34
+#: ../../build/doc/quickstart/marble_quickstart.rst:40
 msgid "OpenStreetMap"
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:35
+#: ../../build/doc/quickstart/marble_quickstart.rst:41
 msgid "Satellite View"
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:36
+#: ../../build/doc/quickstart/marble_quickstart.rst:42
 msgid "Earth at Night"
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:37
+#: ../../build/doc/quickstart/marble_quickstart.rst:43
 msgid "Historical Map 1689"
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:38
+#: ../../build/doc/quickstart/marble_quickstart.rst:44
 msgid "Moon"
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:39
+#: ../../build/doc/quickstart/marble_quickstart.rst:45
 msgid "Plain Map"
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:40
+#: ../../build/doc/quickstart/marble_quickstart.rst:46
 msgid "Precipitation (December)"
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:41
+#: ../../build/doc/quickstart/marble_quickstart.rst:47
 msgid "Precipitation (July)"
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:42
+#: ../../build/doc/quickstart/marble_quickstart.rst:48
 msgid "Temperature (December)"
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:43
+#: ../../build/doc/quickstart/marble_quickstart.rst:49
 msgid "Temperature (July)."
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:45
+#: ../../build/doc/quickstart/marble_quickstart.rst:51
 msgid "To switch them click one of entries in \"Theme\" list in \"Map View\" tab."
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:50
+#: ../../build/doc/quickstart/marble_quickstart.rst:56
 msgid "Press a label in any place to view more information about it."
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:55
-msgid ""
-"Close panels by clicking the cross at the top-right corner of the panel. "
-"To close all the panels press \"F9\" or go to \"Settings->Panels->Hide "
-"All Panels\". Also you can show/hide a panel by clicking it's title at "
-"the \"Settings->Panels\" menu."
-msgstr ""
-
-#: ../../../quickstart/marble_quickstart.rst:60
+#: ../../build/doc/quickstart/marble_quickstart.rst:66
 msgid ""
 "To find a location, enter its name into the search line on the top of "
 "\"Search\" panel. As you start typing, suggestions below the search line "
 "will appear like this:"
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:65
+#: ../../build/doc/quickstart/marble_quickstart.rst:71
 msgid ""
 "Use bookmarks in Marble to remember the location of something. To add a "
 "bookmark press the left button of your mouse and click \"Add bookmark\". "
 "After it a window will appear like this:"
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:70
+#: ../../build/doc/quickstart/marble_quickstart.rst:76
 msgid ""
-"Write the name, description and destination folder of the bookmark and "
-"click the \"Ok\" button. Then the bookmark will appear. To manage "
-"bookmarks, go to \"Bookmarks->Manage Bookmarks\"."
+"Write the name, description and destination folder of the bookmark and click"
+" the \"Ok\" button. Then the bookmark will appear. To manage bookmarks, go "
+"to \"Bookmarks->Manage Bookmarks\"."
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:76
+#: ../../build/doc/quickstart/marble_quickstart.rst:82
 msgid "Things to Try"
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:78
+#: ../../build/doc/quickstart/marble_quickstart.rst:84
 msgid ""
 "See the `Marble documentation "
-"<https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ and try to "
-"use the Routing feature."
+"<https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ and try to use "
+"the Routing feature."
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:82
+#: ../../build/doc/quickstart/marble_quickstart.rst:88
 msgid "What Next?"
 msgstr ""
 
-#: ../../../quickstart/marble_quickstart.rst:84
-msgid "See the `Marble homepage <http://marble.kde.org/>`_ for more help."
+#: ../../build/doc/quickstart/marble_quickstart.rst:0
+msgid "Contents"
 msgstr ""
 
+#: ../../build/doc/quickstart/marble_quickstart.rst:35
+msgid ""
+"Scale the globe by rotating the wheel of your mouse. To move around press "
+"the left button of your mouse and move it."
+msgstr ""
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:61
+msgid ""
+"Close panels by clicking the cross at the top-right corner of the panel. To "
+"close all the panels press \"F9\" or go to \"Settings->Panels->Hide All "
+"Panels\". Also you can show/hide a panel by clicking its title at the "
+"\"Settings->Panels\" menu."
+msgstr ""
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:90
+msgid "See the `Marble homepage <https://marble.kde.org/>`_ for more help."
+msgstr ""
+
+#~ msgid ""
+#~ "Scale the globe by rotating the wheel at your mouse. To move around press "
+#~ "the left button of your mouse and move it."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Close panels by clicking the cross at the top-right corner of the panel. To "
+#~ "close all the panels press \"F9\" or go to \"Settings->Panels->Hide All "
+#~ "Panels\". Also you can show/hide a panel by clicking it's title at the "
+#~ "\"Settings->Panels\" menu."
+#~ msgstr ""
+
+#~ msgid "See the `Marble homepage <http://marble.kde.org/>`_ for more help."
+#~ msgstr ""

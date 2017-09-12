@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,146 +17,200 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../overview/zoo-project_overview.rst:18
+#: ../../build/doc/overview/zoo-project_overview.rst:19
 msgid "ZOO-Project"
 msgstr ""
 
-#: ../../../overview/zoo-project_overview.rst:21
+#: ../../build/doc/overview/zoo-project_overview.rst:22
 msgid "WPS Server"
 msgstr ""
 
-#: ../../../overview/zoo-project_overview.rst:23
-msgid ""
-"ZOO-Project provides a developer friendly Web Processing Service (WPS) "
-"framework for creating and chaining Web Processing Services. A WPS "
-"provides web access to functions which run spatial algorithms. ZOO-"
-"Project supports many programming languages and comes with two demo "
-"applications using simple spatialtools Services Providers (a C shared "
-"library and a Python module) based on the :doc:`GEOS <geos_overview>` and"
-" :doc:`OGR <gdal_overview>` Libraries."
-msgstr ""
-
-#: ../../../overview/zoo-project_overview.rst:29
+#: ../../build/doc/overview/zoo-project_overview.rst:31
 msgid "ZOO is made of three parts:"
 msgstr ""
 
-#: ../../../overview/zoo-project_overview.rst:36
+#: ../../build/doc/overview/zoo-project_overview.rst:38
 msgid ""
-"*ZOO Kernel* : A powerful server-side C Kernel which makes it possible to"
-" manage and chain Web services coded in different programming languages."
+"*ZOO Kernel* : A powerful server-side C Kernel which makes it possible to "
+"manage and chain Web services coded in different programming languages."
 msgstr ""
 
-#: ../../../overview/zoo-project_overview.rst:39
+#: ../../build/doc/overview/zoo-project_overview.rst:41
 msgid ""
-"*ZOO Services* : A growing suite of example Web services based on various"
-" Open Source libraries."
+"*ZOO Services* : A growing suite of example Web services based on various "
+"Open Source libraries."
 msgstr ""
 
-#: ../../../overview/zoo-project_overview.rst:42
+#: ../../build/doc/overview/zoo-project_overview.rst:44
 msgid ""
 "*ZOO API* : A server-side JavaScript API able to call and chain the ZOO "
 "Services, which makes the development and chaining processes easier."
 msgstr ""
 
-#: ../../../overview/zoo-project_overview.rst:45
+#: ../../build/doc/overview/zoo-project_overview.rst:47
 msgid ""
 "ZOO is based on a 'WPS Service Kernel' which constitutes the ZOO's core "
-"system (aka ZOO Kernel). The latter is able to load dynamic libraries and"
-" to handle them as on-demand Web services. The ZOO Kernel is written in C"
-" language, but supports several common programming languages in order to "
-"connect to numerous libraries and above all to simplify the Web service "
-"end-developer's job."
+"system (aka ZOO Kernel). The latter is able to load dynamic libraries and to"
+" handle them as on-demand Web services. The ZOO Kernel is written in C "
+"language, but supports several common programming languages in order to "
+"connect to numerous libraries and above all to simplify the Web service end-"
+"developer's job."
 msgstr ""
 
-#: ../../../overview/zoo-project_overview.rst:52
-msgid ""
-"A ZOO service is a link composed of a metadata file (.zcfg) and the code "
-"for the corresponding implementation. The metadata file describes all the"
-" available functions which can be called using a WPS Exec Request, as "
-"well as the desired input/output. Services contain the algorithms and "
-"functions, and can now be implemented in C/C++, Fortran, Java, Python, "
-"PHP and JavaScript."
-msgstr ""
-
-#: ../../../overview/zoo-project_overview.rst:60
+#: ../../build/doc/overview/zoo-project_overview.rst:62
 msgid "Core Features"
 msgstr ""
 
-#: ../../../overview/zoo-project_overview.rst:62
+#: ../../build/doc/overview/zoo-project_overview.rst:64
 msgid "Multi language WPS server"
 msgstr ""
 
-#: ../../../overview/zoo-project_overview.rst:63
+#: ../../build/doc/overview/zoo-project_overview.rst:65
 msgid "Simple Web Service creation and deployment procedure"
 msgstr ""
 
-#: ../../../overview/zoo-project_overview.rst:64
+#: ../../build/doc/overview/zoo-project_overview.rst:66
 msgid "Simple WPS chaining with ZOO API"
 msgstr ""
 
-#: ../../../overview/zoo-project_overview.rst:67
+#: ../../build/doc/overview/zoo-project_overview.rst:69
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../../overview/zoo-project_overview.rst:69
+#: ../../build/doc/overview/zoo-project_overview.rst:71
 msgid "OGC WPS 1.0.0"
 msgstr ""
 
-#: ../../../overview/zoo-project_overview.rst:72
+#: ../../build/doc/overview/zoo-project_overview.rst:75
 msgid "Demo"
 msgstr ""
 
-#: ../../../overview/zoo-project_overview.rst:74
-msgid ""
-"`Demo using simple C Services Provider based GEOS and OGR libraries "
-"<http://localhost/zoo-demo/spatialtools.html>`_"
-msgstr ""
-
-#: ../../../overview/zoo-project_overview.rst:75
-msgid ""
-"`Demo using simple Python Services Provider based GEOS and OGR libraries "
-"<http://localhost/zoo-demo/spatialtools-py.html>`_"
-msgstr ""
-
-#: ../../../overview/zoo-project_overview.rst:76
-msgid ""
-"`Simple html form to process your request to the ZOO Kernel "
-"<http://localhost/zoo-demo/spatialtools.html>`_"
-msgstr ""
-
-#: ../../../overview/zoo-project_overview.rst:80
+#: ../../build/doc/overview/zoo-project_overview.rst:83
 msgid "Details"
 msgstr ""
 
-#: ../../../overview/zoo-project_overview.rst:82
+#: ../../build/doc/overview/zoo-project_overview.rst:85
 msgid "**Website:** http://zoo-project.org"
 msgstr ""
 
-#: ../../../overview/zoo-project_overview.rst:84
+#: ../../build/doc/overview/zoo-project_overview.rst:87
 msgid "**Licence:** MIT x/11"
 msgstr ""
 
-#: ../../../overview/zoo-project_overview.rst:86
+#: ../../build/doc/overview/zoo-project_overview.rst:89
 msgid "**Software Version:** |version-zoo-project|"
 msgstr ""
 
-#: ../../../overview/zoo-project_overview.rst:88
+#: ../../build/doc/overview/zoo-project_overview.rst:91
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
-#: ../../../overview/zoo-project_overview.rst:90
-msgid "**Programing language support:** C, Python, Java, PHP, Fortran, Javascript"
-msgstr ""
-
-#: ../../../overview/zoo-project_overview.rst:92
-msgid "**Support:** http://zoo-project.org/trac"
-msgstr ""
-
-#: ../../../overview/zoo-project_overview.rst:96
+#: ../../build/doc/overview/zoo-project_overview.rst:99
 msgid "Quickstart"
 msgstr ""
 
-#: ../../../overview/zoo-project_overview.rst:98
+#: ../../build/doc/overview/zoo-project_overview.rst:101
 msgid ":doc:`Quickstart documentation <../quickstart/zoo-project_quickstart>`"
 msgstr ""
 
+#: ../../build/doc/overview/zoo-project_overview.rst:24
+msgid ""
+"ZOO-Project provides a developer friendly Web Processing Service (WPS) "
+"framework for creating and chaining Web Processing Services. A WPS provides "
+"web access to functions which run spatial algorithms. ZOO-Project supports "
+"many programming languages and comes with three demo applications. The first"
+" uses the simple spatialtools services based on the :doc:`GEOS "
+"<geos_overview>` and :doc:`OGR <gdal_overview>` libraries, the second "
+"showcase Voronoi and Delaunay triangulation (from the CGAL library) and the "
+"third present how to interract with OTB applications runninng as WPS "
+"services."
+msgstr ""
+
+#: ../../build/doc/overview/zoo-project_overview.rst:29
+msgid ""
+"The three demontration applications are available from the ZOO-Project demo "
+"landing page presented bellow."
+msgstr ""
+
+#: ../../build/doc/overview/zoo-project_overview.rst:54
+msgid ""
+"A ZOO service is a link composed of a metadata file (.zcfg) and the code for"
+" the corresponding implementation. The metadata file describes all the "
+"available functions which can be called using a WPS Exec Request, as well as"
+" the desired input/output. Services contain the algorithms and functions, "
+"and can now be implemented in C/C++, Fortran, Java, Python, PHP, Ruby, C# "
+"and JavaScript."
+msgstr ""
+
+#: ../../build/doc/overview/zoo-project_overview.rst:72
+msgid "OGC WPS 2.0.0"
+msgstr ""
+
+#: ../../build/doc/overview/zoo-project_overview.rst:77
+msgid ""
+"`Demo using Services Provider based GEOS and OGR libraries <http://localhost"
+"/zoo-demo/ogr-example.html>`_"
+msgstr ""
+
+#: ../../build/doc/overview/zoo-project_overview.rst:78
+msgid ""
+"`Demo using Services Provider based CGAL library <http://localhost/zoo-"
+"demo/cgal.html>`_"
+msgstr ""
+
+#: ../../build/doc/overview/zoo-project_overview.rst:79
+msgid ""
+"`Demo using OTB Applications as WPS Services <http://localhost/zoo-demo/otb-"
+"example.html>`_"
+msgstr ""
+
+#: ../../build/doc/overview/zoo-project_overview.rst:93
+msgid ""
+"**Programing language support:** C, Python, Java, PHP, Fortran, Javascript, "
+"C#, Ruby"
+msgstr ""
+
+#: ../../build/doc/overview/zoo-project_overview.rst:95
+msgid "**Support:** http://zoo-project.org/"
+msgstr ""
+
+#~ msgid ""
+#~ "ZOO-Project provides a developer friendly Web Processing Service (WPS) "
+#~ "framework for creating and chaining Web Processing Services. A WPS provides "
+#~ "web access to functions which run spatial algorithms. ZOO-Project supports "
+#~ "many programming languages and comes with two demo applications using simple"
+#~ " spatialtools Services Providers (a C shared library and a Python module) "
+#~ "based on the :doc:`GEOS <geos_overview>` and :doc:`OGR <gdal_overview>` "
+#~ "Libraries."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A ZOO service is a link composed of a metadata file (.zcfg) and the code for"
+#~ " the corresponding implementation. The metadata file describes all the "
+#~ "available functions which can be called using a WPS Exec Request, as well as"
+#~ " the desired input/output. Services contain the algorithms and functions, "
+#~ "and can now be implemented in C/C++, Fortran, Java, Python, PHP and "
+#~ "JavaScript."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Demo using simple C Services Provider based GEOS and OGR libraries "
+#~ "<http://localhost/zoo-demo/spatialtools.html>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Demo using simple Python Services Provider based GEOS and OGR libraries "
+#~ "<http://localhost/zoo-demo/spatialtools-py.html>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Simple html form to process your request to the ZOO Kernel "
+#~ "<http://localhost/zoo-demo/spatialtools.html>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Programing language support:** C, Python, Java, PHP, Fortran, Javascript"
+#~ msgstr ""
+
+#~ msgid "**Support:** http://zoo-project.org/trac"
+#~ msgstr ""

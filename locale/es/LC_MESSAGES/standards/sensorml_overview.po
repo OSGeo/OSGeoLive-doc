@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,95 +17,94 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../standards/sensorml_overview.rst:30
+#: ../../build/doc/standards/sensorml_overview.rst:30
 msgid "Sensor Model Language (SensorML)"
 msgstr ""
 
-#: ../../../standards/sensorml_overview.rst:35
+#: ../../build/doc/standards/sensorml_overview.rst:35
 msgid ""
 "The OGC Sensor Model Language (SensorML) Encoding Standard describes an "
 "information model and XML encodings that enable discovery and tasking of "
-"Web-resident sensors as well as exploitation of sensor observations. "
-"Within this context, SensorML allows the developer to define models and "
-"XML Schema for describing any process, including measurement by a sensor "
-"system, as well as post-measurement processing. "
+"Web-resident sensors as well as exploitation of sensor observations. Within "
+"this context, SensorML allows the developer to define models and XML Schema "
+"for describing any process, including measurement by a sensor system, as "
+"well as post-measurement processing. "
 "(http://www.opengeospatial.org/standards/sensorml)"
 msgstr ""
 
-#: ../../../standards/sensorml_overview.rst:41
+#: ../../build/doc/standards/sensorml_overview.rst:41
 msgid "More specifically, SensorML can:"
 msgstr ""
 
-#: ../../../standards/sensorml_overview.rst:43
+#: ../../build/doc/standards/sensorml_overview.rst:43
 msgid ""
-"Provide descriptions of sensors and sensor systems for inventory "
-"management Provide sensor and process information in support of resource "
-"and observation discovery;"
+"Provide descriptions of sensors and sensor systems for inventory management "
+"Provide sensor and process information in support of resource and "
+"observation discovery;"
 msgstr ""
 
-#: ../../../standards/sensorml_overview.rst:44
+#: ../../build/doc/standards/sensorml_overview.rst:44
 msgid "Support the processing and analysis of the sensor observations;"
 msgstr ""
 
-#: ../../../standards/sensorml_overview.rst:45
+#: ../../build/doc/standards/sensorml_overview.rst:45
 msgid "Support the geolocation of observed values (measured data);"
 msgstr ""
 
-#: ../../../standards/sensorml_overview.rst:46
+#: ../../build/doc/standards/sensorml_overview.rst:46
 msgid "Provide performance characteristics (e.g., accuracy, threshold, etc.);"
 msgstr ""
 
-#: ../../../standards/sensorml_overview.rst:47
+#: ../../build/doc/standards/sensorml_overview.rst:47
 msgid ""
-"Provide an explicit description of the process by which an observation "
-"was obtained (i.e., it's lineage);"
+"Provide an explicit description of the process by which an observation was "
+"obtained (i.e., it's lineage);"
 msgstr ""
 
-#: ../../../standards/sensorml_overview.rst:48
+#: ../../build/doc/standards/sensorml_overview.rst:48
 msgid ""
-"Provide an executable process chain for deriving new data products on "
-"demand (i.e., derivable observation);"
+"Provide an executable process chain for deriving new data products on demand"
+" (i.e., derivable observation);"
 msgstr ""
 
-#: ../../../standards/sensorml_overview.rst:49
-msgid "Archive fundamental properties and assumptions regarding sensor systems."
+#: ../../build/doc/standards/sensorml_overview.rst:49
+msgid ""
+"Archive fundamental properties and assumptions regarding sensor systems."
 msgstr ""
 
-#: ../../../standards/sensorml_overview.rst:51
+#: ../../build/doc/standards/sensorml_overview.rst:51
 msgid ""
-"Individual SensorML schema describe a specific sensor or an array of "
-"sensors and can be stored in a registry."
+"Individual SensorML schema describe a specific sensor or an array of sensors"
+" and can be stored in a registry."
 msgstr ""
 
-#: ../../../standards/sensorml_overview.rst:53
+#: ../../build/doc/standards/sensorml_overview.rst:53
 msgid ""
-"There are numerous examples of SensorML implementations, such as the NASA"
-" MSFC SMART program "
+"There are numerous examples of SensorML implementations, such as the NASA "
+"MSFC SMART program "
 "(http://smartdev.itsc.uah.edu/casestudy/documents/paper_nstc_2007_A1P1.pdf)."
-" In this project the team developed a sensor web-enabled processing "
-"workflow to intelligently assimilate Atmospheric Infrared Sounder (AIRS) "
-"satellite temperature and moisture retrievals into a regional "
-"configuration of the Weather Research and Forecast model over the "
-"southeastern United States."
+" In this project the team developed a sensor web-enabled processing workflow"
+" to intelligently assimilate Atmospheric Infrared Sounder (AIRS) satellite "
+"temperature and moisture retrievals into a regional configuration of the "
+"Weather Research and Forecast model over the southeastern United States."
 msgstr ""
 
-#: ../../../standards/sensorml_overview.rst:56
+#: ../../build/doc/standards/sensorml_overview.rst:56
 msgid "See Also"
 msgstr ""
 
-#: ../../../standards/sensorml_overview.rst:61
+#: ../../build/doc/standards/sensorml_overview.rst:61
 msgid ":doc:`sos_overview`"
 msgstr ""
 
-#: ../../../standards/sensorml_overview.rst:62
+#: ../../build/doc/standards/sensorml_overview.rst:62
 msgid "Sensor Planning Service"
 msgstr ""
 
-#: ../../../standards/sensorml_overview.rst:63
+#: ../../build/doc/standards/sensorml_overview.rst:63
 msgid "Observations and Measurements"
 msgstr ""
 
-#: ../../../standards/sensorml_overview.rst:64
+#: ../../build/doc/standards/sensorml_overview.rst:64
 msgid "Transducer Markup Language"
 msgstr ""
-

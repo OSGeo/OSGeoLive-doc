@@ -2,7 +2,7 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -17,107 +17,105 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../../overview/tinyows_overview.rst:18
+#: ../../build/doc/overview/tinyows_overview.rst:18
 msgid "TinyOWS"
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:21
+#: ../../build/doc/overview/tinyows_overview.rst:21
 msgid "Web Feature Service"
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:23
+#: ../../build/doc/overview/tinyows_overview.rst:23
 msgid ""
 "TinyOWS is a high performance, Transactional Web Feature Service (WFS-T) "
-"which is light weight and easy to deploy, using a CGI or FastCGI "
-"interface and using :doc:`PostGIS <postgis_overview>` for data storage."
+"which is light weight and easy to deploy, using a CGI or FastCGI interface "
+"and using :doc:`PostGIS <postgis_overview>` for data storage."
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:30
+#: ../../build/doc/overview/tinyows_overview.rst:30
 msgid ""
 "TinyOWS is commonly used in conjunction with :doc:`MapServer "
-"<mapserver_overview>` to provide WFS-T and fast WFS services for "
-":doc:`QGIS <qgis_overview>` and/or :doc:`OpenLayers "
-"<openlayers_overview>` clients. It is used in production in organisations"
-" around the world, including risk adverse government agencies. TinyOWS "
-"strictly implements the WFS 1.0 and 1.1 standards, and has passed all OGC"
-" CITE units tests (~ 1000 unit tests)."
+"<mapserver_overview>` to provide WFS-T and fast WFS services for :doc:`QGIS "
+"<qgis_overview>` and/or :doc:`OpenLayers <openlayers_overview>` clients. It "
+"is used in production in organisations around the world, including risk "
+"adverse government agencies. TinyOWS strictly implements the WFS 1.0 and 1.1"
+" standards, and has passed all OGC CITE units tests (~ 1000 unit tests)."
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:34
+#: ../../build/doc/overview/tinyows_overview.rst:34
 msgid "Core Features"
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:36
+#: ../../build/doc/overview/tinyows_overview.rst:36
 msgid "Transactional Web Feature Service (WFS-T)"
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:37
+#: ../../build/doc/overview/tinyows_overview.rst:37
 msgid "CGI and FastCGI interface"
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:38
+#: ../../build/doc/overview/tinyows_overview.rst:38
 msgid "PostGIS data connection"
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:39
+#: ../../build/doc/overview/tinyows_overview.rst:39
 msgid "GML 2.1.2, 3.1.1 and GeoJson 1.0 output"
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:40
+#: ../../build/doc/overview/tinyows_overview.rst:40
 msgid ""
 "Configured using MapServer's configuration file, allowing a single "
 "configuration file for both applications."
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:43
+#: ../../build/doc/overview/tinyows_overview.rst:43
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:44
+#: ../../build/doc/overview/tinyows_overview.rst:44
 msgid "WFS 1.0 and WFS 1.1: Basic and Transactionnal profiles"
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:45
+#: ../../build/doc/overview/tinyows_overview.rst:45
 msgid "FE 1.0.0 and FE 1.1.0"
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:46
+#: ../../build/doc/overview/tinyows_overview.rst:46
 msgid "GML 2.1.2 and 3.1.1 Simple Profile (SF-0)"
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:49
+#: ../../build/doc/overview/tinyows_overview.rst:49
 msgid "Details"
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:51
+#: ../../build/doc/overview/tinyows_overview.rst:51
 msgid "**Website:** http://mapserver.org/tinyows/"
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:53
+#: ../../build/doc/overview/tinyows_overview.rst:53
 msgid "**Licence:** MIT"
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:55
+#: ../../build/doc/overview/tinyows_overview.rst:55
 msgid "**Software Version:** |version-tinyows|"
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:57
+#: ../../build/doc/overview/tinyows_overview.rst:57
 msgid "**Supported Platforms:** Linux, Unix, Mac, Windows"
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:59
+#: ../../build/doc/overview/tinyows_overview.rst:59
 msgid "**API Interfaces:** CGI/FastCGI"
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:61
+#: ../../build/doc/overview/tinyows_overview.rst:61
 msgid "**Support:** http://lists.osgeo.org/mailman/listinfo/mapserver-users"
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:65
+#: ../../build/doc/overview/tinyows_overview.rst:65
 msgid "Quickstart"
 msgstr ""
 
-#: ../../../overview/tinyows_overview.rst:67
+#: ../../build/doc/overview/tinyows_overview.rst:67
 msgid ":doc:`Quickstart documentation <../quickstart/tinyows_quickstart>`"
 msgstr ""
-
