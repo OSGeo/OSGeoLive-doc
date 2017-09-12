@@ -103,7 +103,7 @@ if (LOCALE)
         "${CMAKE_CURRENT_BINARY_DIR}" 
         "${CMAKE_SOURCE_DIR}/locale/pot" 
 
-        COMMAND sphinx-intl update -p ${CMAKE_SOURCE_DIR}/locale/pot -d ${CMAKE_SOURCE_DIR}/locale --language=${SPHINXINTL_LANGUAGE}
+        COMMAND sphinx-intl update -d ${CMAKE_SOURCE_DIR}/locale
 
         DEPENDS overview/overview.rst metrics.rst
 
