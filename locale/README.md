@@ -22,6 +22,7 @@ rm -rf build/*
 cd build
 cmake  -DLOCALE=ON ..
 make locale > locale_log.txt
+cd ..
 ```
 
 list .pot files
