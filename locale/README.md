@@ -8,6 +8,9 @@
 - Installing the tx client: https://docs.transifex.com/client/installing-the-client
 - Introduction to the client: https://docs.transifex.com/client/introduction
 - Sphinx-intl installation: https://pypi.python.org/pypi/sphinx-intl
+  ```
+  pip install sphinx-intl
+  ```
 - Sphinx: http://www.sphinx-doc.org/en/stable/intl.html
 
 
