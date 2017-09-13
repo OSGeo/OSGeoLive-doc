@@ -12,6 +12,12 @@
 
 
 To get latest pot files
+
+- make sure `build` directory is empty
+```
+rm -rf build/*
+```
+- build the pot/po files
 ```
 cd build
 cmake  -DLOCALE=ON ..
