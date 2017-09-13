@@ -15,17 +15,17 @@ To get latest pot files
 ```
 cd build
 cmake  -DLOCALE=ON ..
-make locale
+make locale > locale_log.txt
 ```
 
-list pot files
+list .pot files
 ```
-ls -R doc/_build/gettext/pot
+ls -R locale/pot
 ```
 
-list A language po files
+list a language's .po files for example spanish:
 ```
-ls -R doc/_build/gettext/es
+ls -R locale/es
 ```
 
 
@@ -33,15 +33,6 @@ ls -R doc/_build/gettext/es
 ## Change only what is needed
 
 See the section **Which resources need change** before continuing.
-
-
-* Copy the pot files that changed and all the corresponding po files in other languages
-
-```
-cp doc/_build/gettext/sponsors_osgeo.pot ../locale/pot
-cp doc/_build/locale/en/LC_MESSAGES/sponsors_osgeo.po ../locale/en/LC_MESSAGES
-cp doc/_build/locale/es/LC_MESSAGES/sponsors_osgeo.po ../locale/es/LC_MESSAGES
-```
 
 
 ### Push the resource to transifex
