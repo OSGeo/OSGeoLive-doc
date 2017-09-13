@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-12 09:55-0500\n"
+"POT-Creation-Date: 2017-09-13 14:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,10 +22,6 @@ msgstr ""
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:9
 msgid "Leaflet is a JavaScript library for browser-based, mobile-friendly, interactive maps.  It is lightweight, yet has all the features most developers ever need for online maps. Leaflet is designed with simplicity, performance and usability in mind."
-msgstr ""
-
-#: ../../build/doc/quickstart/leaflet_quickstart.rst:0
-msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:14

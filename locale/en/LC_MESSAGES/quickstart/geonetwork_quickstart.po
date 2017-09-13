@@ -2,20 +2,20 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"POT-Creation-Date: 2017-09-13 14:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.5.0\n"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:22
 msgid "GeoNetwork Quickstart"
@@ -31,9 +31,9 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:29
 msgid ""
-"Apart from how to start the catalog, this Quick Start describes: * some of "
-"the different ways you can search for spatial data * how to download and "
-"display data from the search results"
+"Apart from how to start the catalog, this Quick Start describes: * some "
+"of the different ways you can search for spatial data * how to download "
+"and display data from the search results"
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:36
@@ -42,14 +42,14 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:38
 msgid ""
-"After going through the installer steps, simply go to bin folder and click "
-"on start.bat (on windows) or start.sh (on linux)."
+"After going through the installer steps, simply go to bin folder and "
+"click on start.bat (on windows) or start.sh (on linux)."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:42
 msgid ""
-"Go to the home page at ``http://localhost:8880/geonetwork``. Your first view"
-" should look like this:"
+"Go to the home page at ``http://localhost:8880/geonetwork``. Your first "
+"view should look like this:"
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:50
@@ -58,8 +58,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:53
 msgid ""
-"Click the ``sign in`` to connect as administrator. The default account is "
-"username ``admin`` with password ``admin``."
+"Click the ``sign in`` to connect as administrator. The default account is"
+" username ``admin`` with password ``admin``."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:59
@@ -74,8 +74,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:71
 msgid ""
-"Choose all standards and click ``load samples`` and then ``load templates`` "
-"in order to load examples:"
+"Choose all standards and click ``load samples`` and then ``load "
+"templates`` in order to load examples:"
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:77
@@ -120,7 +120,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:118
 msgid ""
-"Clicking the record will provide more in depth details about the resources:"
+"Clicking the record will provide more in depth details about the "
+"resources:"
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:120
@@ -148,9 +149,13 @@ msgstr ""
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:133
 msgid ""
 "From the results or the record view, you can easily add WMS layers "
-"referenced in a metadata record on the map. With the map, you can visualize "
-"your data, choose your background maps, query objects, display on a 3D globe"
-" and more ..."
+"referenced in a metadata record on the map. With the map, you can "
+"visualize your data, choose your background maps, query objects, display "
+"on a 3D globe and more ..."
+msgstr ""
+
+#: ../../build/doc/quickstart/geonetwork_quickstart.rst:143
+msgid "What Next?"
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:145
@@ -159,13 +164,9 @@ msgid ""
 "opensource.org/docs.html"
 msgstr ""
 
-#: ../../build/doc/quickstart/geonetwork_quickstart.rst:0
-msgid "Contents"
-msgstr ""
-
-#: ../../build/doc/quickstart/geonetwork_quickstart.rst:143
-msgid "What Next?"
-msgstr ""
-
 #~ msgid "For more information"
 #~ msgstr ""
+
+#~ msgid "Contents"
+#~ msgstr ""
+

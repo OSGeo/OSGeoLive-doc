@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-12 09:55-0500\n"
+"POT-Creation-Date: 2017-09-13 14:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,10 +26,6 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:25
 msgid "On this OSGeo Live DVD we have included a ready-to-use Geomajas Application. This application features a map, navigation controllers, several data layers, a ribbon toolbar with GIS tools and the Layer Tree."
-msgstr ""
-
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:0
-msgid "In this quickstart"
 msgstr ""
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:36

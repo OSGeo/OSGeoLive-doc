@@ -2,23 +2,45 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"POT-Creation-Date: 2017-09-13 14:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.5.0\n"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:21
 msgid "deegree 3 webservices quickstart"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:23
+msgid ""
+"deegree is a Java application for serving maps (and vector data) for "
+"other clients to show."
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:25
+msgid "This Quick Start describes how to:"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:27
+msgid "start deegree webservices"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:28
+msgid "configure deegree webservices via the deegree services console"
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:29
+msgid "use the *deegree-inspire-workspace* as a starting point"
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:35
@@ -27,8 +49,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:37
 msgid ""
-"*deegree* is open source software for spatial data infrastructures and the "
-"geospatial web."
+"*deegree* is open source software for spatial data infrastructures and "
+"the geospatial web."
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:40
@@ -48,8 +70,7 @@ msgid "Start *deegree 3 webservices* on the Live DVD"
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:47
-msgid ""
-"Use the *deegree 3 services console* to activate example configurations"
+msgid "Use the *deegree 3 services console* to activate example configurations"
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:48
@@ -63,8 +84,8 @@ msgstr ""
 #: ../../build/doc/quickstart/deegree_quickstart.rst:54
 msgid ""
 "*deegree 3* is the new generation of the deegree Java framework for GIS "
-"applications and OGC-service implementations. It can be used to build web-"
-"based geospatial-data-infrastructures (GDI)."
+"applications and OGC-service implementations. It can be used to build "
+"web-based geospatial-data-infrastructures (GDI)."
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:60
@@ -74,8 +95,8 @@ msgstr ""
 #: ../../build/doc/quickstart/deegree_quickstart.rst:62
 msgid ""
 "Choose *'Start deegree'* from the :menuselection:`Geospatial --> Web "
-"Services --> deegree` menu. The application will take a few moments to start"
-" up."
+"Services --> deegree` menu. The application will take a few moments to "
+"start up."
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:68
@@ -84,11 +105,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:70
 msgid ""
-"When you start *deegree* for the first time, firefox should open (otherwise "
-"open it manually and point your browser to http://localhost:8033). Please "
-"wait until you can see the *deegree 3 services console*. This is a simple "
-"web-based GUI for editing the configuration files of the so-called *deegree "
-"workspace*."
+"When you start *deegree* for the first time, firefox should open "
+"(otherwise open it manually and point your browser to "
+"http://localhost:8033). Please wait until you can see the *deegree 3 "
+"services console*. This is a simple web-based GUI for editing the "
+"configuration files of the so-called *deegree workspace*."
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:78
@@ -110,10 +131,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:87
 msgid ""
-"You are now in the workspace management of the running *deegree* instance. "
-"You can see which workspace is currently active (only one can be active at a"
-" time) workspace, inactive locally available workspaces and offical "
-"workspaces which can be imported if you have a internet connection."
+"You are now in the workspace management of the running *deegree* "
+"instance. You can see which workspace is currently active (only one can "
+"be active at a time) workspace, inactive locally available workspaces and"
+" offical workspaces which can be imported if you have a internet "
+"connection."
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:92
@@ -128,6 +150,18 @@ msgstr ""
 msgid "*deegree-workspace-inspire*"
 msgstr ""
 
+#: ../../build/doc/quickstart/deegree_quickstart.rst:100
+msgid ""
+"This workspace includes an example configuration for INSPIRE View- and "
+"Download-Services. It consists of a transactional WFS (2.0.0 and 1.1.0) "
+"for all Annex I Data Themes and a WMS (1.3.0 and 1.1.1) which serves "
+"three layers of those Annex I Data Themes. Included are some harmonized "
+"dutch administrative units, cadastral parcels and addresses. The WFS in "
+"this example acts as an INSPIRE Download service (direct access) and "
+"outputs valid, harmonized INSPIRE GML. Additionally it supports multiple "
+"request types and queries."
+msgstr ""
+
 #: ../../build/doc/quickstart/deegree_quickstart.rst:112
 msgid ""
 "This workspace loads harmonized INSPIRE GML from local files. This can "
@@ -137,24 +171,33 @@ msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:116
 msgid ""
-"After activating the *deegree-workspace-inspire* you can open a simple map-"
-"client by clicking on *'see layers'*. The service is configured to visualize"
-" the data and a basemap (rendered by `OpenStreetMap "
+"After activating the *deegree-workspace-inspire* you can open a simple "
+"map-client by clicking on *'see layers'*. The service is configured to "
+"visualize the data and a basemap (rendered by `OpenStreetMap "
 "<http://openstreetmap.org/>`_)."
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:121
 msgid ""
 "A click on the **+** on the right side opens a layer tree showing all "
-"available layers. You can activate the INSPIRE layer served by the deegree "
-"WMS here."
+"available layers. You can activate the INSPIRE layer served by the "
+"deegree WMS here."
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:125
 msgid ""
-"The map client is based on `OpenLayers <http://openlayers.org/>`_. You can "
-"pan through the map holding the left mouse button and drag the map. Zooming "
-"is possible via mouse wheel or the navigation elements on the left side."
+"The map client is based on `OpenLayers <http://openlayers.org/>`_. You "
+"can pan through the map holding the left mouse button and drag the map. "
+"Zooming is possible via mouse wheel or the navigation elements on the "
+"left side."
+msgstr ""
+
+#: ../../build/doc/quickstart/deegree_quickstart.rst:129
+msgid ""
+"More information and step-by-step tutorials about the INSPIRE workspace "
+"can be found in the deegree `documentation "
+"<http://download.deegree.org/documentation/3.3.20/html/lightly.html"
+"#example-workspace-1-inspire-network-services>`_."
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:134
@@ -183,66 +226,33 @@ msgstr ""
 msgid "Available here: http://www.deegree.org"
 msgstr ""
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:23
-msgid ""
-"deegree is a Java application for serving maps (and vector data) for other "
-"clients to show."
-msgstr ""
-
-#: ../../build/doc/quickstart/deegree_quickstart.rst:25
-msgid "This Quick Start describes how to:"
-msgstr ""
-
-#: ../../build/doc/quickstart/deegree_quickstart.rst:27
-msgid "start deegree webservices"
-msgstr ""
-
-#: ../../build/doc/quickstart/deegree_quickstart.rst:28
-msgid "configure deegree webservices via the deegree services console"
-msgstr ""
-
-#: ../../build/doc/quickstart/deegree_quickstart.rst:29
-msgid "use the *deegree-inspire-workspace* as a starting point"
-msgstr ""
-
-#: ../../build/doc/quickstart/deegree_quickstart.rst:0
-msgid "Contents"
-msgstr ""
-
-#: ../../build/doc/quickstart/deegree_quickstart.rst:100
-msgid ""
-"This workspace includes an example configuration for INSPIRE View- and "
-"Download-Services. It consists of a transactional WFS (2.0.0 and 1.1.0) for "
-"all Annex I Data Themes and a WMS (1.3.0 and 1.1.1) which serves three "
-"layers of those Annex I Data Themes. Included are some harmonized dutch "
-"administrative units, cadastral parcels and addresses. The WFS in this "
-"example acts as an INSPIRE Download service (direct access) and outputs "
-"valid, harmonized INSPIRE GML. Additionally it supports multiple request "
-"types and queries."
-msgstr ""
-
-#: ../../build/doc/quickstart/deegree_quickstart.rst:129
-msgid ""
-"More information and step-by-step tutorials about the INSPIRE workspace can "
-"be found in the deegree `documentation "
-"<http://download.deegree.org/documentation/3.3.20/html/lightly.html#example-"
-"workspace-1-inspire-network-services>`_."
-msgstr ""
-
 #~ msgid ""
-#~ "This workspace includes an example configuration for INSPIRE View- and "
-#~ "Download-Services. It consists of a transactional WFS (2.0.0 and 1.1.0) for "
-#~ "all Annex I Data Themes and a WMS (1.3.0 and 1.1.1) which serves three "
-#~ "layers of those Annex I Data Themes. Included are some harmonized dutch "
-#~ "administrative units, cadastral parcels and addresses. The WFS in this "
-#~ "example acts as an INSPIRE Download service (direct access) and outputs "
-#~ "valid, harmonized INSPIRE GML. Additionally it supports multiple request "
-#~ "types and querys."
+#~ "This workspace includes an example "
+#~ "configuration for INSPIRE View- and "
+#~ "Download-Services. It consists of a "
+#~ "transactional WFS (2.0.0 and 1.1.0) for"
+#~ " all Annex I Data Themes and a"
+#~ " WMS (1.3.0 and 1.1.1) which serves"
+#~ " three layers of those Annex I "
+#~ "Data Themes. Included are some "
+#~ "harmonized dutch administrative units, "
+#~ "cadastral parcels and addresses. The WFS"
+#~ " in this example acts as an "
+#~ "INSPIRE Download service (direct access) "
+#~ "and outputs valid, harmonized INSPIRE "
+#~ "GML. Additionally it supports multiple "
+#~ "request types and querys."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "More information and step-by-step tutorials about the INSPIRE workspace can "
-#~ "be found in the deegree `documentation "
-#~ "<http://download.deegree.org/documentation/3.3.18/html/lightly.html#example-"
-#~ "workspace-1-inspire-network-services>`_."
+#~ "More information and step-by-step "
+#~ "tutorials about the INSPIRE workspace "
+#~ "can be found in the deegree "
+#~ "`documentation "
+#~ "<http://download.deegree.org/documentation/3.3.18/html/lightly.html"
+#~ "#example-workspace-1-inspire-network-services>`_."
 #~ msgstr ""
+
+#~ msgid "Contents"
+#~ msgstr ""
+

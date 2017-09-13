@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-12 09:55-0500\n"
+"POT-Creation-Date: 2017-09-13 14:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,10 +26,6 @@ msgstr ""
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:19
 msgid "This quickstart describes how to process data and store the result in another web service using WPS operations."
-msgstr ""
-
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:0
-msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:24
