@@ -6,7 +6,7 @@
 
 .. _mapbender-overview-pl:
 
-.. image:: /images/project_logos/logo-Mapbender3.png
+.. image:: /images/project_logos/logo-Mapbender.png
   :alt: project logo
   :align: right
   :target: http://www.mapbender3.org

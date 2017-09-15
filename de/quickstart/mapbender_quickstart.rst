@@ -5,7 +5,7 @@
 :Thanks: mapbender-user list
 
 
-.. image:: /images/project_logos/logo-Mapbender3.png
+.. image:: /images/project_logos/logo-Mapbender.png
   :scale: 70 %
   :alt: project logo
   :align: right
