@@ -105,6 +105,9 @@ if (LOCALE)
 
         COMMAND sphinx-intl update -d ${CMAKE_SOURCE_DIR}/locale
 
+        COMMAND sphinx-intl update-txconfig-resources --pot-dir ${CMAKE_SOURCE_DIR}/locale/pot --transifex-project-name osgeolive
+
+
         DEPENDS overview/overview.rst metrics.rst
 
         COMMENT "Generating POT & PO files ..."

@@ -38,6 +38,11 @@ list a language's .po files for example spanish:
 ls -R locale/es
 ```
 
+# verify the changes on the config file for transifex
+```
+git diff .tx/config
+```
+
 
 
 ## Change only what is needed
@@ -54,7 +59,7 @@ tx push --source -r test_osgeolive.sponsors_osgeo
 ### Pull transtlated strings
 
 ```
-tx pull -r labtest_osgeolive.sponsors_osgeo -l es
+tx pull -r test_osgeolive.sponsors_osgeo -l es
 ```
 
 Note: if the file is skip `-f` forces the pull but basically it means:
