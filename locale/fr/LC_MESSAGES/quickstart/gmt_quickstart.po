@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-13 14:22-0500\n"
+"POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -159,28 +159,4 @@ msgstr ""
 #: ../../build/doc/quickstart/gmt_quickstart.rst:145
 msgid "Ghostview  http://www.gnu.org/software/gv/"
 msgstr ""
-
-#~ msgid "Running"
-#~ msgstr ""
-
-#~ msgid "Local documentation can be found in"
-#~ msgstr ""
-
-#~ msgid "`/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_,"
-#~ msgstr ""
-
-#~ msgid "examples can be found in"
-#~ msgstr ""
-
-#~ msgid "`/usr/share/doc/gmt/examples <../../gmt/examples/>`_,"
-#~ msgstr ""
-
-#~ msgid "Examples"
-#~ msgstr ""
-
-#~ msgid "There are 30 example jobs built in:"
-#~ msgstr ""
-
-#~ msgid "Contents"
-#~ msgstr ""
 

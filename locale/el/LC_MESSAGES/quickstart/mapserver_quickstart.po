@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-13 14:22-0500\n"
+"POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -336,25 +336,4 @@ msgid ""
 "<http://www.mapserver.org/community/lists.html>`_ to exchange ideas, "
 "discuss potential software improvements and ask questions."
 msgstr ""
-
-#~ msgid "This Quick Start describes how to:"
-#~ msgstr ""
-
-#~ msgid ":ref:`mapserver-quickstart-configure-with-mapfile-en`"
-#~ msgstr ""
-
-#~ msgid ":ref:`mapserver-quickstart-wms-request-en`"
-#~ msgstr ""
-
-#~ msgid ":ref:`mapserver-quickstart-cmd-en`"
-#~ msgstr ""
-
-#~ msgid ":ref:`mapserver-quickstart-add-new-layer-en`"
-#~ msgstr ""
-
-#~ msgid ":ref:`mapserver-quickstart-styling-a-layer-en`"
-#~ msgstr ""
-
-#~ msgid "This Quick Start Contents"
-#~ msgstr ""
 

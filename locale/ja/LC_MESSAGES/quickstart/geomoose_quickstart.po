@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-13 14:22-0500\n"
+"POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -290,19 +290,4 @@ msgstr ""
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:154
 msgid "https://docs.geomoose.org/2.9/getting_started.html"
 msgstr ""
-
-#~ msgid "IDing a location in GeoMoose"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You can ID a location in the "
-#~ "interface by clicking on the "
-#~ "\"identify\", (\"i\" in a blue circle"
-#~ " icon) button in the top toolbar, "
-#~ "and then clicking a point on the"
-#~ " map to identify."
-#~ msgstr ""
-
-#~ msgid "Contents"
-#~ msgstr ""
 

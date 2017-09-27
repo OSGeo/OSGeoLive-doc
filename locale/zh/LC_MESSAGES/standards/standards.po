@@ -2,20 +2,20 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.5.0\n"
 
 #: ../../build/doc/standards/standards.rst:7
 msgid "Open Geospatial Consortium Standards"
@@ -27,18 +27,19 @@ msgstr ""
 
 #: ../../build/doc/standards/standards.rst:11
 msgid ""
-"The Open Geospatial Consortium (OGC) was founded in 1994 to make geographic "
-"information an integral part of the world’s information infrastructure. OGC "
-"members – technology providers and technology users -- collaboratively "
-"develop open interface standards and associated encoding standards, and also"
-" best practices, that enable developers to create information systems that "
-"can easily exchange “geospatial” information and instructions with other "
-"information systems. Requirements range from complex scheduling and control "
-"of Earth observation satellites to displaying simple map images on the Web "
-"and encoding location in just a few bytes for geo-tagging and messaging. A "
-"look at the OGC Domain Working Groups "
-"(http://www.opengeospatial.org/projects/groups/wg) shows the wide scope of "
-"current activity in the OGC."
+"The Open Geospatial Consortium (OGC) was founded in 1994 to make "
+"geographic information an integral part of the world’s information "
+"infrastructure. OGC members – technology providers and technology users "
+"-- collaboratively develop open interface standards and associated "
+"encoding standards, and also best practices, that enable developers to "
+"create information systems that can easily exchange “geospatial” "
+"information and instructions with other information systems. Requirements"
+" range from complex scheduling and control of Earth observation "
+"satellites to displaying simple map images on the Web and encoding "
+"location in just a few bytes for geo-tagging and messaging. A look at the"
+" OGC Domain Working Groups "
+"(http://www.opengeospatial.org/projects/groups/wg) shows the wide scope "
+"of current activity in the OGC."
 msgstr ""
 
 #: ../../build/doc/standards/standards.rst:14
@@ -51,17 +52,18 @@ msgid ""
 "(http://www.opengeospatial.org/standards) for interfaces, encodings, "
 "profiles, application schemas, and best practice documents. The OGC "
 "Reference Model (ORM) (http://www.opengeospatial.org/standards/orm) "
-"describes these standards and the relationships between them and related ISO"
-" standards. The ORM provides an overview of OGC standards and serves as a "
-"useful resource for defining architectures for specific applications."
+"describes these standards and the relationships between them and related "
+"ISO standards. The ORM provides an overview of OGC standards and serves "
+"as a useful resource for defining architectures for specific "
+"applications."
 msgstr ""
 
 #: ../../build/doc/standards/standards.rst:18
 msgid ""
 "In developing a Web services application using OGC standards (and in "
-"learning about the relationships between OGC standards) it helps to think of"
-" publish, find and bind as the key functions for applications in a Web "
-"services environment."
+"learning about the relationships between OGC standards) it helps to think"
+" of publish, find and bind as the key functions for applications in a Web"
+" services environment."
 msgstr ""
 
 #: ../../build/doc/standards/standards.rst:20
@@ -70,31 +72,32 @@ msgstr ""
 
 #: ../../build/doc/standards/standards.rst:21
 msgid ""
-"Find: End users and their applications can discover resources that they need"
-" at run-time."
+"Find: End users and their applications can discover resources that they "
+"need at run-time."
 msgstr ""
 
 #: ../../build/doc/standards/standards.rst:22
 msgid ""
-"Bind: End users and their applications can access and exercise resources at "
-"run-time."
+"Bind: End users and their applications can access and exercise resources "
+"at run-time."
 msgstr ""
 
 #: ../../build/doc/standards/standards.rst:24
 msgid ""
-"Most of the OGC standards developed in recent years are standards for the "
-"Web services environment, and these standards are collectively referred to "
-"as OGC Web Services (OWS). The figure below provides a general architectural"
-" schema for OGC Web Services. This schema identifies the generic classes of "
-"services that participate in various geoprocessing and location activities."
+"Most of the OGC standards developed in recent years are standards for the"
+" Web services environment, and these standards are collectively referred "
+"to as OGC Web Services (OWS). The figure below provides a general "
+"architectural schema for OGC Web Services. This schema identifies the "
+"generic classes of services that participate in various geoprocessing and"
+" location activities."
 msgstr ""
 
 #: ../../build/doc/standards/standards.rst:31
 msgid ""
-"Acronyms in the figure are defined below. Some of these are “OGC standards” "
-"and others are publicly available “Discussion Papers”, “Requests” and "
-"“Recommendation Papers”. (Note that some in work candidate standards are not"
-" yet public, but are accessible by OGC members.)"
+"Acronyms in the figure are defined below. Some of these are “OGC "
+"standards” and others are publicly available “Discussion Papers”, "
+"“Requests” and “Recommendation Papers”. (Note that some in work candidate"
+" standards are not yet public, but are accessible by OGC members.)"
 msgstr ""
 
 #: ../../build/doc/standards/standards.rst:41
@@ -169,9 +172,11 @@ msgstr ""
 
 #: ../../build/doc/standards/standards.rst:91
 msgid ""
-"OGC tutorials presented at IGARSS 2010: http://www.ogcnetwork.net/node/1481"
+"OGC tutorials presented at IGARSS 2010: "
+"http://www.ogcnetwork.net/node/1481"
 msgstr ""
 
 #: ../../build/doc/standards/standards.rst:92
 msgid "OGC Network Learn pages (http://www.ogcnetwork.net/learn)."
 msgstr ""
+

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-13 14:22-0500\n"
+"POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -419,7 +419,4 @@ msgstr ""
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:340
 msgid "http://docs.geoserver.org/latest/en/user/styling/workshop/index.html"
 msgstr ""
-
-#~ msgid "Contents"
-#~ msgstr ""
 

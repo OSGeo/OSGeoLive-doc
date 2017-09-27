@@ -2,20 +2,20 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.5.0\n"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:20
 msgid "QGIS Server Quickstart"
@@ -44,8 +44,7 @@ msgid "Documentation:"
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:30
-msgid ""
-"https://docs.qgis.org/2.14/en/docs/user_manual/working_with_ogc/ogc_server_support.html"
+msgid "https://docs.qgis.org/2.14/en/docs/user_manual/working_with_ogc/ogc_server_support.html"
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:32
@@ -83,8 +82,7 @@ msgid "Click :menuselection:`Geospatial --> Web Services --> QGIS Server`"
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:47
-msgid ""
-"You should see a browser window with a web map viewer showing a world map."
+msgid "You should see a browser window with a web map viewer showing a world map."
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:51
@@ -110,19 +108,17 @@ msgid "Choose :menuselection:`Project --> Open...` from the menu bar."
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:63
-msgid ""
-"Select :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`."
+msgid "Select :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`."
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:65
 msgid ""
-"You should see the same world map rendered by QGIS. We will now change river"
-" styling and look at the result in the web map viewer."
+"You should see the same world map rendered by QGIS. We will now change "
+"river styling and look at the result in the web map viewer."
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:68
-msgid ""
-"Double click :file:`ne_10m_rivers_lake_centerlines` in the Layers tree."
+msgid "Double click :file:`ne_10m_rivers_lake_centerlines` in the Layers tree."
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:70
@@ -207,3 +203,4 @@ msgid ""
 "To learn more about QGIS Server, a good starting point is the `QGIS User "
 "Guide`_."
 msgstr ""
+

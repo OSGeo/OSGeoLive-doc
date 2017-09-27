@@ -2,20 +2,20 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.5.0\n"
 
 #: ../../build/doc/overview/spatialite_overview.rst:14
 msgid "SpatiaLite"
@@ -31,9 +31,10 @@ msgstr ""
 
 #: ../../build/doc/overview/spatialite_overview.rst:21
 msgid ""
-"SQLite is a Database Management System (DBMS) which is simple, robust, easy "
-"to use and very lightweight. Each SQLite database is simply a file. You can "
-"freely copy it, compress it, and port it between Windows, Linux, MacOs etc."
+"SQLite is a Database Management System (DBMS) which is simple, robust, "
+"easy to use and very lightweight. Each SQLite database is simply a file. "
+"You can freely copy it, compress it, and port it between Windows, Linux, "
+"MacOs etc."
 msgstr ""
 
 #: ../../build/doc/overview/spatialite_overview.rst:31
@@ -42,8 +43,8 @@ msgstr ""
 
 #: ../../build/doc/overview/spatialite_overview.rst:33
 msgid ""
-"The SpatiaLite extension enables SQLite to support spatial data conformant "
-"to OGC specifications."
+"The SpatiaLite extension enables SQLite to support spatial data "
+"conformant to OGC specifications."
 msgstr ""
 
 #: ../../build/doc/overview/spatialite_overview.rst:35
@@ -60,13 +61,14 @@ msgstr ""
 
 #: ../../build/doc/overview/spatialite_overview.rst:39
 msgid ""
-"SQL spatial functions such as AsText(), GeomFromText(), Area(), PointN() ..."
+"SQL spatial functions such as AsText(), GeomFromText(), Area(), PointN() "
+"..."
 msgstr ""
 
 #: ../../build/doc/overview/spatialite_overview.rst:40
 msgid ""
-"OpenGis spatial analysis functions provided via GEOS, such as Overlaps(), "
-"Touches(), Union(), Buffer() ..."
+"OpenGis spatial analysis functions provided via GEOS, such as Overlaps(),"
+" Touches(), Union(), Buffer() ..."
 msgstr ""
 
 #: ../../build/doc/overview/spatialite_overview.rst:41
@@ -82,8 +84,7 @@ msgid "Importing and exporting to shapefiles"
 msgstr ""
 
 #: ../../build/doc/overview/spatialite_overview.rst:44
-msgid ""
-"Coordinate reprojection via PROJ.4 and EPSG geodetic parameters dataset"
+msgid "Coordinate reprojection via PROJ.4 and EPSG geodetic parameters dataset"
 msgstr ""
 
 #: ../../build/doc/overview/spatialite_overview.rst:45
@@ -157,3 +158,4 @@ msgstr ""
 #: ../../build/doc/overview/spatialite_overview.rst:71
 msgid ":doc:`Quickstart documentation <../quickstart/spatialite_quickstart>`"
 msgstr ""
+

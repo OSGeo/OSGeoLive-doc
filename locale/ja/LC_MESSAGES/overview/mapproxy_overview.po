@@ -2,20 +2,20 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.5.0\n"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:19
 msgid "MapProxy"
@@ -28,17 +28,17 @@ msgstr ""
 #: ../../build/doc/overview/mapproxy_overview.rst:28
 msgid ""
 "MapProxy speeds up mapping applications by pre-rendering and integrating "
-"maps from multiple sources and storing in a local cache. Layers can be made "
-"transparent, projections can be changed, multiple map layers can be "
+"maps from multiple sources and storing in a local cache. Layers can be "
+"made transparent, projections can be changed, multiple map layers can be "
 "transformed into one, watermarks can be added, and more..."
 msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:31
 msgid ""
 "MapProxy is flexible and scales from simple to complex use-cases: from a "
-"single tile cache for an :doc:`OpenLayers <openlayers_overview>` web client "
-"to a central SDI node that combines, unifies and accelerates dozens of "
-"distributed WMS services."
+"single tile cache for an :doc:`OpenLayers <openlayers_overview>` web "
+"client to a central SDI node that combines, unifies and accelerates "
+"dozens of distributed WMS services."
 msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:35
@@ -133,8 +133,8 @@ msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:69
 msgid ""
-"create ``GetMap`` responses from cache with support for free-zooming and any"
-" projection (for any Desktop GIS)"
+"create ``GetMap`` responses from cache with support for free-zooming and "
+"any projection (for any Desktop GIS)"
 msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:70
@@ -278,3 +278,4 @@ msgstr ""
 #: ../../build/doc/overview/mapproxy_overview.rst:123
 msgid ":doc:`Quickstart documentation <../quickstart/mapproxy_quickstart>`"
 msgstr ""
+

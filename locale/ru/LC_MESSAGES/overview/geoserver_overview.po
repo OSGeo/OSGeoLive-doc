@@ -2,20 +2,20 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.5.0\n"
 
 #: ../../build/doc/overview/geoserver_overview.rst:20
 msgid "GeoServer"
@@ -28,10 +28,11 @@ msgstr ""
 #: ../../build/doc/overview/geoserver_overview.rst:25
 msgid ""
 "GeoServer is a web server that allows you to serve maps and data from a "
-"variety of formats to standard clients such as web browsers and desktop GIS "
-"programs. Data is published via standards based interfaces, such as WMS, "
-"WFS, WCS, WPS, Tile Caching and more. GeoServer comes with a browser-based "
-"management interface and connects to multiple data sources at the back end."
+"variety of formats to standard clients such as web browsers and desktop "
+"GIS programs. Data is published via standards based interfaces, such as "
+"WMS, WFS, WCS, WPS, Tile Caching and more. GeoServer comes with a "
+"browser-based management interface and connects to multiple data sources "
+"at the back end."
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:37
@@ -60,24 +61,23 @@ msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:44
 msgid ""
-"GeoTiff, JPG and PNG (with world file), image pyramid, GDAL formats, Image "
-"Mosaic, Oracle GeoRaster, NetCDF"
+"GeoTiff, JPG and PNG (with world file), image pyramid, GDAL formats, "
+"Image Mosaic, Oracle GeoRaster, NetCDF"
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:48
-msgid ""
-"**Data is served as safe and quick images using WMS and WMTS protocols:**"
+msgid "**Data is served as safe and quick images using WMS and WMTS protocols:**"
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:47
 msgid ""
 "As the data is served up as an image your data is completely safe and "
-"secure. Unless they redigitise your data there is no way to steal your data."
-" The appearance of each map layer can be controlled using the SLD standard "
-"which allows features to be coloured and labeled. By combining these rules "
-"with OGC Filters scale dependent styling can be implemented allowing more "
-"detail to be added as a user zooms in. Label collision management, grouping "
-"and priorities are also implemented."
+"secure. Unless they redigitise your data there is no way to steal your "
+"data. The appearance of each map layer can be controlled using the SLD "
+"standard which allows features to be coloured and labeled. By combining "
+"these rules with OGC Filters scale dependent styling can be implemented "
+"allowing more detail to be added as a user zooms in. Label collision "
+"management, grouping and priorities are also implemented."
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:52
@@ -87,10 +87,10 @@ msgstr ""
 #: ../../build/doc/overview/geoserver_overview.rst:51
 msgid ""
 "A WFS client can download vector data and use it for mapping, spatial "
-"analysis and other operations. Also if authorised the user can modify the "
-"data and send it back to the server to update the stored data using the "
-"WFS-T protocol. The data can be transmitted using GML (compressed) as well "
-"as other standard data formats like shapefile and json."
+"analysis and other operations. Also if authorised the user can modify the"
+" data and send it back to the server to update the stored data using the "
+"WFS-T protocol. The data can be transmitted using GML (compressed) as "
+"well as other standard data formats like shapefile and json."
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:55
@@ -99,9 +99,9 @@ msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:55
 msgid ""
-"A GIS client can request the actual raster data for use in spatial analysis."
-" This allows a user to create applications which can model the process "
-"described by your data."
+"A GIS client can request the actual raster data for use in spatial "
+"analysis. This allows a user to create applications which can model the "
+"process described by your data."
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:58
@@ -110,8 +110,8 @@ msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:58
 msgid ""
-"GeoServer supports the majority of the EPSG database of projections and can "
-"reproject to any of them on demand to allow clients with limited "
+"GeoServer supports the majority of the EPSG database of projections and "
+"can reproject to any of them on demand to allow clients with limited "
 "reprojection support to pass the load to the server."
 msgstr ""
 
@@ -135,10 +135,11 @@ msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:64
 msgid ""
-"Geospatial algorithms, including those from :doc:`JTS <jts_overview>`, can "
-"be called through GeoServer's :doc:`WPS <../standards/wps_overview>` "
+"Geospatial algorithms, including those from :doc:`JTS <jts_overview>`, "
+"can be called through GeoServer's :doc:`WPS <../standards/wps_overview>` "
 "interface. This includes the chaining of processes, and using rendering "
-"transformations to create powerful visualisations through the WMS interface."
+"transformations to create powerful visualisations through the WMS "
+"interface."
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:67
@@ -203,8 +204,8 @@ msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:90
 msgid ""
-"**Supported Platforms:** Java 8 (Oracle JDK and OpenJDK) on Windows, Linux, "
-"and Mac"
+"**Supported Platforms:** Java 8 (Oracle JDK and OpenJDK) on Windows, "
+"Linux, and Mac"
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:92
@@ -222,3 +223,4 @@ msgstr ""
 #: ../../build/doc/overview/geoserver_overview.rst:99
 msgid ":doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`"
 msgstr ""
+

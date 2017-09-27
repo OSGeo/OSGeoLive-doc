@@ -2,20 +2,20 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.5.0\n"
 
 #: ../../build/doc/standards/csw_overview.rst:30
 msgid "Catalogue Service for the Web (CSW)"
@@ -23,31 +23,30 @@ msgstr ""
 
 #: ../../build/doc/standards/csw_overview.rst:40
 msgid ""
-"The OGC Catalogue Service interface standard specifies a design pattern for "
-"defining interfaces to publish and search collections of descriptive "
+"The OGC Catalogue Service interface standard specifies a design pattern "
+"for defining interfaces to publish and search collections of descriptive "
 "information (metadata) about geospatial data, services and related "
-"information objects. Providers of resources, such as content providers, use "
-"catalogues to register metadata that conform to the provider's choice of an "
-"information model; such models include descriptions of spatial references "
-"and thematic information. Client applications can then search for geospatial"
-" data and services in very efficient ways."
+"information objects. Providers of resources, such as content providers, "
+"use catalogues to register metadata that conform to the provider's choice"
+" of an information model; such models include descriptions of spatial "
+"references and thematic information. Client applications can then search "
+"for geospatial data and services in very efficient ways."
 msgstr ""
 
 #: ../../build/doc/standards/csw_overview.rst:42
-msgid ""
-"There are several profiles of the current OGC CSW model. These include:"
+msgid "There are several profiles of the current OGC CSW model. These include:"
 msgstr ""
 
 #: ../../build/doc/standards/csw_overview.rst:44
 msgid ""
 "ISO 19115/19139 Metadata profile "
-"(http://www.iso.org/iso/catalogue_detail.htm?csnumber=32557). This document "
-"specifies an application profile for ISO metadata with support for XML "
-"encoding per ISO 19139 "
+"(http://www.iso.org/iso/catalogue_detail.htm?csnumber=32557). This "
+"document specifies an application profile for ISO metadata with support "
+"for XML encoding per ISO 19139 "
 "(http://www.iso.org/iso/catalogue_detail.htm?csnumber=32557) and HTTP "
-"protocol binding. This CSW profile is widely implemented in Europe, such as "
-"in the Spatial Data Infrastructure for North Rhine Westphalia (federal state"
-" of Germany)."
+"protocol binding. This CSW profile is widely implemented in Europe, such "
+"as in the Spatial Data Infrastructure for North Rhine Westphalia (federal"
+" state of Germany)."
 msgstr ""
 
 #: ../../build/doc/standards/csw_overview.rst:45
@@ -56,28 +55,29 @@ msgid ""
 "(http://portal.opengeospatial.org/files/?artifact_id=31137) This profile "
 "applies the CSW interfaces to the OASIS ebXML registry information model "
 "(ebRIM 3.0) so as to provide a general and flexible web-based registry "
-"service that enables users—human or software agents—to locate, access, and "
-"make use of resources in an open, distributed system; it provides facilities"
-" for retrieving, storing, and managing many kinds of resource descriptions. "
-"An extension mechanism permits registry content to be tailored for more "
-"specialized application domains."
+"service that enables users—human or software agents—to locate, access, "
+"and make use of resources in an open, distributed system; it provides "
+"facilities for retrieving, storing, and managing many kinds of resource "
+"descriptions. An extension mechanism permits registry content to be "
+"tailored for more specialized application domains."
 msgstr ""
 
 #: ../../build/doc/standards/csw_overview.rst:46
 msgid ""
-"CSW 39.50: The Z39.50 Protocol binding uses a message-based client server "
-"architecture implemented using the ANSI/NISO Z39.50 Application Service "
-"Definition and Protocol Specification3. This protocol binding maps each of "
-"the general model operations to a corresponding service specified in the "
-"ANSI/NISO/ISO standard http://lcweb.loc.gov/z3950/agency/document.html."
+"CSW 39.50: The Z39.50 Protocol binding uses a message-based client server"
+" architecture implemented using the ANSI/NISO Z39.50 Application Service "
+"Definition and Protocol Specification3. This protocol binding maps each "
+"of the general model operations to a corresponding service specified in "
+"the ANSI/NISO/ISO standard "
+"http://lcweb.loc.gov/z3950/agency/document.html."
 msgstr ""
 
 #: ../../build/doc/standards/csw_overview.rst:48
 msgid ""
-"Much of the current work on this standard has to do with restructuring the "
-"catalogue standard so that there is a well defined, easy to implement core "
-"coupled with a well defined mechanism for expressing a variety of extensions"
-" (previously known as application profiles)."
+"Much of the current work on this standard has to do with restructuring "
+"the catalogue standard so that there is a well defined, easy to implement"
+" core coupled with a well defined mechanism for expressing a variety of "
+"extensions (previously known as application profiles)."
 msgstr ""
 
 #: ../../build/doc/standards/csw_overview.rst:51
@@ -93,3 +93,4 @@ msgid ""
 "ISO 23950 (2003). \"Information Retrieval (Z39.50): Application Service "
 "Definition and Protocol Specification\""
 msgstr ""
+

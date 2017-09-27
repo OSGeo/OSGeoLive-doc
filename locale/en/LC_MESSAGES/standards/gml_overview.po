@@ -2,20 +2,20 @@
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeo-Live package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 21:22-0500\n"
+"POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.5.0\n"
 
 #: ../../build/doc/standards/gml_overview.rst:30
 msgid "Geography Markup Language (GML)"
@@ -23,14 +23,14 @@ msgstr ""
 
 #: ../../build/doc/standards/gml_overview.rst:35
 msgid ""
-"GML (http://www.opengeospatial.org/standards/gml) is an XML grammar defined "
-"to express and communicate geographical features. GML serves as a modeling "
-"language for geographic systems as well as an open interchange format for "
-"geographic transactions on the Internet. Note that the concept of feature in"
-" GML is a very general one and includes not only conventional \"vector\" or "
-"discrete objects, but also coverages and some elements of sensor data. The "
-"ability to integrate all forms of geographic information is key to the "
-"utility of GML."
+"GML (http://www.opengeospatial.org/standards/gml) is an XML grammar "
+"defined to express and communicate geographical features. GML serves as a"
+" modeling language for geographic systems as well as an open interchange "
+"format for geographic transactions on the Internet. Note that the concept"
+" of feature in GML is a very general one and includes not only "
+"conventional \"vector\" or discrete objects, but also coverages and some "
+"elements of sensor data. The ability to integrate all forms of geographic"
+" information is key to the utility of GML."
 msgstr ""
 
 #: ../../build/doc/standards/gml_overview.rst:41
@@ -85,16 +85,16 @@ msgstr ""
 
 #: ../../build/doc/standards/gml_overview.rst:55
 msgid ""
-"Understanding the use of “Feature”, “Geometry”, and “CRS” is critical in the"
-" use and development of any GML based encoding."
+"Understanding the use of “Feature”, “Geometry”, and “CRS” is critical in "
+"the use and development of any GML based encoding."
 msgstr ""
 
 #: ../../build/doc/standards/gml_overview.rst:57
 msgid ""
-"OGC work on the GML standard began in 1998. GML was first formally approved "
-"as an OGC standard in 2001. GML became an ISO standard in 2007. GML 3.2.16 "
-"is the most current revision of the joint OGC-ISO standard. Versions 3.2.2 "
-"and 4.0 are currently in progress."
+"OGC work on the GML standard began in 1998. GML was first formally "
+"approved as an OGC standard in 2001. GML became an ISO standard in 2007. "
+"GML 3.2.16 is the most current revision of the joint OGC-ISO standard. "
+"Versions 3.2.2 and 4.0 are currently in progress."
 msgstr ""
 
 #: ../../build/doc/standards/gml_overview.rst:60
@@ -128,3 +128,4 @@ msgstr ""
 #: ../../build/doc/standards/gml_overview.rst:71
 msgid ":doc:`fe_overview`"
 msgstr ""
+
