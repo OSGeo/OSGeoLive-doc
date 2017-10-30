@@ -8,12 +8,9 @@
 
 @LOGO_grass@
 
-.. image:: /images/project_logos/logo-GRASS.png
-  :alt: project logo
-  :align: right
-  :target: http://grass.osgeo.org
+@OSGEO_KIND_grass@
 
-.. image:: /images/logos/OSGeo_project.png
+.. .. image:: /images/logos/OSGeo_project.png
   :scale: 100 %
   :alt: OSGeo Project
   :align: right
