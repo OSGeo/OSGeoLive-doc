@@ -5,6 +5,7 @@
 :License: Creative Commons
 
 @LOGO_pywps@
+@OSGEO_KIND_grass@
 
 .. image:: /images/project_logos/logo-pywps.png
   :alt: project logo

@@ -5,6 +5,7 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_mapnik@
+@OSGEO_KIND_grass@
 
 .. image:: /images/project_logos/logo-mapnik.png
   :alt: project logo

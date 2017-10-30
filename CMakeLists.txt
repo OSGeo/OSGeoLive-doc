@@ -309,7 +309,7 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     #       :target: http://www.pgrouting.org
     # TODO finish the lines
     INSERT_INTO_MAP_LOGO("${project_name}" "${url_target}")
-    INSERT_INTO_MAP_LOGO("${project_name}" "${osgeo_kind}")
+    INSERT_INTO_MAP_KIND("${project_name}" "${osgeo_kind}")
 
 
     if ("${want_quickstart}" MATCHES "Y")

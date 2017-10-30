@@ -4,6 +4,7 @@
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 @LOGO_gpsdrive@
+@OSGEO_KIND_52nSOS@
 
 .. image:: /images/project_logos/logo-gpsdrive.png
   :alt: project logo

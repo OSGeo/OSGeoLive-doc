@@ -4,6 +4,7 @@
 :License: Creative Commons
 
 @LOGO_mb-system@
+@OSGEO_KIND_grass@
 
 .. image:: /images/project_logos/logo-mb-system.png
   :alt: project logo

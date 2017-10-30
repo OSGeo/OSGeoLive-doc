@@ -8,6 +8,7 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_openlayers@
+@OSGEO_KIND_grass@
 
 .. image:: /images/project_logos/logo-OpenLayers.png
   :scale: 80 %

@@ -5,6 +5,7 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_gdal@
+@OSGEO_KIND_52nSOS@
 
 .. image:: /images/project_logos/logo-GDAL.png
   :alt: project logo

@@ -4,6 +4,7 @@
 :License: Creative Commons
 
 @LOGO_viking@
+@OSGEO_KIND_grass@
 
 .. image:: /images/project_logos/logo-viking.png
   :alt: project logo

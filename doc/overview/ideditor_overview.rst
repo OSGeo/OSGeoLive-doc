@@ -4,6 +4,7 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_ideditor@
+@OSGEO_KIND_grass@
 
 .. image:: /images/project_logos/logo-ideditor.png
   :alt: project logo

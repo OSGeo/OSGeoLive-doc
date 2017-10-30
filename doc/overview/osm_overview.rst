@@ -5,6 +5,7 @@
 :License: Creative Commons
 
 @LOGO_osm@
+@OSGEO_KIND_grass@
 
 .. image:: /images/project_logos/logo-osm.png
   :alt: project logo

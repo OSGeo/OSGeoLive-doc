@@ -11,6 +11,7 @@
 
 
 @LOGO_metacrs@
+@OSGEO_KIND_grass@
 
 .. image:: /images/logos/OSGeo_incubation.png
   :scale: 100 %

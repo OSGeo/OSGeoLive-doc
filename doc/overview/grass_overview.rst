@@ -7,14 +7,7 @@
 :Copyright: 2011-2015 by The OSGeo Foundation
 
 @LOGO_grass@
-
 @OSGEO_KIND_grass@
-
-.. .. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
 
 GRASS GIS

@@ -5,6 +5,7 @@
 
 
 @LOGO_udig@
+@OSGEO_KIND_grass@
 
 .. image:: /images/project_logos/logo-uDig.png
   :alt: udig logo
