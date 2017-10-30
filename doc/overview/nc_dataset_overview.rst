@@ -3,6 +3,8 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
+@LOGO_nc_dataset@
+
 .. image:: /images/project_logos/logo-ncdataset.png 
   :alt: project logo
   :align: right

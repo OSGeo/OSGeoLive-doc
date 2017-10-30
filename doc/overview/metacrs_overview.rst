@@ -9,6 +9,9 @@
 ..  :align: right
 ..  :target: http://trac.osgeo.org/metacrs/wiki
 
+
+@LOGO_metacrs@
+
 .. image:: /images/logos/OSGeo_incubation.png
   :scale: 100 %
   :alt: OSGeo Project

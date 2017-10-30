@@ -3,6 +3,8 @@
 :Version: osgeo-live6.5
 :License: Creative Commons
 
+@LOGO_viking@
+
 .. image:: /images/project_logos/logo-viking.png
   :alt: project logo
   :align: right

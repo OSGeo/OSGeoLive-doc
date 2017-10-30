@@ -3,6 +3,8 @@
 :Version: osgeo-live5.5draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
+@LOGO_mapguide@
+
 .. image:: /images/project_logos/logo-MapGuideOS.png
   :alt: project logo
   :align: right

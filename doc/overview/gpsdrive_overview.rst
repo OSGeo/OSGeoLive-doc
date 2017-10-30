@@ -3,6 +3,8 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
+@LOGO_gpsdrive@
+
 .. image:: /images/project_logos/logo-gpsdrive.png
   :alt: project logo
   :align: right

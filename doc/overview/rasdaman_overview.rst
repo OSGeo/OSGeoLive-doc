@@ -5,6 +5,8 @@
 
 .. _rasdaman-overview:
 
+@LOGO_rasdaman@
+
 .. image:: /images/project_logos/logo-rasdaman.png
   :alt: project logo
   :align: right

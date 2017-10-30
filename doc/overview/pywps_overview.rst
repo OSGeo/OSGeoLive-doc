@@ -4,6 +4,8 @@
 :Version: osgeo-live10.0
 :License: Creative Commons
 
+@LOGO_pywps@
+
 .. image:: /images/project_logos/logo-pywps.png
   :alt: project logo
   :align: right

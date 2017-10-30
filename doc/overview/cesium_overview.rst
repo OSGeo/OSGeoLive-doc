@@ -3,6 +3,8 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
+@LOGO_cesium@
+
 .. image:: /images/project_logos/logo-cesium.png 
   :alt: project logo
   :align: right

@@ -3,6 +3,8 @@
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
+@LOGO_zoo-project@
+
 .. image:: /images/project_logos/zoo-simple.png
   :alt: project logo
   :align: right

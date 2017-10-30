@@ -15,6 +15,7 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
+@LOGO_postgis@
 
 .. Writing Tip:
   The following becomes a HTML anchor for hyperlinking to this page

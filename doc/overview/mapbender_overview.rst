@@ -3,6 +3,8 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
+@LOGO_mapbender@
+
 .. image:: /images/project_logos/logo-Mapbender3.png
   :alt: project logo
   :align: right

@@ -3,6 +3,8 @@
 :Version: osgeo-live6.5
 :License: Creative Commons
 
+@LOGO_mb-system@
+
 .. image:: /images/project_logos/logo-mb-system.png
   :alt: project logo
   :align: right

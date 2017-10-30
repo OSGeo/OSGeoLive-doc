@@ -4,6 +4,8 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
+@LOGO_gmt@
+
 .. image:: /images/project_logos/logo-GMT.png
   :alt: project logo
   :align: right

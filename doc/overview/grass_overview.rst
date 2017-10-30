@@ -6,6 +6,8 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Copyright: 2011-2015 by The OSGeo Foundation
 
+@LOGO_grass@
+
 .. image:: /images/project_logos/logo-GRASS.png
   :alt: project logo
   :align: right

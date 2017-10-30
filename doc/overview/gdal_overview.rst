@@ -4,6 +4,8 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
+@LOGO_gdal@
+
 .. image:: /images/project_logos/logo-GDAL.png
   :alt: project logo
   :align: right

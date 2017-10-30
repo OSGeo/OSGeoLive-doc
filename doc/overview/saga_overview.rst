@@ -3,6 +3,8 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
+@LOGO_saga@
+
 .. image:: /images/project_logos/logo-saga.png
   :alt: project logo
   :align: right

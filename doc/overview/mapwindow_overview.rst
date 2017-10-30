@@ -4,6 +4,8 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
+@LOGO_mapwindow@
+
 .. image:: /images/project_logos/logo-MapWindow.png
   :alt: MapWindow GIS
   :align: right

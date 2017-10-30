@@ -5,6 +5,8 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
+@LOGO_pycsw@
+
 .. image:: /images/project_logos/logo-pycsw.png
   :alt: project logo
   :align: right

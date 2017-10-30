@@ -3,6 +3,7 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
+@LOGO_otb@
 
 .. image:: /images/project_logos/logo-otb.png
   :alt: project logo

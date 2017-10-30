@@ -4,6 +4,8 @@
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
+@LOGO_tilemill@
+
 .. image:: /images/project_logos/logo-tilemill.png
   :alt: TileMill
   :align: right

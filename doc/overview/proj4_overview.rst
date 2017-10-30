@@ -3,6 +3,8 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
+@LOGO_proj4@
+
 .. image:: /images/project_logos/logo-proj4.png
   :alt: project logo
   :align: right

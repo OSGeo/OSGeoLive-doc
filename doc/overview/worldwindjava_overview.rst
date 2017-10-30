@@ -3,6 +3,8 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
+@LOGO_worldwindjava@
+
 .. image:: /images/project_logos/logoNasaJWW.png
   :alt: project logo
   :align: right

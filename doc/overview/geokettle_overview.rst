@@ -3,6 +3,8 @@
 :Version: osgeo-live7.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
+@LOGO_geokettle@
+
 .. image:: /images/project_logos/logo-geokettle.png
   :alt: project logo
   :align: right

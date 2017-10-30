@@ -247,7 +247,7 @@ MACRO(INSERT_INTO_MAP_LOGO _KEY _TARGET)
 ENDMACRO(INSERT_INTO_MAP_LOGO)
 
 set (OSGeoLiveDoc_PROJECTS_LOGOS "")
-set (OSGeoLiveDoc_CONFIGURATION_REGEXP "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)")
+set (OSGeoLiveDoc_CONFIGURATION_REGEXP "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|.*\\|.*\\|.*\\|.*\\|(.*)")
 foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     #Skipping comments
     string(REGEX REPLACE "^(#).*" "\\1" is_comment ${line})
@@ -264,13 +264,14 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\5" want_overview ${line})
     #string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\6" project_classification ${line})
     #string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\7" retired_on ${line})
-    string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\5" url_target ${line})
+    string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\6" url_target ${line})
 
     string(STRIP ${wantDoc} wantDoc)
     string(STRIP ${project_name} project_name)
     string(STRIP ${project_version} project_version)
     string(STRIP ${want_quickstart} want_quickstart)
     string(STRIP ${want_overview} want_overview)
+    string(STRIP "${url_target}" url_target)
 
     if (OSGeoLiveDoc_VERBOSE_DEBUG)
         message(STATUS "${wantDoc} \t${project_name} \t${project_version} \twant_quickstart:${want_quickstart} \twant_overview:${want_overview}")
@@ -292,7 +293,7 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     #       :align: right
     #       :target: http://www.pgrouting.org
     # TODO finish the lines
-    INSERT_INTO_MAP_LOGO(${project_name} ${url_target})
+    INSERT_INTO_MAP_LOGO("${project_name}" "${url_target}")
 
 
     if ("${want_quickstart}" MATCHES "Y")

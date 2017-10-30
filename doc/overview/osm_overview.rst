@@ -4,6 +4,8 @@
 :Version: osgeo-live11.0
 :License: Creative Commons
 
+@LOGO_osm@
+
 .. image:: /images/project_logos/logo-osm.png
   :alt: project logo
   :align: right

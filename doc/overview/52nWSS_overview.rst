@@ -3,6 +3,8 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
+@LOGO_52nWSS@
+
 .. image:: /images/project_logos/logo_52North_160.png
   :alt: project logo
   :align: right
