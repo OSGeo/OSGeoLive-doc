@@ -6,11 +6,6 @@
 
 @LOGO_52nWPS@
 
-.. image:: /images/project_logos/logo_52North_160.png
-  :alt: project logo
-  :align: right
-  :target: http://52north.org/wps
-
 
 52°North WPS
 ================================================================================

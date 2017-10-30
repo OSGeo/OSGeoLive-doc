@@ -23,8 +23,8 @@ Y  |  openlayers  |  4.1.1  |  Y  |  Y  |  Browser Facing GIS  |    |   Browser 
 ######################|||||||||
 #   Web Services  |||||||||
 ######################|||||||||
-Y  |  52nSOS  |  4.4.0  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  SensorObservationService|
-Y  |  52nWPS  |  3.6.1  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  n52-wps|
+Y  |  52nSOS  |  4.4.0  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  SensorObservationService|http://52north.org/sos
+Y  |  52nWPS  |  3.6.1  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  n52-wps|http://52north.org/wps
 Y  |  deegree  |  3.3.20  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  deegree3|
 Y  |  eoxserver  |  0.4.0  |  Y  |  Y  |  Web Services  |    |  Web Coverage Service  |  eoxserver|
 Y  |  geonetwork  |  3.2.1  |  Y  |  Y  |  Web Services  |    |  Metadata Catalogue  |  geonetwork-opensource|
@@ -100,7 +100,7 @@ N  |  metacrs  |retired|  N  |  Y  |  Geospatial Libraries  |    |  Coordinate R
 ######################|||||||||
 # RETIERED|||||||||
 ######################|||||||||
-N  |  52nWSS  |  retired  |  Y  |  Y  |    |6.5|  Web Security Service, retired after OSGeo-Live 6.5  |  |
+N  |  52nWSS  |  retired  |  Y  |  Y  |    |6.5|  Web Security Service, retired after OSGeo-Live 6.5  |  |http://52north.org/security
 N  |  atlasstyler  |  retired  |  Y  |  Y  |    |6|  Style Editor, retired after OSGeo-Live 6.0  |  Geopublishing|
 N  |  cartaro  |  retired  |  Y  |  Y  |    |10|  Geospatial CMS  |  |
 N  |  geopublisher  |  retired  |  Y  |  Y  |    |6|  Catalogue, retired after OSGeo-Live 6.0  |  Geopublishing|

@@ -5,10 +5,6 @@
 
 @LOGO_52nWSS@
 
-.. image:: /images/project_logos/logo_52North_160.png
-  :alt: project logo
-  :align: right
-  :target: http://52north.org/security
 
 52°North WSS
 ================================================================================

@@ -9,11 +9,6 @@
 
 @LOGO_52nSOS@
 
-.. image:: /images/project_logos/logo_52North_160.png
-  :alt: 52°North - exploring horizons
-  :align: right
-  :target: http://52north.org/sos
-
 
 52°North SOS
 ===============================================================================
