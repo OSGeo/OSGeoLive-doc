@@ -232,7 +232,21 @@ message(STATUS "SPHINXINTL_LANGUAGE = ${SPHINXINTL_LANGUAGE}")
 # Y = to document | name | version | q = has quickstart | o = has overview
 file(STRINGS projects_info.csv OSGeoLiveDoc_PROJECTS_VERSIONS_FILE)
 
-set (OSGeoLiveDoc_PROJECTS_VERSIONS "")
+MACRO(INSERT_INTO_MAP_LOGO _KEY _TARGET)
+    if ("${_TARGET}" STREQUAL "")
+      set(_TRGT  ${_TARGET})
+    else()
+      set(_TRGT ":target: ${_TARGET}")
+    endif()
+      
+    SET("LOGO_${_KEY}"
+ ".. image:: /images/projects/${_KEY}/logo-${_KEY}.png
+    :align: right
+    ${_TRGT}
+")
+ENDMACRO(INSERT_INTO_MAP_LOGO)
+
+set (OSGeoLiveDoc_PROJECTS_LOGOS "")
 set (OSGeoLiveDoc_CONFIGURATION_REGEXP "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)")
 foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     #Skipping comments
@@ -250,6 +264,7 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\5" want_overview ${line})
     #string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\6" project_classification ${line})
     #string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\7" retired_on ${line})
+    string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\5" url_target ${line})
 
     string(STRIP ${wantDoc} wantDoc)
     string(STRIP ${project_name} project_name)
@@ -267,7 +282,17 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
         endif()
         continue()
     endif()
-string(CONCAT  OSGeoLiveDoc_PROJECTS_VERSIONS ${OSGeoLiveDoc_PROJECTS_VERSIONS} ".. |version-${project_name}| replace:: ${project_version}\n")
+
+    string(CONCAT  OSGeoLiveDoc_PROJECTS_VERSIONS ${OSGeoLiveDoc_PROJECTS_VERSIONS} ".. |version-${project_name}| replace:: ${project_version}\n")
+
+    # Variable for storing the image commands for the project logos
+    #	.. image:: /images/project_logos/logo-pgRouting.png
+    #       :scale: 100 %
+    #       :alt: pgRouting logo
+    #       :align: right
+    #       :target: http://www.pgrouting.org
+    # TODO finish the lines
+    INSERT_INTO_MAP_LOGO(${project_name} ${url_target})
 
 
     if ("${want_quickstart}" MATCHES "Y")

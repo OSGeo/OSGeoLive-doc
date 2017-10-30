@@ -4,10 +4,12 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-pgRouting.png
+.. image:: /images/projects/pgrouting/logo-pgrouting.png
   :alt: pgRouting logo
   :align: right
   :target: http://www.pgrouting.org/
+
+@LOGO_pgrouting@
 
 .. image:: /images/logos/OSGeo_community.png
    :scale: 100
