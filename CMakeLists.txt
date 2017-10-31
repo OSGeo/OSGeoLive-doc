@@ -234,14 +234,16 @@ file(STRINGS projects_info.csv OSGeoLiveDoc_PROJECTS_VERSIONS_FILE)
 
 MACRO(INSERT_INTO_MAP_KIND _KEY _TARGET)
     if ("${_TARGET}" STREQUAL "")
-      set(_TARGET  "OSGeo_nothing")
-    endif()
-      
-    SET("OSGEO_KIND_${_KEY}" 
+      set(_TRGT  "")
+    else ()
+      set(_TRGT 
 ".. image:: /images/logos/${_TARGET}.png
     :align: right
     :target: target: http://www.osgeo.org
 ")
+    endif()
+      
+    SET("OSGEO_KIND_${_KEY}" "${_TRGT}")
 ENDMACRO(INSERT_INTO_MAP_KIND)
 
 MACRO(INSERT_INTO_MAP_LOGO _KEY _TARGET)

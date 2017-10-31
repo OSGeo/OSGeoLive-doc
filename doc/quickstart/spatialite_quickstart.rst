@@ -12,10 +12,8 @@
   This will require an extra sentence for most steps.
 
 
-.. image:: /images/project_logos/logo-spatialite.png
-  :scale: 50 %
-  :alt: project logo
-  :align: right
+@LOGO_spatialite@
+@OSGEO_KIND_spatialite@
 
 ********************************************************************************
 SpatiaLite Quickstart 

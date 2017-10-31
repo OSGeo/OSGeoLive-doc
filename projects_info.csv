@@ -6,8 +6,8 @@ Y  |  grass  |  7.2.1  |  Y  |  Y  |  Desktop GIS  |    |    |  grass_gis||OSGeo
 Y  |  gvsig  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  gvsig-desktop-2||
 Y  |  openjump  |1.11|  Y  |  Y  |  Desktop GIS  |    |    |  openjump_gis||
 Y  |  qgis  |  2.14.14  |  Y  |  Y  |  Desktop GIS  |    |    |  qgis||
-Y  |  saga  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  saga-gis||
-Y  |  udig  |2|  Y  |  Y  |  Desktop GIS  |    |    |  udig||
+Y  |  saga  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  saga-gis|http://www.saga-gis.org|
+Y  |  udig  |2|  Y  |  Y  |  Desktop GIS  |    |    |  udig|http://udig.refractions.net/|
 # RETIERED||||||||||
 N  |  kosmo  |  retired  |  Y  |  Y  |  Desktop GIS  |    |    |  kosmo_desktop||
 ######################||||||||||
@@ -36,7 +36,7 @@ Y  |  ncWMS  |  NA  |  Y  |  Y  |  Web Services  |    |  Web Map Service  |  ncw
 Y  |  pycsw  |  2.0.3  |  Y  |  Y  |  Web Services  |    |  Metadata Catalogue  |  pycsw||
 Y  |  pywps  |  4.0.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  pyWPS||
 Y  |  qgis_mapserver  |  NA  |  Y  |  Y  |  Web Services  |    |  Web Map Service  |  ||
-Y  |  zoo-project  |  1.6.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  zoo-project|http://zoo-project.org/|OSGeo_community
+Y  |  zoo-project  |  1.6.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  zoo-project|http://zoo-project.org/|OSGeo_incubation
 # RETIERED||||||||||
 N  |  tinyows  |  retire?  |  Y  |  Y  |  Web Services  |    |  WFS-T Service  |  tinyows||
 ######################||||||||||
@@ -45,7 +45,7 @@ N  |  tinyows  |  retire?  |  Y  |  Y  |  Web Services  |    |  WFS-T Service  |
 Y  |  pgrouting  |  2.4.1  |  Y  |  Y  |  Data Stores  |    |  Routing for PostGIS  |  pgrouting|http://www.pgrouting.org/|
 Y  |  postgis  |  2.3.2  |  Y  |  Y  |  Data Stores  |    |  Spatial Database  |  postgis||
 Y  |  rasdaman  |  9.4.1  |  Y  |  Y  |  Data Stores  |    |  Multi-Dimensional Raster Database  |  rasdaman||
-Y  |  spatialite  |  4.3.0a  |  Y  |  Y  |  Data Stores  |    |  Lightweight Database  |  spatialite||
+Y  |  spatialite  |  4.3.0a  |  Y  |  Y  |  Data Stores  |    |  Lightweight Database  |  spatialite|http://www.gaia-gis.it/gaia-sins/|
 ######################||||||||||
 # Navigation and Maps||||||||||
 ######################||||||||||

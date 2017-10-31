@@ -39,10 +39,8 @@
 :Thanks: udig-devel list
 :Reviewer: Cameron Shorter, Jirotech
 
-.. image:: /images/project_logos/logo-uDig.png
-  :scale: 60 %
-  :alt: project logo
-  :align: right
+@LOGO_udig@
+@OSGEO_KIND_udig@
 
 ********************************************************************************
 uDig Quickstart 

@@ -5,12 +5,8 @@
 
 
 @LOGO_udig@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_udig@
 
-.. image:: /images/project_logos/logo-uDig.png
-  :alt: udig logo
-  :align: right
-  :target: http://udig.refractions.net/
 
 User-friendly Desktop Internet GIS (uDig)
 ================================================================================
