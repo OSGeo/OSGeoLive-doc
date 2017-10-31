@@ -21,17 +21,9 @@
     * Do some SQL queries on the dataset
     * Use QGis to view data from PostGIS (using the existing Natural Earth data). We should be able to keep most of the existing QGis sections
 
-.. image:: /images/project_logos/logo-PostGIS.png
-  :scale: 30 %
-  :alt: project logo
-  :align: right
-  :target: http://postgis.net
+@LOGO_postgis@
+@OSGEO_KIND_postgis@
 
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
 ********************************************************************************
 PostGIS Quickstart

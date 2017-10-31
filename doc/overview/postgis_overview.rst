@@ -16,7 +16,7 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_postgis@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_postgis@
 
 .. Writing Tip:
   The following becomes a HTML anchor for hyperlinking to this page
@@ -26,17 +26,6 @@
     https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
   and accessed here:
     /images/project_logos/<filename>
-
-.. image:: /images/project_logos/logo-PostGIS.png
-  :alt: project logo
-  :align: right
-  :target: http://postgis.net/
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
 PostGIS
 ================================================================================
