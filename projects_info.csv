@@ -33,7 +33,7 @@ Y  |  istsos  |  2.3.1  |  Y  |  Y  |  Web Services  |    |  Sensor Observation 
 Y  |  mapproxy  |  NA  |  Y  |  Y  |  Web Services  |    |  Proxy WMS & tile services  |  mapproxy||
 Y  |  mapserver  |  7.0.5  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  mapserver||
 Y  |  ncWMS  |  NA  |  Y  |  Y  |  Web Services  |    |  Web Map Service  |  ncwms||
-Y  |  pycsw  |  2.0.3  |  Y  |  Y  |  Web Services  |    |  Metadata Catalogue  |  pycsw||
+Y  |  pycsw  |  2.0.3  |  Y  |  Y  |  Web Services  |    |  Metadata Catalogue  |  pycsw|http://pycsw.org/|OSGeo_project
 Y  |  pywps  |  4.0.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  pyWPS||
 Y  |  qgis_mapserver  |  NA  |  Y  |  Y  |  Web Services  |    |  Web Map Service  |  ||
 Y  |  zoo-project  |  1.6.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  zoo-project|http://zoo-project.org/|OSGeo_incubation
@@ -42,9 +42,9 @@ N  |  tinyows  |  retire?  |  Y  |  Y  |  Web Services  |    |  WFS-T Service  |
 ######################||||||||||
 # Data Stores||||||||||
 ######################||||||||||
-Y  |  pgrouting  |  2.4.1  |  Y  |  Y  |  Data Stores  |    |  Routing for PostGIS  |  pgrouting|http://www.pgrouting.org/|
+Y  |  pgrouting  |  2.4.1  |  Y  |  Y  |  Data Stores  |    |  Routing for PostGIS  |  pgrouting|http://www.pgrouting.org/|OSGeo_community
 Y  |  postgis  |  2.3.2  |  Y  |  Y  |  Data Stores  |    |  Spatial Database  |  postgis||
-Y  |  rasdaman  |  9.4.1  |  Y  |  Y  |  Data Stores  |    |  Multi-Dimensional Raster Database  |  rasdaman||
+Y  |  rasdaman  |  9.4.1  |  Y  |  Y  |  Data Stores  |    |  Multi-Dimensional Raster Database  |  rasdaman|http://www.rasdaman.org|
 Y  |  spatialite  |  4.3.0a  |  Y  |  Y  |  Data Stores  |    |  Lightweight Database  |  spatialite|http://www.gaia-gis.it/gaia-sins/|
 ######################||||||||||
 # Navigation and Maps||||||||||

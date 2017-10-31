@@ -6,18 +6,8 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_pycsw@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_pycsw@
 
-.. image:: /images/project_logos/logo-pycsw.png
-  :alt: project logo
-  :align: right
-  :target: http://pycsw.org/
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
 pycsw
 ================================================================================

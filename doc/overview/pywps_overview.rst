@@ -5,18 +5,8 @@
 :License: Creative Commons
 
 @LOGO_pywps@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_pywps@
 
-.. image:: /images/project_logos/logo-pywps.png
-  :alt: project logo
-  :align: right
-  :target: http://pywps.org/
-
-.. image:: /images/logos/OSGeo_community.png
-  :scale: 100
-  :alt: OSGeo Project in Incubation
-  :align: right
-  :target: http://www.osgeo.org
 
 PyWPS
 ================================================================================

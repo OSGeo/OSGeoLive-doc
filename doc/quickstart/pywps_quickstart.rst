@@ -4,17 +4,8 @@
 :Version: osgeo-live10.0
 :License: Creative Commons Attribution
 
-.. image:: /images/project_logos/logo-pywps.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
-  :target: http://pywps.org
-
-.. image:: /images/logos/OSGeo_community.png
-  :scale: 100
-  :alt: OSGeo Community Project
-  :align: right
-  :target: http://www.osgeo.org
+@LOGO_pywps@
+@OSGEO_KIND_pywps@
 
 ****************
 PyWPS Quickstart
