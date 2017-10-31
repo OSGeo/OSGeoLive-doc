@@ -3,17 +3,9 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-GDAL.png
-  :scale: 60 %
-  :alt: project logo
-  :align: right
-  :target: http://gdal.org/
+@LOGO_gdal@
+@OSGEO_KIND_gdal@
 
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
 
 ********************************************************************************

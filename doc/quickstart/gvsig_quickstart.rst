@@ -6,15 +6,8 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-gvSIG.png
-   :scale: 50
-   :align: right
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
+@LOGO_gvsig@
+@OSGEO_KIND_gvsig@
 
 ********************************************************************************
 gvSIG Quickstart

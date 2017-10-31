@@ -5,18 +5,8 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_geonode@
-@OSGEO_KIND_52nSOS@
+@OSGEO_KIND_geonode@
 
-.. image:: /images/project_logos/logo-geonode.png
-  :alt: project logo
-  :align: right
-  :target: http://geonode.org
-
-.. image:: /images/logos/OSGeo_project.png
-    :scale: 100
-    :alt: OSGeo Project
-    :align: right
-    :target: http://www.osgeo.org
 
 
 GeoNode

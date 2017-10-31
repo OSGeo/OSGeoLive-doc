@@ -7,15 +7,9 @@
 
 .. |GN| replace:: GeoNetwork
 
-.. figure:: /images/project_logos/logo-GeoNetwork.png
-  :alt: project logo
-  :align: right
+@LOGO_geonetwork@
+@OSGEO_KIND_geonetwork@
 
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
 ********************************************************************************
 GeoNetwork Quickstart

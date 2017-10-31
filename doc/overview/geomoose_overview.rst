@@ -6,18 +6,7 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_geomoose@
-@OSGEO_KIND_52nSOS@
-
-.. image:: /images/project_logos/logo-geomoose.png
-  :alt: project logo
-  :align: right
-  :target: http://www.geomoose.org/
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
+@OSGEO_KIND_geomoose@
 
 
 GeoMoose

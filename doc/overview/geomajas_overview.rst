@@ -4,20 +4,8 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_geomajas@
-@OSGEO_KIND_52nSOS@
+@OSGEO_KIND_geomajas@
 
-.. image:: /images/project_logos/logo-geomajas.png
-  :width: 100px
-  :height: 100px
-  :alt: project logo
-  :align: right
-  :target: http://www.geomajas.org
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
 Geomajas
 ================================================================================

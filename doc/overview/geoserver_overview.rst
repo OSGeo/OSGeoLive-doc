@@ -6,18 +6,8 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_geoserver@
-@OSGEO_KIND_52nSOS@
+@OSGEO_KIND_geoserver@
 
-.. image:: /images/project_logos/logo-GeoServer.png
-  :alt: project logo
-  :align: right
-  :target: http://geoserver.org/
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
 GeoServer
 ================================================================================

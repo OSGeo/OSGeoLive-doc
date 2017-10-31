@@ -5,12 +5,8 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_gpsprune@
-@OSGEO_KIND_52nSOS@
+@OSGEO_KIND_gpsprune@
 
-.. image:: /images/project_logos/logo-gpsprune.png
-  :alt: project logo
-  :align: right
-  :target: http://gpsprune.activityworkshop.net/
 
 GpsPrune
 ================================================================================

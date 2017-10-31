@@ -6,18 +6,12 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: geoserver-user list
 
+@LOGO_geoserver@
+@OSGEO_KIND_geoserver@
+
 .. |GS| replace:: GeoServer
 .. |UG| replace:: uDig 
 
-.. image:: /images/project_logos/logo-GeoServer.png
-  :alt: project logo
-  :align: right
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
 ********************************************************************************
 GeoServer Quickstart 

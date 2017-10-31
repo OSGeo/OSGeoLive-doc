@@ -5,19 +5,8 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_geonetwork@
-@OSGEO_KIND_52nSOS@
+@OSGEO_KIND_geonetwork@
 
-.. image:: /images/project_logos/logo-GeoNetwork.png
-  :alt: project logo
-  :width: 150 px
-  :align: right
-  :target: http://geonetwork-opensource.org/
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
 GeoNetwork
 ================================================================================
