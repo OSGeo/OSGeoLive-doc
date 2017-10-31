@@ -3,11 +3,8 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011-2013 by The OSGeo Foundation
 
-.. image:: /images/project_logos/logo-osm.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
-  :target: https://www.openstreetmap.org
+@LOGO_osm@
+@OSGEO_KIND_osm@
 
 
 ********************************************************************************

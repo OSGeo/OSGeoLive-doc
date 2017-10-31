@@ -4,18 +4,7 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_ossim@
-@OSGEO_KIND_grass@
-
-.. image:: /images/project_logos/logo-ossim.png
-  :alt: project logo
-  :align: right
-  :target: http://www.ossim.org/
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
+@OSGEO_KIND_ossim@
 
 
 OSSIM

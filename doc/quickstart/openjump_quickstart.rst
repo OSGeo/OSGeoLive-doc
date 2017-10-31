@@ -5,6 +5,9 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: OpenJUMP Community
 
+@LOGO_openjump@
+@OSGEO_KIND_openjump@
+
 ********************************************************************************
 OpenJUMP Quickstart 
 ********************************************************************************

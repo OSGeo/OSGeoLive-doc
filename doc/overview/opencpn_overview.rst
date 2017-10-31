@@ -5,12 +5,8 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_opencpn@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_opencpn@
 
-.. image:: /images/project_logos/logo-opencpn.png
-  :alt: project logo
-  :align: right
-  :target: http://www.opencpn.org
 
 
 OpenCPN

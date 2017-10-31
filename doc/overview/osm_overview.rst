@@ -5,12 +5,8 @@
 :License: Creative Commons
 
 @LOGO_osm@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_osm@
 
-.. image:: /images/project_logos/logo-osm.png
-  :alt: project logo
-  :align: right
-  :target: http://www.openstreetmap.org
 
 OpenStreetMap
 ================================================================================

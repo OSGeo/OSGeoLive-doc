@@ -4,7 +4,7 @@
 ######################||||||||||
 Y  |  grass  |  7.2.1  |  Y  |  Y  |  Desktop GIS  |    |    |  grass_gis||OSGeo_project
 Y  |  gvsig  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  gvsig-desktop-2||
-Y  |  openjump  |1.11|  Y  |  Y  |  Desktop GIS  |    |    |  openjump_gis||
+Y  |  openjump  |1.11|  Y  |  Y  |  Desktop GIS  |    |    |  openjump_gis|http://www.openjump.org|
 Y  |  qgis  |  2.14.14  |  Y  |  Y  |  Desktop GIS  |    |    |  qgis||
 Y  |  saga  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  saga-gis|http://www.saga-gis.org|
 Y  |  udig  |2|  Y  |  Y  |  Desktop GIS  |    |    |  udig|http://udig.refractions.net/|
@@ -19,7 +19,7 @@ Y  |  geomoose  |  2.9.3  |  Y  |  Y  |  Browser Facing GIS  |    |  Web GIS Por
 Y  |  geonode  |  2.6.0  |  Y  |  Y  |  Browser Facing GIS  |    |  Geospatial Content Management System  |  geonode||
 Y  |  leaflet  |  1.0.3  |  Y  |  Y  |  Browser Facing GIS  |    |  Mobile Friendly Interactive Maps  |  Leaflet||
 Y  |  mapbender  |  3.0.6.1  |  Y  |  Y  |  Browser Facing GIS  |    |  Geoportal Framework  |  mapbender||
-Y  |  openlayers  |  4.1.1  |  Y  |  Y  |  Browser Facing GIS  |    |   Browser Mapping Library  |  openlayers||
+Y  |  openlayers  |  4.1.1  |  Y  |  Y  |  Browser Facing GIS  |    |   Browser Mapping Library  |  openlayers|http://openlayers.org/|OSGeo_project
 ######################||||||||||
 #   Web Services  ||||||||||
 ######################||||||||||
@@ -52,8 +52,8 @@ Y  |  spatialite  |  4.3.0a  |  Y  |  Y  |  Data Stores  |    |  Lightweight Dat
 Y  |  gpsprune  |   18.6.0  |  Y  |  Y  |  Navigation and Maps  |    |  View, Edit and Convert GPS Tracks  |  gpsprune||
 Y|  josm  |  NA  |Y|Y|  Navigation and Maps  |    | OpenStreetMap Desktop Editor |  josm||
 Y  |  marble  |  1.12.20  |  Y  |  Y  |  Navigation and Maps  |    |  Virtual Globe  |  marble||
-Y  |  opencpn  |  NA  |  Y  |  Y  |  Navigation and Maps  |    |  Marine GPS Chartplotter  |  opencpn||
-Y  |  osm  |  josm (11427)  |  Y  |  Y  |  Navigation and Maps  |    |  OpenStreetMap Tools  |  ||
+Y  |  opencpn  |  NA  |  Y  |  Y  |  Navigation and Maps  |    |  Marine GPS Chartplotter  |  opencpn|http://www.opencpn.org|
+Y  |  osm  |  josm (11427)  |  Y  |  Y  |  Navigation and Maps  |    |  OpenStreetMap Tools  |  |https://www.openstreetmap.org/|
 Y  | ideditor|  2.2.2|Y|Y|  Navigation and Maps  || OpenStreetMap Web Editor|iD_OSM||
 # RETIERED||||||||||
 N  |  viking  |  retired  |  Y  |  Y  |  Navigation and Maps  |11|  GPS Data Analysis and Viewer  |  viking||
@@ -63,8 +63,8 @@ N  |  worldwindjava  |  NA  |  Y  |  Y  |  Navigation and Maps  |    |  Desktop 
 ######################||||||||||
 Y  |  gmt  |  5.2.1|  Y  |  Y  |  Spatial Tools  |11|  Cartographic Rendering  |  GMT||
 Y  |  mapnik  |  3.0.13  |  Y  |  Y  |  Spatial Tools  |    |  Cartographic Rendering  |  mapnik||
-Y  |  mapslicer  |  NA  |  Y  |  Y  |  Spatial Tools  |    |  Create Map Tiles  |  ||
-Y  |  ossim  |  1.8.20-3  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  ossim||
+Y  |  mapslicer  |  NA  |  Y  |  Y  |  Spatial Tools  |    |  Create Map Tiles  |  |http://mapproxy.org/|OSGeo_community
+Y  |  ossim  |  1.8.20-3  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  ossim|http://www.ossim.org/|OSGeo_project
 Y  |  otb  |  6.0.0  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  otb|http://www.orfeo-toolbox.org/|OSGeo_project
 Y  |  R  |  3.3.4  |  Y  |  Y  |  Spatial Tools  |    |  Statistical Programming  |  R_project||
 # RETIERED||||||||||
@@ -75,7 +75,7 @@ N  |  geokettle  |  retired  |  Y  |  Y  |  Spatial Tools  |11|  ETL (Extract, T
 Y  |  zygrib  |  7.0.0  |  Y  |  Y  |  Domain Specific GIS  |    |    |  |http://www.zygrib.org|
 # RETIERED||||||||||
 N  |  mb-system  |  retire?  |  Y  |  Y  |  Domain Specific GIS  |    |    |  mb-system||
-N  |  osgearth  |  hide  |  Y  |  Y  |  Domain Specific GIS  |    |    |  osgearth||
+N  |  osgearth  |  hide  |  Y  |  Y  |  Domain Specific GIS  |    |    |  osgearth|http://osgearth.org/|
 N  |  sahana  |  retired  |  Y  |  Y  |  Domain Specific GIS  |    |    |  sahanapy||
 N  |  ushahidi  |  retired  |  Y  |  Y  |  Domain Specific GIS  |11|    |  ushahidi||
 ######################||||||||||
@@ -84,7 +84,7 @@ N  |  ushahidi  |  retired  |  Y  |  Y  |  Domain Specific GIS  |11|    |  ushah
 Y  |  naturalearth  |  NA  |  N  |  Y  |  Data  |    |  Global Data Sets  |  ||
 Y  |  nc_dataset  |  NA  |  N  |  Y  |  Data  |    |    |  ||
 Y  |  netcdf_dataset  |  NA  |  N  |  Y  |  Data  |    |  Time series temperature and precipitation  |  ||
-Y  |  osm_dataset  |  NA  |  N  |  Y  |  Data  |    |  Sample extract from OpenStreetMap  |  ||
+Y  |  osm_dataset  |  NA  |  N  |  Y  |  Data  |    |  Sample extract from OpenStreetMap  |  |https://www.openstreetmap.org/|
 ######################||||||||||
 #   Geospatial Libraries  ||||||||||
 ######################||||||||||

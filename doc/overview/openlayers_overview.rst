@@ -8,19 +8,7 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_openlayers@
-@OSGEO_KIND_grass@
-
-.. image:: /images/project_logos/logo-OpenLayers.png
-  :scale: 80 %
-  :alt: project logo
-  :align: right
-  :target: http://openlayers.org/
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
+@OSGEO_KIND_openlayers@
 
 
 OpenLayers
