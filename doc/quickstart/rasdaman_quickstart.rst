@@ -2,14 +2,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
+
+@LOGO_rasdaman@
+@OSGEO_KIND_rasdaman@
+
 .. _rasdaman-quickstart:
-
-.. image:: /images/project_logos/logo-rasdaman.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
-  :target: http://www.rasdaman.org
-
 
 ********************
 Rasdaman Quickstart

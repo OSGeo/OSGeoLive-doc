@@ -6,12 +6,8 @@
 .. _rasdaman-overview:
 
 @LOGO_rasdaman@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_rasdaman@
 
-.. image:: /images/project_logos/logo-rasdaman.png
-  :alt: project logo
-  :align: right
-  :target: http://www.rasdaman.org
 
 Rasdaman
 ========
