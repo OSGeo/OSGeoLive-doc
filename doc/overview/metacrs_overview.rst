@@ -4,20 +4,9 @@
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. (no logo) .. image:: /images/project_logos/logo-GDAL.png
-..  :alt: project logo
-..  :align: right
-..  :target: http://trac.osgeo.org/metacrs/wiki
-
-
 @LOGO_metacrs@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_metacrs@
 
-.. image:: /images/logos/OSGeo_incubation.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org/incubator/process/principles.html
 
 MetaCRS
 ================================================================================

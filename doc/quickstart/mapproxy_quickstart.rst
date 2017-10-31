@@ -3,16 +3,9 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-mapproxy.png
-  :alt: project logo
-  :align: right
-  :target: http://mapproxy.org/
+@LOGO_mapproxy@
+@OSGEO_KIND_mapproxy@
 
-.. image:: /images/logos/OSGeo_community.png
-  :scale: 100
-  :alt: OSGeo Community Project
-  :align: right
-  :target: http://www.osgeo.org
 
 MapProxy Quickstart
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

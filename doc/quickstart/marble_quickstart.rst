@@ -4,17 +4,8 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2015 by The OSGeo Foundation
 
-.. image:: /images/project_logos/logo-marble.png
-  :scale: 75 %
-  :alt: project logo
-  :align: right
-  :target: https://marble.kde.org/
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
+@LOGO_marble@
+@OSGEO_KIND_marble@
 
 ********************************************************************************
 KDE-edu Marble Quickstart 

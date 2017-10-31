@@ -4,12 +4,8 @@
 :License: Creative Commons
 
 @LOGO_mb-system@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_mb-system@
 
-.. image:: /images/project_logos/logo-mb-system.png
-  :alt: project logo
-  :align: right
-  :target: http://www.ldeo.columbia.edu/res/pi/MB-System/
 
 
 MB-System

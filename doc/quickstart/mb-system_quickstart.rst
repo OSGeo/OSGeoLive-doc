@@ -3,11 +3,9 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
-.. image:: /images/project_logos/logo-mb-system.png
-  :scale: 30 %
-  :alt: project logo
-  :align: right
-  :target: http://www.ldeo.columbia.edu/res/pi/MB-System/
+@LOGO_mb-system@
+@OSGEO_KIND_mb-system@
+
 
 ********************************************************************************
 MB-System Quickstart 

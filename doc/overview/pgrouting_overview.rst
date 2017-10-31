@@ -5,7 +5,7 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_pgrouting@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_pgrouting@
 
 .. image:: /images/logos/OSGeo_community.png
    :scale: 100

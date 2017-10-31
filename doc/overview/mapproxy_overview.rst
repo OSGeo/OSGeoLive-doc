@@ -5,18 +5,8 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_mapproxy@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_mapproxy@
 
-.. image:: /images/project_logos/logo-mapproxy.png
-  :alt: project logo
-  :align: right
-  :target: http://mapproxy.org/
-
-.. image:: /images/logos/OSGeo_community.png
-  :scale: 100
-  :alt: OSGeo Community Project
-  :align: right
-  :target: http://www.osgeo.org
 
 MapProxy
 ================================================================================

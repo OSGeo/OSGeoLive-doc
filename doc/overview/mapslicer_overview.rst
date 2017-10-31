@@ -17,10 +17,8 @@ Proxy WMS & tile services
 .. image:: /images/projects/mapproxy/mapproxy.png
   :alt: MapProxy diagram
   :align: right
-.. image:: /images/project_logos/logo-mapslicer.png
-  :alt: project logo
-  :align: right
-..  :target: https://wiki.osgeo.org/wiki/MapSlicer
+
+@LOGO_mapslicer@
 
 
 MapSlicer
