@@ -4,12 +4,8 @@
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
 @LOGO_zygrib@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_zygrib@
 
-.. image:: /images/project_logos/logo-zygrib.png
-  :alt: project logo
-  :align: right
-  :target: http://www.zygrib.org
 
 zyGrib
 ================================================================================
