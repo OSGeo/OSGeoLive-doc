@@ -4,7 +4,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_cesium@
-@OSGEO_KIND_52nSOS@
+@OSGEO_KIND_cesium@
 
 .. image:: /images/project_logos/logo-cesium.png 
   :alt: project logo

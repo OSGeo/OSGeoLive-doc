@@ -1,4 +1,4 @@
-# document? | page/project name |version| Quickstart? |Overview?|Classification| last | One Liner| OpenHub name |URL|Osgeo kind
+# document? | page/project name |version| Quickstart? |Overview?|Classification| last | One Liner| OpenHub name |URL|kind
 ######################||||||||||
 #   Desktop GIS  ||||||||||
 ######################||||||||||
@@ -25,7 +25,7 @@ Y  |  openlayers  |  4.1.1  |  Y  |  Y  |  Browser Facing GIS  |    |   Browser 
 ######################||||||||||
 Y  |  52nSOS  |  4.4.0  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  SensorObservationService|http://52north.org/sos|
 Y  |  52nWPS  |  3.6.1  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  n52-wps|http://52north.org/wps|
-Y  |  deegree  |  3.3.20  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  deegree3||
+Y  |  deegree  |  3.3.20  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  deegree3||OSGeo_project
 Y  |  eoxserver  |  0.4.0  |  Y  |  Y  |  Web Services  |    |  Web Coverage Service  |  eoxserver||
 Y  |  geonetwork  |  3.2.1  |  Y  |  Y  |  Web Services  |    |  Metadata Catalogue  |  geonetwork-opensource||
 Y  |  geoserver  |  2.10.1  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  geoserver||

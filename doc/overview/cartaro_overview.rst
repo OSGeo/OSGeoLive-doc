@@ -5,12 +5,8 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_cartaro@
-@OSGEO_KIND_52nSOS@
+@OSGEO_KIND_cartaro@
 
-.. image:: /images/project_logos/logo-cartaro.png
-  :alt: project logo
-  :align: right
-  :target: http://cartaro.org
 
 Cartaro
 ================================================================================
