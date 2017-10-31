@@ -7,16 +7,6 @@
 @LOGO_gdal@
 @OSGEO_KIND_gdal@
 
-.. image:: /images/project_logos/logo-GDAL.png
-  :alt: project logo
-  :align: right
-  :target: http://gdal.org/
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
 GDAL/OGR
 ================================================================================

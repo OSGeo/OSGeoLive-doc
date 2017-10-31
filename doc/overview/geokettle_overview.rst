@@ -4,12 +4,8 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_geokettle@
-@OSGEO_KIND_52nSOS@
+@OSGEO_KIND_geokettle@
 
-.. image:: /images/project_logos/logo-geokettle.png
-  :alt: project logo
-  :align: right
-  :target: http://www.geokettle.org/
 
 GeoKettle
 ================================================================================

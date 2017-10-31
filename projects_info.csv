@@ -88,7 +88,7 @@ Y  |  osm_dataset  |  NA  |  N  |  Y  |  Data  |    |  Sample extract from OpenS
 ######################||||||||||
 #   Geospatial Libraries  ||||||||||
 ######################||||||||||
-Y  |  gdal  |  2.2.0  |  Y  |  Y  |  Geospatial Libraries  |    |  Geospatial Data Translation Tools  |  gdal||
+Y  |  gdal  |  2.2.0  |  Y  |  Y  |  Geospatial Libraries  |    |  Geospatial Data Translation Tools  |  gdal|http://gdal.org/|OSGeo_project
 Y  |  geos  |  3.6.1  |  N  |  Y  |  Geospatial Libraries  |    |  C/C++ Spatial Library  |  geos||
 Y  |  geotools  |  NA  |  N  |  Y  |  Geospatial Libraries  |    |  Java GIS Toolkit  |  geotools||
 Y  |  jts  |  NA  |  N  |  Y  |  Geospatial Libraries  |    |  Java Topology Suite  |  jts-topo-suite||
