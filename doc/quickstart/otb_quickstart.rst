@@ -3,17 +3,9 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-otb.png
-  :scale: 80 %
-  :alt: project logo
-  :align: right
-  :target: http://www.orfeo-toolbox.org/
+@LOGO_otb@
+@OSGEO_KIND_otb@
 
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
 ********************************************************************************
 OTB Quickstart 

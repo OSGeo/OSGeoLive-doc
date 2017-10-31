@@ -65,7 +65,7 @@ Y  |  gmt  |  5.2.1|  Y  |  Y  |  Spatial Tools  |11|  Cartographic Rendering  |
 Y  |  mapnik  |  3.0.13  |  Y  |  Y  |  Spatial Tools  |    |  Cartographic Rendering  |  mapnik||
 Y  |  mapslicer  |  NA  |  Y  |  Y  |  Spatial Tools  |    |  Create Map Tiles  |  ||
 Y  |  ossim  |  1.8.20-3  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  ossim||
-Y  |  otb  |  6.0.0  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  otb||
+Y  |  otb  |  6.0.0  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  otb|http://www.orfeo-toolbox.org/|OSGeo_project
 Y  |  R  |  3.3.4  |  Y  |  Y  |  Spatial Tools  |    |  Statistical Programming  |  R_project||
 # RETIERED||||||||||
 N  |  geokettle  |  retired  |  Y  |  Y  |  Spatial Tools  |11|  ETL (Extract, Transform and Load) Tool  |  geokettle||

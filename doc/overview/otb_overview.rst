@@ -4,18 +4,8 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_otb@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_otb@
 
-.. image:: /images/project_logos/logo-otb.png
-  :alt: project logo
-  :align: right
-  :target: http://www.orfeo-toolbox.org/
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
 OTB
 ================================================================================
