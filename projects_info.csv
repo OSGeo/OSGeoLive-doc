@@ -36,7 +36,7 @@ Y  |  ncWMS  |  NA  |  Y  |  Y  |  Web Services  |    |  Web Map Service  |  ncw
 Y  |  pycsw  |  2.0.3  |  Y  |  Y  |  Web Services  |    |  Metadata Catalogue  |  pycsw||
 Y  |  pywps  |  4.0.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  pyWPS||
 Y  |  qgis_mapserver  |  NA  |  Y  |  Y  |  Web Services  |    |  Web Map Service  |  ||
-Y  |  zoo-project  |  1.6.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  zoo-project||
+Y  |  zoo-project  |  1.6.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  zoo-project|http://zoo-project.org/|OSGeo_community
 # RETIERED||||||||||
 N  |  tinyows  |  retire?  |  Y  |  Y  |  Web Services  |    |  WFS-T Service  |  tinyows||
 ######################||||||||||
@@ -68,11 +68,11 @@ Y  |  ossim  |  1.8.20-3  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing
 Y  |  otb  |  6.0.0  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  otb||
 Y  |  R  |  3.3.4  |  Y  |  Y  |  Spatial Tools  |    |  Statistical Programming  |  R_project||
 # RETIERED||||||||||
-Y  |  geokettle  |  retired  |  Y  |  Y  |  Spatial Tools  |11|  ETL (Extract, Transform and Load) Tool  |  geokettle||
+N  |  geokettle  |  retired  |  Y  |  Y  |  Spatial Tools  |11|  ETL (Extract, Transform and Load) Tool  |  geokettle||
 ######################||||||||||
 #   Domain Specific GIS   ||||||||||
 ######################||||||||||
-Y  |  zygrib  |  7.0.0  |  Y  |  Y  |  Domain Specific GIS  |    |    |  ||
+Y  |  zygrib  |  7.0.0  |  Y  |  Y  |  Domain Specific GIS  |    |    |  |http://www.zygrib.org|
 # RETIERED||||||||||
 N  |  mb-system  |  retire?  |  Y  |  Y  |  Domain Specific GIS  |    |    |  mb-system||
 N  |  osgearth  |  hide  |  Y  |  Y  |  Domain Specific GIS  |    |    |  osgearth||

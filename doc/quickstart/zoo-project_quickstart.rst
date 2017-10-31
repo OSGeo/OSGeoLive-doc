@@ -4,16 +4,9 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/zoo-simple.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
+@LOGO_zoo-project@
+@OSGEO_KIND_zoo-project@
 
-.. image:: /images/logos/OSGeo_community.png
-  :scale: 100
-  :alt: OSGeo Community Project
-  :align: right
-  :target: http://www.osgeo.org
 
 ********************************************************************************
 ZOO Project Quickstart 
