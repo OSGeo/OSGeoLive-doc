@@ -4,12 +4,8 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_R@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_R@
 
-.. image:: /images/project_logos/logo-R.png
-  :alt: project logo
-  :align: right
-  :target: http://cran.r-project.org
 
 R for Spatial Data
 ================================================================================

@@ -6,11 +6,6 @@
 @LOGO_cesium@
 @OSGEO_KIND_cesium@
 
-.. image:: /images/project_logos/logo-cesium.png 
-  :alt: project logo
-  :align: right
-  :target: http://cesiumjs.org
-
 Cesium
 ================================================================================
 

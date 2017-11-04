@@ -2,9 +2,8 @@
 :Version: osgeo-live5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-R.png
-  :alt: project logo
-  :align: right
+@LOGO_R@
+@OSGEO_KIND_R@
 
 ********************************************************************************
 R Quickstart

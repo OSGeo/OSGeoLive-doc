@@ -4,12 +4,8 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_ideditor@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_ideditor@
 
-.. image:: /images/project_logos/logo-ideditor.png
-  :alt: project logo
-  :align: right
-  :target: http://wiki.openstreetmap.org/wiki/ID 
 
 iD editor
 ================================================================================

@@ -6,18 +6,8 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_qgis@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_qgis@
 
-.. image:: /images/project_logos/logo-QGIS.png
-  :alt: project logo
-  :align: right
-  :target: http://www.qgis.org
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
 
 QGIS

@@ -3,16 +3,8 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-istsos.png
-  :alt: project logo
-  :align: right
-  :target: http://istsos.org
-
-.. image:: /images/logos/OSGeo_community.png
-  :scale: 100 %
-  :alt: OSGeo Community Project
-  :align: right
-  :target: http://www.osgeo.org
+@LOGO_istsos@
+@OSGEO_KIND_istsos@
 
 ********************************************************************************
 istSOS Quickstart
