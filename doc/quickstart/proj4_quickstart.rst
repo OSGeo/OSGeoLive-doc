@@ -4,15 +4,8 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-proj4.png
-  :alt: project logo
-  :align: right
-
-.. image:: /images/logos/OSGeo_community.png
-  :scale: 100 %
-  :alt: OSGeo Community Project
-  :align: right
-  :target: http://www.osgeo.org
+@LOGO_proj4@
+@OSGEO_KIND_proj4@
 
 ********************************************************************************
  Proj.4 Quickstart

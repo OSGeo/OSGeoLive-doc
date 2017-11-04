@@ -4,12 +4,8 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_naturalearth@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_naturalearth@
 
-.. image:: /images/project_logos/logo-naturalearth.png
-  :alt: project logo
-  :align: right
-  :target: http://www.naturalearthdata.com/
 
 
 Natural Earth

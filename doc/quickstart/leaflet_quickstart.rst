@@ -2,6 +2,9 @@
 :Reviewer: Angelos Tzotsos, OSGeo
 :Version: osgeo-live11.0
 
+@LOGO_leaflet@
+@OSGEO_KIND_leaflet@
+
 ********************************************************************************
 Leaflet Quickstart
 ********************************************************************************

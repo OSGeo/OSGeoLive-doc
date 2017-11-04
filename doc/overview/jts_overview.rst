@@ -4,11 +4,8 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_jts@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_jts@
 
-.. image:: /images/project_logos/jts_project.png
-  :alt: project logo
-  :align: right
 
 JTS Topology Suite (JTS)
 ================================================================================
