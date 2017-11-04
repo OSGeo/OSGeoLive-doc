@@ -9,17 +9,17 @@
 
 .. Writing Tip: 
   Project logos are stored here:
-    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/project_logos
+    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/standards
   and accessed here:
-    /images/project_logos/<filename>
+    /images/standards/<filename>
   A symbolic link to the images directory is created during the build process.
 
-.. image:: /images/project_logos/logo-OGC-left.png
+.. image:: /images/standards/logo-OGC-left.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
 
-.. image:: /images/project_logos/logo-OGC-right.png
+.. image:: /images/standards/logo-OGC-right.png
   :scale: 100 %
   :alt: OGC logo
   :align: right
