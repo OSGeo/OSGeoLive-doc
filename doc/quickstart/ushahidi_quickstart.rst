@@ -2,10 +2,8 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-ushahidi.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right 
+@LOGO_ushahidi@
+@OSGEO_KIND_ushahidi@
 
 Ushahidi Quick Start 
 ================================================================================

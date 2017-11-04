@@ -15,11 +15,8 @@
 :Version: osgeo-live7.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-cartaro.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
-  :target: http://cartaro.org
+@LOGO_cartaro@
+@OSGEO_KIND_cartaro@
 
 ********************************************************************************
 Cartaro Quickstart 

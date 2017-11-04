@@ -4,12 +4,8 @@
 :License: Creative Commons
 
 @LOGO_viking@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_viking@
 
-.. image:: /images/project_logos/logo-viking.png
-  :alt: project logo
-  :align: right
-  :target: http://sourceforge.net/apps/mediawiki/viking/
 
 Viking
 ================================================================================

@@ -5,18 +5,7 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_tinyows@
-@OSGEO_KIND_grass@
-
-.. image:: /images/project_logos/logo-TinyOWS.png
-  :alt: project logo
-  :align: right
-  :target: http://mapserver.org/tinyows/
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
+@OSGEO_KIND_tinyows@
 
 TinyOWS
 ================================================================================

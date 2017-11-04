@@ -4,10 +4,8 @@
 
 
 
-.. image:: /images/project_logos/logoNasaJWW.png
-  :alt: project logo
-  :align: right
-  :target: http://goworldwind.org/
+@LOGO_worldwindjava@
+@OSGEO_KIND_worldwindjava@
 
 
 ********************************************************************************

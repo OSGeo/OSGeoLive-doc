@@ -2,11 +2,8 @@
 :Version: osgeo-live4.5draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-sahana-eden.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
-  :target: http://www.sahanafoundation.org
+@LOGO_sahana@
+@OSGEO_KIND_sahana@
 
 ********************************************************************************
 Sahana Quickstart 

@@ -9,11 +9,6 @@
 Proj.4
 ================================================================================
 
-.. image:: /images/project_logos/logo-metacrs.png
-  :alt: project logo
-  :align: right
-  :target: http://proj4.org/index.html
-
 Proj4 is a library that provides methods to transform between different coordinate
 reference systems. A geographic coordinate reference systems allows all points on the
 earth to be described as a set of coordinates (such as latitude, longitude and

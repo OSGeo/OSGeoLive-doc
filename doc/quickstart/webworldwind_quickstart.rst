@@ -4,10 +4,8 @@
 
 
 
-.. image:: /images/project_logos/logoNasaWWW.png
-  :alt: project logo
-  :align: right
-  :target: http://webworldwind.org/
+@LOGO_webworldwind@
+@OSGEO_KIND_webworldwind@
 
 
 ********************************************************************************

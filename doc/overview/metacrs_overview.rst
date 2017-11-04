@@ -14,11 +14,6 @@ MetaCRS
 Coordinate Reference System Transformations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/project_logos/logo-metacrs.png
-  :alt: map projection example
-  :align: right
-  :target: http://trac.osgeo.org/metacrs/wiki
-
 
 `The group of MetaCRS projects <http://trac.osgeo.org/metacrs/wiki>`_ provide
 libraries of methods to transform between different coordinate reference

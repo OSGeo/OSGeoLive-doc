@@ -5,12 +5,8 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_jupyter@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_jupyter@
 
-.. image:: /images/project_logos/logo-jupyter.png
-  :alt: project logo
-  :align: center
-  :target: http://jupyter.org/
 
 Jupyter Notebook
 ================================================================================

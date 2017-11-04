@@ -4,10 +4,8 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Reviewer: Cameron Shorter, Jirotech
 
-.. image:: /images/project_logos/logo-jupyter.png
-  :alt: project logo
-  :align: right
-  :target: http://jupyter.org/
+@LOGO_jupyter@
+@OSGEO_KIND_jupyter@
 
 ********************************************************************************
 Jupyter Notebook Quickstart

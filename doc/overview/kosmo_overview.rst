@@ -4,12 +4,8 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_kosmo@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_kosmo@
 
-.. image:: /images/project_logos/logo-Kosmo.png
-  :alt: project logo
-  :align: right
-  :target: http://www.opengis.es/index.php?lang=en
 
 Kosmo Desktop
 ================================================================================
