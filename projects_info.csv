@@ -32,7 +32,7 @@ Y  |  geoserver  |  2.10.1  |  Y  |  Y  |  Web Services  |    |  OGC Web Service
 Y  |  istsos  |  2.3.1  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  istsos||
 Y  |  mapproxy  |  NA  |  Y  |  Y  |  Web Services  |    |  Proxy WMS & tile services  |  mapproxy||
 Y  |  mapserver  |  7.0.5  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  mapserver|http://mapserver.org/|OSGeo_project
-Y  |  ncWMS  |  NA  |  Y  |  Y  |  Web Services  |    |  Web Map Service  |  ncwms||
+Y  |  ncWMS  |  NA  |  Y  |  Y  |  Web Services  |    |  Web Map Service  |  ncwms|https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/|
 Y  |  pycsw  |  2.0.3  |  Y  |  Y  |  Web Services  |    |  Metadata Catalogue  |  pycsw|http://pycsw.org/|OSGeo_project
 Y  |  pywps  |  4.0.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  pyWPS||OSGeo_incubation
 Y  |  qgis_mapserver  |  NA  |  Y  |  Y  |  Web Services  |    |  Web Map Service  |  ||
@@ -82,7 +82,7 @@ N  |  ushahidi  |  retired  |  Y  |  Y  |  Domain Specific GIS  |11|    |  ushah
 #   Data||||||||||
 ######################||||||||||
 Y  |  naturalearth  |  NA  |  N  |  Y  |  Data  |    |  Global Data Sets  |  ||
-Y  |  nc_dataset  |  NA  |  N  |  Y  |  Data  |    |    |  ||
+Y  |  nc_dataset  |  NA  |  N  |  Y  |  Data  |    |    |  |http://wiki.osgeo.org/wiki/Category:Education|
 Y  |  netcdf_dataset  |  NA  |  N  |  Y  |  Data  |    |  Time series temperature and precipitation  |  ||
 Y  |  osm_dataset  |  NA  |  N  |  Y  |  Data  |    |  Sample extract from OpenStreetMap  |  |https://www.openstreetmap.org/|
 ######################||||||||||

@@ -4,12 +4,8 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_ncWMS@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_ncWMS@
 
-.. image:: /images/project_logos/logo-ncWMS.png
- :alt: project logo
- :align: right
- :target: https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/
 
 ncWMS
 ================================================================================

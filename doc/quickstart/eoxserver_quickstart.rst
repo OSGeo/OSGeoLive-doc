@@ -5,11 +5,8 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-eoxserver-2.png
-  :scale: 65 %
-  :alt: project logo
-  :align: right
-  :target: https://eoxserver.readthedocs.org/
+@LOGO_eoxserver@
+@OSGEO_KIND_eoxserver@
 
 ================================================================================
  EOxServer Quickstart

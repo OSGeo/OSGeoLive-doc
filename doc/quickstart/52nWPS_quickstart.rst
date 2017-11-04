@@ -4,10 +4,8 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo_52North_160.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
+@LOGO_52nWPS@
+@OSGEO_KIND_52nWPS@
 
 ********************************************************************************
 52°North WPS Quickstart 

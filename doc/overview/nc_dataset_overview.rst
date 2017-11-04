@@ -4,12 +4,8 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_nc_dataset@
-@OSGEO_KIND_grass@
+@OSGEO_KIND_nc_dataset@
 
-.. image:: /images/project_logos/logo-ncdataset.png 
-  :alt: project logo
-  :align: right
-  :target: http://wiki.osgeo.org/wiki/Category:Education
 
 OSGeo North Carolina, USA Educational dataset
 ================================================================================

@@ -2,11 +2,8 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-ncWMS.png
-  :scale: 100 %
-  :alt: ncWMS logo
-  :align: right
-  :target: https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/
+@LOGO_ncWMS@
+@OSGEO_KIND_ncWMS@
 
 
 ********************************************************************************
