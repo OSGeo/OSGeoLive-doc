@@ -4,21 +4,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/projects/pgrouting/logo-pgrouting.png
-	:scale: 100 %
-	:alt: pgRouting logo
-	:align: right
-	:target: http://www.pgrouting.org
-
-
-.. image:: /images/logos/OSGeo_community.png
-   :scale: 100
-   :alt: OSGeo Community Project
-   :align: right
-   :target: http://www.osgeo.org
+@LOGO_pgrouting@
+@OSGEO_KIND_pgrouting@
 
 ********************************************************************************
-pgRouting Quickstart
+@NAME_pgrouting@
 ********************************************************************************
 
 pgRouting is an extension that adds routing and other network analysis functionality to :doc:`PostGIS <../overview/postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ databases.

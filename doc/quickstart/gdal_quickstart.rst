@@ -6,10 +6,8 @@
 @LOGO_gdal@
 @OSGEO_KIND_gdal@
 
-
-
 ********************************************************************************
-GDAL/OGR Quickstart
+@NAME_gdal@
 ********************************************************************************
 
 You will need nothing but a terminal for this quickstart. If you want to

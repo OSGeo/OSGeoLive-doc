@@ -8,7 +8,7 @@
 @OSGEO_KIND_pycsw@
 
 ********************************************************************************
-pycsw Quickstart
+@NAME_pycsw@
 ********************************************************************************
 
 pycsw is an OGC CSW server implementation written in `Python <http://python.org>`_. pycsw allows for the publishing and discovery of geospatial metadata.  Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0.

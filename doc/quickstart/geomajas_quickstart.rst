@@ -8,7 +8,7 @@
 
 
 ###################
-Geomajas Quickstart
+@NAME_geomajas@
 ###################
 
 Geomajas itself is an application framework allowing you to build very diverse and advanced web GIS solutions.

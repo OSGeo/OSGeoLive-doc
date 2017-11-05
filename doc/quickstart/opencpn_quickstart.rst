@@ -8,7 +8,7 @@
 
 
 ********************************************************************************
-OpenCPN Quickstart 
+@NAME_opencpn@
 ********************************************************************************
 
 OpenCPN is a concise Chart Plotter and Navigator (CPN). As always, never

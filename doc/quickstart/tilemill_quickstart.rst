@@ -8,7 +8,7 @@
 @OSGEO_KIND_tilemill@
 
 ********************************************************************************
-TileMill Quickstart 
+@NAME_tilemill@
 ********************************************************************************
 
 TileMill is a tool to quickly and easily design maps for the web using custom data. It is built on the powerful open-source map rendering library Mapnik ( the same software OpenStreetMap and MapQuest use to make some of their maps ) and uses CartoCSS as a stylesheet language.

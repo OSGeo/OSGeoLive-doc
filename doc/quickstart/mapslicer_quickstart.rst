@@ -8,7 +8,7 @@
 @LOGO_mapslicer@
 @OSGEO_KIND_mapslicer@
 
-MapSlicer Quickstart
+@NAME_mapslicer@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `MapSlicer <https://wiki.osgeo.org/wiki/MapSlicer>`_ provides a simple way of creating a set of tiles from any georeferenced map image. The tiles can then be presented as a georeferenced map overlay on a web server. It follows the `Open Source Geospatial Foundation's (OSGeo's) <http://www.osgeo.org/>`_ `Tile Map Service (TMS) <http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`_ specification.

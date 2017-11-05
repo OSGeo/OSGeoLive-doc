@@ -7,7 +7,7 @@
 @OSGEO_KIND_osgearth@
 
 ********************************************************************************
-osgEarth Quickstart 
+@NAME_osgearth@
 ********************************************************************************
 
 osgEarth is a scalable terrain rendering toolkit for OpenSceneGraph_.

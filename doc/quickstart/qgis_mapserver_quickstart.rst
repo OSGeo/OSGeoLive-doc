@@ -9,7 +9,7 @@
 
 
 ********************************************************************************
-QGIS Server Quickstart
+@NAME_qgis_mapserver@
 ********************************************************************************
 
 QGIS Server provides a web map service (WMS) based on libraries from the QGIS desktop application.

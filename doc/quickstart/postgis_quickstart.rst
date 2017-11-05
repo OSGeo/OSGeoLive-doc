@@ -24,9 +24,8 @@
 @LOGO_postgis@
 @OSGEO_KIND_postgis@
 
-
 ********************************************************************************
-PostGIS Quickstart
+@NAME_postgis@
 ********************************************************************************
 
 PostGIS adds spatial capabilities to the PostgreSQL relational database. It extends

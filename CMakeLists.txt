@@ -261,7 +261,8 @@ MACRO(INSERT_INTO_MAP_LOGO _KEY _TARGET)
 ENDMACRO(INSERT_INTO_MAP_LOGO)
 
 MACRO(INSERT_INTO_MAP_NAME _KEY _TARGET)
-    SET("NAME_${key}" "${_TARGET}")
+    SET("NAME_${_KEY}" "${_TARGET}")
+    message("NAME_${_KEY} ->>>  ${_TARGET}")
 ENDMACRO(INSERT_INTO_MAP_NAME)
 
 set (OSGeoLiveDoc_PROJECTS_LOGOS "")
@@ -311,13 +312,6 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
 
     string(CONCAT  OSGeoLiveDoc_PROJECTS_VERSIONS ${OSGeoLiveDoc_PROJECTS_VERSIONS} ".. |version-${project_page}| replace:: ${project_version}\n")
 
-    # Variable for storing the image commands for the project logos
-    #	.. image:: /images/project_logos/logo-pgRouting.png
-    #       :scale: 100 %
-    #       :alt: pgRouting logo
-    #       :align: right
-    #       :target: http://www.pgrouting.org
-    # TODO finish the lines
     INSERT_INTO_MAP_LOGO("${project_page}" "${url_target}")
     INSERT_INTO_MAP_KIND("${project_page}" "${osgeo_kind}")
     INSERT_INTO_MAP_NAME("${project_page}" "${project_name}")

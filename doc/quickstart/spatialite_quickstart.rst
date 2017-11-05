@@ -16,7 +16,7 @@
 @OSGEO_KIND_spatialite@
 
 ********************************************************************************
-SpatiaLite Quickstart 
+@NAME_spatialite@
 ********************************************************************************
 
 SpatiaLite is an SQLite database engine with spatial functions added. 

@@ -9,7 +9,7 @@
 .. _rasdaman-quickstart:
 
 ********************
-Rasdaman Quickstart
+@NAME_rasdaman@
 ********************
 
 Rasdaman is a Big Data Engine for flexible ad-hoc analytics on multi-dimensional spatio-temporal sensor, image, simulation, and statistics data of unlimited size.

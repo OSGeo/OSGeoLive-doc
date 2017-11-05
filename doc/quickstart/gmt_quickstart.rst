@@ -9,7 +9,7 @@
 @OSGEO_KIND_gmt@
 
 ********************************************************************************
-GMT Quickstart
+@NAME_gmt@
 ********************************************************************************
 
 GMT is a collection of tools that allow users to manipulate (x,y) and

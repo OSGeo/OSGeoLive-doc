@@ -8,7 +8,7 @@
 @OSGEO_KIND_ossim@
 
 ********************************************************************************
-Ossim Quickstart 
+@NAME_ossim@
 ********************************************************************************
 
 Open Source Software Image Map (OSSIM) is a high performance engine for

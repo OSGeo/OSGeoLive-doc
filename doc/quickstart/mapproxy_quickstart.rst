@@ -7,7 +7,7 @@
 @OSGEO_KIND_mapproxy@
 
 
-MapProxy Quickstart
+@NAME_mapproxy@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 MapProxy is *the* swiss army knife for all WMS and tile services.

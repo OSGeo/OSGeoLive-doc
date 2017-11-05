@@ -9,7 +9,7 @@
 @OSGEO_KIND_ideditor@
 
 ********************************************************************************
-The iD Editor
+@NAME_ideditor@
 ********************************************************************************
 
 The iD editor is the de facto, browser-based OpenStreetMap editor. iD is

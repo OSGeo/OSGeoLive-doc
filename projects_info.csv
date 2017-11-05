@@ -21,8 +21,8 @@ Y  |  openlayers  |  4.1.1  |  Y  |  Y  |  Browser Facing GIS  |    |   Browser 
 ######################| | | | | | | | | | |
 #   Web Services  | | | | | | | | | | |
 ######################| | | | | | | | | | |
-Y  |  52nSOS  |  4.4.0  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  SensorObservationService|http://52north.org/sos| |52°North SOS
-Y  |  52nWPS  |  3.6.1  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  n52-wps|http://52north.org/wps| |52°North WPS
+Y  |  52nSOS  |  4.4.0  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  SensorObservationService|http://52north.org/sos| |52 North SOS
+Y  |  52nWPS  |  3.6.1  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  n52-wps|http://52north.org/wps| |52 North WPS
 Y  |  deegree  |  3.3.20  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  deegree3|http://www.deegree.org|OSGeo_project|deegree
 Y  |  eoxserver  |  0.4.0  |  Y  |  Y  |  Web Services  |    |  Web Coverage Service  |  eoxserver|https://eoxserver.readthedocs.org/| |EOxServer
 Y  |  geonetwork  |  3.2.1  |  Y  |  Y  |  Web Services  |    |  Metadata Catalogue  |  geonetwork-opensource|http://geonetwork-opensource.org/|OSGeo_project|GeoNetwork

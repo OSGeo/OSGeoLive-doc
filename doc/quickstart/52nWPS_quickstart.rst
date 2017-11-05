@@ -8,7 +8,7 @@
 @OSGEO_KIND_52nWPS@
 
 ********************************************************************************
-52°North WPS Quickstart 
+@NAME_52nWPS@
 ********************************************************************************
 
 The 52°North WPS is a framework for web-based processing of (geospatial) data. 

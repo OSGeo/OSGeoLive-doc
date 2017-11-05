@@ -8,7 +8,7 @@
 @OSGEO_KIND_pywps@
 
 ****************
-PyWPS Quickstart
+@NAME_pywps@
 ****************
 
 PyWPS is an OGC WPS (Web Processing Service 1.0.0) server implementation written

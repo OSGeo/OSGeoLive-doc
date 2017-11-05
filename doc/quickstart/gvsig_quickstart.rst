@@ -10,7 +10,7 @@
 @OSGEO_KIND_gvsig@
 
 ********************************************************************************
-gvSIG Quickstart
+@NAME_gvsig@
 ********************************************************************************
 
 gvSIG is a Geographic Information System (GIS), that is, a desktop application

@@ -19,7 +19,7 @@
 @OSGEO_KIND_cartaro@
 
 ********************************************************************************
-Cartaro Quickstart 
+@NAME_cartaro@
 ********************************************************************************
 
 Cartaro is a geo-enabled Content Management System (CMS) to manage and publish geospatial and non-geospatial content. 

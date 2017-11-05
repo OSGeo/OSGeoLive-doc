@@ -12,7 +12,7 @@
 
   
 ===============================================================================
-1. MapWindow GIS Lite
+@NAME_mapwindow@
 ===============================================================================
 .. image:: /images/projects/mapwindow/mapwindow_screenshot.png
   :alt: Mapwindow Open Source GIS Lite

@@ -8,7 +8,7 @@
 
 
 ********************************************************************************
-OTB Quickstart 
+@NAME_otb@
 ********************************************************************************
 
 ORFEO Toolbox library (OTB) is a high performance library for image processing targeted on remote sensing.

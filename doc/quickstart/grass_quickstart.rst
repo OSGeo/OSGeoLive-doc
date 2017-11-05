@@ -10,7 +10,7 @@
 
 
 ********************************************************************************
-GRASS GIS 7 Quickstart 
+@NAME_grass@
 ********************************************************************************
 
 GRASS GIS is a powerful GIS which lets you visualize, manage, analyse and edit

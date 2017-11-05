@@ -14,7 +14,7 @@
 
 
 ********************************************************************************
-GeoServer Quickstart 
+@NAME_geoserver@
 ********************************************************************************
 
 GeoServer is a java application for serving maps (and data) for other
