@@ -8,7 +8,7 @@
 @OSGEO_KIND_mapproxy@
 
 
-MapProxy
+@NAME_mapproxy@
 ================================================================================
 
 Proxy WMS & tile services

@@ -6,9 +6,7 @@
 @LOGO_mb-system@
 @OSGEO_KIND_mb-system@
 
-
-
-MB-System
+@NAME_mb-system@
 ================================================================================
 
 Sea floor mapping

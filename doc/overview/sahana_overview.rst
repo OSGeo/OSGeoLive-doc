@@ -7,7 +7,7 @@
 @OSGEO_KIND_sahana@
 
 
-Sahana Eden
+@NAME_sahana@
 ================================================================================
 
 Disaster Management Platform

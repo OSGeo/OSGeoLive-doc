@@ -9,9 +9,7 @@
 @LOGO_gvsig@
 @OSGEO_KIND_gvsig@
 
-
-
-gvSIG Desktop
+@NAME_gvsig@
 ================================================================================
 
 Desktop GIS

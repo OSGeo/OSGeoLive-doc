@@ -10,11 +10,12 @@
 @OSGEO_KIND_deegree@
 
 
-deegree
+@NAME_deegree@
 ================================================================================
 
-Web Services
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+About
+--------------------------------------------------------------------------------
+
 
 deegree provides geospatial webservices based upon `Open Geospatial Consortium (OGC) <http://www.opengeospatial.org>`_ and `INSPIRE Network Services <http://inspire.jrc.ec.europa.eu>`_ specifications. deegree supports:
 

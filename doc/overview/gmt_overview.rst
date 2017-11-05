@@ -8,7 +8,7 @@
 @OSGEO_KIND_gmt@
 
 
-GMT
+@NAME_gmt@
 ================================================================================
 
 The Generic Mapping Tools

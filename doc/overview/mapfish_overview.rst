@@ -9,7 +9,7 @@
 @OSGEO_KIND_mapfish@
 
 
-MapFish
+@NAME_mapfish@
 ================================================================================
 
 Web Mapping Framework

@@ -8,7 +8,7 @@
 @OSGEO_KIND_marble@
 
 
-Marble
+@NAME_marble@
 ================================================================================
 
 Virtual globe and world atlas

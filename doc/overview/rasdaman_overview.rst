@@ -9,8 +9,8 @@
 @OSGEO_KIND_rasdaman@
 
 
-Rasdaman
-========
+@NAME_rasdaman@
+===============================================================================
 
 Multi-Dimensional Big Data Analytics Engine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

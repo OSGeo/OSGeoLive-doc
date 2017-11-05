@@ -7,7 +7,7 @@
 @OSGEO_KIND_nc_dataset@
 
 
-OSGeo North Carolina, USA Educational dataset
+@NAME_nc_dataset@
 ================================================================================
 
 Map Data

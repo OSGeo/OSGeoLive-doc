@@ -7,7 +7,7 @@
 @OSGEO_KIND_netcdf_dataset@
 
 
-NetCDF Data Set
+@NAME_netcdf@
 ================================================================================
 
 Map Data

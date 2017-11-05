@@ -7,7 +7,7 @@
 @OSGEO_KIND_kosmo@
 
 
-Kosmo Desktop
+@NAME_kosmo@
 ================================================================================
 
 Desktop GIS

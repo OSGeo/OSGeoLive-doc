@@ -7,7 +7,7 @@
 @OSGEO_KIND_mapender@
 
 
-Mapbender
+@NAME_mapbender@
 ================================================================================
 
 Geoportal Framework

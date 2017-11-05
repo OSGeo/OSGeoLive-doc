@@ -7,7 +7,7 @@
 @OSGEO_KIND_zygrib@
 
 
-zyGrib
+@NAME_zyGrib@
 ================================================================================
 
 Weather forecasting 

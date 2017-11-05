@@ -8,7 +8,7 @@
 
 
 
-osgEarth
+@NAME_osgearth@
 ================================================================================
 
 Terrain rendering toolkit

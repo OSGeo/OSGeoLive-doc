@@ -8,7 +8,7 @@
 @OSGEO_KIND_udig@
 
 
-User-friendly Desktop Internet GIS (uDig)
+@NAME_udig@
 ================================================================================
 
 Desktop GIS

@@ -9,7 +9,7 @@
 
 
 
-OpenCPN
+@NAME_opencpn@
 ================================================================================
 
 Marine GPS navigation software

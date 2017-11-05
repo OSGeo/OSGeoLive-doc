@@ -8,11 +8,11 @@
 @OSGEO_KIND_gdal@
 
 
-GDAL/OGR
+@NAME_gdal@
 ================================================================================
 
-Geospatial Data Translation Tools
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+About
+--------------------------------------------------------------------------------
 
 Geospatial Data Abstraction Library (GDAL/OGR) provides command-line
 utilities to translate and process a wide range of raster and vector

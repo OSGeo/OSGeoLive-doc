@@ -7,8 +7,7 @@
 @LOGO_mapwindow@
 @OSGEO_KIND_mapwindow@
 
- 
-MapWindow GIS Lite
+@NAME_mapwindow@
 ================================================================================
 
 Desktop GIS

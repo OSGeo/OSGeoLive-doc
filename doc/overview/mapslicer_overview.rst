@@ -8,7 +8,7 @@
 
 
 
-MapProxy
+@NAME_mapslicer@
 ================================================================================
 
 Proxy WMS & tile services
@@ -18,11 +18,6 @@ Proxy WMS & tile services
   :alt: MapProxy diagram
   :align: right
 
-@LOGO_mapslicer@
-
-
-MapSlicer
-================================================================================
 
 Map Publishing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

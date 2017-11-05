@@ -7,7 +7,7 @@
 @OSGEO_KIND_zoo-project@
 
 
-ZOO-Project
+@NAME_zoo-project@
 ================================================================================
 
 WPS Server

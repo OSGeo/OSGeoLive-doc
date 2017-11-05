@@ -6,7 +6,7 @@
 @LOGO_gpsdrive@
 @OSGEO_KIND_gpsdrive@
 
-GpsDrive
+@NAME_gpsdrive@
 ================================================================================
 
 GPS Navigation Software 

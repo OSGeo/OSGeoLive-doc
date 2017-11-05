@@ -6,7 +6,7 @@
 @LOGO_iris@
 @OSGEO_KIND_iris@
 
-Iris
+@NAME_iris@
 ================================================================================
 
 Meteorology and Climatology

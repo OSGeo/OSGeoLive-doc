@@ -7,7 +7,7 @@
 @OSGEO_KIND_ushahidi@
 
 
-Ushahidi
+@NAME_ushahidi@
 ================================================================================
 
 Incident Timeline & Mapping

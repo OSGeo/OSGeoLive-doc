@@ -10,7 +10,7 @@
 @OSGEO_KIND_grass@
 
 
-GRASS GIS
+@NAME_grass@
 ================================================================================
 
 Fully featured GIS

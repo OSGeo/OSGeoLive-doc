@@ -8,7 +8,7 @@
 @OSGEO_KIND_spatialite@
 
 
-SpatiaLite
+@NAME_spatialite@
 ================================================================================
 
 Spatial Database

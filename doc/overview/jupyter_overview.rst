@@ -8,7 +8,7 @@
 @OSGEO_KIND_jupyter@
 
 
-Jupyter Notebook
+@NAME_jupyter@
 ================================================================================
 
 Mixing rich media in documentation

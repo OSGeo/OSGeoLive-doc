@@ -27,7 +27,7 @@
   and accessed here:
     /images/project_logos/<filename>
 
-PostGIS
+@NAME_postgis@
 ================================================================================
 
 .. Writing Tip:

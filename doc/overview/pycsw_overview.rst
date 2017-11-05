@@ -9,7 +9,7 @@
 @OSGEO_KIND_pycsw@
 
 
-pycsw
+@NAMW_pycsw@
 ================================================================================
 
 Metadata Catalogue

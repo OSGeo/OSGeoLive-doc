@@ -8,7 +8,7 @@
 @OSGEO_KIND_liblas@
 
 
-libLAS
+@NAME_liblas@
 ================================================================================
 
 LiDAR Data Access

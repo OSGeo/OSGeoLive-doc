@@ -8,7 +8,7 @@
 @OSGEO_KIND_osm@
 
 
-OpenStreetMap
+@NAME_osm@
 ================================================================================
 
 Tools for mapping the world

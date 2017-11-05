@@ -7,7 +7,7 @@
 @OSGEO_KIND_ideditor@
 
 
-iD editor
+@NAME_ideditor@
 ================================================================================
 
 Browser based editor for OpenStreetMap

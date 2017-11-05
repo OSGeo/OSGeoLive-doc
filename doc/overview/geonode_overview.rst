@@ -7,9 +7,7 @@
 @LOGO_geonode@
 @OSGEO_KIND_geonode@
 
-
-
-GeoNode
+@NAME_geonode@
 ================================================================================
 
 Geospatial Content Management System

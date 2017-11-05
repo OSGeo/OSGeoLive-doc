@@ -8,7 +8,7 @@
 @OSGEO_KIND_mapnik@
 
 
-Mapnik
+@NAME_mapnik@
 ================================================================================
 
 Cartographic rendering engine

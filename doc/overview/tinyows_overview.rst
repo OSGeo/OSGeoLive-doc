@@ -7,7 +7,7 @@
 @LOGO_tinyows@
 @OSGEO_KIND_tinyows@
 
-TinyOWS
+@NAME_tinyows@
 ================================================================================
 
 Web Feature Service

@@ -6,7 +6,7 @@
 @LOGO_proj4@
 @OSGEO_KIND_proj4@
 
-Proj.4
+@NAME_proj4@
 ================================================================================
 
 Proj4 is a library that provides methods to transform between different coordinate

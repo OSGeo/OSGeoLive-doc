@@ -7,11 +7,11 @@
 @OSGEO_KIND_atlasstyler@
 
 
-AtlasStyler
+@NAME_atlasstyler@
 ================================================================================
 
-Feature Style Editor
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+About
+--------------------------------------------------------------------------------
 
 `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ is a user-friendly desktop application for styling geodata. The resulting styles can be saved as OGC standards compliant SLD/SE files.
 

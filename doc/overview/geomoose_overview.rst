@@ -9,7 +9,7 @@
 @OSGEO_KIND_geomoose@
 
 
-GeoMoose
+@NAME_geomoose@
 ================================================================================
 
 Web GIS Portal

@@ -8,11 +8,11 @@
 @LOGO_eoxserver@
 @OSGEO_KIND_eoxserver@
 
-EOxServer
+@NAME_eoxserver@
 ================================================================================
 
-Web Service
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+About
+--------------------------------------------------------------------------------
 
 EOxServer is a server for presenting big Earth Observation (EO) data
 archives and metadata via Open Standards.

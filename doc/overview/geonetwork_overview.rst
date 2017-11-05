@@ -8,7 +8,7 @@
 @OSGEO_KIND_geonetwork@
 
 
-GeoNetwork
+@NAME_geonetwork@
 ================================================================================
 
 Metadata Catalog

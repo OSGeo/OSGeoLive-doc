@@ -8,7 +8,7 @@
 @OSGEO_KIND_gpsprune@
 
 
-GpsPrune
+@NAME_gpsprune@
 ================================================================================
 
 GPS Track-Editing

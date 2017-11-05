@@ -8,7 +8,7 @@
 @OSGEO_KIND_josm@
 
 
-JOSM
+@NAME_josm@
 ================================================================================
 
 Desktop Editor for OpenStreetMap data

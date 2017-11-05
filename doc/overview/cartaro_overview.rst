@@ -8,11 +8,12 @@
 @OSGEO_KIND_cartaro@
 
 
-Cartaro
+@NAME_cartaro@
 ================================================================================
 
-Geospatial CMS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+About
+--------------------------------------------------------------------------------
+
 Cartaro provides geospatial functionality and web services within the Drupal Content Management System (CMS). With just a few clicks within Cartaro, you can set-up and run OGC standards based web services, as well as build maps into web pages. Cartaro builds upon robust Open Source components: the :doc:`PostGIS <../overview/postgis_overview>` database, :doc:`GeoServer <../overview/geoserver_overview>` and GeoWebCache web services, :doc:`OpenLayers <../overview/openlayers_overview>` maps in the browser, all managed from within the powerful `Drupal <http://drupal.org>`_ CMS.
 
 Cartaro is designed for CMS websites needing to handle geospatial data, and for organisations wanting a light-weight Spatial Data Infrastructure (SDI) with minimal configuration and programming.

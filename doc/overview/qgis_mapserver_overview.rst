@@ -7,7 +7,7 @@
 @LOGO_qgis_mapserver@
 @OSGEO_KIND_qgis_mapserver@
 
-QGIS Server
+@NAME_qgis_mapserver@
 ================================================================================
 
 Web Service

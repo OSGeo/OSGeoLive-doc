@@ -7,7 +7,7 @@
 @OSGEO_KIND_istsos@
 
 
-istSOS
+@NAME_istsos@
 ================================================================================
 
 Data Management Tool

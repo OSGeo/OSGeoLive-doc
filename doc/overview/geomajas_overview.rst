@@ -7,7 +7,7 @@
 @OSGEO_KIND_geomajas@
 
 
-Geomajas
+@NAME_geomajas@
 ================================================================================
 
 Browser GIS Client

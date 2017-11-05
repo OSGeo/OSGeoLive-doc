@@ -8,7 +8,7 @@
 @OSGEO_KIND_pywps@
 
 
-PyWPS
+@NAME_pywps@
 ================================================================================
 
 Web Processing Service

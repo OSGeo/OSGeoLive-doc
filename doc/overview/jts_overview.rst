@@ -7,7 +7,7 @@
 @OSGEO_KIND_jts@
 
 
-JTS Topology Suite (JTS)
+@NAME_jts@
 ================================================================================
 
 JTS is an open source library of spatial predicates and functions for

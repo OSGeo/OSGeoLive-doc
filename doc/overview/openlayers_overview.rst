@@ -11,7 +11,7 @@
 @OSGEO_KIND_openlayers@
 
 
-OpenLayers
+@NAME_openlayers@
 ================================================================================
 
 A high-performance, feature-packed library for all your mapping needs

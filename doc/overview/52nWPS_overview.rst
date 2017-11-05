@@ -8,11 +8,11 @@
 @OSGEO_KIND_52nWPS@
 
 
-52°North WPS
+@NAME_52nWPS@
 ================================================================================
 
-Web Service
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+About
+--------------------------------------------------------------------------------
 
 The 52°North :doc:`Web Processing Service (WPS) <../standards/wps_overview>` enables web access to geospatial
 processing algorithms provided by Sextante, ArcGIS Server, R, GRASS 7, or custom developed

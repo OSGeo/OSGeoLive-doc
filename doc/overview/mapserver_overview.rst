@@ -8,7 +8,7 @@
 @OSGEO_KIND_mapserver@
 
 
-MapServer
+@NAME_mapserver@
 ================================================================================
 
 Web Service

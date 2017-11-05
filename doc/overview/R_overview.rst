@@ -7,7 +7,7 @@
 @OSGEO_KIND_R@
 
 
-R for Spatial Data
+@NAME_R@
 ================================================================================
 
 Statistical Programming

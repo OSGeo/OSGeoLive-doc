@@ -7,7 +7,7 @@
 @OSGEO_KIND_geotools@
 
 
-GeoTools
+@NAME_geotools@
 ================================================================================
 
 GeoTools is an open source (LGPL) Java library which provides standards compliant methods for manipulating geospatial data, and uses data structures based on Open Geospatial Consortium (OGC) specifications.

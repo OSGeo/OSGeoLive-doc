@@ -6,7 +6,7 @@
 @LOGO_webworldwind@
 @OSGEO_KIND_webworldwind@
 
-Web World Wind
+@NAME_webworldwind@
 ================================================================================
 
 Virtual Globe in a browser

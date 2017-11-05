@@ -9,7 +9,7 @@
 @OSGEO_KIND_geoserver@
 
 
-GeoServer
+@NAME_geoserver@
 ================================================================================
 
 Web Service

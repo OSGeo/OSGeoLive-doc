@@ -9,7 +9,7 @@
 @OSGEO_KIND_leaflet@
 
 
-Leaflet
+@NAME_leaflet@
 ================================================================================
 
 Browser/Mobile Map Library

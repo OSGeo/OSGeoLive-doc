@@ -7,7 +7,7 @@
 @OSGEO_KIND_viking@
 
 
-Viking
+@NAME_viking@
 ================================================================================
 
 Manage and plot GPS data

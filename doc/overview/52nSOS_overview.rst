@@ -11,11 +11,11 @@
 @OSGEO_KIND_52nSOS@
 
 
-52°North SOS
+@NAME_52nSOS@
 ===============================================================================
 
-Web Service
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+About
+--------------------------------------------------------------------------------
 
 The 52°North :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>`
 supports the interoperable provision of live and archived sensor observation

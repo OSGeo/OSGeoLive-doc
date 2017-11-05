@@ -7,7 +7,7 @@
 @OSGEO_KIND_openjump@
 
 
-OpenJUMP GIS
+@NAME_openjump@
 ================================================================================
 
 Desktop GIS

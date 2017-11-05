@@ -7,7 +7,7 @@
 @OSGEO_KIND_osm_dataset@
 
 
-OpenStreetMap (OSM)
+@NAME_osm_dataset@
 ================================================================================
 
 Map Data

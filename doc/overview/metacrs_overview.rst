@@ -7,8 +7,7 @@
 @LOGO_metacrs@
 @OSGEO_KIND_metacrs@
 
-
-MetaCRS
+@NAME_metacrs@
 ================================================================================
 
 Coordinate Reference System Transformations

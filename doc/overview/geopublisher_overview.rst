@@ -7,7 +7,7 @@
 @OSGEO_KIND_geopublisher@
 
 
-Geopublisher
+@NAME_geopublisher@
 ================================================================================
 
 Electronic Library Manager
