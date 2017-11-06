@@ -1,0 +1,290 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.0\n"
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:16
+msgid "GeoKettle Quickstart"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:18
+msgid ""
+"GeoKettle is a “spatially-enabled” version of Pentaho Data Integration "
+"(also known as Kettle). It is a powerful, metadata-driven spatial ETL "
+"(Extract, Transform and Load) tool dedicated to the integration of "
+"different data sources for building and updating geospatial databases, "
+"data warehouses and web services."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:20
+msgid ""
+"GeoKettle enables the Extraction of data from data sources, the "
+"Transformation of data in order to correct errors, clean data, change "
+"data structure, make data compliant with standards, and Loading of "
+"transformed data into a target DataBase Management System (DBMS), GIS "
+"file, or geospatial web service. GeoKettle is particularly useful for "
+"automating complex and repetitive data processing without producing "
+"specific code, converting between data formats, migrating data between "
+"databases, feeding data into databases, etc."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:22
+msgid "This Quick Start describes how to:"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:24
+msgid "Load an existing data transformation"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:25
+msgid "Create a new data transformation"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:30
+msgid "Start GeoKettle"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:32
+msgid ""
+"Choose :menuselection:`Spatial Tools --> GeoKettle` from the Geospatial "
+"start menu"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:33
+msgid "Please wait, the application will take a few moments to start up"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:34
+msgid ""
+"You will be prompted with the following dialog. Fill in the repository "
+"information or simply click the \"No repository\" button to enter the "
+"GeoKettle's workbench"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:40
+msgid "Workbench"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:42
+msgid ""
+"As illustrated in the following screenshot, the Workbench window is "
+"composed of different panels."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:47
+msgid ""
+"The left part acts as a catalog containing all the steps which could "
+"compose a data transformation. The right part of the workbench is the "
+"area where the transformation itself would be designed and run/debugged."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:49
+msgid ""
+"The contents of these panels will be described further as we demonstrate "
+"their use."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:52
+msgid "Loading an existing transformation"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:54
+msgid ""
+"To load an existing transformation, select :menuselection:`File --> "
+"Open`. Browse to the transformation samples subdirectory "
+":file:`/opt/geokettle/samples/transformations/geokettle`, then select one"
+" of the available sample transformations and click :guilabel:`OK`. "
+"GeoKettle transformation are stored in files with the extension `*.ktr`."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:56
+msgid "The following picture shows the sample « intersection » transformation."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:61
+msgid ""
+"A description of the transformation and optional directives can be seen "
+"in the yellow tooltip area."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:63
+msgid ""
+"Before starting the transformation, you will need to specify which "
+"shapefile to use. In order to do that, double click on each of the « GIS "
+"file input » steps to make the following dialog appear."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:70
+msgid ""
+"Enter the name of your shapefile including the `*.shp` extension or leave"
+" it as is to use the sample dataset and click :guilabel:`OK`."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:72
+msgid ""
+"You are now ready to start the transformation. To do so, simply hit the "
+"play button in the toolbar above your transformation."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:75
+msgid "Creating a new data transformation"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:77
+msgid ""
+"Launch GeoKettle and access the workbench in the same way you would do "
+"when loading an existing transformation (see previous section)."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:79
+msgid ""
+"To create a new transformation, select :menuselection:`File --> New --> "
+"Transformation`. You can specify the name of the transformation by saving"
+" it under a different name (select :menuselection:`File --> Save as...`)."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:81
+msgid ""
+"As shown in the following picture, all available steps are listed by "
+"category in the left area of the workbench. Expand any category to see "
+"its available steps."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:86
+msgid ""
+"To add a new step to the transformation, drag it from the **Steps** panel"
+" to the **transformation** panel. You may then customize this new added "
+"step to your transformation by double clicking on it."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:89
+msgid "**Hops**"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:91
+msgid ""
+"A hop, represented as an arrow between 2 steps, defines the dataflow "
+"between those steps. As shown in the following picture, adding a hop from"
+" **Table Input** to **Add sequence** means that the resulting output of "
+"**Table Input** will be sent to the **Add sequence** step for further "
+"processing and etc."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:96
+msgid ""
+"To create a new hop, select 2 steps, right click on one of them and "
+"select :menuselection:`New hop`. Another way of doing it is to press and "
+"hold :kbd:`Ctrl` while selecting the 2 steps."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:98
+msgid ""
+"Any hop can be edited at any time by double clicking on it or right "
+"clicking on it and selecting :menuselection:`Edit hop` in the popup menu."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:101
+msgid "**Setting up the transformation**"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:103
+msgid ""
+"Most of the steps in a transformation will require custom parametrization"
+" before being usable. Double click on any step to display a dialog "
+"interface in which you can see and specify each requested parameter "
+"values."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:106
+msgid "**Running a transformation**"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:108
+msgid ""
+"When executing a transformation, a new panel appears below the one where "
+"the transformation is designed. This panel (aka the **Execution Results**"
+" panel) contains information about data flow through all steps involved "
+"in the transformation."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:110
+msgid ""
+"The **Step Metrics** tab (shown in the next figure) will be initially "
+"displayed. You can see in this tab general information regarding the "
+"transformation's dataflow such as the number of rows read, written, in "
+"input and in output in each step. The column **Active** informs the user "
+"if the step is started, running, finished, aborted, etc. The time elapsed"
+" since the step has been started is shown in the column **Time**, as well"
+" as the average speed (column **Speed**) of the step (rows/seconds)."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:116
+msgid "**Previewing a transformation**"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:118
+msgid ""
+"Trying to execute a transformation may result in errors in the "
+"**Execution Results** panel (see next figure). Please then review the "
+"content of the **Logging** tab. There is always a lot of useful "
+"information dealing with the source and reason of the error. Modify the "
+"parameters of the faulty step and restart the transformation."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:123
+msgid ""
+"To help in finding the source of an error, you can also preview the "
+"results of a transformation from another step earlier in the workflow. To"
+" do so, right click on the step, and select :menuselection:`Preview` in "
+"the popup menu that appears. This way, you can see in a tabular and "
+"cartographic way what the data looks like at this point in the overall "
+"process without executing the whole transformation."
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:126
+msgid "Things to Try"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:128
+msgid "Here are some additional challenges for you to try:"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:130
+msgid "Explore the diversity of all the steps that GeoKettle provides"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:131
+msgid "Try the GeoKettle debugger in order to debug a faulty transformation"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:132
+msgid "Try to build a transformation with your own data"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:135
+msgid "What Next?"
+msgstr ""
+
+#: ../../build/doc/quickstart/geokettle_quickstart.rst:137
+msgid ""
+"Take a look at the documentation available on the Spatialytics "
+"`documentation center "
+"<http://docs.spatialytics.com/doku.php?id=en:spatialytics_etl>`_. Do not "
+"hesitate also to ask for help on the Spatialytics `forum "
+"<http://forum.spatialytics.com>`_."
+msgstr ""
+

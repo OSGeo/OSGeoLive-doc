@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.0\n"
+
+#: ../../build/doc/standards/wms_overview.rst:30
+msgid "Web Map Service (WMS)"
+msgstr ""
+
+#: ../../build/doc/standards/wms_overview.rst:35
+msgid ""
+"The (OGC®) Web Map Service Interface Standard (WMS) provides a simple "
+"HTTP interface for requesting geo-registered map images from one or more "
+"distributed geospatial databases. The response to the request is one or "
+"more map images (returned as JPEG, PNG, etc) that can be displayed a "
+"browser and desktop applications. "
+"(http://www.opengeospatial.org/standards/wms)"
+msgstr ""
+
+#: ../../build/doc/standards/wms_overview.rst:41
+msgid "The WMS standard defines three operations:"
+msgstr ""
+
+#: ../../build/doc/standards/wms_overview.rst:43
+msgid ""
+"GetCapabilities (required): Obtain service-level metadata, which is a "
+"machine-readable (and human-readable) description of the WMS's "
+"information content and acceptable request parameters."
+msgstr ""
+
+#: ../../build/doc/standards/wms_overview.rst:45
+msgid ""
+"GetMap (required): Obtain a map image whose geospatial and dimensional "
+"parameters are well defined."
+msgstr ""
+
+#: ../../build/doc/standards/wms_overview.rst:47
+msgid ""
+"GetFeatureInfo (optional): Ask for information about particular features "
+"shown on a map."
+msgstr ""
+
+#: ../../build/doc/standards/wms_overview.rst:49
+msgid ""
+"This standard is now implemented in hundreds of products, many of which "
+"are registered at "
+"(http://www.opengeospatial.org/resource/products/compliant)."
+msgstr ""
+
+#: ../../build/doc/standards/wms_overview.rst:51
+msgid ""
+"An excellent example of a portal that uses WMS is NC OneMap "
+"(http://www.nconemap.com/): “NC OneMap relies on Web Map Services (WMS) "
+"to bring data together from multiple hosts. NC OneMap partners establish "
+"a WMS from their servers. This OGC standard allows data to be created and"
+" stored in numerous proprietary software configurations (ESRI, MapInfo, "
+"Intergraph, etc), but is viewable by all.”"
+msgstr ""
+
+#: ../../build/doc/standards/wms_overview.rst:54
+msgid "See Also"
+msgstr ""
+
+#: ../../build/doc/standards/wms_overview.rst:59
+msgid ""
+"An OGC WMS Cookbook and other materials for developers can be found at "
+"http://www.opengeospatial.org/resource/cookbooks."
+msgstr ""
+
+#: ../../build/doc/standards/wms_overview.rst:61
+msgid "Other OGC portrayal service standards:"
+msgstr ""
+
+#: ../../build/doc/standards/wms_overview.rst:64
+msgid ":doc:`wfs_overview`"
+msgstr ""
+
+#: ../../build/doc/standards/wms_overview.rst:65
+msgid ":doc:`wcs_overview`"
+msgstr ""
+
+#: ../../build/doc/standards/wms_overview.rst:66
+msgid "Web Map Tile Service"
+msgstr ""
+
+#: ../../build/doc/standards/wms_overview.rst:67
+msgid ":doc:`gml_overview`"
+msgstr ""
+
+#: ../../build/doc/standards/wms_overview.rst:68
+msgid ":doc:`kml_overview`"
+msgstr ""
+
+#: ../../build/doc/standards/wms_overview.rst:69
+msgid ":doc:`sld_overview`"
+msgstr ""
+
+#: ../../build/doc/standards/wms_overview.rst:70
+msgid "Symbology Encoding"
+msgstr ""
+
+#: ../../build/doc/standards/wms_overview.rst:71
+msgid ":doc:`fe_overview`"
+msgstr ""
+

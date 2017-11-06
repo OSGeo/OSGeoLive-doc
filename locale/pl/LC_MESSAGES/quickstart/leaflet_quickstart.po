@@ -1,0 +1,226 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.0\n"
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:7
+msgid "Leaflet Quickstart"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:9
+msgid ""
+"Leaflet is a JavaScript library for browser-based, mobile-friendly, "
+"interactive maps.  It is lightweight, yet has all the features most "
+"developers ever need for online maps. Leaflet is designed with "
+"simplicity, performance and usability in mind."
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:14
+msgid "Running"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:16
+msgid ""
+"Prior to running this quick start you should start TileStache. On the "
+"live dvd this can be found under **Geospatial\\\\Spatial Tools\\\\Start "
+"Mapnik & TileStache**. This will provide background tiles that will be "
+"used in this demo."
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:19
+msgid "View the example_"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:21
+msgid ""
+"If you are reading this quickstart outside the live dvd you may prefer "
+"reading the original demo on: http://leafletjs.com/examples/quick-start/,"
+" since this demo uses tilestache on the live dvd."
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:24
+msgid "Preparing your page"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:25
+msgid ""
+"Before writing any code for the map, you need to do the following "
+"preparation steps on your page:"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:27
+msgid "Include Leaflet CSS files in the head section of your document"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:36
+msgid "Include Leaflet JavaScript file:"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:42
+msgid "put a **div** element with a certain **id** where you want your map to be:"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:48
+msgid ""
+"Make sure the map container has a defined height, for example by setting "
+"it in CSS:"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:54
+msgid "Now you are ready to initialize the map and do some stuff with it."
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:57
+msgid "Setting up the Map"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:58
+msgid ""
+"Let's create a map of Europe with an indication of the 2013 FOSS4G "
+"conference. First we'll initialize the map and set its view to our chosen"
+" geographical coordinates and a zoom level:"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:64
+msgid ""
+"By default (as we didn't pass any options when creating the map "
+"instance), all mouse and touch interactions on the map are enabled, and "
+"it has zoom and attribution controls."
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:66
+msgid ""
+"Note that setView call also returns the map object - most Leaflet methods"
+" act like this when they don't return an explicit value, which allows "
+"convenient jQuery-like method chaining."
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:68
+msgid ""
+"Next we'll add a tile layer to add to our map. In this case we will be "
+"using the tile images provided by TileStache on the live dvd. Note that "
+"using nicer background maps such as openstreetmap will result in a much "
+"better user experience."
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:71
+msgid ""
+"Creating a tile layer usually involves setting the URL template for the "
+"tile images, the attribution text and the maximum zoom level of the "
+"layer:"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:77
+msgid ""
+"If you have online access you may want to use a nicer tilemap as the "
+"background:"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:86
+msgid ""
+"Make sure all the code is called after the **div** and **leaflet.js** "
+"inclusion. That's it! You have a working Leaflet map now."
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:88
+msgid ""
+"It's worth noting that Leaflet is provider-agnostic, meaning that it "
+"doesn't enforce a particular choice of providers for tiles, and it "
+"doesn't even contain a single provider-specific line of code, so you're "
+"free to use other providers if you need to."
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:91
+msgid "Markers, circles and polygons"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:93
+msgid ""
+"Besides tile layers, you can easily add other things to your map, "
+"including markers, polylines, polygons, circles and popups. Let's add a "
+"marker:"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:100
+msgid ""
+"Adding a circle is the same (except for specifying the radius in meters "
+"as a second argument), but lets you control how it looks by passing "
+"options as the last argument when creating the object:"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:110
+msgid "Adding a polygon is as easy:"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:122
+msgid "Working with popups"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:124
+msgid ""
+"Popups are usually used when you want to attach some information to a "
+"particular object on a map. Leaflet has a very handy shortcut for this:"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:133
+msgid ""
+"Here we use **openOn** instead of **addTo** because it handles automatic "
+"closing of a previously opened popup when opening a new one which is good"
+" for usability."
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:136
+msgid "Dealing with events"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:138
+msgid ""
+"Every time something happens in Leaflet, e.g. user clicks on a marker or "
+"map zoom changes, the corresponding object sends an event which you can "
+"subscribe to with a function. It allows you to react to user interaction:"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:148
+msgid ""
+"Each object has its own set of events - see documentation_ for details. "
+"The first argument of the listener function is an event object - it "
+"contains useful information about the event that happened. For example, "
+"map click event object (e in the example above) has latlng property which"
+" is a location at which the click occured."
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:150
+msgid "Let's improve our example by using a popup instead of an alert:"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:165
+msgid ""
+"Try clicking on the map and you will see the coordinates in a popup. View"
+" the full example_"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:168
+msgid "What Next?"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:170
+msgid ""
+"Now you've learned Leaflet basics and can start building map apps "
+"straight away! Don't forget to take a look at the detailed documentation_"
+" or other examples_."
+msgstr ""
+

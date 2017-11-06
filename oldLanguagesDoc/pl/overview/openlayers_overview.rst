@@ -1,0 +1,77 @@
+:Author: Chris Schmidt
+:Author: OSGeo-Live
+:Translator: Milena Nowotarska, OSGeo
+:Reviewer: Milena Nowotarska, OSGeo
+:Version: osgeo-live4.0
+:License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+
+.. _openlayers-overview-pl:
+
+.. image:: /images/project_logos/logo-OpenLayers.png
+  :alt: project logo
+  :align: right
+  :target: http://openlayers.org/
+
+.. image:: /images/logos/OSGeo_project.png
+  :scale: 100 %
+  :alt: OSGeo Project
+  :align: right
+  :target: http://www.osgeo.org
+
+
+OpenLayers
+================================================================================
+
+Klient GIS w przeglądarce internetowej
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: /images/projects/openlayers/openlayers-basic.png
+  :scale: 100 %
+  :alt: screenshot
+  :align: right
+
+OpenLayers ułatwia programistom tworzenie - na każdej stronie internetowej - dynamicznych 
+map, wykorzystujących dane z różnych źródeł. OpenLayers dostarcza szerokiego 
+wachlarza narzędzi mapowych oraz widgetów, podobnie jak Google Maps API. 
+Wszystkie funkcje działają wewnątrz przeglądarki internetowej, co sprawia, 
+że OpenLayers jest łatwe do zainstalowania i nie wymaga jakichkolwiek zależności po stronie serwera.
+
+Główne funkcje
+--------------------------------------------------------------------------------
+
+* Proste w użyciu API JavaScript, zaprojektowane aby ułatwić pracę programisty
+* Wsparcie standardów i dostosowanych do potrzeb użytkownika protokołów do interakcji z serwerami
+* Narzędzia do łatwego tworzenia spersonalizowanych interfejsów użytkownika 
+* Wsparcie renderowania danych wewnątrz przeglądarki internetowej (przy użyciu SVG, VML lub technologii Canvas), wsparcie budowania zaawansowanych map w przeglądarce internetowej
+* Możliwość wczytywania warstw map z różnych źródeł:
+  
+  * Warstwy komercyjne: Google, Bing, Yahoo
+  
+  * Standardy OGC: WMS, WMTS, WFS, WFS-T, GeoRS, GML
+  
+  * Inne: ArcGIS, Images, MapGuide, MapServer, TileCache
+
+* Możliwość parsowania danych wektorowych i metadanych w wielu formatach:
+  
+  * Atom, ArcXML, GeoJSON, GeoRSS, KML, OSM, SLD, WMTS
+
+Szczegóły
+--------------------------------------------------------------------------------
+
+**Strona internetowa:** http://openlayers.org
+
+**Licencja:** MIT-style license
+
+**Wersja programu:** 2.11
+
+**API Interface:** JavaScript
+
+**Wsparcie:** http://trac.openlayers.org 
+
+
+Wprowadzenie
+--------------------------------------------------------------------------------
+
+* :doc:`Przejdź do wprowadzenia <../quickstart/openlayers_quickstart>`
+
+

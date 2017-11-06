@@ -4,24 +4,29 @@
 #
 # Main configuration
 # ------------------------------------------------------------------------------
-
+language: python
 group: edge
 dist: trusty    
 
-
+# executed. So things have to be tested oe by one.
 addons:
   apt:
     sources:
+      - ubuntu-toolchain-r-test
+      # For cmake
+      - kubuntu-backports
     packages:
+      - cmake
       - python-sphinx
-      - python-pil
-      - python-imaging
+      - graphviz
+
+install:
+  - pip install git+https://github.com/sphinx-doc/sphinx@stable
+  - pip install sphinx-intl
 
 script: 
-  #- make html
-  - make html SPHINXOPTS=" -v"
-  - du -ch _build/html
-  - make clean
-  - make small SPHINXOPTS=" -v" &> errors.txt
-  - if ! grep -Fq 'build succeeded, 11 warnings' errors.txt; then cat errors.txt; exit 1; fi;
-  - du -ch _build/html
+  - mkdir build
+  - cd build
+  #- cmake -DLOCALE=ON -DALL_DOC=ON -DALL_LANG=ON ..
+  - cmake -DHTML=ON -DES=ON -@OSGeoLiveDoc_DEBUG=ON ..
+  - make html
