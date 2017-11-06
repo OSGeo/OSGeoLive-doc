@@ -45,6 +45,7 @@ $sections .= get_section("Navigation and Maps", $configuration);
 $sections .= get_section("Spatial Tools", $configuration);
 $sections .= get_section("Domain Specific GIS", $configuration);
 $sections .= get_section("Data", $configuration);
+$sections .= get_section("Geospatial Libraries", $configuration);
 $sections .= get_section("Other software of interest (not available Live)", $configuration);
 write_script($sections);
 exit 0;
