@@ -6,7 +6,7 @@
 Letöltés
 ================================================================================
 
-A legújabb stabil kiadás |osgeo-live-version|. Letöltés https://sourceforge.net/projects/osgeo-live/files/10.5/:
+A legújabb stabil kiadás |osgeo-live-version|. Letöltés https://sourceforge.net/projects/osgeo-live/files/11.0/:
 
 Picking the right image for you:
 

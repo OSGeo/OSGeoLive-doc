@@ -7,7 +7,7 @@ Installation :
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Pour installer l'application simplement, double cliquez sur l'exe approprié ou décompresser un zip et lisez le README pour chaque installation. Certaines applications ont une version 64bit mais seulement les versions 32bit ont été inclues pour la compatibilité, vérifiez sur le web pour les versions plus récentes ou alternatives. Pour plus d'informations sur les projets, veuillez lire l'aide inclue dans le disque live ou visitez http://live.osgeo.org
 
-osgeo4w-setup.exe est une application pour vous aider à installer les applications sur Windows. Certaines des mêmes applications inclues ici sont aussi disponibles via OSGeo4w. L'outil The OSGeo4w inclut la capacité à gérer les mises à niveau, installer les librairies additionnelles et s'assurer de la compatibilité entre les applications multiples. Visitez http://trac.osgeo.org/osgeo4w/ pour plus d'informations.
+osgeo4w-setup.exe est une application pour vous aider à installer les applications sur Windows. Certaines des mêmes applications inclues ici sont aussi disponibles via OSGeo4w. L'outil OSGeo4w inclut la capacité à gérer les mises à niveau, installer les librairies additionnelles et s'assurer de la compatibilité entre les applications multiples. Visitez http://trac.osgeo.org/osgeo4w/ pour plus d'informations.
 
 vcredist_x86.exe est le Runtime de Microsoft, c'est nécessaire pour faire fonctionner beaucoup des autres applications.
 

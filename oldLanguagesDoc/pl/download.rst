@@ -6,7 +6,7 @@
 Pobierz OSGeo-Live
 ================================================================================
 
-Najnowszą stabilną wersję |osgeo-live-version|. Pobierz OSGeo-Live https://sourceforge.net/projects/osgeo-live/files/10.5/ :
+Najnowszą stabilną wersję |osgeo-live-version|. Pobierz OSGeo-Live https://sourceforge.net/projects/osgeo-live/files/11.0/ :
 
 Picking the right image for you:
 

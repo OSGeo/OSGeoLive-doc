@@ -7,7 +7,7 @@
 下载
 ================================================================================
 
-最新的 |osgeo-live-version| 稳定版本. https://sourceforge.net/projects/osgeo-live/files/10.5/:
+最新的 |osgeo-live-version| 稳定版本. https://sourceforge.net/projects/osgeo-live/files/11.0/:
 
 Picking the right image for you:
 
