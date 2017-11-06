@@ -7,8 +7,9 @@
 @OSGEO_KIND_mapproxy@
 
 
+================================================================================
 @NAME_mapproxy@ Quickstart
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+================================================================================
 
 MapProxy is *the* swiss army knife for all WMS and tile services.
 It caches, accelerates and transforms data from existing map services and serves any desktop or web GIS client.
