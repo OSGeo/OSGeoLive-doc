@@ -79,9 +79,5 @@ Details
 **API Interfaces:** Java
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_josm@
  
-* :doc:`Quickstart documentation <../quickstart/josm_quickstart>`
-
-

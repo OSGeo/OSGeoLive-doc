@@ -68,7 +68,5 @@ Details
 **Support:** https://github.com/Reading-eScience-Centre/ncwms/issues
 
 
-Quickstart
-----------
+@QUICKSTART_ncWMS@
 
-* :doc:`Quickstart documentation <../quickstart/ncWMS_quickstart>`

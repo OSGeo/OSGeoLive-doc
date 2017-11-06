@@ -113,3 +113,5 @@ GeoTools_Support
 --------------------------------------------------------------------------------
 
 * `Quickstart documentation <http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_
+
+@QUICKSTART_geotools@

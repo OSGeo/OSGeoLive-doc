@@ -81,9 +81,5 @@ Details
 **Support:** https://www.openstreetmap.org/help
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/osm_quickstart>`
-
+@QUICKSTART_osm@
 

@@ -54,8 +54,5 @@ Details
 **Support:** http://lists.osgeo.org/mailman/listinfo/mapserver-users
 
 
-Quickstart
---------------------------------------------------------------------------------
-    
-* :doc:`Quickstart documentation <../quickstart/tinyows_quickstart>`
+@QUICKSTART_tinyows@
 

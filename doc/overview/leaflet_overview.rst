@@ -105,8 +105,5 @@ Details
 
 **Support:** https://groups.google.com/forum/#!forum/leaflet-js
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/leaflet_quickstart>`
+@QUICKSTART_leaflet@
 

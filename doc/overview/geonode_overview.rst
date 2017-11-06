@@ -81,7 +81,5 @@ Details
 
 **Support:** http://opengeo.org/technology/geonode/
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_geonode@
 
-* :doc:`Quickstart documentation <../quickstart/geonode_quickstart>`

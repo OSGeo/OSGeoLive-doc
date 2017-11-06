@@ -49,7 +49,5 @@ Details
 
 **Support:** https://help.openstreetmap.org/
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_ideditor@
     
-* :doc:`Quickstart documentation <../quickstart/ideditor_quickstart>`

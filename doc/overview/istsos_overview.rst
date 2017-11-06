@@ -55,8 +55,5 @@ Details
 **Support:** https://groups.google.com/forum/#!forum/istsos
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_istsos@
     
-* :doc:`Quickstart documentation <../quickstart/istsos_quickstart>`
-

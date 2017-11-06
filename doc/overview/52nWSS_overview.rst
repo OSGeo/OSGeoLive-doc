@@ -71,7 +71,5 @@ Details
 **Commercial Support:** http://52north.org/
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_52nWSS@
 
-* :doc:`Quickstart documentation <../quickstart/52nWSS_quickstart>`

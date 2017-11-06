@@ -72,9 +72,5 @@ Details
 **Support:** http://grass.osgeo.org/support/
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/grass_quickstart>`
-
+@QUICKSTART_grass@
 

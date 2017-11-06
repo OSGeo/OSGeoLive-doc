@@ -88,8 +88,5 @@ Details
 **Commercial Support:** http://qgis.org/en/site/forusers/commercial_support.html
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/qgis_quickstart>`
+@QUICKSTART_qgis@
 

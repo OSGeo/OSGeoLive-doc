@@ -91,7 +91,5 @@ Details
 
 **Forum:** http://forum.worldwindcentral.com/
 
-Quickstart
---------------------------------------------------------------------------------
-    
-:doc: `Quickstart documentation <../quickstart/worldwindjava_quickstart>`_
+@QUICKSTART_worldwindjava@
+

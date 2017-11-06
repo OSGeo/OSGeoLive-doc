@@ -56,8 +56,5 @@ Details
   
   **Support:** http://lists.maptools.org/mailman/listinfo/proj
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/proj4_quickstart>`
+@QUICKSTART_proj4@
 

@@ -77,7 +77,5 @@ Details
 **Support:** https://stackoverflow.com/questions/tagged/openlayers (user) and https://groups.google.com/forum/#!forum/openlayers-dev (developer)
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_openlayers@
 
-* :doc:`Quickstart documentation <../quickstart/openlayers_quickstart>`

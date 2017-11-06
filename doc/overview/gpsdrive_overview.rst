@@ -52,9 +52,7 @@ Details
 
 **Support:** http://gpsdrive.de/support.shtml
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_gpsdrive@
 
-* :doc:`Quickstart documentation <../quickstart/gpsdrive_quickstart>`
 
 

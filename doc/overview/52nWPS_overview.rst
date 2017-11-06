@@ -73,9 +73,5 @@ Details
 **Other 52°North projects:** :doc:`SOS <./52nSOS_overview>`
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/52nWPS_quickstart>`
-
+@QUICKSTART_52nWPS@
 

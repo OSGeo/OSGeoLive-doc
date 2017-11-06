@@ -113,7 +113,5 @@ Details
 **Support:** http://www.osgeo.org/search_profile
 
 
-Quickstart
---------------------------------------------------------------------------------
-    
-* :doc:`Quickstart documentation <../quickstart/postgis_quickstart>`
+@QUICKSTART_postgis@
+

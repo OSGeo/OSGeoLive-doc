@@ -71,7 +71,5 @@ Details
 
 **Support:** http://lists.osgeo.org/mailman/listinfo/gdal-dev, http://www.osgeo.org/search_profile
 
-Quickstart
---------------------------------------------------------------------------------
-    
-* :doc:`Quickstart documentation <../quickstart/gdal_quickstart>`
+@QUICKSTART_gdal@
+

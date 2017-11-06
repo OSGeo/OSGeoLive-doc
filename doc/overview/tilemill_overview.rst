@@ -90,7 +90,5 @@ Details
 **Support:** http://www.tilemill.com
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_tilemill@
     
-* :doc:`Quickstart documentation <../quickstart/tilemill_quickstart>`

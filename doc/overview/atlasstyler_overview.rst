@@ -53,10 +53,5 @@ Details
 **Support:** `www.wikisquare.de <http://www.wikisquare.de>`_ 
 
 
-
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/atlasstyler_quickstart>`
-
+@QUICKSTART_atlasstyler@
 

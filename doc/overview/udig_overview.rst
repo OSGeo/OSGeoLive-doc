@@ -79,9 +79,5 @@ Details
 **Developers:** http://udig.refractions.net/developers/
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/udig_quickstart>`
-
+@QUICKSTART_udig@
 

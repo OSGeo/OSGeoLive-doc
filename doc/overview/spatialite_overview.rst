@@ -63,8 +63,5 @@ Details
 **API Interfaces:** C
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/spatialite_quickstart>`
+@QUICKSTART_spatialite@
 

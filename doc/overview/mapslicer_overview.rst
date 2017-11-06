@@ -52,7 +52,5 @@ Details
 **Supported Platforms:** Windows, Linux, Mac
 
 
-Quickstart
---------------------------------------------------------------------------------
-    
-* :doc:`Quickstart documentation <../quickstart/mapslicer_quickstart>`
+@QUICKSTART_mapslicer@
+

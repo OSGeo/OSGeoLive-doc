@@ -87,9 +87,5 @@ Details
 **Support:** http://zoo-project.org/
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/zoo-project_quickstart>`
-
+@QUICKSTART_zoo-project@
 

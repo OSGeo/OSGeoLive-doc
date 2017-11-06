@@ -66,7 +66,5 @@ Details
 
 **Support:** http://www.geops.de
 
-Quickstart
---------------------------------------------------------------------------------
-    
-* :doc:`Quickstart documentation <../quickstart/cartaro_quickstart>`
+@QUICKSTART_cartaro@
+

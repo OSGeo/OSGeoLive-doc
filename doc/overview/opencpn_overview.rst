@@ -55,9 +55,5 @@ Details
 **Support:** http://www.cruisersforum.com/forums/f134
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/opencpn_quickstart>`
-
+@QUICKSTART_opencpn@
 

@@ -7,7 +7,7 @@
 @OSGEO_KIND_zygrib@
 
 
-@NAME_zyGrib@
+@NAME_zygrib@
 ================================================================================
 
 Weather forecasting 
@@ -45,8 +45,5 @@ Details
 **Support:** http://zygrib.org/forum/
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/zygrib_quickstart>`
+@QUICKSTART_zygrib@
 

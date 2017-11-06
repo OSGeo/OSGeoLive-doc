@@ -104,7 +104,5 @@ Details
 **Support:** http://www.spatialytics.org & http://www.spatialytics.com
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_geokettle@
     
-* :doc:`Quickstart documentation <../quickstart/geokettle_quickstart>`

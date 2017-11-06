@@ -76,9 +76,5 @@ Details
 **More Info:** http://www.slideshare.net/marbleglobe/marble-1-6en
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/marble_quickstart>`
-
+@QUICKSTART_marble@
 

@@ -49,3 +49,5 @@ Details
 **API Interfaces:** C, C++
 
 **Support:** http://lists.osgeo.org/mailman/listinfo/geos-devel, http://www.osgeo.org/search_profile
+
+@QUICKSTART_geos@

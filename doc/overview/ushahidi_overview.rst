@@ -77,9 +77,5 @@ Details
 **Support:** https://wiki.ushahidi.com/display/forums/Ushahidi+Forums
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/ushahidi_quickstart>`
-
+@QUICKSTART_ushahidi@
 

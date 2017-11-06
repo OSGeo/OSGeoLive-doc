@@ -69,9 +69,5 @@ Details
 **Support:** http://www.saga-gis.org
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/saga_quickstart>`
-
+@QUICKSTART_saga@
 

@@ -61,7 +61,5 @@ Details
 
 **Community Support:** Mailing list cesium-dev@googlegroups.com
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_cesium@
 
-* :doc:`Quickstart documentation <../quickstart/cesium_quickstart>`

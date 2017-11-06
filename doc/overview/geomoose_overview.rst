@@ -62,7 +62,5 @@ Details
 **Community Support:** http://www.geomoose.org/info/mailing_lists.html
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_geomoose@
     
-* :doc:`Quickstart documentation <../quickstart/geomoose_quickstart>`

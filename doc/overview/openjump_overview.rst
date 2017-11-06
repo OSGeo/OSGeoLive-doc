@@ -82,7 +82,4 @@ Details
 
 **Download Page:** http://sourceforge.net/projects/jump-pilot/files/ 
 
-Quickstart
---------------------------------------------------------------------------------
-    
-* :doc:`Quickstart documentation <../quickstart/openjump_quickstart>`
+@QUICKSTART_openjump@

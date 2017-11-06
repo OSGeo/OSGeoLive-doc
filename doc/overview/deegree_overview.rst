@@ -124,7 +124,5 @@ Details
 **Support:** http://wiki.deegree.org/deegreeWiki/GettingSupport
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_deegree@
 
-* :doc:`Quickstart documentation <../quickstart/deegree_quickstart>`

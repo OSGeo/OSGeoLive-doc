@@ -54,7 +54,5 @@ Details
 **Commercial Support:** http://www.sourcepole.com/
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_qgis_mapserver@
 
-* :doc:`Quickstart documentation <../quickstart/qgis_mapserver_quickstart>`

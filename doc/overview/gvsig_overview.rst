@@ -106,7 +106,5 @@ Details
 
 .. _gvSIG: http://www.gvsig.com
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_gvsig@
 
-* :doc:`Quickstart documentation <../quickstart/gvsig_quickstart>`

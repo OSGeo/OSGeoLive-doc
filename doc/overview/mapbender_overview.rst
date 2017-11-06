@@ -66,10 +66,5 @@ Details
 
 **Support:** http://www.mapbender3.org/en/community
 
-
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/mapbender_quickstart>`
-
+@QUICKSTART_mapbender@
 

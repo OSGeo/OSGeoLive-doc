@@ -76,10 +76,5 @@ Details
 
 **Commercial Support:** http://osgearth.org/#ProfessionalServices
 
-
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/osgearth_quickstart>`
-
+@QUICKSTART_osgearth@
 

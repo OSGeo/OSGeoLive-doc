@@ -74,8 +74,5 @@ Details
 **Commercial Support:** http://www.osgeo.org/search_profile
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/otb_quickstart>`
+@QUICKSTART_otb@
 

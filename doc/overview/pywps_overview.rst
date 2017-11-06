@@ -63,7 +63,5 @@ Details
 
 **Support:** http://pywps.org/community/#professional-support
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_pywps@
 
-* :doc:`Quickstart documentation <../quickstart/pywps_quickstart>`

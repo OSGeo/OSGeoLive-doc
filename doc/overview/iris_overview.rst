@@ -50,4 +50,5 @@ Quickstart
 
 .. _`GitHub`: https://github.com/SciTools/iris
 
+@QUICKSTART_iris@
 

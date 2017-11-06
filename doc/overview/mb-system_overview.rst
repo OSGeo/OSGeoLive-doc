@@ -63,9 +63,5 @@ Details
 **API Interfaces:** Command line
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/mb-system_quickstart>`
-
+@QUICKSTART_mb-system@
 

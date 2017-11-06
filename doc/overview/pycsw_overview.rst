@@ -102,8 +102,5 @@ Details
 .. _`OGC Compliant`: http://www.opengeospatial.org/resource/products/details/?pid=1374
 .. _`OGC Reference Implementation`: http://demo.pycsw.org/
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/pycsw_quickstart>`
+@QUICKSTART_pycsq@
 

@@ -86,7 +86,5 @@ Details
 
 **Support:** http://geoserver.org/support/
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_geoserver@
 
-* :doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`

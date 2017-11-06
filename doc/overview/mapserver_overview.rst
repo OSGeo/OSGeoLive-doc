@@ -115,7 +115,5 @@ Details
 
 **Support:** http://mapserver.org/community/
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_mapserver@
     
-* :doc:`Quickstart documentation <../quickstart/mapserver_quickstart>`

@@ -65,7 +65,5 @@ Details
 
 **Forum:** http://forum.worldwindcentral.com/forumdisplay.php?60-Web-World-Wind
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_webworldwind@
 
-:doc: `Quickstart documentation <../quickstart/webworldwind_quickstart>`_

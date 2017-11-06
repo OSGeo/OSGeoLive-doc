@@ -60,8 +60,5 @@ Details
 **Supported Platforms:** GNU/Linux, Mac OSX, Windows
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/gpsprune_quickstart>`
+@QUICKSTART_gpsprune@
 

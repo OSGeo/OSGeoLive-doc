@@ -110,7 +110,5 @@ Details
 **Support:** http://mapproxy.org/support.html
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_mapproxy@
 
-* :doc:`Quickstart documentation <../quickstart/mapproxy_quickstart>`

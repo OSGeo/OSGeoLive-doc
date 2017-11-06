@@ -63,9 +63,5 @@ Details
 **Support:** http://sourceforge.net/apps/mediawiki/viking/index.php?title=Main_Page#Help
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/viking_quickstart>`
-
+@QUICKSTART_viking@
 

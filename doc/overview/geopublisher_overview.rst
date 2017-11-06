@@ -60,9 +60,5 @@ Details
 **Support:** http://www.wikisquare.de
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/geopublisher_quickstart>`
-
+@QUICKSTART_geopublisher@
 

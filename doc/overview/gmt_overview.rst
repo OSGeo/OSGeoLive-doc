@@ -53,9 +53,5 @@ Details
 **Support:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/gmt_quickstart>`
-
+@QUICKSTART_gmt@
 

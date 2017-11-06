@@ -52,10 +52,6 @@ Details
 
 **Support:** `Communication and Support <http://liblas.org/community.html>`_
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/liblas_quickstart>`
 
 .. _`LIDAR`: http://en.wikipedia.org/wiki/LIDAR
 .. _`LAStools`: http://www.cs.unc.edu/~isenburg/lastools/
@@ -65,3 +61,6 @@ Quickstart
 .. _`Command line utilities`: http://liblas.org/utilities/index.html
 .. _`OSGeo4W`: http://trac.osgeo.org/osgeo4w/
 .. _`Wikipedia`: http://en.wikipedia.org/wiki/LIDAR
+
+@QUICKSTART_liblas@
+

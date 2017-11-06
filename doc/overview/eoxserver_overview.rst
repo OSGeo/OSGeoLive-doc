@@ -85,7 +85,5 @@ Details
 
 **Support:** https://eoxserver.readthedocs.org/en/latest/users/basics.html#where-can-i-get-support
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_eoxserver@
 
-* :doc:`Quickstart documentation <../quickstart/eoxserver_quickstart>`

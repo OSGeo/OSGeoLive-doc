@@ -69,8 +69,6 @@ Details
 
 **Commercial Support:** http://www.pgrouting.org/support.html
 
-Quickstart
---------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/pgrouting_quickstart>`
+@QUICKSTART_pgrouting@
 

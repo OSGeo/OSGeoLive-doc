@@ -65,3 +65,6 @@ Details
 **API Interfaces:** Java
 
 **Support:** https://sourceforge.net/projects/jts-topo-suite/
+
+@QUICKSTART_jts@
+

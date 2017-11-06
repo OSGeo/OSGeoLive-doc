@@ -137,7 +137,6 @@ Details
 **Other 52°North projects on OSGeoLive:** :doc:`WPS <./52nWPS_overview>`
 
 
-Quickstart
---------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/52nSOS_quickstart>`
+@QUICKSTART_52nSOS@
+

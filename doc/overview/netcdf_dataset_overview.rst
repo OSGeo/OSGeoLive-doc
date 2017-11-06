@@ -41,3 +41,5 @@ Details
 
 **Support:** http://lists.osgeo.org/mailman/listinfo/geodata
 
+@QUICKSTART_netcdf@
+

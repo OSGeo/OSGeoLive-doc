@@ -58,7 +58,5 @@ Details
 **Commercial Support:** http://www.osgeo.org/search_profile
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_ossim@
 
-* :doc:`Quickstart documentation <../quickstart/ossim_quickstart>`

@@ -68,7 +68,5 @@ Details
 **Support:**  http://jupyter.org/community.html
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_jupyter@
 
-* :doc:`Quickstart documentation <../quickstart/jupyter_quickstart>`
