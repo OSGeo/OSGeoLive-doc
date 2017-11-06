@@ -79,7 +79,6 @@ OSGeo-Live is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo Foun
      osgeo_contact
      mac_installers
      win_installers
-     MacInstallers/*
 
 
 

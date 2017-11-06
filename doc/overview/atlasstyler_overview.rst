@@ -3,17 +3,15 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-AtlasStyler.png
-  :alt: project logo
-  :align: right
-  :target: http://en.geopublishing.org/AtlasStyler
+@LOGO_atlasstyler@
+@OSGEO_KIND_atlasstyler@
 
 
-AtlasStyler
+@NAME_atlasstyler@
 ================================================================================
 
-Feature Style Editor
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+About
+--------------------------------------------------------------------------------
 
 `AtlasStyler <http://en.geopublishing.org/AtlasStyler>`_ is a user-friendly desktop application for styling geodata. The resulting styles can be saved as OGC standards compliant SLD/SE files.
 
@@ -55,10 +53,5 @@ Details
 **Support:** `www.wikisquare.de <http://www.wikisquare.de>`_ 
 
 
-
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/atlasstyler_quickstart>`
-
+@QUICKSTART_atlasstyler@
 

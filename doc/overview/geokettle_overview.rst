@@ -3,16 +3,15 @@
 :Version: osgeo-live7.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-geokettle.png
-  :alt: project logo
-  :align: right
-  :target: http://www.geokettle.org/
+@LOGO_geokettle@
+@OSGEO_KIND_geokettle@
 
-GeoKettle
+
+@NAME_geokettle@
 ================================================================================
 
-Extract Transform Load (ETL)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+About
+--------------------------------------------------------------------------------
 
 GeoKettle is a "spatially-enabled" version of `Pentaho Data Integration <http://kettle.pentaho.com>`_ (also known as Kettle). It is a powerful, metadata-driven spatial ETL (Extract, Transform and Load) tool dedicated to the integration of different data sources for building and updating geospatial databases, data warehouses and web services.
 
@@ -105,7 +104,5 @@ Details
 **Support:** http://www.spatialytics.org & http://www.spatialytics.com
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_geokettle@
     
-* :doc:`Quickstart documentation <../quickstart/geokettle_quickstart>`

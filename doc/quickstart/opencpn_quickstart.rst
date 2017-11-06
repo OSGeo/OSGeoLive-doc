@@ -3,14 +3,12 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
-.. image:: /images/project_logos/logo-opencpn.png
-  :scale: 75 %
-  :alt: project logo
-  :align: right
-  :target: http://www.opencpn.org
+@LOGO_opencpn@
+@OSGEO_KIND_opencpn@
+
 
 ********************************************************************************
-OpenCPN Quickstart 
+@NAME_opencpn@ Quickstart
 ********************************************************************************
 
 OpenCPN is a concise Chart Plotter and Navigator (CPN). As always, never

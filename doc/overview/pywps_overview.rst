@@ -4,18 +4,11 @@
 :Version: osgeo-live10.0
 :License: Creative Commons
 
-.. image:: /images/project_logos/logo-pywps.png
-  :alt: project logo
-  :align: right
-  :target: http://pywps.org/
+@LOGO_pywps@
+@OSGEO_KIND_pywps@
 
-.. image:: /images/logos/OSGeo_community.png
-  :scale: 100
-  :alt: OSGeo Project in Incubation
-  :align: right
-  :target: http://www.osgeo.org
 
-PyWPS
+@NAME_pywps@
 ================================================================================
 
 Web Processing Service
@@ -70,7 +63,5 @@ Details
 
 **Support:** http://pywps.org/community/#professional-support
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_pywps@
 
-* :doc:`Quickstart documentation <../quickstart/pywps_quickstart>`

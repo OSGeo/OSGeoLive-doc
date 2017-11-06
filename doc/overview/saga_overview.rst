@@ -3,13 +3,11 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-saga.png
-  :alt: project logo
-  :align: right
-  :target: http://www.saga-gis.org
+@LOGO_saga@
+@OSGEO_KIND_saga@
 
 
-SAGA
+@NAME_saga@
 ================================================================================
 
 Desktop GIS
@@ -71,9 +69,5 @@ Details
 **Support:** http://www.saga-gis.org
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/saga_quickstart>`
-
+@QUICKSTART_saga@
 

@@ -4,21 +4,12 @@
 :Version: osgeo-live10.0
 :License: Creative Commons Attribution
 
-.. image:: /images/project_logos/logo-pywps.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
-  :target: http://pywps.org
+@LOGO_pywps@
+@OSGEO_KIND_pywps@
 
-.. image:: /images/logos/OSGeo_community.png
-  :scale: 100
-  :alt: OSGeo Community Project
-  :align: right
-  :target: http://www.osgeo.org
-
-****************
-PyWPS Quickstart
-****************
+******************************** 
+@NAME_pywps@ Quickstart
+********************************
 
 PyWPS is an OGC WPS (Web Processing Service 1.0.0) server implementation written
 in `Python <http://python.org>`_.

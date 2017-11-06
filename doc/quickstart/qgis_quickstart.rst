@@ -16,20 +16,12 @@
   We also need screen shots after each significant step.
   Once these comments have been addressed, please remove my comment.
 
-.. image:: /images/project_logos/logo-QGIS.png
-  :alt: project logo
-  :align: right
-  :target: http://www.qgis.org
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
+@LOGO_qgis@
+@OSGEO_KIND_qgis@
 
 
 ********************************************************************************
-QGIS Quickstart
+@NAME_qgis@ Quickstart
 ********************************************************************************
 
 QGIS is a user friendly Desktop GIS client which lets

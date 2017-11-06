@@ -4,18 +4,10 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-QGIS.png
-  :alt: project logo
-  :align: right
-  :target: http://www.qgis.org
+@LOGO_qgis_mapserver@
+@OSGEO_KIND_qgis_mapserver@
 
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
-
-QGIS Server
+@NAME_qgis_mapserver@
 ================================================================================
 
 Web Service
@@ -62,7 +54,5 @@ Details
 **Commercial Support:** http://www.sourcepole.com/
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_qgis_mapserver@
 
-* :doc:`Quickstart documentation <../quickstart/qgis_mapserver_quickstart>`

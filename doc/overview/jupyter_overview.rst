@@ -4,12 +4,11 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-jupyter.png
-  :alt: project logo
-  :align: center
-  :target: http://jupyter.org/
+@LOGO_jupyter@
+@OSGEO_KIND_jupyter@
 
-Jupyter Notebook
+
+@NAME_jupyter@
 ================================================================================
 
 Mixing rich media in documentation
@@ -69,7 +68,5 @@ Details
 **Support:**  http://jupyter.org/community.html
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_jupyter@
 
-* :doc:`Quickstart documentation <../quickstart/jupyter_quickstart>`

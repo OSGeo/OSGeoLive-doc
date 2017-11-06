@@ -3,12 +3,11 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-ncdataset.png 
-  :alt: project logo
-  :align: right
-  :target: http://wiki.osgeo.org/wiki/Category:Education
+@LOGO_nc_dataset@
+@OSGEO_KIND_nc_dataset@
 
-OSGeo North Carolina, USA Educational dataset
+
+@NAME_nc_dataset@
 ================================================================================
 
 Map Data
@@ -69,4 +68,6 @@ Details
 **Spatial coordinate system:** NC State Plane (Lambert Conformal Conic), NAD83
 
 **Support:** http://lists.osgeo.org/mailman/listinfo/geodata
+
+@QUICKSTART_nc_dataset@
 

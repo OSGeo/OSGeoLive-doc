@@ -3,13 +3,10 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
+@LOGO_webworldwind@
+@OSGEO_KIND_webworldwind@
 
-.. image:: /images/project_logos/logoNasaWWW.png
-  :alt: project logo
-  :align: right
-  :target: http://webworldwind.org/
-
-Web World Wind
+@NAME_webworldwind@
 ================================================================================
 
 Virtual Globe in a browser
@@ -68,7 +65,5 @@ Details
 
 **Forum:** http://forum.worldwindcentral.com/forumdisplay.php?60-Web-World-Wind
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_webworldwind@
 
-:doc: `Quickstart documentation <../quickstart/webworldwind_quickstart>`_

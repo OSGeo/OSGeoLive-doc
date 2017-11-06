@@ -4,20 +4,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-deegree.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
-  :target: http://www.deegree.org
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
+@LOGO_deegree@
+@OSGEO_KIND_deegree@
 
 ********************************************************************************
-deegree 3 webservices quickstart 
+@NAME_deegree@ Quickstart
 ********************************************************************************
 
 deegree is a Java application for serving maps (and vector data) for other clients to show.

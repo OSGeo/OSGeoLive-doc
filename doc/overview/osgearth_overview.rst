@@ -3,13 +3,12 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-osgearth.png
-  :alt: project logo
-  :align: right
-  :target: http://osgearth.org/
+@LOGO_osgearth@
+@OSGEO_KIND_osgearth@
 
 
-osgEarth
+
+@NAME_osgearth@
 ================================================================================
 
 Terrain rendering toolkit
@@ -77,10 +76,5 @@ Details
 
 **Commercial Support:** http://osgearth.org/#ProfessionalServices
 
-
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/osgearth_quickstart>`
-
+@QUICKSTART_osgearth@
 

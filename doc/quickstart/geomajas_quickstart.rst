@@ -3,22 +3,13 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-geomajas.png
-  :width: 100px
-  :height: 100px
-  :alt: project logo
-  :align: right
-  :target: http://www.geomajas.org
+@LOGO_geomajas@
+@OSGEO_KIND_geomajas@
 
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
-###################
-Geomajas Quickstart
-###################
+######################################
+@NAME_geomajas@ Quickstart
+###################################### 
 
 Geomajas itself is an application framework allowing you to build very diverse and advanced web GIS solutions.
 

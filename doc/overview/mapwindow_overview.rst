@@ -4,14 +4,10 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-MapWindow.png
-  :alt: MapWindow GIS
-  :align: right
-  :width: 220
-  :height: 38
-  :target: http://www.mapwindow.org
- 
-MapWindow GIS Lite
+@LOGO_mapwindow@
+@OSGEO_KIND_mapwindow@
+
+@NAME_mapwindow@
 ================================================================================
 
 Desktop GIS
@@ -89,7 +85,5 @@ Details
 **Commercial Support:** http://www.mapwindow.nl, http://www.mapwindow.org/documentation/mapwindow5/support.html
 
 
-Quickstart
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@QUICKSTART_mapwindow@
 
-* :doc:`Quickstart documentation <../quickstart/mapwindow_quickstart>`

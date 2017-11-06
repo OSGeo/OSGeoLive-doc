@@ -3,18 +3,11 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-GeoTools.png
-  :alt: project logo
-  :align: right
-  :target: http://geotools.org/
+@LOGO_geotools@
+@OSGEO_KIND_geotools@
 
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
-GeoTools
+@NAME_geotools@
 ================================================================================
 
 GeoTools is an open source (LGPL) Java library which provides standards compliant methods for manipulating geospatial data, and uses data structures based on Open Geospatial Consortium (OGC) specifications.
@@ -120,3 +113,5 @@ GeoTools_Support
 --------------------------------------------------------------------------------
 
 * `Quickstart documentation <http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_
+
+@QUICKSTART_geotools@

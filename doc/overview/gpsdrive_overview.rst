@@ -3,13 +3,10 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-gpsdrive.png
-  :alt: project logo
-  :align: right
-  :target: http://www.gpsdrive.de
+@LOGO_gpsdrive@
+@OSGEO_KIND_gpsdrive@
 
-
-GpsDrive
+@NAME_gpsdrive@
 ================================================================================
 
 GPS Navigation Software 
@@ -55,9 +52,7 @@ Details
 
 **Support:** http://gpsdrive.de/support.shtml
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_gpsdrive@
 
-* :doc:`Quickstart documentation <../quickstart/gpsdrive_quickstart>`
 
 

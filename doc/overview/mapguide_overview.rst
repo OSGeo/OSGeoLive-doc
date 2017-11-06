@@ -3,19 +3,12 @@
 :Version: osgeo-live5.5draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-MapGuideOS.png
-  :alt: project logo
-  :align: right
-  :target: http://mapguide.osgeo.org/
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
+@LOGO_mapguide@
+@OSGEO_KIND_mapguide@
 
 
-MapGuide Open Source
+
+@NAME_mapguide@
 ================================================================================
 
 Web Service
@@ -110,9 +103,5 @@ Details
 **Commercial Support:** http://www.osgeo.org/search_profile
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/mapguide_quickstart>`
-
+@QUICKSTART_mapguide@
 

@@ -5,18 +5,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-pycsw.png
-  :alt: project logo
-  :align: right
-  :target: http://pycsw.org/
+@LOGO_pycsw@
+@OSGEO_KIND_pycsw@
 
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
-pycsw
+@NAMW_pycsw@
 ================================================================================
 
 Metadata Catalogue
@@ -109,8 +102,5 @@ Details
 .. _`OGC Compliant`: http://www.opengeospatial.org/resource/products/details/?pid=1374
 .. _`OGC Reference Implementation`: http://demo.pycsw.org/
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/pycsw_quickstart>`
+@QUICKSTART_pycsw@
 

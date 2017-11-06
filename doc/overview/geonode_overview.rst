@@ -4,19 +4,10 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-geonode.png
-  :alt: project logo
-  :align: right
-  :target: http://geonode.org
+@LOGO_geonode@
+@OSGEO_KIND_geonode@
 
-.. image:: /images/logos/OSGeo_project.png
-    :scale: 100
-    :alt: OSGeo Project
-    :align: right
-    :target: http://www.osgeo.org
-
-
-GeoNode
+@NAME_geonode@
 ================================================================================
 
 Geospatial Content Management System
@@ -90,7 +81,5 @@ Details
 
 **Support:** http://opengeo.org/technology/geonode/
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_geonode@
 
-* :doc:`Quickstart documentation <../quickstart/geonode_quickstart>`

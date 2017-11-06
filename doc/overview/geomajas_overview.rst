@@ -3,20 +3,11 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-geomajas.png
-  :width: 100px
-  :height: 100px
-  :alt: project logo
-  :align: right
-  :target: http://www.geomajas.org
+@LOGO_geomajas@
+@OSGEO_KIND_geomajas@
 
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
-Geomajas
+@NAME_geomajas@
 ================================================================================
 
 Browser GIS Client
@@ -65,8 +56,5 @@ Details
 **Support:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/geomajas_quickstart>`
+@QUICKSTART_geomajas@
 

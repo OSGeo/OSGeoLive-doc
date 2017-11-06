@@ -5,8 +5,11 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Reviewer: Cameron Shorter (transposed from source)
 
+@LOGO_ideditor@
+@OSGEO_KIND_ideditor@
+
 ********************************************************************************
-The iD Editor
+@NAME_ideditor@ Quickstart
 ********************************************************************************
 
 The iD editor is the de facto, browser-based OpenStreetMap editor. iD is

@@ -3,12 +3,11 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logoNasaJWW.png
-  :alt: project logo
-  :align: right
-  :target: http://goworldwind.org/
+@LOGO_worldwindjava@
+@OSGEO_KIND_worldwindjava@
 
-WorldWind Java
+
+@NMAE_worldwindjava@
 ================================================================================
 Desktop Virtual Globe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -92,7 +91,5 @@ Details
 
 **Forum:** http://forum.worldwindcentral.com/
 
-Quickstart
---------------------------------------------------------------------------------
-    
-:doc: `Quickstart documentation <../quickstart/worldwindjava_quickstart>`_
+@QUICKSTART_worldwindjava@
+

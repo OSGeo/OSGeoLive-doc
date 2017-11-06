@@ -3,13 +3,14 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-cesium.png 
-  :alt: project logo
-  :align: right
-  :target: http://cesiumjs.org
+@LOGO_cesium@
+@OSGEO_KIND_cesium@
 
-Cesium
+@NAME_cesium@
 ================================================================================
+
+About
+--------------------------------------------------------------------------------
 
 3D Globes and 2D Maps in a Browser
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -60,7 +61,5 @@ Details
 
 **Community Support:** Mailing list cesium-dev@googlegroups.com
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_cesium@
 
-* :doc:`Quickstart documentation <../quickstart/cesium_quickstart>`

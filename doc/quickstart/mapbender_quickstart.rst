@@ -4,20 +4,13 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: mapbender-user list
 
+@LOGO_mapbender@
+@OSGEO_KIND_mapbender@
 
-.. image:: /images/project_logos/logo-Mapbender3.png
-  :scale: 70 %
-  :alt: project logo
-  :align: right
 
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
 ********************************************************************************
-Mapbender3 Quickstart 
+@NAME_mapbender@ Quickstart
 ********************************************************************************
 
 Mapbender is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services.

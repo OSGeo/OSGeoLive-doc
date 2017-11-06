@@ -5,8 +5,11 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Reviewer: Cameron Shorter (transposed from source)
 
+@LOGO_josm@
+@OSGEO_KIND_josm@
+
 ********************************************************************************
-JOSM Quickstart
+@NAME_josm@ Quickstart
 ********************************************************************************
 
 This quickstart covers basic usage of the Java OpenStreetMap editor.

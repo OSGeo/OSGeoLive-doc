@@ -3,21 +3,11 @@
 :Reviewer: Angelos Tzotsos, OSGeo
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-geomoose.png
-  :width: 250px
-  :height: 65px
-  :alt: project logo
-  :align: right
-  :target: http://www.geomoose.org
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
+@LOGO_geomoose@
+@OSGEO_KIND_geomoose@
 
 ********************************************************************************
-GeoMoose Quickstart
+@NAME_geomoose@ Quickstart
 ********************************************************************************
 
 GeoMoose is a browser based mapping framework for displaying distributed cartographic data. It is particularly useful for managing spatial and non-spatial data within county, city and municipal offices (from which GeoMoose originated).

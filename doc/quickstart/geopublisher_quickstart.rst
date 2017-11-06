@@ -2,14 +2,11 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-Geopublisher.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
-  :target: http://en.geopublishing.org/Geopublisher
+@LOGO_geopublisher@
+@OSGEO_KIND_geopublisher@
 
 ********************************************************************************
-Geopublisher Quickstart 
+@NAME_geopublisher@ Quickstart
 ********************************************************************************
 
 Demo-Atlas

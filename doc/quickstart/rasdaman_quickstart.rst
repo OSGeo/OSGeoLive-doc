@@ -2,18 +2,15 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
+
+@LOGO_rasdaman@
+@OSGEO_KIND_rasdaman@
+
 .. _rasdaman-quickstart:
 
-.. image:: /images/project_logos/logo-rasdaman.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
-  :target: http://www.rasdaman.org
-
-
-********************
-Rasdaman Quickstart
-********************
+****************************************
+@NAME_rasdaman@ Quickstart
+****************************************
 
 Rasdaman is a Big Data Engine for flexible ad-hoc analytics on multi-dimensional spatio-temporal sensor, image, simulation, and statistics data of unlimited size.
 The Web Coverage Processing Service (WCPS) query language is an Open Geospatial Consortium (OGC) standard wich allows filtering and processing of multi-dimensional raster

@@ -5,19 +5,11 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-mapfish.png
-  :alt: project logo
-  :align: right
-  :target: http://www.mapfish.org
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
+@LOGO_mapfish@
+@OSGEO_KIND_mapfish@
 
 
-MapFish
+@NAME_mapfish@
 ================================================================================
 
 Web Mapping Framework
@@ -63,9 +55,5 @@ Details
 **Support:** http://trac.mapfish.org/trac/mapfish#Community
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/mapfish_quickstart>`
-
+@QUICKSTART_mapfish@
 

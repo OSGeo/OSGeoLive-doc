@@ -4,13 +4,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-mapnik.png
-  :alt: project logo
-  :align: right
-  :target: http://mapnik.org/
+@LOGO_mapnik@
+@OSGEO_KIND_mapnik@
 
 
-Mapnik
+@NAME_mapnik@
 ================================================================================
 
 Cartographic rendering engine
@@ -50,7 +48,5 @@ Details
 
 **API Interfaces:** C++, Python
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_mapnik@
 
-* :doc:`Quickstart documentation <../quickstart/mapnik_quickstart>`

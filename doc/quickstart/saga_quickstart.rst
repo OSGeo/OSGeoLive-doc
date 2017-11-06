@@ -4,15 +4,12 @@
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-saga.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
-  :target: http://www.saga-gis.org
+@LOGO_saga@
+@OSGEO_KIND_saga@
 
 
 ********************************************************************************
-SAGA GIS Quickstart
+@NAME_saga@ Quickstart
 ********************************************************************************
 
 SAGA (System for Automated Geoscientific Analyses) is an

@@ -4,22 +4,15 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-GDAL.png
-  :alt: project logo
-  :align: right
-  :target: http://gdal.org/
+@LOGO_gdal@
+@OSGEO_KIND_gdal@
 
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
-GDAL/OGR
+@NAME_gdal@
 ================================================================================
 
-Geospatial Data Translation Tools
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+About
+--------------------------------------------------------------------------------
 
 Geospatial Data Abstraction Library (GDAL/OGR) provides command-line
 utilities to translate and process a wide range of raster and vector
@@ -78,7 +71,5 @@ Details
 
 **Support:** http://lists.osgeo.org/mailman/listinfo/gdal-dev, http://www.osgeo.org/search_profile
 
-Quickstart
---------------------------------------------------------------------------------
-    
-* :doc:`Quickstart documentation <../quickstart/gdal_quickstart>`
+@QUICKSTART_gdal@
+

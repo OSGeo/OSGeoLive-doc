@@ -4,14 +4,12 @@
 
 
 
-.. image:: /images/project_logos/logoNasaWWW.png
-  :alt: project logo
-  :align: right
-  :target: http://webworldwind.org/
+@LOGO_webworldwind@
+@OSGEO_KIND_webworldwind@
 
 
 ********************************************************************************
-Web World Wind Quickstart 
+@NAME_webworldwind@ Quickstart
 ********************************************************************************
 ___________
 Get Started

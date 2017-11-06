@@ -3,12 +3,11 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-ncWMS.png
- :alt: project logo
- :align: right
- :target: https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/
+@LOGO_ncWMS@
+@OSGEO_KIND_ncWMS@
 
-ncWMS
+
+@NAME_ncWMS@
 ================================================================================
 
 Web Map Service
@@ -69,7 +68,5 @@ Details
 **Support:** https://github.com/Reading-eScience-Centre/ncwms/issues
 
 
-Quickstart
-----------
+@QUICKSTART_ncWMS@
 
-* :doc:`Quickstart documentation <../quickstart/ncWMS_quickstart>`

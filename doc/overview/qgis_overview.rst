@@ -5,19 +5,12 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-QGIS.png
-  :alt: project logo
-  :align: right
-  :target: http://www.qgis.org
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
+@LOGO_qgis@
+@OSGEO_KIND_qgis@
 
 
-QGIS
+
+@NAME_qgis@
 ================================================================================
 
 Desktop GIS
@@ -95,8 +88,5 @@ Details
 **Commercial Support:** http://qgis.org/en/site/forusers/commercial_support.html
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/qgis_quickstart>`
+@QUICKSTART_qgis@
 

@@ -4,18 +4,10 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-TinyOWS.png
-  :alt: project logo
-  :align: right
-  :target: http://mapserver.org/tinyows/
+@LOGO_tinyows@
+@OSGEO_KIND_tinyows@
 
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
-
-TinyOWS
+@NAME_tinyows@
 ================================================================================
 
 Web Feature Service
@@ -62,8 +54,5 @@ Details
 **Support:** http://lists.osgeo.org/mailman/listinfo/mapserver-users
 
 
-Quickstart
---------------------------------------------------------------------------------
-    
-* :doc:`Quickstart documentation <../quickstart/tinyows_quickstart>`
+@QUICKSTART_tinyows@
 

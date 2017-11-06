@@ -6,19 +6,11 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Copyright: 2011-2015 by The OSGeo Foundation
 
-.. image:: /images/project_logos/logo-GRASS.png
-  :alt: project logo
-  :align: right
-  :target: http://grass.osgeo.org
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
+@LOGO_grass@
+@OSGEO_KIND_grass@
 
 
-GRASS GIS
+@NAME_grass@
 ================================================================================
 
 Fully featured GIS
@@ -80,9 +72,5 @@ Details
 **Support:** http://grass.osgeo.org/support/
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/grass_quickstart>`
-
+@QUICKSTART_grass@
 

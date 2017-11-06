@@ -4,18 +4,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-marble.png
-  :alt: project logo
-  :align: right
-  :target: http://marble.kde.org/
+@LOGO_marble@
+@OSGEO_KIND_marble@
 
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
-Marble
+@NAME_marble@
 ================================================================================
 
 Virtual globe and world atlas
@@ -83,9 +76,5 @@ Details
 **More Info:** http://www.slideshare.net/marbleglobe/marble-1-6en
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/marble_quickstart>`
-
+@QUICKSTART_marble@
 

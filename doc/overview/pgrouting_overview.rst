@@ -4,19 +4,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-pgRouting.png
-  :alt: pgRouting logo
-  :align: right
-  :target: http://www.pgrouting.org/
-
-.. image:: /images/logos/OSGeo_community.png
-   :scale: 100
-   :alt: OSGeo Community Project
-   :align: right
-   :target: http://www.osgeo.org
+@LOGO_pgrouting@
+@OSGEO_KIND_pgrouting@
 
 
-pgRouting
+@NAME_pgrouting@
 ================================================================================
 
 GIS Tools
@@ -77,8 +69,6 @@ Details
 
 **Commercial Support:** http://www.pgrouting.org/support.html
 
-Quickstart
---------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/pgrouting_quickstart>`
+@QUICKSTART_pgrouting@
 

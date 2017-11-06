@@ -5,13 +5,12 @@
 
 .. _rasdaman-overview:
 
-.. image:: /images/project_logos/logo-rasdaman.png
-  :alt: project logo
-  :align: right
-  :target: http://www.rasdaman.org
+@LOGO_rasdaman@
+@OSGEO_KIND_rasdaman@
 
-Rasdaman
-========
+
+@NAME_rasdaman@
+===============================================================================
 
 Multi-Dimensional Big Data Analytics Engine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -59,8 +58,5 @@ Details
 
 **Support:**  http://www.rasdaman.com
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/rasdaman_quickstart>`
+@QUICKSTART_rasdaman@
 

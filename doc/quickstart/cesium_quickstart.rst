@@ -4,8 +4,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
+@LOGO_cesium@
+@OSGEO_KIND_cesium@
+
 ********************************************************************************
-Cesium Quickstart 
+@NAME_cesium@ Quickstart
 ********************************************************************************
 This document shows how to use the Cesium with the 3D (Globe), 2.5D (Columbus View) and 2D (map).
 

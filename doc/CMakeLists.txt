@@ -27,8 +27,8 @@ set(OSGeoLiveDoc_FILES
 # Directories
 #---------------------
 set(OSGeoLiveDoc_SUBDIRS
-    "WindowsInstallers"
-    "MacInstallers"
+    #"WindowsInstallers"
+    #"MacInstallers"
     "presentation"
     "quickstart"
     "overview"

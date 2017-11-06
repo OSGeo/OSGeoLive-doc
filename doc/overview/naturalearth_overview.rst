@@ -3,13 +3,12 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-naturalearth.png
-  :alt: project logo
-  :align: right
-  :target: http://www.naturalearthdata.com/
+@LOGO_naturalearth@
+@OSGEO_KIND_naturalearth@
 
 
-Natural Earth
+
+@NAME_naturalearth@
 ================================================================================
 
 Map Data
@@ -62,3 +61,4 @@ Details
 
 **Support:** http://naturalearthdata.com/forums/
 
+@QUICKSTART_naturalearth@

@@ -4,19 +4,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-GeoNetwork.png
-  :alt: project logo
-  :width: 150 px
-  :align: right
-  :target: http://geonetwork-opensource.org/
+@LOGO_geonetwork@
+@OSGEO_KIND_geonetwork@
 
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
-GeoNetwork
+@NAME_geonetwork@
 ================================================================================
 
 Metadata Catalog
@@ -70,7 +62,5 @@ Details
 **Support:** http://www.osgeo.org/search_profile
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_geonetwork@
 
-* :doc:`Quickstart documentation <../quickstart/geonetwork_quickstart>`

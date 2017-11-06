@@ -3,13 +3,11 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-Geopublisher.png
-  :alt: project logo
-  :align: right
-  :target: http://en.geopublishing.org/Geopublisher
+@LOGO_geopublisher@
+@OSGEO_KIND_geopublisher@
 
 
-Geopublisher
+@NAME_geopublisher@
 ================================================================================
 
 Electronic Library Manager
@@ -62,9 +60,5 @@ Details
 **Support:** http://www.wikisquare.de
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/geopublisher_quickstart>`
-
+@QUICKSTART_geopublisher@
 

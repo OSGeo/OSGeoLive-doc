@@ -232,8 +232,60 @@ message(STATUS "SPHINXINTL_LANGUAGE = ${SPHINXINTL_LANGUAGE}")
 # Y = to document | name | version | q = has quickstart | o = has overview
 file(STRINGS projects_info.csv OSGeoLiveDoc_PROJECTS_VERSIONS_FILE)
 
-set (OSGeoLiveDoc_PROJECTS_VERSIONS "")
-set (OSGeoLiveDoc_CONFIGURATION_REGEXP "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)")
+MACRO(INSERT_INTO_MAP_KIND _KEY _TARGET)
+    if ("${_TARGET}" STREQUAL "")
+      set(_TRGT  "")
+    else ()
+      set(_TRGT 
+".. image:: /images/logos/${_TARGET}.png
+    :align: right
+    :target: target: http://www.osgeo.org
+")
+    endif()
+      
+    SET("OSGEO_KIND_${_KEY}" "${_TRGT}")
+ENDMACRO(INSERT_INTO_MAP_KIND)
+
+MACRO(INSERT_INTO_MAP_LOGO _KEY _TARGET)
+    if ("${_TARGET}" STREQUAL "")
+      set(_TRGT  ${_TARGET})
+    else()
+      set(_TRGT ":target: ${_TARGET}")
+    endif()
+      
+    SET("LOGO_${_KEY}"
+ ".. image:: /images/projects/${_KEY}/logo-${_KEY}.png
+    :align: right
+    ${_TRGT}
+")
+ENDMACRO(INSERT_INTO_MAP_LOGO)
+
+
+MACRO(INSERT_INTO_MAP_QUICK _KEY _TARGET)
+    if ("${_TARGET}" STREQUAL "Y")
+        set(_QUICK "
+Quickstart
+--------------------------------------------------------------------------------
+        
+* :doc:`Quickstart documentation <../quickstart/${_KEY}_quickstart>`
+")
+    else()
+        set(_QUICK  " ")
+    endif()
+      
+    message(STATUS "the QUICKSTART_${_KEY} ->>> ${_QUICK}") 
+    SET("QUICKSTART_${_KEY}" "${_QUICK}")
+    message(STATUS ${QUICKSTART_${_KEY}}) 
+ENDMACRO(INSERT_INTO_MAP_QUICK)
+
+
+MACRO(INSERT_INTO_MAP_NAME _KEY _TARGET)
+    SET("NAME_${_KEY}" "${_TARGET}")
+ENDMACRO(INSERT_INTO_MAP_NAME)
+
+set (OSGeoLiveDoc_PROJECTS_LOGOS "")
+set (OSGeoLiveDoc_CONFIGURATION_REGEXP "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|.*\\|.*\\|.*\\|.*\\|(.*)\\|(.*)\\|(.*)")
+
 foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     #Skipping comments
     string(REGEX REPLACE "^(#).*" "\\1" is_comment ${line})
@@ -244,39 +296,54 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
 
     # TODO define what is usefull at this moment
     string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\1" wantDoc ${line})
-    string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\2" project_name ${line})
+    string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\2" project_page ${line})
     string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\3" project_version ${line})
     string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\4" want_quickstart ${line})
     string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\5" want_overview ${line})
-    #string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\6" project_classification ${line})
-    #string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\7" retired_on ${line})
+
+    string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\6" url_target ${line})
+    string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\7" osgeo_kind ${line})
+    string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\8" project_name ${line})
 
     string(STRIP ${wantDoc} wantDoc)
-    string(STRIP ${project_name} project_name)
+    string(STRIP ${project_page} project_page)
     string(STRIP ${project_version} project_version)
     string(STRIP ${want_quickstart} want_quickstart)
     string(STRIP ${want_overview} want_overview)
 
-    if (OSGeoLiveDoc_VERBOSE_DEBUG)
-        message(STATUS "${wantDoc} \t${project_name} \t${project_version} \twant_quickstart:${want_quickstart} \twant_overview:${want_overview}")
-    endif()
-
     if (NOT "${wantDoc}" MATCHES "Y")
         if (OSGeoLiveDoc_VERBOSE_DEBUG)
-            message(STATUS "${project_name} is not for documentation")
+            message(STATUS "${project_page} is not for documentation")
         endif()
         continue()
     endif()
-string(CONCAT  OSGeoLiveDoc_PROJECTS_VERSIONS ${OSGeoLiveDoc_PROJECTS_VERSIONS} ".. |version-${project_name}| replace:: ${project_version}\n")
+
+
+    string(STRIP "${url_target}" url_target)
+    string(STRIP "${osgeo_kind}" osgeo_kind)
+    string(STRIP "${project_name}" project_name)
+
+    if (OSGeoLiveDoc_VERBOSE_DEBUG)
+        message(STATUS "wantDoc:${wantDoc} \tpage:${project_page} \tversion:${project_version} \twant_quickstart:${want_quickstart} \twant_overview:${want_overview}\turl:${url_target} \tkind:${osgeo_kind}\tname:${project_name}")
+    endif()
+
+
+    string(CONCAT  OSGeoLiveDoc_PROJECTS_VERSIONS ${OSGeoLiveDoc_PROJECTS_VERSIONS} ".. |version-${project_page}| replace:: ${project_version}\n")
+
+    INSERT_INTO_MAP_LOGO("${project_page}" "${url_target}")
+    INSERT_INTO_MAP_KIND("${project_page}" "${osgeo_kind}")
+    INSERT_INTO_MAP_NAME("${project_page}" "${project_name}")
+    INSERT_INTO_MAP_QUICK("${project_page}" "${want_quickstart}")
 
 
     if ("${want_quickstart}" MATCHES "Y")
-        list(APPEND OSGeoLiveDoc_QUICKSTART "${project_name}")
+        list(APPEND OSGeoLiveDoc_QUICKSTART "${project_page}")
     endif()
     if ("${want_overview}" MATCHES "Y")
-        list(APPEND OSGeoLiveDoc_OVERVIEW "${project_name}")
+        list(APPEND OSGeoLiveDoc_OVERVIEW "${project_page}")
     endif()
 endforeach()
+
 
 if (OSGeoLiveDoc_VERBOSE_DEBUG)
     message(STATUS "OSGeoLiveDoc_QUICKSTART=${OSGeoLiveDoc_QUICKSTART}")

@@ -2,15 +2,12 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-ncWMS.png
-  :scale: 100 %
-  :alt: ncWMS logo
-  :align: right
-  :target: https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/
+@LOGO_ncWMS@
+@OSGEO_KIND_ncWMS@
 
 
 ********************************************************************************
-ncWMS Quickstart
+@NAME_ncWMS@ Quickstart
 ********************************************************************************
 
 ncWMS is a Web Map Service which allows the fast visualisation of data from NetCDF files and other sources of environmental data.  This quickstart guide describes how to explore the sample data provided using the Godiva2 web client.  For configuration and adding other data sources to the server, please consult the documentation on the `ncWMS website <https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/>`_.

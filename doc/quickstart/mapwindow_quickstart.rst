@@ -7,15 +7,12 @@
 :Copyright: 2011 Richard R. Schneider, 2015 Paul Meems
 
 
-.. image:: /images/project_logos/logo-MapWindow.png
-  :alt: MapWindow GIS website
-  :align: right
-  :width: 220
-  :height: 38
-  :target: http://www.mapwindow.org
+@LOGO_mapwindow@
+@OSGEO_KIND_mapwindow@
+
   
 ===============================================================================
-1. MapWindow GIS Lite
+@NAME_mapwindow@ Quickstart
 ===============================================================================
 .. image:: /images/projects/mapwindow/mapwindow_screenshot.png
   :alt: Mapwindow Open Source GIS Lite

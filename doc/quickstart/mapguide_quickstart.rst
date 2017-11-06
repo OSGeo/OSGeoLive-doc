@@ -2,18 +2,10 @@
 :Version: osgeo-live5.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-MapGuideOS.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right 
+@LOGO_mapguide@
+@OSGEO_KIND_mapguide@
 
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
-
-MapGuide Quick Start 
+@NAME_mapguide@ Quickstart
 ================================================================================
 
 This guide describes how to:

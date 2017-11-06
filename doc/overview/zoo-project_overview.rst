@@ -3,19 +3,11 @@
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/zoo-simple.png
-  :alt: project logo
-  :align: right
-  :target: http://zoo-project.org/
-
-.. image:: /images/logos/OSGeo_community.png
-  :scale: 100
-  :alt: OSGeo Community Project
-  :align: right
-  :target: http://www.osgeo.org
+@LOGO_zoo-project@
+@OSGEO_KIND_zoo-project@
 
 
-ZOO-Project
+@NAME_zoo-project@
 ================================================================================
 
 WPS Server
@@ -95,9 +87,5 @@ Details
 **Support:** http://zoo-project.org/
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/zoo-project_quickstart>`
-
+@QUICKSTART_zoo-project@
 

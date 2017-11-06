@@ -4,19 +4,12 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-qgis_mapserver.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
+@LOGO_qgis_mapserver@
+@OSGEO_KIND_qgi_mapservers@
 
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
 ********************************************************************************
-QGIS Server Quickstart
+@NAME_qgis_mapserver@ Quickstart
 ********************************************************************************
 
 QGIS Server provides a web map service (WMS) based on libraries from the QGIS desktop application.

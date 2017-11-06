@@ -4,19 +4,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-mapserver-new.png
-  :alt: project logo
-  :align: right
-  :target: http://mapserver.org/
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
+@LOGO_mapserver@
+@OSGEO_KIND_mapserver@
 
 
-MapServer
+@NAME_mapserver@
 ================================================================================
 
 Web Service
@@ -123,7 +115,5 @@ Details
 
 **Support:** http://mapserver.org/community/
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_mapserver@
     
-* :doc:`Quickstart documentation <../quickstart/mapserver_quickstart>`

@@ -3,11 +3,11 @@
 :Version: osgeo-live 6.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/jts_project.png
-  :alt: project logo
-  :align: right
+@LOGO_jts@
+@OSGEO_KIND_jts@
 
-JTS Topology Suite (JTS)
+
+@NAME_jts@
 ================================================================================
 
 JTS is an open source library of spatial predicates and functions for
@@ -65,3 +65,6 @@ Details
 **API Interfaces:** Java
 
 **Support:** https://sourceforge.net/projects/jts-topo-suite/
+
+@QUICKSTART_jts@
+

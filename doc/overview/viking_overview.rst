@@ -3,12 +3,11 @@
 :Version: osgeo-live6.5
 :License: Creative Commons
 
-.. image:: /images/project_logos/logo-viking.png
-  :alt: project logo
-  :align: right
-  :target: http://sourceforge.net/apps/mediawiki/viking/
+@LOGO_viking@
+@OSGEO_KIND_viking@
 
-Viking
+
+@NAME_viking@
 ================================================================================
 
 Manage and plot GPS data
@@ -64,9 +63,5 @@ Details
 **Support:** http://sourceforge.net/apps/mediawiki/viking/index.php?title=Main_Page#Help
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/viking_quickstart>`
-
+@QUICKSTART_viking@
 

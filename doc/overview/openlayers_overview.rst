@@ -7,20 +7,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-OpenLayers.png
-  :scale: 80 %
-  :alt: project logo
-  :align: right
-  :target: http://openlayers.org/
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
+@LOGO_openlayers@
+@OSGEO_KIND_openlayers@
 
 
-OpenLayers
+@NAME_openlayers@
 ================================================================================
 
 A high-performance, feature-packed library for all your mapping needs
@@ -86,7 +77,5 @@ Details
 **Support:** https://stackoverflow.com/questions/tagged/openlayers (user) and https://groups.google.com/forum/#!forum/openlayers-dev (developer)
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_openlayers@
 
-* :doc:`Quickstart documentation <../quickstart/openlayers_quickstart>`

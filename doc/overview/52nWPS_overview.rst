@@ -4,17 +4,15 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo_52North_160.png
-  :alt: project logo
-  :align: right
-  :target: http://52north.org/wps
+@LOGO_52nWPS@
+@OSGEO_KIND_52nWPS@
 
 
-52°North WPS
+@NAME_52nWPS@
 ================================================================================
 
-Web Service
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+About
+--------------------------------------------------------------------------------
 
 The 52°North :doc:`Web Processing Service (WPS) <../standards/wps_overview>` enables web access to geospatial
 processing algorithms provided by Sextante, ArcGIS Server, R, GRASS 7, or custom developed
@@ -75,9 +73,5 @@ Details
 **Other 52°North projects:** :doc:`SOS <./52nSOS_overview>`
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/52nWPS_quickstart>`
-
+@QUICKSTART_52nWPS@
 

@@ -3,12 +3,11 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-openjump.png
-  :alt: project logo
-  :align: right
-  :target: http://www.openjump.org
+@LOGO_openjump@
+@OSGEO_KIND_openjump@
 
-OpenJUMP GIS
+
+@NAME_openjump@
 ================================================================================
 
 Desktop GIS
@@ -83,7 +82,4 @@ Details
 
 **Download Page:** http://sourceforge.net/projects/jump-pilot/files/ 
 
-Quickstart
---------------------------------------------------------------------------------
-    
-* :doc:`Quickstart documentation <../quickstart/openjump_quickstart>`
+@QUICKSTART_openjump@

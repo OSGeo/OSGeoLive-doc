@@ -5,18 +5,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-GeoServer.png
-  :alt: project logo
-  :align: right
-  :target: http://geoserver.org/
+@LOGO_geoserver@
+@OSGEO_KIND_geoserver@
 
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
-GeoServer
+@NAME_geoserver@
 ================================================================================
 
 Web Service
@@ -93,7 +86,5 @@ Details
 
 **Support:** http://geoserver.org/support/
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_geoserver@
 
-* :doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`

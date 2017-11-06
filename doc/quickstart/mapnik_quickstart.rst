@@ -4,12 +4,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-mapnik.png
-  :scale: 80 %
-  :alt: project logo
-  :align: right
+@LOGO_mapnik@
+@OSGEO_KIND_mapnik@
 
-Mapnik Quickstart
+
+@NAME_mapnik@ Quickstart
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Mapnik is an toolkit for developing mapping applications. Above all Mapnik is about making beautiful maps. It is easily extensible and suitable for both desktop and web development.

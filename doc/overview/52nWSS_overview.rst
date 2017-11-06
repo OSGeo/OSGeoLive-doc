@@ -3,12 +3,11 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo_52North_160.png
-  :alt: project logo
-  :align: right
-  :target: http://52north.org/security
+@LOGO_52nWSS@
+@OSGEO_KIND_52nWSS@
 
-52°North WSS
+
+@NAME_52nWSS@
 ================================================================================
 
 About
@@ -72,7 +71,5 @@ Details
 **Commercial Support:** http://52north.org/
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_52nWSS@
 
-* :doc:`Quickstart documentation <../quickstart/52nWSS_quickstart>`

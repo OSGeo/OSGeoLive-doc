@@ -5,22 +5,12 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
+@LOGO_openlayers@
+@OSGEO_KIND_openlayers@
+
 ********************************************************************************
-OpenLayers Quickstart
+@NAME_openlayers@ Quickstart
 ********************************************************************************
-
-.. image:: /images/project_logos/logo-OpenLayers.png
-  :scale: 80 %
-  :alt: project logo
-  :align: right
-  :target: http://openlayers.org/
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
-
 
 This Quick Start describes some basic steps required to start working with OpenLayers: creating a basic map, adding raster and vector layers and styling features.
 

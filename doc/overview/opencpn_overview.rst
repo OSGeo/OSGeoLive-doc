@@ -4,13 +4,12 @@
 :Version: osgeo-live5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-opencpn.png
-  :alt: project logo
-  :align: right
-  :target: http://www.opencpn.org
+@LOGO_opencpn@
+@OSGEO_KIND_opencpn@
 
 
-OpenCPN
+
+@NAME_opencpn@
 ================================================================================
 
 Marine GPS navigation software
@@ -56,9 +55,5 @@ Details
 **Support:** http://www.cruisersforum.com/forums/f134
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/opencpn_quickstart>`
-
+@QUICKSTART_opencpn@
 

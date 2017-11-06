@@ -4,12 +4,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons
 
-.. image:: /images/project_logos/logo-osm.png
-  :alt: project logo
-  :align: right
-  :target: http://www.openstreetmap.org
+@LOGO_osm@
+@OSGEO_KIND_osm@
 
-OpenStreetMap
+
+@NAME_osm@
 ================================================================================
 
 Tools for mapping the world
@@ -82,9 +81,5 @@ Details
 **Support:** https://www.openstreetmap.org/help
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/osm_quickstart>`
-
+@QUICKSTART_osm@
 

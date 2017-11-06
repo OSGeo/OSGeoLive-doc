@@ -4,12 +4,11 @@
 :Version: osgeo-live8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-tilemill.png
-  :alt: TileMill
-  :align: right
-  :target: http://www.tilemill.com
+@LOGO_tilemill@
+@OSGEO_KIND_tilemill@
 
-TileMill
+
+@NAME_tilemill@
 ================================================================================
 
 
@@ -91,7 +90,5 @@ Details
 **Support:** http://www.tilemill.com
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_tilemill@
     
-* :doc:`Quickstart documentation <../quickstart/tilemill_quickstart>`

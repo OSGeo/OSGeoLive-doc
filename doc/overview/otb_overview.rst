@@ -3,19 +3,11 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
+@LOGO_otb@
+@OSGEO_KIND_otb@
 
-.. image:: /images/project_logos/logo-otb.png
-  :alt: project logo
-  :align: right
-  :target: http://www.orfeo-toolbox.org/
 
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
-
-OTB
+@NAME_otb@
 ================================================================================
 
 Image Processing
@@ -82,8 +74,5 @@ Details
 **Commercial Support:** http://www.osgeo.org/search_profile
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/otb_quickstart>`
+@QUICKSTART_otb@
 

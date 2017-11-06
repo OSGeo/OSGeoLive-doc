@@ -15,14 +15,11 @@
 :Version: osgeo-live7.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-cartaro.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
-  :target: http://cartaro.org
+@LOGO_cartaro@
+@OSGEO_KIND_cartaro@
 
 ********************************************************************************
-Cartaro Quickstart 
+@NAME_cartaro@ Quickstart
 ********************************************************************************
 
 Cartaro is a geo-enabled Content Management System (CMS) to manage and publish geospatial and non-geospatial content. 

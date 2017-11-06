@@ -5,16 +5,14 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-eoxserver.png
-  :alt: project logo
-  :align: right
-  :target: https://eoxserver.readthedocs.org/
+@LOGO_eoxserver@
+@OSGEO_KIND_eoxserver@
 
-EOxServer
+@NAME_eoxserver@
 ================================================================================
 
-Web Service
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+About
+--------------------------------------------------------------------------------
 
 EOxServer is a server for presenting big Earth Observation (EO) data
 archives and metadata via Open Standards.
@@ -87,7 +85,5 @@ Details
 
 **Support:** https://eoxserver.readthedocs.org/en/latest/users/basics.html#where-can-i-get-support
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_eoxserver@
 
-* :doc:`Quickstart documentation <../quickstart/eoxserver_quickstart>`

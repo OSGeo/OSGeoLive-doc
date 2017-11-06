@@ -3,13 +3,11 @@
 :Version: osgeo-live10.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-osm.png
-  :alt: project logo
-  :align: right
-  :target: https://www.openstreetmap.org/
+@LOGO_osm_dataset@
+@OSGEO_KIND_osm_dataset@
 
 
-OpenStreetMap (OSM)
+@NAME_osm_dataset@
 ================================================================================
 
 Map Data
@@ -73,3 +71,4 @@ Details
 
 **Support:** https://www.openstreetmap.org/help
 
+@QUICKSTART_osm_dataset@

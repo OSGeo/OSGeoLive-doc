@@ -4,12 +4,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-gpsprune.png
-  :alt: project logo
-  :align: right
-  :target: http://gpsprune.activityworkshop.net/
+@LOGO_gpsprune@
+@OSGEO_KIND_gpsprune@
 
-GpsPrune
+
+@NAME_gpsprune@
 ================================================================================
 
 GPS Track-Editing
@@ -61,8 +60,5 @@ Details
 **Supported Platforms:** GNU/Linux, Mac OSX, Windows
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/gpsprune_quickstart>`
+@QUICKSTART_gpsprune@
 

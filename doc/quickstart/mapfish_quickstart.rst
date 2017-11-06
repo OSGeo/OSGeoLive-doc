@@ -2,21 +2,12 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-mapfish.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
-  :target: http://www.mapfish.org
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
+@LOGO_mapfish@
+@OSGEO_KIND_mapfish@
 
 
 ********************************************************************************
-MapFish Quickstart 
+@NAME_mapfish@ Quickstart
 ********************************************************************************
 
 MapFish is a flexible and complete framework for building rich web-mapping

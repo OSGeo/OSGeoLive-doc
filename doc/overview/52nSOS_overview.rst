@@ -7,17 +7,15 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo_52North_160.png
-  :alt: 52°North - exploring horizons
-  :align: right
-  :target: http://52north.org/sos
+@LOGO_52nSOS@
+@OSGEO_KIND_52nSOS@
 
 
-52°North SOS
+@NAME_52nSOS@
 ===============================================================================
 
-Web Service
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+About
+--------------------------------------------------------------------------------
 
 The 52°North :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>`
 supports the interoperable provision of live and archived sensor observation
@@ -139,7 +137,6 @@ Details
 **Other 52°North projects on OSGeoLive:** :doc:`WPS <./52nWPS_overview>`
 
 
-Quickstart
---------------------------------------------------------------------------------
 
-* :doc:`Quickstart documentation <../quickstart/52nSOS_quickstart>`
+@QUICKSTART_52nSOS@
+

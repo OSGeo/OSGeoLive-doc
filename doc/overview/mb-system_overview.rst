@@ -3,13 +3,10 @@
 :Version: osgeo-live6.5
 :License: Creative Commons
 
-.. image:: /images/project_logos/logo-mb-system.png
-  :alt: project logo
-  :align: right
-  :target: http://www.ldeo.columbia.edu/res/pi/MB-System/
+@LOGO_mb-system@
+@OSGEO_KIND_mb-system@
 
-
-MB-System
+@NAME_mb-system@
 ================================================================================
 
 Sea floor mapping
@@ -66,9 +63,5 @@ Details
 **API Interfaces:** Command line
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/mb-system_quickstart>`
-
+@QUICKSTART_mb-system@
 

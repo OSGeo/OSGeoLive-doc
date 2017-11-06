@@ -3,19 +3,11 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-Mapbender3.png
-  :alt: project logo
-  :align: right
-  :target: http://www.mapbender3.org
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
+@LOGO_mapbender@
+@OSGEO_KIND_mapender@
 
 
-Mapbender
+@NAME_mapbender@
 ================================================================================
 
 Geoportal Framework
@@ -74,10 +66,5 @@ Details
 
 **Support:** http://www.mapbender3.org/en/community
 
-
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/mapbender_quickstart>`
-
+@QUICKSTART_mapbender@
 

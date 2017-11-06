@@ -3,12 +3,11 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-R.png
-  :alt: project logo
-  :align: right
-  :target: http://cran.r-project.org
+@LOGO_R@
+@OSGEO_KIND_R@
 
-R for Spatial Data
+
+@NAME_R@
 ================================================================================
 
 Statistical Programming
@@ -76,7 +75,4 @@ Details
 **Community Support:** http://cran.r-project.org/web/views/Spatial.html
 
 
-Quickstart
---------------------------------------------------------------------------------
-    
-* :doc:`Quickstart documentation <../quickstart/R_quickstart>`
+@QUICKSTART_R@

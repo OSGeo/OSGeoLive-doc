@@ -3,13 +3,11 @@
 :Version: osgeo-live4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-osgearth.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
+@LOGO_osgearth@
+@OSGEO_KIND_osgearth@
 
 ********************************************************************************
-osgEarth Quickstart 
+@NAME_osgearth@ Quickstart
 ********************************************************************************
 
 osgEarth is a scalable terrain rendering toolkit for OpenSceneGraph_.

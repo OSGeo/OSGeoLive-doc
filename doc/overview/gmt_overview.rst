@@ -4,13 +4,11 @@
 :Version: osgeo-live6.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-GMT.png
-  :alt: project logo
-  :align: right
-  :target: https://gmt.soest.hawaii.edu
+@LOGO_gmt@
+@OSGEO_KIND_gmt@
 
 
-GMT
+@NAME_gmt@
 ================================================================================
 
 The Generic Mapping Tools
@@ -55,9 +53,5 @@ Details
 **Support:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/gmt_quickstart>`
-
+@QUICKSTART_gmt@
 

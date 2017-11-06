@@ -3,12 +3,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-ideditor.png
-  :alt: project logo
-  :align: right
-  :target: http://wiki.openstreetmap.org/wiki/ID 
+@LOGO_ideditor@
+@OSGEO_KIND_ideditor@
 
-iD editor
+
+@NAME_ideditor@
 ================================================================================
 
 Browser based editor for OpenStreetMap
@@ -50,7 +49,5 @@ Details
 
 **Support:** https://help.openstreetmap.org/
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_ideditor@
     
-* :doc:`Quickstart documentation <../quickstart/ideditor_quickstart>`

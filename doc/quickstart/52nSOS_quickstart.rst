@@ -5,14 +5,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo_52North_160.png
-  :scale: 100 %
-  :alt: 52°North - exploring horizons - logo
-  :align: right
-  :target: http://52north.org/sos
+@LOGO_52nSOS@
+@OSGEO_KIND_52nSOS@
 
 *******************************************************************************
-52°North SOS Quickstart
+@NAME_52nSOS@ Quickstart
 *******************************************************************************
 
 The 52°North SOS is a web service, that enables to provision of interoperable access

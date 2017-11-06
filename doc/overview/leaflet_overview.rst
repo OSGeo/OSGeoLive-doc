@@ -5,12 +5,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-leaflet.png 
-  :alt: project logo
-  :align: right
-  :target: http://leafletjs.com
+@LOGO_leaflet@
+@OSGEO_KIND_leaflet@
 
-Leaflet
+
+@NAME_leaflet@
 ================================================================================
 
 Browser/Mobile Map Library
@@ -106,8 +105,5 @@ Details
 
 **Support:** https://groups.google.com/forum/#!forum/leaflet-js
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/leaflet_quickstart>`
+@QUICKSTART_leaflet@
 

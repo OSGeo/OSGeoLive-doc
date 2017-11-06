@@ -6,22 +6,16 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-deegree.png
-  :alt: project logo
-  :align: right
-  :target: http://www.deegree.org
+@LOGO_deegree@
+@OSGEO_KIND_deegree@
 
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
 
-deegree
+@NAME_deegree@
 ================================================================================
 
-Web Services
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+About
+--------------------------------------------------------------------------------
+
 
 deegree provides geospatial webservices based upon `Open Geospatial Consortium (OGC) <http://www.opengeospatial.org>`_ and `INSPIRE Network Services <http://inspire.jrc.ec.europa.eu>`_ specifications. deegree supports:
 
@@ -130,7 +124,5 @@ Details
 **Support:** http://wiki.deegree.org/deegreeWiki/GettingSupport
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_deegree@
 
-* :doc:`Quickstart documentation <../quickstart/deegree_quickstart>`

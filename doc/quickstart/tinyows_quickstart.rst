@@ -4,14 +4,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-TinyOWS.png
-  :scale: 100 %
-  :alt: project logo
-  :align: right
-  :target: http://mapserver.org/trunk/tinyows/
+@LOGO_tinyows@
+@OSGEO_KIND_tinyows@
 
 ********************************************************************************
-TinyOWS Quickstart 
+@NAME_tinyows@ Quickstart
 ********************************************************************************
 
 TinyOWS is a high performance, Transactional Web Feature Service (WFS-T)

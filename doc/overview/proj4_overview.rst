@@ -3,23 +3,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-proj4.png
-  :alt: project logo
-  :align: right
+@LOGO_proj4@
+@OSGEO_KIND_proj4@
 
-.. image:: /images/logos/OSGeo_community.png
-  :scale: 100
-  :alt: OSGeo Community Project
-  :align: right
-  :target: http://www.osgeo.org
-
-Proj.4
+@NAME_proj4@
 ================================================================================
-
-.. image:: /images/project_logos/logo-metacrs.png
-  :alt: project logo
-  :align: right
-  :target: http://proj4.org/index.html
 
 Proj4 is a library that provides methods to transform between different coordinate
 reference systems. A geographic coordinate reference systems allows all points on the
@@ -68,8 +56,5 @@ Details
   
   **Support:** http://lists.maptools.org/mailman/listinfo/proj
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/proj4_quickstart>`
+@QUICKSTART_proj4@
 

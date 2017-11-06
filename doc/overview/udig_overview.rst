@@ -4,13 +4,11 @@
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
+@LOGO_udig@
+@OSGEO_KIND_udig@
 
-.. image:: /images/project_logos/logo-uDig.png
-  :alt: udig logo
-  :align: right
-  :target: http://udig.refractions.net/
 
-User-friendly Desktop Internet GIS (uDig)
+@NAME_udig@
 ================================================================================
 
 Desktop GIS
@@ -81,9 +79,5 @@ Details
 **Developers:** http://udig.refractions.net/developers/
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/udig_quickstart>`
-
+@QUICKSTART_udig@
 

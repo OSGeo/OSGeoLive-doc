@@ -3,12 +3,11 @@
 :Version: osgeo-live7.9
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-zygrib.png
-  :alt: project logo
-  :align: right
-  :target: http://www.zygrib.org
+@LOGO_zygrib@
+@OSGEO_KIND_zygrib@
 
-zyGrib
+
+@NAME_zygrib@
 ================================================================================
 
 Weather forecasting 
@@ -46,8 +45,5 @@ Details
 **Support:** http://zygrib.org/forum/
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/zygrib_quickstart>`
+@QUICKSTART_zygrib@
 

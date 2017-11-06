@@ -3,17 +3,24 @@
 :Version: osgeo-live8.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-mapslicer.png
-  :alt: project logo
-  :align: right
-..  :target: https://wiki.osgeo.org/wiki/MapSlicer
+@LOGO_mapslicer@
+@OSGEO_KIND_mapslicer@
 
 
-MapSlicer
+
+@NAME_mapslicer@
 ================================================================================
 
+Proxy WMS & tile services
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: /images/projects/mapproxy/mapproxy.png
+  :alt: MapProxy diagram
+  :align: right
+
+
 Map Publishing
---------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 MapSlicer is a desktop application for the creation of map tiles for rapid raster map publishing.  Geodata is transformed to tiles compatible with Google Maps and Earth - ready for publishing via direct upload to any webserver or a cloud storage (such as Amazon S3).
 
@@ -45,7 +52,5 @@ Details
 **Supported Platforms:** Windows, Linux, Mac
 
 
-Quickstart
---------------------------------------------------------------------------------
-    
-* :doc:`Quickstart documentation <../quickstart/mapslicer_quickstart>`
+@QUICKSTART_mapslicer@
+

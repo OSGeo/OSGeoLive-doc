@@ -3,12 +3,11 @@
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-ushahidi.png
-  :alt: project logo
-  :align: right
-  :target: http://www.ushahidi.com
+@LOGO_ushahidi@
+@OSGEO_KIND_ushahidi@
 
-Ushahidi
+
+@NAME_ushahidi@
 ================================================================================
 
 Incident Timeline & Mapping
@@ -78,9 +77,5 @@ Details
 **Support:** https://wiki.ushahidi.com/display/forums/Ushahidi+Forums
 
 
-Quickstart
---------------------------------------------------------------------------------
-
-* :doc:`Quickstart documentation <../quickstart/ushahidi_quickstart>`
-
+@QUICKSTART_ushahidi@
 

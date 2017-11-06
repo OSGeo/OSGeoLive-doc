@@ -4,13 +4,11 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Reviewer: Cameron Shorter, Jirotech
 
-.. image:: /images/project_logos/logo-jupyter.png
-  :alt: project logo
-  :align: right
-  :target: http://jupyter.org/
+@LOGO_jupyter@
+@OSGEO_KIND_jupyter@
 
 ********************************************************************************
-Jupyter Notebook Quickstart
+@NAME_jupyter@ Quickstart
 ********************************************************************************
 
 The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, machine learning and much more.

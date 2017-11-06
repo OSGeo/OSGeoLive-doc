@@ -3,21 +3,11 @@
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-.. image:: /images/project_logos/logo-GDAL.png
-  :scale: 60 %
-  :alt: project logo
-  :align: right
-  :target: http://gdal.org/
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
-
+@LOGO_gdal@
+@OSGEO_KIND_gdal@
 
 ********************************************************************************
-GDAL/OGR Quickstart
+@NAME_gdal@ Quickstart
 ********************************************************************************
 
 You will need nothing but a terminal for this quickstart. If you want to

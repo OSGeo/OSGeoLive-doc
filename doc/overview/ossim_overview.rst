@@ -3,19 +3,11 @@
 :Version: osgeo-live9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-.. image:: /images/project_logos/logo-ossim.png
-  :alt: project logo
-  :align: right
-  :target: http://www.ossim.org/
-
-.. image:: /images/logos/OSGeo_project.png
-  :scale: 100 %
-  :alt: OSGeo Project
-  :align: right
-  :target: http://www.osgeo.org
+@LOGO_ossim@
+@OSGEO_KIND_ossim@
 
 
-OSSIM
+@NAME_ossim@
 ================================================================================
 
 Image Processing
@@ -66,7 +58,5 @@ Details
 **Commercial Support:** http://www.osgeo.org/search_profile
 
 
-Quickstart
---------------------------------------------------------------------------------
+@QUICKSTART_ossim@
 
-* :doc:`Quickstart documentation <../quickstart/ossim_quickstart>`
