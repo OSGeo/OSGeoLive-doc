@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.0\n"
+
+#: ../../build/doc/download.rst:7
+msgid "Download"
+msgstr ""
+
+#: ../../build/doc/download.rst:9
+msgid ""
+"The latest stable release is |osgeo-live-version| and can be downloaded "
+"from: https://sourceforge.net/projects/osgeo-live/files/10.5/"
+msgstr ""
+
+#: ../../build/doc/download.rst:12
+msgid "Picking the right image for you:"
+msgstr ""
+
+#: ../../build/doc/download.rst:14
+msgid "**osgeo-live iso**: |osgeolive-iso-size|"
+msgstr ""
+
+#: ../../build/doc/download.rst:16
+msgid ""
+"A Lubuntu based bootable image, which can be copied to an 8 Gig USB thumb"
+" drive (faster and recommended) or DVD (cheaper). It can also be used to "
+"build a virtual machine from scratch."
+msgstr ""
+
+#: ../../build/doc/download.rst:18
+msgid "**osgeo-live-vm**: |osgeolive-vm-7z-size|"
+msgstr ""
+
+#: ../../build/doc/download.rst:20
+msgid ""
+"This is a pre-made virtual machine (.vmdk), based on osgeo-live, suitable"
+" for use in VirtualBox, VMWare, KVM and other virtual machine "
+"applications. It has been compressed using `7-Zip "
+"<http://www.7-zip.org/>`_."
+msgstr ""
+
+#: ../../build/doc/download.rst:22
+msgid "**amd64 or i386 architecture**"
+msgstr ""
+
+#: ../../build/doc/download.rst:24
+msgid ""
+"ISO images are available for recent amd64 hardware (recommended) as well "
+"as older i386 hardware."
+msgstr ""
+
+#: ../../build/doc/download.rst:26
+msgid "**md5 checksum**"
+msgstr ""
+
+#: ../../build/doc/download.rst:28
+msgid "You can use the md5 checksum to verify the image downloaded successfully."
+msgstr ""
+
+#: ../../build/doc/download.rst:30
+msgid "**System Requirements**"
+msgstr ""
+
+#: ../../build/doc/download.rst:32
+msgid ""
+"`Minimum suggested system resources: 1 GB RAM (2 GB are better for trying"
+" Java based applications), 1GHz i386 or amd64 compatible CPU. No hard "
+"drive required. Mac users will benefit from a 3-button USB mouse.`"
+msgstr ""
+

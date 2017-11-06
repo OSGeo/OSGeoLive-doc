@@ -37,25 +37,25 @@ mkdir -p OSGeoLive-doc
 mkdir -p OSGeoLive-doc/OSM
 mkdir -p OSGeoLive-doc/OSM/images
 mkdir -p OSGeoLive-doc/OSM/images/screenshots
-mkdir -p OSGeoLive-doc/OSM/images/screenshots/1024x768
+mkdir -p OSGeoLive-doc/OSM/images/projects/1024x768
 mkdir -p OSGeoLive-doc/OSM/en
 mkdir -p OSGeoLive-doc/OSM/en/quickstart
 
 
 echo aaa3
-git mv images/beginner/id-editor* OSGeoLive-doc/OSM/images/screenshots/1024x768/
-git rm -f OSGeoLive-doc/OSM/images/screenshots/1024x768/id-editor*it.png OSGeoLive-doc/OSM/images/screenshots/1024x768/id-editor*de.png 
+git mv images/beginner/id-editor* OSGeoLive-doc/OSM/images/projects/1024x768/
+git rm -f OSGeoLive-doc/OSM/images/projects/1024x768/id-editor*it.png OSGeoLive-doc/OSM/images/screenshots/1024x768/id-editor*de.png 
 
-git mv images/josm/josm-website.png OSGeoLive-doc/OSM/images/screenshots/1024x768/
-git mv images/josm/windows-installer.png OSGeoLive-doc/OSM/images/screenshots/1024x768/
-git mv images/josm/josm-splash-page.png OSGeoLive-doc/OSM/images/screenshots/1024x768/
-git mv images/josm/josm_preferences.png OSGeoLive-doc/OSM/images/screenshots/1024x768/
-git mv images/josm/josm_look-and-feel.png OSGeoLive-doc/OSM/images/screenshots/1024x768/
-git mv images/josm/josm_open-file.png OSGeoLive-doc/OSM/images/screenshots/1024x768/
-git mv images/josm/josm_sample-file.png OSGeoLive-doc/OSM/images/screenshots/1024x768/
-git mv images/josm/josm_scale-bar.png OSGeoLive-doc/OSM/images/screenshots/1024x768/
-git mv images/josm/josm_select-tool.png OSGeoLive-doc/OSM/images/screenshots/1024x768/
-git mv images/josm/josm_draw-tool.png OSGeoLive-doc/OSM/images/screenshots/1024x768/
+git mv images/josm/josm-website.png OSGeoLive-doc/OSM/images/projects/1024x768/
+git mv images/josm/windows-installer.png OSGeoLive-doc/OSM/images/projects/1024x768/
+git mv images/josm/josm-splash-page.png OSGeoLive-doc/OSM/images/projects/1024x768/
+git mv images/josm/josm_preferences.png OSGeoLive-doc/OSM/images/projects/1024x768/
+git mv images/josm/josm_look-and-feel.png OSGeoLive-doc/OSM/images/projects/1024x768/
+git mv images/josm/josm_open-file.png OSGeoLive-doc/OSM/images/projects/1024x768/
+git mv images/josm/josm_sample-file.png OSGeoLive-doc/OSM/images/projects/1024x768/
+git mv images/josm/josm_scale-bar.png OSGeoLive-doc/OSM/images/projects/1024x768/
+git mv images/josm/josm_select-tool.png OSGeoLive-doc/OSM/images/projects/1024x768/
+git mv images/josm/josm_draw-tool.png OSGeoLive-doc/OSM/images/projects/1024x768/
 
 git mv _posts/en/1900-12-21-start-josm.md OSGeoLive-doc/OSM/en/quickstart/jsom_quickstart.rst
 git mv _posts/en/0200-12-23-id-editor.md OSGeoLive-doc/OSM/en/quickstart/ideditor_quickstart.rst
@@ -78,7 +78,7 @@ for file in \
 
   echo aaa7
   # Change the location of images
-  sed -e's#/images/beginner/#/images/screenshots/1024x768/#g' $file > tmp
+  sed -e's#/images/beginner/#/images/projects/1024x768/#g' $file > tmp
   mv tmp $file
   git commit -m"changed image path to new location" $file
 done

@@ -1,0 +1,258 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../build/doc/overview/overview.rst:6
+msgid "|osgeo-live-version| Contents"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:13
+msgid "Desktop GIS"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:31
+msgid ":doc:`grass_overview` - [:doc:`Quickstart <../quickstart/grass_quickstart>`] -"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:32
+msgid ":doc:`gvsig_overview` - [:doc:`Quickstart <../quickstart/gvsig_quickstart>`] -"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:33
+msgid ":doc:`openjump_overview` - [:doc:`Quickstart <../quickstart/openjump_quickstart>`] -"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:34
+msgid ":doc:`qgis_overview` - [:doc:`Quickstart <../quickstart/qgis_quickstart>`] -"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:35
+msgid ":doc:`saga_overview` - [:doc:`Quickstart <../quickstart/saga_quickstart>`] -"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:36
+msgid ":doc:`udig_overview` - [:doc:`Quickstart <../quickstart/udig_quickstart>`] -"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:39
+msgid "Browser Facing GIS"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:59
+msgid ":doc:`cesium_overview` - [:doc:`Quickstart <../quickstart/cesium_quickstart>`] - 3D globes and 2D maps in a browser"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:60
+msgid ":doc:`geomajas_overview` - [:doc:`Quickstart <../quickstart/geomajas_quickstart>`] - Browser GIS Client"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:61
+msgid ":doc:`geomoose_overview` - [:doc:`Quickstart <../quickstart/geomoose_quickstart>`] - Web GIS Portal"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:62
+msgid ":doc:`geonode_overview` - [:doc:`Quickstart <../quickstart/geonode_quickstart>`] - Geospatial Content Management System"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:63
+msgid ":doc:`leaflet_overview` - [:doc:`Quickstart <../quickstart/leaflet_quickstart>`] - Mobile Friendly Interactive Maps"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:64
+msgid ":doc:`mapbender_overview` - [:doc:`Quickstart <../quickstart/mapbender_quickstart>`] - Geoportal Framework"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:65
+msgid ":doc:`openlayers_overview` - [:doc:`Quickstart <../quickstart/openlayers_quickstart>`] - Browser Mapping Library"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:68
+msgid "Web Services"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:102
+msgid ":doc:`52nSOS_overview` - [:doc:`Quickstart <../quickstart/52nSOS_quickstart>`] - Sensor Observation Service"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:103
+msgid ":doc:`52nWPS_overview` - [:doc:`Quickstart <../quickstart/52nWPS_quickstart>`] - Web Processing Service"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:104
+msgid ":doc:`deegree_overview` - [:doc:`Quickstart <../quickstart/deegree_quickstart>`] - OGC Web Services"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:105
+msgid ":doc:`eoxserver_overview` - [:doc:`Quickstart <../quickstart/eoxserver_quickstart>`] - Web Coverage Service"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:106
+msgid ":doc:`geonetwork_overview` - [:doc:`Quickstart <../quickstart/geonetwork_quickstart>`] - Metadata Catalogue"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:107
+msgid ":doc:`geoserver_overview` - [:doc:`Quickstart <../quickstart/geoserver_quickstart>`] - OGC Web Services"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:108
+msgid ":doc:`istsos_overview` - [:doc:`Quickstart <../quickstart/istsos_quickstart>`] - Sensor Observation Service"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:109
+msgid ":doc:`mapproxy_overview` - [:doc:`Quickstart <../quickstart/mapproxy_quickstart>`] - Proxy WMS & tile services"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:110
+msgid ":doc:`mapserver_overview` - [:doc:`Quickstart <../quickstart/mapserver_quickstart>`] - OGC Web Services"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:111
+msgid ":doc:`ncWMS_overview` - [:doc:`Quickstart <../quickstart/ncWMS_quickstart>`] - Web Map Service"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:112
+msgid ":doc:`pycsw_overview` - [:doc:`Quickstart <../quickstart/pycsw_quickstart>`] - Metadata Catalogue"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:113
+msgid ":doc:`pywps_overview` - [:doc:`Quickstart <../quickstart/pywps_quickstart>`] - Web Processing Service"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:114
+msgid ":doc:`qgis_mapserver_overview` - [:doc:`Quickstart <../quickstart/qgis_mapserver_quickstart>`] - Web Map Service"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:115
+msgid ":doc:`zoo-project_overview` - [:doc:`Quickstart <../quickstart/zoo-project_quickstart>`] - Web Processing Service"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:118
+msgid "Data Stores"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:132
+msgid ":doc:`pgrouting_overview` - [:doc:`Quickstart <../quickstart/pgrouting_quickstart>`] - Routing for PostGIS"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:133
+msgid ":doc:`postgis_overview` - [:doc:`Quickstart <../quickstart/postgis_quickstart>`] - Spatial Database"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:134
+msgid ":doc:`rasdaman_overview` - [:doc:`Quickstart <../quickstart/rasdaman_quickstart>`] - Multi-Dimensional Raster Database"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:135
+msgid ":doc:`spatialite_overview` - [:doc:`Quickstart <../quickstart/spatialite_quickstart>`] - Lightweight Database"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:138
+msgid "Navigation and Maps"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:156
+msgid ":doc:`gpsprune_overview` - [:doc:`Quickstart <../quickstart/gpsprune_quickstart>`] - View, Edit and Convert GPS Tracks"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:157
+msgid ":doc:`josm_overview` - [:doc:`Quickstart <../quickstart/josm_quickstart>`] - OpenStreetMap Desktop Editor"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:158
+msgid ":doc:`marble_overview` - [:doc:`Quickstart <../quickstart/marble_quickstart>`] - Virtual Globe"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:159
+msgid ":doc:`opencpn_overview` - [:doc:`Quickstart <../quickstart/opencpn_quickstart>`] - Marine GPS Chartplotter"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:160
+msgid ":doc:`osm_overview` - [:doc:`Quickstart <../quickstart/osm_quickstart>`] - OpenStreetMap Tools"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:161
+msgid ":doc:`ideditor_overview` - [:doc:`Quickstart <../quickstart/ideditor_quickstart>`] - OpenStreetMap Web Editor"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:164
+msgid "Spatial Tools"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:184
+msgid ":doc:`gmt_overview` - [:doc:`Quickstart <../quickstart/gmt_quickstart>`] - Cartographic Rendering"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:185
+msgid ":doc:`mapnik_overview` - [:doc:`Quickstart <../quickstart/mapnik_quickstart>`] - Cartographic Rendering"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:186
+msgid ":doc:`mapslicer_overview` - [:doc:`Quickstart <../quickstart/mapslicer_quickstart>`] - Create Map Tiles"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:187
+msgid ":doc:`ossim_overview` - [:doc:`Quickstart <../quickstart/ossim_quickstart>`] - Image Processing"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:188
+msgid ":doc:`otb_overview` - [:doc:`Quickstart <../quickstart/otb_quickstart>`] - Image Processing"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:189
+msgid ":doc:`R_overview` - [:doc:`Quickstart <../quickstart/R_quickstart>`] - Statistical Programming"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:190
+msgid ":doc:`geokettle_overview` - [:doc:`Quickstart <../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and Load) Tool"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:193
+msgid "Domain Specific GIS"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:201
+msgid ":doc:`zygrib_overview` - [:doc:`Quickstart <../quickstart/zygrib_quickstart>`] -"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:204
+msgid "Data"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:214
+msgid ":doc:`naturalearth_overview`  - Global Data Sets"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:215
+msgid ":doc:`nc_dataset_overview`  -"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:216
+msgid ":doc:`netcdf_dataset_overview`  - Time series temperature and precipitation"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:217
+msgid ":doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:220
+msgid "Other software of interest (not available Live)"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:230
+msgid ":doc:`../prior_applications`"
+msgstr ""
+
