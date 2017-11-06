@@ -9,16 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1810.8041"
+   width="1753.6964"
    height="417.67331"
-   viewBox="0 0 479.10857 110.50939"
+   viewBox="0 0 463.99883 110.50939"
    version="1.1"
    id="svg844"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="osgeolive-logo-inkscape.svg"
-   inkscape:export-filename="/home/ben/osgeo/osgeolive-logo/osgeolive-logo.png"
-   inkscape:export-xdpi="45.299999"
-   inkscape:export-ydpi="45.299999">
+   inkscape:export-filename="/home/ben/osgeo/osgeolive-doc/images/osgeolive-logo/osgeolive-logo.png"
+   inkscape:export-xdpi="45.200001"
+   inkscape:export-ydpi="45.200001">
   <defs
      id="defs838" />
   <sodipodi:namedview
@@ -29,8 +29,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.63"
-     inkscape:cx="1014.2893"
-     inkscape:cy="145.94137"
+     inkscape:cx="948.51984"
+     inkscape:cy="139.59215"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -48,7 +48,7 @@
        type="xygrid"
        id="grid1389"
        originx="1.9932586"
-       originy="2.3892912" />
+       originy="2.389288" />
   </sodipodi:namedview>
   <metadata
      id="metadata841">
@@ -107,9 +107,8 @@
          id="tspan1434"
          x="114.68813"
          y="269.49185"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:70.55555725px;font-family:'Miriam Libre';-inkscape-font-specification:'Miriam Libre, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:-0.5291667px;writing-mode:lr-tb;text-anchor:start;fill:#4db05b;fill-opacity:1;stroke-width:0.26458332px"
-         dx="0 0 0 0 0 0 -2">OS<tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:70.55555725px;font-family:'Miriam Libre';-inkscape-font-specification:'Miriam Libre, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:-0.5291667px;writing-mode:lr-tb;text-anchor:start;fill:#4db05b;fill-opacity:1;stroke-width:0.26458332px">OS<tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:70.55555725px;font-family:'Miriam Libre';-inkscape-font-specification:'Miriam Libre, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:-0.5291667px;writing-mode:lr-tb;text-anchor:start;fill:#003a40;fill-opacity:1"
-   id="tspan1438">Geo</tspan> Live</tspan></text>
+   id="tspan1438">Geo</tspan>Live</tspan></text>
   </g>
 </svg>
