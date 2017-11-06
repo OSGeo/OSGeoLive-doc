@@ -5,7 +5,7 @@
 @LOGO_ushahidi@
 @OSGEO_KIND_ushahidi@
 
-@NAME_ushahidi@
+@NAME_ushahidi@ Quickstart
 ================================================================================
 
 .. As sugestion to improve the quickstart: another point to descrbie main administrative functionality may be incluided

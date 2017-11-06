@@ -7,9 +7,9 @@
 @OSGEO_KIND_geomajas@
 
 
-###################
-@NAME_geomajas@
-###################
+######################################
+@NAME_geomajas@ Quickstart
+###################################### 
 
 Geomajas itself is an application framework allowing you to build very diverse and advanced web GIS solutions.
 

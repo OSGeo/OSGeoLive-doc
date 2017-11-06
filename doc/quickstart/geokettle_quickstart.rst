@@ -10,7 +10,7 @@
 
 
 ********************************************************************************
-@NAME_geokettle@
+@NAME_geokettle@ Quickstart
 ********************************************************************************
 
 GeoKettle is a “spatially-enabled” version of Pentaho Data Integration (also known as Kettle). It is a powerful, metadata-driven spatial ETL (Extract, Transform and Load) tool dedicated to the integration of different data sources for building and updating geospatial databases, data warehouses and web services.

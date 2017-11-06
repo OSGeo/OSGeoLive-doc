@@ -12,7 +12,7 @@
 
 
 ********************************************************************************
-@NAME_geonetwork@
+@NAME_geonetwork@ Quickstart
 ********************************************************************************
 
 GeoNetwork is a catalog application to manage spatially referenced resources.

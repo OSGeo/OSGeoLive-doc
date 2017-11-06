@@ -8,7 +8,7 @@
 @OSGEO_KIND_pgrouting@
 
 ********************************************************************************
-@NAME_pgrouting@
+@NAME_pgrouting@ Quickstart
 ********************************************************************************
 
 pgRouting is an extension that adds routing and other network analysis functionality to :doc:`PostGIS <../overview/postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ databases.

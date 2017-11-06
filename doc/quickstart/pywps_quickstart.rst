@@ -7,9 +7,9 @@
 @LOGO_pywps@
 @OSGEO_KIND_pywps@
 
-****************
-@NAME_pywps@
-****************
+******************************** 
+@NAME_pywps@ Quickstart
+********************************
 
 PyWPS is an OGC WPS (Web Processing Service 1.0.0) server implementation written
 in `Python <http://python.org>`_.

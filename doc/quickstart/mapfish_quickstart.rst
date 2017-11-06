@@ -7,7 +7,7 @@
 
 
 ********************************************************************************
-@NAME_mapfish@
+@NAME_mapfish@ Quickstart
 ********************************************************************************
 
 MapFish is a flexible and complete framework for building rich web-mapping

@@ -9,7 +9,7 @@
 @OSGEO_KIND_52nSOS@
 
 *******************************************************************************
-@NAME_52nSOS@
+@NAME_52nSOS@ Quickstart
 *******************************************************************************
 
 The 52°North SOS is a web service, that enables to provision of interoperable access

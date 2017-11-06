@@ -8,7 +8,7 @@
 @OSGEO_KIND_cesium@
 
 ********************************************************************************
-@NAME_cesium@
+@NAME_cesium@ Quickstart
 ********************************************************************************
 This document shows how to use the Cesium with the 3D (Globe), 2.5D (Columbus View) and 2D (map).
 

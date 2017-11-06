@@ -7,7 +7,7 @@
 @OSGEO_KIND_istsos@
 
 ********************************************************************************
-@NAME_istsos@
+@NAME_istsos@ Quickstart
 ********************************************************************************
 
 istSOS is an OGC `SOS <http://www.opengeospatial.org/standards/sos>`_ server implementation written in `Python <https://www.python.org/>`_. 

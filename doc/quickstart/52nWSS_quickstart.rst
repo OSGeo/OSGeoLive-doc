@@ -8,7 +8,7 @@
 @OSGEO_KIND_52nWSS@
   
 ********************************************************************************
-@NAME_52nWSS@
+@NAME_52nWSS@ Quickstart
 ********************************************************************************
 
 The 52°North WSS is a web service that allows policy-based access to OGC Web Services acting as a proxy.

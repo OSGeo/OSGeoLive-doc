@@ -12,7 +12,7 @@
 
   
 ===============================================================================
-@NAME_mapwindow@
+@NAME_mapwindow@ Quickstart
 ===============================================================================
 .. image:: /images/projects/mapwindow/mapwindow_screenshot.png
   :alt: Mapwindow Open Source GIS Lite

@@ -9,7 +9,7 @@
 @OSGEO_KIND_openjump@
 
 ********************************************************************************
-@NAME_openjump@
+@NAME_openjump@ Quickstart
 ********************************************************************************
 
 OpenJUMP is a desktop GIS program that allows for easy viewing and editing 

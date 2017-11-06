@@ -7,7 +7,7 @@
 @OSGEO_KIND_geomoose@
 
 ********************************************************************************
-@NAME_geomoose@
+@NAME_geomoose@ Quickstart
 ********************************************************************************
 
 GeoMoose is a browser based mapping framework for displaying distributed cartographic data. It is particularly useful for managing spatial and non-spatial data within county, city and municipal offices (from which GeoMoose originated).

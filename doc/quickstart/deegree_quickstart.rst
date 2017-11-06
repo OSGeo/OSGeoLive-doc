@@ -8,7 +8,7 @@
 @OSGEO_KIND_deegree@
 
 ********************************************************************************
-@NAME_deegree@
+@NAME_deegree@ Quickstart
 ********************************************************************************
 
 deegree is a Java application for serving maps (and vector data) for other clients to show.

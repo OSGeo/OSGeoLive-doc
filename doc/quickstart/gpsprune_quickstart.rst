@@ -6,7 +6,7 @@
 @OSGEO_KIND_gpsprune@
 
 ********************************************************************************
-@NAME_gpsprune@
+@NAME_gpsprune@ Quickstart
 ********************************************************************************
 
 GpsPrune is a java application for viewing and editing coordinate data.  It can be used for preparing data for GPS devices and for analyzing the data recorded by them.

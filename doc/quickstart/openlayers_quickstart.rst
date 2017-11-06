@@ -9,7 +9,7 @@
 @OSGEO_KIND_openlayers@
 
 ********************************************************************************
-@NAME_openlayers@
+@NAME_openlayers@ Quickstart
 ********************************************************************************
 
 This Quick Start describes some basic steps required to start working with OpenLayers: creating a basic map, adding raster and vector layers and styling features.

@@ -9,7 +9,7 @@
 
 
 ********************************************************************************
-@NAME_zoo-project@
+@NAME_zoo-project@ Quickstart
 ********************************************************************************
 
 The ZOO-Project provides a developer friendly Web Processing Service (WPS) framework for creating and chaining Web Processing Services.

@@ -8,7 +8,7 @@
 @OSGEO_KIND_proj4@
 
 ********************************************************************************
-@NAME_proj4@
+@NAME_proj4@ Quickstart
 ********************************************************************************
 
 proj.4 is a standard Unix filter function which converts geographic longitude

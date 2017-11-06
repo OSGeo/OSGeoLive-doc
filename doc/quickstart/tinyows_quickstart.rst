@@ -8,7 +8,7 @@
 @OSGEO_KIND_tinyows@
 
 ********************************************************************************
-@NAME_tinyows@
+@NAME_tinyows@ Quickstart
 ********************************************************************************
 
 TinyOWS is a high performance, Transactional Web Feature Service (WFS-T)

@@ -8,9 +8,9 @@
 
 .. _rasdaman-quickstart:
 
-********************
-@NAME_rasdaman@
-********************
+****************************************
+@NAME_rasdaman@ Quickstart
+****************************************
 
 Rasdaman is a Big Data Engine for flexible ad-hoc analytics on multi-dimensional spatio-temporal sensor, image, simulation, and statistics data of unlimited size.
 The Web Coverage Processing Service (WCPS) query language is an Open Geospatial Consortium (OGC) standard wich allows filtering and processing of multi-dimensional raster

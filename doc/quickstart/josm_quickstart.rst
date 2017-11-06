@@ -9,7 +9,7 @@
 @OSGEO_KIND_josm@
 
 ********************************************************************************
-@NAME_josm@
+@NAME_josm@ Quickstart
 ********************************************************************************
 
 This quickstart covers basic usage of the Java OpenStreetMap editor.

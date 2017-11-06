@@ -6,7 +6,7 @@
 @OSGEO_KIND_R@
 
 ********************************************************************************
-@NAME_R@
+@NAME_R@ Quickstart
 ********************************************************************************
 
 R is a free software environment for statistical computing and graphics.

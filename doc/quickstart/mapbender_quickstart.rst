@@ -10,7 +10,7 @@
 
 
 ********************************************************************************
-@NAME_mapbender@
+@NAME_mapbender@ Quickstart
 ********************************************************************************
 
 Mapbender is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services.

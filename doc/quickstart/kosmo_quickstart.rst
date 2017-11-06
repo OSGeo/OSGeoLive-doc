@@ -6,7 +6,7 @@
 @OSGEO_KIND_kosmo@
 
 ********************************************************************************
-@NAME_kosmo@
+@NAME_kosmo@ Quickstart
 ********************************************************************************
 
 Kosmo - Desktop is a user friendly, desktop GIS application which allows you to explore, edit 

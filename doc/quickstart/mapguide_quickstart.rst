@@ -5,7 +5,7 @@
 @LOGO_mapguide@
 @OSGEO_KIND_mapguide@
 
-@NAME_mapguide@
+@NAME_mapguide@ Quickstart
 ================================================================================
 
 This guide describes how to:

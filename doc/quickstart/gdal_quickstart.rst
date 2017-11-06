@@ -7,7 +7,7 @@
 @OSGEO_KIND_gdal@
 
 ********************************************************************************
-@NAME_gdal@
+@NAME_gdal@ Quickstart
 ********************************************************************************
 
 You will need nothing but a terminal for this quickstart. If you want to

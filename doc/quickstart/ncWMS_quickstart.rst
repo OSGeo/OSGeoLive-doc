@@ -7,7 +7,7 @@
 
 
 ********************************************************************************
-@NAME_ncWMS@
+@NAME_ncWMS@ Quickstart
 ********************************************************************************
 
 ncWMS is a Web Map Service which allows the fast visualisation of data from NetCDF files and other sources of environmental data.  This quickstart guide describes how to explore the sample data provided using the Godiva2 web client.  For configuration and adding other data sources to the server, please consult the documentation on the `ncWMS website <https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/>`_.

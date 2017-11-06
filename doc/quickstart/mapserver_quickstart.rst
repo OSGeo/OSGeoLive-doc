@@ -12,7 +12,7 @@
 
 
 ================================================================================
-@NAME_mapserver@
+@NAME_mapserver@ Quickstart
 ================================================================================
 
 MapServer is an `Open Source <http://www.opensource.org>`_ server based 
