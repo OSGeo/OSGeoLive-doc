@@ -260,9 +260,27 @@ MACRO(INSERT_INTO_MAP_LOGO _KEY _TARGET)
 ")
 ENDMACRO(INSERT_INTO_MAP_LOGO)
 
+
+MACRO(INSERT_INTO_MAP_QUICK _KEY _TARGET)
+    if ("${_TARGET}" STREQUAL "Y")
+        set(_QUICK "
+Quickstart
+--------------------------------------------------------------------------------
+        
+* :doc:`Quickstart documentation <../quickstart/${_KEY}_quickstart>`
+")
+    else()
+        set(_QUICK  " ")
+    endif()
+      
+    message(STATUS "the QUICKSTART_${_KEY} ->>> ${_QUICK}") 
+    SET("QUICKSTART_${_KEY}" "${_QUICK}")
+    message(STATUS ${QUICKSTART_${_KEY}}) 
+ENDMACRO(INSERT_INTO_MAP_QUICK)
+
+
 MACRO(INSERT_INTO_MAP_NAME _KEY _TARGET)
     SET("NAME_${_KEY}" "${_TARGET}")
-    message("NAME_${_KEY} ->>>  ${_TARGET}")
 ENDMACRO(INSERT_INTO_MAP_NAME)
 
 set (OSGeoLiveDoc_PROJECTS_LOGOS "")
@@ -315,6 +333,7 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     INSERT_INTO_MAP_LOGO("${project_page}" "${url_target}")
     INSERT_INTO_MAP_KIND("${project_page}" "${osgeo_kind}")
     INSERT_INTO_MAP_NAME("${project_page}" "${project_name}")
+    INSERT_INTO_MAP_QUICK("${project_page}" "${want_quickstart}")
 
 
     if ("${want_quickstart}" MATCHES "Y")
@@ -324,6 +343,7 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
         list(APPEND OSGeoLiveDoc_OVERVIEW "${project_page}")
     endif()
 endforeach()
+
 
 if (OSGeoLiveDoc_VERBOSE_DEBUG)
     message(STATUS "OSGeoLiveDoc_QUICKSTART=${OSGeoLiveDoc_QUICKSTART}")
