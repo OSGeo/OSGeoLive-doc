@@ -65,14 +65,14 @@ sub print_header() {
   print $outfile "<html>\n";
   print $outfile "  <head>\n";
   print $outfile "    <meta charset='utf-8'>\n";
-  print $outfile "    <title>OSGeo-Live Documentation translation status</title>\n";
+  print $outfile "    <title>OSGeoLive Documentation translation status</title>\n";
   print $outfile "    <style>";
   print $outfile "        a:link.colored {color: red;}\n";
   print $outfile "        a:visited.colored {color: orange;}\n";
   print $outfile "    </style>";
   print $outfile "  </head>\n";
   print $outfile "  <body>\n";
-  print $outfile "    <h1>OSGeo-Live Documentation translation status</h1>\n";
+  print $outfile "    <h1>OSGeoLive Documentation translation status</h1>\n";
   print $outfile "    <p>Help translate - <a href='http://wiki.osgeo.org/wiki/Live_GIS_Translate'>click here!</a></p>\n";
   print $outfile "    <p><b>Last Updated:</b> ", `date`;
   print $outfile ". This page is calculated from document version numbers in git.</p>\n";
@@ -267,7 +267,7 @@ sub print_lang_versions() {
             $newdirfile = $dir_file;
             $newdirfile =~ s:/:_:;
             $newdirfile =~ s:.::;
-            system("echo '<!DOCTYPE HTML>\n<html>\n  <head>\n    <meta charset='utf-8'>\n    <title>OSGeo-Live diff $lang $dir_file</title>\n  </head>\n  <body>\n    <h1>OSGeo-Live diff $lang $dir_file</h1>\n    <pre>\n' > $thisdir/$lang.$newdirfile.html");
+            system("echo '<!DOCTYPE HTML>\n<html>\n  <head>\n    <meta charset='utf-8'>\n    <title>OSGeoLive diff $lang $dir_file</title>\n  </head>\n  <body>\n    <h1>OSGeoLive diff $lang $dir_file</h1>\n    <pre>\n' > $thisdir/$lang.$newdirfile.html");
             system("sh $thisdir/diff_last_translation.sh $lang $dir_file >> $thisdir/$lang.$newdirfile.html");
             system("echo '    </pre>\n  </body>\n</html>\n' >> $thisdir/$lang.$newdirfile.html");
             print $outfile "<a href='$lang.$newdirfile.html' target='_blank' class='colored'>";

@@ -200,9 +200,9 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/OSGeo-Live.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/OSGeoLive.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/OSGeo-Live.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/OSGeoLive.qhc"
 
 link_to_en_docs_pdf:
 	# For quickstart, standards and overview docs which have not been

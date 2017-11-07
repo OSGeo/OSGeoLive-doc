@@ -21,7 +21,7 @@
 # web page "http://www.fsf.org/licenses/lgpl.html".
 ##################################################
 # This script extracts out the git version of osgeo-live documents in
-# a format suitable to be copied into the OSGeo-Live translation status
+# a format suitable to be copied into the OSGeoLive translation status
 # stored here:
 # https://spreadsheets.google.com/ccc?key=0AlRFyY1XenjJdFRDbjFyWHg1MlNTRm10QXk0UWEzWlE&hl=en_GB&authkey=CPTB6uIE#gid=7
 
