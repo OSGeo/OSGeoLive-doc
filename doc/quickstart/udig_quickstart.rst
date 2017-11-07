@@ -287,7 +287,7 @@ Things to Try
 
 Here are some additional challenges for you to try:
 
-#. Try viewing your own GIS map layers, or try adding a layer from a `Web Feature Service (WFS) <http://www.opengeospatial.org/standards/wms>`__ 
+#. Try viewing your own GIS map layers, or try adding a layer from a `Web Feature Service (WFS) <http://www.opengeospatial.org/standards/wfs>`__ 
 #. Try styling the WFS layer.
 
 What Next?
