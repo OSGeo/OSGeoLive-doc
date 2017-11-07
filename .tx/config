@@ -340,10 +340,6 @@ file_filter = locale/<lang>/LC_MESSAGES/overview/R_overview.po
 source_file = locale/pot/overview/R_overview.pot
 source_lang = en
 
-[osgeolive.overview--mapwindow_overview]
-file_filter = locale/<lang>/LC_MESSAGES/overview/mapwindow_overview.po
-source_file = locale/pot/overview/mapwindow_overview.pot
-source_lang = en
 
 [osgeolive.overview--geomoose_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/geomoose_overview.po
@@ -428,10 +424,6 @@ file_filter = locale/<lang>/LC_MESSAGES/overview/eoxserver_overview.po
 source_file = locale/pot/overview/eoxserver_overview.pot
 source_lang = en
 
-[osgeolive.overview--52nWSS_overview]
-file_filter = locale/<lang>/LC_MESSAGES/overview/52nWSS_overview.po
-source_file = locale/pot/overview/52nWSS_overview.pot
-source_lang = en
 
 [osgeolive.overview--zoo-project_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/zoo-project_overview.po
@@ -443,11 +435,6 @@ file_filter = locale/<lang>/LC_MESSAGES/overview/52nSOS_overview.po
 source_file = locale/pot/overview/52nSOS_overview.pot
 source_lang = en
 
-
-[osgeolive.overview--gpsdrive_overview]
-file_filter = locale/<lang>/LC_MESSAGES/overview/gpsdrive_overview.po
-source_file = locale/pot/overview/gpsdrive_overview.pot
-source_lang = en
 
 [osgeolive.overview--naturalearth_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/naturalearth_overview.po
