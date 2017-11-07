@@ -3,7 +3,7 @@
 // e.g. en/overview/overview.html -> select Catalan -> new page is ca/overview/overview.html
 
 /**
- * the supported languages for osgeo-live DVD, 
+ * the supported languages for osgeolive DVD, 
  * update if an other translation is available
  */
 var supported_languages= ["ca", "de", "el", "en", "es", "fr", "it", "jp", "pl", "zh"];
@@ -94,7 +94,7 @@ var redirectToUserLanguage = function() {
  * @return true if the language is supported, otherwise false
  * @param {lang} - language key to check, 
  *                 whether its supported by 
- *                 osgeo-live (as a translation 
+ *                 osgeolive (as a translation 
  *                 or the origin language (en))
  */
 var isLanguageSupported = function(lang) {

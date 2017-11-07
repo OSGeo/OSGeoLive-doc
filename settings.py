@@ -1,8 +1,8 @@
 # module settings
 # downloadfilesize 
-# for osgeo-live-X.X.iso
+# for osgeolive-X.X.iso
 iso_size = 3.7
-# for osgeo-live-mini-X.X.iso
+# for osgeolive-mini-X.X.iso
 iso_mini_size = 3.7
 # for osgeo-vm-X.X.7z
 vm_7z_size = 3.2

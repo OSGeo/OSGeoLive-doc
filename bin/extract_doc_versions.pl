@@ -87,7 +87,7 @@ sub print_footer() {
 }
 
 ###############################################################################
-# Extract git info for osgeo-live document files and store in
+# Extract git info for osgeolive document files and store in
 # a hash array @gitlist
 ###############################################################################
 sub extract_git_info() {
