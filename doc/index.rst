@@ -8,7 +8,6 @@ Welcome to |osgeo-live-version|
      :maxdepth: 1
      :glob:
 
-     standards/toc
      overview/toc
      quickstart/toc
      download
@@ -66,7 +65,6 @@ OSGeo-Live is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo Foun
      :hidden:
      :glob:
 
-     standards/standards
      contact
      copyright
      download
