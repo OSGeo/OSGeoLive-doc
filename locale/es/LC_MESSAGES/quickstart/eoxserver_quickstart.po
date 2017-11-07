@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
-# This file is distributed under the same license as the OSGeo-Live package.
+# This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -191,7 +191,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:163
 msgid ""
-"If you are already in the OSGeo-Live environment, read the local copy of "
+"If you are already in the OSGeoLive environment, read the local copy of "
 "the `EOxServer Users' local documentation <https://localhost/eoxserver-"
 "docs/EOxServer_documentation.pdf>`_"
 msgstr ""

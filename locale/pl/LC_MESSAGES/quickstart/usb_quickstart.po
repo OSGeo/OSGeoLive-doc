@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
-# This file is distributed under the same license as the OSGeo-Live package.
+# This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -18,13 +18,13 @@ msgstr ""
 "Generated-By: Babel 2.5.0\n"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:9
-msgid "Creating an OSGeo-Live Bootable USB flash drive"
+msgid "Creating an OSGeoLive Bootable USB flash drive"
 msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:11
 msgid ""
 "This quickstart describes the preferred method for creating a Bootable "
-"OSGeo-Live USB flash drive. Booting from a flash drive is faster than "
+"OSGeoLive USB flash drive. Booting from a flash drive is faster than "
 "from a DVD, and the USB drive can be configured to store data between "
 "sessions (called persistence)."
 msgstr ""
@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:19
 msgid ""
-"An OSGeo-Live ISO image (downloaded from: "
+"An OSGeoLive ISO image (downloaded from: "
 "http://live.osgeo.org/en/download.html) or converted from a DVD."
 msgstr ""
 
@@ -70,7 +70,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:27
 msgid ""
-"ISO images for OSGeo-Live 10.5 and later are *isohybrid* (and for amd64, "
+"ISO images for OSGeoLive 10.5 and later are *isohybrid* (and for amd64, "
 "also support UEFI boot). Under Linux, these images can be written "
 "directly to the block device for a USB drive with the ``dd`` command-line"
 " utility:"
@@ -109,14 +109,14 @@ msgstr ""
 #: ../../build/doc/quickstart/usb_quickstart.rst:44
 msgid ""
 "(This is the recommended process for creating a USB. It is applicable to "
-"Ubuntu and Ubuntu variants such as OSGeo-Live.)"
+"Ubuntu and Ubuntu variants such as OSGeoLive.)"
 msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:47
 msgid ""
 "The version of Ubuntu you are running, needs to be the same or newer than"
 " the version of Lubuntu being installed onto your USB.  If installing "
-"OSGeo-Live 8.0 onto a USB, then you will need to be running Ubuntu 14.04 "
+"OSGeoLive 8.0 onto a USB, then you will need to be running Ubuntu 14.04 "
 "or newer."
 msgstr ""
 
@@ -129,7 +129,7 @@ msgstr ""
 #: ../../build/doc/quickstart/usb_quickstart.rst:51
 msgid ""
 "Boot your computer into a recent Ubuntu/Xbuntu distribution. You can do "
-"this by running from an OSGeo-Live DVD, as explained in "
+"this by running from an OSGeoLive DVD, as explained in "
 ":doc:`osgeolive_quickstart`."
 msgstr ""
 

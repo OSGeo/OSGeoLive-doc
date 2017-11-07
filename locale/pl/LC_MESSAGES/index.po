@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
-# This file is distributed under the same license as the OSGeo-Live package.
+# This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/index.rst:20
 msgid ""
-"`OSGeo-Live <http://live.osgeo.org>`_ is a self-contained bootable DVD, "
+"`OSGeoLive <http://live.osgeo.org>`_ is a self-contained bootable DVD, "
 "USB thumb drive or Virtual Machine based on `Lubuntu "
 "<http://lubuntu.net>`_, that allows you to try a wide variety of open "
 "source geospatial software without installing anything. It is composed "
@@ -60,7 +60,7 @@ msgstr ""
 
 #: ../../build/doc/index.rst:43
 msgid ""
-"OSGeo-Live is an `OSGeo Foundation <http://osgeo.org/>`_ project. The "
+"OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The "
 "OSGeo Foundation is a not-for-profit supporting Geospatial Open Source "
 "Software development, promotion and `education "
 "<http://www.geoforall.org/>`_."
@@ -77,7 +77,7 @@ msgstr ""
 #: ../../build/doc/index.rst:89
 msgid ""
 "A half hour `presentation <presentation/index.html>`_, highlighting all "
-"OSGeo-Live applications, is available with slides, script, and `abstract "
+"OSGeoLive applications, is available with slides, script, and `abstract "
 "<presentation/abstract.txt>`_."
 msgstr ""
 

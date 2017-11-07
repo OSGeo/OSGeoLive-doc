@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
-# This file is distributed under the same license as the OSGeo-Live package.
+# This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -333,7 +333,7 @@ msgid "What Next?"
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:373
-msgid "Tutorials for more advanced features of QGIS are collected as `OSGeo-Live QGIS tutorials`_."
+msgid "Tutorials for more advanced features of QGIS are collected as `OSGeoLive QGIS tutorials`_."
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:375
@@ -341,6 +341,6 @@ msgid "To learn more about QGIS, a good starting point is the `Documentation pag
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:378
-msgid "The `QGIS User Guide`_ `[1]`_ is also included on the OSGeo-Live disc."
+msgid "The `QGIS User Guide`_ `[1]`_ is also included on the OSGeoLive disc."
 msgstr ""
 

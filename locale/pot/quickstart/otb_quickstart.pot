@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
-# This file is distributed under the same license as the OSGeo-Live package.
+# This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -185,7 +185,7 @@ msgid "Developing with OTB"
 msgstr ""
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:147
-msgid "If you want to use the OTB library and compile your C++ code inside OSGeo-Live, you will need to install development package **libotb-dev** and **libqt4-dev** . Also check that **cmake** is installed. The OTB_DIR location should be found automatically (usually in */usr/lib/x86_64-linux-gnu/cmake/OTB-...*). In your CMake configuration, you should link the libraries in the variable OTB_LIBRARIES. More information can be found in the SoftwareGuide."
+msgid "If you want to use the OTB library and compile your C++ code inside OSGeoLive, you will need to install development package **libotb-dev** and **libqt4-dev** . Also check that **cmake** is installed. The OTB_DIR location should be found automatically (usually in */usr/lib/x86_64-linux-gnu/cmake/OTB-...*). In your CMake configuration, you should link the libraries in the variable OTB_LIBRARIES. More information can be found in the SoftwareGuide."
 msgstr ""
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:157

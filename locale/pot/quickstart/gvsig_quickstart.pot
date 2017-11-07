@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
-# This file is distributed under the same license as the OSGeo-Live package.
+# This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -61,7 +61,7 @@ msgid "Load a WMTS layer"
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:45
-msgid "If gvSIG user interface becomes unresponsive, try :kbd:`Alt+f` to open the file menu for example. User interface should work again, then. This bug only happens in the gvSIG distro for OSGeo-Live. It doesn't appear in a normal gvSIG installation."
+msgid "If gvSIG user interface becomes unresponsive, try :kbd:`Alt+f` to open the file menu for example. User interface should work again, then. This bug only happens in the gvSIG distro for OSGeoLive. It doesn't appear in a normal gvSIG installation."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:50
@@ -77,7 +77,7 @@ msgid "Select gvSIG from the application menu, :menuselection:`Geospatial --> De
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:64
-msgid "By default gvSIG opens with an empty project file with the 'View' document type selected. However, on OSGeo-Live, gvSIG has been configured to start with a default project. Click on the :guilabel:`New Project` button or go to :menuselection:`File --> New Project`. When prompted, you can select :guilabel:`Discard Changes` as we won't be using the last project."
+msgid "By default gvSIG opens with an empty project file with the 'View' document type selected. However, on OSGeoLive, gvSIG has been configured to start with a default project. Click on the :guilabel:`New Project` button or go to :menuselection:`File --> New Project`. When prompted, you can select :guilabel:`Discard Changes` as we won't be using the last project."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:70

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
-# This file is distributed under the same license as the OSGeo-Live package.
+# This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -145,7 +145,7 @@ msgid "Press :guilabel:`Next` to open up a file dialog"
 msgstr ""
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:139
-msgid "The OSGeo-Live DVD contains sample data in:"
+msgid "The OSGeoLive DVD contains sample data in:"
 msgstr ""
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:141

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
-# This file is distributed under the same license as the OSGeo-Live package.
+# This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -37,7 +37,7 @@ msgid "Running"
 msgstr ""
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:35
-msgid "To run the ZOO Project demo from the OSGeo-Live DVD, click on the \"ZOO Project\" link you will find it in the menu-items under \"Geospatial\" > \"Web Services\"."
+msgid "To run the ZOO Project demo from the OSGeoLive DVD, click on the \"ZOO Project\" link you will find it in the menu-items under \"Geospatial\" > \"Web Services\"."
 msgstr ""
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:37

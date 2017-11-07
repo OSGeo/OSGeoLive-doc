@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
-# This file is distributed under the same license as the OSGeo-Live package.
+# This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -117,7 +117,7 @@ msgid "MySQL"
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:98
-msgid "In OSGeo-Live, a simple SQLite setup has been implemented. The database can be found in ``/usr/share/pycsw/tests/suites/cite/data/records.db``"
+msgid "In OSGeoLive, a simple SQLite setup has been implemented. The database can be found in ``/usr/share/pycsw/tests/suites/cite/data/records.db``"
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:101
@@ -197,7 +197,7 @@ msgid "Try to discover data through the Python `OWSLib CSW`_ interface."
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:175
-msgid "Try to discover data from GeoNode, which is also included in OSGeo-Live and uses pycsw as the default CSW engine."
+msgid "Try to discover data from GeoNode, which is also included in OSGeoLive and uses pycsw as the default CSW engine."
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:178
