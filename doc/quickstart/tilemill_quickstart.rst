@@ -1,6 +1,6 @@
 :Author: OSGeoLive
 :Author: Javier Sanchez
-:Version: osgeo-live6.5d
+:Version: osgeolive6.5d
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: tutorial from Ivan Sánchez Ortega and Pedro Ferrer Matoses from Spanish OSGeo Chapter
 

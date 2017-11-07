@@ -1,7 +1,7 @@
 :Author: Johan Van de Wauw
 :Author: Zoltan Siki
 :Reviewer: Angelos Tzotsos
-:Version: osgeo-live6.5
+:Version: osgeolive6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_saga@

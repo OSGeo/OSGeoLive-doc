@@ -12,7 +12,7 @@
 :Author: Friedjoff Trautwein (http://www.geops.de)
 :Author: Augustus Kling (http://www.geops.de)
 :Author: Patric Hafner (http://www.geops.de)
-:Version: osgeo-live7.0draft
+:Version: osgeolive7.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_cartaro@

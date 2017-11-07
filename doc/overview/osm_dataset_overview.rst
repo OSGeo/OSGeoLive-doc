@@ -1,6 +1,6 @@
 :Authors: Hamish Bowman, Marco Brancolini
 :Reviewer: 
-:Version: osgeo-live10.0
+:Version: osgeolive10.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_osm_dataset@

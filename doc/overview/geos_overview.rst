@@ -1,7 +1,7 @@
 :Author: OSGeoLive
 :Author: Frank Warmerdam
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live6.0
+:Version: osgeolive6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_geos@

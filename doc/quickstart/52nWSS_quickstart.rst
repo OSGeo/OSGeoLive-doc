@@ -1,7 +1,7 @@
 :Author: Jan Drewnak (j.drewnak@52north.org)
 :Reviewer: Sergio Baños Calvo
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live6.5
+:Version: osgeolive6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_52nWSS@

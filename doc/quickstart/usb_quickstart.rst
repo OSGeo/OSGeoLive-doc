@@ -1,7 +1,7 @@
 :Author: OSGeoLive
 :Author: Alex Mandel, Cameron Shorter
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live7.9
+:Version: osgeolive7.9
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
@@ -18,8 +18,8 @@ Requirements
 * A USB flash drive (at least 4 Gig, 8+ Gig is recommended).
 * An OSGeoLive ISO image (downloaded from: http://live.osgeo.org/en/download.html) or converted from a DVD.
 
- * For a 4 GB USB flash drive, use osgeo-live-mini ISO (without Windows and Mac installers), without persistence.
- * For a 8+ GB USB flash drive, use either osgeo-live-mini ISO, or osgeo-live ISO (with Windows and Mac installers). 8+ GB is recommended if you wish to support persistence.
+ * For a 4 GB USB flash drive, use osgeolive-mini ISO (without Windows and Mac installers), without persistence.
+ * For a 8+ GB USB flash drive, use either osgeolive-mini ISO, or osgeolive ISO (with Windows and Mac installers). 8+ GB is recommended if you wish to support persistence.
 
 Creating bootable USB drive with ``dd`` under Linux
 --------------------------------------------------------------------------------
@@ -28,7 +28,7 @@ ISO images for OSGeoLive 10.5 and later are *isohybrid* (and for amd64, also sup
 
 .. code-block:: console
 
-   sudo dd if=osgeo-live-10.5-amd64.iso of=/dev/sdX bs=4M; sync
+   sudo dd if=osgeolive-10.5-amd64.iso of=/dev/sdX bs=4M; sync
 
 * ``/dev/sdX`` is the block device for the USB drive, where ``X`` might be ``b`` or ``c``.
 * Use ``lsblk`` to list block devices and ``dmesg`` to see kernel messages identifying the USB drive when it is connected.
@@ -46,7 +46,7 @@ Creating bootable USB drive with Ubuntu Startup Disk Creator
 .. note::
    The version of Ubuntu you are running, needs to be the same or newer than the version of Lubuntu being installed onto your USB.  If installing OSGeoLive 8.0 onto a USB, then you will need to be running Ubuntu 14.04 or newer.
 
-`Download <http://live.osgeo.org/en/download.html>`_ osgeo-live or osgeo-live-mini to your computer's hard drive. 
+`Download <http://live.osgeo.org/en/download.html>`_ osgeolive or osgeolive-mini to your computer's hard drive. 
 
 Boot your computer into a recent Ubuntu/Xbuntu distribution. You can do this by running from an OSGeoLive DVD, as explained in :doc:`osgeolive_quickstart`.
 
@@ -60,7 +60,7 @@ Select :menuselection:`System Tools --> Startup Disk Creator`, or search for `St
   .. image:: /images/projects/usb/usb_set_params.png
     :scale: 70 %
 
-Select the osgeo-live or osgeo-live-mini ISO Image that you downloaded earlier.
+Select the osgeolive or osgeolive-mini ISO Image that you downloaded earlier.
 
 Select the USB flash drive. If you have extra room you might adjust the slider to create persistent storage space on the USB drive (recommended). In order for this option to be available you will need an 8+ GB USB flash drive.
 

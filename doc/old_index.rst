@@ -1,5 +1,5 @@
 
-Welcome to |osgeo-live-version|
+Welcome to |osgeolive-version|
 ================================================================================
 
 .. only:: latex

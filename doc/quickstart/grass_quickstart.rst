@@ -1,7 +1,7 @@
 :Author: Hamish Bowman
 :Reviewer: Markus Neteler
 :Reviewer: Angelos Tzotsos, OSGeo
-:Version: osgeo-live11.0
+:Version: osgeolive11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Copyright: 2011-2015 by The OSGeo Foundation
 
@@ -22,7 +22,7 @@ geospatial data.
 Quick tour
 ================================================================================
 
-.. author's note: Update in osgeo-live8.5: light NC dataset is included, tutorial
+.. author's note: Update in osgeolive8.5: light NC dataset is included, tutorial
  rewritten
 
 To run GRASS GIS on the Live DVD, click on the GRASS link in

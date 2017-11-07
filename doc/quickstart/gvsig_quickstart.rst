@@ -3,7 +3,7 @@
 :Reviewer: Manuel Madrid
 :Reviewer: Mario Carrera
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live7.0
+:Version: osgeolive7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_gvsig@

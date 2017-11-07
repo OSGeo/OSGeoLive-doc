@@ -141,7 +141,7 @@ sub write_script {
 .. OSGeoLive metrics.rst file, created by:
    build_metrics.pl
 
-|osgeo-live-version| Project Metrics
+|osgeolive-version| Project Metrics
 ================================================================================
 
 Metrics provided by `OpenHUB <https://www.openhub.net/>`_ which are derived

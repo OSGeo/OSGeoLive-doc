@@ -1,6 +1,6 @@
 :Author: OSGeoLive
 :Author: Cameron Shorter
-:Version: osgeo-live4.0
+:Version: osgeolive4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
@@ -16,7 +16,7 @@ OSGeoLive Virtual Machine from a DVD or ISO image.
 System Requirements
 --------------------------------------------------------------------------------
 
-* |osgeo-live-hdspace| of spare Hard Disk Space
+* |osgeolive-hdspace| of spare Hard Disk Space
 
 Install OSGeoLive
 --------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 :Author: OSGeoLive
 :Author: Micha Silver
-:Version: osgeo-live5.5
+:Version: osgeolive5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
@@ -29,18 +29,18 @@ Software
 ----------------
 Download the VM version of OSGeoLive. You will need the 7-zip compression program to unzip this file. And of course the VMWare Player software for running the virtual machine. Note that VMWare Player, while offered as a cost-free download, is not open source. You must register on the VMWare website, and agree to their licence in order to use the software.:
 
-`The OSGeo virtual machine  <http://download.osgeo.org/livedvd/release/5.5/osgeo-live-vm-5.5.7z>`_
+`The OSGeo virtual machine  <http://download.osgeo.org/livedvd/release/5.5/osgeolive-vm-5.5.7z>`_
 
 `7 zip download page <http://www.7-zip.org/download.html>`_
 
 `VMWare Player registration: <https://www.vmware.com/tryvmware/?p=player&lp=1>`_
 
 
-Unzip the osgeo-live-vm using the command 
+Unzip the osgeolive-vm using the command 
 
 ::
 
-        7z e osgeo-live-vm-5.5.7z
+        7z e osgeolive-vm-5.5.7z
 
 or using the 7-zip GUI program. Also install the VMWare Player software.
 

@@ -1,7 +1,7 @@
 :Author: OSGeoLive
 :Author: Jachym Cepicky, Tom Kralidis
 :Reviewer: Cameron Shorter
-:Version: osgeo-live10.0
+:Version: osgeolive10.0
 :License: Creative Commons Attribution
 
 @LOGO_pywps@

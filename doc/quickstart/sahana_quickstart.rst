@@ -1,5 +1,5 @@
 :Author: Gavin Treadgold
-:Version: osgeo-live4.5draft
+:Version: osgeolive4.5draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_sahana@

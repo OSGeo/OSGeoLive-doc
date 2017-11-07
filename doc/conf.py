@@ -238,9 +238,9 @@ linkcheck_anchors = False
 # TODO export versions into an extra app-versions file
 #
 rst_epilog="""
-.. |osgeo-live-project| replace:: %(projectname)s
-.. |osgeo-live-version| replace:: %(projectname)s %(projectversion)s
-.. |osgeo-live-hdspace| replace:: %(required_hd_space)02d GB
+.. |osgeolive-project| replace:: %(projectname)s
+.. |osgeolive-version| replace:: %(projectname)s %(projectversion)s
+.. |osgeolive-hdspace| replace:: %(required_hd_space)02d GB
 .. |osgeolive-iso-size| replace:: %(iso_size).1f GB
 .. |osgeolive-iso-mini-size| replace:: %(iso_mini_size).1f GB
 .. |osgeolive-vm-7z-size| replace:: %(vm_7z_size).1f GB

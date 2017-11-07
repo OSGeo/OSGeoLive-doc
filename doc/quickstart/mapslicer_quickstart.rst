@@ -2,7 +2,7 @@
 :Author: Petr Pridal
 :Author: Christopher Fleet
 :Author: Angelos Tzotsos
-:Version: osgeo-live8.5
+:Version: osgeolive8.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_mapslicer@

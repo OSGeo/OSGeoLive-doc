@@ -170,7 +170,7 @@ sub write_script {
 .. OSGeoLive overview file, created by:
    build_overview.pl
 
-|osgeo-live-version| Contents
+|osgeolive-version| Contents
 ================================================================================
 
 .. contents::

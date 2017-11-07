@@ -1,4 +1,4 @@
-|osgeo-live-version| Project Metrics
+|osgeolive-version| Project Metrics
 ================================================================================
 
 Metrics provided by `OpenHUB <https://www.openhub.net/>`_ which are derived

@@ -1,7 +1,7 @@
 :Author: OSGeoLive
 :Author: Cameron Shorter, Hamish Bowman
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live7.0
+:Version: osgeolive7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
@@ -20,7 +20,7 @@ Your computer should have at least:
 * Hard Disk: 
 
  * None required if running directly from the DVD 
- * |osgeo-live-hdspace| if you wish to install the operating system. 
+ * |osgeolive-hdspace| if you wish to install the operating system. 
 
 * Mouse: a 3-button mouse is useful, especially for Mac trackpad users. 
 

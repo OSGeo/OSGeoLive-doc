@@ -1,6 +1,6 @@
 :Author: OSGeoLive
 :Author: Cameron Shorter
-:Version: osgeo-live4.0
+:Version: osgeolive4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
@@ -17,7 +17,7 @@ System Requirements
 * RAM: 1 GB, preferably 2 GB if you plan to run other applications as well
 * Spare Hard Disk Space:
 
- * |osgeo-live-hdspace| if running from ISO
+ * |osgeolive-hdspace| if running from ISO
  * 17 GB if installing locally from an ISO
 
 Create a Virtual Machine
@@ -74,7 +74,7 @@ Select :guilabel:`Finish`
 
 The image is now created, but we now need to simulate having an OSGeoLive DVD in the CD drive.
 
-Right click on the "osgeo-live" image, and select :guilabel:`Settings`.
+Right click on the "osgeolive" image, and select :guilabel:`Settings`.
 
   .. image:: /images/projects/virtualization/virtualbox_set_cd.png
     :scale: 70 %

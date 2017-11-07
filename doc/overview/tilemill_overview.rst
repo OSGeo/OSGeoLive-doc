@@ -1,7 +1,7 @@
 :Author: OSGeoLive
 :Author: Javier Sanchez, GeoNaTec
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live8.0
+:Version: osgeolive8.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_tilemill@

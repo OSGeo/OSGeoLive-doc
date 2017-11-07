@@ -4,7 +4,7 @@
 :Author: Simon Jirka (s.jirka@52north.org)
 :Author: Ann Hitchcock (a.hitchcock@52north.org)
 :Reviewer:
-:Version: osgeo-live11.0
+:Version: osgeolive11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_52nSOS@
