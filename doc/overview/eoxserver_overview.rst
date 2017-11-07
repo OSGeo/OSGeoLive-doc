@@ -38,12 +38,12 @@ Core Features
 * View, filter, subset, and download EO data
 * Register EO data archives
 * Web based and command line administration interface
-* Publish data via :doc:`Open Geospatial Consortium (OGC) standards
-  <../standards/standards>`:
+* Publish data via `Open Geospatial Consortium (OGC) standards
+  <http://www.opengeospatial.org/standards>`__:
 
-  * :doc:`Web Coverage Service (WCS) <../standards/wcs_overview>` 1.0, 1.1 and
+  * `Web Coverage Service (WCS) <http://www.opengeospatial.org/standards/wcs>`__ 1.0, 1.1 and
     2.0 & proposed EO-WCS
-  * :doc:`Web Map Service (WMS) <../standards/wms_overview>` & EO-WMS
+  * `Web Map Service (WMS) <http://www.opengeospatial.org/standards/wms>`__ & EO-WMS
   * Proposed extensions to WCS including: GeoTIFF encoding, predefined
     projections (CRSs), scaling, and interpolation.
   * Protocols supported are: KVP and XML/POST (used together with SOAP2POST

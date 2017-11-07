@@ -54,22 +54,23 @@ Core Features
     `GeoWebCache <http://geowebcache.org/>`_, which is integrated into GeoServer, tiles and caches map images from a variety of sources such as WMS. It implements various service interfaces (such as WMS-C, WMTS, TMS, Google Maps KML, Virtual Earth) in order to accelerate and optimize map image delivery. It can also recombine tiles to work with regular WMS clients.
 
 **Web Processing Service (WPS)**
-    Geospatial algorithms, including those from :doc:`JTS <jts_overview>`, can be called through GeoServer's :doc:`WPS <../standards/wps_overview>` interface. This includes the chaining of processes, and using rendering transformations to create powerful visualisations through the WMS interface.
+    Geospatial algorithms, including those from :doc:`JTS <jts_overview>`, can be called through GeoServer's `WPS <http://www.opengeospatial.org/standards/wps>`__ interface. This includes the chaining of processes, and using rendering transformations to create powerful visualisations through the WMS interface.
 
 Implemented Standards
 --------------------------------------------------------------------------------
 
 Support of numerous Open Geospatial Consortium  (OGC) standards:
 
-  * :doc:`../standards/wms_overview`
-  * Web Map Tile Service (WMTS)
-  * :doc:`../standards/wfs_overview`, WFS-T (transactional)
-  * :doc:`../standards/wcs_overview`
-  * :doc:`../standards/wps_overview`
-  * :doc:`../standards/fe_overview`
-  * :doc:`../standards/sld_overview`
-  * :doc:`../standards/gml_overview`
-  * :doc:`../standards/kml_overview`
+  
+
+* `WMS <http://www.opengeospatial.org/standards/wms>`__ (client/server)
+* Web Map Tile Service (WMTS)
+* `WFS-T <http://www.opengeospatial.org/standards/wfs>`__ (transactional)
+* `WCS <http://www.opengeospatial.org/standards/wcs>`__
+* `FE <http://www.opengeospatial.org/standards/fe>`__
+* `SLD <http://www.opengeospatial.org/standards/sld>`__
+* `GML <http://www.opengeospatial.org/standards/gml>`__
+* `KML <http://www.opengeospatial.org/standards/kml>`__
 
 Details
 --------------------------------------------------------------------------------

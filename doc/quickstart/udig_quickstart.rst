@@ -27,7 +27,7 @@ editing and viewing Geospatial data.
 
 This Quick Start describes how to:
 
-  * load a map layers from a shapefile and :doc:`Web Map Service (WMS) <../standards/wms_overview>`
+  * load a map layers from a shapefile and `Web Map Service (WMS) <http://www.opengeospatial.org/standards/wms>`__
   * use the standard map tools
   * apply colour to map features using styling
 
@@ -265,7 +265,7 @@ Style
 
 #. When you are happy with the result you can press :guilabel:`Close` to dismiss the dialog
 
-.. note:: Some files include style settings. The Style definition can be found in files with the :file:`*.sld` extension. The name itself should be equal to the file containing the data. If such a :doc:`Styled Layer Description (SLD) <../standards/sld_overview>` file exists, the style will be applied automatically. 
+.. note:: Some files include style settings. The Style definition can be found in files with the :file:`*.sld` extension. The name itself should be equal to the file containing the data. If such a `Styled Layer Description (SLD) <http://www.opengeospatial.org/standards/sld>__` file exists, the style will be applied automatically. 
 
 Sometimes it is a bit hard to see what is going on with layer providing much details. To get focused on the task you like to work on, you can choose :menuselection:`Map --> Mylar` from the menu bar. Using the *Layer* view select different layers in turn to see the effect. You can turn off this effect at any time using :menuselection:`Map --> Mylar` from the menu bar.
   
@@ -287,7 +287,7 @@ Things to Try
 
 Here are some additional challenges for you to try:
 
-#. Try viewing your own GIS map layers, or try adding a layer from a :doc:`Web Feature Service (WFS) <../standards/wfs_overview>` 
+#. Try viewing your own GIS map layers, or try adding a layer from a `Web Feature Service (WFS) <http://www.opengeospatial.org/standards/wms>`__ 
 #. Try styling the WFS layer.
 
 What Next?

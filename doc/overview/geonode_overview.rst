@@ -58,13 +58,14 @@ Core Features
 Implemented Standards
 --------------------------------------------------------------------------------
 
-  * :doc:`../standards/wms_overview`
-  * :doc:`../standards/csw_overview`
-  * :doc:`../standards/wfs_overview`
-  * :doc:`../standards/wcs_overview`
-  * :doc:`../standards/fe_overview`
-  * :doc:`../standards/sld_overview` 
-  * :doc:`../standards/gml_overview`
+
+* `WMS <http://www.opengeospatial.org/standards/wms>`__
+* `CSW <http://www.opengeospatial.org/standards/csw>`__
+* `WFS <http://www.opengeospatial.org/standards/wfs>`__
+* `WCS <http://www.opengeospatial.org/standards/wcs>`__
+* `FE <http://www.opengeospatial.org/standards/fe>`__
+* `SLD <http://www.opengeospatial.org/standards/sld>`__
+* `GML <http://www.opengeospatial.org/standards/gml>`__
 
 Details
 --------------------------------------------------------------------------------

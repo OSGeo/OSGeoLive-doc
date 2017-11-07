@@ -13,7 +13,9 @@
 Data Management Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-istSOS is sensor data management tool that allows collection, maintenance and publishing of monitoring observations using the Open Geospatial Consortium (OGC) :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` standard.
+istSOS is sensor data management tool that allows collection, maintenance and
+publishing of monitoring observations using the Open Geospatial Consortium (OGC)
+`Sensor Observation Service (SOS) <http://www.opengeospatial.org/standards/sos>`__ standard.
 
 .. image:: /images/projects/istsos/screenshot_istsos.png
   :scale: 60 %

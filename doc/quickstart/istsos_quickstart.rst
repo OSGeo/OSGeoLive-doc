@@ -10,7 +10,7 @@
 @NAME_istsos@ Quickstart
 ********************************************************************************
 
-istSOS is an OGC `SOS <http://www.opengeospatial.org/standards/sos>`_ server implementation written in `Python <https://www.python.org/>`_. 
+istSOS is an OGC `SOS <http://www.opengeospatial.org/standards/sos>`__ server implementation written in `Python <https://www.python.org/>`__.
 istSOS allows for managing and dispatch observations from monitoring sensors according to the Sensor Observation Service standard.
 
 The project provides also a Graphical user Interface that allows for easing the daily operations and a RESTFull Web api for automatizing administration procedures.
@@ -138,21 +138,21 @@ Fill in the form using appropriate information.
 .. rubric:: *Example* (minimal configuration)
 
 +-----------------------------------------------------------------------------------+
-|Name: T_LUGANO                                                                     |
+| Name: T_LUGANO                                                                    |
 +-----------------------------------------------------------------------------------+
-|Description: temperature weather station in Lugano                                 |
+| Description: temperature weather station in Lugano                                |
 +-----------------------------------------------------------------------------------+
-|Keywords: weather, meteorological, IST                                             |
+| Keywords: weather, meteorological, IST                                            |
 +-----------------------------------------------------------------------------------+
-|System type: insitu-fixed-point                                                    |
+| System type: insitu-fixed-point                                                   |
 +-----------------------------------------------------------------------------------+
-|Sensor type: PTC thermistors of the "switching" type                               |
+| Sensor type: PTC thermistors of the "switching" type                              |
 +-----------------------------------------------------------------------------------+
-|FOI name: LUGANO                                                                   |
+| FOI name: LUGANO                                                                  |
 +-----------------------------------------------------------------------------------+
-|EPSG: 4326                                                                         |
+| EPSG: 4326                                                                        |
 +-----------------------------------------------------------------------------------+
-|Coordinates: x: 8.96127 y: 46.02723 z: 344.1                                       |
+| Coordinates: x: 8.96127 y: 46.02723 z: 344.1                                      |
 +-----------------------------------------------------------------------------------+
 
 *Outputs (confirm the outputs pressing the "add" button):*
