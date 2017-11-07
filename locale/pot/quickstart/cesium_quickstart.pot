@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-06 21:10-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,67 +16,67 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:9
+#: ../../build/doc/quickstart/cesium_quickstart.rst:15
 msgid "Cesium Quickstart"
 msgstr ""
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:10
+#: ../../build/doc/quickstart/cesium_quickstart.rst:16
 msgid "This document shows how to use the Cesium with the 3D (Globe), 2.5D (Columbus View) and 2D (map)."
 msgstr ""
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:13
+#: ../../build/doc/quickstart/cesium_quickstart.rst:19
 msgid "Starting Cesium"
 msgstr ""
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:15
+#: ../../build/doc/quickstart/cesium_quickstart.rst:21
 msgid "Open the browser and point it to http://localhost/cesium/Apps/HelloWorld.html"
 msgstr ""
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:18
+#: ../../build/doc/quickstart/cesium_quickstart.rst:24
 msgid "Searching for locations"
 msgstr ""
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:19
+#: ../../build/doc/quickstart/cesium_quickstart.rst:25
 msgid "You can click on the magnifying glass and type in the location you are looking for.  In the following display, we look for India."
 msgstr ""
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:26
+#: ../../build/doc/quickstart/cesium_quickstart.rst:32
 msgid "Switching between 3D, 2.5D and 2D"
 msgstr ""
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:27
+#: ../../build/doc/quickstart/cesium_quickstart.rst:33
 msgid "You can click on the wire framed globe icon to select your preferred view.  Here the 2.5D Columbus view has been selected."
 msgstr ""
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:33
+#: ../../build/doc/quickstart/cesium_quickstart.rst:39
 msgid "Now the 2D map is selected."
 msgstr ""
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:40
+#: ../../build/doc/quickstart/cesium_quickstart.rst:46
 msgid "Selecting the Image layer"
 msgstr ""
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:41
+#: ../../build/doc/quickstart/cesium_quickstart.rst:47
 msgid "We can click on the last icon and select the type of image service we want.  Here the Natural Earth II is selected and you can see how the map's image layer has changed."
 msgstr ""
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:50
+#: ../../build/doc/quickstart/cesium_quickstart.rst:56
 msgid "What Next?"
 msgstr ""
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:51
+#: ../../build/doc/quickstart/cesium_quickstart.rst:57
 msgid "There are `video tutorials <https://www.youtube.com/playlist?list=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V>`_."
 msgstr ""
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:53
+#: ../../build/doc/quickstart/cesium_quickstart.rst:59
 msgid "Web based tutorials are `here <http://cesiumjs.org/tutorials.html>`_."
 msgstr ""
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:55
+#: ../../build/doc/quickstart/cesium_quickstart.rst:61
 msgid "You can develop some quick applications using the Sandcastle website by following this `link <http://cesiumjs.org/Cesium/Apps/Sandcastle/index.html?src=Custom%20DataSource.html&label=Tutorials>`_."
 msgstr ""
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:57
+#: ../../build/doc/quickstart/cesium_quickstart.rst:63
 msgid "In-depth documentation is available `locally <http://localhost/cesium/>`_."
 msgstr ""
 

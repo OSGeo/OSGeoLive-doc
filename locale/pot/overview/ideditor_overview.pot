@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-06 21:10-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,79 +16,79 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../build/doc/overview/ideditor_overview.rst:12
+#: ../../build/doc/overview/ideditor_overview.rst:14
 msgid "iD editor"
 msgstr ""
 
-#: ../../build/doc/overview/ideditor_overview.rst:15
+#: ../../build/doc/overview/ideditor_overview.rst:17
 msgid "Browser based editor for OpenStreetMap"
 msgstr ""
 
-#: ../../build/doc/overview/ideditor_overview.rst:17
+#: ../../build/doc/overview/ideditor_overview.rst:19
 msgid "The iD editor is the de facto, browser-based `OpenStreetMap <http://www.openstreetmap.org>`_ editor. iD is fast and easy to use, and allows mapping from various data sources such as satellite and aerial imageries, GPS, Field Papers or Mapillary."
 msgstr ""
 
-#: ../../build/doc/overview/ideditor_overview.rst:19
+#: ../../build/doc/overview/ideditor_overview.rst:21
 msgid "The iD editor is a great way to edit small and easy changes that don’t require the advanced features of the more advanced :doc:`JOSM <josm_overview>` editor."
 msgstr ""
 
-#: ../../build/doc/overview/ideditor_overview.rst:27
+#: ../../build/doc/overview/ideditor_overview.rst:29
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/ideditor_overview.rst:29
+#: ../../build/doc/overview/ideditor_overview.rst:31
 msgid "OpenStreetMap Editing"
 msgstr ""
 
-#: ../../build/doc/overview/ideditor_overview.rst:30
+#: ../../build/doc/overview/ideditor_overview.rst:32
 msgid "Fast"
 msgstr ""
 
-#: ../../build/doc/overview/ideditor_overview.rst:31
+#: ../../build/doc/overview/ideditor_overview.rst:33
 msgid "Intuitive"
 msgstr ""
 
-#: ../../build/doc/overview/ideditor_overview.rst:32
+#: ../../build/doc/overview/ideditor_overview.rst:34
 msgid "Browser Based"
 msgstr ""
 
-#: ../../build/doc/overview/ideditor_overview.rst:36
+#: ../../build/doc/overview/ideditor_overview.rst:38
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../build/doc/overview/ideditor_overview.rst:38
+#: ../../build/doc/overview/ideditor_overview.rst:40
 msgid "Web Map Tile Service (for basemaps)"
 msgstr ""
 
-#: ../../build/doc/overview/ideditor_overview.rst:41
+#: ../../build/doc/overview/ideditor_overview.rst:43
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/ideditor_overview.rst:43
+#: ../../build/doc/overview/ideditor_overview.rst:45
 msgid "**Website:** http://wiki.openstreetmap.org/wiki/ID"
 msgstr ""
 
-#: ../../build/doc/overview/ideditor_overview.rst:45
+#: ../../build/doc/overview/ideditor_overview.rst:47
 msgid "**Licence:** `ISC <https://en.wikipedia.org/wiki/ISC_license>`_"
 msgstr ""
 
-#: ../../build/doc/overview/ideditor_overview.rst:47
+#: ../../build/doc/overview/ideditor_overview.rst:49
 msgid "**Software Version:** |version-ideditor|"
 msgstr ""
 
-#: ../../build/doc/overview/ideditor_overview.rst:49
+#: ../../build/doc/overview/ideditor_overview.rst:51
 msgid "**Supported Platforms:** Anything that supports a browser: Windows, GNU/Linux, Mac, Android, iOS"
 msgstr ""
 
-#: ../../build/doc/overview/ideditor_overview.rst:51
+#: ../../build/doc/overview/ideditor_overview.rst:53
 msgid "**Support:** https://help.openstreetmap.org/"
 msgstr ""
 
-#: ../../build/doc/overview/ideditor_overview.rst:54
+#: ../../build/doc/overview/ideditor_overview.rst:57
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/ideditor_overview.rst:56
+#: ../../build/doc/overview/ideditor_overview.rst:59
 msgid ":doc:`Quickstart documentation <../quickstart/ideditor_quickstart>`"
 msgstr ""
 

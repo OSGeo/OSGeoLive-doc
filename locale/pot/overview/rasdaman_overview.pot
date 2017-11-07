@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-06 21:10-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,99 +16,99 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:14
+#: ../../build/doc/overview/rasdaman_overview.rst:16
 msgid "Rasdaman"
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:17
+#: ../../build/doc/overview/rasdaman_overview.rst:19
 msgid "Multi-Dimensional Big Data Analytics Engine"
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:19
+#: ../../build/doc/overview/rasdaman_overview.rst:21
 msgid "Rasdaman is an Array Database System which provides flexible, fast, scalable geo services for multi-dimensional spatio-temporal sensor, image, simulation, and statistics data of unlimited volume.  Ad-hoc access, extraction, aggregation, as well as remix and analytics is enabled through a NewSQL raster query language with highly effective server-side optimization.  Cloud/cluster parallelization is accomplished in a secure, administrator-controlled way."
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:21
+#: ../../build/doc/overview/rasdaman_overview.rst:23
 msgid "In addition to the raster query language, rasdaman supports OGC's WMS, WCS and WCPS web service standards, as well as C++ and Java APIs. At http://standards.rasdaman.org a collection of interactive demos is available.  A rasdaman driver is part of GDAL and MapServer."
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:23
+#: ../../build/doc/overview/rasdaman_overview.rst:25
 msgid "Rasdaman has received a series of international innovation awards, among them the prestigeous European IT Prize and Geospatial Innovation Award.  Technology is mature and stable, being in operational for more than ten years.  Among the operators of rasdaman services are mapping agencies and climate data centers."
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:31
+#: ../../build/doc/overview/rasdaman_overview.rst:33
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:33
+#: ../../build/doc/overview/rasdaman_overview.rst:35
 msgid "truly multi-dimensional - 1-D, 2-D, 3-D, 4-D, and beyond"
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:34
+#: ../../build/doc/overview/rasdaman_overview.rst:36
 msgid "powerful, flexible query language for visualization, classification, convolution, aggregation, and many more geospatial functions"
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:35
+#: ../../build/doc/overview/rasdaman_overview.rst:37
 msgid "spatial indexing and adaptive tiling for fast data access"
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:36
+#: ../../build/doc/overview/rasdaman_overview.rst:38
 msgid "parallelization and \"tile streaming\" for unlimited scalability from laptop to cluster and cloud"
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:37
+#: ../../build/doc/overview/rasdaman_overview.rst:39
 msgid "support for the raster-relevant OGC standards, Reference Implementation for WCS Core and WCPS"
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:40
+#: ../../build/doc/overview/rasdaman_overview.rst:42
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:42
+#: ../../build/doc/overview/rasdaman_overview.rst:44
 msgid "OGC WMS 1.3, WCS 2.0, WCPS 1.0"
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:45
+#: ../../build/doc/overview/rasdaman_overview.rst:47
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:47
+#: ../../build/doc/overview/rasdaman_overview.rst:49
 msgid "**Website:** http://www.rasdaman.org"
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:49
+#: ../../build/doc/overview/rasdaman_overview.rst:51
 msgid "**Licence:**"
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:51
+#: ../../build/doc/overview/rasdaman_overview.rst:53
 msgid "clients and APIs: GNU Lesser General Public License (LGPL) version 3"
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:52
+#: ../../build/doc/overview/rasdaman_overview.rst:54
 msgid "server engine: GNU General Public License (GPL) version 3"
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:54
+#: ../../build/doc/overview/rasdaman_overview.rst:56
 msgid "**Software Version:** |version-rasdaman|"
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:56
+#: ../../build/doc/overview/rasdaman_overview.rst:58
 msgid "**Supported Platforms:** Linux, MacOS, Solaris"
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:58
+#: ../../build/doc/overview/rasdaman_overview.rst:60
 msgid "**API Interfaces:** rasql, C++, Java"
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:60
+#: ../../build/doc/overview/rasdaman_overview.rst:62
 msgid "**Support:**  http://www.rasdaman.com"
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:63
+#: ../../build/doc/overview/rasdaman_overview.rst:66
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/rasdaman_overview.rst:65
+#: ../../build/doc/overview/rasdaman_overview.rst:68
 msgid ":doc:`Quickstart documentation <../quickstart/rasdaman_quickstart>`"
 msgstr ""
 

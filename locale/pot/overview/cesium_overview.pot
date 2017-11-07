@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-06 21:10-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,115 +16,119 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../build/doc/overview/cesium_overview.rst:12
+#: ../../build/doc/overview/cesium_overview.rst:13
 msgid "Cesium"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:15
+#: ../../build/doc/overview/cesium_overview.rst:16
+msgid "About"
+msgstr ""
+
+#: ../../build/doc/overview/cesium_overview.rst:19
 msgid "3D Globes and 2D Maps in a Browser"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:17
+#: ../../build/doc/overview/cesium_overview.rst:21
 msgid "Cesium is a JavaScript library for creating 3D globes and 2D maps in a web browser without any plugins. It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for dynamic-data visualization."
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:25
+#: ../../build/doc/overview/cesium_overview.rst:29
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:26
+#: ../../build/doc/overview/cesium_overview.rst:30
 msgid "Dynamic Geospatial Visualization:"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:28
+#: ../../build/doc/overview/cesium_overview.rst:32
 msgid "Create data-driven, time-dynamic scenes with `CZML <https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide>`_."
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:29
+#: ../../build/doc/overview/cesium_overview.rst:33
 msgid "Visualize high-resolution worldwide terrain."
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:30
+#: ../../build/doc/overview/cesium_overview.rst:34
 msgid "Draw imagery layers using WMS, TMS, OpenStreetMaps, Bing, and Esri standards."
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:31
+#: ../../build/doc/overview/cesium_overview.rst:35
 msgid "Draw vector data from GeoJSON and TopoJSON."
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:32
+#: ../../build/doc/overview/cesium_overview.rst:36
 msgid "Draw 3D models using COLLADA and glTF."
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:33
+#: ../../build/doc/overview/cesium_overview.rst:37
 msgid "Use `plugins <http://cesiumjs.org/plugins/index.html>`_ to extend Cesium."
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:35
+#: ../../build/doc/overview/cesium_overview.rst:39
 msgid "Built for Performance and Precision:"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:37
+#: ../../build/doc/overview/cesium_overview.rst:41
 msgid "Optimized WebGL with batching and culling efficiently uses hardware-accelerated graphics."
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:38
+#: ../../build/doc/overview/cesium_overview.rst:42
 msgid "Draw a wide range of geometries including polylines, polygons, billboards, labels, extrusions, and corridors."
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:39
+#: ../../build/doc/overview/cesium_overview.rst:43
 msgid "Control the camera and create flight paths."
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:40
+#: ../../build/doc/overview/cesium_overview.rst:44
 msgid "Use standard widgets to control animation time, select imagery layers, and zoom to a location."
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:42
+#: ../../build/doc/overview/cesium_overview.rst:46
 msgid "One API, Three Views:"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:44
+#: ../../build/doc/overview/cesium_overview.rst:48
 msgid "Cesium supports a 3D globe, 2D map, and 2.5D Columbus View with the same API."
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:47
+#: ../../build/doc/overview/cesium_overview.rst:51
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:48
+#: ../../build/doc/overview/cesium_overview.rst:52
 msgid "WMS and WMTS"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:51
+#: ../../build/doc/overview/cesium_overview.rst:55
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:53
+#: ../../build/doc/overview/cesium_overview.rst:57
 msgid "**Website:** http://cesiumjs.org"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:55
+#: ../../build/doc/overview/cesium_overview.rst:59
 msgid "**Licence:** Apache 2.0 license"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:57
+#: ../../build/doc/overview/cesium_overview.rst:61
 msgid "**Software Version:** |version-cesium|"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:59
+#: ../../build/doc/overview/cesium_overview.rst:63
 msgid "**Supported Platforms:**  Platform independent, depends only on a browser which supports WebGL"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:61
+#: ../../build/doc/overview/cesium_overview.rst:65
 msgid "**Community Support:** Mailing list cesium-dev@googlegroups.com"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:64
+#: ../../build/doc/overview/cesium_overview.rst:69
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:66
+#: ../../build/doc/overview/cesium_overview.rst:71
 msgid ":doc:`Quickstart documentation <../quickstart/cesium_quickstart>`"
 msgstr ""
 

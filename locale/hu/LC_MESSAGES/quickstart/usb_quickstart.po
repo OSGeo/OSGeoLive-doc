@@ -24,8 +24,8 @@ msgstr ""
 #: ../../build/doc/quickstart/usb_quickstart.rst:11
 msgid ""
 "This quickstart describes the preferred method for creating a Bootable "
-"OSGeoLive USB flash drive. Booting from a flash drive is faster than "
-"from a DVD, and the USB drive can be configured to store data between "
+"OSGeoLive USB flash drive. Booting from a flash drive is faster than from"
+" a DVD, and the USB drive can be configured to store data between "
 "sessions (called persistence)."
 msgstr ""
 
@@ -59,9 +59,9 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:22
 msgid ""
-"For a 8+ GB USB flash drive, use either osgeolive-mini ISO, or osgeo-"
-"live ISO (with Windows and Mac installers). 8+ GB is recommended if you "
-"wish to support persistence."
+"For a 8+ GB USB flash drive, use either osgeolive-mini ISO, or osgeolive "
+"ISO (with Windows and Mac installers). 8+ GB is recommended if you wish "
+"to support persistence."
 msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:25
@@ -122,8 +122,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:49
 msgid ""
-"`Download <http://live.osgeo.org/en/download.html>`_ osgeolive or osgeo-"
-"live-mini to your computer's hard drive."
+"`Download <http://live.osgeo.org/en/download.html>`_ osgeolive or "
+"osgeolive-mini to your computer's hard drive."
 msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:51
@@ -257,4 +257,18 @@ msgid ""
 "Questions can be directed to our email list: "
 "http://lists.osgeo.org/mailman/listinfo/live-demo"
 msgstr ""
+
+#~ msgid ""
+#~ "For a 8+ GB USB flash drive, "
+#~ "use either osgeolive-mini ISO, or "
+#~ "osgeo-live ISO (with Windows and Mac"
+#~ " installers). 8+ GB is recommended if"
+#~ " you wish to support persistence."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Download <http://live.osgeo.org/en/download.html>`_ "
+#~ "osgeolive or osgeo-live-mini to "
+#~ "your computer's hard drive."
+#~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-06 21:10-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -268,86 +268,120 @@ msgstr ""
 msgid "Spatial Tools"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:184
+#: ../../build/doc/overview/overview.rst:182
 msgid ""
 ":doc:`gmt_overview` - [:doc:`Quickstart <../quickstart/gmt_quickstart>`] "
 "- Cartographic Rendering"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:185
+#: ../../build/doc/overview/overview.rst:183
 msgid ""
 ":doc:`mapnik_overview` - [:doc:`Quickstart "
 "<../quickstart/mapnik_quickstart>`] - Cartographic Rendering"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:186
+#: ../../build/doc/overview/overview.rst:184
 msgid ""
 ":doc:`mapslicer_overview` - [:doc:`Quickstart "
 "<../quickstart/mapslicer_quickstart>`] - Create Map Tiles"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:187
+#: ../../build/doc/overview/overview.rst:185
 msgid ""
 ":doc:`ossim_overview` - [:doc:`Quickstart "
 "<../quickstart/ossim_quickstart>`] - Image Processing"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:188
+#: ../../build/doc/overview/overview.rst:186
 msgid ""
 ":doc:`otb_overview` - [:doc:`Quickstart <../quickstart/otb_quickstart>`] "
 "- Image Processing"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:189
+#: ../../build/doc/overview/overview.rst:187
 msgid ""
 ":doc:`R_overview` - [:doc:`Quickstart <../quickstart/R_quickstart>`] - "
 "Statistical Programming"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:190
-msgid ""
-":doc:`geokettle_overview` - [:doc:`Quickstart "
-"<../quickstart/geokettle_quickstart>`] - ETL (Extract, Transform and "
-"Load) Tool"
-msgstr ""
-
-#: ../../build/doc/overview/overview.rst:193
 msgid "Domain Specific GIS"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:201
+#: ../../build/doc/overview/overview.rst:198
 msgid ""
 ":doc:`zygrib_overview` - [:doc:`Quickstart "
 "<../quickstart/zygrib_quickstart>`] -"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:204
+#: ../../build/doc/overview/overview.rst:201
 msgid "Data"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:214
+#: ../../build/doc/overview/overview.rst:211
 msgid ":doc:`naturalearth_overview`  - Global Data Sets"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:215
+#: ../../build/doc/overview/overview.rst:212
 msgid ":doc:`nc_dataset_overview`  -"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:216
+#: ../../build/doc/overview/overview.rst:213
 msgid ""
 ":doc:`netcdf_dataset_overview`  - Time series temperature and "
 "precipitation"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:217
+#: ../../build/doc/overview/overview.rst:214
 msgid ":doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:220
+#: ../../build/doc/overview/overview.rst:217
+msgid "Geospatial Libraries"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:232
+msgid ""
+":doc:`gdal_overview` - [:doc:`Quickstart "
+"<../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:233
+msgid ":doc:`geos_overview`  - C/C++ Spatial Library"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:234
+msgid ":doc:`geotools_overview`  - Java GIS Toolkit"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:235
+msgid ":doc:`jts_overview`  - Java Topology Suite"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:236
+msgid ""
+":doc:`liblas_overview` - [:doc:`Quickstart "
+"<../quickstart/liblas_quickstart>`] - LiDAR Data Access"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:237
+msgid ""
+":doc:`proj4_overview` - [:doc:`Quickstart "
+"<../quickstart/proj4_quickstart>`] - Coordinate Reference System "
+"Libraries"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:240
 msgid "Other software of interest (not available Live)"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:230
+#: ../../build/doc/overview/overview.rst:250
 msgid ":doc:`../prior_applications`"
 msgstr ""
+
+#~ msgid ""
+#~ ":doc:`geokettle_overview` - [:doc:`Quickstart "
+#~ "<../quickstart/geokettle_quickstart>`] - ETL "
+#~ "(Extract, Transform and Load) Tool"
+#~ msgstr ""
 

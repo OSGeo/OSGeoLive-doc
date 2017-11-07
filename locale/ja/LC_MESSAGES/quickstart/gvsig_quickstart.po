@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-06 21:10-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.0\n"
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:21
-msgid "gvSIG Quickstart"
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:20
+msgid "gvSIG Desktop Quickstart"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:23
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:22
 msgid ""
 "gvSIG is a Geographic Information System (GIS), that is, a desktop "
 "application designed for capturing, storing, handling, analyzing and "
@@ -34,51 +34,51 @@ msgid ""
 " users working in the land realm."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:32
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:31
 msgid "This quickstart describes how to..."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:34
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:33
 msgid "Add projection, raster and vector data to a view"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:35
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:34
 msgid "Navigate around"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:36
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:35
 msgid "Change layers"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:37
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:36
 msgid "Select features"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:38
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:37
 msgid "Create a map with a graticule"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:39
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:38
 msgid "Save the project and exit gvSIG"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:40
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:39
 msgid "Install an add-on (OpenStreetMap service)"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:41
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:40
 msgid "Load a WMTS layer"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:45
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:44
 msgid ""
 "If gvSIG user interface becomes unresponsive, try :kbd:`Alt+f` to open "
 "the file menu for example. User interface should work again, then. This "
-"bug only happens in the gvSIG distro for OSGeoLive. It doesn't appear in"
-" a normal gvSIG installation."
+"bug only happens in the gvSIG distro for OSGeoLive. It doesn't appear in "
+"a normal gvSIG installation."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:50
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:49
 msgid ""
 "Note for version gvSIG 2.3.1: To load raster files the user must have "
 "write permission in the folder where the file is. Otherwise the "
@@ -88,60 +88,60 @@ msgid ""
 "have write permission, like for example, \"/home/user\"."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:58
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:57
 msgid "Start gvSIG and create a view"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:60
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:59
 msgid ""
 "Select gvSIG from the application menu, :menuselection:`Geospatial --> "
 "Desktop GIS --> gvSIG`. The application usually takes about a minute to "
 "startup."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:64
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:63
 msgid ""
 "By default gvSIG opens with an empty project file with the 'View' "
-"document type selected. However, on OSGeoLive, gvSIG has been configured"
-" to start with a default project. Click on the :guilabel:`New Project` "
+"document type selected. However, on OSGeoLive, gvSIG has been configured "
+"to start with a default project. Click on the :guilabel:`New Project` "
 "button or go to :menuselection:`File --> New Project`. When prompted, you"
 " can select :guilabel:`Discard Changes` as we won't be using the last "
 "project."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:70
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:69
 msgid ""
 "Click on the :guilabel:`New` button to create a view. It will be opened "
 "automatically."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:76
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:75
 msgid "Define the projection of your view"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:79
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:78
 msgid "Open the view properties dialog"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:81
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:80
 msgid "Select :menuselection:`View --> Properties`."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:87
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:86
 msgid "Defining your Coordinate Reference System"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:89
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:88
 msgid ""
 "Click on the :guilabel:`...` button following the :guilabel:`Current "
 "projection`. This will open the **New CRS** dialog."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:91
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:90
 msgid "Using the dropdown list for :guilabel:`Type`, select EPSG."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:92
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:91
 msgid ""
 "Enter the EPSG code for the Coordinate Reference System. For this example"
 " we are using EPSG=4326, which is the WGS84 2D Geographic Projection. "
@@ -149,121 +149,121 @@ msgid ""
 "CRS in the table below the search input field."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:96
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:95
 msgid "Select :guilabel:`OK` to return to the **View Properties** dialog."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:98
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:97
 msgid "The EPSG code is now 4326 and that the map units have changed to degrees."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:100
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:99
 msgid "Select :guilabel:`OK` to return to the **Project Manager**."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:107
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:106
 msgid "Knowing the parts of a view"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:109
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:108
 msgid "The view window consists of three zones."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:110
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:109
 msgid ""
 "The top-left cell contains a list of vector or raster layers being used "
 "in the view (i.e. Table-of-Contents)."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:112
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:111
 msgid ""
 "The bottom-left cell displays the extent of the main view over a selected"
 " vector file."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:114
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:113
 msgid ""
 "The right cell is the main display area where raster and vector data is "
 "rendered."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:121
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:120
 msgid "The View - adding raster and vector data"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:124
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:123
 msgid "Adding layers from files"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:126
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:125
 msgid ""
 "Click on the :guilabel:`Add layer` icon in the main toolbar to open the "
 "**Add layer** dialog."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:127
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:126
 msgid ""
 "Select :guilabel:`Add` in the **Add layer** dialog. By default the first "
 "tab is :guilabel:`File` so the **Open** file dialog will appear."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:129
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:128
 msgid "Drill down to the ``/usr/local/share/data/natural_earth2/`` directory."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:130
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:129
 msgid "Select the files as shown in the picture."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:135
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:134
 msgid ""
 "By default all formats are shown so we can select both vector and raster "
 "files at a time by keeping pressed the :kbd:`CTRL` key."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:137
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:136
 msgid "Click on the :guilabel:`OK` button to return to the **Add layer** dialog."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:138
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:137
 msgid ""
 "Click on the :guilabel:`OK` button on the **Add layer** dialog to return "
 "to the view."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:141
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:140
 msgid "The View - basic navigation"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:144
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:143
 msgid "Preparing the view"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:146
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:145
 msgid "Click on the :guilabel:`Maximize` icon for a better viewing of the data."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:147
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:146
 msgid ""
 "The size of the Table-of-Contents column can be adjusted using the mouse "
 "to help see long file names."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:149
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:148
 msgid ""
 "In case the raster layer is on the top it should be moved manually to the"
 " bottom."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:155
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:154
 msgid "Zoom into a region"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:157
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:156
 msgid "By default the *Zoom in* tool is selected on the main toolbar."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:158
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:157
 msgid ""
 "Use the mouse pointer to draw a bounding box around South-east Australia."
 " Do this by selecting the top-left corner of the bounding box, holding "
@@ -272,96 +272,96 @@ msgid ""
 "you have the approximate area defined."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:168
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:167
 msgid "The View - changing how layers look"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:171
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:170
 msgid "Making a polygon transparent"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:173
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:172
 msgid ""
 "Select the ``ne_10m_admin_1_states_provinces.shp`` layer using the left-"
 "mouse-button and click again with the right-mouse-button."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:175
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:174
 msgid "Select the :menuselection:`Properties` submenu."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:176
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:175
 msgid "The **Layer properties** dialog box will appear."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:182
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:181
 msgid "Changing the symbology of a vector layer"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:184
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:183
 msgid ""
 "Select the :guilabel:`Symbols` tab at the top of the **Layers "
 "properties** dialog."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:185
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:184
 msgid ""
 "Select :guilabel:`Choose symbol` button so the **Symbol selector** dialog"
 " appears."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:188
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:187
 msgid "Removing the fill symbol and changing the border color"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:190
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:189
 msgid "Uncheck the :guilabel:`Fill color` box so the polygons are transparent."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:191
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:190
 msgid "Click on the :guilabel:`...` close to :guilabel:`Border color:`."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:192
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:191
 msgid "Choose white as color."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:193
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:192
 msgid ""
 "Click on the :guilabel:`OK` button to return to the **Symbol selector** "
 "dialog."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:194
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:193
 msgid ""
 "Click on the :guilabel:`OK` button to return to the **Layers properties**"
 " dialog."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:200
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:199
 msgid "Changing the labelling of a vector layer"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:202
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:201
 msgid ""
 "Select the :guilabel:`Labelling` tab at the top of the **Layers "
 "properties** dialog."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:203
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:202
 msgid ""
 "Change the text attributes to those shown on the image, then click on the"
 " :guilabel:`Accept` button."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:210
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:253
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:439
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:490
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:209
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:252
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:438
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:489
 msgid "The result"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:212
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:211
 msgid ""
 "Note that this is a very basic view showing a point, a line and a polygon"
 " vector file superimposed over a raster file. It is just as easy to have "
@@ -369,457 +369,460 @@ msgid ""
 "vector data, or to show other vector data stored in different formats."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:221
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:220
 msgid ""
 "A user exercise - change the symbology and labelling of the point and "
 "line layers"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:223
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:222
 msgid ""
 "Following the previous few steps change the symbols, colour and labelling"
 " of the rivers and towns to generally match the following screen shot."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:230
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:229
 msgid "Adding an overview or locator"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:233
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:232
 msgid "Opening the Locator setup"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:235
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:234
 msgid "Select :menuselection:`View --> Locator setup`."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:241
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:240
 msgid "Adding a layer to the overview zone"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:243
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:242
 msgid "Click on the :guilabel:`Add layer…` button."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:244
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:243
 msgid "Within the Add layer window, click on the :guilabel:`Add` button."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:245
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:244
 msgid "Select the ``HYP_50M_SR_W.tif`` layer."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:246
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:245
 msgid "Click on the :guilabel:`Open` button to return to the Add layer window."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:247
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:246
 msgid "Click on the :guilabel:`Ok` button and close the Configure locator window."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:255
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:254
 msgid "Now we can easily know where the view is located in the world."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:262
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:261
 msgid "Simple analysis - select towns within a region"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:265
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:264
 msgid "Selecting the region"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:267
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:301
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:266
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:300
 msgid ""
 "Select the ``ne_10m_admin_1_states_provinces.shp`` layer using the left-"
 "mouse-button."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:269
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:268
 msgid "Select the :guilabel:`Select by point` icon in the main toolbar."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:270
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:269
 msgid ""
 "Click the polygon representing the State of New South Wales. The polygon "
 "will go yellow or some other colour depending on your user preferences."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:277
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:276
 msgid "Opening the Selection by layer tool"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:279
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:314
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:278
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:313
 msgid ""
 "Select the ``ne_10m_populated_places.shp`` layer using the left-mouse-"
 "button."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:280
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:279
 msgid ""
 "Select :menuselection:`Selection --> Select by layer` to open the "
 "**Selection by Layer** dialog"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:286
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:285
 msgid "Selecting the towns contained within a region"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:288
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:287
 msgid ""
 "Change the first selection criteria using the dropdown boxes on the left-"
 "hand side of the **Selection by Layer** dialog as shown in the picture."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:290
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:289
 msgid "Change the second selection criteria as shown in the picture."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:291
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:290
 msgid ""
 "Click the :guilabel:`New set` button to select towns within the selected "
 "polygon."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:292
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:291
 msgid ""
 "Select the :guilabel:`Cancel` button in the **Selection by Layer** dialog"
 " to return to the view."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:299
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:298
 msgid "Unselect the polygon so you can see what has happened"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:302
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:301
 msgid "Select the 'Clear selection' icon in the main toolbar."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:303
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:302
 msgid "You can now see that only those towns within New South Wales are selected."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:309
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:308
 msgid "Export selected features to a new shapefile"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:312
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:311
 msgid "Selecting the output file format"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:315
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:314
 msgid "Select :menuselection:`Layer --> Export to...` to start the export."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:316
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:315
 msgid "Select *Shape Format*."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:317
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:335
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:412
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:463
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:473
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:316
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:334
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:411
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:462
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:472
 msgid "Click on *Next*."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:323
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:322
 msgid "Selecting the output file name"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:325
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:324
 msgid "Choose a folder and type the file name."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:326
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:325
 msgid "Click on *Open* and then on *Next*."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:332
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:331
 msgid "Reference system"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:334
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:333
 msgid ""
 "Choose the option *Original (EPSG:4326)* in order to keep the reference "
 "system of the view."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:338
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:337
 msgid "Export options"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:340
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:339
 msgid ""
 "Choose the option *Selected features* in order to export only the towns "
 "of New South Wales."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:342
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:341
 msgid "Click on *Export*."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:348
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:347
 msgid "The Result"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:350
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:349
 msgid "The new layer has been added to the view."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:351
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:350
 msgid ""
 "In order to check that the export was ok set the original file as "
 "invisible. Only the towns of New South Wales should be shown."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:358
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:357
 msgid "How to create a map"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:361
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:360
 msgid "Create a new map"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:363
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:362
 msgid "Select the *Map* document type in the **Project Manager**."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:364
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:363
 msgid "Click on the :guilabel:`New` button to create a map."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:365
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:364
 msgid ""
 "A new window is shown, where you can select the view to insert on the "
 "Map. Select the only view that you have and press *Accept*."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:367
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:366
 msgid "The map will appear with the view selected."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:370
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:369
 msgid "What else can you do to a map?"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:372
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:371
 msgid ""
 "Additional elements like a scale and north arrow can be added to the map "
 "using the icons in the main toolbar or with the submenus in the "
 ":menuselection:`Map` menu."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:374
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:373
 msgid ""
 "The map can be printed or exported to PDF or Postscript for incorporation"
 " into other works."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:376
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:375
 msgid ""
 "Select the :guilabel:`Close window` icon to return to the **Project "
 "manager**"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:382
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:381
 msgid "Saving your project or exiting gvSIG"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:384
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:383
 msgid ""
 "Projects can be saved for use later by using the :menuselection:`File -->"
 " Save as...` menu option, or"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:386
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:385
 msgid ""
 "Projects can be exited or closed by using the :menuselection:`File --> "
 "Exit` menu option."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:392
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:391
 msgid "Installing an add-on"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:395
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:394
 msgid "Opening the add-ons manager"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:397
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:396
 msgid ""
 "Select :menuselection:`Tools --> Addons manager`. After a while, the "
 "*Install package* window will appear."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:399
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:398
 msgid ""
 "Within the *Install package* window, select the option *Installation from"
 " URL*."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:400
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:399
 msgid "Choose the repo URL shown in the picture."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:401
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:400
 msgid "Click on the *Next* button."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:407
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:406
 msgid "Finding an add-on"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:409
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:408
 msgid "At the add-ons manager we can find plugins and symbol libraries."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:410
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:409
 msgid "Type 'Forestry' in the *Fast filter* text box."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:411
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:410
 msgid "Check the add-on called *Symbols: Forestry* (it's a symbol library)."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:418
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:417
 msgid "Finishing the installation"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:420
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:419
 msgid "Click on *Start downloading*."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:421
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:420
 msgid "Then click on *Next*."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:422
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:421
 msgid "Finally click on *Finish*."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:424
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:423
 msgid ""
 "Although the new message indicates that a restart is needed, for symbol "
 "libraries it's not necessary. We only have to restart when we install "
 "plugins."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:428
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:427
 msgid "Adding a OpenStreetMap layer"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:430
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:429
 msgid ""
 "Now we are going to add OpenStreetMap cartography. Within a new view, in "
 "EPSG 3857, click on the :guilabel:`Add layer…` button."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:431
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:430
 msgid "Choose the *OSM* tab."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:432
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:431
 msgid "Select 'Mapnik' from the available layers."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:433
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:432
 msgid "Click on *Ok*."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:441
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:440
 msgid ""
 "A new layer has been added to the view. Just doing zoom over a region we "
 "could see the detailed Open Street Map data."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:452
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:451
 msgid "Adding a WMTS layer"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:454
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:453
 msgid "WMTS is an evolution of WMS OGC standard based on tile management."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:457
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:456
 msgid "Selecting a server"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:459
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:458
 msgid "Within a view, click on the :guilabel:`Add layer…` button."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:460
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:459
 msgid "Choose the *WMTS* tab."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:461
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:460
 msgid "Choose the URL shown in the picture."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:462
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:461
 msgid "Click on *Connect*."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:469
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:468
 msgid "Selecting one of the available layers"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:471
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:470
 msgid "Select one of the available layers (e.g. bluemarble)"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:472
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:471
 msgid "Click on *Add*."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:479
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:478
 msgid "Selecting image format and reference system"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:481
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:480
 msgid "Select *image/jpeg* as image format."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:482
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:481
 msgid ""
 "Select *EPSG:4326* (notice that the view must have the same SRS. If not "
 "then cancel, change it and start again)."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:484
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:483
 msgid "Click on *Accept*."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:492
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:491
 msgid "A new layer has been added to the view."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:498
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:497
 msgid "Where to from here..."
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:500
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:499
 msgid ""
 "`User manuals "
 "<http://downloads.gvsig.org/download/web/en/build/html/index.html>`_"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:501
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:500
 msgid ""
 "`Courses and tutorials <http://www.gvsig.com/en/diffusion/educational-"
 "material?p_p_id=122_INSTANCE_A9eo37KAqtxs&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&p_r_p_564233524_resetCur=true&p_r_p_564233524_categoryId=25973>`_"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:502
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:501
 msgid ""
 "`Learning gvSIG in 30 minutes <https://blog.gvsig.org/2017/05/23"
 "/learning-gvsig-in-30-minutes/>`_"
 msgstr ""
 
-#: ../../build/doc/quickstart/gvsig_quickstart.rst:503
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:502
 msgid "`gvSIG Blog <http://blog.gvsig.org/category/languages/english/>`_"
 msgstr ""
+
+#~ msgid "gvSIG Quickstart"
+#~ msgstr ""
 

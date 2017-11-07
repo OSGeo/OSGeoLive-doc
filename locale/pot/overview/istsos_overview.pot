@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-06 21:10-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,16 +16,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../build/doc/overview/istsos_overview.rst:19
+#: ../../build/doc/overview/istsos_overview.rst:17
 msgid "istSOS"
 msgstr ""
 
-#: ../../build/doc/overview/istsos_overview.rst:22
+#: ../../build/doc/overview/istsos_overview.rst:20
 msgid "Data Management Tool"
 msgstr ""
 
-#: ../../build/doc/overview/istsos_overview.rst:24
-msgid "istSOS is sensor data management tool that allows collection, maintenance and publishing of monitoring observations using the Open Geospatial Consortium (OGC) :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>` standard."
+#: ../../build/doc/overview/istsos_overview.rst:22
+msgid "istSOS is sensor data management tool that allows collection, maintenance and publishing of monitoring observations using the Open Geospatial Consortium (OGC) `Sensor Observation Service (SOS) <http://www.opengeospatial.org/standards/sos>`__ standard."
 msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:31
@@ -104,11 +104,11 @@ msgstr ""
 msgid "**Support:** https://groups.google.com/forum/#!forum/istsos"
 msgstr ""
 
-#: ../../build/doc/overview/istsos_overview.rst:67
+#: ../../build/doc/overview/istsos_overview.rst:68
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/istsos_overview.rst:69
+#: ../../build/doc/overview/istsos_overview.rst:70
 msgid ":doc:`Quickstart documentation <../quickstart/istsos_quickstart>`"
 msgstr ""
 

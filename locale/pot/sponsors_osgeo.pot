@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-06 21:10-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgid "`GeoForAll <http://www.geoforall.org>`_: Over 100 educational labs from a
 msgstr ""
 
 #: ../../build/doc/sponsors_osgeo.rst:21
-msgid "`OSGeo Live <http://live.osgeo.org>`__: A distribution of established geospatial open source software, pre-configured with sample data and quickstarts, ready to try out."
+msgid "`OSGeoLive <http://live.osgeo.org>`__: A distribution of established geospatial open source software, pre-configured with sample data and quickstarts, ready to try out."
 msgstr ""
 
 #: ../../build/doc/sponsors_osgeo.rst:22

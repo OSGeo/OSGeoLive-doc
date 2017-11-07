@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-06 21:10-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,103 +16,103 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../build/doc/overview/gdal_overview.rst:19
+#: ../../build/doc/overview/gdal_overview.rst:18
 msgid "GDAL/OGR"
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:22
-msgid "Geospatial Data Translation Tools"
+#: ../../build/doc/overview/gdal_overview.rst:21
+msgid "About"
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:24
+#: ../../build/doc/overview/gdal_overview.rst:23
 msgid "Geospatial Data Abstraction Library (GDAL/OGR) provides command-line utilities to translate and process a wide range of raster and vector geospatial data formats."
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:28
+#: ../../build/doc/overview/gdal_overview.rst:27
 msgid "The utilities are based upon a cross platform, C++ library, accessible via numerous programming languages.  As a library, it presents a single abstract data model to the calling application for all supported formats."
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:32
+#: ../../build/doc/overview/gdal_overview.rst:31
 msgid "GDAL/OGR is the most widely used geospatial data access library. It provides the primary data access engine for many applications including MapServer, GRASS, QGIS, and OpenEV. It is also utilized by packages such as OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS."
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:43
+#: ../../build/doc/overview/gdal_overview.rst:42
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:45
+#: ../../build/doc/overview/gdal_overview.rst:44
 msgid "Command-line utilities for data translation, image warping, subsetting, and various other common tasks"
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:46
+#: ../../build/doc/overview/gdal_overview.rst:45
 msgid "Highly efficient raster data access, taking advantage of tiling and overviews"
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:47
+#: ../../build/doc/overview/gdal_overview.rst:46
 msgid "Support for large files - larger than 4GB"
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:48
+#: ../../build/doc/overview/gdal_overview.rst:47
 msgid "Library access from Python, Java, C#, Ruby, VB6 and Perl"
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:49
+#: ../../build/doc/overview/gdal_overview.rst:48
 msgid "Coordinate system engine built on PROJ.4 and OGC Well Known Text coordinate system descriptions"
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:52
+#: ../../build/doc/overview/gdal_overview.rst:51
 msgid "Popular Supported Formats"
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:54
+#: ../../build/doc/overview/gdal_overview.rst:53
 msgid "GDAL supports over 140 raster formats, and OGR over 80 vector formats."
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:56
+#: ../../build/doc/overview/gdal_overview.rst:55
 msgid "These include:"
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:58
+#: ../../build/doc/overview/gdal_overview.rst:57
 msgid "**Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, DTED, NITF, GeoPackage and more ..."
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:59
+#: ../../build/doc/overview/gdal_overview.rst:58
 msgid "**Vector:** GeoPackage, ESRI Shapefile, GML, GeoJSON, AutoCAD DWG, MapInfo (tab and mid/mif), ESRI Coverages, ESRI Personal Geodatabase, DGN, PostGIS, Oracle Spatial, and more ..."
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:62
+#: ../../build/doc/overview/gdal_overview.rst:61
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:64
+#: ../../build/doc/overview/gdal_overview.rst:63
 msgid "The OGR vector data model is compliant with the OGC Simple Features specification."
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:67
+#: ../../build/doc/overview/gdal_overview.rst:66
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:69
+#: ../../build/doc/overview/gdal_overview.rst:68
 msgid "**Website:**  http://www.gdal.org"
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:71
+#: ../../build/doc/overview/gdal_overview.rst:70
 msgid "**Licence:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_"
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:73
+#: ../../build/doc/overview/gdal_overview.rst:72
 msgid "**Software Version:** |version-gdal|"
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:75
+#: ../../build/doc/overview/gdal_overview.rst:74
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:77
+#: ../../build/doc/overview/gdal_overview.rst:76
 msgid "**API Interfaces:** C, C++, Python, Java, C#, Ruby, VB6 and Perl"
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:79
+#: ../../build/doc/overview/gdal_overview.rst:78
 msgid "**Support:** http://lists.osgeo.org/mailman/listinfo/gdal-dev, http://www.osgeo.org/search_profile"
 msgstr ""
 

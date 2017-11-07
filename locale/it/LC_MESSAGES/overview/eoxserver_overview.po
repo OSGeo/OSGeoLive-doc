@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-06 21:10-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,21 +17,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.0\n"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:14
+#: ../../build/doc/overview/eoxserver_overview.rst:15
 msgid "EOxServer"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:17
-msgid "Web Service"
+#: ../../build/doc/overview/eoxserver_overview.rst:18
+msgid "About"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:19
+#: ../../build/doc/overview/eoxserver_overview.rst:20
 msgid ""
 "EOxServer is a server for presenting big Earth Observation (EO) data "
 "archives and metadata via Open Standards."
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:22
+#: ../../build/doc/overview/eoxserver_overview.rst:23
 msgid ""
 "Earth Observation data currently supported includes 2D raster data "
 "generally acquired using sensors on satellites or aircrafts and including"
@@ -40,7 +40,7 @@ msgid ""
 "environment."
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:27
+#: ../../build/doc/overview/eoxserver_overview.rst:28
 msgid ""
 "EOxServer builds upon an Open Source stack of software which includes "
 "Python, :doc:`MapServer <mapserver_overview>`, Django/GeoDjango, "
@@ -48,144 +48,165 @@ msgid ""
 "<spatialite_overview>` or :doc:`PostGIS <postgis_overview>` database."
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:38
+#: ../../build/doc/overview/eoxserver_overview.rst:39
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:40
+#: ../../build/doc/overview/eoxserver_overview.rst:41
 msgid "View, filter, subset, and download EO data"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:41
+#: ../../build/doc/overview/eoxserver_overview.rst:42
 msgid "Register EO data archives"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:42
+#: ../../build/doc/overview/eoxserver_overview.rst:43
 msgid "Web based and command line administration interface"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:43
+#: ../../build/doc/overview/eoxserver_overview.rst:44
 msgid ""
-"Publish data via :doc:`Open Geospatial Consortium (OGC) standards "
-"<../standards/standards>`:"
+"Publish data via `Open Geospatial Consortium (OGC) standards "
+"<http://www.opengeospatial.org/standards>`__:"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:46
+#: ../../build/doc/overview/eoxserver_overview.rst:47
 msgid ""
-":doc:`Web Coverage Service (WCS) <../standards/wcs_overview>` 1.0, 1.1 "
-"and 2.0 & proposed EO-WCS"
-msgstr ""
-
-#: ../../build/doc/overview/eoxserver_overview.rst:48
-msgid ":doc:`Web Map Service (WMS) <../standards/wms_overview>` & EO-WMS"
+"`Web Coverage Service (WCS) "
+"<http://www.opengeospatial.org/standards/wcs>`__ 1.0, 1.1 and 2.0 & "
+"proposed EO-WCS"
 msgstr ""
 
 #: ../../build/doc/overview/eoxserver_overview.rst:49
+msgid ""
+"`Web Map Service (WMS) <http://www.opengeospatial.org/standards/wms>`__ &"
+" EO-WMS"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:50
 msgid ""
 "Proposed extensions to WCS including: GeoTIFF encoding, predefined "
 "projections (CRSs), scaling, and interpolation."
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:51
+#: ../../build/doc/overview/eoxserver_overview.rst:52
 msgid ""
 "Protocols supported are: KVP and XML/POST (used together with SOAP2POST "
 "Proxy to provide also XML/SOAP)"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:54
+#: ../../build/doc/overview/eoxserver_overview.rst:55
 msgid "Publish using the following formats and groupings:"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:56
+#: ../../build/doc/overview/eoxserver_overview.rst:57
 msgid "2-D EO Coverages derived from gmlcov:RectifiedGridCoverage"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:57
+#: ../../build/doc/overview/eoxserver_overview.rst:58
 msgid "2-D EO Coverages derived from gmlcov:ReferenceableGridCoverage"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:58
+#: ../../build/doc/overview/eoxserver_overview.rst:59
 msgid "Dataset Series as a collection of EO Coverages e.g. in a time series"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:59
+#: ../../build/doc/overview/eoxserver_overview.rst:60
 msgid "Stitched Mosaics of Rectified EO Coverages including contributingFootprint"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:61
+#: ../../build/doc/overview/eoxserver_overview.rst:62
 msgid "Coverage formats supported:"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:63
+#: ../../build/doc/overview/eoxserver_overview.rst:64
 msgid "GeoTIFF"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:64
+#: ../../build/doc/overview/eoxserver_overview.rst:65
 msgid "Formats supported by the GDAL library"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:67
+#: ../../build/doc/overview/eoxserver_overview.rst:68
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:69
+#: ../../build/doc/overview/eoxserver_overview.rst:70
 msgid "WCS, EO-WCS"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:70
+#: ../../build/doc/overview/eoxserver_overview.rst:71
 msgid "WMS, EO-WMS"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:71
+#: ../../build/doc/overview/eoxserver_overview.rst:72
 msgid "WPS"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:72
+#: ../../build/doc/overview/eoxserver_overview.rst:73
 msgid "GML, GMLCOV, EO-O&M"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:73
+#: ../../build/doc/overview/eoxserver_overview.rst:74
 msgid "OpenSearch"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:76
+#: ../../build/doc/overview/eoxserver_overview.rst:77
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:78
+#: ../../build/doc/overview/eoxserver_overview.rst:79
 msgid "**Website:** https://eoxserver.readthedocs.org/"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:80
+#: ../../build/doc/overview/eoxserver_overview.rst:81
 msgid ""
 "**Licence:** `MIT-style license "
 "<https://eoxserver.readthedocs.org/en/latest/copyright.html#license>`_"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:82
+#: ../../build/doc/overview/eoxserver_overview.rst:83
 msgid "**Software Version:** |version-eoxserver|"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:84
+#: ../../build/doc/overview/eoxserver_overview.rst:85
 msgid "**Supported Platforms:** Linux, Windows, Mac"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:86
+#: ../../build/doc/overview/eoxserver_overview.rst:87
 msgid "**API Interfaces:** Python"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:88
+#: ../../build/doc/overview/eoxserver_overview.rst:89
 msgid ""
 "**Support:** "
 "https://eoxserver.readthedocs.org/en/latest/users/basics.html#where-can-i"
 "-get-support"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:91
+#: ../../build/doc/overview/eoxserver_overview.rst:93
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/eoxserver_overview.rst:93
+#: ../../build/doc/overview/eoxserver_overview.rst:95
 msgid ":doc:`Quickstart documentation <../quickstart/eoxserver_quickstart>`"
 msgstr ""
+
+#~ msgid "Web Service"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Publish data via :doc:`Open Geospatial "
+#~ "Consortium (OGC) standards "
+#~ "<../standards/standards>`:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":doc:`Web Coverage Service (WCS) "
+#~ "<../standards/wcs_overview>` 1.0, 1.1 and 2.0"
+#~ " & proposed EO-WCS"
+#~ msgstr ""
+
+#~ msgid ":doc:`Web Map Service (WMS) <../standards/wms_overview>` & EO-WMS"
+#~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-06 21:10-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,111 +16,111 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../build/doc/overview/postgis_overview.rst:40
+#: ../../build/doc/overview/postgis_overview.rst:37
 msgid "PostGIS"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:46
+#: ../../build/doc/overview/postgis_overview.rst:43
 msgid "Spatial Database"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:61
+#: ../../build/doc/overview/postgis_overview.rst:58
 msgid "PostGIS spatially enables the popular PostgreSQL object-relational database, allowing it to be used as a back-end database for geographic information systems (GIS) and web-mapping applications."
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:63
+#: ../../build/doc/overview/postgis_overview.rst:60
 msgid "PostGIS is stable, fast, standards compliant, with hundreds of spatial functions and is currently the most widely used Open Source spatial database. PostGIS is used by diverse organisations from around the world, including risk-averse government agencies and organisations storing terabytes of data serving millions of web requests per day."
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:65
+#: ../../build/doc/overview/postgis_overview.rst:62
 msgid "Database administration is available for desktop and the web via pgAdmin, phpPgAdmin, and others. Data import/export can be done by command line tools (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) or from desktop and web GIS clients. These clients can also map and manipulate PostGIS spatial data tables."
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:83
+#: ../../build/doc/overview/postgis_overview.rst:80
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:85
+#: ../../build/doc/overview/postgis_overview.rst:82
 msgid "Hundreds of spatial functions"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:87
+#: ../../build/doc/overview/postgis_overview.rst:84
 msgid "Buffers, unions, overlays, distance and more"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:89
+#: ../../build/doc/overview/postgis_overview.rst:86
 msgid "ACID transactional integrity"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:90
+#: ../../build/doc/overview/postgis_overview.rst:87
 msgid "R-Tree spatial index"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:91
+#: ../../build/doc/overview/postgis_overview.rst:88
 msgid "Multi-user support"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:92
+#: ../../build/doc/overview/postgis_overview.rst:89
 msgid "Row-level locking"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:93
+#: ../../build/doc/overview/postgis_overview.rst:90
 msgid "Replication"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:94
+#: ../../build/doc/overview/postgis_overview.rst:91
 msgid "Partitioning"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:95
+#: ../../build/doc/overview/postgis_overview.rst:92
 msgid "Role-based security"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:96
+#: ../../build/doc/overview/postgis_overview.rst:93
 msgid "Table-spaces, schemas"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:99
+#: ../../build/doc/overview/postgis_overview.rst:96
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:103
+#: ../../build/doc/overview/postgis_overview.rst:100
 msgid "OGC standards compliant (SFSQL)"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:106
+#: ../../build/doc/overview/postgis_overview.rst:103
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:108
+#: ../../build/doc/overview/postgis_overview.rst:105
 msgid "**Website:** http://postgis.net"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:110
+#: ../../build/doc/overview/postgis_overview.rst:107
 msgid "**Licence:** GNU General Public License (GPL) version 2"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:112
+#: ../../build/doc/overview/postgis_overview.rst:109
 msgid "**Software Version:** |version-postgis|"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:114
+#: ../../build/doc/overview/postgis_overview.rst:111
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:116
+#: ../../build/doc/overview/postgis_overview.rst:113
 msgid "**API Interfaces:** SQL"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:122
+#: ../../build/doc/overview/postgis_overview.rst:119
 msgid "**Support:** http://www.osgeo.org/search_profile"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:126
+#: ../../build/doc/overview/postgis_overview.rst:124
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/postgis_overview.rst:128
+#: ../../build/doc/overview/postgis_overview.rst:126
 msgid ":doc:`Quickstart documentation <../quickstart/postgis_quickstart>`"
 msgstr ""
 
