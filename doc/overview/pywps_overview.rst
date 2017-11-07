@@ -15,7 +15,7 @@ Web Processing Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 PyWPS provides web access to custom geospatial operations (referred
-to as Processes) via the :doc:`Web Processing Service (WPS) <../standards/wps_overview>` standard.
+to as Processes) via the `Web Processing Service (WPS) <http://www.opengeospatial.org/standards/wps>`__ standard.
 
 Processes are written in the Python programming language and can integrate tools such as
 :doc:`GRASS GIS <grass_overview>`, :doc:`R <R_overview>`, :doc:`GDAL/OGR <gdal_overview>`, :doc:`proj.4 <proj4_overview>` and other libraries with

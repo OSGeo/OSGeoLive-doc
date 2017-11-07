@@ -17,7 +17,7 @@
 About
 --------------------------------------------------------------------------------
 
-The 52°North :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>`
+The 52°North `Sensor Observation Service (SOS) <http://www.opengeospatial.org/standards/sos>`__
 supports the interoperable provision of live and archived sensor observation
 data. A sensor could be a water level meter in a stream, a weather station, or
 an air quality monitoring station.
@@ -106,9 +106,9 @@ applicable:
 Applicable Standards
 -------------------------------------------------------------------------------
 
-* :doc:`Sensor Observation Service (SOS) <../standards/sos_overview>`
-* :doc:`Geography Markup Language (GML) <../standards/gml_overview>`
-* :doc:`Sensor Model Language (SensorML) <../standards/sensorml_overview>`
+* `Sensor Observation Service (SOS) <http://www.opengeospatial.org/standards/sos>`__
+* `Geography Markup Language (GML) <http://www.opengeospatial.org/standards/gml>`__
+* `Sensor Model Language (SensorML) <http://www.opengeospatial.org/standards/sensorml>`__
 
 
 Details

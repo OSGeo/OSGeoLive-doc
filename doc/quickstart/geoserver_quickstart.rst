@@ -136,7 +136,7 @@ Styling
 --------------------------------------------------------------------------------
 
 To style a data set into a map layer |GS| uses an OGC standard called
-:doc:`Styled Layer Descriptors (SLD) <../standards/sld_overview>`. These 
+`Styled Layer Descriptors (SLD) <http://www.opengeospatial.org/standards/sld>`__. These 
 are represented as XML files which describe the rules that are used to 
 apply various symbolizers to the data.
 
@@ -270,7 +270,7 @@ Now click :guilabel:`Save` and go to the Layer Preview page to check that it loo
 Clients for WMS layers
 ================================================================================
 
-A large variety of clients exist to make use of the :doc:`WMS <../standards/wms_overview>` layers you are serving
+A large variety of clients exist to make use of the `WMS <http://www.opengeospatial.org/standards/wms>`__ layers you are serving
 from |GS|. This is a list of just some of them 
 
     * :doc:`uDig <../overview/udig_overview>`

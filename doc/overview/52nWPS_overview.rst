@@ -14,7 +14,7 @@
 About
 --------------------------------------------------------------------------------
 
-The 52°North :doc:`Web Processing Service (WPS) <../standards/wps_overview>` enables web access to geospatial
+The 52°North `Web Processing Service (WPS) <http://www.opengeospatial.org/standards/wps>`__ enables web access to geospatial
 processing algorithms provided by Sextante, ArcGIS Server, R, GRASS 7, or custom developed
 functions. Algorithms may be as simple as determining the difference in 
 influenza cases between two different seasons, or as complicated as a global climate change model.

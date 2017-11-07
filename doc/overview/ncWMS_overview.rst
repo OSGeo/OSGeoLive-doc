@@ -48,9 +48,9 @@ Core Features
 Implemented Standards
 ---------------------
 
-* :doc:`../standards/wms_overview` (v1.1.1, v1.3.0)
+* `WMS <http://www.opengeospatial.org/standards/wms>`__ (v1.1.1, v1.3.0)
 
-* :doc:`../standards/kml_overview`
+* `KML <http://www.opengeospatial.org/standards/kml>`__
 
 Details
 -------

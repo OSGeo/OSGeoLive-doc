@@ -32,7 +32,6 @@ set(OSGeoLiveDoc_SUBDIRS
     "presentation"
     "quickstart"
     "overview"
-    "standards"
     )
 
 
