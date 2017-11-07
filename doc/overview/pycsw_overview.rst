@@ -1,8 +1,8 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Tom Kralidis
 :Author: Angelos Tzotsos, OSGeo
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live11.0
+:Version: osgeolive11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_pycsw@

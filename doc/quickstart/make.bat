@@ -74,9 +74,9 @@ if "%1" == "qthelp" (
 	echo.
 	echo.Build finished; now you can run "qcollectiongenerator" with the ^
 .qhcp project file in %BUILDDIR%/qthelp, like this:
-	echo.^> qcollectiongenerator %BUILDDIR%\qthelp\OSGeo-Live.qhcp
+	echo.^> qcollectiongenerator %BUILDDIR%\qthelp\OSGeoLive.qhcp
 	echo.To view the help file:
-	echo.^> assistant -collectionFile %BUILDDIR%\qthelp\OSGeo-Live.ghc
+	echo.^> assistant -collectionFile %BUILDDIR%\qthelp\OSGeoLive.ghc
 	goto end
 )
 

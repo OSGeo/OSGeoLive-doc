@@ -1,6 +1,6 @@
 :Author: Trevor Wekel
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live5.5draft
+:Version: osgeolive5.5draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_mapguide@
@@ -26,7 +26,7 @@ MapGuide can be deployed on Linux or Windows, supports Apache and IIS web server
   :align: right
 
 .. note:: Due to space constraints, MapGuide is currently
-  not installed on OSGeo-Live.
+  not installed on OSGeoLive.
 
 .. commented out as manual install doesn't currently work: To install
   it open up a terminal and run ``cd gisvm/bin; sudo ./install_mapguide.sh``

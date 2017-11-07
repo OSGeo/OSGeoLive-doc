@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
-# This file is distributed under the same license as the OSGeo-Live package.
+# This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-06 21:10-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,147 +16,147 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../build/doc/overview/openlayers_overview.rst:24
+#: ../../build/doc/overview/openlayers_overview.rst:21
 msgid "OpenLayers"
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:27
+#: ../../build/doc/overview/openlayers_overview.rst:24
 msgid "A high-performance, feature-packed library for all your mapping needs"
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:29
+#: ../../build/doc/overview/openlayers_overview.rst:26
 msgid "OpenLayers makes it easy to put a dynamic map in any web page. It can display map tiles, vector data and markers loaded from any source. OpenLayers has been developed to further the use of geographic information of all kinds. It is completely free, Open Source JavaScript, released under the 2-clause BSD License (also known as the FreeBSD)."
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:37
+#: ../../build/doc/overview/openlayers_overview.rst:34
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:39
+#: ../../build/doc/overview/openlayers_overview.rst:36
 msgid "Layers"
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:41
+#: ../../build/doc/overview/openlayers_overview.rst:38
 msgid "Raster: WMS/WMTS, OpenStreetMap, Stamen, Bing, other XYZ sources, static images, etc."
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:42
+#: ../../build/doc/overview/openlayers_overview.rst:39
 msgid "Vector: WFS, KML, GeoJSON, TopoJSON, GPX, GML, and MapBox vector tiles."
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:43
+#: ../../build/doc/overview/openlayers_overview.rst:40
 msgid "Heatmaps."
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:44
+#: ../../build/doc/overview/openlayers_overview.rst:41
 msgid "Render vector layers as raster."
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:46
+#: ../../build/doc/overview/openlayers_overview.rst:43
 msgid "Controls and Interactions"
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:48
+#: ../../build/doc/overview/openlayers_overview.rst:45
 msgid "Overview map, zoom slider, zoom in/out buttons, scale line, rotate map, etc."
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:49
+#: ../../build/doc/overview/openlayers_overview.rst:46
 msgid "Map pan, zoom and rotation, feature selection, modification, etc."
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:51
+#: ../../build/doc/overview/openlayers_overview.rst:48
 msgid "Styling and customization"
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:53
+#: ../../build/doc/overview/openlayers_overview.rst:50
 msgid "Powerful styling of features: points, lines, polygons and icons."
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:54
+#: ../../build/doc/overview/openlayers_overview.rst:51
 msgid "Customize controls look and feel using CSS."
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:56
+#: ../../build/doc/overview/openlayers_overview.rst:53
 msgid "Overlays"
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:58
+#: ../../build/doc/overview/openlayers_overview.rst:55
 msgid "Render any DOM element at any place on the map."
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:59
+#: ../../build/doc/overview/openlayers_overview.rst:56
 msgid "Great flexibility to create tooltips and markers."
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:60
+#: ../../build/doc/overview/openlayers_overview.rst:57
 msgid "Mix the power of HTML5 capabilities with a mapping application."
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:62
+#: ../../build/doc/overview/openlayers_overview.rst:59
 msgid "Events"
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:64
+#: ../../build/doc/overview/openlayers_overview.rst:61
 msgid "Attach listener functions to map events."
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:65
+#: ../../build/doc/overview/openlayers_overview.rst:62
 msgid "Create your custom controls or interactions."
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:67
+#: ../../build/doc/overview/openlayers_overview.rst:64
 msgid "Miscellaneous"
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:69
+#: ../../build/doc/overview/openlayers_overview.rst:66
 msgid "Mobile browser support."
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:70
+#: ../../build/doc/overview/openlayers_overview.rst:67
 msgid "Raster reprojection."
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:71
+#: ../../build/doc/overview/openlayers_overview.rst:68
 msgid "Light-weight library. Build customized packages to reduce size."
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:72
+#: ../../build/doc/overview/openlayers_overview.rst:69
 msgid "Render maps using different technologies: Canvas, WebGL."
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:73
+#: ../../build/doc/overview/openlayers_overview.rst:70
 msgid "Raster analysis (change hue/saturation)."
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:76
+#: ../../build/doc/overview/openlayers_overview.rst:73
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:78
+#: ../../build/doc/overview/openlayers_overview.rst:75
 msgid "**Website:** http://openlayers.org"
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:80
+#: ../../build/doc/overview/openlayers_overview.rst:77
 msgid "**License:** 2-clause BSD License (aka FreeBSD License)"
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:82
+#: ../../build/doc/overview/openlayers_overview.rst:79
 msgid "**Software Version:** |version-openlayers|"
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:84
+#: ../../build/doc/overview/openlayers_overview.rst:81
 msgid "**API Interface:** JavaScript"
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:86
+#: ../../build/doc/overview/openlayers_overview.rst:83
 msgid "**Support:** https://stackoverflow.com/questions/tagged/openlayers (user) and https://groups.google.com/forum/#!forum/openlayers-dev (developer)"
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:90
+#: ../../build/doc/overview/openlayers_overview.rst:88
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:92
+#: ../../build/doc/overview/openlayers_overview.rst:90
 msgid ":doc:`Quickstart documentation <../quickstart/openlayers_quickstart>`"
 msgstr ""
 

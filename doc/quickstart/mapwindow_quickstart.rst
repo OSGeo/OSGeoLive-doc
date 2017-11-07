@@ -1,7 +1,7 @@
 :Author: Richard R. Schneider Dept. Biological Sciences University of Alberta Edmonton, Alberta, Canada 
 :Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
 :Product: MapWindow GIS Lite
-:Version: osgeo-live9.0
+:Version: osgeolive9.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Editor: http://rst.ninjs.org/
 :Copyright: 2011 Richard R. Schneider, 2015 Paul Meems

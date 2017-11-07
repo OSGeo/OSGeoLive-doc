@@ -1,6 +1,6 @@
 :Author: Barbara Angerer
 :Author: Angelos Tzotsos, OSGeo
-:Version: osgeo-live11.0
+:Version: osgeolive11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_geonode@
@@ -135,7 +135,7 @@ The next step for you is to create a map and add the newly created layers to thi
    .. figure:: /images/projects/geonode/geonode_createmap.png
      :scale: 100%
 
-   If a 404 popup message appears, ignore it, this is due to a missing GeoServer plugin that is not installed on OSGeo-Live.
+   If a 404 popup message appears, ignore it, this is due to a missing GeoServer plugin that is not installed on OSGeoLive.
 
    In this interface there is a toolbar, layer list, and map window. The map window contains the OpenStreetMap layer by default.
 

@@ -1,7 +1,7 @@
 :Author: Gérald Fenoy
 :Reviewer: Angelos Tzotsos
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live6.5
+:Version: osgeolive6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_zoo-project@
@@ -25,7 +25,7 @@ This Quick Start describes how to:
 Running
 ================================================================================
 
-*       To run the ZOO Project demo from the OSGeo-Live DVD, click on the "ZOO Project" link you will find it in the menu-items under "Geospatial" > "Web Services".
+*       To run the ZOO Project demo from the OSGeoLive DVD, click on the "ZOO Project" link you will find it in the menu-items under "Geospatial" > "Web Services".
 
 *       Firefox will open the ZOO Project demonstration landing page. From here, you can decide what is the demonstration you want to use.
 

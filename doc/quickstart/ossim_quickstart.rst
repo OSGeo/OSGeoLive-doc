@@ -1,7 +1,7 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Massimo Di Stefano
 :Author: Pirmin Kalberer
-:Version: osgeo-live4.0
+:Version: osgeolive4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_ossim@

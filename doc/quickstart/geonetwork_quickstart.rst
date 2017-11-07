@@ -1,5 +1,5 @@
 :Author: GeoNetwork Community
-:Version: osgeo-live11.0
+:Version: osgeolive11.0
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos, OSGeo
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)

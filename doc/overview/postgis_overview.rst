@@ -8,11 +8,11 @@
 .. Writing Tip:
   Metadata about this document
 
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Barry Rowlingson
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos, OSGeo
-:Version: osgeo-live11.0
+:Version: osgeolive11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_postgis@

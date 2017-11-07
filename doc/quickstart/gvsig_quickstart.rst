@@ -3,7 +3,7 @@
 :Reviewer: Manuel Madrid
 :Reviewer: Mario Carrera
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live7.0
+:Version: osgeolive7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_gvsig@
@@ -37,7 +37,7 @@ This quickstart describes how to...
 
 .. note:: If gvSIG user interface becomes unresponsive, try :kbd:`Alt+f` to open
           the file menu for example. User interface should work again, then. This
-          bug only happens in the gvSIG distro for OSGeo-Live. It doesn't appear
+          bug only happens in the gvSIG distro for OSGeoLive. It doesn't appear
           in a normal gvSIG installation.
 
 .. note:: Note for version gvSIG 2.3.1: To load raster files the user must
@@ -55,7 +55,7 @@ Select gvSIG from the application menu,
 about a minute to startup.
 
 #. By default gvSIG opens with an empty project file with the 'View' document
-   type selected. However, on OSGeo-Live, gvSIG has been configured to
+   type selected. However, on OSGeoLive, gvSIG has been configured to
    start with a default project. Click on the :guilabel:`New Project` button or go to
    :menuselection:`File --> New Project`. When prompted, you can select
    :guilabel:`Discard Changes` as we won't be using the last project.

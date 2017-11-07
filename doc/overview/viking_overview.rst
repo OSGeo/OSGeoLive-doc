@@ -1,6 +1,6 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live6.5
+:Version: osgeolive6.5
 :License: Creative Commons
 
 @LOGO_viking@

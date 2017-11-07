@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
-# This file is distributed under the same license as the OSGeo-Live package.
+# This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-06 21:10-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,12 +16,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../build/doc/overview/deegree_overview.rst:21
+#: ../../build/doc/overview/deegree_overview.rst:20
 msgid "deegree"
 msgstr ""
 
-#: ../../build/doc/overview/deegree_overview.rst:24
-msgid "Web Services"
+#: ../../build/doc/overview/deegree_overview.rst:23
+msgid "About"
 msgstr ""
 
 #: ../../build/doc/overview/deegree_overview.rst:26
@@ -313,11 +313,11 @@ msgstr ""
 msgid "**Support:** http://wiki.deegree.org/deegreeWiki/GettingSupport"
 msgstr ""
 
-#: ../../build/doc/overview/deegree_overview.rst:134
+#: ../../build/doc/overview/deegree_overview.rst:135
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/deegree_overview.rst:136
+#: ../../build/doc/overview/deegree_overview.rst:137
 msgid ":doc:`Quickstart documentation <../quickstart/deegree_quickstart>`"
 msgstr ""
 

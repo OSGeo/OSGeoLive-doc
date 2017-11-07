@@ -1,18 +1,18 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Micha Silver
-:Version: osgeo-live5.5
+:Version: osgeolive5.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
-OSGeo-Live Quickstart for VMWare Player
+OSGeoLive Quickstart for VMWare Player
 ********************************************************************************
-OSGeo-Live can be installed and run as a "guest" virtual machine on a host computer. The host can be either Windows or Linux. The host machine will have software (such as VMWare Player) installed to run the virtual machine. Following are instructions for setting up OSGeo-Live as a Virtual Machine. 
+OSGeoLive can be installed and run as a "guest" virtual machine on a host computer. The host can be either Windows or Linux. The host machine will have software (such as VMWare Player) installed to run the virtual machine. Following are instructions for setting up OSGeoLive as a Virtual Machine. 
 
 
 ================================================================================
-Why run OSGeo-Live in a Virtual Machine?
+Why run OSGeoLive in a Virtual Machine?
 ================================================================================
-Running OSGeo-Live in a VM enhances the LiveDVD experience by allowing the user to save his work, update the Live system and add additional software. In addition, the virtual computer is much more responsive than when running off the original DVD. The OSGeo virtual machine creates a full, natural computer environment. Unlike the LiveDVD, data and files are saved, configurations are persistant, as if you had a second computer inside your main "host" machine. This platform extends OSGeo-Live usability beyond the basics of presentation and training, and into the realm of real world GIS work. 
+Running OSGeoLive in a VM enhances the LiveDVD experience by allowing the user to save his work, update the Live system and add additional software. In addition, the virtual computer is much more responsive than when running off the original DVD. The OSGeo virtual machine creates a full, natural computer environment. Unlike the LiveDVD, data and files are saved, configurations are persistant, as if you had a second computer inside your main "host" machine. This platform extends OSGeoLive usability beyond the basics of presentation and training, and into the realm of real world GIS work. 
 
 
 ================================================================================
@@ -27,20 +27,20 @@ In addition the CPU in your computer should support virtual machines. (Most comp
 
 Software
 ----------------
-Download the VM version of OSGeo-Live. You will need the 7-zip compression program to unzip this file. And of course the VMWare Player software for running the virtual machine. Note that VMWare Player, while offered as a cost-free download, is not open source. You must register on the VMWare website, and agree to their licence in order to use the software.:
+Download the VM version of OSGeoLive. You will need the 7-zip compression program to unzip this file. And of course the VMWare Player software for running the virtual machine. Note that VMWare Player, while offered as a cost-free download, is not open source. You must register on the VMWare website, and agree to their licence in order to use the software.:
 
-`The OSGeo virtual machine  <http://download.osgeo.org/livedvd/release/5.5/osgeo-live-vm-5.5.7z>`_
+`The OSGeo virtual machine  <http://download.osgeo.org/livedvd/release/5.5/osgeolive-vm-5.5.7z>`_
 
 `7 zip download page <http://www.7-zip.org/download.html>`_
 
 `VMWare Player registration: <https://www.vmware.com/tryvmware/?p=player&lp=1>`_
 
 
-Unzip the osgeo-live-vm using the command 
+Unzip the osgeolive-vm using the command 
 
 ::
 
-        7z e osgeo-live-vm-5.5.7z
+        7z e osgeolive-vm-5.5.7z
 
 or using the 7-zip GUI program. Also install the VMWare Player software.
 
@@ -55,7 +55,7 @@ Click on the easyvmx button and enter these configuration options in the form:
         - Virtual Machine Name: osgeolive-5.5 (choose same name as the vmdk file)
         - Select GuestOS: Ubuntu
         - Memory Size: 1024 MB (at least)
-        - Virtual Machine Description: OSGeo-Live 5.5
+        - Virtual Machine Description: OSGeoLive 5.5
         - Network Interface Card: (leave at default)
         - Hardisk Drives: Disk#1 Disk Size 20GB (at least) and check SCSI
         - Sound and IO: uncheck all
@@ -85,14 +85,14 @@ Now fire up VMWare Player and click the **Open a Virtual Machine** button. Brows
 ================================================================================
 Once the VM is running
 ================================================================================
-The first thing you'll want to do is install the VMWare-tools packages. Once these are installed, you can improve the display resolution, and **share folders** between your host computer and the OSGeo-Live VM. Run this command in a command terminal to install the VMWare tools:
+The first thing you'll want to do is install the VMWare-tools packages. Once these are installed, you can improve the display resolution, and **share folders** between your host computer and the OSGeoLive VM. Run this command in a command terminal to install the VMWare tools:
  
 ::
 
         sudo apt-get install open-vm-dkms open-vm-toolbox
 
 
-In the Virtual Machine window, select :menuselection:`Virtual Machine --> Virtual Machine Settings` menu, shift over to the Options tab, and click the Shared Folders setting. Now you can click the "+" button to add a directory from your host computer to be shared inside the virtual OSGeo-Live system. Suppose you want to share the directory `C:\\Users\\your_name\\Downloads`. Click the browse button to find the directory, give it a name such as "Downloads", and click "Save".
+In the Virtual Machine window, select :menuselection:`Virtual Machine --> Virtual Machine Settings` menu, shift over to the Options tab, and click the Shared Folders setting. Now you can click the "+" button to add a directory from your host computer to be shared inside the virtual OSGeoLive system. Suppose you want to share the directory `C:\\Users\\your_name\\Downloads`. Click the browse button to find the directory, give it a name such as "Downloads", and click "Save".
 
 .. image:: /images/projects/virtualization/vmware_shared.png 
         :scale: 80

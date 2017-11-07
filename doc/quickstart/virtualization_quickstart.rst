@@ -1,15 +1,15 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Micha Silver
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Stephen Woodbridge
-:Version: osgeo-live11.0
+:Version: osgeolive11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
-OSGeo-Live Quickstart for Running in a Virtual Machine
+OSGeoLive Quickstart for Running in a Virtual Machine
 ********************************************************************************
 
-This Quick Start describes one way to run OSGeo-Live within a VirtualBox virtual machine. For other methods, follow links from the "See Also" section below.
+This Quick Start describes one way to run OSGeoLive within a VirtualBox virtual machine. For other methods, follow links from the "See Also" section below.
 
 Virtual Machine Advantages
 --------------------------------------------------------------------------------
@@ -53,7 +53,7 @@ Start the VirtualBox application and click on the New button to create a new VM,
   .. image:: /images/projects/virtualization/virtualbox.png
          :scale: 50 %
 
-Enter a name such as OSGeo-Live, and choose Linux as the "Operating system", and Ubuntu as the "Version".
+Enter a name such as OSGeoLive, and choose Linux as the "Operating system", and Ubuntu as the "Version".
 
   .. image:: /images/projects/virtualization/virtualbox_select_name.png
          :scale: 70 %
@@ -63,7 +63,7 @@ In the next screen set the memory to 1024 MB (or more if your host computer has 
   .. image:: /images/projects/virtualization/vmdk_memory.png
      :scale: 65 %
 
-Continue to the next screen and choose "Use existing hard disk" . Now click on the button (a folder icon) to browse to where you saved the OSGeo-Live vmdk-file. Select this file, press Next and Create.
+Continue to the next screen and choose "Use existing hard disk" . Now click on the button (a folder icon) to browse to where you saved the OSGeoLive vmdk-file. Select this file, press Next and Create.
 
   .. image:: /images/projects/virtualization/vmdk_disk.png
      :scale: 65 %

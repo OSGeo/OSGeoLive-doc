@@ -1,7 +1,7 @@
 :Author: Paul Meems, TopX Geo-ICT The Netherlands (RST conversion)
 :Reviewer: Cameron Shorter, Jirotech
 :Product: MapWindow GIS Lite
-:Version: osgeo-live9.5
+:Version: osgeolive9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_mapwindow@
@@ -21,11 +21,11 @@ and MS-Access, as well as programs written in C++, C#, VB.NET and Delphi,
 as MapWindow is based upon an ActiveX control called MapWinGIS.
 MapWindow Open Source GIS Lite, based on MapWinGIS v4.9.5. 
 
-The MapWindow Lite version installed on OSGeo-Live doesn't include all MapWindow Desktop functionality (such as 
+The MapWindow Lite version installed on OSGeoLive doesn't include all MapWindow Desktop functionality (such as 
 toolbox, plug-ins, fully functional shapefile editor, or support for PostGIS). 
 
 .. note:: MapWindow requires installation on a Microsoft Windows system before it can be run. 
-    Installation files are included on the full ISO version of `OSGeo-Live <http://live.osgeo.org>`_ or may be 
+    Installation files are included on the full ISO version of `OSGeoLive <http://live.osgeo.org>`_ or may be 
     downloaded from https://mapwindow4.codeplex.com/releases/view/542097.
    
 .. image:: /images/projects/mapwindow/mapwindow_screenshot.png

@@ -1,15 +1,15 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Cameron Shorter
-:Version: osgeo-live4.0
+:Version: osgeolive4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
-OSGeo-Live Quickstart for Virtual Box
+OSGeoLive Quickstart for Virtual Box
 ********************************************************************************
 
-Here we describe a method for running an OSGeo-Live DVD or ISO in the `VirtualBox <http://www.virtualbox.org/>`_ Virtual Machine.
+Here we describe a method for running an OSGeoLive DVD or ISO in the `VirtualBox <http://www.virtualbox.org/>`_ Virtual Machine.
 
-VirtualBox is an Open Source Virtual Machine which is used by many of the OSGeo-Live developers and testers.
+VirtualBox is an Open Source Virtual Machine which is used by many of the OSGeoLive developers and testers.
 
 System Requirements
 --------------------------------------------------------------------------------
@@ -17,7 +17,7 @@ System Requirements
 * RAM: 1 GB, preferably 2 GB if you plan to run other applications as well
 * Spare Hard Disk Space:
 
- * |osgeo-live-hdspace| if running from ISO
+ * |osgeolive-hdspace| if running from ISO
  * 17 GB if installing locally from an ISO
 
 Create a Virtual Machine
@@ -72,9 +72,9 @@ Select :guilabel:`Finish`
   .. image:: /images/projects/virtualization/virtualbox_select_settings.png
     :scale: 70 %
 
-The image is now created, but we now need to simulate having an OSGeo-Live DVD in the CD drive.
+The image is now created, but we now need to simulate having an OSGeoLive DVD in the CD drive.
 
-Right click on the "osgeo-live" image, and select :guilabel:`Settings`.
+Right click on the "osgeolive" image, and select :guilabel:`Settings`.
 
   .. image:: /images/projects/virtualization/virtualbox_set_cd.png
     :scale: 70 %
@@ -84,7 +84,7 @@ Select "Storage", CD/DVD Device, ...
   .. image:: /images/projects/virtualization/virtualbox_add_dvd.png
     :scale: 70 %
 
-Select the OSGeo-Live image.
+Select the OSGeoLive image.
 
   .. image:: /images/projects/virtualization/virtualbox_start_vm.png
     :scale: 70 %
@@ -93,7 +93,7 @@ Now you can start the virtual machine as per the :doc:`osgeolive_quickstart`
 
 Create permanent Virtual Machine
 --------------------------------------------------------------------------------
-If you plan to use the OSGeo-Live DVD a lot, you will likey want to create a permanent virtual machine, as per: :doc:`osgeolive_install_quickstart`.
+If you plan to use the OSGeoLive DVD a lot, you will likey want to create a permanent virtual machine, as per: :doc:`osgeolive_install_quickstart`.
 
 Increase Display Size
 --------------------------------------------------------------------------------

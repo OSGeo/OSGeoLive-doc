@@ -1,7 +1,7 @@
 :Author: Johannes Wilden
 :Author: Danilo Bretschneider
 :Author: Torsten Friebe
-:Version: osgeo-live11.0
+:Version: osgeolive11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_deegree@
@@ -83,7 +83,7 @@ which can be imported if you have a internet connection.
 Please start the *deegree-inspire-workspace* now.
 
 
-deegree 3 workspaces on OSGeo-Live GIS Disc
+deegree 3 workspaces on OSGeoLive GIS Disc
 ================================================================================
 
   * *deegree-workspace-inspire*

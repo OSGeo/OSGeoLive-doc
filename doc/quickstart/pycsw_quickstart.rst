@@ -1,7 +1,7 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Tom Kralidis
 :Author: Angelos Tzotsos, OSGeo
-:Version: osgeo-live11.0
+:Version: osgeolive11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_pycsw@
@@ -86,7 +86,7 @@ pycsw supports the following databases:
 - PostgreSQL (PostGIS optional)
 - MySQL
 
-In OSGeo-Live, a simple SQLite setup has been implemented. The database can be found in ``/usr/share/pycsw/tests/suites/cite/data/records.db``
+In OSGeoLive, a simple SQLite setup has been implemented. The database can be found in ``/usr/share/pycsw/tests/suites/cite/data/records.db``
 
 Create new database
 -------------------
@@ -163,7 +163,7 @@ Things to try
 
 #. Try to discover data through the Python `OWSLib CSW`_ interface.
 
-#. Try to discover data from GeoNode, which is also included in OSGeo-Live and uses pycsw as the default CSW engine.
+#. Try to discover data from GeoNode, which is also included in OSGeoLive and uses pycsw as the default CSW engine.
 
 What Next?
 ==========

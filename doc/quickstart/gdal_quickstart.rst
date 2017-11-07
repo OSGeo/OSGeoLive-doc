@@ -1,6 +1,6 @@
 :Author: Astrid Emde, material from Frank Warmedam's RasterTutorial
 :Reviewer: Angelos Tzotsos, OSGeo
-:Version: osgeo-live11.0
+:Version: osgeolive11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_gdal@
@@ -12,7 +12,7 @@
 
 You will need nothing but a terminal for this quickstart. If you want to
 visualize the results, you can use one of the Desktop GIS Software
-applications on OSGeo-Live like :doc:`../overview/qgis_overview`. 
+applications on OSGeoLive like :doc:`../overview/qgis_overview`. 
 
 This Quick Start is divided into two parts: GDAL (raster data) and OGR
 (vector data). We will start with GDAL.

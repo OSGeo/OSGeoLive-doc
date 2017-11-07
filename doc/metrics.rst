@@ -1,4 +1,4 @@
-|osgeo-live-version| Project Metrics
+|osgeolive-version| Project Metrics
 ================================================================================
 
 Metrics provided by `OpenHUB <https://www.openhub.net/>`_ which are derived
@@ -11,7 +11,7 @@ Viewing the metrics requires an Internet connection and Javascript to be enabled
 
 .. raw:: html
 
-  <script type="text/javascript" src="https://www.openhub.net/p/OSGeo-Live/widgets/project_factoids_stats?format=js"></script><br/>
+  <script type="text/javascript" src="https://www.openhub.net/p/OSGeoLive/widgets/project_factoids_stats?format=js"></script><br/>
 
 Desktop GIS
 --------------------------------------------------------------------------------

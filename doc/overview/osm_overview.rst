@@ -1,7 +1,7 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos, OSGeo
-:Version: osgeo-live11.0
+:Version: osgeolive11.0
 :License: Creative Commons
 
 @LOGO_osm@

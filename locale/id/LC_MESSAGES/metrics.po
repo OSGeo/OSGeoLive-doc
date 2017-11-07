@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
-# This file is distributed under the same license as the OSGeo-Live package.
+# This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-06 21:10-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Generated-By: Babel 2.5.0\n"
 
 #: ../../build/doc/metrics.rst:6
-msgid "|osgeo-live-version| Project Metrics"
+msgid "|osgeolive-version| Project Metrics"
 msgstr ""
 
 #: ../../build/doc/metrics.rst:8
@@ -49,15 +49,27 @@ msgstr ""
 msgid "Web Services"
 msgstr ""
 
-#: ../../build/doc/metrics.rst:69
+#: ../../build/doc/metrics.rst:70
 msgid "Data Stores"
 msgstr ""
 
-#: ../../build/doc/metrics.rst:80
+#: ../../build/doc/metrics.rst:81
 msgid "Navigation and Maps"
 msgstr ""
 
-#: ../../build/doc/metrics.rst:92
+#: ../../build/doc/metrics.rst:94
 msgid "Spatial Tools"
+msgstr ""
+
+#: ../../build/doc/metrics.rst:107
+msgid "Domain Specific GIS"
+msgstr ""
+
+#: ../../build/doc/metrics.rst:115
+msgid "Data"
+msgstr ""
+
+#: ../../build/doc/metrics.rst:126
+msgid "Geospatial Libraries"
 msgstr ""
 

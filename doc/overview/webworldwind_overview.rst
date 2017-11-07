@@ -1,6 +1,6 @@
 :Author: Gabriele Prestifilippo
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live9.5
+:Version: osgeolive9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_webworldwind@

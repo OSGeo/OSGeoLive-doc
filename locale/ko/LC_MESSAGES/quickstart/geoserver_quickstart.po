@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
-# This file is distributed under the same license as the OSGeo-Live package.
+# This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-06 21:10-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -128,14 +128,14 @@ msgstr ""
 msgid ""
 "You will not be able to carry out the following steps if you are running "
 "with a **read only** file system (such as the DVD). You will either need "
-"to run in a Virtual Machine, or from a USB, or install OSGeo-Live (or "
-"just GeoServer) onto your hard drive."
+"to run in a Virtual Machine, or from a USB, or install OSGeoLive (or just"
+" GeoServer) onto your hard drive."
 msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:87
 msgid ""
 "In this example we are going to use the :doc:`Natural Earth data set "
-"<../overview/naturalearth_overview>` that is included on OSGeo-Live "
+"<../overview/naturalearth_overview>` that is included on OSGeoLive "
 "(:file:`/usr/local/share/data/natural_earth2/`)."
 msgstr ""
 
@@ -204,9 +204,10 @@ msgstr ""
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:144
 msgid ""
 "To style a data set into a map layer |GS| uses an OGC standard called "
-":doc:`Styled Layer Descriptors (SLD) <../standards/sld_overview>`. These "
-"are represented as XML files which describe the rules that are used to "
-"apply various symbolizers to the data."
+"`Styled Layer Descriptors (SLD) "
+"<http://www.opengeospatial.org/standards/sld>`__. These are represented "
+"as XML files which describe the rules that are used to apply various "
+"symbolizers to the data."
 msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:149
@@ -314,9 +315,9 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:279
 msgid ""
-"A large variety of clients exist to make use of the :doc:`WMS "
-"<../standards/wms_overview>` layers you are serving from |GS|. This is a "
-"list of just some of them"
+"A large variety of clients exist to make use of the `WMS "
+"<http://www.opengeospatial.org/standards/wms>`__ layers you are serving "
+"from |GS|. This is a list of just some of them"
 msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:282
@@ -419,4 +420,23 @@ msgstr ""
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:340
 msgid "http://docs.geoserver.org/latest/en/user/styling/workshop/index.html"
 msgstr ""
+
+#~ msgid ""
+#~ "To style a data set into a "
+#~ "map layer |GS| uses an OGC "
+#~ "standard called :doc:`Styled Layer Descriptors"
+#~ " (SLD) <../standards/sld_overview>`. These are"
+#~ " represented as XML files which "
+#~ "describe the rules that are used "
+#~ "to apply various symbolizers to the "
+#~ "data."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A large variety of clients exist "
+#~ "to make use of the :doc:`WMS "
+#~ "<../standards/wms_overview>` layers you are "
+#~ "serving from |GS|. This is a list"
+#~ " of just some of them"
+#~ msgstr ""
 

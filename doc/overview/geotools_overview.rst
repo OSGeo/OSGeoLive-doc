@@ -1,6 +1,6 @@
 :Author: Jody Garnett
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live5.5
+:Version: osgeolive5.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_geotools@
@@ -17,7 +17,7 @@ GeoTools is an open source (LGPL) Java library which provides standards complian
   :alt: GeoTools is a modular library supported by plugins for additional formats
   :align: right
 
-GeoTools is used by a number of projects including web services, command line tools and desktop applications. OSGeo-Live applications which include GeoTools include:
+GeoTools is used by a number of projects including web services, command line tools and desktop applications. OSGeoLive applications which include GeoTools include:
 :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, AtlasStyler, :doc:`geomajas_overview`, Geopublisher, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
 Core Features

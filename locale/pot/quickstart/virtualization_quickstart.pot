@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
-# This file is distributed under the same license as the OSGeo-Live package.
+# This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-27 11:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:10
-msgid "OSGeo-Live Quickstart for Running in a Virtual Machine"
+msgid "OSGeoLive Quickstart for Running in a Virtual Machine"
 msgstr ""
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:12
-msgid "This Quick Start describes one way to run OSGeo-Live within a VirtualBox virtual machine. For other methods, follow links from the \"See Also\" section below."
+msgid "This Quick Start describes one way to run OSGeoLive within a VirtualBox virtual machine. For other methods, follow links from the \"See Also\" section below."
 msgstr ""
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:15
@@ -101,7 +101,7 @@ msgid "Start the VirtualBox application and click on the New button to create a 
 msgstr ""
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:56
-msgid "Enter a name such as OSGeo-Live, and choose Linux as the \"Operating system\", and Ubuntu as the \"Version\"."
+msgid "Enter a name such as OSGeoLive, and choose Linux as the \"Operating system\", and Ubuntu as the \"Version\"."
 msgstr ""
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:61
@@ -109,7 +109,7 @@ msgid "In the next screen set the memory to 1024 MB (or more if your host comput
 msgstr ""
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:66
-msgid "Continue to the next screen and choose \"Use existing hard disk\" . Now click on the button (a folder icon) to browse to where you saved the OSGeo-Live vmdk-file. Select this file, press Next and Create."
+msgid "Continue to the next screen and choose \"Use existing hard disk\" . Now click on the button (a folder icon) to browse to where you saved the OSGeoLive vmdk-file. Select this file, press Next and Create."
 msgstr ""
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:71

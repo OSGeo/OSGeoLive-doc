@@ -1,24 +1,24 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Cameron Shorter
-:Version: osgeo-live4.0
+:Version: osgeolive4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
-Install OSGeo-Live to Hard Disk
+Install OSGeoLive to Hard Disk
 ********************************************************************************
 
-OSGeo-Live can be installed onto your hard disk, the same way an Ubuntu
+OSGeoLive can be installed onto your hard disk, the same way an Ubuntu
 distribution is installed.
 
 This process can also be run inside a Virtual Machine to create a permanent
-OSGeo-Live Virtual Machine from a DVD or ISO image.
+OSGeoLive Virtual Machine from a DVD or ISO image.
 
 System Requirements
 --------------------------------------------------------------------------------
 
-* |osgeo-live-hdspace| of spare Hard Disk Space
+* |osgeolive-hdspace| of spare Hard Disk Space
 
-Install OSGeo-Live
+Install OSGeoLive
 --------------------------------------------------------------------------------
 
   .. image:: /images/projects/osgeolive/osgeolive_install_start.png

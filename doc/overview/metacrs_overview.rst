@@ -1,7 +1,7 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Mike Adair
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live7.9
+:Version: osgeolive7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_metacrs@

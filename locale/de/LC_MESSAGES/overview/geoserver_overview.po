@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
-# This file is distributed under the same license as the OSGeo-Live package.
+# This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-06 21:10-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.0\n"
 
-#: ../../build/doc/overview/geoserver_overview.rst:20
+#: ../../build/doc/overview/geoserver_overview.rst:19
 msgid "GeoServer"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:23
+#: ../../build/doc/overview/geoserver_overview.rst:22
 msgid "Web Service"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:25
+#: ../../build/doc/overview/geoserver_overview.rst:24
 msgid ""
 "GeoServer is a web server that allows you to serve maps and data from a "
 "variety of formats to standard clients such as web browsers and desktop "
@@ -35,41 +35,41 @@ msgid ""
 "at the back end."
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:37
+#: ../../build/doc/overview/geoserver_overview.rst:36
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:44
+#: ../../build/doc/overview/geoserver_overview.rst:43
 msgid "**Serve data from a variety of data stores:**"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:41
+#: ../../build/doc/overview/geoserver_overview.rst:40
 msgid "Vector"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:41
+#: ../../build/doc/overview/geoserver_overview.rst:40
 msgid "Shapefiles, External WFS"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:42
+#: ../../build/doc/overview/geoserver_overview.rst:41
 msgid "PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:44
+#: ../../build/doc/overview/geoserver_overview.rst:43
 msgid "Raster"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:44
+#: ../../build/doc/overview/geoserver_overview.rst:43
 msgid ""
 "GeoTiff, JPG and PNG (with world file), image pyramid, GDAL formats, "
 "Image Mosaic, Oracle GeoRaster, NetCDF"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:48
+#: ../../build/doc/overview/geoserver_overview.rst:47
 msgid "**Data is served as safe and quick images using WMS and WMTS protocols:**"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:47
+#: ../../build/doc/overview/geoserver_overview.rst:46
 msgid ""
 "As the data is served up as an image your data is completely safe and "
 "secure. Unless they redigitise your data there is no way to steal your "
@@ -80,11 +80,11 @@ msgid ""
 "management, grouping and priorities are also implemented."
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:52
+#: ../../build/doc/overview/geoserver_overview.rst:51
 msgid "**Full vector data can be sent to a client using the WFS protocol:**"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:51
+#: ../../build/doc/overview/geoserver_overview.rst:50
 msgid ""
 "A WFS client can download vector data and use it for mapping, spatial "
 "analysis and other operations. Also if authorised the user can modify the"
@@ -93,33 +93,33 @@ msgid ""
 "well as other standard data formats like shapefile and json."
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:55
+#: ../../build/doc/overview/geoserver_overview.rst:54
 msgid "**Raster data values can be sent to a client using the WCS protocol:**"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:55
+#: ../../build/doc/overview/geoserver_overview.rst:54
 msgid ""
 "A GIS client can request the actual raster data for use in spatial "
 "analysis. This allows a user to create applications which can model the "
 "process described by your data."
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:58
+#: ../../build/doc/overview/geoserver_overview.rst:57
 msgid "**On the fly reprojection:**"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:58
+#: ../../build/doc/overview/geoserver_overview.rst:57
 msgid ""
 "GeoServer supports the majority of the EPSG database of projections and "
 "can reproject to any of them on demand to allow clients with limited "
 "reprojection support to pass the load to the server."
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:61
+#: ../../build/doc/overview/geoserver_overview.rst:60
 msgid "**Tiling Cache**"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:61
+#: ../../build/doc/overview/geoserver_overview.rst:60
 msgid ""
 "`GeoWebCache <http://geowebcache.org/>`_, which is integrated into "
 "GeoServer, tiles and caches map images from a variety of sources such as "
@@ -129,61 +129,57 @@ msgid ""
 "clients."
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:64
+#: ../../build/doc/overview/geoserver_overview.rst:63
 msgid "**Web Processing Service (WPS)**"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:64
+#: ../../build/doc/overview/geoserver_overview.rst:63
 msgid ""
 "Geospatial algorithms, including those from :doc:`JTS <jts_overview>`, "
-"can be called through GeoServer's :doc:`WPS <../standards/wps_overview>` "
-"interface. This includes the chaining of processes, and using rendering "
-"transformations to create powerful visualisations through the WMS "
-"interface."
+"can be called through GeoServer's `WPS "
+"<http://www.opengeospatial.org/standards/wps>`__ interface. This includes"
+" the chaining of processes, and using rendering transformations to create"
+" powerful visualisations through the WMS interface."
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:67
+#: ../../build/doc/overview/geoserver_overview.rst:66
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:69
+#: ../../build/doc/overview/geoserver_overview.rst:68
 msgid "Support of numerous Open Geospatial Consortium  (OGC) standards:"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:71
-msgid ":doc:`../standards/wms_overview`"
-msgstr ""
-
 #: ../../build/doc/overview/geoserver_overview.rst:72
-msgid "Web Map Tile Service (WMTS)"
+msgid "`WMS <http://www.opengeospatial.org/standards/wms>`__ (client/server)"
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:73
-msgid ":doc:`../standards/wfs_overview`, WFS-T (transactional)"
+msgid "Web Map Tile Service (WMTS)"
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:74
-msgid ":doc:`../standards/wcs_overview`"
+msgid "`WFS-T <http://www.opengeospatial.org/standards/wfs>`__ (transactional)"
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:75
-msgid ":doc:`../standards/wps_overview`"
+msgid "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:76
-msgid ":doc:`../standards/fe_overview`"
+msgid "`FE <http://www.opengeospatial.org/standards/fe>`__"
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:77
-msgid ":doc:`../standards/sld_overview`"
+msgid "`SLD <http://www.opengeospatial.org/standards/sld>`__"
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:78
-msgid ":doc:`../standards/gml_overview`"
+msgid "`GML <http://www.opengeospatial.org/standards/gml>`__"
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:79
-msgid ":doc:`../standards/kml_overview`"
+msgid "`KML <http://www.opengeospatial.org/standards/kml>`__"
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:82
@@ -216,11 +212,46 @@ msgstr ""
 msgid "**Support:** http://geoserver.org/support/"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:97
+#: ../../build/doc/overview/geoserver_overview.rst:98
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:99
+#: ../../build/doc/overview/geoserver_overview.rst:100
 msgid ":doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`"
 msgstr ""
+
+#~ msgid ""
+#~ "Geospatial algorithms, including those from"
+#~ " :doc:`JTS <jts_overview>`, can be called"
+#~ " through GeoServer's :doc:`WPS "
+#~ "<../standards/wps_overview>` interface. This "
+#~ "includes the chaining of processes, and"
+#~ " using rendering transformations to create"
+#~ " powerful visualisations through the WMS"
+#~ " interface."
+#~ msgstr ""
+
+#~ msgid ":doc:`../standards/wms_overview`"
+#~ msgstr ""
+
+#~ msgid ":doc:`../standards/wfs_overview`, WFS-T (transactional)"
+#~ msgstr ""
+
+#~ msgid ":doc:`../standards/wcs_overview`"
+#~ msgstr ""
+
+#~ msgid ":doc:`../standards/wps_overview`"
+#~ msgstr ""
+
+#~ msgid ":doc:`../standards/fe_overview`"
+#~ msgstr ""
+
+#~ msgid ":doc:`../standards/sld_overview`"
+#~ msgstr ""
+
+#~ msgid ":doc:`../standards/gml_overview`"
+#~ msgstr ""
+
+#~ msgid ":doc:`../standards/kml_overview`"
+#~ msgstr ""
 

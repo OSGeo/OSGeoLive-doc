@@ -1,7 +1,7 @@
 :Author: Jan Drewnak (j.drewnak@52north.org)
 :Reviewer: Sergio Baños Calvo
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeo-live6.5
+:Version: osgeolive6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_52nWSS@
@@ -28,7 +28,7 @@ This Quick Start describes how to:
 Getting Started
 ================================================================================
 
-For this OSGeo-Live distribution, the 52°North WSS is already set up to protect an instance of each supported OGC service: WMS, WFS, WPS, and SOS.
+For this OSGeoLive distribution, the 52°North WSS is already set up to protect an instance of each supported OGC service: WMS, WFS, WPS, and SOS.
 
 To get a list of protected services follow these steps:
 
@@ -74,7 +74,7 @@ In this section we're going to protect a local WMS instance.
 Create a new enforcement point
 --------------------------------------------------------------------------------
 
-#. Start the :doc:`GeoServer <../overview/geoserver_overview>` WMS included in the OSGeo-Live DVD by selecting |osgeolive-appmenupath-geoserver|. GeoServer takes up to a minute to start, and will open a browser window once finished.
+#. Start the :doc:`GeoServer <../overview/geoserver_overview>` WMS included in the OSGeoLive DVD by selecting |osgeolive-appmenupath-geoserver|. GeoServer takes up to a minute to start, and will open a browser window once finished.
 
 #. Press the `Create` link (**1**) in the manager main window
 

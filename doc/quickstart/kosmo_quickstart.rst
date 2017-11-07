@@ -1,5 +1,5 @@
 :Author: Sergio Baños Calvo
-:Version: osgeo-live7.0
+:Version: osgeolive7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_kosmo@
@@ -90,7 +90,7 @@ Loading layers
 Files
 --------------------------------------------------------------------------------
 
-To start out, we're going to load some of the sample data included on the OSGeo-Live DVD:
+To start out, we're going to load some of the sample data included on the OSGeoLive DVD:
 
 #. Choose the option :menuselection:`View > Load Dataset...` or push the button with the green plus from the main toolbar
 
@@ -124,7 +124,7 @@ To start out, we're going to load some of the sample data included on the OSGeo-
     :scale: 70 %   
 
 .. note::
-  The OSGeo-Live DVD contains some file data examples in the following directories:
+  The OSGeoLive DVD contains some file data examples in the following directories:
   
   * :file:`/home/user/data` (shapefiles and raster files)
   * :file:`/usr/local/share/OpenJUMP/sample_data` (shapefiles)
@@ -174,7 +174,7 @@ We're going to load a database table as an example:
 OGC services
 --------------------------------------------------------------------------------
 
-#. Start the :doc:`GeoServer <../overview/geoserver_overview>` WMS included in the OSGeo-Live DVD by selecting the option |osgeolive-appmenupath-geoserver| (or from the desktop, go into *Web Services* folder and double-click the Start GeoServer icon)
+#. Start the :doc:`GeoServer <../overview/geoserver_overview>` WMS included in the OSGeoLive DVD by selecting the option |osgeolive-appmenupath-geoserver| (or from the desktop, go into *Web Services* folder and double-click the Start GeoServer icon)
 
 #. Press the :guilabel:`Load SDI Service (IDE)` button at the main toolbar to open the wizard
 

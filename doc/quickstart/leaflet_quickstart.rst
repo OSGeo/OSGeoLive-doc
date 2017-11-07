@@ -1,6 +1,6 @@
 :Author: Vladimir Agafonkin, adopted for live dvd by Johan Van de Wauw
 :Reviewer: Angelos Tzotsos, OSGeo
-:Version: osgeo-live11.0
+:Version: osgeolive11.0
 
 @LOGO_leaflet@
 @OSGEO_KIND_leaflet@

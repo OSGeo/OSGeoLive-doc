@@ -2,7 +2,7 @@
 :Author: Frank Gasdorf
 :Reviewer: Angelos Tzotsos
 :Reviewer: Cameron Shorter
-:Version: osgeo-live11.0
+:Version: osgeolive11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: geoserver-user list
 
@@ -76,10 +76,10 @@ Loading Data
     You will not be able to carry out the following steps if you are
     running with a **read only** file system (such as the DVD). You
     will either need to run in a Virtual Machine, or from a USB, or install
-    OSGeo-Live (or just GeoServer) onto your hard drive.
+    OSGeoLive (or just GeoServer) onto your hard drive.
 
 In this example we are going to use the :doc:`Natural Earth data set <../overview/naturalearth_overview>`
-that is included on OSGeo-Live (:file:`/usr/local/share/data/natural_earth2/`).
+that is included on OSGeoLive (:file:`/usr/local/share/data/natural_earth2/`).
 
 We need to create a Store for our data. From the |GS| admin page go
 to :guilabel:`Stores` and then click on :guilabel:`Add new Store`. You

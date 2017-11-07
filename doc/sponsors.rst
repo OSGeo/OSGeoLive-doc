@@ -1,4 +1,4 @@
-OSGeo-Live Sponsors
+OSGeoLive Sponsors
 ================================================================================
 
 .. image:: /images/logos/OSGeo_compass_with_text_square.png
@@ -14,7 +14,7 @@ and for many of the software teams which contribute to it.
   :target: http://jirotech.com
 
 Jirotech provides sustaining resources and staff toward the management
-and development of the OSGeo-Live project.
+and development of the OSGeoLive project.
 
 .. image:: /images/logos/ucd_ice_logo.png
   :alt: Information Center for the Environment at the University of California, Davis
@@ -22,7 +22,7 @@ and development of the OSGeo-Live project.
 
 Information Center for the Environment at the University of California,
 Davis provides hardware resources and development support to the
-OSGeo-Live project.
+OSGeoLive project.
 
 .. image:: /images/logos/ntua_logo.jpg
   :scale: 40 %
@@ -30,7 +30,7 @@ OSGeo-Live project.
   :target: http://www.ntua.gr/index_en.html
 
 Remote Sensing Laboratory at the National Technical University of Athens,
-provides hardware resources and development support to the OSGeo-Live project.
+provides hardware resources and development support to the OSGeoLive project.
 
 .. image:: /images/logos/debiangis_mollweide.png
   :scale: 60 %

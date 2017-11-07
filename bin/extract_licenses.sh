@@ -1,7 +1,7 @@
 #!/bin/sh
 #################################################
 # 
-# Purpose: Create a CSV table of licenses for OSGeo-Live documentation
+# Purpose: Create a CSV table of licenses for OSGeoLive documentation
 # Author:  Cameron Shorter
 #
 #################################################

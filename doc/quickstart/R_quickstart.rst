@@ -1,5 +1,5 @@
 :Author: Barry Rowlingson
-:Version: osgeo-live5.0
+:Version: osgeolive5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_R@

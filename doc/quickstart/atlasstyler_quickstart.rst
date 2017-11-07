@@ -1,5 +1,5 @@
 :Author: Stefan Tzeggai
-:Version: osgeo-live4.0
+:Version: osgeolive4.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_atlasstyler@
@@ -31,7 +31,7 @@ Getting Started
 
 AtlasStyler is an end-user based application, that allows you to create .SLD files for your vectordata. 
 
-1) The OSGeo-Live DVD uses the Lubuntu Operating system which has a temporary small problem with Java-based applications: As a solution please right-click on menu-bar (Where 'Applications' and 'Places' is listed) and select 'Customize Panel'. There check the 'Autohide' option. The menubar is now hidden unless your mouse reaches the top of the screen. 
+1) The OSGeoLive DVD uses the Lubuntu Operating system which has a temporary small problem with Java-based applications: As a solution please right-click on menu-bar (Where 'Applications' and 'Places' is listed) and select 'Customize Panel'. There check the 'Autohide' option. The menubar is now hidden unless your mouse reaches the top of the screen. 
 
 #) Go to :menuselection:`Geospatial --> Desktop GIS --> AtlasStyler` to start the application.
  

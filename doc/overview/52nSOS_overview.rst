@@ -4,7 +4,7 @@
 :Author: Simon Jirka (s.jirka@52north.org)
 :Author: Ann Hitchcock (a.hitchcock@52north.org)
 :Reviewer:
-:Version: osgeo-live11.0
+:Version: osgeolive11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_52nSOS@
@@ -48,7 +48,7 @@ Features
   <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_ .
 * **Air Quality Data e-Reporting Extension**: Starting with version 4.3.0, an
   extension is available that provides for the Air Quality Data Flows E1a,
-  E1b and E2a compliant data (the instance on OSGeo-Live is not configured
+  E1b and E2a compliant data (the instance on OSGeoLive is not configured
   accordingly). The `installation and configuration
   <https://wiki.52north.org/bin/view/SensorWeb/AqdEReporting#Installation>`_
   is documented in the 52°North Wiki.

@@ -1,6 +1,6 @@
 :Author: Massimo Di Stefano
 :Contact: epiesasha at me dot com
-:Version: osgeo-live9.5
+:Version: osgeolive9.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Reviewer: Cameron Shorter, Jirotech
 

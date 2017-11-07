@@ -1,6 +1,6 @@
 OSGeo live documentation
 ========================
-OSGeo-Live_ is a self-contained bootable DVD, USB thumb drive or Virtual
+OSGeoLive_ is a self-contained bootable DVD, USB thumb drive or Virtual
 Machine based on Lubuntu, that allows you to try a wide variety of open source
 geospatial software without installing anything. It is composed entirely of
 free software, allowing it to be freely distributed, duplicated and passed
@@ -46,4 +46,4 @@ References:
 
 * http://matplotlib.sourceforge.net/sampledoc/
 
-.. _OSGeo-Live: https://live.osgeo.org
+.. _OSGeoLive: https://live.osgeo.org

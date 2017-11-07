@@ -6,18 +6,18 @@
 Download
 ================================================================================
 
-The latest stable release is |osgeo-live-version| and can be downloaded from:
+The latest stable release is |osgeolive-version| and can be downloaded from:
 https://sourceforge.net/projects/osgeo-live/files/11.0/
 
 Picking the right image for you:
 
-**osgeo-live iso**: |osgeolive-iso-size|
+**osgeolive iso**: |osgeolive-iso-size|
 
 A Lubuntu based bootable image, which can be copied to an 8 Gig USB thumb drive (faster and recommended) or DVD (cheaper). It can also be used to build a virtual machine from scratch.
 
-**osgeo-live-vm**: |osgeolive-vm-7z-size|
+**osgeolive-vm**: |osgeolive-vm-7z-size|
 
-This is a pre-made virtual machine (.vmdk), based on osgeo-live, suitable for use in VirtualBox, VMWare, KVM and other virtual machine applications. It has been compressed using `7-Zip <http://www.7-zip.org/>`_.
+This is a pre-made virtual machine (.vmdk), based on osgeolive, suitable for use in VirtualBox, VMWare, KVM and other virtual machine applications. It has been compressed using `7-Zip <http://www.7-zip.org/>`_.
 
 **amd64 or i386 architecture**
 

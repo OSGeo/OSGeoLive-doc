@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
-# This file is distributed under the same license as the OSGeo-Live package.
+# This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-06 21:10-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../build/doc/sponsors.rst:2
-msgid "OSGeo-Live Sponsors"
+msgid "OSGeoLive Sponsors"
 msgstr ""
 
 #: ../../build/doc/sponsors.rst:8
@@ -25,15 +25,15 @@ msgid "The Open Source Geospatial Foundation (OSGeo) provides the primary develo
 msgstr ""
 
 #: ../../build/doc/sponsors.rst:16
-msgid "Jirotech provides sustaining resources and staff toward the management and development of the OSGeo-Live project."
+msgid "Jirotech provides sustaining resources and staff toward the management and development of the OSGeoLive project."
 msgstr ""
 
 #: ../../build/doc/sponsors.rst:23
-msgid "Information Center for the Environment at the University of California, Davis provides hardware resources and development support to the OSGeo-Live project."
+msgid "Information Center for the Environment at the University of California, Davis provides hardware resources and development support to the OSGeoLive project."
 msgstr ""
 
 #: ../../build/doc/sponsors.rst:32
-msgid "Remote Sensing Laboratory at the National Technical University of Athens, provides hardware resources and development support to the OSGeo-Live project."
+msgid "Remote Sensing Laboratory at the National Technical University of Athens, provides hardware resources and development support to the OSGeoLive project."
 msgstr ""
 
 #: ../../build/doc/sponsors.rst:40
@@ -73,7 +73,7 @@ msgid "`GeoForAll <http://www.geoforall.org>`_: Over 100 educational labs from a
 msgstr ""
 
 #: ../../build/doc/sponsors_osgeo.rst:21
-msgid "`OSGeo Live <http://live.osgeo.org>`__: A distribution of established geospatial open source software, pre-configured with sample data and quickstarts, ready to try out."
+msgid "`OSGeoLive <http://live.osgeo.org>`__: A distribution of established geospatial open source software, pre-configured with sample data and quickstarts, ready to try out."
 msgstr ""
 
 #: ../../build/doc/sponsors_osgeo.rst:22

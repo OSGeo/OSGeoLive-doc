@@ -14,7 +14,7 @@
 #
 # About:
 # =====
-# Preprocess the OSGeo-Live presentation and copy into the target directory.
+# Preprocess the OSGeoLive presentation and copy into the target directory.
 # * Change URL of images files
 # * Copy contributor and translator names into a HTML table on Credits slide,
 #
