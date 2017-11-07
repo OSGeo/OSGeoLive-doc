@@ -18,7 +18,7 @@ msgstr ""
 "Generated-By: Babel 2.5.0\n"
 
 #: ../../build/doc/index.rst:3
-msgid "Welcome to |osgeo-live-version|"
+msgid "Welcome to |osgeolive-version|"
 msgstr ""
 
 #: ../../build/doc/index.rst:20

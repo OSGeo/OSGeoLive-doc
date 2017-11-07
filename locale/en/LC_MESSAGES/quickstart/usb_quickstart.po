@@ -53,13 +53,13 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:21
 msgid ""
-"For a 4 GB USB flash drive, use osgeo-live-mini ISO (without Windows and "
+"For a 4 GB USB flash drive, use osgeolive-mini ISO (without Windows and "
 "Mac installers), without persistence."
 msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:22
 msgid ""
-"For a 8+ GB USB flash drive, use either osgeo-live-mini ISO, or osgeo-"
+"For a 8+ GB USB flash drive, use either osgeolive-mini ISO, or osgeo-"
 "live ISO (with Windows and Mac installers). 8+ GB is recommended if you "
 "wish to support persistence."
 msgstr ""
@@ -122,7 +122,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:49
 msgid ""
-"`Download <http://live.osgeo.org/en/download.html>`_ osgeo-live or osgeo-"
+"`Download <http://live.osgeo.org/en/download.html>`_ osgeolive or osgeo-"
 "live-mini to your computer's hard drive."
 msgstr ""
 
@@ -145,7 +145,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:63
 msgid ""
-"Select the osgeo-live or osgeo-live-mini ISO Image that you downloaded "
+"Select the osgeolive or osgeolive-mini ISO Image that you downloaded "
 "earlier."
 msgstr ""
 

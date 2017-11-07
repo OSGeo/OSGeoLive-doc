@@ -49,7 +49,7 @@ msgid "None required if running directly from the DVD"
 msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:23
-msgid "|osgeo-live-hdspace| if you wish to install the operating system."
+msgid "|osgeolive-hdspace| if you wish to install the operating system."
 msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:25

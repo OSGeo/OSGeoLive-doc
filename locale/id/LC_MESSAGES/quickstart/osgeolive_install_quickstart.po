@@ -38,7 +38,7 @@ msgid "System Requirements"
 msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:19
-msgid "|osgeo-live-hdspace| of spare Hard Disk Space"
+msgid "|osgeolive-hdspace| of spare Hard Disk Space"
 msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:22

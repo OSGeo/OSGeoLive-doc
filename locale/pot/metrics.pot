@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../build/doc/metrics.rst:6
-msgid "|osgeo-live-version| Project Metrics"
+msgid "|osgeolive-version| Project Metrics"
 msgstr ""
 
 #: ../../build/doc/metrics.rst:8

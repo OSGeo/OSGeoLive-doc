@@ -23,8 +23,8 @@ msgstr ""
 
 #: ../../build/doc/download.rst:9
 msgid ""
-"The latest stable release is |osgeo-live-version| and can be downloaded "
-"from: https://sourceforge.net/projects/osgeo-live/files/10.5/"
+"The latest stable release is |osgeolive-version| and can be downloaded "
+"from: https://sourceforge.net/projects/osgeolive/files/10.5/"
 msgstr ""
 
 #: ../../build/doc/download.rst:12
@@ -32,7 +32,7 @@ msgid "Picking the right image for you:"
 msgstr ""
 
 #: ../../build/doc/download.rst:14
-msgid "**osgeo-live iso**: |osgeolive-iso-size|"
+msgid "**osgeolive iso**: |osgeolive-iso-size|"
 msgstr ""
 
 #: ../../build/doc/download.rst:16
@@ -43,12 +43,12 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/download.rst:18
-msgid "**osgeo-live-vm**: |osgeolive-vm-7z-size|"
+msgid "**osgeolive-vm**: |osgeolive-vm-7z-size|"
 msgstr ""
 
 #: ../../build/doc/download.rst:20
 msgid ""
-"This is a pre-made virtual machine (.vmdk), based on osgeo-live, suitable"
+"This is a pre-made virtual machine (.vmdk), based on osgeolive, suitable"
 " for use in VirtualBox, VMWare, KVM and other virtual machine "
 "applications. It has been compressed using `7-Zip "
 "<http://www.7-zip.org/>`_."

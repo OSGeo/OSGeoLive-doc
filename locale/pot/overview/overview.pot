@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../build/doc/overview/overview.rst:6
-msgid "|osgeo-live-version| Contents"
+msgid "|osgeolive-version| Contents"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:13
