@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Jody Garnett
 :Author: Frank Gasdorf
 :Version: osgeo-live5.0draft
@@ -101,7 +101,7 @@ To start out with we are going to load some of the sample data included on the D
 
 #. Press :guilabel:`Next` to open up a file dialog
 
-#. The OSGeo-Live DVD contains sample data in:
+#. The OSGeoLive DVD contains sample data in:
    
    * :file:`~/data` (a short cut to :file:`/usr/local/share/data`)
 
@@ -279,7 +279,7 @@ Sometimes it is a bit hard to see what is going on with layer providing much det
   with something most people can do based on the materials as presented.
   Continue on with a challenge that involves a small bit of research (it
   is recommended that research be limited to something that can be
-  found in documentation packaged on OSGeo-Live, as users might not be
+  found in documentation packaged on OSGeoLive, as users might not be
   connected to the Internet.
 
 Things to Try

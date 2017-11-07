@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Frank Gasdorf
 :Author: Cameron Shorter
 :Reviewer: Cameron Shorter
@@ -6,13 +6,13 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
-OSGeo-Live Internationalisation Quickstart
+OSGeoLive Internationalisation Quickstart
 ********************************************************************************
 
 Switching Language
 --------------------------------------------------------------------------------
 
-Many common languages are included on OSGeo-Live. To switch languages:
+Many common languages are included on OSGeoLive. To switch languages:
 
    #. Log out
    #. Select user="user", password="user"

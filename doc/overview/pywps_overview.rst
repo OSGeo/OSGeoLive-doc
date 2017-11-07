@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Jachym Cepicky, Jorge de Jesus, Tom Kralidis
 :Reviewer: Cameron Shorter
 :Version: osgeo-live10.0

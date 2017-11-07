@@ -3,6 +3,6 @@
 
 Presentation
 ================================================================================
-A 30 minute presentation highlighting all OSGeo-Live applications is available with slides and script.
+A 30 minute presentation highlighting all OSGeoLive applications is available with slides and script.
 
 Details at: https://github.com/OSGeo/OSGeoLive-doc/tree/master/en/presentation

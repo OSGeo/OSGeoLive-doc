@@ -167,7 +167,7 @@ sub write_script {
     # write out the header and the commands to clean up the old extension
     print OUT <<EOF;
 
-.. OSGeo-Live overview file, created by:
+.. OSGeoLive overview file, created by:
    build_overview.pl
 
 |osgeo-live-version| Contents

@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Stephan Meissl, Stephan Krause
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos, OSGeo

@@ -83,7 +83,7 @@ which can be imported if you have a internet connection.
 Please start the *deegree-inspire-workspace* now.
 
 
-deegree 3 workspaces on OSGeo-Live GIS Disc
+deegree 3 workspaces on OSGeoLive GIS Disc
 ================================================================================
 
   * *deegree-workspace-inspire*

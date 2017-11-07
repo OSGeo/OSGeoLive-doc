@@ -91,14 +91,14 @@ The output is a netCDF file which can then be used as color intensity by the `gr
 
 ::
 
-  gmt grdimage geo_elevation.gmt -Igradient.nc -JM6i -P -Ba -Celevation.cpt -K > GMT_tut_OSGeo-Live.ps
+  gmt grdimage geo_elevation.gmt -Igradient.nc -JM6i -P -Ba -Celevation.cpt -K > GMT_tut_OSGeoLive.ps
 
 
 Finally we can add a colorbar with `psscale`:
 
 ::
 
-  gmt psscale -DjTC+w5i/0.25i+h+o0/-1i -Rgeo_elevation.gmt -J -Celevation.cpt -I0.4 -By+lm -O >> GMT_tut_OSGeo-Live.ps
+  gmt psscale -DjTC+w5i/0.25i+h+o0/-1i -Rgeo_elevation.gmt -J -Celevation.cpt -I0.4 -By+lm -O >> GMT_tut_OSGeoLive.ps
 
 
 Here the flag `-D` is used to select the colorbar position `TC: Top Center`, the size `5x0.25` expressed in inches `i` the orientation by `h: horizontal`
@@ -106,7 +106,7 @@ and the flag `-By` to set a label `m` on the `y axis`.
 
 The output ps document should look like:
 
-.. image:: /images/projects/gmt/GMT_tut_OSGeo-Live.png
+.. image:: /images/projects/gmt/GMT_tut_OSGeoLive.png
   :scale: 70 %
   :alt: North Caroline - sample elevation data
   :align: center
@@ -131,7 +131,7 @@ Open a terminal, then
 View results: (within :command:`gv` [#gv]_, type :kbd:`q` to quit)
 
 .. Cameron Review Comment:
-  Is gv installed on OSGeo-Live? If not, then it should either be installed, or not
+  Is gv installed on OSGeoLive? If not, then it should either be installed, or not
   mentioned.
 
 ::

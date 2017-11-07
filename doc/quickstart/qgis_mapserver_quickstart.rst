@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Pirmin Kalberer
 :Reviewer: Angelos Tzotsos, OSGeo
 :Version: osgeo-live11.0
@@ -33,7 +33,7 @@ QGIS Web Client:
 Start GeoExt viewer
 ================================================================================
 
-OSGeo-Live contains an example of web map viewer based on the GeoExt Javascript framework and using QGIS Server for rendering the map.
+OSGeoLive contains an example of web map viewer based on the GeoExt Javascript framework and using QGIS Server for rendering the map.
 
 * Click :menuselection:`Geospatial --> Web Services --> QGIS Server`
 

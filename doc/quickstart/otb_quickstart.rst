@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Manuel Grizonnet
 :Version: osgeo-live6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
@@ -136,7 +136,7 @@ The same set of OTB applications can also be used from the Processing -> Toolbox
 Developing with OTB
 ================================================================================
 
-If you want to use the OTB library and compile your C++ code inside OSGeo-Live,
+If you want to use the OTB library and compile your C++ code inside OSGeoLive,
 you will need to install development package **libotb-dev** and **libqt4-dev** .
 Also check that **cmake** is installed.
 The OTB_DIR location should be found automatically (usually in

@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Astrid Emde
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
@@ -75,7 +75,7 @@ Welcome page
 
 #. Click on Login at right-top to open the login page.
 
-#. You can login with the user that was generated on installation. It can be :guilabel:`root` and password :guilabel:`root` (This is the default user and password that you get after installation of Mapbender on OSGeo-Live. Please change the root password if you want to run a productive environment. Please don't delete the user :guilabel:`root`.).
+#. You can login with the user that was generated on installation. It can be :guilabel:`root` and password :guilabel:`root` (This is the default user and password that you get after installation of Mapbender on OSGeoLive. Please change the root password if you want to run a productive environment. Please don't delete the user :guilabel:`root`.).
   
   .. image:: /images/projects/mapbender/mapbender3_welcome.png
      :scale: 70 %

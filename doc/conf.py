@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# OSGeo-Live documentation build configuration file, created by
+# OSGeoLive documentation build configuration file, created by
 # sphinx-quickstart on Wed Sep 22 19:00:58 2010.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'OSGeo-Live'
+project = u'OSGeoLive'
 copyright = u'2011, OSGeo'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -199,7 +199,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'OSGeo-Live.tex', u'OSGeo-Live Documentation',
+  ('index', 'OSGeoLive.tex', u'OSGeoLive Documentation',
    u'OSGeo', 'manual'),
 ]
 

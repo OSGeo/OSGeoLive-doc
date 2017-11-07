@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Jachym Cepicky, Tom Kralidis
 :Reviewer: Cameron Shorter
 :Version: osgeo-live10.0
@@ -14,7 +14,7 @@
 PyWPS is an OGC WPS (Web Processing Service 1.0.0) server implementation written
 in `Python <http://python.org>`_.
 
-PyWPS is installed by default on OSGeo-Live.  This Quickstart describes how to:
+PyWPS is installed by default on OSGeoLive.  This Quickstart describes how to:
 
 * test the PyWPS installation
 * configure the PyWPS instance

@@ -8,7 +8,7 @@
 .. Writing Tip:
   Metadata about this document
 
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Barry Rowlingson
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos, OSGeo

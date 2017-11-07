@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Hamish Bowman
 :Author: Eric Lemoine
 :Reviewer: Cameron Shorter, Jirotech

@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Massimo Di Stefano
 :Author: Pirmin Kalberer
 :Version: osgeo-live4.0

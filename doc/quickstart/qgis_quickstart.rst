@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Pirmin Kalberer
 :Author: Hamish Bowman
 :Author: Zoltan Siki
@@ -362,14 +362,14 @@ Things to Try
 What Next?
 ================================================================================
 
-Tutorials for more advanced features of QGIS are collected as `OSGeo-Live QGIS tutorials`_.
+Tutorials for more advanced features of QGIS are collected as `OSGeoLive QGIS tutorials`_.
 
 To learn more about QGIS, a good starting point is the `Documentation page`_ on
 the QGIS homepage and `A Gentle Introduction to GIS`_ eBook.
 
-The `QGIS User Guide`_ `[1]`_ is also included on the OSGeo-Live disc.
+The `QGIS User Guide`_ `[1]`_ is also included on the OSGeoLive disc.
 
-.. _`OSGeo-Live QGIS tutorials`: ../../qgis/
+.. _`OSGeoLive QGIS tutorials`: ../../qgis/
 .. _`Documentation page`: http://docs.qgis.org/
 .. _`A Gentle Introduction to GIS`: http://docs.qgis.org/2.8/en/docs/gentle_gis_introduction/
 .. _`QGIS User Guide`: http://docs.qgis.org/2.8/en/docs/user_manual/

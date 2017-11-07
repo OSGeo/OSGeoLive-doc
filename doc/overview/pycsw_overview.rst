@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Tom Kralidis
 :Author: Angelos Tzotsos, OSGeo
 :Reviewer: Cameron Shorter, Jirotech

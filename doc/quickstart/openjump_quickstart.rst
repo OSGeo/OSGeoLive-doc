@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Landon Blake
 :Author: Stefan Steiniger
 :Version: osgeo-live6.0

@@ -253,7 +253,7 @@ What Next ?
   with something most people can do based on the materials as presented.
   Continue on with a challenge that involves a small bit of research (it
   is recommended that research be limited to something that can be
-  found in documentation packaged on OSGeo-Live, as users might not be
+  found in documentation packaged on OSGeoLive, as users might not be
   connected to the Internet.
 
 

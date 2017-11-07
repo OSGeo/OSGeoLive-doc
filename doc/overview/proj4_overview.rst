@@ -1,4 +1,4 @@
-:Author: OSGeo-Live :Author: Mike Adair, Julien Moquet
+:Author: OSGeoLive :Author: Mike Adair, Julien Moquet
 :Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)

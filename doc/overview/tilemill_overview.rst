@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Javier Sanchez, GeoNaTec
 :Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live8.0

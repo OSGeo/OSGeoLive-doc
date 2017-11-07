@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Mike Adair
 :Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.9

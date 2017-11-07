@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Julien Moquet
 :Reviewer: Vicky Vergara
 :Version: osgeo-live11.0

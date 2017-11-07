@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Pirmin Kalberer
 :Reviewer: Angelos Tzotsos, OSGeo
 :Version: osgeo-live11.0

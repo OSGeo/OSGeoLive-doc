@@ -26,7 +26,7 @@ MapGuide can be deployed on Linux or Windows, supports Apache and IIS web server
   :align: right
 
 .. note:: Due to space constraints, MapGuide is currently
-  not installed on OSGeo-Live.
+  not installed on OSGeoLive.
 
 .. commented out as manual install doesn't currently work: To install
   it open up a terminal and run ``cd gisvm/bin; sudo ./install_mapguide.sh``

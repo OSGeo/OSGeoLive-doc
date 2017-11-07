@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Alan Boudreault
 :Author: Steve Lime
 :Reviewer: Stephan Meissl

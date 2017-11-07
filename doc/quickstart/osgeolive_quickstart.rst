@@ -1,14 +1,14 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Cameron Shorter, Hamish Bowman
 :Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live7.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
-OSGeo-Live Quickstart
+OSGeoLive Quickstart
 ********************************************************************************
 
-This Quick Start describes how to start OSGeo-Live from a DVD or USB.
+This Quick Start describes how to start OSGeoLive from a DVD or USB.
 
 System Requirements
 --------------------------------------------------------------------------------
@@ -27,7 +27,7 @@ Your computer should have at least:
 Run:
 --------------------------------------------------------------------------------
 
-  Source an OSGeo-Live DVD, ISO available from: [:doc:`Download <../download>`]
+  Source an OSGeoLive DVD, ISO available from: [:doc:`Download <../download>`]
   Put the DVD into your computer's CD drive, then reboot your computer.
 
   If your computer is set to boot from CD (as is often the case) you should
@@ -50,7 +50,7 @@ Run:
 See Also:
 --------------------------------------------------------------------------------
 
- * Getting started with Lubuntu and the LXDE desktop (which is used by OSGeo-Live):
+ * Getting started with Lubuntu and the LXDE desktop (which is used by OSGeoLive):
     https://help.ubuntu.com/community/Lubuntu/Documentation and
     http://wiki.lxde.org
  * Getting started with the Ubuntu operating system:

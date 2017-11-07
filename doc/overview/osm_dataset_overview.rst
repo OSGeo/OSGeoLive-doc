@@ -19,7 +19,7 @@ The most visible aspect to OSM is the online web-tile interface from https://www
 
 The heart of the project is the underlying data which is open for all to edit, view, or create custom rendered maps. Fundamentally OSM's focus is on the data, the rich maps simply fall out of this.
 
-The OSGeo-Live distribution includes a city sized extract of OSM data which is used for examples by some applications.
+The OSGeoLive distribution includes a city sized extract of OSM data which is used for examples by some applications.
 
 .. image:: /images/projects/osm_dataset/osm-screenshot.jpg 
   :scale: 55 %

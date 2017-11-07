@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Frank Warmerdam
 :Reviewer: Cameron Shorter, Jirotech
 :Version: osgeo-live6.0

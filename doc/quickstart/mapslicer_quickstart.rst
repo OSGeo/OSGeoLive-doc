@@ -1,4 +1,4 @@
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Petr Pridal
 :Author: Christopher Fleet
 :Author: Angelos Tzotsos

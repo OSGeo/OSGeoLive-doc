@@ -1,5 +1,5 @@
 :Author: Chris Schmidt
-:Author: OSGeo-Live
+:Author: OSGeoLive
 :Author: Roald de Wit
 :Author: Antonio Santiago
 :Author: Bart van den Eijnden

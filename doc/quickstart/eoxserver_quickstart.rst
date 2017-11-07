@@ -1,4 +1,4 @@
-:Author: OSGeo-Live 
+:Author: OSGeoLive 
 :Author: Stephan Meissl
 :Author: Stephan Krause
 :Reviewer: Angelos Tzotsos, OSGeo
@@ -157,7 +157,7 @@ a few resources to check out next:
   <https://eoxserver.readthedocs.org/en/latest/users/index.html>`_ starting from
   the `EOxServer Basics
   <https://eoxserver.readthedocs.org/en/latest/users/basics.html>`_.
-* If you are already in the OSGeo-Live environment, read the local copy of the `EOxServer Users' local documentation
+* If you are already in the OSGeoLive environment, read the local copy of the `EOxServer Users' local documentation
   <https://localhost/eoxserver-docs/EOxServer_documentation.pdf>`_
 * Ready to use EOxServer? Then join the community on the `mailing lists 
   <https://eoxserver.readthedocs.org/en/latest/users/mailing_lists.html>`_ to 

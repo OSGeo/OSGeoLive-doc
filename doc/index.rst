@@ -16,7 +16,7 @@ Welcome to |osgeo-live-version|
      sponsors
      sponsors_osgeo
 
-`OSGeo-Live <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB
+`OSGeoLive <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB
 thumb drive or Virtual Machine based on `Lubuntu <http://lubuntu.net>`_,
 that allows you to try a wide variety of open
 source geospatial software without installing anything. It is composed
@@ -39,7 +39,7 @@ To try out the applications, simply:
 #. Press "Enter" to startup & login.
 #. Select and run applications from the "Geospatial" menu.
 
-OSGeo-Live is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo Foundation is a not-for-profit supporting Geospatial Open Source Software development, promotion and `education <http://www.geoforall.org/>`_.
+OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo Foundation is a not-for-profit supporting Geospatial Open Source Software development, promotion and `education <http://www.geoforall.org/>`_.
 
 .. only:: html
 
@@ -49,11 +49,11 @@ OSGeo-Live is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo Foun
    .. toctree::
      :maxdepth: 1
 
-     Getting started with the OSGeo-Live DVD <quickstart/osgeolive_quickstart>
+     Getting started with the OSGeoLive DVD <quickstart/osgeolive_quickstart>
      Change language or keyboard type <quickstart/internationalisation_quickstart>
-     Install OSGeo-Live on your hard disk <quickstart/osgeolive_install_quickstart>
-     Run OSGeo-Live in a Virtual Machine <quickstart/virtualization_quickstart>
-     Create an OSGeo-Live bootable USB thumb drive <quickstart/usb_quickstart>
+     Install OSGeoLive on your hard disk <quickstart/osgeolive_install_quickstart>
+     Run OSGeoLive in a Virtual Machine <quickstart/virtualization_quickstart>
+     Create an OSGeoLive bootable USB thumb drive <quickstart/usb_quickstart>
 
    .. toctree::
      :hidden:
@@ -83,4 +83,4 @@ OSGeo-Live is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo Foun
 Presentation
 --------------------------------------------------------------------------------
 
-A half hour `presentation <presentation/index.html>`_, highlighting all OSGeo-Live applications, is available with slides, script, and `abstract <presentation/abstract.txt>`_.
+A half hour `presentation <presentation/index.html>`_, highlighting all OSGeoLive applications, is available with slides, script, and `abstract <presentation/abstract.txt>`_.

@@ -101,6 +101,6 @@ What Next?
   * Learn more about the OGC  `Web Coverage Processing Service <http://www.opengeospatial.org/standards/wcps>`_ (WCPS) Language standard (which was heavily inspired by rasdaman); a good starting point is the  	`documentation and tutorials page <http://earthlook.org/standards>`_  and `WCPS Query SandBox <http://localhost/rasdaman-demo/demo/client/query-		sandbox.html>`_.
   * Interested in coverage data and services in general? Visit OGC's `Coverages Domain Working Group wiki <http://external.opengeospatial.org/twiki_public/CoveragesDWG/WebHome>`_.
   * Read `rasql query language guide <http://rasdaman.org/browser/manuals_and_examples/manuals/doc-guides/ql-guide.pdf>`_ to learn about rasdaman query language.
-  * Go to the `multi-dimensional demo <http://localhost/rasdaman-demo>`_ to explore interactive 1-D to 4-D rasdaman demos. The small ones are part of OSGeo-Live, those utilizing larger sets (beyond this drive's capacity) forward to the `OGC standards showcase site <http://standards.rasdaman.org>`_ .
+  * Go to the `multi-dimensional demo <http://localhost/rasdaman-demo>`_ to explore interactive 1-D to 4-D rasdaman demos. The small ones are part of OSGeoLive, those utilizing larger sets (beyond this drive's capacity) forward to the `OGC standards showcase site <http://standards.rasdaman.org>`_ .
 
 

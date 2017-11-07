@@ -48,7 +48,7 @@ Create Jupyter notebooks which can contain:
 * Imported external libraries to add functionality.
 * Code from multiple programming languages, including python, R, Julia, Bash and many more.
 
-Jupyter notebooks on OSGeo-Live can use geospatial functions from:
+Jupyter notebooks on OSGeoLive can use geospatial functions from:
 
 * Numpy, SciPy Matplotlib, IRIS, Cartopy, gdal, Geopandas, pyshp, Fiona, netCDF4, PostgreSQL, psycopg2, R, rpy2, and more.
 

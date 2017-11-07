@@ -25,7 +25,7 @@ This Quick Start describes how to:
 Running
 ================================================================================
 
-*       To run the ZOO Project demo from the OSGeo-Live DVD, click on the "ZOO Project" link you will find it in the menu-items under "Geospatial" > "Web Services".
+*       To run the ZOO Project demo from the OSGeoLive DVD, click on the "ZOO Project" link you will find it in the menu-items under "Geospatial" > "Web Services".
 
 *       Firefox will open the ZOO Project demonstration landing page. From here, you can decide what is the demonstration you want to use.
 
