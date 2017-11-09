@@ -21,6 +21,8 @@ GIS programs. Data is published via standards based interfaces, such as WMS,
 WFS, WCS, WPS, Tile Caching and more. GeoServer comes with a browser-based
 management interface and connects to multiple data sources at the back end.
 
+@SCREENSHOT_geoserver@
+
 .. image:: /images/projects/geoserver/geoserver.png
   :scale: 60 %
   :alt: Screen Shot of GeoServer

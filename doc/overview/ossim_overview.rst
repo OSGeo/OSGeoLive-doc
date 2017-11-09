@@ -24,6 +24,8 @@ Many command line utilities, GUI applications, and integrated systems have been 
 Core Features
 --------------------------------------------------------------------------------
 
+@SCREENSHOT_ossim@
+
 .. image:: /images/projects/ossim/ossim-imagelinker.jpg
   :scale: 70 %
   :alt: screenshot

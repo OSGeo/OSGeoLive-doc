@@ -19,6 +19,8 @@ the standard GRIB distribution format.
 Core Features
 --------------------------------------------------------------------------------
 
+@SCREENSHOT_zygrib@
+
 .. image:: /images/projects/zygrib/zygrib_xynthia_010b.jpg
   :scale: 40 %
   :alt: screenshot

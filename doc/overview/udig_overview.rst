@@ -14,6 +14,8 @@
 Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+@SCREENSHOT_udig@
+
 .. image:: /images/projects/udig/udig-overview.png
   :scale: 50
   :alt: udig workshop

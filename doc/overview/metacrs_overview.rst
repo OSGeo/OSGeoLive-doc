@@ -33,6 +33,8 @@ The sub-projects that make up MetaCRS include:
 * Proj4J (Java).
 * `SpatialReference.org <http://spatialreference.org/>`_  - website to retrieve coordinate system definitions.
 
+@SCREENSHOT_metacrs@
+
 Core Features
 --------------------------------------------------------------------------------
 

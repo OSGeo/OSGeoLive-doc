@@ -25,6 +25,8 @@ various online tile servers.
 Core Features
 --------------------------------------------------------------------------------
 
+@SCREENSHOT_viking@
+
 .. image:: /images/projects/viking/viking-0_9_8-europe.jpg
   :scale: 40 %
   :alt: screenshot

@@ -25,6 +25,8 @@ These tools include:
 * Proj4J (Java).
 * `SpatialReference.org <http://spatialreference.org/>`_  - website to retrieve coordinate system definitions (obsolete).
 
+@SCREENSHOT_proj4@
+
 Core Features
 --------------------------------------------------------------------------------
 

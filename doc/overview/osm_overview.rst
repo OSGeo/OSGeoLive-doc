@@ -29,6 +29,8 @@ the FOSS4G host city and a number of JOSM plugins have been included.
 Core Features
 --------------------------------------------------------------------------------
 
+@SCREENSHOT_osm@
+
 .. image:: /images/projects/osm_dataset/osm-screenshot.jpg
   :scale: 50 %
   :alt: screenshot

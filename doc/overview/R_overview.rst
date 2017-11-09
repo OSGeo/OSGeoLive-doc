@@ -41,6 +41,8 @@ well as between R and the modern commercial version of S, TIBCO
 Spotfire S+. This makes it possible to convert different
 versions of S code to run on R without major code modifications.
 
+@SCREENSHOT_R@
+
 .. image:: /images/projects/R/r-screenshot.png
   :scale: 50 %
   :alt: project logo

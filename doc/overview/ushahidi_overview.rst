@@ -19,6 +19,8 @@ web and visualize it on a map or a timeline. Ushahidi's goal is to create tools 
 democratizing information, increasing transparency and lowering the barriers 
 for individuals to share their stories.
 
+@SCREENSHOT_ushahidi@
+
 .. image:: /images/projects/ushahidi/ushahidi-drc-screenshot.png
   :scale: 50 %
   :alt: screenshot

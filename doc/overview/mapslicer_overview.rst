@@ -14,6 +14,9 @@
 Proxy WMS & tile services
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+@SCREENSHOT_mapslicer@
+
+
 .. image:: /images/projects/mapproxy/mapproxy.png
   :alt: MapProxy diagram
   :align: right

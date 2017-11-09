@@ -19,6 +19,8 @@ libLAS is a C/C++ library for reading and writing the very common `LAS`
 store data from LiDAR sensors and by LiDAR processing software for data
 interchange and archival.
 
+@SCREENSHOT_liblas@
+
 .. image:: /images/projects/liblas/liblas.jpg
   :alt: LiDAR Acquisition
   :align: right

@@ -24,6 +24,8 @@ As the host vessel moves, new charts are selected and displayed at user specifie
 Core Features
 --------------------------------------------------------------------------------
 
+@SCREENSHOT_opencpn@
+
 .. image:: /images/projects/opencpn/opencpn_screenshot.png
   :scale: 50 %
   :alt: screenshot

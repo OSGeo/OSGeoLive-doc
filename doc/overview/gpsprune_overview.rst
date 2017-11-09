@@ -29,6 +29,8 @@ and can send the edited data back to the receiver too.
 GpsPrune runs on Mac OSX, Windows and Linux, and is available
 in over ten different languages.
 
+@SCREENSHOT_gpsprune@
+
 Core Features
 --------------------------------------------------------------------------------
 

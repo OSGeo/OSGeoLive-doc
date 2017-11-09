@@ -33,6 +33,8 @@ and is distributed as open source.
 Core Features
 --------------------------------------------------------------------------------
 
+@SCREENSHOT_otb@
+
 .. image:: /images/projects/otb/otb-mvd3-screenshot.jpg
   :scale: 50 %
   :alt: screenshot

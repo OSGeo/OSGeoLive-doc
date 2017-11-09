@@ -15,6 +15,8 @@
 Browser/Mobile Map Library
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+@SCREENSHOT_leaflet@
+
 
 .. image:: /images/projects/leaflet/leaflet-overview.png
   :scale: 50

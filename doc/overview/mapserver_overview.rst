@@ -23,6 +23,8 @@ MapServer is now a project of `OSGeo <http://www.osgeo.org>`_, and is maintained
 Core Features
 --------------------------------------------------------------------------------
 
+@SCREENSHOT_mapserver@
+
 .. image:: /images/projects/mapserver/mapserver.png
   :scale: 50 %
   :alt: screenshot

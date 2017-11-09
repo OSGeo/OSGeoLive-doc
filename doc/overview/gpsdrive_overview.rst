@@ -19,6 +19,8 @@ and preferred map scale.  All GPS receivers which support the NMEA protocol
 should be usable, as well as many USB GPSs using a binary protocol known to
 the `Gpsd <http://gpsd.berlios.de>`_ GPS daemon and multiplexer.
 
+@SCREENSHOT_gpsdrive@
+
 Core Features
 --------------------------------------------------------------------------------
 
