@@ -23,10 +23,6 @@ The user interface is easily configurable, and additional services can be added 
 
 @SCREENSHOT_geomoose@
 
-.. image:: /images/projects/geomoose/geomoose-2_9-screenshot001.png
-  :alt: GeoMoose Screenshot
-  :align: right
-
 Core Features
 --------------------------------------------------------------------------------
 

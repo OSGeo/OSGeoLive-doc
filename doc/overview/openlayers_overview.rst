@@ -21,12 +21,6 @@ OpenLayers makes it easy to put a dynamic map in any web page. It can display ma
 
 @SCREENSHOT_openlayers@
 
-
-.. image:: /images/projects/openlayers/openlayers-basic.png
-  :scale: 70 %
-  :alt: screenshot
-  :align: right
-
 Core Features
 --------------------------------------------------------------------------------
 
