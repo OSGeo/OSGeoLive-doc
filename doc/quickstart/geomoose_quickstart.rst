@@ -25,7 +25,7 @@ GeoMoose is a GIS data portal management framework. The installed version of Geo
 
 * You will be presented with a web page displaying a demo interface of a GeoMoose instance.
 
-  .. image:: /images/projects/geomoose/geomoose-2_9-screenshot001.png
+  .. image:: /images/projects/geomoose/geomoose_screenshot.png
     :align: right
     :alt: GeoMoose Screenshot
 

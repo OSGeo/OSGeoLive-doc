@@ -52,7 +52,7 @@ off.
 
    * Populated places are now displayed as many green dots:
 
-     .. image:: /images/projects/qgis/qgis.png
+     .. image:: /images/projects/qgis/qgis_screenshot.png
         :scale: 70 %
         :alt: Map in QGIS
 

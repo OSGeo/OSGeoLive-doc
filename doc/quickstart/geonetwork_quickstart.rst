@@ -70,7 +70,7 @@ order to load examples:
 
 Go back to the search page to see examples:
 
-.. figure:: /images/projects/geonetwork/geonetwork_once-samples-are-loaded.png
+.. figure:: /images/projects/geonetwork/geonetwork_screenshot.png
   :scale: 70 %
 
 

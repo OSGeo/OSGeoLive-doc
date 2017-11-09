@@ -49,7 +49,7 @@ Finding the data value at a point
 
 Once a variable has been displayed on the map, you can click on the map to discover the data value at that point. The data value, along with the latitude and longitude of the point you clicked, will appear in a small pop-up window at the point where you clicked.
 
-.. image:: /images/projects/ncWMS/ncWMS-02-variable_view.png
+.. image:: /images/projects/ncWMS/ncWMS_screenshot.png
     :scale: 55 %
 
 Changing the style of the data display

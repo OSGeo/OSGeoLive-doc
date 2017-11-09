@@ -33,7 +33,7 @@ choose :menuselection:`Geospatial --> Browser Clients --> GeoNode --> Start GeoN
 after a few moments the GeoNode webpage will automatically
 open at http://geonode. The page will look like the image below.
 
-    .. figure:: /images/projects/geonode/geonode_basic_application.png
+    .. figure:: /images/projects/geonode/geonode_screenshot.png
       :scale: 70%
 
 

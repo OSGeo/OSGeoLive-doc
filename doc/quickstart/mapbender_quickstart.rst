@@ -28,7 +28,7 @@ This Quick Start describes how to:
 
 This is how a Mapbender application can look like:
 
-  .. image:: /images/projects/mapbender/mapbender3_basic_application.png
+  .. image:: /images/projects/mapbender/mapbender_screenshot.png
      :scale: 70 %
 
 .. contents:: Contents

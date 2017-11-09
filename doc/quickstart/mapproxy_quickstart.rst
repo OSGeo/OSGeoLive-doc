@@ -14,7 +14,7 @@
 MapProxy is *the* swiss army knife for all WMS and tile services.
 It caches, accelerates and transforms data from existing map services and serves any desktop or web GIS client.
 
-.. image:: /images/projects/mapproxy/mapproxy.png
+.. image:: /images/projects/mapproxy/mapproxy_screenshot.png
   :alt: MapProxy diagram
   :align: center
 

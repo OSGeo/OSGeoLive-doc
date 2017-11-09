@@ -29,7 +29,7 @@ Running
 
 *       Firefox will open the ZOO Project demonstration landing page. From here, you can decide what is the demonstration you want to use.
 
-.. image:: /images/projects/zoo-project/zoo-demo-2.png
+.. image:: /images/projects/zoo-project/zoo-project_screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: center
