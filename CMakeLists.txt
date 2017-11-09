@@ -254,7 +254,7 @@ MACRO(INSERT_INTO_MAP_LOGO _KEY _TARGET)
     endif()
       
     SET("LOGO_${_KEY}"
- ".. image:: /images/projects/${_KEY}/logo-${_KEY}.png
+ ".. image:: /images/projects/${_KEY}/logo_${_KEY}.png
     :align: right
     ${_TRGT}
 ")
