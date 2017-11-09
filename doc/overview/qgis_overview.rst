@@ -22,11 +22,6 @@ It includes powerful analytical functionality through integration with :doc:`GRA
 
 @SCREENSHOT_qgis@
 
-.. image:: /images/projects/qgis/qgis.png
-  :scale: 50 %
-  :alt: project logo
-  :align: right
-
 Core Features
 --------------------------------------------------------------------------------
 

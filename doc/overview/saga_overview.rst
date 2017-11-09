@@ -28,11 +28,6 @@ contributions from the growing world wide community.
 
 @SCREENSHOT_saga@
 
-.. image:: /images/projects/saga/saga_overview.png
-  :scale: 40%
-  :alt: screenshot
-  :align: right
-
 Core Features
 --------------------------------------------------------------------------------
 

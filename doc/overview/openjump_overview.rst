@@ -20,11 +20,6 @@ OpenJUMP is excellent for data editing and rapid prototyping of GIS functions.
 
 @SCREENSHOT_openjump@
 
-.. image:: /images/projects/openjump/openjump-screenshot.png
-  :scale: 50 %
-  :alt: project screenshots
-  :align: right
-
 Features (Core Features and PlugIns*)
 --------------------------------------------------------------------------------
 

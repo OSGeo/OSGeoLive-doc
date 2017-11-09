@@ -26,11 +26,6 @@ gvSIG is known for:
 
 @SCREENSHOT_gvsig@
 
-.. image:: /images/projects/gvsig/gvsig_desktop.png
-  :scale: 50 %
-  :alt: screenshot
-  :align: right
-
 Core Features
 --------------------------------------------------------------------------------
 
