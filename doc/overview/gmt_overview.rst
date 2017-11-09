@@ -27,12 +27,6 @@ political boundaries.
 
 @SCREENSHOT_gmt@
 
-
-.. image:: /images/projects/gmt/gmt-example28.png
-  :scale: 50 %
-  :alt: screenshot
-  :align: right
-
 Core Features
 --------------------------------------------------------------------------------
 

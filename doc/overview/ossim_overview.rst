@@ -20,16 +20,10 @@ OSSIM has been funded by several US government agencies in the intelligence and 
 Designed as a series of high performance software libraries, it is written in C++ employing the latest techniques in object-oriented software design.
 Many command line utilities, GUI applications, and integrated systems have been implemented - several of which are included with the software distribution.
 
+@SCREENSHOT_ossim@
 
 Core Features
 --------------------------------------------------------------------------------
-
-@SCREENSHOT_ossim@
-
-.. image:: /images/projects/ossim/ossim-imagelinker.jpg
-  :scale: 70 %
-  :alt: screenshot
-  :align: right
 
 * Parallel processing capabilites with mpi libraries
 * Rigorous sensor modeling
