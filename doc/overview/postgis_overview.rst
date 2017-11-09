@@ -67,11 +67,6 @@ from desktop and web GIS clients. These clients can also map and manipulate Post
 
 @SCREENSHOT_postgis@
 
-.. image:: /images/projects/pgadmin/pgadmin.png
-  :scale: 70 %
-  :alt: pgAdmin database manager
-  :align: right
-
 Core Features
 --------------------------------------------------------------------------------
 

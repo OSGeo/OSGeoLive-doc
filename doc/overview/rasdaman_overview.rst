@@ -23,11 +23,6 @@ Rasdaman has received a series of international innovation awards, among them th
 
 @SCREENSHOT_rasdaman@
 
-.. image:: /images/projects/rasdaman/rasdaman-collage.jpg
-  :scale: 50 %
-  :alt: rasdaman screenshot collage
-  :align: right
-
 Core Features
 -------------
 

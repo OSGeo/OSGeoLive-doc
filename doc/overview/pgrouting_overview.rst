@@ -26,11 +26,6 @@ pgRouting is available under the GPLv2 license and is supported by a growing com
 
 @SCREENSHOT_pgrouting@
 
-.. image:: /images/projects/pgrouting/pgrouting.png
-  :scale: 70 %
-  :alt: pgRouting query in pgAdminIII
-  :align: right
-
 Core Features
 --------------------------------------------------------------------------------
 

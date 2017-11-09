@@ -22,11 +22,6 @@ SQLite is a Database Management System (DBMS) which is simple, robust, easy to u
 
 @SCREENSHOT_spatialite@
 
-.. image:: /images/projects/spatialite/spatialite.jpg
-  :scale: 50 %
-  :alt: screenshot
-  :align: right
-
 Core Features
 --------------------------------------------------------------------------------
 
