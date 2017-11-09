@@ -29,11 +29,6 @@ Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS.
 
 @SCREENSHOT_gdal@
 
-.. image:: /images/projects/gdal/gdal_ogr_proj_overview.png
-  :scale: 60 %
-  :alt: GDAL supports many geodata formats
-  :align: right
-
 Core Features
 --------------------------------------------------------------------------------
 

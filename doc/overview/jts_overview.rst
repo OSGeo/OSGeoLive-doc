@@ -24,11 +24,6 @@ C based applications.  Additional ports are available for C# and JavaScript.
 
 @SCREENSHOT_jts@
 
-.. image:: /images/projects/jts/jts-overview.jpg
-  :scale: 90 %
-  :alt: JTS Topology Suite - Test Builder application
-  :align: right
-
 Core Features
 --------------------------------------------------------------------------------
 
