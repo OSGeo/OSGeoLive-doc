@@ -19,11 +19,6 @@ The iD editor is a great way to edit small and easy changes that don’t require
 
 @SCREENSHOT_ideditor@
 
-.. image:: /images/projects/ideditor/ideditor.png
-  :scale: 50 %
-  :alt: iD Editor
-  :align: right
-
 Core Features
 --------------------------------------------------------------------------------
 

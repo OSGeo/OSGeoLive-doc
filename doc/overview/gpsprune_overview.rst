@@ -34,11 +34,6 @@ in over ten different languages.
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: /images/projects/prune/prune_denver.png
-  :scale: 50 %
-  :alt: screenshot
-  :align: right
-
 * Load data from text files, gpx files, kml/kmz files, or directly from a GPS receiver
 * Zoomable map imagery from OpenStreetMap or any compatible server (OpenCycleMap, Reit- und Wanderkarte etc)
 * Altitude or speed profile view

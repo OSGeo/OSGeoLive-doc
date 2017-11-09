@@ -23,11 +23,6 @@ A number of specialised plugins have been written for JOSM, which are available 
 
 @SCREENSHOT_josm@
 
-.. image:: /images/projects/josm/josm_inteface.png
-  :scale: 55 %
-  :alt: JOSM Editor.
-  :align: right
-
 Core Features
 --------------------------------------------------------------------------------
 
