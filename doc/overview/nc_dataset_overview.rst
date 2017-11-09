@@ -29,12 +29,6 @@ Data are provided at three hierarchical levels:
 
 @SCREENSHOT_nc_dataset@
 
-.. image:: /images/projects/nc_dataset/north_carolina_dataset_nviz.jpg
-  :scale: 60 %
-  :alt: North Carolina dataset screenshot
-  :align: right
-
-
 Core Features
 --------------------------------------------------------------------------------
 
