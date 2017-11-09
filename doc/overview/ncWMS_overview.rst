@@ -17,13 +17,6 @@ ncWMS publishes multi-dimensional data (such as environmental and weather data) 
 
 @SCREENSHOT_ncWMS@
 
-.. image:: /images/projects/ncWMS/ncWMS-02-variable_view.png
-  :scale: 60 %
-  :alt: Screen Shot of ncWMS
-  :align: right
-
-
-
 Core Features
 -------------
 

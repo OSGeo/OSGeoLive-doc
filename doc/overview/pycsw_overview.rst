@@ -9,7 +9,7 @@
 @OSGEO_KIND_pycsw@
 
 
-@NAMW_pycsw@
+@NAME_pycsw@
 ================================================================================
 
 Metadata Catalogue
@@ -24,11 +24,6 @@ pycsw is a `Python`_ implementation of the `OGC Catalogue Services for the Web (
 pycsw is Open Source, released under an MIT license, and runs on all major platforms (Windows, Linux, Mac OS X).
 
 @SCREENSHOT_pycsw@
-
-.. image:: /images/projects/pycsw/pycsw_overview.jpg
-  :scale: 50 %
-  :alt: project logo
-  :align: right
 
 Core Features
 --------------------------------------------------------------------------------

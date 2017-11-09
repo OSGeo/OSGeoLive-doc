@@ -6,7 +6,6 @@
 @LOGO_zoo-project@
 @OSGEO_KIND_zoo-project@
 
-
 @NAME_zoo-project@
 ================================================================================
 
@@ -22,12 +21,6 @@ The three demontration applications are available from the ZOO-Project demo land
 
 ZOO is made of three parts:
 
-@SCREENSHOT_zoo-project@
-
-.. image:: /images/projects/zoo-project/zoo-demo-2.png
-  :scale: 40 %
-  :alt: screenshot
-  :align: right
 
 *ZOO Kernel* : A powerful server-side C Kernel which makes it possible to
 manage and chain Web services coded in different programming languages. 
@@ -51,6 +44,8 @@ available functions which can be called using a WPS Exec Request, as well
 as the desired input/output. Services contain the algorithms and
 functions, and can now be implemented in C/C++, Fortran, Java, Python, PHP, Ruby, C#
 and JavaScript. 
+
+@SCREENSHOT_zoo-project@
 
 Core Features
 --------------------------------------------------------------------------------
