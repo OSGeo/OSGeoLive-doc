@@ -18,11 +18,6 @@ GeoNetwork OpenSource is a catalog application for managing spatially referenced
 
 @SCREENSHOT_geonetwork@
 
-.. image:: /images/projects/geonetwork/geonetwork_once-samples-are-loaded.png
-  :alt: Geonetwork after samples are loaded
-  :scale: 50%
-  :align: right
-
 Core Features
 --------------------------------------------------------------------------------
 * Immediate search access to local and distributed geospatial catalogues

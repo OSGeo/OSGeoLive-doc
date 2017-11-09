@@ -24,12 +24,7 @@ an air quality monitoring station.
 
 @SCREENSHOT_52nSOS@
 
-.. image:: /images/projects/52nSOS/52n_sos_overview.png
-  :scale: 60 %
-  :alt: 52°North SOS and JavaScript client
-  :align: right
-
-Features
+Core Features
 -------------------------------------------------------------------------------
 
 * **Browser Client**: The SOS is delivered with a browser based application.

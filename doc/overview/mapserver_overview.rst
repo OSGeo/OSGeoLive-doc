@@ -20,15 +20,11 @@ MapServer was originally developed by the University of Minnesota (UMN) ForNet p
 
 MapServer is now a project of `OSGeo <http://www.osgeo.org>`_, and is maintained by a growing number of developers (nearing 20) from around the world. It is supported by a diverse group of organizations that fund enhancements and maintenance, and administered within OSGeo by the MapServer Project Steering Committee made up of developers and other contributors.
 
+@SCREENSHOT_mapserver@
+
 Core Features
 --------------------------------------------------------------------------------
 
-@SCREENSHOT_mapserver@
-
-.. image:: /images/projects/mapserver/mapserver.png
-  :scale: 50 %
-  :alt: screenshot
-  :align: right
 
 * Advanced cartographic output
 

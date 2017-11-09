@@ -29,11 +29,6 @@ Python, :doc:`MapServer <mapserver_overview>`, Django/GeoDjango, :doc:`GDAL
 
 @SCREENSHOT_eoxserver@
 
-.. image:: /images/projects/eoxserver/eoxserver_screenshot.png
-  :scale: 50 %
-  :alt: EOxServer embedded client
-  :align: right
-
 Core Features
 --------------------------------------------------------------------------------
 

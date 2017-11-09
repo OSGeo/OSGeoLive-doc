@@ -27,11 +27,6 @@ deegree provides geospatial webservices based upon `Open Geospatial Consortium (
 
 @SCREENSHOT_deegree@
 
-.. image:: /images/projects/deegree/deegree_mainpage.png
-  :scale: 55 %
-  :alt: TBD
-  :align: right
-
 Core Features
 --------------------------------------------------------------------------------
 

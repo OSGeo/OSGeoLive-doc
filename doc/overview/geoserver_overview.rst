@@ -23,11 +23,6 @@ management interface and connects to multiple data sources at the back end.
 
 @SCREENSHOT_geoserver@
 
-.. image:: /images/projects/geoserver/geoserver.png
-  :scale: 60 %
-  :alt: Screen Shot of GeoServer
-  :align: right
-
 Core Features
 --------------------------------------------------------------------------------
 

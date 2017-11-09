@@ -14,17 +14,12 @@
 Proxy WMS & tile services
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-@SCREENSHOT_mapproxy@
-
-.. image:: /images/projects/mapproxy/mapproxy.png
-  :alt: MapProxy diagram
-  :align: right
-
 MapProxy speeds up mapping applications by pre-rendering and integrating maps from multiple sources and storing in a local cache.
 Layers can be made transparent, projections can be changed, multiple map layers can be transformed into one, watermarks can be added, and more...
 
 MapProxy is flexible and scales from simple to complex use-cases: from a single tile cache for an :doc:`OpenLayers <openlayers_overview>` web client to a central SDI node that combines, unifies and accelerates dozens of distributed WMS services.
 
+@SCREENSHOT_mapproxy@
 
 Core Features
 --------------------------------------------------------------------------------
