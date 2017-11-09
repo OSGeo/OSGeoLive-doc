@@ -23,12 +23,6 @@ The OSGeoLive distribution includes a city sized extract of OSM data which is us
 
 @SCREENSHOT_osm_dataset@
 
-.. image:: /images/projects/osm_dataset/osm-screenshot.jpg 
-  :scale: 55 %
-  :alt: OSM screenshot
-  :align: right
-
-
 Core Features
 --------------------------------------------------------------------------------
 
