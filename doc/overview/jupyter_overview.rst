@@ -18,6 +18,9 @@ The Jupyter Notebook is a web application that allows you to create and share do
 
 It combines two components:
 
+@SCREENSHOT_jupyter@
+
+
 .. image:: /images/projects/jupyter/jupyter-screenshot.png
   :scale: 70 %
   :alt: screenshot

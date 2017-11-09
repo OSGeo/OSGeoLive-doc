@@ -24,10 +24,7 @@ Advantages of the database routing approach are:
 
 pgRouting is available under the GPLv2 license and is supported by a growing community of individuals, businesses and organizations.
 
-.. image:: /images/projects/pgrouting/pgrouting.png
-  :scale: 70 %
-  :alt: pgRouting query in pgAdminIII
-  :align: right
+@SCREENSHOT_pgrouting@
 
 Core Features
 --------------------------------------------------------------------------------

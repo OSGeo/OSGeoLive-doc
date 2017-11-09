@@ -15,12 +15,6 @@
 Browser/Mobile Map Library
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-.. image:: /images/projects/leaflet/leaflet-overview.png
-  :scale: 50
-  :alt: leaflet
-  :align: right
-
 Leaflet is an JavaScript library for browser based, mobile-friendly, interactive maps.  It is light weight, yet has all the features most developers ever need for online maps.
 
 Leaflet is designed with simplicity, performance and usability in mind. 
@@ -29,6 +23,8 @@ the box,  taking advantage of HTML5 and CSS3 on modern browsers while
 being accessible on older ones too.  It can be extended with many
 plugins, has a beautiful, easy to use and well-documented API and a
 simple, readable source code that is a joy to contribute to.
+
+@SCREENSHOT_leaflet@
 
 Core Features
 --------------------------------------------------------------------------------

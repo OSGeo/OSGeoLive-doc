@@ -19,6 +19,8 @@ osgEarth supports all kinds of data and comes with lots of examples to help you 
 
 .. _OpenSceneGraph: http://www.openscenegraph.org/
 
+@SCREENSHOT_osgearth@
+
 .. image:: /images/projects/osgearth/osgearth.jpg
   :scale: 50 %
   :alt: screenshot

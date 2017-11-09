@@ -25,11 +25,7 @@ GMT supports many common map projections plus linear, log, and power
 scaling, and comes with support data such as coastlines, rivers, and
 political boundaries.
 
-
-.. image:: /images/projects/gmt/gmt-example28.png
-  :scale: 50 %
-  :alt: screenshot
-  :align: right
+@SCREENSHOT_gmt@
 
 Core Features
 --------------------------------------------------------------------------------

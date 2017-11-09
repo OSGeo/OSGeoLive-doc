@@ -27,6 +27,8 @@ from a number of research and science organisations.
 Core Features
 --------------------------------------------------------------------------------
 
+@SCREENSHOT_mb-system@
+
 .. image:: /images/projects/mb-system/mb-system_screenshot.png
   :scale: 60 %
   :alt: screenshot

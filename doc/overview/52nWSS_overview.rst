@@ -29,6 +29,8 @@ It acts as a proxy for an arbitrary number of OGC Web Services, receiving all re
 upon the defined policies. Thus, existing service implementations don't need to be changed.
 Policies and users are defined in XML configuration files, which are maintained from a general management interface.
 
+@SCREENSHOT_52nWSS@
+
 .. image:: /images/projects/52nWSS/52n_wss_mgmt.png
   :scale: 70 %
   :alt: Screenshot of WSS Management UI

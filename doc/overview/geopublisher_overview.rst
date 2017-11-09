@@ -19,6 +19,8 @@ Geopublisher provides tools for quality assurance and multilingual meta-data man
 
 Geopublisher's unique features make it especially applicable in the fields of international research, participatory GIS, capacity building, and development cooperation.
 
+@SCREENSHOT_geopublisher@
+
 Core Features
 --------------------------------------------------------------------------------
 .. image:: /images/projects/geopublisher/geopublisher-overview.png

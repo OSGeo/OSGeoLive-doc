@@ -32,14 +32,10 @@ Travel back in time and learn about historic views of our planet using
 maps from past centuries. Earth is not enough? Marble also offers maps 
 of the moon and other planets.
 
+@SCREENSHOT_marble@
 
 Core Features
 --------------------------------------------------------------------------------
-
-.. image:: /images/projects/marble/marble-history.png
-  :scale: 64 %
-  :alt: screenshot
-  :align: right
 
 * Virtual Globe And World Atlas
 * Easy to use

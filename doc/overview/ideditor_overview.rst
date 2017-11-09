@@ -17,10 +17,7 @@ The iD editor is the de facto, browser-based `OpenStreetMap <http://www.openstre
 
 The iD editor is a great way to edit small and easy changes that don’t require the advanced features of the more advanced :doc:`JOSM <josm_overview>` editor.
 
-.. image:: /images/projects/ideditor/ideditor.png
-  :scale: 50 %
-  :alt: iD Editor
-  :align: right
+@SCREENSHOT_ideditor@
 
 Core Features
 --------------------------------------------------------------------------------

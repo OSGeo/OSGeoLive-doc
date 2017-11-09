@@ -21,10 +21,7 @@ Processes are written in the Python programming language and can integrate tools
 :doc:`GRASS GIS <grass_overview>`, :doc:`R <R_overview>`, :doc:`GDAL/OGR <gdal_overview>`, :doc:`proj.4 <proj4_overview>` and other libraries with
 Python bindings.  Source data can be provided with WPS requests or accessed from data on the WPS server.
 
-.. image:: /images/projects/pywps/pywps_client.png
-    :scale: 50 %
-    :alt: screenshot
-    :align: right
+@SCREENSHOT_pywps@
 
 Core Features
 --------------------------------------------------------------------------------

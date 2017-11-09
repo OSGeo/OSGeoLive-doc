@@ -28,6 +28,8 @@ testing environment, and tools for compressing JavaScript code. The JavaScript
 toolbox is composed of the `ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>` , `GeoExt <http://www.geoext.org>`_ JavaScript
 toolkits.
 
+@SCREENSHOT_mapfish@
+
 .. image:: /images/projects/mapfish/mapfish-screenshot.jpg
   :scale: 50 %
   :alt: screenshot

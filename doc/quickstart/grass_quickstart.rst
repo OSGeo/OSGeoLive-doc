@@ -228,7 +228,7 @@ and modules are every bit as full-featured as the raster ones. GRASS GIS
 maintains a fully topological vector engine which allows all sorts
 of very powerful analyses.
 
-.. image:: /images/projects/grass/grass-vectattrib.png
+.. image:: /images/projects/grass/grass_screenshot.png
   :scale: 50 %
   :alt: screenshot
   :align: right

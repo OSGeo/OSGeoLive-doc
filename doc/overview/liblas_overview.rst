@@ -19,16 +19,13 @@ libLAS is a C/C++ library for reading and writing the very common `LAS`
 store data from LiDAR sensors and by LiDAR processing software for data
 interchange and archival.
 
-.. image:: /images/projects/liblas/liblas.jpg
-  :alt: LiDAR Acquisition
-  :align: right
-  :scale: 80 %
-  
 LiDAR (Light Detection and Ranging) is a form of high precision range detection much like a radar system that 
 uses laser light as the electromagnetic emission. One of LiDAR systems' 
 products is a "point cloud" data product that can be conceptualized as a 
 series of point measurements representing distance from the sensor to a returned 
 emission.  A common storage format for these point cloud data is ASPRS LAS format.
+
+@SCREENSHOT_liblas@
 
 Core Features
 --------------------------------------------------------------------------------

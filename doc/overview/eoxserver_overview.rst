@@ -27,10 +27,7 @@ Python, :doc:`MapServer <mapserver_overview>`, Django/GeoDjango, :doc:`GDAL
 <gdal_overview>`, PROJ.4, and a :doc:`SpatiaLite <spatialite_overview>` or
 :doc:`PostGIS <postgis_overview>` database.
 
-.. image:: /images/projects/eoxserver/eoxserver_screenshot.png
-  :scale: 50 %
-  :alt: EOxServer embedded client
-  :align: right
+@SCREENSHOT_eoxserver@
 
 Core Features
 --------------------------------------------------------------------------------

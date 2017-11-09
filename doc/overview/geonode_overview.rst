@@ -17,10 +17,7 @@ Geospatial Content Management System
 
 GeoNode is built upon: GeoServer, GeoExplorer, pycsw, Django, and GeoExt.
 
-.. image:: /images/projects/geonode/geonode_basic_application.png
-  :scale: 50%
-  :alt: GeoNode application
-  :align: right
+@SCREENSHOT_geonode@
 
 Core Features
 --------------------------------------------------------------------------------

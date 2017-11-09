@@ -23,6 +23,8 @@ Implemented Standards
 
 * `OpenGIS Simple Features for SQL <http://www.opengeospatial.org/standards/sfs>`_  spatial predicate functions and spatial operators
 
+..  @SCREENSHOT_geos@
+
 Core Features
 --------------------------------------------------------------------------------
     

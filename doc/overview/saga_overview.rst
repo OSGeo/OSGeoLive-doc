@@ -26,10 +26,7 @@ SAGA has been in development since 2001, and the centre of SAGA development is
 located in the Institute of Geography at the University of Hamburg, with
 contributions from the growing world wide community.
 
-.. image:: /images/projects/saga/saga_overview.png
-  :scale: 40%
-  :alt: screenshot
-  :align: right
+@SCREENSHOT_saga@
 
 Core Features
 --------------------------------------------------------------------------------

@@ -27,10 +27,7 @@ the primary data access engine for many applications including MapServer,
 GRASS, QGIS, and OpenEV. It is also utilized by packages such as OSSIM,
 Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS.
 
-.. image:: /images/projects/gdal/gdal_ogr_proj_overview.png
-  :scale: 60 %
-  :alt: GDAL supports many geodata formats
-  :align: right
+@SCREENSHOT_gdal@
 
 Core Features
 --------------------------------------------------------------------------------

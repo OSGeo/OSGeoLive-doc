@@ -19,6 +19,8 @@ and analyse spatial data from a variety of databases, vector and raster formats.
 Kosmo - Desktop follows OGC standards and provides excellent topology integrity. 
 It's plug-in architecture enables it to be easily customised for specific purposes.
 
+@SCREENSHOT_kosmo@
+
 .. image:: /images/projects/kosmo/kosmo.jpg
   :scale: 50 %
   :alt: screenshot

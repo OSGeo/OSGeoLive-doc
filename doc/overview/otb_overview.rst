@@ -30,13 +30,11 @@ Methodological Part of the ORFEO/Pleiades Accompaniement Program and has been
 actively developed since 2006. It is based on the ITK image processing library
 and is distributed as open source.
 
+@SCREENSHOT_otb@
+
 Core Features
 --------------------------------------------------------------------------------
 
-.. image:: /images/projects/otb/otb-mvd3-screenshot.jpg
-  :scale: 50 %
-  :alt: screenshot
-  :align: right
 
 * image access: optimized read/write access for most remote sensing raster
   formats (also JPEG2000 formats), meta-data access and visualization;

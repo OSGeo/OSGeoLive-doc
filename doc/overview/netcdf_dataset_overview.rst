@@ -7,7 +7,7 @@
 @OSGEO_KIND_netcdf_dataset@
 
 
-@NAME_netcdf@
+@NAME_netcdf_dataset@
 ================================================================================
 
 Map Data
@@ -19,11 +19,7 @@ This sample dataset supplies annual maximum of daily high temperature, and annua
 
 Data courtesy of the University of Victoria PCIC (Pacific Climate Impacts Consortium), in cooperation with AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba, Japan), NIES (National Institute for Environmental Studies, Ibaraki, Japan), JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa, Japan). 
 
-
-.. image:: /images/projects/netcdf_dataset/netcdf_annual_avg_max_temp.png
-  :scale: 60 %
-  :alt: Panoply NetCDF txxETCCDI_yr_MIROC5 screenshot
-  :align: right
+@SCREENSHOT_netcdf_dataset@
 
 
 Details

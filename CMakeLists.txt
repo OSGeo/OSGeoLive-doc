@@ -260,6 +260,15 @@ MACRO(INSERT_INTO_MAP_LOGO _KEY _TARGET)
 ")
 ENDMACRO(INSERT_INTO_MAP_LOGO)
 
+MACRO(INSERT_INTO_MAP_SCREENSHOT _KEY _TARGET)
+    SET("SCREENSHOT_${_KEY}"
+ ".. image:: /images/projects/${_KEY}/${_KEY}_screenshot.png
+    :width: 500px
+    :alt: ${_KEY} screenshot
+    :align: right
+")
+ENDMACRO(INSERT_INTO_MAP_SCREENSHOT)
+
 
 MACRO(INSERT_INTO_MAP_QUICK _KEY _TARGET)
     if ("${_TARGET}" STREQUAL "Y")
@@ -331,6 +340,7 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     string(CONCAT  OSGeoLiveDoc_PROJECTS_VERSIONS ${OSGeoLiveDoc_PROJECTS_VERSIONS} ".. |version-${project_page}| replace:: ${project_version}\n")
 
     INSERT_INTO_MAP_LOGO("${project_page}" "${url_target}")
+    INSERT_INTO_MAP_SCREENSHOT("${project_page}" "${url_target}")
     INSERT_INTO_MAP_KIND("${project_page}" "${osgeo_kind}")
     INSERT_INTO_MAP_NAME("${project_page}" "${project_name}")
     INSERT_INTO_MAP_QUICK("${project_page}" "${want_quickstart}")

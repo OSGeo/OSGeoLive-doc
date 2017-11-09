@@ -18,10 +18,7 @@ Natural Earth provides cartographers an off-the shelf solution for creating smal
 
 Natural Earth solves the common problem that many cartographers face: finding vector data for making publication-quality small-scale maps at the appropriate level of detail for the maps they are making.
 
-.. image:: /images/projects/naturalearth/naturalearth.png
-  :scale: 55 %
-  :alt: natural earth screenshot
-  :align: right
+@SCREENSHOT_naturalearth@
 
 Core Features
 --------------------------------------------------------------------------------

@@ -15,10 +15,7 @@ Browser GIS Client
 
 The Client enables developers to create powerful web GIS applications including interactive maps, extensible widgets and custom use cases. It allows access to a wide range of data sources and functionality through a web browser.
 
-.. image:: /images/projects/geomajas/geomajas_1024x768_screen1.png
-  :scale: 50%
-  :alt: Geomajas Showcase
-  :align: right
+@SCREENSHOT_geomajas@
 
 Core Features
 --------------------------------------------------------------------------------

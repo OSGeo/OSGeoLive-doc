@@ -25,14 +25,10 @@ A number of programs have been included: JOSM, Merkaartor, Osmosis, Osm2pgsql,
 and a number of small command utilities. In addition recent sample data for
 the FOSS4G host city and a number of JOSM plugins have been included.
 
+@SCREENSHOT_osm@
 
 Core Features
 --------------------------------------------------------------------------------
-
-.. image:: /images/projects/osm_dataset/osm-screenshot.jpg
-  :scale: 50 %
-  :alt: screenshot
-  :align: right
 
 * Global massively crowd-sourced dataset
 

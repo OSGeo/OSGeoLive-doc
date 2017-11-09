@@ -14,11 +14,6 @@
 Proxy WMS & tile services
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/projects/mapproxy/mapproxy.png
-  :alt: MapProxy diagram
-  :align: right
-
-
 Map Publishing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -27,6 +22,8 @@ MapSlicer is a desktop application for the creation of map tiles for rapid raste
 No extensive configuration on the server side is necessary, any simple file hosting is fine. Dynamic interaction such as panning and zooming, overlay of markers and vector data is provided by powerful browser functionality.
 
 The application directly generates a ready to use simple viewer based on OpenLayers and Google Maps API and can be easily customized.
+
+@SCREENSHOT_mapslicer@
 
 Core Features
 --------------------------------------------------------------------------------

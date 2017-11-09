@@ -29,6 +29,8 @@ re-write as a generic disaster management tools was incubated with
 the sponsorship of the Swedish International Development Agency, IBM, the US National Science Foundation and it has been used by 
 dozens of Governments and NGOs since then.
 
+@SCREENSHOT_sahana@
+
 .. image:: /images/projects/sahana/sahana-camp-dist_0.jpg
   :scale: 80 %
   :alt: screenshot

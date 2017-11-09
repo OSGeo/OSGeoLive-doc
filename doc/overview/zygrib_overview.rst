@@ -16,13 +16,10 @@ Weather forecasting
 zyGrib is a program to download and visualize weather forecast data in
 the standard GRIB distribution format.
 
+@SCREENSHOT_zygrib@
+
 Core Features
 --------------------------------------------------------------------------------
-
-.. image:: /images/projects/zygrib/zygrib_xynthia_010b.jpg
-  :scale: 40 %
-  :alt: screenshot
-  :align: right
 
 * Visualization of meteorologic data from files in GRIB format
 * Automatic download of weather and wave forecasts

@@ -17,6 +17,8 @@ About
 
 The created SLD files are compatible with all programs which support the OGC SLD standard, including :doc:`GeoServer <geoserver_overview>`, :doc:`uDig <udig_overview>` and others. The application provides a multitude of intuitive dialogs to simplify style creation. Users can apply abstract classifications like unique values, colored quantiles or equal distance. Additionally users have integrated access to an online symbol-database. Users can create and save symbols in the SymbolEditor and reused in classifications or other projects.
 
+@SCREENSHOT_atlasstyler@
+
 .. image:: /images/projects/atlasstyler/atlasstyler-overview.png
   :scale: 40 %
   :alt: screenshot

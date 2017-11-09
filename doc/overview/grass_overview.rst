@@ -29,10 +29,6 @@ produce sophisticated presentation graphics and hardcopy maps. GRASS GIS has
 been translated into many languages and supports a huge array of data
 formats.
 
-.. image:: /images/projects/grass/grass-vectattrib.png
-   :scale: 50 %
-   :alt: screenshot
-   :align: right
 
 GRASS GIS is used around the world in academic and commercial settings
 as well as by many governmental agencies and environmental consulting
@@ -49,6 +45,8 @@ as well as a handy desktop GIS for handheld PDAs or netbooks.
 
 
 .. _GRASS GIS: http://grass.osgeo.org
+
+@SCREENSHOT_grass@
 
 Core Features
 --------------------------------------------------------------------------------

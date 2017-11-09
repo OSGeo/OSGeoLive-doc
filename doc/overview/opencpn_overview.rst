@@ -21,13 +21,10 @@ OpenCPN presents a user with the vessel's current position, speed and course sup
 As the host vessel moves, new charts are selected and displayed at user specified resolution and detail. Further, the user may enter routes and waypoints allowing interface to an external autopilot for precise course following.
 
 
+@SCREENSHOT_opencpn@
+
 Core Features
 --------------------------------------------------------------------------------
-
-.. image:: /images/projects/opencpn/opencpn_screenshot.png
-  :scale: 50 %
-  :alt: screenshot
-  :align: right
 
 OpenCPN supports:
 

@@ -25,7 +25,7 @@ Running
 
 * The 52n WPS welcome page will appear. 
 
-  .. image:: /images/projects/52nWPS/52nWPS_welcome_page.png
+  .. image:: /images/projects/52nWPS/52nWPS_screenshot.png
     :scale: 70 %
     :alt: screenshot
 
