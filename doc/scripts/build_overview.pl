@@ -8,10 +8,9 @@ use Data::Dumper;
 use File::Find ();
 
 
-use vars qw/*name *dir *prune/;
+use vars qw/*name *dir/;
 *name   = *File::Find::name;
 *dir    = *File::Find::dir;
-*prune  = *File::Find::prune;
 
 
 my $DEBUG = "@OSGeoLiveDoc_DEBUG@";
@@ -28,7 +27,7 @@ my $output_file = '@CMAKE_BINARY_DIR@/doc/overview/overview.rst';
 die "ERROR: Failed to find: '$projects_info_file'\n" unless -f $projects_info_file;
 
 ######################################################
-# process section 
+# process section
 ######################################################
 #
 print "Building the overview.txt files\n" if $DEBUG;
@@ -59,47 +58,47 @@ exit 0;
 sub read_and_parse_configuration {
     # get the parameter and store it in the variable $file
     my $file = shift;
-    
+
     #Initialise hash Hash.
     my %hash = ();
-    
+
     # try to open the file or die
     open(IN, $file) || die "ERROR: Failed to open '$file'\n";
-    
-    
-    # Reads the file line by line and stores it in $line, 
+
+
+    # Reads the file line by line and stores it in $line,
     # if empty, operation becomes true and while loop ends
     while (my $line = <IN>) {
-    
+
         # if the lines is commented, it is ignored (or a message is print in debug mode)
         if ($line =~ /^#/) {
             print "found comment: $line\n" if $DEBUG;
             next;
         };
-        
+
         # Remove spaces from the line
         $line =~ s/\s*$//;
         my @values = split('\|', $line);
 
         #removes spaces of all elements
         s{^\s+|\s+$}{}g foreach @values;
-        
+
         # if the project is not subject to documentation, it is ignored
         if ($values[0] =~ "N") {
             print "Not for documentation: $line\n" if $DEBUG;
             next;
         }
-        
+
         # push the value in right section
         # put the $line in the bucket that has the name stored in $values[5]
         print "Section: '$values[5]' on line: $line\n" if $DEBUG;
         push @{$hash{$values[5]}}, $line;
-        
+
     } # end of while loop
-    
+
     # close the file
     close(IN);
-    
+
     # return collected data in a hash data type
     return \%hash;
 }
