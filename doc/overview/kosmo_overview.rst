@@ -13,10 +13,10 @@
 Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Kosmo - Desktop is a user friendly, desktop GIS application which allows you to explore, edit 
-and analyse spatial data from a variety of databases, vector and raster formats. 
+Kosmo - Desktop is a user friendly, desktop GIS application which allows you to explore, edit
+and analyse spatial data from a variety of databases, vector and raster formats.
 
-Kosmo - Desktop follows OGC standards and provides excellent topology integrity. 
+Kosmo - Desktop follows OGC standards and provides excellent topology integrity.
 It's plug-in architecture enables it to be easily customised for specific purposes.
 
 @SCREENSHOT_kosmo@
@@ -46,12 +46,12 @@ Key features:
   * CAD style tools: rotate, rotate by angle, symmetry, perpendicular, paralell, ... (by an extension)
   * Multiple snapping modes: to vertexes, to vertexes and lines, to segment mid points, to centroids, to grid, ...
   * Geometry tracking mode
-  * Advanced snap manager (by an extension)  
+  * Advanced snap manager (by an extension)
 * Advanced printing module based on OpenOffice offimatic suite (by an extension)
 * Topology consistency rules: pre/during/post edition
 * Topology validation and cleaning tools (intersect/eliminate/clean)
 * Geoprocessing wizard extension: buffer/dissolve/merge/clip/intersection/spatial join/difference (by an extension)
-* Raster georreferencing tool (by an extension)
+* Raster georeferencing tool (by an extension)
 * Sextante 1.0 integrated (by an extension)
 * Massive import/export operations wizard (by an extension)
 * PDF printing module (by an extension)
@@ -86,4 +86,4 @@ Details
 
 
 @QUICKSTART_kosmo@
-    
+
