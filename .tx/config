@@ -3,7 +3,7 @@ host = https://www.transifex.com
 type = PO
 
 [osgeolive.contributors]
-file_filter = build/doc/locale/<lang>/LC_MESSAGES/contributors.po
+file_filter = locale/<lang>/LC_MESSAGES/contributors.po
 source_file = locale/pot/contributors.pot
 source_lang = en
 

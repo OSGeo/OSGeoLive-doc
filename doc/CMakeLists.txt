@@ -97,14 +97,16 @@ set(LATEX_PAPER_SIZE " -D latex_paper_size=${LATEX_PAPER_SIZE}")
 if (LOCALE)
     add_custom_target(locale
         COMMAND ${SPHINX_EXECUTABLE} 
+
         -b gettext
-        -c "${CMAKE_CURRENT_BINARY_DIR}" 
+
+         # the location of the documentation to be build
         "${CMAKE_CURRENT_BINARY_DIR}" 
         "${CMAKE_SOURCE_DIR}/locale/pot" 
 
         COMMAND sphinx-intl update -d ${CMAKE_SOURCE_DIR}/locale
 
-        COMMAND sphinx-intl update-txconfig-resources --pot-dir ${CMAKE_SOURCE_DIR}/locale/pot --transifex-project-name osgeolive
+        COMMAND sphinx-intl update-txconfig-resources --locale-dir ${CMAKE_SOURCE_DIR}/locale --pot-dir ${CMAKE_SOURCE_DIR}/locale/pot --transifex-project-name osgeolive
 
 
         DEPENDS overview/overview.rst metrics.rst
