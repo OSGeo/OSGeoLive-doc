@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 21:10-0600\n"
+"POT-Creation-Date: 2017-11-25 21:36-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,11 +24,11 @@ msgstr ""
 msgid "Browser/Mobile Map Library"
 msgstr ""
 
-#: ../../build/doc/overview/leaflet_overview.rst:27
+#: ../../build/doc/overview/leaflet_overview.rst:21
 msgid "Leaflet is an JavaScript library for browser based, mobile-friendly, interactive maps.  It is light weight, yet has all the features most developers ever need for online maps."
 msgstr ""
 
-#: ../../build/doc/overview/leaflet_overview.rst:29
+#: ../../build/doc/overview/leaflet_overview.rst:23
 msgid "Leaflet is designed with simplicity, performance and usability in mind. It works efficiently across all major desktop and mobile platforms out of the box,  taking advantage of HTML5 and CSS3 on modern browsers while being accessible on older ones too.  It can be extended with many plugins, has a beautiful, easy to use and well-documented API and a simple, readable source code that is a joy to contribute to."
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 21:10-0600\n"
+"POT-Creation-Date: 2017-11-25 21:36-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,95 +32,95 @@ msgstr ""
 msgid "JTS is used by most java based Open Source geospatial applications, and :doc:`geos_overview`, which is a C++ port of JTS, is used by most C based applications.  Additional ports are available for C# and JavaScript."
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:34
+#: ../../build/doc/overview/jts_overview.rst:35
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:36
+#: ../../build/doc/overview/jts_overview.rst:37
 msgid "Geometry model (point, line, area)"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:37
+#: ../../build/doc/overview/jts_overview.rst:38
 msgid "Geometry operations (e.g., intersect, union, within, etc.)"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:38
+#: ../../build/doc/overview/jts_overview.rst:39
 msgid "Precision handling"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:39
+#: ../../build/doc/overview/jts_overview.rst:40
 msgid "Geometric constructions"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:40
+#: ../../build/doc/overview/jts_overview.rst:41
 msgid "Metric functions (e.g., Cartesian 2D distance, Hausdorff distance)"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:41
+#: ../../build/doc/overview/jts_overview.rst:42
 msgid "Spatial algorithms (e.g. buffer creation, line offsets, line simplification)"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:42
+#: ../../build/doc/overview/jts_overview.rst:43
 msgid "Geometric math functions (e.g., angles, distances, etc.)"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:43
+#: ../../build/doc/overview/jts_overview.rst:44
 msgid "Spatial structures (e.g. Quadtree and R-tree, Delauney triangulation)"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:44
+#: ../../build/doc/overview/jts_overview.rst:45
 msgid "Input/Output (e.g., WKT, GML)"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:45
+#: ../../build/doc/overview/jts_overview.rst:46
 msgid "High-precision arithmetic"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:48
+#: ../../build/doc/overview/jts_overview.rst:49
 msgid "Supported Formats"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:50
+#: ../../build/doc/overview/jts_overview.rst:51
 msgid "Well Known Text (WKT) and Well Known Binary (WKB)"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:51
+#: ../../build/doc/overview/jts_overview.rst:52
 msgid "GML 2"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:52
+#: ../../build/doc/overview/jts_overview.rst:53
 msgid "Java Swing/AWT writing"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:55
+#: ../../build/doc/overview/jts_overview.rst:56
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:57
+#: ../../build/doc/overview/jts_overview.rst:58
 msgid "OGC Simple Features for SQL (SFSQL)"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:60
+#: ../../build/doc/overview/jts_overview.rst:61
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:62
+#: ../../build/doc/overview/jts_overview.rst:63
 msgid "**Website:** ttps://www.locationtech.org/projects/technology.jts"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:64
+#: ../../build/doc/overview/jts_overview.rst:65
 msgid "**Licence:** LGPL"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:66
+#: ../../build/doc/overview/jts_overview.rst:67
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:68
+#: ../../build/doc/overview/jts_overview.rst:69
 msgid "**API Interfaces:** Java"
 msgstr ""
 
-#: ../../build/doc/overview/jts_overview.rst:70
+#: ../../build/doc/overview/jts_overview.rst:71
 msgid "**Support:** https://sourceforge.net/projects/jts-topo-suite/"
 msgstr ""
 

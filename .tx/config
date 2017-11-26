@@ -32,7 +32,6 @@ file_filter = locale/<lang>/LC_MESSAGES/sponsors_osgeo.po
 source_file = locale/pot/sponsors_osgeo.pot
 source_lang = en
 
-
 [osgeolive.translators]
 file_filter = locale/<lang>/LC_MESSAGES/translators.po
 source_file = locale/pot/translators.pot
@@ -42,7 +41,6 @@ source_lang = en
 file_filter = locale/<lang>/LC_MESSAGES/metrics.po
 source_file = locale/pot/metrics.pot
 source_lang = en
-
 
 [osgeolive.sponsors]
 file_filter = locale/<lang>/LC_MESSAGES/sponsors.po
@@ -58,8 +56,6 @@ source_lang = en
 file_filter = locale/<lang>/LC_MESSAGES/prior_applications.po
 source_file = locale/pot/prior_applications.pot
 source_lang = en
-
-
 
 [osgeolive.quickstart--geomoose_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/geomoose_quickstart.po
@@ -111,7 +107,6 @@ file_filter = locale/<lang>/LC_MESSAGES/quickstart/qgis_quickstart.po
 source_file = locale/pot/quickstart/qgis_quickstart.pot
 source_lang = en
 
-
 [osgeolive.quickstart--openjump_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/openjump_quickstart.po
 source_file = locale/pot/quickstart/openjump_quickstart.pot
@@ -122,24 +117,20 @@ file_filter = locale/<lang>/LC_MESSAGES/quickstart/osgeolive_quickstart.po
 source_file = locale/pot/quickstart/osgeolive_quickstart.pot
 source_lang = en
 
-
 [osgeolive.quickstart--qgis_mapserver_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/qgis_mapserver_quickstart.po
 source_file = locale/pot/quickstart/qgis_mapserver_quickstart.pot
 source_lang = en
-
 
 [osgeolive.quickstart--grass_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/grass_quickstart.po
 source_file = locale/pot/quickstart/grass_quickstart.pot
 source_lang = en
 
-
 [osgeolive.quickstart--osgeolive_install_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/osgeolive_install_quickstart.po
 source_file = locale/pot/quickstart/osgeolive_install_quickstart.pot
 source_lang = en
-
 
 [osgeolive.quickstart--leaflet_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/leaflet_quickstart.po
@@ -151,12 +142,10 @@ file_filter = locale/<lang>/LC_MESSAGES/quickstart/gmt_quickstart.po
 source_file = locale/pot/quickstart/gmt_quickstart.pot
 source_lang = en
 
-
 [osgeolive.quickstart--internationalisation_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/internationalisation_quickstart.po
 source_file = locale/pot/quickstart/internationalisation_quickstart.pot
 source_lang = en
-
 
 [osgeolive.quickstart--spatialite_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/spatialite_quickstart.po
@@ -167,7 +156,6 @@ source_lang = en
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/liblas_quickstart.po
 source_file = locale/pot/quickstart/liblas_quickstart.pot
 source_lang = en
-
 
 [osgeolive.quickstart--zygrib_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/zygrib_quickstart.po
@@ -193,7 +181,6 @@ source_lang = en
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/ossim_quickstart.po
 source_file = locale/pot/quickstart/ossim_quickstart.pot
 source_lang = en
-
 
 [osgeolive.quickstart--rasdaman_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/rasdaman_quickstart.po
@@ -250,7 +237,6 @@ file_filter = locale/<lang>/LC_MESSAGES/quickstart/cesium_quickstart.po
 source_file = locale/pot/quickstart/cesium_quickstart.pot
 source_lang = en
 
-
 [osgeolive.quickstart--mapproxy_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/mapproxy_quickstart.po
 source_file = locale/pot/quickstart/mapproxy_quickstart.pot
@@ -265,7 +251,6 @@ source_lang = en
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/zoo-project_quickstart.po
 source_file = locale/pot/quickstart/zoo-project_quickstart.pot
 source_lang = en
-
 
 [osgeolive.quickstart--pycsw_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/pycsw_quickstart.po
@@ -286,7 +271,6 @@ source_lang = en
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/gvsig_quickstart.po
 source_file = locale/pot/quickstart/gvsig_quickstart.pot
 source_lang = en
-
 
 [osgeolive.quickstart--openlayers_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/openlayers_quickstart.po
@@ -328,18 +312,15 @@ file_filter = locale/<lang>/LC_MESSAGES/quickstart/marble_quickstart.po
 source_file = locale/pot/quickstart/marble_quickstart.pot
 source_lang = en
 
-
 [osgeolive.quickstart--eoxserver_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/eoxserver_quickstart.po
 source_file = locale/pot/quickstart/eoxserver_quickstart.pot
 source_lang = en
 
-
 [osgeolive.overview--R_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/R_overview.po
 source_file = locale/pot/overview/R_overview.pot
 source_lang = en
-
 
 [osgeolive.overview--geomoose_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/geomoose_overview.po
@@ -351,7 +332,6 @@ file_filter = locale/<lang>/LC_MESSAGES/overview/mapserver_overview.po
 source_file = locale/pot/overview/mapserver_overview.pot
 source_lang = en
 
-
 [osgeolive.overview--qgis_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/qgis_overview.po
 source_file = locale/pot/overview/qgis_overview.pot
@@ -361,7 +341,6 @@ source_lang = en
 file_filter = locale/<lang>/LC_MESSAGES/overview/rasdaman_overview.po
 source_file = locale/pot/overview/rasdaman_overview.pot
 source_lang = en
-
 
 [osgeolive.overview--gmt_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/gmt_overview.po
@@ -387,7 +366,6 @@ source_lang = en
 file_filter = locale/<lang>/LC_MESSAGES/overview/osm_dataset_overview.po
 source_file = locale/pot/overview/osm_dataset_overview.pot
 source_lang = en
-
 
 [osgeolive.overview--grass_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/grass_overview.po
@@ -424,7 +402,6 @@ file_filter = locale/<lang>/LC_MESSAGES/overview/eoxserver_overview.po
 source_file = locale/pot/overview/eoxserver_overview.pot
 source_lang = en
 
-
 [osgeolive.overview--zoo-project_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/zoo-project_overview.po
 source_file = locale/pot/overview/zoo-project_overview.pot
@@ -435,18 +412,15 @@ file_filter = locale/<lang>/LC_MESSAGES/overview/52nSOS_overview.po
 source_file = locale/pot/overview/52nSOS_overview.pot
 source_lang = en
 
-
 [osgeolive.overview--naturalearth_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/naturalearth_overview.po
 source_file = locale/pot/overview/naturalearth_overview.pot
 source_lang = en
 
-
 [osgeolive.overview--liblas_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/liblas_overview.po
 source_file = locale/pot/overview/liblas_overview.pot
 source_lang = en
-
 
 [osgeolive.overview--pycsw_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/pycsw_overview.po
@@ -472,7 +446,6 @@ source_lang = en
 file_filter = locale/<lang>/LC_MESSAGES/overview/gvsig_overview.po
 source_file = locale/pot/overview/gvsig_overview.pot
 source_lang = en
-
 
 [osgeolive.overview--52nWPS_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/52nWPS_overview.po
@@ -534,7 +507,6 @@ file_filter = locale/<lang>/LC_MESSAGES/overview/geonetwork_overview.po
 source_file = locale/pot/overview/geonetwork_overview.pot
 source_lang = en
 
-
 [osgeolive.overview--opencpn_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/opencpn_overview.po
 source_file = locale/pot/overview/opencpn_overview.pot
@@ -569,7 +541,6 @@ source_lang = en
 file_filter = locale/<lang>/LC_MESSAGES/overview/gdal_overview.po
 source_file = locale/pot/overview/gdal_overview.pot
 source_lang = en
-
 
 [osgeolive.overview--overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/overview.po
@@ -619,5 +590,25 @@ source_lang = en
 [osgeolive.overview--netcdf_dataset_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/netcdf_dataset_overview.po
 source_file = locale/pot/overview/netcdf_dataset_overview.pot
+source_lang = en
+
+[osgeolive.win_installers]
+file_filter = locale/<lang>/LC_MESSAGES/win_installers.po
+source_file = locale/pot/win_installers.pot
+source_lang = en
+
+[osgeolive.mac_installers]
+file_filter = locale/<lang>/LC_MESSAGES/mac_installers.po
+source_file = locale/pot/mac_installers.pot
+source_lang = en
+
+[osgeolive.quickstart--pywps_quickstart]
+file_filter = locale/<lang>/LC_MESSAGES/quickstart/pywps_quickstart.po
+source_file = locale/pot/quickstart/pywps_quickstart.pot
+source_lang = en
+
+[osgeolive.overview--pywps_overview]
+file_filter = locale/<lang>/LC_MESSAGES/overview/pywps_overview.po
+source_file = locale/pot/overview/pywps_overview.pot
 source_lang = en
 

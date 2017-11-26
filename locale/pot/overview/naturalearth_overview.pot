@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 21:10-0600\n"
+"POT-Creation-Date: 2017-11-25 21:36-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,83 +32,83 @@ msgstr ""
 msgid "Natural Earth solves the common problem that many cartographers face: finding vector data for making publication-quality small-scale maps at the appropriate level of detail for the maps they are making."
 msgstr ""
 
-#: ../../build/doc/overview/naturalearth_overview.rst:30
+#: ../../build/doc/overview/naturalearth_overview.rst:31
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/naturalearth_overview.rst:32
+#: ../../build/doc/overview/naturalearth_overview.rst:33
 msgid "Vector features include name and other attributes"
 msgstr ""
 
-#: ../../build/doc/overview/naturalearth_overview.rst:33
+#: ../../build/doc/overview/naturalearth_overview.rst:34
 msgid "Large polygons are split for more efficient data handling such as bathymetric layers."
 msgstr ""
 
-#: ../../build/doc/overview/naturalearth_overview.rst:34
+#: ../../build/doc/overview/naturalearth_overview.rst:35
 msgid "Projection friendly vectors precisely match at 180 degrees longitude. Lines contain enough data  points for smooth bending in conic projections, but not so many that computer processing speed suffers."
 msgstr ""
 
-#: ../../build/doc/overview/naturalearth_overview.rst:35
+#: ../../build/doc/overview/naturalearth_overview.rst:36
 msgid "Raster data includes grayscale-shaded relief and cross-blended hypsometric tints derived from the latest NASA SRTM Plus elevation data and tailored to register with Natural Earth Vector."
 msgstr ""
 
-#: ../../build/doc/overview/naturalearth_overview.rst:36
+#: ../../build/doc/overview/naturalearth_overview.rst:37
 msgid "Optimized for use in web mapping applications, such as Google or Yahoo, with built-in scale attributes to direct features to be shown at different zoom levels."
 msgstr ""
 
-#: ../../build/doc/overview/naturalearth_overview.rst:40
+#: ../../build/doc/overview/naturalearth_overview.rst:41
 msgid "Data Sets"
 msgstr ""
 
-#: ../../build/doc/overview/naturalearth_overview.rst:43
+#: ../../build/doc/overview/naturalearth_overview.rst:44
 msgid "Cultural Vector Data Themes:"
 msgstr ""
 
-#: ../../build/doc/overview/naturalearth_overview.rst:43
+#: ../../build/doc/overview/naturalearth_overview.rst:44
 msgid "Includes countries, disputed areas, states and provinces (1st order administrative divisions), and populated places (cities, towns). Roads, rails, urban polygons, parks and protected areas, Pacific nation groups, and water boundary indicators round out the cultural offerings."
 msgstr ""
 
-#: ../../build/doc/overview/naturalearth_overview.rst:46
+#: ../../build/doc/overview/naturalearth_overview.rst:47
 msgid "Physical Vector Data Themes:"
 msgstr ""
 
-#: ../../build/doc/overview/naturalearth_overview.rst:46
+#: ../../build/doc/overview/naturalearth_overview.rst:47
 msgid "Include coastline, land, ocean, minor islands, reefs, physical region features and points, rivers, lakes, glaciated areas, Antarctic ice shelves, bathymetry, geographic lines, and graticles."
 msgstr ""
 
-#: ../../build/doc/overview/naturalearth_overview.rst:50
+#: ../../build/doc/overview/naturalearth_overview.rst:51
 msgid "Raster Data Themes:"
 msgstr ""
 
-#: ../../build/doc/overview/naturalearth_overview.rst:49
+#: ../../build/doc/overview/naturalearth_overview.rst:50
 msgid "Greyscale shaded relief, cross blended hypsometric tints, satellite-derived land cover data, idealized world environment, ocean bottom, and bathymetry. Optional baked in content includes: land cover, shaded relief, ocean water, and drainages with lakes."
 msgstr ""
 
-#: ../../build/doc/overview/naturalearth_overview.rst:53
+#: ../../build/doc/overview/naturalearth_overview.rst:54
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/naturalearth_overview.rst:55
+#: ../../build/doc/overview/naturalearth_overview.rst:56
 msgid "**Website:** http://naturalearthdata.com"
 msgstr ""
 
-#: ../../build/doc/overview/naturalearth_overview.rst:57
+#: ../../build/doc/overview/naturalearth_overview.rst:58
 msgid "**License:** None, the data is public domain."
 msgstr ""
 
-#: ../../build/doc/overview/naturalearth_overview.rst:59
+#: ../../build/doc/overview/naturalearth_overview.rst:60
 msgid "**Data Version:** 2.0"
 msgstr ""
 
-#: ../../build/doc/overview/naturalearth_overview.rst:61
+#: ../../build/doc/overview/naturalearth_overview.rst:62
 msgid "**Data format:** SHP and TIF+TFW"
 msgstr ""
 
-#: ../../build/doc/overview/naturalearth_overview.rst:63
+#: ../../build/doc/overview/naturalearth_overview.rst:64
 msgid "**Spatial coordinate system:** WGS84."
 msgstr ""
 
-#: ../../build/doc/overview/naturalearth_overview.rst:65
+#: ../../build/doc/overview/naturalearth_overview.rst:66
 msgid "**Support:** http://naturalearthdata.com/forums/"
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-25 21:29-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.0\n"
 
-#: ../../build/doc/overview/mapnik_overview.rst:14
+#: ../../build/doc/overview/mapnik_overview.rst:15
 msgid "Mapnik"
 msgstr ""
 
-#: ../../build/doc/overview/mapnik_overview.rst:17
+#: ../../build/doc/overview/mapnik_overview.rst:18
 msgid "Cartographic rendering engine"
 msgstr ""
 
-#: ../../build/doc/overview/mapnik_overview.rst:19
+#: ../../build/doc/overview/mapnik_overview.rst:20
 msgid ""
 "Mapnik is a toolkit for rendering beautiful maps, with clean, soft "
 "feature edges provided by quality anti-aliasing graphics, intelligent "
@@ -33,7 +33,7 @@ msgid ""
 "is used to render the OpenStreetMap main map layers."
 msgstr ""
 
-#: ../../build/doc/overview/mapnik_overview.rst:21
+#: ../../build/doc/overview/mapnik_overview.rst:22
 msgid ""
 "Mapnik has typically been embedded in Python applications which deliver "
 "their maps over the internet although scaling improvements have meant "
@@ -41,7 +41,11 @@ msgid ""
 "paper maps too."
 msgstr ""
 
-#: ../../build/doc/overview/mapnik_overview.rst:28
+#: ../../build/doc/overview/mapnik_overview.rst:31
+msgid "Core Features"
+msgstr ""
+
+#: ../../build/doc/overview/mapnik_overview.rst:33
 msgid ""
 "Essentially a collection of geographic objects (map, layer, datasource, "
 "feature, geometry),  the library doesn't rely on \"windowing systems\" "
@@ -50,47 +54,47 @@ msgid ""
 "exclusively, at web-based development."
 msgstr ""
 
-#: ../../build/doc/overview/mapnik_overview.rst:34
+#: ../../build/doc/overview/mapnik_overview.rst:39
 msgid ""
 "High-level Python bindings (boost.python) facilitate rapid application "
 "development,  targeting zope3, django etc."
 msgstr ""
 
-#: ../../build/doc/overview/mapnik_overview.rst:37
+#: ../../build/doc/overview/mapnik_overview.rst:42
 msgid ""
 "Mapnik is cross platform. Packages are available for most linux "
 "distributions and installers are commonly used on Mac OS X and windows."
 msgstr ""
 
-#: ../../build/doc/overview/mapnik_overview.rst:41
+#: ../../build/doc/overview/mapnik_overview.rst:46
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/mapnik_overview.rst:43
+#: ../../build/doc/overview/mapnik_overview.rst:48
 msgid "**Website:** http://www.mapnik.org/"
 msgstr ""
 
-#: ../../build/doc/overview/mapnik_overview.rst:45
+#: ../../build/doc/overview/mapnik_overview.rst:50
 msgid "**Licence:** LGPL (GNU Lesser General Public Licence)"
 msgstr ""
 
-#: ../../build/doc/overview/mapnik_overview.rst:47
+#: ../../build/doc/overview/mapnik_overview.rst:52
 msgid "**Software Version:** |version-mapnik|"
 msgstr ""
 
-#: ../../build/doc/overview/mapnik_overview.rst:49
+#: ../../build/doc/overview/mapnik_overview.rst:54
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
-#: ../../build/doc/overview/mapnik_overview.rst:51
+#: ../../build/doc/overview/mapnik_overview.rst:56
 msgid "**API Interfaces:** C++, Python"
 msgstr ""
 
-#: ../../build/doc/overview/mapnik_overview.rst:54
+#: ../../build/doc/overview/mapnik_overview.rst:60
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/mapnik_overview.rst:56
+#: ../../build/doc/overview/mapnik_overview.rst:62
 msgid ":doc:`Quickstart documentation <../quickstart/mapnik_quickstart>`"
 msgstr ""
 

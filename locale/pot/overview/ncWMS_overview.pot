@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 21:10-0600\n"
+"POT-Creation-Date: 2017-11-25 21:36-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,95 +28,95 @@ msgstr ""
 msgid "ncWMS publishes multi-dimensional data (such as environmental and weather data) as an OGC compliant Web Map Service (WMS). ncWMS quickly and efficiently extracts the map images from the very large data files typically associated with environmental data."
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:29
+#: ../../build/doc/overview/ncWMS_overview.rst:28
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:31
+#: ../../build/doc/overview/ncWMS_overview.rst:30
 msgid "Fast extraction of data"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:33
+#: ../../build/doc/overview/ncWMS_overview.rst:32
 msgid "Generation of timeseries and vertical profile plots"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:35
+#: ../../build/doc/overview/ncWMS_overview.rst:34
 msgid "Ability to plot data along a transect"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:37
+#: ../../build/doc/overview/ncWMS_overview.rst:36
 msgid "Automatic recognition of vector-components and generation of vector arrows"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:39
+#: ../../build/doc/overview/ncWMS_overview.rst:38
 msgid "Support for a large range of projections (for both source data and target images)"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:41
+#: ../../build/doc/overview/ncWMS_overview.rst:40
 msgid "Support for creating animations"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:43
+#: ../../build/doc/overview/ncWMS_overview.rst:42
 msgid "Browser client included"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:45
+#: ../../build/doc/overview/ncWMS_overview.rst:44
 msgid "Support for export to Google Earth KML format"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:47
+#: ../../build/doc/overview/ncWMS_overview.rst:46
 msgid "Input formats: NetCDF, GRIB, OPeNDAP"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:49
+#: ../../build/doc/overview/ncWMS_overview.rst:48
 msgid "Output formats: PNG, JPEG, animated GIF, KML"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:52
+#: ../../build/doc/overview/ncWMS_overview.rst:51
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:54
+#: ../../build/doc/overview/ncWMS_overview.rst:53
 msgid "`WMS <http://www.opengeospatial.org/standards/wms>`__ (v1.1.1, v1.3.0)"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:56
+#: ../../build/doc/overview/ncWMS_overview.rst:55
 msgid "`KML <http://www.opengeospatial.org/standards/kml>`__"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:59
+#: ../../build/doc/overview/ncWMS_overview.rst:58
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:61
+#: ../../build/doc/overview/ncWMS_overview.rst:60
 msgid "**Website:** https://github.com/Reading-eScience-Centre/ncwms"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:63
+#: ../../build/doc/overview/ncWMS_overview.rst:62
 msgid "**Licence:** `Modified BSD License <https://github.com/Reading-eScience-Centre/ncwms/releases/download/ncwms-2.2.8/licence.txt>`_"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:65
+#: ../../build/doc/overview/ncWMS_overview.rst:64
 msgid "**Software Version:** |version-ncWMS|"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:67
+#: ../../build/doc/overview/ncWMS_overview.rst:66
 msgid "**Supported Platforms:** All Java 1.8 platforms: Windows, Linux, Mac"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:69
+#: ../../build/doc/overview/ncWMS_overview.rst:68
 msgid "**API Interfaces:** Java; WMS"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:71
+#: ../../build/doc/overview/ncWMS_overview.rst:70
 msgid "**Support:** https://github.com/Reading-eScience-Centre/ncwms/issues"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:76
+#: ../../build/doc/overview/ncWMS_overview.rst:75
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:78
+#: ../../build/doc/overview/ncWMS_overview.rst:77
 msgid ":doc:`Quickstart documentation <../quickstart/ncWMS_quickstart>`"
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 21:10-0600\n"
+"POT-Creation-Date: 2017-11-25 21:36-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,107 +40,107 @@ msgstr ""
 msgid "Mapbender is based on Symfony2, OpenLayers, Mapproxy and jQuery."
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:33
+#: ../../build/doc/overview/mapbender_overview.rst:34
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:35
+#: ../../build/doc/overview/mapbender_overview.rst:36
 msgid "Easily create web mapping interfaces using template applications"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:37
+#: ../../build/doc/overview/mapbender_overview.rst:38
 msgid "add/remove/customize applications"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:38
+#: ../../build/doc/overview/mapbender_overview.rst:39
 msgid "Create applications with digitize functionality"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:39
+#: ../../build/doc/overview/mapbender_overview.rst:40
 msgid "Create mobile Applications"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:40
+#: ../../build/doc/overview/mapbender_overview.rst:41
 msgid "Print high-quality maps using your own PDF templates."
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:41
+#: ../../build/doc/overview/mapbender_overview.rst:42
 msgid "Digitizing via SQL"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:43
+#: ../../build/doc/overview/mapbender_overview.rst:44
 msgid "Upload and share remote OGC WMS (Capabilities caching)"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:45
+#: ../../build/doc/overview/mapbender_overview.rst:46
 msgid "arrange uploaded WMS for overlay"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:46
+#: ../../build/doc/overview/mapbender_overview.rst:47
 msgid "editing layer visibility"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:47
+#: ../../build/doc/overview/mapbender_overview.rst:48
 msgid "order"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:48
+#: ../../build/doc/overview/mapbender_overview.rst:49
 msgid "format"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:49
+#: ../../build/doc/overview/mapbender_overview.rst:50
 msgid "Create users and groups, share and grant access to services and modules"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:50
+#: ../../build/doc/overview/mapbender_overview.rst:51
 msgid "Restrict user access with the OWS security proxy module via trusted servers"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:51
+#: ../../build/doc/overview/mapbender_overview.rst:52
 msgid "Encrypted protocols monitoring and status notification and auto-update service for remote OGC services"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:52
+#: ../../build/doc/overview/mapbender_overview.rst:53
 msgid "... and more!"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:55
+#: ../../build/doc/overview/mapbender_overview.rst:56
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:57
+#: ../../build/doc/overview/mapbender_overview.rst:58
 msgid "OGC Web Map Service (WMS) 1.1.1, 1.3.0"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:60
+#: ../../build/doc/overview/mapbender_overview.rst:61
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:62
+#: ../../build/doc/overview/mapbender_overview.rst:63
 msgid "**Website:** http://mapbender3.org/"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:64
+#: ../../build/doc/overview/mapbender_overview.rst:65
 msgid "**Licence:** `MIT license <http://opensource.org/licenses/MIT>`_"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:66
+#: ../../build/doc/overview/mapbender_overview.rst:67
 msgid "**Software Version:** |version-mapbender|"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:68
+#: ../../build/doc/overview/mapbender_overview.rst:69
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:70
+#: ../../build/doc/overview/mapbender_overview.rst:71
 msgid "**Support:** http://www.mapbender3.org/en/community"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:74
+#: ../../build/doc/overview/mapbender_overview.rst:75
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/mapbender_overview.rst:76
+#: ../../build/doc/overview/mapbender_overview.rst:77
 msgid ":doc:`Quickstart documentation <../quickstart/mapbender_quickstart>`"
 msgstr ""
 

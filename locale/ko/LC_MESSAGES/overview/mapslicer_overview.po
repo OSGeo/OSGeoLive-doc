@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 21:10-0600\n"
+"POT-Creation-Date: 2017-11-25 21:29-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,18 +18,18 @@ msgstr ""
 "Generated-By: Babel 2.5.0\n"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:18
-msgid "MapProxy"
+msgid "MapSlicer"
 msgstr ""
 
 #: ../../build/doc/overview/mapslicer_overview.rst:21
 msgid "Proxy WMS & tile services"
 msgstr ""
 
-#: ../../build/doc/overview/mapslicer_overview.rst:29
+#: ../../build/doc/overview/mapslicer_overview.rst:24
 msgid "Map Publishing"
 msgstr ""
 
-#: ../../build/doc/overview/mapslicer_overview.rst:31
+#: ../../build/doc/overview/mapslicer_overview.rst:26
 msgid ""
 "MapSlicer is a desktop application for the creation of map tiles for "
 "rapid raster map publishing.  Geodata is transformed to tiles compatible "
@@ -37,7 +37,7 @@ msgid ""
 "any webserver or a cloud storage (such as Amazon S3)."
 msgstr ""
 
-#: ../../build/doc/overview/mapslicer_overview.rst:33
+#: ../../build/doc/overview/mapslicer_overview.rst:28
 msgid ""
 "No extensive configuration on the server side is necessary, any simple "
 "file hosting is fine. Dynamic interaction such as panning and zooming, "
@@ -45,76 +45,79 @@ msgid ""
 "functionality."
 msgstr ""
 
-#: ../../build/doc/overview/mapslicer_overview.rst:35
+#: ../../build/doc/overview/mapslicer_overview.rst:30
 msgid ""
 "The application directly generates a ready to use simple viewer based on "
 "OpenLayers and Google Maps API and can be easily customized."
 msgstr ""
 
-#: ../../build/doc/overview/mapslicer_overview.rst:38
+#: ../../build/doc/overview/mapslicer_overview.rst:39
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/mapslicer_overview.rst:40
+#: ../../build/doc/overview/mapslicer_overview.rst:41
 msgid "Well known Javascript APIs supported: OpenLayers, Google Maps API"
 msgstr ""
 
-#: ../../build/doc/overview/mapslicer_overview.rst:41
+#: ../../build/doc/overview/mapslicer_overview.rst:42
 msgid "No extra server software installation necessary"
 msgstr ""
 
-#: ../../build/doc/overview/mapslicer_overview.rst:42
+#: ../../build/doc/overview/mapslicer_overview.rst:43
 msgid ""
 "Hosting almost everywhere: cloud storage such as Amazon S3 or any cheap "
 "\"unlimited\" webhosting with FTP access"
 msgstr ""
 
-#: ../../build/doc/overview/mapslicer_overview.rst:43
+#: ../../build/doc/overview/mapslicer_overview.rst:44
 msgid "Easy mashup with commercial layers (Google, Bing, Yahoo) or OpenStreetMap"
 msgstr ""
 
-#: ../../build/doc/overview/mapslicer_overview.rst:44
+#: ../../build/doc/overview/mapslicer_overview.rst:45
 msgid "Tiles follow OSGEO TMS (Tile Map Service Specification)"
 msgstr ""
 
-#: ../../build/doc/overview/mapslicer_overview.rst:45
+#: ../../build/doc/overview/mapslicer_overview.rst:46
 msgid ""
 "Ability to process raster data in various formats: TIFF/GeoTIFF, MrSID, "
 "ECW, JPEG2000, Erdas HFA, NOAA BSB, JPEG and more..."
 msgstr ""
 
-#: ../../build/doc/overview/mapslicer_overview.rst:48
+#: ../../build/doc/overview/mapslicer_overview.rst:49
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/mapslicer_overview.rst:50
+#: ../../build/doc/overview/mapslicer_overview.rst:51
 msgid "**Website:** https://wiki.osgeo.org/wiki/MapSlicer"
 msgstr ""
 
-#: ../../build/doc/overview/mapslicer_overview.rst:52
+#: ../../build/doc/overview/mapslicer_overview.rst:53
 msgid "**Licence:** New BSD License"
 msgstr ""
 
-#: ../../build/doc/overview/mapslicer_overview.rst:54
+#: ../../build/doc/overview/mapslicer_overview.rst:55
 msgid "**Source Code:** https://github.com/geopython/mapslicer"
 msgstr ""
 
-#: ../../build/doc/overview/mapslicer_overview.rst:56
+#: ../../build/doc/overview/mapslicer_overview.rst:57
 msgid "**Software Version:** |version-mapslicer|"
 msgstr ""
 
-#: ../../build/doc/overview/mapslicer_overview.rst:58
+#: ../../build/doc/overview/mapslicer_overview.rst:59
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
-#: ../../build/doc/overview/mapslicer_overview.rst:63
+#: ../../build/doc/overview/mapslicer_overview.rst:64
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/mapslicer_overview.rst:65
+#: ../../build/doc/overview/mapslicer_overview.rst:66
 msgid ":doc:`Quickstart documentation <../quickstart/mapslicer_quickstart>`"
 msgstr ""
 
 #~ msgid "MapSlicer"
+#~ msgstr ""
+
+#~ msgid "MapProxy"
 #~ msgstr ""
 

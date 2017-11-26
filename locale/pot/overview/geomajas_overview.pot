@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 21:10-0600\n"
+"POT-Creation-Date: 2017-11-25 21:36-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,95 +28,95 @@ msgstr ""
 msgid "The Client enables developers to create powerful web GIS applications including interactive maps, extensible widgets and custom use cases. It allows access to a wide range of data sources and functionality through a web browser."
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:30
+#: ../../build/doc/overview/geomajas_overview.rst:31
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:32
+#: ../../build/doc/overview/geomajas_overview.rst:33
 msgid "Programmable using pure Java through GWT"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:33
+#: ../../build/doc/overview/geomajas_overview.rst:34
 msgid "Supports many layer types (incl. WMS, WFS, WMTS, TMS, OSM, Google Maps, Shape, PostGIS, Oracle, JDBC, …)"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:34
+#: ../../build/doc/overview/geomajas_overview.rst:35
 msgid "Handy collection of built-in widgets (incl. Editing and redlining, Print, Geocoding, Layer tree, ...)"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:35
+#: ../../build/doc/overview/geomajas_overview.rst:36
 msgid "Build your own use cases and create new widgets"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:36
+#: ../../build/doc/overview/geomajas_overview.rst:37
 msgid "Easy skinnable through custom CSS"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:37
+#: ../../build/doc/overview/geomajas_overview.rst:38
 msgid "No need for browser plug-ins"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:38
+#: ../../build/doc/overview/geomajas_overview.rst:39
 msgid "Runs on a wide range of internet devices using HTML5"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:39
+#: ../../build/doc/overview/geomajas_overview.rst:40
 msgid "Not a GWT enthusiast? Access core features through the Javascript API"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:42
+#: ../../build/doc/overview/geomajas_overview.rst:43
 msgid "Enterprise Server features"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:44
+#: ../../build/doc/overview/geomajas_overview.rst:45
 msgid "Advanced security on different levels (layer, feature, attribute, functionality, …)"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:45
+#: ../../build/doc/overview/geomajas_overview.rst:46
 msgid "Seamless integration with your own Domain Model – persistence via Hibernate, web services, Java RMI, ..."
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:46
+#: ../../build/doc/overview/geomajas_overview.rst:47
 msgid "Enterprise integration with other business applications such as JBPM, Activiti, JasperReports, CMS, Alfresco through industry standards (SOAP, REST, ESB, JNDI, …)"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:47
+#: ../../build/doc/overview/geomajas_overview.rst:48
 msgid "Easy extensible through the Spring framework"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:50
+#: ../../build/doc/overview/geomajas_overview.rst:51
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:52
+#: ../../build/doc/overview/geomajas_overview.rst:53
 msgid "**Website:** http://www.geomajas.org/"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:54
+#: ../../build/doc/overview/geomajas_overview.rst:55
 msgid "**Licence:** AGPL"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:56
+#: ../../build/doc/overview/geomajas_overview.rst:57
 msgid "**Software Version:** |version-geomajas|"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:58
+#: ../../build/doc/overview/geomajas_overview.rst:59
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:60
+#: ../../build/doc/overview/geomajas_overview.rst:61
 msgid "**API Interfaces:** Java and Javascript"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:62
+#: ../../build/doc/overview/geomajas_overview.rst:63
 msgid "**Support:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:67
+#: ../../build/doc/overview/geomajas_overview.rst:68
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/geomajas_overview.rst:69
+#: ../../build/doc/overview/geomajas_overview.rst:70
 msgid ":doc:`Quickstart documentation <../quickstart/geomajas_quickstart>`"
 msgstr ""
 

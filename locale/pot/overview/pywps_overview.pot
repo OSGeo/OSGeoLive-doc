@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 21:10-0600\n"
+"POT-Creation-Date: 2017-11-25 21:36-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,95 +32,95 @@ msgstr ""
 msgid "Processes are written in the Python programming language and can integrate tools such as :doc:`GRASS GIS <grass_overview>`, :doc:`R <R_overview>`, :doc:`GDAL/OGR <gdal_overview>`, :doc:`proj.4 <proj4_overview>` and other libraries with Python bindings.  Source data can be provided with WPS requests or accessed from data on the WPS server."
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:36
+#: ../../build/doc/overview/pywps_overview.rst:37
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:38
+#: ../../build/doc/overview/pywps_overview.rst:39
 msgid "small and lightweight"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:39
+#: ../../build/doc/overview/pywps_overview.rst:40
 msgid "easy and fast to install and setup"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:40
+#: ../../build/doc/overview/pywps_overview.rst:41
 msgid "implemented in pure Python"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:41
+#: ../../build/doc/overview/pywps_overview.rst:42
 msgid "integrates seamlessly with the Python ecosystem of packages:"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:43
+#: ../../build/doc/overview/pywps_overview.rst:44
 msgid "GRASS 7"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:44
+#: ../../build/doc/overview/pywps_overview.rst:45
 msgid "R"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:45
+#: ../../build/doc/overview/pywps_overview.rst:46
 msgid "GDAL/OGR"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:46
+#: ../../build/doc/overview/pywps_overview.rst:47
 msgid "Proj.4"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:47
+#: ../../build/doc/overview/pywps_overview.rst:48
 msgid "Numpy"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:48
+#: ../../build/doc/overview/pywps_overview.rst:49
 msgid "Shapely"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:51
+#: ../../build/doc/overview/pywps_overview.rst:52
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:53
+#: ../../build/doc/overview/pywps_overview.rst:54
 msgid "OGC Standards:"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:55
+#: ../../build/doc/overview/pywps_overview.rst:56
 msgid "WPS 1.0.0"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:58
+#: ../../build/doc/overview/pywps_overview.rst:59
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:60
+#: ../../build/doc/overview/pywps_overview.rst:61
 msgid "**Website:** http://pywps.org"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:62
+#: ../../build/doc/overview/pywps_overview.rst:63
 msgid "**Licence:** GPL"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:64
+#: ../../build/doc/overview/pywps_overview.rst:65
 msgid "**Software Version:** |version-pywps|"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:66
+#: ../../build/doc/overview/pywps_overview.rst:67
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:68
+#: ../../build/doc/overview/pywps_overview.rst:69
 msgid "**API Interfaces:** Python"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:70
+#: ../../build/doc/overview/pywps_overview.rst:71
 msgid "**Support:** http://pywps.org/community/#professional-support"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:74
+#: ../../build/doc/overview/pywps_overview.rst:75
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/pywps_overview.rst:76
+#: ../../build/doc/overview/pywps_overview.rst:77
 msgid ":doc:`Quickstart documentation <../quickstart/pywps_quickstart>`"
 msgstr ""
 

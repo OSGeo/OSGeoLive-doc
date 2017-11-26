@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 21:10-0600\n"
+"POT-Creation-Date: 2017-11-25 21:36-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,107 +36,107 @@ msgstr ""
 msgid "OTB has been funded the French Space Agency (CNES) in the frame of the Methodological Part of the ORFEO/Pleiades Accompaniement Program and has been actively developed since 2006. It is based on the ITK image processing library and is distributed as open source."
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:40
+#: ../../build/doc/overview/otb_overview.rst:46
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:47
+#: ../../build/doc/overview/otb_overview.rst:49
 msgid "image access: optimized read/write access for most remote sensing raster formats (also JPEG2000 formats), meta-data access and visualization;"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:49
+#: ../../build/doc/overview/otb_overview.rst:51
 msgid "orthorectification using DEM, map reprojection and sensor model refinement"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:50
+#: ../../build/doc/overview/otb_overview.rst:52
 msgid "optical and SAR calibration"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:51
+#: ../../build/doc/overview/otb_overview.rst:53
 msgid "image fusion"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:52
+#: ../../build/doc/overview/otb_overview.rst:54
 msgid "filtering: blurring, denoising, enhancement..."
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:53
+#: ../../build/doc/overview/otb_overview.rst:55
 msgid "feature extraction: interest points, alignments, lines..."
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:54
+#: ../../build/doc/overview/otb_overview.rst:56
 msgid "object detection"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:55
+#: ../../build/doc/overview/otb_overview.rst:57
 msgid "large scale image segmentation: region growing, mean-shift, watershed, level sets..."
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:56
+#: ../../build/doc/overview/otb_overview.rst:58
 msgid "sample selection framework for training"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:57
+#: ../../build/doc/overview/otb_overview.rst:59
 msgid "classification: both supervised and unsupervised algorithms coming from OpenCV , Shark, libSVM or custom implementations (K-means, Markov random fields, SVM, Random Forest, ...)"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:60
+#: ../../build/doc/overview/otb_overview.rst:62
 msgid "regression using machine learning methods from OpenCV (SVM, Random Forest, ...)"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:61
+#: ../../build/doc/overview/otb_overview.rst:63
 msgid "object-based image analysis"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:62
+#: ../../build/doc/overview/otb_overview.rst:64
 msgid "geospatial analysis"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:63
+#: ../../build/doc/overview/otb_overview.rst:65
 msgid "stereoscopic reconstruction from optical images"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:64
+#: ../../build/doc/overview/otb_overview.rst:66
 msgid "SAR data analysis : calibration, polarimetry analysis"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:65
+#: ../../build/doc/overview/otb_overview.rst:67
 msgid "change detection."
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:68
+#: ../../build/doc/overview/otb_overview.rst:70
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:70
+#: ../../build/doc/overview/otb_overview.rst:72
 msgid "**Website:** http://www.orfeo-toolbox.org/"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:72
+#: ../../build/doc/overview/otb_overview.rst:74
 msgid "**Licence:** Apache v2.0"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:74
+#: ../../build/doc/overview/otb_overview.rst:76
 msgid "**Software Version:** |version-otb|"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:76
+#: ../../build/doc/overview/otb_overview.rst:78
 msgid "**Supported Platforms:** Linux, Mac, Windows"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:78
+#: ../../build/doc/overview/otb_overview.rst:80
 msgid "**API Interfaces:** C++"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:80
+#: ../../build/doc/overview/otb_overview.rst:82
 msgid "**Commercial Support:** http://www.osgeo.org/search_profile"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:85
+#: ../../build/doc/overview/otb_overview.rst:87
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:87
+#: ../../build/doc/overview/otb_overview.rst:89
 msgid ":doc:`Quickstart documentation <../quickstart/otb_quickstart>`"
 msgstr ""
 
