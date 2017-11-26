@@ -1,8 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,202 +10,240 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../build/doc/overview/udig_overview.rst:15
 msgid "User-friendly Desktop Internet GIS"
-msgstr ""
+msgstr "User-friendly Desktop Internet GIS"
 
 #: ../../build/doc/overview/udig_overview.rst:18
 msgid "Desktop GIS"
-msgstr ""
+msgstr "SIG Bureautique"
 
 #: ../../build/doc/overview/udig_overview.rst:21
 msgid ""
 "User-friendly Desktop Internet GIS (uDig) is an open source spatial data "
-"viewer/editor, with special emphasis on the OpenGIS standards for "
-"internet GIS, the Web Map Server (WMS) and Web Feature Server (WFS) "
-"standards."
+"viewer/editor, with special emphasis on the OpenGIS standards for internet "
+"GIS, the Web Map Server (WMS) and Web Feature Server (WFS) standards."
 msgstr ""
+"Le SIG \"User-friendly Desktop Internet GIS\" (uDig) est un "
+"visualisateur/éditeur de données spatiales Open Source, avec un accent "
+"spécial sur les standards OpenGIS  pour les SIG en ligne, les standards "
+"\"Web Map Server\" (WMS) et \"Web Feature Server\" (WFS)."
 
 #: ../../build/doc/overview/udig_overview.rst:23
 msgid "uDig is:"
-msgstr ""
+msgstr "uDig est:"
 
 #: ../../build/doc/overview/udig_overview.rst:25
 msgid ""
-"**User-friendly**, providing a familiar graphical environment for GIS "
-"users;"
+"**User-friendly**, providing a familiar graphical environment for GIS users;"
 msgstr ""
+"**Facile pour les utilisateurs**, fournissant un environnement graphique "
+"familier pour les utilisateurs SIG;"
 
 #: ../../build/doc/overview/udig_overview.rst:26
 msgid "**Desktop located**, running natively on Windows, Mac OS/X and Linux;"
 msgstr ""
+"**Adapté à la bureautique**, fonctionnant nativement sur Windows, Mac OS/X "
+"et Linux;"
 
 #: ../../build/doc/overview/udig_overview.rst:27
 msgid ""
 "**Internet oriented**, consuming standard and de facto geospatial web "
 "services; and,"
 msgstr ""
+"**Orienté internet**, consommant des services web géospatiaux appartenant à "
+"des standards; et,"
 
 #: ../../build/doc/overview/udig_overview.rst:28
 msgid ""
 "**GIS ready**, providing the framework on which complex analytical "
-"capabilities can be built, and gradually subsuming those capabilities "
-"into the main application."
+"capabilities can be built, and gradually subsuming those capabilities into "
+"the main application."
 msgstr ""
+"**Prêt pour le SIG**, fournissant le framework sur lequel des capacités "
+"analytiques complexes peuvent être ajoutées, et lesquelles peuvent être "
+"graduellement incluses dans l'application principale."
 
 #: ../../build/doc/overview/udig_overview.rst:30
 msgid ""
 "For developers uDig provides a common Java platform for building spatial "
 "applications with open source components. The website provides series of "
-"clear tutorials covering making a simple tool through to releasing your "
-"own custom application."
+"clear tutorials covering making a simple tool through to releasing your own "
+"custom application."
 msgstr ""
+"Pour les développeurs, uDig fournit un plateforme commune en Java pour "
+"construire des applications spatiales avec des composants open source. Le "
+"site web fournit des séries de tutoriels clairs couvrant comment faire un "
+"outil simple jusqu'à comment mettre à disposition votre propre application "
+"personnalisée."
 
 #: ../../build/doc/overview/udig_overview.rst:39
 msgid "Core Features"
-msgstr ""
+msgstr "Caractéristiques principales"
 
 #: ../../build/doc/overview/udig_overview.rst:41
 msgid ""
 "Desktop Client with Drag and Drop integration for File explorer and Web "
 "Browser"
 msgstr ""
+"Client bureautique avec intégration du glisser-déposer pour l'explorateur de"
+" fichiers et le navigateur web"
 
 #: ../../build/doc/overview/udig_overview.rst:42
-msgid "Integrate with your existing infrastructure: ArcSDE, Oracle, DB2 and more"
+msgid ""
+"Integrate with your existing infrastructure: ArcSDE, Oracle, DB2 and more"
 msgstr ""
+"S'intègre avec votre infrastructure existante: ArcSDE, Oracle, DB2 et plus"
 
 #: ../../build/doc/overview/udig_overview.rst:43
 msgid "Work with local files: Shapefile, jpeg, png, tiff and more."
 msgstr ""
+"Fonctionne avec des fichiers locaux: Shapefile, jpeg, png, tiff et plus."
 
 #: ../../build/doc/overview/udig_overview.rst:44
 msgid "Work with advanced spatial raster formats: ECW, MrSID, JPEG 2000"
 msgstr ""
+"Fonctionne avec des formats raster spatiaux avancés: ECW, MrSID, JPEG 2000"
 
 #: ../../build/doc/overview/udig_overview.rst:45
 msgid ""
 "Support for compliant Web Map Servers (:doc:`GeoServer "
 "<geoserver_overview>`, MapServer tested)"
 msgstr ""
+"Support pour les serveurs conformes au WMS (:doc:`GeoServer "
+"<geoserver_overview>`, MapServer testés)"
 
 #: ../../build/doc/overview/udig_overview.rst:46
 msgid ""
-"Integrated Web experience with an embedded browser that recognises OGC "
-"web services and smoothly adds links to the onscreen map"
+"Integrated Web experience with an embedded browser that recognises OGC web "
+"services and smoothly adds links to the onscreen map"
 msgstr ""
+"Expérience web intégrée avec un navigateur intégré reconnaissant les "
+"services web OGC et ajoutant des liens sur la carte à l'écran"
 
 #: ../../build/doc/overview/udig_overview.rst:48
 msgid ""
-"Style Layer Descriptor control of rendering allowing you to publish your "
-"Map using the same settings in uDig as with popular Web Map Servers"
+"Style Layer Descriptor control of rendering allowing you to publish your Map"
+" using the same settings in uDig as with popular Web Map Servers"
 msgstr ""
+"Contrôle des styles de rendus avec \"Style Layer Descriptor\" vous "
+"permettant de publier votre carte en utilisant les mêmes paramètres dans "
+"uDig qu'avec les serveurs web WMS"
 
 #: ../../build/doc/overview/udig_overview.rst:50
 msgid ""
-"Deep integration of standards allowing the application to swap between "
-"the appropriate service as required for display, interaction and editing"
+"Deep integration of standards allowing the application to swap between the "
+"appropriate service as required for display, interaction and editing"
 msgstr ""
+"Intégration forte des standards permettant à l'application de basculer entre"
+" les services appropriés requis pour l'affichage, l'interaction et l'édition"
 
 #: ../../build/doc/overview/udig_overview.rst:52
 msgid "Printing and PDF Generation"
-msgstr ""
+msgstr "Impression et génération PDF"
 
 #: ../../build/doc/overview/udig_overview.rst:53
 msgid "For Developers"
-msgstr ""
+msgstr "Pour les développeurs"
 
 #: ../../build/doc/overview/udig_overview.rst:55
 msgid ""
-"Java Application built using the :doc:`GeoTools <geotools_overview>`, "
-"`JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-"
-"suite/>`_"
+"Java Application built using the :doc:`GeoTools <geotools_overview>`, `JTS "
+"Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_"
 msgstr ""
+"Application Java construite en utilisant :doc:`GeoTools "
+"<geotools_overview>`, `JTS Topology Suite (JTS) "
+"<https://sourceforge.net/projects/jts-topo-suite/>`_"
 
 #: ../../build/doc/overview/udig_overview.rst:56
 msgid ""
-"Industrial strength plug-in system provided by Eclipse Rich Client "
-"Platform"
+"Industrial strength plug-in system provided by Eclipse Rich Client Platform"
 msgstr ""
+"Système de plugin de qualité industriel fournit via la plateforme Eclipse "
+"\"Rich Client Platform\""
 
 #: ../../build/doc/overview/udig_overview.rst:57
 msgid "Use of native widgets"
-msgstr ""
+msgstr "Utilisation de widgets natifs"
 
 #: ../../build/doc/overview/udig_overview.rst:60
 msgid "Implemented Standards"
-msgstr ""
+msgstr "Standards implémentés"
 
 #: ../../build/doc/overview/udig_overview.rst:62
 msgid "OGC Web Map Server (WMS)"
-msgstr ""
+msgstr "Web Map Server (WMS) OGC"
 
 #: ../../build/doc/overview/udig_overview.rst:63
 msgid "OGC Web Feature Server (WFS)"
-msgstr ""
+msgstr "Web Feature Server (WFS) OGC"
 
 #: ../../build/doc/overview/udig_overview.rst:64
 msgid "OGC Web Feature Server Transactional (WFS-T)"
-msgstr ""
+msgstr "Web Feature Server Transactionnel (WFS-T) OGC"
 
 #: ../../build/doc/overview/udig_overview.rst:65
 msgid "OGC Simple Features for SQL (SFQL)"
-msgstr ""
+msgstr "Simple Features for SQL (SFQL) OGC"
 
 #: ../../build/doc/overview/udig_overview.rst:66
 msgid "Web Map Server Cache (WMS-C)"
-msgstr ""
+msgstr "Web Map Server Cache (WMS-C)"
 
 #: ../../build/doc/overview/udig_overview.rst:67
 msgid "OGC Style Layer Descriptor (SLD)"
-msgstr ""
+msgstr "Style Layer Descriptor (SLD) OGC"
 
 #: ../../build/doc/overview/udig_overview.rst:70
 msgid "Details"
-msgstr ""
+msgstr "Détails"
 
 #: ../../build/doc/overview/udig_overview.rst:72
 msgid "**Website:** http://udig.refractions.net/"
-msgstr ""
+msgstr "**Site web:** http://udig.refractions.net/"
 
 #: ../../build/doc/overview/udig_overview.rst:74
 msgid "**Licence:** Dual BSD / EPL (Eclipse Foundation)"
-msgstr ""
+msgstr "**Licence:** Duel BSD / EPL (fondation Eclipse)"
 
 #: ../../build/doc/overview/udig_overview.rst:76
 msgid "**Software Version:** |version-udig|"
-msgstr ""
+msgstr "**Version du logiciel:** |version-udig|"
 
 #: ../../build/doc/overview/udig_overview.rst:78
 msgid "**Supported Platforms:** Windows, Linux, Mac"
-msgstr ""
+msgstr "**Plates-formes supportées:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/udig_overview.rst:80
 msgid ""
-"**API Interfaces:** GeoTools, ImageIO-Ext, Java Advanced Imaging, Eclipse"
-" Rich Client Platform, Eclipse Modelling Framework"
+"**API Interfaces:** GeoTools, ImageIO-Ext, Java Advanced Imaging, Eclipse "
+"Rich Client Platform, Eclipse Modelling Framework"
 msgstr ""
+"**Interfaces d'API:** GeoTools, ImageIO-Ext, Java Advanced Imaging, Eclipse "
+"Rich Client Platform, Eclipse Modelling Framework"
 
 #: ../../build/doc/overview/udig_overview.rst:82
 msgid "**Support:** http://udig.refractions.net/users/"
-msgstr ""
+msgstr "**Support:** http://udig.refractions.net/users/"
 
 #: ../../build/doc/overview/udig_overview.rst:84
 msgid "**Developers:** http://udig.refractions.net/developers/"
-msgstr ""
+msgstr "**Développeurs:** http://udig.refractions.net/developers/"
 
 #: ../../build/doc/overview/udig_overview.rst:89
 msgid "Quickstart"
-msgstr ""
+msgstr "Guide de démarrage rapide"
 
 #: ../../build/doc/overview/udig_overview.rst:91
 msgid ":doc:`Quickstart documentation <../quickstart/udig_quickstart>`"
 msgstr ""
-
+":doc:`Documentation du guide de démarrage rapide "
+"<../quickstart/udig_quickstart>`"

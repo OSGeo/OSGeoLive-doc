@@ -1,8 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,272 +10,314 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../build/doc/overview/gvsig_overview.rst:19
 msgid "gvSIG Desktop"
-msgstr ""
+msgstr "gvSIG Desktop"
 
 #: ../../build/doc/overview/gvsig_overview.rst:22
 msgid "Desktop GIS"
-msgstr ""
+msgstr "SIG bureautique"
 
 #: ../../build/doc/overview/gvsig_overview.rst:24
 msgid ""
-"gvSIG_ is a Geographic Information System (GIS) desktop application "
-"designed for capturing, storing, handling, analysing and deploying any "
-"kind of referenced geographic information in order to solve complex "
-"management and planning problems. gvSIG is known for its user-friendly "
-"interface and being able to access all common vector and raster formats. "
-"It features a wide range of tools for working with geographic information"
-" (query, layout creation, geoprocessing, networks, etc.), which turns "
-"gvSIG into the ideal tool for users working in the land realm."
+"gvSIG_ is a Geographic Information System (GIS) desktop application designed"
+" for capturing, storing, handling, analysing and deploying any kind of "
+"referenced geographic information in order to solve complex management and "
+"planning problems. gvSIG is known for its user-friendly interface and being "
+"able to access all common vector and raster formats. It features a wide "
+"range of tools for working with geographic information (query, layout "
+"creation, geoprocessing, networks, etc.), which turns gvSIG into the ideal "
+"tool for users working in the land realm."
 msgstr ""
+"gvSIG_ est une application bureautique SIG (Système d'Information "
+"Géographique) conçue pour saisir, stocker, manipuler, analyser et déployer "
+"toutes sortes d'information géographique afin de résoudre des problèmes de "
+"gestion complexe et d'aménagement. gvSIG est connu pour son interface facile"
+" à utiliser et est capable d'accéder à tous les formats communs vecteur et "
+"raster. Il offre une large gamme d'outils pour travailler avec de "
+"l'information géographique (requête, création de mise en page, "
+"géotraitements, réseaux, etc.), qui font de gvSIG un outil idéal pour les "
+"utilisateurs qui travaillent dans le domaine terrestre."
 
 #: ../../build/doc/overview/gvsig_overview.rst:26
 msgid "gvSIG is known for:"
-msgstr ""
+msgstr "gvSIG est connu pour:"
 
 #: ../../build/doc/overview/gvsig_overview.rst:28
 msgid ""
 "integrating in the same view both local and remote data through OGC "
 "standards."
 msgstr ""
+"intégrer dans la même vue aussi bien des données locales qu'à distance grâce"
+" aux standards de l'OGC."
 
 #: ../../build/doc/overview/gvsig_overview.rst:29
 msgid ""
 "being easily extendible, allowing continuous application enhancement, as "
 "well as enabling the development of tailor-made solutions."
 msgstr ""
+"être facilement étendu, permettant une amélioration continue de "
+"l'application, aussi bien que de permettre le développement de solutions sur"
+" mesure."
 
 #: ../../build/doc/overview/gvsig_overview.rst:30
 msgid ""
 "being available in over 20 languages (Spanish, English, German, French, "
 "Italian,...)."
 msgstr ""
+"être disponible dans plus de 20 langues (Espagnol, Anglais, Allemand, "
+"Français, Italien,...)."
 
 #: ../../build/doc/overview/gvsig_overview.rst:31
 msgid ""
-"being available for Windows and Linux (there are also non-oficial Mac OS "
-"X versions)."
+"being available for Windows and Linux (there are also non-oficial Mac OS X "
+"versions)."
 msgstr ""
+"être disponible sur Windows et Linux (il y a des aussi des versions de Mac "
+"OS X non officielles)."
 
 #: ../../build/doc/overview/gvsig_overview.rst:40
 msgid "Core Features"
-msgstr ""
+msgstr "Caractéristiques principales"
 
 #: ../../build/doc/overview/gvsig_overview.rst:42
 msgid ""
 "Provides common GIS tools like data loading, map navigation, query map "
-"information like alphanumeric information, distance measurement, thematic"
-" cartography, legend edition using common legend types, labelling, "
-"feature selection by many selection types, data tables with statistics, "
-"ordering, table relations, table linking, layout manager, geoprocessing "
-"tools, CAD, raster processing, etc."
+"information like alphanumeric information, distance measurement, thematic "
+"cartography, legend edition using common legend types, labelling, feature "
+"selection by many selection types, data tables with statistics, ordering, "
+"table relations, table linking, layout manager, geoprocessing tools, CAD, "
+"raster processing, etc."
 msgstr ""
+"Fournit des outils de SIG courants tels le chargement de données, la "
+"navigation cartographique, les requêtes d'informations cartographiques tout "
+"comme alphanumériques, la mesure de distances, la cartographie thématique, "
+"l'édition de légende en utilisant les types de légende courants, "
+"l'étiquetage, la sélection d'entités par de nombreux types de sélection, les"
+" tables de données avec des statistiques, le tri, les relations entre, les "
+"liens entre tables, la gestion des mises en page, les outils de "
+"géotraitement, la DAO, le traitement raster etc."
 
 #: ../../build/doc/overview/gvsig_overview.rst:44
 msgid "Interoperable: able to work with most known data formats:"
 msgstr ""
+"Interopérable, il est capable de travailler avec les formats de données les "
+"plus connus:"
 
 #: ../../build/doc/overview/gvsig_overview.rst:46
 msgid "raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF..."
-msgstr ""
+msgstr "raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF..."
 
 #: ../../build/doc/overview/gvsig_overview.rst:47
 msgid "vector & CAD: shapefile, NetCDF, GML, KML, DGN, DXF, DWG"
-msgstr ""
+msgstr "vecteur & CAD: shapefile, NetCDF, GML, KML, DGN, DXF, DWG"
 
 #: ../../build/doc/overview/gvsig_overview.rst:48
 msgid "databases: PostGIS, MySQL, Oracle, ArcSDE"
-msgstr ""
+msgstr "bases de données: PostGIS, MySQL, Oracle, ArcSDE"
 
 #: ../../build/doc/overview/gvsig_overview.rst:49
 msgid "remote: OGC standards (WMS, WMTS, WFS, WCS), OSM, ECWP, ArcIMS"
-msgstr ""
+msgstr "distantes: standards OGC (WMS, WMTS, WFS, WCS), OSM, ECWP, ArcIMS"
 
 #: ../../build/doc/overview/gvsig_overview.rst:51
 msgid ""
 "Discovery services client to localize data resources within an SDI "
 "(catalogue and gazeteer services)"
 msgstr ""
+"Client de services de recherche pour localiser des ressources de données "
+"dans une IDS ou Infrastructure de Données Spatiales (services de catalogage "
+"et d'indexation géographique)"
 
 #: ../../build/doc/overview/gvsig_overview.rst:53
 msgid "Catalogues: Z3950, SRW, CSW (ISO/19115 and ebRIM)"
-msgstr ""
+msgstr "Catalogues: Z3950, SRW, CSW (ISO/19115 et ebRIM)"
 
 #: ../../build/doc/overview/gvsig_overview.rst:54
 msgid "Gazetteers: ADL, WFS, WFS-G"
-msgstr ""
+msgstr "Index géographiques"
 
 #: ../../build/doc/overview/gvsig_overview.rst:56
 msgid "More than 300 geoalgorithms via SEXTANTE library"
-msgstr ""
+msgstr "Plus de 300 algorithmes spatiaux grâce la bibliothèque SEXTANTE"
 
 #: ../../build/doc/overview/gvsig_overview.rst:58
 msgid "Integrated advanced CAD tools:"
-msgstr ""
+msgstr "Outils CAD avancés intégrés:"
 
 #: ../../build/doc/overview/gvsig_overview.rst:60
 msgid "vector data: modify, create and delete elements"
-msgstr ""
+msgstr "données vecteur: modification, création et suppression d'éléments"
 
 #: ../../build/doc/overview/gvsig_overview.rst:61
 msgid "command console typical element in CAD software"
-msgstr ""
+msgstr "console de commande d'éléments type dans les logiciels de CAD"
 
 #: ../../build/doc/overview/gvsig_overview.rst:62
 msgid "tools like help, grid, command stack, complex element selections"
 msgstr ""
+"outils comme l'aide, la grille, enchaînement de commandes, sélections "
+"d'éléments complexes"
 
 #: ../../build/doc/overview/gvsig_overview.rst:63
 msgid ""
-"tools for inserting elements like points, polygons, lines, ellipses, "
-"etc..."
+"tools for inserting elements like points, polygons, lines, ellipses, etc..."
 msgstr ""
+"outils pour l'insertion d'éléments comme des points, des polygones, des "
+"lignes, des ellipses, etc..."
 
 #: ../../build/doc/overview/gvsig_overview.rst:64
 msgid "tools to modify its rotation, scale, symmetry,..."
-msgstr ""
+msgstr "outils pour modifier la rotation, la symétrie,..."
 
 #: ../../build/doc/overview/gvsig_overview.rst:66
 msgid "Integrated advanced raster tools:"
-msgstr ""
+msgstr "Outils raster avancés intégrés:"
 
 #: ../../build/doc/overview/gvsig_overview.rst:68
 msgid "georeferencing and reprojecting"
-msgstr ""
+msgstr "géoréférencement et reprojection"
 
 #: ../../build/doc/overview/gvsig_overview.rst:69
 msgid "export, clipping"
-msgstr ""
+msgstr "exportation, découpage"
 
 #: ../../build/doc/overview/gvsig_overview.rst:70
 msgid "look up tables, histogram"
-msgstr ""
+msgstr "légendes, histogrammes"
 
 #: ../../build/doc/overview/gvsig_overview.rst:71
 msgid "filters, vectorization"
-msgstr ""
+msgstr "filtres, vectorisation"
 
 #: ../../build/doc/overview/gvsig_overview.rst:72
 msgid "overviews and regions of interest management"
-msgstr ""
+msgstr "vues d'ensembles et gestion de régions d'intérêt"
 
 #: ../../build/doc/overview/gvsig_overview.rst:74
 msgid "3D View"
-msgstr ""
+msgstr "Vue 3D"
 
 #: ../../build/doc/overview/gvsig_overview.rst:76
 msgid "Other features:"
-msgstr ""
+msgstr "Autres fonctionnalités:"
 
 #: ../../build/doc/overview/gvsig_overview.rst:78
 msgid "Scripting support (for both vector and raster data)"
-msgstr ""
+msgstr "Support du scripting (à la fois pour les données vecteur et raster)"
 
 #: ../../build/doc/overview/gvsig_overview.rst:79
 msgid "Powerful reprojection engine via PROJ4"
-msgstr ""
+msgstr "Outil de reprojection puissant avec PROJ4"
 
 #: ../../build/doc/overview/gvsig_overview.rst:80
 msgid "Import/export symbol sets"
-msgstr ""
+msgstr "Import/export de jeux de symboles"
 
 #: ../../build/doc/overview/gvsig_overview.rst:81
 msgid "Map sheets composer"
-msgstr ""
+msgstr "Composition de feuilles de carte"
 
 #: ../../build/doc/overview/gvsig_overview.rst:82
 msgid "Charts"
-msgstr ""
+msgstr "Diagrammes"
 
 #: ../../build/doc/overview/gvsig_overview.rst:83
 msgid "Advanced symbology tools"
-msgstr ""
+msgstr "Outils de symbologie avancés"
 
 #: ../../build/doc/overview/gvsig_overview.rst:84
 msgid "Advanced labelling tools"
-msgstr ""
+msgstr "Outils d'étiquetage avancés"
 
 #: ../../build/doc/overview/gvsig_overview.rst:85
 msgid "Publishing extension"
-msgstr ""
+msgstr "Extension de publication"
 
 #: ../../build/doc/overview/gvsig_overview.rst:86
 msgid "Portable views"
-msgstr ""
+msgstr "Vues portables"
 
 #: ../../build/doc/overview/gvsig_overview.rst:87
 msgid "Customized distributions"
-msgstr ""
+msgstr "Distributions personnalisées"
 
 #: ../../build/doc/overview/gvsig_overview.rst:90
 msgid "Implemented Standards"
-msgstr ""
+msgstr "Standards implémentés"
 
 #: ../../build/doc/overview/gvsig_overview.rst:92
 msgid ""
 "Advanced client support of numerous Open Geospatial Consortium (OGC) "
 "standards"
 msgstr ""
+"Support avancé comme client de nombreux standards de l'Open Geospatial "
+"Consortium (OGC)"
 
 #: ../../build/doc/overview/gvsig_overview.rst:94
 msgid "Load WMS, WMTS, WFS and WCS layers"
-msgstr ""
+msgstr "Chargement de couches WMS, WMTS, WFS et WCS"
 
 #: ../../build/doc/overview/gvsig_overview.rst:95
 msgid "Export/import of SLD legends"
-msgstr ""
+msgstr "Export/import de légendes SLD"
 
 #: ../../build/doc/overview/gvsig_overview.rst:96
 msgid "Export/import of Web Map Context (WMC)"
-msgstr ""
+msgstr "Export/import de Web Map Context (WMC)"
 
 #: ../../build/doc/overview/gvsig_overview.rst:97
 msgid "Search on catalogues with  CSW (ISO/19115 and ebRIM)"
-msgstr ""
+msgstr "Recherches dans des catalogues avec CSW (ISO/19115 et ebRIM)"
 
 #: ../../build/doc/overview/gvsig_overview.rst:98
 msgid "Search on gazetteers using WFS-G recommendation"
 msgstr ""
+"Recherche sur des services d'index géographiques utilisant la recommandation"
+" WFS-G"
 
 #: ../../build/doc/overview/gvsig_overview.rst:101
 msgid "Details"
-msgstr ""
+msgstr "Détails"
 
 #: ../../build/doc/overview/gvsig_overview.rst:103
 msgid "**Website:** http://www.gvsig.com/"
-msgstr ""
+msgstr "**Site web:** http://www.gvsig.com/"
 
 #: ../../build/doc/overview/gvsig_overview.rst:105
 msgid "**Licence:** GNU General Public License (GPL) version 2"
-msgstr ""
+msgstr "**Licence:** GNU General Public License (GPL) version 2"
 
 #: ../../build/doc/overview/gvsig_overview.rst:107
 msgid "**Software Version:** |version-gvsig|"
-msgstr ""
+msgstr "**Version du logiciel:** |version-gvsig|"
 
 #: ../../build/doc/overview/gvsig_overview.rst:109
 msgid "**Supported Platforms:** Windows, Linux"
-msgstr ""
+msgstr "**Plates-formes supportées:** Windows, Linux"
 
 #: ../../build/doc/overview/gvsig_overview.rst:111
 msgid ""
 "**Support:** http://www.gvsig.com/en/gvsig-association, "
 "http://www.gvsig.com/en/community/mailing-lists"
 msgstr ""
+"**Support:** http://www.gvsig.com/en/gvsig-association, "
+"http://www.gvsig.com/en/community/mailing-lists"
 
 #: ../../build/doc/overview/gvsig_overview.rst:118
 msgid "Quickstart"
-msgstr ""
+msgstr "Guide de démarrage rapide"
 
 #: ../../build/doc/overview/gvsig_overview.rst:120
 msgid ":doc:`Quickstart documentation <../quickstart/gvsig_quickstart>`"
 msgstr ""
-
+":doc:`Documentation du guide de démarrage rapide "
+"<../quickstart/gvsig_quickstart>`"

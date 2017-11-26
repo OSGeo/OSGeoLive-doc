@@ -1,8 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,91 +10,117 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../build/doc/overview/otb_overview.rst:17
 msgid "OTB"
-msgstr ""
+msgstr "OTB"
 
 #: ../../build/doc/overview/otb_overview.rst:20
 msgid "Image Processing"
-msgstr ""
+msgstr "Traitement d'images"
 
 #: ../../build/doc/overview/otb_overview.rst:22
 msgid ""
-"ORFEO Toolbox Library (OTB) is a high performance image processing "
-"library. It is primarily used for processing large remote sensing images "
-"such as those gathered by radars, satellites and aerial photography. OTB "
-"provides tools for optic and radar images (tridimensional aspects, "
-"segmentation, classification, changes detection, texture analysis, "
-"pattern matching, and optic/radar complementarities), many of which can "
-"be run on limited-resourced laptops."
+"ORFEO Toolbox Library (OTB) is a high performance image processing library. "
+"It is primarily used for processing large remote sensing images such as "
+"those gathered by radars, satellites and aerial photography. OTB provides "
+"tools for optic and radar images (tridimensional aspects, segmentation, "
+"classification, changes detection, texture analysis, pattern matching, and "
+"optic/radar complementarities), many of which can be run on limited-"
+"resourced laptops."
 msgstr ""
+"ORFEO Toolbox Library (OTB) est une bibliothèque de traitement d'image "
+"hautement performante. Elle est prioritairement utilisée pour le traitement "
+"d'images tels que celles recueillies par les radars, les satellites et les "
+"photographies aériennes. OTB fournit des outils pour les images optiques et "
+"radar (aspects tridimensionnels, segmentation, classification, changement de"
+" détection, analyse de texture, correspondance de motifs, complémentarités "
+"optique/radar), beaucoup d'entre-eux pouvant être exécutés sur des "
+"ordinateurs portables avec des ressources limitées."
 
 #: ../../build/doc/overview/otb_overview.rst:29
 msgid ""
 "OTB is also shipped with a set of extensible ready-to-use tools for "
 "classical remote sensing tasks and a fully integrated application called "
-"Monteverdi, which is a fast viewer that allows users to vizualise "
-"multiple layers, and call OTB processing tools from a menu entry."
+"Monteverdi, which is a fast viewer that allows users to vizualise multiple "
+"layers, and call OTB processing tools from a menu entry."
 msgstr ""
+"OTB est également livré avec un ensemble d'outils extensibles prêts à "
+"l'emploi pour les tâches de télédétection classiques et une application "
+"entièrement intégrée appelée Monteverdi, qui est un visualisateur rapide qui"
+" permet aux utilisateurs de visualiser plusieurs couches et d'appeler les "
+"outils de traitement OTB à partir d'une entrée de menu."
 
 #: ../../build/doc/overview/otb_overview.rst:34
 msgid ""
 "OTB has been funded the French Space Agency (CNES) in the frame of the "
 "Methodological Part of the ORFEO/Pleiades Accompaniement Program and has "
-"been actively developed since 2006. It is based on the ITK image "
-"processing library and is distributed as open source."
+"been actively developed since 2006. It is based on the ITK image processing "
+"library and is distributed as open source."
 msgstr ""
+"OTB a été réalisée par l'Agence Spatiale Française (CNES) dans le cadre de "
+"la partie méthodologique du programme d'accompagnement ORFEO/Pléiades et a "
+"été activement développée depuis 2006. Elle s'appuie sur la librairie de "
+"traitement d'image médicale ITK et est distribuée en Open Source."
 
 #: ../../build/doc/overview/otb_overview.rst:46
 msgid "Core Features"
-msgstr ""
+msgstr "Caractéristiques principales"
 
 #: ../../build/doc/overview/otb_overview.rst:49
 msgid ""
 "image access: optimized read/write access for most remote sensing raster "
 "formats (also JPEG2000 formats), meta-data access and visualization;"
 msgstr ""
+"accès à l'image: accès optimisé en lecture/écriture pour la plupart des "
+"formats de d'images raster de télédétection (y compris les formats "
+"JPEG2000), accès et visualisation aux métadonnées;"
 
 #: ../../build/doc/overview/otb_overview.rst:51
-msgid "orthorectification using DEM, map reprojection and sensor model refinement"
+msgid ""
+"orthorectification using DEM, map reprojection and sensor model refinement"
 msgstr ""
+"orthorectification utilisant le DEM, la reprojection de cartes et le "
+"raffinement du modèle de capteur"
 
 #: ../../build/doc/overview/otb_overview.rst:52
 msgid "optical and SAR calibration"
-msgstr ""
+msgstr "calibration SAR et optique"
 
 #: ../../build/doc/overview/otb_overview.rst:53
 msgid "image fusion"
-msgstr ""
+msgstr "fusion d'image"
 
 #: ../../build/doc/overview/otb_overview.rst:54
 msgid "filtering: blurring, denoising, enhancement..."
-msgstr ""
+msgstr "filtrage: floutage, débruitage, rehaussement..."
 
 #: ../../build/doc/overview/otb_overview.rst:55
 msgid "feature extraction: interest points, alignments, lines..."
-msgstr ""
+msgstr "extraction d'objets: points d'intérêt, alignements, lignes..."
 
 #: ../../build/doc/overview/otb_overview.rst:56
 msgid "object detection"
-msgstr ""
+msgstr "détection d'objets"
 
 #: ../../build/doc/overview/otb_overview.rst:57
 msgid ""
-"large scale image segmentation: region growing, mean-shift, watershed, "
-"level sets..."
+"large scale image segmentation: region growing, mean-shift, watershed, level"
+" sets..."
 msgstr ""
+"segmentation d'image à grande échelle: accroissement régional, déplacement-"
+"moyen, bassin-versant, ensembles de niveaux..."
 
 #: ../../build/doc/overview/otb_overview.rst:58
 msgid "sample selection framework for training"
-msgstr ""
+msgstr "framework de sélection d'échantillon pour l’entraînement"
 
 #: ../../build/doc/overview/otb_overview.rst:59
 msgid ""
@@ -102,66 +128,72 @@ msgid ""
 "OpenCV , Shark, libSVM or custom implementations (K-means, Markov random "
 "fields, SVM, Random Forest, ...)"
 msgstr ""
+"classification: algorithmes à la fois supervisés et non-supervisés provenant"
+" d'OpenCV, Shark, libSVM ou d'implémentations personnalisées (K-means, "
+"champs aléatoires de Markov, SVM, forêt aléatoire, ...)"
 
 #: ../../build/doc/overview/otb_overview.rst:62
 msgid ""
-"regression using machine learning methods from OpenCV (SVM, Random "
-"Forest, ...)"
+"regression using machine learning methods from OpenCV (SVM, Random Forest, "
+"...)"
 msgstr ""
+"régression utilisant des méthodes de 'machine learning' de OpenCV (SVM, "
+"forêt aléatoire, ...)"
 
 #: ../../build/doc/overview/otb_overview.rst:63
 msgid "object-based image analysis"
-msgstr ""
+msgstr "analyse d'image orientée-objet"
 
 #: ../../build/doc/overview/otb_overview.rst:64
 msgid "geospatial analysis"
-msgstr ""
+msgstr "analyse géospatiale"
 
 #: ../../build/doc/overview/otb_overview.rst:65
 msgid "stereoscopic reconstruction from optical images"
-msgstr ""
+msgstr "reconstuction stéréoscopique à partir d'images optiques"
 
 #: ../../build/doc/overview/otb_overview.rst:66
 msgid "SAR data analysis : calibration, polarimetry analysis"
-msgstr ""
+msgstr "analyse de données SAR: calibration, analyse de polarimétrie"
 
 #: ../../build/doc/overview/otb_overview.rst:67
 msgid "change detection."
-msgstr ""
+msgstr "changement de détection."
 
 #: ../../build/doc/overview/otb_overview.rst:70
 msgid "Details"
-msgstr ""
+msgstr "Détails"
 
 #: ../../build/doc/overview/otb_overview.rst:72
 msgid "**Website:** http://www.orfeo-toolbox.org/"
-msgstr ""
+msgstr "**Site web:** http://www.orfeo-toolbox.org/"
 
 #: ../../build/doc/overview/otb_overview.rst:74
 msgid "**Licence:** Apache v2.0"
-msgstr ""
+msgstr "**Licence:** Apache v2.0"
 
 #: ../../build/doc/overview/otb_overview.rst:76
 msgid "**Software Version:** |version-otb|"
-msgstr ""
+msgstr "**Version du logiciel:** |version-otb|"
 
 #: ../../build/doc/overview/otb_overview.rst:78
 msgid "**Supported Platforms:** Linux, Mac, Windows"
-msgstr ""
+msgstr "**Plates-formes supportées:** Linux, Mac, Windows"
 
 #: ../../build/doc/overview/otb_overview.rst:80
 msgid "**API Interfaces:** C++"
-msgstr ""
+msgstr "**Interface de l'API:** C++"
 
 #: ../../build/doc/overview/otb_overview.rst:82
 msgid "**Commercial Support:** http://www.osgeo.org/search_profile"
-msgstr ""
+msgstr "**Support commercial:** http://www.osgeo.org/search_profile"
 
 #: ../../build/doc/overview/otb_overview.rst:87
 msgid "Quickstart"
-msgstr ""
+msgstr "Guide de démarrage rapide"
 
 #: ../../build/doc/overview/otb_overview.rst:89
 msgid ":doc:`Quickstart documentation <../quickstart/otb_quickstart>`"
 msgstr ""
-
+":doc:`Documentation du guide de démarrage rapide "
+"<../quickstart/otb_quickstart>`"

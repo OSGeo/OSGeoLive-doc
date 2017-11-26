@@ -1,8 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,20 +10,21 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../build/doc/overview/leaflet_overview.rst:16
 msgid "Leaflet"
-msgstr ""
+msgstr "Leaflet"
 
 #: ../../build/doc/overview/leaflet_overview.rst:19
 msgid "Browser/Mobile Map Library"
-msgstr ""
+msgstr "Bibliothèque cartographique pour navigateur/mobile"
 
 #: ../../build/doc/overview/leaflet_overview.rst:21
 msgid ""
@@ -31,218 +32,242 @@ msgid ""
 "interactive maps.  It is light weight, yet has all the features most "
 "developers ever need for online maps."
 msgstr ""
+"Leaflet est une bibliothèque JavaScript pour les cartes mobiles interactives"
+" basées dans le navigateur.  Elle est légère, mais possède toutes les "
+"fonctionnalités dont la plupart des développeurs auront besoin pour des "
+"cartes en ligne."
 
 #: ../../build/doc/overview/leaflet_overview.rst:23
 msgid ""
-"Leaflet is designed with simplicity, performance and usability in mind. "
-"It works efficiently across all major desktop and mobile platforms out of"
-" the box,  taking advantage of HTML5 and CSS3 on modern browsers while "
-"being accessible on older ones too.  It can be extended with many "
-"plugins, has a beautiful, easy to use and well-documented API and a "
-"simple, readable source code that is a joy to contribute to."
+"Leaflet is designed with simplicity, performance and usability in mind. It "
+"works efficiently across all major desktop and mobile platforms out of the "
+"box,  taking advantage of HTML5 and CSS3 on modern browsers while being "
+"accessible on older ones too.  It can be extended with many plugins, has a "
+"beautiful, easy to use and well-documented API and a simple, readable source"
+" code that is a joy to contribute to."
 msgstr ""
+"Leaflet a été conçue dans un souci de simplicité, de performance et "
+"d'ergonomie. Elle fonctionne efficacement sur toutes les principales plates-"
+"formes de bureau et mobiles, en tirant parti des technologies HTML5 et CSS3 "
+"sur les navigateurs modernes tout en étant accessible sur les plus anciens "
+"aussi.  Elle peut être étendue avec de nombreux plugins, dispose d'une belle"
+" API, facile à utiliser et bien documentée et d'un code source simple, "
+"lisible qui est un plaisir à contribuer."
 
 #: ../../build/doc/overview/leaflet_overview.rst:37
 msgid "Core Features"
-msgstr ""
+msgstr "Caractéristiques principales"
 
 #: ../../build/doc/overview/leaflet_overview.rst:39
 msgid "Map Layers"
-msgstr ""
+msgstr "Couches de carte"
 
 #: ../../build/doc/overview/leaflet_overview.rst:41
 msgid "Tiles, Markers, Popups, Image overlays, WMS, GeoJSON"
-msgstr ""
+msgstr "Tuiles, marqueurs, popup, image surimposé, WMS, GeoJSON"
 
 #: ../../build/doc/overview/leaflet_overview.rst:42
 msgid "Vectors: polylines, polygons, circles, rectangles, circle markers"
 msgstr ""
+"Vecteurs: polylignes, polygones, cercles, rectangles, marqueurs circulaires"
 
 #: ../../build/doc/overview/leaflet_overview.rst:43
 msgid "Layer groups"
-msgstr ""
+msgstr "Groupes de couche"
 
 #: ../../build/doc/overview/leaflet_overview.rst:45
 msgid "Customization Features"
-msgstr ""
+msgstr "Fonctionnalités de personnalisation"
 
 #: ../../build/doc/overview/leaflet_overview.rst:47
 msgid "Pure CSS3 popups and controls for easy restyling"
-msgstr ""
+msgstr "Des popups et des contrôles CSS3 purs pour faciliter le restylage"
 
 #: ../../build/doc/overview/leaflet_overview.rst:48
 msgid "Image- and HTML-based markers"
-msgstr ""
+msgstr "Marqueurs basés sur des images et le HTML"
 
 #: ../../build/doc/overview/leaflet_overview.rst:49
 msgid "Custom map layers, controls, projections"
-msgstr ""
+msgstr "Couches, contrôles et projections de cartes personnalisées"
 
 #: ../../build/doc/overview/leaflet_overview.rst:50
 msgid "Powerful OOP facilities for extending existing classes"
-msgstr ""
+msgstr "De puissants utilitaires OOP pour étendre les classes existantes"
 
 #: ../../build/doc/overview/leaflet_overview.rst:58
 msgid "Interaction and Visual Features"
-msgstr ""
+msgstr "Interaction et fonctionnalités visuelles"
 
 #: ../../build/doc/overview/leaflet_overview.rst:53
 msgid "Drag panning with inertia"
-msgstr ""
+msgstr "Déplacement par drag avec inertie"
 
 #: ../../build/doc/overview/leaflet_overview.rst:54
 msgid "Keyboard navigation"
-msgstr ""
+msgstr "Navigation clavier"
 
 #: ../../build/doc/overview/leaflet_overview.rst:55
 msgid "Multi-touch"
-msgstr ""
+msgstr "Multi-touch"
 
 #: ../../build/doc/overview/leaflet_overview.rst:56
 msgid "Zoom/Panning animation"
-msgstr ""
+msgstr "Animation lors du zoom/déplacement"
 
 #: ../../build/doc/overview/leaflet_overview.rst:57
 msgid "Very nice default design for markers, popups and other map controls"
 msgstr ""
+"Très beau design par défaut pour les marqueurs, popups et autres contrôles "
+"cartographiques"
 
 #: ../../build/doc/overview/leaflet_overview.rst:58
 msgid "Retina resolution support for tile layers and markers"
 msgstr ""
+"Prise en charge de la résolution Retina pour les couches tuilées et les "
+"marqueurs"
 
 #: ../../build/doc/overview/leaflet_overview.rst:60
 msgid "Performance Features"
-msgstr ""
+msgstr "Fonctionnalités liées à la performance"
 
 #: ../../build/doc/overview/leaflet_overview.rst:62
 msgid "Hardware acceleration"
-msgstr ""
+msgstr "Accélération matérielle"
 
 #: ../../build/doc/overview/leaflet_overview.rst:63
 msgid "Utilizing CSS3 features to make panning and zooming really smooth"
 msgstr ""
+"Utilisation des fonctions CSS3 pour rendre le déplacement et le zoom "
+"vraiment fluides"
 
 #: ../../build/doc/overview/leaflet_overview.rst:64
 msgid "Smart polyline/polygon rendering"
-msgstr ""
+msgstr "Rendu de polyligne/polygone intelligent"
 
 #: ../../build/doc/overview/leaflet_overview.rst:65
 msgid "Modular design allows including only required features"
 msgstr ""
+"La conception modulaire permet de n'inclure que les caractéristiques "
+"requises"
 
 #: ../../build/doc/overview/leaflet_overview.rst:66
 msgid "Tap delay elimination on mobile devices"
-msgstr ""
+msgstr "Élimination du délai tap sur support mobile"
 
 #: ../../build/doc/overview/leaflet_overview.rst:68
 msgid "Map Controls"
-msgstr ""
+msgstr "Contrôles de carte"
 
 #: ../../build/doc/overview/leaflet_overview.rst:70
 msgid "Zoom buttons, Attribution, Layer switcher, Scale"
-msgstr ""
+msgstr "Boutons de zoom, Attribution, bascule entre couches, barre d'échelle"
 
 #: ../../build/doc/overview/leaflet_overview.rst:72
 msgid "Desktop Browser Support"
-msgstr ""
+msgstr "Support des navigateurs bureautiques"
 
 #: ../../build/doc/overview/leaflet_overview.rst:74
 msgid "Chrome"
-msgstr ""
+msgstr "Chrome"
 
 #: ../../build/doc/overview/leaflet_overview.rst:75
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: ../../build/doc/overview/leaflet_overview.rst:76
 msgid "Safari 5+"
-msgstr ""
+msgstr "Safari 5+"
 
 #: ../../build/doc/overview/leaflet_overview.rst:77
 msgid "Opera 12+"
-msgstr ""
+msgstr "Opera 12+"
 
 #: ../../build/doc/overview/leaflet_overview.rst:78
 msgid "IE 7–11"
-msgstr ""
+msgstr "IE 7–11"
 
 #: ../../build/doc/overview/leaflet_overview.rst:80
 msgid "Mobile Browser Support"
-msgstr ""
+msgstr "Support des navigateurs sur mobile"
 
 #: ../../build/doc/overview/leaflet_overview.rst:82
 msgid "Safari for iOS 3-7+"
-msgstr ""
+msgstr "Safari pour iOS 3-7+"
 
 #: ../../build/doc/overview/leaflet_overview.rst:83
 msgid "Android browser 2.2+, 3.1+, 4+"
-msgstr ""
+msgstr "Navigateur Android 2.2+, 3.1+, 4+"
 
 #: ../../build/doc/overview/leaflet_overview.rst:84
 msgid "Chrome for Android 4+ and iOS"
-msgstr ""
+msgstr "Chrome pour Android 4+ et iOS"
 
 #: ../../build/doc/overview/leaflet_overview.rst:85
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox pour Android"
 
 #: ../../build/doc/overview/leaflet_overview.rst:86
 msgid "Other webkit-based browsers (webOS, Blackberry 7+, etc.)"
-msgstr ""
+msgstr "Autres navigateurs basés sur webkit (webOS, Blackberry 7+, etc.)"
 
 #: ../../build/doc/overview/leaflet_overview.rst:87
 msgid "IE10/IE11 for Win8-based devices"
-msgstr ""
+msgstr "IE10/IE11 pour les appareils basés sur Windows 8"
 
 #: ../../build/doc/overview/leaflet_overview.rst:89
 msgid "Misc"
-msgstr ""
+msgstr "Divers"
 
 #: ../../build/doc/overview/leaflet_overview.rst:91
 msgid "Extremely lightweight — around 34 KB of gzipped JS code"
-msgstr ""
+msgstr "Extrêmement légère — environ 34 Ko de code JS gzippé"
 
 #: ../../build/doc/overview/leaflet_overview.rst:92
 msgid "No external dependencies"
-msgstr ""
+msgstr "Pas de dépendances externes"
 
 #: ../../build/doc/overview/leaflet_overview.rst:93
-msgid "Keeps your JS environment clean — no global or native prototypes pollution"
+msgid ""
+"Keeps your JS environment clean — no global or native prototypes pollution"
 msgstr ""
+"Garde votre environnement JS propre - pas de pollution de prototypes globaux"
+" ou natifs"
 
 #: ../../build/doc/overview/leaflet_overview.rst:97
 msgid "Details"
-msgstr ""
+msgstr "Détails"
 
 #: ../../build/doc/overview/leaflet_overview.rst:99
 msgid "**Website:** http://leafletjs.com"
-msgstr ""
+msgstr "**Site web:** http://leafletjs.com"
 
 #: ../../build/doc/overview/leaflet_overview.rst:101
 msgid "**Licence:** BSD"
-msgstr ""
+msgstr "**Licence:** BSD"
 
 #: ../../build/doc/overview/leaflet_overview.rst:103
 msgid "**Software Version:** |version-leaflet|"
-msgstr ""
+msgstr "**Version du logiciel:** |version-leaflet|"
 
 #: ../../build/doc/overview/leaflet_overview.rst:105
 msgid "**Supported Platforms:** Windows, Mac, Linux, Android, iOS"
-msgstr ""
+msgstr "**Plates-formes supportées:** Windows, Mac, Linux, Android, iOS"
 
 #: ../../build/doc/overview/leaflet_overview.rst:107
 msgid "**API Interfaces:** Javascript"
-msgstr ""
+msgstr "**Interface d'API:** Javascript"
 
 #: ../../build/doc/overview/leaflet_overview.rst:109
 msgid "**Support:** https://groups.google.com/forum/#!forum/leaflet-js"
-msgstr ""
+msgstr "**Support:** https://groups.google.com/forum/#!forum/leaflet-js"
 
 #: ../../build/doc/overview/leaflet_overview.rst:113
 msgid "Quickstart"
-msgstr ""
+msgstr "Guide de démarrage rapide"
 
 #: ../../build/doc/overview/leaflet_overview.rst:115
 msgid ":doc:`Quickstart documentation <../quickstart/leaflet_quickstart>`"
 msgstr ""
-
+":doc:`Documentation du guide de démarrage rapide "
+"<../quickstart/leaflet_quickstart>`"

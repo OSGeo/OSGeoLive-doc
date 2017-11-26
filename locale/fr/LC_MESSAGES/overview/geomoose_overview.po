@@ -1,8 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,156 +10,186 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../build/doc/overview/geomoose_overview.rst:19
 msgid "GeoMoose"
-msgstr ""
+msgstr "GeoMoose"
 
 #: ../../build/doc/overview/geomoose_overview.rst:22
 msgid "Web GIS Portal"
-msgstr ""
+msgstr "Portail SIG en ligne"
 
 #: ../../build/doc/overview/geomoose_overview.rst:24
 msgid ""
 "GeoMoose is a browser based mapping framework for displaying distributed "
-"cartographic data. It is particularly useful for managing spatial and "
-"non-spatial data within county, city and municipal offices (from which "
-"GeoMoose originated).  It extends the functionality of MapServer and "
-"OpenLayers to provide built in services, like drill-down identify "
-"operations for viewing and organising many layers, selection operations "
-"and dataset searches."
+"cartographic data. It is particularly useful for managing spatial and non-"
+"spatial data within county, city and municipal offices (from which GeoMoose "
+"originated).  It extends the functionality of MapServer and OpenLayers to "
+"provide built in services, like drill-down identify operations for viewing "
+"and organising many layers, selection operations and dataset searches."
 msgstr ""
+"GeoMOOSE est un environnement de cartographie pour le web pour afficher des "
+"données cartographiques éparses. Il est particulièrement utile pour gérer "
+"des données spatiales et non-spatiales dans les mairies, agglomérations et "
+"autres collectivités (d'où GeoMoose est d'ailleurs originaire).  Il étend "
+"les fonctionnalités de MapServer et OpenLayers pour fournir des services "
+"déjà prêts, comme la réorganisation de niveaux pour voir et organiser les "
+"couches, les opérations de sélection et les recherches de jeux de données."
 
 #: ../../build/doc/overview/geomoose_overview.rst:26
 msgid ""
-"GeoMoose is fast, performing well with hundreds of layers and/or services"
-" at a time.  Data from multiple custodians can be maintained with "
-"different tools and on different schedules as each map layer has its own "
-"set of configuration files for publishing, symbols, templates as well as "
-"source data."
+"GeoMoose is fast, performing well with hundreds of layers and/or services at"
+" a time.  Data from multiple custodians can be maintained with different "
+"tools and on different schedules as each map layer has its own set of "
+"configuration files for publishing, symbols, templates as well as source "
+"data."
 msgstr ""
+"GeoMOOSE est rapide, fonctionne plutôt bien même avec des centaines de "
+"couches et/ou services en même temps. Les données de chaque gestionnaire "
+"peuvent être maintenues avec différents outils et différents plannings comme"
+" chaque carte a ses propres fichiers de configuration pour publier, "
+"symboles, modèles aussi bien que sources de données."
 
 #: ../../build/doc/overview/geomoose_overview.rst:28
 msgid ""
-"The user interface is easily configurable, and additional services can be"
-" added through a modular architecture."
+"The user interface is easily configurable, and additional services can be "
+"added through a modular architecture."
 msgstr ""
+"L'interface utilisateur est facilement configurable, et des services "
+"additionnels peuvent être ajoutés via une architecture modulaire."
 
 #: ../../build/doc/overview/geomoose_overview.rst:37
 msgid "Core Features"
-msgstr ""
+msgstr "Caractéristiques principales"
 
 #: ../../build/doc/overview/geomoose_overview.rst:39
 msgid "Distributed data maintenance amongst multiple owners."
 msgstr ""
+"Maintenance des données distribuées entre les différents propriétaires."
 
 #: ../../build/doc/overview/geomoose_overview.rst:40
 msgid ""
-"Access maps from: MapServer, Google, VirtualEarth, Tilecache, ArcGIS "
-"REST, WMS."
+"Access maps from: MapServer, Google, VirtualEarth, Tilecache, ArcGIS REST, "
+"WMS."
 msgstr ""
+"Accès à des cartes venant de: MapServer, Google, VirtualEarth, Tilecache, "
+"ArcGIS REST, WMS."
 
 #: ../../build/doc/overview/geomoose_overview.rst:41
 msgid "Configure multiple views of data sources."
-msgstr ""
+msgstr "Configuration de multiples vues de sources de données."
 
 #: ../../build/doc/overview/geomoose_overview.rst:42
 msgid "Discover and filter from data catalogs."
-msgstr ""
+msgstr "Découverte et filtrage depuis des catalogues de données"
 
 #: ../../build/doc/overview/geomoose_overview.rst:43
 msgid ""
 "Tools: measure, drawing, query, fading, re-order, reprojection, jump-to "
 "zoom, coordinate readouts, ..."
 msgstr ""
+"Outils: mesures, dessins, interrogation,effets de transition, ré-"
+"ordonnancement, reprojection, zoom, lecture de coordonnées, ..."
 
 #: ../../build/doc/overview/geomoose_overview.rst:44
 msgid ""
 "Displays: MapViewer, Bird's Eye, Side Menu, Navigation, Tabbed User "
 "Controls."
 msgstr ""
+"Affichage: visionneuse de cartes, vue 45° (Bird Eye), menu latéral, "
+"navigation, contrôles utilisateur avec onglets."
 
 #: ../../build/doc/overview/geomoose_overview.rst:45
 msgid ""
-"XML based MapBook configuration file for User Interface, Source Layers "
-"and Tools."
+"XML based MapBook configuration file for User Interface, Source Layers and "
+"Tools."
 msgstr ""
+"Fichier de configuration de \"livre de carte\" basé sur XML, pour "
+"l'interface utilisateur, les sources de données et les outils"
 
 #: ../../build/doc/overview/geomoose_overview.rst:46
 msgid "Integration with Mapserver."
-msgstr ""
+msgstr "Intégration avec Mapserver."
 
 #: ../../build/doc/overview/geomoose_overview.rst:47
 msgid ""
 "Modular design facilitates integration with non-spatial systems (such as "
 "asset management)."
 msgstr ""
+"Conception modulaire facilitant l'intégration avec des systèmes non-spatiaux"
+" (comme la gestion de propriétés)."
 
 #: ../../build/doc/overview/geomoose_overview.rst:48
 msgid "Publish almost unlimited number of layers."
-msgstr ""
+msgstr "Publication quasiment illimitée en nombre de couches."
 
 #: ../../build/doc/overview/geomoose_overview.rst:49
 msgid "PDF printing."
-msgstr ""
+msgstr "Impression PDF."
 
 #: ../../build/doc/overview/geomoose_overview.rst:52
 msgid "Implemented Standards"
-msgstr ""
+msgstr "Standards implémentés"
 
 #: ../../build/doc/overview/geomoose_overview.rst:53
 msgid "WMS"
-msgstr ""
+msgstr "WMS"
 
 #: ../../build/doc/overview/geomoose_overview.rst:54
 msgid "WFS (client)"
-msgstr ""
+msgstr "WFS (client)"
 
 #: ../../build/doc/overview/geomoose_overview.rst:55
 msgid "WFS-T (client)"
-msgstr ""
+msgstr "WFS-T (client)"
 
 #: ../../build/doc/overview/geomoose_overview.rst:58
 msgid "Details"
-msgstr ""
+msgstr "Détails"
 
 #: ../../build/doc/overview/geomoose_overview.rst:60
 msgid "**Website:** http://www.geomoose.org/"
-msgstr ""
+msgstr "**Site web:** http://www.geomoose.org/"
 
 #: ../../build/doc/overview/geomoose_overview.rst:62
-msgid "**Licence:** MIT based license. http://www.geomoose.org/info/license.html"
+msgid ""
+"**Licence:** MIT based license. http://www.geomoose.org/info/license.html"
 msgstr ""
+"**Licence:** licence basée sur la MIT. "
+"http://www.geomoose.org/info/license.html"
 
 #: ../../build/doc/overview/geomoose_overview.rst:64
 msgid "**Software Version:** |version-geomoose|"
-msgstr ""
+msgstr "**Version du logiciel:** |version-geomoose|"
 
 #: ../../build/doc/overview/geomoose_overview.rst:66
 msgid "**Supported Platforms:** Windows, Linux, Mac"
-msgstr ""
+msgstr "**Plates-formes supportées:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/geomoose_overview.rst:68
 msgid ""
-"**Commercial Support:** "
-"http://www.geomoose.org/info/commercial_support.html"
+"**Commercial Support:** http://www.geomoose.org/info/commercial_support.html"
 msgstr ""
+"**Support commercial:** http://www.geomoose.org/info/commercial_support.html"
 
 #: ../../build/doc/overview/geomoose_overview.rst:70
 msgid "**Community Support:** http://www.geomoose.org/info/mailing_lists.html"
 msgstr ""
+"**Support Communautaire** http://www.geomoose.org/info/mailing_lists.html"
 
 #: ../../build/doc/overview/geomoose_overview.rst:75
 msgid "Quickstart"
-msgstr ""
+msgstr "Guide de démarrage rapide"
 
 #: ../../build/doc/overview/geomoose_overview.rst:77
 msgid ":doc:`Quickstart documentation <../quickstart/geomoose_quickstart>`"
 msgstr ""
-
+":doc:`Documentation du guide de démarrage rapide "
+"<../quickstart/geomoose_quickstart>`"

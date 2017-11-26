@@ -1,8 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,20 +10,21 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:15
 msgid "52 North WPS"
-msgstr ""
+msgstr "52 North WPS"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:18
 msgid "About"
-msgstr ""
+msgstr "A propos"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:20
 msgid ""
@@ -31,127 +32,139 @@ msgid ""
 "<http://www.opengeospatial.org/standards/wps>`__ enables web access to "
 "geospatial processing algorithms provided by Sextante, ArcGIS Server, R, "
 "GRASS 7, or custom developed functions. Algorithms may be as simple as "
-"determining the difference in influenza cases between two different "
-"seasons, or as complicated as a global climate change model."
+"determining the difference in influenza cases between two different seasons,"
+" or as complicated as a global climate change model."
 msgstr ""
+"52°North :doc:`Web Processing Service (WPS) "
+"<http://www.opengeospatial.org/standards/wps>`__ permet l'accès via Internet"
+" à des algorithmes de traitement géospatial fournis par Sextante, ArcGIS "
+"Server, R, GRASS 7, ou par des fonctions développées sur mesure. Les "
+"algorithmes peuvent être aussi simples que déterminer la différence dans les"
+" cas de grippe entre deux saisons ou aussi compliqués qu'un modèle du "
+"changement climatique mondial."
 
 #: ../../build/doc/overview/52nWPS_overview.rst:32
 msgid "Core Features"
-msgstr ""
+msgstr "Caractéristiques principales"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:34
 msgid "Core GIS functions:"
-msgstr ""
+msgstr "Fonctions SIG de base:"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:36
 msgid "SimpleBufferAlgorithm"
-msgstr ""
+msgstr "SimpleBufferAlgorithm"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:37
 msgid "DouglasPeuckerAlgorithm"
-msgstr ""
+msgstr "DouglasPeuckerAlgorithm"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:38
 msgid "IntersectionAlgorithm"
-msgstr ""
+msgstr "IntersectionAlgorithm"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:39
 msgid "AddRasterValuesAlgorithm"
-msgstr ""
+msgstr "AddRasterValuesAlgorithm"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:40
 msgid "CoordinateTransformAlgorithm"
-msgstr ""
+msgstr "CoordinateTransformAlgorithm"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:42
 msgid "Backend algorithms available through:"
-msgstr ""
+msgstr "Algorithmes en backend disponibles via:"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:44
 msgid "Sextante"
-msgstr ""
+msgstr "Sextante"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:45
 msgid "ArcGIS Server"
-msgstr ""
+msgstr "ArcGIS Server"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:46
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:47
 msgid "GRASS 7"
-msgstr ""
+msgstr "GRASS 7"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:49
 msgid "Input and Output formats supported:"
-msgstr ""
+msgstr "Formats d'entrée et de sortie pris en charge:"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:51
-msgid "Vector Data: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN, JSON"
+msgid ""
+"Vector Data: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN, JSON"
 msgstr ""
+"Données vecteur: GML2, GML3, fichiers SHP, KML, WKT (Well-known Text), DGN, "
+"JSON"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:52
 msgid "Raster Data: Geotiff, AsciiGrid, NetCDF, JPEG, PNG, HDF-EOS, ERDAS HFA"
 msgstr ""
+"Données Raster: Geotiff, AsciiGrid, NetCDF, JPEG, PNG, HDF-EOS, ERDAS HFA"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:53
 msgid "Outputs can be stored in GeoServer/MapServer"
-msgstr ""
+msgstr "Les sorties peuvent être stockées dans geoServer/MapServer"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:55
 msgid "A browser based client"
-msgstr ""
+msgstr "Un client basé sur un navigateur web"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:58
 msgid "Implemented Standards"
-msgstr ""
+msgstr "Standards implémentés"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:60
 msgid "OGC Web Processing Service (WPS)"
-msgstr ""
+msgstr "Web Processing Service (WPS) OGC"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:61
 msgid "OGC GML2 SimpleFeatures"
-msgstr ""
+msgstr "GML2 SimpleFeatures OGC"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:62
 msgid "OGC GML3 SimpleFeatures"
-msgstr ""
+msgstr "GML3 SimpleFeatures OGC"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:65
 msgid "Details"
-msgstr ""
+msgstr "Détails"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:67
 msgid "**Website:** http://52north.org/wps"
-msgstr ""
+msgstr "**Site web:** http://52north.org/wps"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:69
 msgid "**Licence:** GPL 2"
-msgstr ""
+msgstr "**Licence:** GPL 2"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:71
 msgid "**Software Version:** |version-52nWPS|"
-msgstr ""
+msgstr "**Version du logiciel:** |version-52nWPS|"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:73
 msgid "**Supported Platforms:** Windows, Linux, Mac"
-msgstr ""
+msgstr "**Plates-formes supportées:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:75
 msgid "**Commercial Support:** http://52north.org"
-msgstr ""
+msgstr "**Support commercial:** http://52north.org"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:77
 msgid "**Other 52°North projects:** :doc:`SOS <./52nSOS_overview>`"
-msgstr ""
+msgstr "**Autres projets de 52°North:** :doc:`SOS <./52nSOS_overview>`"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:82
 msgid "Quickstart"
-msgstr ""
+msgstr "Guide de démarrage rapide"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:84
 msgid ":doc:`Quickstart documentation <../quickstart/52nWPS_quickstart>`"
 msgstr ""
-
+":doc:`Documentation du guide de démarrage rapide "
+"<../quickstart/52nWPS_quickstart>`"

@@ -1,8 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,28 +10,33 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../build/doc/overview/liblas_overview.rst:15
 msgid "libLAS"
-msgstr ""
+msgstr "libLAS"
 
 #: ../../build/doc/overview/liblas_overview.rst:18
 msgid "LiDAR Data Access"
-msgstr ""
+msgstr "Accès aux données LiDAR"
 
 #: ../../build/doc/overview/liblas_overview.rst:20
 msgid ""
 "libLAS is a C/C++ library for reading and writing the very common `LAS` "
-"`LiDAR`_ format. The `ASPRS LAS format`_ is a sequential binary format "
-"used to store data from LiDAR sensors and by LiDAR processing software "
-"for data interchange and archival."
+"`LiDAR`_ format. The `ASPRS LAS format`_ is a sequential binary format used "
+"to store data from LiDAR sensors and by LiDAR processing software for data "
+"interchange and archival."
 msgstr ""
+"libLAS est une bibliothèque C/C++ pour lire et écrire le format très courant"
+" pour le `LiDAR`_ , `LAS`. Le `ASPRS LAS format`_ est un format séquentiel "
+"binaire utilisé pour stocker des données de capteurs LiDAR et par les "
+"logiciels de traitement de données LiDAR pour l'échange et l'archivage."
 
 #: ../../build/doc/overview/liblas_overview.rst:25
 msgid ""
@@ -39,64 +44,77 @@ msgid ""
 "detection much like a radar system that uses laser light as the "
 "electromagnetic emission. One of LiDAR systems' products is a \"point "
 "cloud\" data product that can be conceptualized as a series of point "
-"measurements representing distance from the sensor to a returned "
-"emission.  A common storage format for these point cloud data is ASPRS "
-"LAS format."
+"measurements representing distance from the sensor to a returned emission.  "
+"A common storage format for these point cloud data is ASPRS LAS format."
 msgstr ""
+"Le LiDAR (Light Detection and Ranging) est une forme de détection "
+"d'intervalles de distance haute-précision un peu comme l'est un système "
+"radar qui utilise un laser lumineux comme émission électromagnétique. Un des"
+" produits issu des systèmes LIDAR est une donnée de nuages de points qui "
+"peut être conceptualisée en une série de mesures de points représentant la "
+"distance du capteur par rapport à l'émission retournée. Un format de "
+"stockage courant pour ces données de nuages de points est le format LAS "
+"ASPRS."
 
 #: ../../build/doc/overview/liblas_overview.rst:38
 msgid "Core Features"
-msgstr ""
+msgstr "Caractéristiques principales"
 
 #: ../../build/doc/overview/liblas_overview.rst:40
 msgid "C/C++/Python APIs for reading, writing, and manipulating LAS data"
-msgstr ""
+msgstr "API C/C++/Python pour lire, écrire et manipuler des données LAS"
 
 #: ../../build/doc/overview/liblas_overview.rst:41
-msgid "`Command line utilities`_ for manipulating LAS data based on `LAStools`_"
+msgid ""
+"`Command line utilities`_ for manipulating LAS data based on `LAStools`_"
 msgstr ""
+"`Command line utilities`_ pour manipuler les données LAS basées sur "
+"`LAStools`_"
 
 #: ../../build/doc/overview/liblas_overview.rst:42
 msgid "Coordinate reprojection via `GDAL <http://gdal.org>`__"
-msgstr ""
+msgstr "Reprojection de coordonnées via `GDAL <http://gdal.org>`__"
 
 #: ../../build/doc/overview/liblas_overview.rst:45
 msgid "Details"
-msgstr ""
+msgstr "Détails"
 
 #: ../../build/doc/overview/liblas_overview.rst:47
 msgid "**Website:** http://liblas.org"
-msgstr ""
+msgstr "**Site web:** http://liblas.org"
 
 #: ../../build/doc/overview/liblas_overview.rst:49
 msgid "**Licence:** BSD"
-msgstr ""
+msgstr "**Licence:** BSD"
 
 #: ../../build/doc/overview/liblas_overview.rst:51
 msgid "**Software Version:** |version-liblas|"
-msgstr ""
+msgstr "**Version du logiciel:** |version-liblas|"
 
 #: ../../build/doc/overview/liblas_overview.rst:53
 msgid ""
 "**Supported Platforms:** Cross Platform C++ -- Mac OS X, Windows (via "
 "`OSGeo4W`_), and Linux"
 msgstr ""
+"**Plates-formes supportées:** C++ multi-plateformes -- Mac OS X, Windows "
+"(via `OSGeo4W`_), et Linux"
 
 #: ../../build/doc/overview/liblas_overview.rst:55
 msgid "**API Interfaces:** C, C++, Python"
-msgstr ""
+msgstr "**Interfaces de l'API:** C, C++, Python"
 
 #: ../../build/doc/overview/liblas_overview.rst:57
 msgid ""
-"**Support:** `Communication and Support "
-"<http://liblas.org/community.html>`_"
+"**Support:** `Communication and Support <http://liblas.org/community.html>`_"
 msgstr ""
+"**Support:** `Communication et Support <http://liblas.org/community.html>`_"
 
 #: ../../build/doc/overview/liblas_overview.rst:71
 msgid "Quickstart"
-msgstr ""
+msgstr "Guide de démarrage rapide"
 
 #: ../../build/doc/overview/liblas_overview.rst:73
 msgid ":doc:`Quickstart documentation <../quickstart/liblas_quickstart>`"
 msgstr ""
-
+":doc:`Documentation du guide de démarrage rapide "
+"<../quickstart/liblas_quickstart>`"
