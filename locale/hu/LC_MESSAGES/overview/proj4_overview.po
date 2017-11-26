@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.0\n"
 
-#: ../../build/doc/overview/proj4_overview.rst:17
+#: ../../build/doc/overview/proj4_overview.rst:16
 msgid "Proj.4"
 msgstr ""
 
-#: ../../build/doc/overview/proj4_overview.rst:24
+#: ../../build/doc/overview/proj4_overview.rst:18
 msgid ""
 "Proj4 is a library that provides methods to transform between different "
 "coordinate reference systems. A geographic coordinate reference systems "
@@ -30,7 +30,7 @@ msgid ""
 "to represent the 3 dimensional earth on a flat, 2 dimensional map."
 msgstr ""
 
-#: ../../build/doc/overview/proj4_overview.rst:30
+#: ../../build/doc/overview/proj4_overview.rst:24
 msgid ""
 "Proj4 is used in :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS "
 "<grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik "
@@ -38,7 +38,7 @@ msgid ""
 "and various others."
 msgstr ""
 
-#: ../../build/doc/overview/proj4_overview.rst:32
+#: ../../build/doc/overview/proj4_overview.rst:26
 msgid ""
 "Proj4 has been translated from C to `other languages "
 "<http://trac.osgeo.org/metacrs/wiki>`.  These sub-projects include: These"
@@ -108,11 +108,11 @@ msgstr ""
 msgid "**Support:** http://lists.maptools.org/mailman/listinfo/proj"
 msgstr ""
 
-#: ../../build/doc/overview/proj4_overview.rst:72
+#: ../../build/doc/overview/proj4_overview.rst:73
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/proj4_overview.rst:74
+#: ../../build/doc/overview/proj4_overview.rst:75
 msgid ":doc:`Quickstart documentation <../quickstart/proj4_quickstart>`"
 msgstr ""
 

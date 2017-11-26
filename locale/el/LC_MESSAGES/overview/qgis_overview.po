@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.0\n"
 
-#: ../../build/doc/overview/qgis_overview.rst:21
+#: ../../build/doc/overview/qgis_overview.rst:20
 msgid "QGIS"
 msgstr ""
 
-#: ../../build/doc/overview/qgis_overview.rst:24
+#: ../../build/doc/overview/qgis_overview.rst:23
 msgid "Desktop GIS"
 msgstr ""
 
-#: ../../build/doc/overview/qgis_overview.rst:26
+#: ../../build/doc/overview/qgis_overview.rst:25
 msgid ""
 "QGIS is a user friendly, Open Source, GIS client where you can visualize,"
 " manage, edit, analyse data, and compose printable maps. It includes "
@@ -210,11 +210,11 @@ msgid ""
 "http://qgis.org/en/site/forusers/commercial_support.html"
 msgstr ""
 
-#: ../../build/doc/overview/qgis_overview.rst:99
+#: ../../build/doc/overview/qgis_overview.rst:100
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/qgis_overview.rst:101
+#: ../../build/doc/overview/qgis_overview.rst:102
 msgid ":doc:`Quickstart documentation <../quickstart/qgis_quickstart>`"
 msgstr ""
 

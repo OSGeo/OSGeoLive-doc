@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-25 21:29-0600\n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,7 +80,4 @@ msgstr ""
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:45
 msgid "**Support:** http://lists.osgeo.org/mailman/listinfo/geodata"
 msgstr ""
-
-#~ msgid "NetCDF Data Set"
-#~ msgstr ""
 

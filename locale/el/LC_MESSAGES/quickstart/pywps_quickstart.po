@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,45 +17,45 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.0\n"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:21
+#: ../../build/doc/quickstart/pywps_quickstart.rst:18
 msgid "PyWPS Quickstart"
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:23
+#: ../../build/doc/quickstart/pywps_quickstart.rst:20
 msgid ""
 "PyWPS is an OGC WPS (Web Processing Service 1.0.0) server implementation "
 "written in `Python <http://python.org>`_."
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:26
+#: ../../build/doc/quickstart/pywps_quickstart.rst:23
 msgid ""
 "PyWPS is installed by default on OSGeoLive.  This Quickstart describes "
 "how to:"
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:28
+#: ../../build/doc/quickstart/pywps_quickstart.rst:25
 msgid "test the PyWPS installation"
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:29
+#: ../../build/doc/quickstart/pywps_quickstart.rst:26
 msgid "configure the PyWPS instance"
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:30
+#: ../../build/doc/quickstart/pywps_quickstart.rst:27
 msgid "create and deploy processes in PyWPS"
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:31
+#: ../../build/doc/quickstart/pywps_quickstart.rst:28
 msgid ""
 "perform ``GetCapabilities``, ``DescribeProcess`` and ``Execute`` "
 "operations"
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:36
+#: ../../build/doc/quickstart/pywps_quickstart.rst:33
 msgid "Tester Application"
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:38
+#: ../../build/doc/quickstart/pywps_quickstart.rst:35
 msgid ""
 "To run the PyWPS tester, use the PyWPS launcher from the Web Services "
 "group.  This opens Firefox displaying "
@@ -65,7 +65,7 @@ msgid ""
 "supported by the PyWPS installation."
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:43
+#: ../../build/doc/quickstart/pywps_quickstart.rst:40
 msgid ""
 "Lets select the ``ultamitequestionprocess`` process from the list and "
 "display its description by calling the `DescribeProcess` operation. In "
@@ -73,7 +73,7 @@ msgid ""
 "``http://localhost/pywps/wps.py?service=WPS&version=1.0.0&request=DescribeProcess&identifier=ultimatequestionprocess``"
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:47
+#: ../../build/doc/quickstart/pywps_quickstart.rst:44
 msgid ""
 "You should see WPS DescribeProcess response document. The XML response "
 "provides a description of what the process does as well as specifics "
@@ -83,22 +83,22 @@ msgid ""
 "Everything*, takes no inputs and provides a single integer output."
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:53
+#: ../../build/doc/quickstart/pywps_quickstart.rst:50
 msgid ""
 "Now let's run the ``ultimatequestionprocess`` process on the server. In "
 "Firefox, enter the following URL: "
 "``http://localhost/pywps/wps.py?service=WPS&version=1.0.0&request=Execute&identifier=ultimatequestionprocess``"
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:56
+#: ../../build/doc/quickstart/pywps_quickstart.rst:53
 msgid "Here we can see the answer to life, universe and everyting is 42."
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:59
+#: ../../build/doc/quickstart/pywps_quickstart.rst:56
 msgid "Configuration"
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:61
+#: ../../build/doc/quickstart/pywps_quickstart.rst:58
 msgid ""
 "You can configure the PyWPS instance in the `/etc/pywps/pywps-wsgi.cfg` "
 "configuration file. More information on the configuration option can be "
@@ -107,68 +107,68 @@ msgid ""
 "#configuration-of-pywps-instance>`_"
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:66
+#: ../../build/doc/quickstart/pywps_quickstart.rst:63
 msgid "Processes"
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:68
+#: ../../build/doc/quickstart/pywps_quickstart.rst:65
 msgid ""
 "You can find some more example processes in the `/etc/pywps/processes` "
 "directory. Every process is usually stored in separate file and is "
 "represented by a Python class, with constructor and `execute()` methods::"
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:90
+#: ../../build/doc/quickstart/pywps_quickstart.rst:87
 msgid ""
 "Directory of your process deployment is configured within the "
 "`PYWPS_PROCESSES` environment variable."
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:94
+#: ../../build/doc/quickstart/pywps_quickstart.rst:91
 msgid "Things to Try"
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:96
+#: ../../build/doc/quickstart/pywps_quickstart.rst:93
 msgid "Here are some additional challenges for you to try:"
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:98
+#: ../../build/doc/quickstart/pywps_quickstart.rst:95
 msgid ""
 "Try updating some of the configuration values to see how they are updated"
 " in the ``GetCapabilities`` requess"
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:99
+#: ../../build/doc/quickstart/pywps_quickstart.rst:96
 msgid ""
 "Try running the ``DescribeProcess`` and ``Execute`` requests against "
 "other processes"
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:102
+#: ../../build/doc/quickstart/pywps_quickstart.rst:99
 msgid "What's Next"
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:104
+#: ../../build/doc/quickstart/pywps_quickstart.rst:101
 msgid ""
 "PyWPS gives you the freedom and flexibility to write your own Python "
 "processes and expose them accordingly."
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:107
+#: ../../build/doc/quickstart/pywps_quickstart.rst:104
 msgid "Official documentation"
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:109
+#: ../../build/doc/quickstart/pywps_quickstart.rst:106
 msgid ""
 "For further information on PyWPS configuration and the API, consult the "
 "`documentation`_ on the PyWPS website."
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:111
+#: ../../build/doc/quickstart/pywps_quickstart.rst:108
 msgid "Tutorial"
 msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:113
+#: ../../build/doc/quickstart/pywps_quickstart.rst:110
 msgid ""
 "Try out the `course`_, which includes setting up an OpenLayers based web "
 "client."

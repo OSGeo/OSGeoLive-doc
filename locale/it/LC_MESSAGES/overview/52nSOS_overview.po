@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-25 21:29-0600\n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -295,35 +295,4 @@ msgstr ""
 #: ../../build/doc/overview/52nSOS_overview.rst:149
 msgid ":doc:`Quickstart documentation <../quickstart/52nSOS_quickstart>`"
 msgstr ""
-
-#~ msgid "52°North SOS"
-#~ msgstr ""
-
-#~ msgid "Web Service"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The 52°North :doc:`Sensor Observation Service"
-#~ " (SOS) <../standards/sos_overview>` supports the"
-#~ " interoperable provision of live and "
-#~ "archived sensor observation data. A "
-#~ "sensor could be a water level "
-#~ "meter in a stream, a weather "
-#~ "station, or an air quality monitoring"
-#~ " station."
-#~ msgstr ""
-
-#~ msgid ":doc:`Sensor Observation Service (SOS) <../standards/sos_overview>`"
-#~ msgstr ""
-
-#~ msgid ":doc:`Geography Markup Language (GML) <../standards/gml_overview>`"
-#~ msgstr ""
-
-#~ msgid ""
-#~ ":doc:`Sensor Model Language (SensorML) "
-#~ "<../standards/sensorml_overview>`"
-#~ msgstr ""
-
-#~ msgid "Features"
-#~ msgstr ""
 

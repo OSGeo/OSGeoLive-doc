@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.0\n"
 
-#: ../../build/doc/overview/openjump_overview.rst:12
+#: ../../build/doc/overview/openjump_overview.rst:14
 msgid "OpenJUMP GIS"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:15
+#: ../../build/doc/overview/openjump_overview.rst:17
 msgid "Desktop GIS"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:17
+#: ../../build/doc/overview/openjump_overview.rst:19
 msgid ""
 "OpenJUMP is an easy to use and powerful desktop GIS that enables users to"
 " display, edit, analyse and conflate geographic data. It comes in a CORE "
@@ -34,165 +34,165 @@ msgid ""
 "functions."
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:28
+#: ../../build/doc/overview/openjump_overview.rst:31
 msgid "Features (Core Features and PlugIns*)"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:30
+#: ../../build/doc/overview/openjump_overview.rst:33
 msgid "Data Formats"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:32
+#: ../../build/doc/overview/openjump_overview.rst:35
 msgid ""
 "reads (files): GML, SHP, DXF+, MIF*, CSV+, KML+, OSM* & TIFF, ASCII grid,"
 " JPG, PNG, JPEG2000+, MrSID*, ECW+"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:33
+#: ../../build/doc/overview/openjump_overview.rst:36
 msgid ""
 "reads (DB): PostGIS, ArcSDE*, Oracle*, MySQL*, SpatiaLite+, H2 Spatial+, "
 "MariaDB+"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:34
+#: ../../build/doc/overview/openjump_overview.rst:37
 msgid "reads (OGC standards): WKT, WMS, KML+, GeoPackage"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:35
+#: ../../build/doc/overview/openjump_overview.rst:38
 msgid "writes: GML, SHP, WKT, DXF+, CSV+, PostGIS & JPG, TIFF, ASCII grid*, SVG+"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:36
+#: ../../build/doc/overview/openjump_overview.rst:39
 msgid ""
 "note, formats marked with a (*) require an additional plugin, and with "
 "(+) are part of the PLUS edition."
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:38
+#: ../../build/doc/overview/openjump_overview.rst:41
 msgid "Editing & Conflation"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:40
+#: ../../build/doc/overview/openjump_overview.rst:43
 msgid ""
 "drawing points, lines, polygons, multi-geometries, geometry collections "
 "and circles (eventually mixed in a single layer)"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:41
+#: ../../build/doc/overview/openjump_overview.rst:44
 msgid "adding, moving, deleting vertices"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:42
+#: ../../build/doc/overview/openjump_overview.rst:45
 msgid "rotating, scaling, auto-complete polygon"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:43
+#: ../../build/doc/overview/openjump_overview.rst:46
 msgid "cut, merge, simplify polygons and lines"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:44
+#: ../../build/doc/overview/openjump_overview.rst:47
 msgid "warping, quality assurance tools"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:45
+#: ../../build/doc/overview/openjump_overview.rst:48
 msgid "coordinate conversions between CRS'"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:47
+#: ../../build/doc/overview/openjump_overview.rst:50
 msgid "Analysis & Query"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:49
+#: ../../build/doc/overview/openjump_overview.rst:52
 msgid "spatial and attribute query functions"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:50
+#: ../../build/doc/overview/openjump_overview.rst:53
 msgid "analysis : buffer, union, overlay, centroid, convex hull..."
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:51
+#: ../../build/doc/overview/openjump_overview.rst:54
 msgid ""
 "statistics : length, area, layer statistics, attribute statistics, "
 "plots..."
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:52
+#: ../../build/doc/overview/openjump_overview.rst:55
 msgid ""
 "editing tools : converter, noder, polygonizer, planar graph, topology "
 "cleaning in PLUS edition, ..."
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:53
+#: ../../build/doc/overview/openjump_overview.rst:56
 msgid "attribute transfer tools : join, matching*"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:54
+#: ../../build/doc/overview/openjump_overview.rst:57
 msgid "SEXTANTE raster analysis toolbox included in PLUS edition"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:56
+#: ../../build/doc/overview/openjump_overview.rst:59
 msgid "Customization"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:58
+#: ../../build/doc/overview/openjump_overview.rst:61
 msgid "internationalization (cz, de, en, es, fi, fr, hu, it, ja, pt, ta, zh)"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:59
+#: ../../build/doc/overview/openjump_overview.rst:62
 msgid "provides an API, scripting via BeanShell and Java Python/Ython"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:60
+#: ../../build/doc/overview/openjump_overview.rst:63
 msgid "(Java) plugin-system"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:63
+#: ../../build/doc/overview/openjump_overview.rst:66
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:67
+#: ../../build/doc/overview/openjump_overview.rst:70
 msgid "OGC standards supported: GML2, SFS, WMS, KML, SLD, GeoPackage (reading);"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:70
+#: ../../build/doc/overview/openjump_overview.rst:73
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:72
+#: ../../build/doc/overview/openjump_overview.rst:75
 msgid "**Website:** http://www.openjump.org"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:74
+#: ../../build/doc/overview/openjump_overview.rst:77
 msgid "**Licence:** GPL"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:76
+#: ../../build/doc/overview/openjump_overview.rst:79
 msgid "**Software Version:** |version-openjump|"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:78
+#: ../../build/doc/overview/openjump_overview.rst:81
 msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:80
+#: ../../build/doc/overview/openjump_overview.rst:83
 msgid "**Community Support:** http://www.openjump.org/support.html"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:82
+#: ../../build/doc/overview/openjump_overview.rst:85
 msgid ""
 "**Commercial Support:** "
 "http://ojwiki.soldin.de/index.php?title=Professional_Support_Page"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:84
+#: ../../build/doc/overview/openjump_overview.rst:87
 msgid "**Download Page:** http://sourceforge.net/projects/jump-pilot/files/"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:87
+#: ../../build/doc/overview/openjump_overview.rst:91
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/openjump_overview.rst:89
+#: ../../build/doc/overview/openjump_overview.rst:93
 msgid ":doc:`Quickstart documentation <../quickstart/openjump_quickstart>`"
 msgstr ""
 
