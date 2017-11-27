@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 21:10-0600\n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,63 +32,63 @@ msgstr ""
 msgid "Proj4 has been translated from C to `other languages <http://trac.osgeo.org/metacrs/wiki>`.  These sub-projects include: These tools include: * Proj4js (JavaScript) - used in :doc:`OpenLayers <openlayers_overview>`. * CS-Map (C++) - used in MapGuide. * GeoTIFF/libgeotiff (C++). * Proj4J (Java). * `SpatialReference.org <http://spatialreference.org/>`_  - website to retrieve coordinate system definitions (obsolete)."
 msgstr ""
 
-#: ../../build/doc/overview/proj4_overview.rst:35
+#: ../../build/doc/overview/proj4_overview.rst:41
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/proj4_overview.rst:37
+#: ../../build/doc/overview/proj4_overview.rst:43
 msgid "Provides point transformation from one coordinate reference system to another."
 msgstr ""
 
-#: ../../build/doc/overview/proj4_overview.rst:38
+#: ../../build/doc/overview/proj4_overview.rst:44
 msgid "Includes transformation between datums."
 msgstr ""
 
-#: ../../build/doc/overview/proj4_overview.rst:39
+#: ../../build/doc/overview/proj4_overview.rst:45
 msgid "Large number of projection classes supported."
 msgstr ""
 
-#: ../../build/doc/overview/proj4_overview.rst:43
+#: ../../build/doc/overview/proj4_overview.rst:49
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../build/doc/overview/proj4_overview.rst:45
+#: ../../build/doc/overview/proj4_overview.rst:51
 msgid "Proj4 uses coordinate system definitions defined by the `European Petroleum Survey Group (EPSG) <http://www.epsg.org/>`. Well Known Text (WKT) format."
 msgstr ""
 
-#: ../../build/doc/overview/proj4_overview.rst:51
+#: ../../build/doc/overview/proj4_overview.rst:57
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/proj4_overview.rst:53
+#: ../../build/doc/overview/proj4_overview.rst:59
 msgid "**Website:**  http://proj4.org/"
 msgstr ""
 
-#: ../../build/doc/overview/proj4_overview.rst:55
+#: ../../build/doc/overview/proj4_overview.rst:61
 msgid "**Licence:** `X/MIT style Open Source license <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_"
 msgstr ""
 
-#: ../../build/doc/overview/proj4_overview.rst:57
+#: ../../build/doc/overview/proj4_overview.rst:63
 msgid "**Software Version:** 4.9.2 (stable)"
 msgstr ""
 
-#: ../../build/doc/overview/proj4_overview.rst:59
+#: ../../build/doc/overview/proj4_overview.rst:65
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
-#: ../../build/doc/overview/proj4_overview.rst:61
+#: ../../build/doc/overview/proj4_overview.rst:67
 msgid "**API Interfaces:** C, C++, Python, Java, Ruby"
 msgstr ""
 
-#: ../../build/doc/overview/proj4_overview.rst:63
+#: ../../build/doc/overview/proj4_overview.rst:69
 msgid "**Support:** http://lists.maptools.org/mailman/listinfo/proj"
 msgstr ""
 
-#: ../../build/doc/overview/proj4_overview.rst:67
+#: ../../build/doc/overview/proj4_overview.rst:73
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/proj4_overview.rst:69
+#: ../../build/doc/overview/proj4_overview.rst:75
 msgid ":doc:`Quickstart documentation <../quickstart/proj4_quickstart>`"
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.0\n"
 
-#: ../../build/doc/overview/geomoose_overview.rst:21
+#: ../../build/doc/overview/geomoose_overview.rst:19
 msgid "GeoMoose"
 msgstr ""
 
-#: ../../build/doc/overview/geomoose_overview.rst:24
+#: ../../build/doc/overview/geomoose_overview.rst:22
 msgid "Web GIS Portal"
 msgstr ""
 
-#: ../../build/doc/overview/geomoose_overview.rst:26
+#: ../../build/doc/overview/geomoose_overview.rst:24
 msgid ""
 "GeoMoose is a browser based mapping framework for displaying distributed "
 "cartographic data. It is particularly useful for managing spatial and "
@@ -36,7 +36,7 @@ msgid ""
 "and dataset searches."
 msgstr ""
 
-#: ../../build/doc/overview/geomoose_overview.rst:28
+#: ../../build/doc/overview/geomoose_overview.rst:26
 msgid ""
 "GeoMoose is fast, performing well with hundreds of layers and/or services"
 " at a time.  Data from multiple custodians can be maintained with "
@@ -45,7 +45,7 @@ msgid ""
 "source data."
 msgstr ""
 
-#: ../../build/doc/overview/geomoose_overview.rst:30
+#: ../../build/doc/overview/geomoose_overview.rst:28
 msgid ""
 "The user interface is easily configurable, and additional services can be"
 " added through a modular architecture."
@@ -155,11 +155,11 @@ msgstr ""
 msgid "**Community Support:** http://www.geomoose.org/info/mailing_lists.html"
 msgstr ""
 
-#: ../../build/doc/overview/geomoose_overview.rst:74
+#: ../../build/doc/overview/geomoose_overview.rst:75
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/geomoose_overview.rst:76
+#: ../../build/doc/overview/geomoose_overview.rst:77
 msgid ":doc:`Quickstart documentation <../quickstart/geomoose_quickstart>`"
 msgstr ""
 

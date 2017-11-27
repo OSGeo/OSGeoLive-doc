@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 21:10-0600\n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,203 +48,203 @@ msgstr ""
 msgid "being available for Windows and Linux (there are also non-oficial Mac OS X versions)."
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:39
+#: ../../build/doc/overview/gvsig_overview.rst:40
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:41
+#: ../../build/doc/overview/gvsig_overview.rst:42
 msgid "Provides common GIS tools like data loading, map navigation, query map information like alphanumeric information, distance measurement, thematic cartography, legend edition using common legend types, labelling, feature selection by many selection types, data tables with statistics, ordering, table relations, table linking, layout manager, geoprocessing tools, CAD, raster processing, etc."
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:43
+#: ../../build/doc/overview/gvsig_overview.rst:44
 msgid "Interoperable: able to work with most known data formats:"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:45
+#: ../../build/doc/overview/gvsig_overview.rst:46
 msgid "raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF..."
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:46
+#: ../../build/doc/overview/gvsig_overview.rst:47
 msgid "vector & CAD: shapefile, NetCDF, GML, KML, DGN, DXF, DWG"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:47
+#: ../../build/doc/overview/gvsig_overview.rst:48
 msgid "databases: PostGIS, MySQL, Oracle, ArcSDE"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:48
+#: ../../build/doc/overview/gvsig_overview.rst:49
 msgid "remote: OGC standards (WMS, WMTS, WFS, WCS), OSM, ECWP, ArcIMS"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:50
+#: ../../build/doc/overview/gvsig_overview.rst:51
 msgid "Discovery services client to localize data resources within an SDI (catalogue and gazeteer services)"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:52
+#: ../../build/doc/overview/gvsig_overview.rst:53
 msgid "Catalogues: Z3950, SRW, CSW (ISO/19115 and ebRIM)"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:53
+#: ../../build/doc/overview/gvsig_overview.rst:54
 msgid "Gazetteers: ADL, WFS, WFS-G"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:55
+#: ../../build/doc/overview/gvsig_overview.rst:56
 msgid "More than 300 geoalgorithms via SEXTANTE library"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:57
+#: ../../build/doc/overview/gvsig_overview.rst:58
 msgid "Integrated advanced CAD tools:"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:59
+#: ../../build/doc/overview/gvsig_overview.rst:60
 msgid "vector data: modify, create and delete elements"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:60
+#: ../../build/doc/overview/gvsig_overview.rst:61
 msgid "command console typical element in CAD software"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:61
+#: ../../build/doc/overview/gvsig_overview.rst:62
 msgid "tools like help, grid, command stack, complex element selections"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:62
+#: ../../build/doc/overview/gvsig_overview.rst:63
 msgid "tools for inserting elements like points, polygons, lines, ellipses, etc..."
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:63
+#: ../../build/doc/overview/gvsig_overview.rst:64
 msgid "tools to modify its rotation, scale, symmetry,..."
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:65
+#: ../../build/doc/overview/gvsig_overview.rst:66
 msgid "Integrated advanced raster tools:"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:67
+#: ../../build/doc/overview/gvsig_overview.rst:68
 msgid "georeferencing and reprojecting"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:68
+#: ../../build/doc/overview/gvsig_overview.rst:69
 msgid "export, clipping"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:69
+#: ../../build/doc/overview/gvsig_overview.rst:70
 msgid "look up tables, histogram"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:70
+#: ../../build/doc/overview/gvsig_overview.rst:71
 msgid "filters, vectorization"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:71
+#: ../../build/doc/overview/gvsig_overview.rst:72
 msgid "overviews and regions of interest management"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:73
+#: ../../build/doc/overview/gvsig_overview.rst:74
 msgid "3D View"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:75
+#: ../../build/doc/overview/gvsig_overview.rst:76
 msgid "Other features:"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:77
+#: ../../build/doc/overview/gvsig_overview.rst:78
 msgid "Scripting support (for both vector and raster data)"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:78
+#: ../../build/doc/overview/gvsig_overview.rst:79
 msgid "Powerful reprojection engine via PROJ4"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:79
+#: ../../build/doc/overview/gvsig_overview.rst:80
 msgid "Import/export symbol sets"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:80
+#: ../../build/doc/overview/gvsig_overview.rst:81
 msgid "Map sheets composer"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:81
+#: ../../build/doc/overview/gvsig_overview.rst:82
 msgid "Charts"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:82
+#: ../../build/doc/overview/gvsig_overview.rst:83
 msgid "Advanced symbology tools"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:83
+#: ../../build/doc/overview/gvsig_overview.rst:84
 msgid "Advanced labelling tools"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:84
+#: ../../build/doc/overview/gvsig_overview.rst:85
 msgid "Publishing extension"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:85
+#: ../../build/doc/overview/gvsig_overview.rst:86
 msgid "Portable views"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:86
+#: ../../build/doc/overview/gvsig_overview.rst:87
 msgid "Customized distributions"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:89
+#: ../../build/doc/overview/gvsig_overview.rst:90
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:91
+#: ../../build/doc/overview/gvsig_overview.rst:92
 msgid "Advanced client support of numerous Open Geospatial Consortium (OGC) standards"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:93
+#: ../../build/doc/overview/gvsig_overview.rst:94
 msgid "Load WMS, WMTS, WFS and WCS layers"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:94
+#: ../../build/doc/overview/gvsig_overview.rst:95
 msgid "Export/import of SLD legends"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:95
+#: ../../build/doc/overview/gvsig_overview.rst:96
 msgid "Export/import of Web Map Context (WMC)"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:96
+#: ../../build/doc/overview/gvsig_overview.rst:97
 msgid "Search on catalogues with  CSW (ISO/19115 and ebRIM)"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:97
+#: ../../build/doc/overview/gvsig_overview.rst:98
 msgid "Search on gazetteers using WFS-G recommendation"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:100
+#: ../../build/doc/overview/gvsig_overview.rst:101
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:102
+#: ../../build/doc/overview/gvsig_overview.rst:103
 msgid "**Website:** http://www.gvsig.com/"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:104
+#: ../../build/doc/overview/gvsig_overview.rst:105
 msgid "**Licence:** GNU General Public License (GPL) version 2"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:106
+#: ../../build/doc/overview/gvsig_overview.rst:107
 msgid "**Software Version:** |version-gvsig|"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:108
+#: ../../build/doc/overview/gvsig_overview.rst:109
 msgid "**Supported Platforms:** Windows, Linux"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:110
+#: ../../build/doc/overview/gvsig_overview.rst:111
 msgid "**Support:** http://www.gvsig.com/en/gvsig-association, http://www.gvsig.com/en/community/mailing-lists"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:117
+#: ../../build/doc/overview/gvsig_overview.rst:118
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:119
+#: ../../build/doc/overview/gvsig_overview.rst:120
 msgid ":doc:`Quickstart documentation <../quickstart/gvsig_quickstart>`"
 msgstr ""
 

@@ -1,144 +1,173 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../build/doc/overview/nc_dataset_overview.rst:12
+#: ../../build/doc/overview/nc_dataset_overview.rst:14
 msgid "OSGeo North Carolina, USA Educational dataset"
-msgstr ""
+msgstr "Jeu de données éducatif OSGeo North Carolina, USA"
 
-#: ../../build/doc/overview/nc_dataset_overview.rst:15
+#: ../../build/doc/overview/nc_dataset_overview.rst:17
 msgid "Map Data"
-msgstr ""
-
-#: ../../build/doc/overview/nc_dataset_overview.rst:19
-msgid ""
-"This data set is a comprehensive collection of raster, vector and imagery"
-" data covering parts of North Carolina (NC), USA, prepared from public "
-"data sources provided by the North Carolina state and local government "
-"agencies and Global Land Cover Facility (GLCF)."
-msgstr ""
+msgstr "Données cartographiques"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:21
+msgid ""
+"This data set is a comprehensive collection of raster, vector and imagery "
+"data covering parts of North Carolina (NC), USA, prepared from public data "
+"sources provided by the North Carolina state and local government agencies "
+"and Global Land Cover Facility (GLCF)."
+msgstr ""
+"Ce jeu de données est une collection complète de données raster, vecteur et "
+"image couvrant des zones de Caroline du Nord (NC), USA, préparées à partir "
+"de sources de données publiques fournies par l'état de Caroline du Nord et "
+"des agences publiques locales et le Global Land Cover Facility (GLCF)."
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:23
 msgid ""
 "The data set includes sections of the NC capital city Raleigh and its "
 "surroundings."
 msgstr ""
-
-#: ../../build/doc/overview/nc_dataset_overview.rst:23
-msgid "Data are provided at three hierarchical levels:"
-msgstr ""
+"Ce jeu de données inclut des parties de Raleigh capitale de NC et de ses "
+"environs."
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:25
-msgid "entire NC state with raster data at 500m resolution;"
-msgstr ""
+msgid "Data are provided at three hierarchical levels:"
+msgstr "Les données sont fournies à trois niveaux hiérarchiques:"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:27
-msgid "South-west Wake County with raster data at resolutions 30m-10m; and"
+msgid "entire NC state with raster data at 500m resolution;"
 msgstr ""
+"données raster à la résolution de 500m sur l'ensemble de l'état de CN;"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:29
-msgid ""
-"a small watershed in rural area with data resolutions of 1m-3m (see "
-"image)."
+msgid "South-west Wake County with raster data at resolutions 30m-10m; and"
 msgstr ""
+"données raster à la résolution de de 30m-10m sur le comté de South-west Wake"
+" ; et"
 
-#: ../../build/doc/overview/nc_dataset_overview.rst:38
-msgid "Core Features"
+#: ../../build/doc/overview/nc_dataset_overview.rst:31
+msgid ""
+"a small watershed in rural area with data resolutions of 1m-3m (see image)."
 msgstr ""
+"un petit bassin versant en zone rurale avec des données à la résolution de "
+"1m-3m (voir l'image)."
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:40
-msgid ""
-"County and state level raster, vector, and KML map layers with full meta-"
-"data, specifically selected to cover the wide needs of teaching "
-"introductory GIS courses and providing examples for software help pages "
-"and tutorials."
-msgstr ""
+msgid "Core Features"
+msgstr "Caractéristiques principales"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:42
 msgid ""
-"The Creative Commons license means the data can be used, distributed, and"
-" modified by anyone. Without the usual legal encumbrances of much "
-"publicly available geodata it is ideal for use in the classroom."
+"County and state level raster, vector, and KML map layers with full meta-"
+"data, specifically selected to cover the wide needs of teaching introductory"
+" GIS courses and providing examples for software help pages and tutorials."
 msgstr ""
+"Couches de données  cartographiques raster, vecteur, et KML avec des données"
+" complètes à l'échelle du comté et de l'état, spécialement sélectionnées "
+"pour couvrir des besoins larges de cours de formation d'introduction aux SIG"
+" et fournissant des exemples pour les pages d'aide de logiciel et de "
+"tutoriaux."
 
-#: ../../build/doc/overview/nc_dataset_overview.rst:46
+#: ../../build/doc/overview/nc_dataset_overview.rst:44
+msgid ""
+"The Creative Commons license means the data can be used, distributed, and "
+"modified by anyone. Without the usual legal encumbrances of much publicly "
+"available geodata it is ideal for use in the classroom."
+msgstr ""
+"La licence Creative Commons signifie que les données peuvent être utilisées,"
+" distribuées et modifiées par tout le monde. Sans les contraintes légales "
+"habituelles des données géoréférencées mises à disposition du public, ces "
+"données sont idéales pour une utilisation en salle de classe."
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:48
 msgid "Data Sets"
-msgstr ""
+msgstr "Jeux de données"
 
-#: ../../build/doc/overview/nc_dataset_overview.rst:49
+#: ../../build/doc/overview/nc_dataset_overview.rst:51
 msgid "Cultural Vector Data Themes:"
-msgstr ""
+msgstr "Thèmes des données culturelles vectorielles:"
 
-#: ../../build/doc/overview/nc_dataset_overview.rst:49
+#: ../../build/doc/overview/nc_dataset_overview.rst:51
 msgid ""
 "Includes political boundaries, roads, bus stops, firestations, census "
 "blocks, and much more."
 msgstr ""
+"Comprend les limites politiques, les routes, les arrêts de bus, les casernes"
+" de pompiers, les zones de recensement et beaucoup plus."
 
-#: ../../build/doc/overview/nc_dataset_overview.rst:52
+#: ../../build/doc/overview/nc_dataset_overview.rst:54
 msgid "Physical Vector Data Themes:"
-msgstr ""
+msgstr "Thèmes des données physiques vectorielles:"
 
-#: ../../build/doc/overview/nc_dataset_overview.rst:52
+#: ../../build/doc/overview/nc_dataset_overview.rst:54
 msgid ""
 "Includes LiDAR aerial elevation measurements, contour lines, streams, "
 "precipitation, and much more."
 msgstr ""
+"Comprend des mesures d'altitude de données LIDAR aérien , des courbes de "
+"niveaux, des rivières, des précipitations et beaucoup plus."
 
-#: ../../build/doc/overview/nc_dataset_overview.rst:56
+#: ../../build/doc/overview/nc_dataset_overview.rst:58
 msgid "Raster Data Themes:"
-msgstr ""
+msgstr "Thèmes des données raster:"
 
-#: ../../build/doc/overview/nc_dataset_overview.rst:55
+#: ../../build/doc/overview/nc_dataset_overview.rst:57
 msgid ""
-"Includes digital elevation maps, landuse and landcover, LANDSAT7 imagery,"
-" and much more."
+"Includes digital elevation maps, landuse and landcover, LANDSAT7 imagery, "
+"and much more."
 msgstr ""
-
-#: ../../build/doc/overview/nc_dataset_overview.rst:59
-msgid "Details"
-msgstr ""
+"Comprend des cartes numériques d'altitude, usage et occupation des sols, "
+"images LANDSAT7 et beaucoup plus."
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:61
-msgid "**Website:** http://www.grassbook.org/data_menu3rd.php"
-msgstr ""
+msgid "Details"
+msgstr "Détails"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:63
-msgid ""
-"**License:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC "
-"BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_"
-msgstr ""
+msgid "**Website:** http://www.grassbook.org/data_menu3rd.php"
+msgstr "**Site web:** http://www.grassbook.org/data_menu3rd.php"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:65
-msgid "**Data Version:** 2008"
+msgid ""
+"**License:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA"
+" 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_"
 msgstr ""
+"**Licence:** `Creative Commons Paternité-Partage des Conditions Initiales à "
+"l'Identique 3.0 non transposé (CC BY-SA 3.0) "
+"<http://creativecommons.org/licenses/by-sa/3.0/>`_"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:67
-msgid "**Data format:** GeoTIFF, Shapefiles, KML"
-msgstr ""
+msgid "**Data Version:** 2008"
+msgstr "**Version de la donnée:** 2008"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:69
+msgid "**Data format:** GeoTIFF, Shapefiles, KML"
+msgstr "**Format des données:** GeoTIFF, Shapefiles, KML"
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:71
 msgid ""
 "**Spatial coordinate system:** NC State Plane (Lambert Conformal Conic), "
 "NAD83"
 msgstr ""
+"**Système de coordonnées spatiales:** NC State Plane (Lambert Conforme "
+"Conique), NAD83"
 
-#: ../../build/doc/overview/nc_dataset_overview.rst:71
+#: ../../build/doc/overview/nc_dataset_overview.rst:73
 msgid "**Support:** http://lists.osgeo.org/mailman/listinfo/geodata"
-msgstr ""
-
+msgstr "**Support:** http://lists.osgeo.org/mailman/listinfo/geodata"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 21:10-0600\n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,7 +32,7 @@ msgstr ""
 msgid "A number of programs have been included: JOSM, Merkaartor, Osmosis, Osm2pgsql, and a number of small command utilities. In addition recent sample data for the FOSS4G host city and a number of JOSM plugins have been included."
 msgstr ""
 
-#: ../../build/doc/overview/osm_overview.rst:33
+#: ../../build/doc/overview/osm_overview.rst:38
 msgid "Core Features"
 msgstr ""
 

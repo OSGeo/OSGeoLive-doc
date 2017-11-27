@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.0\n"
 
-#: ../../build/doc/overview/grass_overview.rst:22
+#: ../../build/doc/overview/grass_overview.rst:20
 msgid "GRASS GIS"
 msgstr ""
 
-#: ../../build/doc/overview/grass_overview.rst:25
+#: ../../build/doc/overview/grass_overview.rst:23
 msgid "Fully featured GIS"
 msgstr ""
 
-#: ../../build/doc/overview/grass_overview.rst:27
+#: ../../build/doc/overview/grass_overview.rst:25
 msgid ""
 "The Geographic Resources Analysis Support System, commonly referred to as"
 " GRASS, is a Geographic Information System (GIS) providing powerful "
@@ -41,7 +41,7 @@ msgid ""
 "data formats."
 msgstr ""
 
-#: ../../build/doc/overview/grass_overview.rst:45
+#: ../../build/doc/overview/grass_overview.rst:39
 msgid ""
 "GRASS GIS is used around the world in academic and commercial settings as"
 " well as by many governmental agencies and environmental consulting "
@@ -50,7 +50,7 @@ msgid ""
 "License."
 msgstr ""
 
-#: ../../build/doc/overview/grass_overview.rst:50
+#: ../../build/doc/overview/grass_overview.rst:44
 msgid ""
 "The GRASS GIS software includes more than 400 built-in analysis modules. "
 "Additionally, over 100 community supplied modules and toolboxes are "
@@ -104,11 +104,11 @@ msgstr ""
 msgid "**Support:** http://grass.osgeo.org/support/"
 msgstr ""
 
-#: ../../build/doc/overview/grass_overview.rst:84
+#: ../../build/doc/overview/grass_overview.rst:85
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/grass_overview.rst:86
+#: ../../build/doc/overview/grass_overview.rst:87
 msgid ":doc:`Quickstart documentation <../quickstart/grass_quickstart>`"
 msgstr ""
 

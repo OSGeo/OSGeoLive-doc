@@ -54,7 +54,7 @@ Core Features
 * Scale dependent styling
 * Support for SE removes the need for a lot of proprietary extensions
 * Easy configuration of HTML and other output formats for GetFeatureInfo responses
-* Uses stream-based data access, minimal memory footprint
+* Uses stream-based data access with minimal memory footprint
 * Nearly complete support for raster symbolizing as defined in SE (with some extensions)
 * Complete support for TIME/ELEVATION and other dimensions for both feature and raster data
 * Supports numerous backends, such as PostGIS, Oracle Spatial, Shapefiles or GML instance documents
@@ -78,7 +78,7 @@ Core Features
 * Pluggable and modular dataaccess layer allows to add support for new APs and backends
 * Modular inspector architecture allows to validate records to be inserted against various criteria
 * Standard inspectors: schema validity, identifier integrity, INSPIRE requirements
-* Handles all defined queryable properties (for Dublin Core as well as ISO profile) 
+* Handles all defined queryable properties (for Dublin Core as well as ISO profile)
 * Complex filter expressions
 
 **WPS**

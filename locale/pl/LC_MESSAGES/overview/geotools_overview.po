@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,23 +17,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.0\n"
 
-#: ../../build/doc/overview/geotools_overview.rst:18
+#: ../../build/doc/overview/geotools_overview.rst:17
 msgid "GeoTools"
 msgstr ""
 
-#: ../../build/doc/overview/geotools_overview.rst:20
+#: ../../build/doc/overview/geotools_overview.rst:19
 msgid ""
 "GeoTools is an open source (LGPL) Java library which provides standards "
 "compliant methods for manipulating geospatial data, and uses data "
 "structures based on Open Geospatial Consortium (OGC) specifications."
 msgstr ""
 
-#: ../../build/doc/overview/geotools_overview.rst:27
+#: ../../build/doc/overview/geotools_overview.rst:21
 msgid ""
 "GeoTools is used by a number of projects including web services, command "
-"line tools and desktop applications. OSGeoLive applications which "
-"include GeoTools include: :doc:`52nSOS_overview`, :doc:`52nWPS_overview`,"
-" AtlasStyler, :doc:`geomajas_overview`, Geopublisher, "
+"line tools and desktop applications. OSGeoLive applications which include"
+" GeoTools include: :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, "
+"AtlasStyler, :doc:`geomajas_overview`, Geopublisher, "
 ":doc:`geoserver_overview`, and :doc:`udig_overview`."
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.0\n"
 
-#: ../../build/doc/overview/liblas_overview.rst:13
+#: ../../build/doc/overview/liblas_overview.rst:15
 msgid "libLAS"
 msgstr ""
 
-#: ../../build/doc/overview/liblas_overview.rst:16
+#: ../../build/doc/overview/liblas_overview.rst:18
 msgid "LiDAR Data Access"
 msgstr ""
 
-#: ../../build/doc/overview/liblas_overview.rst:18
+#: ../../build/doc/overview/liblas_overview.rst:20
 msgid ""
 "libLAS is a C/C++ library for reading and writing the very common `LAS` "
 "`LiDAR`_ format. The `ASPRS LAS format`_ is a sequential binary format "
@@ -33,7 +33,7 @@ msgid ""
 "for data interchange and archival."
 msgstr ""
 
-#: ../../build/doc/overview/liblas_overview.rst:28
+#: ../../build/doc/overview/liblas_overview.rst:25
 msgid ""
 "LiDAR (Light Detection and Ranging) is a form of high precision range "
 "detection much like a radar system that uses laser light as the "
@@ -44,59 +44,59 @@ msgid ""
 "LAS format."
 msgstr ""
 
-#: ../../build/doc/overview/liblas_overview.rst:35
+#: ../../build/doc/overview/liblas_overview.rst:38
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/liblas_overview.rst:37
+#: ../../build/doc/overview/liblas_overview.rst:40
 msgid "C/C++/Python APIs for reading, writing, and manipulating LAS data"
 msgstr ""
 
-#: ../../build/doc/overview/liblas_overview.rst:38
+#: ../../build/doc/overview/liblas_overview.rst:41
 msgid "`Command line utilities`_ for manipulating LAS data based on `LAStools`_"
 msgstr ""
 
-#: ../../build/doc/overview/liblas_overview.rst:39
+#: ../../build/doc/overview/liblas_overview.rst:42
 msgid "Coordinate reprojection via `GDAL <http://gdal.org>`__"
 msgstr ""
 
-#: ../../build/doc/overview/liblas_overview.rst:42
+#: ../../build/doc/overview/liblas_overview.rst:45
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/liblas_overview.rst:44
+#: ../../build/doc/overview/liblas_overview.rst:47
 msgid "**Website:** http://liblas.org"
 msgstr ""
 
-#: ../../build/doc/overview/liblas_overview.rst:46
+#: ../../build/doc/overview/liblas_overview.rst:49
 msgid "**Licence:** BSD"
 msgstr ""
 
-#: ../../build/doc/overview/liblas_overview.rst:48
+#: ../../build/doc/overview/liblas_overview.rst:51
 msgid "**Software Version:** |version-liblas|"
 msgstr ""
 
-#: ../../build/doc/overview/liblas_overview.rst:50
+#: ../../build/doc/overview/liblas_overview.rst:53
 msgid ""
 "**Supported Platforms:** Cross Platform C++ -- Mac OS X, Windows (via "
 "`OSGeo4W`_), and Linux"
 msgstr ""
 
-#: ../../build/doc/overview/liblas_overview.rst:52
+#: ../../build/doc/overview/liblas_overview.rst:55
 msgid "**API Interfaces:** C, C++, Python"
 msgstr ""
 
-#: ../../build/doc/overview/liblas_overview.rst:54
+#: ../../build/doc/overview/liblas_overview.rst:57
 msgid ""
 "**Support:** `Communication and Support "
 "<http://liblas.org/community.html>`_"
 msgstr ""
 
-#: ../../build/doc/overview/liblas_overview.rst:57
+#: ../../build/doc/overview/liblas_overview.rst:71
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/liblas_overview.rst:59
+#: ../../build/doc/overview/liblas_overview.rst:73
 msgid ":doc:`Quickstart documentation <../quickstart/liblas_quickstart>`"
 msgstr ""
 

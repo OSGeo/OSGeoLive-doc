@@ -1,101 +1,131 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 21:10-0600\n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../build/doc/sponsors.rst:2
 msgid "OSGeoLive Sponsors"
-msgstr ""
+msgstr "Sponsors OSGeoLive"
 
 #: ../../build/doc/sponsors.rst:8
 msgid ""
 "The Open Source Geospatial Foundation (OSGeo) provides the primary "
-"development & hosting infrastructure and personnel for the project, and "
-"for many of the software teams which contribute to it."
+"development & hosting infrastructure and personnel for the project, and for "
+"many of the software teams which contribute to it."
 msgstr ""
+"L'Open Source Geospatial Foundation (OSGeo) fournit l'infrastructure "
+"principale de développement et d'hébergement ainsi que le personnel pour le "
+"projet, et pour de nombreuses équipes logicielles qui y contribuent."
 
 #: ../../build/doc/sponsors.rst:16
 msgid ""
-"Jirotech provides sustaining resources and staff toward the management "
-"and development of the OSGeoLive project."
+"Jirotech provides sustaining resources and staff toward the management and "
+"development of the OSGeoLive project."
 msgstr ""
+"Jirotech fournit les ressources et le personnel nécessaires à la gestion et "
+"au développement du projet OSGeoLive."
 
 #: ../../build/doc/sponsors.rst:23
 msgid ""
 "Information Center for the Environment at the University of California, "
-"Davis provides hardware resources and development support to the "
-"OSGeoLive project."
+"Davis provides hardware resources and development support to the OSGeoLive "
+"project."
 msgstr ""
+"L'Information Center for the Environment de l'Université de Californie, "
+"Davis fournit des ressources matérielles et un support au développement du "
+"projet OSGeoLive."
 
 #: ../../build/doc/sponsors.rst:32
 msgid ""
-"Remote Sensing Laboratory at the National Technical University of Athens,"
-" provides hardware resources and development support to the OSGeoLive "
+"Remote Sensing Laboratory at the National Technical University of Athens, "
+"provides hardware resources and development support to the OSGeoLive "
 "project."
 msgstr ""
+"Le laboratoire de télédétection de la National Technical University of "
+"Athens, fournit des ressources matérielles et un support au développement du"
+" projet OSGeoLive."
 
 #: ../../build/doc/sponsors.rst:40
 msgid ""
-"The DebianGIS and UbuntuGIS projects provide and quality-assure many of "
-"the core packages."
+"The DebianGIS and UbuntuGIS projects provide and quality-assure many of the "
+"core packages."
 msgstr ""
+"Les projets DebianGIS et UbuntuGIS fournissent et garantissent la qualité de"
+" nombreux paquets de base."
 
 #: ../../build/doc/sponsors.rst:47
 msgid ""
 "Okeanos is the Greek Academic cloud service (IaaS) which is providing "
-"virtualized computing resources free of charge to the Greek Universities "
-"and public Research Centres. Okeanos is build on top of existing proven "
-"open source software (e.g. Synnefo, Google Ganeti). Okeanos is kindly "
-"providing Virtual Machines for building the OSGeoLive iso images."
+"virtualized computing resources free of charge to the Greek Universities and"
+" public Research Centres. Okeanos is build on top of existing proven open "
+"source software (e.g. Synnefo, Google Ganeti). Okeanos is kindly providing "
+"Virtual Machines for building the OSGeoLive iso images."
 msgstr ""
+"Okeanos est le service de cloud computing académique grec (IaaS) qui fournit"
+" gratuitement des ressources informatiques virtualisées aux universités "
+"grecques et aux centres de recherche publics. Okeanos est construit sur la "
+"base de logiciels open source éprouvés existants (comme Synnefo, Google "
+"Ganeti). Okeanos fournit gracieusement des machines virtuelles pour la "
+"construction des images ISO OSGeoLive."
 
 #: ../../build/doc/sponsors.rst:59
 msgid ""
-"Georepublic is a Geolocation Technology Company, that embraces the idea "
-"of Free Software, and provide support and custom development for Open "
-"Source GIS software."
+"Georepublic is a Geolocation Technology Company, that embraces the idea of "
+"Free Software, and provide support and custom development for Open Source "
+"GIS software."
 msgstr ""
+"Georepublic est une société de technologie de géolocalisation, qui embrasse "
+"l'idée du Logiciel Libre, et fournit du support et du développement "
+"personnalisé pour les logiciels SIG Open Source."
 
 #: ../../build/doc/sponsors_osgeo.rst:7
 msgid "The OSGeo Foundation"
-msgstr ""
+msgstr "La fondation OSGeo"
 
 #: ../../build/doc/sponsors_osgeo.rst:9
 msgid "*Empower everyone with open source geospatial*"
-msgstr ""
+msgstr "*Donner le pouvoir à tout le monde avec le géospatial open source*"
 
 #: ../../build/doc/sponsors_osgeo.rst:11
 msgid ""
-"The `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`__ is a"
-" not-for-profit organization whose mission is to foster global adoption "
-"of open geospatial technology by being an inclusive software foundation "
-"devoted to an open philosophy and participatory community driven "
-"development."
+"The `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`__ is a "
+"not-for-profit organization whose mission is to foster global adoption of "
+"open geospatial technology by being an inclusive software foundation devoted"
+" to an open philosophy and participatory community driven development."
 msgstr ""
+"La `fondation Open Source Geospatial (OSGeo) <http://osgeo.org>`__ est un "
+"organisme à but non lucratif qui a pour mission de favoriser l'adoption "
+"mondiale de la technologie géospatiale ouverte en étant une fondation "
+"logicielle inclusive vouée à une philosophie ouverte et à un développement "
+"participatif axé sur la communauté."
 
 #: ../../build/doc/sponsors_osgeo.rst:17
 msgid "OSGeo outreach and activities include:"
-msgstr ""
+msgstr "Les activités de sensibilisation et les activités d'OSGeo incluent:"
 
 #: ../../build/doc/sponsors_osgeo.rst:19
 msgid ""
 "`Local Chapters <http://www.osgeo.org/content/chapters/index.html>`__: "
 "Local, regional and language groups support grass roots activities."
 msgstr ""
+"`Chapitres locaux <http://www.osgeo.org/content/chapters/index.html>`__: Des"
+" groupes locaux, régionaux et linguistiques supportent les activités de "
+"base."
 
 #: ../../build/doc/sponsors_osgeo.rst:20
 msgid ""
@@ -103,6 +133,9 @@ msgid ""
 "around the world who work with partners to make geospatial education and "
 "opportunities accessible to all."
 msgstr ""
+"`GeoForAll <http://www.geoforall.org>`_: Plus de 100 laboratoires éducatifs "
+"dans le monde entier qui travaillent avec des partenaires pour rendre "
+"l'éducation et les possibilités géospatiales accessibles à tous."
 
 #: ../../build/doc/sponsors_osgeo.rst:21
 msgid ""
@@ -110,43 +143,32 @@ msgid ""
 "geospatial open source software, pre-configured with sample data and "
 "quickstarts, ready to try out."
 msgstr ""
+"`OSGeoLive <http://live.osgeo.org>`__: Une distribution de logiciels open "
+"source géospatiaux établis, pré-configurés avec des données exemples et des "
+"guides de démarrage rapide, prêts à être essayés."
 
 #: ../../build/doc/sponsors_osgeo.rst:22
 msgid ""
-"`FOSS4G <http://foss4g.org>`_: Annual, international conference for *Free"
-" and Open Source Software for Geospatial*, as well as many regional and "
-"local `events <http://www.osgeo.org/events>`_."
+"`FOSS4G <http://foss4g.org>`_: Annual, international conference for *Free "
+"and Open Source Software for Geospatial*, as well as many regional and local"
+" `events <http://www.osgeo.org/events>`_."
 msgstr ""
+"`FOSS4G <http://foss4g.org>`_: La conférence annuelle, international pour "
+"les *Free and Open Source Software for Geospatial*, ainsi que de nombreux "
+"`événements <http://www.osgeo.org/events>`_ régionaux et locaux."
 
 #: ../../build/doc/sponsors.rst:65
 msgid "Contributors"
-msgstr ""
+msgstr "Contributeurs"
 
 #: ../../build/doc/contributors.rst:2
 msgid "TODO add csv-table"
-msgstr ""
+msgstr "A FAIRE: Ajouter une table csv"
 
 #: ../../build/doc/sponsors.rst:70
 msgid "Translators"
-msgstr ""
+msgstr "Traducteurs"
 
 #: ../../build/doc/translators.rst:2
 msgid "TODO translators.csv"
-msgstr ""
-
-#~ msgid ""
-#~ "Information Center for the Environment "
-#~ "at the University of California, Davis"
-#~ " provides hardware resources and "
-#~ "development support to the OSGeo-Live"
-#~ " project."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "`OSGeo Live <http://live.osgeo.org>`__: A "
-#~ "distribution of established geospatial open"
-#~ " source software, pre-configured with "
-#~ "sample data and quickstarts, ready to"
-#~ " try out."
-#~ msgstr ""
-
+msgstr "A FAIRE: translators.csv"

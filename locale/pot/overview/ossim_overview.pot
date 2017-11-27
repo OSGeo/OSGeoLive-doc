@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 21:10-0600\n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,7 +36,7 @@ msgstr ""
 msgid "Designed as a series of high performance software libraries, it is written in C++ employing the latest techniques in object-oriented software design. Many command line utilities, GUI applications, and integrated systems have been implemented - several of which are included with the software distribution."
 msgstr ""
 
-#: ../../build/doc/overview/ossim_overview.rst:31
+#: ../../build/doc/overview/ossim_overview.rst:36
 msgid "Core Features"
 msgstr ""
 

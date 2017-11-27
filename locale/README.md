@@ -20,6 +20,7 @@ To get latest pot files
 ```
 rm -rf build/*
 ```
+
 - build the pot/po files
 ```
 cd build
@@ -45,21 +46,17 @@ git diff .tx/config
 
 
 
-## Change only what is needed
-
-See the section **Which resources need change** before continuing.
-
-
-### Push the resource to transifex
+### Push a resource to transifex
 
 ```
-tx push --source -r test_osgeolive.sponsors_osgeo
+tx push --source -r osgeolive.overview--52nSOS_overview
 ```
 
 ### Pull transtlated strings
 
 ```
-tx pull -r test_osgeolive.sponsors_osgeo -l es
+tx pull -r osgeolive.overview--52nSOS_overview -l fr 
+tx pull -l fr --minimum-perc=100 --skip --mode=reviewed
 ```
 
 Note: if the file is skip `-f` forces the pull but basically it means:
@@ -69,10 +66,10 @@ Note: if the file is skip `-f` forces the pull but basically it means:
 
 ### clean the build & build the documentation:
 
-use capital letters for the language, this builds for Spanish
+use capital letters for the language, this builds for French
 ```
 rm -rf *
-cmake  -DBUILD_HTML=ON -DES=ON..
+cmake  -DHTML=ON -DFR=ON..
 ```
 
 # Which resources need change:

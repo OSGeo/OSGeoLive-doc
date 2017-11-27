@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 21:10-0600\n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,63 +28,63 @@ msgstr ""
 msgid "zyGrib is a program to download and visualize weather forecast data in the standard GRIB distribution format."
 msgstr ""
 
-#: ../../build/doc/overview/zygrib_overview.rst:23
+#: ../../build/doc/overview/zygrib_overview.rst:29
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/zygrib_overview.rst:30
+#: ../../build/doc/overview/zygrib_overview.rst:31
 msgid "Visualization of meteorologic data from files in GRIB format"
 msgstr ""
 
-#: ../../build/doc/overview/zygrib_overview.rst:31
+#: ../../build/doc/overview/zygrib_overview.rst:32
 msgid "Automatic download of weather and wave forecasts"
 msgstr ""
 
-#: ../../build/doc/overview/zygrib_overview.rst:32
+#: ../../build/doc/overview/zygrib_overview.rst:33
 msgid "Automatic download from IAC (fleetcode) data"
 msgstr ""
 
-#: ../../build/doc/overview/zygrib_overview.rst:33
+#: ../../build/doc/overview/zygrib_overview.rst:34
 msgid "Play animations of 8-day forecasts"
 msgstr ""
 
-#: ../../build/doc/overview/zygrib_overview.rst:34
+#: ../../build/doc/overview/zygrib_overview.rst:35
 msgid "Create your own regional weather maps (worldwide), or view a detailed quantitative forecast for a particular location."
 msgstr ""
 
-#: ../../build/doc/overview/zygrib_overview.rst:35
+#: ../../build/doc/overview/zygrib_overview.rst:36
 msgid "Plot wind, pressure, temperature, humidity, rain, snow, cloud cover, dew point, wave height, and high altitude data."
 msgstr ""
 
-#: ../../build/doc/overview/zygrib_overview.rst:38
+#: ../../build/doc/overview/zygrib_overview.rst:39
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/zygrib_overview.rst:40
+#: ../../build/doc/overview/zygrib_overview.rst:41
 msgid "**Website:** http://www.zygrib.org"
 msgstr ""
 
-#: ../../build/doc/overview/zygrib_overview.rst:42
+#: ../../build/doc/overview/zygrib_overview.rst:43
 msgid "**Licence:** GNU General Public License (GPL) version 3"
 msgstr ""
 
-#: ../../build/doc/overview/zygrib_overview.rst:44
+#: ../../build/doc/overview/zygrib_overview.rst:45
 msgid "**Software Version:** |version-zygrib|"
 msgstr ""
 
-#: ../../build/doc/overview/zygrib_overview.rst:46
+#: ../../build/doc/overview/zygrib_overview.rst:47
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
 msgstr ""
 
-#: ../../build/doc/overview/zygrib_overview.rst:48
+#: ../../build/doc/overview/zygrib_overview.rst:49
 msgid "**Support:** http://zygrib.org/forum/"
 msgstr ""
 
-#: ../../build/doc/overview/zygrib_overview.rst:53
+#: ../../build/doc/overview/zygrib_overview.rst:54
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/zygrib_overview.rst:55
+#: ../../build/doc/overview/zygrib_overview.rst:56
 msgid ":doc:`Quickstart documentation <../quickstart/zygrib_quickstart>`"
 msgstr ""
 

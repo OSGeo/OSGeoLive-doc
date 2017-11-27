@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-27 11:34-0500\n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,18 +17,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.0\n"
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:12
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:13
 msgid "GpsPrune Quickstart"
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:14
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:15
 msgid ""
 "GpsPrune is a java application for viewing and editing coordinate data.  "
 "It can be used for preparing data for GPS devices and for analyzing the "
 "data recorded by them."
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:16
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:17
 msgid ""
 "In this Quick Start, we will load and view a data file included on this "
 "live DVD, and access some online information to supplement it.  It will "
@@ -36,18 +36,18 @@ msgid ""
 " demonstration."
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:19
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:20
 msgid "Getting Started"
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:21
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:22
 msgid ""
 "To run GpsPrune on the live DVD, select the icon \"GpsPrune\" in the "
 "Navigation and Maps menu.  This will then give you the empty window shown"
 " below."
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:26
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:27
 msgid ""
 "We will now load a file by using the menu command :menuselection:`File "
 "--> Open file` and selecting the file to load.  This can be a GPX file, a"
@@ -57,13 +57,13 @@ msgid ""
 "this one."
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:30
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:31
 msgid ""
 "Because this file contains two tracks, we are offered the choice of which"
 " one(s) to load.  We choose just the first one and press OK."
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:32
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:33
 msgid ""
 "Now you should see the track marked in blue against a white background.  "
 "If this track had any waypoints (which it doesn't), then they would be "
@@ -72,14 +72,14 @@ msgid ""
 "altitudes."
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:38
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:39
 msgid ""
 "Now, assuming you have a network connection, you can activate the map by "
 "clicking the globe icon at the top of the main map display, or with the "
 "menu option :menuselection:`View --> Show Map`."
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:44
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:45
 msgid ""
 "You can drag the map around with the mouse, and zoom in and out with the "
 "mousewheel or by double-clicking.  Dragging with the right mouse button "
@@ -89,11 +89,11 @@ msgid ""
 "to select the corresponding point."
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:47
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:48
 msgid "Customizing the display"
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:48
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:49
 msgid ""
 "You can change the map with the menu option :menuselection:`Settings --> "
 "Set map background`. Let's have a look at an alternative map source by "
@@ -102,11 +102,11 @@ msgid ""
 " such as contour lines and cycle routes."
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:55
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:56
 msgid "Wikipedia"
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:56
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:57
 msgid ""
 "Now let's find out some more information about where this track is.  We "
 "can do this by selecting a point, and then choosing the menu option "
@@ -116,17 +116,17 @@ msgid ""
 "the box below."
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:60
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:61
 msgid ""
 "You can then use the button `Load` to load that point into GpsPrune, or "
 "`Show webpage` to load the Wikipedia page in a browser."
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:63
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:64
 msgid "Gpsies"
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:64
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:65
 msgid ""
 "Finally, let's download another track from the same area.  We can use the"
 " menu command :menuselection:`Online --> Get Gpsies tracks` to search for"
@@ -134,18 +134,18 @@ msgid ""
 "entries, and we can select one to view the description."
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:68
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:69
 msgid ""
 "Click the `Load` button to load the track, and select to append this "
 "track to the data we've already got.  Now we can see both tracks in the "
 "same view."
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:71
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:72
 msgid "Measuring distances"
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:72
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:73
 msgid ""
 "To find out how long the climb is, we'll click on the point at the start "
 "of the climb, just north of Dunedin, and select :menuselection:`Range -->"
@@ -156,11 +156,11 @@ msgid ""
 "10 m."
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:78
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:79
 msgid "Using GpsPrune on other systems"
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:79
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:80
 msgid ""
 "After trying out GpsPrune on this live DVD, you may want to use it on "
 "another system, whether it's another Linux system or Mac OSX or Windows."
@@ -169,7 +169,7 @@ msgid ""
 "download the latest copy from the home page."
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:81
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:82
 msgid ""
 "It doesn't need to be installed, but it does need a java runtime to be "
 "installed, version 1.5 or higher.  You can extend GpsPrune's "
@@ -177,7 +177,7 @@ msgid ""
 "*Gnuplot*, *Exiftool* and *Java3d*."
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:83
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:84
 msgid ""
 "Once you've installed GpsPrune on your permanent system, you can save "
 "your settings with the menu option :menuselection:`Settings --> Save "
@@ -187,7 +187,7 @@ msgid ""
 "computer."
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:85
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:86
 msgid ""
 "You can also save the downloaded map tiles to disk by selecting the menu "
 "option :menuselection:`Settings --> Save maps to disk` and selecting a "
@@ -195,19 +195,19 @@ msgid ""
 "display as it doesn't have to download the images again."
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:88
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:89
 msgid "Further reading"
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:90
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:91
 msgid "GpsPrune home page: http://gpsprune.activityworkshop.net/"
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:91
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:92
 msgid "Screenshots: http://gpsprune.activityworkshop.net/screenshots.html"
 msgstr ""
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:92
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:93
 msgid ""
 "How-tos and instructions: http://gpsprune.activityworkshop.net/how-"
 "tos.html"

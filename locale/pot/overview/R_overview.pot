@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 21:10-0600\n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,83 +36,83 @@ msgstr ""
 msgid "R is an implementation of the S programming language and there is significant compatibility between R and legacy S and S-Plus code as well as between R and the modern commercial version of S, TIBCO Spotfire S+. This makes it possible to convert different versions of S code to run on R without major code modifications."
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:53
+#: ../../build/doc/overview/R_overview.rst:54
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:55
+#: ../../build/doc/overview/R_overview.rst:56
 msgid "Complete Object Oriented Programming Language designed for Statistics and similar Mathematical intensive applications"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:56
+#: ../../build/doc/overview/R_overview.rst:57
 msgid "Hundreds of community contributed add-on packages for spatial statistics"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:57
+#: ../../build/doc/overview/R_overview.rst:58
 msgid "Classes for spatial data"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:58
+#: ../../build/doc/overview/R_overview.rst:59
 msgid "Handling spatial data"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:59
+#: ../../build/doc/overview/R_overview.rst:60
 msgid "Reading and writing spatial data"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:60
+#: ../../build/doc/overview/R_overview.rst:61
 msgid "Point pattern analysis"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:61
+#: ../../build/doc/overview/R_overview.rst:62
 msgid "Geostatistics"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:62
+#: ../../build/doc/overview/R_overview.rst:63
 msgid "Disease mapping and areal data analysis"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:63
+#: ../../build/doc/overview/R_overview.rst:64
 msgid "Spatial regression"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:64
+#: ../../build/doc/overview/R_overview.rst:65
 msgid "Ecological analysis"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:65
+#: ../../build/doc/overview/R_overview.rst:66
 msgid "Powerful raster processing algorithms"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:68
+#: ../../build/doc/overview/R_overview.rst:69
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:70
+#: ../../build/doc/overview/R_overview.rst:71
 msgid "**Website:** http://cran.r-project.org"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:72
+#: ../../build/doc/overview/R_overview.rst:73
 msgid "**Licence:** GPL"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:74
+#: ../../build/doc/overview/R_overview.rst:75
 msgid "**Software Version:** |version-R|"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:76
+#: ../../build/doc/overview/R_overview.rst:77
 msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:78
+#: ../../build/doc/overview/R_overview.rst:79
 msgid "**Community Support:** http://cran.r-project.org/web/views/Spatial.html"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:83
+#: ../../build/doc/overview/R_overview.rst:84
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:85
+#: ../../build/doc/overview/R_overview.rst:86
 msgid ":doc:`Quickstart documentation <../quickstart/R_quickstart>`"
 msgstr ""
 
