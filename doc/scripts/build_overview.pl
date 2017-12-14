@@ -13,8 +13,10 @@ use vars qw/*name *dir/;
 *dir    = *File::Find::dir;
 
 
-my $DEBUG = "@OSGeoLiveDoc_DEBUG@";
-my $FULL_DEBUG = "@OSGeoLiveDoc_VERBOSE_DEBUG@";
+my $FULL_DEBUG = 0;
+my $DEBUG = 0;
+$FULL_DEBUG = 1 if "@OSGeoLiveDoc_VERBOSE_DEBUG@" =~ /ON/;
+$DEBUG = 1 if ("@OSGeoLiveDoc_DEBUG@" =~ /ON/) or $FULL_DEBUG;
 my $version = "@OSGeoLiveDoc_VERSION@";
 my $projects_info_file = '@CMAKE_SOURCE_DIR@/projects_info.csv';
 my $output_file = '@CMAKE_BINARY_DIR@/doc/overview/overview.rst';
@@ -31,11 +33,11 @@ die "ERROR: Failed to find: '$projects_info_file'\n" unless -f $projects_info_fi
 # process section
 ######################################################
 #
-print "Building the overview.txt files\n" if $DEBUG;
+
+print "Building the 'overview.rst' file\n" if $DEBUG;
 
 my $configuration = read_and_parse_configuration($projects_info_file);
 
-print "\ngenerating 'overview.rst' file\n" if $DEBUG;
 my $sections;
 $sections .= get_section("Desktop GIS", $configuration);
 $sections .= get_section("Browser Facing GIS", $configuration);
@@ -66,38 +68,30 @@ sub read_and_parse_configuration {
     # try to open the file or die
     open(IN, $file) || die "ERROR: Failed to open '$file'\n";
 
+    my $line_number = 0;
 
     # Reads the file line by line and stores it in $line,
-    # if empty, operation becomes true and while loop ends
     while (my $line = <IN>) {
 
-        # Skipping comment lines
-        if ($line =~ /^#/) {
-            next;
-        };
+        ++$line_number;
 
-        # Skiping Not for documentation lines
+        # keeping lines only for documentation
         if (!($line =~ /^[Y|y]/)) {
             next;
         };
 
-        # Remove spaces from the line
+        # Remove trailing spaces from the line
         $line =~ s/\s*$//;
         my @values = split('\|', $line);
 
         #removes spaces of all elements
         s{^\s+|\s+$}{}g foreach @values;
 
-        # if the project is not subject to documentation, it is ignored
-        if ($values[0] =~ "N") {
-            print "Not for documentation: $line\n" if $DEBUG;
-            next;
-        }
-
         # push the value in right section
         # put the $line in the bucket that has the name stored in $values[5]
-        print "Section: '$values[5]' on line: $line\n" if $DEBUG;
         push @{$hash{$values[5]}}, $line;
+
+        print "Section: '$values[5]' on line $line_number: $line\n" if $DEBUG;
 
     } # end of while loop
 
@@ -132,10 +126,8 @@ sub get_section {
             #Writting the OSgeoLogo
             if(defined($values[10]) && ($values[10] !~ "")) {
                 $bullets .= "|$values[10]|";
-                print "found logo: $values[10]\n";
             } else {
                 $bullets .= "|nologo|";
-                print "No logo\n";
             }
 
             $toctree .= "    $values[1]_overview\n";
@@ -151,10 +143,8 @@ sub get_section {
         #Writting the comment
         if(defined($values[7]) && ($values[7] !~ "")) {
             $bullets .= " - $values[7]\n";
-            print "found comment: $values[7]\n";
         } else {
             $bullets .= "\n";
-            print "No comment:\n";
         }
     }
 
@@ -176,7 +166,7 @@ sub write_script {
     || die "ERROR: failed to create '$output_file' : $!\n";
 
 
-    print "sections =\n$sections" if $DEBUG;
+    print "sections =\n$sections" if $FULL_DEBUG;
     # write out the header and the commands to clean up the old extension
     print OUT <<EOF;
 
@@ -198,6 +188,8 @@ $sections
 EOF
 
     close(OUT);
+
+    print "Overview can be found at $output_file\n" if $DEBUG;
 }
 
 
