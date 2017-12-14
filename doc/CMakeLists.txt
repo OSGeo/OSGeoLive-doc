@@ -78,7 +78,7 @@ add_custom_command(
 #---------------------------------------------
 # Adding the sphinx subdirectories and files
 #---------------------------------------------
-configure_file("conf.py.in" "conf.py" @ONLY)
+configure_file("conf.py" "conf.py" @ONLY)
 add_subdirectory(_themes)
 add_subdirectory(_static)
 
