@@ -258,12 +258,17 @@ rst_epilog="""
 .. |nologo| image:: /images/logos/nologo.png
                         :align: bottom
                         :height: 18
-.. |osgeoproject| image:: /images/logos/OSGeo_compass.png
+.. |osgeo_project| image:: /images/logos/OSGeo_compass.png
                         :alt: OSGeo Project
                         :align: bottom
                         :height: 18
                         :target: ../sponsors_osgeo.html
-.. |osgeocommunity| image:: /images/logos/OSGeo_compass.png
+.. |osgeo_incubation| image:: /images/logos/OSGeo_compass.png
+                        :alt: OSGeo Community
+                        :align: middle
+                        :height: 18
+                        :target: ../sponsors_osgeo.html
+.. |osgeo_community| image:: /images/logos/OSGeo_compass.png
                         :alt: OSGeo Community
                         :align: middle
                         :height: 18

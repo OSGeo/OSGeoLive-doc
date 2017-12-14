@@ -14,6 +14,7 @@ use vars qw/*name *dir/;
 
 
 my $DEBUG = "@OSGeoLiveDoc_DEBUG@";
+my $FULL_DEBUG = "@OSGeoLiveDoc_VERBOSE_DEBUG@";
 my $version = "@OSGeoLiveDoc_VERSION@";
 my $projects_info_file = '@CMAKE_SOURCE_DIR@/projects_info.csv';
 my $output_file = '@CMAKE_BINARY_DIR@/doc/overview/overview.rst';
@@ -124,8 +125,17 @@ sub get_section {
 
         # Handling the overview
         if($values[4] =~ "Y") {
+            #Writting the OSgeoLogo
+            if(defined($values[10]) && ($values[10] !~ "")) {
+                $bullets .= "|$values[10]|";
+                print "found logo: $values[10]\n";
+            } else {
+                $bullets .= "|nologo|";
+                print "No logo\n";
+            }
+
             $toctree .= "    $values[1]_overview\n";
-            $bullets .= "* :doc:`$values[1]_overview` "
+            $bullets .= " :doc:`$values[1]_overview` "
         }
 
         # Handling the quickstart

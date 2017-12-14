@@ -18,10 +18,11 @@ sub Usage {
     build_overview <old_version>";
 }
 
-my $DEBUG = "@OSGeoLiveDoc_DEBUG@";
+my $FULL_DEBUG = "@OSGeoLiveDoc_VERBOSE_DEBUG@";
+my $DEBUG = "@OSGeoLiveDoc_DEBUG@" or $FULL_DEBUG;
 my $version = "@OSGeoLiveDoc_VERSION@";
 my $projects_info_file = '@CMAKE_SOURCE_DIR@/projects_info.csv';
-my $output_file = '@CMAKE_CURRENT_BINARY_DIR@/../metrics.rst';
+my $output_file = '@CMAKE_BINARY_DIR@/doc/metrics.rst';
 
 
 ######################################################
@@ -31,13 +32,14 @@ my $output_file = '@CMAKE_CURRENT_BINARY_DIR@/../metrics.rst';
 # Verify file exist
 die "ERROR: Failed to find: '$projects_info_file'\n" unless -f $projects_info_file;
 
+print "\ngenerating 'metrics.rst' file\n" if $DEBUG;
+
 ######################################################
 # process section 
 ######################################################
 #
 my $configuration = read_and_parse_configuration($projects_info_file);
 
-print "\ngenerating 'metrics.rst' file\n" if $DEBUG;
 my $sections;
 $sections .= get_section("Desktop GIS", $configuration);
 $sections .= get_section("Browser Facing GIS", $configuration);
@@ -66,10 +68,11 @@ sub read_and_parse_configuration {
     open(IN, $file) || die "ERROR: Failed to open '$file'\n";
 
     while (my $line = <IN>) {
+        # skiping coment lines
         if ($line =~ /^#/) {
-            print "found comment: $line\n" if $DEBUG;
             next;
         };
+
         # Remove spaces from the line
         $line =~ s/\s*$//;
         my @values = split('\|', $line);
@@ -78,7 +81,7 @@ sub read_and_parse_configuration {
         s{^\s+|\s+$}{}g foreach @values;
 
         if ($values[0] =~ "N") {
-            print "Not for documentation: $line\n" if $DEBUG;
+            print "Not for documentation: $line\n" if $FULL_DEBUG;
             next;
         }
         print "Section: '$values[5]' on line: $line\n" if $DEBUG;
@@ -94,7 +97,7 @@ sub read_and_parse_configuration {
 sub get_section {
     my ($section, $configuration) = @_;
 
-    my $contents;
+    my $contents = "";
 
     my $section_data = $configuration->{$section};
     if (not defined $section_data) {
@@ -134,7 +137,7 @@ sub write_script {
     || die "ERROR: failed to create '$output_file' : $!\n";
 
 
-    print "sections =\n$sections" if $DEBUG;
+    print "Metrics can be found at $output_file\n" if $DEBUG;
     # write out the header and the commands to clean up the old extension
     print OUT <<EOF;
 
