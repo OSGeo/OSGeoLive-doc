@@ -111,7 +111,7 @@ sub get_section {
     my $contents;
 
     my $section_data = $configuration->{$section};
-    $contents .= "$section\n---------------------------------------------------------------\n\n$description";
+    $contents .= "$section\n---------------------------------------------------------------\n\n$description\n\n";
     $toctree .= ".. toctree::\n";
     $toctree .= "    :hidden:\n\n";
     #$toctree .= "    :maxdepth: 1\n\n";
