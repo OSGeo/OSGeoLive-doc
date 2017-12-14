@@ -54,7 +54,7 @@ foreach (f ${OSGeoLiveDoc_FILES})
     configure_file(${f} ${f})
 endforeach()
 
-file(COPY "images" DESTINATION "${CMAKE_CURRENT_BINARY_DIR}")
+add_subdirectory(images)
 
 #---------------------------------------------
 # Adding the scripts and executing

@@ -290,6 +290,7 @@ MACRO(INSERT_INTO_MAP_NAME _KEY _TARGET)
     SET("NAME_${_KEY}" "${_TARGET}")
 ENDMACRO(INSERT_INTO_MAP_NAME)
 
+set (OSGeoLiveDoc_PROJECTS_NAMES "")
 set (OSGeoLiveDoc_PROJECTS_LOGOS "")
 set (OSGeoLiveDoc_CONFIGURATION_REGEXP "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|.*\\|.*\\|.*\\|.*\\|(.*)\\|(.*)\\|(.*)")
 
@@ -335,6 +336,7 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     endif()
 
 
+    list(APPEND  OSGeoLiveDoc_PROJECTS_NAMES  "${project_page}")
     string(CONCAT  OSGeoLiveDoc_PROJECTS_VERSIONS ${OSGeoLiveDoc_PROJECTS_VERSIONS} ".. |version-${project_page}| replace:: ${project_version}\n")
 
     INSERT_INTO_MAP_LOGO("${project_page}" "${url_target}")
@@ -356,6 +358,7 @@ endforeach()
 if (OSGeoLiveDoc_VERBOSE_DEBUG)
     message(STATUS "OSGeoLiveDoc_OVERVIEW=${OSGeoLiveDoc_OVERVIEW}")
     message(STATUS "OSGeoLiveDoc_QUICKSTART=${OSGeoLiveDoc_QUICKSTART}")
+    message(STATUS "OSGeoLiveDoc_PROJECTS_NAMES=${OSGeoLiveDoc_QUICKSTART}")
 endif()
 
 set(OSGeoLiveDoc_STANDARDS

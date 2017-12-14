@@ -50,39 +50,39 @@ In addition download the OSGeo Virtual disk file (vmdk) from `live.osgeo.org <ht
 
 Start the VirtualBox application and click on the New button to create a new VM, and then Next.
 
-  .. image:: /images/projects/virtualization/virtualbox.png
+  .. image:: /images/projects/osgeolive/virtualbox.png
          :scale: 50 %
 
 Enter a name such as OSGeoLive, and choose Linux as the "Operating system", and Ubuntu as the "Version".
 
-  .. image:: /images/projects/virtualization/virtualbox_select_name.png
+  .. image:: /images/projects/osgeolive/virtualbox_select_name.png
          :scale: 70 %
 
 In the next screen set the memory to 1024 MB (or more if your host computer has more than 4GB, like on the screenshot).
 
-  .. image:: /images/projects/virtualization/vmdk_memory.png
+  .. image:: /images/projects/osgeolive/vmdk_memory.png
      :scale: 65 %
 
 Continue to the next screen and choose "Use existing hard disk" . Now click on the button (a folder icon) to browse to where you saved the OSGeoLive vmdk-file. Select this file, press Next and Create.
 
-  .. image:: /images/projects/virtualization/vmdk_disk.png
+  .. image:: /images/projects/osgeolive/vmdk_disk.png
      :scale: 65 %
 
 ** Config tips and tweaks**
 
 Once the VM is created, click on the Settings button. In the "General" section, go to the Advanced tab, and click to select "Show at top of screen" for the Mini toolbar.
 
-  .. image:: /images/projects/virtualization/vmdk_general_advanced.png
+  .. image:: /images/projects/osgeolive/vmdk_general_advanced.png
      :scale: 65 %
 
 Go to the "Display" section and increase video memory to 32 or 64 MB.
 
-  .. image:: /images/projects/virtualization/vmdk_display.png
+  .. image:: /images/projects/osgeolive/vmdk_display.png
      :scale: 65 %
 
 In addition, move to the "Shared Folders" section, and click the "Add folder" (green + icon on the right) to find a directory on your host computer that you wish to share inside the VM.
 
-  .. image:: /images/projects/virtualization/vmdk_shared_folders.png
+  .. image:: /images/projects/osgeolive/vmdk_shared_folders.png
      :scale: 65 %
 
 You can select to make the shared folder read only, and auto-mounted. Once the "Folder path" and "Folder name" are defined, click OK, and again OK to finish and close the settings window.
