@@ -15,25 +15,34 @@ The majority of our documentation is generated from reStructured text sources
 using Sphinx. reSt is similar to wiki markup, and readable in plain ascii. As a
 quick check, github will (partially) render reSt documents as HTML.
 
-1. Install python and sphinx version 0.6.4 or greater (as provided with Ubuntu >10.04), (install_main_docs.sh does this too)
+1. Install python and sphinx version 1.6.4 or greater (as provided with Ubuntu >10.04), (install_main_docs.sh does this too)
 ::
    sudo apt-get install python-sphinx
 
-2. The included make file will generate the documentation
+2. Clone or download the documentation
 ::
    git clone https://github.com/OSGeo/OSGeoLive-doc.git
-   cd OSGeoLive-doc
-   make html
 
-   View output in _build/html/en/index.html
+3. Generate the English documentation
+::   
+   mkdir build
+   cd build
+   cmake -DHTML ..
+   make
+   cd ..
 
-3. It is also possible to generate a debian package from the documentation
+   The output is in build/doc/_build/html/
+
+4. Generate another language documentation
 ::
-   sudo apt install devscripts
-   debuild -b
-   sudo dpkg -i ../osgeolive-docs_11.0~beta1_all.deb
+   mkdir build
+   cd build
+   cmake -DHTML -DFR=ON ..
+   make
+   cd ..
 
-   The actual packagename will depend on the current version in debian/changelog
+   The output is also in build/doc/_build/html/
+
 
 References:
 ~~~~~~~~~~~
