@@ -2,7 +2,7 @@
 ######################| | | | | | | | | | |
 #   Desktop GIS  | | | | | | | | | | |
 ######################| | | | | | | | | | |
-Y  |  grass  |  7.2.1  |  Y  |  Y  |  Desktop GIS  |    |    |  grass_gis| |OSGeo_project|GRASS GIS
+y  |  grass  |  7.2.1  |  Y  |  Y  |  Desktop GIS  |    |    |  grass_gis| |OSGeo_project|GRASS GIS
 Y  |  gvsig  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  gvsig-desktop-2|http://www.gvsig.com/|OSGeo_project|gvSIG Desktop
 Y  |  openjump  |1.11|  Y  |  Y  |  Desktop GIS  |    |    |  openjump_gis|http://www.openjump.org| |OpenJUMP GIS
 Y  |  qgis  |  2.14.14  |  Y  |  Y  |  Desktop GIS  |    |    |  qgis|http://www.qgis.org|OSGeo_project|QGIS

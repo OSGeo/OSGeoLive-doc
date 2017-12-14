@@ -320,7 +320,7 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     string(STRIP ${want_quickstart} want_quickstart)
     string(STRIP ${want_overview} want_overview)
 
-    if (NOT "${wantDoc}" MATCHES "Y")
+    if (NOT "${wantDoc}" MATCHES "Y|y")
         if (OSGeoLiveDoc_VERBOSE_DEBUG)
             message(STATUS "${project_page} is not for documentation")
         endif()

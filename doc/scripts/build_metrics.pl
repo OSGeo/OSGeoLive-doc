@@ -18,8 +18,10 @@ sub Usage {
     build_overview <old_version>";
 }
 
-my $FULL_DEBUG = "@OSGeoLiveDoc_VERBOSE_DEBUG@";
-my $DEBUG = "@OSGeoLiveDoc_DEBUG@" or $FULL_DEBUG;
+my $FULL_DEBUG = 0;
+my $DEBUG = 0;
+$FULL_DEBUG = 1 if "@OSGeoLiveDoc_VERBOSE_DEBUG@" =~ /ON/;
+$DEBUG = 1 if ("@OSGeoLiveDoc_DEBUG@" =~ /ON/) or $FULL_DEBUG;
 my $version = "@OSGeoLiveDoc_VERSION@";
 my $projects_info_file = '@CMAKE_SOURCE_DIR@/projects_info.csv';
 my $output_file = '@CMAKE_BINARY_DIR@/doc/metrics.rst';
@@ -59,32 +61,31 @@ exit 0;
 # subroutines
 ######################################################
 
-# read and parse the .sig file and store the results in a hash
+# read and parse the configuration file and store the results in a hash
 sub read_and_parse_configuration {
     my $file = shift;
 
     my %hash = ();
 
     open(IN, $file) || die "ERROR: Failed to open '$file'\n";
+    my $line_number = 0;
 
     while (my $line = <IN>) {
-        # skiping coment lines
-        if ($line =~ /^#/) {
+        ++$line_number;
+        # keeping lines only for documentation
+        if (!($line =~ /^[Y|y]/)) {
             next;
         };
 
-        # Remove spaces from the line
+        # Remove trailing spaces from the line
         $line =~ s/\s*$//;
+
         my @values = split('\|', $line);
 
         #removes spaces of all elements
         s{^\s+|\s+$}{}g foreach @values;
 
-        if ($values[0] =~ "N") {
-            print "Not for documentation: $line\n" if $FULL_DEBUG;
-            next;
-        }
-        print "Section: '$values[5]' on line: $line\n" if $DEBUG;
+        print "Section: '$values[5]' on line $line_number: $line\n" if $DEBUG;
         push @{$hash{$values[5]}}, $line;
     }
 
@@ -137,7 +138,7 @@ sub write_script {
     || die "ERROR: failed to create '$output_file' : $!\n";
 
 
-    print "Metrics can be found at $output_file\n" if $DEBUG;
+    print "Sections = $sections\n" if $FULL_DEBUG;
     # write out the header and the commands to clean up the old extension
     print OUT <<EOF;
 
@@ -165,6 +166,7 @@ Viewing the metrics requires an Internet connection and Javascript to be enabled
 EOF
 
     close(OUT);
+    print "Metrics can be found at $output_file\n" if $DEBUG;
 }
 
 

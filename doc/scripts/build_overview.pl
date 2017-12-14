@@ -71,9 +71,13 @@ sub read_and_parse_configuration {
     # if empty, operation becomes true and while loop ends
     while (my $line = <IN>) {
 
-        # if the lines is commented, it is ignored (or a message is print in debug mode)
+        # Skipping comment lines
         if ($line =~ /^#/) {
-            print "found comment: $line\n" if $DEBUG;
+            next;
+        };
+
+        # Skiping Not for documentation lines
+        if (!($line =~ /^[Y|y]/)) {
             next;
         };
 
