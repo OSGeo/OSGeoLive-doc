@@ -3,12 +3,16 @@
 
 **Warning** for administrators only
 
+**Note** Different versions of sphinx-intl change the `pot` and `po` files structure even with the same content
+
+For generating the pot files v0.9.10 of sphinx-intl is used
 
 - Installing the tx client: https://docs.transifex.com/client/installing-the-client
 - Introduction to the client: https://docs.transifex.com/client/introduction
 - Sphinx-intl installation: https://pypi.python.org/pypi/sphinx-intl
   ```
-  pip install sphinx-intl
+  pip install sphinx-intl==0.9.10
+  pip show sphinx-intl
   ```
 - Sphinx: http://www.sphinx-doc.org/en/stable/intl.html
 
