@@ -14,49 +14,54 @@
 - Sphinx: http://www.sphinx-doc.org/en/stable/intl.html
 
 
-To get latest pot files
-
-- make sure `build` directory is empty
-```
-rm -rf build/*
-```
 
 - build the pot/po files
 ```
 cd build
+rm -rf *
 cmake  -DLOCALE=ON ..
 make locale > locale_log.txt
 cd ..
 ```
 
-list .pot files
+## Verifying changes
+
+### List .pot files that changed
 ```
-ls -R locale/pot
+git diff --name-only | grep '\.pot'
 ```
 
-list a language's .po files for example spanish:
-```
-ls -R locale/es
-```
 
-# verify the changes on the config file for transifex
+### Verify the changes on the config file for transifex
 ```
 git diff .tx/config
 ```
 
-
-
-### Push a resource to transifex
+## Push changed resources to transifex
 
 ```
-tx push --source -r osgeolive.overview--52nSOS_overview
+bash bin/push_transifex.sh
 ```
 
-### Pull transtlated strings
+## Commit changes
 
+```
+git commit -a -m 'Updating the locale'
+```
+
+## Pull transtlated strings
+
+One file regardles of translation completition, normally used while translating.
+**Note:** Don't commit incomplete translations
 ```
 tx pull -r osgeolive.overview--52nSOS_overview -l fr 
-tx pull -l fr --minimum-perc=100 --skip --mode=reviewed
+```
+
+All the 100% translated files of French language.
+* Takes time
+* This you can commit and make a PR
+```
+tx pull -l fr --minimum-perc=100 --skip
 ```
 
 Note: if the file is skip `-f` forces the pull but basically it means:
