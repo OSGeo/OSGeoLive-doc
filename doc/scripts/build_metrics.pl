@@ -34,12 +34,13 @@ my $output_file = '@CMAKE_BINARY_DIR@/doc/metrics.rst';
 # Verify file exist
 die "ERROR: Failed to find: '$projects_info_file'\n" unless -f $projects_info_file;
 
-print "\ngenerating 'metrics.rst' file\n" if $DEBUG;
 
 ######################################################
 # process section 
 ######################################################
-#
+
+print "\nBuilding the 'metrics.rst' file\n" if $DEBUG;
+
 my $configuration = read_and_parse_configuration($projects_info_file);
 
 my $sections;
@@ -62,14 +63,18 @@ exit 0;
 ######################################################
 
 # read and parse the configuration file and store the results in a hash
+# Input parameter: file name of the projects configuration
 sub read_and_parse_configuration {
+    # get the parameter and store it in the variable $file
     my $file = shift;
 
+    #Initialise hash Hash.
     my %hash = ();
 
     open(IN, $file) || die "ERROR: Failed to open '$file'\n";
     my $line_number = 0;
 
+    # Reads the file line by line and stores it in $line
     while (my $line = <IN>) {
         ++$line_number;
         # keeping lines only for documentation
@@ -85,8 +90,11 @@ sub read_and_parse_configuration {
         #removes spaces of all elements
         s{^\s+|\s+$}{}g foreach @values;
 
-        print "Section: '$values[5]' on line $line_number: $line\n" if $DEBUG;
+        # push the value in right section
+        # put the $line in the bucket that has the name stored in $values[5]
         push @{$hash{$values[5]}}, $line;
+
+        print "Section: '$values[5]' on line $line_number: $line\n" if $DEBUG;
     }
 
     close(IN);

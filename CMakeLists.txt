@@ -282,9 +282,7 @@ Quickstart
         set(_QUICK  " ")
     endif()
       
-    message(STATUS "the QUICKSTART_${_KEY} ->>> ${_QUICK}") 
     SET("QUICKSTART_${_KEY}" "${_QUICK}")
-    message(STATUS ${QUICKSTART_${_KEY}}) 
 ENDMACRO(INSERT_INTO_MAP_QUICK)
 
 
@@ -314,11 +312,14 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\7" osgeo_kind ${line})
     string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\8" project_name ${line})
 
-    string(STRIP ${wantDoc} wantDoc)
-    string(STRIP ${project_page} project_page)
-    string(STRIP ${project_version} project_version)
-    string(STRIP ${want_quickstart} want_quickstart)
-    string(STRIP ${want_overview} want_overview)
+    string(STRIP "${wantDoc}" wantDoc)
+    string(STRIP "${project_page}" project_page)
+    string(STRIP "${project_version}" project_version)
+    if ("${project_version}" MATCHES "")
+        set(project_version "NA")
+    endif()
+    string(STRIP "${want_quickstart}" want_quickstart)
+    string(STRIP "${want_overview}" want_overview)
 
     if (NOT "${wantDoc}" MATCHES "Y|y")
         if (OSGeoLiveDoc_VERBOSE_DEBUG)
@@ -332,7 +333,7 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     string(STRIP "${osgeo_kind}" osgeo_kind)
     string(STRIP "${project_name}" project_name)
 
-    if (OSGeoLiveDoc_VERBOSE_DEBUG)
+    if (OSGeoLiveDoc_DEBUG)
         message(STATUS "wantDoc:${wantDoc} \tpage:${project_page} \tversion:${project_version} \twant_quickstart:${want_quickstart} \twant_overview:${want_overview}\turl:${url_target} \tkind:${osgeo_kind}\tname:${project_name}")
     endif()
 

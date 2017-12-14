@@ -124,7 +124,7 @@ sub get_section {
         # Handling the overview
         if($values[4] =~ "Y") {
             #Writting the OSgeoLogo
-            if(defined($values[10]) && ($values[10] !~ "")) {
+            if(defined($values[10]) and ($values[10] ne "")) {
                 $bullets .= "|$values[10]|";
             } else {
                 $bullets .= "|nologo|";

@@ -12,7 +12,7 @@ Y  |  udig  |2|  Y  |  Y  |  Desktop GIS  |    |    |  udig|http://udig.refracti
 # Browser Facing GIS| | | | | | | | | | |
 ######################| | | | | | | | | | |
 Y  |  cesium  |1.34|  Y  |  Y  |  Browser Facing GIS  |    |  3D globes and 2D maps in a browser  |  cesiumjs| | |Cesium
-Y  |  geomajas  |NA|  Y  |  Y  |  Browser Facing GIS  |    |  Browser GIS Client  |  geomajas|http://www.geomajas.org|OSGeo_project|Geomajas
+Y  |  geomajas  ||  Y  |  Y  |  Browser Facing GIS  |    |  Browser GIS Client  |  geomajas|http://www.geomajas.org|OSGeo_project|Geomajas
 Y  |  geomoose  |  2.9.3  |  Y  |  Y  |  Browser Facing GIS  |    |  Web GIS Portal  |  geomoose|http://www.geomoose.org/|OSGeo_project|GeoMoose
 Y  |  geonode  |  2.6.0  |  Y  |  Y  |  Browser Facing GIS  |    |  Geospatial Content Management System  |  geonode|http://geonode.org|OSGeo_project|GeoNode
 Y  |  leaflet  |  1.0.3  |  Y  |  Y  |  Browser Facing GIS  |    |  Mobile Friendly Interactive Maps  |  Leaflet|http://leafletjs.com| |Leaflet
