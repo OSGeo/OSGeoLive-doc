@@ -141,10 +141,10 @@ sub get_section {
         }
 
         #Writting the comment
-        if(defined($values[7]) && ($values[7] !~ "")) {
-            $bullets .= " - $values[7]\n";
+        if(defined($values[7]) && ($values[7] ne "")) {
+            $bullets .= " - $values[7]\n\n";
         } else {
-            $bullets .= "\n";
+            $bullets .= "\n\n";
         }
     }
 

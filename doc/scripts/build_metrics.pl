@@ -166,9 +166,10 @@ Viewing the metrics requires an Internet connection and Javascript to be enabled
 
 .. raw:: html
 
-  <script type="text/javascript" src="https://www.openhub.net/p/OSGeoLive/widgets/project_factoids_stats?format=js"></script><br/>
+  <script type='text/javascript' src='https://www.openhub.net/p/OSGeo-Live/widgets/project_factoids_stats?format=js'></script>
+  <br/>
 
-  $sections
+$sections
 
 
 EOF
