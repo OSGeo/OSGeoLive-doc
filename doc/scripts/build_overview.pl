@@ -39,16 +39,16 @@ print "Building the 'overview.rst' file\n" if $DEBUG;
 my $configuration = read_and_parse_configuration($projects_info_file);
 
 my $sections;
-$sections .= get_section("Desktop GIS", $configuration);
-$sections .= get_section("Browser Facing GIS", $configuration);
-$sections .= get_section("Web Services", $configuration);
-$sections .= get_section("Data Stores", $configuration);
-$sections .= get_section("Navigation and Maps", $configuration);
-$sections .= get_section("Spatial Tools", $configuration);
-$sections .= get_section("Domain Specific GIS", $configuration);
-$sections .= get_section("Data", $configuration);
-$sections .= get_section("Geospatial Libraries", $configuration);
-$sections .= get_section("Other software of interest (not available Live)", $configuration);
+$sections .= get_section('Desktop GIS', 'General GIS viewing, editing, and analysis on the desktop', $configuration);
+$sections .= get_section('Browser Facing GIS', 'General GIS viewing, editing and analysis in the browser', $configuration);
+$sections .= get_section('Web Services', 'Publishing spatial data to the internet', $configuration);
+$sections .= get_section('Data Stores', 'Storing spatial data', $configuration);
+$sections .= get_section('Navigation and Maps', ' ', $configuration);
+$sections .= get_section('Spatial Tools', 'Specific analysis tools', $configuration);
+$sections .= get_section('Domain Specific GIS', 'Applications targeted at a specific domain', $configuration);
+$sections .= get_section('Data', 'Spatial data sets', $configuration);
+$sections .= get_section('Geospatial Libraries', ' ', $configuration);
+$sections .= get_section('Other software of interest (not available Live)', ' ', $configuration);
 write_script($sections);
 exit 0;
 
@@ -104,14 +104,14 @@ sub read_and_parse_configuration {
 
 
 sub get_section {
-    my ($section, $configuration) = @_;
+    my ($section, $description, $configuration) = @_;
 
     my $toctree;
     my $bullets;
     my $contents;
 
     my $section_data = $configuration->{$section};
-    $contents .= "$section\n---------------------------------------------------------------\n\n";
+    $contents .= "$section\n---------------------------------------------------------------\n\n$description";
     $toctree .= ".. toctree::\n";
     $toctree .= "    :hidden:\n\n";
     #$toctree .= "    :maxdepth: 1\n\n";
