@@ -41,12 +41,16 @@ set(OSGeoLiveDoc_SUBDIRS
 #---------------------------------------------
 
 foreach (dir ${OSGeoLiveDoc_SUBDIRS})
-    message(STATUS "   Adding directory ${dir}")
+    if (OSGeoLiveDoc_DEBUG)
+        message(STATUS "   Adding directory ${dir}")
+    endif()
     add_subdirectory(${dir})
 endforeach()
 
 foreach (f ${OSGeoLiveDoc_FILES})
-    message(STATUS "    Adding file ${f}")
+    if (OSGeoLiveDoc_VERBOSE_DEBUG)
+        message(STATUS "    Adding file ${f}")
+    endif()
     configure_file(${f} ${f})
 endforeach()
 

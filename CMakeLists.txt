@@ -322,9 +322,6 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     string(STRIP "${want_overview}" want_overview)
 
     if (NOT "${wantDoc}" MATCHES "Y|y")
-        if (OSGeoLiveDoc_VERBOSE_DEBUG)
-            message(STATUS "${project_page} is not for documentation")
-        endif()
         continue()
     endif()
 
@@ -357,8 +354,8 @@ endforeach()
 
 
 if (OSGeoLiveDoc_VERBOSE_DEBUG)
-    message(STATUS "OSGeoLiveDoc_QUICKSTART=${OSGeoLiveDoc_QUICKSTART}")
     message(STATUS "OSGeoLiveDoc_OVERVIEW=${OSGeoLiveDoc_OVERVIEW}")
+    message(STATUS "OSGeoLiveDoc_QUICKSTART=${OSGeoLiveDoc_QUICKSTART}")
 endif()
 
 set(OSGeoLiveDoc_STANDARDS
