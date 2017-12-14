@@ -140,7 +140,7 @@ sub get_section {
             $bullets .= "- [:doc:`Quickstart <../quickstart/$values[1]_quickstart>`]"
         }
 
-        #Writting the comment
+        # Writing the description
         if(defined($values[7]) && ($values[7] ne "")) {
             $bullets .= " - $values[7]\n\n";
         } else {
