@@ -3,7 +3,7 @@
 ###############################################################################
 #  Copyright (c) 2016, Vicky Vergara <vicky_vergara@hotmail.com>
 #
-#  Licence:  GPL-2.0  
+#  Licence:  GPL-2.0
 #
 #  Permission is hereby granted, free of charge, to any person obtaining a
 #  copy of this software and associated documentation files (the "Software"),
@@ -26,6 +26,10 @@
 
 #example execution
 # bin/push_transifex
+
+## .pot files don't changes much (only when updating the docs)
+# so only modified .pot are returned
+# for each filename, resource name is processed out then it is pushed to Transifex
 
 for pot_file in `git diff --name-only | grep '\.pot'`  ; do
     pot_file=`echo $pot_file | sed -e "s/locale\/pot\//osgeolive\./g"`
