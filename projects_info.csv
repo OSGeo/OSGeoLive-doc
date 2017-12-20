@@ -67,9 +67,9 @@ Y  |  zygrib  |  7.0.0  |  Y  |  Y  |  Domain Specific GIS  |    |    |  |http:/
 #   Data| | | | | | | | | | |
 ######################| | | | | | | | | | |
 Y  |  naturalearth  ||  N  |  Y  |  Data  |    |  Global Data Sets  |  |http://www.naturalearthdata.com/| |Natural Earth
-Y  |  nc_dataset  ||  N  |  Y  |  Data  |    |    |  |http://wiki.osgeo.org/wiki/Category:Education| |OSGeo North Carolina, USA Educational dataset
 Y  |  netcdf_dataset  ||  N  |  Y  |  Data  |    |  Time series temperature and precipitation  |  |http://wiki.osgeo.org/wiki/Category:Education| |NetCDF Data Set
 Y  |  osm_dataset  ||  N  |  Y  |  Data  |    |  Sample extract from OpenStreetMap  |  |https://www.openstreetmap.org/| |OpenStreetMap
+Y  |  nc_dataset  ||  N  |  Y  |  Data  |    |    |  |http://wiki.osgeo.org/wiki/Category:Education| |OSGeo North Carolina, USA Educational dataset
 ######################| | | | | | | | | | |
 #   Geospatial Libraries  | | | | | | | | | | |
 ######################| | | | | | | | | | |
