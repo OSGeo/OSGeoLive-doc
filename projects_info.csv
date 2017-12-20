@@ -5,8 +5,8 @@
 y  |  grass  |  7.2.1  |  Y  |  Y  |  Desktop GIS  |    |    |  grass_gis| |OSGeo_project|GRASS GIS
 Y  |  gvsig  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  gvsig-desktop-2|http://www.gvsig.com/|OSGeo_project|gvSIG Desktop
 Y  |  qgis  |  2.14.14  |  Y  |  Y  |  Desktop GIS  |    |    |  qgis|http://www.qgis.org|OSGeo_project|QGIS
-Y  |  saga  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  saga-gis|http://www.saga-gis.org| |SAGA
 Y  |  openjump  |1.11|  Y  |  Y  |  Desktop GIS  |    |    |  openjump_gis|http://www.openjump.org| |OpenJUMP GIS
+Y  |  saga  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  saga-gis|http://www.saga-gis.org| |SAGA
 Y  |  udig  |2|  Y  |  Y  |  Desktop GIS  |    |    |  udig|http://udig.refractions.net/| |User-friendly Desktop Internet GIS
 ######################| | | | | | | | | | |
 # Browser Facing GIS| | | | | | | | | | |
@@ -16,6 +16,7 @@ Y  |  geomoose  |  2.9.3  |  Y  |  Y  |  Browser Facing GIS  |    |  Web GIS Por
 Y  |  geonode  |  2.6.0  |  Y  |  Y  |  Browser Facing GIS  |    |  Geospatial Content Management System  |  geonode|http://geonode.org|OSGeo_project|GeoNode
 Y  |  mapbender  |  3.0.6.1  |  Y  |  Y  |  Browser Facing GIS  |    |  Geoportal Framework  |  mapbender|http://www.mapbender3.org|OSGeo_project|Mapbender
 Y  |  openlayers  |  4.1.1  |  Y  |  Y  |  Browser Facing GIS  |    |   Browser Mapping Library  |  openlayers|http://openlayers.org/|OSGeo_project|OpenLayers
+Y  | cesium |1.34| Y | Y | Browser Facing GIS | | 3D globes and 2D maps in a browser | cesiumjs|https://cesiumjs.org/ | |Cesium
 Y  |  leaflet  |  1.0.3  |  Y  |  Y  |  Browser Facing GIS  |    |  Mobile Friendly Interactive Maps  |  Leaflet|http://leafletjs.com| |Leaflet
 ######################| | | | | | | | | | |
 #   Web Services  | | | | | | | | | | |
@@ -25,15 +26,14 @@ Y  |  geonetwork  |  3.2.1  |  Y  |  Y  |  Web Services  |    |  Metadata Catalo
 Y  |  geoserver  |  2.10.1  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  geoserver|http://geoserver.org/|OSGeo_project|GeoServer
 Y  |  mapserver  |  7.0.5  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  mapserver|http://mapserver.org/|OSGeo_project|MapServer
 Y  |  pycsw  |  2.0.3  |  Y  |  Y  |  Web Services  |    |  Metadata Catalogue  |  pycsw|http://pycsw.org/|OSGeo_project|pycsw  
-Y  |  qgis_mapserver  ||  Y  |  Y  |  Web Services  |    |  Web Map Service  |  |http://www.qgis.org|OSGeo_project|QGIS Server
-Y  |  pywps  |  4.0.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  pyWPS| |OSGeo_incubation|PyWPS
 Y  |  zoo-project  |  1.6.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  zoo-project|http://zoo-project.org/|OSGeo_incubation|Zoo Project
 Y  |  istsos  |  2.3.1  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  istsos|http://istsos.org|OSGeo_community|istSOS
+Y  |  mapproxy  ||  Y  |  Y  |  Web Services  |    |  Proxy WMS & tile services  |  mapproxy| | OSGeo_community |MapProxy
 Y  |  52nSOS  |  4.4.0  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  SensorObservationService|http://52north.org/sos| |52 North SOS
 Y  |  52nWPS  |  3.6.1  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  n52-wps|http://52north.org/wps| |52 North WPS
 Y  |  eoxserver  |  0.4.0  |  Y  |  Y  |  Web Services  |    |  Web Coverage Service  |  eoxserver|https://eoxserver.readthedocs.org/| |EOxServer
-Y  |  mapproxy  ||  Y  |  Y  |  Web Services  |    |  Proxy WMS & tile services  |  mapproxy| | |MapProxy
 Y  |  ncWMS  ||  Y  |  Y  |  Web Services  |    |  Web Map Service  |  ncwms|https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/| |ncWMS
+Y  |  qgis_mapserver  ||  Y  |  Y  |  Web Services  |    |  Web Map Service  |  |http://www.qgis.org | |QGIS Server
 ######################| | | | | | | | | | |
 # Data Stores| | | | | | | | | | |
 ######################| | | | | | | | | | |
@@ -82,6 +82,7 @@ Y  |  liblas  |  1.8.1  |  Y  |  Y  |  Geospatial Libraries  |    |  LiDAR Data 
 ######################| | | | | | | | | | |
 # RETIERED| | | | | | | | | | |
 ######################| | | | | | | | | | |
+N  |  pywps  |  4.0.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  pyWPS| |OSGeo_incubation|PyWPS
 N  |  52nWSS  |  retired  |  Y  |  Y  |    |6.5|  Web Security Service, retired after OSGeoLive 6.5  |  |http://52north.org/security| |52°North WSS
 N  |  atlasstyler  |  retired  |  Y  |  Y  |    |6|  Style Editor, retired after OSGeoLive 6.0  |  Geopublishing|http://en.geopublishing.org/AtlasStyler| |AtlasStyler
 N  |  cartaro  |  retired  |  Y  |  Y  |    |10|  Geospatial CMS  |  |http://cartaro.org| |Cartaro
