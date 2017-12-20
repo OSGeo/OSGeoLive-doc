@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"POT-Creation-Date: 2017-12-14 13:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -47,11 +47,11 @@ msgstr ""
 "L'affichage des métriques requiert d'avoir une connexion Internet et "
 "JavaScript activé."
 
-#: ../../build/doc/metrics.rst:22
+#: ../../build/doc/metrics.rst:23
 msgid "Desktop GIS"
 msgstr "SIG Bureautique"
 
-#: ../../build/doc/metrics.rst:35
+#: ../../build/doc/metrics.rst:36
 msgid "Browser Facing GIS"
 msgstr "Interface SIG dans le navigateur"
 

@@ -41,16 +41,20 @@ set(OSGeoLiveDoc_SUBDIRS
 #---------------------------------------------
 
 foreach (dir ${OSGeoLiveDoc_SUBDIRS})
-    message(STATUS "   Adding directory ${dir}")
+    if (OSGeoLiveDoc_DEBUG)
+        message(STATUS "   Adding directory ${dir}")
+    endif()
     add_subdirectory(${dir})
 endforeach()
 
 foreach (f ${OSGeoLiveDoc_FILES})
-    message(STATUS "    Adding file ${f}")
+    if (OSGeoLiveDoc_VERBOSE_DEBUG)
+        message(STATUS "    Adding file ${f}")
+    endif()
     configure_file(${f} ${f})
 endforeach()
 
-file(COPY "images" DESTINATION "${CMAKE_CURRENT_BINARY_DIR}")
+add_subdirectory(images)
 
 #---------------------------------------------
 # Adding the scripts and executing
@@ -74,7 +78,7 @@ add_custom_command(
 #---------------------------------------------
 # Adding the sphinx subdirectories and files
 #---------------------------------------------
-configure_file("conf.py.in" "conf.py" @ONLY)
+configure_file("conf.py" "conf.py" @ONLY)
 add_subdirectory(_themes)
 add_subdirectory(_static)
 
@@ -104,7 +108,7 @@ if (LOCALE)
         "${CMAKE_CURRENT_BINARY_DIR}" 
         "${CMAKE_SOURCE_DIR}/locale/pot" 
 
-        COMMAND sphinx-intl update -d ${CMAKE_SOURCE_DIR}/locale
+        COMMAND sphinx-intl update -d ${CMAKE_SOURCE_DIR}/locale -l en
 
         COMMAND sphinx-intl update-txconfig-resources --locale-dir ${CMAKE_SOURCE_DIR}/locale --pot-dir ${CMAKE_SOURCE_DIR}/locale/pot --transifex-project-name osgeolive
 

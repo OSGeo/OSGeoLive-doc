@@ -14,7 +14,7 @@ Previously available applications
     |nologo| % Viking_          % `QuickStart <Viking_q_>`__     %   10.5 %  GPS Data Analysis and Viewer
     |nologo| % Ushahidi_        % `QuickStart <Ushahidi_q_>`__   %   10.5 %  Mapping and Timeline for events
     |nologo| % TinyOWS_         % `QuickStart <TinyOWS_q_>`__    %   10.5 %  WFS-T Service
-    |osgeocommunity| % PyWPS_   % `QuickStart <PyWPS_q_>`__      %   10.5 %  Web Processing Service
+    |osgeo_community| % PyWPS_   % `QuickStart <PyWPS_q_>`__      %   10.5 %  Web Processing Service
     |nologo| % osgEarth_        % `QuickStart <osgEarth_q_>`__   %   10.5 %  3D Terrain Rendering
     |nologo| % `Kosmo Desktop`_ % `QuickStart <Kosmo Desktop_q_>`__ %   10.5 %
     |nologo| % `WorldWind Java`_ % `QuickStart <WorldWind Java_q_>`__  %   10.5 % Desktop Virtual Globe
@@ -26,11 +26,11 @@ Previously available applications
     |nologo| % TileMill_       %  `QuickStart <TileMill_q_>`__   %   9.5 %   Styling and Publishing
     |nologo| % GpsDrive_       %  `QuickStart <GpsDrive_q_>`__   %   9.0 %   GPS Navigation
     |nologo| % `Map Window`_   %  `QuickStart <Map Window_q_>`__ %   8.0 %   Microsoft Windows based Desktop GIS.
-    |osgeoproject| % MapFish_  %  `QuickStart <MapFish_q_>`__  %   7.9 %   Web Mapping Framework
+    |osgeo_project| % MapFish_  %  `QuickStart <MapFish_q_>`__  %   7.9 %   Web Mapping Framework
     |nologo| % 52NorthWSS_     %  `QuickStart <52NorthWSS_>`__ %   6.5 %   Web Security Service
     |nologo| % Geopublisher_   %                               %   6.0 %   Catalogue
     |nologo| % AtlasStyler_    %                               %   6.0 %   Style Editor
-    |osgeoproject| % MapGuide_ %  `QuickStart <MapGuide_q_>`__ %   5.0 %   Web Service
+    |osgeo_project| % MapGuide_ %  `QuickStart <MapGuide_q_>`__ %   5.0 %   Web Service
 
 
 

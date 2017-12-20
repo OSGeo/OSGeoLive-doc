@@ -18,10 +18,13 @@ sub Usage {
     build_overview <old_version>";
 }
 
-my $DEBUG = "@OSGeoLiveDoc_DEBUG@";
+my $FULL_DEBUG = 0;
+my $DEBUG = 0;
+$FULL_DEBUG = 1 if "@OSGeoLiveDoc_VERBOSE_DEBUG@" =~ /ON/;
+$DEBUG = 1 if ("@OSGeoLiveDoc_DEBUG@" =~ /ON/) or $FULL_DEBUG;
 my $version = "@OSGeoLiveDoc_VERSION@";
 my $projects_info_file = '@CMAKE_SOURCE_DIR@/projects_info.csv';
-my $output_file = '@CMAKE_CURRENT_BINARY_DIR@/../metrics.rst';
+my $output_file = '@CMAKE_BINARY_DIR@/doc/metrics.rst';
 
 
 ######################################################
@@ -31,13 +34,15 @@ my $output_file = '@CMAKE_CURRENT_BINARY_DIR@/../metrics.rst';
 # Verify file exist
 die "ERROR: Failed to find: '$projects_info_file'\n" unless -f $projects_info_file;
 
+
 ######################################################
 # process section 
 ######################################################
-#
+
+print "\nBuilding the 'metrics.rst' file\n" if $DEBUG;
+
 my $configuration = read_and_parse_configuration($projects_info_file);
 
-print "\ngenerating 'metrics.rst' file\n" if $DEBUG;
 my $sections;
 $sections .= get_section("Desktop GIS", $configuration);
 $sections .= get_section("Browser Facing GIS", $configuration);
@@ -57,32 +62,39 @@ exit 0;
 # subroutines
 ######################################################
 
-# read and parse the .sig file and store the results in a hash
+# read and parse the configuration file and store the results in a hash
+# Input parameter: file name of the projects configuration
 sub read_and_parse_configuration {
+    # get the parameter and store it in the variable $file
     my $file = shift;
 
+    #Initialise hash Hash.
     my %hash = ();
 
     open(IN, $file) || die "ERROR: Failed to open '$file'\n";
+    my $line_number = 0;
 
+    # Reads the file line by line and stores it in $line
     while (my $line = <IN>) {
-        if ($line =~ /^#/) {
-            print "found comment: $line\n" if $DEBUG;
+        ++$line_number;
+        # keeping lines only for documentation
+        if (!($line =~ /^[Y|y]/)) {
             next;
         };
-        # Remove spaces from the line
+
+        # Remove trailing spaces from the line
         $line =~ s/\s*$//;
+
         my @values = split('\|', $line);
 
         #removes spaces of all elements
         s{^\s+|\s+$}{}g foreach @values;
 
-        if ($values[0] =~ "N") {
-            print "Not for documentation: $line\n" if $DEBUG;
-            next;
-        }
-        print "Section: '$values[5]' on line: $line\n" if $DEBUG;
+        # push the value in right section
+        # put the $line in the bucket that has the name stored in $values[5]
         push @{$hash{$values[5]}}, $line;
+
+        print "Section: '$values[5]' on line $line_number: $line\n" if $DEBUG;
     }
 
     close(IN);
@@ -94,7 +106,7 @@ sub read_and_parse_configuration {
 sub get_section {
     my ($section, $configuration) = @_;
 
-    my $contents;
+    my $contents = "";
 
     my $section_data = $configuration->{$section};
     if (not defined $section_data) {
@@ -134,7 +146,7 @@ sub write_script {
     || die "ERROR: failed to create '$output_file' : $!\n";
 
 
-    print "sections =\n$sections" if $DEBUG;
+    print "Sections = $sections\n" if $FULL_DEBUG;
     # write out the header and the commands to clean up the old extension
     print OUT <<EOF;
 
@@ -154,14 +166,16 @@ Viewing the metrics requires an Internet connection and Javascript to be enabled
 
 .. raw:: html
 
-  <script type="text/javascript" src="https://www.openhub.net/p/OSGeoLive/widgets/project_factoids_stats?format=js"></script><br/>
+  <script type='text/javascript' src='https://www.openhub.net/p/OSGeo-Live/widgets/project_factoids_stats?format=js'></script>
+  <br/>
 
-  $sections
+$sections
 
 
 EOF
 
     close(OUT);
+    print "Metrics can be found at $output_file\n" if $DEBUG;
 }
 
 
