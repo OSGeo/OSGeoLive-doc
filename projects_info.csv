@@ -5,7 +5,7 @@
 Y  |  qgis  |  2.14.14  |  Y  |  Y  |  Desktop GIS  |    |    |  qgis|http://www.qgis.org|OSGeo_project|QGIS
 y  |  grass  |  7.2.1  |  Y  |  Y  |  Desktop GIS  |    |    |  grass_gis| |OSGeo_project|GRASS GIS
 Y  |  gvsig  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  gvsig-desktop-2|http://www.gvsig.com/|OSGeo_project|gvSIG Desktop
-Y  |  udig  |2|  Y  |  Y  |  Desktop GIS  |    |    |  udig|http://udig.refractions.net/| |User-friendly Desktop Internet GIS
+Y  |  udig  |2|  Y  |  Y  |  Desktop GIS  |    |    |  udig|http://udig.refractions.net/| |User-friendly Desktop Internet GIS (uDig)
 Y  |  openjump  |1.11|  Y  |  Y  |  Desktop GIS  |    |    |  openjump_gis|http://www.openjump.org| |OpenJUMP GIS
 Y  |  saga  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  saga-gis|http://www.saga-gis.org| |SAGA
 ######################| | | | | | | | | | |
@@ -62,7 +62,7 @@ Y  |  ossim  |  1.8.20-3  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing
 ######################| | | | | | | | | | |
 #   Domain Specific GIS   | | | | | | | | | | |
 ######################| | | | | | | | | | |
-Y  |  zygrib  |  7.0.0  |  Y  |  Y  |  Domain Specific GIS  |    |    |  |http://www.zygrib.org| |zyGrib
+Y  |  zygrib  |  7.0.0  |  Y  |  Y  |  Domain Specific GIS  |    |  Weather Forecast Maps  |  |http://www.zygrib.org| |zyGrib
 ######################| | | | | | | | | | |
 #   Data| | | | | | | | | | |
 ######################| | | | | | | | | | |
