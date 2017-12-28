@@ -27,7 +27,7 @@ Y  |  deegree  |  3.3.20  |  Y  |  Y  |  Web Services  |    |  OGC Web Services 
 Y  |  ncWMS  ||  Y  |  Y  |  Web Services  |    |  Web Map Service  |  ncwms|https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/| |ncWMS
 Y  |  eoxserver  |  0.4.0  |  Y  |  Y  |  Web Services  |    |  Web Coverage Service  |  eoxserver|https://eoxserver.readthedocs.org/| |EOxServer
 Y  |  geonetwork  |  3.2.1  |  Y  |  Y  |  Web Services  |    |  Metadata Catalogue  |  geonetwork-opensource|http://geonetwork-opensource.org/|OSGeo_project|GeoNetwork
-Y  |  pycsw  |  2.0.3  |  Y  |  Y  |  Web Services  |    |  Metadata Catalogue  |  pycsw|http://pycsw.org/|OSGeo_project|pycsw  
+Y  |  pycsw  |  2.0.3  |  Y  |  Y  |  Web Services  |    |  Metadata Catalogue  |  pycsw|http://pycsw.org/|OSGeo_project|pycsw
 Y  |  mapproxy  ||  Y  |  Y  |  Web Services  |    |  Proxy WMS & tile services  |  mapproxy| |OSGeo_community |MapProxy
 Y  |  qgis_mapserver  ||  Y  |  Y  |  Web Services  |    |  Web Map Service  |  |http://www.qgis.org| |QGIS Server
 Y  |  istsos  |  2.3.1  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  istsos|http://istsos.org|OSGeo_community|istSOS
@@ -62,7 +62,7 @@ Y  |  ossim  |  1.8.20-3  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing
 ######################| | | | | | | | | | |
 #   Domain Specific GIS   | | | | | | | | | | |
 ######################| | | | | | | | | | |
-Y  |  zygrib  |  7.0.0  |  Y  |  Y  |  Domain Specific GIS  |    |    |  |http://www.zygrib.org| |sygrib
+Y  |  zygrib  |  7.0.0  |  Y  |  Y  |  Domain Specific GIS  |    |    |  |http://www.zygrib.org| |zyGrib
 ######################| | | | | | | | | | |
 #   Data| | | | | | | | | | |
 ######################| | | | | | | | | | |
@@ -80,7 +80,7 @@ Y  |  proj4  |  4.9.2  |  Y  |  Y  |  Geospatial Libraries  |    |  Coordinate R
 Y  |  liblas  |  1.8.1  |  Y  |  Y  |  Geospatial Libraries  |    |  LiDAR Data Access  |  liblas|http://liblas.org/| |libLAS
 Y  |  jts  |  NA  |  N  |  Y  |  Geospatial Libraries  |    |  Java Topology Suite  |  jts-topo-suite| | |JTS Topology Suite
 ######################| | | | | | | | | | |
-# RETIERED| | | | | | | | | | |
+# RETIRED| | | | | | | | | | |
 ######################| | | | | | | | | | |
 N  |  pywps  |  4.0.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  pyWPS| |OSGeo_incubation|PyWPS
 N  |  52nWSS  |  retired  |  Y  |  Y  |    |6.5|  Web Security Service, retired after OSGeoLive 6.5  |  |http://52north.org/security| |52°North WSS
