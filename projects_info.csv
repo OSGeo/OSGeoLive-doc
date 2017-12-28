@@ -5,9 +5,9 @@
 Y  |  qgis  |  2.14.14  |  Y  |  Y  |  Desktop GIS  |    |    |  qgis|http://www.qgis.org|OSGeo_project|QGIS
 y  |  grass  |  7.2.1  |  Y  |  Y  |  Desktop GIS  |    |    |  grass_gis| |OSGeo_project|GRASS GIS
 Y  |  gvsig  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  gvsig-desktop-2|http://www.gvsig.com/|OSGeo_project|gvSIG Desktop
-Y  |  saga  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  saga-gis|http://www.saga-gis.org| |SAGA
-Y  |  openjump  |1.11|  Y  |  Y  |  Desktop GIS  |    |    |  openjump_gis|http://www.openjump.org| |OpenJUMP GIS
 Y  |  udig  |2|  Y  |  Y  |  Desktop GIS  |    |    |  udig|http://udig.refractions.net/| |User-friendly Desktop Internet GIS
+Y  |  openjump  |1.11|  Y  |  Y  |  Desktop GIS  |    |    |  openjump_gis|http://www.openjump.org| |OpenJUMP GIS
+Y  |  saga  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  saga-gis|http://www.saga-gis.org| |SAGA
 ######################| | | | | | | | | | |
 # Browser Facing GIS| | | | | | | | | | |
 ######################| | | | | | | | | | |
@@ -28,8 +28,8 @@ Y  |  ncWMS  ||  Y  |  Y  |  Web Services  |    |  Web Map Service  |  ncwms|htt
 Y  |  eoxserver  |  0.4.0  |  Y  |  Y  |  Web Services  |    |  Web Coverage Service  |  eoxserver|https://eoxserver.readthedocs.org/| |EOxServer
 Y  |  geonetwork  |  3.2.1  |  Y  |  Y  |  Web Services  |    |  Metadata Catalogue  |  geonetwork-opensource|http://geonetwork-opensource.org/|OSGeo_project|GeoNetwork
 Y  |  pycsw  |  2.0.3  |  Y  |  Y  |  Web Services  |    |  Metadata Catalogue  |  pycsw|http://pycsw.org/|OSGeo_project|pycsw  
-Y  |  mapproxy  ||  Y  |  Y  |  Web Services  |    |  Proxy WMS & tile services  |  mapproxy| | |MapProxy
-Y  |  qgis_mapserver  ||  Y  |  Y  |  Web Services  |    |  Web Map Service  |  |http://www.qgis.org|OSGeo_project|QGIS Server
+Y  |  mapproxy  ||  Y  |  Y  |  Web Services  |    |  Proxy WMS & tile services  |  mapproxy| |OSGeo_community |MapProxy
+Y  |  qgis_mapserver  ||  Y  |  Y  |  Web Services  |    |  Web Map Service  |  |http://www.qgis.org| |QGIS Server
 Y  |  istsos  |  2.3.1  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  istsos|http://istsos.org|OSGeo_community|istSOS
 Y  |  52nSOS  |  4.4.0  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  SensorObservationService|http://52north.org/sos| |52 North SOS
 Y  |  52nWPS  |  3.6.1  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  n52-wps|http://52north.org/wps| |52 North WPS
@@ -39,8 +39,8 @@ Y  |  zoo-project  |  1.6.0  |  Y  |  Y  |  Web Services  |    |  Web Processing
 ######################| | | | | | | | | | |
 Y  |  postgis  |  2.3.2  |  Y  |  Y  |  Data Stores  |    |  Spatial Database  |  postgis|http://postgis.net|OSGeo_project|PostGIS
 Y  |  spatialite  |  4.3.0a  |  Y  |  Y  |  Data Stores  |    |  Lightweight Database  |  spatialite|http://www.gaia-gis.it/gaia-sins/| |SpatiaLite
+Y  |  rasdaman  |  9.4.1  |  Y  |  Y  |  Data Stores  |    |  Multi-Dimensional Raster Database  |  rasdaman|http://www.rasdaman.org| OSGeo_incubation |Rasdaman
 Y  |  pgrouting  |  2.4.1  |  Y  |  Y  |  Data Stores  |    |  Routing for PostGIS  |  pgrouting|http://www.pgrouting.org/|OSGeo_community|pgRouting
-Y  |  rasdaman  |  9.4.1  |  Y  |  Y  |  Data Stores  |    |  Multi-Dimensional Raster Database  |  rasdaman|http://www.rasdaman.org| |Rasdaman
 ######################| | | | | | | | | | |
 # Navigation and Maps| | | | | | | | | | |
 ######################| | | | | | | | | | |
