@@ -1,0 +1,554 @@
+=================================================
+OSGeoLive
+=================================================
+
+.. revealjs:: OSGeoLive
+    :title-heading: h2
+    :subtitle: An Open Source Geospatial GNU/Linux Distribution
+    :subtitle-heading: h3
+
+        .. image:: ../_static/banner.png
+
+
+    .. rv_small::
+
+        Press "s" for slide notes, ESC to zoom out, SPACE / arrow keys to navigate.
+
+.. revealjs::
+
+    .. revealjs:: What is OSGeoLive?
+
+        .. image:: ../images/projects/osgeolive/osgeolive_menu.png
+
+    .. revealjs:: Components on OSGeoLive
+
+        * 50+ Open Source Geospatial Applications.
+        * Sample Datasets.
+        * Consistent Overviews & Quickstarts.
+        * Translations.
+
+
+        .. rv_note::
+            Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+
+    .. revealjs:: DVD / USB / Virtual Machine
+
+        .. image:: ../images/presentation/virtual_machine_usb.png
+            :height: 400
+
+        .. rv_note::
+            OSGeoLive can also be run from a DVD, USB flash drive, installed into a Virtual Machine, or installed onto your hard drive.
+            This presentation provides a lightning overview of all applications installed on OSGeoLive, which effectively gives you a birds eye view of the breadth of robust GeoSpatial Open Source Software available.
+
+    .. revealjs:: Quality Criteria
+
+        * Established, stable, working software
+        * Active community
+        * `Metrics <https://live.osgeo.org/en/metrics.html>`__
+
+        .. image:: ../images/presentation/metrics.png
+            :height: 400
+
+        .. rv_note::
+            OSGeoLive helps new users quickly find quality GIS applications from the myriads of options.
+            OSGeoLive only accepts established open source projects, and users can then verify the application works by running it on OSGeoLive.
+            This slide shows the OpenHUB metrics page, which shows the community size and activity.
+
+    .. revealjs:: Production & Marketing Pipeline
+
+        .. image:: ../images/presentation/pipeline.png
+            :height: 400
+
+        .. rv_note::
+            * OSGeoLive provides a production and marketing pipeline, providing value to a whole range of user groups.
+            * Developers who package and support testing of their applications on OSGeoLive get their applications marketed at conferences, workshops and on the web.
+            * Document writers get their documentation reviewed, translated into multiple languages and published.
+            * Translators are provided with quality source documentation, and a publish through OSGeo web pages.
+            * Conference organisers welcome presentations which explain the breadth of Geospatial Open Source, often having a VIP present a derivative of the OSGeoLive during keynote presentations, and adding value to delegates by giving away an OSGeoLive DVD or USB.
+            * Geospatial educators and workshop presenters use the stable OGeo-Live Virtual Machine or USB for practical class room settings.
+            * Which all leads to Architects and Developers discovering, and then incorporating Open Source Geospatial software in their projects.
+
+    .. revealjs:: Reboot for 11.0</h2>
+
+        * Reduced scope of OSGeoLive 11.0 release
+        * Reviewed all projects, focusing on quality of documentation
+        * Rebaselined to focus on leading applications
+        * Dropped:
+
+          * Windows-only applications/installers
+          * Overviews of OGC Standards
+          * Quickstarts of Libraries
+          * Some applications that did not meet our review criteria
+
+        * Only support a 64 bit distribution (32 bit is built but not officially supported)
+
+        .. rv_note::
+
+            In OSGeoLive Version 11.0 no new projects were included. We reduced our scope in order to meet the level of effort provided by our volunteers.
+
+    .. revealjs:: What is new in 11.0</h2>
+
+        * Re-based to Lubuntu 16.04.2
+        * Updated core packages based on DebianGIS
+        * Major documentation updates
+        * Work being done to move translations to Transifex for 12.0
+        * Embraced OSGeo re-branding
+        * Full `changelog <href="https://github.com/OSGeo/OSGeoLive/blob/master/CHANGES.txt">`__
+        * Updated packages will soon land in UbuntuGIS
+
+        .. rv_note::
+            In OSGeoLive Version 11.0 we updated many existing applications.
+
+
+
+
+.. revealjs::
+
+    .. revealjs:: Open Source Geospatial Foundation (OSGeo)
+        :title-heading: h2
+
+        .. image:: ../images/logos/OSGeo_compass_with_text_square.png
+            :alt: OSGeo
+            :height: 300
+            :target: http://osgeo.org
+
+        .. rv_note::
+            Set up in 2006, the OSGeo Foundation is non-profit for the geospatial community which fosters an open approach to software, standards, education, research and data.
+            It supports with advocacy, events, organisation and legal matters.
+            OSGeoLive derives its name from the Open Source GeoSpatial Foundation, or OSGeo for short.
+
+    .. revealjs:: OSGeo
+        :title-heading: h2
+
+        Non Profit for geospatial community, fostering:
+
+        * Free and Open Source Software
+        * Open Standards
+        * Open Education
+        * Open Research
+        * Open Data
+ 
+    .. revealjs:: An Open Source Geospatial GNU/Linux Distribution
+
+        .. image:: ../images/presentation/gnu.png
+            :height: 300
+            :alt: "GNU"
+
+
+    .. revealjs:: OGC Standards
+
+        * Interoperability
+        * Future Proof
+        * Return on Investment
+
+        |
+
+        .. image:: ../images/presentation/ogc.png
+            :height: 300px
+            :align: center
+
+
+
+        .. rv_note::
+            * Open Source applications have a reputation for excellent standards compliance. Notably, the OGC uses Open Source projects when defining reference implementations for standards.
+            * OSGeoLive includes overviews of some of the key OGC standards in simple language so they can be understood by people without a technical background.
+            * Building Spatial Data Infrastructures using standards, facilitates interoperability between proprietary and open source applications.
+            * It facilitates sharing data between agencies.
+            * It reduces long term costs associated with data maintenance,
+            * and it reduces long term project risk by avoiding dependence upon proprietary formats or products, thus avoiding vendor lock-in.
+
+
+.. revealjs::
+
+    .. revealjs:: Desktop GIS
+        :title-heading: h3
+
+        General GIS viewing, editing, and analysis on the desktop
+
+        .. rv_small::
+
+            =====================  =================  ==============
+            =====================  =================  ==============
+            QGIS                   GRASS GIS          gvSIG
+            |qgis_logo|            |grass_logo|       |gvsig_logo|
+            =====================  =================  ==============
+
+            =====================  =================  ==============
+            =====================  =================  ==============
+            uDig                   OpenJUMP           SAGA
+            |udig_logo|            |openjump_logo|    |saga_logo|
+            =====================  =================  ==============
+
+
+        .. |qgis_logo| image:: ../images/projects/qgis/logo_qgis.png
+            :height: 150px
+        .. |grass_logo| image:: ../images/projects/grass/logo_grass.png
+            :height: 150px
+        .. |gvsig_logo| image:: ../images/projects/gvsig/logo_gvsig.png
+            :height: 150px
+        .. |udig_logo| image:: ../images/projects/udig/logo_udig.png
+            :height: 150px
+        .. |openjump_logo| image:: ../images/projects/openjump/logo_openjump.png
+            :height: 150px
+        .. |saga_logo| image:: ../images/projects/saga/logo_saga.png
+            :height: 150px
+
+
+    .. revealjs:: QGIS
+
+        .. image:: ../images/projects/qgis/qgis_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            Quantum GIS, or QGIS, is a very popular user-friendly GIS client which allows you to visualize, manage, edit, analyse data, and compose printable maps.
+            It supports numerous vector, raster and database formats, and boasts many free toolboxes, including a user-friendly interface to many of the advanced GRASS analysis modules.
+
+
+    .. revealjs:: GRASS GIS
+
+        .. image:: ../images/projects/grass/grass_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            GRASS GIS provides powerful raster, vector, and geospatial processing.
+            It includes tools for spatial modeling, visualization of raster and vector data, management and analysis of geospatial data, and the processing of satellite and aerial imagery.
+            It also provides the capability to produce sophisticated presentation graphics and hardcopy maps.
+            It includes over 400 built-in analysis modules and 100 community supplied modules and toolboxes.
+            With over 30 years of continuous development, GRASS is both the oldest and largest Open Source GIS available.
+            It is capable of very powerful analysis, but may not be as simple to get started with as other offerings with more of a geodata viewer focus.
+            Many Open Source projects make use of GRASS's algorithms.
+
+    .. revealjs:: gvSIG
+
+        .. image:: ../images/projects/gvsig/gvsig_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            In 2003, the Ministry for Transport and Infrastructure in Valencia, Spain, started migrating all their systems to Open Source Software.
+            Part of this migration involved the development of gvSIG to replace ESRI desktop applications in use.
+            gvSIG is a desktop GIS application designed for capturing, storing, handling, analysing and deploying any kind of referenced geographic information in order to solve complex management and planning problems.
+            gvSIG is available in over 20 languages, and has a very strong following amongst Spanish speakers
+
+    .. revealjs:: uDig
+
+        .. image:: ../images/projects/udig/udig_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            uDig is a java-based spatial data viewer and editor, which is based upon the geotools library and powerful Eclipse development environment,
+            making uDig a common choice for developers wishing to integrate mapping into java based applications.
+
+    .. revealjs:: OpenJUMP
+
+        .. image:: ../images/projects/openjump/openjump_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            OpenJUMP is a spin-off from the original JUMP project, which was Open Source but didn't accept improvements and updates from the community.
+            This resulted in over 10 forks of the original code base. OpenJUMP provided a merging back together of many of these forks. 
+            OpenJUMP is an easy to use and powerful deskstop GIS that enables users to edit, analyse, and display geographic data.
+            It is particularly good at conflation, which involves aligning a feature which is shown in different locations on two different map layers.
+
+    .. revealjs:: SAGA
+
+        .. image:: ../images/projects/saga/saga_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            SAGA, or the System for Automated Geoscientific Analyses, is a GIS used for editing and analysing spatial data.
+            It includes a large number of modules for the analysis of vector, table, grid and image data.
+            Among others, the package includes modules for geostatistics, image classification, projections, simulation of dynamic processes like hydrology, landscape development and terrain analysis.
+            The functionality can be accessed through a GUI, the command line or by using the C++ programming interface.
+
+.. revealjs::
+
+    .. revealjs:: Browser Facing GIS
+        :title-heading: h3
+
+        General GIS viewing, editing and analysis in the browser
+
+        .. rv_small::
+
+            =====================  =================  ===============  ===============
+            =====================  =================  ===============  ===============
+            OpenLayers             Leaflet            Cesium           GeoNode
+            |logo_openlayers|      |logo_leaflet|     |logo_cesium|    |logo_geonode|
+            =====================  =================  ===============  ===============
+
+            =====================  =================  ===============
+            =====================  =================  ===============
+            mapbender              GeoMoose           GeoMajas
+            |logo_mapbender|       |logo_geomoose|    |logo_geomajas|
+            =====================  =================  ===============
+
+
+        .. |logo_openlayers| image:: ../images/projects/openlayers/logo_openlayers.png
+        .. |logo_leaflet| image:: ../images/projects/leaflet/logo_leaflet.png
+        .. |logo_cesium| image:: ../images/projects/cesium/logo_cesium.png
+        .. |logo_geonode| image:: ../images/projects/geonode/logo_geonode.png
+        .. |logo_mapbender| image:: ../images/projects/mapbender/logo_mapbender.png
+        .. |logo_geomoose| image:: ../images/projects/geomoose/logo_geomoose.png
+        .. |logo_geomajas| image:: ../images/projects/geomajas/logo_geomajas.png
+
+
+    .. revealjs:: OpenLayers
+
+        .. image:: ../images/projects/openlayers/openlayers_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            OpenLayers provides an extensive set of browser-based mapping tools and widgets, similar to Google Maps.
+            All functionality runs inside the web browser, which makes OpenLayers easy to install, without any server-side dependencies.
+
+
+    .. revealjs:: Leaflet
+
+        .. image:: ../images/projects/leaflet/leaflet_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            Leaflet is a light weight JavaScript library for browser based application, designed to work across a wide range of browsers and mobile platforms.
+                             It is designed with simplicity, performance and usability in mind.
+
+    .. revealjs::Cesium 
+
+        .. image:: ../images/projects/cesium/cesium_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            Cesium is a JavaScript library for creating 3D globes and 2D maps in a web browser without any plugins.
+            It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for dynamic-data visualization.
+
+    .. revealjs:: GeoNode 
+
+        .. image:: ../images/projects/geonode/geonode_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            GeoNode is a Content Management System for geospatial data which provides creation, sharing, and collaborative use of geospatial data.
+            Datasets can be uploaded, maps and metadata can be edited and published, and user ratings and comments can be captured.
+
+    .. revealjs:: Mapbender 
+
+        .. image:: ../images/projects/mapbender/mapbender_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            Mapbender is a web-based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services.
+            Mapbender allows users to create customised browser clients from a wide range of widgets with minimal programming.
+            Widgets integrate with server functionality to provide advanced functionality like security proxying, digitizing, auto snapping and more.
+            The Mapbender client side is based on JavaScript and jQuery widgets. The server side is implemented in PHP and PostGIS.
+
+    .. revealjs:: Geomoose 
+
+        .. image:: ../images/projects/geomoose/geomoose_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            GeoMOOSE is a mapping framework built upon OpenLayers and MapServer which is useful for managing spatial and non-spatial data within county, city and municipal officesi, from which GeoMoose originated.
+            It provides services for viewing and organising many layers, selection operations and dataset searches.
+
+    .. revealjs:: Geomajas 
+
+        .. image:: ../images/projects/geomajas/geomajas_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            Geomajas provides a wide range of spatial tools in a thin browser mapping client which integrates into the powerful server-side, java- based geotools library for processing.
+            This means Geomajas applications can provide very powerful functionality in the browser and still be performant.
+
+
+.. revealjs::
+
+    .. revealjs:: Browser Facing GIS
+        :title-heading: h3
+
+        .. rv_small::
+
+            Publishing spatial data to the internet
+
+
+            =====================  =================  ===============  ==================
+            =====================  =================  ===============  ==================
+            GeoServer              MapServer          deegree           ncWMS
+            |logo_geoserver|       |logo_mapserver|   |logo_deegree|    |logo_ncWMS|
+            =====================  =================  ===============  ==================
+
+            =====================  =================  ===============  ==================
+            =====================  =================  ===============  ==================
+            EOxServer              GeoNetwork         pycsw            MapProxy
+            |logo_eoxserver|       |logo_geonetwork|  |logo_pycsw|     |logo_mapproxy|
+            =====================  =================  ===============  ==================
+
+            =====================  =================  ===============  ==================
+            =====================  =================  ===============  ==================
+            QGIS Server            istSOS             52North WPS/SOS  Zoo Project
+            |logo_qgis_mapserver|  |logo_istsos|      |logo_52nSOS|    |logo_zoo-project|
+            =====================  =================  ===============  ==================
+
+
+
+        .. |logo_geoserver| image:: ../images/projects/geoserver/logo_geoserver.png
+           :height: 80px
+        .. |logo_mapserver| image:: ../images/projects/mapserver/logo_mapserver.png
+           :height: 80px
+        .. |logo_deegree| image:: ../images/projects/deegree/logo_deegree.png
+        .. |logo_ncWMS| image:: ../images/projects/ncWMS/logo_ncWMS.png
+           :height: 80px
+        .. |logo_eoxserver| image:: ../images/projects/eoxserver/logo_eoxserver.png
+           :height: 80px
+        .. |logo_geonetwork| image:: ../images/projects/geonetwork/logo_geonetwork.png
+           :height: 80px
+        .. |logo_pycsw| image:: ../images/projects/pycsw/logo_pycsw.png
+           :height: 80px
+        .. |logo_mapproxy| image:: ../images/projects/mapproxy/logo_mapproxy.png
+           :height: 80px
+        .. |logo_qgis_mapserver| image:: ../images/projects/qgis_mapserver/logo_qgis_mapserver.png
+           :height: 80px
+        .. |logo_istsos| image:: ../images/projects/istsos/logo_istsos.png
+           :height: 80px
+        .. |logo_52nSOS| image:: ../images/projects/52nSOS/logo_52nSOS.png
+           :height: 80px
+        .. |logo_zoo-project| image:: ../images/projects/zoo-project/logo_zoo-project.png
+           :height: 80px
+
+
+    .. revealjs:: geoserver 
+
+        .. image:: ../images/projects/geoserver/geoserver_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            GeoServer is one of the more popular Web Service applications, providing Web Map Service, Web Feature Services, Web Coverage Services, Web Processing Services, Tile Caching and more.
+            GeoServer comes with a nice browser-based management interface and connects to multiple data sources at the back end.
+
+
+    .. revealjs:: mapserver 
+
+        .. image:: ../images/projects/mapserver/mapserver_screenshot.png
+           :height: 600
+
+        .. rv_note::
+                Mapserver is one of the earliest Open Source Web Map Services.
+                The codebase is very mature and it retains a large development community.
+                It serves data through Web Map Service images, Web Feature Service vectors, a Web Coverage Service and Sensor Observation Services.
+                It connects to a wide range of databases and data stores.
+                It is written in C and has connections for a number of other languages.
+
+
+
+    .. revealjs:: deegree 
+
+        .. image:: ../images/projects/deegree/deegree_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            deegree  is another robust application which has claimed the title of supporting the most comprehensive set of OGC Web Services in free and open source software,
+            ranging from a transactional Web Feature Service to three-dimensional data display in a Web Terrain Service and many more!
+
+    .. revealjs:: ncWMS 
+
+        .. image:: ../images/projects/ncWMS/ncWMS_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            ncWMS publishes multi-dimensional data, such as environmental and weather data, as an OGC compliant Web Map Service.
+
+
+    .. revealjs:: eoxserver 
+
+        .. image:: ../images/projects/eoxserver/eoxserver_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            EOxServer is a system for accessing large amounts of satellite and earth observation data, and selecting subsets in space and time.
+
+
+    .. revealjs:: geonetwork 
+
+        .. image:: ../images/projects/geonetwork/geonetwork_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            GeoNetwork provides a catalogue, which is used to create, maintain and and search metadata about specific datasets.
+            Metadata is "data about data", storing such things as creation-date, author, title, area-of-interest, and so on. Metadata is usually encoded as XML files, following international standards.
+
+
+    .. revealjs:: pycsw 
+
+        .. image:: ../images/projects/pycsw/pycsw_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            pycsw is a python based metadata catalogue and the reference implementation of OGC CSW.
+            It is simple to setup within an Apache web server, and it can be configured to access metadata as XML files in a filesystem, or as records stored in a database.
+
+
+
+    .. revealjs:: mapproxy 
+
+        .. image:: ../images/projects/mapproxy/mapproxy_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            Like the GeoWebCache tiling functionality in GeoServer, MapProxy tiles maps from map services, and stores them in a local cache for fast access.
+
+
+    .. revealjs:: qgis_mapserver 
+
+        .. image:: ../images/projects/qgis_mapserver/qgis_mapserver_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            QGIS Server provides a web map service based on the popular QGIS desktop application.
+            The close integration with QGIS means desktop maps can easily be exported to web maps by copying the QGIS project file into the server directory,
+            and a nice touch is that the web maps look exactly the same as they do in the desktop.
+
+
+
+    .. revealjs:: istSOS 
+
+        .. image:: ../images/projects/istsos/istsos_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            stSOS is sensor data management tool that allows collection, maintenance and publishing of monitoring observations using the Open Geospatial Consortium (OGC) Sensor Observation Service (SOS) standard.
+
+
+    .. revealjs:: 52nSOS
+
+        .. image:: ../images/projects/52nSOS/52nSOS_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            The 52°North Sensor Observation Service (SOS) provides a standards based interface for reading of live and archived data captured by in-situ and remote sensors.
+            Sensors are things like a camera on a satellite or a water level meter in a stream.
+
+
+
+
+    .. revealjs:: 52nWPS
+
+        .. image:: ../images/projects/52nWPS/52nWPS_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            The 52°North WPS is a java-based Web Processing Service which provides web access to geospatial processing algorithms provided by Sextane, ArcGIS Server, GRASS or custom developed functions.
+            Algorithms may be as simple as determining the difference in influenza cases between two different seasons, or as complicated as a global climate change model.
+
+
+
+
+
+    .. revealjs:: zoo-project 
+
+        .. image:: ../images/projects/zoo-project/zoo-project_screenshot.png
+           :height: 600
+
+        .. rv_note::
+            ZOO Project provides a developer-friendly Web Processing Service framework for creating and chaining Web Processing Services.
+            A Web Processing Service provides web access to functions which run spatial algorithms.
+            Zoo Project supports many programming languages and comes with C and Python examples.
+
+
+
