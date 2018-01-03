@@ -3,6 +3,7 @@
 set(LIST
     "abstract.txt"
     "index.html"
+    "start_presentation.txt"
     "workshop_abstract.txt")
 
 foreach (f ${LIST} )
@@ -12,4 +13,5 @@ foreach (f ${LIST} )
     configure_file("${f}" "${f}")
 endforeach()
 
+add_subdirectory(scripts)
 

@@ -180,19 +180,6 @@ OSGeoLive
             =====================  =================  ==============
 
 
-        .. |qgis_logo| image:: ../images/projects/qgis/logo_qgis.png
-            :height: 150px
-        .. |grass_logo| image:: ../images/projects/grass/logo_grass.png
-            :height: 150px
-        .. |gvsig_logo| image:: ../images/projects/gvsig/logo_gvsig.png
-            :height: 150px
-        .. |udig_logo| image:: ../images/projects/udig/logo_udig.png
-            :height: 150px
-        .. |openjump_logo| image:: ../images/projects/openjump/logo_openjump.png
-            :height: 150px
-        .. |saga_logo| image:: ../images/projects/saga/logo_saga.png
-            :height: 150px
-
 
     .. revealjs:: QGIS
 
