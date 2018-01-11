@@ -101,3 +101,5 @@ Details
 
 @QUICKSTART_pycsw@
 
+.. presentation-note
+    pycsw is a python based metadata catalogue and the reference implementation of OGC CSW. It is simple to setup within an Apache web server, and it can be configured to access metadata as XML files in a filesystem, or as records stored in a database.
