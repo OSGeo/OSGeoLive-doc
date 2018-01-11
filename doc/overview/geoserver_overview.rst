@@ -86,3 +86,8 @@ Details
 
 @QUICKSTART_geoserver@
 
+.. presentation-note
+    GeoServer is one of the more popular Web Service applications, providing Web Map Service, Web Feature Services, Web Coverage Services, Web Processing Services, Tile Caching and more.
+    GeoServer comes with a nice browser-based management interface and connects to multiple data sources at the back end.
+
+
