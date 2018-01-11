@@ -103,3 +103,7 @@ Details
 
 @QUICKSTART_leaflet@
 
+    .. presentation-note
+    Leaflet is a light weight JavaScript library for browser based application, designed to work across a wide range of browsers and mobile platforms.
+    It is designed with simplicity, performance and usability in mind.
+    
