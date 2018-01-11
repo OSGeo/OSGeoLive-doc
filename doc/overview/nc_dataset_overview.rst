@@ -67,3 +67,5 @@ Details
 
 @QUICKSTART_nc_dataset@
 
+.. presentation-note
+    The North Carolina dataset bundled with OSGeoLive is a good educational dataset, providing raster data, vector data, a watershed model, elevation maps, landuse and landcover, LANDSAT7 imagery and more.
