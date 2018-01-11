@@ -80,3 +80,8 @@ Details
 **Download Page:** http://sourceforge.net/projects/jump-pilot/files/ 
 
 @QUICKSTART_openjump@
+
+    .. presentation-note
+    OpenJUMP is a spin-off from the original JUMP project, which was Open Source but didn't accept improvements and updates from the community. This resulted in over 10 forks of the original code base. OpenJUMP provided a merging back together of many of these forks. 
+    OpenJUMP is an easy to use and powerful deskstop GIS that enables users to edit, analyse, and display geographic data. It is particularly good at conflation, which involves aligning a feature which is shown in different locations on two different map layers.
+
