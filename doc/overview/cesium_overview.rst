@@ -37,7 +37,7 @@ Core Features
   * Control the camera and create flight paths.
   * Use standard widgets to control animation time, select imagery layers, and zoom to a location.
 
-* One API, Three Views: 
+* One API, Three Views:
 
   * Cesium supports a 3D globe, 2D map, and 2.5D Columbus View with the same API.
 
@@ -60,6 +60,6 @@ Details
 
 @QUICKSTART_cesium@
 
-    .. presentation-note
+.. presentation-note
     Cesium is a JavaScript library for creating 3D globes and 2D maps in a web browser without any plugins. It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for dynamic-data visualization.
 

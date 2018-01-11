@@ -76,5 +76,5 @@ Details
 
 @QUICKSTART_openlayers@
 
-    .. presentation-note
+.. presentation-note
     OpenLayers provides an extensive set of browser-based mapping tools and widgets, similar to Google Maps. All functionality runs inside the web browser, which makes OpenLayers easy to install, without any server-side dependencies.
