@@ -50,3 +50,5 @@ Details
 
 @QUICKSTART_mapnik@
 
+.. presentation-note
+    Mapnik is a toolkit for rendering beautiful maps, with clean, soft edges for features provided by quality anti-aliasing graphics, also intelligent label placement, and scalable, SVG symbolisation. Most famously, mapnik is used to render the Open Street Map layers.
