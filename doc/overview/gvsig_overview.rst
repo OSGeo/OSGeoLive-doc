@@ -104,4 +104,10 @@ Details
 .. _gvSIG: http://www.gvsig.com
 
 @QUICKSTART_gvsig@
+    
+    .. presentation-note
+    In 2003, the Ministry for Transport and Infrastructure in Valencia, Spain, started migrating all their systems to Open Source Software. Part of this migration involved the development of gvSIG to replace ESRI desktop applications in use.</p>
+    gvSIG is a desktop GIS application designed for capturing, storing, handling, analysing and deploying any kind of referenced geographic information in order to solve complex management and planning problems.</p>
+    gvSIG is available in over 20 languages, and has a very strong following amongst Spanish speakers.</p>
+    
 
