@@ -207,16 +207,21 @@ sub get_section {
 }
 
 sub get_note {
-    my ($slug) = =@_
-    $file= "../overview/overview_$slug.rst";
+    my ($slug) = $_[0];;
+    my $file= "@CMAKE_SOURCE_DIR@/doc/overview/$slug" . "_overview.rst";
 
     # Read the file and save contents
     open(IN, $file) || die "ERROR: Failed to open '$file'\n";
-    my  $string = <IN>;
+    my $string = "";
+    my $found  = false;   
+    while (<IN>) {
+        $found = if $_ =~ /^.*presentation-note/);
+        continue if !$found;
+        $string .= $_
+    }
     close IN;
-    
-    $string =~ s/^.. presentation-note//;
-    return $string
+    return $string;
+}
 
 
 
