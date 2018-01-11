@@ -153,6 +153,7 @@ sub get_section {
 
         my $slug = $values[1];
         my $name = $values[11];
+        my $note = get_note($slug);
 
         my $slide = "
     .. revealjs:: $name
@@ -162,7 +163,7 @@ sub get_section {
             :height: 600
 
         .. rv_note::
-            Note \n\n
+            Note $note\n\n
 ";
         $slides .= $slide;
 
@@ -204,6 +205,19 @@ sub get_section {
     $contents .= "\n$tbl_info\n\n";
     return "$contents\n$slides";
 }
+
+sub get_note {
+    my ($slug) = =@_
+    $file= "../overview/overview_$slug.rst";
+
+    # Read the file and save contents
+    open(IN, $file) || die "ERROR: Failed to open '$file'\n";
+    my  $string = <IN>;
+    close IN;
+    
+    $string =~ s/^.. presentation-note//;
+    return $string
+
 
 
 sub cleanup {
