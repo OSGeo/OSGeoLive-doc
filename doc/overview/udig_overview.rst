@@ -79,3 +79,6 @@ Details
 
 @QUICKSTART_udig@
 
+.. presentation-note
+    uDig is a java-based spatial data viewer and editor, which is based upon the geotools library and powerful Eclipse development environment, making uDig a common choice for developers wishing to integrate mapping into java based applications.
+

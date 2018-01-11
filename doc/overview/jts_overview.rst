@@ -65,3 +65,5 @@ Details
 
 @QUICKSTART_jts@
 
+.. presentation-note
+    JTS, or Java Topology Suite, is a java library of spatial predicates and functions for processing geometries. It is used by most java based open source geospatial applications. It provides a complete, consistent, and robust implementation of fundamental algorithms for processing linear geometry on the 2-dimensional Cartesian plane.

@@ -87,6 +87,6 @@ Details
 
 @QUICKSTART_qgis@
 
-    .. presentation-note
+.. presentation-note
     Quantum GIS, or QGIS, is a very popular user-friendly GIS client which allows you to visualize, manage, edit, analyse data, and compose printable maps. It supports numerous vector, raster and database formats, and boasts many free toolboxes, including a user-friendly interface to many of the advanced GRASS analysis modules.
 

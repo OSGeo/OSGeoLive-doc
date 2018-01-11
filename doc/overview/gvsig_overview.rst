@@ -1,6 +1,6 @@
 :Author: Jorge Sanz
 :Author: Manuel Madrid
-:Author: Mario Carrera 
+:Author: Mario Carrera
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos, OSGeo
 :Version: osgeolive11.0
@@ -59,11 +59,11 @@ Core Features
   * export, clipping
   * look up tables, histogram
   * filters, vectorization
-  * overviews and regions of interest management 
+  * overviews and regions of interest management
 
-* 3D View 
+* 3D View
 
-* Other features: 
+* Other features:
 
   * Scripting support (for both vector and raster data)
   * Powerful reprojection engine via PROJ4
@@ -71,10 +71,10 @@ Core Features
   * Map sheets composer
   * Charts
   * Advanced symbology tools
-  * Advanced labelling tools 
-  * Publishing extension 
-  * Portable views 
-  * Customized distributions  
+  * Advanced labelling tools
+  * Publishing extension
+  * Portable views
+  * Customized distributions
 
 Implemented Standards
 --------------------------------------------------------------------------------
@@ -104,4 +104,10 @@ Details
 .. _gvSIG: http://www.gvsig.com
 
 @QUICKSTART_gvsig@
+
+.. presentation-note
+    In 2003, the Ministry for Transport and Infrastructure in Valencia, Spain, started migrating all their systems to Open Source Software. Part of this migration involved the development of gvSIG to replace ESRI desktop applications in use.
+    gvSIG is a desktop GIS application designed for capturing, storing, handling, analysing and deploying any kind of referenced geographic information in order to solve complex management and planning problems.
+    gvSIG is available in over 20 languages, and has a very strong following amongst Spanish speakers.
+
 
