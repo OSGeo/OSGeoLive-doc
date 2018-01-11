@@ -213,13 +213,15 @@ sub get_note {
     # Read the file and save contents
     open(IN, $file) || die "ERROR: Failed to open '$file'\n";
     my $string = "";
-    my $found  = false;   
+    my $found  = 0;   
     while (<IN>) {
-        $found = if $_ =~ /^.*presentation-note/);
-        continue if !$found;
-        $string .= $_
+        $found = 1 if  $_ =~ /^.*presentation-note/;
+        if ($found == 1) {
+            $string .= "        $_";
+        }
     }
     close IN;
+    $string =~ s/^.*presentation-note//;
     return $string;
 }
 
