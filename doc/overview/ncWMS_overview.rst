@@ -65,3 +65,5 @@ Details
 
 @QUICKSTART_ncWMS@
 
+.. presentation-note
+    ncWMS publishes multi-dimensional data, such as environmental and weather data, as an OGC compliant Web Map Service.
