@@ -44,3 +44,5 @@ Details
 
 @QUICKSTART_zygrib@
 
+.. presentation-note
+    zyGrib is a program to download and visualize weather forecast data from GRIB data sources, the standard format for storing meteorological forecast and historical data. Among other things, it supports playing forecast animations, plotting wind, pressure, temperature, humidity, rain, snow, cloud cover, dew point, and high altitude pressure data.
