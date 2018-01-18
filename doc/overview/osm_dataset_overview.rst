@@ -68,3 +68,7 @@ Details
 **Support:** https://www.openstreetmap.org/help
 
 @QUICKSTART_osm_dataset@
+
+.. presentation-note
+    OpenStreetMap is a crowd sourced map of the world which has grown to become one of the most detailed sources of local-scale map data available.
+    The OSGeoLive distribution includes a city sized extract of OpenStreetMap data.

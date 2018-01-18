@@ -51,3 +51,5 @@ Details
 
 @QUICKSTART_gmt@
 
+.. presentation-note
+    Generic Mapping Tools, or GMT is a collection of tools that allow users to manipulate (x,y) and (x,y,z) data sets for filtering, trend fitting, gridding, projecting, and so on. It supports the production of journal quality cartographic illustrations ranging from simple x-y plots through to contour maps to artificially illuminated surfaces and 3-D perspective views in black and white, gray tone, hachure patterns, and 24-bit color.

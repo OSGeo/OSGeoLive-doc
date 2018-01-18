@@ -55,3 +55,5 @@ Details
 
 @QUICKSTART_geomajas@
 
+.. presentation-note
+    Geomajas provides a wide range of spatial tools in a thin browser mapping client which integrates into the powerful server-side, java- based geotools library for processing. This means Geomajas applications can provide very powerful functionality in the browser and still be performant.

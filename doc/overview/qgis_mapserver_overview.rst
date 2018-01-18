@@ -53,3 +53,5 @@ Details
 
 @QUICKSTART_qgis_mapserver@
 
+.. presentation-note
+    QGIS Server provides a web map service based on the popular QGIS desktop application. The close integration with QGIS means desktop maps can easily be exported to web maps by copying the QGIS project file into the server directory, and a nice touch is that the web maps look exactly the same as they do in the desktop.

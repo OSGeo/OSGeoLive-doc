@@ -73,3 +73,5 @@ Details
 
 @QUICKSTART_jupyter@
 
+.. presentation-note
+    Jupyter notebooks contain a list of input and output cells which allow you to embed rich media into a document. They are a bit like a spreadsheet in that each cell can contain code or a formula, and a bit like a web page in that authors can create presentations using structured text along with embedded rich media. Input cells can include geospatial functions from other applications, such as gdal, R, and many others.

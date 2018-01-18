@@ -72,3 +72,5 @@ Details
 
 @QUICKSTART_52nWPS@
 
+.. presentation-note
+    The 52°North WPS is a java-based Web Processing Service which provides web access to geospatial processing algorithms provided by Sextane, ArcGIS Server, GRASS or custom developed functions. Algorithms may be as simple as determining the difference in influenza cases between two different seasons, or as complicated as a global climate change model.

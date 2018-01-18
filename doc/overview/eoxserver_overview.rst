@@ -84,3 +84,5 @@ Details
 
 @QUICKSTART_eoxserver@
 
+.. presentation-note
+    EOxServer is a system for accessing large amounts of satellite and earth observation data, and selecting subsets in space and time.

@@ -56,3 +56,6 @@ Details
 
 @QUICKSTART_ossim@
 
+.. presentation-note
+                The Open Source Software Image Map, often referred to as OSSIM, or Awesome Image Processing, is a high performance engine for remote sensing, image processing, geographical information systems and photogrammetry.
+                OSSIM has been funded by several US government agencies in the intelligence and defense communities. Designed as a series of high performance software libraries written in C++, it includes many command line utilities, GUI applications, and integrated systems.
