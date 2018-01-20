@@ -24,6 +24,7 @@ addons:
 install:
   - pip install git+https://github.com/sphinx-doc/sphinx@stable
   - pip install sphinx-intl
+  - pip install sphinxjp.themes.revealjs
   - sudo cpanm Text::SimpleTable::AutoWidth
 
 script: 
