@@ -10,7 +10,6 @@ set(OSGeoLiveDoc_FILES
     "contributors.rst"
     "index.rst"
     "contact.rst"
-    #"metrics.rst"
     "sponsors.rst"
     "welcome_message.txt"
     "copyright.rst"
@@ -27,9 +26,6 @@ set(OSGeoLiveDoc_FILES
 # Directories
 #---------------------
 set(OSGeoLiveDoc_SUBDIRS
-    #"WindowsInstallers"
-    #"MacInstallers"
-    "presentation"
     "quickstart"
     "overview"
     )
@@ -152,3 +148,4 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
     add_dependencies(doc "${target}")
 endforeach()
 
+add_subdirectory(presentation)

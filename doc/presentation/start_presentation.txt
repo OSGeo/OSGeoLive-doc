@@ -7,7 +7,7 @@ OSGeoLive
     :subtitle: An Open Source Geospatial GNU/Linux Distribution
     :subtitle-heading: h3
 
-        .. image:: ../_static/banner.png
+        .. image:: ../images/banner.png
 
 
     .. rv_small::
