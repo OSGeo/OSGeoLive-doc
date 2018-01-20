@@ -19,6 +19,7 @@ addons:
       - cmake
       - python-sphinx
       - graphviz
+      - cpanminus
 
 install:
   - pip install git+https://github.com/sphinx-doc/sphinx@stable
