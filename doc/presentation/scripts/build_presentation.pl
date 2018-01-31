@@ -22,6 +22,8 @@ my $version = "@OSGeoLiveDoc_VERSION@";
 my $projects_info_file = '@CMAKE_SOURCE_DIR@/projects_info.csv';
 my $output_file = '@CMAKE_CURRENT_BINARY_DIR@/../presentation.rst';
 my $start_file = '@CMAKE_CURRENT_BINARY_DIR@/../start_presentation.txt';
+my $section_notes_file = '@CMAKE_CURRENT_BINARY_DIR@/../middle_presentation.txt';
+my $end_file = '@CMAKE_CURRENT_BINARY_DIR@/../end_presentation.txt';
 
 
 ######################################################
@@ -31,6 +33,7 @@ my $start_file = '@CMAKE_CURRENT_BINARY_DIR@/../start_presentation.txt';
 # Verify file exist
 die "ERROR: Failed to find: '$projects_info_file'\n" unless -f $projects_info_file;
 die "ERROR: Failed to find: '$start_file'\n" unless -f $start_file;
+die "ERROR: Failed to find: '$end_file'\n" unless -f $end_file;
 
 ######################################################
 # process section
@@ -40,19 +43,22 @@ die "ERROR: Failed to find: '$start_file'\n" unless -f $start_file;
 print "Building the 'overview.rst' file\n" if $DEBUG;
 
 my $configuration = read_and_parse_configuration($projects_info_file);
+my $section_notes = read_and_parse_section_notes($section_notes_file);
+
 
 my $sections;
 my $logo_list;
 $sections .= read_start($start_file);
-$sections .= get_section('Desktop GIS', 'General GIS viewing, editing, and analysis on the desktop', $configuration);
-$sections .= get_section('Browser Facing GIS', 'General GIS viewing, editing and analysis in the browser', $configuration);
-$sections .= get_section('Web Services', 'Publishing spatial data to the internet', $configuration);
-$sections .= get_section('Data Stores', 'Storing spatial data', $configuration);
-$sections .= get_section('Navigation and Maps', ' ', $configuration);
-$sections .= get_section('Spatial Tools', 'Specific analysis tools', $configuration);
-$sections .= get_section('Domain Specific GIS', 'Applications targeted at a specific domain', $configuration);
-$sections .= get_section('Data', 'Spatial data sets', $configuration);
-$sections .= get_section('Geospatial Libraries', ' ', $configuration);
+$sections .= get_section('Desktop GIS', $section_notes->{'Desktop GIS'}, $configuration);
+$sections .= get_section('Browser Facing GIS', $section_notes->{'Browser Facing GIS'}, $configuration);
+$sections .= get_section('Web Services', $section_notes->{'Web Services'} , $configuration);
+$sections .= get_section('Data Stores', $section_notes->{'Data Stores'} , $configuration);
+$sections .= get_section('Navigation and Maps', $section_notes->{'Navigation and Maps'} , $configuration);
+$sections .= get_section('Spatial Tools', $section_notes->{'Spatial Tools'} , $configuration);
+$sections .= get_section('Domain Specific GIS', $section_notes->{'Domain Specific GIS'} , $configuration);
+$sections .= get_section('Data', $section_notes->{'Data'} , $configuration);
+$sections .= get_section('Geospatial Libraries',  $section_notes->{'Geospatial Libraries'}, $configuration);
+$sections .= read_start($end_file);
 write_script($sections);
 exit 0;
 
@@ -119,6 +125,57 @@ sub read_and_parse_configuration {
     return \%hash;
 }
 
+# read and parse the .sig file and store the results in a hash
+sub read_and_parse_section_notes {
+    # get the parameter and store it in the variable $file
+    my $file = shift;
+
+    #Initialise hash Hash.
+    my %hash;
+
+    # try to open the file or die
+    open(IN, $file) || die "ERROR: Failed to open '$file'\n";
+
+    my $line_number = 0;
+    my $current_section='';
+    my $current_note='';
+
+    # Reads the file line by line and stores it in $line,
+    while (my $line = <IN>) {
+
+        ++$line_number;
+
+        # Processing section
+        if ($line =~ /\.\. revealjs::/) {
+            # insert on hash
+            if (defined $current_section and $current_section ne '' and defined $current_note and $current_note ne '') {
+                $hash{$current_section} = $current_note;
+            }
+
+            $line =~ s/\.\. revealjs:: //;
+            $line =~ s/\s*$//;
+            $current_section = $line;
+            $current_note='';
+            next;
+        };
+
+        # Remove trailing spaces from the note
+        $line =~ s/\s*$//;
+        $current_note .= "\n    $line";
+    } # end of while loop
+
+    # close the file
+    close(IN);
+
+    # insert on hash
+    if (defined $current_section and $current_section ne '' and defined $current_note and $current_note ne '') {
+        $hash{$current_section} = $current_note;
+    }
+
+    # return collected data in a hash data type
+    return \%hash;
+}
+
 
 sub get_section {
     my ($section, $description, $configuration) = @_;
@@ -132,9 +189,6 @@ sub get_section {
     .. revealjs:: $section
         :title-heading: h3
   
-        .. rv_small::
-
-            $description
 ";
 
     my @name_line;
@@ -198,11 +252,13 @@ sub get_section {
 
     if ($max == 1) {
         $contents .= "              @name_line\n              @img_line\n\n";
+        $contents .= "$description";
         return "$contents\n$slides";
     }
     my $tbl_info = $tbl->draw;
     $tbl_info = cleanup($tbl_info);
     $contents .= "\n$tbl_info\n\n";
+    $contents .= "$description";
     return "$contents\n$slides";
 }
 

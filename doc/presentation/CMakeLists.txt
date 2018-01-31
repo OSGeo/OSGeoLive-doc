@@ -3,6 +3,8 @@
 set(LIST
     "abstract.txt"
     "start_presentation.txt"
+    "middle_presentation.txt"
+    "end_presentation.txt"
     "workshop_abstract.txt"
     )
 
@@ -25,6 +27,9 @@ add_custom_command(
     COMMAND ${PERL_EXECUTABLE} ${CMAKE_CURRENT_BINARY_DIR}/scripts/build_presentation.pl
 
     DEPENDS 
+    ${CMAKE_CURRENT_BINARY_DIR}/start_presentation.txt
+    ${CMAKE_CURRENT_BINARY_DIR}/middle_presentation.txt
+    ${CMAKE_CURRENT_BINARY_DIR}/end_presentation.txt
     ${CMAKE_CURRENT_BINARY_DIR}/scripts/build_presentation.pl
     ${CMAKE_SOURCE_DIR}/projects_info.csv
     )
@@ -37,19 +42,6 @@ configure_file("conf.py" "conf.py" @ONLY)
 
 set(SPHINX_DOCUMENTATION_DIR "${CMAKE_CURRENT_BINARY_DIR}")
 #set(SPHINX_BUILD_DIR "${CMAKE_CURRENT_BINARY_DIR}/../_build")
-
-
-# Internal variables.
-#option(LATEX_PAPER_SIZE
-#    "Set a4|letter (default=letter) paper size" "letter")
-
-#option(SPHINX_OPTS
-#    "Set Sphinx options (default are sphinx defaults)")
-
-#message(STATUS "SPHINX_OPTS=${SPHINX_OPTS}")
-
-#set(LATEX_PAPER_SIZE " -D latex_paper_size=${LATEX_PAPER_SIZE}")
-
 
 
 if (LOCALE)
