@@ -27,6 +27,10 @@ OSGeoLive
     .. revealjs:: What is OSGeoLive?
 
         .. image:: ../images/projects/osgeolive/osgeolive_menu.png
+        
+        .. rv_note::
+            no notes :)
+            
             
     .. revealjs:: Components on OSGeoLive
 
