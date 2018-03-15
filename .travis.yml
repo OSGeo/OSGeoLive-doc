@@ -22,7 +22,7 @@ addons:
       - cpanminus
 
 install:
-  - pip install git+https://github.com/sphinx-doc/sphinx@stable
+  - pip install sphinx==1.6.5
   - pip install sphinx-intl
   - pip install sphinxjp.themes.revealjs
   - sudo cpanm Text::SimpleTable::AutoWidth
