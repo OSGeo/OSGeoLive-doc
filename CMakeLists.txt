@@ -40,11 +40,11 @@ set(SPHINX_MINIMUM_VERSION "1.1")
 find_package(Sphinx REQUIRED)
 if (NOT SPHINX_FOUND)
     message(WARNING "Sphinx not found. Cannot generate documentation!")
-elseif (SPHINX_VERSION VERSION_LESS SPHINX_MINIMUM_VERSION)
-    message(WARNING "Your Sphinx version is too old!
-    This project requires Sphinx v1.0 or above to produce
-    proper documentation (you have v${SPHINX_VERSION}).
-    You will get output but it will have errors.")
+#elseif (SPHINX_VERSION VERSION_LESS SPHINX_MINIMUM_VERSION)
+#    message(WARNING "Your Sphinx version is too old!
+#    This project requires Sphinx v1.0 or above to produce
+#    proper documentation (you have v${SPHINX_VERSION}).
+#    You will get output but it will have errors.")
 endif()
 
 option(OSGeoLiveDoc_DEBUG

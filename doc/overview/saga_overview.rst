@@ -68,3 +68,6 @@ Details
 
 @QUICKSTART_saga@
 
+.. presentation-note
+    SAGA, or the System for Automated Geoscientific Analyses, is a GIS used for editing and analysing spatial data. It includes a large number of modules for the analysis of vector, table, grid and image data.
+    Among others, the package includes modules for geostatistics, image classification, projections, simulation of dynamic processes like hydrology, landscape development and terrain analysis. The functionality can be accessed through a GUI, the command line or by using the C++ programming interface.

@@ -39,3 +39,5 @@ Details
 
 @QUICKSTART_netcdf@
 
+.. presentation-note
+    A NetCDF dataset is provided, which includes annual maximum daily temperature, and annual maximum consecutive five-day precipitation, both historical and predicted from 1850 to 2100.

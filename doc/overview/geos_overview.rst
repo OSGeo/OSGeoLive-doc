@@ -53,3 +53,6 @@ Details
 **Support:** http://lists.osgeo.org/mailman/listinfo/geos-devel, http://www.osgeo.org/search_profile
 
 @QUICKSTART_geos@
+
+.. presentation-note
+    GEOS provides a port of JTS to C and C++. There are also bindings to Python and other languages.

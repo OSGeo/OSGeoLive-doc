@@ -57,3 +57,6 @@ Details
 
 @QUICKSTART_rasdaman@
 
+.. presentation-note
+    Rasdaman is a data store for storing, querying and analysing multi-dimensional raster data. It is used for datasets such as a thematic map of the world, where the colour of each pixel represents a different temperature. 
+    The multi-dimensional part means that each pixel can store multiple attributes, such as air pressure, humidity, and wind speed.

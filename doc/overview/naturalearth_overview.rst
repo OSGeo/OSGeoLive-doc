@@ -59,3 +59,7 @@ Details
 **Support:** http://naturalearthdata.com/forums/
 
 @QUICKSTART_naturalearth@
+
+.. presentation-note
+    And that is the focus of the Natural Earth project.
+    Natural Earth provides cartographers with public domain maps for creating small-scale world, regional, and country maps at a range of scales.  Both political and physical features are included in both vector and raster formats which align perfectly.

@@ -51,3 +51,5 @@ Details
 
 @QUICKSTART_mapslicer@
 
+.. presentation-note
+    MapSlicer provides a desktop interface for creating tiles, which can then be stored on the local filesystem or published via direct upload to any webserver or cloud storage. Browser viewing is provided by OpenLayers and Google Maps and can be easily customized.

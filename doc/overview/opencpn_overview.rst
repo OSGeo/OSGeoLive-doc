@@ -54,3 +54,6 @@ Details
 
 @QUICKSTART_opencpn@
 
+.. presentation-note
+    OpenCPN provides free navigation software for use at the helm of vessels of all types and sizes, as well as for offline route planning. It has been developed by a team of active sailors using real world conditions.
+    OpenCPN presents a user with the vessel's current position, speed and course superimposed upon accurate navigational charts, tide and current predictions. Information received by standard radio links describing the position and intent of other vessels can also be shown. Further, the user may enter routes and waypoints allowing interface to an external autopilot.

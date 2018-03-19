@@ -12,10 +12,10 @@
 
 Desktop GIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+
 OpenJUMP is an easy to use and powerful desktop GIS that enables users
 to display, edit, analyse and conflate geographic data.
-It comes in a CORE and a PLUS edition, with the latter adding lots of useful plugins. 
+It comes in a CORE and a PLUS edition, with the latter adding lots of useful plugins.
 OpenJUMP is excellent for data editing and rapid prototyping of GIS functions.
 
 @SCREENSHOT_openjump@
@@ -77,6 +77,11 @@ Details
 
 **Commercial Support:** http://ojwiki.soldin.de/index.php?title=Professional_Support_Page
 
-**Download Page:** http://sourceforge.net/projects/jump-pilot/files/ 
+**Download Page:** http://sourceforge.net/projects/jump-pilot/files/
 
 @QUICKSTART_openjump@
+
+.. presentation-note
+    OpenJUMP is a spin-off from the original JUMP project, which was Open Source but didn't accept improvements and updates from the community. This resulted in over 10 forks of the original code base. OpenJUMP provided a merging back together of many of these forks.
+    OpenJUMP is an easy to use and powerful deskstop GIS that enables users to edit, analyse, and display geographic data. It is particularly good at conflation, which involves aligning a feature which is shown in different locations on two different map layers.
+

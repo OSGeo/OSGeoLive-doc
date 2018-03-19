@@ -61,3 +61,5 @@ Details
 
 @QUICKSTART_liblas@
 
+.. presentation-note
+    libLAS is a C/C++ library for reading and writing the LAS LiDAR format. LiDAR, or Light Detection and Ranging, is a form of high precision range detection, much like radar or sonar, that uses laser light as the electromagnetic emission.

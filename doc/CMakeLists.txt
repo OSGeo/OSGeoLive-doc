@@ -10,7 +10,6 @@ set(OSGeoLiveDoc_FILES
     "contributors.rst"
     "index.rst"
     "contact.rst"
-    #"metrics.rst"
     "sponsors.rst"
     "welcome_message.txt"
     "copyright.rst"
@@ -27,9 +26,6 @@ set(OSGeoLiveDoc_FILES
 # Directories
 #---------------------
 set(OSGeoLiveDoc_SUBDIRS
-    #"WindowsInstallers"
-    #"MacInstallers"
-    "presentation"
     "quickstart"
     "overview"
     )
@@ -80,7 +76,6 @@ add_custom_command(
 #---------------------------------------------
 configure_file("conf.py" "conf.py" @ONLY)
 add_subdirectory(_themes)
-add_subdirectory(_static)
 
 set(SPHINX_DOCUMENTATION_DIR "${CMAKE_CURRENT_BINARY_DIR}")
 set(SPHINX_BUILD_DIR "${CMAKE_CURRENT_BINARY_DIR}/_build")
@@ -153,3 +148,4 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
     add_dependencies(doc "${target}")
 endforeach()
 
+add_subdirectory(presentation)

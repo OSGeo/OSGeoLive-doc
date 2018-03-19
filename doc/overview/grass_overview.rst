@@ -72,3 +72,7 @@ Details
 
 @QUICKSTART_grass@
 
+.. presentation-note
+    GRASS GIS provides powerful raster, vector, and geospatial processing. It includes tools for spatial modeling, visualization of raster and vector data, management and analysis of geospatial data, and the processing of satellite and aerial imagery. It also provides the capability to produce sophisticated presentation graphics and hardcopy maps.
+    It includes over 400 built-in analysis modules and 100 community supplied modules and toolboxes.
+    With over 30 years of continuous development, GRASS is both the oldest and largest Open Source GIS available. It is capable of very powerful analysis, but may not be as simple to get started with as other offerings with more of a geodata viewer focus. Many Open Source projects make use of GRASS's algorithms.

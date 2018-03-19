@@ -86,3 +86,5 @@ Details
 
 @QUICKSTART_zoo-project@
 
+.. presentation-note
+    The ZOO Project provides a developer-friendly Web Processing Service framework for creating and chaining Web Processing Services. A Web Processing Service provides web access to functions which run spatial algorithms. Zoo Project supports many programming languages and comes with C and Python examples.

@@ -112,3 +112,6 @@ GeoTools_Support
 * `Quickstart documentation <http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_
 
 @QUICKSTART_geotools@
+
+.. presentation-note
+    GeoTools is used by most Java based Geospatial applications. It provides standards based geospatial data structures, connectors to numerous data stores, data manipulation and rendering functionality.

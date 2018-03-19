@@ -78,3 +78,5 @@ Details
 
 @QUICKSTART_josm@
  
+.. presentation-note
+    JOSM is a desktop OpenStreetMap editor which provides many advanced features and can also be used offline.

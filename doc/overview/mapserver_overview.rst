@@ -115,3 +115,5 @@ Details
 
 @QUICKSTART_mapserver@
     
+.. presentation-note
+    Mapserver is one of the earliest Open Source Web Map Services. The codebase is very mature and it retains a large development community. It serves data through Web Map Service images, Web Feature Service vectors, a Web Coverage Service and Sensor Observation Services. It connects to a wide range of databases and data stores. It is written in C and has connections for a number of other languages.
