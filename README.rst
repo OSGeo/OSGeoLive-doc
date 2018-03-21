@@ -15,7 +15,7 @@ The majority of our documentation is generated from reStructured text sources
 using Sphinx. reSt is similar to wiki markup, and readable in plain ascii. As a
 quick check, github will (partially) render reSt documents as HTML.
 
-1. Install python and sphinx version 1.6.5 or greater (as provided with Ubuntu >10.04), (install_main_docs.sh does this too)
+1. Install python and sphinx version 1.6.5 or greater (as provided with Ubuntu >16.04), (install_main_docs.sh does this too)
 ::
    pip install sphinx==1.6.5
    pip install sphinx-intl
