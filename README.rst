@@ -15,9 +15,14 @@ The majority of our documentation is generated from reStructured text sources
 using Sphinx. reSt is similar to wiki markup, and readable in plain ascii. As a
 quick check, github will (partially) render reSt documents as HTML.
 
-1. Install python and sphinx version 1.6.4 or greater (as provided with Ubuntu >10.04), (install_main_docs.sh does this too)
+1. Install python and sphinx version 1.6.5 or greater (as provided with Ubuntu >10.04), (install_main_docs.sh does this too)
 ::
-   sudo apt-get install python-sphinx
+   pip install sphinx==1.6.5
+   pip install sphinx-intl
+   pip install sphinxjp.themes.revealjs
+   sudo apt-get install cpanminus
+   sudo cpanm Text::SimpleTable::AutoWidth
+
 
 2. Clone or download the documentation
 ::
@@ -27,7 +32,7 @@ quick check, github will (partially) render reSt documents as HTML.
 ::   
    mkdir build
    cd build
-   cmake -DHTML ..
+   cmake -DHTML=ON ..
    make
    cd ..
 
@@ -37,11 +42,15 @@ quick check, github will (partially) render reSt documents as HTML.
 ::
    mkdir build
    cd build
-   cmake -DHTML -DFR=ON ..
+   cmake -DHTML=ON -DFR=ON ..
    make
    cd ..
 
    The output is also in build/doc/_build/html/
+
+5. Optional: reduce the size of the generated documentation
+::
+   bash bin/clean-images.sh
 
 
 References:
