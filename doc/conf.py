@@ -19,7 +19,6 @@ import sys, os
 # vm_7z_size = 3.4
 # req_hd_size = 20
 
-#execfile('../../settings.py')
 
 # for osgeolive-X.X.iso
 iso_size = 3.7
@@ -27,7 +26,6 @@ iso_size = 3.7
 iso_mini_size = 3.7
 # for osgeo-vm-X.X.7z
 vm_7z_size = 3.2
-
 # required hard disk space
 req_hd_size = 20
 
