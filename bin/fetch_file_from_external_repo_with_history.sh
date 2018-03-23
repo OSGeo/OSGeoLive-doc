@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ###############################################################################
-#  Copyright (c) 2016, Vicky Vergara <vicky_vergara@hotmail.com>
+#  Copyright (c) 2016-2018, Vicky Vergara <vicky_vergara@hotmail.com>
 #
 #  Licence:  GPL-2.0  
 #

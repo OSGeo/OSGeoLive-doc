@@ -4,6 +4,8 @@
 # Purpose:
 # Removes duplicated images generated when more than one language is generated
 #
+# Author: Vicky Vergara Vicky Vergara <vicky_vergara@hotmail.com>
+#
 #############################################################################
 # Copyright (c) 2018 Open Source Geospatial Foundation (OSGeo)
 #

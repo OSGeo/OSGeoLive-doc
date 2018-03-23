@@ -380,7 +380,6 @@ if(FALSE)
         )
 endif()
 
-configure_file("settings.py" "settings.py")
 configure_file("licenses.csv" "licenses.csv")
 configure_file("contributors.csv" "contributors.csv")
 configure_file("translators.csv" "translators.csv")
