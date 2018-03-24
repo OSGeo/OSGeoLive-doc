@@ -1,7 +1,13 @@
 OSGeo-Live Copyright
 ================================================================================
 
-OSGeo-Live is composed entirely of free software, free data and free documentation, allowing it to be freely distributed, duplicated and passed around.
+OSGeo-Live is a self-contained bootable DVD, USB thumb drive or Virtual Machine based on Lubuntu, that allows you to try a wide variety of open source geospatial software without installing anything. It is composed entirely of free software, allowing it to be freely distributed, duplicated and passed around.
+
+License of OSGeo-Live
+----------------------
+The OSGeo-Live project is distributed under LGPL license v2.1 <http://www.gnu.de/documents/lgpl-2.1.en.html>. All doocumentation is provided under a `Creative Commons Attribution 3.0 Unported License <https://creativecommons.org/licenses/by/3.0/>`_.
+
+OSGeo-Live is composed entirely of free software, free data and free documentation, allowing it to be freely distributed, duplicated and passed around. The licenses of all the packaged project are summarized further on this page.
 
 * Project Overviews and Overview Translations, are provided under a `Creative Commons Attribution 3.0 Unported License <https://creativecommons.org/licenses/by/3.0/>`_.
 * Quickstarts and Quickstart Translations, are provided under a `Creative Commons Attribution-ShareAlike 3.0 Unported License <https://creativecommons.org/licenses/by-sa/3.0/>`_.
