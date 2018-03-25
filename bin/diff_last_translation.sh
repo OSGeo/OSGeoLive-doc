@@ -6,7 +6,7 @@
 # Author:  Angelos Tzotsos
 #
 #################################################
-# Copyright (c) 2016 Open Source Geospatial Foundation (OSGeo)
+# Copyright (c) 2016-2018 Open Source Geospatial Foundation (OSGeo)
 #
 # Licensed under the GNU LGPL.
 # 

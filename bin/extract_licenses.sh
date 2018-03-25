@@ -5,7 +5,7 @@
 # Author:  Cameron Shorter
 #
 #################################################
-# Copyright (c) 2011 Open Source Geospatial Foundation (OSGeo)
+# Copyright (c) 2011-2018 Open Source Geospatial Foundation (OSGeo)
 # Copyright (c) 2011 Jirotech
 #
 # Licensed under the GNU LGPL.
