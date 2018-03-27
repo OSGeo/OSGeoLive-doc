@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"POT-Creation-Date: 2018-03-26 19:24-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:17
-msgid "User-friendly Desktop Internet GIS Quickstart"
+msgid "User-friendly Desktop Internet GIS (uDig) Quickstart"
 msgstr ""
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:25

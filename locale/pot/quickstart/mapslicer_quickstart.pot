@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"POT-Creation-Date: 2018-03-26 19:24-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,91 +16,91 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:18
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:15
 msgid "MapSlicer Quickstart"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:20
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:17
 msgid "`MapSlicer <https://wiki.osgeo.org/wiki/MapSlicer>`_ provides a simple way of creating a set of tiles from any georeferenced map image. The tiles can then be presented as a georeferenced map overlay on a web server. It follows the `Open Source Geospatial Foundation's (OSGeo's) <http://www.osgeo.org/>`_ `Tile Map Service (TMS) <http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`_ specification."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:22
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:19
 msgid "**Input options**: Any georeferenced image file, eg. a TIFF, JPEG from ArcGIS, QGIS."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:23
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:20
 msgid "**Output options**: A set of directories with tiled images which can be copied to a web server for presentation as a georeferenced overlay."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:24
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:21
 msgid "**Strengths**: MapSlicer is simple, free, open-source software, with an easy wizard, described below, to guide through the options."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:26
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:23
 msgid "MapSlicer takes advantage of the fact that `Google Maps <http://maps.google.com/>`_ , `Microsoft Bing <http://maps.bing.com>`_ , `Yahoo Maps <http://maps.yahoo.com/>`_ , and other online mapping providers including `OpenStreetMap <http://www.openstreetmap.org/>`_  use the same projection and tiling profile and the tiles are therefore compatible. MapSlicer prepares tiles using this specification as an easy and quick way of preparing a georeferenced map in a mashup web page."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:29
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:26
 msgid "Start MapSlicer"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:31
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:28
 msgid "Start MapSlicer from the Geospatial menu, under the Spatial Tools sub-menu."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:33
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:30
 msgid "Select the **Tile Profile**. Choose *Image Based Tiles (raster)* for standard web publishing. Click *Continue*."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:38
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:35
 msgid "Choose the **Source Data Files**. Browse to select the raster image you want to tile. It is also possible to select a NODATA colour that will appear as transparent in the resulting image. Click *Continue*."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:43
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:40
 msgid "Specify the **Spatial Reference System / Coordinate System** of the image. Specify the id-number from the EPSG database. Click *Continue*."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:48
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:45
 msgid "Specify details about the **Tile Pyramid**. The default settings for zoom levels and file format are often best. Click *Continue*."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:53
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:50
 msgid "Specify details about the **Destination folder and Addresses / URLs** for the tileset. If you do not know these, they can be added into the default *googlemaps.html* and *openlayers.html* files after tile generation. Click *Continue*."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:58
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:55
 msgid "Tick the **Viewers that should be generated**. By default, a *openlayers.html* file is generated. Click *Continue*."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:63
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:60
 msgid "Specify the **Details for generating the Viewers**, such as the title, copyright notice, and API keys. If you do not know these, they can be added into the default *googlemaps.html / openlayers.html* files after tile generation. Click *Continue*."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:68
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:65
 msgid "Click **Render** to start rendering the image."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:73
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:70
 msgid "When complete, MapSlicer provides a link to the finished tileset."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:78
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:75
 msgid "Open the *openlayers.html* files in a web browser to view the tileset as an overlay on the live online map. To present this on the web, just copy the entire tileset and all subdirectories to a web server, and edit the googlemaps.html or openlayers.html files as required."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:85
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:82
 msgid "Using gdal2tiles to create a MBTiles database"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:87
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:84
 msgid "MapSlicer is essentially a GUI frontend to the `gdal2tiles.py` script. An updated version of `gdal2tiles.py` is also present on the Live disc. The resulting tile trees created by these software can be used with the `mb-util` program to create an mbtiles database, for use with smartphone software like `Geopaparazzi <http://geopaparazzi.github.io/geopaparazzi/>`_."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:93
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:90
 msgid "To create an MBTiles SQLite database from the newly created tile tree, open a terminal, then"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:103
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:100
 msgid "See `gdal2tiles.py --help` and `mb-util --help` for additional information on running these tools."
 msgstr ""
 
