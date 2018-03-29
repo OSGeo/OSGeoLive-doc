@@ -1,7 +1,9 @@
+<<<<<<< HEAD:doc/quickstart/pywps_quickstart.rst
 :Author: OSGeoLive
 :Author: Jachym Cepicky, Tom Kralidis
+:Author: Luís de Sousa
 :Reviewer: Cameron Shorter
-:Version: osgeolive10.0
+:Version: osgeo-live11.0
 :License: Creative Commons Attribution
 
 @LOGO_pywps@
@@ -14,80 +16,129 @@
 PyWPS is an OGC WPS (Web Processing Service 1.0.0) server implementation written
 in `Python <http://python.org>`_.
 
-PyWPS is installed by default on OSGeoLive.  This Quickstart describes how to:
+The PyWPS 4.0.0 library is installed by default on OSGeo-Live. This is a core 
+library that is not intended to be executed directly, but rather to be used in the
+development of WPS services. An `example service <https://github.com/geopython/pywps-flask>`_ 
+based on `Flask <http://flask.pocoo.org/>`_ is available at
+GitHub to facilitate a first contact with PyWPS. 
 
-* test the PyWPS installation
-* configure the PyWPS instance
-* create and deploy processes in PyWPS
-* perform ``GetCapabilities``, ``DescribeProcess`` and ``Execute`` operations
+This Quickstart describes how to:
+
+* Install and configure the pywps-flask example service
+* Perform ``GetCapabilities``, ``DescribeProcess`` and ``Execute`` requests
+* Develop your own WPS processes
+* Next steps
 
 .. contents:: Contents
 
-Tester Application
-==================
+Installing pywps-flask
+======================
 
-To run the PyWPS tester, use the PyWPS launcher from the Web Services group.  This opens
-Firefox displaying ``http://localhost/pywps/wps.py?service=WPS&version=1.0.0&request=GetCapabilities``. The
-XML response provides an overview of the Service (title, abstract, keywords), the Service
-point of contact as well as a list of processes supported by the PyWPS installation.
+Since the example service depends on Flask, make sure it installed on your 
+OSGeo-Live:
 
-Lets select the ``ultamitequestionprocess`` process from the list and
-display its description by calling the `DescribeProcess` operation. In Firefox,
-enter the following URL: ``http://localhost/pywps/wps.py?service=WPS&version=1.0.0&request=DescribeProcess&identifier=ultimatequestionprocess``
+`sudo apt install python-flask`
 
-You should see WPS DescribeProcess response document. The XML response provides a description
-of what the process does as well as specifics (name, type) on the inputs and outputs. We can
-see in the above response that the ``ultimatequestionprocess`` process (according to its description) is able
-to provide the *Answer to Life, the Universe and Everything*, takes no inputs and provides
-a single integer output.
+Then clone the repository from GitHub:
 
-Now let's run the ``ultimatequestionprocess`` process on the server. In Firefox,
-enter the following URL: ``http://localhost/pywps/wps.py?service=WPS&version=1.0.0&request=Execute&identifier=ultimatequestionprocess``
+`git clone https://github.com/geopython/pywps-flask.git`
 
-Here we can see the answer to life, universe and everyting is 42.
+Now move into the repository folder and edit the configuration file. This can 
+be done with a programme like `nano`:
 
-Configuration
-=============
+`nano pywps.cfg`
 
-You can configure the PyWPS instance in the `/etc/pywps/pywps-wsgi.cfg`
-configuration file. More information on the configuration option can be
-found in the `standard documentation <http://geopython.github.io/pywps/doc/build/html/configuration/index.html#configuration-of-pywps-instance>`_
+The only critical thing to verify is the location of logging database. 
+`Pywps-flask` provides a sample SQLite database that can be used for this 
+purpose. Make sure the `database` setting reads like:
 
-Processes
----------
+`database=sqlite:////home/user/pywps-flask/logs/pywps-logs.sqlite3`  
 
-You can find some more example processes in the `/etc/pywps/processes`
-directory. Every process is usually stored in separate file and is represented
-by a Python class, with constructor and `execute()` methods::
+Save the configuration file and exit `nano` you can now run the service:
+
+`python demo.py`
+
+If all goes well you will receive back a message like:
+
+`* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)`
+     
+Testing available processes
+===========================
+
+Open your favourite web browser and point it to the address where the example 
+service is listening: `http://127.0.0.1:5000/ <http://127.0.0.1:5000/>`_ You will
+be presented with the following page:
+
+.. image:: /images/screenshots/1024x768/pywps-4.0.0_example.png
+  :scale: 100 %
+  
+Use the green buttons to explore the service. Issue a `GetCapabilities` request
+for an overview of the service; issue a `DescribeProcess` request to learn the
+details of a particular project. Note the request URL in the browser address.
+
+It is now time to test an `Execute` request. You can try the `say_hello` 
+process, which is fairly simple. Direct your web browser to the following 
+address:
+
+`http://localhost:5000/wps?service=WPS&version=1.0.0&request=Execute&identifier=say_hello&dataInputs=name=OSGeo-Live`
+
+The process simply replies back with a "Hello OSGeo" message, encoded in a 
+standard WPS response document. Your browser should be showing something like:
+
+.. image:: /images/screenshots/1024x768/pywps-4.0.0_response.png
+  :scale: 100 %
+
+Developing WPS processes
+========================
+
+To develop new processes all you need to do is create new Python modules 
+inside the `processes` folder. Use the existing processes as templates to help
+you structure your code. A closer look at the `say_hello` process shows the
+main feature of a PyWPS process:
+
+1. Import the necessary assets and create a class inheriting from the PyWPS 
+`Process` class. In the constructor create the necessary objects for inputs
+and outputs:
+
+.. code::
+
+	from pywps import Process, LiteralInput, LiteralOutput, UOM
+	
+	class SayHello(Process):
+	    def __init__(self):
+	        inputs = [LiteralInput('name', 'Input name', data_type='string')]
+	        outputs = [LiteralOutput('response',
+	                                 'Output response', data_type='string')]
 
 
-    # Example of PyWPS process (shorten)
-    from pywps.Process import WPSProcess                               
-    class Process(WPSProcess):
-     def __init__(self):
-         WPSProcess.__init__(self,
-                             identifier="ultimatequestionprocess",  # the same as the file name
-                             ....
+2. Invoke the parent constructor, passing on the metadata of the process:
 
-     def execute(self):
-         import time
-         self.status.set("Preparing....", 0)
-         for i in xrange(1, 11):
-             time.sleep(2)
-             self.status.set("Thinking.....", i*10) 
-         # final answer    
-         self.Answer.setValue("42")
+.. code::
 
-Directory of your process deployment is configured within the
-`PYWPS_PROCESSES` environment variable.
+        super(SayHello, self).__init__(
+            self._handler,
+            identifier='say_hello',
+            title='Process Say Hello',
+            abstract='Returns a literal string output\
+             with Hello plus the inputed name',
+            version='1.3.3.7',
+            inputs=inputs,
+            outputs=outputs,
+            store_supported=True,
+            status_supported=True
+        )
 
-Things to Try
-=============
+3. Create the `handler` method, that will be invoked to handle `Execute` 
+requests. Use the `request` and `response` objects to retrieve inputs and set
+outputs.
 
-Here are some additional challenges for you to try:
+.. code::
 
-#. Try updating some of the configuration values to see how they are updated in the ``GetCapabilities`` requess
-#. Try running the ``DescribeProcess`` and ``Execute`` requests against other processes
+    def _handler(self, request, response):
+        response.outputs['response'].data = 'Hello ' + \
+            request.inputs['name'][0].data
+        response.outputs['response'].uom = UOM('unity')
+        return response
 
 What's Next
 ===========
@@ -95,13 +146,24 @@ What's Next
 PyWPS gives you the freedom and flexibility to write your own Python processes and expose them
 accordingly.
 
-* Official documentation
+Official documentation
+----------------------
 
   For further information on PyWPS configuration and the API, consult the `documentation`_ on the PyWPS website.
 
-* Tutorial
+Tutorial
+--------
 
-  Try out the `course`_, which includes setting up an OpenLayers based web client.
+  Try out the `workshop`_, a tutorial used in workshops to introduce new users
+  to PyWPS 4.
+  
+Deployment to production
+------------------------
 
-.. _`course`: http://jachym.github.io/pywps-tutorial/build/html/index.html
+  The `pywps-flask` service is just an example and not designed for production. 
+  There is in alternative a Django based service, `pywps-django <https://github.com/jorgejesus/pywps-django>`_. The 
+  documentation provides further details on how to `set up a production service <http://pywps.readthedocs.io/en/latest/deployment.html>`_
+  with `Apache <https://httpd.apache.org/>`_ or `nginx <https://nginx.org/>`_ and `Gunicorn <http://gunicorn.org/>`_.
+
+.. _`workshop`: https://github.com/PyWPS/pywps-workshop
 .. _`documentation`: http://pywps.org/docs
