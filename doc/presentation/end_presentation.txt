@@ -1,0 +1,67 @@
+
+.. revealjs:: 
+
+    .. revealjs:: Credits
+
+        Project Steering Committee:
+
+        * Angelos Tzotsos (chair),
+        * Brian M Hamlin,
+        * Cameron Shorter,
+        * Alex Mandel,
+        * Johan Van de Wauw,
+        * Bas Couwenberg,
+        * Massimo De Stefano,
+        * Astrid Emde,
+        * Ben Caradoc-Davies,
+        * Nicolas Roelandt
+        * Vicky Vergara.
+
+        .. rv_note::
+            As you can see listed here, many people have been involved in packaging the Open Source Software for OSGeo-Live,
+            and literally thousands of developers have helped build the software we package.
+            Thank you.
+            I'd like to especially the Project Steering Committee who have led the coordination and core packaging of the OSGeo-Live project.
+
+    .. revealjs:: Sponsors
+       :title-heading: h2
+
+       =============== ================ ==================== ============
+       =============== ================ ==================== ============
+       OSGeo            Jirotech         UCD ICE             NTUA
+       |osgeo_logo|     |jirotech_logo|  |ucdice_logo|       |udig_logo|                              
+       DebianGIS        okeanos          Georepublic
+       |debian_logo|    |okeanos_logo|   |georepublic_logo|
+       =============== ================ ==================== ============
+
+
+        .. rv_note::
+            And we'd also like to acknowledge the contributions of sponsors and supporting organisations:
+            The OSGeo Foundation,
+            Jirotech,
+            the Information Center for the Environment at the University of California,
+            the Remote Sensing Laboratory at the National Technical University of Athens,
+            the DebianGIS and UbuntuGIS projects,
+            the Okeanos IaaS service
+            and Georepublic geomatics company.
+
+    .. revealjs:: Questions?
+
+        .. rv_note::
+            This has just been a taster,
+            do you want to know more?
+            You can see project descriptions or download the OSGeo-Live DVD from the website.
+            The OSGeo Foundation provides links to all things GeoSpatial and Open Source.
+            There are many conferences worth attending,
+            in particular the annual FOSS4G conference.
+            In Australia and New Zealand, Jirotech provide commercial support and training courses for GeoSpatial Open Source.
+            Georepublic covers Japan and Germany.
+
+.. |OSGeo_logo| image:: ../images/logos/OSGeo_compass_with_text_square.png
+.. |Jirotech_logo| image:: ../images/logos/jirotechlogo.jpg
+.. |ucdice_logo| image:: ../images/logos/ucd_ice_logo.png
+.. |ntua_logo| image:: ../images/logos/ntua_logo.jpg
+.. |debian_logo| image:: ../images/logos/debiangis_mollweide.png
+.. |georepublic_logo| image:: ../images/logos/georepublic.png
+.. |okeanos_logo| image:: ../images/logos/okeanos-logo.jpg
+
