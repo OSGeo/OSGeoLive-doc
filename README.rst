@@ -50,7 +50,7 @@ quick check, github will (partially) render reSt documents as HTML.
 
 5. Optional: reduce the size of the generated documentation
 ::
-   bash bin/clean-images.sh
+   bash scripts/clean-images.sh
 
 
 References:
