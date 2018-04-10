@@ -100,7 +100,7 @@ Details
 
 **Licence:** LGPL
 
-**Supported Platforms:** Cross Platform Java 6,7,8
+**Supported Platforms:** Cross Platform Java 8,9,10
 
 **API Interfaces:** Java
 
