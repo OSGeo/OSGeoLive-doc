@@ -6,6 +6,7 @@ Build-Depends: debhelper (>= 8.0.0),
                python-sphinx,
                python-imaging,
                python-pil,
+               pngquant
 Standards-Version: 3.9.6
 Homepage: http://live.osgeo.org
 
@@ -13,5 +14,11 @@ Package: osgeolive-docs
 Architecture: all
 Depends: ${misc:Depends},
          ${sphinxdoc:Depends},
-Description: Documentation for the OSGeo Live DVD
- <insert long description, indented with spaces>
+Description: Documentation for OSGeo Live
+ OSGeoLive is a self-contained bootable DVD, USB thumb drive or Virtual Machine
+ based on Lubuntu, that allows you to try a wide variety of open source
+ geospatial software without installing anything. It is composed entirely of
+ free software, allowing it to be freely distributed, duplicated and passed
+ around.
+ .
+ This package contains the documentation of OSGeo live.

@@ -1,0 +1,276 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Nicolas Roelandt (Personnel) <roelandtn.pro@gmail.com>, 2017\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../build/doc/overview/geoserver_overview.rst:19
+msgid "GeoServer"
+msgstr "GeoServer"
+
+#: ../../build/doc/overview/geoserver_overview.rst:22
+msgid "Web Service"
+msgstr "Web Service"
+
+#: ../../build/doc/overview/geoserver_overview.rst:24
+msgid ""
+"GeoServer is a web server that allows you to serve maps and data from a "
+"variety of formats to standard clients such as web browsers and desktop GIS "
+"programs. Data is published via standards based interfaces, such as WMS, "
+"WFS, WCS, WPS, Tile Caching and more. GeoServer comes with a browser-based "
+"management interface and connects to multiple data sources at the back end."
+msgstr ""
+"GeoServer est un serveur web qui permet de servir des cartes et des données "
+"depuis une variété de formats, des clients standards web ou bureautique "
+"jusqu'aux programmes SIG avancés. La donnée est publiée via des interfaces "
+"basées sur des standards, comme le WMS, le WFS, le WCS, le WPS, le \"Tile "
+"Caching\" et d'autres encore. GeoServer est fournit avec une interface de "
+"gestion dans le navigateur et se connecte à de nombreuses sources de données"
+" en back end."
+
+#: ../../build/doc/overview/geoserver_overview.rst:37
+msgid "Core Features"
+msgstr "Caractéristiques principales"
+
+#: ../../build/doc/overview/geoserver_overview.rst:44
+msgid "**Serve data from a variety of data stores:**"
+msgstr "**Sert des données d'une variété d'entrepôts de données:**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:41
+msgid "Vector"
+msgstr "Vecteur"
+
+#: ../../build/doc/overview/geoserver_overview.rst:41
+msgid "Shapefiles, External WFS"
+msgstr "Fichiers SHP, WFS externes"
+
+#: ../../build/doc/overview/geoserver_overview.rst:42
+msgid "PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server"
+msgstr "PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server"
+
+#: ../../build/doc/overview/geoserver_overview.rst:44
+msgid "Raster"
+msgstr "Raster"
+
+#: ../../build/doc/overview/geoserver_overview.rst:44
+msgid ""
+"GeoTiff, JPG and PNG (with world file), image pyramid, GDAL formats, Image "
+"Mosaic, Oracle GeoRaster, NetCDF"
+msgstr ""
+"GeoTiff, JPG et PNG (avec fichier wld), pyramide d'images, formats de GDAL, "
+"mosaïquage d'images, GeoRaster Oracle, NetCDF"
+
+#: ../../build/doc/overview/geoserver_overview.rst:48
+msgid ""
+"**Data is served as safe and quick images using WMS and WMTS protocols:**"
+msgstr ""
+"**La donnée est servie comme des images simples et rapides en utilisant les "
+"protocoles WMS et WMTS:**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:47
+msgid ""
+"As the data is served up as an image your data is completely safe and "
+"secure. Unless they redigitise your data there is no way to steal your data."
+" The appearance of each map layer can be controlled using the SLD standard "
+"which allows features to be coloured and labeled. By combining these rules "
+"with OGC Filters scale dependent styling can be implemented allowing more "
+"detail to be added as a user zooms in. Label collision management, grouping "
+"and priorities are also implemented."
+msgstr ""
+"As the data is served up as an image your data is completely safe and "
+"secure. Unless they redigitise your data there is no way to steal your data."
+" The appearance of each map layer can be controlled using the SLD standard "
+"which allows features to be coloured and labeled. By combining these rules "
+"with OGC Filters scale dependent styling can be implemented allowing more "
+"detail to be added as a user zooms in. Label collision management, grouping "
+"and priorities are also implemented."
+
+#: ../../build/doc/overview/geoserver_overview.rst:52
+msgid "**Full vector data can be sent to a client using the WFS protocol:**"
+msgstr ""
+"**Des données vecteur complètes peuvent être envoyées au client en utilisant"
+" le protocole WFS:**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:51
+msgid ""
+"A WFS client can download vector data and use it for mapping, spatial "
+"analysis and other operations. Also if authorised the user can modify the "
+"data and send it back to the server to update the stored data using the "
+"WFS-T protocol. The data can be transmitted using GML (compressed) as well "
+"as other standard data formats like shapefile and json."
+msgstr ""
+"Un client WFS peut télécharger des données vecteur et les utiliser pour "
+"faire des cartes, de l'analyse spatiale et d'autres opérations. "
+"L'utilisateur peut aussi s'il y est autorisé modifier la donnée et la "
+"renvoyer au serveur pour mettre à jour les données stockées en utilisant le "
+"protocole WFS-T. La donnée peut être transmise en utilisant le GML "
+"(compressé) aussi bien que d'autres formats standards comme le shapefile et "
+"le json."
+
+#: ../../build/doc/overview/geoserver_overview.rst:55
+msgid "**Raster data values can be sent to a client using the WCS protocol:**"
+msgstr ""
+"**Les valeurs des données raster peuvent être renvoyées à un client en "
+"utilisant le protocole WCS:**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:55
+msgid ""
+"A GIS client can request the actual raster data for use in spatial analysis."
+" This allows a user to create applications which can model the process "
+"described by your data."
+msgstr ""
+"Un client SIG peut demander la donnée raster actuelle pour être utilisée "
+"pour de l'analyse spatiale. Cela permet à un utilisateur de créer des "
+"applications qui peuvent modéliser le processus décrit par votre donnée."
+
+#: ../../build/doc/overview/geoserver_overview.rst:58
+msgid "**On the fly reprojection:**"
+msgstr "**Reprojection à la volée:**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:58
+msgid ""
+"GeoServer supports the majority of the EPSG database of projections and can "
+"reproject to any of them on demand to allow clients with limited "
+"reprojection support to pass the load to the server."
+msgstr ""
+"GeoServer supporte la majorité des projections de la base de données EPSG et"
+" peut reprojeter les données dans n'importe laquelle d'entre elles à la "
+"demande pour permettre aux clients avec un support limité pour la "
+"reprojection de basculer cette charge au serveur."
+
+#: ../../build/doc/overview/geoserver_overview.rst:61
+msgid "**Tiling Cache**"
+msgstr "**Cache de tuiles**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:61
+msgid ""
+"`GeoWebCache <http://geowebcache.org/>`_, which is integrated into "
+"GeoServer, tiles and caches map images from a variety of sources such as "
+"WMS. It implements various service interfaces (such as WMS-C, WMTS, TMS, "
+"Google Maps KML, Virtual Earth) in order to accelerate and optimize map "
+"image delivery. It can also recombine tiles to work with regular WMS "
+"clients."
+msgstr ""
+"`GeoWebCache <http://geowebcache.org/>`_ , qui est intégré dans GeoServer, "
+"tuile et cache des images de carte depuis une variété de sources comme le "
+"WMS. Il implémente des interfaces de services nombreux (comme le WMS-C, "
+"WMTS, TMS, Google Maps KML, Virtual Earth) afin d'accélérer et optimiser la "
+"mise à disposition d'images de carte. Il peut aussi recombiner les tuiles "
+"pour travailler avec des clients WMS réguliers."
+
+#: ../../build/doc/overview/geoserver_overview.rst:64
+msgid "**Web Processing Service (WPS)**"
+msgstr "**Web Processing Service (WPS)**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:64
+msgid ""
+"Geospatial algorithms, including those from :doc:`JTS <jts_overview>`, can "
+"be called through GeoServer's `WPS "
+"<http://www.opengeospatial.org/standards/wps>`__ interface. This includes "
+"the chaining of processes, and using rendering transformations to create "
+"powerful visualisations through the WMS interface."
+msgstr ""
+"Des algorithmes géospatiaux, incluant ceux venant de :doc:`JTS "
+"<jts_overview>`, peuvent être appelés via l'interface `WPS "
+"<http://www.opengeospatial.org/standards/wps>`__ de GeoServer. Cela inclue "
+"le chaînage de traitements, et l'utilisation de transformations de rendu "
+"pour créer des visualisations puissantes via l'interface WMS."
+
+#: ../../build/doc/overview/geoserver_overview.rst:67
+msgid "Implemented Standards"
+msgstr "Standards implémentés"
+
+#: ../../build/doc/overview/geoserver_overview.rst:69
+msgid "Support of numerous Open Geospatial Consortium  (OGC) standards:"
+msgstr "Support de nombreux standards de l'Open Geospatial Consortium  (OGC):"
+
+#: ../../build/doc/overview/geoserver_overview.rst:73
+msgid "`WMS <http://www.opengeospatial.org/standards/wms>`__ (client/server)"
+msgstr ""
+"`WMS <http://www.opengeospatial.org/standards/wms>`__ (client/serveur)"
+
+#: ../../build/doc/overview/geoserver_overview.rst:74
+msgid "Web Map Tile Service (WMTS)"
+msgstr "Web Map Tile Service (WMTS)"
+
+#: ../../build/doc/overview/geoserver_overview.rst:75
+msgid ""
+"`WFS-T <http://www.opengeospatial.org/standards/wfs>`__ (transactional)"
+msgstr ""
+"`WFS-T <http://www.opengeospatial.org/standards/wfs>`__ (transactionnel)"
+
+#: ../../build/doc/overview/geoserver_overview.rst:76
+msgid "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
+msgstr "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
+
+#: ../../build/doc/overview/geoserver_overview.rst:77
+msgid "`FE <http://www.opengeospatial.org/standards/fe>`__"
+msgstr "`FE <http://www.opengeospatial.org/standards/fe>`__"
+
+#: ../../build/doc/overview/geoserver_overview.rst:78
+msgid "`SLD <http://www.opengeospatial.org/standards/sld>`__"
+msgstr "`SLD <http://www.opengeospatial.org/standards/sld>`__"
+
+#: ../../build/doc/overview/geoserver_overview.rst:79
+msgid "`GML <http://www.opengeospatial.org/standards/gml>`__"
+msgstr "`GML <http://www.opengeospatial.org/standards/gml>`__"
+
+#: ../../build/doc/overview/geoserver_overview.rst:80
+msgid "`KML <http://www.opengeospatial.org/standards/kml>`__"
+msgstr "`KML <http://www.opengeospatial.org/standards/kml>`__"
+
+#: ../../build/doc/overview/geoserver_overview.rst:83
+msgid "Details"
+msgstr "Détails"
+
+#: ../../build/doc/overview/geoserver_overview.rst:85
+msgid "**Website:** http://geoserver.org/"
+msgstr "**Site web:** http://geoserver.org/"
+
+#: ../../build/doc/overview/geoserver_overview.rst:87
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**Licence:** GNU General Public License (GPL) version 2"
+
+#: ../../build/doc/overview/geoserver_overview.rst:89
+msgid "**Software Version:** |version-geoserver|"
+msgstr "**Version du logiciel:** |version-geoserver|"
+
+#: ../../build/doc/overview/geoserver_overview.rst:91
+msgid ""
+"**Supported Platforms:** Java 8 (Oracle JDK and OpenJDK) on Windows, Linux, "
+"and Mac"
+msgstr ""
+"**Plates-formes supportées:** Java 8 (JDK Oracle et OpenJDK) sur Windows, "
+"Linux et Mac"
+
+#: ../../build/doc/overview/geoserver_overview.rst:93
+msgid "**API Interfaces:** WMS, WFS, WCS, REST"
+msgstr "**Interfaces de l'API:** WMS, WFS, WCS, REST"
+
+#: ../../build/doc/overview/geoserver_overview.rst:95
+msgid "**Support:** http://geoserver.org/support/"
+msgstr "**Support:** http://geoserver.org/support/"
+
+#: ../../build/doc/overview/geoserver_overview.rst:99
+msgid "Quickstart"
+msgstr "Guide de démarrage rapide"
+
+#: ../../build/doc/overview/geoserver_overview.rst:101
+msgid ":doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`"
+msgstr ""
+":doc:`Documentation du guide de démarrage rapide "
+"<../quickstart/geoserver_quickstart>`"

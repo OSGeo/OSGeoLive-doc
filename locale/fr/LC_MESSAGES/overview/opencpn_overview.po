@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../build/doc/overview/opencpn_overview.rst:16
+msgid "OpenCPN"
+msgstr "OpenCPN"
+
+#: ../../build/doc/overview/opencpn_overview.rst:19
+msgid "Marine GPS navigation software"
+msgstr "Logiciel de navigation GPS pour la marine"
+
+#: ../../build/doc/overview/opencpn_overview.rst:20
+msgid ""
+"OpenCPN provides free navigation software for use at the helm of vessels of "
+"all types and sizes, as well as offline for route planning. It has been "
+"developed by a team of active sailors using real world conditions for "
+"program testing and refinement."
+msgstr ""
+"OpenCPN fournit un logiciel gratuit pouvant être utilisé pour le pilotage de"
+" navires de tous types et de toutes tailles, aussi bien que déconnecté pour "
+"la préparation d'itinéraires. Il a été développé par une équipe de marins en"
+" activité en utilisant des conditions mondiales pour les tests et "
+"améliorations du programme."
+
+#: ../../build/doc/overview/opencpn_overview.rst:22
+msgid ""
+"OpenCPN presents a user with the vessel's current position, speed and course"
+" superimposed upon accurate navigational chart images, tide and current "
+"predictions. Information received by standard radio links describing the "
+"position and intent of other vessels can also be shown."
+msgstr ""
+"OpenCPN présente un utilisateur avec la position en cours du navire, sa "
+"vitesse et la route se superpose à des cartes de navigation précises en mode"
+" image, les prévisions des marées et des courants. L'information reçue par "
+"les liaisons radio standard décrivant la position et les intentions des "
+"autres navires peut aussi être affichée."
+
+#: ../../build/doc/overview/opencpn_overview.rst:24
+msgid ""
+"As the host vessel moves, new charts are selected and displayed at user "
+"specified resolution and detail. Further, the user may enter routes and "
+"waypoints allowing interface to an external autopilot for precise course "
+"following."
+msgstr ""
+"Au fur et à mesure que le navire principal se déplace, de nouvelles cartes "
+"sont sélectionnées et affichées à la résolution et au niveau de détail "
+"indiqués par l'utilisateur. Ensuite, l'utilisateur peut entrer les routes et"
+" les points sur l'interface, et permettre à un pilote automatique extérieur "
+"de suivre une course précise."
+
+#: ../../build/doc/overview/opencpn_overview.rst:34
+msgid "Core Features"
+msgstr "Caractéristiques principales"
+
+#: ../../build/doc/overview/opencpn_overview.rst:36
+msgid "OpenCPN supports:"
+msgstr "OpenCPN supporte:"
+
+#: ../../build/doc/overview/opencpn_overview.rst:38
+msgid "BSB raster, C-MAP (CM93/2) and S-57 ENC vector charts"
+msgstr "cartes raster BSB, C-MAP (CM93/2) et cartes vectorielles ENC S-57 "
+
+#: ../../build/doc/overview/opencpn_overview.rst:39
+msgid "AIS input decoding"
+msgstr "décodage d'entrées AIS"
+
+#: ../../build/doc/overview/opencpn_overview.rst:40
+msgid "NMEA GPS or `Gpsd <http://gpsd.berlios.de>`_ daemon input"
+msgstr "entrée de données GPS NMEA GPS ou Gpsd <http://gpsd.berlios.de>`"
+
+#: ../../build/doc/overview/opencpn_overview.rst:41
+msgid "Waypoint / autopilot navigation"
+msgstr "Points / navigation automatique"
+
+#: ../../build/doc/overview/opencpn_overview.rst:42
+msgid "Unlimited route/mark creation"
+msgstr "Routes illimitées/création de notes"
+
+#: ../../build/doc/overview/opencpn_overview.rst:43
+msgid "Quilted charts"
+msgstr "Cartes raboutées"
+
+#: ../../build/doc/overview/opencpn_overview.rst:44
+msgid "International language support"
+msgstr "Support de langues internationales"
+
+#: ../../build/doc/overview/opencpn_overview.rst:45
+msgid "Cross-platform support"
+msgstr "Support de plateformes multiples"
+
+#: ../../build/doc/overview/opencpn_overview.rst:46
+msgid "GRIB weather data overlay"
+msgstr "Surcouche de données météo GRIB"
+
+#: ../../build/doc/overview/opencpn_overview.rst:49
+msgid "Details"
+msgstr "Détails"
+
+#: ../../build/doc/overview/opencpn_overview.rst:51
+msgid "**Website:** http://www.opencpn.org"
+msgstr "**Site web:** http://www.opencpn.org"
+
+#: ../../build/doc/overview/opencpn_overview.rst:53
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**Licence:** GNU General Public License (GPL) version 2"
+
+#: ../../build/doc/overview/opencpn_overview.rst:55
+msgid "**Software Version:** |version-opencpn|"
+msgstr "**Version du logiciel:** |version-opencpn|"
+
+#: ../../build/doc/overview/opencpn_overview.rst:57
+msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
+msgstr "**Plates-formes supportées:** GNU/Linux, Mac OSX, MS Windows"
+
+#: ../../build/doc/overview/opencpn_overview.rst:59
+msgid "**Support:** http://www.cruisersforum.com/forums/f134"
+msgstr "**Support:** http://www.cruisersforum.com/forums/f134"
+
+#: ../../build/doc/overview/opencpn_overview.rst:64
+msgid "Quickstart"
+msgstr "Guide de démarrage rapide"
+
+#: ../../build/doc/overview/opencpn_overview.rst:66
+msgid ":doc:`Quickstart documentation <../quickstart/opencpn_quickstart>`"
+msgstr ""
+":doc:`Documentation du guide de démarrage rapide "
+"<../quickstart/opencpn_quickstart>`"
