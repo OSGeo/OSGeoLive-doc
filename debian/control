@@ -4,7 +4,6 @@ Priority: optional
 Maintainer: Johan Van de Wauw <johan.vandewauw@gmail.com>
 Build-Depends: debhelper (>= 8.0.0), 
                python-sphinx,
-               python-imaging,
                python-pil,
                pngquant
 Standards-Version: 3.9.6
