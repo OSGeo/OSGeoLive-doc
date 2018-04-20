@@ -11,12 +11,12 @@
 
 GpsPrune is a java application for viewing and editing coordinate data.  It can be used for preparing data for GPS devices and for analyzing the data recorded by them.
 
-In this Quick Start, we will load and view a data file included on this live DVD, and access some online information to supplement it.  It will be useful therefore if you have some kind of internet connection for this demonstration.
+In this Quick Start, we will load and view a data file included on this live image, and access some online information to supplement it.  It will be useful therefore if you have some kind of internet connection for this demonstration.
 
 Getting Started
 ================================================================================
 
-To run GpsPrune on the live DVD, select the icon "GpsPrune" in the Navigation and Maps menu.  This will then give you the empty window shown below.
+To run GpsPrune on the live system, select the icon "GpsPrune" in the Navigation and Maps menu.  This will then give you the empty window shown below.
 
 .. image:: /images/projects/gpsprune/gpsprune_emptywindow.png
    :scale: 55
@@ -44,9 +44,9 @@ You can drag the map around with the mouse, and zoom in and out with the mousewh
 Customizing the display
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 You can change the map with the menu option :menuselection:`Settings --> Set map background`.
-Let's have a look at an alternative map source by selecting the second one, "Cyclemap".  This uses the maps from OpenCycleMap to show additional information useful for hiking and cycling such as contour lines and cycle routes.
+Let's have a look at an alternative map source by selecting the fifth one, "Hikebikemap".  This uses the maps from hikebikemap.org to show additional information useful for hiking and cycling such as contour lines and cycle routes.
 
-.. image:: /images/projects/gpsprune/gpsprune_cyclemap.png
+.. image:: /images/projects/gpsprune/gpsprune_hikebikemap.png
    :scale: 55
 
 Wikipedia
@@ -74,7 +74,7 @@ To find out how long the climb is, we'll click on the point at the start of the 
 
 Using GpsPrune on other systems
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-After trying out GpsPrune on this live DVD, you may want to use it on another system, whether it's another Linux system or Mac OSX or Windows.  Some linux distributions include GpsPrune in their normal software libraries (just search for "Prune" or "GpsPrune"), or you can just download the latest copy from the home page.
+After trying out GpsPrune on this live image, you may want to use it on another system, whether it's another Linux system or Mac OSX or Windows.  Some linux distributions include GpsPrune in their normal software libraries (just search for "Prune" or "GpsPrune"), or you can just download the latest copy from the home page.
 
 It doesn't need to be installed, but it does need a java runtime to be installed, version 1.5 or higher.  You can extend GpsPrune's functionalities by installing other free software, such as *Gpsbabel*, *Gnuplot*, *Exiftool* and *Java3d*.
 
@@ -85,7 +85,7 @@ You can also save the downloaded map tiles to disk by selecting the menu option 
 Further reading
 ================================================================================
 
-* GpsPrune home page: http://gpsprune.activityworkshop.net/
-* Screenshots: http://gpsprune.activityworkshop.net/screenshots.html
+* GpsPrune home page: https://gpsprune.activityworkshop.net/
+* Screenshots: https://gpsprune.activityworkshop.net/screenshots.html
 * How-tos and instructions: http://gpsprune.activityworkshop.net/how-tos.html
 
