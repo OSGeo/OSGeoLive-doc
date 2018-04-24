@@ -5,7 +5,6 @@
 #---------------------
 set(OSGeoLiveDoc_IMG_FILES
     "banner.png"
-    "banner.svg"
     )
 
 
