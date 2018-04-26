@@ -64,4 +64,4 @@ Details
 
 .. presentation-note
     SpatiaLite adds spatial functionality to the popular SQLite database. 
-    SQLite is a self-contained, zero-administration, relational database, which can pre-built into applications without needing a database server.  Each SQLite data store is kept in one file, which can easily be copied between platforms and around the internet without complication.
+    SQLite is a self-contained, zero-administration, relational database, which can be pre-built into applications without needing a database server.  Each SQLite data store is kept in one file, which can easily be copied between platforms and around the internet without complication.

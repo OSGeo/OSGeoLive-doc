@@ -14,7 +14,7 @@
 GPS Track-Editing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`GpsPrune <http://gpsprune.activityworkshop.net/>`_ is a tool for viewing,
+`GpsPrune <https://gpsprune.activityworkshop.net/>`_ is a tool for viewing,
 editing and converting coordinate data from GPS systems.  It can be used for planning
 trips in advance, or for analysing the tracks recorded by GPS receivers.
 
@@ -48,7 +48,7 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://gpsprune.activityworkshop.net/
+**Website:** https://gpsprune.activityworkshop.net/
 
 **Licence:** GNU General Public License (GPL) version 2
 

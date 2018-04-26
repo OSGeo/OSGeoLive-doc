@@ -14,7 +14,7 @@ Disaster Management Platform
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Sahana Eden is a Family of Applications to Help You Help Others.
-It provides web based collaboration tools that addresses the common coordination problems faced during a disaster including finding missing people, managing aid, 
+It provides web based collaboration tools that address the common coordination problems faced during a disaster including finding missing people, managing aid,
 managing volunteers, and tracking camps effectively between Government 
 groups, the civil society (NGOs) and the victims themselves. 
 
@@ -25,7 +25,7 @@ development community to help their fellow countrymen and
 countrywomen affected during the 2004 Asian Tsunami in December 2004. 
 The system was officially used by the Government of Sri Lanka and the 
 system was released as Free and Open Source software. Subsequently a 
-re-write as a generic disaster management tools was incubated with 
+re-write as a generic disaster management tool was incubated with 
 the sponsorship of the Swedish International Development Agency, IBM, the US National Science Foundation and it has been used by 
 dozens of Governments and NGOs since then.
 

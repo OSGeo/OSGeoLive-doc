@@ -22,7 +22,7 @@ TinyOWS is a high performance, Transactional Web Feature Service (WFS-T) which i
   :alt: digitizing
   :align: right
 
-TinyOWS is commonly used in conjunction with :doc:`MapServer <mapserver_overview>` to provide WFS-T and fast WFS services for :doc:`QGIS <qgis_overview>` and/or :doc:`OpenLayers <openlayers_overview>` clients. It is used in production in organisations around the world, including risk adverse government agencies.
+TinyOWS is commonly used in conjunction with :doc:`MapServer <mapserver_overview>` to provide WFS-T and fast WFS services for :doc:`QGIS <qgis_overview>` and/or :doc:`OpenLayers <openlayers_overview>` clients. It is used in production in organisations around the world, including risk-averse government agencies.
 TinyOWS strictly implements the WFS 1.0 and 1.1 standards, and has passed all OGC CITE units tests (~ 1000 unit tests).
 
 Core Features
