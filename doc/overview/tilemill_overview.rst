@@ -24,7 +24,7 @@ Generated webmaps can use hover tooltips, clickable pop ups, interactive graphs 
 
 Data can be sourced from vector data (CSV, shapefile, KML, GeoJSON), raster (GeoTiff), as well as large data sources like OpenStreetMap, PostgreSQL/PostGIS and SQLite.
 
-Tilemill makes use of the :doc:`Mapnik <mapnik_overview>` map rendering library (as used by OpenStreeMap) and uses the CartoCSS as a stylesheet language.
+Tilemill makes use of the :doc:`Mapnik <mapnik_overview>` map rendering library (as used by OpenStreetMap) and uses the CartoCSS as a stylesheet language.
 
 TileMill is typically used in conjunction with a desktop GIS (like QGIS) for preparing data, and a graphics editor (like GIMP) for creating icons, patterns and textures.
 
