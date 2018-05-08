@@ -194,14 +194,9 @@ A WMS returns an XML-file when the getCapabilities document is requested. This i
      :scale: 70 %
 
 
-Here are some example WMS:
-
-Germany workshop demo 
-
-http://wms.wheregroup.com/cgi-bin/germany_workshop.xml?VERSION=1.1.1&REQUEST=GetCapabilities&SERVICE=WMS 
+Here is a example WMS:
 
 WhereGroup OSM WMS
-
 https://osm-demo.wheregroup.com/service
 
 
