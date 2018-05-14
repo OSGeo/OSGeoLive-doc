@@ -3,6 +3,7 @@ set (LOCAL
     "osgeolive_install_quickstart.rst"
     "internationalisation_quickstart.rst"
     "osgeolive_quickstart.rst"
+    "hyperv_quickstart.rst"
     "virtualization_quickstart.rst"
     "usb_quickstart.rst"
 
