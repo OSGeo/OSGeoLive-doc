@@ -25,16 +25,71 @@ needs to have the following hardware requirements:
 * RAM: 4 GB minimum
 * 64-bit Processor
 
+Downloads and Virtual Machine Conversion
+--------------------------------------------------------------------------------
+
+Download the OSGeoLive VirtualBox virtual hard disk (vmdk) by following the links on `live.osgeo.org <http://live.osgeo.org/en/download.html>`_. 
+Once downloaded unzip the downloaded file (using `7zip <http://www.7-zip.org>`_ ).
+
+The virtual machine image format for Hyper-V differs from the VirtualBox download. The file therefore has to be converted from ``vmdk`` to
+``vhdx``. There are currently two conversion options available. 
+
+StarWind V2V Converter
+++++++++++++++++++++++
+
+Use the `StarWind V2V Converter <https://www.starwindsoftware.com/converter>`_ program. This has a simple user interface allowing you to select the
+``osgeo-live-XX.X-vm.vmdk`` file and convert to a *Microsoft VHDX* image. 
+
+Microsoft Virtual Machine Converter 3.0
++++++++++++++++++++++++++++++++++++++++
+
+The second more complicated option is as follows.
+
+#. Download the `Microsoft Virtual Machine Converter 3.0 <https://www.microsoft.com/en-us/download/details.aspx?id=42497>`_ and install. 
+#. Download the `DS File Ops Kit <http://members.ozemail.com.au/~nulifetv/freezip/freeware/dsfok.zip>`_ and unzip. 
+#. Open PowerShell (with administrator rights)
+#. Run the following command to get the disk descriptor from the OSGeoLive vmdk. This saves the disk description to the "descriptor1.txt" file. 
+
+   .. code-block:: bat
+  
+      cd D:\osgeo-live-11.0-vm
+      D:\tools\dsfo.exe .\osgeo-live-11.0-vm.vmdk 512 1024 descriptor1.txt
+  
+#. Open this in a text editor (such as Notepad) and comment out the following lines using hashes (this metadata is VirtualBox specific and is not recognised by the converter):
+
+   .. code-block:: bat 
+ 
+      #ddb.uuid.image="0247ca9d-f9aa-4910-9e8c-1c14d83a7749"
+      #ddb.uuid.parent="00000000-0000-0000-0000-000000000000"
+      #ddb.uuid.modification="81a1d704-3e4a-443d-a5ca-2fd085ba086a"
+      #ddb.uuid.parentmodification="00000000-0000-0000-0000-000000000000"
+      #ddb.comment=""
+        
+#. Run the following command to insert the disk descriptor back into the ``vmdk`` file:
+
+   .. code-block:: bat 
+   
+      D:\tools\dsfi.exe .\osgeo-live-11.0-vm.vmdk 512 1024 descriptor1.txt
+
+   .. note::
+   
+      Failing to do the above steps will result in the error *"ConvertTo-MvmcVirtualHardDisk : The entry 0247ca9d-f9aa-4910-9e8c-1c14d83a7749 is not a supported 
+      disk database entry for the descriptor."*
+    
+#. Finally run the conversion process:
+
+   .. code-block:: bat
+   
+      Import-Module "C:\Program Files\Microsoft Virtual Machine Converter\MvmcCmdlet.psd1"
+      cd D:\osgeo-live-11.0-vm
+      ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath .\osgeo-live-11.0-vm.vmdk -VhdFormat Vhdx 
+
+
 How-To
 --------------------------------------------------------------------------------
 
 This guide assumes Hyper-V is already installed and enabled - if this is not the case the more typical approach using 
 Virtual Box outlined at :doc:`virtualization_quickstart` can be used. 
-
-**Downloads**
-
-Download the OSGeoLive Hyper-V virtual hard disk (vhdx) by following the links on `live.osgeo.org <http://live.osgeo.org/en/download.html>`_. 
-Once downloaded unzip the downloaded file (using `7zip <http://www.7-zip.org>`_ ).
 
 **Create a Virtual Machine**
 
