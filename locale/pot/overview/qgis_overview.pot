@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"POT-Creation-Date: 2018-05-29 13:18-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "Desktop GIS"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rst:25
-msgid "QGIS is a user friendly, Open Source, GIS client where you can visualize, manage, edit, analyse data, and compose printable maps. It includes powerful analytical functionality through integration with :doc:`GRASS <grass_overview>`, :doc:`SAGA <saga_overview>`, :doc:`Orfeo Toolbox <otb_overview>` , :doc:`GDAL/OGR <gdal_overview>` and many other algorithm providers. It runs on Linux, Unix, Mac OSX, and Windows and supports numerous vector,raster and database formats and functionality."
+msgid "QGIS is a user friendly, Open Source, GIS client where you can visualize, manage, edit, analyse data, and compose printable maps. It includes powerful analytical functionality through integration with :doc:`GRASS <grass_overview>`, :doc:`SAGA <saga_overview>`, :doc:`Orfeo Toolbox <otb_overview>` , :doc:`GDAL/OGR <gdal_overview>` and many other algorithm providers. It runs on Linux, Unix, Mac OSX, and Windows and supports numerous vector, raster and database formats and functionality."
 msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rst:36

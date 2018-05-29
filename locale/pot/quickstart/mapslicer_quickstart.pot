@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-26 19:24-0600\n"
+"POT-Creation-Date: 2018-05-29 13:18-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,55 +52,55 @@ msgstr ""
 msgid "Select the **Tile Profile**. Choose *Image Based Tiles (raster)* for standard web publishing. Click *Continue*."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:35
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:36
 msgid "Choose the **Source Data Files**. Browse to select the raster image you want to tile. It is also possible to select a NODATA colour that will appear as transparent in the resulting image. Click *Continue*."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:40
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:42
 msgid "Specify the **Spatial Reference System / Coordinate System** of the image. Specify the id-number from the EPSG database. Click *Continue*."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:45
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:48
 msgid "Specify details about the **Tile Pyramid**. The default settings for zoom levels and file format are often best. Click *Continue*."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:50
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:54
 msgid "Specify details about the **Destination folder and Addresses / URLs** for the tileset. If you do not know these, they can be added into the default *googlemaps.html* and *openlayers.html* files after tile generation. Click *Continue*."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:55
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:60
 msgid "Tick the **Viewers that should be generated**. By default, a *openlayers.html* file is generated. Click *Continue*."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:60
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:66
 msgid "Specify the **Details for generating the Viewers**, such as the title, copyright notice, and API keys. If you do not know these, they can be added into the default *googlemaps.html / openlayers.html* files after tile generation. Click *Continue*."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:65
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:72
 msgid "Click **Render** to start rendering the image."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:70
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:78
 msgid "When complete, MapSlicer provides a link to the finished tileset."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:75
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:84
 msgid "Open the *openlayers.html* files in a web browser to view the tileset as an overlay on the live online map. To present this on the web, just copy the entire tileset and all subdirectories to a web server, and edit the googlemaps.html or openlayers.html files as required."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:82
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:92
 msgid "Using gdal2tiles to create a MBTiles database"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:84
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:94
 msgid "MapSlicer is essentially a GUI frontend to the `gdal2tiles.py` script. An updated version of `gdal2tiles.py` is also present on the Live disc. The resulting tile trees created by these software can be used with the `mb-util` program to create an mbtiles database, for use with smartphone software like `Geopaparazzi <http://geopaparazzi.github.io/geopaparazzi/>`_."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:90
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:100
 msgid "To create an MBTiles SQLite database from the newly created tile tree, open a terminal, then"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:100
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:110
 msgid "See `gdal2tiles.py --help` and `mb-util --help` for additional information on running these tools."
 msgstr ""
 

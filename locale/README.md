@@ -45,7 +45,7 @@ git diff .tx/config
 ## Push changed resources to transifex
 
 ```
-bash bin/push_transifex.sh
+bash scripts/push_transifex.sh
 ```
 
 ## Commit changes

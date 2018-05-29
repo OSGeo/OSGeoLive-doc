@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"POT-Creation-Date: 2018-05-29 13:18-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -197,7 +197,7 @@ msgid "**Licence:** LGPL"
 msgstr ""
 
 #: ../../build/doc/overview/geotools_overview.rst:113
-msgid "**Supported Platforms:** Cross Platform Java 6,7,8"
+msgid "**Supported Platforms:** Cross Platform Java 8,9,10"
 msgstr ""
 
 #: ../../build/doc/overview/geotools_overview.rst:115
