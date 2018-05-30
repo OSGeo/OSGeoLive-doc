@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.0\n"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:15
+msgid "EOxServer"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:18
+msgid "About"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:20
+msgid ""
+"EOxServer is a server for presenting big Earth Observation (EO) data "
+"archives and metadata via Open Standards."
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:23
+msgid ""
+"Earth Observation data currently supported includes 2D raster data "
+"generally acquired using sensors on satellites or aircrafts and including"
+" information about the time of acquisition and the footprint on planet "
+"Earth. It is typically used to monitor Earth's natural and built "
+"environment."
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:28
+msgid ""
+"EOxServer builds upon an Open Source stack of software which includes "
+"Python, :doc:`MapServer <mapserver_overview>`, Django/GeoDjango, "
+":doc:`GDAL <gdal_overview>`, PROJ.4, and a :doc:`SpatiaLite "
+"<spatialite_overview>` or :doc:`PostGIS <postgis_overview>` database."
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:40
+msgid "Core Features"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:42
+msgid "View, filter, subset, and download EO data"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:43
+msgid "Register EO data archives"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:44
+msgid "Web based and command line administration interface"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:45
+msgid ""
+"Publish data via `Open Geospatial Consortium (OGC) standards "
+"<http://www.opengeospatial.org/standards>`__:"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:48
+msgid ""
+"`Web Coverage Service (WCS) "
+"<http://www.opengeospatial.org/standards/wcs>`__ 1.0, 1.1 and 2.0 & "
+"proposed EO-WCS"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:50
+msgid ""
+"`Web Map Service (WMS) <http://www.opengeospatial.org/standards/wms>`__ &"
+" EO-WMS"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:51
+msgid ""
+"Proposed extensions to WCS including: GeoTIFF encoding, predefined "
+"projections (CRSs), scaling, and interpolation."
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:53
+msgid ""
+"Protocols supported are: KVP and XML/POST (used together with SOAP2POST "
+"Proxy to provide also XML/SOAP)"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:56
+msgid "Publish using the following formats and groupings:"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:58
+msgid "2-D EO Coverages derived from gmlcov:RectifiedGridCoverage"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:59
+msgid "2-D EO Coverages derived from gmlcov:ReferenceableGridCoverage"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:60
+msgid "Dataset Series as a collection of EO Coverages e.g. in a time series"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:61
+msgid "Stitched Mosaics of Rectified EO Coverages including contributingFootprint"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:63
+msgid "Coverage formats supported:"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:65
+msgid "GeoTIFF"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:66
+msgid "Formats supported by the GDAL library"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:69
+msgid "Implemented Standards"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:71
+msgid "WCS, EO-WCS"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:72
+msgid "WMS, EO-WMS"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:73
+msgid "WPS"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:74
+msgid "GML, GMLCOV, EO-O&M"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:75
+msgid "OpenSearch"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:78
+msgid "Details"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:80
+msgid "**Website:** https://eoxserver.readthedocs.org/"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:82
+msgid ""
+"**Licence:** `MIT-style license "
+"<https://eoxserver.readthedocs.org/en/latest/copyright.html#license>`_"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:84
+msgid "**Software Version:** |version-eoxserver|"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:86
+msgid "**Supported Platforms:** Linux, Windows, Mac"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:88
+msgid "**API Interfaces:** Python"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:90
+msgid ""
+"**Support:** "
+"https://eoxserver.readthedocs.org/en/latest/users/basics.html#where-can-i"
+"-get-support"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:94
+msgid "Quickstart"
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:96
+msgid ":doc:`Quickstart documentation <../quickstart/eoxserver_quickstart>`"
+msgstr ""
+

@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../build/doc/overview/marble_overview.rst:18
+msgid "Marble"
+msgstr "Marble"
+
+#: ../../build/doc/overview/marble_overview.rst:21
+msgid "Virtual globe and world atlas"
+msgstr "Globe virtuel et atlas mondial"
+
+#: ../../build/doc/overview/marble_overview.rst:23
+msgid ""
+"Marble is an open source KDE Education Project program similar to `NASA "
+"World Wind <http://worldwind.arc.nasa.gov/java/>`_ or Google Earth. Besides "
+"choosing any number of maps to view on your globe (including `OpenStreetMaps"
+" <http://www.osm.org>`_), you are encouraged to include a KDE Marble widget "
+"in your application."
+msgstr ""
+"Marble est un programme du projet opensource KDE Education similaire à `NASA"
+" World Wind <http://worldwind.arc.nasa.gov/java/>`_ ou Google Earth. A part "
+"pour choisir n'importe quel nombre de cartes à visualiser dans votre globe "
+"(en incluant `OpenStreetMaps <http://www.osm.org>`_), vous êtes encouragés à"
+" inclure un widget KDE Marble widget dans votre application."
+
+#: ../../build/doc/overview/marble_overview.rst:29
+msgid ""
+"Explore the neighborhood with Marble's rich set of city and street level "
+"maps. Search for addresses and places of interest. Marble takes care of "
+"querying various search backends and presents their results in a unified "
+"view. Calculate pedestrian, bike and motorcar routes with ease - online and "
+"offline, with an arbitrary number of via points."
+msgstr ""
+"Explorez le quartier avec l'ensemble de cartes de ville et de rues de "
+"Marble. Recherchez des adresses et des lieux d'intérêt. Marble s'occupe de "
+"l'interrogation des différents moteurs de recherche et présente leurs "
+"résultats dans une vue unifiée. Calculez facilement les itinéraires "
+"piétonniers, cyclables et automobiles - en ligne et hors ligne, avec un "
+"nombre arbitraire de points intermédiaires."
+
+#: ../../build/doc/overview/marble_overview.rst:35
+msgid ""
+"Start exploring the world. View clouds and sun shadow, follow satellites and"
+" space stations and display their orbits, all updated in real-time. Travel "
+"back in time and learn about historic views of our planet using maps from "
+"past centuries. Earth is not enough? Marble also offers maps of the moon and"
+" other planets."
+msgstr ""
+"Commencez à explorer le monde. Observez les nuages et l'ombre du soleil, "
+"suivez les satellites et les stations spatiales et affichez leurs orbites, "
+"toutes mises à jour en temps réel. Voyagez dans le temps et découvrez des "
+"vues historiques de notre planète à l'aide de cartes des siècles passés. La "
+"Terre ne suffit pas? Marble offre également des cartes de la lune et "
+"d'autres planètes."
+
+#: ../../build/doc/overview/marble_overview.rst:48
+msgid "Core Features"
+msgstr "Caractéristiques principales"
+
+#: ../../build/doc/overview/marble_overview.rst:50
+msgid "Virtual Globe And World Atlas"
+msgstr "Globe virtuel et atlas mondial"
+
+#: ../../build/doc/overview/marble_overview.rst:51
+msgid "Easy to use"
+msgstr "Facile à utiliser"
+
+#: ../../build/doc/overview/marble_overview.rst:52
+msgid "A great solution for the geography lessons"
+msgstr "Une excellente solution pour les cours de géographie"
+
+#: ../../build/doc/overview/marble_overview.rst:53
+msgid ""
+"Map Presentation (Atlas View, Street Maps, Satellite Maps, Topographic Maps,"
+" Educational Maps)"
+msgstr ""
+"Présentation de carte (vue de l'atlas, cartes routières, cartes satellites, "
+"cartes topographiques, cartes éducatives)"
+
+#: ../../build/doc/overview/marble_overview.rst:54
+msgid "Navigate globe in 3D"
+msgstr "Navigation dans un globe en 3D"
+
+#: ../../build/doc/overview/marble_overview.rst:55
+msgid "3 different projections are available (3D Globe, Flat Map, Mercator)"
+msgstr ""
+"3 projections différentes sont disponibles (globe 3D, carte plate, Mercator)"
+
+#: ../../build/doc/overview/marble_overview.rst:56
+msgid ""
+"Information layers (Weather, Real-time clouds, Day/Night View, Real-time "
+"Satellites, Wikipedia Articles, Photos, Postal Codes, Earthquakes)"
+msgstr ""
+"Couches d'information (météo, nuages en temps réel, vue jour/nuit, "
+"satellites en temps réel, articles Wikipédia, photos, codes postaux, "
+"tremblements de terre)"
+
+#: ../../build/doc/overview/marble_overview.rst:57
+msgid "Search (Online address search, Online POI search)"
+msgstr "Recherche (recherche d’adresses, de POI en ligne)"
+
+#: ../../build/doc/overview/marble_overview.rst:58
+msgid ""
+"Positioning & Tracking (GPS and WLAN localization, Track export in KML)"
+msgstr ""
+"Positionnement et suivi (localisation GPS et WLAN, exportation de trace en "
+"KML)"
+
+#: ../../build/doc/overview/marble_overview.rst:59
+msgid ""
+"Routing & Navigation (Voice navigation, Online motorcar routing, Online bike"
+" routing, Online pedestrian routing, Offline routing optional download, "
+"Turn-by-turn navigation)"
+msgstr ""
+"Calcul d'itinéraire et navigation (navigation vocale, calcul d'itinéraire "
+"automobile, vélo et piéton en ligne, téléchargement de calcul d'itinéraire "
+"pour le hors ligne, navigation guidée)"
+
+#: ../../build/doc/overview/marble_overview.rst:60
+msgid "Interactive KML tours (Creating, editing, viewing)"
+msgstr "Tours KML interactifs (création, édition, visualisation)"
+
+#: ../../build/doc/overview/marble_overview.rst:61
+msgid ""
+"Integration with many online services (Amateur Radio Aprs, OpenCaching.com, "
+"etc.)"
+msgstr ""
+"Intégration avec de nombreux services en ligne (Amateur Radio Aprs, "
+"OpenCaching.com, etc.)"
+
+#: ../../build/doc/overview/marble_overview.rst:62
+msgid "WMS & TMS support"
+msgstr "Support WMS & TMS"
+
+#: ../../build/doc/overview/marble_overview.rst:63
+msgid "Tools (Distance Measurement, Bookmarks, Time Simulation, Offline Mode)"
+msgstr ""
+"Outils (mesures de distance, favoris, simulation temporelle, mode hors "
+"ligne)"
+
+#: ../../build/doc/overview/marble_overview.rst:64
+msgid "`OpenStreetMap <http://www.osm.org>`_ integration"
+msgstr "intégration `OpenStreetMap <http://www.osm.org>`_"
+
+#: ../../build/doc/overview/marble_overview.rst:68
+msgid "Details"
+msgstr "Détails"
+
+#: ../../build/doc/overview/marble_overview.rst:70
+msgid "**Website:** http://marble.kde.org"
+msgstr "**Site web:** http://marble.kde.org"
+
+#: ../../build/doc/overview/marble_overview.rst:72
+msgid "**Licence:** GNU Lesser General Public License (LGPL) version 2.1"
+msgstr "**Licence:** GNU Lesser General Public License (LGPL) version 2.1"
+
+#: ../../build/doc/overview/marble_overview.rst:74
+msgid "**Software Version:** |version-marble|"
+msgstr "**Version du logiciel:** |version-marble|"
+
+#: ../../build/doc/overview/marble_overview.rst:76
+msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows, Maemo 5"
+msgstr ""
+"**Plates-formes supportées :** GNU/Linux, Mac OSX, MS Windows, Maemo 5"
+
+#: ../../build/doc/overview/marble_overview.rst:78
+msgid "**API Interfaces:** Qt designer, C++, Python, D-BUS, Shell script"
+msgstr "**Interfaces d'API:** Qt designer, C++, Python, D-BUS, Shell script"
+
+#: ../../build/doc/overview/marble_overview.rst:80
+msgid "**Support:** http://techbase.kde.org/Projects/Marble"
+msgstr "**Support:** http://techbase.kde.org/Projects/Marble"
+
+#: ../../build/doc/overview/marble_overview.rst:82
+msgid "**More Info:** http://www.slideshare.net/marbleglobe/marble-1-6en"
+msgstr "**Plus d'infos:** http://www.slideshare.net/marbleglobe/marble-1-6en"
+
+#: ../../build/doc/overview/marble_overview.rst:87
+msgid "Quickstart"
+msgstr "Guide de démarrage rapide"
+
+#: ../../build/doc/overview/marble_overview.rst:89
+msgid ":doc:`Quickstart documentation <../quickstart/marble_quickstart>`"
+msgstr ""
+":doc:`Documentation du guide de démarrage rapide "
+"<../quickstart/marble_quickstart>`"

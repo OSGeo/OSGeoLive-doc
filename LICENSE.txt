@@ -1,0 +1,12 @@
+OSGeoLive is composed entirely of free software, free data and free documentation, allowing it to be freely distributed, duplicated and passed around.
+
+* Project Overviews and Overview Translations, are provided under a Creative Commons Attribution 3.0 Unported License (https://creativecommons.org/licenses/by/3.0/).
+
+* Quickstarts and Quickstart Translations, are provided under a Creative Commons Attribution-ShareAlike 3.0 Unported License (https://creativecommons.org/licenses/by-sa/3.0/).
+    
+* Documentation might also be available under other licenses, as listed below.
+    
+* Software on OSGeoLive is available under various Free and Open Source licenses, as listed in the Project Overviews.
+    
+* Data on OSGeoLive is available under various Open Licences.
+

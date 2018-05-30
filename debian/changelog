@@ -1,3 +1,33 @@
+osgeolive-docs (12.0~alpha0) bionic; urgency=medium
+
+  * Prepare for new cmake builds 
+
+ -- Johan Van de Wauw <johan@gisky.be>  Tue, 22 May 2018 08:44:35 +0200
+
+osgeolive-docs (11.0) xenial; urgency=medium
+
+  * Preparing 11.0 release
+
+ -- Angelos Tzotsos <gcpp.kalxas@gmail.com>  Sun, 23 Jul 2017 21:00:00 +0200
+
+osgeolive-docs (11.0~rc1) xenial; urgency=medium
+
+  * Preparing 11.0 rc1 release
+
+ -- Angelos Tzotsos <gcpp.kalxas@gmail.com>  Fri, 21 Jul 2017 11:00:00 +0200
+
+osgeolive-docs (11.0~beta1) xenial; urgency=medium
+
+  * Preparing 11.0 beta1 release
+
+ -- Angelos Tzotsos <gcpp.kalxas@gmail.com>  Tue, 27 Jun 2017 11:00:00 +0200
+
+osgeolive-docs (11.0~alpha1) xenial; urgency=medium
+
+  * Preparing 11.0 alpha1 release
+
+ -- Angelos Tzotsos <gcpp.kalxas@gmail.com>  Mon, 05 Jun 2017 21:00:00 +0200
+
 osgeolive-docs (10.5) xenial; urgency=medium
 
   * Preparing 10.5 release

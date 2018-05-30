@@ -1,0 +1,172 @@
+=================================================
+OSGeoLive
+=================================================
+
+.. revealjs:: OSGeoLive
+    :title-heading: h2
+    :subtitle: An Open Source Geospatial GNU/Linux Distribution
+    :subtitle-heading: h3
+
+        .. image:: ../images/banner.png
+
+
+    .. rv_small::
+
+        Press "s" for slide notes, ESC to zoom out, SPACE / arrow keys to navigate.
+    
+    .. rv_note::
+        This OSGeo-Live Overview, originally compiled by Cameron Shorter is licensed under a Creative Commons Attribution 3.0 License. It is derived from OSGeo-Live Project Overviews, which are authored by the numerous OSGeo-Live authors as referenced in the credits page at the end of this presentation, and also at <a href="https://live.osgeo.org">https://live.osgeo.org</a>.
+        We have created this presentation in the hope that it will help increase the awareness and uptake of the breadth of quality GeoSpatial Open Source Software.
+        Please feel free to use these slides, or a subset of these slides, for whatever purposes you see fit, but please credit us authors.
+        The latest version of this presentation and abstract is available at <a href="https://github.com/OSGeo/OSGeoLive-doc/tree/master/en/presentation">https://github.com/OSGeo/OSGeoLive-doc/tree/master/en/presentation</a>.
+        These slides make use of the <a href="http://lab.hakim.se/reveal-js/#/">reveal</a> javascript presentation library. Press "s" for Speaker Notes, [ESC] to zoom out, [SPACE] and arrow keys to navigate.
+
+.. revealjs::
+
+    .. revealjs:: What is OSGeoLive?
+
+        .. image:: ../images/projects/osgeolive/osgeolive_menu.png
+        
+        .. rv_note::
+            no notes :)
+            
+            
+    .. revealjs:: Components on OSGeoLive
+
+        * 50+ Open Source Geospatial Applications.
+        * Sample Datasets.
+        * Consistent Overviews & Quickstarts.
+        * Translations.
+
+
+        .. rv_note::
+            OSGeo-Live is a self-contained bootable DVD, based on the Lubuntu Linux distribution, that is pre-installed and pre-configured with over 50 of the best GeoSpatial Open Source applications along with sample datasets.
+            It contains overview and quickstart documentation for each application, as well as documentation about key OGC spatial standards.
+            The DVD is ideal for handing out at conferences, using in workshops, and trialling a range of Open Source Software.
+
+    .. revealjs:: DVD / USB / Virtual Machine
+
+        .. image:: ../images/presentation/virtual_machine_usb.png
+            :height: 400
+
+        .. rv_note::
+            OSGeoLive can also be run from a DVD, USB flash drive, installed into a Virtual Machine, or installed onto your hard drive.
+            This presentation provides a lightning overview of all applications installed on OSGeoLive, which effectively gives you a birds eye view of the breadth of robust GeoSpatial Open Source Software available.
+
+    .. revealjs:: Quality Criteria
+
+        * Established, stable, working software
+        * Active community
+        * `Metrics <https://live.osgeo.org/en/metrics.html>`__
+
+        .. image:: ../images/presentation/metrics.png
+            :height: 400
+
+        .. rv_note::
+            OSGeoLive helps new users quickly find quality GIS applications from the myriads of options.
+            OSGeoLive only accepts established open source projects, and users can then verify the application works by running it on OSGeoLive.
+            This slide shows the OpenHUB metrics page, which shows the community size and activity.
+
+    .. revealjs:: Production & Marketing Pipeline
+
+        .. image:: ../images/presentation/pipeline.png
+            :height: 400
+
+        .. rv_note::
+            * OSGeoLive provides a production and marketing pipeline, providing value to a whole range of user groups.
+            * Developers who package and support testing of their applications on OSGeoLive get their applications marketed at conferences, workshops and on the web.
+            * Document writers get their documentation reviewed, translated into multiple languages and published.
+            * Translators are provided with quality source documentation, and a publish through OSGeo web pages.
+            * Conference organisers welcome presentations which explain the breadth of Geospatial Open Source, often having a VIP present a derivative of the OSGeoLive during keynote presentations, and adding value to delegates by giving away an OSGeoLive DVD or USB.
+            * Geospatial educators and workshop presenters use the stable OGeo-Live Virtual Machine or USB for practical class room settings.
+            * Which all leads to Architects and Developers discovering, and then incorporating Open Source Geospatial software in their projects.
+
+    .. revealjs:: Reboot for 11.0</h2>
+
+        * Reduced scope of OSGeoLive 11.0 release
+        * Reviewed all projects, focusing on quality of documentation
+        * Rebaselined to focus on leading applications
+        * Dropped:
+
+          * Windows-only applications/installers
+          * Overviews of OGC Standards
+          * Quickstarts of Libraries
+          * Some applications that did not meet our review criteria
+
+        * Only support a 64 bit distribution (32 bit is built but not officially supported)
+
+        .. rv_note::
+
+            In OSGeoLive Version 11.0 no new projects were included. We reduced our scope in order to meet the level of effort provided by our volunteers.
+
+    .. revealjs:: What is new in 11.0</h2>
+
+        * Re-based to Lubuntu 16.04.2
+        * Updated core packages based on DebianGIS
+        * Major documentation updates
+        * Work being done to move translations to Transifex for 12.0
+        * Embraced OSGeo re-branding
+        * Full `changelog <href="https://github.com/OSGeo/OSGeoLive/blob/master/CHANGES.txt">`__
+        * Updated packages will soon land in UbuntuGIS
+
+        .. rv_note::
+            In OSGeoLive Version 11.0 we updated many existing applications.
+
+
+
+
+.. revealjs::
+
+    .. revealjs:: Open Source Geospatial Foundation (OSGeo)
+        :title-heading: h2
+
+        .. image:: ../images/logos/OSGeo_compass_with_text_square.png
+            :alt: OSGeo
+            :height: 300
+            :target: http://osgeo.org
+
+        .. rv_note::
+            Set up in 2006, the OSGeo Foundation is non-profit for the geospatial community which fosters an open approach to software, standards, education, research and data.
+            It supports with advocacy, events, organisation and legal matters.
+            OSGeoLive derives its name from the Open Source GeoSpatial Foundation, or OSGeo for short.
+
+    .. revealjs:: OSGeo
+        :title-heading: h2
+
+        Non Profit for geospatial community, fostering:
+
+        * Free and Open Source Software
+        * Open Standards
+        * Open Education
+        * Open Research
+        * Open Data
+ 
+    .. revealjs:: An Open Source Geospatial GNU/Linux Distribution
+
+        .. image:: ../images/presentation/gnu.png
+            :height: 300
+            :alt: "GNU"
+
+
+    .. revealjs:: OGC Standards
+
+        * Interoperability
+        * Future Proof
+        * Return on Investment
+
+        |
+
+        .. image:: ../images/presentation/ogc.png
+            :height: 300px
+            :align: center
+
+
+
+        .. rv_note::
+            * Open Source applications have a reputation for excellent standards compliance. Notably, the OGC uses Open Source projects when defining reference implementations for standards.
+            * OSGeoLive includes overviews of some of the key OGC standards in simple language so they can be understood by people without a technical background.
+            * Building Spatial Data Infrastructures using standards, facilitates interoperability between proprietary and open source applications.
+            * It facilitates sharing data between agencies.
+            * It reduces long term costs associated with data maintenance,
+            * and it reduces long term project risk by avoiding dependence upon proprietary formats or products, thus avoiding vendor lock-in.
+
