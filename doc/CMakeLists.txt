@@ -103,7 +103,7 @@ if (LOCALE)
         "${CMAKE_CURRENT_BINARY_DIR}" 
         "${CMAKE_SOURCE_DIR}/locale/pot" 
 
-        #COMMAND sphinx-intl update -d ${CMAKE_SOURCE_DIR}/locale -l en
+        COMMAND sphinx-intl update -d ${CMAKE_SOURCE_DIR}/locale -l en
 
         #COMMAND sphinx-intl update-txconfig-resources --locale-dir ${CMAKE_SOURCE_DIR}/locale --pot-dir ${CMAKE_SOURCE_DIR}/locale/pot --transifex-project-name osgeolive
 

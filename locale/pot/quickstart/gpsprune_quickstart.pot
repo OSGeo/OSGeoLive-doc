@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"POT-Creation-Date: 2018-05-29 13:18-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "GpsPrune is a java application for viewing and editing coordinate data.  
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:17
-msgid "In this Quick Start, we will load and view a data file included on this live DVD, and access some online information to supplement it.  It will be useful therefore if you have some kind of internet connection for this demonstration."
+msgid "In this Quick Start, we will load and view a data file included on this live image, and access some online information to supplement it.  It will be useful therefore if you have some kind of internet connection for this demonstration."
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:20
@@ -33,7 +33,7 @@ msgid "Getting Started"
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:22
-msgid "To run GpsPrune on the live DVD, select the icon \"GpsPrune\" in the Navigation and Maps menu.  This will then give you the empty window shown below."
+msgid "To run GpsPrune on the live system, select the icon \"GpsPrune\" in the Navigation and Maps menu.  This will then give you the empty window shown below."
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:27
@@ -61,7 +61,7 @@ msgid "Customizing the display"
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:49
-msgid "You can change the map with the menu option :menuselection:`Settings --> Set map background`. Let's have a look at an alternative map source by selecting the second one, \"Cyclemap\".  This uses the maps from OpenCycleMap to show additional information useful for hiking and cycling such as contour lines and cycle routes."
+msgid "You can change the map with the menu option :menuselection:`Settings --> Set map background`. Let's have a look at an alternative map source by selecting the fifth one, \"Hikebikemap\".  This uses the maps from hikebikemap.org to show additional information useful for hiking and cycling such as contour lines and cycle routes."
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:56
@@ -101,7 +101,7 @@ msgid "Using GpsPrune on other systems"
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:80
-msgid "After trying out GpsPrune on this live DVD, you may want to use it on another system, whether it's another Linux system or Mac OSX or Windows.  Some linux distributions include GpsPrune in their normal software libraries (just search for \"Prune\" or \"GpsPrune\"), or you can just download the latest copy from the home page."
+msgid "After trying out GpsPrune on this live image, you may want to use it on another system, whether it's another Linux system or Mac OSX or Windows.  Some linux distributions include GpsPrune in their normal software libraries (just search for \"Prune\" or \"GpsPrune\"), or you can just download the latest copy from the home page."
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:82
@@ -121,11 +121,11 @@ msgid "Further reading"
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:91
-msgid "GpsPrune home page: http://gpsprune.activityworkshop.net/"
+msgid "GpsPrune home page: https://gpsprune.activityworkshop.net/"
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:92
-msgid "Screenshots: http://gpsprune.activityworkshop.net/screenshots.html"
+msgid "Screenshots: https://gpsprune.activityworkshop.net/screenshots.html"
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:93
