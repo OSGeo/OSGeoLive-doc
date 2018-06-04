@@ -287,11 +287,11 @@ The GeoServer NetCDF plugin allows the publication of rasters from NetCDF files.
 Configure a NetCDF store
 ------------------------
 
-After running "Start GeoServer", login as the administrator, click on "Add stores" then "NetCDF". Enter a value for Data Source Name (this example uses "netcdf") and a NetCDF URL. You can use the URL::
+After running "Start GeoServer", login as the administrator, click on "Add stores" then "NetCDF". Enter a value for Data Source Name (this example uses "netcdf") and a NetCDF URL. You can use this sample file::
 
-    file:///usr/local/lib/geoserver/doc/user/_downloads/polyphemus_20120401.nc
+    file:///usr/local/share/data/netcdf/polyphemus_20120401.nc
 
-This sample file from the GeoServer documentation is included with OSGeo Live. Press "Save", "Publish" the "O3" layer, then scroll down to the bottom of the "Data" tab and press "Save" again.
+Press "Save", "Publish" the "O3" layer, then scroll down to the bottom of the "Data" tab and press "Save" again.
 
     .. image:: /images/projects/geoserver/geoserver-netcdf-store.png
         :align: center
