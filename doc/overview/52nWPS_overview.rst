@@ -57,7 +57,7 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://52north.org/wps
+**Website:** https://52north.org/software/software-projects/wps/
 
 **Licence:** GPL 2
 
@@ -65,7 +65,7 @@ Details
 
 **Supported Platforms:** Windows, Linux, Mac
 
-**Commercial Support:** http://52north.org
+**Commercial Support:** https://52north.org/services/
 
 **Other 52°North projects:** :doc:`SOS <./52nSOS_overview>`
 
