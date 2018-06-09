@@ -612,3 +612,8 @@ file_filter = locale/<lang>/LC_MESSAGES/overview/pywps_overview.po
 source_file = locale/pot/overview/pywps_overview.pot
 source_lang = en
 
+[osgeolive.quickstart--hyperv_quickstart]
+file_filter = locale/<lang>/LC_MESSAGES/quickstart/hyperv_quickstart.po
+source_file = locale/pot/quickstart/hyperv_quickstart.pot
+source_lang = en
+
