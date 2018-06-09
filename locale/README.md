@@ -23,6 +23,7 @@ Follow the steps in the order presented in this README
 
 ```
 cd build
+rm -rf ../locale/en/LC_MESSAGES/*
 rm -rf *
 cmake  -DLOCALE=ON ..
 make locale > locale_log.txt
@@ -31,9 +32,9 @@ cd ..
 
 ## Verifying changes
 
-### List .pot files that changed
+### List .pot & .po files that changed
 ```
-git diff --name-only | grep '\.pot'
+git diff --name-only | grep '\.po'
 ```
 
 
@@ -44,9 +45,7 @@ git diff .tx/config
 
 ## Push changed resources to transifex
 
-```
-bash scripts/push_transifex.sh
-```
+Transifex will catch the changes
 
 ## Commit changes
 

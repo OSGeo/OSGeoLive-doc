@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011, OSGeo
+# Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.0\n"
+"Generated-By: Babel 2.5.3\n"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:24
 msgid "GeoServer Quickstart"
@@ -350,14 +350,13 @@ msgstr ""
 msgid ""
 "After running \"Start GeoServer\", login as the administrator, click on "
 "\"Add stores\" then \"NetCDF\". Enter a value for Data Source Name (this "
-"example uses \"netcdf\") and a NetCDF URL. You can use the URL::"
+"example uses \"netcdf\") and a NetCDF URL. You can use this sample file::"
 msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:300
 msgid ""
-"This sample file from the GeoServer documentation is included with OSGeo "
-"Live. Press \"Save\", \"Publish\" the \"O3\" layer, then scroll down to "
-"the bottom of the \"Data\" tab and press \"Save\" again."
+"Press \"Save\", \"Publish\" the \"O3\" layer, then scroll down to the "
+"bottom of the \"Data\" tab and press \"Save\" again."
 msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:308

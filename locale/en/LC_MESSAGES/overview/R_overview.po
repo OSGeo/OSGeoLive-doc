@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011, OSGeo
+# Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.0\n"
+"Generated-By: Babel 2.5.3\n"
 
 #: ../../build/doc/overview/R_overview.rst:14
 msgid "R for Spatial Data"
@@ -31,17 +31,25 @@ msgid ""
 "computing and graphics which excels at analyzing and processing "
 "geographic data sets. Geospatial analysis capabilities within R are "
 "available in R packages (modules that extend the capabilities of R) that "
-"provide access to a large number of traditional and state of the art "
-"algorithms, often before they are available in other open source or "
-"proprietary software. R and its packages are able to process point, line,"
-" polygon and grid data. Users can accomplish a broad array of tasks such "
-"as: image classification, statistical analysis to infer spatial "
-"relationships and patterns of features, and others listed in the core "
-"features below. The functions available via R complement and advance "
-"capabilities found in GIS and image processing software."
+"provide access to a huge number of traditional and state of the art "
+"algorithms (). R and its packages are able to process point, line, "
+"polygon, networks, grid data (etc.)."
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:32
+#: ../../build/doc/overview/R_overview.rst:27
+msgid ""
+"Users can accomplish a broad array of tasks such as: image "
+"classification, statistical analysis to infer spatial relationships and "
+"patterns of features, and others listed in the core features below. The "
+"functions available via R complement and advance capabilities found in "
+"GIS and image processing software. Using packages for parallelisation "
+"users can drastically reduce computational time and increase these "
+"capability. Several packages provide connection with other OSGeo tools "
+"and software. You can easily plug R with GRASS-GIS, Qgis, postgreSQL and "
+"postGIS."
+msgstr ""
+
+#: ../../build/doc/overview/R_overview.rst:36
 msgid ""
 "The core R interface is a command line window which provides excellent "
 "flexibility and control but tends to lengthen the time required to become"
@@ -52,7 +60,7 @@ msgid ""
 "(http://www.rstudio.com)."
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:41
+#: ../../build/doc/overview/R_overview.rst:44
 msgid ""
 "R is an implementation of the S programming language and there is "
 "significant compatibility between R and legacy S and S-Plus code as well "
@@ -61,85 +69,101 @@ msgid ""
 "R without major code modifications."
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:54
+#: ../../build/doc/overview/R_overview.rst:57
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:56
+#: ../../build/doc/overview/R_overview.rst:59
 msgid ""
 "Complete Object Oriented Programming Language designed for Statistics and"
 " similar Mathematical intensive applications"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:57
-msgid "Hundreds of community contributed add-on packages for spatial statistics"
-msgstr ""
-
-#: ../../build/doc/overview/R_overview.rst:58
-msgid "Classes for spatial data"
-msgstr ""
-
-#: ../../build/doc/overview/R_overview.rst:59
-msgid "Handling spatial data"
-msgstr ""
-
 #: ../../build/doc/overview/R_overview.rst:60
-msgid "Reading and writing spatial data"
+msgid ""
+"Currently (2017/08/11), the CRAN package repository features 11239 "
+"available packages."
 msgstr ""
 
 #: ../../build/doc/overview/R_overview.rst:61
-msgid "Point pattern analysis"
+msgid "Hundreds of community contributed add-on packages for spatial statistics"
 msgstr ""
 
 #: ../../build/doc/overview/R_overview.rst:62
-msgid "Geostatistics"
+msgid "Classes for spatial data"
 msgstr ""
 
 #: ../../build/doc/overview/R_overview.rst:63
-msgid "Disease mapping and areal data analysis"
+msgid "Reading and writing spatial data"
 msgstr ""
 
 #: ../../build/doc/overview/R_overview.rst:64
-msgid "Spatial regression"
+msgid "Point pattern analysis"
 msgstr ""
 
 #: ../../build/doc/overview/R_overview.rst:65
-msgid "Ecological analysis"
+msgid "Geostatistics"
 msgstr ""
 
 #: ../../build/doc/overview/R_overview.rst:66
+msgid "Spatial regression"
+msgstr ""
+
+#: ../../build/doc/overview/R_overview.rst:67
+msgid "Ecological analysis"
+msgstr ""
+
+#: ../../build/doc/overview/R_overview.rst:68
 msgid "Powerful raster processing algorithms"
 msgstr ""
 
 #: ../../build/doc/overview/R_overview.rst:69
-msgid "Details"
+msgid "Remote sensing"
+msgstr ""
+
+#: ../../build/doc/overview/R_overview.rst:70
+msgid "Bayesian spatial analysis"
 msgstr ""
 
 #: ../../build/doc/overview/R_overview.rst:71
+msgid "..."
+msgstr ""
+
+#: ../../build/doc/overview/R_overview.rst:74
+msgid "Details"
+msgstr ""
+
+#: ../../build/doc/overview/R_overview.rst:76
 msgid "**Website:** http://cran.r-project.org"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:73
+#: ../../build/doc/overview/R_overview.rst:78
 msgid "**Licence:** GPL"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:75
+#: ../../build/doc/overview/R_overview.rst:80
 msgid "**Software Version:** |version-R|"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:77
+#: ../../build/doc/overview/R_overview.rst:82
 msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:79
+#: ../../build/doc/overview/R_overview.rst:84
 msgid "**Community Support:** http://cran.r-project.org/web/views/Spatial.html"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:84
+#: ../../build/doc/overview/R_overview.rst:86
+msgid ""
+"**CRAN packages avalable:** "
+"https://cran.r-project.org/web/packages/available_packages_by_name.html"
+msgstr ""
+
+#: ../../build/doc/overview/R_overview.rst:91
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:86
+#: ../../build/doc/overview/R_overview.rst:93
 msgid ":doc:`Quickstart documentation <../quickstart/R_quickstart>`"
 msgstr ""
 
