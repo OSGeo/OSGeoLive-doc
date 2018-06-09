@@ -81,3 +81,18 @@ make
 cd ..
 ```
 
+## when there is a new resource
+
+```
+sphinx-intl update-txconfig-resources --locale-dir locale --pot-dir locale/pot --transifex-project-name osgeolive
+git add .tx/config
+```
+`git add` the pot & po files of the new resource
+
+```
+# tx push -s -r osgeolive.<name_of_resource>
+# for example:
+tx push -s -r osgeolive.quickstart--hyperv_quickstart
+```
+
+if doubt on name of resource inspect `tx/config` file
