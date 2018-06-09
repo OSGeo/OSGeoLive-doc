@@ -25,7 +25,7 @@ install:
   - pip install sphinx==1.6.5
   - pip install sphinx-intl
   - pip install sphinxjp.themes.revealjs
-  - sudo cpanm Text::SimpleTable::AutoWidth
+  - sudo cpanm -f -n Text::SimpleTable::AutoWidth
 
 script: 
   - mkdir build
