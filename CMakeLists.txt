@@ -20,7 +20,7 @@ set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 #---------------------------------------------
 # Setting the version number
 #---------------------------------------------
-set(OSGeoLiveDoc_VERSION_MAJOR "11")
+set(OSGeoLiveDoc_VERSION_MAJOR "12")
 set(OSGeoLiveDoc_VERSION_MINOR "0")
 set(OSGeoLiveDoc_VERSION_PATCH "0")
 set(OSGeoLiveDoc_VERSION_DEV "-dev")
