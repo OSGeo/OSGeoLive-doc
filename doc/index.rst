@@ -54,6 +54,7 @@ OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo Found
      Install OSGeoLive on your hard disk <quickstart/osgeolive_install_quickstart>
      Run OSGeoLive in a Virtual Machine <quickstart/virtualization_quickstart>
      Create an OSGeoLive bootable USB thumb drive <quickstart/usb_quickstart>
+     Running in a Hyper-V Virtual Machine <quickstart/hyperv_quickstart>
 
    .. toctree::
      :hidden:
