@@ -46,7 +46,7 @@ Opening Data
 ================================================================================
 
 #. Open the SAGA GUI and load the grid 
-   `/home/user/saga/DGM_30m_Mt.St.Helens_SRTM.grd` via the **File|Grid|Load**
+   `/home/user/data/saga/DGM_30m_Mt.St.Helens_SRTM.grd` via the **File|Grid|Load**
    menu. 
 #. You will get a message in the General tab of the Messages window regarding
    the success or failure of this task. You should see something like `Load
@@ -67,7 +67,7 @@ Opening Data
     the Memory Size.
 
 .. tip:: You can also load data by dragging and dropping it on the application. 
-   Try this with one of the datasets in the ** /home/user/gdal_natural_earth/** folder.  
+   Try this with one of the datasets in the ** /home/user/data/gdal_natural_earth/** folder.
 
 Displaying Data
 ================================================================================
