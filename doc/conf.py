@@ -60,7 +60,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'@OSGeoLiveDoc_NAME@'
-copyright = u'2011, OSGeo'
+copyright = u'2011~2018, OSGeo'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

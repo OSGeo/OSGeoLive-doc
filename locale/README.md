@@ -23,6 +23,7 @@ Follow the steps in the order presented in this README
 
 ```
 cd build
+rm -rf ../locale/en/LC_MESSAGES/*
 rm -rf *
 cmake  -DLOCALE=ON ..
 make locale > locale_log.txt
@@ -31,9 +32,9 @@ cd ..
 
 ## Verifying changes
 
-### List .pot files that changed
+### List .pot & .po files that changed
 ```
-git diff --name-only | grep '\.pot'
+git diff --name-only | grep '\.po'
 ```
 
 
@@ -44,9 +45,7 @@ git diff .tx/config
 
 ## Push changed resources to transifex
 
-```
-bash scripts/push_transifex.sh
-```
+Transifex will catch the changes
 
 ## Commit changes
 
@@ -81,3 +80,18 @@ make
 cd ..
 ```
 
+## when there is a new resource
+
+```
+sphinx-intl update-txconfig-resources --locale-dir locale --pot-dir locale/pot --transifex-project-name osgeolive
+git add .tx/config
+```
+`git add` the pot & po files of the new resource
+
+```
+# tx push -s -r osgeolive.<name_of_resource>
+# for example:
+tx push -s -r osgeolive.quickstart--hyperv_quickstart
+```
+
+if doubt on name of resource inspect `tx/config` file

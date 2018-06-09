@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011, OSGeo
+# Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -117,7 +117,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/52nWPS_overview.rst:67
-msgid "**Website:** http://52north.org/wps"
+msgid "**Website:** https://52north.org/software/software-projects/wps/"
 msgstr ""
 
 #: ../../build/doc/overview/52nWPS_overview.rst:69
@@ -133,7 +133,7 @@ msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
 #: ../../build/doc/overview/52nWPS_overview.rst:75
-msgid "**Commercial Support:** http://52north.org"
+msgid "**Commercial Support:** https://52north.org/services/"
 msgstr ""
 
 #: ../../build/doc/overview/52nWPS_overview.rst:77
