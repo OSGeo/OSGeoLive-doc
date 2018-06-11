@@ -35,5 +35,5 @@ script:
   - make
   - cd ..
   - du -h build/doc/_build/html
-  - bash bash scripts/clean-images.sh
+  - bash scripts/clean-images.sh
   - du -h build/doc/_build/html
