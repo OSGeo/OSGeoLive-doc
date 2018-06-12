@@ -34,6 +34,5 @@ script:
   - cmake -DHTML=ON -DES=ON -@OSGeoLiveDoc_DEBUG=ON ..
   - make
   - cd ..
-  - du -h build/doc/_build/html
   - bash scripts/clean-images.sh
   - du -h build/doc/_build/html
