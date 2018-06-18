@@ -37,7 +37,7 @@ Y  |  zoo-project  |  1.6.0  |  Y  |  Y  |  Web Services  |    |  Web Processing
 ######################| | | | | | | | | | |
 # Data Stores| | | | | | | | | | |
 ######################| | | | | | | | | | |
-Y  |  postgis  |  2.3.2  |  Y  |  Y  |  Data Stores  |    |  Spatial Database  |  postgis|http://postgis.net|OSGeo_project|PostGIS
+Y  |  postgis  |  2.4.3  |  Y  |  Y  |  Data Stores  |    |  Spatial Database  |  postgis|http://postgis.net|OSGeo_project|PostGIS
 Y  |  spatialite  |  4.3.0a  |  Y  |  Y  |  Data Stores  |    |  Lightweight Database  |  spatialite|http://www.gaia-gis.it/gaia-sins/| |SpatiaLite
 Y  |  rasdaman  |  9.7.0  |  Y  |  Y  |  Data Stores  |    |  Multi-Dimensional Raster Database  |  rasdaman|http://www.rasdaman.org| OSGeo_incubation |Rasdaman
 Y  |  pgrouting  |  2.4.1  |  Y  |  Y  |  Data Stores  |    |  Routing for PostGIS  |  pgrouting|http://www.pgrouting.org/|OSGeo_community|pgRouting
