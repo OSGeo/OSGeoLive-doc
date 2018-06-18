@@ -49,7 +49,7 @@ Y  |  marble  |  1.12.20  |  Y  |  Y  |  Navigation and Maps  |    |  Virtual Gl
 Y  |  osm  |  josm (13878)  |  Y  |  Y  |  Navigation and Maps  |    |  OpenStreetMap Tools  |  |https://www.openstreetmap.org/| |OpenStreetMap
 Y  | ideditor|  2.2.2|Y|Y|  Navigation and Maps  | | OpenStreetMap Web Editor|iD_OSM|http://wiki.openstreetmap.org/wiki/ID| |iD editor
 Y|  josm  | svn13878 |Y|Y|  Navigation and Maps  |    | OpenStreetMap Desktop Editor |  josm|http://josm.openstreetmap.de| |JOSM
-Y  |  opencpn  ||  Y  |  Y  |  Navigation and Maps  |    |  Marine GPS Chartplotter  |  opencpn|http://www.opencpn.org| |OpenCPN
+Y  |  opencpn  | 4.8.4 |  Y  |  Y  |  Navigation and Maps  |    |  Marine GPS Chartplotter  |  opencpn|http://www.opencpn.org| |OpenCPN
 ######################| | | | | | | | | | |
 #   Spatial Tools  | | | | | | | | | | |
 ######################| | | | | | | | | | |
