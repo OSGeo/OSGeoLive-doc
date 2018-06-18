@@ -11,7 +11,7 @@ Y  |  saga  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  saga-gis|http://w
 ######################| | | | | | | | | | |
 # Browser Facing GIS| | | | | | | | | | |
 ######################| | | | | | | | | | |
-Y  |  openlayers  |  4.1.1  |  Y  |  Y  |  Browser Facing GIS  |    |   Browser Mapping Library  |  openlayers|http://openlayers.org/|OSGeo_project|OpenLayers
+Y  |  openlayers  |  4.6.5  |  Y  |  Y  |  Browser Facing GIS  |    |   Browser Mapping Library  |  openlayers|http://openlayers.org/|OSGeo_project|OpenLayers
 Y  |  leaflet  |  1.0.3  |  Y  |  Y  |  Browser Facing GIS  |    |  Mobile Friendly Interactive Maps  |  Leaflet|http://leafletjs.com| |Leaflet
 Y  | cesium |1.34| Y | Y | Browser Facing GIS | | 3D globes and 2D maps in a browser | cesiumjs| | |Cesium
 Y  |  geomajas  ||  Y  |  Y  |  Browser Facing GIS  |    |  Browser GIS Client  |  geomajas|http://www.geomajas.org|OSGeo_project|Geomajas
