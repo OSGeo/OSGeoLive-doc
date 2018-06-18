@@ -58,7 +58,7 @@ Y  |  otb  |  6.4.0  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  
 Y  |  R  |  3.3.4  |  Y  |  Y  |  Spatial Tools  |    |  Statistical Programming  |  R_project|http://cran.r-project.org| |R for Spatial Data
 Y  |  mapnik  |  3.0.13  |  Y  |  Y  |  Spatial Tools  |    |  Cartographic Rendering  |  mapnik|http://mapnik.org/| |Mapnik
 Y  |  mapslicer  ||  Y  |  Y  |  Spatial Tools  |    |  Create Map Tiles  |  |http://mapproxy.org/| |MapSlicer
-Y  |  ossim  |  1.8.20-3  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  ossim|http://www.ossim.org/|OSGeo_project|OSSIM
+Y  |  ossim  |  2.2.2  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  ossim|http://www.ossim.org/|OSGeo_project|OSSIM
 ######################| | | | | | | | | | |
 #   Domain Specific GIS   | | | | | | | | | | |
 ######################| | | | | | | | | | |
