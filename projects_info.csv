@@ -45,7 +45,7 @@ Y  |  pgrouting  |  2.5.2  |  Y  |  Y  |  Data Stores  |    |  Routing for PostG
 # Navigation and Maps| | | | | | | | | | |
 ######################| | | | | | | | | | |
 Y  |  gpsprune  |   18.6.0  |  Y  |  Y  |  Navigation and Maps  |    |  View, Edit and Convert GPS Tracks  |  gpsprune|http://gpsprune.activityworkshop.net/| |GpsPrune
-Y  |  marble  |  1.12.20  |  Y  |  Y  |  Navigation and Maps  |    |  Virtual Globe  |  marble|http://marble.kde.org/|OSGeo_project|Marble
+Y  |  marble  |  2.2.20  |  Y  |  Y  |  Navigation and Maps  |    |  Virtual Globe  |  marble|http://marble.kde.org/|OSGeo_project|Marble
 Y  |  osm  |  josm (13878)  |  Y  |  Y  |  Navigation and Maps  |    |  OpenStreetMap Tools  |  |https://www.openstreetmap.org/| |OpenStreetMap
 Y  | ideditor|  2.2.2|Y|Y|  Navigation and Maps  | | OpenStreetMap Web Editor|iD_OSM|http://wiki.openstreetmap.org/wiki/ID| |iD editor
 Y|  josm  | svn13878 |Y|Y|  Navigation and Maps  |    | OpenStreetMap Desktop Editor |  josm|http://josm.openstreetmap.de| |JOSM
