@@ -13,13 +13,13 @@
 Geoportal Framework
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Mapbender <http://mapbender3.org/en>`_ is a graduated OSGeo project. It is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services.
+`Mapbender <https://www.mapbender.org/en>`_ is a graduated OSGeo project. It is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services.
 
 Mapbender is the tip of the iceberg, a meta layer of software providing access to SDI components adhering to international standards. Mapbender allows users to easily create customised browser clients from a wide range of widgets (without any/with minimal) programming required. Widgets integrate with server functionality to provide advanced functionality like security proxying, digitizing, auto snapping and more.
 
 Mapbender management applications are straight forward and easy to use providing highly focused functionality for the operation of large scale distributed SDI components. It is the tool of choice for SDI administrators who need to maintain, categorize and monitor map and feature services. Mapbender grants access to individuals, groups and manages machine to machine access. Adherence to standardized services, such as OGC WMS allows to take advantage of interoperable services from a multitude of server platforms.
 
-Mapbender is based on Symfony2, OpenLayers, Mapproxy and jQuery. 
+Mapbender is based on Symfony, OpenLayers and jQuery. 
 
 @SCREENSHOT_mapbender@
 
@@ -53,7 +53,7 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://mapbender3.org/
+**Website:** https://www.mapbender.org/
 
 **Licence:** `MIT license <http://opensource.org/licenses/MIT>`_
 
@@ -61,7 +61,7 @@ Details
 
 **Supported Platforms:** Windows, Linux, Mac
 
-**Support:** http://www.mapbender3.org/en/community
+**Support:** https://www.mapbender.org/en/community
 
 @QUICKSTART_mapbender@
 
