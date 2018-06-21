@@ -34,6 +34,7 @@ Core Features
 
   * Optimized WebGL with batching and culling efficiently uses hardware-accelerated graphics.
   * Draw a wide range of geometries including polylines, polygons, billboards, labels, extrusions, and corridors.
+  * Use `3D Tiles <https://cesium.com/blog/2017/07/12/the-next-generation-of-3d-tiles/>`_ to stream, style and interact with heterogeneous 3D data, including photogrammetry models, 3D buildings, CAD and BIM exterior and interiors, and point clouds.
   * Control the camera and create flight paths.
   * Use standard widgets to control animation time, select imagery layers, and zoom to a location.
 
@@ -56,7 +57,7 @@ Details
 
 **Supported Platforms:**  Platform independent, depends only on a browser which supports WebGL
 
-**Community Support:** Mailing list cesium-dev@googlegroups.com
+**Community Support:** Forum at https://cesiumjs.org/forum/
 
 @QUICKSTART_cesium@
 
