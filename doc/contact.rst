@@ -3,7 +3,7 @@ Contact Us
 
 OSGeoLive development is coordinated via email and internet chat
 (IRC) as detailed on the
-`OSGeo Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_.
+`OSGeo Wiki <http://wiki.osgeo.org/wiki/OSGeoLive#Contact_Us>`_.
 
 Disclaimer
 ================================================================================
@@ -24,7 +24,7 @@ Community Support
 ================================================================================
 
 If you have any questions, comments, or run into any problems, please drop us a
-note on `our mailing list <http://lists.osgeo.org/mailman/listinfo/live-demo>`_.
+note on `our mailing list <http://lists.osgeo.org/mailman/listinfo/osgeolive>`_.
 
 Searchable archives of the mailing list are hosted by
 `Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_.
@@ -32,8 +32,8 @@ Searchable archives of the mailing list are hosted by
 IRC users might try the #osgeolive or #osgeo channel at Freenode.net for real-time
 assistance.
 
-A wealth of information is available on our `Wiki site <http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_, 
-and a `bug and wish tracking system <https://trac.osgeo.org/osgeo/report/10>`_ is also available.
+A wealth of information is available on our `Wiki site <http://wiki.osgeo.org/wiki/OSGeoLive>`_, 
+and a `bug and wish tracking system <https://trac.osgeo.org/osgeolive/report/10>`_ is also available.
 
 Commercial Support
 ================================================================================
@@ -52,5 +52,5 @@ offerings for them. Refer to specific application descriptions linked from the :
 
 In addition, there are a large number of consultancy firms world wide
 who provide support for OSGeo member projects.
-See http://www.osgeo.org/search_profile for one that meets your needs.
+See https://www.osgeo.org/service-providers/ for one that meets your needs.
 
