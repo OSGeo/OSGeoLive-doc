@@ -36,6 +36,7 @@ Input sources:
   * TMS, WMTS (TileCache, GeoWebcache, etc.)
   * Mapserver and Mapnik (directly, without WMS)
   * any TileCache, Google Maps or Bing compatible source
+  * ArcGIS REST servers and compact cache files
 
 Services:
   * WMS (1.0.0-1.3.0)
@@ -45,14 +46,14 @@ Services:
 
 Tile cache:
   * stores identical images just once (e.g. ocean tiles)
-  * stores tiles in filesystem, MBTile files or CouchDB
+  * cache tiles in the filesystem, MBTiles/SQLite, ArcGIS Compact Cache, S3, Redis, Riak, or CouchDB
   * add watermark to tiles
 
 Source options:
   * limit sources to geometries (from Shapefile for example)
   * add transparency to opaque layers
   * merge multiple sources
-  * reproject to other SRS
+  * reproject WMS and tile sources to other SRS
 
 WMS Features:
   * build layer trees from different sources
@@ -70,7 +71,7 @@ Security:
   * integrate with existing user databases and authentication methods
 
 Powerful tools:
-  * efficient seed tool for cache pre-filling that can seed polygon areas
+  * efficient seed tool for cache pre-filling that can seed polygon areas  with Shapefiles, GeoJSON, PostGIS or WKT geometries
   * export cached tiles to other formats
   * calculate scales and show grid configurations
 
@@ -80,6 +81,7 @@ Other features:
   * run multiple WMS services in one MapProxy instance
   * add attribution lines to the images
   * support for non-image raster data like DEMs
+  * manipulate image bands to create grayscale- or false-color images
   * many more
 
 Implemented Standards
@@ -96,15 +98,15 @@ MapProxy implements the following open specifications:
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://mapproxy.org/
+**Website:** https://mapproxy.org/
 
-**Licence:** `Apache Software License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>`_
+**Licence:** `Apache Software License 2.0 <https://www.apache.org/licenses/LICENSE-2.0.html>`_
 
 **Software Version:** |version-mapproxy|
 
 **Supported Platforms:** Linux, Mac, Windows
 
-**Support:** http://mapproxy.org/support.html
+**Support:** https://mapproxy.org/support
 
 
 @QUICKSTART_mapproxy@
