@@ -1,6 +1,6 @@
 :Author: OSGeoLive
 :Author: Astrid Emde
-:Version: osgeolive11.0
+:Version: osgeolive12.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: mapbender-user list
 
@@ -36,17 +36,17 @@ This is how a Mapbender application can look like:
 
 Installation
 ================================================================================
-For the installation of Mapbender3 have a look at https://doc.mapbender3.org/en/book/installation.html.
+For the installation of Mapbender have a look at https://doc.mapbender.org/en/installation.html.
 
 
 Start Mapbender
 ================================================================================
 
-#. Choose  :menuselection:`Geospatial --> Browser Clients --> Mapbender` from the start menu or visit http://localhost/mapbender3/app.php
+#. Choose  :menuselection:`Geospatial --> Browser Clients --> Mapbender` from the start menu or visit http://localhost/mapbender/app.php
 
 #. The application will take a few moments to start up
 
-If you have any difficulties running Mapbender, please check whether your Apache web server and your PostgreSQL database are running.
+If you have any difficulties running Mapbender, please check whether your Apache web server and your PostgreSQL database are running. Or if you use SQLite as database whether you have write access to the file.
 
 
 Start Mapbender in the developer mode app_dev.php
@@ -56,7 +56,7 @@ Symfony offers a developer mode with lot of information about your application (
   .. image:: /images/projects/mapbender/mapbender3_app_dev.png
      :scale: 70 %
 
-#. Start the developer mode: http://localhost/mapbender3/app_dev.php
+#. Start the developer mode: http://localhost/mapbender/app_dev.php
 
 #. Have a look at the information that is offered in the developer mode.
 
@@ -128,7 +128,7 @@ Create a new application by providing basic information about your application. 
   .. image:: /images/projects/mapbender/mapbender3_create_application.png
      :scale: 70 %
 
-.. tip:: Please note, that the style-, icon- and layout configuration has to be done in css- and twig-files at the moment. Read more about template generation at https://doc.mapbender3.org/en/book/templates.html
+.. tip:: Please note, that the style-, icon- and layout configuration has to be done in css- and twig-files at the moment. Read more about template generation at https://doc.mapbender3.org/en/customization/templates.html.
 
 
 Copy or rename an application
@@ -138,7 +138,7 @@ You also can create a new application by copying an existing application. Every 
 
 Delete an application
 ================================================================================
-You can delete an application from the menu item :menuselection:`Applications` with the :menuselection:`+-button`.
+You can delete an application from the menu item :menuselection:`Applications` with the :menuselection:`x-button`.
 
 
 Export / Import applications and sources
@@ -157,7 +157,7 @@ The exportfile contains all the definitions of the application/s (sources) and c
 
 Management of Data Sources
 ================================================================================
-Mapbender can handle different Services like OGC WMS or OGC WMTS or OGC WFS. Every Service has to be handled differently. The administration provides an administration interface for every source (at the moment only WMS).
+Mapbender can handle OGC WMS. The administration provides an administration interface for the sources (at the moment only WMS).
 
 
 Service Repository overview
@@ -167,7 +167,7 @@ Service Repository overview
 
 #. You get an overview on the Sources that are loaded in your Mapbender.
 
-#. Type (f.e WMS, WMTS), Title, Description offer first information about the services.
+#. Type, Title, Description offer first information about the services.
 
 #. On click on the button :menuselection:`View-Button` you get further information about the source.
 
@@ -236,11 +236,12 @@ Service configuration
 * infoformat - choose the format for getFeatureInfo-Requests
 * exceptionformat - choose the format for exceptions
 * opacity - choose opacity in percent
-* visible
-* basesource
+* visible - default on. Service should be visible
+* basesource - activated for services that should be administrated by BaseSourceSwitcher
 * proxy - if active the service will be requested by Mapbender and not directly
 * transparency - Standard ist aktiviert, deaktiviert wird der Dienst ohne transparenten Hintergrund angefordert (getMap-Request mit TRANSPARENT=FALSE)
 * tiled - you can request a WMS in tiles, default is not tiled (may be a good choice if your map is very big and the WMS service does not support the width/height)
+* Layer ordering - layer ordering can get switched in the application
 * BBOX factor
 * tile buffer
 
@@ -291,6 +292,7 @@ Examples for elements Mapbender3 offers:
 * BaseSourceSwitcher
 * Button
 * Coordinates Display
+* Coordinate Utility
 * Copyright
 * Feature Info
 * GPS-Position
@@ -313,7 +315,7 @@ Examples for elements Mapbender3 offers:
 * WMC Loader
 * WMC List 
 
-You find detailed information on every element at the `MapbenderCoreBundle element documentation <http://doc.mapbender3.org/en/bundles/Mapbender/CoreBundle/index.html>`_, `MapbenderWmcBundle element documentation <https://doc.mapbender3.org/en/bundles/Mapbender/WmcBundle/index.html>`_ and `MapbenderWmsBundle element documentation <https://doc.mapbender3.org/en/bundles/Mapbender/WmsBundle/index.html>`_.
+You find detailed information on every element in the `Mapbender element documentation <https://doc.mapbender3.org/en/functions.html>`_.
 
 
 Try it yourself
@@ -378,7 +380,7 @@ Assign users to group
 
 Roles
 ================================================================================
-Mapbender3 provides different rights. They refer to the Symfony ACL System http://symfony.com/doc/2.1/cookbook/security/acl_advanced.html#built-in-permission-map
+Mapbender provides different rights. They refer to the Symfony ACL System http://symfony.com/doc/2.8/cookbook/security/acl_advanced.html#built-in-permission-map
 
 * view - Whether someone is allowed to view the object.
 * edit - Whether someone is allowed to make changes to the object.
@@ -426,21 +428,17 @@ Here are some additional challenges for you to try:
 What Next?
 ================================================================================
 
-This is only the first step on the road to using Mapbender3. There is a lot more functionality you can try.
+This is only the first step on the road to using Mapbender. There is a lot more functionality you can try.
 
-Mapbender Project home
+Mapbender Webside
 
-  https://mapbender.org
-
-Mapbender3 Webside
-
-  https://mapbender3.org/
+  https://mapbender.org/
 
 You find tutorials at
 
-  https://doc.mapbender3.org
+  https://doc.mapbender.org
 
-  https://api.mapbender3.org
+  https://api.mapbender.org
 
 Get involved in the project
 
