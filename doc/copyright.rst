@@ -7,7 +7,7 @@ License of OSGeo-Live
 ----------------------
 The OSGeo-Live project is distributed under `LGPL license v2.1 <http://www.gnu.de/documents/lgpl-2.1.en.html>`__. All documentation is provided under a `Creative Commons Attribution 3.0 Unported License <https://creativecommons.org/licenses/by/3.0/>`_.
 
-OSGeo-Live is composed entirely of free software, free data and free documentation, allowing it to be freely distributed, duplicated and passed around. The licenses of all the packaged project are summarized further on this page.
+OSGeo-Live is composed entirely of free software, free data and free documentation, allowing it to be freely distributed, duplicated and passed around. The licenses of all the packaged projects are summarized further on this page.
 
 * Project Overviews and Overview Translations, are provided under a `Creative Commons Attribution 3.0 Unported License <https://creativecommons.org/licenses/by/3.0/>`_.
 * Quickstarts and Quickstart Translations, are provided under a `Creative Commons Attribution-ShareAlike 3.0 Unported License <https://creativecommons.org/licenses/by-sa/3.0/>`_.
