@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"POT-Creation-Date: 2018-07-07 09:20-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:18
 msgid "Marble Quickstart"
+msgstr ""
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:20
+msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:23

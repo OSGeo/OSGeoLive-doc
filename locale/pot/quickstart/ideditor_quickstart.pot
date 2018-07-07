@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"POT-Creation-Date: 2018-07-07 09:20-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:22
 msgid "The iD editor is a great way to edit for small and easy changes that don't require the advanced features of JOSM (a more advanced mapping editor). This chapter demonstrates the basics of editing with iD."
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:26
+msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:29

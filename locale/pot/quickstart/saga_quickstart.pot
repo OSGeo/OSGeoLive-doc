@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"POT-Creation-Date: 2018-07-07 09:20-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:18
 msgid "SAGA (System for Automated Geoscientific Analyses) is an open source geographic information system (GIS) used for editing and analysing spatial data. It includes a large number of modules for the analysis of vector (point, line and polygon), table, grid and image data. Among others the package includes modules for geostatistics, image classification, projections, simulation of dynamic processes (hydrology, landscape development) and terrain analysis. The functionality can be accessed through a GUI, the command line or by using the C++ API."
+msgstr ""
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:27
+msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:30
@@ -45,7 +49,7 @@ msgid "Opening Data"
 msgstr ""
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:51
-msgid "Open the SAGA GUI and load the grid `/home/user/saga/DGM_30m_Mt.St.Helens_SRTM.grd` via the **File|Grid|Load** menu."
+msgid "Open the SAGA GUI and load the grid `/home/user/data/saga/DGM_30m_Mt.St.Helens_SRTM.grd` via the **File|Grid|Load** menu."
 msgstr ""
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:54
@@ -61,7 +65,7 @@ msgid "SAGA's grid systems are referenced by the bottom left corner. This, and s
 msgstr ""
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:72
-msgid "You can also load data by dragging and dropping it on the application. Try this with one of the datasets in the ** /home/user/gdal_natural_earth/** folder."
+msgid "You can also load data by dragging and dropping it on the application. Try this with one of the datasets in the ** /home/user/data/gdal_natural_earth/** folder."
 msgstr ""
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:76
@@ -244,7 +248,7 @@ msgstr ""
 msgid "http://www.saga-gis.org"
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:261
+#: ../../build/doc/<generated>:1
 msgid "and specifically in the documentation archive:"
 msgstr ""
 

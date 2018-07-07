@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"POT-Creation-Date: 2018-07-07 09:20-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:20
 msgid "pycsw is an OGC CSW server implementation written in `Python <http://python.org>`_. pycsw allows for the publishing and discovery of geospatial metadata.  Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0."
+msgstr ""
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:22
+msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:25

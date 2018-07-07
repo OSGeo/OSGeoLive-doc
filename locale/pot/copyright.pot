@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"POT-Creation-Date: 2018-07-07 09:20-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "The OSGeo-Live project is distributed under `LGPL license v2.1 <http://ww
 msgstr ""
 
 #: ../../build/doc/copyright.rst:10
-msgid "OSGeo-Live is composed entirely of free software, free data and free documentation, allowing it to be freely distributed, duplicated and passed around. The licenses of all the packaged project are summarized further on this page."
+msgid "OSGeo-Live is composed entirely of free software, free data and free documentation, allowing it to be freely distributed, duplicated and passed around. The licenses of all the packaged projects are summarized further on this page."
 msgstr ""
 
 #: ../../build/doc/copyright.rst:12

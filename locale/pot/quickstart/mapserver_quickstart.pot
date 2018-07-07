@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"POT-Creation-Date: 2018-07-07 09:20-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:24
 msgid "MapServer is an `Open Source <http://www.opensource.org>`_ server based application that allows you to publish geographic map images and vector data through the internet using `OGC standards <http://www.opengeospatial.org/standards>`__ such as `WMS <http://www.opengeospatial.org/standards/wms>`__, `WFS <http://www.opengeospatial.org/standards/wfs>`__, and `WCS <http://www.opengeospatial.org/standards/wcs>`__."
+msgstr ""
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:33
+msgid "This Quick Start Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:36

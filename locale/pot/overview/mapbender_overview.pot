@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"POT-Creation-Date: 2018-07-07 09:20-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "Geoportal Framework"
 msgstr ""
 
 #: ../../build/doc/overview/mapbender_overview.rst:19
-msgid "`Mapbender <http://mapbender3.org/en>`_ is a graduated OSGeo project. It is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services."
+msgid "`Mapbender <https://www.mapbender.org/en>`_ is a graduated OSGeo project. It is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services."
 msgstr ""
 
 #: ../../build/doc/overview/mapbender_overview.rst:21
@@ -37,7 +37,7 @@ msgid "Mapbender management applications are straight forward and easy to use pr
 msgstr ""
 
 #: ../../build/doc/overview/mapbender_overview.rst:25
-msgid "Mapbender is based on Symfony2, OpenLayers, Mapproxy and jQuery."
+msgid "Mapbender is based on Symfony, OpenLayers and jQuery."
 msgstr ""
 
 #: ../../build/doc/overview/mapbender_overview.rst:34
@@ -117,7 +117,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/mapbender_overview.rst:63
-msgid "**Website:** http://mapbender3.org/"
+msgid "**Website:** https://www.mapbender.org/"
 msgstr ""
 
 #: ../../build/doc/overview/mapbender_overview.rst:65
@@ -133,7 +133,7 @@ msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
 #: ../../build/doc/overview/mapbender_overview.rst:71
-msgid "**Support:** http://www.mapbender3.org/en/community"
+msgid "**Support:** https://www.mapbender.org/en/community"
 msgstr ""
 
 #: ../../build/doc/overview/mapbender_overview.rst:75

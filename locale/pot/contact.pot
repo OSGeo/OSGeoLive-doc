@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"POT-Creation-Date: 2018-07-07 09:20-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "Contact Us"
 msgstr ""
 
 #: ../../build/doc/contact.rst:4
-msgid "OSGeoLive development is coordinated via email and internet chat (IRC) as detailed on the `OSGeo Wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_."
+msgid "OSGeoLive development is coordinated via email and internet chat (IRC) as detailed on the `OSGeo Wiki <http://wiki.osgeo.org/wiki/OSGeoLive#Contact_Us>`_."
 msgstr ""
 
 #: ../../build/doc/contact.rst:9
@@ -45,7 +45,7 @@ msgid "Community Support"
 msgstr ""
 
 #: ../../build/doc/contact.rst:26
-msgid "If you have any questions, comments, or run into any problems, please drop us a note on `our mailing list <http://lists.osgeo.org/mailman/listinfo/live-demo>`_."
+msgid "If you have any questions, comments, or run into any problems, please drop us a note on `our mailing list <http://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
 msgstr ""
 
 #: ../../build/doc/contact.rst:29
@@ -57,7 +57,7 @@ msgid "IRC users might try the #osgeolive or #osgeo channel at Freenode.net for 
 msgstr ""
 
 #: ../../build/doc/contact.rst:35
-msgid "A wealth of information is available on our `Wiki site <http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_, and a `bug and wish tracking system <https://trac.osgeo.org/osgeo/report/10>`_ is also available."
+msgid "A wealth of information is available on our `Wiki site <http://wiki.osgeo.org/wiki/OSGeoLive>`_, and a `bug and wish tracking system <https://trac.osgeo.org/osgeolive/report/10>`_ is also available."
 msgstr ""
 
 #: ../../build/doc/contact.rst:39
@@ -73,6 +73,6 @@ msgid "Most packaged applications have both community and commercial support off
 msgstr ""
 
 #: ../../build/doc/contact.rst:53
-msgid "In addition, there are a large number of consultancy firms world wide who provide support for OSGeo member projects. See http://www.osgeo.org/search_profile for one that meets your needs."
+msgid "In addition, there are a large number of consultancy firms world wide who provide support for OSGeo member projects. See https://www.osgeo.org/service-providers/ for one that meets your needs."
 msgstr ""
 

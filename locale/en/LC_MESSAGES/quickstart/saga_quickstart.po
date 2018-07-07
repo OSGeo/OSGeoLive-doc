@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"POT-Creation-Date: 2018-07-07 09:20-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:16
 msgid "SAGA Quickstart"
@@ -31,6 +31,10 @@ msgid ""
 "classification, projections, simulation of dynamic processes (hydrology, "
 "landscape development) and terrain analysis. The functionality can be "
 "accessed through a GUI, the command line or by using the C++ API."
+msgstr ""
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:27
+msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:30
@@ -65,7 +69,7 @@ msgstr ""
 #: ../../build/doc/quickstart/saga_quickstart.rst:51
 msgid ""
 "Open the SAGA GUI and load the grid "
-"`/home/user/saga/DGM_30m_Mt.St.Helens_SRTM.grd` via the "
+"`/home/user/data/saga/DGM_30m_Mt.St.Helens_SRTM.grd` via the "
 "**File|Grid|Load** menu."
 msgstr ""
 
@@ -100,7 +104,7 @@ msgstr ""
 msgid ""
 "You can also load data by dragging and dropping it on the application. "
 "Try this with one of the datasets in the ** "
-"/home/user/gdal_natural_earth/** folder."
+"/home/user/data/gdal_natural_earth/** folder."
 msgstr ""
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:76
@@ -413,7 +417,7 @@ msgstr ""
 msgid "http://www.saga-gis.org"
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:261
+#: ../../build/doc/<generated>:1
 msgid "and specifically in the documentation archive:"
 msgstr ""
 
@@ -424,4 +428,18 @@ msgstr ""
 #: ../../build/doc/quickstart/saga_quickstart.rst:260
 msgid "http://sourceforge.net/projects/saga-gis/files/SAGA%20-%20Documentation/"
 msgstr ""
+
+#~ msgid ""
+#~ "Open the SAGA GUI and load the "
+#~ "grid `/home/user/saga/DGM_30m_Mt.St.Helens_SRTM.grd` via"
+#~ " the **File|Grid|Load** menu."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can also load data by dragging"
+#~ " and dropping it on the application."
+#~ " Try this with one of the "
+#~ "datasets in the ** "
+#~ "/home/user/gdal_natural_earth/** folder."
+#~ msgstr ""
 

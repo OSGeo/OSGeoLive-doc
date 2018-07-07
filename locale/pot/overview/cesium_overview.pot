@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"POT-Creation-Date: 2018-07-07 09:20-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,58 +77,62 @@ msgid "Draw a wide range of geometries including polylines, polygons, billboards
 msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rst:44
-msgid "Control the camera and create flight paths."
+msgid "Use `3D Tiles <https://cesium.com/blog/2017/07/12/the-next-generation-of-3d-tiles/>`_ to stream, style and interact with heterogeneous 3D data, including photogrammetry models, 3D buildings, CAD and BIM exterior and interiors, and point clouds."
 msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rst:45
+msgid "Control the camera and create flight paths."
+msgstr ""
+
+#: ../../build/doc/overview/cesium_overview.rst:46
 msgid "Use standard widgets to control animation time, select imagery layers, and zoom to a location."
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:47
+#: ../../build/doc/overview/cesium_overview.rst:48
 msgid "One API, Three Views:"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:49
+#: ../../build/doc/overview/cesium_overview.rst:50
 msgid "Cesium supports a 3D globe, 2D map, and 2.5D Columbus View with the same API."
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:52
+#: ../../build/doc/overview/cesium_overview.rst:53
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:53
+#: ../../build/doc/overview/cesium_overview.rst:54
 msgid "WMS and WMTS"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:56
+#: ../../build/doc/overview/cesium_overview.rst:57
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:58
+#: ../../build/doc/overview/cesium_overview.rst:59
 msgid "**Website:** http://cesiumjs.org"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:60
+#: ../../build/doc/overview/cesium_overview.rst:61
 msgid "**Licence:** Apache 2.0 license"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:62
+#: ../../build/doc/overview/cesium_overview.rst:63
 msgid "**Software Version:** |version-cesium|"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:64
+#: ../../build/doc/overview/cesium_overview.rst:65
 msgid "**Supported Platforms:**  Platform independent, depends only on a browser which supports WebGL"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:66
-msgid "**Community Support:** Mailing list cesium-dev@googlegroups.com"
+#: ../../build/doc/overview/cesium_overview.rst:67
+msgid "**Community Support:** Forum at https://cesiumjs.org/forum/"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:70
+#: ../../build/doc/overview/cesium_overview.rst:71
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/cesium_overview.rst:72
+#: ../../build/doc/overview/cesium_overview.rst:73
 msgid ":doc:`Quickstart documentation <../quickstart/cesium_quickstart>`"
 msgstr ""
 
