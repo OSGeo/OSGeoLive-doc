@@ -76,7 +76,7 @@ Details
 
 **Community Support:** http://cran.r-project.org/web/views/Spatial.html
 
-**CRAN packages avalable:** https://cran.r-project.org/web/packages/available_packages_by_name.html
+**CRAN packages available:** https://cran.r-project.org/web/packages/available_packages_by_name.html
 
 
 @QUICKSTART_R@

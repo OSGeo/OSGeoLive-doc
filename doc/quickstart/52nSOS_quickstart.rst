@@ -100,7 +100,7 @@ Things to Try
 * Try tweaking some of these queries to get different information.
 * Try the `SOS administrator <http://localhost:8080/52nSOS/admin/index>`_ using
    username "user" and password "user".
-* Try Helgoland - the `Viewer Client <http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ (see Fiq. 3).
+* Try Helgoland - the `Viewer Client <http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ (see Fig. 3).
 * Try other sample data by performing the following steps:
 
   1. Open the SOS administrator `database maintenance page <http://localhost:8080/52nSOS/admin/datasource>`_.
