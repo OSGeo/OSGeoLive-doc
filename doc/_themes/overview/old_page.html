@@ -1,7 +1,7 @@
 {% extends "basic/page.html" %}
 
 {%- block extrahead %} 
-	<script type="text/javascript" src="{{ pathto('_static/osgeolive.js', 1) }}"></script>
+	<script type="text/javascript" src="{{ pathto('../_static/osgeolive.js', 1) }}"></script>
 {% endblock %}
 
 {%- macro customrelbar(showrel=True) %}
@@ -34,7 +34,7 @@
 
 {% block header %}
     <div class="header">
-	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../../_images/banner.png"></a></div>
         <div class="nowrap">
             <ul id="top-nav">
               <li><a href="../index.html">Home</a></li>

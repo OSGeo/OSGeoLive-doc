@@ -45,16 +45,16 @@ rm -rf _static/img/CMakeFiles
 rm -rf _static/lib/font/league-gothic/
 rm -rf _static/lib/font/ource-sans-pro/
 rm -rf */.doctrees
-rm _static/img/cmake_install.cmake
-rm _static/img/Makefile
-rm _static/plugin/markdown/example.html
-rm _static/reveal.js/plugin/markdown/example.html
+rm -f _static/img/cmake_install.cmake
+rm -f _static/img/Makefile
+rm -f _static/plugin/markdown/example.html
+rm -f _static/reveal.js/plugin/markdown/example.html
 
 # serif.css
 css_not_used="beige.css  black.css  blood.css  default.css  league.css  moon.css  night.css  simple.css  sky.css  solarized.css  white.css"
 for file in $css_not_used ; do
-rm _static/css/theme/$file
-rm _static/reveal.js/css/theme/$file
+rm -f _static/css/theme/$file
+rm -f _static/reveal.js/css/theme/$file
 done
 
 # highlight  markdown   notes  print-pdf zoom-js"
