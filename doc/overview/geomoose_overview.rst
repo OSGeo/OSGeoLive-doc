@@ -2,7 +2,7 @@
 :Author: Bob Basques
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos, OSGeo
-:Version: osgeolive11.0
+:Version: osgeolive12.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_geomoose@
@@ -27,11 +27,11 @@ Core Features
 --------------------------------------------------------------------------------
 
 * Distributed data maintenance amongst multiple owners.
-* Access maps from: MapServer, Google, VirtualEarth, Tilecache, ArcGIS REST, WMS.
+* Access maps from: MapServer, Tilecache, ArcGIS REST, WMS, WFS.
 * Configure multiple views of data sources.
 * Discover and filter from data catalogs.
-* Tools: measure, drawing, query, fading, re-order, reprojection, jump-to zoom, coordinate readouts, ...
-* Displays: MapViewer, Bird's Eye, Side Menu, Navigation, Tabbed User Controls.
+* Tools: measure, drawing, query, fading, re-order, jump-to zoom, coordinate readouts, ...
+* Displays: MapViewer, Side Menu, Navigation, Tabbed User Controls.
 * XML based MapBook configuration file for User Interface, Source Layers and Tools.
 * Integration with Mapserver.
 * Modular design facilitates integration with non-spatial systems (such as asset management).
@@ -40,24 +40,23 @@ Core Features
 
 Implemented Standards
 --------------------------------------------------------------------------------
-* WMS
+* WMS (client)
 * WFS (client)
-* WFS-T (client)
 
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.geomoose.org/
+**Website:** https://www.geomoose.org/
 
-**Licence:** MIT based license. http://www.geomoose.org/info/license.html
+**Licence:** MIT based license. https://www.geomoose.org/info/license.html
 
 **Software Version:** |version-geomoose|
 
 **Supported Platforms:** Windows, Linux, Mac
 
-**Commercial Support:** http://www.geomoose.org/info/commercial_support.html
+**Commercial Support:** https://www.geomoose.org/info/commercial_support.html
 
-**Community Support:** http://www.geomoose.org/info/mailing_lists.html
+**Community Support:** https://www.geomoose.org/info/mailing_lists.html
 
 
 @QUICKSTART_geomoose@
