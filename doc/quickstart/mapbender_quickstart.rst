@@ -430,7 +430,7 @@ What Next?
 
 This is only the first step on the road to using Mapbender. There is a lot more functionality you can try.
 
-Mapbender Webside
+Mapbender Website
 
   https://mapbender.org/
 
