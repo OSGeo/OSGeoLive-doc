@@ -368,7 +368,7 @@ of the open source desktop GIS programs can do this - QGIS, gvSIG, uDig for exam
 show you how to make a map from QGIS.
 
 Start QGIS from the Desktop GIS menu and choose ``Add PostGIS layers`` from the layer menu. The
-parameters for connecting to the OpenStreetMap data in PostGIS is already defined in the Connections
+parameters for connecting to the Natural Earth data in PostGIS is already defined in the Connections
 drop-down menu. You can define new server connections here, and store the settings for easy
 recall. Click on Connections drop down menu and choose Natural Earth. Hit ``Edit`` if you want to see what those parameters are for Natural Earth, or just
 hit ``Connect`` to continue:
