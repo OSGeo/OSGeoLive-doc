@@ -4,6 +4,15 @@ Building OSGeo live documentation
 The following steps describe how to build OSGeoLive_ documentation on an Ubuntu
 based operating system (such as Lubuntu). 
 
+About OSGeoLive
+~~~~~~~~~~~~~~~
+
+OSGeoLive_ is a self-contained bootable DVD, USB thumb drive or Virtual
+Machine based on Lubuntu, that allows you to try a wide variety of open source
+geospatial software without installing anything. It is composed entirely of
+free software, allowing it to be freely distributed, duplicated and passed
+around.
+
 reStructured Text
 ~~~~~~~~~~~~~~~~~
 
