@@ -32,8 +32,8 @@ Y  |  pywps  |  4.0.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Servi
 Y  |  mapproxy  | 1.11.0 |  Y  |  Y  |  Web Services  |    |  Proxy WMS & tile services  |  mapproxy| |OSGeo_community |MapProxy
 Y  |  qgis_mapserver  ||  Y  |  Y  |  Web Services  |    |  Web Map Service  |  |http://www.qgis.org| |QGIS Server
 Y  |  istsos  |  2.3.1  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  istsos|http://istsos.org|OSGeo_community|istSOS
-Y  |  52nSOS  |  4.4.0  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  SensorObservationService|http://52north.org/sos| |52 North SOS
-Y  |  52nWPS  |  3.6.2  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  n52-wps|http://52north.org/wps| |52 North WPS
+Y  |  52nSOS  |  4.4.3  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  SensorObservationService|https://52north.org/sos| |52 North SOS
+Y  |  52nWPS  |  3.6.2  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  n52-wps|https://52north.org/wps| |52 North WPS
 Y  |  zoo-project  |  1.6.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  zoo-project|http://zoo-project.org/|OSGeo_incubation|Zoo Project
 ######################| | | | | | | | | | |
 # Data Stores| | | | | | | | | | |

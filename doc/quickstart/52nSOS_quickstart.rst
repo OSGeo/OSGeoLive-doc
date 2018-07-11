@@ -2,7 +2,7 @@
 :Author: Simon Jirka (s.jirka@52north.org)
 :Author: Ann Hitchcock (a.hitchcock@52north.org)
 :Reviewer:
-:Version: osgeolive11.0
+:Version: osgeolive12.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_52nSOS@
@@ -19,8 +19,7 @@ This Quick Start describes how to:
 
   * Query the 52°North SOS Capabilities to determine what queries it supports.
   * Query details about an Observation from the SOS.
-  * Use the lightweight visualisation tool "Helgoland" delivered with
-    the SOS to explore the available data.
+  * Use the lightweight visualisation tool "Helgoland" delivered with the SOS to explore the available data.
   * Explore the REST API endpoint for client developers.
 
 .. contents:: Contents
@@ -55,11 +54,11 @@ Getting Started
    **Fig. 2**: 52°North SOS client - test client with GetCapabilities request.
 
 4. To get the available observation data within the time
-   interval from 2017-02-28T23:45:00.000+00:00 to 2017-03-01T23:45:00.000+00:00
-   for each time series, insert the following request after selecting service
-   "SOS" --> version "2.0.0" --> binding "SOAP" --> operation "GetObservation"
-   in the `test
-   client's <http://localhost:8080/52nSOS/client>`_ in the field request:
+   interval from 2018-07-02T23:45:00.000+00:00 to 2018-07-04T23:45:00.000+00:00
+   for each time series, insert the following request after selecting **service**
+   :code:`SOS` :raw-html:`&rarr;` **version** :code:`2.0.0` :raw-html:`&rarr;`>
+   **binding** :code:`SOAP` :raw-html:`&rarr;` **operation** :code:`GetObservation`
+   in the `test client's <http://localhost:8080/52nSOS/client>`_ request field:
 
 .. code-block:: xml
 
@@ -81,8 +80,8 @@ Getting Started
                   <fes:During>
                       <fes:ValueReference>phenomenonTime</fes:ValueReference>
                       <gml:TimePeriod gml:id="tp_1">
-                          <gml:beginPosition>2017-02-28T23:45:00.000+00:00</gml:beginPosition>
-                          <gml:endPosition>2017-03-01T23:45:00.000+00:00</gml:endPosition>
+                          <gml:beginPosition>2018-07-02T23:45:00.000+00:00</gml:beginPosition>
+                          <gml:endPosition>2018-07-04T23:45:00.000+00:00</gml:endPosition>
                       </gml:TimePeriod>
                   </fes:During>
               </sos:temporalFilter>
@@ -99,7 +98,7 @@ Things to Try
 * Try some of the other example queries from the pull down list.
 * Try tweaking some of these queries to get different information.
 * Try the `SOS administrator <http://localhost:8080/52nSOS/admin/index>`_ using
-   username "user" and password "user".
+  username :code:`user` and password :code:`user`.
 * Try Helgoland - the `Viewer Client <http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ (see Fig. 3).
 * Try other sample data by performing the following steps:
 
@@ -119,7 +118,7 @@ Things to Try
 
 **Fig. 3**: 52°North SOS client - JavaScript client with time series data.
 
-* Try the `REST API <http://localhost:8080/52nSOS/api/>`_ (see Listing 2):
+* Try the `Sensor Web REST API <http://localhost:8080/52nSOS/api/>`_ (see Listing 2):
 
 .. code-block:: js
 
@@ -176,7 +175,7 @@ Things to Try
         }
     ]
 
-**Listing 2:** Output of REST API endpoint.
+**Listing 2:** Output of Sensor Web REST API endpoint.
 
 
 What Next?
@@ -185,13 +184,11 @@ What Next?
 To learn more about the 52°North SOS and/or the 52°North Sensor Web Community,
 potential starting points are:
 
-* 52°North :doc:`SOS overview <../overview/52nSOS_overview>`,
-* 52°North Sensor Web mailing list: swe@52north.org,
-* 52°North `Sensor Web community forum <http://sensorweb.forum.52north.org/>`_,
-* 52°North `SOS Client <http://sensorweb.demo.52north.org/SOSclient/>`_,
-* 52°North `SOS Web site <http://52north.org/communities/sensorweb/sos/>`_, or
-* The website of the `52°North Sensor Web Community
-  <http://52north.org/communities/sensorweb/>`_.
+* 52°North :doc:`SOS overview <../overview/52nSOS_overview>`
+* 52°North Sensor Web mailing list: sensorweb@52north.org
+* 52°North `Sensor Web community <https://52north.org/research/research-labs/sensor-web/>`_
+* 52°North `SOS Client <http://sensorweb.demo.52north.org/SOSclient/>`_
+* 52°North `SOS Web site <https://52north.org/sos>`_
 
 The development of this version of the 52°North SOS was supported by different
 projects, organizations, and persons. More details can be found in the
@@ -209,4 +206,4 @@ running. Use the following commands:
   user@osgeolive:~$ sudo systemctl start tomcat8.service
   Active: active (running) since Wed 2017-06-21 12:52:42 UTC; 3s ago     <-- Tomcat is running, now
 
-**Listing 3:** Tomcat Status and Start (password for sudo: user).
+**Listing 3:** Tomcat Status and Start (password for sudo: :code:`user`).

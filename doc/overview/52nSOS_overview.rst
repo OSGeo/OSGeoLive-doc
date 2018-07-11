@@ -4,7 +4,7 @@
 :Author: Simon Jirka (s.jirka@52north.org)
 :Author: Ann Hitchcock (a.hitchcock@52north.org)
 :Reviewer:
-:Version: osgeolive11.0
+:Version: osgeolive12.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_52nSOS@
@@ -40,7 +40,7 @@ Core Features
 * **INSPIRE Download Service Extension**: Starting with Version 4.2.0, an
   extension is available that allows the SOS to be used as an INSPIRE download
   service. Background information is provided in a `blog post
-  <http://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-an-inspire-download-service-based-on-sos/>`_
+  <https://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-an-inspire-download-service-based-on-sos/>`_
   and in the `wiki
   <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_ .
 * **Air Quality Data e-Reporting Extension**: Starting with version 4.3.0, an
@@ -125,11 +125,11 @@ Details
 
 **API:** Java, HTTP + JSON/XML/SOAP/KVP
 
-**Commercial Support:** http://52north.org/
+**Commercial Support:** https://52north.org/services/
 
-**Community Support:** http://sensorweb.forum.52north.org/
+**Community Support:** https://list.52north.org/mailman/listinfo/sensorweb
 
-**Community Website:** http://52north.org/communities/sensorweb/
+**Community Website:** https://52north.org/research/research-labs/sensor-web/
 
 **Other 52°North projects on OSGeoLive:** :doc:`WPS <./52nWPS_overview>`
 
