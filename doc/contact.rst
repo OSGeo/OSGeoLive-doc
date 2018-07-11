@@ -38,15 +38,6 @@ and a `bug and wish tracking system <https://trac.osgeo.org/osgeolive/report/10>
 Commercial Support
 ================================================================================
 
-.. image:: /images/logos/jirotechlogo.jpg
-  :scale: 100%
-  :alt: Jirotech
-  :target: http://jirotech.com
-
-Jirotech provide commercial support for the building of the
-Live DVD, as well as many of the applications packaged in it.
-Details at: http://jirotech.com
-
 Most packaged applications have both community and commercial support
 offerings for them. Refer to specific application descriptions linked from the :doc:`Contents <./overview/overview>` for details.
 
