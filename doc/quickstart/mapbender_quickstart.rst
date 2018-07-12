@@ -128,7 +128,7 @@ Create a new application by providing basic information about your application. 
   .. image:: /images/projects/mapbender/mapbender3_create_application.png
      :scale: 70 %
 
-.. tip:: Please note, that the style-, icon- and layout configuration has to be done in css- and twig-files at the moment. Read more about template generation at https://doc.mapbender3.org/en/customization/templates.html.
+.. tip:: Please note, that the style-, icon- and layout configuration has to be done in css- and twig-files at the moment. Read more about template generation at https://doc.mapbender.org/en/customization/templates.html.
 
 
 Copy or rename an application
