@@ -57,10 +57,20 @@ and provide support and custom development for Open Source GIS software.
 Contributors
 ================================================================================
 
-.. include:: contributors.rst
+.. csv-table::
+    :header-rows: 1
+    :file: ../contributors.csv
+    :delim: ,
+    :encoding: UTF-8
+    :widths: 30, 40, 10, 20
 
 Translators
 ================================================================================
 
-.. include:: translators.rst
+.. csv-table::
+    :header-rows: 1
+    :file: ../translators.csv
+    :delim: ,
+    :encoding: UTF-8
+    :widths: 15, 5, 30, 20, 20, 10
 
