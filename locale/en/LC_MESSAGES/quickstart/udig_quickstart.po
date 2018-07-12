@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-07 09:20-0500\n"
+"POT-Creation-Date: 2018-07-12 12:47-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:17
 msgid "User-friendly Desktop Internet GIS (uDig) Quickstart"
@@ -43,10 +43,6 @@ msgstr ""
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:35
 msgid "apply colour to map features using styling"
-msgstr ""
-
-#: ../../build/doc/quickstart/udig_quickstart.rst:37
-msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:40
@@ -498,4 +494,7 @@ msgstr ""
 #: ../../build/doc/quickstart/udig_quickstart.rst:315
 msgid "Available on http://udig.refractions.net/"
 msgstr ""
+
+#~ msgid "Contents"
+#~ msgstr ""
 

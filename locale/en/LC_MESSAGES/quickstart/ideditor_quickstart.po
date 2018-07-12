@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-07 09:20-0500\n"
+"POT-Creation-Date: 2018-07-12 12:47-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:16
 msgid "iD editor Quickstart"
@@ -33,10 +33,6 @@ msgid ""
 "The iD editor is a great way to edit for small and easy changes that "
 "don't require the advanced features of JOSM (a more advanced mapping "
 "editor). This chapter demonstrates the basics of editing with iD."
-msgstr ""
-
-#: ../../build/doc/quickstart/ideditor_quickstart.rst:26
-msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:29
@@ -578,4 +574,7 @@ msgid ""
 "Try the LearnOSM documentation, from which this quickstart was derived: "
 "http://learnosm.org/en/beginner/id-editor/"
 msgstr ""
+
+#~ msgid "Contents"
+#~ msgstr ""
 

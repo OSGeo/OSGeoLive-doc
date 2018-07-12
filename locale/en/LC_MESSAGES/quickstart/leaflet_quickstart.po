@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-07 09:20-0500\n"
+"POT-Creation-Date: 2018-07-12 12:47-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:13
 msgid "Leaflet Quickstart"
@@ -27,10 +27,6 @@ msgid ""
 "interactive maps.  It is lightweight, yet has all the features most "
 "developers ever need for online maps. Leaflet is designed with "
 "simplicity, performance and usability in mind."
-msgstr ""
-
-#: ../../build/doc/quickstart/leaflet_quickstart.rst:17
-msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:20
@@ -227,4 +223,7 @@ msgid ""
 "straight away! Don't forget to take a look at the detailed documentation_"
 " or other examples_."
 msgstr ""
+
+#~ msgid "Contents"
+#~ msgstr ""
 

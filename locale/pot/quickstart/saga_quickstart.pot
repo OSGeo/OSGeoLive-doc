@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-07 09:20-0500\n"
+"POT-Creation-Date: 2018-07-12 12:47-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,10 +22,6 @@ msgstr ""
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:18
 msgid "SAGA (System for Automated Geoscientific Analyses) is an open source geographic information system (GIS) used for editing and analysing spatial data. It includes a large number of modules for the analysis of vector (point, line and polygon), table, grid and image data. Among others the package includes modules for geostatistics, image classification, projections, simulation of dynamic processes (hydrology, landscape development) and terrain analysis. The functionality can be accessed through a GUI, the command line or by using the C++ API."
-msgstr ""
-
-#: ../../build/doc/quickstart/saga_quickstart.rst:27
-msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:30
@@ -248,7 +244,7 @@ msgstr ""
 msgid "http://www.saga-gis.org"
 msgstr ""
 
-#: ../../build/doc/<generated>:1
+#: ../../build/doc/quickstart/saga_quickstart.rst:261
 msgid "and specifically in the documentation archive:"
 msgstr ""
 

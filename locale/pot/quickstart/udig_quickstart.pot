@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-07 09:20-0500\n"
+"POT-Creation-Date: 2018-07-12 12:47-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,10 +38,6 @@ msgstr ""
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:35
 msgid "apply colour to map features using styling"
-msgstr ""
-
-#: ../../build/doc/quickstart/udig_quickstart.rst:37
-msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:40

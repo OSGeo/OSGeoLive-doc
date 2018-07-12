@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-07 09:20-0500\n"
+"POT-Creation-Date: 2018-07-12 12:47-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:23
 msgid "SpatiaLite Quickstart"
@@ -37,10 +37,6 @@ msgstr ""
 msgid ""
 "This Quick Start describes how to open a spatialite database from both "
 "GUI applications and the command line. Some sample SQL queries are shown."
-msgstr ""
-
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:31
-msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:34
@@ -204,4 +200,7 @@ msgstr ""
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:184
 msgid "and be sure to visit the tutorial `Spatialite cookbook`_"
 msgstr ""
+
+#~ msgid "Contents"
+#~ msgstr ""
 
