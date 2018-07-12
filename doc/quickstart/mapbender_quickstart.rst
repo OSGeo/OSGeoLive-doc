@@ -315,7 +315,7 @@ Examples for elements Mapbender3 offers:
 * WMC Loader
 * WMC List 
 
-You find detailed information on every element in the `Mapbender element documentation <https://doc.mapbender3.org/en/functions.html>`_.
+You find detailed information on every element in the `Mapbender element documentation <https://doc.mapbender.org/en/functions.html>`_.
 
 
 Try it yourself
