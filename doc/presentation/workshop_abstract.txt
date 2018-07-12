@@ -7,7 +7,7 @@ The latest stable version of the slides can be viewed at:
 https://live.osgeo.org/en/presentation/index.html
 
 :Author: <Your Name>, <Affiliation>
-:Author: Cameron Shorter, Jirotech
+:Author: Cameron Shorter
 
 :History: This document is derived from OSGeoLive Project Overviews and
   Quickstarts, by OSGeoLive authors.
@@ -41,5 +41,5 @@ This presentation is very useful for anyone wishing to gain a high level underst
 
 <Presenter1> is ...
 
-This presentation was initially compiled by Cameron Shorter, one of the coordinators of the OSGeoLive project, and Geospatial Programs Manager at Jirotech.
+This presentation was initially compiled by Cameron Shorter, one of the coordinators of the OSGeoLive project.
 

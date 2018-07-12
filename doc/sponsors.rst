@@ -9,13 +9,6 @@ The Open Source Geospatial Foundation (OSGeo) provides the primary
 development & hosting infrastructure and personnel for the project,
 and for many of the software teams which contribute to it.
 
-.. image:: /images/logos/jirotechlogo.jpg
-  :alt: Jirotech
-  :target: http://jirotech.com
-
-Jirotech provides sustaining resources and staff toward the management
-and development of the OSGeoLive project.
-
 .. image:: /images/logos/ucd_ice_logo.png
   :alt: Information Center for the Environment at the University of California, Davis
   :target: http://ice.ucdavis.edu
