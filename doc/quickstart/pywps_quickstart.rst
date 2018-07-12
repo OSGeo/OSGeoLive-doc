@@ -69,7 +69,7 @@ Open your favourite web browser and point it to the address where the example
 service is listening: `http://127.0.0.1:5000/ <http://127.0.0.1:5000/>`_ You will
 be presented with the following page:
 
-.. image:: /images/screenshots/1024x768/pywps-4.0.0_example.png
+.. image:: /images/projects/pywps/pywps-4.0.0_example.png
   :scale: 100 %
   
 Use the green buttons to explore the service. Issue a `GetCapabilities` request
@@ -85,7 +85,7 @@ address:
 The process simply replies back with a "Hello OSGeo" message, encoded in a 
 standard WPS response document. Your browser should be showing something like:
 
-.. image:: /images/screenshots/1024x768/pywps-4.0.0_response.png
+.. image:: /images/projects/pywps/pywps-4.0.0_response.png
   :scale: 100 %
 
 Developing WPS processes
