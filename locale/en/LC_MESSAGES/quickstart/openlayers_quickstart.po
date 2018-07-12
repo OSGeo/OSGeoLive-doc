@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-07 09:20-0500\n"
+"POT-Creation-Date: 2018-07-12 12:47-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:19
 msgid "OpenLayers Quickstart"
@@ -35,10 +35,6 @@ msgid ""
 "OpenLayers has been developed to further the use of geographic "
 "information of all kinds. It is completely free, Open Source JavaScript, "
 "released under the 2-clause BSD License (also known as the FreeBSD)."
-msgstr ""
-
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:25
-msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:28
@@ -323,4 +319,7 @@ msgstr ""
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:304
 msgid "`OpenLayers.org Website <http://openlayers.org/>`_"
 msgstr ""
+
+#~ msgid "Contents"
+#~ msgstr ""
 

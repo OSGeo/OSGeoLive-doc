@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-07 09:20-0500\n"
+"POT-Creation-Date: 2018-07-12 12:47-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:20
 msgid "Mapbender Quickstart"
@@ -62,10 +62,6 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:35
 msgid "This is how a Mapbender application can look like:"
-msgstr ""
-
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:41
-msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:44
@@ -263,7 +259,7 @@ msgstr ""
 msgid ""
 "Please note, that the style-, icon- and layout configuration has to be "
 "done in css- and twig-files at the moment. Read more about template "
-"generation at https://doc.mapbender3.org/en/customization/templates.html."
+"generation at https://doc.mapbender.org/en/customization/templates.html."
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:141
@@ -745,7 +741,7 @@ msgstr ""
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:324
 msgid ""
 "You find detailed information on every element in the `Mapbender element "
-"documentation <https://doc.mapbender3.org/en/functions.html>`_."
+"documentation <https://doc.mapbender.org/en/functions.html>`_."
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:328
@@ -961,7 +957,7 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:439
-msgid "Mapbender Webside"
+msgid "Mapbender Website"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:441
@@ -1090,5 +1086,26 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "https://api.mapbender3.org"
+#~ msgstr ""
+
+#~ msgid "Contents"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please note, that the style-, icon- "
+#~ "and layout configuration has to be "
+#~ "done in css- and twig-files at "
+#~ "the moment. Read more about template "
+#~ "generation at "
+#~ "https://doc.mapbender3.org/en/customization/templates.html."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You find detailed information on every"
+#~ " element in the `Mapbender element "
+#~ "documentation <https://doc.mapbender3.org/en/functions.html>`_."
+#~ msgstr ""
+
+#~ msgid "Mapbender Webside"
 #~ msgstr ""
 

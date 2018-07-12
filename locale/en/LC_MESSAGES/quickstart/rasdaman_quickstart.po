@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-07 09:20-0500\n"
+"POT-Creation-Date: 2018-07-12 12:47-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:19
 msgid "Rasdaman Quickstart"
@@ -32,10 +32,6 @@ msgid ""
 "WCPS queries are translated to rasdaman query language, rasql, and are "
 "executed on rasdaman. This quick start shows how to access and manipulate"
 " an example 2D coverage using WCPS language."
-msgstr ""
-
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:26
-msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:29
@@ -210,5 +206,8 @@ msgstr ""
 #~ "(beyond this drive's capacity) forward "
 #~ "to the `OGC standards showcase site "
 #~ "<http://standards.rasdaman.org>`_ ."
+#~ msgstr ""
+
+#~ msgid "Contents"
 #~ msgstr ""
 

@@ -5,20 +5,16 @@
 #---------------------
 set(OSGeoLiveDoc_FILES
     #"disclaimer.rst"
-    "translators.rst"
     "osgeo_contact.rst"
-    "contributors.rst"
     "index.rst"
     "contact.rst"
     "sponsors.rst"
     "welcome_message.txt"
     "copyright.rst"
     "download.rst"
-    "mac_installers.rst"
     "presentation.rst"
     "sponsors_osgeo.rst"
     "prior_applications.rst"
-    "win_installers.rst"
     )
 
 

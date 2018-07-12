@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-07 09:20-0500\n"
+"POT-Creation-Date: 2018-07-12 12:47-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:1
 msgid ""
@@ -63,10 +63,6 @@ msgstr ""
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:36
 msgid "Next steps"
-msgstr ""
-
-#: ../../build/doc/quickstart/pywps_quickstart.rst:38
-msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:41
@@ -364,5 +360,8 @@ msgstr ""
 #~ "Try out the `course`_, which includes"
 #~ " setting up an OpenLayers based web"
 #~ " client."
+#~ msgstr ""
+
+#~ msgid "Contents"
 #~ msgstr ""
 

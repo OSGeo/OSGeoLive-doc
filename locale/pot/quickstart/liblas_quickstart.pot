@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-07 09:20-0500\n"
+"POT-Creation-Date: 2018-07-12 12:47-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,10 +18,6 @@ msgstr ""
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:14
 msgid "libLAS Quickstart"
-msgstr ""
-
-#: ../../build/doc/quickstart/liblas_quickstart.rst:18
-msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:21

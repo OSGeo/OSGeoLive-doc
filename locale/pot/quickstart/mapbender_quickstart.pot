@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-07 09:20-0500\n"
+"POT-Creation-Date: 2018-07-12 12:47-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,10 +58,6 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:35
 msgid "This is how a Mapbender application can look like:"
-msgstr ""
-
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:41
-msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:44
@@ -221,7 +217,7 @@ msgid "your application is set up. Now you need a WMS to be displayed in your ap
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:137
-msgid "Please note, that the style-, icon- and layout configuration has to be done in css- and twig-files at the moment. Read more about template generation at https://doc.mapbender3.org/en/customization/templates.html."
+msgid "Please note, that the style-, icon- and layout configuration has to be done in css- and twig-files at the moment. Read more about template generation at https://doc.mapbender.org/en/customization/templates.html."
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:141
@@ -625,7 +621,7 @@ msgid "WMC List"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:324
-msgid "You find detailed information on every element in the `Mapbender element documentation <https://doc.mapbender3.org/en/functions.html>`_."
+msgid "You find detailed information on every element in the `Mapbender element documentation <https://doc.mapbender.org/en/functions.html>`_."
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:328
@@ -817,7 +813,7 @@ msgid "This is only the first step on the road to using Mapbender. There is a lo
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:439
-msgid "Mapbender Webside"
+msgid "Mapbender Website"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:441

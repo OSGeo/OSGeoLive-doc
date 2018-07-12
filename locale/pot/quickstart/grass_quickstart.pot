@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-07 09:20-0500\n"
+"POT-Creation-Date: 2018-07-12 12:47-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,10 +22,6 @@ msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:22
 msgid "GRASS GIS is a powerful GIS which lets you visualize, manage, analyse and edit geospatial data."
-msgstr ""
-
-#: ../../build/doc/quickstart/grass_quickstart.rst:26
-msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:29

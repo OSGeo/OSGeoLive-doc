@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-07 09:20-0500\n"
+"POT-Creation-Date: 2018-07-12 12:47-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,10 +22,6 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ncWMS_quickstart.rst:16
 msgid "ncWMS is a Web Map Service which allows the fast visualisation of data from NetCDF files and other sources of environmental data.  This quickstart guide describes how to explore the sample data provided using the Godiva2 web client.  For configuration and adding other data sources to the server, please consult the documentation on the `ncWMS website <https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/>`_."
-msgstr ""
-
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:18
-msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/ncWMS_quickstart.rst:21
