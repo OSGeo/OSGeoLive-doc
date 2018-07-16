@@ -12,13 +12,13 @@
 @NAME_52nSOS@ Quickstart
 *******************************************************************************
 
-The 52°North SOS is a web service, that enables to provision of interoperable access
+The 52°North SOS is a Web service, that enables interoperable access
 to (spatial) observation data and associated metadata.
 
 This Quick Start describes how to:
 
-  * Query the 52°North SOS Capabilities to determine what queries it supports.
-  * Query details about an Observation from the SOS.
+  * Query the 52°North SOS Capabilities to determine what queries it supports and which data it offers.
+  * Query details about an observation from the SOS.
   * Use the lightweight visualisation tool "Helgoland" delivered with the SOS to explore the available data.
   * Explore the REST API endpoint for client developers.
 
@@ -40,10 +40,10 @@ Getting Started
 
    **Fig. 1**: 52°North SOS client - welcome page.
 
-3. Once you know `the capabilities of a SOS <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=2.0.0>`_,
+3. Once you know `the capabilities of an SOS Server<http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=2.0.0>`_,
    (see Fiq. 2) you can craft appropriate queries. Again, this is made easier
    by selecting sample queries from the test client pull down list. Using the
-   information from the capabilities, you can adjust the available example
+   information from the capabilities document, you can adjust the available example
    queries.
 
    .. image:: /images/projects/52nSOS/52n_sos_get_capabilities.png
@@ -193,6 +193,12 @@ potential starting points are:
 The development of this version of the 52°North SOS was supported by different
 projects, organizations, and persons. More details can be found in the
 `52°North SOS client <http://localhost:8080/52nSOS/index>`_.
+
+We would like to thank the Belgian Interregional Environment Agency
+(`IRCEL - CELINE <http://www.irceline.be/en/>`_)
+for providing the demonstration data used in this SOS installation.
+The demo data are published under a
+`CC-BY licence <http://creativecommons.org/licenses/by/3.0/>`_.
 
 When the SOS is not available, please check if the tomcat servlet engine is
 running. Use the following commands:
