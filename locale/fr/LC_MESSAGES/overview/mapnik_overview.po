@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Nicolas Roelandt, 2018\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../build/doc/overview/mapnik_overview.rst:15
+msgid "Mapnik"
+msgstr "Mapnik"
+
+#: ../../build/doc/overview/mapnik_overview.rst:18
+msgid "Cartographic rendering engine"
+msgstr "Moteur de rendu cartographique"
+
+#: ../../build/doc/overview/mapnik_overview.rst:20
+msgid ""
+"Mapnik is a toolkit for rendering beautiful maps, with clean, soft feature "
+"edges provided by quality anti-aliasing graphics, intelligent label "
+"placement, and scalable, SVG symbolisation. Most famously, mapnik is used to"
+" render the OpenStreetMap main map layers."
+msgstr ""
+"Mapnik est une boîte à outils pour générer des belles cartes, avec des "
+"bordures claires, arrondies aux angles grâce aux systèmes d'anti-crênelage, "
+"de placement \"intelligent\" des étiquettes, et à la représentation avec des"
+" symbologies SVG (redimensionnables). Mapnik est célèbre pour être utiliser "
+"pour générer le rendu principal des couches de carte du projet "
+"OpenStreetMap."
+
+#: ../../build/doc/overview/mapnik_overview.rst:22
+msgid ""
+"Mapnik has typically been embedded in Python applications which deliver "
+"their maps over the internet although scaling improvements have meant that "
+"Mapnik has recently been getting used to create high resolution paper maps "
+"too."
+msgstr ""
+"Typiquement, Mapnik est encapsulé dans des applications Python qui "
+"fournissent des cartes via Internet bien que les améliorations d'échelle "
+"aient également permis récemment à Mapnik d'être utilisé pour créer aussi "
+"des cartes papier haute résolution."
+
+#: ../../build/doc/overview/mapnik_overview.rst:31
+msgid "Core Features"
+msgstr "Fonctionnalités principales"
+
+#: ../../build/doc/overview/mapnik_overview.rst:33
+msgid ""
+"Essentially a collection of geographic objects (map, layer, datasource, "
+"feature, geometry),  the library doesn't rely on \"windowing systems\" and "
+"can be deployed in any server environment.  It is intended to play fair in a"
+" multi-threaded environment and is aimed primarily,  but not exclusively, at"
+" web-based development."
+msgstr ""
+"Essentiellement constitué d'une collection d'objets géographiques (\"map\", "
+"\"layer\", \"datasource\", \"feature\", \"geometry\"), la bibliothèque ne "
+"s'appuie pas sur un \"système avec des fenêtres\" et peut être déployée sur "
+"n'importe quel environnement serveur. Il est destiné à bien jouer dans un "
+"environnement multi-thread et vise en premier mais pas exclusivement le "
+"développement web."
+
+#: ../../build/doc/overview/mapnik_overview.rst:39
+msgid ""
+"High-level Python bindings (boost.python) facilitate rapid application "
+"development,  targeting zope3, django etc."
+msgstr ""
+"Les bindings Python de hauts-niveaux (boost.python) facilitent le "
+"développement rapide d'applications, ciblant zope3, django, etc..."
+
+#: ../../build/doc/overview/mapnik_overview.rst:42
+msgid ""
+"Mapnik is cross platform. Packages are available for most linux "
+"distributions and installers are commonly used on Mac OS X and windows."
+msgstr ""
+"Mapnik est multiplate-formes. Les paquets sont disponibles pour la plupart "
+"des distributions Linux et des installateurs sont habituellement utilisés "
+"sur Mac OS X et Windows."
+
+#: ../../build/doc/overview/mapnik_overview.rst:46
+msgid "Details"
+msgstr "Détails"
+
+#: ../../build/doc/overview/mapnik_overview.rst:48
+msgid "**Website:** http://www.mapnik.org/"
+msgstr "**Site web:** http://www.mapnik.org/"
+
+#: ../../build/doc/overview/mapnik_overview.rst:50
+msgid "**Licence:** LGPL (GNU Lesser General Public Licence)"
+msgstr "**Licence:** LGPL (GNU Lesser General Public Licence)"
+
+#: ../../build/doc/overview/mapnik_overview.rst:52
+msgid "**Software Version:** |version-mapnik|"
+msgstr "**Version du logiciel:** |version-mapnik|"
+
+#: ../../build/doc/overview/mapnik_overview.rst:54
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Plates-formes supportées:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/mapnik_overview.rst:56
+msgid "**API Interfaces:** C++, Python"
+msgstr "**Interfaces de l'API:** C++, Python"
+
+#: ../../build/doc/overview/mapnik_overview.rst:60
+msgid "Quickstart"
+msgstr "Guide de démarrage rapide"
+
+#: ../../build/doc/overview/mapnik_overview.rst:62
+msgid ":doc:`Quickstart documentation <../quickstart/mapnik_quickstart>`"
+msgstr ""
+":doc:`Documentation du guide de démarrage rapide "
+"<../quickstart/mapnik_quickstart>`"

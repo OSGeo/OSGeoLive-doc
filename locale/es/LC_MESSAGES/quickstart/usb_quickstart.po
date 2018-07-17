@@ -1,0 +1,324 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:9
+msgid "Creating an OSGeoLive Bootable USB flash drive"
+msgstr "Crear una unidad flash USB de arranque OSGeoLive"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:11
+msgid ""
+"This quickstart describes the preferred method for creating a Bootable "
+"OSGeoLive USB flash drive. Booting from a flash drive is faster than from a "
+"DVD, and the USB drive can be configured to store data between sessions "
+"(called persistence)."
+msgstr ""
+"Este inicio rápido describe el método preferido para la creación de una "
+"unidad flash USB de arranque de OSGeoLive. Arrancar desde una unidad flash "
+"es más rápido que desde un DVD, y la unidad USB puede configurarse para "
+"almacenar datos entre sesiones (llamados persistencia)."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:13
+msgid ""
+"We have have found that there are a number of quirks and tricks involved in "
+"successfully building a USB drive. We have documented what we know, but "
+"there are likely more tricks and issues. Look for latest tips here: "
+"http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB"
+msgstr ""
+"Tenemos han encontrado que hay una serie de trucos y peculiaridades "
+"involucrados en la construcción con éxito de una unidad USB. Hemos "
+"documentado lo que sabemos, pero hay probabilidades de más trucos y temas. "
+"Buscar últimas sugerencias aquí: "
+"http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:16
+msgid "Requirements"
+msgstr "Requisitos"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:18
+msgid "A USB flash drive (at least 4 Gig, 8+ Gig is recommended)."
+msgstr "Una unidad flash USB  (se recomienda de al menos 4 Gig, 8+ Gig)"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:19
+msgid ""
+"An OSGeoLive ISO image (downloaded from: "
+"http://live.osgeo.org/en/download.html) or converted from a DVD."
+msgstr ""
+"Una imagen ISO de OSGeoLive (descargado de: "
+"http://live.osgeo.org/en/download.html) o convertida a partir de un DVD."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:21
+msgid ""
+"For a 4 GB USB flash drive, use osgeolive-mini ISO (without Windows and Mac "
+"installers), without persistence."
+msgstr ""
+"Para una unidad flash de USB de 4 GB, usar osgeolive-mini ISO (sin "
+"instaladores de Windows y Mac), sin persistencia."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:22
+msgid ""
+"For a 8+ GB USB flash drive, use either osgeolive-mini ISO, or osgeolive ISO"
+" (with Windows and Mac installers). 8+ GB is recommended if you wish to "
+"support persistence."
+msgstr ""
+"Para un + 8 GB memoria USB, utilice osgeolive-mini ISO o ISO osgeolive (con "
+"los instaladores de Windows y Mac). 8 + GB se recomienda si usted desea "
+"apoyar la persistencia."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:25
+msgid "Creating bootable USB drive with ``dd`` under Linux"
+msgstr "Crear unidad USB de arranque con ``dd``  bajo Linux"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:27
+msgid ""
+"ISO images for OSGeoLive 10.5 and later are *isohybrid* (and for amd64, also"
+" support UEFI boot). Under Linux, these images can be written directly to "
+"the block device for a USB drive with the ``dd`` command-line utility:"
+msgstr ""
+"Las imágenes ISO para OSGeoLive 10.5 y versiones posteriores son * isohybrid"
+" * (y para amd64, también soporte de arranque UEFI). Bajo Linux, estas "
+"imágenes pueden escribirse directamente en el dispositivo de bloque para una"
+" unidad USB con la utilidad de línea de comandos  ``dd``:"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:33
+msgid ""
+"``/dev/sdX`` is the block device for the USB drive, where ``X`` might be "
+"``b`` or ``c``."
+msgstr ""
+"``/dev/sdX``  es el dispositivo de bloque para la impulsión del USB, donde  "
+"``X`` puede ser ``b`` or ``c``."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:34
+msgid ""
+"Use ``lsblk`` to list block devices and ``dmesg`` to see kernel messages "
+"identifying the USB drive when it is connected."
+msgstr ""
+"Usar ``lsblk`` y ``dmesg`` dispositivos de bloque de la lista para ver "
+"mensajes del núcleo identificando la unidad USB cuando está conectado."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:35
+msgid "The USB drive should not be mounted."
+msgstr "No se debe montar la unidad USB."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:36
+msgid "``sudo`` is not required if the command is run as ``root``."
+msgstr "``sudo``  no es necesario si se ejecuta el comando como ``root``."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:39
+msgid ""
+"Be certain to select the correct block device as ``dd`` will overwrite it "
+"without question, even if it is your primary system drive."
+msgstr ""
+"Asegúrese de seleccionar el dispositivo de bloque correcta como ``dd`` "
+"sobrescribirá sin lugar a dudas, aunque sea la unidad del sistema principal."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:42
+msgid "Creating bootable USB drive with Ubuntu Startup Disk Creator"
+msgstr "Crear unidad USB de arranque con Ubuntu Startup Disk Creator"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:44
+msgid ""
+"(This is the recommended process for creating a USB. It is applicable to "
+"Ubuntu and Ubuntu variants such as OSGeoLive.)"
+msgstr ""
+"(Este es el proceso recomendado para la creación de un USB. Es aplicable a "
+"Ubuntu y variantes de Ubuntu como OSGeoLive.)"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:47
+msgid ""
+"The version of Ubuntu you are running, needs to be the same or newer than "
+"the version of Lubuntu being installed onto your USB.  If installing "
+"OSGeoLive 8.0 onto a USB, then you will need to be running Ubuntu 14.04 or "
+"newer."
+msgstr ""
+"La versión de Ubuntu está corriendo, debe ser igual o más reciente que la "
+"versión de Lubuntu se instala en tu USB.  Si instalar el 8.0 de OSGeoLive en"
+" un USB, entonces usted necesitará ejecutar Ubuntu 14.04 o más reciente."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:49
+msgid ""
+"`Download <http://live.osgeo.org/en/download.html>`_ osgeolive or osgeolive-"
+"mini to your computer's hard drive."
+msgstr ""
+"`Descargar <http://live.osgeo.org/en/download.html>`_ osgeolive o osgeolive-"
+"mini disco duro de su ordenador."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:51
+msgid ""
+"Boot your computer into a recent Ubuntu/Xbuntu distribution. You can do this"
+" by running from an OSGeoLive DVD, as explained in "
+":doc:`osgeolive_quickstart`."
+msgstr ""
+"Arrancar el ordenador en una distribución de Ubuntu/Xbuntu reciente. Usted "
+"puede hacer esto ejecutando desde un DVD de OSGeoLive, como se explica en "
+":doc:`osgeolive_quickstart`."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:53
+msgid "Insert the USB flash drive into your computer."
+msgstr "Inserte la unidad flash USB en su computadora."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:58
+msgid ""
+"Select :menuselection:`System Tools --> Startup Disk Creator`, or search for"
+" `Startup Disk Creator` from the Unity desktop."
+msgstr ""
+"Seleccione :menuselection:`System Tools --> Startup Disk Creator` ,  o la "
+"bucar `Startup Disk Creator` desde el escritorio Unity."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:63
+msgid ""
+"Select the osgeolive or osgeolive-mini ISO Image that you downloaded "
+"earlier."
+msgstr ""
+"Seleccione el osgeolive o osgeolive-mini imagen de ISO que descargaste "
+"anteriormente."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:65
+msgid ""
+"Select the USB flash drive. If you have extra room you might adjust the "
+"slider to create persistent storage space on the USB drive (recommended). In"
+" order for this option to be available you will need an 8+ GB USB flash "
+"drive."
+msgstr ""
+"Seleccione la unidad flash USB. Si tienes espacio extra podría ajustar el "
+"regulador para crear espacio de almacenamiento persistente en la unidad USB "
+"(recomendada). En orden para que esta opción esté disponible necesita un + 8"
+" GB unidad flash USB."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:67
+msgid "Select :guilabel:`Make Startup Disk`"
+msgstr "Seleccione: guilabel:`Make Startup Disk`"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:72
+msgid "Wait 20 minutes or so for the USB flash drive to be created."
+msgstr "Espere 20 minutos más o menos  para crear el USB flash drive."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:76
+msgid "Booting from the USB drive:"
+msgstr "Arranque desde la unidad USB:"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:78
+msgid "Start with the computer off."
+msgstr "Empezar con el ordenador apagado."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:79
+msgid "Insert the USB drive into an open USB port."
+msgstr "Inserte la unidad USB en un puerto USB libre."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:80
+msgid "Power on the Machine and select to boot from USB:"
+msgstr "Encienda la máquina y seleccione arrancar desde USB:"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:82
+msgid "Most computers are not set to boot from a USB drive by default."
+msgstr ""
+"La mayoría de los ordenadores no están configurados para arrancar desde una "
+"unidad USB de forma predeterminada."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:83
+msgid ""
+"When booting, look for a message indicting a Boot Menu (most commonly you "
+"press F12)"
+msgstr ""
+"Al arrancar, busque un mensaje que indique un menú de arranque (lo más "
+"habitual es que presione F12)"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:84
+msgid ""
+"If your computer does not have a boot menu, then boot into your system BIOS."
+" The button to enter BIOS varies by brand and model of computer. If you "
+"can't figure out yours try this website that lists many BIOS hotkeys. "
+"http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-"
+"access-bios-for-various-oem-and-computer-systems/"
+msgstr ""
+"Si su computadora no tiene un menú de inicio, inicie en el BIOS de su "
+"sistema. El botón para ingresar al BIOS varía según la marca y el modelo de "
+"la computadora. Si no puede descubrir el suyo, pruebe este sitio web que "
+"enumera muchas teclas de acceso rápido del BIOS : "
+"http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-"
+"access-bios-for-various-oem-and-computer-systems/"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:86
+msgid "Select to boot from the USB device."
+msgstr "Seleccione que arranque desde el dispositivo USB."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:88
+msgid ""
+"Note, that for some computers you will need to have the USB drive inserted "
+"into the computer in order to select it."
+msgstr ""
+"Tenga en cuenta que para algunos equipos se necesita tener la memoria USB "
+"insertada en la computadora para seleccionar."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:89
+msgid ""
+"Note also, the USB drive is often listed under hard drives rather than "
+"removable devices."
+msgstr ""
+"Tenga en cuenta también, el USB drive a menudo aparece bajo unidades de "
+"disco duros en lugar de dispositivos extraíbles."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:90
+msgid ""
+"This `Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates "
+"booting from USB."
+msgstr ""
+"Este `Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ muestra el "
+"arranque desde USB."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:93
+msgid "Run:"
+msgstr "Ejecutar:"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:95
+msgid "Run as per: :doc:`osgeolive_quickstart`"
+msgstr "Ejecutar según: :doc:`osgeolive_quickstart`"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:98
+msgid "See Also:"
+msgstr "Vea también:"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:100
+msgid ":doc:`osgeolive_quickstart`"
+msgstr ":doc:`osgeolive_quickstart`"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:101
+msgid ":doc:`virtualization_quickstart`"
+msgstr ":doc:`virtualization_quickstart`"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:102
+msgid ":doc:`osgeolive_install_quickstart`"
+msgstr ":doc:`osgeolive_install_quickstart`"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:103
+msgid ""
+"Alternative USB creation methods and latest tips are collected here: `wiki "
+"<http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
+msgstr ""
+"Métodos alternativos de creación de USB y últimas sugerencias se recogen "
+"aquí: `wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:104
+msgid ""
+"Questions can be directed to our email list: "
+"http://lists.osgeo.org/mailman/listinfo/live-demo"
+msgstr ""
+"Preguntas pueden ser dirigidas a nuestra lista de correo electrónico: "
+"http://lists.osgeo.org/mailman/listinfo/live-demo"

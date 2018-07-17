@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Nicolas Roelandt, 2018\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:14
+msgid "NetCDF Data Set"
+msgstr "Jeux de données NetCDF"
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:17
+msgid "Map Data"
+msgstr "Données cartographiques"
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:19
+msgid ""
+"NetCDF (Network Common Data Form) is a set of software libraries and self-"
+"describing, machine-independent data formats that support the creation, "
+"access, and sharing of array-oriented scientific data. NetCDF version 4.0 "
+"and above work with the HDF5 format, designed to store and organize large "
+"amounts of numerical data."
+msgstr ""
+"NetCDF (Network Common Data Form) est un ensemble de bibliothèques "
+"logicielles et de formats de données auto-descriptibles et indépendants des "
+"machines qui supporte la création, l'accès et le partage de données "
+"scientifiques orientées tableau. NetCDF version 4.0 et supérieur fonctionne "
+"avec le format HDF5, conçu pour stocker et organiser de grandes quantités de"
+" données numériques."
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:21
+msgid ""
+"This sample dataset supplies annual maximum of daily high temperature, and "
+"annual maximum consecutive five-day precipitation, both historical and "
+"predicted, for the years 1850-2012 and 2006-2100 (see accompanying text "
+"files for details)."
+msgstr ""
+"Ce jeu de données exemple fournit le maximum annuel des températures élevées"
+" journalières et le maximum annuel des précipitations consécutives de cinq "
+"jours consécutives, historiques et prévues, pour les années 1850-2012 et "
+"2006-2100 (voir les fichiers texte ci-joints pour plus de détails)."
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:23
+msgid ""
+"Data courtesy of the University of Victoria PCIC (Pacific Climate Impacts "
+"Consortium), in cooperation with AORI (Atmosphere and Ocean Research "
+"Institute, The University of Tokyo, Chiba, Japan), NIES (National Institute "
+"for Environmental Studies, Ibaraki, Japan), JAMSTEC (Japan Agency for "
+"Marine-Earth Science and Technology, Kanagawa, Japan)."
+msgstr ""
+"Données fournies avec l'aimable autorisation de l'\"University of Victoria\""
+" PCIC (Pacific Climate Impacts Consortium), en coopération avec AORI "
+"(Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba, "
+"Japan), NIES (National Institute for Environmental Studies, Ibaraki, Japan),"
+" JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa, "
+"Japan)."
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:33
+msgid "Details"
+msgstr "Détails"
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:35
+msgid "**Website:** http://www.pacificclimate.org/"
+msgstr "**Site web:** http://www.pacificclimate.org/"
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:37
+msgid ""
+"**License:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA"
+" 3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`_"
+msgstr ""
+"**License:** `licence Creative Commons Paternité-Partage des Conditions "
+"Initiales à l'Identique 3.0 non transposé (CC BY-SA 3.0) "
+"<https://creativecommons.org/licenses/by-sa/3.0/>`_"
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:39
+msgid "**Data Version:** 2013"
+msgstr "**Version de la donnée:** 2013"
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:41
+msgid "**Data format:** NetCDF, HDF5"
+msgstr "**Format de données:** NetCDF, HDF5"
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:43
+msgid "**Spatial coordinate system:** EPSG:4326, NAD83"
+msgstr "**Systèmes de coordonnées spatiales:** EPSG:4326, NAD83"
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:45
+msgid "**Support:** http://lists.osgeo.org/mailman/listinfo/geodata"
+msgstr "**Support:** http://lists.osgeo.org/mailman/listinfo/geodata"

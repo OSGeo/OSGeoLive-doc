@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Nicolas Roelandt, 2018\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../build/doc/overview/mapslicer_overview.rst:15
+msgid "MapSlicer"
+msgstr "MapSlicer"
+
+#: ../../build/doc/overview/mapslicer_overview.rst:18
+msgid "Proxy WMS & tile services"
+msgstr "Proxy WMS & services de tuiles"
+
+#: ../../build/doc/overview/mapslicer_overview.rst:21
+msgid "Map Publishing"
+msgstr "Publication de carte"
+
+#: ../../build/doc/overview/mapslicer_overview.rst:23
+msgid ""
+"MapSlicer is a desktop application for the creation of map tiles for rapid "
+"raster map publishing.  Geodata is transformed to tiles compatible with "
+"Google Maps and Earth - ready for publishing via direct upload to any "
+"webserver or a cloud storage (such as Amazon S3)."
+msgstr ""
+"MapSlicer est une application bureautique pour la création de tuiles de "
+"carte pour la publication de carte raster rapides. La géodonnée est "
+"transformée en tuiles compatibles avec Google Maps et Earth - prêtes pour la"
+" publication par un upload direct vers n'importe quel serveur web ou "
+"stockage dans le \"cloud\" (comme Amazon S3)."
+
+#: ../../build/doc/overview/mapslicer_overview.rst:25
+msgid ""
+"No extensive configuration on the server side is necessary, any simple file "
+"hosting is fine. Dynamic interaction such as panning and zooming, overlay of"
+" markers and vector data is provided by powerful browser functionality."
+msgstr ""
+"Aucune configuration importante n'est nécessaire côté serveur, n'importe "
+"quel hébergement de fichiers est suffisant. Les interactions dynamiques "
+"comme le déplacement, le zoom, la superposition de marqueurs et de données "
+"vecteur est fournie par les fonctionnalités puissantes du navigateur."
+
+#: ../../build/doc/overview/mapslicer_overview.rst:27
+msgid ""
+"The application directly generates a ready to use simple viewer based on "
+"OpenLayers and Google Maps API and can be easily customized."
+msgstr ""
+"L'application génère directement un visualisateur simple, prêt à l'emploi, "
+"basé sur OpenLayers et l'API Google Maps, qui peut être facilement "
+"personnalisé."
+
+#: ../../build/doc/overview/mapslicer_overview.rst:36
+msgid "Core Features"
+msgstr "Caractéristiques principales"
+
+#: ../../build/doc/overview/mapslicer_overview.rst:38
+msgid "Well known Javascript APIs supported: OpenLayers, Google Maps API"
+msgstr "API JavaScript supportées bien connues: OpenLayers, API Google Maps"
+
+#: ../../build/doc/overview/mapslicer_overview.rst:39
+msgid "No extra server software installation necessary"
+msgstr "Aucun logiciel supplémentaire côté serveur nécessaire"
+
+#: ../../build/doc/overview/mapslicer_overview.rst:40
+msgid ""
+"Hosting almost everywhere: cloud storage such as Amazon S3 or any cheap "
+"\"unlimited\" webhosting with FTP access"
+msgstr ""
+"Hébergement quasiment partout: hébergement dans le \"cloud\" comme Amazon S3"
+" ou n'importe quel hébergement abordable \"illimité\" avec un accès FTP"
+
+#: ../../build/doc/overview/mapslicer_overview.rst:41
+msgid ""
+"Easy mashup with commercial layers (Google, Bing, Yahoo) or OpenStreetMap"
+msgstr ""
+"Mashup facile avec des couches commerciales (Google, Bing, Yahoo) ou "
+"OpenStreetMap"
+
+#: ../../build/doc/overview/mapslicer_overview.rst:42
+msgid "Tiles follow OSGEO TMS (Tile Map Service Specification)"
+msgstr "Tuilage suit le standard OSGEO TMS (spécification Tile Map Service)"
+
+#: ../../build/doc/overview/mapslicer_overview.rst:43
+msgid ""
+"Ability to process raster data in various formats: TIFF/GeoTIFF, MrSID, ECW,"
+" JPEG2000, Erdas HFA, NOAA BSB, JPEG and more..."
+msgstr ""
+"Capacité à traiter des données raster dans de nombreux formats: "
+"TIFF/GeoTIFF, MrSID, ECW, JPEG2000, Erdas HFA, NOAA BSB, JPEG et plus..."
+
+#: ../../build/doc/overview/mapslicer_overview.rst:46
+msgid "Details"
+msgstr "Détails"
+
+#: ../../build/doc/overview/mapslicer_overview.rst:48
+msgid "**Website:** https://wiki.osgeo.org/wiki/MapSlicer"
+msgstr "**Site web:** https://wiki.osgeo.org/wiki/MapSlicer"
+
+#: ../../build/doc/overview/mapslicer_overview.rst:50
+msgid "**Licence:** New BSD License"
+msgstr "**Licence:** Licence New BSD"
+
+#: ../../build/doc/overview/mapslicer_overview.rst:52
+msgid "**Source Code:** https://github.com/geopython/mapslicer"
+msgstr "**Code source:** https://github.com/geopython/mapslicer"
+
+#: ../../build/doc/overview/mapslicer_overview.rst:54
+msgid "**Software Version:** |version-mapslicer|"
+msgstr "**Version du logiciel:** |version-mapslicer|"
+
+#: ../../build/doc/overview/mapslicer_overview.rst:56
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Plates-formes supportées:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/mapslicer_overview.rst:61
+msgid "Quickstart"
+msgstr "Guide de démarrage rapide"
+
+#: ../../build/doc/overview/mapslicer_overview.rst:63
+msgid ":doc:`Quickstart documentation <../quickstart/mapslicer_quickstart>`"
+msgstr ""
+":doc:`Documentation du guide de démarrage rapide "
+"<../quickstart/mapslicer_quickstart>`"

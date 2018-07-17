@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Andreas Schild <andreas.schild@bfw.gv.at>, 2018\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/ossim_overview.rst:17
+msgid "OSSIM"
+msgstr "OSSIM"
+
+#: ../../build/doc/overview/ossim_overview.rst:20
+msgid "Image Processing"
+msgstr "Bilddatenverarbeitung"
+
+#: ../../build/doc/overview/ossim_overview.rst:22
+msgid ""
+"Open Source Software Image Map (OSSIM) is a high performance engine for "
+"remote sensing, image processing, geographical information system and "
+"photogrammetry."
+msgstr ""
+"Open Source Software Image Map (OSSIM) ist ein äußerst mächtiges Werkzeug "
+"für Aufgaben im Bereich der Fernerkundung, Bildverarbeitung, Geographischen "
+"Informationssysteme und Photogrammetrie."
+
+#: ../../build/doc/overview/ossim_overview.rst:24
+msgid ""
+"OSSIM has been funded by several US government agencies in the intelligence "
+"and defense community and the technology is currently deployed in research "
+"and operational sites. It has been actively developed since 1996."
+msgstr ""
+"OSSIM wurde durch mehrere US-Regierungsbehörden aus dem Bereich der "
+"Nachrichtendienste und der Verteidigung gefördert, und die Technologie wird "
+"derzeit in der Forschung als auch im operativen Betrieb eingesetzt. Die "
+"Software wird aktiv seit 1996 entwickelt."
+
+#: ../../build/doc/overview/ossim_overview.rst:26
+msgid ""
+"Designed as a series of high performance software libraries, it is written "
+"in C++ employing the latest techniques in object-oriented software design. "
+"Many command line utilities, GUI applications, and integrated systems have "
+"been implemented - several of which are included with the software "
+"distribution."
+msgstr ""
+"Konzipiert als eine Reihe von leistungsstarken Software-Bibliotheken, ist "
+"die Software in C++ geschrieben und macht Gebrauch von neuesten Techniken im"
+" Bereich objektorientierten Designs. Zahlreiche Befehlszeilen-Werkzeuge, "
+"GUI-Anwendungen und integrierte Systeme wurden entwickelt - von denen "
+"mehrere in dem Softwarepaket enthalten sind."
+
+#: ../../build/doc/overview/ossim_overview.rst:36
+msgid "Core Features"
+msgstr "Kernfunktionen"
+
+#: ../../build/doc/overview/ossim_overview.rst:38
+msgid "Parallel processing capabilites with mpi libraries"
+msgstr "Fähigkeit zur parallelen Verarbeitung mit MPI-Bibliotheken"
+
+#: ../../build/doc/overview/ossim_overview.rst:39
+msgid "Rigorous sensor modeling"
+msgstr "Strenge Sensor-Modellierung"
+
+#: ../../build/doc/overview/ossim_overview.rst:40
+msgid "Universal Sensor Models (RPCs)"
+msgstr "Universelle Sensor-Modelle (RPCs)"
+
+#: ../../build/doc/overview/ossim_overview.rst:41
+msgid "Wide range of Map Projections and Datums supported"
+msgstr "Weitreichende Unterstützung von Kartenprojektionen und Bezugssystemen"
+
+#: ../../build/doc/overview/ossim_overview.rst:42
+msgid "Non-destructive, parameter based image chains"
+msgstr "Non-destruktive, parameter-basierte Bildreihen"
+
+#: ../../build/doc/overview/ossim_overview.rst:43
+msgid "Native file access"
+msgstr "Nativer Dateizugriff"
+
+#: ../../build/doc/overview/ossim_overview.rst:44
+msgid "Precision Terrain correction and ortho-rectification"
+msgstr "Präzise Geländekorrektur und Orthorektifizierung"
+
+#: ../../build/doc/overview/ossim_overview.rst:45
+msgid "Advanced Mosaicing, compositing and fusions"
+msgstr "Erweiterte Verfahren zu Mosaik, Überlagerung und Verschmelzen"
+
+#: ../../build/doc/overview/ossim_overview.rst:46
+msgid "Elevation support"
+msgstr "Unterstützung von Höhenangaben"
+
+#: ../../build/doc/overview/ossim_overview.rst:47
+msgid "Vector and shapelib support"
+msgstr "Vektor und shapelib Unterstützung"
+
+#: ../../build/doc/overview/ossim_overview.rst:48
+msgid "Projection and resolution independent"
+msgstr "Unabhängigkeit von Projektion und Auflösung"
+
+#: ../../build/doc/overview/ossim_overview.rst:49
+msgid "Equation editors"
+msgstr "Formeleditoren"
+
+#: ../../build/doc/overview/ossim_overview.rst:52
+msgid "Details"
+msgstr "Details"
+
+#: ../../build/doc/overview/ossim_overview.rst:54
+msgid "**Website:** http://www.ossim.org"
+msgstr "**Webseite:** http://www.ossim.org"
+
+#: ../../build/doc/overview/ossim_overview.rst:56
+msgid "**Licence:** GNU General Public License (GPL) version 3"
+msgstr "**Lizenz:** GNU General Public License (GPL) version 3"
+
+#: ../../build/doc/overview/ossim_overview.rst:58
+msgid "**Software Version:** |version-ossim|"
+msgstr "**Software Version:** |version-ossim|"
+
+#: ../../build/doc/overview/ossim_overview.rst:60
+msgid "**Supported Platforms:** Linux, Mac, Windows"
+msgstr "**Unterstützte Plattformen:** Linux, Mac, Windows"
+
+#: ../../build/doc/overview/ossim_overview.rst:62
+msgid "**API Interfaces:** C++"
+msgstr "**API Schnittstellen:** C++"
+
+#: ../../build/doc/overview/ossim_overview.rst:64
+msgid "**Commercial Support:** http://www.osgeo.org/search_profile"
+msgstr "**Kommerzieller Support:** http://www.osgeo.org/search_profile"
+
+#: ../../build/doc/overview/ossim_overview.rst:69
+msgid "Quickstart"
+msgstr "Schnellstart"
+
+#: ../../build/doc/overview/ossim_overview.rst:71
+msgid ":doc:`Quickstart documentation <../quickstart/ossim_quickstart>`"
+msgstr ":doc:`Quickstart Dokumentation <../quickstart/ossim_quickstart>`"

@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-12 12:47-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/contact.rst:2
+msgid "Contact Us"
+msgstr "Contáctenos"
+
+#: ../../build/doc/contact.rst:4
+msgid ""
+"OSGeoLive development is coordinated via email and internet chat (IRC) as "
+"detailed on the `OSGeo Wiki "
+"<http://wiki.osgeo.org/wiki/OSGeoLive#Contact_Us>`_."
+msgstr ""
+"El desarrollo de OSGeoLive  se coordina a través de correo electrónico y del"
+" chat de internet (IRC) como se detalla en el _  `Wiki de OSGeo "
+"<http://wiki.osgeo.org/wiki/OSGeoLive#Contact_Us>`_."
+
+#: ../../build/doc/contact.rst:9
+msgid "Disclaimer"
+msgstr "Declaración de exención"
+
+#: ../../build/doc/contact.rst:11
+msgid ""
+"This Live GIS disc and virtual-machine has been put together by members of "
+"the OSGeo community to showcase their favourite Free and Open Source (FOSS) "
+"geospatial software. We've included a number of non-OSGeo software packages,"
+" from both the spatial and non-spatial realms, which we hope you will find "
+"to be as useful as we do. The OSGeo Foundation does not recommend or "
+"guarantee any associated software, projects, or companies found within."
+msgstr ""
+"Este disco vivo de SIG y la máquina virtual ha sido elaborado por miembros "
+"de la comunidad de OSGeo para mostrar el software geoespacial favorit que es"
+" libre y de código abierto (FOSS) . Hemos incluido una serie de paquetes de "
+"software no OSGeo, tanto espaciales y como no espaciales, que esperamos sea "
+"tan útiles como lo son para nosotros. La Fundación OSGeo no recomienda ni "
+"garantiza cualquier asociación de software, proyectos o empresas dentro del "
+"disco."
+
+#: ../../build/doc/contact.rst:16
+msgid ""
+"`These programs are distributed in the hope that they will be useful, but "
+"WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
+"or FITNESS FOR A PARTICULAR PURPOSE.`"
+msgstr ""
+"`Estos programas son distribuidos con la esperanza de que sean útiles, pero "
+"SIN NINGUNA GARANTÍA; ni siquiera la garantía implícita de COMERCIABILIDAD o"
+" IDONEIDAD PARA UN PROPÓSITO PARTICULAR.`"
+
+#: ../../build/doc/contact.rst:20
+msgid ""
+"For additional information on the distribution of each program review their "
+"license as indicated on the page for each program."
+msgstr ""
+"Para información adicional en la distribución de cada programa, revisen su "
+"licencia tal y como está indicado en la página para cada programa."
+
+#: ../../build/doc/contact.rst:24
+msgid "Community Support"
+msgstr "Apoyo de la Comunidad"
+
+#: ../../build/doc/contact.rst:26
+msgid ""
+"If you have any questions, comments, or run into any problems, please drop "
+"us a note on `our mailing list "
+"<http://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
+msgstr ""
+"Si usted tiene cualesquier pregunta, comentario, o tenga algún problema, por"
+" favor envíenos una nota en `nuestra lista de correo "
+"<http://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
+
+#: ../../build/doc/contact.rst:29
+msgid ""
+"Searchable archives of the mailing list are hosted by `Nabble <http://osgeo-"
+"org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_."
+msgstr ""
+"`Los archivos de búsqueda de la lista de correo están alojados en `Nabble "
+"<http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_."
+
+#: ../../build/doc/contact.rst:32
+msgid ""
+"IRC users might try the #osgeolive or #osgeo channel at Freenode.net for "
+"real-time assistance."
+msgstr ""
+"Los usuarios de IRC pueden probar el canal  #osgeolive o #osgeo channel en "
+"Freenode.net para obtener asistencia en tiempo real."
+
+#: ../../build/doc/contact.rst:35
+msgid ""
+"A wealth of information is available on our `Wiki site "
+"<http://wiki.osgeo.org/wiki/OSGeoLive>`_, and a `bug and wish tracking "
+"system <https://trac.osgeo.org/osgeolive/report/10>`_ is also available."
+msgstr ""
+"Una gran cantidad de información está disponible en nuestro `sitio Wiki  "
+"<http://wiki.osgeo.org/wiki/OSGeoLive>`_, y también hay un `seguimiento de "
+"errores de sistema <https://trac.osgeo.org/osgeolive/report/10>`_."
+
+#: ../../build/doc/contact.rst:39
+msgid "Commercial Support"
+msgstr "Apoyo Comercial"
+
+#: ../../build/doc/contact.rst:41
+msgid ""
+"Most packaged applications have both community and commercial support "
+"offerings for them. Refer to specific application descriptions linked from "
+"the :doc:`Contents <./overview/overview>` for details."
+msgstr ""
+"La mayoría de las aplicaciones disponen de soporte tanto comercial como de "
+"comunidad. Puedes encontrar más detalles sobre su soporte en los "
+":doc:`contenidos <./overview/overview>`."
+
+#: ../../build/doc/contact.rst:44
+msgid ""
+"In addition, there are a large number of consultancy firms world wide who "
+"provide support for OSGeo member projects. See https://www.osgeo.org"
+"/service-providers/ for one that meets your needs."
+msgstr ""
+"Además, hay un gran número de empresas de consultoría en todo el mundo que "
+"apoyan proyectos de miembros de OSGeo. Ver https://www.osgeo.org/service-"
+"providers/ para uno que satisfaga sus necesidades."
+
+#~ msgid ""
+#~ "OSGeoLive development is coordinated via email and internet chat (IRC) as "
+#~ "detailed on the `OSGeo Wiki "
+#~ "<http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_."
+#~ msgstr ""
+#~ "El desarrollo de OSGeoLive se coordina mediante correo electrónico y chat "
+#~ "por Internet (IRC), tal como se detalla en el `OSGeo Wiki "
+#~ "<http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_."
+
+#~ msgid ""
+#~ "If you have any questions, comments, or run into any problems, please drop "
+#~ "us a note on `our mailing list <http://lists.osgeo.org/mailman/listinfo"
+#~ "/live-demo>`_."
+#~ msgstr ""
+#~ "Si usted tiene preguntas, comentarios, o se encuentra con algún problema, "
+#~ "por favor envíenos una nota a  `nuestra lista de correos "
+#~ "<http://lists.osgeo.org/mailman/listinfo/live-demo>`_."
+
+#~ msgid ""
+#~ "A wealth of information is available on our `Wiki site "
+#~ "<http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_, and a `bug and wish tracking "
+#~ "system <https://trac.osgeo.org/osgeo/report/10>`_ is also available."
+#~ msgstr ""
+#~ "Una gran cantidad de información está disponible en nuestra `Wiki site "
+#~ "<http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_, y un `sistema de seguimiento "
+#~ "de errores y deseos <https://trac.osgeo.org/osgeo/report/10>`_ también se "
+#~ "encuentrta disponible."
+
+#~ msgid ""
+#~ "In addition, there are a large number of consultancy firms world wide who "
+#~ "provide support for OSGeo member projects. See "
+#~ "http://www.osgeo.org/search_profile for one that meets your needs."
+#~ msgstr ""
+#~ "Además, hay un gran número de empresas de consultoría en todo el mundo que "
+#~ "brindan apoyo a los proyectos de miembros de OSGeo. Consulte "
+#~ "http://www.osgeo.org/search_profile para encontrar uno que satisfaga sus "
+#~ "necesidades."
+
+#~ msgid ""
+#~ "Jirotech provide commercial support for the building of the Live DVD, as "
+#~ "well as many of the applications packaged in it. Details at: "
+#~ "http://jirotech.com"
+#~ msgstr ""
+#~ "Jirotech proporciona soporte comercial para la construcción del DVD en vivo,"
+#~ " así como muchas de las aplicaciones incluidas en él. Detalles en: "
+#~ "http://jirotech.com"

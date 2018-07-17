@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Andreas Schild <andreas.schild@bfw.gv.at>, 2018\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/postgis_overview.rst:37
+msgid "PostGIS"
+msgstr "PostGIS"
+
+#: ../../build/doc/overview/postgis_overview.rst:43
+msgid "Spatial Database"
+msgstr "Räumliche Datenbank"
+
+#: ../../build/doc/overview/postgis_overview.rst:58
+msgid ""
+"PostGIS spatially enables the popular PostgreSQL object-relational database,"
+" allowing it to be used as a back-end database for geographic information "
+"systems (GIS) and web-mapping applications."
+msgstr ""
+"PostGIS erweitert das bekannte objekt-relationale Datanbanksystem PostgreSQL"
+" um räumliche Funktionen. Damit wird es möglich, PostgreSQL als zentrale "
+"Datenbank für geographische Informationssysteme (GIS), "
+"Geodateninfrastrukturen oder Webmaps zu nutzen. "
+
+#: ../../build/doc/overview/postgis_overview.rst:60
+msgid ""
+"PostGIS is stable, fast, standards compliant, with hundreds of spatial "
+"functions and is currently the most widely used Open Source spatial "
+"database. PostGIS is used by diverse organisations from around the world, "
+"including risk-averse government agencies and organisations storing "
+"terabytes of data serving millions of web requests per day."
+msgstr ""
+"PostGIS ist stabil, schnell, standardkonform und enthält hunderte von "
+"räumlichen Funktionen. Es ist die am weitesten verbreitete quelloffene, "
+"räumliche Datenbank. Viele Organisationen weltweit setzen PostGIS ein. "
+"Darunter sind auch sicherheitsbewusste Organisationen, die sehr große "
+"Datenmenge speichern und täglich viele Millionen Datenbankabfragen "
+"bearbeiten können. "
+
+#: ../../build/doc/overview/postgis_overview.rst:62
+msgid ""
+"Database administration is available for desktop and the web via pgAdmin, "
+"phpPgAdmin, and others. Data import/export can be done by command line tools"
+" (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) or from desktop and web GIS "
+"clients. These clients can also map and manipulate PostGIS spatial data "
+"tables."
+msgstr ""
+"Die Datenbank-Administration ist unter anderem mit pgAdmin und phpPgAdmin "
+"möglich. Der Im- und Export von Daten wird mit verschiedenen "
+"Konvertierungswerkzeugen (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) "
+"durchgeführt. Es gibt zahlreiche Desktop-GIS- und Browser-Anwendungen die "
+"PostGIS-Daten visualisieren können. "
+
+#: ../../build/doc/overview/postgis_overview.rst:81
+msgid "Core Features"
+msgstr "Kernfunktionen"
+
+#: ../../build/doc/overview/postgis_overview.rst:83
+msgid "Hundreds of spatial functions"
+msgstr "Hunderte räumliche Funktionen"
+
+#: ../../build/doc/overview/postgis_overview.rst:85
+msgid "Buffers, unions, overlays, distance and more"
+msgstr ""
+"Berechnung von Pufferzonen, Vereinigungen, Verschneidungen, Distanzen und "
+"mehr"
+
+#: ../../build/doc/overview/postgis_overview.rst:87
+msgid "ACID transactional integrity"
+msgstr "ACID transaktionale Integrität"
+
+#: ../../build/doc/overview/postgis_overview.rst:88
+msgid "R-Tree spatial index"
+msgstr "R-Tree als räumlichen Index "
+
+#: ../../build/doc/overview/postgis_overview.rst:89
+msgid "Multi-user support"
+msgstr "Mehrbenutzerunterstützung"
+
+#: ../../build/doc/overview/postgis_overview.rst:90
+msgid "Row-level locking"
+msgstr "Row-level locking"
+
+#: ../../build/doc/overview/postgis_overview.rst:91
+msgid "Replication"
+msgstr "Replikation"
+
+#: ../../build/doc/overview/postgis_overview.rst:92
+msgid "Partitioning"
+msgstr "Partitionierung"
+
+#: ../../build/doc/overview/postgis_overview.rst:93
+msgid "Role-based security"
+msgstr "Rollenbasiertes Sicherheitskonzept"
+
+#: ../../build/doc/overview/postgis_overview.rst:94
+msgid "Table-spaces, schemas"
+msgstr "Tablespaces und Schemata"
+
+#: ../../build/doc/overview/postgis_overview.rst:97
+msgid "Implemented Standards"
+msgstr "Unterstützte Standards"
+
+#: ../../build/doc/overview/postgis_overview.rst:101
+msgid "OGC standards compliant (SFSQL)"
+msgstr "OGC standardkonform (SFSQL)"
+
+#: ../../build/doc/overview/postgis_overview.rst:104
+msgid "Details"
+msgstr "Details"
+
+#: ../../build/doc/overview/postgis_overview.rst:106
+msgid "**Website:** http://postgis.net"
+msgstr "**Webseite:** http://postgis.net"
+
+#: ../../build/doc/overview/postgis_overview.rst:108
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**Lizenz:** GNU General Public License (GPL) version 2"
+
+#: ../../build/doc/overview/postgis_overview.rst:110
+msgid "**Software Version:** |version-postgis|"
+msgstr "**Software Version:** |version-postgis|"
+
+#: ../../build/doc/overview/postgis_overview.rst:112
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Unterstützte Plattformen:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/postgis_overview.rst:114
+msgid "**API Interfaces:** SQL"
+msgstr "**API Schnittstellen:** SQL"
+
+#: ../../build/doc/overview/postgis_overview.rst:120
+msgid "**Support:** http://www.osgeo.org/search_profile"
+msgstr "**Support:** http://www.osgeo.org/search_profile"
+
+#: ../../build/doc/overview/postgis_overview.rst:125
+msgid "Quickstart"
+msgstr "Schnellstart"
+
+#: ../../build/doc/overview/postgis_overview.rst:127
+msgid ":doc:`Quickstart documentation <../quickstart/postgis_quickstart>`"
+msgstr ":doc:`Quickstart Dokumentation <../quickstart/postgis_quickstart>`"

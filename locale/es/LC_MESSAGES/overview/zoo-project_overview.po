@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:16
+msgid "Zoo Project"
+msgstr "Zoo Project"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:19
+msgid "WPS Server"
+msgstr "Servidor WPS"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:21
+msgid ""
+"ZOO-Project provides a developer friendly Web Processing Service (WPS) "
+"framework for creating and chaining Web Processing Services. A WPS provides "
+"web access to functions which run spatial algorithms. ZOO-Project supports "
+"many programming languages and comes with three demo applications. The first"
+" uses the simple spatialtools services based on the :doc:`GEOS "
+"<geos_overview>` and :doc:`OGR <gdal_overview>` libraries, the second "
+"showcase Voronoi and Delaunay triangulation (from the CGAL library) and the "
+"third present how to interract with OTB applications runninng as WPS "
+"services."
+msgstr ""
+"ZOO-Project proporciona un entorno de desarrollo de Servicio de "
+"Procesamiento Web (WPS) amigable para la creación y encadenamiento de "
+"servicios de procesamiento web. Un WPS proporciona acceso a funciones que "
+"ejecutan algoritmos geoespaciales. ZOO-Project da soporte a muchos lenguajes"
+" de programación y viene con  tres aplicaciones demo. La primera utiliza los"
+" servicios  simples de spatialtools basados en el :doc:`GEOS "
+"<geos_overview>` y librerías de :doc:`OGR <gdal_overview>`, la segunda "
+"muestra la triangulación de Voronoi y Delaunay  (de la biblioteca CGAL) y la"
+" tercera presenta la manera para interactuar con aplicaciones OTB corriendo "
+"como servicios WPS."
+
+#: ../../build/doc/overview/zoo-project_overview.rst:26
+msgid ""
+"The three demontration applications are available from the ZOO-Project demo "
+"landing page presented bellow."
+msgstr ""
+"Las tres demostraciones de las aplicaciones están disponibles en la página "
+"de inicio de ZOO-Project demo que se presenta a continuación."
+
+#: ../../build/doc/overview/zoo-project_overview.rst:28
+msgid "ZOO is made of three parts:"
+msgstr "ZOO se compone de tres partes:"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:31
+msgid ""
+"*ZOO Kernel* : A powerful server-side C Kernel which makes it possible to "
+"manage and chain Web services coded in different programming languages."
+msgstr ""
+"ZOO Kernel : Un potente kernel del lado del servidor escrito en C que hace "
+"posible la gestión y encadenamiento de servicios web escritos en diferentes "
+"lenguajes de programación."
+
+#: ../../build/doc/overview/zoo-project_overview.rst:34
+msgid ""
+"*ZOO Services* : A growing suite of example Web services based on various "
+"Open Source libraries."
+msgstr ""
+"ZOO Services : Un creciente conjunto de servicios web de ejemplo basados en "
+"diversas bibliotecas de código abierto."
+
+#: ../../build/doc/overview/zoo-project_overview.rst:37
+msgid ""
+"*ZOO API* : A server-side JavaScript API able to call and chain the ZOO "
+"Services, which makes the development and chaining processes easier."
+msgstr ""
+"*ZOO API*: Una API de servidor de JavaScript capaz de llamar y encadenar los"
+" servicios de ZOO, lo que hace al desarrollo y encadenamiento de procesos "
+"más sencillos. "
+
+#: ../../build/doc/overview/zoo-project_overview.rst:40
+msgid ""
+"ZOO is based on a 'WPS Service Kernel' which constitutes the ZOO's core "
+"system (aka ZOO Kernel). The latter is able to load dynamic libraries and to"
+" handle them as on-demand Web services. The ZOO Kernel is written in C "
+"language, but supports several common programming languages in order to "
+"connect to numerous libraries and above all to simplify the Web service end-"
+"developer's job."
+msgstr ""
+"ZOO está basado en un ‘Kernel de servicio WPS’ que constituye el núcleo del "
+"sistema ZOO (también conocido como ZOO Kernel). Éste último está capaz de "
+"cargar bibliotecas dinámicas y manejarlas como servicios web bajo demanda. "
+"El ZOO Kernel está escrito en el lenguaje C, pero soporta diferentes "
+"lenguajes de programación de uso común con el objetivo de conectar multitud "
+"de bibliotecas y sobre todo de simplificar el trabajo del desarrollador "
+"final del servicio web."
+
+#: ../../build/doc/overview/zoo-project_overview.rst:47
+msgid ""
+"A ZOO service is a link composed of a metadata file (.zcfg) and the code for"
+" the corresponding implementation. The metadata file describes all the "
+"available functions which can be called using a WPS Exec Request, as well as"
+" the desired input/output. Services contain the algorithms and functions, "
+"and can now be implemented in C/C++, Fortran, Java, Python, PHP, Ruby, C# "
+"and JavaScript."
+msgstr ""
+"Un servicio ZOO es un compuesto de un archivo de metadatos (.zcfg) y el "
+"código para la aplicación correspondiente. El archivo de metadatos describe "
+"todas las funciones disponibles que se pueden invocar mediante una solicitud"
+" de Exec WPS, así como la entrada y salida deseadas. Los servicios contienen"
+" los algoritmos y funciones y ahora se pueden implementar en C/C++, Fortran,"
+" Java, Python, PHP, Ruby, C# y JavaScript."
+
+#: ../../build/doc/overview/zoo-project_overview.rst:61
+msgid "Core Features"
+msgstr "Características Principales"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:63
+msgid "Multi language WPS server"
+msgstr "Servidor WPS multi idioma"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:64
+msgid "Simple Web Service creation and deployment procedure"
+msgstr "Procedimiento de creación e implementación de servicio Web simple"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:65
+msgid "Simple WPS chaining with ZOO API"
+msgstr "WPS simple encadenamiento con API de ZOO"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:68
+msgid "Implemented Standards"
+msgstr "Estándares implementados"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:70
+msgid "OGC WPS 1.0.0"
+msgstr "OGC WPS 1.0.0"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:71
+msgid "OGC WPS 2.0.0"
+msgstr "OGC WPS 2.0.0"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:74
+msgid "Demo"
+msgstr "Demostración"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:76
+msgid ""
+"`Demo using Services Provider based GEOS and OGR libraries <http://localhost"
+"/zoo-demo/ogr-example.html>`_"
+msgstr ""
+"`Demo usando Services Provider con base en librerías de GEOS y OGR  "
+"<http://localhost/zoo-demo/ogr-example.html>`_"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:77
+msgid ""
+"`Demo using Services Provider based CGAL library <http://localhost/zoo-"
+"demo/cgal.html>`_"
+msgstr ""
+"`Demo usando Services Provider con base en librería de CGAL "
+"<http://localhost/zoo-demo/cgal.html>`_"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:78
+msgid ""
+"`Demo using OTB Applications as WPS Services <http://localhost/zoo-demo/otb-"
+"example.html>`_"
+msgstr ""
+"_ 'Demo usando aplicaciones de OTB como WPS Services  <http://localhost/zoo-"
+"demo/otb-example.html>`_"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:82
+msgid "Details"
+msgstr "Detalles"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:84
+msgid "**Website:** http://zoo-project.org"
+msgstr "**Sitio web:** http://zoo-project.org"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:86
+msgid "**Licence:** MIT x/11"
+msgstr "**Licencia:** MIT x/11"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:88
+msgid "**Software Version:** |version-zoo-project|"
+msgstr "**SVersión de software:** |version-zoo-project|"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:90
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:92
+msgid ""
+"**Programing language support:** C, Python, Java, PHP, Fortran, Javascript, "
+"C#, Ruby"
+msgstr ""
+"**Soporte de lenguajes de programación:** C, Python, Java, PHP, Fortran, "
+"Javascript, C#, Ruby"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:94
+msgid "**Support:** http://zoo-project.org/"
+msgstr "**Soporte:** http://zoo-project.org/"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:99
+msgid "Quickstart"
+msgstr "Inicio Rápido"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:101
+msgid ":doc:`Quickstart documentation <../quickstart/zoo-project_quickstart>`"
+msgstr ""
+":doc:`Documentación de inicio rápido <../quickstart/zoo-project_quickstart>`"

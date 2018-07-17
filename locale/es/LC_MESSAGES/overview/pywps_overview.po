@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/pywps_overview.rst:18
+msgid "PyWPS"
+msgstr "PyWPS"
+
+#: ../../build/doc/overview/pywps_overview.rst:21
+msgid "Web Processing Service"
+msgstr "Servicio Web de Procesamiento"
+
+#: ../../build/doc/overview/pywps_overview.rst:23
+msgid ""
+"PyWPS provides web access to custom geospatial operations (referred to as "
+"Processes) via the `Web Processing Service (WPS) "
+"<http://www.opengeospatial.org/standards/wps>`__ standard."
+msgstr ""
+"PyWPS proporciona acceso web a operaciones geoespaciales personalizadas "
+"(referidas como Procesos) a través de `Servicio de Procesamiento Web (WPS) "
+"<http://www.opengeospatial.org/standards/wps>`__  estándar."
+
+#: ../../build/doc/overview/pywps_overview.rst:26
+msgid ""
+"Processes are written in the Python programming language and can integrate "
+"tools such as :doc:`GRASS GIS <grass_overview>`, :doc:`R <R_overview>`, "
+":doc:`GDAL/OGR <gdal_overview>`, :doc:`proj.4 <proj4_overview>` and other "
+"libraries with Python bindings.  Source data can be provided with WPS "
+"requests or accessed from data on the WPS server."
+msgstr ""
+"Los procesos están escritos en el lenguaje de programación Python y pueden "
+"integrar herramientas tales como :doc:`GRASS GIS <grass_overview>`, :doc:`R "
+"<R_overview>`, :doc:`GDAL/OGR <gdal_overview>`, :doc:`proj.4 "
+"<proj4_overview>`  y otras bibliotecas con enlaces de Python. Los datos de "
+"origen pueden ser proporcionados por medio de solicitudes de WPS o accesados"
+" desde los datos en el servidor de WPS."
+
+#: ../../build/doc/overview/pywps_overview.rst:37
+msgid "Core Features"
+msgstr "Características Principales"
+
+#: ../../build/doc/overview/pywps_overview.rst:39
+msgid "small and lightweight"
+msgstr "pequeño y ligero"
+
+#: ../../build/doc/overview/pywps_overview.rst:40
+msgid "easy and fast to install and setup"
+msgstr "fácil y rápido de instalar y configurar"
+
+#: ../../build/doc/overview/pywps_overview.rst:41
+msgid "implemented in pure Python"
+msgstr "implementado en Python puro"
+
+#: ../../build/doc/overview/pywps_overview.rst:42
+msgid "integrates seamlessly with the Python ecosystem of packages:"
+msgstr "se integra perfectamente con el ecosistema de paquetes  de Python:"
+
+#: ../../build/doc/overview/pywps_overview.rst:44
+msgid "GRASS 7"
+msgstr "GRASS 7"
+
+#: ../../build/doc/overview/pywps_overview.rst:45
+msgid "R"
+msgstr "R"
+
+#: ../../build/doc/overview/pywps_overview.rst:46
+msgid "GDAL/OGR"
+msgstr "GDAL/OGR"
+
+#: ../../build/doc/overview/pywps_overview.rst:47
+msgid "Proj.4"
+msgstr "Proj.4"
+
+#: ../../build/doc/overview/pywps_overview.rst:48
+msgid "Numpy"
+msgstr "Numpy"
+
+#: ../../build/doc/overview/pywps_overview.rst:49
+msgid "Shapely"
+msgstr "Shapely"
+
+#: ../../build/doc/overview/pywps_overview.rst:52
+msgid "Implemented Standards"
+msgstr "Estándares implementados"
+
+#: ../../build/doc/overview/pywps_overview.rst:54
+msgid "OGC Standards:"
+msgstr "Estándares OGC"
+
+#: ../../build/doc/overview/pywps_overview.rst:56
+msgid "WPS 1.0.0"
+msgstr "WPS 1.0.0"
+
+#: ../../build/doc/overview/pywps_overview.rst:59
+msgid "Details"
+msgstr "Detalles"
+
+#: ../../build/doc/overview/pywps_overview.rst:61
+msgid "**Website:** http://pywps.org"
+msgstr "**Sitio web:** http://pywps.org"
+
+#: ../../build/doc/overview/pywps_overview.rst:63
+msgid "**Licence:** GPL"
+msgstr "**Licencia:** GPL"
+
+#: ../../build/doc/overview/pywps_overview.rst:65
+msgid "**Software Version:** |version-pywps|"
+msgstr "**Versión de software:** |version-pywps|"
+
+#: ../../build/doc/overview/pywps_overview.rst:67
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
+
+#: ../../build/doc/overview/pywps_overview.rst:69
+msgid "**API Interfaces:** Python"
+msgstr "**Interfaces API:** Python"
+
+#: ../../build/doc/overview/pywps_overview.rst:71
+msgid "**Support:** http://pywps.org/community/#professional-support"
+msgstr "**Soporte:** http://pywps.org/community/#professional-support"
+
+#: ../../build/doc/overview/pywps_overview.rst:75
+msgid "Quickstart"
+msgstr "Inicio Rápido"
+
+#: ../../build/doc/overview/pywps_overview.rst:77
+msgid ":doc:`Quickstart documentation <../quickstart/pywps_quickstart>`"
+msgstr ""
+":doc:`Documentación de inicio rápido  <../quickstart/pywps_quickstart>`"

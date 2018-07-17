@@ -1,0 +1,208 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/geonode_overview.rst:17
+msgid "GeoNode"
+msgstr "GeoNode"
+
+#: ../../build/doc/overview/geonode_overview.rst:20
+msgid "Geospatial Content Management System"
+msgstr "Sistema de Gestión de Contenido Geoespacial"
+
+#: ../../build/doc/overview/geonode_overview.rst:22
+msgid ""
+"`GeoNode <http://geonode.org>`_ is a Content Management System for "
+"geospatial data which provides creation, sharing, and collaborative use of "
+"geospatial data. Datasets can be uploaded in various formats, maps can be "
+"edited, styled and aggregated through browser based tools, maps and metadata"
+" can be published and searched, and reviews, ratings and comments can be "
+"captured from users."
+msgstr ""
+"`GeoNode <http://geonode.org>`_ es un Sistema de Gestión de Contenido (CMS) "
+"para datos geoespaciales que permite la creación, intercambio y uso "
+"colaborativo de datos geoespaciales. Los conjuntos de datos pueden cargarse "
+"en varios formatos, los mapas pueden ser editados, diseñados y agregados a "
+"través herramientas basadas en navegador, mapas y metadatos pueden ser "
+"publicados y buscados, las revisiones, calificaciones y los comentarios  "
+"pueden capturarse por los usuarios."
+
+#: ../../build/doc/overview/geonode_overview.rst:24
+msgid ""
+"GeoNode is built upon: GeoServer, GeoExplorer, pycsw, Django, and GeoExt."
+msgstr ""
+"GeoNode se construye sobre: GeoServer, GeoExplorer, pycsw, Django y GeoExt."
+
+#: ../../build/doc/overview/geonode_overview.rst:33
+msgid "Core Features"
+msgstr "Características Principales"
+
+#: ../../build/doc/overview/geonode_overview.rst:35
+msgid "Spatial Data Discovery"
+msgstr "Descubrimiento de datos espaciales"
+
+#: ../../build/doc/overview/geonode_overview.rst:37
+msgid "Powerful spatial search engine"
+msgstr "Potente motor buscador espacial"
+
+#: ../../build/doc/overview/geonode_overview.rst:38
+msgid "Federated OGC services"
+msgstr "Servicios OGC federados"
+
+#: ../../build/doc/overview/geonode_overview.rst:39
+msgid "Metadata catalogue"
+msgstr "Catálogo de metadatos"
+
+#: ../../build/doc/overview/geonode_overview.rst:41
+msgid "Import and Manage Geospatial Data"
+msgstr "Importar y gestionar datos geoespaciales"
+
+#: ../../build/doc/overview/geonode_overview.rst:43
+msgid "Publish raster, vector, and tabular data"
+msgstr "Publicar datos tabulares, raster y vector"
+
+#: ../../build/doc/overview/geonode_overview.rst:44
+msgid "Manage metadata and associated documents"
+msgstr "Gestión de metadatos y documentos asociados"
+
+#: ../../build/doc/overview/geonode_overview.rst:45
+msgid "Securely or publicly share data"
+msgstr "Compartir datos con seguridad o públicamente"
+
+#: ../../build/doc/overview/geonode_overview.rst:46
+msgid "Versioned geospatial data editor"
+msgstr "Editor de datos geoespaciales con versiones"
+
+#: ../../build/doc/overview/geonode_overview.rst:48
+msgid "Interactive Mapping"
+msgstr "Cartografía interactiva"
+
+#: ../../build/doc/overview/geonode_overview.rst:50
+msgid "GeoExplorer GIS client"
+msgstr "Cliente GeoExplorer SIG"
+
+#: ../../build/doc/overview/geonode_overview.rst:51
+msgid "Graphical style editor"
+msgstr "Editor de estilo gráfico"
+
+#: ../../build/doc/overview/geonode_overview.rst:52
+msgid "Create multi-layer interactive maps"
+msgstr "Crea mapas interactivos de múltiples capas"
+
+#: ../../build/doc/overview/geonode_overview.rst:53
+msgid "Share and embed maps in web pages"
+msgstr "Compartir e integrar mapas en páginas web"
+
+#: ../../build/doc/overview/geonode_overview.rst:54
+msgid "Print maps as PDF"
+msgstr "Imprimir mapas en formato PDF"
+
+#: ../../build/doc/overview/geonode_overview.rst:56
+msgid "Collaboration"
+msgstr "Colaboración"
+
+#: ../../build/doc/overview/geonode_overview.rst:58
+msgid "Review, rate, and comment on data"
+msgstr "Revisión, evaluación y comentario en los datos"
+
+#: ../../build/doc/overview/geonode_overview.rst:59
+msgid "Groups of users"
+msgstr "Grupos de usuarios"
+
+#: ../../build/doc/overview/geonode_overview.rst:60
+msgid "Activity streams"
+msgstr "Corrientes de la actividad"
+
+#: ../../build/doc/overview/geonode_overview.rst:61
+msgid "Announcements and notifications"
+msgstr "Anuncios y notificaciones"
+
+#: ../../build/doc/overview/geonode_overview.rst:63
+msgid "... and more!"
+msgstr "... y más!"
+
+#: ../../build/doc/overview/geonode_overview.rst:66
+msgid "Implemented Standards"
+msgstr "Estándares implementados"
+
+#: ../../build/doc/overview/geonode_overview.rst:69
+msgid "`WMS <http://www.opengeospatial.org/standards/wms>`__"
+msgstr "`WMS <http://www.opengeospatial.org/standards/wms>`__"
+
+#: ../../build/doc/overview/geonode_overview.rst:70
+msgid "`CSW <http://www.opengeospatial.org/standards/csw>`__"
+msgstr "`CSW <http://www.opengeospatial.org/standards/csw>`__"
+
+#: ../../build/doc/overview/geonode_overview.rst:71
+msgid "`WFS <http://www.opengeospatial.org/standards/wfs>`__"
+msgstr "`WFS <http://www.opengeospatial.org/standards/wfs>`__"
+
+#: ../../build/doc/overview/geonode_overview.rst:72
+msgid "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
+msgstr "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
+
+#: ../../build/doc/overview/geonode_overview.rst:73
+msgid "`FE <http://www.opengeospatial.org/standards/fe>`__"
+msgstr "`FE <http://www.opengeospatial.org/standards/fe>`__"
+
+#: ../../build/doc/overview/geonode_overview.rst:74
+msgid "`SLD <http://www.opengeospatial.org/standards/sld>`__"
+msgstr "`SLD <http://www.opengeospatial.org/standards/sld>`__"
+
+#: ../../build/doc/overview/geonode_overview.rst:75
+msgid "`GML <http://www.opengeospatial.org/standards/gml>`__"
+msgstr "`GML <http://www.opengeospatial.org/standards/gml>`__"
+
+#: ../../build/doc/overview/geonode_overview.rst:78
+msgid "Details"
+msgstr "Detalles"
+
+#: ../../build/doc/overview/geonode_overview.rst:80
+msgid "**Website:** http://geonode.org/"
+msgstr "**Sitio web:** http://geonode.org/"
+
+#: ../../build/doc/overview/geonode_overview.rst:82
+msgid "**Licence:** GNU General Public License (GPL) version 2.0"
+msgstr "**Licencia:** GNU General Public License (GPL) version 2.0"
+
+#: ../../build/doc/overview/geonode_overview.rst:84
+msgid "**Software Version:** |version-geonode|"
+msgstr "**Versión de software:** |version-geonode|"
+
+#: ../../build/doc/overview/geonode_overview.rst:86
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
+
+#: ../../build/doc/overview/geonode_overview.rst:88
+msgid "**API Interfaces:** Python (Django)"
+msgstr "**Interfaces API:** Python (Django)"
+
+#: ../../build/doc/overview/geonode_overview.rst:90
+msgid "**Support:** http://opengeo.org/technology/geonode/"
+msgstr "**Soporte:** http://opengeo.org/technology/geonode/"
+
+#: ../../build/doc/overview/geonode_overview.rst:94
+msgid "Quickstart"
+msgstr "Inicio Rápido"
+
+#: ../../build/doc/overview/geonode_overview.rst:96
+msgid ":doc:`Quickstart documentation <../quickstart/geonode_quickstart>`"
+msgstr ""
+":doc:`Documentación de inicio rápido <../quickstart/geonode_quickstart>`"
