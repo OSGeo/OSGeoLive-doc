@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/jts_overview.rst:14
+msgid "JTS Topology Suite"
+msgstr "JTS Suite de topología"
+
+#: ../../build/doc/overview/jts_overview.rst:16
+msgid ""
+"JTS is an open source library of spatial predicates and functions for "
+"processing geometries.  It provides a complete, consistent, and robust "
+"implementation of fundamental algorithms for processing linear geometry on "
+"the 2-dimensional Cartesian plane."
+msgstr ""
+"JTS es una biblioteca de fuente abierta de predicados espaciales y funciones"
+" para el procesamiento de geometrías. Proporciona una implementación "
+"completa, consistente y robusta de algoritmos fundamentales para el "
+"procesamiento de  la geometría lineal en el plano Cartesiano de 2 "
+"dimensiones."
+
+#: ../../build/doc/overview/jts_overview.rst:20
+msgid ""
+"JTS includes the \"JTS Test Builder\" which allows users to run tests and "
+"experiment with geometry through an interactive desktop interface. JTS "
+"stability is ensured through an extensive test suite."
+msgstr ""
+"JTS incluye el \"JTS Test Builder\" que permite a los usuarios ejecutar "
+"pruebas y experimentar con la geometría a través de una interfaz de "
+"escritorio interactiva. La estabilidad de JTS está garantizada a través de "
+"un extenso conjunto de pruebas."
+
+#: ../../build/doc/overview/jts_overview.rst:24
+msgid ""
+"JTS is used by most java based Open Source geospatial applications, and "
+":doc:`geos_overview`, which is a C++ port of JTS, is used by most C based "
+"applications.  Additional ports are available for C# and JavaScript."
+msgstr ""
+"JTS es utilizado por la mayoría de las aplicaciones geoespaciales de Código "
+"Abierto basadas en Java, y :doc:`geos_overview`, que es un puerto  C++  de "
+"JTS, utilizado por la mayoría de las aplicaciones basadas en C. Hay puertos "
+"adicionales disponibles para C # y JavaScript."
+
+#: ../../build/doc/overview/jts_overview.rst:35
+msgid "Core Features"
+msgstr "Características Principales"
+
+#: ../../build/doc/overview/jts_overview.rst:37
+msgid "Geometry model (point, line, area)"
+msgstr "Modelo de geometría (punto, línea, área)"
+
+#: ../../build/doc/overview/jts_overview.rst:38
+msgid "Geometry operations (e.g., intersect, union, within, etc.)"
+msgstr ""
+"Operaciones de geometría (por ejemplo, intersección, unión, dentro, etc.)"
+
+#: ../../build/doc/overview/jts_overview.rst:39
+msgid "Precision handling"
+msgstr "Manejo de precisión"
+
+#: ../../build/doc/overview/jts_overview.rst:40
+msgid "Geometric constructions"
+msgstr "Construcciones Geométricas"
+
+#: ../../build/doc/overview/jts_overview.rst:41
+msgid "Metric functions (e.g., Cartesian 2D distance, Hausdorff distance)"
+msgstr ""
+"Funciones métricas (por ejemplo, distancia 2D Cartesiana, distancia de "
+"Hausdorff)"
+
+#: ../../build/doc/overview/jts_overview.rst:42
+msgid ""
+"Spatial algorithms (e.g. buffer creation, line offsets, line simplification)"
+msgstr ""
+"Algoritmos espaciales (por ejemplo, creación de buffer, offsets de línea, "
+"simplificación de línea)"
+
+#: ../../build/doc/overview/jts_overview.rst:43
+msgid "Geometric math functions (e.g., angles, distances, etc.)"
+msgstr ""
+"Funciones matemáticas geométricas (por ejemplo, ángulos, distancias, etc.)"
+
+#: ../../build/doc/overview/jts_overview.rst:44
+msgid "Spatial structures (e.g. Quadtree and R-tree, Delauney triangulation)"
+msgstr ""
+"Estructuras espaciales (por ejemplo, Quadtree andf R-tree, triangulación "
+"Delaunay)"
+
+#: ../../build/doc/overview/jts_overview.rst:45
+msgid "Input/Output (e.g., WKT, GML)"
+msgstr "Entrada/Salida (por ejemplo, WKT, GML)"
+
+#: ../../build/doc/overview/jts_overview.rst:46
+msgid "High-precision arithmetic"
+msgstr "Aritmética de alta precisión"
+
+#: ../../build/doc/overview/jts_overview.rst:49
+msgid "Supported Formats"
+msgstr "Formatos soportados"
+
+#: ../../build/doc/overview/jts_overview.rst:51
+msgid "Well Known Text (WKT) and Well Known Binary (WKB)"
+msgstr "Texto bien conocido (WKT) y Binario Bien Conocido (WKB)"
+
+#: ../../build/doc/overview/jts_overview.rst:52
+msgid "GML 2"
+msgstr "GML 2"
+
+#: ../../build/doc/overview/jts_overview.rst:53
+msgid "Java Swing/AWT writing"
+msgstr "Escritura Java Swing/AWT "
+
+#: ../../build/doc/overview/jts_overview.rst:56
+msgid "Implemented Standards"
+msgstr "Estándares implementados"
+
+#: ../../build/doc/overview/jts_overview.rst:58
+msgid "OGC Simple Features for SQL (SFSQL)"
+msgstr "Funciones simples de OGC para SQL (SFSQL)"
+
+#: ../../build/doc/overview/jts_overview.rst:61
+msgid "Details"
+msgstr "Detalles"
+
+#: ../../build/doc/overview/jts_overview.rst:63
+msgid "**Website:** ttps://www.locationtech.org/projects/technology.jts"
+msgstr "**Sitio web:** ttps://www.locationtech.org/projects/technology.jts"
+
+#: ../../build/doc/overview/jts_overview.rst:65
+msgid "**Licence:** LGPL"
+msgstr "**Licencia:** LGPL"
+
+#: ../../build/doc/overview/jts_overview.rst:67
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
+
+#: ../../build/doc/overview/jts_overview.rst:69
+msgid "**API Interfaces:** Java"
+msgstr "**Interfaces API:** Java"
+
+#: ../../build/doc/overview/jts_overview.rst:71
+msgid "**Support:** https://sourceforge.net/projects/jts-topo-suite/"
+msgstr "**Soporte:** https://sourceforge.net/projects/jts-topo-suite/"

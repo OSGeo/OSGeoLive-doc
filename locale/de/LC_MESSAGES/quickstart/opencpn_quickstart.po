@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Andreas Schild <andreas.schild@bfw.gv.at>, 2018\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:15
+msgid "OpenCPN Quickstart"
+msgstr "OpenCPN Quickstart"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:17
+msgid ""
+"OpenCPN is a concise Chart Plotter and Navigator (CPN). As always, never use"
+" a piece of software or electronic equipment as your only means of "
+"navigation and keep an eye out the window."
+msgstr ""
+"OpenCPN ist ein präziser Diagramm Drucker und Navigator (CPN). Wie immer: "
+"verwende nie eine Software oder elektronische Ausrüstung als alleiniges "
+"Navigationswerkzeug. Halte die Augen offen."
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:23
+msgid "Running"
+msgstr "Starten und verwenden"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:26
+msgid "Setting up your charts"
+msgstr "Seekarten vorbereiten"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:27
+msgid ""
+"Before running OpenCPN on the LiveDVD you should activate the sample data. "
+"This is a condition of redistributing NOAA's free nautical charts. The first"
+" time you run OpenCPN from the :menuselection:`Geospatial --> Navigation and"
+" Maps` menu or Desktop icon you will be presented with the option to do this"
+" automatically."
+msgstr ""
+"Bevor Sie mit OpenCPN auf der LiveDVD arbeiten können, sind die "
+"Beispieldaten zu einzurichten. Dies ist eine Bedingung für die "
+"Weiterverbreitung der NOAA nautischen Diagramme. Wenn Sie OpenCPN das erste "
+"Mal über den Menüeintrag :menuselection:`Geospatial --> Navigation and Maps`"
+" oder das Desktop Icon starten, wird Ihnen diese Option automatisch "
+"angeboten."
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:37
+msgid ""
+"You can download additional US nautical charts from NOAA at "
+"http://www.charts.noaa.gov"
+msgstr ""
+"Weitere US Seekarten können Sie von der Webseite des amerikanischen "
+"Ministeriums für Ozeanik und Atmosphäre (NOAA - National Oceanic and "
+"Atmospheric Administration) kostenfrei beziehen, zu finden unter "
+"http://www.charts.noaa.gov"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:42
+msgid "Setting up your GPS"
+msgstr "GPS einstellen"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:43
+msgid ""
+"If you have a GPS connected you will want to start the gpsd service. To do "
+"that run:"
+msgstr ""
+"Sollten Sie ein GPS-Gerät angeschlossen haben, können Sie den gpsd Service \n"
+"wie folgt starten:"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:50
+msgid "and"
+msgstr "und"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:56
+msgid ""
+"BlueTooth GPS users should take special care to read up about the no-probe "
+"option."
+msgstr ""
+"Möchten Sie über BlueTooth verbundene GPS-Geräte verwenden, sollten Sie "
+"zuvor weitere Details zur no-probe Option sorgfältig lesen."
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:62
+msgid "'`xgps`' is a good program to check that Gpsd can see your GPS ok."
+msgstr ""
+"'`xgps`' ist ein Programm, mit dem Sie prüfen können, ob gpsd das GPS-Gerät "
+"erkennt und verwenden kann."
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:66
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:68
+msgid ""
+"Documentation is available from the `Help menu "
+"<../../opencpn/help_en_US.html>`_, or online at "
+"http://www.opencpn.org/ocpn/opencpn_manual"
+msgstr ""
+"Dokumentation ist verfügbar über das `Help Icon <../../opencpn/help_en_US.html>`_, oder direkt Online unter \n"
+" http://www.opencpn.org/ocpn/opencpn_manual"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:72
+msgid "`Getting started tips <../../opencpn/tips.html>`_"
+msgstr "`Tipps zum Einstieg <../../opencpn/tips.html>`_"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:76
+msgid "See also"
+msgstr "Was kann man noch probieren?"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:78
+msgid ""
+"Current weather and wave forecast data can be downloaded and draped over "
+"your charts using the GRIB plugin. The :doc:`zyGrib software "
+"<../overview/zygrib_overview>` (also on this disc) is an easy way to "
+"download that. See the :doc:`zyGrib quickstart "
+"<../quickstart/zygrib_quickstart>` for details. Enable the plugin from the "
+"right most tab of the OpenCPN configuration menu; a new windsock icon will "
+"appear at the right end of the main toolbar."
+msgstr ""
+"Aktuelle Wetter- und Vorhersagedaten können heruntergeladenen und mit ded GRIB Plugin eingebunden werden, so dass diese über den Seekarten dargestellt werden. Die :doc:`zyGrib Software <../overview/zygrib_overview>` (auch auf der LiveDVD vorhanden) \n"
+"können Sie verwenden, um die Daten einfach herunterzuladen. Weitere Details können Sie in der :doc:`zyGrib Quickstart Dokumentation <../quickstart/zygrib_quickstart>` finden. Aktivieren Sie das GRIB Plugin im Konfigurationsmenü auf dem äußerst rechten Tab;"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:85
+msgid ""
+"If you saved the zyGrib file into your home directory, navigate to "
+":file:`/home` and select your ``user`` directory as the GRIB data directory."
+" Then right click on the file listing's background to show hidden files, "
+"including the ``.zygrib`` directory that contains the GRIB download files."
+msgstr ""
+"Haben Sie die GRIB Daten im Home-Verzeichnis des Benutzers gespeichert, "
+"navigieren Sie nach :file:`/home` und wählen Sie Ihr ``user``-Verzeichnis "
+"als das GRIB Datenverzeichnis. Versteckte Dateien inklusive des "
+"``.zygrib``-Verzeichnissen mit den GRIB download Dateien werden über den "
+"rechten Klick auf die Dateieigenschaften angezeigt."
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:90
+msgid ""
+"There is no need to uncompress the file.  Click on the \">\" to the left of "
+"the filename and select from the list of available forecast times."
+msgstr ""
+"Die Datei muss nicht dekomprimiert werden. Klicken Sie auf \">\" links neben"
+" dem Dateinamen und wählen Sie aus der Liste der Vorhersagenzeiten."

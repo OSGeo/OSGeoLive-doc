@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2018\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/otb_overview.rst:17
+msgid "OTB"
+msgstr "OTB"
+
+#: ../../build/doc/overview/otb_overview.rst:20
+msgid "Image Processing"
+msgstr "Bild Prozessierung"
+
+#: ../../build/doc/overview/otb_overview.rst:22
+msgid ""
+"ORFEO Toolbox Library (OTB) is a high performance image processing library. "
+"It is primarily used for processing large remote sensing images such as "
+"those gathered by radars, satellites and aerial photography. OTB provides "
+"tools for optic and radar images (tridimensional aspects, segmentation, "
+"classification, changes detection, texture analysis, pattern matching, and "
+"optic/radar complementarities), many of which can be run on limited-"
+"resourced laptops."
+msgstr ""
+"ORFEO Toolbox Library (OTB) ist eine hochperformante "
+"Bildprozessierungsbibliothek. OTB wurde anfangs zur Prozessierung von "
+"Fernerkundungsdaten (Remote Sensing) wie Radaraufnahmen, Satellitenaufnahmen"
+" und Luftbildern. OTB stellt Werkzeuge für Optic und Radarbilder (3D "
+"Aspekte, Erkennung von Änderungen, Texturanalysen, Musterabgleich, "
+"optische/radar Komplementaritäten) zur Verfügung. Viele der Prozesse können "
+"auf weniger leistungsstarken Notebooks laufen."
+
+#: ../../build/doc/overview/otb_overview.rst:29
+msgid ""
+"OTB is also shipped with a set of extensible ready-to-use tools for "
+"classical remote sensing tasks and a fully integrated application called "
+"Monteverdi, which is a fast viewer that allows users to vizualise multiple "
+"layers, and call OTB processing tools from a menu entry."
+msgstr ""
+"OTB wird mit erweiterbaren direkt einsatzfähigen Werkzeugen für klassische "
+"Remote Sensing Fragestellungen sowie mit einer vollständig integrierten "
+"Benutzeroberfläche mit dem Namen Monteverdi ausgeliefert. Monteverdi ist ein"
+" performates Anzeigewerkzeug, das es dem Anwender ermöglicht zahlreiche "
+"Layer zu visualisieren und OTB Prozessketten über das Menü auszuwählen."
+
+#: ../../build/doc/overview/otb_overview.rst:34
+msgid ""
+"OTB has been funded the French Space Agency (CNES) in the frame of the "
+"Methodological Part of the ORFEO/Pleiades Accompaniement Program and has "
+"been actively developed since 2006. It is based on the ITK image processing "
+"library and is distributed as open source."
+msgstr ""
+"OTB wurde von der French Space Agency (CNES) im Rahmen des methodischen "
+"Bereichs des ORFEO/Pleiades Accompaniement Programms gegründet und wurde "
+"aktiv seit 2006 entwickelt. Es basiert auf der bewährten "
+"Bildprozesierungsbibliothek ITK(v4) und ist Open Source."
+
+#: ../../build/doc/overview/otb_overview.rst:46
+msgid "Core Features"
+msgstr "Kernfunktionen"
+
+#: ../../build/doc/overview/otb_overview.rst:49
+msgid ""
+"image access: optimized read/write access for most remote sensing raster "
+"formats (also JPEG2000 formats), meta-data access and visualization;"
+msgstr ""
+"Bildzugriff: optimierter Lese-/Schreibzugriff für die meisten "
+"Fernerkundungsrasterdatenformate (inklusive Jpeg2000), Metadatenzugriff und "
+"Visualisierung"
+
+#: ../../build/doc/overview/otb_overview.rst:51
+msgid ""
+"orthorectification using DEM, map reprojection and sensor model refinement"
+msgstr "Orthorectification unter Verwendung von DEM und Kartenumprojektion"
+
+#: ../../build/doc/overview/otb_overview.rst:52
+msgid "optical and SAR calibration"
+msgstr "optische und SAR Kalibrierung"
+
+#: ../../build/doc/overview/otb_overview.rst:53
+msgid "image fusion"
+msgstr "Bildfusion"
+
+#: ../../build/doc/overview/otb_overview.rst:54
+msgid "filtering: blurring, denoising, enhancement..."
+msgstr "Filtern: Blurring, Denoising, Verbesserungen"
+
+#: ../../build/doc/overview/otb_overview.rst:55
+msgid "feature extraction: interest points, alignments, lines..."
+msgstr "Erzeugen von Objekten: Einfügen von Punkten, Anpassungen, Linien"
+
+#: ../../build/doc/overview/otb_overview.rst:56
+msgid "object detection"
+msgstr "Objekterkennung"
+
+#: ../../build/doc/overview/otb_overview.rst:57
+msgid ""
+"large scale image segmentation: region growing, mean-shift, watershed, level"
+" sets..."
+msgstr ""
+"Bildsegmentierung: Region Growing, Watershed, Niveaumengenmethoden (Level "
+"Sets)"
+
+#: ../../build/doc/overview/otb_overview.rst:58
+msgid "sample selection framework for training"
+msgstr "Framework mit Beispielen zum Testen"
+
+#: ../../build/doc/overview/otb_overview.rst:59
+msgid ""
+"classification: both supervised and unsupervised algorithms coming from "
+"OpenCV , Shark, libSVM or custom implementations (K-means, Markov random "
+"fields, SVM, Random Forest, ...)"
+msgstr "Klassifizierung: K-Means, SVM, MRF (Markov Random Fields)"
+
+#: ../../build/doc/overview/otb_overview.rst:62
+msgid ""
+"regression using machine learning methods from OpenCV (SVM, Random Forest, "
+"...)"
+msgstr ""
+"Regression mit Hilfe von machine-learning Methoden von OpenCV (SVM, Random "
+"Forest, ...)"
+
+#: ../../build/doc/overview/otb_overview.rst:63
+msgid "object-based image analysis"
+msgstr "objektbasierte Bildanalyse"
+
+#: ../../build/doc/overview/otb_overview.rst:64
+msgid "geospatial analysis"
+msgstr "räumliche Analyse"
+
+#: ../../build/doc/overview/otb_overview.rst:65
+msgid "stereoscopic reconstruction from optical images"
+msgstr "Stereoskopische Rekonstruktion von optischen Bildern"
+
+#: ../../build/doc/overview/otb_overview.rst:66
+msgid "SAR data analysis : calibration, polarimetry analysis"
+msgstr "SAR Datenanalyse: Kalibrierung, polarimetry analysis"
+
+#: ../../build/doc/overview/otb_overview.rst:67
+msgid "change detection."
+msgstr "Änderungsverfolgung"
+
+#: ../../build/doc/overview/otb_overview.rst:70
+msgid "Details"
+msgstr "Details"
+
+#: ../../build/doc/overview/otb_overview.rst:72
+msgid "**Website:** http://www.orfeo-toolbox.org/"
+msgstr "**Webseite:** http://www.orfeo-toolbox.org/"
+
+#: ../../build/doc/overview/otb_overview.rst:74
+msgid "**Licence:** Apache v2.0"
+msgstr "**Lizenz:** Apache v2.0"
+
+#: ../../build/doc/overview/otb_overview.rst:76
+msgid "**Software Version:** |version-otb|"
+msgstr "**Software Version:** |version-otb|"
+
+#: ../../build/doc/overview/otb_overview.rst:78
+msgid "**Supported Platforms:** Linux, Mac, Windows"
+msgstr "**Unterstützte Plattformen:** Linux, Mac, Windows"
+
+#: ../../build/doc/overview/otb_overview.rst:80
+msgid "**API Interfaces:** C++"
+msgstr "**API Schnittstellen:** C++"
+
+#: ../../build/doc/overview/otb_overview.rst:82
+msgid "**Commercial Support:** http://www.osgeo.org/search_profile"
+msgstr "**Kommerzieller Support:** http://www.osgeo.org/search_profile"
+
+#: ../../build/doc/overview/otb_overview.rst:87
+msgid "Quickstart"
+msgstr "Schnellstart"
+
+#: ../../build/doc/overview/otb_overview.rst:89
+msgid ":doc:`Quickstart documentation <../quickstart/otb_quickstart>`"
+msgstr ":doc:`Quickstart Dokumentation <../quickstart/otb_quickstart>`"

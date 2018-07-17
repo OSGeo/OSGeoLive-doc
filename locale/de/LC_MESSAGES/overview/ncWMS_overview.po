@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Andreas Schild <andreas.schild@bfw.gv.at>, 2018\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:14
+msgid "ncWMS"
+msgstr "ncWMS"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:17
+msgid "Web Map Service"
+msgstr "Web Map Service"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:19
+msgid ""
+"ncWMS publishes multi-dimensional data (such as environmental and weather "
+"data) as an OGC compliant Web Map Service (WMS). ncWMS quickly and "
+"efficiently extracts the map images from the very large data files typically"
+" associated with environmental data."
+msgstr ""
+"ncWMS veröffentlicht mehrdimensionale Daten (beispielsweise Umwelt- oder "
+"Wetterdaten) als OGC konformen Web Map Service (WMS). ncWMS extrahiert die "
+"Kartenbilder schnell und effizient aus sehr großen Daten, die für "
+"Umweltdaten typisch sind."
+
+#: ../../build/doc/overview/ncWMS_overview.rst:28
+msgid "Core Features"
+msgstr "Kernfunktionen"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:30
+msgid "Fast extraction of data"
+msgstr "Schnelle Datenextraktion"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:32
+msgid "Generation of timeseries and vertical profile plots"
+msgstr "Erstellung von Zeitreihen und vertikalen Profildrucken"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:34
+msgid "Ability to plot data along a transect"
+msgstr "Fähigkeit, Daten entlang eines Transects zu drucken"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:36
+msgid ""
+"Automatic recognition of vector-components and generation of vector arrows"
+msgstr ""
+"Automatische Erkennung von Vektor-Komponenten und Generierung von "
+"Vektorpfeilen"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:38
+msgid ""
+"Support for a large range of projections (for both source data and target "
+"images)"
+msgstr "Unterstützung zahlreicher Projektionen (für Quell- und Zieldaten)"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:40
+msgid "Support for creating animations"
+msgstr "Unterstützung von Animationen"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:42
+msgid "Browser client included"
+msgstr "Integrierter Browser Client"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:44
+msgid "Support for export to Google Earth KML format"
+msgstr "Export in das Google Earth KML Format"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:46
+msgid "Input formats: NetCDF, GRIB, OPeNDAP"
+msgstr "Eingabeformate: NetCDF, GRIB, OPeNDAP"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:48
+msgid "Output formats: PNG, JPEG, animated GIF, KML"
+msgstr "Ausgabeformate: PNG, JPEG, animiertes GIF, KML"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:51
+msgid "Implemented Standards"
+msgstr "Unterstützte Standards"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:53
+msgid "`WMS <http://www.opengeospatial.org/standards/wms>`__ (v1.1.1, v1.3.0)"
+msgstr ""
+"`WMS <http://www.opengeospatial.org/standards/wms>`__ (v1.1.1, v1.3.0)"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:55
+msgid "`KML <http://www.opengeospatial.org/standards/kml>`__"
+msgstr "`KML <http://www.opengeospatial.org/standards/kml>`__"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:58
+msgid "Details"
+msgstr "Details"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:60
+msgid "**Website:** https://github.com/Reading-eScience-Centre/ncwms"
+msgstr "**Webseite:** https://github.com/Reading-eScience-Centre/ncwms"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:62
+msgid ""
+"**Licence:** `Modified BSD License <https://github.com/Reading-eScience-"
+"Centre/ncwms/releases/download/ncwms-2.2.8/licence.txt>`_"
+msgstr ""
+"**Lizenz:** `Modified BSD License <https://github.com/Reading-eScience-"
+"Centre/ncwms/releases/download/ncwms-2.2.8/licence.txt>`_"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:64
+msgid "**Software Version:** |version-ncWMS|"
+msgstr "**Software Version:** |version-ncWMS|"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:66
+msgid "**Supported Platforms:** All Java 1.8 platforms: Windows, Linux, Mac"
+msgstr ""
+"**Unterstützte Plattformen:** Alle Java 1.8 Plattformen: Windows, Linux, Mac"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:68
+msgid "**API Interfaces:** Java; WMS"
+msgstr "**API Schnittstellen:** Java; WMS"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:70
+msgid "**Support:** https://github.com/Reading-eScience-Centre/ncwms/issues"
+msgstr "**Support:** https://github.com/Reading-eScience-Centre/ncwms/issues"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:75
+msgid "Quickstart"
+msgstr "Schnellstart"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:77
+msgid ":doc:`Quickstart documentation <../quickstart/ncWMS_quickstart>`"
+msgstr ":doc:`Quickstart Dokumentation <../quickstart/ncWMS_quickstart>`"

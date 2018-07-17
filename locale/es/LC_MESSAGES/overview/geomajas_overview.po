@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/geomajas_overview.rst:17
+msgid "Geomajas"
+msgstr "Geomajas"
+
+#: ../../build/doc/overview/geomajas_overview.rst:20
+msgid "Browser GIS Client"
+msgstr "Cliente GeoExplorer SIG"
+
+#: ../../build/doc/overview/geomajas_overview.rst:22
+msgid ""
+"The Client enables developers to create powerful web GIS applications "
+"including interactive maps, extensible widgets and custom use cases. It "
+"allows access to a wide range of data sources and functionality through a "
+"web browser."
+msgstr ""
+"El Cliente permite a los desarrolladores crear potentes aplicaciones GIS web"
+" que incluyen mapas interactivos, widgets extensibles y casos de uso "
+"personalizados. Permite el acceso a una amplia gama de fuentes de datos y "
+"funcionalidad a través de un navegador web."
+
+#: ../../build/doc/overview/geomajas_overview.rst:31
+msgid "Core Features"
+msgstr "Características Principales"
+
+#: ../../build/doc/overview/geomajas_overview.rst:33
+msgid "Programmable using pure Java through GWT"
+msgstr "Programable usando Java puro a través de GWT"
+
+#: ../../build/doc/overview/geomajas_overview.rst:34
+msgid ""
+"Supports many layer types (incl. WMS, WFS, WMTS, TMS, OSM, Google Maps, "
+"Shape, PostGIS, Oracle, JDBC, …)"
+msgstr ""
+"Es compatible con muchos tipos de capas (incluyendo WMS, WFS, WMTS, TMS, "
+"OSM, Google Maps, Shape, PostGIS, Oracle, JDBC, …)"
+
+#: ../../build/doc/overview/geomajas_overview.rst:35
+msgid ""
+"Handy collection of built-in widgets (incl. Editing and redlining, Print, "
+"Geocoding, Layer tree, ...)"
+msgstr ""
+"Práctica colección de widgets integrados (incluyendo Editing and redlining, "
+"Print, Geocoding, Layer tree, ...)"
+
+#: ../../build/doc/overview/geomajas_overview.rst:36
+msgid "Build your own use cases and create new widgets"
+msgstr "Cree sus propios casos de uso y cree nuevos widgets"
+
+#: ../../build/doc/overview/geomajas_overview.rst:37
+msgid "Easy skinnable through custom CSS"
+msgstr "Fácil de personalizar mediante CSS personalizado"
+
+#: ../../build/doc/overview/geomajas_overview.rst:38
+msgid "No need for browser plug-ins"
+msgstr "Sin necesidad de complementos del navegador"
+
+#: ../../build/doc/overview/geomajas_overview.rst:39
+msgid "Runs on a wide range of internet devices using HTML5"
+msgstr "Se ejecuta en una amplia gama de dispositivos de Internet con HTML5"
+
+#: ../../build/doc/overview/geomajas_overview.rst:40
+msgid "Not a GWT enthusiast? Access core features through the Javascript API"
+msgstr ""
+"Características Principales No es un entusiasta de GWT? Acceda a las "
+"Características Principales a través de Javascript API"
+
+#: ../../build/doc/overview/geomajas_overview.rst:43
+msgid "Enterprise Server features"
+msgstr "Funciones de Enterprise Server"
+
+#: ../../build/doc/overview/geomajas_overview.rst:45
+msgid ""
+"Advanced security on different levels (layer, feature, attribute, "
+"functionality, …)"
+msgstr ""
+"Seguridad avanzada en diferentes niveles (capa, función, atributo, "
+"funcionalidad, ...)"
+
+#: ../../build/doc/overview/geomajas_overview.rst:46
+msgid ""
+"Seamless integration with your own Domain Model – persistence via Hibernate,"
+" web services, Java RMI, ..."
+msgstr ""
+"Perfecta integración con su propio Modelo de Dominio - persistencia a través"
+" de Hibernate, servicios web, Java RMI, ..."
+
+#: ../../build/doc/overview/geomajas_overview.rst:47
+msgid ""
+"Enterprise integration with other business applications such as JBPM, "
+"Activiti, JasperReports, CMS, Alfresco through industry standards (SOAP, "
+"REST, ESB, JNDI, …)"
+msgstr ""
+"Integración empresarial con otras aplicaciones comerciales tales como JBPM, "
+"Activiti, JasperReports, CMS, Alfresco ta través de estándares industriales "
+"(SOAP, REST, ESB, JNDI, …)"
+
+#: ../../build/doc/overview/geomajas_overview.rst:48
+msgid "Easy extensible through the Spring framework"
+msgstr "Fácil extensible a través del marco Spring"
+
+#: ../../build/doc/overview/geomajas_overview.rst:51
+msgid "Details"
+msgstr "Detalles"
+
+#: ../../build/doc/overview/geomajas_overview.rst:53
+msgid "**Website:** http://www.geomajas.org/"
+msgstr "**Sitio web:** http://www.geomajas.org/"
+
+#: ../../build/doc/overview/geomajas_overview.rst:55
+msgid "**Licence:** AGPL"
+msgstr "**Licencia:** AGPL"
+
+#: ../../build/doc/overview/geomajas_overview.rst:57
+msgid "**Software Version:** |version-geomajas|"
+msgstr "**Versión de software:** |version-geomajas|"
+
+#: ../../build/doc/overview/geomajas_overview.rst:59
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
+
+#: ../../build/doc/overview/geomajas_overview.rst:61
+msgid "**API Interfaces:** Java and Javascript"
+msgstr "**Interfaces API:**  Java yJavascript"
+
+#: ../../build/doc/overview/geomajas_overview.rst:63
+msgid "**Support:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089"
+msgstr "**Soporte:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089"
+
+#: ../../build/doc/overview/geomajas_overview.rst:68
+msgid "Quickstart"
+msgstr "Inicio Rápido"
+
+#: ../../build/doc/overview/geomajas_overview.rst:70
+msgid ":doc:`Quickstart documentation <../quickstart/geomajas_quickstart>`"
+msgstr ""
+":doc:`Documentación de inicio rápido <../quickstart/geomajas_quickstart>`"

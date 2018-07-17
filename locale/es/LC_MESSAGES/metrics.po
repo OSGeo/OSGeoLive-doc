@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Wladimir Szczerban, 2017\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/metrics.rst:6
+msgid "|osgeolive-version| Project Metrics"
+msgstr "|osgeolive-version| Métricas de proyecto"
+
+#: ../../build/doc/metrics.rst:8
+msgid ""
+"Metrics provided by `OpenHUB <https://www.openhub.net/>`_ which are derived "
+"from the projects' code repositories. Note these metrics have known "
+"deficiencies (such as caused by repositories moving), and only provide "
+"partial indications about the projects' development. Lack of change in "
+"smaller, concise packages and libraries may simply reflect a level of "
+"maturity and completeness."
+msgstr ""
+"Estas métricas son proporcionadas por  `OpenHUB <https://www.openhub.net/>`_"
+"  que a su vez las deriva desde los repositoiros de código de cada uno de "
+"los proyectos. Cabe destacar que estas métricas tienen algunas deficiencias "
+"bien conocidas (como las causadas por la migración de repositorios), por lo "
+"que sólo proporcionan indicadores parciales sobre el desarrollo de los "
+"proyectos. La falta de cambios en paquetes y librerías más pequeños puede "
+"simplemente constatar el nivel de madurez y completitud de los mismos."
+
+#: ../../build/doc/metrics.rst:14
+msgid ""
+"Viewing the metrics requires an Internet connection and Javascript to be "
+"enabled."
+msgstr ""
+"Para poder acceder a las métricas es necesario una conexión a Internet así "
+"como que el lenguaje JavaScript esté activado en tu navegador."
+
+#: ../../build/doc/metrics.rst:23
+msgid "Desktop GIS"
+msgstr "SIG de escritorio"
+
+#: ../../build/doc/metrics.rst:36
+msgid "Browser Facing GIS"
+msgstr "SIG en navegador"
+
+#: ../../build/doc/metrics.rst:50
+msgid "Web Services"
+msgstr "Servicios web"
+
+#: ../../build/doc/metrics.rst:70
+msgid "Data Stores"
+msgstr "Almacenes de datos"
+
+#: ../../build/doc/metrics.rst:81
+msgid "Navigation and Maps"
+msgstr "Navegación y mapas"
+
+#: ../../build/doc/metrics.rst:94
+msgid "Spatial Tools"
+msgstr "Herramientas espaciales"
+
+#: ../../build/doc/metrics.rst:107
+msgid "Domain Specific GIS"
+msgstr "Dominio específico SIG"
+
+#: ../../build/doc/metrics.rst:115
+msgid "Data"
+msgstr "Datos"
+
+#: ../../build/doc/metrics.rst:126
+msgid "Geospatial Libraries"
+msgstr "Librerías geoespaciales"

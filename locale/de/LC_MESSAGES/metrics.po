@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/metrics.rst:6
+msgid "|osgeolive-version| Project Metrics"
+msgstr "|osgeolive-version| Projekt Statistiken"
+
+#: ../../build/doc/metrics.rst:8
+msgid ""
+"Metrics provided by `OpenHUB <https://www.openhub.net/>`_ which are derived "
+"from the projects' code repositories. Note these metrics have known "
+"deficiencies (such as caused by repositories moving), and only provide "
+"partial indications about the projects' development. Lack of change in "
+"smaller, concise packages and libraries may simply reflect a level of "
+"maturity and completeness."
+msgstr ""
+"Die Statistiken werden über `OpenHUB <https://www.openhub.net/>`_ zur "
+"Verfügung gestellt. Sie werden aus dem jeweiligen Code-Repository der "
+"Projekte generiert. Beachten Sie, dass die Statistiken auch fehlerhaft sein "
+"können (beispielsweise durch den Umzug von Repositories) und nur teilweise "
+"eine Aussage über den Status der Projekte geben können."
+
+#: ../../build/doc/metrics.rst:14
+msgid ""
+"Viewing the metrics requires an Internet connection and Javascript to be "
+"enabled."
+msgstr ""
+"Für die Anzeige der Statistiken benötigen Sie eine Internetverbindung und "
+"JavaScript muss aktiviert sein."
+
+#: ../../build/doc/metrics.rst:23
+msgid "Desktop GIS"
+msgstr "Desktop-GIS"
+
+#: ../../build/doc/metrics.rst:36
+msgid "Browser Facing GIS"
+msgstr "Browser-GIS-Anwendungen"
+
+#: ../../build/doc/metrics.rst:50
+msgid "Web Services"
+msgstr "Web-Services"
+
+#: ../../build/doc/metrics.rst:70
+msgid "Data Stores"
+msgstr "Datenbanken"
+
+#: ../../build/doc/metrics.rst:81
+msgid "Navigation and Maps"
+msgstr "Navigation und Karten"
+
+#: ../../build/doc/metrics.rst:94
+msgid "Spatial Tools"
+msgstr "GIS-Werkzeuge"
+
+#: ../../build/doc/metrics.rst:107
+msgid "Domain Specific GIS"
+msgstr "Spezifische-GIS-Software"
+
+#: ../../build/doc/metrics.rst:115
+msgid "Data"
+msgstr "Daten"
+
+#: ../../build/doc/metrics.rst:126
+msgid "Geospatial Libraries"
+msgstr "GIS-Bibliotheken"

@@ -1,0 +1,329 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2018\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/geotools_overview.rst:17
+msgid "GeoTools"
+msgstr "GeoTools"
+
+#: ../../build/doc/overview/geotools_overview.rst:19
+msgid ""
+"GeoTools is an open source (LGPL) Java library which provides standards "
+"compliant methods for manipulating geospatial data, and uses data structures"
+" based on Open Geospatial Consortium (OGC) specifications."
+msgstr ""
+"GeoTools ist eine Open Source Bibliothek (LGPL) basierend auf Java, mit "
+"deren Hilfe man standardkonform räumliche Daten manipulieren und die "
+"Datenstrukturen ansprechen kann, die auf Open Geospatial Consortium (OGC) "
+"Spezifikationen beruhen."
+
+#: ../../build/doc/overview/geotools_overview.rst:21
+msgid ""
+"GeoTools is used by a number of projects including web services, command "
+"line tools and desktop applications. OSGeoLive applications which include "
+"GeoTools include: :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, "
+"AtlasStyler, :doc:`geomajas_overview`, Geopublisher, "
+":doc:`geoserver_overview`, and :doc:`udig_overview`."
+msgstr ""
+"GeoTools wird von verschiedensten Projekten verwendet, angefangen von Web Services über Kommandozeilen-Tools bis hin zu Desktop-Anwendungen. OSGeoLive Anwendungen, die u.A. auf GeoTools basieren: \n"
+":doc:`52nSOS_overview`, \n"
+":doc:`52nWPS_overview`, AtlasStyler, \n"
+":doc:`geomajas_overview`, Geopublisher, \n"
+":doc:`geoserver_overview`, und \n"
+":doc:`udig_overview`."
+
+#: ../../build/doc/overview/geotools_overview.rst:31
+msgid "Core Features"
+msgstr "Kernfunktionalität"
+
+#: ../../build/doc/overview/geotools_overview.rst:33
+msgid "Definition of interfaces for key spatial concepts and data structures"
+msgstr ""
+"Definition von Schnittstellen für zentrale räumliche Konzepte und "
+"Datenstrukturen"
+
+#: ../../build/doc/overview/geotools_overview.rst:35
+msgid ""
+"Integrated Geometry support provided by `JTS Topology Suite (JTS) "
+"<https://sourceforge.net/projects/jts-topo-suite/>`_"
+msgstr ""
+"Integrierte Unterstützung von Geometrien, bereit gestellt über die `JTS "
+"Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_"
+
+#: ../../build/doc/overview/geotools_overview.rst:36
+msgid "Attribute and spatial filters using OGC Filter Encoding specification"
+msgstr ""
+"attributive und räumliche Filter basierend auf der OGC Filter Encoding "
+"Spezifikation"
+
+#: ../../build/doc/overview/geotools_overview.rst:38
+msgid ""
+"A clean data access API supporting feature access, transaction support and "
+"locking between threads"
+msgstr ""
+"Eine saubere Programmierschnittstelle (Application Programming Interface - "
+"API) für den Zugriff auf räumliche Objekte (Features) und Unterstützung für "
+"Transaktionen und Sicherstellung der Sperrungen zwischen Threads"
+
+#: ../../build/doc/overview/geotools_overview.rst:40
+msgid "Access GIS data in many file formats and spatial databases"
+msgstr "Zugriffe datei- und datenbankbasierte GIS Daten"
+
+#: ../../build/doc/overview/geotools_overview.rst:41
+msgid "Coordinate reference system and transformation support"
+msgstr "unterstützt Koordinatensysteme und Transformationen "
+
+#: ../../build/doc/overview/geotools_overview.rst:42
+msgid "Work with an extensive range of map projections"
+msgstr "kann mir einer erweiterbaren Pallette von Kartenprojektionen umgehen"
+
+#: ../../build/doc/overview/geotools_overview.rst:43
+msgid "filter and analyze data in terms of spatial and non-spatial attributes"
+msgstr ""
+"Filterung und Analyse bezogen auf rämliche Daten und Daten, die keine "
+"räumliche Komponente besitzen"
+
+#: ../../build/doc/overview/geotools_overview.rst:45
+msgid ""
+"A stateless, low memory renderer, particularly useful in server-side "
+"environments."
+msgstr ""
+"Zustandsloser, wenig Speicher nutzender Renderer, vor allem hilfreich auf "
+"serverseitigen Umgebungen."
+
+#: ../../build/doc/overview/geotools_overview.rst:47
+msgid "compose and display maps with complex styling"
+msgstr "Erzeugen und Anzeigen von Larten mit komplexem Styling"
+
+#: ../../build/doc/overview/geotools_overview.rst:49
+msgid ""
+"Powerful *schema assisted* parsing technology using XML Schema to bind to "
+"GML content"
+msgstr ""
+"Ein zustandsloser Renderer, der wenig Arbeitsspeicher benötigt und somit "
+"insbesondere für serverseitige Anwendungen geeignet ist."
+
+#: ../../build/doc/overview/geotools_overview.rst:51
+msgid ""
+"The parsing / encoding technology is provided with bindings for many OGC "
+"standards including GML, Filter, KML, SLD, and SE."
+msgstr ""
+"Die Kodierung und Parser Technologie wird bereitgestellt für viele OGC "
+"Standards, unter anderem GML, KML, SLD, SE und Filter"
+
+#: ../../build/doc/overview/geotools_overview.rst:53
+msgid ""
+"GeoTools Plugins: open plug-in system allowing you to teach the library "
+"additional formats"
+msgstr ""
+"GeoTools Plugins: Offenes System zur Erweiterung, um weitere Formate zu "
+"unterstützen"
+
+#: ../../build/doc/overview/geotools_overview.rst:55
+msgid ""
+"Plug-ins for the ImageIO-EXT project allowing GeoTools to read additional "
+"raster formats from GDAL"
+msgstr ""
+"Plugins für das ImageIO-EXT Projekt, welches GeoTools ermöglicht, weitere "
+"Rasterformate über GDAL zu lesen"
+
+#: ../../build/doc/overview/geotools_overview.rst:57
+msgid "GeoTools Extensions"
+msgstr "GeoTools Erweiterungen"
+
+#: ../../build/doc/overview/geotools_overview.rst:59
+msgid ""
+"Provide additional capabilities built using the spatial facilites of the "
+"core library."
+msgstr ""
+"stellt weitere Möglichkeiten zur Erweiterung bereit, die auf die "
+"Kernbibliothek aufbauend umgesetzt worden sind"
+
+#: ../../build/doc/overview/geotools_overview.rst:64
+msgid ""
+"Extensions provide graph and networking support (for finding the shortest "
+"path), validation, a web map server client, bindings for xml parsing and "
+"encoding and color brewer."
+msgstr ""
+"Die Erweiterungen stellen Graphen- und Netzwerkanalysen "
+"(kürzester/schnellster Weg), Validierung, einen Web Map Server (WMS) Client,"
+" Bindings für XML Parser und Kodierer sowie `Color Brewer`."
+
+#: ../../build/doc/overview/geotools_overview.rst:66
+msgid "GeoTools Unsupported"
+msgstr "GeoTools *Unsupported*"
+
+#: ../../build/doc/overview/geotools_overview.rst:68
+msgid ""
+"GeoTools also operates as part of a wider community with a staging area used"
+" to foster new talent and promote experimentation."
+msgstr ""
+"GeoTools stellt mit dem *Unsupported* Bereich ein Sammelbecken zur "
+"Verfügung, welches von der Community genutzt werden kann, experimentell auf "
+"Basis der Kernbibliothek zu arbeiten und Talenten eine Plattform zu bieten, "
+"sich einzubringen."
+
+#: ../../build/doc/overview/geotools_overview.rst:70
+msgid ""
+"Some highlights are swing support (used in geotools tutorials), swt, local "
+"and web process support, additional symbology, additional data formats, "
+"generation of grids and a couple of implementations of ISO Geometry."
+msgstr ""
+"Einige Highlights sind die Unterstützung für Swing (wird in den Tutorials "
+"verwendet), Eclipse SWT, Unterstützung für Verarbeitungen in Prozessketten "
+"im Web (WPS) und lokal. Zusätzliche Symboliken, weitere Datenformate, "
+"Erzeugen von Gittern sowie einige Implementierungen für ISO Geometrien."
+
+#: ../../build/doc/overview/geotools_overview.rst:73
+msgid "Supported Formats"
+msgstr "Unterstützte Formate"
+
+#: ../../build/doc/overview/geotools_overview.rst:75
+msgid "raster formats and data access:"
+msgstr "Rasterdaten und Datenzugriffe:"
+
+#: ../../build/doc/overview/geotools_overview.rst:77
+msgid ""
+"arcsde, arcgrid, geotiff, grassraster, gtopo30, image (JPEG, TIFF, GIF, "
+"PNG), imageio-ext-gdal, imagemoasaic, imagepyramid, JP2K, matlab."
+msgstr ""
+"arcsde, arcgrid, geotiff, grassraster, gtopo30, image (JPEG, TIFF, GIF, "
+"PNG), imageio-ext-gdal, imagemoasaic, imagepyramid, JP2K, matlab."
+
+#: ../../build/doc/overview/geotools_overview.rst:79
+msgid "Database \"jdbc-ng\" support:"
+msgstr "Datenbanken \"jdbc-ng\" Unterstützung:"
+
+#: ../../build/doc/overview/geotools_overview.rst:81
+msgid "db2, h2, mysql, oracle, postgis, spatialite, sqlserver."
+msgstr "db2, h2, mysql, oracle, postgis, spatialite, sqlserver."
+
+#: ../../build/doc/overview/geotools_overview.rst:83
+msgid "Vector formats and data access:"
+msgstr "Vektordaten und Datenzugriffe:"
+
+#: ../../build/doc/overview/geotools_overview.rst:85
+msgid ""
+"app-schema, arcsde, csv, dxf, edigeo, excel, geojson, org, property, "
+"shapefile, wfs."
+msgstr ""
+"app-schema, arcsde, csv, dxf, edigeo, excel, geojson, org, property, "
+"shapefile, wfs."
+
+#: ../../build/doc/overview/geotools_overview.rst:87
+msgid "XML Bindings:"
+msgstr "XML Bindings:"
+
+#: ../../build/doc/overview/geotools_overview.rst:89
+msgid ""
+"Java data structures and bindings provided for the following: xsd-core (xml "
+"simple types), fes, filter, gml2, gml3, kml, ows, sld, wcs, wfs, wms, wps, "
+"vpf."
+msgstr ""
+"Java Datenstrukturen und Bindings werde angeboten für: xsd-core (xml simple "
+"types), fes, filter, gml2, gml3, kml, ows, sld, wcs, wfs, wms, wps, vpf."
+
+#: ../../build/doc/overview/geotools_overview.rst:92
+msgid ""
+"Additional Geometry, Filter and Style parser/encoders available for DOM and "
+"SAX applications."
+msgstr ""
+"Weitere Geometrie-, Filter- und Stil- Parser/Kodierer sind für DOM und SAX "
+"basierte Anwendungen verfügbar."
+
+#: ../../build/doc/overview/geotools_overview.rst:95
+msgid "Implemented Standards"
+msgstr "Implementierte Standards"
+
+#: ../../build/doc/overview/geotools_overview.rst:97
+msgid "Support of numerous Open Geospatial Consortium (OGC) standards:"
+msgstr ""
+"Unterstützung für eine breite Palette der Open Geospatial Consortium (OGC) "
+"Standards:"
+
+#: ../../build/doc/overview/geotools_overview.rst:99
+msgid ""
+"OGC Style Layer Descriptor / Symbology Encoding data structures and "
+"rendering engine"
+msgstr "OGC Style Layer Descriptor / Symbology Encoding "
+
+#: ../../build/doc/overview/geotools_overview.rst:100
+msgid "OGC General Feature Model including Simple Feature support"
+msgstr "OGC General Feature Model including Simple Feature support"
+
+#: ../../build/doc/overview/geotools_overview.rst:101
+msgid "OGC Grid Coverage representation of raster information"
+msgstr "OGC Grid Coverage Repräsentationen von Rasterinformationen"
+
+#: ../../build/doc/overview/geotools_overview.rst:102
+msgid "OGC Filter and Common Constraint Language (CQL)"
+msgstr "OGC Filter und Common Constraint Language (CQL)"
+
+#: ../../build/doc/overview/geotools_overview.rst:103
+msgid ""
+"Clients for Web Feature Service (WFS), Web Map Service (WMS) and "
+"experimental support for Web Process Service (WPS)"
+msgstr ""
+"Clients für Web Feature Service (WFS), Web Map Service (WMS) and "
+"experimentelle Unterstützung für Web Process Service (WPS)"
+
+#: ../../build/doc/overview/geotools_overview.rst:104
+msgid "ISO 19107 Geometry"
+msgstr "ISO 19107 Geometry"
+
+#: ../../build/doc/overview/geotools_overview.rst:107
+msgid "Details"
+msgstr "Details"
+
+#: ../../build/doc/overview/geotools_overview.rst:109
+msgid "**Website:** http://geotools.org/"
+msgstr "**Webseite:** http://geotools.org/"
+
+#: ../../build/doc/overview/geotools_overview.rst:111
+msgid "**Licence:** LGPL"
+msgstr "**Lizenz:** LGPL"
+
+#: ../../build/doc/overview/geotools_overview.rst:113
+msgid "**Supported Platforms:** Cross Platform Java 8,9,10"
+msgstr "**Unterstützte Plattformen:** Plattformübergreifend Java 8,9,10"
+
+#: ../../build/doc/overview/geotools_overview.rst:115
+msgid "**API Interfaces:** Java"
+msgstr "**API Schnittstellen:** Java"
+
+#: ../../build/doc/overview/geotools_overview.rst:117
+msgid ""
+"**Support:** `Communication and Support "
+"<http://docs.geotools.org/latest/userguide/welcome/support.html>`_"
+msgstr ""
+"**Support:** `Kontakt und Unterstützung (englisch) "
+"<http://docs.geotools.org/latest/userguide/welcome/support.html>`_"
+
+#: ../../build/doc/overview/geotools_overview.rst:120
+msgid "GeoTools_Support"
+msgstr "GeoTools_Support"
+
+#: ../../build/doc/overview/geotools_overview.rst:122
+msgid ""
+"`Quickstart documentation "
+"<http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_"
+msgstr ""
+"`Quickstart Dokumentation "
+"<http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_"

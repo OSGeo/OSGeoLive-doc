@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2017\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/sponsors_osgeo.rst:7
+msgid "The OSGeo Foundation"
+msgstr "La fundación OSGeo"
+
+#: ../../build/doc/sponsors_osgeo.rst:9
+msgid "*Empower everyone with open source geospatial*"
+msgstr "*Empoderando a todos con el software libre geospacial*"
+
+#: ../../build/doc/sponsors_osgeo.rst:11
+msgid ""
+"The `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`__ is a "
+"not-for-profit organization whose mission is to foster global adoption of "
+"open geospatial technology by being an inclusive software foundation devoted"
+" to an open philosophy and participatory community driven development."
+msgstr ""
+"La `Fundación para el Código Abierto Geoespacial (OSGeo) "
+"<http://osgeo.org>`__, es una organización sin ánimo de lucro cuya misión es"
+" la promoción del desarrollo colaborativo de tecnologías  geoespaciales "
+"abiertas siendo una organización inclusiva y dedicada a una filosofía "
+"abierta y participativa y al desarrollo dirigido mediante una comunidad "
+"participativa."
+
+#: ../../build/doc/sponsors_osgeo.rst:17
+msgid "OSGeo outreach and activities include:"
+msgstr "Las actividades de difusión de OSGeo incluyen:"
+
+#: ../../build/doc/sponsors_osgeo.rst:19
+msgid ""
+"`Local Chapters <http://www.osgeo.org/content/chapters/index.html>`__: "
+"Local, regional and language groups support grass roots activities."
+msgstr ""
+"`Capítulos Locales <http://www.osgeo.org/content/chapters/index.html>`__: "
+"grupos de apoyo locales, regionales y por idiomas para promover actividades "
+"de comunidad."
+
+#: ../../build/doc/sponsors_osgeo.rst:20
+msgid ""
+"`GeoForAll <http://www.geoforall.org>`_: Over 100 educational labs from "
+"around the world who work with partners to make geospatial education and "
+"opportunities accessible to all."
+msgstr ""
+"`GeoForAll <http://www.geoforall.org>`_: Más de 100 laboratorios educativos "
+"de todo el mundo que trabajan con otros socios para hacer la educación "
+"geoespacial y otras oportunidades accesibles para todos."
+
+#: ../../build/doc/sponsors_osgeo.rst:21
+msgid ""
+"`OSGeoLive <http://live.osgeo.org>`__: A distribution of established "
+"geospatial open source software, pre-configured with sample data and "
+"quickstarts, ready to try out."
+msgstr ""
+"`OSGeoLive <http://live.osgeo.org>`__:  Una distribución de software "
+"geoespaciales de código abierto de distribución de geoespaciales "
+"establecidos, preconfigurado con datos de ejemplo y tutoriales, listo para "
+"probar."
+
+#: ../../build/doc/sponsors_osgeo.rst:22
+msgid ""
+"`FOSS4G <http://foss4g.org>`_: Annual, international conference for *Free "
+"and Open Source Software for Geospatial*, as well as many regional and local"
+" `events <http://www.osgeo.org/events>`_."
+msgstr ""
+"`FOSS4G <http://foss4g.org>`_: Conferencia anual e internacional para "
+"*Software Libre y de Código Abierto Geoespacial*, así como muchos programas "
+"regionales y locales `events <http://www.osgeo.org/events>`_."

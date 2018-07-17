@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/istsos_overview.rst:17
+msgid "istSOS"
+msgstr "istSOS"
+
+#: ../../build/doc/overview/istsos_overview.rst:20
+msgid "Data Management Tool"
+msgstr "Herramienta de Gestión de Datos"
+
+#: ../../build/doc/overview/istsos_overview.rst:22
+msgid ""
+"istSOS is sensor data management tool that allows collection, maintenance "
+"and publishing of monitoring observations using the Open Geospatial "
+"Consortium (OGC) `Sensor Observation Service (SOS) "
+"<http://www.opengeospatial.org/standards/sos>`__ standard."
+msgstr ""
+"istSOS es una herramienta de gestión de datos de sensores que permite la "
+"recopilación, el mantenimiento y la publicación de observaciones de "
+"monitoreo utilizando el Open Geospatial Consortium (OGC) `Sensor Observation"
+" Service (SOS) <http://www.opengeospatial.org/standards/sos>`__ standard."
+
+#: ../../build/doc/overview/istsos_overview.rst:26
+msgid ""
+"istSOS strictly implements the SOS 1.0.0 standard, and has passed the OGC "
+"CITE (Compliance + Interopability Testing + Evaluation) units tests."
+msgstr ""
+"istSOS  implementa estrictamente el SOS 1.0.0 estándar y ha pasado por  las"
+"  unidades de pruebas CITE,  por sus siglas en inglés (Cumplimiento + Prueba"
+" de Interoperabilidad + Evaluación),  de la OGC."
+
+#: ../../build/doc/overview/istsos_overview.rst:35
+msgid "Core Features"
+msgstr "Características Principales"
+
+#: ../../build/doc/overview/istsos_overview.rst:37
+msgid ""
+"Publish sensor data in accordance with the Sensor Observation Service (SOS) "
+"standard."
+msgstr ""
+"Publicar datos de los sensores de acuerdo con estándar del Servicio de "
+"Observación de Sensores (SOS)."
+
+#: ../../build/doc/overview/istsos_overview.rst:38
+msgid "Administer sensors and data with an intuitive web-based interface."
+msgstr "Administre sensores y datos con una interfaz intuitiva basada en web."
+
+#: ../../build/doc/overview/istsos_overview.rst:39
+msgid ""
+"Use a complete RestFul API to access istSOS functionality from external "
+"clients to create interactive charts, display sensor on a dinamic map or "
+"just write some maintainance scripts."
+msgstr ""
+"Utilice una API RestFul completa para acceder a la funcionalidad istSOS de "
+"clientes externos para crear gráficos interactivos, mostrar el sensor en un "
+"mapa dinámico o simplemente escribir algunos scripts de mantenimiento."
+
+#: ../../build/doc/overview/istsos_overview.rst:40
+msgid ""
+"Get notified through mail, twitter or other social media when sensor data "
+"meets specific conditions."
+msgstr ""
+"Obtener notificaciones por correo, twitter u otras redes sociales cuando los"
+" datos del sensor cumplan con las condiciones específicas."
+
+#: ../../build/doc/overview/istsos_overview.rst:41
+msgid ""
+"User authentication and authorization with different access levels "
+"(administrator, network manager, data manager and visitor)."
+msgstr ""
+"Autenticación y autorización para el usuario con diferentes niveles de "
+"acceso (Administrador, administrador de redes, administrador de datos y "
+"visitante)."
+
+#: ../../build/doc/overview/istsos_overview.rst:42
+msgid ""
+"Create Virtual Procedures that looks like normal stations but whose data "
+"results from on-the-fly elaboration of other sensor data."
+msgstr ""
+"Crear Procedimientos Virtuales que lucen como estaciones normales pero cuyos"
+" datos resultan de la elaboración sobre la marcha de otros datos del sensor."
+
+#: ../../build/doc/overview/istsos_overview.rst:43
+msgid ""
+"Associate quality indexes to each observation thanks to embedded validation "
+"tests."
+msgstr ""
+"Asocia índices de calidad a cada observación gracias a las pruebas de "
+"validación integradas."
+
+#: ../../build/doc/overview/istsos_overview.rst:44
+msgid ""
+"Online editing of data with a seamless interface and advanced observation "
+"calculator."
+msgstr ""
+"Edición en línea de datos con una interfaz perfecta y una calculadora de "
+"observación avanzada."
+
+#: ../../build/doc/overview/istsos_overview.rst:48
+msgid "Implemented Standards"
+msgstr "Estándares Implementados"
+
+#: ../../build/doc/overview/istsos_overview.rst:49
+msgid "SOS 1.0.0: Basic and Transactional profiles"
+msgstr "SOS 1.0.0: Perfiles Básicos y Transaccionales"
+
+#: ../../build/doc/overview/istsos_overview.rst:52
+msgid "Details"
+msgstr "Detalles"
+
+#: ../../build/doc/overview/istsos_overview.rst:54
+msgid "**Website:** http://istsos.org"
+msgstr "**Sitio web:** http://istsos.org"
+
+#: ../../build/doc/overview/istsos_overview.rst:56
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**Licencia:** GNU General Public License (GPL) version 2"
+
+#: ../../build/doc/overview/istsos_overview.rst:58
+msgid "**Software Version:** |version-istsos|"
+msgstr "**Versión de software:** |version-istsos|"
+
+#: ../../build/doc/overview/istsos_overview.rst:60
+msgid "**Supported Platforms:** Linux, Unix, Mac, Windows"
+msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows, Unix"
+
+#: ../../build/doc/overview/istsos_overview.rst:62
+msgid "**API Interfaces:** Python / wsgi"
+msgstr "**Interfaces API:** Python / wsgi"
+
+#: ../../build/doc/overview/istsos_overview.rst:64
+msgid "**Support:** https://groups.google.com/forum/#!forum/istsos"
+msgstr "**Soporte:** https://groups.google.com/forum/#!forum/istsos"
+
+#: ../../build/doc/overview/istsos_overview.rst:69
+msgid "Quickstart"
+msgstr "Inicio Rápido"
+
+#: ../../build/doc/overview/istsos_overview.rst:71
+msgid ":doc:`Quickstart documentation <../quickstart/istsos_quickstart>`"
+msgstr ""
+":doc:`Documentación de inicio rápido <../quickstart/istsos_quickstart>`"

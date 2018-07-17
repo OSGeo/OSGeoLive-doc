@@ -1,0 +1,200 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:14
+msgid "OpenStreetMap"
+msgstr "OpenStreetMap"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:17
+msgid "Map Data"
+msgstr "Datos de mapas"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:19
+msgid ""
+"OpenStreetMap is a crowd sourced map of the world which has grown to become "
+"one of the most detailed sources of local-scale map data available. Source "
+"map data is created and maintained by thousands of volunteers from around "
+"the world, using processes similar to the maintaining of the wikipedia "
+"encyclopedia."
+msgstr ""
+"OpenStreetMap es un mapa del mundo creado por una multitud de personas, que "
+"se ha convertido en una de las fuentes más detalladas de datos de mapas a "
+"escala local disponibles. Los datos del mapa fuente son creados y mantenidos"
+" por miles de voluntarios de todo el mundo, utilizando procesos similares al"
+" mantenimiento de la enciclopedia de wikipedia."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:21
+msgid ""
+"The most visible aspect to OSM is the online web-tile interface from "
+"https://www.openstreetmap.org, but the maps can also be viewed, imported, or"
+" edited in many applications such as :doc:`QGIS <qgis_overview>` , "
+":doc:`OpenLayers <openlayers_overview>`, ArcGIS and dedicated OSM "
+"applications."
+msgstr ""
+"El aspecto más visible de OSM es la interfaz en línea de mosaico web de "
+"https://www.openstreetmap.org, pero los mapas también se pueden ver, "
+"importar o editar en muchas aplicaciones como :doc:`QGIS <qgis_overview>` , "
+":doc:`OpenLayers <openlayers_overview>`, ArcGIS y aplicaciones dedicadas de "
+"OSM."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:23
+msgid ""
+"The heart of the project is the underlying data which is open for all to "
+"edit, view, or create custom rendered maps. Fundamentally OSM's focus is on "
+"the data, the rich maps simply fall out of this."
+msgstr ""
+"El corazón del proyecto es la información subyacente que está abierta para "
+"que todos puedan editar, ver o crear mapas personalizados. Fundamentalmente,"
+" el enfoque de OSM está en los datos, los mapas ricos simplemente se salen "
+"de esto."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:25
+msgid ""
+"The OSGeoLive distribution includes a city sized extract of OSM data which "
+"is used for examples by some applications."
+msgstr ""
+"La distribución de OSGeoLive incluye un extracto de datos de OSM del tamaño "
+"de una ciudad, que algunas aplicaciones usan como ejemplos."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:34
+msgid "Core Features"
+msgstr "Características Principales"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:36
+msgid "Vector features are tagged with names and other attributes."
+msgstr ""
+"Las características del vector están etiquetadas con nombres y otros "
+"atributos."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:38
+msgid "Extract local subsets of the data."
+msgstr "Extrae subconjuntos locales de los datos."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:40
+msgid ""
+"Data is stored as latitude-longitude WGS84 nodes, strings of nodes, and "
+"meta-features allowing for point, polyline, area coverage and relations."
+msgstr ""
+"Los datos se almacenan como nodos WGS84 de longitud de latitud, cadenas de "
+"nodos y meta-características que permiten el punto, la polilínea, la "
+"cobertura de área y las relaciones."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:42
+msgid "Rich attribute tagging, often far more detailed than any other source."
+msgstr ""
+"Etiquetado rico de atributos, a menudo mucho más detallado que cualquier "
+"otra fuente."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:44
+msgid "A global repository of local knowledge."
+msgstr "Un repositorio global de conocimiento local."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:48
+msgid "Data Sets included in OSGeo Live"
+msgstr ""
+"Data Sets included in OSGeo LiveConjuntos de datos incluidos en OSGeo Live"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:50
+msgid ""
+"feature_city.osm.bz2: A large extract of the greater city area as a BZip2 "
+"compressed XML text file."
+msgstr ""
+"feature_city.osm.bz2: Un gran extracto del área metropolitana de la ciudad "
+"como archivo de texto XML comprimido en BZip2."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:52
+msgid ""
+"feature_city_CBD.osm.bz2: A smaller subset covering just the Central "
+"Business District (CBD)."
+msgstr ""
+"feature_city_CBD.osm.bz2: Un subconjunto más pequeño que cubre solo el "
+"Distrito Comercial Central (CBD)."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:54
+msgid ""
+"feature_city_poi.db: Sqlite DB of \"positions of interest\" nodes extracted "
+"from the above larger city OSM extract. Contains locations of pubs, fuel "
+"stations, restaurants, supermarkets, etc."
+msgstr ""
+"feature_city_poi.db: Sqlite DB de nodos de \"posiciones de interés\" "
+"extraídos de la anterior ciudad más grande, a su vez extraída de OSM. "
+"Contiene ubicaciones de bares, gasolineras, restaurantes, supermercados, "
+"etc."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:56
+msgid ""
+"Files referencing the name of the featured city contain the same data as the"
+" above files. Quickstarts and overviews use the generic file names so that "
+"the example city can change with each new release."
+msgstr ""
+"Los archivos que hacen referencia al nombre de la ciudad mostrada contienen "
+"los mismos datos que los archivos anteriores. Los inicios rápidos y las "
+"vistas generales utilizan los nombres genéricos de los archivos, para que la"
+" ciudad ejemplo pueda cambiar con cada nueva versión."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:58
+msgid ""
+"The OSM feature city data has been imported into a PostGIS database called "
+"\"osm_local\" using the osm2pgsql tool. The spatial reference system used "
+"for this database is latitude-longitude with the WGS84 datum (EPSG code "
+"4326) and can be reprojected to other Spatial Reference Systems (SRS), such "
+"as Spherical-Mercator, on demand. The smaller CBD extract is loaded into "
+"another PostGIS database called \"pgrouting\"."
+msgstr ""
+"Los datos de ciudad de la característica OSM se han importado a una base de "
+"datos PostGIS llamada \"osm_local\" utilizando la herramienta osm2pgsql. El "
+"sistema de referencia espacial utilizado para esta base de datos es latitud-"
+"longitud con el datum WGS84 (EPSG código 4326) y puede reproyectarse a otros"
+" sistemas de referencia espacial (SRS), como Spherical-Mercator, según "
+"demanda. El extracto CBD más pequeño se carga en otra base de datos PostGIS "
+"llamada \"pgrouting\"."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:63
+msgid "Details"
+msgstr "Detalles"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:65
+msgid "**Website:** https://www.openstreetmap.org/"
+msgstr "**Sitio web:** https://www.openstreetmap.org/"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:67
+msgid ""
+"**License:** `Open Data Commons Open Database License (ODbL) "
+"<http://opendatacommons.org/licenses/odbl/>`_"
+msgstr ""
+"**Licencia:** `Open Data Commons Open Database License (ODbL) "
+"<http://opendatacommons.org/licenses/odbl/>`_"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:69
+msgid "**Data Version:** Live database extract"
+msgstr "**Versión de datos:** Extracto de base de datos en vivo"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:71
+msgid "**Data format:** XML"
+msgstr "**Formato de datos:** XML"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:73
+msgid "**Spatial coordinate system:** Latitude-Longitude WGS84"
+msgstr "**Sistema de coordenadas espaciales:** WGS84 latitud y longitud"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:75
+msgid "**Support:** https://www.openstreetmap.org/help"
+msgstr "**Soporte:** https://www.openstreetmap.org/help"

@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2018\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/zygrib_overview.rst:14
+msgid "zyGrib"
+msgstr "zyGrib"
+
+#: ../../build/doc/overview/zygrib_overview.rst:17
+msgid "Weather forecasting"
+msgstr "Wettervorhersage"
+
+#: ../../build/doc/overview/zygrib_overview.rst:19
+msgid ""
+"zyGrib is a program to download and visualize weather forecast data in the "
+"standard GRIB distribution format."
+msgstr ""
+"zyGrib ist ein Programm, um Daten zur Wettervorhersage im standardmäßigen "
+"GRIB-Format herunterzuladen und zu visualisieren."
+
+#: ../../build/doc/overview/zygrib_overview.rst:29
+msgid "Core Features"
+msgstr "Kernfunktionen"
+
+#: ../../build/doc/overview/zygrib_overview.rst:31
+msgid "Visualization of meteorologic data from files in GRIB format"
+msgstr ""
+"Visualisierung von meteorologischen Daten aus Dokumenten im GRIB-Format"
+
+#: ../../build/doc/overview/zygrib_overview.rst:32
+msgid "Automatic download of weather and wave forecasts"
+msgstr "Automatischer Download von Vorhersagemodellen direkt aus NOAA"
+
+#: ../../build/doc/overview/zygrib_overview.rst:33
+msgid "Automatic download from IAC (fleetcode) data"
+msgstr "Automatischer Download von IAC (fleetcode) Daten"
+
+#: ../../build/doc/overview/zygrib_overview.rst:34
+msgid "Play animations of 8-day forecasts"
+msgstr "Abspielen von 8-tägigen Vorhersageanimationen"
+
+#: ../../build/doc/overview/zygrib_overview.rst:35
+msgid ""
+"Create your own regional weather maps (worldwide), or view a detailed "
+"quantitative forecast for a particular location."
+msgstr ""
+"Entwurf von personalisierten lokalen Wetterkarten (global) oder Darstellung "
+"von detaillierten quantitativen Vorhersagen für einen einzelnen Standort"
+
+#: ../../build/doc/overview/zygrib_overview.rst:36
+msgid ""
+"Plot wind, pressure, temperature, humidity, rain, snow, cloud cover, dew "
+"point, wave height, and high altitude data."
+msgstr ""
+"Kartierung von Daten zu Wind, Temperatur, Feuchtigkeit, Regen, Schnee, "
+"Wolkenbedeckung, Taupunkt, Wellenhöhe und Höhe."
+
+#: ../../build/doc/overview/zygrib_overview.rst:39
+msgid "Details"
+msgstr "Details"
+
+#: ../../build/doc/overview/zygrib_overview.rst:41
+msgid "**Website:** http://www.zygrib.org"
+msgstr "**Webseite:** http://www.zygrib.org"
+
+#: ../../build/doc/overview/zygrib_overview.rst:43
+msgid "**Licence:** GNU General Public License (GPL) version 3"
+msgstr "**Lizenz:** GNU General Public License (GPL) version 3"
+
+#: ../../build/doc/overview/zygrib_overview.rst:45
+msgid "**Software Version:** |version-zygrib|"
+msgstr "**Software Version:** |version-zygrib|"
+
+#: ../../build/doc/overview/zygrib_overview.rst:47
+msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
+msgstr "**Unterstützte Schnittstellen:** GNU/Linux, Mac OSX, MS Windows"
+
+#: ../../build/doc/overview/zygrib_overview.rst:49
+msgid "**Support:** http://zygrib.org/forum/"
+msgstr "**Support:** http://zygrib.org/forum/"
+
+#: ../../build/doc/overview/zygrib_overview.rst:54
+msgid "Quickstart"
+msgstr "Schnellstart"
+
+#: ../../build/doc/overview/zygrib_overview.rst:56
+msgid ":doc:`Quickstart documentation <../quickstart/zygrib_quickstart>`"
+msgstr ":doc:`Quickstart Dokumentation <../quickstart/zygrib_quickstart>`"

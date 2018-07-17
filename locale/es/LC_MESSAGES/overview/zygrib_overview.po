@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/zygrib_overview.rst:14
+msgid "zyGrib"
+msgstr "zyGrib"
+
+#: ../../build/doc/overview/zygrib_overview.rst:17
+msgid "Weather forecasting"
+msgstr "Pronóstico del tiempo"
+
+#: ../../build/doc/overview/zygrib_overview.rst:19
+msgid ""
+"zyGrib is a program to download and visualize weather forecast data in the "
+"standard GRIB distribution format."
+msgstr ""
+"zyGrib es un programa para descargar y visualizar datos de Pronóstico del "
+"tiempo en el formato estándar de la distribución de GRIB."
+
+#: ../../build/doc/overview/zygrib_overview.rst:29
+msgid "Core Features"
+msgstr "Características Principales"
+
+#: ../../build/doc/overview/zygrib_overview.rst:31
+msgid "Visualization of meteorologic data from files in GRIB format"
+msgstr "Visualización de datos meteorológicos de los archivos en formato GRIB"
+
+#: ../../build/doc/overview/zygrib_overview.rst:32
+msgid "Automatic download of weather and wave forecasts"
+msgstr "Descarga automática de las pronósticos de tiempo y de onda"
+
+#: ../../build/doc/overview/zygrib_overview.rst:33
+msgid "Automatic download from IAC (fleetcode) data"
+msgstr "Descarga automática de datos IAC (fleetcode)"
+
+#: ../../build/doc/overview/zygrib_overview.rst:34
+msgid "Play animations of 8-day forecasts"
+msgstr "Animaciones de los pronósticos de 8 días"
+
+#: ../../build/doc/overview/zygrib_overview.rst:35
+msgid ""
+"Create your own regional weather maps (worldwide), or view a detailed "
+"quantitative forecast for a particular location."
+msgstr ""
+"Crea tus propios mapas de clima regionales (mundial), o ver un pronóstico "
+"cuantitativo detallado de un lugar en particular."
+
+#: ../../build/doc/overview/zygrib_overview.rst:36
+msgid ""
+"Plot wind, pressure, temperature, humidity, rain, snow, cloud cover, dew "
+"point, wave height, and high altitude data."
+msgstr ""
+"Grafica de viento, presión, temperatura, humedad, lluvia, nieve, nubosidad, "
+"punto de rocío, altura de onda y datos de gran altitud."
+
+#: ../../build/doc/overview/zygrib_overview.rst:39
+msgid "Details"
+msgstr "Detalles"
+
+#: ../../build/doc/overview/zygrib_overview.rst:41
+msgid "**Website:** http://www.zygrib.org"
+msgstr "**Sitio web:** http://www.zygrib.org"
+
+#: ../../build/doc/overview/zygrib_overview.rst:43
+msgid "**Licence:** GNU General Public License (GPL) version 3"
+msgstr "**Licencia:** GNU General Public License (GPL) version 3"
+
+#: ../../build/doc/overview/zygrib_overview.rst:45
+msgid "**Software Version:** |version-zygrib|"
+msgstr "**Versión de software:** |version-zygrib|"
+
+#: ../../build/doc/overview/zygrib_overview.rst:47
+msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
+msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
+
+#: ../../build/doc/overview/zygrib_overview.rst:49
+msgid "**Support:** http://zygrib.org/forum/"
+msgstr "**Soporte:** http://zygrib.org/forum/"
+
+#: ../../build/doc/overview/zygrib_overview.rst:54
+msgid "Quickstart"
+msgstr "Inicio Rápido"
+
+#: ../../build/doc/overview/zygrib_overview.rst:56
+msgid ":doc:`Quickstart documentation <../quickstart/zygrib_quickstart>`"
+msgstr ":doc:`Inicio Rápido <../quickstart/zygrib_quickstart>`"

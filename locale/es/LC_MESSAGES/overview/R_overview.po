@@ -1,0 +1,214 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-07 09:20-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/R_overview.rst:14
+msgid "R for Spatial Data"
+msgstr "R para Datos Espaciales"
+
+#: ../../build/doc/overview/R_overview.rst:17
+msgid "Statistical Programming"
+msgstr "Programación Estadística"
+
+#: ../../build/doc/overview/R_overview.rst:19
+msgid ""
+"R is a powerful, widely used software environment for statistical computing "
+"and graphics which excels at analyzing and processing geographic data sets. "
+"Geospatial analysis capabilities within R are available in R packages "
+"(modules that extend the capabilities of R) that provide access to a huge "
+"number of traditional and state of the art algorithms (). R and its packages"
+" are able to process point, line, polygon, networks, grid data (etc.)."
+msgstr ""
+"R es un entorno de software poderoso y ampliamente utilizado para "
+"computación y gráficos estadísticos que sobresale en el análisis y "
+"procesamiento de conjuntos de datos geográficos. Las capacidades de análisis"
+" geoespacial dentro de R están disponibles en paquetes R (módulos que "
+"amplían las capacidades de R) que proporcionan acceso a una gran cantidad de"
+" algoritmos tradicionales y de vanguardia (). R y sus paquetes pueden "
+"procesar punto, línea, polígono, redes, datos de cuadrícula (etc.)."
+
+#: ../../build/doc/overview/R_overview.rst:27
+msgid ""
+"Users can accomplish a broad array of tasks such as: image classification, "
+"statistical analysis to infer spatial relationships and patterns of "
+"features, and others listed in the core features below. The functions "
+"available via R complement and advance capabilities found in GIS and image "
+"processing software. Using packages for parallelisation users can "
+"drastically reduce computational time and increase these capability. Several"
+" packages provide connection with other OSGeo tools and software. You can "
+"easily plug R with GRASS-GIS, Qgis, postgreSQL and postGIS."
+msgstr ""
+"Los usuarios pueden realizar una amplia gama de tareas tales como: "
+"clasificación de imágenes, análisis estadístico para inferir relaciones "
+"espaciales y patrones de características, y otras enumeradas en las "
+"características principales a continuación.  Las funciones disponibles a "
+"través del complemento R y las capacidades avanzadas que se encuentran en "
+"GIS y el software de procesamiento de imágenes. Usar paquetes para usuarios "
+"de paralelización puede reducir drásticamente el tiempo de cálculo y "
+"aumentar esta capacidad. Varios paquetes proporcionan conexión con otras "
+"herramientas y software de OSGeo. Puede conectar fácilmente R con GRASS-GIS,"
+" Qgis, postgreSQL y postGIS."
+
+#: ../../build/doc/overview/R_overview.rst:36
+msgid ""
+"The core R interface is a command line window which provides excellent "
+"flexibility and control but tends to lengthen the time required to become a "
+"proficient user when compared to software with a graphical user interface "
+"(GUI). Fortunately R is well documented on the web site which eases the "
+"learning process. Scripts are often used to automate processing steps but "
+"there are GUIs, the leading one being RStudio (http://www.rstudio.com)."
+msgstr ""
+"La interfaz del núcleo R es una ventana de línea de comandos que proporciona"
+" excelente  flexibilidad y control pero tiende a alargar el tiempo necesario"
+" para convertirse en un usuario competente comparado con el software con una"
+" interfaz gráfica de usuario (GUI). Afortunadamente R está bien documentado "
+"en el sitio web que facilita el proceso de aprendizaje. Los scripts son "
+"usualmente utilizados para automatizar los pasos de procesamiento, pero hay "
+"GUIs, el líder es RStudio (http://www.rstudio.com)."
+
+#: ../../build/doc/overview/R_overview.rst:44
+msgid ""
+"R is an implementation of the S programming language and there is "
+"significant compatibility between R and legacy S and S-Plus code as well as "
+"between R and the modern commercial version of S, TIBCO Spotfire S+. This "
+"makes it possible to convert different versions of S code to run on R "
+"without major code modifications."
+msgstr ""
+"R es una implementación del lenguaje de programación de S y hay "
+"compatibilidad significativa entre R, el legado del código S y el código "
+"S-Plus así como entre R y la moderna versión comercial de S, TIBCO Spotfire "
+"s +.  Esto permite convertir diferentes versiones de código S  para ejecutar"
+" en R sin mayores modificaciones del código principal."
+
+#: ../../build/doc/overview/R_overview.rst:57
+msgid "Core Features"
+msgstr "Características Principales"
+
+#: ../../build/doc/overview/R_overview.rst:59
+msgid ""
+"Complete Object Oriented Programming Language designed for Statistics and "
+"similar Mathematical intensive applications"
+msgstr ""
+"Lenguaje de Programación Orientado a Objetos Completos diseñado para "
+"Estadísticas y Aplicaciones  Matemáticas Intensivas similares"
+
+#: ../../build/doc/overview/R_overview.rst:60
+msgid ""
+"Currently (2017/08/11), the CRAN package repository features 11239 available"
+" packages."
+msgstr ""
+"Actualmente (2017/08/11), las funciones del repositorio CRAN ofrece 11239 "
+"paquetes."
+
+#: ../../build/doc/overview/R_overview.rst:61
+msgid ""
+"Hundreds of community contributed add-on packages for spatial statistics"
+msgstr ""
+"Cientos de paquetes de complementos aportados por la comunidad para "
+"estadísticas espaciales"
+
+#: ../../build/doc/overview/R_overview.rst:62
+msgid "Classes for spatial data"
+msgstr "Clases para datos espaciales"
+
+#: ../../build/doc/overview/R_overview.rst:63
+msgid "Reading and writing spatial data"
+msgstr "Lectura y escritura de datos espaciales"
+
+#: ../../build/doc/overview/R_overview.rst:64
+msgid "Point pattern analysis"
+msgstr "Análisis de patrones de puntos "
+
+#: ../../build/doc/overview/R_overview.rst:65
+msgid "Geostatistics"
+msgstr "Geoestadística"
+
+#: ../../build/doc/overview/R_overview.rst:66
+msgid "Spatial regression"
+msgstr "Regresión espacial"
+
+#: ../../build/doc/overview/R_overview.rst:67
+msgid "Ecological analysis"
+msgstr "Análisis ecológico"
+
+#: ../../build/doc/overview/R_overview.rst:68
+msgid "Powerful raster processing algorithms"
+msgstr "Poderosos Algoritmos de procesamiento de ráster"
+
+#: ../../build/doc/overview/R_overview.rst:69
+msgid "Remote sensing"
+msgstr "Detección remota"
+
+#: ../../build/doc/overview/R_overview.rst:70
+msgid "Bayesian spatial analysis"
+msgstr "Análisis espacial Bayesiano"
+
+#: ../../build/doc/overview/R_overview.rst:71
+msgid "..."
+msgstr "..."
+
+#: ../../build/doc/overview/R_overview.rst:74
+msgid "Details"
+msgstr "Detalles"
+
+#: ../../build/doc/overview/R_overview.rst:76
+msgid "**Website:** http://cran.r-project.org"
+msgstr "**Sitio web:** http://cran.r-project.org"
+
+#: ../../build/doc/overview/R_overview.rst:78
+msgid "**Licence:** GPL"
+msgstr "**Licencia:** GPL"
+
+#: ../../build/doc/overview/R_overview.rst:80
+msgid "**Software Version:** |version-R|"
+msgstr "**Versión de software:** |version-R|"
+
+#: ../../build/doc/overview/R_overview.rst:82
+msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
+msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows, Unix"
+
+#: ../../build/doc/overview/R_overview.rst:84
+msgid ""
+"**Community Support:** http://cran.r-project.org/web/views/Spatial.html"
+msgstr ""
+"**Soporte de la comunidad** http://cran.r-project.org/web/views/Spatial.html"
+
+#: ../../build/doc/overview/R_overview.rst:86
+msgid ""
+"**CRAN packages available:** "
+"https://cran.r-project.org/web/packages/available_packages_by_name.html"
+msgstr ""
+"**Paquetes disponibles CRAN:** "
+"https://cran.r-project.org/web/packages/available_packages_by_name.html"
+
+#: ../../build/doc/overview/R_overview.rst:91
+msgid "Quickstart"
+msgstr "Inicio Rápido"
+
+#: ../../build/doc/overview/R_overview.rst:93
+msgid ":doc:`Quickstart documentation <../quickstart/R_quickstart>`"
+msgstr ":doc:`Documentación de inicio rápido <../quickstart/R_quickstart>`"
+
+#~ msgid ""
+#~ "**CRAN packages avalable:** "
+#~ "https://cran.r-project.org/web/packages/available_packages_by_name.html"
+#~ msgstr ""
+#~ "**CRAN packages avalable:** "
+#~ "https://cran.r-project.org/web/packages/available_packages_by_name.html"

@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2018\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/ideditor_overview.rst:14
+msgid "iD editor"
+msgstr "iD Editor"
+
+#: ../../build/doc/overview/ideditor_overview.rst:17
+msgid "Browser based editor for OpenStreetMap"
+msgstr "Browserbasierter Editor für OpenStreetMap"
+
+#: ../../build/doc/overview/ideditor_overview.rst:19
+msgid ""
+"The iD editor is the de facto, browser-based `OpenStreetMap "
+"<http://www.openstreetmap.org>`_ editor. iD is fast and easy to use, and "
+"allows mapping from various data sources such as satellite and aerial "
+"imageries, GPS, Field Papers or Mapillary."
+msgstr ""
+"Der iD Editor ist ein browserbasierter `OpenStreetMap "
+"<http://www.openstreetmap.org>`_ Editor. iD ist schnell und leicht zu "
+"handhaben und erlaubt das Erfassen auf Basis von unterschiedlichen "
+"Datenquellen z.B. Satelliten und  Luftbildern, GPS, Field Papers oder "
+"Mapillary."
+
+#: ../../build/doc/overview/ideditor_overview.rst:21
+msgid ""
+"The iD editor is a great way to edit small and easy changes that don’t "
+"require the advanced features of the more advanced :doc:`JOSM "
+"<josm_overview>` editor."
+msgstr ""
+"Mit dem iD Editor können sehr gut kleine und leichte Änderungen durchgeführt"
+" werden, die nicht auf die erweiterten Möglichkeiten des komplexeren "
+":doc:`JOSM <josm_overview>` Editors angewiesen sind."
+
+#: ../../build/doc/overview/ideditor_overview.rst:30
+msgid "Core Features"
+msgstr "Kernfunktionen"
+
+#: ../../build/doc/overview/ideditor_overview.rst:32
+msgid "OpenStreetMap Editing"
+msgstr "OpenStreetMap Bearbeitung"
+
+#: ../../build/doc/overview/ideditor_overview.rst:33
+msgid "Fast"
+msgstr "Schnell"
+
+#: ../../build/doc/overview/ideditor_overview.rst:34
+msgid "Intuitive"
+msgstr "Intuitiv"
+
+#: ../../build/doc/overview/ideditor_overview.rst:35
+msgid "Browser Based"
+msgstr "Browserbasiert"
+
+#: ../../build/doc/overview/ideditor_overview.rst:39
+msgid "Implemented Standards"
+msgstr "Unterstützte Standards"
+
+#: ../../build/doc/overview/ideditor_overview.rst:41
+msgid "Web Map Tile Service (for basemaps)"
+msgstr "Web Map Tile Service (für Basemaps)"
+
+#: ../../build/doc/overview/ideditor_overview.rst:44
+msgid "Details"
+msgstr "Details"
+
+#: ../../build/doc/overview/ideditor_overview.rst:46
+msgid "**Website:** http://wiki.openstreetmap.org/wiki/ID"
+msgstr "**Webseite:** http://wiki.openstreetmap.org/wiki/ID"
+
+#: ../../build/doc/overview/ideditor_overview.rst:48
+msgid "**Licence:** `ISC <https://en.wikipedia.org/wiki/ISC_license>`_"
+msgstr "**Lizenz:** `ISC <https://en.wikipedia.org/wiki/ISC_license>`_"
+
+#: ../../build/doc/overview/ideditor_overview.rst:50
+msgid "**Software Version:** |version-ideditor|"
+msgstr "**Software Version:** |version-ideditor|"
+
+#: ../../build/doc/overview/ideditor_overview.rst:52
+msgid ""
+"**Supported Platforms:** Anything that supports a browser: Windows, "
+"GNU/Linux, Mac, Android, iOS"
+msgstr ""
+"**Unterstützte Platformen:** Alle Plattformen, die einen Browser "
+"unterstützen: Windows, GNU/Linux, Mac, Android, iOS"
+
+#: ../../build/doc/overview/ideditor_overview.rst:54
+msgid "**Support:** https://help.openstreetmap.org/"
+msgstr "**Support:** https://help.openstreetmap.org/"
+
+#: ../../build/doc/overview/ideditor_overview.rst:58
+msgid "Quickstart"
+msgstr "Quickstart"
+
+#: ../../build/doc/overview/ideditor_overview.rst:60
+msgid ":doc:`Quickstart documentation <../quickstart/ideditor_quickstart>`"
+msgstr ":doc:`Quickstart Dokumentation <../quickstart/ideditor_quickstart>`"
