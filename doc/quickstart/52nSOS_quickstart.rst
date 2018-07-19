@@ -55,9 +55,8 @@ Getting Started
 
 4. To get the available observation data within the time
    interval from 2018-07-02T23:45:00.000+00:00 to 2018-07-04T23:45:00.000+00:00
-   for each time series, insert the following request after selecting **service**
-   :code:`SOS` :raw-html:`&rarr;` **version** :code:`2.0.0` :raw-html:`&rarr;`
-   **binding** :code:`SOAP` :raw-html:`&rarr;` **operation** :code:`GetObservation`
+   for each time series, insert the following request after selecting
+   :menuselection:`**service** SOS --> **version** 2.0.0 --> **binding** SOAP --> **operation** GetObservation`
    in the `test client's <http://localhost:8080/52nSOS/client>`_ request field:
 
 .. code-block:: xml
