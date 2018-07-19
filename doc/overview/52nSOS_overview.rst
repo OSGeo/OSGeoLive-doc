@@ -4,7 +4,7 @@
 :Author: Simon Jirka (s.jirka@52north.org)
 :Author: Ann Hitchcock (a.hitchcock@52north.org)
 :Reviewer:
-:Version: osgeolive11.0
+:Version: osgeolive12.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_52nSOS@
@@ -32,7 +32,7 @@ Core Features
   instance, as well as sending test requests for SOS operations; appropriate
   sample requests are included.
 * **Helgoland**: The SOS contains the Helgoland application for  the exploration,
-  analysis and visualization of sensor web data in various fields of use, e.g.
+  analysis and visualization of Sensor Web data in various fields of use, e.g.
   hydrology, meteorology, environmental monitoring, traffic management.
 * **Specifications**: The 52°North SOS implements the current specification version 2.0.0 and the
   previous version 1.0.0 (here no transactional operations). Implemented
@@ -40,7 +40,7 @@ Core Features
 * **INSPIRE Download Service Extension**: Starting with Version 4.2.0, an
   extension is available that allows the SOS to be used as an INSPIRE download
   service. Background information is provided in a `blog post
-  <http://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-an-inspire-download-service-based-on-sos/>`_
+  <https://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-an-inspire-download-service-based-on-sos/>`_
   and in the `wiki
   <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_ .
 * **Air Quality Data e-Reporting Extension**: Starting with version 4.3.0, an
@@ -49,16 +49,30 @@ Core Features
   accordingly). The `installation and configuration
   <https://wiki.52north.org/bin/view/SensorWeb/AqdEReporting#Installation>`_
   is documented in the 52°North Wiki.
-* **RESTful API for Timeseries**: Starting with Version 4.1.1., a bundle
+* **Sensor Web REST-API**: Starting with Version 4.1.1., a bundle
   version is available, that directly provides the `RESTful API
   <https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_,
   is available.
-  Hence, timeseries can be requested in a RESTful way in JSON encoded requests.
-  More details incl. documentation can be found in the
+  Hence, observation data can be requested in a RESTful way and is returned
+  in JSON encoded responses. More details incl. documentation can be found in the
   `SOS webapp <http://localhost:8080/52nSOS/static/doc/api-doc/>`_.
+* **INSPIRE Sepcialized Observations**: Support for the INSPIRE Specialized
+  Observations defined in Guidelines for the use of `Observations & Measurements and
+  Sensor Web Enablement-related standards in INSPIRE (D2.9) <http://inspire.ec.europa.eu/id/document/tg/d2.9-o%26m-swe>`_
+  (`detailed information about the implementation <https://wiki.52north.org/SensorWeb/InspireSpecialisedObservations>`_).
+* **ResultFiltering**: Support for the filtering the observations (GetObservation)
+  and data availabiliy information (GetDataAvailability) by the value of the observation.
 * **Read more**: `Details of the implemented functionalities
   <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#Features>`_
   can be found in the 52°North Wiki.
+* The development of this version of the 52°North SOS was supported by different
+  projects, organizations, and persons. More details can be found in the
+  `52°North SOS client <http://localhost:8080/52nSOS/index>`_.
+* We would like to thank the Belgian Interregional Environment Agency
+  (`IRCEL - CELINE <http://www.irceline.be/en/>`_)
+  for providing the demonstration data used in this SOS installation.
+  The demo data are published under a
+  `CC-BY licence <http://creativecommons.org/licenses/by/3.0/>`_.
 
 
 SOS Operations
@@ -125,11 +139,11 @@ Details
 
 **API:** Java, HTTP + JSON/XML/SOAP/KVP
 
-**Commercial Support:** http://52north.org/
+**Commercial Support:** https://52north.org/services/
 
-**Community Support:** http://sensorweb.forum.52north.org/
+**Community Support:** https://list.52north.org/mailman/listinfo/sensorweb
 
-**Community Website:** http://52north.org/communities/sensorweb/
+**Community Website:** https://52north.org/research/research-labs/sensor-web/
 
 **Other 52°North projects on OSGeoLive:** :doc:`WPS <./52nWPS_overview>`
 
