@@ -10,6 +10,7 @@ Welcome to |osgeolive-version|
 
      overview/toc
      quickstart/toc
+     standards
      download
      contact
      copyright
