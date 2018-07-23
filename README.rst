@@ -1,42 +1,51 @@
-OSGeo live documentation
-========================
+Building OSGeoLive documentation
+================================
+
+The following steps describe how to build OSGeoLive_ documentation on an Ubuntu
+based operating system (such as Lubuntu). 
+
+About OSGeoLive
+~~~~~~~~~~~~~~~
+
 OSGeoLive_ is a self-contained bootable DVD, USB thumb drive or Virtual
 Machine based on Lubuntu, that allows you to try a wide variety of open source
 geospatial software without installing anything. It is composed entirely of
 free software, allowing it to be freely distributed, duplicated and passed
 around.
 
-This repository contains the documentation for OSGeo live.
-
 reStructured Text
 ~~~~~~~~~~~~~~~~~
 
-The majority of our documentation is generated from reStructured text sources
+The majority of OSGeoLive documentation is generated from reStructured text (reSt) sources
 using Sphinx. reSt is similar to wiki markup, and readable in plain ascii. As a
 quick check, github will (partially) render reSt documents as HTML.
 
+Build steps
+~~~~~~~~~~~
+
 1. Install python and sphinx version 1.6.5 or greater (as provided with Ubuntu >16.04), (install_main_docs.sh does this too)
 ::
+   sudo apt-get install python-pip
    pip install sphinx==1.6.5
    pip install sphinx-intl
    pip install sphinxjp.themes.revealjs
    sudo apt-get install cpanminus
    sudo cpanm Text::SimpleTable::AutoWidth
 
-
-2. Clone or download the documentation
+2. Clone or download OSGeoLive source documentation
 ::
    git clone https://github.com/OSGeo/OSGeoLive-doc.git
 
 3. Generate the English documentation
 ::   
+   cd OSGeoLive-doc
    mkdir build
    cd build
    cmake -DHTML=ON ..
    make
    cd ..
 
-   The output is in build/doc/_build/html/
+The output is in build/doc/_build/html/
 
 4. Generate another language documentation
 ::
@@ -46,7 +55,8 @@ quick check, github will (partially) render reSt documents as HTML.
    make
    cd ..
 
-   The output is also in build/doc/_build/html/
+Adding -DFR=ON adds the French language, adding another -DES=ON adds Spanish, and so on. 
+The output is also in build/doc/_build/html/
 
 5. Optional: reduce the size of the generated documentation
 ::
