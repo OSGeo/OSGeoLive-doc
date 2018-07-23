@@ -5,6 +5,7 @@
 #---------------------
 set(OSGeoLiveDoc_FILES
     #"disclaimer.rst"
+    "standards.rst"    
     "osgeo_contact.rst"
     "index.rst"
     "contact.rst"
