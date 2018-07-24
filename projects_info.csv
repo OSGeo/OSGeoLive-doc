@@ -1,4 +1,5 @@
 # document? | slug |version| Quickstart? |Overview?|Section| last | One Liner| OpenHub name |URL|kind|name
+Y  | inspire | NA | N | Y | Legislation | | Infrastructure for Spatial Information in Europe | | https://inspire.ec.europa.eu/about-inspire/563 | | INSPIRE
 ######################| | | | | | | | | | |
 #   Desktop GIS  | | | | | | | | | | |
 ######################| | | | | | | | | | |
@@ -83,7 +84,6 @@ Y  |  jts  |  NA  |  N  |  Y  |  Geospatial Libraries  |    |  Java Topology Sui
 ######################| | | | | | | | | | |
 #   Legislation  | | | | | | | | | | |
 ######################| | | | | | | | | | |
-Y | inspire |
 ######################| | | | | | | | | | |
 # RETIRED| | | | | | | | | | |
 ######################| | | | | | | | | | |
