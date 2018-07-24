@@ -81,6 +81,10 @@ Y  |  proj4  |  4.9.3  |  Y  |  Y  |  Geospatial Libraries  |    |  Coordinate R
 Y  |  liblas  |  1.8.1  |  Y  |  Y  |  Geospatial Libraries  |    |  LiDAR Data Access  |  liblas|http://liblas.org/| |libLAS
 Y  |  jts  |  NA  |  N  |  Y  |  Geospatial Libraries  |    |  Java Topology Suite  |  jts-topo-suite| | |JTS Topology Suite
 ######################| | | | | | | | | | |
+#   Legislation  | | | | | | | | | | |
+######################| | | | | | | | | | |
+Y | inspire |
+######################| | | | | | | | | | |
 # RETIRED| | | | | | | | | | |
 ######################| | | | | | | | | | |
 N  |  52nWSS  |  retired  |  Y  |  Y  |    |6.5|  Web Security Service, retired after OSGeoLive 6.5  |  |http://52north.org/security| |52°North WSS
