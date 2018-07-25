@@ -617,3 +617,12 @@ file_filter = locale/<lang>/LC_MESSAGES/quickstart/hyperv_quickstart.po
 source_file = locale/pot/quickstart/hyperv_quickstart.pot
 source_lang = en
 
+[osgeolive.overview--ogc_overview]
+file_filter = locale/<lang>/LC_MESSAGES/overview/ogc_overview.po
+source_file = locale/pot/overview/ogc_overview.pot
+source_lang = en
+
+[osgeolive.overview--inspire_overview]
+file_filter = locale/<lang>/LC_MESSAGES/overview/inspire_overview.po
+source_file = locale/pot/overview/inspire_overview.pot
+source_lang = en
