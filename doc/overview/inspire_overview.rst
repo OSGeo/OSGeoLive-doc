@@ -20,7 +20,7 @@ Directive addresses 34 spatial data themes needed for environmental
 applications.  It came into force on 15 May 2007 and will be implemented in
 various stages, with full implementation required by 2021. INSPIRE is on a
 technical level based on international standards, mainly those developed by the
-:doc:`OGC <ogc_overview.html>` and ISO.
+:doc:`OGC <ogc_overview>` and ISO.
 
 
 Public sector authorities whose data falls within the scope of the Directive shall:
