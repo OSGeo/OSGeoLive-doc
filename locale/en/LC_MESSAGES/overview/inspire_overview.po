@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-25 09:24-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../build/doc/overview/inspire_overview.rst:13
+msgid "INSPIRE"
+msgstr ""
+
+#: ../../build/doc/overview/inspire_overview.rst:15
+msgid ""
+"The `INSPIRE Directive <https://inspire.ec.europa.eu>`__ aims to create a"
+" European Union spatial data infrastructure (SDI) for the purposes of "
+"environmental policies. This European SDI will enable the sharing of "
+"environmental spatial information among public sector organisations, "
+"facilitate public access to spatial information and assist in policy-"
+"making across boundaries.  INSPIRE is based on the infrastructures for "
+"spatial information established and operated by the 28 Member States of "
+"the European Union. The Directive addresses 34 spatial data themes needed"
+" for environmental applications.  It came into force on 15 May 2007 and "
+"will be implemented in various stages, with full implementation required "
+"by 2021. INSPIRE is on a technical level based on international "
+"standards, mainly those developed by the OGC and ISO."
+msgstr ""
+
+#: ../../build/doc/overview/inspire_overview.rst:29
+msgid ""
+"Public sector authorities whose data falls within the scope of the "
+"Directive shall:"
+msgstr ""
+
+#: ../../build/doc/overview/inspire_overview.rst:31
+msgid "Document them through metadata."
+msgstr ""
+
+#: ../../build/doc/overview/inspire_overview.rst:32
+msgid "Establish network services (discovery, view, download)."
+msgstr ""
+
+#: ../../build/doc/overview/inspire_overview.rst:33
+msgid "Harmonise their spatial data in accordance with common specifications."
+msgstr ""
+
+#: ../../build/doc/overview/inspire_overview.rst:35
+msgid ""
+"Currently, more than 7,000 institutions contribute their data to INSPIRE."
+" A significant share of them use OSGeo applications throughout the "
+"implementation process. :doc:`OSGeoLive <../index>` provides an easy "
+"entry to the implementation process through an increasing number of "
+"readily available examples with sample data European data from multiple "
+"application domains. In addition, a dedicated wiki page on `INSPIRE and "
+"OSGeo <https://wiki.osgeo.org/wiki/INSPIRE>`__ is established that gives "
+"an overview of the legal and technical aspects of INSPIRE together with "
+"selected use cases and an overview of OSGeo tools that implementers may "
+"use."
+msgstr ""
+
+#: ../../build/doc/overview/inspire_overview.rst:47
+msgid "Details"
+msgstr ""
+
+#: ../../build/doc/overview/inspire_overview.rst:49
+msgid "**Website:** https://inspire.ec.europa.eu/about-inspire/563"
+msgstr ""
+

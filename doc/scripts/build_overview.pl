@@ -48,6 +48,7 @@ $sections .= get_section('Spatial Tools', 'Specific analysis tools', $configurat
 $sections .= get_section('Domain Specific GIS', 'Applications targeted at a specific domain', $configuration);
 $sections .= get_section('Data', 'Spatial data sets', $configuration);
 $sections .= get_section('Geospatial Libraries', ' ', $configuration);
+$sections .= get_section('Geospatial Standards', ' ', $configuration);
 $sections .= get_section('Available in prior OSGeo-Live releases', ' ', $configuration);
 write_script($sections);
 exit 0;

@@ -1,0 +1,5 @@
+rm -R build
+mkdir build
+cd build
+cmake -DHTML=ON ..
+make
