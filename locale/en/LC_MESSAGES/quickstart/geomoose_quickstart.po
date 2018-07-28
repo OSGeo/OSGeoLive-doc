@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-12 12:47-0500\n"
+"POT-Creation-Date: 2018-07-27 23:08-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:17
 msgid "GeoMoose Quickstart"
@@ -113,16 +113,17 @@ msgstr ""
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:60
 msgid ""
 "You can identify a location in the interface by clicking on the "
-"\"identify\", (\"i\" in a blue circle icon) button in the top toolbar, "
-"and then clicking a point on the map to identify."
+"\"identify\", (\"i\" in a circle icon) button in the top toolbar, and "
+"then clicking a point on the map to identify."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:64
 msgid ""
-"The menu along the left side of the Map view will display a report "
-"related to the point that you clicked in the map.   This is a service in "
-"the GeoMoose Demo package that has been configured to respond to quereies"
-" for the \"Parcel\" layer when a point is clicked."
+"The catalog along the left side of the Map view will change to the "
+"\"Super Tab\" - a place to where GeoMoose displays results of an action "
+"or asks for more information.  In this case, it will show the results of "
+"a query of each active and identifiable layer for the point that you "
+"clicked in the map."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:67
@@ -131,166 +132,331 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:69
 msgid ""
-"GeoMoose has two measuring tools installed and activated by default. "
-"Clicking the straight ruler icon in the top toolbar, will start the "
-"linear measuring tool.  You can click as many points as you like in the "
-"map window and a trailing polyline will be drawn.  When you get to your "
-"last point, just double click to stop.  The total distance of all lines "
-"drawn will be used to generate the \"Total Length\" in the units of your "
-"choice in the side menu. Clicking the other ruler icon in the top "
-"toolbar, will allow you measure areas."
+"The GeoMoose measure tool allows you to measure a point (return the "
+"coordinates of a picked point), measure the distance along a potentially "
+"multi-segment line, and measure the area of a polygon.  Clicking the "
+"double ended arrow icon in the top toolbar, will start the measuring "
+"tool.  Next select if you want to measure a point, line, or polygon.  "
+"Next click on the map where you want to measure.  To measure a point, "
+"just click the point on the map you want to measure.  To measure a line "
+"or polygon click on the map for each vertex a of the line/polygon.  "
+"Double click to end the line/polygon."
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:73
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:71
 msgid ""
-"These user tools are considered services by the GeoMoose interface and "
-"can be added to via GeoMoose's MAPBOOK control file."
+"Note: you can also measure a pre-existing feature on the map (if it is "
+"from a vector layer, including previous query results) without having to "
+"manually trace over it."
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:77
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:83
 msgid "Selecting Features"
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:78
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:84
 msgid ""
-"You can select features from a Point, Line, polygon, or a Box.  To start,"
-" click on the \"Select Features\" icon (polygon with pencil), and start "
-"drawing a selection polygon in the map. You can double click the last "
-"point to finish the drawing process.  This screenshot shows the drawing "
-"process on the map.  the left menu is displaying the input form for the "
-"criteria of the selection, in this case a Polygon against the \"Parcels\""
-" layers. You also have the option to select features based on a buffer "
-"which is a \"0\" value by default. This is a service in the GeoMoose Demo"
-" package that has been configured to respond to quereies for the "
-"\"Parcel\" layer."
-msgstr ""
-
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:82
-msgid ""
-"The above screenshot is showing the \"PARCEL\" layer for selects and also"
-" using the \"Parcels\" layer as the attributes to report back on.  Two "
-"different layers can be used in a double pass query, one for the "
-"selection, and one for retrieving the attributes from for reporting.  The"
-" sceenshot below takes the selection process further by adding in a "
-"buffering distance of 100ft."
+"You can select features from a Point, Line, Polygon, or from an existing "
+"feature.  To start, click on the \"Select Features\" icon (mouse cursor "
+"icon), pick point, line, polygon and start drawing your selection in the "
+"map.  You can double click the last point to finish the drawing process."
+"  If you want to adjust your selection you can do that with the \"Modify "
+"Feature\" option."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:86
 msgid ""
-"Clicking the \"Go!\" button in the side menu in the above screenshot will"
-" generate a report and display it in the side menu.  NOTE: The output can"
-" also be configured to be sent to a new window as well."
+"You also have the option to select features based on a buffered version "
+"of what you drew.  The default is to buffer by \"0\" which does nothing."
+"  Positive values expand what you drew by that distance, negative values "
+"shrink your drawing."
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:90
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:88
 msgid ""
-"The results above demonstrate the service response to the buffered query "
-"by displaying the result in the map via a selection overlay that "
-"highlights the original selection area polygon (purple), the crossing and"
-" within parcels at a 100ft buffer (orange) and the parcels crossing and "
-"within the buffered polygon (yellow).  The side menu now displays the "
-"reported results of the query process with options for outputting in "
-"other formats for mailing labels."
+"Select which layer you want to select features from using the \"Query "
+"Layer\" select-box.  Note: not all layers can be used with the Select "
+"Features tool.  To be available for selection, a layer needs to be a "
+"vector layer and be configured for selection in the mapbook."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:93
+msgid ""
+"Finally, click the \"Go\" button to actually select the features.  "
+"GeoMoose will return a summary of what was selected in the Super Tab as "
+"well, highlight the selected features on the map, and show an attribute "
+"table of the selected features."
+msgstr ""
+
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:98
+msgid ""
+"If you hover over a line in the table, the corresponding feature on the "
+"map will be highlighted.  Additionally, you can use the funnel icons in "
+"the table header to further filter results, and uses the triangle icons "
+"in the table header to sort results.  The results can be downloaded as a "
+"CSV file using the download icon to the top and left of the table."
+msgstr ""
+
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:102
 msgid "Searching"
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:95
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:104
 msgid ""
-"You can also search for features by attribute.  To start click on the "
-"\"Search Parcels\" icon and enter your search parameters on the search "
-"menu then pressing the \"Go!\" button. The following screenshot "
-"demostrates a search of all parcel owners containing the name \"frank\"."
-msgstr ""
-
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:99
-msgid "Three results appear in the list and are highlighted on the map."
-msgstr ""
-
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:103
-msgid ""
-"Clicking the binocular icon/parcel number in blue will zoom you to the "
-"specific parcel as illustrated in the following screenshot."
+"You can also search for features by attribute.  To start, hover over the "
+"\"Search\" menu in the toolbar and then click on the \"Search Parcels\" "
+"icon.  Enter your search parameters in the Super Tab then click the "
+"\"Go!\" button."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:108
-msgid "Layer Tools"
+msgid ""
+"The following screenshot demostrates a search of all parcel owners "
+"containing the name \"frank\"."
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:110
-msgid ""
-"GeoMoose lets you edit layers graphically. Setting up a layer for editing"
-" is discussed elsewhere on the GeoMoose website. The demo is setup for "
-"you to edit a sketch layer as illustrated in the following screenshot."
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:112
+msgid "Three results appear in the list and are highlighted on the map."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:116
-msgid "Printing"
-msgstr ""
-
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:118
 msgid ""
-"This next screenshot shows what the Print Map service looks as provided "
-"with demo for GeoMoose.  The side menu in the following view, shows the "
-"options available for printing the current mapview. Sheet size, "
-"orientation, resolution for both raster image backgrounds and for overall"
-" output are also available."
+"Clicking the magnifying glass icon/parcel number will zoom you to the "
+"specific parcel as illustrated in the following screenshot."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:122
-msgid ""
-"The next menu displays the choices available for output, by default "
-"GeoMoose allows a composite Raster Image, a HTML file, or a PDF.  "
-"Clicking on a PDF output option will present you with a dialog similar "
-"to:"
+msgid "Printing"
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:126
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:124
 msgid ""
-"The following screenshot shows an example of a PDF output in landscape "
-"mode."
+"This next screenshot shows what the Print tool looks as provided with "
+"demo for GeoMoose.  When you click on the Print tool, a dialog appears "
+"which asks for a title for the printed map, the page size and rotation, "
+"printed resolution, and shows a preview of what will be printed."
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:132
-msgid "Other Services"
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:128
+msgid ""
+"Clicking the Print button in the dialog will generate a PDF printout that"
+" you can open or save."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:134
-msgid ""
-"GeoMoose can also link to other on-line services such as birds eye view "
-"from BING, StreetView from Google and Geocoding from Google. Always "
-"remember to review license requirements for any external services to "
-"ensure compliance."
-msgstr ""
-
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:139
 msgid "What Next?"
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:141
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:136
 msgid ""
 "This is only the first step on the road to using GeoMoose. There is a lot"
 " more functionality you can try."
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:144
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:139
 msgid "GeoMoose Project home"
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:146
-msgid "http://www.geomoose.org/"
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:141
+msgid "https://www.geomoose.org/"
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:148
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:143
 msgid "GeoMoose Tutorial"
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:150
-msgid "https://docs.geomoose.org/2.9/getting_started.html"
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:145
+msgid "https://www.geomoose.org/quickstart.html"
 msgstr ""
 
 #~ msgid "Contents"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can identify a location in the"
+#~ " interface by clicking on the "
+#~ "\"identify\", (\"i\" in a blue circle"
+#~ " icon) button in the top toolbar, "
+#~ "and then clicking a point on the"
+#~ " map to identify."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The menu along the left side of"
+#~ " the Map view will display a "
+#~ "report related to the point that "
+#~ "you clicked in the map.   This is"
+#~ " a service in the GeoMoose Demo "
+#~ "package that has been configured to "
+#~ "respond to quereies for the \"Parcel\""
+#~ " layer when a point is clicked."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "GeoMoose has two measuring tools "
+#~ "installed and activated by default. "
+#~ "Clicking the straight ruler icon in "
+#~ "the top toolbar, will start the "
+#~ "linear measuring tool.  You can click"
+#~ " as many points as you like in"
+#~ " the map window and a trailing "
+#~ "polyline will be drawn.  When you "
+#~ "get to your last point, just "
+#~ "double click to stop.  The total "
+#~ "distance of all lines drawn will "
+#~ "be used to generate the \"Total "
+#~ "Length\" in the units of your "
+#~ "choice in the side menu. Clicking "
+#~ "the other ruler icon in the top"
+#~ " toolbar, will allow you measure "
+#~ "areas."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "These user tools are considered services"
+#~ " by the GeoMoose interface and can"
+#~ " be added to via GeoMoose's MAPBOOK"
+#~ " control file."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can select features from a "
+#~ "Point, Line, polygon, or a Box.  "
+#~ "To start, click on the \"Select "
+#~ "Features\" icon (polygon with pencil), "
+#~ "and start drawing a selection polygon"
+#~ " in the map. You can double "
+#~ "click the last point to finish the"
+#~ " drawing process.  This screenshot shows"
+#~ " the drawing process on the map.  "
+#~ "the left menu is displaying the "
+#~ "input form for the criteria of the"
+#~ " selection, in this case a Polygon"
+#~ " against the \"Parcels\" layers. You "
+#~ "also have the option to select "
+#~ "features based on a buffer which "
+#~ "is a \"0\" value by default. This"
+#~ " is a service in the GeoMoose "
+#~ "Demo package that has been configured"
+#~ " to respond to quereies for the "
+#~ "\"Parcel\" layer."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The above screenshot is showing the "
+#~ "\"PARCEL\" layer for selects and also"
+#~ " using the \"Parcels\" layer as the"
+#~ " attributes to report back on.  Two"
+#~ " different layers can be used in "
+#~ "a double pass query, one for the"
+#~ " selection, and one for retrieving "
+#~ "the attributes from for reporting.  The"
+#~ " sceenshot below takes the selection "
+#~ "process further by adding in a "
+#~ "buffering distance of 100ft."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Clicking the \"Go!\" button in the "
+#~ "side menu in the above screenshot "
+#~ "will generate a report and display "
+#~ "it in the side menu.  NOTE: The"
+#~ " output can also be configured to "
+#~ "be sent to a new window as "
+#~ "well."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The results above demonstrate the "
+#~ "service response to the buffered query"
+#~ " by displaying the result in the "
+#~ "map via a selection overlay that "
+#~ "highlights the original selection area "
+#~ "polygon (purple), the crossing and "
+#~ "within parcels at a 100ft buffer "
+#~ "(orange) and the parcels crossing and"
+#~ " within the buffered polygon (yellow).  "
+#~ "The side menu now displays the "
+#~ "reported results of the query process"
+#~ " with options for outputting in other"
+#~ " formats for mailing labels."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can also search for features "
+#~ "by attribute.  To start click on "
+#~ "the \"Search Parcels\" icon and enter"
+#~ " your search parameters on the search"
+#~ " menu then pressing the \"Go!\" "
+#~ "button. The following screenshot demostrates"
+#~ " a search of all parcel owners "
+#~ "containing the name \"frank\"."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Clicking the binocular icon/parcel number "
+#~ "in blue will zoom you to the "
+#~ "specific parcel as illustrated in the"
+#~ " following screenshot."
+#~ msgstr ""
+
+#~ msgid "Layer Tools"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "GeoMoose lets you edit layers "
+#~ "graphically. Setting up a layer for "
+#~ "editing is discussed elsewhere on the"
+#~ " GeoMoose website. The demo is setup"
+#~ " for you to edit a sketch layer"
+#~ " as illustrated in the following "
+#~ "screenshot."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This next screenshot shows what the "
+#~ "Print Map service looks as provided "
+#~ "with demo for GeoMoose.  The side "
+#~ "menu in the following view, shows "
+#~ "the options available for printing the"
+#~ " current mapview. Sheet size, orientation,"
+#~ " resolution for both raster image "
+#~ "backgrounds and for overall output are"
+#~ " also available."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The next menu displays the choices "
+#~ "available for output, by default "
+#~ "GeoMoose allows a composite Raster "
+#~ "Image, a HTML file, or a PDF.  "
+#~ "Clicking on a PDF output option "
+#~ "will present you with a dialog "
+#~ "similar to:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The following screenshot shows an "
+#~ "example of a PDF output in "
+#~ "landscape mode."
+#~ msgstr ""
+
+#~ msgid "Other Services"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "GeoMoose can also link to other "
+#~ "on-line services such as birds eye"
+#~ " view from BING, StreetView from "
+#~ "Google and Geocoding from Google. Always"
+#~ " remember to review license requirements"
+#~ " for any external services to ensure"
+#~ " compliance."
+#~ msgstr ""
+
+#~ msgid "http://www.geomoose.org/"
+#~ msgstr ""
+
+#~ msgid "https://docs.geomoose.org/2.9/getting_started.html"
 #~ msgstr ""
 

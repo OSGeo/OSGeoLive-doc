@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"POT-Creation-Date: 2018-07-27 23:08-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,7 @@ msgid "Distributed data maintenance amongst multiple owners."
 msgstr ""
 
 #: ../../build/doc/overview/geomoose_overview.rst:40
-msgid "Access maps from: MapServer, Google, VirtualEarth, Tilecache, ArcGIS REST, WMS."
+msgid "Access maps from: MapServer, Tilecache, ArcGIS REST, WMS, WFS."
 msgstr ""
 
 #: ../../build/doc/overview/geomoose_overview.rst:41
@@ -57,11 +57,11 @@ msgid "Discover and filter from data catalogs."
 msgstr ""
 
 #: ../../build/doc/overview/geomoose_overview.rst:43
-msgid "Tools: measure, drawing, query, fading, re-order, reprojection, jump-to zoom, coordinate readouts, ..."
+msgid "Tools: measure, drawing, query, fading, re-order, jump-to zoom, coordinate readouts, ..."
 msgstr ""
 
 #: ../../build/doc/overview/geomoose_overview.rst:44
-msgid "Displays: MapViewer, Bird's Eye, Side Menu, Navigation, Tabbed User Controls."
+msgid "Displays: MapViewer, Side Menu, Navigation, Tabbed User Controls."
 msgstr ""
 
 #: ../../build/doc/overview/geomoose_overview.rst:45
@@ -89,50 +89,46 @@ msgid "Implemented Standards"
 msgstr ""
 
 #: ../../build/doc/overview/geomoose_overview.rst:53
-msgid "WMS"
+msgid "WMS (client)"
 msgstr ""
 
 #: ../../build/doc/overview/geomoose_overview.rst:54
 msgid "WFS (client)"
 msgstr ""
 
-#: ../../build/doc/overview/geomoose_overview.rst:55
-msgid "WFS-T (client)"
-msgstr ""
-
-#: ../../build/doc/overview/geomoose_overview.rst:58
+#: ../../build/doc/overview/geomoose_overview.rst:57
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/geomoose_overview.rst:60
-msgid "**Website:** http://www.geomoose.org/"
+#: ../../build/doc/overview/geomoose_overview.rst:59
+msgid "**Website:** https://www.geomoose.org/"
 msgstr ""
 
-#: ../../build/doc/overview/geomoose_overview.rst:62
-msgid "**Licence:** MIT based license. http://www.geomoose.org/info/license.html"
+#: ../../build/doc/overview/geomoose_overview.rst:61
+msgid "**Licence:** MIT based license. https://www.geomoose.org/info/license.html"
 msgstr ""
 
-#: ../../build/doc/overview/geomoose_overview.rst:64
+#: ../../build/doc/overview/geomoose_overview.rst:63
 msgid "**Software Version:** |version-geomoose|"
 msgstr ""
 
-#: ../../build/doc/overview/geomoose_overview.rst:66
+#: ../../build/doc/overview/geomoose_overview.rst:65
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
-#: ../../build/doc/overview/geomoose_overview.rst:68
-msgid "**Commercial Support:** http://www.geomoose.org/info/commercial_support.html"
+#: ../../build/doc/overview/geomoose_overview.rst:67
+msgid "**Commercial Support:** https://www.geomoose.org/info/commercial_support.html"
 msgstr ""
 
-#: ../../build/doc/overview/geomoose_overview.rst:70
-msgid "**Community Support:** http://www.geomoose.org/info/mailing_lists.html"
+#: ../../build/doc/overview/geomoose_overview.rst:69
+msgid "**Community Support:** https://www.geomoose.org/info/mailing_lists.html"
 msgstr ""
 
-#: ../../build/doc/overview/geomoose_overview.rst:75
+#: ../../build/doc/overview/geomoose_overview.rst:74
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/geomoose_overview.rst:77
+#: ../../build/doc/overview/geomoose_overview.rst:76
 msgid ":doc:`Quickstart documentation <../quickstart/geomoose_quickstart>`"
 msgstr ""
 

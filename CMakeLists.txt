@@ -23,8 +23,8 @@ set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 set(OSGeoLiveDoc_VERSION_MAJOR "12")
 set(OSGeoLiveDoc_VERSION_MINOR "0")
 set(OSGeoLiveDoc_VERSION_PATCH "0")
-set(OSGeoLiveDoc_VERSION_DEV "-dev")
-set(OSGeoLiveDoc_VERSION "${OSGeoLiveDoc_VERSION_MAJOR}.${OSGeoLiveDoc_VERSION_MINOR}.${OSGeoLiveDoc_VERSION_MINOR}.${OSGeoLiveDoc_VERSION_DEV}")
+set(OSGeoLiveDoc_VERSION_DEV "")
+set(OSGeoLiveDoc_VERSION "${OSGeoLiveDoc_VERSION_MAJOR}.${OSGeoLiveDoc_VERSION_MINOR}.${OSGeoLiveDoc_VERSION_MINOR}${OSGeoLiveDoc_VERSION_DEV}")
 set(OSGeoLiveDoc_NAME "OSGeoLive")
 
 
