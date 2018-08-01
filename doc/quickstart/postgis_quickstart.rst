@@ -5,7 +5,7 @@
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Nicolas Roelandt
 :Reviewer: Angelos Tzotsos, OSGeo
-:Version: osgeolive11.0
+:Version: osgeolive12.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. TBD Cameron Review Comment:
@@ -423,7 +423,7 @@ of the R statistics package add-ons.
 
 From the ``Table`` menu choose the ``Import layer/file`` option. 
 Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R ``maptools`` package
-(located in /usr/lib/R/site-library/spdep/etc/shapes/):
+(located in /usr/lib/R/site-library/spData/shapes):
 
 .. image:: /images/projects/postgis/postgis_browsedata.png
   :scale: 75 %
@@ -442,7 +442,7 @@ get back to the main QGIS window.
 
 Now load the SIDS data into the map using the 'Add PostGIS Layer'
 option. With a bit of rearranging of the layers and some colouring, you should be able to produce
-a choropleth map of the sudden infant death syndrome counts in North Carolina:
+a choropleth map of the sudden infant death syndrome counts (sid74 or sid79 fields) in North Carolina:
 
 .. image:: /images/projects/postgis/postgis_sidsmap.png
   :scale: 75 %
