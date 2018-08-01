@@ -28,7 +28,7 @@ Y  |  ncWMS  ||  Y  |  Y  |  Web Services  |    |  Web Map Service  |  ncwms|htt
 Y  |  eoxserver  |  0.4.0  |  Y  |  Y  |  Web Services  |    |  Web Coverage Service  |  eoxserver|https://eoxserver.readthedocs.org/| |EOxServer
 Y  |  geonetwork  |  3.2.1  |  Y  |  Y  |  Web Services  |    |  Metadata Catalogue  |  geonetwork-opensource|http://geonetwork-opensource.org/|OSGeo_project|GeoNetwork
 Y  |  pycsw  |  2.0.3  |  Y  |  Y  |  Web Services  |    |  Metadata Catalogue  |  pycsw|http://pycsw.org/|OSGeo_project|pycsw
-Y  |  pywps  |  4.0.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  pyWPS| |OSGeo_incubation|PyWPS
+Y  |  pywps  |  4.0.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  pyWPS| |OSGeo_project|PyWPS
 Y  |  mapproxy  | 1.11.0 |  Y  |  Y  |  Web Services  |    |  Proxy WMS & tile services  |  mapproxy| |OSGeo_community |MapProxy
 Y  |  qgis_mapserver  ||  Y  |  Y  |  Web Services  |    |  Web Map Service  |  |http://www.qgis.org| |QGIS Server
 Y  |  istsos  |  2.3.1  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  istsos|http://istsos.org|OSGeo_community|istSOS
