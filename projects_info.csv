@@ -15,7 +15,7 @@ Y  |  openlayers  |  4.6.5  |  Y  |  Y  |  Browser Facing GIS  |    |   Browser 
 Y  |  leaflet  |  1.0.3  |  Y  |  Y  |  Browser Facing GIS  |    |  Mobile Friendly Interactive Maps  |  Leaflet|http://leafletjs.com| |Leaflet
 Y  | cesium |1.46| Y | Y | Browser Facing GIS | | 3D globes and 2D maps in a browser | cesiumjs| | |Cesium
 Y  |  geomajas  ||  Y  |  Y  |  Browser Facing GIS  |    |  Browser GIS Client  |  geomajas|http://www.geomajas.org|OSGeo_project|Geomajas
-Y  |  mapbender  |  3.0.6.1  |  Y  |  Y  |  Browser Facing GIS  |    |  Geoportal Framework  |  mapbender|http://www.mapbender3.org|OSGeo_project|Mapbender
+Y  |  mapbender  |  3.0.7.3  |  Y  |  Y  |  Browser Facing GIS  |    |  Geoportal Framework  |  mapbender|http://www.mapbender.org|OSGeo_project|Mapbender
 Y  |  geomoose  |  3.2.0  |  Y  |  Y  |  Browser Facing GIS  |    |  Web GIS Portal  |  geomoose|http://www.geomoose.org/|OSGeo_project|GeoMoose
 Y  |  geonode  |  2.6.0  |  Y  |  Y  |  Browser Facing GIS  |    |  Geospatial Content Management System  |  geonode|http://geonode.org|OSGeo_project|GeoNode
 ######################| | | | | | | | | | |
