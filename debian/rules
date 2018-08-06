@@ -8,4 +8,4 @@
 	dh $@ --builddirectory=build
 	
 override_dh_auto_configure:
-	dh_auto_configure -- -DHTML=on
+	dh_auto_configure -- -DHTML=on -DES=ON -DFR=ON -DDE=ON
