@@ -178,8 +178,8 @@ msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:83
 msgid "Quickstart"
-msgstr "Inicio Rápido"
+msgstr "Guía de Inicio Rápido"
 
 #: ../../build/doc/overview/gdal_overview.rst:85
 msgid ":doc:`Quickstart documentation <../quickstart/gdal_quickstart>`"
-msgstr ":doc:`Documentación de inicio rápido <../quickstart/gdal_quickstart>`"
+msgstr ":doc:`Documentación de Inicio Rápido <../quickstart/gdal_quickstart>`"

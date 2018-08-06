@@ -1,0 +1,239 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:16
+msgid "QGIS Server Quickstart"
+msgstr "Inicio rápido del Servidor QGIS"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:18
+msgid ""
+"QGIS Server provides a web map service (WMS) based on libraries from the "
+"QGIS desktop application."
+msgstr ""
+"El Servidor de QGIS ofrece un servicio de mapas web (WMS) basada en las "
+"bibliotecas de la aplicación de escritorio QGIS."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:20
+msgid "This Quick Start describes how to:"
+msgstr "Esta Guía de Inicio Rápido describe cómo:"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:22
+msgid "update an existing QGIS project and render it with QGIS Server"
+msgstr ""
+"actualizar un proyecto existente de QGIS y renderizar con el Servidor de "
+"QGIS"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:23
+msgid "create a new QGIS project and open the WMS directly in a browser"
+msgstr ""
+"Crear un nuevo proyecto QGIS y abrir el WMS directamente en un navegador"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:26
+msgid "Documentation:"
+msgstr "Documentación:"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:26
+msgid ""
+"https://docs.qgis.org/2.14/en/docs/user_manual/working_with_ogc/ogc_server_support.html"
+msgstr ""
+"https://docs.qgis.org/2.14/en/docs/user_manual/working_with_ogc/ogc_server_support.html"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:28
+msgid "Quick start for Server Installation on Debian/Ubuntu:"
+msgstr "Guia para la instalación del Servidor en Debian/Ubuntu:"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:30
+msgid ":command:`apt-get install qgis-mapserver libapache2-mod-fcgid`"
+msgstr ":command:`apt-get install qgis-mapserver libapache2-mod-fcgid`"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:31
+msgid "-> http://localhost/cgi-bin/qgis_mapserv.fcgi"
+msgstr "-> http://localhost/cgi-bin/qgis_mapserv.fcgi"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:34
+msgid "QGIS Web Client:"
+msgstr "Cliente de Web de QGIS:"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:34
+msgid "https://github.com/qgis/qgis-web-client"
+msgstr "https://github.com/qgis/qgis-web-client"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:37
+msgid "Start GeoExt viewer"
+msgstr "Inicie el visualizador de GeoExt"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:39
+msgid ""
+"OSGeoLive contains an example of web map viewer based on the GeoExt "
+"Javascript framework and using QGIS Server for rendering the map."
+msgstr ""
+"OSGeoLive contiene un ejemplo de visor web basado en el framework de GeoExt "
+"Javascript y utilizando servidor de QGIS para representar el mapa."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:41
+msgid "Click :menuselection:`Geospatial --> Web Services --> QGIS Server`"
+msgstr ""
+"Haga click en :menuselection:`Geospatial --> Web Services --> QGIS Server`"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:43
+msgid ""
+"You should see a browser window with a web map viewer showing a world map."
+msgstr ""
+"Deberá ver una ventana del navegador con un visor web que muestra un mapa "
+"del mundo."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:47
+msgid ""
+"Alternatively, you can access the application using a browser through "
+"http://localhost/qgis_server"
+msgstr ""
+"Alternativamente, se puede acceder a la aplicación mediante un navegador a "
+"través de http://localhost/qgis_server"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:49
+msgid "We will now change the map styling using QGIS."
+msgstr "Ahora vamos a cambiar el estilo del mapa utilizando QGIS."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:53
+msgid "Edit QGIS project"
+msgstr "Editar el proyecto en QGIS"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:55
+msgid "Click :menuselection:`Geospatial --> Desktop GIS --> QGIS`."
+msgstr "Haga clic en: menuselection: 'Geoespacial--> Desktop GIS--> QGIS'."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:57
+msgid "Choose :menuselection:`Project --> Open...` from the menu bar."
+msgstr "Seleccione :menuselection:`Project --> Open...` from the menu bar."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:59
+msgid ""
+"Select :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`."
+msgstr ""
+"Elegir :file:`QGIS-NaturalEarth-Example.qgs` y presione :guilabel:`Abrir`."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:61
+msgid ""
+"You should see the same world map rendered by QGIS. We will now change river"
+" styling and look at the result in the web map viewer."
+msgstr ""
+"Debería ver el mismo mapamundi de QGIS. Ahora cambiaremos de estilo del río "
+"y veremos el resultado en el visualizador del mapa web."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:64
+msgid ""
+"Double click :file:`ne_10m_rivers_lake_centerlines` in the Layers tree."
+msgstr ""
+"Haga doble clic en :file:`ne_10m_rivers_lake_centerlines` en el árbol de "
+"capas."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:66
+msgid "Change the color in Outline Options to a different blue tone."
+msgstr ""
+"Cambiar el color en Opciones de Esquema para un tono de azul diferente."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:68
+msgid "Press :guilabel:`OK`."
+msgstr "Presione :guilabel:`OK`."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:70
+msgid "Rivers are now rendered in a new color."
+msgstr "Los ríos se renderizan ahora en su nuevo color."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:72
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:96
+msgid "Save the project with :menuselection:`Project --> Save`."
+msgstr "Guarde el proyecto con :menuselection:`Project --> Save`."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:74
+msgid "Reopen the web browser"
+msgstr "Abrir el navegador web"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:76
+msgid "Zoom in"
+msgstr "Hacer Acercamiento"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:78
+msgid "You should now see rivers rendered in the same new color."
+msgstr "Ahora deberá ver los ríos en el mismo nuevo color."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:82
+msgid "Create a new QGIS project"
+msgstr "Cree un nuevo proyecto QGIS"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:84
+msgid "Reopen QGIS"
+msgstr "Abrir de nuevo QGIS"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:86
+msgid "Choose :menuselection:`Project --> New`."
+msgstr "Elegir :menuselection:`Project --> Nuevo`."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:88
+msgid "Click :menuselection:`Layer --> Add Vector Layer...`."
+msgstr "Hacer click en :menuselection:`Capa --> Añadir capa...`."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:90
+msgid ""
+"Browse to dataset "
+":file:`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`."
+msgstr ""
+"Navegue al conjunto de datos "
+":file:`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:92
+msgid "Press :guilabel:`Open`."
+msgstr "Presione :guilabel:`Abrir`."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:94
+msgid "You should see all world countries."
+msgstr "Usted debe ver todos los países de mundo."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:98
+msgid "Use file name :file:`/home/user/world.qgs` and press :guilabel:`Save`."
+msgstr ""
+"Utilizar nombre de archivo  :file:`/home/user/world.qgs` y prensa "
+":guilabel:`Save`."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:100
+msgid ""
+"Open the `WMS URL <http://localhost/cgi-"
+"bin/qgis_mapserv?map=/home/user/world.qgs&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_."
+msgstr ""
+"Abrir el `WMS URL <http://localhost/cgi-"
+"bin/qgis_mapserv?map=/home/user/world.qgs&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:102
+msgid "You should see all world countries, this time rendered by QGIS Server."
+msgstr ""
+"Usted debe ver todos los países de mundo, esta vez por Servidor de QGIS."
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:106
+msgid "What Next?"
+msgstr "¿Qué sigue?"
+
+#: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:108
+msgid ""
+"To learn more about QGIS Server, a good starting point is the `QGIS User "
+"Guide`_."
+msgstr ""
+"Para conocer más acerca de servidor de QGIS, un buen punto de partida es la "
+"`QGIS User Guide`_."

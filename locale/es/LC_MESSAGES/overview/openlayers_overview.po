@@ -57,14 +57,14 @@ msgid ""
 "Raster: WMS/WMTS, OpenStreetMap, Stamen, Bing, other XYZ sources, static "
 "images, etc."
 msgstr ""
-"Trama: WMS/WMTS, OpenStreetMap, estambre, Bing, otras fuentes XYZ, imágenes "
-"estáticas, etcetera."
+"Ráster: WMS/WMTS, OpenStreetMap, estambre, Bing, otras fuentes XYZ, imágenes"
+" estáticas, etcetera."
 
 #: ../../build/doc/overview/openlayers_overview.rst:40
 msgid ""
 "Vector: WFS, KML, GeoJSON, TopoJSON, GPX, GML, and MapBox vector tiles."
 msgstr ""
-"Vector: Vector de WFS, KML, GeoJSON, TopoJSON, GPX, GML y teselas MapBox."
+"Vectores: Vector de WFS, KML, GeoJSON, TopoJSON, GPX, GML y teselas MapBox."
 
 #: ../../build/doc/overview/openlayers_overview.rst:41
 msgid "Heatmaps."
@@ -72,7 +72,7 @@ msgstr "Mapas de calor"
 
 #: ../../build/doc/overview/openlayers_overview.rst:42
 msgid "Render vector layers as raster."
-msgstr "Renderizar capas vectoriales como raster."
+msgstr "Renderizar capas vectoriales como ráster."
 
 #: ../../build/doc/overview/openlayers_overview.rst:44
 msgid "Controls and Interactions"
@@ -82,12 +82,14 @@ msgstr "Controles e interacciones"
 msgid ""
 "Overview map, zoom slider, zoom in/out buttons, scale line, rotate map, etc."
 msgstr ""
-"Mapa resumen, control deslizante de zoom, botones de acercar/alejar, línea "
-"de la escala, rotar mapa, etcetera."
+" Vista General, deslizador de zoom, botones de zoom in/out, barra de escala,"
+" rotación de mapa, etc."
 
 #: ../../build/doc/overview/openlayers_overview.rst:47
 msgid "Map pan, zoom and rotation, feature selection, modification, etc."
-msgstr "Paneo de Mapa, zoom y rotación, selección, modificación, etcetera."
+msgstr ""
+"Desplazamiento de Mapa, zoom y rotación, selección de funciones, "
+"modificación, etcétera."
 
 #: ../../build/doc/overview/openlayers_overview.rst:49
 msgid "Styling and customization"
@@ -96,11 +98,11 @@ msgstr "Estilo y personalización"
 #: ../../build/doc/overview/openlayers_overview.rst:51
 msgid "Powerful styling of features: points, lines, polygons and icons."
 msgstr ""
-"Características de estilo potente de: puntos, líneas, polígonos e iconos."
+"Potente diseño de características: puntos, líneas, polígonos e iconos."
 
 #: ../../build/doc/overview/openlayers_overview.rst:52
 msgid "Customize controls look and feel using CSS."
-msgstr "Personalizar controles apariencia mediante CSS."
+msgstr "Personalización de la apariencia de los controles usando CSS."
 
 #: ../../build/doc/overview/openlayers_overview.rst:54
 msgid "Overlays"
@@ -108,17 +110,18 @@ msgstr "Superposiciones"
 
 #: ../../build/doc/overview/openlayers_overview.rst:56
 msgid "Render any DOM element at any place on the map."
-msgstr "Representar cualquier elemento DOM en cualquier lugar en el mapa."
+msgstr "Renderiza cualquier elemento del DOM en cualquier lugar en el mapa."
 
 #: ../../build/doc/overview/openlayers_overview.rst:57
 msgid "Great flexibility to create tooltips and markers."
 msgstr ""
-"Gran flexibilidad para crear información sobre herramientas y marcadores."
+"Gran flexibilidad para crear tooltips (descripciones emergentes) y "
+"marcadores."
 
 #: ../../build/doc/overview/openlayers_overview.rst:58
 msgid "Mix the power of HTML5 capabilities with a mapping application."
 msgstr ""
-"Mezclar el poder de las capacidades de HTML5 con una aplicación de mapeo."
+"Mezcla la potencia de las capacidades de HTML5 con una aplicación de mapeo."
 
 #: ../../build/doc/overview/openlayers_overview.rst:60
 msgid "Events"
@@ -126,11 +129,11 @@ msgstr "Eventos"
 
 #: ../../build/doc/overview/openlayers_overview.rst:62
 msgid "Attach listener functions to map events."
-msgstr "Fijar funciones de detector para asignar eventos."
+msgstr "Adjuntar funciones listener para asignar eventos."
 
 #: ../../build/doc/overview/openlayers_overview.rst:63
 msgid "Create your custom controls or interactions."
-msgstr "Crear sus controles personalizados o interacciones."
+msgstr "Crear sus controles o interacciones personalizados. "
 
 #: ../../build/doc/overview/openlayers_overview.rst:65
 msgid "Miscellaneous"
@@ -147,7 +150,7 @@ msgstr "Reproyección raster."
 #: ../../build/doc/overview/openlayers_overview.rst:69
 msgid "Light-weight library. Build customized packages to reduce size."
 msgstr ""
-"Biblioteca de peso ligero. Crear paquetes personalizados para reducir el "
+"Biblioteca ligera. Construcción de paquetes personalizados para reducir el "
 "tamaño."
 
 #: ../../build/doc/overview/openlayers_overview.rst:70
@@ -156,7 +159,7 @@ msgstr "Renderizar mapas con diferentes tecnologías: Canvas, WebGL."
 
 #: ../../build/doc/overview/openlayers_overview.rst:71
 msgid "Raster analysis (change hue/saturation)."
-msgstr "Análisis de trama (cambio de tono/saturación)."
+msgstr "Análisis de ráster (cambio de tono/saturación)."
 
 #: ../../build/doc/overview/openlayers_overview.rst:74
 msgid "Details"
@@ -189,7 +192,7 @@ msgstr ""
 
 #: ../../build/doc/overview/openlayers_overview.rst:89
 msgid "Quickstart"
-msgstr "Inicio Rápido"
+msgstr "Guía de Inicio Rápido"
 
 #: ../../build/doc/overview/openlayers_overview.rst:91
 msgid ":doc:`Quickstart documentation <../quickstart/openlayers_quickstart>`"

@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../build/doc/overview/openjump_overview.rst:14
 msgid "OpenJUMP GIS"
-msgstr "OpenJUMP GIS"
+msgstr "OpenJUMP SIG"
 
 #: ../../build/doc/overview/openjump_overview.rst:17
 msgid "Desktop GIS"
@@ -218,9 +218,9 @@ msgstr ""
 
 #: ../../build/doc/overview/openjump_overview.rst:91
 msgid "Quickstart"
-msgstr "Inicio Rápido"
+msgstr "Guía de Inicio Rápido"
 
 #: ../../build/doc/overview/openjump_overview.rst:93
 msgid ":doc:`Quickstart documentation <../quickstart/openjump_quickstart>`"
 msgstr ""
-":doc:`Documentación de inicio rápido <../quickstart/openjump_quickstart>`"
+":doc:`Documentación de Inicio Rápido <../quickstart/openjump_quickstart>`"

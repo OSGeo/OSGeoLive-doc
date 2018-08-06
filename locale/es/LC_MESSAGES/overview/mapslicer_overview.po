@@ -52,9 +52,8 @@ msgid ""
 msgstr ""
 "No es necesaria una configuración extensa en el servidor, cualquier "
 "alojamiento simple de archivos está bien. Las interacciones dinámicas, como "
-"la producción de panorámicas y zoom, o la superposición de marcadores y "
-"datos vectoriales, son provistas por una poderosa funcionalidad de "
-"navegador."
+"el paneo y el acercamiento, o la superposición de marcadores y datos "
+"vectoriales, son provistas por una poderosa funcionalidad de navegador."
 
 #: ../../build/doc/overview/mapslicer_overview.rst:27
 msgid ""
