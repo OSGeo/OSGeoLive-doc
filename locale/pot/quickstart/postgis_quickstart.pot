@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-27 23:08-0500\n"
+"POT-Creation-Date: 2018-08-06 09:21-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -289,7 +289,7 @@ msgid "We will now use the DB Manager to import a shapefile into the database. W
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:430
-msgid "From the ``Table`` menu choose the ``Import layer/file`` option. Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R ``maptools`` package (located in /usr/lib/R/site-library/spdep/etc/shapes/):"
+msgid "From the ``Table`` menu choose the ``Import layer/file`` option. Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R ``maptools`` package (located in /usr/lib/R/site-library/spData/shapes):"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:439
@@ -301,7 +301,7 @@ msgid "Let the Coordinate Reference System Selector default to (WGS 84 EPSG:4326
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:449
-msgid "Now load the SIDS data into the map using the 'Add PostGIS Layer' option. With a bit of rearranging of the layers and some colouring, you should be able to produce a choropleth map of the sudden infant death syndrome counts in North Carolina:"
+msgid "Now load the SIDS data into the map using the 'Add PostGIS Layer' option. With a bit of rearranging of the layers and some colouring, you should be able to produce a choropleth map of the sudden infant death syndrome counts (sid74 or sid79 fields) in North Carolina:"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:462
