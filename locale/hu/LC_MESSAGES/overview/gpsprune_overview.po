@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:15
+msgid "GpsPrune"
+msgstr "GpsPrune"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:18
+msgid "GPS Track-Editing"
+msgstr "GPS nyomvonal szerkesztés"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:20
+msgid ""
+"`GpsPrune <https://gpsprune.activityworkshop.net/>`_ is a tool for viewing, "
+"editing and converting coordinate data from GPS systems.  It can be used for"
+" planning trips in advance, or for analysing the tracks recorded by GPS "
+"receivers."
+msgstr ""
+"A `GpsPrune <https://gpsprune.activityworkshop.net/>`_ egy eszköz a GPS "
+"rendszerekből kapott koordináta adatok megtekintésére, szerkesztésére és "
+"konvertálására.  Használható útvonalak előzetes tervezésére vagy a GPS "
+"vevőkkel rögzített nyomvonalak elemzésére."
+
+#: ../../build/doc/overview/gpsprune_overview.rst:24
+msgid ""
+"It uses :doc:`OpenStreetMap <osm_dataset_overview>` imagery to show recorded"
+" tracks and waypoints, and provides a variety of tools to let you edit, crop"
+" and prune the data points.  It also has functions for correlating photos "
+"and audio files to the coordinates using the file timestamps."
+msgstr ""
+" :doc:`OpenStreetMap<osm_dataset_overview>` hátteret használ a rögzített "
+"nyomvonalak és útpontok megjelenítésére és változatos eszközöket biztosít az"
+" adatpontok szerkesztéshez, vágáshoz és ritkításához. Fénykép és hang fájlok"
+" koordinátákhoz kapcsolására is rendelkezik funkcióval, a fájlok "
+"időbélyegének felhasználásával."
+
+#: ../../build/doc/overview/gpsprune_overview.rst:29
+msgid ""
+"GpsPrune uses Gpsbabel, if available, to read data directly from a GPS "
+"receiver, and can send the edited data back to the receiver too."
+msgstr ""
+"A GpsPrune a GpsBabelt használja az adatok GPS vevőből történő közvetlen "
+"kiolvasására és a módosított adatokat is vissza tudja küldeni a vevőre."
+
+#: ../../build/doc/overview/gpsprune_overview.rst:32
+msgid ""
+"GpsPrune runs on Mac OSX, Windows and Linux, and is available in over ten "
+"different languages."
+msgstr ""
+"A GpsPrune Mac OSX, Windows és Linux rendszeren fut és több mint tíz "
+"különböző nyelven érhető el."
+
+#: ../../build/doc/overview/gpsprune_overview.rst:42
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:44
+msgid ""
+"Load data from text files, gpx files, kml/kmz files, or directly from a GPS "
+"receiver"
+msgstr ""
+"Adatok betöltése szövegfájlokból, gpx fájlokból, kml/kmz fájlokból vagy "
+"közvetlenül a GPS vevőből"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:45
+msgid ""
+"Zoomable map imagery from OpenStreetMap or any compatible server "
+"(OpenCycleMap, Reit- und Wanderkarte etc)"
+msgstr ""
+"Nagyítható OpenStreetMap háttértérkép vagy bármilyen kompatibilis szerverről"
+" (OpenCycleMap, Reit- und Wanderkarte, stb.)"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:46
+msgid "Altitude or speed profile view"
+msgstr "Metszet vagy sebesség profil nézet"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:47
+msgid ""
+"Editing tools for creating, modifying, deleting, reversing and compressing "
+"tracks"
+msgstr ""
+"Szerkesztő eszközök nyomvonalak létrehozására, módosítására, törlésére, "
+"megfordítására és tömörítésére"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:48
+msgid ""
+"Interactive 3d view of the data or export to POV format for 3D rendering, "
+"both including map imagery painted onto the terrain"
+msgstr ""
+"Adatok 3D-s interaktív megjelenítése vagy POV formátumú export 3D-s "
+"megjelenítéshez, mindkettő tartalmazza a terepre ráhúzott háttértérképet"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:49
+msgid ""
+"Save data to text files, gpx files, kml/kmz files, or directly to a GPS "
+"receiver"
+msgstr ""
+"Adatok mentése szövegfájlokba, gpx fájlokba, kml/kmz fájlokba vagy "
+"közvetlenül a GPS vevőre"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:50
+msgid ""
+"Automatic correlation of photographs and audio files with the loaded data "
+"using timestamps"
+msgstr ""
+"Fényképek és hangfájlok összekapcsolása a betöltött adatokkal az időbélyegek"
+" használatával"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:51
+msgid ""
+"Creation of charts such as altitude against distance, speed against time"
+msgstr "Grafikonok készítése mint például távolság-magasság, idő-sebesség"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:52
+msgid "Distances, climbs, descents, time estimates and more"
+msgstr "Távolság, emelkedés, ereszkedés, idő becslések és továbbiak"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:53
+msgid "Online resources such as wikipedia, gpsies and local weather forecasts"
+msgstr ""
+"Online források mint például wikipedia, gpsies és helyi időjárás előrejelzés"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:56
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:58
+msgid "**Website:** https://gpsprune.activityworkshop.net/"
+msgstr "**Honlap:** https://gpsprune.activityworkshop.net/"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:60
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**Licenc:** GNU General Public License (GPL) version 2"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:62
+msgid "**Software Version:** |version-gpsprune|"
+msgstr "**Szoftver verzió:** |version-gpsprune|"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:64
+msgid "**Supported Platforms:** GNU/Linux, Mac OSX, Windows"
+msgstr "**Támogatott platformok:** GNU/Linux, Mac OSX, Windows"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:69
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:71
+msgid ":doc:`Quickstart documentation <../quickstart/gpsprune_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/gpsprune_quickstart>`"

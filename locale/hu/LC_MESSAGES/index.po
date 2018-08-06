@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2017\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/index.rst:3
+msgid "Welcome to |osgeolive-version|"
+msgstr "Üdvözöljük |osgeolive-version|"
+
+#: ../../build/doc/index.rst:19
+msgid ""
+"`OSGeoLive <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB "
+"thumb drive or Virtual Machine based on `Lubuntu <http://lubuntu.net>`_, "
+"that allows you to try a wide variety of open source geospatial software "
+"without installing anything. It is composed entirely of free software, "
+"allowing it to be freely distributed, duplicated and passed around."
+msgstr ""
+"Az `OSGeoLive <http://live.osgeo.org>`_ egy önállóan indítható,  `Lubuntu "
+"<http://lubuntu.net>` operációs rendszeren alapuló DVD, USB tároló vagy "
+"virtuális gép, mely lehetővé teszi a nyílt forráskódú tréinformatikai "
+"szoftverek széles skálájának kipróbálását, anélkül, hogy bármit telepítenie "
+"kellene. Kizárólag szabad szoftverek felhasználásával állították össze, "
+"ezzel lehetővé téve a szabad terjesztést, duplikálást és másoknak átadást."
+
+#: ../../build/doc/index.rst:31
+msgid ""
+"It provides pre-configured applications for a range of geospatial use cases,"
+" including storage, publishing, viewing, analysis and manipulation of data. "
+"It also contains sample datasets and documentation."
+msgstr ""
+"Előre konfigurált alkalmazásokat kínál a térinformatikai felhasználás széles"
+" skáláján, többek között a térinformatikai adatok tárolást, publikálását, "
+"megtekintést, elemzését és manipulálását. Emellett mintaadatokat és "
+"dokumentációt is tartalmaz"
+
+#: ../../build/doc/index.rst:35
+msgid "To try out the applications, simply:"
+msgstr "Próbálja ki egyszerűen az alkalmazásokat:"
+
+#: ../../build/doc/index.rst:37
+msgid "Insert DVD or USB thumb drive in computer or virtual machine."
+msgstr ""
+"Helyezze a számítógépbe a DVD-t vagy az USB tárolót vagy használja a "
+"virtuális gépet."
+
+#: ../../build/doc/index.rst:38
+msgid "Reboot computer. (verify boot device order if necessary)"
+msgstr ""
+"Indítsa újra a számítógépet. (szükség esetén ellenőrizze az eszközök "
+"sorrendjét a rendszer betöltésnél)"
+
+#: ../../build/doc/index.rst:39
+msgid "Press \"Enter\" to startup & login."
+msgstr "Nyomja meg az Enter gombot az indításhoz és a bejelentkezéshez."
+
+#: ../../build/doc/index.rst:40
+msgid "Select and run applications from the \"Geospatial\" menu."
+msgstr "Válasszon ki egy alkalmazást a \"Geospatial\" menüből. "
+
+#: ../../build/doc/index.rst:42
+msgid ""
+"OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo "
+"Foundation is a not-for-profit supporting Geospatial Open Source Software "
+"development, promotion and `education <http://www.geoforall.org/>`_."
+msgstr ""
+"Az OSGeoLive egy `OSGeo Alapítvány <http://osgeo.org/>`_ projekt. Az OSGeo "
+"Alapítvány egy nonprofit szervezet, mely támogatja a nyílt forráskódú "
+"térinformatikai szoftverek fejlesztést, azok promócióját és az `oktatását "
+"<http://www.geoforall.org/>`_."
+
+#: ../../build/doc/index.rst:47
+msgid "Quick Starts"
+msgstr "Gyors kezdés"
+
+#: ../../build/doc/index.rst:85
+msgid "Presentation"
+msgstr "Prezentációk"
+
+#: ../../build/doc/index.rst:87
+msgid ""
+"A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive "
+"applications, is available with slides, script, and `abstract "
+"<presentation/abstract.txt>`_."
+msgstr ""
+"Egy fél órás  `bemutató <presentation.html>`_ elérhető a diákkal, szkripttel"
+" és `összefoglalóval  <presentation/abstract.txt>`_, mely bemutatja az "
+"összes OSGeoLive alkalmazást."

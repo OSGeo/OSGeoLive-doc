@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:14
+msgid "OpenStreetMap"
+msgstr "OpenStreetMap"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:17
+msgid "Map Data"
+msgstr "Térkép adat"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:19
+msgid ""
+"OpenStreetMap is a crowd sourced map of the world which has grown to become "
+"one of the most detailed sources of local-scale map data available. Source "
+"map data is created and maintained by thousands of volunteers from around "
+"the world, using processes similar to the maintaining of the wikipedia "
+"encyclopedia."
+msgstr ""
+"Az OpenStreetMap egy közösségi térkép a világról, mely a térképadatok egyik "
+"legrészletesebb forrásává vált. A térkép adatokat több ezer önkéntes hozza "
+"létre és tartja karban a világ minden tájáról, hasonlóan a wikipedia-"
+"enciklopédia üzemeltetéséhez."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:21
+msgid ""
+"The most visible aspect to OSM is the online web-tile interface from "
+"https://www.openstreetmap.org, but the maps can also be viewed, imported, or"
+" edited in many applications such as :doc:`QGIS <qgis_overview>` , "
+":doc:`OpenLayers <openlayers_overview>`, ArcGIS and dedicated OSM "
+"applications."
+msgstr ""
+"Az OSM legkiemelkedőbb vonatkozása az online web-csempe interfész a "
+"https://www.openstreetmap.org oldalon, de a térképek számos alkalmazásban "
+"megjeleníthetők vagy szerkeszthetők mint például :doc:`QGIS<qgis_overview>` "
+", :doc:`OpenLayers<openlayers_overview>`, ArcGIS és dedikált OSM "
+"alkalmazások."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:23
+msgid ""
+"The heart of the project is the underlying data which is open for all to "
+"edit, view, or create custom rendered maps. Fundamentally OSM's focus is on "
+"the data, the rich maps simply fall out of this."
+msgstr ""
+"A projekt lényege a mögöttes adatokban van, melyek mindenki számára "
+"nyitottak, hogy szerkessze, megtekintse vagy egyedi kinézetű térkép "
+"létrehozására. Alapvetően az OSM az adatokra összpontosít, a gazdag térképek"
+" egyszerűen ebből származnak."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:25
+msgid ""
+"The OSGeoLive distribution includes a city sized extract of OSM data which "
+"is used for examples by some applications."
+msgstr ""
+"Az OSGeoLive disztribúció város méretű kivonatokat tartalmaz az OSM-ből, "
+"melyeket példaként használ néhány alkalmazás."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:34
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:36
+msgid "Vector features are tagged with names and other attributes."
+msgstr "Vektor elemek névvel és más attribútumokkal címkézettek."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:38
+msgid "Extract local subsets of the data."
+msgstr "Adatok helyi alcsoportjai."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:40
+msgid ""
+"Data is stored as latitude-longitude WGS84 nodes, strings of nodes, and "
+"meta-features allowing for point, polyline, area coverage and relations."
+msgstr ""
+"A pontokat és vonalláncokat WGS84 hosszúság-szélesség koordinátákkal tárolja"
+" és meta-jellemzők pontokhoz, törtvonalakhoz, területekhez és "
+"kapcsolatokhoz."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:42
+msgid "Rich attribute tagging, often far more detailed than any other source."
+msgstr ""
+"Gazdag attribútum címkézés, gyakran sokkal részletesebb mint bármilyen más "
+"forrás."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:44
+msgid "A global repository of local knowledge."
+msgstr "Globális tárház a helyi tudáshoz."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:48
+msgid "Data Sets included in OSGeo Live"
+msgstr "Az OSGeoLive adatokat tartalmaz belőle"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:50
+msgid ""
+"feature_city.osm.bz2: A large extract of the greater city area as a BZip2 "
+"compressed XML text file."
+msgstr ""
+"feature_city.osm.bz2: Egy nagy kivonat a nagyobb városi területre mint egy "
+"BZip2 tömörített XML szövegfájl."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:52
+msgid ""
+"feature_city_CBD.osm.bz2: A smaller subset covering just the Central "
+"Business District (CBD)."
+msgstr ""
+"feature_city_CBD.OSM.bz2: egy kisebb részhalmaz, mely csak a központi üzleti"
+" negyedet (CBD) fedi le."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:54
+msgid ""
+"feature_city_poi.db: Sqlite DB of \"positions of interest\" nodes extracted "
+"from the above larger city OSM extract. Contains locations of pubs, fuel "
+"stations, restaurants, supermarkets, etc."
+msgstr ""
+"feature_city_poi.db: \"Érdekes pontok\" SQLite adatbázisa, egy kivonat a "
+"fenti nagyobb város OSM kivonatból. Tartalmazza a kocsmák, benzinkutak, "
+"éttermek, szupermarketek, stb. helyét."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:56
+msgid ""
+"Files referencing the name of the featured city contain the same data as the"
+" above files. Quickstarts and overviews use the generic file names so that "
+"the example city can change with each new release."
+msgstr ""
+"A kiemelt város nevére hivatkozó fájlok a fenti fájlokkal azonos adatokat "
+"tartalmaznak.. A gyorstalpalók és az áttekintők generikus fájlneveket "
+"használnak, így a példa város minden újabb kiadásnál változhat."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:58
+msgid ""
+"The OSM feature city data has been imported into a PostGIS database called "
+"\"osm_local\" using the osm2pgsql tool. The spatial reference system used "
+"for this database is latitude-longitude with the WGS84 datum (EPSG code "
+"4326) and can be reprojected to other Spatial Reference Systems (SRS), such "
+"as Spherical-Mercator, on demand. The smaller CBD extract is loaded into "
+"another PostGIS database called \"pgrouting\"."
+msgstr ""
+"OSM város adatokat importálták az \"osm_local\" nevű adatbázisba, az "
+"osm2pgsql eszköz felhasználásával. Ebben az adatbázisban használt térbeli "
+"hivatkozási rendszer a szélesség-hosszúság, a WGS84 dátumon (EPSG kód 4326),"
+" és igény esetén átvetíthető más térbeli referencia rendszerekre (SRS), mint"
+" például a Spherical-Mercator. A kisebb CBD kivonatot egy másik PostGIS "
+"adatbázisba az úgynevezett \"pgrouting\"-ba töltötték be."
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:63
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:65
+msgid "**Website:** https://www.openstreetmap.org/"
+msgstr "**Honlap:** https://www.openstreetmap.org/"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:67
+msgid ""
+"**License:** `Open Data Commons Open Database License (ODbL) "
+"<http://opendatacommons.org/licenses/odbl/>`_"
+msgstr ""
+"**Licenc:** `Open Data Commons Open Database License (ODbL) "
+"<http://opendatacommons.org/licenses/odbl/>`_"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:69
+msgid "**Data Version:** Live database extract"
+msgstr "**Adat verzió:** Live database extract"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:71
+msgid "**Data format:** XML"
+msgstr "**Adatformátum:** XML"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:73
+msgid "**Spatial coordinate system:** Latitude-Longitude WGS84"
+msgstr "**Térbeli koordináta-rendszer:** hosszúság-szélesség WGS84"
+
+#: ../../build/doc/overview/osm_dataset_overview.rst:75
+msgid "**Support:** https://www.openstreetmap.org/help"
+msgstr "**Támogatás:** https://www.openstreetmap.org/help"

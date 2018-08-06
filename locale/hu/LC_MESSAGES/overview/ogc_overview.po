@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-25 09:24-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/ogc_overview.rst:12
+msgid "OGC"
+msgstr "OGC"
+
+#: ../../build/doc/overview/ogc_overview.rst:14
+msgid ""
+"The Open Geospatial Consortium (OGC) was founded in 1994 to make geographic "
+"information an integral part of the world’s information infrastructure. OGC "
+"members – technology providers and technology users – collaboratively "
+"develop open interface standards and associated encoding standards, and also"
+" best practices, that enable developers to create information systems that "
+"can easily exchange “geospatial” information and instructions with other "
+"information systems. Requirements range from complex scheduling and control "
+"of Earth observation satellites to displaying simple map images on the Web "
+"and encoding location in just a few bytes for geo-tagging and messaging. A "
+"look at the `OGC Domain Working Groups "
+"<http://www.opengeospatial.org/projects/groups/wg>`_ shows the wide scope of"
+" current activity in the OGC."
+msgstr ""
+"Az Open Geospatial Consortium (OGC) 1994-ben alapították, hogy a földrajzi "
+"információkat a világ információs infrastruktúrájának szerves részévé "
+"tegyék. Az OGC tagjai - technológia szolgáltatók és technológia felhasználók"
+" - együttműködően kifejlesztenek nyílt hozzáférésű szabványokat és a "
+"kapcsolódó kódolási szabványokat, valamint a legjobb gyakorlatokat, amelyek "
+"lehetővé teszik a fejlesztők számára, hogy olyan információs rendszereket "
+"hozzanak létre, amelyek könnyen kicserélhetik a térinformatikai adataikat és"
+" utasításaikat más információs rendszerekkel. A követelmények a Föld "
+"megfigyelő műholdak összetett ütemezésétől és vezérlésétől az egyszerű "
+"térképképek webes megjelenítéséig és a földrajzi címkézéshez és "
+"üzenetküldéshez a pozíció néhány bájtba kódolásáig terjed. Egy pillantás az"
+"  `OGC Domain Working Groups "
+"<http://www.opengeospatial.org/projects/groups/wg>`_  megmutatja az OGC "
+"aktuális tevékenységeinek széles körét."
+
+#: ../../build/doc/overview/ogc_overview.rst:26
+msgid ""
+"The OGC Standards Baseline consists of the `OGC standards "
+"<http://www.opengeospatial.org/standards>`_ for interfaces, encodings, "
+"profiles, application schemas, and best practice documents. The `OGC "
+"Reference Model (ORM) <http://www.opengeospatial.org/standards/orm>`_ "
+"describes these standards and the relationships between them and related ISO"
+" standards. The ORM provides an overview of OGC standards and serves as a "
+"useful resource for defining architectures for specific applications."
+msgstr ""
+"Az OGC szabványok alapja az \"OGC szabványokból "
+"<http://www.opengeospatial.org/standards> _ interfészekhez, kódolásokhoz, "
+"profilokhoz, alkalmazási sémákból és a legjobb gyakorlat dokumentumokból "
+"áll. Az \"OGC referencia modell (ORM) "
+"<http://www.opengeospatial.org/standards/orm>\" leírja ezeket a "
+"szabványokat, valamint a köztük lévő kapcsolatokat és a kapcsolódó ISO "
+"szabványokat. Az ORM áttekintést ad az OGC-szabványokról, és hasznos "
+"forrásként szolgál az egyes alkalmazások architektúrájának meghatározásához."
+
+#: ../../build/doc/overview/ogc_overview.rst:34
+msgid ""
+"In developing a Web services application using OGC standards (and in "
+"learning about the relationships between OGC standards) it helps to think of"
+" publish, find and bind as the key functions for applications in a Web "
+"services environment."
+msgstr ""
+"Egy webes szolgáltatás fejlesztésében az OGC szabványok felhasználása (és az"
+" OGC-szabványok közötti kapcsolatok megismerése) segít a közzététel, a "
+"keresés és a kötés, mint a webszolgáltatási környezetben lévő alkalmazások "
+"legfontosabb funkcióinak az átgondolásában."
+
+#: ../../build/doc/overview/ogc_overview.rst:39
+msgid "Publish: Resource providers advertise their resources."
+msgstr "Közzététel: Az erőforrás-szolgáltatók hirdetik az erőforrásaikat."
+
+#: ../../build/doc/overview/ogc_overview.rst:40
+msgid ""
+"Find: End users and their applications can discover resources that they need"
+" at run-time."
+msgstr ""
+"Keresés: A végfelhasználók és az alkalmazásaik a futtatás ideje alatt "
+"rátalálhatnak a szükséges erőforrásokra."
+
+#: ../../build/doc/overview/ogc_overview.rst:41
+msgid ""
+"Bind: End users and their applications can access and exercise resources at "
+"run-time."
+msgstr ""
+"Kötés: A végfelhasználók és alkalmazásaik a futtatás ideje alatt "
+"hozzáférhetnek és kipróbálhatják az erőforrásokat."
+
+#: ../../build/doc/overview/ogc_overview.rst:43
+msgid ""
+"Most of the OGC standards developed in recent years are standards for the "
+"Web services environment, and these standards are collectively referred to "
+"as OGC Web Services (OWS). A `comprehensive list of standards "
+"<http://www.opengeospatial.org/standards/>`_ is available."
+msgstr ""
+"Az elmúlt években kifejlesztett OGC szabványok többsége web szolgáltatási "
+"környezet szabványok, és ezeket a szabványokat közösen OGC Web Services "
+"(OWS) -nek nevezik. A szabványok `átfogó listája  "
+"<http://www.opengeospatial.org/standards/>`_ elérhető."
+
+#: ../../build/doc/overview/ogc_overview.rst:49
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/ogc_overview.rst:51
+msgid "**Website:** http://www.opengeospatial.org"
+msgstr "**Honlap:** http://www.opengeospatial.org"

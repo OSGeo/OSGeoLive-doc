@@ -146,9 +146,9 @@ msgid ""
 "the example city can change with each new release."
 msgstr ""
 "Los archivos que hacen referencia al nombre de la ciudad mostrada contienen "
-"los mismos datos que los archivos anteriores. Los inicios rápidos y las "
-"vistas generales utilizan los nombres genéricos de los archivos, para que la"
-" ciudad ejemplo pueda cambiar con cada nueva versión."
+"los mismos datos que los archivos anteriores. Las Guías de Inicio Rápidos y "
+"las Vistas Generales utilizan los nombres genéricos de los archivos, para "
+"que la ciudad ejemplo pueda cambiar con cada nueva versión."
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:58
 msgid ""

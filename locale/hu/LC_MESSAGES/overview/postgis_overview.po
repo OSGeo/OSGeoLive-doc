@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2017\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/postgis_overview.rst:37
+msgid "PostGIS"
+msgstr "PostGIS"
+
+#: ../../build/doc/overview/postgis_overview.rst:43
+msgid "Spatial Database"
+msgstr "Téradatbázis"
+
+#: ../../build/doc/overview/postgis_overview.rst:58
+msgid ""
+"PostGIS spatially enables the popular PostgreSQL object-relational database,"
+" allowing it to be used as a back-end database for geographic information "
+"systems (GIS) and web-mapping applications."
+msgstr ""
+"A PostGIS térinformatikai képességekkel bővíti a népszerű PostgreSQL "
+"objektum-relációs adatbázist, ezzel lehetővé téve, hogy a térinformatikai "
+"rendszerek (GIS) és web-térkép alkalmazások háttér adatbázisa legyen."
+
+#: ../../build/doc/overview/postgis_overview.rst:60
+msgid ""
+"PostGIS is stable, fast, standards compliant, with hundreds of spatial "
+"functions and is currently the most widely used Open Source spatial "
+"database. PostGIS is used by diverse organisations from around the world, "
+"including risk-averse government agencies and organisations storing "
+"terabytes of data serving millions of web requests per day."
+msgstr ""
+"A PostGIS egy stabil, gyors, szabvány követő szoftver, a térinformatikai "
+"függvények százaival, mely jelenleg a legszélesebb körben használt nyílt "
+"forráskódú téradatbázis. Az intézmények széles köre használja világszerte, a"
+" kockázat-kerülő kormányzati intézmények és terabyte-os adatokból milliónyi "
+"internetes lekérdezést kiszolgáló cégek is."
+
+#: ../../build/doc/overview/postgis_overview.rst:62
+msgid ""
+"Database administration is available for desktop and the web via pgAdmin, "
+"phpPgAdmin, and others. Data import/export can be done by command line tools"
+" (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) or from desktop and web GIS "
+"clients. These clients can also map and manipulate PostGIS spatial data "
+"tables."
+msgstr ""
+"Az adatbázis adminisztráció elérhető közvetlenül a gépről vagy webes "
+"kapcsolaton keresztül, pgAdmin, phpPgAdmin vagy más programmal. Adatok "
+"importálása és exportálása parancssori eszközökkel (shp2pgsql, pgsql2shp, "
+"ogr2ogr, dxf2postgis) vagy asztali és webes GIS kliensekkel valósítható meg."
+" Ezek a kliensek képesek megjeleníteni és kezelni a PostGIS téradatokat "
+"tartalmazó táblákat."
+
+#: ../../build/doc/overview/postgis_overview.rst:81
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/postgis_overview.rst:83
+msgid "Hundreds of spatial functions"
+msgstr "Térinformatikai függvények százai"
+
+#: ../../build/doc/overview/postgis_overview.rst:85
+msgid "Buffers, unions, overlays, distance and more"
+msgstr "Övezet, unió, átfedésvizsgálat, távolság és még továbbiak"
+
+#: ../../build/doc/overview/postgis_overview.rst:87
+msgid "ACID transactional integrity"
+msgstr "ACID tranzakció integritás"
+
+#: ../../build/doc/overview/postgis_overview.rst:88
+msgid "R-Tree spatial index"
+msgstr "R-Tree térbeli index"
+
+#: ../../build/doc/overview/postgis_overview.rst:89
+msgid "Multi-user support"
+msgstr "Többfelhasználós környezet"
+
+#: ../../build/doc/overview/postgis_overview.rst:90
+msgid "Row-level locking"
+msgstr "Sor szintű zárolások"
+
+#: ../../build/doc/overview/postgis_overview.rst:91
+msgid "Replication"
+msgstr "Replikáció"
+
+#: ../../build/doc/overview/postgis_overview.rst:92
+msgid "Partitioning"
+msgstr "Particionálás"
+
+#: ../../build/doc/overview/postgis_overview.rst:93
+msgid "Role-based security"
+msgstr "Szerepalapú biztonság"
+
+#: ../../build/doc/overview/postgis_overview.rst:94
+msgid "Table-spaces, schemas"
+msgstr "Táblaterek, sémák"
+
+#: ../../build/doc/overview/postgis_overview.rst:97
+msgid "Implemented Standards"
+msgstr "Implementált szabványok"
+
+#: ../../build/doc/overview/postgis_overview.rst:101
+msgid "OGC standards compliant (SFSQL)"
+msgstr "OGC szabvány kompatibilitás (SFSQL)"
+
+#: ../../build/doc/overview/postgis_overview.rst:104
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/postgis_overview.rst:106
+msgid "**Website:** http://postgis.net"
+msgstr "**Honlap:** http://postgis.net"
+
+#: ../../build/doc/overview/postgis_overview.rst:108
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**Licenc:** GNU General Public License (GPL) verzió 2"
+
+#: ../../build/doc/overview/postgis_overview.rst:110
+msgid "**Software Version:** |version-postgis|"
+msgstr "**Szoftver verzió:** |version-postgis|"
+
+#: ../../build/doc/overview/postgis_overview.rst:112
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Támogatott platformok:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/postgis_overview.rst:114
+msgid "**API Interfaces:** SQL"
+msgstr "**APIiInterfészek:** SQL"
+
+#: ../../build/doc/overview/postgis_overview.rst:120
+msgid "**Support:** http://www.osgeo.org/search_profile"
+msgstr "**Támogatás:** http://www.osgeo.org/search_profile"
+
+#: ../../build/doc/overview/postgis_overview.rst:125
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/postgis_overview.rst:127
+msgid ":doc:`Quickstart documentation <../quickstart/postgis_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/postgis_quickstart>`"

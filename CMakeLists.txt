@@ -152,7 +152,7 @@ message(STATUS "OSGeoLiveDoc_DOC_TARGETS = ${OSGeoLiveDoc_DOC_TARGETS}")
 # TODO: figure out how to support this
 #  "el"   "hu"  "id"  "zh")
 #---------------------------------------------
-set(OSGeoLiveDoc_SUPPORTED_LANGUAGES "ca"  "de"  "es"  "fr"  "it"  "ja"  "ko"  "pl"  "ru")
+set(OSGeoLiveDoc_SUPPORTED_LANGUAGES "ca"  "de"  "es"  "fr"  "it"  "ja"  "ko"  "pl"  "ru" "hu")
 set(OSGeoLiveDoc_ENGLISH "en")
 
 #---------------------------------------------
@@ -205,7 +205,7 @@ INSERT_INTO_MAP("el" "Ελληνικά")
 INSERT_INTO_MAP("en" "English")
 INSERT_INTO_MAP("es" "Español")
 INSERT_INTO_MAP("fr" "Français")
-INSERT_INTO_MAP("hu" "missing")
+INSERT_INTO_MAP("hu" "Hungarian")
 INSERT_INTO_MAP("id" "Bahasa Indonesia")
 INSERT_INTO_MAP("it" "Italiano")
 INSERT_INTO_MAP("ja" "日本語")

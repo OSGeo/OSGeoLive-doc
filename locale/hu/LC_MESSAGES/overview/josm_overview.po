@@ -1,0 +1,196 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/josm_overview.rst:15
+msgid "JOSM"
+msgstr "JOSM"
+
+#: ../../build/doc/overview/josm_overview.rst:18
+msgid "Desktop Editor for OpenStreetMap data"
+msgstr "Asztali szerkesztő OpenStreetMap adatokhoz"
+
+#: ../../build/doc/overview/josm_overview.rst:20
+msgid ""
+"JOSM is a feature rich, extensible, offline desktop editor for OpenStreetMap"
+" (OSM) data, written in Java."
+msgstr ""
+"JOSM egy funkció gazdag, bővíthető, offline asztali szerkesztő OpenStreetMap"
+" (OSM) adatokhoz,  melyet Javaban írtak"
+
+#: ../../build/doc/overview/josm_overview.rst:22
+msgid ""
+"It supports loading stand-alone GPX tracks and GPX track data as well as "
+"editing existing nodes (points), ways (lines), metadata tags (name/value "
+"information) and relations (ordered sequence of points and lines) from the "
+"OSM database. GPX tracks, are usually downloaded in advance from a GPS "
+"receiver or from other sources."
+msgstr ""
+"Támogatja az önálló GPX nyomvonalak és adataik betöltését az OSM "
+"adatbázisból, mint ahogy a töréspontokat (pontok), utakat (vonalak) meta "
+"adatokat (név/érték információk) és kapcsolatokat (pontok és vonalak "
+"rendezett sorozata). A GPX nyomvonalakat általában előzőleg letöltik a GPS "
+"vevőről vagy más forrásról."
+
+#: ../../build/doc/overview/josm_overview.rst:25
+msgid ""
+"A number of specialised plugins have been written for JOSM, which are "
+"available for download and install."
+msgstr ""
+"Számos speciális modult készítettek a JOSM-hoz, melyek letölthetők és "
+"telepíthetők."
+
+#: ../../build/doc/overview/josm_overview.rst:34
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/josm_overview.rst:36
+msgid "Common GIS Desktop Interface tools:"
+msgstr "Általános asztali GIS interfész eszközök:"
+
+#: ../../build/doc/overview/josm_overview.rst:38
+msgid ""
+"Tool bar customization, View control (zoom, pan. etc), styles, icons and "
+"layers management."
+msgstr ""
+"Eszközsor testreszabás, nézet vezérlés (nagyítás, eltolás, stb.), stílus, "
+"ikon és réteg kezelés."
+
+#: ../../build/doc/overview/josm_overview.rst:40
+msgid "Download and upload OSM vector data."
+msgstr "OSM vektor adatok letöltése és feltöltése."
+
+#: ../../build/doc/overview/josm_overview.rst:42
+msgid "Open local data:"
+msgstr "Helyi adatok megnyitása:"
+
+#: ../../build/doc/overview/josm_overview.rst:44
+msgid "NMEA-0183 files: .nmea, .nme, .nma, .log, .txt"
+msgstr "NMEA-0183 fájlok: .nmea, .nme, .nma, .log, .txt"
+
+#: ../../build/doc/overview/josm_overview.rst:45
+msgid "OSM files: .osm, .xlm, .osmbz2, .osmbz"
+msgstr "OSM fájlok: .osm, .xlm, .osmbz2, .osmbz"
+
+#: ../../build/doc/overview/josm_overview.rst:46
+msgid "OSM change file: .osc, .osc.bz2, .osc.bz, .osc.gz"
+msgstr "OSM adatcsere fájl: .osc, .osc.bz2, .osc.bz, .osc.gz"
+
+#: ../../build/doc/overview/josm_overview.rst:47
+msgid "images (.jpg)"
+msgstr "Képek (.jpg)"
+
+#: ../../build/doc/overview/josm_overview.rst:49
+msgid "Imagery:"
+msgstr "Lépanyagok:"
+
+#: ../../build/doc/overview/josm_overview.rst:51
+msgid ""
+"Visualize basemaps from OSM, Bingsat, Lansat, MapBox satellite, MapQuest "
+"Open Aerial or any other WMS sources."
+msgstr ""
+"Alaptérkép megjelenítés OSM, Bingsat, Lansat, MapBox műhold, MapQuest Open "
+"Arial vagy bármilyen más WMS forrásból."
+
+#: ../../build/doc/overview/josm_overview.rst:53
+msgid "Editing Tools:"
+msgstr "Szerkesztő eszközök:"
+
+#: ../../build/doc/overview/josm_overview.rst:55
+msgid ""
+"Nodes: merge, join, unglue, distribute, align in circle, align in line, join"
+" node to way, and more."
+msgstr ""
+"Töréspontok: egyesítés, összekapcsolás, szétválasztás, elosztás,  igazítás "
+"kör mentén, igazítás vonal mentén, pont kapcsolása úthoz és továbbiak."
+
+#: ../../build/doc/overview/josm_overview.rst:56
+msgid "Ways: split, combine, reverse, simplify, unglue ways, and more."
+msgstr ""
+"Utak: kettévágás, egyesítés, megfordítás, egyszerűsítés, szétválasztás és "
+"továbbiak."
+
+#: ../../build/doc/overview/josm_overview.rst:57
+msgid "Areas: join overlapping areas, create multi-polygon, and more."
+msgstr ""
+"Területek: átfedő területek összekapcsolása, multi területek létrehozása és "
+"továbbiak."
+
+#: ../../build/doc/overview/josm_overview.rst:59
+msgid "Audio mapping: survey recording management."
+msgstr "Hangfelvétel: felmérési felvételek kezelése."
+
+#: ../../build/doc/overview/josm_overview.rst:61
+msgid "Photo mapping: survey pictures management."
+msgstr "Fényképfelvétel: felmérési képek kezelése."
+
+#: ../../build/doc/overview/josm_overview.rst:63
+msgid "Plugins: A list of specialized plugins are available for download."
+msgstr "Bővítő modulok: a speciális bővítő modulok listája letölthető."
+
+#: ../../build/doc/overview/josm_overview.rst:67
+msgid "Implemented Standards"
+msgstr "Implementált szabványok"
+
+#: ../../build/doc/overview/josm_overview.rst:69
+msgid ""
+"JOSM views WMS layers, but uses the `OSM API "
+"<http://wiki.openstreetmap.org/wiki/API_v0.6>`_ to communicate with OSM "
+"database."
+msgstr ""
+"JOSM látja a WMS rétegeket, de az `OSM API-t "
+"<http://wiki.openstreetmap.org/wiki/API_v0.6>`_ használja az OSM adatbázis "
+"kommunikációra."
+
+#: ../../build/doc/overview/josm_overview.rst:73
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/josm_overview.rst:75
+msgid "**Website:** https://josm.openstreetmap.de/"
+msgstr "**Honlap:** https://josm.openstreetmap.de/"
+
+#: ../../build/doc/overview/josm_overview.rst:77
+msgid ""
+"**Licence:** GNU General Public License (GPL) version 2. Note: JOSM plugins "
+"may use other licences."
+msgstr ""
+"**Licenc:** GNU General Public License (GPL) version 2. Megjegyzés: a JOSM "
+"modulok más licenceket használhatnak."
+
+#: ../../build/doc/overview/josm_overview.rst:79
+msgid "**Software Version:** r11427"
+msgstr "**Szoftver verzió:** r11427"
+
+#: ../../build/doc/overview/josm_overview.rst:81
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Támogatott platformok:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/josm_overview.rst:83
+msgid "**API Interfaces:** Java"
+msgstr "**API Interfészek:** Java"
+
+#: ../../build/doc/overview/josm_overview.rst:88
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/josm_overview.rst:90
+msgid ":doc:`Quickstart documentation <../quickstart/josm_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/josm_quickstart>`"

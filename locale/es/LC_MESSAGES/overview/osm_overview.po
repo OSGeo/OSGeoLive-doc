@@ -142,8 +142,8 @@ msgstr "**Soporte:** https://www.openstreetmap.org/help"
 
 #: ../../build/doc/overview/osm_overview.rst:89
 msgid "Quickstart"
-msgstr "Inicio Rápido"
+msgstr "Guía de Inicio Rápido"
 
 #: ../../build/doc/overview/osm_overview.rst:91
 msgid ":doc:`Quickstart documentation <../quickstart/osm_quickstart>`"
-msgstr ":doc:`Documentación de inicio rápido <../quickstart/osm_quickstart>`"
+msgstr ":doc:`Documentación de Inicio Rápido <../quickstart/osm_quickstart>`"

@@ -1,0 +1,196 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/otb_overview.rst:17
+msgid "OTB"
+msgstr "OTB"
+
+#: ../../build/doc/overview/otb_overview.rst:20
+msgid "Image Processing"
+msgstr "Képfeldolgozás"
+
+#: ../../build/doc/overview/otb_overview.rst:22
+msgid ""
+"ORFEO Toolbox Library (OTB) is a high performance image processing library. "
+"It is primarily used for processing large remote sensing images such as "
+"those gathered by radars, satellites and aerial photography. OTB provides "
+"tools for optic and radar images (tridimensional aspects, segmentation, "
+"classification, changes detection, texture analysis, pattern matching, and "
+"optic/radar complementarities), many of which can be run on limited-"
+"resourced laptops."
+msgstr ""
+"Az ORFEO Toolbox Library (OTB) egy nagy teljesítményű képfeldolgozó "
+"könyvtár. Elsősorban nagyméretű távérzékelésben alkalmazott képek "
+"feldolgozására használják, melyeket például  radarokkal, műholdakkal és légi"
+" fényképezéssel gyűjtenek. Az OTB eszközei optikai és radarképekhez "
+"nyújtanak eszközöket (háromdimenziós vonatkozások, szegmentálás, "
+"osztályozás, változások észlelése, textúraelemzés, mintázat illesztés és "
+"optikai / radar kiegészítők) , amelyek közül sok korlátozott erőforrásokkal "
+"rendelkező laptopokon is futtatható."
+
+#: ../../build/doc/overview/otb_overview.rst:29
+msgid ""
+"OTB is also shipped with a set of extensible ready-to-use tools for "
+"classical remote sensing tasks and a fully integrated application called "
+"Monteverdi, which is a fast viewer that allows users to vizualise multiple "
+"layers, and call OTB processing tools from a menu entry."
+msgstr ""
+"Az OTB-t együtt szállítják a klasszikus távérzékelési feladatokra azonnal "
+"felhasználható kibővíthető eszközökkel  valamint egy teljesen integrált "
+"Monteverdi nevű alkalmazással, amely  egy gyors megjelenítő, amely lehetővé "
+"teszi a felhasználók számára több réteg megjelenítését és az OTB-feldolgozó "
+"eszközök használatát a menüből ."
+
+#: ../../build/doc/overview/otb_overview.rst:34
+msgid ""
+"OTB has been funded the French Space Agency (CNES) in the frame of the "
+"Methodological Part of the ORFEO/Pleiades Accompaniement Program and has "
+"been actively developed since 2006. It is based on the ITK image processing "
+"library and is distributed as open source."
+msgstr ""
+"Az OTB-t a francia Űrügynökség (CNES) indította el az ORFEO/Pleiades Kísérő "
+"Program Módszertani része keretében, és 2006 óta aktívan fejleszti. Az ITK "
+"képfeldolgozó könyvtáron alapul és nyílt forráskódú."
+
+#: ../../build/doc/overview/otb_overview.rst:46
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/otb_overview.rst:49
+msgid ""
+"image access: optimized read/write access for most remote sensing raster "
+"formats (also JPEG2000 formats), meta-data access and visualization;"
+msgstr ""
+"kép hozzáférés: optimalizált olvasás/írás hozzáférés a távérzékelésben "
+"használt raszter formátumok többségéhez (JPEG2000 formátum is), metaadat "
+"hozzáférés és megjelenítés;"
+
+#: ../../build/doc/overview/otb_overview.rst:51
+msgid ""
+"orthorectification using DEM, map reprojection and sensor model refinement"
+msgstr ""
+"ortofotó készítés DEM felhasználásával, vetületi átszámítás és szenzor "
+"modell finomítás"
+
+#: ../../build/doc/overview/otb_overview.rst:52
+msgid "optical and SAR calibration"
+msgstr "optikai és SAR kalibráció"
+
+#: ../../build/doc/overview/otb_overview.rst:53
+msgid "image fusion"
+msgstr "képfúzió"
+
+#: ../../build/doc/overview/otb_overview.rst:54
+msgid "filtering: blurring, denoising, enhancement..."
+msgstr "szűrés: elmosódás, zaj, kiemelés..."
+
+#: ../../build/doc/overview/otb_overview.rst:55
+msgid "feature extraction: interest points, alignments, lines..."
+msgstr "elemek kiemelése: érdekes pontok, nyomvonalak, vonalak..."
+
+#: ../../build/doc/overview/otb_overview.rst:56
+msgid "object detection"
+msgstr "objektum felismerés"
+
+#: ../../build/doc/overview/otb_overview.rst:57
+msgid ""
+"large scale image segmentation: region growing, mean-shift, watershed, level"
+" sets..."
+msgstr ""
+"nagyméretű kép szegmentálás: régió növelés, mean-shift szűrés, vízgyűjtő, "
+"level set..."
+
+#: ../../build/doc/overview/otb_overview.rst:58
+msgid "sample selection framework for training"
+msgstr "minta kiválasztó keretrendszer a tanításhoz"
+
+#: ../../build/doc/overview/otb_overview.rst:59
+msgid ""
+"classification: both supervised and unsupervised algorithms coming from "
+"OpenCV , Shark, libSVM or custom implementations (K-means, Markov random "
+"fields, SVM, Random Forest, ...)"
+msgstr ""
+"osztályozás: mindkettő felügyelt és felügyelet nélküli algoritmusok az "
+"OpenCV, Shark, libSVM könyvtárakból vagy egyéni implementáciiók (K-means, "
+"Markov random fields, Random forest, ....)"
+
+#: ../../build/doc/overview/otb_overview.rst:62
+msgid ""
+"regression using machine learning methods from OpenCV (SVM, Random Forest, "
+"...)"
+msgstr ""
+"regresszió az OpenCV gépi tanulási módszereivel (SVM, Random Forest, ...)"
+
+#: ../../build/doc/overview/otb_overview.rst:63
+msgid "object-based image analysis"
+msgstr "objektum alapú kép elemzés"
+
+#: ../../build/doc/overview/otb_overview.rst:64
+msgid "geospatial analysis"
+msgstr "térinformatikai elemzések"
+
+#: ../../build/doc/overview/otb_overview.rst:65
+msgid "stereoscopic reconstruction from optical images"
+msgstr "sztereoszkópikus rekonstrukció optikai képektől"
+
+#: ../../build/doc/overview/otb_overview.rst:66
+msgid "SAR data analysis : calibration, polarimetry analysis"
+msgstr "SAR adatelemzés: kalibrálás, polarimetry elemzés"
+
+#: ../../build/doc/overview/otb_overview.rst:67
+msgid "change detection."
+msgstr "változás észlelés"
+
+#: ../../build/doc/overview/otb_overview.rst:70
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/otb_overview.rst:72
+msgid "**Website:** http://www.orfeo-toolbox.org/"
+msgstr "**Honlap:** http://www.orfeo-toolbox.org/"
+
+#: ../../build/doc/overview/otb_overview.rst:74
+msgid "**Licence:** Apache v2.0"
+msgstr "**Licenc:** Apache v2.0"
+
+#: ../../build/doc/overview/otb_overview.rst:76
+msgid "**Software Version:** |version-otb|"
+msgstr "**Szoftver verzió:** |version-otb|"
+
+#: ../../build/doc/overview/otb_overview.rst:78
+msgid "**Supported Platforms:** Linux, Mac, Windows"
+msgstr "**Támogatott platformok:** Linux, Mac, Windows"
+
+#: ../../build/doc/overview/otb_overview.rst:80
+msgid "**API Interfaces:** C++"
+msgstr "**API interfészek:** C++"
+
+#: ../../build/doc/overview/otb_overview.rst:82
+msgid "**Commercial Support:** http://www.osgeo.org/search_profile"
+msgstr "**Kereskedelmi támogatás:** http://www.osgeo.org/search_profile"
+
+#: ../../build/doc/overview/otb_overview.rst:87
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/otb_overview.rst:89
+msgid ":doc:`Quickstart documentation <../quickstart/otb_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/otb_quickstart>`"

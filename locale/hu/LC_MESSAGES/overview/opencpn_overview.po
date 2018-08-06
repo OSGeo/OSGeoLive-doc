@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/opencpn_overview.rst:16
+msgid "OpenCPN"
+msgstr "OpenCPN"
+
+#: ../../build/doc/overview/opencpn_overview.rst:19
+msgid "Marine GPS navigation software"
+msgstr "Tengeri GPS navigációs program"
+
+#: ../../build/doc/overview/opencpn_overview.rst:20
+msgid ""
+"OpenCPN provides free navigation software for use at the helm of vessels of "
+"all types and sizes, as well as offline for route planning. It has been "
+"developed by a team of active sailors using real world conditions for "
+"program testing and refinement."
+msgstr ""
+"OpenCPN egy ingyenes navigációs szoftver biztosít, mely minden típusú és "
+"méretű hajók kormányánál és offline útvonal tervezésnél is használható. "
+"Aktív tengerész csoport fejlesztette, valós feltételek mellett használták a "
+"program teszteléséhez és finomításokhoz."
+
+#: ../../build/doc/overview/opencpn_overview.rst:22
+msgid ""
+"OpenCPN presents a user with the vessel's current position, speed and course"
+" superimposed upon accurate navigational chart images, tide and current "
+"predictions. Information received by standard radio links describing the "
+"position and intent of other vessels can also be shown."
+msgstr ""
+"OpenCPN mutatja a hajó jelenlegi helyzetét, a sebességét és az útvonalát "
+"pontos navigációs térképeken, a dagállyal és az aktuális előrejelzésekkel "
+"együtt. Standard rádió kapcsolatokból kapott információk alapján más hajók "
+"pozíciója és iránya is látható."
+
+#: ../../build/doc/overview/opencpn_overview.rst:24
+msgid ""
+"As the host vessel moves, new charts are selected and displayed at user "
+"specified resolution and detail. Further, the user may enter routes and "
+"waypoints allowing interface to an external autopilot for precise course "
+"following."
+msgstr ""
+"Ahogy a hajó halad újabb térképeket választ és jelenít meg a szoftver, a "
+"felhasználó által meghatározott felbontásban és részletességgel. A "
+"felhasználó továbbá útvonalakat és útpontokat vihet be, amely lehetővé "
+"teszi, hogy egy külső robotpilótával kommunikáljon a pontos "
+"útvonalkövetéshez."
+
+#: ../../build/doc/overview/opencpn_overview.rst:34
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/opencpn_overview.rst:36
+msgid "OpenCPN supports:"
+msgstr "Az OpenCPN támogatja:"
+
+#: ../../build/doc/overview/opencpn_overview.rst:38
+msgid "BSB raster, C-MAP (CM93/2) and S-57 ENC vector charts"
+msgstr "BSB raszter, C-MAP (CM93/2) és S-57 ENC vektor grafikonok"
+
+#: ../../build/doc/overview/opencpn_overview.rst:39
+msgid "AIS input decoding"
+msgstr "AIS input dekódolás"
+
+#: ../../build/doc/overview/opencpn_overview.rst:40
+msgid "NMEA GPS or `Gpsd <http://gpsd.berlios.de>`_ daemon input"
+msgstr "NMEA GPS vagy `Gpsd <http://gpsd.berlios.de>`_ daemon input"
+
+#: ../../build/doc/overview/opencpn_overview.rst:41
+msgid "Waypoint / autopilot navigation"
+msgstr "Útpont / robotpilóta navigáció"
+
+#: ../../build/doc/overview/opencpn_overview.rst:42
+msgid "Unlimited route/mark creation"
+msgstr "Korlátlan útvonal/jelölt pont létrehozás"
+
+#: ../../build/doc/overview/opencpn_overview.rst:43
+msgid "Quilted charts"
+msgstr "Összetett grafikonok"
+
+#: ../../build/doc/overview/opencpn_overview.rst:44
+msgid "International language support"
+msgstr "Nemzetközi nyelv támogatás"
+
+#: ../../build/doc/overview/opencpn_overview.rst:45
+msgid "Cross-platform support"
+msgstr "Platform függetlenség"
+
+#: ../../build/doc/overview/opencpn_overview.rst:46
+msgid "GRIB weather data overlay"
+msgstr "GRIB időjárás adatok"
+
+#: ../../build/doc/overview/opencpn_overview.rst:49
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/opencpn_overview.rst:51
+msgid "**Website:** http://www.opencpn.org"
+msgstr "**Honlap:** http://www.opencpn.org"
+
+#: ../../build/doc/overview/opencpn_overview.rst:53
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**Licenc:** GNU General Public License (GPL) version 2"
+
+#: ../../build/doc/overview/opencpn_overview.rst:55
+msgid "**Software Version:** |version-opencpn|"
+msgstr "**Program verzió:** |version-opencpn|"
+
+#: ../../build/doc/overview/opencpn_overview.rst:57
+msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
+msgstr "**Támogatott platformok:** GNU/Linux, Mac OSX, MS Windows"
+
+#: ../../build/doc/overview/opencpn_overview.rst:59
+msgid "**Support:** http://www.cruisersforum.com/forums/f134"
+msgstr "**Támogatás:** http://www.cruisersforum.com/forums/f134"
+
+#: ../../build/doc/overview/opencpn_overview.rst:64
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/opencpn_overview.rst:66
+msgid ":doc:`Quickstart documentation <../quickstart/opencpn_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/opencpn_quickstart>`"

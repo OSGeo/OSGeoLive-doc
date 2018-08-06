@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-12 12:47-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2017\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/contact.rst:2
+msgid "Contact Us"
+msgstr "Vegye fel a kapcsolatot velünk"
+
+#: ../../build/doc/contact.rst:4
+msgid ""
+"OSGeoLive development is coordinated via email and internet chat (IRC) as "
+"detailed on the `OSGeo Wiki "
+"<http://wiki.osgeo.org/wiki/OSGeoLive#Contact_Us>`_."
+msgstr ""
+"Az OSGeoLive fejlesztést emailen és internetes csevegőn (IRC) keresztül "
+"koordináljuk, amint azt az `OSGeo Wiki "
+"<http://wiki.osgeo.org/wiki/OSGeoLive#Contact_Us>`_ oldalon részletezzük."
+
+#: ../../build/doc/contact.rst:9
+msgid "Disclaimer"
+msgstr "Felelősség kizárása"
+
+#: ../../build/doc/contact.rst:11
+msgid ""
+"This Live GIS disc and virtual-machine has been put together by members of "
+"the OSGeo community to showcase their favourite Free and Open Source (FOSS) "
+"geospatial software. We've included a number of non-OSGeo software packages,"
+" from both the spatial and non-spatial realms, which we hope you will find "
+"to be as useful as we do. The OSGeo Foundation does not recommend or "
+"guarantee any associated software, projects, or companies found within."
+msgstr ""
+"Ezt a Live GIS-lemezt és virtuális gépet az OSGeo közösség tagjai hozták "
+"létre, hogy bemutassák kedvenc szabad és nyílt forráskódú (FOSS) "
+"térinformatikai szoftvereiket. Számos nem-OSGeo szoftvercsomagot, GIS-t  "
+"tartalmaz a térbeli és nem térbelimegoldások közül, melyeket reményeink "
+"szerint hozzánk hasonlóan hasznosnak talál. Az OSGeo Alapítvány nem ajánlja,"
+" nem vállal garanciát semelyik tartalmazott szoftverért, projektért vagy "
+"cégért."
+
+#: ../../build/doc/contact.rst:16
+msgid ""
+"`These programs are distributed in the hope that they will be useful, but "
+"WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
+"or FITNESS FOR A PARTICULAR PURPOSE.`"
+msgstr ""
+"`Ezeket a programokat annak a reményében osztjuk meg, hogy hasznosak lesznek"
+" önöknek, de MINDEN GARANCIA NÉLKÜL; anélkül, hogy a FORGALOMKÉPESSÉGRE vagy"
+" ADOTT CÉLRA VALÓ ALKALMASSÁGRA VONATKOZÓ  garanciát vállalnánk.`"
+
+#: ../../build/doc/contact.rst:20
+msgid ""
+"For additional information on the distribution of each program review their "
+"license as indicated on the page for each program."
+msgstr ""
+"Az egyes programok terjesztésével kapcsolatos további információkért "
+"tekintse meg az egyes programok oldalán feltüntetett licenceket."
+
+#: ../../build/doc/contact.rst:24
+msgid "Community Support"
+msgstr "Közösségi támogatás"
+
+#: ../../build/doc/contact.rst:26
+msgid ""
+"If you have any questions, comments, or run into any problems, please drop "
+"us a note on `our mailing list "
+"<http://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
+msgstr ""
+"Ha bármilyen kérdése, észrevétele van, vagy bármilyen problémába ütközne, "
+"küldjön nekünk egy üzenetet a `levelezőlistánkon "
+"<http://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
+
+#: ../../build/doc/contact.rst:29
+msgid ""
+"Searchable archives of the mailing list are hosted by `Nabble <http://osgeo-"
+"org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_."
+msgstr ""
+"A levelezőlista kereshető archívumát a `Nabble <http://osgeo-"
+"org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>_` tárolja."
+
+#: ../../build/doc/contact.rst:32
+msgid ""
+"IRC users might try the #osgeolive or #osgeo channel at Freenode.net for "
+"real-time assistance."
+msgstr ""
+"Az IRC felhasználók a Freenode.net-en a #osgeolive vagy #osgeo csatornákat "
+"próbálhatják meg, hogy azonnali támogatás kapjanak."
+
+#: ../../build/doc/contact.rst:35
+msgid ""
+"A wealth of information is available on our `Wiki site "
+"<http://wiki.osgeo.org/wiki/OSGeoLive>`_, and a `bug and wish tracking "
+"system <https://trac.osgeo.org/osgeolive/report/10>`_ is also available."
+msgstr ""
+"A `Wiki oldalon <http://wiki.osgeo.org/wiki/OSGeoLive>_` rengeteg információ"
+" érhető el, valamint egy `hiba és kívánság követő rendszer "
+"https://trac.osgeo.org/osgeolive/report/10<>_` is megtalálható."
+
+#: ../../build/doc/contact.rst:39
+msgid "Commercial Support"
+msgstr "Kereskedelmi támogatás"
+
+#: ../../build/doc/contact.rst:41
+msgid ""
+"Most packaged applications have both community and commercial support "
+"offerings for them. Refer to specific application descriptions linked from "
+"the :doc:`Contents <./overview/overview>` for details."
+msgstr ""
+"A legtöbb tartalmazott alkalmazáshoz van közösségi és kereskedelmi "
+"támogatás. Nézze meg az egyes alkalmazások leírását a részletekért, a  "
+":doc:`Contents <./overview/overview>` oldalon található linkeken keresztül."
+
+#: ../../build/doc/contact.rst:44
+msgid ""
+"In addition, there are a large number of consultancy firms world wide who "
+"provide support for OSGeo member projects. See https://www.osgeo.org"
+"/service-providers/ for one that meets your needs."
+msgstr ""
+"Emellett számos tanácsadó cég létezik világszerte, akik támogatást adnak az "
+"OSGeo tagprojektjeihez. Lásd https://www.osgeo.org/service-providers/ oldalt"
+" az igényeinek megfelelő megtalálásához."
+
+#~ msgid ""
+#~ "OSGeoLive development is coordinated via email and internet chat (IRC) as "
+#~ "detailed on the `OSGeo Wiki "
+#~ "<http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_."
+#~ msgstr ""
+#~ "Az OSGeoLive fejlesztést, mint ahogy azt az `OSGeo Wiki oldalán "
+#~ "<http://wiki.osgeo.org/wiki/Live_GIS_Disc#Contact_Us>`_ részletezik, "
+#~ "e-mailen és internetes csevegésen (IRC) keresztül koordinálják."
+
+#~ msgid ""
+#~ "If you have any questions, comments, or run into any problems, please drop "
+#~ "us a note on `our mailing list <http://lists.osgeo.org/mailman/listinfo"
+#~ "/live-demo>`_."
+#~ msgstr ""
+#~ "Ha bármilyen kérdése, észrevétele van, vagy bármilyen problémába ütközne, "
+#~ "küldjön nekünk egy üzenetet a `levelezőlistánkon "
+#~ "<http://lists.osgeo.org/mailman/listinfo/live-demo>`."
+
+#~ msgid ""
+#~ "A wealth of information is available on our `Wiki site "
+#~ "<http://wiki.osgeo.org/wiki/Live_GIS_Disc>`_, and a `bug and wish tracking "
+#~ "system <https://trac.osgeo.org/osgeo/report/10>`_ is also available."
+#~ msgstr ""
+#~ "A `Wiki oldalon <http://wiki.osgeo.org/wiki/Live_GIS_Disc>_` rengeteg "
+#~ "információ érhető el, valamint egy `hiba és kívánság követő rendszer "
+#~ "<https://trac.osgeo.org/osgeo/ jelentés/10>_` is megtalálható."
+
+#~ msgid ""
+#~ "In addition, there are a large number of consultancy firms world wide who "
+#~ "provide support for OSGeo member projects. See "
+#~ "http://www.osgeo.org/search_profile for one that meets your needs."
+#~ msgstr ""
+#~ "mellett számos tanácsadó cég létezik világszerte, akik támogatják az OSGeo "
+#~ "tagprojektjeit. Lásd http://www.osgeo.org/search_profile oldalt az "
+#~ "igényeinek megfelelő megtalálásához."
+
+#~ msgid ""
+#~ "Jirotech provide commercial support for the building of the Live DVD, as "
+#~ "well as many of the applications packaged in it. Details at: "
+#~ "http://jirotech.com"
+#~ msgstr ""
+#~ "A Jirotech kereskedelmi támogatást nyújt a Live DVD készítéséhez, valamint "
+#~ "számos tartalmazott alkalmazáshoz. Részletek: http://jirotech.com"

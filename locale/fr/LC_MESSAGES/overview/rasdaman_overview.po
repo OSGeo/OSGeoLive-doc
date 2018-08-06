@@ -1,32 +1,33 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011, OSGeo
+# Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:16
+#: ../../build/doc/overview/rasdaman_overview.rst:19
 msgid "Rasdaman"
 msgstr "Rasdaman"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:19
+#: ../../build/doc/overview/rasdaman_overview.rst:22
 msgid "Multi-Dimensional Big Data Analytics Engine"
 msgstr "Base de données raster multi-dimensionnelle"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:21
+#: ../../build/doc/overview/rasdaman_overview.rst:24
 msgid ""
 "Rasdaman is an Array Database System which provides flexible, fast, scalable"
 " geo services for multi-dimensional spatio-temporal sensor, image, "
@@ -45,7 +46,7 @@ msgstr ""
 "de Cloud/cluster est accomplie d'un manière sécurisée, contrôlée par un "
 "administrateur."
 
-#: ../../build/doc/overview/rasdaman_overview.rst:23
+#: ../../build/doc/overview/rasdaman_overview.rst:26
 msgid ""
 "In addition to the raster query language, rasdaman supports OGC's WMS, WCS "
 "and WCPS web service standards, as well as C++ and Java APIs. At "
@@ -58,7 +59,7 @@ msgstr ""
 "http://standards.rasdaman.org. Un pilote rasdaman est intégré à GDAL et "
 "MapServer."
 
-#: ../../build/doc/overview/rasdaman_overview.rst:25
+#: ../../build/doc/overview/rasdaman_overview.rst:28
 msgid ""
 "Rasdaman has received a series of international innovation awards, among "
 "them the prestigeous European IT Prize and Geospatial Innovation Award.  "
@@ -73,15 +74,15 @@ msgstr ""
 "opérateurs de services de rasdaman, on trouve des agences cartographiques et"
 " des centres de données climatiques."
 
-#: ../../build/doc/overview/rasdaman_overview.rst:34
+#: ../../build/doc/overview/rasdaman_overview.rst:37
 msgid "Core Features"
 msgstr "Caractéristiques principales"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:36
+#: ../../build/doc/overview/rasdaman_overview.rst:39
 msgid "truly multi-dimensional - 1-D, 2-D, 3-D, 4-D, and beyond"
 msgstr "Vraiment multidimensionnel - de 1-D à 2-D, 3-D, 4-D et au delà"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:37
+#: ../../build/doc/overview/rasdaman_overview.rst:40
 msgid ""
 "powerful, flexible query language for visualization, classification, "
 "convolution, aggregation, and many more geospatial functions"
@@ -90,12 +91,12 @@ msgstr ""
 "classification, la convolution, l'agrégation, et beaucoup d'autres fonctions"
 " géospatiales"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:38
+#: ../../build/doc/overview/rasdaman_overview.rst:41
 msgid "spatial indexing and adaptive tiling for fast data access"
 msgstr ""
 "Indexation spatiale et tuilage adaptatif pour un accès rapide aux données"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:39
+#: ../../build/doc/overview/rasdaman_overview.rst:42
 msgid ""
 "parallelization and \"tile streaming\" for unlimited scalability from laptop"
 " to cluster and cloud"
@@ -103,7 +104,7 @@ msgstr ""
 "parallélisation et streaming  de tuiles pour une scalabilité de l'ordinateur"
 " portable jusqu'au cluster et au cloud"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:40
+#: ../../build/doc/overview/rasdaman_overview.rst:43
 msgid ""
 "support for the raster-relevant OGC standards, Reference Implementation for "
 "WCS Core and WCPS"
@@ -111,54 +112,54 @@ msgstr ""
 "Support des standards raster relevant de l'OGC, implémentation de référence "
 "de WCS Core et WCPS"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:43
+#: ../../build/doc/overview/rasdaman_overview.rst:46
 msgid "Implemented Standards"
 msgstr "Standards implémentés"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:45
+#: ../../build/doc/overview/rasdaman_overview.rst:48
 msgid "OGC WMS 1.3, WCS 2.0, WCPS 1.0"
 msgstr "OGC WMS 1.3, WCS 2.0, WCPS 1.0"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:48
+#: ../../build/doc/overview/rasdaman_overview.rst:51
 msgid "Details"
 msgstr "Détails"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:50
+#: ../../build/doc/overview/rasdaman_overview.rst:53
 msgid "**Website:** http://www.rasdaman.org"
 msgstr "**Site web:** http://www.rasdaman.org"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:52
+#: ../../build/doc/overview/rasdaman_overview.rst:55
 msgid "**Licence:**"
 msgstr "**Licence:**"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:54
+#: ../../build/doc/overview/rasdaman_overview.rst:57
 msgid "clients and APIs: GNU Lesser General Public License (LGPL) version 3"
 msgstr "clients et API: GNU Lesser General Public License (LGPL) version 3"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:55
+#: ../../build/doc/overview/rasdaman_overview.rst:58
 msgid "server engine: GNU General Public License (GPL) version 3"
 msgstr "moteur du serveur: GNU General Public License (GPL) version 3"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:57
+#: ../../build/doc/overview/rasdaman_overview.rst:60
 msgid "**Software Version:** |version-rasdaman|"
 msgstr "**Version du logiciel:** |version-rasdaman|"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:59
+#: ../../build/doc/overview/rasdaman_overview.rst:62
 msgid "**Supported Platforms:** Linux, MacOS, Solaris"
 msgstr "**Plate-formes supportées :** GNU/Linux, MacOS, Solaris"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:61
+#: ../../build/doc/overview/rasdaman_overview.rst:64
 msgid "**API Interfaces:** rasql, C++, Java"
 msgstr "**Interfaces d'API:** rasql, C++, Java"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:63
+#: ../../build/doc/overview/rasdaman_overview.rst:66
 msgid "**Support:**  http://www.rasdaman.com"
 msgstr "**Support:**  http://www.rasdaman.com"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:67
+#: ../../build/doc/overview/rasdaman_overview.rst:70
 msgid "Quickstart"
 msgstr "Guide de démarrage rapide"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:69
+#: ../../build/doc/overview/rasdaman_overview.rst:72
 msgid ":doc:`Quickstart documentation <../quickstart/rasdaman_quickstart>`"
 msgstr ":doc:`Guide de démarrage rapide <../quickstart/rasdaman_quickstart>`"

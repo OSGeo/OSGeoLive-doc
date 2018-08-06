@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/liblas_overview.rst:15
+msgid "libLAS"
+msgstr "libLAS"
+
+#: ../../build/doc/overview/liblas_overview.rst:18
+msgid "LiDAR Data Access"
+msgstr "LiDAR adat hozzáférés"
+
+#: ../../build/doc/overview/liblas_overview.rst:20
+msgid ""
+"libLAS is a C/C++ library for reading and writing the very common `LAS` "
+"`LiDAR`_ format. The `ASPRS LAS format`_ is a sequential binary format used "
+"to store data from LiDAR sensors and by LiDAR processing software for data "
+"interchange and archival."
+msgstr ""
+"A libLAS egy C/C++ könyvtár a nagyon gyakran használt `LAS` `LiDAR`_ "
+"formátum olvasására és írására. Az `ASPRS LAS formátum`_ egy szekvenciális "
+"bináris formátum, melyet a LiDAR szenzorokból érkező adatok tárolására és a "
+"LiDAR feldolgozó szoftverek adatcseréjére és archiválásra használnak."
+
+#: ../../build/doc/overview/liblas_overview.rst:25
+msgid ""
+"LiDAR (Light Detection and Ranging) is a form of high precision range "
+"detection much like a radar system that uses laser light as the "
+"electromagnetic emission. One of LiDAR systems' products is a \"point "
+"cloud\" data product that can be conceptualized as a series of point "
+"measurements representing distance from the sensor to a returned emission.  "
+"A common storage format for these point cloud data is ASPRS LAS format."
+msgstr ""
+"LiDAR (fényérzékelés és távolságmérés) a nagy pontosságú tartomány észlelés "
+"egy formája a radar rendszerhez hasonlóan, mely lézer fényt használ az "
+"elektromágneses kisugárzáshoz. A LiDAR rendszer egyik eredménye a "
+"\"pontfelhő\" adatok, mely a szenzortól a visszaverőig terjedő pontmérések "
+"sorozataként fogalmazható meg. A pontfelhő adatok elterjedt tárolási formája"
+" az ASPRS LAS formátum."
+
+#: ../../build/doc/overview/liblas_overview.rst:38
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/liblas_overview.rst:40
+msgid "C/C++/Python APIs for reading, writing, and manipulating LAS data"
+msgstr "C/C++/Python API-k LAS adatok olvasásához, írásához és kezeléséhez"
+
+#: ../../build/doc/overview/liblas_overview.rst:41
+msgid ""
+"`Command line utilities`_ for manipulating LAS data based on `LAStools`_"
+msgstr ""
+"`Parancssori segédprogramok`_ LAS adatok `LAStools`_-ra alapozott "
+"kezeléséhez"
+
+#: ../../build/doc/overview/liblas_overview.rst:42
+msgid "Coordinate reprojection via `GDAL <http://gdal.org>`__"
+msgstr "Vetületi átszámítás `GDAL <http://gdal.org>`__ segítségével"
+
+#: ../../build/doc/overview/liblas_overview.rst:45
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/liblas_overview.rst:47
+msgid "**Website:** http://liblas.org"
+msgstr "**Honlap:** http://liblas.org"
+
+#: ../../build/doc/overview/liblas_overview.rst:49
+msgid "**Licence:** BSD"
+msgstr "**Licenc:** BSD"
+
+#: ../../build/doc/overview/liblas_overview.rst:51
+msgid "**Software Version:** |version-liblas|"
+msgstr "**Szoftver verzió:** |version-liblas|"
+
+#: ../../build/doc/overview/liblas_overview.rst:53
+msgid ""
+"**Supported Platforms:** Cross Platform C++ -- Mac OS X, Windows (via "
+"`OSGeo4W`_), and Linux"
+msgstr ""
+"**Támogatott platformok:** több platformos C++ -- Mac OS X, Windows "
+"(`OSGeo4W`_), és Linux"
+
+#: ../../build/doc/overview/liblas_overview.rst:55
+msgid "**API Interfaces:** C, C++, Python"
+msgstr "**API interfészek:** C, C++, Python"
+
+#: ../../build/doc/overview/liblas_overview.rst:57
+msgid ""
+"**Support:** `Communication and Support <http://liblas.org/community.html>`_"
+msgstr ""
+"**Támogatás:** `Értesítések és támogatás "
+"<http://liblas.org/community.html>`_"
+
+#: ../../build/doc/overview/liblas_overview.rst:71
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/liblas_overview.rst:73
+msgid ":doc:`Quickstart documentation <../quickstart/liblas_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/liblas_quickstart>`"

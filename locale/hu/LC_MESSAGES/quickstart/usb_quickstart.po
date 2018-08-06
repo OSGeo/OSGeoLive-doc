@@ -1,0 +1,326 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2017\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:9
+msgid "Creating an OSGeoLive Bootable USB flash drive"
+msgstr "Indítható OSGeoLive USB meghajtó létrehozása"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:11
+msgid ""
+"This quickstart describes the preferred method for creating a Bootable "
+"OSGeoLive USB flash drive. Booting from a flash drive is faster than from a "
+"DVD, and the USB drive can be configured to store data between sessions "
+"(called persistence)."
+msgstr ""
+"Ez a gyorstalpaló ismerteti egy betölthető OSGeoLive USB meghajtó preferált "
+"létrehozását. Az USB-ről történő rendszer indítás gyorsabb mint a DVD-ről és"
+" az USB meghajtó konfigurálható, hogy megőrizze az adatokat két használat "
+"között (ezt perzisztenciának nevezzük)"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:13
+msgid ""
+"We have have found that there are a number of quirks and tricks involved in "
+"successfully building a USB drive. We have documented what we know, but "
+"there are likely more tricks and issues. Look for latest tips here: "
+"http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB"
+msgstr ""
+"Úgy tapasztaltuk, hogy számos váratlan fordulat lehet és számos trükk "
+"szükséges az USB meghajtó elkészítéséhez. Dokumentáltuk, amit tudunk, de "
+"valószínűleg további trükkök és problémák lehetnek. A legújabb trükköket itt"
+" találja: http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:16
+msgid "Requirements"
+msgstr "Követelmények"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:18
+msgid "A USB flash drive (at least 4 Gig, 8+ Gig is recommended)."
+msgstr "Egy USB meghajtó (legalább 4GB, 8+ GB ajánlott)."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:19
+msgid ""
+"An OSGeoLive ISO image (downloaded from: "
+"http://live.osgeo.org/en/download.html) or converted from a DVD."
+msgstr ""
+"Egy OSGeoLive ISO kép (a http://live.osgeo.org/en/download.html címről "
+"töltheti le) vagy egy DVD-ről konvertálhatja."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:21
+msgid ""
+"For a 4 GB USB flash drive, use osgeolive-mini ISO (without Windows and Mac "
+"installers), without persistence."
+msgstr ""
+"A 4 GB-os USB meghajtóhoz használja a az osgeolive-mini ISO-t (Windows és "
+"Mac telepítők nélkül), perzisztencia nélkül."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:22
+msgid ""
+"For a 8+ GB USB flash drive, use either osgeolive-mini ISO, or osgeolive ISO"
+" (with Windows and Mac installers). 8+ GB is recommended if you wish to "
+"support persistence."
+msgstr ""
+"A 8+ GB-os USB meghajtóhoz használja a az osgeolive-mini ISO-t vagy az "
+"osgeolive ISO-t (Windows és Mac telepítőkkel). 8+ GB ajánlott, ha a "
+"perzisztenciát szeretne."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:25
+msgid "Creating bootable USB drive with ``dd`` under Linux"
+msgstr "Indítható USB meghajtó létrehozása Linux-on ``dd`` paranccsal"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:27
+msgid ""
+"ISO images for OSGeoLive 10.5 and later are *isohybrid* (and for amd64, also"
+" support UEFI boot). Under Linux, these images can be written directly to "
+"the block device for a USB drive with the ``dd`` command-line utility:"
+msgstr ""
+"Az OSGeoLive 10.5 és későbbi ISO állományok \"isohybrid\"-ek (és az "
+"amd64-hez az UEFI betöltést is támogatják).  Linux-on ezek az állományok "
+"közvetlenül az USB blokk eszközre írhatók a ``dd`` parancssori "
+"segédprogrammal:"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:33
+msgid ""
+"``/dev/sdX`` is the block device for the USB drive, where ``X`` might be "
+"``b`` or ``c``."
+msgstr ""
+"``/dev/sdX`` az USB meghajtó blokk eszköze, ahol az ``X``  ``b`` vagy ``c`` "
+"lehet."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:34
+msgid ""
+"Use ``lsblk`` to list block devices and ``dmesg`` to see kernel messages "
+"identifying the USB drive when it is connected."
+msgstr ""
+"Használja az ``lsblk`` parancsot  blokk eszközök listájához és a ``dmesg`` "
+"parancsot a kernel üzenetek megjelenítéséhez, a csatlakoztatott USB eszköz "
+"azonosításához."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:35
+msgid "The USB drive should not be mounted."
+msgstr "Az USB meghajtót ne mount-olja."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:36
+msgid "``sudo`` is not required if the command is run as ``root``."
+msgstr ""
+"A ``sudo`` nem szükséges, ha a parancsot ``root`` felhasználóként adja ki."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:39
+msgid ""
+"Be certain to select the correct block device as ``dd`` will overwrite it "
+"without question, even if it is your primary system drive."
+msgstr ""
+"Győződjön meg róla, hogy a helyes blokk eszközt választotta mivel a ``dd`` "
+"kérdés nélkül felülírja a tartalmat, még akkor is, ha az az elsődleges "
+"rendszer meghajtó."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:42
+msgid "Creating bootable USB drive with Ubuntu Startup Disk Creator"
+msgstr "Indítható USB meghajtó létrehozása az Ubuntu Startup Disk Creator-ral"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:44
+msgid ""
+"(This is the recommended process for creating a USB. It is applicable to "
+"Ubuntu and Ubuntu variants such as OSGeoLive.)"
+msgstr ""
+"(Ez a javasolt eljárás az USB létrehozásához. Használható a Ubuntu-hoz és az"
+" Ubuntu variánsokhoz mint például az OSGeoLive.)"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:47
+msgid ""
+"The version of Ubuntu you are running, needs to be the same or newer than "
+"the version of Lubuntu being installed onto your USB.  If installing "
+"OSGeoLive 8.0 onto a USB, then you will need to be running Ubuntu 14.04 or "
+"newer."
+msgstr ""
+"A futtatott Ubuntu verzió az USB meghajtóra telepítendő Lubuntu verziójával "
+"egyezzen vagy újabb legyen. Ha OSGeoLive 8.0- t telepít az USB-re, akkor "
+"Ubuntu 14.04 vagy újabb verziót kell futtatnia."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:49
+msgid ""
+"`Download <http://live.osgeo.org/en/download.html>`_ osgeolive or osgeolive-"
+"mini to your computer's hard drive."
+msgstr ""
+"`Töltse le <http://live.osgeo.org/en/download.html>`_ az osgeolive-ot vagy "
+"osgeolive-mini-t a gépének merevlemezére."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:51
+msgid ""
+"Boot your computer into a recent Ubuntu/Xbuntu distribution. You can do this"
+" by running from an OSGeoLive DVD, as explained in "
+":doc:`osgeolive_quickstart`."
+msgstr ""
+"Indítsa a gépét egy újabb Ubuntu/Xbuntu disztribúció betöltésével. Ezt "
+"megteheti az OSGeoLive DVD-ről, ahogy leírtuk a :doc:`osgeolive_quickstart` "
+"részben."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:53
+msgid "Insert the USB flash drive into your computer."
+msgstr "Dugja be az USB meghajtót a számítógépébe."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:58
+msgid ""
+"Select :menuselection:`System Tools --> Startup Disk Creator`, or search for"
+" `Startup Disk Creator` from the Unity desktop."
+msgstr ""
+"válassza :menuselection:`System Tools --> Startup Disk Creator` menüpontot, "
+"vagy keresse a Unity asztalon a `Startup Disk Creator` ikont."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:63
+msgid ""
+"Select the osgeolive or osgeolive-mini ISO Image that you downloaded "
+"earlier."
+msgstr ""
+"Válassza az osgeolive vagy az osgeolive-mini ISO image-t amit korábban "
+"letöltött."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:65
+msgid ""
+"Select the USB flash drive. If you have extra room you might adjust the "
+"slider to create persistent storage space on the USB drive (recommended). In"
+" order for this option to be available you will need an 8+ GB USB flash "
+"drive."
+msgstr ""
+"Válassza ki az USB meghajtót. Ha van extra szabad hely, akkor módosítsa a "
+"tolóka helyzetét, hogy perzisztens tároló területet hozzon létre az USB "
+"meghajtón (javasolt). 8GB+ USB meghajtó szükséges, hogy ez a beállítás "
+"elérhető legyen."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:67
+msgid "Select :guilabel:`Make Startup Disk`"
+msgstr "Válassza a :guilabel:`Make Startup Disk`-et"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:72
+msgid "Wait 20 minutes or so for the USB flash drive to be created."
+msgstr "Várjon kb. 20 percig az USB meghajtó elkészítésére."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:76
+msgid "Booting from the USB drive:"
+msgstr "Indítás az USB meghajtóról:"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:78
+msgid "Start with the computer off."
+msgstr "Kezdjen kikapcsolt számítógéppel."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:79
+msgid "Insert the USB drive into an open USB port."
+msgstr "Dugja meg az USB meghajtót egy szabad USB csatlakozóba."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:80
+msgid "Power on the Machine and select to boot from USB:"
+msgstr "Kapcsolja be a gépet és válassza az indítást az USB-ről:"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:82
+msgid "Most computers are not set to boot from a USB drive by default."
+msgstr ""
+"A legtöbb számítógépen nem állítják be alapértelmezésben az USB meghajtóról "
+"indítást."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:83
+msgid ""
+"When booting, look for a message indicting a Boot Menu (most commonly you "
+"press F12)"
+msgstr ""
+"A betöltés közben keresse a Boot Menu üzenetet (leggyakrabban F12-t kell "
+"nyomni)"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:84
+msgid ""
+"If your computer does not have a boot menu, then boot into your system BIOS."
+" The button to enter BIOS varies by brand and model of computer. If you "
+"can't figure out yours try this website that lists many BIOS hotkeys. "
+"http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-"
+"access-bios-for-various-oem-and-computer-systems/"
+msgstr ""
+"Ha a számítógépén nincs 'Boot menu', akkor az indításnál lépjen a BIOS-ba. A"
+" BIOS-ba belépéshez használt billentyű a számítógép márkájától és típusától "
+"függően változatos lehet. Ha nem sikerül kitalálnia ezt a gépén, akkor "
+"próbálja meg a következő honlapot, mely számos BIOS gyors billentyű listáját"
+" tartalmazza. http://www.mydigitallife.info/comprehensive-list-of-how-key-"
+"to-press-to-access-bios-for-various-oem-and-computer-systems/"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:86
+msgid "Select to boot from the USB device."
+msgstr "Válassza az indítást az USB meghajtóról."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:88
+msgid ""
+"Note, that for some computers you will need to have the USB drive inserted "
+"into the computer in order to select it."
+msgstr ""
+"Vegye figyelembe, hogy néhány számítógépen előbb be kell dugnia az USB "
+"meghajtót, hogy ki tudja választani."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:89
+msgid ""
+"Note also, the USB drive is often listed under hard drives rather than "
+"removable devices."
+msgstr ""
+"Vegye figyelembe azt is, hogy az USB meghajtó gyakran a merev lemezek "
+"listájában jelenik meg az eltávolítható eszközök helyett."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:90
+msgid ""
+"This `Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates "
+"booting from USB."
+msgstr ""
+"Ez a  `videó <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ bemutatja az USB"
+" meghajtóról indítást."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:93
+msgid "Run:"
+msgstr "Futtatás:"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:95
+msgid "Run as per: :doc:`osgeolive_quickstart`"
+msgstr "Futtassa a leírás szerint: :doc:`osgeolive_quickstart`"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:98
+msgid "See Also:"
+msgstr "Lásd még:"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:100
+msgid ":doc:`osgeolive_quickstart`"
+msgstr ":doc:`osgeolive_quickstart`"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:101
+msgid ":doc:`virtualization_quickstart`"
+msgstr ":doc:`virtualization_quickstart`"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:102
+msgid ":doc:`osgeolive_install_quickstart`"
+msgstr ":doc:`osgeolive_install_quickstart`"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:103
+msgid ""
+"Alternative USB creation methods and latest tips are collected here: `wiki "
+"<http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
+msgstr ""
+"Alternatív USB létrehozó módszereket és a legújabb tippeket itt gyűjtjük:  "
+"`wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:104
+msgid ""
+"Questions can be directed to our email list: "
+"http://lists.osgeo.org/mailman/listinfo/live-demo"
+msgstr ""
+"Kérdéseit irányítsa az email listánkra: "
+"http://lists.osgeo.org/mailman/listinfo/live-demo"

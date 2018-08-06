@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/sponsors_osgeo.rst:7
+msgid "The OSGeo Foundation"
+msgstr "Az OSGeo Alapítvány"
+
+#: ../../build/doc/sponsors_osgeo.rst:9
+msgid "*Empower everyone with open source geospatial*"
+msgstr "*Mindenkit megerősít a nyílt forráskódú térinformatikával*"
+
+#: ../../build/doc/sponsors_osgeo.rst:11
+msgid ""
+"The `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`__ is a "
+"not-for-profit organization whose mission is to foster global adoption of "
+"open geospatial technology by being an inclusive software foundation devoted"
+" to an open philosophy and participatory community driven development."
+msgstr ""
+" Az `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`__ non-"
+"profit szervezet, melynek a küldetése a nyílt térinformatikai technológia "
+"globális elfogadásának előmozdítása azáltal, hogy a nyílt filozófia és a "
+"részvételen alapuló közösségi alapú fejlesztés egy átfogó szoftveralapot "
+"jelent."
+
+#: ../../build/doc/sponsors_osgeo.rst:17
+msgid "OSGeo outreach and activities include:"
+msgstr "Az OSGeo szolgáltatásai és tevékenységei a következők:"
+
+#: ../../build/doc/sponsors_osgeo.rst:19
+msgid ""
+"`Local Chapters <http://www.osgeo.org/content/chapters/index.html>`__: "
+"Local, regional and language groups support grass roots activities."
+msgstr ""
+"`Helyi csoportok <http://www.osgeo.org/content/chapters/index.html>` __:  "
+"helyi, regionális és nyelvi csoportok támogatják az alulról építkező "
+"tevékenységeket."
+
+#: ../../build/doc/sponsors_osgeo.rst:20
+msgid ""
+"`GeoForAll <http://www.geoforall.org>`_: Over 100 educational labs from "
+"around the world who work with partners to make geospatial education and "
+"opportunities accessible to all."
+msgstr ""
+"`GeoForAll <http://www.geoforall.org>` _: Több mint 100 oktatási "
+"laboratórium a világ minden tájáról, akik partnerekkel dolgoznak együtt, "
+"hogy a  a térinformatikai oktatást és a lehetőségét mindenki számára "
+"hozzáférhetővé tegye."
+
+#: ../../build/doc/sponsors_osgeo.rst:21
+msgid ""
+"`OSGeoLive <http://live.osgeo.org>`__: A distribution of established "
+"geospatial open source software, pre-configured with sample data and "
+"quickstarts, ready to try out."
+msgstr ""
+"`OSGeoLive <http://live.osgeo.org>` __: Sabil, nyílt forráskódú, előre "
+"konfigurált térinformatikai szoftverek terjesztése, mintaadatokkal és "
+"gyorstalpalókkal, készen állnak arra, hogy kipróbálják."
+
+#: ../../build/doc/sponsors_osgeo.rst:22
+msgid ""
+"`FOSS4G <http://foss4g.org>`_: Annual, international conference for *Free "
+"and Open Source Software for Geospatial*, as well as many regional and local"
+" `events <http://www.osgeo.org/events>`_."
+msgstr ""
+"`FOSS4G <http://foss4g.org>`_: Évenkénti nemzetközi konferencia a *Szabad és"
+" nyílt forráskódú térinformatikai szoftverekről*, továbbá sok regionális és "
+"hely `esemény <http://www.osgeo.org/events>`_."

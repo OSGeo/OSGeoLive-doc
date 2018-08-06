@@ -99,7 +99,7 @@ msgstr "Características Visuales y de Interacción "
 
 #: ../../build/doc/overview/leaflet_overview.rst:53
 msgid "Drag panning with inertia"
-msgstr "Arrastrar panorámicas con inercia"
+msgstr "Arrastre y desplazamiento con inercia."
 
 #: ../../build/doc/overview/leaflet_overview.rst:54
 msgid "Keyboard navigation"
@@ -111,7 +111,7 @@ msgstr "Multi-touch"
 
 #: ../../build/doc/overview/leaflet_overview.rst:56
 msgid "Zoom/Panning animation"
-msgstr "Animación de zoom/Panorámica"
+msgstr " Animación de Acercamiento/Desplazamiento "
 
 #: ../../build/doc/overview/leaflet_overview.rst:57
 msgid "Very nice default design for markers, popups and other map controls"
@@ -134,7 +134,7 @@ msgstr "Aceleración de hardware"
 #: ../../build/doc/overview/leaflet_overview.rst:63
 msgid "Utilizing CSS3 features to make panning and zooming really smooth"
 msgstr ""
-"Utilizando características de CSS3 para hacer panorámicas y zooming muy "
+"Utilizando funciones de CSS3 para hacer desplazamientos y acercamientos muy "
 "suaves"
 
 #: ../../build/doc/overview/leaflet_overview.rst:64

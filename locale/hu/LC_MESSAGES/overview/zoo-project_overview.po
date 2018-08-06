@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2017\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:16
+msgid "Zoo Project"
+msgstr "ZOO-Projekt"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:19
+msgid "WPS Server"
+msgstr "WPS Szerver"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:21
+msgid ""
+"ZOO-Project provides a developer friendly Web Processing Service (WPS) "
+"framework for creating and chaining Web Processing Services. A WPS provides "
+"web access to functions which run spatial algorithms. ZOO-Project supports "
+"many programming languages and comes with three demo applications. The first"
+" uses the simple spatialtools services based on the :doc:`GEOS "
+"<geos_overview>` and :doc:`OGR <gdal_overview>` libraries, the second "
+"showcase Voronoi and Delaunay triangulation (from the CGAL library) and the "
+"third present how to interract with OTB applications runninng as WPS "
+"services."
+msgstr ""
+"A ZOO-projekt egy fejlesztő-barát Web Processing Service (WPS) "
+"keretrendszert biztosít Web Processing Service-k létrehozására és "
+"láncolására. A WPS hálózatos hozzáférést biztosít olyan függvényekhez, "
+"melyek térbeli algoritmusokat futtatnak. A ZOO-projekt több programnyelvet "
+"támogat és három demó alkalmazással szállítják. Az első a :doc:`GEOS "
+"<geos_overview>` és a :doc:`OGR <gdal_overview>` könyvtárakra épül, a "
+"második a Voronoi és Delaunay háromszögelés bemutatása (a CGAL könyvtárból) "
+"és a harmadik bemutatja, hogy az OTB alkalmazásokhoz hogyan kapcsolódhatunk "
+"a WPS szolgáltatással."
+
+#: ../../build/doc/overview/zoo-project_overview.rst:26
+msgid ""
+"The three demontration applications are available from the ZOO-Project demo "
+"landing page presented bellow."
+msgstr "A három bemutató alkalmazás a Zoo-projekt demo oldaláról érhető el."
+
+#: ../../build/doc/overview/zoo-project_overview.rst:28
+msgid "ZOO is made of three parts:"
+msgstr "A ZOO három részből áll:"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:31
+msgid ""
+"*ZOO Kernel* : A powerful server-side C Kernel which makes it possible to "
+"manage and chain Web services coded in different programming languages."
+msgstr ""
+"*ZOO rendszermag*: Egy hatékony szerver oldali C rendszermag, mely lehetővé "
+"teszi a különböző programnyelveken kódolt web szolgáltatások kezelését és "
+"láncolását."
+
+#: ../../build/doc/overview/zoo-project_overview.rst:34
+msgid ""
+"*ZOO Services* : A growing suite of example Web services based on various "
+"Open Source libraries."
+msgstr ""
+"*ZOO szolgáltatások*: Különböző nyílt forráskódú könyvtárakra alapozott "
+"minta web szolgáltatások növekvő gyűjteménye."
+
+#: ../../build/doc/overview/zoo-project_overview.rst:37
+msgid ""
+"*ZOO API* : A server-side JavaScript API able to call and chain the ZOO "
+"Services, which makes the development and chaining processes easier."
+msgstr ""
+"*ZOO API*: Egy szerver oldali JavaScript API, mely képes a ZOO "
+"szolgáltatások meghívására és láncolására és egyszerűbbé teszi a fejlesztést"
+" és a láncolási folyamatot."
+
+#: ../../build/doc/overview/zoo-project_overview.rst:40
+msgid ""
+"ZOO is based on a 'WPS Service Kernel' which constitutes the ZOO's core "
+"system (aka ZOO Kernel). The latter is able to load dynamic libraries and to"
+" handle them as on-demand Web services. The ZOO Kernel is written in C "
+"language, but supports several common programming languages in order to "
+"connect to numerous libraries and above all to simplify the Web service end-"
+"developer's job."
+msgstr ""
+"A ZOO a 'WPS szolgáltatás magra' épül, mely a ZOO rendszermagot alkotja (más"
+" néven ZOO mag). Ez utóbbi dinamikus könyvtárakat tud betölteni és igény "
+"szerinti web szolgáltatásként kezelni. A ZOO mag C nyelven készül, de számos"
+" elterjedt programnyelvet támogat, abból a célból, hogy számos könyvtárhoz "
+"tudjon kapcsolódni és mindenek előtt a web szolgáltatás fejlesztő munkáját "
+"egyszerűsítse."
+
+#: ../../build/doc/overview/zoo-project_overview.rst:47
+msgid ""
+"A ZOO service is a link composed of a metadata file (.zcfg) and the code for"
+" the corresponding implementation. The metadata file describes all the "
+"available functions which can be called using a WPS Exec Request, as well as"
+" the desired input/output. Services contain the algorithms and functions, "
+"and can now be implemented in C/C++, Fortran, Java, Python, PHP, Ruby, C# "
+"and JavaScript."
+msgstr ""
+"A ZOO szolgáltatás egy link, mely egy meta adat fájlból (.zcfg) és az "
+"implementációnak megfelelő kódból áll. A meta adat fájl írja le az összes "
+"elérhető függvényt, melyeket egy 'WPS Exec Request'-tel hívhatunk meg, és a "
+"tervezett input/outputot is. A szolgáltatások tartalmazzák az algoritmusokat"
+" és a függvényeket, melyeket C/C++, Fortran, Java, Python, PHP, Ruby, c# és "
+"JavaScript nyelveken implementálhatjuk."
+
+#: ../../build/doc/overview/zoo-project_overview.rst:61
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:63
+msgid "Multi language WPS server"
+msgstr "Többnyelvű WPS szerver"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:64
+msgid "Simple Web Service creation and deployment procedure"
+msgstr "Egyszerű Web szolgáltatás létrehozás és közzététel"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:65
+msgid "Simple WPS chaining with ZOO API"
+msgstr " Egyszerű WPS láncolás a ZOO API-val"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:68
+msgid "Implemented Standards"
+msgstr "Implementált szabványok"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:70
+msgid "OGC WPS 1.0.0"
+msgstr "OGC WPS 1.0.0"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:71
+msgid "OGC WPS 2.0.0"
+msgstr "OGC WPS 2.0.0"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:74
+msgid "Demo"
+msgstr "Demó"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:76
+msgid ""
+"`Demo using Services Provider based GEOS and OGR libraries <http://localhost"
+"/zoo-demo/ogr-example.html>`_"
+msgstr ""
+"`Demó a GEOS és OGR könyvtárakra alapozott szolgáltatás  <http://localhost"
+"/zoo-demo/ogr-example.html>`_"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:77
+msgid ""
+"`Demo using Services Provider based CGAL library <http://localhost/zoo-"
+"demo/cgal.html>`_"
+msgstr ""
+"`Demó a CGAL könyvtárra alapozott szolgáltatás <http://localhost/zoo-"
+"demo/cgal.html>`_"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:78
+msgid ""
+"`Demo using OTB Applications as WPS Services <http://localhost/zoo-demo/otb-"
+"example.html>`_"
+msgstr ""
+"`Demó OTB alkalmazások WPS szervizként használta <http://localhost/zoo-demo"
+"/otb-example.html>`_"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:82
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:84
+msgid "**Website:** http://zoo-project.org"
+msgstr "**Honlap:** http://zoo-project.org"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:86
+msgid "**Licence:** MIT x/11"
+msgstr "**Licenc:** MIT x/11"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:88
+msgid "**Software Version:** |version-zoo-project|"
+msgstr "**Szoftver verzió:** |version-zoo-project|"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:90
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Támogatott platformok:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:92
+msgid ""
+"**Programing language support:** C, Python, Java, PHP, Fortran, Javascript, "
+"C#, Ruby"
+msgstr ""
+"**Támogatott program nyelvek:** C, Python, Java, PHP, Fortran, Javascript, "
+"C#, Ruby"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:94
+msgid "**Support:** http://zoo-project.org/"
+msgstr "**Támogatás:** http://zoo-project.org/"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:99
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/zoo-project_overview.rst:101
+msgid ":doc:`Quickstart documentation <../quickstart/zoo-project_quickstart>`"
+msgstr ""
+":doc:`Gyorstalpaló dokumentáció <../quickstart/zoo-project_quickstart>`"

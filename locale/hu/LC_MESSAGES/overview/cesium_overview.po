@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-07 09:20-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/cesium_overview.rst:13
+msgid "Cesium"
+msgstr "Cesium"
+
+#: ../../build/doc/overview/cesium_overview.rst:16
+msgid "About"
+msgstr "Névjegy"
+
+#: ../../build/doc/overview/cesium_overview.rst:19
+msgid "3D Globes and 2D Maps in a Browser"
+msgstr "3D földgömbök és 2D térképek a böngészőben"
+
+#: ../../build/doc/overview/cesium_overview.rst:21
+msgid ""
+"Cesium is a JavaScript library for creating 3D globes and 2D maps in a web "
+"browser without any plugins. It uses WebGL for hardware-accelerated "
+"graphics, and is cross-platform, cross-browser, and tuned for dynamic-data "
+"visualization."
+msgstr ""
+"A Cesium egy böngészőből további modulok nélkül használható JavaScript "
+"könyvtár 3D-s földgömbök és 2D-s térképek létrehozására. WebGL-t használ a "
+"hardver gyorsított grafikához, platform- és böngészőfüggetlen és a dinamikus"
+" adatmegjelenítésére hangolták."
+
+#: ../../build/doc/overview/cesium_overview.rst:30
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/cesium_overview.rst:31
+msgid "Dynamic Geospatial Visualization:"
+msgstr "Dinamikus térinformatikai megjelenítés:"
+
+#: ../../build/doc/overview/cesium_overview.rst:33
+msgid ""
+"Create data-driven, time-dynamic scenes with `CZML "
+"<https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide>`_."
+msgstr ""
+"Adatvezérelt, időben dinamikus jelenetek  `CZML "
+"<https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide>`_-el."
+
+#: ../../build/doc/overview/cesium_overview.rst:34
+msgid "Visualize high-resolution worldwide terrain."
+msgstr "Az egész világra kiterjedő, nagy felbontású terep megjelenítés."
+
+#: ../../build/doc/overview/cesium_overview.rst:35
+msgid ""
+"Draw imagery layers using WMS, TMS, OpenStreetMaps, Bing, and Esri "
+"standards."
+msgstr ""
+"Képek megjelenítése WMS, TMS, OpenStreetMaps, Bing és ESRI szabványok "
+"felhasználásával."
+
+#: ../../build/doc/overview/cesium_overview.rst:36
+msgid "Draw vector data from GeoJSON and TopoJSON."
+msgstr "Vektor adatok rajzolása GeoJSON-ból vagy TopoJSON-ból."
+
+#: ../../build/doc/overview/cesium_overview.rst:37
+msgid "Draw 3D models using COLLADA and glTF."
+msgstr "3D modellek megjelenítése COLLADA és glTF felhasználásával."
+
+#: ../../build/doc/overview/cesium_overview.rst:38
+msgid ""
+"Use `plugins <http://cesiumjs.org/plugins/index.html>`_ to extend Cesium."
+msgstr ""
+"`Beépülő modulok <http://cesiumjs.org/plugins/index.html>`_  használata a "
+"Cesium kibővítésére."
+
+#: ../../build/doc/overview/cesium_overview.rst:40
+msgid "Built for Performance and Precision:"
+msgstr "Hatékonyság és pontosság:"
+
+#: ../../build/doc/overview/cesium_overview.rst:42
+msgid ""
+"Optimized WebGL with batching and culling efficiently uses hardware-"
+"accelerated graphics."
+msgstr ""
+"Az adagolásra és eldobásra optimalizált WebGL hardver gyorsított grafikát "
+"használ."
+
+#: ../../build/doc/overview/cesium_overview.rst:43
+msgid ""
+"Draw a wide range of geometries including polylines, polygons, billboards, "
+"labels, extrusions, and corridors."
+msgstr ""
+"A geometriák széles skáláját jeleníti meg, többek között törtvonalak, "
+"sokszögek, billboardok, címkék, profilok és folyosók."
+
+#: ../../build/doc/overview/cesium_overview.rst:44
+msgid ""
+"Use `3D Tiles <https://cesium.com/blog/2017/07/12/the-next-generation-of-3d-"
+"tiles/>`_ to stream, style and interact with heterogeneous 3D data, "
+"including photogrammetry models, 3D buildings, CAD and BIM exterior and "
+"interiors, and point clouds."
+msgstr ""
+"Használja a `3D csempéket <https://cesium.com/blog/2017/07/12/the-next-"
+"generation-of-3d-tiles/>`_ heterogén 3D-s adatok, mint például "
+"fotogrammetriai modellek, 3D épületek, CAD és BIM külső és belső modellek, "
+"valamint pontfelhők átvitelére, stílusának kialakítására és interaktív "
+"felhasználására."
+
+#: ../../build/doc/overview/cesium_overview.rst:45
+msgid "Control the camera and create flight paths."
+msgstr "Kamera vezérlés és repülési útvonal készítés."
+
+#: ../../build/doc/overview/cesium_overview.rst:46
+msgid ""
+"Use standard widgets to control animation time, select imagery layers, and "
+"zoom to a location."
+msgstr ""
+"Szabványos vezérlők az animáció időzítésére, a háttér réteg kiválasztására "
+"és a helyre nagyításra."
+
+#: ../../build/doc/overview/cesium_overview.rst:48
+msgid "One API, Three Views:"
+msgstr "Egy API, három nézet:"
+
+#: ../../build/doc/overview/cesium_overview.rst:50
+msgid ""
+"Cesium supports a 3D globe, 2D map, and 2.5D Columbus View with the same "
+"API."
+msgstr ""
+"A Cesium egyetlen API-val biztosítja a 3D földgömböt, a 2D térképet és a "
+"2.5D Columbus nézetet."
+
+#: ../../build/doc/overview/cesium_overview.rst:53
+msgid "Implemented Standards"
+msgstr "Implementált szabványok"
+
+#: ../../build/doc/overview/cesium_overview.rst:54
+msgid "WMS and WMTS"
+msgstr "WMS és WMTS"
+
+#: ../../build/doc/overview/cesium_overview.rst:57
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/cesium_overview.rst:59
+msgid "**Website:** http://cesiumjs.org"
+msgstr "**Honlap:** http://cesiumjs.org"
+
+#: ../../build/doc/overview/cesium_overview.rst:61
+msgid "**Licence:** Apache 2.0 license"
+msgstr "**Licenc:** Apache 2.0 licenc"
+
+#: ../../build/doc/overview/cesium_overview.rst:63
+msgid "**Software Version:** |version-cesium|"
+msgstr "**Szoftver verzió:** |version-cesium|"
+
+#: ../../build/doc/overview/cesium_overview.rst:65
+msgid ""
+"**Supported Platforms:**  Platform independent, depends only on a browser "
+"which supports WebGL"
+msgstr ""
+"**Támogatott platformok:** Platform független, csak a WebGL-t támogató "
+"böngészőtől függ"
+
+#: ../../build/doc/overview/cesium_overview.rst:67
+msgid "**Community Support:** Forum at https://cesiumjs.org/forum/"
+msgstr "**Közösségi támogatás:** Fórum https://cesiumjs.org/forum/"
+
+#: ../../build/doc/overview/cesium_overview.rst:71
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/cesium_overview.rst:73
+msgid ":doc:`Quickstart documentation <../quickstart/cesium_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/cesium_quickstart>`"
+
+#~ msgid "**Community Support:** Mailing list cesium-dev@googlegroups.com"
+#~ msgstr "**Közösségi támogatás:** Levelező lista cesium-dev@googlegroups.com"

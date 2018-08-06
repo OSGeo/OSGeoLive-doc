@@ -1,0 +1,228 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:15
+msgid "OpenStreetMap Quickstart"
+msgstr "OpenStreetMap Quickstart"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:18
+msgid "About"
+msgstr "Über"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:22
+msgid ""
+"OpenStreetMap is a free street level map of the world, created by an ever "
+"growing community of mappers. Anyone can edit OpenStreetMap. The `Learn OSM "
+"website <http://learnosm.org>`_ provides easy to understand, step-by-step "
+"guides for you to get started with contributing to OpenStreetMap and using "
+"OpenStreetMap and using OpenStreetMap data. The Learn OSM guide at the link "
+"above shows step by step how to navigate the OpenStreetMap website, view and"
+" print maps, and sign up for a user account. After you have your own "
+"username and password, you will be able to add your first points to the map,"
+" learn how to do street surveys and work with aerial imagery."
+msgstr ""
+"OpenStreetMap ist eine freie Karte der Welt, die bis auf das Straßenlevel "
+"geht. Die Karte entsteht wurde durch eine ständig wachsende Gemeinschaft der"
+" Mapper. Jeder kann OpenStreetMap bearbeiten. Die 'Learn OSM Webseite < "
+"http://learnosm.org >' _ bietet verständliche Schritt-für-Schritt-"
+"Anleitungen, um schnell etwas zu OpenStreetMap beizutragen zu können,  "
+"OpenStreetMap nutzen zu können und die OpenStreetMap-Daten nutzen zu können "
+". Die Learn-OSM-Anleitung unter dem Link oben zeigt Schritt für Schritt die "
+"Navigation auf der OpenStreetMap-Website, die Anzeige und das Drucken Karten"
+" und wie Sie ein Benutzerkonto anlegen. Nachdem Sie Ihr eigenes "
+"Benutzerkonto und Passwort haben, sind Sie in der Lage, Ihre ersten Punkte "
+"zur Karte hinzuzufügen, erfahren wie Sie Straßen erfassen und arbeiten mit "
+"Luftbildern."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:33
+msgid ""
+"The remainder of this quickstart introduces some of the on-line and off-line"
+" software used to edit and render OSM data."
+msgstr ""
+"Der Rest dieser Quickstarts stellt ausgewählte Online- und Offline-Software "
+"zum Bearbeiten und Rendern von OSM-Daten vor."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:38
+msgid "Programs"
+msgstr "Programme"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:42
+msgid "iD"
+msgstr "iD"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:44
+msgid ""
+"**iD** is the default on-line editor for OpenStreetMap (OSM). iD is fast and"
+" easy to use, and allows mapping from various data sources such as ground "
+"survey, satellite and aerial imageries, GPS traces or street-level imagery."
+msgstr ""
+"**iD** ist der Online-Standardeditor für OpenStreetMap (OSM). iD ist schnell"
+" und einfach zu bedienen und ermöglicht die Zuordnung von verschiedenen "
+"Daten Quellen wie Bodenbeschaffenheit, Satelliten- und Luftbildaufnahmen, "
+"GPS-Tracks oder Straßen-Level-Daten."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:48
+msgid "Start page: https://www.openstreetmap.org/edit"
+msgstr "Startseite: https://www.openstreetmap.org/edit"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:52
+#: ../../build/doc/quickstart/osm_quickstart.rst:70
+msgid "Further reading"
+msgstr "Weiterführende Literatur"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:54
+msgid "Documentation: https://wiki.openstreetmap.org/wiki/ID"
+msgstr "Dokumentation: https://wiki.openstreetmap.org/wiki/ID"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:55
+msgid "Tutorial: http://learnosm.org/en/beginner/id-editor/"
+msgstr "Tutorial: http://learnosm.org/en/beginner/id-editor/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:59
+msgid "JOSM"
+msgstr "JOSM"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:61
+msgid ""
+"**JOSM** (Java OpenStreetMap Editor) is an advanced editor for OpenStreetMap"
+" (OSM) written in Java. It is more powerful and complex than iD, can be used"
+" for bulk editing, off-line or on an unreliable Internet connection. It can "
+"be extended with plugins, custom presets and more extensions."
+msgstr ""
+"**JOSM** (Java OpenStreetMap Editor) ist ein funktionsreicher Editor für "
+"OpenStreetMap (OSM) und ist in Java geschrieben. Er ist leistungsfähiger und"
+" komplexer als iD, einsetzbar für Massenbearbeitung (offline oder mit "
+"wackliger Internetverbindung). Er kann durch Plugins, benutzerdefinierte "
+"Voreinstellungen und weitere Extensions konfiguriert werden."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:67
+msgid "Homepage: https://josm.openstreetmap.de"
+msgstr "Homepage: https://josm.openstreetmap.de"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:72
+msgid "User guide: https://wiki.openstreetmap.org/wiki/JOSM/Guide"
+msgstr "Bedienungsanleitung: https://wiki.openstreetmap.org/wiki/JOSM/Guide"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:73
+msgid "Tutorial: http://learnosm.org/en/josm/start-josm/"
+msgstr "Tutorial: http://learnosm.org/en/josm/start-josm/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:74
+msgid "JOSM plugin collection: https://josm.openstreetmap.de/wiki/Plugins"
+msgstr "JOSM-Plugin-Sammlung: https://josm.openstreetmap.de/wiki/Plugins"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:78
+msgid "Merkaartor"
+msgstr "Merkaartor"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:80
+msgid ""
+"**Merkaartor** is a map editor for OpenStreetMap which uses the Qt toolkit. "
+"It's a bit more user friendly than JOSM, but has a few less features."
+msgstr ""
+"** Merkaartor-** ist ein Map-Editor für OpenStreetMap, der das Qt-Toolkit "
+"verwendet. Es ist ein wenig benutzerfreundlicher als JOSM, aber hat ein "
+"weniger Features."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:83
+msgid "Homepage: http://merkaartor.be"
+msgstr "Webseite: http://merkaartor.be"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:84
+msgid ""
+"Online help: https://wiki.openstreetmap.org/wiki/Merkaartor/Documentation"
+msgstr ""
+"Online Hilfe: https://wiki.openstreetmap.org/wiki/Merkaartor/Documentation"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:88
+msgid "QGIS"
+msgstr "QGIS"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:90
+msgid ""
+"OpenStreetMap data can be loaded in **QGIS** as vector layer, as a core "
+"functionality or through plugins like QuickOSM."
+msgstr ""
+"OpenStreetMap-Daten können mit ** QGIS ** als Vektor-Layer geladen werden: "
+"Diese Möglichkeit liegt als Kernfunktionalität vor oder kann durch Plugins "
+"wie QuickOSM erfolgen."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:93
+msgid "QuickOSM: http://plugins.qgis.org/plugins/QuickOSM/"
+msgstr "QuickOSM: http://plugins.qgis.org/plugins/QuickOSM/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:94
+msgid ""
+"Online help: "
+"https://wiki.openstreetmap.org/wiki/QGIS#QGIS_2:_Importing_OSM_vector_layers"
+msgstr ""
+"Online Hilfe: "
+"https://wiki.openstreetmap.org/wiki/QGIS#QGIS_2:_Importing_OSM_vector_layers"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:95
+msgid "Tutorial: http://learnosm.org/en/osm-data/osm-in-qgis/"
+msgstr "Tutorial: http://learnosm.org/en/osm-data/osm-in-qgis/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:98
+msgid "Osmosis"
+msgstr "Osmosis"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:100
+msgid ""
+"**Osmosis** is a highly capable utility program for performing many tasks at"
+" a raw level on OSM data. This includes data import and export to databases,"
+" sorting, cleaning, and creating data dumps."
+msgstr ""
+"**Osmose** ist ein äußerst fähiges Werkzeug für viele Aufgaben mit OSM-"
+"Rohdaten. Dazu gehören Datenimport und Export, Datenbanken, Sortierung, "
+"Reinigung und Erstellen von Daten-Sicherung."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:104
+msgid "Documentation: https://wiki.openstreetmap.org/wiki/Osmosis#Usage"
+msgstr "Dokumentation: https://wiki.openstreetmap.org/wiki/Osmosis#Usage"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:105
+msgid "Tutorial: http://learnosm.org/en/osm-data/osmosis/"
+msgstr "Tutorial: http://learnosm.org/en/osm-data/osmosis/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:109
+msgid "osm2pgsql"
+msgstr "osm2pgsql"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:111
+msgid ""
+"**osm2pgsql** is a utility program that converts OpenStreetMap (.osm) data "
+"into a format that can be loaded into PostgreSQL (PostGIS). It is often used"
+" to render OSM data visually using Mapnik, as Mapnik can query PostgreSQL "
+"for map data, but does not work directly with OSM files."
+msgstr ""
+"**osm2pgsql** ist ein Hilfsprogramm, das (.osm) OpenStreetMap-Daten in ein "
+"Format umwandelt, das in PostgreSQL (PostGIS) geladen werden kann. Es wird "
+"oft zum Rendern von OSM-Daten über Mapnik verwendet, da  Mapnik PostgreSQL "
+"unterstützt, aber nicht direkt mit OSM-Dateien funktioniert."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:116
+msgid "Homepage: https://wiki.openstreetmap.org/wiki/Osm2pgsql"
+msgstr "Webseite: https://wiki.openstreetmap.org/wiki/Osm2pgsql"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:117
+msgid "Tutorial: http://learnosm.org/en/osm-data/osm2pgsql/"
+msgstr "Tutorial: http://learnosm.org/en/osm-data/osm2pgsql/"

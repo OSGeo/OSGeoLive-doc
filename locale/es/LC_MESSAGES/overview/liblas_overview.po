@@ -112,9 +112,9 @@ msgstr ""
 
 #: ../../build/doc/overview/liblas_overview.rst:71
 msgid "Quickstart"
-msgstr "Inicio Rápido"
+msgstr "Guía de Inicio Rápido"
 
 #: ../../build/doc/overview/liblas_overview.rst:73
 msgid ":doc:`Quickstart documentation <../quickstart/liblas_quickstart>`"
 msgstr ""
-":doc:`Documentación de inicio rápido  <../quickstart/liblas_quickstart>`"
+":doc:`Documentación de Inicio Rápido  <../quickstart/liblas_quickstart>`"

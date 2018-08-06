@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:15
+msgid "EOxServer"
+msgstr "EOxServer"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:18
+msgid "About"
+msgstr "Névjegy"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:20
+msgid ""
+"EOxServer is a server for presenting big Earth Observation (EO) data "
+"archives and metadata via Open Standards."
+msgstr ""
+"Az EOxServer egy kiszolgáló nagy földi megfigyelési (EO) adatarchívumok és "
+"metaadatok megjelenítésére nyílt szabványokon keresztül."
+
+#: ../../build/doc/overview/eoxserver_overview.rst:23
+msgid ""
+"Earth Observation data currently supported includes 2D raster data generally"
+" acquired using sensors on satellites or aircrafts and including information"
+" about the time of acquisition and the footprint on planet Earth. It is "
+"typically used to monitor Earth's natural and built environment."
+msgstr ""
+"A jelenleg támogatott Föld-megfigyelési adatok a 2D-s raszter adatokat "
+"foglalják magukba, amelyeket általában műholdakra vagy repülőgépekre "
+"telepített szenzorokkal gyűjtenek, és tartalmazza a felvétel idejéről és a "
+"kiterjedéséről szóló információkat. Ezt általában a Föld természetes és "
+"épített környezetének megfigyelésére használják."
+
+#: ../../build/doc/overview/eoxserver_overview.rst:28
+msgid ""
+"EOxServer builds upon an Open Source stack of software which includes "
+"Python, :doc:`MapServer <mapserver_overview>`, Django/GeoDjango, :doc:`GDAL "
+"<gdal_overview>`, PROJ.4, and a :doc:`SpatiaLite <spatialite_overview>` or "
+":doc:`PostGIS <postgis_overview>` database."
+msgstr ""
+"At EOxServer nyílt forráskódú szoftverekre épül, mely tartalmazza a Python, "
+":doc:`MapServer <mapserver_overview>`, Django/GeoDjango, :doc:`GDAL "
+"<gdal_overview>`, PROJ.4 és :doc:`SpatiaLite <spatialite_overview>` vagy "
+":doc:`PostGIS <postgis_overview>` adatbázis. összetevőket."
+
+#: ../../build/doc/overview/eoxserver_overview.rst:40
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:42
+msgid "View, filter, subset, and download EO data"
+msgstr "EO adatok megjelenítése, szűrése, részhalmaz képzése és letöltése"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:43
+msgid "Register EO data archives"
+msgstr "EO adat archívumok regisztrálása"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:44
+msgid "Web based and command line administration interface"
+msgstr "Web alapú és parancssori adminisztrációs felület"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:45
+msgid ""
+"Publish data via `Open Geospatial Consortium (OGC) standards "
+"<http://www.opengeospatial.org/standards>`__:"
+msgstr ""
+"Adatok publikálása `Open Geospatial Consortium (OGC) szabványokon "
+"<http://www.opengeospatial.org/standards>`__ keresztül:"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:48
+msgid ""
+"`Web Coverage Service (WCS) <http://www.opengeospatial.org/standards/wcs>`__"
+" 1.0, 1.1 and 2.0 & proposed EO-WCS"
+msgstr ""
+"`Web Coverage Service (WCS) <http://www.opengeospatial.org/standards/wcs>`__"
+" 1.0, 1.1 és 2.0 & javasolt EO-WCS"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:50
+msgid ""
+"`Web Map Service (WMS) <http://www.opengeospatial.org/standards/wms>`__ & "
+"EO-WMS"
+msgstr ""
+"`Web Map Service (WMS) <http://www.opengeospatial.org/standards/wms>`__ & "
+"EO-WMS"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:51
+msgid ""
+"Proposed extensions to WCS including: GeoTIFF encoding, predefined "
+"projections (CRSs), scaling, and interpolation."
+msgstr ""
+"WCS-hez javasolt bővítmények: GeoTIFF encoding, vetületek (CRSs), méretezés,"
+" és interpoláció."
+
+#: ../../build/doc/overview/eoxserver_overview.rst:53
+msgid ""
+"Protocols supported are: KVP and XML/POST (used together with SOAP2POST "
+"Proxy to provide also XML/SOAP)"
+msgstr ""
+"Támogatott protokollok: KVP és XML/POST (a SOAP2POST Proxy-val együtt "
+"használva XML/SOAP biztosítása is)"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:56
+msgid "Publish using the following formats and groupings:"
+msgstr "Publikálás a következő formátumok és csoportok felhasználásával:"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:58
+msgid "2-D EO Coverages derived from gmlcov:RectifiedGridCoverage"
+msgstr "gmlcov:RectifiedGridCoverage-ből levezetett 2-D EO fedvények"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:59
+msgid "2-D EO Coverages derived from gmlcov:ReferenceableGridCoverage"
+msgstr "gmlcov:ReferenceableGridCoverage-ből levezetett 2-D EO fedvények"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:60
+msgid "Dataset Series as a collection of EO Coverages e.g. in a time series"
+msgstr "Adatsorok mint EO fedvények sorozata pl. idősorok"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:61
+msgid ""
+"Stitched Mosaics of Rectified EO Coverages including contributingFootprint"
+msgstr ""
+"Helyesbített EO fedvények illesztett mozaikjai beleértve a "
+"contributingFootprint-et"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:63
+msgid "Coverage formats supported:"
+msgstr "Támogatott feddvény formátumok:"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:65
+msgid "GeoTIFF"
+msgstr "GeoTIFF"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:66
+msgid "Formats supported by the GDAL library"
+msgstr "GDAL könyvtár általtámogatott formátumok"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:69
+msgid "Implemented Standards"
+msgstr "Implementált szabványok"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:71
+msgid "WCS, EO-WCS"
+msgstr "WCS, EO-WCS"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:72
+msgid "WMS, EO-WMS"
+msgstr "WMS, EO-WMS"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:73
+msgid "WPS"
+msgstr "WPS"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:74
+msgid "GML, GMLCOV, EO-O&M"
+msgstr "GML, GMLCOV, EO-O&M"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:75
+msgid "OpenSearch"
+msgstr "OpenSearch"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:78
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:80
+msgid "**Website:** https://eoxserver.readthedocs.org/"
+msgstr "**Honlap:** https://eoxserver.readthedocs.org/"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:82
+msgid ""
+"**Licence:** `MIT-style license "
+"<https://eoxserver.readthedocs.org/en/latest/copyright.html#license>`_"
+msgstr ""
+"**Licenc:** `MIT-style license "
+"<https://eoxserver.readthedocs.org/en/latest/copyright.html#license>`_"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:84
+msgid "**Software Version:** |version-eoxserver|"
+msgstr "**Szoftver verzió:** |version-eoxserver|"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:86
+msgid "**Supported Platforms:** Linux, Windows, Mac"
+msgstr "**Támogatott platformok:** Linux, Windows, Mac"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:88
+msgid "**API Interfaces:** Python"
+msgstr "**API interfészek:** Python"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:90
+msgid ""
+"**Support:** https://eoxserver.readthedocs.org/en/latest/users/basics.html"
+"#where-can-i-get-support"
+msgstr ""
+"**Támogatás:** https://eoxserver.readthedocs.org/en/latest/users/basics.html"
+"#where-can-i-get-support"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:94
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:96
+msgid ":doc:`Quickstart documentation <../quickstart/eoxserver_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/eoxserver_quickstart>`"

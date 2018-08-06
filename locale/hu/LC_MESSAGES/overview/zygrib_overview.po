@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/zygrib_overview.rst:14
+msgid "zyGrib"
+msgstr "zyGrib"
+
+#: ../../build/doc/overview/zygrib_overview.rst:17
+msgid "Weather forecasting"
+msgstr "Időjárás előrejelzés"
+
+#: ../../build/doc/overview/zygrib_overview.rst:19
+msgid ""
+"zyGrib is a program to download and visualize weather forecast data in the "
+"standard GRIB distribution format."
+msgstr ""
+"A zyGrib egy olyan program, amellyel letöltheti és megjelenítheti az "
+"időjárás-előrejelzési adatokat a standard GRIB formátumban."
+
+#: ../../build/doc/overview/zygrib_overview.rst:29
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/zygrib_overview.rst:31
+msgid "Visualization of meteorologic data from files in GRIB format"
+msgstr "Meteorológia adatok megjelenítése GRIB formátumú fájlokból"
+
+#: ../../build/doc/overview/zygrib_overview.rst:32
+msgid "Automatic download of weather and wave forecasts"
+msgstr "Időjárás és hullámzás előjelzések automatikus letöltése"
+
+#: ../../build/doc/overview/zygrib_overview.rst:33
+msgid "Automatic download from IAC (fleetcode) data"
+msgstr "Automatikus letöltés IAC (fleetcode) adatokból"
+
+#: ../../build/doc/overview/zygrib_overview.rst:34
+msgid "Play animations of 8-day forecasts"
+msgstr "8 napos előrejelzések animált lejátszása"
+
+#: ../../build/doc/overview/zygrib_overview.rst:35
+msgid ""
+"Create your own regional weather maps (worldwide), or view a detailed "
+"quantitative forecast for a particular location."
+msgstr ""
+"Saját regionális időjárás térkép létrehozása (bárhol a Földön), vagy egy "
+"részletes előrejelzés egy bizonyos helyre."
+
+#: ../../build/doc/overview/zygrib_overview.rst:36
+msgid ""
+"Plot wind, pressure, temperature, humidity, rain, snow, cloud cover, dew "
+"point, wave height, and high altitude data."
+msgstr ""
+"A szél, a nyomás, a hőmérséklet, a páratartalom, az eső, a hó, a "
+"felhőtakaró, a harmatpont, a hullámmagasság és a magassági adatok "
+"megjelenítése."
+
+#: ../../build/doc/overview/zygrib_overview.rst:39
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/zygrib_overview.rst:41
+msgid "**Website:** http://www.zygrib.org"
+msgstr "**Honlap:** http://www.zygrib.org"
+
+#: ../../build/doc/overview/zygrib_overview.rst:43
+msgid "**Licence:** GNU General Public License (GPL) version 3"
+msgstr "**Licenc:** GNU General Public License (GPL) version 3"
+
+#: ../../build/doc/overview/zygrib_overview.rst:45
+msgid "**Software Version:** |version-zygrib|"
+msgstr "**Program verzió:** |version-zygrib|"
+
+#: ../../build/doc/overview/zygrib_overview.rst:47
+msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
+msgstr "**Támogatott platformok:** GNU/Linux, Mac OSX, MS Windows"
+
+#: ../../build/doc/overview/zygrib_overview.rst:49
+msgid "**Support:** http://zygrib.org/forum/"
+msgstr "**Támogatás:** http://zygrib.org/forum/"
+
+#: ../../build/doc/overview/zygrib_overview.rst:54
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/zygrib_overview.rst:56
+msgid ":doc:`Quickstart documentation <../quickstart/zygrib_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/zygrib_quickstart>`"

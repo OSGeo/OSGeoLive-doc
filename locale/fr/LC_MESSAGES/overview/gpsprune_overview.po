@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011, OSGeo
+# Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Last-Translator: Nicolas Roelandt, 2018\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
@@ -28,12 +29,12 @@ msgstr "Édition de traces GPS"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:20
 msgid ""
-"`GpsPrune <http://gpsprune.activityworkshop.net/>`_ is a tool for viewing, "
+"`GpsPrune <https://gpsprune.activityworkshop.net/>`_ is a tool for viewing, "
 "editing and converting coordinate data from GPS systems.  It can be used for"
 " planning trips in advance, or for analysing the tracks recorded by GPS "
 "receivers."
 msgstr ""
-"`GpsPrune <http://gpsprune.activityworkshop.net/>`_ est un outil pour "
+"`GpsPrune <https://gpsprune.activityworkshop.net/>`_ est un outil pour "
 "visualiser, éditer et convertir des données en coordonnées de systèmes GPS. "
 "Il peut être utilisé pour planifier des voyages à l'avance ou analyser les "
 "traces enregistrées par des récepteurs GPS."
@@ -145,8 +146,8 @@ msgid "Details"
 msgstr "Détails"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:58
-msgid "**Website:** http://gpsprune.activityworkshop.net/"
-msgstr "**Site web:** http://gpsprune.activityworkshop.net/"
+msgid "**Website:** https://gpsprune.activityworkshop.net/"
+msgstr "**Site Internet:** https://gpsprune.activityworkshop.net/"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:60
 msgid "**Licence:** GNU General Public License (GPL) version 2"

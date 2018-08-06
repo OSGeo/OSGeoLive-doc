@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:14
+msgid "OSGeo North Carolina, USA Educational dataset"
+msgstr "OSGeo Észak Karolina, USA oktatási adathalmazok"
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:17
+msgid "Map Data"
+msgstr "Térkép adat"
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:21
+msgid ""
+"This data set is a comprehensive collection of raster, vector and imagery "
+"data covering parts of North Carolina (NC), USA, prepared from public data "
+"sources provided by the North Carolina state and local government agencies "
+"and Global Land Cover Facility (GLCF)."
+msgstr ""
+"Ez az adatsor a raszter, a vektor és a képi adatok átfogó gyűjteménye Észak-"
+"Karolinából (NC), USA, nyilvános adatforrásokból készítették, melyeket az "
+"észak-karolinai állami és helyi kormányzati szervek és a Global Land Cover "
+"Facility (GLCF) biztosítanak."
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:23
+msgid ""
+"The data set includes sections of the NC capital city Raleigh and its "
+"surroundings."
+msgstr "Az adatsor részeket tartalmaz Raleigh NC fővárosból és környékéről."
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:25
+msgid "Data are provided at three hierarchical levels:"
+msgstr "Adatokat három hierarchikus szinten biztosítják:"
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:27
+msgid "entire NC state with raster data at 500m resolution;"
+msgstr "teljes NC állam, 500 méteres felbontású raszter adatok;"
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:29
+msgid "South-west Wake County with raster data at resolutions 30m-10m; and"
+msgstr "Dél-nyugati Wake megye 10-30 méteres felbontású raszter adatok és"
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:31
+msgid ""
+"a small watershed in rural area with data resolutions of 1m-3m (see image)."
+msgstr ""
+"egy külterületi kis vízgyűjtő  adatai 1m-3m felbontással (lásd a képet)."
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:40
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:42
+msgid ""
+"County and state level raster, vector, and KML map layers with full meta-"
+"data, specifically selected to cover the wide needs of teaching introductory"
+" GIS courses and providing examples for software help pages and tutorials."
+msgstr ""
+"Megyei és állami szintű raszter, vektor és KML térkép rétegek teljes meta-"
+"adatokkal, melyeket kifejezetten a kezdő GIS tanfolyamok  igényeinek "
+"kielégítésére válogattak össze és példákat biztosít a szoftver súgó "
+"oldalakhoz és oktatóanyagokhoz."
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:44
+msgid ""
+"The Creative Commons license means the data can be used, distributed, and "
+"modified by anyone. Without the usual legal encumbrances of much publicly "
+"available geodata it is ideal for use in the classroom."
+msgstr ""
+"A Creative Commons licenc azt jelenti, hogy az adatokat bárki használhatja, "
+"továbbadhatja és módosíthatja. A szokásos jogi terhek nélkül mint sok "
+"nyilvános adat esetén, ideálisan használhatók az osztálytermekben."
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:48
+msgid "Data Sets"
+msgstr "Adathalmazok"
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:51
+msgid "Cultural Vector Data Themes:"
+msgstr "Kulturális vektoradat témák:"
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:51
+msgid ""
+"Includes political boundaries, roads, bus stops, firestations, census "
+"blocks, and much more."
+msgstr ""
+"Politikai határokat, utakat, buszmegállókat, tűzoltó állomásokat, "
+"népszámlálási blokkokat és még sok mást tartalmaz."
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:54
+msgid "Physical Vector Data Themes:"
+msgstr "Fizikai vektoradat témák:"
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:54
+msgid ""
+"Includes LiDAR aerial elevation measurements, contour lines, streams, "
+"precipitation, and much more."
+msgstr ""
+"LiDAR légi magasságméréseket, szintvonalakat, vízfolyásokat, csapadék "
+"adatokat és még sok mást tartalmaz."
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:58
+msgid "Raster Data Themes:"
+msgstr "Raszteradat témák:"
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:57
+msgid ""
+"Includes digital elevation maps, landuse and landcover, LANDSAT7 imagery, "
+"and much more."
+msgstr ""
+"Digitális magasság térképeket, földhasználati és felszínborítási adatokat, "
+"LANDSAT7 képeket és még sok mást tartalmaz."
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:61
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:63
+msgid "**Website:** http://www.grassbook.org/data_menu3rd.php"
+msgstr "**Honlap:** http://www.grassbook.org/data_menu3rd.php"
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:65
+msgid ""
+"**License:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA"
+" 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_"
+msgstr ""
+"**Licenc:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA "
+"3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_"
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:67
+msgid "**Data Version:** 2008"
+msgstr "**Adat változat:** 2008"
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:69
+msgid "**Data format:** GeoTIFF, Shapefiles, KML"
+msgstr "**Adatformátumok:** GeoTIFF, Shapefiles, KML"
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:71
+msgid ""
+"**Spatial coordinate system:** NC State Plane (Lambert Conformal Conic), "
+"NAD83"
+msgstr ""
+"**Koordináta-rendszer:** NC State Plane (Lambert Conformal Conic), NAD83"
+
+#: ../../build/doc/overview/nc_dataset_overview.rst:73
+msgid "**Support:** http://lists.osgeo.org/mailman/listinfo/geodata"
+msgstr "**Támogatás:** http://lists.osgeo.org/mailman/listinfo/geodata"

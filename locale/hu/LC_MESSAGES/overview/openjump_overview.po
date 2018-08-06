@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2017\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/openjump_overview.rst:14
+msgid "OpenJUMP GIS"
+msgstr "OpenJUMP GIS"
+
+#: ../../build/doc/overview/openjump_overview.rst:17
+msgid "Desktop GIS"
+msgstr "Asztali GIS"
+
+#: ../../build/doc/overview/openjump_overview.rst:19
+msgid ""
+"OpenJUMP is an easy to use and powerful desktop GIS that enables users to "
+"display, edit, analyse and conflate geographic data. It comes in a CORE and "
+"a PLUS edition, with the latter adding lots of useful plugins. OpenJUMP is "
+"excellent for data editing and rapid prototyping of GIS functions."
+msgstr ""
+"Az OpenJump egy egyszerűen használható, hatékony asztali térinformatikai "
+"program, mely lehetővé teszi a földrajzi adatok megjelenítését, "
+"szerkesztését, elemzését és egyesítését. Alap illetve Plusz változatban "
+"érhető el, a később hozzáadott számos hasznos modullal együtt. Az OpenJump "
+"kiváló az adatok szerkesztésben és a GIS függvények prototípusának gyors "
+"előállításában."
+
+#: ../../build/doc/overview/openjump_overview.rst:31
+msgid "Features (Core Features and PlugIns*)"
+msgstr "Funkciók (alapfunkciók és bővítő modulok*)"
+
+#: ../../build/doc/overview/openjump_overview.rst:33
+msgid "Data Formats"
+msgstr "Adatformátumok"
+
+#: ../../build/doc/overview/openjump_overview.rst:35
+msgid ""
+"reads (files): GML, SHP, DXF+, MIF*, CSV+, KML+, OSM* & TIFF, ASCII grid, "
+"JPG, PNG, JPEG2000+, MrSID*, ECW+"
+msgstr ""
+"olvasás (fájlok): GML, SHP, DXF+, MIF*, CSV+, KML+, OSM* és TIFF, ASCII "
+"grid, JPG, PNG, JPEG2000+, MrSID*, ECW+"
+
+#: ../../build/doc/overview/openjump_overview.rst:36
+msgid ""
+"reads (DB): PostGIS, ArcSDE*, Oracle*, MySQL*, SpatiaLite+, H2 Spatial+, "
+"MariaDB+"
+msgstr "olvasás (adatbázis): PostGIS, ArcSDE*, Oracle*, MySQL* és SpatiaLite*"
+
+#: ../../build/doc/overview/openjump_overview.rst:37
+msgid "reads (OGC standards): WKT, WMS, KML+, GeoPackage"
+msgstr "olvasás (OGC szabványok): WKT, WMS, KML+, GeoPackage"
+
+#: ../../build/doc/overview/openjump_overview.rst:38
+msgid ""
+"writes: GML, SHP, WKT, DXF+, CSV+, PostGIS & JPG, TIFF, ASCII grid*, SVG+"
+msgstr ""
+"írás: GML, SHP, WKT, DXF+, CSV+, PostGIS & JPG, TIFF, ASCII grid*, SVG+"
+
+#: ../../build/doc/overview/openjump_overview.rst:39
+msgid ""
+"note, formats marked with a (*) require an additional plugin, and with (+) "
+"are part of the PLUS edition."
+msgstr ""
+"megjegyzés, a (*)-gal jelőlt formátumokhoz további modul szükséges, a (+)-al"
+" jelöltek megtalálhatók a Plusz változatban."
+
+#: ../../build/doc/overview/openjump_overview.rst:41
+msgid "Editing & Conflation"
+msgstr "Szerkesztés és egyesítés"
+
+#: ../../build/doc/overview/openjump_overview.rst:43
+msgid ""
+"drawing points, lines, polygons, multi-geometries, geometry collections and "
+"circles (eventually mixed in a single layer)"
+msgstr ""
+"pontok, törtvonalak, felületek, multi-geometriák, geometria gyűjtemények és "
+"körök megjelenítése (ezek keverhetők egy rétegen belül is)"
+
+#: ../../build/doc/overview/openjump_overview.rst:44
+msgid "adding, moving, deleting vertices"
+msgstr "töréspontok hozzáadása, mozgatása és törlése"
+
+#: ../../build/doc/overview/openjump_overview.rst:45
+msgid "rotating, scaling, auto-complete polygon"
+msgstr "forgatás, skálázás, felületek automatikus befejezése"
+
+#: ../../build/doc/overview/openjump_overview.rst:46
+msgid "cut, merge, simplify polygons and lines"
+msgstr "törtvonalak és felületek kivágása, összefűzése és egyszerűsítése"
+
+#: ../../build/doc/overview/openjump_overview.rst:47
+msgid "warping, quality assurance tools"
+msgstr "kép transzformálás, minőség ellenőrző eszközök"
+
+#: ../../build/doc/overview/openjump_overview.rst:48
+msgid "coordinate conversions between CRS'"
+msgstr "koordináta transzformáció vetültek között"
+
+#: ../../build/doc/overview/openjump_overview.rst:50
+msgid "Analysis & Query"
+msgstr "Elemzés és lekérdezés"
+
+#: ../../build/doc/overview/openjump_overview.rst:52
+msgid "spatial and attribute query functions"
+msgstr "térbeli és attribútum lekérdező funkciók"
+
+#: ../../build/doc/overview/openjump_overview.rst:53
+msgid "analysis : buffer, union, overlay, centroid, convex hull..."
+msgstr "elemzés: övezet, unió, átfedés, centrális, konvex körvonal..."
+
+#: ../../build/doc/overview/openjump_overview.rst:54
+msgid ""
+"statistics : length, area, layer statistics, attribute statistics, plots..."
+msgstr ""
+"statisztika: hossz, terület, réteg statisztika, attribútum statisztika, "
+"rajzok..."
+
+#: ../../build/doc/overview/openjump_overview.rst:55
+msgid ""
+"editing tools : converter, noder, polygonizer, planar graph, topology "
+"cleaning in PLUS edition, ..."
+msgstr ""
+"szerkesztő eszközök: konvertáló, töréspont, poligonizáló, síkbeli gráf, "
+"topológiai tisztítás a PLUS változatban, ..."
+
+#: ../../build/doc/overview/openjump_overview.rst:56
+msgid "attribute transfer tools : join, matching*"
+msgstr "attribútum átviteli eszközök: összekapcsolás, összeillesztés*"
+
+#: ../../build/doc/overview/openjump_overview.rst:57
+msgid "SEXTANTE raster analysis toolbox included in PLUS edition"
+msgstr "SEXTANTE raszter elemző eszköztár a PLUS verzióban"
+
+#: ../../build/doc/overview/openjump_overview.rst:59
+msgid "Customization"
+msgstr "Testreszabás"
+
+#: ../../build/doc/overview/openjump_overview.rst:61
+msgid "internationalization (cz, de, en, es, fi, fr, hu, it, ja, pt, ta, zh)"
+msgstr "több nyelven (cz, de, en, es, fi, fr, hu, it, ja, pt, ta, zh)"
+
+#: ../../build/doc/overview/openjump_overview.rst:62
+msgid "provides an API, scripting via BeanShell and Java Python/Ython"
+msgstr "API szkriptek a BeanShell és Java Python/Ython könyezetekhez"
+
+#: ../../build/doc/overview/openjump_overview.rst:63
+msgid "(Java) plugin-system"
+msgstr "(Java) modul rendszer"
+
+#: ../../build/doc/overview/openjump_overview.rst:66
+msgid "Implemented Standards"
+msgstr "Implementált szabványok"
+
+#: ../../build/doc/overview/openjump_overview.rst:70
+msgid ""
+"OGC standards supported: GML2, SFS, WMS, KML, SLD, GeoPackage (reading);"
+msgstr ""
+"támogatott OGC szabványok: GML2, SFS, WMS, KML, SLD, GeoPackage (olvasás);"
+
+#: ../../build/doc/overview/openjump_overview.rst:73
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/openjump_overview.rst:75
+msgid "**Website:** http://www.openjump.org"
+msgstr "**Honlap:** http://www.openjump.org"
+
+#: ../../build/doc/overview/openjump_overview.rst:77
+msgid "**Licence:** GPL"
+msgstr "**Licenc:** GPL"
+
+#: ../../build/doc/overview/openjump_overview.rst:79
+msgid "**Software Version:** |version-openjump|"
+msgstr "**Szoftver verzió:** |version-openjump|"
+
+#: ../../build/doc/overview/openjump_overview.rst:81
+msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
+msgstr "**Támogatott platformok:** Windows, Linux, Mac, Unix"
+
+#: ../../build/doc/overview/openjump_overview.rst:83
+msgid "**Community Support:** http://www.openjump.org/support.html"
+msgstr "**Közösségi támogatás:** http://www.openjump.org/support.html"
+
+#: ../../build/doc/overview/openjump_overview.rst:85
+msgid ""
+"**Commercial Support:** "
+"http://ojwiki.soldin.de/index.php?title=Professional_Support_Page"
+msgstr ""
+"**Kereskedelmi támogatás:** "
+"http://ojwiki.soldin.de/index.php?title=Professional_Support_Page"
+
+#: ../../build/doc/overview/openjump_overview.rst:87
+msgid "**Download Page:** http://sourceforge.net/projects/jump-pilot/files/"
+msgstr "**Letöltés:** http://sourceforge.net/projects/jump-pilot/files/"
+
+#: ../../build/doc/overview/openjump_overview.rst:91
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/openjump_overview.rst:93
+msgid ":doc:`Quickstart documentation <../quickstart/openjump_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/openjump_quickstart>`"

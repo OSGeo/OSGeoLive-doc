@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-06 09:21-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2017\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/metrics.rst:6
+msgid "|osgeolive-version| Project Metrics"
+msgstr "|osgeolive-version| Projekt mérőszámok"
+
+#: ../../build/doc/metrics.rst:8
+msgid ""
+"Metrics provided by `OpenHUB <https://www.openhub.net/>`_ which are derived "
+"from the projects' code repositories. Note these metrics have known "
+"deficiencies (such as caused by repositories moving), and only provide "
+"partial indications about the projects' development. Lack of change in "
+"smaller, concise packages and libraries may simply reflect a level of "
+"maturity and completeness."
+msgstr ""
+"A mérőszámokat az  `OpenHUB <https://www.openhub.net/>`_ biztosítja, "
+"melyeket a projektek tárházából vezetnek le. Vegye figyelembe, hogy ezek a "
+"mutatóknak ismert hiányosságai vannak  (ezt például a tárházak mozgása "
+"okozhatja), és csak részleges információt adnak a projektek fejlesztéséről. "
+"A kisebb, tömör csomagokban és könyvtárakban bekövetkezett változások hiánya"
+" egyszerűen tükrözheti az érettséget és a teljességet."
+
+#: ../../build/doc/metrics.rst:14
+msgid ""
+"Viewing the metrics requires an Internet connection and Javascript to be "
+"enabled."
+msgstr ""
+"A mérőszámok megtekintéséhez internet kapcsolatra és a Javascript "
+"engedélyezésére van szükség."
+
+#: ../../build/doc/metrics.rst:23
+msgid "Desktop GIS"
+msgstr "Asztali GIS"
+
+#: ../../build/doc/metrics.rst:36
+msgid "Browser Facing GIS"
+msgstr "Böngészőből használható GIS"
+
+#: ../../build/doc/metrics.rst:50
+msgid "Web Services"
+msgstr "Web szolgáltatás"
+
+#: ../../build/doc/metrics.rst:70
+msgid "Data Stores"
+msgstr "Adattárolás"
+
+#: ../../build/doc/metrics.rst:81
+msgid "Navigation and Maps"
+msgstr "Navigáció és térképek"
+
+#: ../../build/doc/metrics.rst:94
+msgid "Spatial Tools"
+msgstr "Térbeli eszközök"
+
+#: ../../build/doc/metrics.rst:107
+msgid "Domain Specific GIS"
+msgstr "Szakterület specifikus GIS"
+
+#: ../../build/doc/metrics.rst:115
+msgid "Data"
+msgstr "Adatok"
+
+#: ../../build/doc/metrics.rst:126
+msgid "Geospatial Libraries"
+msgstr "Térinformatikai könyvtárak"

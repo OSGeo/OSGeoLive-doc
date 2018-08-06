@@ -1,0 +1,266 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/leaflet_overview.rst:16
+msgid "Leaflet"
+msgstr "Leaflet"
+
+#: ../../build/doc/overview/leaflet_overview.rst:19
+msgid "Browser/Mobile Map Library"
+msgstr "Böngésző/mobil térkép könyvtár"
+
+#: ../../build/doc/overview/leaflet_overview.rst:21
+msgid ""
+"Leaflet is an JavaScript library for browser based, mobile-friendly, "
+"interactive maps.  It is light weight, yet has all the features most "
+"developers ever need for online maps."
+msgstr ""
+"A Leaflet egy JavaScript könyvtár böngésző alapú, mobilbarát, interaktív "
+"térképekhez. Könnyűsúlyú, de az összes funkciót tartalmazza amire a legtöbb "
+"fejlesztőnek valaha szüksége lesz online térképekhez."
+
+#: ../../build/doc/overview/leaflet_overview.rst:23
+msgid ""
+"Leaflet is designed with simplicity, performance and usability in mind. It "
+"works efficiently across all major desktop and mobile platforms out of the "
+"box,  taking advantage of HTML5 and CSS3 on modern browsers while being "
+"accessible on older ones too.  It can be extended with many plugins, has a "
+"beautiful, easy to use and well-documented API and a simple, readable source"
+" code that is a joy to contribute to."
+msgstr ""
+"A Leaflet-et az egyszerűséget, a teljesítményt és felhasználhatóságot "
+"előtérbe helyezve tervezték. Hatékonyan dolgozik főbb asztali és mobil "
+"platformokon, a HTML5 és CSS3 előnyeit kihasználva a modern böngészőkön, "
+"miközben a régi változatokon is elérhető. Számos modullal bővíthető egy "
+"szép, könnyen használható és jól dokumentált API-val, olvasható forráskóddal"
+" rendelkezik, amihez öröm hozzáadni."
+
+#: ../../build/doc/overview/leaflet_overview.rst:37
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/leaflet_overview.rst:39
+msgid "Map Layers"
+msgstr "Térkép rétegek"
+
+#: ../../build/doc/overview/leaflet_overview.rst:41
+msgid "Tiles, Markers, Popups, Image overlays, WMS, GeoJSON"
+msgstr "Csempék, szimbólumok, felbukkanó ablakok, képek, WMS, GeoJSON"
+
+#: ../../build/doc/overview/leaflet_overview.rst:42
+msgid "Vectors: polylines, polygons, circles, rectangles, circle markers"
+msgstr "Vektorok: törtvonalak, felületek, körök, téglalapok, kör szimbólumok"
+
+#: ../../build/doc/overview/leaflet_overview.rst:43
+msgid "Layer groups"
+msgstr "Réteg csoportok"
+
+#: ../../build/doc/overview/leaflet_overview.rst:45
+msgid "Customization Features"
+msgstr "Testreszabási funkciók"
+
+#: ../../build/doc/overview/leaflet_overview.rst:47
+msgid "Pure CSS3 popups and controls for easy restyling"
+msgstr ""
+"Tisztán CSS3 felbukkanó ablakok és vezérlők a könnyű stílus változtatásért"
+
+#: ../../build/doc/overview/leaflet_overview.rst:48
+msgid "Image- and HTML-based markers"
+msgstr "Kép és HTML alapú szimbólumok"
+
+#: ../../build/doc/overview/leaflet_overview.rst:49
+msgid "Custom map layers, controls, projections"
+msgstr "Egyéni térkép rétegek, vezérlők, vetületek"
+
+#: ../../build/doc/overview/leaflet_overview.rst:50
+msgid "Powerful OOP facilities for extending existing classes"
+msgstr "hatékony OOP eszközök a létező osztályok kiterjesztéséhez"
+
+#: ../../build/doc/overview/leaflet_overview.rst:58
+msgid "Interaction and Visual Features"
+msgstr "Interakció és vizuális jellemzők"
+
+#: ../../build/doc/overview/leaflet_overview.rst:53
+msgid "Drag panning with inertia"
+msgstr "Elhúzás tehetetlenséggel"
+
+#: ../../build/doc/overview/leaflet_overview.rst:54
+msgid "Keyboard navigation"
+msgstr "Billentyűzet navigáció"
+
+#: ../../build/doc/overview/leaflet_overview.rst:55
+msgid "Multi-touch"
+msgstr "Többes-érintés"
+
+#: ../../build/doc/overview/leaflet_overview.rst:56
+msgid "Zoom/Panning animation"
+msgstr "Nagyítás/eltolás animáció"
+
+#: ../../build/doc/overview/leaflet_overview.rst:57
+msgid "Very nice default design for markers, popups and other map controls"
+msgstr ""
+"Nagyon szép alapértelmezett megjelenés a markerekhez, felugró ablakokhoz és "
+"egyéb vezérlőkhöz"
+
+#: ../../build/doc/overview/leaflet_overview.rst:58
+msgid "Retina resolution support for tile layers and markers"
+msgstr "Retina felbontás támogatása csempe rétegekhez és szimbólumokhoz"
+
+#: ../../build/doc/overview/leaflet_overview.rst:60
+msgid "Performance Features"
+msgstr "Teljesítménnyel kapcsolatos jellemzők"
+
+#: ../../build/doc/overview/leaflet_overview.rst:62
+msgid "Hardware acceleration"
+msgstr "Hardvergyorsítás"
+
+#: ../../build/doc/overview/leaflet_overview.rst:63
+msgid "Utilizing CSS3 features to make panning and zooming really smooth"
+msgstr "CSS3 funkciók felhasználásával nagyon sima eltolás és nagyítás"
+
+#: ../../build/doc/overview/leaflet_overview.rst:64
+msgid "Smart polyline/polygon rendering"
+msgstr "Okos törtvonal/felület rajzolás"
+
+#: ../../build/doc/overview/leaflet_overview.rst:65
+msgid "Modular design allows including only required features"
+msgstr ""
+"A moduláris tervezés lehetővé teszi, hogy csak a szükséges funkciókat "
+"tartalmazza"
+
+#: ../../build/doc/overview/leaflet_overview.rst:66
+msgid "Tap delay elimination on mobile devices"
+msgstr "Érintési késlekedés megszüntetése a mobil eszközökön"
+
+#: ../../build/doc/overview/leaflet_overview.rst:68
+msgid "Map Controls"
+msgstr "Térképvezérlők"
+
+#: ../../build/doc/overview/leaflet_overview.rst:70
+msgid "Zoom buttons, Attribution, Layer switcher, Scale"
+msgstr "Nagyítás gomb, megnevezés, rétek kapcsoló, méretarány"
+
+#: ../../build/doc/overview/leaflet_overview.rst:72
+msgid "Desktop Browser Support"
+msgstr "Asztali böngésző támogatás"
+
+#: ../../build/doc/overview/leaflet_overview.rst:74
+msgid "Chrome"
+msgstr "Chrome"
+
+#: ../../build/doc/overview/leaflet_overview.rst:75
+msgid "Firefox"
+msgstr "Firefox"
+
+#: ../../build/doc/overview/leaflet_overview.rst:76
+msgid "Safari 5+"
+msgstr "Safari 5+"
+
+#: ../../build/doc/overview/leaflet_overview.rst:77
+msgid "Opera 12+"
+msgstr "Opera 12+"
+
+#: ../../build/doc/overview/leaflet_overview.rst:78
+msgid "IE 7–11"
+msgstr "IE 7–11"
+
+#: ../../build/doc/overview/leaflet_overview.rst:80
+msgid "Mobile Browser Support"
+msgstr "Mobil böngésző támogatás"
+
+#: ../../build/doc/overview/leaflet_overview.rst:82
+msgid "Safari for iOS 3-7+"
+msgstr "Safari iOS 3-7+-hoz"
+
+#: ../../build/doc/overview/leaflet_overview.rst:83
+msgid "Android browser 2.2+, 3.1+, 4+"
+msgstr "Android böngésző 2.2+, 3.1+, 4+"
+
+#: ../../build/doc/overview/leaflet_overview.rst:84
+msgid "Chrome for Android 4+ and iOS"
+msgstr "Chrome Android-hoz 4+ és iOS-hez"
+
+#: ../../build/doc/overview/leaflet_overview.rst:85
+msgid "Firefox for Android"
+msgstr "Firefox Android-hoz"
+
+#: ../../build/doc/overview/leaflet_overview.rst:86
+msgid "Other webkit-based browsers (webOS, Blackberry 7+, etc.)"
+msgstr "Más webkit alapú böngészők (webOS, Blackberry 7+, stb.)"
+
+#: ../../build/doc/overview/leaflet_overview.rst:87
+msgid "IE10/IE11 for Win8-based devices"
+msgstr "IE10/IE11 Win8-alapú eszközökhöz"
+
+#: ../../build/doc/overview/leaflet_overview.rst:89
+msgid "Misc"
+msgstr "Egyebek"
+
+#: ../../build/doc/overview/leaflet_overview.rst:91
+msgid "Extremely lightweight — around 34 KB of gzipped JS code"
+msgstr "Végletesen könnyűsúlyú - 34 KB méretű tömörített JS kód"
+
+#: ../../build/doc/overview/leaflet_overview.rst:92
+msgid "No external dependencies"
+msgstr "Nincsenek külső függőségek"
+
+#: ../../build/doc/overview/leaflet_overview.rst:93
+msgid ""
+"Keeps your JS environment clean — no global or native prototypes pollution"
+msgstr ""
+"Tisztán tartja a JS környezetét - nincs globális vagy natív prototípus "
+"szennyezések"
+
+#: ../../build/doc/overview/leaflet_overview.rst:97
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/leaflet_overview.rst:99
+msgid "**Website:** http://leafletjs.com"
+msgstr "**Honlap:** http://leafletjs.com"
+
+#: ../../build/doc/overview/leaflet_overview.rst:101
+msgid "**Licence:** BSD"
+msgstr "**Licenc:** BSD"
+
+#: ../../build/doc/overview/leaflet_overview.rst:103
+msgid "**Software Version:** |version-leaflet|"
+msgstr "**Szoftver verzió:** |version-leaflet|"
+
+#: ../../build/doc/overview/leaflet_overview.rst:105
+msgid "**Supported Platforms:** Windows, Mac, Linux, Android, iOS"
+msgstr "**Támogatott platformok:** Windows, Mac, Linux, Android, iOS"
+
+#: ../../build/doc/overview/leaflet_overview.rst:107
+msgid "**API Interfaces:** Javascript"
+msgstr "**API Interfészek:** Javascript"
+
+#: ../../build/doc/overview/leaflet_overview.rst:109
+msgid "**Support:** https://groups.google.com/forum/#!forum/leaflet-js"
+msgstr "**Támogatás:** https://groups.google.com/forum/#!forum/leaflet-js"
+
+#: ../../build/doc/overview/leaflet_overview.rst:113
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/leaflet_overview.rst:115
+msgid ":doc:`Quickstart documentation <../quickstart/leaflet_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/leaflet_quickstart>`"

@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2017\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/spatialite_overview.rst:15
+msgid "SpatiaLite"
+msgstr "SpatiaLite"
+
+#: ../../build/doc/overview/spatialite_overview.rst:18
+msgid "Spatial Database"
+msgstr "Téradatbázis"
+
+#: ../../build/doc/overview/spatialite_overview.rst:20
+msgid "SpatiaLite is an SQLite_ database engine with spatial functions added."
+msgstr ""
+"A SpatiLite egy térbeli függvényekkel kibővített SQLite_ adatbázis motor."
+
+#: ../../build/doc/overview/spatialite_overview.rst:22
+msgid ""
+"SQLite is a Database Management System (DBMS) which is simple, robust, easy "
+"to use and very lightweight. Each SQLite database is simply a file. You can "
+"freely copy it, compress it, and port it between Windows, Linux, MacOs etc."
+msgstr ""
+"Az SQLite egy egyszerű, robusztus, könnyen használható és könnyűsúlyú "
+"adatbázis kezelő rendszer. Minden SQLite adatbázis egyszerűen egy fájl. "
+"Szabadon másolhatja, tömörítheti átviheti Windows, Linux, MacOs, stb. "
+"között."
+
+#: ../../build/doc/overview/spatialite_overview.rst:33
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/spatialite_overview.rst:35
+msgid ""
+"The SpatiaLite extension enables SQLite to support spatial data conformant "
+"to OGC specifications."
+msgstr ""
+"A SpatiaLite bővítmény az OGC specifikációnak megfelelő téradat kezelést "
+"tesz lehetővé a SQLite-ban."
+
+#: ../../build/doc/overview/spatialite_overview.rst:37
+msgid "Highlights:"
+msgstr "Kiemelkedő funkciók:"
+
+#: ../../build/doc/overview/spatialite_overview.rst:39
+msgid "User friendly GUI"
+msgstr "Felhasználó barát GUI"
+
+#: ../../build/doc/overview/spatialite_overview.rst:40
+msgid "Standard WKT and WKB formats"
+msgstr "Szabványos WKT és WKB formátumok"
+
+#: ../../build/doc/overview/spatialite_overview.rst:41
+msgid ""
+"SQL spatial functions such as AsText(), GeomFromText(), Area(), PointN() ..."
+msgstr ""
+"SQL térbeli függvények mint például AsText(), GeomFromText(), Area(), "
+"PointN() ..."
+
+#: ../../build/doc/overview/spatialite_overview.rst:42
+msgid ""
+"OpenGis spatial analysis functions provided via GEOS, such as Overlaps(), "
+"Touches(), Union(), Buffer() ..."
+msgstr ""
+"GEOS könyvtár által szolgáltatott OpenGIS térbeli elemző függvények, mint "
+"például Overlaps(), Touches(), Union(), Buffer() ..."
+
+#: ../../build/doc/overview/spatialite_overview.rst:43
+msgid "Full Spatial metadata in line with OpenGis specifications"
+msgstr "Az OpenGIS spacifikációnak megfelelő teljes térinformatikai metaadat"
+
+#: ../../build/doc/overview/spatialite_overview.rst:44
+msgid "Numerous Geometry notations - EWKT, GML, KML, and GeoJSON"
+msgstr "Többféle geometria ábrázolás - EWKT, GML, KML és GeoJSON"
+
+#: ../../build/doc/overview/spatialite_overview.rst:45
+msgid "Importing and exporting to shapefiles"
+msgstr "Shape fájl import és export"
+
+#: ../../build/doc/overview/spatialite_overview.rst:46
+msgid ""
+"Coordinate reprojection via PROJ.4 and EPSG geodetic parameters dataset"
+msgstr "Vetületi átszámítás PROJ.4 segítségével, EPSG paraméterek alapján"
+
+#: ../../build/doc/overview/spatialite_overview.rst:47
+msgid "Locale charsets via GNU libiconv"
+msgstr "Helyi kódlap használata GNU libiconv segítségével"
+
+#: ../../build/doc/overview/spatialite_overview.rst:48
+msgid "Spatial Index based on the SQLite's RTree extension"
+msgstr "Térbeli index az SQLite RTree bővítményen keresztül"
+
+#: ../../build/doc/overview/spatialite_overview.rst:49
+msgid ""
+"Access shapefiles as VIRTUAL TABLEs, enabling standard SQL queries on "
+"external shapefiles, without importing or converting them"
+msgstr ""
+"Shape fájlok elérése virtuális táblaként, szabványos SQL lekérdezések "
+"hajthatók végre külső shape fájlokon anélkül, hogy importálnák vagy "
+"konvertálnánk őket"
+
+#: ../../build/doc/overview/spatialite_overview.rst:50
+msgid "Access external CSV/TxtTab files or xls spreadsheets as VIRTUAL TABLEs"
+msgstr ""
+"Külső CSV/TxtTab fájlok vagy xls számolótáblák elérése virtuális táblaként"
+
+#: ../../build/doc/overview/spatialite_overview.rst:51
+msgid ""
+"Access XML documents, stored BLOB compressed binary objects, including "
+"syntactic \"well formed\" and XSF schema validation constrained checks. "
+"Specific support for ISO-Metadata, SLD/SE styles and SVG graphics.XML "
+"documents can be queried using standard XPath syntax."
+msgstr ""
+"XML dokumentumok, tömörített bináris BLOB objektumok elérése, beleértve a "
+"szintaktikailag \"jól formázott\" és XFS séma ellenőrzést. Speciális ISO-"
+"Metaadat támogatás, SLD/SE stílusok és SVG grafika. XML dokumentumok "
+"lekérdezhetők a szabványos XPath szintaxissal."
+
+#: ../../build/doc/overview/spatialite_overview.rst:52
+msgid "Query external WFS servers."
+msgstr "Lekérdezés külső WF szerverről."
+
+#: ../../build/doc/overview/spatialite_overview.rst:53
+msgid ""
+"Parse external DXF files (all versions) and store layers and geometries "
+"found."
+msgstr ""
+"Külső DXF fájlok (minden verzió) értelmezése a megtalált rétegek és "
+"geometriai elemek tárolása."
+
+#: ../../build/doc/overview/spatialite_overview.rst:54
+msgid "Generate and Export DXF files"
+msgstr "DXF fájl generálás és export"
+
+#: ../../build/doc/overview/spatialite_overview.rst:57
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/spatialite_overview.rst:59
+msgid "**Website:** http://www.gaia-gis.it/gaia-sins/"
+msgstr "**Honlap:** http://www.gaia-gis.it/gaia-sins/"
+
+#: ../../build/doc/overview/spatialite_overview.rst:61
+msgid "**Licence:** MPL v1.1 and GPL v3"
+msgstr "**Licenc:** MPL v1.1 and GPL v3"
+
+#: ../../build/doc/overview/spatialite_overview.rst:63
+msgid "**Software Version:** |version-spatialite|"
+msgstr "**Szoftver verzió:** |version-spatialite|"
+
+#: ../../build/doc/overview/spatialite_overview.rst:65
+msgid "**Supported Platforms:** Linux, Mac, Windows"
+msgstr "**Támogatott platformok:** Linux, Mac, Windows"
+
+#: ../../build/doc/overview/spatialite_overview.rst:67
+msgid "**API Interfaces:** C"
+msgstr "**API interfészek:** C"
+
+#: ../../build/doc/overview/spatialite_overview.rst:72
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/spatialite_overview.rst:74
+msgid ":doc:`Quickstart documentation <../quickstart/spatialite_quickstart>`"
+msgstr ""
+":doc:`Gyorstalpaló dokumentáció <../quickstart/spatialite_quickstart>`"

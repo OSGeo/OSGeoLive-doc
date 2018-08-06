@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"POT-Creation-Date: 2018-07-19 12:47-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.6.0\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
@@ -60,7 +60,7 @@ msgstr ""
 #: ../../build/doc/overview/52nSOS_overview.rst:41
 msgid ""
 "**Helgoland**: The SOS contains the Helgoland application for  the "
-"exploration, analysis and visualization of sensor web data in various fields"
+"exploration, analysis and visualization of Sensor Web data in various fields"
 " of use, e.g. hydrology, meteorology, environmental monitoring, traffic "
 "management."
 msgstr ""
@@ -86,7 +86,7 @@ msgid ""
 "**INSPIRE Download Service Extension**: Starting with Version 4.2.0, an "
 "extension is available that allows the SOS to be used as an INSPIRE download"
 " service. Background information is provided in a `blog post "
-"<http://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-"
+"<https://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-"
 "an-inspire-download-service-based-on-sos/>`_ and in the `wiki "
 "<https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_"
 " ."
@@ -117,23 +117,49 @@ msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rst:59
 msgid ""
-"**RESTful API for Timeseries**: Starting with Version 4.1.1., a bundle "
-"version is available, that directly provides the `RESTful API "
+"**Sensor Web REST-API**: Starting with Version 4.1.1., a bundle version is "
+"available, that directly provides the `RESTful API "
 "<https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_,"
-" is available. Hence, timeseries can be requested in a RESTful way in JSON "
-"encoded requests. More details incl. documentation can be found in the `SOS "
-"webapp <http://localhost:8080/52nSOS/static/doc/api-doc/>`_."
+" is available. Hence, observation data can be requested in a RESTful way and"
+" is returned in JSON encoded responses. More details incl. documentation can"
+" be found in the `SOS webapp <http://localhost:8080/52nSOS/static/doc/api-"
+"doc/>`_."
 msgstr ""
-"**API RESTful pour les séries temporelles**: A compter de la version 4.1.1.,"
-" une version packagée est disponible, qui fournit directement l'`API RESTful"
-" "
+"**Sensor Web API REST**: A compter de la version 4.1.1., une version "
+"packagée est disponible, qui fournit directement l'`API RESTful "
 "<https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_."
-" Ainsi, les séries temporelles peuvent être requêtées de manière RESTful "
-"avec des requêtes encodées en JSON. Plus de détails sont inclus dans la "
+" Ainsi, les données d'observation peuvent être requêtées de manière RESTful "
+"et les réponses sont  encodées en JSON. Plus de détails sont inclus dans la "
 "documentation `de l'application web SOS "
 "<http://localhost:8080/52nSOS/static/doc/api-doc/>`_."
 
 #: ../../build/doc/overview/52nSOS_overview.rst:66
+msgid ""
+"**INSPIRE Sepcialized Observations**: Support for the INSPIRE Specialized "
+"Observations defined in Guidelines for the use of `Observations & "
+"Measurements and Sensor Web Enablement-related standards in INSPIRE (D2.9) "
+"<http://inspire.ec.europa.eu/id/document/tg/d2.9-o%26m-swe>`_ (`detailed "
+"information about the implementation "
+"<https://wiki.52north.org/SensorWeb/InspireSpecialisedObservations>`_)."
+msgstr ""
+"**Observations spécialisées INSPIRE**: le support pour les Observations "
+"spécialisées INSPIRE défini dans les lignes directrices pour l’utilisation "
+"des `Observations & Measurements and Sensor Web Enablement-related standards"
+" in INSPIRE (D2.9) <http://inspire.ec.europa.eu/id/document/tg/d2.9-o%26m-"
+"swe>`_  (`Informations détaillées sur la mise en oeuvre "
+"<https://wiki.52north.org/SensorWeb/InspireSpecialisedObservations>`_)."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:70
+msgid ""
+"**ResultFiltering**: Support for the filtering the observations "
+"(GetObservation) and data availabiliy information (GetDataAvailability) by "
+"the value of the observation."
+msgstr ""
+"**Filtrage des résultats**: Support pour le filtrage des observations "
+"(GetObservation) et les disponibilités des données (GetDataAvailability) par"
+" la valeur de l’observation."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:72
 msgid ""
 "**Read more**: `Details of the implemented functionalities "
 "<https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#Features>`_"
@@ -143,24 +169,47 @@ msgstr ""
 "<https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#Features>`_"
 " peuvent être trouvés sur le wiki de 52°North."
 
-#: ../../build/doc/overview/52nSOS_overview.rst:72
+#: ../../build/doc/overview/52nSOS_overview.rst:75
+msgid ""
+"The development of this version of the 52°North SOS was supported by "
+"different projects, organizations, and persons. More details can be found in"
+" the `52°North SOS client <http://localhost:8080/52nSOS/index>`_."
+msgstr ""
+"Le développement de cette version du 52 ° Nord SOS a été pris en charge par "
+"différents projets, des organisations et des personnes. On trouvera plus de "
+"détails dans le`client SOS 52°North  <http://localhost:8080/52nSOS/index>`_."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:78
+msgid ""
+"We would like to thank the Belgian Interregional Environment Agency (`IRCEL "
+"- CELINE <http://www.irceline.be/en/>`_) for providing the demonstration "
+"data used in this SOS installation. The demo data are published under a `CC-"
+"BY licence <http://creativecommons.org/licenses/by/3.0/>`_."
+msgstr ""
+"Nous tenons à remercier l’Agence belge de l’environnement Interregional "
+"(`IRCEL - CELINE <http://www.irceline.be/en/>`_)  pour fournir les données "
+"de démonstration utilisées dans cette installation de SOS. Les données de "
+"démo sont publiées sous un `licence CC-BY "
+"<http://creativecommons.org/licenses/by/3.0/>`_.."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:86
 msgid "SOS Operations"
 msgstr "Opérations SOS"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:74
+#: ../../build/doc/overview/52nSOS_overview.rst:88
 msgid "**Queries**:"
 msgstr "**Requêtes**:"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:76
+#: ../../build/doc/overview/52nSOS_overview.rst:90
 msgid "GetCapabilities: for requesting a self-description of the service."
 msgstr ""
 "GetCapabilities: pour demander une description automatique du service."
 
-#: ../../build/doc/overview/52nSOS_overview.rst:77
+#: ../../build/doc/overview/52nSOS_overview.rst:91
 msgid "DescribeSensor: for requesting information about the sensor."
 msgstr "DescribeSensor: pour demander les informations sur le capteur."
 
-#: ../../build/doc/overview/52nSOS_overview.rst:78
+#: ../../build/doc/overview/52nSOS_overview.rst:92
 msgid ""
 "GetFeatureOfInterest / GetFeatureOfInterestTime (from 1.0): for requesting "
 "features (e.g. sensor/measurement locations)."
@@ -168,18 +217,18 @@ msgstr ""
 "GetFeatureOfInterest/ GetFeatureOfInterestTime (depuis la 1.0): pour "
 "demander des entités (par exemple la localisation des capteurs / mesures)."
 
-#: ../../build/doc/overview/52nSOS_overview.rst:80
+#: ../../build/doc/overview/52nSOS_overview.rst:94
 msgid "GetObservationById / GetObservation: for requesting observations."
 msgstr "GetObservationById / GetObservation: pour demander des observations."
 
-#: ../../build/doc/overview/52nSOS_overview.rst:81
+#: ../../build/doc/overview/52nSOS_overview.rst:95
 msgid ""
 "GetResult (from specification version 2.0): for requesting sensor data."
 msgstr ""
 "GetResult (depuis la spécification version 2.0):  pour demander des données "
 "au capteur."
 
-#: ../../build/doc/overview/52nSOS_overview.rst:82
+#: ../../build/doc/overview/52nSOS_overview.rst:96
 msgid ""
 "GetResultTemplate (from specification version 2.0): for requesting a "
 "template of the result structure that will be returned by a GetResult "
@@ -189,7 +238,7 @@ msgstr ""
 "modèle de la structure du résultat qui sera retourné par une requête "
 "GetResult."
 
-#: ../../build/doc/overview/52nSOS_overview.rst:84
+#: ../../build/doc/overview/52nSOS_overview.rst:98
 msgid ""
 "GetDataAvailability (from `SOS 2.0 Hydrology Profile - OGC Best Practice "
 "<http://docs.opengeospatial.org/bp/14-004r1/14-004r1.html#38>`_): for "
@@ -200,11 +249,11 @@ msgstr ""
 "<http://docs.opengeospatial.org/bp/14-004r1/14-004r1.html#38>`_): pour "
 "demander la disponibilité des données pour certaines configurations."
 
-#: ../../build/doc/overview/52nSOS_overview.rst:88
+#: ../../build/doc/overview/52nSOS_overview.rst:102
 msgid "**Transactions**:"
 msgstr "**Transactions**:"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:90
+#: ../../build/doc/overview/52nSOS_overview.rst:104
 msgid ""
 "InsertSensor (from specification version 2.0): for inserting metadata of new"
 " sensors."
@@ -212,7 +261,7 @@ msgstr ""
 "InsertSensor (depuis la spécification version 2.0): pour insérer les "
 "métadonnées de nouveaux capteurs."
 
-#: ../../build/doc/overview/52nSOS_overview.rst:91
+#: ../../build/doc/overview/52nSOS_overview.rst:105
 msgid ""
 "InsertObservation (from specification version 2.0): for inserting new "
 "observations."
@@ -220,7 +269,7 @@ msgstr ""
 "InsertObservation (depuis la spécification version 2.0):  pour ajouter de "
 "nouvelles observations."
 
-#: ../../build/doc/overview/52nSOS_overview.rst:92
+#: ../../build/doc/overview/52nSOS_overview.rst:106
 msgid ""
 "UpdateSensorDescription (from specification version 2.0): for updating the "
 "description of a sensor."
@@ -228,7 +277,7 @@ msgstr ""
 "UpdateSensorDescription (depuis la spécification version 2.0): pour la mise "
 "à jour de la description d'un capteur."
 
-#: ../../build/doc/overview/52nSOS_overview.rst:93
+#: ../../build/doc/overview/52nSOS_overview.rst:107
 msgid ""
 "DeleteSensor (from specification version 2.0): for deleting a "
 "sensor/procedure and all related offerings and observations."
@@ -236,7 +285,7 @@ msgstr ""
 "DeleteSensor (depuis la spécification version 2.0): pour supprimer un "
 "capteur/procédure et toutes les propositions et observations liées."
 
-#: ../../build/doc/overview/52nSOS_overview.rst:95
+#: ../../build/doc/overview/52nSOS_overview.rst:109
 msgid ""
 "DeleteObservation (extension for SOS specification 2.0): for deleting an "
 "observation."
@@ -244,7 +293,7 @@ msgstr ""
 "DeleteObservation (depuis la spécification version 2.0): pour supprimer une "
 "observation."
 
-#: ../../build/doc/overview/52nSOS_overview.rst:96
+#: ../../build/doc/overview/52nSOS_overview.rst:110
 msgid ""
 "InsertResultTemplate (from specification version 2.0): for inserting a "
 "result template."
@@ -252,17 +301,17 @@ msgstr ""
 "InsertResultTemplate (depuis la spécification version 2.0): pour insérer un "
 "modèle de résultat."
 
-#: ../../build/doc/overview/52nSOS_overview.rst:97
+#: ../../build/doc/overview/52nSOS_overview.rst:111
 msgid "InsertResult (from specification version 2.0): for inserting results."
 msgstr ""
 "InsertResult (depuis la spécification version 2.0): pour insérer des "
 "résultats."
 
-#: ../../build/doc/overview/52nSOS_overview.rst:98
+#: ../../build/doc/overview/52nSOS_overview.rst:112
 msgid "InsertFeatureOfInterest for feature insertion"
 msgstr "InsertFeatureOfInterest pour l'insertion d'entités"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:99
+#: ../../build/doc/overview/52nSOS_overview.rst:113
 msgid ""
 "DeleteResultTemplate for the deletion of resultTemplates by identifier or "
 "offering/observedProperty pairs"
@@ -270,30 +319,30 @@ msgstr ""
 "DeleteResultTemplate pour la suppression de modèles de résultat par "
 "indentifiant ou des paires proposition / propriété observée."
 
-#: ../../build/doc/overview/52nSOS_overview.rst:102
+#: ../../build/doc/overview/52nSOS_overview.rst:116
 msgid ""
 "Within these operations, the following filter operators are possible where "
 "applicable:"
 msgstr ""
 "Pour ces requêtes, les opérateurs de filtrage suivants sont possibles:"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:105
+#: ../../build/doc/overview/52nSOS_overview.rst:119
 msgid "Spatial filter: BBOX, using a bounding box."
 msgstr "Filtre spatial: BBOX, en utilisant un rectangle englobant."
 
-#: ../../build/doc/overview/52nSOS_overview.rst:106
+#: ../../build/doc/overview/52nSOS_overview.rst:120
 msgid "Temporal filter: During, with time period."
 msgstr "Filtre temporel: During, avec une période."
 
-#: ../../build/doc/overview/52nSOS_overview.rst:107
+#: ../../build/doc/overview/52nSOS_overview.rst:121
 msgid "Temporal filter: TEquals, with time instant."
 msgstr "Filtre temporel: TEquals, avec une heure donnée."
 
-#: ../../build/doc/overview/52nSOS_overview.rst:111
+#: ../../build/doc/overview/52nSOS_overview.rst:125
 msgid "Applicable Standards"
 msgstr "Standards applicables"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:113
+#: ../../build/doc/overview/52nSOS_overview.rst:127
 msgid ""
 "`Sensor Observation Service (SOS) "
 "<http://www.opengeospatial.org/standards/sos>`__"
@@ -301,7 +350,7 @@ msgstr ""
 "`Sensor Observation Service (SOS) "
 "<http://www.opengeospatial.org/standards/sos>`__"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:114
+#: ../../build/doc/overview/52nSOS_overview.rst:128
 msgid ""
 "`Geography Markup Language (GML) "
 "<http://www.opengeospatial.org/standards/gml>`__"
@@ -309,7 +358,7 @@ msgstr ""
 "`Geography Markup Language (GML) "
 "<http://www.opengeospatial.org/standards/gml>`__"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:115
+#: ../../build/doc/overview/52nSOS_overview.rst:129
 msgid ""
 "`Sensor Model Language (SensorML) "
 "<http://www.opengeospatial.org/standards/sensorml>`__"
@@ -317,31 +366,31 @@ msgstr ""
 "`Sensor Model Language (SensorML) "
 "<http://www.opengeospatial.org/standards/sensorml>`__"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:119
+#: ../../build/doc/overview/52nSOS_overview.rst:133
 msgid "Details"
 msgstr "Détails"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:121
+#: ../../build/doc/overview/52nSOS_overview.rst:135
 msgid "**Website:** http://52north.org/sos"
 msgstr "**Site web:** http://52north.org/sos"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:123
+#: ../../build/doc/overview/52nSOS_overview.rst:137
 msgid "**Licence:** GNU General Public License (GPL) version 2"
 msgstr "**Licence:** GNU General Public License (GPL) version 2"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:125
+#: ../../build/doc/overview/52nSOS_overview.rst:139
 msgid "**Software Version:** |version-52nSOS|"
 msgstr "**Version du logiciel:** |version-52nSOS|"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:127
+#: ../../build/doc/overview/52nSOS_overview.rst:141
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr "**Plates-formes supportées:** Windows, Linux, Mac"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:129
+#: ../../build/doc/overview/52nSOS_overview.rst:143
 msgid "**Supported Java Versions:** 7+, (bundle version: 8+)"
 msgstr "**Versions de Java supportées:** 7+, (version intégrée: 8+)"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:131
+#: ../../build/doc/overview/52nSOS_overview.rst:145
 msgid ""
 "**Supported DBMS:** PostgreSQL (9+) + PostGIS (2+), MariaDB/MySQL (5.6+), "
 "Oracle DB (9+), SQL Server 2012"
@@ -349,33 +398,94 @@ msgstr ""
 "**SGBD supportés:** PostgreSQL (9+) + PostGIS (2+), MariaDB/MySQL (5.6+), "
 "Oracle DB (9+), SQL Server 2012"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:133
+#: ../../build/doc/overview/52nSOS_overview.rst:147
 msgid "**API:** Java, HTTP + JSON/XML/SOAP/KVP"
 msgstr "**API:** Java, HTTP + JSON/XML/SOAP/KVP"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:135
-msgid "**Commercial Support:** http://52north.org/"
-msgstr "**Support commercial:** http://52north.org/"
+#: ../../build/doc/overview/52nSOS_overview.rst:149
+msgid "**Commercial Support:** https://52north.org/services/"
+msgstr "**Support commercial:** https://52north.org/services/"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:137
-msgid "**Community Support:** http://sensorweb.forum.52north.org/"
-msgstr "**Support Communautaire:** http://sensorweb.forum.52north.org/"
+#: ../../build/doc/overview/52nSOS_overview.rst:151
+msgid ""
+"**Community Support:** https://list.52north.org/mailman/listinfo/sensorweb"
+msgstr ""
+"**Support communautaire:** "
+"https://list.52north.org/mailman/listinfo/sensorweb"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:139
-msgid "**Community Website:** http://52north.org/communities/sensorweb/"
-msgstr "**Site web communautaire:** http://52north.org/communities/sensorweb/"
+#: ../../build/doc/overview/52nSOS_overview.rst:153
+msgid ""
+"**Community Website:** https://52north.org/research/research-labs/sensor-"
+"web/"
+msgstr ""
+"** Site communautaire : ** https://52north.org/research/research-labs"
+"/sensor-web/"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:141
+#: ../../build/doc/overview/52nSOS_overview.rst:155
 msgid ""
 "**Other 52°North projects on OSGeoLive:** :doc:`WPS <./52nWPS_overview>`"
 msgstr ""
 "**Autres projets de 52°North sur l'OSGeoLive:** :doc:`WPS "
 "<./52nWPS_overview>`"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:147
+#: ../../build/doc/overview/52nSOS_overview.rst:161
 msgid "Quickstart"
 msgstr "Guide de démarrage rapide"
 
-#: ../../build/doc/overview/52nSOS_overview.rst:149
+#: ../../build/doc/overview/52nSOS_overview.rst:163
 msgid ":doc:`Quickstart documentation <../quickstart/52nSOS_quickstart>`"
 msgstr ":doc:`Guide de démarrage rapide <../quickstart/52nSOS_quickstart>`"
+
+#~ msgid ""
+#~ "**Helgoland**: The SOS contains the Helgoland application for  the "
+#~ "exploration, analysis and visualization of sensor web data in various fields"
+#~ " of use, e.g. hydrology, meteorology, environmental monitoring, traffic "
+#~ "management."
+#~ msgstr ""
+#~ "**Helgoland**: SOS contient aussi l'application Helgoland pour "
+#~ "l'exploration, l'analyse et la visualisation de données issues de réseaux de"
+#~ " capteurs dans divers champs d'applications, par exemple, l'hydrologie, la "
+#~ "météorologie, la surveillance de l'environnement, la gestion du trafic."
+
+#~ msgid ""
+#~ "**INSPIRE Download Service Extension**: Starting with Version 4.2.0, an "
+#~ "extension is available that allows the SOS to be used as an INSPIRE download"
+#~ " service. Background information is provided in a `blog post "
+#~ "<http://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-"
+#~ "an-inspire-download-service-based-on-sos/>`_ and in the `wiki "
+#~ "<https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_"
+#~ " ."
+#~ msgstr ""
+#~ "**Extension de téléchargement INSPIRE**: A partir de la version 4.2.0, une "
+#~ "extension disponible permet à SOS d'être utilisé comme service de "
+#~ "téléchargement INSPIRE. Des informations de contexte sont fournis sur `le "
+#~ "post de blog <http://blog.52north.org/2014/01/30/52north-supports-the-jrc-"
+#~ "in-developing-an-inspire-download-service-based-on-sos/>`_ et dans le `wiki "
+#~ "<https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_"
+#~ " ."
+
+#~ msgid ""
+#~ "**RESTful API for Timeseries**: Starting with Version 4.1.1., a bundle "
+#~ "version is available, that directly provides the `RESTful API "
+#~ "<https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_,"
+#~ " is available. Hence, timeseries can be requested in a RESTful way in JSON "
+#~ "encoded requests. More details incl. documentation can be found in the `SOS "
+#~ "webapp <http://localhost:8080/52nSOS/static/doc/api-doc/>`_."
+#~ msgstr ""
+#~ "**API RESTful pour les séries temporelles**: A compter de la version 4.1.1.,"
+#~ " une version packagée est disponible, qui fournit directement l'`API RESTful"
+#~ " "
+#~ "<https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_."
+#~ " Ainsi, les séries temporelles peuvent être requêtées de manière RESTful "
+#~ "avec des requêtes encodées en JSON. Plus de détails sont inclus dans la "
+#~ "documentation `de l'application web SOS "
+#~ "<http://localhost:8080/52nSOS/static/doc/api-doc/>`_."
+
+#~ msgid "**Commercial Support:** http://52north.org/"
+#~ msgstr "**Support commercial:** http://52north.org/"
+
+#~ msgid "**Community Support:** http://sensorweb.forum.52north.org/"
+#~ msgstr "**Support Communautaire:** http://sensorweb.forum.52north.org/"
+
+#~ msgid "**Community Website:** http://52north.org/communities/sensorweb/"
+#~ msgstr "**Site web communautaire:** http://52north.org/communities/sensorweb/"

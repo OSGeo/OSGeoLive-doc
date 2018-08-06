@@ -163,7 +163,7 @@ msgstr "elemento típico de consola de comandos en el software de CAD"
 #: ../../build/doc/overview/gvsig_overview.rst:62
 msgid "tools like help, grid, command stack, complex element selections"
 msgstr ""
-"herramientas como ayuda, retícula, pila de comandos, selecciones de "
+"herramientas como ayuda, retícula, conjunto de comandos, selecciones de "
 "elementos complejos"
 
 #: ../../build/doc/overview/gvsig_overview.rst:63
@@ -199,7 +199,7 @@ msgstr "filtros, vectorización"
 
 #: ../../build/doc/overview/gvsig_overview.rst:72
 msgid "overviews and regions of interest management"
-msgstr "descripciones de regiones y de gestión de interés"
+msgstr "Vista General y regiones de gestión de intereses"
 
 #: ../../build/doc/overview/gvsig_overview.rst:74
 msgid "3D View"

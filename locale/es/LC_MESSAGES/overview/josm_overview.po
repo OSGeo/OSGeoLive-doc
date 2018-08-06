@@ -71,8 +71,8 @@ msgid ""
 "Tool bar customization, View control (zoom, pan. etc), styles, icons and "
 "layers management."
 msgstr ""
-"Personalización de barra de herramientas, control de vista (zoom, "
-"panorámica, etc.), estilos, iconos y administración de capas."
+"Personalización de barra de herramientas, control de vista (acercamiento, "
+"deslizamiento, etc.), estilos, iconos y administración de capas."
 
 #: ../../build/doc/overview/josm_overview.rst:40
 msgid "Download and upload OSM vector data."
@@ -189,8 +189,8 @@ msgstr "**Interfaces API:** Java"
 
 #: ../../build/doc/overview/josm_overview.rst:88
 msgid "Quickstart"
-msgstr "Inicio Rápido"
+msgstr "Guía de Inicio Rápido"
 
 #: ../../build/doc/overview/josm_overview.rst:90
 msgid ":doc:`Quickstart documentation <../quickstart/josm_quickstart>`"
-msgstr ":doc:`Documentación de inicio rápido <../quickstart/josm_quickstart>`"
+msgstr ":doc:`Documentación de Inicio Rápido <../quickstart/josm_quickstart>`"

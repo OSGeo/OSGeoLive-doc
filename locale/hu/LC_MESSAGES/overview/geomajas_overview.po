@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/geomajas_overview.rst:17
+msgid "Geomajas"
+msgstr "Geomajas"
+
+#: ../../build/doc/overview/geomajas_overview.rst:20
+msgid "Browser GIS Client"
+msgstr "Böngésző GIS kliens"
+
+#: ../../build/doc/overview/geomajas_overview.rst:22
+msgid ""
+"The Client enables developers to create powerful web GIS applications "
+"including interactive maps, extensible widgets and custom use cases. It "
+"allows access to a wide range of data sources and functionality through a "
+"web browser."
+msgstr ""
+"A kliens lehetővé teszi a fejlesztőknek, hogy hatékony web GIS alkalmazást "
+"hozzanak létre, interaktív térképekkel, kibővíthető vezérlőkkel és egyedi "
+"felhasználási esetekkel. Az adatforrások és funkciók széles köréhez biztosít"
+" hozzáférést a böngésző programon keresztül."
+
+#: ../../build/doc/overview/geomajas_overview.rst:31
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/geomajas_overview.rst:33
+msgid "Programmable using pure Java through GWT"
+msgstr "A GWT-n keresztül tisztán Javaban programozható"
+
+#: ../../build/doc/overview/geomajas_overview.rst:34
+msgid ""
+"Supports many layer types (incl. WMS, WFS, WMTS, TMS, OSM, Google Maps, "
+"Shape, PostGIS, Oracle, JDBC, …)"
+msgstr ""
+"Sok réteg típust támogat (WMS, WFS, WMTS, TMS, OSM, Google Maps, Shape, "
+"PostGIS, Oracle, JDBC, ...)"
+
+#: ../../build/doc/overview/geomajas_overview.rst:35
+msgid ""
+"Handy collection of built-in widgets (incl. Editing and redlining, Print, "
+"Geocoding, Layer tree, ...)"
+msgstr ""
+"Kézreálló beépített vezérlők (szerkesztés, piros vonalazás, nyomtatás, "
+"geokódolás, réteg fa, ...)"
+
+#: ../../build/doc/overview/geomajas_overview.rst:36
+msgid "Build your own use cases and create new widgets"
+msgstr ""
+"Szabja testre a saját alkalmazási igényeihez és hozzon létre új vezérlőket"
+
+#: ../../build/doc/overview/geomajas_overview.rst:37
+msgid "Easy skinnable through custom CSS"
+msgstr "Könnyen átalakítható egyéni CSS-en keresztül"
+
+#: ../../build/doc/overview/geomajas_overview.rst:38
+msgid "No need for browser plug-ins"
+msgstr "Nincs szükség bögészőbe beépülő modulokra"
+
+#: ../../build/doc/overview/geomajas_overview.rst:39
+msgid "Runs on a wide range of internet devices using HTML5"
+msgstr "Az internet eszközök széles skáláján fut HTML5 felhasználásával"
+
+#: ../../build/doc/overview/geomajas_overview.rst:40
+msgid "Not a GWT enthusiast? Access core features through the Javascript API"
+msgstr ""
+"Nem egy GWT rajongó? Érje el az alapfunkciókat a JavaScript API-n keresztül."
+
+#: ../../build/doc/overview/geomajas_overview.rst:43
+msgid "Enterprise Server features"
+msgstr "Vállalati szerver tulajdonságok"
+
+#: ../../build/doc/overview/geomajas_overview.rst:45
+msgid ""
+"Advanced security on different levels (layer, feature, attribute, "
+"functionality, …)"
+msgstr ""
+"Fejlett biztonság különböző szinteken (réteg, elem, attribútum, "
+"funkcionalitás, ...)"
+
+#: ../../build/doc/overview/geomajas_overview.rst:46
+msgid ""
+"Seamless integration with your own Domain Model – persistence via Hibernate,"
+" web services, Java RMI, ..."
+msgstr ""
+"Zökkenőmentes integráció az ön saját domain modelljével - perzisztencia a "
+"Hibernate, web szolgáltatások Java RMI, ... alkalmazásokon keresztül."
+
+#: ../../build/doc/overview/geomajas_overview.rst:47
+msgid ""
+"Enterprise integration with other business applications such as JBPM, "
+"Activiti, JasperReports, CMS, Alfresco through industry standards (SOAP, "
+"REST, ESB, JNDI, …)"
+msgstr ""
+"Vállalati integráció más üzleti alkalmazásokkal, mint például JBPM, "
+"Activiti, JasperReports, CMS, Alfresco, ipari szabványokon keresztül (SOAP, "
+"REST, ESB, JNDI, …)"
+
+#: ../../build/doc/overview/geomajas_overview.rst:48
+msgid "Easy extensible through the Spring framework"
+msgstr "Könnyen kibővíthető a Spring keretrendszer segítségével."
+
+#: ../../build/doc/overview/geomajas_overview.rst:51
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/geomajas_overview.rst:53
+msgid "**Website:** http://www.geomajas.org/"
+msgstr "**Honlap:** http://www.geomajas.org/"
+
+#: ../../build/doc/overview/geomajas_overview.rst:55
+msgid "**Licence:** AGPL"
+msgstr "**Licenc:** AGPL"
+
+#: ../../build/doc/overview/geomajas_overview.rst:57
+msgid "**Software Version:** |version-geomajas|"
+msgstr "**Szoftver verzió:** |version-geomajas|"
+
+#: ../../build/doc/overview/geomajas_overview.rst:59
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Támogatott platformok:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/geomajas_overview.rst:61
+msgid "**API Interfaces:** Java and Javascript"
+msgstr "**API Interfészek:** Java és Javascript"
+
+#: ../../build/doc/overview/geomajas_overview.rst:63
+msgid "**Support:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089"
+msgstr "**Támogatás:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089"
+
+#: ../../build/doc/overview/geomajas_overview.rst:68
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/geomajas_overview.rst:70
+msgid ":doc:`Quickstart documentation <../quickstart/geomajas_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/geomajas_quickstart>`"

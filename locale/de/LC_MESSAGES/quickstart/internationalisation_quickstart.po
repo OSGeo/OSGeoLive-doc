@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:10
 msgid "OSGeoLive Internationalisation Quickstart"
-msgstr "OSGeo-Live Quickstart Internationalisierung"
+msgstr "OSGeoLive Quickstart Internationalisierung"
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:13
 msgid "Switching Language"

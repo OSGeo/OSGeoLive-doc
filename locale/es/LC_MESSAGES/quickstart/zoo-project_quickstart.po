@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-12 12:47-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:19
+msgid "Zoo Project Quickstart"
+msgstr "Guía de Inicio Rápido de Zoo Project "
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:21
+msgid ""
+"The ZOO-Project provides a developer friendly Web Processing Service (WPS) "
+"framework for creating and chaining Web Processing Services. A WPS provides "
+"web access to functions which run spatial algorithms."
+msgstr ""
+"ZOO-Project proporciona un  marco de trabajo de Servicio de Procesamiento "
+"Web (WPS) amigable para desarrolladores, a fin de crear y encadenar "
+"Servicios de Procesamiento Web. Un WPS proporciona acceso web a funciones "
+"que ejecutan algoritmos espaciales."
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:24
+msgid "This Quick Start describes how to:"
+msgstr "Esta Guía de Inicio Rápido describe cómo:"
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:26
+msgid "Apply processes to a WFS from a web browser."
+msgstr "Aplicar procesos a un WFS desde un navegador web."
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:32
+msgid "Running"
+msgstr "Ejecución "
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:34
+msgid ""
+"To run the ZOO Project demo from the OSGeoLive DVD, click on the \"ZOO "
+"Project\" link you will find it in the menu-items under \"Geospatial\" > "
+"\"Web Services\"."
+msgstr ""
+"Para ejecutar la demo de ZOO Project desde el DVD de OSGeoLive, haga click "
+"en el enlace de \"ZOO Project\" que encontrará en los elementos del menú  "
+"menú bajo  \"Geospatial\" > \"Web Services\"."
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:36
+msgid ""
+"Firefox will open the ZOO Project demonstration landing page. From here, you"
+" can decide what is the demonstration you want to use."
+msgstr ""
+"Firefox abrirá la página de inicio de demostración de ZOO Project. Desde "
+"aquí, usted puede decidir lo que es la demostración que desea utilizar. "
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:44
+msgid "OGR spatial tools"
+msgstr "Herramientas espaciales OGR"
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:46
+msgid ""
+"Click on the map to select a feature from the :doc:`GeoServer "
+"<../overview/geoserver_overview>` WFS Server, the feature will be displayed "
+"in blue, then click on simple geometry process like Buffer, Centroid, "
+"ConvexHull or Boundary and the result will be displayed in yellow."
+msgstr ""
+"Haga click en el mapa para seleccionar una función desde el :doc:`GeoServer "
+"<../overview/geoserver_overview>` servidor WFS, la función se mostrará en "
+"azul, después haga click en un proceso de geometría simple como Buffer, "
+"Centroid, ConvexHull o Boundary y el resultado se mostrará en amarillo."
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:54
+msgid ""
+"Now select another feature near the first you've selected then click on "
+"multiple geometries process button Union, Intersection, Symmetric Difference"
+" or Difference to get the result displayed in red on the map."
+msgstr ""
+"Ahora seleccione otra de las funciones cerca de la primera que ha "
+"seleccionado y haga click en el botón de proceso de múltiples geometrías "
+"como Unión, Intersección, Diferencia Simétrica o Diferencia para obtener el "
+"resultado que aparece en rojo en el mapa."
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:62
+msgid "CGAL triangulations"
+msgstr "Triangulaciones de CGAL"
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:64
+msgid ""
+"From the CGAL triangulations application, you simply have to press the "
+"Voronoi or Delaunay button to display on your map the result of the WPS "
+"service execution, as shown bellow."
+msgstr ""
+"De la aplicación de triangulaciones CGAL, simplemente tienes que pulsar el "
+"botón de Voronoi o de Delaunay para mostrar en el mapa el resultado del  "
+"servicio de ejecución WPS , como se muestra a continuación."
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:74
+msgid "OTB Applications"
+msgstr "Aplicaciones OTB"
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:76
+msgid ""
+"From the OTB application demonstration interface, you have to fill the form "
+"on the left to configure the WPS service execution. Once, you have selected "
+"the value for yoru processing, you can then press the Execute button at the "
+"bottom of the left form. In case you choose image/png as the output format, "
+"you will see the result of your processing displayed on the map. You can see"
+" bellow a sample KMeansClassification execution when selecting the image/png"
+" output format."
+msgstr ""
+"Desde la interfaz de demostración de aplicaciones de OTB, usted tiene que "
+"llenar el formulario de la izquierda para configurar la ejecución del "
+"servicio WPS. Una vez que haya seleccionado el valor para el procesamiento, "
+"usted puede presionar el botón Ejecutar en la parte inferior del formulario "
+"de la izquierda. En caso de que usted elija imagen/png como formato de "
+"salida, usted verá el resultado de su procesamiento desplegado en el mapa. "
+"Usted podrá ver abajo una ejecución de muestra de KMeansClassification "
+"cuando seleccione el formato de salida imagen/png ."
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:86
+msgid "What Next?"
+msgstr "¿Qué sigue?"
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:89
+msgid "You can access the capabilities of the ZOO WPS Server:"
+msgstr "Se pueden acceder a las capacidades del servidor WPS ZOO:"
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:89
+msgid ""
+"http://localhost/cgi-bin/zoo_loader.cgi?Request=GetCapabilities&Service=WPS"
+msgstr ""
+"http://localhost/cgi-bin/zoo_loader.cgi?Request=GetCapabilities&Service=WPS"
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:91
+msgid ""
+"For further questions you can contact the ZOO Project mailing list: zoo-"
+"discuss@lists.osgeo.org"
+msgstr ""
+"Para más preguntas puedes contactar con la lista de correo de ZOO Project: "
+"zoo-discuss@lists.osgeo.org"
+
+#~ msgid "Contents"
+#~ msgstr "Contenidos"

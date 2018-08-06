@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:15
 msgid "Cesium Quickstart"
-msgstr "Inicio Rápido  de Cesium"
+msgstr "Guía de Inicio Rápido de Cesium"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:16
 msgid ""
