@@ -126,7 +126,7 @@ msgstr ""
 "Utilisez le programme `StarWind V2V Converter "
 "<https://www.starwindsoftware.com/converter>`_ . Il a une interface simple "
 "vous permettant de sélectionner le fichier  ``osgeo-live-XX.X-vm.vmdk`` et "
-"convertir en une image *Microsoft VHDX *."
+"convertir en une image *Microsoft VHDX*."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:44
 msgid "Microsoft Virtual Machine Converter 3.0"
