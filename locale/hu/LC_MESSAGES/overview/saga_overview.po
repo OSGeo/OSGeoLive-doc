@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/saga_overview.rst:14
+msgid "SAGA"
+msgstr "SAGA"
+
+#: ../../build/doc/overview/saga_overview.rst:17
+msgid "Desktop GIS"
+msgstr "Asztali GIS"
+
+#: ../../build/doc/overview/saga_overview.rst:19
+msgid ""
+"SAGA (System for Automated Geoscientific Analyses) is an open source "
+"geographic information system (GIS) used for editing and analysing spatial "
+"data. It includes a large number of modules for the analysis of vector "
+"(point, line and polygon), table, grid and image data. Among others the "
+"package includes modules for geostatistics, image classification, "
+"projections, simulation of dynamic processes (hydrology, landscape "
+"development) and terrain analysis. The functionality can be accessed through"
+" a GUI, the command line or by using the C++ API."
+msgstr ""
+"A SAGA (System for Automated Geoscientific Analyses) egy nyílt forráskódú "
+"térinformatikai rendszer (GIS) a térbeli adatok szerkesztésére és "
+"elemzésére. Sok modult tartalmaz a vektor  (pont, törtvonal és terület), "
+"táblázat, rács és kép adatok elemzéséhez. Többek között a csomag modulokat "
+"tartalmaz geostatisztikához, kép osztályozáshoz, vetületekhez, dinamikus "
+"folyamatok szimulációjához (hidrológia, vidékfejlesztés) és terep "
+"elemzéshez. A funkcionalitását elérhetjük a grafikus felhasználó felületen, "
+"a parancssoron vagy a C++ API-n keresztül"
+
+#: ../../build/doc/overview/saga_overview.rst:28
+msgid ""
+"SAGA has been in development since 2001, and the centre of SAGA development "
+"is located in the Institute of Geography at the University of Hamburg, with "
+"contributions from the growing world wide community."
+msgstr ""
+"A SAGA-t 2001-től fejlesztik és a SAGA fejlesztési központja a Hamburgi "
+"Egyetem Földrajzi Intézetében található, mely kiegészül a növekvő, "
+"világszerte megtalálható közösség hozzájárulásaival."
+
+#: ../../build/doc/overview/saga_overview.rst:39
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/saga_overview.rst:41
+msgid ""
+"Access to a large number of scientific modules via the Graphical User "
+"Interface or the command line"
+msgstr ""
+"Nagyszámú tudományos modul elérése a grafikus felhasználói felületen vagy a "
+"parancssoron keresztül"
+
+#: ../../build/doc/overview/saga_overview.rst:43
+msgid "Import/Export to different file formats"
+msgstr "Import/Export különböző fájl formátumokba"
+
+#: ../../build/doc/overview/saga_overview.rst:44
+msgid "Reprojection/Resampling of data"
+msgstr "Adatok vetületi átszámítása, újramintavételezése"
+
+#: ../../build/doc/overview/saga_overview.rst:45
+msgid "Manipulation of vector data (merging/intersection/attributes)"
+msgstr "Vektor adatok kezelése (összefűzés, metszés, attribútumok)"
+
+#: ../../build/doc/overview/saga_overview.rst:46
+msgid "Manipulation of point clouds from lidar data"
+msgstr "Lidar adatokból származó pontfelhők kezelése"
+
+#: ../../build/doc/overview/saga_overview.rst:47
+msgid "Raster data: interpolation, cost analysis, ..."
+msgstr "Raszter adatok: interpoláció, költség elemzés, ..."
+
+#: ../../build/doc/overview/saga_overview.rst:48
+msgid ""
+"Image analysis: filters, edge detection, cluster analysis, segmentation"
+msgstr "Kép elemzés: szűrők, él keresés, klaszter analízis, szegmentálás"
+
+#: ../../build/doc/overview/saga_overview.rst:49
+msgid ""
+"Digital Terrain Analysis: generate geomorphometric indexes, channel "
+"networks, profiles, contour lines, ..."
+msgstr ""
+"Digitális terep elemzés: geomorfikus index generálás, csatorna hálózat, "
+"metszetek, szintvonalak, ..."
+
+#: ../../build/doc/overview/saga_overview.rst:50
+msgid "Geostatistics: modules for variogram fitting and kriging"
+msgstr "Geostatisztika: modulok variogram illesztéshez és krigeléshez"
+
+#: ../../build/doc/overview/saga_overview.rst:52
+msgid "Fast user interface for managing and visualising data"
+msgstr ""
+"Gyors felhasználói interfész az adatok kezeléséhez és megjelenítéséhez"
+
+#: ../../build/doc/overview/saga_overview.rst:54
+msgid "3D visualisation"
+msgstr "3D megjelenítés"
+
+#: ../../build/doc/overview/saga_overview.rst:56
+msgid "Straightforward C++ API for creating new modules"
+msgstr "Egyértelmű C++ API új modulok létrehozásához"
+
+#: ../../build/doc/overview/saga_overview.rst:57
+msgid "Scripting through command line, bindings for Python"
+msgstr "Szkriptek a parancssorból, Python kötések"
+
+#: ../../build/doc/overview/saga_overview.rst:58
+msgid ""
+"SAGA can be accessed from the R statistical language through the RSAGA "
+"module"
+msgstr "A SAGA az RSAGA modulon keresztül elérhető az R statisztikai nyelvből"
+
+#: ../../build/doc/overview/saga_overview.rst:61
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/saga_overview.rst:63
+msgid "**Website:** http://www.saga-gis.org"
+msgstr "**Honlap:** http://www.saga-gis.org"
+
+#: ../../build/doc/overview/saga_overview.rst:65
+msgid "**Licence:** LGPL v2.1 (api); GPLv2 (GUI and modules)"
+msgstr "**Licenc:** LGPL v2.1 (api); GPLv2 (GUI és modulok)"
+
+#: ../../build/doc/overview/saga_overview.rst:67
+msgid "**Software Version:** |version-saga|"
+msgstr "**Szoftver verzió:** |version-saga|"
+
+#: ../../build/doc/overview/saga_overview.rst:69
+msgid "**Supported Platforms:** Windows, Linux, FreeBSD"
+msgstr "**Támogatott platformok:** Windows, Linux, FreeBSD"
+
+#: ../../build/doc/overview/saga_overview.rst:71
+msgid "**API Interfaces:** C++, Python, R"
+msgstr "**API interfészek:** C++, Python, R"
+
+#: ../../build/doc/overview/saga_overview.rst:73
+msgid "**Support:** http://www.saga-gis.org"
+msgstr "**Támogatás:** http://www.saga-gis.org"
+
+#: ../../build/doc/overview/saga_overview.rst:78
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/saga_overview.rst:80
+msgid ":doc:`Quickstart documentation <../quickstart/saga_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/saga_quickstart>`"

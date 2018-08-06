@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:18
+msgid "GeoNetwork"
+msgstr "GeoNetwork"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:21
+msgid "Metadata Catalog"
+msgstr "Metaadat katalógus"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:23
+msgid ""
+"GeoNetwork OpenSource is a catalog application for managing spatially "
+"referenced resources. It provides powerful metadata editing and search "
+"functions, an embedded interactive web map viewer, and is based upon Open "
+"Standards."
+msgstr ""
+"GeoNetwork OpenSource egy katalógus alkalmazás térben elhelyezkedő "
+"erőforrásokhoz. Hatékony meta adat szerkesztőt keresési funkciókat, "
+"beágyazott interaktív térkép nézegetőt biztosít és nyílt szabványokon "
+"alapul."
+
+#: ../../build/doc/overview/geonetwork_overview.rst:32
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:33
+msgid "Immediate search access to local and distributed geospatial catalogues"
+msgstr ""
+"Közvetlen keresés a helyi és a közzétett térinformatikai katalógusokban"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:34
+msgid ""
+"Up and downloading of data, graphics, documents, pdf files and any other "
+"content type"
+msgstr ""
+"Adatok, grafikák, dokumentumok, pdf fájlok és más típusú tartalmak fel- és "
+"letöltése"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:35
+msgid ""
+"An interactive Web Map Viewer to combine Web Map Services from distributed "
+"servers around the world"
+msgstr ""
+"Egy interaktív webes térkép megjelenítő, a világban szétszórt webes "
+"térképszolgáltatások egyesítésére"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:36
+msgid ""
+"Recently updated entries are accessible as RSS news feeds and as GeoRSS."
+msgstr ""
+"A mostanában aktualizált elemek elérhetők az RSS hírcsatornákon és mint "
+"GeoRSS."
+
+#: ../../build/doc/overview/geonetwork_overview.rst:37
+msgid "Online editing of metadata with a powerful template system"
+msgstr "Metaadatok online szerkesztése hatékony sablon rendszerrel"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:38
+msgid ""
+"Native support for ISO19115/ISO19119/ISO19139/ISO19110 and Dublin Core "
+"formatted metadata"
+msgstr ""
+"Natív támogatás az ISO19115/ISO19119/ISO19139/ISO19110 és Dublin Core "
+"formátumú meta adatokra"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:39
+msgid ""
+"Scheduled harvesting and synchronization of metadata between distributed "
+"catalogues (GeoNetwork, CSW, OGC WxS GetCapabilities, WebDav, ArcSDE, "
+"Thredds, OGC WFS Features, OAI-PMH)"
+msgstr ""
+"A meta adatok ütemezett begyűjtése és szinkronizálása  a megosztott "
+"katalógusok között (GeoNetwork, CSW, OGC WxS GetCapabilities, WebDav, "
+"ArcSDE, Thredds, OGC WFS Features, OAI-PMH)"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:40
+msgid "Fine-grained access control"
+msgstr "Jól szabályozott hozzáférés"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:41
+msgid "Group and user management"
+msgstr "Csoport és felhasználó kezelés"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:42
+msgid "Multi-lingual user interface"
+msgstr "Többnyelvű felhasználói interfész"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:45
+msgid "Implemented Standards"
+msgstr "Implementált szabványok"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:47
+msgid "OGC Catalogue Service-Web (CSW) 2.0.2 ISO"
+msgstr "OGC Catalogue Service-Web (CSW) 2.0.2 ISO"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:48
+msgid "Open Archives Initiatives (OAI-PMH)"
+msgstr "Open Archives Initiatives (OAI-PMH)"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:49
+msgid "OpenSearch-Geo"
+msgstr "OpenSearch-Geo"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:50
+msgid "OAI-PMH"
+msgstr "OAI-PMH"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:51
+msgid "Metadata standards:"
+msgstr "Metaadat szabványok:"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:53
+msgid "ISO19115/ISO19119/ISO19139/ISO19110 and ISO Profiles"
+msgstr "ISO19115/ISO19119/ISO19139/ISO19110 és ISO Profiles"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:54
+msgid "Dublin Core"
+msgstr "Dublin Core"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:57
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:59
+msgid "**Website:** http://geonetwork-opensource.org"
+msgstr "**Honlap:** http://geonetwork-opensource.org"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:61
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**Licenc:** GNU General Public License (GPL) version 2"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:63
+msgid "**Software Version:** |version-geonetwork|"
+msgstr "**Szoftver verzió:** |version-geonetwork|"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:65
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Támogatott platformok:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:67
+msgid "**API Interfaces:** Java"
+msgstr "**API interfészek:** Java"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:69
+msgid "**Support:** http://www.osgeo.org/search_profile"
+msgstr "**Támogatás:** http://www.osgeo.org/search_profile"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:74
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:76
+msgid ":doc:`Quickstart documentation <../quickstart/geonetwork_quickstart>`"
+msgstr ""
+":doc:`Gyorstalpaló dokumentáció <../quickstart/geonetwork_quickstart>`"

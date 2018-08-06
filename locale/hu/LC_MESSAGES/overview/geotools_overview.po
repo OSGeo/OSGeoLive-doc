@@ -1,0 +1,326 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2017\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/geotools_overview.rst:17
+msgid "GeoTools"
+msgstr "GeoTools"
+
+#: ../../build/doc/overview/geotools_overview.rst:19
+msgid ""
+"GeoTools is an open source (LGPL) Java library which provides standards "
+"compliant methods for manipulating geospatial data, and uses data structures"
+" based on Open Geospatial Consortium (OGC) specifications."
+msgstr ""
+"A GeoTools egy nyílt forráskódú (LGPL) Java könyvtár, mely szabványoknak "
+"megfelelő eljárásokat biztosít a térinformatikai adatok kezeléséhez és az "
+"Open Geospatial Consortium (OGC) specifikációin alapuló adatszerkezeteket "
+"használ."
+
+#: ../../build/doc/overview/geotools_overview.rst:21
+msgid ""
+"GeoTools is used by a number of projects including web services, command "
+"line tools and desktop applications. OSGeoLive applications which include "
+"GeoTools include: :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, "
+"AtlasStyler, :doc:`geomajas_overview`, Geopublisher, "
+":doc:`geoserver_overview`, and :doc:`udig_overview`."
+msgstr ""
+"A GeoTools-t számos projekt használja, többek között web szolgáltatások, "
+"parancssori programok és asztali alkalmazások. GeoTools-t használó OSGeo-"
+"Live alkalmazások: :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, "
+"AtlasStyler, :doc:`geomajas_overview`, Geopublisher, "
+":doc:`geoserver_overview`, and :doc:`udig_overview`."
+
+#: ../../build/doc/overview/geotools_overview.rst:31
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/geotools_overview.rst:33
+msgid "Definition of interfaces for key spatial concepts and data structures"
+msgstr ""
+"Interfészek definíciója a kulcsfontosságú térbeli fogalmakhoz és "
+"adatstruktúrákhoz"
+
+#: ../../build/doc/overview/geotools_overview.rst:35
+msgid ""
+"Integrated Geometry support provided by `JTS Topology Suite (JTS) "
+"<https://sourceforge.net/projects/jts-topo-suite/>`_"
+msgstr ""
+"A `JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-"
+"suite/>`_ által biztosított integrált geometriai támogatás"
+
+#: ../../build/doc/overview/geotools_overview.rst:36
+msgid "Attribute and spatial filters using OGC Filter Encoding specification"
+msgstr ""
+"Attribútum és térbeli szűrők az OGC Filter Encoding specifikáció "
+"felhasználásával "
+
+#: ../../build/doc/overview/geotools_overview.rst:38
+msgid ""
+"A clean data access API supporting feature access, transaction support and "
+"locking between threads"
+msgstr ""
+"Egy világos adathozzáférési API az elemek eléréséhez, tranzakció támogatás "
+"és a szálak közötti zárolás"
+
+#: ../../build/doc/overview/geotools_overview.rst:40
+msgid "Access GIS data in many file formats and spatial databases"
+msgstr "GIS adatok elérése több fájl formátumból és téradatbázisból"
+
+#: ../../build/doc/overview/geotools_overview.rst:41
+msgid "Coordinate reference system and transformation support"
+msgstr "Koordinátarendszer és transzformáció"
+
+#: ../../build/doc/overview/geotools_overview.rst:42
+msgid "Work with an extensive range of map projections"
+msgstr "Térképi vetületek kiterjedt tartománya használható"
+
+#: ../../build/doc/overview/geotools_overview.rst:43
+msgid "filter and analyze data in terms of spatial and non-spatial attributes"
+msgstr "Térbeli és nem térbeli adatok szűrése és elemzése"
+
+#: ../../build/doc/overview/geotools_overview.rst:45
+msgid ""
+"A stateless, low memory renderer, particularly useful in server-side "
+"environments."
+msgstr ""
+"Egy állapotmentes, alacsony memória igényű megjelenítés, ez különösen "
+"hasznos a szerver oldali megoldásokban"
+
+#: ../../build/doc/overview/geotools_overview.rst:47
+msgid "compose and display maps with complex styling"
+msgstr ""
+"Összetett stílusokat alkalmazó térképek összeállítása és megjelenítése"
+
+#: ../../build/doc/overview/geotools_overview.rst:49
+msgid ""
+"Powerful *schema assisted* parsing technology using XML Schema to bind to "
+"GML content"
+msgstr ""
+"Hatékony *sémával segített* XML sémát alkalmazó értelmezési technológia a "
+"GML tartalomhoz kötéshez"
+
+#: ../../build/doc/overview/geotools_overview.rst:51
+msgid ""
+"The parsing / encoding technology is provided with bindings for many OGC "
+"standards including GML, Filter, KML, SLD, and SE."
+msgstr ""
+"Értelmezési és kódolási technológia számos OGC szabványhoz biztosít "
+"kötéseket, többek között GML, Filter, KML, SLD és SE."
+
+#: ../../build/doc/overview/geotools_overview.rst:53
+msgid ""
+"GeoTools Plugins: open plug-in system allowing you to teach the library "
+"additional formats"
+msgstr ""
+"GeoTools modulok: a nyílt modulrendszer lehetővé teszi, hogy további "
+"formátumokat kezeljünk a könyvtárral"
+
+#: ../../build/doc/overview/geotools_overview.rst:55
+msgid ""
+"Plug-ins for the ImageIO-EXT project allowing GeoTools to read additional "
+"raster formats from GDAL"
+msgstr ""
+"Az ImageIO-EXT projektből származó modul lehetővé teszi, hogy a GeoTools "
+"további raszter formátumokat olvasson GDAL-ból"
+
+#: ../../build/doc/overview/geotools_overview.rst:57
+msgid "GeoTools Extensions"
+msgstr "GeoTools bővítmények"
+
+#: ../../build/doc/overview/geotools_overview.rst:59
+msgid ""
+"Provide additional capabilities built using the spatial facilites of the "
+"core library."
+msgstr ""
+"További képességeket biztosít a mag könyvtár funkcióinak felhasználásával."
+
+#: ../../build/doc/overview/geotools_overview.rst:64
+msgid ""
+"Extensions provide graph and networking support (for finding the shortest "
+"path), validation, a web map server client, bindings for xml parsing and "
+"encoding and color brewer."
+msgstr ""
+"Bővítmények biztosítják a gráf és a hálózatkezelést (legrövidebb útvonal "
+"keresés), az ellenőrzést, egy klienst a térkép szerverhez, kötéseket az xml "
+"értelmezéshez és kódoláshoz és a színkezelést."
+
+#: ../../build/doc/overview/geotools_overview.rst:66
+msgid "GeoTools Unsupported"
+msgstr "GeoTools nem hivatalos"
+
+#: ../../build/doc/overview/geotools_overview.rst:68
+msgid ""
+"GeoTools also operates as part of a wider community with a staging area used"
+" to foster new talent and promote experimentation."
+msgstr ""
+"A GeoTools egy szélesebb közösség számára kísérleti területként is működik, "
+"hogy segítse az új tehetségeket és elősegítse a kísérletezést."
+
+#: ../../build/doc/overview/geotools_overview.rst:70
+msgid ""
+"Some highlights are swing support (used in geotools tutorials), swt, local "
+"and web process support, additional symbology, additional data formats, "
+"generation of grids and a couple of implementations of ISO Geometry."
+msgstr ""
+"Néhány kiemelés: a swing támogatás (a geotools oktatóanyagokban használják),"
+" swt, helyi és web feldolgozás támogatás, további szimbólum rendszer, "
+"további adatformátumok, rács generálás és az ISO Geometria néhány "
+"megvalósítása."
+
+#: ../../build/doc/overview/geotools_overview.rst:73
+msgid "Supported Formats"
+msgstr "Támogatott formátumok"
+
+#: ../../build/doc/overview/geotools_overview.rst:75
+msgid "raster formats and data access:"
+msgstr "raszter formátumok és adat elérés:"
+
+#: ../../build/doc/overview/geotools_overview.rst:77
+msgid ""
+"arcsde, arcgrid, geotiff, grassraster, gtopo30, image (JPEG, TIFF, GIF, "
+"PNG), imageio-ext-gdal, imagemoasaic, imagepyramid, JP2K, matlab."
+msgstr ""
+"arcsde, arcgrid, geotiff, grassraster, gtopo30, image (JPEG, TIFF, GIF, "
+"PNG), imageio-ext-gdal, imagemoasaic, imagepyramid, JP2K, matlab."
+
+#: ../../build/doc/overview/geotools_overview.rst:79
+msgid "Database \"jdbc-ng\" support:"
+msgstr "Adatbázis \"jdbc-ng\" támogatás:"
+
+#: ../../build/doc/overview/geotools_overview.rst:81
+msgid "db2, h2, mysql, oracle, postgis, spatialite, sqlserver."
+msgstr "db2, h2, mysql, oracle, postgis, spatialite, sqlserver."
+
+#: ../../build/doc/overview/geotools_overview.rst:83
+msgid "Vector formats and data access:"
+msgstr ""
+"Vektor formátumok és adat elérés:\n"
+"\n"
+" "
+
+#: ../../build/doc/overview/geotools_overview.rst:85
+msgid ""
+"app-schema, arcsde, csv, dxf, edigeo, excel, geojson, org, property, "
+"shapefile, wfs."
+msgstr ""
+"app-schema, arcsde, csv, dxf, edigeo, excel, geojson, org, property, "
+"shapefile, wfs."
+
+#: ../../build/doc/overview/geotools_overview.rst:87
+msgid "XML Bindings:"
+msgstr "XML kötések:"
+
+#: ../../build/doc/overview/geotools_overview.rst:89
+msgid ""
+"Java data structures and bindings provided for the following: xsd-core (xml "
+"simple types), fes, filter, gml2, gml3, kml, ows, sld, wcs, wfs, wms, wps, "
+"vpf."
+msgstr ""
+"Java adatstruktúrák és kötések a következőkhöz: xsd-core (xml simple types),"
+" fes, filter, gml2, gml3, kml, ows, sld, wcs, wfs, wms, wps, vpf."
+
+#: ../../build/doc/overview/geotools_overview.rst:92
+msgid ""
+"Additional Geometry, Filter and Style parser/encoders available for DOM and "
+"SAX applications."
+msgstr ""
+"További geometria, szűrő és stílus értelmező/kódoló érhető el a DOM és SAX "
+"alkalmazásokból."
+
+#: ../../build/doc/overview/geotools_overview.rst:95
+msgid "Implemented Standards"
+msgstr "Implementált szabványok"
+
+#: ../../build/doc/overview/geotools_overview.rst:97
+msgid "Support of numerous Open Geospatial Consortium (OGC) standards:"
+msgstr "Számos Open Geospatial Consortium (OGC) szabvány:"
+
+#: ../../build/doc/overview/geotools_overview.rst:99
+msgid ""
+"OGC Style Layer Descriptor / Symbology Encoding data structures and "
+"rendering engine"
+msgstr ""
+"OGC Style Layer Descriptor / Symbology Encoding adatstruktúrák és "
+"megjelenítő motor"
+
+#: ../../build/doc/overview/geotools_overview.rst:100
+msgid "OGC General Feature Model including Simple Feature support"
+msgstr "OGC General Feature Model beleértve a Simple Feature támogatást"
+
+#: ../../build/doc/overview/geotools_overview.rst:101
+msgid "OGC Grid Coverage representation of raster information"
+msgstr "A raszter információ OGC Grid Coverage reprezentációja"
+
+#: ../../build/doc/overview/geotools_overview.rst:102
+msgid "OGC Filter and Common Constraint Language (CQL)"
+msgstr "OGC Filter és Common Constraint Language (CQL)"
+
+#: ../../build/doc/overview/geotools_overview.rst:103
+msgid ""
+"Clients for Web Feature Service (WFS), Web Map Service (WMS) and "
+"experimental support for Web Process Service (WPS)"
+msgstr ""
+"Web Feature Service (WFS), Web Map Service (WMS) kliensek és Web Process "
+"Service (WPS) kísérleti támogatás"
+
+#: ../../build/doc/overview/geotools_overview.rst:104
+msgid "ISO 19107 Geometry"
+msgstr "ISO 19107 geometria"
+
+#: ../../build/doc/overview/geotools_overview.rst:107
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/geotools_overview.rst:109
+msgid "**Website:** http://geotools.org/"
+msgstr "**Honlap:** http://geotools.org/"
+
+#: ../../build/doc/overview/geotools_overview.rst:111
+msgid "**Licence:** LGPL"
+msgstr "**Licenc:** LGPL"
+
+#: ../../build/doc/overview/geotools_overview.rst:113
+msgid "**Supported Platforms:** Cross Platform Java 8,9,10"
+msgstr "**Támogatott platformok:** Cross Platform Java 8,9,10"
+
+#: ../../build/doc/overview/geotools_overview.rst:115
+msgid "**API Interfaces:** Java"
+msgstr "**API Interfészek:** Java"
+
+#: ../../build/doc/overview/geotools_overview.rst:117
+msgid ""
+"**Support:** `Communication and Support "
+"<http://docs.geotools.org/latest/userguide/welcome/support.html>`_"
+msgstr ""
+"**Támogatás:** `Értesítések és támogatás "
+"<http://docs.geotools.org/latest/userguide/welcome/support.html>`_"
+
+#: ../../build/doc/overview/geotools_overview.rst:120
+msgid "GeoTools_Support"
+msgstr "GeoTools_Support"
+
+#: ../../build/doc/overview/geotools_overview.rst:122
+msgid ""
+"`Quickstart documentation "
+"<http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_"
+msgstr ""
+"`Gyorstalpaló dokumentáció "
+"<http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_"

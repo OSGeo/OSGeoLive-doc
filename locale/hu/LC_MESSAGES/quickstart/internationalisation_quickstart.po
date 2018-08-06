@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2017\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:10
+msgid "OSGeoLive Internationalisation Quickstart"
+msgstr "OSGeoLive nemzetközivé tétel gyorstalpaló"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:13
+msgid "Switching Language"
+msgstr "Nyelv váltás"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:15
+msgid "Many common languages are included on OSGeoLive. To switch languages:"
+msgstr "Sok elterjedt nyelvet megtalálja az OSGeoLive-on. A nyelv váltáshoz:"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:17
+msgid "Log out"
+msgstr "Jelentkezzen ki"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:18
+msgid "Select user=\"user\", password=\"user\""
+msgstr "Jelentkezzen be user=\"user\", password=\"user\""
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:19
+msgid "Select another language from the top panel menu."
+msgstr "Válasszon egy másik nyelvet a felső panel menüből"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:20
+msgid "Press the :guilabel:`Log in` button."
+msgstr "Nyomja meg a :guilabel:`Log in` gombot."
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:21
+msgid "Repeat the process if needed or if you wish to change languages again."
+msgstr ""
+"Ismételje meg az eljárást, ha szükséges vagy ha újra nyelvet akar váltani."
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:27
+msgid ""
+"The system menus and many of the applications will now appear in the "
+"language chosen. If a specific program continues to display in English, then"
+" the program doesn't have a translation available - please consider "
+"volunteering to write a translation. Contact the program of interest "
+"directly for more information."
+msgstr ""
+"A rendszer menü és sok alkalmazás a választott nyelven jelenik meg most. Ha "
+"egy program továbbra is angolul jelenik meg, akkor a programhoz nincs "
+"fordítás - fontolja meg, hogy önkéntesként elkészítse a fordítást. További "
+"információkért forduljon közvetlenül a kiválasztott program közösségéhez. "
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:33
+msgid ""
+"For additional languages see :menuselection:`Preferences --> Language "
+"Support` from the main menu. (Requires an internet connection)."
+msgstr ""
+"További nyelvekhez lásd :menuselection:`Preferences --> Language Support`  a"
+" főmenüből. (Internet kapcsolat szükséges)"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:37
+msgid "Keyboard Support"
+msgstr "Billentyűzet támogatás"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:38
+msgid ""
+"International keyboard support is installed, but you will need to configure "
+"the system for your specific keyboard. To change settings open "
+":menuselection:`Preferences --> Keyboard Input Methods` from the main menu "
+"and click on the :guilabel:`Input Method` tab. Next click on "
+":guilabel:`Customize active input methods` and then on the :guilabel:`Select"
+" an input method` button. Now click the :guilabel:`Add` button on the right "
+"to add an additional layout and then :guilabel:`Close` the IBus Preferences "
+"window."
+msgstr ""
+"A nemzetközi billentyűzet támogatást telepítette, de konfigurálni kell a "
+"rendszert az ön egyedi billentyűzetéhez. A beállítások módosításához nyissa "
+"meg a :menuselection:`Preferences --> Keyboard Input Methods` a főmenüből és"
+" kattintson az :guilabel:`Input Method` fülre. Majd kattintson a "
+":guilabel:`Customize active input methods`  és a :guilabel:`Select an input "
+"method` gombra. Most kattintson az :guilabel:`Add` gombra a jobb oldalon "
+"további billentyűzet kiosztás hozzáadásához, végül :guilabel:`Close`  a "
+"preferenciák ablak bezárásához."
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:47
+msgid ""
+"You can now click on the keyboard icon on the lower desktop menu bar to "
+"select the active keyboard layout."
+msgstr ""
+"Most rákattinthat a billentyűzet ikonra az alsó menüsoron az aktív "
+"billentyűzet kiosztás kiválasztásához."

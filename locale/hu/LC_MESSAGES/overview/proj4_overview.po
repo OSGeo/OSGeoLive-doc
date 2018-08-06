@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/proj4_overview.rst:16
+msgid "Proj.4"
+msgstr "Proj.4"
+
+#: ../../build/doc/overview/proj4_overview.rst:18
+msgid ""
+"Proj4 is a library that provides methods to transform between different "
+"coordinate reference systems. A geographic coordinate reference systems "
+"allows all points on the earth to be described as a set of coordinates (such"
+" as latitude, longitude and elevation). Different systems are used to "
+"represent the 3 dimensional earth on a flat, 2 dimensional map."
+msgstr ""
+"A Proj4 egy könyvtár, mely különböző vetületi rendszerek közötti "
+"transzformációs eljárásokat biztosít. Egy földrajzi vetület lehetővé teszi "
+"az összes földi pont koordinátákkal történő leírását (úgy mint szélesség, "
+"hosszúság és magasság). Különböző rendszereket használunk a 3 dimenziós föld"
+" 2 dimenziós sík térképen ábrázolásához."
+
+#: ../../build/doc/overview/proj4_overview.rst:24
+msgid ""
+"Proj4 is used in :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS "
+"<grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik "
+"<mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation and "
+"various others."
+msgstr ""
+"A Proj4-et használja a :doc:`MapServer <mapserver_overview>`, :doc:`GRASS "
+"GIS <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik "
+"<mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation és "
+"még továbbiak."
+
+#: ../../build/doc/overview/proj4_overview.rst:26
+msgid ""
+"Proj4 has been translated from C to `other languages "
+"<http://trac.osgeo.org/metacrs/wiki>`.  These sub-projects include: These "
+"tools include: * Proj4js (JavaScript) - used in :doc:`OpenLayers "
+"<openlayers_overview>`. * CS-Map (C++) - used in MapGuide. * "
+"GeoTIFF/libgeotiff (C++). * Proj4J (Java). * `SpatialReference.org "
+"<http://spatialreference.org/>`_  - website to retrieve coordinate system "
+"definitions (obsolete)."
+msgstr ""
+"A Proj4-et lefordították C-ből `más nyelvekre "
+"<http://trac.osgeo.org/metacrs/wiki>`. Ezek az alprojektek tartalmazzák: "
+"Ezeket az eszközöket: * * Proj4js (JavaScript) - used in :doc:`OpenLayers "
+"<openlayers_overview>` használja. * CS-Map (C++) MapGuide használja.  * "
+"GeoTIFF/libgeotiff (C++). * Proj4J (Java). * `SpatialReference.org "
+"<http://spatialreference.org/>`_ - honlap a vetületi definíciók  "
+"beszerzésére (idejét múlt)."
+
+#: ../../build/doc/overview/proj4_overview.rst:41
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/proj4_overview.rst:43
+msgid ""
+"Provides point transformation from one coordinate reference system to "
+"another."
+msgstr ""
+"Pont transzformációt biztosít az egyik vetületi rendszerből a másikba."
+
+#: ../../build/doc/overview/proj4_overview.rst:44
+msgid "Includes transformation between datums."
+msgstr "Dátum transzformációkat tartalmaz."
+
+#: ../../build/doc/overview/proj4_overview.rst:45
+msgid "Large number of projection classes supported."
+msgstr "Nagy számú vetületet támogat."
+
+#: ../../build/doc/overview/proj4_overview.rst:49
+msgid "Implemented Standards"
+msgstr "Implementált szabványok"
+
+#: ../../build/doc/overview/proj4_overview.rst:51
+msgid ""
+"Proj4 uses coordinate system definitions defined by the `European Petroleum "
+"Survey Group (EPSG) <http://www.epsg.org/>`. Well Known Text (WKT) format."
+msgstr ""
+"A Proj4 az  `European Petroleum Survey Group (EPSG) <http://www.epsg.org/>` "
+"vetületi definícióját használja.  Well Known Text (WKT) formátum."
+
+#: ../../build/doc/overview/proj4_overview.rst:57
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/proj4_overview.rst:59
+msgid "**Website:**  http://proj4.org/"
+msgstr "**Honlap:**  http://proj4.org/"
+
+#: ../../build/doc/overview/proj4_overview.rst:61
+msgid ""
+"**Licence:** `X/MIT style Open Source license "
+"<http://trac.osgeo.org/proj/wiki/WikiStart#License>`_"
+msgstr ""
+"**Licenc:** `X/MIT style Open Source license "
+"<http://trac.osgeo.org/proj/wiki/WikiStart#License>`_"
+
+#: ../../build/doc/overview/proj4_overview.rst:63
+msgid "**Software Version:** 4.9.2 (stable)"
+msgstr "**Szoftver verzió:** 4.9.2 (stabil)"
+
+#: ../../build/doc/overview/proj4_overview.rst:65
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Támogatott platformok:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/proj4_overview.rst:67
+msgid "**API Interfaces:** C, C++, Python, Java, Ruby"
+msgstr "**API interfészek:** C, C++, Python, Java, Ruby"
+
+#: ../../build/doc/overview/proj4_overview.rst:69
+msgid "**Support:** http://lists.maptools.org/mailman/listinfo/proj"
+msgstr "**Támogatás:** http://lists.maptools.org/mailman/listinfo/proj"
+
+#: ../../build/doc/overview/proj4_overview.rst:73
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/proj4_overview.rst:75
+msgid ":doc:`Quickstart documentation <../quickstart/proj4_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/proj4_quickstart>`"

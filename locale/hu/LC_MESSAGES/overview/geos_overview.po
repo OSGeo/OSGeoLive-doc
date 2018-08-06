@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2017\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/geos_overview.rst:18
+msgid "GEOS"
+msgstr "GEOS"
+
+#: ../../build/doc/overview/geos_overview.rst:21
+msgid "Spatial Library"
+msgstr "Térinformatikai könyvtár"
+
+#: ../../build/doc/overview/geos_overview.rst:23
+msgid ""
+"GEOS (Geometry Engine - Open Source) is a C++ port of the `JTS Topology "
+"Suite (JTS) <https://www.locationtech.org/proposals/jts-topology-suite>`_. "
+"It includes the OpenGIS Simple Features for SQL spatial predicate functions "
+"and spatial operators, as well as specific JTS enhanced topology functions."
+msgstr ""
+"GEOS (Geometry Engine- nyílt forráskódú) a ' JTS topológia Suite `JTS "
+"Topology Suite (JTS) <https://www.locationtech.org/proposals/jts-topology-"
+"suite>`_ C++ kikötőjébe. Ez magában foglalja az OpenGIS egyszerű funkciók "
+"SQL térbeli predikátum funkciók és területi szereplők, valamint a különleges"
+" JTS megerősített topológia funkciók."
+
+#: ../../build/doc/overview/geos_overview.rst:25
+msgid ""
+"GEOS is the most widely used geospatial C++ geometry library, being used by "
+"open source projects such as :doc:`PostGIS <postgis_overview>`, :doc:`QGIS "
+"<qgis_overview>`, :doc:`GDAL/OGR <gdal_overview>` and :doc:`MapServer "
+"<mapserver_overview>`, and by proprietary products including `FME "
+"<http://www.safe.com/fme/fme-technology/>`_."
+msgstr ""
+"A GEOS a legszélesebb körben használt térinformatikai, geometriai C++ "
+"könyvtár, olyan nyílt forráskódú projektekben használják mint :doc:`PostGIS "
+"<postgis_overview>`, :doc:`QGIS <qgis_overview>`, :doc:`GDAL/OGR "
+"<gdal_overview>`,  és :doc:`MapServer <mapserver_overview>` és kereskedelmi "
+"termékekben mint például `FME <http://www.safe.com/fme/fme-technology/>`_."
+
+#: ../../build/doc/overview/geos_overview.rst:28
+msgid "Implemented Standards"
+msgstr "Implementált szabványok"
+
+#: ../../build/doc/overview/geos_overview.rst:30
+msgid ""
+"`OpenGIS Simple Features for SQL "
+"<http://www.opengeospatial.org/standards/sfs>`_  spatial predicate functions"
+" and spatial operators"
+msgstr ""
+"`OpenGIS Simple Features for SQL "
+"<http://www.opengeospatial.org/standards/sfs>`_ térinformatikai függvények "
+"és operátorok"
+
+#: ../../build/doc/overview/geos_overview.rst:39
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/geos_overview.rst:41
+msgid ""
+"Geometries: Point, LineString, Polygon, MultiPoint, MultiLineString, "
+"MultiPolygon, GeometryCollection"
+msgstr ""
+"Geometria: pont, törtvonal, felület, multi pont, multi törtvonal, multi "
+"felület, geometria gyűjtemény"
+
+#: ../../build/doc/overview/geos_overview.rst:42
+msgid ""
+"Predicates: Intersects, Touches, Disjoint, Crosses, Within, Contains, "
+"Overlaps, Equals, Covers"
+msgstr ""
+"Feltételek: metsz, érint, , különáll, keresztez, beleesik, tartalmaz, "
+"átlapol, egyenlő, letakar."
+
+#: ../../build/doc/overview/geos_overview.rst:43
+msgid ""
+"Operations: Union, Distance, Intersection, Symmetric Difference, Convex "
+"Hull, Envelope, Buffer, Simplify, Polygon Assembly, Valid, Area, Length,"
+msgstr ""
+"Műveletek: unió, távolság, metszet, szimmetrikus különbség, konvex burkoló, "
+"befoglaló téglalap, övezet, egyszerűsítés, Polygon Assembly, validálás, "
+"terület, hossz,"
+
+#: ../../build/doc/overview/geos_overview.rst:44
+msgid "Prepared geometries (pre-spatially indexed)"
+msgstr "Előkészített geometriák (előzetes térbeli index)"
+
+#: ../../build/doc/overview/geos_overview.rst:45
+msgid "STR spatial index"
+msgstr "STR térbeli index"
+
+#: ../../build/doc/overview/geos_overview.rst:46
+msgid ""
+"OGC Well Known Text (WKT) and Well Known Binary (WKB) encoders and decoders."
+msgstr ""
+"OGC jól ismert szöveg (WKT) és jól ismert bináris (WKB) kódolók és "
+"dekódolók."
+
+#: ../../build/doc/overview/geos_overview.rst:47
+msgid "C and C++ API (C API gives long term ABI stability)"
+msgstr "C és C++ API (a C API hosszútávú ABI stabilitást biztosít)"
+
+#: ../../build/doc/overview/geos_overview.rst:48
+msgid "Thread safe (using the reentrant API)"
+msgstr "Biztonságos szálak (reentráns API használatával)"
+
+#: ../../build/doc/overview/geos_overview.rst:51
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/geos_overview.rst:53
+msgid "**Website:**  http://geos.osgeo.org/"
+msgstr "**Honlap:**  http://geos.osgeo.org/"
+
+#: ../../build/doc/overview/geos_overview.rst:55
+msgid "**Licence:** LGPL"
+msgstr "**Licenc:** LGPL"
+
+#: ../../build/doc/overview/geos_overview.rst:57
+msgid "**Software Version:** |version-geos|"
+msgstr "**Szoftver verzió:** |version-geos|"
+
+#: ../../build/doc/overview/geos_overview.rst:59
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Támogatott platformok:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/geos_overview.rst:61
+msgid "**API Interfaces:** C, C++"
+msgstr "**API interfészek:** C, C++"
+
+#: ../../build/doc/overview/geos_overview.rst:63
+msgid ""
+"**Support:** http://lists.osgeo.org/mailman/listinfo/geos-devel, "
+"http://www.osgeo.org/search_profile"
+msgstr ""
+"**Támogatás:** http://lists.osgeo.org/mailman/listinfo/geos-devel, "
+"http://www.osgeo.org/search_profile"

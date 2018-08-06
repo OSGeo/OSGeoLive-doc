@@ -1,0 +1,243 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/qgis_overview.rst:20
+msgid "QGIS"
+msgstr "QGIS"
+
+#: ../../build/doc/overview/qgis_overview.rst:23
+msgid "Desktop GIS"
+msgstr "Asztali GIS"
+
+#: ../../build/doc/overview/qgis_overview.rst:25
+msgid ""
+"QGIS is a user friendly, Open Source, GIS client where you can visualize, "
+"manage, edit, analyse data, and compose printable maps. It includes powerful"
+" analytical functionality through integration with :doc:`GRASS "
+"<grass_overview>`, :doc:`SAGA <saga_overview>`, :doc:`Orfeo Toolbox "
+"<otb_overview>` , :doc:`GDAL/OGR <gdal_overview>` and many other algorithm "
+"providers. It runs on Linux, Unix, Mac OSX, and Windows and supports "
+"numerous vector, raster and database formats and functionality."
+msgstr ""
+"A QGIS egy felhasználóbarát, nyílt forráskódú GIS kliens melyben adatokat "
+"megjeleníthet, kezelhet, szerkeszthet, elemezhet és nyomtatható térképeket "
+"állíthat össze. Hatékony elemző funkciókat tartalmaz a  "
+":doc:`GRASS<grass_overview>`, :doc:`SAGA <saga_overview>`, :doc:`Orfeo "
+"Toolbox <otb_overview>` , :doc:`GDAL/OGR <gdal_overview>` és még további "
+"algoritmus szolgáltatók integrációján keresztül. Futtatható Linux-on Mac "
+"OSX-en és Windows-on és számos vektor, raszter és adatbázis formátumokat és "
+"funkcionalitást támogat."
+
+#: ../../build/doc/overview/qgis_overview.rst:36
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/qgis_overview.rst:38
+msgid "Friendly graphical user interface:"
+msgstr "Barátságos grafikus felhasználói felület."
+
+#: ../../build/doc/overview/qgis_overview.rst:40
+msgid "identify/select features"
+msgstr "elemek azonosítása/szelektálása"
+
+#: ../../build/doc/overview/qgis_overview.rst:41
+msgid "edit/view/search attributes"
+msgstr "attribútumok szerkesztése, megjelenítése, keresése"
+
+#: ../../build/doc/overview/qgis_overview.rst:42
+msgid "on the fly projection"
+msgstr "vetületi átszámítás röptében"
+
+#: ../../build/doc/overview/qgis_overview.rst:43
+msgid "print composer"
+msgstr "lap összeállítás"
+
+#: ../../build/doc/overview/qgis_overview.rst:44
+msgid "feature labeling"
+msgstr "elemek címkézése"
+
+#: ../../build/doc/overview/qgis_overview.rst:45
+msgid "change vector and raster symbology"
+msgstr "tematikus vektor és raszter megjelenítés"
+
+#: ../../build/doc/overview/qgis_overview.rst:46
+msgid "add a graticule layer"
+msgstr "rácsháló réteg hozzáadás"
+
+#: ../../build/doc/overview/qgis_overview.rst:47
+msgid "and more ..."
+msgstr "és még továbbiak ..."
+
+#: ../../build/doc/overview/qgis_overview.rst:49
+msgid "Easy Viewing of many Vector and Raster Formats"
+msgstr "Több vektor és raszter formátum egyszerű megjelenítése"
+
+#: ../../build/doc/overview/qgis_overview.rst:51
+msgid ""
+"database tables: PostgreSQL/PostGIS, Oracle Spatial, MS SQL Spatial, "
+"SpatiaLite"
+msgstr ""
+"adatbázis táblák: PostgreSQL/PostGIS, Oracle Spatial, MS SQL Spatial, "
+"SpatiaLite"
+
+#: ../../build/doc/overview/qgis_overview.rst:52
+msgid ""
+"most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML, "
+"OpenStreetMap vectors"
+msgstr ""
+"legtöbb vektor formátum: többek között ESRI shapefiles, MapInfo, SDTS és "
+"GML, OpenStreetMap vektorok"
+
+#: ../../build/doc/overview/qgis_overview.rst:53
+msgid ""
+"raster formats such as digital elevation models, aerial photography or "
+"landsat imagery"
+msgstr ""
+"raszter formátumok, mint magasság modellek, légi-fényképek és űrfelvételek"
+
+#: ../../build/doc/overview/qgis_overview.rst:54
+msgid "GRASS locations and mapsets"
+msgstr "GRASS munkaterület és térképhalmaz"
+
+#: ../../build/doc/overview/qgis_overview.rst:55
+msgid "online spatial data served as OGC-compliant WMS, WMTS, WFS or WCS"
+msgstr "OGC szabványos WMS, WMTS, WFS vagy WCS online térbeli adatok"
+
+#: ../../build/doc/overview/qgis_overview.rst:56
+msgid "2.5D rendering support"
+msgstr "2.5D rajzolás támogatása"
+
+#: ../../build/doc/overview/qgis_overview.rst:58
+msgid "Create, edit and export spatial data using:"
+msgstr "Térbeli adatok létrehozása, szerkesztése és exportálása"
+
+#: ../../build/doc/overview/qgis_overview.rst:60
+msgid "digitizing tools for GRASS and shapefile formats"
+msgstr "digitalizáló eszközök GRASS és shape fájl formátumokhoz"
+
+#: ../../build/doc/overview/qgis_overview.rst:61
+msgid "the georeferencer plugin"
+msgstr "georeferáló modul"
+
+#: ../../build/doc/overview/qgis_overview.rst:62
+msgid ""
+"GPS tools to import and export GPX format, convert other GPS formats to GPX,"
+" or down/upload directly to a GPS unit"
+msgstr ""
+"GPS eszközök GPX formátum importálására és exportálására, más GPS formátumok"
+" konvertálása GPX-be, adatok feltöltése és letöltése a GPS eszközre"
+
+#: ../../build/doc/overview/qgis_overview.rst:64
+msgid ""
+"Perform spatial analysis using integrated support for SAGA, OTB, MMGIS and "
+"GRASS"
+msgstr ""
+"Térbeli elemzések végrehajtása az integrált SAGA, OTB, MMGIS és GRASS "
+"támogatással"
+
+#: ../../build/doc/overview/qgis_overview.rst:66
+msgid "map algebra"
+msgstr "térkép algebra"
+
+#: ../../build/doc/overview/qgis_overview.rst:67
+msgid "terrain analysis"
+msgstr "domborzat elemzés"
+
+#: ../../build/doc/overview/qgis_overview.rst:68
+msgid "hydrologic modeling"
+msgstr "hidrológiai modellezés"
+
+#: ../../build/doc/overview/qgis_overview.rst:69
+msgid "network analysis"
+msgstr "hálózat elemzés"
+
+#: ../../build/doc/overview/qgis_overview.rst:70
+msgid "comprehensive searchable toolbox of functions"
+msgstr "függvények széleskörű, kereshető eszköztára"
+
+#: ../../build/doc/overview/qgis_overview.rst:71
+msgid ""
+"define and run reusable analysis routines by chaining functions using a "
+"graphical modelling tool"
+msgstr ""
+"újrahasználható elemző eljárások definiálása és futtatása, a függvények "
+"grafikus modellező eszközzel történő összefűzésével"
+
+#: ../../build/doc/overview/qgis_overview.rst:72
+msgid "and many others"
+msgstr "és még sok más"
+
+#: ../../build/doc/overview/qgis_overview.rst:74
+msgid "Publish to the internet"
+msgstr "Iinternetes publikálás"
+
+#: ../../build/doc/overview/qgis_overview.rst:75
+msgid "Extensible plugin architecture"
+msgstr "Bővíthető modul szerkezet"
+
+#: ../../build/doc/overview/qgis_overview.rst:78
+msgid "Implemented Standards"
+msgstr "Implementált szabványok"
+
+#: ../../build/doc/overview/qgis_overview.rst:80
+msgid "OGC standards compliant (WMS, WFS, ... )"
+msgstr "OGC szabvány kompatibilitás (WMS, WFS, ...)"
+
+#: ../../build/doc/overview/qgis_overview.rst:83
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/qgis_overview.rst:85
+msgid "**Website:** http://www.qgis.org"
+msgstr "**Honlap:** http://www.qgis.org"
+
+#: ../../build/doc/overview/qgis_overview.rst:87
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**Licenc:** GNU General Public License (GPL) verzió 2"
+
+#: ../../build/doc/overview/qgis_overview.rst:89
+msgid "**Software Version:** |version-qgis|"
+msgstr "**Szoftver verzió:** |version-qgis|"
+
+#: ../../build/doc/overview/qgis_overview.rst:91
+msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
+msgstr "**Támogatott platformok:** Windows, Linux, Mac, Unix"
+
+#: ../../build/doc/overview/qgis_overview.rst:93
+msgid "**Community Support:** http://qgis.org/en/site/forusers/support.html"
+msgstr ""
+"**Közösségi támogatás:** http://qgis.org/en/site/forusers/support.html"
+
+#: ../../build/doc/overview/qgis_overview.rst:95
+msgid ""
+"**Commercial Support:** "
+"http://qgis.org/en/site/forusers/commercial_support.html"
+msgstr ""
+"**Kereskedelmi támogatás:** "
+"http://qgis.org/en/site/forusers/commercial_support.html"
+
+#: ../../build/doc/overview/qgis_overview.rst:100
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/qgis_overview.rst:102
+msgid ":doc:`Quickstart documentation <../quickstart/qgis_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/qgis_quickstart>`"

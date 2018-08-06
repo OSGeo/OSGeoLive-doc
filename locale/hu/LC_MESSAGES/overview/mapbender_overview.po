@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-07 09:20-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2017\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/mapbender_overview.rst:14
+msgid "Mapbender"
+msgstr "Mapbender"
+
+#: ../../build/doc/overview/mapbender_overview.rst:17
+msgid "Geoportal Framework"
+msgstr "Geoportál Keretrendszer"
+
+#: ../../build/doc/overview/mapbender_overview.rst:19
+msgid ""
+"`Mapbender <https://www.mapbender.org/en>`_ is a graduated OSGeo project. It"
+" is a web based geoportal framework to publish, register, view, navigate, "
+"monitor and grant secure access to spatial data infrastructure services."
+msgstr ""
+"`Mapbender <https://www.mapbender.org/en>`_ egy közismert OSGeo projekt. Egy"
+" web alapú geoportál keretrendszer térbeli adat infrastruktúra "
+"szolgáltatásokhoz a publikáláshoz. regisztrációhoz, megtekintéshez, "
+"navigáláshoz, monitorozáshoz és biztonságok hozzáférés biztosításához."
+
+#: ../../build/doc/overview/mapbender_overview.rst:21
+msgid ""
+"Mapbender is the tip of the iceberg, a meta layer of software providing "
+"access to SDI components adhering to international standards. Mapbender "
+"allows users to easily create customised browser clients from a wide range "
+"of widgets (without any/with minimal) programming required. Widgets "
+"integrate with server functionality to provide advanced functionality like "
+"security proxying, digitizing, auto snapping and more."
+msgstr ""
+"A Mapbender a jéghegy csúcsa, olyan szoftver meta réteg, amely hozzáférést "
+"biztosít a nemzetközi szabványoknak megfelelő SDI komponensekhez. A "
+"Mapbender lehetővé teszi a felhasználók számára, hogy könnyedén hozhassanak "
+"létre személyre szabott böngésző klienseket számos vezérlőből programozás "
+"nélkül vagy minimális programozással. A vezérlőket integrálják a szerver "
+"funkcionalitásával, és olyan kifinomult funkciókat kínálnak, mint például a "
+"biztonsági proxy, a digitalizálás, az automatikus tárgyraszter és így "
+"tovább."
+
+#: ../../build/doc/overview/mapbender_overview.rst:23
+msgid ""
+"Mapbender management applications are straight forward and easy to use "
+"providing highly focused functionality for the operation of large scale "
+"distributed SDI components. It is the tool of choice for SDI administrators "
+"who need to maintain, categorize and monitor map and feature services. "
+"Mapbender grants access to individuals, groups and manages machine to "
+"machine access. Adherence to standardized services, such as OGC WMS allows "
+"to take advantage of interoperable services from a multitude of server "
+"platforms."
+msgstr ""
+"A Mapbender menedzsment alkalmazások egyértelműek és egyszerűen kezelhetők, "
+"nagyon fókuszált funkcionalitást biztosítva a nagyméretű elosztott SDI "
+"komponensek működtetéséhez. Ez  az SDI-adminisztrátorok választott eszköze, "
+"akiknek kezelniük, kategorizálniuk és monitorozniuk kell a térképi "
+"szolgáltatásokat. A Mapbender hozzáférést biztosít az egyéneknek, "
+"csoportoknak, és kezeli a gép-gép kapcsolatokat. A szabványosított "
+"szolgáltatásoknak köszönhetően, mint például az OGC WMS, lehetővé teszi az "
+"interoperábilis szolgáltatások előnyeinek kihasználását számos szerver "
+"platformon."
+
+#: ../../build/doc/overview/mapbender_overview.rst:25
+msgid "Mapbender is based on Symfony, OpenLayers and jQuery."
+msgstr "A Mapbender a Symfony, OpenLayers és jQuery programokra épül."
+
+#: ../../build/doc/overview/mapbender_overview.rst:34
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/mapbender_overview.rst:36
+msgid "Easily create web mapping interfaces using template applications"
+msgstr ""
+"Web térkép interfészek egyszerű létrehozása sablon alkalmazások "
+"felhasználásával."
+
+#: ../../build/doc/overview/mapbender_overview.rst:38
+msgid "add/remove/customize applications"
+msgstr "alkalmazások hozzáadása, eltávolítása és testreszabása"
+
+#: ../../build/doc/overview/mapbender_overview.rst:39
+msgid "Create applications with digitize functionality"
+msgstr "Digitalizáló funkcionalítással rendelkező alkalmazás létrehozása"
+
+#: ../../build/doc/overview/mapbender_overview.rst:40
+msgid "Create mobile Applications"
+msgstr "Mobil alkalmazások létrehozása"
+
+#: ../../build/doc/overview/mapbender_overview.rst:41
+msgid "Print high-quality maps using your own PDF templates."
+msgstr "Jó minőségű térképnyomtatás saját PDF sablonok felhasználásával"
+
+#: ../../build/doc/overview/mapbender_overview.rst:42
+msgid "Digitizing via SQL"
+msgstr "Digitalizálás SQL-en keresztül"
+
+#: ../../build/doc/overview/mapbender_overview.rst:44
+msgid "Upload and share remote OGC WMS (Capabilities caching)"
+msgstr "Távoli OGC WMS feltöltés és megosztás (képességek gyorstárazása)"
+
+#: ../../build/doc/overview/mapbender_overview.rst:46
+msgid "arrange uploaded WMS for overlay"
+msgstr "feltöltött WMS rendezése átfedésre"
+
+#: ../../build/doc/overview/mapbender_overview.rst:47
+msgid "editing layer visibility"
+msgstr "réteg láthatóság szerkesztése"
+
+#: ../../build/doc/overview/mapbender_overview.rst:48
+msgid "order"
+msgstr "sorrend"
+
+#: ../../build/doc/overview/mapbender_overview.rst:49
+msgid "format"
+msgstr "formátum"
+
+#: ../../build/doc/overview/mapbender_overview.rst:50
+msgid ""
+"Create users and groups, share and grant access to services and modules"
+msgstr ""
+"Felhasználók és csoportok létrehozása, hozzáférés megosztása és adása a "
+"szolgáltatásokhoz és modulokhoz"
+
+#: ../../build/doc/overview/mapbender_overview.rst:51
+msgid ""
+"Restrict user access with the OWS security proxy module via trusted servers"
+msgstr ""
+"Felhasználói hozzáférés korlátozása az OWS biztonságos proxy modullal, "
+"megbízható szervereken keresztül"
+
+#: ../../build/doc/overview/mapbender_overview.rst:52
+msgid ""
+"Encrypted protocols monitoring and status notification and auto-update "
+"service for remote OGC services"
+msgstr ""
+"Titkosított protokollok monitorozása és állapot értesítés és automatikus "
+"frissítési szolgáltatás távoli OGC szolgáltatásokhoz"
+
+#: ../../build/doc/overview/mapbender_overview.rst:53
+msgid "... and more!"
+msgstr "... és továbbiak!"
+
+#: ../../build/doc/overview/mapbender_overview.rst:56
+msgid "Implemented Standards"
+msgstr "Implementált szabványok"
+
+#: ../../build/doc/overview/mapbender_overview.rst:58
+msgid "OGC Web Map Service (WMS) 1.1.1, 1.3.0"
+msgstr "OGC Web Map Service (WMS) 1.1.1, 1.3.0"
+
+#: ../../build/doc/overview/mapbender_overview.rst:61
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/mapbender_overview.rst:63
+msgid "**Website:** https://www.mapbender.org/"
+msgstr "**Honlap:** https://www.mapbender.org/"
+
+#: ../../build/doc/overview/mapbender_overview.rst:65
+msgid "**Licence:** `MIT license <http://opensource.org/licenses/MIT>`_"
+msgstr "**Licenc:** `MIT license <http://opensource.org/licenses/MIT>`_"
+
+#: ../../build/doc/overview/mapbender_overview.rst:67
+msgid "**Software Version:** |version-mapbender|"
+msgstr "**Szoftver verzió:** |version-mapbender|"
+
+#: ../../build/doc/overview/mapbender_overview.rst:69
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Támogatott platformok:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/mapbender_overview.rst:71
+msgid "**Support:** https://www.mapbender.org/en/community"
+msgstr "**Támogatás:** https://www.mapbender.org/en/community"
+
+#: ../../build/doc/overview/mapbender_overview.rst:75
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/mapbender_overview.rst:77
+msgid ":doc:`Quickstart documentation <../quickstart/mapbender_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/mapbender_quickstart>`"
+
+#~ msgid ""
+#~ "`Mapbender <http://mapbender3.org/en>`_ is a graduated OSGeo project. It is "
+#~ "a web based geoportal framework to publish, register, view, navigate, "
+#~ "monitor and grant secure access to spatial data infrastructure services."
+#~ msgstr ""
+#~ "A `Mapbender <http://mapbender3.org/en>`_ az OSGeo egy elismert projektje. "
+#~ "Ez egy web alapú geoportál keretrendszer publikáláshoz, regisztrációhoz, "
+#~ "megtekintéshez, navigáláshoz valamint téradat infrastruktúra szolgáltatások "
+#~ "biztonságos elérésének biztosításához és monitorozásához."
+
+#~ msgid "Mapbender is based on Symfony2, OpenLayers, Mapproxy and jQuery."
+#~ msgstr ""
+#~ "Mapbender a Symfony2, OpenLayers, Mapproxy és jQuery projektekre épül."
+
+#~ msgid "**Website:** http://mapbender3.org/"
+#~ msgstr "**Honlap:** http://mapbender3.org/"
+
+#~ msgid "**Support:** http://www.mapbender3.org/en/community"
+#~ msgstr "**Támogatás:** http://www.mapbender3.org/en/community"

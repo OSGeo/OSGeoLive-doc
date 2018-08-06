@@ -1,0 +1,271 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/geoserver_overview.rst:19
+msgid "GeoServer"
+msgstr "GeoServer"
+
+#: ../../build/doc/overview/geoserver_overview.rst:22
+msgid "Web Service"
+msgstr "Web szolgáltatás"
+
+#: ../../build/doc/overview/geoserver_overview.rst:24
+msgid ""
+"GeoServer is a web server that allows you to serve maps and data from a "
+"variety of formats to standard clients such as web browsers and desktop GIS "
+"programs. Data is published via standards based interfaces, such as WMS, "
+"WFS, WCS, WPS, Tile Caching and more. GeoServer comes with a browser-based "
+"management interface and connects to multiple data sources at the back end."
+msgstr ""
+"A GeoServer egy web szerver, mely  lehetővé teszi önnek, hogy különböző "
+"formátumú térképeket és adatokat szolgáltasson szabványos klienseknek mint "
+"például web böngészők és asztali GIS programok. Az adatokat szabványokon "
+"alapuló interfészeken keresztül publokálja, mint például WMS, WFS, WCS, WPS,"
+" Tile Cache és továbbiak. A GeoServer böngésző alapú kezelő felülettel "
+"érkezik és több adatforráshoz kapcsolódik a szerver oldalon."
+
+#: ../../build/doc/overview/geoserver_overview.rst:37
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/geoserver_overview.rst:44
+msgid "**Serve data from a variety of data stores:**"
+msgstr "**Adatot szolgáltat különböző adattárakból:**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:41
+msgid "Vector"
+msgstr "Vektor"
+
+#: ../../build/doc/overview/geoserver_overview.rst:41
+msgid "Shapefiles, External WFS"
+msgstr "Shape fájlok, külső WFS"
+
+#: ../../build/doc/overview/geoserver_overview.rst:42
+msgid "PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server"
+msgstr "PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server"
+
+#: ../../build/doc/overview/geoserver_overview.rst:44
+msgid "Raster"
+msgstr "Raszter"
+
+#: ../../build/doc/overview/geoserver_overview.rst:44
+msgid ""
+"GeoTiff, JPG and PNG (with world file), image pyramid, GDAL formats, Image "
+"Mosaic, Oracle GeoRaster, NetCDF"
+msgstr ""
+"GeoTiff, JPG és PNG (world fájllal), kép piramis, GDAL formatumok, kép "
+"mozaik, Oracle GeoRaster, NetCDF"
+
+#: ../../build/doc/overview/geoserver_overview.rst:48
+msgid ""
+"**Data is served as safe and quick images using WMS and WMTS protocols:**"
+msgstr ""
+"**Az adatokat biztonságos és gyors képekként szolgáltatja WMS és WMTS "
+"protokolok használatával:**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:47
+msgid ""
+"As the data is served up as an image your data is completely safe and "
+"secure. Unless they redigitise your data there is no way to steal your data."
+" The appearance of each map layer can be controlled using the SLD standard "
+"which allows features to be coloured and labeled. By combining these rules "
+"with OGC Filters scale dependent styling can be implemented allowing more "
+"detail to be added as a user zooms in. Label collision management, grouping "
+"and priorities are also implemented."
+msgstr ""
+"Mivel az adatokat képként szolgáltatjuk, az adatai teljes biztonságban "
+"vannak. Hacsak nem digitalizálják újra  nincs lehetőség az adatainak "
+"ellopására. Az egyes térkép rétegek megjelenését SLD szabvány "
+"felhasználásával vezérelhető, mely lehetővé teszi az elemek színezését és "
+"címkézését.Az OGC szűrőkkel kombinálva ezeket a szabályokat, méretarány "
+"függő stílusokat implementálhatunk, lehető téve, hogy több részlet jelenjen "
+"meg ahogy a felhasználó nagyít. Címke ütközést, csoportosítást és prioritást"
+" is implementálták."
+
+#: ../../build/doc/overview/geoserver_overview.rst:52
+msgid "**Full vector data can be sent to a client using the WFS protocol:**"
+msgstr ""
+"**Vektor adatok küldhetők a kliensnek a WFS protokoll használatával:**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:51
+msgid ""
+"A WFS client can download vector data and use it for mapping, spatial "
+"analysis and other operations. Also if authorised the user can modify the "
+"data and send it back to the server to update the stored data using the "
+"WFS-T protocol. The data can be transmitted using GML (compressed) as well "
+"as other standard data formats like shapefile and json."
+msgstr ""
+"WFS kliens vektor adatokat tud letölteni és térkép megjelenítéshez, "
+"térinformatikai elemzéshez és más műveletekhez használja azok. Ha "
+"engedélyezett a felhasználó módosíthatja is az adatokat, és  a WFS-T "
+"protokoll segítségével visszaküldi a kiszolgálónak, hogy frissítse a tárolt "
+"adatok. Az adatok GML (tömörített) valamint más szabványos formátumokban "
+"mint például shape fájl és json  továbbíthatók."
+
+#: ../../build/doc/overview/geoserver_overview.rst:55
+msgid "**Raster data values can be sent to a client using the WCS protocol:**"
+msgstr ""
+"**Raszter adatok a WCS protokoll felhasználásával küldhetők a kliensnek:**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:55
+msgid ""
+"A GIS client can request the actual raster data for use in spatial analysis."
+" This allows a user to create applications which can model the process "
+"described by your data."
+msgstr ""
+"A GIS kliens kérheti az aktuális raszter adatokat térbeli elemzésekhez. Ez "
+"lehetővé teszi a felhasználónak, hogy alkalmazásokat hozzon létre, mely az "
+"adatok által leírt feldolgozást modellezi."
+
+#: ../../build/doc/overview/geoserver_overview.rst:58
+msgid "**On the fly reprojection:**"
+msgstr "**Vetületi átszámítás röptében:**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:58
+msgid ""
+"GeoServer supports the majority of the EPSG database of projections and can "
+"reproject to any of them on demand to allow clients with limited "
+"reprojection support to pass the load to the server."
+msgstr ""
+"GeoServer támogatja az EPSG vetületi adatbázisok többségét és bármelyikre át"
+" tud vetíteni igény esetén, így korlátozott vetületi számításokkal "
+"rendelkező kliensek a szervernek adhatják át a feladatot."
+
+#: ../../build/doc/overview/geoserver_overview.rst:61
+msgid "**Tiling Cache**"
+msgstr "**Csempe Cache**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:61
+msgid ""
+"`GeoWebCache <http://geowebcache.org/>`_, which is integrated into "
+"GeoServer, tiles and caches map images from a variety of sources such as "
+"WMS. It implements various service interfaces (such as WMS-C, WMTS, TMS, "
+"Google Maps KML, Virtual Earth) in order to accelerate and optimize map "
+"image delivery. It can also recombine tiles to work with regular WMS "
+"clients."
+msgstr ""
+"'GeoWebCache < http://geowebcache.org/ &gt;' _, melyet integráltak a "
+"GeoServer-be, csempékre bontja és gyorstárazza a legkülönbözőbb forrásokból "
+"származó a térkép képeket, mint például a WMS. Különböző szolgáltatás "
+"interfészeket  (például WMS-C, WMTS, TMS, Google Maps KML, Virtual Earth) "
+"implementál, hogy  felgyorsítsa és optimalizálja a térkép képek letöltését. "
+"Ez újrakészítheti csempékkel is, hogy a szokásos WMS kliensekkel "
+"együttműködjön."
+
+#: ../../build/doc/overview/geoserver_overview.rst:64
+msgid "**Web Processing Service (WPS)**"
+msgstr "**Web Processing Service (WPS)**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:64
+msgid ""
+"Geospatial algorithms, including those from :doc:`JTS <jts_overview>`, can "
+"be called through GeoServer's `WPS "
+"<http://www.opengeospatial.org/standards/wps>`__ interface. This includes "
+"the chaining of processes, and using rendering transformations to create "
+"powerful visualisations through the WMS interface."
+msgstr ""
+"Térinformatikai algoritmusok, melyeket a :doc:`JTS <jts_overview>` tartalmaz"
+" a GeoServer `WPS <http://www.opengeospatial.org/standards/wps>`__ "
+"interfészen keresztül meghívhatók. Ez magában foglalja a folyamatok "
+"láncolatát, és a megjelenítési transzformációk használatával  hatékony "
+"vizualizációkat hozhatunk létre a WMS interfészen keresztül."
+
+#: ../../build/doc/overview/geoserver_overview.rst:67
+msgid "Implemented Standards"
+msgstr "Implementált szabványok"
+
+#: ../../build/doc/overview/geoserver_overview.rst:69
+msgid "Support of numerous Open Geospatial Consortium  (OGC) standards:"
+msgstr "Számos Open Geospatial Consortium (OGC) szabvány támogatása:"
+
+#: ../../build/doc/overview/geoserver_overview.rst:73
+msgid "`WMS <http://www.opengeospatial.org/standards/wms>`__ (client/server)"
+msgstr ""
+"`WMS <http://www.opengeospatial.org/standards/wms>`__ (kliens/szerver)"
+
+#: ../../build/doc/overview/geoserver_overview.rst:74
+msgid "Web Map Tile Service (WMTS)"
+msgstr "Web Map Tile Service (WMTS)"
+
+#: ../../build/doc/overview/geoserver_overview.rst:75
+msgid ""
+"`WFS-T <http://www.opengeospatial.org/standards/wfs>`__ (transactional)"
+msgstr "`WFS-T <http://www.opengeospatial.org/standards/wfs>`__ (tranzakciós)"
+
+#: ../../build/doc/overview/geoserver_overview.rst:76
+msgid "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
+msgstr "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
+
+#: ../../build/doc/overview/geoserver_overview.rst:77
+msgid "`FE <http://www.opengeospatial.org/standards/fe>`__"
+msgstr "`FE <http://www.opengeospatial.org/standards/fe>`__"
+
+#: ../../build/doc/overview/geoserver_overview.rst:78
+msgid "`SLD <http://www.opengeospatial.org/standards/sld>`__"
+msgstr "`SLD <http://www.opengeospatial.org/standards/sld>`__"
+
+#: ../../build/doc/overview/geoserver_overview.rst:79
+msgid "`GML <http://www.opengeospatial.org/standards/gml>`__"
+msgstr "`GML <http://www.opengeospatial.org/standards/gml>`__"
+
+#: ../../build/doc/overview/geoserver_overview.rst:80
+msgid "`KML <http://www.opengeospatial.org/standards/kml>`__"
+msgstr "`KML <http://www.opengeospatial.org/standards/kml>`__"
+
+#: ../../build/doc/overview/geoserver_overview.rst:83
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/geoserver_overview.rst:85
+msgid "**Website:** http://geoserver.org/"
+msgstr "**Honlap:** http://geoserver.org/"
+
+#: ../../build/doc/overview/geoserver_overview.rst:87
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**Licenc:** GNU General Public License (GPL) version 2"
+
+#: ../../build/doc/overview/geoserver_overview.rst:89
+msgid "**Software Version:** |version-geoserver|"
+msgstr "**Szoftver verzió:** |version-geoserver|"
+
+#: ../../build/doc/overview/geoserver_overview.rst:91
+msgid ""
+"**Supported Platforms:** Java 8 (Oracle JDK and OpenJDK) on Windows, Linux, "
+"and Mac"
+msgstr ""
+"**Támogatott platformok:** Java 8 (Oracle JDK és OpenJDK)  Windows-on, "
+"Linux-on, és Mac-en"
+
+#: ../../build/doc/overview/geoserver_overview.rst:93
+msgid "**API Interfaces:** WMS, WFS, WCS, REST"
+msgstr "**API Interfészek:** WMS, WFS, WCS, REST"
+
+#: ../../build/doc/overview/geoserver_overview.rst:95
+msgid "**Support:** http://geoserver.org/support/"
+msgstr "**Támogatás:** http://geoserver.org/support/"
+
+#: ../../build/doc/overview/geoserver_overview.rst:99
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/geoserver_overview.rst:101
+msgid ":doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/geoserver_quickstart>`"

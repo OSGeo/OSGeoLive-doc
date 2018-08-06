@@ -1,0 +1,298 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/pycsw_overview.rst:19
+msgid "pycsw"
+msgstr "pycsw"
+
+#: ../../build/doc/overview/pycsw_overview.rst:22
+msgid "Metadata Catalogue"
+msgstr "Metaadat katalógus"
+
+#: ../../build/doc/overview/pycsw_overview.rst:24
+msgid ""
+"pycsw enables users to publish a catalogue of dataset descriptions "
+"(metadata) to the web, using standards based interfaces and formats, such "
+"that it can be queried and updated by catalogue clients. pycsw is simple to "
+"setup within an Apache web server (or any WSGI server) and can access "
+"metadata records stored as XML files within a database."
+msgstr ""
+"A pycsw lehetővé teszi a felhasználók számára, hogy Közzététel az "
+"adatleírások (metaadatok) katalógusát szabványon alapuló interfészek és "
+"formátumok használatával, így a katalógushoz kapcsolódó kliensek "
+"lekérdezhetik és frissíthetik azokat. A pycsw-t egyszerűen beállíthatjuk egy"
+" Apache webszerveren (vagy bármilyen WSGI szerveren), és hozzáférhetünk az "
+"adatbázisban XML fájként tárolt metaadat-rekordokhoz."
+
+#: ../../build/doc/overview/pycsw_overview.rst:26
+msgid ""
+"Metadata is 'data about data', storing such things as creation-date, author,"
+" title, area-of-interest, etc, and is usually encoded as XML files, "
+"following international standards such as ISO 19115, ISO 19139 and FGDC "
+"CSDGM."
+msgstr ""
+"A metaadat 'adatok az adatokról', olyan adatokat tartalmaz mint a létrehozás"
+" dátuma, szerző, cím, érdekeltségi kör, stb. és általában XML fájlokban "
+"kódolják, a nemzetközi szabványokat követve, mint ISO 19115, ISO 19139 és "
+"FGDC CSDGM."
+
+#: ../../build/doc/overview/pycsw_overview.rst:28
+msgid ""
+"pycsw is a `Python`_ implementation of the `OGC Catalogue Services for the "
+"Web (CSW) standard <http://www.opengeospatial.org/standards/cws>`__. The "
+"project is certified `OGC Compliant`_, and is an `OGC Reference "
+"Implementation`_. The CSW standard defines common interfaces to discover, "
+"browse and query metadata about spatial data, web services and related "
+"resources."
+msgstr ""
+"A pycsw az `OGC Katalógus szolgáltatások a Webre (CSW) szabvány "
+"<http://www.opengeospatial.org/standards/cws>`__ `Python`_ implementációja ."
+" A projekt `OGC Compliant`_ tanúsítvánnyal rendelkezik, és egy `OGC "
+"Reference Implementation`_. A CSW-szabvány közös interfészeket határoz meg a"
+" téradatok, a webes szolgáltatások és a kapcsolódó erőforrások metaadatainak"
+" felfedezésére, böngészésére és lekérdezésére."
+
+#: ../../build/doc/overview/pycsw_overview.rst:30
+msgid ""
+"pycsw is Open Source, released under an MIT license, and runs on all major "
+"platforms (Windows, Linux, Mac OS X)."
+msgstr ""
+"a Pywcs nyílt forráskódú, MIT licenc alatt adják ki és fut az összes nagyobb"
+" platformon (Windows, Linux, Mac OS X)."
+
+#: ../../build/doc/overview/pycsw_overview.rst:39
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/pycsw_overview.rst:41
+msgid ""
+"certified OGC Compliant and OGC Reference Implementation for OGC CSW 2.0.2 "
+"and CSW 3.0.0"
+msgstr ""
+"hitelesített OG megfelelőség és OGC referencia implementáció az OGC CSW "
+"2.0.2 ls CSW 3.0.0 szolgáltatásokhoz"
+
+#: ../../build/doc/overview/pycsw_overview.rst:42
+msgid "harvesting support for WMS, WFS, WCS, WPS, WAF, CSW, SOS"
+msgstr "támogatás WMS, WFS, WCS, WPS, WAF,CSW, SOS szolgáltatásokhoz"
+
+#: ../../build/doc/overview/pycsw_overview.rst:43
+msgid "implements INSPIRE Discovery Services 3.0"
+msgstr "INSPIRE Discovery Services 3.0-t implementálja"
+
+#: ../../build/doc/overview/pycsw_overview.rst:44
+msgid "implements ISO Metadata Application Profile 1.0.0"
+msgstr "Az ISO Metadata Application Profile 1.0.0-t implementálja"
+
+#: ../../build/doc/overview/pycsw_overview.rst:45
+msgid "implements FGDC CSDGM Application Profile for CSW 2.0"
+msgstr "A FGDC CSDGM Application Profile for CSW 2.0-t implementálja"
+
+#: ../../build/doc/overview/pycsw_overview.rst:46
+msgid "implements the Search/Retrieval via URL (SRU) search protocol"
+msgstr "Implementálja a Search/Retrieval via URL (SRU) protokollt"
+
+#: ../../build/doc/overview/pycsw_overview.rst:47
+msgid "implements Full Text Search capabilities"
+msgstr "Implementálja a Full Text Search képességeket"
+
+#: ../../build/doc/overview/pycsw_overview.rst:48
+msgid "implements OGC OpenSearch Geo/Time extensions"
+msgstr "Implementálja az OGC OpenSearch Geo/Time bővítményeket"
+
+#: ../../build/doc/overview/pycsw_overview.rst:49
+msgid "implements Open Archives Initiative Protocol for Metadata Harvesting"
+msgstr ""
+"implementálja az Open Archives Initiative Protocol for Metadata Harvesting-"
+"et"
+
+#: ../../build/doc/overview/pycsw_overview.rst:50
+msgid "supports ISO, Dublin Core, DIF, FGDC, Atom and GM03 metadata models"
+msgstr ""
+"támogatja az ISO, Dublin Core, DIF, FGDC, Atom és GM03 metaadat modelleket"
+
+#: ../../build/doc/overview/pycsw_overview.rst:51
+msgid "CGI or WSGI deployment"
+msgstr "CGI vagy WSGI telepítés"
+
+#: ../../build/doc/overview/pycsw_overview.rst:52
+msgid "Python 2 and 3 compatible"
+msgstr "Python 2 és 3 kompatibilis"
+
+#: ../../build/doc/overview/pycsw_overview.rst:53
+msgid "simple configuration"
+msgstr "egyszerű konfigurálás"
+
+#: ../../build/doc/overview/pycsw_overview.rst:54
+msgid "transactional capabilities (CSW-T)"
+msgstr "tranzakciós képességek (CSW-T)"
+
+#: ../../build/doc/overview/pycsw_overview.rst:55
+msgid "flexible repository configuration"
+msgstr "rugalmas tárház konfiguráció"
+
+#: ../../build/doc/overview/pycsw_overview.rst:56
+msgid "GeoNode connectivity"
+msgstr "GeoNode kapcsolat"
+
+#: ../../build/doc/overview/pycsw_overview.rst:57
+msgid "HHypermap connectivity"
+msgstr "HHypermap kapcsolat"
+
+#: ../../build/doc/overview/pycsw_overview.rst:58
+msgid "Open Data Catalog connectivity"
+msgstr "Open Data Catalog kapcsolat"
+
+#: ../../build/doc/overview/pycsw_overview.rst:59
+msgid "CKAN connectivity"
+msgstr "CKAN kapcsolat"
+
+#: ../../build/doc/overview/pycsw_overview.rst:60
+msgid "federated catalogue distributed searching"
+msgstr "elosztott katalógus keresés"
+
+#: ../../build/doc/overview/pycsw_overview.rst:61
+msgid "realtime XML Schema validation"
+msgstr "valós idejű XML séma validáció"
+
+#: ../../build/doc/overview/pycsw_overview.rst:62
+msgid "extensible profile plugin architecture"
+msgstr "bővíthető modul architektúra"
+
+#: ../../build/doc/overview/pycsw_overview.rst:63
+msgid "very lightweight (Python + CGI)"
+msgstr "nagyon könnyűsúlyú (Python + CGI)"
+
+#: ../../build/doc/overview/pycsw_overview.rst:67
+msgid "Implemented Standards"
+msgstr "Implementált szabványok"
+
+#: ../../build/doc/overview/pycsw_overview.rst:69
+msgid "OGC Standards:"
+msgstr "OGC szabványok:"
+
+#: ../../build/doc/overview/pycsw_overview.rst:71
+msgid "CSW   2.0.2, 3.0.0"
+msgstr "CSW   2.0.2, 3.0.0"
+
+#: ../../build/doc/overview/pycsw_overview.rst:72
+msgid "Filter        1.1.0, 2.0.0"
+msgstr "Filter        1.1.0, 2.0.0"
+
+#: ../../build/doc/overview/pycsw_overview.rst:73
+msgid "OWS Common    1.0.0, 2.0.0"
+msgstr "OWS Common    1.0.0, 2.0.0"
+
+#: ../../build/doc/overview/pycsw_overview.rst:74
+msgid "GML   3.1.1"
+msgstr "GML   3.1.1"
+
+#: ../../build/doc/overview/pycsw_overview.rst:75
+msgid "OGC SFSQL     1.2.1"
+msgstr "OGC SFSQL     1.2.1"
+
+#: ../../build/doc/overview/pycsw_overview.rst:76
+msgid "OGC OpenSearch  1.0"
+msgstr "OGC OpenSearch  1.0"
+
+#: ../../build/doc/overview/pycsw_overview.rst:78
+msgid "Metadata Standards:"
+msgstr "Metaadat szabványok:"
+
+#: ../../build/doc/overview/pycsw_overview.rst:80
+msgid "Dublin Core   1.1"
+msgstr "Dublin Core   1.1"
+
+#: ../../build/doc/overview/pycsw_overview.rst:81
+msgid "SOAP  1.2"
+msgstr "SOAP  1.2"
+
+#: ../../build/doc/overview/pycsw_overview.rst:82
+msgid "ISO 19115     2003"
+msgstr "ISO 19115     2003"
+
+#: ../../build/doc/overview/pycsw_overview.rst:83
+msgid "ISO 19139     2007"
+msgstr "ISO 19139     2007"
+
+#: ../../build/doc/overview/pycsw_overview.rst:84
+msgid "ISO 19119     2005"
+msgstr "ISO 19119     2005"
+
+#: ../../build/doc/overview/pycsw_overview.rst:85
+msgid "NASA DIF      9.7"
+msgstr "NASA DIF      9.7"
+
+#: ../../build/doc/overview/pycsw_overview.rst:86
+msgid "FGDC CSDGM    1998"
+msgstr "FGDC CSDGM    1998"
+
+#: ../../build/doc/overview/pycsw_overview.rst:87
+msgid "GM03  2.1"
+msgstr "GM03  2.1"
+
+#: ../../build/doc/overview/pycsw_overview.rst:88
+msgid "SRU   1.1"
+msgstr "SRU   1.1"
+
+#: ../../build/doc/overview/pycsw_overview.rst:89
+msgid "OAI-PMH   2.0"
+msgstr "OAI-PMH   2.0"
+
+#: ../../build/doc/overview/pycsw_overview.rst:90
+msgid "A9 OpenSearch         1.1"
+msgstr "A9 OpenSearch         1.1"
+
+#: ../../build/doc/overview/pycsw_overview.rst:93
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/pycsw_overview.rst:95
+msgid "**Website:** http://pycsw.org"
+msgstr "**Honlap:** http://pycsw.org"
+
+#: ../../build/doc/overview/pycsw_overview.rst:97
+msgid "**Licence:** `MIT`_"
+msgstr "**Licenc:** `MIT`_"
+
+#: ../../build/doc/overview/pycsw_overview.rst:99
+msgid "**Software Version:** |version-pycsw|"
+msgstr "**Szoftver verzió:** |version-pycsw|"
+
+#: ../../build/doc/overview/pycsw_overview.rst:101
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Támogatott platformok:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/pycsw_overview.rst:103
+msgid "**API Interfaces:** Python"
+msgstr "**API interfészek:** Python"
+
+#: ../../build/doc/overview/pycsw_overview.rst:105
+msgid "**Support:** http://pycsw.org/docs/support.html"
+msgstr "**Támogatás:** http://pycsw.org/docs/support.html"
+
+#: ../../build/doc/overview/pycsw_overview.rst:114
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/pycsw_overview.rst:116
+msgid ":doc:`Quickstart documentation <../quickstart/pycsw_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/pycsw_quickstart>`"

@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/pywps_overview.rst:18
+msgid "PyWPS"
+msgstr "PyWPS"
+
+#: ../../build/doc/overview/pywps_overview.rst:21
+msgid "Web Processing Service"
+msgstr "Web Processing Service"
+
+#: ../../build/doc/overview/pywps_overview.rst:23
+msgid ""
+"PyWPS provides web access to custom geospatial operations (referred to as "
+"Processes) via the `Web Processing Service (WPS) "
+"<http://www.opengeospatial.org/standards/wps>`__ standard."
+msgstr ""
+"A PyWPS webes hozzáférést biztosít az egyedi térinformatikai műveletekhez (a"
+" továbbiakban: feldolgozás) a ' Web Processing Service (WPS) < "
+"http://www.opengeospatial.org/standards/wps &gt; ' __ szabványos "
+"szolgáltatáson keresztül."
+
+#: ../../build/doc/overview/pywps_overview.rst:26
+msgid ""
+"Processes are written in the Python programming language and can integrate "
+"tools such as :doc:`GRASS GIS <grass_overview>`, :doc:`R <R_overview>`, "
+":doc:`GDAL/OGR <gdal_overview>`, :doc:`proj.4 <proj4_overview>` and other "
+"libraries with Python bindings.  Source data can be provided with WPS "
+"requests or accessed from data on the WPS server."
+msgstr ""
+"A feldolgozásokat Python programnyelven készítették és olyan eszközökbe "
+"integrálható mint a :doc:`GRASS GIS <grass_overview>`, :doc:`R "
+"<R_overview>`, :doc:`GDAL/OGR <gdal_overview>`, "
+":doc:`proj.4<proj4_overview>` és további Python kötésekkel bíró más "
+"könyvtárakkal. A forrás adatokról WPS kérésekkel gondoskodhatunk vagy a WPS "
+"szerverről érhetők el."
+
+#: ../../build/doc/overview/pywps_overview.rst:37
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/pywps_overview.rst:39
+msgid "small and lightweight"
+msgstr "kicsi és könnyűsúlyú"
+
+#: ../../build/doc/overview/pywps_overview.rst:40
+msgid "easy and fast to install and setup"
+msgstr "könnyen és gyorsan telepíthető és beállítható"
+
+#: ../../build/doc/overview/pywps_overview.rst:41
+msgid "implemented in pure Python"
+msgstr "teljesen Pythonban implementálták"
+
+#: ../../build/doc/overview/pywps_overview.rst:42
+msgid "integrates seamlessly with the Python ecosystem of packages:"
+msgstr "tökéletesen illeszkedik a Python csomagok ökoszisztémájához:"
+
+#: ../../build/doc/overview/pywps_overview.rst:44
+msgid "GRASS 7"
+msgstr "GRASS 7"
+
+#: ../../build/doc/overview/pywps_overview.rst:45
+msgid "R"
+msgstr "R"
+
+#: ../../build/doc/overview/pywps_overview.rst:46
+msgid "GDAL/OGR"
+msgstr "GDAL/OGR"
+
+#: ../../build/doc/overview/pywps_overview.rst:47
+msgid "Proj.4"
+msgstr "Proj.4"
+
+#: ../../build/doc/overview/pywps_overview.rst:48
+msgid "Numpy"
+msgstr "Numpy"
+
+#: ../../build/doc/overview/pywps_overview.rst:49
+msgid "Shapely"
+msgstr "Shapely"
+
+#: ../../build/doc/overview/pywps_overview.rst:52
+msgid "Implemented Standards"
+msgstr "Implementált szabványok"
+
+#: ../../build/doc/overview/pywps_overview.rst:54
+msgid "OGC Standards:"
+msgstr "OGC szabványok:"
+
+#: ../../build/doc/overview/pywps_overview.rst:56
+msgid "WPS 1.0.0"
+msgstr "WPS 1.0.0"
+
+#: ../../build/doc/overview/pywps_overview.rst:59
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/pywps_overview.rst:61
+msgid "**Website:** http://pywps.org"
+msgstr "**Honlap:** http://pywps.org"
+
+#: ../../build/doc/overview/pywps_overview.rst:63
+msgid "**Licence:** GPL"
+msgstr "**Licenc:** GPL"
+
+#: ../../build/doc/overview/pywps_overview.rst:65
+msgid "**Software Version:** |version-pywps|"
+msgstr "**Szoftver verzió:** |version-pywps|"
+
+#: ../../build/doc/overview/pywps_overview.rst:67
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Támogatott platformok:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/pywps_overview.rst:69
+msgid "**API Interfaces:** Python"
+msgstr "**API interfészek:** Python"
+
+#: ../../build/doc/overview/pywps_overview.rst:71
+msgid "**Support:** http://pywps.org/community/#professional-support"
+msgstr "**Támogatás:** http://pywps.org/community/#professional-support"
+
+#: ../../build/doc/overview/pywps_overview.rst:75
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/pywps_overview.rst:77
+msgid ":doc:`Quickstart documentation <../quickstart/pywps_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/pywps_quickstart>`"

@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/osm_overview.rst:15
+msgid "OpenStreetMap"
+msgstr "OpenStreetMap"
+
+#: ../../build/doc/overview/osm_overview.rst:18
+msgid "Tools for mapping the world"
+msgstr "Eszközök a világ térképezéséhez"
+
+#: ../../build/doc/overview/osm_overview.rst:20
+msgid ""
+"`OpenStreetMap <https://www.openstreetmap.org>`_ is a project aimed squarely"
+" at creating and providing free geographic data such as street maps to "
+"anyone who wants them. The project was started because most maps you think "
+"of as free actually have legal or technical restrictions on their use, "
+"holding back people from using them in creative, productive or unexpected "
+"ways."
+msgstr ""
+"Az `OpenStreetMap <https://www.openstreetmap.org>`_ egy olyan projekt, "
+"amelynek célja olyan ingyenes földrajzi adatokat hoz létrehozása és "
+"biztosítása bárkinek, mint például az utcatérképek , akik haználnák őket. A "
+"projektet azért indították el, mert a legtöbb ingyenesnek tekintett térkép "
+"jogi vagy technikai korlátozást tartalmaz a használatukra vonatkozóan, "
+"visszatartva az embereket kreatív, produktív vagy váratlan módokon."
+
+#: ../../build/doc/overview/osm_overview.rst:27
+msgid ""
+"A number of programs have been included: JOSM, Merkaartor, Osmosis, "
+"Osm2pgsql, and a number of small command utilities. In addition recent "
+"sample data for the FOSS4G host city and a number of JOSM plugins have been "
+"included."
+msgstr ""
+"Számos programot foglal magába: JOSM, Merkaartor, Osmosis, Osm2pgsql és több"
+" kis  parancssori segédprogramot. Továbbá tartalmazza a legfrissebb adatokat"
+" a FOSS4G házigazda városról és több JOSM modult."
+
+#: ../../build/doc/overview/osm_overview.rst:38
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/osm_overview.rst:40
+msgid "Global massively crowd-sourced dataset"
+msgstr "Globális masszívan közösségi adathalmaz"
+
+#: ../../build/doc/overview/osm_overview.rst:42
+msgid "A number of editors to choose from"
+msgstr "Számos szerkesztő melyből választhatunk"
+
+#: ../../build/doc/overview/osm_overview.rst:44
+msgid "A number of renderers to choose from (including custom and online)"
+msgstr ""
+"Számos megjelenítő, melyek közül választhatunk (beleértve a hagyományost és "
+"online-t)"
+
+#: ../../build/doc/overview/osm_overview.rst:46
+msgid "Free to use"
+msgstr "Ingyenesen haználható"
+
+#: ../../build/doc/overview/osm_overview.rst:48
+msgid "Widespread geo-application integration"
+msgstr "Széleskörű térinformatikai alkalmazás integráció"
+
+#: ../../build/doc/overview/osm_overview.rst:52
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/osm_overview.rst:54
+msgid "**Website:** https://www.openstreetmap.org"
+msgstr "**Honlap:** https://www.openstreetmap.org"
+
+#: ../../build/doc/overview/osm_overview.rst:56
+msgid "**Licences:**"
+msgstr "**Licencek:**"
+
+#: ../../build/doc/overview/osm_overview.rst:58
+msgid "OpenStreetMap data: https://www.openstreetmap.org/copyright"
+msgstr "OpenStreetMap adatok: https://www.openstreetmap.org/copyright"
+
+#: ../../build/doc/overview/osm_overview.rst:60
+msgid "JOSM: GNU General Public License (GPL) version 2"
+msgstr "JOSM: GNU General Public License (GPL) version 2"
+
+#: ../../build/doc/overview/osm_overview.rst:64
+msgid "JOSM plugins collection: Ranging from Public Domain to GPLv3"
+msgstr ""
+"JOSM modull gyűjtemény: Public Domain-tól a GPLv3-ig terjedő tartományban"
+
+#: ../../build/doc/overview/osm_overview.rst:66
+msgid "Merkaartor: GNU General Public License (GPL) version 2"
+msgstr "Merkaartor: GNU General Public License (GPL) verzió 2"
+
+#: ../../build/doc/overview/osm_overview.rst:69
+msgid "**Software Versions:**"
+msgstr "**Szoftver verziók:**"
+
+#: ../../build/doc/overview/osm_overview.rst:71
+msgid "JOSM: Latest stable snapshot (svn r11427)"
+msgstr "JOSM: legutolsó stabil pillanatkép (svn r11427)"
+
+#: ../../build/doc/overview/osm_overview.rst:73
+msgid "Merkaartor: 0.18.2"
+msgstr "Merkaartor: 0.18.2"
+
+#: ../../build/doc/overview/osm_overview.rst:75
+msgid "Osmosis: 0.44.1"
+msgstr "Osmosis: 0.44.1"
+
+#: ../../build/doc/overview/osm_overview.rst:77
+msgid "osm2pgsql: 0.88.1"
+msgstr "osm2pgsql: 0.88.1"
+
+#: ../../build/doc/overview/osm_overview.rst:80
+msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
+msgstr "**Támogatott platformok:** GNU/Linux, Mac OSX, MS Windows"
+
+#: ../../build/doc/overview/osm_overview.rst:82
+msgid "**API Interfaces (data):** REST (via Xapi), XML"
+msgstr "**API interfészek (adat):** REST (via Xapi), XML"
+
+#: ../../build/doc/overview/osm_overview.rst:84
+msgid "**Support:** https://www.openstreetmap.org/help"
+msgstr "**Támogatás:** https://www.openstreetmap.org/help"
+
+#: ../../build/doc/overview/osm_overview.rst:89
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/osm_overview.rst:91
+msgid ":doc:`Quickstart documentation <../quickstart/osm_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/osm_quickstart>`"

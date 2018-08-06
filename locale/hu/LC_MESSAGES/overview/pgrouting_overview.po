@@ -1,0 +1,173 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:18
+msgid "pgRouting"
+msgstr "pgRouting"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:21
+msgid "GIS Tools"
+msgstr "GIS eszközök"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:23
+msgid ""
+"pgRouting extends the :doc:`PostGIS <postgis_overview>`/`PostgreSQL "
+"<http://postgresql.org>`_ geospatial database to provide geospatial routing "
+"and other network analysis functionality."
+msgstr ""
+"pgRouting kibővíti a :doc:`PostGIS <postgis_overview>`/`PostgreSQL "
+"<http://postgresql.org>`_ térinformatikai adatbázist, hogy útvonalkeresést "
+"és más hálózatelemző funkciókat biztosítsanak."
+
+#: ../../build/doc/overview/pgrouting_overview.rst:25
+msgid "Advantages of the database routing approach are:"
+msgstr "Az adatbázis alapú útvonalkeresés előnyei:"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:27
+msgid ""
+"Data and attributes can be modified by many clients, like :doc:`QGIS "
+"<qgis_overview>` and :doc:`uDig <udig_overview>` through JDBC, ODBC, or "
+"directly using Pl/pgSQL. The clients can either be PCs or mobile devices."
+msgstr ""
+"Az adatok és az attribútumok több klienssel módosíthatók, mint például "
+":doc:`QGIS <qgis_overview>` és  :doc:`uDig <udig_overview>` továbbá JDBC, "
+"ODBC vagy Pl/pgSQL közvetlenül használatával. A kliensek PC-k vagy mobil "
+"eszközök lehetnek."
+
+#: ../../build/doc/overview/pgrouting_overview.rst:28
+msgid ""
+"Data changes can be reflected instantaneously through the routing engine. "
+"There is no need for precalculation."
+msgstr ""
+"Az adatmódosítások azonnal megjelennek az úttervező motoron keresztül. Nincs"
+" szükség előkalkulációra."
+
+#: ../../build/doc/overview/pgrouting_overview.rst:29
+msgid ""
+"The \"cost\" parameter can be dynamically calculated through SQL and its "
+"value can come from multiple fields or tables."
+msgstr ""
+"A \"költség\" paramétert dinamikusan számíthatjuk az SQL-el és az értéke "
+"több mezőből vagy táblából jöhet."
+
+#: ../../build/doc/overview/pgrouting_overview.rst:31
+msgid ""
+"pgRouting is available under the GPLv2 license and is supported by a growing"
+" community of individuals, businesses and organizations."
+msgstr ""
+"pgRouting GPLv2 licenc alatt érhető el és egy egyénekből, cégekből és "
+"szervezetekből álló növekvő közösség támogatja."
+
+#: ../../build/doc/overview/pgrouting_overview.rst:40
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:42
+msgid "pgRouting provides functions for:"
+msgstr "pgRouting funkciókat biztosít ezekhez:"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:44
+msgid "All Pairs Shortest Path, Johnson’s Algorithm"
+msgstr "Minden pár legrövidebb útvonal, Johnson algoritmus"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:45
+msgid "All Pairs Shortest Path, Floyd-Warshall Algorithm"
+msgstr "Minden pár legrövidebb útvonal, Floyd-Washall algoritmus"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:46
+msgid "Shortest Path A*"
+msgstr "A* legrövidebb útvonal"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:47
+msgid "Bi-directional Dijkstra Shortest Path"
+msgstr "Kétirányú Dijkstra legrövidebb útvonal"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:48
+msgid "Bi-directional A* Shortest Path"
+msgstr "Kétirányú A* legrövidebb útvonal"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:49
+msgid "Shortest Path Dijkstra"
+msgstr "Legrövidebb útvonal Dijkstra"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:50
+msgid "Driving Distance"
+msgstr "Vezetési távolságok"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:51
+msgid "K-Shortest Path, Multiple Alternative Paths"
+msgstr "K-legrövidebb útvonal, alternatív útvonalak"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:52
+msgid "K-Dijkstra, One to Many Shortest Path"
+msgstr "K-Dijkstra, egy a többhöz legrövidebb útvonal"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:53
+msgid "Traveling Sales Person"
+msgstr "Utazgató ügynök"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:54
+msgid "Turn Restriction Shortest Path (TRSP)"
+msgstr "Legrövidebb útvonal fordulási korlátozásokkal (TRSP)"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:56
+msgid ""
+"Learn more about using pgRouting in your application by reading the "
+"`documentation <http://docs.pgrouting.org>`_."
+msgstr ""
+"Tudjon meg többet a pgRouting használatáról az alkalmazásában a "
+"`dokumentáció <http://docs.pgrouting.org>`_ elolvasásával."
+
+#: ../../build/doc/overview/pgrouting_overview.rst:65
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:67
+msgid "**Website:** http://www.pgrouting.org"
+msgstr "**Honlap:** http://www.pgrouting.org"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:69
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**Licenc:** GNU General Public License (GPL) version 2"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:71
+msgid "**Software Version:** |version-pgrouting|"
+msgstr "**Szoftver verzió:** |version-pgrouting|"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:73
+msgid "**Supported Platforms:** Linux, Windows, Mac"
+msgstr "**Támogatott platformok:** Linux, Windows, Mac"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:75
+msgid "**API Interfaces:** SQL"
+msgstr "**API interfészak:** SQL"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:77
+msgid "**Commercial Support:** http://www.pgrouting.org/support.html"
+msgstr "**Kereskedelmi támogatás:** http://www.pgrouting.org/support.html"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:82
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/pgrouting_overview.rst:84
+msgid ":doc:`Quickstart documentation <../quickstart/pgrouting_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/pgrouting_quickstart>`"

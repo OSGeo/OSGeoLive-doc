@@ -1,0 +1,320 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2017\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/prior_applications.rst:5
+msgid "Previously available applications"
+msgstr "Korábban tartalmazott alkalmazások"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Name"
+msgstr "Név"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Last Available"
+msgstr "Utoljára elérhető"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Description"
+msgstr "Leírás"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "|nologo|"
+msgstr "|nologo|"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`OGC Standards`_"
+msgstr "`OGC szabványok`_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "10.5"
+msgstr "10.5"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "OGC Standards descriptions"
+msgstr "OGC szabvány leírások"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Viking_"
+msgstr "Viking_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <Viking_q_>`__"
+msgstr "`Gyorstalpaló <Viking_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "GPS Data Analysis and Viewer"
+msgstr "GPS adatelemzés és megjelenítés"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Ushahidi_"
+msgstr "Ushahidi_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <Ushahidi_q_>`__"
+msgstr "`Gyorstalpaló <Ushahidi_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Mapping and Timeline for events"
+msgstr "Térképezés és idővonal az eseményekhez"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "TinyOWS_"
+msgstr "TinyOWS_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <TinyOWS_q_>`__"
+msgstr "`Gyorstalpaló <TinyOWS_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "WFS-T Service"
+msgstr "WFS-T Szolgáltatás"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "|osgeo_community|"
+msgstr "|osgeo_community|"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "PyWPS_"
+msgstr "PyWPS_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <PyWPS_q_>`__"
+msgstr "`Gyorstalpaló <PyWPS_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Web Processing Service"
+msgstr "Web feldolgozás szolgáltatás"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "osgEarth_"
+msgstr "osgEarth_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <osgEarth_q_>`__"
+msgstr "`Gyorstalpaló <osgEarth_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "3D Terrain Rendering"
+msgstr "3D terep ábrázolás"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`Kosmo Desktop`_"
+msgstr "`Kosmo Desktop`_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <Kosmo Desktop_q_>`__"
+msgstr "`Gyorstalpaló <Kosmo Desktop_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`WorldWind Java`_"
+msgstr "`WorldWind Java`_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <WorldWind Java_q_>`__"
+msgstr "`Gyorstalpaló <WorldWind Java_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Desktop Virtual Globe"
+msgstr "Asztali virtuális földgömb"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Iris_"
+msgstr "Iris_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <Iris_q_>`__"
+msgstr "`Gyorstalpaló <Iris_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Meteorology and Climatology"
+msgstr "Meteorológia és éghajlattan"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "GeoKettle_"
+msgstr "GeoKettle_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <GeoKettle_q_>`__"
+msgstr "`Gyorstalpaló <GeoKettle_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "ETL (Extract, Transform and Load) Tool"
+msgstr "ETL (kivesz, transzformál és betölt) eszköz"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Sahana_"
+msgstr "Sahana_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <Sahana_q_>`__"
+msgstr "`Gyorstalpaló <Sahana_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Disaster management"
+msgstr "Katasztrófa kezelés"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`MB System`_"
+msgstr "`MB System`_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <MB System_q_>`__"
+msgstr "`Gyorstalpaló <MB System_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Sea Floor Mapping"
+msgstr "Tengerfenék térképezés"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Cartaro_"
+msgstr "Cartaro_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <Cartaro_q_>`__"
+msgstr "`Gyorstalpaló <Cartaro_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "10.0"
+msgstr "10.0"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Geospatial CMS"
+msgstr "Geospatial CMS"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "TileMill_"
+msgstr "TileMill_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <TileMill_q_>`__"
+msgstr "`Gyorstalpaló <TileMill_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "9.5"
+msgstr "9.5"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Styling and Publishing"
+msgstr "Stílus és publikálás"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "GpsDrive_"
+msgstr "GpsDrive_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <GpsDrive_q_>`__"
+msgstr "`Gyorstalpaló <GpsDrive_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "9.0"
+msgstr "9.0"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "GPS Navigation"
+msgstr "GPS navigáció"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`Map Window`_"
+msgstr "`Map Window`_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <Map Window_q_>`__"
+msgstr "`Gyorstalpaló <Map Window_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "8.0"
+msgstr "8.0"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Microsoft Windows based Desktop GIS."
+msgstr "Microsoft Windows alapú asztali térinformatika."
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "|osgeo_project|"
+msgstr "|osgeo_project|"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "MapFish_"
+msgstr "MapFish_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <MapFish_q_>`__"
+msgstr "`Gyorstalpaló <MapFish_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "7.9"
+msgstr "7.9"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Web Mapping Framework"
+msgstr "Web térkép keretrendszer"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "52NorthWSS_"
+msgstr "52NorthWSS_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <52NorthWSS_>`__"
+msgstr "`Gyorstalpaló <52NorthWSS_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "6.5"
+msgstr "6.5"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Web Security Service"
+msgstr "Biztonságos Web szolgáltatás"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Geopublisher_"
+msgstr "Geopublisher_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "6.0"
+msgstr "6.0"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Catalogue"
+msgstr "Katalógus"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "AtlasStyler_"
+msgstr "AtlasStyler_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Style Editor"
+msgstr "Stílus szerkesztő"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "MapGuide_"
+msgstr "MapGuide_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <MapGuide_q_>`__"
+msgstr "`Gyorstalpaló <MapGuide_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "5.0"
+msgstr "5.0"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Web Service"
+msgstr "Web szolgáltatás"

@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2017\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/openlayers_overview.rst:21
+msgid "OpenLayers"
+msgstr "OpenLayers"
+
+#: ../../build/doc/overview/openlayers_overview.rst:24
+msgid "A high-performance, feature-packed library for all your mapping needs"
+msgstr ""
+"Nagy teljesítményű, funkció gazdag könyvtár minden térképezési feladatra"
+
+#: ../../build/doc/overview/openlayers_overview.rst:26
+msgid ""
+"OpenLayers makes it easy to put a dynamic map in any web page. It can "
+"display map tiles, vector data and markers loaded from any source. "
+"OpenLayers has been developed to further the use of geographic information "
+"of all kinds. It is completely free, Open Source JavaScript, released under "
+"the 2-clause BSD License (also known as the FreeBSD)."
+msgstr ""
+"Az OpenLayers egyszerűvé teszi dinamikus térképek elhelyezését bármilyen "
+"honlapon. Megjeleníthet térkép csempéket, vektor adatokat és pont "
+"szimbólumokat tetszőleges forrásból betöltve. Az OpenLayers "
+"továbbfejlesztették mindenféle térinformatikai adat használatára. Teljesen "
+"ingyenes nyílt forráskódú JavaScript, melyet BSD 2 licenc alatt adnak ki "
+"(úgy is ismert mint FreeBSD)."
+
+#: ../../build/doc/overview/openlayers_overview.rst:35
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/openlayers_overview.rst:37
+msgid "Layers"
+msgstr "Rétegek"
+
+#: ../../build/doc/overview/openlayers_overview.rst:39
+msgid ""
+"Raster: WMS/WMTS, OpenStreetMap, Stamen, Bing, other XYZ sources, static "
+"images, etc."
+msgstr ""
+"Raszter: WMS/WMTS, OpenStreetMap, Stamen, Bing, más XYZ források, statikus "
+"képek, stb."
+
+#: ../../build/doc/overview/openlayers_overview.rst:40
+msgid ""
+"Vector: WFS, KML, GeoJSON, TopoJSON, GPX, GML, and MapBox vector tiles."
+msgstr ""
+"Vektor: WFS, KML, GeoJSON, TopoJSON, GPX, GML, és MapBox vektor csempék."
+
+#: ../../build/doc/overview/openlayers_overview.rst:41
+msgid "Heatmaps."
+msgstr "Hőtérképek"
+
+#: ../../build/doc/overview/openlayers_overview.rst:42
+msgid "Render vector layers as raster."
+msgstr "Vektor réteg megjelenítés raszterként."
+
+#: ../../build/doc/overview/openlayers_overview.rst:44
+msgid "Controls and Interactions"
+msgstr "Vezérlők és interaktivitás"
+
+#: ../../build/doc/overview/openlayers_overview.rst:46
+msgid ""
+"Overview map, zoom slider, zoom in/out buttons, scale line, rotate map, etc."
+msgstr ""
+"Áttekintő térkép, nagyító sáv, nagyítás/kicsinyítés gombok, lépték vonalzó, "
+"térkép forgatás, stb."
+
+#: ../../build/doc/overview/openlayers_overview.rst:47
+msgid "Map pan, zoom and rotation, feature selection, modification, etc."
+msgstr ""
+"Térkép eltolás, nagyítás és forgatás, elem kiválasztás, módosítás, stb."
+
+#: ../../build/doc/overview/openlayers_overview.rst:49
+msgid "Styling and customization"
+msgstr "Stílusok és testreszabás"
+
+#: ../../build/doc/overview/openlayers_overview.rst:51
+msgid "Powerful styling of features: points, lines, polygons and icons."
+msgstr "Pont, vonal, felület és ikon elemek gazdag stílus beállítása."
+
+#: ../../build/doc/overview/openlayers_overview.rst:52
+msgid "Customize controls look and feel using CSS."
+msgstr "Kontrollok kinézetének testreszabása CSS használatával."
+
+#: ../../build/doc/overview/openlayers_overview.rst:54
+msgid "Overlays"
+msgstr "Átfedések"
+
+#: ../../build/doc/overview/openlayers_overview.rst:56
+msgid "Render any DOM element at any place on the map."
+msgstr "Bármilyen DOM elem megjelenítése a térkép tetszőleges helyén."
+
+#: ../../build/doc/overview/openlayers_overview.rst:57
+msgid "Great flexibility to create tooltips and markers."
+msgstr "Nagy rugalmasság a térkép tippek és szimbólumok létrehozásában."
+
+#: ../../build/doc/overview/openlayers_overview.rst:58
+msgid "Mix the power of HTML5 capabilities with a mapping application."
+msgstr ""
+"A HTML5 képességek hatékonyságának ötvözése a térképi alkalmazásokkal."
+
+#: ../../build/doc/overview/openlayers_overview.rst:60
+msgid "Events"
+msgstr "Események"
+
+#: ../../build/doc/overview/openlayers_overview.rst:62
+msgid "Attach listener functions to map events."
+msgstr "A térkép eseményekre reagáló függvények beállítása."
+
+#: ../../build/doc/overview/openlayers_overview.rst:63
+msgid "Create your custom controls or interactions."
+msgstr "Testreszabott vezérlők és interakciók létrehozása."
+
+#: ../../build/doc/overview/openlayers_overview.rst:65
+msgid "Miscellaneous"
+msgstr "Egyebek"
+
+#: ../../build/doc/overview/openlayers_overview.rst:67
+msgid "Mobile browser support."
+msgstr "Mobil böngészők támogatása."
+
+#: ../../build/doc/overview/openlayers_overview.rst:68
+msgid "Raster reprojection."
+msgstr "Raszterek vetületi átszámítása."
+
+#: ../../build/doc/overview/openlayers_overview.rst:69
+msgid "Light-weight library. Build customized packages to reduce size."
+msgstr "Könnyűsúlyú könyvtár. A méret csökkenthető testreszabott csomagokkal."
+
+#: ../../build/doc/overview/openlayers_overview.rst:70
+msgid "Render maps using different technologies: Canvas, WebGL."
+msgstr "Térképrajzolás különböző technológiák alkalmazásával: Canvas, WebGL."
+
+#: ../../build/doc/overview/openlayers_overview.rst:71
+msgid "Raster analysis (change hue/saturation)."
+msgstr "Raszter elemzés (színárnyalat és színtelítettség módosítás)."
+
+#: ../../build/doc/overview/openlayers_overview.rst:74
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/openlayers_overview.rst:76
+msgid "**Website:** http://openlayers.org"
+msgstr "**Honlap:** http://openlayers.org"
+
+#: ../../build/doc/overview/openlayers_overview.rst:78
+msgid "**License:** 2-clause BSD License (aka FreeBSD License)"
+msgstr "**Licence:** 2-clause BSD License (FreeBSD Licenc)"
+
+#: ../../build/doc/overview/openlayers_overview.rst:80
+msgid "**Software Version:** |version-openlayers|"
+msgstr "**Szoftver verzió:** |version-openlayers|"
+
+#: ../../build/doc/overview/openlayers_overview.rst:82
+msgid "**API Interface:** JavaScript"
+msgstr "**API interfész:** JavaScript"
+
+#: ../../build/doc/overview/openlayers_overview.rst:84
+msgid ""
+"**Support:** https://stackoverflow.com/questions/tagged/openlayers (user) "
+"and https://groups.google.com/forum/#!forum/openlayers-dev (developer)"
+msgstr ""
+"**Támogatás:** https://stackoverflow.com/questions/tagged/openlayers "
+"(felhasználóknak) és https://groups.google.com/forum/#!forum/openlayers-dev "
+"(fejlesztőknek)"
+
+#: ../../build/doc/overview/openlayers_overview.rst:89
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/openlayers_overview.rst:91
+msgid ":doc:`Quickstart documentation <../quickstart/openlayers_quickstart>`"
+msgstr ""
+":doc:`Gyorstalpaló dokumentáció <../quickstart/openlayers_quickstart>`"

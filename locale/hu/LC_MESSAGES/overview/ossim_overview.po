@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/ossim_overview.rst:17
+msgid "OSSIM"
+msgstr "OSSIM"
+
+#: ../../build/doc/overview/ossim_overview.rst:20
+msgid "Image Processing"
+msgstr "Képfeldolgozás"
+
+#: ../../build/doc/overview/ossim_overview.rst:22
+msgid ""
+"Open Source Software Image Map (OSSIM) is a high performance engine for "
+"remote sensing, image processing, geographical information system and "
+"photogrammetry."
+msgstr ""
+"Open Source Software Image Map (OSSIM) egy nagy teljesítményű motor "
+"távérzékeléshez, képfeldolgozáshoz, térinformatikai rendszerhez és "
+"fotogrammetriához."
+
+#: ../../build/doc/overview/ossim_overview.rst:24
+msgid ""
+"OSSIM has been funded by several US government agencies in the intelligence "
+"and defense community and the technology is currently deployed in research "
+"and operational sites. It has been actively developed since 1996."
+msgstr ""
+"Az OSSIM-et számos amerikai kormány ügynökség finanszírozta a "
+"titkosszolgálati és védelmi területről és a technológiát a kutatási és "
+"operatív területekre telepítik. 1996 óta aktívan fejlesztik."
+
+#: ../../build/doc/overview/ossim_overview.rst:26
+msgid ""
+"Designed as a series of high performance software libraries, it is written "
+"in C++ employing the latest techniques in object-oriented software design. "
+"Many command line utilities, GUI applications, and integrated systems have "
+"been implemented - several of which are included with the software "
+"distribution."
+msgstr ""
+"Nagy hatékonyságú szoftver könyvtárak sorozataként tervezték meg, C++ "
+"nyelven írták az objektum orientált szoftver tervezés legújabb technikáinak "
+"alkalmazásával. Sok parancssori segédprogramot, grafikus alkalmazást és "
+"integrált rendszert implementáltak - számosat közülük belefoglaltak a "
+"szoftver kiadásba."
+
+#: ../../build/doc/overview/ossim_overview.rst:36
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/ossim_overview.rst:38
+msgid "Parallel processing capabilites with mpi libraries"
+msgstr "Párhuzamos feldolgozási képességek mpi könyvtárakkal"
+
+#: ../../build/doc/overview/ossim_overview.rst:39
+msgid "Rigorous sensor modeling"
+msgstr "Szigorú szenzor modellezés"
+
+#: ../../build/doc/overview/ossim_overview.rst:40
+msgid "Universal Sensor Models (RPCs)"
+msgstr "Univerzális szenzormodellek (RPCs)"
+
+#: ../../build/doc/overview/ossim_overview.rst:41
+msgid "Wide range of Map Projections and Datums supported"
+msgstr "Térképi vetületek és dátumok széles skáláját támogatják"
+
+#: ../../build/doc/overview/ossim_overview.rst:42
+msgid "Non-destructive, parameter based image chains"
+msgstr "Nem változtató, paraméter alapú kép láncok"
+
+#: ../../build/doc/overview/ossim_overview.rst:43
+msgid "Native file access"
+msgstr "Natív fájl hozzáférés"
+
+#: ../../build/doc/overview/ossim_overview.rst:44
+msgid "Precision Terrain correction and ortho-rectification"
+msgstr "Pontos terep korrekció és orto-javítás"
+
+#: ../../build/doc/overview/ossim_overview.rst:45
+msgid "Advanced Mosaicing, compositing and fusions"
+msgstr "Haladó mozaik készítés,  összerakás és egyesítés"
+
+#: ../../build/doc/overview/ossim_overview.rst:46
+msgid "Elevation support"
+msgstr "Magasság kezelés"
+
+#: ../../build/doc/overview/ossim_overview.rst:47
+msgid "Vector and shapelib support"
+msgstr "Vektor és shapelib támogatás"
+
+#: ../../build/doc/overview/ossim_overview.rst:48
+msgid "Projection and resolution independent"
+msgstr "Vetület és felbontás független"
+
+#: ../../build/doc/overview/ossim_overview.rst:49
+msgid "Equation editors"
+msgstr "Egyenlet szerkesztő"
+
+#: ../../build/doc/overview/ossim_overview.rst:52
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/ossim_overview.rst:54
+msgid "**Website:** http://www.ossim.org"
+msgstr "**Honlap:** http://www.ossim.org"
+
+#: ../../build/doc/overview/ossim_overview.rst:56
+msgid "**Licence:** GNU General Public License (GPL) version 3"
+msgstr "**Licenc:** GNU General Public License (GPL) version 3"
+
+#: ../../build/doc/overview/ossim_overview.rst:58
+msgid "**Software Version:** |version-ossim|"
+msgstr "**Szoftver verzió:** |version-ossim|"
+
+#: ../../build/doc/overview/ossim_overview.rst:60
+msgid "**Supported Platforms:** Linux, Mac, Windows"
+msgstr "**Támogatott platformok:** Linux, Mac, Windows"
+
+#: ../../build/doc/overview/ossim_overview.rst:62
+msgid "**API Interfaces:** C++"
+msgstr "**API interfészek:** C++"
+
+#: ../../build/doc/overview/ossim_overview.rst:64
+msgid "**Commercial Support:** http://www.osgeo.org/search_profile"
+msgstr "**Kereskedelmi támogatás:** http://www.osgeo.org/search_profile"
+
+#: ../../build/doc/overview/ossim_overview.rst:69
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/ossim_overview.rst:71
+msgid ":doc:`Quickstart documentation <../quickstart/ossim_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/ossim_quickstart>`"

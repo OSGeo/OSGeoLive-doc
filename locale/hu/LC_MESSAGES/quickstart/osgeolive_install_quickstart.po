@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2017\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:8
+msgid "Install OSGeoLive to Hard Disk"
+msgstr "OSGeoLive telepítése a merevlemezre"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:10
+msgid ""
+"OSGeoLive can be installed onto your hard disk, the same way an Ubuntu "
+"distribution is installed."
+msgstr ""
+"OSGeoLive ugyanúgy telepíthető a merev lemezre mint egy másik Ubuntu "
+"disztribúció."
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:13
+msgid ""
+"This process can also be run inside a Virtual Machine to create a permanent "
+"OSGeoLive Virtual Machine from a DVD or ISO image."
+msgstr ""
+"Ez az eljárás egy virtuális gépen belül is futtatható egy állandó OSGeoLive "
+"virtuális gép létrehozásához a DVD-ről vagy az ISO image-ről."
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:17
+msgid "System Requirements"
+msgstr "Rendszer követelmények"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:19
+msgid "|osgeolive-hdspace| of spare Hard Disk Space"
+msgstr "|osgeolive-hdspace| szabad merevlemez terület"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:22
+msgid "Install OSGeoLive"
+msgstr "OSGeoLive telepítése"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:27
+msgid "Select :guilabel:`Install RELEASE`"
+msgstr "Válassza ki: guilabel: `Install RELEASE`"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:32
+msgid "Enter password=\"user\""
+msgstr "Írja be a jelszót \"user\""
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:37
+msgid "Select language"
+msgstr "Válaszon nyelvet"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:42
+msgid "Select timezone"
+msgstr "Válasszon időzónát"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:47
+msgid "Select keyboard"
+msgstr "Billentyűzet választás"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:56
+msgid ""
+"Specify which disk to want to install on. (Beware, this may delete an "
+"existing"
+msgstr ""
+"Adja meg melyik lemezre akarja telepíteni. (Vigyázat, ez törölheti a korábbi"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:53
+msgid "installed partition)."
+msgstr "partíciót)"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:58
+msgid "Defaults for settings are:"
+msgstr "Alapértelmezett beállítások:"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:60
+msgid "Name = \"user\""
+msgstr "Név = \"user\""
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:61
+msgid "username = \"user\""
+msgstr "felhasználó = \"user\""
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:62
+msgid "password = \"user\""
+msgstr "jelszó = \"user\""
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:63
+msgid "computer name = \"osgeolive\""
+msgstr "számítógép név = \"osgeolive\""
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:64
+msgid "Log In automatically"
+msgstr "Automatikus bejelentkezés"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:69
+msgid "Select :guilabel:`Install`"
+msgstr "Válassza a :guilabel:`Install`"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:71
+msgid "Go and get a cup of coffee while installation is in progress."
+msgstr "Készítsen egy csésze kávét magának amíg a telepítés folyik."
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:73
+msgid "That is it."
+msgstr "Ez minden."
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:75
+msgid ""
+"Installation Tips In case you are installing using a username other than "
+"\"user\", tomcat applications require to have permission to service command "
+"as described in http://trac.osgeo.org/osgeo/ticket/1153"
+msgstr ""
+"Telepítési tippek, abban az esetben ha a \"user\" felhasználónévtől eltérőt "
+"használ a telepítésnél, akkor a tomcat alkalmazásoknak engedéllyel kell "
+"rendelkezniük a service parancs futtatásához, ahogy a "
+"http://trac.osgeo.org/osgeo/ticket/1153 oldalon írják."
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:80
+msgid "See Also:"
+msgstr "Lásd még:"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:82
+msgid ":doc:`osgeolive_quickstart`"
+msgstr ":doc:`osgeolive_quickstart`"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:83
+msgid ":doc:`virtualization_quickstart`"
+msgstr ":doc:`virtualization_quickstart`"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:84
+msgid ":doc:`usb_quickstart`"
+msgstr ":doc:`usb_quickstart`"

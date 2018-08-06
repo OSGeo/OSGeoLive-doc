@@ -1,0 +1,336 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2017\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/mapserver_overview.rst:18
+msgid "MapServer"
+msgstr "MapServer"
+
+#: ../../build/doc/overview/mapserver_overview.rst:21
+msgid "Web Service"
+msgstr "Web szolgáltatás"
+
+#: ../../build/doc/overview/mapserver_overview.rst:23
+msgid ""
+"MapServer is an `Open Source <http://www.opensource.org>`_ geographic data "
+"rendering engine written in C. Beyond browsing GIS data, MapServer allows "
+"you create \"geographic image maps\", that is, maps that can direct users to"
+" web content. For example, the Minnesota DNR `Recreation Compass "
+"<http://www.dnr.state.mn.us/maps/compass.html>`_ provides users with more "
+"than 10,000 web pages, reports and maps via a single application. The same "
+"application serves as a \"map engine\" for other portions of the site, "
+"providing spatial context where needed."
+msgstr ""
+"A MapServer egy C-ben írt `nyílt forráskódú <http://www.opensource.org>`_ "
+"térinformatikai adatmegjelenítő motor. Az adatok böngészésén túl a MapServer"
+" \"térinformatikai kép térképek\" létrehozását is lehetővé teszi, ez olyan "
+"térkép, mely különböző web tartalmakra irányíthatja a felhasználót. Például "
+"a Minnesota `DNR Rekreációs iránytű  "
+"<http://www.dnr.state.mn.us/maps/compass.html>`_ alkalmazás több mint 10,000"
+" weblapot kínál a felhasználóknak, egyetlen alkalmazáson keresztül. Ugyanez "
+"az alkalmazás \"térkép motorként\" szolgálja ki az oldal többi részét és "
+"térbeli tartalmat szolgáltat ahol szükséges."
+
+#: ../../build/doc/overview/mapserver_overview.rst:25
+msgid ""
+"MapServer was originally developed by the University of Minnesota (UMN) "
+"ForNet project in cooperation with NASA, and the Minnesota Department of "
+"Natural Resources (MNDNR). Later it was hosted by the TerraSIP project, a "
+"NASA sponsored project between the UMN and a consortium of land management "
+"interests."
+msgstr ""
+"A MapServert eredetileg a Minnesota Egyetem (UMN) Természetes Erőforrások "
+"tanszékén (MNDNR) fejlesztették, a NASA-val együttműködésben a ForNet "
+"projekt keretében. Később a TerraSIP projekt kezelésébe került, melyet a "
+"NASA szponzorált és az UMN mellett egy termőföld kezelésben érdekelt "
+"konzorcium vett benne részt."
+
+#: ../../build/doc/overview/mapserver_overview.rst:27
+msgid ""
+"MapServer is now a project of `OSGeo <http://www.osgeo.org>`_, and is "
+"maintained by a growing number of developers (nearing 20) from around the "
+"world. It is supported by a diverse group of organizations that fund "
+"enhancements and maintenance, and administered within OSGeo by the MapServer"
+" Project Steering Committee made up of developers and other contributors."
+msgstr ""
+"Napjainkban az OSGeo egy projektje és a világon mindenfelé megtalálható, "
+"növekvő számú fejlesztő (közel 20) tartja karban. A szervezetek sokszínű "
+"csoportja biztosít támogatást, alapfejlesztést és karbantartást, az OSGeo-n "
+"belüli irányításról a MapServer Projekt Irányító Bizottság gondoskodik, mely"
+" fejlesztőkből és közreműködőkből áll."
+
+#: ../../build/doc/overview/mapserver_overview.rst:36
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/mapserver_overview.rst:39
+msgid "Advanced cartographic output"
+msgstr "Fejlett térképi kimenet"
+
+#: ../../build/doc/overview/mapserver_overview.rst:41
+msgid "Scale dependent feature drawing and application execution"
+msgstr "Méretarány függő megjelenítés és alkalmazás végrehajtás"
+
+#: ../../build/doc/overview/mapserver_overview.rst:42
+msgid "Feature labeling including label collision mediation"
+msgstr "Címkézés és címke egybeesés vizsgálat"
+
+#: ../../build/doc/overview/mapserver_overview.rst:43
+msgid "TrueType font support for labeling and symbolization"
+msgstr "TrueType font támogatás a címkézéshez és a szimbólumokhoz"
+
+#: ../../build/doc/overview/mapserver_overview.rst:44
+msgid "Map element automation (scalebar, reference map, and legend)"
+msgstr ""
+"Automatikus térkép elemek (lépték vonalzó, áttekintő térkép és "
+"jelmagyarázat)"
+
+#: ../../build/doc/overview/mapserver_overview.rst:45
+msgid "Thematic mapping using logical or regular expression-based classes"
+msgstr ""
+"Tematikus térkép logikai vagy szabályos kifejezés alapján kialakított "
+"osztályokra"
+
+#: ../../build/doc/overview/mapserver_overview.rst:46
+msgid "Plugable renderer support with drivers for AGG, Cairo and others"
+msgstr ""
+"Lecserélhető megjelenítő AGG, Cairo, GD, OpenGL és még további meghajtókkal"
+
+#: ../../build/doc/overview/mapserver_overview.rst:47
+msgid "Special provisioning for tiled output generation"
+msgstr "Speciális szolgáltatás a csempe output generálásához"
+
+#: ../../build/doc/overview/mapserver_overview.rst:48
+msgid "Mask Layers"
+msgstr "Maszk rétegek"
+
+#: ../../build/doc/overview/mapserver_overview.rst:49
+msgid "Precise Symbol Placement"
+msgstr "Pontos szimbólum elhelyezés"
+
+#: ../../build/doc/overview/mapserver_overview.rst:50
+msgid "Complex Multi Label/Symbol Symbology"
+msgstr "Összetett többszörös címke/szimbólum definíciók"
+
+#: ../../build/doc/overview/mapserver_overview.rst:51
+msgid "Vector Fields"
+msgstr "Vektor mezők"
+
+#: ../../build/doc/overview/mapserver_overview.rst:52
+msgid "Label Leader Offsetting"
+msgstr "Nyilazott címkék"
+
+#: ../../build/doc/overview/mapserver_overview.rst:53
+msgid "SVG Symbology"
+msgstr "SVG szimbólumok"
+
+#: ../../build/doc/overview/mapserver_overview.rst:54
+msgid "Multiple Font Support"
+msgstr "Többféle font támogatása"
+
+#: ../../build/doc/overview/mapserver_overview.rst:55
+msgid "Dynamic Heatmaps"
+msgstr "Dinamikus hőtérképek"
+
+#: ../../build/doc/overview/mapserver_overview.rst:56
+msgid "UTF Grid Support"
+msgstr "UTF rács támogatás"
+
+#: ../../build/doc/overview/mapserver_overview.rst:57
+msgid "Layer Compositing"
+msgstr "Réteg kompozíció"
+
+#: ../../build/doc/overview/mapserver_overview.rst:59
+msgid "Sophisticated spatial query support"
+msgstr "Kifinomult térbeli lekérdezések"
+
+#: ../../build/doc/overview/mapserver_overview.rst:61
+msgid ""
+"Identify features by attributes, point, bounding box or geometry across one "
+"or more layers"
+msgstr ""
+"Elemek azonosítása attribútum, pont, befoglaló idom vagy geometria alapján, "
+"egy vagy több rétegen"
+
+#: ../../build/doc/overview/mapserver_overview.rst:62
+msgid "Support for raster queries"
+msgstr "Raszter lekérdezések"
+
+#: ../../build/doc/overview/mapserver_overview.rst:63
+msgid "Fully customizable, template driven output"
+msgstr "Teljesen testreszabható sablon alapú kimenet"
+
+#: ../../build/doc/overview/mapserver_overview.rst:64
+msgid "OGR-based query output generation"
+msgstr "OGR alapú lekérdezés kimenet"
+
+#: ../../build/doc/overview/mapserver_overview.rst:66
+msgid "Support for popular scripting and development environments"
+msgstr "Népszerű szkript és fejlesztő környezetek támogatása"
+
+#: ../../build/doc/overview/mapserver_overview.rst:68
+msgid "CGI/FastCGI"
+msgstr "CGI/FastCGI"
+
+#: ../../build/doc/overview/mapserver_overview.rst:69
+msgid "PHP, Python, Perl, Ruby, Java, and .NET"
+msgstr "PHP, Python, Perl, Ruby, Java, és .NET"
+
+#: ../../build/doc/overview/mapserver_overview.rst:71
+msgid "Cross-platform support"
+msgstr "Platform függetlenség"
+
+#: ../../build/doc/overview/mapserver_overview.rst:73
+msgid "Linux, Windows, Mac OS X, Solaris, and more"
+msgstr "Linux, Windows, Mac OS X, Solaris, és továbbiak"
+
+#: ../../build/doc/overview/mapserver_overview.rst:75
+msgid "A multitude of raster and vector data formats"
+msgstr "Vektor és raszter formátumok sokasága"
+
+#: ../../build/doc/overview/mapserver_overview.rst:77
+msgid "Native support for ESRI shapefiles, PostGIS and Oracle Spatial"
+msgstr ""
+"Natív támogatás ESRI shape fájl, PostGIS és Oracle Spatial adatforrásokhoz"
+
+#: ../../build/doc/overview/mapserver_overview.rst:78
+msgid "Many other formats via GDAL and OGR"
+msgstr "Sok további formátum GDAL és OGR könyvtárakon keresztül"
+
+#: ../../build/doc/overview/mapserver_overview.rst:80
+msgid "Map projection support"
+msgstr "Térkép vetületek"
+
+#: ../../build/doc/overview/mapserver_overview.rst:82
+msgid ""
+"On-the-fly map projection with 1000s of projections through the Proj.4 "
+"library"
+msgstr ""
+"Röptében történő vetületi átszámítások több ezer vetület között a Proj.4 "
+"könyvtárral"
+
+#: ../../build/doc/overview/mapserver_overview.rst:85
+msgid "Implemented Standards"
+msgstr "Implementált szabványok"
+
+#: ../../build/doc/overview/mapserver_overview.rst:87
+msgid "Support of numerous Open Geospatial Consortium  (OGC) standards"
+msgstr "Számos Open Geospatial Consortium (OGC) szabvány támogatása"
+
+#: ../../build/doc/overview/mapserver_overview.rst:89
+msgid "`WMS <http://www.opengeospatial.org/standards/wms>`__ (client/server)"
+msgstr ""
+"`WMS <http://www.opengeospatial.org/standards/wms>`__ (kliens/szerver)"
+
+#: ../../build/doc/overview/mapserver_overview.rst:90
+msgid ""
+"`WFS <http://www.opengeospatial.org/standards/wfs>`__ (non-transactional, "
+"client/server)"
+msgstr ""
+"`WFS <http://www.opengeospatial.org/standards/wfs>`__ (non-transactional, "
+"kliens/szerver)"
+
+#: ../../build/doc/overview/mapserver_overview.rst:91
+msgid "WMC"
+msgstr "WMC"
+
+#: ../../build/doc/overview/mapserver_overview.rst:92
+msgid "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
+msgstr "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
+
+#: ../../build/doc/overview/mapserver_overview.rst:93
+msgid "`FE <http://www.opengeospatial.org/standards/fe>`__"
+msgstr "`FE <http://www.opengeospatial.org/standards/fe>`__"
+
+#: ../../build/doc/overview/mapserver_overview.rst:94
+msgid "`SLD <http://www.opengeospatial.org/standards/sld>`__"
+msgstr "`SLD <http://www.opengeospatial.org/standards/sld>`__"
+
+#: ../../build/doc/overview/mapserver_overview.rst:95
+msgid "`GML <http://www.opengeospatial.org/standards/gml>`__"
+msgstr "`GML <http://www.opengeospatial.org/standards/gml>`__"
+
+#: ../../build/doc/overview/mapserver_overview.rst:96
+msgid "SOS"
+msgstr "SOS"
+
+#: ../../build/doc/overview/mapserver_overview.rst:97
+msgid "OM"
+msgstr "OM"
+
+#: ../../build/doc/overview/mapserver_overview.rst:99
+msgid "INSPIRE View Service compliant"
+msgstr "INSPIRE View Service compliant"
+
+#: ../../build/doc/overview/mapserver_overview.rst:102
+msgid "Demo"
+msgstr "Demo"
+
+#: ../../build/doc/overview/mapserver_overview.rst:104
+msgid "`Itasca <http://localhost/mapserver_demos/itasca/>`_"
+msgstr "`Itasca <http://localhost/mapserver_demos/itasca/>`_"
+
+#: ../../build/doc/overview/mapserver_overview.rst:107
+msgid "Documentation"
+msgstr "Dokumentáció"
+
+#: ../../build/doc/overview/mapserver_overview.rst:109
+msgid "`MapServer 7.0 Documentation <../../../mapserver/doc/index.html>`_"
+msgstr "`MapServer 7.0 Dokumentáció <../../../mapserver/doc/index.html>`_"
+
+#: ../../build/doc/overview/mapserver_overview.rst:112
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/mapserver_overview.rst:114
+msgid "**Website:** http://www.mapserver.org/"
+msgstr "**Honlap:** http://www.mapserver.org/"
+
+#: ../../build/doc/overview/mapserver_overview.rst:116
+msgid ""
+"**Licence:** `MIT-style license "
+"<http://mapserver.org/copyright.html#license>`_"
+msgstr ""
+"**Licenc:** `MIT-style licenc "
+"<http://mapserver.org/copyright.html#license>`_"
+
+#: ../../build/doc/overview/mapserver_overview.rst:118
+msgid "**Software Version:** |version-mapserver|"
+msgstr "**Szoftver verzió:** |version-mapserver|"
+
+#: ../../build/doc/overview/mapserver_overview.rst:120
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Támogatott platformok:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/mapserver_overview.rst:122
+msgid "**API Interfaces:** C, PHP, Python, Perl, Ruby, Java, and .NET"
+msgstr "**API Interfészek:** C, PHP, Python, Perl, Ruby, Java, és .NET"
+
+#: ../../build/doc/overview/mapserver_overview.rst:124
+msgid "**Support:** http://mapserver.org/community/"
+msgstr "**Támogatás:** http://mapserver.org/community/"
+
+#: ../../build/doc/overview/mapserver_overview.rst:128
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/mapserver_overview.rst:130
+msgid ":doc:`Quickstart documentation <../quickstart/mapserver_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/mapserver_quickstart>`"

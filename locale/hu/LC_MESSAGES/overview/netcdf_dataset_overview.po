@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:14
+msgid "NetCDF Data Set"
+msgstr "NetCDF adatkészletek"
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:17
+msgid "Map Data"
+msgstr "Térkép adatok"
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:19
+msgid ""
+"NetCDF (Network Common Data Form) is a set of software libraries and self-"
+"describing, machine-independent data formats that support the creation, "
+"access, and sharing of array-oriented scientific data. NetCDF version 4.0 "
+"and above work with the HDF5 format, designed to store and organize large "
+"amounts of numerical data."
+msgstr ""
+"NetCDF (Network Common Data Form) szoftver könyvtárak és önleíró, "
+"eszközfüggetlen adatformátumok halmaza, melyek támogatják a mátrix alapú "
+"tudományos adatok létrehozását, elérését és megosztását. A NetCDF 4.0 és a "
+"későbbi verziók a HDF formátummal dolgoznak, mely nagy mennyiségű numerikus "
+"adat tárolására és szervezésére terveztek."
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:21
+msgid ""
+"This sample dataset supplies annual maximum of daily high temperature, and "
+"annual maximum consecutive five-day precipitation, both historical and "
+"predicted, for the years 1850-2012 and 2006-2100 (see accompanying text "
+"files for details)."
+msgstr ""
+"Ez a minta adathalmaz a napi maximális hőmérséklet éves átlagát és az öt "
+"egymást követő nap éves maximum csapadék értékét tartalmazza, mindkettő "
+"történeti és becsült adatok az 1850-2012 és 2006-2100 évekre (lásd a "
+"mellékelt szövegfájlokat a részletekért)."
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:23
+msgid ""
+"Data courtesy of the University of Victoria PCIC (Pacific Climate Impacts "
+"Consortium), in cooperation with AORI (Atmosphere and Ocean Research "
+"Institute, The University of Tokyo, Chiba, Japan), NIES (National Institute "
+"for Environmental Studies, Ibaraki, Japan), JAMSTEC (Japan Agency for "
+"Marine-Earth Science and Technology, Kanagawa, Japan)."
+msgstr ""
+"Adatszolgáltató a University of Victoria PCIC (Pacific Climate Impacts "
+"Consortium), együttműködében az AORI  (Atmosphere and Ocean Research "
+"Institute, The University of Tokyo, Chiba, Japan), NIES (National Institute "
+"for Environmental Studies, Ibaraki, Japan), JAMSTEC (Japan Agency for "
+"Marine-Earth Science and Technology, Kanagawa, Japan) szervezetekkel."
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:33
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:35
+msgid "**Website:** http://www.pacificclimate.org/"
+msgstr "**Honlap:** http://www.pacificclimate.org/"
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:37
+msgid ""
+"**License:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA"
+" 3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`_"
+msgstr ""
+"**Licenc:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA "
+"3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`_"
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:39
+msgid "**Data Version:** 2013"
+msgstr "**Adat verzió:** 2013"
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:41
+msgid "**Data format:** NetCDF, HDF5"
+msgstr "**Adatformátum** NetCDF, HDF5"
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:43
+msgid "**Spatial coordinate system:** EPSG:4326, NAD83"
+msgstr "**Térbeli koordináta-rendszer:** EPSG:4326, NAD83"
+
+#: ../../build/doc/overview/netcdf_dataset_overview.rst:45
+msgid "**Support:** http://lists.osgeo.org/mailman/listinfo/geodata"
+msgstr "**Támogatás:** http://lists.osgeo.org/mailman/listinfo/geodata"

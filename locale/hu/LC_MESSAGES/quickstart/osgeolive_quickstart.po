@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2017\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:9
+msgid "OSGeoLive Quickstart"
+msgstr "OSGeoLive gyorstalpaló"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:11
+msgid "This Quick Start describes how to start OSGeoLive from a DVD or USB."
+msgstr ""
+"Ez a gyorstalpaló az OSGeoLive DVD-ről vagy USB-ről indítását írja le."
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:14
+msgid "System Requirements"
+msgstr "Rendszer követelmények"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:16
+msgid "Your computer should have at least:"
+msgstr "A számítógépének legalább rendelkeznie kell:"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:18
+msgid "RAM: 1 GB."
+msgstr "RAM: 1 GB."
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:19
+msgid "CPU: 1 GHz i686 or compatible (Intel/AMD)"
+msgstr "CPU: 1 GHz i686 vagy kompatibilis (Intel/AMD)"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:20
+msgid "Hard Disk:"
+msgstr "Merevlemez:"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:22
+msgid "None required if running directly from the DVD"
+msgstr "Nem szükséges, ha közvetlenül a DVD-ről használja"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:23
+msgid "|osgeolive-hdspace| if you wish to install the operating system."
+msgstr "|osgeolive-hdspace| ha telepíteni akarja az operációs rendszert."
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:25
+msgid "Mouse: a 3-button mouse is useful, especially for Mac trackpad users."
+msgstr "Egér: 3 gombos egér célszerű, különösen Mac trackpad felhasználóknak."
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:28
+msgid "Run:"
+msgstr "Futtatás:"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:30
+msgid ""
+"Source an OSGeoLive DVD, ISO available from: [:doc:`Download <../download>`]"
+" Put the DVD into your computer's CD drive, then reboot your computer."
+msgstr ""
+"Egy OSGeoLive DVDV forrása, ISO elérhető itt:  [:doc:`Download "
+"<../download>`]. Helyezze a DVD-t a számtógép CD meghajtójába és indítsa "
+"újra a gépet."
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:33
+msgid ""
+"If your computer is set to boot from CD (as is often the case) you should "
+"boot up into a Lubuntu system, with Geospatial applications installed. "
+"Otherwise you'll have to adjust the BIOS boot settings or press the boot "
+"menu button just after powering-up."
+msgstr ""
+"Ha a számítógépe a CD-ről betöltésre állították (ami gyakori eset), akkor az"
+" Lubuntu rendszert tölt be a telepített térinformatikai alkalmazásokkal. Más"
+" esetben a BIOS rendszer betöltési beállításait kell beállítania vagy a boot"
+" menüt kell választania a gép indításánál."
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:42
+msgid "Sit back while the system boots up."
+msgstr "Dőljön hátra amíg a rendszer betölt."
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:48
+msgid "Try the many applications from the :menuselection:`Geospatial` menu."
+msgstr "Próbálja ki a sok alkalmazást a :menuselection:`Geospatial` menüből."
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:51
+msgid "See Also:"
+msgstr "Lásd még:"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
+msgid ""
+"Getting started with Lubuntu and the LXDE desktop (which is used by "
+"OSGeoLive):"
+msgstr ""
+"Ismerkedés a Lubuntu-val és az LXDE asztallal (amelyet OSGeoLivehasznál):"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
+msgid ""
+"https://help.ubuntu.com/community/Lubuntu/Documentation and "
+"http://wiki.lxde.org"
+msgstr ""
+"https://help.ubuntu.com/community/Lubuntu/Documentation és "
+"http://wiki.lxde.org"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:56
+msgid "Getting started with the Ubuntu operating system:"
+msgstr "Első lépések az Ubuntu operációs rendszerben:"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:57
+msgid ""
+"`local eBook "
+"<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and "
+"`extended online help <http://help.ubuntu.com/14.04/>`_"
+msgstr ""
+"`helyi ekönyv "
+"<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ és "
+"`kibővített online súgó <http://help.ubuntu.com/14.04/>`_"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:58
+msgid ":doc:`virtualization_quickstart`"
+msgstr ":doc:`virtualization_quickstart`"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:59
+msgid ":doc:`osgeolive_install_quickstart`"
+msgstr ":doc:`osgeolive_install_quickstart`"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:60
+msgid ":doc:`usb_quickstart`"
+msgstr ":doc:`usb_quickstart`"
