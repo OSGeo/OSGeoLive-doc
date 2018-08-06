@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011, OSGeo
+# Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2017\n"
+"Last-Translator: Nicolas Roelandt, 2018\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
@@ -136,8 +137,9 @@ msgid "Details"
 msgstr "Détails"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:67
-msgid "**Website:** http://52north.org/wps"
-msgstr "**Site web:** http://52north.org/wps"
+msgid "**Website:** https://52north.org/software/software-projects/wps/"
+msgstr ""
+"**Site Internet:** https://52north.org/software/software-projects/wps/"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:69
 msgid "**Licence:** GPL 2"
@@ -152,8 +154,8 @@ msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr "**Plates-formes supportées:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:75
-msgid "**Commercial Support:** http://52north.org"
-msgstr "**Support commercial:** http://52north.org"
+msgid "**Commercial Support:** https://52north.org/services/"
+msgstr "**Support commercial:** https://52north.org/services/"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:77
 msgid "**Other 52°North projects:** :doc:`SOS <./52nSOS_overview>`"

@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011, OSGeo
+# Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"POT-Creation-Date: 2018-07-07 09:20-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Last-Translator: Sant-anna <delazj@gmail.com>, 2018\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
@@ -108,10 +109,23 @@ msgstr ""
 "corridors."
 
 #: ../../build/doc/overview/cesium_overview.rst:44
+msgid ""
+"Use `3D Tiles <https://cesium.com/blog/2017/07/12/the-next-generation-of-3d-"
+"tiles/>`_ to stream, style and interact with heterogeneous 3D data, "
+"including photogrammetry models, 3D buildings, CAD and BIM exterior and "
+"interiors, and point clouds."
+msgstr ""
+"Utilisez des `tuiles 3D  <https://cesium.com/blog/2017/07/12/the-next-"
+"generation-of-3d-tiles/>`_ pour diffuser, styliser et interagir avec des "
+"données 3D hétérogènes, incluant des modèles photogrammétriques, des "
+"bâtiments 3D , des intérieurs et extérieurs CAO ou BIM et des nuages de "
+"points."
+
+#: ../../build/doc/overview/cesium_overview.rst:45
 msgid "Control the camera and create flight paths."
 msgstr "Contrôle la caméra et crée des trajectoires de vol"
 
-#: ../../build/doc/overview/cesium_overview.rst:45
+#: ../../build/doc/overview/cesium_overview.rst:46
 msgid ""
 "Use standard widgets to control animation time, select imagery layers, and "
 "zoom to a location."
@@ -119,11 +133,11 @@ msgstr ""
 "Utilise des widgets standard pour contrôler le temps d'animation, "
 "sélectionner les couches d'images et zoomer sur un emplacement."
 
-#: ../../build/doc/overview/cesium_overview.rst:47
+#: ../../build/doc/overview/cesium_overview.rst:48
 msgid "One API, Three Views:"
 msgstr "Une API, trois vues:"
 
-#: ../../build/doc/overview/cesium_overview.rst:49
+#: ../../build/doc/overview/cesium_overview.rst:50
 msgid ""
 "Cesium supports a 3D globe, 2D map, and 2.5D Columbus View with the same "
 "API."
@@ -131,31 +145,31 @@ msgstr ""
 "Cesium supporte un globe terrestre 3D, une carte 2D et une vue Columbus 2.5D"
 " avec la même API."
 
-#: ../../build/doc/overview/cesium_overview.rst:52
+#: ../../build/doc/overview/cesium_overview.rst:53
 msgid "Implemented Standards"
 msgstr "Standards implémentés"
 
-#: ../../build/doc/overview/cesium_overview.rst:53
+#: ../../build/doc/overview/cesium_overview.rst:54
 msgid "WMS and WMTS"
 msgstr "WMS et WMTS"
 
-#: ../../build/doc/overview/cesium_overview.rst:56
+#: ../../build/doc/overview/cesium_overview.rst:57
 msgid "Details"
 msgstr "Détails"
 
-#: ../../build/doc/overview/cesium_overview.rst:58
+#: ../../build/doc/overview/cesium_overview.rst:59
 msgid "**Website:** http://cesiumjs.org"
 msgstr "**Site web:** http://cesiumjs.org"
 
-#: ../../build/doc/overview/cesium_overview.rst:60
+#: ../../build/doc/overview/cesium_overview.rst:61
 msgid "**Licence:** Apache 2.0 license"
 msgstr "**Licence:** licence Apache 2.0"
 
-#: ../../build/doc/overview/cesium_overview.rst:62
+#: ../../build/doc/overview/cesium_overview.rst:63
 msgid "**Software Version:** |version-cesium|"
 msgstr "**Version du logiciel:** |version-cesium|"
 
-#: ../../build/doc/overview/cesium_overview.rst:64
+#: ../../build/doc/overview/cesium_overview.rst:65
 msgid ""
 "**Supported Platforms:**  Platform independent, depends only on a browser "
 "which supports WebGL"
@@ -163,17 +177,20 @@ msgstr ""
 "**Plates-formes supportées:**  Plateforme indépendant, dépend seulement d'un"
 " navigateur qui supporte WebGL"
 
-#: ../../build/doc/overview/cesium_overview.rst:66
-msgid "**Community Support:** Mailing list cesium-dev@googlegroups.com"
-msgstr ""
-"**Support Communautaire:** liste de diffusion cesium-dev@googlegroups.com"
+#: ../../build/doc/overview/cesium_overview.rst:67
+msgid "**Community Support:** Forum at https://cesiumjs.org/forum/"
+msgstr "**Support Communautaire:**  Forum à https://cesiumjs.org/forum/"
 
-#: ../../build/doc/overview/cesium_overview.rst:70
+#: ../../build/doc/overview/cesium_overview.rst:71
 msgid "Quickstart"
 msgstr "Guide de démarrage rapide"
 
-#: ../../build/doc/overview/cesium_overview.rst:72
+#: ../../build/doc/overview/cesium_overview.rst:73
 msgid ":doc:`Quickstart documentation <../quickstart/cesium_quickstart>`"
 msgstr ""
 ":doc:`Documentation du guide de démarrage rapide "
 "<../quickstart/cesium_quickstart>`"
+
+#~ msgid "**Community Support:** Mailing list cesium-dev@googlegroups.com"
+#~ msgstr ""
+#~ "**Support Communautaire:** liste de diffusion cesium-dev@googlegroups.com"

@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011, OSGeo
+# Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Last-Translator: Nicolas Roelandt, 2018\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
@@ -300,8 +301,8 @@ msgid "**Licence:** LGPL"
 msgstr "**Licence:** LGPL"
 
 #: ../../build/doc/overview/geotools_overview.rst:113
-msgid "**Supported Platforms:** Cross Platform Java 6,7,8"
-msgstr "**Plates-formes supportées:** Java 6, 7, 8 multi-plateformes"
+msgid "**Supported Platforms:** Cross Platform Java 8,9,10"
+msgstr "**Plateformes supportées:** Cross Platform Java 8,9,10"
 
 #: ../../build/doc/overview/geotools_overview.rst:115
 msgid "**API Interfaces:** Java"

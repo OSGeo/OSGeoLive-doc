@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011, OSGeo
+# Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-25 22:49-0600\n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2017\n"
+"Last-Translator: julien2512 <moquet.julien@gmail.com>, 2018\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
@@ -86,16 +87,16 @@ msgstr ""
 msgid "Quick Starts"
 msgstr "Guides de démarrage rapide"
 
-#: ../../build/doc/index.rst:84
+#: ../../build/doc/index.rst:85
 msgid "Presentation"
 msgstr "Présentation"
 
-#: ../../build/doc/index.rst:86
+#: ../../build/doc/index.rst:87
 msgid ""
-"A half hour `presentation <presentation/index.html>`_, highlighting all "
-"OSGeoLive applications, is available with slides, script, and `abstract "
+"A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive "
+"applications, is available with slides, script, and `abstract "
 "<presentation/abstract.txt>`_."
 msgstr ""
-"Une `présentation  <presentation/index.html>`_ d'une  demi-heure, mettant en"
-" évidence toutes les applications d'OSGeoLive, est disponible avec les "
-"diapositives, les scripts et `un résumé <presentation/abstract.txt>`_."
+"Une `presentation <presentation.html>`_ d'une demi-heure, qui passe en revue"
+" toutes les applications d'OSGeoLive, est disponible avec ses slides, "
+"scripts, et  `abstract <presentation/abstract.txt>`_."
