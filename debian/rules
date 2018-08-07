@@ -8,4 +8,8 @@
 	dh $@ --builddirectory=build
 	
 override_dh_auto_configure:
-	dh_auto_configure -- -DHTML=ON
+	dh_auto_configure -- -DHTML=ON -DES=ON -DFR=ON -DDE=ON
+
+override_dh_auto_build:
+	dh_auto_build
+	bash scripts/clean-images.sh
