@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-12 12:47-0500\n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2018\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -325,30 +324,3 @@ msgstr "Quickstart"
 #: ../../build/doc/overview/mapproxy_overview.rst:126
 msgid ":doc:`Quickstart documentation <../quickstart/mapproxy_quickstart>`"
 msgstr ":doc:`Quickstart documentation <../quickstart/mapproxy_quickstart>`"
-
-#~ msgid "stores tiles in filesystem, MBTile files or CouchDB"
-#~ msgstr ""
-#~ "speichern der Kacheln im Dateisystem, in MBTiles/SQLite, ArcGIS Compact "
-#~ "Cache, S3, Riak, Redis oder CouchDB"
-
-#~ msgid "reproject to other SRS"
-#~ msgstr "Karten in andere Projektionen umtransformieren"
-
-#~ msgid "efficient seed tool for cache pre-filling that can seed polygon areas"
-#~ msgstr ""
-#~ "Effizientes Seeding-Tool mit fein einstellbarer Beschränkung in welchem "
-#~ "Bereich Karten vorgeneriert werden sollen durch die Angabe einer Geoemtrie "
-#~ "als Shapefile, GeoJSON, PostGIS oder im WKT-Format"
-
-#~ msgid "**Website:** http://mapproxy.org/"
-#~ msgstr "**Webseite:** http://mapproxy.org/"
-
-#~ msgid ""
-#~ "**Licence:** `Apache Software License 2.0 "
-#~ "<http://www.apache.org/licenses/LICENSE-2.0.html>`_"
-#~ msgstr ""
-#~ "**Lizenz:** `Apache Software License 2.0 "
-#~ "<http://www.apache.org/licenses/LICENSE-2.0.html>`_"
-
-#~ msgid "**Support:** http://mapproxy.org/support.html"
-#~ msgstr "**Support:** http://mapproxy.org/support"
