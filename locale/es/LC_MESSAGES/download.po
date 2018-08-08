@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-07 09:20-0500\n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -102,10 +101,3 @@ msgstr ""
 " tratar aplicaciones Java basado), 1GHz CPU compatible i386 o amd64. No "
 "requerida de disco duro. Los usuarios de Mac se beneficiarán de un ratón USB"
 " de 3 botones .`"
-
-#~ msgid ""
-#~ "The latest stable release is |osgeolive-version| and can be downloaded from:"
-#~ " https://sourceforge.net/projects/osgeo-live/files/11.0/"
-#~ msgstr ""
-#~ "El lanzamiento estable más reciente es |osgeolive-version| y puede "
-#~ "descargarse de: https://sourceforge.net/projects/osgeo-live/files/11.0/"

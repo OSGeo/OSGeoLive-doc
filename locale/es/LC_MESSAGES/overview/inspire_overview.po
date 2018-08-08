@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-27 23:08-0500\n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -102,30 +101,3 @@ msgstr "Detalles "
 #: ../../build/doc/overview/inspire_overview.rst:49
 msgid "**Website:** https://inspire.ec.europa.eu/about-inspire/563"
 msgstr "**Website:** https://inspire.ec.europa.eu/about-inspire/563"
-
-#~ msgid ""
-#~ "The `INSPIRE Directive <https://inspire.ec.europa.eu>`__ aims to create a "
-#~ "European Union spatial data infrastructure (SDI) for the purposes of "
-#~ "environmental policies. This European SDI will enable the sharing of "
-#~ "environmental spatial information among public sector organisations, "
-#~ "facilitate public access to spatial information and assist in policy-making "
-#~ "across boundaries.  INSPIRE is based on the infrastructures for spatial "
-#~ "information established and operated by the 28 Member States of the European"
-#~ " Union. The Directive addresses 34 spatial data themes needed for "
-#~ "environmental applications.  It came into force on 15 May 2007 and will be "
-#~ "implemented in various stages, with full implementation required by 2021. "
-#~ "INSPIRE is on a technical level based on international standards, mainly "
-#~ "those developed by the OGC and ISO."
-#~ msgstr ""
-#~ "El objetivo de `INSPIRE Directive <https://inspire.ec.europa.eu>` __ es "
-#~ "crear una infraestructura de datos espaciales de la Unión Europea (SDI) para"
-#~ " propósitos de las políticas ambientales. Este SDI Europeo permitirá el "
-#~ "intercambio de información espacial entre organizaciones del sector público,"
-#~ " facilitar el acceso público a la información espacial y ayudar en la "
-#~ "formulación de políticas a través de fronteras. INSPIRE se basa en las "
-#~ "infraestructuras de información espacial, establecido y operado por los 28 "
-#~ "Estados Miembros de la Unión Europea. La Directiva aborda 34 temas de datos "
-#~ "espaciales necesarios para aplicaciones medioambientales. Entró en vigor el "
-#~ "15 de mayo de 2007 y se ejecutará en varias etapas, con plena aplicación "
-#~ "necesaria en el 2021. INSPIRE está en un nivel técnico basado en estándares "
-#~ "internacionales, principalmente las desarrolladas por el :doc:`OGC` e ISO."

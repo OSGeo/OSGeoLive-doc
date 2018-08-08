@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-19 12:47-0500\n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -292,112 +291,3 @@ msgid ""
 msgstr ""
 "**Listado 3:** Estatus e Inicio de Tomcat  (contraseña para  sudo: "
 ":code:`user`)."
-
-#~ msgid ""
-#~ "Try Helgoland - the `Viewer Client "
-#~ "<http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ (see Fiq. 3)."
-#~ msgstr ""
-#~ "Pruebe Helgoland - el `Visor de Cliente "
-#~ "<http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ (véase Fig. "
-#~ "3)."
-
-#~ msgid "Contents"
-#~ msgstr "Contenido"
-
-#~ msgid ""
-#~ "The 52°North SOS is a web service, that enables to provision of "
-#~ "interoperable access to (spatial) observation data and associated metadata."
-#~ msgstr ""
-#~ "52°North SOS  es un servicio web que permite la provisión de acceso "
-#~ "interoperable a datos de observación (espaciales) y metadatos asociados."
-
-#~ msgid ""
-#~ "Query the 52°North SOS Capabilities to determine what queries it supports."
-#~ msgstr ""
-#~ "Consulta las capacidades de 52°North SOS para determinar las consultas que "
-#~ "soporta "
-
-#~ msgid "Query details about an Observation from the SOS."
-#~ msgstr "Consulta los detalles acerca de la Observación de SOS."
-
-#~ msgid ""
-#~ "Once you know `the capabilities of a SOS "
-#~ "<http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=2.0.0>`_,"
-#~ " (see Fiq. 2) you can craft appropriate queries. Again, this is made easier "
-#~ "by selecting sample queries from the test client pull down list. Using the "
-#~ "information from the capabilities, you can adjust the available example "
-#~ "queries."
-#~ msgstr ""
-#~ "Una vez que conoce `las capacidades de un SOS "
-#~ "<http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=2.0.0>`_,"
-#~ " (véase fig. 2), usted puede crear consultas apropiadas. De nuevo, esto se "
-#~ "hace más fácil seleccionando consultas de muestra de la lista desplegable "
-#~ "del cliente de prueba. Usando la información de las capacidades, puede "
-#~ "ajustar las consultas de ejemplo disponibles."
-
-#~ msgid ""
-#~ "To get the available observation data within the time interval from "
-#~ "2017-02-28T23:45:00.000+00:00 to 2017-03-01T23:45:00.000+00:00 for each time"
-#~ " series, insert the following request after selecting service \"SOS\" --> "
-#~ "version \"2.0.0\" --> binding \"SOAP\" --> operation \"GetObservation\" in "
-#~ "the `test client's <http://localhost:8080/52nSOS/client>`_ in the field "
-#~ "request:"
-#~ msgstr ""
-#~ "Para obtener los datos de observación disponibles dentro del intervalo de "
-#~ "tiempo desde 2017-02-28T23:45:00.000+00:00 a 2017-03-01T23:45:00.000+00:00 "
-#~ "para cada serie de tiempo, inserte la siguiente petición después de "
-#~ "seleccionas el servicio de \"SOS\" --> Versión \"2.0.0\" --> unión \"SOAP\" "
-#~ "--> operación \"GetObservation\" en `prueba del cliente "
-#~ "<http://localhost:8080/52nSOS/client>`_ en el campo de solicitud:"
-
-#~ msgid ""
-#~ "Try the `SOS administrator <http://localhost:8080/52nSOS/admin/index>`_ "
-#~ "using"
-#~ msgstr ""
-#~ "Pruebe el `administrador SOS <http://localhost:8080/52nSOS/admin/index>`_ "
-#~ "usando"
-
-#~ msgid "username \"user\" and password \"user\"."
-#~ msgstr "nombre de usuario \"user\" y contraseña \"user\"."
-
-#~ msgid ""
-#~ "Try the `REST API <http://localhost:8080/52nSOS/api/>`_ (see Listing 2):"
-#~ msgstr ""
-#~ "Pruebe la `API REST <http://localhost:8080/52nSOS/api/>`_ (véase Listado 2):"
-
-#~ msgid "**Listing 2:** Output of REST API endpoint."
-#~ msgstr "**Listado 2:** Salida de REST API endpoint."
-
-#~ msgid "52°North :doc:`SOS overview <../overview/52nSOS_overview>`,"
-#~ msgstr "52°North :doc:`overview SOS <../overview/52nSOS_overview>`,"
-
-#~ msgid "52°North Sensor Web mailing list: swe@52north.org,"
-#~ msgstr "52°North Sensor Web lista de correos: swe@52north.org,"
-
-#~ msgid ""
-#~ "52°North `Sensor Web community forum "
-#~ "<http://sensorweb.forum.52north.org/>`_,"
-#~ msgstr ""
-#~ "52°North `Foro de la comunidad de Sensor Web "
-#~ "<http://sensorweb.forum.52north.org/>`_,"
-
-#~ msgid "52°North `SOS Client <http://sensorweb.demo.52north.org/SOSclient/>`_,"
-#~ msgstr ""
-#~ "52°North `Cliente SOS  <http://sensorweb.demo.52north.org/SOSclient/>`_,"
-
-#~ msgid ""
-#~ "52°North `SOS Web site <http://52north.org/communities/sensorweb/sos/>`_, or"
-#~ msgstr ""
-#~ "52°North `sitio Web SOS  <http://52north.org/communities/sensorweb/sos/>`_, "
-#~ "o"
-
-#~ msgid ""
-#~ "The website of the `52°North Sensor Web Community "
-#~ "<http://52north.org/communities/sensorweb/>`_."
-#~ msgstr ""
-#~ "El sitio Web de `52°North Sensor Web Community "
-#~ "<http://52north.org/communities/sensorweb/>`_."
-
-#~ msgid "**Listing 3:** Tomcat Status and Start (password for sudo: user)."
-#~ msgstr ""
-#~ "**Listado 3:** Estátus e Inicio  de Tomcat (contraseña para sudo: user)."

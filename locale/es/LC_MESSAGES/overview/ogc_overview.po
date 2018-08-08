@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/ogc_overview.rst:12
+msgid "OGC"
+msgstr "OGC"
+
+#: ../../build/doc/overview/ogc_overview.rst:14
+msgid ""
+"The Open Geospatial Consortium (OGC) was founded in 1994 to make geographic "
+"information an integral part of the world’s information infrastructure. OGC "
+"members – technology providers and technology users – collaboratively "
+"develop open interface standards and associated encoding standards, and also"
+" best practices, that enable developers to create information systems that "
+"can easily exchange “geospatial” information and instructions with other "
+"information systems. Requirements range from complex scheduling and control "
+"of Earth observation satellites to displaying simple map images on the Web "
+"and encoding location in just a few bytes for geo-tagging and messaging. A "
+"look at the `OGC Domain Working Groups "
+"<http://www.opengeospatial.org/projects/groups/wg>`_ shows the wide scope of"
+" current activity in the OGC."
+msgstr ""
+"El Open Geospatial Consortium (OGC) se fundó en 1994 para hacer de la "
+"información geográfica una parte integral de la infraestructura de "
+"información mundial. Los miembros de OGC - proveedores de tecnología y "
+"usuarios de tecnología - desarrollan colaborativamente estándares de "
+"interfaz abiertos y estándares de codificación asociados, y también mejores "
+"prácticas, que permiten a los desarrolladores crear sistemas de información "
+"que pueden intercambiar fácilmente información \"geoespacial\" e "
+"instrucciones con otros sistemas de información. Los requisitos van desde la"
+" planificación compleja y el control de los satélites de observación de la "
+"Tierra hasta la visualización de imágenes de mapas simples en la Web y la "
+"ubicación de codificación en unos pocos bytes para el etiquetado geográfico "
+"y la mensajería. Un vistazo a `OGC Domain Working Groups "
+"<http://www.opengeospatial.org/projects/groups/wg>`_ muestra el amplio "
+"alcance de la actividad actual en el OGC."
+
+#: ../../build/doc/overview/ogc_overview.rst:26
+msgid ""
+"The OGC Standards Baseline consists of the `OGC standards "
+"<http://www.opengeospatial.org/standards>`_ for interfaces, encodings, "
+"profiles, application schemas, and best practice documents. The `OGC "
+"Reference Model (ORM) <http://www.opengeospatial.org/standards/orm>`_ "
+"describes these standards and the relationships between them and related ISO"
+" standards. The ORM provides an overview of OGC standards and serves as a "
+"useful resource for defining architectures for specific applications."
+msgstr ""
+"La Línea de Base de Estándares de OGC consiste en `OGC standards "
+"<http://www.opengeospatial.org/standards>`_  para interfaces, "
+"codificaciones, perfiles, esquemas de aplicaciones y documentos de mejores "
+"prácticas. El `Modelo de Referencia de OGC (ORM) "
+"<http://www.opengeospatial.org/standards/orm>`_ describe estos estándares y "
+"las relaciones entre ellos y los estándares ISO relacionados. El ORM "
+"proporciona una visión general de los estándares OGC y sirve como un recurso"
+" útil para definir arquitecturas para aplicaciones específicas."
+
+#: ../../build/doc/overview/ogc_overview.rst:34
+msgid ""
+"In developing a Web services application using OGC standards (and in "
+"learning about the relationships between OGC standards) it helps to think of"
+" publish, find and bind as the key functions for applications in a Web "
+"services environment."
+msgstr ""
+"Al desarrollar una aplicación de servicios web utilizando los estándares OGC"
+" (y al aprender sobre las relaciones entre los estándares OGC) ayuda a "
+"pensar en publicar, buscar y vincular como las funciones clave para las "
+"aplicaciones en un entorno de servicios web."
+
+#: ../../build/doc/overview/ogc_overview.rst:39
+msgid "Publish: Resource providers advertise their resources."
+msgstr "Publicar: Los proveedores de recursos anuncian sus recursos."
+
+#: ../../build/doc/overview/ogc_overview.rst:40
+msgid ""
+"Find: End users and their applications can discover resources that they need"
+" at run-time."
+msgstr ""
+"Encontrar: los usuarios finales y sus aplicaciones pueden descubrir recursos"
+" que necesitan en tiempo de ejecución."
+
+#: ../../build/doc/overview/ogc_overview.rst:41
+msgid ""
+"Bind: End users and their applications can access and exercise resources at "
+"run-time."
+msgstr ""
+"Enlace: los usuarios finales y sus aplicaciones pueden acceder y ejercer los"
+" recursos en tiempo de ejecución."
+
+#: ../../build/doc/overview/ogc_overview.rst:43
+msgid ""
+"Most of the OGC standards developed in recent years are standards for the "
+"Web services environment, and these standards are collectively referred to "
+"as OGC Web Services (OWS). A `comprehensive list of standards "
+"<http://www.opengeospatial.org/standards/>`_ is available."
+msgstr ""
+"La mayoría de los estándares OGC desarrollados en los últimos años son "
+"estándares para el entorno de servicios Web, y estos estándares son "
+"colectivamente referidas como OGC Web servicios (OWS). Está disponible una "
+"`lista completa de estándares <http://www.opengeospatial.org/standards/>`"
+
+#: ../../build/doc/overview/ogc_overview.rst:49
+msgid "Details"
+msgstr "Detalles"
+
+#: ../../build/doc/overview/ogc_overview.rst:51
+msgid "**Website:** http://www.opengeospatial.org"
+msgstr "**Website:** http://www.opengeospatial.org"
