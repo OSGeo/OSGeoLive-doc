@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../build/doc/overview/inspire_overview.rst:13
+msgid "INSPIRE"
+msgstr "INSPIRE"
+
+#: ../../build/doc/overview/inspire_overview.rst:15
+msgid ""
+"The `INSPIRE Directive <https://inspire.ec.europa.eu>`__ aims to create a "
+"European Union spatial data infrastructure (SDI) for the purposes of "
+"environmental policies. This European SDI will enable the sharing of "
+"environmental spatial information among public sector organisations, "
+"facilitate public access to spatial information and assist in policy-making "
+"across boundaries.  INSPIRE is based on the infrastructures for spatial "
+"information established and operated by the 28 Member States of the European"
+" Union. The Directive addresses 34 spatial data themes needed for "
+"environmental applications.  It came into force on 15 May 2007 and will be "
+"implemented in various stages, with full implementation required by 2021. "
+"INSPIRE is on a technical level based on international standards, mainly "
+"those developed by the :doc:`OGC <ogc_overview>` and ISO."
+msgstr ""
+"La `Directive INSPIRE <https://inspire.ec.europa.eu>`__ vise à créer une "
+"infrastructure de données spatiales de l’Union européenne (IDS) pour "
+"l’application des politiques environnementales. Cet IDS européen permettra "
+"le partage de l’information spatiale sur l’environnement entre les "
+"organisations du secteur public, facilitera l’accès du public à "
+"l’information spatiale et aidera dans le processus décisionnel au-delà des "
+"frontières. INSPIRE s’appuie sur les infrastructures d’information "
+"géographique créées et exploitées par les 28 Etats membres de l’Union "
+"européenne. La Directive aborde 34 thèmes de données spatiales nécessaires "
+"pour des applications environnementales. Elle est entrée en vigueur le 15 "
+"mai 2007 et se déroulera en plusieurs étapes, avec la pleine mise en œuvre "
+"requis d’ici 2021. INSPIRE est sur un plan technique basée sur les normes "
+"internationales, principalement celles développées par l' :doc:`OGC "
+"<ogc_overview>` et l'ISO."
+
+#: ../../build/doc/overview/inspire_overview.rst:29
+msgid ""
+"Public sector authorities whose data falls within the scope of the Directive"
+" shall:"
+msgstr ""
+"Les pouvoirs publics dont les données s’inscrit dans le champ d’application "
+"de la Directive doivent:"
+
+#: ../../build/doc/overview/inspire_overview.rst:31
+msgid "Document them through metadata."
+msgstr "Les documenter par le biais de métadonnées."
+
+#: ../../build/doc/overview/inspire_overview.rst:32
+msgid "Establish network services (discovery, view, download)."
+msgstr ""
+"Mettre en place des services de réseau (découverte, vue, téléchargement)."
+
+#: ../../build/doc/overview/inspire_overview.rst:33
+msgid "Harmonise their spatial data in accordance with common specifications."
+msgstr ""
+"Harmoniser leurs données spatiales conformément aux spécifications communes."
+
+#: ../../build/doc/overview/inspire_overview.rst:35
+msgid ""
+"Currently, more than 7,000 institutions contribute their data to INSPIRE. A "
+"significant share of them use OSGeo applications throughout the "
+"implementation process. :doc:`OSGeoLive <../index>` provides an easy entry "
+"to the implementation process through an increasing number of readily "
+"available examples with sample data European data from multiple application "
+"domains. In addition, a dedicated wiki page on `INSPIRE and OSGeo "
+"<https://wiki.osgeo.org/wiki/INSPIRE>`__ is established that gives an "
+"overview of the legal and technical aspects of INSPIRE together with "
+"selected use cases and an overview of OSGeo tools that implementers may use."
+msgstr ""
+"Actuellement, plus de 7 000 établissements contribuent à INSPIRE avec leurs "
+"données. Une part importante d'entre eux utilisent des applications OSGeo "
+"durant tout le processus de mise en œuvre. :doc:`OSGeoLive <../index>` "
+"fournit une entrée facile pour le processus de mise en œuvre par un nombre "
+"croissant d’exemples disponibles avec les données d'exemple européennes dans"
+" plusieurs domaines d’application. En outre, une page de wiki dédiée sur "
+"`INSPIRE et OSGeo <https://wiki.osgeo.org/wiki/INSPIRE>`__  donne un aperçu "
+"des aspects juridiques et techniques d’INSPIRE ainsi que des cas "
+"d’utilisation sélectionnés ainsi qu’un aperçu des outils de l’OSGeo qui "
+"développeurs peuvent utiliser."
+
+#: ../../build/doc/overview/inspire_overview.rst:47
+msgid "Details"
+msgstr "Détails"
+
+#: ../../build/doc/overview/inspire_overview.rst:49
+msgid "**Website:** https://inspire.ec.europa.eu/about-inspire/563"
+msgstr "**Site Web:** https://inspire.ec.europa.eu/about-inspire/563"

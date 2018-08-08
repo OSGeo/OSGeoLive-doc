@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-07 09:20-0500\n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Sant-anna <delazj@gmail.com>, 2018\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
@@ -200,22 +199,3 @@ msgid ":doc:`Quickstart documentation <../quickstart/mapbender_quickstart>`"
 msgstr ""
 ":doc:`Documentation du guide de démarrage rapide "
 "<../quickstart/mapbender_quickstart>`"
-
-#~ msgid ""
-#~ "`Mapbender <http://mapbender3.org/en>`_ is a graduated OSGeo project. It is "
-#~ "a web based geoportal framework to publish, register, view, navigate, "
-#~ "monitor and grant secure access to spatial data infrastructure services."
-#~ msgstr ""
-#~ "`Mapbender <http://mapbender3.org/en>`_ est un projet reconnu par OSGeo. "
-#~ "C'est un framework de cartographie sur le web pour publier, enregistrer, "
-#~ "voir, naviguer, suivre et donner des droits d'accès à des services "
-#~ "d'Infrastructures de Données Spatiales (IDS)."
-
-#~ msgid "Mapbender is based on Symfony2, OpenLayers, Mapproxy and jQuery."
-#~ msgstr "Mapbender est basé sur Symfony2, OpenLayers, Mapproxy et jQuery."
-
-#~ msgid "**Website:** http://mapbender3.org/"
-#~ msgstr "**Site web:** http://mapbender3.org/"
-
-#~ msgid "**Support:** http://www.mapbender3.org/en/community"
-#~ msgstr "**Support:** http://www.mapbender3.org/en/community"

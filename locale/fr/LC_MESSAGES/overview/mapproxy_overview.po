@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-12 12:47-0500\n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Nicolas Roelandt, 2018\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
@@ -327,29 +326,3 @@ msgid ":doc:`Quickstart documentation <../quickstart/mapproxy_quickstart>`"
 msgstr ""
 ":doc:`Documentation du guide de démarrage rapide "
 "<../quickstart/mapproxy_quickstart>`"
-
-#~ msgid "stores tiles in filesystem, MBTile files or CouchDB"
-#~ msgstr ""
-#~ "stocke les tuiles dans un sytème de fichiers, des fichiers MBTile ou dans "
-#~ "CouchDB"
-
-#~ msgid "reproject to other SRS"
-#~ msgstr "reprojette vers d'autres SRS"
-
-#~ msgid "efficient seed tool for cache pre-filling that can seed polygon areas"
-#~ msgstr ""
-#~ "outil seed efficace pour pré-remplir le cache qui peut calculer les surfaces"
-#~ " des polygones"
-
-#~ msgid "**Website:** http://mapproxy.org/"
-#~ msgstr "**Site web:** http://mapproxy.org/"
-
-#~ msgid ""
-#~ "**Licence:** `Apache Software License 2.0 "
-#~ "<http://www.apache.org/licenses/LICENSE-2.0.html>`_"
-#~ msgstr ""
-#~ "**Licence:** `Apache Software License 2.0 "
-#~ "<http://www.apache.org/licenses/LICENSE-2.0.html>`_"
-
-#~ msgid "**Support:** http://mapproxy.org/support.html"
-#~ msgstr "**Support:** http://mapproxy.org/support.html"

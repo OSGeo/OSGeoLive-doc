@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-19 12:47-0500\n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
@@ -435,57 +434,3 @@ msgstr "Guide de démarrage rapide"
 #: ../../build/doc/overview/52nSOS_overview.rst:163
 msgid ":doc:`Quickstart documentation <../quickstart/52nSOS_quickstart>`"
 msgstr ":doc:`Guide de démarrage rapide <../quickstart/52nSOS_quickstart>`"
-
-#~ msgid ""
-#~ "**Helgoland**: The SOS contains the Helgoland application for  the "
-#~ "exploration, analysis and visualization of sensor web data in various fields"
-#~ " of use, e.g. hydrology, meteorology, environmental monitoring, traffic "
-#~ "management."
-#~ msgstr ""
-#~ "**Helgoland**: SOS contient aussi l'application Helgoland pour "
-#~ "l'exploration, l'analyse et la visualisation de données issues de réseaux de"
-#~ " capteurs dans divers champs d'applications, par exemple, l'hydrologie, la "
-#~ "météorologie, la surveillance de l'environnement, la gestion du trafic."
-
-#~ msgid ""
-#~ "**INSPIRE Download Service Extension**: Starting with Version 4.2.0, an "
-#~ "extension is available that allows the SOS to be used as an INSPIRE download"
-#~ " service. Background information is provided in a `blog post "
-#~ "<http://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-"
-#~ "an-inspire-download-service-based-on-sos/>`_ and in the `wiki "
-#~ "<https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_"
-#~ " ."
-#~ msgstr ""
-#~ "**Extension de téléchargement INSPIRE**: A partir de la version 4.2.0, une "
-#~ "extension disponible permet à SOS d'être utilisé comme service de "
-#~ "téléchargement INSPIRE. Des informations de contexte sont fournis sur `le "
-#~ "post de blog <http://blog.52north.org/2014/01/30/52north-supports-the-jrc-"
-#~ "in-developing-an-inspire-download-service-based-on-sos/>`_ et dans le `wiki "
-#~ "<https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_"
-#~ " ."
-
-#~ msgid ""
-#~ "**RESTful API for Timeseries**: Starting with Version 4.1.1., a bundle "
-#~ "version is available, that directly provides the `RESTful API "
-#~ "<https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_,"
-#~ " is available. Hence, timeseries can be requested in a RESTful way in JSON "
-#~ "encoded requests. More details incl. documentation can be found in the `SOS "
-#~ "webapp <http://localhost:8080/52nSOS/static/doc/api-doc/>`_."
-#~ msgstr ""
-#~ "**API RESTful pour les séries temporelles**: A compter de la version 4.1.1.,"
-#~ " une version packagée est disponible, qui fournit directement l'`API RESTful"
-#~ " "
-#~ "<https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_."
-#~ " Ainsi, les séries temporelles peuvent être requêtées de manière RESTful "
-#~ "avec des requêtes encodées en JSON. Plus de détails sont inclus dans la "
-#~ "documentation `de l'application web SOS "
-#~ "<http://localhost:8080/52nSOS/static/doc/api-doc/>`_."
-
-#~ msgid "**Commercial Support:** http://52north.org/"
-#~ msgstr "**Support commercial:** http://52north.org/"
-
-#~ msgid "**Community Support:** http://sensorweb.forum.52north.org/"
-#~ msgstr "**Support Communautaire:** http://sensorweb.forum.52north.org/"
-
-#~ msgid "**Community Website:** http://52north.org/communities/sensorweb/"
-#~ msgstr "**Site web communautaire:** http://52north.org/communities/sensorweb/"
