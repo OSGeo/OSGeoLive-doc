@@ -1,25 +1,24 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-12 12:47-0500\n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:22
 msgid "GeoNetwork Quickstart"
-msgstr ""
+msgstr "GeoNetwork Quickstart"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:24
 msgid ""
@@ -28,142 +27,167 @@ msgid ""
 "well as an interactive web map viewer. It is currently used in numerous "
 "Spatial Data Infrastructure initiatives across the world."
 msgstr ""
+"GeoNetwork is a catalog application to manage spatially referenced "
+"resources. It provides powerful metadata editing and search functions as "
+"well as an interactive web map viewer. It is currently used in numerous "
+"Spatial Data Infrastructure initiatives across the world."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:29
 msgid ""
-"Apart from how to start the catalog, this Quick Start describes: * some "
-"of the different ways you can search for spatial data * how to download "
-"and display data from the search results"
+"Apart from how to start the catalog, this Quick Start describes: * some of "
+"the different ways you can search for spatial data * how to download and "
+"display data from the search results"
 msgstr ""
+"Apart from how to start the catalog, this Quick Start describes: * some of "
+"the different ways you can search for spatial data * how to download and "
+"display data from the search results"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:36
 msgid "Starting the catalog"
-msgstr ""
+msgstr "Starting the catalog"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:38
 msgid ""
-"After going through the installer steps, simply go to bin folder and "
-"click on start.bat (on windows) or start.sh (on linux)."
+"After going through the installer steps, simply go to bin folder and click "
+"on start.bat (on windows) or start.sh (on linux)."
 msgstr ""
+"After going through the installer steps, simply go to bin folder and click "
+"on start.bat (on windows) or start.sh (on linux)."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:42
 msgid ""
-"Go to the home page at ``http://localhost:8880/geonetwork``. Your first "
-"view should look like this:"
+"Go to the home page at ``http://localhost:8880/geonetwork``. Your first view"
+" should look like this:"
 msgstr ""
+"Go to the home page at ``http://localhost:8880/geonetwork``. Your first view"
+" should look like this:"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:50
 msgid "Signing in and load templates"
-msgstr ""
+msgstr "Signing in and load templates"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:53
 msgid ""
-"Click the ``sign in`` to connect as administrator. The default account is"
-" username ``admin`` with password ``admin``."
+"Click the ``sign in`` to connect as administrator. The default account is "
+"username ``admin`` with password ``admin``."
 msgstr ""
+"Click the ``sign in`` to connect as administrator. The default account is "
+"username ``admin`` with password ``admin``."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:59
 msgid ""
 "Once connected, the top toolbar should provide a link to the ``admin "
 "console`` and your login details."
 msgstr ""
+"Once connected, the top toolbar should provide a link to the ``admin "
+"console`` and your login details."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:65
 msgid "Go to the ``admin console`` and click on metadata and templates:"
-msgstr ""
+msgstr "Go to the ``admin console`` and click on metadata and templates:"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:71
 msgid ""
-"Choose all standards and click ``load samples`` and then ``load "
-"templates`` in order to load examples:"
+"Choose all standards and click ``load samples`` and then ``load templates`` "
+"in order to load examples:"
 msgstr ""
+"Choose all standards and click ``load samples`` and then ``load templates`` "
+"in order to load examples:"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:77
 msgid "Go back to the search page to see examples:"
-msgstr ""
+msgstr "Go back to the search page to see examples:"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:84
 msgid "Searching information"
-msgstr ""
+msgstr "Searching information"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:86
 msgid "The search form provides different ways for search:"
-msgstr ""
+msgstr "The search form provides different ways for search:"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:88
 msgid "a full text search box providing suggestions"
-msgstr ""
+msgstr "a full text search box providing suggestions"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:93
 msgid ""
 "facets which defines groups that you can easily click on to browse the "
 "content of the catalog"
 msgstr ""
+"facets which defines groups that you can easily click on to browse the "
+"content of the catalog"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:98
 msgid "spatial filtering to choose information in specific areas"
-msgstr ""
+msgstr "spatial filtering to choose information in specific areas"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:103
 msgid "advanced search"
-msgstr ""
+msgstr "advanced search"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:110
 msgid "Discovering information"
-msgstr ""
+msgstr "Discovering information"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:112
 msgid ""
 "Search results present main information about each resources: title, "
 "abstract, categories, status, overview and links."
 msgstr ""
+"Search results present main information about each resources: title, "
+"abstract, categories, status, overview and links."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:118
 msgid ""
-"Clicking the record will provide more in depth details about the "
-"resources:"
+"Clicking the record will provide more in depth details about the resources:"
 msgstr ""
+"Clicking the record will provide more in depth details about the resources:"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:120
 msgid "Download and links"
-msgstr ""
+msgstr "Download and links"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:121
 msgid "About the resource"
-msgstr ""
+msgstr "About the resource"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:122
 msgid "Technical information"
-msgstr ""
+msgstr "Technical information"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:123
 msgid "Metadata details"
-msgstr ""
+msgstr "Metadata details"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:128
 msgid ""
 "To get more information, switch the advanced view mode. To update the "
 "record, click the edit button."
 msgstr ""
+"To get more information, switch the advanced view mode. To update the "
+"record, click the edit button."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:133
 msgid ""
 "From the results or the record view, you can easily add WMS layers "
-"referenced in a metadata record on the map. With the map, you can "
-"visualize your data, choose your background maps, query objects, display "
-"on a 3D globe and more ..."
+"referenced in a metadata record on the map. With the map, you can visualize "
+"your data, choose your background maps, query objects, display on a 3D globe"
+" and more ..."
 msgstr ""
+"From the results or the record view, you can easily add WMS layers "
+"referenced in a metadata record on the map. With the map, you can visualize "
+"your data, choose your background maps, query objects, display on a 3D globe"
+" and more ..."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:143
 msgid "What Next?"
-msgstr ""
+msgstr "What Next?"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:145
 msgid ""
 "Continue reading the documentation: http://geonetwork-"
 "opensource.org/docs.html"
 msgstr ""
-
-#~ msgid "Contents"
-#~ msgstr ""
-
+"Continue reading the documentation: http://geonetwork-"
+"opensource.org/docs.html"

@@ -1,154 +1,187 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-12 12:47-0500\n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:18
 msgid "Geomajas Quickstart"
-msgstr ""
+msgstr "Geomajas Quickstart"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:20
 msgid ""
 "Geomajas itself is an application framework allowing you to build very "
 "diverse and advanced web GIS solutions."
 msgstr ""
+"Geomajas itself is an application framework allowing you to build very "
+"diverse and advanced web GIS solutions."
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:22
 msgid ""
-"On this OSGeo Live DVD we have included a ready-to-use Geomajas "
-"Application. This application features a map, navigation controllers, "
-"several data layers, a ribbon toolbar with GIS tools and the Layer Tree."
+"On this OSGeo Live DVD we have included a ready-to-use Geomajas Application."
+" This application features a map, navigation controllers, several data "
+"layers, a ribbon toolbar with GIS tools and the Layer Tree."
 msgstr ""
+"On this OSGeo Live DVD we have included a ready-to-use Geomajas Application."
+" This application features a map, navigation controllers, several data "
+"layers, a ribbon toolbar with GIS tools and the Layer Tree."
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:33
 msgid "Getting started"
-msgstr ""
+msgstr "Getting started"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:35
-msgid "Geomajas is both available as a web demo or as a standalone application."
+msgid ""
+"Geomajas is both available as a web demo or as a standalone application."
 msgstr ""
+"Geomajas is both available as a web demo or as a standalone application."
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:37
-msgid "To continue using the web demo visit `<http://www.geomajas.org/demo>`_."
+msgid ""
+"To continue using the web demo visit `<http://www.geomajas.org/demo>`_."
 msgstr ""
+"To continue using the web demo visit `<http://www.geomajas.org/demo>`_."
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:38
 msgid ""
 "To continue using the stand-alone application, visit "
-"`<http://files.geomajas.org/downloads/2.3.0/geomajas-standalone-"
-"gwt2.zip>`_."
+"`<http://files.geomajas.org/downloads/2.3.0/geomajas-standalone-gwt2.zip>`_."
 msgstr ""
+"To continue using the stand-alone application, visit "
+"`<http://files.geomajas.org/downloads/2.3.0/geomajas-standalone-gwt2.zip>`_."
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:40
 msgid ""
-"When using the stand-alone application, run either startup.bat on "
-"Windows, or startup.sh on Linux and Mac. You can then access the "
-"application using the following URL: "
-"`<http://localhost:8080/geomajas/>`_. When you’re finished using the "
-"application, the application can be terminated by running shutdown.bat or"
-" shutdown.sh."
+"When using the stand-alone application, run either startup.bat on Windows, "
+"or startup.sh on Linux and Mac. You can then access the application using "
+"the following URL: `<http://localhost:8080/geomajas/>`_. When you’re "
+"finished using the application, the application can be terminated by running"
+" shutdown.bat or shutdown.sh."
 msgstr ""
+"When using the stand-alone application, run either startup.bat on Windows, "
+"or startup.sh on Linux and Mac. You can then access the application using "
+"the following URL: `<http://localhost:8080/geomajas/>`_. When you’re "
+"finished using the application, the application can be terminated by running"
+" shutdown.bat or shutdown.sh."
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:43
 msgid "Using Geomajas applications"
-msgstr ""
+msgstr "Using Geomajas applications"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:50
 msgid "Looking around"
-msgstr ""
+msgstr "Looking around"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:55
 msgid ""
-"You can drag around the map with the mouse so the desired area is "
-"centered on your screen."
+"You can drag around the map with the mouse so the desired area is centered "
+"on your screen."
 msgstr ""
+"You can drag around the map with the mouse so the desired area is centered "
+"on your screen."
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:57
 msgid ""
-"To get a closer look, you can either use the mousewheel to zoom in or use"
-" the provided zoom-buttons in the upper left of the application. You can "
-"also select an area to show by clicking the magnifier icon and selecting "
-"the desired area (via rectangular select)."
+"To get a closer look, you can either use the mousewheel to zoom in or use "
+"the provided zoom-buttons in the upper left of the application. You can also"
+" select an area to show by clicking the magnifier icon and selecting the "
+"desired area (via rectangular select)."
 msgstr ""
+"To get a closer look, you can either use the mousewheel to zoom in or use "
+"the provided zoom-buttons in the upper left of the application. You can also"
+" select an area to show by clicking the magnifier icon and selecting the "
+"desired area (via rectangular select)."
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:60
 msgid "Legend"
-msgstr ""
+msgstr "Legend"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:65
 msgid ""
-"In the upper right, a toggleable legend box is provided. This legend "
-"gives you an overview of all the layers currently loaded into the "
-"application, with the option to turn them on or off. This also shows more"
-" detailed info about each layers regarding icons, colouring, …"
+"In the upper right, a toggleable legend box is provided. This legend gives "
+"you an overview of all the layers currently loaded into the application, "
+"with the option to turn them on or off. This also shows more detailed info "
+"about each layers regarding icons, colouring, …"
 msgstr ""
+"In the upper right, a toggleable legend box is provided. This legend gives "
+"you an overview of all the layers currently loaded into the application, "
+"with the option to turn them on or off. This also shows more detailed info "
+"about each layers regarding icons, colouring, …"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:68
 msgid "Gathering information"
-msgstr ""
+msgstr "Gathering information"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:70
 msgid ""
-"Geomajas applications have the ability to display a variety of info "
-"within the layers. Clicking on the map will display the related info if "
-"available. By clicking the info icon in the upper left, you can toggle "
-"between basic or more detailed information."
+"Geomajas applications have the ability to display a variety of info within "
+"the layers. Clicking on the map will display the related info if available. "
+"By clicking the info icon in the upper left, you can toggle between basic or"
+" more detailed information."
 msgstr ""
+"Geomajas applications have the ability to display a variety of info within "
+"the layers. Clicking on the map will display the related info if available. "
+"By clicking the info icon in the upper left, you can toggle between basic or"
+" more detailed information."
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:73
 msgid "Customizing Geomajas applications"
-msgstr ""
+msgstr "Customizing Geomajas applications"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:75
 msgid ""
-"If you want to use this sample application to build and customize your "
-"own Web GIS solution … please visit `<http://www.geomajas.org/client-"
-"gwt>`_. The download page always features the latest and greatest sample "
-"applications, documentation, tips and tricks to roll-your-own."
+"If you want to use this sample application to build and customize your own "
+"Web GIS solution … please visit `<http://www.geomajas.org/client-gwt>`_. The"
+" download page always features the latest and greatest sample applications, "
+"documentation, tips and tricks to roll-your-own."
 msgstr ""
+"If you want to use this sample application to build and customize your own "
+"Web GIS solution … please visit `<http://www.geomajas.org/client-gwt>`_. The"
+" download page always features the latest and greatest sample applications, "
+"documentation, tips and tricks to roll-your-own."
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:78
 msgid "What next?"
-msgstr ""
+msgstr "What next?"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:80
 msgid ""
-"Interested in learning more about Geomajas? The following links provide "
-"more detailed info:"
+"Interested in learning more about Geomajas? The following links provide more"
+" detailed info:"
 msgstr ""
+"Interested in learning more about Geomajas? The following links provide more"
+" detailed info:"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:83
 msgid "**Geomajas:** `<http://www.geomajas.org/>`_"
-msgstr ""
+msgstr "**Geomajas:** `<http://www.geomajas.org/>`_"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:84
 msgid ""
 "**GitHub:** `<https://github.com/geomajas/geomajas-gwt2-quickstart-"
 "application>`_"
 msgstr ""
+"**GitHub:** `<https://github.com/geomajas/geomajas-gwt2-quickstart-"
+"application>`_"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:85
-msgid "**OSGeo:** `<https://live.osgeo.org/en/overview/geomajas_overview.html>`_"
+msgid ""
+"**OSGeo:** `<https://live.osgeo.org/en/overview/geomajas_overview.html>`_"
 msgstr ""
+"**OSGeo:** `<https://live.osgeo.org/en/overview/geomajas_overview.html>`_"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:86
 msgid "**Wiki:** `<https://wiki.osgeo.org/wiki/Geomajas>`_"
-msgstr ""
-
-#~ msgid "In this quickstart"
-#~ msgstr ""
-
+msgstr "**Wiki:** `<https://wiki.osgeo.org/wiki/Geomajas>`_"

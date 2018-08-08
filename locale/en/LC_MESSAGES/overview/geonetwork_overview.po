@@ -1,71 +1,83 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:18
 msgid "GeoNetwork"
-msgstr ""
+msgstr "GeoNetwork"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:21
 msgid "Metadata Catalog"
-msgstr ""
+msgstr "Metadata Catalog"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:23
 msgid ""
 "GeoNetwork OpenSource is a catalog application for managing spatially "
 "referenced resources. It provides powerful metadata editing and search "
-"functions, an embedded interactive web map viewer, and is based upon Open"
-" Standards."
+"functions, an embedded interactive web map viewer, and is based upon Open "
+"Standards."
 msgstr ""
+"GeoNetwork OpenSource is a catalog application for managing spatially "
+"referenced resources. It provides powerful metadata editing and search "
+"functions, an embedded interactive web map viewer, and is based upon Open "
+"Standards."
 
 #: ../../build/doc/overview/geonetwork_overview.rst:32
 msgid "Core Features"
-msgstr ""
+msgstr "Core Features"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:33
 msgid "Immediate search access to local and distributed geospatial catalogues"
 msgstr ""
+"Immediate search access to local and distributed geospatial catalogues"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:34
 msgid ""
 "Up and downloading of data, graphics, documents, pdf files and any other "
 "content type"
 msgstr ""
+"Up and downloading of data, graphics, documents, pdf files and any other "
+"content type"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:35
 msgid ""
-"An interactive Web Map Viewer to combine Web Map Services from "
-"distributed servers around the world"
+"An interactive Web Map Viewer to combine Web Map Services from distributed "
+"servers around the world"
 msgstr ""
+"An interactive Web Map Viewer to combine Web Map Services from distributed "
+"servers around the world"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:36
-msgid "Recently updated entries are accessible as RSS news feeds and as GeoRSS."
+msgid ""
+"Recently updated entries are accessible as RSS news feeds and as GeoRSS."
 msgstr ""
+"Recently updated entries are accessible as RSS news feeds and as GeoRSS."
 
 #: ../../build/doc/overview/geonetwork_overview.rst:37
 msgid "Online editing of metadata with a powerful template system"
-msgstr ""
+msgstr "Online editing of metadata with a powerful template system"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:38
 msgid ""
 "Native support for ISO19115/ISO19119/ISO19139/ISO19110 and Dublin Core "
 "formatted metadata"
 msgstr ""
+"Native support for ISO19115/ISO19119/ISO19139/ISO19110 and Dublin Core "
+"formatted metadata"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:39
 msgid ""
@@ -73,84 +85,86 @@ msgid ""
 "catalogues (GeoNetwork, CSW, OGC WxS GetCapabilities, WebDav, ArcSDE, "
 "Thredds, OGC WFS Features, OAI-PMH)"
 msgstr ""
+"Scheduled harvesting and synchronization of metadata between distributed "
+"catalogues (GeoNetwork, CSW, OGC WxS GetCapabilities, WebDav, ArcSDE, "
+"Thredds, OGC WFS Features, OAI-PMH)"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:40
 msgid "Fine-grained access control"
-msgstr ""
+msgstr "Fine-grained access control"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:41
 msgid "Group and user management"
-msgstr ""
+msgstr "Group and user management"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:42
 msgid "Multi-lingual user interface"
-msgstr ""
+msgstr "Multi-lingual user interface"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:45
 msgid "Implemented Standards"
-msgstr ""
+msgstr "Implemented Standards"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:47
 msgid "OGC Catalogue Service-Web (CSW) 2.0.2 ISO"
-msgstr ""
+msgstr "OGC Catalogue Service-Web (CSW) 2.0.2 ISO"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:48
 msgid "Open Archives Initiatives (OAI-PMH)"
-msgstr ""
+msgstr "Open Archives Initiatives (OAI-PMH)"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:49
 msgid "OpenSearch-Geo"
-msgstr ""
+msgstr "OpenSearch-Geo"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:50
 msgid "OAI-PMH"
-msgstr ""
+msgstr "OAI-PMH"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:51
 msgid "Metadata standards:"
-msgstr ""
+msgstr "Metadata standards:"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:53
 msgid "ISO19115/ISO19119/ISO19139/ISO19110 and ISO Profiles"
-msgstr ""
+msgstr "ISO19115/ISO19119/ISO19139/ISO19110 and ISO Profiles"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:54
 msgid "Dublin Core"
-msgstr ""
+msgstr "Dublin Core"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:57
 msgid "Details"
-msgstr ""
+msgstr "Details"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:59
 msgid "**Website:** http://geonetwork-opensource.org"
-msgstr ""
+msgstr "**Website:** http://geonetwork-opensource.org"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:61
 msgid "**Licence:** GNU General Public License (GPL) version 2"
-msgstr ""
+msgstr "**Licence:** GNU General Public License (GPL) version 2"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:63
 msgid "**Software Version:** |version-geonetwork|"
-msgstr ""
+msgstr "**Software Version:** |version-geonetwork|"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:65
 msgid "**Supported Platforms:** Windows, Linux, Mac"
-msgstr ""
+msgstr "**Supported Platforms:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:67
 msgid "**API Interfaces:** Java"
-msgstr ""
+msgstr "**API Interfaces:** Java"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:69
 msgid "**Support:** http://www.osgeo.org/search_profile"
-msgstr ""
+msgstr "**Support:** http://www.osgeo.org/search_profile"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:74
 msgid "Quickstart"
-msgstr ""
+msgstr "Quickstart"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:76
 msgid ":doc:`Quickstart documentation <../quickstart/geonetwork_quickstart>`"
-msgstr ""
-
+msgstr ":doc:`Quickstart documentation <../quickstart/geonetwork_quickstart>`"

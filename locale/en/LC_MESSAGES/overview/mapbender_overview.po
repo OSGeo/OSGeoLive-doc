@@ -1,187 +1,187 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-07 09:20-0500\n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 
 #: ../../build/doc/overview/mapbender_overview.rst:14
 msgid "Mapbender"
-msgstr ""
+msgstr "Mapbender"
 
 #: ../../build/doc/overview/mapbender_overview.rst:17
 msgid "Geoportal Framework"
-msgstr ""
+msgstr "Geoportal Framework"
 
 #: ../../build/doc/overview/mapbender_overview.rst:19
 msgid ""
-"`Mapbender <https://www.mapbender.org/en>`_ is a graduated OSGeo project."
-" It is a web based geoportal framework to publish, register, view, "
-"navigate, monitor and grant secure access to spatial data infrastructure "
-"services."
+"`Mapbender <https://www.mapbender.org/en>`_ is a graduated OSGeo project. It"
+" is a web based geoportal framework to publish, register, view, navigate, "
+"monitor and grant secure access to spatial data infrastructure services."
 msgstr ""
+"`Mapbender <https://www.mapbender.org/en>`_ is a graduated OSGeo project. It"
+" is a web based geoportal framework to publish, register, view, navigate, "
+"monitor and grant secure access to spatial data infrastructure services."
 
 #: ../../build/doc/overview/mapbender_overview.rst:21
 msgid ""
 "Mapbender is the tip of the iceberg, a meta layer of software providing "
 "access to SDI components adhering to international standards. Mapbender "
-"allows users to easily create customised browser clients from a wide "
-"range of widgets (without any/with minimal) programming required. Widgets"
-" integrate with server functionality to provide advanced functionality "
-"like security proxying, digitizing, auto snapping and more."
+"allows users to easily create customised browser clients from a wide range "
+"of widgets (without any/with minimal) programming required. Widgets "
+"integrate with server functionality to provide advanced functionality like "
+"security proxying, digitizing, auto snapping and more."
 msgstr ""
+"Mapbender is the tip of the iceberg, a meta layer of software providing "
+"access to SDI components adhering to international standards. Mapbender "
+"allows users to easily create customised browser clients from a wide range "
+"of widgets (without any/with minimal) programming required. Widgets "
+"integrate with server functionality to provide advanced functionality like "
+"security proxying, digitizing, auto snapping and more."
 
 #: ../../build/doc/overview/mapbender_overview.rst:23
 msgid ""
 "Mapbender management applications are straight forward and easy to use "
 "providing highly focused functionality for the operation of large scale "
-"distributed SDI components. It is the tool of choice for SDI "
-"administrators who need to maintain, categorize and monitor map and "
-"feature services. Mapbender grants access to individuals, groups and "
-"manages machine to machine access. Adherence to standardized services, "
-"such as OGC WMS allows to take advantage of interoperable services from a"
-" multitude of server platforms."
+"distributed SDI components. It is the tool of choice for SDI administrators "
+"who need to maintain, categorize and monitor map and feature services. "
+"Mapbender grants access to individuals, groups and manages machine to "
+"machine access. Adherence to standardized services, such as OGC WMS allows "
+"to take advantage of interoperable services from a multitude of server "
+"platforms."
 msgstr ""
+"Mapbender management applications are straight forward and easy to use "
+"providing highly focused functionality for the operation of large scale "
+"distributed SDI components. It is the tool of choice for SDI administrators "
+"who need to maintain, categorize and monitor map and feature services. "
+"Mapbender grants access to individuals, groups and manages machine to "
+"machine access. Adherence to standardized services, such as OGC WMS allows "
+"to take advantage of interoperable services from a multitude of server "
+"platforms."
 
 #: ../../build/doc/overview/mapbender_overview.rst:25
 msgid "Mapbender is based on Symfony, OpenLayers and jQuery."
-msgstr ""
+msgstr "Mapbender is based on Symfony, OpenLayers and jQuery."
 
 #: ../../build/doc/overview/mapbender_overview.rst:34
 msgid "Core Features"
-msgstr ""
+msgstr "Core Features"
 
 #: ../../build/doc/overview/mapbender_overview.rst:36
 msgid "Easily create web mapping interfaces using template applications"
-msgstr ""
+msgstr "Easily create web mapping interfaces using template applications"
 
 #: ../../build/doc/overview/mapbender_overview.rst:38
 msgid "add/remove/customize applications"
-msgstr ""
+msgstr "add/remove/customize applications"
 
 #: ../../build/doc/overview/mapbender_overview.rst:39
 msgid "Create applications with digitize functionality"
-msgstr ""
+msgstr "Create applications with digitize functionality"
 
 #: ../../build/doc/overview/mapbender_overview.rst:40
 msgid "Create mobile Applications"
-msgstr ""
+msgstr "Create mobile Applications"
 
 #: ../../build/doc/overview/mapbender_overview.rst:41
 msgid "Print high-quality maps using your own PDF templates."
-msgstr ""
+msgstr "Print high-quality maps using your own PDF templates."
 
 #: ../../build/doc/overview/mapbender_overview.rst:42
 msgid "Digitizing via SQL"
-msgstr ""
+msgstr "Digitizing via SQL"
 
 #: ../../build/doc/overview/mapbender_overview.rst:44
 msgid "Upload and share remote OGC WMS (Capabilities caching)"
-msgstr ""
+msgstr "Upload and share remote OGC WMS (Capabilities caching)"
 
 #: ../../build/doc/overview/mapbender_overview.rst:46
 msgid "arrange uploaded WMS for overlay"
-msgstr ""
+msgstr "arrange uploaded WMS for overlay"
 
 #: ../../build/doc/overview/mapbender_overview.rst:47
 msgid "editing layer visibility"
-msgstr ""
+msgstr "editing layer visibility"
 
 #: ../../build/doc/overview/mapbender_overview.rst:48
 msgid "order"
-msgstr ""
+msgstr "order"
 
 #: ../../build/doc/overview/mapbender_overview.rst:49
 msgid "format"
-msgstr ""
+msgstr "format"
 
 #: ../../build/doc/overview/mapbender_overview.rst:50
-msgid "Create users and groups, share and grant access to services and modules"
+msgid ""
+"Create users and groups, share and grant access to services and modules"
 msgstr ""
+"Create users and groups, share and grant access to services and modules"
 
 #: ../../build/doc/overview/mapbender_overview.rst:51
 msgid ""
-"Restrict user access with the OWS security proxy module via trusted "
-"servers"
+"Restrict user access with the OWS security proxy module via trusted servers"
 msgstr ""
+"Restrict user access with the OWS security proxy module via trusted servers"
 
 #: ../../build/doc/overview/mapbender_overview.rst:52
 msgid ""
 "Encrypted protocols monitoring and status notification and auto-update "
 "service for remote OGC services"
 msgstr ""
+"Encrypted protocols monitoring and status notification and auto-update "
+"service for remote OGC services"
 
 #: ../../build/doc/overview/mapbender_overview.rst:53
 msgid "... and more!"
-msgstr ""
+msgstr "... and more!"
 
 #: ../../build/doc/overview/mapbender_overview.rst:56
 msgid "Implemented Standards"
-msgstr ""
+msgstr "Implemented Standards"
 
 #: ../../build/doc/overview/mapbender_overview.rst:58
 msgid "OGC Web Map Service (WMS) 1.1.1, 1.3.0"
-msgstr ""
+msgstr "OGC Web Map Service (WMS) 1.1.1, 1.3.0"
 
 #: ../../build/doc/overview/mapbender_overview.rst:61
 msgid "Details"
-msgstr ""
+msgstr "Details"
 
 #: ../../build/doc/overview/mapbender_overview.rst:63
 msgid "**Website:** https://www.mapbender.org/"
-msgstr ""
+msgstr "**Website:** https://www.mapbender.org/"
 
 #: ../../build/doc/overview/mapbender_overview.rst:65
 msgid "**Licence:** `MIT license <http://opensource.org/licenses/MIT>`_"
-msgstr ""
+msgstr "**Licence:** `MIT license <http://opensource.org/licenses/MIT>`_"
 
 #: ../../build/doc/overview/mapbender_overview.rst:67
 msgid "**Software Version:** |version-mapbender|"
-msgstr ""
+msgstr "**Software Version:** |version-mapbender|"
 
 #: ../../build/doc/overview/mapbender_overview.rst:69
 msgid "**Supported Platforms:** Windows, Linux, Mac"
-msgstr ""
+msgstr "**Supported Platforms:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/mapbender_overview.rst:71
 msgid "**Support:** https://www.mapbender.org/en/community"
-msgstr ""
+msgstr "**Support:** https://www.mapbender.org/en/community"
 
 #: ../../build/doc/overview/mapbender_overview.rst:75
 msgid "Quickstart"
-msgstr ""
+msgstr "Quickstart"
 
 #: ../../build/doc/overview/mapbender_overview.rst:77
 msgid ":doc:`Quickstart documentation <../quickstart/mapbender_quickstart>`"
-msgstr ""
-
-#~ msgid ""
-#~ "`Mapbender <http://mapbender3.org/en>`_ is a "
-#~ "graduated OSGeo project. It is a "
-#~ "web based geoportal framework to "
-#~ "publish, register, view, navigate, monitor "
-#~ "and grant secure access to spatial "
-#~ "data infrastructure services."
-#~ msgstr ""
-
-#~ msgid "Mapbender is based on Symfony2, OpenLayers, Mapproxy and jQuery."
-#~ msgstr ""
-
-#~ msgid "**Website:** http://mapbender3.org/"
-#~ msgstr ""
-
-#~ msgid "**Support:** http://www.mapbender3.org/en/community"
-#~ msgstr ""
-
+msgstr ":doc:`Quickstart documentation <../quickstart/mapbender_quickstart>`"

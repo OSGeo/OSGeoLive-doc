@@ -1,219 +1,252 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-12 12:47-0500\n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:17
 msgid "User-friendly Desktop Internet GIS (uDig) Quickstart"
-msgstr ""
+msgstr "User-friendly Desktop Internet GIS (uDig) Quickstart"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:25
 msgid ""
 "uDig (User Friendly Internet Desktop GIS), is a GIS Desktop client for "
 "editing and viewing Geospatial data."
 msgstr ""
+"uDig (User Friendly Internet Desktop GIS), is a GIS Desktop client for "
+"editing and viewing Geospatial data."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:31
 msgid "This Quick Start describes how to:"
-msgstr ""
+msgstr "This Quick Start describes how to:"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:33
 msgid ""
 "load a map layers from a shapefile and `Web Map Service (WMS) "
 "<http://www.opengeospatial.org/standards/wms>`__"
 msgstr ""
+"load a map layers from a shapefile and `Web Map Service (WMS) "
+"<http://www.opengeospatial.org/standards/wms>`__"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:34
 msgid "use the standard map tools"
-msgstr ""
+msgstr "use the standard map tools"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:35
 msgid "apply colour to map features using styling"
-msgstr ""
+msgstr "apply colour to map features using styling"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:40
 msgid "start uDig"
-msgstr ""
+msgstr "start uDig"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:51
 msgid "Choose |osgeolive-appmenupath-udig| from menu"
-msgstr ""
+msgstr "Choose |osgeolive-appmenupath-udig| from menu"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:52
 msgid "The application will take a few moments to start up"
-msgstr ""
+msgstr "The application will take a few moments to start up"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:63
 msgid ""
-"If you have any difficulties, or are running uDig please review the "
-"Running uDig reference page."
+"If you have any difficulties, or are running uDig please review the Running "
+"uDig reference page."
 msgstr ""
+"If you have any difficulties, or are running uDig please review the Running "
+"uDig reference page."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:66
 msgid "Welcome View"
-msgstr ""
+msgstr "Welcome View"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:68
 msgid ""
 "When you start up uDig for the first time the Welcome view takes up the "
-"entire display. This screen has links to tutorials, documentation and the"
-" project website."
+"entire display. This screen has links to tutorials, documentation and the "
+"project website."
 msgstr ""
+"When you start up uDig for the first time the Welcome view takes up the "
+"entire display. This screen has links to tutorials, documentation and the "
+"project website."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:71
 msgid ""
-"Click the arrow labelled Workbench in the upper right corner, to reveal "
-"the contents of the uDig workbench."
+"Click the arrow labelled Workbench in the upper right corner, to reveal the "
+"contents of the uDig workbench."
 msgstr ""
+"Click the arrow labelled Workbench in the upper right corner, to reveal the "
+"contents of the uDig workbench."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:76
 msgid ""
 "You can return to the Welcome view at any time by selecting the "
 ":menuselection:`Help --> Welcome` from the menu bar."
 msgstr ""
+"You can return to the Welcome view at any time by selecting the "
+":menuselection:`Help --> Welcome` from the menu bar."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:79
 msgid "Workbench"
-msgstr ""
+msgstr "Workbench"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:81
 msgid ""
 "The Workbench window offers multiple Editors (each showing a Map) and "
 "supporting Views (offering information about the current Map)."
 msgstr ""
+"The Workbench window offers multiple Editors (each showing a Map) and "
+"supporting Views (offering information about the current Map)."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:87
 msgid "Shown above is a typical uDig session with the"
-msgstr ""
+msgstr "Shown above is a typical uDig session with the"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:89
 msgid "Layers view (1),"
-msgstr ""
+msgstr "Layers view (1),"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:90
 msgid "Projects view (2),"
-msgstr ""
+msgstr "Projects view (2),"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:91
 msgid "Catalog view (3) and"
-msgstr ""
+msgstr "Catalog view (3) and"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:92
 msgid "Map editor (4)."
-msgstr ""
+msgstr "Map editor (4)."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:94
 msgid "These views will be described further as we demonstrate their use."
-msgstr ""
+msgstr "These views will be described further as we demonstrate their use."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:97
 msgid "Files"
-msgstr ""
+msgstr "Files"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:99
 msgid ""
-"To start out with we are going to load some of the sample data included "
-"on the DVD."
+"To start out with we are going to load some of the sample data included on "
+"the DVD."
 msgstr ""
+"To start out with we are going to load some of the sample data included on "
+"the DVD."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:101
 msgid ""
-"Choose :menuselection:`Layer --> Add` from the menu bar to open up the "
-"**Add Data** wizard"
+"Choose :menuselection:`Layer --> Add` from the menu bar to open up the **Add"
+" Data** wizard"
 msgstr ""
+"Choose :menuselection:`Layer --> Add` from the menu bar to open up the **Add"
+" Data** wizard"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:103
 msgid "Select **Files** from the list of data sources"
-msgstr ""
+msgstr "Select **Files** from the list of data sources"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:105
 msgid "Press :guilabel:`Next` to open up a file dialog"
-msgstr ""
+msgstr "Press :guilabel:`Next` to open up a file dialog"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:107
 msgid "The OSGeoLive DVD contains sample data in:"
-msgstr ""
+msgstr "The OSGeoLive DVD contains sample data in:"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:109
 msgid ":file:`~/data` (a short cut to :file:`/usr/local/share/data`)"
-msgstr ""
+msgstr ":file:`~/data` (a short cut to :file:`/usr/local/share/data`)"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:111
 msgid "Select the following file from the :file:`natural_earth2` folder:"
-msgstr ""
+msgstr "Select the following file from the :file:`natural_earth2` folder:"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:113
 msgid ":file:`ne_10m_admin_0_countries.shp`"
-msgstr ""
+msgstr ":file:`ne_10m_admin_0_countries.shp`"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:115
 msgid "Press :guilabel:`Open`"
-msgstr ""
+msgstr "Press :guilabel:`Open`"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:117
 msgid ""
-"A new Map editor will be opened based on the contents of your shapefile. "
-"The default name and projection of the Map has been taken from your "
-"shapefile."
+"A new Map editor will be opened based on the contents of your shapefile. The"
+" default name and projection of the Map has been taken from your shapefile."
 msgstr ""
+"A new Map editor will be opened based on the contents of your shapefile. The"
+" default name and projection of the Map has been taken from your shapefile."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:120
 msgid ""
 "You can see the **Catalog view** has been updated with an entry for "
-":file:`ne_10m_admin_0_countries.shp`. This view is used to track the use "
-"of resources by the uDig application."
+":file:`ne_10m_admin_0_countries.shp`. This view is used to track the use of "
+"resources by the uDig application."
 msgstr ""
+"You can see the **Catalog view** has been updated with an entry for "
+":file:`ne_10m_admin_0_countries.shp`. This view is used to track the use of "
+"resources by the uDig application."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:123
 msgid ""
-"The **Layers** view shows a single layer is displayed on this map. This "
-"view is used to change the order and appearance of information in your "
-"Map."
+"The **Layers** view shows a single layer is displayed on this map. This view"
+" is used to change the order and appearance of information in your Map."
 msgstr ""
+"The **Layers** view shows a single layer is displayed on this map. This view"
+" is used to change the order and appearance of information in your Map."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:126
 msgid ""
-"The **Projects** view has been updated to show that your map is stored in"
-" `projects > ne 10m admin 0 countries`. You can have multiple projects "
-"open at a time, each project can have several maps."
+"The **Projects** view has been updated to show that your map is stored in "
+"`projects > ne 10m admin 0 countries`. You can have multiple projects open "
+"at a time, each project can have several maps."
 msgstr ""
+"The **Projects** view has been updated to show that your map is stored in "
+"`projects > ne 10m admin 0 countries`. You can have multiple projects open "
+"at a time, each project can have several maps."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:129
 msgid "Open up the :file:`~/data/natural_earth2/` folder on the desktop"
-msgstr ""
+msgstr "Open up the :file:`~/data/natural_earth2/` folder on the desktop"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:131
 msgid ""
-"Drag :file:`HYP_50M_SR_W.tif` onto the Map Editor, a new layer is added "
-"to to the map."
+"Drag :file:`HYP_50M_SR_W.tif` onto the Map Editor, a new layer is added to "
+"to the map."
 msgstr ""
+"Drag :file:`HYP_50M_SR_W.tif` onto the Map Editor, a new layer is added to "
+"to the map."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:133
 msgid ""
-"You can see the order the layers are drawn in the layer view. Right now "
-"the `HYP_50M_SR_W` layer is drawn on top of the `ne 10m admin 0 "
-"countries` layer."
+"You can see the order the layers are drawn in the layer view. Right now the "
+"`HYP_50M_SR_W` layer is drawn on top of the `ne 10m admin 0 countries` "
+"layer."
 msgstr ""
+"You can see the order the layers are drawn in the layer view. Right now the "
+"`HYP_50M_SR_W` layer is drawn on top of the `ne 10m admin 0 countries` "
+"layer."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:136
 msgid ""
 "Select the `HYP_50M_SR_W` layer in the catalog view and drag it to the "
 "bottom of the list"
 msgstr ""
+"Select the `HYP_50M_SR_W` layer in the catalog view and drag it to the "
+"bottom of the list"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:147
 msgid ""
@@ -223,266 +256,343 @@ msgid ""
 "shapefile is not loaded into memory, we have a policy of keeping data on "
 "disk and drawing data like this shapefile onto the screen as needed."
 msgstr ""
+"One of the most common questions asked when uDig is considered for an "
+"organization is how much memory the application uses. Unlike most GIS "
+"applications uDig can get by with a fixed amount of memory. The above "
+"shapefile is not loaded into memory, we have a policy of keeping data on "
+"disk and drawing data like this shapefile onto the screen as needed."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:156
-msgid "You can also drag and drop shapefiles directly into the uDig application!"
+msgid ""
+"You can also drag and drop shapefiles directly into the uDig application!"
 msgstr ""
+"You can also drag and drop shapefiles directly into the uDig application!"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:159
 msgid "Map"
-msgstr ""
+msgstr "Map"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:161
 msgid ""
-"You can control where in the world the Map Editor is looking by using the"
-" navigation tools in the tool bar along the top of the screen."
+"You can control where in the world the Map Editor is looking by using the "
+"navigation tools in the tool bar along the top of the screen."
 msgstr ""
+"You can control where in the world the Map Editor is looking by using the "
+"navigation tools in the tool bar along the top of the screen."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:164
 msgid "The |ZOOM| Zoom tool is available by default"
-msgstr ""
+msgstr "The |ZOOM| Zoom tool is available by default"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:168
 msgid ""
-"Use the zoom tool by drawing a box using the left mouse button around the"
-" area of the world you wish to see."
+"Use the zoom tool by drawing a box using the left mouse button around the "
+"area of the world you wish to see."
 msgstr ""
+"Use the zoom tool by drawing a box using the left mouse button around the "
+"area of the world you wish to see."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:170
 msgid ""
-"To zoom out draw a box with the right mouse button. The current map "
-"extents will be located within the box you draw."
+"To zoom out draw a box with the right mouse button. The current map extents "
+"will be located within the box you draw."
 msgstr ""
+"To zoom out draw a box with the right mouse button. The current map extents "
+"will be located within the box you draw."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:173
 msgid ""
-"The |PAN| Pan tool can be used to scroll around your map with out "
-"changing scale."
+"The |PAN| Pan tool can be used to scroll around your map with out changing "
+"scale."
 msgstr ""
+"The |PAN| Pan tool can be used to scroll around your map with out changing "
+"scale."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:177
-msgid "There are also several navigation buttons that can be used at any time:"
+msgid ""
+"There are also several navigation buttons that can be used at any time:"
 msgstr ""
+"There are also several navigation buttons that can be used at any time:"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:179
-msgid "|SHOWALL| Show All, can be used to return to the full extents at any time"
+msgid ""
+"|SHOWALL| Show All, can be used to return to the full extents at any time"
 msgstr ""
+"|SHOWALL| Show All, can be used to return to the full extents at any time"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:183
 msgid ""
-"|ZOOM_IN| Zoom In and |ZOOM_OUT| Zoom Out can be used to change the scale"
-" by a fixed amount."
+"|ZOOM_IN| Zoom In and |ZOOM_OUT| Zoom Out can be used to change the scale by"
+" a fixed amount."
 msgstr ""
+"|ZOOM_IN| Zoom In and |ZOOM_OUT| Zoom Out can be used to change the scale by"
+" a fixed amount."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:188
 msgid ""
 "You can use Navigation Back |BNAV| and Forward |FNAV| in the menu bar to "
 "cycle though previously visited locations."
 msgstr ""
+"You can use Navigation Back |BNAV| and Forward |FNAV| in the menu bar to "
+"cycle though previously visited locations."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:194
 msgid ""
 "Most tools allow you to Pan by holding the center button and control the "
 "scale using the scroll wheel."
 msgstr ""
+"Most tools allow you to Pan by holding the center button and control the "
+"scale using the scroll wheel."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:198
 msgid "Web Map Server"
-msgstr ""
+msgstr "Web Map Server"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:200
 msgid ""
 "One of the reasons to use an application like uDig is to access all the "
-"great free geospatial information available on the web. This section "
-"covers the use of Web Map Servers which make available layers of "
-"information that you can mix into your own maps."
+"great free geospatial information available on the web. This section covers "
+"the use of Web Map Servers which make available layers of information that "
+"you can mix into your own maps."
 msgstr ""
+"One of the reasons to use an application like uDig is to access all the "
+"great free geospatial information available on the web. This section covers "
+"the use of Web Map Servers which make available layers of information that "
+"you can mix into your own maps."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:204
 msgid ""
 "If you are not connected to the Internet run |osgeolive-appmenupath-"
 "geoserver| for a local WMS. The script will open a page with a \"Service "
-"Capabilities\" section and two links for WMS Services you can drag into "
-"your empty map."
+"Capabilities\" section and two links for WMS Services you can drag into your"
+" empty map."
 msgstr ""
+"If you are not connected to the Internet run |osgeolive-appmenupath-"
+"geoserver| for a local WMS. The script will open a page with a \"Service "
+"Capabilities\" section and two links for WMS Services you can drag into your"
+" empty map."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:208
 msgid ""
 "You can copy a WMS URL (e.g. for `WMS 1.1.1`_) from right panel of "
-"`GeoServer Welcome page`_ and \"paste\" it either on the **Map** view or "
-"the **Layers** view. A wizard shows you the layers you can add to the "
-"**Map**. You can also connect to Web Map Servers using the **Add Data** "
+"`GeoServer Welcome page`_ and \"paste\" it either on the **Map** view or the"
+" **Layers** view. A wizard shows you the layers you can add to the **Map**. "
+"You can also connect to Web Map Servers using the **Add Data** "
 "(:menuselection:`Layer --> Add...`) Wizard and paste WMS URL right there."
 msgstr ""
+"You can copy a WMS URL (e.g. for `WMS 1.1.1`_) from right panel of "
+"`GeoServer Welcome page`_ and \"paste\" it either on the **Map** view or the"
+" **Layers** view. A wizard shows you the layers you can add to the **Map**. "
+"You can also connect to Web Map Servers using the **Add Data** "
+"(:menuselection:`Layer --> Add...`) Wizard and paste WMS URL right there."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:213
 msgid "Select :menuselection:`File --> New --> New Map` from the menu bar"
-msgstr ""
+msgstr "Select :menuselection:`File --> New --> New Map` from the menu bar"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:215
 msgid ""
-"Change to the **Web** view, click on the tab next to the **Catalog** view"
-" to reveal the *Web* view."
+"Change to the **Web** view, click on the tab next to the **Catalog** view to"
+" reveal the *Web* view."
 msgstr ""
+"Change to the **Web** view, click on the tab next to the **Catalog** view to"
+" reveal the *Web* view."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:220
 msgid "Click on the link WMS\\:`dm solutions`_ link"
-msgstr ""
+msgstr "Click on the link WMS\\:`dm solutions`_ link"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:224
 msgid ""
 "From the Resource Selection page we are going to choose the following "
 "layers:"
 msgstr ""
+"From the Resource Selection page we are going to choose the following "
+"layers:"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:226
 msgid "Elevation/Bathymetry"
-msgstr ""
+msgstr "Elevation/Bathymetry"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:227
 msgid "Parks"
-msgstr ""
+msgstr "Parks"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:228
 msgid "Cities"
-msgstr ""
+msgstr "Cities"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:233
 msgid "Press :guilabel:`Finish` to add these layers to your map"
-msgstr ""
+msgstr "Press :guilabel:`Finish` to add these layers to your map"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:238
 msgid "Use the |ZOOM| Zoom Tool to move closer to one of the Parks"
-msgstr ""
+msgstr "Use the |ZOOM| Zoom Tool to move closer to one of the Parks"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:240
 msgid ""
 "Switch to the |INFO| Info Tool and click on one the parks to learn more "
 "about it"
 msgstr ""
+"Switch to the |INFO| Info Tool and click on one the parks to learn more "
+"about it"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:244
 msgid ""
-"You can switch between the zoom and info tools by pressing `Z` and `I` on"
-" the keyboard."
+"You can switch between the zoom and info tools by pressing `Z` and `I` on "
+"the keyboard."
 msgstr ""
+"You can switch between the zoom and info tools by pressing `Z` and `I` on "
+"the keyboard."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:247
 msgid "Style"
-msgstr ""
+msgstr "Style"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:249
 msgid ""
 "Select the `project > ne 10m admin 0 countries`, you can double click to "
 "open this Map, or Right Click and choose Open Map"
 msgstr ""
+"Select the `project > ne 10m admin 0 countries`, you can double click to "
+"open this Map, or Right Click and choose Open Map"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:251
 msgid "Select the countries layer in the Layer view"
-msgstr ""
+msgstr "Select the countries layer in the Layer view"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:253
 msgid ""
-"Open up the **Style Editor** by right clicking on `ne 10m admin 0 "
-"countries` layer and choosing :guilabel:`Change Style`"
+"Open up the **Style Editor** by right clicking on `ne 10m admin 0 countries`"
+" layer and choosing :guilabel:`Change Style`"
 msgstr ""
+"Open up the **Style Editor** by right clicking on `ne 10m admin 0 countries`"
+" layer and choosing :guilabel:`Change Style`"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:255
 msgid "We are going to change a few things about how countries are displayed"
-msgstr ""
+msgstr "We are going to change a few things about how countries are displayed"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:257
 msgid ""
 "Line: Click :guilabel:`Border`, click on the Color button and change the "
 "color to BLACK"
 msgstr ""
+"Line: Click :guilabel:`Border`, click on the Color button and change the "
+"color to BLACK"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:259
 msgid ""
 "Fill: On Tab :guilabel:`Fill` uncheck the box :guilabel:`enable/disable "
 "fill` to turn off fill"
 msgstr ""
+"Fill: On Tab :guilabel:`Fill` uncheck the box :guilabel:`enable/disable "
+"fill` to turn off fill"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:261
 msgid ""
 "Label: On Tab :guilabel:`Labels` check the box :guilabel:`enable/disable "
 "labeling`, and choose the attribute **NAME** from the list of attributes"
 msgstr ""
+"Label: On Tab :guilabel:`Labels` check the box :guilabel:`enable/disable "
+"labeling`, and choose the attribute **NAME** from the list of attributes"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:266
 msgid ""
 "Press :guilabel:`Apply` to see what this looks like on your Map, the "
 "**Layer** view will also be updated to reflect the current style"
 msgstr ""
+"Press :guilabel:`Apply` to see what this looks like on your Map, the "
+"**Layer** view will also be updated to reflect the current style"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:269
 msgid ""
 "When you are happy with the result you can press :guilabel:`Close` to "
 "dismiss the dialog"
 msgstr ""
+"When you are happy with the result you can press :guilabel:`Close` to "
+"dismiss the dialog"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:271
 msgid ""
 "Some files include style settings. The Style definition can be found in "
-"files with the :file:`*.sld` extension. The name itself should be equal "
-"to the file containing the data. If such a `Styled Layer Description "
-"(SLD) <http://www.opengeospatial.org/standards/sld>__` file exists, the "
-"style will be applied automatically."
+"files with the :file:`*.sld` extension. The name itself should be equal to "
+"the file containing the data. If such a `Styled Layer Description (SLD) "
+"<http://www.opengeospatial.org/standards/sld>__` file exists, the style will"
+" be applied automatically."
 msgstr ""
+"Some files include style settings. The Style definition can be found in "
+"files with the :file:`*.sld` extension. The name itself should be equal to "
+"the file containing the data. If such a `Styled Layer Description (SLD) "
+"<http://www.opengeospatial.org/standards/sld>__` file exists, the style will"
+" be applied automatically."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:273
 msgid ""
-"Sometimes it is a bit hard to see what is going on with layer providing "
-"much details. To get focused on the task you like to work on, you can "
-"choose :menuselection:`Map --> Mylar` from the menu bar. Using the "
-"*Layer* view select different layers in turn to see the effect. You can "
-"turn off this effect at any time using :menuselection:`Map --> Mylar` "
-"from the menu bar."
+"Sometimes it is a bit hard to see what is going on with layer providing much"
+" details. To get focused on the task you like to work on, you can choose "
+":menuselection:`Map --> Mylar` from the menu bar. Using the *Layer* view "
+"select different layers in turn to see the effect. You can turn off this "
+"effect at any time using :menuselection:`Map --> Mylar` from the menu bar."
 msgstr ""
+"Sometimes it is a bit hard to see what is going on with layer providing much"
+" details. To get focused on the task you like to work on, you can choose "
+":menuselection:`Map --> Mylar` from the menu bar. Using the *Layer* view "
+"select different layers in turn to see the effect. You can turn off this "
+"effect at any time using :menuselection:`Map --> Mylar` from the menu bar."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:289
 msgid "Things to Try"
-msgstr ""
+msgstr "Things to Try"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:291
 msgid "Here are some additional challenges for you to try:"
-msgstr ""
+msgstr "Here are some additional challenges for you to try:"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:293
 msgid ""
 "Try viewing your own GIS map layers, or try adding a layer from a `Web "
 "Feature Service (WFS) <http://www.opengeospatial.org/standards/wfs>`__"
 msgstr ""
+"Try viewing your own GIS map layers, or try adding a layer from a `Web "
+"Feature Service (WFS) <http://www.opengeospatial.org/standards/wfs>`__"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:294
 msgid "Try styling the WFS layer."
-msgstr ""
+msgstr "Try styling the WFS layer."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:297
 msgid "What Next?"
-msgstr ""
+msgstr "What Next?"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:302
 msgid ""
-"This is only the first step on the road to using uDig. There is a lot "
-"more great material (and ability) left for you to discover in our "
-"**walkthrough** documents."
+"This is only the first step on the road to using uDig. There is a lot more "
+"great material (and ability) left for you to discover in our **walkthrough**"
+" documents."
 msgstr ""
+"This is only the first step on the road to using uDig. There is a lot more "
+"great material (and ability) left for you to discover in our **walkthrough**"
+" documents."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:304
 msgid "Walkthrough 1"
-msgstr ""
+msgstr "Walkthrough 1"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:306
 msgid ""
-"Try out the use of :doc:`PostGIS <../overview/postgis_overview>`, extract"
-" data from a Web Feature Server and explore the use of **Themes** with "
-"our powerful `Color Brewer` technology."
+"Try out the use of :doc:`PostGIS <../overview/postgis_overview>`, extract "
+"data from a Web Feature Server and explore the use of **Themes** with our "
+"powerful `Color Brewer` technology."
 msgstr ""
+"Try out the use of :doc:`PostGIS <../overview/postgis_overview>`, extract "
+"data from a Web Feature Server and explore the use of **Themes** with our "
+"powerful `Color Brewer` technology."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:309
 msgid ":file:`/usr/local/share/udig/udig-docs/uDigWalkthrough 1.pdf`"
-msgstr ""
+msgstr ":file:`/usr/local/share/udig/udig-docs/uDigWalkthrough 1.pdf`"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:311
 msgid ""
@@ -490,11 +600,10 @@ msgid ""
 "manipulate feature data, covers the installation of :doc:`GeoServer "
 "<../overview/geoserver_overview>` and editing with a Web Feature Server."
 msgstr ""
+"Walkthrough 2 - Learn how to create shapefiles and use the Edit tools to "
+"manipulate feature data, covers the installation of :doc:`GeoServer "
+"<../overview/geoserver_overview>` and editing with a Web Feature Server."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:315
 msgid "Available on http://udig.refractions.net/"
-msgstr ""
-
-#~ msgid "Contents"
-#~ msgstr ""
-
+msgstr "Available on http://udig.refractions.net/"
