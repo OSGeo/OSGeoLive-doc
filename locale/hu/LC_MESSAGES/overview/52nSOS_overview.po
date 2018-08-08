@@ -1,0 +1,427 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:18
+msgid "52 North SOS"
+msgstr "52 North SOS"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:21
+msgid "About"
+msgstr "Névjegy"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:23
+msgid ""
+"The 52°North `Sensor Observation Service (SOS) "
+"<http://www.opengeospatial.org/standards/sos>`__ supports the interoperable "
+"provision of live and archived sensor observation data. A sensor could be a "
+"water level meter in a stream, a weather station, or an air quality "
+"monitoring station."
+msgstr ""
+"A 52°North `Sensor Observation Service (SOS) "
+"<http://www.opengeospatial.org/standards/sos>`__ támogatja az élő és archive"
+" szenzor mérési adatok interoperábilis szolgáltatását. Egy szenzor lehet egy"
+" vízszintmérő egy patakban, egy meteorológiai állomáson vagy egy "
+"levegőminőség-ellenőrző állomáson."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:35
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:37
+msgid ""
+"**Browser Client**: The SOS is delivered with a browser based application. "
+"This provides means for administration and configuration of the service "
+"instance, as well as sending test requests for SOS operations; appropriate "
+"sample requests are included."
+msgstr ""
+"**Böngésző kliens**: Az SOS-t egy böngésző alapú alkalmazással szállítják. "
+"Ez biztosítja az eszközöket a szolgáltató példány adminisztrációjához és "
+"konfigurálásához, valamint az SOS műveletekre vonatkozó tesztkérelmeket; "
+"megfelelő mintakérelmek tartalmaz."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:41
+msgid ""
+"**Helgoland**: The SOS contains the Helgoland application for  the "
+"exploration, analysis and visualization of Sensor Web data in various fields"
+" of use, e.g. hydrology, meteorology, environmental monitoring, traffic "
+"management."
+msgstr ""
+"**Helgoland**: Az SOS tartalmaz egy Hegoland alkalmazást, a szensor web "
+"adatok feltérképezéséhez, elemzéséhez és megjelenítéséhez a különböző "
+"felhasználási területeken, pl. hidrológia, meteorológia, környezet "
+"monitoring, forgalomirányítás."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:44
+msgid ""
+"**Specifications**: The 52°North SOS implements the current specification "
+"version 2.0.0 and the previous version 1.0.0 (here no transactional "
+"operations). Implemented operations for each standard version are listed "
+"below."
+msgstr ""
+"**Specifikációk**: A 52°North SOS implementálja 2.0.0 verzió aktuális "
+"specifikációját és az előző 1.0.0 verziót (itt nincsenek tranzakciós "
+"műveletek). Az egyes szabványos verziókban implementált műveletek listája "
+"található lentebb."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:47
+msgid ""
+"**INSPIRE Download Service Extension**: Starting with Version 4.2.0, an "
+"extension is available that allows the SOS to be used as an INSPIRE download"
+" service. Background information is provided in a `blog post "
+"<https://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-"
+"an-inspire-download-service-based-on-sos/>`_ and in the `wiki "
+"<https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_"
+" ."
+msgstr ""
+" **INSPIRE Download Service Extension**: A 4.2.0 verziótól kezdődően egy "
+"bővítmény érhető el, mely lehetővé teszi, hogy az SOS-t mint INSPIRE letöltő"
+" szolgáltatásként alkalmazzuk. Háttér információkat biztosítunk egy `blog "
+"post-ban <http://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-"
+"developing-an-inspire-download-service-based-on-sos/>`_ és a `wiki-ben "
+"<https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_"
+" "
+
+#: ../../build/doc/overview/52nSOS_overview.rst:53
+msgid ""
+"**Air Quality Data e-Reporting Extension**: Starting with version 4.3.0, an "
+"extension is available that provides for the Air Quality Data Flows E1a, E1b"
+" and E2a compliant data (the instance on OSGeoLive is not configured "
+"accordingly). The `installation and configuration "
+"<https://wiki.52north.org/bin/view/SensorWeb/AqdEReporting#Installation>`_ "
+"is documented in the 52°North Wiki."
+msgstr ""
+"**Air Quality Data e-Reporting Extension**: A 4.3.0 verziótól kezdődően egy "
+"bővítmény érhető el, mely az Air Quality Data Flows E1a, E1b és E2a-nak "
+"megfelelő adatokat szolgáltat (az OSGeoLive-on lévő példányt nem "
+"konfiguráltuk ennek megfelelően) A `telepítést és a konfigurálást "
+"<https://wiki.52north.org/bin/view/SensorWeb/AqdEReporting#Installation>`_ a"
+" 52°North Wiki-n dokumentáltuk."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:59
+msgid ""
+"**Sensor Web REST-API**: Starting with Version 4.1.1., a bundle version is "
+"available, that directly provides the `RESTful API "
+"<https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_,"
+" is available. Hence, observation data can be requested in a RESTful way and"
+" is returned in JSON encoded responses. More details incl. documentation can"
+" be found in the `SOS webapp <http://localhost:8080/52nSOS/static/doc/api-"
+"doc/>`_."
+msgstr ""
+"**RESTful API az idősor adatokhoz**: A 4.1.1 verziótól kezdődően, egy "
+"becsomagolt változat érhető el, mely közvetlenül szolgáltatja a `RESTful "
+"API-t "
+"<https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_."
+" Így az idősorokat RESTful módon kérdezhetjük le JSON kódolt kérésekben. "
+"További részletek a dokumentációval megtalálható az  `SOS webapp-ban "
+"<http://localhost:8080/52nSOS/static/doc/api-doc/>`_."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:66
+msgid ""
+"**INSPIRE Sepcialized Observations**: Support for the INSPIRE Specialized "
+"Observations defined in Guidelines for the use of `Observations & "
+"Measurements and Sensor Web Enablement-related standards in INSPIRE (D2.9) "
+"<http://inspire.ec.europa.eu/id/document/tg/d2.9-o%26m-swe>`_ (`detailed "
+"information about the implementation "
+"<https://wiki.52north.org/SensorWeb/InspireSpecialisedObservations>`_)."
+msgstr ""
+"**INSPIRE Sepcialized Observations**: Támogatás az INSPIRE speciális "
+"észlelésekhez, melyet az  `Observations & Measurements and Sensor Web "
+"Enablement-related standards in INSPIRE (D2.9) "
+"<http://inspire.ec.europa.eu/id/document/tg/d2.9-o%26m-swe>`_  használatához"
+" kpcsolódó iránymutatásokban határoztak meg (`részletes információ az "
+"implementációhoz "
+"<https://wiki.52north.org/SensorWeb/InspireSpecialisedObservations>`_)."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:70
+msgid ""
+"**ResultFiltering**: Support for the filtering the observations "
+"(GetObservation) and data availabiliy information (GetDataAvailability) by "
+"the value of the observation."
+msgstr ""
+"**ResultFiltering**: támogatás az észlelések szűréséhez (GetObservation) és "
+"adat elérhetőségi információ (GetDataAvailability) az észlelési adatok "
+"értéke alapján."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:72
+msgid ""
+"**Read more**: `Details of the implemented functionalities "
+"<https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#Features>`_"
+" can be found in the 52°North Wiki."
+msgstr ""
+"**Olvasson többet**:`Az implementált funkcionalitás részletek "
+"<https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#Features>`_"
+"  megtalálhatók az 52°North Wikiben."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:75
+msgid ""
+"The development of this version of the 52°North SOS was supported by "
+"different projects, organizations, and persons. More details can be found in"
+" the `52°North SOS client <http://localhost:8080/52nSOS/index>`_."
+msgstr ""
+"Az 52°North SOS ezen verziójának a fejlesztését különböző projektek, "
+"szervezetek és személyek támogatták. További részletek találhatók a  "
+"`52°North SOS kliensben <http://localhost:8080/52nSOS/index>`_."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:78
+msgid ""
+"We would like to thank the Belgian Interregional Environment Agency (`IRCEL "
+"- CELINE <http://www.irceline.be/en/>`_) for providing the demonstration "
+"data used in this SOS installation. The demo data are published under a `CC-"
+"BY licence <http://creativecommons.org/licenses/by/3.0/>`_."
+msgstr ""
+"Ezúton szeretnénk köszönetet mondani a belga Interregional Environment "
+"Agency-nek (`IRCEL - CELINE <http://www.irceline.be/en/>`_) az SOS "
+"telepítőben használt bemutató adatok biztosításáért. A demó adatokat a `CC-"
+"BY licenc <http://creativecommons.org/licenses/by/3.0/>`_ alatt teszik "
+"közzé."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:86
+msgid "SOS Operations"
+msgstr "SOS műveletek"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:88
+msgid "**Queries**:"
+msgstr "**Lekérdezések**:"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:90
+msgid "GetCapabilities: for requesting a self-description of the service."
+msgstr "GetCapabilities: a szolgáltatás leírás lekérdezéséhez."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:91
+msgid "DescribeSensor: for requesting information about the sensor."
+msgstr "DescribeSensor: információ kérés a szenzorról."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:92
+msgid ""
+"GetFeatureOfInterest / GetFeatureOfInterestTime (from 1.0): for requesting "
+"features (e.g. sensor/measurement locations)."
+msgstr ""
+"GetFeatureOfInterest / GetFeatureOfInterestTime (1.0-tól): elemek "
+"lekérdezéséhez (pl. szenzor/mérés pozíciója)."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:94
+msgid "GetObservationById / GetObservation: for requesting observations."
+msgstr "GetObservationById / GetObservation: mérések lekérdezéséhez."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:95
+msgid ""
+"GetResult (from specification version 2.0): for requesting sensor data."
+msgstr ""
+"GetResult (2.0 verzió specifikációjától): a szenzor adatok lekérdezéséhez."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:96
+msgid ""
+"GetResultTemplate (from specification version 2.0): for requesting a "
+"template of the result structure that will be returned by a GetResult "
+"request."
+msgstr ""
+"GetResultTemplate ((2.0 verzió specifikációjától): egy sablon lekérdezésére "
+"az eredmény szerkezethez, melyet a GetResult kérés ad vissza."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:98
+msgid ""
+"GetDataAvailability (from `SOS 2.0 Hydrology Profile - OGC Best Practice "
+"<http://docs.opengeospatial.org/bp/14-004r1/14-004r1.html#38>`_): for "
+"requesting the data availability for certain configurations."
+msgstr ""
+"GetDataAvailability ( `SOS 2.-től Hidrológiai profil - OGC legobb gyakorlat "
+"<http://docs.opengeospatial.org/bp/14-004r1/14-004r1.html#38>`_): adat "
+"hozzáférés lekérdezése bizonyos konfigurációkban."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:102
+msgid "**Transactions**:"
+msgstr "**Tranzakciók**:"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:104
+msgid ""
+"InsertSensor (from specification version 2.0): for inserting metadata of new"
+" sensors."
+msgstr ""
+"InsertSensor (2.0 verzió specifikációjától): új szenzorok metaadatainak "
+"beillesztéséhez."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:105
+msgid ""
+"InsertObservation (from specification version 2.0): for inserting new "
+"observations."
+msgstr ""
+"InsertObservation (2.0 verzió specifikációjától): új észlelések "
+"beviteléséhez."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:106
+msgid ""
+"UpdateSensorDescription (from specification version 2.0): for updating the "
+"description of a sensor."
+msgstr ""
+"UpdateSensorDescription (2.0 verzió specifikációjától): a szenzor leírás "
+"aktualizálásához."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:107
+msgid ""
+"DeleteSensor (from specification version 2.0): for deleting a "
+"sensor/procedure and all related offerings and observations."
+msgstr ""
+"DeleteSensor (2.0 verzió specifikációjától): szenzor/eljárás és minden "
+"kapcsolódó kínálat és észlelés törléséhez."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:109
+msgid ""
+"DeleteObservation (extension for SOS specification 2.0): for deleting an "
+"observation."
+msgstr ""
+"DeleteObservation (bővítés az SOS 2.0 specifikációhoz): egy észlelés "
+"törléséhez."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:110
+msgid ""
+"InsertResultTemplate (from specification version 2.0): for inserting a "
+"result template."
+msgstr ""
+"InsertResultTemplate (2.0 verzió specifikációjától): eredmény sablon "
+"beszúrásához."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:111
+msgid "InsertResult (from specification version 2.0): for inserting results."
+msgstr "InsertResult (2.0 verzió specifikációtól): eredmények beszúrásához."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:112
+msgid "InsertFeatureOfInterest for feature insertion"
+msgstr "InsertFeatureOfInterest elemek beszúrásához"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:113
+msgid ""
+"DeleteResultTemplate for the deletion of resultTemplates by identifier or "
+"offering/observedProperty pairs"
+msgstr ""
+"DeleteResultTemplate a resultTemplate-ek vagy kínálat/resultTemplates párok "
+"törléséhez"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:116
+msgid ""
+"Within these operations, the following filter operators are possible where "
+"applicable:"
+msgstr "Ezen műveleteken belül a következő szűrő operátorok használhatók:"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:119
+msgid "Spatial filter: BBOX, using a bounding box."
+msgstr "Térbeli szűrő: BBOX, befoglaló téglalap használatával."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:120
+msgid "Temporal filter: During, with time period."
+msgstr "Idő szűrő: egy időszak alatt."
+
+#: ../../build/doc/overview/52nSOS_overview.rst:121
+msgid "Temporal filter: TEquals, with time instant."
+msgstr "Idő szűrő: TEquals, időben"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:125
+msgid "Applicable Standards"
+msgstr "Alkalmazható szabványok"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:127
+msgid ""
+"`Sensor Observation Service (SOS) "
+"<http://www.opengeospatial.org/standards/sos>`__"
+msgstr ""
+"`Sensor Observation Service (SOS) "
+"<http://www.opengeospatial.org/standards/sos>`__"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:128
+msgid ""
+"`Geography Markup Language (GML) "
+"<http://www.opengeospatial.org/standards/gml>`__"
+msgstr ""
+"`Geography Markup Language (GML) "
+"<http://www.opengeospatial.org/standards/gml>`__"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:129
+msgid ""
+"`Sensor Model Language (SensorML) "
+"<http://www.opengeospatial.org/standards/sensorml>`__"
+msgstr ""
+"`Sensor Model Language (SensorML) "
+"<http://www.opengeospatial.org/standards/sensorml>`__"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:133
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:135
+msgid "**Website:** http://52north.org/sos"
+msgstr "**Honlap:** http://52north.org/sos"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:137
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**Licenc:** GNU General Public License (GPL) version 2"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:139
+msgid "**Software Version:** |version-52nSOS|"
+msgstr "**Szoftver verzió:** |version-52nSOS|"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:141
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Támogatott platformok:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:143
+msgid "**Supported Java Versions:** 7+, (bundle version: 8+)"
+msgstr "**Támogatott Java verziók:** 7+, (bundle version: 8+)"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:145
+msgid ""
+"**Supported DBMS:** PostgreSQL (9+) + PostGIS (2+), MariaDB/MySQL (5.6+), "
+"Oracle DB (9+), SQL Server 2012"
+msgstr ""
+"**Támogatott adatbázisok:** PostgreSQL (9+) + PostGIS (2+), MariaDB/MySQL "
+"(5.6+), Oracle DB (9+), SQL Server 2012"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:147
+msgid "**API:** Java, HTTP + JSON/XML/SOAP/KVP"
+msgstr "**API:** Java, HTTP + JSON/XML/SOAP/KVP"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:149
+msgid "**Commercial Support:** https://52north.org/services/"
+msgstr "**Kereskedelmi támogatás:** https://52north.org/services/"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:151
+msgid ""
+"**Community Support:** https://list.52north.org/mailman/listinfo/sensorweb"
+msgstr ""
+"**Közösségi támogatás:** https://list.52north.org/mailman/listinfo/sensorweb"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:153
+msgid ""
+"**Community Website:** https://52north.org/research/research-labs/sensor-"
+"web/"
+msgstr ""
+"**Közösségi honlap:** https://52north.org/research/research-labs/sensor-web/"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:155
+msgid ""
+"**Other 52°North projects on OSGeoLive:** :doc:`WPS <./52nWPS_overview>`"
+msgstr ""
+"**Más 52°North projektek az OSGeoLive-on:** :doc:`WPS <./52nWPS_overview>`"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:161
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/52nSOS_overview.rst:163
+msgid ":doc:`Quickstart documentation <../quickstart/52nSOS_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/52nSOS_quickstart>`"

@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-27 23:08-0500\n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -182,48 +181,3 @@ msgstr "Gyorstalpaló"
 #: ../../build/doc/overview/geomoose_overview.rst:76
 msgid ":doc:`Quickstart documentation <../quickstart/geomoose_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/geomoose_quickstart>`"
-
-#~ msgid ""
-#~ "Access maps from: MapServer, Google, VirtualEarth, Tilecache, ArcGIS REST, "
-#~ "WMS."
-#~ msgstr ""
-#~ "Térképek: MapServer, Google, VirtualEarth, Tilecache, ArcGIS REST, WMS "
-#~ "forrásokból."
-
-#~ msgid ""
-#~ "Tools: measure, drawing, query, fading, re-order, reprojection, jump-to "
-#~ "zoom, coordinate readouts, ..."
-#~ msgstr ""
-#~ "Eszközök: mérés, rajzolás, lekérdezés, elhalványítás, átrendezés, "
-#~ "vetületváltás, célra nagyítás, koordináta kiolvasás, ..."
-
-#~ msgid ""
-#~ "Displays: MapViewer, Bird's Eye, Side Menu, Navigation, Tabbed User "
-#~ "Controls."
-#~ msgstr ""
-#~ "Megjelenítés: térkép ablak, madártávlat, oldal menük, navigáció, "
-#~ "felhasználói vezérlők füleken."
-
-#~ msgid "WMS"
-#~ msgstr "WMS"
-
-#~ msgid "WFS-T (client)"
-#~ msgstr "WFS-T (kliens)"
-
-#~ msgid "**Website:** http://www.geomoose.org/"
-#~ msgstr "**Honlap:** http://www.geomoose.org/"
-
-#~ msgid ""
-#~ "**Licence:** MIT based license. http://www.geomoose.org/info/license.html"
-#~ msgstr ""
-#~ "**Licenc:** MIT alapú licenc. http://www.geomoose.org/info/license.html"
-
-#~ msgid ""
-#~ "**Commercial Support:** http://www.geomoose.org/info/commercial_support.html"
-#~ msgstr ""
-#~ "**Kereskedelm támogatás:** "
-#~ "http://www.geomoose.org/info/commercial_support.html"
-
-#~ msgid "**Community Support:** http://www.geomoose.org/info/mailing_lists.html"
-#~ msgstr ""
-#~ "**Közösségi támogatás:** http://www.geomoose.org/info/mailing_lists.html"
