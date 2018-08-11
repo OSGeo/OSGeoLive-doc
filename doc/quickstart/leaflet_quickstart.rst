@@ -1,6 +1,7 @@
 :Author: Vladimir Agafonkin, adopted for live dvd by Johan Van de Wauw
 :Reviewer: Angelos Tzotsos, OSGeo
-:Version: osgeolive11.0
+:Reviewer: Nicolas Roelandt, OSGeoLive
+:Version: osgeolive12.0
 
 @LOGO_leaflet@
 @OSGEO_KIND_leaflet@
@@ -58,11 +59,11 @@ Now you are ready to initialize the map and do some stuff with it.
 
 Setting up the Map
 ================================================================================
-Let's create a map of Europe with an indication of the 2013 FOSS4G conference. First we'll initialize the map and set its view to our chosen geographical coordinates and a zoom level:
+Let's create a map of eastern Africa with an indication of the 2018 FOSS4G conference. First we'll initialize the map and set its view to our chosen geographical coordinates and a zoom level:
 
 .. code-block:: javascript 
 
- var map = L.map('map').setView([50.7035, 7.0972], 5);
+ var map = L.map('map').setView([-6.8110533,39.292251], 5);
 
 By default (as we didn't pass any options when creating the map instance), all mouse and touch interactions on the map are enabled, and it has zoom and attribution controls.
 
@@ -98,13 +99,13 @@ Let's add a marker:
 
 .. code-block:: javascript 
 
- var marker = L.marker([50.7035, 7.0972]).addTo(map);
+ var marker = L.marker([-6.8110533,39.292251]).addTo(map);
 
 Adding a circle is the same (except for specifying the radius in meters as a second argument), but lets you control how it looks by passing options as the last argument when creating the object:
 
 .. code-block:: javascript
 
- var circle = L.circle([49.70, 6.12], 25000, {
+ var circle = L.circle([-7.09, 39.50], 25000, {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5
@@ -115,9 +116,9 @@ Adding a polygon is as easy:
 .. code-block:: javascript
 
  var polygon = L.polygon([
-    [51.01, -1.01],
-    [45.81, 1.76],
-    [49.15, -4.23]
+    [-6.60, 38.97],
+    [-6.68, 38.37],
+    [-6.68, 38.37]
  ]).addTo(map);
 
 
@@ -129,7 +130,7 @@ Popups are usually used when you want to attach some information to a particular
 .. code-block:: javascript 
 
  var popup = L.popup()
-    .setLatLng([50.7035, 7.0972])
+    .setLatLng([-7.01, 39.13])
     .setContent("I am a standalone popup.")
     .openOn(map);
 
