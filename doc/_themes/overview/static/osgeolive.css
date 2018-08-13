@@ -1,6 +1,6 @@
 body {
     min-width: 768px;
-    font-family: 'Lucida Sans','Geneva','Verdana',sans-serif;
+    font-family: "Miriam Libre","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
 }
 
@@ -13,19 +13,21 @@ body {
 }
 
 .header ul {
-	background-color: #1166ad;
+	background-color:none;
 	padding:10px 0px 10px 0px;
 }
 /*Some list don't need bullets or numbers*/
 .header li a{
-	background-color:#EBEBEB;
-	color:black;
+	background-color:#003A40;
+	color: white;
 	text-decoration:none;
 	font-size: 1.2em;
-	padding:0 10px 0 10px;
+	padding:4px 12px 4px 10px;
+	border-radius: .4rem;
+        margin: 3px;
 }
 .header li a:hover{
-	background-color:#ccea94;
+	background-color:#4DB05B;
 }
 .header li{
 	display:inline;
