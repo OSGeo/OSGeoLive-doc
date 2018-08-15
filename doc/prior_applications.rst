@@ -14,7 +14,6 @@ Previously available applications
     |nologo| % Viking_          % `QuickStart <Viking_q_>`__     %   10.5 %  GPS Data Analysis and Viewer
     |nologo| % Ushahidi_        % `QuickStart <Ushahidi_q_>`__   %   10.5 %  Mapping and Timeline for events
     |nologo| % TinyOWS_         % `QuickStart <TinyOWS_q_>`__    %   10.5 %  WFS-T Service
-    |osgeo_community| % PyWPS_   % `QuickStart <PyWPS_q_>`__      %   10.5 %  Web Processing Service
     |nologo| % osgEarth_        % `QuickStart <osgEarth_q_>`__   %   10.5 %  3D Terrain Rendering
     |nologo| % `Kosmo Desktop`_ % `QuickStart <Kosmo Desktop_q_>`__ %   10.5 %
     |nologo| % `WorldWind Java`_ % `QuickStart <WorldWind Java_q_>`__  %   10.5 % Desktop Virtual Globe
@@ -33,13 +32,10 @@ Previously available applications
     |osgeo_project| % MapGuide_ %  `QuickStart <MapGuide_q_>`__ %   5.0 %   Web Service
 
 
-
-
 .. _OGC Standards: https://live.osgeo.org/archive/10.5/en/standards/standards.html
 .. _Viking: https://live.osgeo.org/archive/10.5/en/overview/viking_overview.html
 .. _Ushahidi: https://live.osgeo.org/archive/10.5/en/overview/ushahidi_overview.html
 .. _TinyOWS: https://live.osgeo.org/archive/10.5/en/overview/tinyows_overview.html
-.. _PyWPS: https://live.osgeo.org/archive/10.5/en/overview/pywps_overview.html
 .. _osgEarth: https://live.osgeo.org/archive/10.5/en/overview/osgearth_overview.html
 .. _Kosmo Desktop: https://live.osgeo.org/archive/10.5/en/overview/kosmo_overview.html
 .. _WorldWind Java: https://live.osgeo.org/archive/10.5/en/overview/worldwindjava_overview.html
@@ -62,7 +58,6 @@ Previously available applications
 .. _Viking_q: https://live.osgeo.org/archive/10.5/en/quickstart/viking_quickstart.html
 .. _Ushahidi_q: https://live.osgeo.org/archive/10.5/en/quickstart/ushahidi_quickstart.html
 .. _TinyOWS_q: https://live.osgeo.org/archive/10.5/en/quickstart/tinyows_quickstart.html
-.. _PyWPS_q: https://live.osgeo.org/archive/10.5/en/quickstart/pywps_quickstart.html
 .. _osgEarth_q: https://live.osgeo.org/archive/10.5/en/quickstart/osgearth_quickstart.html
 .. _Kosmo Desktop_q: https://live.osgeo.org/archive/10.5/en/quickstart/kosmo_quickstart.html
 .. _WorldWind Java_q: https://live.osgeo.org/archive/10.5/en/quickstart/worldwindjava_quickstart.html
