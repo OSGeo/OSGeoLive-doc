@@ -190,8 +190,8 @@ functionality:
 
 ::
 
-	> library(sf)
-	> library(ggplot2)
+	> library(sf) 		# Simple Features manipulation Library
+	> library(ggplot2)	# Plotting library
 
 	> countries <- st_read(dsn = "~/data/natural_earth2/ne_10m_admin_0_countries.shp")
 	> places <- st_read(dsn = "~/data/natural_earth2/ne_10m_populated_places.shp")
@@ -221,14 +221,10 @@ transform it with the sf::st_transform function from the sf package. We transfor
 to EPSG:27700 which is the Ordnance Survey of Great Britain grid system:
 
 ::
-
-	> proj4string(uk) = CRS("+init=epsg:4326")
-	> library(rgdal)
 	> ukos <- st_transform(uk,27700)
 
 
-	> ggplot(ukos) + 
-    >	geom_sf()
+	> ggplot(ukos) + geom_sf()
 
 .. image:: /images/projects/R/r_plot2_1.png
 
@@ -248,17 +244,17 @@ colour to red and the plotting character to a solid blob:
 ::
 
 	> ggplot() + 
-    > 	geom_sf(data = ukos) + # add UK shape to the map
-    > 	geom_sf(data = ukpop, # add the Populated places
-    > 	        aes(size = sqrt(ukpop$POP_MAX/1000000)), # fix size of points
-    > 	        colour = 'red', alpha = 1/5) + # set points colour and transparency
-    > 	coord_sf(crs = 27700, datum= sf::st_crs(27700), # set a bounding box
-    > 	         xlim = st_bbox(ukos[c(1,3)]),			# for the map	
+    > 	geom_sf(data = ukos) + 								# add UK shape to the map
+    > 	geom_sf(data = ukpop, 								# add the Populated places
+    > 	        aes(size = sqrt(ukpop$POP_MAX/1000000)), 	# fix size of points
+    > 	        colour = 'red', alpha = 1/5) + 				# set points colour and transparency
+    > 	coord_sf(crs = 27700, datum= sf::st_crs(27700), 	# set a bounding box
+    > 	         xlim = st_bbox(ukos[c(1,3)]),				# for the map	
     > 	         ylim = st_bbox(ukos[c(2,4)])
     > 	        ) +
-    > 	ggtitle('Uk Population centre sizes') + 		# set the map title
-    > 	theme(legend.position = 'none') +				# hide legend
-    > 	scale_size_area(name = 'Population')			# 
+    > 	ggtitle('Uk Population centre sizes') + 			# set the map title
+    > 	theme(legend.position = 'none') +					# hide legend
+ 
 
 and our final image appears:
 
