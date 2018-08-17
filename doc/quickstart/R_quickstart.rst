@@ -241,14 +241,15 @@ colour to red and the plotting character to a solid blob:
 	> ggplot() + 
     > 	geom_sf(data = ukos) + 								# add UK shape to the map
     > 	geom_sf(data = ukpop, 								# add the Populated places
-    > 	        aes(size = sqrt(ukpop$POP_MAX/1000000)), 	# fix size of points
+    > 	        aes(size = ukpop$POP_MAX/100000), 			# fix size of points (by area)
     > 	        colour = 'red', alpha = 1/5) + 				# set points colour and transparency
     > 	coord_sf(crs = 27700, datum= sf::st_crs(27700), 	# set a bounding box
     > 	         xlim = st_bbox(ukos[c(1,3)]),				# for the map	
     > 	         ylim = st_bbox(ukos[c(2,4)])
     > 	        ) +
     > 	ggtitle('Uk Population centre sizes') + 			# set the map title
-    > 	theme(legend.position = 'none') +					# hide legend
+    > 	    theme(legend.position = 'bottom') +				# Legend position
+    >		scale_size_area(name = 'Population \nin 100K')	# 0 value means 0 area + legend title 
  
 
 and our final image appears:
