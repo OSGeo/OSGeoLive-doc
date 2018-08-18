@@ -1,0 +1,228 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:19
+msgid "Rasdaman Quickstart"
+msgstr "Guía de Inicio Rápido de Rasdaman "
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:21
+msgid ""
+"Rasdaman is a Big Data Engine for flexible ad-hoc analytics on multi-"
+"dimensional spatio-temporal sensor, image, simulation, and statistics data "
+"of unlimited size. The Web Coverage Processing Service (WCPS) query language"
+" is an Open Geospatial Consortium (OGC) standard wich allows filtering and "
+"processing of multi-dimensional raster coverages, such as sensor, "
+"simulation, image, and statistics data using web services. The WCPS queries "
+"are translated to rasdaman query language, rasql, and are executed on "
+"rasdaman. This quick start shows how to access and manipulate an example 2D "
+"coverage using WCPS language."
+msgstr ""
+"Rasdaman es un Gran Motor de Datos para análisis ad-hoc y flexibles de datos"
+"  espacio-temporales multidimensionales de sensores, imágenes, simulaciones "
+"y estadísticas de tamaño ilimitado. El lenguaje de consulta de Servicio Web "
+"de Procesamiento de Cobertura (WCPS) es un estándar de Open Geospatial "
+"Consortium (OGC) que permite filtrado y procesamiento de coberturas ráster "
+"múltiples dimensiones, tales como sensores, simulación, imagen y "
+"estadísticas de datos mediante servicios web. Las consultas WCPS se traducen"
+" a lenguaje de interrogación rasdaman, rasql y se ejecutan en rasdaman. Esta"
+" guía de inicio rápido muestra cómo tener acceso y manipular un ejemplo de "
+"cobertura 2D usando WCPS lenguaje."
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:29
+msgid "Running WCPS Queries"
+msgstr "Ejecutar Consultas WCPS"
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:34
+msgid "Either:"
+msgstr "Ya sea:"
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:32
+msgid ""
+"Go to `WCPS servlet page <http://localhost:8080/rasdaman/ows>`_ and enter "
+"you query in the query boxes and press send."
+msgstr ""
+"Vaya a  `WCPS servlet page <http://localhost:8080/rasdaman/ows>`_ e "
+"introduzca su consulta en el recuadro de consultas y presione enviar. "
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:33
+msgid ""
+"Add your query in this url: "
+"http://localhost:8080/rasdaman/ows?query=your_query and run it using a "
+"browser."
+msgstr ""
+"Agregue su consulta en esta url: "
+"http://localhost:8080/rasdaman/ows?query=your_query y ejecútela usando un "
+"navegador."
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:37
+msgid "Running Coverage"
+msgstr "Ejecutar Cobertura "
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:39
+msgid ""
+"The example coverage which will be used in the seqeul is a 6 MB image as "
+"bellow:"
+msgstr ""
+"La cobertura de ejemplo que se utilizará en la seqeul es una imagen de 6 MB "
+"como se muestra a continuación:"
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:45
+msgid "Access A Coverage"
+msgstr "Cobertura de acceso A"
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:47
+msgid "The WCPS query to access the full coverage is as follows:"
+msgstr "La consulta WCPS para acceder a la cobertura completa es como sigue:"
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:53
+msgid ""
+"Click on `coverage "
+"<http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c,%20%22png%22%29>`_"
+" to execute it on the browser."
+msgstr ""
+"Haga click en `coverage "
+"<http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c,%20%22png%22%29>`_"
+" para ejecutarlo en el navegador "
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:57
+msgid "Select a Subset of the Coverage"
+msgstr "Seleccione un subconjunto de la cobertura"
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:59
+msgid "The WCPS query to access a subset of the coverage is as follows:"
+msgstr "La consulta WCPS a un subconjunto de la cobertura es la siguiente:"
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:65
+msgid ""
+"Click on the `subsetting "
+"<http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c[i(0:500),"
+" j(0:500)],%20%22png%22%29>`_ to execute it on the browser."
+msgstr ""
+"Haga click en `subsetting "
+"<http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c[i(0:500),"
+" j(0:500)],%20%22png%22%29>`_ para ejecutarlo en el navegador."
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:67
+msgid "The query result is an image as follows:"
+msgstr "El resultado de la consulta es imagen como la siguiente:"
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:74
+msgid "Band Extraction from the Coverage"
+msgstr "Extracción de la Banda de la Cobertura"
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:76
+msgid "The WCPS query to access the red band of the coverage is as follows:"
+msgstr ""
+"La consulta WCPS para accesar a la banda roja de la cobertura es la "
+"siguiente:"
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:82
+msgid ""
+"Click on `band extraction "
+"<http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c.red,%20%22png%22%29>`_"
+" to execute it on the browser."
+msgstr ""
+"Haga click en `band extraction "
+"<http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c.red,%20%22png%22%29>`_"
+" para ejecutarlo en el navegador "
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:84
+msgid "You should see the following image in the browser:"
+msgstr "Debería ver la siguiente imagen en el navegador:"
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:90
+msgid "Arithmetic Operation: Extracting NDVI of the Coverage"
+msgstr "Operación aritmética: Extrayendo NDVI de la cobertura"
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:92
+msgid ""
+"The NDVI (Normalized Difference Vegetation Index) is a measure for the "
+"probability of vegetation in remote sensing, i.e., the closer to +1 a pixel "
+"is, the more likely it is plants. The WCPS query to derive NDVI from the "
+"coverage is as follows:"
+msgstr ""
+"El NDVI (Índice de Vegetación de Diferencia Normalizada) es una medida de la"
+" probabilidad de la vegetación en teledetección, es decir, cuanto más cerca "
+"esté de +1 un píxel, más probable es que sean plantas. La consulta de WCPS "
+"para obtener NDVI de la cobertura es la siguiente:"
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:110
+msgid "What Next?"
+msgstr "¿Qué sigue?"
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:112
+msgid ""
+"The `rasdaman tutorial <http://tutorial.rasdaman.org/rasdaman-and-ogc-ws-"
+"tutorial/>`_ provides a condensed introduction to the concepts behind "
+"rasdaman, rasql and the OGC web services support."
+msgstr ""
+"El ` tutorial rasdaman <http://tutorial.rasdaman.org/rasdaman-and-ogc-ws-"
+"tutorial/>`_  proporciona una introducción condensada a los conceptos detrás"
+" de rasdaman, rasql y el soporte de servicios web de OGC."
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:113
+msgid ""
+"Learn more about the OGC  `Web Coverage Processing Service "
+"<http://www.opengeospatial.org/standards/wcps>`_ (WCPS) Language standard "
+"(which was heavily inspired by rasdaman); a good starting point is the  "
+"`documentation and tutorials page <http://standards.rasdaman.com/>`_  and "
+"`WCPS Query SandBox <http://localhost/rasdaman-demo/demo/client/query-"
+"sandbox.html>`_."
+msgstr ""
+"Aprenda más acerca del Lenguaje Estándar (WCPS) de OGC  `Web Coverage "
+"Processing Service <http://www.opengeospatial.org/standards/wcps>`_   (que "
+"está fuertemente inspirado en rasdaman); un buen punto de partida es   `la "
+"página de documentación y tutoriales <http://standards.rasdaman.com/>`_  y  "
+"`WCPS Query SandBox <http://localhost/rasdaman-demo/demo/client/query-"
+"sandbox.html>`_."
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:114
+msgid ""
+"Interested in coverage data and services in general? Visit OGC's `Coverages "
+"Domain Working Group wiki "
+"<http://external.opengeospatial.org/twiki_public/CoveragesDWG/WebHome>`_."
+msgstr ""
+"¿Interesado en cobetura de datos y servicios en general? Visite OGC's "
+"`Coverages Domain Working Group wiki "
+"<http://external.opengeospatial.org/twiki_public/CoveragesDWG/WebHome>`_."
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:115
+msgid ""
+"Explore the `rasdaman documentation "
+"<http://rasdaman.org/wiki/Documentation>`_ to learn about rasdaman "
+"administration, its query language, and data ingestion."
+msgstr ""
+"Explore  `rasdaman documentation <http://rasdaman.org/wiki/Documentation>`_ "
+"para aprender sobre la administración de rasdaman, su lenguaje de consultas "
+"e ingestión de datos. "
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:116
+msgid ""
+"Go to the `multi-dimensional demo <http://localhost/rasdaman-demo>`_ to "
+"explore interactive 1-D to 4-D rasdaman demos. The small ones are part of "
+"OSGeoLive, those utilizing larger sets (beyond this drive's capacity) "
+"forward to the `OGC standards showcase site "
+"<http://standards.rasdaman.com>`_ ."
+msgstr ""
+"Vaya a  `multi-dimensional demo <http://localhost/rasdaman-demo>`_ para "
+"explorar los demos interactivos  1-D a 4-D de rasdaman. Los más pequeños son"
+" parte de OSGeoLive, aquellos que utilizan conjuntos más grandes (más allá "
+"de la capacidad de este disco), avanzan hacia el `OGC standards showcase "
+"site <http://standards.rasdaman.com>`_ ."

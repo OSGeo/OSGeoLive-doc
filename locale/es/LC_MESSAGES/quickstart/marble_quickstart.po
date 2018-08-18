@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:18
+msgid "Marble Quickstart"
+msgstr "Inicio Rápido de mármol"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:23
+msgid "Getting Started"
+msgstr "Para empezar"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:25
+msgid ""
+"Click on the desktop icon in the \"Navigation and Maps\" folder to open "
+"Marble. You will see a window like this:"
+msgstr ""
+"Haga clic en el icono del escritorio en la carpeta \"Mapas y navegación\" "
+"para abrir  Marble. Usted verá una ventana como esta:"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:30
+msgid "You can:"
+msgstr "Puedes:"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:32
+msgid ""
+"Scale the globe by rotating the wheel of your mouse. To move around press "
+"the left button of your mouse and move it."
+msgstr ""
+"Escala el mundo girando la rueda de su ratón. Para moverse presione el botón"
+" izquierdo del ratón y muévalo."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:34
+msgid "Marble has got 11 different views:"
+msgstr "Mármol tiene 11 diferentes vistas:"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:36
+msgid "Atlas"
+msgstr "Atlas"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:37
+msgid "OpenStreetMap"
+msgstr "OpenStreetMap"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:38
+msgid "Satellite View"
+msgstr "Vista satelitetal"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:39
+msgid "Earth at Night"
+msgstr "Tierra por la noche"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:40
+msgid "Historical Map 1689"
+msgstr "Mapa histórico de 1689"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:41
+msgid "Moon"
+msgstr "Luna"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:42
+msgid "Plain Map"
+msgstr "Mapa simple"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:43
+msgid "Precipitation (December)"
+msgstr "Precipitación (Diciembre)"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:44
+msgid "Precipitation (July)"
+msgstr "Precipitación (Julio)"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:45
+msgid "Temperature (December)"
+msgstr "Temperatura (Diciembre)"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:46
+msgid "Temperature (July)."
+msgstr "Temperatura (Julio)."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:48
+msgid "To switch them click one of entries in \"Theme\" list in \"Map View\" tab."
+msgstr ""
+"Para ellos Haz clic en una de las entradas en lista de \"Tema\" en la "
+"pestaña \"Ver mapa\"."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:53
+msgid "Press a label in any place to view more information about it."
+msgstr "Presione una etiqueta en cualquier lugar para ver más información."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:58
+msgid ""
+"Close panels by clicking the cross at the top-right corner of the panel. To "
+"close all the panels press \"F9\" or go to \"Settings->Panels->Hide All "
+"Panels\". Also you can show/hide a panel by clicking its title at the "
+"\"Settings->Panels\" menu."
+msgstr ""
+"Cierre los paneles haciendo click en la cruz en la esquina superior derecha "
+"del panel. Para cerrar todos los paneles pulse \"F9\" o vaya al menú "
+"\"Settings->Panels->Hide All Panels\". Also you can show/hide a panel by "
+"clicking its title at the \"Settings->Panels\""
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:63
+msgid ""
+"To find a location, enter its name into the search line on the top of "
+"\"Search\" panel. As you start typing, suggestions below the search line "
+"will appear like this:"
+msgstr ""
+"Para buscar una ubicación, escriba su nombre en la línea de búsqueda en la "
+"parte superior en el panel \"Buscar\". Así como empiece a "
+"escribir,aparecerán sugerencias debajo de la línea de búsqueda como esta:"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:68
+msgid ""
+"Use bookmarks in Marble to remember the location of something. To add a "
+"bookmark press the left button of your mouse and click \"Add bookmark\". "
+"After it a window will appear like this:"
+msgstr ""
+"Usar marcadores en Marble para recordar la ubicación de algo. Para añadir "
+"una prensa de marcadores el botón izquierdo de su ratón y haga click en "
+"\"Añadir marcador\". Después de esto aparecerá una ventana como esta:"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:73
+msgid ""
+"Write the name, description and destination folder of the bookmark and click"
+" the \"Ok\" button. Then the bookmark will appear. To manage bookmarks, go "
+"to \"Bookmarks->Manage Bookmarks\"."
+msgstr ""
+"Escriba el nombre, Descripción y destino de la carpeta del marcador y haga "
+"clic en el botón\"Ok\".  Entonces aparecerá el marcador. Para la gestión de "
+"marcadores, ir a  \"Bookmarks->Manage Bookmarks\"."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:79
+msgid "Things to Try"
+msgstr "Cosas para Probar"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:81
+msgid ""
+"See the `Marble documentation "
+"<https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ and try to use "
+"the Routing feature."
+msgstr ""
+"Ver la `documentación de Marble  "
+"<https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ y tratar de "
+"utilizar la función de enrutamiento."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:85
+msgid "What Next?"
+msgstr "¿Qué sigue?"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:87
+msgid "See the `Marble homepage <https://marble.kde.org/>`_ for more help."
+msgstr ""
+"Ver la `página de Marble <https://marble.kde.org/>`_ para obtener más ayuda."

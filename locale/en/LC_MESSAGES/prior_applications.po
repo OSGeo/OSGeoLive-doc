@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2018-08-17 22:19-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,7 +68,6 @@ msgstr "`OGC Standards`_"
 #: ../../build/doc/prior_applications.rst:1
 #: ../../build/doc/prior_applications.rst:1
 #: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
 msgid "10.5"
 msgstr "10.5"
 
@@ -111,22 +110,6 @@ msgstr "`QuickStart <TinyOWS_q_>`__"
 #: ../../build/doc/prior_applications.rst:1
 msgid "WFS-T Service"
 msgstr "WFS-T Service"
-
-#: ../../build/doc/prior_applications.rst:1
-msgid "|osgeo_community|"
-msgstr "|osgeo_community|"
-
-#: ../../build/doc/prior_applications.rst:1
-msgid "PyWPS_"
-msgstr "PyWPS_"
-
-#: ../../build/doc/prior_applications.rst:1
-msgid "`QuickStart <PyWPS_q_>`__"
-msgstr "`QuickStart <PyWPS_q_>`__"
-
-#: ../../build/doc/prior_applications.rst:1
-msgid "Web Processing Service"
-msgstr "Web Processing Service"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "osgEarth_"

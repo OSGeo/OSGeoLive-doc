@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-09 11:45-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Andreas Schild <andreas.schild@bfw.gv.at>, 2018\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/mac_installers.rst:2
+msgid "OSGeo Macintosh installers for OSX Snow Leopard"
+msgstr "OSGeo Macintosh Installation für OSX Snow Leopard"
+
+#: ../../build/doc/mac_installers.rst:4
+msgid ""
+"**Important!**: It is recommended that you visit the homepage of the "
+"software you are interested in and download the latest version from there."
+msgstr ""
+"**Achtung!**: Es wird empfohlen, die Webseite der Software, für die Sie sich"
+" interessieren, zu besuchen und die letzte Version von dort zu laden."
+
+#: ../../build/doc/mac_installers.rst:6
+msgid ""
+"For Mac OSX many of the most common apps most recent versions are at "
+"http://www.kyngchaos.com"
+msgstr ""
+"Für Mac OSX finden Sie die aktuelle Version vieler Programme unter "
+"http://www.kyngchaos.com"
+
+#: ../../build/doc/mac_installers.rst:9
+msgid "To Install:"
+msgstr "Installation:"
+
+#: ../../build/doc/mac_installers.rst:11
+msgid ""
+"Install the base packages (Frameworks) first, followed by the support "
+"packages, and finally the end-user programs. The base packages must be "
+"installed in order."
+msgstr ""
+"Installieren Sie die Basiskomponenten (Frameworks) zuerst. Anschließend sollten die Support Pakete und \n"
+"zum Schluß die Endanwender-Programme installiert werden. Die Basispakete müssen \n"
+"in der angegebenen Reihenfolge installiert werden."
+
+#: ../../build/doc/mac_installers.rst:15
+msgid ""
+"Not all Frameworks and support packages are needed for all end user "
+"programs. Consult the above website for details."
+msgstr ""
+"Nicht alle Frameworks und Support Pakete werden von allen Endanwenderprogrammen \n"
+"benötigt. Informationen dazu finden Sie auf der oben angegebenen Webseite."
+
+#: ../../build/doc/mac_installers.rst:18
+msgid ""
+"The framework packaging method is a bit more trouble up front, but ensures "
+"the minimum amount of disk space is used by programs which share common "
+"support libraries, and that these components can be safely upgraded in "
+"future without rendering the other programs unusable."
+msgstr ""
+"Die Framework-Paket-Methode ist etwas aufwändig, stellt aber sicher, dass nur der \n"
+"minimale Plattenplatz für Programme verwendet wird, die sich gängige Bibliotheken teilen.\n"
+"Ein Vorteil ist außerdem, dass auf diese Weise die Komponenten zukünftig auch sicher aktualisiert werden können ohne die anderen Programme zu beeinflussen."
+
+#: ../../build/doc/mac_installers.rst:23
+msgid ""
+"http://www.kyngchaos.com/files/software/frameworks/GDAL_Complete-1.10.dmg"
+msgstr ""
+"http://www.kyngchaos.com/files/software/frameworks/GDAL_Complete-1.10.dmg"
+
+#: ../../build/doc/mac_installers.rst:24
+msgid ""
+"http://www.kyngchaos.com/files/software/frameworks/FreeType_Framework-2.4.10-1.dmg"
+msgstr ""
+"http://www.kyngchaos.com/files/software/frameworks/FreeType_Framework-2.4.10-1.dmg"
+
+#: ../../build/doc/mac_installers.rst:25
+msgid ""
+"http://www.kyngchaos.com/files/software/frameworks/cairo_Framework-1.12.2-1.dmg"
+msgstr ""
+"http://www.kyngchaos.com/files/software/frameworks/cairo_Framework-1.12.2-1.dmg"
+
+#: ../../build/doc/mac_installers.rst:26
+msgid ""
+"http://www.kyngchaos.com/files/software/frameworks/GSL_Framework-1.16-1.dmg"
+msgstr ""
+"http://www.kyngchaos.com/files/software/frameworks/GSL_Framework-1.16-1.dmg"
+
+#: ../../build/doc/mac_installers.rst:27
+msgid ""
+"http://www.kyngchaos.com/files/software/frameworks/TclTk_Aqua-8.5.8-2.dmg"
+msgstr ""
+"http://www.kyngchaos.com/files/software/frameworks/TclTk_Aqua-8.5.8-2.dmg"
+
+#: ../../build/doc/mac_installers.rst:28
+msgid ""
+"http://www.kyngchaos.com/files/software/frameworks/Spatialite_Tools-3.0.zip"
+msgstr ""
+"http://www.kyngchaos.com/files/software/frameworks/Spatialite_Tools-3.0.zip"
+
+#: ../../build/doc/mac_installers.rst:29
+msgid "http://www.kyngchaos.com/files/software/frameworks/rgdal-0.8.8-1.dmg"
+msgstr "http://www.kyngchaos.com/files/software/frameworks/rgdal-0.8.8-1.dmg"
+
+#: ../../build/doc/mac_installers.rst:30
+msgid ""
+"http://www.kyngchaos.com/files/software/postgresql/PostgreSQL-9.2.4-2.dmg"
+msgstr ""
+"http://www.kyngchaos.com/files/software/postgresql/PostgreSQL-9.2.4-2.dmg"
+
+#: ../../build/doc/mac_installers.rst:31
+msgid "http://www.kyngchaos.com/files/software/grass/GRASS-6.4.3-1-Snow.dmg"
+msgstr "http://www.kyngchaos.com/files/software/grass/GRASS-6.4.3-1-Snow.dmg"
+
+#: ../../build/doc/mac_installers.rst:32
+msgid "http://www.kyngchaos.com/files/software/postgresql/PostGIS-2.0.3-4.dmg"
+msgstr ""
+"http://www.kyngchaos.com/files/software/postgresql/PostGIS-2.0.3-4.dmg"
+
+#: ../../build/doc/mac_installers.rst:33
+msgid "http://www.kyngchaos.com/files/software/qgis/QGIS-1.8.0-2.dmg"
+msgstr "http://www.kyngchaos.com/files/software/qgis/QGIS-1.8.0-2.dmg"
+
+#: ../../build/doc/mac_installers.rst:34
+msgid ""
+"http://udig.refractions.net/files/downloads/udig-1.3.2.macosx.cocoa.x86_64.zip"
+msgstr ""
+"http://udig.refractions.net/files/downloads/udig-1.3.2.macosx.cocoa.x86_64.zip"
+
+#: ../../build/doc/mac_installers.rst:35
+msgid ""
+"http://download.osgeo.org/ossim/installers/mac/imagelinker-1.7.15-appbundle.dmg"
+msgstr ""
+"http://download.osgeo.org/ossim/installers/mac/imagelinker-1.7.15-appbundle.dmg"
+
+#: ../../build/doc/mac_installers.rst:36
+msgid ""
+"http://download.osgeo.org/ossim/installers/mac/ossimplanet-"
+"appbundle-1.8.4.dmg"
+msgstr ""
+"http://download.osgeo.org/ossim/installers/mac/ossimplanet-"
+"appbundle-1.8.4.dmg"
+
+#: ../../build/doc/mac_installers.rst:37
+msgid "http://cran.stat.ucla.edu/bin/macosx/R-2.15.2.pkg"
+msgstr "http://cran.stat.ucla.edu/bin/macosx/R-2.15.2.pkg"
+
+#: ../../build/doc/mac_installers.rst:38
+msgid "http://github.com/downloads/mapbox/tilemill/TileMill-0.10.1.zip"
+msgstr "http://github.com/downloads/mapbox/tilemill/TileMill-0.10.1.zip"
+
+#: ../../build/doc/mac_installers.rst:39
+msgid "http://grassmac.wikidot.com/frameworks"
+msgstr "http://grassmac.wikidot.com/frameworks"
+
+#: ../../build/doc/mac_installers.rst:40
+msgid "http://grassmac.wikidot.com/downloads"
+msgstr "http://grassmac.wikidot.com/downloads"

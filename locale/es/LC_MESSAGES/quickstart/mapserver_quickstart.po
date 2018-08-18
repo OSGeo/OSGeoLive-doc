@@ -1,0 +1,471 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:22
+msgid "MapServer Quickstart"
+msgstr "Guías de Inicio Rápido de MapServer "
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:24
+msgid ""
+"MapServer is an `Open Source <http://www.opensource.org>`_ server based "
+"application that allows you to publish geographic map images and vector data"
+" through the internet using `OGC standards "
+"<http://www.opengeospatial.org/standards>`__ such as `WMS "
+"<http://www.opengeospatial.org/standards/wms>`__, `WFS "
+"<http://www.opengeospatial.org/standards/wfs>`__, and `WCS "
+"<http://www.opengeospatial.org/standards/wcs>`__."
+msgstr ""
+"MapServer es un servidor `Open Source <http://www.opensource.org>`_ basado "
+"en aplicación, que le permite publicar ned application that allows you to "
+"publish imágenes de mapas geográficos y datos vectoriales a través de "
+"Internet usando `OGC standards <http://www.opengeospatial.org/standards>`__ "
+"such as `WMS <http://www.opengeospatial.org/standards/wms>`__, `WFS "
+"<http://www.opengeospatial.org/standards/wfs>`__, y `WCS "
+"<http://www.opengeospatial.org/standards/wcs>`__."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:36
+msgid "Configure MapServer using the MapFile configuration file"
+msgstr "Configure MapServer usando el archivo de configuración de  MapFile "
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:40
+msgid ""
+"**What will I learn ?** In this section, you will learn what a MapFile is "
+"and how to configure it to allow MapServer to serve a shapefile as images "
+"using WMS requests."
+msgstr ""
+"**¿Qué aprenderé?** en esta sección, usted aprenderá lo que es MAp File y "
+"cómo configurarlopara permitir que MapServer sirva un shapefile como "
+"imágenes usando solicitudes WMS."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:45
+msgid "What is a MapFile ?"
+msgstr "¿Qué es un MapFile?"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:47
+msgid ""
+"The `Mapfile <http://mapserver.org/mapfile/index.html>`_ is the "
+"configuration file that MapServer uses to render geospatial data as images "
+"or vector data. Its main purpose is to define the layers it can draw, how to"
+" read necessary data, and how to render it (e.g. color, symbol, label, "
+"etc...)."
+msgstr ""
+"Un `Mapfile <http://mapserver.org/mapfile/index.html>`_ es el archivo de "
+"configuración que MapServer usa para representar datos geoespaciales como "
+"imágenes o datos vectoriales. Su objetivo principal es definir las capas que"
+" puede dibujar, cómo leer los datos necesarios y cómo representarlos (por "
+"ejemplo, color, símbolo, etiqueta, etc.)."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:53
+msgid "Creating my first MapFile"
+msgstr "Creando mi primer MapFile "
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:55
+msgid ""
+"Open any text editor (e.g. :menuselection:`Applications --> Accessories --> "
+"Leafpad`)."
+msgstr ""
+"Abra cualquier editor de texto (ejemplo, :menuselection:`Applications --> "
+"Accessories --> Leafpad`)."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:57
+msgid ""
+"Create the file \"mapserver_quickstart.map\" in your home directory: "
+":file:`/home/user/mapserver_quickstart.map`"
+msgstr ""
+"Crear el archivo \"mapserver_quickstart.map\" en tu directorio home:: "
+"file:'/home/user/mapserver_quickstart.map'"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:60
+msgid "Put the following content in it::"
+msgstr "Poner el siguiente contenido en él::"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:98
+msgid ""
+"The example uses the natural earth dataset, which is already installed on "
+"the live dvd at :file:`~/data/natural_earth2` (a short cut to "
+":file:`/usr/local/share/data/natural_earth2`)."
+msgstr ""
+"El ejemplo utiliza el conjunto de datos de Natural Earth, que ya está "
+"instalado en el Live dvd en :file:`~/data/natural_earth2` (a short cut to "
+":file:`/usr/local/share/data/natural_earth2`)."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:102
+msgid ""
+"Each object in a MapFile starts with its name (for example **MAP**) and ends"
+" with an **END**.  A MapFile always starts with the **MAP** object and "
+"should contain a list of **LAYER** objects the MapFile can read and draw. In"
+" our MapFile, we currently have only one layer defined."
+msgstr ""
+"Cada objeto en un MapFile comienza con el nombre (por ejemplo **MAPA**) y "
+"termina con un **FIN**. Un MapFile siempre comienza con el objeto **MAP** y "
+"debe contener una lista de objetos **LAYER** que el MapFile puede leer y "
+"dibujar. En nuestro MapFile, actualmente solo tenemos una capa definida."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:107
+msgid ""
+"Let's take a look at some of the objects (and properties) defined in our "
+"MapFile:"
+msgstr ""
+"Echemos un vistazo a algunos de los objetos (y propiedades) definidos en "
+"nuestro  MapFile:"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:110
+msgid ""
+"EXTENT: sets the default geospatial bounding box for this configuration."
+msgstr ""
+"EXTENSIÓN: establece el cuadro delimitador geoespacial predeterminado para "
+"esta configuración."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:111
+msgid ""
+"LAYER: defines access and display properties for a spatial dataset.  We'll "
+"add another layer later."
+msgstr ""
+"CAPA: define las propiedades de acceso y visualización de un conjunto de "
+"datos espacial.  Vamos a añadir otra capa más tarde."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:113
+msgid ""
+"SHAPEPATH: sets a base path for file-based data (e.g. shapefiles or tiff "
+"images)."
+msgstr ""
+"SHAPEPATH: establece una ruta de base de datos basados en archivos (por "
+"ejemplo imágenes de shapefiles o tiff)."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:116
+msgid ""
+"If we look closer at the **LAYER** in our MapFile, we'll see that it "
+"contains a bunch of properties and objects too. Among them are:"
+msgstr ""
+"Si miramos más de cerca la **CAPA** en nuestro MapFile, veremos que contiene"
+" un montón de propiedades y objetos. Entre ellos están:"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:119
+msgid ""
+"STATUS: defines whether the layer can be drawn (*ON*), can't be drawn "
+"(*OFF*) or is always drawn (*DEFAULT*)."
+msgstr ""
+"STATUS: define si la capa puede ser dibujada (*ON*), no puede ser dibujada "
+"(*OFF*) o siempre se dibuja (*PREDETERMINADAMENTE*)."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:121
+msgid ""
+"TYPE: the geometry type that MapServer should use when rendering the data as"
+" an image. In our MapFile, the data will be drawn as *polygons*."
+msgstr ""
+"TIPO: el tipo de geometría que MapServer debe utilizar al representar los "
+"datos como una imagen. En nuestro MapFile, los datos se dibujarán como "
+"*polígonos*."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:123
+msgid ""
+"DATA: the name of the spatial data file this layer uses, in this case a "
+"shapefile."
+msgstr ""
+"DATOS: el nombre del archivo de datos espaciales de esta capa utiliza, en "
+"este caso un shapefile."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:125
+msgid ""
+"CLASS: determines how to draw a layer (styling). We'll cover this object in "
+"more detail later."
+msgstr ""
+"CLASE: determina cómo dibujar una capa (estilo). Cubriremos este objeto con "
+"más detalle más adelante."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:130
+msgid ""
+"A complete list of the available objects and properties a MapFile can have "
+"can be found in the `MapServer documentation page "
+"<http://mapserver.org/mapfile/index.html>`_."
+msgstr ""
+"Una lista completa de los objetos disponibles y las propiedades que puede "
+"tener un MapFile, puede encontrarse en la 'Página de documentación de "
+"MapServer <http://mapserver.org/mapfile/index.html>`_."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:137
+msgid "Render a map image with MapServer using a WMS **GetMap** request"
+msgstr ""
+"Renderizar una imagen del mapa con MapServer usando una Solicitud de "
+"**GetMap** de WMS"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:141
+msgid ""
+"**What will I learn ?** You will learn how to use to render an image with "
+"layers from a MapFile with MapServer using an OGC WMS request."
+msgstr ""
+"**¿Qué aprenderé?** Aprenderá a renderizar una imagen con capas de un "
+"MapFile con MapServer utilizando una solicitud de OGC WMS."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:144
+msgid "Open a web browser and enter the following URL::"
+msgstr "Abra un navegador web e introduzca la siguiente URL::"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:148
+msgid ""
+"What does the above mean?  If we put it in simple words, it's a `Web Map "
+"Service (WMS) <http://www.opengeospatial.org/standards/wms>`_ **GetMap** "
+"request that tells MapServer to \"*use the following MapFile to render the "
+"specified layers as a png image based on some user-supplied parameters such "
+"as image size, geographical extent, projection, etc.*\".  All layers "
+"specified in the \"*&LAYERS=...*\" property having *STATUS ON* in the "
+"MapFile will be rendered in addition to all layers with *STATUS DEFAULT*. "
+"The result looks like the following:"
+msgstr ""
+"¿Qué significa lo anterior?  Si lo ponemos en palabras simples, es una "
+"solicitud de  `Web Map Service (WMS) "
+"<http://www.opengeospatial.org/standards/wms>`_ **GetMap** que le dice a "
+"MapServer que \"*utilice el siguiente MapFile para renderizar las capas "
+"especificadas como una imagen png en función de algunos parámetros "
+"proporcionados por el usuario, como el tamaño de la imagen, la extensión "
+"geográfica, la proyección, etc.*\". Todas las capas especificadas en la "
+"propiedad \"*& LAYERS =...*\" que tengan *STATUS ON* en MapFile se "
+"renderizarán además de todas las capas con *STATUS DEFAULT*. El resultado es"
+" similar al siguiente:"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:162
+msgid ""
+"All parameters of the request are WMS-specific, except "
+"\"*?map=/home/user/mapserver_quickstart.map*\", which is MapServer-specific."
+msgstr ""
+"Todos los parámetros de la solicitud son específicamente WMS-, excepto  "
+"\"*?map=/home/user/mapserver_quickstart.map*\", que es específico de "
+"MapServer."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:168
+msgid "Render a map image with MapServer using the command line"
+msgstr ""
+"Renderice una imagen del mapa con MapServer usando la línea de comando"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:170
+msgid ""
+"Although MapServer is geared towards web applications, it can also produce "
+"images on the command line. This can be useful if you are looking for "
+"repetitive mapping, or while debugging."
+msgstr ""
+"Aunque MapServer está orientado a aplicaciones web, también puede producir "
+"imágenes en la línea de comandos. Esto puede ser útil si está buscando mapeo"
+" repetitivo o durante la depuración."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:174
+msgid ""
+"Open a terminal (:menuselection:`Applications --> Accessories --> Terminal "
+"Emulator`) and type::"
+msgstr ""
+"Abra una terminal(:menuselection:`Applications --> Accessories --> Terminal "
+"Emulator`) y tecleé::"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:179
+msgid ""
+"If this command runs successfully, you are able to see your rendered map at "
+"file:///home/user/mymap.png."
+msgstr ""
+"Si este comando se ejecuta con éxito, puede ver su mapa renderizado en  "
+"file:///home/user/mymap.png."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:185
+msgid "Add a new layer to the MapFile to serve a local shapefile"
+msgstr "Añadir una nueva capa al MapFile para servir un shapefile local"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:189
+msgid ""
+"**What will I learn ?** You will learn how to add a new layer object "
+"definition to your MapFile."
+msgstr ""
+"**¿Qué aprenderé?** Usted aprenderá cómo agregar una nueva definición de "
+"objeto de capa a su MapFile."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:192
+msgid ""
+"We will now add a new layer to our MapFile. Before the last *END* statement "
+"in the MapFile, add the following layer configuration::"
+msgstr ""
+"Ahora añadimos una nueva capa a nuestro MapFile. Antes de la última "
+"declaración de *END*  en el MapFile, agregue la siguiente configuración de "
+"capa::"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:207
+msgid ""
+"Now we have 2 layer definitions in our MapFile. Note that the new one we "
+"just added has the \"STATUS\" property set to \"ON\". That means that unless"
+" we specifically request it, it won't be rendered."
+msgstr ""
+"Ahora tenemos 2 definiciones de capa en nuestro MapFile. Tenga en cuenta que"
+" la nueva que hemos añadido  tiene la propiedad de \"STATUS\" en \"ON\". Eso"
+" significa que a menos que específicamente lo solicitemos, no se "
+"renderizará. "
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:211
+msgid ""
+"Let's take our previous WMS **GetMap** request and add our new \"Lakes\" "
+"layer to the image rendered. We simply need to add the new layer name to the"
+" \"LAYERS\" property list::"
+msgstr ""
+"Tomemos nuestra anterior solicitud WMS **GetMap** agreguemos la nueva capa "
+"de \"Lagos\" a la imagen renderizada. Simplemente tenemos que añadir el "
+"nuevo nombre de la capa a la lista de propiedades de \"CAPAS\"::"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:217
+msgid ""
+"The image rendered by MapServer looks like our previous map, but with the "
+"addition of the lakes from our new layer:"
+msgstr ""
+"La imagen de MapServer se ve como el mapa anterior, pero con la adición de "
+"los lagos de nuestra nueva capa:"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:226
+msgid "Style a layer using MapFile configurations"
+msgstr "Estilice una capa usando configuraciones de MapFile."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:230
+msgid ""
+"**What will I learn ?** You will see an example of styling elements inside a"
+" layer depending on some of its data properties."
+msgstr ""
+"**¿Qué aprenderé?** Verá un ejemplo de elementos de estilo dentro de una "
+"capa según algunas de sus propiedades de datos."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:233
+msgid ""
+"In a MapFile, a LAYER object can contain an infinite number of CLASS "
+"objects. These are used to style the elements contained in the spatial data "
+"file (DATA). For example, if we look closer at our \"ne_10m_lakes\" data "
+"file using a tool such as `ogrinfo <http://www.gdal.org/ogrinfo.html>`_, "
+"we'll see the geometry and attribute definitions it contains. These "
+"attribute values can be used as a way to draw the elements inside a dataset "
+"differently using multiple CLASS objects."
+msgstr ""
+"En un MapFile, un objeto de CAPA puede contener un número infinito de  "
+"CLASES de objetos.  Se utilizan para estilizar los elementos contenidos en "
+"el archivo de datos espaciales (DATA) del estilo. Por ejemplo, si miramos "
+"más de cerca nuestro archivo de datos \"ne_10m_lakes\" usando una "
+"herramienta como `ogrinfo <http://www.gdal.org/ogrinfo.html>`_, veremos las "
+"definiciones de geometría y atributos que contiene. Estos valores de "
+"atributo se pueden utilizar como una forma de dibujar los elementos dentro "
+"de un conjunto de datos diferente, usando varias CLASES de objetos. "
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:241
+msgid ""
+"In our \"ne_10m_lakes\" dataset, we have a *ScaleRank* attribute, which "
+"seems to be related ot the size of the lakes. We can use this as a way to "
+"render the lakes differently. In the LAYER object, we'll add another CLASS "
+"object just before our current one::"
+msgstr ""
+"En nuestro conjunto de datos \"ne_10m_lakes\", tenemos un atributo de "
+"*ScaleRank* , que parece estar relacionada al tamaño de los lagos. Podemos "
+"utilizar esto como una forma de representar los lagos diferentemente. En el "
+"objeto de la CAPA, vamos a añadir otra CLASE de objeto justo antes que el  "
+"actual::"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:266
+msgid ""
+"What does our new CLASS object do? It basically tells MapServer to draw the "
+"elements having the \"ScaleRank\" property equal to \"0\" or \"1\" with a "
+"black outline. Class objects are always read from the top to the bottom for "
+"each feature to be drawn. When a feature matches the \"EXPRESSION\" "
+"specified in a class, that class is going to render the feature. If the "
+"feature does not match a class the next class is checked. If a feature does "
+"not match any class then it is not rendered at all but if the last class in "
+"a layer contains no EXPRESSION then that class acts as a default. The LAYER "
+"\"CLASSITEM\" property tells MapServer which attribute to use when "
+"evaluating EXPRESSIONs defined in the CLASS objects."
+msgstr ""
+"¿Qué hace nuestra nueva CLASE de objeto? Básicamente, le dice MapServer que "
+"dibuje los elementos con la propiedad \"ScaleRank\" igual a \"0\" o \"1\" "
+"con un contorno negro. Las CLASES de objetos siempre se leen desde la parte "
+"superior hasta la parte inferior de cada función a ser dibujado. Cuando una "
+"característica coincide con la \"EXPRESIÓN\" especificada en una clase, esa "
+"clase va a representar la función. Si la función no coincide con una clase "
+"se comprueba la siguiente clase. Si una función no coincide con cualquier "
+"clase de entonces no se renderizará, pero si la última clase en una capa no "
+"contiene ninguna \"EXPRESIÓN\", entonces esa clase actuará "
+"preedeterminadamente. La  propiedad de capa \"CLASSITEM\" indica a MapServer"
+" que atributo a utilizar al evaluar alguna \"EXPRESIÓN\" definida en las "
+"CLASES de objetos. "
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:277
+msgid ""
+"The result of this new addition should make the big lakes in our map image "
+"rendered with a black outline:"
+msgstr ""
+"El resultado de esta nueva adición debe hacer que los grandes lagos de "
+"nuestra imagen de mapa se rendericen con un contorno negro:"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:285
+msgid ""
+"Learn more about `EXPRESSIONS "
+"<http://mapserver.org/mapfile/expressions.html>`_ in MapServer."
+msgstr ""
+"Aprenda más sobre  `EXPRESSIONS "
+"<http://mapserver.org/mapfile/expressions.html>`_  en MapServer."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:290
+msgid "What Next?"
+msgstr "¿Qué sigue?"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:292
+msgid ""
+"This is a simple example, but you can do much, much more. The MapServer "
+"project website contains many resources to help you get started. Here's a "
+"few resources to check out next:"
+msgstr ""
+"Este es un ejemplo simple, pero usted puede hacer mucho, mucho más. La "
+"página web del proyecto MapServer contiene muchos recursos para ayudarle a "
+"comenzar. Aquí hay algunos recursos para comprobar hacia fuera el siguiente:"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:296
+msgid ""
+"Read the `Introduction to MapServer "
+"<http://mapserver.org/introduction.html#introduction>`_."
+msgstr ""
+"Leer la `Introduction to MapServer "
+"<http://mapserver.org/introduction.html#introduction>`_."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:298
+msgid ""
+"Have a look at the `MapServer Tutorial "
+"<http://www.mapserver.org/tutorial/index.html>`_ which contains more MapFile"
+" examples."
+msgstr ""
+"Echa un vistazo al  `MapServer Tutorial "
+"<http://www.mapserver.org/tutorial/index.html>`_ que contiene más ejemplos "
+"de MapFile."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:301
+msgid ""
+"Check the `OGC Support and Configuration "
+"<http://www.mapserver.org/ogc/index.html>`_ to learn more about OGC "
+"standards in MapServer (WMS, WFS, SLD, WFS Filter Encoding, WCS, SOS, etc.)."
+msgstr ""
+"Revise  `OGC Support and Configuration "
+"<http://www.mapserver.org/ogc/index.html>`_ para aprender más sobre los "
+"estándares de OGC en MapServer (WMS, WFS, SLD, WFS Filter Encoding, WCS, "
+"SOS, etc.)."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:304
+msgid ""
+"Ready to use MapServer? Then join the community on the `Mailing Lists "
+"<http://www.mapserver.org/community/lists.html>`_ to exchange ideas, discuss"
+" potential software improvements and ask questions."
+msgstr ""
+"¿Listo para usar MapServer? Entonces únase a la comunidad en el `Mailing "
+"Lists <http://www.mapserver.org/community/lists.html>`_  para intercambiar "
+"ideas, discutir sobre perfeccionamiento del potencial del software y "
+"resolver dudas. "

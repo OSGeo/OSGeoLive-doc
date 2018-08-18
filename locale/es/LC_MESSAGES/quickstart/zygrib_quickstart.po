@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:14
+msgid "zyGrib Quickstart"
+msgstr "Guía de Inicio Rápido de zyGrib "
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:17
+msgid "Running"
+msgstr "Ejecución"
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:20
+msgid "Getting data"
+msgstr "Obtener datos"
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:22
+msgid ""
+"After launching the program you will be presented with a map of the world. "
+"No GRIB weather forecast data is shipped with this disc, you'll have to "
+"download some, which will require an internet connection. As GRIB data is "
+"often used by offshore sailors, a number of low-bandwidth email and radio-"
+"modem services are available for those without a steady internet connection."
+" i.e. while requiring some connection to the outside world as a data source,"
+" this connection is not required at run-time unlike many other web mapping "
+"programs."
+msgstr ""
+"Después de iniciar el programa se presentará un mapa del mundo. No se envían"
+" datos de pronóstico del tiempo GRIB con este disco, tendrás que descargar "
+"algunos, lo que requerirá una conexión a Internet. Dado que los datos GRIB a"
+" menudo son utilizados por navegantes en alta mar, hay disponibles varios "
+"servicios de correo electrónico y radio módem de bajo ancho de banda  para "
+"quienes no tienen una conexión estable a Internet. es decir, aunque requiere"
+" alguna conexión con el mundo exterior como fuente de datos, esta conexión "
+"no es necesaria en tiempo de ejecución a diferencia de muchos otros "
+"programas de mapeo web."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:31
+msgid ""
+"You may get GRIB data from many sources, but as a convenience the zyGrib "
+"authors maintain a data server. The first thing to do is to check that the "
+"connection to the server is operational. Click on the power plug icon near "
+"the right hand end of the toolbar, after a moment it should tell you that "
+"the connection is ok."
+msgstr ""
+"Usted puede obtener datos GRIB de muchas fuentes, pero por comodidad los "
+"autores zyGrib mantienen un servidor de datos. La primera cosa a hacer es "
+"comprobar que la conexión con el servidor está en funcionamiento. Haga click"
+" en el ícono de enchufe de encendido cerca del final de la mano derecha de "
+"la barra de herramientas, después de un momento, te dirá que la conexión "
+"está bien."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:37
+msgid ""
+"We are usually interested in local weather conditions, so next left-mouse "
+"click drag a box on the map canvas on a part of the world you are interested"
+" in. The Gulf of Mexico or the southern tip of Africa often have dynamic "
+"winds. With your box drawn on the map click the zoom-to-box icon on the "
+"taskbar (the magnifying glass with a small box underneath it), and again "
+"mark out a box of interest with a left-click drag, but this time covering "
+"most or all of the zoomed-in map canvas."
+msgstr ""
+"Nos interesa generalmente en condiciones climáticas locales, por lo "
+"siguiente click izquierdo del ratón arrastre un cuadro sobre el lienzo del "
+"mapa en una parte del mundo que le interese. El Golfo de México o el extremo"
+" Sur de África a menudo tienen vientos dinámicos. Con su cuadro dibujado en "
+"el mapa, haga click en el ícono de casilla de zoom en la barra de tareas (la"
+" lupa con una pequeño recuedro debajo de ella) y marcar otra vez una caja de"
+" interés con un arrastre del botón izquierdo del ratón, pero esta vez "
+"cubriendo la mayoría o la totalidad del lienzo del mapa ampliado"
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:45
+msgid ""
+"Now select :menuselection:`File --> Download GRIB` and select the features "
+"you want to download. If in doubt the defaults are ok. When ready click the "
+"``Download`` button at the bottom, and save the file to disk."
+msgstr ""
+"Ahora seleccione :menuselection:`File --> Download GRIB` y seleccione las "
+"funciones que desea descargar. Si tiene duda, los valores predeterminados "
+"son aceptables. Cuando esté listo haga click en el botón de ``Download``  en"
+" la parte inferior y guarde el archivo en el disco."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:49
+msgid ""
+"All going well you should now see a weather map with a time slider along the"
+" bottom, set for right now. You can use the mouse wheel to zoom in if you "
+"like."
+msgstr ""
+"Si todo va bien ahora debería ver un mapa climático con un deslizador de "
+"tiempo en la parte inferior, configurado para ahora. Puede usar la rueda del"
+" mouse para acercar si lo desea."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:55
+msgid "Changing views"
+msgstr "Cambio de vistas"
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:57
+msgid ""
+"By moving the mouse around the map you'll see the exact conditions under the"
+" cursor listed in the pane on the left."
+msgstr ""
+"Moviendo el ratón por el mapa veréis las condiciones exactas bajo el cursor "
+"enlistadas en el panel de la izquierda."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:60
+msgid ""
+"You can change the time by moving the slider along the bottom, or from the "
+"drop down menu in the top-left of the window."
+msgstr ""
+"Puede cambiar la hora moviendo el control deslizante a lo largo de la parte "
+"inferior, o desde el menú desplegable de la parte superior izquierda de la "
+"ventana."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:63
+msgid ""
+"From the ``Weather map`` menu you can select the variable to visualize. For "
+"example Select :menuselection:`Weather map --> Cloud cover` and the view "
+"should change."
+msgstr ""
+"En el menú de ``Weather map`` puede seleccionar la variable a visualizar. "
+"Por ejemplo seleccione :menuselection:`Weather map --> Cloud cover`  y "
+"lavista debe cambiar."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:66
+msgid ""
+"If you downloaded data for the Gulf of Mexico you'll be interested to view "
+"the CAPE data. \"CAPE\" stands for Convective Available Potential Energy at "
+"ground level. It is a measure of atmospheric instability, and high values "
+"(1000s of J/kg) indicate a threat of thunderstorms and/or tornadoes."
+msgstr ""
+"Si ha descargado datos para el Golfo de México le interesará ver los datos "
+"de cabo. \"Cabo\" \"CAPE\" significa Energía Potencial Disponible Convectiva"
+" a nivel del suelo. Es una medida de la inestabilidad atmosférica y valores "
+"altos (1000s de J/kg) indican una amenaza de tormentas y/o tornados."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:71
+msgid ""
+"If you downloaded data for southern Africa cloud cover may be more "
+"interesting."
+msgstr ""
+"Si descargó datos para la cobertura de nubes del sur de África puede ser más"
+" interesante."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:75
+msgid "Creating an animation"
+msgstr "Crear una animación"
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:77
+msgid ""
+"When you click the right-hand most icon on the toolbar (a rocketship) a new "
+"window will open and an animation will be generated. Sit tight while it runs"
+" through the time sequence for the first time. When it is done it will "
+"rewind to the beginning of the time series, and from there you can play, "
+"pause, rewind as you like. You can also save each frame as an image file for"
+" later encoding into an AVI, MPEG, or animated GIF `using other software "
+"<http://grass.osgeo.org/wiki/Movies>`_."
+msgstr ""
+"Al hacer click en el ícono en el extremo derecho de la barra de herramientas"
+" (un cohete espacial) abrirá una nueva ventana y una animación se generará. "
+"Quédese sentado  mientras esto funciona a través de la secuencia de tiempo "
+"por primera vez. Cuando esté hecho se rebobinará hasta el principio de la "
+"serie de tiempo, y desde allí usted puede jugar, pausar, rebobinar como "
+"usted tiene gusto. También puede guardar cada marco como un archivo de "
+"imagen para luego codificar en AVI, MPEG o  GIF animado `usando otro "
+"software <http://grass.osgeo.org/wiki/Movies>`_."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:85
+msgid "When you're done click the red power button to close."
+msgstr "Cuando hayas terminado, haz click en el botón rojo para cerrar."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:89
+msgid "See also"
+msgstr "Véase también"
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:91
+msgid ""
+"The :doc:`OpenCPN software <../overview/opencpn_overview>` (also on this "
+"disc) has a GRIB overlay plugin which you may try with your newly downloaded"
+" GRIB file. See the :doc:`OpenCPN quickstart "
+"<../quickstart/opencpn_quickstart>` for details."
+msgstr ""
+"El :doc:`OpenCPN software <../overview/opencpn_overview>` (también en este "
+"disco) tiene un complemento de superposición GRIB que puede probar con su "
+"archivo GRIB recién descargado. Ver el :doc:`OpenCPN quickstart "
+"<../quickstart/opencpn_quickstart>` para más detalles. "

@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:18
+msgid "OSSIM Quickstart"
+msgstr "Guía de Inicio Rápido de OSSIM"
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:20
+msgid ""
+"Open Source Software Image Map (OSSIM) is a high performance engine for "
+"remote sensing, image processing, geographical information system (GIS) "
+"tasks and photogrammetry."
+msgstr ""
+"Open Source Software Image Map (OSSIM) es un motor de alto rendimiento para "
+"la detección remota, procesamiento de imágenes, tareas de sistema de "
+"información geográfica (SIG) y fotogrametría."
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:24
+msgid "This Quick Start describes how to:"
+msgstr "Esta Guía de Inicio Rápido describe cómo:"
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:26
+msgid "Multi-view multiband raster satellite images with Imagelinker"
+msgstr ""
+"Vista múltiple de imágenes ráster multibanda de satélite con Imagelinker"
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:27
+msgid "Drape a georeferenced raster map on a 3D globe with ossimPlanet"
+msgstr "Cubra un mapa ráster georreferenciado en un globo 3D con ossimPlanet"
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:31
+msgid "Imagelinker"
+msgstr "Imagelinker"
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:33
+msgid ""
+"Start Imagelinker from its icon from the \"Spatial Tools\" folder on the "
+"desktop"
+msgstr ""
+"Inicie Imagelinker desde el icono de la carpeta \"Herramientas espaciales\" "
+"en el escritorio"
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:36
+msgid ""
+"Open an image file, using :menuselection:`File --> Open Image --> "
+"/home/user/data/landsat/clip10.tif`"
+msgstr ""
+"Abra un archivo de imagen usando :menuselection:`File --> Open Image --> "
+"/home/user/data/landsat/clip10.tif`"
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:38
+msgid ""
+"Repeat the previous operation for the files : `clip20.tif` and `clip30.tif`"
+msgstr ""
+"Repetir la operación anterior para los archivos : `clip20.tif` and "
+"`clip30.tif`"
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:45
+msgid ""
+"Another way to load all the images at once is to simply drag and drop them "
+"into the Imagelinker main window"
+msgstr ""
+"Otra forma para cargar todas las imágenes a la vez es simplemente arrastrar "
+"y soltar en la ventana principal de Imagelinker"
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:48
+msgid ""
+"To tidy up the windows, maximize the main window, then in the top menu bar "
+"go to :menuselection:`Window --> Tile`"
+msgstr ""
+"Para poner en orden las ventanas, maximizar la ventana principal y, a "
+"continuación, en la barra de menú superior ir a :menuselection:`Window --> "
+"Tile`"
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:51
+msgid ""
+"You can keep all the satellite band views in sync by clicking "
+":guilabel:`Fit` in one of the smaller windows, then :guilabel:`Propagate` in"
+" that same window. Try doing the same in the larger window."
+msgstr ""
+"Puede mantener todas las vistas de la banda satelital en sincronización "
+"haciendo click en :guilabel:`Fit` en una de las ventanas más pequeñas, "
+"después en :guilabel:`Propagate`  en esa misma ventana. Trate de hacer lo "
+"mismo en la ventana grande."
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:55
+msgid ""
+"Again in the large image window make sure the zoom button (magnifying glass)"
+" is depressed and click in middle of the big road intersection. With the "
+"closer view in the window, again click the :guilabel:`Propagate` button in "
+"the large image window to sync that view with the other band windows. In a "
+"similar way you can press the pan button (hand icon) and then click to move "
+"along the road, and then the :guilabel:`Propagate` button to align the other"
+" windows."
+msgstr ""
+"Otra vez en la ventana de imagen grande asegúrese de que está pulsado el "
+"botón de zoom (lupa) y haga click en medio de la intersección del camino "
+"grande. Con la vista más cercana de la ventana, nuevamente haga click en el "
+"botón  :guilabel:`Propagate` en la ventana de la imagen grande para "
+"sincronizar esa vista con otras ventanas de banda. De manera similar puede "
+"presione el botón de arrastre (icono de mano) y luego hacer click en para "
+"mover a lo largo de la carretera, y luego en el botón  :guilabel:`Propagate`"
+"  para alinear las demás ventanas."
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:65
+msgid "OssimPlanet"
+msgstr "OssimPlanet"
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:67
+msgid ""
+"Launch OssimPlanet from its icon in the \"Desktop GIS\" folder on the "
+"desktop"
+msgstr ""
+"Iniciar OssimPlanet desde su ícono en la carpeta \"Desktop GIS\" en el "
+"escritorio"
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:70
+msgid ""
+"Select :menuselection:`File --> Open Image --> "
+"/home/user/data/landsat/clip10.tif` to load a LANDSAT image (or simply drag "
+"and drop the image into the main window)."
+msgstr ""
+"Seleccione :menuselection:`File --> Open Image --> "
+"/home/user/data/landsat/clip10.tif` para cargar una imagen LANDSAT  (o "
+"simplemente arrastre y suelte la imagen en la ventana principal)."
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:73
+msgid ""
+"In the `Layer` tree panel on the left side, click on the small triangle to "
+"the left of *Image Layers* to expand it. Next double-click on ``clip10``. "
+"You should now see the scene zoom to the image's location."
+msgstr ""
+"En el panel de árbol de 'Capa' en el lado izquierdo, haga click en el "
+"pequeño triángulo a la izquierda de *Capas de la Imagen* para expandirlo. A "
+"continuación haga doble click en ``clip10``. Ahora debe ver la escena zoom a"
+" ubicación de la imagen."
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:77
+msgid ""
+"To turn off the daylight auto-shading, `un`-check :menuselection:`File --> "
+"Preferences --> Environment --> Enable Ephemeris`"
+msgstr ""
+"Para apagar la luz del día auto-shading,  `un`-check :menuselection:`File "
+"--> Preferences --> Environment --> Enable Ephemeris`"
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:79
+msgid ""
+"Experiment with navigating the scene using the mouse. Dragging the left "
+"mouse button pans; dragging the middle mouse button rolls; and dragging the "
+"right mouse button zooms in and out."
+msgstr ""
+"Experimento con navegar por la escena con el ratón. Arrastrando las teclas "
+"del botón izquierdo del mouse; arrastrando la rueda central del mouse; y "
+"arrastrando el botón derecho del mouse puede hacer acercamientos y "
+"alejamientos. "
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:85
+msgid ""
+"If you get lost, double clicking on the Blue Marble image in the Layer tree "
+"will zoom back out to a view of the whole planet, resetting the view."
+msgstr ""
+"Si se pierde, haga doble click en la imagen de Blue Marble en el Árbol de "
+"Capas y se alejará nuevamente a la vista de todo el planeta, restableciendo "
+"la vista."
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:90
+msgid "What Next?"
+msgstr "¿Qué sigue?"
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:92
+msgid ""
+"We have prepared a number of tutorials_ demonstrating more of Ossim's "
+"capabilities."
+msgstr ""
+"Hemos preparado una serie de tutorials_ demostraciones de más capacidades de"
+" Ossim."
+
+#: ../../build/doc/quickstart/ossim_quickstart.rst:98
+msgid "See also the included documentation_ on this Live DVD."
+msgstr "Véase también la documentation_ incluida en este Live DVD."
