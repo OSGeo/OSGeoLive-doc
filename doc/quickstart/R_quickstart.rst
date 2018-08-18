@@ -1,5 +1,6 @@
 :Author: Barry Rowlingson
-:Version: osgeolive5.0
+:Author: Nicolas Roelandt
+:Version: osgeolive12.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_R@
@@ -189,12 +190,12 @@ functionality:
 
 ::
 
-	> library(sp)
-	> library(maptools)
+	> library(sf) 		# Simple Features manipulation Library
+	> library(ggplot2)	# Plotting library
 
-	> countries = readShapeSpatial("/usr/local/share/data/natural_earth2/ne_10m_admin_0_countries.shp")
-	> places = readShapeSpatial("/usr/local/share/data/natural_earth2/ne_10m_populated_places.shp")
-	> plot(countries)
+	> countries <- st_read(dsn = "~/data/natural_earth2/ne_10m_admin_0_countries.shp")
+	> places <- st_read(dsn = "~/data/natural_earth2/ne_10m_populated_places.shp")
+	> ggplot(countries) + geom_sf()
 
 This gives us a simple map of the world:
 
@@ -205,53 +206,51 @@ behaves in many ways like a data frame. We can use the ``admin``
 field to subset the world data and just get the UK:
 
 ::
-
-	> uk = countries[countries$admin == "United Kingdom",]
-	> plot(uk); axis(1); axis(2)
+	> uk <- countries[countries$admin == 'United Kingdom',]
+	> ggplot(uk) + geom_sf()
 
 .. image:: /images/projects/R/r_plot2.png
 
 This looks a bit squashed to anyone who lives here, since we are more familiar with
 a coordinate system centred at our latitude. Currently the object doesn't have a 
-coordinate system assigned to it - we can check this with some more functions:
+coordinate system assigned to it.
 
-::
-
-	> proj4string(uk)
-	[1] NA
-
-``NA`` is a missing data marker. We need to assign a CRS to the object before we can
-transform it with the spTransform function from the rgdal package. We transform
+We need to assign a CRS to the object before we can
+transform it with the sf::st_transform function from the sf package. We transform
 to EPSG:27700 which is the Ordnance Survey of Great Britain grid system:
 
 ::
+	> ukos <- st_transform(uk,27700)
+	> ggplot(ukos) + geom_sf()
 
-	> proj4string(uk) = CRS("+init=epsg:4326")
-	> library(rgdal)
-	> ukos = spTransform(uk, CRS("+init=epsg:27700"))
-	> proj4string(ukos)
-	[1] " +init=epsg:27700 +proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +datum=OSGB36 +units=m +no_defs
-	+towgs84=446.448,-125.157,542.060,0.1502,0.2470,0.8421,-20.4894"
-
-	> plot(ukos); axis(1); axis(2)
+.. image:: /images/projects/R/r_plot2_1.png
 
 This plots the base map of the transformed data. Now we want to add some points from the 
 populated place data set. Again we subset the points we want and transform them to
 Ordnance Survey Grid Reference coordinates:
 
 ::
+	> ukpop <- places[places$SOV0NAME == 'United Kingdom',]
+	> ukpop <- st_transform(ukpop,27700)
 
-	> ukpop = places[places$ADM0NAME == "United Kingdom",]
-	> proj4string(ukpop) = CRS("+init=epsg:4326")
-	> ukpop = spTransform(ukpop, CRS("+init=epsg:27700"))
 
 We add these points to the base map, scaling their size by scaled square root of the 
 population (because that makes a symbol with area proportional to population), set the
 colour to red and the plotting character to a solid blob:
 ::
-
-	> points(ukpop, cex=sqrt(ukpop$POP_MAX/1000000), col="red", pch=19)
-	> title("UK Population centre sizes")
+	> ggplot() + 
+    > 	geom_sf(data = ukos) + 								# add UK shape to the map
+    > 	geom_sf(data = ukpop, 								# add the Populated places
+    > 	        aes(size = ukpop$POP_MAX/100000), 			# fix size of points (by area)
+    > 	        colour = 'red', alpha = 1/5) + 				# set points colour and transparency
+    > 	coord_sf(crs = 27700, datum= sf::st_crs(27700), 	# set a bounding box
+    > 	         xlim = st_bbox(ukos[c(1,3)]),				# for the map	
+    > 	         ylim = st_bbox(ukos[c(2,4)])
+    > 	        ) +
+    > 	ggtitle('Uk Population centre sizes') + 			# set the map title
+    > 	    theme(legend.position = 'bottom') +				# Legend position
+    >		scale_size_area(name = 'Population \nin 100K')	# 0 value means 0 area + legend title 
+ 
 
 and our final image appears:
 
@@ -263,11 +262,8 @@ Vignettes
 In the past the documentation for R packages tended to be tersely-written help pages
 for each function. Now package authors are encouraged to write a 'vignette' as a friendly
 introduction to the package. If you just run the ``vignette()`` function with no arguments
-you will get the list of those vignettes on your system. Try ``vignette("intro_sp")`` for a
-slightly technical introduction to the R spatial package. The ``vignette("gstat")`` gives a
-tutorial in the use of that package for spatial interpolation including Kriging.
-
-.. comment: doesn't work// or ``vignette("shapefiles")`` for explanations of using shapefiles in R.
+you will get the list of those vignettes on your system. Try ``vignette("sf1")`` for a
+slightly technical introduction to the R spatial package.
 
 Further Reading
 ================================================================================
@@ -276,6 +272,6 @@ For general information about R, try the official `Introduction to R <http://cra
 
 For more information on spatial aspects of R, the best place to start is probably the `R Spatial Task View <http://cran.r-project.org/web/views/Spatial.html>`_
 
-You might also want to check out the `R-Spatial <http://r-spatial.sourceforge.net/>`_ 
-page on sourceforge for some more links including information about the R-sig-Geo mailing list.
+You might also want to check out the `R-Spatial <http://www.rspatial.org>`_ 
+page.
 
