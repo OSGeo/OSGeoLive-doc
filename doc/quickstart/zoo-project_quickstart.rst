@@ -67,7 +67,7 @@ CGAL triangulations
 OTB Applications
 -------------------
 
-*	From the OTB application demonstration interface, you have to fill the form on the left to configure the WPS service execution. Once, you have selected the value for yoru processing, you can then press the Execute button at the bottom of the left form. In case you choose image/png as the output format, you will see the result of your processing displayed on the map. You can see bellow a sample KMeansClassification execution when selecting the image/png output format.
+*	From the OTB application demonstration interface, you have to fill the form on the left to configure the WPS service execution. Once, you have selected the value for your processing, you can then press the Execute button at the bottom of the left form. In case you choose image/png as the output format, you will see the result of your processing displayed on the map. You can see below a sample KMeansClassification execution when selecting the image/png output format.
 
 .. image:: /images/projects/zoo-project/zoo-demo-1.png
   :scale: 50 %
