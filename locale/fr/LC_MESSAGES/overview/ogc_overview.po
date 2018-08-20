@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../build/doc/overview/ogc_overview.rst:12
+msgid "OGC"
+msgstr "OGC"
+
+#: ../../build/doc/overview/ogc_overview.rst:14
+msgid ""
+"The Open Geospatial Consortium (OGC) was founded in 1994 to make geographic "
+"information an integral part of the world’s information infrastructure. OGC "
+"members – technology providers and technology users – collaboratively "
+"develop open interface standards and associated encoding standards, and also"
+" best practices, that enable developers to create information systems that "
+"can easily exchange “geospatial” information and instructions with other "
+"information systems. Requirements range from complex scheduling and control "
+"of Earth observation satellites to displaying simple map images on the Web "
+"and encoding location in just a few bytes for geo-tagging and messaging. A "
+"look at the `OGC Domain Working Groups "
+"<http://www.opengeospatial.org/projects/groups/wg>`_ shows the wide scope of"
+" current activity in the OGC."
+msgstr ""
+"L’Open Geospatial Consortium (OGC) a été fondée en 1994 pour faire de "
+"l’information géographique une partie intégrante de l’infrastructure de "
+"l’information mondiale. Membres de l’OGC – fournisseurs et utilisateurs de "
+"technologies – développent en collaboration les normes d'interface ouvertes "
+"et les standards de codage associé. Ainsi que les meilleures pratiques, qui "
+"permettent aux développeurs de créer des systèmes d’information qui peuvent "
+"facilement échanger de l'information  « géospatiale »  et des instructions à"
+" d’autres systèmes d’information. Allant  de la complexe planification et "
+"contrôle des satellites d’observation terrestre à l'affichage des images de "
+"cartes simples sur le Web et à l'encodage d'emplacements dans quelques "
+"octets pour le géo-tagging et la messagerie. Un regard sur les  `OGC Domain "
+"Working Groups <http://www.opengeospatial.org/projects/groups/wg>`_ montre "
+"l’étendue de l’activité en cours dans l’OGC."
+
+#: ../../build/doc/overview/ogc_overview.rst:26
+msgid ""
+"The OGC Standards Baseline consists of the `OGC standards "
+"<http://www.opengeospatial.org/standards>`_ for interfaces, encodings, "
+"profiles, application schemas, and best practice documents. The `OGC "
+"Reference Model (ORM) <http://www.opengeospatial.org/standards/orm>`_ "
+"describes these standards and the relationships between them and related ISO"
+" standards. The ORM provides an overview of OGC standards and serves as a "
+"useful resource for defining architectures for specific applications."
+msgstr ""
+"La base de normes OGC est constituée des  `standards OGC "
+"<http://www.opengeospatial.org/standards>`_  pour les interfaces, le codage,"
+" les profils, les schémas d’application et les documents sur les meilleures "
+"pratiques. Le  `OGC Reference Model (ORM) "
+"<http://www.opengeospatial.org/standards/orm>`_ décrit ces normes ainsi que "
+"les relations entre elles et les normes ISO. L’ORM donne un aperçu des "
+"normes de l’OGC et sert comme une ressource utile pour définir les "
+"architectures pour les applications spécifiques."
+
+#: ../../build/doc/overview/ogc_overview.rst:34
+msgid ""
+"In developing a Web services application using OGC standards (and in "
+"learning about the relationships between OGC standards) it helps to think of"
+" publish, find and bind as the key functions for applications in a Web "
+"services environment."
+msgstr ""
+"Dans le développement d’une application de services Web utilisant les "
+"standards de l’OGC (et en se renseignant sur les relations entre les "
+"standards OGC) il est utile de penser à publier, trouver et  lier comme les "
+"fonctions clés d'applications dans un environnement de services Web."
+
+#: ../../build/doc/overview/ogc_overview.rst:39
+msgid "Publish: Resource providers advertise their resources."
+msgstr "Publier: les fournisseurs de ressources proposent leurs ressources."
+
+#: ../../build/doc/overview/ogc_overview.rst:40
+msgid ""
+"Find: End users and their applications can discover resources that they need"
+" at run-time."
+msgstr ""
+"Trouver: les utilisateurs finaux et leurs applications peuvent découvrir les"
+" ressources dont ils ont besoin au moment de l’exécution."
+
+#: ../../build/doc/overview/ogc_overview.rst:41
+msgid ""
+"Bind: End users and their applications can access and exercise resources at "
+"run-time."
+msgstr ""
+"Lier: les utilisateurs finaux et leurs applications peuvent accéder aux "
+"ressources au moment de l’exécution de l’exercice."
+
+#: ../../build/doc/overview/ogc_overview.rst:43
+msgid ""
+"Most of the OGC standards developed in recent years are standards for the "
+"Web services environment, and these standards are collectively referred to "
+"as OGC Web Services (OWS). A `comprehensive list of standards "
+"<http://www.opengeospatial.org/standards/>`_ is available."
+msgstr ""
+"La plupart des normes OGC développées ces dernières années sont des normes "
+"pour l’environnement de services Web, et ces normes sont désignées "
+"collectivement comme l’OGC Web Services (OWS). Il existe une `liste complète"
+" des normes <http://www.opengeospatial.org/standards/>`_."
+
+#: ../../build/doc/overview/ogc_overview.rst:49
+msgid "Details"
+msgstr "Détails"
+
+#: ../../build/doc/overview/ogc_overview.rst:51
+msgid "**Website:** http://www.opengeospatial.org"
+msgstr "**Site Web:** http://www.opengeospatial.org"

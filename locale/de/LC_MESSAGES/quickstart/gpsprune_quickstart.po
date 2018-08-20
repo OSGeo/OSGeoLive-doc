@@ -1,0 +1,286 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2018\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:13
+msgid "GpsPrune Quickstart"
+msgstr "GpsPrune Quickstart"
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:15
+msgid ""
+"GpsPrune is a java application for viewing and editing coordinate data.  It "
+"can be used for preparing data for GPS devices and for analyzing the data "
+"recorded by them."
+msgstr ""
+"GpsPrune ist eine Java Anwendung für die Visualisierung und das Editieren "
+"von Koordinatendaten. Es kann zur Aufbereitung und zur Analyse von GPS Daten"
+" verwendet werden."
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:17
+msgid ""
+"In this Quick Start, we will load and view a data file included on this live"
+" image, and access some online information to supplement it.  It will be "
+"useful therefore if you have some kind of internet connection for this "
+"demonstration."
+msgstr ""
+"In diesem Quickstart werden wir Daten die sich lokal auf OSGeo-Live befinden"
+" laden und anzeigen. Außerdem werden wir online auf Informationen zugreifen."
+" Daher ist es sinnvoll eine Internetverbindung vorliegen zu haben."
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:20
+msgid "Getting Started"
+msgstr "Erste Schritte"
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:22
+msgid ""
+"To run GpsPrune on the live system, select the icon \"GpsPrune\" in the "
+"Navigation and Maps menu.  This will then give you the empty window shown "
+"below."
+msgstr ""
+"Um GpsPrune auf OSGeo-Live laufen zu lassen, wählen Sie \"GpsPrune\" im Menü"
+" \"Navigation und Karten\" aus. Sie erhalten ein leeren Fenster wie im "
+"folgenden Bild."
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:27
+msgid ""
+"We will now load a file by using the menu command :menuselection:`File --> "
+"Open file` and selecting the file to load.  This can be a GPX file, a KML or"
+" KMZ file, or even a comma-separated or tab-separated file if you have one."
+"  A suitable GPX file containing a couple of tracks can be found on the disc"
+" at :file:`~/data/vector/gpx/test_trk2.gpx` so we will load this one."
+msgstr ""
+"Nun werden wir eine Datei über den Menüeintrag :menuselection:`Datei --> "
+"Datei öffnen` laden. Wählen Sie eine Datei. Die Datei kann entweder eine "
+"GPX-, KML- oder KMZ-Datei sein. Darüberhinaus können kommaseparierte oder "
+"tab-separierte Dateien geladen werden. Eine geeignete GPX-Datei mit einigen "
+"Tracks findet sich unter :file:`~/data/vector/gpx/test_trk2.gpx`. Laden Sie "
+"diese Datei."
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:31
+msgid ""
+"Because this file contains two tracks, we are offered the choice of which "
+"one(s) to load.  We choose just the first one and press OK."
+msgstr ""
+"Da die Datei zwei Tracks enthält, werden wir aufgefordert welche geladen "
+"werden soll/en. Wählen Sie nur den ersten Track aus und klicken Sie ok."
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:33
+msgid ""
+"Now you should see the track marked in blue against a white background.  If "
+"this track had any waypoints (which it doesn't), then they would be shown "
+"too, marked with their names.  Below the main map display is an altitude "
+"chart, which shows the profile of the track if it contains altitudes."
+msgstr ""
+"Jetzt sollten Sie den Track in blau auf einem weißen Hintergrund sehen. "
+"Sofern dieser Track über Wegpunkte verfügen würde (die er nicht hat), würden"
+" diese ebenfalls mit ihren Namen angezeigt. Unter Hauptkarte wird ein "
+"Höhendiagramm angezeigt, sofern der Track über Höhenangaben verfügt."
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:39
+msgid ""
+"Now, assuming you have a network connection, you can activate the map by "
+"clicking the globe icon at the top of the main map display, or with the menu"
+" option :menuselection:`View --> Show Map`."
+msgstr ""
+"Falls eine Netzwerkverbindung vorliegt, können Sie Karten über den Globus "
+"Button oder über die Menüoption :menuselection:`Ansicht --> Karte zeigen` "
+"hinzuschalten."
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:45
+msgid ""
+"You can drag the map around with the mouse, and zoom in and out with the "
+"mousewheel or by double-clicking.  Dragging with the right mouse button "
+"defines a rectangle to zoom to, and the right-click menu offers further "
+"options.  Clicking on a point will show the details including altitude and "
+"timestamp if available.  You can also click on the altitude profile to "
+"select the corresponding point."
+msgstr ""
+"Jetzt können Sie die Karte mit der Maus rumschieben und ein- und auszoomen. "
+"Das Zoomen kann per Mausrad oder über Doppelklick erfolgen. Über den "
+"gedrückten rechten Mausbutton kann ein Rechteck aufgezogen werden. Über das "
+"Kontextmenü stehen weitere Optionen zur Auswahl."
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:48
+msgid "Customizing the display"
+msgstr "Anpassen der Ansicht"
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:49
+msgid ""
+"You can change the map with the menu option :menuselection:`Settings --> Set"
+" map background`. Let's have a look at an alternative map source by "
+"selecting the fifth one, \"Hikebikemap\".  This uses the maps from "
+"hikebikemap.org to show additional information useful for hiking and cycling"
+" such as contour lines and cycle routes."
+msgstr ""
+"Andere Kartendarstellungen sind unter der Menüoption "
+":menuselection:`Einstellungen --> Kartenhintergrund setzen`. Schauen Sie "
+"sich einmal eine alternative Karte an wie beispielsweise die \"Cyclemap\" "
+"(Radkarte). Diese verwendet Karten von OpenCycleMap, um für das Wandern und "
+"Rad fahren zusätzliche nützliche Information wie Höhenlinien und Radwege "
+"anzuzeigen."
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:56
+msgid "Wikipedia"
+msgstr "Wikipedia"
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:57
+msgid ""
+"Now let's find out some more information about where this track is.  We can "
+"do this by selecting a point, and then choosing the menu option "
+":menuselection:`Online --> Get nearby Wikipedia articles`.  This shows a "
+"list of articles whose coordinates are nearest to the selected point.  "
+"Clicking one of these entries in the list will show more information in the "
+"box below."
+msgstr ""
+"Lassen Sie uns nun ein paar mehr Informationen über die Lage des Tracks "
+"finden. Wir können dies indem wir einen Punkt auswählen und anschließend den"
+" Menüeintrag :menuselection:`Track --> Get nearby Wikipedia articles` "
+"auswählen. Diese Aktion zeigt eine Liste von Artikeln, deren Koordinaten am "
+"nächsten zum ausgewählten Punkt liegen. Per Klick auf einen Eintrag werden "
+"weitere Informationen in der unteren Box angezeigt."
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:61
+msgid ""
+"You can then use the button `Load` to load that point into GpsPrune, or "
+"`Show webpage` to load the Wikipedia page in a browser."
+msgstr ""
+"Sie können über den Button `Laden` diesen Punkt in GpsPrune laden, oder über"
+" `Webseite anzeigen` die Wikipedia-Seite im Browser öffnen."
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:64
+msgid "Gpsies"
+msgstr "Gpsies"
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:65
+msgid ""
+"Finally, let's download another track from the same area.  We can use the "
+"menu command :menuselection:`Online --> Get Gpsies tracks` to search for "
+"tracks on the website gpsies.com.  Again, we get a list of matching entries,"
+" and we can select one to view the description."
+msgstr ""
+"Lassen Sie uns abschließend einen anderen Track der selben Region "
+"runterladen. Wir können dazu den Menüeintrag :menuselection:`Track --> Get "
+"Gpsies tracks` verwenden und auf der Webseite gpsies.com nach Tracks suchen."
+" Wieder erhalten wir eine Liste von passenden Einträgen. Bei Auswahl eines "
+"Tracks wird eine Beschreibung zum Track angezeigt."
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:69
+msgid ""
+"Click the `Load` button to load the track, and select to append this track "
+"to the data we've already got.  Now we can see both tracks in the same view."
+msgstr ""
+"Klicken Sie auf `Laden`, um den Track zu den bereits vorhandenen Daten zu "
+"laden. Nun sehen Sie beide Tracks in einer Ansicht."
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:72
+msgid "Measuring distances"
+msgstr "Distanzmessungen"
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:73
+msgid ""
+"To find out how long the climb is, we'll click on the point at the start of "
+"the climb, just north of Dunedin, and select :menuselection:`Range --> Set "
+"range start`.  Then select the top of the climb by clicking on the highest "
+"point of the altitude profile, and select :menuselection:`Range --> Set "
+"range end`.  We can now see in the \"Range details\" section that this part "
+"of the track is 8.55 km long, climbs 346 m and descends just 10 m."
+msgstr ""
+"Um herauszufinden wie lang der Anstieg ist, klicken wir auf den Start "
+"nördlich von Dunedin und wählen :menuselection:`Range --> Set range start`. "
+"Anschließend wählen wir den höchsten Punkt des Tracks am höchsten Punkt des "
+"Höhendiagramms und wählen :menuselection:`Range --> Set range end`. Nun "
+"können wir im \"Range details\" Bereich sehen, dass dieser Teil des Tracks "
+"8.55 km lang ist, Aufstieg 346 m und Abstieg lediglich 10 m."
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:79
+msgid "Using GpsPrune on other systems"
+msgstr "GpsPrune auf anderen Systemen verwenden"
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:80
+msgid ""
+"After trying out GpsPrune on this live image, you may want to use it on "
+"another system, whether it's another Linux system or Mac OSX or Windows.  "
+"Some linux distributions include GpsPrune in their normal software libraries"
+" (just search for \"Prune\" or \"GpsPrune\"), or you can just download the "
+"latest copy from the home page."
+msgstr ""
+"Nachdem Sie GpsPrune ausprobiert haben, kann es sein dass Sie GpsPrune auf "
+"einem anderen System benutzen wollen, egal ob das System Linux oder Mac OSX "
+"oder Windows ist. Manche Linuxdistributionen enthalten GpsPrune in den "
+"normalen Software Tools, Sie müssen nur nach \"Prune\" oder \"Gpsprune\" "
+"suchen. Anderenfalls können Sie die aktuelle Version als Jardatei von der "
+"Webseite herunterladen."
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:82
+msgid ""
+"It doesn't need to be installed, but it does need a java runtime to be "
+"installed, version 1.5 or higher.  You can extend GpsPrune's functionalities"
+" by installing other free software, such as *Gpsbabel*, *Gnuplot*, "
+"*Exiftool* and *Java3d*."
+msgstr ""
+"GpsPrune muss normalerweise nicht installiert werden Es braucht einen Java-"
+"Laufzeitumgebung in der Version 1.5 oder höher. Die Funktionalität kann "
+"erweitert werden, indem Sie zusätzlich andere freie Software installieren, "
+"wie zum Beispiel *Gpsbabel*, *Gnuplot*, *Exiftool* oder *Java3d* "
+"installieren."
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:84
+msgid ""
+"Once you've installed GpsPrune on your permanent system, you can save your "
+"settings with the menu option :menuselection:`Settings --> Save settings`.  "
+"Then they will be remembered for the next time you run GpsPrune.  However, "
+"note that when using this live system, all files that you save in the "
+"regular file system are lost when you shut down the computer."
+msgstr ""
+"Sobald Sie GpsPrune auf Ihrem System installiert haben, können Sie Ihre "
+"Einstellungen über den Menüeintrag :menuselection:`Einstellungen --> "
+"Einstellungen speichern` speichern. Ihrem Einstellungen sind liegen beim "
+"nächsten Start von GpsPrune weiterhin vor."
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:86
+msgid ""
+"You can also save the downloaded map tiles to disk by selecting the menu "
+"option :menuselection:`Settings --> Save maps to disk` and selecting a "
+"directory in which to save the images.  This helps to speed up the display "
+"as it doesn't have to download the images again."
+msgstr ""
+"Sie die heruntergeladenen Karten-Kacheln auch herunterladen. Dies erfolgt "
+"durch Auswahl des Menüpunktes speichern: Menuselection: :`Settings --> Save "
+"maps to disk` und die Auswahl eines Verzeichnisses, in das die Bilder "
+"gespeichert werden sollen. Lokal vorliegende Kacheln beschleunigen die "
+"Darstellung, da die Bilder nicht nochmals herunterladen werden müsssen."
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:89
+msgid "Further reading"
+msgstr "Weiterführende Literatur"
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:91
+msgid "GpsPrune home page: https://gpsprune.activityworkshop.net/"
+msgstr "GpsPrune Homeseite (englisch): https://gpsprune.activityworkshop.net/"
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:92
+msgid "Screenshots: https://gpsprune.activityworkshop.net/screenshots.html"
+msgstr ""
+"Bildschirmfotos: https://gpsprune.activityworkshop.net/screenshots.html"
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:93
+msgid ""
+"How-tos and instructions: http://gpsprune.activityworkshop.net/how-tos.html"
+msgstr ""
+"Benutzeranleitung: https://gpsprune.activityworkshop.net/how-tos_de.html"

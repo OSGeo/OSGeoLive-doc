@@ -1,0 +1,460 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:17
+msgid "GDAL/OGR Quickstart"
+msgstr "GDAL/OGR Guía de Inicio Rápido"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:19
+msgid ""
+"You will need nothing but a terminal for this quickstart. If you want to "
+"visualize the results, you can use one of the Desktop GIS Software "
+"applications on OSGeoLive like :doc:`../overview/qgis_overview`."
+msgstr ""
+"Nada más que un terminal necesita para este Inicio Rápido. Si desea "
+"visualizar los resultados, puede utilizar una de las aplicaciones de "
+"Software GIS de Escritorio en OSGeoLive como  "
+":doc:`../overview/qgis_overview`."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:23
+msgid ""
+"This Quick Start is divided into two parts: GDAL (raster data) and OGR "
+"(vector data). We will start with GDAL."
+msgstr ""
+"Esta Guía de Inicio Rápido se divide en dos partes: GDAL (datos ráster) y "
+"OGR (datos vectoriales). Vamos a empezar con GDAL."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:26
+msgid "This Quick Start describes how to:"
+msgstr "Esta Guía de Inicio Rápido describe cómo:"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:34
+msgid "GDAL"
+msgstr "GDAL"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:29
+msgid "Explore your image data with gdalinfo"
+msgstr "Explore sus datos de imagen con gdalinfo"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:30
+msgid "Format translations with gdal_translate"
+msgstr "Formatee las traducciones con gdal_translate"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:31
+msgid "Reproject your data with gdalwarp"
+msgstr "Reproyecta tus datos con gdalwarp"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:32
+msgid "Mosaic your data with gdal_warp or gdal_merge.py"
+msgstr "Mosaico de tus datos con gdal_warp or gdal_merge.py"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:33
+msgid "Build a shapefile as a raster tileindex with gdaltindex"
+msgstr "Construya un shapefile como un tileindex raster con gdaltindex"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:38
+msgid "OGR"
+msgstr "OGR"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:37
+msgid "get information about your data with ogrinfo"
+msgstr "obtener información sobre sus datos con ogrinfo"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:38
+msgid "use ogr2ogr to transform your data to other formats"
+msgstr "use ogr2ogr para transformar sus datos a otros formatos"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:43
+msgid "Get to know GDAL"
+msgstr "Conozca GDAL"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:45
+msgid ""
+"You will find the demo data at :file:`/usr/local/share/data`. We want to "
+"have a look at the :doc:`Natural Earth data "
+"<../overview/naturalearth_overview>` in this quickstart. We want to work "
+"with a copy of the data. So the first step is to copy the data to your home "
+"directory."
+msgstr ""
+"Encontrará los datos de la demo en  :file:`/usr/local/share/data`. Queremos "
+"echar un vistazo a  :doc:`Natural Earth data "
+"<../overview/naturalearth_overview>` en este inicio rápido. Queremos "
+"trabajar con una copia de los datos. Así que el primer paso es copiar los "
+"datos en su directorio home."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:56
+msgid ""
+"You will then find a NaturalEarth Raster file and a .tfw World-file at: ::"
+msgstr ""
+"Entonces encontrará un  archivo ráster de NaturalEarth y un .tfw World-file "
+"at: ::"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:62
+msgid "Open the file with a Desktop GIS like QGIS, and have a look."
+msgstr "Abra el archivo con un SIG de Escritorio como QGIS y eche un vistazo."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:65
+msgid "Get information about the raster data with gdalinfo"
+msgstr "Obtenga información acerca de los datos ráster con gdalinfo"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:101
+msgid "Note:"
+msgstr "Nota: "
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:95
+msgid "Driver is \"GTiff/GeoTIFF\""
+msgstr "El operador es \"GTiff/GeoTIFF\""
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:96
+msgid "Size is 10800x5400"
+msgstr "El tamaño es  10800x5400"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:97
+msgid "3 Bands of type Byte."
+msgstr "3 Bandas de tipo Byte."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:98
+msgid "Coordinates"
+msgstr "Coordenadas "
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:99
+msgid "no coordinate system"
+msgstr "sin sistema de coordenadas"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:104
+msgid "Simple Format Translation"
+msgstr "Traducción de formato simple"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:106
+msgid ""
+"First get to know your drivers. The `--formats` commandline switch of "
+"gdal_translate can be used to see a list of available format drivers."
+msgstr ""
+"Primero Conozca a sus conductores.El modificador de línea de comando "
+"`--formats` de gdal_translate se puede usar para ver una lista de "
+"controladores de formato disponibles."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:112
+msgid "Each format reports if it is"
+msgstr "Cada formato informa si es"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:110
+msgid "read only (ro),"
+msgstr "Sólo lectura (ro),"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:111
+msgid "read/write (rw) or"
+msgstr "Lectura/escritura (rw) o"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:112
+msgid "read/write/update (rw+)."
+msgstr "leer/escribir/actualizar(rw+). "
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:118
+msgid ""
+"The `--format` commandline switch can be used to query details about a "
+"particular driver, including creation options, and permitted data types."
+msgstr ""
+"El modificador de línea de comando `--format` se puede usar para consultar "
+"detalles sobre un controlador en particular, incluidas las opciones de "
+"creación y los tipos de datos permitidos."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:127
+msgid "Translation"
+msgstr "Traducción "
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:129
+msgid ""
+"Translations are accomplished with the gdal_translate command. The default "
+"output format is GeoTIFF.  The `-of` flag is used to select an output format"
+" and the -co flag is used to specify a creation option:"
+msgstr ""
+"Las traducciones se logran con el comando gdal_translate. El formato de "
+"salida predeterminado es GeoTIFF.  La bandera  `-of`  se utiliza para "
+"seleccionar un formato de salida y la bandera -co se utiliza para "
+"especificar una opción de creación:"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:137
+msgid "The `-ot` switch can be used to alter the output data type."
+msgstr ""
+"El interruptor `-ot` puede usarse para modificar el tipo de datos de salida."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:143
+msgid "Use gdalinfo to verify data type."
+msgstr "Uso gdalinfo para verificar el tipo de datos."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:147
+msgid "Rescaling"
+msgstr "Reescalando"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:149
+msgid "The `-outsize` switch can be used to set the size of the output file."
+msgstr ""
+"El  interruptor  `-outsize` puede usarse para definir el tamaño del archivo "
+"de salida."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:155
+msgid "Use gdalinfo to verify the size."
+msgstr "Usa gdalinfo para verificar el tamaño."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:157
+msgid ""
+"The `-scale` switch can be used to rescale data. Explicit control of the "
+"input and output ranges is also available. The gdalinfo `-mm` switch can be "
+"used to see pixel min/max values."
+msgstr ""
+"El interruptor  `-scale` puede usarse para cambiar la escala de datos. "
+"Control explícito de las gamas de entrada y salidas también está disponible."
+" El interruptor de gdalinfo `-mm` se puede usar para ver los valores "
+"mínimos/máximos de píxeles."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:161
+msgid ""
+"Let's split our image into two with `-srcwin` which makes a copy based on "
+"pixel/line location (xoff yoff xsize ysize). You also could use `-projwin` "
+"and define the corners in georeferenced coordinates (ulx uly lrx lry)."
+msgstr ""
+"Vamos a dividir nuestra imagen en dos con `-srcwin` que hace una copia "
+"basada en pixel/línea localización (xoff yoff xsize ysize). También se puede"
+" usar  `-projwin`  y definir los ángulos en coordenadas georeferenciadas "
+"(ulx uly lrx lry)."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:173
+msgid "Raster tileindex with gdaltindex"
+msgstr "Ráster tileindex con gdaltindex"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:175
+msgid ""
+"You can build a shapefile as a raster tileindex. For every image a polygon "
+"is generated with the bounds of the extent of the polygon and the path to "
+"the file."
+msgstr ""
+"Puede crear un shapefile como un ráster tileindex. Cada imagen se genera un "
+"polígono con los límites de la extensión del polígono y la ruta de acceso al"
+" archivo."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:183
+msgid ""
+"Have a look at your output shapefile with QGIS and ogrinfo (you will learn "
+"more about ogrinfo later in this tutorial)"
+msgstr ""
+"Echa un vistazo a su salida shapefile con QGIS y ogrinfo (usted aprenderá "
+"más sobre ogrinfo más adelante en este tutorial)"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:211
+msgid "Reprojecting"
+msgstr "Reproyectando"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:213
+msgid ""
+"For this process we assume that HYP_50M_SR_W.tif has been properly created "
+"with bounds. As we saw before with gdainfo no coordinate system was set. So "
+"we assign WGS84 as coordinate system to the image in the first step."
+msgstr ""
+"Para este proceso asumimos que HYP_50M_SR_W.tif se ha creado correctamente "
+"con límites. Como vimos antes con gdainfo ningún sistema de coordenadas fue "
+"configurado. Por lo tanto asignamos WGS84 como sistema de coordenadas de la "
+"imagen en el primer paso."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:222
+msgid ""
+"The gdalwarp command can be used to reproject images. Here we reproject the "
+"WGS84 geographic image to the Mercator projection:"
+msgstr ""
+"The gdalwarp command can be used to reproject images. Here we reproject the "
+"WGS84 geographic image to the Mercator projection:"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:229
+msgid "Use gdalinfo to verify the change and have a look at the image."
+msgstr ""
+"Usa gdalinfo para verificar el cambio y echarle un vistazo a la imagen."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:234
+msgid "Here we reproject to the Ortho projection."
+msgstr "Aquí reproyectamos a la proyección Ortho."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:244
+msgid ""
+"Note how the poles are clipped?  This is because the edges at the pole can't"
+" be reprojected gdalwarp does not read all the data.  We can force gdalwarp "
+"to read a bunch of surplus data around chunks as one way to resolve this. "
+"Read more about this in the RasterTutorial "
+"http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
+msgstr ""
+"¿Nota cómo se recortan los polos?  Esto es porque los bordes en el Polo no "
+"pueden ser reproyectados, gdalwarp no lee todos los datos.  Podemos forzar "
+"gdalwarp para leer un montón de datos excedentes en trozos como una manera "
+"de resolver esto. Lea más sobre esto en el  RasterTutorial de "
+"http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:252
+msgid "Mosaicking"
+msgstr "Mosaico"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:254
+msgid ""
+"gdal_merge.py is a python script that can be used for simple mosaicking "
+"tasks. Mosaic the east.tif and west.tif into a single file:"
+msgstr ""
+"gdal_merge.py es un script en python que se puede utilizar para tareas "
+"sencillas de mosaico. Mosaico de east.tif y west.tif en un solo archivo:"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:262
+msgid ""
+"The same task can be accomplished with gdalwarp. gdalwarp has a variety of "
+"advantages over gdal_merge, but can be slow to merge many files:"
+msgstr ""
+"La misma tarea puede realizarse con gdalwarp. gdalwarp tiene una variedad de"
+" ventajas sobre gdal_merge, pero puede ser lento para fusionar varios "
+"archivos:"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:272
+msgid "Get to know OGR"
+msgstr "Conozca OGR"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:279
+msgid "Open the shape file with a Desktop GIS like QGIS, and have a look."
+msgstr ""
+"Abra el shape file con un SIG de Escritorio como QGIS y eche un vistazo."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:283
+msgid "Get information about the vector data with ogrinfo"
+msgstr "Obtener información acerca de los datos de vector con ogrinfo"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:304
+msgid "Get a summary about your data with ogrinfo together with `-so`."
+msgstr "Obtenga un resumen de sus datos con ogrinfo junto con `-so`."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:387
+msgid ""
+"If you run ogrinfo without a parameter you will get a summary about your "
+"data and afterwards a section for every dataset."
+msgstr ""
+"Si ejecuta ogrinfo sin un parámetro obtendrá un resumen sobre los datos y "
+"luego una sección para cada conjunto de datos."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:394
+msgid ""
+"You can forward the result from ogrinfo to grep to filter and get only the "
+"attribute COUNTRY."
+msgstr ""
+"Podrá enviar el resultado de ogrinfo a grep para filtrar y obtener solamente"
+" el atributo PAÍS."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:410
+msgid ""
+"You can convert your data to other formats. Get the list of the supported "
+"formats with `--formats`."
+msgstr ""
+"Puede convertir sus datos a otros formatos. Obtener la lista de los formatos"
+" compatibles con  `--formats`."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:414
+msgid "Use ogr2ogr to convert data between file formats"
+msgstr "Utilizar ogr2ogr para convertir datos entre formatos de archivo"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:416
+msgid ""
+"You can use ogr2ogr to converts simple features data between file formats. "
+"You can use `--formats` to get the list of the supported formats with "
+"read/write information."
+msgstr ""
+"Puede utilizar ogr2ogr para convertir datos de características simples entre"
+" formatos de archivo. Puede utilizar `--formats`  para obtener la lista de "
+"los formatos soportados con información de lectura/escritura"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:420
+msgid "Convert the countries to GML."
+msgstr "Convertir a los países a GML."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:429
+msgid "Things to try"
+msgstr "Cosas para probar"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:431
+msgid "Here are some additional challenges for you to try:"
+msgstr "Aquí hay algunos desafíos adicionales para que intentes:"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:433
+msgid "Try gdalwarp or gdal_merge.py to mosaic your data"
+msgstr "Pruebe gdalwarp o gdal_merge.py para hacer un mosaico con sus datos"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:435
+msgid "Try gdaladdo to build internal overviews"
+msgstr "Pruebe gdaladdo para construir descripciones internas"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:437
+msgid ""
+"QGIS uses GDAL/OGR too to suport many formats. It also provides the "
+"GdalTools Plugin to process raster data. This plugin integrates the gdal-"
+"tools into QGIS."
+msgstr ""
+"QGIS usa GDAL/OGR también para soporte de muchos formatos. Además "
+"proporciona el Plugin de GdalTools  para procesar datos ráster. Este plugin "
+"integra las herramientas gdal en QGIS."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:439
+msgid ""
+"Try ogr2ogr to import/export your vector data to other formats like PostGIS."
+" Have a look at the options ogr2ogr provides."
+msgstr ""
+"Pruebe ogr2ogr para  importar/exportar los datos de vector a otros formatos "
+"como PostGIS. Eche un vistazo a las opciones que ogr2ogr proporciona."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:441
+msgid "Try the QGIS plugin OGR-Layer-Konverter."
+msgstr "Pruebe el plugin OGR-Layer-Konverter de QGIS. "
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:445
+msgid "What Next?"
+msgstr "¿Qué sigue?"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:447
+msgid ""
+"This is only the first step on the road to using GDAL and OGR. There is a "
+"lot more functionality you can try."
+msgstr ""
+"Esto es sólo el primer paso en el camino al uso de GDAL y OGR. Hay mucha más"
+" funcionalidad que puede probar."
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:450
+msgid "GDAL Project home"
+msgstr "Proyecto GDAL inicio"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:452
+msgid "http://www.gdal.org"
+msgstr "http://www.gdal.org"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:454
+msgid "GDAL Raster Tutorial"
+msgstr "GDAL Raster Tutorial"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:456
+msgid "http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
+msgstr "http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:458
+msgid "GDAL Workshop"
+msgstr "GDAL Workshop"
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:460
+msgid "http://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
+msgstr ""
+"http://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"

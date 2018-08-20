@@ -1084,15 +1084,15 @@ msgstr "j.yu jacobs-university de"
 
 #: ../../build/contributors.csv:1
 msgid "Joaquin Jose del Cerro"
-msgstr ""
+msgstr "Joaquin Jose del Cerro"
 
 #: ../../build/contributors.csv:1
 msgid "jjdelcerro gvsig com"
-msgstr ""
+msgstr "jjdelcerro gvsig com"
 
 #: ../../build/contributors.csv:1
 msgid "jjdelcerro"
-msgstr ""
+msgstr "jjdelcerro"
 
 #: ../../build/contributors.csv:1
 msgid "Jody Garnett"

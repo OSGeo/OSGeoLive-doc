@@ -1,0 +1,270 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:18
+msgid "Proj.4 Quickstart"
+msgstr "Guía Rápida de Proj.4"
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:20
+msgid ""
+"proj.4 is a standard Unix filter function which converts geographic "
+"longitude and latitude coordinates into cartesian coordinates (and vice "
+"versa), and it is a C API for software developers to include coordinate "
+"transformation in their own software."
+msgstr ""
+"proj.4 es una función de filtro estándar Unix que convierte coordenadas "
+"geográficas latitud y longitud en coordenadas cartesianas (y viceversa), y "
+"es una C API para los desarrolladores de software incluyen la transformación"
+" de coordenadas en su propio software."
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:30
+msgid "proj"
+msgstr "proj"
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:34
+msgid ""
+"**What will I learn ?** In this section, you will learn how to use the proj "
+"tool."
+msgstr ""
+"**¿Qué voy a aprender?** en esta sección, usted aprenderá cómo utilizar la "
+"herramienta de Proj."
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:37
+msgid "What is proj ?"
+msgstr "¿Qué es proj?"
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:39
+msgid ""
+"Proj and invproj perform respective forward  and inverse  transformation  of"
+" cartographic data to or from cartesian data  with  a  wide  range  of "
+"selectable projection functions."
+msgstr ""
+"Proy y invproj realizan respectiva transformación hacia adelante e inversa "
+"de datos cartográficos o de datos cartesianos con una amplia gama de "
+"funciones de proyección seleccionable."
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:43
+msgid "proj Synopsis"
+msgstr "Sinopsis de proj"
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:49
+#: ../../build/doc/quickstart/proj4_quickstart.rst:149
+msgid ""
+"These commands are fully describe in `proj documentation "
+"<http://proj4.org/apps/proj.html>`_ for the latest version."
+msgstr ""
+"Estos comandos son descritos completamente en `proj documentation "
+"<http://proj4.org/apps/proj.html>`_ para la última versión. "
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:52
+msgid "proj Example"
+msgstr "Ejemplo de proj "
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:54
+#: ../../build/doc/quickstart/proj4_quickstart.rst:99
+msgid "The following script"
+msgstr "El siguiente script"
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:65
+msgid ""
+"will perform UTM forward projection with a stan- dard  UTM  central  "
+"meridian  nearest  longitude 112W.  The geographic values of this example "
+"are equivalent and  meant  as  examples  of  various forms  of  DMS  input."
+"  The x-y output data will appear as three lines of::"
+msgstr ""
+"realizará una proyección UTM hacia adelante con un meridiano central UTM "
+"estándar más cercano a la longitud 112W. Los valores geográficos de este "
+"ejemplo son equivalentes y significan ejemplos de varias formas de entrada "
+"de DMS. Los datos de salida x-y aparecerán como tres líneas de ::"
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:75
+msgid "cs2cs"
+msgstr "cs2cs"
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:79
+msgid ""
+"**What will I learn ?** In this section, you will learn how to use the cs2cs"
+" tool."
+msgstr ""
+"**¿Qué voy a aprender?** en esta sección, usted aprenderá cómo utilizar la "
+"herramienta de cs2cs."
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:82
+msgid "What is cs2cs ?"
+msgstr "¿Qué es cs2cs?"
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:84
+msgid ""
+"``cs2cs`` performs transformation between the source and destination "
+"cartographic  coordinate  system on a set of input points.  The coordinate "
+"system transformation can include  translation  between projected  and "
+"geographic coordinates as well as the application of datum shifts."
+msgstr ""
+"``cs2cs``  realiza la transformación entre el sistema de coordenadas "
+"cartográfico fuente y destino en un conjunto de puntos de entrada.  La "
+"transformación del sistema de coordenadas puede incluir traducción entre "
+"coordenadas geográficas y proyectadas, así como la aplicación de cambios de "
+"referencia."
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:89
+msgid "cs2cs Synopsis"
+msgstr "Sinopsis de cs2cs "
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:94
+msgid ""
+"These commands are fully describe in `cs2cs documentation "
+"<http://proj4.org/apps/cs2cs.html>`_ for the latest version."
+msgstr ""
+"Estos comandos son descritos completamente en `cs2cs documentation "
+"<http://proj4.org/apps/cs2cs.html>`_ para la última versión."
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:97
+msgid "cs2cs Example"
+msgstr "Ejemplo de cs2cs"
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:111
+msgid ""
+"will  transform the input NAD83 geographic coordinates into NAD27 "
+"coordinates in the  UTM  projection  with  zone 10 selected.  The geographic"
+" values of this example are equivalent and  meant as  examples of various "
+"forms of DMS input. The x-y output data will appear as three lines of:"
+msgstr ""
+"va a transformar las coordenadas geográficas de NAD83 entradas en NAD27 "
+"coordenadas en la proyección UTM zona 10 seleccionados.  Los valores "
+"geográficos de este ejemplo son equivalentes y significados como ejemplos de"
+" diversas formas de entrada DMS. Los datos de salida x y aparecerán como "
+"tres líneas de:"
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:121
+msgid "geod"
+msgstr "geod"
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:125
+msgid ""
+"**What will I learn ?** In this section, you will learn how to use the geod "
+"tool."
+msgstr ""
+"**¿Qué voy a aprender?** en esta sección, usted aprenderá cómo utilizar la "
+"herramienta de geod."
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:128
+msgid "What is geod ?"
+msgstr "¿Qué es geod?"
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:130
+msgid ""
+"``geod``  (direct)  and  ``invgeod`` (inverse) perform geodesic (\"Great "
+"Circle\") computations for determining latitude,  longitude  and back  "
+"azimuth  of  a terminus point given a initial point latitude, longitude, "
+"azimuth and distance (direct) or  the  forward and  back azimuths and "
+"distance between an initial and terminus point latitudes and  longitudes  "
+"(inverse).   The  results  are accurate  to  round  off for `|f| < 1/50`, "
+"where f is flattening."
+msgstr ""
+"(directa) ``geod`` y  ``invgeod`` (inverso) realizan cálculos geodésicos "
+"(\"Gran Círculo\") para determinar la latitud, longitud y azimut inverso de "
+"un punto de término dado una inicial punto de latitud, longitud, Azimut y "
+"distancia (directas) o el delantero y la espalda Acimutes y distancia entre "
+"inicial y terminal de punto de latitudes y longitudes (inverso).   Los "
+"resultados son precisos para culminar para `|f| < 1/50`,  donde f es "
+"aplanar."
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:138
+msgid ""
+"``invgeod`` may not be available on all  platforms;  in  this  case call "
+"geod with the -I option."
+msgstr ""
+"``invgeod`` puede no estar disponible en todas las plataformas;  en este "
+"caso convoque geod con la opción -I."
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:142
+msgid "geod Synopsis"
+msgstr "Sinopsis de geod "
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:152
+msgid "geod Example"
+msgstr "Ejemplo de Geod "
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:154
+msgid ""
+"The following script determines the geodesic azimuths and  distance in U.S. "
+"statute miles from Boston, MA, to Portland, OR:"
+msgstr ""
+"La siguiente secuencia de comandos determina los azimuts geodésicos y la "
+"distancia en millas estatutarias de EE. UU. Desde Boston, MA, a Portland, "
+"OR:"
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:163
+msgid "which gives the results:"
+msgstr "que da los resultados:"
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:169
+msgid ""
+"where the first two values are the azimuth from Boston to Portland, the back"
+" azimuth from Portland to Boston followed by the distance."
+msgstr ""
+"donde los dos primeros valores son el azimut de Boston a Portland, el azimut"
+" inverso de Portland a Boston seguida de la distancia."
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:172
+msgid ""
+"An  example  of forward geodesic use is to use the Boston loca- tion and "
+"determine Portland's location by azimuth and distance:"
+msgstr ""
+"Un ejemplo del uso geodésica hacia adelante es usar la loca-ción de Boston y"
+" determinar la ubicación de Portland por azimut y distancia:"
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:181
+msgid "which gives:"
+msgstr "que da:"
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:188
+msgid ""
+"lack  of precision in the distance value compromises the precision of the "
+"Portland location."
+msgstr ""
+"falta de precisión en el valor de distancia compromete la precisión de la "
+"localización de Portland."
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:193
+msgid "Further reading"
+msgstr "Lectura adicional"
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:195
+msgid "`GeographicLib <http://geographiclib.sf.net>`_"
+msgstr "`GeographicLib <http://geographiclib.sf.net>`_"
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:197
+msgid ""
+"`C. F. F. Karney, Algorithms for Geodesics, J. Geodesy 87, 43-55 (2013) "
+"<http://dx.doi.org/10.1007/s00190-012-0578-z>`_. `Addendum "
+"<http://geographiclib.sf.net/geod-addenda.html>`_"
+msgstr ""
+"`C. F. F. Karney, Algorithms for Geodesics, J. Geodesy 87, 43-55 (2013) "
+"<http://dx.doi.org/10.1007/s00190-012-0578-z>`_. `Addendum "
+"<http://geographiclib.sf.net/geod-addenda.html>`_"
+
+#: ../../build/doc/quickstart/proj4_quickstart.rst:200
+msgid ""
+"`The online geodesic bibliography <http://geographiclib.sf.net/geodesic-"
+"papers/biblio.html>`_"
+msgstr ""
+"`La bibliografía en línea de geodésica  <http://geographiclib.sf.net"
+"/geodesic-papers/biblio.html>`_"

@@ -10,17 +10,17 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-08 15:38-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Andreas Schild <andreas.schild@bfw.gv.at>, 2018\n"
-"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"Last-Translator: Nicolas Roelandt, 2018\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:15
 msgid "Mapnik Quickstart"
-msgstr "Mapnik Quickstart"
+msgstr "Guide de démarrage rapide de Mapnik"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:17
 msgid ""
@@ -28,9 +28,10 @@ msgid ""
 "is about making beautiful maps. It is easily extensible and suitable for "
 "both desktop and web development."
 msgstr ""
-"Mapnik ist ein Werkzeug, um Kartenanwendungen zu entwickeln. Mapnik wird "
-"meist dazu genutzt, Karten zu generieren. Mapnik ist leicht erweiterbar und "
-"sowohl für Web- als auch Desktop-Entwicklung geeignet. "
+"Mapnik est une boîte à outils pour développer des applications de "
+"cartographie. Mapnik est avant tout pour faire de belles cartes. Il est "
+"facilement extensible et approprié pour le développement d'applications "
+"bureautiques et web."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:21
 msgid "Mapnik & Python"
@@ -41,18 +42,17 @@ msgid ""
 "Mapnik and its python bindings are installed and ready to be used for "
 "scripting on this machine."
 msgstr ""
-"Mapnik und die dazugehörigen Python-Abhängigkeiten sind auf dem aktuellen "
-"System installiert und können über entsprechende Scripts angesprochen "
-"werden."
+"Mapnik et ses liaisons Python sont installés et prêts à être utilisés pour "
+"les scripts sur cette machine."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:25
 msgid ""
 "Creating maps in python is easy with Mapnik. Type `python` on the command "
 "line to enter a python interpreter and try this::"
 msgstr ""
-"Karten über Python zu erstellen ist mit Mapnik ganz einfach. Öffnen Sie das "
-"Terminal und tippen Sie `python` in der Kommandozeile. Nach dem Bestätigen "
-"öffnet sich der Python-Interpreter. Geben Sie dort Folgendes ein::"
+"La création de cartes dans python est facile avec Mapnik. Tapez `python`  "
+"sur la ligne de commande pour entrer un interpréteur python et essayez ceci "
+":"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:38
 msgid ""
@@ -61,10 +61,10 @@ msgid ""
 "layers. You can create one of these inside QGIS with the Quantumnik plugin: "
 "http://plugins.qgis.org/plugins/quantumnik/"
 msgstr ""
-"Der oben dargestellte Code beruht darauf, dass ein XML Stylesheet an Mapnik "
-"übergeben wird. Hieraus werden die Layerdaten und die dazugehörigen Styles "
-"gelesen. Diese können zum Beispiel innerhalb von QGIS mit Quantumnik "
-"erstellt werden: http://plugins.qgis.org/plugins/quantumnik/"
+"Le code ci-dessus dépend d’une feuille de style XML que Mapnik est capable "
+"de lire, définissant les couches à partir desquelles lire des données  et "
+"les styles à appliquer à ces couches. Vous pouvez en créer un  à l’aide de "
+"QGIS et du plugin Quantumnik : http://plugins.qgis.org/plugins/quantumnik/"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:44
 msgid "Mapnik & Leaflet"
@@ -76,28 +76,30 @@ msgid ""
 "Mapnik to serve tiles into an OpenLayers web map in the OSM/Google tile "
 "scheme."
 msgstr ""
-"Außerdem ist eine Basis-Demoanwendung vorhanden. Hier wird Mapnik dazu "
-"genutzt, Kacheln im OSM/Google Tile-Schema in eine OpenLayers Anwendung "
-"einzubinden."
+"En outre, une application de base de démonstration est disponible, qui met "
+"en évidence l'utilisation de Mapnik pour servir les tuiles dans une webmap "
+"OpenLayers dans le shéma de tuile OSM/Google."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:48
 msgid "The demo uses a tileserver designed for Mapnik called \"TileStache\""
-msgstr "Die Demo benutzt den für Mapnik entwickelten Tileserver \"TileStache\""
+msgstr ""
+"La démonstration utilise un serveur de tuiles conçu pour Mapnik appelé « "
+"TileStache »"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:50
 msgid "More information about TileStache: http://tilestache.org/"
-msgstr "Mehr Informationen über TileStache: http://tilestache.org/"
+msgstr "Plus d’informations sur TileStache : http://tilestache.org/"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:52
 msgid "To run the demo just follow these steps:"
-msgstr "Um die Demo zu starten müssen folgende Schritte durchgeführt werden:"
+msgstr "Pour exécuter la démo il suffit de suivre ces étapes :"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:54
 msgid ""
 "Click :menuselection:`Desktop --> Spatial Tools --> Start Mapnik & "
 "TileStache`"
 msgstr ""
-"Klick :menuselection:`Desktop --> Spatial Tools --> Start Mapnik & "
+"Cliquez sur  :menuselection:`Desktop --> Spatial Tools --> Start Mapnik & "
 "TileStache`"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:56
@@ -105,45 +107,45 @@ msgid ""
 "The server should start in a terminal window (which stays open and outputs "
 "basic debugging information)."
 msgstr ""
-"Der Server startet nun in einem Terminal Fenster, welches geöffnet bleibt um"
-" Basis-Debug-Informationen auszugeben."
+"Le serveur devrait commencer dans une fenêtre de terminal (qui reste ouvert "
+"et génère des informations basiques de débogage)."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:58
 msgid ""
 "Check to make sure the server is working by requesting a tile from the "
 "server at http://localhost:8012/example/0/0/0.png"
 msgstr ""
-"Vergewissern Sie sich, dass der Server läuft indem Sie eine Kachel vom "
-"Server anfordern http://localhost:8012/example/0/0/0.png"
+"Vérifiez que le serveur fonctionne en demandant une tuile depuis le serveur "
+"à http://localhost:8012/example/0/0/0.png"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:60
 msgid "Then visit the Leaflet demo application page:"
-msgstr "Besuchen Sie dann die Leaflet Demoanwendung:"
+msgstr "Puis visitez la page de démonstration de Leaflet :"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:62
 msgid ""
 "This page is at `http://localhost/leaflet-demo.html <../../../leaflet-"
 "demo.html>`_"
 msgstr ""
-"Die Seite befindet sich unter `http://localhost/leaflet-demo.html "
+"Cette page est à cet endroit:  `http://localhost/leaflet-demo.html "
 "<../../../leaflet-demo.html>`_"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:66
 msgid "What Next?"
-msgstr "Wie geht es weiter?"
+msgstr "Ensuite ?"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:68
 msgid "Mapnik Tutorials"
-msgstr "Mapnik Tutorials"
+msgstr " Tutoriels Mapnik"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:70
 msgid "Follow the tutorials_ to learn more about Mapnik."
-msgstr "Lesen Sie das Tutorial_ , um mehr über Mapnik zu lernen."
+msgstr "Suivez le tutoriels_ pour en savoir plus sur Mapnik."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:74
 msgid "Explore files on the DVD"
-msgstr "Erkunden Sie die Konfigurationsdateien"
+msgstr "Explorez les fichiers sur le DVD"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:76
 msgid "See also the included files_ on this DVD."
-msgstr "Schauen Sie sich die bereitgestellten Dateien_ an."
+msgstr "Voir aussi les fichiers_ inclus sur le DVD."
