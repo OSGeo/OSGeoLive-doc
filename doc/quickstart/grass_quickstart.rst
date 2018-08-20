@@ -333,7 +333,7 @@ While not covered here, you may like to experiment with the
 Cartographic Composer and object-oriented Graphical Modelling Tool (offers
 export to Python); you'll find icons to launch them on the lower row of
 icons in the `Layer Manager` window. Further details can be found in
-the `wxGUI <../../grass/wxGUI.html>`_ help pages.
+the `wxGUI <https://grass.osgeo.org/grass74/manuals/wxGUI.html>`_ help pages.
 
 The wxGUI is written in Python, and if you're a fan of Python programming
 there are a number of great tools and an API available to you. In the bottom
@@ -368,7 +368,6 @@ Further reading
 * Visit the GRASS GIS website at `http://grass.osgeo.org <http://grass.osgeo.org>`_
 * Visit the GRASS GIS Wiki help site at `http://grasswiki.osgeo.org/wiki/ <http://grasswiki.osgeo.org/wiki/>`_
 * More tutorials and overviews can be found `here <http://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
-* A `synopsis of the GRASS GIS modules <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.pdf>`_, including
-  GUI menu position. (`HTML version <http://grass.osgeo.org/grass70/manuals/full_index.html>`_)
+* A `synopsis of the GRASS GIS modules <https://grass.osgeo.org/grass74/manuals/full_index.html>`_
 * If the 400 GIS modules which come with GRASS aren't enough for you have a look at the many contributed
-  add-ons at `http://grass.osgeo.org/grass70/manuals/addons/ <http://grass.osgeo.org/grass70/manuals/addons/>`_
+  add-ons at `http://grass.osgeo.org/grass74/manuals/addons/ <http://grass.osgeo.org/grass74/manuals/addons/>`_

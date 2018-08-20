@@ -2,6 +2,7 @@
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Markus Neteler
 :Reviewer: Angelos Tzotsos, OSGeo
+:Reviewer: Luca Delucchi
 :Version: osgeolive11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 :Copyright: 2011-2015 by The OSGeo Foundation
@@ -51,8 +52,8 @@ as well as a handy desktop GIS for handheld PDAs or netbooks.
 Core Features
 --------------------------------------------------------------------------------
 
-* You name it, there's a `tool for it <http://grass.osgeo.org/grass70/manuals/keywords.html>`_.
-* Explore the `screenshot collection <http://grass.osgeo.org/projects/>`_.
+* You name it, there's a `tool for it <http://grass.osgeo.org/grass74/manuals/keywords.html>`_.
+* Explore the `screenshot collection <http://grass.osgeo.org/screenshots/>`_.
 
 Details
 --------------------------------------------------------------------------------
