@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2018-08-20 17:19-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,7 +69,7 @@ msgid "OTB Applications"
 msgstr ""
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:76
-msgid "From the OTB application demonstration interface, you have to fill the form on the left to configure the WPS service execution. Once, you have selected the value for yoru processing, you can then press the Execute button at the bottom of the left form. In case you choose image/png as the output format, you will see the result of your processing displayed on the map. You can see bellow a sample KMeansClassification execution when selecting the image/png output format."
+msgid "From the OTB application demonstration interface, you have to fill the form on the left to configure the WPS service execution. Once, you have selected the value for your processing, you can then press the Execute button at the bottom of the left form. In case you choose image/png as the output format, you will see the result of your processing displayed on the map. You can see below a sample KMeansClassification execution when selecting the image/png output format."
 msgstr ""
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:86
