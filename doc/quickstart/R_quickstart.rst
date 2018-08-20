@@ -237,8 +237,9 @@ Ordnance Survey Grid Reference coordinates:
 We add these points to the base map, scaling their size by scaled square root of the 
 population (because that makes a symbol with area proportional to population), set the
 colour to red and the plotting character to a solid blob:
+
 ::
-	> ggplot() + 
+    > ggplot() + 
     > 	geom_sf(data = ukos) + 								# add UK shape to the map
     > 	geom_sf(data = ukpop, 								# add the Populated places
     > 	        aes(size = ukpop$POP_MAX/100000), 			# fix size of points (by area)
