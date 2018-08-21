@@ -134,7 +134,7 @@ Let's now include a layer from a Postgres database.
    * You can also click on the icon with the elephant head in the left panel or use the keyboard shortcut 'Ctrl+Shift+D'
 
    * Both Natural Earth and OpenStreetMap Postgis databases
-     are already available; we will be using use the Natural Earth database.
+     are already available; we will be using the Natural Earth database.
      If you wanted to connect to a different database, you would select
      the :guilabel:`New` button and fill in the database parameters.
 
