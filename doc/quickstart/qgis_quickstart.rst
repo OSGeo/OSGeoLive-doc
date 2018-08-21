@@ -147,7 +147,7 @@ click on the Public schema to deploy it:
       :scale: 70 %
       :alt: Connecting to a PostGIS DB
 
-#. Select ``ne_10_populated_places`` and click :guilabel:`Add`.
+#. Select ``ne_10m_populated_places`` and click :guilabel:`Add`.
 
    * For more details about working with PostGIS databases see
      the :doc:`PostGIS Quickstart <postgis_quickstart>`.
