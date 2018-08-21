@@ -81,36 +81,21 @@ OSGeoLive
             * Geospatial educators and workshop presenters use the stable OGeo-Live Virtual Machine or USB for practical class room settings.
             * Which all leads to Architects and Developers discovering, and then incorporating Open Source Geospatial software in their projects.
 
-    .. revealjs:: Reboot for 11.0</h2>
 
-        * Reduced scope of OSGeoLive 11.0 release
-        * Reviewed all projects, focusing on quality of documentation
-        * Rebaselined to focus on leading applications
-        * Dropped:
+    .. revealjs:: What is new in 12.0</h2>
 
-          * Windows-only applications/installers
-          * Overviews of OGC Standards
-          * Quickstarts of Libraries
-          * Some applications that did not meet our review criteria
-
-        * Only support a 64 bit distribution (32 bit is built but not officially supported)
-
-        .. rv_note::
-
-            In OSGeoLive Version 11.0 no new projects were included. We reduced our scope in order to meet the level of effort provided by our volunteers.
-
-    .. revealjs:: What is new in 11.0</h2>
-
-        * Re-based to Lubuntu 16.04.2
+        * Based to Lubuntu 18.04
         * Updated core packages based on DebianGIS
         * Major documentation updates
-        * Work being done to move translations to Transifex for 12.0
+        * Translations done on Transifex
+        * Automated doc building
         * Embraced OSGeo re-branding
         * Full `changelog <href="https://github.com/OSGeo/OSGeoLive/blob/master/CHANGES.txt">`__
         * Updated packages will soon land in UbuntuGIS
+        * Added (geo)datascience packages
 
         .. rv_note::
-            In OSGeoLive Version 11.0 we updated many existing applications.
+            In OSGeoLive Version 12.0 we updated many existing applications.
 
 
 

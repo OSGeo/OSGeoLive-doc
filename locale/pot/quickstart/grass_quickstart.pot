@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2018-08-20 17:19-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -189,7 +189,7 @@ msgid "Other things to try"
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:338
-msgid "While not covered here, you may like to experiment with the Cartographic Composer and object-oriented Graphical Modelling Tool (offers export to Python); you'll find icons to launch them on the lower row of icons in the `Layer Manager` window. Further details can be found in the `wxGUI <../../grass/wxGUI.html>`_ help pages."
+msgid "While not covered here, you may like to experiment with the Cartographic Composer and object-oriented Graphical Modelling Tool (offers export to Python); you'll find icons to launch them on the lower row of icons in the `Layer Manager` window. Further details can be found in the `wxGUI <https://grass.osgeo.org/grass74/manuals/wxGUI.html>`_ help pages."
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:344
@@ -225,10 +225,10 @@ msgid "More tutorials and overviews can be found `here <http://grasswiki.osgeo.o
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:377
-msgid "A `synopsis of the GRASS GIS modules <http://grass.osgeo.org/gdp/grassmanuals/grass64_module_list.pdf>`_, including GUI menu position. (`HTML version <http://grass.osgeo.org/grass70/manuals/full_index.html>`_)"
+msgid "A `synopsis of the GRASS GIS modules <https://grass.osgeo.org/grass74/manuals/full_index.html>`_"
 msgstr ""
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:379
-msgid "If the 400 GIS modules which come with GRASS aren't enough for you have a look at the many contributed add-ons at `http://grass.osgeo.org/grass70/manuals/addons/ <http://grass.osgeo.org/grass70/manuals/addons/>`_"
+#: ../../build/doc/quickstart/grass_quickstart.rst:378
+msgid "If the 400 GIS modules which come with GRASS aren't enough for you have a look at the many contributed add-ons at `http://grass.osgeo.org/grass74/manuals/addons/ <http://grass.osgeo.org/grass74/manuals/addons/>`_"
 msgstr ""
 

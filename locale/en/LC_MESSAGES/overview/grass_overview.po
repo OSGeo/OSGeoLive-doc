@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2018-08-20 17:19-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,15 +16,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../build/doc/overview/grass_overview.rst:20
+#: ../../build/doc/overview/grass_overview.rst:21
 msgid "GRASS GIS"
 msgstr "GRASS GIS"
 
-#: ../../build/doc/overview/grass_overview.rst:23
+#: ../../build/doc/overview/grass_overview.rst:24
 msgid "Fully featured GIS"
 msgstr "Fully featured GIS"
 
-#: ../../build/doc/overview/grass_overview.rst:25
+#: ../../build/doc/overview/grass_overview.rst:26
 msgid ""
 "The Geographic Resources Analysis Support System, commonly referred to as "
 "GRASS, is a Geographic Information System (GIS) providing powerful raster, "
@@ -50,7 +50,7 @@ msgstr ""
 "presentation graphics and hardcopy maps. GRASS GIS has been translated into "
 "many languages and supports a huge array of data formats."
 
-#: ../../build/doc/overview/grass_overview.rst:39
+#: ../../build/doc/overview/grass_overview.rst:40
 msgid ""
 "GRASS GIS is used around the world in academic and commercial settings as "
 "well as by many governmental agencies and environmental consulting "
@@ -64,7 +64,7 @@ msgstr ""
 "open-source software released under the terms of the GNU General Public "
 "License."
 
-#: ../../build/doc/overview/grass_overview.rst:44
+#: ../../build/doc/overview/grass_overview.rst:45
 msgid ""
 "The GRASS GIS software includes more than 400 built-in analysis modules. "
 "Additionally, over 100 community supplied modules and toolboxes are "
@@ -82,56 +82,56 @@ msgstr ""
 "be used both for batch data processing on massively-parallel supercomputers "
 "as well as a handy desktop GIS for handheld PDAs or netbooks."
 
-#: ../../build/doc/overview/grass_overview.rst:62
+#: ../../build/doc/overview/grass_overview.rst:63
 msgid "Core Features"
 msgstr "Core Features"
 
-#: ../../build/doc/overview/grass_overview.rst:64
-msgid ""
-"You name it, there's a `tool for it "
-"<http://grass.osgeo.org/grass70/manuals/keywords.html>`_."
-msgstr ""
-"You name it, there's a `tool for it "
-"<http://grass.osgeo.org/grass70/manuals/keywords.html>`_."
-
 #: ../../build/doc/overview/grass_overview.rst:65
 msgid ""
-"Explore the `screenshot collection <http://grass.osgeo.org/projects/>`_."
+"You name it, there's a `tool for it "
+"<http://grass.osgeo.org/grass74/manuals/keywords.html>`_."
 msgstr ""
-"Explore the `screenshot collection <http://grass.osgeo.org/projects/>`_."
+"You name it, there's a `tool for it "
+"<http://grass.osgeo.org/grass74/manuals/keywords.html>`_."
 
-#: ../../build/doc/overview/grass_overview.rst:68
+#: ../../build/doc/overview/grass_overview.rst:66
+msgid ""
+"Explore the `screenshot collection <http://grass.osgeo.org/screenshots/>`_."
+msgstr ""
+"Explore the `screenshot collection <http://grass.osgeo.org/screenshots/>`_."
+
+#: ../../build/doc/overview/grass_overview.rst:69
 msgid "Details"
 msgstr "Details"
 
-#: ../../build/doc/overview/grass_overview.rst:70
+#: ../../build/doc/overview/grass_overview.rst:71
 msgid "**Website:** http://grass.osgeo.org"
 msgstr "**Website:** http://grass.osgeo.org"
 
-#: ../../build/doc/overview/grass_overview.rst:72
+#: ../../build/doc/overview/grass_overview.rst:73
 msgid "**Licence:** GNU General Public License (GPL) version 2"
 msgstr "**Licence:** GNU General Public License (GPL) version 2"
 
-#: ../../build/doc/overview/grass_overview.rst:74
+#: ../../build/doc/overview/grass_overview.rst:75
 msgid "**Software Version:** |version-grass|"
 msgstr "**Software Version:** |version-grass|"
 
-#: ../../build/doc/overview/grass_overview.rst:76
+#: ../../build/doc/overview/grass_overview.rst:77
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
 msgstr "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
 
-#: ../../build/doc/overview/grass_overview.rst:78
+#: ../../build/doc/overview/grass_overview.rst:79
 msgid "**API Interfaces:** C, Python, Bourne Shell"
 msgstr "**API Interfaces:** C, Python, Bourne Shell"
 
-#: ../../build/doc/overview/grass_overview.rst:80
+#: ../../build/doc/overview/grass_overview.rst:81
 msgid "**Support:** http://grass.osgeo.org/support/"
 msgstr "**Support:** http://grass.osgeo.org/support/"
 
-#: ../../build/doc/overview/grass_overview.rst:85
+#: ../../build/doc/overview/grass_overview.rst:86
 msgid "Quickstart"
 msgstr "Quickstart"
 
-#: ../../build/doc/overview/grass_overview.rst:87
+#: ../../build/doc/overview/grass_overview.rst:88
 msgid ":doc:`Quickstart documentation <../quickstart/grass_quickstart>`"
 msgstr ":doc:`Quickstart documentation <../quickstart/grass_quickstart>`"
