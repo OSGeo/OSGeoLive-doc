@@ -15,7 +15,7 @@ OSGeoLive
         Press "s" for slide notes, ESC to zoom out, SPACE / arrow keys to navigate.
     
     .. rv_note::
-        This OSGeo-Live Overview, originally compiled by Cameron Shorter is licensed under a Creative Commons Attribution 3.0 License. It is derived from OSGeo-Live Project Overviews, which are authored by the numerous OSGeo-Live authors as referenced in the credits page at the end of this presentation, and also at <a href="https://live.osgeo.org">https://live.osgeo.org</a>.
+        This OSGeoLive Overview, originally compiled by Cameron Shorter is licensed under a Creative Commons Attribution 3.0 License. It is derived from OSGeoLive Project Overviews, which are authored by the numerous OSGeoLive authors as referenced in the credits page at the end of this presentation, and also at <a href="https://live.osgeo.org">https://live.osgeo.org</a>.
         We have created this presentation in the hope that it will help increase the awareness and uptake of the breadth of quality GeoSpatial Open Source Software.
         Please feel free to use these slides, or a subset of these slides, for whatever purposes you see fit, but please credit us authors.
         The latest version of this presentation and abstract is available at <a href="https://github.com/OSGeo/OSGeoLive-doc/tree/master/en/presentation">https://github.com/OSGeo/OSGeoLive-doc/tree/master/en/presentation</a>.
@@ -40,9 +40,9 @@ OSGeoLive
 
 
         .. rv_note::
-            OSGeo-Live is a self-contained bootable DVD, based on the Lubuntu Linux distribution, that is pre-installed and pre-configured with over 50 of the best GeoSpatial Open Source applications along with sample datasets.
+            OSGeoLive is a self-contained bootable USB, based on the Lubuntu Linux distribution, that is pre-installed and pre-configured with over 50 of the best GeoSpatial Open Source applications along with sample datasets.
             It contains overview and quickstart documentation for each application, as well as documentation about key OGC spatial standards.
-            The DVD is ideal for handing out at conferences, using in workshops, and trialling a range of Open Source Software.
+            The USB is ideal for handing out at conferences, using in workshops, and trialling a range of Open Source Software.
 
     .. revealjs:: DVD / USB / Virtual Machine
 
@@ -50,8 +50,8 @@ OSGeoLive
             :height: 400
 
         .. rv_note::
-            OSGeoLive can also be run from a DVD, USB flash drive, installed into a Virtual Machine, or installed onto your hard drive.
-            This presentation provides a lightning overview of all applications installed on OSGeoLive, which effectively gives you a birds eye view of the breadth of robust GeoSpatial Open Source Software available.
+            OSGeoLive can be run from a DVD, USB flash drive, installed into a Virtual Machine, or installed onto your hard drive.
+            This presentation provides a lightening overview of all applications installed on OSGeoLive, which effectively gives you a birds eye view of the breadth of robust GeoSpatial Open Source Software available.
 
     .. revealjs:: Quality Criteria
 
@@ -84,18 +84,17 @@ OSGeoLive
 
     .. revealjs:: What is new in 12.0</h2>
 
-        * Based to Lubuntu 18.04
+        * Updated to Lubuntu 18.04 LTS
         * Updated core packages based on DebianGIS
         * Major documentation updates
         * Translations done on Transifex
         * Automated doc building
         * Embraced OSGeo re-branding
-        * Full `changelog <href="https://github.com/OSGeo/OSGeoLive/blob/master/CHANGES.txt">`__
-        * Updated packages will soon land in UbuntuGIS
         * Added (geo)datascience packages
+        * Full `changelog <href="https://github.com/OSGeo/OSGeoLive/blob/master/CHANGES.txt">`__
 
         .. rv_note::
-            In OSGeoLive Version 12.0 we updated many existing applications.
+            In OSGeoLive Version 12.0 we've improved our documentation and translation process, making it easier to maintain. We've also updated many existing applications and moved to the latest Lubuntu 16.04.2 Long Term Support release.
 
 
 
@@ -149,7 +148,7 @@ OSGeoLive
 
         .. rv_note::
             * Open Source applications have a reputation for excellent standards compliance. Notably, the OGC uses Open Source projects when defining reference implementations for standards.
-            * OSGeoLive includes overviews of some of the key OGC standards in simple language so they can be understood by people without a technical background.
+            * Standards supported by included projects are listed in the Project Overviews.
             * Building Spatial Data Infrastructures using standards, facilitates interoperability between proprietary and open source applications.
             * It facilitates sharing data between agencies.
             * It reduces long term costs associated with data maintenance,
