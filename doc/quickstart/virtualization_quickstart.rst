@@ -75,7 +75,7 @@ Once the VM is created, click on the Settings button. In the "General" section, 
   .. image:: /images/projects/osgeolive/vmdk_general_advanced.png
      :scale: 65 %
 
-Go to the "Display" section and increase video memory to 32 or 64 MB.
+Go to the "Display" section and increase video memory to 32 or 64 MB. In some host operating systems, it may be required to "Enable 3D Acceleration" for display to work properly.
 
   .. image:: /images/projects/osgeolive/vmdk_display.png
      :scale: 65 %
