@@ -17,20 +17,20 @@ Y  | cesium |1.46| Y | Y | Browser Facing GIS | | 3D globes and 2D maps in a bro
 Y  |  geomajas  ||  Y  |  Y  |  Browser Facing GIS  |    |  Browser GIS Client  |  geomajas|http://www.geomajas.org|OSGeo_project|Geomajas
 Y  |  mapbender  |  3.0.7.3  |  Y  |  Y  |  Browser Facing GIS  |    |  Geoportal Framework  |  mapbender|http://www.mapbender.org|OSGeo_project|Mapbender
 Y  |  geomoose  |  3.2.0  |  Y  |  Y  |  Browser Facing GIS  |    |  Web GIS Portal  |  geomoose|http://www.geomoose.org/|OSGeo_project|GeoMoose
-Y  |  geonode  |  2.6.0  |  Y  |  Y  |  Browser Facing GIS  |    |  Geospatial Content Management System  |  geonode|http://geonode.org|OSGeo_project|GeoNode
+Y  |  geonode  |  2.6.1  |  Y  |  Y  |  Browser Facing GIS  |    |  Geospatial Content Management System  |  geonode|http://geonode.org|OSGeo_project|GeoNode
 ######################| | | | | | | | | | |
 #   Web Services  | | | | | | | | | | |
 ######################| | | | | | | | | | |
 Y  |  geoserver  |  2.13.2  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  geoserver|http://geoserver.org/|OSGeo_project|GeoServer
 Y  |  mapserver  |  7.0.7  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  mapserver|http://mapserver.org/|OSGeo_project|MapServer
 N  |  deegree  |  3.4.1  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  deegree3|http://www.deegree.org|OSGeo_project|deegree
-Y  |  ncWMS  ||  Y  |  Y  |  Web Services  |    |  Web Map Service  |  ncwms|https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/| |ncWMS
-Y  |  eoxserver  |  0.4.0  |  Y  |  Y  |  Web Services  |    |  Web Coverage Service  |  eoxserver|https://eoxserver.readthedocs.org/| |EOxServer
+Y  |  ncWMS  | 2.2.8 |  Y  |  Y  |  Web Services  |    |  Web Map Service  |  ncwms|https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/| |ncWMS
+Y  |  eoxserver  |  0.4.1  |  Y  |  Y  |  Web Services  |    |  Web Coverage Service  |  eoxserver|https://eoxserver.readthedocs.org/| |EOxServer
 Y  |  geonetwork  |  3.2.1  |  Y  |  Y  |  Web Services  |    |  Metadata Catalogue  |  geonetwork-opensource|http://geonetwork-opensource.org/|OSGeo_project|GeoNetwork
 Y  |  pycsw  |  2.0.3  |  Y  |  Y  |  Web Services  |    |  Metadata Catalogue  |  pycsw|http://pycsw.org/|OSGeo_project|pycsw
 Y  |  pywps  |  4.0.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  pyWPS| |OSGeo_project|PyWPS
 Y  |  mapproxy  | 1.11.0 |  Y  |  Y  |  Web Services  |    |  Proxy WMS & tile services  |  mapproxy| |OSGeo_community |MapProxy
-Y  |  qgis_mapserver  ||  Y  |  Y  |  Web Services  |    |  Web Map Service  |  |http://www.qgis.org| |QGIS Server
+Y  |  qgis_mapserver  | 2.18.17 |  Y  |  Y  |  Web Services  |    |  Web Map Service  |  |http://www.qgis.org| |QGIS Server
 Y  |  istsos  |  2.3.1  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  istsos|http://istsos.org|OSGeo_community|istSOS
 Y  |  52nSOS  |  4.4.0  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  SensorObservationService|https://52north.org/sos| |52 North SOS
 Y  |  52nWPS  |  3.6.2  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  n52-wps|https://52north.org/wps| |52 North WPS
@@ -58,7 +58,7 @@ Y  |  gmt  |  5.2.1|  Y  |  Y  |  Spatial Tools  |11|  Cartographic Rendering  |
 Y  |  otb  |  6.4.0  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  otb|http://www.orfeo-toolbox.org/|OSGeo_project|OTB
 Y  |  R  |  3.4.4  |  Y  |  Y  |  Spatial Tools  |    |  Statistical Programming  |  R_project|http://cran.r-project.org| |R for Spatial Data
 Y  |  mapnik  |  3.0.13  |  Y  |  Y  |  Spatial Tools  |    |  Cartographic Rendering  |  mapnik|http://mapnik.org/| |Mapnik
-Y  |  mapslicer  ||  Y  |  Y  |  Spatial Tools  |    |  Create Map Tiles  |  |http://mapproxy.org/| |MapSlicer
+Y  |  mapslicer  | 1.0rc2 |  Y  |  Y  |  Spatial Tools  |    |  Create Map Tiles  |  |http://mapproxy.org/| |MapSlicer
 Y  |  ossim  |  2.2.2  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  ossim|http://www.ossim.org/|OSGeo_project|OSSIM
 ######################| | | | | | | | | | |
 #   Domain Specific GIS   | | | | | | | | | | |
