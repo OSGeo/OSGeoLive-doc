@@ -58,6 +58,21 @@
 {%- macro header3() %}
 {%- endmacro %}
 
+{# footer for subdirectories' files like: overview quicstart #}
+{%- macro footer1() %}
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+{%- endmacro %}
+
+{# footer for files at level of index #}
+{%- macro footer2() %}
+<span style="font-size:85%;"><i><a href="./copyright.html">Copyright & Disclaimer</a></i></span>
+{%- endmacro %}
+
+
+{# header for files for presentation #}
+{%- macro footer3() %}
+{%- endmacro %}
+
 
 
 
@@ -99,8 +114,19 @@
 {#%- block sidebar2 %}{% endblock %#}
 
 {% block footer %}
-{%- if pagename not in ['presentation'] %}
-<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+{# TODO this list should be set on the CMakeLists based on configuration #}
+{%- if pagename in ['index', 'contact', 'disclaimer.rst', 'mac_installers',  'osgeo_contact',  'scripts',  'translators',
+            'win_installers', 'contributors', 'download', 'metrics', 'prior_applications', 'sponsors_osgeo', 'copyright', 'sponsors']
+%}
+    {{ footer2() }}
+    {% else %}
+    {%- if pagename in ['presentation'] %}
+    {{ footer3() }}
+        {% else  %}
+        {# header for subdirectories' files like: overview quicstart#}
+        {{ footer1() }}
+        {% endif %}
 {% endif %}
 {% endblock %}
+
 
