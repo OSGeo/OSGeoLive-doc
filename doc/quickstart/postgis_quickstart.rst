@@ -240,7 +240,7 @@ one for the city name, and another for the geometry column:
 Conventionally this geometry column is named
 ``geom`` (the older PostGIS convention was ``the_geom``). This tells PostGIS what kind of geometry
 each feature has (points, lines, polygons etc), how many dimensions
-(in this case, if it had 3 or 4 dimensions we would use POINTZ, POINTM, or POINTZM), and the spatial reference
+(in this case 2, if it had 3 or 4 dimensions we would use POINTZ, POINTM, or POINTZM), and the spatial reference
 system. We used EPSG:4326 coordinates for our cities.
 
 
