@@ -3,7 +3,7 @@
 #   Desktop GIS  | | | | | | | | | | |
 ######################| | | | | | | | | | |
 Y  |  qgis  |  2.18.17  |  Y  |  Y  |  Desktop GIS  |    |    |  qgis|http://www.qgis.org|OSGeo_project|QGIS
-y  |  grass  |  7.4.0  |  Y  |  Y  |  Desktop GIS  |    |    |  grass_gis| |OSGeo_project|GRASS GIS
+Y  |  grass  |  7.4.0  |  Y  |  Y  |  Desktop GIS  |    |    |  grass_gis| |OSGeo_project|GRASS GIS
 Y  |  gvsig  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  gvsig-desktop-2|http://www.gvsig.com/|OSGeo_project|gvSIG Desktop
 Y  |  udig  |2.0.0|  Y  |  Y  |  Desktop GIS  |    |    |  udig|http://udig.refractions.net/| |User-friendly Desktop Internet GIS (uDig)
 Y  |  openjump  |1.11|  Y  |  Y  |  Desktop GIS  |    |    |  openjump_gis|http://www.openjump.org| |OpenJUMP GIS
@@ -23,7 +23,7 @@ Y  |  geonode  |  2.6.1  |  Y  |  Y  |  Browser Facing GIS  |    |  Geospatial C
 ######################| | | | | | | | | | |
 Y  |  geoserver  |  2.13.2  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  geoserver|http://geoserver.org/|OSGeo_project|GeoServer
 Y  |  mapserver  |  7.2.0  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  mapserver|http://mapserver.org/|OSGeo_project|MapServer
-N  |  deegree  |  3.4.1  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  deegree3|http://www.deegree.org|OSGeo_project|deegree
+Y  |  deegree  |  3.4.1  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  deegree3|http://www.deegree.org|OSGeo_project|deegree
 Y  |  ncWMS  | 2.2.8 |  Y  |  Y  |  Web Services  |    |  Web Map Service  |  ncwms|https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/| |ncWMS
 Y  |  eoxserver  |  0.4.1  |  Y  |  Y  |  Web Services  |    |  Web Coverage Service  |  eoxserver|https://eoxserver.readthedocs.org/| |EOxServer
 Y  |  geonetwork  |  3.2.1  |  Y  |  Y  |  Web Services  |    |  Metadata Catalogue  |  geonetwork-opensource|http://geonetwork-opensource.org/|OSGeo_project|GeoNetwork
@@ -49,7 +49,7 @@ Y  |  gpsprune  |   18.6.0  |  Y  |  Y  |  Navigation and Maps  |    |  View, Ed
 Y  |  marble  |  2.2.20  |  Y  |  Y  |  Navigation and Maps  |    |  Virtual Globe  |  marble|http://marble.kde.org/|OSGeo_project|Marble
 Y  |  osm  |  josm (13878)  |  Y  |  Y  |  Navigation and Maps  |    |  OpenStreetMap Tools  |  |https://www.openstreetmap.org/| |OpenStreetMap
 Y  | ideditor|  2.2.2|Y|Y|  Navigation and Maps  | | OpenStreetMap Web Editor|iD_OSM|http://wiki.openstreetmap.org/wiki/ID| |iD editor
-Y|  josm  | svn13878 |Y|Y|  Navigation and Maps  |    | OpenStreetMap Desktop Editor |  josm|http://josm.openstreetmap.de| |JOSM
+Y  |  josm  | svn13878 |Y|Y|  Navigation and Maps  |    | OpenStreetMap Desktop Editor |  josm|http://josm.openstreetmap.de| |JOSM
 Y  |  opencpn  | 4.8.4 |  Y  |  Y  |  Navigation and Maps  |    |  Marine GPS Chartplotter  |  opencpn|http://www.opencpn.org| |OpenCPN
 ######################| | | | | | | | | | |
 #   Spatial Tools  | | | | | | | | | | |
@@ -59,7 +59,7 @@ Y  |  otb  |  6.4.0  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  
 Y  |  R  |  3.4.4  |  Y  |  Y  |  Spatial Tools  |    |  Statistical Programming  |  R_project|http://cran.r-project.org| |R for Spatial Data
 Y  |  mapnik  |  3.0.13  |  Y  |  Y  |  Spatial Tools  |    |  Cartographic Rendering  |  mapnik|http://mapnik.org/| |Mapnik
 Y  |  mapslicer  | 1.0rc2 |  Y  |  Y  |  Spatial Tools  |    |  Create Map Tiles  |  |http://mapproxy.org/| |MapSlicer
-Y  |  ossim  |  2.2.2  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  ossim|http://www.ossim.org/|OSGeo_project|OSSIM
+N  |  ossim  |  2.2.2  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  ossim|http://www.ossim.org/|OSGeo_project|OSSIM
 ######################| | | | | | | | | | |
 #   Domain Specific GIS   | | | | | | | | | | |
 ######################| | | | | | | | | | |
