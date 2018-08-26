@@ -423,7 +423,7 @@ of the R statistics package add-ons.
 
 From the ``Table`` menu choose the ``Import layer/file`` option. 
 Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R ``maptools`` package
-(located in /usr/lib/R/site-library/spData/shapes):
+(located in /usr/local/lib/R/site-library/spData/shapes):
 
 .. image:: /images/projects/postgis/postgis_browsedata.png
   :scale: 75 %
