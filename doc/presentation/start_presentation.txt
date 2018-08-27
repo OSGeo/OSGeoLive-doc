@@ -51,7 +51,7 @@ OSGeoLive
 
         .. rv_note::
             OSGeoLive can be run from a DVD, USB flash drive, installed into a Virtual Machine, or installed onto your hard drive.
-            This presentation provides a lightening overview of all applications installed on OSGeoLive, which effectively gives you a birds eye view of the breadth of robust GeoSpatial Open Source Software available.
+            This presentation provides a lightning overview of all applications installed on OSGeoLive, which effectively gives you a birds eye view of the breadth of robust GeoSpatial Open Source Software available.
 
     .. revealjs:: Quality Criteria
 
@@ -94,7 +94,7 @@ OSGeoLive
         * Full `changelog <href="https://github.com/OSGeo/OSGeoLive/blob/master/CHANGES.txt">`__
 
         .. rv_note::
-            In OSGeoLive Version 12.0 we've improved our documentation and translation process, making it easier to maintain. We've also updated many existing applications and moved to the latest Lubuntu 16.04.2 Long Term Support release.
+            In OSGeoLive Version 12.0 we've improved our documentation and translation process, making it easier to maintain. We've also updated many existing applications and moved to the latest Lubuntu 18.04 Long Term Support release.
 
 
 
