@@ -62,7 +62,7 @@ table:
 
 * You will notice the display broken into 3 areas:
 
-  #. The left panel displays the database hierachy, such as a list of tables, and columns within the table. Right click on elements of the left panel to select from a list of common database actions.
+  #. The left panel displays the database hierarchy, such as a list of tables, and columns within the table. Right click on elements of the left panel to select from a list of common database actions.
 
   #. The top right panel shows SQL for the action selected. You can enter your own customised SQL into this panel.
 
@@ -81,7 +81,7 @@ table:
   MunicipalHalls table, but how about constrain by a GIS query, such as
   a Bounding Box query instead.
 
-* Now lets try tweaking this SQL statement to get NOME and (Lat,Long) for only
+* Now let's try tweaking this SQL statement to get NOME and (Lat,Long) for only
   the NOME_PROV fields include "BRESCIA", this time using the
   MunicipalHallsView.  In the upper right SQL pane type::
 

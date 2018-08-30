@@ -34,7 +34,7 @@ This Quickstart describes how to:
 Installing pywps-flask
 ======================
 
-Since the example service depends on Flask, make sure it installed on your 
+Since the example service depends on Flask, make sure it is installed on your 
 OSGeo-Live:
 
 `sudo apt install python-flask`
@@ -44,7 +44,7 @@ Then clone the repository from GitHub:
 `git clone https://github.com/geopython/pywps-flask.git`
 
 Now move into the repository folder and edit the configuration file. This can 
-be done with a programme like `nano`:
+be done with a program like `nano`:
 
 `nano pywps.cfg`
 
@@ -161,7 +161,7 @@ Deployment to production
 ------------------------
 
   The `pywps-flask` service is just an example and not designed for production. 
-  There is in alternative a Django based service, `pywps-django <https://github.com/jorgejesus/pywps-django>`_. The 
+  One possible alternative is a Django based service, `pywps-django <https://github.com/jorgejesus/pywps-django>`_. The 
   documentation provides further details on how to `set up a production service <http://pywps.readthedocs.io/en/latest/deployment.html>`_
   with `Apache <https://httpd.apache.org/>`_ or `nginx <https://nginx.org/>`_ and `Gunicorn <http://gunicorn.org/>`_.
 

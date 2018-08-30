@@ -223,7 +223,7 @@ from :doc:`GRASS GIS <../overview/grass_overview>`.
 
    * From the PERMANENT mapset select the `roadsmajor` map with a double click.
 
-#. Change the layer order if neccessary (roadsmajor, geology, elevation).
+#. Change the layer order if necessary (roadsmajor, geology, elevation).
 
 The plugin also gives you access to many of the powerful GRASS analysis
 modules and visualization tools:
