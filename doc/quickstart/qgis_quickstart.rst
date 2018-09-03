@@ -134,7 +134,7 @@ Let's now include a layer from a Postgres database.
    * You can also click on the icon with the elephant head in the left panel or use the keyboard shortcut 'Ctrl+Shift+D'
 
    * Both Natural Earth and OpenStreetMap Postgis databases
-     are already available; we will be using use the Natural Earth database.
+     are already available; we will be using the Natural Earth database.
      If you wanted to connect to a different database, you would select
      the :guilabel:`New` button and fill in the database parameters.
 
@@ -258,7 +258,7 @@ Using the Processing Toolbox
 
 A core plugin for QGIS which opens the door to a large family of
 processing tools is the Processing Toolbox (formerly named the SEXTANTE Toolbox).
-It acts as a standardized wrapper around a number of other sets to tools.
+It acts as a standardized wrapper around a number of other sets of tools.
 
 .. TBD: Cameron's review comments:
   If we are to include Sextante, then we need to describe using one of the
@@ -349,7 +349,7 @@ Importing OpenStreetMap data
      :alt:  The OpenStreetMap add layer
 
 #. You can now explore this rich dataset. Use the ``i`` information cursor
-   button in the QGIS toolbar to query individal map features.
+   button in the QGIS toolbar to query individual map features.
 
 Things to Try
 ================================================================================

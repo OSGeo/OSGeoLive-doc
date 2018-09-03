@@ -88,7 +88,7 @@ dragging and dropping files from Windows Explorer onto the map display window or
 **Add** toolbar buttons. Each layer that is added is listed in the legend window. Double clicking the layer 
 in the legend or right-click on the layer and select 
 **Properties** will bring up the 
-**Layer properties** dialog which has several tabs for making changes to a layers
+**Layer properties** dialog which has several tabs for making changes to a layer's
 properties. For example, to change the name displayed in the legend select the 
 **General** tab and modify the text in the 
 **Name** textbox. Other properties will be dealt with in subsequent sections. To
@@ -100,7 +100,7 @@ The colored icons displayed in the legend illustrate the type of data in the lay
 determines the overlay order in the map: layers that are higher in the list cover layers that are
 lower. If a layer seems to be missing it might be because it is completely covered by other
 layers. To change the order of a layer just click and drag it to where you want it to go. A small
-checkbox beside each legend entry allow you to turn the display of individual map layers on and
+checkbox beside each legend entry allows you to turn the display of individual map layers on and
 off. 
 
 MapWindow will display different kinds of GIS data, including: vectors (polygons, lines,
@@ -267,7 +267,7 @@ Open the
 tiles will be exported to that file.
 The resolution of the map is equivalent to the resolution of your computer screen. This being the case, 
 the exported maps are ok for use in PowerPoint but not for printing. Even though the map may look ok in 
-Microsoft Word when its up on your screen, the image quality on paper will be poor. 
+Microsoft Word when it's up on your screen, the image quality on paper will be poor. 
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 3.5.2 Preparing a publication-quality map
@@ -342,7 +342,7 @@ When all the vertices have been defined, right-click the mouse and select
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 The shapefile toolbar has a 
 **Vertex editor** button for changing the shape of existing shapes. 
-Vertices will be visible when using the vertex editor. When your click on the shape you want to edit
+Vertices will be visible when using the vertex editor. When you click on the shape you want to edit
 it becomes semi-transparent and the vertices will be clickable. When you click on a vertex (its color changes from blue to red) you can drag it to another location.
 When you double-click on the line a new vertex will be added. When you select a vertex and hit the delete button on your keyboard it will be deleted (after confirmation).
 This shapefile editor comes with an undo/redo option. Using the associated buttons on the toolbar you can 
