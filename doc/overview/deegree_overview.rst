@@ -118,7 +118,7 @@ Details
 
 **API Interfaces:** Java
 
-**Support:** http://wiki.deegree.org/deegreeWiki/GettingSupport
+**Support:** https://www.deegree.org/community
 
 
 @QUICKSTART_deegree@
