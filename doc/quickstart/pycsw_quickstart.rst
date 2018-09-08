@@ -66,12 +66,12 @@ The user fills the mandatory metadata fields going through the application tabs,
 .. image:: /images/projects/pycsw/pycsw_euosme_metadata_input.png
   :scale: 75 % 
 
-After the user has added all the information available, must push the validation button on top of the page, so that a check to be performed for consistency with the INSPIRE directive. 
+After the user has added all the information available, they must push the validation button on top of the page, so that a check is performed for consistency with the INSPIRE directive. 
 
 .. image:: /images/projects/pycsw/pycsw_euosme_save_metadata.png
   :scale: 75 %
 
-After a sucessful validation, the XML file can be saved to the local disk and viewed through a text editor or a browser.
+After a successful validation, the XML file can be saved to the local disk and viewed through a text editor or a browser.
 
 
 Loading Metadata

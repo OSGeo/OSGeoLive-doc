@@ -43,7 +43,7 @@ Key features:
 * Advanced editing capabilities:
 
   * Multiple drawing tools: draw point, draw linestring, draw polygon, ...
-  * CAD style tools: rotate, rotate by angle, symmetry, perpendicular, paralell, ... (by an extension)
+  * CAD style tools: rotate, rotate by angle, symmetry, perpendicular, parallel, ... (by an extension)
   * Multiple snapping modes: to vertexes, to vertexes and lines, to segment mid points, to centroids, to grid, ...
   * Geometry tracking mode
   * Advanced snap manager (by an extension)
