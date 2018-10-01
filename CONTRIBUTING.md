@@ -55,8 +55,8 @@ A contributor licensing agreement (CLA) must be filled out by every contributor 
 
 The CLA makes everyone’s rights clear:
 
-You (or your company) grant copyright license for your contributions to CARTO.
-You (or your company) grant patent license for your contributions to CARTO.
+You (or your company) grant copyright license for your contributions to OSGeoLive.
+You (or your company) grant patent license for your contributions to OSGeoLive.
 The contribution is entirely voluntary.
 The work is your original creation.
 You (or your company) are not required to provide support for your contributions.
