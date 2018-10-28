@@ -13,15 +13,13 @@
         * Bas Couwenberg,
         * Massimo De Stefano,
         * Astrid Emde,
-        * Ben Caradoc-Davies,
-        * Nicolas Roelandt
+        * Nicolas Roelandt,
         * Vicky Vergara.
 
         .. rv_note::
-            As you can see listed here, many people have been involved in packaging the Open Source Software for OSGeo-Live,
-            and literally thousands of developers have helped build the software we package.
+            Hundreds of people have helped package, test, document and translate OSGeoLive, and literally thousands of developers have helped build the software we package.
             Thank you.
-            I'd like to especially thank the Project Steering Committee who have led the coordination and core packaging of the OSGeo-Live project.
+            I'd like to especially thank the Project Steering Committee who have led the coordination and core packaging of the project.
 
     .. revealjs:: Sponsors
        :title-heading: h2
