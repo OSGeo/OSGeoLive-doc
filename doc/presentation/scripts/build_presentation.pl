@@ -217,7 +217,7 @@ sub get_section {
             :height: 600
 
         .. rv_note::
-            Note $note\n\n
+            $note\n\n
 ";
         $slides .= $slide;
 
