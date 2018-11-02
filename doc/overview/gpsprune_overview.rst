@@ -60,4 +60,4 @@ Details
 @QUICKSTART_gpsprune@
 
 .. presentation-note
-    GpsPrune is a tool for viewing, editing and converting coordinate data from GPS systems. It can be used for planning future trips and for analyzing recorded data afterwards. It uses OpenStreetMap imagery to show recorded tracks and waypoints, and provides a variety of tools to let you edit, crop and prune the data points. It also has functions for showing the data in three dimensions, and combining the points with photos, audio files and online information.
+    GpsPrune is a tool for processing GPS data. It shows recorded tracks and waypoints, and provides tools to edit, crop and prune data points. You can also view data in three dimensions, combine points with photos, audio files and online information.

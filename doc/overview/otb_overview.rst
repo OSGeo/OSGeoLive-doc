@@ -75,4 +75,4 @@ Details
 @QUICKSTART_otb@
 
 .. presentation-note
-    ORFEO Toolbox is a high performance image processing library, funded by the French Space Agency. It is primarily used for processing remote sensing images such as those gathered by radars, satellites and aerial photography. It provides tools for the future optic and radar images such as tridimensional aspects, changes detection, texture analysis, and pattern matching.
+    ORFEO Toolbox is a high performance image processing library, funded by the French Space Agency. It is used for processing remote sensing images such as those gathered by radars, satellites and aerial photography.
