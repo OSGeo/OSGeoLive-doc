@@ -82,6 +82,4 @@ Details
 @QUICKSTART_R@
 
 .. presentation-note
-    R is a powerful, widely-used software environment for statistical computing and graphics which excels at analyzing and processing geographic data sets. Geospatial analysis capabilities provide access to a large number of traditional and state of the art algorithms.
-    R and its packages are able to process point, line, polygon and grid data. Users can accomplish a broad array of tasks such as: image classification and statistical analysis to infer spatial relationships and patterns of features.
-    The core R interface is a command line window which provides excellent flexibility and control but tends to lengthen the time required to become a proficient user when compared to a graphical user interface.  Fortunately R is well documented which eases the learning process.
+    R provides a command line interface to powerful statistical computing and graphics algorithms and excels at analyzing geographic data sets.

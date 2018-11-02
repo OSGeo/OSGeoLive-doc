@@ -75,4 +75,4 @@ Details
 @QUICKSTART_marble@
 
 .. presentation-note
-    Marble is a spinning Globe and World Atlas similar to Google Earth. It was developed as part of the KDE project. You can view various map layers, pan and zoom, look up roads and Wikipedia descriptions of places, measure distances and more.
+    Marble is a spinning Globe and World Atlas similar to Google Earth. You can view map layers, look up Wikipedia descriptions of places, measure distances and more.

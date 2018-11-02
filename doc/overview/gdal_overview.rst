@@ -71,4 +71,4 @@ Details
 @QUICKSTART_gdal@
 
 .. presentation-note
-    GDAL and OGR are best known as the vector and raster Geographic Data Abstraction Libraries used by many open source and proprietary applications. However, the functions are also accessible as command line utilities to translate and process a wide range of vector and raster geospatial data formats.
+    GDAL and OGR are libraries used to translate between a wide range of projctions, and between different vector and raster formats.
