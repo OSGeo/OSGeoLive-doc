@@ -3,10 +3,10 @@
 #   Desktop GIS  | | | | | | | | | | |
 ######################| | | | | | | | | | |
 Y  |  qgis  |  2.18.17  |  Y  |  Y  |  Desktop GIS  |    |    |  qgis|http://www.qgis.org|OSGeo_project|QGIS
-Y  |  grass  |  7.4.0  |  Y  |  Y  |  Desktop GIS  |    |    |  grass_gis| |OSGeo_project|GRASS GIS
-Y  |  gvsig  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  gvsig-desktop-2|http://www.gvsig.com/|OSGeo_project|gvSIG Desktop
+Y  |  grass  |  7.4.0  |  Y  |  Y  |  Desktop GIS  |    |    |  grass_gis| |OSGeo_project|GRASS
+Y  |  gvsig  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  gvsig-desktop-2|http://www.gvsig.com/|OSGeo_project|gvSIG
 Y  |  udig  |2.0.0|  Y  |  Y  |  Desktop GIS  |    |    |  udig|http://udig.refractions.net/| |uDig
-Y  |  openjump  |1.11|  Y  |  Y  |  Desktop GIS  |    |    |  openjump_gis|http://www.openjump.org| |OpenJUMP GIS
+Y  |  openjump  |1.11|  Y  |  Y  |  Desktop GIS  |    |    |  openjump_gis|http://www.openjump.org| |OpenJUMP
 Y  |  saga  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  saga-gis|http://www.saga-gis.org| |SAGA
 ######################| | | | | | | | | | |
 # Browser Facing GIS| | | | | | | | | | |
@@ -34,7 +34,7 @@ Y  |  qgis_mapserver  | 2.18.17 |  Y  |  Y  |  Web Services  |    |  Web Map Ser
 Y  |  istsos  |  2.3.1  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  istsos|http://istsos.org|OSGeo_community|istSOS
 Y  |  52nSOS  |  4.4.0  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  SensorObservationService|https://52north.org/sos| |52 North SOS
 Y  |  52nWPS  |  3.6.2  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  n52-wps|https://52north.org/wps| |52 North WPS
-Y  |  zoo-project  |  1.6.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  zoo-project|http://zoo-project.org/|OSGeo_incubation|Zoo Project
+Y  |  zoo-project  |  1.6.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  zoo-project|http://zoo-project.org/|OSGeo_incubation|Zoo
 ######################| | | | | | | | | | |
 # Data Stores| | | | | | | | | | |
 ######################| | | | | | | | | | |
@@ -56,7 +56,7 @@ Y  |  opencpn  | 4.8.4 |  Y  |  Y  |  Navigation and Maps  |    |  Marine GPS Ch
 ######################| | | | | | | | | | |
 Y  |  gmt  |  5.2.1|  Y  |  Y  |  Spatial Tools  |11|  Cartographic Rendering  |  GMT|https://gmt.soest.hawaii.edu| |GMT
 Y  |  otb  |  6.4.0  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  otb|http://www.orfeo-toolbox.org/|OSGeo_project|OTB
-Y  |  R  |  3.4.4  |  Y  |  Y  |  Spatial Tools  |    |  Statistical Programming  |  R_project|http://cran.r-project.org| |R for Spatial Data
+Y  |  R  |  3.4.4  |  Y  |  Y  |  Spatial Tools  |    |  Statistical Programming  |  R_project|http://cran.r-project.org| |R Spatial
 Y  |  mapnik  |  3.0.13  |  Y  |  Y  |  Spatial Tools  |    |  Cartographic Rendering  |  mapnik|http://mapnik.org/| |Mapnik
 Y  |  mapslicer  | 1.0rc2 |  Y  |  Y  |  Spatial Tools  |    |  Create Map Tiles  |  |http://mapproxy.org/| |MapSlicer
 N  |  ossim  |  2.2.2  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  ossim|http://www.ossim.org/|OSGeo_project|OSSIM
@@ -68,15 +68,15 @@ Y  |  zygrib  |  8.0.1  |  Y  |  Y  |  Domain Specific GIS  |    |  Weather Fore
 #   Data| | | | | | | | | | |
 ######################| | | | | | | | | | |
 Y  |  naturalearth  ||  N  |  Y  |  Data  |    |  Global Data Sets  |  |http://www.naturalearthdata.com/| |Natural Earth
-Y  |  nc_dataset  ||  N  |  Y  |  Data  |    |    |  |http://wiki.osgeo.org/wiki/Category:Education| |OSGeo North Carolina, USA Educational dataset
 Y  |  osm_dataset  ||  N  |  Y  |  Data  |    |  Sample extract from OpenStreetMap  |  |https://www.openstreetmap.org/| |OpenStreetMap
-Y  |  netcdf_dataset  ||  N  |  Y  |  Data  |    |  Time series temperature and precipitation  |  |http://wiki.osgeo.org/wiki/Category:Education| |NetCDF Data Set
+Y  |  nc_dataset  ||  N  |  Y  |  Data  |    |    |  |http://wiki.osgeo.org/wiki/Category:Education| |North Carolina, USA dataset
+Y  |  netcdf_dataset  ||  N  |  Y  |  Data  |    |  Time series temperature and precipitation  |  |http://wiki.osgeo.org/wiki/Category:Education| |NetCDF Dataset
 ######################| | | | | | | | | | |
 #   Geospatial Libraries  | | | | | | | | | | |
 ######################| | | | | | | | | | |
 Y  |  gdal  |  2.2.4  |  Y  |  Y  |  Geospatial Libraries  |    |  Geospatial Data Translation Tools  |  gdal|http://gdal.org/|OSGeo_project|GDAL/OGR
 Y  |  geotools  |  NA  |  N  |  Y  |  Geospatial Libraries  |    |  Java GIS Toolkit  |  geotools|http://geotools.org/|OSGeo_project|GeoTools
-Y  |  jts  |  NA  |  N  |  Y  |  Geospatial Libraries  |    |  Java Topology Suite  |  jts-topo-suite| | |JTS Topology Suite
+Y  |  jts  |  NA  |  N  |  Y  |  Geospatial Libraries  |    |  Java Topology Suite  |  jts-topo-suite| | |JTS
 Y  |  geos  |  3.6.2  |  N  |  Y  |  Geospatial Libraries  |    |  C/C++ Spatial Library  |  geos|http://geos.osgeo.org/|OSGeo_project|GEOS
 Y  |  proj4  |  4.9.3  |  Y  |  Y  |  Geospatial Libraries  |    |  Coordinate Reference System Libraries  |  proj4|http://proj4.org/index.html|OSGeo_community|Proj.4
 Y  |  liblas  |  1.8.1  |  Y  |  Y  |  Geospatial Libraries  |    |  LiDAR Data Access  |  liblas|http://liblas.org/| |libLAS
