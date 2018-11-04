@@ -5,9 +5,9 @@
 Y  |  qgis  |  2.18.17  |  Y  |  Y  |  Desktop GIS  |    |    |  qgis|http://www.qgis.org|OSGeo_project|QGIS
 Y  |  grass  |  7.4.0  |  Y  |  Y  |  Desktop GIS  |    |    |  grass_gis| |OSGeo_project|GRASS
 Y  |  gvsig  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  gvsig-desktop-2|http://www.gvsig.com/|OSGeo_project|gvSIG
-N  |  udig  |2.0.0|  Y  |  Y  |  Desktop GIS  |    |    |  udig|http://udig.refractions.net/| |uDig
-N  |  openjump  |1.11|  Y  |  Y  |  Desktop GIS  |    |    |  openjump_gis|http://www.openjump.org| |OpenJUMP
-N  |  saga  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  saga-gis|http://www.saga-gis.org| |SAGA
+Y  |  udig  |2.0.0|  Y  |  Y  |  Desktop GIS  |    |    |  udig|http://udig.refractions.net/| |uDig
+Y  |  openjump  |1.11|  Y  |  Y  |  Desktop GIS  |    |    |  openjump_gis|http://www.openjump.org| |OpenJUMP
+Y  |  saga  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  saga-gis|http://www.saga-gis.org| |SAGA
 ######################| | | | | | | | | | |
 # Browser Facing GIS| | | | | | | | | | |
 ######################| | | | | | | | | | |
