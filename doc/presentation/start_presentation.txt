@@ -8,6 +8,7 @@ OSGeoLive
     :subtitle-heading: h3
 
         .. image:: ../images/banner.png
+            :height: 300px
 
 
     .. rv_small::
@@ -26,6 +27,7 @@ OSGeoLive
     .. revealjs:: What is OSGeoLive?
 
         .. image:: ../images/projects/osgeolive/osgeolive_menu.png
+            :height: 1000
         
         .. rv_note::
             no notes :)
@@ -47,7 +49,7 @@ OSGeoLive
     .. revealjs:: DVD / USB / Virtual Machine
 
         .. image:: ../images/presentation/virtual_machine_usb.png
-            :height: 400
+            :height: 1000
 
         .. rv_note::
             OSGeoLive can be run from a DVD, USB flash drive, installed into a Virtual Machine, or installed onto your hard drive.
@@ -60,7 +62,7 @@ OSGeoLive
         * `Metrics <https://live.osgeo.org/en/metrics.html>`__
 
         .. image:: ../images/presentation/metrics.png
-            :height: 400
+            :height: 800
 
         .. rv_note::
             OSGeoLive helps new users quickly find quality GIS applications from the myriads of options.
@@ -70,7 +72,7 @@ OSGeoLive
     .. revealjs:: Production & Marketing Pipeline
 
         .. image:: ../images/presentation/pipeline.png
-            :height: 400
+            :height: 1000
 
         .. rv_note::
             * OSGeoLive provides a production and marketing pipeline, providing value to a whole range of user groups.
@@ -106,11 +108,11 @@ OSGeoLive
 
         .. image:: ../images/logos/OSGeo_compass_with_text_square.png
             :alt: OSGeo
-            :height: 300
+            :height: 500
             :target: http://osgeo.org
 
         .. rv_note::
-            Set up in 2006, the OSGeo Foundation is non-profit for the geospatial community which fosters an open approach to software, standards, education, research and data.
+            The OSGeo Foundation is non-profit for the geospatial community which fosters an open approach to software, standards, education, research and data.
             It supports with advocacy, events, organisation and legal matters.
             OSGeoLive derives its name from the Open Source GeoSpatial Foundation, or OSGeo for short.
 
@@ -128,7 +130,7 @@ OSGeoLive
     .. revealjs:: An Open Source Geospatial GNU/Linux Distribution
 
         .. image:: ../images/presentation/gnu.png
-            :height: 300
+            :height: 1000
             :alt: "GNU"
 
 
@@ -141,7 +143,7 @@ OSGeoLive
         |
 
         .. image:: ../images/presentation/ogc.png
-            :height: 300px
+            :height: 600px
             :align: center
 
 

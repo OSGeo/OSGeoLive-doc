@@ -214,7 +214,7 @@ sub get_section {
         :title-heading: h3
   
         .. image:: ../images/projects/$slug/$slug"."_screenshot.png
-            :height: 600
+            :height: 1000
 
         .. rv_note::
             $note\n\n
