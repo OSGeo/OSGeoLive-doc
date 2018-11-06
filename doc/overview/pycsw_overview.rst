@@ -1,7 +1,7 @@
 :Author: OSGeoLive
 :Author: Tom Kralidis
 :Author: Angelos Tzotsos, OSGeo
-:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Cameron Shorter
 :Version: osgeolive11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -102,4 +102,4 @@ Details
 @QUICKSTART_pycsw@
 
 .. presentation-note
-    pycsw is a python based metadata catalogue and the reference implementation of OGC CSW. It is simple to setup within an Apache web server, and it can be configured to access metadata as XML files in a filesystem, or as records stored in a database.
+    pycsw is a python based metadata catalogue and the reference implementation for the OGC CSW standard. It is simple to setup within an Apache web server, and it can be configured to access metadata as XML files in a filesystem, or as records stored in a database.

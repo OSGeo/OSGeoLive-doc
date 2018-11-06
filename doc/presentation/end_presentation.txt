@@ -47,7 +47,7 @@
         .. rv_note::
             This has just been a taster,
             do you want to know more?
-            You can see project descriptions or download the OSGeo-Live DVD from the website.
+            You can see project descriptions or download the OSGeo-Live distribution from the website.
             The OSGeo Foundation provides links to all things GeoSpatial and Open Source.
             There are many conferences worth attending,
             in particular the annual FOSS4G conference.

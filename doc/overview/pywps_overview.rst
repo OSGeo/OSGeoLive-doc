@@ -62,3 +62,5 @@ Details
 
 @QUICKSTART_pywps@
 
+.. presentation-note
+    PyWPS provides web access to custom geospatial operations (referred to as Processes) via the Web Processing Service (WPS)standard.  Processes are written in the Python programming language and can integrate tools such as GRASS, R, GDAL and other libraries with Python bindings.  Source data can be provided with WPS requests or accessed from data on the WPS server.

@@ -1,5 +1,5 @@
 :Author: Thierry Badard 
-:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Cameron Shorter
 :Version: osgeolive7.0draft
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 

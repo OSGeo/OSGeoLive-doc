@@ -1,5 +1,5 @@
 :Author: Hamish Bowman
-:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Cameron Shorter
 :Reviewer: Angelos Tzotsos, OSGeo
 :Version: osgeolive11.0
 :License: Creative Commons

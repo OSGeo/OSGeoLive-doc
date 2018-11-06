@@ -1,5 +1,5 @@
 :Author: Pirmin Kalberer
-:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Cameron Shorter
 :Reviewer: Angelos Tzotsos, OSGeo
 :Version: osgeolive11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -63,5 +63,5 @@ Details
 @QUICKSTART_spatialite@
 
 .. presentation-note
-    SpatiaLite adds spatial functionality to the popular SQLite database. 
-    SQLite is a self-contained, zero-administration, relational database, which can be pre-built into applications without needing a database server.  Each SQLite data store is kept in one file, which can easily be copied between platforms and around the internet without complication.
+    SpatiaLite is an SQLite database engine with spatial functions added. 
+    SQLite is a Database Management System which is simple, robust, easy to use and very lightweight. Each SQLite database is simply a file. You can freely copy it, compress it, and port it between applications.

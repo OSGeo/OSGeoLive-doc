@@ -2,7 +2,7 @@
 :Contact: epiesasha at me dot com
 :Version: osgeolive9.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
-:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Cameron Shorter
 
 @LOGO_jupyter@
 @OSGEO_KIND_jupyter@

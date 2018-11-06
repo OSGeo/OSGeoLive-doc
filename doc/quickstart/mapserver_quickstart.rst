@@ -2,7 +2,7 @@
 :Author: Alan Boudreault
 :Author: Steve Lime
 :Reviewer: Stephan Meissl
-:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Cameron Shorter
 :Reviewer: Angelos Tzotsos, OSGeo
 :Version: osgeolive11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)

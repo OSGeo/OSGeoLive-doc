@@ -2,7 +2,7 @@
 :Author: Astrid Emde
 :Author: Regina Obe
 :Reviewer: Argyros Argyridis
-:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Cameron Shorter
 :Reviewer: Nicolas Roelandt
 :Reviewer: Angelos Tzotsos, OSGeo
 :Version: osgeolive12.0

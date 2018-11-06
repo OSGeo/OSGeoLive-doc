@@ -10,7 +10,7 @@
 
 :Author: OSGeoLive
 :Author: Barry Rowlingson
-:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Cameron Shorter
 :Reviewer: Angelos Tzotsos, OSGeo
 :Version: osgeolive11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -51,7 +51,7 @@ Spatial Database
 
 PostGIS spatially enables the popular PostgreSQL object-relational database, allowing it to be used as a back-end database for geographic information systems (GIS) and web-mapping applications.
 
-PostGIS is stable, fast, standards compliant, with hundreds of spatial functions and is currently the most widely used Open Source spatial database. PostGIS is used by diverse organisations from around the world, including risk-averse government agencies and organisations storing terabytes of data serving millions of web requests per day.
+PostGIS is stable, fast, standards compliant, includes hundreds of spatial functions and is currently the most widely used Open Source spatial database. PostGIS is used by diverse organisations from around the world, including risk-averse government agencies and organisations storing terabytes of data serving millions of web requests per day.
 
 Database administration is available for desktop and the web via pgAdmin, phpPgAdmin, and others.
 Data import/export can be done by command line tools (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) or
@@ -113,7 +113,6 @@ Details
 @QUICKSTART_postgis@
 
 .. presentation-note
-    PostGIS spatially enables the popular PostgreSQL object-relational database, allowing it to be used as a back-end database for geographic information systems and web-mapping applications in the same manner as Oracle Spatial enables the Oracle database.
-    PostGIS is stable, fast, standards compliant, comes with hundreds of spatial functions and is currently the most widely used Open Source spatial database.
-    PostGIS is used by diverse organisations from around the world, including risk-averse government agencies and organisations storing terabytes of data and serving millions of web requests per day. 
-    Database administration is available via pgAdmin and other tools. Importing and exporting data is provided by various converter tools and there are numerous desktop and browser GIS clients for viewing PostGIS data.
+    PostGIS spatially enables the popular PostgreSQL object-relational database, allowing it to be used as a back-end database for geographic information systems and web-mapping applications.
+    PostGIS is stable, fast, standards compliant, includes hundreds of spatial functions and is currently the most widely used Open Source spatial database. 
+

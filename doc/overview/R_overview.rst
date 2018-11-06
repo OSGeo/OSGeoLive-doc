@@ -1,5 +1,5 @@
 :Author: OSGeo-Live
-:Reviewer: Cameron Shorter, Jirotech, Etienne Delay
+:Reviewer: Cameron Shorter, Etienne Delay
 :Version: osgeo-live11.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 

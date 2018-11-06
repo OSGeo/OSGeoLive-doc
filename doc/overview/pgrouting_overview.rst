@@ -1,5 +1,5 @@
 :Author: Daniel Kastl
-:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Cameron Shorter
 :Reviewer: Angelos Tzotsos, OSGeo
 :Version: osgeolive11.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -70,4 +70,4 @@ Details
 @QUICKSTART_pgrouting@
 
 .. presentation-note
-    pgRouting extends the PostGIS database to provide geospatial routing functionality so you can apply queries like finding the shortest path between points from within the database, thus simplifying both routing functionality and maintenance of data.
+    pgRouting extends the PostGIS database to provide geospatial routing functionality so you can apply queries like finding the shortest path between points.
