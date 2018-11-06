@@ -1,5 +1,5 @@
 :Author: Massimiliano Cannata, Milan Antonovic, SUPSI
-:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Cameron Shorter
 :Version: osgeolive9.5
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -57,4 +57,4 @@ Details
 @QUICKSTART_istsos@
     
 .. presentation-note
-    istSOS is sensor data management tool that allows collection, maintenance and publishing of monitoring observations using the Open Geospatial Consortium (OGC) Sensor Observation Service (SOS) standard.
+    istSOS is sensor data management tool that allows collection, maintenance and publishing of monitoring observations using the OGC Sensor Observation Service standard.

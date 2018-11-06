@@ -2,7 +2,7 @@
 :Author: Pirmin Kalberer
 :Author: Hamish Bowman
 :Author: Zoltan Siki
-:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Cameron Shorter
 :Reviewer: Nicolas Roelandt
 :Reviewer: Angelos Tzotsos, OSGeo
 :Version: osgeolive11.0

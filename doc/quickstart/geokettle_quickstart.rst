@@ -1,7 +1,7 @@
 :Author: Jean Mathieu
 :Author: Thierry Badard
 :Reviewer: Sergio Baños Calvo
-:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Cameron Shorter
 :Version: osgeolive7.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 

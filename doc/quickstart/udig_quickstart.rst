@@ -4,7 +4,7 @@
 :Version: osgeolive5.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: udig-devel list
-:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Cameron Shorter
 
 @LOGO_udig@
 @OSGEO_KIND_udig@

@@ -152,4 +152,4 @@ Details
 @QUICKSTART_52nSOS@
 
 .. presentation-note
-    The 52°North Sensor Observation Service (SOS) provides a standards based interface for reading of live and archived data captured by in-situ and remote sensors. Sensors are things like a camera on a satellite or a water level meter in a stream.
+    The 52°North Sensor Observation Service provides a standards based interface for reading live and archived data captured by in-situ and remote sensors. Sensors are things like a camera on a satellite or a water level meter in a stream.

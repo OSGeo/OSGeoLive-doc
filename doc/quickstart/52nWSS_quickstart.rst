@@ -1,6 +1,6 @@
 :Author: Jan Drewnak (j.drewnak@52north.org)
 :Reviewer: Sergio Baños Calvo
-:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Cameron Shorter
 :Version: osgeolive6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 

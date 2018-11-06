@@ -1,7 +1,7 @@
 .. revealjs:: Desktop GIS
     .. rv_note::
-        Let's start by reviewing Desktop GIS applications,
-        where we find the heavy lifting applications.
+        Let's now look at the applications installed on OSGeoLive, starting with the Desktop GIS applications.
+        This is where we find the heavy lifting applications.
         These applications cover the traditional GIS uses cases of viewing,
         editing and analysing geospatial data.
 
@@ -9,7 +9,7 @@
     .. rv_note::
         We will now look at browser-based clients.
         Browser clients are regularly used to publish maps,
-        and increasingly being used to deliver a wide range of tools
+        and are increasingly being used to deliver a wide range of tools
         and functions previously only available in desktop applications.
 
 .. revealjs:: Web Services

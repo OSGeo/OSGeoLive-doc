@@ -1,5 +1,5 @@
 :Author: Astrid Emde
-:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Cameron Shorter
 :Version: osgeolive7.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -67,5 +67,4 @@ Details
 
 .. presentation-note
     Mapbender is a web-based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services.
-    Mapbender allows users to create customised browser clients from a wide range of widgets with minimal programming. Widgets integrate with server functionality to provide advanced functionality like security proxying, digitizing, auto snapping and more.
-    The Mapbender client side is based on JavaScript and jQuery widgets. The server side is implemented in PHP and PostGIS.
+    Mapbender allows users to create customised browser clients from a wide range of widgets with minimal programming.

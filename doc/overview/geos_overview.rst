@@ -1,6 +1,6 @@
 :Author: OSGeoLive
 :Author: Frank Warmerdam
-:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Cameron Shorter
 :Version: osgeolive6.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -55,4 +55,4 @@ Details
 @QUICKSTART_geos@
 
 .. presentation-note
-    GEOS provides a port of JTS to C and C++. There are also bindings to Python and other languages.
+    GEOS provides a port of JTS to C and C++. There are also bindings for Python and other languages.
