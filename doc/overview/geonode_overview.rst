@@ -82,4 +82,4 @@ Details
 @QUICKSTART_geonode@
 
 .. presentation-note
-    GeoNode is a Content Management System which provides creation, sharing, and collaborative use of geospatial data. Datasets can be uploaded, maps and metadata can be edited and published, and user ratings and comments can be captured.
+    GeoNode is a Content Management System. It supports loading, editing, publishing, searching and commenting on maps and associated metadata.

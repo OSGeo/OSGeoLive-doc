@@ -1,25 +1,17 @@
 .. revealjs:: Desktop GIS
     .. rv_note::
-        Let's now look at the applications installed on OSGeoLive, starting with the Desktop GIS applications.
+        Let's now look at the applications installed on OSGeoLive, starting with the Desktop.
         This is where we find the heavy lifting applications.
-        These applications cover the traditional GIS uses cases of viewing,
-        editing and analysing geospatial data.
 
 .. revealjs:: Browser Facing GIS
     .. rv_note::
-        We will now look at browser-based clients.
-        Browser clients are regularly used to publish maps,
-        and are increasingly being used to deliver a wide range of tools
-        and functions previously only available in desktop applications.
+       Let’s now move into the browser.
+       Browser clients are used to publish maps, and increasingly are also delivering functionality previously only available in the desktop.
 
 .. revealjs:: Web Services
     .. rv_note::
         We'll now look at Web Services.
-        Web Services are accessed via a URL,
-        and return map data in various formats.
-        Data is primarily accessed via OGC standards-based interfaces,
-        including Web Map Services for images,
-        Web Feature Services for vector data and Catalog Services for the Web for Metadata.
+        These are accessed via a URL, and return maps in various formats, usually based on OGC standards.
 
 .. revealjs:: Data Stores
     .. rv_note::
@@ -31,7 +23,7 @@
 
 .. revealjs:: Spatial Tools
     .. rv_note::
-        The next category we have grouped together are Spatial Tools.
+        The next category we have grouped is Spatial Tools.
 
 .. revealjs:: Domain Specific GIS
     .. rv_note::
@@ -39,7 +31,7 @@
 
 .. revealjs:: Data
     .. rv_note::
-        Of course, all these free tools become much more useful with access to free mapping data.
+        Of course, all these tools become much more useful with access to free data.
 
 .. revealjs:: Geospatial Libraries
     .. rv_note::

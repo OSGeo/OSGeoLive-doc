@@ -74,4 +74,4 @@ Details
 @QUICKSTART_grass@
 
 .. presentation-note
-    GRASS provides powerful raster, vector, and geospatial processing. It includes tools for spatial modeling, visualization of raster and vector data, management and analysis of geospatial data, and the processing of satellite and aerial imagery. It also provides the capability to produce sophisticated presentation graphics and hardcopy maps.
+    GRASS provides powerful raster and vector processing. It includes hundreds of tools for spatial modeling, visualization and analysis.

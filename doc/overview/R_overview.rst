@@ -82,4 +82,4 @@ Details
 @QUICKSTART_R@
 
 .. presentation-note
-    R provides a command line interface to powerful statistical computing and graphics algorithms and excels at analyzing geographic data sets.
+    R provides a command line interface to powerful statistical computing and graphics algorithms and excels at analyzing spatial data sets.
