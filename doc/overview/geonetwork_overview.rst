@@ -62,5 +62,5 @@ Details
 @QUICKSTART_geonetwork@
 
 .. presentation-note
-    GeoNetwork provides a catalogue, which is used to create, maintain and and search metadata about specific datasets.
-    Metadata is "data about data", storing such things as creation-date, author, title, area-of-interest, and so on.
+    GeoNetwork provides a catalogue service for maintaining metadata about datasets.
+    Metadata is "data about data", storing such things as creation-date, author, title, and area-of-interest.

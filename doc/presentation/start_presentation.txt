@@ -32,23 +32,17 @@ OSGeoLive
         
         .. rv_note::
             OSGeoLive is a Linux distribution, that is pre-installed with over 50 GeoSpatial Open Source applications along with sample datasets, overviews and quickstarts.
-            It is used for spatial training, trailing new applications, and using the documentation to find the best Open Source Geospatial applications.
-            It is typically installed into a Virtual Machine, booted from a USB, or installed locally.
-            This lightning overview gives you a birds eye view of the breadth of robust GeoSpatial Open Source Software available.
+            It is used for training, trailing new applications, and outreach.
+            In this presentation we introduce the more popular packages, which effectively compresses a FOSS4G conference into a concise elevator pitch.
 
     .. revealjs:: Quality Criteria
 
-        * Established, stable, working software
-        * Active community
-        * `Metrics <https://live.osgeo.org/en/metrics.html>`__
-
         .. image:: ../images/presentation/metrics.png
-            :height: 800
+            :height: 1000
 
         .. rv_note::
-            * OSGeoLive helps new users quickly find quality GIS applications from the myriads of options.
-            * OSGeoLive only accepts established open source projects, and users can learn the basics of the application by reading quickstarts, or can quickly test in the preconfigured OSGeoLive environment.
-            * This slide shows the OpenHUB metrics page, which shows the community size and activity.
+            Our focus with OSGeoLive is identifying and promoting robust and sustainable projects.
+            Our metrics page provides project dashboards from OpenHub. Use it to gain insights into each projects health and developer engagement.
 
     .. revealjs:: Production & Marketing Pipeline
 
@@ -75,9 +69,6 @@ OSGeoLive
         .. rv_note::
             In OSGeoLive 12.0 we've improved our documentation and translation process, making it easier to maintain. We've also updated many existing applications and moved to the latest Lubuntu 18.04 Long Term Support release.
 
-
-
-
 .. revealjs::
 
     .. revealjs:: OSGeo Foundation
@@ -92,14 +83,11 @@ OSGeoLive
             OSGeoLive derives its name from the Open Source GeoSpatial Foundation, or OSGeo for short.
             The OSGeo Foundation is a non-profit for the geospatial community which fosters an open approach to software, standards, education, research and data.
 
- 
     .. revealjs:: OGC Standards
 
         .. image:: ../images/presentation/ogc.png
             :height: 1000px
             :align: center
-
-
 
         .. rv_note::
             * Open Source applications have a reputation for excellent standards compliance. Notably, the OGC uses Open Source projects when defining reference implementations for standards.

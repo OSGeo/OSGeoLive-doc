@@ -113,6 +113,5 @@ Details
 @QUICKSTART_postgis@
 
 .. presentation-note
-    PostGIS spatially enables the popular PostgreSQL object-relational database, allowing it to be used as a back-end database for geographic information systems and web-mapping applications.
-    PostGIS is stable, fast, standards compliant, includes hundreds of spatial functions and is currently the most widely used Open Source spatial database. 
-
+    PostGIS spatially enables the popular Postgres database.
+    It is stable, fast, standards compliant, includes hundreds of spatial functions and is currently the most widely used Open Source spatial database.

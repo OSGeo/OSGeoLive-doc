@@ -13,7 +13,7 @@
 Image Processing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-ORFEO Toolbox Library (OTB) is a high performance image processing library. It
+ORFEO Toolbox (OTB) is a high performance image processing library. It
 is primarily used for processing large remote sensing images such as those
 gathered by radars, satellites and aerial photography. OTB provides tools for
 optic and radar images (tridimensional aspects, segmentation, classification,
@@ -36,23 +36,23 @@ Core Features
 --------------------------------------------------------------------------------
 
 
-* image access: optimized read/write access for most remote sensing raster
+* Image access: optimized read/write access for most remote sensing raster
   formats (also JPEG2000 formats), meta-data access and visualization;
-* orthorectification using DEM, map reprojection and sensor model refinement
-* optical and SAR calibration
-* image fusion
-* filtering: blurring, denoising, enhancement...
-* feature extraction: interest points, alignments, lines...
-* object detection
-* large scale image segmentation: region growing, mean-shift, watershed, level sets...
-* sample selection framework for training
-* classification: both supervised and unsupervised algorithms coming from OpenCV
+* Orthorectification using DEM, map reprojection and sensor model refinement
+* Optical and SAR calibration
+* Image fusion
+* Filtering: blurring, denoising, enhancement...
+* Feature extraction: interest points, alignments, lines...
+* Object detection
+* Large scale image segmentation: region growing, mean-shift, watershed, level sets...
+* Sample selection framework for training
+* Classification: both supervised and unsupervised algorithms coming from OpenCV
   , Shark, libSVM or custom implementations (K-means, Markov random fields, SVM,
   Random Forest, ...)
-* regression using machine learning methods from OpenCV (SVM, Random Forest, ...)
-* object-based image analysis
-* geospatial analysis
-* stereoscopic reconstruction from optical images
+* Regression using machine learning methods from OpenCV (SVM, Random Forest, ...)
+* Object-based image analysis
+* Geospatial analysis
+* Stereoscopic reconstruction from optical images
 * SAR data analysis : calibration, polarimetry analysis
 * change detection.
 

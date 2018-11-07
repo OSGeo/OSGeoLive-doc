@@ -1,5 +1,4 @@
-# document? | slug |version| Quickstart? |Overview?|Section| last | One Liner| OpenHub name |URL|kind|name
-######################| | | | | | | | | | |
+# document? | slug |version| Quickstart? |Overview?|Section| last | One Liner| OpenHub name |URL|kind|name ######################| | | | | | | | | | |
 #   Desktop GIS  | | | | | | | | | | |
 ######################| | | | | | | | | | |
 Y  |  qgis  |  2.18.17  |  Y  |  Y  |  Desktop GIS  |    |    |  qgis|http://www.qgis.org|OSGeo_project|QGIS
@@ -54,9 +53,9 @@ Y  |  opencpn  | 4.8.4 |  Y  |  Y  |  Navigation and Maps  |    |  Marine GPS Ch
 ######################| | | | | | | | | | |
 #   Spatial Tools  | | | | | | | | | | |
 ######################| | | | | | | | | | |
-Y  |  gmt  |  5.2.1|  Y  |  Y  |  Spatial Tools  |11|  Cartographic Rendering  |  GMT|https://gmt.soest.hawaii.edu| |GMT
-Y  |  otb  |  6.4.0  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  otb|http://www.orfeo-toolbox.org/|OSGeo_project|OTB
 Y  |  R  |  3.4.4  |  Y  |  Y  |  Spatial Tools  |    |  Statistical Programming  |  R_project|http://cran.r-project.org| |R Spatial
+Y  |  otb  |  6.4.0  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  otb|http://www.orfeo-toolbox.org/|OSGeo_project|ORFEO Toolbox
+Y  |  gmt  |  5.2.1|  Y  |  Y  |  Spatial Tools  |11|  Cartographic Rendering  |  GMT|https://gmt.soest.hawaii.edu| |GMT
 Y  |  mapnik  |  3.0.13  |  Y  |  Y  |  Spatial Tools  |    |  Cartographic Rendering  |  mapnik|http://mapnik.org/| |Mapnik
 Y  |  mapslicer  | 1.0rc2 |  Y  |  Y  |  Spatial Tools  |    |  Create Map Tiles  |  |http://mapproxy.org/| |MapSlicer
 N  |  ossim  |  2.2.2  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  ossim|http://www.ossim.org/|OSGeo_project|OSSIM
