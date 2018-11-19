@@ -240,7 +240,7 @@ one for the city name, and another for the geometry column:
 Conventionally this geometry column is named
 ``geom`` (the older PostGIS convention was ``the_geom``). This tells PostGIS what kind of geometry
 each feature has (points, lines, polygons etc), how many dimensions
-(in this case, if it had 3 or 4 dimensions we would use POINTZ, POINTM, or POINTZM), and the spatial reference
+(in this case 2, if it had 3 or 4 dimensions we would use POINTZ, POINTM, or POINTZM), and the spatial reference
 system. We used EPSG:4326 coordinates for our cities.
 
 
@@ -423,7 +423,7 @@ of the R statistics package add-ons.
 
 From the ``Table`` menu choose the ``Import layer/file`` option. 
 Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R ``maptools`` package
-(located in /usr/lib/R/site-library/spData/shapes):
+(located in /usr/local/lib/R/site-library/spData/shapes):
 
 .. image:: /images/projects/postgis/postgis_browsedata.png
   :scale: 75 %
