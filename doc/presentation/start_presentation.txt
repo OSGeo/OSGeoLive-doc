@@ -94,7 +94,7 @@ OSGeoLive
         * Full `changelog <href="https://github.com/OSGeo/OSGeoLive/blob/master/CHANGES.txt">`__
 
         .. rv_note::
-            In OSGeoLive Version 12.0 we've improved our documentation and translation process, making it easier to maintain. We've also updated many existing applications and moved to the latest Lubuntu 16.04.2 Long Term Support release.
+            In OSGeoLive Version 12.0 we've improved our documentation and translation process, making it easier to maintain. We've also updated many existing applications and moved to the latest Lubuntu 18.04 Long Term Support release.
 
 
 

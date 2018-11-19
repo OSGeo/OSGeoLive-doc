@@ -45,7 +45,7 @@ The Interfaces presented above shows:
   #. A Footer bar with:
 
      - Multiple coordinate readouts, one each for: X,Y (local dataset coordinates), LAT/LON (Decimal) and United States National Grid (USNG)
-     - A editable pull down list for a view scales to choose from or define.
+     - An editable pull down list for a view scales to choose from or define.
 
 
 Identifying a location in GeoMoose
@@ -89,7 +89,7 @@ Finally, click the "Go" button to actually select the features.  GeoMoose will r
 
   .. image:: /images/projects/geomoose/geomoose-quickstart-03b.png
 
-If you hover over a line in the table, the corresponding feature on the map will be highlighted.  Additionally, you can use the funnel icons in the table header to further filter results, and uses the triangle icons in the table header to sort results.  The results can be downloaded as a CSV file using the download icon to the top and left of the table. 
+If you hover over a line in the table, the corresponding feature on the map will be highlighted.  Additionally, you can use the funnel icons in the table header to further filter results, and use the triangle icons in the table header to sort results.  The results can be downloaded as a CSV file using the download icon to the top and left of the table. 
 
 
 Searching
@@ -99,7 +99,7 @@ You can also search for features by attribute.  To start, hover over the "Search
 
   .. image:: /images/projects/geomoose/geomoose-quickstart-04a.png
 
-The following screenshot demostrates a search of all parcel owners containing the name "frank".  
+The following screenshot demonstrates a search of all parcel owners containing the name "frank".
 
   .. image:: /images/projects/geomoose/geomoose-quickstart-04b.png
 
@@ -115,7 +115,7 @@ Clicking the magnifying glass icon/parcel number will zoom you to the specific p
 Printing
 ================================================================================
 
-This next screenshot shows what the Print tool looks as provided with demo for GeoMoose.  When you click on the Print tool, a dialog appears which asks for a title for the printed map, the page size and rotation, printed resolution, and shows a preview of what will be printed.
+This next screenshot shows how the Print tool looks as provided with demo for GeoMoose.  When you click on the Print tool, a dialog appears which asks for a title for the printed map, the page size and rotation, printed resolution, and shows a preview of what will be printed.
 
   .. image:: /images/projects/geomoose/geomoose-quickstart-05a.png
 

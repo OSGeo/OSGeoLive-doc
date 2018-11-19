@@ -17,7 +17,7 @@ Kosmo - Desktop is a user friendly, desktop GIS application which allows you to 
 and analyse spatial data from a variety of databases, vector and raster formats.
 
 Kosmo - Desktop follows OGC standards and provides excellent topology integrity.
-It's plug-in architecture enables it to be easily customised for specific purposes.
+Its plug-in architecture enables it to be easily customised for specific purposes.
 
 @SCREENSHOT_kosmo@
 
@@ -40,10 +40,10 @@ Key features:
 
 * User friendly GUI, focused on an easy learning curve
 * Available in 13 languages (English, Spanish, Italian, German, Croatian, Czech, Russian, Slovak, Catalan, Euskera, Brazilian Portuguese, Finnish, Portuguese)
-* Advanced edition capabilities:
+* Advanced editing capabilities:
 
   * Multiple drawing tools: draw point, draw linestring, draw polygon, ...
-  * CAD style tools: rotate, rotate by angle, symmetry, perpendicular, paralell, ... (by an extension)
+  * CAD style tools: rotate, rotate by angle, symmetry, perpendicular, parallel, ... (by an extension)
   * Multiple snapping modes: to vertexes, to vertexes and lines, to segment mid points, to centroids, to grid, ...
   * Geometry tracking mode
   * Advanced snap manager (by an extension)

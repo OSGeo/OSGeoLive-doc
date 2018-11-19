@@ -13,7 +13,7 @@
 Electronic Library Manager
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Geopublisher is an atlas authoring system which enables easy publication of geo-data, documents, images, videos, and statistics in form of digital multimedia atlases. These atlases are effectively a minimal, pre-configured, end-user GIS which offers selected functionality only where its meaningful.
+Geopublisher is an atlas authoring system which enables easy publication of geo-data, documents, images, videos, and statistics in form of digital multimedia atlases. These atlases are effectively a minimal, pre-configured, end-user GIS which offers selected functionality only where it is meaningful.
 
 Geopublisher provides tools for quality assurance and multilingual meta-data management. No in-depth knowledge of HTML, SLD or XML is required to create an atlas. Atlases can be directly published on CD, DVD, memory stick, external hard-drive or the Internet. The software is platform-independent.
 
@@ -28,7 +28,7 @@ Core Features
   :alt: screenshot of Geopublisher editing an atlas
   :align: right
 
-* Atlases created with Geopublisher are a simplified end-user GIS with selected functionality available only where its meaningful.
+* Atlases created with Geopublisher are a simplified end-user GIS with selected functionality available only where it is meaningful.
 * Hybrid online and offline atlases make geo-data accessible in areas beyond the digital divide.
 * Multilingual management of meta-data avoids redundancies and allows for the quick release of updated atlases.
 * Integrated WYSIWYG editors for SLD and HTML allow geopublishing without knowledge of SLD, XML or HTML.

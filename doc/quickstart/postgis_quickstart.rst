@@ -287,7 +287,7 @@ All the usual SQL operations can be applied to select data from a PostGIS table:
    3 | East London,SA  | 0101000020E610000040AB064060E93B4059FAD005F58140C0
  (3 rows)
 
-This gives us an encoded hexadecimal version of the coordianates, not so useful for humans.
+This gives us an encoded hexadecimal version of the coordinates, not so useful for humans.
 
 If you want to have a look at your geometry in WKT format again, you
 can use the functions ST_AsText(geom) or ST_AsEwkt(geom). You can also
@@ -368,7 +368,7 @@ of the open source desktop GIS programs can do this - QGIS, gvSIG, uDig for exam
 show you how to make a map from QGIS.
 
 Start QGIS from the Desktop GIS menu and choose ``Add PostGIS layers`` from the layer menu. The
-parameters for connecting to the Natural Earth data in PostGIS is already defined in the Connections
+parameters for connecting to the Natural Earth data in PostGIS are already defined in the Connections
 drop-down menu. You can define new server connections here, and store the settings for easy
 recall. Click on Connections drop down menu and choose Natural Earth. Hit ``Edit`` if you want to see what those parameters are for Natural Earth, or just
 hit ``Connect`` to continue:
@@ -504,7 +504,7 @@ To perform a query on the database, you have to press the ``SQL`` button from th
 yellow Magnifying lens).
 
 We are going to find the rate of the SIDS over the births for the 1974 for each city.
-Furthermore we are going to sort the result, based on the computed rate. To do that,we need to perform the following query (submit it
+Furthermore we are going to sort the result, based on the computed rate. To do that, we need to perform the following query (submit it
 on the text editor of the SQL Window):
 
 ::

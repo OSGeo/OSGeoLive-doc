@@ -68,16 +68,16 @@ Press the "Service identification" button and fill up with custom metadata that 
 
 **5) Configure your service coordinates system**
 
-Press the "Coordinates system" button to manage the Coordiante Reference System (CRS).
+Press the "Coordinates system" button to manage the Coordinate Reference System (CRS).
 
-*Default EPSG code*: this will be the native Coordinate Reference Systems of your geometries in the database.
+*Default EPSG code*: this will be the native Coordinate Reference System of your geometries in the database.
 
 *Permitted EPSG*: here you can configure which other Coordinate Reference Systems your system will support and reproject if requested.
 
 **6) Configure your getobservation request options**
 
 From the toolbar buttons menu press the "GetObservation Configuration" button to
-set maximum time interval per getObservation requests (zero for no limits) and aggregation no-data value.
+set maximum time interval per getObservation request (zero for no limits) and aggregation no-data value.
 
 **7) Configure your service proxy address**
 
@@ -256,10 +256,10 @@ Add new observations
 
 ..     * Click the first row where data are ​NaN​,
 ..     * Scroll to the last ​NaN​ record and holding the ​SHIFT​ Key click on it
-..     * The press the “​Calculator​” button
+..     * Then press the “​Calculator​” button
 
 .. With the ​Calculator​ we are able to correct an interval of data in a single action. It is possible to set a numeric value or also use a function using data from the other loaded procedures.
-.. Let’s build a function that make the average of the data from BELLINZONA and LOCARNO and then removes two degrees:
+.. Let’s build a function that makes the average of the data from BELLINZONA and LOCARNO and then removes two degrees:
 
 ..     .. code-block:: rest
 
@@ -267,7 +267,7 @@ Add new observations
 
 .. #. Copy the formula in the calculator and select the quality index as QI 500 (manually adjusted).
 
-.. #. Press the enter button and check your new data with gap filled (Press Save if yyou want to permanently save the updates in the database!)
+.. #. Press the enter button and check your new data with gap filled (Press Save if you want to permanently save the updates in the database!)
 
 
 
