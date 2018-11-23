@@ -159,8 +159,8 @@ click on the Public schema to deploy it:
 
 #. Let's represent one of the database attributes in the data as a bubble plot.
    In the middle of the `Style` tab, drag the Transparency
-   slider to **50%**. Click on the small button at the right of the size field and select
-   :menuselection:`Size scale field`, then choose **scalerank**
+   slider to **50%**. Click on the small button at the right of the size field and hover
+   over the option within :menuselection:`Attribute field`, then choose **scalerank**
    (it's near to the beginning of the list). Then click :guilabel:`Ok`.
 
 #. You can then click on the query button on the toolbar (cursor arrow with
