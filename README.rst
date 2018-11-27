@@ -24,11 +24,59 @@ Build steps
 ~~~~~~~~~~~
 
 1. Install python and sphinx version 1.6.5 or greater (as provided with Ubuntu >16.04), (install_main_docs.sh does this too)
+
+For Python 2
 ::
+   cd /root/of/repo
+
+   # Install pip
    sudo apt-get install python-pip
-   sudo -H pip install sphinx==1.6.5
-   sudo -H pip install sphinx-intl
-   sudo -H pip install sphinxjp.themes.revealjs
+
+   # Prepare python environment
+   pip install virtualenv
+   virtualenv py-env
+
+   # activate the environment
+   source py-env/bin/activate
+
+   # install the requirements
+   pip install sphinx==1.6.5
+   pip install sphinx-intl
+   pip install sphinxjp.themes.revealjs
+
+   # Requirements for the presentation
+   sudo apt-get install cpanminus
+   sudo cpanm Text::SimpleTable::AutoWidth
+
+For Python 3
+::
+   cd /root/of/repo
+
+   # Install pip
+   sudo apt-get install python3-pip
+   sudo apt-get install python3-venv
+
+   # Prepare python environment
+   python3 -m venv py-env
+
+   # activate the environment
+   source py-env/bin/activate
+
+   # install the requirements
+   pip install sphinx==1.6.5
+   pip install sphinx-intl
+   pip install sphinxjp.themes.revealjs
+
+   # Requirements for the presentation
+   sudo apt-get install cpanminus
+   sudo cpanm Text::SimpleTable::AutoWidth
+  
+::
+
+1.2 Install the requirements
+   sudo pip install sphinx==1.6.5
+   sudo pip install sphinx-intl
+   sudo pip install sphinxjp.themes.revealjs
    sudo apt-get install cpanminus
    sudo cpanm Text::SimpleTable::AutoWidth
 
