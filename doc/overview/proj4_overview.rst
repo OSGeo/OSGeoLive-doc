@@ -10,7 +10,7 @@
 ================================================================================
 
 Proj4 is a library that provides methods to transform between different coordinate
-reference systems. A geographic coordinate reference systems allows all points on the
+reference systems. A geographic coordinate reference system allows all points on the
 earth to be described as a set of coordinates (such as latitude, longitude and
 elevation). Different systems are used to represent the 3 dimensional earth
 on a flat, 2 dimensional map.

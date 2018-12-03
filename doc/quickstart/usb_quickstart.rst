@@ -10,7 +10,7 @@ Creating an OSGeoLive Bootable USB flash drive
 
 This quickstart describes the preferred method for creating a Bootable OSGeoLive USB flash drive. Booting from a flash drive is faster than from a DVD, and the USB drive can be configured to store data between sessions (called persistence).
 
-We have have found that there are a number of quirks and tricks involved in successfully building a USB drive. We have documented what we know, but there are likely more tricks and issues. Look for latest tips here: http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB
+We have found that there are a number of quirks and tricks involved in successfully building a USB drive. We have documented what we know, but there are likely more tricks and issues. Look for latest tips here: https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB
 
 Requirements
 --------------------------------------------------------------------------------
@@ -80,7 +80,7 @@ Booting from the USB drive:
 #. Power on the Machine and select to boot from USB:
 
    * Most computers are not set to boot from a USB drive by default.
-   * When booting, look for a message indicting a Boot Menu (most commonly you press F12)
+   * When booting, look for a message indicating a Boot Menu (most commonly you press F12)
    * If your computer does not have a boot menu, then boot into your system BIOS. The button to enter BIOS varies by brand and model of computer. If you can't figure out yours try this website that lists many BIOS hotkeys. http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems/
 
 #. Select to boot from the USB device.
@@ -100,5 +100,5 @@ See Also:
  * :doc:`osgeolive_quickstart`
  * :doc:`virtualization_quickstart`
  * :doc:`osgeolive_install_quickstart`
- * Alternative USB creation methods and latest tips are collected here: `wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_
- * Questions can be directed to our email list: http://lists.osgeo.org/mailman/listinfo/live-demo
+ * Alternative USB creation methods and latest tips are collected here: `wiki <https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_
+ * Questions can be directed to our email list: https://lists.osgeo.org/pipermail/osgeolive/

@@ -26,10 +26,10 @@ Core Features
 
 * Publish sensor data in accordance with the Sensor Observation Service (SOS) standard.
 * Administer sensors and data with an intuitive web-based interface.
-* Use a complete RestFul API to access istSOS functionality from external clients to create interactive charts, display sensor on a dinamic map or just write some maintainance scripts.
+* Use a complete RestFul API to access istSOS functionality from external clients to create interactive charts, display sensor on a dynamic map or just write some maintenance scripts.
 * Get notified through mail, twitter or other social media when sensor data meets specific conditions.
 * User authentication and authorization with different access levels (administrator, network manager, data manager and visitor).
-* Create Virtual Procedures that looks like normal stations but whose data results from on-the-fly elaboration of other sensor data.
+* Create Virtual Procedures that look like normal stations but whose data results from on-the-fly elaboration of other sensor data.
 * Associate quality indexes to each observation thanks to embedded validation tests.
 * Online editing of data with a seamless interface and advanced observation calculator.
 

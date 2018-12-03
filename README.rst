@@ -26,9 +26,9 @@ Build steps
 1. Install python and sphinx version 1.6.5 or greater (as provided with Ubuntu >16.04), (install_main_docs.sh does this too)
 ::
    sudo apt-get install python-pip
-   pip install sphinx==1.6.5
-   pip install sphinx-intl
-   pip install sphinxjp.themes.revealjs
+   sudo -H pip install sphinx==1.6.5
+   sudo -H pip install sphinx-intl
+   sudo -H pip install sphinxjp.themes.revealjs
    sudo apt-get install cpanminus
    sudo cpanm Text::SimpleTable::AutoWidth
 
