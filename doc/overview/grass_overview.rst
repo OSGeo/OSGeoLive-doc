@@ -38,8 +38,8 @@ open-source software released under the terms of the GNU General Public License.
 
 The GRASS GIS software includes more than 400 built-in analysis modules.
 Additionally, over 100 community supplied modules and toolboxes are
-available for free from the Add-on repository. After more than 30 years of
-continuous development GRASS GIS is both the longest maintained and largest
+available for free from the Add-on repository. After decades of
+continuous development, GRASS GIS is both the longest maintained and largest
 Open Source GIS available. It is easily scriptable and versatile enough to be
 used both for batch data processing on massively-parallel supercomputers
 as well as a handy desktop GIS for handheld PDAs or netbooks.
@@ -74,4 +74,4 @@ Details
 @QUICKSTART_grass@
 
 .. presentation-note
-    GRASS provides powerful raster and vector processing. It includes hundreds of tools for spatial modeling, visualization and analysis.
+    GRASS provides powerful raster and vector processing. It includes hundreds of tools for spatial modeling, visualization and analysis. It is used for batch processing on supercomputers as well as for desktop GIS.
