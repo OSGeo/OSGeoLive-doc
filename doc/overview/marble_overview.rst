@@ -14,11 +14,9 @@
 Virtual globe and world atlas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Marble is an open source KDE Education Project program similar
-to `NASA World Wind <http://worldwind.arc.nasa.gov/java/>`_ or
-Google Earth. Besides choosing any number of maps to view on your
-globe (including `OpenStreetMaps <http://www.osm.org>`_), you are
-encouraged to include a KDE Marble widget in your application.
+Marble is a spinning Globe and World Atlas, developed as part of the
+KDE project. You can view map layers, look up Wikipedia descriptions of
+places, measure distances and more.
 
 Explore the neighborhood with Marble's rich set of city and street 
 level maps. Search for addresses and places of interest. Marble takes 
@@ -75,4 +73,4 @@ Details
 @QUICKSTART_marble@
 
 .. presentation-note
-    Marble is a spinning Globe and World Atlas similar to Google Earth. You can view map layers, look up Wikipedia descriptions of places, measure distances and more.
+    Marble is a spinning Globe and World Atlas, developed as part of the KDE project. You can view map layers, look up Wikipedia descriptions of places, measure distances and more.

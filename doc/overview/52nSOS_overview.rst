@@ -19,7 +19,7 @@ About
 
 The 52°North `Sensor Observation Service (SOS) <http://www.opengeospatial.org/standards/sos>`__
 supports the interoperable provision of live and archived sensor observation
-data. A sensor could be a water meter in a stream, a weather station, or
+data. A sensor could be a water level meter in a stream, a weather station, or
 an air quality monitoring station.
 
 @SCREENSHOT_52nSOS@

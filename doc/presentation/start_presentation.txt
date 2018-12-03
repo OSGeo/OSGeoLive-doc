@@ -4,7 +4,7 @@ OSGeoLive
 
 .. revealjs:: OSGeoLive
     :title-heading: h2
-    :subtitle: Open Geospatial Distribution
+    :subtitle: Open Geospatial Linux Distribution
     :subtitle-heading: h3
 
         .. image:: ../images/banner.png
