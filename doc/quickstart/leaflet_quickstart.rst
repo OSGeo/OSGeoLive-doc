@@ -1,6 +1,7 @@
 :Author: Vladimir Agafonkin, adopted for live dvd by Johan Van de Wauw
 :Reviewer: Angelos Tzotsos, OSGeo
 :Reviewer: Nicolas Roelandt, OSGeoLive
+:Reviewer: Shubham Sharma
 :Version: osgeolive12.0
 
 @LOGO_leaflet@
