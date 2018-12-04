@@ -274,7 +274,9 @@ sub get_note {
         $found = 1 if  $_ =~ /^.*presentation-note/;
         if ($found == 1) {
             $string .= "        $_";
-        }
+        } else {
+            $string .= "        No note";
+	}
     }
     close IN;
     $string =~ s/^.*presentation-note//;
