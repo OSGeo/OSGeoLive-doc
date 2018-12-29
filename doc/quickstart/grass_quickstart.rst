@@ -101,7 +101,7 @@ Create a random surface
 .. HB comment: this quickstart is getting kinda long, maybe retire this section.
 
 Now let's create a new map. First set the *computational region* to the default
-bounds with :menuselection:`Settings --> Region --> Set region`, ticking
+bounds with :menuselection:`Settings --> Computational region --> Set region`, ticking
 "*Set from default region*", and clicking [*Run*].
 Next select :menuselection:`Raster --> Generate surfaces --> Fractal surface` from
 the menu (it's near the bottom);
