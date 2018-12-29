@@ -89,7 +89,8 @@ zooming buttons on the `Map Display` toolbar is an icon with a line graph
 and checkerboard on it. Click on that and select **Profile surface map**.
 The `@PERMANENT` mapset is automatically searched.
 If the map isn't automatically listed, again pick the `elevation` map
-as the raster layer and press :guilabel:`Ok`. The second button in from the left allows
+as the raster layer and press :guilabel:`Ok`. In the `GRASS Profile Analysis 
+Tool` window select the second button from the left, it allows
 you to set out the profile line, click it then mark out a few points on
 the `Map Display` canvas. When done go back to the Profile window and click
 on the eyeball button to create the plot. Click on the I/O button of the far
