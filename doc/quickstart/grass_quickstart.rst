@@ -92,9 +92,8 @@ If the map isn't automatically listed, again pick the `elevation` map
 as the raster layer and press :guilabel:`Ok`. In the `GRASS Profile Analysis 
 Tool` window select the second button from the left, it allows
 you to set out the profile line, click it then mark out a few points on
-the `Map Display` canvas. When done go back to the Profile window and click
-on the eyeball button to create the plot. Click on the I/O button of the far
-right to close the profile window.
+the `Map Display` canvas. When done go back to the Profile window. 
+Click on the I/O button of the far right to close the profile window.
 
 Create a random surface
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
