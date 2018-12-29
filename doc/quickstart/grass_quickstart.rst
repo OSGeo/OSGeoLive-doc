@@ -27,7 +27,7 @@ Quick tour
 
 To run GRASS GIS on the Live DVD, click on the GRASS link in
 the :menuselection:`Geospatial --> Desktop GIS` menu.
-From the "Welcome to GRASS GIS " window select the North Carolina dataset
+From the "Welcome to GRASS GIS " window select the nc_basic_spm_grass7 dataset
 for the location, and "user1" for the mapset, then click on [*Start GRASS*].
 
 .. image:: /images/projects/grass/grass-startup.png
