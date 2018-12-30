@@ -121,7 +121,7 @@ Now you'll see your new raster map added to the layer list along with
 the elevation raster map, except this time it will be in your "user1"
 working mapset. You might un-tick the `elevation` layer's visibility check-box
 now so that the two raster layers don't draw over the top of each other. Click
-on the eyeball to view your new map if it doesn't render automatically.
+on the checkbox to view your new map if it doesn't render automatically.
 The colors might not be as you'd like so let's change them. With the
 fractal DEM selected in the layer list, right click on the this raster map
 layer name and choose "Set color table". As an alternative, you can manage
