@@ -152,7 +152,7 @@ In the `Raster` menu select :menuselection:`Terrain analysis --> Compute
 shaded relief` (Terrain analysis is about half way down the `Raster` menu),
 and the module control dialog will appear. Select as the input name the
 "elevation" *@PERMANENT* map and as the output map you may specify "shaded_relief".
-Once done click [*Run*]. Now you should fine the new `shaded_relief` *@user1*
+Once done click [*Run*]. Now you should find the new `shaded_relief` *@user1*
 map added into your layer list. Un-tick the other raster layers to only
 display the newly created shaded relief raster layer.
 
