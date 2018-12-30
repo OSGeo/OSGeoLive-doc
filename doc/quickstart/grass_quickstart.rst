@@ -145,7 +145,7 @@ the raster map of interest, "`elevation`" in the PERMANENT mapset. To
 do this, make sure it is loaded into the layer list of the main `GIS Layer
 Manager` window, right click on its name and select "Set computation region
 from selected map(s)". You will notice the Layer Manage tab will switch to
-a text console to display the new settings. Click on the "*Map layers*" tab
+a text console to display the new settings. Click on the "*Layers*" tab
 at the bottom to get back to the layer list.
 
 In the `Raster` menu select :menuselection:`Terrain analysis --> Compute
