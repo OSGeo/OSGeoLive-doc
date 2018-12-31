@@ -192,7 +192,6 @@ view it as a backdrop.
 
 In the `GIS Layer Manager` window click on the `Add various overlays` button
 and `Add grid layer`. For size of grid put 5000 (in map units, here meter).
-.. MN comment: UNUSED  0:03 for 0 degrees and 3 minutes (format is D:M:S), then in the "Optional" tab tick Draw geographic grid.
 Once done press :guilabel:`OK`. Optionally you may change the colors for
 the grid lines and the text labels.
 
