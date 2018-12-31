@@ -217,7 +217,7 @@ tab click the [*Set font*] button, choose
 one (for example DajVu Sans Bold), and then [*Save*] or [*Save for this session only*]
 in the Preferences window. You will
 have to do a full re-render to see the change so click on the re-render button
-next to the eyeball in the `Map Display` window. The fonts will now be much prettier.
+the first in the `Map Display` window. The fonts will now be much prettier.
 
 Vector modules
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
