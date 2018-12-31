@@ -214,7 +214,7 @@ Now you may be thinking to yourself that these fonts are a bit bare.
 That's easily fixed in the `GIS Layer Manager` menus
 open :menuselection:`Settings --> Preferences` and in the Map Display
 tab click the [*Set font*] button, choose
-one (for example DroidSans), and then [*Apply*] in the Preferences window. You will
+one (for example DajVu Sans Bold), and then [*Apply*] in the Preferences window. You will
 have to do a full re-render to see the change so click on the re-render button
 next to the eyeball in the `Map Display` window. The fonts will now be much prettier.
 
