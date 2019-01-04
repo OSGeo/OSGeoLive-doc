@@ -281,7 +281,7 @@ Select ``basin_areas`` for the input vector map, as "Source value" select
 attribute column for the column containing the numeric range. The colors we
 want to copy from the `elevation` raster map, so we select it as the name for
 "Raster map from which to copy color table". After clicking [*Run*] you
-need to refresh the map display (second icon from left) to see the updated
+need to refresh the map display (first icon from left) to see the updated
 basins map.
 
 Now let's look at the attribute table and SQL builder in more detail. In the
