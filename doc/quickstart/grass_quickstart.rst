@@ -271,7 +271,7 @@ Use ``basin_areas`` as the vector polygon map, and select the ``elevation``
 raster map to calculate the statistics from; set the the "Column prefix for
 new attribute columns" to ``elev``, and click [*Run*]; then close the dialog when
 it is finished. You can query the values in the `Map Display` window using
-the fifth icon from the left and after verifying that the vector-areas map
+the fourth icon from the left and after verifying that the vector-areas map
 is selected in the `Layer List`, clicking on a vector area in the map canvas.
 
 You can now re-colorize the areas based on the average elevation values using the
