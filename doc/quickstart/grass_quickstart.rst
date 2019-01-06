@@ -290,8 +290,9 @@ map"), it is second from the left on the bottom row. This will open a view
 of the database table attached to the selected vector map. For now we'll just
 do a *Simple* database query to find watershed basins without a lot of variation
 in them. Where it says ``SELECT * FROM basin_areas WHERE`` pick ``elev_stddev``
-from the pull down list for the standard deviation statistic, then in the
-text box to its right enter ``< 50`` and click [*Apply*]. You'll notice the
+from the pull down list for the standard deviation statistic, then select ``<`` 
+from the relation list and in the text box to its right enter ``< 50`` and 
+click [*Apply*]. You'll notice the
 number of loaded records in the information bar along the bottom of the window
 has shrunk, and that all of the rows with large values for standard deviation
 (std. dev.) are now gone from the displayed table. Right-click on the table data
