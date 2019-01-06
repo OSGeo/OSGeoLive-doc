@@ -315,7 +315,7 @@ end of the toolbar). Once the 3D display interface loads, you will see
 several tabs for the display control of the 3D view.
 Next select the "Data" tab and set the fine resolution to "1" (the lower
 the value, the finer the resolution), then move the positioning puck and
-height slider around to get different views.
+height slider on the "View" tab around to get different views.
 
 To drape maps, satellite or aerial imagery over the top of the DEM, in the
 "Data" tab select as name for the **Surface Attributes** map the overlay
