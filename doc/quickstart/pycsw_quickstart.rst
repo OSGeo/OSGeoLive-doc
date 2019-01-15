@@ -173,7 +173,7 @@ For more information on pycsw, please consult the `documentation`_ on the pycsw 
 .. _`OpenGIS Catalogue Service Implementation Specification`: http://www.opengeospatial.org/standards/cat
 .. _`2011`: http://www.kralidis.ca/blog/2011/02/04/help-wanted-baking-a-csw-server-in-python/
 .. _`Open Source`: http://www.opensource.org/
-.. _`documentation`: http://pycsw.org/docs/documentation.html
+.. _`documentation`: http://pycsw.org/docs/
 .. _`lxml`: http://lxml.de/
 .. _`SQLAlchemy`: http://www.sqlalchemy.org/
 .. _`Shapely`: http://trac.gispython.org/lab/wiki/Shapely
