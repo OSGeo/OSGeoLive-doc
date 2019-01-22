@@ -19,7 +19,7 @@ pycsw enables users to publish a catalogue of dataset descriptions (metadata) to
 
 Metadata is 'data about data', storing such things as creation-date, author, title, area-of-interest, etc, and is usually encoded as XML files, following international standards such as ISO 19115, ISO 19139 and FGDC CSDGM.
 
-pycsw is a `Python`_ implementation of the `OGC Catalogue Services for the Web (CSW) standard <http://www.opengeospatial.org/standards/cws>`__. The project is certified `OGC Compliant`_, and is an `OGC Reference Implementation`_. The CSW standard defines common interfaces to discover, browse and query metadata about spatial data, web services and related resources. 
+pycsw is a `Python`_ implementation of the `OGC Catalogue Services for the Web (CSW) standard <https://www.opengeospatial.org/standards/cat>`__. The project is certified `OGC Compliant`_, and is an `OGC Reference Implementation`_. The CSW standard defines common interfaces to discover, browse and query metadata about spatial data, web services and related resources. 
 
 pycsw is Open Source, released under an MIT license, and runs on all major platforms (Windows, Linux, Mac OS X).
 
@@ -69,11 +69,11 @@ Metadata Standards:
 
 * Dublin Core 	1.1
 * SOAP 	1.2
-* ISO 19115 	2003
-* ISO 19139 	2007
-* ISO 19119 	2005
-* NASA DIF 	9.7
-* FGDC CSDGM 	1998
+* ISO 19115:2003
+* ISO 19139:2007
+* ISO 19119:2005
+* NASA DIF 9.7
+* FGDC CSDGM 1998
 * GM03  2.1
 * SRU 	1.1
 * OAI-PMH   2.0
@@ -82,7 +82,7 @@ Metadata Standards:
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://pycsw.org
+**Website:** https://pycsw.org
 
 **Licence:** `MIT`_
 
@@ -92,11 +92,11 @@ Details
 
 **API Interfaces:** Python
 
-**Support:** http://pycsw.org/docs/support.html
+**Support:** https://pycsw.org/docs/support.html
 
-.. _`Python`: http://www.python.org/
-.. _`MIT`: http://pycsw.org/docs/license.html#license
-.. _`OGC Compliant`: http://www.opengeospatial.org/resource/products/details/?pid=1374
+.. _`Python`: https://www.python.org/
+.. _`MIT`: https://docs.pycsw.org/en/latest/license.html
+.. _`OGC Compliant`: https://www.opengeospatial.org/resource/products/details/?pid=1374
 .. _`OGC Reference Implementation`: http://demo.pycsw.org/
 
 @QUICKSTART_pycsw@

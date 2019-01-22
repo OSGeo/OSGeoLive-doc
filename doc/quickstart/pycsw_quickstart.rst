@@ -11,7 +11,7 @@
 @NAME_pycsw@ Quickstart
 ********************************************************************************
 
-pycsw is an OGC CSW server implementation written in `Python <http://python.org>`_. pycsw allows for the publishing and discovery of geospatial metadata.  Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0.
+pycsw is an OGC CSW server implementation written in `Python <https://python.org>`_. pycsw allows for the publishing and discovery of geospatial metadata.  Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0.
 
 .. contents:: Contents
 
@@ -97,7 +97,7 @@ In order to create a new SQLite database we need to:
 
    **[repository]**
 
-   - **database**: the full file path to the metadata database, in database URL format (see http://docs.sqlalchemy.org/en/latest/core/engines.html#database-urls)
+   - **database**: the full file path to the metadata database, in database URL format (see https://docs.sqlalchemy.org/en/latest/core/engines.html#database-urls)
    - **table**: the table name for metadata records (default is ``records``)
 
 2. Setup the database:
@@ -170,19 +170,19 @@ What Next?
 
 For more information on pycsw, please consult the `documentation`_ on the pycsw website.
 
-.. _`OpenGIS Catalogue Service Implementation Specification`: http://www.opengeospatial.org/standards/cat
-.. _`2011`: http://www.kralidis.ca/blog/2011/02/04/help-wanted-baking-a-csw-server-in-python/
-.. _`Open Source`: http://www.opensource.org/
-.. _`documentation`: http://pycsw.org/docs/
-.. _`lxml`: http://lxml.de/
-.. _`SQLAlchemy`: http://www.sqlalchemy.org/
-.. _`Shapely`: http://trac.gispython.org/lab/wiki/Shapely
-.. _`pyproj`: http://code.google.com/p/pyproj/
-.. _`Download pycsw`: http://pycsw.org/download.html
-.. _`OGC Compliant`: http://www.opengeospatial.org/resource/products/details/?pid=1104
+.. _`OpenGIS Catalogue Service Implementation Specification`: https://www.opengeospatial.org/standards/cat
+.. _`2011`: https://kralidis.ca/blog/2011/02/04/help-wanted-baking-a-csw-server-in-python/
+.. _`Open Source`: https://www.opensource.org/
+.. _`documentation`: https://pycsw.org/docs/
+.. _`lxml`: https://lxml.de/
+.. _`SQLAlchemy`: https://www.sqlalchemy.org/
+.. _`Shapely`: https://github.com/Toblerity/Shapely
+.. _`pyproj`: https://github.com/jswhit/pyproj
+.. _`Download pycsw`: https://pycsw.org/download.html
+.. _`OGC Compliant`: https://www.opengeospatial.org/resource/products/details/?pid=1104
 .. _`OGC Reference Implementation`: http://demo.pycsw.org/
 .. _`GitHub`: https://github.com/geopython/pycsw
-.. _`OGR`: http://www.gdal.org/ogr
-.. _`OGC SFSQL`: http://www.opengeospatial.org/standards/sfs
+.. _`OGR`: https://www.gdal.org/ogr
+.. _`OGC SFSQL`: https://www.opengeospatial.org/standards/sfs
 .. _`OWSLib CSW`: https://geopython.github.io/OWSLib/#csw
 
