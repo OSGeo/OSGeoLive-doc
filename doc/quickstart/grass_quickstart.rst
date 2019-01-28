@@ -27,7 +27,7 @@ Quick tour
 
 To run GRASS GIS on the Live DVD, click on the GRASS link in
 the :menuselection:`Geospatial --> Desktop GIS` menu.
-From the "Welcome to GRASS GIS " window select the North Carolina dataset
+From the "Welcome to GRASS GIS " window select the nc_basic_spm_grass7 dataset
 for the location, and "user1" for the mapset, then click on [*Start GRASS*].
 
 .. image:: /images/projects/grass/grass-startup.png
@@ -89,11 +89,11 @@ zooming buttons on the `Map Display` toolbar is an icon with a line graph
 and checkerboard on it. Click on that and select **Profile surface map**.
 The `@PERMANENT` mapset is automatically searched.
 If the map isn't automatically listed, again pick the `elevation` map
-as the raster layer and press :guilabel:`Ok`. The second button in from the left allows
+as the raster layer and press :guilabel:`Ok`. In the `GRASS Profile Analysis 
+Tool` window select the second button from the left, it allows
 you to set out the profile line, click it then mark out a few points on
-the `Map Display` canvas. When done go back to the Profile window and click
-on the eyeball button to create the plot. Click on the I/O button of the far
-right to close the profile window.
+the `Map Display` canvas. When done go back to the Profile window. 
+Click on the I/O button of the far right to close the profile window.
 
 Create a random surface
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -101,7 +101,7 @@ Create a random surface
 .. HB comment: this quickstart is getting kinda long, maybe retire this section.
 
 Now let's create a new map. First set the *computational region* to the default
-bounds with :menuselection:`Settings --> Region --> Set region`, ticking
+bounds with :menuselection:`Settings --> Computational region --> Set region`, ticking
 "*Set from default region*", and clicking [*Run*].
 Next select :menuselection:`Raster --> Generate surfaces --> Fractal surface` from
 the menu (it's near the bottom);
@@ -121,7 +121,7 @@ Now you'll see your new raster map added to the layer list along with
 the elevation raster map, except this time it will be in your "user1"
 working mapset. You might un-tick the `elevation` layer's visibility check-box
 now so that the two raster layers don't draw over the top of each other. Click
-on the eyeball to view your new map if it doesn't render automatically.
+on the checkbox to view your new map if it doesn't render automatically.
 The colors might not be as you'd like so let's change them. With the
 fractal DEM selected in the layer list, right click on the this raster map
 layer name and choose "Set color table". As an alternative, you can manage
@@ -145,14 +145,14 @@ the raster map of interest, "`elevation`" in the PERMANENT mapset. To
 do this, make sure it is loaded into the layer list of the main `GIS Layer
 Manager` window, right click on its name and select "Set computation region
 from selected map(s)". You will notice the Layer Manage tab will switch to
-a text console to display the new settings. Click on the "*Map layers*" tab
+a text console to display the new settings. Click on the "*Layers*" tab
 at the bottom to get back to the layer list.
 
 In the `Raster` menu select :menuselection:`Terrain analysis --> Compute
 shaded relief` (Terrain analysis is about half way down the `Raster` menu),
 and the module control dialog will appear. Select as the input name the
 "elevation" *@PERMANENT* map and as the output map you may specify "shaded_relief".
-Once done click [*Run*]. Now you should fine the new `shaded_relief` *@user1*
+Once done click [*Run*]. Now you should find the new `shaded_relief` *@user1*
 map added into your layer list. Un-tick the other raster layers to only
 display the newly created shaded relief raster layer.
 
@@ -192,7 +192,6 @@ view it as a backdrop.
 
 In the `GIS Layer Manager` window click on the `Add various overlays` button
 and `Add grid layer`. For size of grid put 5000 (in map units, here meter).
-.. MN comment: UNUSED  0:03 for 0 degrees and 3 minutes (format is D:M:S), then in the "Optional" tab tick Draw geographic grid.
 Once done press :guilabel:`OK`. Optionally you may change the colors for
 the grid lines and the text labels.
 
@@ -215,9 +214,10 @@ Now you may be thinking to yourself that these fonts are a bit bare.
 That's easily fixed in the `GIS Layer Manager` menus
 open :menuselection:`Settings --> Preferences` and in the Map Display
 tab click the [*Set font*] button, choose
-one (for example DroidSans), and then [*Apply*] in the Preferences window. You will
+one (for example DajVu Sans Bold), and then [*Save*] or [*Save for this session only*]
+in the Preferences window. You will
 have to do a full re-render to see the change so click on the re-render button
-next to the eyeball in the `Map Display` window. The fonts will now be much prettier.
+the first in the `Map Display` window. The fonts will now be much prettier.
 
 Vector modules
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -271,7 +271,7 @@ Use ``basin_areas`` as the vector polygon map, and select the ``elevation``
 raster map to calculate the statistics from; set the the "Column prefix for
 new attribute columns" to ``elev``, and click [*Run*]; then close the dialog when
 it is finished. You can query the values in the `Map Display` window using
-the fifth icon from the left and after verifying that the vector-areas map
+the fourth icon from the left and after verifying that the vector-areas map
 is selected in the `Layer List`, clicking on a vector area in the map canvas.
 
 You can now re-colorize the areas based on the average elevation values using the
@@ -281,7 +281,7 @@ Select ``basin_areas`` for the input vector map, as "Source value" select
 attribute column for the column containing the numeric range. The colors we
 want to copy from the `elevation` raster map, so we select it as the name for
 "Raster map from which to copy color table". After clicking [*Run*] you
-need to refresh the map display (second icon from left) to see the updated
+need to refresh the map display (first icon from left) to see the updated
 basins map.
 
 Now let's look at the attribute table and SQL builder in more detail. In the
@@ -290,8 +290,9 @@ map"), it is second from the left on the bottom row. This will open a view
 of the database table attached to the selected vector map. For now we'll just
 do a *Simple* database query to find watershed basins without a lot of variation
 in them. Where it says ``SELECT * FROM basin_areas WHERE`` pick ``elev_stddev``
-from the pull down list for the standard deviation statistic, then in the
-text box to its right enter ``< 50`` and click [*Apply*]. You'll notice the
+from the pull down list for the standard deviation statistic, then select ``<`` 
+from the relation list and in the text box to its right enter ``< 50`` and 
+click [*Apply*]. You'll notice the
 number of loaded records in the information bar along the bottom of the window
 has shrunk, and that all of the rows with large values for standard deviation
 (std. dev.) are now gone from the displayed table. Right-click on the table data
@@ -314,7 +315,7 @@ end of the toolbar). Once the 3D display interface loads, you will see
 several tabs for the display control of the 3D view.
 Next select the "Data" tab and set the fine resolution to "1" (the lower
 the value, the finer the resolution), then move the positioning puck and
-height slider around to get different views.
+height slider on the "View" tab around to get different views.
 
 To drape maps, satellite or aerial imagery over the top of the DEM, in the
 "Data" tab select as name for the **Surface Attributes** map the overlay
