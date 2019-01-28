@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-01-28 14:24-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../build/doc/overview/istsos_overview.rst:17
 msgid "istSOS"
@@ -26,23 +27,23 @@ msgstr "Data Management Tool"
 
 #: ../../build/doc/overview/istsos_overview.rst:22
 msgid ""
-"istSOS is sensor data management tool that allows collection, maintenance "
-"and publishing of monitoring observations using the Open Geospatial "
+"istSOS is sensor data management tool that allows collection, maintenance"
+" and publishing of monitoring observations using the Open Geospatial "
 "Consortium (OGC) `Sensor Observation Service (SOS) "
 "<http://www.opengeospatial.org/standards/sos>`__ standard."
 msgstr ""
-"istSOS is sensor data management tool that allows collection, maintenance "
-"and publishing of monitoring observations using the Open Geospatial "
+"istSOS is sensor data management tool that allows collection, maintenance"
+" and publishing of monitoring observations using the Open Geospatial "
 "Consortium (OGC) `Sensor Observation Service (SOS) "
 "<http://www.opengeospatial.org/standards/sos>`__ standard."
 
 #: ../../build/doc/overview/istsos_overview.rst:26
 msgid ""
-"istSOS strictly implements the SOS 1.0.0 standard, and has passed the OGC "
-"CITE (Compliance + Interopability Testing + Evaluation) units tests."
+"istSOS strictly implements the SOS 1.0.0 standard, and has passed the OGC"
+" CITE (Compliance + Interopability Testing + Evaluation) units tests."
 msgstr ""
-"istSOS strictly implements the SOS 1.0.0 standard, and has passed the OGC "
-"CITE (Compliance + Interopability Testing + Evaluation) units tests."
+"istSOS strictly implements the SOS 1.0.0 standard, and has passed the OGC"
+" CITE (Compliance + Interopability Testing + Evaluation) units tests."
 
 #: ../../build/doc/overview/istsos_overview.rst:35
 msgid "Core Features"
@@ -50,21 +51,22 @@ msgstr "Core Features"
 
 #: ../../build/doc/overview/istsos_overview.rst:37
 msgid ""
-"Publish sensor data in accordance with the Sensor Observation Service (SOS) "
-"standard."
+"Publish sensor data in accordance with the Sensor Observation Service "
+"(SOS) standard."
 msgstr ""
-"Publish sensor data in accordance with the Sensor Observation Service (SOS) "
-"standard."
+"Publish sensor data in accordance with the Sensor Observation Service "
+"(SOS) standard."
 
 #: ../../build/doc/overview/istsos_overview.rst:38
 msgid "Administer sensors and data with an intuitive web-based interface."
 msgstr "Administer sensors and data with an intuitive web-based interface."
 
 #: ../../build/doc/overview/istsos_overview.rst:39
+#, fuzzy
 msgid ""
 "Use a complete RestFul API to access istSOS functionality from external "
-"clients to create interactive charts, display sensor on a dinamic map or "
-"just write some maintainance scripts."
+"clients to create interactive charts, display sensor on a dynamic map or "
+"just write some maintenance scripts."
 msgstr ""
 "Use a complete RestFul API to access istSOS functionality from external "
 "clients to create interactive charts, display sensor on a dinamic map or "
@@ -72,11 +74,11 @@ msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:40
 msgid ""
-"Get notified through mail, twitter or other social media when sensor data "
-"meets specific conditions."
+"Get notified through mail, twitter or other social media when sensor data"
+" meets specific conditions."
 msgstr ""
-"Get notified through mail, twitter or other social media when sensor data "
-"meets specific conditions."
+"Get notified through mail, twitter or other social media when sensor data"
+" meets specific conditions."
 
 #: ../../build/doc/overview/istsos_overview.rst:41
 msgid ""
@@ -87,8 +89,9 @@ msgstr ""
 "(administrator, network manager, data manager and visitor)."
 
 #: ../../build/doc/overview/istsos_overview.rst:42
+#, fuzzy
 msgid ""
-"Create Virtual Procedures that looks like normal stations but whose data "
+"Create Virtual Procedures that look like normal stations but whose data "
 "results from on-the-fly elaboration of other sensor data."
 msgstr ""
 "Create Virtual Procedures that looks like normal stations but whose data "
@@ -96,19 +99,19 @@ msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:43
 msgid ""
-"Associate quality indexes to each observation thanks to embedded validation "
-"tests."
+"Associate quality indexes to each observation thanks to embedded "
+"validation tests."
 msgstr ""
-"Associate quality indexes to each observation thanks to embedded validation "
-"tests."
+"Associate quality indexes to each observation thanks to embedded "
+"validation tests."
 
 #: ../../build/doc/overview/istsos_overview.rst:44
 msgid ""
-"Online editing of data with a seamless interface and advanced observation "
-"calculator."
+"Online editing of data with a seamless interface and advanced observation"
+" calculator."
 msgstr ""
-"Online editing of data with a seamless interface and advanced observation "
-"calculator."
+"Online editing of data with a seamless interface and advanced observation"
+" calculator."
 
 #: ../../build/doc/overview/istsos_overview.rst:48
 msgid "Implemented Standards"
@@ -153,3 +156,4 @@ msgstr "Quickstart"
 #: ../../build/doc/overview/istsos_overview.rst:71
 msgid ":doc:`Quickstart documentation <../quickstart/istsos_quickstart>`"
 msgstr ":doc:`Quickstart documentation <../quickstart/istsos_quickstart>`"
+

@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-01-28 14:24-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:31
 msgid "QGIS Quickstart"
@@ -22,11 +23,11 @@ msgstr "QGIS Quickstart"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:33
 msgid ""
-"QGIS is a user friendly Desktop GIS client which lets you visualize, manage,"
-" edit, analyse data and compose printable maps."
+"QGIS is a user friendly Desktop GIS client which lets you visualize, "
+"manage, edit, analyse data and compose printable maps."
 msgstr ""
-"QGIS is a user friendly Desktop GIS client which lets you visualize, manage,"
-" edit, analyse data and compose printable maps."
+"QGIS is a user friendly Desktop GIS client which lets you visualize, "
+"manage, edit, analyse data and compose printable maps."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:40
 msgid "Edit QGIS project"
@@ -34,25 +35,23 @@ msgstr "Edit QGIS project"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:42
 msgid ""
-"Let's start by opening up an existing QGIS project, and turning layers on "
-"and off."
+"Let's start by opening up an existing QGIS project, and turning layers on"
+" and off."
 msgstr ""
-"Let's start by opening up an existing QGIS project, and turning layers on "
-"and off."
+"Let's start by opening up an existing QGIS project, and turning layers on"
+" and off."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:46
 msgid ""
-"Launch QGIS from :menuselection:`Geospatial --> Desktop GIS --> QGIS` and "
-"select :menuselection:`Project --> Open` from the menu bar."
+"Launch QGIS from :menuselection:`Geospatial --> Desktop GIS --> QGIS` and"
+" select :menuselection:`Project --> Open` from the menu bar."
 msgstr ""
-"Launch QGIS from :menuselection:`Geospatial --> Desktop GIS --> QGIS` and "
-"select :menuselection:`Project --> Open` from the menu bar."
+"Launch QGIS from :menuselection:`Geospatial --> Desktop GIS --> QGIS` and"
+" select :menuselection:`Project --> Open` from the menu bar."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:53
-msgid ""
-"Choose :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`."
-msgstr ""
-"Choose :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`."
+msgid "Choose :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`."
+msgstr "Choose :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:55
 msgid "You should see a world map."
@@ -79,14 +78,14 @@ msgid ""
 "Have a look at the tools on the tool bar. Try panning, zooming in, and "
 "zooming back out to full extent again.  Find these tools next to the "
 ":guilabel:`hand` icon. If the toolbars seem cluttered you can drag them "
-"around and turn them on and off by right clicking. You can also zoom in and "
-"out with the mouse wheel, and pan with a left-click drag."
+"around and turn them on and off by right clicking. You can also zoom in "
+"and out with the mouse wheel, and pan with a left-click drag."
 msgstr ""
 "Have a look at the tools on the tool bar. Try panning, zooming in, and "
 "zooming back out to full extent again.  Find these tools next to the "
 ":guilabel:`hand` icon. If the toolbars seem cluttered you can drag them "
-"around and turn them on and off by right clicking. You can also zoom in and "
-"out with the mouse wheel, and pan with a left-click drag."
+"around and turn them on and off by right clicking. You can also zoom in "
+"and out with the mouse wheel, and pan with a left-click drag."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:81
 msgid "Style a layer"
@@ -106,11 +105,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:92
 msgid ""
-"#. In the `Layer Properties` dialog on the `Style` tab click on the `Color` "
-"to select a different color, say yellow."
+"#. In the `Layer Properties` dialog on the `Style` tab click on the "
+"`Color` to select a different color, say yellow."
 msgstr ""
-"#. In the `Layer Properties` dialog on the `Style` tab click on the `Color` "
-"to select a different color, say yellow."
+"#. In the `Layer Properties` dialog on the `Style` tab click on the "
+"`Color` to select a different color, say yellow."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:95
 msgid "Press :guilabel:`OK`."
@@ -130,22 +129,24 @@ msgstr "Let's now create a new QGIS project and load our own data."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:108
 msgid ""
-"Choose :menuselection:`Project --> New`. You will be asked whether to save "
-"the previous project, you can press :guilabel:`Close without Saving`."
+"Choose :menuselection:`Project --> New`. You will be asked whether to "
+"save the previous project, you can press :guilabel:`Close without "
+"Saving`."
 msgstr ""
-"Choose :menuselection:`Project --> New`. You will be asked whether to save "
-"the previous project, you can press :guilabel:`Close without Saving`."
+"Choose :menuselection:`Project --> New`. You will be asked whether to "
+"save the previous project, you can press :guilabel:`Close without "
+"Saving`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:110
 msgid ""
 "#. Click :menuselection:`Layer --> Add Layer--> Add Vector Layer...` Or "
-"click on the 'Add Vector Layer' button (the one with the 'V' shape, in the "
-"red rectangle in the image). You can also use the keyboard shortcut "
+"click on the 'Add Vector Layer' button (the one with the 'V' shape, in "
+"the red rectangle in the image). You can also use the keyboard shortcut "
 "'Ctrl+Shift+V'"
 msgstr ""
 "#. Click :menuselection:`Layer --> Add Layer--> Add Vector Layer...` Or "
-"click on the 'Add Vector Layer' button (the one with the 'V' shape, in the "
-"red rectangle in the image). You can also use the keyboard shortcut "
+"click on the 'Add Vector Layer' button (the one with the 'V' shape, in "
+"the red rectangle in the image). You can also use the keyboard shortcut "
 "'Ctrl+Shift+V'"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:117
@@ -181,64 +182,64 @@ msgstr ""
 "visibility check box to temporarily hide it."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:138
-msgid ""
-"Choose :menuselection:`Layer --> Add Layers --> Add PostGIS Layers...`."
-msgstr ""
-"Choose :menuselection:`Layer --> Add Layers --> Add PostGIS Layers...`."
+msgid "Choose :menuselection:`Layer --> Add Layers --> Add PostGIS Layers...`."
+msgstr "Choose :menuselection:`Layer --> Add Layers --> Add PostGIS Layers...`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:140
 msgid ""
-"You can also click on the icon with the elephant head in the left panel or "
-"use the keyboard shortcut 'Ctrl+Shift+D'"
+"You can also click on the icon with the elephant head in the left panel "
+"or use the keyboard shortcut 'Ctrl+Shift+D'"
 msgstr ""
-"You can also click on the icon with the elephant head in the left panel or "
-"use the keyboard shortcut 'Ctrl+Shift+D'"
+"You can also click on the icon with the elephant head in the left panel "
+"or use the keyboard shortcut 'Ctrl+Shift+D'"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:142
+#, fuzzy
 msgid ""
-"Both Natural Earth and OpenStreetMap Postgis databases are already "
-"available; we will be using use the Natural Earth database. If you wanted to"
-" connect to a different database, you would select the :guilabel:`New` "
-"button and fill in the database parameters."
+"Five Postgis databases are already available; we will be using the "
+"Natural Earth database. If you wanted to connect to a different database,"
+" you would select the :guilabel:`New` button and fill in the database "
+"parameters."
 msgstr ""
 "Both Natural Earth and OpenStreetMap Postgis databases are already "
-"available; we will be using use the Natural Earth database. If you wanted to"
-" connect to a different database, you would select the :guilabel:`New` "
-"button and fill in the database parameters."
+"available; we will be using use the Natural Earth database. If you wanted"
+" to connect to a different database, you would select the :guilabel:`New`"
+" button and fill in the database parameters."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:147
+#: ../../build/doc/quickstart/qgis_quickstart.rst:146
 msgid ""
-"#. Select the \"Natural Earth\" connection and press :guilabel:`Connect`. "
-"Then click on the Public schema to deploy it:"
+"#. Select the \"Natural Earth\" connection and press :guilabel:`Connect`."
+" Then click on the Public schema to deploy it:"
 msgstr ""
-"#. Select the \"Natural Earth\" connection and press :guilabel:`Connect`. "
-"Then click on the Public schema to deploy it:"
+"#. Select the \"Natural Earth\" connection and press :guilabel:`Connect`."
+" Then click on the Public schema to deploy it:"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:150
+#: ../../build/doc/quickstart/qgis_quickstart.rst:149
 msgid "A list of database tables will appear."
 msgstr "A list of database tables will appear."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:156
-msgid "Select ``ne_10_populated_places`` and click :guilabel:`Add`."
+#: ../../build/doc/quickstart/qgis_quickstart.rst:155
+#, fuzzy
+msgid "Select ``ne_10m_populated_places`` and click :guilabel:`Add`."
 msgstr "Select ``ne_10_populated_places`` and click :guilabel:`Add`."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:158
+#: ../../build/doc/quickstart/qgis_quickstart.rst:157
 msgid ""
-"For more details about working with PostGIS databases see the :doc:`PostGIS "
-"Quickstart <postgis_quickstart>`."
+"For more details about working with PostGIS databases see the "
+":doc:`PostGIS Quickstart <postgis_quickstart>`."
 msgstr ""
-"For more details about working with PostGIS databases see the :doc:`PostGIS "
-"Quickstart <postgis_quickstart>`."
+"For more details about working with PostGIS databases see the "
+":doc:`PostGIS Quickstart <postgis_quickstart>`."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:161
+#: ../../build/doc/quickstart/qgis_quickstart.rst:160
 msgid ""
-"Zoom in on the United States using the mouse wheel and left-click drag to "
-"navigate."
+"Zoom in on the United States using the mouse wheel and left-click drag to"
+" navigate."
 msgstr ""
-"Zoom in on the United States using the mouse wheel and left-click drag to "
-"navigate."
+"Zoom in on the United States using the mouse wheel and left-click drag to"
+" navigate."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:164
+#: ../../build/doc/quickstart/qgis_quickstart.rst:163
 msgid ""
 "Right click on ``ne_10m_populated_places`` in the layer list to get a "
 "context menu, then select :menuselection:`Properties`."
@@ -246,81 +247,85 @@ msgstr ""
 "Right click on ``ne_10m_populated_places`` in the layer list to get a "
 "context menu, then select :menuselection:`Properties`."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:167
+#: ../../build/doc/quickstart/qgis_quickstart.rst:166
+#, fuzzy
 msgid ""
-"Let's represent one of the database attributes in the data as a bubble plot."
-" In the middle of the `Style` tab, drag the Transparency slider to **50%**. "
-"Click on the small button at the right of the size field and select "
-":menuselection:`Size scale field`, then choose **scalerank** (it's near to "
-"the beginning of the list). Then click :guilabel:`Ok`."
+"Let's represent one of the database attributes in the data as a bubble "
+"plot. In the middle of the `Style` tab, drag the Transparency slider to "
+"**50%**. Click on the small button at the right of the size field and "
+"hover over the option within :menuselection:`Attribute field`, then "
+"choose **scalerank** (it's near to the beginning of the list). Then click"
+" :guilabel:`Ok`."
 msgstr ""
-"Let's represent one of the database attributes in the data as a bubble plot."
-" In the middle of the `Style` tab, drag the Transparency slider to **50%**. "
-"Click on the small button at the right of the size field and select "
-":menuselection:`Size scale field`, then choose **scalerank** (it's near to "
-"the beginning of the list). Then click :guilabel:`Ok`."
+"Let's represent one of the database attributes in the data as a bubble "
+"plot. In the middle of the `Style` tab, drag the Transparency slider to "
+"**50%**. Click on the small button at the right of the size field and "
+"select :menuselection:`Size scale field`, then choose **scalerank** (it's"
+" near to the beginning of the list). Then click :guilabel:`Ok`."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:173
+#: ../../build/doc/quickstart/qgis_quickstart.rst:172
 msgid ""
-"You can then click on the query button on the toolbar (cursor arrow with a "
-"blue \"i\") and then on the map canvas bubbles to view information about the"
-" individual cities."
+"You can then click on the query button on the toolbar (cursor arrow with "
+"a blue \"i\") and then on the map canvas bubbles to view information "
+"about the individual cities."
 msgstr ""
-"You can then click on the query button on the toolbar (cursor arrow with a "
-"blue \"i\") and then on the map canvas bubbles to view information about the"
-" individual cities."
+"You can then click on the query button on the toolbar (cursor arrow with "
+"a blue \"i\") and then on the map canvas bubbles to view information "
+"about the individual cities."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:182
+#: ../../build/doc/quickstart/qgis_quickstart.rst:181
 msgid "Using the GRASS Toolbox"
 msgstr "Using the GRASS Toolbox"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:184
+#: ../../build/doc/quickstart/qgis_quickstart.rst:183
 msgid ""
 "There have been many plugins written for QGIS which extend QGIS's core "
-"functionality. One of the more powerful is the GRASS plugin, which taps into"
-" the hundreds of geospatial processing modules available from :doc:`GRASS "
-"GIS <../overview/grass_overview>`."
+"functionality. One of the more powerful is the GRASS plugin, which taps "
+"into the hundreds of geospatial processing modules available from "
+":doc:`GRASS GIS <../overview/grass_overview>`."
 msgstr ""
 "There have been many plugins written for QGIS which extend QGIS's core "
-"functionality. One of the more powerful is the GRASS plugin, which taps into"
-" the hundreds of geospatial processing modules available from :doc:`GRASS "
-"GIS <../overview/grass_overview>`."
+"functionality. One of the more powerful is the GRASS plugin, which taps "
+"into the hundreds of geospatial processing modules available from "
+":doc:`GRASS GIS <../overview/grass_overview>`."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:190
+#: ../../build/doc/quickstart/qgis_quickstart.rst:189
 msgid ""
 "You will need to change permissions of the grass data folder in order to "
 "carry out the following steps. Please open a terminal and execute the "
-"following: \"sudo chmod -R 775 /usr/local/share/grass/nc_basic_spm_grass7\""
+"following: \"sudo chmod -R 775 "
+"/usr/local/share/grass/nc_basic_spm_grass7\""
 msgstr ""
 "You will need to change permissions of the grass data folder in order to "
 "carry out the following steps. Please open a terminal and execute the "
-"following: \"sudo chmod -R 775 /usr/local/share/grass/nc_basic_spm_grass7\""
+"following: \"sudo chmod -R 775 "
+"/usr/local/share/grass/nc_basic_spm_grass7\""
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:194
+#: ../../build/doc/quickstart/qgis_quickstart.rst:193
 msgid "Clear the slate with :menuselection:`Project --> New`."
 msgstr "Clear the slate with :menuselection:`Project --> New`."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:200
+#: ../../build/doc/quickstart/qgis_quickstart.rst:199
 msgid ""
 "Choose :menuselection:`Plugins --> Manage and Install Plugins...`, then "
-"scroll down or type ``grass`` into the Search box, and select the `GRASS 7` "
-"plugin."
+"scroll down or type ``grass`` into the Search box, and select the `GRASS "
+"7` plugin."
 msgstr ""
 "Choose :menuselection:`Plugins --> Manage and Install Plugins...`, then "
-"scroll down or type ``grass`` into the Search box, and select the `GRASS 7` "
-"plugin."
+"scroll down or type ``grass`` into the Search box, and select the `GRASS "
+"7` plugin."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:203
+#: ../../build/doc/quickstart/qgis_quickstart.rst:202
 msgid ""
-"Notice that a new GRASS icon has been added to the Toolbar, a docked window "
-"named \"GRASS Tools\" has appeared on the right of the map area and a new "
-"`GRASS` menu item has been added to the `Plugins` menu."
+"Notice that a new GRASS icon has been added to the Toolbar, a docked "
+"window named \"GRASS Tools\" has appeared on the right of the map area "
+"and a new `GRASS` menu item has been added to the `Plugins` menu."
 msgstr ""
-"Notice that a new GRASS icon has been added to the Toolbar, a docked window "
-"named \"GRASS Tools\" has appeared on the right of the map area and a new "
-"`GRASS` menu item has been added to the `Plugins` menu."
+"Notice that a new GRASS icon has been added to the Toolbar, a docked "
+"window named \"GRASS Tools\" has appeared on the right of the map area "
+"and a new `GRASS` menu item has been added to the `Plugins` menu."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:205
+#: ../../build/doc/quickstart/qgis_quickstart.rst:204
 msgid ""
 "Connect to an existing GRASS workspace with :menuselection:`Plugins --> "
 "GRASS --> Open mapset`."
@@ -328,7 +333,7 @@ msgstr ""
 "Connect to an existing GRASS workspace with :menuselection:`Plugins --> "
 "GRASS --> Open mapset`."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:207
+#: ../../build/doc/quickstart/qgis_quickstart.rst:206
 msgid ""
 "The GRASS GIS data base (Gisdbase) has already been set to "
 "`/home/user/grassdata` on the disc for you."
@@ -336,35 +341,35 @@ msgstr ""
 "The GRASS GIS data base (Gisdbase) has already been set to "
 "`/home/user/grassdata` on the disc for you."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:210
+#: ../../build/doc/quickstart/qgis_quickstart.rst:209
 msgid ""
-"Within the central GRASS data base are a number of sample datasets. We'll "
-"load the North Carolina location, and the ``user1`` mapset within it. Choose"
-" the `nc_basic_spm_grass7` Location and `user1` working mapset, then click "
-":guilabel:`Ok`."
+"Within the central GRASS data base are a number of sample datasets. We'll"
+" load the North Carolina location, and the ``user1`` mapset within it. "
+"Choose the `nc_basic_spm_grass7` Location and `user1` working mapset, "
+"then click :guilabel:`Ok`."
 msgstr ""
-"Within the central GRASS data base are a number of sample datasets. We'll "
-"load the North Carolina location, and the ``user1`` mapset within it. Choose"
-" the `nc_basic_spm_grass7` Location and `user1` working mapset, then click "
-":guilabel:`Ok`."
+"Within the central GRASS data base are a number of sample datasets. We'll"
+" load the North Carolina location, and the ``user1`` mapset within it. "
+"Choose the `nc_basic_spm_grass7` Location and `user1` working mapset, "
+"then click :guilabel:`Ok`."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:214
+#: ../../build/doc/quickstart/qgis_quickstart.rst:213
 msgid ""
-"To add a raster map to the QGIS layer list, navigate from QGIS Browser Panel"
-" to Home/grassdata/nc_basic_spm_grass7."
+"To add a raster map to the QGIS layer list, navigate from QGIS Browser "
+"Panel to Home/grassdata/nc_basic_spm_grass7."
 msgstr ""
-"To add a raster map to the QGIS layer list, navigate from QGIS Browser Panel"
-" to Home/grassdata/nc_basic_spm_grass7."
+"To add a raster map to the QGIS layer list, navigate from QGIS Browser "
+"Panel to Home/grassdata/nc_basic_spm_grass7."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:216
+#: ../../build/doc/quickstart/qgis_quickstart.rst:215
 msgid ""
-"In the PERMANENT mapset select the `elevation` map and double click to add "
-"to the map."
+"In the PERMANENT mapset select the `elevation` map and double click to "
+"add to the map."
 msgstr ""
-"In the PERMANENT mapset select the `elevation` map and double click to add "
-"to the map."
+"In the PERMANENT mapset select the `elevation` map and double click to "
+"add to the map."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:222
+#: ../../build/doc/quickstart/qgis_quickstart.rst:221
 msgid ""
 "Add another GRASS raster layer, this time the `geology` map from the "
 "PERMANENT mapset."
@@ -372,7 +377,7 @@ msgstr ""
 "Add another GRASS raster layer, this time the `geology` map from the "
 "PERMANENT mapset."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:225
+#: ../../build/doc/quickstart/qgis_quickstart.rst:224
 msgid ""
 "Double click on the `geology` map in the QGIS Layers list and in the "
 "Transparency tab set its global transparency to 70%."
@@ -380,26 +385,24 @@ msgstr ""
 "Double click on the `geology` map in the QGIS Layers list and in the "
 "Transparency tab set its global transparency to 70%."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:228
+#: ../../build/doc/quickstart/qgis_quickstart.rst:227
 msgid ""
-"To add a vector map, select a vector layer from the QGIS Browser, similar to"
-" the previous steps."
+"To add a vector map, select a vector layer from the QGIS Browser, similar"
+" to the previous steps."
 msgstr ""
-"To add a vector map, select a vector layer from the QGIS Browser, similar to"
-" the previous steps."
+"To add a vector map, select a vector layer from the QGIS Browser, similar"
+" to the previous steps."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:230
-msgid ""
-"From the PERMANENT mapset select the `roadsmajor` map with a double click."
-msgstr ""
-"From the PERMANENT mapset select the `roadsmajor` map with a double click."
+#: ../../build/doc/quickstart/qgis_quickstart.rst:229
+msgid "From the PERMANENT mapset select the `roadsmajor` map with a double click."
+msgstr "From the PERMANENT mapset select the `roadsmajor` map with a double click."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:232
-msgid "Change the layer order if neccessary (roadsmajor, geology, elevation)."
-msgstr ""
-"Change the layer order if neccessary (roadsmajor, geology, elevation)."
+#: ../../build/doc/quickstart/qgis_quickstart.rst:231
+#, fuzzy
+msgid "Change the layer order if necessary (roadsmajor, geology, elevation)."
+msgstr "Change the layer order if neccessary (roadsmajor, geology, elevation)."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:234
+#: ../../build/doc/quickstart/qgis_quickstart.rst:233
 msgid ""
 "The plugin also gives you access to many of the powerful GRASS analysis "
 "modules and visualization tools:"
@@ -407,39 +410,41 @@ msgstr ""
 "The plugin also gives you access to many of the powerful GRASS analysis "
 "modules and visualization tools:"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:237
+#: ../../build/doc/quickstart/qgis_quickstart.rst:236
 msgid ""
-"From the top menu select :menuselection:`Plugins --> GRASS --> Open GRASS "
-"tools` and drag the edge to make the window a bit bigger."
+"From the top menu select :menuselection:`Plugins --> GRASS --> Open GRASS"
+" tools` and drag the edge to make the window a bit bigger."
 msgstr ""
-"From the top menu select :menuselection:`Plugins --> GRASS --> Open GRASS "
-"tools` and drag the edge to make the window a bit bigger."
+"From the top menu select :menuselection:`Plugins --> GRASS --> Open GRASS"
+" tools` and drag the edge to make the window a bit bigger."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:240
+#: ../../build/doc/quickstart/qgis_quickstart.rst:239
 msgid ""
-"A long list of analysis tools will appear. Go to the `Modules Tree` tab and "
-"select :menuselection:`Region settings --> g.region.multiple.raster`. "
-"Clicking on it will open a new tab. Select ``elevation`` from the menu list "
-"and press :guilabel:`Run`. The `elevation` map will now have a thin red line"
-" around it, indicating the extent of GRASS's `computational region` bounds."
+"A long list of analysis tools will appear. Go to the `Modules Tree` tab "
+"and select :menuselection:`Region settings --> g.region.multiple.raster`."
+" Clicking on it will open a new tab. Select ``elevation`` from the menu "
+"list and press :guilabel:`Run`. The `elevation` map will now have a thin "
+"red line around it, indicating the extent of GRASS's `computational "
+"region` bounds."
 msgstr ""
-"A long list of analysis tools will appear. Go to the `Modules Tree` tab and "
-"select :menuselection:`Region settings --> g.region.multiple.raster`. "
-"Clicking on it will open a new tab. Select ``elevation`` from the menu list "
-"and press :guilabel:`Run`. The `elevation` map will now have a thin red line"
-" around it, indicating the extent of GRASS's `computational region` bounds."
+"A long list of analysis tools will appear. Go to the `Modules Tree` tab "
+"and select :menuselection:`Region settings --> g.region.multiple.raster`."
+" Clicking on it will open a new tab. Select ``elevation`` from the menu "
+"list and press :guilabel:`Run`. The `elevation` map will now have a thin "
+"red line around it, indicating the extent of GRASS's `computational "
+"region` bounds."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:247
+#: ../../build/doc/quickstart/qgis_quickstart.rst:246
 msgid ""
 "Back in the `Modules Tree` tab of the `GRASS Tools` window, go down to "
-":menuselection:`Raster` and select :menuselection:`Surface Management --> "
-"Generate Vector contour lines`."
+":menuselection:`Raster` and select :menuselection:`Surface Management -->"
+" Generate Vector contour lines`."
 msgstr ""
 "Back in the `Modules Tree` tab of the `GRASS Tools` window, go down to "
-":menuselection:`Raster` and select :menuselection:`Surface Management --> "
-"Generate Vector contour lines`."
+":menuselection:`Raster` and select :menuselection:`Surface Management -->"
+" Generate Vector contour lines`."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:250
+#: ../../build/doc/quickstart/qgis_quickstart.rst:249
 msgid ""
 "In the new module tab that pops open, select the `elevation` map as the "
 "input."
@@ -447,11 +452,11 @@ msgstr ""
 "In the new module tab that pops open, select the `elevation` map as the "
 "input."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:253
+#: ../../build/doc/quickstart/qgis_quickstart.rst:252
 msgid "Add some contour levels (e.g. 20, 40, 60, 80, 100)"
 msgstr "Add some contour levels (e.g. 20, 40, 60, 80, 100)"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:255
+#: ../../build/doc/quickstart/qgis_quickstart.rst:254
 msgid ""
 "Select the output layer name (e.g. contour_lines), then click "
 ":guilabel:`Run`."
@@ -459,51 +464,54 @@ msgstr ""
 "Select the output layer name (e.g. contour_lines), then click "
 ":guilabel:`Run`."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:263
+#: ../../build/doc/quickstart/qgis_quickstart.rst:262
 msgid "Using the Processing Toolbox"
 msgstr "Using the Processing Toolbox"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:265
+#: ../../build/doc/quickstart/qgis_quickstart.rst:264
+#, fuzzy
 msgid ""
-"A core plugin for QGIS which opens the door to a large family of processing "
-"tools is the Processing Toolbox (formerly named the SEXTANTE Toolbox). It "
-"acts as a standardized wrapper around a number of other sets to tools."
+"A core plugin for QGIS which opens the door to a large family of "
+"processing tools is the Processing Toolbox (formerly named the SEXTANTE "
+"Toolbox). It acts as a standardized wrapper around a number of other sets"
+" of tools."
 msgstr ""
-"A core plugin for QGIS which opens the door to a large family of processing "
-"tools is the Processing Toolbox (formerly named the SEXTANTE Toolbox). It "
-"acts as a standardized wrapper around a number of other sets to tools."
+"A core plugin for QGIS which opens the door to a large family of "
+"processing tools is the Processing Toolbox (formerly named the SEXTANTE "
+"Toolbox). It acts as a standardized wrapper around a number of other sets"
+" to tools."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:273
+#: ../../build/doc/quickstart/qgis_quickstart.rst:272
 msgid "Choose :menuselection:`Processing --> Toolbox`."
 msgstr "Choose :menuselection:`Processing --> Toolbox`."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:275
+#: ../../build/doc/quickstart/qgis_quickstart.rst:274
 msgid ""
-"A new toolbar will open on the right side of the screen with many processing"
-" tools to choose from. Take some time and have a look around."
+"A new toolbar will open on the right side of the screen with many "
+"processing tools to choose from. Take some time and have a look around."
 msgstr ""
-"A new toolbar will open on the right side of the screen with many processing"
-" tools to choose from. Take some time and have a look around."
+"A new toolbar will open on the right side of the screen with many "
+"processing tools to choose from. Take some time and have a look around."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:282
+#: ../../build/doc/quickstart/qgis_quickstart.rst:281
 msgid ""
 "You may need to enable a Processing provider in order to use it. The "
 "following screenshot shows how to enable GRASS GIS 7 support in the "
 "processing tools. Be sure to disable GRASS support (i.e., GRASS 6). "
-"Additionally, switch to the \"Advanced Interface\" (see lower right corner "
-"in the screenshot) in order to see the providers:"
+"Additionally, switch to the \"Advanced Interface\" (see lower right "
+"corner in the screenshot) in order to see the providers:"
 msgstr ""
 "You may need to enable a Processing provider in order to use it. The "
 "following screenshot shows how to enable GRASS GIS 7 support in the "
 "processing tools. Be sure to disable GRASS support (i.e., GRASS 6). "
-"Additionally, switch to the \"Advanced Interface\" (see lower right corner "
-"in the screenshot) in order to see the providers:"
+"Additionally, switch to the \"Advanced Interface\" (see lower right "
+"corner in the screenshot) in order to see the providers:"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:294
+#: ../../build/doc/quickstart/qgis_quickstart.rst:293
 msgid "Importing OpenStreetMap data"
 msgstr "Importing OpenStreetMap data"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:299
+#: ../../build/doc/quickstart/qgis_quickstart.rst:298
 msgid ""
 "Open the LX Terminal Emulator from the main :menuselection:`Accessories` "
 "menu."
@@ -511,23 +519,23 @@ msgstr ""
 "Open the LX Terminal Emulator from the main :menuselection:`Accessories` "
 "menu."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:301
+#: ../../build/doc/quickstart/qgis_quickstart.rst:300
 msgid ""
-"Cut and paste the following commands into the Terminal window to create a "
-"working copy of the OSM data in the home directory:"
+"Cut and paste the following commands into the Terminal window to create a"
+" working copy of the OSM data in the home directory:"
 msgstr ""
-"Cut and paste the following commands into the Terminal window to create a "
-"working copy of the OSM data in the home directory:"
+"Cut and paste the following commands into the Terminal window to create a"
+" working copy of the OSM data in the home directory:"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:309
+#: ../../build/doc/quickstart/qgis_quickstart.rst:308
 msgid ""
-"In QGIS, choose :menuselection:`Project --> New`. If you had the Processing "
-"Toolbox open you might want to close it."
+"In QGIS, choose :menuselection:`Project --> New`. If you had the "
+"Processing Toolbox open you might want to close it."
 msgstr ""
-"In QGIS, choose :menuselection:`Project --> New`. If you had the Processing "
-"Toolbox open you might want to close it."
+"In QGIS, choose :menuselection:`Project --> New`. If you had the "
+"Processing Toolbox open you might want to close it."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:317
+#: ../../build/doc/quickstart/qgis_quickstart.rst:316
 msgid ""
 "Choose :menuselection:`Vector --> OpenStreetMap --> Import topology from "
 "XML`."
@@ -535,93 +543,96 @@ msgstr ""
 "Choose :menuselection:`Vector --> OpenStreetMap --> Import topology from "
 "XML`."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:319
+#: ../../build/doc/quickstart/qgis_quickstart.rst:318
 msgid ""
-"Click on the \"...\" button next to \"Input XML file (.osm)\" and select the"
-" `feature_city.osm` file you just copied into the home directory. The "
+"Click on the \"...\" button next to \"Input XML file (.osm)\" and select "
+"the `feature_city.osm` file you just copied into the home directory. The "
 "\"Output SpatialLite DB file\" name will be automatically set. Click "
 ":guilabel:`Ok` to convert the dataset to SpatiaLite format and create a "
 "connection to the SpatialLite DB within QGIS."
 msgstr ""
-"Click on the \"...\" button next to \"Input XML file (.osm)\" and select the"
-" `feature_city.osm` file you just copied into the home directory. The "
+"Click on the \"...\" button next to \"Input XML file (.osm)\" and select "
+"the `feature_city.osm` file you just copied into the home directory. The "
 "\"Output SpatialLite DB file\" name will be automatically set. Click "
 ":guilabel:`Ok` to convert the dataset to SpatiaLite format and create a "
 "connection to the SpatialLite DB within QGIS."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:325
+#: ../../build/doc/quickstart/qgis_quickstart.rst:324
 msgid ""
-"Next we need to extract points, lines, and areas, then add topology to each "
-"of these three new layers. To do this we need to run the tool three times. "
-"Select :menuselection:`Vector --> OpenStreetMap --> Export toplogy to "
-"SpatiaLite` and use the \"...\" button to select the newly created "
-"`feature_city.osm.db` file. The `Output layer name` will be automatically "
-"filled in for you depending on the `Export type` selected. Click the "
+"Next we need to extract points, lines, and areas, then add topology to "
+"each of these three new layers. To do this we need to run the tool three "
+"times. Select :menuselection:`Vector --> OpenStreetMap --> Export toplogy"
+" to SpatiaLite` and use the \"...\" button to select the newly created "
+"`feature_city.osm.db` file. The `Output layer name` will be automatically"
+" filled in for you depending on the `Export type` selected. Click the "
 ":guilabel:`Load from DB` button to load in the available tags. For the "
-"\"points\" layer tick the `amentity` box; for the \"polylines\" layer tick "
-"the `highway` layer; and for the \"polygon\" layer select the `building` "
-"layer. You may wish to change the `Output layer name` to reflect the feature"
-" tags that you've selected. When you are ready, press :guilabel:`Ok` to load"
-" in the layer. You will need to again press the :guilabel:`Load from DB` "
-"button after changing the export type from points to polylines, and "
-"polylines to polygons."
+"\"points\" layer tick the `amentity` box; for the \"polylines\" layer "
+"tick the `highway` layer; and for the \"polygon\" layer select the "
+"`building` layer. You may wish to change the `Output layer name` to "
+"reflect the feature tags that you've selected. When you are ready, press "
+":guilabel:`Ok` to load in the layer. You will need to again press the "
+":guilabel:`Load from DB` button after changing the export type from "
+"points to polylines, and polylines to polygons."
 msgstr ""
-"Next we need to extract points, lines, and areas, then add topology to each "
-"of these three new layers. To do this we need to run the tool three times. "
-"Select :menuselection:`Vector --> OpenStreetMap --> Export toplogy to "
-"SpatiaLite` and use the \"...\" button to select the newly created "
-"`feature_city.osm.db` file. The `Output layer name` will be automatically "
-"filled in for you depending on the `Export type` selected. Click the "
+"Next we need to extract points, lines, and areas, then add topology to "
+"each of these three new layers. To do this we need to run the tool three "
+"times. Select :menuselection:`Vector --> OpenStreetMap --> Export toplogy"
+" to SpatiaLite` and use the \"...\" button to select the newly created "
+"`feature_city.osm.db` file. The `Output layer name` will be automatically"
+" filled in for you depending on the `Export type` selected. Click the "
 ":guilabel:`Load from DB` button to load in the available tags. For the "
-"\"points\" layer tick the `amentity` box; for the \"polylines\" layer tick "
-"the `highway` layer; and for the \"polygon\" layer select the `building` "
-"layer. You may wish to change the `Output layer name` to reflect the feature"
-" tags that you've selected. When you are ready, press :guilabel:`Ok` to load"
-" in the layer. You will need to again press the :guilabel:`Load from DB` "
-"button after changing the export type from points to polylines, and "
-"polylines to polygons."
+"\"points\" layer tick the `amentity` box; for the \"polylines\" layer "
+"tick the `highway` layer; and for the \"polygon\" layer select the "
+"`building` layer. You may wish to change the `Output layer name` to "
+"reflect the feature tags that you've selected. When you are ready, press "
+":guilabel:`Ok` to load in the layer. You will need to again press the "
+":guilabel:`Load from DB` button after changing the export type from "
+"points to polylines, and polylines to polygons."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:339
+#: ../../build/doc/quickstart/qgis_quickstart.rst:338
 msgid ""
 "Once topology is loaded, you can also refine the SpatiaLite layer by "
-"querying just certain features from within it. Select :menuselection:`Layer "
-"--> Add Layer --> Add SpatiaLite Layer...` from the menu and from the "
-"`Databases` list select `feature_city@...` and then click on "
-":guilabel:`Connect`. Double click on the `feature_city_polylines` table and "
-"then double click on \"highway\" to start building your SQL query. Then "
-"click on the :guilabel:`=` button, then the :guilabel:`All` button, and "
-"double click on `motorway` from the Values list. Click the :guilabel:`Test` "
-"button to verify the result, and finally click on :guilabel:`Ok`. Back in "
-"the `Add SpatiaLite Table` window click :guilabel:`Add` to restrict the "
-"rendering to just major highways. You can repeat this process with new "
-"layers to render different road types with different widths and styles."
+"querying just certain features from within it. Select "
+":menuselection:`Layer --> Add Layer --> Add SpatiaLite Layer...` from the"
+" menu and from the `Databases` list select `feature_city@...` and then "
+"click on :guilabel:`Connect`. Double click on the "
+"`feature_city_polylines` table and then double click on \"highway\" to "
+"start building your SQL query. Then click on the :guilabel:`=` button, "
+"then the :guilabel:`All` button, and double click on `motorway` from the "
+"Values list. Click the :guilabel:`Test` button to verify the result, and "
+"finally click on :guilabel:`Ok`. Back in the `Add SpatiaLite Table` "
+"window click :guilabel:`Add` to restrict the rendering to just major "
+"highways. You can repeat this process with new layers to render different"
+" road types with different widths and styles."
 msgstr ""
 "Once topology is loaded, you can also refine the SpatiaLite layer by "
-"querying just certain features from within it. Select :menuselection:`Layer "
-"--> Add Layer --> Add SpatiaLite Layer...` from the menu and from the "
-"`Databases` list select `feature_city@...` and then click on "
-":guilabel:`Connect`. Double click on the `feature_city_polylines` table and "
-"then double click on \"highway\" to start building your SQL query. Then "
-"click on the :guilabel:`=` button, then the :guilabel:`All` button, and "
-"double click on `motorway` from the Values list. Click the :guilabel:`Test` "
-"button to verify the result, and finally click on :guilabel:`Ok`. Back in "
-"the `Add SpatiaLite Table` window click :guilabel:`Add` to restrict the "
-"rendering to just major highways. You can repeat this process with new "
-"layers to render different road types with different widths and styles."
+"querying just certain features from within it. Select "
+":menuselection:`Layer --> Add Layer --> Add SpatiaLite Layer...` from the"
+" menu and from the `Databases` list select `feature_city@...` and then "
+"click on :guilabel:`Connect`. Double click on the "
+"`feature_city_polylines` table and then double click on \"highway\" to "
+"start building your SQL query. Then click on the :guilabel:`=` button, "
+"then the :guilabel:`All` button, and double click on `motorway` from the "
+"Values list. Click the :guilabel:`Test` button to verify the result, and "
+"finally click on :guilabel:`Ok`. Back in the `Add SpatiaLite Table` "
+"window click :guilabel:`Add` to restrict the rendering to just major "
+"highways. You can repeat this process with new layers to render different"
+" road types with different widths and styles."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:357
+#: ../../build/doc/quickstart/qgis_quickstart.rst:356
+#, fuzzy
 msgid ""
 "You can now explore this rich dataset. Use the ``i`` information cursor "
-"button in the QGIS toolbar to query individal map features."
+"button in the QGIS toolbar to query individual map features."
 msgstr ""
 "You can now explore this rich dataset. Use the ``i`` information cursor "
 "button in the QGIS toolbar to query individal map features."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:361
+#: ../../build/doc/quickstart/qgis_quickstart.rst:360
 msgid "Things to Try"
 msgstr "Things to Try"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:363
+#: ../../build/doc/quickstart/qgis_quickstart.rst:362
 msgid ""
 "Try viewing data sources with the `QGIS Data Browser "
 "<http://planet.qgis.org/planet/tag/qgis%20browser/>`_ in the "
@@ -631,21 +642,21 @@ msgstr ""
 "<http://planet.qgis.org/planet/tag/qgis%20browser/>`_ in the "
 ":menuselection:`Geospatial --> Databases` menu"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:365
+#: ../../build/doc/quickstart/qgis_quickstart.rst:364
 msgid ""
 "Try publishing your QGIS map to the web using :doc:`QGIS Map Server "
-"<../overview/qgis_mapserver_overview>` in the :menuselection:`Geospatial -->"
-" Web Services` menu."
+"<../overview/qgis_mapserver_overview>` in the :menuselection:`Geospatial "
+"--> Web Services` menu."
 msgstr ""
 "Try publishing your QGIS map to the web using :doc:`QGIS Map Server "
-"<../overview/qgis_mapserver_overview>` in the :menuselection:`Geospatial -->"
-" Web Services` menu."
+"<../overview/qgis_mapserver_overview>` in the :menuselection:`Geospatial "
+"--> Web Services` menu."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:369
+#: ../../build/doc/quickstart/qgis_quickstart.rst:368
 msgid "What Next?"
 msgstr "What Next?"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:371
+#: ../../build/doc/quickstart/qgis_quickstart.rst:370
 msgid ""
 "Tutorials for more advanced features of QGIS are collected as `OSGeoLive "
 "QGIS tutorials`_."
@@ -653,14 +664,15 @@ msgstr ""
 "Tutorials for more advanced features of QGIS are collected as `OSGeoLive "
 "QGIS tutorials`_."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:373
+#: ../../build/doc/quickstart/qgis_quickstart.rst:372
 msgid ""
-"To learn more about QGIS, a good starting point is the `Documentation page`_"
-" on the QGIS homepage and `A Gentle Introduction to GIS`_ eBook."
+"To learn more about QGIS, a good starting point is the `Documentation "
+"page`_ on the QGIS homepage and `A Gentle Introduction to GIS`_ eBook."
 msgstr ""
-"To learn more about QGIS, a good starting point is the `Documentation page`_"
-" on the QGIS homepage and `A Gentle Introduction to GIS`_ eBook."
+"To learn more about QGIS, a good starting point is the `Documentation "
+"page`_ on the QGIS homepage and `A Gentle Introduction to GIS`_ eBook."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:376
+#: ../../build/doc/quickstart/qgis_quickstart.rst:375
 msgid "The `QGIS User Guide`_ `[1]`_ is also included on the OSGeoLive disc."
 msgstr "The `QGIS User Guide`_ `[1]`_ is also included on the OSGeoLive disc."
+

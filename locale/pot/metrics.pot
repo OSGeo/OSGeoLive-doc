@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-01-28 14:24-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,15 +40,15 @@ msgstr ""
 msgid "Web Services"
 msgstr ""
 
-#: ../../build/doc/metrics.rst:70
+#: ../../build/doc/metrics.rst:71
 msgid "Data Stores"
 msgstr ""
 
-#: ../../build/doc/metrics.rst:81
+#: ../../build/doc/metrics.rst:82
 msgid "Navigation and Maps"
 msgstr ""
 
-#: ../../build/doc/metrics.rst:94
+#: ../../build/doc/metrics.rst:95
 msgid "Spatial Tools"
 msgstr ""
 

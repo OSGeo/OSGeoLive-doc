@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-01-28 14:24-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "pycsw Quickstart"
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:20
-msgid "pycsw is an OGC CSW server implementation written in `Python <http://python.org>`_. pycsw allows for the publishing and discovery of geospatial metadata.  Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0."
+msgid "pycsw is an OGC CSW server implementation written in `Python <https://python.org>`_. pycsw allows for the publishing and discovery of geospatial metadata.  Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0."
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:25
@@ -85,11 +85,11 @@ msgid "The user fills the mandatory metadata fields going through the applicatio
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:75
-msgid "After the user has added all the information available, must push the validation button on top of the page, so that a check to be performed for consistency with the INSPIRE directive."
+msgid "After the user has added all the information available, they must push the validation button on top of the page, so that a check is performed for consistency with the INSPIRE directive."
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:80
-msgid "After a sucessful validation, the XML file can be saved to the local disk and viewed through a text editor or a browser."
+msgid "After a successful validation, the XML file can be saved to the local disk and viewed through a text editor or a browser."
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:84
@@ -137,7 +137,7 @@ msgid "**[repository]**"
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:106
-msgid "**database**: the full file path to the metadata database, in database URL format (see http://docs.sqlalchemy.org/en/latest/core/engines.html#database-urls)"
+msgid "**database**: the full file path to the metadata database, in database URL format (see https://docs.sqlalchemy.org/en/latest/core/engines.html#database-urls)"
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:107

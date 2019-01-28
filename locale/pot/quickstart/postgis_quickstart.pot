@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-01-28 14:24-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -185,7 +185,7 @@ msgid "First we create an ordinary database table to store some city data. This 
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:246
-msgid "Conventionally this geometry column is named ``geom`` (the older PostGIS convention was ``the_geom``). This tells PostGIS what kind of geometry each feature has (points, lines, polygons etc), how many dimensions (in this case, if it had 3 or 4 dimensions we would use POINTZ, POINTM, or POINTZM), and the spatial reference system. We used EPSG:4326 coordinates for our cities."
+msgid "Conventionally this geometry column is named ``geom`` (the older PostGIS convention was ``the_geom``). This tells PostGIS what kind of geometry each feature has (points, lines, polygons etc), how many dimensions (in this case 2, if it had 3 or 4 dimensions we would use POINTZ, POINTM, or POINTZM), and the spatial reference system. We used EPSG:4326 coordinates for our cities."
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:253
@@ -213,7 +213,7 @@ msgid "All the usual SQL operations can be applied to select data from a PostGIS
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:296
-msgid "This gives us an encoded hexadecimal version of the coordianates, not so useful for humans."
+msgid "This gives us an encoded hexadecimal version of the coordinates, not so useful for humans."
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:298
@@ -253,7 +253,7 @@ msgid "To produce a map from PostGIS data, you need a client that can get at the
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:376
-msgid "Start QGIS from the Desktop GIS menu and choose ``Add PostGIS layers`` from the layer menu. The parameters for connecting to the Natural Earth data in PostGIS is already defined in the Connections drop-down menu. You can define new server connections here, and store the settings for easy recall. Click on Connections drop down menu and choose Natural Earth. Hit ``Edit`` if you want to see what those parameters are for Natural Earth, or just hit ``Connect`` to continue:"
+msgid "Start QGIS from the Desktop GIS menu and choose ``Add PostGIS layers`` from the layer menu. The parameters for connecting to the Natural Earth data in PostGIS are already defined in the Connections drop-down menu. You can define new server connections here, and store the settings for easy recall. Click on Connections drop down menu and choose Natural Earth. Hit ``Edit`` if you want to see what those parameters are for Natural Earth, or just hit ``Connect`` to continue:"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:387
@@ -289,7 +289,7 @@ msgid "We will now use the DB Manager to import a shapefile into the database. W
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:430
-msgid "From the ``Table`` menu choose the ``Import layer/file`` option. Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R ``maptools`` package (located in /usr/lib/R/site-library/spData/shapes):"
+msgid "From the ``Table`` menu choose the ``Import layer/file`` option. Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R ``maptools`` package (located in /usr/local/lib/R/site-library/spData/shapes):"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:439
@@ -345,7 +345,7 @@ msgid "To perform a query on the database, you have to press the ``SQL`` button 
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:512
-msgid "We are going to find the rate of the SIDS over the births for the 1974 for each city. Furthermore we are going to sort the result, based on the computed rate. To do that,we need to perform the following query (submit it on the text editor of the SQL Window):"
+msgid "We are going to find the rate of the SIDS over the births for the 1974 for each city. Furthermore we are going to sort the result, based on the computed rate. To do that, we need to perform the following query (submit it on the text editor of the SQL Window):"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:520

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-01-28 14:24-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,7 +85,7 @@ msgid "Multiple coordinate readouts, one each for: X,Y (local dataset coordinate
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:54
-msgid "A editable pull down list for a view scales to choose from or define."
+msgid "An editable pull down list for a view scales to choose from or define."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:58
@@ -133,7 +133,7 @@ msgid "Finally, click the \"Go\" button to actually select the features.  GeoMoo
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:98
-msgid "If you hover over a line in the table, the corresponding feature on the map will be highlighted.  Additionally, you can use the funnel icons in the table header to further filter results, and uses the triangle icons in the table header to sort results.  The results can be downloaded as a CSV file using the download icon to the top and left of the table."
+msgid "If you hover over a line in the table, the corresponding feature on the map will be highlighted.  Additionally, you can use the funnel icons in the table header to further filter results, and use the triangle icons in the table header to sort results.  The results can be downloaded as a CSV file using the download icon to the top and left of the table."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:102
@@ -145,7 +145,7 @@ msgid "You can also search for features by attribute.  To start, hover over the 
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:108
-msgid "The following screenshot demostrates a search of all parcel owners containing the name \"frank\"."
+msgid "The following screenshot demonstrates a search of all parcel owners containing the name \"frank\"."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:112
@@ -161,7 +161,7 @@ msgid "Printing"
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:124
-msgid "This next screenshot shows what the Print tool looks as provided with demo for GeoMoose.  When you click on the Print tool, a dialog appears which asks for a title for the printed map, the page size and rotation, printed resolution, and shows a preview of what will be printed."
+msgid "This next screenshot shows how the Print tool looks as provided with demo for GeoMoose.  When you click on the Print tool, a dialog appears which asks for a title for the printed map, the page size and rotation, printed resolution, and shows a preview of what will be printed."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:128

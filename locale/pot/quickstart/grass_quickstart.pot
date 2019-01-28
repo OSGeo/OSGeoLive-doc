@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-20 17:19-0500\n"
+"POT-Creation-Date: 2019-01-28 14:24-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "Quick tour"
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:34
-msgid "To run GRASS GIS on the Live DVD, click on the GRASS link in the :menuselection:`Geospatial --> Desktop GIS` menu. From the \"Welcome to GRASS GIS \" window select the North Carolina dataset for the location, and \"user1\" for the mapset, then click on [*Start GRASS*]."
+msgid "To run GRASS GIS on the Live DVD, click on the GRASS link in the :menuselection:`Geospatial --> Desktop GIS` menu. From the \"Welcome to GRASS GIS \" window select the nc_basic_spm_grass7 dataset for the location, and \"user1\" for the mapset, then click on [*Start GRASS*]."
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:44
@@ -69,7 +69,7 @@ msgid "Plot an elevation profile"
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:92
-msgid "Back in the `GIS Layer Manager` window click on the `elevation` raster map name to select it. Then in the `Map Display` window, to the right of the zooming buttons on the `Map Display` toolbar is an icon with a line graph and checkerboard on it. Click on that and select **Profile surface map**. The `@PERMANENT` mapset is automatically searched. If the map isn't automatically listed, again pick the `elevation` map as the raster layer and press :guilabel:`Ok`. The second button in from the left allows you to set out the profile line, click it then mark out a few points on the `Map Display` canvas. When done go back to the Profile window and click on the eyeball button to create the plot. Click on the I/O button of the far right to close the profile window."
+msgid "Back in the `GIS Layer Manager` window click on the `elevation` raster map name to select it. Then in the `Map Display` window, to the right of the zooming buttons on the `Map Display` toolbar is an icon with a line graph and checkerboard on it. Click on that and select **Profile surface map**. The `@PERMANENT` mapset is automatically searched. If the map isn't automatically listed, again pick the `elevation` map as the raster layer and press :guilabel:`Ok`. In the `GRASS Profile Analysis Tool` window select the second button from the left, it allows you to set out the profile line, click it then mark out a few points on the `Map Display` canvas. When done go back to the Profile window. Click on the I/O button of the far right to close the profile window."
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:105
@@ -77,7 +77,7 @@ msgid "Create a random surface"
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:109
-msgid "Now let's create a new map. First set the *computational region* to the default bounds with :menuselection:`Settings --> Region --> Set region`, ticking \"*Set from default region*\", and clicking [*Run*]. Next select :menuselection:`Raster --> Generate surfaces --> Fractal surface` from the menu (it's near the bottom); give your new map a name; and adjust any options you like in the \"Optional\" tab (the defaults are fine); and click [*Run*]. You can then [*Close*] the *r.surf.fractal* module's dialog window."
+msgid "Now let's create a new map. First set the *computational region* to the default bounds with :menuselection:`Settings --> Computational region --> Set region`, ticking \"*Set from default region*\", and clicking [*Run*]. Next select :menuselection:`Raster --> Generate surfaces --> Fractal surface` from the menu (it's near the bottom); give your new map a name; and adjust any options you like in the \"Optional\" tab (the defaults are fine); and click [*Run*]. You can then [*Close*] the *r.surf.fractal* module's dialog window."
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:124
@@ -85,7 +85,7 @@ msgid "Adjust raster map colors"
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:126
-msgid "Now you'll see your new raster map added to the layer list along with the elevation raster map, except this time it will be in your \"user1\" working mapset. You might un-tick the `elevation` layer's visibility check-box now so that the two raster layers don't draw over the top of each other. Click on the eyeball to view your new map if it doesn't render automatically. The colors might not be as you'd like so let's change them. With the fractal DEM selected in the layer list, right click on the this raster map layer name and choose \"Set color table\". As an alternative, you can manage color tables in the `Raster` menu select :menuselection:`Manage colors --> Color tables`. In the 'Define' tab click on the pull-down list for the \"Name of color table\" option, and pick one from the list. \"terrain\" or \"srtm\" are nice choices. Once done click the [*Run*] button and close the *r.colors* dialog window. The colors should then update automatically."
+msgid "Now you'll see your new raster map added to the layer list along with the elevation raster map, except this time it will be in your \"user1\" working mapset. You might un-tick the `elevation` layer's visibility check-box now so that the two raster layers don't draw over the top of each other. Click on the checkbox to view your new map if it doesn't render automatically. The colors might not be as you'd like so let's change them. With the fractal DEM selected in the layer list, right click on the this raster map layer name and choose \"Set color table\". As an alternative, you can manage color tables in the `Raster` menu select :menuselection:`Manage colors --> Color tables`. In the 'Define' tab click on the pull-down list for the \"Name of color table\" option, and pick one from the list. \"terrain\" or \"srtm\" are nice choices. Once done click the [*Run*] button and close the *r.colors* dialog window. The colors should then update automatically."
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:141
@@ -93,11 +93,11 @@ msgid "Create a shaded relief map"
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:148
-msgid "Next we'll create a shaded relief map of the \"elevation\" layer we saw earlier. Start by verifying that the *computational region* is set match the raster map of interest, \"`elevation`\" in the PERMANENT mapset. To do this, make sure it is loaded into the layer list of the main `GIS Layer Manager` window, right click on its name and select \"Set computation region from selected map(s)\". You will notice the Layer Manage tab will switch to a text console to display the new settings. Click on the \"*Map layers*\" tab at the bottom to get back to the layer list."
+msgid "Next we'll create a shaded relief map of the \"elevation\" layer we saw earlier. Start by verifying that the *computational region* is set match the raster map of interest, \"`elevation`\" in the PERMANENT mapset. To do this, make sure it is loaded into the layer list of the main `GIS Layer Manager` window, right click on its name and select \"Set computation region from selected map(s)\". You will notice the Layer Manage tab will switch to a text console to display the new settings. Click on the \"*Layers*\" tab at the bottom to get back to the layer list."
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:157
-msgid "In the `Raster` menu select :menuselection:`Terrain analysis --> Compute shaded relief` (Terrain analysis is about half way down the `Raster` menu), and the module control dialog will appear. Select as the input name the \"elevation\" *@PERMANENT* map and as the output map you may specify \"shaded_relief\". Once done click [*Run*]. Now you should fine the new `shaded_relief` *@user1* map added into your layer list. Un-tick the other raster layers to only display the newly created shaded relief raster layer."
+msgid "In the `Raster` menu select :menuselection:`Terrain analysis --> Compute shaded relief` (Terrain analysis is about half way down the `Raster` menu), and the module control dialog will appear. Select as the input name the \"elevation\" *@PERMANENT* map and as the output map you may specify \"shaded_relief\". Once done click [*Run*]. Now you should find the new `shaded_relief` *@user1* map added into your layer list. Un-tick the other raster layers to only display the newly created shaded relief raster layer."
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:166
@@ -121,15 +121,15 @@ msgid "Back in the `GIS Layer Manager` window check that those two new raster ma
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:199
-msgid "In the `GIS Layer Manager` window click on the `Add various overlays` button and `Add grid layer`. For size of grid put 5000 (in map units, here meter). .. MN comment: UNUSED  0:03 for 0 degrees and 3 minutes (format is D:M:S), then in the \"Optional\" tab tick Draw geographic grid. Once done press :guilabel:`OK`. Optionally you may change the colors for the grid lines and the text labels."
+msgid "In the `GIS Layer Manager` window click on the `Add various overlays` button and `Add grid layer`. For size of grid put 5000 (in map units, here meter). Once done press :guilabel:`OK`. Optionally you may change the colors for the grid lines and the text labels."
 msgstr ""
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:205
+#: ../../build/doc/quickstart/grass_quickstart.rst:204
 msgid "To add a scalebar go to the `Map Display` window and press the \"Add map elements\" button to the right of where you selected the Profile tool earlier and select \"Show/hide scalebar\" then click :guilabel:`Ok`. A scalebar will appear in the top left of the map canvas. Drag it down to the bottom right."
 msgstr ""
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:220
-msgid "Now you may be thinking to yourself that these fonts are a bit bare. That's easily fixed in the `GIS Layer Manager` menus open :menuselection:`Settings --> Preferences` and in the Map Display tab click the [*Set font*] button, choose one (for example DroidSans), and then [*Apply*] in the Preferences window. You will have to do a full re-render to see the change so click on the re-render button next to the eyeball in the `Map Display` window. The fonts will now be much prettier."
+#: ../../build/doc/quickstart/grass_quickstart.rst:219
+msgid "Now you may be thinking to yourself that these fonts are a bit bare. That's easily fixed in the `GIS Layer Manager` menus open :menuselection:`Settings --> Preferences` and in the Map Display tab click the [*Set font*] button, choose one (for example DajVu Sans Bold), and then [*Save*] or [*Save for this session only*] in the Preferences window. You will have to do a full re-render to see the change so click on the re-render button the first in the `Map Display` window. The fonts will now be much prettier."
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:229
@@ -157,78 +157,78 @@ msgid "Managing attributes"
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:274
-msgid "Next we'll add some attributes to those new areas, containing the average elevation in each basin. In the Vector menu select :menuselection:`Update attributes --> Update area attributes from raster`. Use ``basin_areas`` as the vector polygon map, and select the ``elevation`` raster map to calculate the statistics from; set the the \"Column prefix for new attribute columns\" to ``elev``, and click [*Run*]; then close the dialog when it is finished. You can query the values in the `Map Display` window using the fifth icon from the left and after verifying that the vector-areas map is selected in the `Layer List`, clicking on a vector area in the map canvas."
+msgid "Next we'll add some attributes to those new areas, containing the average elevation in each basin. In the Vector menu select :menuselection:`Update attributes --> Update area attributes from raster`. Use ``basin_areas`` as the vector polygon map, and select the ``elevation`` raster map to calculate the statistics from; set the the \"Column prefix for new attribute columns\" to ``elev``, and click [*Run*]; then close the dialog when it is finished. You can query the values in the `Map Display` window using the fourth icon from the left and after verifying that the vector-areas map is selected in the `Layer List`, clicking on a vector area in the map canvas."
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:283
-msgid "You can now re-colorize the areas based on the average elevation values using the ``v.colors`` module. In the Vector menu select :menuselection:`Manage colors --> Color tables`. Select ``basin_areas`` for the input vector map, as \"Source value\" select ``attr`` instead of ``cat``. Then, in the \"Define\" tab choose the ``elev_average`` attribute column for the column containing the numeric range. The colors we want to copy from the `elevation` raster map, so we select it as the name for \"Raster map from which to copy color table\". After clicking [*Run*] you need to refresh the map display (second icon from left) to see the updated basins map."
+msgid "You can now re-colorize the areas based on the average elevation values using the ``v.colors`` module. In the Vector menu select :menuselection:`Manage colors --> Color tables`. Select ``basin_areas`` for the input vector map, as \"Source value\" select ``attr`` instead of ``cat``. Then, in the \"Define\" tab choose the ``elev_average`` attribute column for the column containing the numeric range. The colors we want to copy from the `elevation` raster map, so we select it as the name for \"Raster map from which to copy color table\". After clicking [*Run*] you need to refresh the map display (first icon from left) to see the updated basins map."
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:293
-msgid "Now let's look at the attribute table and SQL builder in more detail. In the `Layer Manager` click the table icon (\"Show attribute data for selected vector map\"), it is second from the left on the bottom row. This will open a view of the database table attached to the selected vector map. For now we'll just do a *Simple* database query to find watershed basins without a lot of variation in them. Where it says ``SELECT * FROM basin_areas WHERE`` pick ``elev_stddev`` from the pull down list for the standard deviation statistic, then in the text box to its right enter ``< 50`` and click [*Apply*]. You'll notice the number of loaded records in the information bar along the bottom of the window has shrunk, and that all of the rows with large values for standard deviation (std. dev.) are now gone from the displayed table. Right-click on the table data and choose ``Select all``. Again right-click on the table data and this time choose ``Highlight selected features``. You should see e.g. alluvial flood basins and mesas show up in the ``Map Display``."
+msgid "Now let's look at the attribute table and SQL builder in more detail. In the `Layer Manager` click the table icon (\"Show attribute data for selected vector map\"), it is second from the left on the bottom row. This will open a view of the database table attached to the selected vector map. For now we'll just do a *Simple* database query to find watershed basins without a lot of variation in them. Where it says ``SELECT * FROM basin_areas WHERE`` pick ``elev_stddev`` from the pull down list for the standard deviation statistic, then select ``<`` from the relation list and in the text box to its right enter ``< 50`` and click [*Apply*]. You'll notice the number of loaded records in the information bar along the bottom of the window has shrunk, and that all of the rows with large values for standard deviation (std. dev.) are now gone from the displayed table. Right-click on the table data and choose ``Select all``. Again right-click on the table data and this time choose ``Highlight selected features``. You should see e.g. alluvial flood basins and mesas show up in the ``Map Display``."
 msgstr ""
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:309
+#: ../../build/doc/quickstart/grass_quickstart.rst:310
 msgid "3D visualization"
 msgstr ""
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:316
-msgid "In order to start the 3D visualization suite, select the `elevation` map as the raster elevation in the `Layer list` and additionally highlight the entry, then select in the `Map Display` window the \"3D view\" (at the right end of the toolbar). Once the 3D display interface loads, you will see several tabs for the display control of the 3D view. Next select the \"Data\" tab and set the fine resolution to \"1\" (the lower the value, the finer the resolution), then move the positioning puck and height slider around to get different views."
+#: ../../build/doc/quickstart/grass_quickstart.rst:317
+msgid "In order to start the 3D visualization suite, select the `elevation` map as the raster elevation in the `Layer list` and additionally highlight the entry, then select in the `Map Display` window the \"3D view\" (at the right end of the toolbar). Once the 3D display interface loads, you will see several tabs for the display control of the 3D view. Next select the \"Data\" tab and set the fine resolution to \"1\" (the lower the value, the finer the resolution), then move the positioning puck and height slider on the \"View\" tab around to get different views."
 msgstr ""
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:325
+#: ../../build/doc/quickstart/grass_quickstart.rst:326
 msgid "To drape maps, satellite or aerial imagery over the top of the DEM, in the \"Data\" tab select as name for the **Surface Attributes** map the overlay image \"`landuse`\" in the PERMANENT mapset is a good choice. The new view is rendered immediately. Since the area is relatively flat, you can go back to the \"View\" tab and increase the Z exaggeration (\"z-Exag\")."
 msgstr ""
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:332
+#: ../../build/doc/quickstart/grass_quickstart.rst:333
 msgid "For easy navigation in the 3D view, switch on the \"Rotate 3D scene\" in the map display toolbar, then use the mouse to move the view around."
 msgstr ""
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:336
+#: ../../build/doc/quickstart/grass_quickstart.rst:337
 msgid "Other things to try"
 msgstr ""
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:338
+#: ../../build/doc/quickstart/grass_quickstart.rst:339
 msgid "While not covered here, you may like to experiment with the Cartographic Composer and object-oriented Graphical Modelling Tool (offers export to Python); you'll find icons to launch them on the lower row of icons in the `Layer Manager` window. Further details can be found in the `wxGUI <https://grass.osgeo.org/grass74/manuals/wxGUI.html>`_ help pages."
 msgstr ""
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:344
+#: ../../build/doc/quickstart/grass_quickstart.rst:345
 msgid "The wxGUI is written in Python, and if you're a fan of Python programming there are a number of great tools and an API available to you. In the bottom of the `Layer Manager` window click on the `Python shell` tab and type ``help(grass.core)`` to see a listing of the many functions available in the core GIS python library. Besides the core GIS functions there is also `array` (NumPy), `db` (database), `raster`, and `vector` libraries available. For advanced use `Pythons Ctypes` is supported allowing the Python programmer direct access to GRASS GIS' extensive C libraries. See the manual pages for an extensive description of the programming options."
 msgstr ""
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:355
+#: ../../build/doc/quickstart/grass_quickstart.rst:356
 msgid "Shutdown and the command line"
 msgstr ""
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:357
+#: ../../build/doc/quickstart/grass_quickstart.rst:358
 msgid "When finished, exit the GRASS GUI with :menuselection:`File --> Exit GUI`. Before you close the GRASS terminal session as well, try a GRASS module by typing \"``g.manual --help``\" which will give you a list of module options. The GRASS command line is where the true power of the GIS comes into its own. GRASS is designed to allow all commands to be tied together in scripts for large bulk processing jobs. Popular scripting languages are Bourne Shell and Python, and many neat tricks to help make scripting easier are included for both. With these tools you can make a new GRASS module with only about 5 minutes of coding, complete with powerful parser, GUI, and help page template."
 msgstr ""
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:368
+#: ../../build/doc/quickstart/grass_quickstart.rst:369
 msgid "\"``g.manual -i``\" will launch a web browser with the module help pages. When you are done close the browser and type \"exit\" at the GRASS terminal prompt to leave the GIS environment."
 msgstr ""
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:373
+#: ../../build/doc/quickstart/grass_quickstart.rst:374
 msgid "Further reading"
 msgstr ""
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:374
+#: ../../build/doc/quickstart/grass_quickstart.rst:375
 msgid "Visit the GRASS GIS website at `http://grass.osgeo.org <http://grass.osgeo.org>`_"
 msgstr ""
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:375
+#: ../../build/doc/quickstart/grass_quickstart.rst:376
 msgid "Visit the GRASS GIS Wiki help site at `http://grasswiki.osgeo.org/wiki/ <http://grasswiki.osgeo.org/wiki/>`_"
 msgstr ""
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:376
+#: ../../build/doc/quickstart/grass_quickstart.rst:377
 msgid "More tutorials and overviews can be found `here <http://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_."
 msgstr ""
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:377
+#: ../../build/doc/quickstart/grass_quickstart.rst:378
 msgid "A `synopsis of the GRASS GIS modules <https://grass.osgeo.org/grass74/manuals/full_index.html>`_"
 msgstr ""
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:378
+#: ../../build/doc/quickstart/grass_quickstart.rst:379
 msgid "If the 400 GIS modules which come with GRASS aren't enough for you have a look at the many contributed add-ons at `http://grass.osgeo.org/grass74/manuals/addons/ <http://grass.osgeo.org/grass74/manuals/addons/>`_"
 msgstr ""
 

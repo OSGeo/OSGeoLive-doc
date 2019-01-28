@@ -1,32 +1,35 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-01-28 14:24-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../build/doc/download.rst:7
 msgid "Download"
 msgstr "Download"
 
 #: ../../build/doc/download.rst:9
+#, fuzzy
 msgid ""
-"The latest stable release is |osgeolive-version| and can be downloaded from:"
-" https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version|/"
+"The latest stable release is |osgeolive-version| and can be downloaded "
+"from: https://sourceforge.net/projects/osgeo-live/files/12.0/"
 msgstr ""
-"The latest stable release is |osgeolive-version| and can be downloaded from:"
-" https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version|/"
+"The latest stable release is |osgeolive-version| and can be downloaded "
+"from: https://sourceforge.net/projects/osgeo-live/files/|osgeolive-"
+"version|/"
 
 #: ../../build/doc/download.rst:12
 msgid "Picking the right image for you:"
@@ -38,12 +41,12 @@ msgstr "**osgeolive iso**: |osgeolive-iso-size|"
 
 #: ../../build/doc/download.rst:16
 msgid ""
-"A Lubuntu based bootable image, which can be copied to an 8 Gig USB thumb "
-"drive (faster and recommended) or DVD (cheaper). It can also be used to "
+"A Lubuntu based bootable image, which can be copied to an 8 Gig USB thumb"
+" drive (faster and recommended) or DVD (cheaper). It can also be used to "
 "build a virtual machine from scratch."
 msgstr ""
-"A Lubuntu based bootable image, which can be copied to an 8 Gig USB thumb "
-"drive (faster and recommended) or DVD (cheaper). It can also be used to "
+"A Lubuntu based bootable image, which can be copied to an 8 Gig USB thumb"
+" drive (faster and recommended) or DVD (cheaper). It can also be used to "
 "build a virtual machine from scratch."
 
 #: ../../build/doc/download.rst:18
@@ -52,13 +55,15 @@ msgstr "**osgeolive-vm**: |osgeolive-vm-7z-size|"
 
 #: ../../build/doc/download.rst:20
 msgid ""
-"This is a pre-made virtual machine (.vmdk), based on osgeolive, suitable for"
-" use in VirtualBox, VMWare, KVM and other virtual machine applications. It "
-"has been compressed using `7-Zip <http://www.7-zip.org/>`_."
+"This is a pre-made virtual machine (.vmdk), based on osgeolive, suitable "
+"for use in VirtualBox, VMWare, KVM and other virtual machine "
+"applications. It has been compressed using `7-Zip "
+"<http://www.7-zip.org/>`_."
 msgstr ""
-"This is a pre-made virtual machine (.vmdk), based on osgeolive, suitable for"
-" use in VirtualBox, VMWare, KVM and other virtual machine applications. It "
-"has been compressed using `7-Zip <http://www.7-zip.org/>`_."
+"This is a pre-made virtual machine (.vmdk), based on osgeolive, suitable "
+"for use in VirtualBox, VMWare, KVM and other virtual machine "
+"applications. It has been compressed using `7-Zip "
+"<http://www.7-zip.org/>`_."
 
 #: ../../build/doc/download.rst:22
 msgid "**amd64 or i386 architecture**"
@@ -66,21 +71,19 @@ msgstr "**amd64 or i386 architecture**"
 
 #: ../../build/doc/download.rst:24
 msgid ""
-"ISO images are available for recent amd64 hardware (recommended) as well as "
-"older i386 hardware."
+"ISO images are available for recent amd64 hardware (recommended) as well "
+"as older i386 hardware."
 msgstr ""
-"ISO images are available for recent amd64 hardware (recommended) as well as "
-"older i386 hardware."
+"ISO images are available for recent amd64 hardware (recommended) as well "
+"as older i386 hardware."
 
 #: ../../build/doc/download.rst:26
 msgid "**md5 checksum**"
 msgstr "**md5 checksum**"
 
 #: ../../build/doc/download.rst:28
-msgid ""
-"You can use the md5 checksum to verify the image downloaded successfully."
-msgstr ""
-"You can use the md5 checksum to verify the image downloaded successfully."
+msgid "You can use the md5 checksum to verify the image downloaded successfully."
+msgstr "You can use the md5 checksum to verify the image downloaded successfully."
 
 #: ../../build/doc/download.rst:30
 msgid "**System Requirements**"
@@ -88,10 +91,11 @@ msgstr "**System Requirements**"
 
 #: ../../build/doc/download.rst:32
 msgid ""
-"`Minimum suggested system resources: 1 GB RAM (2 GB are better for trying "
-"Java based applications), 1GHz i386 or amd64 compatible CPU. No hard drive "
-"required. Mac users will benefit from a 3-button USB mouse.`"
+"`Minimum suggested system resources: 1 GB RAM (2 GB are better for trying"
+" Java based applications), 1GHz i386 or amd64 compatible CPU. No hard "
+"drive required. Mac users will benefit from a 3-button USB mouse.`"
 msgstr ""
-"`Minimum suggested system resources: 1 GB RAM (2 GB are better for trying "
-"Java based applications), 1GHz i386 or amd64 compatible CPU. No hard drive "
-"required. Mac users will benefit from a 3-button USB mouse.`"
+"`Minimum suggested system resources: 1 GB RAM (2 GB are better for trying"
+" Java based applications), 1GHz i386 or amd64 compatible CPU. No hard "
+"drive required. Mac users will benefit from a 3-button USB mouse.`"
+

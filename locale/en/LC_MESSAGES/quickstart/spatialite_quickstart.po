@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-01-28 14:24-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:23
 msgid "SpatiaLite Quickstart"
@@ -26,21 +27,23 @@ msgstr "SpatiaLite is an SQLite database engine with spatial functions added."
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:27
 msgid ""
-"SQLite is a Database Management System (DBMS) which is simple, robust, easy "
-"to use and very lightweight. Each SQLite database is simply a file. You can "
-"freely copy it, compress it, and port it between Windows, Linux, MacOs etc."
+"SQLite is a Database Management System (DBMS) which is simple, robust, "
+"easy to use and very lightweight. Each SQLite database is simply a file. "
+"You can freely copy it, compress it, and port it between Windows, Linux, "
+"MacOs etc."
 msgstr ""
-"SQLite is a Database Management System (DBMS) which is simple, robust, easy "
-"to use and very lightweight. Each SQLite database is simply a file. You can "
-"freely copy it, compress it, and port it between Windows, Linux, MacOs etc."
+"SQLite is a Database Management System (DBMS) which is simple, robust, "
+"easy to use and very lightweight. Each SQLite database is simply a file. "
+"You can freely copy it, compress it, and port it between Windows, Linux, "
+"MacOs etc."
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:29
 msgid ""
-"This Quick Start describes how to open a spatialite database from both GUI "
-"applications and the command line. Some sample SQL queries are shown."
+"This Quick Start describes how to open a spatialite database from both "
+"GUI applications and the command line. Some sample SQL queries are shown."
 msgstr ""
-"This Quick Start describes how to open a spatialite database from both GUI "
-"applications and the command line. Some sample SQL queries are shown."
+"This Quick Start describes how to open a spatialite database from both "
+"GUI applications and the command line. Some sample SQL queries are shown."
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:34
 msgid "Using spatialite-gui"
@@ -49,22 +52,22 @@ msgstr "Using spatialite-gui"
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:36
 msgid ""
 "Spatialite-gui provides a visual interface for viewing and maintaining a "
-"spatialite database. You can easily see the structure of the tables and data"
-" contents using point and click functions, many of which construct common "
-"SQL queries, or craft your own SQL queries."
+"spatialite database. You can easily see the structure of the tables and "
+"data contents using point and click functions, many of which construct "
+"common SQL queries, or craft your own SQL queries."
 msgstr ""
 "Spatialite-gui provides a visual interface for viewing and maintaining a "
-"spatialite database. You can easily see the structure of the tables and data"
-" contents using point and click functions, many of which construct common "
-"SQL queries, or craft your own SQL queries."
+"spatialite database. You can easily see the structure of the tables and "
+"data contents using point and click functions, many of which construct "
+"common SQL queries, or craft your own SQL queries."
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:41
 msgid ""
-"Let's start by viewing a spatialite database, and looking at columns within "
-"a table:"
+"Let's start by viewing a spatialite database, and looking at columns "
+"within a table:"
 msgstr ""
-"Let's start by viewing a spatialite database, and looking at columns within "
-"a table:"
+"Let's start by viewing a spatialite database, and looking at columns "
+"within a table:"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:44
 msgid ""
@@ -95,22 +98,23 @@ msgid "You will notice the display broken into 3 areas:"
 msgstr "You will notice the display broken into 3 areas:"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:68
+#, fuzzy
 msgid ""
-"The left panel displays the database hierachy, such as a list of tables, and"
-" columns within the table. Right click on elements of the left panel to "
-"select from a list of common database actions."
+"The left panel displays the database hierarchy, such as a list of tables,"
+" and columns within the table. Right click on elements of the left panel "
+"to select from a list of common database actions."
 msgstr ""
-"The left panel displays the database hierachy, such as a list of tables, and"
-" columns within the table. Right click on elements of the left panel to "
-"select from a list of common database actions."
+"The left panel displays the database hierachy, such as a list of tables, "
+"and columns within the table. Right click on elements of the left panel "
+"to select from a list of common database actions."
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:70
 msgid ""
-"The top right panel shows SQL for the action selected. You can enter your "
-"own customised SQL into this panel."
+"The top right panel shows SQL for the action selected. You can enter your"
+" own customised SQL into this panel."
 msgstr ""
-"The top right panel shows SQL for the action selected. You can enter your "
-"own customised SQL into this panel."
+"The top right panel shows SQL for the action selected. You can enter your"
+" own customised SQL into this panel."
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:72
 msgid "The bottom right panel shows the results of the SQL query."
@@ -119,30 +123,31 @@ msgstr "The bottom right panel shows the results of the SQL query."
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:74
 msgid ""
 "Right Click on the MunicipalHalls table and select \"Edit table rows\". "
-"Notice the SQL query which has been created for you in the top right pane, "
-"and results in the bottom right.::"
+"Notice the SQL query which has been created for you in the top right "
+"pane, and results in the bottom right.::"
 msgstr ""
 "Right Click on the MunicipalHalls table and select \"Edit table rows\". "
-"Notice the SQL query which has been created for you in the top right pane, "
-"and results in the bottom right.::"
+"Notice the SQL query which has been created for you in the top right "
+"pane, and results in the bottom right.::"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:87
+#, fuzzy
 msgid ""
-"Now lets try tweaking this SQL statement to get NOME and (Lat,Long) for only"
-" the NOME_PROV fields include \"BRESCIA\", this time using the "
+"Now let's try tweaking this SQL statement to get NOME and (Lat,Long) for "
+"only the NOME_PROV fields include \"BRESCIA\", this time using the "
 "MunicipalHallsView.  In the upper right SQL pane type::"
 msgstr ""
-"Now lets try tweaking this SQL statement to get NOME and (Lat,Long) for only"
-" the NOME_PROV fields include \"BRESCIA\", this time using the "
+"Now lets try tweaking this SQL statement to get NOME and (Lat,Long) for "
+"only the NOME_PROV fields include \"BRESCIA\", this time using the "
 "MunicipalHallsView.  In the upper right SQL pane type::"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:95
 msgid ""
-"and click the \"Execute SQL\" button at the right, and see the results in "
-"the bottom right pane."
+"and click the \"Execute SQL\" button at the right, and see the results in"
+" the bottom right pane."
 msgstr ""
-"and click the \"Execute SQL\" button at the right, and see the results in "
-"the bottom right pane."
+"and click the \"Execute SQL\" button at the right, and see the results in"
+" the bottom right pane."
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:103
 msgid "Running spatialite from the command line"
@@ -151,14 +156,14 @@ msgstr "Running spatialite from the command line"
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:105
 msgid ""
 "Users needing to script or automate queries will learn the advantages of "
-"working with a spatialite database from the command line interface. In this "
-"example, we will load a shapefile, and search for schools which are near "
-"highway 42."
+"working with a spatialite database from the command line interface. In "
+"this example, we will load a shapefile, and search for schools which are "
+"near highway 42."
 msgstr ""
 "Users needing to script or automate queries will learn the advantages of "
-"working with a spatialite database from the command line interface. In this "
-"example, we will load a shapefile, and search for schools which are near "
-"highway 42."
+"working with a spatialite database from the command line interface. In "
+"this example, we will load a shapefile, and search for schools which are "
+"near highway 42."
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:107
 msgid ""
@@ -170,8 +175,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:109
 msgid "In the terminal open a sample database with **spatialite** by typing::"
-msgstr ""
-"In the terminal open a sample database with **spatialite** by typing::"
+msgstr "In the terminal open a sample database with **spatialite** by typing::"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:113
 msgid "Helpful commands from the command line::"
@@ -183,11 +187,11 @@ msgstr "Creating a new spatialite database and loading a shapefile"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:121
 msgid ""
-"Let's create a new, empty spatialite database, and load two shapefiles from "
-"the north_carolina dataset::"
+"Let's create a new, empty spatialite database, and load two shapefiles "
+"from the north_carolina dataset::"
 msgstr ""
-"Let's create a new, empty spatialite database, and load two shapefiles from "
-"the north_carolina dataset::"
+"Let's create a new, empty spatialite database, and load two shapefiles "
+"from the north_carolina dataset::"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:144
 msgid ""
@@ -233,12 +237,13 @@ msgstr "What Next?"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:180
 msgid ""
-"To learn more about SpatiaLite, a starting point is the `SpatiaLite project "
-"page`_."
+"To learn more about SpatiaLite, a starting point is the `SpatiaLite "
+"project page`_."
 msgstr ""
-"To learn more about SpatiaLite, a starting point is the `SpatiaLite project "
-"page`_."
+"To learn more about SpatiaLite, a starting point is the `SpatiaLite "
+"project page`_."
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:184
 msgid "and be sure to visit the tutorial `Spatialite cookbook`_"
 msgstr "and be sure to visit the tutorial `Spatialite cookbook`_"
+
