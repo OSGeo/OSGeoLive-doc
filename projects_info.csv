@@ -35,6 +35,7 @@ Y  |  istsos  |  2.3.1  |  Y  |  Y  |  Web Services  |    |  Sensor Observation 
 Y  |  52nSOS  |  4.4.0  |  Y  |  Y  |  Web Services  |    |  Sensor Observation Service  |  SensorObservationService|https://52north.org/sos| |52 North SOS
 Y  |  52nWPS  |  3.6.2  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  n52-wps|https://52north.org/wps| |52 North WPS
 Y  |  zoo-project  |  1.6.0  |  Y  |  Y  |  Web Services  |    |  Web Processing Service  |  zoo-project|http://zoo-project.org/|OSGeo_incubation|Zoo Project
+Y  |  t-rex  |  0.9.0  |  N  |  Y  |  Web Services  |    |  Vector Tile Service  |  t-rex|https://t-rex.tileserver.ch/| |t-rex
 ######################| | | | | | | | | | |
 # Data Stores| | | | | | | | | | |
 ######################| | | | | | | | | | |
