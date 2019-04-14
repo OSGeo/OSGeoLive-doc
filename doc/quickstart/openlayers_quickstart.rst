@@ -48,7 +48,7 @@ A basic map
 
 In this step we will create a basic map.
 
-Create a file in e.g. /home/user/ called basic-map.html , and copy the following contentinto the file.
+Create a file in e.g. /home/user/ called basic-map.html , and copy the following content into the file.
 
 .. code-block:: html
 
