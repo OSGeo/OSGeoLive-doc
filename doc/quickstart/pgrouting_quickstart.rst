@@ -56,8 +56,8 @@ Your version should be 2.1.0 or higher to use examples in this quickstart.
 
 Loading OSM data with osm2pgrouting
 ===========================================================================
-osm2pgorouting is a command-line tool for loading .osm files into pgRouting compatible format.
-Here is how you use osm2pgrouting version 2.1.0+
+osm2pgrouting is a command-line tool for loading .osm files into pgRouting compatible format.
+Here is how you use osm2pgrouting version 2.1.0+.
 
 First verify version of osm2pgrouting you have installed. Should read 2.1 or higher.
 
@@ -71,7 +71,7 @@ Output shows:
 
 	This is osm2pgrouting Version 2.2
 
-Now load the data from osm file
+Now load the data from osm file:
 
 ::
 
@@ -189,7 +189,7 @@ your query to below:
 	);
 
 Note: the SQL statement must always have field names `id, source, target, and cost`.
-Since we are using fields `source_osm` and `target_osm`, we need to alias them so resulting pgr_dijkstra query columns are named source and target
+Since we are using fields `source_osm` and `target_osm`, we need to alias them so resulting pgr_dijkstra query columns are named source and target.
 
 Output is:
 
@@ -250,7 +250,7 @@ been changed to use bigints, so osm_ids can't be used with all functions.
     such as :doc:`OpenJump <../overview/openjump_overview>` or
     the :doc:`QGIS <../overview/qgis_overview>` DbManager extension.
 
-To use the DbManager extension of QGIS open up QGIS then go to Go to ``Database -> DB Manager -> DB Manager``.
+To use the DbManager extension of QGIS open up QGIS then go to ``Database -> DB Manager -> DB Manager``.
 Select the SQL Window icon and cut and paste the above pgRouting Query.
 
 * Run the Dijkstra shortest path function with considering direction.
@@ -278,9 +278,9 @@ What next?
 
 * **pgRouting Website** - Visit the project website http://www.pgrouting.org to learn more about pgRouting.
 
-* **pgRouting Documentation** - Find the most recent documentation in http://docs.pgrouting.org
+* **pgRouting Documentation** - Find the most recent documentation in http://docs.pgrouting.org.
 
-* **pgRouting Workshop** - The workshop `"FOSS4G routing with pgRouting tools and OpenStreetMap road data"` is available in: http://workshop.pgrouting.org
+* **pgRouting Workshop** - The workshop `"FOSS4G routing with pgRouting tools and OpenStreetMap road data"` is available in: http://workshop.pgrouting.org.
 * **osm2pgRouting loading data** - https://github.com/pgRouting/osm2pgrouting/wiki/Documentation-for-osm2pgrouting-v2.1
 * **QGIS pgRouting Layer Plugin** - https://plugins.qgis.org/plugins/pgRoutingLayer/ provides GUI for pgRouting functions and interacts with map so you don't have to write SQL.
 
