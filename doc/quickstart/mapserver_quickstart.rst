@@ -233,7 +233,7 @@ values can be used as a way to draw the elements inside a dataset
 differently using multiple CLASS objects.
 
 In our "ne_10m_lakes" dataset, we have a *ScaleRank* attribute, which seems 
-to be related ot the size of the lakes. We can use this as a way to render 
+to be related to the size of the lakes. We can use this as a way to render 
 the lakes differently. In the LAYER object, we'll add another CLASS object 
 just before our current one::
 
