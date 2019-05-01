@@ -206,6 +206,7 @@ behaves in many ways like a data frame. We can use the ``admin``
 field to subset the world data and just get the UK:
 
 ::
+
 	> uk <- countries[countries$admin == 'United Kingdom',]
 	> ggplot(uk) + geom_sf()
 
@@ -220,6 +221,7 @@ transform it with the sf::st_transform function from the sf package. We transfor
 to EPSG:27700 which is the Ordnance Survey of Great Britain grid system:
 
 ::
+
 	> ukos <- st_transform(uk,27700)
 	> ggplot(ukos) + geom_sf()
 
@@ -230,6 +232,7 @@ populated place data set. Again we subset the points we want and transform them 
 Ordnance Survey Grid Reference coordinates:
 
 ::
+
 	> ukpop <- places[places$SOV0NAME == 'United Kingdom',]
 	> ukpop <- st_transform(ukpop,27700)
 
@@ -239,6 +242,7 @@ population (because that makes a symbol with area proportional to population), s
 colour to red and the plotting character to a solid blob:
 
 ::
+
     > ggplot() + 
     > 	geom_sf(data = ukos) + 								# add UK shape to the map
     > 	geom_sf(data = ukpop, 								# add the Populated places
