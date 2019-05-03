@@ -35,7 +35,7 @@ Core Features
   * Overview map
   * Popups
   * Feature renderer
-  * Layer Tree and Layer Tree nodes
+  * Layer Tree and Layer Tree legends
 
 * Data Models and Stores
 
