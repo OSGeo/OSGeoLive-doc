@@ -33,9 +33,9 @@ Core Features
 
   * Map panel
   * Overview map
-  * Popups
+  * Pop-ups
   * Feature renderer
-  * Layer Tree and Layer Tree legends
+  * Layer Tree, legends, and drag-and-drop layer ordering
 
 * Data Models and Stores
 
@@ -55,7 +55,7 @@ Details
 **Website:** https://geoext.github.io/geoext3/
 
 **License:** GPLv3 or BSD License dependent on ExtJS license - see `License <https://github.com/geoext/geoext3/blob/master/LICENSE>`_ 
-  and `License FAQ <https://github.com/geoext/geoext3/blob/master/LICENSE-FAQ.md>`_ 
+and `License FAQ <https://github.com/geoext/geoext3/blob/master/LICENSE-FAQ.md>`_ 
 
 **Software Version:** |version-geoext|
 
