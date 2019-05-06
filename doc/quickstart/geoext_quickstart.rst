@@ -10,287 +10,250 @@
 @NAME_geoext@ Quickstart
 ********************************************************************************
 
-This Quick Start describes some basic steps required to start working with OpenLayers: creating a basic map, adding raster and vector layers and styling features.
+GeoExt is a JavaScript library that runs in the browser, it combines and enhances the ExtJS framework and OpenLayers library. 
+This quick start details the steps to create a rich web application using GeoExt components in less than 200 lines of code. 
+We will be using the installed MapServer web services on OSGeoLive a MapServer to supply map layers to the application. 
 
-OpenLayers makes it easy to put a dynamic map in any web page. It can display map tiles, vector data and markers loaded from any source. OpenLayers has been developed to further the use of geographic information of all kinds. It is completely free, Open Source JavaScript, released under the 2-clause BSD License (also known as the FreeBSD).
+HTML Page
+---------
 
-.. contents:: Contents
+In this step we will set-up an empty HTML page which will contain the application. 
 
-Core Concepts
---------------------------------------------------------------------------------
+First create a new HTML file at ``/var/www/html/geoext/index.html`` using the text editor Leafpad installed on OSGeoLive (you can 
+open this via the Start menu under :menuselection:`Accessories --> Leafpad`). 
 
-Before we start working with OpenLayers it helps to understand OpenLayers core concepts:
-
-**Map**
-  The *map* is the core component of OpenLayers. For a *map* to render, a *view*, one or more *layers*, and a target container are needed.
-
-**View**
-  The *view* determines how the map is rendered. It is used to set the resolution, the center location, etc. It is like a camera through which we look at the map's content.
-
-**Layers**
- *Layers* can be added to the map in a stacked order. Layers can be either *raster layers* (images), or *vector layers* (points/lines/polygons).
-
-**Source**
-  Each layer has a *source*, which knows how to load the layer content.
-  In the case of *vector layers*, its source reads vector data
-  using a *format* class (for example GeoJSON or KML) and provides the layer
-  with a set of *features*.
-
-**Features**
-  *Features* represent real world things and can be rendered using different
-  *geometries* (like point, line or polygon) using a given *style*, which
-  determines its look (line thinkness, fill color, etc).
-
-A basic map
---------------------------------------------------------------------------------
-
-In this step we will create a basic map.
-
-Create a file in e.g. /home/user/ called basic-map.html , and copy the following contentinto the file.
+Next paste in the HTML below. This contains links to three JavaScript libraries - ExtJS, OpenLayers, and GeoExt, 
+and two CSS files used to style ExtJS and OpenLayers components. 
 
 .. code-block:: html
 
-  <!DOCTYPE html>
-  <html lang="en">
-      <head>
-          <title>Basic map</title>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width">
-
-          <!-- OpenLayers CSS -->
-          <link rel="stylesheet" href="http://localhost/openlayers/dist/ol.css" type="text/css">
-
-          <!-- Custom styles -->
-          <style>
-            #map {
-              width: 100%;
-              height: 500px;
-            }
-          </style>
-      </head>
-      <body>
-          <h1>Basic map</h1>
-
-          <div id="map"></div>
-
-          <!-- OpenLayers JS-->
-          <script src="http://localhost/openlayers/dist/ol-debug.js" type="text/javascript"></script>
-
-          <!-- App code -->
-          <script>
-            var map = new ol.Map({
-              target: 'map',
-              layers: [
-                new ol.layer.Tile({
-                  source: new ol.source.OSM()
-                })
-              ],
-              view: new ol.View({
-                center: ol.proj.fromLonLat([2.1833, 41.3833]),
-                zoom: 6
-              })
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <title>OSGeoLive | GeoExt QuickStart</title>
+        <link rel="stylesheet" href="resources/theme-triton-all.css" type="text/css" />
+        <link rel="stylesheet" href="ol.css" type="text/css" />
+        <script src="ext-all.js"></script>
+        <script src="ol.js"></script>
+        <script src="GeoExt.js"></script>
+    </head>
+    <body>
+        <script>
+            Ext.onReady(function () {
+                // all JavaScript application code should go here
             });
-          </script>
+        </script>
+    </body>
+    </html>
 
-      </body>
-  </html>
+You should now be able to view an empty HTML page in Firefox at http://localhost/geoext/
+All the JavaScript in the following sections should be pasted after the ``// all JavaScript application code should go here`` comment in the 
+``Ext.onReady`` function. 
 
-**Ex. 1**: Basic code structure
+OpenLayers
+----------
 
-Now try opening basic-map.html from a web browser using File->Open File. You should see the following:
+Next we will configure some OpenLayers objects used by the application. First lets create a map tile layer
+using OpenStreetMap, and some WMS layers that are available from the MapServer Itasca demo on OSGeoLive. 
 
-.. image:: /images/projects/openlayers/openlayers-basic-map.png
-  :scale: 100 %
+.. code-block:: js
 
-Note:
+    var map;
+    var mapServerUrl = 'http://localhost/cgi-bin/mapserv?map=/usr/local/www/docs_maps/mapserver_demos/itasca/itasca.map&';
 
-* The code follows the best practice of loading JavaScipt code at the end of the html file.
+    var osmLayer = new ol.layer.Tile({
+        source: new ol.source.OSM(),
+        name: 'OpenStreetMap'
+    });
 
-* An OpenLayers map needs to be attached to a HTML DOM element, so we have created a ``<div>`` element identified by the *map* id.
+    var wmsLayer1 = new ol.layer.Image({
+        source: new ol.source.ImageWMS({
+            url: mapServerUrl,
+            params: { 'LAYERS': 'ctybdpy2' }
+        }),
+        name: 'County Boundary'
+    });
 
-* Maps are represented by the ``ol.Map`` class. We specify the DOM element to render the map into using the **target** property.
+    var wmsLayer2 = new ol.layer.Image({
+        source: new ol.source.ImageWMS({
+            url: mapServerUrl,
+            params: { 'LAYERS': 'lakespy2' }
+        }),
+        name: 'Lakes & Rivers'
+    });
 
-* OpenLayers allows map rendering using two different mechanisms: Canvas and WebGL. The default renderer is *canvas*.
+    var wmsLayer3 = new ol.layer.Image({
+        source: new ol.source.ImageWMS({
+            url: mapServerUrl,
+            params: { 'LAYERS': 'majrdln3,majrdln3_anno' }
+        }),
+        name: 'Highways'
+    });
 
-* A map shows data contained within layers, so we have created a tiled layer, represented by the ``ol.layer.Tile`` class, that loads content from the OpenStreetMap project, using the ``ol.source.OSM`` source class.
+Next we are going to add in a WFS vector layer - this is a little more complicated, but follows the same approach of
+creating a source and then a layer as the previous layers:
 
-* Finally, we set the initial position of the *camera* using the ``ol.View`` class, set the initial zoom level and center location.
+.. code-block:: js
 
-Adding raster layers
---------------------------------------------------------------------------------
+    var vectorSource = new ol.source.Vector({
+        format: new ol.format.GeoJSON(),
+        url: function (extent) {
+            return mapServerUrl + 'service=WFS&' +
+                'version=1.1.0&request=GetFeature&typename=airports&' +
+                'outputFormat=application/json&srsname=EPSG:3857&' +
+                'bbox=' + extent.join(',') + ',EPSG:3857';
+        },
+        strategy: ol.loadingstrategy.bbox
+    });
 
-The most used raster layers are the tiled layers, provided by the likes of
-OpenStreetMap, Stamen, Bing, etc. Tiled layers are represented by the
-``ol.layer.Tile`` class and must use a source that knows how to load tiles from
-a given provider, like ``ol.source.OSM`` or ``ol.source.Stamen``:
+    var vectorLayer = new ol.layer.Vector({
+        source: vectorSource,
+        name: 'Airports'
+    });
 
-.. code-block:: javascript
+Now we are going to create our OpenLayers map object configured with the layers we just created. We will also
+set the center and zoom level of the map, and add in a select interaction so we can select features in our vector layer. 
 
-  var osm = new ol.layer.Tile({
-    source: new ol.source.OSM()
-  });
+.. code-block:: js
 
-  var stamen = new ol.layer.Tile({
-    source: new ol.source.Stamen({
-      layer: 'watercolor'
-    })
-  });
-
-**Ex. 2:** Create raster layers
-
-Layers can be added to the map in two ways:
-
-1. When constructing the ``ol.Map``, using the ``layers`` property:
-
-   .. code-block:: javascript
-
-     var map = new ol.Map({
-       ...
-       layers: [osm, stamen]
-       ...
-     });
-
-   **Ex. 3:** Adding layers on map initialization
-
-2. Adding manually with the ``map.addLayer()`` method:
-
-   .. code-block:: javascript
-
-     map.addLayer(osm);
-     map.addLayer(stamen);
-
-   **Ex. 4:** Adding layers manually
-
-Adding vector layers
---------------------------------------------------------------------------------
-
-Vector layers are represented by the ``ol.layer.Vector`` class and must use a
-source suitable for reading the vector format, like ``ol.source.GeoJSON``,
-``ol.source.KML`` or ``ol.source.TopoJSON``.
-
-.. code-block:: javascript
-
-  var vectorLayer = new ol.layer.Vector({
-    source: new ol.source.GeoJSON({
-      url: 'url_to_geojson_file'
-    })
-  });
-
-  // Add Vector layer to map
-  map.addLayer(vectorLayer);
-
-**Ex. 5:** Constructing a GeoJSON vector layer
-
-.. image:: /images/projects/openlayers/openlayers-vector.png
-  :scale: 100 %
-
-Note, in the previous code we must change the ``url_to_file`` to point to a
-valid GeoJSON file placed in our server.
-Note that Javascript security will prevent sourcing of datasets from an external URL on a different domain / port (a.k.a. same-origin policy).
-
-Features can also be created manually. In this case we need to create a geometry
-that represents the feature:
-
-.. code-block:: javascript
-
-  // Geometries
-  var point = new ol.geom.Point(
-      ol.proj.transform([3,50], 'EPSG:4326', 'EPSG:3857')
-  );
-  var circle = new ol.geom.Circle(
-      ol.proj.transform([2.1833, 41.3833], 'EPSG:4326', 'EPSG:3857'),
-      1000000
-  );
-
-  // Features
-  var pointFeature = new ol.Feature(point);
-  var circleFeature = new ol.Feature(circle);
-
-  // Source
-  var vectorSource = new ol.source.Vector({
-      projection: 'EPSG:4326'
-  });
-  vectorSource.addFeatures([pointFeature, circleFeature]);
-
-  // Vector layer
-  var vectorLayer = new ol.layer.Vector({
-    source: vectorSource
-  });
-
-  // Add Vector layer to map
-  map.addLayer(vectorLayer);
-
-**Ex. 6:** Adding features by hand
-
-Styling features
---------------------------------------------------------------------------------
-
-Features within vector layers can be styled.
-The style is determined by a combination of fill, stroke, text  and image, which are all optional. In addition, a style can be applied to a layer, which determines the style of all contained features, or to an individual feature.
-
-A style is represented by the ``ol.style.Style`` class which has properties to set the ``fill``, ``stroke``, ``text`` and ``image`` to be applied. The next example shows the World's administrative limits dataset styled to use a green fill and stroke:
-
-.. image:: /images/projects/openlayers/openlayers-styling.png
-  :scale: 100 %
-
-.. code-block:: javascript
-
-  var limitsLayer = new ol.layer.Vector({
-    source: new ol.source.Vector({
-      url: 'data/world_limits.json',
-      format: new ol.format.TopoJSON(),
-      projection: 'EPSG:3857'
-    }),
-    style: new ol.style.Style({
-      fill: new ol.style.Fill({
-        color: 'rgba(55, 155, 55, 0.3)'
-      }),
-      stroke: new ol.style.Stroke({
-        color: 'rgba(55, 155, 55, 0.8)',
-        width: 1
-      }),
-      image: new ol.style.Circle({
-        radius: 7,
-        fill: new ol.style.Fill({
-          color: 'rgba(55, 155, 55, 0.5)',
+    var map = new ol.Map({
+        layers: [
+            wmsLayer1, wmsLayer2, wmsLayer3, vectorLayer
+        ],
+        view: new ol.View({
+            center: ol.proj.fromLonLat([-93.33, 47.32]),
+            zoom: 6
         })
-      })
-    })
-  });
+    });
 
-**Ex. 7:** Styling features
+    var selectInteraction = new ol.interaction.Select();
+    map.addInteraction(selectInteraction);
 
-In the code, we have loaded a TopoJSON file and styled it through the ``style`` property.
-We have set a ``fill`` and ``stroke``, required for lines and polygons, and an
-``image`` (in this case a circle) used for point features.
+GeoExt
+------
 
-Working with events
---------------------------------------------------------------------------------
+Now the map and layers have been configured we are going to create and configure our GeoExt components. First of all we will create a ``GeoExt.component.Map``. This uses the
+OpenLayers map we created, and will be positioned in the 'center' region of our application. 
 
-Most of the components, like map, layers or controls, trigger events to notify changes. For example we can be notified each time the mouse is moved over the map, or when a feature is added to a vector layer, etc.
+.. code-block:: js
 
-Events can be easily registered on an object with the ``on()`` method and unregistered with ``un()``.
+    var mapComponent = Ext.create('GeoExt.component.Map', {
+        map: map,
+        region: 'center'
+    });
 
-The following code registers an event on a map instance, and will be notified each time the pointer is moved. Within the callback function we obtain the pointer coordinates and print in the browser console in two different projections.
 
-.. code-block:: javascript
+Next we will create a layer tree component. The tree has its own data store - ``GeoExt.data.store.LayersTree``, which we will fill with layers from our OpenLayers
+map. The store will then be used to populate our tree panel. We will also add in a plugin to the tree to allow the map layer order
+to be changed by dragging and dropping the layers. The ``flex`` property causes the tree panel to fill up all available space in its 
+region of the screen. 
 
-  map.on('pointermove', function(event) {
-    var coord3857 = event.coordinate;
-    var coord4326 = ol.proj.transform(coord3857, 'EPSG:3857', 'EPSG:4326');
+.. code-block:: js
 
-    console.log(coord3857, coord4326);
-  });
+    var treeStore = Ext.create('GeoExt.data.store.LayersTree', {
+        layerGroup: map.getLayerGroup()
+    });
 
-**Ex. 8:** Printing pointer position.
+    var layerTreePanel = Ext.create('Ext.tree.Panel', {
+        title: 'Map Layers',
+        width: 300,
+        flex: 1,
+        store: treeStore,
+        rootVisible: false,
+        viewConfig: {
+            plugins: { ptype: 'treeviewdragdrop' }
+        }
+    });
+
+We are also going to create a grid component to display the attributes of features in our WFS layer. Similar to the layer tree store and
+tree panel, we create a ``GeoExt.data.store.Features`` store and a grid panel. 
+
+.. code-block:: js
+
+    var featureStore = Ext.create('GeoExt.data.store.Features', {
+        layer: vectorLayer,
+        map: map
+    });
+
+    var featureGrid = Ext.create('Ext.grid.Panel', {
+        store: featureStore,
+        region: 'south',
+        title: 'Airport Runways for Itasca County',
+        columns: [
+            { text: 'Name', dataIndex: 'NAME', flex: 3 },
+            { text: 'Quadrant', dataIndex: 'QUADNAME', flex: 1 },
+            { text: 'Elevation', dataIndex: 'ELEVATION', flex: 1 }
+        ],
+        listeners: {
+            selectionchange: function (sm, selected) {
+                Ext.each(selected, function (rec) {
+                    selectInteraction.getFeatures().clear();
+                    selectInteraction.getFeatures().push(rec.getFeature());
+                });
+            }
+        },
+        height: 300
+    });
+
+Our final GeoExt component is an overview map - ``GeoExt.component.OverviewMap``. We will configure this to display the OpenStreetMap layer we created earlier, and
+place it in an ExtJS panel. 
+
+.. code-block:: js
+
+    var overview = Ext.create('GeoExt.component.OverviewMap', {
+        parentMap: map,
+        layers: [osmLayer]
+    });
+
+    var overviewPanel = Ext.create('Ext.panel.Panel', {
+        title: 'Overview',
+        layout: 'fit',
+        items: overview,
+        height: 300,
+        width: 300,
+        collapsible: true
+    });
+
+
+ExtJS
+-----
+
+The final step in creating our application is to create a viewport - a container representing the application
+which will display all the components we created above. 
+
+.. code-block:: js
+
+    var vp = Ext.create('Ext.container.Viewport', {
+        layout: 'border',
+        items: [
+            mapComponent,
+            {
+                xtype: 'container',
+                region: 'west',
+                layout: 'vbox',
+                collapsible: true,
+                items: [
+                    overviewPanel,
+                    layerTreePanel
+                ]
+            },
+            featureGrid
+        ]
+    });
+
+You should now be able to refresh the link http://localhost/geoext/ in your browser and see a full GeoExt application similar to the image below. 
+
+.. image:: /images/projects/geoext/geoext_quickstart.png
+  :scale: 100 %
+
 
 What's Next?
---------------------------------------------------------------------------------
-Sometimes the quickest way to work out how OpenLayers works is to look at examples
-and their source code. You can find more OpenLayers information here:
+------------
 
-* `API Docs <../../openlayers/apidoc/>`_
-
-* `Examples <../../openlayers/examples/>`_
-
-* `OpenLayers.org Website <http://openlayers.org/>`_
+* The `GeoExt homepage <https://geoext.github.io/geoext3/>`_ contains full `API documentation <https://geoext.github.io/geoext3/v3.1.0/docs>`_
+  and examples
+* A detailed `GeoExt workshop <https://github.com/geoext/geoext3-ws>`_ goes through the steps
+  on how to use GeoExt3 in your ExtJS applications
+* The `OpenLayers v4.6.5 API docs <https://openlayers.org/en/v4.6.5/apidoc>`_
+* The `ExtJS 6.2.0 API docs <https://docs.sencha.com/extjs/6.2.0/>`_
