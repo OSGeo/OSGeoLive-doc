@@ -12,18 +12,22 @@
 
 GeoExt is a JavaScript library that runs in the browser, it combines and enhances the ExtJS framework and OpenLayers library. 
 This quick start details the steps to create a rich web application using GeoExt components in less than 200 lines of code. 
-We will be using the installed MapServer web services on OSGeoLive a MapServer to supply map layers to the application. 
+We will be using the installed MapServer web services on OSGeoLive a MapServer to supply map layers to the application. Completing the 
+steps below will result in the demo GeoExt application at http://localhost/geoext/. 
 
 HTML Page
 ---------
 
 In this step we will set-up an empty HTML page which will contain the application. 
 
-First create a new HTML file at ``/var/www/html/geoext/index.html`` using the text editor Leafpad installed on OSGeoLive (you can 
+First create a new HTML file at ``/var/www/html/geoext/demo.html`` using the text editor Leafpad installed on OSGeoLive (you can 
 open this via the Start menu under :menuselection:`Accessories --> Leafpad`). 
 
-Next paste in the HTML below. This contains links to three JavaScript libraries - ExtJS, OpenLayers, and GeoExt, 
+Next paste in the HTML below. This contains links to the ExtJS and OpenLayers JavaScript libraries, 
 and two CSS files used to style ExtJS and OpenLayers components. 
+
+We will use the ``Ext.Loader`` class to load in GeoExt JavaScript source files. These are all in the ``src` folder 
+in ``/var/www/html/geoext/``. 
 
 .. code-block:: html
 
@@ -36,10 +40,17 @@ and two CSS files used to style ExtJS and OpenLayers components.
         <link rel="stylesheet" href="ol.css" type="text/css" />
         <script src="ext-all.js"></script>
         <script src="ol.js"></script>
-        <script src="GeoExt.js"></script>
     </head>
     <body>
         <script>
+
+           Ext.Loader.setConfig({
+               enabled: true,
+               paths: {
+                   'GeoExt': 'src/'
+               }
+           });
+
             Ext.onReady(function () {
                 // all JavaScript application code should go here
             });
@@ -47,9 +58,9 @@ and two CSS files used to style ExtJS and OpenLayers components.
     </body>
     </html>
 
-You should now be able to view an empty HTML page in Firefox at http://localhost/geoext/
+You should now be able to view an empty HTML page in Firefox at http://localhost/geoext/demo.html
 All the JavaScript in the following sections should be pasted after the ``// all JavaScript application code should go here`` comment in the 
-``Ext.onReady`` function. 
+``Ext.onReady`` function. Placing code here ensures everything has been loaded before running any JavaScript code. 
 
 OpenLayers
 ----------
@@ -242,7 +253,7 @@ which will display all the components we created above.
         ]
     });
 
-You should now be able to refresh the link http://localhost/geoext/ in your browser and see a full GeoExt application similar to the image below. 
+You should now be able to refresh the link http://localhost/geoext/demo.html in your browser and see a full GeoExt application similar to the image below. 
 
 .. image:: /images/projects/geoext/geoext_quickstart.png
   :scale: 100 %
@@ -253,7 +264,7 @@ What's Next?
 
 * The `GeoExt homepage <https://geoext.github.io/geoext3/>`_ contains full `API documentation <https://geoext.github.io/geoext3/v3.1.0/docs>`_
   and examples
-* A detailed `GeoExt workshop <https://github.com/geoext/geoext3-ws>`_ goes through the steps
-  on how to use GeoExt3 in your ExtJS applications
+* A `GeoExt workshop <https://github.com/geoext/geoext3-ws>`_ details all the steps for configuring and using
+  GeoExt3 in your ExtJS applications
 * The `OpenLayers v4.6.5 API docs <https://openlayers.org/en/v4.6.5/apidoc>`_
 * The `ExtJS 6.2.0 API docs <https://docs.sencha.com/extjs/6.2.0/>`_
