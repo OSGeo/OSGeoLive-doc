@@ -26,7 +26,7 @@ open this via the Start menu under :menuselection:`Accessories --> Leafpad`).
 Next paste in the HTML below. This contains links to the ExtJS and OpenLayers JavaScript libraries, 
 and two CSS files used to style ExtJS and OpenLayers components. 
 
-We will use the ``Ext.Loader`` class to load in GeoExt JavaScript source files. These are all in the ``src` folder 
+We will use the ``Ext.Loader`` class to load in GeoExt JavaScript source files. These are all in the ``src`` folder 
 in ``/var/www/html/geoext/``. 
 
 .. code-block:: html
@@ -60,7 +60,7 @@ in ``/var/www/html/geoext/``.
 
 You should now be able to view an empty HTML page in Firefox at http://localhost/geoext/demo.html
 All the JavaScript in the following sections should be pasted after the ``// all JavaScript application code should go here`` comment in the 
-``Ext.onReady`` function. Placing code here ensures everything has been loaded before running any JavaScript code. 
+``Ext.onReady`` function. Placing code here ensures the JavaScript libraries have been loaded before running any custom JavaScript code. 
 
 OpenLayers
 ----------
@@ -253,7 +253,7 @@ which will display all the components we created above.
         ]
     });
 
-You should now be able to refresh the link http://localhost/geoext/demo.html in your browser and see a full GeoExt application similar to the image below. 
+You should now be able to refresh the link http://localhost/geoext/demo.html in your browser and see a complete GeoExt application similar to the image below. 
 
 .. image:: /images/projects/geoext/geoext_quickstart.png
   :scale: 100 %
