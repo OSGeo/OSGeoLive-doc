@@ -58,7 +58,7 @@ rm -f _static/reveal.js/css/theme/$file
 done
 
 # highlight  markdown   notes  print-pdf zoom-js"
-plugin_not_used="leap          math         multiplex        notes-server int-pdf    remotes      search"
+plugin_not_used="leap          math         multiplex        notes-server int-pdf    remotes      search"       
 
 for file in $plugin_not_used ; do
 rm -rf _static/plugin/$file
