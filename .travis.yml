@@ -37,10 +37,13 @@ script:
   - bash scripts/clean-images.sh
   - du -h build/doc/_build/html
 
+# deploy to github pages - see https://docs.travis-ci.com/user/deployment/pages/
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   keep_history: true
+  local_dir:  build/doc/_build/html/
+  verbose: true
   on:
     branch: makepages # switch to master when ok
