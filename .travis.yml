@@ -35,6 +35,7 @@ script:
   - make
   - cd ..
   - bash scripts/clean-images.sh
+  - touch build/doc/_build/html/.nojekyll # needed for gh pages to keep dirs starting with _
   - du -h build/doc/_build/html
 
 # deploy to github pages - see https://docs.travis-ci.com/user/deployment/pages/
