@@ -36,3 +36,11 @@ script:
   - cd ..
   - bash scripts/clean-images.sh
   - du -h build/doc/_build/html
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: makepages # switch to master when ok
