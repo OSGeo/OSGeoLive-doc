@@ -54,7 +54,7 @@ Creating my first MapFile
 Put the following content in it::
 
   MAP
-    NAME "MAPSERVER QUICKSTART"
+    NAME "MAPSERVER_QUICKSTART"
     EXTENT -137 29 -53 88
     UNITS DD
     SHAPEPATH "/home/user/data/natural_earth2/"
@@ -68,12 +68,14 @@ Put the following content in it::
 
     WEB
       METADATA
+        ows_title "MapServer Quickstart"      
         ows_enable_request "*"
+        ows_srs "EPSG:4326 EPSG:25832 EPSG:25833"        
       END
     END
 
     LAYER
-      NAME "Admin Countries"
+      NAME "Countries"
       STATUS ON
       TYPE POLYGON
       DATA "ne_10m_admin_0_countries"
@@ -89,8 +91,7 @@ Put the following content in it::
 
 .. note::
 
-  The example uses the natural earth dataset, which is already installed on 
-  the live dvd at :file:`~/data/natural_earth2` (a short cut to 
+  The example uses the natural earth dataset, which is already on OSGeoLive at :file:`~/data/natural_earth2` (a short cut to 
   :file:`/usr/local/share/data/natural_earth2`).
 
 Each object in a MapFile starts with its name (for example **MAP**) and ends 
@@ -137,7 +138,7 @@ Render a map image with MapServer using a WMS **GetMap** request
 
 Open a web browser and enter the following URL::
 
-  http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Admin%20Countries&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
+  http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Countries&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
 
 What does the above mean?  If we put it in simple words, it's a `Web Map 
 Service (WMS) <http://www.opengeospatial.org/standards/wms>`_ **GetMap** 
@@ -165,7 +166,7 @@ Although MapServer is geared towards web applications, it can also produce
 images on the command line. This can be useful if you are looking for 
 repetitive mapping, or while debugging.
 
-Open a terminal (:menuselection:`Applications --> Accessories --> Terminal 
+Open a terminal (:menuselection:`Applications --> System Tools --> Terminal 
 Emulator`) and type::
 
   shp2img -m mapserver_quickstart.map -o mymap.png
@@ -206,7 +207,7 @@ Let's take our previous WMS **GetMap** request and add our new "Lakes" layer
 to the image rendered. We simply need to add the new layer name to the 
 "LAYERS" property list::
 
-  http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Admin%20Countries,Lakes&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
+  http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Countries,Lakes&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
 
 The image rendered by MapServer looks like our previous map, but with the 
 addition of the lakes from our new layer:
