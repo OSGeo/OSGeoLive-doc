@@ -47,4 +47,4 @@ deploy:
   local_dir:  build/doc/_build/html/
   verbose: true
   on:
-    branch: makepages # switch to master when ok
+    branch: master # switch to master when ok
