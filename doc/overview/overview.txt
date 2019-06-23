@@ -76,6 +76,8 @@ Publishing spatial data to the internet:
 
 |osgeocommunity| :doc:`zoo-project_overview` - [:doc:`QuickStart <../quickstart/zoo-project_quickstart>`] - Web Processing Service
 
+|nologo| :doc:`t-rex_overview` - [:doc:`QuickStart <../quickstart/t-rex_quickstart>`] - Vector Tile Service
+
 Data Stores
 --------------------------------------------------------------------------------
 Storing spatial data:
