@@ -1,6 +1,7 @@
 :Author: OSGeoLive
 :Author: Alan Boudreault
 :Author: Steve Lime
+:Author: Astrid Emde
 :Reviewer: Stephan Meissl
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos, OSGeo
@@ -291,7 +292,7 @@ Using QGIS Desktop to load your OGC WMS
 
 Start QGIS via :menuselection:`Geospatial --> Desktop GIS --> QGIS Desktop`. Go to :menuselection:`Layer --> Add Layer --> Add WMS/WMTS Layer...`.
 
-Klick button **New** and add a name and your Servive URL and save your settings:
+Click button **New** and add a name and your Service URL and save your settings:
 
 http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0  
 
