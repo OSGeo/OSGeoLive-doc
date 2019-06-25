@@ -285,7 +285,7 @@ rendered with a black outline:
 Publish your data as OGC WMS (Web Map Service)
 ================================================================================
 
-MapServer supports different OGC Standards like OGC WMS, WFS or WCS. With OGC WMS you can publish your data as a Map Service and integrate the service f.e. in a Desktop GIS like QGIS or in a Web Client like OpenLayers or Mapbender.
+MapServer supports different OGC Standards like OGC WMS, WFS or WCS. With OGC WMS you can publish your data as a Map Service and integrate the service in a Desktop GIS like QGIS or in a Web Client like OpenLayers or Mapbender.
 
 Using QGIS Desktop to load your OGC WMS
 --------------------------------------------------------------------------------
