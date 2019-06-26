@@ -1,6 +1,7 @@
 :Author: OSGeoLive
 :Author: Alan Boudreault
 :Author: Steve Lime
+:Author: Astrid Emde
 :Reviewer: Stephan Meissl
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos, OSGeo
@@ -279,6 +280,26 @@ rendered with a black outline:
 
   Learn more about `EXPRESSIONS 
   <http://mapserver.org/mapfile/expressions.html>`_ in MapServer.
+
+
+Publish your data as OGC WMS (Web Map Service)
+================================================================================
+
+MapServer supports different OGC Standards like OGC WMS, WFS or WCS. With OGC WMS you can publish your data as a Map Service and integrate the service in a Desktop GIS like QGIS or in a Web Client like OpenLayers or Mapbender.
+
+Using QGIS Desktop to load your OGC WMS
+--------------------------------------------------------------------------------
+
+Start QGIS via :menuselection:`Geospatial --> Desktop GIS --> QGIS Desktop`. Go to :menuselection:`Layer --> Add Layer --> Add WMS/WMTS Layer...`.
+
+Click button **New** and add a name and your Service URL and save your settings:
+
+http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0  
+
+Then you can connect to your service and add one or more layers of the service to your QGIS project. If you choose the layer with the ID 0 you can load the whole service with all layers at once.
+
+  .. image:: /images/projects/mapserver/mapserver_load_wms_to_qgis.png
+    :scale: 70 %
 
 
 What Next?
