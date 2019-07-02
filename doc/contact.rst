@@ -30,10 +30,12 @@ Searchable archives of the mailing list are hosted by
 `Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_.
 
 IRC users might try the #osgeolive or #osgeo channel at Freenode.net for real-time
-assistance.
+assistance. You also can meet us at Slack, Matrix or Glitter.
 
 A wealth of information is available on our `Wiki site <http://wiki.osgeo.org/wiki/OSGeoLive>`_, 
 and a `bug and wish tracking system <https://trac.osgeo.org/osgeolive/report/10>`_ is also available.
+
+Stay tuned and follow OSGeoLive on Twitter `@osgeolive <https:twitter.com/osgeolive>`_.
 
 Commercial Support
 ================================================================================
