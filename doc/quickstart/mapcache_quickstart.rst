@@ -1,18 +1,23 @@
 :Author: OSGeoLive
 :Author: Seth Girvin
-:Reviewer: OSGeo
 :Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_mapserver@
-@OSGEO_KIND_mapserver@
+@OSGEO_KIND_mapcache@
 
 
 ================================================================================
 @NAME_mapserver@ Quickstart
 ================================================================================
 
-Mapcache is an `Open Source <http://www.opensource.org>`_ server based 
+MapCache is a server that implements tile caching to speed up access to WMS layers. 
+
+This quickstart has two parts:
+
+#. Introduce setting up caching for a WMS layer. 
+#. Setting up mirroring to allow all WMS layers on a server to be cached. 
+
 application that allows you to publish geographic map images and vector data 
 through the internet using `OGC standards <http://www.opengeospatial.org/standards>`__ 
 such as `WMS <http://www.opengeospatial.org/standards/wms>`__, `WFS 
