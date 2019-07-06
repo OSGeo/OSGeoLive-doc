@@ -3,9 +3,9 @@
 :Reviewer: Markus Neteler
 :Reviewer: Angelos Tzotsos, OSGeo
 :Reviewer: Luca Delucchi
-:Version: osgeolive11.0
+:Version: osgeolive13.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-:Copyright: 2011-2015 by The OSGeo Foundation
+:Copyright: 2011-2019 by The OSGeo Foundation
 
 @LOGO_grass@
 @OSGEO_KIND_grass@
@@ -45,22 +45,22 @@ used both for batch data processing on massively-parallel supercomputers
 as well as a handy desktop GIS for handheld PDAs or netbooks.
 
 
-.. _GRASS GIS: http://grass.osgeo.org
+.. _GRASS GIS: https://grass.osgeo.org
 
 @SCREENSHOT_grass@
 
 Core Features
 --------------------------------------------------------------------------------
 
-* You name it, there's a `tool for it <http://grass.osgeo.org/grass74/manuals/keywords.html>`_.
-* Explore the `screenshot collection <http://grass.osgeo.org/screenshots/>`_.
+* You name it, there's a `tool for it <https://grass.osgeo.org/grass76/manuals/keywords.html>`_.
+* Explore the `screenshot collection <https://grass.osgeo.org/screenshots/>`_.
 
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://grass.osgeo.org
+**Website:** https://grass.osgeo.org
 
-**Licence:** GNU General Public License (GPL) version 2
+**Licence:** GNU General Public License (GPL) version 2+
 
 **Software Version:** |version-grass|
 
@@ -68,7 +68,7 @@ Details
 
 **API Interfaces:** C, Python, Bourne Shell
 
-**Support:** http://grass.osgeo.org/support/
+**Support:** https://grass.osgeo.org/support/
 
 
 @QUICKSTART_grass@

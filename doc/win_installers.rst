@@ -14,7 +14,7 @@ vcredist_x86.exe is the  Runtime from Microsoft, it is required for many of the 
 * http://download.osgeo.org/osgeo4w/osgeo4w-setup.exe
 * http://qgis.org/downloads/QGIS-OSGeo4W-1.8.0-2-Setup.exe
 * http://home.gdal.org/tmp/vcredist_x86.exe
-* http://grass.osgeo.org/grass70/binary/mswindows/native/
+* http://grass.osgeo.org/grass76/binary/mswindows/native/
 * http://download.osgeo.org/livedvd/data/gpsbabel/GPSBabel-1.4.4-Setup.exe
 * http://github.com/downloads/mapbox/tilemill/TileMill-v0.10.1-Setup.exe
 * http://gpsvp.googlecode.com/files/gpsVPxp_0.4.24.zip
