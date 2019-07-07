@@ -3,7 +3,7 @@
 :Reviewer: Angelos Tzotsos, OSGeo
 :Version: osgeolive11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
-:Copyright: 2011-2015 by The OSGeo Foundation
+:Copyright: 2011-2019 by The OSGeo Foundation
 
 @LOGO_grass@
 @OSGEO_KIND_grass@
@@ -334,7 +334,7 @@ While not covered here, you may like to experiment with the
 Cartographic Composer and object-oriented Graphical Modelling Tool (offers
 export to Python); you'll find icons to launch them on the lower row of
 icons in the `Layer Manager` window. Further details can be found in
-the `wxGUI <https://grass.osgeo.org/grass74/manuals/wxGUI.html>`_ help pages.
+the `wxGUI <https://grass.osgeo.org/grass76/manuals/wxGUI.html>`_ help pages.
 
 The wxGUI is written in Python, and if you're a fan of Python programming
 there are a number of great tools and an API available to you. In the bottom
@@ -366,9 +366,9 @@ prompt to leave the GIS environment.
 
 Further reading
 ================================================================================
-* Visit the GRASS GIS website at `http://grass.osgeo.org <http://grass.osgeo.org>`_
-* Visit the GRASS GIS Wiki help site at `http://grasswiki.osgeo.org/wiki/ <http://grasswiki.osgeo.org/wiki/>`_
-* More tutorials and overviews can be found `here <http://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
-* A `synopsis of the GRASS GIS modules <https://grass.osgeo.org/grass74/manuals/full_index.html>`_
+* Visit the GRASS GIS website at `https://grass.osgeo.org <https://grass.osgeo.org>`_
+* Visit the GRASS GIS Wiki help site at `https://grasswiki.osgeo.org/wiki/ <https://grasswiki.osgeo.org/wiki/>`_
+* More tutorials and overviews can be found `here <https://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
+* A `synopsis of the GRASS GIS modules <https://grass.osgeo.org/grass76/manuals/full_index.html>`_
 * If the 400 GIS modules which come with GRASS aren't enough for you have a look at the many contributed
-  add-ons at `http://grass.osgeo.org/grass74/manuals/addons/ <http://grass.osgeo.org/grass74/manuals/addons/>`_
+  add-ons at `https://grass.osgeo.org/grass7/manuals/addons/ <https://grass.osgeo.org/grass7/manuals/addons/>`_
