@@ -35,6 +35,7 @@ Opening QGIS for the first time
 ================================================================================
 
 Learning goal:
+
 * Open QGIS
 * Identify parts of the Interface
 
@@ -71,6 +72,7 @@ Starting a new project
 ================================================================================
 
 Learning goal:
+
 * Start a new QGIS project
 * Add vector layers to a project
 * Add raster layers to a project
