@@ -50,9 +50,9 @@ settings from QGIS 2' or proceed with a clean start. If presented with this wind
 #. Selection the option 'I want a clean start. Don't import my QGIS 2 settings.'
 #. Click the button that reads "Let's get started!"
 
-    .. image:: /images/projects/qgis/qgis_welcome.png
-      :scale: 70 %
-      :alt: QGIS import settings
+  .. image:: /images/projects/qgis/qgis_welcome.png
+    :scale: 70 %
+    :alt: QGIS import settings
 
 The user will the see QGIS launch with an empty project. The various parts of the QGIS Interface
 are listed below.
