@@ -363,10 +363,8 @@ Tutorials for more advanced features of QGIS are collected as `OSGeoLive QGIS tu
 To learn more about QGIS, a good starting point is the `Documentation page`_ on
 the QGIS homepage and `A Gentle Introduction to GIS`_ eBook.
 
-The `QGIS User Guide`_ `[1]`_ is also included on the OSGeoLive disc.
 
 .. _`OSGeoLive QGIS tutorials`: ../../qgis/
 .. _`Documentation page`: http://docs.qgis.org/
 .. _`A Gentle Introduction to GIS`: https://docs.qgis.org/3.4/en/docs/gentle_gis_introduction/index.html
 .. _`QGIS User Guide`: https://docs.qgis.org/3.4/en/docs/user_manual/
-.. _`[1]`: ../../qgis/QGIS-2.2-UserGuide-en.pdf
