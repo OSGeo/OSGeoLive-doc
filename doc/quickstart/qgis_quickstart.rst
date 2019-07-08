@@ -344,37 +344,6 @@ lines follow these steps:
 
 Notice the line in the symbol preview increase in width, and so do the lines that are in the map frame.
 
-Using the Processing Toolbox
-================================================================================
-
-A core plugin for QGIS which opens the door to a large family of
-processing tools is the Processing Toolbox (formerly named the SEXTANTE Toolbox).
-It acts as a standardized wrapper around a number of other sets of tools.
-
-.. TBD: Cameron's review comments:
-  If we are to include Sextante, then we need to describe using one of the
-  Sextane features.
-
-#. Choose :menuselection:`Processing --> Toolbox`.
-
-   * A new toolbar will open on the right side of the screen with many
-     processing tools to choose from. Take some time and have a look around.
-
-   .. image:: /images/projects/qgis/qgis_toolbox.png
-      :scale: 70 %
-      :alt: Processing Toolbox
-
-   * You may need to enable a Processing provider in order to use it.
-     The following screenshot shows how to enable GRASS GIS 7 support in
-     the processing tools. Be sure to disable GRASS support (i.e., GRASS 6).
-     Additionally, switch to the "Advanced Interface" (see lower right corner
-     in the screenshot) in order to see the providers:
-
-   .. image:: /images/projects/qgis/qgis_enable_provider.png
-      :scale: 70 %
-      :alt: Enabling the GRASS GIS 7 provider in the Processing settings.
-
-
 Importing OpenStreetMap data
 ================================================================================
 
