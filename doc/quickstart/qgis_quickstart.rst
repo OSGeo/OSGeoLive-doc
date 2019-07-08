@@ -263,8 +263,7 @@ an area of interest.
 #. Select the 'Zoom in' tool from the navigation toolbar.
 #. Move the cursor over the map frame.
 #. Click and hold the left mouse button.
-#. While still holding the mouse button move the cursor diagonally in any direction.
-Notice this draws a rectangle which is the area that will be zoomed to.
+#. While still holding the mouse button move the cursor diagonally in any direction. Notice this draws a rectangle which is the area that will be zoomed to.
 #. Release the mouse button when happy with the area created.
 
 .. note:: The process of using the zoom out tool is the same as the zoom-in tool. The result is just the opposite.
