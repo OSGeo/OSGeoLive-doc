@@ -307,8 +307,7 @@ With the style dock open, we can modify the appearance of the layer shown at the
 With the style dock now open, we can modify the colour and the width of the lines in the
 'ne_10m_rivers_lakes_centrelines' layer. Let’s try modifying the colour first.
 
-#. Click on the 'Color' swatch shown below. This will launch a colour palette allowing you
-to choose a different colour.
+#. Click on the 'Color' swatch shown below. This will launch a colour palette allowing you to choose a different colour.
 
    .. image:: /images/projects/qgis/qgis_style_dock_color.png
       :scale: 70 %
