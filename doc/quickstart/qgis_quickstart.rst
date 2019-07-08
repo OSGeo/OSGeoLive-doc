@@ -157,30 +157,81 @@ but instead will read as 'My QGIS project'.
    :alt: QGIS saved project
 
 
-Create a new QGIS project
+Open an existing project
 ================================================================================
 
-Let's now create a new QGIS project and load our own data.
+Learning goal:
 
-#. Choose :menuselection:`Project --> New`. You will be asked whether to save the previous project, you can press :guilabel:`Close without Saving`.
+* Understand what a QGIS project is
+* Open an existing project
+* Interact with layers
 
-#. Click :menuselection:`Layer --> Add Layer--> Add Vector Layer...` Or click on the 'Add Vector Layer' button (the one with the 'V' shape, in the red rectangle in the image).
-You can also use the keyboard shortcut 'Ctrl+Shift+V'
+A QGIS project is a way to save layers, styles, map extents and settings for use at a later time.
+This information is stored as a QGIS project and these files have an extension of '.qgs' or '.qgz',
+with '.qgz' being the default file format in QGIS going into the future.
 
-     .. image:: /images/projects/qgis/qgis_add_layer.png
-        :scale: 70
-        :alt: Add layer
+Let's open an existing QGIS project and have a look at how it works.
 
-#. Browse to dataset :file:`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`.
+#. Open QGIS. Note that when QGIS is opened a user will be presented with a list of recent
+projects to chose from. This is a quick way of entering into recent projects.
+#. Go to the 'Project' menu on the menu bar.
+#. Select 'Open'.
+#. Navigate to '/home/user/qgis-example'.
+#. Select the project 'QGIS-NaturalEarth-Example.qgs'.
+#. Then click 'Open'.
 
-#. Press :guilabel:`Open` then :guilabel:`Open` again.
+.. image:: /images/projects/qgis/qgis_project_open.png
+   :scale: 70 %
+   :alt: QGIS Open project
 
-   * You should see all world countries.
+This will open a QGIS project with a number of Natural Earth datasets, as shown below.
+This project contains a number of layers in the layers panel and is displaying the spatial
+content in the map frame.
 
-     .. image:: /images/projects/qgis/qgis_countries.png
-        :scale: 70
-        :alt: Add layer result
+.. image:: /images/projects/qgis/qgis_project_open_result.png
+   :scale: 70 %
+   :alt: QGIS Open project result
 
+Layers can be turned on or off by clicking the checkbox next to the layer name in the layers panel.
+When a layer is turned on in the layer panel, the map frame will be updated to display the layer.
+A close up of the layer panel is shown below.
+
+.. image:: /images/projects/qgis/qgis_layer_panel.png
+   :scale: 70 %
+   :alt: QGIS layer panel
+
+Let's interact with the layer panel and change the visibility of some map layers.
+
+#. Click the checkbox next to the 'ne_10m_populated_places' layer to turn it on.
+#. Click the checkbox next to the 'Water' layer to turn the layer off.
+
+Notice how the map frame has been updated to reflect the changes in the layer list.
+We can now see the 'ne_10m_populated_places' layer as points, but can no longer see the
+rivers and lakes which are within the 'Waters' layer.
+
+.. image:: /images/projects/qgis/qgis_layer_visibility.png
+   :scale: 70 %
+   :alt: QGIS result of layer visibility changes
+
+In addition to controlling layer visibility, we can also change the order in which layers
+are drawn in the layer panel. This is done by selecting a layer in the layer panel and dragging
+it up or down the list. The order that the layers appear in the layer list, is the order which they
+will draw on in the map frame.
+
+To change the order of the layers:
+
+#. Left-Click on the layer 'HYP_50M_SR_W'.
+#. While holding the mouse button down drag the layer to the top of the list.
+
+Notice how the raster layer is now on top of all other layers in the layer panel. This now renders the
+raster layer on top of all other layers in the map frame.
+
+.. image:: /images/projects/qgis/qgis_modified_layer_order.png
+   :scale: 70 %
+   :alt: QGIS modified the order of layers
+
+Try moving the 'HYP_50M_SR_W' layer to the bottom of the layer list. This would be a more appropriate
+position for a map layer like this.
 
 Connect to a PostGIS spatial database
 ================================================================================
