@@ -233,57 +233,52 @@ raster layer on top of all other layers in the map frame.
 Try moving the 'HYP_50M_SR_W' layer to the bottom of the layer list. This would be a more appropriate
 position for a map layer like this.
 
-Connect to a PostGIS spatial database
+Navigation tools
 ================================================================================
 
-Let's now include a layer from a Postgres database.
+Learning goals:
 
-#. In the layer list on the left, untick the ``ne_10m_admin_0_countries`` visibility
-   check box to temporarily hide it.
+* Identify the navigation toolbar
+* Modify the extent of the map
 
+The navigation toolbar as shown below allows users to move around the map and change the map extent.
 
+.. image:: /images/projects/qgis/qgis_navigation_toolbar.png
+   :scale: 70 %
+   :alt: QGIS navigation toolbar
 
-#. Choose :menuselection:`Layer --> Add Layers --> Add PostGIS Layers...`.
+For this quick start guide, we will focus on the basics of navigation which can be achieved with only
+five tools. These tools are listed below, with the number corresponding to the toolbar image above to
+show the location on the toolbar.
 
-   * You can also click on the icon with the elephant head in the left panel or use the keyboard shortcut 'Ctrl+Shift+D'
+#. Pan: Allows the map to be dragged 'Panned' to a new location.
+#. Zoom in: Allows the map extent to be zoomed in.
+#. Zoom out: Allows the map to be zoomed out.
+#. Zoom to full extent: Changes the map extent to fit all of the map layers into the map frame.
+#. Zoom to layer: Changes the map extent to fit the extent of the layer highlighted in the layer panel.
 
-   * Five Postgis databases are already available; we will be using the Natural Earth database.
-     If you wanted to connect to a different database, you would select
-     the :guilabel:`New` button and fill in the database parameters.
+Let's try changing the map extent with the zoom-in tool, this will allow the user to zoom in closer on
+an area of interest.
 
-#. Select the "Natural Earth" connection and press :guilabel:`Connect`. Then
-click on the Public schema to deploy it:
+#. Select the 'Zoom in' tool from the navigation toolbar.
+#. Move the cursor over the map frame.
+#. Click and hold the left mouse button.
+#. While still holding the mouse button move the cursor diagonally in any direction.
+Notice this draws a rectangle which is the area that will be zoomed to.
+#. Release the mouse button when happy with the area created.
 
-  * A list of database tables will appear.
+.. note:: The process of using the zoom out tool is the same as the zoom-in tool. The result is just the opposite.
 
-   .. image:: /images/projects/qgis/qgis_postgis_connect.png
-      :scale: 70 %
-      :alt: Connecting to a PostGIS DB
+Now, let’s look at the zoom to full extent tool. This tool will zoom the map out to an
+extent that will fit in all the layers in the map. To use this tool, click on the
+'Zoom to full extent' button.
 
-#. Select ``ne_10m_populated_places`` and click :guilabel:`Add`.
+Finally, try the zoom to layer tool. To use this tool follow these steps:
 
-   * For more details about working with PostGIS databases see
-     the :doc:`PostGIS Quickstart <postgis_quickstart>`.
+#. Click on a layer name in the layer panel.
+#. Click on the 'Zoom to layer' button.
 
-#. Zoom in on the United States using the mouse wheel and left-click drag
-   to navigate.
-
-#. Right click on ``ne_10m_populated_places`` in the layer list to get a context
-   menu, then select :menuselection:`Properties`.
-
-#. Let's represent one of the database attributes in the data as a bubble plot.
-   In the middle of the `Style` tab, drag the Transparency
-   slider to **50%**. Click on the small button at the right of the size field and hover
-   over the option within :menuselection:`Attribute field`, then choose **scalerank**
-   (it's near to the beginning of the list). Then click :guilabel:`Ok`.
-
-#. You can then click on the query button on the toolbar (cursor arrow with
-   a blue "i") and then on the map canvas bubbles to view information about
-   the individual cities.
-
-     .. image:: /images/projects/qgis/qgis_bubble.png
-        :scale: 70
-        :alt: Scale field map
+The map should zoom to the extent of the selected ('active') layer.
 
 Using the GRASS Toolbox
 ================================================================================
