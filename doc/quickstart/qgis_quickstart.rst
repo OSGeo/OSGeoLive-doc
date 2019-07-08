@@ -346,7 +346,11 @@ Notice the line in the symbol preview increase in width, and so do the lines tha
 Things to Try
 ================================================================================
 
-* Try viewing data sources with the `QGIS Data Browser <http://planet.qgis.org/planet/tag/qgis%20browser/>`_ in the :menuselection:`Geospatial --> Databases` menu
+* Extend QGIS functionality with `Plugins <https://docs.qgis.org/3.4/en/docs/user_manual/plugins/plugins.html>`
+
+* Start manipulating data with the `Processing toolbox <https://docs.qgis.org/3.4/en/docs/user_manual/processing/toolbox.html>`
+
+* Use QGIS to view content from a `PostGIS database <https://docs.qgis.org/3.4/en/docs/training_manual/spatial_databases/index.html>`
 
 * Try publishing your QGIS map to the web using :doc:`QGIS Map Server <../overview/qgis_mapserver_overview>` in the :menuselection:`Geospatial --> Web Services` menu.
 
@@ -363,6 +367,6 @@ The `QGIS User Guide`_ `[1]`_ is also included on the OSGeoLive disc.
 
 .. _`OSGeoLive QGIS tutorials`: ../../qgis/
 .. _`Documentation page`: http://docs.qgis.org/
-.. _`A Gentle Introduction to GIS`: http://docs.qgis.org/2.8/en/docs/gentle_gis_introduction/
-.. _`QGIS User Guide`: http://docs.qgis.org/2.8/en/docs/user_manual/
+.. _`A Gentle Introduction to GIS`: https://docs.qgis.org/3.4/en/docs/gentle_gis_introduction/index.html
+.. _`QGIS User Guide`: https://docs.qgis.org/3.4/en/docs/user_manual/
 .. _`[1]`: ../../qgis/QGIS-2.2-UserGuide-en.pdf
