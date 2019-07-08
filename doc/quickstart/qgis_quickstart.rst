@@ -2,6 +2,7 @@
 :Author: Pirmin Kalberer
 :Author: Hamish Bowman
 :Author: Zoltan Siki
+:Author: Andrew Jeffrey
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Nicolas Roelandt
 :Reviewer: Angelos Tzotsos, OSGeo
