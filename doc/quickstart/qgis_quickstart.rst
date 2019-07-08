@@ -279,86 +279,70 @@ Finally, try the zoom to layer tool. To use this tool follow these steps:
 
 The map should zoom to the extent of the selected ('active') layer.
 
-Using the GRASS Toolbox
+Styling Layers
 ================================================================================
 
-There have been many plugins written for QGIS which extend QGIS's core
-functionality. One of the more powerful is the GRASS plugin, which taps
-into the hundreds of geospatial processing modules available
-from :doc:`GRASS GIS <../overview/grass_overview>`.
+Learning goals:
 
-.. note::
-    You will need to change permissions of the grass data folder in order
-    to carry out the following steps. Please open a terminal and execute the following:
-    "sudo chmod -R 775 /usr/local/share/grass/nc_basic_spm_grass7"
+* Access the style dock
+* Modify the colour of a layer
 
-#. Clear the slate with :menuselection:`Project --> New`.
+Layers can be styled in QGIS using the style dock. The style dock is not visible by default, but
+easily accessible via a button at the top of the layer panel as shown below.
 
-   .. image:: /images/projects/qgis/qgis_plugin.png
+.. image:: /images/projects/qgis/qgis_style_dock_button.png
+   :scale: 70 %
+   :alt: QGIS style dock
+
+The above button acts as a toggle so the style dock can be easily hidden from view by clicking the
+same button again. When the style dock is enabled it will appear on the right-hand side of the screen
+ready to style the active layer highlighted in the layer panel.
+
+With the style dock open, we can modify the appearance of the layer shown at the top of the style dock.
+
+.. image:: /images/projects/qgis/qgis_style_dock_layer.png
+   :scale: 70 %
+   :alt: QGIS style dock layer
+
+With the style dock now open, we can modify the colour and the width of the lines in the
+'ne_10m_rivers_lakes_centrelines' layer. Let’s try modifying the colour first.
+
+#. Click on the 'Color' swatch shown below. This will launch a colour palette allowing you
+to choose a different colour.
+
+   .. image:: /images/projects/qgis/qgis_style_dock_color.png
       :scale: 70 %
-      :alt: Enable GRASS plugin
+      :alt: QGIS style dock color
 
-#. Choose :menuselection:`Plugins --> Manage and Install Plugins...`, then scroll down or
-   type ``grass`` into the Search box, and select the `GRASS 7` plugin.
+#. In the 'Select Color' palette, move the cross-hair to your preferred colour.
 
-   * Notice that a new GRASS icon has been added to the Toolbar, a docked window named "GRASS Tools" has appeared on the right of the map area and a new `GRASS` menu item has been added to the `Plugins` menu.
-
-#. Connect to an existing GRASS workspace with :menuselection:`Plugins --> GRASS --> Open mapset`.
-
-   * The GRASS GIS data base (Gisdbase) has already been set to `/home/user/grassdata` on
-     the disc for you.
-
-#. Within the central GRASS data base are a number of sample datasets. We'll
-   load the North Carolina location, and the ``user1`` mapset within it. Choose
-   the `nc_basic_spm_grass7` Location and `user1` working mapset, then click :guilabel:`Ok`.
-
-#. To add a raster map to the QGIS layer list, navigate from QGIS Browser Panel to Home/grassdata/nc_basic_spm_grass7.
-
-   * In the PERMANENT mapset select the `elevation` map and double click to add to the map.
-
-     .. image:: /images/projects/qgis/qgis_grass_layers.jpg
-       :scale: 50 %
-       :alt: GRASS GIS layers loaded into QGIS
-
-#. Add another GRASS raster layer, this time the `geology` map from the
-   PERMANENT mapset.
-
-   * Double click on the `geology` map in the QGIS Layers list and in
-     the Transparency tab set its global transparency to 70%.
-
-#. To add a vector map, select a vector layer from the QGIS Browser, similar to the previous steps.
-
-   * From the PERMANENT mapset select the `roadsmajor` map with a double click.
-
-#. Change the layer order if necessary (roadsmajor, geology, elevation).
-
-The plugin also gives you access to many of the powerful GRASS analysis
-modules and visualization tools:
-
-#. From the top menu select :menuselection:`Plugins --> GRASS --> Open GRASS tools` and
-   drag the edge to make the window a bit bigger.
-
-   * A long list of analysis tools will appear. Go to the `Modules Tree` tab and
-     select :menuselection:`Region settings --> g.region.multiple.raster`.
-     Clicking on it will open a new tab. Select ``elevation`` from the
-     menu list and press :guilabel:`Run`. The `elevation` map will
-     now have a thin red line around it, indicating the extent of
-     GRASS's `computational region` bounds.
-
-#. Back in the `Modules Tree` tab of the `GRASS Tools` window, go down
-   to :menuselection:`Raster` and select :menuselection:`Surface Management --> Generate Vector contour lines`.
-
-#. In the new module tab that pops open, select the `elevation` map as the
-   input.
-
-#. Add some contour levels (e.g. 20, 40, 60, 80, 100)
-
-#. Select the output layer name (e.g. contour_lines), then click :guilabel:`Run`.
-
-   .. image:: /images/projects/qgis/qgis_contours.jpg
+   .. image:: /images/projects/qgis/qgis_style_color_palette.png
       :scale: 70 %
-      :alt: Contour creation
+      :alt: QGIS color palette
 
+#. Then click the back arrow to return to the symbol render preview.
+
+   .. image:: /images/projects/qgis/qgis_style_back.png
+      :scale: 70 %
+      :alt: QGIS style return
+
+#. The symbol preview will be updated with the new colour, and so will the layer in the map frame.
+
+   .. image:: /images/projects/qgis/qgis_style_result.png
+      :scale: 70 %
+      :alt: QGIS style result
+
+In the style dock, we can also modify the size of the map features. To modify the thickness of the
+lines follow these steps:
+
+#. Make sure that the 'ne_10m_rivers_lakes_centrelines' is selected at the top of the style panel.
+#. In the style panel enter the value '0.5' in the 'width' input.
+
+   .. image:: /images/projects/qgis/qgis_style_width.png
+      :scale: 70 %
+      :alt: QGIS style width
+
+Notice the line in the symbol preview increase in width, and so do the lines that are in the map frame.
 
 Using the Processing Toolbox
 ================================================================================
