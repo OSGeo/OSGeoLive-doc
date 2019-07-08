@@ -67,28 +67,93 @@ are listed below.
 #. Layer Panel: Controls the map layers, their order, and visibility.
 #. Status Bar: General information about the map and access to a universal search bar.
 
-Style a layer
+Starting a new project
 ================================================================================
 
-Now let's try customising the style of the map.
+Learning goal:
+* Start a new QGIS project
+* Add vector layers to a project
+* Add raster layers to a project
+* Save a project
 
-     .. image:: /images/projects/qgis/qgis_style_set.png
-        :scale: 70 %
-        :alt: Style setting
+After opening QGIS for the first time, you will be presented with an empty project that you
+can add layers to.
 
-#. Zoom in a little on the map, then double click ``ne_10m_rivers_lake_centerlines`` in
-   the Layers tree.
+#. Go to the 'Project' menu on the menu bar.
+#. Select 'New'.
 
-#. In the `Layer Properties` dialog on the `Style` tab click on the
-`Color` to select a different color, say yellow.
+   .. image:: /images/projects/qgis/qgis_new_project.png
+      :scale: 70 %
+      :alt: QGIS new project
 
-#. Press :guilabel:`OK`.
+Now with an empty QGIS project we can start adding data to the project.
 
-   * Notice that rivers are now rendered in your new color.
+Let's start by adding a vector layer to the map. Layers can be added to QGIS using the browser
+panel, located on the left of screen.
 
-     .. image:: /images/projects/qgis/qgis_style.png
-        :scale: 70
-        :alt: Map in QGIS
+#. Go the browser panel on the left of the screen.
+#. Navigate the folder tree to 'home/data/natural_earth2'.
+#. Select 'ne_10m_admin_0_countries.shp'.
+#. Drag the layer from the browser panel and drop it in the map frame.
+
+  .. image:: /images/projects/qgis/qgis_browser_panel.png
+     :scale: 70 %
+     :alt: QGIS browser add vector layer
+
+Once the layer has been dragged onto the map frame, the user will see a layer showing
+countries.
+
+.. image:: /images/projects/qgis/qgis_add_vector_layer.png
+   :scale: 70 %
+   :alt: QGIS vector layer
+
+Now let's try adding a raster layer to the project. Again we will use the browser panel.
+
+#. Go the browser panel on the left of the screen.
+#. Navigate the folder tree to 'home/data/natural_earth2'.
+#. Select 'HYP_50M_SR_W.tif'.
+#. Drag the layer from the browser panel and drop it in the map frame.
+
+.. image:: /images/projects/qgis/qgis_browser_panel_raster.png
+   :scale: 70 %
+   :alt: QGIS browser add raster layer
+
+Once the layer has been dragged onto the map frame, the user will see a layer raster layer
+showing land cover and bathymetry.
+
+.. image:: /images/projects/qgis/qgis_add_vector_raster.png
+   :scale: 70 %
+   :alt: QGIS raster layer
+
+Now that we have added some content to our project we can save this project so that we
+can come back to it at a later time.
+
+To save the QGIS project, follow these steps:
+
+#. Go to the 'Project' menu on the menu bar.
+#. Select 'Save'.
+
+   .. image:: /images/projects/qgis/qgis_save_project.png
+      :scale: 70 %
+      :alt: QGIS save
+
+#. Make the location to save the project '/home/user/desktop'.
+#. Call the project 'My QGIS project'.
+
+   .. image:: /images/projects/qgis/qgis_save_project_location.png
+      :scale: 70 %
+      :alt: QGIS project location
+
+#. Then click 'Save'.
+
+You will now the project has been saved because there will be a project file on the desktop
+called 'My QGIS project' and the top of your project document will no longer read as 'untitled'
+but instead will read as 'My QGIS project'.
+
+.. image:: /images/projects/qgis/qgis_saved_project.png
+   :scale: 70 %
+   :alt: QGIS saved project
+
 
 Create a new QGIS project
 ================================================================================
