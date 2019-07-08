@@ -31,46 +31,41 @@ you visualize, manage, edit, analyse data and compose printable maps.
 .. contents:: Contents
 
 
-Edit QGIS project
+Opening QGIS for the first time
 ================================================================================
 
-Let's start by opening up an existing QGIS project, and turning layers on and
-off.
+Learning goal:
+* Open QGIS
+* Identify parts of the Interface
 
+QGIS can be opened from the 'Desktop GIS' folder on the OSGeoLive desktop. Follow the steps below
+to launch QGIS.
 
-#. Launch QGIS from :menuselection:`Geospatial --> Desktop GIS --> QGIS` and select :menuselection:`Project --> Open` from the menu bar.
+#. Open the 'Desktop GIS' folder.
+#. Double click on the 'QGIS' icon.
 
-     .. image:: /images/projects/qgis/qgis_project_open.png
+When QGIS is launched for the very first time the user will be asked if they would like to 'Import
+settings from QGIS 2' or proceed with a clean start. If presented with this window do the following:
+
+#. Selection the option 'I want a clean start. Don't import my QGIS 2 settings.'
+#. Click the button that reads "Let's get started!"
+
+    ..image::/images/projects/qgis/qgis_welcome.png
+      :scale: 70 %
+      :alt: Open a QGIS project
+
+The user will the see QGIS launch with an empty project. The various parts of the QGIS Interface
+are listed below.
+
+     .. image:: /images/projects/qgis/qgis_interface.png
        :scale: 70 %
        :alt: Open a QGIS project
 
-
-#. Choose :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`.
-
-   * You should see a world map.
-
-#. Tick the ``ne_10m_populated_places`` check box in the Layers tree.
-
-   * Populated places are now displayed as many green dots:
-
-     .. image:: /images/projects/qgis/qgis_screenshot.png
-        :scale: 70 %
-        :alt: Map in QGIS
-
-#. Try dragging layers up and down in the legend and see how that
-   affects visibility of the layers below.
-
-#. Have a look at the tools on the tool bar. Try panning, zooming in,
-   and zooming back out to full extent again.  Find these tools next
-   to the :guilabel:`hand` icon. If the toolbars seem cluttered you
-   can drag them around and turn them on and off by right clicking.
-   You can also zoom in and out with the mouse wheel, and pan with a
-   left-click drag.
-
-     .. image:: /images/projects/qgis/qgis_zoom_toolbar.png
-        :scale: 70 %
-        :alt: Map in QGIS
-
+#. Menu bar: Access to various QGIS features using a standard hierarchical menu.
+#. Toolbars: For interaction with the map, layers, attributes and selections.
+#. Browser Panel: A spatial file browser allowing drag and drop content into the map frame.
+#. Layer Panel: Controls the map layers, their order, and visibility.
+#. Status Bar: General information about the map and access to a universal search bar.
 
 Style a layer
 ================================================================================
