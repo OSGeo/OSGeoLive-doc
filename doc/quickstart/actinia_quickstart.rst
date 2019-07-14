@@ -1,5 +1,5 @@
 :Author: Markus Neteler, mundialis
-:Reviewer: 
+:Reviewer: Astrid Emde 
 :Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Copyright: 2019 by The OSGeo Foundation
@@ -22,13 +22,13 @@ satellite images, raster and vector data.
 Quick tour
 ================================================================================
 
-To run actinia on the Live DVD, you will send HTTP GET, PUT, POST and DELETE requests
+To run actinia on OSGeoLive, you will send HTTP GET, PUT, POST and DELETE requests
 to the actinia server.
 
 Sample query with curl
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Example: query of actinia version on OSGeo-live actinia server:
+Example: query of actinia version on OSGeoLive actinia server:
 
 .. code:: bash
 
