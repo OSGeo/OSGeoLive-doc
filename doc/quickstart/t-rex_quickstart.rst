@@ -37,6 +37,7 @@ Built-in viewers
 
 t-rex comes with built-in viewers for inspecting generated vector tiles.
 
+#. Open the t-rex backend on http://127.0.0.1:6767/
 #. Click on th `X-Ray` entry in the upper right menu, to open the x-ray viewer.
 #. Hover the mouse on a line to inspect the content of a feature.
 
