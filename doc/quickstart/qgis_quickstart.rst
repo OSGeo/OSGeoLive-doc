@@ -3,10 +3,10 @@
 :Author: Hamish Bowman
 :Author: Zoltan Siki
 :Author: Andrew Jeffrey
-:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Cameron Shorter
 :Reviewer: Nicolas Roelandt
 :Reviewer: Angelos Tzotsos, OSGeo
-:Version: osgeolive11.0
+:Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. TBD: Cameron's review comments:
@@ -25,7 +25,7 @@
 @NAME_qgis@ Quickstart
 ********************************************************************************
 
-QGIS is a user friendly Desktop GIS client which lets
+QGIS is a user-friendly Desktop GIS client which lets
 you visualize, manage, edit, analyse data and compose printable maps.
 
 .. contents:: Contents
@@ -55,7 +55,7 @@ settings from QGIS 2' or proceed with a clean start. If presented with this wind
     :scale: 70 %
     :alt: QGIS import settings
 
-The user will the see QGIS launch with an empty project. The various parts of the QGIS Interface
+The user will see QGIS launch with an empty project. The various parts of the QGIS Interface
 are listed below.
 
     .. image:: /images/projects/qgis/qgis_interface.png
@@ -91,7 +91,7 @@ can add layers to.
 Now with an empty QGIS project we can start adding data to the project.
 
 Let's start by adding a vector layer to the map. Layers can be added to QGIS using the browser
-panel, located on the left of screen.
+panel, located on the left of the screen.
 
 #. Go the browser panel on the left of the screen.
 #. Navigate the folder tree to 'home/data/natural_earth2'.
@@ -120,10 +120,10 @@ Now let's try adding a raster layer to the project. Again we will use the browse
    :scale: 70 %
    :alt: QGIS browser add raster layer
 
-Once the layer has been dragged onto the map frame, the user will see a layer raster layer
+Once the layer has been dragged onto the map frame, the user will see a raster layer
 showing land cover and bathymetry.
 
-.. image:: /images/projects/qgis/qgis_add_vector_raster.png
+.. image:: /images/projects/qgis/qgis_add_raster_layer.png
    :scale: 70 %
    :alt: QGIS raster layer
 
@@ -148,7 +148,7 @@ To save the QGIS project, follow these steps:
 
 #. Then click 'Save'.
 
-You will now the project has been saved because there will be a project file on the desktop
+You will know the project has been saved because there will be a project file on the desktop
 called 'My QGIS project' and the top of your project document will no longer read as 'untitled'
 but instead will read as 'My QGIS project'.
 
@@ -166,14 +166,13 @@ Learning goal:
 * Open an existing project
 * Interact with layers
 
-A QGIS project is a way to save layers, styles, map extents and settings for use at a later time.
-This information is stored as a QGIS project and these files have an extension of '.qgs' or '.qgz',
+A QGIS project saves layers, styles, map extents and settings for use at a later time.
+This information is stored as a QGIS project file and has an extension of '.qgs' or '.qgz',
 with '.qgz' being the default file format in QGIS going into the future.
 
 Let's open an existing QGIS project and have a look at how it works.
 
-#. Open QGIS. Note that when QGIS is opened a user will be presented with a list of recent
-projects to chose from. This is a quick way of entering into recent projects.
+#. Open QGIS. Note that when QGIS is opened a user will be presented with a list of recent projects to chose from. This is a quick way of entering into recent projects.
 #. Go to the 'Project' menu on the menu bar.
 #. Select 'Open'.
 #. Navigate to '/home/user/qgis-example'.
@@ -215,7 +214,7 @@ rivers and lakes which are within the 'Waters' layer.
 
 In addition to controlling layer visibility, we can also change the order in which layers
 are drawn in the layer panel. This is done by selecting a layer in the layer panel and dragging
-it up or down the list. The order that the layers appear in the layer list, is the order which they
+it up or down the list. The order that the layers appear in the layer list is the order which they
 will draw on in the map frame.
 
 To change the order of the layers:
@@ -346,13 +345,13 @@ Notice the line in the symbol preview increase in width, and so do the lines tha
 Things to Try
 ================================================================================
 
-* Extend QGIS functionality with `Plugins <https://docs.qgis.org/3.4/en/docs/user_manual/plugins/plugins.html>`
+* Extend QGIS functionality with `Plugins <https://docs.qgis.org/3.4/en/docs/user_manual/plugins/plugins.html>`_.
 
-* Start manipulating data with the `Processing toolbox <https://docs.qgis.org/3.4/en/docs/user_manual/processing/toolbox.html>`
+* Start manipulating data with the `Processing toolbox <https://docs.qgis.org/3.4/en/docs/user_manual/processing/toolbox.html>`_.
 
-* Use QGIS to view content from a `PostGIS database <https://docs.qgis.org/3.4/en/docs/training_manual/spatial_databases/index.html>`
+* Use QGIS to view content from a `PostGIS database <https://docs.qgis.org/3.4/en/docs/training_manual/spatial_databases/index.html>`_.
 
-* Try publishing your QGIS map to the web using :doc:`QGIS Map Server <../overview/qgis_mapserver_overview>` in the :menuselection:`Geospatial --> Web Services` menu.
+* Try publishing your QGIS map to the web using `QGIS Map Server <../overview/qgis_mapserver_overview.html>`_. in the :menuselection:`Geospatial --> Web Services` menu.
 
 
 What Next?
