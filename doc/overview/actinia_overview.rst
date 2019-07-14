@@ -1,5 +1,5 @@
 :Author: Markus Neteler, mundialis
-:Reviewer: 
+:Reviewer: Astrid Emde
 :Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Copyright: 2019 by The OSGeo Foundation
@@ -27,7 +27,7 @@ The REST interface allows to access, manage and manipulate the GRASS GIS
 database via HTTP GET, PUT, POST and DELETE requests and to process
 raster, vector and time series data located in a persistent GRASS GIS
 database. **Actinia** allows the processing of cloud based data, for
-example all Landsat 4-8 scenes as well as all Sentinel-2 scenes in an
+example all Landsat 4-8 scenes as well as all Sentinel-2 scenes in 
 ephemeral databases. The computational results of ephemeral processing
 are available via object storage as GeoTIFF files.
 
