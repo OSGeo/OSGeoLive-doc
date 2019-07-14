@@ -1,6 +1,6 @@
 :Author: OSGeoLive
 :Author: Astrid Emde
-:Version: osgeolive12.0
+:Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: mapbender-user list
 
@@ -20,7 +20,7 @@ You will need nothing but a standard web browser for this quickstart.
 This Quick Start describes how to:
 
   * start Mapbender
-  * create an application 
+  * create an application
   * load a Web Map Service (OGC WMS)
   * configure WMS
   * create an individual application
@@ -76,7 +76,7 @@ Welcome page
 #. Click on Login at right-top to open the login page.
 
 #. You can login with the user that was generated on installation. It can be :guilabel:`root` and password :guilabel:`root` (This is the default user and password that you get after installation of Mapbender on OSGeoLive. Please change the root password if you want to run a productive environment. Please don't delete the user :guilabel:`root`.).
-  
+
   .. image:: /images/projects/mapbender/mapbender3_welcome.png
      :scale: 70 %
 
@@ -149,7 +149,7 @@ You can export applications as JSON or YAML with :menuselection:`Applications --
   .. image:: /images/projects/mapbender/mapbender3_application_export.png
      :scale: 70 %
 
-The exportfile contains all the definitions of the application/s (sources) and can be imported via :menuselection:`Applications --> Import` in another Mapbender3 installation or in the same installation. 
+The exportfile contains all the definitions of the application/s (sources) and can be imported via :menuselection:`Applications --> Import` in another Mapbender3 installation or in the same installation.
 
   .. image:: /images/projects/mapbender/mapbender3_application_import.png
      :scale: 70 %
@@ -182,7 +182,7 @@ A WMS returns an XML-file when the getCapabilities document is requested. This i
 
 .. tip:: You should first check the Capabilities document in your browser before you try to load it with Mapbender
 
-#. Choose menu item :menuselection:`Services --> Add Service` or use the +-Button. Link to the WMS getCapabilities URL in the text field :menuselection:`Serviceurl`. 
+#. Choose menu item :menuselection:`Services --> Add Service` or use the +-Button. Link to the WMS getCapabilities URL in the text field :menuselection:`Serviceurl`.
 
 #. Enter username and password if your service needs authentication.
 
@@ -197,14 +197,14 @@ A WMS returns an XML-file when the getCapabilities document is requested. This i
 Here is a example WMS:
 
 WhereGroup OSM WMS
-https://osm-demo.wheregroup.com/service
+https://osm-demo.wheregroup.com/service?SERVICE=WMS&VERSION=1.3.0&REQUEST=getCapabilities
 
 
 Add Service to Application
 ================================================================================
 After the successful upload of a WMS you want to add your WMS to an application.
 
-#. Choose :menuselection:`Applications --> edit-Button --> Layers --> Edit-Button`. 
+#. Choose :menuselection:`Applications --> edit-Button --> Layers --> Edit-Button`.
 
 #. Click on the :menuselection:`+-button` to add a layerset, which represents a collection of layers (a possible name could be main)
 
@@ -213,7 +213,7 @@ After the successful upload of a WMS you want to add your WMS to an application.
 #. Click on the :menuselection:`+-button` at your new layerset to add a Service.
 
 #. You can change the order of the Services in your application by drag & drop.
-	
+
   .. image:: /images/projects/mapbender/mapbender3_add_source_to_application.png
      :scale: 70 %
 
@@ -223,7 +223,7 @@ You can configure the WMS for your specific application. Maybe you don't want to
 
 #. Choose :menuselection:`Applications --> edit-Button --> Layers --> edit-Button` to configure the Service Instance.
 
-#. You will see a table with the layers of the Service. 
+#. You will see a table with the layers of the Service.
 
 #. You can change the order of the layers via drag & drop
 
@@ -239,11 +239,11 @@ Service configuration
 * visible - default on. Service should be visible
 * basesource - activated for services that should be administrated by BaseSourceSwitcher
 * proxy - if active the service will be requested by Mapbender and not directly
-* transparency - Standard ist aktiviert, deaktiviert wird der Dienst ohne transparenten Hintergrund angefordert (getMap-Request mit TRANSPARENT=FALSE)
+* transparency - default is active, the source is without a transparent background if it is deactivated (getMap-Request with TRANSPARENT=FALSE)
 * tiled - you can request a WMS in tiles, default is not tiled (may be a good choice if your map is very big and the WMS service does not support the width/height)
 * Layer ordering - layer ordering can get switched in the application
-* BBOX factor
-* tile buffer
+* BBOX factor - This parameter is valid for non-tiled WMS services. You can specify the size of the returned map-image. A value greater than 1 will request a bigger map-image. Default: 1.25, can be set to 1.
+* tile buffer - This parameter is valid for tiles services and specifies if additional tiles should be requested. If the user pans the map, these tiles are already downloaded and visible. The higher the value the more tiles are requested. Default: 0
 
 Layer configuration
 
@@ -252,12 +252,12 @@ Layer configuration
 * select on - selectable in geodata explorer
 * select allow - layer is active when the application starts
 * info on - layer provides feature info requests, info default activates the feature info functionality
-* info allow 
+* info allow - feature info is possible for this layer
 * minscale / maxscale - the scale range in which the layer should be displayed, 0 means no scale limitation
 * toggle - open folder on start of the application
 * reorder - allows to reorder the layers with drag & drop while using the application
 * ... -> opens a dialog with more information
-* name
+* name - layer name of the service information (for getMap-Requests)
 * style - if a WMS provides more than one style you can choose a different style than the default style
 
 
@@ -280,14 +280,13 @@ Mapbender offers a set of elements. You can add the elements to your application
 
 #. Have a look at your application. Open your application from :menuselection:`Applications --> Applications Overview`
 
-Now you should get an idea how easy it is to change a Mapbender application without changes in the code. 
+Now you should get an idea how easy it is to change a Mapbender application without changes in the code.
 
   .. image:: /images/projects/mapbender/mapbender3_application_elements.png
      :scale: 70 %
 
-Examples for elements Mapbender3 offers:
+Examples for elements Mapbender offers:
 
-* About Dialog
 * Activity Indicator
 * BaseSourceSwitcher
 * Button
@@ -300,20 +299,21 @@ Examples for elements Mapbender3 offers:
 * Legend
 * Layertree - Table of Content
 * Map
+* Navigation Toolbar (Zoombar)
 * Overview
 * PrintClient
+* Redlining
 * Ruler Line/Area
 * Scale Selector
 * ScaleBar
-* SimpleSearch
-* Search Router
+* SimpleSearch - Search via Solr
+* SearchRouter - Seach via SQL
 * SRS Selector
 * Spatial Reference System Selector (SRS Selector)
-* Navigation Toolbar (Zoombar)
 * WMS Loader
 * WMC Editor
 * WMC Loader
-* WMC List 
+* WMC List
 
 You find detailed information on every element in the `Mapbender element documentation <https://doc.mapbender.org/en/functions.html>`_.
 
@@ -322,16 +322,19 @@ Try it yourself
 ================================================================================
 
 * add a Map Element to the content of your application
-* add a Layertree to the content of your application
-* add a button that opens the Layertree to the top of your application
+* add a Layertree to the sidepane of your application
+* add a Legend to the sidepane of your application
+* add a print element to the content
+* add a button that opens the print to the top of your application
 * add the Navigation Toolbar to the content
+* add an overview map to the content
 * add a Copyright and change the copyright text
-* add a SRS Selector to the footer
+* add a Scales Selector and an SRS Selector to the footer
 
 
 User and group management
 ================================================================================
-An access to Mapbender requires authentication. Only public applications can be used by everyone. 
+An access to Mapbender requires authentication. Only public applications can be used by everyone.
 
 A user has permissions to access one or a set of applications and services.
 
@@ -344,7 +347,7 @@ Create a user
 
 #. To create a user go to :guilabel:`New User` or click the :menuselection:`+-Button`.
 
-#. Choose a name and a password for your user. 
+#. Choose a name and a password for your user.
 
 #. Provide an email address for the user.
 
@@ -353,12 +356,12 @@ Create a user
 #. You can provide more information about the user in the tab :menuselection:`Profile`.
 
 .. image:: /images/projects/mapbender/mapbender3_create_user.png
-     :scale: 70 % 
+     :scale: 70 %
 
 
 Create a group
 ================================================================================
-#. Create a group by :guilabel:`New Group`. 
+#. Create a group by :guilabel:`New Group`.
 
 #. Define a name and a description for your group.
 
@@ -368,15 +371,15 @@ Create a group
 Assign users to group
 ================================================================================
 
-#. Assign a user to a group by :guilabel:`Users --> Groups`. 
+#. Assign a user to a group by :guilabel:`Users --> Groups`.
 
 #. Choose one or more users you want to add to the group at :menuselection:`Users`.
 
-#. Assign a user by :menuselection:`Users --> Edit-Button--> Groups` to a group. 
+#. Assign a user by :menuselection:`Users --> Edit-Button--> Groups` to a group.
 
   .. image:: /images/projects/mapbender/mapbender3_assign_user_to_group.png
      :scale: 70 %
- 
+
 
 Roles
 ================================================================================
@@ -392,7 +395,7 @@ Mapbender provides different rights. They refer to the Symfony ACL System http:/
 #. Assign roles to a user by :menuselection:`Users --> Edit your User --> Security`.
 
   .. image:: /images/projects/mapbender/mapbender3_roles.png
-     :scale: 70 % 
+     :scale: 70 %
 
 
 Assign an Application to a User/Group
@@ -401,7 +404,7 @@ Assign an Application to a User/Group
 
 #. Choose :menuselection:`Security`
 
-#. Set permission like view edit delete operator master owner 
+#. Set permission like view edit delete operator master owner
 
 #. Assign a user/group to the application
 
@@ -438,8 +441,6 @@ You find tutorials at
 
   https://doc.mapbender.org
 
-  https://api.mapbender.org
-
 Get involved in the project
 
-	https://www.mapbender.org/Community
+  https://www.mapbender.org/Community
