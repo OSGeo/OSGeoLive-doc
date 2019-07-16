@@ -30,9 +30,7 @@ This Quick Start describes how to:
 
 .. contents:: Contents
 
-See the :doc:`EOxServer Overview <../overview/eoxserver_overview>`, the 
-`local EOxServer documentation 
-<../../eoxserver-docs/EOxServer_documentation.pdf>`_, or the `online 
+See the :doc:`EOxServer Overview <../overview/eoxserver_overview>` or the `online 
 EOxServer documentation <https://eoxserver.readthedocs.org/>`_ for more
 information.
 
