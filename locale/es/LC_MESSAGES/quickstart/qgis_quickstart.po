@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018
 # MarPetra <mvergaratrejo@gmail.com>, 2018
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-28 14:24-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -212,6 +212,10 @@ msgid ""
 "Earth database. If you wanted to connect to a different database, you would "
 "select the :guilabel:`New` button and fill in the database parameters."
 msgstr ""
+"Cinco bases de datos de PostGIS están disponibles; vamos a utilizar la base "
+"de datos Natural Earth. Si desea conectarse a una base de datos diferente, "
+"seleccione el botón  :guilabel:`New` y llene los parámetros de la base de "
+"datos."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:146
 msgid ""
@@ -229,6 +233,7 @@ msgstr "Aparecerá una lista de tablas de base de datos."
 #: ../../build/doc/quickstart/qgis_quickstart.rst:155
 msgid "Select ``ne_10m_populated_places`` and click :guilabel:`Add`."
 msgstr ""
+"Seleccione ``ne_10m_populated_places``  y haga click en :guilabel:`Add`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:157
 msgid ""
@@ -262,6 +267,12 @@ msgid ""
 "option within :menuselection:`Attribute field`, then choose **scalerank** "
 "(it's near to the beginning of the list). Then click :guilabel:`Ok`."
 msgstr ""
+"Vamos a representar uno de los atributos de la base de datos en los datos "
+"como un diagrama de burbuja. En medio de la pestaña de `Estilo`, arrastre el"
+" control deslizante de Transparencia hasta **50%**. Haga click en el pequeño"
+" botón a la derecha del campo de tamaño y pase sobre "
+":menuselection:`Attribute field`, después seleccione **scalerank** (está "
+"cerca del principio de la lista). Haga click en :guilabel:`Ok`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:172
 msgid ""
@@ -404,6 +415,8 @@ msgstr ""
 #: ../../build/doc/quickstart/qgis_quickstart.rst:231
 msgid "Change the layer order if necessary (roadsmajor, geology, elevation)."
 msgstr ""
+"Cambiar el orden de capa si es necesario (caminos principales, geología, "
+"elevación)."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:233
 msgid ""
@@ -478,6 +491,10 @@ msgid ""
 "tools is the Processing Toolbox (formerly named the SEXTANTE Toolbox). It "
 "acts as a standardized wrapper around a number of other sets of tools."
 msgstr ""
+"Un plugin central para QGIS que abre la puerta a una gran familia de "
+"herramientas de procesamiento es Processing Toolbox (anteriormente llamado "
+"SEXTANTE Toolbox). Actúa como un contenedor estandarizado alrededor de otros"
+" conjuntos de herramientas."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:272
 msgid "Choose :menuselection:`Processing --> Toolbox`."
@@ -626,6 +643,9 @@ msgid ""
 "You can now explore this rich dataset. Use the ``i`` information cursor "
 "button in the QGIS toolbar to query individual map features."
 msgstr ""
+"Ahora puede explorar este rico conjunto de datos. Utilice el botón de "
+"información del cursor ``i`` en la barra de herramientas de QGIS para "
+"consultas individuales sobre las características del mapa."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:360
 msgid "Things to Try"

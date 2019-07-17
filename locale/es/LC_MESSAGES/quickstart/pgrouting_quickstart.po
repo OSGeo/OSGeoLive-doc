@@ -5,8 +5,8 @@
 # 
 # Translators:
 # María Arias de Reyna <delawen@gmail.com>, 2017
-# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018
 # MarPetra <mvergaratrejo@gmail.com>, 2018
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-17 10:25-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -100,6 +100,9 @@ msgid ""
 "osm2pgrouting is a command-line tool for loading .osm files into pgRouting "
 "compatible format. Here is how you use osm2pgrouting version 2.1.0+."
 msgstr ""
+"osm2pgorouting es una herramienta de línea de comandos para cargar archivos "
+".osm en formato compatible con pgRouting. Aquí se explica cómo utilizar "
+"osm2pgrouting versión 2.1.0+"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:68
 msgid ""
@@ -115,7 +118,7 @@ msgstr "La salida muestra:"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:80
 msgid "Now load the data from osm file:"
-msgstr ""
+msgstr "Ahora carga los datos del archivo osm:"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:90
 msgid "Output should be something like:"
@@ -171,6 +174,10 @@ msgid ""
 "to alias them so resulting pgr_dijkstra query columns are named source and "
 "target."
 msgstr ""
+"Nota: la instrucción SQL siempre debe tener nombres de campo `id, source, "
+"target, and cost`. Como estamos usando campos `source_osm` and `target_osm`,"
+" necesitamos nombrarlos con alias para que las columnas de consulta "
+"pgr_dijkstra resultantes se denominen source y target"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:200
 msgid "Output is:"
@@ -223,6 +230,9 @@ msgid ""
 " DB Manager -> DB Manager``. Select the SQL Window icon and cut and paste "
 "the above pgRouting Query."
 msgstr ""
+"Para utilizar la extensión DbManager de QGIS abra QGIS, después vaya "
+"``Database -> DB Manager -> DB Manager``. Seleccione el icono de la ventana "
+"de SQL y corte y pegue la consulta de pgRouting anterior."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:262
 msgid "Run the Dijkstra shortest path function with considering direction."
@@ -265,6 +275,8 @@ msgid ""
 "**pgRouting Documentation** - Find the most recent documentation in "
 "http://docs.pgrouting.org."
 msgstr ""
+"**Documentación de pgRouting** - Encontrar la documentación más reciente en "
+"http://docs.pgrouting.org ."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:289
 msgid ""
@@ -272,6 +284,9 @@ msgid ""
 " and OpenStreetMap road data\"` is available in: "
 "http://workshop.pgrouting.org."
 msgstr ""
+"**Taller de pgRouting** - El taller \"FOSS4G enrutamiento con datos "
+"OpenStreetMap y herramientas de pgRouting\" está disponible en: "
+"http://workshop.pgrouting.org"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:290
 msgid ""
