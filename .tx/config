@@ -6,16 +6,19 @@ type = PO
 file_filter = locale/<lang>/LC_MESSAGES/contributors.po
 source_file = locale/pot/contributors.pot
 source_lang = en
+type = PO
 
 [osgeolive.download]
 file_filter = locale/<lang>/LC_MESSAGES/download.po
 source_file = locale/pot/download.pot
 source_lang = en
+type = PO
 
 [osgeolive.index]
 file_filter = locale/<lang>/LC_MESSAGES/index.po
 source_file = locale/pot/index.pot
 source_lang = en
+type = PO
 
 [osgeolive.presentation]
 file_filter = locale/<lang>/LC_MESSAGES/presentation.po
@@ -26,603 +29,737 @@ source_lang = en
 file_filter = locale/<lang>/LC_MESSAGES/copyright.po
 source_file = locale/pot/copyright.pot
 source_lang = en
+type = PO
 
 [osgeolive.sponsors_osgeo]
 file_filter = locale/<lang>/LC_MESSAGES/sponsors_osgeo.po
 source_file = locale/pot/sponsors_osgeo.pot
 source_lang = en
+type = PO
 
 [osgeolive.translators]
 file_filter = locale/<lang>/LC_MESSAGES/translators.po
 source_file = locale/pot/translators.pot
 source_lang = en
+type = PO
 
 [osgeolive.metrics]
 file_filter = locale/<lang>/LC_MESSAGES/metrics.po
 source_file = locale/pot/metrics.pot
 source_lang = en
+type = PO
 
 [osgeolive.sponsors]
 file_filter = locale/<lang>/LC_MESSAGES/sponsors.po
 source_file = locale/pot/sponsors.pot
 source_lang = en
+type = PO
 
 [osgeolive.contact]
 file_filter = locale/<lang>/LC_MESSAGES/contact.po
 source_file = locale/pot/contact.pot
 source_lang = en
+type = PO
 
 [osgeolive.prior_applications]
 file_filter = locale/<lang>/LC_MESSAGES/prior_applications.po
 source_file = locale/pot/prior_applications.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--geomoose_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/geomoose_quickstart.po
 source_file = locale/pot/quickstart/geomoose_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--pgrouting_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/pgrouting_quickstart.po
 source_file = locale/pot/quickstart/pgrouting_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--geomajas_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/geomajas_quickstart.po
 source_file = locale/pot/quickstart/geomajas_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--istsos_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/istsos_quickstart.po
 source_file = locale/pot/quickstart/istsos_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--gdal_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/gdal_quickstart.po
 source_file = locale/pot/quickstart/gdal_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--osm_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/osm_quickstart.po
 source_file = locale/pot/quickstart/osm_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--usb_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/usb_quickstart.po
 source_file = locale/pot/quickstart/usb_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--saga_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/saga_quickstart.po
 source_file = locale/pot/quickstart/saga_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--ncWMS_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/ncWMS_quickstart.po
 source_file = locale/pot/quickstart/ncWMS_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--qgis_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/qgis_quickstart.po
 source_file = locale/pot/quickstart/qgis_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--openjump_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/openjump_quickstart.po
 source_file = locale/pot/quickstart/openjump_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--osgeolive_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/osgeolive_quickstart.po
 source_file = locale/pot/quickstart/osgeolive_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--qgis_mapserver_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/qgis_mapserver_quickstart.po
 source_file = locale/pot/quickstart/qgis_mapserver_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--grass_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/grass_quickstart.po
 source_file = locale/pot/quickstart/grass_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--osgeolive_install_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/osgeolive_install_quickstart.po
 source_file = locale/pot/quickstart/osgeolive_install_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--leaflet_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/leaflet_quickstart.po
 source_file = locale/pot/quickstart/leaflet_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--gmt_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/gmt_quickstart.po
 source_file = locale/pot/quickstart/gmt_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--internationalisation_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/internationalisation_quickstart.po
 source_file = locale/pot/quickstart/internationalisation_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--spatialite_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/spatialite_quickstart.po
 source_file = locale/pot/quickstart/spatialite_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--liblas_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/liblas_quickstart.po
 source_file = locale/pot/quickstart/liblas_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--zygrib_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/zygrib_quickstart.po
 source_file = locale/pot/quickstart/zygrib_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--geoserver_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/geoserver_quickstart.po
 source_file = locale/pot/quickstart/geoserver_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--udig_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/udig_quickstart.po
 source_file = locale/pot/quickstart/udig_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--gpsprune_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/gpsprune_quickstart.po
 source_file = locale/pot/quickstart/gpsprune_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--ossim_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/ossim_quickstart.po
 source_file = locale/pot/quickstart/ossim_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--rasdaman_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/rasdaman_quickstart.po
 source_file = locale/pot/quickstart/rasdaman_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--opencpn_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/opencpn_quickstart.po
 source_file = locale/pot/quickstart/opencpn_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--ideditor_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/ideditor_quickstart.po
 source_file = locale/pot/quickstart/ideditor_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--mapnik_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/mapnik_quickstart.po
 source_file = locale/pot/quickstart/mapnik_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--mapslicer_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/mapslicer_quickstart.po
 source_file = locale/pot/quickstart/mapslicer_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--josm_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/josm_quickstart.po
 source_file = locale/pot/quickstart/josm_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--mapserver_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/mapserver_quickstart.po
 source_file = locale/pot/quickstart/mapserver_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--postgis_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/postgis_quickstart.po
 source_file = locale/pot/quickstart/postgis_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--otb_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/otb_quickstart.po
 source_file = locale/pot/quickstart/otb_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--52nSOS_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/52nSOS_quickstart.po
 source_file = locale/pot/quickstart/52nSOS_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--cesium_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/cesium_quickstart.po
 source_file = locale/pot/quickstart/cesium_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--mapproxy_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/mapproxy_quickstart.po
 source_file = locale/pot/quickstart/mapproxy_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--proj4_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/proj4_quickstart.po
 source_file = locale/pot/quickstart/proj4_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--zoo-project_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/zoo-project_quickstart.po
 source_file = locale/pot/quickstart/zoo-project_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--pycsw_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/pycsw_quickstart.po
 source_file = locale/pot/quickstart/pycsw_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--toc]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/toc.po
 source_file = locale/pot/quickstart/toc.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--virtualization_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/virtualization_quickstart.po
 source_file = locale/pot/quickstart/virtualization_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--gvsig_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/gvsig_quickstart.po
 source_file = locale/pot/quickstart/gvsig_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--openlayers_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/openlayers_quickstart.po
 source_file = locale/pot/quickstart/openlayers_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--mapbender_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/mapbender_quickstart.po
 source_file = locale/pot/quickstart/mapbender_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--geonetwork_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/geonetwork_quickstart.po
 source_file = locale/pot/quickstart/geonetwork_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--geonode_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/geonode_quickstart.po
 source_file = locale/pot/quickstart/geonode_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--deegree_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/deegree_quickstart.po
 source_file = locale/pot/quickstart/deegree_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--52nWPS_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/52nWPS_quickstart.po
 source_file = locale/pot/quickstart/52nWPS_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--R_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/R_quickstart.po
 source_file = locale/pot/quickstart/R_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--marble_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/marble_quickstart.po
 source_file = locale/pot/quickstart/marble_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--eoxserver_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/eoxserver_quickstart.po
 source_file = locale/pot/quickstart/eoxserver_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--R_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/R_overview.po
 source_file = locale/pot/overview/R_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--geomoose_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/geomoose_overview.po
 source_file = locale/pot/overview/geomoose_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--mapserver_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/mapserver_overview.po
 source_file = locale/pot/overview/mapserver_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--qgis_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/qgis_overview.po
 source_file = locale/pot/overview/qgis_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--rasdaman_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/rasdaman_overview.po
 source_file = locale/pot/overview/rasdaman_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--gmt_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/gmt_overview.po
 source_file = locale/pot/overview/gmt_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--jts_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/jts_overview.po
 source_file = locale/pot/overview/jts_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--nc_dataset_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/nc_dataset_overview.po
 source_file = locale/pot/overview/nc_dataset_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--saga_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/saga_overview.po
 source_file = locale/pot/overview/saga_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--osm_dataset_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/osm_dataset_overview.po
 source_file = locale/pot/overview/osm_dataset_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--grass_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/grass_overview.po
 source_file = locale/pot/overview/grass_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--geomajas_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/geomajas_overview.po
 source_file = locale/pot/overview/geomajas_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--mapslicer_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/mapslicer_overview.po
 source_file = locale/pot/overview/mapslicer_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--postgis_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/postgis_overview.po
 source_file = locale/pot/overview/postgis_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--geoserver_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/geoserver_overview.po
 source_file = locale/pot/overview/geoserver_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--ossim_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/ossim_overview.po
 source_file = locale/pot/overview/ossim_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--eoxserver_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/eoxserver_overview.po
 source_file = locale/pot/overview/eoxserver_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--zoo-project_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/zoo-project_overview.po
 source_file = locale/pot/overview/zoo-project_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--52nSOS_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/52nSOS_overview.po
 source_file = locale/pot/overview/52nSOS_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--naturalearth_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/naturalearth_overview.po
 source_file = locale/pot/overview/naturalearth_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--liblas_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/liblas_overview.po
 source_file = locale/pot/overview/liblas_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--pycsw_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/pycsw_overview.po
 source_file = locale/pot/overview/pycsw_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--zygrib_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/zygrib_overview.po
 source_file = locale/pot/overview/zygrib_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--osm_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/osm_overview.po
 source_file = locale/pot/overview/osm_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--ncWMS_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/ncWMS_overview.po
 source_file = locale/pot/overview/ncWMS_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--gvsig_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/gvsig_overview.po
 source_file = locale/pot/overview/gvsig_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--52nWPS_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/52nWPS_overview.po
 source_file = locale/pot/overview/52nWPS_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--mapbender_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/mapbender_overview.po
 source_file = locale/pot/overview/mapbender_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--ideditor_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/ideditor_overview.po
 source_file = locale/pot/overview/ideditor_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--mapnik_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/mapnik_overview.po
 source_file = locale/pot/overview/mapnik_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--deegree_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/deegree_overview.po
 source_file = locale/pot/overview/deegree_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--otb_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/otb_overview.po
 source_file = locale/pot/overview/otb_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--marble_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/marble_overview.po
 source_file = locale/pot/overview/marble_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--openjump_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/openjump_overview.po
 source_file = locale/pot/overview/openjump_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--qgis_mapserver_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/qgis_mapserver_overview.po
 source_file = locale/pot/overview/qgis_mapserver_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--openlayers_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/openlayers_overview.po
 source_file = locale/pot/overview/openlayers_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--proj4_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/proj4_overview.po
 source_file = locale/pot/overview/proj4_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--geonetwork_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/geonetwork_overview.po
 source_file = locale/pot/overview/geonetwork_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--opencpn_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/opencpn_overview.po
 source_file = locale/pot/overview/opencpn_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--mapproxy_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/mapproxy_overview.po
 source_file = locale/pot/overview/mapproxy_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--toc]
 file_filter = locale/<lang>/LC_MESSAGES/overview/toc.po
 source_file = locale/pot/overview/toc.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--leaflet_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/leaflet_overview.po
 source_file = locale/pot/overview/leaflet_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--udig_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/udig_overview.po
 source_file = locale/pot/overview/udig_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--geos_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/geos_overview.po
 source_file = locale/pot/overview/geos_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--gdal_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/gdal_overview.po
 source_file = locale/pot/overview/gdal_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/overview.po
 source_file = locale/pot/overview/overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--josm_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/josm_overview.po
 source_file = locale/pot/overview/josm_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--gpsprune_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/gpsprune_overview.po
 source_file = locale/pot/overview/gpsprune_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--pgrouting_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/pgrouting_overview.po
 source_file = locale/pot/overview/pgrouting_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--geonode_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/geonode_overview.po
 source_file = locale/pot/overview/geonode_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--cesium_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/cesium_overview.po
 source_file = locale/pot/overview/cesium_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--spatialite_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/spatialite_overview.po
 source_file = locale/pot/overview/spatialite_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--istsos_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/istsos_overview.po
 source_file = locale/pot/overview/istsos_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--geotools_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/geotools_overview.po
 source_file = locale/pot/overview/geotools_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--netcdf_dataset_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/netcdf_dataset_overview.po
 source_file = locale/pot/overview/netcdf_dataset_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.win_installers]
 file_filter = locale/<lang>/LC_MESSAGES/win_installers.po
 source_file = locale/pot/win_installers.pot
 source_lang = en
+type = PO
 
 [osgeolive.mac_installers]
 file_filter = locale/<lang>/LC_MESSAGES/mac_installers.po
 source_file = locale/pot/mac_installers.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--pywps_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/pywps_quickstart.po
 source_file = locale/pot/quickstart/pywps_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--pywps_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/pywps_overview.po
 source_file = locale/pot/overview/pywps_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.quickstart--hyperv_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/hyperv_quickstart.po
 source_file = locale/pot/quickstart/hyperv_quickstart.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--ogc_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/ogc_overview.po
 source_file = locale/pot/overview/ogc_overview.pot
 source_lang = en
+type = PO
 
 [osgeolive.overview--inspire_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/inspire_overview.po
 source_file = locale/pot/overview/inspire_overview.pot
 source_lang = en
+type = PO
+
+[osgeolive.quickstart--geoext_quickstart]
+file_filter = locale/<lang>/LC_MESSAGES/quickstart/geoext_quickstart.po
+source_file = locale/pot/quickstart/geoext_quickstart.pot
+source_lang = en
+type = PO
+
+[osgeolive.overview--geoext_overview]
+file_filter = locale/<lang>/LC_MESSAGES/overview/geoext_overview.po
+source_file = locale/pot/overview/geoext_overview.pot
+source_lang = en
+type = PO
+
