@@ -6,16 +6,16 @@
 # Translators:
 # Pierre Cardinal <pierre.cardinal@sympatico.ca>, 2017
 # Sant-anna <delazj@gmail.com>, 2018
-# Nicolas Roelandt (Personnel), 2018
+# Nicolas Roelandt (Personnel), 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"POT-Creation-Date: 2019-07-17 12:27-0500\n"
 "PO-Revision-Date: 2017-11-07 03:17+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2018\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2019\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,8 +30,10 @@ msgstr "Téléchargement"
 #: ../../build/doc/download.rst:9
 msgid ""
 "The latest stable release is |osgeolive-version| and can be downloaded from:"
-" https://sourceforge.net/projects/osgeo-live/files/12.0/"
+" https://sourceforge.net/projects/osgeo-live/files/13.0/"
 msgstr ""
+"La dernière version stable est |osgeolive-version| et peut être téléchargée "
+"sur : https://sourceforge.net/projects/osgeo-live/files/13.0/"
 
 #: ../../build/doc/download.rst:12
 msgid "Picking the right image for you:"
