@@ -3,14 +3,19 @@
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Pierre Cardinal <pierre.cardinal@sympatico.ca>, 2017
+# Sant-anna <delazj@gmail.com>, 2018
+# Nicolas Roelandt (Personnel), 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Nicolas Roelandt, 2018\n"
+"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"PO-Revision-Date: 2017-11-07 03:17+0000\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2018\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,11 +30,8 @@ msgstr "Téléchargement"
 #: ../../build/doc/download.rst:9
 msgid ""
 "The latest stable release is |osgeolive-version| and can be downloaded from:"
-" https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version|/"
+" https://sourceforge.net/projects/osgeo-live/files/12.0/"
 msgstr ""
-"La dernière version stable est  |osgeolive-version| et peut être téléchargée"
-" sur:  https://sourceforge.net/projects/osgeo-live/files/|osgeolive-"
-"version|/"
 
 #: ../../build/doc/download.rst:12
 msgid "Picking the right image for you:"
@@ -66,7 +68,7 @@ msgstr ""
 
 #: ../../build/doc/download.rst:22
 msgid "**amd64 or i386 architecture**"
-msgstr "** architecture amd64 ou i386 **"
+msgstr "**architecture amd64 ou i386**"
 
 #: ../../build/doc/download.rst:24
 msgid ""
@@ -78,7 +80,7 @@ msgstr ""
 
 #: ../../build/doc/download.rst:26
 msgid "**md5 checksum**"
-msgstr "** somme de contrôle md5 **"
+msgstr "**somme de contrôle md5**"
 
 #: ../../build/doc/download.rst:28
 msgid ""
@@ -89,7 +91,7 @@ msgstr ""
 
 #: ../../build/doc/download.rst:30
 msgid "**System Requirements**"
-msgstr "** Exigences système **"
+msgstr "**Exigences système**"
 
 #: ../../build/doc/download.rst:32
 msgid ""

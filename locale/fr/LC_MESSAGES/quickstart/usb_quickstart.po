@@ -1,21 +1,24 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Sant-anna <delazj@gmail.com>, 2017
+# Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-09 11:45-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
@@ -37,15 +40,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:13
 msgid ""
-"We have have found that there are a number of quirks and tricks involved in "
+"We have found that there are a number of quirks and tricks involved in "
 "successfully building a USB drive. We have documented what we know, but "
 "there are likely more tricks and issues. Look for latest tips here: "
-"http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB"
+"https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB"
 msgstr ""
-"Nous avons trouvé qu'il y a un nombre de trucs et astuces impliqués dans la "
-"réalisation réussie d'une clé USB. Nous avons documenté ce que nous savons, "
-"mais il y a probablement d'autres trucs et questions. Regardez les dernières"
-" astuces ici: http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:16
 msgid "Requirements"
@@ -237,11 +236,9 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:83
 msgid ""
-"When booting, look for a message indicting a Boot Menu (most commonly you "
+"When booting, look for a message indicating a Boot Menu (most commonly you "
 "press F12)"
 msgstr ""
-"Quand vous démarrez, regardez un message indiquant un menu de démarrage  (le"
-" plus courant étant de presser la touche F12)"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:84
 msgid ""
@@ -313,16 +310,11 @@ msgstr ":doc:`osgeolive_install_quickstart`"
 #: ../../build/doc/quickstart/usb_quickstart.rst:103
 msgid ""
 "Alternative USB creation methods and latest tips are collected here: `wiki "
-"<http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
+"<https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
 msgstr ""
-"Les méthodes de création USB alternatives et les dernières astuces sont "
-"collectées ici: `wiki "
-"<http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:104
 msgid ""
 "Questions can be directed to our email list: "
-"http://lists.osgeo.org/mailman/listinfo/live-demo"
+"https://lists.osgeo.org/pipermail/osgeolive/"
 msgstr ""
-"Si vous avez des questions, posez-les sur notre mailing list "
-"http://lists.osgeo.org/mailman/listinfo/live-demo."
