@@ -1,21 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Astrid Emde <astrid_emde@osgeo.org>, 2018
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018
+# Andreas Schild <andreas.schild@bfw.gv.at>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-09 11:45-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018\n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: 2017-01-21 16:46+0000\n"
+"Last-Translator: Andreas Schild <andreas.schild@bfw.gv.at>, 2019\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -85,17 +89,16 @@ msgstr ""
 msgid "Quick Starts"
 msgstr "Erste Schritte"
 
-#: ../../build/doc/index.rst:85
+#: ../../build/doc/index.rst:81
 msgid "Presentation"
 msgstr "Präsentation"
 
-#: ../../build/doc/index.rst:87
+#: ../../build/doc/index.rst:83
 msgid ""
 "A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive "
 "applications, is available with slides, script, and `abstract "
 "<presentation/abstract.txt>`_."
 msgstr ""
-"Eine halbstündige Einführung mit Erläuterungen zu allen OSGeoLive Programmen"
-" ist als `Video Präsentation <presentation/index.html>`_, sowie als "
-"Präsentationsfolien mit Manuskript und `Einführung "
+"Eine halbstündige `Präsentation <presentation.html>`_,  mit Erläuterungen zu"
+" allen OSGeoLive Programmen ist als Folien mit Manuskript und `Einführung "
 "<presentation/abstract.txt>`_ verfügbar."
