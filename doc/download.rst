@@ -7,7 +7,7 @@ Download
 ================================================================================
 
 The latest stable release is |osgeolive-version| and can be downloaded from:
-https://sourceforge.net/projects/osgeo-live/files/12.0/
+https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version|/
 
 Picking the right image for you:
 
