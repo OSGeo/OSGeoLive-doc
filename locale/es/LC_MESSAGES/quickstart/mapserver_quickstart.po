@@ -3,13 +3,16 @@
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# MarPetra <mvergaratrejo@gmail.com>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2019-07-17 10:25-0500\n"
+"PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
@@ -364,15 +367,10 @@ msgstr ""
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:241
 msgid ""
 "In our \"ne_10m_lakes\" dataset, we have a *ScaleRank* attribute, which "
-"seems to be related ot the size of the lakes. We can use this as a way to "
+"seems to be related to the size of the lakes. We can use this as a way to "
 "render the lakes differently. In the LAYER object, we'll add another CLASS "
 "object just before our current one::"
 msgstr ""
-"En nuestro conjunto de datos \"ne_10m_lakes\", tenemos un atributo de "
-"*ScaleRank* , que parece estar relacionada al tamaño de los lagos. Podemos "
-"utilizar esto como una forma de representar los lagos diferentemente. En el "
-"objeto de la CAPA, vamos a añadir otra CLASE de objeto justo antes que el  "
-"actual::"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:266
 msgid ""

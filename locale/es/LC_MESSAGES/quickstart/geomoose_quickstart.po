@@ -3,13 +3,16 @@
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# MarPetra <mvergaratrejo@gmail.com>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
@@ -121,10 +124,8 @@ msgstr ""
 "Unidos (USNG)"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:54
-msgid "A editable pull down list for a view scales to choose from or define."
+msgid "An editable pull down list for a view scales to choose from or define."
 msgstr ""
-"Una lista editable y desplegable para una vista escalas para elegir o "
-"definir."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:58
 msgid "Identifying a location in GeoMoose"
@@ -252,17 +253,10 @@ msgstr ""
 msgid ""
 "If you hover over a line in the table, the corresponding feature on the map "
 "will be highlighted.  Additionally, you can use the funnel icons in the "
-"table header to further filter results, and uses the triangle icons in the "
+"table header to further filter results, and use the triangle icons in the "
 "table header to sort results.  The results can be downloaded as a CSV file "
 "using the download icon to the top and left of the table."
 msgstr ""
-"Si pasa el cursor sobre una línea en la tabla, se destacará la función "
-"correspondiente en el mapa.  Además, usted puede utilizar los iconos de "
-"embudo en el encabezado de tabla para filtrar aún más los resultados y "
-"utiliza los iconos de triángulo en el encabezado de la tabla para ordenar "
-"los resultados.  Los resultados pueden descargarse como un archivo CSV "
-"utilizando el icono de descarga para la parte superior e izquierda de la "
-"tabla."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:102
 msgid "Searching"
@@ -282,11 +276,9 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:108
 msgid ""
-"The following screenshot demostrates a search of all parcel owners "
+"The following screenshot demonstrates a search of all parcel owners "
 "containing the name \"frank\"."
 msgstr ""
-"La siguiente captura de pantalla demuestra una búsqueda de todos los "
-"propietarios de parcelas que contienen el nombre \"Frank\""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:112
 msgid "Three results appear in the list and are highlighted on the map."
@@ -306,16 +298,11 @@ msgstr "Impresión "
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:124
 msgid ""
-"This next screenshot shows what the Print tool looks as provided with demo "
+"This next screenshot shows how the Print tool looks as provided with demo "
 "for GeoMoose.  When you click on the Print tool, a dialog appears which asks"
 " for a title for the printed map, the page size and rotation, printed "
 "resolution, and shows a preview of what will be printed."
 msgstr ""
-"La siguiente captura de pantalla siguiente muestra qué aspecto tiene la "
-"herramienta de Impresión proporcionada con la demostración de GeoMoose.  Al "
-"hacer click en la herramienta de Impresión, aparece un diálogo que le pide "
-"un título para el mapa impreso, el tamaño de la página y rotación, "
-"resolución impresa y muestra una vista previa de lo que se imprimirá."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:128
 msgid ""
