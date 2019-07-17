@@ -1,5 +1,5 @@
 :Author: OSGeoLive :Author: Pirmin Kalberer
-:Reviewer: 
+:Reviewer: Astrid Emde
 :Version: osgeolive13.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
@@ -31,15 +31,15 @@ Details
 --------------------------------------------------------------------------------
 
   **Website:**  https://t-rex.tileserver.ch/
-  
+
   **Licence:** `MIT license <http://opensource.org/licenses/MIT>`_
-  
+
   **Software Version:** |version-t-rex|
-  
+
   **Supported Platforms:** Windows, Linux, Mac
-  
+
   **API Interfaces:** http, Mapbox Vector Tiles
-  
+
   **Support:** https://github.com/t-rex-tileserver/t-rex/
 
 @QUICKSTART_t-rex@

@@ -2,10 +2,11 @@
 :Author: Pirmin Kalberer
 :Author: Hamish Bowman
 :Author: Zoltan Siki
-:Reviewer: Cameron Shorter, Jirotech
+:Author: Andrew Jeffrey
+:Reviewer: Cameron Shorter
 :Reviewer: Nicolas Roelandt
 :Reviewer: Angelos Tzotsos, OSGeo
-:Version: osgeolive11.0
+:Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. TBD: Cameron's review comments:
@@ -24,352 +25,341 @@
 @NAME_qgis@ Quickstart
 ********************************************************************************
 
-QGIS is a user friendly Desktop GIS client which lets
+QGIS is a user-friendly Desktop GIS client which lets
 you visualize, manage, edit, analyse data and compose printable maps.
 
 .. contents:: Contents
 
 
-Edit QGIS project
+Opening QGIS for the first time
 ================================================================================
 
-Let's start by opening up an existing QGIS project, and turning layers on and
-off.
+Learning goal:
 
+* Open QGIS
+* Identify parts of the Interface
 
-#. Launch QGIS from :menuselection:`Geospatial --> Desktop GIS --> QGIS` and select :menuselection:`Project --> Open` from the menu bar.
+QGIS can be opened from the 'Desktop GIS' folder on the OSGeoLive desktop. Follow the steps below
+to launch QGIS.
 
-     .. image:: /images/projects/qgis/qgis_project_open.png
-       :scale: 70 %
-       :alt: Open a QGIS project
+#. Open the 'Desktop GIS' folder.
+#. Double click on the 'QGIS' icon.
 
+When QGIS is launched for the very first time the user will be asked if they would like to 'Import
+settings from QGIS 2' or proceed with a clean start. If presented with this window do the following:
 
-#. Choose :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`.
+#. Selection the option 'I want a clean start. Don't import my QGIS 2 settings.'
+#. Click the button that reads "Let's get started!"
 
-   * You should see a world map.
+  .. image:: /images/projects/qgis/qgis_welcome.png
+    :scale: 70 %
+    :alt: QGIS import settings
 
-#. Tick the ``ne_10m_populated_places`` check box in the Layers tree.
+The user will see QGIS launch with an empty project. The various parts of the QGIS Interface
+are listed below.
 
-   * Populated places are now displayed as many green dots:
-
-     .. image:: /images/projects/qgis/qgis_screenshot.png
-        :scale: 70 %
-        :alt: Map in QGIS
-
-#. Try dragging layers up and down in the legend and see how that
-   affects visibility of the layers below.
-
-#. Have a look at the tools on the tool bar. Try panning, zooming in,
-   and zooming back out to full extent again.  Find these tools next
-   to the :guilabel:`hand` icon. If the toolbars seem cluttered you
-   can drag them around and turn them on and off by right clicking.
-   You can also zoom in and out with the mouse wheel, and pan with a
-   left-click drag.
-
-     .. image:: /images/projects/qgis/qgis_zoom_toolbar.png
-        :scale: 70 %
-        :alt: Map in QGIS
-
-
-Style a layer
-================================================================================
-
-Now let's try customising the style of the map.
-
-     .. image:: /images/projects/qgis/qgis_style_set.png
-        :scale: 70 %
-        :alt: Style setting
-
-#. Zoom in a little on the map, then double click ``ne_10m_rivers_lake_centerlines`` in
-   the Layers tree.
-
-#. In the `Layer Properties` dialog on the `Style` tab click on the
-`Color` to select a different color, say yellow.
-
-#. Press :guilabel:`OK`.
-
-   * Notice that rivers are now rendered in your new color.
-
-     .. image:: /images/projects/qgis/qgis_style.png
-        :scale: 70
-        :alt: Map in QGIS
-
-Create a new QGIS project
-================================================================================
-
-Let's now create a new QGIS project and load our own data.
-
-#. Choose :menuselection:`Project --> New`. You will be asked whether to save the previous project, you can press :guilabel:`Close without Saving`.
-
-#. Click :menuselection:`Layer --> Add Layer--> Add Vector Layer...` Or click on the 'Add Vector Layer' button (the one with the 'V' shape, in the red rectangle in the image).
-You can also use the keyboard shortcut 'Ctrl+Shift+V'
-
-     .. image:: /images/projects/qgis/qgis_add_layer.png
-        :scale: 70
-        :alt: Add layer
-
-#. Browse to dataset :file:`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`.
-
-#. Press :guilabel:`Open` then :guilabel:`Open` again.
-
-   * You should see all world countries.
-
-     .. image:: /images/projects/qgis/qgis_countries.png
-        :scale: 70
-        :alt: Add layer result
-
-
-Connect to a PostGIS spatial database
-================================================================================
-
-Let's now include a layer from a Postgres database.
-
-#. In the layer list on the left, untick the ``ne_10m_admin_0_countries`` visibility
-   check box to temporarily hide it.
-
-
-
-#. Choose :menuselection:`Layer --> Add Layers --> Add PostGIS Layers...`.
-
-   * You can also click on the icon with the elephant head in the left panel or use the keyboard shortcut 'Ctrl+Shift+D'
-
-   * Five Postgis databases are already available; we will be using the Natural Earth database.
-     If you wanted to connect to a different database, you would select
-     the :guilabel:`New` button and fill in the database parameters.
-
-#. Select the "Natural Earth" connection and press :guilabel:`Connect`. Then
-click on the Public schema to deploy it:
-
-  * A list of database tables will appear.
-
-   .. image:: /images/projects/qgis/qgis_postgis_connect.png
+    .. image:: /images/projects/qgis/qgis_interface.png
       :scale: 70 %
-      :alt: Connecting to a PostGIS DB
+      :alt: Open a QGIS project
 
-#. Select ``ne_10m_populated_places`` and click :guilabel:`Add`.
+#. Menu bar: Access to various QGIS features using a standard hierarchical menu.
+#. Toolbars: For interaction with the map, layers, attributes and selections.
+#. Browser Panel: A spatial file browser allowing drag and drop content into the map frame.
+#. Layer Panel: Controls the map layers, their order, and visibility.
+#. Status Bar: General information about the map and access to a universal search bar.
 
-   * For more details about working with PostGIS databases see
-     the :doc:`PostGIS Quickstart <postgis_quickstart>`.
-
-#. Zoom in on the United States using the mouse wheel and left-click drag
-   to navigate.
-
-#. Right click on ``ne_10m_populated_places`` in the layer list to get a context
-   menu, then select :menuselection:`Properties`.
-
-#. Let's represent one of the database attributes in the data as a bubble plot.
-   In the middle of the `Style` tab, drag the Transparency
-   slider to **50%**. Click on the small button at the right of the size field and hover
-   over the option within :menuselection:`Attribute field`, then choose **scalerank**
-   (it's near to the beginning of the list). Then click :guilabel:`Ok`.
-
-#. You can then click on the query button on the toolbar (cursor arrow with
-   a blue "i") and then on the map canvas bubbles to view information about
-   the individual cities.
-
-     .. image:: /images/projects/qgis/qgis_bubble.png
-        :scale: 70
-        :alt: Scale field map
-
-Using the GRASS Toolbox
+Starting a new project
 ================================================================================
 
-There have been many plugins written for QGIS which extend QGIS's core
-functionality. One of the more powerful is the GRASS plugin, which taps
-into the hundreds of geospatial processing modules available
-from :doc:`GRASS GIS <../overview/grass_overview>`.
+Learning goal:
 
-.. note::
-    You will need to change permissions of the grass data folder in order
-    to carry out the following steps. Please open a terminal and execute the following:
-    "sudo chmod -R 775 /usr/local/share/grass/nc_basic_spm_grass7"
+* Start a new QGIS project
+* Add vector layers to a project
+* Add raster layers to a project
+* Save a project
 
-#. Clear the slate with :menuselection:`Project --> New`.
+After opening QGIS for the first time, you will be presented with an empty project that you
+can add layers to.
 
-   .. image:: /images/projects/qgis/qgis_plugin.png
+#. Go to the 'Project' menu on the menu bar.
+#. Select 'New'.
+
+   .. image:: /images/projects/qgis/qgis_new_project.png
       :scale: 70 %
-      :alt: Enable GRASS plugin
+      :alt: QGIS new project
 
-#. Choose :menuselection:`Plugins --> Manage and Install Plugins...`, then scroll down or
-   type ``grass`` into the Search box, and select the `GRASS 7` plugin.
+Now with an empty QGIS project we can start adding data to the project.
 
-   * Notice that a new GRASS icon has been added to the Toolbar, a docked window named "GRASS Tools" has appeared on the right of the map area and a new `GRASS` menu item has been added to the `Plugins` menu.
+Let's start by adding a vector layer to the map. Layers can be added to QGIS using the browser
+panel, located on the left of the screen.
 
-#. Connect to an existing GRASS workspace with :menuselection:`Plugins --> GRASS --> Open mapset`.
+#. Go the browser panel on the left of the screen.
+#. Navigate the folder tree to 'home/data/natural_earth2'.
+#. Select 'ne_10m_admin_0_countries.shp'.
+#. Drag the layer from the browser panel and drop it in the map frame.
 
-   * The GRASS GIS data base (Gisdbase) has already been set to `/home/user/grassdata` on
-     the disc for you.
+  .. image:: /images/projects/qgis/qgis_browser_panel.png
+     :scale: 70 %
+     :alt: QGIS browser add vector layer
 
-#. Within the central GRASS data base are a number of sample datasets. We'll
-   load the North Carolina location, and the ``user1`` mapset within it. Choose
-   the `nc_basic_spm_grass7` Location and `user1` working mapset, then click :guilabel:`Ok`.
+Once the layer has been dragged onto the map frame, the user will see a layer showing
+countries.
 
-#. To add a raster map to the QGIS layer list, navigate from QGIS Browser Panel to Home/grassdata/nc_basic_spm_grass7.
+.. image:: /images/projects/qgis/qgis_add_vector_layer.png
+   :scale: 70 %
+   :alt: QGIS vector layer
 
-   * In the PERMANENT mapset select the `elevation` map and double click to add to the map.
+Now let's try adding a raster layer to the project. Again we will use the browser panel.
 
-     .. image:: /images/projects/qgis/qgis_grass_layers.jpg
-       :scale: 50 %
-       :alt: GRASS GIS layers loaded into QGIS
+#. Go the browser panel on the left of the screen.
+#. Navigate the folder tree to 'home/data/natural_earth2'.
+#. Select 'HYP_50M_SR_W.tif'.
+#. Drag the layer from the browser panel and drop it in the map frame.
 
-#. Add another GRASS raster layer, this time the `geology` map from the
-   PERMANENT mapset.
+.. image:: /images/projects/qgis/qgis_browser_panel_raster.png
+   :scale: 70 %
+   :alt: QGIS browser add raster layer
 
-   * Double click on the `geology` map in the QGIS Layers list and in
-     the Transparency tab set its global transparency to 70%.
+Once the layer has been dragged onto the map frame, the user will see a raster layer
+showing land cover and bathymetry.
 
-#. To add a vector map, select a vector layer from the QGIS Browser, similar to the previous steps.
+.. image:: /images/projects/qgis/qgis_add_raster_layer.png
+   :scale: 70 %
+   :alt: QGIS raster layer
 
-   * From the PERMANENT mapset select the `roadsmajor` map with a double click.
+Now that we have added some content to our project we can save this project so that we
+can come back to it at a later time.
 
-#. Change the layer order if necessary (roadsmajor, geology, elevation).
+To save the QGIS project, follow these steps:
 
-The plugin also gives you access to many of the powerful GRASS analysis
-modules and visualization tools:
+#. Go to the 'Project' menu on the menu bar.
+#. Select 'Save'.
 
-#. From the top menu select :menuselection:`Plugins --> GRASS --> Open GRASS tools` and
-   drag the edge to make the window a bit bigger.
-
-   * A long list of analysis tools will appear. Go to the `Modules Tree` tab and
-     select :menuselection:`Region settings --> g.region.multiple.raster`.
-     Clicking on it will open a new tab. Select ``elevation`` from the
-     menu list and press :guilabel:`Run`. The `elevation` map will
-     now have a thin red line around it, indicating the extent of
-     GRASS's `computational region` bounds.
-
-#. Back in the `Modules Tree` tab of the `GRASS Tools` window, go down
-   to :menuselection:`Raster` and select :menuselection:`Surface Management --> Generate Vector contour lines`.
-
-#. In the new module tab that pops open, select the `elevation` map as the
-   input.
-
-#. Add some contour levels (e.g. 20, 40, 60, 80, 100)
-
-#. Select the output layer name (e.g. contour_lines), then click :guilabel:`Run`.
-
-   .. image:: /images/projects/qgis/qgis_contours.jpg
+   .. image:: /images/projects/qgis/qgis_save_project.png
       :scale: 70 %
-      :alt: Contour creation
+      :alt: QGIS save
+
+#. Make the location to save the project '/home/user/desktop'.
+#. Call the project 'My QGIS project'.
+
+   .. image:: /images/projects/qgis/qgis_save_project_location.png
+      :scale: 70 %
+      :alt: QGIS project location
+
+#. Then click 'Save'.
+
+You will know the project has been saved because there will be a project file on the desktop
+called 'My QGIS project' and the top of your project document will no longer read as 'untitled'
+but instead will read as 'My QGIS project'.
+
+.. image:: /images/projects/qgis/qgis_saved_project.png
+   :scale: 70 %
+   :alt: QGIS saved project
 
 
-Using the Processing Toolbox
+Open an existing project
 ================================================================================
 
-A core plugin for QGIS which opens the door to a large family of
-processing tools is the Processing Toolbox (formerly named the SEXTANTE Toolbox).
-It acts as a standardized wrapper around a number of other sets of tools.
+Learning goal:
 
-.. TBD: Cameron's review comments:
-  If we are to include Sextante, then we need to describe using one of the
-  Sextane features.
+* Understand what a QGIS project is
+* Open an existing project
+* Interact with layers
 
-#. Choose :menuselection:`Processing --> Toolbox`.
+A QGIS project saves layers, styles, map extents and settings for use at a later time.
+This information is stored as a QGIS project file and has an extension of '.qgs' or '.qgz',
+with '.qgz' being the default file format in QGIS going into the future.
 
-   * A new toolbar will open on the right side of the screen with many
-     processing tools to choose from. Take some time and have a look around.
+Let's open an existing QGIS project and have a look at how it works.
 
-   .. image:: /images/projects/qgis/qgis_toolbox.png
-      :scale: 70 %
-      :alt: Processing Toolbox
+#. Open QGIS. Note that when QGIS is opened a user will be presented with a list of recent projects to chose from. This is a quick way of entering into recent projects.
+#. Go to the 'Project' menu on the menu bar.
+#. Select 'Open'.
+#. Navigate to '/home/user/qgis-example'.
+#. Select the project 'QGIS-NaturalEarth-Example.qgs'.
+#. Then click 'Open'.
 
-   * You may need to enable a Processing provider in order to use it.
-     The following screenshot shows how to enable GRASS GIS 7 support in
-     the processing tools. Be sure to disable GRASS support (i.e., GRASS 6).
-     Additionally, switch to the "Advanced Interface" (see lower right corner
-     in the screenshot) in order to see the providers:
+.. image:: /images/projects/qgis/qgis_project_open.png
+   :scale: 70 %
+   :alt: QGIS Open project
 
-   .. image:: /images/projects/qgis/qgis_enable_provider.png
-      :scale: 70 %
-      :alt: Enabling the GRASS GIS 7 provider in the Processing settings.
+This will open a QGIS project with a number of Natural Earth datasets, as shown below.
+This project contains a number of layers in the layers panel and is displaying the spatial
+content in the map frame.
 
+.. image:: /images/projects/qgis/qgis_project_open_result.png
+   :scale: 70 %
+   :alt: QGIS Open project result
 
-Importing OpenStreetMap data
+Layers can be turned on or off by clicking the checkbox next to the layer name in the layers panel.
+When a layer is turned on in the layer panel, the map frame will be updated to display the layer.
+A close up of the layer panel is shown below.
+
+.. image:: /images/projects/qgis/qgis_layer_panel.png
+   :scale: 70 %
+   :alt: QGIS layer panel
+
+Let's interact with the layer panel and change the visibility of some map layers.
+
+#. Click the checkbox next to the 'ne_10m_populated_places' layer to turn it on.
+#. Click the checkbox next to the 'Water' layer to turn the layer off.
+
+Notice how the map frame has been updated to reflect the changes in the layer list.
+We can now see the 'ne_10m_populated_places' layer as points, but can no longer see the
+rivers and lakes which are within the 'Waters' layer.
+
+.. image:: /images/projects/qgis/qgis_layer_visibility.png
+   :scale: 70 %
+   :alt: QGIS result of layer visibility changes
+
+In addition to controlling layer visibility, we can also change the order in which layers
+are drawn in the layer panel. This is done by selecting a layer in the layer panel and dragging
+it up or down the list. The order that the layers appear in the layer list is the order which they
+will draw on in the map frame.
+
+To change the order of the layers:
+
+#. Left-Click on the layer 'HYP_50M_SR_W'.
+#. While holding the mouse button down drag the layer to the top of the list.
+
+Notice how the raster layer is now on top of all other layers in the layer panel. This now renders the
+raster layer on top of all other layers in the map frame.
+
+.. image:: /images/projects/qgis/qgis_modified_layer_order.png
+   :scale: 70 %
+   :alt: QGIS modified the order of layers
+
+Try moving the 'HYP_50M_SR_W' layer to the bottom of the layer list. This would be a more appropriate
+position for a map layer like this.
+
+Navigation tools
 ================================================================================
 
-.. TBD: Cameron comment
-  Need a sentence here introducing what the OpenStreetMap tools provide.
+Learning goals:
 
-#. Open the LX Terminal Emulator from the main :menuselection:`Accessories` menu.
+* Identify the navigation toolbar
+* Modify the extent of the map
 
-   * Cut and paste the following commands into the Terminal window to create
-     a working copy of the OSM data in the home directory:
+The navigation toolbar as shown below allows users to move around the map and change the map extent.
 
-     ::
+.. image:: /images/projects/qgis/qgis_navigation_toolbar.png
+   :scale: 70 %
+   :alt: QGIS navigation toolbar
 
-       cp data/osm/feature_city.osm.bz2 .
-       bzip2 -d feature_city.osm.bz2
+For this quick start guide, we will focus on the basics of navigation which can be achieved with only
+five tools. These tools are listed below, with the number corresponding to the toolbar image above to
+show the location on the toolbar.
 
-#. In QGIS, choose :menuselection:`Project --> New`. If you had the
-   Processing Toolbox open you might want to close it.
+#. Pan: Allows the map to be dragged 'Panned' to a new location.
+#. Zoom in: Allows the map extent to be zoomed in.
+#. Zoom out: Allows the map to be zoomed out.
+#. Zoom to full extent: Changes the map extent to fit all of the map layers into the map frame.
+#. Zoom to layer: Changes the map extent to fit the extent of the layer highlighted in the layer panel.
 
+Let's try changing the map extent with the zoom-in tool, this will allow the user to zoom in closer on
+an area of interest.
 
-   .. image:: /images/projects/qgis/qgis_osm_plugin.png
-     :scale: 50 %
-     :alt:  The OpenStreetMap plugin
+#. Select the 'Zoom in' tool from the navigation toolbar.
+#. Move the cursor over the map frame.
+#. Click and hold the left mouse button.
+#. While still holding the mouse button move the cursor diagonally in any direction. Notice this draws a rectangle which is the area that will be zoomed to.
+#. Release the mouse button when happy with the area created.
 
-#. Choose :menuselection:`Vector --> OpenStreetMap --> Import topology from XML`.
+.. note:: The process of using the zoom out tool is the same as the zoom-in tool. The result is just the opposite.
 
-#. Click on the "..." button next to "Input XML file (.osm)" and select
-   the `feature_city.osm` file you just copied into the home directory.
-   The "Output SpatialLite DB file" name will be automatically set. Click
-   :guilabel:`Ok` to convert the dataset to SpatiaLite format and create
-   a connection to the SpatialLite DB within QGIS.
+Now, let’s look at the zoom to full extent tool. This tool will zoom the map out to an
+extent that will fit in all the layers in the map. To use this tool, click on the
+'Zoom to full extent' button.
 
-#. Next we need to extract points, lines, and areas, then add topology to
-   each of these three new layers. To do this we need to run the tool three times.
-   Select :menuselection:`Vector --> OpenStreetMap --> Export toplogy to SpatiaLite` and
-   use the "..." button to select the newly created `feature_city.osm.db` file.
-   The `Output layer name` will be automatically filled in for you depending
-   on the `Export type` selected. Click the :guilabel:`Load from DB` button
-   to load in the available tags. For the "points" layer tick the `amentity` box;
-   for the "polylines" layer tick the `highway` layer; and for
-   the "polygon" layer select the `building` layer. You may wish to change
-   the `Output layer name` to reflect the feature tags that you've selected.
-   When you are ready, press :guilabel:`Ok` to load in the layer. You will
-   need to again press the :guilabel:`Load from DB` button after changing
-   the export type from points to polylines, and polylines to polygons.
+Finally, try the zoom to layer tool. To use this tool follow these steps:
 
-#. Once topology is loaded, you can also refine the SpatiaLite layer by
-   querying just certain features from within it.
-   Select :menuselection:`Layer --> Add Layer --> Add SpatiaLite Layer...` from the
-   menu and from the `Databases` list select `feature_city@...` and
-   then click on :guilabel:`Connect`. Double click on
-   the `feature_city_polylines` table and then double click on "highway"
-   to start building your SQL query. Then click on the :guilabel:`=` button,
-   then the :guilabel:`All` button, and double click on `motorway` from the
-   Values list. Click the :guilabel:`Test` button to verify the result,
-   and finally click on :guilabel:`Ok`. Back in the `Add SpatiaLite Table`
-   window click :guilabel:`Add` to restrict the rendering to just major
-   highways. You can repeat this process with new layers to render different
-   road types with different widths and styles.
+#. Click on a layer name in the layer panel.
+#. Click on the 'Zoom to layer' button.
 
-   .. image:: /images/projects/qgis/QGIS_spatialite_add_layer.png
-     :scale: 50 %
-     :alt:  The OpenStreetMap add layer
+The map should zoom to the extent of the selected ('active') layer.
 
-#. You can now explore this rich dataset. Use the ``i`` information cursor
-   button in the QGIS toolbar to query individual map features.
+Styling Layers
+================================================================================
+
+Learning goals:
+
+* Access the style dock
+* Modify the colour of a layer
+
+Layers can be styled in QGIS using the style dock. The style dock is not visible by default, but
+easily accessible via a button at the top of the layer panel as shown below.
+
+.. image:: /images/projects/qgis/qgis_style_dock_button.png
+   :scale: 70 %
+   :alt: QGIS style dock
+
+The above button acts as a toggle so the style dock can be easily hidden from view by clicking the
+same button again. When the style dock is enabled it will appear on the right-hand side of the screen
+ready to style the active layer highlighted in the layer panel.
+
+With the style dock open, we can modify the appearance of the layer shown at the top of the style dock.
+
+.. image:: /images/projects/qgis/qgis_style_dock_layer.png
+   :scale: 70 %
+   :alt: QGIS style dock layer
+
+With the style dock now open, we can modify the colour and the width of the lines in the
+'ne_10m_rivers_lakes_centrelines' layer. Let’s try modifying the colour first.
+
+#. Click on the 'Color' swatch shown below. This will launch a colour palette allowing you to choose a different colour.
+
+   .. image:: /images/projects/qgis/qgis_style_dock_color.png
+      :scale: 70 %
+      :alt: QGIS style dock color
+
+#. In the 'Select Color' palette, move the cross-hair to your preferred colour.
+
+   .. image:: /images/projects/qgis/qgis_style_color_palette.png
+      :scale: 70 %
+      :alt: QGIS color palette
+
+#. Then click the back arrow to return to the symbol render preview.
+
+   .. image:: /images/projects/qgis/qgis_style_back.png
+      :scale: 70 %
+      :alt: QGIS style return
+
+#. The symbol preview will be updated with the new colour, and so will the layer in the map frame.
+
+   .. image:: /images/projects/qgis/qgis_style_result.png
+      :scale: 70 %
+      :alt: QGIS style result
+
+In the style dock, we can also modify the size of the map features. To modify the thickness of the
+lines follow these steps:
+
+#. Make sure that the 'ne_10m_rivers_lakes_centrelines' is selected at the top of the style panel.
+#. In the style panel enter the value '0.5' in the 'width' input.
+
+   .. image:: /images/projects/qgis/qgis_style_width.png
+      :scale: 70 %
+      :alt: QGIS style width
+
+Notice the line in the symbol preview increase in width, and so do the lines that are in the map frame.
 
 Things to Try
 ================================================================================
 
-* Try viewing data sources with the `QGIS Data Browser <http://planet.qgis.org/planet/tag/qgis%20browser/>`_ in the :menuselection:`Geospatial --> Databases` menu
+* Extend QGIS functionality with `Plugins <https://docs.qgis.org/3.4/en/docs/user_manual/plugins/plugins.html>`_.
 
-* Try publishing your QGIS map to the web using :doc:`QGIS Map Server <../overview/qgis_mapserver_overview>` in the :menuselection:`Geospatial --> Web Services` menu.
+* Start manipulating data with the `Processing toolbox <https://docs.qgis.org/3.4/en/docs/user_manual/processing/toolbox.html>`_.
+
+* Use QGIS to view content from a `PostGIS database <https://docs.qgis.org/3.4/en/docs/training_manual/spatial_databases/index.html>`_.
+
+* Try publishing your QGIS map to the web using `QGIS Map Server <../overview/qgis_mapserver_overview.html>`_. in the :menuselection:`Geospatial --> Web Services` menu.
 
 
 What Next?
 ================================================================================
 
-Tutorials for more advanced features of QGIS are collected as `OSGeoLive QGIS tutorials`_.
-
 To learn more about QGIS, a good starting point is the `Documentation page`_ on
 the QGIS homepage and `A Gentle Introduction to GIS`_ eBook.
 
-The `QGIS User Guide`_ `[1]`_ is also included on the OSGeoLive disc.
-
-.. _`OSGeoLive QGIS tutorials`: ../../qgis/
 .. _`Documentation page`: http://docs.qgis.org/
-.. _`A Gentle Introduction to GIS`: http://docs.qgis.org/2.8/en/docs/gentle_gis_introduction/
-.. _`QGIS User Guide`: http://docs.qgis.org/2.8/en/docs/user_manual/
-.. _`[1]`: ../../qgis/QGIS-2.2-UserGuide-en.pdf
+.. _`A Gentle Introduction to GIS`: https://docs.qgis.org/3.4/en/docs/gentle_gis_introduction/index.html
+.. _`QGIS User Guide`: https://docs.qgis.org/3.4/en/docs/user_manual/

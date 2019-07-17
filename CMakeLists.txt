@@ -20,10 +20,10 @@ set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 #---------------------------------------------
 # Setting the version number
 #---------------------------------------------
-set(OSGeoLiveDoc_VERSION_MAJOR "12")
+set(OSGeoLiveDoc_VERSION_MAJOR "13")
 set(OSGeoLiveDoc_VERSION_MINOR "0")
 set(OSGeoLiveDoc_VERSION_PATCH "0")
-set(OSGeoLiveDoc_VERSION_DEV "")
+set(OSGeoLiveDoc_VERSION_DEV "beta1")
 set(OSGeoLiveDoc_VERSION "${OSGeoLiveDoc_VERSION_MAJOR}.${OSGeoLiveDoc_VERSION_MINOR}.${OSGeoLiveDoc_VERSION_MINOR}${OSGeoLiveDoc_VERSION_DEV}")
 set(OSGeoLiveDoc_NAME "OSGeoLive")
 

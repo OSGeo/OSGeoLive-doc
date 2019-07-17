@@ -1,7 +1,7 @@
 :Author: OSGeoLive
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos, OSGeo
-:Version: osgeolive11.0
+:Version: osgeolive13.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_qgis_mapserver@
@@ -23,16 +23,19 @@ Core Features
 --------------------------------------------------------------------------------
 
 * Web Map Service (WMS) - images
+* OGC Web Map Tile Service (WMTS) 1.0.0
 * Web Feature Service (WFS) - vectors
 * Built-in PDF output
 * WYSIWYG map creation with QGIS
 * Advanced cartographic symbolisation
 * Supports Styled Layer Descriptor (SLD)
+* Extra parameters like f.e. FILTER, SELECTION, DPI
 
 Implemented Standards
 --------------------------------------------------------------------------------
 
 * OGC Web Map Service (WMS) 1.1.1 and 1.3.0
+* OGC Web Map Tile Service (WMTS) 1.0.0
 * OGC Web Feature Service (WFS) 1.0.0 and Transactional WFS (WFS-T) 1.0.0
 * OGC Web Coverage Service (WCS)
 * OGC Styled Layer Descriptor (SLD) 1.0
@@ -40,7 +43,7 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.qgis.org/
+**Website:** https://www.qgis.org/
 
 **Licence:** GPL
 
@@ -48,7 +51,7 @@ Details
 
 **Supported Platforms:** Windows, Linux
 
-**Commercial Support:** http://www.sourcepole.com/
+**Commercial Support:** https://www.qgis.org/en/site/forusers/commercial_support.html
 
 
 @QUICKSTART_qgis_mapserver@

@@ -1,8 +1,9 @@
 :Author: OSGeoLive
 :Author: Pirmin Kalberer
+:Reviewer: Astrid Emde
 :Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
-:Reviewer: 
+:Reviewer:
 
 @LOGO_t-rex@
 @OSGEO_KIND_t-rex@
@@ -19,7 +20,7 @@ This Quick Start describes how to:
   * generate a tile cache
 
 .. contents:: Contents
-  
+
 Start t-rex
 ================================================================================
 
@@ -38,21 +39,21 @@ t-rex comes with built-in viewers for inspecting generated vector tiles.
 
 #. Click on th `X-Ray` entry in the upper right menu, to open the x-ray viewer.
 #. Hover the mouse on a line to inspect the content of a feature.
-  
+
   .. image:: /images/projects/t-rex/backend-x-ray.png
    :scale: 50 %
-   
+
 Try also the other viewers. Remark: The Mapbox GL viewer and and Maputnik require
-WebGL support, which is probably not available when running OSGeo Live in a VM.
+WebGL support, which is probably not available when running OSGeoLive in a VM.
 
 
 Cache seeding
 ================================================================================
 
 #. Close the browser and the terminal window running t-rex.
-#. Open any text editor (e.g. :menuselection:`Applications --> Accessories --> 
+#. Open any text editor (e.g. :menuselection:`Accessories -->
    Leafpad`).
-#. Create the file "ne.toml" in your home directory: 
+#. Create the file "ne.toml" in your home directory:
    :file:`/home/user/ne.toml`
 
 Put the following content in it::
