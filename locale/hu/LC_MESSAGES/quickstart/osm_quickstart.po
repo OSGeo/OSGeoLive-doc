@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Zoltan Siki <siki@agt.bme.hu>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: 2017-09-20 16:05+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:15
+msgid "OpenStreetMap Quickstart"
+msgstr "OpenStreetMap gyorstalpaló"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:18
+msgid "About"
+msgstr "Névjegy"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:22
+msgid ""
+"OpenStreetMap is a free street level map of the world, created by an ever "
+"growing community of mappers. Anyone can edit OpenStreetMap. The `Learn OSM "
+"website <http://learnosm.org>`_ provides easy to understand, step-by-step "
+"guides for you to get started with contributing to OpenStreetMap and using "
+"OpenStreetMap and using OpenStreetMap data. The Learn OSM guide at the link "
+"above shows step by step how to navigate the OpenStreetMap website, view and"
+" print maps, and sign up for a user account. After you have your own "
+"username and password, you will be able to add your first points to the map,"
+" learn how to do street surveys and work with aerial imagery."
+msgstr ""
+"Az OpenStreepMap egy egy szabad utca szintű világtérkép, melyet a "
+"térképészek folyamatosan növekvő közössége készít. Bárki szerkesztheti az "
+"OpenStreetMap-et. A `Tanuljuk meg az OSM-et honlap <http://learnosm.org>`_ "
+"egy könnyen érthető, lépésról-lépésre útmutatót biztosít önnek, hogy "
+"elkezdhessen hozzájárulni az OpenStreetMap-hez, használhassa az "
+"OpenStreepMap-et és az OpenStreetMap adatokat. A Tanuljuk meg az OSM-et "
+"útmutató a fenti linken lépésről-lépésre bemutatja hogyan navigáljunk az "
+"OpenStreetMap oldalon, jelenítsünk meg  és nyomtassunk térképeket és "
+"jelentkezzünk be egy felhasználói fiókba. Miután megszerezte a felhasználó "
+"nevét és jelszavát, hozzáadhatja az első pontját a térképhez, megtanulhatja "
+"hogyan végezzen út felméréseket és hogyan dolgozzon a légifényképekkel."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:33
+msgid ""
+"The remainder of this quickstart introduces some of the on-line and off-line"
+" software used to edit and render OSM data."
+msgstr ""
+"A gyorstalpaló hátralévő részében néhány, az OSM adatok szerkesztésére és "
+"megjelenítésére alkalmas on-line és off-line szoftvert mutatunk be."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:38
+msgid "Programs"
+msgstr "Programok"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:42
+msgid "iD"
+msgstr "iD"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:44
+msgid ""
+"**iD** is the default on-line editor for OpenStreetMap (OSM). iD is fast and"
+" easy to use, and allows mapping from various data sources such as ground "
+"survey, satellite and aerial imageries, GPS traces or street-level imagery."
+msgstr ""
+"**ID** az alapértelmezett on-line szerkesztő az OpenStreetMap-hez (OSM). Az "
+"ID gyors és könnyen használható és lehetővé teszi a térképezést különböző "
+"forrásokból, mint például a terepi felmérés, műhold és légi felvételek, GPS "
+"nyomvonalak vagy utca képek."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:48
+msgid "Start page: https://www.openstreetmap.org/edit"
+msgstr "Kezdőoldal: https://www.openstreetmap.org/edit"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:52
+#: ../../build/doc/quickstart/osm_quickstart.rst:70
+msgid "Further reading"
+msgstr "További olvasmányok"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:54
+msgid "Documentation: https://wiki.openstreetmap.org/wiki/ID"
+msgstr "Dokumentáció: https://wiki.openstreetmap.org/wiki/ID"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:55
+msgid "Tutorial: http://learnosm.org/en/beginner/id-editor/"
+msgstr "Oktatóanyag: http://learnosm.org/en/beginner/id-editor/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:59
+msgid "JOSM"
+msgstr "JOSM"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:61
+msgid ""
+"**JOSM** (Java OpenStreetMap Editor) is an advanced editor for OpenStreetMap"
+" (OSM) written in Java. It is more powerful and complex than iD, can be used"
+" for bulk editing, off-line or on an unreliable Internet connection. It can "
+"be extended with plugins, custom presets and more extensions."
+msgstr ""
+"A **JOSM** (Java OpenStreetMap Editor) egy Javaban írt profi szerkesztő az "
+"OpenStreetMap-hez (OSM). Hatékonyabb és komplexebb mint az ID, használható "
+"tömeges szerkesztéshez, off-line módon megbízhatatlan internet kapcsolat "
+"esetén. Bővíthető modulokkal, testreszabott beállításokkal és több "
+"bővítménnyel."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:67
+msgid "Homepage: https://josm.openstreetmap.de"
+msgstr "Honlap: https://josm.openstreetmap.de"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:72
+msgid "User guide: https://wiki.openstreetmap.org/wiki/JOSM/Guide"
+msgstr "Felhasználói útmutató: https://wiki.openstreetmap.org/wiki/JOSM/Guide"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:73
+msgid "Tutorial: http://learnosm.org/en/josm/start-josm/"
+msgstr "Oktatóanyag: http://learnosm.org/en/josm/start-josm/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:74
+msgid "JOSM plugin collection: https://josm.openstreetmap.de/wiki/Plugins"
+msgstr "JOSM modul gyűjtemény: https://josm.openstreetmap.de/wiki/Plugins"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:78
+msgid "Merkaartor"
+msgstr "Merkaartor"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:80
+msgid ""
+"**Merkaartor** is a map editor for OpenStreetMap which uses the Qt toolkit. "
+"It's a bit more user friendly than JOSM, but has a few less features."
+msgstr ""
+"A **Merkaartor**egy térkép szerkesztő az OpenStreetMap-hez, mely a Qt "
+"eszközkészletet használja. Egy kicsit felhasználó barátabb mint a JOSM, "
+"kicsit kevesebb funkcióval rendelkezik."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:83
+msgid "Homepage: http://merkaartor.be"
+msgstr "Honlap: http://merkaartor.be"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:84
+msgid ""
+"Online help: https://wiki.openstreetmap.org/wiki/Merkaartor/Documentation"
+msgstr ""
+"Online súgó: https://wiki.openstreetmap.org/wiki/Merkaartor/Documentation"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:88
+msgid "QGIS"
+msgstr "QGIS"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:90
+msgid ""
+"OpenStreetMap data can be loaded in **QGIS** as vector layer, as a core "
+"functionality or through plugins like QuickOSM."
+msgstr ""
+"OpenStreetMap adatok a **QGIS**-be az alap funkciók segítségével mint egy "
+"vektor réteg tölthetők be vagy modulokon keresztül mint például a QuickOSM."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:93
+msgid "QuickOSM: http://plugins.qgis.org/plugins/QuickOSM/"
+msgstr "QuickOSM: http://plugins.qgis.org/plugins/QuickOSM/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:94
+msgid ""
+"Online help: "
+"https://wiki.openstreetmap.org/wiki/QGIS#QGIS_2:_Importing_OSM_vector_layers"
+msgstr ""
+"Online súgó: "
+"https://wiki.openstreetmap.org/wiki/QGIS#QGIS_2:_Importing_OSM_vector_layers"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:95
+msgid "Tutorial: http://learnosm.org/en/osm-data/osm-in-qgis/"
+msgstr "Oktatóanyag: http://learnosm.org/en/osm-data/osm-in-qgis/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:98
+msgid "Osmosis"
+msgstr "Osmosis"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:100
+msgid ""
+"**Osmosis** is a highly capable utility program for performing many tasks at"
+" a raw level on OSM data. This includes data import and export to databases,"
+" sorting, cleaning, and creating data dumps."
+msgstr ""
+"Az **Osmosis** egy nagyon jól használható segédprogram sokféle feladat "
+"végrehajtásához a nyers OSM adatok szintjén. Ebbe beletartozik az adat "
+"import és export adatbázisokba, rendezés, tisztítás és adat dump készítés."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:104
+msgid "Documentation: https://wiki.openstreetmap.org/wiki/Osmosis#Usage"
+msgstr "Dokumentáció: https://wiki.openstreetmap.org/wiki/Osmosis#Usage"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:105
+msgid "Tutorial: http://learnosm.org/en/osm-data/osmosis/"
+msgstr "Oktatóanyag: http://learnosm.org/en/osm-data/osmosis/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:109
+msgid "osm2pgsql"
+msgstr "osm2pgsql"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:111
+msgid ""
+"**osm2pgsql** is a utility program that converts OpenStreetMap (.osm) data "
+"into a format that can be loaded into PostgreSQL (PostGIS). It is often used"
+" to render OSM data visually using Mapnik, as Mapnik can query PostgreSQL "
+"for map data, but does not work directly with OSM files."
+msgstr ""
+"Az **osm2pgsql** egy segédprogram, mely az OpenStreetMap (.osm) adatokat "
+"PostgreSQL (PostGIS) adatbázisba betölthető formátumba konvertálja. Gyakran "
+"a Mapnik használatával történő OSM adat megjelenítésre használják, mivel a "
+"Mapnik le tudja kérdezni az adatokat PostgreSQL-ből, de nem tud közvetlenül "
+"OSM fájlokkal dolgozni."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:116
+msgid "Homepage: https://wiki.openstreetmap.org/wiki/Osm2pgsql"
+msgstr "Honlap: https://wiki.openstreetmap.org/wiki/Osm2pgsql"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:117
+msgid "Tutorial: http://learnosm.org/en/osm-data/osm2pgsql/"
+msgstr "Oktatóanyag: http://learnosm.org/en/osm-data/osm2pgsql/"
