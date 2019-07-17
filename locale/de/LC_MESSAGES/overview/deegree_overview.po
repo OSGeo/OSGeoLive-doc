@@ -3,14 +3,22 @@
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# John Kennedy <julius.krey@wheregroup.com>, 2018
+# Andreas Schild <andreas.schild@bfw.gv.at>, 2018
+# Richard Bischof <richard.bischof@lgln.niedersachsen.de>, 2018
+# Astrid Emde <astrid_emde@osgeo.org>, 2018
+# Dirk Stenger <stenger@lat-lon.de>, 2018
+# lgoltz <goltz@lat-lon.de>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0\n"
+"Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-27 23:08-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Dirk Stenger <stenger@lat-lon.de>, 2018\n"
+"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"PO-Revision-Date: 2017-09-20 16:09+0000\n"
+"Last-Translator: lgoltz <goltz@lat-lon.de>, 2018\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,8 +44,8 @@ msgstr ""
 "Die deegree Webservices sind Implementierungen der Webservice "
 "Spezifikationen des `Open Geospatial Consortium (OGC) "
 "<http://www.opengeospatial.org>`_ und der `INSPIRE Network Services "
-"<http://inspire.jrc.ec.europa.eu>`_. deegree webservices 3.3 enthält die "
-"folgenden Dienste:"
+"<http://inspire.jrc.ec.europa.eu>`_. deegree unterstützt die folgenden "
+"Dienste:"
 
 #: ../../build/doc/overview/deegree_overview.rst:28
 msgid ""
@@ -159,7 +167,7 @@ msgid ""
 "Shapefiles or GML instance documents"
 msgstr ""
 "Unterstützt eine Vielzahl von Datenquellen, wie beispielsweise PostGIS, "
-"Oracle Stpatial, MS SQL Server, Shapefile oder GML-Dokumente."
+"Oracle Spatial, MS SQL Server, Shapefile oder GML-Dokumente."
 
 #: ../../build/doc/overview/deegree_overview.rst:58
 msgid "**WMS**"
@@ -249,8 +257,8 @@ msgid ""
 "Supports different backends, such as GeoTIFF, remote WMS or file system tile"
 " image hierarchies"
 msgstr ""
-"Unterstützt verschiedene Datenquellen, wie beispielsweise GeoTIFF, entfernte"
-" WMS oder hierarchische Rasterkacheln im Dateisystem "
+"Unterstützt verschiedene Datenquellen, wie beispielsweise GeoTIFF, Remote "
+"WMS oder hierarchische Rasterkacheln im Dateisystem"
 
 #: ../../build/doc/overview/deegree_overview.rst:78
 msgid "Supports on-the-fly caching (using EHCache)"
@@ -258,7 +266,7 @@ msgstr "Unterstützt on-the-fly Caching (Verwendung von EHCache)"
 
 #: ../../build/doc/overview/deegree_overview.rst:79
 msgid "Supports GetFeatureInfo for remote WMS backends"
-msgstr "Unterstützt GetFeatureInfo für entfernte WMS"
+msgstr "Unterstützt GetFeatureInfo für Remote WMS Datenquellen"
 
 #: ../../build/doc/overview/deegree_overview.rst:81
 msgid "**CSW**"
@@ -308,7 +316,7 @@ msgid ""
 "Handles all defined queryable properties (for Dublin Core as well as ISO "
 "profile)"
 msgstr ""
-"Unterstützt all definierten queryable properties (für Dublin Core und ISO "
+"Unterstützt all definierten queryable Properties (für Dublin Core und ISO "
 "Profil)"
 
 #: ../../build/doc/overview/deegree_overview.rst:92
@@ -419,8 +427,8 @@ msgid "**API Interfaces:** Java"
 msgstr "**API Schnittstellen:** Java"
 
 #: ../../build/doc/overview/deegree_overview.rst:131
-msgid "**Support:** http://wiki.deegree.org/deegreeWiki/GettingSupport"
-msgstr "**Support:** http://wiki.deegree.org/deegreeWiki/GettingSupport"
+msgid "**Support:** https://www.deegree.org/community"
+msgstr ""
 
 #: ../../build/doc/overview/deegree_overview.rst:136
 msgid "Quickstart"
