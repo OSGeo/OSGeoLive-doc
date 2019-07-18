@@ -763,3 +763,27 @@ source_file = locale/pot/overview/geoext_overview.pot
 source_lang = en
 type = PO
 
+[osgeolive.quickstart--actinia_quickstart]
+file_filter = locale/<lang>/LC_MESSAGES/quickstart/actinia_quickstart.po
+source_file = locale/pot/quickstart/actinia_quickstart.pot
+source_lang = en
+type = PO
+
+[osgeolive.quickstart--t-rex_quickstart]
+file_filter = locale/<lang>/LC_MESSAGES/quickstart/t-rex_quickstart.po
+source_file = locale/pot/quickstart/t-rex_quickstart.pot
+source_lang = en
+type = PO
+
+[osgeolive.overview--actinia_overview]
+file_filter = locale/<lang>/LC_MESSAGES/overview/actinia_overview.po
+source_file = locale/pot/overview/actinia_overview.pot
+source_lang = en
+type = PO
+
+[osgeolive.overview--t-rex_overview]
+file_filter = locale/<lang>/LC_MESSAGES/overview/t-rex_overview.po
+source_file = locale/pot/overview/t-rex_overview.pot
+source_lang = en
+type = PO
+

@@ -411,7 +411,7 @@ It is very easy (and fast) to render a map:
    ace --location latlong r.info globcover@globcover
    ace --location latlong --render-raster globcover@globcover
 
-.. figure:: ./ed8775a4bc46415d5c131804ac649936748ad7a7.png
+.. figure:: /images/projects/actinia/ed8775a4bc46415d5c131804ac649936748ad7a7.png
    :alt: ESA Globcover map shown by actinia
 
    ESA Globcover map shown by actinia

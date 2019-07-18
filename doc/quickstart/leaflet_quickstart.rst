@@ -83,7 +83,7 @@ If you have online access you may want to use a nicer tilemap as the background:
 
 ::
 
-L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18, attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
+ L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18, attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
 
 Make sure all the code is called after the **div** and **leaflet.js** inclusion. That's it! You have a working Leaflet map now.
 
