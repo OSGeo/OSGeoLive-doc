@@ -1,0 +1,602 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Zoltan Siki <siki@agt.bme.hu>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: 2017-09-20 16:03+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2019\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:16
+msgid "SAGA Quickstart"
+msgstr "SAGA gyorstalpaló"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:18
+msgid ""
+"SAGA (System for Automated Geoscientific Analyses) is an open source "
+"geographic information system (GIS) used for editing and analysing spatial "
+"data. It includes a large number of modules for the analysis of vector "
+"(point, line and polygon), table, grid and image data. Among others the "
+"package includes modules for geostatistics, image classification, "
+"projections, simulation of dynamic processes (hydrology, landscape "
+"development) and terrain analysis. The functionality can be accessed through"
+" a GUI, the command line or by using the C++ API."
+msgstr ""
+"A SAGA (System for Automated Geoscientific Analyses) egy nyílt forráskódú "
+"térinformatikai rendszer (GIS) térinformatikai adatok szerkesztésére és "
+"elemzésére. Nagy számú modult tartalmaz vektor (pont, vonal és terület), "
+"táblázat, rács és kép adatok elemzésére. A csomag többek között modulokat "
+"tartalmaz geostatisztikára, kép osztályozásra, vetületekre, dinamikus "
+"folyamatok (hidrológia, tájtervezés) szimulációjára és terep modellezésre. A"
+" funkcionalitása elérhető a grafikus felhasználói felületen, parancssorból "
+"vagy a C++ API felhasználásával."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:30
+msgid "Running"
+msgstr "Futtatás"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:32
+msgid ""
+"To run SAGA GIS on the Live DVD, open the Desktop GIS group on the Desktop "
+"and click on the SAGA link."
+msgstr ""
+"A SAGA GIS futtatásához a Live DVD-ről, nyissa meg a Desktop GIS csoportot "
+"az asztalon és kattintson a SAGA linkre."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:35
+msgid ""
+"When opening SAGA for the first time, you are presented with 3 subwindows: "
+"the Manager, the object Properties and the Messages window. The information "
+"in the object properties window will change depending on your selection in "
+"the Manager window."
+msgstr ""
+"Amikor először megnyitja a SAGA-t három ablak jelenik meg: a kezelő "
+"(Manager), az objektum tulajdonságok (Properties és az üzenetek (Messages) "
+"ablak. Az objektum tulajdonságok ablakban megjelenő információ a kezelő "
+"ablakban történő kiválasztástól függően változik meg, "
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:40
+msgid ""
+"You can close any of the windows (Manager, Object Properties, Data Sources "
+"and Messages). Try closing one of the windows to get more place for your "
+"map. You can show closed windows again in the **Window** menu."
+msgstr ""
+"Lezárhatja bármelyik ablakot (Manager, Object Properties, Data Sources and "
+"Messages). Próbálja meg lezárni az egyik ablakot, hogy több helye legyen a "
+"térképnek. A lázárt ablakokat megnyithatja ismét a **Window** menüből."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:49
+msgid "Opening Data"
+msgstr "Adatok megnyitása"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:51
+msgid ""
+"Open the SAGA GUI and load the grid "
+"`/home/user/data/saga/DGM_30m_Mt.St.Helens_SRTM.grd` via the "
+"**File|Grid|Load** menu."
+msgstr ""
+"Nyissa meg a SAGA grafikus felhasználói felületét és töltse be a "
+"`/home/user/data/saga/DGM_30m_Mt.St.Helens_SRTM.grd` rácsot a "
+"**File|Grid|Load** menüpont segítségével."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:54
+msgid ""
+"You will get a message in the General tab of the Messages window regarding "
+"the success or failure of this task. You should see something like `Load "
+"Grid: DGM_30m_Mt.St.Helens_SRTM.grd...okay`. Once you loaded the dataset, it"
+" will show up in the Data tab of the Workspace window. It will be listed "
+"under Grids and the grid system it belongs to."
+msgstr ""
+"A Messages ablak General fülén egy üzenetet kap ennek a műveletnek a "
+"sikerességéről vagy sikertelenségéről. Valami ilyet kellene látnia: `Load "
+"Grid: DGM_30m_Mt.St.Helens_SRTM.grd...okay`. Miután betöltötte az adatokat, "
+"megjelenik a Workspace ablak Data fülén. A Grids alatti listába jelenik meg "
+"a hozzá kapcsolódó rács rendszerrel együtt."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:60
+msgid ""
+"In this case, the grid system information will look like **30;312x 458y; "
+"557970x 5108130y**. The first number is the cell size (30 meters), the next "
+"two numbers show the number of cells in x and y direction respectively, and "
+"the last two numbers are the origin of the grid."
+msgstr ""
+"Ebben az esetben a rács rendszer így néz ki **30;312x 458y; 557970x "
+"5108130y**. Az első szám a cella méret (30 méter), a következő két szám a "
+"cellák számát mutatja x és y irányban, az utolsó két szám a rács "
+"kezdőpontja."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:65
+msgid ""
+"SAGA's grid systems are referenced by the bottom left corner. This, and some"
+" more useful information on the dataset show up if you select the "
+"Description tab of the Properties window. Once you click on the tab, you "
+"will see not only more detailed information on the grid system, but also the"
+" Value Type of the grid (here FLOAT), the Value Range, some statistical "
+"measures and the Memory Size."
+msgstr ""
+"A SAGA rács rendszer a bal alsó sarokra illesztett. Ez és még további "
+"hasznos információk jelennek meg az adatokról, ha a Properties ablak "
+"Description fülét választja. A fülre kattintás után nem csak részletesebb "
+"információt kap a rács rendszerről, megkapja az érték típust (itt FLOAT), az"
+" értékek tartományát, néhány statisztikai jellemzőt és a memória méretet."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:72
+msgid ""
+"You can also load data by dragging and dropping it on the application. Try "
+"this with one of the datasets in the ** "
+"/home/user/data/gdal_natural_earth/** folder."
+msgstr ""
+"Adatokat betölthet húzással és az alkalmazásra dobással is. Próbálja ki ezt "
+"az egyik adatállománnyal a ** /home/user/data/gdal_natural_earth/** "
+"mappából."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:76
+msgid "Displaying Data"
+msgstr "Adatok megjelenítése"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:78
+msgid "To display the dataset in a map view:"
+msgstr "Egy adathalmaz megjelenítése egy térkép nézetben"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:80
+msgid ""
+"Double click on the dataset in the Data tab of the Workspace window. A new "
+"Map window will open up with the dataset displayed. The canvas is framed: "
+"top and left the x- and y-world coordinates are displayed. Bottom and right "
+"you see rulers in map units."
+msgstr ""
+"Kattintson az adatállományra a Workspace ablak Data fülén. Egy új "
+"térképablak nyílik meg a megjelenített adatállománnyal. A vászon körül keret"
+" van: fent és balra az x és y koordináták jelennek meg. Lent és jobbra "
+"vonalzókat lát térképi egységekkel."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:83
+msgid ""
+"Try moving the mouse pointer over the map and watch the x-, y- and "
+"z-coordinates displayed in the bottom bar of the SAGA GUI window. The "
+"z-coordinates displayed correspond to the elevation values of the dataset "
+"(be aware that the values displayed are always those of the dataset selected"
+" in the Data or Maps tab)."
+msgstr ""
+"Próbálja meg az egeret mozgatni a térkép felett és figyelje a megjelenített"
+"  x, y és z koordinátákat a SAGA ablak alsó sávjában. A megjelenített z "
+"koordináta az adathalmaz magasságának (vegye figyelembe, hogy a "
+"megjelenített értékek mindig a kiválasztott adatállomány értékei a Data vagy"
+" Map fülön)."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:88
+msgid ""
+"Now use the navigation tools to zoom and pan. The Zoom tool is selected by "
+"default. A left click on the map zooms in, a right click zooms out. Holding "
+"the left mouse button down, dragging to the opposite corner and letting the "
+"mouse button up allows you to zoom to an area of interest."
+msgstr ""
+"Most használja a navigációs eszközöket nagyításra és eltolásra. A nagyítás "
+"eszköz alapértelmezésben a kiválasztott. Bal kattintás a térképen nagyít, "
+"jobb kattintás kicsinyít. A bl gombot nyomva tartva az átellenes sarokba "
+"húzás és az egérgomb elengedése lehetővé teszi a területre nagyítást."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:93
+msgid ""
+"If you zoom in a lot and turn on Show cell values on Settings tab, you will "
+"see that the cell values are getting displayed. To pan, select the Pan tool "
+"and click and drag to move the map. Have a look at the other buttons in the "
+"tool bar: these allow you to zoom e.g. to Full Extent."
+msgstr ""
+"Ha nagyon belenagyít és a bekapcsolja a cella értékek megjelenítését a "
+"Settings fülön, láthatja, hogy a cella értékek megjelennek. Az eltoláshoz "
+"válassza a Pan eszközt és kattintson és húzza a térkép mozgatásához. Vessen "
+"egy pillantást a többi gombra az eszköztárban: ezek lehetővé teszik például "
+"a terjedelemre nagyítást."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:100
+msgid ""
+"Saga zooms very fast, if you are lost while browsing your data, click the "
+"'Zoom to Full Extent' button in the toolbar"
+msgstr ""
+"A Saga nagyon gyorsan nagyít, ha eltévedt az adatai böngészése közben "
+"kattintson a 'Zoom to Full Extent' gombra az eszközsorban."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:104
+msgid "Creating a shaded relief map view"
+msgstr "Domborzat árnyalt nézet létrehozása"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:105
+msgid "We will enhance the map display by calculating a shaded relief map."
+msgstr ""
+"Térkép megjelenítés kiemelése egy árnyékolt domborzati térkép "
+"kiszámításával."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:107
+msgid ""
+"Switch to the Tools tab of the Manager window and click on the triangle left"
+" to the **Terrain Analysis - Lighting, Visibility** module library: the list"
+" with the modules of this library will show up."
+msgstr ""
+"Térjen át a Manager ablak Tools fülére és kattintson a háromszögre balra a  "
+"**Terrain Analysis - Lighting, Visibility** modul könyvtártól: ennek a "
+"könyvárnak a moduljai jelennek meg egy listában."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:110
+msgid ""
+"Now select the Analytical Hillshading module and then select the Settings "
+"tab of the Properties window. This will show up the module parameters (also "
+"have a look at the Description tab, which will display more information "
+"about the module and its parameters)."
+msgstr ""
+"Most válassza az  Analytical Hillshading modult és utána válassza a "
+"Properties ablak Setting fülét. Ez megjeleníti a modul paramétereket (vessen"
+" egy pillantást a Description fülre is, mely további információt jelenit meg"
+" a a modulról és a paramétereiről)."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:114
+msgid ""
+"Click in the right column of the Grid system parameter (where [not set] is "
+"displayed) and select the grid system of the Mt. St. Helens dataset (**30; "
+"312x 458y; 557970x 5108130y**)."
+msgstr ""
+"Kattintson a Grid system parameter jobb oszlopába (ahol [not set] látszik) "
+"és válassza a Mt, St, Helent adatállomány rácsrendszerét (**30; 312x 458y; "
+"557970x 5108130y**)."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:117
+msgid ""
+"Next click into the right column of the Elevation parameter and select the "
+"dataset. Click in the right column of the Shading Method option and select "
+"Standard. Now press the Apply and then the Execute button. A new dataset "
+"containing the hillshade will be calculated."
+msgstr ""
+"Ezután kattintson az Elevation paraméter jobb oszlopába és válassza ki az "
+"adatállományt. Kattintson a Shading Method beállítás jobb oszlopába és "
+"válassza a Standard-ot. Nyomja meg az Apply és utána az Execute gombot. Egy "
+"domborzat árnyékolást tartalmazó új adatállomány jön létre."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:122
+msgid ""
+"Have a look at the Data tab of the Workspace window - you will find the "
+"newly created dataset."
+msgstr ""
+"Vessen egy pillantást a Workspace ablak Data fülére - ott találja az újonnan"
+" létrehozott adatállományt."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:124
+msgid ""
+"Double click on the 'Analytical Hillshading' dataset and select New in the "
+"dialog popping up. This will display the dataset in a new map view. After "
+"inspecting the dataset, close the Map window by selecting Close from the "
+"Window menu."
+msgstr ""
+"Kattintson duplán a 'Analytical Hillshading' adatállományra és válassza a "
+"New-ra felbukkanó párbeszédablakban. Ez megjeleníti az adatokat egy új "
+"térkép nézetben. Az adatok megvizsgálása után zárja le a térkép ablakot a "
+"Window menüből A Close kiválasztásával."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:129
+msgid ""
+"Now double click on the hillshade dataset again, but select the Map "
+"containing the elevation dataset in the dialog popping up (Add layer to "
+"selected map). This will place the hillshade on top of the elevation "
+"dataset."
+msgstr ""
+"Most kattintson duplán domborzat árnyalt adatállományra ismét,  de válassza"
+"   a magasságokat tartalmazó térképet a felbukkanó párbeszédablakban (Add "
+"layer to selected map). Ez a domborzat árnyalást a magasság adatok felé "
+"helyezi."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:136
+msgid ""
+"Switch to the Maps tab of the Manager window. You will see on the Tree tab "
+"the entry of your map and the datasets the map is composed of. The drawing "
+"order is top to bottom. Now do a right click on the 'Analytical Hillshading'"
+" dataset and select Move To Bottom from the context menu popping up. This "
+"will change the drawing order, placing the hillshade beneath the elevation "
+"dataset (which now shows up again in the map view)."
+msgstr ""
+"Váltson a Manager ablak Maps fülére. A Tree fülön látja a térképnek belépési"
+" pontját és a térképet alkotó adatállományokat. A rajzi sorrend fentről "
+"lefelé. Jobb gombbal kattintson az 'Analytical Hillshading'  adatállományra "
+"és válassza a Move TO Bottom-ot a felbukkanó környezetfüggő menüből. Ez "
+"módosítja a rajzi sorrendet a domborzat árnyékolást a magasság adatállomány "
+"alá helyezi (mely újra megjelenik a térkép nézetben)."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:142
+msgid ""
+"Now select the elevation dataset (by left clicking) and have a look at the "
+"Settings tab of the Properties window. Find the Display section of the "
+"parameters and click in the right column of the Transparency option. Enter a"
+" value of 30 and press the Apply button. Now you will see your elevation "
+"values shaded by relief."
+msgstr ""
+"Most válassza a magasság adatállományt (bal kattintással) és vessen egy "
+"pillantást a Properties ablak Settings fülére. Keresse meg a Display "
+"fejezetet  a paraméterek között és kattintson a Transparency beállítás jobb "
+"oszlopába. Írjon be 30-at ésnyomja meg az Apply gombot.. Most a magasság "
+"adatait látja domborzat árnyalással."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:148
+msgid ""
+"Feel free to try other Transparency settings or even try other Shading "
+"Methods in the Analytical Hillshading module (in case you do not change the "
+"output dataset parameter, the changes will be written to the grid already "
+"created, i.e. you will see the changes in the map view immediately)."
+msgstr ""
+"Ne habozzon, hogy más átlátszósági beállításokat kipróbáljon, vagy akár "
+"kipróbálhat más Shading Methods-t az Analytical Hilshading modulból (abban "
+"az esetben, ha nem változtatja meg az output adatállomány paramétert, a "
+"módosításokat a már létrehozott rácsba írja, azaz azonnal látni fogja a "
+"változásokat a térképen)."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:154
+msgid "3D visualization"
+msgstr "3D megjlenítés"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:155
+msgid "In a next step, you might like to visualize your map in 3D."
+msgstr "A következő lépésben a térképet 3D-ben is megjelenítheti."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:157
+msgid ""
+"Be sure your Map window is selected and press the Show 3D-View button in the"
+" tool bar. In the dialog popping up, select the grid system containing your "
+"elevation dataset and set the Mt. St. Helens dataset as the Elevation "
+"parameter. Once you press the Okay button, the 3D view of your map will show"
+" up. Hold the left mouse button pressed and move the mouse to rotate and "
+"tilt the map."
+msgstr ""
+"Győződjön meg, hogy a térkép ablakot szelektálta és nyomja meg a Show 3D-"
+"view gombot az eszköztárban- A felbukkanó párbeszédablakban válassza "
+"magassági adatait tartalmazó rács rendszert és állítsa be a Mt. St. Helens "
+"adatokat Elevation paraméterként. Az Okay gomb megnyomása után a térképének "
+"3D-s nézete jelenik meg. Tartsa nyomva a bal egérgombot és mozgassa az "
+"egeret a térkép forgatásához és döntéséhez."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:164
+msgid ""
+"Use the mouse wheel to zoom in/out and the right button to shift the map. "
+"Also have a look at the tool bar of the 3D View: the buttons replicate the "
+"mouse operations and offer further functionality. To close the 3D view "
+"select the Close option from the Window menu."
+msgstr ""
+"Használja az egérgörgőt a nagyításhoz/kicsinyítéséhez és a jobb gombot a "
+"térkép eltolásához. Vessen egy pillantást a 3D View eszközsorára: a gombok "
+"megismétlik az egérműveleteket és további funkcionalitást kínálnak.  A 3D "
+"nézet bezárásához a Window menüből válassza a Close pontot."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:173
+msgid "Creating Contour Lines"
+msgstr "Szintvonalak létrehozása"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:174
+msgid ""
+"As a short introduction to SAGA vector capabilities, we will now generate "
+"Contour Lines from the digital elevation model."
+msgstr ""
+"A SAGA vektor képességek rövid bemutatása során szintvonalakat generálunk a "
+"digitális magasság modellből."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:177
+msgid ""
+"This can be done by using the **Shapes - Grid | Contour Lines From Grid** if"
+" you open the tools tab in the manager, or you can equally well open the "
+"module using the menu: **Geoprocessing|Shapes|Grid|Vectorization**."
+msgstr ""
+"Ezt megteheti a **Shapes - Grid | Contour Lines From Grid** használatával, "
+"ha a managerben megnyitja az eszközök fület vagy ugyanezzel az eredménnyel "
+"jár a modul megnyitása a menüből: "
+"**Geoprocessing|Shapes|Grid|Vectorization**."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:180
+msgid ""
+"Choose your grid system and grid (this has to be the elevation). You can "
+"leave the options as they are, but perhaps it is better to choose an "
+"equidistance of 50m instead of the standard 10m."
+msgstr ""
+"Válassza ki a rács rendszerét (ennek magasságnak kell lennie). Meghagyhatja "
+"a beállításokat, de valószínűleg jobb, ha az alapértelmezett 10 méteres "
+"egyenlő közű szintvonalak helyett 50 m-et választ."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:183
+msgid ""
+"A few seconds later your contour map has been generated and you should find "
+"it back under the data tab in the workspace. Try opening your contour map in"
+" a new map. All contour lines now have the same colour, which is not that "
+"attractive."
+msgstr ""
+"Néhány másodperccel később a program elkészíti a szintvonalas térképet és a "
+"workspace data füle alatt megtalálhatja. Próbálja megnyitni a szintvonalas "
+"térképet egy új térképen. Minden szintvonal azonos színű, ami nem annyira "
+"vonzó."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:187
+msgid ""
+"If you select your data set (in the workspace, data tab) and check the "
+"Settings in the Object Properties window, you can find a section: Display: "
+"color classification. You can change the classification from 'Unique symbol'"
+" to graduated color. Then you should still adjust the attribute which is "
+"used for this graduated color to the elevation. Press apply, and you are "
+"presented with coloured contour lines."
+msgstr ""
+"Ha kiválasztja az adatállományát (a workspace-ban a data fül) és az Object "
+"Properties ablakban ránéz a Settings-re, akkor találhat egy Display: color "
+"classification fejezetet. Módosíthatja az osztályozás a 'Unique symbol'-ról "
+"a szín átmenetekre. Ezután még módosítsa az attribútumot, amely alapján a "
+"színezés történik, a magasságra. Nyomja meg az Apply-t és színes "
+"szintvonalakat kap."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:195
+msgid "Check your history"
+msgstr "Nézze meg az előzményeket"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:196
+msgid ""
+"If you select a dataset (eg your contour lines) in the data tab of the "
+"manager window, you can switch the object properties tab to 'history' to "
+"review which module and which options were used to create the dataset. This "
+"information is also kept when you save your files (in .mshp and .mgrd "
+"files)."
+msgstr ""
+"Ha kiválaszt egy adatállományt (pl. a szintvonalakat) a manager ablak data "
+"fülén, az objektum tulajdonságok fülről átválthat a 'history'-ra, hogy "
+"áttekintse, mely modulokat és milyen beállításokat használtak az "
+"adatállomány létrehozásához. Ezt az információt a rendszer a fájlok mentése "
+"után is megőrzi (. mshp és. mgrd fájlokban)."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:204
+msgid ""
+"You can create a tool chain from your history - which allows you to run a "
+"chain of modules again with fixed options. A tutorial can be found at "
+"https://rohanfisher.wordpress.com/saga-tool-chains/"
+msgstr ""
+"Az előzményekből egy parancs parancs sorozatot állíthat elő - mely lehetővé "
+"teszi, hogy a modulok láncolatát futtassa ismételten, a beállított "
+"paraméterekkel. Egy oktatóanyag található erről itt "
+"https://rohanfisher.wordpress.com/saga-tool-chains/"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:209
+msgid "Saving data"
+msgstr "Adatok mentése"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:210
+msgid ""
+"To save the work you have created you should open the data tab in the "
+"workspace, and right click on the file you want to save. SAGA will save grid"
+" files to its own native format (\\*.sgrd) and shapefiles to the standard "
+"ESRI shapefile format (\\*.shp). It is also possible to save the project, by"
+" choosing **File|Project|Save Project As**. This will save all the map views"
+" and data settings, as well as offering to save the data files."
+msgstr ""
+"A munkájának elmentéséhez nyissa meg a data fület a workspace-ben és "
+"kattintson jobb gombbal a mentendő fájlra. A SAGA a rács fájlokat a saját "
+"formátumába menti el  (\\*.sgrd) és a vektor fájlokat ESRI shape fájl "
+"formátumba (\\*.shp). A projektet is elmenthetjük  a **File|Project|Save "
+"Project As** választásával. Ez elmenti az összes térkép nézetet és adat "
+"beállításokat mint ahogy lehetőséget biztosít az adat fájlok elmentésére is."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:218
+msgid "Importing/Exporting data"
+msgstr "Adatok importálása/exportálása"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:219
+msgid ""
+"Under the hood SAGA can also use the GDAL library for opening different "
+"raster and vector formats. The easiest way is to use **File|Grid|Open** for "
+"raster data and **File|Shapes|Open** for vector data. For rasters among "
+"others geotiff is supported. Note that you can also just drag and drop files"
+" on SAGA. More advanced options and modules are present under "
+"**Geoprocessing|File|Grid**."
+msgstr ""
+"A motorház tető alatt a SAGA a GDAL könyvtárat is használja különböző vektor"
+" és raszter formátumú állományok megnyitására. A legegyszerűbb megoldás a "
+"**File|Grid|Open** használata raszter adatokra és a **File|Shapes|Open**  "
+"vektor adatokra. Raszterek esetén többek között a geotiff is használható. "
+"További beállítások és modulok találhatók a **Geoprocessing|File|Grid** "
+"alatt."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:226
+msgid ""
+"SAGA GIS grid format is supported by GDAL since version 1.7.0. Grid Files "
+"saved by SAGA can be opened by many other programs using GDAL. However, you "
+"must open the '\\*.sdat' file and not the '\\*.sgrd' file."
+msgstr ""
+"A SAGA GIS rács formátumot a GDAL támogatja az 1.7.0 verzió óta. A SAGA-val "
+"mentett rács fájlok megnyithatók több más GDAL-t használó programmal. Habár "
+"a '\\*.sdat' fájlt kell megnyitniia és nem a \\*.sgrd' fájlt."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:230
+msgid ""
+"In this example we will use the digital elevation (SRTM) data from the "
+"region around Barcelona as you would download it from the web."
+msgstr ""
+"Ebben a példában digitális magasság adatokat (SRTM) használunk, Barcelona "
+"környéken, ahogy azt az internetről letölthetjük."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:233
+msgid ""
+"The data file we want to use is `SRTM_u03_n041e002.tif` and can be found "
+"under `/home/user/data/raster` . You can import this using the Import/Export"
+" GDAL/OGR module, which can also be found in the **Geoprocessing|file|import"
+" raster**."
+msgstr ""
+"Az `SRTM_u03_n041e002.tif` fájl, amit használni fogunk, megtalálható a "
+"`/home/user/data/raster` könyvtár alatt. Ezt importálhatja az Import/Export "
+"GDAL/OGR modullal amely megtalálható a  **Geoprocessing|file|import "
+"raster**-ben."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:238
+msgid ""
+"After importing this dataset and opening it in a new window, you will most "
+"likely be disappointed: It looks all gray! Let's check what might be the "
+"cause: Some pixels near the coast seem to have a very small value (-32768) "
+"(you can check the value of a pixel by checking the Z: value in the status "
+"bar while moving your mouse over the grid)."
+msgstr ""
+"Az adatállomány importálása és egy új ablakban megnyitása után valószínűleg "
+"csalódni fog: minden szürke! Nézzük meg mi lehet az oka: Néhány partvonalhoz"
+" közeli pixelnek nagyon kis értéke van (-32768) (megnézheti egy pixel "
+"értékét a Z:érték ellenőrzésével a státusz sorban, miközben az egeret "
+"mozgatja a rácson)."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:244
+msgid ""
+"These pixels actually have no data, so we should adjust the nodata settings:"
+" in the object properties window (after selecting the dataset in the "
+"workspace window), set the maximum no data value to -32768 and apply.  After"
+" doing that, we can reset our color scale to fit the range of the data. An "
+"easy method is right clicking on the grid in the workspace and choosing "
+"'Classification|Set Range to minimum maximum'."
+msgstr ""
+"Ezekhez a pixelekhez nincs adat, így a nincs adat beállítást kell "
+"módosítanunk az objektum tulajdonságok ablakban (az adatállomány "
+"kiválasztása után a workspace ablakban), állítsa be  a maximális nincs adat "
+"értéket -32768-ra. Ezután visszaállíthatjuk a színskálánkat, hogy "
+"illeszkedjen az adatok terjedelméhez. Egy egyszerű megoldás jobb gomb "
+"kattintás a rácsra a workspace-ben a 'Classification|Set Range to minimum "
+"maximum' kiválasztása."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:251
+msgid ""
+"You are now ready to repeat the first steps to create a hillshaded map or "
+"explore some of the other modules of SAGA!"
+msgstr ""
+"Most készen áll, hogy megismételje az első lépéseket, a domborzat árnyékolt "
+"térkép létrehozását vagy néhány más SAGA modult felfedezzen."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:255
+msgid "More Information"
+msgstr "További információ"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:256
+msgid "More documentation can be found on the SAGA website:"
+msgstr "További dokumentáció található a SAGA honlapon:"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:257
+msgid "http://www.saga-gis.org"
+msgstr "http://www.saga-gis.org"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:261
+msgid "and specifically in the documentation archive:"
+msgstr "és különösen a dokumentáció archívumban:"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:259
+msgid "http://www.saga-gis.org/en/about/references.html"
+msgstr "http://www.saga-gis.org/en/about/references.html"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:260
+msgid ""
+"http://sourceforge.net/projects/saga-gis/files/SAGA%20-%20Documentation/"
+msgstr ""
+"http://sourceforge.net/projects/saga-gis/files/SAGA%20-%20Documentation/"

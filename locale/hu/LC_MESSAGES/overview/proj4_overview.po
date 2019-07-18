@@ -1,21 +1,24 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Zoltan Siki <siki@agt.bme.hu>, 2018
+# MarPetra <mvergaratrejo@gmail.com>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-09 11:45-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -26,16 +29,11 @@ msgstr "Proj.4"
 #: ../../build/doc/overview/proj4_overview.rst:18
 msgid ""
 "Proj4 is a library that provides methods to transform between different "
-"coordinate reference systems. A geographic coordinate reference systems "
+"coordinate reference systems. A geographic coordinate reference system "
 "allows all points on the earth to be described as a set of coordinates (such"
 " as latitude, longitude and elevation). Different systems are used to "
 "represent the 3 dimensional earth on a flat, 2 dimensional map."
 msgstr ""
-"A Proj4 egy könyvtár, mely különböző vetületi rendszerek közötti "
-"transzformációs eljárásokat biztosít. Egy földrajzi vetület lehetővé teszi "
-"az összes földi pont koordinátákkal történő leírását (úgy mint szélesség, "
-"hosszúság és magasság). Különböző rendszereket használunk a 3 dimenziós föld"
-" 2 dimenziós sík térképen ábrázolásához."
 
 #: ../../build/doc/overview/proj4_overview.rst:24
 msgid ""

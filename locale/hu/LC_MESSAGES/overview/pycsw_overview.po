@@ -1,21 +1,24 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Zoltan Siki <siki@agt.bme.hu>, 2018
+# MarPetra <mvergaratrejo@gmail.com>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-09 11:45-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -57,18 +60,12 @@ msgstr ""
 #: ../../build/doc/overview/pycsw_overview.rst:28
 msgid ""
 "pycsw is a `Python`_ implementation of the `OGC Catalogue Services for the "
-"Web (CSW) standard <http://www.opengeospatial.org/standards/cws>`__. The "
+"Web (CSW) standard <https://www.opengeospatial.org/standards/cat>`__. The "
 "project is certified `OGC Compliant`_, and is an `OGC Reference "
 "Implementation`_. The CSW standard defines common interfaces to discover, "
 "browse and query metadata about spatial data, web services and related "
 "resources."
 msgstr ""
-"A pycsw az `OGC Katalógus szolgáltatások a Webre (CSW) szabvány "
-"<http://www.opengeospatial.org/standards/cws>`__ `Python`_ implementációja ."
-" A projekt `OGC Compliant`_ tanúsítvánnyal rendelkezik, és egy `OGC "
-"Reference Implementation`_. A CSW-szabvány közös interfészeket határoz meg a"
-" téradatok, a webes szolgáltatások és a kapcsolódó erőforrások metaadatainak"
-" felfedezésére, böngészésére és lekérdezésére."
 
 #: ../../build/doc/overview/pycsw_overview.rst:30
 msgid ""
@@ -226,24 +223,24 @@ msgid "SOAP  1.2"
 msgstr "SOAP  1.2"
 
 #: ../../build/doc/overview/pycsw_overview.rst:82
-msgid "ISO 19115     2003"
-msgstr "ISO 19115     2003"
+msgid "ISO 19115:2003"
+msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:83
-msgid "ISO 19139     2007"
-msgstr "ISO 19139     2007"
+msgid "ISO 19139:2007"
+msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:84
-msgid "ISO 19119     2005"
-msgstr "ISO 19119     2005"
+msgid "ISO 19119:2005"
+msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:85
-msgid "NASA DIF      9.7"
-msgstr "NASA DIF      9.7"
+msgid "NASA DIF 9.7"
+msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:86
-msgid "FGDC CSDGM    1998"
-msgstr "FGDC CSDGM    1998"
+msgid "FGDC CSDGM 1998"
+msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:87
 msgid "GM03  2.1"
@@ -266,8 +263,8 @@ msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/pycsw_overview.rst:95
-msgid "**Website:** http://pycsw.org"
-msgstr "**Honlap:** http://pycsw.org"
+msgid "**Website:** https://pycsw.org"
+msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:97
 msgid "**Licence:** `MIT`_"
@@ -286,8 +283,8 @@ msgid "**API Interfaces:** Python"
 msgstr "**API interfészek:** Python"
 
 #: ../../build/doc/overview/pycsw_overview.rst:105
-msgid "**Support:** http://pycsw.org/docs/support.html"
-msgstr "**Támogatás:** http://pycsw.org/docs/support.html"
+msgid "**Support:** https://pycsw.org/docs/support.html"
+msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:114
 msgid "Quickstart"
