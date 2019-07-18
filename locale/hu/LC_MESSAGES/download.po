@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: 2017-11-07 03:17+0000\n"
 "Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -28,18 +28,21 @@ msgstr "Letöltés"
 #: ../../build/doc/download.rst:9
 msgid ""
 "The latest stable release is |osgeolive-version| and can be downloaded from:"
-" https://sourceforge.net/projects/osgeo-live/files/12.0/"
 msgstr ""
 
-#: ../../build/doc/download.rst:12
+#: ../../build/doc/download.rst:11
+msgid "https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version|/"
+msgstr ""
+
+#: ../../build/doc/download.rst:14
 msgid "Picking the right image for you:"
 msgstr "Válassza az önnek megfelelő image-t:"
 
-#: ../../build/doc/download.rst:14
+#: ../../build/doc/download.rst:16
 msgid "**osgeolive iso**: |osgeolive-iso-size|"
 msgstr "**osgeolive iso**: |osgeolive-iso-size|"
 
-#: ../../build/doc/download.rst:16
+#: ../../build/doc/download.rst:18
 msgid ""
 "A Lubuntu based bootable image, which can be copied to an 8 Gig USB thumb "
 "drive (faster and recommended) or DVD (cheaper). It can also be used to "
@@ -48,11 +51,11 @@ msgstr ""
 "Egy Lubuntu alapú betölthető rendszer, melyet egy 8 gigás USB meghajtóra "
 "(gyorsabb és ezt javasolják) vagy DVD-re (olcsóbb) másolhatunk."
 
-#: ../../build/doc/download.rst:18
+#: ../../build/doc/download.rst:20
 msgid "**osgeolive-vm**: |osgeolive-vm-7z-size|"
 msgstr "**osgeolive-vm**: |osgeolive-vm-7z-size|"
 
-#: ../../build/doc/download.rst:20
+#: ../../build/doc/download.rst:22
 msgid ""
 "This is a pre-made virtual machine (.vmdk), based on osgeolive, suitable for"
 " use in VirtualBox, VMWare, KVM and other virtual machine applications. It "
@@ -62,11 +65,11 @@ msgstr ""
 "használható a VirtualBOX, VMWare, KVM és más virtuális gép alkalmazásokban. "
 "A `7-Zip <http://www.7-zip.org/>`_ segítségével tömörítettük."
 
-#: ../../build/doc/download.rst:22
+#: ../../build/doc/download.rst:24
 msgid "**amd64 or i386 architecture**"
 msgstr "**amd64 vagy i386 architektúra**"
 
-#: ../../build/doc/download.rst:24
+#: ../../build/doc/download.rst:26
 msgid ""
 "ISO images are available for recent amd64 hardware (recommended) as well as "
 "older i386 hardware."
@@ -74,20 +77,20 @@ msgstr ""
 "ISO imagek állnak rendelkezésre a legújabb amd64 hardverhez (javasolt) "
 "ugyanúgy mint a régebbi i386 hardverhez."
 
-#: ../../build/doc/download.rst:26
+#: ../../build/doc/download.rst:28
 msgid "**md5 checksum**"
 msgstr "**md5 ellenőrzőösszeg**"
 
-#: ../../build/doc/download.rst:28
+#: ../../build/doc/download.rst:30
 msgid ""
 "You can use the md5 checksum to verify the image downloaded successfully."
 msgstr "Az md5 ellenőrzőösszeggel a letöltés hibátlanságát ellenőrizheti."
 
-#: ../../build/doc/download.rst:30
+#: ../../build/doc/download.rst:32
 msgid "**System Requirements**"
 msgstr "**Rendszer követelmények**"
 
-#: ../../build/doc/download.rst:32
+#: ../../build/doc/download.rst:34
 msgid ""
 "`Minimum suggested system resources: 1 GB RAM (2 GB are better for trying "
 "Java based applications), 1GHz i386 or amd64 compatible CPU. No hard drive "

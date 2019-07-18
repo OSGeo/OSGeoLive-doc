@@ -1,0 +1,754 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Zoltan Siki <siki@agt.bme.hu>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"PO-Revision-Date: 2017-09-20 16:04+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:35
+msgid "PostGIS Quickstart"
+msgstr "PostGIS gyorstalpaló"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:37
+msgid ""
+"PostGIS adds spatial capabilities to the PostgreSQL relational database. It "
+"extends PostgreSQL so it can store, query, and manipulate spatial data. In "
+"this Quickstart we will use 'PostgreSQL' when describing general database "
+"functions, and 'PostGIS' when describing the additional spatial "
+"functionality provided by PostGIS."
+msgstr ""
+"A PostGIS a PostgreSQL adatbázist térinformatikai képességekkel bővíti. "
+"Kiterjeszti PostgreSQL-t, mely így térbeli adatokat tud tárolni, lekérdezni "
+"és manipulálni. Ebben a gyorstalpalóban  'PostgreSQL' -t használunk amikor "
+"az általános adatbázis funkciókat írjuk le és 'PostGIS'-t, amikor a PostGIS "
+"által hozzáadott  térbeli funkcionalitást."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:42
+msgid "This Quick Start describes how to:"
+msgstr "Ez a gyorstalpaló leírja:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:44
+msgid ""
+"Create and query a spatial database from the command line and :doc:`QGIS "
+"<../overview/qgis_overview>` graphical client."
+msgstr ""
+"Hogyan hozzunk létre és kérdezzünk le téradatbázist a parancssorból és a "
+":doc:`QGIS <../overview/qgis_overview>` grafikus kliensből."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:45
+msgid "Manage data from the ``pgAdmin`` client."
+msgstr "Hogyan kezeljük az adatokat a pgAdmin kliensből."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:51
+msgid "Client-server Architecture"
+msgstr "Kliens-szerver architektúra"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:53
+msgid ""
+"PostgreSQL, like many databases, works as a server in a client-server "
+"system. The client makes a request to the server and gets back a response. "
+"This is the same way that the internet works - your browser is a client and "
+"a web server sends back the web page. With PostgreSQL the requests are in "
+"the SQL language and the response is usually a table of data from the "
+"database."
+msgstr ""
+"PostgreSQL, mint sok más adatbázis kliens-szerver rendszerként működik. A "
+"kliens egy kérést  küld a szervernek és egy választ kap vissza. Ez ugyanaz a"
+" mód, ahogy az internet működik - a böngésző a kliens és a webszerver "
+"weblapokat küld vissza. A PostgreSQL esetén a kérések  SQL nyelven készülnek"
+" és a válasz általában egy adattáblázat az adatbázisból."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:59
+msgid ""
+"There is nothing to stop the server being on the same computer as the "
+"client, and this enables you to use PostgreSQL on a single machine. Your "
+"client connects to the server via the internal 'loopback' network "
+"connection, and is not visible to other computers unless you configure it to"
+" be so."
+msgstr ""
+"Semmi sem akadályozza meg, hogy a szerver ugyanazon a számtógépen legyen "
+"mint a kliens, ez lehetővé teszi, hogy egy gépen használjuk a PostgreSQL-t. "
+"A kliense a belső 'loopback' hálózati kapcsolaton keresztül kapcsolódik a "
+"szerverhez és más számítógépekről el sem érhető, hacsak nem konfigurálja "
+"úgy."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:65
+msgid "Creating A Spatially-Enabled database"
+msgstr "Téradatbázis létrehozása"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:67
+msgid ""
+"Command-line clients run from within a Terminal Emulator window. Start a "
+"Terminal Emulator (LXTerminal currently) from the Applications menu in the "
+"Accessories section. This gives you a Unix shell command prompt. Type::"
+msgstr ""
+"A parancssori kliens egy terminál emulátor ablakban fut. Indítson egy "
+"terminál emulátort (LXTerminal ebben a verzióban) az Applications menüből az"
+" Accessories csoportból. Ez egy Unix burok parancs promptot ad. Írja be:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:73
+msgid "and hit enter to see the PostgreSQL version number."
+msgstr "és nyomja meg az entert, hogy lássa a PostgreSQL verziószámát."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:75
+msgid ""
+"A single PostgreSQL server lets you organise work by arranging it into "
+"separate databases. Each database is an independent regime, with its own "
+"tables, views, users and so on. When you connect to a PostgreSQL server you "
+"have to specify a database."
+msgstr ""
+"Egyetlen PostgreSQL szerver lehetővé teszi a munkaszervezést az adatok külön"
+" adatbázisokba rendezésével. Minden egyes adatbázis egy önálló rendszer, "
+"saját táblákkal, nézet táblákkal, felhasználókkal és így tovább. Amikor "
+"csatlakozik egy PostgreSQL szerverhez meg kell adnia egy adatbázist."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:80
+msgid "You can get a list of databases on the server with the::"
+msgstr ""
+"A szerveren tárolt adatbázisok listáját a következő paranccsal kaphatja "
+"meg::"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:84
+msgid ""
+"command. You should see several databases used by some of the projects on "
+"the system. We will create a new one for this quickstart."
+msgstr ""
+"Számos adatbázist láthat, melyeket valamely a rendszeren lévő projekt "
+"használ. Egy újat fogunk létrehozni ehhez a gyorstalpalóhoz."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:88
+msgid ""
+"The list uses a standard unix pager - hit space for next page, :kbd:`b` to "
+"go back, :kbd:`q` to quit, h for help."
+msgstr ""
+"A lista a standard unix lapkezelőt használja - szóköz a következő laphoz,  "
+":kbd:`b` a visszalépéshez, :kbd:`q` a kilépéshez, h a súgóhoz."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:91
+msgid ""
+"PostgreSQL gives us a utility program for creating databases, ``createdb``. "
+"We need to create a database before adding the PostGIS extensions. We'll "
+"call our database ``demo``. The command is then:"
+msgstr ""
+"A PostgreSQL egy segédprogramot, ``createdb`` nyújt adatbázisok "
+"létrehozásához. Az adatbázist létre kell hozni mielőtt hozzáadnánk a PostGIS"
+" bővítményt. Az adatbázis neve legyen ``demo``. Ezután a parancs:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:100
+msgid ""
+"You can usually get help for command line tools by using a ``--help`` "
+"option."
+msgstr ""
+"A parancssori eszközökhöz általában segítséget kaphatunk a ``--help`` "
+"opcióval."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:103
+msgid ""
+"If you now run ``psql -l`` you should see your ``demo`` database in the "
+"listing. We have not added the PostGIS extension yet, but in the next "
+"section you will learn how."
+msgstr ""
+"Ha most a ``psql -l`` parancsot futtatja, látnia kell a ``demo`` adatbázist "
+"a listában. Még nem adtuk hozzá a PostGIS bővítményt, de a következő részben"
+" megtanuljuk ezt."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:106
+msgid ""
+"You can create PostGIS databases using the SQL language. First we'll delete "
+"the database we just created using the ``dropdb`` command, then use the "
+"``psql`` command to get an SQL command interpreter:"
+msgstr ""
+"A PostGIS adatbázist az SQL nyelv használatával hozhat létre. Először "
+"töröljük az éppen létrehozott adatbázist a ``dropdb`` parancs használatával,"
+" majd használja a ``psql`` parancsot, hogy egy SQL parancs értelmezőt "
+"kapjunk:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:115
+msgid ""
+"This connects to the core system database called ``postgres``. Now enter the"
+" SQL to create a new database:"
+msgstr ""
+"Ez a ``postgres`` nevű alap rendszer adatbázishoz csatlakozik. Most írja be "
+"az SQL parancsot az adatbázis létrehozásához:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:122
+msgid ""
+"Now switch your connection from the ``postgres`` database to the new "
+"``demo`` database. In the future you can connect to it directly with ``psql "
+"-d demo``, but here's a neat way of switching within the ``psql`` command "
+"line:"
+msgstr ""
+"Most kapcsolódjunk a ``postgres`` adatbázisból az új ``demo`` adatbázishoz. "
+"A jövőben  közvetlenül csatlakoztathat hozzá a ``psql -d demo`` paranccsal, "
+"de itt van egy ügyes lehetőség a váltásra a ``psql`` parancssorból:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:132
+msgid ""
+"Hit :kbd:`CTRL` + :kbd:`C` if the psql prompt keeps appearing after pressing"
+" return. It will clear your input and start again. It is probably waiting "
+"for a closing quote mark, semicolon, or something."
+msgstr ""
+"Nyomjon :kbd:`CTRL` + :kbd:`C`-t, ha a psql prompt jelenik meg a return "
+"megnyomása után. Ez törli a korábbi inputot és újrakezdheti. Valószínűleg "
+"egy záró idézőjelre, pontosvesszőre vagy valami másra vár."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:135
+msgid ""
+"You should see an informational message, and the prompt will change to show "
+"that you are now connected to the ``demo`` database."
+msgstr ""
+"Egy információ üzenetet kellene látnia és a prompt megváltozik, hogy mutassa"
+" most a ``demo`` adatbázishoz csatlakozik."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:138
+msgid "Next, add PostGIS extension:"
+msgstr "Ezután adja hozzá a PostGIS bővítményt::"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:145
+msgid "To verify you have postgis now installed, run the following query:"
+msgstr "A PostGIS telepítés ellenőrzéséhez futtassa a következő lekérdezést:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:157
+msgid "PostGIS installs many functions, a table, and several views"
+msgstr "A PostGIS sok függvényt, egy táblát és több nézet táblát telepít."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:159
+msgid ""
+"Type ``\\dt`` to list the tables in the database. You should see something "
+"like this:"
+msgstr ""
+"Az adatbázisban lévő táblák listájához írja be a ``\\dt`` parancsot. Valami "
+"hasonlót kellene látnia mint ez:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:171
+msgid ""
+"The ``spatial_ref_sys`` table is used by PostGIS for converting between "
+"different spatial reference systems. The ``spatial_ref_sys`` table stores "
+"information on valid spatial reference systems, and we can use some SQL to "
+"have a quick look:"
+msgstr ""
+"A PostGIS a ``spatial_ref_sys`` táblát a különböző vetületi rendszerek "
+"közötti transzformációnál használja. A ``spatial_ref_sys`` tábla a "
+"vetületekről tárol információkat és az SQL használhatjuk, hogy gyorsan "
+"belenézzünk:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:193
+msgid "This confirms we have a spatially-enabled database."
+msgstr "Ez igazolja, hogy téradatbázisunk van."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:195
+msgid ""
+"In addition to this table, you'll find several views created when you enable"
+" postgis in your database."
+msgstr ""
+"E tábla mellett több nézet táblát találhat, melyek a postgis engedélyezése "
+"során jöttek létre."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:197
+msgid ""
+"Type ``\\dv`` to list the views in the database. You should see something "
+"like this:"
+msgstr ""
+"Írja be a ``\\dv`` parancsot az adatbázisban található nézet táblák "
+"listájához. Valami ilyesmit kellene látnia:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:212
+msgid "PostGIS supports several spatial data types:"
+msgstr "A PostGIS számos téradat típus támogat:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:214
+msgid ""
+"`geometry` - is a data type that stores data as vectors drawn on a flat "
+"surface"
+msgstr ""
+"`geometry` - egy olyan adattípus, mely az adatokat egy síkon ábrázolt "
+"vektorrajzként tárolja"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:216
+msgid ""
+"`geography` - is a data type that stores data as vectors drawn on a "
+"spheroidal surface"
+msgstr ""
+"`geography` - egy olyan adattípus, mely az adatokat egy gömbön ábrázolt "
+"vektorrajzként tárolja"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:219
+msgid ""
+"`raster` - is a data type that stores data as an n-dimensional matrix where "
+"each position (pixel) represents"
+msgstr ""
+"`raster` - egy olyan adattípus, mely az adatokat n-dimenziós mátrixként "
+"tárolja, ahol minden pozíció (pixel) egy területet reprezentál"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:219
+msgid ""
+"an area of space, and each band (dimension) has a value for each pixel "
+"space."
+msgstr ""
+"a térben és minden sáv (dimenzió) egy értékkel rendelkezik az egyes "
+"pixelekre."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:221
+msgid ""
+"The ``geometry_columns``, ``geography_columns``, and ``raster_columns`` "
+"views have the job of telling PostGIS which tables have PostGIS geometry, "
+"geography, and raster columns."
+msgstr ""
+"A ``geometry_columns``, ``geography_columns`` és ``raster_columns`` "
+"nézettáblák feladat, hogy a PostGIS felé jelezzék mely táblákban van "
+"geometry, geography és raster oszlopokat."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:224
+msgid ""
+"Overviews are lower resolution tables for raster data. The "
+"``raster_overviews`` lists such tables and their raster column and the table"
+" each is an overview for. Raster overview tables are used by tools such as "
+"QGIS to provide lower resolution versions of raster data for faster loading."
+msgstr ""
+"Az overview-ek kisebb felbontású táblák a raszter adatokhoz. A "
+"``raster_overviews`` tartalmazza a táblákat, a raszter oszlopokat és a "
+"táblákat, melyhez az áttekintők tartoznak.A raszter áttekintő táblákat olyan"
+" eszközök használják mint például a QGIS, hogy a kisebb felbontású raszter "
+"adatokat gyorsabban töltsék be."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:228
+msgid ""
+"PostGIS geometry type is the first and still most popular type used by "
+"PostGIS users. We'll be focussing our attention on that type."
+msgstr ""
+"A PostGIS geometry típus az első és még most is a legnépszerűbb típus melyet"
+" a PostGIS felhasználók használnak. A figyelmünket erre a típusra "
+"fókuszáljuk."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:234
+msgid "Creating A Spatial Table The Hard Way"
+msgstr "Téradat tábla létrehozása, a nehéz út"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:236
+msgid "Now we have a spatial database we can make some spatial tables."
+msgstr "Most hogy van a téradatbázisunk létrehozhatunk néhány térbeli táblát."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:238
+msgid ""
+"First we create an ordinary database table to store some city data. This "
+"table has three fields - one for a numeric ID identifying the city, one for "
+"the city name, and another for the geometry column:"
+msgstr ""
+"Először hozzunk létre egy közönséges adatbázis táblát város adatok "
+"tárolásához. Ez a tábla három mezőt tartalmaz - egyet a város azonosító "
+"számának. egyet a városnévnek és egy másikat a geometry oszlophoz:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:253
+msgid ""
+"Now if you check the cities table you should see the new column, and be "
+"informed that the table currently contains no rows."
+msgstr ""
+"Ha most ellenőrzi a cities táblát, láthatja az új oszlopot és azt az "
+"információt, hogy tábla aktuálisan egy sort sem tartalmaz."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:263
+msgid ""
+"To add rows to the table we use some SQL statements. To get the geometry "
+"into the geometry column we use the PostGIS ``ST_GeomFromText`` function to "
+"convert from a text format that gives the coordinates and a spatial "
+"reference system id:"
+msgstr ""
+"A sorok hozzáadásához SQL mondatokat fogunk használni. A geometry oszlop "
+"feltöltéséhez a PostGIS az ``ST_GeomFromText`` függvényét fogjuk használni, "
+"hogy a koordinátákat és a vetület azonosítót tartalmazó szöveges formátumból"
+" konvertáljuk:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:274
+msgid "Use the arrow keys to recall and edit command lines."
+msgstr ""
+"Használja a nyíl billentyűket korábbi parancsok elővételéhez és "
+"szerkesztéséhez."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:276
+msgid ""
+"As you can see this gets increasingly tedious very quickly. Luckily there "
+"are other ways of getting data into PostGIS tables that are much easier. But"
+" now we have three cities in our database, and we can work with that."
+msgstr ""
+"Amint látja, ez nagyon gyorsan unalmassá válik. Szerencsére vannak más, "
+"sokkal könnyebb módszerek az adatok PostGIS táblákba juttatására. De most "
+"már van három város az adatbázisunkban, és dolgozhatunk azokkal."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:282
+msgid "Simple Queries"
+msgstr "Egyszerű lekérdezések"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:284
+msgid ""
+"All the usual SQL operations can be applied to select data from a PostGIS "
+"table:"
+msgstr ""
+"Az összes szokásos SQL-művelet alkalmazható a PostGIS táblából származó "
+"adatok kiolvasásához:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:298
+msgid ""
+"If you want to have a look at your geometry in WKT format again, you can use"
+" the functions ST_AsText(geom) or ST_AsEwkt(geom). You can also use "
+"ST_X(geom), ST_Y(geom) to get the numeric value of the coordinates:"
+msgstr ""
+"Ha újra WKT formátumban  szeretne egy pillantást vetni a geometriára, akkor "
+"az ST_AsText(geom), vagy az ST_AsEwkt(geom) függvényeket használhatja. Az "
+"ST_X(geom),  az ST_Y(geom) függvényeket is használhatja  a koordináták "
+"numerikus értékének kiolvasásához:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:315
+msgid "Spatial Queries"
+msgstr "Térbeli lekérdezések"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:317
+msgid ""
+"PostGIS adds many functions with spatial functionality to PostgreSQL. We've "
+"already seen ST_GeomFromText which converts WKT to geometry. Most of them "
+"start with ST (for spatial type) and are listed in a section of the PostGIS "
+"documentation. We'll now use one to answer a practical question - how far "
+"are these three Londons away from each other, in metres, assuming a "
+"spherical earth?"
+msgstr ""
+"A PostGIS sok térbeli funkcionalitással rendelkező függvényt ad a "
+"PostgreSQL-hez. Már láttuk a ST_GeomFromText, mely WKT formátumátumot "
+"alakítja át geometriává. A legtöbb közülük  ST-vel (a térbeli típus) "
+"kezdődik, és a PostGIS dokumentáció egy fejezete sorolja fel őket. Most "
+"használjunk egyet egy gyakorlati kérdés megválaszolására - milyen messze van"
+" ez a három London egymástól méterben, feltételezve, hogy a föld gömb alakú?"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:334
+msgid ""
+"This gives us the distance, in metres, between each pair of cities. Notice "
+"how the 'WHERE' part of the line stops us getting back distances of a city "
+"to itself (which will all be zero) or the reverse distances to the ones in "
+"the table above (London, England to London, Ontario is the same distance as "
+"London, Ontario to London, England). Try it without the 'WHERE' part and see"
+" what happens."
+msgstr ""
+"Ez méterben adja meg a távolságot minden város pár között. Nézze meg a "
+"'WHERE' részét a sornak, hogyan akadályozza meg, hogy a város távolságát "
+"önmagától (ami mind nulla lenne) és a visszafelé  távolságot (London, "
+"England-ből a távolság London, Ontario-ba ugyanaz mint London, Ontario-ból "
+"London, England-be)  is megkapjuk. Próbálja ki a WHERE rész nélkül és nézze "
+"meg mi történik."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:341
+msgid ""
+"We can also compute the distance using a spheroid by using a different "
+"function and specifying the spheroid name, semi-major axis and inverse "
+"flattening parameters:"
+msgstr ""
+"Egy másik függvény segítségével a távolságot kiszámíthatjuk egy ellipszoidon"
+" is, ha megadjuk az ellipszoid nevét, a fél nagytengelyét és a lapultságát:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:357
+msgid "To quit PostgreSQL command line, enter:"
+msgstr "A PostgreSQL parancssorból kilépéshez írja be:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:363
+msgid "You are now back to system console:"
+msgstr "Most visszatért a rendszer konzolhoz:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:370
+msgid "Mapping"
+msgstr "Térkép"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:372
+msgid ""
+"To produce a map from PostGIS data, you need a client that can get at the "
+"data. Most of the open source desktop GIS programs can do this - QGIS, "
+"gvSIG, uDig for example. Now we'll show you how to make a map from QGIS."
+msgstr ""
+"Az adatokat fogadni képes kliens szükséges a PostGIS adatokból térkép "
+"készítéshez. A legtöbb nyílt forráskódú asztali GIS meg tudja csinálni ezt -"
+" például a QGIS, a gvSIG, a uDIG. Most megmutatjuk hogyan készíthet térképet"
+" a QGIS-ből"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:387
+msgid "You will now get a list of the spatial tables in the database:"
+msgstr "Az adatbázisban lévő téradat táblák listáját kapja meg:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:394
+msgid ""
+"Choose the ne_10m_lakes table and hit ``Add`` at the bottom (not ``Load`` at"
+" the top - that loads database connection parameters), and it should be "
+"loaded into QGIS:"
+msgstr ""
+"Válassza az ne_10m_lake táblát és kattintson az ``Add`` (Hozzáad) gombra "
+"alul (ne a ``Load``-ra (Betölt) felül - az az adatbázis paramétereket tölti "
+"be) és ezzel betöltjük a QGIS-be:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:403
+msgid ""
+"You should now see a map of the lakes. QGIS doesn't know they are lakes, so "
+"might not colour them blue for you - use the QGIS documentation to work out "
+"how to change this. Zoom in to a famous group of lakes in Canada."
+msgstr ""
+"A tavak térképét kellene látnia a QGIS-ben. A QGIS nem tudja, hogy ezek "
+"tavak, így lehet hogy nem kékre színezi azokat - deritse ki a QGIS "
+"dokumentációból, hogyan változtathatja meg a színt. Nagyítson rá a kanadai "
+"tavak egy híres csoportjára."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:409
+msgid "Creating A Spatial Table The Easy Way"
+msgstr "Téradat tábla létrehozása, a könnyű út"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:411
+msgid ""
+"Most of the OSGeo desktop tools have functions for importing spatial data in"
+" files, such as shapefiles, into PostGIS databases. Again we'll use QGIS to "
+"show this."
+msgstr ""
+"A legtöbb OSGeo asztali eszköznek van a téradatok fájlból importálására "
+"funkciója. mint például shape fájlok a PostGIS adatbázisba. Ismét a QGIS "
+"használjuk ennek bemutatására."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:414
+msgid ""
+"Importing shapefiles to QGIS can be done via the handy QGIS Database "
+"Manager. You find the manager in the menu. Go to ``Database -> DB Manager ->"
+" DB Manager``."
+msgstr ""
+"A QGIS-ben a shape fájlok importálását a praktikus QGIS Database Manager "
+"(QGIS adatbázis-kezelő) segítségével tehetjük meg. A menüben találja meg a "
+"kezelőt. Menjen a menüben ide ``Database -> DB Manager -> DB Manager`` "
+"(Adatbázis->DB kezelő->DB kezelő)."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:416
+msgid ""
+"Deploys the Postgis item, then the NaturalEarth item. It will then  connect "
+"to the Natural Earth database. Leave the password blank if it asks. In the "
+"public item, there is the list of the layers provided by the database. "
+"You'll see the main manager window. On the left you can select tables from "
+"the database and use the tabs on the right find out about them. The Preview "
+"tab will show you a little map."
+msgstr ""
+"Bontsa szét a PostGIS elemet, majd a NaturalEarth elemet. Ezután kapcsolódik"
+" a Natural Earth adatbázishoz. Hagyja üresen a jelszót, ha kérdezik. A "
+"public elemben az adatbázis által szolgáltatott rétegek listája van. A fő "
+"kezelő ablakot látja. A bal oldalon az adatbázisból választhat egy táblát és"
+" használja a füleket a jobb oldalon, hogy megtudjon valamit róluk. A Preview"
+" (Előnézet) fül egy kis térképet mutat."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:426
+msgid ""
+"We will now use the DB Manager to import a shapefile into the database. "
+"We'll use the North Carolina sudden infant death syndrome (SIDS) data that "
+"is included with one of the R statistics package add-ons."
+msgstr ""
+"Most a DB manager-t használjuk egy shape fájl adatbázisba importálásához. Az"
+" észak karolinai hirtelen csecsemőhalál-szindróma adatokat fogjuk használni,"
+" melyeket az egyik R statisztikai csomag bővítmény tartalmaz."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:439
+msgid "Leave everything else as it is and hit ``Load``"
+msgstr "Hagyjon minden mást változatlanul és kattintson a ``Load``-ra"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:446
+msgid ""
+"Let the Coordinate Reference System Selector default to (WGS 84 EPSG:4326) "
+"and hit ``OK``. The shapefile should be imported into PostGIS with no "
+"errors. Close the PostGIS manager and get back to the main QGIS window."
+msgstr ""
+"Hagyja a vetületi rendszer kiválasztását az alapértelmezetten (WGS 84 "
+"EPSG:4326) és kattintson az ``OK``-ra. A shape fájlt hiba nélkül kellene "
+"importálnia a rendszernek. Zárja be a PostGIS kezelőt és térjen vissza a "
+"QGIS fő ablakhoz."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:449
+msgid ""
+"Now load the SIDS data into the map using the 'Add PostGIS Layer' option. "
+"With a bit of rearranging of the layers and some colouring, you should be "
+"able to produce a choropleth map of the sudden infant death syndrome counts "
+"(sid74 or sid79 fields) in North Carolina:"
+msgstr ""
+"Most töltse be az SIDS adatokat a térképre az 'Add PostGIS Layer' opcióval. "
+"A rétegek egy kis átrendezésével és némi színezéssel képes lehet a következő"
+" kartogram létrehozására a hirtelen csecsemőhalál-szindróma számokból (sid74"
+" vagy sid79 mező) Észak-Carolina-ban:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:462
+msgid "Get to know pgAdmin III"
+msgstr "Ismerjük meg a pgAdmin III-t"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:464
+msgid ""
+"You can use the graphical database client ``pgAdmin III`` from the Databases"
+" menu to query and modify your database non-spatially. This is the official "
+"client for PostgreSQL, and lets you use SQL to manipulate your data tables. "
+"You can find and launch pgAdmin III from the Databases folder, existing on "
+"the OSGeo Live Desktop."
+msgstr ""
+"Használhatja a ``pgAdmin III`` grafikus adatbázist klienst a Databeses "
+"menüből a nem térbeli aadatok lekérdezéséhez és módosításához. Ez a "
+"hivatalos kliens a PostgreSQL-hez és lehetővé teszi az adattábláinak "
+"kezelését az SQL használatával. Az OSGeoLive asztalán a Databases mappában "
+"talál egy indító ikont a pgAdmin III-hoz."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:473
+msgid ""
+"Here, you have the option of creating a new connection to a PostgreSQL "
+"server, or connecting to an existing server. In this case, we are going to "
+"connect to the predefined ``local`` server."
+msgstr ""
+"Itt lehetősége van új kapcsolat létrehozására egy PostgreSQL szerverhez vagy"
+" kapcsolódhat egy már ismert szerverhez. Esetünkben az előre definiált "
+"``local`` szerverhez fogunk kapcsolódni."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:477
+msgid ""
+"After connection established, you can see the list of the databases already "
+"existing in the system."
+msgstr ""
+"A kapcsolat létrejötte után láthatja a rendszerben már meglévő adatbázisok "
+"listáját."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:484
+msgid ""
+"The red \"X\" on the image of most of the databases, denotes that you "
+"haven't been yet connected to any of them (you are connected only to the "
+"default ``postgres`` database). At this point you are able only to see the "
+"existing databases on the system. You can connect, by double clicking, on "
+"the name of a database. Do it for the natural_earth2 database."
+msgstr ""
+"A piros \"X\" a legtöbb adatbázis előtti képen azt jelenti, hogy még nem "
+"kapcsolódott egyikhez sem (csak az alapértelmezett ``postgres`` adatbázishoz"
+" kapcsolódik). Ezen a ponton csak a létező adatbázisokat látja a "
+"rendszerben. Az adatbázis nevére duplán kattintva kapcsolódhat ahhoz. Tegye "
+"ezt a natural_earth2 adatbázisra."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:489
+msgid ""
+"You can see now that the red X disappeared and a \"+\" appeared on the left."
+" By pressing it a tree is going to appear, displaying the contents of the "
+"database."
+msgstr ""
+"Most azt láthatja, hogy a piros X eltűnt és egy \"+\" jelent meg balra. Ezt "
+"megnyomva egy fa jelenik meg mely az adatbázis tartalmát mutatja."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:492
+msgid ""
+"Navigate at the ``schemas`` subtree, expand it. Afterwards expand the "
+"``public`` schema. By navigating and expanding the ``Tables``, you can see "
+"all the tables contained within this schema."
+msgstr ""
+"Navigáljon a ``schemas`` részfára és nyissa szét. Ezután nyissa szét a "
+"``public`` sémát. A ``Tables``-re navgálva és szétnyitva láthatja az összes "
+"táblát ebben a sémában."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:506
+msgid "Executing a SQL Query from pgAdmin III"
+msgstr "SQL lekérdezések végrehajtás a pgAdmin III-ból"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:507
+msgid ""
+"pgAdmin III, offers the capability of executing queries to a relational "
+"database."
+msgstr ""
+"A pgAdmin biztosítja lekérdezések végrehajtásának lehetőségét a relációs "
+"adatbázisból."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:509
+msgid ""
+"To perform a query on the database, you have to press the ``SQL`` button "
+"from the main toolbar (the one with the yellow Magnifying lens)."
+msgstr ""
+"Az adatbázison történő lekérdezés végrehajtásához nyomja meg az ``SQL`` "
+"gombot a fő eszközsorból (a sárga nagyítólencsét tartalmazóból)."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:520
+msgid ""
+"Afterwards, you should press the green arrow button, pointing to the right "
+"(execute query)."
+msgstr ""
+"Ezután meg kell nyomnia a jobbra mutató zöld nyíl gombot (lekérdezés "
+"végrehajtása)."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:529
+msgid "Things to try"
+msgstr "Kipróbálandó dolgok"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:531
+msgid "Here are some additional challenges for you to try:"
+msgstr "Íme néhány további kipróbálandó kihívás önnek:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:533
+msgid ""
+"Try some more spatial functions like ``st_buffer(geom)``, "
+"``st_transform(geom,25831)``, ``st_x(geom)`` - you will find full "
+"documentation at http://postgis.net/documentation/"
+msgstr ""
+"Próbáljon ki néhány további térbeli függvényt, mint ``st_buffer(geom)``, "
+"``st_transform(geom,25831)``, ``st_x(geom)`` - a teljes dokumentációt a "
+"http://postgis.net/documentation/ oldalon találja meg."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:535
+msgid ""
+"Export your tables to shapefiles with ``pgsql2shp`` on the command line."
+msgstr "Exportálja a tábláit shape fájlba a parancssorból a ``pgsql2shp``-val"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:537
+msgid ""
+"Try ``ogr2ogr`` on the command line to import/export data to your database."
+msgstr ""
+"Próbálja ki az adatok importálását/exportálását az adatbázisába a "
+"parancssorból a ``ogr2ogr``-el."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:539
+msgid ""
+"Try to import data with ``shp2pgsql`` on the command line to your database."
+msgstr ""
+"Próbálja ki az adatok importálását az adatbázisba a parancssorból a "
+"``shp2pgsql``-el."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:541
+msgid "Try to do road routing using :doc:`../overview/pgrouting_overview`."
+msgstr ""
+"Próbálja ki az útvonal tervezést a :doc:`../overview/pgrouting_overview` "
+"segítségével."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:546
+msgid "What Next?"
+msgstr "Mi következik?"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:548
+msgid ""
+"This is only the first step on the road to using PostGIS. There is a lot "
+"more functionality you can try."
+msgstr ""
+"Ez csak az első lépés az úton a PostGIS használatához. Sokkal szélesebb a "
+"funkcionalitása amit kipróbálhat."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:550
+msgid "PostGIS Project home"
+msgstr "PostGIS Projekt honlap"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:552
+msgid "http://postgis.net"
+msgstr "http://postgis.net"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:554
+msgid "PostGIS Documentation"
+msgstr "PostGIS dokumentáció"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:556
+msgid "http://postgis.net/documentation/"
+msgstr "http://postgis.net/documentation/"
