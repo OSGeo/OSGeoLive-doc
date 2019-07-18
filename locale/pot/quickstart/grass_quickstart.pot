@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -189,7 +189,7 @@ msgid "Other things to try"
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:339
-msgid "While not covered here, you may like to experiment with the Cartographic Composer and object-oriented Graphical Modelling Tool (offers export to Python); you'll find icons to launch them on the lower row of icons in the `Layer Manager` window. Further details can be found in the `wxGUI <https://grass.osgeo.org/grass74/manuals/wxGUI.html>`_ help pages."
+msgid "While not covered here, you may like to experiment with the Cartographic Composer and object-oriented Graphical Modelling Tool (offers export to Python); you'll find icons to launch them on the lower row of icons in the `Layer Manager` window. Further details can be found in the `wxGUI <https://grass.osgeo.org/grass76/manuals/wxGUI.html>`_ help pages."
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:345
@@ -213,22 +213,22 @@ msgid "Further reading"
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:375
-msgid "Visit the GRASS GIS website at `http://grass.osgeo.org <http://grass.osgeo.org>`_"
+msgid "Visit the GRASS GIS website at `https://grass.osgeo.org <https://grass.osgeo.org>`_"
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:376
-msgid "Visit the GRASS GIS Wiki help site at `http://grasswiki.osgeo.org/wiki/ <http://grasswiki.osgeo.org/wiki/>`_"
+msgid "Visit the GRASS GIS Wiki help site at `https://grasswiki.osgeo.org/wiki/ <https://grasswiki.osgeo.org/wiki/>`_"
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:377
-msgid "More tutorials and overviews can be found `here <http://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_."
+msgid "More tutorials and overviews can be found `here <https://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_."
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:378
-msgid "A `synopsis of the GRASS GIS modules <https://grass.osgeo.org/grass74/manuals/full_index.html>`_"
+msgid "A `synopsis of the GRASS GIS modules <https://grass.osgeo.org/grass76/manuals/full_index.html>`_"
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:379
-msgid "If the 400 GIS modules which come with GRASS aren't enough for you have a look at the many contributed add-ons at `http://grass.osgeo.org/grass74/manuals/addons/ <http://grass.osgeo.org/grass74/manuals/addons/>`_"
+msgid "If the 400 GIS modules which come with GRASS aren't enough for you have a look at the many contributed add-ons at `https://grass.osgeo.org/grass7/manuals/addons/ <https://grass.osgeo.org/grass7/manuals/addons/>`_"
 msgstr ""
 

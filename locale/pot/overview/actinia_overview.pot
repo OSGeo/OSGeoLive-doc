@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../build/doc/overview/actinia_overview.rst:15
+msgid "Actinia"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:18
+msgid "Open source REST API"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:20
+msgid "`Actinia <https://actinia.mundialis.de/>`__ is an open source REST API for scalable, distributed, high performance processing of geographical data that uses `GRASS GIS <https://grass.osgeo.org/>`__ for computational tasks."
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:25
+msgid "It provides a REST API to process satellite images, time series of satellite images, arbitrary raster data with geographical relations and vector data."
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:29
+msgid "The REST interface allows to access, manage and manipulate the GRASS GIS database via HTTP GET, PUT, POST and DELETE requests and to process raster, vector and time series data located in a persistent GRASS GIS database. **Actinia** allows the processing of cloud based data, for example all Landsat 4-8 scenes as well as all Sentinel-2 scenes in ephemeral databases. The computational results of ephemeral processing are available via object storage as GeoTIFF files."
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:38
+msgid "API documentation"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:40
+msgid "The full API documentation is available here: https://actinia.mundialis.de/api_docs/"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:44
+msgid "actinia command execution - actinia shell"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:46
+msgid "There is also an option to interactively control actinia. For details, see `here <https://github.com/mundialis/actinia_core/tree/master/scripts>`__."
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:60
+msgid "Core Features"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:62
+msgid "REST API to process satellite images, time series of satellite images, raster and vector data."
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:63
+msgid "Explore the `turorial <https://actinia.mundialis.de/tutorial/>`_."
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:66
+msgid "Details"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:68
+msgid "**Website:** https://github.com/mundialis/actinia_core"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:70
+msgid "**Licence:** GNU General Public License (GPL) version 3"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:72
+msgid "**Software Version:** |version-actinia|"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:74
+msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:76
+msgid "**API Interfaces:** REST API, Python"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:78
+msgid "**Support:** https://github.com/mundialis/actinia_core"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:83
+msgid "Quickstart"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:85
+msgid ":doc:`Quickstart documentation <../quickstart/actinia_quickstart>`"
+msgstr ""
+

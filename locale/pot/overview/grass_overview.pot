@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-20 17:19-0500\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,11 +41,11 @@ msgid "Core Features"
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:65
-msgid "You name it, there's a `tool for it <http://grass.osgeo.org/grass74/manuals/keywords.html>`_."
+msgid "You name it, there's a `tool for it <https://grass.osgeo.org/grass76/manuals/keywords.html>`_."
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:66
-msgid "Explore the `screenshot collection <http://grass.osgeo.org/screenshots/>`_."
+msgid "Explore the `screenshot collection <https://grass.osgeo.org/screenshots/>`_."
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:69
@@ -53,11 +53,11 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:71
-msgid "**Website:** http://grass.osgeo.org"
+msgid "**Website:** https://grass.osgeo.org"
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:73
-msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgid "**Licence:** GNU General Public License (GPL) version 2+"
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:75
@@ -73,7 +73,7 @@ msgid "**API Interfaces:** C, Python, Bourne Shell"
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:81
-msgid "**Support:** http://grass.osgeo.org/support/"
+msgid "**Support:** https://grass.osgeo.org/support/"
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:86

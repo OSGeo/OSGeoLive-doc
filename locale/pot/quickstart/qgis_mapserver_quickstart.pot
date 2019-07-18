@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgid "Documentation:"
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:26
-msgid "https://docs.qgis.org/2.14/en/docs/user_manual/working_with_ogc/ogc_server_support.html"
+msgid "https://docs.qgis.org/3.4/en/docs/user_manual/working_with_ogc/server/index.html"
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:28
@@ -174,7 +174,7 @@ msgid "Use file name :file:`/home/user/world.qgs` and press :guilabel:`Save`."
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:100
-msgid "Open the `WMS URL <http://localhost/cgi-bin/qgis_mapserv?map=/home/user/world.qgs&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_."
+msgid "Open the `WMS URL <http://localhost/cgi-bin/qgis_mapserv?map=/home/user/world.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_."
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:102
