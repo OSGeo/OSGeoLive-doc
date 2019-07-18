@@ -12,8 +12,8 @@
 Proj4 is a library that provides methods to transform between different coordinate
 reference systems. A geographic coordinate reference system allows all points on the
 earth to be described as a set of coordinates (such as latitude, longitude and
-elevation). Different systems are used to represent the 3 dimensional earth
-on a flat, 2 dimensional map.
+elevation). Different systems are used to represent the tridimensional earth
+on a flat, bidimensional map.
 
 Proj4 is used in :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik <mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation and various others. 
 

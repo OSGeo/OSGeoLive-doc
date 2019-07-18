@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-07-17 10:25-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -177,7 +177,7 @@ msgid "In a MapFile, a LAYER object can contain an infinite number of CLASS obje
 msgstr ""
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:241
-msgid "In our \"ne_10m_lakes\" dataset, we have a *ScaleRank* attribute, which seems to be related ot the size of the lakes. We can use this as a way to render the lakes differently. In the LAYER object, we'll add another CLASS object just before our current one::"
+msgid "In our \"ne_10m_lakes\" dataset, we have a *ScaleRank* attribute, which seems to be related to the size of the lakes. We can use this as a way to render the lakes differently. In the LAYER object, we'll add another CLASS object just before our current one::"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:266

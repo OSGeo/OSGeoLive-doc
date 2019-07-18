@@ -3,14 +3,18 @@
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# MarPetra <mvergaratrejo@gmail.com>, 2018
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"POT-Creation-Date: 2018-08-20 17:19-0500\n"
+"PO-Revision-Date: 2017-09-20 16:05+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -112,20 +116,20 @@ msgstr "Aplicaciones OTB"
 msgid ""
 "From the OTB application demonstration interface, you have to fill the form "
 "on the left to configure the WPS service execution. Once, you have selected "
-"the value for yoru processing, you can then press the Execute button at the "
+"the value for your processing, you can then press the Execute button at the "
 "bottom of the left form. In case you choose image/png as the output format, "
 "you will see the result of your processing displayed on the map. You can see"
-" bellow a sample KMeansClassification execution when selecting the image/png"
-" output format."
+" below a sample KMeansClassification execution when selecting the image/png "
+"output format."
 msgstr ""
 "Desde la interfaz de demostración de aplicaciones de OTB, usted tiene que "
 "llenar el formulario de la izquierda para configurar la ejecución del "
 "servicio WPS. Una vez que haya seleccionado el valor para el procesamiento, "
-"usted puede presionar el botón Ejecutar en la parte inferior del formulario "
-"de la izquierda. En caso de que usted elija imagen/png como formato de "
-"salida, usted verá el resultado de su procesamiento desplegado en el mapa. "
-"Usted podrá ver abajo una ejecución de muestra de KMeansClassification "
-"cuando seleccione el formato de salida imagen/png ."
+"usted puede presionar el botón Ejecutar ubicado en la parte inferior del "
+"formulario de la izquierda. En caso de que usted elija imagen/png como "
+"formato de salida, usted verá el resultado de su procesamiento desplegado en"
+" el mapa. Usted podrá ver abajo una ejecución de muestra de "
+"KMeansClassification cuando seleccione el formato de salida imagen/png ."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:86
 msgid "What Next?"

@@ -1,0 +1,298 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Zoltan Siki <siki@agt.bme.hu>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: 2017-09-20 16:03+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2019\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:16
+msgid "OpenJUMP GIS Quickstart"
+msgstr "OpenJUMP GIS gyorstalpaló"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:18
+msgid ""
+"OpenJUMP is a desktop GIS program that allows for easy viewing and editing "
+"of vector GIS data. The PLUS edition also support analysis of raster data."
+msgstr ""
+"Az OpenJUMP egy asztali GIS program vektor adatok egyszerű megjelenítését és"
+" szerkesztését teszi lehetővé. A PLUS kiadás a raszter adatok elemzését is "
+"támogatja."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:21
+msgid "This Quick Start describes how to:"
+msgstr "Ez a gyorstalpaló a következőket írja le:"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:23
+msgid "Open an ESRI shapefile with OpenJUMP."
+msgstr "ESRI shape fájl megnyitása OpenJUMP-al."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:24
+msgid "Style the layer created from the shapefile for easier viewing."
+msgstr ""
+"A shape fájlból létrehozott réteg stílusának beállítása a könnyebb "
+"értelmezéshez. "
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:25
+msgid "Edit the geometries of the features in a layer."
+msgstr "A réteg elemek geometriájának szerkesztése."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:28
+msgid "Starting OpenJUMP"
+msgstr "OpenJUMP indítása"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:30
+msgid ""
+"OSGeo Live-DVD: start OpenJUMP link on desktop or run /usr/bin/openjump"
+msgstr ""
+"OSGeo Live-DVD: indítsa az OpenJUMP ikont az asztalról vagy futtassa a "
+"/usr/bin/openjump parancsot"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:32
+msgid ""
+"General: For Windows, go to the bin folder of the OpenJUMP directory and "
+"double click the OpenJUMP.exe or oj_windows.bat file. For Linux, execute the"
+" oj_linux.sh file from a terminal. For MacOSX, click on the OpenJUMP "
+"application symbol."
+msgstr ""
+"Windows-on menjen az OpenJump könyvtár bin mappájába és kattintson duplán az"
+" OpenJUMP.exe vagy az oj_windows.bat fájlra. Linuxon indítsa az oj_linux.sh "
+"fájlt egy terminálból. MacOSX-en kattintson az OpenJUMP alkalmazás "
+"szimbólumra."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:36
+msgid ""
+"(Please note: A Java runtime environment is required to run OpenJUMP. You "
+"can download a Java runtime environment for your computer here: "
+"http://java.com/en/download/index.jsp)"
+msgstr ""
+"(Kérjük vegye figyelembe: Egy Java futtatókörnyezet szükséges az OpenJUMP "
+"futttásához. A számítógépére letöltheti a Java futtatókörnyezetet innen: "
+"http://java.com/en/download/index.jsp)"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:41
+msgid "Basic User Interface Overview"
+msgstr "Felhasználói felület alapszintű áttekintése"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:43
+msgid ""
+"The OpenJUMP user interface has four (4) basic components as most other "
+"desktop GIS. (i) The first is a top-level menu bar for accessing most "
+"functionality. (ii) The second is a main toolbar that sits just below the "
+"menu bar. The buttons give access to the most important display and "
+"navigation functions. (iii) The third is a tree view on the left that shows "
+"the layer list of the active project. (iv) The fourth is the map view. This "
+"is the actual map where a graphical representation of the spatial data in "
+"each layer is given. Finally there is an information bar at the bottom "
+"displaying mouse pointer coordinates, processing reports, and memory usage. "
+"A project window contains a layer list and a layer view. Each instance of "
+"OpenJUMP can contain multiple projects. In our quick start, we will only be "
+"working with a single window."
+msgstr ""
+"Az OpenJUMP felhasználói felülete négy (4) alapvető komponensből áll mint a "
+"legtöbb asztali GIS. (i) Az első a felső menüsor a legtöbb funkcionalitás "
+"eléréséhez. (ii) A második a fő eszköztár, mely a menüsor alatt helyezkedik "
+"el. A gombok hozzáférést biztosítanak a legfontosabb megjelenítési és "
+"navigációs funkciókhoz. (iii) A harmadik az aktív projekt réteg listáját "
+"tartalmazó baloldali fa nézet. (iv) A negyedik a térkép nézet. Ez az "
+"aktuális térkép, ahol minden réteg téradatainak grafikus reprezentációja "
+"található. Végül van egy információ sor az ablak alján, mely az aktuális "
+"egér koordinátákat, feldolgozási jelentéseket és a memória használatot "
+"jeleníti meg. Egy projekt ablak egy réteg listát és egy réteg nézetet "
+"tartalmaz. Minden OpenJUMP példány több projektet tartalmazhat. A "
+"gyorstalpalónkban egyetlen ablakkal fogunk dolgozni."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:59
+msgid "Open an ESRI Shapefile"
+msgstr "ESRI shape fájl megnyitása"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:61
+msgid ""
+"This section of the quick start briefly explains how to open an ESRI "
+"shapefile."
+msgstr ""
+"A gyorstalpaló ezen fejezete röviden elmagyarázza hogyan nyissunk meg egy "
+"ESRI shape fájlt."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:63
+msgid ""
+"On the top-level menu bar in OpenJUMP, select the [File] menu. Then select "
+"the option [Open File...]. This will present you with a dialog box that "
+"allows you to open files containing geospatial data. In our example, you "
+"want to browse for an ESRI shapefile. Look for a file with the .shp "
+"extension (e.g. on the LiveDVD under "
+"`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`). Select the "
+"file and click the [Finish] button on the dialog. After a few moments, you "
+"will be able to see the data from your shapefile in the Map View. You will "
+"also see a new layer created for your data in the Layer List. The name of "
+"the layer will match the name of the shapefile."
+msgstr ""
+"Az OpenJUMP felső menüsorából válassza a [File] menüt. Majd válassza az  "
+"[Open File...] opciót. Ez egy párbeszédablakot jelenit meg, melynek "
+"segítségével térinformatikai adatokat tartalmazó fájlt nyithat meg. A "
+"példánkban ESRI shape fájlok között fogunk tallózni. Keressen egy .shp "
+"kiterjesztésű fájlt (pl. e.g. on the LiveDVD under "
+"`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`). Válassza ki "
+"a fájlt és kattintson a [Finish] gombra a párbeszédablakban. Néhány pillanat"
+" múlva láthatja a shape fájljából jövő adatokat a térképnézetben.Azt is "
+"láthatja, hogy egy új réteg réteg jött létre az adatokhoz a réteg listában. "
+"A réteg neve megegyezik a shape fájl nevével."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:76
+msgid ""
+"Another quicker option is to directly drag and drop your shapefile in the "
+"Layer View."
+msgstr ""
+"Egy másik gyorsabb lehetőség a shape fájl megragadása és rádobása a réteg "
+"nézetre."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:79
+msgid "Style a Layer"
+msgstr "Réteg stílus beállítás"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:81
+msgid "This section of the quick start briefly explains how to style a layer."
+msgstr ""
+"A gyorstalpaló ezen fejezete röviden leírja hogyan állítsuk be egy réteg "
+"stílusát."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:83
+msgid ""
+"In the Layer List, right click* on the layer name. This will show a pop-up "
+"menu. Go to the [Style] menu entry and then choose [Change Styles...]. The "
+"Change Styles dialog has five (5) tabs that allow you to change how the "
+"layer is displayed in the Map View. This includes changing the stroke color,"
+" the fill color, line style and line thickness, transparency, adding labels,"
+" and determining at which maximum and minimum scales the layer is displayed "
+"at."
+msgstr ""
+"A réteg listában jobb gombbal kattintson a réteg nevére. Ez egy felbukkanó "
+"menüt jelenít meg. Menjen a  [Style] menüelemre és válassza a  [Change "
+"Styles...]-t. A stílus módosítás párbeszédablaknak öt (5) füle van, melyek "
+"lehetővé teszik, hogy megváltoztassa hogyan jelenjen meg a réteg a térkép "
+"nézetben. Ez magába foglalja a vonalszín, a kitöltési szín a vonalstílus és "
+"vonalvastagság megváltoztatását, címkék hozzáadását és a minimum és maximum "
+"méretarány meghatározását melyeknél a réteg megjelenik."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:90
+msgid "MacOSX users press the :guilabel:`Ctrl` key to access this menu."
+msgstr ""
+"A MacOSX felhasználók nyomják meg a :guilabel:`Ctrl` gombot a menü "
+"eléréséhez."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:99
+msgid "Edit Feature Geometries in a Layer"
+msgstr "Térképi elemek geometriájának szerkesztése"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:101
+msgid ""
+"In the Layer List, right click on the layer name, as in the previous "
+"example. This will show a pop-up menu. Click on the menu entry \"Editable\" "
+"so that a check mark is shown. This will open a new floating toolbar over "
+"the Map View on the right side. This toolbar has a set of buttons that you "
+"can use to edit the geometry of a geographic feature."
+msgstr ""
+"A réteg listában jobb gombbal kattintson a réteg nevére mint az előző "
+"példában. Ez egy felbukkanó menüt jelenít meg. Kattintson az \"Editable\" "
+"menüpontra, így egy pipa jelenik meg. Ez egy új lebegő eszközsort jelenít "
+"meg a térkép nézet felett a jobb oldalon. Ez az eszközsor a gombok egy "
+"halmazát tartalmazza, melyeket a térképi elemek geometriájának "
+"szerkesztésére használhat."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:113
+msgid ""
+"Let's try a quick edit. First we need to select a geometry and then we move "
+"a point of the geometry. To do that, we first click the button that shows a "
+"mouse cursor in the editing toolbar (top left button). Activate it and click"
+" on a single feature in the Layer View to select it. If the selection "
+"worked, then the features line color should change to yellow and small "
+"yellow squares appear at each angle point (vertex) in the feature geometry."
+msgstr ""
+"Próbáljunk ki egy gyors szerkesztést. Először ki kell választanunk egy "
+"geometriát, majd a geometria egy pontját elmozdítjuk. Ehhez először "
+"kattintsunk az egér mutatót tartalmazó gombra a szerkesztés eszközsorban "
+"(bal-felső sarok). Kattintson egy elemre a Térkép nézetben a "
+"kiválasztásához. Ha a kiválasztás működött, akkor a térképi elem színe "
+"sárgára változik és az elem geometria valamennyi töréspontjában egy kis "
+"sárga négyzet jelenik meg."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:123
+msgid ""
+"Next, click on the button that shows a blue crosshair with a yellow square "
+"in the middle, the :guilabel:`Move Vertex Tool` (Hoovering over the buttons "
+"gives you a button description). You should now see your mouse cursor change"
+" to a small black crosshair when you move it over the Map View."
+msgstr ""
+"Ezután kattintson a kék keresztet  középen sárga négyzettel tartalmazó "
+"gombra, a :guilabel:`Move Vertex Tool`-ra (az egeret a gombokon tartva a "
+"gomb leírását kapjuk). Ha az egeret a térkép nézetbe húzza az egérmutató kis"
+" fekete keresztté változik."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:131
+msgid ""
+"Try using this to move one of the vertices/points of the geometry you "
+"selected before by clicking on one of the vertices and dragging it (leaving "
+"the mouse button pressed)."
+msgstr ""
+"Használjuk a korábban kiválasztott geometria egy töréspontjának  "
+"mozgatására, kattintson egy töréspontra és húzza el azt (hagyja az "
+"egérgombot nyomva)."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:138
+msgid "Other Learning Resources for OpenJUMP"
+msgstr "További tanulási források, az OpenJUMP-hoz"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:140
+msgid ""
+"This is only the first step on the road to using OpenJUMP. There is a lot "
+"more material left for you to discover."
+msgstr ""
+"Ez csak az első lépés az úton az OpenJUMP használatához. Sokkal több anyag "
+"maradt, amit felfedezhet."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:143
+msgid ""
+"You can download tutorials for the OpenJUMP here: "
+"http://sourceforge.net/projects/jump-pilot/files/Documentation/"
+msgstr ""
+"Az OpenJUMP-hoz oktatóanyagokat innen tölthet le: "
+"http://sourceforge.net/projects/jump-pilot/files/Documentation/"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:146
+msgid ""
+"You can read the OpenJUMP wiki here: "
+"http://ojwiki.soldin.de/index.php?title=Main_Page"
+msgstr ""
+"Az OpenJUMP wikit itt olvashatja: "
+"http://ojwiki.soldin.de/index.php?title=Main_Page"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:149
+msgid ""
+"And you can get help fast on the OpenJUMP users mailing list: "
+"http://groups.google.com/group/openjump-users"
+msgstr ""
+"És gyorsan segítséget kaphat az OpenJUMP felhasználók levelező listáján: "
+"http://groups.google.com/group/openjump-users"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:152
+msgid ""
+"Finally, the latest OpenJUMP version can be found here: "
+"http://sourceforge.net/projects/jump-pilot/files/OpenJUMP/"
+msgstr ""
+"Végül a legújabb OpenJUMP verziót itt található: "
+"http://sourceforge.net/projects/jump-pilot/files/OpenJUMP/"
