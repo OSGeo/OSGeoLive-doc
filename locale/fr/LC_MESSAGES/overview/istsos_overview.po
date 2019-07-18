@@ -1,12 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # 
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
 # Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2017
-# Nicolas Roelandt (Personnel), 2019
 # 
 #, fuzzy
 msgid ""
@@ -15,11 +14,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-28 14:24-0600\n"
 "PO-Revision-Date: 2017-09-20 16:11+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2019\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2017\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
@@ -69,17 +69,6 @@ msgid "Administer sensors and data with an intuitive web-based interface."
 msgstr ""
 "Administre des capteurs et des données avec une interface web intuitive."
 
-#: ../../build/doc/overview/istsos_overview.rst:39
-msgid ""
-"Use a complete RestFul API to access istSOS functionality from external "
-"clients to create interactive charts, display sensor on a dynamic map or "
-"just write some maintenance scripts."
-msgstr ""
-"Utilise une API RestFul complète pour accéder aux fonctionnalités istSOS "
-"depuis des clients externes pour créer des graphiques interactifs, afficher "
-"le capteur sur une carte dynamique ou simplement écrire des scripts de "
-"maintenance."
-
 #: ../../build/doc/overview/istsos_overview.rst:40
 msgid ""
 "Get notified through mail, twitter or other social media when sensor data "
@@ -96,15 +85,6 @@ msgstr ""
 "Authentification et autorisation des utilisateurs avec différents niveaux "
 "d'accès (administrateur, gestionnaire du réseau, gestionnaire de données et "
 "visiteur)."
-
-#: ../../build/doc/overview/istsos_overview.rst:42
-msgid ""
-"Create Virtual Procedures that look like normal stations but whose data "
-"results from on-the-fly elaboration of other sensor data."
-msgstr ""
-"Créez des procédures virtuelles qui ressemblent à des stations normales, "
-"mais dont les données résultent de l'élaboration à la volée d'autres données"
-" de capteurs."
 
 #: ../../build/doc/overview/istsos_overview.rst:43
 msgid ""

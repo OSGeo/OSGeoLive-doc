@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # 
 # Translators:
+# Nicolas Roelandt (Personnel), 2018
 # Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018
-# Nicolas Roelandt (Personnel), 2019
 # 
 #, fuzzy
 msgid ""
@@ -14,11 +14,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-28 14:24-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2019\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
@@ -212,17 +213,6 @@ msgstr ""
 "Vous pouvez également cliquer sur l’icône avec la tête de l’éléphant dans le"
 " panneau de gauche ou utilisez le raccourci clavier 'Ctrl+Shift+D'"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:142
-msgid ""
-"Five Postgis databases are already available; we will be using the Natural "
-"Earth database. If you wanted to connect to a different database, you would "
-"select the :guilabel:`New` button and fill in the database parameters."
-msgstr ""
-"Cinq bases de données sont déjà à disposition. Nous utiliserons la base de "
-"données Natural Earth. Si vous voulez vous connecter à une base de données "
-"différente, vous devez sélectionner  le bouton   :guilabel:`New` et "
-"renseignez les paramètres de base de données."
-
 #: ../../build/doc/quickstart/qgis_quickstart.rst:146
 msgid ""
 "#. Select the \"Natural Earth\" connection and press :guilabel:`Connect`. "
@@ -235,11 +225,6 @@ msgstr ""
 #: ../../build/doc/quickstart/qgis_quickstart.rst:149
 msgid "A list of database tables will appear."
 msgstr "La liste des tables de la base de données s’affiche."
-
-#: ../../build/doc/quickstart/qgis_quickstart.rst:155
-msgid "Select ``ne_10m_populated_places`` and click :guilabel:`Add`."
-msgstr ""
-"Sélectionnez ``ne_10m_populated_places`` et cliquez sur :guilabel:`Add`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:157
 msgid ""
@@ -265,21 +250,6 @@ msgstr ""
 "Faites un clic droit sur ``ne_10m_populated_places`` dans la liste des "
 "couches pour obtenir un menu contextuel, puis sélectionnez "
 ":menuselection:`Properties`."
-
-#: ../../build/doc/quickstart/qgis_quickstart.rst:166
-msgid ""
-"Let's represent one of the database attributes in the data as a bubble plot."
-" In the middle of the `Style` tab, drag the Transparency slider to **50%**. "
-"Click on the small button at the right of the size field and hover over the "
-"option within :menuselection:`Attribute field`, then choose **scalerank** "
-"(it's near to the beginning of the list). Then click :guilabel:`Ok`."
-msgstr ""
-"Nous allons représenter un des attributs de la base de données dans les "
-"données comme un graphique en bulles. Au milieu de l’onglet `Style`, faites "
-"glisser le curseur transparence vers **50%**. Cliquez sur le petit bouton à "
-"droite de la taille des champs et sélectionnez :menuselection:`Attribute "
-"field`, puis choisissez **scalerank** (il est proche du début de la liste). "
-"Puis cliquez sur :guilabel:`Ok`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:172
 msgid ""
@@ -421,11 +391,6 @@ msgstr ""
 "Dans le jeu de cartes PERMANENT, sélectionnez la carte de `roadsmajor` avec "
 "un double-clic."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:231
-msgid "Change the layer order if necessary (roadsmajor, geology, elevation)."
-msgstr ""
-"Changer l’ordre des couches si nécessaire (roadsmajor, geology, elevation)."
-
 #: ../../build/doc/quickstart/qgis_quickstart.rst:233
 msgid ""
 "The plugin also gives you access to many of the powerful GRASS analysis "
@@ -492,17 +457,6 @@ msgstr ""
 #: ../../build/doc/quickstart/qgis_quickstart.rst:262
 msgid "Using the Processing Toolbox"
 msgstr "Utilisation de la boîte à outils Géotraitements"
-
-#: ../../build/doc/quickstart/qgis_quickstart.rst:264
-msgid ""
-"A core plugin for QGIS which opens the door to a large family of processing "
-"tools is the Processing Toolbox (formerly named the SEXTANTE Toolbox). It "
-"acts as a standardized wrapper around a number of other sets of tools."
-msgstr ""
-"Un plugin de base pour QGIS qui ouvre la porte à une grande famille d’outils"
-" de traitement est le Processing Toolbox (anciennement la boîte à outils "
-"SEXTANTE). Il sert de couche de liaison avec un certain nombre d’autres "
-"ensembles d’outils standardisés."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:272
 msgid "Choose :menuselection:`Processing --> Toolbox`."
@@ -644,15 +598,6 @@ msgstr ""
 "rendu aux autoroutes majeures. Vous pouvez répéter cette opération avec les "
 "nouvelles couches pour afficher les types de routes différents avec des "
 "largeurs et des styles différents."
-
-#: ../../build/doc/quickstart/qgis_quickstart.rst:356
-msgid ""
-"You can now explore this rich dataset. Use the ``i`` information cursor "
-"button in the QGIS toolbar to query individual map features."
-msgstr ""
-"Vous pouvez maintenant explorer ce riche ensemble de données. Utilisez du   "
-"bouton ``i`` (curseur d'information) dans la barre d’outils QGIS aux "
-"fonctionnalités de requêtage d'entités."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:360
 msgid "Things to Try"
