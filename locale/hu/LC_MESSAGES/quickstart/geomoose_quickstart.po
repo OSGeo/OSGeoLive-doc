@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2018
+# Zoltan Siki <siki@agt.bme.hu>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -13,18 +13,18 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-28 14:24-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2019\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"Language: es\n"
+"Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:17
 msgid "GeoMoose Quickstart"
-msgstr "Guía de Inicio Rápido de GeoMoose "
+msgstr "GeoMoose gyorstalpaló"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:19
 msgid ""
@@ -33,14 +33,14 @@ msgid ""
 "spatial data within county, city and municipal offices (from which GeoMoose "
 "originated)."
 msgstr ""
-"GeoMoose es un framework de mapeo basado en navegador para visualizar datos "
-"cartográficos distribuidos. Es particularmente útil para la gestión de datos"
-" espaciales y no espaciales dentro de un condado, ciudad y oficinas "
-"municipales (a partir del cual se origina GeoMoose)."
+"A GeoMoose egy böngésző alapú térképes keretrendszer megosztott kartográfiai"
+" adatok megjelenítéséhez. Különösen hasznos a térbeli és nem térbeli adatok "
+"kezelésére egy országon, városon vagy önkormányzati irodán belül (ahonnan a "
+"GEoMoose származik)."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:24
 msgid "Getting Started"
-msgstr "Para empezar"
+msgstr "Kezdjen neki"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:26
 msgid ""
@@ -48,58 +48,54 @@ msgid ""
 " GeoMoose on the Live DVD is an example configuration that displays an "
 "example set of layers."
 msgstr ""
-"GeoMoose es un marco de gestión del portal de datos GIS.La versión instalada"
-" de GeoMoose en el  Live DVD es un ejemplo de configuración que  muestra un "
-"ejemplo de conjunto de capas."
+"A GeoMoose egy GIS adatportál kezelő keretrendszer. A Live DVD-re telepített"
+" változat egy minta konfiguráció mely egy több rétegből álló példa."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:28
 msgid "Go to the \"Browser Clients\" folder on the desktop."
-msgstr "Ir a la carpeta \"Clientes de Navegador\" en el escritorio."
+msgstr "Menjen a  \"Browser Clients\" mappába az asztalon."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:30
 msgid ""
 "Click on the desktop icon \"Start GeoMoose\". This will launch the default "
 "browser which will navigate to the correct location automatically."
 msgstr ""
-"Haga clic en el ícono del escritorio \"Iniciar GeoMoose\". Esto lanzará el "
-"navegador predeterminado que navegará a la ubicación correcta "
-"automáticamente."
+"Kattintson a \"Start GeoMoose\" ikonra. Ez elindítja az alapértelmezett "
+"böngészőt, mely a megfelelő helyre navigál automatikusan."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:32
 msgid ""
 "You will be presented with a web page displaying a demo interface of a "
 "GeoMoose instance."
-msgstr ""
-"Se le presentará una página web que muestra una interfaz de demostración de "
-"una instancia de GeoMoose."
+msgstr "A GeoMoose példány demó interfésze jelenik meg egy honlapon."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:38
 msgid "The Interfaces presented above shows:"
-msgstr "Las Interfaces presentadas arriba muestran:"
+msgstr "A fent látható interfész a következőket tartalmazza:"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:40
 msgid "A banner bar"
-msgstr "Una barra de banner "
+msgstr "Egy banner sor"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:41
 msgid "A tool bar"
-msgstr "Una barra de herramientas"
+msgstr "Egy eszközsor"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:42
 msgid "A map window with"
-msgstr "Una ventana de mapa con"
+msgstr "Egy térkép ablak a következőkkel"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:44
 msgid "A navigation and zoom controls"
-msgstr "Una navegación y controles de zoom"
+msgstr "Egy navigáció és nagyítás vezérlő"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:46
 msgid "A side menu with:"
-msgstr "Un menú lateral con:"
+msgstr "Egy oldal menü a következőkkel:"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:48
 msgid "A \"Jump to\" location pull down list"
-msgstr "Una \"Saltar a\" lista desplegable de ubicación "
+msgstr "Egy \"Jump to\" helyek legördülő listája"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:49
 msgid ""
@@ -107,26 +103,25 @@ msgid ""
 "needed, additional tabs will appear: an \"Information\" readout, a "
 "\"Custom\" output tab, and others."
 msgstr ""
-"Fichas de control a partir de \"Catálogo\", para mostrar la lista de capas."
-"  Según sea necesario, aparecen fichas adicionales: una lectura de "
-"\"Información\", una ficha de salida de \"Custom\" y otros."
+"\"Catalog\"-gal kezdődő vezérlő fülek, a réteglista megjelenítéséhez. "
+"Szükség szerint további fülek jelennek meg: egy \"Information\", egy "
+"\"Custom\" fül és továbbiak."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:51
 msgid "A Footer bar with:"
-msgstr "Una barra a pie de página con:"
+msgstr "Egy lábléc sáv ezekkel:"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:53
 msgid ""
 "Multiple coordinate readouts, one each for: X,Y (local dataset coordinates),"
 " LAT/LON (Decimal) and United States National Grid (USNG)"
 msgstr ""
-"Múltiples lecturas de coordenadas, cada una para: X, Y (coordenadas del "
-"conjunto de datos locales), LAT/LON (Decimal) y Red Nacional de Estados "
-"Unidos (USNG)"
+"Több koordináta mező ezekhez: X.Y (helyi koordináták), hosszúság/szélesség "
+"(decimális)és Egyesült Államok Nemzeti Rács (USNG)"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:58
 msgid "Identifying a location in GeoMoose"
-msgstr "Identificación de una ubicación en GeoMoose"
+msgstr "Hely azonosítás a GeoMoose-ban"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:60
 msgid ""
@@ -134,9 +129,9 @@ msgid ""
 "\"identify\", (\"i\" in a circle icon) button in the top toolbar, and then "
 "clicking a point on the map to identify."
 msgstr ""
-"Puede identificar una ubicación en la interfaz haciendo click en el botón "
-"\"identificar\", (\"i\" en un ícono crcular)  en la barra de herramientas "
-"superior y haciendo click después en un punto en el mapa para identificar."
+"Egy helyet azonosíthat a felhasználói felületen az \"identify\" (\"i\" egy "
+"körben ikon) gombra kattintva a felső eszközsorban, majd a térképen "
+"kattintson az azonosítandó pontra."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:64
 msgid ""
@@ -145,15 +140,14 @@ msgid ""
 "more information.  In this case, it will show the results of a query of each"
 " active and identifiable layer for the point that you clicked in the map."
 msgstr ""
-"El catálogo a lo largo de la parte izquierda de la vista del Mapa va a "
-"cambiar a \"Super Tab\" - un lugar donde GeoMoose muestra los resultados de "
-"una acción o solicita más información.  En este caso, mostrará los "
-"resultados de una consulta de cada capa activa e identificable para el punto"
-" en que usted hizo click en el mapa."
+"A katalógus a térkép nézet bal oldalán \"Super Tab\"-bá változik  - egy "
+"hely, ahol a GeoMoose egy művelet eredményeit megjeleníti meg vagy további "
+"adatokat kér. Ebben az esetben a lekérdezés eredményét jeleníti meg az össz "
+"aktív és lekérdezhető rétegen arra a pontra ahová térképen kattintott."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:67
 msgid "Measuring in GeoMoose"
-msgstr "Medición en GeoMoose"
+msgstr "Mérés a GeoMoose-ban"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:69
 msgid ""
@@ -167,16 +161,14 @@ msgid ""
 "for each vertex a of the line/polygon.  Double click to end the "
 "line/polygon."
 msgstr ""
-"La herramienta de medida GeoMoose permite medir un punto (las coordenadas de"
-" un punto escogido de retorno), medir la distancia a lo largo de una línea "
-"potencialmente varios segmento y medir el área de un polígono.  Hacer click "
-"en el ícono de doble flecha en la barra de herramientas superior, se "
-"iniciará la herramienta de medición.  A continuación seleccione si desea "
-"medir un punto, línea o polígono.  A continuación, haga click en el mapa "
-"donde desea medir.  Para medir un punto, simplemente haga click en el punto "
-"del mapa que desea medir.  Para medir una línea o polígono haga click en el "
-"mapa para cada vértice a de la línea/polígono.  Haga doble click para "
-"terminar la línea/polígono."
+"A GeoMoose mérőeszköz lehetővé tesz pont mérést (a kattintott pont "
+"koordinátái), távolság mérést több részből álló törtvonal mentén és zárt "
+"idom területének mérését. Kattintson a felső eszközsorban a mindkét végén "
+"nyilas vonalra a mérőeszköz indításához. Ezután válassza ki, hogy pontot, "
+"vonalat vagy zárt idomot akar mérni. Majd kattintson a térképre ahonnan a "
+"mérést indítja. Egy pont méréséhez csak kattintson a pontra a térképen. Egy "
+"törtvonal vagy zárt idomméréséhez kattintson sorban a töréspontokra. Duplán "
+"kattintson a törtvonal/zárt idom végpontjára."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:71
 msgid ""
@@ -184,13 +176,13 @@ msgid ""
 "a vector layer, including previous query results) without having to manually"
 " trace over it."
 msgstr ""
-"Nota: usted también puede medir una característica preexistente en el mapa "
-"(si se trata de una capa vectorial, incluyendo resultados de la consulta "
-"anterior) sin tener que trazar manualmente sobre él."
+"Megjegyzés: mérhet a térképen létező elemeket is (ha egy vektor réteg része "
+"és korábbi lekérdezés eredménye tartalmazza) nélkül, hogy kézzel végig "
+"kellene kattingatni."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:83
 msgid "Selecting Features"
-msgstr "Selección de Funciones "
+msgstr "Elemek kiválasztása"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:84
 msgid ""
@@ -201,13 +193,12 @@ msgid ""
 " you want to adjust your selection you can do that with the \"Modify "
 "Feature\" option."
 msgstr ""
-"Puede seleccionar características de un Punto, Línea, Polígono, o de una "
-"característica existente.  Para comenzar, haga click en el icono "
-"\"Seleccionar características\" (ícono del cursor del ratón), elija punto, "
-"línea, polígono y empiece a dibujar su selección en el mapa.  Usted puede "
-"haga doble click en el último punto para terminar el proceso de dibujo.  Si "
-"desea ajustar su selección puede hacerlo con la opción \"Modificar "
-"característica\"."
+"Elemeket szelektálhat ponttal, vonallal, zárt idommal vagy egy létező "
+"elemmel. A kezdéshez kattintson a \"Select Features\" ikonra (egér kurzor "
+"ikon) válassza a pontot, vonalat, zárt idomot és kezdje el a térképen a "
+"szelekcióhoz a rajzolást. A rajzolás befejezéséhez az utolsó pontba duplán "
+"kattintson. Ha szeretné, akkor módosíthatja  a kiválasztást a \"Modify "
+"Feature\" beállítással."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:86
 msgid ""
@@ -216,10 +207,10 @@ msgid ""
 "Positive values expand what you drew by that distance, negative values "
 "shrink your drawing."
 msgstr ""
-"También tienes la opción de seleccionar características basados en una "
-"versión amortiguada de lo que dibujó.  El valor predeterminado es buffer por"
-" \"0\" que no hace nada.  Valores positivos amplían lo que dibujó por esa "
-"distancia, valores negativos reducen su dibujo."
+"Lehetősége van a szelekciót a rajzolt elem környezete alapján, Az "
+"alapértelmezett környezet \"0\", ami nem változtat semmit. Pozitív érték "
+"megnöveli a rajzolt elemet ezzel a távolsággal, negatív érték csökkenti a "
+"rajzolt elem méretét."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:88
 msgid ""
@@ -228,11 +219,10 @@ msgid ""
 "Features tool.  To be available for selection, a layer needs to be a vector "
 "layer and be configured for selection in the mapbook."
 msgstr ""
-"Seleccione la capa de la que desea seleccionar características usando el "
-"revcuadrod e selección  \"Query Layer\".  Nota: no todas las capas se pueden"
-" utilizar con la herramienta Seleccionar Características.  Para estar "
-"disponibles para la selección, una capa tiene que ser una capa vectorial y "
-"configurarse para la selección en el mapbook."
+"Válassza ki melyik rétegről szeretne szelektálni a \"Query Layer\" legördülő"
+" listából. Megjegyzés: nem minden réteg használható az elem kiválasztás "
+"eszközzel. Ahhoz, hogy szelektálható legyen a rétegnek vektor rétegnek kell "
+"lennie és a konfigurációban kiválaszthatóvá kell tenni."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:93
 msgid ""
@@ -241,14 +231,13 @@ msgid ""
 "highlight the selected features on the map, and show an attribute table of "
 "the selected features."
 msgstr ""
-"Por último, haga click en el botón \"Go\" para seleccionar realmente las "
-"características.  GeoMoose devolverá un resumen de lo que fue seleccionado "
-"en la Super Tab, resaltará las características seleccionadas en el mapa y "
-"mostrará una tabla de atributos de ellas."
+"Végül kattintson a \"Go\" gombra az elemek kiválasztásához. A GeoMoose  Egy "
+"összesítést ad a szelektált elemekről a Super fülön, emellett kiemeli az "
+"elemeket a térképen és a kiválasztott elemek attribútumait megjeleníti."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:102
 msgid "Searching"
-msgstr "Búsqueda "
+msgstr "Keresés"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:104
 msgid ""
@@ -257,50 +246,51 @@ msgid ""
 "icon.  Enter your search parameters in the Super Tab then click the \"Go!\" "
 "button."
 msgstr ""
-"También puede buscar características por atributo.  Para comenzar, pasa el "
-"cursor sobre el menú \"Buscar\" en la barra de herramientas y haga click en "
-"el ícono \"Buscar Parcelas\".  Introduzca sus parámetros de búsqueda en la "
-"Super Tab y haga click en el botón \"Go!\"."
+"Attribútumok alapján is kereshet az elemekre. A kezdéshez menjen a "
+"\"Search\" menüre az eszközsorban és aztán kattintson a \"Search Parcels\" "
+"ikonra. Írja be a keresési feltételeket a Super fülön és kattintson a \"Go\""
+" gombra."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:112
 msgid "Three results appear in the list and are highlighted on the map."
-msgstr "Tres resultados aparecen en la lista y se destacan en el mapa."
+msgstr ""
+"Három eredmény jelenik meg a listában és kiemelve jelennek meg a térképen."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:116
 msgid ""
 "Clicking the magnifying glass icon/parcel number will zoom you to the "
 "specific parcel as illustrated in the following screenshot."
 msgstr ""
-"Haciendo click en el ícono de lupa/número de parcela, se acercará a la "
-"parcela específica tal como se ilustra en la siguiente pantalla."
+"A nagyító ikonra vagy a telek azonosítóra kattintva ránagyít az adott "
+"elemre, ahogy a következő képernyőképen bemutatjuk."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:122
 msgid "Printing"
-msgstr "Impresión "
+msgstr "Nyomtatás"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:128
 msgid ""
 "Clicking the Print button in the dialog will generate a PDF printout that "
 "you can open or save."
 msgstr ""
-"Haciendo click en el botón de Imprimir en el cuadro de diálogo se va a "
-"generar una impresión PDF que puede abrir o guardar."
+"A  párbeszédablakban a Print gombra kattintva Egy PDF dokumentumot generál "
+"amit megnyithat vagy elmenthet."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:134
 msgid "What Next?"
-msgstr "¿Qué sigue?"
+msgstr "Mi a következő?"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:136
 msgid ""
 "This is only the first step on the road to using GeoMoose. There is a lot "
 "more functionality you can try."
 msgstr ""
-"Esto es sólo el primer paso en el camino al uso de GeoMoose. Hay mucha más "
-"funcionalidad que puede tratar."
+"Egy csak az első lépés az úton a GeoMoose használatában. Sokkal több "
+"funkciója van amit kipróbálhat."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:139
 msgid "GeoMoose Project home"
-msgstr "Proyecto GeoMoose, inicio"
+msgstr "GeoMoose projekt honlap"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:141
 msgid "https://www.geomoose.org/"
@@ -308,7 +298,7 @@ msgstr "https://www.geomoose.org/"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:143
 msgid "GeoMoose Tutorial"
-msgstr "Tutorial de GeoMoose "
+msgstr "GeoMoose oktatóanyag"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:145
 msgid "https://www.geomoose.org/quickstart.html"

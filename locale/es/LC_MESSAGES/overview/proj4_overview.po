@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # 
 # Translators:
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018
 # MarPetra <mvergaratrejo@gmail.com>, 2018
-# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -14,32 +14,18 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-17 12:38-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../build/doc/overview/proj4_overview.rst:16
 msgid "Proj.4"
 msgstr "Proj.4"
-
-#: ../../build/doc/overview/proj4_overview.rst:18
-msgid ""
-"Proj4 is a library that provides methods to transform between different "
-"coordinate reference systems. A geographic coordinate reference system "
-"allows all points on the earth to be described as a set of coordinates (such"
-" as latitude, longitude and elevation). Different systems are used to "
-"represent the tridimensional earth on a flat, bidimensional map."
-msgstr ""
-"Proj4 es una biblioteca que proporciona métodos para transformar entre "
-"sistemas de referencia de coordenadas diferentes. Un sistema de referencia "
-"de coordenadas geográficas permite que todos los puntos de la tierra puedan "
-"ser descritos como   un conjuntos de coordenadas (como latitud, longitud y "
-"altitud). Diversos sistemas se utilizan para representar la tierra "
-"tridimensional  en un plano o mapa bidimensional."
 
 #: ../../build/doc/overview/proj4_overview.rst:24
 msgid ""

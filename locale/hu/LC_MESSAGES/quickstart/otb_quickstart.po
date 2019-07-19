@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Zoltan Siki <siki@agt.bme.hu>, 2019
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-08 15:38-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2019\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -378,7 +379,7 @@ msgstr "OTB Oktatóanyagok"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:180
 msgid "Follow the tutorials_ to learn more about OTB."
-msgstr "Kövesse az oktatóanyagokat, hogy többet tudjon meg az OTB-ről."
+msgstr "Kövesse az oktatóanyagokat_, hogy többet tudjon meg az OTB-ről."
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:184
 msgid "OTB Applications documentation"
@@ -386,7 +387,7 @@ msgstr "OTB alkalmazások dokumentációja"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:186
 msgid "See also detailed documentation about OTB applications_"
-msgstr "Nézze meg az OTB alkalmazásokról szóló részletes dokumentációt is"
+msgstr "Nézze meg az OTB alkalmazásokról_ szóló részletes dokumentációt is"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:190
 msgid ""
@@ -399,5 +400,5 @@ msgstr ""
 #: ../../build/doc/quickstart/otb_quickstart.rst:192
 msgid "Follow the courses_ to learn more about OTB (see section Tutorials)."
 msgstr ""
-"Kövesse a kurzusokat, hogy többet megtudjon az OTB-ről (lásd a Tutorials "
+"Kövesse a kurzusokat_, hogy többet megtudjon az OTB-ről (lásd a Tutorials "
 "fejezetet)."

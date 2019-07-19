@@ -3,14 +3,20 @@
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Robin Schwammborn, 2018
+# Andreas Schild <andreas.schild@bfw.gv.at>, 2018
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018
+# Astrid Emde <astrid_emde@osgeo.org>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-08 15:38-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Andreas Schild <andreas.schild@bfw.gv.at>, 2018\n"
+"PO-Revision-Date: 2017-09-20 16:06+0000\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2018\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -479,7 +485,7 @@ msgstr "Beispiel für einen WMS"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:205
 msgid "WhereGroup OSM WMS https://osm-demo.wheregroup.com/service"
-msgstr "WhereGroup OSM WMS https://osm-demo.wheregroup.com/service"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:210
 msgid "Add Service to Application"
@@ -604,8 +610,6 @@ msgid ""
 "transparency - Standard ist aktiviert, deaktiviert wird der Dienst ohne "
 "transparenten Hintergrund angefordert (getMap-Request mit TRANSPARENT=FALSE)"
 msgstr ""
-"transparency - Standard ist aktiviert. Deaktiviert wird der Dienst ohne "
-"transparenten Hintergrund angefordert (getMap-Request mit TRANSPARENT=FALSE)"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:249
 msgid ""
@@ -625,11 +629,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:251
 msgid "BBOX factor"
-msgstr "BBOX Factor"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:252
 msgid "tile buffer"
-msgstr "tile buffer"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:254
 msgid "Layer configuration"
@@ -661,7 +665,7 @@ msgstr "info on - Layer-Infoabfrage wird beim Start aktiviert"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:261
 msgid "info allow"
-msgstr "info allow - Infoabfrage wird für diesen Layer zugelassen"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:262
 msgid ""
@@ -689,8 +693,6 @@ msgstr "öffnet einen Dialog mit weiteren Informationen"
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:266
 msgid "name"
 msgstr ""
-"name - Layername der Service Information (wird beim getMap-Request verwendet"
-" und ist nicht veränderbar)"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:267
 msgid ""
@@ -767,12 +769,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:294
 msgid "Examples for elements Mapbender3 offers:"
-msgstr "Beispiele für Elemente, die Mapbender anbietet:"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:296
 msgid "About Dialog"
 msgstr ""
-"Über Mapbender-Dialog (About Dialog) - zeigt Informationen über Mapbender an"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:297
 msgid "Activity Indicator"
@@ -844,11 +845,11 @@ msgstr "Maßstabsleiste"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:314
 msgid "SimpleSearch"
-msgstr "Einfache Suche"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:315
 msgid "Search Router"
-msgstr "Suche"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:316
 msgid "SRS Selector"
@@ -899,12 +900,10 @@ msgstr ""
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:331
 msgid "add a Layertree to the content of your application"
 msgstr ""
-"Fügen Sie einen Ebenenbaum (Layertree) zum content-Bereich Ihrer Anwendung "
-"hinzu"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:332
 msgid "add a button that opens the Layertree to the top of your application"
-msgstr "Fügen Sie einen Button in die Toolbar hinzu, der den Layertree öffnet"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:333
 msgid "add the Navigation Toolbar to the content"
@@ -919,7 +918,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:335
 msgid "add a SRS Selector to the footer"
-msgstr "Fügen Sie einen SRS Selector in den Footer-Bereich ein."
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:339
 msgid "User and group management"
@@ -1154,7 +1153,7 @@ msgstr "https://doc.mapbender.org"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:447
 msgid "https://api.mapbender.org"
-msgstr "https://api.mapbender.org"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:449
 msgid "Get involved in the project"

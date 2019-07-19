@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -54,9 +54,8 @@ msgstr "Dokumentáció:"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:26
 msgid ""
-"https://docs.qgis.org/2.14/en/docs/user_manual/working_with_ogc/ogc_server_support.html"
+"https://docs.qgis.org/3.4/en/docs/user_manual/working_with_ogc/server/index.html"
 msgstr ""
-"https://docs.qgis.org/2.14/en/docs/user_manual/working_with_ogc/ogc_server_support.html"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:28
 msgid "Quick start for Server Installation on Debian/Ubuntu:"
@@ -218,10 +217,8 @@ msgstr ""
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:100
 msgid ""
 "Open the `WMS URL <http://localhost/cgi-"
-"bin/qgis_mapserv?map=/home/user/world.qgs&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_."
+"bin/qgis_mapserv?map=/home/user/world.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_."
 msgstr ""
-"Nyissa meg a `WMS URL-t <http://localhost/cgi-"
-"bin/qgis_mapserv?map=/home/user/world.qgs&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:102
 msgid "You should see all world countries, this time rendered by QGIS Server."

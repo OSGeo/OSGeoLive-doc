@@ -4,8 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# María Arias de Reyna <delawen@gmail.com>, 2017
-# MarPetra <mvergaratrejo@gmail.com>, 2018
+# Zoltan Siki <siki@agt.bme.hu>, 2019
 # Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
 # 
 #, fuzzy
@@ -16,16 +15,16 @@ msgstr ""
 "POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
+"Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:15
 msgid "Leaflet Quickstart"
-msgstr "Guía Rápida de Leaflet"
+msgstr "Leaflet gyorstalpaló"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:17
 msgid ""
@@ -34,15 +33,15 @@ msgid ""
 "developers ever need for online maps. Leaflet is designed with simplicity, "
 "performance and usability in mind."
 msgstr ""
-"Leaflet es una biblioteca de JavaScript para mapas interactivos basados en "
-"navegador y optimizados para dispositivos móviles. Es ligero, pero cuenta "
-"con todo la que mayoría de los desarrolladores nunca necesidad de mapas en "
-"línea. Folleto está diseñado con simplicidad, rendimiento y usabilidad en "
-"mente."
+"A Leaflet egyJavaScript könyvtár böngésző alapú, mobil barát interaktív "
+"térképekhez. Könnyűsúlyú, mégis minden olyan funkcióval rendelkezik, amire a"
+" legtöbb fejlesztőnek szüksége van online térképekhez. A Leaflet-et az "
+"egyszerűséget, a teljesítményt és a használhatóságot szem előtt tartva "
+"készítették."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:22
 msgid "Running"
-msgstr "Ejecución "
+msgstr "Futtatás"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:24
 msgid ""
@@ -51,14 +50,14 @@ msgid ""
 "TileStache**. This will provide background tiles that will be used in this "
 "demo."
 msgstr ""
-"Antes de ejecutar esta Guía de Inicio Rápido debe comenzar a TileStache. En "
-"el dvd vivo esto puede encontrarse en  **Geospatial\\\\Spatial "
-"Tools\\\\Start Mapnik & TileStache**. Esto proporcionará teselas de fondo "
-"que se utilizarán en esta demo."
+"Ez a gyorstalpaló futtatása előtt a TileStache-el kellene kezdenie. A Live "
+"DVD-n ezt a  **Geospatial\\\\Spatial Tools\\\\Start Mapnik & TileStache** "
+"alatt találja. Ez biztosítja a háttér csempéket,amit ebben a demóban "
+"használunk."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:27
 msgid "View the example_"
-msgstr "Ver el ejemplo_"
+msgstr "A példa megtekintése_"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:29
 msgid ""
@@ -66,53 +65,53 @@ msgid ""
 "reading the original demo on: http://leafletjs.com/examples/quick-start/, "
 "since this demo uses tilestache on the live dvd."
 msgstr ""
-"Si estás leyendo este inicio rápido fuera el dvd vivo, puede que prefiera  "
-"leer el demo original en: http://leafletjs.com/examples/quick-start/, puesto"
-" que esta demostración utiliza tilestache en el dvd en vivo."
+"Ha nem Live DVD-ről olvassa ezt a gyorstalpalót, akkor jobban teszi,ha az "
+"eredeti demót a  http://leafletjs.com/examples/quick-start/ oldalon, mivel "
+"ez a bemutató tilestache-t használja a Live DVD-n."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:32
 msgid "Preparing your page"
-msgstr "Preparando su página"
+msgstr "Az oldal előkészítése"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:33
 msgid ""
 "Before writing any code for the map, you need to do the following "
 "preparation steps on your page:"
 msgstr ""
-"Antes de escribir cualquier código para el mapa, tienes que hacer los "
-"siguientes pasos de la preparación en tu página:"
+"Mielőtt bármilyen kódot írna a térképhez a következő előkészítő lépéseket "
+"kell végrehajtani az oldalán:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:35
 msgid "Include Leaflet CSS files in the head section of your document"
-msgstr ""
-"Incluya archivos Leaflet CSS de folleto en el encabezado de su documento"
+msgstr "Vegye be a Leaflet CSS fájlt a dokumentumának fejléc részébe"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:44
 msgid "Include Leaflet JavaScript file:"
-msgstr "Incluye archivo Leaflet JavaScript:"
+msgstr "Vegye be a Leaflet JavaScript fájlt:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:50
 msgid ""
 "put a **div** element with a certain **id** where you want your map to be:"
 msgstr ""
-"Ponga un elemento **div** con cierto **id** donde quiera que esté su mapa: "
+"helyezzen el egy **div** elemet egy egyedi **id**-vel, ahová a térképét "
+"akarja tenni:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:56
 msgid ""
 "Make sure the map container has a defined height, for example by setting it "
 "in CSS:"
 msgstr ""
-"Asegúrese de que el contenedor del mapa tiene una altura definida, por "
-"ejemplo configurándolo en CSS:"
+"Győződjön meg arról, hogy a térképet tartalmazó elemnek egy meghatározott "
+"magassága van, például a CSS-ben beállítva:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:62
 msgid "Now you are ready to initialize the map and do some stuff with it."
 msgstr ""
-"Ahora estás listo para inicializar el mapa y hacer algunas cosas con él."
+"Most készen áll a térkép inicializálására és hogy csináljon vele valamit."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:65
 msgid "Setting up the Map"
-msgstr "Configurar el mapa"
+msgstr "A térkép beállítása"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:66
 msgid ""
@@ -120,10 +119,9 @@ msgid ""
 "conference. First we'll initialize the map and set its view to our chosen "
 "geographical coordinates and a zoom level:"
 msgstr ""
-"Vamos a crear un mapa de el este de África con una indicación de la "
-"Conferencia FOSS4G de 2018. Primero vamos a inicializar el mapa y "
-"estableceremos su vista en nuestras coordenadas geográficas elegidas y a un "
-"nivel de acercamiento:"
+"Készítsünk egy térképet Kelet-Afrikáról a 2018-asFOSS4G konferencia "
+"megjelölésével. Először inicializáljuk a térképet és beállítjuk a nézetet a "
+"választott földrajzi koordinátákra és a nagyítási szintet:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:72
 msgid ""
@@ -131,9 +129,9 @@ msgid ""
 "all mouse and touch interactions on the map are enabled, and it has zoom and"
 " attribution controls."
 msgstr ""
-"De manera predeterminada (al no pasar cualquier opción al crear la instancia"
-" de mapa), todas las interacciones con el mouse y el tacto en el mapa están "
-"habilitadas, y tiene controles de zoom y de atribución."
+"Alapértelmezésben minden egér és érintés interakció engedélyezett a térképen"
+" (mivel a térkép példány létrehozásánál nem adtunk meg paramétereket), és "
+"van vezérlő elem a nagyításhoz és a szerzőkhöz."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:74
 msgid ""
@@ -141,10 +139,9 @@ msgid ""
 "act like this when they don't return an explicit value, which allows "
 "convenient jQuery-like method chaining."
 msgstr ""
-"Tenga en cuenta que la llamada a setView también devuelve el objeto de mapa "
-"- la mayoría de los métodos de Leaflet actúan de esta manera cuando no "
-"devuelven un valor explícito, lo que permite  el conveniente encadenamiento "
-"del método jQuery-like."
+"Vegye észre, hogy a setView hívás visszaadja a térkép objektumot - a legtöbb"
+" Leaflet metódus így működik, amikor nem adnak vissza egy explicit értéket, "
+"ez lehetővé teszi a jQuery-hez hasonló kényelmes metódus láncolást."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:76
 msgid ""
@@ -153,35 +150,36 @@ msgid ""
 "background maps such as openstreetmap will result in a much better user "
 "experience."
 msgstr ""
-"A continuación vamos a añadir una capa de teselas a nuestro mapa. En este "
-"caso vamos a usar las imágenes de teselas proporcionadas por TileStache en "
-"el dvd en vivo. Tenga en cuenta que el uso de mapas de fondo más agradables "
-"como openstreetmap dará como resultado una mejor experiencia de usuario."
+"Ezután egy csempe réteget adunk a térképünkhöz.  Ebben az esetben a live "
+"DVD-n található TileStache által szolgáltatott csempe képeket használjuk. "
+"Vegye észre, hogy sokkal jobb felhasználói élményt nyújt egy szebb "
+"háttértérkép mint például az openstreetmap."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:79
 msgid ""
 "Creating a tile layer usually involves setting the URL template for the tile"
 " images, the attribution text and the maximum zoom level of the layer:"
 msgstr ""
-"La creación de una capa de teselas generalmente implica configurar la "
-"plantilla de la URL de las imágenes de azulejo, el texto de atribución y el "
-"máximo nivel de acercamiento de la capa:"
+"Egy csempe réteg létrehozása általában magában foglalja az URL sablon "
+"beállítását a csempeképekhez, a készítőkre vonatkozó szöveget és a maximális"
+" nagyítási szintet:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:85
 msgid ""
 "If you have online access you may want to use a nicer tilemap as the "
 "background:"
 msgstr ""
-"Si usted tiene acceso en línea, puede que desee utilizar un tilemap mejor "
-"como  fondo:"
+"Ha online hozzáférése van, akkor egy szebb csempetérképet használhat "
+"háttérként:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:91
 msgid ""
 "Make sure all the code is called after the **div** and **leaflet.js** "
 "inclusion. That's it! You have a working Leaflet map now."
 msgstr ""
-"Asegúrese de después de la inclusión  **div** and **leaflet.js**. ¡Eso es!. "
-"Ahora usted tiene un mapa de folleto en funcionamiento."
+"Győződjön meg róla, hogy minden a kódot a **div** és a **leaflet.js** "
+"beillesztés után hívjanak meg. Ennyi az egész! Most van egy működő Leaflet "
+"térképe."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:93
 msgid ""
@@ -190,23 +188,23 @@ msgid ""
 "contain a single provider-specific line of code, so you're free to use other"
 " providers if you need to."
 msgstr ""
-"Cabe destacar que Leaflet es independiente del proveedor, lo que significa "
-"que no impone una opción particular de proveedores para las teselas  y ni "
-"siquiera contiene una sola línea de código específica del proveedor, por lo "
-"que puede usar otros proveedores si lo necesita."
+"Érdemes megjegyezni, hogy Leaflet szolgáltató-független, ami azt jelenti, "
+"hogy nem kényszeríti ki egy adott szolgáltatók a csempékhez, és még nem "
+"tartalmaz egy szolgáltatófüggő kódsort sem, így szabadon használhat más "
+"szolgáltatót, ha szüksége van rá."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:96
 msgid "Markers, circles and polygons"
-msgstr "Marcadores, círculos y polígonos"
+msgstr "Szimbólumok, körök és zárt idomok"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:98
 msgid ""
 "Besides tile layers, you can easily add other things to your map, including "
 "markers, polylines, polygons, circles and popups. Let's add a marker:"
 msgstr ""
-"Además de capas de teselas, udted puede puede agregar fácilmente otras cosas"
-" a su mapa, incluyendo marcadores, polilíneas, polígonos, círculos y "
-"ventanas emergentes. Vamos a añadir un marcador:"
+"A csempe rétegek mellett más dolgokat is könnyen hozzáadhat a térképéhez, "
+"beleértve a szimbólumokat, törtvonalakat, zárt idomokat és felugró "
+"ablakokat. Adjunk hozzá egy szimbólumot:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:105
 msgid ""
@@ -214,26 +212,26 @@ msgid ""
 " second argument), but lets you control how it looks by passing options as "
 "the last argument when creating the object:"
 msgstr ""
-"Para añadir un círculo es igual (excepto para especificar el radio en metros"
-" como un segundo argumento), pero le permite controlar cómo se ve pasando "
-"opciones como el argumento pasado al crear el objeto:"
+"Egy kör hozzáadás ugyanígy megy (eltekintve a második argumentumként "
+"méterben megadott sugártól), de lehetővé teszi, hogy a kinézetét beállítsa "
+"az objektum létrehozásánál utolsóként átadott beállításokkal."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:115
 msgid "Adding a polygon is as easy:"
-msgstr "Agregar un polígono es tan fácil:"
+msgstr "Egy zárt idom hozzáadása ilyen könnyű:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:127
 msgid "Working with popups"
-msgstr "Trabajando con ventanas emergentes"
+msgstr "Munka a felugró ablakokkal"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:129
 msgid ""
 "Popups are usually used when you want to attach some information to a "
 "particular object on a map. Leaflet has a very handy shortcut for this:"
 msgstr ""
-"Las ventanas emergentes se utilizan generalmente cuando se desea adjuntar "
-"alguna información a un objeto determinado en el mapa. Leaflet tiene un "
-"atajo muy útil para esto:"
+"A felugró ablakokat általában akkor használják, ha néhány információt "
+"szeretne csatolni egy adott objektumhoz a térképen. A Leaflet-nek van egy "
+"nagyon praktikus megoldása erre:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:138
 msgid ""
@@ -241,13 +239,13 @@ msgid ""
 "closing of a previously opened popup when opening a new one which is good "
 "for usability."
 msgstr ""
-"Aquí utilizamos **openOn** en vez de **addTo** porque maneja el cierre "
-"automático de una ventana emergente previamente abierta al abrir una nueva "
-"que es buena para la usabilidad."
+"Itt az **addTo** helyett az **openOn**-t használjuk, mert ez kezeli a "
+"korábban megnyitott felugró ablak automatikus lezárását amikor egy újat "
+"nyitunk meg, ami jó a használhatósághoz."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:141
 msgid "Dealing with events"
-msgstr "Tratando con eventos"
+msgstr "Események kezelése"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:143
 msgid ""
@@ -255,10 +253,10 @@ msgid ""
 " zoom changes, the corresponding object sends an event which you can "
 "subscribe to with a function. It allows you to react to user interaction:"
 msgstr ""
-"Cada vez que algo sucede en Leaflet, por ejemplo, el usuario hace click en "
-"un marcador o cambia el acercamiento del mapa el objeto correspondiente "
-"envía un evento que puede suscribirse a una función. Esto le permite "
-"reaccionar ante la interacción con el usuario:"
+"Minden alkalommal, amikor valami történik a Leaflet-ben, pl. a felhasználó "
+"egy szimbólumra kattintott vagy a térkép nagyítása megváltozott, a megfelelő"
+" objektumot küld egy esemény, amelynek kezeléséhez egy függvényt rendelhet.."
+" Ez lehetővé teszi, hogy a felhasználó műveleteire reagáljon:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:153
 msgid ""
@@ -268,29 +266,28 @@ msgid ""
 "event object (e in the example above) has latlng property which is a "
 "location at which the click occured."
 msgstr ""
-"Cada objeto tiene su propio conjunto de eventos - vea documentation_ para "
-"más detalles. El primer argumento de la función del oyente es un objeto de "
-"evento - contiene información útil sobre el evento que sucedió. Por ejemplo,"
-" el objeto de evento de un click en el mapa (e en el ejemplo anterior) tiene"
-" una propiedad latlng que es una ubicación en la que se produjo el click."
+"Minden objektumnak van saját esemény készlete - lásd a dokumentációt_ a "
+"részletekért. Az esemény figyelő függvény első argumentuma egy esemény "
+"objektum - ez hasznos információkat tartalmaz a bekövetkezett eseményről. "
+"Például a térkép kattintás objektumnak (e a fentipéldában) van latlng "
+"tulajdonsága, mely a hely ahová kattintottak."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:155
 msgid "Let's improve our example by using a popup instead of an alert:"
 msgstr ""
-"Vamos a mejorar nuestro ejemplo mediante una ventana emergente en lugar de "
-"una alerta:"
+"Tökéletesítsük a példánkat az alert helyett használjunk felugró ablakot:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:170
 msgid ""
 "Try clicking on the map and you will see the coordinates in a popup. View "
 "the full example_"
 msgstr ""
-"Pruebe haciendo click en el mapa y verá las coordenadas en una ventana "
-"emergente. Ver el ejemplo completo_ "
+"Próbáljon a térképre kattintani és egy felugró ablakban látja a "
+"koordinátákat. A teljes példa_ megtekintése"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:173
 msgid "What Next?"
-msgstr "¿Qué sigue?"
+msgstr "Mi a következő?"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:175
 msgid ""
@@ -298,6 +295,6 @@ msgid ""
 "away! Don't forget to take a look at the detailed documentation_ or other "
 "examples_."
 msgstr ""
-"Ahora usted ha aprendido lo básico sobre Leaflet y puede empezar a construir"
-" aplicaciones mapa enseguida! No te olvides de echar un vistazo a la "
-"documentation detallada_  u otros ejemplos_."
+"Most megtanulta a Leaflet alapjait és azonnal elkezdheti a térkép alkalmazás"
+" készítését! Ne felejtsen el egy pillantást vetni a részletes "
+"dokumentációra_ vagy további példákra_."

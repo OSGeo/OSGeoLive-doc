@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-07-19 08:47-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:8
 msgid "Install OSGeoLive to Hard Disk"
@@ -30,11 +31,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:13
 msgid ""
-"This process can also be run inside a Virtual Machine to create a permanent "
-"OSGeoLive Virtual Machine from a DVD or ISO image."
+"This process can also be run inside a Virtual Machine to create a "
+"permanent OSGeoLive Virtual Machine from a DVD or ISO image."
 msgstr ""
-"This process can also be run inside a Virtual Machine to create a permanent "
-"OSGeoLive Virtual Machine from a DVD or ISO image."
+"This process can also be run inside a Virtual Machine to create a "
+"permanent OSGeoLive Virtual Machine from a DVD or ISO image."
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:17
 msgid "System Requirements"
@@ -68,17 +69,14 @@ msgstr "Select timezone"
 msgid "Select keyboard"
 msgstr "Select keyboard"
 
-#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:56
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:52
+#, fuzzy
 msgid ""
 "Specify which disk to want to install on. (Beware, this may delete an "
-"existing"
+"existing installed partition)."
 msgstr ""
 "Specify which disk to want to install on. (Beware, this may delete an "
 "existing"
-
-#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:53
-msgid "installed partition)."
-msgstr "installed partition)."
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:58
 msgid "Defaults for settings are:"
@@ -119,12 +117,12 @@ msgstr "That is it."
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:75
 msgid ""
 "Installation Tips In case you are installing using a username other than "
-"\"user\", tomcat applications require to have permission to service command "
-"as described in http://trac.osgeo.org/osgeo/ticket/1153"
+"\"user\", tomcat applications require to have permission to service "
+"command as described in http://trac.osgeo.org/osgeo/ticket/1153"
 msgstr ""
 "Installation Tips In case you are installing using a username other than "
-"\"user\", tomcat applications require to have permission to service command "
-"as described in http://trac.osgeo.org/osgeo/ticket/1153"
+"\"user\", tomcat applications require to have permission to service "
+"command as described in http://trac.osgeo.org/osgeo/ticket/1153"
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:80
 msgid "See Also:"
@@ -141,3 +139,7 @@ msgstr ":doc:`virtualization_quickstart`"
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:84
 msgid ":doc:`usb_quickstart`"
 msgstr ":doc:`usb_quickstart`"
+
+#~ msgid "installed partition)."
+#~ msgstr "installed partition)."
+
