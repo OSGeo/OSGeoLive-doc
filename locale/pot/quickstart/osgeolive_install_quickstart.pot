@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2019-07-19 08:47-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,12 +60,8 @@ msgstr ""
 msgid "Select keyboard"
 msgstr ""
 
-#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:56
-msgid "Specify which disk to want to install on. (Beware, this may delete an existing"
-msgstr ""
-
-#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:53
-msgid "installed partition)."
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:52
+msgid "Specify which disk to want to install on. (Beware, this may delete an existing installed partition)."
 msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:58
