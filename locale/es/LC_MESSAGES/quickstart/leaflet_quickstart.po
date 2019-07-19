@@ -11,9 +11,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-17 10:25-0500\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -174,18 +174,6 @@ msgid ""
 msgstr ""
 "Si usted tiene acceso en línea, puede que desee utilizar un tilemap mejor "
 "como  fondo:"
-
-#: ../../build/doc/quickstart/leaflet_quickstart.rst:89
-msgid ""
-"L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,"
-" attribution: '© <a "
-"href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> "
-"contributors'}).addTo(map);"
-msgstr ""
-"L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,"
-" attribution: '© <a "
-"href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> "
-"contributors'}).addTo(map);"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:91
 msgid ""

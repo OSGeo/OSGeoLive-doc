@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # 
 # Translators:
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018
 # MarPetra <mvergaratrejo@gmail.com>, 2018
-# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -14,11 +14,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-28 14:24-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -106,17 +107,6 @@ msgstr ""
 msgid "You will notice the display broken into 3 areas:"
 msgstr "Usted notará que la pantalla se divide en 3 áreas:"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:68
-msgid ""
-"The left panel displays the database hierarchy, such as a list of tables, "
-"and columns within the table. Right click on elements of the left panel to "
-"select from a list of common database actions."
-msgstr ""
-"El panel de la izquierda muestra la jerarquía de la base de datos, por "
-"ejemplo, una lista de tablas y columnas dentro de la tabla. Haga click "
-"derecho en los elementos del panel izquierdo para seleccionar de una lista "
-"de acciones comunes de la base de datos."
-
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:70
 msgid ""
 "The top right panel shows SQL for the action selected. You can enter your "
@@ -138,16 +128,6 @@ msgstr ""
 "Haga click derecho sobre la tabla de MunicipalHalls y seleccionar \"Editar "
 "filas de tabla\". Observe la consulta SQL que ha sido creada para usted en "
 "el panel derecho superior y los resultados en la parte inferior derecha.::"
-
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:87
-msgid ""
-"Now let's try tweaking this SQL statement to get NOME and (Lat,Long) for "
-"only the NOME_PROV fields include \"BRESCIA\", this time using the "
-"MunicipalHallsView.  In the upper right SQL pane type::"
-msgstr ""
-"Ahora trate de afinar esta sentencia SQL para obtener NOME y (Lat, Long) "
-"para sólo los campos NOME_PROV incluyendo \"BRESCIA\", esta vez usando el "
-"MunicipalHallsView.  En el panel superior derecho SQL teclee:"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:95
 msgid ""
