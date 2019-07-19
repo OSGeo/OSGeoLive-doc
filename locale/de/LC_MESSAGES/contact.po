@@ -3,13 +3,19 @@
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Manfred Reiter <ma.reiter@gmail.com>, 2017
+# Astrid Emde <astrid_emde@osgeo.org>, 2018
+# Andreas Schild <andreas.schild@bfw.gv.at>, 2018
+# Richard Bischof <richard.bischof@lgln.niedersachsen.de>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-08 15:38-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Richard Bischof <richard.bischof@lgln.niedersachsen.de>, 2018\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
@@ -99,8 +105,6 @@ msgid ""
 "IRC users might try the #osgeolive or #osgeo channel at Freenode.net for "
 "real-time assistance."
 msgstr ""
-"IRC-Anwender finden in den Chaträumen #osgeolive oder #osgeo auf "
-"Freenode.net Unterstützung."
 
 #: ../../build/doc/contact.rst:35
 msgid ""
