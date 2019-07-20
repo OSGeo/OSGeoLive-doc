@@ -1,5 +1,6 @@
 :Author: Markus Neteler, mundialis
 :Reviewer: Astrid Emde
+:Reviewer: Cameron Shorter
 :Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Copyright: 2019 by The OSGeo Foundation
@@ -7,11 +8,10 @@
 @LOGO_actinia@
 @OSGEO_KIND_actinia@
 
-
 @NAME_actinia@
 ================================================================================
 
-Open source REST API
+High Performance Geospatial Processing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `Actinia <https://actinia.mundialis.de/>`__ is an open source REST API
@@ -23,37 +23,17 @@ It provides a REST API to process satellite images, time series of
 satellite images, arbitrary raster data with geographical relations and
 vector data.
 
-The REST interface allows to access, manage and manipulate the GRASS GIS
-database via HTTP GET, PUT, POST and DELETE requests and to process
-raster, vector and time series data located in a persistent GRASS GIS
-database. **Actinia** allows the processing of cloud based data, for
-example all Landsat 4-8 scenes as well as all Sentinel-2 scenes in 
-ephemeral databases. The computational results of ephemeral processing
-are available via object storage as GeoTIFF files.
-
-API documentation
------------------
-
-The full API documentation is available here:
-https://actinia.mundialis.de/api_docs/
-
-actinia command execution - actinia shell
------------------------------------------
-
-There is also an option to interactively control actinia. For details,
-see
-`here <https://github.com/mundialis/actinia_core/tree/master/scripts>`__.
-
-
-.. _actinia: https://github.com/mundialis/actinia_core
-
 @SCREENSHOT_actinia@
 
 Core Features
 --------------------------------------------------------------------------------
 
-* REST API to process satellite images, time series of satellite images, raster and vector data.
+* REST API to process satellite images, time series of satellite images, raster and vector data. The REST interface allows you to access, manage and manipulate the GRASS GIS database via HTTP GET, PUT, POST and DELETE requests and to process raster, vector and time series data located in a persistent GRASS GIS database.
+* Actinia allows the processing of cloud based data, for example all Landsat 4-8 scenes as well as all Sentinel-2 scenes in ephemeral databases. The computational results of ephemeral processing are available via object storage as GeoTIFF files.
 * Explore the `turorial <https://actinia.mundialis.de/tutorial/>`_.
+* Command execution - actinia shell. There is also an option to interactively control actinia. Details `here <https://github.com/mundialis/actinia_core/tree/master/scripts>`__.
+
+.. _actinia: https://github.com/mundialis/actinia_core
 
 Details
 --------------------------------------------------------------------------------
@@ -68,8 +48,9 @@ Details
 
 **API Interfaces:** REST API, Python
 
-**Support:** https://github.com/mundialis/actinia_core
+**API documentation:** https://actinia.mundialis.de/api_docs/
 
+**Support:** https://github.com/mundialis/actinia_core
 
 @QUICKSTART_actinia@
 
