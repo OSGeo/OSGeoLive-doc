@@ -5,15 +5,16 @@
 # 
 # Translators:
 # gislars, 2018
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: gislars, 2018\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,9 +56,8 @@ msgstr "Dokumentation:"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:26
 msgid ""
-"https://docs.qgis.org/2.14/en/docs/user_manual/working_with_ogc/ogc_server_support.html"
+"https://docs.qgis.org/3.4/en/docs/user_manual/working_with_ogc/server/index.html"
 msgstr ""
-"https://docs.qgis.org/2.14/en/docs/user_manual/working_with_ogc/ogc_server_support.html"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:28
 msgid "Quick start for Server Installation on Debian/Ubuntu:"
@@ -215,10 +215,8 @@ msgstr "Wählen Sie :file:`/home/user/world.qgs` und drücken :guilabel:`Save`."
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:100
 msgid ""
 "Open the `WMS URL <http://localhost/cgi-"
-"bin/qgis_mapserv?map=/home/user/world.qgs&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_."
+"bin/qgis_mapserv?map=/home/user/world.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_."
 msgstr ""
-"Öffnen Sie `WMS URL <http://localhost/cgi-"
-"bin/qgis_mapserv?map=/home/user/world.qgs&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:102
 msgid "You should see all world countries, this time rendered by QGIS Server."
@@ -234,5 +232,5 @@ msgid ""
 "To learn more about QGIS Server, a good starting point is the `QGIS User "
 "Guide`_."
 msgstr ""
-"Um mehr über QGIS-Server zu erfahren, ist das \"QGIS User Guide\" _ ein "
-"guter Ausgangspunkt."
+"Um mehr über QGIS-Server zu erfahren, ist das `QGIS User Guide`_ ein guter "
+"Ausgangspunkt."
