@@ -50,7 +50,7 @@ Select keyboard
     :scale: 70 %
 
 Specify which disk to want to install on. (Beware, this may delete an existing
-  installed partition).
+installed partition).
 
   .. image:: /images/projects/osgeolive/osgeolive_install5_username.png
     :scale: 70 %

@@ -3,13 +3,16 @@
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# MarPetra <mvergaratrejo@gmail.com>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-08 15:38-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-09-20 16:06+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
@@ -479,7 +482,7 @@ msgstr "Aquí está un ejemplo WMS:"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:205
 msgid "WhereGroup OSM WMS https://osm-demo.wheregroup.com/service"
-msgstr "WhereGroup OSM WMS https://osm-demo.wheregroup.com/service"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:210
 msgid "Add Service to Application"
@@ -604,9 +607,6 @@ msgid ""
 "transparency - Standard ist aktiviert, deaktiviert wird der Dienst ohne "
 "transparenten Hintergrund angefordert (getMap-Request mit TRANSPARENT=FALSE)"
 msgstr ""
-"transparencia - El valor estándar está activado, desactivado si el servicio "
-"se solicita sin un fondo transparente (solicite getMap con TRANSPARENT = "
-"FALSE)"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:249
 msgid ""
@@ -626,11 +626,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:251
 msgid "BBOX factor"
-msgstr "Factor BBOX"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:252
 msgid "tile buffer"
-msgstr "tesela de búfer"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:254
 msgid "Layer configuration"
@@ -667,7 +667,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:261
 msgid "info allow"
-msgstr "información permite"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:262
 msgid ""
@@ -695,7 +695,7 @@ msgstr "...-> abre un cuadro de diálogo con más información "
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:266
 msgid "name"
-msgstr "nombre"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:267
 msgid ""
@@ -772,11 +772,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:294
 msgid "Examples for elements Mapbender3 offers:"
-msgstr "Ejemplos de elementos que Mapbender3 ofrece:"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:296
 msgid "About Dialog"
-msgstr "Sobre el cuadro de diálogo"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:297
 msgid "Activity Indicator"
@@ -848,11 +848,11 @@ msgstr "ScaleBar"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:314
 msgid "SimpleSearch"
-msgstr "Búsqueda Simple "
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:315
 msgid "Search Router"
-msgstr "Búsqueda de Enrutador "
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:316
 msgid "SRS Selector"
@@ -900,12 +900,11 @@ msgstr "Añadir un elemento de mapa al contenido de su aplicación"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:331
 msgid "add a Layertree to the content of your application"
-msgstr "Añadir un Layertree al contenido de su aplicación"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:332
 msgid "add a button that opens the Layertree to the top of your application"
 msgstr ""
-"Agregar un botón que abre el Layertree a la parte superior de la aplicación"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:333
 msgid "add the Navigation Toolbar to the content"
@@ -917,7 +916,7 @@ msgstr "Añadir un Copyright y cambiar el texto de derechos de autor"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:335
 msgid "add a SRS Selector to the footer"
-msgstr "Añadir un Selector SRS a pie de página"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:339
 msgid "User and group management"
@@ -1150,7 +1149,7 @@ msgstr "https://doc.mapbender.org"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:447
 msgid "https://api.mapbender.org"
-msgstr "https://api.mapbender.org"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:449
 msgid "Get involved in the project"

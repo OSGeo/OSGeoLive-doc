@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # 
 # Translators:
 # John Kennedy <julius.krey@wheregroup.com>, 2018
@@ -14,7 +14,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 12.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-28 14:24-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
@@ -23,6 +23,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -426,10 +427,6 @@ msgstr "**Unterstützte Plattformen:** Windows, Linux"
 msgid "**API Interfaces:** Java"
 msgstr "**API Schnittstellen:** Java"
 
-#: ../../build/doc/overview/deegree_overview.rst:131
-msgid "**Support:** https://www.deegree.org/community"
-msgstr ""
-
 #: ../../build/doc/overview/deegree_overview.rst:136
 msgid "Quickstart"
 msgstr "Schnellstart"
@@ -437,3 +434,6 @@ msgstr "Schnellstart"
 #: ../../build/doc/overview/deegree_overview.rst:138
 msgid ":doc:`Quickstart documentation <../quickstart/deegree_quickstart>`"
 msgstr "* :doc:`Quickstart Dokumentation <../quickstart/deegree_quickstart>`"
+
+#~ msgid "**Support:** http://wiki.deegree.org/deegreeWiki/GettingSupport"
+#~ msgstr ""

@@ -67,7 +67,7 @@ Opening Data
     the Memory Size.
 
 .. tip:: You can also load data by dragging and dropping it on the application. 
-   Try this with one of the datasets in the ** /home/user/data/gdal_natural_earth/** folder.
+   Try this with one of the datasets in the **/home/user/data/gdal_natural_earth/** folder.
 
 Displaying Data
 ================================================================================

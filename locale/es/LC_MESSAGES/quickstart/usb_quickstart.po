@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2018
-# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018
 # 
 #, fuzzy
 msgid ""
@@ -14,11 +14,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-28 14:24-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -37,19 +38,6 @@ msgstr ""
 "unidad flash USB de arranque de OSGeoLive. Arrancar desde una unidad flash "
 "es más rápido que desde un DVD, y la unidad USB puede configurarse para "
 "almacenar datos entre sesiones (llamados persistencia)."
-
-#: ../../build/doc/quickstart/usb_quickstart.rst:13
-msgid ""
-"We have found that there are a number of quirks and tricks involved in "
-"successfully building a USB drive. We have documented what we know, but "
-"there are likely more tricks and issues. Look for latest tips here: "
-"https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB"
-msgstr ""
-"Hemos encontrado que hay una serie de trucos y peculiaridades involucrados "
-"en la construcción de una unidad USB con éxito . Hemos documentado lo que "
-"sabemos, pero hay probabilidades de más trucos y temas. Buscar las últimas "
-"sugerencias aquí: "
-"https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:16
 msgid "Requirements"
@@ -235,14 +223,6 @@ msgstr ""
 "La mayoría de los ordenadores no están configurados para arrancar desde una "
 "unidad USB de forma predeterminada."
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:83
-msgid ""
-"When booting, look for a message indicating a Boot Menu (most commonly you "
-"press F12)"
-msgstr ""
-"Al arrancar, busque un mensaje que indique un menú de arranque (lo más "
-"habitual es que presione F12)"
-
 #: ../../build/doc/quickstart/usb_quickstart.rst:84
 msgid ""
 "If your computer does not have a boot menu, then boot into your system BIOS."
@@ -309,20 +289,3 @@ msgstr ":doc:`virtualization_quickstart`"
 #: ../../build/doc/quickstart/usb_quickstart.rst:102
 msgid ":doc:`osgeolive_install_quickstart`"
 msgstr ":doc:`osgeolive_install_quickstart`"
-
-#: ../../build/doc/quickstart/usb_quickstart.rst:103
-msgid ""
-"Alternative USB creation methods and latest tips are collected here: `wiki "
-"<https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
-msgstr ""
-"Métodos alternativos de creación de USB y últimas sugerencias se recopilan "
-"aquí: `wiki "
-"<https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
-
-#: ../../build/doc/quickstart/usb_quickstart.rst:104
-msgid ""
-"Questions can be directed to our email list: "
-"https://lists.osgeo.org/pipermail/osgeolive/"
-msgstr ""
-"Preguntas pueden ser dirigidas a nuestra lista de correo electrónico: "
-"https://lists.osgeo.org/pipermail/osgeolive/"
