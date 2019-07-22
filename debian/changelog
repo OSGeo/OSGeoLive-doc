@@ -1,3 +1,9 @@
+osgeolive-docs (13.0~beta2) bionic; urgency=medium
+
+  * Preparing 13.0 beta2 release
+
+ -- Angelos Tzotsos <gcpp.kalxas@gmail.com>  Tue, 23 Jul 2019 01:00:00 +0200
+
 osgeolive-docs (13.0~beta1) bionic; urgency=medium
 
   * Preparing 13.0 beta1 release
