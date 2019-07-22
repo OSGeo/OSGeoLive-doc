@@ -1,6 +1,7 @@
 :Author: GeoNetwork Community
 :Version: osgeolive13.0
-:Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Jo Cook
+:Reviewer: Cameron Shorter
 :Reviewer: Angelos Tzotsos, OSGeo
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: GeoNetwork Community
@@ -22,7 +23,7 @@ GeoNetwork is a catalog application to manage spatially referenced resources. It
 Prerequisites
 -------------
 
-This guide assumes that you have Geonetwork installed and running, and know the URL to connect to it in your browser. If not, please refer to the Installation Guide at https://geonetwork-opensource.org/manuals/trunk/en/maintainer-guide/installing/index.html.
+This guide assumes that you have Geonetwork installed and running, and know the URL so you can connect to it from your browser. If not, refer to the `Installation Guide <https://geonetwork-opensource.org/manuals/trunk/en/maintainer-guide/installing/index.html>`_.
 
 Throughout this guide we will use the URL ``http://localhost:8880/geonetwork`` to refer to the catalog, please substitute a different URL if this is not correct for your system.
 
@@ -42,7 +43,7 @@ You can return to the  homepage at any point by selecting the catalogue logo in 
 2. Sign in
 ----------
 
-Select **Sign in** in the top right of the top toolbar in the homepage to visit the signing in page. Enter the username ``admin`` and password ``admin`` and select the blue **Sign in** button to sign in as the catalog administrator. 
+Select **Sign in** in the top right of the top toolbar in the homepage to visit the sign in page. Enter the username ``admin`` and password ``admin`` and select the blue **Sign in** button to sign in as the catalog administrator. 
 
 .. figure:: /images/projects/geonetwork/geonetwork_signin.png
   :scale: 70 %
@@ -160,7 +161,7 @@ Tools for using the Map are arranged in two groups in the right-hand side of the
 
 The tools are as follows:
 
-- Add new layers to the map. You can search the catalog, add layers from web services, or kml,
+- Add new layers to the map. You can search the catalog, add layers from web services, or KML,
 - Manage existing layers or change the background map (the default is openstreetmap),
 - Filter layers on the map (if configured),
 - Manage the Map, by setting it back to default settings, loading a new map definition, downloading the current map, or saving the map configuration as a layer in the catalog,
@@ -211,5 +212,5 @@ Select a feature on the map corresponding to a category in the legend, such as a
 7. Where to go next
 -------------------
 
-Visit the Geonetwork User Guide at https://geonetwork-opensource.org/manuals/trunk/en/user-guide/index.html and try the chapter on **Describing Information**, to learn how to create and edit metadata records. Follow up by visiting subsequent chapters to learn how to associate resources with your metadata, tag it with keywords and add it to categories, and publish your metadata to the outside world.
+Visit the `Geonetwork User Guide <https://geonetwork-opensource.org/manuals/trunk/en/user-guide/index.html>`_ and try the chapter on **Describing Information**, to learn how to create and edit metadata records. Follow up by visiting subsequent chapters to learn how to associate resources with your metadata, tag it with keywords and add it to categories, and publish your metadata to the outside world.
 
