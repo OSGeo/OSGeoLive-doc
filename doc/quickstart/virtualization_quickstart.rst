@@ -92,7 +92,17 @@ You can select to make the shared folder read only, and auto-mounted. Once the "
 
 Now bootup the VM by clicking the Start (green arrow) button.
 
-Once the OSGeo system comes up, add yourself to the vboxsf group so that the shared folders (defined above) are accessible by running in a terminal window:
+When you install the iso on the VM, the username must be set to "user"
+
+The user "user" is not a member of the "users" group on the OSGeoLive virtual machine. This prevents some tools from writing to its data directory and causes some software to fail to start. 
+
+The solution is to fix the vmdk with the following one-time procedure:
+
+1. Start a terminal.
+2.  Run "sudo adduser user users".
+3. Apply this change by starting a new desktop session: either restart the virtual machine or log out and log back in (username "user", password "user").
+
+Also once the OSGeo system comes up, add yourself to the vboxsf group so that the shared folders (defined above) are accessible by running in a terminal window:
 
 ``user@osgeolive:~$ sudo usermod -a -G vboxsf user``
 
