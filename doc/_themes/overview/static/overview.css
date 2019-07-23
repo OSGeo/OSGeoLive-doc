@@ -231,12 +231,6 @@ div.highlight {
     margin-right: -175px;    
 }
 
-li div.highlight {
-    position: relative;
-    left: 190px;
-    margin-right: -15px;    
-}
-
 /* making code samples less gigantic */
 pre {
     font-size: 0.8em;

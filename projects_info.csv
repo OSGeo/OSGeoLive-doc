@@ -24,6 +24,7 @@ Y  |  geonode  |  2.6.1  |  Y  |  Y  |  Browser Facing GIS  |    |  Geospatial C
 ######################| | | | | | | | | | |
 Y  |  geoserver  |  2.13.2  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  geoserver|http://geoserver.org/|OSGeo_project|GeoServer
 Y  |  mapserver  |  7.2.0  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  mapserver|http://mapserver.org/|OSGeo_project|MapServer
+Y  |  mapcache  |  1.6.1  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  mapcache|http://mapserver.org/|OSGeo_project|MapCache
 Y  |  deegree  |  3.4.1  |  Y  |  Y  |  Web Services  |    |  OGC Web Services  |  deegree3|http://www.deegree.org|OSGeo_project|deegree
 Y  |  ncWMS  | 2.2.8 |  Y  |  Y  |  Web Services  |    |  Web Map Service  |  ncwms|https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/| |ncWMS
 Y  |  eoxserver  |  0.4.1  |  Y  |  Y  |  Web Services  |    |  Web Coverage Service  |  eoxserver|https://eoxserver.readthedocs.org/| |EOxServer
