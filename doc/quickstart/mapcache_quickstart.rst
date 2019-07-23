@@ -3,300 +3,199 @@
 :Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-@LOGO_mapserver@
+@LOGO_mapcache@
 @OSGEO_KIND_mapcache@
 
-
 ================================================================================
-@NAME_mapserver@ Quickstart
+@NAME_mapcache@ Quickstart
 ================================================================================
 
-MapCache is a server that implements tile caching to speed up access to WMS layers. 
+MapCache is a tile server that speeds up access to WMS layers. It can be run as a CGI application 
+under many different web servers, or as an Apache module. OSGeoLive has MapCache installed and configured as an Apache module. 
 
-This quickstart has two parts:
+This quick start shows how to add a new WMS layer to a MapCache set-up, display the tile service in an OpenLayers web map, and
+seed a tile cache from the command line. 
 
-#. Introduce setting up caching for a WMS layer. 
-#. Setting up mirroring to allow all WMS layers on a server to be cached. 
-
-application that allows you to publish geographic map images and vector data 
-through the internet using `OGC standards <http://www.opengeospatial.org/standards>`__ 
-such as `WMS <http://www.opengeospatial.org/standards/wms>`__, `WFS 
-<http://www.opengeospatial.org/standards/wfs>`__, and `WCS <http://www.opengeospatial.org/standards/wcs>`__.
-
-.. contents:: This Quick Start Contents
+.. contents:: Quick Start Contents
     :local:
     :depth: 1
 
+Adding a New Tileset and Displaying in OpenLayers
+=================================================
 
-Configure MapServer using the MapFile configuration file
-================================================================================
-
-.. note:: 
-
-  **What will I learn ?** In this section, you will learn what a 
-  MapFile is and how to configure it to allow MapServer to serve a shapefile 
-  as images using WMS requests.
-
-What is a MapFile ?
---------------------------------------------------------------------------------
+MapCache is configured using XML files. OSGeoLive includes an example configuration file at ``/home/user/mapcache/mapcache-quickstart.xml``. 
+The example uses the OSGeoLive demo MapServer application of Itasca County in the United States as its source. In this quick start we will 
+set up tile caching for an additional WMS layer and display the tiles in a simple HTML page containing an OpenLayers map. 
 
-The `Mapfile <http://mapserver.org/mapfile/index.html>`_ is the 
-configuration file that MapServer uses to render geospatial data as images 
-or vector data. Its main purpose is to define the layers it can draw, how to 
-read necessary data, and how to render it (e.g. color, symbol, label, etc...).
+First let's open the MapCache configuration file in LeafPad - a text editor. Navigate to ``/home/user/mapcache`` in the File Manager, 
+right-click on ``mapcache-quickstart.xml`` and select LeafPad. 
 
-Creating my first MapFile
---------------------------------------------------------------------------------
+We can see which layers are available in our source WMS server by opening the following link: http://localhost/itasca/?service=wms&request=getcapabilities
+MapCache is configured to forward on any requests it can't handle, such as GetCapabilities, to MapServer with the rule shown below:
 
-#. Open any text editor (e.g. :menuselection:`Applications --> Accessories --> 
-   Leafpad`).
-#. Create the file "mapserver_quickstart.map" in your home directory: 
-   :file:`/home/user/mapserver_quickstart.map`
-
-Put the following content in it::
+.. code-block:: xml
 
-  MAP
-    NAME "MAPSERVER QUICKSTART"
-    EXTENT -137 29 -53 88
-    UNITS DD
-    SHAPEPATH "/home/user/data/natural_earth2/"
-    SIZE 800 600
+  <forwarding_rule name="catch all">
+    <http>
+      <url>http://localhost/cgi-bin/mapserv?map=/usr/local/www/docs_maps/mapserver_demos/itasca/itasca.map</url>
+    </http>
+  </forwarding_rule>
 
-    IMAGETYPE PNG24
-  
-    PROJECTION
-      "init=epsg:4326" 
-    END
+One of the layer names listed in the WMS Capabilities document is ``dlgstln2`` - streams for Itasca county. We will add this as a new tileset to the 
+MapCache service. First we add a ``<source>`` block - this is the configuration to retrieve data from the WMS server. Add the following XML block after the 
+existing ``<source name="lake_source" type="wms">...</source>`` block used for the lakes to ``mapcache-quickstart.xml``:
 
-    WEB
-      METADATA
-        ows_enable_request "*"
-      END
-    END
+.. code-block:: xml
 
-    LAYER
-      NAME "Admin Countries"
-      STATUS ON
-      TYPE POLYGON
-      DATA "ne_10m_admin_0_countries"
-      CLASS 
-        STYLE
-          COLOR 246 241 223
-          OUTLINECOLOR 0 0 0
-        END
-      END 
-    END
+  <source name="streams_source" type="wms">
+    <getmap>
+      <params>
+        <FORMAT>image/png</FORMAT>
+        <LAYERS>majrdln3</LAYERS>
+        <MAP>/usr/local/www/docs_maps/mapserver_demos/itasca/itasca.map</MAP>
+      </params>
+    </getmap>
+    <http>
+      <url>http://localhost/cgi-bin/mapserv?</url>
+    </http>
+  </source>
 
-  END
+We use the ``<params>`` block to pass the WMS layer name, and the image format back to the WMS server, along with the MapServer specific
+``<map>`` parameter. The URL to the WMS server is in the ``<http>`` block. For documentation on all configuration file elements 
+see the `Configuration Documentation <https://mapserver.org/mapcache/config.html>`_. 
 
-.. note::
+Next we will add a ``<tileset>`` block, which defines how the source will be stored and served as tiles. Place the following block after 
+the existing ``<tileset name="lakes">...</tileset>`` block. 
 
-  The example uses the natural earth dataset, which is already installed on 
-  the live dvd at :file:`~/data/natural_earth2` (a short cut to 
-  :file:`/usr/local/share/data/natural_earth2`).
+.. code-block:: xml
 
-Each object in a MapFile starts with its name (for example **MAP**) and ends 
-with an **END**.  A MapFile always starts with the **MAP** object and should 
-contain a list of **LAYER** objects the MapFile can read and draw. In our 
-MapFile, we currently have only one layer defined.
+  <tileset name="streams">
+    <source>streams_source</source>
+    <cache>disk</cache>
+    <grid>GoogleMapsCompatible</grid>
+    <format>PNG</format>
+  </tileset>
 
-Let's take a look at some of the objects (and properties) defined in our 
-MapFile: 
+We set the grid type to the inbuilt ``GoogleMapsCompatible`` grid used as the default tiling scheme in many web mapping applications. 
+The ``name=streams`` is used by client applications to access the tileset. We are using a disk-based cache (rather than storing tiles in a database or in 
+a cloud environment). 
 
- * EXTENT: sets the default geospatial bounding box for this configuration.
- * LAYER: defines access and display properties for a spatial dataset.  We'll 
-   add another layer later.
- * SHAPEPATH: sets a base path for file-based data (e.g. shapefiles or tiff 
-   images). 
+Anytime you modify the MapCache configuration file you need to reload Apache for the changes to come into effect. This can be 
+run from the command line as follows:
 
-If we look closer at the **LAYER** in our MapFile, we'll see that it 
-contains a bunch of properties and objects too. Among them are:
+.. code-block:: bash
 
- * STATUS: defines whether the layer can be drawn (*ON*), can't be drawn 
-   (*OFF*) or is always drawn (*DEFAULT*).
- * TYPE: the geometry type that MapServer should use when rendering the data 
-   as an image. In our MapFile, the data will be drawn as *polygons*.
- * DATA: the name of the spatial data file this layer uses, in this case a 
-   shapefile.
- * CLASS: determines how to draw a layer (styling). We'll cover this object in 
-   more detail later.
+    sudo apachectl -k graceful
 
-.. note::
+You should now be able to access a tile with the following URL: http://localhost/itasca/gmaps/streams@GoogleMapsCompatible/12/987/1433.png
 
-  A complete list of the available objects and properties a MapFile can have 
-  can be found in the `MapServer documentation page 
-  <http://mapserver.org/mapfile/index.html>`_.
+.. image:: /images/projects/mapcache/stream_tile.png
 
+Now let's add the tileset to our OpenLayers map. Open the HTML page using the following command:
 
+.. code-block:: bash
 
-Render a map image with MapServer using a WMS **GetMap** request
-================================================================================
+    sudo leafpad /var/www/html/mapcache-quickstart/index.html
 
-.. note::
+Uncomment out the JavaScript code below:
 
-  **What will I learn ?** You will learn how to use to render an image with 
-  layers from a MapFile with MapServer using an OGC WMS request.
+.. code-block:: js
 
-Open a web browser and enter the following URL::
+    , new ol.layer.Tile({
+        source: new ol.source.XYZ({
+            url: 'http://localhost/itasca/gmaps/streams@GoogleMapsCompatible/{z}/{x}/{y}.png'
+        })
+    })
 
-  http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Admin%20Countries&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
+Now refresh the page at http://localhost/mapcache-quickstart/ - you should see the new streams layer being served by MapCache. 
 
-What does the above mean?  If we put it in simple words, it's a `Web Map 
-Service (WMS) <http://www.opengeospatial.org/standards/wms>`_ **GetMap** 
-request that tells MapServer to "*use the following MapFile to render the 
-specified layers as a png image based on some user-supplied parameters such 
-as image size, geographical extent, projection, etc.*".  All layers 
-specified in the "*&LAYERS=...*" property having *STATUS ON* in the MapFile 
-will be rendered in addition to all layers with *STATUS DEFAULT*. The 
-result looks like the following:
+.. image:: /images/projects/mapcache/openlayers.png
 
-  .. image:: /images/projects/mapserver/mapserver_map.png
-    :scale: 70 %
+As you browse the map you will see the tile cache folders in ``/home/user/mapcache/tilecache`` fill with PNG images. 
 
-.. note::
+.. image:: /images/projects/mapcache/tilecache.png
 
-  All parameters of the request are WMS-specific, except 
-  "*?map=/home/user/mapserver_quickstart.map*", which is MapServer-specific.
+The location and type of the cache is set by the following block in the configuration file:
 
+.. code-block:: xml
 
+  <cache name="disk" type="disk">
+    <base>/home/user/mapcache/tilecache</base>
+    <symlink_blank/>
+  </cache>
 
-Render a map image with MapServer using the command line
-========================================================
+Adding New Services
+===================
 
-Although MapServer is geared towards web applications, it can also produce 
-images on the command line. This can be useful if you are looking for 
-repetitive mapping, or while debugging.
+You can configure Apache to run as many different MapCache services, each with its own configuration file by editing the
+``/etc/apache2/conf-enabled/mapcache.conf`` file. As this requires super user permissions you can open it for editing in LeafPad by
+running the command below:
 
-Open a terminal (:menuselection:`Applications --> Accessories --> Terminal 
-Emulator`) and type::
+.. code-block:: bash
 
-  shp2img -m mapserver_quickstart.map -o mymap.png
+    sudo leafpad /etc/apache2/conf-enabled/mapcache.conf
 
-If this command runs successfully, you are able to see your rendered map at 
-file:///home/user/mymap.png.
+OSGeoLive has two MapCache services, each with an alias and a configuration file. 
+The alias is the URL to use on the server, e.g. http://localhost/mapcache and http://localhost/itasca
 
+.. code-block:: apache
 
+    <IfModule mapcache_module>
+       <Directory /path/to/directory>
+          Order Allow,Deny
+          Allow from all
+       </Directory>
+       MapCacheAlias /mapcache "/usr/share/doc/libapache2-mod-mapcache/examples/mapcache.xml"
+       MapCacheAlias /itasca "/home/user/mapcache.xml" 
+    </IfModule>
 
-Add a new layer to the MapFile to serve a local shapefile
-================================================================================
+To add a new service simply add a new line in the following format, replacing WEB_PATH and PATH_TO_CONFIG_FILE with the 
+relevant parameters:
 
-.. note::
+.. code-block:: xml
 
-  **What will I learn ?** You will learn how to add a new layer object 
-  definition to your MapFile.
+    MapCacheAlias WEB_PATH "PATH_TO_CONFIG_FILE"
 
-We will now add a new layer to our MapFile. Before the last *END* statement 
-in the MapFile, add the following layer configuration::
+See the `Apache Module Instructions <https://mapserver.org/mapcache/install.html#apache-module-specific-instructions>`_ for further details
+on configuring the Apache module. 
 
-  LAYER
-    NAME "Lakes"
-    STATUS ON
-    TYPE POLYGON
-    DATA "ne_10m_lakes"
-    CLASS 
-      STYLE
-        COLOR 153 179 204
-      END
-    END 
-  END
+The Seeder Application
+======================
 
-Now we have 2 layer definitions in our MapFile. Note that the new one we 
-just added has the "STATUS" property set to "ON". That means that unless we 
-specifically request it, it won't be rendered.
+Map tiles are dynamically created when requested by the web server. To speed up request times
+we can generate tiles using a command line application. This process is known as *seeding*, and the
+MapCache command line application is ``mapcache_seed``. 
 
-Let's take our previous WMS **GetMap** request and add our new "Lakes" layer 
-to the image rendered. We simply need to add the new layer name to the 
-"LAYERS" property list::
+To make sure the tiles created by the seeder application are accessible by the web server account
+we add ``sudo -u www-data`` before running the ``mapcache_seed`` application. 
 
-  http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Admin%20Countries,Lakes&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
+In the example below we pass in three options to ``mapcache_seed``:
 
-The image rendered by MapServer looks like our previous map, but with the 
-addition of the lakes from our new layer:
+- *config*: ``/home/user/mapcache/mapcache-quickstart.xml`` - this is the path to the MapCache 
+  configuration file
+- *tileset*: ``lakes`` - this is the tileset name we are going to seed, and is found in ``mapcache-quickstart.xml``
+- *zoom*: ``0,5`` - this is the range of zoom levels we are going to seed, from zoom level 0 (the extent of the world
+  in a single tile) to zoom level 5
 
-  .. image:: /images/projects/mapserver/mapserver_lakes.png
-    :scale: 70 %
+.. code-block:: bash
 
+    sudo -u www-data mapcache_seed --config /home/user/mapcache/mapcache-quickstart.xml --tileset lakes --zoom 0,5
 
+For the many other ``mapcache_seed`` options please see the 
+`Seeder Documentation <https://mapserver.org/mapcache/seed.html>`_.
 
-Style a layer using MapFile configurations
-================================================================================
+.. image:: /images/projects/mapcache/seeder.png
 
-.. note::
+If you want to remove a cache folder you can the following command:
 
-  **What will I learn ?** You will see an example of styling elements inside 
-  a layer depending on some of its data properties.
+.. code-block:: bash
 
-In a MapFile, a LAYER object can contain an infinite number of CLASS 
-objects. These are used to style the elements contained in the spatial data 
-file (DATA). For example, if we look closer at our "ne_10m_lakes" data file 
-using a tool such as `ogrinfo <http://www.gdal.org/ogrinfo.html>`_, we'll 
-see the geometry and attribute definitions it contains. These attribute 
-values can be used as a way to draw the elements inside a dataset 
-differently using multiple CLASS objects.
+    sudo rm -r /home/user/mapcache/tilecache/lakes
 
-In our "ne_10m_lakes" dataset, we have a *ScaleRank* attribute, which seems 
-to be related ot the size of the lakes. We can use this as a way to render 
-the lakes differently. In the LAYER object, we'll add another CLASS object 
-just before our current one::
+What's Next?
+============
 
-  LAYER
-    NAME "Lakes"
-    STATUS ON
-    TYPE POLYGON
-    DATA "ne_10m_lakes"
-    CLASSITEM "ScaleRank"
-    CLASS 
-      EXPRESSION /0|1/
-      STYLE
-        COLOR 153 179 204
-        OUTLINECOLOR 0 0 0
-      END
-    END 
-    CLASS
-      STYLE
-        COLOR 153 179 204
-      END
-    END
-  END
-
-What does our new CLASS object do? It basically tells MapServer to draw the 
-elements having the "ScaleRank" property equal to "0" or "1" with a black 
-outline. Class objects are always read from the top to the bottom for each 
-feature to be drawn. When a feature matches the "EXPRESSION" specified in a 
-class, that class is going to render the feature. If the feature does not 
-match a class the next class is checked. If a feature does not match any 
-class then it is not rendered at all but if the last class in a layer 
-contains no EXPRESSION then that class acts as a default. The LAYER 
-"CLASSITEM" property tells MapServer which attribute to use when evaluating 
-EXPRESSIONs defined in the CLASS objects.
-
-The result of this new addition should make the big lakes in our map image 
-rendered with a black outline:
-
-  .. image:: /images/projects/mapserver/mapserver_lakes_scalerank.png
-    :scale: 70 %
-
-.. note::
-
-  Learn more about `EXPRESSIONS 
-  <http://mapserver.org/mapfile/expressions.html>`_ in MapServer.
-
-
-What Next?
-================================================================================
-
-This is a simple example, but you can do much, much more. The MapServer 
-project website contains many resources to help you get started. Here's a 
-few resources to check out next:
-
-* Read the `Introduction to MapServer 
-  <http://mapserver.org/introduction.html#introduction>`_.
-* Have a look at the `MapServer Tutorial 
-  <http://www.mapserver.org/tutorial/index.html>`_ which contains more MapFile 
-  examples.
-* Check the `OGC Support and Configuration 
-  <http://www.mapserver.org/ogc/index.html>`_ to learn more about OGC 
-  standards in MapServer (WMS, WFS, SLD, WFS Filter Encoding, WCS, SOS, etc.).
-* Ready to use MapServer? Then join the community on the `Mailing Lists 
+* Read the `MapCache Documentation <https://mapserver.org/mapcache/index.html>`_.
+* Then join the MapServer community, of which MapCache is a part, on the `Mailing Lists 
   <http://www.mapserver.org/community/lists.html>`_ to exchange ideas, discuss 
-  potential software improvements and ask questions.
+  potential software improvements and ask questions. 
