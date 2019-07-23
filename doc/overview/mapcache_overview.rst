@@ -2,23 +2,21 @@
 :Version: osgeolive13.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-@LOGO_mapserver@
-@OSGEO_KIND_mapserver@
+@LOGO_mapcache@
+@OSGEO_KIND_mapcache@
 
 
-@NAME_mapscache@
+@NAME_mapcache@
 ================================================================================
 
 Web Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 MapCache is a server that implements tile caching to speed up access to WMS layers. The primary objectives are to be fast and easily deployable, 
-while offering the essential features (and more!) expected from a tile caching solution.
+while offering the essential features (and more!) expected from a tile caching solution. 
 
 MapCache is part of the MapServer family, but can be configured to cache and serve data from any geospatial server
-that uses WMS. 
-
-MapCache can be run on Apache as a module or on any web server that supports CGI/FastCGI such as IIS, Nginx, and Jetty. 
+that uses WMS. MapCache can be run on Apache as a module or on any web server that supports CGI/FastCGI such as IIS, Nginx, and Jetty. 
 
 @SCREENSHOT_mapcache@
 
@@ -82,4 +80,5 @@ Details
 @QUICKSTART_mapcache@
     
 .. presentation-note
-    Mapserver is one of the earliest Open Source Web Map Services. The codebase is very mature and it retains a large development community. It serves data through Web Map Service images, Web Feature Service vectors, a Web Coverage Service and Sensor Observation Services. It connects to a wide range of databases and data stores. It is written in C and has connections for a number of other languages.
+    MapCache is a server that implements tile caching to speed up access to WMS layers. MapCache is part of the MapServer family, 
+    but can be configured to cache and serve data from any geospatial server that uses WMS. 
