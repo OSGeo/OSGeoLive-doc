@@ -51,7 +51,7 @@ existing ``<source name="lake_source" type="wms">...</source>`` block used for t
     <getmap>
       <params>
         <FORMAT>image/png</FORMAT>
-        <LAYERS>majrdln3</LAYERS>
+        <LAYERS>dlgstln2</LAYERS>
         <MAP>/usr/local/www/docs_maps/mapserver_demos/itasca/itasca.map</MAP>
       </params>
     </getmap>
@@ -101,7 +101,7 @@ Uncomment out the JavaScript code below:
 
 .. code-block:: js
 
-    , new ol.layer.Tile({
+    ,new ol.layer.Tile({
         source: new ol.source.XYZ({
             url: 'http://localhost/itasca/gmaps/streams@GoogleMapsCompatible/{z}/{x}/{y}.png'
         })
