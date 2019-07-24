@@ -51,7 +51,7 @@ existing ``<source name="lake_source" type="wms">...</source>`` block used for t
     <getmap>
       <params>
         <FORMAT>image/png</FORMAT>
-        <LAYERS>majrdln3</LAYERS>
+        <LAYERS>dlgstln2</LAYERS>
         <MAP>/usr/local/www/docs_maps/mapserver_demos/itasca/itasca.map</MAP>
       </params>
     </getmap>
@@ -101,7 +101,7 @@ Uncomment out the JavaScript code below:
 
 .. code-block:: js
 
-    , new ol.layer.Tile({
+    ,new ol.layer.Tile({
         source: new ol.source.XYZ({
             url: 'http://localhost/itasca/gmaps/streams@GoogleMapsCompatible/{z}/{x}/{y}.png'
         })
@@ -111,7 +111,7 @@ Now refresh the page at http://localhost/mapcache-quickstart/ - you should see t
 
 .. image:: /images/projects/mapcache/openlayers.png
 
-As you browse the map you will see the tile cache folders in ``/home/user/mapcache/tilecache`` fill with PNG images. 
+As you browse the map you will see the tile cache folders in ``/usr/local/share/mapcache`` fill with PNG images. 
 
 .. image:: /images/projects/mapcache/tilecache.png
 
@@ -120,7 +120,7 @@ The location and type of the cache is set by the following block in the configur
 .. code-block:: xml
 
   <cache name="disk" type="disk">
-    <base>/home/user/mapcache/tilecache</base>
+    <base>/usr/local/share/mapcache</base>
     <symlink_blank/>
   </cache>
 
@@ -190,7 +190,7 @@ If you want to remove a cache folder you can the following command:
 
 .. code-block:: bash
 
-    sudo rm -r /home/user/mapcache/tilecache/lakes
+    sudo rm -r /usr/local/share/mapcache/lakes
 
 What's Next?
 ============
