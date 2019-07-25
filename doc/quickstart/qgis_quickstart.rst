@@ -45,16 +45,6 @@ to launch QGIS.
 #. Open the 'Desktop GIS' folder.
 #. Double click on the 'QGIS' icon.
 
-When QGIS is launched for the very first time the user will be asked if they would like to 'Import
-settings from QGIS 2' or proceed with a clean start. If presented with this window do the following:
-
-#. Selection the option 'I want a clean start. Don't import my QGIS 2 settings.'
-#. Click the button that reads "Let's get started!"
-
-  .. image:: /images/projects/qgis/qgis_welcome.png
-    :scale: 70 %
-    :alt: QGIS import settings
-
 The user will see QGIS launch with an empty project. The various parts of the QGIS Interface
 are listed below.
 
