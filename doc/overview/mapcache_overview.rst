@@ -32,7 +32,7 @@ Core Features
 
 * Includes a seeder application
 * Caching based on dimensions (such as time)
-* Allows caching of Mapbox Vector (MVT) tiles
+* Allows caching of Mapbox Vector (MVT) and UTFGrid tiles
 * Customizable grids
 * Allows tiles to be "assembled" together - allowing tiles for different datasets to be
   merged together into a single tile to send to the client
