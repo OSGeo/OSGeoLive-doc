@@ -38,7 +38,7 @@ Running WCPS Queries
 ================================================================================
 
 Either:
-  * Go to the `rasdaman web client <http://localhost:8080/rasdaman/ows>`_, switch to the *ProcessCoverages* tab, and enter you query in the query boxes and press send.
+  * Go to the `rasdaman web client <http://localhost:8080/rasdaman/ows>`_, switch to the *ProcessCoverages* tab, and enter your query in the query boxes and press send.
   * Add your query in this url: http://localhost:8080/rasdaman/ows?query=your_query and run it using a browser.
 
 
