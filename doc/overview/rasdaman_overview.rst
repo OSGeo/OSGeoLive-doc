@@ -17,7 +17,7 @@ Multi-Dimensional Big Data Analytics Engine
 
 Rasdaman is an Array Database System which provides flexible, fast, scalable geo services for multi-dimensional spatio-temporal sensor, image, simulation, and statistics data of unlimited volume.  Ad-hoc access, extraction, aggregation, as well as remix and analytics is enabled through a NewSQL raster query language with highly effective server-side optimization.  Cloud/cluster parallelization is accomplished in a secure, administrator-controlled way.
 
-In addition to the raster query language, rasdaman supports OGC's WMS, WCS and WCPS web service standards, as well as C++ and Java APIs. At http://standards.rasdaman.org a collection of interactive demos is available.  A rasdaman driver is part of GDAL and MapServer.
+In addition to the raster query language, rasdaman supports OGC's WMS, WCS and WCPS web service standards, as well as C++ and Java APIs. At http://standards.rasdaman.com a collection of interactive demos is available.  A rasdaman driver is part of GDAL and MapServer.
 
 Rasdaman has received a series of international innovation awards, among them the prestigeous European IT Prize and Geospatial Innovation Award.  Technology is mature and stable, being in operational for more than ten years.  Among the operators of rasdaman services are mapping agencies and climate data centers.
 
@@ -58,5 +58,5 @@ Details
 @QUICKSTART_rasdaman@
 
 .. presentation-note
-    Rasdaman is a data store for storing, querying and analysing multi-dimensional raster data. It is used for datasets such as a thematic map of the world, where the colour of each pixel represents a different temperature. 
+    Rasdaman is a data store for storing, querying and analysing multi-dimensional raster data. It is used for datasets such as a thematic map of the world, where the colour of each pixel represents a different temperature.
     The multi-dimensional part means that each pixel can store multiple attributes, such as air pressure, humidity, and wind speed.

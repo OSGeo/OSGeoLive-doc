@@ -1,5 +1,5 @@
 :Author: Peter Baumann (p.baumann@jacobs-university.de)
-:Version: osgeolive11.0
+:Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 
@@ -19,11 +19,26 @@ on rasdaman. This quick start shows how to access and manipulate an example 2D c
 
 .. contents:: Contents
 
+
+Setup
+================================================================================
+
+The first step before trying any of the following queries is to start rasdaman
+and Tomcat. Open the *Databases* directory on the Desktop, and then
+*Start Rasdaman Server*. Allow two to three minutes for rasdaman and especially
+Tomcat to fully start (once the
+`rasdaman web client <http://localhost:8080/rasdaman/ows>`_ loads in the browser).
+
+Afterwards, you can open *Rasdaman-Earthlook Demo* from the same directory,
+which will launch a local demonstrator in the browser. For a more hands-on
+tutorial though, continue with the next examples here.
+
+
 Running WCPS Queries
 ================================================================================
 
 Either:
-  * Go to `WCPS servlet page <http://localhost:8080/rasdaman/ows>`_ and enter you query in the query boxes and press send.
+  * Go to the `rasdaman web client <http://localhost:8080/rasdaman/ows>`_, switch to the *ProcessCoverages* tab, and enter your query in the query boxes and press send.
   * Add your query in this url: http://localhost:8080/rasdaman/ows?query=your_query and run it using a browser.
 
 
@@ -44,7 +59,7 @@ The WCPS query to access the full coverage is as follows:
 
    for c in (NIR) return encode(c, "png")
 
-Click on `coverage <http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c,%20%22png%22%29>`_ to execute it on the browser.
+Click on `coverage request <http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c,%20%22png%22%29>`_ to execute it in the browser.
 
 
 Select a Subset of the Coverage
@@ -56,7 +71,7 @@ The WCPS query to access a subset of the coverage is as follows:
 
    for c in (NIR) return encode(c[i(0:500),j(0:500)], "png")
 
-Click on the `subsetting <http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c[i(0:500), j(0:500)],%20%22png%22%29>`_ to execute it on the browser.
+Click on the `subsetting request <http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c[i(0:500), j(0:500)],%20%22png%22%29>`_ to execute it on the browser.
 
 The query result is an image as follows:
 
@@ -73,9 +88,7 @@ The WCPS query to access the red band of the coverage is as follows:
 
    for c in (NIR) return encode(c.red, "png")
 
-Click on `band extraction <http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c.red,%20%22png%22%29>`_ to execute it on the browser.
-
-You should see the following image in the browser:
+Click on `band extraction <http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c.red,%20%22png%22%29>`_ to execute it; you should see the following image in the browser as a result:
 
 .. image:: /images/projects/rasdaman/rasdaman_ndvi3.png
    :scale: 25 %
@@ -103,10 +116,8 @@ The WCPS query to derive NDVI from the coverage is as follows:
 What Next?
 ================================================================================
 
-  * The `rasdaman tutorial <http://tutorial.rasdaman.org/rasdaman-and-ogc-ws-tutorial/>`_ provides a condensed introduction to the concepts behind rasdaman, rasql and the OGC web services support.
+  * The `rasdaman tutorial <http://tutorial.rasdaman.org>`_ provides a condensed introduction to the concepts behind rasdaman, rasql and the OGC web services support.
   * Learn more about the OGC  `Web Coverage Processing Service <http://www.opengeospatial.org/standards/wcps>`_ (WCPS) Language standard (which was heavily inspired by rasdaman); a good starting point is the  `documentation and tutorials page <http://standards.rasdaman.com/>`_  and `WCPS Query SandBox <http://localhost/rasdaman-demo/demo/client/query-sandbox.html>`_.
   * Interested in coverage data and services in general? Visit OGC's `Coverages Domain Working Group wiki <http://external.opengeospatial.org/twiki_public/CoveragesDWG/WebHome>`_.
-  * Explore the `rasdaman documentation <http://rasdaman.org/wiki/Documentation>`_ to learn about rasdaman administration, its query language, and data ingestion.
+  * Explore the `rasdaman documentation <http://doc.rasdaman.org>`_ to learn about rasdaman administration, its query language, and data ingestion.
   * Go to the `multi-dimensional demo <http://localhost/rasdaman-demo>`_ to explore interactive 1-D to 4-D rasdaman demos. The small ones are part of OSGeoLive, those utilizing larger sets (beyond this drive's capacity) forward to the `OGC standards showcase site <http://standards.rasdaman.com>`_ .
-
-
