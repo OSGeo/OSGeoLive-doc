@@ -2,7 +2,7 @@
 ######################| | | | | | | | | | |
 #   Desktop GIS  | | | | | | | | | | |
 ######################| | | | | | | | | | |
-Y  |  qgis  |  3.4.9  |  Y  |  Y  |  Desktop GIS  |    |    |  qgis|http://www.qgis.org|OSGeo_project|QGIS
+Y  |  qgis  |  3.4.10  |  Y  |  Y  |  Desktop GIS  |    |    |  qgis|http://www.qgis.org|OSGeo_project|QGIS
 Y  |  grass  |  7.6.1  |  Y  |  Y  |  Desktop GIS  |    |    |  grass_gis| |OSGeo_project|GRASS GIS
 Y  |  gvsig  |  2.3.1  |  Y  |  Y  |  Desktop GIS  |    |    |  gvsig-desktop-2|http://www.gvsig.com/|OSGeo_project|gvSIG Desktop
 Y  |  udig  |2.0.0|  Y  |  Y  |  Desktop GIS  |    |    |  udig|http://udig.refractions.net/| |User-friendly Desktop Internet GIS (uDig)
