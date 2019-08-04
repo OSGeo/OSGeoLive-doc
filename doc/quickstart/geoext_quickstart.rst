@@ -20,8 +20,13 @@ HTML Page
 
 In this step we will set-up an empty HTML page which will contain the application. 
 
-First create a new HTML file at ``/var/www/html/geoext/demo.html`` using the text editor Leafpad installed on OSGeoLive (you can 
-open this via the Start menu under :menuselection:`Accessories --> Leafpad`). 
+First create a new HTML file at ``/var/www/html/geoext/demo.html`` using the text editor Leafpad installed on OSGeoLive. To
+ensure you have permissions to save the file open Leafpad from the command line with elevated permissions using the
+command below:
+
+.. code-block:: bash
+
+    sudo leafpad
 
 Next paste in the HTML below. This contains links to the ExtJS and OpenLayers JavaScript libraries, 
 and two CSS files used to style ExtJS and OpenLayers components. 

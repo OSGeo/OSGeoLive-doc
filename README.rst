@@ -23,7 +23,7 @@ quick check, github will (partially) render reSt documents as HTML.
 Build steps
 ~~~~~~~~~~~
 
-1. Install python and sphinx version 1.6.5 or greater (as provided with Ubuntu >16.04), (install_main_docs.sh does this too)
+1.1 Install python and sphinx version 1.6.5 or greater (as provided with Ubuntu >16.04), (install_main_docs.sh does this too)
 
 For Python 2
 ::
@@ -121,5 +121,7 @@ References:
 * http://docutils.sf.net/rst.html
 
 * http://matplotlib.sourceforge.net/sampledoc/
+
+* https://osgeo.github.io/OSGeoLive-doc/ - automated publication of latest docs from GitHub
 
 .. _OSGeoLive: https://live.osgeo.org

@@ -28,12 +28,8 @@ vector data.
 Core Features
 --------------------------------------------------------------------------------
 
-* REST API to process satellite images, time series of satellite images, raster and vector data. The REST interface allows you to access, manage and manipulate the GRASS GIS database via HTTP GET, PUT, POST and DELETE requests and to process raster, vector and time series data located in a persistent GRASS GIS database.
-* Actinia allows the processing of cloud based data, for example all Landsat 4-8 scenes as well as all Sentinel-2 scenes in ephemeral databases. The computational results of ephemeral processing are available via object storage as GeoTIFF files.
-* Explore the `turorial <https://actinia.mundialis.de/tutorial/>`_.
-* Command execution - actinia shell. There is also an option to interactively control actinia. Details `here <https://github.com/mundialis/actinia_core/tree/master/scripts>`__.
-
-.. _actinia: https://github.com/mundialis/actinia_core
+* REST API to process satellite images, time series of satellite images, raster and vector data.
+* Explore the `tutorial <https://actinia.mundialis.de/tutorial/>`_.
 
 Details
 --------------------------------------------------------------------------------
