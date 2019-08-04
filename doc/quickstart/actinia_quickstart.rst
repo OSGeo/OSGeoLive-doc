@@ -42,7 +42,7 @@ Data management example
 
 .. code:: bash
 
-   curl -X GET "https://actinia.mundialis.de/api/v1/locations" -H "authorization: Basic …"
+   curl -X GET "http://localhost:8080/api/v1/locations" -H "authorization: Basic …"
 
 -  List all mapsets in the location LL:
 
@@ -411,7 +411,7 @@ It is very easy (and fast) to render a map:
    ace --location latlong r.info globcover@globcover
    ace --location latlong --render-raster globcover@globcover
 
-.. figure:: /images/projects/actinia/ed8775a4bc46415d5c131804ac649936748ad7a7.png
+.. figure:: /images/projects/actinia/esa_globcover_rendered_by_ace.png
    :alt: ESA Globcover map shown by actinia
 
    ESA Globcover map shown by actinia
