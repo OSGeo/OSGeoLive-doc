@@ -18,12 +18,12 @@ Leaflet is a JavaScript library for browser-based, mobile-friendly, interactive 
 Running
 ================================================================================
 
-Prior to running this quick start you should start TileStache. On the live dvd this can be found under **Geospatial\\Spatial Tools\\Start Mapnik & TileStache**.
+Prior to running this quick start you should start TileStache. On OSGeoLive this can be found under **Geospatial\\Spatial Tools\\Start Mapnik & TileStache**.
 This will provide background tiles that will be used in this demo. 
 
 View the example_
 
-.. tip :: If you are reading this quickstart outside the live dvd you may prefer reading the original demo on: http://leafletjs.com/examples/quick-start/, since this demo uses tilestache on the live dvd.
+.. tip :: If you are reading this quickstart outside OSGeoLive you may prefer reading the original demo on: http://leafletjs.com/examples/quick-start/, since this demo uses tilestache on OSGeoLive.
 
 Preparing your page
 ===================
