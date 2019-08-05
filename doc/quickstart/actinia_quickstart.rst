@@ -32,7 +32,7 @@ Example: query of actinia version on OSGeoLive actinia server:
 
 .. code:: bash
 
-   curl -u actinia-gdi:actinia-gdi 'http://localhost:8080/api/v1/version'
+   curl -u actinia-gdi:actinia-gdi 'http://localhost:8088/api/v1/version'
 
 Data management example
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -42,7 +42,7 @@ Data management example
 
 .. code:: bash
 
-   curl -X GET "http://localhost:8080/api/v1/locations" -H "authorization: Basic …"
+   curl -X GET "http://localhost:8088/api/v1/locations" -H "authorization: Basic …"
 
 -  List all mapsets in the location LL:
 
