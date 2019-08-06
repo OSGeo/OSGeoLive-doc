@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2019-08-06 12:41-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "Rasdaman is an Array Database System which provides flexible, fast, scala
 msgstr ""
 
 #: ../../build/doc/overview/rasdaman_overview.rst:26
-msgid "In addition to the raster query language, rasdaman supports OGC's WMS, WCS and WCPS web service standards, as well as C++ and Java APIs. At http://standards.rasdaman.org a collection of interactive demos is available.  A rasdaman driver is part of GDAL and MapServer."
+msgid "In addition to the raster query language, rasdaman supports OGC's WMS, WCS and WCPS web service standards, as well as C++ and Java APIs. At http://standards.rasdaman.com a collection of interactive demos is available.  A rasdaman driver is part of GDAL and MapServer."
 msgstr ""
 
 #: ../../build/doc/overview/rasdaman_overview.rst:28
