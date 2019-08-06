@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:09+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/jts_overview.rst:14
+msgid "JTS Topology Suite"
+msgstr "JTS トポロジスイート"
+
+#: ../../build/doc/overview/jts_overview.rst:16
+msgid ""
+"JTS is an open source library of spatial predicates and functions for "
+"processing geometries.  It provides a complete, consistent, and robust "
+"implementation of fundamental algorithms for processing linear geometry on "
+"the 2-dimensional Cartesian plane."
+msgstr ""
+"JTS はジオメトリ処理のための空間述語・関数のオープンソースライブラリです。JTS "
+"は2次元デカルト平面上の線形ジオメトリ処理のための、完全で、矛盾がなく、ロバスト(堅牢)な基本的アルゴリズムを提供します。"
+
+#: ../../build/doc/overview/jts_overview.rst:20
+msgid ""
+"JTS includes the \"JTS Test Builder\" which allows users to run tests and "
+"experiment with geometry through an interactive desktop interface. JTS "
+"stability is ensured through an extensive test suite."
+msgstr ""
+"JTS は \"JTS Test Builder\" "
+"という、インタラクティブなデスクトップインタフェースにより、ユーザにジオメトリを用いたテスト実行、試行を可能にするツールを含んでいます。JTS "
+"の安定性は広範なテストスイートにより保証されています。"
+
+#: ../../build/doc/overview/jts_overview.rst:24
+msgid ""
+"JTS is used by most java based Open Source geospatial applications, and "
+":doc:`geos_overview`, which is a C++ port of JTS, is used by most C based "
+"applications.  Additional ports are available for C# and JavaScript."
+msgstr ""
+"JTS は、大半の Java ベースのオープンソース地理空間アプリケーションで利用されており、JTS の C++ 移植の "
+":doc:`geos_overview` は、大半の C ベースのアプリケーションで利用されています。他の移植は、C# と JavaScript "
+"で利用可能です。"
+
+#: ../../build/doc/overview/jts_overview.rst:35
+msgid "Core Features"
+msgstr "主な機能"
+
+#: ../../build/doc/overview/jts_overview.rst:37
+msgid "Geometry model (point, line, area)"
+msgstr "ジオメトリモデル (ポイント、ライン、エリア)"
+
+#: ../../build/doc/overview/jts_overview.rst:38
+msgid "Geometry operations (e.g., intersect, union, within, etc.)"
+msgstr "ジオメトリ演算 (例: 交差(intersect)、統合(union)、含む(within)など)"
+
+#: ../../build/doc/overview/jts_overview.rst:39
+msgid "Precision handling"
+msgstr "精度のハンドリング"
+
+#: ../../build/doc/overview/jts_overview.rst:40
+msgid "Geometric constructions"
+msgstr "ジオメトリ生成"
+
+#: ../../build/doc/overview/jts_overview.rst:41
+msgid "Metric functions (e.g., Cartesian 2D distance, Hausdorff distance)"
+msgstr "距離計測機能 (例: デカルト2D距離, ハウスドルフ距離)"
+
+#: ../../build/doc/overview/jts_overview.rst:42
+msgid ""
+"Spatial algorithms (e.g. buffer creation, line offsets, line simplification)"
+msgstr "空間アルゴリズム (例: バッファ作成、ラインオフセット、ライン簡素化)"
+
+#: ../../build/doc/overview/jts_overview.rst:43
+msgid "Geometric math functions (e.g., angles, distances, etc.)"
+msgstr "ジオメトリ算術機能 (例: 角度、距離等)"
+
+#: ../../build/doc/overview/jts_overview.rst:44
+msgid "Spatial structures (e.g. Quadtree and R-tree, Delauney triangulation)"
+msgstr "空間構造 (例: 4分木とR木、ドロネー三角形分割)"
+
+#: ../../build/doc/overview/jts_overview.rst:45
+msgid "Input/Output (e.g., WKT, GML)"
+msgstr "入力/出力 (例: WKT、GML)"
+
+#: ../../build/doc/overview/jts_overview.rst:46
+msgid "High-precision arithmetic"
+msgstr "高精度計算"
+
+#: ../../build/doc/overview/jts_overview.rst:49
+msgid "Supported Formats"
+msgstr "サポートするフォーマット"
+
+#: ../../build/doc/overview/jts_overview.rst:51
+msgid "Well Known Text (WKT) and Well Known Binary (WKB)"
+msgstr "Well-Known テキスト (WKT) と Well-Known バイナリ (WKB)"
+
+#: ../../build/doc/overview/jts_overview.rst:52
+msgid "GML 2"
+msgstr "GML 2"
+
+#: ../../build/doc/overview/jts_overview.rst:53
+msgid "Java Swing/AWT writing"
+msgstr "Java Swing/AWT 書き込み"
+
+#: ../../build/doc/overview/jts_overview.rst:56
+msgid "Implemented Standards"
+msgstr "準拠している標準規格"
+
+#: ../../build/doc/overview/jts_overview.rst:58
+msgid "OGC Simple Features for SQL (SFSQL)"
+msgstr "OGC Simple Features for SQL (SFSQL)"
+
+#: ../../build/doc/overview/jts_overview.rst:61
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/jts_overview.rst:63
+msgid "**Website:** ttps://www.locationtech.org/projects/technology.jts"
+msgstr "**Webサイト:** ttps://www.locationtech.org/projects/technology.jts"
+
+#: ../../build/doc/overview/jts_overview.rst:65
+msgid "**Licence:** LGPL"
+msgstr "**ライセンス:** LGPL"
+
+#: ../../build/doc/overview/jts_overview.rst:67
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/jts_overview.rst:69
+msgid "**API Interfaces:** Java"
+msgstr "**API インターフェイス:** Java"
+
+#: ../../build/doc/overview/jts_overview.rst:71
+msgid "**Support:** https://sourceforge.net/projects/jts-topo-suite/"
+msgstr "**サポート:** https://sourceforge.net/projects/jts-topo-suite/"

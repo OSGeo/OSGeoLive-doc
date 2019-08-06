@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"PO-Revision-Date: 2017-09-20 16:02+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/metrics.rst:6
+msgid "|osgeolive-version| Project Metrics"
+msgstr "プロジェクトメトリクス"
+
+#: ../../build/doc/metrics.rst:8
+msgid ""
+"Metrics provided by `OpenHUB <https://www.openhub.net/>`_ which are derived "
+"from the projects' code repositories. Note these metrics have known "
+"deficiencies (such as caused by repositories moving), and only provide "
+"partial indications about the projects' development. Lack of change in "
+"smaller, concise packages and libraries may simply reflect a level of "
+"maturity and completeness."
+msgstr ""
+"プロジェクトのコードリポジトリ `OpenHUB <https://www.openhub.net/>`_ "
+"によるメトリクス。これらのメトリクスにはいくつかの欠点 (リポジトリの移動などによる) "
+"があることに注意する必要があります。また、プロジェクト開発については断片的な情報しかありません。一部の小さな変更を除けば、パッケージとライブラリは完成度の高いレベルにあります。"
+
+#: ../../build/doc/metrics.rst:14
+msgid ""
+"Viewing the metrics requires an Internet connection and Javascript to be "
+"enabled."
+msgstr "メトリクスを見るためにはインターネット接続と　Javascript　の実行をを許可する必要があります。"
+
+#: ../../build/doc/metrics.rst:23
+msgid "Desktop GIS"
+msgstr "デスクトップ GIS"
+
+#: ../../build/doc/metrics.rst:36
+msgid "Browser Facing GIS"
+msgstr "ブラウザ向け GIS"
+
+#: ../../build/doc/metrics.rst:51
+msgid "Web Services"
+msgstr "Web サービス"
+
+#: ../../build/doc/metrics.rst:75
+msgid "Data Stores"
+msgstr "データストア"
+
+#: ../../build/doc/metrics.rst:86
+msgid "Navigation and Maps"
+msgstr "ナビゲーションと地図"
+
+#: ../../build/doc/metrics.rst:99
+msgid "Spatial Tools"
+msgstr "空間ツール"
+
+#: ../../build/doc/metrics.rst:111
+msgid "Domain Specific GIS"
+msgstr "特定用途向け GIS"
+
+#: ../../build/doc/metrics.rst:119
+msgid "Data"
+msgstr "データ"
+
+#: ../../build/doc/metrics.rst:130
+msgid "Geospatial Libraries"
+msgstr "地理空間ライブラリ"
