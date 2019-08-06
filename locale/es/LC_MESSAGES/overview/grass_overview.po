@@ -1,24 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -95,9 +94,32 @@ msgstr ""
 msgid "Core Features"
 msgstr "Características Principales"
 
+#: ../../build/doc/overview/grass_overview.rst:65
+msgid ""
+"You name it, there's a `tool for it "
+"<https://grass.osgeo.org/grass76/manuals/keywords.html>`_."
+msgstr ""
+"Menciónalo, hay una `herramienta "
+"<https://grass.osgeo.org/grass76/manuals/keywords.html>`_."
+
+#: ../../build/doc/overview/grass_overview.rst:66
+msgid ""
+"Explore the `screenshot collection <https://grass.osgeo.org/screenshots/>`_."
+msgstr ""
+"Explorar las `collección de pantallas "
+"<https://grass.osgeo.org/screenshots/>`_."
+
 #: ../../build/doc/overview/grass_overview.rst:69
 msgid "Details"
 msgstr "Detalles"
+
+#: ../../build/doc/overview/grass_overview.rst:71
+msgid "**Website:** https://grass.osgeo.org"
+msgstr "**Sitio web:** https://grass.osgeo.org"
+
+#: ../../build/doc/overview/grass_overview.rst:73
+msgid "**Licence:** GNU General Public License (GPL) version 2+"
+msgstr "**Licencia:** GNU General Public License (GPL) version 2+"
 
 #: ../../build/doc/overview/grass_overview.rst:75
 msgid "**Software Version:** |version-grass|"
@@ -110,6 +132,10 @@ msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
 #: ../../build/doc/overview/grass_overview.rst:79
 msgid "**API Interfaces:** C, Python, Bourne Shell"
 msgstr "**Interfaces API:** C, Python, Shell de Bourne"
+
+#: ../../build/doc/overview/grass_overview.rst:81
+msgid "**Support:** https://grass.osgeo.org/support/"
+msgstr "**Soporte:** https://grass.osgeo.org/support/"
 
 #: ../../build/doc/overview/grass_overview.rst:86
 msgid "Quickstart"

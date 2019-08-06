@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Jorge Sanz <xurxosanz@gmail.com>, 2017
+# Wladimir Szczerban, 2017
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-06 09:21-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Wladimir Szczerban, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
@@ -55,30 +59,30 @@ msgstr "SIG de escritorio"
 msgid "Browser Facing GIS"
 msgstr "SIG en navegador"
 
-#: ../../build/doc/metrics.rst:50
+#: ../../build/doc/metrics.rst:51
 msgid "Web Services"
 msgstr "Servicios web"
 
-#: ../../build/doc/metrics.rst:70
+#: ../../build/doc/metrics.rst:75
 msgid "Data Stores"
 msgstr "Almacenes de datos"
 
-#: ../../build/doc/metrics.rst:81
+#: ../../build/doc/metrics.rst:86
 msgid "Navigation and Maps"
 msgstr "Navegación y mapas"
 
-#: ../../build/doc/metrics.rst:94
+#: ../../build/doc/metrics.rst:99
 msgid "Spatial Tools"
 msgstr "Herramientas espaciales"
 
-#: ../../build/doc/metrics.rst:107
+#: ../../build/doc/metrics.rst:111
 msgid "Domain Specific GIS"
 msgstr "Dominio específico SIG"
 
-#: ../../build/doc/metrics.rst:115
+#: ../../build/doc/metrics.rst:119
 msgid "Data"
 msgstr "Datos"
 
-#: ../../build/doc/metrics.rst:126
+#: ../../build/doc/metrics.rst:130
 msgid "Geospatial Libraries"
 msgstr "Librerías geoespaciales"
