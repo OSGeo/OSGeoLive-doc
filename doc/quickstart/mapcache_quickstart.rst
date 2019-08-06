@@ -186,7 +186,7 @@ For the many other ``mapcache_seed`` options please see the
 
 .. image:: /images/projects/mapcache/seeder.png
 
-If you want to remove a cache folder you can the following command:
+If you want to remove a cache folder you can run the following command:
 
 .. code-block:: bash
 
