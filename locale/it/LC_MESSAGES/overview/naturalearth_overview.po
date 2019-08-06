@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Luca Delucchi <lucadeluge@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: 2017-09-20 16:10+0000\n"
+"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2018\n"
+"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:15
+msgid "Natural Earth"
+msgstr "Natural Earth"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:18
+msgid "Map Data"
+msgstr "Dati geografici"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:20
+msgid ""
+"Natural Earth provides cartographers an off-the shelf solution for creating "
+"small-scale world, regional, and country maps at 1:10-, 1:50-, and 1:110- "
+"million scales. Both political (administrative) and physical (natural) "
+"features are included and vector features align perfectly with included "
+"raster data."
+msgstr ""
+"Natural Earth fornisce ai cartografi una soluzione pronta all'uso per creare"
+" mappe a piccola scala mondiale, regionale e nazionale in scala 1:10, 1:50 e"
+" 1:110 milioni. Entrambi gli elementi politici (amministrativo) e fisico "
+"(naturale) sono inclusi e gli elementi vettoriali sono alineati "
+"perfettamente con i dati raster presenti."
+
+#: ../../build/doc/overview/naturalearth_overview.rst:22
+msgid ""
+"Natural Earth solves the common problem that many cartographers face: "
+"finding vector data for making publication-quality small-scale maps at the "
+"appropriate level of detail for the maps they are making."
+msgstr ""
+"Natural Earth risolve il problema comune affrontato da molti cartografi: "
+"trovare dati vettoriali per effettuare pubblicazione di qualità per mappe a "
+"piccola scale al livello di dettagli appropriato per le mappa che si sta "
+"creando."
+
+#: ../../build/doc/overview/naturalearth_overview.rst:31
+msgid "Core Features"
+msgstr "Caratteristiche principali"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:33
+msgid "Vector features include name and other attributes"
+msgstr "Gli elementi vettoriali includono nome e altri attributi"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:34
+msgid ""
+"Large polygons are split for more efficient data handling such as "
+"bathymetric layers."
+msgstr ""
+"Poligoni di grandi dimensioni sono suddivisi in dati di una più efficiente "
+"gestione, come i layers batimetrici."
+
+#: ../../build/doc/overview/naturalearth_overview.rst:35
+msgid ""
+"Projection friendly vectors precisely match at 180 degrees longitude. Lines "
+"contain enough data  points for smooth bending in conic projections, but not"
+" so many that computer processing speed suffers."
+msgstr ""
+"La proiezione dei vettoriali corrispondono gentilmente a 180 gradi di "
+"longitudine. Le righe contengono dati sufficienti punti per la perfetta "
+"conversione nelle proiezioni coniche, ma non così tanti tant’è che ne soffre"
+" la velocità di elaborazione del computer."
+
+#: ../../build/doc/overview/naturalearth_overview.rst:36
+msgid ""
+"Raster data includes grayscale-shaded relief and cross-blended hypsometric "
+"tints derived from the latest NASA SRTM Plus elevation data and tailored to "
+"register with Natural Earth Vector."
+msgstr ""
+"I dati raster includono rilievi in scala di grigi-ombreggiato e tinte cross-"
+"blended ipsometriche derivate dai più recenti dati dell’evevazione SRTM NASA"
+" Plus e su misura per combaciare con i vettoriali di Natural Earth."
+
+#: ../../build/doc/overview/naturalearth_overview.rst:37
+msgid ""
+"Optimized for use in web mapping applications, such as Google or Yahoo, with"
+" built-in scale attributes to direct features to be shown at different zoom "
+"levels."
+msgstr ""
+"Ottimizzato per l’uso in applicazioni di mapping web, come Google o Yahoo, "
+"con attributi inseriti a seconda della scala direttamente negli elementi per"
+" essere mostrati a vari livelli di zoom."
+
+#: ../../build/doc/overview/naturalearth_overview.rst:41
+msgid "Data Sets"
+msgstr "Set di dati"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:44
+msgid "Cultural Vector Data Themes:"
+msgstr "Temi dei dati culturali vettoriali:"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:44
+msgid ""
+"Includes countries, disputed areas, states and provinces (1st order "
+"administrative divisions), and populated places (cities, towns). Roads, "
+"rails, urban polygons, parks and protected areas, Pacific nation groups, and"
+" water boundary indicators round out the cultural offerings."
+msgstr ""
+" Include paesi, aree contese, stati e province (primo ordine delle divisioni"
+" amministrative), e i posti populati (città, villaggi). Strade, ferrovie, "
+"poligoni urbani, parchi e aree protette, Pacific nation groups, e indicatori"
+" di confine d’acqua completano l’offerta culturale."
+
+#: ../../build/doc/overview/naturalearth_overview.rst:47
+msgid "Physical Vector Data Themes:"
+msgstr "Temi dei dati fisici vettoriali:"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:47
+msgid ""
+"Include coastline, land, ocean, minor islands, reefs, physical region "
+"features and points, rivers, lakes, glaciated areas, Antarctic ice shelves, "
+"bathymetry, geographic lines, and graticles."
+msgstr ""
+"Include linea di costa, terre emerse, oceani, isole minori, rilivi, "
+"caratteristiche fisiche regionali e puntuali, fiumi, laghi, aree glaciate, "
+"livelli di ghiaccio antartico, batimetria, linee geografiche, e graticles."
+
+#: ../../build/doc/overview/naturalearth_overview.rst:51
+msgid "Raster Data Themes:"
+msgstr "Temi dei dati raster:"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:50
+msgid ""
+"Greyscale shaded relief, cross blended hypsometric tints, satellite-derived "
+"land cover data, idealized world environment, ocean bottom, and bathymetry. "
+"Optional baked in content includes: land cover, shaded relief, ocean water, "
+"and drainages with lakes."
+msgstr ""
+"Rilievo ambreggiato a scala di grigi, cross blended hypsometric tints, dati "
+"della copertura del suolo da satellite, idealized world environment, fondali"
+" dell’oceano, e batimetria. Opzionalmente include: copertura del suolo, "
+"rilievi ombreggiati, acque oceaniche, e drenaggi con i laghi."
+
+#: ../../build/doc/overview/naturalearth_overview.rst:54
+msgid "Details"
+msgstr "Dettagli"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:56
+msgid "**Website:** http://naturalearthdata.com"
+msgstr "**Sito web:** http://naturalearthdata.com"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:58
+msgid "**License:** None, the data is public domain."
+msgstr "**Licenza:** Nessuna, i dati sono in dominio pubblico."
+
+#: ../../build/doc/overview/naturalearth_overview.rst:60
+msgid "**Data Version:** 2.0"
+msgstr "**Versione dei dati:** 2.0"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:62
+msgid "**Data format:** SHP and TIF+TFW"
+msgstr "**Formato dei dati:** SHP e TIF+TFW"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:64
+msgid "**Spatial coordinate system:** WGS84."
+msgstr "**Sistema di coordinate spaziali:**  WGS84"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:66
+msgid "**Support:** http://naturalearthdata.com/forums/"
+msgstr "**Supporto:** http://naturalearthdata.com/forums/"
