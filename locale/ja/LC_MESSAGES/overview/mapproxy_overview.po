@@ -1,0 +1,309 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:07+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:18
+msgid "MapProxy"
+msgstr "MapProxy"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:21
+msgid "Proxy WMS & tile services"
+msgstr "Proxy WMS & タイル サービス"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:23
+msgid ""
+"MapProxy speeds up mapping applications by pre-rendering and integrating "
+"maps from multiple sources and storing in a local cache. Layers can be made "
+"transparent, projections can be changed, multiple map layers can be "
+"transformed into one, watermarks can be added, and more..."
+msgstr ""
+"MapProxy "
+"は、複数のソースからなる地図を予めレンダリングし、ローカルなキャッシュに格納することによってマッピングアプリケーションを高速化します。レイヤの透化、測地系の変更、複数のレイヤ統合、電子透かしの追加など、多くのことを可能にします。"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:26
+msgid ""
+"MapProxy is flexible and scales from simple to complex use-cases: from a "
+"single tile cache for an :doc:`OpenLayers <openlayers_overview>` web client "
+"to a central SDI node that combines, unifies and accelerates dozens of "
+"distributed WMS services."
+msgstr ""
+"MapProxy は柔軟で、単純なものから複雑なユースケースまでスケールします: 例えば、 :doc:`OpenLayers "
+"<openlayers_overview>` Web クライアントのための単一のタイルキャッシュから、数十の分散型 WMS "
+"サービスの結合、統合、高速化を行う、中央の空間データインフラストラクチャ (SDI) ノードまでスケールします。"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:35
+msgid "Core Features"
+msgstr "主な機能"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:49
+msgid "Input sources:"
+msgstr "入力ソース:"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:45
+msgid ""
+"WMS 1.0.0–1.3.0 (:doc:`MapServer <mapserver_overview>`, :doc:`GeoServer "
+"<geoserver_overview>`, etc.)"
+msgstr ""
+"WMS 1.0.0–1.3.0 (:doc:`MapServer <mapserver_overview>`, :doc:`GeoServer "
+"<geoserver_overview>`, etc.)"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:46
+msgid "TMS, WMTS (TileCache, GeoWebcache, etc.)"
+msgstr "TMS, WMTS (TileCache, GeoWebcache など)"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:47
+msgid "Mapserver and Mapnik (directly, without WMS)"
+msgstr "Mapserver 及び Mapnik (WMS 無しで直接的に)"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:48
+msgid "any TileCache, Google Maps or Bing compatible source"
+msgstr "あらゆる TileCache, Google Maps または Bing 互換ソース"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:49
+msgid "ArcGIS REST servers and compact cache files"
+msgstr "ArcGIS REST サーバと、コンパクトキャッシュファイル"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:55
+msgid "Services:"
+msgstr "サービス:"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:52
+msgid "WMS (1.0.0-1.3.0)"
+msgstr "WMS (1.0.0-1.3.0)"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:53
+msgid "TMS"
+msgstr "TMS"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:54
+msgid "WMTS"
+msgstr "WMTS"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:55
+msgid "KML SuperOverlays"
+msgstr "KML SuperOverlays"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:60
+msgid "Tile cache:"
+msgstr "タイルキャッシュ:"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:58
+msgid "stores identical images just once (e.g. ocean tiles)"
+msgstr "同一画像を一度のみ格納 (例えば、海のタイル画像)"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:59
+msgid ""
+"cache tiles in the filesystem, MBTiles/SQLite, ArcGIS Compact Cache, S3, "
+"Redis, Riak, or CouchDB"
+msgstr ""
+"ファイルシステム, MBTile/SQLite, ArcGIS コンパクトキャッシュ, S3, Redis, Riak, CouchDB "
+"へのタイルのキャッシュ"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:60
+msgid "add watermark to tiles"
+msgstr "タイルに透かしを追加"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:66
+msgid "Source options:"
+msgstr "ソースのオプション:"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:63
+msgid "limit sources to geometries (from Shapefile for example)"
+msgstr "ジオメトリへの (例えばシェープファイルからの) ソースの制限"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:64
+msgid "add transparency to opaque layers"
+msgstr "不透明なレイヤに透明度を追加"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:65
+msgid "merge multiple sources"
+msgstr "複数のソースのマージ"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:66
+msgid "reproject WMS and tile sources to other SRS"
+msgstr "他の SRS への WMS 及びタイルソースの最投影"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:75
+msgid "WMS Features:"
+msgstr "WMS機能:"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:69
+msgid "build layer trees from different sources"
+msgstr "異なるソースからのレイヤーツリーの構築"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:70
+msgid ""
+"create ``GetMap`` responses from cache with support for free-zooming and any"
+" projection (for any Desktop GIS)"
+msgstr ""
+"(あらゆるデスクトップ GIS のための) 自由なズームや、あらゆる座標系のサポートを伴う、キャッシュからの ``GetMap`` レスポンス生成"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:71
+msgid "accelerates existing WMS 10 to 100 times"
+msgstr "既存の WMS を10〜100倍高速化"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:72
+msgid "respond to ``GetLegendGraphic`` requests"
+msgstr "``GetLegendGraphic`` リクエストへの応答"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:73
+msgid "cascade ``GetFeatureInfo`` requests with optional XSL transformations"
+msgstr "任意の XSL 変換を伴う ``GetFeatureInfo`` リクエストへの転送"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:74
+msgid "on-the-fly reprojection"
+msgstr "オンザフライによる再投影"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:75
+msgid "convert WMS versions and image formats"
+msgstr "WMS バージョンや画像フォーマットの変換"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:81
+msgid "Security:"
+msgstr "セキュリティ:"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:78
+msgid "flexible and powerful authorization API"
+msgstr "柔軟で強力な認証 API"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:79
+msgid "fine-grained control over services and layers"
+msgstr "サービスおよびレイヤを、きめ細やかに管理"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:80
+msgid "restrict access to polygon areas (for WMS and tile services)"
+msgstr "ポリゴン領域へのアクセス制限 (WMS とタイルサービス向け)"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:81
+msgid "integrate with existing user databases and authentication methods"
+msgstr "既存のユーザーデータベースや認証方法との統合"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:86
+msgid "Powerful tools:"
+msgstr "強力なツール:"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:84
+msgid ""
+"efficient seed tool for cache pre-filling that can seed polygon areas  with "
+"Shapefiles, GeoJSON, PostGIS or WKT geometries"
+msgstr ""
+"シェープファイル、GeoJSON、PostGIS、WKT ジオメトリのポリゴン領域へのシードが可能な事前タイルキャッシュのための効率的なシードツール。"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:85
+msgid "export cached tiles to other formats"
+msgstr "キャッシュタイルの他のフォーマットへのエクスポート"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:86
+msgid "calculate scales and show grid configurations"
+msgstr "縮尺計算とグリッド設定の表示"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:95
+msgid "Other features:"
+msgstr "他の機能:"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:89
+msgid "simple but powerful configuration format (YAML/JSON)"
+msgstr "単純ながら強力な設定フォーマット (YAML/JSON)"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:90
+msgid "OpenLayers based demo client"
+msgstr "OpenLayers ベースのデモクライアント"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:91
+msgid "run multiple WMS services in one MapProxy instance"
+msgstr "1つの MapProxy インスタンスで複数の WMS サービスを実行"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:92
+msgid "add attribution lines to the images"
+msgstr "画像に帰属ラインを追加"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:93
+msgid "support for non-image raster data like DEMs"
+msgstr "DEM のような非画像ラスターデータをサポート"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:94
+msgid "manipulate image bands to create grayscale- or false-color images"
+msgstr "グレイスケールもしくはフォールスカラー画像生成のための画像バンド操作"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:95
+msgid "many more"
+msgstr "さらに多くの機能"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:98
+msgid "Implemented Standards"
+msgstr "実装されている標準規格"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:100
+msgid "MapProxy implements the following open specifications:"
+msgstr "MapProxyは、以下のオープンな仕様を実装しています:"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:102
+msgid "OGC WMS 1.0.0, 1.1.0, 1.1.1, 1.3.0"
+msgstr "OGC WMS 1.0.0, 1.1.0, 1.1.1, 1.3.0"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:103
+msgid "OGC WMTS 1.0.0 (KVP and RESTful)"
+msgstr "OGC WMTS 1.0.0 (KVP 及び RESTful)"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:104
+msgid "OSGeo TMS 1.0.0"
+msgstr "OSGeo TMS 1.0.0"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:105
+msgid "OGC KML 2.2 SuperOverlays"
+msgstr "OGC KML 2.2 SuperOverlays"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:109
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:111
+msgid "**Website:** https://mapproxy.org/"
+msgstr "**Webサイト:** https://mapproxy.org/"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:113
+msgid ""
+"**Licence:** `Apache Software License 2.0 "
+"<https://www.apache.org/licenses/LICENSE-2.0.html>`_"
+msgstr ""
+"**ライセンス:** `Apache Software License 2.0 "
+"<https://www.apache.org/licenses/LICENSE-2.0.html>`_"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:115
+msgid "**Software Version:** |version-mapproxy|"
+msgstr "**ソフトウェアバージョン:** |version-mapproxy|"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:117
+msgid "**Supported Platforms:** Linux, Mac, Windows"
+msgstr "**対応プラットフォーム:** Linux, Mac, Windows"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:119
+msgid "**Support:** https://mapproxy.org/support"
+msgstr "**サポート:** https://mapproxy.org/support"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:124
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/mapproxy_overview.rst:126
+msgid ":doc:`Quickstart documentation <../quickstart/mapproxy_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/mapproxy_quickstart>`"

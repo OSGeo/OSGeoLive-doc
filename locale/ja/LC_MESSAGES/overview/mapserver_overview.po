@@ -1,0 +1,319 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:09+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/mapserver_overview.rst:18
+msgid "MapServer"
+msgstr "MapServer"
+
+#: ../../build/doc/overview/mapserver_overview.rst:21
+msgid "Web Service"
+msgstr "Web サービス"
+
+#: ../../build/doc/overview/mapserver_overview.rst:23
+msgid ""
+"MapServer is an `Open Source <http://www.opensource.org>`_ geographic data "
+"rendering engine written in C. Beyond browsing GIS data, MapServer allows "
+"you create \"geographic image maps\", that is, maps that can direct users to"
+" web content. For example, the Minnesota DNR `Recreation Compass "
+"<http://www.dnr.state.mn.us/maps/compass.html>`_ provides users with more "
+"than 10,000 web pages, reports and maps via a single application. The same "
+"application serves as a \"map engine\" for other portions of the site, "
+"providing spatial context where needed."
+msgstr ""
+"MapServer は C 言語で記述された`オープンソース<http://www.opensource.org>`_ "
+"のジオグラフィックデータレンダリングエンジンです。GISデータのブラウズはもちろん、MapServer "
+"はユーザにコンテンツを直接伝えるためのグラフィックイメージ地図を作ることが出来ます。例として、ミネソタ DNR `Recreation Compass "
+"<http://www.dnr.state.mn.us/maps/compass.html>`_ "
+"は10,000を超えるウェブページ、レポートおよび地図を１つのアプリケーションを通じて提供しています。同様のアプリケーションは空間情報を提供するサイトのマップエンジンとしても利用されています。"
+
+#: ../../build/doc/overview/mapserver_overview.rst:25
+msgid ""
+"MapServer was originally developed by the University of Minnesota (UMN) "
+"ForNet project in cooperation with NASA, and the Minnesota Department of "
+"Natural Resources (MNDNR). Later it was hosted by the TerraSIP project, a "
+"NASA sponsored project between the UMN and a consortium of land management "
+"interests."
+msgstr ""
+"MapServer は NASA、Minnesota Department of Natural Resources (MNDNR) "
+"の協力のもとでミネソタ大学 (UMN) ForNet プロジェクトにより当初開発されました。後に UMN "
+"と土地管理業者コンソーシアムで作られた、NASA のスポンサーによる TerraSIP プロジェクトが管理することになりました。"
+
+#: ../../build/doc/overview/mapserver_overview.rst:27
+msgid ""
+"MapServer is now a project of `OSGeo <http://www.osgeo.org>`_, and is "
+"maintained by a growing number of developers (nearing 20) from around the "
+"world. It is supported by a diverse group of organizations that fund "
+"enhancements and maintenance, and administered within OSGeo by the MapServer"
+" Project Steering Committee made up of developers and other contributors."
+msgstr ""
+"現在、MapServer は `OSGeo <http://www.osgeo.org>`_ "
+"の１プロジェクトとして管理されています。今後増え続ける世界中からの開発者(現在約20人)によって維持管理されています。基金強化およびメインテナンスなどの様々な機関によってサポートされています。開発者とコントリビュータによって構成される"
+" MapServer Project Steering Committee として OSGeo のなかで運営されています。"
+
+#: ../../build/doc/overview/mapserver_overview.rst:36
+msgid "Core Features"
+msgstr "主な機能"
+
+#: ../../build/doc/overview/mapserver_overview.rst:39
+msgid "Advanced cartographic output"
+msgstr "高度な地図出力"
+
+#: ../../build/doc/overview/mapserver_overview.rst:41
+msgid "Scale dependent feature drawing and application execution"
+msgstr "縮尺に依存したフィーチャ描画および機能実行"
+
+#: ../../build/doc/overview/mapserver_overview.rst:42
+msgid "Feature labeling including label collision mediation"
+msgstr "重複を回避するフィーチャのラベル付け"
+
+#: ../../build/doc/overview/mapserver_overview.rst:43
+msgid "TrueType font support for labeling and symbolization"
+msgstr "ラベリングとシンボル描画のための TrueType フォントサポート"
+
+#: ../../build/doc/overview/mapserver_overview.rst:44
+msgid "Map element automation (scalebar, reference map, and legend)"
+msgstr "マップ要素の自動化 (スケールバー、マップ参照、凡例)"
+
+#: ../../build/doc/overview/mapserver_overview.rst:45
+msgid "Thematic mapping using logical or regular expression-based classes"
+msgstr "論理または正規表現ベースのクラスを利用した主題マッピング"
+
+#: ../../build/doc/overview/mapserver_overview.rst:46
+msgid "Plugable renderer support with drivers for AGG, Cairo and others"
+msgstr "AGG、Cairoその他のドライバーでのプラガブルなレンダラーサポート"
+
+#: ../../build/doc/overview/mapserver_overview.rst:47
+msgid "Special provisioning for tiled output generation"
+msgstr "タイル化された出力生成のための特別なプロビジョニング"
+
+#: ../../build/doc/overview/mapserver_overview.rst:48
+msgid "Mask Layers"
+msgstr "マスクレイヤ"
+
+#: ../../build/doc/overview/mapserver_overview.rst:49
+msgid "Precise Symbol Placement"
+msgstr "正確なシンボル配置"
+
+#: ../../build/doc/overview/mapserver_overview.rst:50
+msgid "Complex Multi Label/Symbol Symbology"
+msgstr "複雑な複数ラベル・シンボルのシンボロジー"
+
+#: ../../build/doc/overview/mapserver_overview.rst:51
+msgid "Vector Fields"
+msgstr "ベクタフィールド"
+
+#: ../../build/doc/overview/mapserver_overview.rst:52
+msgid "Label Leader Offsetting"
+msgstr "ラベル先頭のオフセット"
+
+#: ../../build/doc/overview/mapserver_overview.rst:53
+msgid "SVG Symbology"
+msgstr "SVG シンボロジー"
+
+#: ../../build/doc/overview/mapserver_overview.rst:54
+msgid "Multiple Font Support"
+msgstr "複数フォントサポート"
+
+#: ../../build/doc/overview/mapserver_overview.rst:55
+msgid "Dynamic Heatmaps"
+msgstr "動的ヒートマップ"
+
+#: ../../build/doc/overview/mapserver_overview.rst:56
+msgid "UTF Grid Support"
+msgstr "UTF Grid サポート"
+
+#: ../../build/doc/overview/mapserver_overview.rst:57
+msgid "Layer Compositing"
+msgstr "レイヤ合成"
+
+#: ../../build/doc/overview/mapserver_overview.rst:59
+msgid "Sophisticated spatial query support"
+msgstr "洗練された空間クエリサポート"
+
+#: ../../build/doc/overview/mapserver_overview.rst:61
+msgid ""
+"Identify features by attributes, point, bounding box or geometry across one "
+"or more layers"
+msgstr "属性、ポイント、バウンディングボックス、ジオメトリによる、単一もしくは複数レイヤにまたがるフィーチャの識別"
+
+#: ../../build/doc/overview/mapserver_overview.rst:62
+msgid "Support for raster queries"
+msgstr "ラスタクエリのサポート"
+
+#: ../../build/doc/overview/mapserver_overview.rst:63
+msgid "Fully customizable, template driven output"
+msgstr "十分にカスタマイズ可能なテンプレート駆動の出力"
+
+#: ../../build/doc/overview/mapserver_overview.rst:64
+msgid "OGR-based query output generation"
+msgstr "OGR ベースのクエリ出力生成"
+
+#: ../../build/doc/overview/mapserver_overview.rst:66
+msgid "Support for popular scripting and development environments"
+msgstr "人気のあるスクリプトや開発環境のサポート"
+
+#: ../../build/doc/overview/mapserver_overview.rst:68
+msgid "CGI/FastCGI"
+msgstr "CGI/FastCGI"
+
+#: ../../build/doc/overview/mapserver_overview.rst:69
+msgid "PHP, Python, Perl, Ruby, Java, and .NET"
+msgstr "PHP, Python, Perl, Ruby, Java, .NET"
+
+#: ../../build/doc/overview/mapserver_overview.rst:71
+msgid "Cross-platform support"
+msgstr "クロスプラットフォーム対応"
+
+#: ../../build/doc/overview/mapserver_overview.rst:73
+msgid "Linux, Windows, Mac OS X, Solaris, and more"
+msgstr "Linux, Windows, Mac OS X, Solaris その他"
+
+#: ../../build/doc/overview/mapserver_overview.rst:75
+msgid "A multitude of raster and vector data formats"
+msgstr "多数のラスタ・ベクタデータフォーマット"
+
+#: ../../build/doc/overview/mapserver_overview.rst:77
+msgid "Native support for ESRI shapefiles, PostGIS and Oracle Spatial"
+msgstr "ESRI シェープファイル, PostGIS, Oracle Spatial のネイティブサポート"
+
+#: ../../build/doc/overview/mapserver_overview.rst:78
+msgid "Many other formats via GDAL and OGR"
+msgstr "GDAL 及び OGR 経由の、他の多くのフォーマット"
+
+#: ../../build/doc/overview/mapserver_overview.rst:80
+msgid "Map projection support"
+msgstr "地図投影サポート"
+
+#: ../../build/doc/overview/mapserver_overview.rst:82
+msgid ""
+"On-the-fly map projection with 1000s of projections through the Proj.4 "
+"library"
+msgstr "Proj.4 ライブラリ使用による、1000を超える投影法でのオンザフライ地図投影"
+
+#: ../../build/doc/overview/mapserver_overview.rst:85
+msgid "Implemented Standards"
+msgstr "実装されている標準規格"
+
+#: ../../build/doc/overview/mapserver_overview.rst:87
+msgid "Support of numerous Open Geospatial Consortium  (OGC) standards"
+msgstr "多数の Open Geospatial Consortium  (OGC) 標準規格のサポート"
+
+#: ../../build/doc/overview/mapserver_overview.rst:89
+msgid "`WMS <http://www.opengeospatial.org/standards/wms>`__ (client/server)"
+msgstr "`WMS <http://www.opengeospatial.org/standards/wms>`__ (クライアント/サーバ)"
+
+#: ../../build/doc/overview/mapserver_overview.rst:90
+msgid ""
+"`WFS <http://www.opengeospatial.org/standards/wfs>`__ (non-transactional, "
+"client/server)"
+msgstr ""
+"`WFS <http://www.opengeospatial.org/standards/wfs>`__ "
+"(非トランザクショナル、クライアント/サーバ)"
+
+#: ../../build/doc/overview/mapserver_overview.rst:91
+msgid "WMC"
+msgstr "WMC"
+
+#: ../../build/doc/overview/mapserver_overview.rst:92
+msgid "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
+msgstr "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
+
+#: ../../build/doc/overview/mapserver_overview.rst:93
+msgid "`FE <http://www.opengeospatial.org/standards/fe>`__"
+msgstr "`FE <http://www.opengeospatial.org/standards/fe>`__"
+
+#: ../../build/doc/overview/mapserver_overview.rst:94
+msgid "`SLD <http://www.opengeospatial.org/standards/sld>`__"
+msgstr "`SLD <http://www.opengeospatial.org/standards/sld>`__"
+
+#: ../../build/doc/overview/mapserver_overview.rst:95
+msgid "`GML <http://www.opengeospatial.org/standards/gml>`__"
+msgstr "`GML <http://www.opengeospatial.org/standards/gml>`__"
+
+#: ../../build/doc/overview/mapserver_overview.rst:96
+msgid "SOS"
+msgstr "SOS"
+
+#: ../../build/doc/overview/mapserver_overview.rst:97
+msgid "OM"
+msgstr "OM"
+
+#: ../../build/doc/overview/mapserver_overview.rst:99
+msgid "INSPIRE View Service compliant"
+msgstr "INSPIRE View Service 準拠"
+
+#: ../../build/doc/overview/mapserver_overview.rst:102
+msgid "Demo"
+msgstr "デモ"
+
+#: ../../build/doc/overview/mapserver_overview.rst:104
+msgid "`Itasca <http://localhost/mapserver_demos/itasca/>`_"
+msgstr "`Itasca <http://localhost/mapserver_demos/itasca/>`_"
+
+#: ../../build/doc/overview/mapserver_overview.rst:107
+msgid "Documentation"
+msgstr "ドキュメント"
+
+#: ../../build/doc/overview/mapserver_overview.rst:109
+msgid "`MapServer 7.0 Documentation <../../../mapserver/doc/index.html>`_"
+msgstr "`MapServer 7.0 ドキュメント <../../../mapserver/doc/index.html>`_"
+
+#: ../../build/doc/overview/mapserver_overview.rst:112
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/mapserver_overview.rst:114
+msgid "**Website:** http://www.mapserver.org/"
+msgstr "**Webサイト:** http://www.mapserver.org/"
+
+#: ../../build/doc/overview/mapserver_overview.rst:116
+msgid ""
+"**Licence:** `MIT-style license "
+"<http://mapserver.org/copyright.html#license>`_"
+msgstr ""
+"**ライセンス:** `MIT-style license "
+"<http://mapserver.org/copyright.html#license>`_"
+
+#: ../../build/doc/overview/mapserver_overview.rst:118
+msgid "**Software Version:** |version-mapserver|"
+msgstr "**ソフトウェアバージョン:** |version-mapserver|"
+
+#: ../../build/doc/overview/mapserver_overview.rst:120
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/mapserver_overview.rst:122
+msgid "**API Interfaces:** C, PHP, Python, Perl, Ruby, Java, and .NET"
+msgstr "**API インターフェイス:** C, PHP, Python, Perl, Ruby, Java, .NET"
+
+#: ../../build/doc/overview/mapserver_overview.rst:124
+msgid "**Support:** http://mapserver.org/community/"
+msgstr "**サポート:** http://mapserver.org/community/"
+
+#: ../../build/doc/overview/mapserver_overview.rst:128
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/mapserver_overview.rst:130
+msgid ":doc:`Quickstart documentation <../quickstart/mapserver_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/mapserver_quickstart>`"

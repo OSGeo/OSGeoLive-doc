@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:10+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/geos_overview.rst:18
+msgid "GEOS"
+msgstr "GEOS"
+
+#: ../../build/doc/overview/geos_overview.rst:21
+msgid "Spatial Library"
+msgstr "空間ライブラリ"
+
+#: ../../build/doc/overview/geos_overview.rst:23
+msgid ""
+"GEOS (Geometry Engine - Open Source) is a C++ port of the `JTS Topology "
+"Suite (JTS) <https://www.locationtech.org/proposals/jts-topology-suite>`_. "
+"It includes the OpenGIS Simple Features for SQL spatial predicate functions "
+"and spatial operators, as well as specific JTS enhanced topology functions."
+msgstr ""
+"GEOS (Geometry Engine - Open Source) は `JTS Topology Suite (JTS) "
+"<https://www.locationtech.org/proposals/jts-topology-suite>`_ を C++ "
+"に移植したものです。OpenGISの \"Simple Features for SQL\" の空間述語関数と空間演算、 JTS "
+"仕様の拡張トポロジ関数を備えています。"
+
+#: ../../build/doc/overview/geos_overview.rst:25
+msgid ""
+"GEOS is the most widely used geospatial C++ geometry library, being used by "
+"open source projects such as :doc:`PostGIS <postgis_overview>`, :doc:`QGIS "
+"<qgis_overview>`, :doc:`GDAL/OGR <gdal_overview>` and :doc:`MapServer "
+"<mapserver_overview>`, and by proprietary products including `FME "
+"<http://www.safe.com/fme/fme-technology/>`_."
+msgstr ""
+"GEOS は最も広く使われている地理空間の C++ 幾何ライブラリであり、 :doc:`PostGIS <postgis_overview>`, "
+":doc:`QGIS <qgis_overview>`, :doc:`GDAL/OGR <gdal_overview>` 及び "
+":doc:`MapServer <mapserver_overview>` などのオープンソースプロジェクトや、 `FME "
+"<http://www.safe.com/fme/fme-technology/>`_ などの商用製品で使用されています。"
+
+#: ../../build/doc/overview/geos_overview.rst:28
+msgid "Implemented Standards"
+msgstr "準拠している標準規格"
+
+#: ../../build/doc/overview/geos_overview.rst:30
+msgid ""
+"`OpenGIS Simple Features for SQL "
+"<http://www.opengeospatial.org/standards/sfs>`_  spatial predicate functions"
+" and spatial operators"
+msgstr ""
+"`OpenGIS Simple Features for SQL "
+"<http://www.opengeospatial.org/standards/sfs>`_  空間述語関数と空間演算"
+
+#: ../../build/doc/overview/geos_overview.rst:39
+msgid "Core Features"
+msgstr "主な機能"
+
+#: ../../build/doc/overview/geos_overview.rst:41
+msgid ""
+"Geometries: Point, LineString, Polygon, MultiPoint, MultiLineString, "
+"MultiPolygon, GeometryCollection"
+msgstr "ジオメトリ: ポイント、ラインストリング、ポリゴン、マルチポイント、マルチラインストリング、マルチポリゴン、ジオメトリコレクション"
+
+#: ../../build/doc/overview/geos_overview.rst:42
+msgid ""
+"Predicates: Intersects, Touches, Disjoint, Crosses, Within, Contains, "
+"Overlaps, Equals, Covers"
+msgstr ""
+"述語: "
+"交差(インタセクト)する(Intersects)、接する(Touches)、非接続である(Disjoint)、交差(クロス)する(Crosses)、含まれる(Within)、含む(Contains)、重複する(Overlaps)、等しい(Equals)、覆う(Covers)"
+
+#: ../../build/doc/overview/geos_overview.rst:43
+msgid ""
+"Operations: Union, Distance, Intersection, Symmetric Difference, Convex "
+"Hull, Envelope, Buffer, Simplify, Polygon Assembly, Valid, Area, Length,"
+msgstr ""
+"演算: 統合(Union)、距離(Distance)、交差(Intersection)、対称差分(Symmetric "
+"Difference)、凸包(Convex "
+"Hull)、境界矩形領域(Envelope)、バッファ(Buffer)、簡略化(Simplify)、ポリゴン構築(Polygon "
+"Assembly)、妥当性検証(Valid)、面積(Area)、長さ(Length)"
+
+#: ../../build/doc/overview/geos_overview.rst:44
+msgid "Prepared geometries (pre-spatially indexed)"
+msgstr "Prepared ジオメトリ (事前空間インデックス)"
+
+#: ../../build/doc/overview/geos_overview.rst:45
+msgid "STR spatial index"
+msgstr "STR 空間インデックス"
+
+#: ../../build/doc/overview/geos_overview.rst:46
+msgid ""
+"OGC Well Known Text (WKT) and Well Known Binary (WKB) encoders and decoders."
+msgstr "OGC の Well-Known テキスト (WKT) と Well-Known バイナリ (WKB) のエンコーダとデコーダ"
+
+#: ../../build/doc/overview/geos_overview.rst:47
+msgid "C and C++ API (C API gives long term ABI stability)"
+msgstr "C および C++ API (C API は長期間の ABI 安定性を付与)"
+
+#: ../../build/doc/overview/geos_overview.rst:48
+msgid "Thread safe (using the reentrant API)"
+msgstr "スレッドセーフ (再入可能な API の使用)"
+
+#: ../../build/doc/overview/geos_overview.rst:51
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/geos_overview.rst:53
+msgid "**Website:**  http://geos.osgeo.org/"
+msgstr "**Webサイト:**  http://geos.osgeo.org/"
+
+#: ../../build/doc/overview/geos_overview.rst:55
+msgid "**Licence:** LGPL"
+msgstr "**ライセンス:** LGPL"
+
+#: ../../build/doc/overview/geos_overview.rst:57
+msgid "**Software Version:** |version-geos|"
+msgstr "**ソフトウェアバージョン:** |version-geos|"
+
+#: ../../build/doc/overview/geos_overview.rst:59
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/geos_overview.rst:61
+msgid "**API Interfaces:** C, C++"
+msgstr "**API インターフェイス:** C, C++"
+
+#: ../../build/doc/overview/geos_overview.rst:63
+msgid ""
+"**Support:** http://lists.osgeo.org/mailman/listinfo/geos-devel, "
+"http://www.osgeo.org/search_profile"
+msgstr ""
+"**サポート:** http://lists.osgeo.org/mailman/listinfo/geos-devel, "
+"http://www.osgeo.org/search_profile"

@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:10+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/R_overview.rst:14
+msgid "R for Spatial Data"
+msgstr "R 空間データ対応"
+
+#: ../../build/doc/overview/R_overview.rst:17
+msgid "Statistical Programming"
+msgstr "統計プログラミング"
+
+#: ../../build/doc/overview/R_overview.rst:19
+msgid ""
+"R is a powerful, widely used software environment for statistical computing "
+"and graphics which excels at analyzing and processing geographic data sets. "
+"Geospatial analysis capabilities within R are available in R packages "
+"(modules that extend the capabilities of R) that provide access to a huge "
+"number of traditional and state of the art algorithms (). R and its packages"
+" are able to process point, line, polygon, networks, grid data (etc.)."
+msgstr ""
+"R は強力で広く使われている高性能な統計計算および作図環境で、地理的データの解析と演算にも優れています。R による地理空間分析は、R "
+"パッケージ（Rの機能を拡張するモジュール）を利用して古典的なものから最新のものまで、膨大なアルゴリズムが利用できます。中には他のオープンソースまたはプロプライエタリ・ソフトウェアよりも早く利用可能になるものもあります。R"
+" とそのパッケージではポイント、ライン、ポリゴン、グリッドデータを処理できます。"
+
+#: ../../build/doc/overview/R_overview.rst:27
+msgid ""
+"Users can accomplish a broad array of tasks such as: image classification, "
+"statistical analysis to infer spatial relationships and patterns of "
+"features, and others listed in the core features below. The functions "
+"available via R complement and advance capabilities found in GIS and image "
+"processing software. Using packages for parallelisation users can "
+"drastically reduce computational time and increase these capability. Several"
+" packages provide connection with other OSGeo tools and software. You can "
+"easily plug R with GRASS-GIS, Qgis, postgreSQL and postGIS."
+msgstr ""
+"ユーザーは、例えば画像分類、空間的関係を推定するための統計解析、地物の分布パターン、そして以下の基本機能に列挙されるものなど、大規模な配列の処理ができます。R"
+" が提供している機能は、GIS や画像処理ソフトに使われている高性能で先進的なものです。 Using packages for "
+"parallelisation users can drastically reduce computational time and increase"
+" these capability. Several packages provide connection with other OSGeo "
+"tools and software. You can easily plug R with GRASS-GIS, Qgis, postgreSQL "
+"and postGIS."
+
+#: ../../build/doc/overview/R_overview.rst:36
+msgid ""
+"The core R interface is a command line window which provides excellent "
+"flexibility and control but tends to lengthen the time required to become a "
+"proficient user when compared to software with a graphical user interface "
+"(GUI). Fortunately R is well documented on the web site which eases the "
+"learning process. Scripts are often used to automate processing steps but "
+"there are GUIs, the leading one being RStudio (http://www.rstudio.com)."
+msgstr ""
+"R の基本インターフェイスはコマンドラインであり、高い自由度と操作性を提供しています。一方で、グラフィカル・ユーザー・インターフェイス (GUI) "
+"と比べて習熟するまでに長い時間を必要とする傾向があります。幸いなことに、R についての Web "
+"のドキュメントは充実しており、学習プロセスを容易にしています。処理を自動化するためのスクリプトが頻繁に利用されており、また、Rの GUI "
+"環境として主要なものに RStudio (http://www.rstudio.com) があります。"
+
+#: ../../build/doc/overview/R_overview.rst:44
+msgid ""
+"R is an implementation of the S programming language and there is "
+"significant compatibility between R and legacy S and S-Plus code as well as "
+"between R and the modern commercial version of S, TIBCO Spotfire S+. This "
+"makes it possible to convert different versions of S code to run on R "
+"without major code modifications."
+msgstr ""
+"R は S 言語の実装でもあり、R と過去の S、S-Plus コード、\n"
+"最近の商用バージョンの S、TIBCO Spotfire S+ には高い互換性があります。この互換性により、異なるバージョンの S のコードを大きく変更することなく R で実行できるよう変換可能です。"
+
+#: ../../build/doc/overview/R_overview.rst:57
+msgid "Core Features"
+msgstr "主な機能"
+
+#: ../../build/doc/overview/R_overview.rst:59
+msgid ""
+"Complete Object Oriented Programming Language designed for Statistics and "
+"similar Mathematical intensive applications"
+msgstr "統計、数学に特化したアプリケーションに向けて設計した完全なオブジェクト指向プログラミング言語"
+
+#: ../../build/doc/overview/R_overview.rst:60
+msgid ""
+"Currently (2017/08/11), the CRAN package repository features 11239 available"
+" packages."
+msgstr "現在 (2017/08/11)、CRAN パッケージリポジトリで 11239 のパッケージが利用可能"
+
+#: ../../build/doc/overview/R_overview.rst:61
+msgid ""
+"Hundreds of community contributed add-on packages for spatial statistics"
+msgstr "数百のコミュニティが作成した空間統計計算用のアドオンパッケージ"
+
+#: ../../build/doc/overview/R_overview.rst:62
+msgid "Classes for spatial data"
+msgstr "空間データのためのクラス"
+
+#: ../../build/doc/overview/R_overview.rst:63
+msgid "Reading and writing spatial data"
+msgstr "空間データの読み込みと書き出し"
+
+#: ../../build/doc/overview/R_overview.rst:64
+msgid "Point pattern analysis"
+msgstr "点パターン分析"
+
+#: ../../build/doc/overview/R_overview.rst:65
+msgid "Geostatistics"
+msgstr "地球統計学"
+
+#: ../../build/doc/overview/R_overview.rst:66
+msgid "Spatial regression"
+msgstr "空間回帰分析"
+
+#: ../../build/doc/overview/R_overview.rst:67
+msgid "Ecological analysis"
+msgstr "生態学的分析"
+
+#: ../../build/doc/overview/R_overview.rst:68
+msgid "Powerful raster processing algorithms"
+msgstr "強力なラスタ処理アルゴリズム"
+
+#: ../../build/doc/overview/R_overview.rst:69
+msgid "Remote sensing"
+msgstr "リモートセンシング"
+
+#: ../../build/doc/overview/R_overview.rst:70
+msgid "Bayesian spatial analysis"
+msgstr "ベイズ空間解析"
+
+#: ../../build/doc/overview/R_overview.rst:71
+msgid "..."
+msgstr "..."
+
+#: ../../build/doc/overview/R_overview.rst:74
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/R_overview.rst:76
+msgid "**Website:** http://cran.r-project.org"
+msgstr "**Webサイト:** http://cran.r-project.org"
+
+#: ../../build/doc/overview/R_overview.rst:78
+msgid "**Licence:** GPL"
+msgstr "**ライセンス:** GPL"
+
+#: ../../build/doc/overview/R_overview.rst:80
+msgid "**Software Version:** |version-R|"
+msgstr "**ソフトウェアバージョン:** |version-R|"
+
+#: ../../build/doc/overview/R_overview.rst:82
+msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
+msgstr "**対応プラットフォーム:** Windows, Linux, Mac, Unix"
+
+#: ../../build/doc/overview/R_overview.rst:84
+msgid ""
+"**Community Support:** http://cran.r-project.org/web/views/Spatial.html"
+msgstr "**コミュニティサポート:** http://cran.r-project.org/web/views/Spatial.html"
+
+#: ../../build/doc/overview/R_overview.rst:86
+msgid ""
+"**CRAN packages available:** "
+"https://cran.r-project.org/web/packages/available_packages_by_name.html"
+msgstr ""
+"**CRAN パッケージが利用可能:** "
+"https://cran.r-project.org/web/packages/available_packages_by_name.html"
+
+#: ../../build/doc/overview/R_overview.rst:91
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/R_overview.rst:93
+msgid ":doc:`Quickstart documentation <../quickstart/R_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/R_quickstart>`"

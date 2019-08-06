@@ -1,0 +1,259 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:10+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/leaflet_overview.rst:16
+msgid "Leaflet"
+msgstr "Leaflet"
+
+#: ../../build/doc/overview/leaflet_overview.rst:19
+msgid "Browser/Mobile Map Library"
+msgstr "ブラウザ/モバイル向け地図ライブラリ"
+
+#: ../../build/doc/overview/leaflet_overview.rst:21
+msgid ""
+"Leaflet is an JavaScript library for browser based, mobile-friendly, "
+"interactive maps.  It is light weight, yet has all the features most "
+"developers ever need for online maps."
+msgstr ""
+"Leaflet はブラウザベースで、モバイルフレンドリーなインタラクティブ地図のための JavaScript "
+"ライブラリです。軽量ですが、ほとんどの開発者がかつて必要としていたオンライン地図のための全ての機能を持っています。"
+
+#: ../../build/doc/overview/leaflet_overview.rst:23
+msgid ""
+"Leaflet is designed with simplicity, performance and usability in mind. It "
+"works efficiently across all major desktop and mobile platforms out of the "
+"box,  taking advantage of HTML5 and CSS3 on modern browsers while being "
+"accessible on older ones too.  It can be extended with many plugins, has a "
+"beautiful, easy to use and well-documented API and a simple, readable source"
+" code that is a joy to contribute to."
+msgstr ""
+"Leaflet "
+"はシンプル、パフォーマンス、ユーザビリティを念頭に設計されています。枠を超えた、全てのメジャーなデスクトップ・モバイルプラットフォーム上で、モダンブラウザ上の"
+" HTML5 と CSS3 "
+"の優位性を持ちつつ、古いブラウザ上でのアクセスも可能とし、効率的に動作します。多くのプラグインにより拡張することが可能で、見た目も美しく、利用も簡単で、しっかりとドキュメント化された"
+" API があり、シンプルで、可読性のあるソースコードで、貢献を楽しめるようにもなっています。"
+
+#: ../../build/doc/overview/leaflet_overview.rst:37
+msgid "Core Features"
+msgstr "主な機能"
+
+#: ../../build/doc/overview/leaflet_overview.rst:39
+msgid "Map Layers"
+msgstr "地図レイヤ"
+
+#: ../../build/doc/overview/leaflet_overview.rst:41
+msgid "Tiles, Markers, Popups, Image overlays, WMS, GeoJSON"
+msgstr "タイル、マーカー、ポップアップ、イメージオーバーレイ、WMS、GeoJSON"
+
+#: ../../build/doc/overview/leaflet_overview.rst:42
+msgid "Vectors: polylines, polygons, circles, rectangles, circle markers"
+msgstr "ベクタ: ポリライン、ポリゴン、円、矩形、円マーカー"
+
+#: ../../build/doc/overview/leaflet_overview.rst:43
+msgid "Layer groups"
+msgstr "レイヤグループ"
+
+#: ../../build/doc/overview/leaflet_overview.rst:45
+msgid "Customization Features"
+msgstr "カスタマイズ機能"
+
+#: ../../build/doc/overview/leaflet_overview.rst:47
+msgid "Pure CSS3 popups and controls for easy restyling"
+msgstr "簡単なスタイル変更が可能な、CSS3 完全準拠のポップアップとコントロール"
+
+#: ../../build/doc/overview/leaflet_overview.rst:48
+msgid "Image- and HTML-based markers"
+msgstr "画像と HTML ベースのマーカー"
+
+#: ../../build/doc/overview/leaflet_overview.rst:49
+msgid "Custom map layers, controls, projections"
+msgstr "カスタム地図レイヤ、コントロール、投影法"
+
+#: ../../build/doc/overview/leaflet_overview.rst:50
+msgid "Powerful OOP facilities for extending existing classes"
+msgstr "既存のクラス拡張のための、強力な OOP(オブジェクト指向プログラミング) の利便性"
+
+#: ../../build/doc/overview/leaflet_overview.rst:58
+msgid "Interaction and Visual Features"
+msgstr "インタラクティブでビジュアルな機能"
+
+#: ../../build/doc/overview/leaflet_overview.rst:53
+msgid "Drag panning with inertia"
+msgstr "イナーシャによるドラッグパン"
+
+#: ../../build/doc/overview/leaflet_overview.rst:54
+msgid "Keyboard navigation"
+msgstr "キーボードナビゲーション"
+
+#: ../../build/doc/overview/leaflet_overview.rst:55
+msgid "Multi-touch"
+msgstr "マルチタッチ"
+
+#: ../../build/doc/overview/leaflet_overview.rst:56
+msgid "Zoom/Panning animation"
+msgstr "ズーム/パン アニメーション"
+
+#: ../../build/doc/overview/leaflet_overview.rst:57
+msgid "Very nice default design for markers, popups and other map controls"
+msgstr "非常に美しい、マーカー、ポップアップ、その他地図コントロールのデフォルトのデザイン"
+
+#: ../../build/doc/overview/leaflet_overview.rst:58
+msgid "Retina resolution support for tile layers and markers"
+msgstr "タイルレイヤとマーカーのための Retina 解像度のサポート"
+
+#: ../../build/doc/overview/leaflet_overview.rst:60
+msgid "Performance Features"
+msgstr "パフォーマンス機能"
+
+#: ../../build/doc/overview/leaflet_overview.rst:62
+msgid "Hardware acceleration"
+msgstr "ハードウェアアクセラレーション"
+
+#: ../../build/doc/overview/leaflet_overview.rst:63
+msgid "Utilizing CSS3 features to make panning and zooming really smooth"
+msgstr "パンとズーム動作を真にスムーズにするための、CSS3 機能の利用"
+
+#: ../../build/doc/overview/leaflet_overview.rst:64
+msgid "Smart polyline/polygon rendering"
+msgstr "スマートなポリライン/ポリゴンのレンダリング"
+
+#: ../../build/doc/overview/leaflet_overview.rst:65
+msgid "Modular design allows including only required features"
+msgstr "必要な機能のみ含めることが可能なモジュール設計"
+
+#: ../../build/doc/overview/leaflet_overview.rst:66
+msgid "Tap delay elimination on mobile devices"
+msgstr "モバイル端末上でのタップ操作の遅延除去"
+
+#: ../../build/doc/overview/leaflet_overview.rst:68
+msgid "Map Controls"
+msgstr "地図コントロール"
+
+#: ../../build/doc/overview/leaflet_overview.rst:70
+msgid "Zoom buttons, Attribution, Layer switcher, Scale"
+msgstr "ームボタン、地図帰属表示、レイヤ切替、縮尺"
+
+#: ../../build/doc/overview/leaflet_overview.rst:72
+msgid "Desktop Browser Support"
+msgstr "デスクトップブラウザのサポート"
+
+#: ../../build/doc/overview/leaflet_overview.rst:74
+msgid "Chrome"
+msgstr "Chrome"
+
+#: ../../build/doc/overview/leaflet_overview.rst:75
+msgid "Firefox"
+msgstr "Firefox"
+
+#: ../../build/doc/overview/leaflet_overview.rst:76
+msgid "Safari 5+"
+msgstr "Safari 5+"
+
+#: ../../build/doc/overview/leaflet_overview.rst:77
+msgid "Opera 12+"
+msgstr "Opera 12+"
+
+#: ../../build/doc/overview/leaflet_overview.rst:78
+msgid "IE 7–11"
+msgstr "IE 7–11"
+
+#: ../../build/doc/overview/leaflet_overview.rst:80
+msgid "Mobile Browser Support"
+msgstr "モバイルブラウザのサポート"
+
+#: ../../build/doc/overview/leaflet_overview.rst:82
+msgid "Safari for iOS 3-7+"
+msgstr "Safari for iOS 3-7+"
+
+#: ../../build/doc/overview/leaflet_overview.rst:83
+msgid "Android browser 2.2+, 3.1+, 4+"
+msgstr "Android ブラウザ 2.2+, 3.1+, 4+"
+
+#: ../../build/doc/overview/leaflet_overview.rst:84
+msgid "Chrome for Android 4+ and iOS"
+msgstr "Chrome for Android 4+ 及び iOS"
+
+#: ../../build/doc/overview/leaflet_overview.rst:85
+msgid "Firefox for Android"
+msgstr "Firefox for Android"
+
+#: ../../build/doc/overview/leaflet_overview.rst:86
+msgid "Other webkit-based browsers (webOS, Blackberry 7+, etc.)"
+msgstr "その他 webkit ベースのブラウザ (webOS、Blackberry 7+ 等)"
+
+#: ../../build/doc/overview/leaflet_overview.rst:87
+msgid "IE10/IE11 for Win8-based devices"
+msgstr "IE10/IE11 for Win8 ベースの端末"
+
+#: ../../build/doc/overview/leaflet_overview.rst:89
+msgid "Misc"
+msgstr "その他"
+
+#: ../../build/doc/overview/leaflet_overview.rst:91
+msgid "Extremely lightweight — around 34 KB of gzipped JS code"
+msgstr "極めて軽量 — JS コードを gzip 圧縮した状態で 34 KB"
+
+#: ../../build/doc/overview/leaflet_overview.rst:92
+msgid "No external dependencies"
+msgstr "外部依存性がない"
+
+#: ../../build/doc/overview/leaflet_overview.rst:93
+msgid ""
+"Keeps your JS environment clean — no global or native prototypes pollution"
+msgstr "開発者の JS 環境をクリーンに保つ — グローバルもしくはネイティブの prototype を汚染しない"
+
+#: ../../build/doc/overview/leaflet_overview.rst:97
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/leaflet_overview.rst:99
+msgid "**Website:** http://leafletjs.com"
+msgstr "**Webサイト:** http://leafletjs.com"
+
+#: ../../build/doc/overview/leaflet_overview.rst:101
+msgid "**Licence:** BSD"
+msgstr "**ライセンス:** BSD"
+
+#: ../../build/doc/overview/leaflet_overview.rst:103
+msgid "**Software Version:** |version-leaflet|"
+msgstr "**ソフトウェアバージョン:** |version-leaflet|"
+
+#: ../../build/doc/overview/leaflet_overview.rst:105
+msgid "**Supported Platforms:** Windows, Mac, Linux, Android, iOS"
+msgstr "**対応プラットフォーム:** Windows, Mac, Linux, Android, iOS"
+
+#: ../../build/doc/overview/leaflet_overview.rst:107
+msgid "**API Interfaces:** Javascript"
+msgstr "**API インターフェイス:** Javascript"
+
+#: ../../build/doc/overview/leaflet_overview.rst:109
+msgid "**Support:** https://groups.google.com/forum/#!forum/leaflet-js"
+msgstr "**サポート:** https://groups.google.com/forum/#!forum/leaflet-js"
+
+#: ../../build/doc/overview/leaflet_overview.rst:113
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/leaflet_overview.rst:115
+msgid ":doc:`Quickstart documentation <../quickstart/leaflet_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/leaflet_quickstart>`"

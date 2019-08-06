@@ -1,0 +1,250 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:08+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/geoserver_overview.rst:19
+msgid "GeoServer"
+msgstr "GeoServer"
+
+#: ../../build/doc/overview/geoserver_overview.rst:22
+msgid "Web Service"
+msgstr "Web サービス"
+
+#: ../../build/doc/overview/geoserver_overview.rst:24
+msgid ""
+"GeoServer is a web server that allows you to serve maps and data from a "
+"variety of formats to standard clients such as web browsers and desktop GIS "
+"programs. Data is published via standards based interfaces, such as WMS, "
+"WFS, WCS, WPS, Tile Caching and more. GeoServer comes with a browser-based "
+"management interface and connects to multiple data sources at the back end."
+msgstr ""
+"GeoServer は、多様なフォーマットから地図とデータを Web ブラウザやデスクトップ GIS プログラム等の標準的なクライアントに配信する "
+"Web サーバです。データは WMS、WFS、WCS、WPS、タイルキャッシュなどの標準に基づくインターフェイス経由で配信されます。GeoServer "
+"は、ブラウザベースの管理インターフェイスを持ち、バックエンド側で複数のデータソースへ接続します。"
+
+#: ../../build/doc/overview/geoserver_overview.rst:37
+msgid "Core Features"
+msgstr "主な機能"
+
+#: ../../build/doc/overview/geoserver_overview.rst:44
+msgid "**Serve data from a variety of data stores:**"
+msgstr "**様々なデータストアからデータを配信:**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:41
+msgid "Vector"
+msgstr "ベクタ"
+
+#: ../../build/doc/overview/geoserver_overview.rst:41
+msgid "Shapefiles, External WFS"
+msgstr "シェープファイル、 外部WFS"
+
+#: ../../build/doc/overview/geoserver_overview.rst:42
+msgid "PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server"
+msgstr "PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server"
+
+#: ../../build/doc/overview/geoserver_overview.rst:44
+msgid "Raster"
+msgstr "ラスタ"
+
+#: ../../build/doc/overview/geoserver_overview.rst:44
+msgid ""
+"GeoTiff, JPG and PNG (with world file), image pyramid, GDAL formats, Image "
+"Mosaic, Oracle GeoRaster, NetCDF"
+msgstr ""
+"GeoTiff, JPG 及び PNG (ワールドファイル付き), image pyramid, GDAL formats, Image Mosaic,"
+" Oracle GeoRaster, NetCDF"
+
+#: ../../build/doc/overview/geoserver_overview.rst:48
+msgid ""
+"**Data is served as safe and quick images using WMS and WMTS protocols:**"
+msgstr "**WMS 及び WMTS プロトコルを利用した、安全かつ迅速なデータ配信:**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:47
+msgid ""
+"As the data is served up as an image your data is completely safe and "
+"secure. Unless they redigitise your data there is no way to steal your data."
+" The appearance of each map layer can be controlled using the SLD standard "
+"which allows features to be coloured and labeled. By combining these rules "
+"with OGC Filters scale dependent styling can be implemented allowing more "
+"detail to be added as a user zooms in. Label collision management, grouping "
+"and priorities are also implemented."
+msgstr ""
+" "
+"データは画像の状態で保存し、完全に安全でセキュアに配信します。データを再入力しない限り、あなたのデータを盗み出すことはできないでしょう。それぞれの地図のレイヤは"
+" SLD を用いて表示を変更できます。SLD 標準により地物の色やラベル表示を設定できます。これに、縮尺によって変化する OGC "
+"フィルターにを合わせると、ユーザーが拡大表示すると、より詳細を表示するような実装が可能です。ラベルの描画衝突の管理、グループ化、優先順位も実装されています。"
+
+#: ../../build/doc/overview/geoserver_overview.rst:52
+msgid "**Full vector data can be sent to a client using the WFS protocol:**"
+msgstr "**WFS プロトコルを利用した、クライアントへの全ベクタデータ送信:**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:51
+msgid ""
+"A WFS client can download vector data and use it for mapping, spatial "
+"analysis and other operations. Also if authorised the user can modify the "
+"data and send it back to the server to update the stored data using the "
+"WFS-T protocol. The data can be transmitted using GML (compressed) as well "
+"as other standard data formats like shapefile and json."
+msgstr ""
+" WFS クライアントは、ベクタデータをダウンロードして地図表示や空間解析等の用途に使用できます。さらに WFS-T "
+"プロトコルを利用して、認証されたユーザがサーバのデータを編集、アップロードすることで更新できます。シェープファイルや JSON "
+"のような標準規格同様に、データは圧縮した GML で送受信を行います。"
+
+#: ../../build/doc/overview/geoserver_overview.rst:55
+msgid "**Raster data values can be sent to a client using the WCS protocol:**"
+msgstr "**WCS プロトコルを利用した、クライアントへのラスタデータ値送信:**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:55
+msgid ""
+"A GIS client can request the actual raster data for use in spatial analysis."
+" This allows a user to create applications which can model the process "
+"described by your data."
+msgstr ""
+" "
+"GISクライアントはラスタの実データを要求して空間解析に使うことができます。この機能を使うと、あなたのデータで記述したプロセスをベースに、ユーザーが活用することができます。"
+
+#: ../../build/doc/overview/geoserver_overview.rst:58
+msgid "**On the fly reprojection:**"
+msgstr "**オンザフライ投影変換:**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:58
+msgid ""
+"GeoServer supports the majority of the EPSG database of projections and can "
+"reproject to any of them on demand to allow clients with limited "
+"reprojection support to pass the load to the server."
+msgstr ""
+"GeoServer は EPSG "
+"データベースの主な投影法をサポートしており、オンデマンドでそれらの投影法への再投影ができます。クライアント側で再投影を制限され手いる場合にはサーバ側でその処理を行うこともできます。"
+
+#: ../../build/doc/overview/geoserver_overview.rst:61
+msgid "**Tiling Cache**"
+msgstr "**タイルキャッシュ**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:61
+msgid ""
+"`GeoWebCache <http://geowebcache.org/>`_, which is integrated into "
+"GeoServer, tiles and caches map images from a variety of sources such as "
+"WMS. It implements various service interfaces (such as WMS-C, WMTS, TMS, "
+"Google Maps KML, Virtual Earth) in order to accelerate and optimize map "
+"image delivery. It can also recombine tiles to work with regular WMS "
+"clients."
+msgstr ""
+"`GeoWebCache <http://geowebcache.org/>`_ は GeoServer に統合されていて、 WMS "
+"などの様々なソースからタイル化して地図画像をキャッシュします。様々な (WMS-C, WMTS, TMS, Google Maps KML, "
+"Virtual Earth などの) サービスインターフェイスを実装し、地図画像配信を加速・最適化します。通常の WMS "
+"クライアントで動作するよう、タイルを再結合することも可能です。"
+
+#: ../../build/doc/overview/geoserver_overview.rst:64
+msgid "**Web Processing Service (WPS)**"
+msgstr "**Web Processing Service (WPS)**"
+
+#: ../../build/doc/overview/geoserver_overview.rst:64
+msgid ""
+"Geospatial algorithms, including those from :doc:`JTS <jts_overview>`, can "
+"be called through GeoServer's `WPS "
+"<http://www.opengeospatial.org/standards/wps>`__ interface. This includes "
+"the chaining of processes, and using rendering transformations to create "
+"powerful visualisations through the WMS interface."
+msgstr ""
+":doc:`JTS <jts_overview>` に由来する地理空間アルゴリズムを、 GeoServer の `WPS "
+"<http://www.opengeospatial.org/standards/wps>`__ "
+"インターフェイスを経由して呼び出すことが可能です。処理を連結することや、 WMS "
+"インターフェイスを経由して強力な可視化を行うためにレンダリングの変換を行うことも可能です。"
+
+#: ../../build/doc/overview/geoserver_overview.rst:67
+msgid "Implemented Standards"
+msgstr "準拠している標準規格"
+
+#: ../../build/doc/overview/geoserver_overview.rst:69
+msgid "Support of numerous Open Geospatial Consortium  (OGC) standards:"
+msgstr "多くの Open Geospatial Consortium (OGC) 標準をサポートしています:"
+
+#: ../../build/doc/overview/geoserver_overview.rst:73
+msgid "`WMS <http://www.opengeospatial.org/standards/wms>`__ (client/server)"
+msgstr "`WMS <http://www.opengeospatial.org/standards/wms>`__ (クライアント/サーバ)"
+
+#: ../../build/doc/overview/geoserver_overview.rst:74
+msgid "Web Map Tile Service (WMTS)"
+msgstr "Web Map Tile Service (WMTS)"
+
+#: ../../build/doc/overview/geoserver_overview.rst:75
+msgid ""
+"`WFS-T <http://www.opengeospatial.org/standards/wfs>`__ (transactional)"
+msgstr "`WFS-T <http://www.opengeospatial.org/standards/wfs>`__ (トランザクショナル)"
+
+#: ../../build/doc/overview/geoserver_overview.rst:76
+msgid "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
+msgstr "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
+
+#: ../../build/doc/overview/geoserver_overview.rst:77
+msgid "`FE <http://www.opengeospatial.org/standards/fe>`__"
+msgstr "`FE <http://www.opengeospatial.org/standards/fe>`__"
+
+#: ../../build/doc/overview/geoserver_overview.rst:78
+msgid "`SLD <http://www.opengeospatial.org/standards/sld>`__"
+msgstr "`SLD <http://www.opengeospatial.org/standards/sld>`__"
+
+#: ../../build/doc/overview/geoserver_overview.rst:79
+msgid "`GML <http://www.opengeospatial.org/standards/gml>`__"
+msgstr "`GML <http://www.opengeospatial.org/standards/gml>`__"
+
+#: ../../build/doc/overview/geoserver_overview.rst:80
+msgid "`KML <http://www.opengeospatial.org/standards/kml>`__"
+msgstr "`KML <http://www.opengeospatial.org/standards/kml>`__"
+
+#: ../../build/doc/overview/geoserver_overview.rst:83
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/geoserver_overview.rst:85
+msgid "**Website:** http://geoserver.org/"
+msgstr "**Webサイト:** http://geoserver.org/"
+
+#: ../../build/doc/overview/geoserver_overview.rst:87
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**ライセンス:** GNU General Public License (GPL) version 2"
+
+#: ../../build/doc/overview/geoserver_overview.rst:89
+msgid "**Software Version:** |version-geoserver|"
+msgstr "**ソフトウェアバージョン:** |version-geoserver|"
+
+#: ../../build/doc/overview/geoserver_overview.rst:91
+msgid ""
+"**Supported Platforms:** Java 8 (Oracle JDK and OpenJDK) on Windows, Linux, "
+"and Mac"
+msgstr "**対応プラットフォーム:** Windows, Linux, Mac 上の Java 8 (Oracle JDK 及び OpenJDK)"
+
+#: ../../build/doc/overview/geoserver_overview.rst:93
+msgid "**API Interfaces:** WMS, WFS, WCS, REST"
+msgstr "**API インターフェイス:** WMS, WFS, WCS, REST"
+
+#: ../../build/doc/overview/geoserver_overview.rst:95
+msgid "**Support:** http://geoserver.org/support/"
+msgstr "**サポート:** http://geoserver.org/support/"
+
+#: ../../build/doc/overview/geoserver_overview.rst:99
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/geoserver_overview.rst:101
+msgid ":doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/geoserver_quickstart>`"
