@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2019-08-06 12:41-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "Running"
 msgstr ""
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:24
-msgid "Prior to running this quick start you should start TileStache. On the live dvd this can be found under **Geospatial\\\\Spatial Tools\\\\Start Mapnik & TileStache**. This will provide background tiles that will be used in this demo."
+msgid "Prior to running this quick start you should start TileStache. On OSGeoLive this can be found under **Geospatial\\\\Spatial Tools\\\\Start Mapnik & TileStache**. This will provide background tiles that will be used in this demo."
 msgstr ""
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:27
@@ -37,7 +37,7 @@ msgid "View the example_"
 msgstr ""
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:29
-msgid "If you are reading this quickstart outside the live dvd you may prefer reading the original demo on: http://leafletjs.com/examples/quick-start/, since this demo uses tilestache on the live dvd."
+msgid "If you are reading this quickstart outside OSGeoLive you may prefer reading the original demo on: http://leafletjs.com/examples/quick-start/, since this demo uses tilestache on OSGeoLive."
 msgstr ""
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:32

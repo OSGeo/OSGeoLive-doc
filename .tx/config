@@ -787,3 +787,15 @@ source_file = locale/pot/overview/t-rex_overview.pot
 source_lang = en
 type = PO
 
+[osgeolive.quickstart--mapcache_quickstart]
+file_filter = locale/<lang>/LC_MESSAGES/quickstart/mapcache_quickstart.po
+source_file = locale/pot/quickstart/mapcache_quickstart.pot
+source_lang = en
+type = PO
+
+[osgeolive.overview--mapcache_overview]
+file_filter = locale/<lang>/LC_MESSAGES/overview/mapcache_overview.po
+source_file = locale/pot/overview/mapcache_overview.pot
+source_lang = en
+type = PO
+
