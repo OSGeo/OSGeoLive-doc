@@ -71,6 +71,7 @@ This tab lists all the metadata standards loaded in the catalog. The default sta
 - Dublin Core (for CSW only) (csw-record)
 - Dublin Core (dublin core)
 - Geographic information - Methodology for feature cataloguing (iso9110)
+
 For the purposes of this Quick Start Guide, select Geographic information - Metadata (iso19139) and then select the blue **Load samples for selected standards** button below the list.
 
 
