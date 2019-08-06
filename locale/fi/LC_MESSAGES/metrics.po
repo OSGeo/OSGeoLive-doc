@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: 2017-09-20 16:02+0000\n"
+"Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2018\n"
+"Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/metrics.rst:6
+msgid "|osgeolive-version| Project Metrics"
+msgstr "|osgeolive-version| Projektin Tiedot"
+
+#: ../../build/doc/metrics.rst:8
+msgid ""
+"Metrics provided by `OpenHUB <https://www.openhub.net/>`_ which are derived "
+"from the projects' code repositories. Note these metrics have known "
+"deficiencies (such as caused by repositories moving), and only provide "
+"partial indications about the projects' development. Lack of change in "
+"smaller, concise packages and libraries may simply reflect a level of "
+"maturity and completeness."
+msgstr ""
+"`OpenHUB <https://www.openhub.net/>`_  tuottamaa tietoa , jotka on peräisin "
+"eri projektien koodivarastoista. Huomaa, että näillä tiedoilla on havaittuja"
+" puutteita (kuten siirtyneiden  arkistojen aiheuttamia), ja ne tarjoavat "
+"vain osittaisia tietoja hankkeiden kehityksestä. Pienien, tiivistettyjen "
+"pakettien ja kirjastojen muutoksien puute voi yksinkertaisesti kuvastaa "
+"kypsyyden tasoa ja täydellisyyttä."
+
+#: ../../build/doc/metrics.rst:14
+msgid ""
+"Viewing the metrics requires an Internet connection and Javascript to be "
+"enabled."
+msgstr ""
+"Katsoaksesi tietoja tarvitset verkkoyhteyden ja JavaSciptit "
+"mahdollistetuksi."
+
+#: ../../build/doc/metrics.rst:23
+msgid "Desktop GIS"
+msgstr "Työasema GIS"
+
+#: ../../build/doc/metrics.rst:36
+msgid "Browser Facing GIS"
+msgstr "Selain pohjainen GIS"
+
+#: ../../build/doc/metrics.rst:50
+msgid "Web Services"
+msgstr "Verkkopalvelut"
+
+#: ../../build/doc/metrics.rst:70
+msgid "Data Stores"
+msgstr "Tietovarastot"
+
+#: ../../build/doc/metrics.rst:81
+msgid "Navigation and Maps"
+msgstr "Navigointi ja kartat"
+
+#: ../../build/doc/metrics.rst:94
+msgid "Spatial Tools"
+msgstr "Paikkatietovälineet"
+
+#: ../../build/doc/metrics.rst:107
+msgid "Domain Specific GIS"
+msgstr "Erityisalan GIS"
+
+#: ../../build/doc/metrics.rst:115
+msgid "Data"
+msgstr "Tiedot"
+
+#: ../../build/doc/metrics.rst:126
+msgid "Geospatial Libraries"
+msgstr "Paikkatiedon kirjastot"

@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Santtu Pyykkönen, 2019
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: 2017-09-20 16:08+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/geoserver_overview.rst:19
+msgid "GeoServer"
+msgstr "GeoServer"
+
+#: ../../build/doc/overview/geoserver_overview.rst:22
+msgid "Web Service"
+msgstr "Verkkopalvelu"
+
+#: ../../build/doc/overview/geoserver_overview.rst:24
+msgid ""
+"GeoServer is a web server that allows you to serve maps and data from a "
+"variety of formats to standard clients such as web browsers and desktop GIS "
+"programs. Data is published via standards based interfaces, such as WMS, "
+"WFS, WCS, WPS, Tile Caching and more. GeoServer comes with a browser-based "
+"management interface and connects to multiple data sources at the back end."
+msgstr ""
+"GeoServer on verkkopalvelin, jonka avulla voit jakaa karttoja ja tietoja eri"
+" muodoissa eri sovelluksiin ja ohjelmiin, kuten web-selaimiin ja työasema "
+"GIS-ohjelmiin. Paikkatiedot julkaistaan OGC-standadien mukaisten "
+"rajapintaprotokollien, kuten WMS-, WFS-, WCS- ja WPS- avulla. GeoServeria "
+"voi käyttää sen selainpohjaisen käyttöliittymän avulla ja siihen voidaan "
+"yhdistää datoja laajasti eri tietoformaateista ja ohjelmistoista."
+
+#: ../../build/doc/overview/geoserver_overview.rst:37
+msgid "Core Features"
+msgstr "Päätoiminnallisuudet"
+
+#: ../../build/doc/overview/geoserver_overview.rst:44
+msgid "**Serve data from a variety of data stores:**"
+msgstr "* * Palvelee paikkatietoja useammasta tietovarannosta: **"
+
+#: ../../build/doc/overview/geoserver_overview.rst:41
+msgid "Vector"
+msgstr "Vektori"
+
+#: ../../build/doc/overview/geoserver_overview.rst:41
+msgid "Shapefiles, External WFS"
+msgstr "Shapefiles, ulkoinen WFS"
+
+#: ../../build/doc/overview/geoserver_overview.rst:42
+msgid "PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server"
+msgstr "PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server"
+
+#: ../../build/doc/overview/geoserver_overview.rst:44
+msgid "Raster"
+msgstr "Rasteri"
+
+#: ../../build/doc/overview/geoserver_overview.rst:44
+msgid ""
+"GeoTiff, JPG and PNG (with world file), image pyramid, GDAL formats, Image "
+"Mosaic, Oracle GeoRaster, NetCDF"
+msgstr ""
+"GeoTiff, JPG ja PNG (+ world-tiedosto), karttapyramidi, GDAL-formaatit, "
+"karttamosaiikki, Oracle GeoRaster, NetCDF"
+
+#: ../../build/doc/overview/geoserver_overview.rst:48
+msgid ""
+"**Data is served as safe and quick images using WMS and WMTS protocols:**"
+msgstr ""
+"** Data jaetaan tietoturvallisesti ja ketterästi WMS- ja WMTS-protokollia "
+"hyödyntäen: **"
+
+#: ../../build/doc/overview/geoserver_overview.rst:47
+msgid ""
+"As the data is served up as an image your data is completely safe and "
+"secure. Unless they redigitise your data there is no way to steal your data."
+" The appearance of each map layer can be controlled using the SLD standard "
+"which allows features to be coloured and labeled. By combining these rules "
+"with OGC Filters scale dependent styling can be implemented allowing more "
+"detail to be added as a user zooms in. Label collision management, grouping "
+"and priorities are also implemented."
+msgstr ""
+"Koska paikkatiedot jaetaan kuvina, datan jakaminen on turvallista "
+"GeoServerin käytössä. Tietojesi varastaminen on näin erittäin haasteellista."
+" Kartta-tasojen ulkoasua voidaan ohjata SLD-standardia hyödyntäen, mikä "
+"mahdollistaa värien ja nimiöiden käytön paikkatietojen  visualisoinnissa. "
+"Myös OGC-filtterien avulla voidaan tehdä mittakaavakohtaista paikkatietojen "
+"visualisointia ja siten antaa käyttäjälle mahdollisuus nähdä zoomatessaan "
+"enemmän ja enemmän tietoja kartalla. Nimiöiden välisten yhteentörmäysten "
+"hallinta, ryhmitykset ja priorisointi on myös mahdollista toimittaa. "
+
+#: ../../build/doc/overview/geoserver_overview.rst:52
+msgid "**Full vector data can be sent to a client using the WFS protocol:**"
+msgstr ""
+"** Vektoritietoja voidaan lähettää kokonaisuudessaan asiakasohjelmistoihin "
+"WFS-protokollaa hyödyntäen: **"
+
+#: ../../build/doc/overview/geoserver_overview.rst:51
+msgid ""
+"A WFS client can download vector data and use it for mapping, spatial "
+"analysis and other operations. Also if authorised the user can modify the "
+"data and send it back to the server to update the stored data using the "
+"WFS-T protocol. The data can be transmitted using GML (compressed) as well "
+"as other standard data formats like shapefile and json."
+msgstr ""
+"WFS-protokollaa lukevat paikkatieto-ohjelmistot ja -sovellukset voivat "
+"ladata ja käyttää vektoritietoja kartoituksen, spatiaalisten analyysien ja "
+"muiden paikkatieto-operaatioiden toteuttamiseen. WFS-T-protokollan avulla "
+"käyttäjät voivat myös muokata paikkatietoja palvelimella omien "
+"ohjelmistojensa avulla. Data voidaan siirtää palvelimelle hyödyntäen GML- "
+"(pakattu) ja muita yleisesti käytettyjä dataformaatteja, kuten shape- ja "
+"json-tiedostoformaatteja."
+
+#: ../../build/doc/overview/geoserver_overview.rst:55
+msgid "**Raster data values can be sent to a client using the WCS protocol:**"
+msgstr ""
+"* * Rasteriaineistot voidaan lähettää asiakkaalle WCS-protokollan avulla: * "
+"*"
+
+#: ../../build/doc/overview/geoserver_overview.rst:55
+msgid ""
+"A GIS client can request the actual raster data for use in spatial analysis."
+" This allows a user to create applications which can model the process "
+"described by your data."
+msgstr ""
+"GIS-client-ohjelmisto voi hakea varsinaiset rasteriaineistojen arvot "
+"käytettäväkseen paikkatietojen analysoinnissa. Näin voidaan luoda "
+"sovelluksia, jotka voivat hyödyntää paikkatietojasi kuvatulla tavalla."
+
+#: ../../build/doc/overview/geoserver_overview.rst:58
+msgid "**On the fly reprojection:**"
+msgstr "* * Lennossa uudelleenprojektio: * *"
+
+#: ../../build/doc/overview/geoserver_overview.rst:58
+msgid ""
+"GeoServer supports the majority of the EPSG database of projections and can "
+"reproject to any of them on demand to allow clients with limited "
+"reprojection support to pass the load to the server."
+msgstr ""
+"GeoServer tukee enemmistöä EPSG-tietokannan karttaprojektioista ja voi "
+"uudelleenprojektoida niihin lennossa, jotta rajallisen kapasiteetin omaavat "
+"käyttäjät voivat siirtää uudelleenprojektoinnista koituvan kuorman "
+"palvelimelle."
+
+#: ../../build/doc/overview/geoserver_overview.rst:61
+msgid "**Tiling Cache**"
+msgstr "* * Tiilitys-cache * *"
+
+#: ../../build/doc/overview/geoserver_overview.rst:61
+msgid ""
+"`GeoWebCache <http://geowebcache.org/>`_, which is integrated into "
+"GeoServer, tiles and caches map images from a variety of sources such as "
+"WMS. It implements various service interfaces (such as WMS-C, WMTS, TMS, "
+"Google Maps KML, Virtual Earth) in order to accelerate and optimize map "
+"image delivery. It can also recombine tiles to work with regular WMS "
+"clients."
+msgstr ""
+"GeoServeriin integroitu ' GeoWebCache <http: geowebcache.org/=\"\">' _, "
+"tiilittää ja vie välimuistiin karttakuvia useammasta lähteestä, kuten WMS. "
+"Se implementoi useampia palveluliittymiä (kuten WMS-C, WMTS, TMS, Google "
+"Maps KML, Virtual Earth), jotta karttakuvien palveleminen ja jakaminen olisi"
+" nopeampaa ja optimoitua. Se pystyy myös uudelleenjäsetämään karttatiilejä "
+"toimimaan normaalien WMS-client-ohjelmistojen kanssa.</http:>"
+
+#: ../../build/doc/overview/geoserver_overview.rst:64
+msgid "**Web Processing Service (WPS)**"
+msgstr "* * Verkkopohjainen palvelu (WPS) * *"
+
+#: ../../build/doc/overview/geoserver_overview.rst:64
+msgid ""
+"Geospatial algorithms, including those from :doc:`JTS <jts_overview>`, can "
+"be called through GeoServer's `WPS "
+"<http://www.opengeospatial.org/standards/wps>`__ interface. This includes "
+"the chaining of processes, and using rendering transformations to create "
+"powerful visualisations through the WMS interface."
+msgstr ""
+"Geospatiaaliset algoritmit, mukaan lukien :doc:`JTS <jts_overview>`, voidaan"
+" kutsua Geoserverin `WPS <http://www.opengeospatial.org/standards/wps>`__-"
+"protokollan avulla. Tämä sisältää prosessien ketjutuksen ja "
+"renderöintimunnokset, joiden avulla pystytään luomaan WMS-protokollaa "
+"hyödyntäviä vaikuttavia visualisointeja."
+
+#: ../../build/doc/overview/geoserver_overview.rst:67
+msgid "Implemented Standards"
+msgstr "Toteutetut standardit"
+
+#: ../../build/doc/overview/geoserver_overview.rst:69
+msgid "Support of numerous Open Geospatial Consortium  (OGC) standards:"
+msgstr ""
+"Usean Open Geospatial Consortium (OGC) -pohjaisten standardien tukeminen:"
+
+#: ../../build/doc/overview/geoserver_overview.rst:73
+msgid "`WMS <http://www.opengeospatial.org/standards/wms>`__ (client/server)"
+msgstr ""
+"`WMS <http://www.opengeospatial.org/standards/wms>`__ (asiakas/palvelin)"
+
+#: ../../build/doc/overview/geoserver_overview.rst:74
+msgid "Web Map Tile Service (WMTS)"
+msgstr "Web Map Tile Service (WMTS)"
+
+#: ../../build/doc/overview/geoserver_overview.rst:75
+msgid ""
+"`WFS-T <http://www.opengeospatial.org/standards/wfs>`__ (transactional)"
+msgstr ""
+"`WFS-T <http://www.opengeospatial.org/standards/wfs>`__ (transaktionaalinen)"
+
+#: ../../build/doc/overview/geoserver_overview.rst:76
+msgid "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
+msgstr "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
+
+#: ../../build/doc/overview/geoserver_overview.rst:77
+msgid "`FE <http://www.opengeospatial.org/standards/fe>`__"
+msgstr "`FE <http://www.opengeospatial.org/standards/fe>`__"
+
+#: ../../build/doc/overview/geoserver_overview.rst:78
+msgid "`SLD <http://www.opengeospatial.org/standards/sld>`__"
+msgstr "`SLD <http://www.opengeospatial.org/standards/sld>`__"
+
+#: ../../build/doc/overview/geoserver_overview.rst:79
+msgid "`GML <http://www.opengeospatial.org/standards/gml>`__"
+msgstr "`GML <http://www.opengeospatial.org/standards/gml>`__"
+
+#: ../../build/doc/overview/geoserver_overview.rst:80
+msgid "`KML <http://www.opengeospatial.org/standards/kml>`__"
+msgstr "`KML <http://www.opengeospatial.org/standards/kml>`__"
+
+#: ../../build/doc/overview/geoserver_overview.rst:83
+msgid "Details"
+msgstr "Lisätiedot"
+
+#: ../../build/doc/overview/geoserver_overview.rst:85
+msgid "**Website:** http://geoserver.org/"
+msgstr "* * Verkkosivusto: * * http://geoserver.org/"
+
+#: ../../build/doc/overview/geoserver_overview.rst:87
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "* * Lisenssi: * * GNU General Public License (GPL) versio 2"
+
+#: ../../build/doc/overview/geoserver_overview.rst:89
+msgid "**Software Version:** |version-geoserver|"
+msgstr "* * Ohjelmistoversio: * * | versio-Geoserver |"
+
+#: ../../build/doc/overview/geoserver_overview.rst:91
+msgid ""
+"**Supported Platforms:** Java 8 (Oracle JDK and OpenJDK) on Windows, Linux, "
+"and Mac"
+msgstr ""
+"* * Tuetut alustat: * * Java 8 (Oracle JDK ja OpenJDK) Windows, Linux ja Mac"
+
+#: ../../build/doc/overview/geoserver_overview.rst:93
+msgid "**API Interfaces:** WMS, WFS, WCS, REST"
+msgstr "* * API-liitännät: * * WMS, WFS, WCS, REST"
+
+#: ../../build/doc/overview/geoserver_overview.rst:95
+msgid "**Support:** http://geoserver.org/support/"
+msgstr "* * Tuki: * * http://geoserver.org/support/"
+
+#: ../../build/doc/overview/geoserver_overview.rst:99
+msgid "Quickstart"
+msgstr "Pika-aloitus"
+
+#: ../../build/doc/overview/geoserver_overview.rst:101
+msgid ":doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`"
+msgstr ""
+":d oC: ' Pika-aloitus <.. uickstart/geoserver_quickstart=\"\">-dokumentaatio"
+" '</..>"

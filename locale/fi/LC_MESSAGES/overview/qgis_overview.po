@@ -1,0 +1,253 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Santtu Pyykkönen, 2018
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: 2017-09-20 16:09+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/qgis_overview.rst:20
+msgid "QGIS"
+msgstr "QGIS"
+
+#: ../../build/doc/overview/qgis_overview.rst:23
+msgid "Desktop GIS"
+msgstr "Paikkatiedon työasemaohjelmisto"
+
+#: ../../build/doc/overview/qgis_overview.rst:25
+msgid ""
+"QGIS is a user friendly, Open Source, GIS client where you can visualize, "
+"manage, edit, analyse data, and compose printable maps. It includes powerful"
+" analytical functionality through integration with :doc:`GRASS "
+"<grass_overview>`, :doc:`SAGA <saga_overview>`, :doc:`Orfeo Toolbox "
+"<otb_overview>` , :doc:`GDAL/OGR <gdal_overview>` and many other algorithm "
+"providers. It runs on Linux, Unix, Mac OSX, and Windows and supports "
+"numerous vector, raster and database formats and functionality."
+msgstr ""
+"QGIS on käyttäjäystävällinen, avoimen lähdekoodiin pohjautuva paikkatieto-"
+"ohjelmisto, jonka avulla voit visualisoida, hallinnoida, editoida, "
+"analysoida ja tuottaa paikkaitietoja ja karttoja. QGIS on "
+"toiminnallisuuksiltaan rikas ja tehokas paikkatieto-ohjelmisto, johon on "
+"integroitu, :doc:`GRASS <grass_overview>` :doc:`SAGA <saga_overview>` "
+":doc:`Orfeo työkalupakki <otb_overview>` :doc:`GDAL/OGR <gdal_overview>` "
+"-ohjelmistot muiden ohjelmistokokonaisuuksien lisäksi. QGIS on "
+"käyttöjärjestelmäriippumaton ja se toimii Linux-, Unix-, Mac OSX - ja "
+"Windows-järjestelmissä. Se myös tukee lukuisia vektori-, rasteri- ja "
+"tietokanta-formaatteja ja näihin liittyviä toiminnallisuuksia."
+
+#: ../../build/doc/overview/qgis_overview.rst:36
+msgid "Core Features"
+msgstr "Päätoiminnallisuudet"
+
+#: ../../build/doc/overview/qgis_overview.rst:38
+msgid "Friendly graphical user interface:"
+msgstr "Käyttäjäystävällinen graafinen käyttöliittymä:"
+
+#: ../../build/doc/overview/qgis_overview.rst:40
+msgid "identify/select features"
+msgstr "tunnista/valitse kohteita"
+
+#: ../../build/doc/overview/qgis_overview.rst:41
+msgid "edit/view/search attributes"
+msgstr "muokkaa/visualisoi/etsi ominaisuustietoja"
+
+#: ../../build/doc/overview/qgis_overview.rst:42
+msgid "on the fly projection"
+msgstr "lennossa projektointi"
+
+#: ../../build/doc/overview/qgis_overview.rst:43
+msgid "print composer"
+msgstr "karttatulostetyökalu"
+
+#: ../../build/doc/overview/qgis_overview.rst:44
+msgid "feature labeling"
+msgstr "kohteiden nimiöinti"
+
+#: ../../build/doc/overview/qgis_overview.rst:45
+msgid "change vector and raster symbology"
+msgstr "vektori- ja rasteriaineistojen visualisoinnin muokkaus"
+
+#: ../../build/doc/overview/qgis_overview.rst:46
+msgid "add a graticule layer"
+msgstr "ruututason lisääminen"
+
+#: ../../build/doc/overview/qgis_overview.rst:47
+msgid "and more ..."
+msgstr "ja paljon muuta ..."
+
+#: ../../build/doc/overview/qgis_overview.rst:49
+msgid "Easy Viewing of many Vector and Raster Formats"
+msgstr ""
+"Lukuisten vektori- ja rasteri-tietoformaattien helppokäyttöinen katselu"
+
+#: ../../build/doc/overview/qgis_overview.rst:51
+msgid ""
+"database tables: PostgreSQL/PostGIS, Oracle Spatial, MS SQL Spatial, "
+"SpatiaLite"
+msgstr ""
+"tuetut tietokantaohjelmistot/-taulut: PostgreSQL/PostGIS, Oracle Spatial, MS"
+" SQL Spatial, SpatiaLite"
+
+#: ../../build/doc/overview/qgis_overview.rst:52
+msgid ""
+"most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML, "
+"OpenStreetMap vectors"
+msgstr ""
+"yleisimmät vektoriformaatit mukaanlukien ESRI shape-, MapInfo-, SDTS- ja "
+"GML- sekä OpenStreetMap-tiedostot "
+
+#: ../../build/doc/overview/qgis_overview.rst:53
+msgid ""
+"raster formats such as digital elevation models, aerial photography or "
+"landsat imagery"
+msgstr ""
+"rasteriformaatit kuten korkeusmallit, ilmakuvat tai Landsat-satelliittikuvat"
+
+#: ../../build/doc/overview/qgis_overview.rst:54
+msgid "GRASS locations and mapsets"
+msgstr "GRASS sijainti- ja paikkatietosarjat"
+
+#: ../../build/doc/overview/qgis_overview.rst:55
+msgid "online spatial data served as OGC-compliant WMS, WMTS, WFS or WCS"
+msgstr ""
+"Online-paikkatietojen jakaminen OGC-yhteensopivien WMS, WMTS, WFS tai WCS "
+"-standardien mukaisesti"
+
+#: ../../build/doc/overview/qgis_overview.rst:56
+msgid "2.5D rendering support"
+msgstr "2.5D visualisointien tuki"
+
+#: ../../build/doc/overview/qgis_overview.rst:58
+msgid "Create, edit and export spatial data using:"
+msgstr "Luo, muokkaa ja vie paikkaitietoja hyödyntäen:"
+
+#: ../../build/doc/overview/qgis_overview.rst:60
+msgid "digitizing tools for GRASS and shapefile formats"
+msgstr "digitoinnin työkalut GRASS- ja shape-tiedostoformaateille"
+
+#: ../../build/doc/overview/qgis_overview.rst:61
+msgid "the georeferencer plugin"
+msgstr "georeferoinnin lisäosa"
+
+#: ../../build/doc/overview/qgis_overview.rst:62
+msgid ""
+"GPS tools to import and export GPX format, convert other GPS formats to GPX,"
+" or down/upload directly to a GPS unit"
+msgstr ""
+"GPS-työkalut GPX-muotoisten paikkatietojen importoimiseen ja exportoimiseen,"
+" toisten GPS-formaattien konvertoimiseen tai tietojen "
+"lataamiseen/lähettämiseen suoraan GPS-laitteesta/laitteeseen"
+
+#: ../../build/doc/overview/qgis_overview.rst:64
+msgid ""
+"Perform spatial analysis using integrated support for SAGA, OTB, MMGIS and "
+"GRASS"
+msgstr ""
+"Suorita paikkatietoanalyyseja käyttäen ohjelmistoon integroituja "
+"rinnakkaisohjelmistoja, kuten SAGA, OTB, MMGIS ja GRASS"
+
+#: ../../build/doc/overview/qgis_overview.rst:66
+msgid "map algebra"
+msgstr "Paikkatieto-algebra"
+
+#: ../../build/doc/overview/qgis_overview.rst:67
+msgid "terrain analysis"
+msgstr "maastoanalyysi"
+
+#: ../../build/doc/overview/qgis_overview.rst:68
+msgid "hydrologic modeling"
+msgstr "hydrologinen mallinnus"
+
+#: ../../build/doc/overview/qgis_overview.rst:69
+msgid "network analysis"
+msgstr "verkostoanalyysi"
+
+#: ../../build/doc/overview/qgis_overview.rst:70
+msgid "comprehensive searchable toolbox of functions"
+msgstr ""
+"kokonaisvaltainen haettavissa olevien toiminnallisuuksien työkalupakki"
+
+#: ../../build/doc/overview/qgis_overview.rst:71
+msgid ""
+"define and run reusable analysis routines by chaining functions using a "
+"graphical modelling tool"
+msgstr ""
+"määritä ja aja uudelleenhyödynnettäviä analysoinnin työprosesseja "
+"ketjuttamalla toimintoja graafisen mallinnustyökalun avulla"
+
+#: ../../build/doc/overview/qgis_overview.rst:72
+msgid "and many others"
+msgstr "ja monet muut"
+
+#: ../../build/doc/overview/qgis_overview.rst:74
+msgid "Publish to the internet"
+msgstr "Julkaisu Internetiin"
+
+#: ../../build/doc/overview/qgis_overview.rst:75
+msgid "Extensible plugin architecture"
+msgstr "Laajennettava lisäosien arkkitehtuuri"
+
+#: ../../build/doc/overview/qgis_overview.rst:78
+msgid "Implemented Standards"
+msgstr "Toteutetut standardit"
+
+#: ../../build/doc/overview/qgis_overview.rst:80
+msgid "OGC standards compliant (WMS, WFS, ... )"
+msgstr "tuetut OGC-standardit (WMS, WFS...)"
+
+#: ../../build/doc/overview/qgis_overview.rst:83
+msgid "Details"
+msgstr "Lisätiedot."
+
+#: ../../build/doc/overview/qgis_overview.rst:85
+msgid "**Website:** http://www.qgis.org"
+msgstr "** Verkkosivut: ** http://www.qgis.org"
+
+#: ../../build/doc/overview/qgis_overview.rst:87
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "** Lisenssi: ** GNU General Public License (GPL) versio 2"
+
+#: ../../build/doc/overview/qgis_overview.rst:89
+msgid "**Software Version:** |version-qgis|"
+msgstr "** Ohjelmistoversio: ** | version qgis |"
+
+#: ../../build/doc/overview/qgis_overview.rst:91
+msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
+msgstr "** Tuetut käyttöjärjestelmät: ** Windows, Linux, Mac, Unix"
+
+#: ../../build/doc/overview/qgis_overview.rst:93
+msgid "**Community Support:** http://qgis.org/en/site/forusers/support.html"
+msgstr "** Yhteisötuki: ** http://qgis.org/en/site/forusers/support.html"
+
+#: ../../build/doc/overview/qgis_overview.rst:95
+msgid ""
+"**Commercial Support:** "
+"http://qgis.org/en/site/forusers/commercial_support.html"
+msgstr ""
+"** Kaupalliset tukipalvelut: ** "
+"http://qgis.org/en/site/forusers/commercial_support.html"
+
+#: ../../build/doc/overview/qgis_overview.rst:100
+msgid "Quickstart"
+msgstr "Lähtöohjeistus"
+
+#: ../../build/doc/overview/qgis_overview.rst:102
+msgid ":doc:`Quickstart documentation <../quickstart/qgis_quickstart>`"
+msgstr ""
+":doc:`Lähtöohjeistuksen dokumentaatio  <../quickstart/qgis_quickstart>`"

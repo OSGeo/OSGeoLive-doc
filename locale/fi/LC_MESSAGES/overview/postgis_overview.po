@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Santtu Pyykkönen, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: 2017-09-20 16:10+0000\n"
+"Last-Translator: Santtu Pyykkönen, 2019\n"
+"Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/postgis_overview.rst:37
+msgid "PostGIS"
+msgstr "PostGIS"
+
+#: ../../build/doc/overview/postgis_overview.rst:43
+msgid "Spatial Database"
+msgstr "Paikkatietokanta"
+
+#: ../../build/doc/overview/postgis_overview.rst:58
+msgid ""
+"PostGIS spatially enables the popular PostgreSQL object-relational database,"
+" allowing it to be used as a back-end database for geographic information "
+"systems (GIS) and web-mapping applications."
+msgstr ""
+"PostGIS:in avulla voidaan hyödyntää paikkatietoja suositussa PostgreSQL "
+"relaatiotietokanta-ohjelmassa. Näin PostGIS:ia voidaan käyttää "
+"paikkatietojärjestelmien (GIS-järjestelmät) ja web-karttasovelluksien "
+"tietokantana."
+
+#: ../../build/doc/overview/postgis_overview.rst:60
+msgid ""
+"PostGIS is stable, fast, standards compliant, with hundreds of spatial "
+"functions and is currently the most widely used Open Source spatial "
+"database. PostGIS is used by diverse organisations from around the world, "
+"including risk-averse government agencies and organisations storing "
+"terabytes of data serving millions of web requests per day."
+msgstr ""
+"Markkinoiden laajimmiten käytössä oleva avoimen lähdekoodin PostGIS on "
+"vakaa, suoritustehokas, standardien mukainen, satojen paikkatietofunktioiden"
+" paikkatietokanta. PostGIS:ia käytetään eri organisaatioiden toimesta eri "
+"puolilla maailmaa. Myös riskivarmat valtioiden virastot ja muut "
+"organisaatiot hallinnoivat PostGIS:issa useiden terabittien tai miljoonien "
+"sovelluksiin kohdistuvien verkkokyselyiden edestä paikkatietoja."
+
+#: ../../build/doc/overview/postgis_overview.rst:62
+msgid ""
+"Database administration is available for desktop and the web via pgAdmin, "
+"phpPgAdmin, and others. Data import/export can be done by command line tools"
+" (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) or from desktop and web GIS "
+"clients. These clients can also map and manipulate PostGIS spatial data "
+"tables."
+msgstr ""
+"Tietokannan hallinta voi tapahtua työpöytäohjelmistojen tai "
+"verkkosovellusten kuten pgAdmin ja phpPgAdmin avulla. Paikkatietojen tuonti "
+"ja vienti onnistuu komento-ohjelmistoja (shp2pgsql, pgsql2shp, ogr2ogr, "
+"dxf2postgis), työasemaohjelmistoja tai web-sovellukset hyödyntäen. Nämä "
+"ohjelmistot ja sovellukset pystyvät visualisoimaan ja manipuloimaan PostGIS-"
+"paikkatietokantatauluja."
+
+#: ../../build/doc/overview/postgis_overview.rst:81
+msgid "Core Features"
+msgstr "Päätoiminnallisuudet"
+
+#: ../../build/doc/overview/postgis_overview.rst:83
+msgid "Hundreds of spatial functions"
+msgstr "Satoja paikkatietofunktioita"
+
+#: ../../build/doc/overview/postgis_overview.rst:85
+msgid "Buffers, unions, overlays, distance and more"
+msgstr ""
+"Puskurit, yhdistämiset, päällekkäisyysanalyysit, etäisyydet ja paljon "
+"enemmän"
+
+#: ../../build/doc/overview/postgis_overview.rst:87
+msgid "ACID transactional integrity"
+msgstr "ACID-transaktionaalinen eheys"
+
+#: ../../build/doc/overview/postgis_overview.rst:88
+msgid "R-Tree spatial index"
+msgstr "R-Tree spatiaalinen indeksi"
+
+#: ../../build/doc/overview/postgis_overview.rst:89
+msgid "Multi-user support"
+msgstr "Usean käyttäjän tuki"
+
+#: ../../build/doc/overview/postgis_overview.rst:90
+msgid "Row-level locking"
+msgstr "Rivi tason lukitus"
+
+#: ../../build/doc/overview/postgis_overview.rst:91
+msgid "Replication"
+msgstr "Replikointi"
+
+#: ../../build/doc/overview/postgis_overview.rst:92
+msgid "Partitioning"
+msgstr "Osiointi"
+
+#: ../../build/doc/overview/postgis_overview.rst:93
+msgid "Role-based security"
+msgstr "Rooleille perustuva suojaus"
+
+#: ../../build/doc/overview/postgis_overview.rst:94
+msgid "Table-spaces, schemas"
+msgstr "Taulukko-tilat, skeemat"
+
+#: ../../build/doc/overview/postgis_overview.rst:97
+msgid "Implemented Standards"
+msgstr "Toteutetut standardit"
+
+#: ../../build/doc/overview/postgis_overview.rst:101
+msgid "OGC standards compliant (SFSQL)"
+msgstr "OGC-standardien mukainen (SFSQL)"
+
+#: ../../build/doc/overview/postgis_overview.rst:104
+msgid "Details"
+msgstr "Tiedot"
+
+#: ../../build/doc/overview/postgis_overview.rst:106
+msgid "**Website:** http://postgis.net"
+msgstr "** Verkkosivut: ** http://postgis.net"
+
+#: ../../build/doc/overview/postgis_overview.rst:108
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "** Lisenssi: ** GNU General Public License (GPL) versio 2"
+
+#: ../../build/doc/overview/postgis_overview.rst:110
+msgid "**Software Version:** |version-postgis|"
+msgstr "** Ohjelmistoversio: ** | versio-postgis |"
+
+#: ../../build/doc/overview/postgis_overview.rst:112
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "** Tuetut käyttöjärjestelmät: ** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/postgis_overview.rst:114
+msgid "**API Interfaces:** SQL"
+msgstr "** API-rajapinnat: ** SQL"
+
+#: ../../build/doc/overview/postgis_overview.rst:120
+msgid "**Support:** http://www.osgeo.org/search_profile"
+msgstr "** Tuki: ** http://www.osgeo.org/search_profile"
+
+#: ../../build/doc/overview/postgis_overview.rst:125
+msgid "Quickstart"
+msgstr "Lähtöohjeistus"
+
+#: ../../build/doc/overview/postgis_overview.rst:127
+msgid ":doc:`Quickstart documentation <../quickstart/postgis_quickstart>`"
+msgstr ""
+":d oC: ' Pika-aloituksen <.. "
+"uickstart/postgis_quickstart=\"\">-dokumentaatio '</..>"

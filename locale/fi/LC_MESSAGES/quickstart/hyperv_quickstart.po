@@ -1,0 +1,304 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: 2018-06-09 16:37+0000\n"
+"Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2018\n"
+"Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:8
+msgid "OSGeoLive Quickstart for Running in a Hyper-V Virtual Machine"
+msgstr "OSGeoLive pika-aloitus suoritukseen Hyper-V virtuaalikoneessa"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:10
+msgid ""
+"This Quick Start describes how to run OSGeoLive using Hyper-V, Microsoft's "
+"virtualisation software. For other methods, follow links from the \"See "
+"Also\" section below. Hyper-V is available on both Windows Server, and "
+"Windows 10 Professional - it is not part of Windows 10 Home."
+msgstr ""
+"Tämä pika-aloitus kuvailee kuinka suorittaa OSGeoLive käytettäessä Hyper-V, "
+"Microsoftinvirtualisointi ohjelmistoa. Tutustuaksesi muihin menetelmiin "
+"seuraa linkkejä \"Katso myös\" osiosta alempana. Hyper-V on saataville sekä "
+"Windows Serverille kuin Windows 10 Professional järjestelmille - se ei ole "
+"osa Windows 10 Home järjestelmää."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:13
+msgid ""
+"The advantages of using a virtual machine are the same as those outlined at "
+":doc:`virtualization_quickstart`. Unfortunately Virtual Box and Hyper-V "
+"cannot be run simultaneously. This leaves 2 options - disabling the Hyper-V "
+"feature, or configuring a new Hyper-V machine to run OSGeoLive. A free tool "
+"`hypervswitch <https://unclassified.software/en/apps/hypervswitch>`_ can be "
+"used to quickly enable and disable Hyper-V - however it still requires a "
+"reboot each time the setting is changed. The rest of this page documents how"
+" to configure OSGeoLive to run on Hyper-V."
+msgstr ""
+"Virtuaalikoneen käyttämisen edut ovat samat kuin ne, jotka on kuvattu "
+"kohdassa :doc:`virtualization_quickstart`. valitettavasti Virtual Boxia ja "
+"Hyper-V ei voi suorittaa saman aikaisesti.  Tämä - poistetaan jättää 2 "
+"vaihtoehtoa - Hyper-V ominaisuus, tai konfiguroidaan uusi Hyper-V kone "
+"suorittamaan OSGeoLiveä. Vapaata työkalua `hypervswitch "
+"<https://unclassified.software/en/apps/hypervswitch>`_ voidaan käyttää "
+"nopeasti ottamaan tai poistamaan Hyper-V käytöstä - se kuitenkin edellyttää "
+"tietokoneen uudelleen käynnistystä joka kerta kun asetuksia muutetaan. Loppu"
+" tästä sivusta dokumentoi kuinka konfiguroida OSGeolive suoritettavaksi "
+"Hyper-V:llä"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:19
+msgid "System Requirements"
+msgstr "Järjestelmävaatimukset"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:21
+msgid ""
+"Hyper-V requirements can be found `here <https://docs.microsoft.com/en-"
+"us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements>`_. This"
+" link also provides information on checking if your machine is compatible "
+"using the ``systeminfo`` command. In summary the host machine needs to have "
+"the following hardware requirements:"
+msgstr ""
+"Hyper-V vaatimukset voit löytää `täältä <https://docs.microsoft.com/en-"
+"us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements>`_. "
+"Tästä linkistä löydät myös tiedon tarkastamisesta onko koneesi yhteensopiva "
+"käyttäen ``systeminfo`` komentoa. Yhteenvedoksi koneesi tulee täyttää "
+"seuraavat laitteisto edellytykset:"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:25
+msgid "RAM: 4 GB minimum"
+msgstr "RAM: 4 GB vähintään"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:26
+msgid "64-bit Processor"
+msgstr "64-bit Prosessori"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:29
+msgid "Downloads and Virtual Machine Conversion"
+msgstr "Lataukset ja virtuaalikone konversiot"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:31
+msgid ""
+"Download the OSGeoLive VirtualBox virtual hard disk (vmdk) by following the "
+"links on `live.osgeo.org <http://live.osgeo.org/en/download.html>`_. Once "
+"downloaded unzip the downloaded file (using `7zip <http://www.7-zip.org>`_ "
+")."
+msgstr ""
+"Lataa OSGeoLive VirtualBox virtuaali kovalevy (vmdk) seuraamalla linkkejä "
+"osoitteessa `live.osgeo.org <http://live.osgeo.org/en/download.html>`_. Kun "
+"olet ladannut pura ladattu tiedosto (käyttäen `7zip <http://www.7-zip.org>`_"
+" )."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:34
+msgid ""
+"The virtual machine image format for Hyper-V differs from the VirtualBox "
+"download. The file therefore has to be converted from ``vmdk`` to ``vhdx``. "
+"There are currently two conversion options available."
+msgstr ""
+"Virtuaalikoneen imagen kuva eroaa Hyper-V:ssä ladatusta VirtualBoxin "
+"imagesta. Tiedosto on siksi konvertoitava  ``vmdk`` muodosta ``vhdx``. "
+"muotoon  On olemassa kaksi vaihtoehtoa konversioon."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:38
+msgid "StarWind V2V Converter"
+msgstr "StarWind V2V konvertoija"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:40
+msgid ""
+"Use the `StarWind V2V Converter "
+"<https://www.starwindsoftware.com/converter>`_ program. This has a simple "
+"user interface allowing you to select the ``osgeo-live-XX.X-vm.vmdk`` file "
+"and convert to a *Microsoft VHDX* image."
+msgstr ""
+"Käytä `StarWind V2V Converter <https://www.starwindsoftware.com/converter>`_"
+" ohjelmaa. Tällä on yksinkertainen käyttäjäliitäntä joka sallii Sinun valita"
+" ``osgeo-live-XX.X-vm.vmdk`` tiedoston ja konvertoida sen *Microsoft VHDX* "
+"imageksi."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:44
+msgid "Microsoft Virtual Machine Converter 3.0"
+msgstr "Microsoft Virtual Machine Converter 3.0"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:46
+msgid "The second more complicated option is as follows."
+msgstr "Toinen monimutkaisempi vaihtoehto on seuraava."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:48
+msgid ""
+"Download the `Microsoft Virtual Machine Converter 3.0 "
+"<https://www.microsoft.com/en-us/download/details.aspx?id=42497>`_ and "
+"install."
+msgstr ""
+"Lataa `Microsoft Virtual Machine Converter 3.0 <https://www.microsoft.com"
+"/en-us/download/details.aspx?id=42497>`_ ja asenna se."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:49
+msgid ""
+"Download the `DS File Ops Kit "
+"<http://members.ozemail.com.au/~nulifetv/freezip/freeware/dsfok.zip>`_ and "
+"unzip."
+msgstr ""
+"Lataa `DS File Ops Kit "
+"<http://members.ozemail.com.au/~nulifetv/freezip/freeware/dsfok.zip>`_ ja "
+"pura se."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:50
+msgid "Open PowerShell (with administrator rights)"
+msgstr "Avaa PowerShell (järjestelmänvalvojan oikeuksin)"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:51
+msgid ""
+"Run the following command to get the disk descriptor from the OSGeoLive "
+"vmdk. This saves the disk description to the \"descriptor1.txt\" file."
+msgstr ""
+"Suorita seuraava komento saadaksesi levyn kuvauksen OSGeoLive vmdk:sta. Tämä"
+" tallentaa levyn kuvauksen \"descriptor1.txt\" tiedostoon."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:58
+msgid ""
+"Open this in a text editor (such as Notepad) and comment out the following "
+"lines using hashes (this metadata is VirtualBox specific and is not "
+"recognised by the converter):"
+msgstr ""
+"Avaa tämä tiedosto tekstimuokkaimessa (kuten esimerkiksi Notepadissä) ja "
+"poista kommentteina seuraavat rivit käyttäen ristikkomerkkejä (tämä metadata"
+" on erityistä VirtualBoxille eikä konvertoija tunnista sitä):"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:68
+msgid ""
+"Run the following command to insert the disk descriptor back into the "
+"``vmdk`` file:"
+msgstr ""
+"Suorita seuraava komento tallettaaksesi levyn kuvauksen takaisin  ``vmdk`` "
+"tiedostoon:"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:76
+msgid ""
+"Failing to do the above steps will result in the error *\"ConvertTo-"
+"MvmcVirtualHardDisk : The entry 0247ca9d-f9aa-4910-9e8c-1c14d83a7749 is not "
+"a supported disk database entry for the descriptor.\"*"
+msgstr ""
+"Epäonnistuminen edellisten vaiheiden suorittamisessa aiheuttaa virheen "
+"*\"ConvertTo-MvmcVirtualHardDisk : The entry 0247ca9d-f9aa-4910-9e8c-"
+"1c14d83a7749 is not a supported disk database entry for the descriptor.\"*"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:79
+msgid "Finally run the conversion process:"
+msgstr "Lopuksi suorita konversio prosessi:"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:89
+msgid "How-To"
+msgstr "Kuinka teen"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:91
+msgid ""
+"This guide assumes Hyper-V is already installed and enabled - if this is not"
+" the case the more typical approach using Virtual Box outlined at "
+":doc:`virtualization_quickstart` can be used."
+msgstr ""
+"Tämä opas olettaa Hyper-V jo asennetuksi ja käytettäväksi - jos näin ei ole "
+"laita tyypillisempi lähestyminen on käyttää VirtualBoxia on kuvailtu "
+"dokumentissa  :doc:`virtualization_quickstart` ."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:94
+msgid "**Create a Virtual Machine**"
+msgstr "**Luo virtuaalikone**"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:96
+msgid ""
+"Start the Hyper-V Manager application and under Actions select New > Virtual"
+" Machine, and then Next. Then enter an appropriate name for the virtual "
+"machine."
+msgstr ""
+"Käynnistä Hyper-V Manager ohjelma ja Actions valinnasta valitse New -> "
+"Virtual Machine, ja sitten Next. Tämän jälkeen anna sopiva nimi "
+"virtuaalikoneelle,"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:101
+msgid "Select \"Generation 1\" from the Specify Generation options."
+msgstr "Valitse \"Generation 1\"  Specify Generation vaihtoehdoista."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:105
+msgid ""
+"When assigning memory, you can select \"Use Dynamic Memory for this virtual "
+"machine\"."
+msgstr ""
+"Määritettäessä muistia voit valita  \"Use Dynamic Memory for this virtual "
+"machine\"."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:106
+msgid ""
+"If you require the virtual machine to have Internet access you will need to "
+"set this up this up on the \"Configure Networking\" screen."
+msgstr ""
+"Jos virtuaalikoneesi tarvitsee Internet yhteyttä tulee Sinun asentaa se "
+"\"Configure Networking\" näytöllä."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:107
+msgid ""
+"On the \"Connect Virtual Hard Disk\", select \"Use an existing virtual hard "
+"disk\" and select the ``.vhdx`` file you unzipped earlier."
+msgstr ""
+"Valinnassa \"Connect Virtual Hard Disk\", valitse \"Use an existing virtual "
+"hard disk\" ja valitse ``.vhdx`` tiedosto jonka purit aiemmin."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:111
+msgid "**Running the Virtual Machine**"
+msgstr "**Virtuaalikoneen suorittaminen**"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:113
+msgid "Select the virtual machine from the Virtual Machines list"
+msgstr "Valitse virtuaalikone Virtual Machines listasta."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:114
+msgid ""
+"Right-click and select \"Connect\". You will be prompted to start the "
+"machine, and a new \"Virtual Machine Connection\" window will open."
+msgstr ""
+"Klikkaa oikealla ja valitse  \"Connect\".  Sinua kehotetaan käynnistämään "
+"kone ja uusi \"Virtual Machine Connection\"  ikkuna aukeaa."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:117
+msgid "See Also:"
+msgstr "Katso myös:"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:118
+msgid ":doc:`virtualization_quickstart`."
+msgstr ":doc:`virtualization_quickstart`."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:120
+msgid "OSGeo wiki pages:"
+msgstr "OSGeo wiki sivut:"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:120
+msgid ""
+"`Other ways to create a Virtual Machine "
+"<http://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
+msgstr ""
+"`Muita tapooja luoda virtuaalikone "
+"<http://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:122
+msgid ":doc:`osgeolive_quickstart`"
+msgstr ":doc:`osgeolive_quickstart`"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:123
+msgid ":doc:`osgeolive_install_quickstart`"
+msgstr ":doc:`osgeolive_install_quickstart`"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:124
+msgid ":doc:`usb_quickstart`"
+msgstr ":doc:`usb_quickstart`"

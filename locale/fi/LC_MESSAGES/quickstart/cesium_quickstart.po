@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Santtu Pyykkönen, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: 2017-09-20 16:04+0000\n"
+"Last-Translator: Santtu Pyykkönen, 2019\n"
+"Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:15
+msgid "Cesium Quickstart"
+msgstr "Cesium Pika-aloitus"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:16
+msgid ""
+"This document shows how to use the Cesium with the 3D (Globe), 2.5D "
+"(Columbus View) and 2D (map)."
+msgstr ""
+"Tässä dokumentissa kerrotaan, kuinka voit käyttää cesiumia 3D- (maapallo "
+"kokonaisuudessaan), 2.5D- (Columbus-näkymä) ja 2D (kartta) -ohjelmien "
+"kanssa."
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:19
+msgid "Starting Cesium"
+msgstr "Käynnistetään Cesium"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:21
+msgid ""
+"Open the browser and point it to "
+"http://localhost/cesium/Apps/HelloWorld.html"
+msgstr ""
+"Avaa selain ja anna sille osoitteeksi "
+"http://localhost/cesium/Apps/HelloWorld.html"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:24
+msgid "Searching for locations"
+msgstr "Sijaintien etsiminen"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:25
+msgid ""
+"You can click on the magnifying glass and type in the location you are "
+"looking for.  In the following display, we look for India."
+msgstr ""
+"Voit napsauttaa suurennuslasia ja kirjoittaa etsimäsi paikannimen siihen.  "
+"Seuraavassa näkymässä etsimme Intian."
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:32
+msgid "Switching between 3D, 2.5D and 2D"
+msgstr "3D-, 2.5 D-ja 2D-näkymien vaihtaminen"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:33
+msgid ""
+"You can click on the wire framed globe icon to select your preferred view.  "
+"Here the 2.5D Columbus view has been selected."
+msgstr ""
+"Voit napsauttaa ruudukoilla kehystettyjä maapallo-kuvakkeita valitaksesi "
+"haluamasi näkymän. Tässä on valittu 2.5D Columbus-näkymä."
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:39
+msgid "Now the 2D map is selected."
+msgstr "Nyt 2D-kartta on valittuna."
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:46
+msgid "Selecting the Image layer"
+msgstr "Kuvatason valitseminen"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:47
+msgid ""
+"We can click on the last icon and select the type of image service we want."
+"  Here the Natural Earth II is selected and you can see how the map's image "
+"layer has changed."
+msgstr ""
+"Voimme napsauttaa viimeistä kuvaketta ja valita haluamamme kuvapalvelun "
+"tyypin. Tässä Natural Earth II on valittuna ja voit nähdä, kuinka kartan "
+"kuvataso on vaihtunut."
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:56
+msgid "What Next?"
+msgstr "Mitä seuraavaksi?"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:57
+msgid ""
+"There are `video tutorials <https://www.youtube.com/playlist?list=PLBk_Dtk-"
+"_Tlm4STvXKFEdfUWylPemo-9V>`_."
+msgstr ""
+"Nähtävillä on `videotutoriaaleja <https: www.youtube.com/playlist?list"
+"=\"PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V\"> _.</https:>`"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:59
+msgid "Web based tutorials are `here <http://cesiumjs.org/tutorials.html>`_."
+msgstr ""
+"Web-pohjaiset ohjeistukset löytyvät `täältä <http: "
+"cesiumjs.org/tutorials.html=\"\"> _.</http:>`"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:61
+msgid ""
+"You can develop some quick applications using the Sandcastle website by "
+"following this `link "
+"<http://cesiumjs.org/Cesium/Apps/Sandcastle/index.html?src=Custom%20DataSource.html&label=Tutorials>`_."
+msgstr ""
+"Voit kehittää joitakin pika-sovelluksia käyttämällä Sandcastle-"
+"verkkosivustoa seuraamalla tätä `linkkiä <http: "
+"cesiumjs.org/cesium/apps/sandcastle/index.html?src=\"Custom%20DataSource.html&label=Tutorials\">.</http:>`"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:63
+msgid ""
+"In-depth documentation is available `locally <http://localhost/cesium/>`_."
+msgstr ""
+"Perusteellinen dokumentaatio on saatavilla `paikallisesti <http: "
+"localhost/cesium/=\"\">.</http:>`"
