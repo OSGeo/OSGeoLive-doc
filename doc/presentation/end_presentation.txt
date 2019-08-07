@@ -29,7 +29,7 @@
        =============== ================ ====================
        =============== ================ ====================
        OSGeo            UCD ICE          NTUA
-       |osgeo_logo|     |ucdice_logo|    |udig_logo|                              
+       |osgeo_logo|     |ucdice_logo|    |ntua_logo|
        DebianGIS        okeanos          Georepublic
        |debian_logo|    |okeanos_logo|   |georepublic_logo|
        =============== ================ ====================

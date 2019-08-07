@@ -82,19 +82,20 @@ OSGeoLive
             * Which all leads to Architects and Developers discovering, and then incorporating Open Source Geospatial software in their projects.
 
 
-    .. revealjs:: What is new in 12.0</h2>
+    .. revealjs:: What is new in 13.0</h2>
 
-        * Updated to Lubuntu 18.04 LTS
-        * Updated core packages based on DebianGIS
+        * Updated to Lubuntu 18.04.2 LTS
+        * Updated core packages based on `DebianGIS <href="https://wiki.debian.org/DebianGis">`__
+        * QGIS 3.4.10, GDAL 2.4.2, PROJ 5.2.0, PostGIS 2.5.2, GRASS 7.6.1, GeoServer 2.15.1, MapServer 7.4.1 and many more...
+        * New projects added: GeoExt 3.1, Actinia 0.2.1
         * Major documentation updates
-        * Translations done on Transifex
-        * Automated doc building
-        * Embraced OSGeo re-branding
-        * Added (geo)datascience packages
+        * OSM data for Bucharest
+        * Updated (geo)datascience packages and included many new Jupyter notebooks.
+        * Updated packages contributed back to `UbuntuGIS <href="https://wiki.ubuntu.com/UbuntuGIS">`__
         * Full `changelog <href="https://github.com/OSGeo/OSGeoLive/blob/master/CHANGES.txt">`__
 
         .. rv_note::
-            In OSGeoLive Version 12.0 we've improved our documentation and translation process, making it easier to maintain. We've also updated many existing applications and moved to the latest Lubuntu 18.04 Long Term Support release.
+            In OSGeoLive Version 13.0 we've updated our core packages to the latest stable, added 2 new OSGeo Community projects (GeoExt and Actinia), improved our documentation and translations. We've also updated many existing applications and moved to the latest Lubuntu 18.04.2 Long Term Support release.
 
 
 
