@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: 2017-09-20 16:05+0000\n"
+"Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2018\n"
+"Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:9
+msgid "OSGeoLive Quickstart"
+msgstr "OSGeoLive Pika-aloitus"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:11
+msgid "This Quick Start describes how to start OSGeoLive from a DVD or USB."
+msgstr ""
+"Tämä pika-aloitus kuvaa kuinka OSGeiLive käynnistetään käyttäen DV levykettä"
+" tai USB muistitikkua."
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:14
+msgid "System Requirements"
+msgstr "Järjestelmävaatimukset"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:16
+msgid "Your computer should have at least:"
+msgstr "Sinun tietokoneessasi tulee olla vähintään:"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:18
+msgid "RAM: 1 GB."
+msgstr "RAM: 1 GB."
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:19
+msgid "CPU: 1 GHz i686 or compatible (Intel/AMD)"
+msgstr "CPU: 1 GHz i686 tai yhteensopiva (Intel/AMD)"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:20
+msgid "Hard Disk:"
+msgstr "Kovalevy:"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:22
+msgid "None required if running directly from the DVD"
+msgstr "Ei ole tarpeellinen jos suoritat suoraan DVD levykkeeltä"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:23
+msgid "|osgeolive-hdspace| if you wish to install the operating system."
+msgstr "|osgeolive-hdspace| jos haluat asentaa käyttöjärjestelmän"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:25
+msgid "Mouse: a 3-button mouse is useful, especially for Mac trackpad users."
+msgstr ""
+"Hiiri: 3 näppäiminen hiiri on käyttökelpoinen, erityisesti Mac ohjauslevyn "
+"käyttäjille."
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:28
+msgid "Run:"
+msgstr "Suorita:"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:30
+msgid ""
+"Source an OSGeoLive DVD, ISO available from: [:doc:`Download <../download>`]"
+" Put the DVD into your computer's CD drive, then reboot your computer."
+msgstr ""
+"Lataa OSGeo-Live DVD:ltä \n"
+"[:doc:`Lataa kuva <../download>`] Polta kuva DVD-levylle ja aseta se tietokoneesi CD asemaan ja käynnistä tietokone uudelleen."
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:33
+msgid ""
+"If your computer is set to boot from CD (as is often the case) you should "
+"boot up into a Lubuntu system, with Geospatial applications installed. "
+"Otherwise you'll have to adjust the BIOS boot settings or press the boot "
+"menu button just after powering-up."
+msgstr ""
+"Jos tietokoneesi on asetettu käynnistymään CD:ltä (kuten usein on tila) "
+"käynnistyy Sinulle Lubuntu järjestelmä johon paikkatietosovellukset on "
+"asennettu. Muussa tapauksessa Sinun tulee sovittaa BIOSin "
+"käynnistysasetukset tai Sinun on painettava käynnistysvalikon näppäintä heti"
+" koneen käynnistyttyä."
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:42
+msgid "Sit back while the system boots up."
+msgstr "Odota hetki kun järjestelmä käynnistyy."
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:48
+msgid "Try the many applications from the :menuselection:`Geospatial` menu."
+msgstr "Testaa useita sovelluksia :menuselection:`Paikkatieto` valikosta."
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:51
+msgid "See Also:"
+msgstr "Katso myös:"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
+msgid ""
+"Getting started with Lubuntu and the LXDE desktop (which is used by "
+"OSGeoLive):"
+msgstr "Kuinka aloitetaan Lubuntu ja LXDE työpöytä (OSGeoLive käyttää sitä):"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
+msgid ""
+"https://help.ubuntu.com/community/Lubuntu/Documentation and "
+"http://wiki.lxde.org"
+msgstr ""
+"https://help.ubuntu.com/community/Lubuntu/Documentation and "
+"http://wiki.lxde.org"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:56
+msgid "Getting started with the Ubuntu operating system:"
+msgstr "Kuinka käynnistän Ubuntu käyttöjärjestelmän:"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:57
+msgid ""
+"`local eBook "
+"<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and "
+"`extended online help <http://help.ubuntu.com/14.04/>`_"
+msgstr ""
+"`paikallinen eBook "
+"<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ ja "
+"`laajennettu online tuki <http://help.ubuntu.com/14.04/>`_"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:58
+msgid ":doc:`virtualization_quickstart`"
+msgstr ":doc:`virtualization_quickstart`"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:59
+msgid ":doc:`osgeolive_install_quickstart`"
+msgstr ":doc:`osgeolive_install_quickstart`"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:60
+msgid ":doc:`usb_quickstart`"
+msgstr ":doc:`usb_quickstart`"
