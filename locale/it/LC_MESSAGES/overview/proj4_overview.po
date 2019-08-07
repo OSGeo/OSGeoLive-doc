@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# pibinko <pibinko@gmail.com>, 2018
+# Luca Delucchi <lucadeluge@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-17 12:38-0500\n"
+"PO-Revision-Date: 2017-09-20 16:10+0000\n"
+"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/proj4_overview.rst:16
+msgid "Proj.4"
+msgstr "Proj.4"
+
+#: ../../build/doc/overview/proj4_overview.rst:24
+msgid ""
+"Proj4 is used in :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS "
+"<grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik "
+"<mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation and "
+"various others."
+msgstr ""
+"Proj4 viene usato in :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS "
+"<grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik "
+"<mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation e "
+"varie trasformazioni."
+
+#: ../../build/doc/overview/proj4_overview.rst:26
+msgid ""
+"Proj4 has been translated from C to `other languages "
+"<http://trac.osgeo.org/metacrs/wiki>`.  These sub-projects include: These "
+"tools include: * Proj4js (JavaScript) - used in :doc:`OpenLayers "
+"<openlayers_overview>`. * CS-Map (C++) - used in MapGuide. * "
+"GeoTIFF/libgeotiff (C++). * Proj4J (Java). * `SpatialReference.org "
+"<http://spatialreference.org/>`_  - website to retrieve coordinate system "
+"definitions (obsolete)."
+msgstr ""
+"Proj4  è stato tradotto dal C in `altri linguaggi "
+"<http://trac.osgeo.org/metacrs/wiki>`.  Questi sottoprogetti includono:  * "
+"Proj4js (JavaScript) - usato in :doc:`OpenLayers <openlayers_overview>`. * "
+"CS-Map (C++) - usato in MapGuide. * GeoTIFF/libgeotiff (C++). * Proj4J "
+"(Java). * Il sito `SpatialReference.org <http://spatialreference.org/>`_  - "
+"per reperire definizioni dei sistemi di coordinate (obsoleto)."
+
+#: ../../build/doc/overview/proj4_overview.rst:41
+msgid "Core Features"
+msgstr "Caratteristiche principali"
+
+#: ../../build/doc/overview/proj4_overview.rst:43
+msgid ""
+"Provides point transformation from one coordinate reference system to "
+"another."
+msgstr ""
+"Fornisce trasformazioni di punti da un sistema di coordinate di riferimento "
+"a un altro."
+
+#: ../../build/doc/overview/proj4_overview.rst:44
+msgid "Includes transformation between datums."
+msgstr "Include trasformazione tra datum."
+
+#: ../../build/doc/overview/proj4_overview.rst:45
+msgid "Large number of projection classes supported."
+msgstr "Supporto per un gran numero di classi di proiezioni."
+
+#: ../../build/doc/overview/proj4_overview.rst:49
+msgid "Implemented Standards"
+msgstr "Standard implementati"
+
+#: ../../build/doc/overview/proj4_overview.rst:51
+msgid ""
+"Proj4 uses coordinate system definitions defined by the `European Petroleum "
+"Survey Group (EPSG) <http://www.epsg.org/>`. Well Known Text (WKT) format."
+msgstr ""
+"Proj4 use le definizioni del sistema di coordinate forniti dall'`European "
+"Petroleum Survey Group (EPSG) <http://www.epsg.org/>`. Formato Well Known "
+"Text (WKT)."
+
+#: ../../build/doc/overview/proj4_overview.rst:57
+msgid "Details"
+msgstr "Dettagli"
+
+#: ../../build/doc/overview/proj4_overview.rst:59
+msgid "**Website:**  http://proj4.org/"
+msgstr "**Sito web:**  http://proj4.org/"
+
+#: ../../build/doc/overview/proj4_overview.rst:61
+msgid ""
+"**Licence:** `X/MIT style Open Source license "
+"<http://trac.osgeo.org/proj/wiki/WikiStart#License>`_"
+msgstr ""
+"**Licenza:** `Licenza Open Source sullo stile di X/MIT "
+"<http://trac.osgeo.org/proj/wiki/WikiStart#License>`_"
+
+#: ../../build/doc/overview/proj4_overview.rst:63
+msgid "**Software Version:** 4.9.2 (stable)"
+msgstr "**Versioni dei Software:** 4.9.2 (stable)"
+
+#: ../../build/doc/overview/proj4_overview.rst:65
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Piattaforme Supportate:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/proj4_overview.rst:67
+msgid "**API Interfaces:** C, C++, Python, Java, Ruby"
+msgstr "**Interfacce API:** C, C++, Python, Java, Ruby"
+
+#: ../../build/doc/overview/proj4_overview.rst:69
+msgid "**Support:** http://lists.maptools.org/mailman/listinfo/proj"
+msgstr "**Supporto:** http://lists.maptools.org/mailman/listinfo/proj"
+
+#: ../../build/doc/overview/proj4_overview.rst:73
+msgid "Quickstart"
+msgstr "Guida rapida"
+
+#: ../../build/doc/overview/proj4_overview.rst:75
+msgid ":doc:`Quickstart documentation <../quickstart/proj4_quickstart>`"
+msgstr ":doc:`Documentazione introduttiva <../quickstart/proj4_quickstart>`"

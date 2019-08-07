@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Stefano Campus <skampus@gmail.com>, 2017
+# Luca Delucchi <lucadeluge@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-11-07 03:17+0000\n"
+"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/download.rst:7
+msgid "Download"
+msgstr "Scaricamento"
+
+#: ../../build/doc/download.rst:9
+msgid ""
+"The latest stable release is |osgeolive-version| and can be downloaded from:"
+msgstr ""
+"L'ultima versione stabile di |osgeolive-version| e può essere scaricata da:"
+
+#: ../../build/doc/download.rst:11
+msgid "https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version|/"
+msgstr ""
+"https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version|/"
+
+#: ../../build/doc/download.rst:14
+msgid "Picking the right image for you:"
+msgstr "Scegli l'immagine giusta per te:"
+
+#: ../../build/doc/download.rst:16
+msgid "**osgeolive iso**: |osgeolive-iso-size|"
+msgstr "**osgeolive iso**: |osgeolive-iso-size|"
+
+#: ../../build/doc/download.rst:18
+msgid ""
+"A Lubuntu based bootable image, which can be copied to an 8 Gig USB thumb "
+"drive (faster and recommended) or DVD (cheaper). It can also be used to "
+"build a virtual machine from scratch."
+msgstr ""
+"Un DVD bootable basato su Lubuntu, che può essere copiato in una dispositivo"
+" USB da 8GB (più veloce e raccomandato) o DVD (più economico). Può essere "
+"usata per costruire una macchina virtuale dall'inizio."
+
+#: ../../build/doc/download.rst:20
+msgid "**osgeolive-vm**: |osgeolive-vm-7z-size|"
+msgstr "**osgeolive-vm**: |osgeolive-vm-7z-size|"
+
+#: ../../build/doc/download.rst:22
+msgid ""
+"This is a pre-made virtual machine (.vmdk), based on osgeolive, suitable for"
+" use in VirtualBox, VMWare, KVM and other virtual machine applications. It "
+"has been compressed using `7-Zip <http://www.7-zip.org/>`_."
+msgstr ""
+"Questa è una macchina virtuale pre configurata (.vmdk), basata su osgeolive,"
+" da utilizzare in VirtualBox, VMWare, KVM e altri software per macchine "
+"virtuali. È compresso utilizzando `7-Zip <http://www.7-zip.org/>`_."
+
+#: ../../build/doc/download.rst:24
+msgid "**amd64 or i386 architecture**"
+msgstr "**architettura amd64 o i386**"
+
+#: ../../build/doc/download.rst:26
+msgid ""
+"ISO images are available for recent amd64 hardware (recommended) as well as "
+"older i386 hardware."
+msgstr ""
+"Immagini ISO sono disponibili per hardware recente amd64 (raccomandato) così"
+" come su hardware vecchio i386."
+
+#: ../../build/doc/download.rst:28
+msgid "**md5 checksum**"
+msgstr "**md5 checksum**"
+
+#: ../../build/doc/download.rst:30
+msgid ""
+"You can use the md5 checksum to verify the image downloaded successfully."
+msgstr "Si può verificare il corretto scaricamento con questo md5sum file."
+
+#: ../../build/doc/download.rst:32
+msgid "**System Requirements**"
+msgstr "**Requisiti di sistema**"
+
+#: ../../build/doc/download.rst:34
+msgid ""
+"`Minimum suggested system resources: 1 GB RAM (2 GB are better for trying "
+"Java based applications), 1GHz i386 or amd64 compatible CPU. No hard drive "
+"required. Mac users will benefit from a 3-button USB mouse.`"
+msgstr ""
+"`Risorse di sistema minime suggerite: 1 GB RAM (2 GB è meglio per testare le"
+" applicazioni basate su Java), CPU compatibile con 1 GHz i386 o amd64 CPU "
+"compatibile. Nessun hard disk richiesto. Gli utenti Mac avranno benefici da "
+"un mouse USB con 3 pulsanti.`"

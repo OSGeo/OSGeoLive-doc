@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Stefano Campus <skampus@gmail.com>, 2017
+# Luca Delucchi <lucadeluge@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"PO-Revision-Date: 2017-09-20 16:11+0000\n"
+"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/istsos_overview.rst:17
+msgid "istSOS"
+msgstr "istSOS"
+
+#: ../../build/doc/overview/istsos_overview.rst:20
+msgid "Data Management Tool"
+msgstr "Strumento di gestione dei dati"
+
+#: ../../build/doc/overview/istsos_overview.rst:22
+msgid ""
+"istSOS is sensor data management tool that allows collection, maintenance "
+"and publishing of monitoring observations using the Open Geospatial "
+"Consortium (OGC) `Sensor Observation Service (SOS) "
+"<http://www.opengeospatial.org/standards/sos>`__ standard."
+msgstr ""
+"istSOS è uno strumento di gestione dei dati di sensori che permette la "
+"raccolta, gestione e pubblicazione di osservazione di monitoraggio "
+"utilizzando lo standard `Sensor Observation Service (SOS) "
+"<http://www.opengeospatial.org/standards/sos>` dell'Open Geospatial "
+"Consortium (OGC)."
+
+#: ../../build/doc/overview/istsos_overview.rst:26
+msgid ""
+"istSOS strictly implements the SOS 1.0.0 standard, and has passed the OGC "
+"CITE (Compliance + Interopability Testing + Evaluation) units tests."
+msgstr ""
+"istSOS implementa rigorosamente lo standard SOS 1.0.0 ed ha superato i test "
+"OGC CITE (Compliance + Interopability Testing + Evaluation)."
+
+#: ../../build/doc/overview/istsos_overview.rst:35
+msgid "Core Features"
+msgstr "Caratteristiche principali"
+
+#: ../../build/doc/overview/istsos_overview.rst:37
+msgid ""
+"Publish sensor data in accordance with the Sensor Observation Service (SOS) "
+"standard."
+msgstr ""
+"Pubblica dati di sensori in accordo con lo standard  Sensor Observation "
+"Service (SOS)."
+
+#: ../../build/doc/overview/istsos_overview.rst:38
+msgid "Administer sensors and data with an intuitive web-based interface."
+msgstr "Amministra sensori e dati attraverso una interfaccia web intuitiva."
+
+#: ../../build/doc/overview/istsos_overview.rst:40
+msgid ""
+"Get notified through mail, twitter or other social media when sensor data "
+"meets specific conditions."
+msgstr ""
+"Ricevi notifiche via mail, twitter o altro social media quando i dati di un "
+"sensore raggiungono specifiche condizioni."
+
+#: ../../build/doc/overview/istsos_overview.rst:41
+msgid ""
+"User authentication and authorization with different access levels "
+"(administrator, network manager, data manager and visitor)."
+msgstr ""
+"Autenticazione ed autorizzazione dell'utente con differenti livelli di "
+"accesso (amministratore, gestore della rete, gestore dei dati e ospite)-"
+
+#: ../../build/doc/overview/istsos_overview.rst:43
+msgid ""
+"Associate quality indexes to each observation thanks to embedded validation "
+"tests."
+msgstr ""
+"Associa indici di qualità ad ogni osservazione grazie a test di validazione "
+"incorporati."
+
+#: ../../build/doc/overview/istsos_overview.rst:44
+msgid ""
+"Online editing of data with a seamless interface and advanced observation "
+"calculator."
+msgstr ""
+"Modifica online dei dati con un'interfaccia semplice e un calcolatore "
+"avanzato di osservazioni."
+
+#: ../../build/doc/overview/istsos_overview.rst:48
+msgid "Implemented Standards"
+msgstr "Standard implementati"
+
+#: ../../build/doc/overview/istsos_overview.rst:49
+msgid "SOS 1.0.0: Basic and Transactional profiles"
+msgstr "SOS 1.0.0: Profili di base e transazionali"
+
+#: ../../build/doc/overview/istsos_overview.rst:52
+msgid "Details"
+msgstr "Dettagli"
+
+#: ../../build/doc/overview/istsos_overview.rst:54
+msgid "**Website:** http://istsos.org"
+msgstr "**Sito web:** http://istsos.org"
+
+#: ../../build/doc/overview/istsos_overview.rst:56
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**Licenza:** GNU General Public License (GPL) version 2"
+
+#: ../../build/doc/overview/istsos_overview.rst:58
+msgid "**Software Version:** |version-istsos|"
+msgstr "**Versione del Software:** |version-istsos|"
+
+#: ../../build/doc/overview/istsos_overview.rst:60
+msgid "**Supported Platforms:** Linux, Unix, Mac, Windows"
+msgstr "**Piattaforme supportate:** Linux, Unix, Mac, Windows"
+
+#: ../../build/doc/overview/istsos_overview.rst:62
+msgid "**API Interfaces:** Python / wsgi"
+msgstr "**Interfacce API:** Python / wsgi"
+
+#: ../../build/doc/overview/istsos_overview.rst:64
+msgid "**Support:** https://groups.google.com/forum/#!forum/istsos"
+msgstr "**Supporto:** https://groups.google.com/forum/#!forum/istsos"
+
+#: ../../build/doc/overview/istsos_overview.rst:69
+msgid "Quickstart"
+msgstr "Guida rapida"
+
+#: ../../build/doc/overview/istsos_overview.rst:71
+msgid ":doc:`Quickstart documentation <../quickstart/istsos_quickstart>`"
+msgstr ":doc:`Documentazione introduttiva <../quickstart/istsos_quickstart>`"

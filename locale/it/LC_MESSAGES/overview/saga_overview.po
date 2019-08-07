@@ -1,0 +1,173 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# pibinko <pibinko@gmail.com>, 2018
+# Luca Delucchi <lucadeluge@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: 2017-09-20 16:10+0000\n"
+"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/saga_overview.rst:14
+msgid "SAGA"
+msgstr "SAGA"
+
+#: ../../build/doc/overview/saga_overview.rst:17
+msgid "Desktop GIS"
+msgstr "Desktop GIS"
+
+#: ../../build/doc/overview/saga_overview.rst:19
+msgid ""
+"SAGA (System for Automated Geoscientific Analyses) is an open source "
+"geographic information system (GIS) used for editing and analysing spatial "
+"data. It includes a large number of modules for the analysis of vector "
+"(point, line and polygon), table, grid and image data. Among others the "
+"package includes modules for geostatistics, image classification, "
+"projections, simulation of dynamic processes (hydrology, landscape "
+"development) and terrain analysis. The functionality can be accessed through"
+" a GUI, the command line or by using the C++ API."
+msgstr ""
+"SAGA (System for Automated Geoscientific Analyses) è un geographic "
+"information system (GIS) open source per l'elaborazione e l'analisi di dati "
+"territoriali. Comprende un gran numero di moduli per l'analisi di dati "
+"vettoriali (punti, linee e poligoni), tabellari, a griglia e immagini. Fra "
+"gli altri, il pacchetto include moduli per la geostatistica, la "
+"classificazione di immagini, le proiezioni, la simulazione di processi "
+"dinamici (idrologia, evoluzione del paesaggio) e analisi del terreno. Le "
+"varie funzioni sono accessibili tramite interfaccia grafica, linea di "
+"comando o usanto una API in C++."
+
+#: ../../build/doc/overview/saga_overview.rst:28
+msgid ""
+"SAGA has been in development since 2001, and the centre of SAGA development "
+"is located in the Institute of Geography at the University of Hamburg, with "
+"contributions from the growing world wide community."
+msgstr ""
+"SAGA è stato sviluppato a partire dal 2001, e il nucleo dello sviluppo di "
+"SAGA è presso l'istituto di geografia all'università di Amburgo, con "
+"contributi da una comunità crescente a livello mondiale."
+
+#: ../../build/doc/overview/saga_overview.rst:39
+msgid "Core Features"
+msgstr "Caratteristiche principali"
+
+#: ../../build/doc/overview/saga_overview.rst:41
+msgid ""
+"Access to a large number of scientific modules via the Graphical User "
+"Interface or the command line"
+msgstr ""
+"Accesso a un gran numero di moduli scientifici tramite interfaccia grafica o"
+" linea di comando"
+
+#: ../../build/doc/overview/saga_overview.rst:43
+msgid "Import/Export to different file formats"
+msgstr "Importazione ed esportazione in vari formati di file"
+
+#: ../../build/doc/overview/saga_overview.rst:44
+msgid "Reprojection/Resampling of data"
+msgstr "Riproiezione/ricampionamento di dati"
+
+#: ../../build/doc/overview/saga_overview.rst:45
+msgid "Manipulation of vector data (merging/intersection/attributes)"
+msgstr "Manipolazione di dati vettoriali (fusione/intersezione/attributi)"
+
+#: ../../build/doc/overview/saga_overview.rst:46
+msgid "Manipulation of point clouds from lidar data"
+msgstr "Manipolazione di nuvole di punti da dati LIDAR"
+
+#: ../../build/doc/overview/saga_overview.rst:47
+msgid "Raster data: interpolation, cost analysis, ..."
+msgstr "Dati raster: interpolazione, analisi di costo,..."
+
+#: ../../build/doc/overview/saga_overview.rst:48
+msgid ""
+"Image analysis: filters, edge detection, cluster analysis, segmentation"
+msgstr ""
+"Analisi di immagini: filtri, rilevamento dei contorni, analisi cluster, "
+"segmentazione"
+
+#: ../../build/doc/overview/saga_overview.rst:49
+msgid ""
+"Digital Terrain Analysis: generate geomorphometric indexes, channel "
+"networks, profiles, contour lines, ..."
+msgstr ""
+"Analisi di modelli digitali del terreno: generazione di indici "
+"geomorfometrici, reti, profili, curve di livello,..."
+
+#: ../../build/doc/overview/saga_overview.rst:50
+msgid "Geostatistics: modules for variogram fitting and kriging"
+msgstr "Geostatistica: moduli per adattamento di variogrammi e kriging"
+
+#: ../../build/doc/overview/saga_overview.rst:52
+msgid "Fast user interface for managing and visualising data"
+msgstr ""
+"Interfaccia utente veloce per la gestione e la visualizzazione dei dati"
+
+#: ../../build/doc/overview/saga_overview.rst:54
+msgid "3D visualisation"
+msgstr "Visualizzazione 3D"
+
+#: ../../build/doc/overview/saga_overview.rst:56
+msgid "Straightforward C++ API for creating new modules"
+msgstr "API in C++ molto semplice per la creazione di nuovi moduli"
+
+#: ../../build/doc/overview/saga_overview.rst:57
+msgid "Scripting through command line, bindings for Python"
+msgstr "Creazione di script con la linea di comando, binding per Python"
+
+#: ../../build/doc/overview/saga_overview.rst:58
+msgid ""
+"SAGA can be accessed from the R statistical language through the RSAGA "
+"module"
+msgstr ""
+"Si può accedere a SAGA dal linguaggio statistico R tramite il modulo RSAGA"
+
+#: ../../build/doc/overview/saga_overview.rst:61
+msgid "Details"
+msgstr "Dettagli"
+
+#: ../../build/doc/overview/saga_overview.rst:63
+msgid "**Website:** http://www.saga-gis.org"
+msgstr "**Sito web:** http://www.saga-gis.org"
+
+#: ../../build/doc/overview/saga_overview.rst:65
+msgid "**Licence:** LGPL v2.1 (api); GPLv2 (GUI and modules)"
+msgstr "**Licenza:** LGPL v2.1 (api); GPLv2 (interfaccia grafica e moduli)"
+
+#: ../../build/doc/overview/saga_overview.rst:67
+msgid "**Software Version:** |version-saga|"
+msgstr "**Versione Software:** |version-saga|"
+
+#: ../../build/doc/overview/saga_overview.rst:69
+msgid "**Supported Platforms:** Windows, Linux, FreeBSD"
+msgstr "**Piattaforme Supportate:** Windows, Linux, FreeBSD"
+
+#: ../../build/doc/overview/saga_overview.rst:71
+msgid "**API Interfaces:** C++, Python, R"
+msgstr "**Interfacce API:** C++, Python, R"
+
+#: ../../build/doc/overview/saga_overview.rst:73
+msgid "**Support:** http://www.saga-gis.org"
+msgstr "**Supporto:** http://www.saga-gis.org"
+
+#: ../../build/doc/overview/saga_overview.rst:78
+msgid "Quickstart"
+msgstr "Guida rapida"
+
+#: ../../build/doc/overview/saga_overview.rst:80
+msgid ":doc:`Quickstart documentation <../quickstart/saga_quickstart>`"
+msgstr ":doc:`Documentazione introduttiva <../quickstart/saga_quickstart>`"
