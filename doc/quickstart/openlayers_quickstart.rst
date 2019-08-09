@@ -76,7 +76,7 @@ Create a file in e.g. /home/user/ called basic-map.html , and copy the following
           <div id="map"></div>
 
           <!-- OpenLayers JS-->
-          <script src="http://localhost/openlayers/dist/ol-debug.js" type="text/javascript"></script>
+          <script src="http://localhost/openlayers/dist/ol.js" type="text/javascript"></script>
 
           <!-- App code -->
           <script>
