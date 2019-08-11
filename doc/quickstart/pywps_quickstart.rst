@@ -1,4 +1,3 @@
-<<<<<<< HEAD:doc/quickstart/pywps_quickstart.rst
 :Author: OSGeoLive
 :Author: Jachym Cepicky, Tom Kralidis
 :Author: Luís de Sousa
