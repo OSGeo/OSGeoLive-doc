@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Astrid Emde <astrid_emde@osgeo.org>, 2019
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: 2017-09-20 16:06+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:14
+msgid "libLAS Quickstart"
+msgstr "libLAS Quickstart"
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:21
+msgid "Processing"
+msgstr "Verarbeitung"
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:23
+msgid ""
+"The libLAS 'command-line utilities' provide the bulk of user-facing "
+"operational software for libLAS, although the underlying libLAS library is "
+"what powers them.  Below is a listing of common operations that you might "
+"want to do on LAS data, and the utilities and approaches to take to complete"
+" those tasks. The demo data can be found in "
+":file:`/home/user/data/las/srs.las`"
+msgstr ""
+"Die libLAS kommandozeilenbasierten Dienstprogramme stellen den Großteil der "
+"benutzerorientierten Betriebssoftware für libLAS bereit, obwohl die zugrunde"
+" liegende libLAS-Bibliothek die Stärke beinhaltet. Im Folgenden finden Sie "
+"eine Liste der allgemeinen Vorgänge, die Sie möglicherweise für LAS-Daten "
+"ausführen möchten, sowie die Dienstprogramme und Ansätze, die Sie zum "
+"Ausführen dieser Aufgaben ausführen müssen. Die Demodaten finden Sie unter "
+":file:'/home/user/data/las/srs.las'"
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:30
+msgid "Reprojecting an LAS file"
+msgstr "Reprojektion einer LAS-Datei"
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:32
+msgid ""
+"All LAS data are in some sort of coordinate system, even if that coordinate "
+"system is not described in the LAS file.  For terrestrial LAS data, these "
+"coordinate system descriptions often map to coordinate systems described by "
+"the `EPSG`_ database.  Another source of information about coordinate "
+"systems in http://spatialreference.org."
+msgstr ""
+"Alle LAS-Daten befinden sich in einer Art Koordinatensystem, auch wenn "
+"dieses Koordinatensystem nicht in der LAS-Datei beschrieben ist.  Bei "
+"terrestrischen LAS-Daten werden diese Koordinatensystembeschreibungen häufig"
+" den Koordinatensystemen zugeordnet, die von der Datenbank `EPSG`_ "
+"beschrieben werden.  Eine weitere Informationsquelle über Koordinatensysteme"
+" in http://spatialreference.org."
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:45
+msgid ""
+"The --no-check option tells lasinfo to only print the header information for"
+" the file and to not scan through all of the points.  For a 10 point file, "
+"this of course isn't much of a concern, but with a 50 or 500 million point "
+"file, it isn't worth waiting for a full scan of the data if all you want is "
+"header information."
+msgstr ""
+"Die Option --no-check weist lasinfo an, nur die Kopfzeileninformationen zur "
+"Datei zu drucken und nicht alle Punkte zu durchsuchen.  Für eine 10-Punkte-"
+"Datei ist dies natürlich kein großes Problem, aber bei einer 50- oder 500"
+"-Millionen-Punkt-Datei lohnt es sich nicht, auf einen vollständigen Scan der"
+" Daten zu warten, wenn Sie nur Header-Informationen benötigen."
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:51
+msgid ""
+"Our 'lasinfo' invocation tells us that the ``srs.las`` file is in a UTM "
+"North Zone 17 coordinate system:"
+msgstr ""
+"Unser \"lasinfo\"-Aufruf sagt uns, dass sich die Datei ''srs.las'' in einem "
+"UTM North Zone 17-Koordinatensystem befindet:"
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:75
+msgid ""
+"Now that we know our input coordinate system, we can make a decision about "
+"what to reproject the data to.  In our first example, we're going to use the"
+" venerable plate carrée non-coordinate system, `EPSG:4326`_."
+msgstr ""
+"Nun, da wir unser Eingabekoordinatensystem kennen, können wir eine "
+"Entscheidung darüber treffen, wohin die Daten reprojiziert werden sollen.  "
+"In unserem ersten Beispiel verwenden wir das ehrwürdige Platten-Carrée-"
+"Nicht-Koordinatensystem `EPSG:4326`_."
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:83
+msgid ""
+"Our process succeeds, but after a quick inspection of the data with "
+"``lasinfo output.las`` we see a problem:"
+msgstr ""
+"Unser Prozess war erfolgreich, aber nach einer schnellen Überprüfung der "
+"Daten mit ''lasinfo output.las'' sehen wir ein Problem:"
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:95
+msgid ""
+"The ``srs.las`` file had a scale of 0.01, or two decimal places of precision"
+" for its X, Y, and Z coordinates. For UTM data, this is ok, because it "
+"implies an implicit precision of 1 cm. For decimal degree data of the "
+"unprojected Plate Carrée coordinate system, it causes us to lose a bunch of "
+"precision. We need to set our scale values to something that can hold more "
+"precision in our case:"
+msgstr ""
+"Die Datei ''srs.las'' hatte eine Skala von 0,01 oder zwei Dezimalstellen der"
+" Genauigkeit für ihre X-, Y- und Z-Koordinaten. Für UTM-Daten ist dies in "
+"Ordnung, da dies eine implizite Genauigkeit von 1 cm impliziert. Bei "
+"Dezimalgraddaten des nicht projizierten Platten-Carrée-Koordinatensystems "
+"verlieren wir dadurch eine Reihe von Präzisionen. Wir müssen unsere "
+"Maßstabswerte auf etwas festlegen, das in unserem Fall präziser sein kann:"
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:106
+msgid ""
+"Another quick inspection with 'lasinfo' gives us something we're more "
+"comfortable with:"
+msgstr ""
+"Eine weitere schnelle Untersuchung mit 'lasinfo' gibt uns etwas, mit dem wir"
+" uns wohler fühlen:"
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:120
+msgid "Output LAS file to text"
+msgstr "Ausgabe der LAS-Datei als Text"

@@ -1,0 +1,328 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Astrid Emde <astrid_emde@osgeo.org>, 2019
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"PO-Revision-Date: 2017-09-20 16:04+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:18
+msgid "pycsw Quickstart"
+msgstr "pycsw Quickstart"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:25
+msgid "Running the tester application"
+msgstr "Nutzung der Test-Anwendung"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:27
+msgid ""
+"To run the pycsw tester, use the pycsw launcher from the Web Services group,"
+" or open Firefox and navigate to "
+"``http://localhost/pycsw/tests/index.html``:"
+msgstr ""
+"Zum Aufruf der  pycsw-Test-Anwendung gehen Sie über den Menüeintrag pycsw "
+"unter Web Services oder öffnen Sie die Seite "
+"``http://localhost/pycsw/tests/index.html`` mit Firefox:"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:32
+msgid ""
+"By selecting the left drop-down list, the user can see various predefined "
+"POST requests, encoded as XML, that can be sent to pycsw:"
+msgstr ""
+"Über die linke Auswahlbox stehen mehrere vordefinierte POST-Requests als XML"
+" zur Verfügung. Diese können an pycsw geschickt werden:"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:37
+msgid ""
+"For example, by selecting \"apiso/DescribeRecord\", and pushing the \"Send\""
+" button, a description of the ISO Application Profile record is presented on"
+" the right panel:"
+msgstr ""
+"So erscheint beispielsweise durch die Auswahl von  \"apiso/DescribeRecord\" "
+"und durch Absenden über den \"Send\"-Button eine Beschreibung des ISO "
+"Application Profile Datensatzes im rechten Bereich:"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:42
+msgid ""
+"By selecting \"GetCapabilities-SOAP\" and pushing the \"Send\" button, a "
+"SOAP request is sent to the server to advertise their web service "
+"capabilities:"
+msgstr ""
+"Über die Auswahl von \"GetCapabilities-SOAP\" und durch Absenden über den "
+"\"Send\"-Button wird ein SOAP-Request an den Server geschickt zur "
+"Veröffentlichung von deren Web Service Capabilities:"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:47
+msgid ""
+"Also, the user can search for data records, performing a spatial bounding "
+"box query, by selecting \"GetRecords-filter-bbox\" and editing the "
+"coordinates in the XML request:"
+msgstr ""
+"Der Anwender kann außderm nach Datensätzen suchen. Dabei kann eine "
+"räumlicher Filter über eine Boundingbox definiert werden, indem "
+"\"GetRecords-filter-bbox\" ausgewählt wird und die Koordinaten im XML-"
+"Request angepasst werden:"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:52
+msgid ""
+"The user can go through all the available requests and perform various "
+"requests from this testing application."
+msgstr "Der Anwender kann die zahlreichen verfügbaren Anfragen ausprobieren."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:55
+msgid "Capabilities Document and Configuration"
+msgstr "Capabilities-Dokument und Konfiguration"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:57
+msgid ""
+"The capabilities of the pycsw installation can be found at "
+"``http://localhost/pycsw?service=CSW&version=2.0.2&request=GetCapabilities``."
+" If you just use ``http://localhost/pycsw`` you will get the capabilities "
+"document for CSW 3.0.0, since that is the latest version supported."
+msgstr ""
+"Das Capabilities der pycsw-Installation findet sich unter  "
+"``http://localhost/pycsw?service=CSW&version=2.0.2&request=GetCapabilities``."
+" Wenn Sie lediglich ``http://localhost/pycsw`` aufrufen, erhalten Sie das "
+"Capabilities-Dokument für CSW 3.0.0, da dies die aktuellste unterstützte "
+"Version ist."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:59
+msgid ""
+"To edit the web service metadata, included in the capabilities document, the"
+" user can modify the file ``/etc/pycsw/default.cfg`` under the tag "
+"``[metadata:main]``."
+msgstr ""
+"Um Web Service Metadaten zu bearbeiten, die Teil des Capabilities Dokuments "
+"sind, kann der Anwender die Datei ``/etc/pycsw/default.cfg`` unter dem Tag "
+"``[metadata:main]`` bearbeiten."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:61
+msgid ""
+"If the user wants to enable INSPIRE Discovery Service support, the metadata "
+"under the tag ``[metadata:inspire]`` has to be filled in and the ``enabled``"
+" property has to be set to ``true``."
+msgstr ""
+"Wenn der Anwender INSPIRE Discovery Service Unterstützung aktivieren möchte,"
+" müssen die Metadaten unter dem Tag ``[metadata:inspire]`` gefüllt werden "
+"und der ``enabled`` Eintrag muss aktiviert werden."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:63
+msgid ""
+"For full functionality and configuration options, please consult the "
+"`documentation`_ on the pycsw website."
+msgstr ""
+"Zur Information über die volle Funktionalität und "
+"Konfigurationsmöglichkeiten, schauen Sie bitte in die `Dokumentation`_ auf "
+"der pycsw-Webseite."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:66
+msgid "Metadata Creation"
+msgstr "Erzeugen von Metadaten"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:68
+msgid ""
+"Metadata files for a spatial dataset or a spatial web service can be created"
+" through the open source implementation of inspire directive for metadata, "
+"European Open Source Metadata Editor (EUOSME). This application can be found"
+" at ``http://inspire-geoportal.ec.europa.eu/editor/``. Source code is "
+"available at ``https://joinup.ec.europa.eu/svn/euosme/trunk``"
+msgstr ""
+"Metadaten-Dateien für einen räumlichen Datensatz oder einen räumlichen  Web "
+"Service können über die Open Source Implementation der Inspire Directive for"
+" Metadata, European Open Source Metadata Editor (EUOSME) erzeugt werden. Die"
+" Anwendung ist erreichbar unter ``http://inspire-"
+"geoportal.ec.europa.eu/editor/``. Der Quellcode findet sich unter: "
+"``https://joinup.ec.europa.eu/svn/euosme/trunk``"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:70
+msgid ""
+"The user fills the mandatory metadata fields going through the application "
+"tabs, adding information like the name of the data owner, keywords, resource"
+" location on the web, geographic location (using a bounding box or the name "
+"of a country) etc."
+msgstr ""
+"Der Anwender füllt die Metadaten-Pflichtfelder über die Anwendungsreiter und"
+" fügt Informationen wie den Namen des Dateneigentümers, Schlüsselworte, "
+"Quelle im Web, räumliche Lage  (über eine BoundingBox oder den Ländernamen) "
+"etc. hinzu."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:84
+msgid "Loading Metadata"
+msgstr "Metadaten laden"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:87
+msgid "Metadata Repository Setup"
+msgstr "Metadaten-Repository"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:89
+msgid "pycsw supports the following databases:"
+msgstr "pycsw unterstützt die folgenden Datenbanken:"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:91
+msgid "SQLite3"
+msgstr "SQLite3"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:92
+msgid "PostgreSQL (PostGIS optional)"
+msgstr "PostgreSQL (PostGIS optional)"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:93
+msgid "MySQL"
+msgstr "MySQL"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:95
+msgid ""
+"In OSGeoLive, a simple SQLite setup has been implemented. The database can "
+"be found in ``/usr/share/pycsw/tests/suites/cite/data/records.db``"
+msgstr ""
+"OSGeoLive nutzt eine einfache SQLite-Datenbank. Diese findet sich unter "
+"``/usr/share/pycsw/tests/suites/cite/data/records.db``"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:98
+msgid "Create new database"
+msgstr "Erzeugen einer neuen Datenbank"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:100
+msgid "In order to create a new SQLite database we need to:"
+msgstr "Um eine neue SQLite-Datenbank zu erzeugen müssen wir:"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:102
+msgid "Edit ``/etc/pycsw/default.cfg``:"
+msgstr "Die Datei ``/etc/pycsw/default.cfg`` bearbeiten:"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:104
+msgid "**[repository]**"
+msgstr "**[repository]**"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:107
+msgid ""
+"**table**: the table name for metadata records (default is ``records``)"
+msgstr ""
+"**table**: Name der Tabelle für die Metadaten (Standard ist ``records``)"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:109
+msgid "Setup the database:"
+msgstr "Erzeugen der Datenbank:"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:115
+msgid "This will create the necessary tables and values for the repository."
+msgstr ""
+"Dies wird die notwendigen Tabellen und Werte für das Repository anlegen."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:117
+msgid ""
+"The database created is an `OGC SFSQL`_ compliant database, and can be used "
+"with any implementing software.  For example, to use with `OGR`_:"
+msgstr ""
+"Die erzeugte Datenbank folgt dem `OGC SFSQL`_ Standard und kann mit jeder "
+"Software, die diesen Standard unterstützt genutzt werden.  Zum Beispiel mit "
+"`OGR`_:"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:129
+msgid "Importing Metadata"
+msgstr "Import von Metadaten"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:135
+msgid ""
+"This will import all ``*.xml`` records from ``/path/to/records`` into the "
+"new database and configure the repository to expose queryables as per Table "
+"53 of OGC:CSW."
+msgstr ""
+"Dies wird alle  ``*.xml``-Datensätze unter dem Pfad ``/path/to/records`` in "
+"die neue Datenbank importieren und konfiguriert das Repository so, dass to "
+"expose queryables as per Table 53 of OGC:CSW."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:139
+msgid "Data Discovery through QGIS MetaSearch Plugin"
+msgstr "Daten entdecken über das QGIS MetaSearch-Plugin"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:141
+msgid ""
+"Start QGIS from the Desktop GIS group and click on the MetaSearch button "
+"(CSW icon)"
+msgstr ""
+"Starten Sie QGIS über die Desktop-GIS-Gruppe im Menü und klicken Sie auf den"
+" MetaSearch-Button (CSW-Symbol)"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:146
+msgid ""
+"Add the pycsw server by pressing the \"New\" button and type in "
+"``http://localhost/pycsw/``"
+msgstr ""
+"Fügen Sie den pycsw-Server über den \"New\"-Button hinzu und tragen Sie "
+"``http://localhost/pycsw/`` ein."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:151
+msgid ""
+"The user can add some default servers using the \"Add default servers\" "
+"button and also get the capabilities of the server using \"Server info\" "
+"button"
+msgstr ""
+"Der Anwender kann einige Standard-Server über den \"Add default "
+"servers\"-Button bestimmen und kann die Capabilities der Server über den "
+"\"Server info\"-Button erhalten."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:156
+msgid ""
+"Perform search using the catalogue, either by a string value or with a "
+"bounding box"
+msgstr ""
+"Führen Sie Suchen im Katalog entweder über Begriffe oder über die "
+"BoundingBox durch"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:163
+msgid "Things to try"
+msgstr "Was Sie noch ausprobieren können"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:165
+msgid ""
+"Try to discover data through the Tester application by setting the "
+"appropriate requests eg. any text search with the string \"imagery\" leads "
+"to discovering the xml data created previously by EUOSME"
+msgstr ""
+"Entdecken Sie die Daten über die Tester-Anwendung, indem Sie den den "
+"entsprechenden Request stellen, d.h. eine Suche mit dem Text \"imagery\"  "
+"ermöglicht das Entdecken der xml-Daten, die vorab über EUOSME erzeugt wurden"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:170
+msgid "Try to discover data through the Python `OWSLib CSW`_ interface."
+msgstr ""
+"Versuchen Sie Daten über das Python `OWSLib CSW`_ Interface  zu entdecken."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:172
+msgid ""
+"Try to discover data from GeoNode, which is also included in OSGeoLive and "
+"uses pycsw as the default CSW engine."
+msgstr ""
+"Versuchen Sie Daten von GeoNode, das ebenfalls auf OSGeoLive vorliegt und "
+"das pycsw als den Standard CSW nutzt, zu entdecken.."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:175
+msgid "What Next?"
+msgstr "Was kommt als Nächstes?"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:177
+msgid ""
+"For more information on pycsw, please consult the `documentation`_ on the "
+"pycsw website."
+msgstr ""
+"Zur Information über die volle Funktionalität und die "
+"Konfigurationsmöglichkeiten, schauen Sie bitte in die `Dokumentation`_ auf "
+"der pycsw-Webseite."

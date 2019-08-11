@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Astrid Emde <astrid_emde@osgeo.org>, 2019
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-17 10:25-0500\n"
+"PO-Revision-Date: 2017-09-20 16:03+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:18
+msgid "pgRouting Quickstart"
+msgstr "pgRouting Quickstart"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:20
+msgid ""
+"pgRouting is an extension that adds routing and other network analysis "
+"functionality to :doc:`PostGIS <../overview/postgis_overview>`/`PostgreSQL "
+"<http://www.postgresql.org>`_ databases."
+msgstr ""
+"pgRouting ist eine Erweiterung, die Routing und andere "
+"Netzwerkanalysefunktionen zu  :doc:`PostGIS "
+"<../overview/postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ "
+"Datenbanken hinzufügt."
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:22
+msgid ""
+"This Quick Start describes how to enable pgrouting in a PostgreSQL database,"
+" load data with osm2pgrouting, and run a basic shortest path query with the "
+"sample test data."
+msgstr ""
+"In diesem Quickstart wird beschrieben, wie Sie pgrouting in einer "
+"PostgreSQL-Datenbank aktivieren, Daten mit osm2pgrouting laden und eine "
+"grundlegende Abfrage mit dem kürzesten Pfad mit den Beispieltestdaten "
+"ausführen."
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:27
+msgid "Enabling pgRouting in a database"
+msgstr "Aktivieren von pgRouting in einer Datenbank"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:28
+msgid ""
+"In this example we will create a database called `city_routing` and enable "
+"pgRouting in the database."
+msgstr ""
+"In diesem Beispiel erstellen wir eine Datenbank mit dem Namen 'city_routing'"
+" und aktivieren pgRouting in der Datenbank."
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:30
+msgid ""
+"Open a :menuselection:`Applications --> Accessories --> Terminal` window and"
+" open up psql: (psql is the commandline tool packaged with PostgreSQL)"
+msgstr ""
+"Öffnen Sie ein :menuselection:'Anwendungen --> Zubehör --> Terminal'-Fenster"
+" und rufen Sie psql auf: (psql ist ein kommadozeilenbasierter "
+"Datenbankclient, der mit PostgreSQL geliefert wird)"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:36
+msgid "At psql prompt type:"
+msgstr "Rufen Sie über psql Folgendes auf:"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:46
+msgid ""
+"If you are running PostgreSQL 9.6+, you can skip the postgis line and do "
+":code:`CREATE EXTENSION pgrouting CASCADE;`"
+msgstr ""
+"Wenn Sie PostgreSQL 9.6+ nutzen, können Sie die PostGIS-Zeile überspringen "
+"und :'CREATE EXTENSION pgrouting CASCADE;' aufrufen."
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:48
+msgid "You can verify your installation by running this:"
+msgstr ""
+"Sie können Ihre Installation überprüfen, indem Sie Folgendes ausführen:"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:61
+msgid ""
+"Your version should be 2.1.0 or higher to use examples in this quickstart."
+msgstr ""
+"Ihre Version sollte 2.1.0 oder höher sein, um Beispiele in dieser Anleitung "
+"ausführen zu können."
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:64
+msgid "Loading OSM data with osm2pgrouting"
+msgstr "OSM-Daten mit osm2pgrouting laden"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:68
+msgid ""
+"First verify version of osm2pgrouting you have installed. Should read 2.1 or"
+" higher."
+msgstr ""
+"Überprüfen Sie zuerst die installierte Version von osm2pgrouting. Diese "
+"sollte 2.1 oder höher lesen."
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:74
+msgid "Output shows:"
+msgstr "Die Ausgabe zeigt:"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:90
+msgid "Output should be something like:"
+msgstr "Die Ausgabe sollte ungefähr wie folgt aussehen:"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:106
+msgid "Running pgRouting"
+msgstr "Ausführen von pgRouting"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:108
+msgid ""
+"Open a :menuselection:`Applications --> Accessories --> Terminal` window and"
+" connect to the ``city_routing`` database:"
+msgstr ""
+"Öffnen Sie ein Fenster :menuselection:'Anwendungen --> Zubehör --> Terminal'"
+" und stellen Sie eine Verbindung mit der Datenbank ''city_routing'' her:"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:114
+msgid "Type :command:`\\\\d` will list you all available tables:"
+msgstr "Der Befehl  :command:`\\\\d`  listet alle verfügbaren Tabellen auf:"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:139
+msgid "Run the Dijkstra shortest path function assuming undirected travel:"
+msgstr ""
+"Führen Sie die Dijkstra Shortest Path-Funktion unter der Annahme "
+"ungerichteter Fahrten aus:"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:165
+msgid ""
+"pgr_dijkstra also supports bigints for nodes and edges, and osm2pgrouting "
+"loads the osm_ids as well, so you could alternatively use the osm_id instead"
+" of the autogenerated source and targets for nodes. To look up the "
+"corresponding osm_ids for our nodes, we would use this query:"
+msgstr ""
+"pgr_dijkstra unterstützt auch bigints für Knoten und Kanten, und "
+"osm2pgrouting lädt auch die osm_ids, sodass Sie alternativ die osm_id "
+"anstelle der automatisch generierten source- und target-ids für Knoten "
+"verwendet werden können. Um die entsprechenden osm_ids für unsere Knoten zu "
+"suchen, verwenden wir diese Abfrage:"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:174
+msgid "Which outputs:"
+msgstr "Führt zu Ausgabe von:"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:185
+msgid "To do so you would change your query to below:"
+msgstr "Dazu ändern Sie Ihre Abfrage in:"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:200
+msgid "Output is:"
+msgstr "Die Ausgabe ist:"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:218
+msgid ""
+"Since we are still using autogenerated edge ids, our edge numbers are the "
+"same as our previous query, but the nodes are the osm node ids."
+msgstr ""
+"Da wir weiterhin automatisch generierte Knoten-IDs verwenden, sind unsere "
+"Kantennummern die gleichen wie in unserer vorherigen Abfrage, aber die "
+"Knoten sind die osm-Knoten-IDs."
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:221
+msgid ""
+"The benefit of using the osm_ids instead of the auto-generated ids is that "
+"your results will be consistent between different databases if they share a "
+"common set of osm ids.  Not all pgRouting functions have been changed to use"
+" bigints, so osm_ids can't be used with all functions."
+msgstr ""
+"Der Vorteil der Verwendung der osm_ids anstelle der automatisch generierten "
+"IDs besteht darin, dass Ihre Ergebnisse zwischen verschiedenen Datenbanken "
+"konsistent sind, wenn sie einen gemeinsamen Satz von osm-IDs verwenden.  "
+"Nicht alle pgRouting-Funktionen wurden geändert, um bigints zu unterstützen,"
+" sodass osm_ids nicht mit allen Funktionen verwendet werden können."
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:228
+msgid ""
+"To output the route geometry, link the result with the road geometries:"
+msgstr ""
+"Um die Routengeometrie auszugeben, verknüpfen Sie das Ergebnis mit den "
+"Straßengeometrien:"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:257
+msgid "You can view the routes using a graphical tool"
+msgstr "Sie können die Routen mit einem Desktop GIS anzeigen"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:256
+msgid ""
+"such as :doc:`OpenJump <../overview/openjump_overview>` or the :doc:`QGIS "
+"<../overview/qgis_overview>` DbManager extension."
+msgstr ""
+"beispielsweise mit :doc:`OpenJump <../overview/openjump_overview>` oder mit "
+":doc:`QGIS <../overview/qgis_overview>` mit der DbManager-Erweiterung."
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:262
+msgid "Run the Dijkstra shortest path function with considering direction."
+msgstr ""
+"Führen Sie die Dijkstra Shortest Path-Funktion mit unter Berücksichtigung "
+"der Richtung aus."
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:264
+msgid ""
+"In the previous examples, we assumed streets have equal cost in both "
+"directions. For cases where you have one ways or different speed limits on "
+"either lane, cost going on one direction of a road, may be different than "
+"going the other way. For these cases you need to add an additional column to"
+" your query `reverse_cost`"
+msgstr ""
+"In den vorangegangenen Beispielen gingen wir davon aus, dass Straßen in "
+"beide Richtungen gleich viel Kosten haben. In Fällen, in denen Sie auf "
+"beiden Fahrspuren eine Richtung oder unterschiedliche "
+"Geschwindigkeitsbegrenzungen haben, können die Kosten für eine Richtung "
+"einer Straße anders sein als in die andere Richtung. In diesen Fällen müssen"
+" Sie Ihrer Abfrage 'reverse_cost' eine zusätzliche Spalte hinzufügen."
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:279
+msgid "With :command:`\\\\q` command leave the PostgreSQL shell."
+msgstr "Über den Befehl :command:`\\\\q` können Sie psql verlassen."
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:283
+msgid "What next?"
+msgstr "Was kommt als Nächstes?"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:285
+msgid ""
+"**pgRouting Website** - Visit the project website http://www.pgrouting.org "
+"to learn more about pgRouting."
+msgstr ""
+"**pgRouting-Webseite** - Besuchen Sie die Projektwebsite "
+"http://www.pgrouting.org, um mehr über pgRouting zu erfahren."
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:290
+msgid ""
+"**osm2pgRouting loading data** - "
+"https://github.com/pgRouting/osm2pgrouting/wiki/Documentation-for-"
+"osm2pgrouting-v2.1"
+msgstr ""
+"**osm2pgRouting** - https://github.com/pgRouting/osm2pgrouting/wiki"
+"/Documentation-for-osm2pgrouting-v2.1"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:291
+msgid ""
+"**QGIS pgRouting Layer Plugin** - "
+"https://plugins.qgis.org/plugins/pgRoutingLayer/ provides GUI for pgRouting "
+"functions and interacts with map so you don't have to write SQL."
+msgstr ""
+"**QGIS pgRouting Layer Plugin** - "
+"https://plugins.qgis.org/plugins/pgRoutingLayer/ bietet eine grafische "
+"Oberfläche für pgRouting-Funktionen und interagiert mit der Karte, so dass "
+"Sie kein SQL schreiben müssen."

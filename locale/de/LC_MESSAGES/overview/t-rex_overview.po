@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Pirmin Kalberer <pka@sourcepole.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2019-07-18 21:57+0000\n"
+"Last-Translator: Pirmin Kalberer <pka@sourcepole.com>, 2019\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/t-rex_overview.rst:13
+msgid "t-rex"
+msgstr "t-rex"
+
+#: ../../build/doc/overview/t-rex_overview.rst:16
+msgid "Vector Tile Service"
+msgstr "Vector Tile Service"
+
+#: ../../build/doc/overview/t-rex_overview.rst:18
+msgid ""
+"t-rex is a vector tile server specialized on publishing MVT tiles from your "
+"own data."
+msgstr ""
+"t-rex ist ein Vector Tile Server, der auf die Veröffentlichung von MVT-"
+"Kacheln aus Ihren eigenen Daten spezialisiert ist."
+
+#: ../../build/doc/overview/t-rex_overview.rst:27
+msgid "Core Features"
+msgstr "Kernfunktionen"
+
+#: ../../build/doc/overview/t-rex_overview.rst:29
+msgid "Support for PostGIS databases and GDAL vector formats"
+msgstr "Unterstützung für PostGIS-Datenbanken und GDAL-Vektorformate"
+
+#: ../../build/doc/overview/t-rex_overview.rst:30
+msgid "Auto-detection of layers in data source"
+msgstr "Automatische Erkennung von Layern in der Datenquelle"
+
+#: ../../build/doc/overview/t-rex_overview.rst:31
+msgid "Built-in viewers for data display and inspection"
+msgstr "Integrierte Viewer zur Datenanzeige und -inspektion"
+
+#: ../../build/doc/overview/t-rex_overview.rst:32
+msgid "Tile generation command with simple parallelization"
+msgstr ""
+"Kachelgenerierung mittels Kommandozeile mit einfacher "
+"Parallelisierungsfunktion"
+
+#: ../../build/doc/overview/t-rex_overview.rst:33
+msgid "Automatic reprojection to grid CRS"
+msgstr "Automatische Koordinatentransformation in das Grid CRS"
+
+#: ../../build/doc/overview/t-rex_overview.rst:34
+msgid "Support for custom tile grids"
+msgstr "Unterstützung für benutzerdefinierte Grids"
+
+#: ../../build/doc/overview/t-rex_overview.rst:38
+msgid "Details"
+msgstr "Details"
+
+#: ../../build/doc/overview/t-rex_overview.rst:40
+msgid "**Website:**  https://t-rex.tileserver.ch/"
+msgstr "**Webseite:** https://t-rex.tileserver.ch/"
+
+#: ../../build/doc/overview/t-rex_overview.rst:42
+msgid "**Licence:** `MIT license <http://opensource.org/licenses/MIT>`_"
+msgstr "**Lizenz:** `MIT <http://opensource.org/licenses/MIT>`_"
+
+#: ../../build/doc/overview/t-rex_overview.rst:44
+msgid "**Software Version:** |version-t-rex|"
+msgstr "**Software Version:** |version-t-rex|"
+
+#: ../../build/doc/overview/t-rex_overview.rst:46
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Unterstützte Plattformen:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/t-rex_overview.rst:48
+msgid "**API Interfaces:** http, Mapbox Vector Tiles"
+msgstr "**API-Schnittstellen:** http, Mapbox Vector Tiles"
+
+#: ../../build/doc/overview/t-rex_overview.rst:50
+msgid "**Support:** https://github.com/t-rex-tileserver/t-rex/"
+msgstr "**Support:** https://github.com/t-rex-tileserver/t-rex/"
+
+#: ../../build/doc/overview/t-rex_overview.rst:54
+msgid "Quickstart"
+msgstr "Schnellstart"
+
+#: ../../build/doc/overview/t-rex_overview.rst:56
+msgid ":doc:`Quickstart documentation <../quickstart/t-rex_quickstart>`"
+msgstr ":doc:`Quickstart documentation <../quickstart/t-rex_quickstart>`"
