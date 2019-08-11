@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"POT-Creation-Date: 2019-08-11 09:14-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -141,7 +141,7 @@ msgid "For the many other ``mapcache_seed`` options please see the `Seeder Docum
 msgstr ""
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:195
-msgid "If you want to remove a cache folder you can the following command:"
+msgid "If you want to remove a cache folder you can run the following command:"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:202
