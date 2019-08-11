@@ -1,0 +1,698 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Zoltan Siki <siki@agt.bme.hu>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"PO-Revision-Date: 2017-09-20 16:04+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2019\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:32
+msgid "QGIS Quickstart"
+msgstr "QGIS gyorstalpaló"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:34
+msgid ""
+"QGIS is a user-friendly Desktop GIS client which lets you visualize, manage,"
+" edit, analyse data and compose printable maps."
+msgstr ""
+"A QGIS egy felhasználóbarát asztali GIS kliens, mely lehetővé teszi, hogy "
+"megjelenítsen, kezeljen, szerkesszen, elemezzen és nyomtatható térképeket "
+"állítson össze."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:41
+msgid "Opening QGIS for the first time"
+msgstr "QGIS első megnyitása"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:43
+#: ../../build/doc/quickstart/qgis_quickstart.rst:70
+#: ../../build/doc/quickstart/qgis_quickstart.rst:159
+msgid "Learning goal:"
+msgstr "Tanulási cél:"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:45
+msgid "Open QGIS"
+msgstr "QGIS megnyitása"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:46
+msgid "Identify parts of the Interface"
+msgstr "Az interfész részeinek bemutatása"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:48
+msgid ""
+"QGIS can be opened from the 'Desktop GIS' folder on the OSGeoLive desktop. "
+"Follow the steps below to launch QGIS."
+msgstr ""
+"Az OSGeoLive asztalon a QGIS a  'Desktop GIS' mappából nyithatjuk meg a "
+"QGIS-t. Kövesse az alábbi lépéseket a QGIS indításához."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:51
+msgid "Open the 'Desktop GIS' folder."
+msgstr "Nyissa meg 'Desktop GIS'  mappát."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:52
+msgid "Double click on the 'QGIS' icon."
+msgstr "Duplán kattintson a 'QGIS' ikonra."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:54
+msgid ""
+"The user will see QGIS launch with an empty project. The various parts of "
+"the QGIS Interface are listed below."
+msgstr ""
+"A felhasználó egy üres projekttel induló QGIS-t lát. A QGIS interfész "
+"különböző részeit lentebb soroljuk fel."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:61
+msgid ""
+"Menu bar: Access to various QGIS features using a standard hierarchical "
+"menu."
+msgstr ""
+"Menü sor: Hozzáférés a különböző QGIS funkciókhoz a szabványos, hierarchikus"
+" menü használatával."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:62
+msgid ""
+"Toolbars: For interaction with the map, layers, attributes and selections."
+msgstr ""
+"Eszközsorok: Interaktív munka a térképpel,rétegekkel, attribútumokkal és "
+"kiválasztásokkal."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:63
+msgid ""
+"Browser Panel: A spatial file browser allowing drag and drop content into "
+"the map frame."
+msgstr ""
+"Böngésző panel: Egy téradat fájl böngésző, mely lehetővé teszi a tartalom "
+"áthúzását a térkép keretbe."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:64
+msgid "Layer Panel: Controls the map layers, their order, and visibility."
+msgstr ""
+"Réteg panel: szabályozza a térképrétegeket, azok sorrendjét, és a "
+"láthatóságukat."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:65
+msgid ""
+"Status Bar: General information about the map and access to a universal "
+"search bar."
+msgstr ""
+"Státusz sor: Általános információk a térképről és az univerzális kereső sor "
+"elérése."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:68
+msgid "Starting a new project"
+msgstr "Új projekt indítása"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:72
+msgid "Start a new QGIS project"
+msgstr "Új projektet indítása"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:73
+msgid "Add vector layers to a project"
+msgstr "Vektor réteg hozzáadása egy projekthez"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:74
+msgid "Add raster layers to a project"
+msgstr "Raszter réteg hozzáadása egy projekthez"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:75
+msgid "Save a project"
+msgstr "Projekt mentése"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:77
+msgid ""
+"After opening QGIS for the first time, you will be presented with an empty "
+"project that you can add layers to."
+msgstr ""
+"A QGIS első megnyitása után egy üres projektet kap, melyhez rétegeket adhat "
+"hozzá."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:80
+#: ../../build/doc/quickstart/qgis_quickstart.rst:131
+#: ../../build/doc/quickstart/qgis_quickstart.rst:172
+msgid "Go to the 'Project' menu on the menu bar."
+msgstr "Menjen a 'Project' menübe a menüsorban."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:81
+msgid "Select 'New'."
+msgstr "Válassza a 'New'-t."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:87
+msgid ""
+"Now with an empty QGIS project we can start adding data to the project."
+msgstr "Most elkezdhetjük az adatok hozzáadását az üres projekthez."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:89
+msgid ""
+"Let's start by adding a vector layer to the map. Layers can be added to QGIS"
+" using the browser panel, located on the left of the screen."
+msgstr ""
+"Kezdjük egy vektor réteg hozzáadásával a térképhez. Rétegeket hozzáadhatunk "
+"a térképhez a képernyő bal oldalán található böngésző panel használatával."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:92
+#: ../../build/doc/quickstart/qgis_quickstart.rst:110
+msgid "Go the browser panel on the left of the screen."
+msgstr "Menjen a képernyő bal oldalán található böngésző panelbe."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:93
+#: ../../build/doc/quickstart/qgis_quickstart.rst:111
+msgid "Navigate the folder tree to 'home/data/natural_earth2'."
+msgstr "Navigáljon a mappa fában a 'home/data/natural_earth2'-höz."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:94
+msgid "Select 'ne_10m_admin_0_countries.shp'."
+msgstr "Válassza a 'ne_10m_admin_0_countries.shp'-t."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:95
+#: ../../build/doc/quickstart/qgis_quickstart.rst:113
+msgid "Drag the layer from the browser panel and drop it in the map frame."
+msgstr "Húzza ki a réteget a böngésző panelból és dobja be a térkép keretbe."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:101
+msgid ""
+"Once the layer has been dragged onto the map frame, the user will see a "
+"layer showing countries."
+msgstr ""
+"Miután áthúzta a réteget a térkép keretbe az országokat trtalmazó réteget "
+"lát."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:108
+msgid ""
+"Now let's try adding a raster layer to the project. Again we will use the "
+"browser panel."
+msgstr ""
+"Most adjunk hozzá egy raszter réteget a projekthez. Ismét a böngésző panelt "
+"fogjuk használni."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:112
+msgid "Select 'HYP_50M_SR_W.tif'."
+msgstr "Válassza a 'HYP_50M_SR_W.tif'-et."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:119
+msgid ""
+"Once the layer has been dragged onto the map frame, the user will see a "
+"raster layer showing land cover and bathymetry."
+msgstr ""
+"Miután áthúzta a réteget a térkép keretbe a felszínborítást és "
+"tengermélységet mutató raszter réteget lát."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:126
+msgid ""
+"Now that we have added some content to our project we can save this project "
+"so that we can come back to it at a later time."
+msgstr ""
+"Most hogy valamennyi tartalmat adtunk a projektünkhöz elmenthetjük ezt a "
+"projektet, hogy később visszatérhessünk hozzá."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:129
+msgid "To save the QGIS project, follow these steps:"
+msgstr "A QGIS projekt mentéséhez kövesse kövesse ezeket a lépéseket:"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:132
+msgid "Select 'Save'."
+msgstr "Válassza a 'Save'-et."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:138
+msgid "Make the location to save the project '/home/user/desktop'."
+msgstr "A projekt mentés helye legyen '/home/user/desktop'."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:139
+msgid "Call the project 'My QGIS project'."
+msgstr "Legyen a projekt neve 'My QGIS project'."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:145
+msgid "Then click 'Save'."
+msgstr "Majd kattintson a 'Save'-re."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:147
+msgid ""
+"You will know the project has been saved because there will be a project "
+"file on the desktop called 'My QGIS project' and the top of your project "
+"document will no longer read as 'untitled' but instead will read as 'My QGIS"
+" project'."
+msgstr ""
+"Abból tudhatja, hogy a projektet elmentette, hogy az asztalom megjelenik a "
+"'My QGIS project' nevű projekt fájl az asztalon és a  projekt már nem "
+"'untitled', hanem 'My QGIS project' névvel jelenik meg."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:157
+#: ../../build/doc/quickstart/qgis_quickstart.rst:162
+msgid "Open an existing project"
+msgstr "Létező projekt megnyitása"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:161
+msgid "Understand what a QGIS project is"
+msgstr "Megérteni mi egy projekt"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:163
+msgid "Interact with layers"
+msgstr "Munka a rétegekkel"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:165
+msgid ""
+"A QGIS project saves layers, styles, map extents and settings for use at a "
+"later time. This information is stored as a QGIS project file and has an "
+"extension of '.qgs' or '.qgz', with '.qgz' being the default file format in "
+"QGIS going into the future."
+msgstr ""
+"Egy QGIS projekt egy későbbi felhasználáshoz megőrzi a rétegeket, a "
+"stílusokat, a térkép terjedelmét és a beállításokat. Ezen információkat a "
+"projekt fájlban tároljuk, mely '.qgs' vvagy '.qgz' kiterjesztéssel "
+"rendelkezik, a jövőben a '.qgz' lesz az alapértelmezett kiterjesztés."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:169
+msgid "Let's open an existing QGIS project and have a look at how it works."
+msgstr ""
+"Nyissunk meg egy létező QGIS projektet és nézzük meg hogyan működik ez."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:171
+msgid ""
+"Open QGIS. Note that when QGIS is opened a user will be presented with a "
+"list of recent projects to chose from. This is a quick way of entering into "
+"recent projects."
+msgstr ""
+"Nyissa meg a QGIS-t.  Vegye észre, hogy amikor a QGIS megnyílik a korábbi "
+"projektek listáját látja, melyekből választhat. Ez egy gyors módszer a "
+"nemrégiben használt projektek megnyitására."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:173
+msgid "Select 'Open'."
+msgstr "Válassza az  'Open'-t."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:174
+msgid "Navigate to '/home/user/qgis-example'."
+msgstr "Navigáljon a '/home/user/qgis-example' mappába."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:175
+msgid "Select the project 'QGIS-NaturalEarth-Example.qgs'."
+msgstr "Válassza a 'QGIS-NaturalEarth-Example.qgs' projektet."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:176
+msgid "Then click 'Open'."
+msgstr "Majd kattintson az 'Open'-re."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:182
+msgid ""
+"This will open a QGIS project with a number of Natural Earth datasets, as "
+"shown below. This project contains a number of layers in the layers panel "
+"and is displaying the spatial content in the map frame."
+msgstr ""
+"Ez egy Natural Earth adatállományokat tartalmazó QGIS projektet fog "
+"megnyitni, amint lentebb láthatja. Ez a projekt számos réteget tartalmaz a "
+"réteg panelben és a térképi tartalmaz a térkép keretben jeleníti meg."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:190
+msgid ""
+"Layers can be turned on or off by clicking the checkbox next to the layer "
+"name in the layers panel. When a layer is turned on in the layer panel, the "
+"map frame will be updated to display the layer. A close up of the layer "
+"panel is shown below."
+msgstr ""
+"A rétegek ki- és bekapcsolhatók, a réteg melletti jelölő négyzetbe kattintva"
+" a réteg panelben. Amikor egy réteget bekapcsol a réteg panelben, a térképet"
+" frissítjük a réteg megjelenítéséhez. A rétegpanel bezárása látható lentebb."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:198
+msgid ""
+"Let's interact with the layer panel and change the visibility of some map "
+"layers."
+msgstr ""
+"Dogozzunk  réteg panellel és változtassuk meg néhány térképi réteg "
+"láthatóságát-"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:200
+msgid ""
+"Click the checkbox next to the 'ne_10m_populated_places' layer to turn it "
+"on."
+msgstr ""
+"Kattintson a jelölőnégyzetbe a 'ne_10m_populated_places' réteg mellett, hogy"
+" kikapcsolja."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:201
+msgid "Click the checkbox next to the 'Water' layer to turn the layer off."
+msgstr ""
+"Kattintson a jelölőnégyzetbe a 'Water' réteg mellett, hogy kikapcsolja."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:203
+msgid ""
+"Notice how the map frame has been updated to reflect the changes in the "
+"layer list. We can now see the 'ne_10m_populated_places' layer as points, "
+"but can no longer see the rivers and lakes which are within the 'Waters' "
+"layer."
+msgstr ""
+"Vegye észre, hogy a térkép frissült, hogy tükrözze a módosításokat a réteg "
+"listában.  Most láthatjuk az 'ne_10m_populated_places' réteget mint pontok, "
+"de nem látjuk többet  folyókat és tavakat, melyek a 'Waters' rétegen vannak."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:211
+msgid ""
+"In addition to controlling layer visibility, we can also change the order in"
+" which layers are drawn in the layer panel. This is done by selecting a "
+"layer in the layer panel and dragging it up or down the list. The order that"
+" the layers appear in the layer list is the order which they will draw on in"
+" the map frame."
+msgstr ""
+"A réteg láthatóság vezérlése mellett  a sorrendet is módosíthatjuk, melyben"
+"  rétegek a réteg panelen megjelennek. Ezt megtehetjük s réteg "
+"kiválasztásával a réteg listában és fel- vagy lehúzásával a listában. A "
+"sorrend, ahogy a rétegek megjelennek a réteglistában megegyezik  térképre "
+"rajzolásuk sorrendjével."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:216
+msgid "To change the order of the layers:"
+msgstr "A rétegsorrend módisításához:"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:218
+msgid "Left-Click on the layer 'HYP_50M_SR_W'."
+msgstr "Bal kattintás a 'HYP_50M_SR_W' rétegen."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:219
+msgid ""
+"While holding the mouse button down drag the layer to the top of the list."
+msgstr "Az egérgomb nyomvatartása mellett húzzuk a réteget a lista tetejére."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:221
+msgid ""
+"Notice how the raster layer is now on top of all other layers in the layer "
+"panel. This now renders the raster layer on top of all other layers in the "
+"map frame."
+msgstr ""
+"A raszter réteg most minden más réteg felett van a réteg panelben. Most a "
+"raszter réteget az összes többi réteg felett rajzolja ki a rendszer a "
+"térképen."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:228
+msgid ""
+"Try moving the 'HYP_50M_SR_W' layer to the bottom of the layer list. This "
+"would be a more appropriate position for a map layer like this."
+msgstr ""
+"Próbálja a  'HYP_50M_SR_W' réteget a réteglista aljár mozgatni. Ez egy "
+"megfelelőbb pozíció az ilyen rétegeknek."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:232
+msgid "Navigation tools"
+msgstr "Navigációs eszközök"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:234
+#: ../../build/doc/quickstart/qgis_quickstart.rst:280
+msgid "Learning goals:"
+msgstr "Tanulási célok:"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:236
+msgid "Identify the navigation toolbar"
+msgstr "A navigációs eszközsor bemutatása"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:237
+msgid "Modify the extent of the map"
+msgstr "A térképi terjedelem módosítása"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:239
+msgid ""
+"The navigation toolbar as shown below allows users to move around the map "
+"and change the map extent."
+msgstr ""
+"A lentebb látható navigációs eszköztár lehetővé teszi, hogy a felhasználók "
+"mozogjanak a térképen és a térképi terjedelmet módosítsák."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:245
+msgid ""
+"For this quick start guide, we will focus on the basics of navigation which "
+"can be achieved with only five tools. These tools are listed below, with the"
+" number corresponding to the toolbar image above to show the location on the"
+" toolbar."
+msgstr ""
+"Ebben a gyorstalpalóban a navigáció alapjaira fogunk fókuszálni, melyhez "
+"csak öt gombra van szükség. Ezeket az eszközöket lentebb soroljuk fel, az "
+"eszköz kép feletti sorszám az eszközsorban elfoglalt helyet mutatja."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:249
+msgid "Pan: Allows the map to be dragged 'Panned' to a new location."
+msgstr "Eltolás: lehetővé teszi, hogy a térképet elhúzzuk egy új helyre."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:250
+msgid "Zoom in: Allows the map extent to be zoomed in."
+msgstr "Nagyítás: lehetővé teszi, hogy belenagyítsunk a térképbe."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:251
+msgid "Zoom out: Allows the map to be zoomed out."
+msgstr "Kicsinyítés: lehetővé teszi, hogy a térképet kicsinyítsük."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:252
+msgid ""
+"Zoom to full extent: Changes the map extent to fit all of the map layers "
+"into the map frame."
+msgstr ""
+"Nagyítás a terjedelemre: módosítja a térkép nagyítását és helyzetét, hogy az"
+" összes réteg tartalma megjelenjen a térképen."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:253
+msgid ""
+"Zoom to layer: Changes the map extent to fit the extent of the layer "
+"highlighted in the layer panel."
+msgstr ""
+"Nagyítás a rétegre: a térkép nagyítás és pozíció módosítása, hogy a réteg "
+"panelen kijelölt réteg teljesen megjelenjen."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:255
+msgid ""
+"Let's try changing the map extent with the zoom-in tool, this will allow the"
+" user to zoom in closer on an area of interest."
+msgstr ""
+"Próbáljuk meg a térkép terjedelmét módosítani a nagyítás eszközzel, ez "
+"lehetővé teszi, hogy a felhasználó közelebbről megnézze az érdekes "
+"területet."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:258
+msgid "Select the 'Zoom in' tool from the navigation toolbar."
+msgstr "Válassza ki a nagyítás eszközt a navigációs eszköztárból."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:259
+msgid "Move the cursor over the map frame."
+msgstr "Mozgassa az egeret a térkép fölé."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:260
+msgid "Click and hold the left mouse button."
+msgstr "Kattintson és tartsa nyomva a bal egérgombot."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:261
+msgid ""
+"While still holding the mouse button move the cursor diagonally in any "
+"direction. Notice this draws a rectangle which is the area that will be "
+"zoomed to."
+msgstr ""
+"Az egérgomb nyomvatartása mellett mozgassa átlósan a kurzort bármelyik "
+"irányban. Ez egy téglalapot rajzol, melyre nagyítani fogunk."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:262
+msgid "Release the mouse button when happy with the area created."
+msgstr "Engedje el az egérgombot, ha elégedett a kialakított területtel."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:264
+msgid ""
+"The process of using the zoom out tool is the same as the zoom-in tool. The "
+"result is just the opposite."
+msgstr ""
+"A kicsinyítés eszköz esetén az eljárás ugyanaz mint a nagyítás eszköznél. Az"
+" eredmény éppen ellenkező."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:266
+msgid ""
+"Now, let’s look at the zoom to full extent tool. This tool will zoom the map"
+" out to an extent that will fit in all the layers in the map. To use this "
+"tool, click on the 'Zoom to full extent' button."
+msgstr ""
+"Most nézzük meg a nagyítás a terjedelemre eszközt. Ez az eszköz kicsinyíti a"
+" térképet, hogy minden réteg beleférjen a térképbe. Az eszköz használatához "
+"kattintson a nagyítás a terjedelemre gombra."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:270
+msgid ""
+"Finally, try the zoom to layer tool. To use this tool follow these steps:"
+msgstr ""
+"Végül próbálja meg a nagyítás a rétegre eszközt. Az eszköz használatához "
+"kövesse a következő lépéseket:"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:272
+msgid "Click on a layer name in the layer panel."
+msgstr "Kattintson a réteg nevére a réteg panelban."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:273
+msgid "Click on the 'Zoom to layer' button."
+msgstr "Kattintson a nagyítás a rétegre gombra."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:275
+msgid "The map should zoom to the extent of the selected ('active') layer."
+msgstr "A térkép a kiválasztott (aktív) réteg terjedelmére nagyít."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:278
+msgid "Styling Layers"
+msgstr "Réteg stílus beállítás"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:282
+msgid "Access the style dock"
+msgstr "A stílus dokk elérése"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:283
+msgid "Modify the colour of a layer"
+msgstr "Egy réteg színének módosítása"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:285
+msgid ""
+"Layers can be styled in QGIS using the style dock. The style dock is not "
+"visible by default, but easily accessible via a button at the top of the "
+"layer panel as shown below."
+msgstr ""
+"A QGIS-ben a stílus dokk használatával állíthatjuk be a rétegek stílusát. "
+"Alapértelmezésben a stílus dokk nem látható, de könnyen elérhető a réteg "
+"panel tetején található gombbal, amint lentebb látható."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:292
+msgid ""
+"The above button acts as a toggle so the style dock can be easily hidden "
+"from view by clicking the same button again. When the style dock is enabled "
+"it will appear on the right-hand side of the screen ready to style the "
+"active layer highlighted in the layer panel."
+msgstr ""
+"A fenti gomb mint egy kapcsoló működik, így a stílus dokk könnyen elrejthető"
+" ugyanarra a gombra kattintva ismét. Amikor a stílus dokkot bekapcsoljuk  a "
+"képernyő jobb-felső sarkában jelenik meg, készen arra, hogy az aktív réteg "
+"stílusát beállítsuk."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:296
+msgid ""
+"With the style dock open, we can modify the appearance of the layer shown at"
+" the top of the style dock."
+msgstr ""
+"Nyitott stílus dokk esetén módosíthatjuk a stílus dokk tetején látható réteg"
+" megjelenését."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:302
+msgid ""
+"With the style dock now open, we can modify the colour and the width of the "
+"lines in the 'ne_10m_rivers_lakes_centrelines' layer. Let’s try modifying "
+"the colour first."
+msgstr ""
+"A most nyitott stílus dokkal módosíthatjuk a vonalak színét és vastagságát a"
+" 'ne_10m_rivers_lakes_centrelines' rétegen. Először módosítsuk a színt."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:305
+msgid ""
+"Click on the 'Color' swatch shown below. This will launch a colour palette "
+"allowing you to choose a different colour."
+msgstr ""
+"Kattintson a \"Color\" mintára, ahogy alább látható. Ez egy színpalettát "
+"jelenít meg, mely lehetővé teszi, hogy különböző színeket válasszon."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:311
+msgid ""
+"In the 'Select Color' palette, move the cross-hair to your preferred colour."
+msgstr ""
+"A 'Select Color' palettában mozgassa a szálkeresztet a kiválasztott színre."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:317
+msgid "Then click the back arrow to return to the symbol render preview."
+msgstr ""
+"Majd kattintson a balra mutató nyílra, hogy visszatérjen a szimbólum "
+"előnézethez."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:323
+msgid ""
+"The symbol preview will be updated with the new colour, and so will the "
+"layer in the map frame."
+msgstr ""
+"A szimbólum előnézetet frissítette a program az új színnel és a réteget is a"
+" térképen."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:329
+msgid ""
+"In the style dock, we can also modify the size of the map features. To "
+"modify the thickness of the lines follow these steps:"
+msgstr ""
+"A stílus dokkban módosíthatjuk a térképi elemek méretét is. A "
+"vonalszélességek módosításához kövese a következő lépéseket:"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:332
+msgid ""
+"Make sure that the 'ne_10m_rivers_lakes_centrelines' is selected at the top "
+"of the style panel."
+msgstr ""
+"Győződjön meg, hogy a kiválasztott az 'ne_10m_rivers_lakes_centrelines' "
+"réteg, a stílus panel tetején."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:333
+msgid "In the style panel enter the value '0.5' in the 'width' input."
+msgstr "A stílus panelben vigye be a  '0.5' értéket a  'width' mezőbe."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:339
+msgid ""
+"Notice the line in the symbol preview increase in width, and so do the lines"
+" that are in the map frame."
+msgstr ""
+"Figyelje meg, hogy a szimbólum előnézetben a vonalvastagság megnő és "
+"ugyanúgy a térképen is."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:342
+msgid "Things to Try"
+msgstr "Kipróbálandó dolgok"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:344
+msgid ""
+"Extend QGIS functionality with `Plugins "
+"<https://docs.qgis.org/3.4/en/docs/user_manual/plugins/plugins.html>`_."
+msgstr ""
+"Bővítse a QGIS funkcionalitását `modulokkal "
+"<https://docs.qgis.org/3.4/en/docs/user_manual/plugins/plugins.html>`_."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:346
+msgid ""
+"Start manipulating data with the `Processing toolbox "
+"<https://docs.qgis.org/3.4/en/docs/user_manual/processing/toolbox.html>`_."
+msgstr ""
+"Kezdje el az adatok manipulálását a `Feldolgozás eszköztárral "
+"<https://docs.qgis.org/3.4/en/docs/user_manual/processing/toolbox.html>`_."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:348
+msgid ""
+"Use QGIS to view content from a `PostGIS database "
+"<https://docs.qgis.org/3.4/en/docs/training_manual/spatial_databases/index.html>`_."
+msgstr ""
+"Használja a QGIS-t `PostGIS adatbázis "
+"<https://docs.qgis.org/3.4/en/docs/training_manual/spatial_databases/index.html>`_"
+" tartalmának megtekintésére."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:350
+msgid ""
+"Try publishing your QGIS map to the web using `QGIS Map Server "
+"<../overview/qgis_mapserver_overview.html>`_. in the "
+":menuselection:`Geospatial --> Web Services` menu."
+msgstr ""
+"Próbálja meg a QGIS térképét publikálni a weben, a `QGIS Map Server "
+"<../overview/qgis_mapserver_overview.html>`_ használatával a "
+":menuselection:`Geospatial --> Web Services` menüből."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:354
+msgid "What Next?"
+msgstr "Mi a következő?"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:356
+msgid ""
+"To learn more about QGIS, a good starting point is the `Documentation page`_"
+" on the QGIS homepage and `A Gentle Introduction to GIS`_ eBook."
+msgstr ""
+"A további tanuláshoz a QGIS-ről egy jó kiinduló pont a `Documentation page`_"
+" A QGIS honlapon és az `A Gentle Introduction to GIS`_ e-könyv."

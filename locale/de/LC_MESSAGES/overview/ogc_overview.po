@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Astrid Emde <astrid_emde@osgeo.org>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"PO-Revision-Date: 2018-07-27 22:51+0000\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2019\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/ogc_overview.rst:12
+msgid "OGC"
+msgstr "OGC"
+
+#: ../../build/doc/overview/ogc_overview.rst:14
+msgid ""
+"The Open Geospatial Consortium (OGC) was founded in 1994 to make geographic "
+"information an integral part of the world’s information infrastructure. OGC "
+"members – technology providers and technology users – collaboratively "
+"develop open interface standards and associated encoding standards, and also"
+" best practices, that enable developers to create information systems that "
+"can easily exchange “geospatial” information and instructions with other "
+"information systems. Requirements range from complex scheduling and control "
+"of Earth observation satellites to displaying simple map images on the Web "
+"and encoding location in just a few bytes for geo-tagging and messaging. A "
+"look at the `OGC Domain Working Groups "
+"<http://www.opengeospatial.org/projects/groups/wg>`_ shows the wide scope of"
+" current activity in the OGC."
+msgstr ""
+"Das Open Geospatial Consortium (OGC) wurde 1994 gegründet, um geografische "
+"Informationen zu einem integralen Bestandteil der weltweiten "
+"Informationsinfrastruktur zu machen. OGC-Mitglieder – Technologieanbieter "
+"und Technologienutzer – entwickeln gemeinsam offene Schnittstellenstandards "
+"und zugehörige Encoding-Sstandards sowie Best Practices, die es Entwicklern "
+"ermöglichen, Informationssysteme zu erstellen, die leicht räumliche "
+"Informationen und Anweisungen mit anderen Informationssystemen austauschen "
+"können. Die Anforderungen reichen von der komplexen Planung und Steuerung "
+"von Erdbeobachtungssatelliten bis hin zur Anzeige einfacher Kartenbilder im "
+"Web und der Codierung des Standorts mit nur wenigen Bytes für Geo-Tagging "
+"und Nachrichtenübermittlung. Ein Blick auf die `OGC Domain Working Groups "
+"<http://www.opengeospatial.org/projects/groups/wg>`_ zeigt den breiten "
+"Umfang der aktuellen Tätigkeit im OGC."
+
+#: ../../build/doc/overview/ogc_overview.rst:26
+msgid ""
+"The OGC Standards Baseline consists of the `OGC standards "
+"<http://www.opengeospatial.org/standards>`_ for interfaces, encodings, "
+"profiles, application schemas, and best practice documents. The `OGC "
+"Reference Model (ORM) <http://www.opengeospatial.org/standards/orm>`_ "
+"describes these standards and the relationships between them and related ISO"
+" standards. The ORM provides an overview of OGC standards and serves as a "
+"useful resource for defining architectures for specific applications."
+msgstr ""
+"Die OGC-Standards-Richtlinie besteht aus den `OGC Standards "
+"<http://www.opengeospatial.org/standards>`_  für Schnittstellen, "
+"Codierungen, Profile, Anwendungsschemas und Best Practice-Dokumente. Das "
+"`OGC Reference Model (ORM) <http://www.opengeospatial.org/standards/orm>`_  "
+"beschreibt diese Standards und die Beziehungen zwischen ihnen und verwandten"
+" ISO-Normen. Das ORM bietet einen Überblick über OGC-Standards und dient als"
+" nützliche Quelle zur Definition von Architekturen für bestimmte "
+"Anwendungen."
+
+#: ../../build/doc/overview/ogc_overview.rst:34
+msgid ""
+"In developing a Web services application using OGC standards (and in "
+"learning about the relationships between OGC standards) it helps to think of"
+" publish, find and bind as the key functions for applications in a Web "
+"services environment."
+msgstr ""
+"Bei der Entwicklung einer Webservice-Anwendung unter Verwendung von OGC-"
+"Standards (und beim Erlernen der Beziehungen zwischen den OGC-Standards) "
+"hilft es, sich die  Schlüsselfunktionen für Anwendungen in einer Webservice-"
+"Umgebung zu verdeutlichen: Veröffentlichen, Finden und Verbinden."
+
+#: ../../build/doc/overview/ogc_overview.rst:39
+msgid "Publish: Resource providers advertise their resources."
+msgstr "Veröffentlichen: Datenanbieter bewerben ihre Ressourcen."
+
+#: ../../build/doc/overview/ogc_overview.rst:40
+msgid ""
+"Find: End users and their applications can discover resources that they need"
+" at run-time."
+msgstr ""
+"Suchen: Endanwender und ihre Anwendungen können Daten finden, die sie zur "
+"Laufzeit benötigen."
+
+#: ../../build/doc/overview/ogc_overview.rst:41
+msgid ""
+"Bind: End users and their applications can access and exercise resources at "
+"run-time."
+msgstr ""
+"BIND: Endbenutzer und ihre Anwendungen können zur Laufzeit zugreifen und "
+"Übung durchführen."
+
+#: ../../build/doc/overview/ogc_overview.rst:43
+msgid ""
+"Most of the OGC standards developed in recent years are standards for the "
+"Web services environment, and these standards are collectively referred to "
+"as OGC Web Services (OWS). A `comprehensive list of standards "
+"<http://www.opengeospatial.org/standards/>`_ is available."
+msgstr ""
+"Die meisten der in den letzten Jahren entwickelten OGC-Standards sind "
+"Standards für das Web. Sie werden als OGC Web Services (OWS) bezeichnet. "
+"Eine `umfassende Liste der Standards "
+"<http://www.opengeospatial.org/standards/>`_ ist verfügbar."
+
+#: ../../build/doc/overview/ogc_overview.rst:49
+msgid "Details"
+msgstr "Details"
+
+#: ../../build/doc/overview/ogc_overview.rst:51
+msgid "**Website:** http://www.opengeospatial.org"
+msgstr "** Webseite: ** http://www.opengeospatial.org"
