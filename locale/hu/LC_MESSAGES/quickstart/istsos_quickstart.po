@@ -1,0 +1,436 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Zoltan Siki <siki@agt.bme.hu>, 2019
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"PO-Revision-Date: 2017-09-20 16:03+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:17
+msgid "istSOS Quickstart"
+msgstr "istSOS gyorstalpaló"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:19
+msgid ""
+"istSOS is an OGC `SOS <http://www.opengeospatial.org/standards/sos>`__ "
+"server implementation written in `Python <https://www.python.org/>`__. "
+"istSOS allows for managing and dispatch observations from monitoring sensors"
+" according to the Sensor Observation Service standard."
+msgstr ""
+"Az istSOS egy OGC `SOS <http://www.opengeospatial.org/standards/sos>`__ "
+"szerver implementáció, melyet `Pythonban <https://www.python.org/>`__ írnak."
+" Az istSOS lehetővé teszi az észlelések továbbítását a szenzortól a Sensor "
+"Observation Service szabványnak megfelelően."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:22
+msgid ""
+"The project provides also a Graphical user Interface that allows for easing "
+"the daily operations and a RESTFull Web api for automatizing administration "
+"procedures."
+msgstr ""
+"A projekt egy grafikus felhasználói felületet is  biztosít, hogy "
+"megkönnyítse a napi műveleteket és egy RESTFul API-t az adminisztrációs "
+"eljárások automatizálására."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:24
+msgid ""
+"istSOS is released under the GPLv2 licence, and runs on all major platforms "
+"(Windows, Linux, Mac OS X), even though it has been used in production in "
+"linux environment only."
+msgstr ""
+"Az istSOS-t a GPLv2 licenc alatt bocsájtják ki és minden elterjedtebb "
+"platformon fut (Windows, Linux, Mac OS X), annak ellenére, hogy csak Linux "
+"környezetben használják élesben."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:29
+msgid "Create postgis database"
+msgstr "PostGIS adatbázis létrehozása"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:31
+msgid "Open a terminal and execute the following commands:"
+msgstr "Nyisson egy terminált és hajtsa végre a következő parancsokat:"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:40
+msgid "Setting up an istSOS service instance"
+msgstr "Egy istSOS szolgáltatás példány beállítása"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:42
+msgid ""
+"With istSOS you can organize your sensor data in different instances. Every "
+"instance has its own database schema independent from other instances. You "
+"can even deploy other databases over your network according to your needs."
+msgstr ""
+"Az istSOS a szenzorok adatait különböző adatbázis példányokba rendezheti. "
+"Minden példány a többi példánytól független saját adatbázis-sémával "
+"rendelkezik. Az igényeinek megfelelően a hálózaton keresztül más "
+"adatbázisokat telepíthet."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:46
+msgid ""
+"The first steps into istSOS setup is to configure the default configuration "
+"options. These options will then be automatically used for your convenience "
+"by every new istSOS instance created."
+msgstr ""
+"Az első lépés az istSOS beállításában az alapértelmezett beállítások "
+"konfigurálása.  Ezeket a beállításokat használjuk a kényelme érdekében "
+"minden új istSOS példány létrehozásánál."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:48
+msgid "**1) Open the Web Admin interface**"
+msgstr "**1) Nyissa meg a Web Admin interfészt**"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:50
+msgid "Open a browser and go to `<http://localhost/istsos/admin>`_"
+msgstr ""
+"Nyisson meg egy böngészőt és menjen ide `<http://localhost/istsos/admin>`_"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:52
+msgid "**2) Configure your database connection**"
+msgstr "**2) Állítsa be az adatbázis kapcsolatokat**"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:54
+msgid ""
+"From the toolbar buttons menu press the \"Database\" button and fill in the "
+"database configuration options:"
+msgstr ""
+"Az eszközsor gombjai közül nyomja meg a \"Database\" gombot és töltse ki az "
+"adatbázis konfiguráció beállításait:"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:64
+msgid "**3) Configure the default Service provider information**"
+msgstr "**3) Állítsa be az alapértelmezett szolgáltató adatait**"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:67
+msgid ""
+"Press the \"Service provider\" button and fill it using your institutional "
+"information."
+msgstr ""
+"Nyomja meg a \"Service provider\" gombot és töltse ki a szervezeti adatait."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:70
+msgid "**4) Configure the default Service identification information**"
+msgstr ""
+"**4) Konfigurálja az alapértelmezett szolgáltatás azonosító információt**"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:73
+msgid ""
+"Press the \"Service identification\" button and fill up with custom metadata"
+" that describe the service usage."
+msgstr ""
+"Nyomja meg a \"Service identification\" gombot és töltse ki egyedi "
+"metaadatokkal a szolgáltatás használatának leírásához."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:75
+msgid "**5) Configure your service coordinates system**"
+msgstr "**5) Konfigurálja a szolgáltatása koordináta-rendszerét**"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:81
+msgid ""
+"*Permitted EPSG*: here you can configure which other Coordinate Reference "
+"Systems your system will support and reproject if requested."
+msgstr ""
+"*Permitted EPSG*: itt konfigurálhatja melyik másik koordináta-rendszerbe "
+"átvetítést fogja támogatni  a rendszere, ha szükséges."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:83
+msgid "**6) Configure your getobservation request options**"
+msgstr "**6) Konfigurálja a getobservation kérés beállításait**"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:88
+msgid "**7) Configure your service proxy address**"
+msgstr "**7) Konfigurálja a szolgáltatása proxy címét**"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:91
+msgid "The Proxy URL field is the base URL seen beyond a reverse proxy."
+msgstr "A proxy URL mező a reverse proxy mögött látható alap URL."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:95
+msgid "Create a new service"
+msgstr "Új szerviz létrehozása"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:98
+msgid ""
+"Now that you have configured istSOS, it's time to create a new service "
+"instance."
+msgstr ""
+"Most, hogy konfigurálta az istSOS-t, itt az ideje egy új szolgáltatás "
+"példány létrehozásának."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:100
+msgid "**1) Create a new service**"
+msgstr "**1) Hozzon létre egy új szolgáltatást**"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:103
+msgid "From the toolbar buttons menu press the \"new service\" button:"
+msgstr "Az eszközsor gomb menüből nyomja meg  a \"new service\" gombot:"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:106
+msgid ""
+"Choose the name of your instance. In this workshop use the name **demo**."
+msgstr ""
+"Válassza ki a példányának a nevét. Ebben a munkamentben használjaa **demo** "
+"nevet."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:109
+msgid ""
+"In the EPSG field you can set the database native projection. Leaving it "
+"empty, the default one will be used."
+msgstr ""
+"Az EPSG mezőben az adatbázis vetületét állíthatja be. Ha üresen hagyja, az "
+"alapértelmezett értéket használjuk."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:112
+msgid ""
+"Clicking on the \"Customize database\" box, you are able to change the "
+"default database configuration for this new istSOS instance."
+msgstr ""
+"Kattintson a \"Customize database\" dobozra, megváltoztathatja ennek az új "
+"istSOS példánynak az alapértelmezett adatbázis konfigurációját."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:116
+msgid "**2) Press “next”**"
+msgstr "**2) Nyomja meg a \"next\"-et**"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:118
+msgid ""
+"As you pressed the “next” button, the server status panel is displayed. If "
+"something's gone wrong during the creation you will see here an alert."
+msgstr ""
+"Miután megnyomta a \"next\" gombot, a szerver státusz panel jelenik meg. Ha "
+"valami nem sikerült a létrehozás során egy riasztást lát itt."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:123
+msgid ""
+"The istSOS “demo” instance has inherited all the configuration options from "
+"the default configuration. If, for any reason you decide to modify them, the"
+" changes will affect only this instance."
+msgstr ""
+"Az istSOS \"demo\" példány minden konfigurációs beállítását az "
+"alapértelmezett konfigurációból örökli. Ha bármilyen okból a módosításukról "
+"dönt, a változtatások csak ezt a példányt fogják érinteni."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:127
+msgid "Add a new procedure"
+msgstr "Új eljárás hozzáadása"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:129
+msgid ""
+"From the “services” drop down button of the admin interface "
+"(http://localhost/istsos/admin ) choose the desired instance."
+msgstr ""
+"Az adminisztrációs interfész (http://localhost/istsos/admin ) lenyitható "
+"\"service\" gombjából válassza ki a kívánt példányt."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:131
+msgid "From the toolbar buttons menu press the \"New procedure\" button."
+msgstr "Az eszközsor gomb menüjéből nyomja meg a \"New procedure\" gombját."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:134
+msgid "Fill in the form using appropriate information."
+msgstr "Töltse ki az űrlapot megfelelő információkkal."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:137
+msgid ""
+"Once a procedure is created the outputs (observed properties) cannot be "
+"changed."
+msgstr ""
+"Egy eljárás létrehozása után az output (észlelt tulajdonságok) nem "
+"változtatható meg."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:140
+msgid "*Optional parameters:* Fill at your own need and willing"
+msgstr "*Optional parameters:* töltse ki szükségletei és szándékai szerint"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:145
+msgid "*Example* (minimal configuration)"
+msgstr "*Példa* (minimális konfiguráció)"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:147
+msgid "Name: T_LUGANO"
+msgstr "Name: T_LUGANO"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:149
+msgid "Description: temperature weather station in Lugano"
+msgstr "Description: temperature weather station in Lugano"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:151
+msgid "Keywords: weather, meteorological, IST"
+msgstr "Keywords: weather, meteorological, IST"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:153
+msgid "System type: insitu-fixed-point"
+msgstr "System type: insitu-fixed-point"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:155
+msgid "Sensor type: PTC thermistors of the \"switching\" type"
+msgstr "Sensor type: PTC thermistors of the \"switching\" type"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:157
+msgid "FOI name: LUGANO"
+msgstr "FOI name: LUGANO"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:159
+msgid "EPSG: 4326"
+msgstr "EPSG: 4326"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:161
+msgid "Coordinates: x: 8.96127 y: 46.02723 z: 344.1"
+msgstr "Coordinates: x: 8.96127 y: 46.02723 z: 344.1"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:164
+msgid "*Outputs (confirm the outputs pressing the \"add\" button):*"
+msgstr "*Output (erősítse meg az outputot az \"add\" gomb megnyomásával).*"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:167
+msgid ""
+"Observed property: urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature"
+msgstr ""
+"Observed property: urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:169
+msgid "Unit of measure: °C"
+msgstr "Unit of measure: °C"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:171
+msgid "Description (optional): conversion from resistance to temperature"
+msgstr "Description (optional): conversion from resistance to temperature"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:173
+msgid "quality index check (optional): Between / from -40 to +60"
+msgstr "quality index check (optional): Between / from -40 to +60"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:177
+msgid "Register the new sensor (procedure) pressing the \"submit\" button."
+msgstr "Regisztrálja az új szenzort (eljárást) a \"submit\" gomb megnyomásával."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:181
+msgid "Add new observations"
+msgstr "Új észlelések hozzáadása"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:183
+msgid ""
+"First we will create a text file with sensor data, formatted according to "
+"\"text/csv, subtype=istSOS\". The file uses a Comma Separated Values (CSV) "
+"format. The first line contains header information, including URI names of "
+"the observed properties. The following lines contain the data."
+msgstr ""
+"Először létrehozunk egy szövegfájlt a szenzor adatokkal, a \"text/csv, "
+"subtype=istSOS\" formátumnak megfelelően. A fájl a vesszővel elválasztott "
+"értékek (CSV) formátumot használja. Az első sor tartalmazza fejléc "
+"információt, beleértve a megfigyelt tulajdonságok URI neveit. A következő "
+"sorok tartalmazzák az adatokat."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:185
+msgid ""
+"Open a text editor by selecting :menuselection:`Accessories --> Leafpad`."
+msgstr ""
+"Nyisson meg egy szövegszerkesztőt :menuselection:`Accessories --> Leafpad`."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:187
+msgid "Copy and paste the follwing text into the text editor window:"
+msgstr ""
+"Másolja ki és illessze be a következő szöveget a szövegszerkesztő ablakba:"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:204
+msgid ""
+"Save the file as \"T_LUGANO_20140603161000000.dat\" on the Desktop. The "
+"filename convention being used is: PROCEDURENAME_YYYYMMDDhhmmssfff.dat"
+msgstr ""
+"Mentse el \"T_LUGANO_20140603161000000.dat\"  fájlként az asztalra. A "
+"használt fájlnév konvenció: PROCEDURENAME_YYYYMMDDhhmmssfff.dat"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:206
+msgid ""
+"Open a terminal by selecting :menuselection:`Accessories --> LXTerminal`."
+msgstr "Nyisson egy terminált  :menuselection:`Accessories --> LXTerminal`."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:208
+msgid "In the terminal, enter: \"cd /usr/share/istsos/\" and press ENTER"
+msgstr ""
+"A terminál ablakba gépelje be: \"cd /usr/share/istsos/\"  ésnyomjameg az "
+"ENTER-t"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:210
+msgid ""
+"Write \"python scripts/csv2istsos.py -p T_LUGANO -u http://localhost/istsos "
+"-s demo -w ~/Desktop\" and press ENTER"
+msgstr ""
+"Gépelje be \"python scripts/csv2istsos.py -p T_LUGANO -u "
+"http://localhost/istsos -s demo -w ~/Desktop\" és nyomja meg az ENTER-t"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:212
+msgid "You should see a message \"Insert observation success: True\""
+msgstr "A következő üzentet kell látnia \"Insert observation success: True\""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:214
+msgid "Click :menuselection:`Geospatial --> Webservices --> istSOS`."
+msgstr ""
+"Kattintson ide :menuselection:`Geospatial --> Webservices --> istSOS`."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:216
+msgid "Click the ENTER button in the administration page"
+msgstr "Kattintson az ENTER gombra az adminisztrációs lapon"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:218
+msgid "Click :menuselection:`Data Management --> Data Viewer`."
+msgstr "Kattintson a :menuselection:`Data Management --> Data Viewer` menüre."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:223
+msgid "Select the following:"
+msgstr "Válassza a következőket:"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:221
+msgid "Service = demo"
+msgstr "Service = demo"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:222
+msgid "Offering = temporary"
+msgstr "Offering = temporary"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:223
+msgid "Procedure T_LUGANO"
+msgstr "Procedure T_LUGANO"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:225
+msgid "Click the \"Add\" button"
+msgstr "Nyomja meg az \"Add\" gombot"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:227
+msgid ""
+"Click the \"Plot\" button and check that the data have been added (watch out"
+" at your time zone!)"
+msgstr ""
+"Kattintson a \"Plot\" gombra és ellenőrizze, hogy az adatok bekerültek-e "
+"(figyeljen az időzónájára!)"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:281
+msgid "What Next?"
+msgstr "Mi a következő?"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:284
+msgid ""
+"To learn more about istSOS, a starting point is the `istSOS Documentation`_"
+msgstr ""
+"Az `istSOS Documentation`_ egy kiindulópont, hogy többet tanuljon az istSOS-"
+"ról."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:284
+msgid "and the `istSOS Tutorial`_."
+msgstr "és az `istSOS Tutorial`_."
