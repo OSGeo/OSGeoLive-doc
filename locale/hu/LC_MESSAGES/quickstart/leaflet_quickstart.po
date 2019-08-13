@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2019-08-06 12:41-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -45,15 +45,11 @@ msgstr "Futtatás"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:24
 msgid ""
-"Prior to running this quick start you should start TileStache. On the live "
-"dvd this can be found under **Geospatial\\\\Spatial Tools\\\\Start Mapnik & "
+"Prior to running this quick start you should start TileStache. On OSGeoLive "
+"this can be found under **Geospatial\\\\Spatial Tools\\\\Start Mapnik & "
 "TileStache**. This will provide background tiles that will be used in this "
 "demo."
 msgstr ""
-"Ez a gyorstalpaló futtatása előtt a TileStache-el kellene kezdenie. A Live "
-"DVD-n ezt a  **Geospatial\\\\Spatial Tools\\\\Start Mapnik & TileStache** "
-"alatt találja. Ez biztosítja a háttér csempéket,amit ebben a demóban "
-"használunk."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:27
 msgid "View the example_"
@@ -61,13 +57,10 @@ msgstr "A példa megtekintése_"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:29
 msgid ""
-"If you are reading this quickstart outside the live dvd you may prefer "
-"reading the original demo on: http://leafletjs.com/examples/quick-start/, "
-"since this demo uses tilestache on the live dvd."
+"If you are reading this quickstart outside OSGeoLive you may prefer reading "
+"the original demo on: http://leafletjs.com/examples/quick-start/, since this"
+" demo uses tilestache on OSGeoLive."
 msgstr ""
-"Ha nem Live DVD-ről olvassa ezt a gyorstalpalót, akkor jobban teszi,ha az "
-"eredeti demót a  http://leafletjs.com/examples/quick-start/ oldalon, mivel "
-"ez a bemutató tilestache-t használja a Live DVD-n."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:32
 msgid "Preparing your page"

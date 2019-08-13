@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-07-19 08:47-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -137,12 +137,9 @@ msgstr ""
 #: ../../build/doc/quickstart/saga_quickstart.rst:72
 msgid ""
 "You can also load data by dragging and dropping it on the application. Try "
-"this with one of the datasets in the ** "
-"/home/user/data/gdal_natural_earth/** folder."
+"this with one of the datasets in the **/home/user/data/gdal_natural_earth/**"
+" folder."
 msgstr ""
-"Adatokat betölthet húzással és az alkalmazásra dobással is. Próbálja ki ezt "
-"az egyik adatállománnyal a ** /home/user/data/gdal_natural_earth/** "
-"mappából."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:76
 msgid "Displaying Data"

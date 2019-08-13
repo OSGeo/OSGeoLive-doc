@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-17 10:25-0500\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
 "Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -140,6 +140,14 @@ msgstr "Egy alaptérkép"
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:55
 msgid "In this step we will create a basic map."
 msgstr "Ebben a lépésben egy alaptérképet hozunk létre."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:57
+msgid ""
+"Create a file in e.g. /home/user/ called basic-map.html , and copy the "
+"following content into the file."
+msgstr ""
+"Hozzon létre egy fájl például a /home/user/ könyvtárban basic-map.html "
+"névvel és másolja be a következő tartalma a fájlba."
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:106
 msgid "**Ex. 1**: Basic code structure"

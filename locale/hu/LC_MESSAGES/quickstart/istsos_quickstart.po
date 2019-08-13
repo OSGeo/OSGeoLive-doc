@@ -1,25 +1,24 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki@agt.bme.hu>, 2019
 # Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# Zoltan Siki <siki@agt.bme.hu>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -141,6 +140,22 @@ msgstr ""
 msgid "**5) Configure your service coordinates system**"
 msgstr "**5) Konfigurálja a szolgáltatása koordináta-rendszerét**"
 
+#: ../../build/doc/quickstart/istsos_quickstart.rst:77
+msgid ""
+"Press the \"Coordinates system\" button to manage the Coordinate Reference "
+"System (CRS)."
+msgstr ""
+"Nyomja meg a \"Coordinates system\" gombot a koordináta referencia rendszer "
+"(CRS) kezeléséhez."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:79
+msgid ""
+"*Default EPSG code*: this will be the native Coordinate Reference System of "
+"your geometries in the database."
+msgstr ""
+"*Default EPSG code*: ez lesz az adatbázisban tárolt geometriák koordináta "
+"referencia rendszere."
+
 #: ../../build/doc/quickstart/istsos_quickstart.rst:81
 msgid ""
 "*Permitted EPSG*: here you can configure which other Coordinate Reference "
@@ -152,6 +167,16 @@ msgstr ""
 #: ../../build/doc/quickstart/istsos_quickstart.rst:83
 msgid "**6) Configure your getobservation request options**"
 msgstr "**6) Konfigurálja a getobservation kérés beállításait**"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:85
+msgid ""
+"From the toolbar buttons menu press the \"GetObservation Configuration\" "
+"button to set maximum time interval per getObservation request (zero for no "
+"limits) and aggregation no-data value."
+msgstr ""
+"Az eszközsor gombjai közül nyomja meg \"GetObservation Configuration\" "
+"gombot a getObservation kérés maximális időintervallumának és az aggregált "
+"nincs-adat érték beállításához."
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:88
 msgid "**7) Configure your service proxy address**"

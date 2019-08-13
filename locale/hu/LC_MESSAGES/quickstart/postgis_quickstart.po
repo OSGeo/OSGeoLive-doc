@@ -1,24 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki@agt.bme.hu>, 2018
+# Zoltan Siki <siki@agt.bme.hu>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -355,6 +354,22 @@ msgstr ""
 "tárolásához. Ez a tábla három mezőt tartalmaz - egyet a város azonosító "
 "számának. egyet a városnévnek és egy másikat a geometry oszlophoz:"
 
+#: ../../build/doc/quickstart/postgis_quickstart.rst:246
+msgid ""
+"Conventionally this geometry column is named ``geom`` (the older PostGIS "
+"convention was ``the_geom``). This tells PostGIS what kind of geometry each "
+"feature has (points, lines, polygons etc), how many dimensions (in this case"
+" 2, if it had 3 or 4 dimensions we would use POINTZ, POINTM, or POINTZM), "
+"and the spatial reference system. We used EPSG:4326 coordinates for our "
+"cities."
+msgstr ""
+"Hagyományosan a geometria oszlopot ``geom``-nak nevezzük (a korábbi PostGIS "
+"konvenció a ``the_geom`` volt). Ez megadja a PostGIS-nek milyen típusú "
+"geometria tartozik az egyes elemekhez (pontok, törtvonalak, területek, "
+"stb.), hány dimenziósak (ebben az esetben 2, 3 vagy 4 dimenzióhoz a POINZ, "
+"POINTM vagy POINTZM kell használni) és megadja a vetületet. EPSG:4326 "
+"koordinátákat használunk a városokhoz."
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:253
 msgid ""
 "Now if you check the cities table you should see the new column, and be "
@@ -402,6 +417,14 @@ msgid ""
 msgstr ""
 "Az összes szokásos SQL-művelet alkalmazható a PostGIS táblából származó "
 "adatok kiolvasásához:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:296
+msgid ""
+"This gives us an encoded hexadecimal version of the coordinates, not so "
+"useful for humans."
+msgstr ""
+"Ez a koordináták kódolt hexadecimális változatát adja nekünk, nem túl "
+"hasznos az embereknek. "
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:298
 msgid ""
@@ -482,6 +505,26 @@ msgstr ""
 " például a QGIS, a gvSIG, a uDIG. Most megmutatjuk hogyan készíthet térképet"
 " a QGIS-ből"
 
+#: ../../build/doc/quickstart/postgis_quickstart.rst:376
+msgid ""
+"Start QGIS from the Desktop GIS menu and choose ``Add PostGIS layers`` from "
+"the layer menu. The parameters for connecting to the Natural Earth data in "
+"PostGIS are already defined in the Connections drop-down menu. You can "
+"define new server connections here, and store the settings for easy recall. "
+"Click on Connections drop down menu and choose Natural Earth. Hit ``Edit`` "
+"if you want to see what those parameters are for Natural Earth, or just hit "
+"``Connect`` to continue:"
+msgstr ""
+"Indítsa el a QGIS-t a Desktop GIS menüből és válassza az ``Add PostGIS "
+"layers``-t (PostGIS réteg hozzáadás) a Layer (Réteg) menüből. A PostGIS-ban "
+"tárolt Natural Earth adatokhoz kapcsolódás paramétereit már beállítottuk a "
+"Connections (Kapcsolatok) legördülő listában. Itt új szerver kapcsolatokat "
+"adhat meg és tárolhatja a beállításokat a könnyű újrafelhasználáshoz. "
+"Kattintson a Connections (Kapcsolatok) legördülő listára és válassza a "
+"Natural Earth-t.Kattintson az ``Edit`` (Szerkeszt) gombra, ha meg akarja "
+"tekinteni a Natural Earth-höz tartozó paramétereket vagy egyszerűen "
+"kattintson a ``Connect``-re (Kapcsolódás) gombra a folytatáshoz:"
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:387
 msgid "You will now get a list of the spatial tables in the database:"
 msgstr "Az adatbázisban lévő téradat táblák listáját kapja meg:"
@@ -557,6 +600,17 @@ msgstr ""
 "Most a DB manager-t használjuk egy shape fájl adatbázisba importálásához. Az"
 " észak karolinai hirtelen csecsemőhalál-szindróma adatokat fogjuk használni,"
 " melyeket az egyik R statisztikai csomag bővítmény tartalmaz."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:430
+msgid ""
+"From the ``Table`` menu choose the ``Import layer/file`` option. Hit the "
+"``...`` button and browse to the ``sids.shp`` shapefile in the R "
+"``maptools`` package (located in /usr/local/lib/R/site-"
+"library/spData/shapes):"
+msgstr ""
+"A ``Table`` menüből válassza az ``Import layer/file`` opciót. Kattintson a  "
+"``...`` gombra és tallózzon a ``sids.shp`` shape fájlhoz az R ``maptools`` "
+"csomagban (a /usr/local/lib/R/site-library/spData/shapes mappában):"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:439
 msgid "Leave everything else as it is and hit ``Load``"
@@ -673,6 +727,18 @@ msgid ""
 msgstr ""
 "Az adatbázison történő lekérdezés végrehajtásához nyomja meg az ``SQL`` "
 "gombot a fő eszközsorból (a sárga nagyítólencsét tartalmazóból)."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:512
+msgid ""
+"We are going to find the rate of the SIDS over the births for the 1974 for "
+"each city. Furthermore we are going to sort the result, based on the "
+"computed rate. To do that, we need to perform the following query (submit it"
+" on the text editor of the SQL Window):"
+msgstr ""
+"Az SIDS arányát keressük a születésekhez minden városban 1974-ben. Továbbá "
+"rendezzük az eredményt a számított arányok alapján. Ehhez a következő "
+"lekérdezést kell végrehajtanunk (küldje el ezt az SQL ablak "
+"szövegszerkesztőjéből):"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:520
 msgid ""
