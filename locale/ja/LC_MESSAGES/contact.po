@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Takayuki Nuimura <nuimura@nagoya-u.jp>, 2018
+# Toshikazu SETO <tosseto@gmail.com>, 2019
+# Ko Nagase <nagase@georepublic.co.jp>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:02+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/contact.rst:2
+msgid "Contact Us"
+msgstr "問い合わせ先"
+
+#: ../../build/doc/contact.rst:4
+msgid ""
+"OSGeoLive development is coordinated via email and internet chat (IRC) as "
+"detailed on the `OSGeo Wiki "
+"<http://wiki.osgeo.org/wiki/OSGeoLive#Contact_Us>`_."
+msgstr ""
+"OSGeoLive の開発は、emailやインターネット・チャット (IRC) によってコーディネートされています。詳細については、`OSGeo "
+"Wiki <http://wiki.osgeo.org/wiki/OSGeoLive#Contact_Us>`_ を参照してください。"
+
+#: ../../build/doc/contact.rst:9
+msgid "Disclaimer"
+msgstr "免責事項"
+
+#: ../../build/doc/contact.rst:11
+msgid ""
+"This Live GIS disc and virtual-machine has been put together by members of "
+"the OSGeo community to showcase their favourite Free and Open Source (FOSS) "
+"geospatial software. We've included a number of non-OSGeo software packages,"
+" from both the spatial and non-spatial realms, which we hope you will find "
+"to be as useful as we do. The OSGeo Foundation does not recommend or "
+"guarantee any associated software, projects, or companies found within."
+msgstr ""
+"このLive "
+"GISディスクと仮想マシンは、それぞれが推奨する自由でオープンソース(FOSS)な地理空間ソフトウェアを紹介するために、OSGeoコミュニティの成員によってまとめられたものです。この中には、GISにフォーカスしたものとそれ以外にも非OSGeoソフトウェア・パッケージの幾つかも含まれていますが、我々はあなたに、我々と同様に有用であることを発見してほしいと願っています。OSGeo財団は、この中でいかなる関連するソフトウェア、プロジェクト、または企業を推奨または保証するものではありません。"
+
+#: ../../build/doc/contact.rst:16
+msgid ""
+"`These programs are distributed in the hope that they will be useful, but "
+"WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
+"or FITNESS FOR A PARTICULAR PURPOSE.`"
+msgstr ""
+"`これらのプログラムは、有用であることを願って配布されますが、いかなる場合でも無保証ですー特定の目的に対する商品性または適合性も保証するものではありません。`"
+
+#: ../../build/doc/contact.rst:20
+msgid ""
+"For additional information on the distribution of each program review their "
+"license as indicated on the page for each program."
+msgstr "各プログラムの配布の追加情報については、各プログラムのページで表示されるライセンスを確認してください。"
+
+#: ../../build/doc/contact.rst:24
+msgid "Community Support"
+msgstr "コミュニティサポート"
+
+#: ../../build/doc/contact.rst:26
+msgid ""
+"If you have any questions, comments, or run into any problems, please drop "
+"us a note on `our mailing list "
+"<http://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
+msgstr ""
+"もし何か質問やコメント、または動作で問題があれば `私たちのメーリングリスト "
+"<http://lists.osgeo.org/mailman/listinfo/osgeolive>`_ にその内容を投稿してください 。"
+
+#: ../../build/doc/contact.rst:29
+msgid ""
+"Searchable archives of the mailing list are hosted by `Nabble <http://osgeo-"
+"org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_."
+msgstr ""
+"メーリングリストの記事検索は `Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-"
+"LiveDVD-f3777350.html>`_ でホストされています。"
+
+#: ../../build/doc/contact.rst:32
+msgid ""
+"IRC users might try the #osgeolive or #osgeo channel at Freenode.net for "
+"real-time assistance. You also can meet us at Slack, Matrix or Glitter."
+msgstr ""
+"IRC ユーザーは、 Freenode.net の #osgeolive または #osgeo チャンネル でのリアルタイムによる支援をお試しください。"
+" Slack、Matrix、もしくは Glitter でも私たちと会うことができます。"
+
+#: ../../build/doc/contact.rst:35
+msgid ""
+"A wealth of information is available on our `Wiki site "
+"<http://wiki.osgeo.org/wiki/OSGeoLive>`_, and a `bug and wish tracking "
+"system <https://trac.osgeo.org/osgeolive/report/10>`_ is also available."
+msgstr ""
+"豊富な情報は、私達の `Wiki サイト <http://wiki.osgeo.org/wiki/OSGeoLive>`_ や、 "
+"`バグ・要望トラッキングシステム <https://trac.osgeo.org/osgeolive/report/10>`_ をごらんください。"
+
+#: ../../build/doc/contact.rst:38
+msgid ""
+"Stay tuned and follow OSGeoLive on Twitter `@osgeolive "
+"<https:twitter.com/osgeolive>`_."
+msgstr ""
+"OSGeoLiveのツイッターアカウントはこちらです．`@osgeolive <https:twitter.com/osgeolive>`_"
+
+#: ../../build/doc/contact.rst:41
+msgid "Commercial Support"
+msgstr "商用サポート"
+
+#: ../../build/doc/contact.rst:43
+msgid ""
+"Most packaged applications have both community and commercial support "
+"offerings for them. Refer to specific application descriptions linked from "
+"the :doc:`Contents <./overview/overview>` for details."
+msgstr ""
+"同梱されているほとんどのアプリケーションは、コミュニティと商用サポートの両方を提供しています。その詳細については、 :doc:`Contents "
+"<./overview/overview>` からリンクされている個々のアプリケーションの説明を参照してください。"
+
+#: ../../build/doc/contact.rst:46
+msgid ""
+"In addition, there are a large number of consultancy firms world wide who "
+"provide support for OSGeo member projects. See https://www.osgeo.org"
+"/service-providers/ for one that meets your needs."
+msgstr ""
+"加えて、世界的にコンサルタント企業が多数あり、 OSGeo メンバーのプロジェクトに対して支援を提供しています。あなたのニーズを満たすために、 "
+"https://www.osgeo.org/service-providers/ をご覧ください。 "
