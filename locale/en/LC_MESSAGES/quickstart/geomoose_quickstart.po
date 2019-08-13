@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:17
 msgid "GeoMoose Quickstart"
-msgstr "GeoMoose Quickstart"
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:19
 msgid ""
@@ -28,14 +28,10 @@ msgid ""
 "non-spatial data within county, city and municipal offices (from which "
 "GeoMoose originated)."
 msgstr ""
-"GeoMoose is a browser based mapping framework for displaying distributed "
-"cartographic data. It is particularly useful for managing spatial and "
-"non-spatial data within county, city and municipal offices (from which "
-"GeoMoose originated)."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:24
 msgid "Getting Started"
-msgstr "Getting Started"
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:26
 msgid ""
@@ -43,13 +39,10 @@ msgid ""
 " of GeoMoose on the Live DVD is an example configuration that displays an"
 " example set of layers."
 msgstr ""
-"GeoMoose is a GIS data portal management framework. The installed version"
-" of GeoMoose on the Live DVD is an example configuration that displays an"
-" example set of layers."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:28
 msgid "Go to the \"Browser Clients\" folder on the desktop."
-msgstr "Go to the \"Browser Clients\" folder on the desktop."
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:30
 msgid ""
@@ -57,45 +50,40 @@ msgid ""
 "default browser which will navigate to the correct location "
 "automatically."
 msgstr ""
-"Click on the desktop icon \"Start GeoMoose\". This will launch the "
-"default browser which will navigate to the correct location "
-"automatically."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:32
 msgid ""
 "You will be presented with a web page displaying a demo interface of a "
 "GeoMoose instance."
 msgstr ""
-"You will be presented with a web page displaying a demo interface of a "
-"GeoMoose instance."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:38
 msgid "The Interfaces presented above shows:"
-msgstr "The Interfaces presented above shows:"
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:40
 msgid "A banner bar"
-msgstr "A banner bar"
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:41
 msgid "A tool bar"
-msgstr "A tool bar"
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:42
 msgid "A map window with"
-msgstr "A map window with"
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:44
 msgid "A navigation and zoom controls"
-msgstr "A navigation and zoom controls"
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:46
 msgid "A side menu with:"
-msgstr "A side menu with:"
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:48
 msgid "A \"Jump to\" location pull down list"
-msgstr "A \"Jump to\" location pull down list"
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:49
 msgid ""
@@ -103,30 +91,24 @@ msgid ""
 "As needed, additional tabs will appear: an \"Information\" readout, a "
 "\"Custom\" output tab, and others."
 msgstr ""
-"Control tabs starting with \"Catalog\", for displaying the layer list.  "
-"As needed, additional tabs will appear: an \"Information\" readout, a "
-"\"Custom\" output tab, and others."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:51
 msgid "A Footer bar with:"
-msgstr "A Footer bar with:"
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:53
 msgid ""
 "Multiple coordinate readouts, one each for: X,Y (local dataset "
 "coordinates), LAT/LON (Decimal) and United States National Grid (USNG)"
 msgstr ""
-"Multiple coordinate readouts, one each for: X,Y (local dataset "
-"coordinates), LAT/LON (Decimal) and United States National Grid (USNG)"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:54
-#, fuzzy
 msgid "An editable pull down list for a view scales to choose from or define."
-msgstr "A editable pull down list for a view scales to choose from or define."
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:58
 msgid "Identifying a location in GeoMoose"
-msgstr "Identifying a location in GeoMoose"
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:60
 msgid ""
@@ -134,9 +116,6 @@ msgid ""
 "\"identify\", (\"i\" in a circle icon) button in the top toolbar, and "
 "then clicking a point on the map to identify."
 msgstr ""
-"You can identify a location in the interface by clicking on the "
-"\"identify\", (\"i\" in a circle icon) button in the top toolbar, and "
-"then clicking a point on the map to identify."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:64
 msgid ""
@@ -146,15 +125,10 @@ msgid ""
 "a query of each active and identifiable layer for the point that you "
 "clicked in the map."
 msgstr ""
-"The catalog along the left side of the Map view will change to the "
-"\"Super Tab\" - a place to where GeoMoose displays results of an action "
-"or asks for more information.  In this case, it will show the results of "
-"a query of each active and identifiable layer for the point that you "
-"clicked in the map."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:67
 msgid "Measuring in GeoMoose"
-msgstr "Measuring in GeoMoose"
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:69
 msgid ""
@@ -168,15 +142,6 @@ msgid ""
 "or polygon click on the map for each vertex a of the line/polygon.  "
 "Double click to end the line/polygon."
 msgstr ""
-"The GeoMoose measure tool allows you to measure a point (return the "
-"coordinates of a picked point), measure the distance along a potentially "
-"multi-segment line, and measure the area of a polygon.  Clicking the "
-"double ended arrow icon in the top toolbar, will start the measuring "
-"tool.  Next select if you want to measure a point, line, or polygon.  "
-"Next click on the map where you want to measure.  To measure a point, "
-"just click the point on the map you want to measure.  To measure a line "
-"or polygon click on the map for each vertex a of the line/polygon.  "
-"Double click to end the line/polygon."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:71
 msgid ""
@@ -184,13 +149,10 @@ msgid ""
 "from a vector layer, including previous query results) without having to "
 "manually trace over it."
 msgstr ""
-"Note: you can also measure a pre-existing feature on the map (if it is "
-"from a vector layer, including previous query results) without having to "
-"manually trace over it."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:83
 msgid "Selecting Features"
-msgstr "Selecting Features"
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:84
 msgid ""
@@ -201,12 +163,6 @@ msgid ""
 "  If you want to adjust your selection you can do that with the \"Modify "
 "Feature\" option."
 msgstr ""
-"You can select features from a Point, Line, Polygon, or from an existing "
-"feature.  To start, click on the \"Select Features\" icon (mouse cursor "
-"icon), pick point, line, polygon and start drawing your selection in the "
-"map.  You can double click the last point to finish the drawing process."
-"  If you want to adjust your selection you can do that with the \"Modify "
-"Feature\" option."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:86
 msgid ""
@@ -215,10 +171,6 @@ msgid ""
 "  Positive values expand what you drew by that distance, negative values "
 "shrink your drawing."
 msgstr ""
-"You also have the option to select features based on a buffered version "
-"of what you drew.  The default is to buffer by \"0\" which does nothing."
-"  Positive values expand what you drew by that distance, negative values "
-"shrink your drawing."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:88
 msgid ""
@@ -227,10 +179,6 @@ msgid ""
 "Features tool.  To be available for selection, a layer needs to be a "
 "vector layer and be configured for selection in the mapbook."
 msgstr ""
-"Select which layer you want to select features from using the \"Query "
-"Layer\" select-box.  Note: not all layers can be used with the Select "
-"Features tool.  To be available for selection, a layer needs to be a "
-"vector layer and be configured for selection in the mapbook."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:93
 msgid ""
@@ -239,13 +187,8 @@ msgid ""
 "well, highlight the selected features on the map, and show an attribute "
 "table of the selected features."
 msgstr ""
-"Finally, click the \"Go\" button to actually select the features.  "
-"GeoMoose will return a summary of what was selected in the Super Tab as "
-"well, highlight the selected features on the map, and show an attribute "
-"table of the selected features."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:98
-#, fuzzy
 msgid ""
 "If you hover over a line in the table, the corresponding feature on the "
 "map will be highlighted.  Additionally, you can use the funnel icons in "
@@ -253,15 +196,10 @@ msgid ""
 " the table header to sort results.  The results can be downloaded as a "
 "CSV file using the download icon to the top and left of the table."
 msgstr ""
-"If you hover over a line in the table, the corresponding feature on the "
-"map will be highlighted.  Additionally, you can use the funnel icons in "
-"the table header to further filter results, and uses the triangle icons "
-"in the table header to sort results.  The results can be downloaded as a "
-"CSV file using the download icon to the top and left of the table."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:102
 msgid "Searching"
-msgstr "Searching"
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:104
 msgid ""
@@ -270,82 +208,64 @@ msgid ""
 "icon.  Enter your search parameters in the Super Tab then click the "
 "\"Go!\" button."
 msgstr ""
-"You can also search for features by attribute.  To start, hover over the "
-"\"Search\" menu in the toolbar and then click on the \"Search Parcels\" "
-"icon.  Enter your search parameters in the Super Tab then click the "
-"\"Go!\" button."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:108
-#, fuzzy
 msgid ""
 "The following screenshot demonstrates a search of all parcel owners "
 "containing the name \"frank\"."
 msgstr ""
-"The following screenshot demostrates a search of all parcel owners "
-"containing the name \"frank\"."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:112
 msgid "Three results appear in the list and are highlighted on the map."
-msgstr "Three results appear in the list and are highlighted on the map."
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:116
 msgid ""
 "Clicking the magnifying glass icon/parcel number will zoom you to the "
 "specific parcel as illustrated in the following screenshot."
 msgstr ""
-"Clicking the magnifying glass icon/parcel number will zoom you to the "
-"specific parcel as illustrated in the following screenshot."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:122
 msgid "Printing"
-msgstr "Printing"
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:124
-#, fuzzy
 msgid ""
 "This next screenshot shows how the Print tool looks as provided with demo"
 " for GeoMoose.  When you click on the Print tool, a dialog appears which "
 "asks for a title for the printed map, the page size and rotation, printed"
 " resolution, and shows a preview of what will be printed."
 msgstr ""
-"This next screenshot shows what the Print tool looks as provided with "
-"demo for GeoMoose.  When you click on the Print tool, a dialog appears "
-"which asks for a title for the printed map, the page size and rotation, "
-"printed resolution, and shows a preview of what will be printed."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:128
 msgid ""
 "Clicking the Print button in the dialog will generate a PDF printout that"
 " you can open or save."
 msgstr ""
-"Clicking the Print button in the dialog will generate a PDF printout that"
-" you can open or save."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:134
 msgid "What Next?"
-msgstr "What Next?"
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:136
 msgid ""
 "This is only the first step on the road to using GeoMoose. There is a lot"
 " more functionality you can try."
 msgstr ""
-"This is only the first step on the road to using GeoMoose. There is a lot"
-" more functionality you can try."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:139
 msgid "GeoMoose Project home"
-msgstr "GeoMoose Project home"
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:141
 msgid "https://www.geomoose.org/"
-msgstr "https://www.geomoose.org/"
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:143
 msgid "GeoMoose Tutorial"
-msgstr "GeoMoose Tutorial"
+msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:145
 msgid "https://www.geomoose.org/quickstart.html"
-msgstr "https://www.geomoose.org/quickstart.html"
+msgstr ""
 

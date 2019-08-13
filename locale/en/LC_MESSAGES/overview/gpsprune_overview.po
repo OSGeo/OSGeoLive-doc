@@ -1,164 +1,140 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:15
 msgid "GpsPrune"
-msgstr "GpsPrune"
+msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:18
 msgid "GPS Track-Editing"
-msgstr "GPS Track-Editing"
+msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:20
 msgid ""
-"`GpsPrune <https://gpsprune.activityworkshop.net/>`_ is a tool for viewing, "
-"editing and converting coordinate data from GPS systems.  It can be used for"
-" planning trips in advance, or for analysing the tracks recorded by GPS "
-"receivers."
+"`GpsPrune <https://gpsprune.activityworkshop.net/>`_ is a tool for "
+"viewing, editing and converting coordinate data from GPS systems.  It can"
+" be used for planning trips in advance, or for analysing the tracks "
+"recorded by GPS receivers."
 msgstr ""
-"`GpsPrune <https://gpsprune.activityworkshop.net/>`_ is a tool for viewing, "
-"editing and converting coordinate data from GPS systems.  It can be used for"
-" planning trips in advance, or for analysing the tracks recorded by GPS "
-"receivers."
 
 #: ../../build/doc/overview/gpsprune_overview.rst:24
 msgid ""
-"It uses :doc:`OpenStreetMap <osm_dataset_overview>` imagery to show recorded"
-" tracks and waypoints, and provides a variety of tools to let you edit, crop"
-" and prune the data points.  It also has functions for correlating photos "
-"and audio files to the coordinates using the file timestamps."
+"It uses :doc:`OpenStreetMap <osm_dataset_overview>` imagery to show "
+"recorded tracks and waypoints, and provides a variety of tools to let you"
+" edit, crop and prune the data points.  It also has functions for "
+"correlating photos and audio files to the coordinates using the file "
+"timestamps."
 msgstr ""
-"It uses :doc:`OpenStreetMap <osm_dataset_overview>` imagery to show recorded"
-" tracks and waypoints, and provides a variety of tools to let you edit, crop"
-" and prune the data points.  It also has functions for correlating photos "
-"and audio files to the coordinates using the file timestamps."
 
 #: ../../build/doc/overview/gpsprune_overview.rst:29
 msgid ""
 "GpsPrune uses Gpsbabel, if available, to read data directly from a GPS "
 "receiver, and can send the edited data back to the receiver too."
 msgstr ""
-"GpsPrune uses Gpsbabel, if available, to read data directly from a GPS "
-"receiver, and can send the edited data back to the receiver too."
 
 #: ../../build/doc/overview/gpsprune_overview.rst:32
 msgid ""
-"GpsPrune runs on Mac OSX, Windows and Linux, and is available in over ten "
-"different languages."
+"GpsPrune runs on Mac OSX, Windows and Linux, and is available in over ten"
+" different languages."
 msgstr ""
-"GpsPrune runs on Mac OSX, Windows and Linux, and is available in over ten "
-"different languages."
 
 #: ../../build/doc/overview/gpsprune_overview.rst:42
 msgid "Core Features"
-msgstr "Core Features"
+msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:44
 msgid ""
-"Load data from text files, gpx files, kml/kmz files, or directly from a GPS "
-"receiver"
+"Load data from text files, gpx files, kml/kmz files, or directly from a "
+"GPS receiver"
 msgstr ""
-"Load data from text files, gpx files, kml/kmz files, or directly from a GPS "
-"receiver"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:45
 msgid ""
 "Zoomable map imagery from OpenStreetMap or any compatible server "
 "(OpenCycleMap, Reit- und Wanderkarte etc)"
 msgstr ""
-"Zoomable map imagery from OpenStreetMap or any compatible server "
-"(OpenCycleMap, Reit- und Wanderkarte etc)"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:46
 msgid "Altitude or speed profile view"
-msgstr "Altitude or speed profile view"
+msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:47
 msgid ""
-"Editing tools for creating, modifying, deleting, reversing and compressing "
-"tracks"
+"Editing tools for creating, modifying, deleting, reversing and "
+"compressing tracks"
 msgstr ""
-"Editing tools for creating, modifying, deleting, reversing and compressing "
-"tracks"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:48
 msgid ""
-"Interactive 3d view of the data or export to POV format for 3D rendering, "
-"both including map imagery painted onto the terrain"
+"Interactive 3d view of the data or export to POV format for 3D rendering,"
+" both including map imagery painted onto the terrain"
 msgstr ""
-"Interactive 3d view of the data or export to POV format for 3D rendering, "
-"both including map imagery painted onto the terrain"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:49
 msgid ""
 "Save data to text files, gpx files, kml/kmz files, or directly to a GPS "
 "receiver"
 msgstr ""
-"Save data to text files, gpx files, kml/kmz files, or directly to a GPS "
-"receiver"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:50
 msgid ""
-"Automatic correlation of photographs and audio files with the loaded data "
-"using timestamps"
+"Automatic correlation of photographs and audio files with the loaded data"
+" using timestamps"
 msgstr ""
-"Automatic correlation of photographs and audio files with the loaded data "
-"using timestamps"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:51
-msgid ""
-"Creation of charts such as altitude against distance, speed against time"
+msgid "Creation of charts such as altitude against distance, speed against time"
 msgstr ""
-"Creation of charts such as altitude against distance, speed against time"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:52
 msgid "Distances, climbs, descents, time estimates and more"
-msgstr "Distances, climbs, descents, time estimates and more"
+msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:53
 msgid "Online resources such as wikipedia, gpsies and local weather forecasts"
 msgstr ""
-"Online resources such as wikipedia, gpsies and local weather forecasts"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:56
 msgid "Details"
-msgstr "Details"
+msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:58
 msgid "**Website:** https://gpsprune.activityworkshop.net/"
-msgstr "**Website:** https://gpsprune.activityworkshop.net/"
+msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:60
 msgid "**Licence:** GNU General Public License (GPL) version 2"
-msgstr "**Licence:** GNU General Public License (GPL) version 2"
+msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:62
 msgid "**Software Version:** |version-gpsprune|"
-msgstr "**Software Version:** |version-gpsprune|"
+msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:64
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, Windows"
-msgstr "**Supported Platforms:** GNU/Linux, Mac OSX, Windows"
+msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:69
 msgid "Quickstart"
-msgstr "Quickstart"
+msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:71
 msgid ":doc:`Quickstart documentation <../quickstart/gpsprune_quickstart>`"
-msgstr ":doc:`Quickstart documentation <../quickstart/gpsprune_quickstart>`"
+msgstr ""
+

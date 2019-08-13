@@ -246,6 +246,3 @@ msgid ""
 "questions."
 msgstr ""
 
-#~ msgid "If you want to remove a cache folder you can the following command:"
-#~ msgstr ""
-

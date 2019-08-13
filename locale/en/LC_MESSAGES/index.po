@@ -1,93 +1,83 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../build/doc/index.rst:3
 msgid "Welcome to |osgeolive-version|"
-msgstr "Welcome to |osgeolive-version|"
+msgstr ""
 
 #: ../../build/doc/index.rst:19
 msgid ""
-"`OSGeoLive <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB "
-"thumb drive or Virtual Machine based on `Lubuntu <http://lubuntu.net>`_, "
-"that allows you to try a wide variety of open source geospatial software "
-"without installing anything. It is composed entirely of free software, "
-"allowing it to be freely distributed, duplicated and passed around."
+"`OSGeoLive <http://live.osgeo.org>`_ is a self-contained bootable DVD, "
+"USB thumb drive or Virtual Machine based on `Lubuntu "
+"<http://lubuntu.net>`_, that allows you to try a wide variety of open "
+"source geospatial software without installing anything. It is composed "
+"entirely of free software, allowing it to be freely distributed, "
+"duplicated and passed around."
 msgstr ""
-"`OSGeoLive <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB "
-"thumb drive or Virtual Machine based on `Lubuntu <http://lubuntu.net>`_, "
-"that allows you to try a wide variety of open source geospatial software "
-"without installing anything. It is composed entirely of free software, "
-"allowing it to be freely distributed, duplicated and passed around."
 
 #: ../../build/doc/index.rst:31
 msgid ""
-"It provides pre-configured applications for a range of geospatial use cases,"
-" including storage, publishing, viewing, analysis and manipulation of data. "
-"It also contains sample datasets and documentation."
+"It provides pre-configured applications for a range of geospatial use "
+"cases, including storage, publishing, viewing, analysis and manipulation "
+"of data. It also contains sample datasets and documentation."
 msgstr ""
-"It provides pre-configured applications for a range of geospatial use cases,"
-" including storage, publishing, viewing, analysis and manipulation of data. "
-"It also contains sample datasets and documentation."
 
 #: ../../build/doc/index.rst:35
 msgid "To try out the applications, simply:"
-msgstr "To try out the applications, simply:"
+msgstr ""
 
 #: ../../build/doc/index.rst:37
 msgid "Insert DVD or USB thumb drive in computer or virtual machine."
-msgstr "Insert DVD or USB thumb drive in computer or virtual machine."
+msgstr ""
 
 #: ../../build/doc/index.rst:38
 msgid "Reboot computer. (verify boot device order if necessary)"
-msgstr "Reboot computer. (verify boot device order if necessary)"
+msgstr ""
 
 #: ../../build/doc/index.rst:39
 msgid "Press \"Enter\" to startup & login."
-msgstr "Press \"Enter\" to startup & login."
+msgstr ""
 
 #: ../../build/doc/index.rst:40
 msgid "Select and run applications from the \"Geospatial\" menu."
-msgstr "Select and run applications from the \"Geospatial\" menu."
+msgstr ""
 
 #: ../../build/doc/index.rst:42
 msgid ""
-"OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo "
-"Foundation is a not-for-profit supporting Geospatial Open Source Software "
-"development, promotion and `education <http://www.geoforall.org/>`_."
+"OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The "
+"OSGeo Foundation is a not-for-profit supporting Geospatial Open Source "
+"Software development, promotion and `education "
+"<http://www.geoforall.org/>`_."
 msgstr ""
-"OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo "
-"Foundation is a not-for-profit supporting Geospatial Open Source Software "
-"development, promotion and `education <http://www.geoforall.org/>`_."
 
 #: ../../build/doc/index.rst:47
 msgid "Quick Starts"
-msgstr "Quick Starts"
+msgstr ""
 
 #: ../../build/doc/index.rst:81
 msgid "Presentation"
-msgstr "Presentation"
+msgstr ""
 
 #: ../../build/doc/index.rst:83
 msgid ""
-"A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive "
-"applications, is available with slides, script, and `abstract "
+"A half hour `presentation <presentation.html>`_, highlighting all "
+"OSGeoLive applications, is available with slides, script, and `abstract "
 "<presentation/abstract.txt>`_."
 msgstr ""
-"A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive "
-"applications, is available with slides, script, and `abstract "
-"<presentation/abstract.txt>`_."
+

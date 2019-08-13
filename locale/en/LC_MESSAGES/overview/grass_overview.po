@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:21
 msgid "GRASS GIS"
-msgstr "GRASS GIS"
+msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:24
 msgid "Fully featured GIS"
-msgstr "Fully featured GIS"
+msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:26
 msgid ""
@@ -40,18 +40,6 @@ msgid ""
 " has been translated into many languages and supports a huge array of "
 "data formats."
 msgstr ""
-"The Geographic Resources Analysis Support System, commonly referred to as"
-" GRASS, is a Geographic Information System (GIS) providing powerful "
-"raster, vector, and geospatial processing engines in a single integrated "
-"software suite. GRASS GIS includes tools for spatial modeling, "
-"visualization of raster and vector data, management and analysis of "
-"geospatial data, and the processing of satellite and aerial imagery. It "
-"comes with a temporal framework for advanced time series processing and a"
-" Python API for rapid geospatial programming. GRASS GIS has been "
-"optimized for performance and large geospatial data analysis. It also can"
-" produce sophisticated presentation graphics and hardcopy maps. GRASS GIS"
-" has been translated into many languages and supports a huge array of "
-"data formats."
 
 #: ../../build/doc/overview/grass_overview.rst:40
 msgid ""
@@ -61,11 +49,6 @@ msgid ""
 " open-source software released under the terms of the GNU General Public "
 "License."
 msgstr ""
-"GRASS GIS is used around the world in academic and commercial settings as"
-" well as by many governmental agencies and environmental consulting "
-"companies. It runs on a variety of popular hardware platforms and is Free"
-" open-source software released under the terms of the GNU General Public "
-"License."
 
 #: ../../build/doc/overview/grass_overview.rst:45
 msgid ""
@@ -78,73 +61,56 @@ msgid ""
 "supercomputers as well as a handy desktop GIS for handheld PDAs or "
 "netbooks."
 msgstr ""
-"The GRASS GIS software includes more than 400 built-in analysis modules. "
-"Additionally, over 100 community supplied modules and toolboxes are "
-"available for free from the Add-on repository. After more than 30 years "
-"of continuous development GRASS GIS is both the longest maintained and "
-"largest Open Source GIS available. It is easily scriptable and versatile "
-"enough to be used both for batch data processing on massively-parallel "
-"supercomputers as well as a handy desktop GIS for handheld PDAs or "
-"netbooks."
 
 #: ../../build/doc/overview/grass_overview.rst:63
 msgid "Core Features"
-msgstr "Core Features"
+msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:65
-#, fuzzy
 msgid ""
 "You name it, there's a `tool for it "
 "<https://grass.osgeo.org/grass76/manuals/keywords.html>`_."
 msgstr ""
-"You name it, there's a `tool for it "
-"<http://grass.osgeo.org/grass74/manuals/keywords.html>`_."
 
 #: ../../build/doc/overview/grass_overview.rst:66
-#, fuzzy
 msgid ""
 "Explore the `screenshot collection "
 "<https://grass.osgeo.org/screenshots/>`_."
 msgstr ""
-"Explore the `screenshot collection "
-"<http://grass.osgeo.org/screenshots/>`_."
 
 #: ../../build/doc/overview/grass_overview.rst:69
 msgid "Details"
-msgstr "Details"
+msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:71
-#, fuzzy
 msgid "**Website:** https://grass.osgeo.org"
-msgstr "**Website:** http://grass.osgeo.org"
+msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:73
-#, fuzzy
 msgid "**Licence:** GNU General Public License (GPL) version 2+"
-msgstr "**Licence:** GNU General Public License (GPL) version 2"
+msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:75
 msgid "**Software Version:** |version-grass|"
-msgstr "**Software Version:** |version-grass|"
+msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:77
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
-msgstr "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
+msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:79
 msgid "**API Interfaces:** C, Python, Bourne Shell"
-msgstr "**API Interfaces:** C, Python, Bourne Shell"
+msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:81
-#, fuzzy
 msgid "**Support:** https://grass.osgeo.org/support/"
-msgstr "**Support:** http://grass.osgeo.org/support/"
+msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:86
 msgid "Quickstart"
-msgstr "Quickstart"
+msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:88
 msgid ":doc:`Quickstart documentation <../quickstart/grass_quickstart>`"
-msgstr ":doc:`Quickstart documentation <../quickstart/grass_quickstart>`"
+msgstr ""
 

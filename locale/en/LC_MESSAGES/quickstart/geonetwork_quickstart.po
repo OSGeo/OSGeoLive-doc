@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-06 12:41-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:23
 msgid "GeoNetwork Quickstart"
-msgstr "GeoNetwork Quickstart"
+msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:25
 msgid ""
@@ -28,10 +28,6 @@ msgid ""
 "well as an interactive web map viewer. It is currently used in numerous "
 "Spatial Data Infrastructure initiatives across the world."
 msgstr ""
-"GeoNetwork is a catalog application to manage spatially referenced "
-"resources. It provides powerful metadata editing and search functions as "
-"well as an interactive web map viewer. It is currently used in numerous "
-"Spatial Data Infrastructure initiatives across the world."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:30
 msgid "Prerequisites"
@@ -54,9 +50,8 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:38
-#, fuzzy
 msgid "1. Access the catalog"
-msgstr "Starting the catalog"
+msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:40
 msgid ""
@@ -159,14 +154,12 @@ msgid "Select **Search** in the top toolbar to access the Search page."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:100
-#, fuzzy
 msgid "The Search page provides different ways for search:"
-msgstr "The search form provides different ways for search:"
+msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:102
-#, fuzzy
 msgid "a full text search box providing suggestions as you type,"
-msgstr "a full text search box providing suggestions"
+msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:108
 msgid ""
@@ -403,164 +396,4 @@ msgid ""
 "to associate resources with your metadata, tag it with keywords and add "
 "it to categories, and publish your metadata to the outside world."
 msgstr ""
-
-#~ msgid ""
-#~ "Apart from how to start the "
-#~ "catalog, this Quick Start describes: *"
-#~ " some of the different ways you "
-#~ "can search for spatial data * how"
-#~ " to download and display data from"
-#~ " the search results"
-#~ msgstr ""
-#~ "Apart from how to start the "
-#~ "catalog, this Quick Start describes: *"
-#~ " some of the different ways you "
-#~ "can search for spatial data * how"
-#~ " to download and display data from"
-#~ " the search results"
-
-#~ msgid ""
-#~ "After going through the installer steps,"
-#~ " simply go to bin folder and "
-#~ "click on start.bat (on windows) or "
-#~ "start.sh (on linux)."
-#~ msgstr ""
-#~ "After going through the installer steps,"
-#~ " simply go to bin folder and "
-#~ "click on start.bat (on windows) or "
-#~ "start.sh (on linux)."
-
-#~ msgid ""
-#~ "Go to the home page at "
-#~ "``http://localhost:8880/geonetwork``. Your first "
-#~ "view should look like this:"
-#~ msgstr ""
-#~ "Go to the home page at "
-#~ "``http://localhost:8880/geonetwork``. Your first "
-#~ "view should look like this:"
-
-#~ msgid "Signing in and load templates"
-#~ msgstr "Signing in and load templates"
-
-#~ msgid ""
-#~ "Click the ``sign in`` to connect "
-#~ "as administrator. The default account is"
-#~ " username ``admin`` with password "
-#~ "``admin``."
-#~ msgstr ""
-#~ "Click the ``sign in`` to connect "
-#~ "as administrator. The default account is"
-#~ " username ``admin`` with password "
-#~ "``admin``."
-
-#~ msgid ""
-#~ "Once connected, the top toolbar should"
-#~ " provide a link to the ``admin "
-#~ "console`` and your login details."
-#~ msgstr ""
-#~ "Once connected, the top toolbar should"
-#~ " provide a link to the ``admin "
-#~ "console`` and your login details."
-
-#~ msgid "Go to the ``admin console`` and click on metadata and templates:"
-#~ msgstr "Go to the ``admin console`` and click on metadata and templates:"
-
-#~ msgid ""
-#~ "Choose all standards and click ``load"
-#~ " samples`` and then ``load templates`` "
-#~ "in order to load examples:"
-#~ msgstr ""
-#~ "Choose all standards and click ``load"
-#~ " samples`` and then ``load templates`` "
-#~ "in order to load examples:"
-
-#~ msgid "Go back to the search page to see examples:"
-#~ msgstr "Go back to the search page to see examples:"
-
-#~ msgid "Searching information"
-#~ msgstr "Searching information"
-
-#~ msgid ""
-#~ "facets which defines groups that you "
-#~ "can easily click on to browse the"
-#~ " content of the catalog"
-#~ msgstr ""
-#~ "facets which defines groups that you "
-#~ "can easily click on to browse the"
-#~ " content of the catalog"
-
-#~ msgid "spatial filtering to choose information in specific areas"
-#~ msgstr "spatial filtering to choose information in specific areas"
-
-#~ msgid "advanced search"
-#~ msgstr "advanced search"
-
-#~ msgid "Discovering information"
-#~ msgstr "Discovering information"
-
-#~ msgid ""
-#~ "Search results present main information "
-#~ "about each resources: title, abstract, "
-#~ "categories, status, overview and links."
-#~ msgstr ""
-#~ "Search results present main information "
-#~ "about each resources: title, abstract, "
-#~ "categories, status, overview and links."
-
-#~ msgid ""
-#~ "Clicking the record will provide more"
-#~ " in depth details about the "
-#~ "resources:"
-#~ msgstr ""
-#~ "Clicking the record will provide more"
-#~ " in depth details about the "
-#~ "resources:"
-
-#~ msgid "Download and links"
-#~ msgstr "Download and links"
-
-#~ msgid "About the resource"
-#~ msgstr "About the resource"
-
-#~ msgid "Technical information"
-#~ msgstr "Technical information"
-
-#~ msgid "Metadata details"
-#~ msgstr "Metadata details"
-
-#~ msgid ""
-#~ "To get more information, switch the "
-#~ "advanced view mode. To update the "
-#~ "record, click the edit button."
-#~ msgstr ""
-#~ "To get more information, switch the "
-#~ "advanced view mode. To update the "
-#~ "record, click the edit button."
-
-#~ msgid ""
-#~ "From the results or the record "
-#~ "view, you can easily add WMS "
-#~ "layers referenced in a metadata record"
-#~ " on the map. With the map, you"
-#~ " can visualize your data, choose your"
-#~ " background maps, query objects, display"
-#~ " on a 3D globe and more ..."
-#~ msgstr ""
-#~ "From the results or the record "
-#~ "view, you can easily add WMS "
-#~ "layers referenced in a metadata record"
-#~ " on the map. With the map, you"
-#~ " can visualize your data, choose your"
-#~ " background maps, query objects, display"
-#~ " on a 3D globe and more ..."
-
-#~ msgid "What Next?"
-#~ msgstr "What Next?"
-
-#~ msgid ""
-#~ "Continue reading the documentation: http"
-#~ "://geonetwork-opensource.org/docs.html"
-#~ msgstr ""
-#~ "Continue reading the documentation: http"
-#~ "://geonetwork-opensource.org/docs.html"
 

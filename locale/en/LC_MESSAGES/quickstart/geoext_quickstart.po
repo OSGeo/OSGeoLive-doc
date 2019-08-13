@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-06 12:41-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -180,13 +180,4 @@ msgstr ""
 #: ../../build/doc/quickstart/geoext_quickstart.rst:278
 msgid "The `ExtJS 6.2.0 API docs <https://docs.sencha.com/extjs/6.2.0/>`_"
 msgstr ""
-
-#~ msgid ""
-#~ "First create a new HTML file at"
-#~ " ``/var/www/html/geoext/demo.html`` using the "
-#~ "text editor Leafpad installed on "
-#~ "OSGeoLive (you can open this via "
-#~ "the Start menu under "
-#~ ":menuselection:`Accessories --> Leafpad`)."
-#~ msgstr ""
 
