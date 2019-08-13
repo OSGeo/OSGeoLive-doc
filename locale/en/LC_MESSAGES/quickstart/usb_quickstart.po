@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:9
 msgid "Creating an OSGeoLive Bootable USB flash drive"
-msgstr "Creating an OSGeoLive Bootable USB flash drive"
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:11
 msgid ""
@@ -28,47 +28,34 @@ msgid ""
 " a DVD, and the USB drive can be configured to store data between "
 "sessions (called persistence)."
 msgstr ""
-"This quickstart describes the preferred method for creating a Bootable "
-"OSGeoLive USB flash drive. Booting from a flash drive is faster than from"
-" a DVD, and the USB drive can be configured to store data between "
-"sessions (called persistence)."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:13
-#, fuzzy
 msgid ""
 "We have found that there are a number of quirks and tricks involved in "
 "successfully building a USB drive. We have documented what we know, but "
 "there are likely more tricks and issues. Look for latest tips here: "
 "https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB"
 msgstr ""
-"We have have found that there are a number of quirks and tricks involved "
-"in successfully building a USB drive. We have documented what we know, "
-"but there are likely more tricks and issues. Look for latest tips here: "
-"http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:16
 msgid "Requirements"
-msgstr "Requirements"
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:18
 msgid "A USB flash drive (at least 4 Gig, 8+ Gig is recommended)."
-msgstr "A USB flash drive (at least 4 Gig, 8+ Gig is recommended)."
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:19
 msgid ""
 "An OSGeoLive ISO image (downloaded from: "
 "http://live.osgeo.org/en/download.html) or converted from a DVD."
 msgstr ""
-"An OSGeoLive ISO image (downloaded from: "
-"http://live.osgeo.org/en/download.html) or converted from a DVD."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:21
 msgid ""
 "For a 4 GB USB flash drive, use osgeolive-mini ISO (without Windows and "
 "Mac installers), without persistence."
 msgstr ""
-"For a 4 GB USB flash drive, use osgeolive-mini ISO (without Windows and "
-"Mac installers), without persistence."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:22
 msgid ""
@@ -76,13 +63,10 @@ msgid ""
 "ISO (with Windows and Mac installers). 8+ GB is recommended if you wish "
 "to support persistence."
 msgstr ""
-"For a 8+ GB USB flash drive, use either osgeolive-mini ISO, or osgeolive "
-"ISO (with Windows and Mac installers). 8+ GB is recommended if you wish "
-"to support persistence."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:25
 msgid "Creating bootable USB drive with ``dd`` under Linux"
-msgstr "Creating bootable USB drive with ``dd`` under Linux"
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:27
 msgid ""
@@ -91,54 +75,42 @@ msgid ""
 "directly to the block device for a USB drive with the ``dd`` command-line"
 " utility:"
 msgstr ""
-"ISO images for OSGeoLive 10.5 and later are *isohybrid* (and for amd64, "
-"also support UEFI boot). Under Linux, these images can be written "
-"directly to the block device for a USB drive with the ``dd`` command-line"
-" utility:"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:33
 msgid ""
 "``/dev/sdX`` is the block device for the USB drive, where ``X`` might be "
 "``b`` or ``c``."
 msgstr ""
-"``/dev/sdX`` is the block device for the USB drive, where ``X`` might be "
-"``b`` or ``c``."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:34
 msgid ""
 "Use ``lsblk`` to list block devices and ``dmesg`` to see kernel messages "
 "identifying the USB drive when it is connected."
 msgstr ""
-"Use ``lsblk`` to list block devices and ``dmesg`` to see kernel messages "
-"identifying the USB drive when it is connected."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:35
 msgid "The USB drive should not be mounted."
-msgstr "The USB drive should not be mounted."
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:36
 msgid "``sudo`` is not required if the command is run as ``root``."
-msgstr "``sudo`` is not required if the command is run as ``root``."
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:39
 msgid ""
 "Be certain to select the correct block device as ``dd`` will overwrite it"
 " without question, even if it is your primary system drive."
 msgstr ""
-"Be certain to select the correct block device as ``dd`` will overwrite it"
-" without question, even if it is your primary system drive."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:42
 msgid "Creating bootable USB drive with Ubuntu Startup Disk Creator"
-msgstr "Creating bootable USB drive with Ubuntu Startup Disk Creator"
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:44
 msgid ""
 "(This is the recommended process for creating a USB. It is applicable to "
 "Ubuntu and Ubuntu variants such as OSGeoLive.)"
 msgstr ""
-"(This is the recommended process for creating a USB. It is applicable to "
-"Ubuntu and Ubuntu variants such as OSGeoLive.)"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:47
 msgid ""
@@ -147,18 +119,12 @@ msgid ""
 "OSGeoLive 8.0 onto a USB, then you will need to be running Ubuntu 14.04 "
 "or newer."
 msgstr ""
-"The version of Ubuntu you are running, needs to be the same or newer than"
-" the version of Lubuntu being installed onto your USB.  If installing "
-"OSGeoLive 8.0 onto a USB, then you will need to be running Ubuntu 14.04 "
-"or newer."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:49
 msgid ""
 "`Download <http://live.osgeo.org/en/download.html>`_ osgeolive or "
 "osgeolive-mini to your computer's hard drive."
 msgstr ""
-"`Download <http://live.osgeo.org/en/download.html>`_ osgeolive or "
-"osgeolive-mini to your computer's hard drive."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:51
 msgid ""
@@ -166,29 +132,22 @@ msgid ""
 "this by running from an OSGeoLive DVD, as explained in "
 ":doc:`osgeolive_quickstart`."
 msgstr ""
-"Boot your computer into a recent Ubuntu/Xbuntu distribution. You can do "
-"this by running from an OSGeoLive DVD, as explained in "
-":doc:`osgeolive_quickstart`."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:53
 msgid "Insert the USB flash drive into your computer."
-msgstr "Insert the USB flash drive into your computer."
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:58
 msgid ""
 "Select :menuselection:`System Tools --> Startup Disk Creator`, or search "
 "for `Startup Disk Creator` from the Unity desktop."
 msgstr ""
-"Select :menuselection:`System Tools --> Startup Disk Creator`, or search "
-"for `Startup Disk Creator` from the Unity desktop."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:63
 msgid ""
 "Select the osgeolive or osgeolive-mini ISO Image that you downloaded "
 "earlier."
 msgstr ""
-"Select the osgeolive or osgeolive-mini ISO Image that you downloaded "
-"earlier."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:65
 msgid ""
@@ -197,47 +156,40 @@ msgid ""
 " In order for this option to be available you will need an 8+ GB USB "
 "flash drive."
 msgstr ""
-"Select the USB flash drive. If you have extra room you might adjust the "
-"slider to create persistent storage space on the USB drive (recommended)."
-" In order for this option to be available you will need an 8+ GB USB "
-"flash drive."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:67
 msgid "Select :guilabel:`Make Startup Disk`"
-msgstr "Select :guilabel:`Make Startup Disk`"
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:72
 msgid "Wait 20 minutes or so for the USB flash drive to be created."
-msgstr "Wait 20 minutes or so for the USB flash drive to be created."
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:76
 msgid "Booting from the USB drive:"
-msgstr "Booting from the USB drive:"
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:78
 msgid "Start with the computer off."
-msgstr "Start with the computer off."
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:79
 msgid "Insert the USB drive into an open USB port."
-msgstr "Insert the USB drive into an open USB port."
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:80
 msgid "Power on the Machine and select to boot from USB:"
-msgstr "Power on the Machine and select to boot from USB:"
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:82
 msgid "Most computers are not set to boot from a USB drive by default."
-msgstr "Most computers are not set to boot from a USB drive by default."
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:83
-#, fuzzy
 msgid ""
 "When booting, look for a message indicating a Boot Menu (most commonly "
 "you press F12)"
 msgstr ""
-"When booting, look for a message indicting a Boot Menu (most commonly you"
-" press F12)"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:84
 msgid ""
@@ -247,79 +199,62 @@ msgid ""
 " http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-"
 "access-bios-for-various-oem-and-computer-systems/"
 msgstr ""
-"If your computer does not have a boot menu, then boot into your system "
-"BIOS. The button to enter BIOS varies by brand and model of computer. If "
-"you can't figure out yours try this website that lists many BIOS hotkeys."
-" http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-"
-"access-bios-for-various-oem-and-computer-systems/"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:86
 msgid "Select to boot from the USB device."
-msgstr "Select to boot from the USB device."
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:88
 msgid ""
 "Note, that for some computers you will need to have the USB drive "
 "inserted into the computer in order to select it."
 msgstr ""
-"Note, that for some computers you will need to have the USB drive "
-"inserted into the computer in order to select it."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:89
 msgid ""
 "Note also, the USB drive is often listed under hard drives rather than "
 "removable devices."
 msgstr ""
-"Note also, the USB drive is often listed under hard drives rather than "
-"removable devices."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:90
 msgid ""
 "This `Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates "
 "booting from USB."
 msgstr ""
-"This `Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates "
-"booting from USB."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:93
 msgid "Run:"
-msgstr "Run:"
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:95
 msgid "Run as per: :doc:`osgeolive_quickstart`"
-msgstr "Run as per: :doc:`osgeolive_quickstart`"
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:98
 msgid "See Also:"
-msgstr "See Also:"
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:100
 msgid ":doc:`osgeolive_quickstart`"
-msgstr ":doc:`osgeolive_quickstart`"
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:101
 msgid ":doc:`virtualization_quickstart`"
-msgstr ":doc:`virtualization_quickstart`"
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:102
 msgid ":doc:`osgeolive_install_quickstart`"
-msgstr ":doc:`osgeolive_install_quickstart`"
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:103
-#, fuzzy
 msgid ""
 "Alternative USB creation methods and latest tips are collected here: "
 "`wiki <https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
 msgstr ""
-"Alternative USB creation methods and latest tips are collected here: "
-"`wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:104
-#, fuzzy
 msgid ""
 "Questions can be directed to our email list: "
 "https://lists.osgeo.org/pipermail/osgeolive/"
 msgstr ""
-"Questions can be directed to our email list: "
-"http://lists.osgeo.org/mailman/listinfo/live-demo"
 

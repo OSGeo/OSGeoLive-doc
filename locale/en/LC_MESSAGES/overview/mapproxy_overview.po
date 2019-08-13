@@ -1,309 +1,293 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:18
 msgid "MapProxy"
-msgstr "MapProxy"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:21
 msgid "Proxy WMS & tile services"
-msgstr "Proxy WMS & tile services"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:23
 msgid ""
 "MapProxy speeds up mapping applications by pre-rendering and integrating "
-"maps from multiple sources and storing in a local cache. Layers can be made "
-"transparent, projections can be changed, multiple map layers can be "
+"maps from multiple sources and storing in a local cache. Layers can be "
+"made transparent, projections can be changed, multiple map layers can be "
 "transformed into one, watermarks can be added, and more..."
 msgstr ""
-"MapProxy speeds up mapping applications by pre-rendering and integrating "
-"maps from multiple sources and storing in a local cache. Layers can be made "
-"transparent, projections can be changed, multiple map layers can be "
-"transformed into one, watermarks can be added, and more..."
 
 #: ../../build/doc/overview/mapproxy_overview.rst:26
 msgid ""
 "MapProxy is flexible and scales from simple to complex use-cases: from a "
-"single tile cache for an :doc:`OpenLayers <openlayers_overview>` web client "
-"to a central SDI node that combines, unifies and accelerates dozens of "
-"distributed WMS services."
+"single tile cache for an :doc:`OpenLayers <openlayers_overview>` web "
+"client to a central SDI node that combines, unifies and accelerates "
+"dozens of distributed WMS services."
 msgstr ""
-"MapProxy is flexible and scales from simple to complex use-cases: from a "
-"single tile cache for an :doc:`OpenLayers <openlayers_overview>` web client "
-"to a central SDI node that combines, unifies and accelerates dozens of "
-"distributed WMS services."
 
 #: ../../build/doc/overview/mapproxy_overview.rst:35
 msgid "Core Features"
-msgstr "Core Features"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:49
 msgid "Input sources:"
-msgstr "Input sources:"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:45
 msgid ""
 "WMS 1.0.0–1.3.0 (:doc:`MapServer <mapserver_overview>`, :doc:`GeoServer "
 "<geoserver_overview>`, etc.)"
 msgstr ""
-"WMS 1.0.0–1.3.0 (:doc:`MapServer <mapserver_overview>`, :doc:`GeoServer "
-"<geoserver_overview>`, etc.)"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:46
 msgid "TMS, WMTS (TileCache, GeoWebcache, etc.)"
-msgstr "TMS, WMTS (TileCache, GeoWebcache, etc.)"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:47
 msgid "Mapserver and Mapnik (directly, without WMS)"
-msgstr "Mapserver and Mapnik (directly, without WMS)"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:48
 msgid "any TileCache, Google Maps or Bing compatible source"
-msgstr "any TileCache, Google Maps or Bing compatible source"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:49
 msgid "ArcGIS REST servers and compact cache files"
-msgstr "ArcGIS REST servers and compact cache files"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:55
 msgid "Services:"
-msgstr "Services:"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:52
 msgid "WMS (1.0.0-1.3.0)"
-msgstr "WMS (1.0.0-1.3.0)"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:53
 msgid "TMS"
-msgstr "TMS"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:54
 msgid "WMTS"
-msgstr "WMTS"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:55
 msgid "KML SuperOverlays"
-msgstr "KML SuperOverlays"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:60
 msgid "Tile cache:"
-msgstr "Tile cache:"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:58
 msgid "stores identical images just once (e.g. ocean tiles)"
-msgstr "stores identical images just once (e.g. ocean tiles)"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:59
 msgid ""
 "cache tiles in the filesystem, MBTiles/SQLite, ArcGIS Compact Cache, S3, "
 "Redis, Riak, or CouchDB"
 msgstr ""
-"cache tiles in the filesystem, MBTiles/SQLite, ArcGIS Compact Cache, S3, "
-"Redis, Riak, or CouchDB"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:60
 msgid "add watermark to tiles"
-msgstr "add watermark to tiles"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:66
 msgid "Source options:"
-msgstr "Source options:"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:63
 msgid "limit sources to geometries (from Shapefile for example)"
-msgstr "limit sources to geometries (from Shapefile for example)"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:64
 msgid "add transparency to opaque layers"
-msgstr "add transparency to opaque layers"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:65
 msgid "merge multiple sources"
-msgstr "merge multiple sources"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:66
 msgid "reproject WMS and tile sources to other SRS"
-msgstr "reproject WMS and tile sources to other SRS"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:75
 msgid "WMS Features:"
-msgstr "WMS Features:"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:69
 msgid "build layer trees from different sources"
-msgstr "build layer trees from different sources"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:70
 msgid ""
-"create ``GetMap`` responses from cache with support for free-zooming and any"
-" projection (for any Desktop GIS)"
+"create ``GetMap`` responses from cache with support for free-zooming and "
+"any projection (for any Desktop GIS)"
 msgstr ""
-"create ``GetMap`` responses from cache with support for free-zooming and any"
-" projection (for any Desktop GIS)"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:71
 msgid "accelerates existing WMS 10 to 100 times"
-msgstr "accelerates existing WMS 10 to 100 times"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:72
 msgid "respond to ``GetLegendGraphic`` requests"
-msgstr "respond to ``GetLegendGraphic`` requests"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:73
 msgid "cascade ``GetFeatureInfo`` requests with optional XSL transformations"
-msgstr "cascade ``GetFeatureInfo`` requests with optional XSL transformations"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:74
 msgid "on-the-fly reprojection"
-msgstr "on-the-fly reprojection"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:75
 msgid "convert WMS versions and image formats"
-msgstr "convert WMS versions and image formats"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:81
 msgid "Security:"
-msgstr "Security:"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:78
 msgid "flexible and powerful authorization API"
-msgstr "flexible and powerful authorization API"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:79
 msgid "fine-grained control over services and layers"
-msgstr "fine-grained control over services and layers"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:80
 msgid "restrict access to polygon areas (for WMS and tile services)"
-msgstr "restrict access to polygon areas (for WMS and tile services)"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:81
 msgid "integrate with existing user databases and authentication methods"
-msgstr "integrate with existing user databases and authentication methods"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:86
 msgid "Powerful tools:"
-msgstr "Powerful tools:"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:84
 msgid ""
-"efficient seed tool for cache pre-filling that can seed polygon areas  with "
-"Shapefiles, GeoJSON, PostGIS or WKT geometries"
+"efficient seed tool for cache pre-filling that can seed polygon areas  "
+"with Shapefiles, GeoJSON, PostGIS or WKT geometries"
 msgstr ""
-"efficient seed tool for cache pre-filling that can seed polygon areas  with "
-"Shapefiles, GeoJSON, PostGIS or WKT geometries"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:85
 msgid "export cached tiles to other formats"
-msgstr "export cached tiles to other formats"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:86
 msgid "calculate scales and show grid configurations"
-msgstr "calculate scales and show grid configurations"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:95
 msgid "Other features:"
-msgstr "Other features:"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:89
 msgid "simple but powerful configuration format (YAML/JSON)"
-msgstr "simple but powerful configuration format (YAML/JSON)"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:90
 msgid "OpenLayers based demo client"
-msgstr "OpenLayers based demo client"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:91
 msgid "run multiple WMS services in one MapProxy instance"
-msgstr "run multiple WMS services in one MapProxy instance"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:92
 msgid "add attribution lines to the images"
-msgstr "add attribution lines to the images"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:93
 msgid "support for non-image raster data like DEMs"
-msgstr "support for non-image raster data like DEMs"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:94
 msgid "manipulate image bands to create grayscale- or false-color images"
-msgstr "manipulate image bands to create grayscale- or false-color images"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:95
 msgid "many more"
-msgstr "many more"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:98
 msgid "Implemented Standards"
-msgstr "Implemented Standards"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:100
 msgid "MapProxy implements the following open specifications:"
-msgstr "MapProxy implements the following open specifications:"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:102
 msgid "OGC WMS 1.0.0, 1.1.0, 1.1.1, 1.3.0"
-msgstr "OGC WMS 1.0.0, 1.1.0, 1.1.1, 1.3.0"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:103
 msgid "OGC WMTS 1.0.0 (KVP and RESTful)"
-msgstr "OGC WMTS 1.0.0 (KVP and RESTful)"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:104
 msgid "OSGeo TMS 1.0.0"
-msgstr "OSGeo TMS 1.0.0"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:105
 msgid "OGC KML 2.2 SuperOverlays"
-msgstr "OGC KML 2.2 SuperOverlays"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:109
 msgid "Details"
-msgstr "Details"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:111
 msgid "**Website:** https://mapproxy.org/"
-msgstr "**Website:** https://mapproxy.org/"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:113
 msgid ""
 "**Licence:** `Apache Software License 2.0 "
 "<https://www.apache.org/licenses/LICENSE-2.0.html>`_"
 msgstr ""
-"**Licence:** `Apache Software License 2.0 "
-"<https://www.apache.org/licenses/LICENSE-2.0.html>`_"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:115
 msgid "**Software Version:** |version-mapproxy|"
-msgstr "**Software Version:** |version-mapproxy|"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:117
 msgid "**Supported Platforms:** Linux, Mac, Windows"
-msgstr "**Supported Platforms:** Linux, Mac, Windows"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:119
 msgid "**Support:** https://mapproxy.org/support"
-msgstr "**Support:** https://mapproxy.org/support"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:124
 msgid "Quickstart"
-msgstr "Quickstart"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:126
 msgid ":doc:`Quickstart documentation <../quickstart/mapproxy_quickstart>`"
-msgstr ":doc:`Quickstart documentation <../quickstart/mapproxy_quickstart>`"
+msgstr ""
+

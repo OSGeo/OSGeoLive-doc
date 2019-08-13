@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-19 08:47-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -19,100 +19,93 @@ msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:8
 msgid "Install OSGeoLive to Hard Disk"
-msgstr "Install OSGeoLive to Hard Disk"
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:10
 msgid ""
 "OSGeoLive can be installed onto your hard disk, the same way an Ubuntu "
 "distribution is installed."
 msgstr ""
-"OSGeoLive can be installed onto your hard disk, the same way an Ubuntu "
-"distribution is installed."
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:13
 msgid ""
 "This process can also be run inside a Virtual Machine to create a "
 "permanent OSGeoLive Virtual Machine from a DVD or ISO image."
 msgstr ""
-"This process can also be run inside a Virtual Machine to create a "
-"permanent OSGeoLive Virtual Machine from a DVD or ISO image."
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:17
 msgid "System Requirements"
-msgstr "System Requirements"
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:19
 msgid "|osgeolive-hdspace| of spare Hard Disk Space"
-msgstr "|osgeolive-hdspace| of spare Hard Disk Space"
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:22
 msgid "Install OSGeoLive"
-msgstr "Install OSGeoLive"
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:27
 msgid "Select :guilabel:`Install RELEASE`"
-msgstr "Select :guilabel:`Install RELEASE`"
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:32
 msgid "Enter password=\"user\""
-msgstr "Enter password=\"user\""
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:37
 msgid "Select language"
-msgstr "Select language"
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:42
 msgid "Select timezone"
-msgstr "Select timezone"
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:47
 msgid "Select keyboard"
-msgstr "Select keyboard"
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:52
-#, fuzzy
 msgid ""
 "Specify which disk to want to install on. (Beware, this may delete an "
 "existing installed partition)."
 msgstr ""
-"Specify which disk to want to install on. (Beware, this may delete an "
-"existing"
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:58
 msgid "Defaults for settings are:"
-msgstr "Defaults for settings are:"
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:60
 msgid "Name = \"user\""
-msgstr "Name = \"user\""
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:61
 msgid "username = \"user\""
-msgstr "username = \"user\""
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:62
 msgid "password = \"user\""
-msgstr "password = \"user\""
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:63
 msgid "computer name = \"osgeolive\""
-msgstr "computer name = \"osgeolive\""
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:64
 msgid "Log In automatically"
-msgstr "Log In automatically"
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:69
 msgid "Select :guilabel:`Install`"
-msgstr "Select :guilabel:`Install`"
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:71
 msgid "Go and get a cup of coffee while installation is in progress."
-msgstr "Go and get a cup of coffee while installation is in progress."
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:73
 msgid "That is it."
-msgstr "That is it."
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:75
 msgid ""
@@ -120,26 +113,20 @@ msgid ""
 "\"user\", tomcat applications require to have permission to service "
 "command as described in http://trac.osgeo.org/osgeo/ticket/1153"
 msgstr ""
-"Installation Tips In case you are installing using a username other than "
-"\"user\", tomcat applications require to have permission to service "
-"command as described in http://trac.osgeo.org/osgeo/ticket/1153"
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:80
 msgid "See Also:"
-msgstr "See Also:"
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:82
 msgid ":doc:`osgeolive_quickstart`"
-msgstr ":doc:`osgeolive_quickstart`"
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:83
 msgid ":doc:`virtualization_quickstart`"
-msgstr ":doc:`virtualization_quickstart`"
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:84
 msgid ":doc:`usb_quickstart`"
-msgstr ":doc:`usb_quickstart`"
-
-#~ msgid "installed partition)."
-#~ msgstr "installed partition)."
+msgstr ""
 

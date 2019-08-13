@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:17
 msgid "istSOS"
-msgstr "istSOS"
+msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:20
 msgid "Data Management Tool"
-msgstr "Data Management Tool"
+msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:22
 msgid ""
@@ -32,128 +32,105 @@ msgid ""
 "Consortium (OGC) `Sensor Observation Service (SOS) "
 "<http://www.opengeospatial.org/standards/sos>`__ standard."
 msgstr ""
-"istSOS is sensor data management tool that allows collection, maintenance"
-" and publishing of monitoring observations using the Open Geospatial "
-"Consortium (OGC) `Sensor Observation Service (SOS) "
-"<http://www.opengeospatial.org/standards/sos>`__ standard."
 
 #: ../../build/doc/overview/istsos_overview.rst:26
 msgid ""
 "istSOS strictly implements the SOS 1.0.0 standard, and has passed the OGC"
 " CITE (Compliance + Interopability Testing + Evaluation) units tests."
 msgstr ""
-"istSOS strictly implements the SOS 1.0.0 standard, and has passed the OGC"
-" CITE (Compliance + Interopability Testing + Evaluation) units tests."
 
 #: ../../build/doc/overview/istsos_overview.rst:35
 msgid "Core Features"
-msgstr "Core Features"
+msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:37
 msgid ""
 "Publish sensor data in accordance with the Sensor Observation Service "
 "(SOS) standard."
 msgstr ""
-"Publish sensor data in accordance with the Sensor Observation Service "
-"(SOS) standard."
 
 #: ../../build/doc/overview/istsos_overview.rst:38
 msgid "Administer sensors and data with an intuitive web-based interface."
-msgstr "Administer sensors and data with an intuitive web-based interface."
+msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:39
-#, fuzzy
 msgid ""
 "Use a complete RestFul API to access istSOS functionality from external "
 "clients to create interactive charts, display sensor on a dynamic map or "
 "just write some maintenance scripts."
 msgstr ""
-"Use a complete RestFul API to access istSOS functionality from external "
-"clients to create interactive charts, display sensor on a dinamic map or "
-"just write some maintainance scripts."
 
 #: ../../build/doc/overview/istsos_overview.rst:40
 msgid ""
 "Get notified through mail, twitter or other social media when sensor data"
 " meets specific conditions."
 msgstr ""
-"Get notified through mail, twitter or other social media when sensor data"
-" meets specific conditions."
 
 #: ../../build/doc/overview/istsos_overview.rst:41
 msgid ""
 "User authentication and authorization with different access levels "
 "(administrator, network manager, data manager and visitor)."
 msgstr ""
-"User authentication and authorization with different access levels "
-"(administrator, network manager, data manager and visitor)."
 
 #: ../../build/doc/overview/istsos_overview.rst:42
-#, fuzzy
 msgid ""
 "Create Virtual Procedures that look like normal stations but whose data "
 "results from on-the-fly elaboration of other sensor data."
 msgstr ""
-"Create Virtual Procedures that looks like normal stations but whose data "
-"results from on-the-fly elaboration of other sensor data."
 
 #: ../../build/doc/overview/istsos_overview.rst:43
 msgid ""
 "Associate quality indexes to each observation thanks to embedded "
 "validation tests."
 msgstr ""
-"Associate quality indexes to each observation thanks to embedded "
-"validation tests."
 
 #: ../../build/doc/overview/istsos_overview.rst:44
 msgid ""
 "Online editing of data with a seamless interface and advanced observation"
 " calculator."
 msgstr ""
-"Online editing of data with a seamless interface and advanced observation"
-" calculator."
 
 #: ../../build/doc/overview/istsos_overview.rst:48
 msgid "Implemented Standards"
-msgstr "Implemented Standards"
+msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:49
 msgid "SOS 1.0.0: Basic and Transactional profiles"
-msgstr "SOS 1.0.0: Basic and Transactional profiles"
+msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:52
 msgid "Details"
-msgstr "Details"
+msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:54
 msgid "**Website:** http://istsos.org"
-msgstr "**Website:** http://istsos.org"
+msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:56
 msgid "**Licence:** GNU General Public License (GPL) version 2"
-msgstr "**Licence:** GNU General Public License (GPL) version 2"
+msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:58
 msgid "**Software Version:** |version-istsos|"
-msgstr "**Software Version:** |version-istsos|"
+msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:60
 msgid "**Supported Platforms:** Linux, Unix, Mac, Windows"
-msgstr "**Supported Platforms:** Linux, Unix, Mac, Windows"
+msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:62
 msgid "**API Interfaces:** Python / wsgi"
-msgstr "**API Interfaces:** Python / wsgi"
+msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:64
 msgid "**Support:** https://groups.google.com/forum/#!forum/istsos"
-msgstr "**Support:** https://groups.google.com/forum/#!forum/istsos"
+msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:69
 msgid "Quickstart"
-msgstr "Quickstart"
+msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:71
 msgid ":doc:`Quickstart documentation <../quickstart/istsos_quickstart>`"
-msgstr ":doc:`Quickstart documentation <../quickstart/istsos_quickstart>`"
+msgstr ""
 
