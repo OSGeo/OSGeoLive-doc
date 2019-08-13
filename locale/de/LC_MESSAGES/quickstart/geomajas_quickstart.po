@@ -6,15 +6,16 @@
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Gregor Engelmann <shl00913@myport.ac.uk>, 2018
+# Astrid Emde <astrid_emde@osgeo.org>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-08 15:38-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Gregor Engelmann <shl00913@myport.ac.uk>, 2018\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2019\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,10 +41,9 @@ msgid ""
 " This application features a map, navigation controllers, several data "
 "layers, a ribbon toolbar with GIS tools and the Layer Tree."
 msgstr ""
-"Diese OSGeo Live DVD beinhaltet eine verwendugsbereite Geomajas Anwendung. "
-"Die Anwendung ist mit einer Karte, Navigationskontrolle, mehreren "
-"Datenebenen und einer Werkzeugleise mit GIS Tools und einem Ebenen Baum "
-"ausgestattet."
+"OSGeoLive beinhaltet eine einsatzbereite Geomajas- Anwendung. Die Anwendung "
+"ist mit einer Karte, Navigationswerkzeugen, mehreren Datenebenen und einer "
+"Werkzeugleiste mit GIS-Werkzeugen und einem Ebenenbaum ausgestattet."
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:33
 msgid "Getting started"
@@ -96,7 +96,7 @@ msgid ""
 "You can drag around the map with the mouse so the desired area is centered "
 "on your screen."
 msgstr ""
-"Sie können die Karte mit der Maus bewegen um das gewünschte Areal auf dem "
+"Sie können die Karte mit der Maus bewegen, um das gewünschte Areal auf dem "
 "Bildschirm darzustellen"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:57
@@ -106,10 +106,10 @@ msgid ""
 " select an area to show by clicking the magnifier icon and selecting the "
 "desired area (via rectangular select)."
 msgstr ""
-"Sowohl das Mausrad als auch die bereitstehenden Zoom Buttons rechts oben "
-"können genutzt werden um sich in der Anwendung einen besseren Überblick zu "
-"verschaffen. Ebenso kann ein Areal mithilfe des Lupen icons und der rechteck"
-" Auswahl aufgerufen werden."
+"Sowohl das Mausrad als auch die bereitstehenden Navigations-Buttons rechts "
+"oben können genutzt werden, um sich in der Anwendung einen besseren "
+"Überblick zu verschaffen. Ebenso kann ein Areal mithilfe des Lupen-Buttons "
+"und der Rechteck-Auswahl aufgerufen werden."
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:60
 msgid "Legend"
@@ -123,9 +123,9 @@ msgid ""
 "about each layers regarding icons, colouring, …"
 msgstr ""
 "Oben rechts ist eine einschaltbare Legende. Die Legende gibt einen Überblick"
-" über alle Ebenen welche gegenwärtig in der Anwendung geladen sind mit der "
-"Option diese ein- bzw. auszublenden. Ebenso gibt es mehr detaillierte "
-"Informationen über jede einzelne Ebene bezüglich Icons, Farben etc, ..."
+" über alle Ebenen, welche gegenwärtig in der Anwendung geladen sind, mit der"
+" Option diese ein- bzw. auszublenden. Ebenso gibt es weitere detaillierte "
+"Informationen über jede einzelne Ebene bezüglich Symbolik, Farben etc, ..."
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:68
 msgid "Gathering information"
@@ -138,15 +138,15 @@ msgid ""
 "By clicking the info icon in the upper left, you can toggle between basic or"
 " more detailed information."
 msgstr ""
-"Geomajas Anwendungen sind in der Lage eine Reihe von Informationen innerhalb"
-" der Ebenen darzustellen. Durch das klicken auf die Karte werden zugehörige "
-"Informationen dargestellt. Durch das Info icon im linken oberen Teil kann "
+"Geomajas-Anwendungen sind in der Lage eine Reihe von Informationen innerhalb"
+" der Ebenen darzustellen. Durch das Klicken auf die Karte werden zugehörige "
+"Informationen dargestellt. Durch den Info-Button im linken oberen Teil kann "
 "zwischen der einfachen und detaillierteren Informationsübersicht gewechselt "
 "werden."
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:73
 msgid "Customizing Geomajas applications"
-msgstr "Anpassen von Geomajas Anwedungen"
+msgstr "Anpassen von Geomajas-Anwendungen"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:75
 msgid ""
@@ -155,11 +155,11 @@ msgid ""
 " download page always features the latest and greatest sample applications, "
 "documentation, tips and tricks to roll-your-own."
 msgstr ""
-"Bitte besuchen sie  `<http://www.geomajas.org/client-gwt>`_ um eine eigene "
-"Web GIS Lösung auf der Basis dieser Beispielanwendung zu bauen und "
+"Bitte besuchen Sie  `<http://www.geomajas.org/client-gwt>`_ , um eine eigene"
+" Web GIS Lösung auf der Basis dieser Beispielanwendung zu bauen und "
 "anzupassen. Die Downloadseite bietet immer die neuesten und besten "
-"Beispielanwendungen, Dokumentation, Tips und Tricks als Startpunkt für neue "
-"Anwendungen. "
+"Beispielanwendungen, Dokumentation, Tipps und Tricks als Startpunkt für neue"
+" Anwendungen. "
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:78
 msgid "What next?"
@@ -170,8 +170,8 @@ msgid ""
 "Interested in learning more about Geomajas? The following links provide more"
 " detailed info:"
 msgstr ""
-"Interesse mehr über Geomajas zu lernen? Mehr detaillierte Informationen sind"
-" auf den vollgenden Links zu finden:"
+"Haben Sie Interesse mehr über Geomajas zu erfahren? Detaillierte "
+"Informationen sind auf den folgenden Seiten zu finden:"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:83
 msgid "**Geomajas:** `<http://www.geomajas.org/>`_"
