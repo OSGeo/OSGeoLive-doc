@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # 
 # Translators:
-# Nicolas Roelandt (Personnel), 2019
 # Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# Nicolas Roelandt (Personnel), 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-17 10:25-0500\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2019\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -95,6 +95,15 @@ msgstr ""
 msgid "Loading OSM data with osm2pgrouting"
 msgstr "Chargement des données OSM avec osm2pgrouting"
 
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:65
+msgid ""
+"osm2pgrouting is a command-line tool for loading .osm files into pgRouting "
+"compatible format. Here is how you use osm2pgrouting version 2.1.0+."
+msgstr ""
+"osm2pgrouting est un outil en ligne de commande pour charger des fichiers "
+".osm au format compatible pgRouting. Voici comment vous utilisez "
+"osm2pgrouting version 2.1.0+."
+
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:68
 msgid ""
 "First verify version of osm2pgrouting you have installed. Should read 2.1 or"
@@ -106,6 +115,10 @@ msgstr ""
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:74
 msgid "Output shows:"
 msgstr "La sortie montre :"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:80
+msgid "Now load the data from osm file:"
+msgstr "Maintenant, chargez les données à partir d'un fichier osm:"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:90
 msgid "Output should be something like:"
@@ -156,6 +169,18 @@ msgstr "Quelles sorties :"
 msgid "To do so you would change your query to below:"
 msgstr "Pour ce faire, vous modifierez votre requête ci-dessous :"
 
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:197
+msgid ""
+"Note: the SQL statement must always have field names `id, source, target, "
+"and cost`. Since we are using fields `source_osm` and `target_osm`, we need "
+"to alias them so resulting pgr_dijkstra query columns are named source and "
+"target."
+msgstr ""
+"Remarque : la déclaration SQL doit toujours avoir des noms de champ `id, "
+"source, target, and cost`. Étant donné que nous utilisons des champs  "
+"`source_osm` et `target_osm`, nous avons besoin de créer des alias afin que "
+"les colonnes résultantes de pgr_dijkstra soient nommées source et cible."
+
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:200
 msgid "Output is:"
 msgstr "La sortie est la suivante:"
@@ -202,6 +227,16 @@ msgstr ""
 "tels que :doc:`OpenJump <../overview/openjump_overview>` ou l'outil "
 "DBManager de :doc:`QGIS <../overview/qgis_overview>`."
 
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:259
+msgid ""
+"To use the DbManager extension of QGIS open up QGIS then go to ``Database ->"
+" DB Manager -> DB Manager``. Select the SQL Window icon and cut and paste "
+"the above pgRouting Query."
+msgstr ""
+"Pour utiliser l'extension DbManager de QGIS, ouvrez QGIS, puis aller à "
+"``Database -> DB Manager -> DB Manager``. Sélectionnez l'icône SQL Window et"
+" coupez et collez la requête pgRouting ci-dessus."
+
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:262
 msgid "Run the Dijkstra shortest path function with considering direction."
 msgstr ""
@@ -238,6 +273,24 @@ msgid ""
 msgstr ""
 "**Site Web de pgRouting** - Visitez le site Web du projet "
 "http://www.pgrouting.org pour en savoir plus sur pgRouting."
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:287
+msgid ""
+"**pgRouting Documentation** - Find the most recent documentation in "
+"http://docs.pgrouting.org."
+msgstr ""
+"**Documentation de pgRouting** - Trouvez la documentation la plus récente à "
+"l'adresse : http://docs.pgrouting.org."
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:289
+msgid ""
+"**pgRouting Workshop** - The workshop `\"FOSS4G routing with pgRouting tools"
+" and OpenStreetMap road data\"` is available in: "
+"http://workshop.pgrouting.org."
+msgstr ""
+"**Atelier  pgRouting** - L'atelier `\"FOSS4G routing with pgRouting tools "
+"and OpenStreetMap road data\"` est disponible à l'adresse : "
+"http://workshop.pgrouting.org."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:290
 msgid ""
