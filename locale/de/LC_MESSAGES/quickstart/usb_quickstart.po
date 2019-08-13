@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2019\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -38,6 +38,14 @@ msgstr ""
 " kann. Von einem USB-Stick zu starten ist schneller als von einer DVD zu "
 "starten und das USB-Laufwerk kann zusätzlich zur Sicherung der Daten "
 "zwischen Sessions genutzt werden (dies wird persistent genannt)."
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:13
+msgid ""
+"We have found that there are a number of quirks and tricks involved in "
+"successfully building a USB drive. We have documented what we know, but "
+"there are likely more tricks and issues. Look for latest tips here: "
+"https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB"
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:16
 msgid "Requirements"
@@ -228,6 +236,12 @@ msgstr ""
 "Die meisten Computer sind nicht so eingestellt, das sie standardmäßig von "
 "einem USB-Laufwerk starten."
 
+#: ../../build/doc/quickstart/usb_quickstart.rst:83
+msgid ""
+"When booting, look for a message indicating a Boot Menu (most commonly you "
+"press F12)"
+msgstr ""
+
 #: ../../build/doc/quickstart/usb_quickstart.rst:84
 msgid ""
 "If your computer does not have a boot menu, then boot into your system BIOS."
@@ -293,3 +307,15 @@ msgstr ":doc:`virtualization_quickstart`"
 #: ../../build/doc/quickstart/usb_quickstart.rst:102
 msgid ":doc:`osgeolive_install_quickstart`"
 msgstr ":doc:`osgeolive_install_quickstart`"
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:103
+msgid ""
+"Alternative USB creation methods and latest tips are collected here: `wiki "
+"<https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
+msgstr ""
+
+#: ../../build/doc/quickstart/usb_quickstart.rst:104
+msgid ""
+"Questions can be directed to our email list: "
+"https://lists.osgeo.org/pipermail/osgeolive/"
+msgstr ""

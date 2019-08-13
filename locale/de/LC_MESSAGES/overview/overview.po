@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018
+# Astrid Emde <astrid_emde@osgeo.org>, 2018
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2019
-# Astrid Emde <astrid_emde@osgeo.org>, 2019
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -15,12 +15,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-06 12:41-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2019\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -137,6 +136,12 @@ msgstr ""
 "|OSGeo_project| :doc:`mapbender_overview` - [:doc:`QuickStart "
 "<../quickstart/mapbender_quickstart>`] - Geoportal Framework"
 
+#: ../../build/doc/overview/overview.rst:81
+msgid ""
+"|nologo| :doc:`geoext_overview` - [:doc:`Quickstart "
+"<../quickstart/geoext_quickstart>`] - JavaScript Toolkit Web Mapping"
+msgstr ""
+
 #: ../../build/doc/overview/overview.rst:83
 msgid ""
 "|OSGeo_project| :doc:`geomoose_overview` - [:doc:`Quickstart "
@@ -176,6 +181,22 @@ msgid ""
 msgstr ""
 "|OSGeo_project| :doc:`mapserver_overview` - [:doc:`QuickStart "
 "<../quickstart/mapserver_quickstart>`] - OGC Web Services"
+
+#: ../../build/doc/overview/overview.rst:135
+msgid ""
+"|OSGeo_project| :doc:`mapcache_overview` - [:doc:`Quickstart "
+"<../quickstart/mapcache_quickstart>`] - OGC Web Services"
+msgstr ""
+"|OSGeo_project| :doc:`mapcache_overview` - [:doc:`QuickStart "
+"<../quickstart/mapcache_quickstart>`] - OGC Web Services"
+
+#: ../../build/doc/overview/overview.rst:137
+msgid ""
+"|OSGeo_project| :doc:`deegree_overview` - [:doc:`Quickstart "
+"<../quickstart/deegree_quickstart>`] - OGC Web Services"
+msgstr ""
+"|OSGeo_project| :doc:`deegree_overview` - [:doc:`QuickStart "
+"<../quickstart/deegree_quickstart>`] - OGC Web Services"
 
 #: ../../build/doc/overview/overview.rst:139
 msgid ""
@@ -265,6 +286,18 @@ msgid ""
 msgstr ""
 "|OSGeo_incubation| :doc:`zoo-project_overview` - [:doc:`Quickstart "
 "<../quickstart/zoo-project_quickstart>`] - Web Processing Service"
+
+#: ../../build/doc/overview/overview.rst:161
+msgid ""
+"|nologo| :doc:`t-rex_overview` - [:doc:`Quickstart "
+"<../quickstart/t-rex_quickstart>`] - Vector Tile Service"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:163
+msgid ""
+"|nologo| :doc:`actinia_overview` - [:doc:`Quickstart "
+"<../quickstart/actinia_quickstart>`] - Processing of Geographical Data"
+msgstr ""
 
 #: ../../build/doc/overview/overview.rst:167
 msgid "Data Stores"
@@ -520,10 +553,3 @@ msgstr ""
 #: ../../build/doc/overview/overview.rst:352
 msgid ":doc:`../prior_applications`"
 msgstr ":doc:`../prior_applications`"
-
-#~ msgid ""
-#~ "|OSGeo_project| :doc:`ossim_overview` - [:doc:`Quickstart "
-#~ "<../quickstart/ossim_quickstart>`] - Image Processing"
-#~ msgstr ""
-#~ "|OSGeo_project| :doc:`ossim_overview` - [:doc:`Quickstart "
-#~ "<../quickstart/ossim_quickstart>`] - Image Processing"

@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Astrid Emde <astrid_emde@osgeo.org>, 2019
@@ -18,7 +18,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -256,13 +255,3 @@ msgstr ""
 #: ../../build/doc/quickstart/geoext_quickstart.rst:278
 msgid "The `ExtJS 6.2.0 API docs <https://docs.sencha.com/extjs/6.2.0/>`_"
 msgstr "Die `ExtJS 6.2.0 API docs <https://docs.sencha.com/extjs/6.2.0/>`_"
-
-#~ msgid ""
-#~ "First create a new HTML file at ``/var/www/html/geoext/demo.html`` using the"
-#~ " text editor Leafpad installed on OSGeoLive (you can open this via the Start"
-#~ " menu under :menuselection:`Accessories --> Leafpad`)."
-#~ msgstr ""
-#~ "Erstellen Sie zunächst eine neue HTML-Datei unter "
-#~ "''/var/www/html/geoext/demo.html'' mit dem auf OSGeoLive installierten "
-#~ "Texteditor Leafpad (Sie können diese über das Startmenü unter "
-#~ ":menuselection:'Zubehör --> Leafpad' öffnen)."

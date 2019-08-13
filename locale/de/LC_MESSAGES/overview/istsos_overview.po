@@ -5,16 +5,16 @@
 # 
 # Translators:
 # John Kennedy <julius.krey@wheregroup.com>, 2018
-# Astrid Emde <astrid_emde@osgeo.org>, 2018
+# Astrid Emde <astrid_emde@osgeo.org>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: 2017-09-20 16:11+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2018\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2019\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -69,6 +69,17 @@ msgstr ""
 "Administration von Sensordaten und anderen Daten mit der intuitiven "
 "webbasierten Oberfläche."
 
+#: ../../build/doc/overview/istsos_overview.rst:39
+msgid ""
+"Use a complete RestFul API to access istSOS functionality from external "
+"clients to create interactive charts, display sensor on a dynamic map or "
+"just write some maintenance scripts."
+msgstr ""
+"Verwenden Sie eine vollständige RestFul-API, um von externen Clients aus auf"
+" die istSOS-Funktionalität zuzugreifen, um interaktive Diagramme zu "
+"erstellen, den Sensor auf einer dynamischen Karte anzuzeigen oder einfach "
+"einige Wartungsskripts zu schreiben."
+
 #: ../../build/doc/overview/istsos_overview.rst:40
 msgid ""
 "Get notified through mail, twitter or other social media when sensor data "
@@ -84,6 +95,15 @@ msgid ""
 msgstr ""
 "Benutzerauthentifikation und Authorisierung mit unterschiedlichen "
 "Zugriffsstufen (Administrator, Netzwerkmanager, Datenmanager und Besucher)."
+
+#: ../../build/doc/overview/istsos_overview.rst:42
+msgid ""
+"Create Virtual Procedures that look like normal stations but whose data "
+"results from on-the-fly elaboration of other sensor data."
+msgstr ""
+"Erstellen Sie virtuelle Prozeduren, die wie normale Stationen aussehen, "
+"deren Daten jedoch aus der on-the-fly Auswertung von anderer Sensordaten "
+"resultieren."
 
 #: ../../build/doc/overview/istsos_overview.rst:43
 msgid ""

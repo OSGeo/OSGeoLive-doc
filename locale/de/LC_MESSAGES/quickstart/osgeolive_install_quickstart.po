@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Richard Bischof <richard.bischof@lgln.niedersachsen.de>, 2018
@@ -21,7 +21,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -76,6 +75,14 @@ msgstr "Wählen Sie die Zeitzone"
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:47
 msgid "Select keyboard"
 msgstr "Wählen Sie die Tastatur"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:52
+msgid ""
+"Specify which disk to want to install on. (Beware, this may delete an "
+"existing installed partition)."
+msgstr ""
+"Geben Sie an, auf welchem Datenträger installiert werden soll. (Vorsicht, "
+"dies kann eine vorhandene installierte Partition löschen)."
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:58
 msgid "Defaults for settings are:"
@@ -140,6 +147,3 @@ msgstr ":doc:`virtualization_quickstart`"
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:84
 msgid ":doc:`usb_quickstart`"
 msgstr ":doc:`usb_quickstart`"
-
-#~ msgid "installed partition)."
-#~ msgstr "installierte Partition)."

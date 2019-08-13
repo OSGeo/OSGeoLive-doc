@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # 
 # Translators:
 # Astrid Emde <astrid_emde@osgeo.org>, 2018
@@ -12,13 +12,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-08-06 12:41-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -57,30 +58,30 @@ msgstr "Desktop-GIS"
 msgid "Browser Facing GIS"
 msgstr "Browser-GIS-Anwendungen"
 
-#: ../../build/doc/metrics.rst:50
+#: ../../build/doc/metrics.rst:51
 msgid "Web Services"
 msgstr "Web-Services"
 
-#: ../../build/doc/metrics.rst:70
+#: ../../build/doc/metrics.rst:75
 msgid "Data Stores"
 msgstr "Datenbanken"
 
-#: ../../build/doc/metrics.rst:81
+#: ../../build/doc/metrics.rst:86
 msgid "Navigation and Maps"
 msgstr "Navigation und Karten"
 
-#: ../../build/doc/metrics.rst:94
+#: ../../build/doc/metrics.rst:99
 msgid "Spatial Tools"
 msgstr "GIS-Werkzeuge"
 
-#: ../../build/doc/metrics.rst:107
+#: ../../build/doc/metrics.rst:111
 msgid "Domain Specific GIS"
 msgstr "Spezifische-GIS-Software"
 
-#: ../../build/doc/metrics.rst:115
+#: ../../build/doc/metrics.rst:119
 msgid "Data"
 msgstr "Daten"
 
-#: ../../build/doc/metrics.rst:126
+#: ../../build/doc/metrics.rst:130
 msgid "Geospatial Libraries"
 msgstr "GIS-Bibliotheken"
