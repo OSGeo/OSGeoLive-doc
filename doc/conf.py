@@ -258,6 +258,7 @@ linkcheck_anchors = False
 rst_epilog="""
 .. |osgeolive-project| replace:: %(projectname)s
 .. |osgeolive-version| replace:: %(projectname)s %(projectversion)s
+.. |osgeolive-version-only| replace:: %(projectversion)s
 .. |osgeolive-hdspace| replace:: %(required_hd_space)02d GB
 .. |osgeolive-iso-size| replace:: %(iso_size).1f GB
 .. |osgeolive-iso-mini-size| replace:: %(iso_mini_size).1f GB
