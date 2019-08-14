@@ -6,15 +6,16 @@
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# Astrid Emde <astrid_emde@osgeo.org>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2019\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +30,7 @@ msgstr "OSGeoLive Quickstart"
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:11
 msgid "This Quick Start describes how to start OSGeoLive from a DVD or USB."
 msgstr ""
-"Dieser Quickstart beschreibt, wie OSGeo-Live über DVD oder USB gestartet "
+"Dieser Quickstart beschreibt, wie OSGeoLive über DVD oder USB gestartet "
 "wird."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:14
@@ -54,7 +55,7 @@ msgstr "Festplatte:"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:22
 msgid "None required if running directly from the DVD"
-msgstr " Keine benötigt, wenn sie direkt von DVD läuft."
+msgstr "Nicht benötigt, wenn sie direkt von DVD läuft."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:23
 msgid "|osgeolive-hdspace| if you wish to install the operating system."
@@ -76,9 +77,9 @@ msgid ""
 "Source an OSGeoLive DVD, ISO available from: [:doc:`Download <../download>`]"
 " Put the DVD into your computer's CD drive, then reboot your computer."
 msgstr ""
-"Laden Sie eine OSGeo-Live DVD von: [:doc:`Download <../download>`]. Brennen "
-"Sie das Abbild auf eine DVD und legen Sie diese in das Laufwerk ihres "
-"Rechners, anschließend starten Sie ihn neu."
+"Erstellen Sie eine OSGeoLive DVD von: [:doc:`Download <../download>`]. "
+"Brennen Sie das Abbild auf eine DVD und legen Sie diese in das Laufwerk "
+"ihres Rechners, anschließend starten Sie ihn neu."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:33
 msgid ""
@@ -110,7 +111,7 @@ msgid ""
 "Getting started with Lubuntu and the LXDE desktop (which is used by "
 "OSGeoLive):"
 msgstr ""
-"Einstieg in Lubuntu and the LXDE desktop (wird von OSGeo-Live verwendet):"
+"Einstieg in Lubuntu and the LXDE Desktop (wird von OSGeoLive verwendet):"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
 msgid ""

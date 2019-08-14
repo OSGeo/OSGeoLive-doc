@@ -1,26 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
-# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
 # Astrid Emde <astrid_emde@osgeo.org>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 14:24-0600\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2019\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -367,6 +366,22 @@ msgstr ""
 "Feld id für die laufende Nummer, ein Feld für den Namen der Stadt und ein "
 "Feld für die Geometriespalte:"
 
+#: ../../build/doc/quickstart/postgis_quickstart.rst:246
+msgid ""
+"Conventionally this geometry column is named ``geom`` (the older PostGIS "
+"convention was ``the_geom``). This tells PostGIS what kind of geometry each "
+"feature has (points, lines, polygons etc), how many dimensions (in this case"
+" 2, if it had 3 or 4 dimensions we would use POINTZ, POINTM, or POINTZM), "
+"and the spatial reference system. We used EPSG:4326 coordinates for our "
+"cities."
+msgstr ""
+"Üblicherweise wird diese Geometriespalte ''geom'' genannt (die ältere "
+"PostGIS-Konvention war ''the_geom''). Dies teilt PostGIS mit, welche "
+"Geometrie jedes Feature hat (Punkte, Linien, Polygone usw.), welche "
+"Dimension (in diesem Fall 2, wenn es 3 oder 4 Dimensionen hätte, würden "
+"POINTZ, POINTM oder POINTZM verwendet) und das Raumbezugssystem. Wir haben "
+"EPSG:4326 Koordinaten für unsere Städte verwendet."
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:253
 msgid ""
 "Now if you check the cities table you should see the new column, and be "
@@ -415,6 +430,14 @@ msgid ""
 msgstr ""
 "Alle üblichen SQL-Operationen können angewendet werden, um Daten aus einer "
 "PostGIS-Tabelle abzufragen."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:296
+msgid ""
+"This gives us an encoded hexadecimal version of the coordinates, not so "
+"useful for humans."
+msgstr ""
+"Diese Ausgabe gibt uns die hexadezimale Version der Koordinaten aus, die für"
+" uns schwer lesbar ist."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:298
 msgid ""
@@ -501,6 +524,25 @@ msgstr ""
 "Desktop GIS Programme unterstützen PostGIS - wie z. B. QGIS, gvSIG, uDig. "
 "Wir werden unsere Karte mit QGIS erzeugen."
 
+#: ../../build/doc/quickstart/postgis_quickstart.rst:376
+msgid ""
+"Start QGIS from the Desktop GIS menu and choose ``Add PostGIS layers`` from "
+"the layer menu. The parameters for connecting to the Natural Earth data in "
+"PostGIS are already defined in the Connections drop-down menu. You can "
+"define new server connections here, and store the settings for easy recall. "
+"Click on Connections drop down menu and choose Natural Earth. Hit ``Edit`` "
+"if you want to see what those parameters are for Natural Earth, or just hit "
+"``Connect`` to continue:"
+msgstr ""
+"Starten Sie QGIS über das Desktop-GIS-Menü und wählen Sie im Menü ''PostGIS-"
+"Layer hinzufügen''. Die Parameter für die Verbindung mit den Natural Earth-"
+"Daten in PostGIS sind bereits im Dropdown-Menü Verbindungen definiert. Sie "
+"können hier neue Serververbindungen definieren und die Einstellungen "
+"speichern. Klicken Sie auf Connections Drop-down-Menü und wählen Sie Natural"
+" Earth. Klicken Sie auf ''Bearbeiten'' wenn Sie die Konfiguration für "
+"Verbindung zu Natural Earth anschauen möchten, oder drücken Sie einfach "
+"''Connect'', um fortzufahren:"
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:387
 msgid "You will now get a list of the spatial tables in the database:"
 msgstr ""
@@ -579,6 +621,18 @@ msgstr ""
 "importieren. Wir verwenden die Daten des sudden infant death syndrome (SIDS)"
 " aus North Carolina, die in einem der Add-Ons des R-Statistikpakets "
 "enthalten sind."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:430
+msgid ""
+"From the ``Table`` menu choose the ``Import layer/file`` option. Hit the "
+"``...`` button and browse to the ``sids.shp`` shapefile in the R "
+"``maptools`` package (located in /usr/local/lib/R/site-"
+"library/spData/shapes):"
+msgstr ""
+"Wählen Sie im Menü ''Tabelle'' die Option ''Layer/Datei importieren'''. "
+"Klicken Sie auf die Schaltfläche ''...'' und navigieren Sie zum Shapefile "
+"''sids.shp'' im R ''maptools'-Paket (unter  /usr/local/lib/R/site-"
+"library/spData/shapes):"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:439
 msgid "Leave everything else as it is and hit ``Load``"
@@ -696,6 +750,18 @@ msgid ""
 msgstr ""
 "Um eine Abfrage an die Datenbank zu schicken, müssen Sie den ``SQL``-Button "
 "der Hauptwerkzeugleiste klicken (Button mit gelber Lupe)."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:512
+msgid ""
+"We are going to find the rate of the SIDS over the births for the 1974 for "
+"each city. Furthermore we are going to sort the result, based on the "
+"computed rate. To do that, we need to perform the following query (submit it"
+" on the text editor of the SQL Window):"
+msgstr ""
+"Wir wollen die Rate der SIDS anhand der Geburten für 1974 für jede Stadt "
+"ermitteln. Darüber hinaus werden wir das Ergebnis auf der Grundlage der "
+"berechneten Rate sortieren. Dazu müssen wir die folgende Abfrage durchführen"
+" (im Texteditor des SQL-Fensters absenden):"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:520
 msgid ""

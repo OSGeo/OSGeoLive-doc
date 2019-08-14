@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"POT-Creation-Date: 2019-08-11 09:14-0500\n"
 "PO-Revision-Date: 2019-08-06 18:07+0000\n"
 "Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2019\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -321,10 +321,11 @@ msgstr ""
 "Dokumentation <https://mapserver.org/mapcache/seed.html>`_. "
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:195
-msgid "If you want to remove a cache folder you can the following command:"
+msgid ""
+"If you want to remove a cache folder you can run the following command:"
 msgstr ""
-"Wenn Sie einen Cache-Ordner entfernen möchten, können Sie den folgenden "
-"Befehl verwenden:"
+"Wenn Sie einen Cache-Ordner entfernen möchten, können Sie dies über den "
+"folgenden Befehl durchführen:"
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:202
 msgid "What's Next?"

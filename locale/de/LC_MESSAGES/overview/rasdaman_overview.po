@@ -1,21 +1,24 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Andreas Schild <andreas.schild@bfw.gv.at>, 2018
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-09 11:45-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Andreas Schild <andreas.schild@bfw.gv.at>, 2018\n"
+"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"PO-Revision-Date: 2017-09-20 16:08+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -50,11 +53,11 @@ msgstr ""
 msgid ""
 "In addition to the raster query language, rasdaman supports OGC's WMS, WCS "
 "and WCPS web service standards, as well as C++ and Java APIs. At "
-"http://standards.rasdaman.org a collection of interactive demos is "
+"http://standards.rasdaman.com a collection of interactive demos is "
 "available.  A rasdaman driver is part of GDAL and MapServer."
 msgstr ""
 "Neben der Raster-Anfragesprache unterstützt rasdaman OGC WMS, WCS, WCPS und "
-"WPS sowie C++ und Java APIs. Unter http://standards.rasdaman.org steht eine "
+"WPS sowie C++ und Java APIs. Unter http://standards.rasdaman.com steht eine "
 "Sammlung interaktiver Demos bereit. Ein rasdaman-Treiber ist Bestandteil von"
 " GDAL und MapServer."
 

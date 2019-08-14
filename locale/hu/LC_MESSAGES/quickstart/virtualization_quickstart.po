@@ -3,14 +3,17 @@
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Zoltan Siki <siki@agt.bme.hu>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-23 13:13-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2017\n"
+"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"PO-Revision-Date: 2017-09-20 16:04+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -208,6 +211,9 @@ msgid ""
 "some host operating systems, it may be required to \"Enable 3D "
 "Acceleration\" for display to work properly."
 msgstr ""
+"Menjen a \"Display\" részhez és növelje a videomemóriát 32 vagy 64 MB-ra. "
+"Bizonyos gazda operációs rendszerek esetén szükség lehet az \"Enable 3D "
+"Acceleration\" bekapcsolására a képernyő tökéletes működéséhez."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:83
 msgid ""
@@ -239,20 +245,47 @@ msgid "Now bootup the VM by clicking the Start (green arrow) button."
 msgstr "Most töltse be a VM-et a Start (zöld nyíl) gombra kattintva."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:95
-msgid ""
-"Once the OSGeo system comes up, add yourself to the vboxsf group so that the"
-" shared folders (defined above) are accessible by running in a terminal "
-"window:"
+msgid "When you install the iso on the VM, the username must be set to \"user\""
 msgstr ""
-"Miután az OSGeo rendszer elindult adja hozzá magát a vboxfs csoporthoz, hogy"
-" az osztott mappákat (fentebb írtunk róla) tartalmát elérje, ehhez egy "
-"terminál ablakban futtassa:"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:97
+msgid ""
+"The user \"user\" is not a member of the \"users\" group on the OSGeoLive "
+"virtual machine. This prevents some tools from writing to its data directory"
+" and causes some software to fail to start."
+msgstr ""
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:99
+msgid "The solution is to fix the vmdk with the following one-time procedure:"
+msgstr ""
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:101
+msgid "Start a terminal."
+msgstr ""
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:102
+msgid "Run \"sudo adduser user users\"."
+msgstr ""
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:103
+msgid ""
+"Apply this change by starting a new desktop session: either restart the "
+"virtual machine or log out and log back in (username \"user\", password "
+"\"user\")."
+msgstr ""
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:105
+msgid ""
+"Also once the OSGeo system comes up, add yourself to the vboxsf group so "
+"that the shared folders (defined above) are accessible by running in a "
+"terminal window:"
+msgstr ""
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:107
 msgid "``user@osgeolive:~$ sudo usermod -a -G vboxsf user``"
 msgstr "``user@osgeolive:~$ sudo usermod -a -G vboxsf user``"
 
-#: ../../build/doc/quickstart/virtualization_quickstart.rst:99
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:109
 msgid ""
 "In the above example, we defined a Shared Folder path on the host system and"
 " named it \"GIS\" in the VM Settings. The shared folder will appear in the "
@@ -264,17 +297,17 @@ msgstr ""
 " /media/sf_GIS alatt jelenik meg. A felhasználó bejelentkezési könyvtárába a"
 " következő parancsokkal illeszthetjük be: "
 
-#: ../../build/doc/quickstart/virtualization_quickstart.rst:101
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:111
 msgid "``user@osgeolive:~$ mkdir GIS``"
 msgstr "``user@osgeolive:~$ mkdir GIS``"
 
-#: ../../build/doc/quickstart/virtualization_quickstart.rst:103
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:113
 msgid ""
 "``user@osgeolive:~$ sudo mount -t vboxsf -o uid=user,rw GIS /home/user/GIS``"
 msgstr ""
 "``user@osgeolive:~$ sudo mount -t vboxsf -o uid=user,rw GIS /home/user/GIS``"
 
-#: ../../build/doc/quickstart/virtualization_quickstart.rst:105
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:115
 msgid ""
 "Now files on your host machine in the chosen folder will also be available "
 "in the VM in the \"GIS\" folder in user's home directory."
@@ -282,15 +315,15 @@ msgstr ""
 "Ezután a gazda gépen a kiválasztott mappában található fájlok elérhetők "
 "lesznek a VM-ben a felhasználó bejelentkezési könyvtárában \"GIS\" névvel."
 
-#: ../../build/doc/quickstart/virtualization_quickstart.rst:108
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:118
 msgid "See Also:"
 msgstr "Lásd még:"
 
-#: ../../build/doc/quickstart/virtualization_quickstart.rst:110
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:120
 msgid "OSGeo wiki pages:"
 msgstr "OSGeo wiki oldalak:"
 
-#: ../../build/doc/quickstart/virtualization_quickstart.rst:110
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:120
 msgid ""
 "`Other ways to create a Virtual Machine "
 "<http://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
@@ -298,14 +331,14 @@ msgstr ""
 "`Más megoldások a virtuális gép létrehozására "
 "<http://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
 
-#: ../../build/doc/quickstart/virtualization_quickstart.rst:112
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:122
 msgid ":doc:`osgeolive_quickstart`"
 msgstr ":doc:`osgeolive_quickstart`"
 
-#: ../../build/doc/quickstart/virtualization_quickstart.rst:113
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:123
 msgid ":doc:`osgeolive_install_quickstart`"
 msgstr ":doc:`osgeolive_install_quickstart`"
 
-#: ../../build/doc/quickstart/virtualization_quickstart.rst:114
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:124
 msgid ":doc:`usb_quickstart`"
 msgstr ":doc:`usb_quickstart`"

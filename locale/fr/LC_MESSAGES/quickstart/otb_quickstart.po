@@ -3,14 +3,20 @@
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Sant-anna <delazj@gmail.com>, 2017
+# Nicolas Roelandt (Personnel), 2018
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018
+# Manuel Grizonnet <manuel.grizonnet@cnes.fr>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:04+0000\n"
+"Last-Translator: Manuel Grizonnet <manuel.grizonnet@cnes.fr>, 2018\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -127,8 +133,8 @@ msgid ""
 "substrating two bands to study the image differences on the images "
 "`lsat7_2002_10.tif` and `lsat7_2002_20.tif`, just use the command::"
 msgstr ""
-"Le `otbcli_otbBandMath` fournit un moyen efficace pour effectuer une "
-"opération mathématique sur les bandes de l’image. La syntaxe est assez "
+"L'application `otbcli_otbBandMath` fournit un moyen efficace pour effectuer "
+"des opérations mathématique sur les bandes de l’image. La syntaxe est assez "
 "simple, par exemple soustraire deux bandes pour étudier les différences "
 "d’image sur les images `lsat7_2002_10.tif` et `lsat7_2002_20.tif`, utilisez "
 "seulement la commande::"
@@ -222,11 +228,11 @@ msgstr "Mean-Shift"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:93
 msgid "Watershed (ITK implementation)"
-msgstr "Watershed (Implémentation ITK)"
+msgstr "Ligne de partage des eaux  (Implémentation ITK)"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:94
 msgid "Connected-Components"
-msgstr "Connected-Components"
+msgstr "Analyse en composante connexes"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:95
 msgid "Morphological profiles"
@@ -281,9 +287,9 @@ msgid ""
 "large image with theoretical guarantees of getting identical results to "
 "those without tiling called LSMS_."
 msgstr ""
-"OTB inclut également un cadre logiciel pour effectuer une segmentation tile-"
-"wise  d’image très grande avec des garanties théoriques d’obtenir des "
-"résultats identiques à ceux sans tiling appelé LSMS_."
+"OTB inclut également un cadre logiciel pour effectuer une segmentation par "
+"tuiles d’image très grande avec des garanties théoriques d’obtenir des "
+"résultats identiques à ceux sans tuilage appelé LSMS_."
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:135
 msgid "OTB in QGis"
@@ -357,7 +363,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:168
 msgid "OTB CookBook"
-msgstr "Guide de recettes OTB"
+msgstr "OTB CookBook"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:170
 msgid ""
@@ -366,10 +372,10 @@ msgid ""
 " and Monteverdi, followed by a set of recipes to perform usual remote "
 "sensing tasks with both tools."
 msgstr ""
-"Un guide pour les applications OTB et de Monteverdi dédié aux non-"
-"développeurs est également disponible. Ce guide se compose d’une brève "
-"visite des applications OTB et de Monteverdi, suivie d’une série de recettes"
-" aux tâches habituelles de télédétection avec ces deux outils."
+"Un guide pour les applications OTB et Monteverdi dédié aux non-développeurs "
+"est également disponible. Ce guide se compose d’une brève visite des "
+"applications OTB et de Monteverdi, suivie d’une série de recettes pour "
+"mettre oeuvre des tâches habituelles de télédétection avec ces deux outils."
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:175
 msgid "`OTBCookBook.pdf <http://orfeo-toolbox.org/packages/OTBCookBook.pdf>`_"

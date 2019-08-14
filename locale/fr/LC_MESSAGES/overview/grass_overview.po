@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
+# Nicolas Roelandt (Personnel), 2019
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2019\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -99,11 +100,15 @@ msgid ""
 "You name it, there's a `tool for it "
 "<https://grass.osgeo.org/grass76/manuals/keywords.html>`_."
 msgstr ""
+"Vous nommez une fonction, il y a `un outil pour ça "
+"<https://grass.osgeo.org/grass76/manuals/keywords.html>`_. dans GRASS."
 
 #: ../../build/doc/overview/grass_overview.rst:66
 msgid ""
 "Explore the `screenshot collection <https://grass.osgeo.org/screenshots/>`_."
 msgstr ""
+"Explorez la `collection de captures d'écran "
+"<https://grass.osgeo.org/screenshots/>`_."
 
 #: ../../build/doc/overview/grass_overview.rst:69
 msgid "Details"
@@ -111,11 +116,11 @@ msgstr "Détails"
 
 #: ../../build/doc/overview/grass_overview.rst:71
 msgid "**Website:** https://grass.osgeo.org"
-msgstr ""
+msgstr "**Site web :** https://grass.osgeo.org"
 
 #: ../../build/doc/overview/grass_overview.rst:73
 msgid "**Licence:** GNU General Public License (GPL) version 2+"
-msgstr ""
+msgstr "**Licence:** GNU General Public License (GPL) version 2+"
 
 #: ../../build/doc/overview/grass_overview.rst:75
 msgid "**Software Version:** |version-grass|"
@@ -131,7 +136,7 @@ msgstr "**Interfaces de l'API :** C, Python, Bourne Shell"
 
 #: ../../build/doc/overview/grass_overview.rst:81
 msgid "**Support:** https://grass.osgeo.org/support/"
-msgstr ""
+msgstr "**Support:** https://grass.osgeo.org/support/"
 
 #: ../../build/doc/overview/grass_overview.rst:86
 msgid "Quickstart"

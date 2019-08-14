@@ -7,16 +7,16 @@
 # Robin Schwammborn, 2018
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018
-# Astrid Emde <astrid_emde@osgeo.org>, 2018
+# Astrid Emde <astrid_emde@osgeo.org>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 12.0\n"
+"Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2018\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2019\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -484,8 +484,12 @@ msgid "Here is a example WMS:"
 msgstr "Beispiel für einen WMS"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:205
-msgid "WhereGroup OSM WMS https://osm-demo.wheregroup.com/service"
+msgid ""
+"WhereGroup OSM WMS https://osm-"
+"demo.wheregroup.com/service?SERVICE=WMS&VERSION=1.3.0&REQUEST=getCapabilities"
 msgstr ""
+"WhereGroup OSM WMS https://osm-"
+"demo.wheregroup.com/service?SERVICE=WMS&VERSION=1.3.0&REQUEST=getCapabilities"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:210
 msgid "Add Service to Application"
@@ -607,9 +611,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:248
 msgid ""
-"transparency - Standard ist aktiviert, deaktiviert wird der Dienst ohne "
-"transparenten Hintergrund angefordert (getMap-Request mit TRANSPARENT=FALSE)"
+"transparency - default is active, the source is without a transparent "
+"background if it is deactivated (getMap-Request with TRANSPARENT=FALSE)"
 msgstr ""
+"transparenz - Standard ist aktiv, die Quelle ist ohne transparenten "
+"Hintergrund, wenn sie deaktiviert ist (getMap-Request mit TRANSPARENT=FALSE)"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:249
 msgid ""
@@ -628,12 +634,28 @@ msgstr ""
 "werden"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:251
-msgid "BBOX factor"
+msgid ""
+"BBOX factor - This parameter is valid for non-tiled WMS services. You can "
+"specify the size of the returned map-image. A value greater than 1 will "
+"request a bigger map-image. Default: 1.25, can be set to 1."
 msgstr ""
+"BBOX-Faktor - Dieser Parameter ist für nicht gekachelte WMS-Dienste gültig. "
+"Sie können die Größe des zurückgegebenen Kartenbildes angeben. Ein Wert "
+"größer als 1 fordert ein größeres Kartenbild an. Standard: 1.25, kann auf 1 "
+"gesetzt werden."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:252
-msgid "tile buffer"
+msgid ""
+"tile buffer - This parameter is valid for tiles services and specifies if "
+"additional tiles should be requested. If the user pans the map, these tiles "
+"are already downloaded and visible. The higher the value the more tiles are "
+"requested. Default: 0"
 msgstr ""
+"tile buffer – Dieser Parameter ist für gekachelt angeforderte Dienste gültig"
+" und gibt an, ob zusätzliche Kacheln angefordert werden sollen. Wenn der "
+"Benutzer die Karte verschiebt, sind diese Kacheln bereits heruntergeladen "
+"und direkt sichtbar. Je höher der Wert, desto mehr Kacheln werden "
+"angefordert. Standard: 0"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:254
 msgid "Layer configuration"
@@ -664,8 +686,8 @@ msgid ""
 msgstr "info on - Layer-Infoabfrage wird beim Start aktiviert"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:261
-msgid "info allow"
-msgstr ""
+msgid "info allow - feature info is possible for this layer"
+msgstr "info allow - Feature-Info ermöglichen für diesen Layer"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:262
 msgid ""
@@ -691,8 +713,8 @@ msgid "... -> opens a dialog with more information"
 msgstr "öffnet einen Dialog mit weiteren Informationen"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:266
-msgid "name"
-msgstr ""
+msgid "name - layer name of the service information (for getMap-Requests)"
+msgstr "name - Layer-Name der Service-Informationen (für getMap-Requests)"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:267
 msgid ""
@@ -768,60 +790,60 @@ msgstr ""
 "die Mapbender Anwendung anzupassen, ohne den Quellcode verändern zu müssen."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:294
-msgid "Examples for elements Mapbender3 offers:"
-msgstr ""
+msgid "Examples for elements Mapbender offers:"
+msgstr "Beispiele für Elemente, die Mapbender bietet:"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:296
-msgid "About Dialog"
-msgstr ""
-
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:297
 msgid "Activity Indicator"
 msgstr "Aktivitätsanzeige"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:298
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:297
 msgid "BaseSourceSwitcher"
 msgstr "Hintergrund wechseln"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:299
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:298
 msgid "Button"
 msgstr "Button"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:300
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:299
 msgid "Coordinates Display"
 msgstr "Koordinatenanzeige"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:301
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:300
 msgid "Coordinate Utility"
 msgstr "Koordinatenwerkzeug"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:302
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:301
 msgid "Copyright"
 msgstr "Copyright"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:303
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:302
 msgid "Feature Info"
 msgstr "Feature Info"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:304
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:303
 msgid "GPS-Position"
 msgstr "GPS-Position"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:305
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:304
 msgid "HTML"
 msgstr "HTML"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:306
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:305
 msgid "Legend"
 msgstr "Legende"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:307
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:306
 msgid "Layertree - Table of Content"
 msgstr "Layertree - Ebenenbaum"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:308
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:307
 msgid "Map"
 msgstr "Karte"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:308
+msgid "Navigation Toolbar (Zoombar)"
+msgstr "Navigationstoolbar (Zoombar)"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:309
 msgid "Overview"
@@ -832,36 +854,36 @@ msgid "PrintClient"
 msgstr "Druck"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:311
+msgid "Redlining"
+msgstr "Redlining (Skizzen)"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:312
 msgid "Ruler Line/Area"
 msgstr "Linien- und Flächenmessung"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:312
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:313
 msgid "Scale Selector"
 msgstr "Maßstabsauswahl"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:313
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:314
 msgid "ScaleBar"
 msgstr "Maßstabsleiste"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:314
-msgid "SimpleSearch"
-msgstr ""
-
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:315
-msgid "Search Router"
-msgstr ""
+msgid "SimpleSearch - Search via Solr"
+msgstr "SimpleSearch - Suche über Solr"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:316
+msgid "SearchRouter - Seach via SQL"
+msgstr "SearchRouter - Suche via SQL"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:317
 msgid "SRS Selector"
 msgstr "SRS Auswahl"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:317
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:318
 msgid "Spatial Reference System Selector (SRS Selector)"
 msgstr "Auswahl der Projektion über eine Auwahlbox (SRS Auswahl)"
-
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:318
-msgid "Navigation Toolbar (Zoombar)"
-msgstr "Navigationstoolbar (Zoombar)"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:319
 msgid "WMS Loader"
@@ -898,33 +920,48 @@ msgstr ""
 "Anwendung hinzu"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:331
-msgid "add a Layertree to the content of your application"
+msgid "add a Layertree to the sidepane of your application"
 msgstr ""
+"Fügen Sie einen Ebenenbaum (Layertree) zur Sidepane Ihrer Anwendung hinzu"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:332
-msgid "add a button that opens the Layertree to the top of your application"
-msgstr ""
+msgid "add a Legend to the sidepane of your application"
+msgstr "Fügen Sie der Sidepane Ihrer Anwendung eine Legende hinzu"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:333
+msgid "add a print element to the content"
+msgstr "Fügen Sie ein Druckelement zum content-Bereich hinzu"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:334
+msgid "add a button that opens the print to the top of your application"
+msgstr "Fügen Sie ein Button-Element hinzu, das den Druck öffnet"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:335
 msgid "add the Navigation Toolbar to the content"
 msgstr ""
 "Fügen Sie das Navigationselement (Navigation Toolbar) in den content-Bereich"
 " hinzu"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:334
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:336
+msgid "add an overview map to the content"
+msgstr "Fügen Sie eine Übersichtskarte (overview) zum content-Bereich hinzu"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:337
 msgid "add a Copyright and change the copyright text"
 msgstr ""
 "Fügen Sie ein Copyright-Element hinzu und ändern Sie den Copyright-Text."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:335
-msgid "add a SRS Selector to the footer"
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:338
+msgid "add a Scales Selector and an SRS Selector to the footer"
 msgstr ""
+"Fügen Sie eine Maßstabsauswahl (Scale-Selector) und einen SRS-Selector zum "
+"footer-Bereich hinzu"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:339
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:342
 msgid "User and group management"
 msgstr "Benutzer- und Gruppenverwaltung"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:340
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:343
 msgid ""
 "An access to Mapbender requires authentication. Only public applications can"
 " be used by everyone."
@@ -932,18 +969,18 @@ msgstr ""
 "Der Zugriff auf eine Mapbender-Anwendung benötigt Authentifizierung. Nur "
 "öffentliche Anwendungen können von allen Anwendern genutzt werden."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:342
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:345
 msgid ""
 "A user has permissions to access one or a set of applications and services."
 msgstr ""
 "Ein Benutzer kann die Berechtigungen bekommen, um auf eine oder mehrere "
 "Anwendungen und Dienste zuzugreifen."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:349
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:352
 msgid "Create a user"
 msgstr "Benutzer anlegen"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:351
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:354
 msgid ""
 "To create a user go to :guilabel:`New User` or click the "
 ":menuselection:`+-Button`."
@@ -951,19 +988,19 @@ msgstr ""
 "Um einen Benutzer anzulegen, gehen Sie zu :guilabel:`New User` oder wählen "
 "Sie den :menuselection:`+-Button`."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:353
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:356
 msgid "Choose a name and a password for your user."
 msgstr "Wählen Sie einen Namen und ein Kennwort für Ihren Benutzer."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:355
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:358
 msgid "Provide an email address for the user."
 msgstr "Geben Sie eine E-Mail-Adresse für den Benutzer an."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:357
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:360
 msgid "Save your new user."
 msgstr "Speichern Sie Ihren neuen Benutzer."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:359
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:362
 msgid ""
 "You can provide more information about the user in the tab "
 ":menuselection:`Profile`."
@@ -971,32 +1008,32 @@ msgstr ""
 "Weitere Angaben zum Benutzer können im Reiter :menuselection:`Profil` "
 "erfolgen."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:366
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:369
 msgid "Create a group"
 msgstr "Gruppe anlegen"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:367
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:370
 msgid "Create a group by :guilabel:`New Group`."
 msgstr "Erzeugen Sie eine Gruppe über :guilabel:`New Group`."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:369
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:372
 msgid "Define a name and a description for your group."
 msgstr "Wählen Sie einen Namen und eine Beschreibung für Ihre Gruppe."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:371
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:374
 msgid "Save your new group."
 msgstr "Speichern Sie Ihre neue Gruppe."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:375
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:378
 msgid "Assign users to group"
 msgstr "Benutzer einer Gruppe zuweisen"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:377
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:380
 msgid "Assign a user to a group by :guilabel:`Users --> Groups`."
 msgstr ""
 "Weisen Sie einen Benutzer einer Gruppe über :guilabel:`Users --> Groups` zu."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:379
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:382
 msgid ""
 "Choose one or more users you want to add to the group at "
 ":menuselection:`Users`."
@@ -1004,7 +1041,7 @@ msgstr ""
 "Wählen Sie einen oder mehrere Benutzer über :menuselection:`Users` aus, die "
 "Sie der Gruppe zuweisen wollen."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:381
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:384
 msgid ""
 "Assign a user by :menuselection:`Users --> Edit-Button--> Groups` to a "
 "group."
@@ -1012,11 +1049,11 @@ msgstr ""
 "Weisen Sie einen Benutzer über :menuselection:`Users --> Edit-Button--> "
 "Groups` einer Gruppe zu."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:388
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:391
 msgid "Roles"
 msgstr "Rechte"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:389
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:392
 msgid ""
 "Mapbender provides different rights. They refer to the Symfony ACL System "
 "http://symfony.com/doc/2.8/cookbook/security/acl_advanced.html#built-in-"
@@ -1027,27 +1064,27 @@ msgstr ""
 "http://symfony.com/doc/2.8/cookbook/security/acl_advanced.html#built-in-"
 "permission-map"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:391
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:394
 msgid "view - Whether someone is allowed to view the object."
 msgstr "Anzeigen (view) - Regelt, ob jemand das Objekt betrachten darf."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:392
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:395
 msgid "edit - Whether someone is allowed to make changes to the object."
 msgstr ""
 "Editieren (edit) - Regelt, ob jemand das entsprechende Objekt editieren "
 "darf."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:393
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:396
 msgid "delete - Whether someone is allowed to delete the object."
 msgstr ""
 "Löschen (delete) - Regelt, ob jemand das entsprechende Objekt löschen kann."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:394
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:397
 msgid ""
 "operator - Whether someone is allowed to perform all of the above actions."
 msgstr "Operator - Kann anzeigen, editieren und löschen."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:395
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:398
 msgid ""
 "master - Whether someone is allowed to perform all of the above actions, and"
 " in addition is allowed to grant any of the above permissions to others."
@@ -1055,13 +1092,13 @@ msgstr ""
 "Master - Kann anzeigen, editieren und löschen und diese Rechte außerdem "
 "weitergeben."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:396
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:399
 msgid ""
 "owner - Whether someone owns the object. An owner can perform any of the "
 "above actions and grant master and owner permissions."
 msgstr "Besitzer - Darf alles. Darf master-Recht und owner-Recht vergeben."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:398
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:401
 msgid ""
 "Assign roles to a user by :menuselection:`Users --> Edit your User --> "
 "Security`."
@@ -1069,65 +1106,65 @@ msgstr ""
 "Weisen Sie einem Benutzer über :menuselection:`Users --> Edit your User --> "
 "Security` Rechte zu."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:405
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:408
 msgid "Assign an Application to a User/Group"
 msgstr "Zuweisen einer Anwendung zu einem Benutzer/einer Gruppe"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:406
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:409
 msgid "Edit your application by :menuselection:`Application --> Edit-Button`."
 msgstr ""
 "Bearbeiten Sie Ihre Anwendung über :menuselection:`Application --> Edit-"
 "Button`."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:408
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:411
 msgid "Choose :menuselection:`Security`"
 msgstr "Wählen Sie :menuselection:`Security`"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:410
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:413
 msgid "Set permission like view edit delete operator master owner"
 msgstr ""
 "Setzen Sie Berechtigungen wie anzeigen, editieren, löschen, operator, "
 "master, Besitzer."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:412
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:415
 msgid "Assign a user/group to the application"
 msgstr "Weisen Sie eine Anwendung einem Benutzern / einer Gruppe zu"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:414
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:417
 msgid "Test your configuration!"
 msgstr "Testen Sie die Konfiguration!"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:416
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:419
 msgid "Logout from Mapbender by :menuselection:`Logout`."
 msgstr "Melden Sie sich über :menuselection:`Logout` ab."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:418
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:421
 msgid "Login as the new user"
 msgstr "Melden Sie sich unter der neuen Benutzerbezeichnung an"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:425
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:428
 msgid "Things to try"
 msgstr "Weitere Aufgaben"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:427
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:430
 msgid "Here are some additional challenges for you to try:"
 msgstr "Hier sind weitere Aufgaben, die Sie ausprobieren können:"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:429
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:432
 msgid "Try to load some WMS in your application. Try to configure your WMS."
 msgstr ""
 "Versuchen Sie, einige WMS in Ihre Anwendung zu laden. Versuchen Sie Ihre WMS"
 " zu konfigurieren."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:431
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:434
 msgid "Try to create an individual application."
 msgstr "Versuchen Sie eine eigene Anwendung zu erzeugen."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:435
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:438
 msgid "What Next?"
 msgstr "Was kommt als Nächstes?"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:437
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:440
 msgid ""
 "This is only the first step on the road to using Mapbender. There is a lot "
 "more functionality you can try."
@@ -1135,30 +1172,26 @@ msgstr ""
 "Dies waren nur die ersten Schritte mit Mapbender. Es gibt viele weitere "
 "Funktionen, die Sie ausprobieren können."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:439
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:442
 msgid "Mapbender Website"
 msgstr "Mapbender Projektseite"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:441
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:444
 msgid "https://mapbender.org/"
 msgstr "https://mapbender.org/"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:443
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:446
 msgid "You find tutorials at"
 msgstr "Sie finden Tutorials unter"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:445
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:448
 msgid "https://doc.mapbender.org"
 msgstr "https://doc.mapbender.org"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:447
-msgid "https://api.mapbender.org"
-msgstr ""
-
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:449
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:450
 msgid "Get involved in the project"
 msgstr "Beteiligen Sie sich"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:451
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:452
 msgid "https://www.mapbender.org/Community"
 msgstr "https://www.mapbender.org/?q=de/node/16"
