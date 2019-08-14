@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-17 10:25-0500\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -88,6 +88,12 @@ msgstr "このクイックスタートのサンプルを使用するためには
 msgid "Loading OSM data with osm2pgrouting"
 msgstr "osm2pgrouting での OSM データの読み込み"
 
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:65
+msgid ""
+"osm2pgrouting is a command-line tool for loading .osm files into pgRouting "
+"compatible format. Here is how you use osm2pgrouting version 2.1.0+."
+msgstr ""
+
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:68
 msgid ""
 "First verify version of osm2pgrouting you have installed. Should read 2.1 or"
@@ -97,6 +103,10 @@ msgstr "最初に、インストールされている osm2pgrouting のバージ
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:74
 msgid "Output shows:"
 msgstr "出力が表示されます:"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:80
+msgid "Now load the data from osm file:"
+msgstr ""
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:90
 msgid "Output should be something like:"
@@ -141,6 +151,14 @@ msgstr "これは以下を出力します:"
 msgid "To do so you would change your query to below:"
 msgstr "osm_id を使用するために、以下のクエリに変更してみます:"
 
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:197
+msgid ""
+"Note: the SQL statement must always have field names `id, source, target, "
+"and cost`. Since we are using fields `source_osm` and `target_osm`, we need "
+"to alias them so resulting pgr_dijkstra query columns are named source and "
+"target."
+msgstr ""
+
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:200
 msgid "Output is:"
 msgstr "出力は:"
@@ -180,6 +198,13 @@ msgstr ""
 ":doc:`OpenJump <../overview/openjump_overview>` や :doc:`QGIS "
 "<../overview/qgis_overview>` DbManager プラグインなどが利用可能です。"
 
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:259
+msgid ""
+"To use the DbManager extension of QGIS open up QGIS then go to ``Database ->"
+" DB Manager -> DB Manager``. Select the SQL Window icon and cut and paste "
+"the above pgRouting Query."
+msgstr ""
+
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:262
 msgid "Run the Dijkstra shortest path function with considering direction."
 msgstr "ダイクストラによる最短経路探索を、方向を考慮して実行します。"
@@ -210,6 +235,19 @@ msgid ""
 msgstr ""
 "**pgRouting Webサイト** - プロジェクトのウェブサイト http://www.pgrouting.org で、pgRouting "
 "についてさらに学ぶことができます。"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:287
+msgid ""
+"**pgRouting Documentation** - Find the most recent documentation in "
+"http://docs.pgrouting.org."
+msgstr ""
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:289
+msgid ""
+"**pgRouting Workshop** - The workshop `\"FOSS4G routing with pgRouting tools"
+" and OpenStreetMap road data\"` is available in: "
+"http://workshop.pgrouting.org."
+msgstr ""
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:290
 msgid ""
