@@ -258,7 +258,7 @@ which will display all the components we created above.
         ]
     });
 
-You should now be able to refresh the link http://localhost/geoext/demo.html in your browser and see a complete GeoExt application similar to the image below. 
+You should now be able to refresh the link http://localhost/geoext/index.html in your browser and see a complete GeoExt application similar to the image below. 
 
 .. image:: /images/projects/geoext/geoext_quickstart.png
   :scale: 100 %
