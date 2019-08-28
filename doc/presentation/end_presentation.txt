@@ -17,10 +17,10 @@
         * Vicky Vergara
 
         .. rv_note::
-            As you can see listed here, many people have been involved in packaging the Open Source Software for OSGeo-Live,
+            As you can see listed here, many people have been involved in packaging the Open Source Software for OSGeoLive,
             and literally thousands of developers have helped build the software we package.
             Thank you.
-            I'd like to especially thank the Project Steering Committee who have led the coordination and core packaging of the OSGeo-Live project.
+            I'd like to especially thank the Project Steering Committee who have led the coordination and core packaging of the OSGeoLive project.
 
     .. revealjs:: How can you get involved?
         :title-heading: h2
@@ -74,7 +74,7 @@
         .. rv_note::
             This has just been a taster,
             do you want to know more?
-            You can see project descriptions or download the OSGeo-Live DVD from the website.
+            You can see project descriptions or download OSGeoLive from the website.
             The OSGeo Foundation provides links to all things GeoSpatial and Open Source.
             There are many conferences worth attending,
             in particular the annual FOSS4G conference.
