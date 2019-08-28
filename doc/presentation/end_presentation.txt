@@ -24,8 +24,10 @@
             I'd like to especially thank the Project Steering Committee who have led the coordination and core packaging of the OSGeo-Live project.
 
     .. revealjs:: How can you get involved ?
+       :title-heading: h2
     
-        * Become a member of our team
+        Become a member of our team
+        
         * Join our `Mailing List <http://lists.osgeo.org/mailman/listinfo/osgeolive>`__ and introduce yourself
         * Take part in our weekly `IRC <http://wiki.osgeo.org/wiki/IRC>`__ meetings (channel ``#osgeolive`` on Freenode)
         * There are two ways you can help
@@ -34,6 +36,7 @@
           * Submit new projects
           
      .. revealjs:: Improving OSGeoLive Documentation
+        :title-heading: h2
      
          *  Proof-read, test and correct Quickstarts and Overviews
          
