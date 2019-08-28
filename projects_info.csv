@@ -60,7 +60,7 @@ Y  |  opencpn  | 4.8.4 |  Y  |  Y  |  Navigation and Maps  |    |  Marine GPS Ch
 ######################| | | | | | | | | | |
 Y  |  gmt  |  5.4.5|  Y  |  Y  |  Spatial Tools  |11|  Cartographic Rendering  |  GMT|https://gmt.soest.hawaii.edu| |GMT
 Y  |  otb  |  6.6.1  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  otb|http://www.orfeo-toolbox.org/|OSGeo_project|OTB
-Y  |  R  |  3.4.4  |  Y  |  Y  |  Spatial Tools  |    |  Statistical Programming  |  R_project|http://cran.r-project.org| |R for Spatial Data
+Y  |  R  |  3.4.4  |  Y  |  Y  |  Spatial Tools  |    |  Statistical Programming  |  R_project|http://cran.r-project.org| |R
 Y  |  mapnik  |  3.0.22  |  Y  |  Y  |  Spatial Tools  |    |  Cartographic Rendering  |  mapnik|http://mapnik.org/| |Mapnik
 Y  |  mapslicer  | 1.0rc2 |  Y  |  Y  |  Spatial Tools  |    |  Create Map Tiles  |  |http://mapproxy.org/| |MapSlicer
 N  |  ossim  |  2.7.2  |  Y  |  Y  |  Spatial Tools  |    |  Image Processing  |  ossim|http://www.ossim.org/|OSGeo_project|OSSIM
