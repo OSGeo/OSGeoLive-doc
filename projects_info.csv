@@ -83,7 +83,7 @@ Y  |  geotools  |  NA  |  N  |  Y  |  Geospatial Libraries  |    |  Java GIS Too
 Y  |  geos  |  3.7.1  |  N  |  Y  |  Geospatial Libraries  |    |  C/C++ Spatial Library  |  geos|http://geos.osgeo.org/|OSGeo_project|GEOS
 Y  |  proj4  |  5.2.0  |  Y  |  Y  |  Geospatial Libraries  |    |  Coordinate Reference System Libraries  |  proj4|http://proj4.org/index.html|OSGeo_community|Proj.4
 Y  |  liblas  |  1.8.1  |  Y  |  Y  |  Geospatial Libraries  |    |  LiDAR Data Access  |  liblas|http://liblas.org/| |libLAS
-Y  |  jts  |  NA  |  N  |  Y  |  Geospatial Libraries  |    |  Java Topology Suite  |  jts-topo-suite| | |JTS Topology Suite
+Y  |  jts  |  NA  |  N  |  Y  |  Geospatial Libraries  |    |  Java Topology Suite  |  jts-topo-suite| | |JTS
 
 ######################| | | | | | | | | | |
 #   Geospatial Standards  | | | | | | | | | | |
