@@ -229,8 +229,9 @@ sub get_section {
         ++$elem_count;
         $max = $elem_count if $elem_count > $max;
         if ($elem_count == 4) {
-            $tbl->row(@name_line);
             $tbl->row(@img_line);
+            $tbl->row(@name_line);
+
 
             $elem_count = 0;
             @name_line = ();
@@ -246,12 +247,13 @@ sub get_section {
             push @name_line,  "____1234____ ";  
             push @img_line,   "____1234____ ";  
         }
-        $tbl->row(@name_line);
         $tbl->row(@img_line);
+        $tbl->row(@name_line);
+
     }
 
     if ($max == 1) {
-        $contents .= "              @name_line\n              @img_line\n\n";
+        $contents .= "              @img_line\n           @name_line\n\n";
         $contents .= "$description";
         return "$contents\n$slides";
     }
