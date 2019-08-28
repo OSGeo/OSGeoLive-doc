@@ -5,17 +5,17 @@
 
         Project Steering Committee:
 
-        * Angelos Tzotsos (chair),
-        * Brian M Hamlin,
-        * Cameron Shorter,
-        * Alex Mandel,
-        * Johan Van de Wauw,
-        * Bas Couwenberg,
-        * Massimo De Stefano,
-        * Astrid Emde,
-        * Ben Caradoc-Davies,
+        * Angelos Tzotsos (Chair)
+        * Brian M Hamlin
+        * Cameron Shorter
+        * Alex Mandel
+        * Johan Van de Wauw
+        * Bas Couwenberg
+        * Massimo De Stefano
+        * Astrid Emde
+        * Ben Caradoc-Davies
         * Nicolas Roelandt
-        * Vicky Vergara.
+        * Vicky Vergara
 
         .. rv_note::
             As you can see listed here, many people have been involved in packaging the Open Source Software for OSGeo-Live,
