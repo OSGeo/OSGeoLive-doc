@@ -24,18 +24,23 @@
             I'd like to especially thank the Project Steering Committee who have led the coordination and core packaging of the OSGeo-Live project.
 
     .. revealjs:: How can you get involved ?
+    
         * Become a member of our team
-
         * Join our `Mailing List <http://lists.osgeo.org/mailman/listinfo/osgeolive>`__ and introduce yourself
         * Take part in our weekly `IRC <http://wiki.osgeo.org/wiki/IRC>`__ meetings (channel ``#osgeolive`` on Freenode)
         * There are two ways you can help
+        
           * Help improve OSGeoLive website and documentation
           * Submit new projects
           
      .. revealjs:: Improving OSGeoLive Documentation
+     
          *  Proof-read, test and correct Quickstarts and Overviews
+         
            * There is a good possibility to get to know cool software!
+           
          *  Translate and improve the documentation
+         
            * Translation is made in `Transifex <https://www.transifex.com/osgeo/osgeolive/dashboard/`__
            * Local Chapters can easily get involved here
            * No technical experience necessary
