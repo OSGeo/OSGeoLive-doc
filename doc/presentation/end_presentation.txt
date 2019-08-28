@@ -23,8 +23,8 @@
             Thank you.
             I'd like to especially thank the Project Steering Committee who have led the coordination and core packaging of the OSGeo-Live project.
 
-    .. revealjs:: How can you get involved ?
-       :title-heading: h2
+    .. revealjs:: How can you get involved?
+        :title-heading: h2
     
         Become a member of our team
         
@@ -34,21 +34,21 @@
         
           * Help improve OSGeoLive website and documentation
           * Submit new projects
-          
-     .. revealjs:: Improving OSGeoLive Documentation
+  
+    .. revealjs:: Improving OSGeoLive Documentation
         :title-heading: h2
-     
-         *  Proof-read, test and correct Quickstarts and Overviews
-         
-           * There is a good possibility to get to know cool software!
-           
-         *  Translate and improve the documentation
-         
-           * Translation is made in `Transifex <https://www.transifex.com/osgeo/osgeolive/dashboard/`__
-           * Local Chapters can easily get involved here
-           * No technical experience necessary
 
-          
+        *  Proof-read, test and correct Quickstarts and Overviews
+         
+          * There is a good possibility to get to know cool software!
+           
+        *  Translate and improve the documentation
+ 
+          * Translation is made in `Transifex <https://www.transifex.com/osgeo/osgeolive/dashboard/`__
+          * Local Chapters can easily get involved here
+          * No technical experience necessary
+
+
     .. revealjs:: Sponsors
        :title-heading: h2
 
