@@ -2,7 +2,9 @@ Building OSGeoLive documentation
 ================================
 
 The following steps describe how to build OSGeoLive_ documentation on an Ubuntu
-based operating system (such as Lubuntu). 
+based operating system (such as Lubuntu).
+
+https://osgeo.github.io/OSGeoLive-doc/ - automated publication of latest docs from GitHub
 
 About OSGeoLive
 ~~~~~~~~~~~~~~~
