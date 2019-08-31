@@ -15,8 +15,8 @@ Homepage: http://live.osgeo.org
 Package: osgeolive-docs
 Architecture: all
 Depends: ${misc:Depends},
-         ${sphinxdoc:Depends},
-         fonts-noto-cjk
+         ${sphinxdoc:Depends}
+Recommends: fonts-noto-cjk
 Description: Documentation for OSGeo Live
  OSGeoLive is a self-contained bootable DVD, USB thumb drive or Virtual Machine
  based on Lubuntu, that allows you to try a wide variety of open source
