@@ -103,6 +103,11 @@ note that the OSGeoLive project will follow its **Diversity Statement**, **Speci
 its **Anti-Harassment** and **Reporting Guidelines**. So please be sure to have read those
 sections.
 
+### Reporting Guidelines
+
+If you believe someone behaving inappropriately with respect to a code of conduct, you may reply to them, and point to this code of conduct. Such messages may be in public or in private, whatever is most appropriate. Assume good faith; it is more likely that participants are unaware of their bad behaviour than that they intentionally try to degrade the quality of the discussion. Should there be difficulties in dealing with the situation, you may report your concerns to event staff, a forum leader or any OSGeo Board member or officer. Serious or persistent offenders may be expelled from the event or forum by event organizers or forum leaders.
+
+To privately email the code of conduct committee leadership use coc@osgeo.org.
 
 ### Attribution
 
