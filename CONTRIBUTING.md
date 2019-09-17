@@ -80,9 +80,6 @@ Whenever you invoke the Obvious Fix Rule, please say so in your commit message. 
   Fix typo in install file docs.
   Obvious fix.
 
-
-
-
 ## Translation process
 ### Join a translation team and translate
 
@@ -105,10 +102,6 @@ Please read carefully the [OSGeo Code of Conduct](https://www.osgeo.org/code_of_
 note that the OSGeoLive project will follow its **Diversity Statement**, **Specific Guidelines** and
 its **Anti-Harassment** and **Reporting Guidelines**. So please be sure to have read those
 sections.
-
-If you contribution is more than a small fix to an existing file, please send 
-a signed contributor agreement to the [OSGeoLive mailing list](https://lists.osgeo.org/mailman/listinfo/osgeolive).
-
 
 
 ### Attribution
