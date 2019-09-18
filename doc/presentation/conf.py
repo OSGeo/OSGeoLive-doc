@@ -15,7 +15,7 @@ version = '0.3.0'
 extensions = ['sphinxjp.themes.revealjs']
 html_theme = 'revealjs'
 html_use_index = False
-tatic_path = ['@CMAKE_CURRENT_SOURCE_DIR@/../_static']
+static_path = ['@CMAKE_CURRENT_SOURCE_DIR@/../_static']
 html_favicon = '@CMAKE_CURRENT_SOURCE_DIR@/../_static/favicon.ico'
 
 
