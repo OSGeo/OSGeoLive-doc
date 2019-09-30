@@ -3,7 +3,7 @@ Contact Us
 
 OSGeoLive development is coordinated via email and internet chat
 (IRC) as detailed on the
-`OSGeo Wiki <http://wiki.osgeo.org/wiki/OSGeoLive#Contact_Us>`_.
+`OSGeoLive Wiki <https://trac.osgeo.org/osgeolive#Communication>`_.
 
 Disclaimer
 ================================================================================
