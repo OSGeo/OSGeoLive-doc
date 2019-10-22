@@ -2,6 +2,7 @@
 :Author: Astrid Emde
 :Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Thanks: mapbender-user list
 
 @LOGO_mapbender@
