@@ -1,6 +1,7 @@
 :Author: activityworkshop
 :Version: osgeolive11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 
 @LOGO_gpsprune@
 @OSGEO_KIND_gpsprune@
@@ -88,4 +89,3 @@ Further reading
 * GpsPrune home page: https://gpsprune.activityworkshop.net/
 * Screenshots: https://gpsprune.activityworkshop.net/screenshots.html
 * How-tos and instructions: http://gpsprune.activityworkshop.net/how-tos.html
-
