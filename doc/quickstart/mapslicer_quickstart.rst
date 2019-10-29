@@ -2,8 +2,8 @@
 :Author: Petr Pridal
 :Author: Christopher Fleet
 :Author: Angelos Tzotsos
-:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive8.5
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_mapslicer@
@@ -15,7 +15,7 @@
 `MapSlicer <https://wiki.osgeo.org/wiki/MapSlicer>`_ provides a simple way of creating a set of tiles from any georeferenced map image. The tiles can then be presented as a georeferenced map overlay on a web server. It follows the `Open Source Geospatial Foundation's (OSGeo's) <http://www.osgeo.org/>`_ `Tile Map Service (TMS) <http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`_ specification.
 
 * **Input options**: Any georeferenced image file, eg. a TIFF, JPEG from ArcGIS, QGIS.
-* **Output options**: A set of directories with tiled images which can be copied to a web server for presentation as a georeferenced overlay.
+* **Output options**: A set of directories with tiled images which can be copied to a web server for presentation as a georeferenced overlay. 
 * **Strengths**: MapSlicer is simple, free, open-source software, with an easy wizard, described below, to guide through the options.
 
 MapSlicer takes advantage of the fact that `Google Maps <http://maps.google.com/>`_ , `Microsoft Bing <http://maps.bing.com>`_ , `Yahoo Maps <http://maps.yahoo.com/>`_ , and other online mapping providers including `OpenStreetMap <http://www.openstreetmap.org/>`_  use the same projection and tiling profile and the tiles are therefore compatible. MapSlicer prepares tiles using this specification as an easy and quick way of preparing a georeferenced map in a mashup web page.
@@ -67,13 +67,13 @@ Start MapSlicer
        :scale: 70 %
        :align: center
 
-9. Click **Render** to start rendering the image.
+9. Click **Render** to start rendering the image. 
 
    .. image:: /images/projects/mapslicer/mapslicer8.jpg
        :scale: 70 %
        :align: center
 
-10. When complete, MapSlicer provides a link to the finished tileset.
+10. When complete, MapSlicer provides a link to the finished tileset. 
 
    .. image:: /images/projects/mapslicer/mapslicer9.jpg
        :scale: 70 %
@@ -107,3 +107,4 @@ terminal, then
 
 See `gdal2tiles.py --help` and `mb-util --help` for additional information on
 running these tools.
+
