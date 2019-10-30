@@ -3,6 +3,7 @@
 :Author: Christopher Fleet
 :Author: Angelos Tzotsos
 :Version: osgeolive8.5
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_mapslicer@
