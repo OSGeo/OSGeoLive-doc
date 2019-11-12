@@ -1,6 +1,7 @@
 :Author: Hamish Bowman
 :Reviewer: Markus Neteler
 :Reviewer: Angelos Tzotsos, OSGeo
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Copyright: 2011-2019 by The OSGeo Foundation
@@ -19,16 +20,16 @@ geospatial data.
 .. contents:: Contents
 
 
-Quick tour
+Start @NAME_grass@
 ================================================================================
 
 .. author's note: Update in osgeolive8.5: light NC dataset is included, tutorial
  rewritten
 
-To run GRASS GIS on the Live DVD, click on the GRASS link in
-the :menuselection:`Geospatial --> Desktop GIS` menu.
-From the "Welcome to GRASS GIS " window select the nc_basic_spm_grass7 dataset
-for the location, and "user1" for the mapset, then click on [*Start GRASS*].
+1. Click on the GRASS link in the :menuselection:`Geospatial --> Desktop GIS` menu.
+2. From the "Welcome to GRASS GIS " window, select the nc_basic_spm_grass7 dataset
+for the location, and "user1" for the mapset.
+3. Click on [*Start GRASS*].
 
 .. image:: /images/projects/grass/grass-startup.png
   :scale: 50 %
@@ -50,25 +51,22 @@ This will launch GRASS into the `graphical user interface (written in wxPython) 
  mapset which contains the projection metadata and base cartography.
 
 
-Displaying maps
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+Display a map
+================================================================================
 .. image:: /images/projects/grass/grass-layerman.png
   :scale: 50 %
   :alt: screenshot
   :align: left
 
 Once inside select for display a raster map layer such as "`elevation`" from
-the PERMANENT mapset. To do this go into the `GIS Layer Manager` window
-and click on the checkerboard toolbar button with a "+" on it. Then
-select the map name you want from the "*map to be displayed*" pull-down
-list, and click :guilabel:`Ok`.
+the PERMANENT mapset. 
+1. Go into the `GIS Layer Manager` window
+2. Click on the checkerboard toolbar button with a "+" on it. 
+3. Select the map name you want from the "*map to be displayed*" pull-down list, and click :guilabel:`Ok`.
 
 In a similar fashion add the "`roadsmajor`" vector layer from the PERMANENT
 mapset by clicking on the toolbar button with a "+" and a bent poly-line which
 looks a bit like a "V".
-
-The icon tooltips (shown with mouse-over) will guide you easily.
 
 If you need to, right click on the raster map layer and choose "Zoom to
 selected map(s)".
@@ -76,8 +74,7 @@ selected map(s)".
 You should now see the maps displayed.
 
 Plot an elevation profile
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+================================================================================
 .. image:: /images/projects/grass/grass-profile.png
   :scale: 50 %
   :alt: screenshot
@@ -96,8 +93,7 @@ the `Map Display` canvas. When done go back to the Profile window.
 Click on the I/O button of the far right to close the profile window.
 
 Create a random surface
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+================================================================================
 .. HB comment: this quickstart is getting kinda long, maybe retire this section.
 
 Now let's create a new map. First set the *computational region* to the default
@@ -115,8 +111,7 @@ tab (the defaults are fine); and click [*Run*]. You can then [*Close*] the
   :align: right
 
 Adjust raster map colors
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+================================================================================
 Now you'll see your new raster map added to the layer list along with
 the elevation raster map, except this time it will be in your "user1"
 working mapset. You might un-tick the `elevation` layer's visibility check-box
@@ -132,8 +127,7 @@ choices. Once done click the [*Run*] button and close the *r.colors* dialog
 window. The colors should then update automatically.
 
 Create a shaded relief map
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+================================================================================
 .. image:: /images/projects/grass/grass-shadedrelief.png
   :scale: 50 %
   :alt: screenshot
@@ -156,9 +150,8 @@ Once done click [*Run*]. Now you should find the new `shaded_relief` *@user1*
 map added into your layer list. Un-tick the other raster layers to only
 display the newly created shaded relief raster layer.
 
-Watersheds and streams
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+Add watersheds and streams
+================================================================================
 Once again select the `elevation` *@PERMANENT* map. If you changed the
 region since the last step, again right click on the layer name and click
 on :menuselection:`Set computational region from selected map(s)` from the
@@ -219,9 +212,8 @@ in the Preferences window. You will
 have to do a full re-render to see the change so click on the re-render button
 the first in the `Map Display` window. The fonts will now be much prettier.
 
-Vector modules
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
+Work with vector modules
+================================================================================ 
 The above tasks have only covered a few raster modules. Don't let this
 give you the idea that GRASS GIS is just for raster maps -- the vector engine
 and modules are every bit as full-featured as the raster ones. GRASS GIS
@@ -246,8 +238,7 @@ might right click on it in the `Layer Manager` list and change its opacity
 level to 50%.
 
 Adjust vector map colors
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+================================================================================
 As we did earlier with a raster map we will change the color table of the
 new watershed basins vector map. With the ``basins_areas`` selected in the
 layer list, right click on the this vector map layer name and choose
@@ -262,9 +253,8 @@ map.
   :alt: screenshot
   :align: right
 
-Managing attributes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+Manage attributes
+================================================================================
 Next we'll add some attributes to those new areas, containing the average
 elevation in each basin. In the Vector menu select :menuselection:`Update attributes --> Update area attributes from raster`.
 Use ``basin_areas`` as the vector polygon map, and select the ``elevation``
@@ -300,9 +290,8 @@ and choose ``Select all``. Again right-click on the table data and this time
 choose ``Highlight selected features``. You should see e.g. alluvial flood basins
 and mesas show up in the ``Map Display``.
 
-3D visualization
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+View a 3D visualization
+================================================================================
 .. image:: /images/projects/grass/grass-nviz.png
   :scale: 50 %
   :alt: screenshot
@@ -327,15 +316,16 @@ increase the Z exaggeration ("z-Exag").
 For easy navigation in the 3D view, switch on the "Rotate 3D scene" in
 the map display toolbar, then use the mouse to move the view around.
 
-Other things to try
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+Things to try
+================================================================================
 While not covered here, you may like to experiment with the
 Cartographic Composer and object-oriented Graphical Modelling Tool (offers
-export to Python); you'll find icons to launch them on the lower row of
+export to Python). You'll find icons to launch them on the lower row of
 icons in the `Layer Manager` window. Further details can be found in
 the `wxGUI <https://grass.osgeo.org/grass76/manuals/wxGUI.html>`_ help pages.
 
+API
+--------------------------------------------------------------------------------
 The wxGUI is written in Python, and if you're a fan of Python programming
 there are a number of great tools and an API available to you. In the bottom
 of the `Layer Manager` window click on the `Python shell` tab and
@@ -346,13 +336,10 @@ available. For advanced use `Pythons Ctypes` is supported allowing the
 Python programmer direct access to GRASS GIS' extensive C libraries.
 See the manual pages for an extensive description of the programming options.
 
-Shutdown and the command line
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-When finished, exit the GRASS GUI with :menuselection:`File --> Exit GUI`.
-Before you close the GRASS terminal session as well, try a GRASS
-module by typing "``g.manual --help``" which will give you a list
-of module options. The GRASS command line is where the true power of
+Command line
+--------------------------------------------------------------------------------
+In the GRASS terminal session, try a GRASS module by typing "``g.manual --help``" which will give you a list of module options. 
+The GRASS command line is where the true power of
 the GIS comes into its own. GRASS is designed to allow all commands
 to be tied together in scripts for large bulk processing jobs. Popular
 scripting languages are Bourne Shell and Python, and many neat tricks
