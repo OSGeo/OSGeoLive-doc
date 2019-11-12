@@ -26,10 +26,9 @@ Start @NAME_grass@
 .. author's note: Update in osgeolive8.5: light NC dataset is included, tutorial
  rewritten
 
-1. Click on the GRASS link in the :menuselection:`Geospatial --> Desktop GIS` menu.
-2. From the "Welcome to GRASS GIS " window, select the nc_basic_spm_grass7 dataset
-for the location, and "user1" for the mapset.
-3. Click on [*Start GRASS*].
+#. Click on the GRASS link in the :menuselection:`Geospatial --> Desktop GIS` menu.
+#. From the "Welcome to GRASS GIS " window, select the nc_basic_spm_grass7 dataset for the location, and "user1" for the mapset
+#. Click on :guilabel:`Start GRASS`.
 
 .. image:: /images/projects/grass/grass-startup.png
   :scale: 50 %
@@ -60,9 +59,9 @@ Display a map
 
 Once inside select for display a raster map layer such as "`elevation`" from
 the PERMANENT mapset. 
-1. Go into the `GIS Layer Manager` window
-2. Click on the checkerboard toolbar button with a "+" on it. 
-3. Select the map name you want from the "*map to be displayed*" pull-down list, and click :guilabel:`Ok`.
+#. Go into the `GIS Layer Manager` window. 
+#. Click on the checkerboard toolbar button with a "+" on it. 
+#. Select the map name you want from the "*map to be displayed*" pull-down list, and click :guilabel:`Ok`.
 
 In a similar fashion add the "`roadsmajor`" vector layer from the PERMANENT
 mapset by clicking on the toolbar button with a "+" and a bent poly-line which
@@ -351,7 +350,7 @@ complete with powerful parser, GUI, and help page template.
 When you are done close the browser and type "exit" at the GRASS terminal
 prompt to leave the GIS environment.
 
-Further reading
+What Next?
 ================================================================================
 * Visit the GRASS GIS website at `https://grass.osgeo.org <https://grass.osgeo.org>`_
 * Visit the GRASS GIS Wiki help site at `https://grasswiki.osgeo.org/wiki/ <https://grasswiki.osgeo.org/wiki/>`_
