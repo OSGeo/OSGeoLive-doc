@@ -59,6 +59,7 @@ Display a map
 
 Once inside select for display a raster map layer such as "`elevation`" from
 the PERMANENT mapset. 
+
 #. Go into the `GIS Layer Manager` window. 
 #. Click on the checkerboard toolbar button with a "+" on it. 
 #. Select the map name you want from the "*map to be displayed*" pull-down list, and click :guilabel:`Ok`.
