@@ -1,6 +1,7 @@
 :Author: Balasubramaniam Natarajan
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos, OSGeo
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -10,24 +11,28 @@
 ********************************************************************************
 @NAME_cesium@ Quickstart
 ********************************************************************************
-This document shows how to use the Cesium with the 3D (Globe), 2.5D (Columbus View) and 2D (map).
+Cesium is a JavaScript library for creating 3D globes and 2D maps in a web browser without any plugins. It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for dynamic-data visualization.
 
-Starting Cesium
+This guide shows how to use the Cesium with the 3D (Globe), 2.5D (Columbus View) and 2D (map).
+
+.. contents:: Contents
+
+Start @NAME_cesium@ 
 ================================================================================
 
 Open the browser and point it to http://localhost/cesium/Apps/HelloWorld.html
 
-Searching for locations
+Search for a location
 ================================================================================
-You can click on the magnifying glass and type in the location you are looking for.  In the following display, we look for India.
+Click on the magnifying glass and type in the location you are looking for. In the following display, we look for India.
 
 .. image:: /images/projects/cesium/cesium_1_SearchingLocation.png
   :scale: 70 %
   :alt: Cesium Searching Location
 
-Switching between 3D, 2.5D and 2D
+Switch between 3D, 2.5D and 2D
 ================================================================================
-You can click on the wire framed globe icon to select your preferred view.  Here the 2.5D Columbus view has been selected.
+Click on the wire framed globe icon to select your preferred view.  Here the 2.5D Columbus view has been selected.
 
 .. image:: /images/projects/cesium/cesium_2_2253d.png
   :scale: 70 %
@@ -39,9 +44,9 @@ Now the 2D map is selected.
   :scale: 70 %
   :alt: Cesium 2D map
 
-Selecting the Image layer
+Select the Image layer
 ================================================================================
-We can click on the last icon and select the type of image service we want.  Here the Natural Earth II is selected and you can see how the map's image layer has changed.
+Click on the last icon and select a type of image service.  Here the Natural Earth II is selected and you can see how the map's image layer has changed.
 
 .. image:: /images/projects/cesium/cesium_4_Layer.png
   :scale: 70 %
