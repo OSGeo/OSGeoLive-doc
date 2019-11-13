@@ -1,5 +1,5 @@
 :Author: Seth Girvin
-:Reviewer: 
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -12,23 +12,24 @@
 
 GeoExt is a JavaScript library that runs in the browser, it combines and enhances the ExtJS framework and OpenLayers library. 
 This quick start details the steps to create a rich web application using GeoExt components in less than 200 lines of code. 
-We will be using the installed MapServer web services on OSGeoLive a MapServer to supply map layers to the application. Completing the 
-steps below will result in the demo GeoExt application at http://localhost/geoext/. 
+We will be using the installed MapServer web services on OSGeoLive a MapServer to supply map layers to the application. Completing the steps below will result in the demo GeoExt application at http://localhost/geoext/. 
 
-HTML Page
+.. contents:: Contents
+
+
+Create an HTML Page
 ---------
 
-In this step we will set-up an empty HTML page which will contain the application. 
+In this step we will set-up an empty HTML page which will contain the application. We'll use the text editor Leafpad installed on OSGeoLive to create a new HTML file at ``/var/www/html/geoext/demo.html`` 
 
-First create a new HTML file at ``/var/www/html/geoext/demo.html`` using the text editor Leafpad installed on OSGeoLive. To
-ensure you have permissions to save the file open Leafpad from the command line with elevated permissions using the
+1. Open Leafpad from the command line with elevated permissions (so you can save the file) using the
 command below:
 
 .. code-block:: bash
 
     sudo leafpad
 
-Next paste in the HTML below. This contains links to the ExtJS and OpenLayers JavaScript libraries, 
+2. Next paste in the HTML below. This contains links to the ExtJS and OpenLayers JavaScript libraries, 
 and two CSS files used to style ExtJS and OpenLayers components. 
 
 We will use the ``Ext.Loader`` class to load in GeoExt JavaScript source files. These are all in the ``src`` folder 
@@ -64,14 +65,16 @@ in ``/var/www/html/geoext/``.
     </html>
 
 You should now be able to view an empty HTML page in Firefox at http://localhost/geoext/demo.html
+
 All the JavaScript in the following sections should be pasted after the ``// all JavaScript application code should go here`` comment in the 
 ``Ext.onReady`` function. Placing code here ensures the JavaScript libraries have been loaded before running any custom JavaScript code. 
 
-OpenLayers
+Configure OpenLayers objects
 ----------
 
-Next we will configure some OpenLayers objects used by the application. First lets create a map tile layer
-using OpenStreetMap, and some WMS layers that are available from the MapServer Itasca demo on OSGeoLive. 
+Next we will configure some OpenLayers objects used by the application. 
+
+1. First lets create a map tile layer using OpenStreetMap, and some WMS layers that are available from the MapServer Itasca demo on OSGeoLive. 
 
 .. code-block:: js
 
@@ -107,8 +110,7 @@ using OpenStreetMap, and some WMS layers that are available from the MapServer I
         name: 'Highways'
     });
 
-Next we are going to add in a WFS vector layer - this is a little more complicated, but follows the same approach of
-creating a source and then a layer as the previous layers:
+2. Next we are going to add in a WFS vector layer - this is a little more complicated, but follows the same approach of creating a source and then a layer as the previous layers:
 
 .. code-block:: js
 
@@ -128,8 +130,7 @@ creating a source and then a layer as the previous layers:
         name: 'Airports'
     });
 
-Now we are going to create our OpenLayers map object configured with the layers we just created. We will also
-set the center and zoom level of the map, and add in a select interaction so we can select features in our vector layer. 
+3. Now we are going to create our OpenLayers map object configured with the layers we just created. We will also set the center and zoom level of the map, and add in a select interaction so we can select features in our vector layer. 
 
 .. code-block:: js
 
@@ -146,11 +147,12 @@ set the center and zoom level of the map, and add in a select interaction so we 
     var selectInteraction = new ol.interaction.Select();
     map.addInteraction(selectInteraction);
 
-GeoExt
+Work with GeoExt components
 ------
 
-Now the map and layers have been configured we are going to create and configure our GeoExt components. First of all we will create a ``GeoExt.component.Map``. This uses the
-OpenLayers map we created, and will be positioned in the 'center' region of our application. 
+Now the map and layers have been configured we are going to create and configure our GeoExt components. 
+
+1. First of all we will create a ``GeoExt.component.Map``. This uses the OpenLayers map we created, and will be positioned in the 'center' region of our application. 
 
 .. code-block:: js
 
@@ -160,10 +162,7 @@ OpenLayers map we created, and will be positioned in the 'center' region of our 
     });
 
 
-Next we will create a layer tree component. The tree has its own data store - ``GeoExt.data.store.LayersTree``, which we will fill with layers from our OpenLayers
-map. The store will then be used to populate our tree panel. We will also add in a plugin to the tree to allow the map layer order
-to be changed by dragging and dropping the layers. The ``flex`` property causes the tree panel to fill up all available space in its 
-region of the screen. 
+2. Next we will create a layer tree component. The tree has its own data store - ``GeoExt.data.store.LayersTree``, which we will fill with layers from our OpenLayers map. The store will then be used to populate our tree panel. We will also add in a plugin to the tree to allow the map layer order to be changed by dragging and dropping the layers. The ``flex`` property causes the tree panel to fill up all available space in its region of the screen. 
 
 .. code-block:: js
 
@@ -182,8 +181,7 @@ region of the screen.
         }
     });
 
-We are also going to create a grid component to display the attributes of features in our WFS layer. Similar to the layer tree store and
-tree panel, we create a ``GeoExt.data.store.Features`` store and a grid panel. 
+3. We are also going to create a grid component to display the attributes of features in our WFS layer. Similar to the layer tree store and tree panel, we create a ``GeoExt.data.store.Features`` store and a grid panel. 
 
 .. code-block:: js
 
@@ -212,8 +210,7 @@ tree panel, we create a ``GeoExt.data.store.Features`` store and a grid panel.
         height: 300
     });
 
-Our final GeoExt component is an overview map - ``GeoExt.component.OverviewMap``. We will configure this to display the OpenStreetMap layer we created earlier, and
-place it in an ExtJS panel. 
+4. Our final GeoExt component is an overview map - ``GeoExt.component.OverviewMap``. We will configure this to display the OpenStreetMap layer we created earlier, and place it in an ExtJS panel. 
 
 .. code-block:: js
 
@@ -232,11 +229,10 @@ place it in an ExtJS panel.
     });
 
 
-ExtJS
+Create a viewport
 -----
 
-The final step in creating our application is to create a viewport - a container representing the application
-which will display all the components we created above. 
+The final step in creating our application is to create a viewport - a container representing the application which will display all the components we created above. 
 
 .. code-block:: js
 
