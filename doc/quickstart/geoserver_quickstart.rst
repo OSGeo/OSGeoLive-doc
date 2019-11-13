@@ -206,14 +206,15 @@ Adding the Style to |GS|
 
 Now we need to transfer these styles to |GS|.
 
-#. On the style window there is an export button which allows me to save the SLD file that
+1. On the style window there is an export button which allows me to save the SLD file that
 defines my style. 
-#. Once I've saved the two styles I can go to the |GS| admin page again and select ``Styles`` (at the bottom of the ``Data`` section). 
-#. Select the ``Add New Style`` link. At the bottom of that page is a file upload box and a browse button. 
-#. Clicking browse to find the files you just saved. 
-#. Click the upload link (next to the browse button) and a copy of the file appears in the editor. 
-#. If you click on the validate button the highlighted lines will give you an error but you can safely ignore the error (or delete those lines as they don't do anything).
-#. Press the :guilabel:`Submit` at the bottom of the page.
+2. Once I've saved the two styles I can go to the |GS| admin page again and select ``Styles`` (at the bottom of the ``Data`` section). 
+3. Select the ``Add New Style`` link. At the bottom of that page is a file upload box and a browse button. 
+4. Clicking browse to find the files you just saved. 
+5. Click the upload link (next to the browse button) and a copy of the file appears in the editor. 
+6. If you click on the validate button the highlighted lines will give you an error but you can safely ignore the error (or delete those lines as they don't do anything).
+7. Press the :guilabel:`Submit` at the bottom of the page.
+
 
 .. image:: /images/projects/geoserver/geoserver-add-style.png
    :align: center
