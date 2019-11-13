@@ -18,7 +18,7 @@ We will be using the installed MapServer web services on OSGeoLive a MapServer t
 
 
 Create an HTML Page
----------
+================================================================================
 
 In this step we will set-up an empty HTML page which will contain the application. We'll use the text editor Leafpad installed on OSGeoLive to create a new HTML file at ``/var/www/html/geoext/demo.html`` 
 
@@ -70,7 +70,7 @@ All the JavaScript in the following sections should be pasted after the ``// all
 ``Ext.onReady`` function. Placing code here ensures the JavaScript libraries have been loaded before running any custom JavaScript code. 
 
 Configure OpenLayers objects
-----------
+================================================================================
 
 Next we will configure some OpenLayers objects used by the application. 
 
@@ -148,7 +148,7 @@ Next we will configure some OpenLayers objects used by the application.
     map.addInteraction(selectInteraction);
 
 Work with GeoExt components
-------
+================================================================================
 
 Now the map and layers have been configured we are going to create and configure our GeoExt components. 
 
@@ -230,7 +230,7 @@ Now the map and layers have been configured we are going to create and configure
 
 
 Create a viewport
------
+================================================================================
 
 The final step in creating our application is to create a viewport - a container representing the application which will display all the components we created above. 
 
@@ -261,7 +261,7 @@ You should now be able to refresh the link http://localhost/geoext/demo.html in 
 
 
 What's Next?
-------------
+================================================================================
 
 * The `GeoExt homepage <https://geoext.github.io/geoext3/>`_ contains full `API documentation <https://geoext.github.io/geoext3/v3.1.0/docs>`_
   and examples
