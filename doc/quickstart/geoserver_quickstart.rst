@@ -205,6 +205,7 @@ Adding the Style to |GS|
 --------------------------------------------------------------------------------
 
 Now we need to transfer these styles to |GS|.
+
 #. On the style window there is an export button which allows me to save the SLD file that
 defines my style. 
 #. Once I've saved the two styles I can go to the |GS| admin page again and select ``Styles`` (at the bottom of the ``Data`` section). 
