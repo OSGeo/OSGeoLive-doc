@@ -69,7 +69,7 @@ You should now be able to view an empty HTML page in Firefox at http://localhost
 All the JavaScript in the following sections should be pasted after the ``// all JavaScript application code should go here`` comment in the 
 ``Ext.onReady`` function. Placing code here ensures the JavaScript libraries have been loaded before running any custom JavaScript code. 
 
-Configure OpenLayers objects
+Configure OpenLayers Objects
 ================================================================================
 
 Next we will configure some OpenLayers objects used by the application. 
@@ -147,7 +147,7 @@ Next we will configure some OpenLayers objects used by the application.
     var selectInteraction = new ol.interaction.Select();
     map.addInteraction(selectInteraction);
 
-Work with GeoExt components
+Work with GeoExt Components
 ================================================================================
 
 Now the map and layers have been configured we are going to create and configure our GeoExt components. 
@@ -229,7 +229,7 @@ Now the map and layers have been configured we are going to create and configure
     });
 
 
-Create a viewport
+Create a Viewport
 ================================================================================
 
 The final step in creating our application is to create a viewport - a container representing the application which will display all the components we created above. 
