@@ -6,6 +6,7 @@
 :Reviewer: Cameron Shorter
 :Reviewer: Nicolas Roelandt
 :Reviewer: Angelos Tzotsos, OSGeo
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -31,54 +32,33 @@ you visualize, manage, edit, analyse data and compose printable maps.
 .. contents:: Contents
 
 
-Opening QGIS for the first time
+Start @NAME_qgis@ 
 ================================================================================
-
-Learning goal:
-
-* Open QGIS
-* Identify parts of the Interface
-
-QGIS can be opened from the 'Desktop GIS' folder on the OSGeoLive desktop. Follow the steps below
-to launch QGIS.
 
 #. Open the 'Desktop GIS' folder.
 #. Double click on the 'QGIS' icon.
 
-The user will see QGIS launch with an empty project. The various parts of the QGIS Interface
+You will see QGIS launch with an empty project. The various parts of the QGIS Interface
 are listed below.
 
     .. image:: /images/projects/qgis/qgis_interface.png
       :scale: 70 %
       :alt: Open a QGIS project
 
-#. Menu bar: Access to various QGIS features using a standard hierarchical menu.
-#. Toolbars: For interaction with the map, layers, attributes and selections.
-#. Browser Panel: A spatial file browser allowing drag and drop content into the map frame.
-#. Layer Panel: Controls the map layers, their order, and visibility.
-#. Status Bar: General information about the map and access to a universal search bar.
+* [1] Menu bar: Access to various QGIS features using a standard hierarchical menu.
+* [2] Toolbars: For interaction with the map, layers, attributes and selections.
+* [3] Browser Panel: A spatial file browser allowing drag and drop content into the map frame.
+* [4] Layer Panel: Controls the map layers, their order, and visibility.
+* [5] Status Bar: General information about the map and access to a universal search bar.
 
-Starting a new project
+Create a project
 ================================================================================
 
-Learning goal:
-
-* Start a new QGIS project
-* Add vector layers to a project
-* Add raster layers to a project
-* Save a project
-
-After opening QGIS for the first time, you will be presented with an empty project that you
-can add layers to.
-
-#. Go to the 'Project' menu on the menu bar.
-#. Select 'New'.
+#. Choose :menuselection:`Project --> New`.
 
    .. image:: /images/projects/qgis/qgis_new_project.png
       :scale: 70 %
       :alt: QGIS new project
-
-Now with an empty QGIS project we can start adding data to the project.
 
 Let's start by adding a vector layer to the map. Layers can be added to QGIS using the browser
 panel, located on the left of the screen.
@@ -92,14 +72,14 @@ panel, located on the left of the screen.
      :scale: 70 %
      :alt: QGIS browser add vector layer
 
-Once the layer has been dragged onto the map frame, the user will see a layer showing
+Once the layer has been dragged onto the map frame, you will see a layer showing
 countries.
 
 .. image:: /images/projects/qgis/qgis_add_vector_layer.png
    :scale: 70 %
    :alt: QGIS vector layer
 
-Now let's try adding a raster layer to the project. Again we will use the browser panel.
+Now let's try adding a raster layer to the project. 
 
 #. Go the browser panel on the left of the screen.
 #. Navigate the folder tree to 'home/data/natural_earth2'.
@@ -110,7 +90,7 @@ Now let's try adding a raster layer to the project. Again we will use the browse
    :scale: 70 %
    :alt: QGIS browser add raster layer
 
-Once the layer has been dragged onto the map frame, the user will see a raster layer
+Once the layer has been dragged onto the map frame, you will see a raster layer
 showing land cover and bathymetry.
 
 .. image:: /images/projects/qgis/qgis_add_raster_layer.png
@@ -120,10 +100,7 @@ showing land cover and bathymetry.
 Now that we have added some content to our project we can save this project so that we
 can come back to it at a later time.
 
-To save the QGIS project, follow these steps:
-
-#. Go to the 'Project' menu on the menu bar.
-#. Select 'Save'.
+#. Choose :menuselection:`Project --> Save`.
 
    .. image:: /images/projects/qgis/qgis_save_project.png
       :scale: 70 %
@@ -136,7 +113,7 @@ To save the QGIS project, follow these steps:
       :scale: 70 %
       :alt: QGIS project location
 
-#. Then click 'Save'.
+#. Click 'Save'.
 
 You will know the project has been saved because there will be a project file on the desktop
 called 'My QGIS project' and the top of your project document will no longer read as 'untitled'
@@ -150,24 +127,17 @@ but instead will read as 'My QGIS project'.
 Open an existing project
 ================================================================================
 
-Learning goal:
-
-* Understand what a QGIS project is
-* Open an existing project
-* Interact with layers
-
 A QGIS project saves layers, styles, map extents and settings for use at a later time.
 This information is stored as a QGIS project file and has an extension of '.qgs' or '.qgz',
 with '.qgz' being the default file format in QGIS going into the future.
 
 Let's open an existing QGIS project and have a look at how it works.
 
-#. Open QGIS. Note that when QGIS is opened a user will be presented with a list of recent projects to chose from. This is a quick way of entering into recent projects.
-#. Go to the 'Project' menu on the menu bar.
-#. Select 'Open'.
+#. Open QGIS. Note that when QGIS is opened you will be presented with a list of recent projects to chose from. This is a quick way of entering into recent projects.
+#. Choose :menuselection:`Project --> Open`.
 #. Navigate to '/home/user/qgis-example'.
 #. Select the project 'QGIS-NaturalEarth-Example.qgs'.
-#. Then click 'Open'.
+#. Click 'Open'.
 
 .. image:: /images/projects/qgis/qgis_project_open.png
    :scale: 70 %
@@ -207,8 +177,6 @@ are drawn in the layer panel. This is done by selecting a layer in the layer pan
 it up or down the list. The order that the layers appear in the layer list is the order which they
 will draw on in the map frame.
 
-To change the order of the layers:
-
 #. Left-Click on the layer 'HYP_50M_SR_W'.
 #. While holding the mouse button down drag the layer to the top of the list.
 
@@ -222,32 +190,22 @@ raster layer on top of all other layers in the map frame.
 Try moving the 'HYP_50M_SR_W' layer to the bottom of the layer list. This would be a more appropriate
 position for a map layer like this.
 
-Navigation tools
+Navigating the map
 ================================================================================
 
-Learning goals:
-
-* Identify the navigation toolbar
-* Modify the extent of the map
-
-The navigation toolbar as shown below allows users to move around the map and change the map extent.
+The navigation toolbar allows users to move around the map and change the map extent.
 
 .. image:: /images/projects/qgis/qgis_navigation_toolbar.png
    :scale: 70 %
    :alt: QGIS navigation toolbar
 
-For this quick start guide, we will focus on the basics of navigation which can be achieved with only
-five tools. These tools are listed below, with the number corresponding to the toolbar image above to
-show the location on the toolbar.
+* [1] Pan: Allows the map to be dragged 'Panned' to a new location.
+* [2] Zoom in: Allows the map extent to be zoomed in.
+* [3] Zoom out: Allows the map to be zoomed out.
+* [4] Zoom to full extent: Changes the map extent to fit all of the map layers into the map frame.
+* [5] Zoom to layer: Changes the map extent to fit the extent of the layer highlighted in the layer panel.
 
-#. Pan: Allows the map to be dragged 'Panned' to a new location.
-#. Zoom in: Allows the map extent to be zoomed in.
-#. Zoom out: Allows the map to be zoomed out.
-#. Zoom to full extent: Changes the map extent to fit all of the map layers into the map frame.
-#. Zoom to layer: Changes the map extent to fit the extent of the layer highlighted in the layer panel.
-
-Let's try changing the map extent with the zoom-in tool, this will allow the user to zoom in closer on
-an area of interest.
+Let's try changing the map extent with the zoom-in tool.
 
 #. Select the 'Zoom in' tool from the navigation toolbar.
 #. Move the cursor over the map frame.
@@ -270,11 +228,6 @@ The map should zoom to the extent of the selected ('active') layer.
 
 Styling Layers
 ================================================================================
-
-Learning goals:
-
-* Access the style dock
-* Modify the colour of a layer
 
 Layers can be styled in QGIS using the style dock. The style dock is not visible by default, but
 easily accessible via a button at the top of the layer panel as shown below.
