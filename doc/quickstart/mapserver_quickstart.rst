@@ -5,6 +5,7 @@
 :Reviewer: Stephan Meissl
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos, OSGeo
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -22,7 +23,7 @@ through the internet using `OGC standards <http://www.opengeospatial.org/standar
 such as `WMS <http://www.opengeospatial.org/standards/wms>`__, `WFS 
 <http://www.opengeospatial.org/standards/wfs>`__, and `WCS <http://www.opengeospatial.org/standards/wcs>`__.
 
-.. contents:: This Quick Start Contents
+.. contents:: Contents
     :local:
     :depth: 1
 
@@ -290,9 +291,11 @@ MapServer supports different OGC Standards like OGC WMS, WFS or WCS. With OGC WM
 Using QGIS Desktop to load your OGC WMS
 --------------------------------------------------------------------------------
 
-Start QGIS via :menuselection:`Geospatial --> Desktop GIS --> QGIS Desktop`. Go to :menuselection:`Layer --> Add Layer --> Add WMS/WMTS Layer...`.
+#. Start QGIS via :menuselection:`Geospatial --> Desktop GIS --> QGIS Desktop`. Go to :menuselection:`Layer --> Add Layer --> Add WMS/WMTS Layer`.
 
-Click button **New** and add a name and your Service URL and save your settings:
+#. Click button **New** and add a name and your Service URL
+
+#. Save your settings:
 
 http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0  
 
