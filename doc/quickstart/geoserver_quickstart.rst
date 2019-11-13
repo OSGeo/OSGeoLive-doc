@@ -207,18 +207,11 @@ Adding the Style to |GS|
 Now we need to transfer these styles to |GS|.
 #. On the style window there is an export button which allows me to save the SLD file that
 defines my style. 
-#. Once I've saved the two styles I can go to the |GS|
-admin page again and select ``Styles`` (at the bottom of the ``Data``
-section). 
-#. Select the ``Add New Style`` link. At the bottom of
-that page is a file upload box and a browse button. 
-#. Clicking browse to find the files you just
-saved. 
-#. Click the upload link (next to the browse
-button) and a copy of the file appears in the editor. 
-#. If you click on the
-validate button the highlighted lines will give you an error but you can
-safely ignore the error (or delete those lines as they don't do anything).
+#. Once I've saved the two styles I can go to the |GS| admin page again and select ``Styles`` (at the bottom of the ``Data`` section). 
+#. Select the ``Add New Style`` link. At the bottom of that page is a file upload box and a browse button. 
+#. Clicking browse to find the files you just saved. 
+#. Click the upload link (next to the browse button) and a copy of the file appears in the editor. 
+#. If you click on the validate button the highlighted lines will give you an error but you can safely ignore the error (or delete those lines as they don't do anything).
 #. Press the :guilabel:`Submit` at the bottom of the page.
 
 .. image:: /images/projects/geoserver/geoserver-add-style.png
@@ -230,13 +223,11 @@ safely ignore the error (or delete those lines as they don't do anything).
 Adding the Style to the Layer
 --------------------------------------------------------------------------------
 
-#. Click on the :guilabel:`Layers` link in the Menu on the left of the
-|GS| window. 
-#. Click on the layer (e.g. *ne_10m_land*), then select the 
-:guilabel:`Publishing` tab.
-#. Change the :guilabel:`Default Style`
-box to the name of the style you uploaded in the previous section.
+#. Click on the :guilabel:`Layers` link in the Menu on the left of the |GS| window. 
+#. Click on the layer (e.g. *ne_10m_land*), then select the :guilabel:`Publishing` tab.
+#. Change the :guilabel:`Default Style` box to the name of the style you uploaded in the previous section.
 #. Now click :guilabel:`Save` and go to the Layer Preview page to check that it looks good.
+
 
 .. note:: There are example style files for all of the example Natural Earth layers in :file:`/usr/local/share/geoserver`. 
 
