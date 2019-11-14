@@ -1,5 +1,6 @@
 :Author: OSGeoLive
 :Author: Manuel Grizonnet
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -13,9 +14,9 @@
 
 ORFEO Toolbox library (OTB) is a high performance library for image processing targeted on remote sensing.
 
-This Quick Start describes how to:
+This Quickstart describes how to:
 
-  * Get metadata informations from an image
+  * Get metadata information from an image
   * Perform mathematical operations between image bands
   * Open raster images with the application monteverdi, perform segmentation (mean-shift clustering) and visualize the result
   * Perform supervised classification based on Support Vector Machine algorithm
@@ -31,10 +32,10 @@ Sample data used in this quickstart can be found in :
 
 .. contents:: Contents
 
-Display metadata informations in an image 
+Display metadata information in an image 
 ================================================================================
 
-You can get all the metadata informations contained in an image with the command : `otbcli_ReadImageInfo`
+You can get all the metadata information contained in an image with the command : `otbcli_ReadImageInfo`
 The unique parameter is the Input image file name, for example::
 
   otbcli_ReadImageInfo -in ortho_2001_t792_1m.tif
