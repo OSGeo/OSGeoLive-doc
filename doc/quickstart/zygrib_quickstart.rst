@@ -14,6 +14,7 @@
 zyGrib is a program to download and visualize weather forecast data in the standard GRIB distribution format.
 
 .. contents:: Contents
+   :local:
 
 Start @NAME_zygrib@
 ===================
