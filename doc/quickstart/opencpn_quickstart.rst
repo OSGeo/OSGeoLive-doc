@@ -30,12 +30,9 @@ This is a condition of redistributing NOAA's free nautical charts. The first tim
 #. Click :guilabel:`I agree` to the NOAA Nautical Chart Data Agreement.
 #. Click :guilabel:`OK` to agree to the OpenCPN license.
 
-.. To do this manually, open a Terminal from the main Accessories menu and
- run :command:`opencpn_noaa_agreement.sh` at the command prompt. The user's
- password is given in the file on the main desktop.
+.. To do this manually, open a Terminal from the main Accessories menu and run :command:`opencpn_noaa_agreement.sh` at the command prompt. The user's password is given in the file on the main desktop.
 
-You can download additional US nautical charts from NOAA
-at http://www.charts.noaa.gov
+You can download additional US nautical charts from NOAA at http://www.charts.noaa.gov
 
 
 Setting up your GPS
@@ -75,6 +72,7 @@ Current weather and wave forecast data can be downloaded and draped over your ch
 
 
 Run through the :doc:`zyGrib quickstart <../quickstart/zygrib_quickstart>` and load the zyGrib file over your chart.
+
 .. Note::
   If you saved the zyGrib file into your home directory, navigate to :file:`/home` and select your ``user`` directory as the GRIB data directory. Then right click on the file listing's background to show hidden files, including the ``.zygrib`` directory that contains the GRIB download files.
 
