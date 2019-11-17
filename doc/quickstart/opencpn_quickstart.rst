@@ -57,7 +57,7 @@ option.
 .. no longer true? : (for this reason we have not started gpsd automatically)
 
 
-* '`xgps`' is a good program to check that Gpsd can see your GPS ok.
+.. Note:: '`xgps`' is a good program to check that Gpsd can see your GPS ok.
 
 
 Things to try
