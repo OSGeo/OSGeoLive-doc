@@ -9,8 +9,6 @@ environment:
   - platform: x64
     PYTHON: "C:\\Python37-x64"
 
-    
-
 matrix:
   fast_finish: true
 
@@ -23,6 +21,7 @@ build_script:
 
   - if "%platform%" == "x64" call "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Auxiliary/Build/vcvars64.bat"
   - "SET PATH=%PYTHON%;%PYTHON%\\Scripts;%PATH%"
+
   # strawberry-perl-5.26.2.1-64bit-portable
   - "SET PERL_HOME=C:\\Perl"
   - "SET PATH=%PERL_HOME%\\perl\\site\\bin;%PERL_HOME%\\perl\\bin;%PERL_HOME%\\c\\bin;%PATH%"
@@ -31,14 +30,16 @@ build_script:
   - pip install sphinx==1.6.5
   - pip install sphinx-intl
   - pip install sphinxjp.themes.revealjs
-  
+
+  - cpan App::cpanminus
+  - cpanm Text::SimpleTable::AutoWidth
+
   - cd %APPVEYOR_BUILD_FOLDER%
   - mkdir build
   - cd build
   - cmake -DHTML=ON ..
   - cmake --build . --config Release
-  # - msbuild ALL_BUILD.vcxproj
-  
+
 deploy: off
 
 after_test:
