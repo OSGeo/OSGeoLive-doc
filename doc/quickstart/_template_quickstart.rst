@@ -9,6 +9,8 @@
 @NAME_slug@ Quickstart
 ********************************************************************************
 
+For instructions on how to fill out this quickstart template, see this page: https://trac.osgeo.org/osgeolive/wiki/How%20to%20document%20the%20quickstart%20file
+
 Start with a sentence describing what the application is and does.
 
 .. contents:: Contents
