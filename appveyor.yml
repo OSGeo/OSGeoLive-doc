@@ -33,12 +33,11 @@ build_script:
   #- cpan App::cpanminus
   #- cpanm Text::SimpleTable::AutoWidth
 
-  - "python -m pip install --upgrade pip"
-  - pip install sphinx==1.6.5
-  - pip install sphinx-intl
-  - pip install sphinxjp.themes.revealjs
-
   - cd %APPVEYOR_BUILD_FOLDER%
+  
+  - "python -m pip install --upgrade pip"
+  - pip install requirements.txt
+
   - mkdir build
   - cd build
   - cmake -DHTML=ON ..
