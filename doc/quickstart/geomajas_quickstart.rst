@@ -1,6 +1,7 @@
 :Author: Pieter De Graef
 :Author: Eliot Guarini
-:Version: osgeolive8.5
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
+:Version: osgeolive12.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_geomajas@
@@ -20,59 +21,65 @@ On this OSGeo Live DVD we have included a ready-to-use Geomajas Application. Thi
     :align: right
     :alt: An example application using the Geomajas framework
 
-.. contents:: In this quickstart
-    
+.. contents:: Contents
+   :local:    
 
-Getting started
-===============
+Start @NAME_geomajas@
+=====================
 
-Geomajas is both available as a web demo or as a standalone application.
+From the Desktop, select :menuselection:`Browser Clients --> Start Geomajas`. Wait for Geomajas to open in a browser window.
 
-| To continue using the web demo visit `<http://www.geomajas.org/demo>`_.
-| To continue using the stand-alone application, visit `<http://files.geomajas.org/downloads/2.3.0/geomajas-standalone-gwt2.zip>`_.
-
-When using the stand-alone application, run either startup.bat on Windows, or startup.sh on Linux and Mac. You can then access the application using the following URL: `<http://localhost:8080/geomajas/>`_. When you’re finished using the application, the application can be terminated by running shutdown.bat or shutdown.sh.
-
-Using Geomajas applications
-===========================
+Alternatively, you can then access the application using the following URL: `<http://localhost:8080/geomajas/>`_. 
 
 .. image:: /images/projects/geomajas/geomajas_screenshot.png
     :width: 100%
     :alt: The default view of the provided Geomajas application
 
-Looking around
---------------
+  .. Tip:: When you’re finished using the application, select :menuselection:`Browser Clients --> Stop Geomajas`. 
+
+
+Navigating the map
+==================
 
 .. image:: /images/projects/geomajas/geomajas_screenshot_zoom.png
     :alt: The provided control for zooming within the Geomajas application
 
-You can drag around the map with the mouse so the desired area is centered on your screen.
+You can drag the map with your mouse so that the desired area is centered on your screen.
 
-To get a closer look, you can either use the mousewheel to zoom in or use the provided zoom-buttons in the upper left of the application. You can also select an area to show by clicking the magnifier icon and selecting the desired area (via rectangular select).
+To get a closer look, you can either use the mousewheel to zoom in or use the provided zoom-buttons in the upper left of the application. 
 
-Legend
-------
+You can also select an area to display by clicking the magnifier icon and selecting the desired area (via rectangular select).
+
+Understanding the legend
+========================
 
 .. image:: /images/projects/geomajas/geomajas_screenshot_legend.png
     :alt: Layers can be consulted and toggled from the legend in the Geomajas application
 
-In the upper right, a toggleable legend box is provided. This legend gives you an overview of all the layers currently loaded into the application, with the option to turn them on or off. This also shows more detailed info about each layers regarding icons, colouring, …
+In the upper right, a toggleable legend box is provided. This legend gives you an overview of all the layers currently loaded into the application, with the option to turn them on or off. 
+This also shows more detailed information about each layer regarding icons and colouring.
 
 Gathering information
----------------------
+=====================
 
-Geomajas applications have the ability to display a variety of info within the layers. Clicking on the map will display the related info if available. By clicking the info icon in the upper left, you can toggle between basic or more detailed information.
+Geomajas applications have the ability to display a variety of information within the layers. 
+Clicking on the map will display the related information if available. 
+Click the info icon in the upper left to toggle between basic or more detailed information.
 
-Customizing Geomajas applications
----------------------------------
+Things to try
+=============
 
-If you want to use this sample application to build and customize your own Web GIS solution … please visit `<http://www.geomajas.org/client-gwt>`_. The download page always features the latest and greatest sample applications, documentation, tips and tricks to roll-your-own. 
+If you want to use this sample application to build and customize your own Web GIS solution, visit `<http://www.geomajas.org/client-gwt>`_. 
+The download page always features the latest and greatest sample applications, documentation, tips and tricks to roll-your-own. 
 
 What next?
 ==========
 
-Interested in learning more about Geomajas? The following links provide more detailed info:
+| To continue using the web demo, visit `<http://www.geomajas.org/demo>`_.
+| To continue using the stand-alone application, visit `<http://files.geomajas.org/downloads/2.3.0/geomajas-standalone-gwt2.zip>`_.
 
+
+Interested in learning more about Geomajas? The following links provide more information:
 
 * **Geomajas:** `<http://www.geomajas.org/>`_
 * **GitHub:** `<https://github.com/geomajas/geomajas-gwt2-quickstart-application>`_
