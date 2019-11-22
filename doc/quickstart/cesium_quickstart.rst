@@ -2,7 +2,7 @@
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos, OSGeo
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
-:Version: osgeolive11.0
+:Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_cesium@
@@ -16,14 +16,15 @@ Cesium is a JavaScript library for creating 3D globes and 2D maps in a web brows
 This guide shows how to use the Cesium with the 3D (Globe), 2.5D (Columbus View) and 2D (map).
 
 .. contents:: Contents
+   :local:
 
-Start @NAME_cesium@ 
-================================================================================
+Start Cesium 
+============
 
 Open the browser and point it to http://localhost/cesium/Apps/HelloWorld.html
 
 Search for a location
-================================================================================
+=====================
 Click on the magnifying glass and type in the location you are looking for. In the following display, we look for India.
 
 .. image:: /images/projects/cesium/cesium_1_SearchingLocation.png
@@ -31,7 +32,7 @@ Click on the magnifying glass and type in the location you are looking for. In t
   :alt: Cesium Searching Location
 
 Switch between 3D, 2.5D and 2D
-================================================================================
+==============================
 Click on the wire framed globe icon to select your preferred view.  Here the 2.5D Columbus view has been selected.
 
 .. image:: /images/projects/cesium/cesium_2_2253d.png
@@ -45,7 +46,7 @@ Now the 2D map is selected.
   :alt: Cesium 2D map
 
 Select the Image layer
-================================================================================
+======================
 Click on the last icon and select a type of image service.  Here the Natural Earth II is selected and you can see how the map's image layer has changed.
 
 .. image:: /images/projects/cesium/cesium_4_Layer.png
@@ -54,8 +55,8 @@ Click on the last icon and select a type of image service.  Here the Natural Ear
 
 .. TBD: There is room here for a couple more examples.
 
-What Next?
-================================================================================
+What next?
+==========
 * There are `video tutorials <https://www.youtube.com/playlist?list=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V>`_.
 
 * Web based tutorials are `here <http://cesiumjs.org/tutorials.html>`_.
