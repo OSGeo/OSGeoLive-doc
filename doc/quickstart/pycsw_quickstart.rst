@@ -15,9 +15,10 @@
 pycsw is an OGC CSW server implementation written in `Python <https://python.org>`_. pycsw allows for the publishing and discovery of geospatial metadata.  Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0.
 
 .. contents:: Contents
+   :local:
 
 Run the tester application
-==============================
+==========================
 
 1. On the Desktop go to `Web Services --> pycsw` or open Firefox and navigate to ``http://localhost/pycsw/tests/index.html``:
 
@@ -44,7 +45,7 @@ Run the tester application
 You can go through all the available requests and perform various requests from this testing application.
 
 Understand capabilities and configuration
-=======================================
+=========================================
 
 The capabilities of the pycsw installation can be found at ``http://localhost/pycsw?service=CSW&version=2.0.2&request=GetCapabilities``. 
 If you just use ``http://localhost/pycsw`` you will get the capabilities document for CSW 3.0.0, since that is the latest version supported.
@@ -56,7 +57,7 @@ If you want to enable INSPIRE Discovery Service support, fill in the metadata un
 For full functionality and configuration options, please consult the `documentation`_ on the pycsw website.
 
 Create metadata
-=================
+===============
 
 Metadata files for a spatial dataset or a spatial web service can be created through the open source implementation of inspire directive for metadata, European Open Source Metadata Editor (EUOSME). This application can be found at ``http://inspire-geoportal.ec.europa.eu/editor/``. Source code is available at ``https://joinup.ec.europa.eu/svn/euosme/trunk``
 
@@ -74,7 +75,7 @@ After a successful validation, the XML file can be saved to the local disk and v
 
 
 Load metadata
-================
+=============
 
 pycsw supports the following databases:
 
@@ -85,7 +86,7 @@ pycsw supports the following databases:
 In OSGeoLive, a simple SQLite setup has been implemented. The database can be found in ``/usr/share/pycsw/tests/suites/cite/data/records.db``
 
 Create a new database
--------------------
+---------------------
 
 In order to create a new SQLite database we need to:
 
@@ -116,7 +117,7 @@ The database created is an `OGC SFSQL`_ compliant database, and can be used with
   # lots of output
 
 Import Metadata
-------------------
+---------------
 
 .. code-block:: bash
 
@@ -161,7 +162,7 @@ Things to try
 
 * Try to discover data from GeoNode, which is also included in OSGeoLive and uses pycsw as the default CSW engine.
 
-What Next?
+What next?
 ==========
 
 For more information on pycsw, please consult the `documentation`_ on the pycsw website.
