@@ -18,9 +18,10 @@ The service implements the OGC Web Processing Service 1.0 interface standard.
 This quickstart describes how to process data and store the result in another web service using WPS operations. 
 
 .. contents:: Contents
+   :local:
 
-Start @NAME_52nWPS@
-================================================================================
+Start 52°North WPS
+==================
 
 To run the 52°North WPS on the Live DVD, go to |osgeolive-appmenupath-52nWPS| or use this `direct link <http://localhost:8080/52nWPS/>`_. 
 
@@ -33,14 +34,14 @@ The 52n WPS welcome page will appear.
 (If the web service is not reachable, try to start the Tomcat servlet engine following the steps at the bottom of the :doc:`SOS quickstart page <../quickstart/52nSOS_quickstart>`.)
 
 Get information about the service
-================================================================================
+=================================
 
 Check out the capabilities of the 52°North WPS with this request:
 
   http://localhost:8080/52nWPS/WebProcessingService?Request=GetCapabilities&Service=WPS
 
 Process data
-================================================================================
+============
 
 1. Click on the link to open the 52nWPS-TestClient. 
 
@@ -73,14 +74,14 @@ Process data
     :scale: 70 %
     :alt: screenshot
 
-Things to Try
-================================================================================
+Things to try
+=============
 
 * Try out other example requests from the dropdown list of the WPS test client.
 * You could also install the WPS plugin for :doc:`QGIS <../overview/qgis_overview>` and try it out with the 52°North WPS.
 
-What Next?
-================================================================================
+What next?
+==========
 
 * Create your own processes and execute them using various clients.
 
