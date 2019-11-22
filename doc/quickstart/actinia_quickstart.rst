@@ -18,6 +18,7 @@ Actinia provides a REST API to process satellite images, time series of
 satellite images, raster and vector data.
 
 .. contents:: Contents
+   :local:
 
 Actinia can be used in different ways:
 
@@ -55,7 +56,7 @@ in the **persistent** user database. It can be used with
 ``--location LOCATION_NAME``\ option.
 
 Setup your environment
-================================================================================
+======================
 The user must setup the following environmental variables to specify the
 actinia server and credentials:
 
@@ -67,9 +68,9 @@ actinia server and credentials:
    export ACTINIA_URL='https://actinia.mundialis.de/latest'
 
 Access sample data
-================================================================================
+==================
 
-Selected datasets are available to the demo user . To list the locations you have access to, run
+Selected datasets are available to the demo user. To list the locations you have access to, run
 
 .. code:: bash
 
@@ -85,6 +86,11 @@ GRASS GIS session (nc_spm_08):
    ace --list-mapsets
    ['PERMANENT', 'landsat']
 
+Access data from external sources
+---------------------------------
+
+
+
 
 Inspect the REST call prior to submission
 ================================================================================
@@ -97,7 +103,7 @@ To generate the actinia process chain JSON request simply add the
    ace --dry-run r.slope.aspect elevation=elevation slope=myslope
 
 Display a map - map rendering
-================================================================================
+=============================
 
 It is very easy (and fast) to render a map:
 
@@ -123,10 +129,10 @@ The following export formats are currently supported:
 
 
 Script examples
-================================================================================
+===============
 
 Example 1: computing slope and aspect and univariate statistics from an elevation model
---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
 
 The following commands (to be stored in a script and executed with
 ``ace``) will import a raster layer from an internet source as raster
@@ -225,7 +231,7 @@ The output should look like this:
    }
 
 Example 2: Orthophoto image segmentation with export
---------------------------------------------------------------------------------
+----------------------------------------------------
 
 Store the following script as text file ``/tmp/ace_segmentation.sh``:
 
@@ -257,7 +263,7 @@ Run the script saved in a text file as
 The results are provided as REST resources.
 
 Examples for persistent processing
---------------------------------------------------------------------------------
+----------------------------------
 GRASS GIS commands can be executed in a user specific persistent
 database. The user must create a mapset in an existing location. This
 mapsets can be accessed via ``ace``. All processing results of commands
@@ -319,7 +325,7 @@ commands from above can be executed in the following way:
    acp r.info slope_elev@test_mapset
 
 Things to try
-================================================================================
+=============
 
 Create new locations
 --------------------------------------------------------------------------------
@@ -331,7 +337,7 @@ Create new locations
    # create new mapset within location
    ace --location latlon --create-mapset user1
 
-Instal GRASS GIS addons (extensions)
+Install GRASS GIS addons (extensions)
 --------------------------------------------------------------------------------
 .. code:: bash
 
@@ -344,7 +350,8 @@ Instal GRASS GIS addons (extensions)
 
 
 
-What Next?
-================================================================================
+What next?
+==========
 * Visit the actinia website at `https://actinia.mundialis.de <https://actinia.mundialis.de>`_
+* actinia tutorial: `https://neteler.gitlab.io/actinia-introduction <https://neteler.gitlab.io/actinia-introduction>`_
 * Further reading: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based geoprocessing. In Proc. of the 2019 conference on Big Data from Space (BiDS'2019) (pp. 41–44). EUR 29660 EN, Publications Office of the European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI <https://doi.org/10.5281/zenodo.2631917>`__)
