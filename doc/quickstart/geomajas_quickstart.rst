@@ -24,8 +24,8 @@ On this OSGeo Live DVD we have included a ready-to-use Geomajas Application. Thi
 .. contents:: Contents
    :local:    
 
-Start @NAME_geomajas@
-=====================
+Start Geomajas
+==============
 
 From the Desktop, select :menuselection:`Browser Clients --> Start Geomajas`. Wait for Geomajas to open in a browser window.
 
