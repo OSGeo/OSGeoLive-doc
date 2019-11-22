@@ -88,9 +88,48 @@ GRASS GIS session (nc_spm_08):
 
 Access data from external sources
 ---------------------------------
+GRASS GIS commands can be augmented with actinia specific extensions.
+The ``+`` operator can be specified for an input parameter to import a
+web located resource and to specify the export of an output parameter.
 
+Importantly, the name of the local location and mapset must correspond
+to that on the actinia REST server.
 
+Currently available datasets are (organized by projections):
 
+-  North Carolina sample dataset (NC State-Plane metric CRS, EPSG:
+   3358):
+
+   -  base cartography (``nc_spm_08/PERMANENT``; source:
+      https://grassbook.org/datasets/datasets-3rd-edition/)
+   -  Landsat subscenes (``nc_spm_08/landsat``; source:
+      https://grass.osgeo.org/download/sample-data/)
+
+-  Latitude-Longitude location (LatLong WGS84, EPSG:4326):
+
+   -  empty (``latlong/PERMANENT/``)
+   -  16-days NDVI, MOD13C1, V006, CMG 0.05 deg res.
+      (``latlong/modis_ndvi_global/``; source:
+      https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table/mod13c1_v006)
+   -  LST growing degree days asia 2017 (``latlong/asia_gdd_2017/``;
+      source: https://www.mundialis.de/en/temperature-data/)
+   -  LST tropical days asia 2017 (``latlong/asia_tropical_2017/``)
+   -  LST temperature daily asia 2017, including min, max and avg
+      (``latlong/asia_lst_daily_2017/``)
+
+-  Europe (EU LAEA CRS, EPSG:3035):
+
+   -  EU DEM 25m V1.1 (``eu_laea/PERMANENT/``; source:
+      https://land.copernicus.eu/imagery-in-situ/eu-dem)
+   -  CORINE Landcover 2012, g100_clc12_V18_5 (``eu_laea/corine_2012/``;
+      source:
+      https://land.copernicus.eu/pan-european/corine-land-cover/clc-2012)
+
+-  World Mollweide (EPSG 54009):
+
+   -  GHS_POP_GPW42015_GLOBE_R2015A_54009_250_v1_0
+      (``world_mollweide/pop_jrc``; source:
+      https://ghsl.jrc.ec.europa.eu/ghs_pop.php)
 
 Inspect the REST call prior to submission
 ================================================================================
