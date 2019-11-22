@@ -31,9 +31,10 @@ Sample data used in this quickstart can be found in :
   * /home/user/data/north_carolina/rast_geotiffs
 
 .. contents:: Contents
+   :local:
 
 Display metadata information in an image 
-================================================================================
+========================================
 
 You can get all the metadata information contained in an image with the command : `otbcli_ReadImageInfo`
 The unique parameter is the Input image file name, for example::
@@ -41,7 +42,7 @@ The unique parameter is the Input image file name, for example::
   otbcli_ReadImageInfo -in ortho_2001_t792_1m.tif
 
 Calculator on image bands
-================================================================================
+=========================
 
 The `otbcli_otbBandMath` provides an efficient way to perform mathematical operation on image bands.
 The syntax is quite simple. For example to substrate two bands to study the image differences on the images `lsat7_2002_10.tif` and `lsat7_2002_20.tif`, just use the command::
@@ -60,7 +61,7 @@ You can then visualize input images and the result with the command ::
   monteverdi lsat7_2002_30.tif lsat7_2002_40.tif ~/ndvi.tif
 
 Pixel based classification
-================================================================================
+==========================
 The classification in the application framework provides a supervised pixel-wise
 classification chain based on learning from multiple images, and using a 
 specified machine learning method like SVM, Bayes, KNN, Random Forests, Artificial 
@@ -78,7 +79,7 @@ To discover this application, you can use the command ::
 
 
 Perform segmentation
-================================================================================
+====================
 The OTB *Segmentation* application allows to produce a raster segmentation
 output with different algorithms and to scale up to large raster by producing
 vector outputs that you can import in a GIS software.
@@ -123,7 +124,7 @@ OTB also includes a framework to perform tile-wise segmentation of very large im
 
 
 OTB in QGis
-================================================================================
+===========
 
 The same set of OTB applications can also be used from the :menuselection:`Processing --> Toolbox` menu in QGis. The applications are sorted by tag.
 
@@ -131,7 +132,7 @@ The same set of OTB applications can also be used from the :menuselection:`Proce
 
 
 Developing with OTB
-================================================================================
+===================
 
 If you want to use the OTB library and compile your C++ code inside OSGeoLive,
 you will need to:
@@ -144,8 +145,8 @@ The OTB_DIR location should be found automatically (usually in */usr/lib/x86_64-
 More information can be found in the Software Guide.
 
 
-What Next?
-================================================================================
+What next?
+==========
 
 * OTB Software Guide
 
