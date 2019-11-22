@@ -30,16 +30,16 @@ QGIS is a user-friendly Desktop GIS client which lets
 you visualize, manage, edit, analyse data and compose printable maps.
 
 .. contents:: Contents
+   :local:
 
 
-Start @NAME_qgis@ 
-================================================================================
+Start QGIS 
+==========
 
 #. Open the 'Desktop GIS' folder.
 #. Double click on the 'QGIS' icon.
 
-You will see QGIS launch with an empty project. The various parts of the QGIS Interface
-are listed below.
+You will see QGIS launch with an empty project. The various parts of the QGIS Interface are listed below.
 
     .. image:: /images/projects/qgis/qgis_interface.png
       :scale: 70 %
@@ -52,7 +52,7 @@ are listed below.
 * [5] Status Bar: General information about the map and access to a universal search bar.
 
 Create a project
-================================================================================
+================
 
 #. Choose :menuselection:`Project --> New`.
 
@@ -60,8 +60,7 @@ Create a project
       :scale: 70 %
       :alt: QGIS new project
 
-Let's start by adding a vector layer to the map. Layers can be added to QGIS using the browser
-panel, located on the left of the screen.
+Let's start by adding a vector layer to the map. Layers can be added to QGIS using the browser panel, located on the left of the screen.
 
 #. Go the browser panel on the left of the screen.
 #. Navigate the folder tree to 'home/data/natural_earth2'.
@@ -115,9 +114,7 @@ can come back to it at a later time.
 
 #. Click 'Save'.
 
-You will know the project has been saved because there will be a project file on the desktop
-called 'My QGIS project' and the top of your project document will no longer read as 'untitled'
-but instead will read as 'My QGIS project'.
+You will know the project has been saved because there will be a project file on the desktop called 'My QGIS project' and the top of your project document will no longer read as 'untitled' but instead will read as 'My QGIS project'.
 
 .. image:: /images/projects/qgis/qgis_saved_project.png
    :scale: 70 %
@@ -125,7 +122,7 @@ but instead will read as 'My QGIS project'.
 
 
 Open an existing project
-================================================================================
+========================
 
 A QGIS project saves layers, styles, map extents and settings for use at a later time.
 This information is stored as a QGIS project file and has an extension of '.qgs' or '.qgz',
@@ -133,7 +130,7 @@ with '.qgz' being the default file format in QGIS going into the future.
 
 Let's open an existing QGIS project and have a look at how it works.
 
-#. Open QGIS. Note that when QGIS is opened you will be presented with a list of recent projects to chose from. This is a quick way of entering into recent projects.
+#. Open QGIS. Note that when QGIS is opened you will be presented with a list of recent projects to chose from. This is a convenient way to open a project you have used recently.
 #. Choose :menuselection:`Project --> Open`.
 #. Navigate to '/home/user/qgis-example'.
 #. Select the project 'QGIS-NaturalEarth-Example.qgs'.
@@ -190,8 +187,8 @@ raster layer on top of all other layers in the map frame.
 Try moving the 'HYP_50M_SR_W' layer to the bottom of the layer list. This would be a more appropriate
 position for a map layer like this.
 
-Navigating the map
-================================================================================
+Navigate the map
+================
 
 The navigation toolbar allows users to move around the map and change the map extent.
 
@@ -199,7 +196,7 @@ The navigation toolbar allows users to move around the map and change the map ex
    :scale: 70 %
    :alt: QGIS navigation toolbar
 
-* [1] Pan: Allows the map to be dragged 'Panned' to a new location.
+* [1] Pan: Allows the map to be dragged ('panned') to a new location.
 * [2] Zoom in: Allows the map extent to be zoomed in.
 * [3] Zoom out: Allows the map to be zoomed out.
 * [4] Zoom to full extent: Changes the map extent to fit all of the map layers into the map frame.
@@ -226,8 +223,8 @@ Finally, try the zoom to layer tool. To use this tool follow these steps:
 
 The map should zoom to the extent of the selected ('active') layer.
 
-Styling Layers
-================================================================================
+Style your layers
+=================
 
 Layers can be styled in QGIS using the style dock. The style dock is not visible by default, but
 easily accessible via a button at the top of the layer panel as shown below.
@@ -285,8 +282,8 @@ lines follow these steps:
 
 Notice the line in the symbol preview increase in width, and so do the lines that are in the map frame.
 
-Things to Try
-================================================================================
+Things to try
+=============
 
 * Extend QGIS functionality with `Plugins <https://docs.qgis.org/3.4/en/docs/user_manual/plugins/plugins.html>`_.
 
@@ -297,8 +294,8 @@ Things to Try
 * Try publishing your QGIS map to the web using `QGIS Map Server <../overview/qgis_mapserver_overview.html>`_. in the :menuselection:`Geospatial --> Web Services` menu.
 
 
-What Next?
-================================================================================
+What next?
+==========
 
 To learn more about QGIS, a good starting point is the `Documentation page`_ on
 the QGIS homepage and `A Gentle Introduction to GIS`_ eBook.
