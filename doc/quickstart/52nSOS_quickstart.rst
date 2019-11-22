@@ -23,10 +23,11 @@ This Quick Start describes how to:
   * Explore the REST API endpoint for client developers.
 
 .. contents:: Contents
+   :local:
 
 
 Getting Started
-================================================================================
+===============
 
 1. Select :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North SOS` to start the 52°North SOS.
 
@@ -91,8 +92,8 @@ This will open the 52°North SOS client welcome page in firefox at
 **Listing 1:** Request of observations.
 
 
-Things to Try
-===============================================================================
+Things to try
+=============
 
 * Try some of the other example queries from the pull down list.
 * Try tweaking some of these queries to get different information.
@@ -177,8 +178,8 @@ Things to Try
 **Listing 2:** Output of Sensor Web REST API endpoint.
 
 
-What Next?
-================================================================================
+What next?
+==========
 
 To learn more about the 52°North SOS and/or the 52°North Sensor Web Community,
 potential starting points are:
