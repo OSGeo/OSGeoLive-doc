@@ -129,18 +129,12 @@ Open a terminal, then
   cd gmt-examples/ex20
   ./example_20.sh
 
-View results: (within :command:`gv` [#gv]_, type :kbd:`q` to quit)
+To view the results in Ghostview (http://www.gnu.org/software/gv/) , use command `gv`. Type `q` to quit Ghostview. 
 
-.. Cameron Review Comment:
-  Is gv installed on OSGeoLive? If not, then it should either be installed, or not
-  mentioned.
 
 ::
 
   gv example_20.ps
-
-.. Rubric:: Footnotes
-.. [#gv] Ghostview  http://www.gnu.org/software/gv/
 
 
 What next?
