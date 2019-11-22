@@ -53,48 +53,48 @@ Creating my first Mapfile
 #. Create the file "mapserver_quickstart.map" in your home directory: 
    :file:`/home/user/mapserver_quickstart.map`
 
-Put the following content in it::
+   Put the following content in it::
+   
+     MAP
+       NAME "MAPSERVER_QUICKSTART"
+       EXTENT -137 29 -53 88
+       UNITS DD
+       SHAPEPATH "/home/user/data/natural_earth2/"
+       SIZE 800 600
+   
+       IMAGETYPE PNG24
+     
+       PROJECTION
+         "init=epsg:4326" 
+       END
+   
+       WEB
+         METADATA
+           ows_title "MapServer Quickstart"
+           ows_enable_request "*"
+           ows_srs "EPSG:4326 EPSG:25832 EPSG:25833"
+         END
+       END
+   
+       LAYER
+         NAME "Countries"
+         STATUS ON
+         TYPE POLYGON
+         DATA "ne_10m_admin_0_countries"
+         CLASS 
+           STYLE
+             COLOR 246 241 223
+             OUTLINECOLOR 0 0 0
+           END
+         END 
+       END
+   
+     END
 
-  MAP
-    NAME "MAPSERVER_QUICKSTART"
-    EXTENT -137 29 -53 88
-    UNITS DD
-    SHAPEPATH "/home/user/data/natural_earth2/"
-    SIZE 800 600
-
-    IMAGETYPE PNG24
-  
-    PROJECTION
-      "init=epsg:4326" 
-    END
-
-    WEB
-      METADATA
-        ows_title "MapServer Quickstart"
-        ows_enable_request "*"
-        ows_srs "EPSG:4326 EPSG:25832 EPSG:25833"
-      END
-    END
-
-    LAYER
-      NAME "Countries"
-      STATUS ON
-      TYPE POLYGON
-      DATA "ne_10m_admin_0_countries"
-      CLASS 
-        STYLE
-          COLOR 246 241 223
-          OUTLINECOLOR 0 0 0
-        END
-      END 
-    END
-
-  END
-
-.. note::
-
-  The example uses the natural earth dataset, which is already on OSGeoLive at :file:`~/data/natural_earth2` (a short cut to 
-  :file:`/usr/local/share/data/natural_earth2`).
+   .. note::
+   
+     The example uses the natural earth dataset, which is already on OSGeoLive at :file:`~/data/natural_earth2` (a short cut to 
+     :file:`/usr/local/share/data/natural_earth2`).
 
 Each object in a Mapfile starts with its name (for example **MAP**) and ends 
 with an **END**.  A Mapfile always starts with the **MAP** object and should 
@@ -297,12 +297,12 @@ Using QGIS Desktop to load your OGC WMS
 
 #. Save your settings:
 
-http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0  
+   http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0  
 
 Then you can connect to your service and add one or more layers of the service to your QGIS project. If you choose the layer with the ID 0 you can load the whole service with all layers at once.
 
-  .. image:: /images/projects/mapserver/mapserver_load_wms_to_qgis.png
-    :scale: 70 %
+.. image:: /images/projects/mapserver/mapserver_load_wms_to_qgis.png
+ :scale: 70 %
 
 
 What Next?
