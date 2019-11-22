@@ -1,7 +1,7 @@
 :Author: Barbara Angerer
 :Author: Angelos Tzotsos, OSGeo
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
-:Version: osgeolive11.0
+:Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_geonode@
@@ -18,10 +18,11 @@ GeoNode is a web-based application and platform for developing geospatial inform
 
 
 .. contents:: Contents
+   :local:
 
 
-Start @NAME_geonode@
-================================================================================
+Start GeoNode
+=============
 
 To start GeoNode on your OSGeoLive DVD you have to
 choose :menuselection:`Geospatial --> Browser Clients --> GeoNode --> Start GeoNode` and
@@ -33,7 +34,7 @@ open at http://geonode. The page will look like the image below.
 
 
 Sign in as a registered user
-================================================================================
+============================
 
 From the interface shown above, one can view and modify existing spatial layers and maps, as well as find information on other GeoNode users. But, without being logged in, you are limited to read-only access of public layers. In order to create a map and add layers to it, you have to sign in first.
 
@@ -44,7 +45,7 @@ From any page in the web interface, you will see a *Sign in* link on the top-rig
 
 
 Add a new layer
-================================================================================
+===============
 
 Layers are a published resource representing a raster or vector spatial data source. Layers also can be associated with metadata, ratings, and comments.
 
@@ -111,7 +112,7 @@ You should now be able to see all the files you want to upload.
 
 
 Create a new map
-================================================================================
+================
 
 The next step for you is to create a map and add the newly created layers to this map.
 
@@ -172,7 +173,7 @@ The next step for you is to create a map and add the newly created layers to thi
 8. Click *Done* next to the *Add Layers* button to see the legend of your map.
 
 Share your map
-================================================================================
+==============
 
 Now let's finish our map.
 
@@ -198,11 +199,11 @@ Now let's finish our map.
      :scale: 70%
 
 
-Your map can now be shared!
+Your map can now be shared.
 
 
-What Next?
-================================================================================
+What next?
+==========
 
 Now you've gotten a quick insight in the possibilities of GeoNode. To learn more about GeoNode and its features, visit our webpage www.geonode.org. 
 
