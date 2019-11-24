@@ -194,8 +194,8 @@ If you want to remove a cache folder you can run the following command:
 
     sudo rm -r /var/cache/mapcache/lakes
 
-What's Next?
-============
+What Next?
+==========
 
 * Read the `MapCache Documentation <https://mapserver.org/mapcache/index.html>`_.
 * Then join the MapServer community, of which MapCache is a part, on the `Mailing Lists 
