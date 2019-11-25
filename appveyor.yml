@@ -1,0 +1,59 @@
+image: Visual Studio 2017
+
+cache:
+  - '%LOCALAPPDATA%\pip\Cache'
+  - C:\strawberry
+
+environment:
+  VS_VERSION: Visual Studio 15 2017
+  matrix:
+  - platform: x64
+    PYTHON: "C:\\Python37-x64"
+
+matrix:
+  fast_finish: true
+
+shallow_clone: true
+
+install:
+  - if not exist "C:\strawberry" choco install strawberryperl -y
+
+build_script:
+
+  - if "%platform%" == "x64" call "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Auxiliary/Build/vcvars64.bat"
+  - "SET PATH=%PYTHON%;%PYTHON%\\Scripts;%PATH%"
+
+  # using strawberryperl
+  - set PATH=C:\strawberry\c\bin;C:\strawberry\perl\site\bin;C:\strawberry\perl\bin;%PATH%
+  - cpanm Text::SimpleTable::AutoWidth
+
+  # using Appveyor preinstalled Perl - https://www.appveyor.com/docs/windows-images-software/#perl
+  #- "SET PERL_HOME=C:\\Perl"
+  #- "SET PATH=%PERL_HOME%\\perl\\site\\bin;%PERL_HOME%\\perl\\bin;%PERL_HOME%\\c\\bin;%PATH%"
+  #- cpan App::cpanminus
+  #- cpanm Text::SimpleTable::AutoWidth
+
+  - cd %APPVEYOR_BUILD_FOLDER%
+  
+  - "python -m pip install --upgrade pip"
+  - pip install -r requirements.txt
+
+  - mkdir build
+  - cd build
+  - cmake -DHTML=ON ..
+  - cmake --build . --config Release
+
+deploy: off
+
+after_test:
+  - cd %APPVEYOR_BUILD_FOLDER%
+  - 7z a osgeolive-doc.zip ./build/doc/_build/html/* > nul
+
+# Uncomment to enable debugging on the server
+#on_finish:
+#  - ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))  
+
+artifacts:
+  - path: osgeolive-doc.zip
+    name: osgeolive-doc
+    type: zip
