@@ -46,7 +46,7 @@ Either:
 Running coverage
 ================
 
-The example coverage which will be used in the query is a 6 MB image as below:
+The example coverage which will be used subsequently is a 6 MB image as below:
 
 .. image:: /images/projects/rasdaman/rasdaman_ndvi1.png
    :scale: 25 %
