@@ -200,7 +200,7 @@ Remove the sample layer
 Once you feel comfortable with these basic editing techniques you might
 want to turn your attention to mapping real features.
 
-..Note:: *It is very important that you first remove the layer with the sample data. These data are fictitious and must not be uploaded to the OpenStreetMap database (newer JOSM releases automatically prevent this).*
+.. Note::  *It is very important that you first remove the layer with the sample data. These data are fictitious and must not be uploaded to the OpenStreetMap database (newer JOSM releases automatically prevent this).*
 
 In the Layers window on the upper right of the screen select the
 sample.osm layer. Then click on the trash can icon in the lower right
