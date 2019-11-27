@@ -1,7 +1,8 @@
 :Author: Daniel Kastl
 :Author: Regina Obe
 :Reviewer: Angelos Tzotsos, OSGeo
-:Version: osgeolive11.0
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
+:Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_pgrouting@
@@ -16,9 +17,10 @@ pgRouting is an extension that adds routing and other network analysis functiona
 This Quick Start describes how to enable pgrouting in a PostgreSQL database, load data with osm2pgrouting, and run a basic shortest path query with the sample test data.
 
 .. contents:: Contents
-
+   :local:
+   
 Enabling pgRouting in a database
-===============================================================================
+================================
 In this example we will create a database called `city_routing` and enable pgRouting in the database.
 
 * Open a :menuselection:`Applications --> Accessories --> Terminal` window and open up psql: (psql is the commandline tool packaged with PostgreSQL)
@@ -55,11 +57,11 @@ You can verify your installation by running this:
 Your version should be 2.1.0 or higher to use examples in this quickstart.
 
 Loading OSM data with osm2pgrouting
-===========================================================================
+===================================
 osm2pgrouting is a command-line tool for loading .osm files into pgRouting compatible format.
 Here is how you use osm2pgrouting version 2.1.0+.
 
-First verify version of osm2pgrouting you have installed. Should read 2.1 or higher.
+Open a new terminal window to verify the version of osm2pgrouting you have installed. Should read 2.1 or higher.
 
 ::
 
@@ -97,7 +99,7 @@ Output should be something like:
 	#########################
 
 Running pgRouting
-==============================================================================
+=================
 
 * Open a :menuselection:`Applications --> Accessories --> Terminal` window and connect to the ``city_routing`` database:
 
@@ -274,7 +276,7 @@ For these cases you need to add an additional column to your query `reverse_cost
 
 
 What next?
-================================================================================
+==========
 
 * **pgRouting Website** - Visit the project website http://www.pgrouting.org to learn more about pgRouting.
 
