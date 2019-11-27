@@ -26,9 +26,9 @@ This Quickstart describes how to:
 * Install and configure the pywps-flask example service
 * Perform ``GetCapabilities``, ``DescribeProcess`` and ``Execute`` requests
 * Develop your own WPS processes
-* Next steps
 
 .. contents:: Contents
+   :local:
 
 Installing pywps-flask
 ======================
@@ -64,7 +64,7 @@ If all goes well you will receive back a message like:
 Testing available processes
 ===========================
 
-Open your favourite web browser and point it to the address where the example 
+Open a web browser and point it to the address where the example 
 service is listening: `http://127.0.0.1:5000/ <http://127.0.0.1:5000/>`_ You will
 be presented with the following page:
 
@@ -139,27 +139,18 @@ outputs.
         response.outputs['response'].uom = UOM('unity')
         return response
 
-What's Next
+What's next
 ===========
 
 PyWPS gives you the freedom and flexibility to write your own Python processes and expose them
 accordingly.
 
-Official documentation
-----------------------
+* Official documentation - For further information on PyWPS configuration and the API, consult the `documentation`_ on the PyWPS website.
 
-  For further information on PyWPS configuration and the API, consult the `documentation`_ on the PyWPS website.
-
-Tutorial
---------
-
-  Try out the `workshop`_, a tutorial used in workshops to introduce new users
+* Tutorial - Try out the `workshop`_, a tutorial used in workshops to introduce new users
   to PyWPS 4.
   
-Deployment to production
-------------------------
-
-  The `pywps-flask` service is just an example and not designed for production. 
+* Deployment to production -   The `pywps-flask` service is just an example and not designed for production. 
   One possible alternative is a Django based service, `pywps-django <https://github.com/jorgejesus/pywps-django>`_. The 
   documentation provides further details on how to `set up a production service <http://pywps.readthedocs.io/en/latest/deployment.html>`_
   with `Apache <https://httpd.apache.org/>`_ or `nginx <https://nginx.org/>`_ and `Gunicorn <http://gunicorn.org/>`_.
