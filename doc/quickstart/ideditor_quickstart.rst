@@ -4,6 +4,7 @@
 :Version: osgeolive 11
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Reviewer: Cameron Shorter (transposed from source)
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 
 @LOGO_ideditor@
 @OSGEO_KIND_ideditor@
@@ -21,109 +22,81 @@ don't require the advanced features of JOSM (a more advanced mapping
 editor). This chapter demonstrates the basics of editing with iD.
 
 .. contents:: Contents
+   :local:
 
 Starting the iD Editor
-----------------------
+======================
 
--  The iD editor requires an active connection to the Internet.
--  Open your Internet browser, and go to the OpenStreetMap website at
+The iD editor requires an active connection to the Internet.
+
+#. Open your Internet browser, and go to the OpenStreetMap website at
    http://www.openstreetmap.org.
--  **Login** using your OpenStreetMap account.
--  Pan and zoom the map to the area that you wish to edit. You can pan
+#. **Login** using your OpenStreetMap account.
+#. Pan and zoom the map to the area that you want to edit. You can pan
    by holding the left mouse button and dragging the map to your desired
    area.
--  Click on the small arrow next to **Edit**. Then click **Edit with iD
+#. Click on the small arrow next to **Edit**, then click **Edit with iD
    (in-browser editor)**.
 
   .. image:: /images/projects/ideditor/id-editor_image1.png
 
-iD Editor User Interface
-------------------------
-
   .. image:: /images/projects/ideditor/id-editor_image2.png
 
-1. **Edit Feature Panel:** This panel shows tags from the object
-   selected on the map.
+* [1] **Edit Feature Panel:** This panel shows tags from the object
+   selected on the map. You can add or edit tags from this panel.
 
-   You can add or edit tags from this panel.
+* [2] **Tools:** This panel shows basic editing tools.
 
-2. **Tools:** This panel shows basic editing tools:
+* [3] **Map panel:** This panel show various configuration functions.
 
-   Draw point (node), *shortcut key* **1** |image3|
-
-   Draw line (way), *shortcut key* **2** |image4|
-
-   Draw shape (polygon), *shortcut key* **3** |image5|
-
-   Undo, *shortcut keys* **Ctrl+z** |image6|
-
-   Redo, *shortcut keys* **Ctrl+y** |image7|
-
-   Save changes, *shortcut keys* **Ctrl+s** |image8|
-
-3. **Map panel:** This panel show various configuration functions:
-
-   Zoom In, *shortcut key* **+** |image9|
-
-   Zoom Out, *shortcut key* **-** |image10|
-
-   Go to your location |image11|
-
-   Configure background layer, *shortcut key* **b**
-
-   Map Data, *shortcut key* **f**
-
-   Open Help Menu, *shortcut key* **h**
-
-4. **Information panel:** This panel shows various information, such as
+* [4] **Information panel:** This panel shows various information, such as
    the scale bar and which users have contributed to the area.
 
-Configuring the Background Layer
---------------------------------
+Configuring the background layer
+================================
 
-  Click the **Background settings** button or use the *shortcut key*
+#. Click the **Background settings** button or use the *shortcut key*
   **b**. |image14|
 
-  |image15|
+   |image15|
 
-  To change the **brightness level** click one of these boxes, the
+#. To change the **brightness level** click one of these boxes, the
   levels are 100%, 75%, 50%, and 25% |image16|
 
-  You also can **change the background layer** based on your desired
+#. You also can **change the background layer** based on your desired
   tile provider (the default is Bing Aerial Imagery).
 
-  You can add your own map tiles by clicking on **Custom**. For example,
+#. You can add your own map tiles by clicking on **Custom**. For example,
   if you want to **add a Field Paper**  [1], click **Custom** then
   click on the magnifying glass (search) icon to open the following
-  window:-
+  window:
 
-  |image17|
-  and enter your **FieldPaper snapshot URL**, which will be something
+   |image17|
+  
+#. Enter your **FieldPaper snapshot URL**, which will be something
   like this:
   http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715
 
-  To **display GPS tracks from your computer** (GPX format), drag and
+#. To **display GPS tracks from your computer** (GPX format), drag and
   drop the GPX file into iD editor.
 
-  To enable **OpenStreetMap GPS traces** click on the box. In the image
+#. To enable **OpenStreetMap GPS traces** click on the box. In the image
   below, public GPS traces are shown in various colors, indicating the
   direction of travel.
 
-  |osm gps traces|
+   |osm gps traces|
  
-  If there is `imagery offset </en/josm/aerial-imagery>`__, you can
+#. If there is `imagery offset </en/josm/aerial-imagery>`__, you can
   **correct the imagery offset** by clicking **Fix Alignment**.
 
-  |image18|
+   |image18|
 
--  Click the navigation buttons to move the imagery. Click the reset
+#. Click the navigation buttons to move the imagery. Click the reset
    button to return to the default position. |image20|
 
-Basic Editing with iD
----------------------
 
-Adding Points
-~~~~~~~~~~~~~
+Adding points
+=============
 
 To add a new point, click on the **Point** button. |image3|
 
@@ -154,8 +127,8 @@ To add a new point, click on the **Point** button. |image3|
    A "point" created in the iD editor is actually a standalone "node"
    with a set of "tags" on it.
 
-Drawing Lines
-~~~~~~~~~~~~~
+Drawing lines
+=============
 
 To add a new line, click on the **Line** button. |image4|
 
@@ -202,8 +175,8 @@ A "line" created in the iD editor is actually a "way" with "tags" on it.
     asking the original mapper or one of the OSM email lists about it
     first.
 
-Drawing Shapes (Polygons)
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Drawing shapes (polygons)
+=========================
 
 To add a new multi-sided shape, click on the **Area** button.
 
@@ -219,8 +192,8 @@ To add a new multi-sided shape, click on the **Area** button.
 
 A "polygon" in the iD editor is actually a "closed way" with tags on it.
 
-Drawing Multipolygons
-~~~~~~~~~~~~~~~~~~~~~
+Drawing multipolygons
+=====================
 
 Sometimes you have to draw a polygon which does not only have an outer
 contour but also one or more inner contours. Just think of buildings
@@ -241,17 +214,17 @@ you can see on the left to which multipolygons it belongs
    :alt: part of multipolygon
 
 
-Saving Your Changes
--------------------
+Saving your changes
+===================
 
-When (and if) you want to save your edits to OpenStreetMap, click the
+#. When (and if) you want to save your edits to OpenStreetMap, click the
   **Save** button. The panel on the left will show the upload panel.
 
-  |image36|
+   |image36|
 
--  Enter a comment about your edits and click **Save**.
+#. Enter a comment about your edits and click **Save**.
 
-    If you have edited the same feature (point, way or area) at the same
+.. Note:: If you have edited the same feature (point, way or area) at the same
     time as another person was editing it, you will receive a warning
     that your edits cannot be uploaded until you have resolved the
     **conflicts** - choose whose edits to accept & upload your changes.
@@ -260,8 +233,8 @@ When (and if) you want to save your edits to OpenStreetMap, click the
     in question and edit again (**this time save soon after the edit to
     try to avoid a conflict again!**).*
 
-Additional Information and Custom Tags
---------------------------------------
+Add additional information and custom tags
+==========================================
 
 When you are editing an object, you will see a strip of icons at the
 bottom of the attribute panel. You can add additional information by
@@ -284,29 +257,12 @@ Or, you can add custom tags by clicking **All tags**. |image44|
 -  Click the plus sign (+) to add keys and values or click the trash
    icon to delete tags.
 
-iD versus JOSM
---------------
+What next?
+==========
 
-**iD is good for...**
+* Try the LearnOSM documentation, from which this quickstart was derived: http://learnosm.org/en/beginner/id-editor/
 
--  When you are doing simple edits
--  When you have fast Internet to load the imagery and save the edits
--  When you want to be sure to follow a consistent and simple tagging
-   scheme
--  When you are restricted from installing a program on the computer you
-   are using
-
-**JOSM is better...**
-
--  When you are adding many buildings (See buildings_tool plugin)
--  When you are editing many polygons or lines that already exist
--  When you are on an unreliable Internet connection or offline
--  When you are using a specific tagging scheme (or custom presets)
-
-What Next?
-----------
-
-- Try the LearnOSM documentation, from which this quickstart was derived: http://learnosm.org/en/beginner/id-editor/
+* Website: http://wiki.openstreetmap.org/wiki/ID
 
 .. |image3| image:: /images/projects/ideditor/id-editor_image3.png
   :height: 24px
