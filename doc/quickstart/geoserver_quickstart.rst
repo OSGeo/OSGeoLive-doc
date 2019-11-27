@@ -18,7 +18,7 @@
 @NAME_geoserver@ Quickstart
 ********************************************************************************
 
-GeoServer is a java application for serving maps (and data) for other clients to draw.
+GeoServer is a java application for serving maps (and data) for other clients (such as web browsers) to draw. GeoServer comes with a browser-based management interface and connects to multiple data sources at the back end.
 
 This Quick Start describes how to:
 
