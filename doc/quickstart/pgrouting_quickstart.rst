@@ -11,7 +11,7 @@
 @NAME_pgrouting@ Quickstart
 ********************************************************************************
 
-pgRouting is an extension that adds routing and other network analysis functionality to :doc:`PostGIS <../overview/postgis_overview>`/`PostgreSQL <http://www.postgresql.org>`_ databases.
+pgRouting is an extension that adds routing and other network analysis functionality to :doc:`PostGIS <../overview/postgis_overview>`/`PostgreSQL <https://www.postgresql.org>`_ databases.
 
 This Quick Start describes how to enable pgrouting in a PostgreSQL database, load data with osm2pgrouting, and run a basic shortest path query with the sample test data.
 
@@ -276,11 +276,9 @@ For these cases you need to add an additional column to your query `reverse_cost
 What next?
 ================================================================================
 
-* **pgRouting Website** - Visit the project website http://www.pgrouting.org to learn more about pgRouting.
-
-* **pgRouting Documentation** - Find the most recent documentation in http://docs.pgrouting.org.
-
-* **pgRouting Workshop** - The workshop `"FOSS4G routing with pgRouting tools and OpenStreetMap road data"` is available in: http://workshop.pgrouting.org.
+* **pgRouting Website** - Visit the project website https://www.pgrouting.org to learn more about pgRouting.
+* **pgRouting Documentation** - Find the most recent documentation in https://docs.pgrouting.org.
+* **pgRouting Workshop** - The workshop `"FOSS4G routing with pgRouting tools and OpenStreetMap road data"` is available in: https://workshop.pgrouting.org.
 * **osm2pgRouting loading data** - https://github.com/pgRouting/osm2pgrouting/wiki/Documentation-for-osm2pgrouting-v2.1
 * **QGIS pgRouting Layer Plugin** - https://plugins.qgis.org/plugins/pgRoutingLayer/ provides GUI for pgRouting functions and interacts with map so you don't have to write SQL.
 
