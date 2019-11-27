@@ -3,7 +3,7 @@
 :Reviewer: Angelos Tzotsos
 :Reviewer: Cameron Shorter
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
-:Version: osgeolive12.0
+:Version: osgeolive11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: geoserver-user list
 
