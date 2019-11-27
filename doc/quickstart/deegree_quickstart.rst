@@ -23,22 +23,14 @@ Available components are:
 applications and OGC-service implementations.
 It can be used to build web-based geospatial-data-infrastructures (GDI).
 
-This Quick Start describes how to:
-
-  * Start *deegree 3 webservices* on the Live DVD
-  * Use the *deegree 3 services console* to activate example configurations
-  * use the *deegree-inspire-workspace* as a starting point
-
 .. contents:: Contents
    :local:
 
 Start deegree 3 webservices
 ===========================
 
-Choose *'Start deegree'* from
-the :menuselection:`Geospatial --> Web Services --> deegree` menu.
+Choose *'Start deegree'* from the :menuselection:`Geospatial --> Web Services --> deegree` menu.
 The application will take a few moments to start up.
-
 
 Firefox opens the *deegree 3 services console*. (You can also open this manually by pointing your browser to http://localhost:8033). 
 This is a simple web-based GUI for editing the configuration files of the *deegree workspace*.
@@ -46,18 +38,13 @@ This is a simple web-based GUI for editing the configuration files of the *deegr
 Load a workspace
 ================
 
-*deegree 3* uses configurations conformant to all *deegree 3* based webservices.
-Those configurations are stored in the workspace.
+*deegree 3* uses configurations conformant to all *deegree 3* based webservices. Those configurations are stored in the workspace.
 
-#. To manage the included and ready-to-use workspaces, click *'workspaces'* on the left side. \
-You are now in the workspace management of the running *deegree* instance.
-You can see which workspace is currently active (only one can be active at a 
-time) workspace, inactive locally available workspaces and offical workspaces 
-which can be imported if you have a internet connection.
+#. To manage the included and ready-to-use workspaces, click *'workspaces'* on the left side. You are now in the workspace management of the running *deegree* instance. 
+   You can see which workspace is currently active (only one can be active at a time) workspace, inactive locally available workspaces and offical workspaces which can be imported if you have a internet connection. 
 #. Press start on the *deegree-inspire-workspace*.
 
-This workspace includes an example configuration for INSPIRE View- and 
-Download-Services.
+This workspace includes an example configuration for INSPIRE View- and Download-Services.
 It consists of a transactional WFS (2.0.0 and 1.1.0) for all Annex I Data Themes
 and a WMS (1.3.0 and 1.1.1) which serves three layers of those Annex I Data 
 Themes.
@@ -76,11 +63,9 @@ Additionally it supports multiple request types and queries.
 View a map
 ==========
 
-#. Click on *'see layers'* to open a simple map-client. The service is configured to visualize the data and a basemap (rendered by 
-`OpenStreetMap <http://openstreetmap.org/>`_).
+#. Click on *'see layers'* to open a simple map-client. The service is configured to visualize the data and a basemap (rendered by `OpenStreetMap <http://openstreetmap.org/>`_).
 
-#. Click on the **+** on the right side to open a layer tree showing all available 
-layers. You can activate the INSPIRE layer served by the deegree WMS here.
+#. Click on the **+** on the right side to open a layer tree showing all available  layers. You can activate the INSPIRE layer served by the deegree WMS here.
 
 .. tip::
    The map client is based on `OpenLayers <http://openlayers.org/>`_. 
@@ -97,10 +82,6 @@ What next?
 This was just a short introduction to the features of deegree 3. 
 There is more information in the demo installations and on the deegree website.
 
-  * deegree online demo
+  * deegree online demo - Available here: http://demo.deegree.org
 
-    Available here: http://demo.deegree.org
-
-  * deegree website
-
-    Available here: http://www.deegree.org
+  * deegree website - Available here: http://www.deegree.org
