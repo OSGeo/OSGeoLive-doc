@@ -2,7 +2,6 @@
 :Reviewer: Angelos Tzotsos, OSGeo
 :Reviewer: Nicolas Roelandt, OSGeoLive
 :Reviewer: Shubham Sharma
-:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive12.0
 
 @LOGO_leaflet@
@@ -15,10 +14,9 @@
 Leaflet is a JavaScript library for browser-based, mobile-friendly, interactive maps.  It is lightweight, yet has all the features most developers ever need for online maps. Leaflet is designed with simplicity, performance and usability in mind.
 
 .. contents:: Contents
-   :local:
 
-Get started
-===========
+Running
+================================================================================
 
 Prior to running this quick start you should start TileStache. On OSGeoLive this can be found under **Geospatial\\Spatial Tools\\Start Mapnik & TileStache**.
 This will provide background tiles that will be used in this demo. 
@@ -27,8 +25,8 @@ View the example_
 
 .. tip :: If you are reading this quickstart outside OSGeoLive you may prefer reading the original demo on: http://leafletjs.com/examples/quick-start/, since this demo uses tilestache on OSGeoLive.
 
-Prepare your page
-=================
+Preparing your page
+===================
 Before writing any code for the map, you need to do the following preparation steps on your page:
 
 * Include Leaflet CSS files in the head section of your document
@@ -58,10 +56,10 @@ Before writing any code for the map, you need to do the following preparation st
 
  #map { height: 180px; }
 
-Now you are ready to initialize the map and work with it.
+Now you are ready to initialize the map and do some stuff with it.
 
-Set up the map
-==============
+Setting up the Map
+================================================================================
 Let's create a map of eastern Africa with an indication of the 2018 FOSS4G conference. First we'll initialize the map and set its view to our chosen geographical coordinates and a zoom level:
 
 .. code-block:: javascript 
@@ -91,8 +89,8 @@ Make sure all the code is called after the **div** and **leaflet.js** inclusion.
 
 It's worth noting that Leaflet is provider-agnostic, meaning that it doesn't enforce a particular choice of providers for tiles, and it doesn't even contain a single provider-specific line of code, so you're free to use other providers if you need to.
 
-Add markers, circles and polygons
-=================================
+Markers, circles and polygons
+================================================================================
 
 Besides tile layers, you can easily add other things to your map, including markers, polylines, polygons, circles and popups.
 Let's add a marker:
@@ -168,8 +166,8 @@ Let's improve our example by using a popup instead of an alert:
 
 Try clicking on the map and you will see the coordinates in a popup. View the full example_
 
-What next?
-==========
+What Next?
+================================================================================
 
 Now you've learned Leaflet basics and can start building map apps straight away! Don't forget to take a look at the detailed documentation_ or other examples_.
 
