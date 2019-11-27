@@ -2,6 +2,7 @@
 :Author: Jachym Cepicky, Tom Kralidis
 :Author: Luís de Sousa
 :Reviewer: Cameron Shorter
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeo-live11.0
 :License: Creative Commons Attribution
 
