@@ -1,5 +1,6 @@
 :Author: OSGeoLive
 :Author: Seth Girvin
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -16,7 +17,7 @@ under many different web servers, or as an Apache module. OSGeoLive has MapCache
 This quick start shows how to add a new WMS layer to a MapCache set-up, display the tile service in an OpenLayers web map, and
 seed a tile cache from the command line. 
 
-.. contents:: Quick Start Contents
+.. contents:: Contents
     :local:
     :depth: 1
 
@@ -24,8 +25,9 @@ Adding a New Tileset and Displaying in OpenLayers
 =================================================
 
 MapCache is configured using XML files. OSGeoLive includes an example configuration file at ``/home/user/mapcache/mapcache-quickstart.xml``. 
-The example uses the OSGeoLive demo MapServer application of Itasca County in the United States as its source. In this quick start we will 
-set up tile caching for an additional WMS layer and display the tiles in a simple HTML page containing an OpenLayers map. 
+The example uses the OSGeoLive demo MapServer application of Itasca County in the United States as its source. 
+
+In this quick start we will set up tile caching for an additional WMS layer and display the tiles in a simple HTML page containing an OpenLayers map. 
 
 First let's open the MapCache configuration file in LeafPad - a text editor. Navigate to ``/home/user/mapcache`` in the File Manager, 
 right-click on ``mapcache-quickstart.xml`` and select LeafPad. 
@@ -192,8 +194,8 @@ If you want to remove a cache folder you can run the following command:
 
     sudo rm -r /var/cache/mapcache/lakes
 
-What's Next?
-============
+What Next?
+==========
 
 * Read the `MapCache Documentation <https://mapserver.org/mapcache/index.html>`_.
 * Then join the MapServer community, of which MapCache is a part, on the `Mailing Lists 
