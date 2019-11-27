@@ -1,7 +1,8 @@
 :Author: OSGeoLive
 :Author: Tom Kralidis
 :Author: Angelos Tzotsos, OSGeo
-:Version: osgeolive11.0
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
+:Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_pycsw@
@@ -14,59 +15,58 @@
 pycsw is an OGC CSW server implementation written in `Python <https://python.org>`_. pycsw allows for the publishing and discovery of geospatial metadata.  Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0.
 
 .. contents:: Contents
+   :local:
 
-Running the tester application
-==============================
+Run the tester application
+==========================
 
-To run the pycsw tester, use the pycsw launcher from the Web Services group, or open Firefox and navigate to ``http://localhost/pycsw/tests/index.html``:
+1. On the Desktop go to `Web Services --> pycsw` or open Firefox and navigate to ``http://localhost/pycsw/tests/index.html``:
 
 .. image:: /images/projects/pycsw/pycsw_tester_startup.png
   :scale: 75 %
 
-By selecting the left drop-down list, the user can see various predefined POST requests, encoded as XML, that can be sent to pycsw: 
+  By selecting the left drop-down list, the user can see various predefined POST requests, encoded as XML, that can be sent to pycsw. 
 
-.. image:: /images/projects/pycsw/pycsw_tester_selection.png
-  :scale: 75 %
-
-For example, by selecting "apiso/DescribeRecord", and pushing the "Send" button, a description of the ISO Application Profile record is presented on the right panel:
+2. Select "apiso/DescribeRecord" and press the "Send" button. A description of the ISO Application Profile record is presented on the right panel.
 
 .. image:: /images/projects/pycsw/pycsw_tester_describe_apiso_record.png
   :scale: 75 %
 
-By selecting "GetCapabilities-SOAP" and pushing the "Send" button, a SOAP request is sent to the server to advertise their web service capabilities:
+3. Selecting "GetCapabilities-SOAP" and press the "Send" button. A SOAP request is sent to the server to advertise their web service capabilities.
 
 .. image:: /images/projects/pycsw/pycsw_tester_soap_capabillities.png
   :scale: 75 %
 
-Also, the user can search for data records, performing a spatial bounding box query, by selecting "GetRecords-filter-bbox" and editing the coordinates in the XML request:
+4. You can search for data records, performing a spatial bounding box query, by selecting "GetRecords-filter-bbox" and editing the coordinates in the XML request.
 
 .. image:: /images/projects/pycsw/pycsw_tester_getrecords_bbox_filter.png
   :scale: 75 %
 
-The user can go through all the available requests and perform various requests from this testing application.
+You can go through all the available requests and perform various requests from this testing application.
 
-Capabilities Document and Configuration
-=======================================
+Understand capabilities and configuration
+=========================================
 
-The capabilities of the pycsw installation can be found at ``http://localhost/pycsw?service=CSW&version=2.0.2&request=GetCapabilities``. If you just use ``http://localhost/pycsw`` you will get the capabilities document for CSW 3.0.0, since that is the latest version supported.
+The capabilities of the pycsw installation can be found at ``http://localhost/pycsw?service=CSW&version=2.0.2&request=GetCapabilities``. 
+If you just use ``http://localhost/pycsw`` you will get the capabilities document for CSW 3.0.0, since that is the latest version supported.
 
-To edit the web service metadata, included in the capabilities document, the user can modify the file ``/etc/pycsw/default.cfg`` under the tag ``[metadata:main]``.
+To edit the web service metadata, included in the capabilities document, you can modify the file ``/etc/pycsw/default.cfg`` under the tag ``[metadata:main]``.
 
-If the user wants to enable INSPIRE Discovery Service support, the metadata under the tag ``[metadata:inspire]`` has to be filled in and the ``enabled`` property has to be set to ``true``.
+If you want to enable INSPIRE Discovery Service support, fill in the metadata under the tag ``[metadata:inspire]`` and set the ``enabled`` property to ``true``.
 
 For full functionality and configuration options, please consult the `documentation`_ on the pycsw website.
 
-Metadata Creation
-=================
+Create metadata
+===============
 
 Metadata files for a spatial dataset or a spatial web service can be created through the open source implementation of inspire directive for metadata, European Open Source Metadata Editor (EUOSME). This application can be found at ``http://inspire-geoportal.ec.europa.eu/editor/``. Source code is available at ``https://joinup.ec.europa.eu/svn/euosme/trunk``
 
-The user fills the mandatory metadata fields going through the application tabs, adding information like the name of the data owner, keywords, resource location on the web, geographic location (using a bounding box or the name of a country) etc. 
+You can fill the mandatory metadata fields by going through the application tabs, adding information like the name of the data owner, keywords, resource location on the web, geographic location (using a bounding box or the name of a country), etc. 
 
 .. image:: /images/projects/pycsw/pycsw_euosme_metadata_input.png
   :scale: 75 % 
 
-After the user has added all the information available, they must push the validation button on top of the page, so that a check is performed for consistency with the INSPIRE directive. 
+After you have added all the information available, press the :guilabel:`validation` button on top of the page to check for consistency with the INSPIRE directive. 
 
 .. image:: /images/projects/pycsw/pycsw_euosme_save_metadata.png
   :scale: 75 %
@@ -74,11 +74,8 @@ After the user has added all the information available, they must push the valid
 After a successful validation, the XML file can be saved to the local disk and viewed through a text editor or a browser.
 
 
-Loading Metadata
-================
-
-Metadata Repository Setup
--------------------------
+Load metadata
+=============
 
 pycsw supports the following databases:
 
@@ -88,8 +85,8 @@ pycsw supports the following databases:
 
 In OSGeoLive, a simple SQLite setup has been implemented. The database can be found in ``/usr/share/pycsw/tests/suites/cite/data/records.db``
 
-Create new database
--------------------
+Create a new database
+---------------------
 
 In order to create a new SQLite database we need to:
 
@@ -119,8 +116,8 @@ The database created is an `OGC SFSQL`_ compliant database, and can be used with
   $ ogrinfo -al /path/to/records.db
   # lots of output
 
-Importing Metadata
-------------------
+Import Metadata
+---------------
 
 .. code-block:: bash
 
@@ -129,25 +126,25 @@ Importing Metadata
 This will import all ``*.xml`` records from ``/path/to/records`` into the new database and configure the repository to expose queryables as per Table 53 of OGC:CSW.
 
 
-Data Discovery through QGIS MetaSearch Plugin
+Data discovery through QGIS MetaSearch plugin
 =============================================
 
-Start QGIS from the Desktop GIS group and click on the MetaSearch button (CSW icon)
+1. On the Desktop go to `Desktop GIS --> QGIS` to start QGIS, then click on the :guilabel:`MetaSearch` button (CSW icon)
 
 .. image:: /images/projects/pycsw/pycsw_qgis_metasearch_open.png
   :scale: 75 %
 
-Add the pycsw server by pressing the "New" button and type in ``http://localhost/pycsw/``
+2. Add the pycsw server by pressing the :guilabel:`New` button and type in ``http://localhost/pycsw/``
 
 .. image:: /images/projects/pycsw/pycsw_qgis_metasearch_add.png
   :scale: 75 %
 
-The user can add some default servers using the "Add default servers" button and also get the capabilities of the server using "Server info" button
+3. Add some default servers using the :guilabel:`Add default servers` button and also get the capabilities of the server using :guilabel:`Server info` button
 
 .. image:: /images/projects/pycsw/pycsw_qgis_metasearch_server_info.png
   :scale: 75 %
 
-Perform search using the catalogue, either by a string value or with a bounding box
+4. Perform a search using the catalogue, either by a string value or with a bounding box
 
 .. image:: /images/projects/pycsw/pycsw_qgis_metasearch_search.png
   :scale: 75 %
@@ -156,16 +153,16 @@ Perform search using the catalogue, either by a string value or with a bounding 
 Things to try
 =============
 
-#. Try to discover data through the Tester application by setting the appropriate requests eg. any text search with the string "imagery" leads to discovering the xml data created previously by EUOSME
+* Try to discover data through the Tester application by setting the appropriate requests eg. any text search with the string "imagery" leads to discovering the xml data created previously by EUOSME
 
 .. image:: /images/projects/pycsw/pycsw_tester_discovery.png
   :scale: 75 %
 
-#. Try to discover data through the Python `OWSLib CSW`_ interface.
+* Try to discover data through the Python `OWSLib CSW`_ interface.
 
-#. Try to discover data from GeoNode, which is also included in OSGeoLive and uses pycsw as the default CSW engine.
+* Try to discover data from GeoNode, which is also included in OSGeoLive and uses pycsw as the default CSW engine.
 
-What Next?
+What next?
 ==========
 
 For more information on pycsw, please consult the `documentation`_ on the pycsw website.
