@@ -26,10 +26,10 @@ From the desktop, choose :menuselection:`Desktop GIS --> OpenJUMP`.
 
 The OpenJUMP user interface has four (4) basic components.
 
-* (1) The first is a top-level menu bar for accessing most functionality. 
-* (2) The second is a main toolbar that sits just below the menu bar. The buttons give access to the most important display and navigation functions. 
-* (3) The third is a tree view on the left that shows the layer list of the active project. 
-* (4) The fourth is the map view. This is the actual map where a graphical representation of the spatial data in each layer is given. 
+* [1] The first is a top-level menu bar for accessing most functionality. 
+* [2] The second is a main toolbar that sits just below the menu bar. The buttons give access to the most important display and navigation functions. 
+* [3] The third is a tree view on the left that shows the layer list of the active project. 
+* [4] The fourth is the map view. This is the actual map where a graphical representation of the spatial data in each layer is given. 
 
 Finally there is an information bar at the bottom displaying mouse pointer coordinates, processing reports, and memory usage. A project window contains a layer list and a layer view. 
 Each instance of OpenJUMP can contain multiple projects. In this quick start, we will only be working with a single window.
@@ -40,15 +40,14 @@ Each instance of OpenJUMP can contain multiple projects. In this quick start, we
 Open an ESRI shapefile
 ======================
 
-#. On the top-level menu bar in OpenJUMP, select :menuselection:`File --> Open File`. This will present you with a dialog box that allows you 
-to open files containing geospatial data.
+#. On the top-level menu bar in OpenJUMP, select :menuselection:`File --> Open File`. This will present you with a dialog box that allows you to open files containing geospatial data.
 #. Browse for an ESRI shapefile. Look for a file with the .shp extension (e.g. on the LiveDVD under `/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`). 
 #. Select the file and click the :guilabel:`Finish` button on the dialog. After a few moments, you will be able to see the data from your shapefile in the Map View. You will also see a new layer created for your data in the Layer List. The name of the layer will match the name of the shapefile.
 
 .. image:: /images/projects/openjump/openjump_ss_02.png
    :scale: 55 
 
-.. Tip: Another quicker option is to directly drag and drop your shapefile in the Layer View.
+.. Tip:: Another quicker option is to directly drag and drop your shapefile in the Layer View.
 
 Style a layer
 =============
