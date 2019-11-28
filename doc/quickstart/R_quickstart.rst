@@ -1,5 +1,6 @@
 :Author: Barry Rowlingson
 :Author: Nicolas Roelandt
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive12.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -18,39 +19,24 @@ This Quick Start describes how to:
   * load some data from a shapefile and map it
   * do a coordinate transformation
   * plot some data points on a map
+  
+.. contents:: Contents
+   :local:
+
 
 Start R
-================================================================================
-
-Either:
-
-  * Choose ``R Statistics`` from the Spatial Tools section of the  menu - a terminal window appears running R.
-  * Enter ``R`` at a command-line shell prompt. R will start in that terminal.
-
-Don't fear the command line - it is a source of great power. Using the up and down arrows
-to recall commands so you can edit mistakes will help greatly. Hit CTRL-C if get
-stuck and you should get the prompt back.
-
-Quit R
-================================================================================
-
-Almost everything in R is a function, including the function for quitting. Type 
-``q()`` and hit return. If you just type ``q`` you'll see the source code for the ``q`` function.
-
-R will ask you if you want to save your workspace as an R data image file. When you
-start R again from a directory with a ``.RData`` file it will restore all its
-data from there.
-
-
-Beginning R
-================================================================================
-
+=======
 R is essentially a command-line program, although graphical user
 interfaces are available. You type a line of code at the prompt,
 press return, and the R interpreter evaluates it and prints the 
 result.
 
-You can start with simple arithmetic
+.. Tip:: Don't fear the command line - it is a source of great power. Using the up and down arrows
+to recall commands so you can edit mistakes. Hit CTRL-C if get stuck and you should get the prompt back.
+
+Choose :menuselection:`Geospatial --> Spatial Tools --> R Statistics`. A terminal window opens running R.
+
+You can start with simple arithmetic.
 
 ::
 
@@ -67,11 +53,11 @@ You can start with simple arithmetic
    [1] 1.155727
 
 
-And so on. A full range of arithmetic, trigonometric, and statistical
-functions are built in, and thousands more are available from
+A full range of arithmetic, trigonometric, and statistical
+functions are built-in, and thousands more are available from
 packages in the `CRAN <http://cran.r-project.org/>`_ archive.
 
-The main prompt in R is ``>``, but there is also the continuation prompt, ``+``, which 
+The main prompt in R is ``>``, but there is also the continuation prompt ``+``, which 
 appears if R expects more input to make a valid expression. You'll see this if you
 forget a closing bracket or parenthesis.
 
@@ -83,8 +69,8 @@ forget a closing bracket or parenthesis.
    [1] 1.414214
 
 
-Building Data
-================================================================================
+Building data
+=============
 
 You might be wondering what the mysterious 'one' in square brackets is 
 doing in the output. This is telling you that the result is one number. R
@@ -178,8 +164,8 @@ using $-notation:
 
 
 
-Loading Map Data
-================================================================================
+Loading map data
+================
 
 There are many packages for spatial data manipulation and statistics. Some
 are included here, and some can be downloaded from CRAN.
@@ -261,17 +247,20 @@ and our final image appears:
 
 .. image:: /images/projects/R/r_plot3.png
 
-Vignettes
-================================================================================
 
-In the past the documentation for R packages tended to be tersely-written help pages
+  Tip:: To quite R, type ``q()`` and hit return. R will ask you if you want to save your workspace as an R data image file. When you start R again from a directory with a ``.RData`` file it will restore all its data from there.
+
+Vignettes
+=========
+
+In the past, the documentation for R packages tended to be tersely-written help pages
 for each function. Now package authors are encouraged to write a 'vignette' as a friendly
-introduction to the package. If you just run the ``vignette()`` function with no arguments
+introduction to the package. If you run the ``vignette()`` function with no arguments
 you will get the list of those vignettes on your system. Try ``vignette("sf1")`` for a
 slightly technical introduction to the R spatial package.
 
-Further Reading
-================================================================================
+What next?
+==========
 
 For general information about R, try the official `Introduction to R <http://cran.r-project.org/doc/manuals/R-intro.html>`_ or any of the documentation from the main `R Project <http://www.r-project.org/>`_ page.
 
