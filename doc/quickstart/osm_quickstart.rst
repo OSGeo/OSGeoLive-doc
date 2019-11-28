@@ -1,4 +1,5 @@
 :Author: Hamish Bowman
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011-2013 by The OSGeo Foundation
@@ -10,9 +11,6 @@
 ********************************************************************************
 @NAME_osm@ Quickstart
 ********************************************************************************
-
-About
-================================================================================
 
 .. HB comment: The following paragraph is CC0 content from learnosm.org
 
@@ -27,33 +25,29 @@ account. After you have your own username and password, you will be able
 to add your first points to the map, learn how to do street surveys and
 work with aerial imagery.
 
-The remainder of this quickstart introduces some of the on-line and off-line software
+The remainder of this guide introduces some of the online and offline software
 used to edit and render OSM data.
 
+.. contents:: Contents
+   :local:
 
-Programs
-================================================================================
-
+Programs that work with OSM data
+================================
 
 iD
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--
 
 **iD** is the default on-line editor for OpenStreetMap (OSM). iD is fast and 
 easy to use, and allows mapping from various data sources such as ground survey,
 satellite and aerial imageries, GPS traces or street-level imagery.
 
 * Start page: https://www.openstreetmap.org/edit
-
-
-Further reading
---------------------------------------------------------------------------------
-
 * Documentation: https://wiki.openstreetmap.org/wiki/ID
 * Tutorial: http://learnosm.org/en/beginner/id-editor/
 
 
 JOSM
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----
 
 **JOSM** (Java OpenStreetMap Editor) is an advanced editor for OpenStreetMap 
 (OSM) written in Java. It is more powerful and complex than iD, can be used 
@@ -62,17 +56,13 @@ extended with plugins, custom presets and more extensions.
 
 
 * Homepage: https://josm.openstreetmap.de
-
-Further reading
---------------------------------------------------------------------------------
-
 * User guide: https://wiki.openstreetmap.org/wiki/JOSM/Guide
 * Tutorial: http://learnosm.org/en/josm/start-josm/
 * JOSM plugin collection: https://josm.openstreetmap.de/wiki/Plugins
 
 
 Merkaartor
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------
  		 
 **Merkaartor** is a map editor for OpenStreetMap which uses the Qt toolkit.
 It's a bit more user friendly than JOSM, but has a few less features.
@@ -82,7 +72,7 @@ It's a bit more user friendly than JOSM, but has a few less features.
 
 
 QGIS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----
 
 OpenStreetMap data can be loaded in **QGIS** as vector layer, as a core 
 functionality or through plugins like QuickOSM.
@@ -92,7 +82,7 @@ functionality or through plugins like QuickOSM.
 * Tutorial: http://learnosm.org/en/osm-data/osm-in-qgis/
 
 Osmosis
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------
 
 **Osmosis** is a highly capable utility program for performing many tasks at
 a raw level on OSM data. This includes data import and export to databases,
@@ -103,7 +93,7 @@ sorting, cleaning, and creating data dumps.
 
 
 osm2pgsql
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------
 
 **osm2pgsql** is a utility program that converts OpenStreetMap (.osm) data
 into a format that can be loaded into PostgreSQL (PostGIS). It is often
@@ -112,3 +102,12 @@ PostgreSQL for map data, but does not work directly with OSM files.
 
 * Homepage: https://wiki.openstreetmap.org/wiki/Osm2pgsql
 * Tutorial: http://learnosm.org/en/osm-data/osm2pgsql/
+
+What next?
+==========
+
+Find out more about OSM on the website: https://www.openstreetmap.org
+
+Get support: https://www.openstreetmap.org/help
+
+
