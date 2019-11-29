@@ -1,5 +1,6 @@
 :Author: Astrid Emde, material from Frank Warmedam's RasterTutorial
 :Reviewer: Angelos Tzotsos, OSGeo
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -10,12 +11,9 @@
 @NAME_gdal@ Quickstart
 ********************************************************************************
 
-You will need nothing but a terminal for this quickstart. If you want to
-visualize the results, you can use one of the Desktop GIS Software
-applications on OSGeoLive like :doc:`../overview/qgis_overview`. 
 
 This Quick Start is divided into two parts: GDAL (raster data) and OGR
-(vector data). We will start with GDAL.
+(vector data). 
 
 This Quick Start describes how to:
 
@@ -30,11 +28,16 @@ GDAL
 OGR
   * get information about your data with ogrinfo 
   * use ogr2ogr to transform your data to other formats
+  
+The only thing you'll need for this quickstart is a terminal. If you want to
+visualize the results, you can use one of the Desktop GIS Software
+applications on OSGeoLive like :doc:`../overview/qgis_overview`. 
  
 .. contents:: Contents
+   :local:
 
 Get to know GDAL
-================================================================================
+================
 
 You will find the demo data at :file:`/usr/local/share/data`. We want to have a
 look at the :doc:`Natural Earth data <../overview/naturalearth_overview>` in this quickstart. We want to work with a
@@ -56,7 +59,7 @@ You will then find a NaturalEarth Raster file and a .tfw World-file at:
 .. tip:: Open the file with a Desktop GIS like QGIS, and have a look.
 
 Get information about the raster data with gdalinfo
-================================================================================
+===================================================
 :: 
   
       gdalinfo HYP_50M_SR_W.tif 
@@ -94,8 +97,8 @@ Note:
 
 
 
-Simple Format Translation
-================================================================================
+Simple format translation
+=========================
 
 First get to know your drivers. The `--formats` commandline switch of
 gdal_translate can be used to see a list of available format drivers.  
@@ -118,7 +121,7 @@ particular driver, including creation options, and permitted data types.
  gdal_translate --format png 
 
 Translation
-================================================================================
+===========
 
 Translations are accomplished with the gdal_translate command. The
 default output format is GeoTIFF.  The `-of` flag is used to select an 
@@ -138,7 +141,7 @@ Use gdalinfo to verify data type.
 
 
 Rescaling
-================================================================================
+=========
 
 The `-outsize` switch can be used to set the size of the output file. 
 
@@ -164,7 +167,7 @@ and define the corners in georeferenced coordinates (ulx uly lrx lry).
 
 
 Raster tileindex with gdaltindex
-================================================================================
+================================
 
 You can build a shapefile as a raster tileindex. For every image a
 polygon is generated with the bounds of the extent of the polygon and
@@ -202,7 +205,7 @@ will learn more about ogrinfo later in this tutorial)
   
 
 Reprojecting
-================================================================================
+============
 
 For this process we assume that HYP_50M_SR_W.tif has been properly
 created with bounds. As we saw before with gdainfo no coordinate system 
@@ -243,7 +246,7 @@ resolve this. Read more about this in the RasterTutorial http://trac.osgeo.org/g
 
 
 Mosaicking
-================================================================================
+==========
 
 gdal_merge.py is a python script that can be used for simple mosaicking
 tasks. Mosaic the east.tif and west.tif into a single file:
@@ -263,7 +266,7 @@ of advantages over gdal_merge, but can be slow to merge many files:
 
 
 Get to know OGR
-================================================================================
+===============
 
 :: 
   
@@ -274,7 +277,7 @@ Get to know OGR
 
 
 Get information about the vector data with ogrinfo
-================================================================================
+==================================================
 
 :: 
 
@@ -405,7 +408,7 @@ You can convert your data to other formats. Get the list of the
 supported formats with `--formats`.
 
 Use ogr2ogr to convert data between file formats 
-================================================================================
+================================================
 
 You can use ogr2ogr to converts simple features data between file
 formats. You can use `--formats` to get the list of the supported formats
@@ -420,23 +423,23 @@ Convert the countries to GML.
 
 
 Things to try
-================================================================================
+=============
 
 Here are some additional challenges for you to try:
 
-#. Try gdalwarp or gdal_merge.py to mosaic your data
+* Try gdalwarp or gdal_merge.py to mosaic your data
 
-#. Try gdaladdo to build internal overviews
+* Try gdaladdo to build internal overviews
 
-#. QGIS uses GDAL/OGR too to suport many formats. It also provides the GdalTools Plugin to process raster data. This plugin integrates the gdal-tools into QGIS. 
+* QGIS uses GDAL/OGR too to suport many formats. It also provides the GdalTools Plugin to process raster data. This plugin integrates the gdal-tools into QGIS. 
 
-#. Try ogr2ogr to import/export your vector data to other formats like PostGIS. Have a look at the options ogr2ogr provides.
+* Try ogr2ogr to import/export your vector data to other formats like PostGIS. Have a look at the options ogr2ogr provides.
 
-#. Try the QGIS plugin OGR-Layer-Konverter.
+* Try the QGIS plugin OGR-Layer-Konverter.
 
 
-What Next?
-================================================================================
+What next?
+==========
 
 This is only the first step on the road to using GDAL and OGR. There is
 a lot more functionality you can try.
