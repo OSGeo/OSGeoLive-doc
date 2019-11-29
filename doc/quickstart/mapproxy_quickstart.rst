@@ -1,5 +1,6 @@
 :Author: Oliver Tonnhofer
 :Reviewer: Angelos Tzotsos, OSGeo
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -21,24 +22,22 @@ It caches, accelerates and transforms data from existing map services and serves
 MapProxy is not only a tile cache solution, but also offers many new and innovative features like full support for WMS clients.
 
 .. contents:: Contents
+   :local:
 
-Start demo service
---------------------------------------------------------------------------------
+Start the service and view the demo
+===================================
 
 MapProxy has flexible deployment options and you can integrate it in Apache for example. But you can also start MapProxy as a standalone service, which is the best option to get started.
 
-To start MapProxy as a standalone service click on :menuselection:`Geospatial --> Web Services --> MapProxy --> Start MapProxy`.
+#. To start MapProxy as a standalone service click on :menuselection:`Geospatial --> Web Services --> MapProxy --> Start MapProxy`.
 
-
-View MapProxy Demo
---------------------------------------------------------------------------------
+#. Open Firefox and navigate to `<http://localhost:8011/demo>`_
 
 The MapProxy demo page contains a rudimentary WMS and tile client for each configured layer. You can't select the projection for WMS layers for example, but it is enough to quickly verify that your installation works.
 
-You can open the demo in Firefox: `<http://localhost:8011/demo>`_
 
-View in Desktop GIS
---------------------------------------------------------------------------------
+View in desktop GIS
+===================
 
 You can add MapProxy in any WMS Desktop GIS like uDig, QGIS or gvSIG. The service URL is: `<http://localhost:8011/service?>`_
 
@@ -52,7 +51,7 @@ The MapProxy example configuration contains a few layers that use different map 
   Single WMS layer with data from two cascaded sources and `FeatureInformation` from one source.
 
 Available layers
---------------------------------------------------------------------------------
+----------------
 
 **mapnik**:
   The world population rendered by Mapnik. You don't need to start the Mapnik service, because this layer makes use of the integrated Mapnik support in MapProxy.
@@ -74,7 +73,7 @@ Available layers
 
 
 Create you own configuration
---------------------------------------------------------------------------------
+============================
 
 You can use ``mapproxy-util`` to create new configuration templates and to start a test server.
 
@@ -90,8 +89,8 @@ You can now visit the demo page at http://127.0.0.1:8011/demo/.
 MapProxy will automatically reload if you change your configuration file.
 
 
-What Next?
---------------------------------------------------------------------------------
+What next?
+==========
 
 * Read the `documentation of MapProxy <../../mapproxy/index.html>`_
 
