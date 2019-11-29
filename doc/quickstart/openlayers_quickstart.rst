@@ -2,6 +2,7 @@
 :Author: Chris Schmidt
 :Author: Bart van den Eijnden
 :Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -17,9 +18,10 @@ This Quick Start describes some basic steps required to start working with OpenL
 OpenLayers makes it easy to put a dynamic map in any web page. It can display map tiles, vector data and markers loaded from any source. OpenLayers has been developed to further the use of geographic information of all kinds. It is completely free, Open Source JavaScript, released under the 2-clause BSD License (also known as the FreeBSD).
 
 .. contents:: Contents
+   :local:
 
-Core Concepts
---------------------------------------------------------------------------------
+Core concepts
+=============
 
 Before we start working with OpenLayers it helps to understand OpenLayers core concepts:
 
@@ -43,10 +45,8 @@ Before we start working with OpenLayers it helps to understand OpenLayers core c
   *geometries* (like point, line or polygon) using a given *style*, which
   determines its look (line thinkness, fill color, etc).
 
-A basic map
---------------------------------------------------------------------------------
-
-In this step we will create a basic map.
+Create a basic map
+==================
 
 Create a file in e.g. /home/user/ called basic-map.html , and copy the following content into the file.
 
@@ -97,7 +97,6 @@ Create a file in e.g. /home/user/ called basic-map.html , and copy the following
       </body>
   </html>
 
-**Ex. 1**: Basic code structure
 
 Now try opening basic-map.html from a web browser using File->Open File. You should see the following:
 
@@ -118,8 +117,8 @@ Note:
 
 * Finally, we set the initial position of the *camera* using the ``ol.View`` class, set the initial zoom level and center location.
 
-Adding raster layers
---------------------------------------------------------------------------------
+Add raster layers
+=================
 
 The most used raster layers are the tiled layers, provided by the likes of
 OpenStreetMap, Stamen, Bing, etc. Tiled layers are represented by the
@@ -138,11 +137,10 @@ a given provider, like ``ol.source.OSM`` or ``ol.source.Stamen``:
     })
   });
 
-**Ex. 2:** Create raster layers
 
 Layers can be added to the map in two ways:
 
-1. When constructing the ``ol.Map``, using the ``layers`` property:
+* When constructing the ``ol.Map``, use the ``layers`` property:
 
    .. code-block:: javascript
 
@@ -152,19 +150,17 @@ Layers can be added to the map in two ways:
        ...
      });
 
-   **Ex. 3:** Adding layers on map initialization
-
-2. Adding manually with the ``map.addLayer()`` method:
+   
+* Add them manually with the ``map.addLayer()`` method:
 
    .. code-block:: javascript
 
      map.addLayer(osm);
      map.addLayer(stamen);
 
-   **Ex. 4:** Adding layers manually
-
-Adding vector layers
---------------------------------------------------------------------------------
+   
+Add vector layers
+=================
 
 Vector layers are represented by the ``ol.layer.Vector`` class and must use a
 source suitable for reading the vector format, like ``ol.source.GeoJSON``,
@@ -181,7 +177,6 @@ source suitable for reading the vector format, like ``ol.source.GeoJSON``,
   // Add Vector layer to map
   map.addLayer(vectorLayer);
 
-**Ex. 5:** Constructing a GeoJSON vector layer
 
 .. image:: /images/projects/openlayers/openlayers-vector.png
   :scale: 100 %
@@ -222,10 +217,9 @@ that represents the feature:
   // Add Vector layer to map
   map.addLayer(vectorLayer);
 
-**Ex. 6:** Adding features by hand
 
-Styling features
---------------------------------------------------------------------------------
+Apply style to features
+=======================
 
 Features within vector layers can be styled.
 The style is determined by a combination of fill, stroke, text  and image, which are all optional. In addition, a style can be applied to a layer, which determines the style of all contained features, or to an individual feature.
@@ -260,14 +254,12 @@ A style is represented by the ``ol.style.Style`` class which has properties to s
     })
   });
 
-**Ex. 7:** Styling features
-
 In the code, we have loaded a TopoJSON file and styled it through the ``style`` property.
 We have set a ``fill`` and ``stroke``, required for lines and polygons, and an
 ``image`` (in this case a circle) used for point features.
 
-Working with events
---------------------------------------------------------------------------------
+Work with events
+================
 
 Most of the components, like map, layers or controls, trigger events to notify changes. For example we can be notified each time the mouse is moved over the map, or when a feature is added to a vector layer, etc.
 
@@ -284,10 +276,10 @@ The following code registers an event on a map instance, and will be notified ea
     console.log(coord3857, coord4326);
   });
 
-**Ex. 8:** Printing pointer position.
 
-What's Next?
---------------------------------------------------------------------------------
+What next?
+==========
+
 Sometimes the quickest way to work out how OpenLayers works is to look at examples
 and their source code. You can find more OpenLayers information here:
 
