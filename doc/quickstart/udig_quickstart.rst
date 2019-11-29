@@ -5,7 +5,6 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: udig-devel list
 :Reviewer: Cameron Shorter, Jirotech
-:Reviewer: Felicity Brand (Google Season of Docs 2019)
 
 @LOGO_udig@
 @OSGEO_KIND_udig@
@@ -33,10 +32,9 @@ This Quick Start describes how to:
   * apply colour to map features using styling
 
 .. contents:: Contents
-   :local:
   
 start uDig
-==========
+================================================================================
 
 .. Writing Tip:
   Describe steps to start the application
@@ -47,10 +45,11 @@ start uDig
 
 .. TBD: Add menu graphic to this uDig Quickstart
 
-#. Choose |osgeolive-appmenupath-udig| from menu. The application will take a few moments to start up
+#. Choose |osgeolive-appmenupath-udig| from menu
+#. The application will take a few moments to start up
 
-   .. image:: /images/projects/udig/udig_Quickstart1Splash.png
-    :scale: 70 %
+.. image:: /images/projects/udig/udig_Quickstart1Splash.png
+   :scale: 70 %
 .. Writing Tip:
   For images, use a scale of 50% from a 1024x768 display (preferred) or
   70% from a 800x600 display.
@@ -58,16 +57,23 @@ start uDig
     https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/projects/1024x768/
 
 
-   If you have any difficulties, or are running uDig please review the Running uDig reference page.
+If you have any difficulties, or are running uDig please review the Running uDig reference page.
 
-   When you start up uDig for the first time the Welcome view takes up the entire display. This screen has links to tutorials, documentation and the project website.
+Welcome View
+================================================================================
+
+#. When you start up uDig for the first time the Welcome view takes up the entire display. This screen
+   has links to tutorials, documentation and the project website.
 
 #. Click the arrow labelled Workbench in the upper right corner, to reveal the contents of the uDig workbench.
   
-   .. image:: /images/projects/udig/udig_welcome.png
-    :scale: 70 %
+  .. image:: /images/projects/udig/udig_welcome.png
+   :scale: 70 %
    
-.. tip:: You can return to the Welcome view at any time by selecting the :menuselection:`Help --> Welcome` from the menu bar.
+You can return to the Welcome view at any time by selecting the :menuselection:`Help --> Welcome` from the menu bar.
+
+Workbench
+================================================================================
 
 The Workbench window offers multiple Editors (each showing a Map) and supporting Views (offering
 information about the current Map).
@@ -75,16 +81,17 @@ information about the current Map).
   .. image:: /images/projects/udig/udig_workbench.png
    :scale: 70 %
 
-Shown here is a typical uDig session with the 
+Shown above is a typical uDig session with the 
 
-* Layers view (1), 
-* Projects view (2), 
-* Catalog view (3) and 
-* Map editor (4). 
+	#. Layers view (1), 
+	#. Projects view (2), 
+	#. Catalog view (3) and 
+	#. Map editor (4). 
 
+These views will be described further as we demonstrate their use.
 
-Load files
-==========
+Files
+================================================================================
 
 To start out with we are going to load some of the sample data included on the DVD.
 
@@ -92,7 +99,9 @@ To start out with we are going to load some of the sample data included on the D
 
 #. Select **Files** from the list of data sources
 
-#. Press :guilabel:`Next` to open up a file dialog. The OSGeoLive DVD contains sample data in:
+#. Press :guilabel:`Next` to open up a file dialog
+
+#. The OSGeoLive DVD contains sample data in:
    
    * :file:`~/data` (a short cut to :file:`/usr/local/share/data`)
 
@@ -118,7 +127,8 @@ To start out with we are going to load some of the sample data included on the D
 
 #. Drag :file:`HYP_50M_SR_W.tif` onto the Map Editor, a new layer is added to to the map.
 
-   You can see the order the layers are drawn in the layer view. Right now the `HYP_50M_SR_W` layer is drawn on top of the `ne 10m admin 0 countries` layer.
+#. You can see the order the layers are drawn in the layer view. Right now the `HYP_50M_SR_W` layer is drawn
+   on top of the `ne 10m admin 0 countries` layer.
 
 #. Select the `HYP_50M_SR_W` layer in the catalog view and drag it to the bottom of the list
   
@@ -142,8 +152,8 @@ To start out with we are going to load some of the sample data included on the D
 
 .. tip:: You can also drag and drop shapefiles directly into the uDig application!
 
-Navigate around the map
-=======================
+Map
+================================================================================
 
 You can control where in the world the Map Editor is looking by using the navigation tools in the tool bar along the top of the screen.
 
@@ -181,8 +191,8 @@ You can control where in the world the Map Editor is looking by using the naviga
 .. tip:: Most tools allow you to Pan by holding the center button and control the scale using the
    scroll wheel.
 
-Add layers with the Web Map Server
-==================================
+Web Map Server
+================================================================================
 
 One of the reasons to use an application like uDig is to access all the great free geospatial
 information available on the web. This section covers the use of Web Map Servers which make
@@ -230,8 +240,8 @@ available layers of information that you can mix into your own maps.
 
 .. tip:: You can switch between the zoom and info tools by pressing `Z` and `I` on the keyboard.
 
-Apply styles
-============
+Style
+================================================================================
 
 #. Select the `project > ne 10m admin 0 countries`, you can double click to open this Map, or Right Click and choose Open Map
 
@@ -272,28 +282,32 @@ Sometimes it is a bit hard to see what is going on with layer providing much det
   found in documentation packaged on OSGeoLive, as users might not be
   connected to the Internet.
 
-Things to try
-=============
+Things to Try
+================================================================================
 
 Here are some additional challenges for you to try:
 
 #. Try viewing your own GIS map layers, or try adding a layer from a `Web Feature Service (WFS) <http://www.opengeospatial.org/standards/wfs>`__ 
 #. Try styling the WFS layer.
 
-What next?
-==========
+What Next?
+================================================================================
 
 .. Writing tip
   Provide links to further tutorials and other documentation.
 
 This is only the first step on the road to using uDig. There is a lot more great material (and ability) left for you to discover in our **walkthrough** documents.
 
-* Walkthrough 1 -  Try out the use of :doc:`PostGIS <../overview/postgis_overview>`, extract data from a Web Feature Server and explore the
+* Walkthrough 1
+
+  Try out the use of :doc:`PostGIS <../overview/postgis_overview>`, extract data from a Web Feature Server and explore the
   use of **Themes** with our powerful `Color Brewer` technology.
 
   :file:`/usr/local/share/udig/udig-docs/uDigWalkthrough 1.pdf`
 
-* Walkthrough 2 - Learn how to create shapefiles and use the Edit tools to manipulate feature data, covers the installation of :doc:`GeoServer <../overview/geoserver_overview>` and editing with a Web Feature Server.
+* Walkthrough 2 - Learn how to create shapefiles and use the Edit tools to manipulate
+  feature data, covers the installation of :doc:`GeoServer <../overview/geoserver_overview>` and editing with a Web Feature
+  Server.
 
   Available on http://udig.refractions.net/
 

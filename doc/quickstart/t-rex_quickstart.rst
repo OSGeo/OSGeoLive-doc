@@ -1,6 +1,7 @@
 :Author: OSGeoLive
 :Author: Pirmin Kalberer
 :Reviewer: Astrid Emde
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Reviewer:
@@ -20,36 +21,37 @@ This Quick Start describes how to:
   * generate a tile cache
 
 .. contents:: Contents
+   :local:
 
-Start t-rex
-================================================================================
+Start T-Rex 
+============
 
-#. Choose :menuselection:`Geospatial --> Web Services --> T-Rex` from menu
-#. t-rex is started in zero-config mode connecting to PostGIS database `osm_local`
-#. A browser window is opened showing the t-rex backend:
+Choose :menuselection:`Geospatial --> Web Services --> T-Rex` from the menu.
+
+This starts t-rex in zero-config mode connecting to PostGIS database `osm_local`. A browser window is opened showing the t-rex backend.
 
   .. image:: /images/projects/t-rex/backend-info.png
    :scale: 50 %
 
 
 Built-in viewers
-================================================================================
+================
 
 t-rex comes with built-in viewers for inspecting generated vector tiles.
 
-#. Open the t-rex backend on http://127.0.0.1:6767/
-#. Click on th `X-Ray` entry in the upper right menu, to open the x-ray viewer.
+#. Click on th `X-Ray` entry in the upper right menu to open the x-ray viewer.
 #. Hover the mouse on a line to inspect the content of a feature.
 
   .. image:: /images/projects/t-rex/backend-x-ray.png
    :scale: 50 %
 
-Try also the other viewers. Remark: The Mapbox GL viewer and and Maputnik require
-WebGL support, which is probably not available when running OSGeoLive in a VM.
+Try also the other viewers. 
+
+.. note:: The Mapbox GL viewer and and Maputnik require WebGL support, which is probably not available when running OSGeoLive in a VM.
 
 
 Cache seeding
-================================================================================
+=============
 
 #. Close the browser and the terminal window running t-rex.
 #. Open any text editor (e.g. :menuselection:`Accessories -->
@@ -109,10 +111,13 @@ To inspect the generated tiles type::
   find mvtcache
 
 
-What Next?
-================================================================================
+What next?
+==========
 
 To create your own map viewer you can use the snippets on the info page in the t-rex backend.
 
 After that you can use the built-in Maputnik editor (also linked from the info page) to create
 your own Mapbox GL Json style.
+
+* Website: https://t-rex.tileserver.ch/
+* Support: https://github.com/t-rex-tileserver/t-rex/
