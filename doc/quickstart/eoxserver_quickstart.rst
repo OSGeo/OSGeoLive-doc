@@ -2,7 +2,8 @@
 :Author: Stephan Meissl
 :Author: Stephan Krause
 :Reviewer: Angelos Tzotsos, OSGeo
-:Version: osgeolive11.0
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
+:Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_eoxserver@
@@ -11,9 +12,6 @@
 ================================================================================
 @NAME_eoxserver@ Quickstart
 ================================================================================
-
-Overview
---------------------------------------------------------------------------------
 
 EOxServer is a server for presenting big Earth Observation (EO) data 
 archives and metadata via Open Standards. It builds upon an Open Source 
@@ -25,34 +23,27 @@ stack of software which includes Python, :doc:`MapServer
 
 This Quick Start describes how to:
 
-* View, filter, subset, and download EO data via EOxServer's Web Client
-* Inspect EO data archives via EOxServer's Admin Client
+* Use the Web Client to view, filter, subset, and download EO data
+* Use the Admin Client to inspect EO data archives
 
 .. contents:: Contents
+   :local:
 
-See the :doc:`EOxServer Overview <../overview/eoxserver_overview>` or the `online 
-EOxServer documentation <https://eoxserver.readthedocs.org/>`_ for more
-information.
+Start EoxServer
+===============
 
-.. image:: /images/projects/eoxserver/eoxserver_documentation.png
-  :scale: 50 %
-  :alt: EOxServer documentation
-
-Demonstration Instance
---------------------------------------------------------------------------------
-
-The icon labeled `EOxServer` filed under `Web Services` launches a browser 
-showing the demonstration instance available at http://localhost/eoxserver/
+Choose :menuselection:`Geospatial --> Web Services --> EOxServer`. This launches a browser showing the demonstration instance available at http://localhost/eoxserver/
 
 .. image:: /images/projects/eoxserver/eoxserver_start.png
   :scale: 50 %
   :alt: EOxServer demonstration start
 
-Web Client
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Work with the Web Client
+========================
 
-The **Web Client** link opens the integrated EOxServer client. Within this
-client you can explore the contents of the EOxServer instance. In the
+Click the **Web Client** link to open the integrated EOxServer client. 
+
+Within this client you can explore the contents of the EOxServer instance. The
 demonstration instance is filled with ENVISAT MERIS scenes.
 
 .. image:: /images/projects/eoxserver/eoxserver_webclient1.png
@@ -63,8 +54,7 @@ The client provides a set of interactions. On the top you can see a menu bar to
 show the Layer Selection and the Tools widgets. The main area is the map widget
 of the client with a set of datasets already displayed.
 On the bottom, you'll find the timeslider widget, that allows you to explore the
-contents in the temporal dimension. Each dataset is displayed as a small filled
-dot 
+contents in the temporal dimension. 
 
 .. image:: /images/projects/eoxserver/eoxserver_webclient2.png
   :scale: 50 %
@@ -108,11 +98,10 @@ This was a quick introduction to the EOxServer Web Client. Please refer to the
 <https://eoxserver.readthedocs.org/en/latest/users/webclient.html>`_ for more 
 information on this topic.
 
-Admin Client
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Work with the Admin Client
+==========================
 
-The **Admin Client** link brings you to the login page for the `Admin 
-Client`. The password for the user `admin` is `admin`.
+From the EOxServer main page, click the **Admin Client** link and login with user `admin` and password `admin`.
 
 .. image:: /images/projects/eoxserver/eoxserver_adminclient1.png
   :scale: 50 %
@@ -127,28 +116,27 @@ be found in the `operators' guide
   :scale: 50 %
   :alt: EOxServer demonstration admin client start
 
-You can, for example, inspect the dataset series that is loaded by default by
-navigating to "Dataset Series" and then to "MER_FRS_1P_RGB_reduced".
+For example, you can inspect the dataset series that is loaded by default by
+clicking the "Dataset Series" link and then the "MER_FRS_1P_RGB_reduced" link.
 
 .. image:: /images/projects/eoxserver/eoxserver_adminclient3.png
   :scale: 50 %
   :alt: EOxServer demonstration admin client Dataset Series
 
-Here you can also see the included datasets. If you feel like it, you can
-exclude single datasets using the "delete" checkbox on the right and click on
-"Save".
+Here you can also see the included datasets. You can exclude single datasets using the "delete" checkbox on the right and click on "Save".
 
 .. image:: /images/projects/eoxserver/eoxserver_adminclient4.png
   :scale: 50 %
   :alt: EOxServer demonstration admin client Dataset Series Management
 
 What Next?
--------------------------------------------------------------------------------
+==========
 
 This is a simple demonstration, but you can do much more with EOxServer. The 
 project website contains a lot of resources to help you get started. Here’s 
 a few resources to check out next:
 
+* See the :doc:`EOxServer Overview <../overview/eoxserver_overview>`_ for more information.
 * Read the `EOxServer Operators' Guide 
   <https://eoxserver.readthedocs.org/en/latest/users/operators.html>`_.
 * Read the complete `EOxServer Users' documentation 
