@@ -12,7 +12,7 @@
 @NAME_marble@ Quickstart
 ********************************************************************************
 
-Marble is an open source KDE Education Project program similar to NASA World Wind or Google Earth. Besides choosing any number of maps to view on your globe (including OpenStreetMaps), you are encouraged to include a KDE Marble widget in your application.
+Marble is an open source KDE Education Project program similar to NASA World Wind or Google Earth. Besides choosing any number of maps to view on your globe (including OpenStreetMap), you are encouraged to include a KDE Marble widget in your application.
 
 .. contents:: Contents
    :local:
