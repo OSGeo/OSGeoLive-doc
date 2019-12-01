@@ -3,6 +3,7 @@
 :Reviewer: Jo Cook
 :Reviewer: Cameron Shorter
 :Reviewer: Angelos Tzotsos, OSGeo
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Thanks: GeoNetwork Community
 
@@ -18,18 +19,19 @@
 
 GeoNetwork is a catalog application to manage spatially referenced resources. It provides powerful metadata editing and search functions as well as an interactive web map viewer. It is currently used in numerous Spatial Data Infrastructure initiatives across the world.
 
-.. contents:: This Quick Start Guide will take you through the following steps:
+.. contents:: 
+   :local:
 
 Prerequisites
--------------
+=============
 
 This guide assumes that you have Geonetwork installed and running, and know the URL so you can connect to it from your browser. If not, refer to the `Installation Guide <https://geonetwork-opensource.org/manuals/trunk/en/maintainer-guide/installing/index.html>`_.
 
 Throughout this guide we will use the URL ``http://localhost:8880/geonetwork`` to refer to the catalog, please substitute a different URL if this is not correct for your system.
 
 
-1. Access the catalog
----------------------
+Access the catalog
+==================
 
 In the Web Services folder on the Desktop, double-click **start GeoNetwork**. This will open the Firefox web browser at the URL ``http://localhost:8880/geonetwork``. This will be referred to throughout this document as the *homepage*. 
 
@@ -40,8 +42,8 @@ You can return to the  homepage at any point by selecting the catalogue logo in 
   :scale: 70 %
 
 
-2. Sign in
-----------
+Sign in
+=======
 
 Select **Sign in** in the top right of the top toolbar in the homepage to visit the sign in page. Enter the username ``admin`` and password ``admin`` and select the blue **Sign in** button to sign in as the catalog administrator. 
 
@@ -55,8 +57,8 @@ Once signed in, the top toolbar will change to include some additional elements,
 .. figure:: /images/projects/geonetwork/geonetwork_identified-user.png
   :scale: 70 %
 
-3. Load Sample Data
--------------------
+Load sample data
+================
 
 Select **Admin console** in the top toolbar to access the administrative functions in the catalog, then select the blue **Metadata and templates** button to access the sample data and templates tab.
 
@@ -81,8 +83,8 @@ For the purposes of this Quick Start Guide, select Geographic information - Meta
 
 *When this process is complete, a notice will appear in the right of the window indicating that 5 record(s) have been added for schema ‘iso19139’.*
 
-4. Search for spatial data
---------------------------
+Search for spatial data
+=======================
 
 Return to the catalog homepage by selecting the catalog name in the top left of the top toolbar. The homepage will now show icons representing the loaded records, classified by topic (in blue) and resource type (in green). Below this are tabs classifying the records by date added (latest news) and popularity (most popular).
 
@@ -115,8 +117,8 @@ The Search page provides different ways for search:
   :scale: 70 %
 
 
-5. Display Results
------------------------
+Display results
+===============
 
 The search results are depicted as “cards”, showing the Categories the metadata is classified with, the title of the record, a thumbnail, an abstract (if present) and links to downloads and other resources (if present).
 
@@ -139,8 +141,8 @@ In the top right of the record are icons for:
 
 Switching to **Full view** will show more detailed metadata. To switch back to the original view select **Default view** from the list.
 
-6. Add layers to the map
-------------------------
+Add layers to the map
+=====================
 
 From the **Search tab**, click on the card for **Physiographic Map of North and Central Eurasia (Sample record, please remove!)** to view the metadata. Move down the page until the **Download and links** section is visible.
 
@@ -210,8 +212,10 @@ Select a feature on the map corresponding to a category in the legend, such as a
 
 
 
-7. Where to go next
--------------------
+What next?
+==========
 
-Visit the `Geonetwork User Guide <https://geonetwork-opensource.org/manuals/trunk/en/user-guide/index.html>`_ and try the chapter on **Describing Information**, to learn how to create and edit metadata records. Follow up by visiting subsequent chapters to learn how to associate resources with your metadata, tag it with keywords and add it to categories, and publish your metadata to the outside world.
+Visit the `Geonetwork User Guide <https://geonetwork-opensource.org/manuals/trunk/en/user-guide/index.html>`_ and try the chapter on **Describing Information**, to learn how to create and edit metadata records. 
+
+Follow up by visiting subsequent chapters to learn how to associate resources with your metadata, tag it with keywords and add it to categories, and publish your metadata to the outside world.
 
