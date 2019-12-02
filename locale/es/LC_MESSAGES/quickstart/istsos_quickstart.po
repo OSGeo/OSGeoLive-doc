@@ -1,0 +1,473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# David Mateos, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2019
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:03+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:17
+msgid "istSOS Quickstart"
+msgstr "Inicio Rápido de istSOS"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:19
+msgid ""
+"istSOS is an OGC `SOS <http://www.opengeospatial.org/standards/sos>`__ "
+"server implementation written in `Python <https://www.python.org/>`__. "
+"istSOS allows for managing and dispatch observations from monitoring sensors"
+" according to the Sensor Observation Service standard."
+msgstr ""
+"istSOS es una implementación de servidor OGC `SOS "
+"<http://www.opengeospatial.org/standards/sos>`__ escrita en  `Python "
+"<https://www.python.org/>`__. istSOS permite gestionar y enviar "
+"observaciones desde sensores de monitorización de acuerdo con el estándar "
+"del Servicio de observación de sensores."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:22
+msgid ""
+"The project provides also a Graphical user Interface that allows for easing "
+"the daily operations and a RESTFull Web api for automatizing administration "
+"procedures."
+msgstr ""
+"El proyecto también proporciona una interfaz gráfica de usuario que facilita"
+" las operaciones diarias y una API RESTFull Web para automatizar los "
+"procedimientos de administración."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:24
+msgid ""
+"istSOS is released under the GPLv2 licence, and runs on all major platforms "
+"(Windows, Linux, Mac OS X), even though it has been used in production in "
+"linux environment only."
+msgstr ""
+"istSOS se lanza bajo la licencia GPLv2 y se ejecuta en todas las plataformas"
+" principales (Windows, Linux, Mac OS X), a pesar de que se ha utilizado en "
+"la producción solo en entornos Linux."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:29
+msgid "Create postgis database"
+msgstr "Crear base de datos PostGIS"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:31
+msgid "Open a terminal and execute the following commands:"
+msgstr "Abra una terminal y ejecute los siguientes comandos:"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:40
+msgid "Setting up an istSOS service instance"
+msgstr "Configurar una instancia de servicio istSOS"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:42
+msgid ""
+"With istSOS you can organize your sensor data in different instances. Every "
+"instance has its own database schema independent from other instances. You "
+"can even deploy other databases over your network according to your needs."
+msgstr ""
+"Con istSOS puede organizar los datos de su sensor en diferentes instancias. "
+"Cada instancia tiene su propio esquema de base de datos independiente de "
+"otras instancias. Incluso puede implementar otras bases de datos en su red "
+"según sus necesidades."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:46
+msgid ""
+"The first steps into istSOS setup is to configure the default configuration "
+"options. These options will then be automatically used for your convenience "
+"by every new istSOS instance created."
+msgstr ""
+"Los primeros pasos en la configuración de istSOS es configurar las opciones "
+"de configuración predeterminadas. Estas opciones serán utilizadas "
+"automáticamente para su conveniencia por cada nueva instancia de istSOS "
+"creada."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:48
+msgid "**1) Open the Web Admin interface**"
+msgstr "**1) Abra la interfaz de administración web**"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:50
+msgid "Open a browser and go to `<http://localhost/istsos/admin>`_"
+msgstr "Abra un navegador y vaya a `<http://localhost/istsos/admin>`_"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:52
+msgid "**2) Configure your database connection**"
+msgstr "**2) Configure su conexión de base de datos**"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:54
+msgid ""
+"From the toolbar buttons menu press the \"Database\" button and fill in the "
+"database configuration options:"
+msgstr ""
+"Desde el menú de botones de la barra de herramientas, presione el botón "
+"\"Database\" y complete las opciones de configuración de la base de datos:"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:64
+msgid "**3) Configure the default Service provider information**"
+msgstr ""
+"**3) Configure la información predeterminada del proveedor de servicios**"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:67
+msgid ""
+"Press the \"Service provider\" button and fill it using your institutional "
+"information."
+msgstr ""
+" Presione el botón \"Service provider\" y complételo con su información "
+"institucional."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:70
+msgid "**4) Configure the default Service identification information**"
+msgstr ""
+"**4) Configure la información de identificación del servicio "
+"predeterminada**"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:73
+msgid ""
+"Press the \"Service identification\" button and fill up with custom metadata"
+" that describe the service usage."
+msgstr ""
+"Presione el botón \"Service identification\" y complete con metadatos "
+"personalizados que describan el uso del servicio."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:75
+msgid "**5) Configure your service coordinates system**"
+msgstr "**5) Configure su sistema de coordenadas de servicio**"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:77
+msgid ""
+"Press the \"Coordinates system\" button to manage the Coordinate Reference "
+"System (CRS)."
+msgstr ""
+"Presione el botón \"Coordinates system\" para administrar el Sistema de "
+"referencia de coordenadas (CRS)."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:79
+msgid ""
+"*Default EPSG code*: this will be the native Coordinate Reference System of "
+"your geometries in the database."
+msgstr ""
+"*Código EPSG predeterminado* : este será el Sistema de referencia de "
+"coordenadas nativo de sus geometrías en la base de datos."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:81
+msgid ""
+"*Permitted EPSG*: here you can configure which other Coordinate Reference "
+"Systems your system will support and reproject if requested."
+msgstr ""
+"*EPSG permitido*: aquí puede configurar qué otros sistemas de referencia de "
+"coordenadas admitirá su sistema y reproyectar si así se solicita."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:83
+msgid "**6) Configure your getobservation request options**"
+msgstr "**6) Configure sus opciones de solicitud de getObservación**"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:85
+msgid ""
+"From the toolbar buttons menu press the \"GetObservation Configuration\" "
+"button to set maximum time interval per getObservation request (zero for no "
+"limits) and aggregation no-data value."
+msgstr ""
+"Desde el menú de botones de la barra de herramientas, presione el botón "
+"\"GetObservation Configuration\" para establecer el intervalo de tiempo "
+"máximo por solicitud de getObservation (cero sin límites) y el valor de "
+"agregación sin datos."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:88
+msgid "**7) Configure your service proxy address**"
+msgstr "**7) Configure su dirección de proxy de servicio**"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:91
+msgid "The Proxy URL field is the base URL seen beyond a reverse proxy."
+msgstr ""
+"El campo URL de proxy es la URL base vista más allá de un proxy inverso."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:95
+msgid "Create a new service"
+msgstr "Crear un nuevo servicio"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:98
+msgid ""
+"Now that you have configured istSOS, it's time to create a new service "
+"instance."
+msgstr ""
+"Ahora que ha configurado istSOS, es hora de crear una nueva instancia de "
+"servicio."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:100
+msgid "**1) Create a new service**"
+msgstr "**1) Crear un nuevo servicio**"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:103
+msgid "From the toolbar buttons menu press the \"new service\" button:"
+msgstr ""
+"Desde el menú de botones de la barra de herramientas, presione el botón "
+"\"new service\":"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:106
+msgid ""
+"Choose the name of your instance. In this workshop use the name **demo**."
+msgstr ""
+"Elige el nombre de tu instancia. En este taller use el nombre **demo**."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:109
+msgid ""
+"In the EPSG field you can set the database native projection. Leaving it "
+"empty, the default one will be used."
+msgstr ""
+"En el campo EPSG puede configurar la proyección nativa de la base de datos. "
+"Dejándolo vacío, se usará el predeterminado."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:112
+msgid ""
+"Clicking on the \"Customize database\" box, you are able to change the "
+"default database configuration for this new istSOS instance."
+msgstr ""
+"Al hacer clic en el cuadro \"Customize database\", puede cambiar la "
+"configuración de base de datos predeterminada para esta nueva instancia de "
+"istSOS."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:116
+msgid "**2) Press “next”**"
+msgstr "**2) Presione “next”**"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:118
+msgid ""
+"As you pressed the “next” button, the server status panel is displayed. If "
+"something's gone wrong during the creation you will see here an alert."
+msgstr ""
+"Al presionar el botón “next”, se muestra el panel de estado del servidor. Si"
+" algo salió mal durante la creación, verá aquí una alerta."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:123
+msgid ""
+"The istSOS “demo” instance has inherited all the configuration options from "
+"the default configuration. If, for any reason you decide to modify them, the"
+" changes will affect only this instance."
+msgstr ""
+"La instancia de \"demo\" de istSOS ha heredado todas las opciones de "
+"configuración de la configuración predeterminada. Si, por algún motivo, "
+"decide modificarlos, los cambios afectarán solo a esta instancia."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:127
+msgid "Add a new procedure"
+msgstr "Agregar un nuevo procedimiento "
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:129
+msgid ""
+"From the “services” drop down button of the admin interface "
+"(http://localhost/istsos/admin ) choose the desired instance."
+msgstr ""
+"Desde el botón desplegable “services” de la interfaz de administración "
+"(http://localhost/istsos/admin) elija la instancia deseada."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:131
+msgid "From the toolbar buttons menu press the \"New procedure\" button."
+msgstr ""
+"Desde el menú de botones de la barra de herramientas, presione el botón "
+"\"New procedure\"."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:134
+msgid "Fill in the form using appropriate information."
+msgstr "Rellene el formulario con la información adecuada."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:137
+msgid ""
+"Once a procedure is created the outputs (observed properties) cannot be "
+"changed."
+msgstr ""
+"Una vez que se crea un procedimiento, las salidas (propiedades observadas) "
+"no se pueden cambiar."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:140
+msgid "*Optional parameters:* Fill at your own need and willing"
+msgstr ""
+"Parámetros opcionales: llene según sus propias necesidades y dispocisiones"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:145
+msgid "*Example* (minimal configuration)"
+msgstr " Ejemplo (configuración mínima)"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:147
+msgid "Name: T_LUGANO"
+msgstr "Name: T_LUGANO"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:149
+msgid "Description: temperature weather station in Lugano"
+msgstr "Description: estación meteorológica de temperatura en Lugano"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:151
+msgid "Keywords: weather, meteorological, IST"
+msgstr "Keywords: clima, meteorología, IST"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:153
+msgid "System type: insitu-fixed-point"
+msgstr "System type: insitu-fixed-point"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:155
+msgid "Sensor type: PTC thermistors of the \"switching\" type"
+msgstr "Sensor type: termistores PTC del tipo \"conmutación\""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:157
+msgid "FOI name: LUGANO"
+msgstr "FOI name: LUGANO"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:159
+msgid "EPSG: 4326"
+msgstr "EPSG: 4326"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:161
+msgid "Coordinates: x: 8.96127 y: 46.02723 z: 344.1"
+msgstr "Coordinates: x: 8.96127 y: 46.02723 z: 344.1"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:164
+msgid "*Outputs (confirm the outputs pressing the \"add\" button):*"
+msgstr "*Outputs (confirme las salidas presionando el botón \"add\"):*"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:167
+msgid ""
+"Observed property: urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature"
+msgstr ""
+"Observed property: urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:169
+msgid "Unit of measure: °C"
+msgstr "Unit of measure: °C"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:171
+msgid "Description (optional): conversion from resistance to temperature"
+msgstr "Description (opcional): conversión de resistencia a temperatura"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:173
+msgid "quality index check (optional): Between / from -40 to +60"
+msgstr "quality index check (opcional): Between / from -40 to +60"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:177
+msgid "Register the new sensor (procedure) pressing the \"submit\" button."
+msgstr "Registre el nuevo sensor (procedimiento) presionando el botón \"submit\"."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:181
+msgid "Add new observations"
+msgstr "Agregar nuevas observaciones "
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:183
+msgid ""
+"First we will create a text file with sensor data, formatted according to "
+"\"text/csv, subtype=istSOS\". The file uses a Comma Separated Values (CSV) "
+"format. The first line contains header information, including URI names of "
+"the observed properties. The following lines contain the data."
+msgstr ""
+"Primero crearemos un archivo de texto con datos del sensor, formateado de "
+"acuerdo con  \"text/csv, subtype=istSOS\".  El archivo utiliza un formato de"
+" valores separados por comas (CSV). La primera línea contiene información de"
+" encabezado, incluidos los nombres de URI de las propiedades observadas. Las"
+" siguientes líneas contienen los datos."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:185
+msgid ""
+"Open a text editor by selecting :menuselection:`Accessories --> Leafpad`."
+msgstr ""
+"Abra un editor de texto seleccionando :menuselection:`Accessories --> "
+"Leafpad`."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:187
+msgid "Copy and paste the follwing text into the text editor window:"
+msgstr "Copie y pegue el siguiente texto en la ventana del editor de texto:"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:204
+msgid ""
+"Save the file as \"T_LUGANO_20140603161000000.dat\" on the Desktop. The "
+"filename convention being used is: PROCEDURENAME_YYYYMMDDhhmmssfff.dat"
+msgstr ""
+" Guarde el archivo como \"T_LUGANO_20140603161000000.dat\" en el escritorio."
+" La convención de nombre de archivo que se usa es: "
+"PROCEDURENAME_YYYYMMDDhhmmssfff.dat"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:206
+msgid ""
+"Open a terminal by selecting :menuselection:`Accessories --> LXTerminal`."
+msgstr ""
+" Abra un terminal seleccionando :menuselection:`Accessories --> LXTerminal`."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:208
+msgid "In the terminal, enter: \"cd /usr/share/istsos/\" and press ENTER"
+msgstr " En el terminal, ingrese: \"cd /usr/share/istsos/\"\" y presione ENTER"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:210
+msgid ""
+"Write \"python scripts/csv2istsos.py -p T_LUGANO -u http://localhost/istsos "
+"-s demo -w ~/Desktop\" and press ENTER"
+msgstr ""
+"Escriba \"python scripts/csv2istsos.py -p T_LUGANO -u "
+"http://localhost/istsos -s demo -w ~/Desktop\" y presione ENTER"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:212
+msgid "You should see a message \"Insert observation success: True\""
+msgstr "Debería ver un mensaje \"Insert observation success: True\""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:214
+msgid "Click :menuselection:`Geospatial --> Webservices --> istSOS`."
+msgstr "Haga clic :menuselection:`Geospatial --> Webservices --> istSOS`."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:216
+msgid "Click the ENTER button in the administration page"
+msgstr "Haga clic en el botón ENTER en la página de administración"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:218
+msgid "Click :menuselection:`Data Management --> Data Viewer`."
+msgstr "Haga clic en :menuselection:`Data Management --> Data Viewer`."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:223
+msgid "Select the following:"
+msgstr "Seleccione lo siguiente:"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:221
+msgid "Service = demo"
+msgstr "Service = demo"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:222
+msgid "Offering = temporary"
+msgstr "Offering = temporary"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:223
+msgid "Procedure T_LUGANO"
+msgstr "Procedure T_LUGANO"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:225
+msgid "Click the \"Add\" button"
+msgstr "Haga clic en el botón \"Add\""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:227
+msgid ""
+"Click the \"Plot\" button and check that the data have been added (watch out"
+" at your time zone!)"
+msgstr ""
+"Haga clic en el botón \"Plot\" y verifique que se hayan agregado los datos "
+"(¡tenga cuidado con su zona horaria!)"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:281
+msgid "What Next?"
+msgstr "¿Qué sigue?"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:284
+msgid ""
+"To learn more about istSOS, a starting point is the `istSOS Documentation`_"
+msgstr ""
+"Para obtener más información sobre istSOS, un punto de partida es la `istSOS"
+" Documentation`_"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:284
+msgid "and the `istSOS Tutorial`_."
+msgstr "y el `istSOS Tutorial`_."
