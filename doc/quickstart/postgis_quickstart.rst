@@ -226,8 +226,8 @@ We'll be focussing our attention on that type.
 
 
 
-Creating a spatial table the hard way
-=====================================
+Creating a Spatial Table using SQL
+==================================
 
 Now we have a spatial database we can make some spatial tables.
 
@@ -401,11 +401,10 @@ them blue for you - use the QGIS documentation to work out how to change this. Z
 a famous group of lakes in Canada.
 
 
-Creating a spatial table the easy way
-=====================================
+Importing spatial data into the database
+========================================
 
-Most of the OSGeo desktop tools have functions for importing spatial data in files, such as shapefiles,
-into PostGIS databases. Again we'll use QGIS to show this.
+Most of the OSGeo desktop tools have functions for importing spatial data from other formats (f.e. ESRI Shape) into the database. Again we'll use QGIS to show this.
 
 Importing shapefiles to QGIS can be done via the handy QGIS Database Manager. You find the manager in the menu. Go to ``Database -> DB Manager -> DB Manager``.
 
