@@ -12,7 +12,7 @@
 For more information about how to write this quickstart, see the 'How to document the quickstart file' on the osgeo wiki: https://trac.osgeo.org/osgeolive/wiki/How%20to%20document%20the%20quickstart%20file
 
 .. Note:: Writing tip: Overview section
-   This section is required and has no heading. Start with a sentence describing what the application is and does. Next, describe what will be covered in the Quick Start. 
+   This section is required and has no heading. Start with a sentence describing what the application is and does. Next, describe what will be covered in the Quickstart. 
    
    Choose a few features to show. If you're showing one or two things, write that in sentence format. If it's three or more, use a bullet list. 
    
@@ -37,7 +37,7 @@ From the Start menu, choose :menuselection:`Geospatial --> Desktop GIS --> appli
    :scale: 70 %
 
 .. Note:: Writing Tip:
-   Optionally, include a screenshot here of the UI. Use a scale of 50% from a 1024x768 display (preferred) or 70% from a 800x600 display. Markup the graphic with red circles to highlight any particular areas of note on the GUI (if required).
+   Include a screenshot here of the UI. Use a scale of 50% from a 1024x768 display (preferred) or 70% from a 800x600 display. Markup the graphic with red circles to highlight any particular areas of note on the user interface (if required).
    Store images here:
    https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/projects/1024x768/
 
@@ -52,6 +52,8 @@ Procedure
    Use Sphinx inline markup such as :guilabel: for buttons and field names; and :menuselection: for selecting menu items. Also refer to this page to describe elements on the UI: https://developers.google.com/style/ui-elements
    
    Use sub-headings for nested procedures if required. Use code blocks to describe interactions with the command line.
+   
+   Images - include as many images as the user is about to experience. The reader should be able to read the quickstart without running the software, and understand from the screenshots what will happen.
    
 #. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 #. Mauris eget dui vitae estsodales consequat eget vel risus.
