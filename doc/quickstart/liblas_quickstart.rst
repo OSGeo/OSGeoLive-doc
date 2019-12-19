@@ -1,4 +1,5 @@
 :Author: Howard Butler
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Contact: hobu.inc at gmail dot com
 :Version: osgeolive5.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
@@ -10,12 +11,15 @@
 @NAME_liblas@ Quickstart
 ********************************************************************************
 
+libLAS is a C/C++ library for reading and writing the very common LAS LiDAR format. The ASPRS LAS format is a sequential binary format used to store data from LiDAR sensors and by LiDAR processing software for data interchange and archival.
+
+LiDAR (Light Detection and Ranging) is a form of high precision range detection much like a radar system that uses laser light as the electromagnetic emission. One of LiDAR systems' products is a "point cloud" data product that can be conceptualized as a series of point measurements representing distance from the sensor to a returned emission. A common storage format for these point cloud data is ASPRS LAS format.
+
 .. contents::
-    :depth: 3
-    :backlinks: none
+   :local:
 
 Processing
---------------------------------------------------------------------------------
+==========
 
 The libLAS 'command-line utilities' provide the bulk of 
 user-facing operational software for libLAS, although the underlying libLAS 
@@ -24,7 +28,7 @@ you might want to do on LAS data, and the utilities and approaches to
 take to complete those tasks. The demo data can be found in :file:`/home/user/data/las/srs.las`
 
 Reprojecting an LAS file
-..............................................................................
+========================
 
 All LAS data are in some sort of coordinate system, even if that coordinate 
 system is not described in the LAS file.  For terrestrial LAS data, these 
@@ -114,12 +118,18 @@ we're more comfortable with:
 
 
 Output LAS file to text
-..............................................................................
-
-
+=======================
 ::
 
     las2txt input.las --parse xyzti
+
+
+What next?
+==========
+
+* Website: http://liblas.org
+* Support: http://liblas.org/community.html
+
 
 .. _`LASzip`: http://laszip.org
 .. _`CMake`: http://www.cmake.org/
