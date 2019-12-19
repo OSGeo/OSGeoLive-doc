@@ -1,6 +1,7 @@
 :Author: Benjamin Pross
 :Author: Kristof Lange
 :Reviewer: Angelos Tzotsos, OSGeo
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive11.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -17,46 +18,47 @@ The service implements the OGC Web Processing Service 1.0 interface standard.
 This quickstart describes how to process data and store the result in another web service using WPS operations. 
 
 .. contents:: Contents
+   :local:
 
-Running
-================================================================================
+Start 52°North WPS
+==================
 
-* To run the 52°North WPS on the Live DVD, go to |osgeolive-appmenupath-52nWPS| to start the 52°North WPS or use this `direct link <http://localhost:8080/52nWPS/>`_. (If the service is not reachable, try to start the Tomcat servlet engine following the steps at the bottom of the :doc:`SOS quickstart page <../quickstart/52nSOS_quickstart>`.)
+To run the 52°North WPS on the Live DVD, go to |osgeolive-appmenupath-52nWPS| or use this `direct link <http://localhost:8080/52nWPS/>`_. 
 
-* The 52n WPS welcome page will appear. 
+The 52n WPS welcome page will appear. 
 
   .. image:: /images/projects/52nWPS/52nWPS_screenshot.png
     :scale: 70 %
     :alt: screenshot
 
-Get information about the service
-================================================================================
+(If the web service is not reachable, try to start the Tomcat servlet engine following the steps at the bottom of the :doc:`SOS quickstart page <../quickstart/52nSOS_quickstart>`.)
 
-* Check out the capabilities of the 52°North WPS with this request:
+Get information about the service
+=================================
+
+Check out the capabilities of the 52°North WPS with this request:
 
   http://localhost:8080/52nWPS/WebProcessingService?Request=GetCapabilities&Service=WPS
 
 Process data
-================================================================================
+============
 
-* Click on the link to open the 52nWPS-TestClient. 
+1. Click on the link to open the 52nWPS-TestClient. 
 
   .. image:: /images/projects/52nWPS/52nWPS_welcome_page_2.png
     :scale: 70 %
     :alt: screenshot
 
-* Make sure that :doc:`GeoServer <../overview/geoserver_overview>` is running since the demonstration requires data from the local GeoServer installation.
-  To do this, try to open the page http://localhost:8082/geoserver/web. If the page could not be found, select |osgeolive-appmenupath-geoserver| in the menu.
-  The GeoServer should be running after a few moments.
+2. Make sure that :doc:`GeoServer <../overview/geoserver_overview>` is running since the demonstration requires data from the local GeoServer installation.
+3. To do this, try to open the page http://localhost:8082/geoserver/web. If the page could not be found, select |osgeolive-appmenupath-geoserver| in the menu. The GeoServer should be running after a few moments.
 
-* Select the example request "SimpleBuffer_out_wfs.xml" from the dropdown list:
+4. Select the example request "SimpleBuffer_out_wfs.xml" from the dropdown list:
   
   .. image:: /images/projects/52nWPS/52nWPS_test_client.png
     :scale: 70 %
     :alt: screenshot
   
-  
-* Push the Send-Button and the request will be transmitted to the 52°North WPS which will
+5. Push the Send-Button and the request will be transmitted to the 52°North WPS which will
   generate a buffer around the major roads of Tasmania with a width of 0.05 degrees and store
   the result in GeoServer. 
 
@@ -64,7 +66,7 @@ Process data
     :scale: 70 %
     :alt: screenshot
   
-* Copy the ResourceID from the response. This is the name of the GeoServer layer. Add the ID to the
+6. Copy the ResourceID from the response. This is the name of the GeoServer layer. Add the ID to the
   following request: http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers=Add-ResourceID-here
   You should get the following result:
 
@@ -72,14 +74,14 @@ Process data
     :scale: 70 %
     :alt: screenshot
 
-Things to Try
-================================================================================
+Things to try
+=============
 
 * Try out other example requests from the dropdown list of the WPS test client.
 * You could also install the WPS plugin for :doc:`QGIS <../overview/qgis_overview>` and try it out with the 52°North WPS.
 
-What Next?
-================================================================================
+What next?
+==========
 
 * Create your own processes and execute them using various clients.
 
