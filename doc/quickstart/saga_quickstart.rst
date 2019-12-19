@@ -1,6 +1,7 @@
 :Author: Johan Van de Wauw
 :Author: Zoltan Siki
 :Reviewer: Angelos Tzotsos
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive6.5
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -22,9 +23,10 @@ landscape development) and terrain analysis. The functionality can be
 accessed through a GUI, the command line or by using the C++ API.
 
 .. contents:: Contents
-
+   :local:
+   
 Running
-================================================================================
+=======
 
 To run SAGA GIS on the Live DVD, open the Desktop GIS group on the Desktop and
 click on the SAGA link.
@@ -42,8 +44,8 @@ window.
   .. image:: /images/projects/saga/saga_guioverview.png
      :scale: 80
 
-Opening Data
-================================================================================
+Opening data
+============
 
 #. Open the SAGA GUI and load the grid 
    `/home/user/data/saga/DGM_30m_Mt.St.Helens_SRTM.grd` via the **File|Grid|Load**
@@ -69,8 +71,8 @@ Opening Data
 .. tip:: You can also load data by dragging and dropping it on the application. 
    Try this with one of the datasets in the **/home/user/data/gdal_natural_earth/** folder.
 
-Displaying Data
-================================================================================
+Displaying data
+===============
 
 To display the dataset in a map view: 
 
@@ -98,7 +100,7 @@ To display the dataset in a map view:
    Full Extent' button in the toolbar
 
 Creating a shaded relief map view
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 We will enhance the map display by calculating a shaded relief map. 
 
 #. Switch to the Tools tab of the Manager window and click on the triangle left to the
@@ -148,7 +150,7 @@ Feel free to try other Transparency settings or even try other Shading Methods i
     :scale: 80
 
 3D visualization
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 In a next step, you might like to visualize your map in 3D. 
 
 #. Be sure your Map window is selected and press the Show 3D-View button in the
@@ -166,8 +168,8 @@ In a next step, you might like to visualize your map in 3D.
 .. image:: /images/projects/saga/saga_3d.png
     :scale: 80
 
-Creating Contour Lines
-================================================================================
+Creating contour lines
+======================
 As a short introduction to SAGA vector capabilities, we will now generate 
 Contour Lines from the digital elevation model. 
 
@@ -189,7 +191,7 @@ Contour Lines from the digital elevation model.
    coloured contour lines.
 
 Check your history
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 If you select a dataset (eg your contour lines) in the data tab of the manager
 window, you can switch the object properties tab to 'history' to review which
 module and which options were used to create the dataset. This information is
@@ -203,7 +205,7 @@ also kept when you save your files (in .mshp and .mgrd files).
  https://rohanfisher.wordpress.com/saga-tool-chains/
 
 Saving data
-================================================================================
+===========
 To save the work you have created you should open the data tab in the
 workspace, and right click on the file you want to save. SAGA will save grid
 files to its own native format (\*.sgrd) and shapefiles to the standard ESRI
@@ -212,7 +214,7 @@ shapefile format (\*.shp). It is also possible to save the project, by choosing
 settings, as well as offering to save the data files.
 
 Importing/Exporting data
-================================================================================
+========================
 Under the hood SAGA can also use the GDAL library for opening different raster
 and vector formats. The easiest way is to use **File|Grid|Open** for raster
 data and **File|Shapes|Open** for vector data. For rasters among others geotiff
@@ -248,8 +250,8 @@ Range to minimum maximum'.
 You are now ready to repeat the first steps to create a hillshaded map or
 explore some of the other modules of SAGA!
 
-More Information
-================================================================================
+What next?
+==========
 More documentation can be found on the SAGA website:
  * http://www.saga-gis.org
 and specifically in the documentation archive:
