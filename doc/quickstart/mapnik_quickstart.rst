@@ -1,25 +1,29 @@
 :Author: OSGeoLive
 :Author: Dane Springmeyer
 :Reviewer: Angelos Tzotsos, OSGeo
-:Version: osgeolive11.0
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
+:Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_mapnik@
 @OSGEO_KIND_mapnik@
 
-
+========================
 @NAME_mapnik@ Quickstart
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+========================
 
 Mapnik is an toolkit for developing mapping applications. Above all Mapnik is about making beautiful maps. It is easily extensible and suitable for both desktop and web development.
 
+.. contents:: Contents
+   :local:
+
 
 Mapnik & Python
---------------------------------------------------------------------------------
+===============
 
 Mapnik and its python bindings are installed and ready to be used for scripting on this machine.
 
-Creating maps in python is easy with Mapnik. Type `python` on the command line to enter a python interpreter and try this::
+Creating maps in python is easy with Mapnik. Open a terminal window and type `python` on the command line to enter a python interpreter. Then try this::
 
     >>> import mapnik, os
     >>> m = mapnik.Map(600,400)
@@ -38,38 +42,24 @@ Creating maps in python is easy with Mapnik. Type `python` on the command line t
 
 
 Mapnik & Leaflet
---------------------------------------------------------------------------------
+================
 
-In addition a basic demo application is available, which highlights using Mapnik to serve tiles into an OpenLayers web map in the OSM/Google tile scheme.
+A basic demo application is available which highlights using Mapnik to serve tiles into an OpenLayers web map in the OSM/Google tile scheme.
 
-The demo uses a tileserver designed for Mapnik called "TileStache"
+The demo uses a tileserver designed for Mapnik called "TileStache". Visit the TileStache website for more information: http://tilestache.org/
 
-  * More information about TileStache: http://tilestache.org/
+#. Click :menuselection:`Desktop --> Spatial Tools --> Start Mapnik & TileStache`. The server starts in a terminal window (which stays open and outputs basic debugging information).
 
-To run the demo just follow these steps:
+#. Check that the server is working by requesting a tile from the server. Click this link http://localhost:8012/example/0/0/0.png and observe the output in the server terminal window. 
 
-  #. Click :menuselection:`Desktop --> Spatial Tools --> Start Mapnik & TileStache`
-
-    * The server should start in a terminal window (which stays open and outputs basic debugging information).
-
-  #. Check to make sure the server is working by requesting a tile from the server at http://localhost:8012/example/0/0/0.png
-
-  #. Then visit the Leaflet demo application page:
-    
-    * This page is at `http://localhost/leaflet-demo.html <../../../leaflet-demo.html>`_
+#. Visit the Leaflet demo application page `http://localhost/leaflet-demo.html <../../../leaflet-demo.html>`_.
 
 
-What Next?
---------------------------------------------------------------------------------
+What next?
+==========
 
-* Mapnik Tutorials
+* Follow the tutorials to learn more about Mapnik: https://github.com/mapnik/mapnik/wiki/MapnikTutorials
 
-  Follow the tutorials_ to learn more about Mapnik.
+* Explore the included files on this DVD: file:///usr/local/share/mapnik/
 
-.. _tutorials: https://github.com/mapnik/mapnik/wiki/MapnikTutorials
-
-* Explore files on the DVD
-
-  See also the included files_ on this DVD.
-
-.. _files: file:///usr/local/share/mapnik/
+* Visit the Mapnik website: http://www.mapnik.org/
