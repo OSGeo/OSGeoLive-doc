@@ -248,7 +248,7 @@ and our final image appears:
 .. image:: /images/projects/R/r_plot3.png
 
 
-  Tip:: To quite R, type ``q()`` and hit return. R will ask you if you want to save your workspace as an R data image file. When you start R again from a directory with a ``.RData`` file it will restore all its data from there.
+.. Tip:: To quite R, type ``q()`` and hit return. R will ask you if you want to save your workspace as an R data image file. When you start R again from a directory with a ``.RData`` file it will restore all its data from there.
 
 Vignettes
 =========
