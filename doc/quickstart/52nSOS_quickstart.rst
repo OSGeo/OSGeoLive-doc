@@ -1,7 +1,7 @@
 ﻿:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
 :Author: Simon Jirka (s.jirka@52north.org)
 :Author: Ann Hitchcock (a.hitchcock@52north.org)
-:Reviewer:
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive12.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -23,14 +23,15 @@ This Quick Start describes how to:
   * Explore the REST API endpoint for client developers.
 
 .. contents:: Contents
+   :local:
 
 
 Getting Started
-================================================================================
+===============
 
 1. Select :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North SOS` to start the 52°North SOS.
 
-2. This will open the 52°North SOS client welcome page in firefox at
+This will open the 52°North SOS client welcome page in firefox at
    http://localhost:8080/52nSOS/ (see Fig. 1).
 
    .. image:: /images/projects/52nSOS/52n_sos_start.png
@@ -40,9 +41,9 @@ Getting Started
 
    **Fig. 1**: 52°North SOS client - welcome page.
 
-3. Once you know `the capabilities of an SOS Server <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=2.0.0>`_,
-   (see Fiq. 2) you can craft appropriate queries. Again, this is made easier
-   by selecting sample queries from the test client pull down list. Using the
+2. Click :guilabel:`Client` from the top menu bar. Once you know `the capabilities of an SOS Server <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=2.0.0>`_,
+   (see Fiq. 2) you can craft appropriate queries. This is made easier
+   by selecting sample queries. Using the
    information from the capabilities document, you can adjust the available example
    queries.
 
@@ -53,7 +54,7 @@ Getting Started
 
    **Fig. 2**: 52°North SOS client - test client with GetCapabilities request.
 
-4. To get the available observation data within the time
+3. To get the available observation data within the time
    interval from 2018-07-02T23:45:00.000+00:00 to 2018-07-04T23:45:00.000+00:00
    for each time series, insert the following request after selecting
    :menuselection:`**service** SOS --> **version** 2.0.0 --> **binding** SOAP --> **operation** GetObservation`
@@ -91,8 +92,8 @@ Getting Started
 **Listing 1:** Request of observations.
 
 
-Things to Try
-===============================================================================
+Things to try
+=============
 
 * Try some of the other example queries from the pull down list.
 * Try tweaking some of these queries to get different information.
@@ -177,8 +178,8 @@ Things to Try
 **Listing 2:** Output of Sensor Web REST API endpoint.
 
 
-What Next?
-================================================================================
+What next?
+==========
 
 To learn more about the 52°North SOS and/or the 52°North Sensor Web Community,
 potential starting points are:
