@@ -34,7 +34,7 @@ This Quick Start describes how to:
 Start Geoserver
 ===============
 
-#. From the Start menu, select :menuselection:`Geospatial --> Web Services --> GeoServer --> Start GeoServer`. The application will take a few moments to start up and will open a web page at http://localhost:8082/geoserver/web 
+#. From the Start menu, select |osgeolive-appmenupath-geoserver|. The application will take a few moments to start up and will open a web page at http://localhost:8082/geoserver/web 
 
    .. image:: /images/projects/geoserver/geoserver-login.png
     :scale: 70 %
@@ -231,6 +231,14 @@ Adding the style to the layer
     raster. If you go to the Layers Preview page you
     can see the new image. 
 
+Clients for WMS layers
+================================================================================
+
+The `WMS <http://www.opengeospatial.org/standards/wms>`__ layers you are serving from |GS| can be used with a variety of clients on this OSGeoLive distribution, including: 
+
+* :doc:`uDig <../overview/udig_overview>`
+* :doc:`OpenLayers <../overview/openlayers_overview>`
+* :doc:`MapBender <../overview/mapbender_overview>`
 
 Add a layer from a NetCDF file
 ===============================
