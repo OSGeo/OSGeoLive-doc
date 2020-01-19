@@ -174,6 +174,8 @@ Here are some additional challenges for you to try:
 
 #. Try to create an individual application.
 
+#. Create users and groups, and assign an application to the new users/groups.
+
 
 What Next?
 ================================================================================
@@ -182,6 +184,8 @@ This is only the first step on the road to using Mapbender. There is a lot more 
 
 * Mapbender Website https://mapbender.org/
 
-* You find tutorials at https://doc.mapbender.org
+* You can find tutorials at https://doc.mapbender.org
+
+* You can find an extended tutorial at https://doc.mapbender.org/en/quickstart.html
 
 * Get involved in the project https://www.mapbender.org/Community
