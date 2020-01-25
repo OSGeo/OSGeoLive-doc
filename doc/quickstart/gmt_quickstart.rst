@@ -1,7 +1,8 @@
 :Author: Hamish Bowman
 :Author: Massimo Di Stefano
 :Reviewer: Cameron Shorter
-:Version: osgeolive11.0
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
+:Version: osgeolive12.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2017 by The OSGeo Foundation
 
@@ -22,27 +23,14 @@ white, gray tone, hachure patterns, and 24-bit color.
 In this quick GMT tutorial we will use a digital terrain model (DTM) to generate a shaded relief map.
 
 .. contents:: Contents
+   :local:
 
-Source Information
-================================================================================
+Create a map
+============
 
+As our input dataset we will use a DTM from the GRASS GIS example dataset, which is accessible by GDAL using the GDAL-GRASS driver.
 
-* Local documentation can be found in: `/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_
-* Examples can be found in: `/usr/share/doc/gmt/examples <../../gmt/examples/>`_
-
-.. packages:
-  gmt-doc (and -pdf)
-  gmt-coast-low
-  gmt-examples
-  gmt-tutorial (and -pdf)
-
-
-Quick tutorial
-================================================================================
-
-As input dataset we will use a DTM from the GRASS GIS example dataset which is accessible by GDAL using the GDAL-GRASS driver.
-
-From a quick look at the DTM metadata use the GDAL command `gdalinfo`:
+From a quick look at the DTM metadata, open a terminal and use the GDAL command `gdalinfo`:
 
 ::
 
@@ -68,6 +56,8 @@ For our GMT example we will first transform the dataset into geographic coordina
 
   gdalwarp elevation.gmt geo_elevation.gmt -t_srs EPSG:4326
 
+Make a color palette
+====================
 
 To assign a color map to our grid we can make a GMT color palette tables
 with the `makecpt` command. We will set the range and number of colors with the flag `-T`
@@ -78,6 +68,9 @@ and assign a colormap with the flag `-C`.
   gmt makecpt -Chaxby -T50/160/10 -Z > elevation.cpt
 
 You can experiment with other colortables, see `man gmt makecpt` for a complete list.
+
+Define the gradient
+===================
 
 For our shaded relief example we need to specify show how the color intensity is distributed along the grid.
 To do so, we will compute the directional derivative, or gradient, from our grid using the `grdgradient` command.
@@ -93,6 +86,8 @@ The output is a netCDF file which can then be used as color intensity by the `gr
 
   gmt grdimage geo_elevation.gmt -Igradient.nc -JM6i -P -Ba -Celevation.cpt -K > GMT_tut_OSGeoLive.ps
 
+Display the color bar
+=====================
 
 Finally we can add a colorbar with `psscale`:
 
@@ -112,10 +107,18 @@ The output ps document should look like:
   :align: center
 
 
-What Next?
-================================================================================
+Things to try
+=============
 
-To explore the GMT potential we suggest going through the GMT tutorial and follow the several examples available in the src code.
+Look at some of the examples found in: `/usr/share/doc/gmt/examples <../../gmt/examples/>`_
+
+.. packages:
+  gmt-doc (and -pdf)
+  gmt-coast-low
+  gmt-examples
+  gmt-tutorial (and -pdf)
+  
+Go through the GMT tutorial and follow the several examples available in the src code.
 There are 30 example jobs built in, to test:
 
 Open a terminal, then
@@ -126,17 +129,20 @@ Open a terminal, then
   cd gmt-examples/ex20
   ./example_20.sh
 
-`[whiz .. bang .. whirl]`
+To view the results in Ghostview (http://www.gnu.org/software/gv/) , use command `gv`. Type `q` to quit Ghostview. 
 
-View results: (within :command:`gv` [#gv]_, type :kbd:`q` to quit)
-
-.. Cameron Review Comment:
-  Is gv installed on OSGeoLive? If not, then it should either be installed, or not
-  mentioned.
 
 ::
 
   gv example_20.ps
 
-.. Rubric:: Footnotes
-.. [#gv] Ghostview  http://www.gnu.org/software/gv/
+
+What next?
+==========
+
+* Have a read of the local documentation stored in: `/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_
+
+* Website: https://gmt.soest.hawaii.edu
+
+* Support: https://gmt.soest.hawaii.edu/projects/gmt/boards/1
+
