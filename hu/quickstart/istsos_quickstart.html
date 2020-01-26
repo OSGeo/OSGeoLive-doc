@@ -1,0 +1,295 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="hu">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>istSOS gyorstalpaló &#8212; OSGeoLive 13.0 Documentation</title>
+    <link rel="stylesheet" href="../../_static/overview.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '13.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Tárgymutató" href="../genindex.html" />
+    <link rel="search" title="Keresés" href="../search.html" />
+    <link rel="copyright" title="Minden jog fenntartva" href="../copyright.html" />
+    <link rel="next" title="JOSM gyorstalpaló" href="josm_quickstart.html" />
+    <link rel="prev" title="OSGeoLive nemzetközivé tétel gyorstalpaló" href="internationalisation_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head>
+  <body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a>
+		</div>
+	</font>
+    </div>
+
+
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="http://istsos.org"><img alt="../../_images/logo_istsos.png" class="align-right" src="../../_images/logo_istsos.png" /></a>
+<a class="reference external image-reference" href="target:http://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
+<div class="section" id="istsos-quickstart">
+<h1>istSOS gyorstalpaló<a class="headerlink" href="#istsos-quickstart" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
+<p>Az istSOS egy OGC <a class="reference external" href="http://www.opengeospatial.org/standards/sos">SOS</a> szerver implementáció, melyet <a class="reference external" href="https://www.python.org/">Pythonban</a> írnak. Az istSOS lehetővé teszi az észlelések továbbítását a szenzortól a Sensor Observation Service szabványnak megfelelően.</p>
+<p>A projekt egy grafikus felhasználói felületet is  biztosít, hogy megkönnyítse a napi műveleteket és egy RESTFul API-t az adminisztrációs eljárások automatizálására.</p>
+<p>Az istSOS-t a GPLv2 licenc alatt bocsájtják ki és minden elterjedtebb platformon fut (Windows, Linux, Mac OS X), annak ellenére, hogy csak Linux környezetben használják élesben.</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#create-postgis-database" id="id1">PostGIS adatbázis létrehozása</a></li>
+<li><a class="reference internal" href="#set-up-an-istsos-service-instance" id="id2">Set up an istSOS service instance</a></li>
+<li><a class="reference internal" href="#create-a-new-service" id="id3">Új szerviz létrehozása</a></li>
+<li><a class="reference internal" href="#add-a-new-procedure" id="id4">Új eljárás hozzáadása</a></li>
+<li><a class="reference internal" href="#add-new-observations" id="id5">Új észlelések hozzáadása</a></li>
+<li><a class="reference internal" href="#what-next" id="id6">What next?</a></li>
+</ul>
+</div>
+<div class="section" id="create-postgis-database">
+<h2><a class="toc-backref" href="#id1">PostGIS adatbázis létrehozása</a><a class="headerlink" href="#create-postgis-database" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<p>Nyisson egy terminált és hajtsa végre a következő parancsokat:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="o">-</span><span class="n">u</span> <span class="n">postgres</span> <span class="n">createdb</span> <span class="o">-</span><span class="n">E</span> <span class="n">UTF8</span> <span class="n">istsos</span>
+<span class="n">sudo</span> <span class="o">-</span><span class="n">u</span> <span class="n">postgres</span> <span class="n">psql</span> <span class="o">-</span><span class="n">d</span> <span class="n">istsos</span> <span class="o">-</span><span class="n">c</span> <span class="s1">&#39;CREATE EXTENSION postgis&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="set-up-an-istsos-service-instance">
+<h2><a class="toc-backref" href="#id2">Set up an istSOS service instance</a><a class="headerlink" href="#set-up-an-istsos-service-instance" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<p>Az istSOS a szenzorok adatait különböző adatbázis példányokba rendezheti. Minden példány a többi példánytól független saját adatbázis-sémával rendelkezik. Az igényeinek megfelelően a hálózaton keresztül más adatbázisokat telepíthet.</p>
+<p>Az első lépés az istSOS beállításában az alapértelmezett beállítások konfigurálása.  Ezeket a beállításokat használjuk a kényelme érdekében minden új istSOS példány létrehozásánál.</p>
+<ol class="arabic">
+<li><p class="first">Click <span class="menuselection">Geospatial ‣ Webservices ‣ istSOS</span> to open the Web Admin interface. Alternatively, open a browser and go to <a class="reference external" href="http://localhost/istsos/admin">http://localhost/istsos/admin</a></p>
+</li>
+<li><p class="first">Click the <span class="guilabel">Enter</span> button in the administration page.</p>
+</li>
+<li><p class="first">Configure your database connection. From the toolbar buttons menu, press the „Database” button and fill in the database configuration options:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">user</span><span class="p">:</span> <span class="n">postgres</span>
+<span class="n">password</span><span class="p">:</span> <span class="n">postgres</span>
+<span class="n">host</span><span class="p">:</span> <span class="n">localhost</span>
+<span class="n">port</span><span class="p">:</span> <span class="mi">5432</span>
+<span class="n">DB</span> <span class="n">name</span><span class="p">:</span> <span class="n">istsos</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Nyomja meg a „Service provider” gombot és töltse ki a szervezeti adatait.</p>
+</li>
+<li><p class="first">Nyomja meg a „Service identification” gombot és töltse ki egyedi metaadatokkal a szolgáltatás használatának leírásához.</p>
+</li>
+<li><p class="first">Nyomja meg a „Coordinates system” gombot a koordináta referencia rendszer (CRS) kezeléséhez.</p>
+<ul class="simple">
+<li><em>Default EPSG code</em>: ez lesz az adatbázisban tárolt geometriák koordináta referencia rendszere.</li>
+<li><em>Permitted EPSG</em>: itt konfigurálhatja melyik másik koordináta-rendszerbe átvetítést fogja támogatni  a rendszere, ha szükséges.</li>
+</ul>
+</li>
+</ol>
+<p>#. From the toolbar buttons menu, press the „GetObservation Configuration” button to
+set maximum time interval per getObservation request (zero for no limits) and aggregation no-data value.</p>
+<ol class="arabic simple">
+<li>Configure your service proxy address. The Proxy URL field is the base URL seen beyond a reverse proxy.</li>
+</ol>
+</div>
+<div class="section" id="create-a-new-service">
+<h2><a class="toc-backref" href="#id3">Új szerviz létrehozása</a><a class="headerlink" href="#create-a-new-service" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<p>Most, hogy konfigurálta az istSOS-t, itt az ideje egy új szolgáltatás példány létrehozásának.</p>
+<ol class="arabic simple">
+<li>From the toolbar buttons menu press the „new service” button and click <span class="guilabel">Next</span>.</li>
+<li>Type <strong>demo</strong> for the Service name.</li>
+<li>In the EPSG field you can set the database native projection. Leave it empty to use the default. Click <span class="guilabel">Next</span>.</li>
+<li>Kattintson a „Customize database” dobozra, megváltoztathatja ennek az új istSOS példánynak az alapértelmezett adatbázis konfigurációját.</li>
+<li>Press <span class="guilabel">Next</span>. The server status panel is displayed. If something’s gone wrong during the creation you will see an alert here.</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Megjegyzés</p>
+<p class="last">Az istSOS „demo” példány minden konfigurációs beállítását az alapértelmezett konfigurációból örökli. Ha bármilyen okból a módosításukról dönt, a változtatások csak ezt a példányt fogják érinteni.</p>
+</div>
+</div>
+<div class="section" id="add-a-new-procedure">
+<h2><a class="toc-backref" href="#id4">Új eljárás hozzáadása</a><a class="headerlink" href="#add-a-new-procedure" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<ol class="arabic simple">
+<li>Az adminisztrációs interfész (<a class="reference external" href="http://localhost/istsos/admin">http://localhost/istsos/admin</a> ) lenyitható „service” gombjából válassza ki a kívánt példányt.</li>
+<li>From the toolbar buttons menu press the <span class="guilabel">New procedure</span> button.</li>
+<li>Töltse ki az űrlapot megfelelő információkkal.</li>
+</ol>
+<div class="admonition warning">
+<p class="first admonition-title">Figyelem</p>
+<p class="last">Egy eljárás létrehozása után az output (észlelt tulajdonságok) nem változtatható meg.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Megjegyzés</p>
+<p class="last"><em>Optional parameters:</em> töltse ki szükségletei és szándékai szerint</p>
+</div>
+<p class="rubric"><em>Példa</em> (minimális konfiguráció)</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Name: T_LUGANO</td>
+</tr>
+<tr class="row-even"><td>Description: temperature weather station in Lugano</td>
+</tr>
+<tr class="row-odd"><td>Keywords: weather, meteorological, IST</td>
+</tr>
+<tr class="row-even"><td>System type: insitu-fixed-point</td>
+</tr>
+<tr class="row-odd"><td>Sensor type: PTC thermistors of the „switching” type</td>
+</tr>
+<tr class="row-even"><td>FOI name: LUGANO</td>
+</tr>
+<tr class="row-odd"><td>EPSG: 4326</td>
+</tr>
+<tr class="row-even"><td>Coordinates: x: 8.96127 y: 46.02723 z: 344.1</td>
+</tr>
+</tbody>
+</table>
+<p><em>Output (erősítse meg az outputot az „add” gomb megnyomásával).</em></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Observed property: <a class="reference external" href="urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature">urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature</a></td>
+</tr>
+<tr class="row-even"><td>Unit of measure: °C</td>
+</tr>
+<tr class="row-odd"><td>Description (optional): conversion from resistance to temperature</td>
+</tr>
+<tr class="row-even"><td>quality index check (optional): Between / from -40 to +60</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Megjegyzés</p>
+<p class="last">Regisztrálja az új szenzort (eljárást) a „submit” gomb megnyomásával.</p>
+</div>
+</div>
+<div class="section" id="add-new-observations">
+<h2><a class="toc-backref" href="#id5">Új észlelések hozzáadása</a><a class="headerlink" href="#add-new-observations" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<p>Először létrehozunk egy szövegfájlt a szenzor adatokkal, a „text/csv, subtype=istSOS” formátumnak megfelelően. A fájl a vesszővel elválasztott értékek (CSV) formátumot használja. Az első sor tartalmazza fejléc információt, beleértve a megfigyelt tulajdonságok URI neveit. A következő sorok tartalmazzák az adatokat.</p>
+<ol class="arabic">
+<li><p class="first">Nyisson meg egy szövegszerkesztőt <span class="menuselection">Accessories ‣ Leafpad</span>.</p>
+</li>
+<li><p class="first">Copy and paste the follOwing text into the text editor window:</p>
+<blockquote>
+<div><div class="highlight-rest"><div class="highlight"><pre><span></span>urn:ogc:def:parameter:x-istsos:1.0:time:iso8601,urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature
+2014-06-03T14:30:00.00Z,22.20
+2014-06-03T14:40:00.00Z,22.00
+2014-06-03T14:50:00.00Z,21.70
+2014-06-03T15:00:00.00Z,21.20
+2014-06-03T15:10:00.00Z,20.70
+2014-06-03T15:20:00.00Z,20.20
+2014-06-03T15:30:00.00Z,19.60
+2014-06-03T15:40:00.00Z,19.20
+2014-06-03T15:50:00.00Z,18.20
+2014-06-03T16:00:00.00Z,18.00
+2014-06-03T16:10:00.00Z,17.20
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">Mentse el „T_LUGANO_20140603161000000.dat”  fájlként az asztalra. A használt fájlnév konvenció: PROCEDURENAME_YYYYMMDDhhmmssfff.dat</p>
+</li>
+<li><p class="first">Nyisson egy terminált  <span class="menuselection">Accessories ‣ LXTerminal</span>.</p>
+</li>
+<li><p class="first">In the terminal, enter: „cd /usr/share/istsos/” and press ENTER.</p>
+</li>
+<li><p class="first">Gépelje be „python scripts/csv2istsos.py -p T_LUGANO -u <a class="reference external" href="http://localhost/istsos">http://localhost/istsos</a> -s demo -w ~/Desktop” és nyomja meg az ENTER-t</p>
+</li>
+<li><p class="first">A következő üzentet kell látnia „Insert observation success: True”</p>
+</li>
+<li><p class="first">Kattintson ide <span class="menuselection">Geospatial ‣ Webservices ‣ istSOS</span>.</p>
+</li>
+<li><p class="first">Click the <span class="guilabel">Enter</span> button in the administration page</p>
+</li>
+<li><p class="first">Kattintson a <span class="menuselection">Data Management ‣ Data Viewer</span> menüre.</p>
+</li>
+<li><dl class="first docutils">
+<dt>Válassza a következőket:</dt>
+<dd><ul class="first last simple">
+<li>Service = demo</li>
+<li>Offering = temporary</li>
+<li>Procedure T_LUGANO</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Click the <span class="guilabel">Add</span> button</p>
+</li>
+<li><p class="first">Click the <span class="guilabel">Plot</span> button and check that the data have been added (watch out at your time zone!)</p>
+</li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/istsos_viewer.png"><img alt="../../_images/istsos_viewer.png" src="../../_images/istsos_viewer.png" style="width: 512.0px; height: 384.0px;" /></a>
+</div>
+<div class="section" id="what-next">
+<h2><a class="toc-backref" href="#id6">What next?</a><a class="headerlink" href="#what-next" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<p>To learn more about istSOS, a starting point is the <a class="reference external" href="http://istsos.org/en/trunk/doc/index.html">istSOS Documentation</a> and the <a class="reference external" href="http://istsos.org/tutorial/">istSOS Tutorial</a>.</p>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

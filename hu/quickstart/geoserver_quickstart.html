@@ -1,0 +1,277 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="hu">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>GeoServer gyorstalpaló &#8212; OSGeoLive 13.0 Documentation</title>
+    <link rel="stylesheet" href="../../_static/overview.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '13.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Tárgymutató" href="../genindex.html" />
+    <link rel="search" title="Keresés" href="../search.html" />
+    <link rel="copyright" title="Minden jog fenntartva" href="../copyright.html" />
+    <link rel="next" title="GMT gyorstalpaló" href="gmt_quickstart.html" />
+    <link rel="prev" title="GeoNode gyorstalpaló" href="geonode_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head>
+  <body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a>
+		</div>
+	</font>
+    </div>
+
+
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="http://geoserver.org/"><img alt="../../_images/logo_geoserver.png" class="align-right" src="../../_images/logo_geoserver.png" /></a>
+<a class="reference external image-reference" href="target:http://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<div class="section" id="geoserver-quickstart">
+<h1><a class="toc-backref" href="#id1">GeoServer gyorstalpaló</a><a class="headerlink" href="#geoserver-quickstart" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
+<p>A GeoServer egy java alkalmazás térképek (és adatok) szolgáltatásához más kliensek felé a megjelenítéshez.</p>
+<p>Ez a gyorstalpaló leírja:</p>
+<blockquote>
+<div><ul class="simple">
+<li>vektor és raszter adatforrások hozzáadása a GeoServerhez</li>
+<li>színek hozzárendelése a térképelemekhez a stílus beállítás használatával</li>
+<li>rétegek ellenőrzése egy egyszerű web térképen</li>
+<li>kliensek, melyek megjeleníthetik a térképeit</li>
+<li>rétegek hozzáadása NetCDF fájlból</li>
+</ul>
+</div></blockquote>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#geoserver-quickstart" id="id1">GeoServer gyorstalpaló</a><ul>
+<li><a class="reference internal" href="#start-gs" id="id2">GeoServer indítása</a></li>
+<li><a class="reference internal" href="#first-views" id="id3">Első lépések</a></li>
+<li><a class="reference internal" href="#loading-data" id="id4">Adatok betöltése</a><ul>
+<li><a class="reference internal" href="#styling" id="id5">Stílusok</a><ul>
+<li><a class="reference internal" href="#using-ug-to-create-simple-styles" id="id6">uDig használata egyszerű stílusok létrehozására</a></li>
+<li><a class="reference internal" href="#adding-the-style-to-gs" id="id7">Stílus hozzáadása a GeoServer-hez</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#adding-the-style-to-the-layer" id="id8">Stílus hozzáadása egy réteghez</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#clients-for-wms-layers" id="id9">Kliensek WMS rétegekhez</a></li>
+<li><a class="reference internal" href="#netcdf" id="id10">NetCDF</a><ul>
+<li><a class="reference internal" href="#configure-a-netcdf-store" id="id11">NetCDF tároló konfigurálása</a></li>
+<li><a class="reference internal" href="#preview-the-netcdf-layer" id="id12">NetCDF réteg előnézete</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#what-next" id="id13">Mi a következő?</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="start-gs">
+<h2><a class="toc-backref" href="#id2">GeoServer indítása</a><a class="headerlink" href="#start-gs" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<ol class="arabic simple">
+<li>Válassza ki a menüből <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span>.</li>
+<li>Az alkalmazás néhány pillanat múlva elindul és megnyitja a <a class="reference external" href="http://localhost:8082/geoserver/web">http://localhost:8082/geoserver/web</a> web lapot.</li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/geoserver-login.png"><img alt="../../_images/geoserver-login.png" src="../../_images/geoserver-login.png" style="width: 562.0999999999999px; height: 289.79999999999995px;" /></a>
+</div>
+<div class="section" id="first-views">
+<h2><a class="toc-backref" href="#id3">Első lépések</a><a class="headerlink" href="#first-views" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<p>Amikor először megnyitja a GeoServer oldalt a fenti képernyőt látja, először be kell jelentkeznie az <strong>admin</strong> felhasználónévvel és <strong>geoserver</strong> jelszóval. Az <em>admin oldalt</em> fogja látni.</p>
+<a class="reference internal image-reference" href="../../_images/geoserver-welcome.png"><img alt="../../_images/geoserver-welcome.png" src="../../_images/geoserver-welcome.png" style="width: 556.5px; height: 350.0px;" /></a>
+<p>Válassza ki a <strong>Layer Preview</strong> linket a baloldali menüből a <em>Data</em>  rész tetején, hogy a szerver által betöltött rétegek előnézetét lássuk.</p>
+<a class="reference internal image-reference" href="../../_images/geoserver-layerpreview.png"><img alt="../../_images/geoserver-layerpreview.png" src="../../_images/geoserver-layerpreview.png" style="width: 784.6999999999999px; height: 458.49999999999994px;" /></a>
+<p>Görgessen az oldal aljára és kattintson az <strong>OpenLayers</strong> linkre a <strong>tiger-ny</strong> sorban, ez egy új ablakot nyit meg a mintaadatok előnézetével.</p>
+<a class="reference internal image-reference" href="../../_images/geoserver-preview.png"><img alt="../../_images/geoserver-preview.png" src="../../_images/geoserver-preview.png" style="width: 260.4px; height: 398.29999999999995px;" /></a>
+<p>Háromféleképpen nagyíthat a térképre:</p>
+<blockquote>
+<div><ul class="simple">
+<li>a baloldali nagyítás oszlopra kattintva, minélmagasabbra kattint annál nagyobb nagyítást lát.</li>
+<li>Az egérgörgő használatával (ha rendelkezik ilyennel), a felfelé görgetés nagyít és a lefelé görgetés kicsinyít.</li>
+<li>egy téglalapot húzva a térképen miközben a <code class="kbd docutils literal"><span class="pre">shift</span> <span class="pre">billentyűt</span></code> nyomva tartjuk - ez a kiválasztott téglalapra nagyít (amennyire ez beleillik a képernyőbe).</li>
+</ul>
+</div></blockquote>
+<p>Kísérletezzen ezzel a nézettel, és tekintse meg néhányat a többi előnézetből.  Miután megismerkedett a meglévő adatok megjelenítésével, tovább léphet új adatok hozzáadására.</p>
+</div>
+<div class="section" id="loading-data">
+<h2><a class="toc-backref" href="#id4">Adatok betöltése</a><a class="headerlink" href="#loading-data" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Megjegyzés</p>
+<p class="last">A következő lépéseket nem tudja végrehajtani, ha <strong>csak olvasható</strong> fájlrendszert használ (mint például a DVD). Vagy egy virtuális gépet kell futtatnia vagy egy pendrive-ról vagy telepítse az OSGeoLive-ot (vagy csak a GeoServert) háttértárolójára.</p>
+</div>
+<p>Ebben a példában a  <a class="reference internal" href="../overview/naturalearth_overview.html"><span class="doc">Natural Earth adatokat</span></a>  használjuk, melyeket tartalmaz az OSGeoLive (<code class="file docutils literal"><span class="pre">/usr/local/share/data/natural_earth2/</span></code>).</p>
+<p>Az adatainkhoz egy tárat (Store) kell létrehoznunk. A GeoServer admin oldaláról menjen a <span class="guilabel">Stores</span>-re és kattintson az <span class="guilabel">Add new Store</span>-ra. Ezt az oldalt látja:</p>
+<a class="reference internal image-reference" href="../../_images/geoserver-newstore.png"><img alt="The New Store page" class="align-center" src="../../_images/geoserver-newstore.png" style="width: 793.8px; height: 457.09999999999997px;" /></a>
+<p>Válassza a <span class="guilabel">Directory of spatial files</span>-t, a következőt látja ezután:</p>
+<a class="reference internal image-reference" href="../../_images/geoserver-new-vector.png"><img alt="Filling in the New Store page" class="align-center" src="../../_images/geoserver-new-vector.png" style="width: 805.6999999999999px; height: 457.09999999999997px;" /></a>
+<p>Írja be a Data Store nevét - a <em>Natural Earth</em> nevet használtam és töltse ki az adatok URL-jét - ebben az esetben <code class="file docutils literal"><span class="pre">/usr/local/share/data/natural_earth2/</span></code>. Használhatja a tallóz gombot a könyvtár megtalálására, ha az adatai máshol vannak. Nyomja meg <span class="guilabel">save</span> gombot.</p>
+<a class="reference internal image-reference" href="../../_images/geoserver-naturalearth.png"><img alt="The Natural Earth Datastore" class="align-center" src="../../_images/geoserver-naturalearth.png" style="width: 536.1999999999999px; height: 303.79999999999995px;" /></a>
+<p>Nyomja meg a <span class="guilabel">publish</span>-t a rétegek közül az egyik mellett az adatok hozzáadásának befejezéséhez. Ez a <em>Layers</em> oldalra viszi önt:</p>
+<a class="reference internal image-reference" href="../../_images/geoserver-publish.png"><img alt="The layer publishing page" class="align-center" src="../../_images/geoserver-publish.png" style="width: 532.6999999999999px; height: 1051.3999999999999px;" /></a>
+<p>Ahogy lefelé görgeti az oldalt láthatja, hogy a GeoServer sokat kitöltött a mezők közül. Amikor elér a <span class="guilabel">Coordinate Reference System</span>-hez észreveheti, hogy a <em>Native SRS</em> alatt UNKNOWN szerepel, ki kell töltenie a következő mezőt (<em>declared SRS</em>) annak érdekében, hogy a GeoServer&nbsp; tudja hová esnek az adatok. Egyelőre bízzon meg bennem és írja be a mezőbe epsg:4326, ha nem bízik bennem, akkor menjen a <a class="reference external" href="http://prj2epsg.org/search">http://prj2epsg.org/search</a> oldalra és másolja be az a szöveget amit az „UNKNOWN” melletti linkre kattintva lát.  Majd kattintson a <span class="guilabel">Compute from data</span>-ra és a <span class="guilabel">Compute from native bounds</span>-ra a befoglaló téglalap kitöltéséhez. Végül kattintson <span class="guilabel">save</span>-re, ezzel az első rétegét publikálta.</p>
+<div class="admonition note">
+<p class="first admonition-title">Megjegyzés</p>
+<p class="last">Ne aggódjon, ha a réteg előnézet nem néz ki nagyon jól mivel az alapértelmezett stílust használja.A következő fejezetben megnézzük szebb stílusok létrehozását.</p>
+</div>
+<p>Ugyanezeket a lépéseket követheti más rétegekkel a könyvtárban a guilabel:<cite>Add a new resource</cite> gombbal a rétegek oldalon. Csak válassza a natural earth tárat a gördülő téglalapból, hogy visszatérjen a tárak oldalára.</p>
+<div class="section" id="styling">
+<h3><a class="toc-backref" href="#id5">Stílusok</a><a class="headerlink" href="#styling" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
+<p>Egy adatállomány stílusának beállítására a  GeoServer a <a class="reference external" href="http://www.opengeospatial.org/standards/sld">Styled Layer Descriptors (SLD)</a> OGC szabványt használja. Ezek XML fájlként jelennek meg, melyek az adatokra alkalmazott stílusok beállítására használnak.</p>
+<p>Indulásként a Land and Ocean adatállomány stílusát állítsuk be. Egy egyszerű szövegszerkesztővel létrehozhatja az SLD fájlt, de időnként egy grafikus szerkesztő jobb. Sok lehetőség van, de én a uDig-t szeretem használni, mivel ez lehetővé teszi számomra a shape fájl közvetlen megnyitását és egy GUI felhasználásával egyszerű stílusok alkalmazását, de emellett egy egyszerű szerkesztőt is biztosít az XML módosítására, ha szükségem van rá.</p>
+<div class="section" id="using-ug-to-create-simple-styles">
+<h4><a class="toc-backref" href="#id6">uDig használata egyszerű stílusok létrehozására</a><a class="headerlink" href="#using-ug-to-create-simple-styles" title="Hivatkozás erre a fejezetcímre">¶</a></h4>
+<div class="admonition note">
+<p class="first admonition-title">Megjegyzés</p>
+<p class="last">Az uDig használatáról további részleteket a  <a class="reference internal" href="udig_quickstart.html"><span class="doc">uDig gyorstalpalóban</span></a> találhat.</p>
+</div>
+<p>Miután megnyitottam az uDig-t és hozzáadtam a shape fájlokat (az adat hozzáadás gombbal a bal felső sarokban). Az ne_10m_land és ne_10m_ocean táblákat behúztam a térkép ablakba. Az  uDig automatikusan egy stílust alkalmaz (így láthatja at adatokat).</p>
+<a class="reference internal image-reference" href="../../_images/geoserver-udig_startup.png"><img alt="Default Styling in uDig" class="align-center" src="../../_images/geoserver-udig_startup.png" style="width: 773.5px; height: 357.7px;" /></a>
+<p>Nyilván egy narancssárga óceán nem fog működni (akkor sem, ha együtt tudok élni a zöld földdel). Így a <a class="reference internal" href="#layer-list"><span class="std std-ref">Layer list</span></a> -ben válassza a stílus gombot (ez úgy néz ki mint egy festő paletta).</p>
+<a class="reference internal image-reference" href="../../_images/geoserver-layer-chooser.png" id="layer-list"><img alt="The Layer list window" class="align-center" id="layer-list" src="../../_images/geoserver-layer-chooser.png" style="width: 177.79999999999998px; height: 167.29999999999998px;" /></a>
+<p>Ez megnyitja a  <a class="reference internal" href="#style-pane"><span class="std std-ref">Style Pane-t</span></a> - ugyanabban az ablakban, egyszerűen kiválaszthatok egy szép kéket az óceánokhoz, a kitöltés fülön a színes négyzetre kattintva és szín kiválasztóból válassza ki a színt. Az átlátszatlanságot 100%-ra növeltem, hogy jobban nézzen ki a szín. Ugyanazt a kéket választottam a körvonal színére.</p>
+<a class="reference internal image-reference" href="../../_images/geoserver-style-pane.png" id="style-pane"><img alt="The Style Pane" class="align-center" id="style-pane" src="../../_images/geoserver-style-pane.png" style="width: 680.4px; height: 501.9px;" /></a>
+<p>Miután elkészültem az „OK”-r kattintottam és az uDig megjelenítette a módosításokat.</p>
+<a class="reference internal image-reference" href="../../_images/geoserver-blue-ocean.png"><img alt="Blue Oceans" class="align-center" src="../../_images/geoserver-blue-ocean.png" style="width: 770.6999999999999px; height: 394.79999999999995px;" /></a>
+<p>Végül a zöldnél kevésbé sugárzó szárazföld színt preferálnék, így a fenti lépéseket megismételtem a szárazföld réteg színének megváltoztatására. Az alapértelmezett színek közül egyik sem tűnt jónak nekem, ezért a <code class="docutils literal"><span class="pre">define</span> <span class="pre">custom</span> <span class="pre">colors</span></code> részre mentem és létrehoztam egy nekem tetszőt.</p>
+<a class="reference internal image-reference" href="../../_images/geoserver-custom-colour.png"><img alt="Defining a nicer land color" class="align-center" src="../../_images/geoserver-custom-colour.png" style="width: 359.09999999999997px; height: 208.6px;" /></a>
+<p>Ez egy szépen kinéző alap világtérképet eredményezett</p>
+<a class="reference internal image-reference" href="../../_images/geoserver-basic-world.png"><img alt="A basic word map" class="align-center" src="../../_images/geoserver-basic-world.png" style="width: 743.4px; height: 375.2px;" /></a>
+</div>
+<div class="section" id="adding-the-style-to-gs">
+<h4><a class="toc-backref" href="#id7">Stílus hozzáadása a GeoServer-hez</a><a class="headerlink" href="#adding-the-style-to-gs" title="Hivatkozás erre a fejezetcímre">¶</a></h4>
+<p>Most ezeket a stílusokat át kell vinnünk a GeoServer-be - a stílus ablakban van egy export gomb, ez lehetővé teszi stílusomat definiáló SLD fájlt mentsek. miután elmentettem a két stílust a GeoServer admin ablakhoz mehetek ismét és a <code class="docutils literal"><span class="pre">Styles</span></code>-t (az adatok részen alul) választhatom. Majd az <cite>Add New Style`</cite> linket választom az oldal alján, ami egy fájl feltöltő ablak és egy tallóz gomb. Erre kattintva lehetőségem van a háttértárolón kikeresni az éppen mentett fájlokat. Miután megtaláltam az egyiket, az upload linkre kattintok  (a tallóz gomb mellett) és a fájlom egy másolata megjelenik a szerkesztőben. Ha a validáló gombra kattint a kiemelt sorok egy hibát jeleznek, de nyugodtan figyelmen kívül hagyhatja a hibát (vagy törölje azokat a sorokat  mivel semmit sem csinálnak). Amikor elkészült nyomja meg a <span class="guilabel">Submit</span> gombot a oldal alján.</p>
+<a class="reference internal image-reference" href="../../_images/geoserver-add-style.png"><img alt="Adding a Style to GeoServer" class="align-center" src="../../_images/geoserver-add-style.png" style="width: 765.0999999999999px; height: 455.7px;" /></a>
+</div>
+</div>
+<div class="section" id="adding-the-style-to-the-layer">
+<h3><a class="toc-backref" href="#id8">Stílus hozzáadása egy réteghez</a><a class="headerlink" href="#adding-the-style-to-the-layer" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
+<p>Kattintson a <span class="guilabel">Layers</span> linkre a GeoServer ablakbal oldalán a menüben. Kattintson a rétegre (például <em>ne_10m_land</em>), majd válassza a <span class="guilabel">Publishing</span>&nbsp; fület és módosítsa a <span class="guilabel">Default Style</span>&nbsp; téglalapot, hogy az előző részben feltöltött stílus névét tartalmazza. Most kattintson a <span class="guilabel">Save</span>-re és menjen a Layer Preview oldalra, hogy ellenőrizze jól néz-e ki.</p>
+<div class="admonition note">
+<p class="first admonition-title">Megjegyzés</p>
+<p class="last">Minta stílus fájlok vannak az összes Natural Earth példa rétegre itt <code class="file docutils literal"><span class="pre">/usr/local/share/geoserver</span></code>.</p>
+</div>
+</div>
+</div>
+<div class="section" id="clients-for-wms-layers">
+<h2><a class="toc-backref" href="#id9">Kliensek WMS rétegekhez</a><a class="headerlink" href="#clients-for-wms-layers" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<p>Számos kliens létezik a  GeoServer-ből szolgáltatott <a class="reference external" href="http://www.opengeospatial.org/standards/wms">WMS</a> rétegek fogadására. Ez a lista néhány ezek közül</p>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference internal" href="../overview/udig_overview.html"><span class="doc">uDig</span></a></li>
+<li><a class="reference internal" href="../overview/openlayers_overview.html"><span class="doc">OpenLayers</span></a></li>
+<li><a class="reference internal" href="../overview/mapbender_overview.html"><span class="doc">MapBender</span></a></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="netcdf">
+<h2><a class="toc-backref" href="#id10">NetCDF</a><a class="headerlink" href="#netcdf" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<p>A GeoServer NetCDF modul lehetővé teszi raszterek publikálását NetCDF fájlokból.</p>
+<div class="section" id="configure-a-netcdf-store">
+<h3><a class="toc-backref" href="#id11">NetCDF tároló konfigurálása</a><a class="headerlink" href="#configure-a-netcdf-store" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
+<p>A „Start GeoServer” futtatása után, jelentkezzen be mint adminisztrátor, kattintson az „Add stores”-re majd a „NetCDF”-re. Adjon meg egy nevet a Data Source Name-re (ez a példa „netcdf”-et használ) és a NetCDF URL-t. Ezt a példa fájl használhatja:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">file</span><span class="p">:</span><span class="o">///</span><span class="n">usr</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">share</span><span class="o">/</span><span class="n">data</span><span class="o">/</span><span class="n">netcdf</span><span class="o">/</span><span class="n">polyphemus_20120401</span><span class="o">.</span><span class="n">nc</span>
+</pre></div>
+</div>
+<p>Nyomja meg a Save”, „Publish”-t az „O3” rétegre, majd görgessen le a „Data” tab aljára és nyomja meg a „Save”-t ismét.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/geoserver-netcdf-store.png"><img alt="Adding a NetCDF store" class="align-center" src="../../_images/geoserver-netcdf-store.png" style="width: 680.0px; height: 473.0px;" /></a>
+</div></blockquote>
+</div>
+<div class="section" id="preview-the-netcdf-layer">
+<h3><a class="toc-backref" href="#id12">NetCDF réteg előnézete</a><a class="headerlink" href="#preview-the-netcdf-layer" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
+<p>Válassza a bal oldali menüből a „Layer Preview”-t, görgessen le a „cite:O3” elemre és kattintson az „OpenLayers” linkre, hogy a réteg előnézetét megjelenítse. A pontokra kattintás az ózon koncentráció megjelenítését eredményezi a táblázatban a térkép alján.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/geoserver-netcdf-preview.png"><img alt="OpenLayers preview of a NetCDF layer" class="align-center" src="../../_images/geoserver-netcdf-preview.png" style="width: 781.0px; height: 564.0px;" /></a>
+</div></blockquote>
+<div class="admonition note">
+<p class="first admonition-title">Megjegyzés</p>
+<p class="last">Ezt a GeoServer példányt a <code class="docutils literal"><span class="pre">NETCDF_DATA_DIR</span></code> rendszer tulajdonsággal konfigurálták, hogy NetCDF fájlokat publikáljon csak olvasható könyvtárakból.</p>
+</div>
+</div>
+</div>
+<div class="section" id="what-next">
+<h2><a class="toc-backref" href="#id13">Mi a következő?</a><a class="headerlink" href="#what-next" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<p>Ezek csak az első lépések at úton a GeoServer használatához. Sokkal több funkcionalitása van, amit kipróbálhat.</p>
+<p>GeoServer projekt oldal</p>
+<blockquote>
+<div><a class="reference external" href="http://geoserver.org/">http://geoserver.org/</a></div></blockquote>
+<p>GeoServer felhasználói kézikönyv</p>
+<blockquote>
+<div><a class="reference external" href="http://docs.geoserver.org/latest/en/user/">http://docs.geoserver.org/latest/en/user/</a></div></blockquote>
+<p>GeoServer Oktatóanyagok</p>
+<blockquote>
+<div><a class="reference external" href="http://docs.geoserver.org/latest/en/user/tutorials/index.html">http://docs.geoserver.org/latest/en/user/tutorials/index.html</a></div></blockquote>
+<p>GeoServer stílus Workshop</p>
+<blockquote>
+<div><a class="reference external" href="http://docs.geoserver.org/latest/en/user/styling/workshop/index.html">http://docs.geoserver.org/latest/en/user/styling/workshop/index.html</a></div></blockquote>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>
