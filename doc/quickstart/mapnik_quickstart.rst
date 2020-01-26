@@ -60,6 +60,6 @@ What next?
 
 * Follow the tutorials to learn more about Mapnik: https://github.com/mapnik/mapnik/wiki/MapnikTutorials
 
-* Explore the included files on this DVD: file:///usr/local/share/mapnik/
+* Explore the included files on the latest OSGeoLive distribution, in this directory: file:///usr/local/share/mapnik/
 
 * Visit the Mapnik website: http://www.mapnik.org/
