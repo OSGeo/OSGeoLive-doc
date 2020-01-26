@@ -1,7 +1,8 @@
 :Author: Balasubramaniam Natarajan
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos, OSGeo
-:Version: osgeolive11.0
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
+:Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_cesium@
@@ -10,24 +11,29 @@
 ********************************************************************************
 @NAME_cesium@ Quickstart
 ********************************************************************************
-This document shows how to use the Cesium with the 3D (Globe), 2.5D (Columbus View) and 2D (map).
+Cesium is a JavaScript library for creating 3D globes and 2D maps in a web browser without any plugins. It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for time-dynamic data visualization.
 
-Starting Cesium
-================================================================================
+This guide shows how to use the Cesium with the 3D (Globe), 2.5D (Columbus View) and 2D (map).
+
+.. contents:: Contents
+   :local:
+
+Start Cesium 
+============
 
 Open the browser and point it to http://localhost/cesium/Apps/HelloWorld.html
 
-Searching for locations
-================================================================================
-You can click on the magnifying glass and type in the location you are looking for.  In the following display, we look for India.
+Search for a location
+=====================
+Click on the magnifying glass and type in the location you are looking for. In the following display, we look for India.
 
 .. image:: /images/projects/cesium/cesium_1_SearchingLocation.png
   :scale: 70 %
   :alt: Cesium Searching Location
 
-Switching between 3D, 2.5D and 2D
-================================================================================
-You can click on the wire framed globe icon to select your preferred view.  Here the 2.5D Columbus view has been selected.
+Switch between 3D, 2.5D and 2D
+==============================
+Click on the wire framed globe icon to select your preferred view.  Here the 2.5D Columbus view has been selected.
 
 .. image:: /images/projects/cesium/cesium_2_2253d.png
   :scale: 70 %
@@ -39,9 +45,9 @@ Now the 2D map is selected.
   :scale: 70 %
   :alt: Cesium 2D map
 
-Selecting the Image layer
-================================================================================
-We can click on the last icon and select the type of image service we want.  Here the Natural Earth II is selected and you can see how the map's image layer has changed.
+Select the Image layer
+======================
+Click on the last icon and select a type of image service.  Here the Natural Earth II is selected and you can see how the map's image layer has changed.
 
 .. image:: /images/projects/cesium/cesium_4_Layer.png
   :scale: 70 %
@@ -49,12 +55,14 @@ We can click on the last icon and select the type of image service we want.  Her
 
 .. TBD: There is room here for a couple more examples.
 
-What Next?
-================================================================================
-* There are `video tutorials <https://www.youtube.com/playlist?list=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V>`_.
+What next?
+==========
+* Watch our `video tutorials <https://www.youtube.com/playlist?list=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V>`_.
 
-* Web based tutorials are `here <http://cesiumjs.org/tutorials.html>`_.
+* Read our written `tutorials <http://cesium.com/docs>`_.
 
-* You can develop some quick applications using the Sandcastle website by following this `link <http://cesiumjs.org/Cesium/Apps/Sandcastle/index.html?src=Custom%20DataSource.html&label=Tutorials>`_.
+* You can develop some quick applications using the `Sandcastle website <https://sandcastle.cesium.com/index.html>`_. Sandcastle is generally one of the best ways to learn about Cesium, and all the code examples are useful for this purpose.
 
-* In-depth documentation is available `locally <http://localhost/cesium/>`_.
+* The `Cesium Forum <https://groups.google.com/forum/#!forum/cesium-dev>`_ is a great place to search for answers to common questions, and to raise questions that haven't been asked before.
+
+* In-depth documentation is available `locally <http://localhost/cesium/>`_ on the OSGeoLive package.
