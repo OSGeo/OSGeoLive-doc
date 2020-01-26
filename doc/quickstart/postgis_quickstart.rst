@@ -456,9 +456,13 @@ a choropleth map of the sudden infant death syndrome counts (sid74 or sid79 fiel
 Get to know pgAdmin III
 =======================
 
-You can use the graphical database client ``pgAdmin III`` from the Databases menu to query and modify your database non-spatially. This
-is the official client for PostgreSQL, and lets you use SQL to manipulate your data tables. You can find and launch pgAdmin III 
-from the Databases folder, existing on the OSGeo Live Desktop.
+You can use the graphical database client ``pgAdmin III`` from the Databases menu to query and modify your database non-spatially. This is the official client for PostgreSQL.
+
+.. tip:: 
+   Please note that there is a new version of pgAdmin called pgAdmin4 that can get installed via apt install pgadmin4
+
+pgAdmin III lets you use SQL to manipulate your data tables. You can find and launch pgAdmin III 
+from the Databases folder, existing on the OSGeoLive Desktop. 
 
 .. image:: /images/projects/postgis/postgis_pgadmin_main_window.png
   :scale: 50 %
