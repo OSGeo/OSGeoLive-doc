@@ -72,9 +72,8 @@
   <a class="reference external image-reference" href="http://geoserver.org/"><img alt="../../_images/logo_geoserver.png" class="align-right" src="../../_images/logo_geoserver.png" /></a>
 <a class="reference external image-reference" href="target:http://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <div class="section" id="geoserver-quickstart">
-<h1><a class="toc-backref" href="#id1">GeoServer Quickstart</a><a class="headerlink" href="#geoserver-quickstart" title="Lien permanent vers ce titre">¶</a></h1>
-<p>GeoServer is a java application for serving maps (and data) for other
-clients to draw.</p>
+<h1>GeoServer Quickstart<a class="headerlink" href="#geoserver-quickstart" title="Lien permanent vers ce titre">¶</a></h1>
+<p>GeoServer is a java application for serving maps (and data) for other clients (such as web browsers) to draw. GeoServer comes with a browser-based management interface and connects to multiple data sources at the back end.</p>
 <p>This Quick Start describes how to:</p>
 <blockquote>
 <div><ul class="simple">
@@ -85,49 +84,42 @@ clients to draw.</p>
 <li>add a layer from a NetCDF file</li>
 </ul>
 </div></blockquote>
-<div class="contents topic" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#geoserver-quickstart" id="id1">GeoServer Quickstart</a><ul>
-<li><a class="reference internal" href="#start-gs" id="id2">Start GeoServer</a></li>
-<li><a class="reference internal" href="#first-views" id="id3">First Views</a></li>
-<li><a class="reference internal" href="#loading-data" id="id4">Loading Data</a><ul>
-<li><a class="reference internal" href="#styling" id="id5">Styling</a><ul>
-<li><a class="reference internal" href="#using-ug-to-create-simple-styles" id="id6">Using uDig to create simple styles</a></li>
-<li><a class="reference internal" href="#adding-the-style-to-gs" id="id7">Adding the Style to GeoServer</a></li>
+<li><a class="reference internal" href="#start-geoserver" id="id1">Start Geoserver</a></li>
+<li><a class="reference internal" href="#loading-data" id="id2">Loading data</a></li>
+<li><a class="reference internal" href="#styling-data" id="id3">Styling data</a><ul>
+<li><a class="reference internal" href="#using-ug-to-create-simple-styles" id="id4">Using uDig to create simple styles</a></li>
+<li><a class="reference internal" href="#adding-the-style-to-geoserver" id="id5">Adding the style to GeoServer</a></li>
+<li><a class="reference internal" href="#adding-the-style-to-the-layer" id="id6">Adding the style to the layer</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#adding-the-style-to-the-layer" id="id8">Adding the Style to the Layer</a></li>
+<li><a class="reference internal" href="#clients-for-wms-layers" id="id7">Clients for WMS layers</a></li>
+<li><a class="reference internal" href="#add-a-layer-from-a-netcdf-file" id="id8">Add a layer from a NetCDF file</a><ul>
+<li><a class="reference internal" href="#configure-a-netcdf-store" id="id9">Configure a NetCDF store</a></li>
+<li><a class="reference internal" href="#preview-the-netcdf-layer" id="id10">Preview the NetCDF layer</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#clients-for-wms-layers" id="id9">Clients for WMS layers</a></li>
-<li><a class="reference internal" href="#netcdf" id="id10">NetCDF</a><ul>
-<li><a class="reference internal" href="#configure-a-netcdf-store" id="id11">Configure a NetCDF store</a></li>
-<li><a class="reference internal" href="#preview-the-netcdf-layer" id="id12">Preview the NetCDF layer</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#what-next" id="id13">What Next?</a></li>
-</ul>
-</li>
+<li><a class="reference internal" href="#what-next" id="id11">What next?</a></li>
 </ul>
 </div>
-<div class="section" id="start-gs">
-<h2><a class="toc-backref" href="#id2">Start GeoServer</a><a class="headerlink" href="#start-gs" title="Lien permanent vers ce titre">¶</a></h2>
-<ol class="arabic simple">
-<li>Select the <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span> in the menu.</li>
-<li>The application will take a few moments to start up and will open a web page at <a class="reference external" href="http://localhost:8082/geoserver/web">http://localhost:8082/geoserver/web</a></li>
-</ol>
+<div class="section" id="start-geoserver">
+<h2><a class="toc-backref" href="#id1">Start Geoserver</a><a class="headerlink" href="#start-geoserver" title="Lien permanent vers ce titre">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">From the Start menu, select <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span>. The application will take a few moments to start up and will open a web page at <a class="reference external" href="http://localhost:8082/geoserver/web">http://localhost:8082/geoserver/web</a></p>
 <a class="reference internal image-reference" href="../../_images/geoserver-login.png"><img alt="../../_images/geoserver-login.png" src="../../_images/geoserver-login.png" style="width: 562.0999999999999px; height: 289.79999999999995px;" /></a>
-</div>
-<div class="section" id="first-views">
-<h2><a class="toc-backref" href="#id3">First Views</a><a class="headerlink" href="#first-views" title="Lien permanent vers ce titre">¶</a></h2>
-<p>When you first open the GeoServer page you will see the screen above, first you need to log in using the username <strong>admin</strong> and password <strong>geoserver</strong>. You will now see the <em>admin page</em>.</p>
+</li>
+<li><p class="first">Log in using the username <strong>admin</strong> and password <strong>geoserver</strong>. You will now see the <em>admin page</em>.</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-welcome.png"><img alt="../../_images/geoserver-welcome.png" src="../../_images/geoserver-welcome.png" style="width: 556.5px; height: 350.0px;" /></a>
-<p>Select the <strong>Layer Preview</strong> link at the top of the <em>Data</em> section in the left hand menu to see a preview of the layers that are loaded on the server.</p>
+</li>
+<li><p class="first">Select the <strong>Layer Preview</strong> link at the top of the <em>Data</em> section in the left hand menu to see a preview of the layers that are loaded on the server.</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-layerpreview.png"><img alt="../../_images/geoserver-layerpreview.png" src="../../_images/geoserver-layerpreview.png" style="width: 784.6999999999999px; height: 458.49999999999994px;" /></a>
-<p>Scroll to the bottom of the page and click on the <strong>OpenLayers</strong> link in the <strong>tiger-ny</strong> row, this will open a new window with a preview of some of the sample data.</p>
+</li>
+<li><p class="first">Scroll to the bottom of the page and click on the <strong>OpenLayers</strong> link in the <strong>tiger-ny</strong> row. This will open a new window with a preview of some of the sample data.</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-preview.png"><img alt="../../_images/geoserver-preview.png" src="../../_images/geoserver-preview.png" style="width: 260.4px; height: 398.29999999999995px;" /></a>
-<p>You can zoom in to the map in three ways:</p>
+</li>
+<li><p class="first">You can zoom in to the map in three ways:</p>
 <blockquote>
 <div><ul class="simple">
 <li>by clicking on the zoom bar on the left, the higher you click on it the more zoomed in you will see.</li>
@@ -135,10 +127,12 @@ clients to draw.</p>
 <li>by dragging a box on the map while holding down the <code class="kbd docutils literal"><span class="pre">shift</span> <span class="pre">key</span></code> - this will zoom in to the box selected (or as near as will fit in the screen).</li>
 </ul>
 </div></blockquote>
+</li>
+</ol>
 <p>Experiment with this view and look at some of the other previews.  Once you are comfortable viewing existing data you can move on to adding some new data.</p>
 </div>
 <div class="section" id="loading-data">
-<h2><a class="toc-backref" href="#id4">Loading Data</a><a class="headerlink" href="#loading-data" title="Lien permanent vers ce titre">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Loading data</a><a class="headerlink" href="#loading-data" title="Lien permanent vers ce titre">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">You will not be able to carry out the following steps if you are
@@ -148,104 +142,93 @@ OSGeoLive (or just GeoServer) onto your hard drive.</p>
 </div>
 <p>In this example we are going to use the <a class="reference internal" href="../overview/naturalearth_overview.html"><span class="doc">Natural Earth data set</span></a>
 that is included on OSGeoLive (<code class="file docutils literal"><span class="pre">/usr/local/share/data/natural_earth2/</span></code>).</p>
-<p>We need to create a Store for our data. From the GeoServer admin page go
-to <span class="guilabel">Stores</span> and then click on <span class="guilabel">Add new Store</span>. You
-will see this page:</p>
+<ol class="arabic">
+<li><p class="first">We need to create a Store for our data. From the GeoServer admin page go to <span class="guilabel">Stores</span>.</p>
+</li>
+<li><p class="first">Click on <span class="guilabel">Add new Store</span>. You will see this page:</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-newstore.png"><img alt="The New Store page" class="align-center" src="../../_images/geoserver-newstore.png" style="width: 793.8px; height: 457.09999999999997px;" /></a>
-<p>Select the <span class="guilabel">Directory of spatial files</span>, you will see the following:</p>
+</li>
+<li><p class="first">Select the <span class="guilabel">Directory of spatial files</span>. You will see the following:</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-new-vector.png"><img alt="Filling in the New Store page" class="align-center" src="../../_images/geoserver-new-vector.png" style="width: 805.6999999999999px; height: 457.09999999999997px;" /></a>
-<p>Type in a name for the Data Store - I used <em>Natural Earth</em> and fill in
-the URL to the data set - in this case <code class="file docutils literal"><span class="pre">/usr/local/share/data/natural_earth2/</span></code>.
-You can use the browse button to find the directory if your data is somewhere else. Press <span class="guilabel">save</span>.</p>
+</li>
+<li><p class="first">Type in a name for the Data Store (for example, <em>Natural Earth</em>) and fill in the URL to the data set - in this case <code class="file docutils literal"><span class="pre">/usr/local/share/data/natural_earth2/</span></code>. You can use the browse button to find the directory if your data is somewhere else.</p>
+</li>
+<li><p class="first">Press <span class="guilabel">save</span>.</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-naturalearth.png"><img alt="The Natural Earth Datastore" class="align-center" src="../../_images/geoserver-naturalearth.png" style="width: 536.1999999999999px; height: 303.79999999999995px;" /></a>
-<p>Press <span class="guilabel">publish</span> next to one of the layers to finish up adding
-the data. This will take you to the <em>Layers</em> page:</p>
+</li>
+<li><p class="first">Press <span class="guilabel">publish</span> next to one of the layers to finish adding the data. This will take you to the <em>Layers</em> page:</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-publish.png"><img alt="The layer publishing page" class="align-center" src="../../_images/geoserver-publish.png" style="width: 532.6999999999999px; height: 1051.3999999999999px;" /></a>
-<p>As you scroll down the page you will see that GeoServer has filled in many of
-the fields for you. When you reach <span class="guilabel">Coordinate Reference System</span>
-you will notice that under <em>Native SRS</em> that it says UNKNOWN
-you will need to fill in the next box (<em>declared SRS</em>) to make sure GeoServer
-knows where the data is. For the time being trust me and type epsg:4326 in
-the box, if you don’t trust me then go to <a class="reference external" href="http://prj2epsg.org/search">http://prj2epsg.org/search</a> and
-paste in the string you see if you click on the link next to «&nbsp;UNKNOWN&nbsp;».
-Then click on <span class="guilabel">Compute from data</span> and <span class="guilabel">Compute from
-native bounds</span> to fill in the Bounding Boxes. Finally hit <span class="guilabel">save</span>
-and you have published your first layer.</p>
+<p>As you scroll down the page you will see that GeoServer has filled in many of the fields for you. When you reach <span class="guilabel">Coordinate Reference System</span> you will notice that under <em>Native SRS</em> it says UNKNOWN you will need to fill in the next box (<em>declared SRS</em>) to make sure GeoServer knows where the data is.</p>
+</li>
+<li><p class="first">You can type epsg:4326 in the box, or go to <a class="reference external" href="http://prj2epsg.org/search">http://prj2epsg.org/search</a> and paste in the string you see if you click on the link next to «&nbsp;UNKNOWN&nbsp;».</p>
+</li>
+<li><p class="first">Click on <span class="guilabel">Compute from data</span> and <span class="guilabel">Compute from native bounds</span> to fill in the Bounding Boxes.</p>
+</li>
+<li><p class="first">Finally hit <span class="guilabel">save</span> and you have published your first layer.</p>
+</li>
+</ol>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Don’t worry if the layer preview doesn’t look
-very good as it is using the default style. In the next section
-we will look at producing a nicer style.</p>
+<p class="last">Don’t worry if the layer preview doesn’t look very good as it is using the default style. In the next section we will look at producing a nicer style.</p>
 </div>
 <p>You can follow the same step with the other layers in the directory by using the <span class="guilabel">Add a new resource</span> button on the layers page. Just select the natural earth store from the drop down box to get back to the store’s page.</p>
-<div class="section" id="styling">
-<h3><a class="toc-backref" href="#id5">Styling</a><a class="headerlink" href="#styling" title="Lien permanent vers ce titre">¶</a></h3>
-<p>To style a data set into a map layer GeoServer uses an OGC standard called
-<a class="reference external" href="http://www.opengeospatial.org/standards/sld">Styled Layer Descriptors (SLD)</a>. These
-are represented as XML files which describe the rules that are used to
-apply various symbolizers to the data.</p>
-<p>To get started I styled the Land and Ocean datasets.
-You can create SLD files using a simple text editor, but
-sometimes a graphical editor is better. There are several options here
-but I like to use uDig as it allows me to open the shapefiles directly
-and apply simple styles using a GUI, but also provides a simple editor
-to modify the XML if I need to.</p>
+</div>
+<div class="section" id="styling-data">
+<h2><a class="toc-backref" href="#id3">Styling data</a><a class="headerlink" href="#styling-data" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Styling a data set into a map layer GeoServer uses an OGC standard called <a class="reference external" href="http://www.opengeospatial.org/standards/sld">Styled Layer Descriptors (SLD)</a>. These are represented as XML files which describe the rules that are used to apply various symbolizers to the data.</p>
+<p>To get started, lets style the Land and Ocean datasets.
+You can create SLD files using a simple text editor, but sometimes a graphical editor is better. There are several options here but uDig allows you to open the shapefiles directly and apply simple styles using a GUI. It also provides a simple editor to modify the XML if I need to.</p>
 <div class="section" id="using-ug-to-create-simple-styles">
-<h4><a class="toc-backref" href="#id6">Using uDig to create simple styles</a><a class="headerlink" href="#using-ug-to-create-simple-styles" title="Lien permanent vers ce titre">¶</a></h4>
+<h3><a class="toc-backref" href="#id4">Using uDig to create simple styles</a><a class="headerlink" href="#using-ug-to-create-simple-styles" title="Lien permanent vers ce titre">¶</a></h3>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">For more details on how to use uDig see the <a class="reference internal" href="udig_quickstart.html"><span class="doc">uDig Quickstart</span></a></p>
 </div>
-<p>Once I opened uDig up and added the shapefiles (using the
-add data button in the top left hand corner). I dragged the ne_10m_land
-and ne_10m_ocean tables into the map window. uDig automatically applies
-a style (so you can see the data).</p>
+<ol class="arabic">
+<li><p class="first">Open uDig and add the shapefiles (using the add data button in the top left hand corner).</p>
+</li>
+<li><p class="first">Drag the ne_10m_land and ne_10m_ocean tables into the map window. uDig automatically applies a style (so you can see the data).</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-udig_startup.png"><img alt="Default Styling in uDig" class="align-center" src="../../_images/geoserver-udig_startup.png" style="width: 773.5px; height: 357.7px;" /></a>
-<p>Now obviously an orange ocean will not work (even if I could live
-with the green land). So in the <a class="reference internal" href="#layer-list"><span class="std std-ref">Layer list</span></a> select the style
-button (it looks like an artist’s palette).</p>
+</li>
+<li><p class="first">In the <a class="reference internal" href="#layer-list"><span class="std std-ref">Layer list</span></a> select the style button (it looks like an artist’s palette).</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-layer-chooser.png" id="layer-list"><img alt="The Layer list window" class="align-center" id="layer-list" src="../../_images/geoserver-layer-chooser.png" style="width: 177.79999999999998px; height: 167.29999999999998px;" /></a>
-<p>This will open the <a class="reference internal" href="#style-pane"><span class="std std-ref">Style Pane</span></a> - in the simple window I can easily
-select a nice blue for the oceans by clicking on the colored box on
-the fill tab and choosing from the color picker it produces. I also
-increased the opacity of the fill to 100% to make the color look
-better. I picked the same blue for the border color so it would match.</p>
+<p>This will open the <a class="reference internal" href="#style-pane"><span class="std std-ref">Style Pane</span></a>.</p>
+</li>
+<li><p class="first">In the simple window we can easily select a nice blue for the oceans by clicking on the colored box on the fill tab and choosing from the color picker it produces. We can also increase the opacity of the fill to 100% to make the color look better. Pick the same blue for the border color so it will match.</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-style-pane.png" id="style-pane"><img alt="The Style Pane" class="align-center" id="style-pane" src="../../_images/geoserver-style-pane.png" style="width: 680.4px; height: 501.9px;" /></a>
-<p>Once I was done I clicked <code class="docutils literal"><span class="pre">OK</span></code> and uDig showed me the
-changes.</p>
+</li>
+<li><p class="first">Click <code class="docutils literal"><span class="pre">OK</span></code> and uDig will display the changes.</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-blue-ocean.png"><img alt="Blue Oceans" class="align-center" src="../../_images/geoserver-blue-ocean.png" style="width: 770.6999999999999px; height: 394.79999999999995px;" /></a>
-<p>Finally I prefer a more understated land color than green so
-I repeated the steps above to change the color of the land layer.
-None of the default colors seemed right to me so I went into the
-<code class="docutils literal"><span class="pre">define</span> <span class="pre">custom</span> <span class="pre">colors</span></code> section to create one I liked.</p>
+</li>
+<li><p class="first">Repeat the steps above to change the color of the land layer. You can use the <code class="docutils literal"><span class="pre">define</span> <span class="pre">custom</span> <span class="pre">colors</span></code> section to create your preferred color.</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-custom-colour.png"><img alt="Defining a nicer land color" class="align-center" src="../../_images/geoserver-custom-colour.png" style="width: 359.09999999999997px; height: 208.6px;" /></a>
-<p>This gives me a nice looking basic world map</p>
+</li>
+</ol>
+<p>This gives a nice looking basic world map.</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-basic-world.png"><img alt="A basic word map" class="align-center" src="../../_images/geoserver-basic-world.png" style="width: 743.4px; height: 375.2px;" /></a>
 </div>
-<div class="section" id="adding-the-style-to-gs">
-<h4><a class="toc-backref" href="#id7">Adding the Style to GeoServer</a><a class="headerlink" href="#adding-the-style-to-gs" title="Lien permanent vers ce titre">¶</a></h4>
-<p>Now we need to transfer these styles to GeoServer - on the style window
-there is an export button which allows me to save the SLD file that
-defines my style. Once I’ve saved the two styles I can go to the GeoServer
-admin page again and select <code class="docutils literal"><span class="pre">Styles</span></code> (at the bottom of the <code class="docutils literal"><span class="pre">Data</span></code>
-section). Then I select the <code class="docutils literal"><span class="pre">Add</span> <span class="pre">New</span> <span class="pre">Style</span></code> link, at the bottom of
-that page is a file upload box and a browse button. Clicking this
-allows me to hunt around on my hard drive to find the files I just
-saved. Once I’ve found one I want, I click the upload link (next to the browse
-button) and a copy of my file appears in the editor. If you click on the
-validate button the highlighted lines will give you an error but you can
-safely ignore the error (or delete those lines as they don’t do anything).
-When you are ready press the <span class="guilabel">Submit</span> at the bottom of the page.</p>
+<div class="section" id="adding-the-style-to-geoserver">
+<h3><a class="toc-backref" href="#id5">Adding the style to GeoServer</a><a class="headerlink" href="#adding-the-style-to-geoserver" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Now we need to transfer these styles to GeoServer.</p>
+<ol class="arabic simple">
+<li>On the style window there is an export button which allows you to save the SLD file that defines your style.</li>
+<li>Once saved, you can go to the GeoServer admin page again and select <code class="docutils literal"><span class="pre">Styles</span></code> (at the bottom of the <code class="docutils literal"><span class="pre">Data</span></code> section).</li>
+<li>Select the <code class="docutils literal"><span class="pre">Add</span> <span class="pre">New</span> <span class="pre">Style</span></code> link. At the bottom of that page is a file upload box and a browse button.</li>
+<li>Clicking browse to find the files you just saved.</li>
+<li>Click the upload link (next to the browse button) and a copy of the file appears in the editor.</li>
+<li>If you click on the validate button the highlighted lines will give you an error but you can safely ignore the error (or delete those lines as they don’t do anything).</li>
+<li>Press the <span class="guilabel">Submit</span> at the bottom of the page.</li>
+</ol>
 <a class="reference internal image-reference" href="../../_images/geoserver-add-style.png"><img alt="Adding a Style to GeoServer" class="align-center" src="../../_images/geoserver-add-style.png" style="width: 765.0999999999999px; height: 455.7px;" /></a>
 </div>
-</div>
 <div class="section" id="adding-the-style-to-the-layer">
-<h3><a class="toc-backref" href="#id8">Adding the Style to the Layer</a><a class="headerlink" href="#adding-the-style-to-the-layer" title="Lien permanent vers ce titre">¶</a></h3>
-<p>Click on the <span class="guilabel">Layers</span> link in the Menu on the left of the
-GeoServer window. Click on the layer (e.g. <em>ne_10m_land</em>), then select the
-<span class="guilabel">Publishing</span> tab and change the <span class="guilabel">Default Style</span>
-box to the name of the style you uploaded in the previous section.
-Now click <span class="guilabel">Save</span> and go to the Layer Preview page to check that it looks good.</p>
+<h3><a class="toc-backref" href="#id6">Adding the style to the layer</a><a class="headerlink" href="#adding-the-style-to-the-layer" title="Lien permanent vers ce titre">¶</a></h3>
+<ol class="arabic simple">
+<li>Click on the <span class="guilabel">Layers</span> link in the Menu on the left of the GeoServer window.</li>
+<li>Click on the layer (e.g. <em>ne_10m_land</em>), then select the <span class="guilabel">Publishing</span> tab.</li>
+<li>Change the <span class="guilabel">Default Style</span> box to the name of the style you uploaded in the previous section.</li>
+<li>Now click <span class="guilabel">Save</span> and go to the Layer Preview page to check that it looks good.</li>
+</ol>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">There are example style files for all of the example Natural Earth layers in <code class="file docutils literal"><span class="pre">/usr/local/share/geoserver</span></code>.</p>
@@ -253,37 +236,53 @@ Now click <span class="guilabel">Save</span> and go to the Layer Preview page to
 </div>
 </div>
 <div class="section" id="clients-for-wms-layers">
-<h2><a class="toc-backref" href="#id9">Clients for WMS layers</a><a class="headerlink" href="#clients-for-wms-layers" title="Lien permanent vers ce titre">¶</a></h2>
-<p>A large variety of clients exist to make use of the <a class="reference external" href="http://www.opengeospatial.org/standards/wms">WMS</a> layers you are serving
-from GeoServer. This is a list of just some of them</p>
-<blockquote>
-<div><ul class="simple">
+<h2><a class="toc-backref" href="#id7">Clients for WMS layers</a><a class="headerlink" href="#clients-for-wms-layers" title="Lien permanent vers ce titre">¶</a></h2>
+<p>The <a class="reference external" href="http://www.opengeospatial.org/standards/wms">WMS</a> layers you are serving from GeoServer can be used with a variety of clients on this OSGeoLive distribution, including:</p>
+<ul class="simple">
 <li><a class="reference internal" href="../overview/udig_overview.html"><span class="doc">uDig</span></a></li>
 <li><a class="reference internal" href="../overview/openlayers_overview.html"><span class="doc">OpenLayers</span></a></li>
 <li><a class="reference internal" href="../overview/mapbender_overview.html"><span class="doc">MapBender</span></a></li>
 </ul>
-</div></blockquote>
 </div>
-<div class="section" id="netcdf">
-<h2><a class="toc-backref" href="#id10">NetCDF</a><a class="headerlink" href="#netcdf" title="Lien permanent vers ce titre">¶</a></h2>
+<div class="section" id="add-a-layer-from-a-netcdf-file">
+<h2><a class="toc-backref" href="#id8">Add a layer from a NetCDF file</a><a class="headerlink" href="#add-a-layer-from-a-netcdf-file" title="Lien permanent vers ce titre">¶</a></h2>
 <p>The GeoServer NetCDF plugin allows the publication of rasters from NetCDF files.</p>
 <div class="section" id="configure-a-netcdf-store">
-<h3><a class="toc-backref" href="#id11">Configure a NetCDF store</a><a class="headerlink" href="#configure-a-netcdf-store" title="Lien permanent vers ce titre">¶</a></h3>
-<p>After running «&nbsp;Start GeoServer&nbsp;», login as the administrator, click on «&nbsp;Add stores&nbsp;» then «&nbsp;NetCDF&nbsp;». Enter a value for Data Source Name (this example uses «&nbsp;netcdf&nbsp;») and a NetCDF URL. You can use this sample file:</p>
+<h3><a class="toc-backref" href="#id9">Configure a NetCDF store</a><a class="headerlink" href="#configure-a-netcdf-store" title="Lien permanent vers ce titre">¶</a></h3>
+<ol class="arabic">
+<li><p class="first">After running «&nbsp;Start GeoServer&nbsp;»</p>
+</li>
+<li><p class="first">Login as the administrator.</p>
+</li>
+<li><p class="first">Click on <span class="guilabel">Add stores</span> then <span class="guilabel">NetCDF</span>.</p>
+</li>
+<li><p class="first">Enter a value for Data Source Name (this example uses «&nbsp;netcdf&nbsp;») and a NetCDF URL. You can use this sample file:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">file</span><span class="p">:</span><span class="o">///</span><span class="n">usr</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">share</span><span class="o">/</span><span class="n">data</span><span class="o">/</span><span class="n">netcdf</span><span class="o">/</span><span class="n">polyphemus_20120401</span><span class="o">.</span><span class="n">nc</span>
 </pre></div>
 </div>
-<p>Press «&nbsp;Save&nbsp;», «&nbsp;Publish&nbsp;» the «&nbsp;O3&nbsp;» layer, then scroll down to the bottom of the «&nbsp;Data&nbsp;» tab and press «&nbsp;Save&nbsp;» again.</p>
+</li>
+<li><p class="first">Press «&nbsp;Save&nbsp;», «&nbsp;Publish&nbsp;» the «&nbsp;O3&nbsp;» layer.</p>
+</li>
+<li><p class="first">Scroll down to the bottom of the «&nbsp;Data&nbsp;» tab and press «&nbsp;Save&nbsp;» again.</p>
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/geoserver-netcdf-store.png"><img alt="Adding a NetCDF store" class="align-center" src="../../_images/geoserver-netcdf-store.png" style="width: 680.0px; height: 473.0px;" /></a>
 </div></blockquote>
+</li>
+</ol>
 </div>
 <div class="section" id="preview-the-netcdf-layer">
-<h3><a class="toc-backref" href="#id12">Preview the NetCDF layer</a><a class="headerlink" href="#preview-the-netcdf-layer" title="Lien permanent vers ce titre">¶</a></h3>
-<p>Select «&nbsp;Layer Preview&nbsp;» from the menu on the left, scroll down to find the «&nbsp;cite:O3&nbsp;» entry, and click on the «&nbsp;OpenLayers&nbsp;» link to show a preview of the layer. Clicking on points will cause the value of «&nbsp;Ozone_concentration&nbsp;» to be shown in a table at the bottom of the map.</p>
+<h3><a class="toc-backref" href="#id10">Preview the NetCDF layer</a><a class="headerlink" href="#preview-the-netcdf-layer" title="Lien permanent vers ce titre">¶</a></h3>
+<ol class="arabic">
+<li><p class="first">Select «&nbsp;Layer Preview&nbsp;» from the menu on the left</p>
+</li>
+<li><p class="first">Scroll down to find the «&nbsp;cite:O3&nbsp;» entry, and click on the «&nbsp;OpenLayers&nbsp;» link to show a preview of the layer.</p>
+</li>
+<li><p class="first">Clicking on points will cause the value of «&nbsp;Ozone_concentration&nbsp;» to be shown in a table at the bottom of the map.</p>
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/geoserver-netcdf-preview.png"><img alt="OpenLayers preview of a NetCDF layer" class="align-center" src="../../_images/geoserver-netcdf-preview.png" style="width: 781.0px; height: 564.0px;" /></a>
 </div></blockquote>
+</li>
+</ol>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">This GeoServer instance has been configured with the <code class="docutils literal"><span class="pre">NETCDF_DATA_DIR</span></code> Java system property to allow the publication of NetCDF files in read-only directories.</p>
@@ -291,21 +290,14 @@ from GeoServer. This is a list of just some of them</p>
 </div>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id13">What Next?</a><a class="headerlink" href="#what-next" title="Lien permanent vers ce titre">¶</a></h2>
-<p>This is only the first step on the road to using GeoServer. There is
-a lot more functionality you can try.</p>
-<p>GeoServer Project home</p>
-<blockquote>
-<div><a class="reference external" href="http://geoserver.org/">http://geoserver.org/</a></div></blockquote>
-<p>GeoServer User Manual</p>
-<blockquote>
-<div><a class="reference external" href="http://docs.geoserver.org/latest/en/user/">http://docs.geoserver.org/latest/en/user/</a></div></blockquote>
-<p>GeoServer Tutorials</p>
-<blockquote>
-<div><a class="reference external" href="http://docs.geoserver.org/latest/en/user/tutorials/index.html">http://docs.geoserver.org/latest/en/user/tutorials/index.html</a></div></blockquote>
-<p>GeoServer Styling Workshop</p>
-<blockquote>
-<div><a class="reference external" href="http://docs.geoserver.org/latest/en/user/styling/workshop/index.html">http://docs.geoserver.org/latest/en/user/styling/workshop/index.html</a></div></blockquote>
+<h2><a class="toc-backref" href="#id11">What next?</a><a class="headerlink" href="#what-next" title="Lien permanent vers ce titre">¶</a></h2>
+<p>This is only the first step on the road to using GeoServer. There is a lot more functionality you can try.</p>
+<ul class="simple">
+<li>GeoServer Project home - <a class="reference external" href="http://geoserver.org/">http://geoserver.org/</a></li>
+<li>GeoServer User Manual - <a class="reference external" href="http://docs.geoserver.org/latest/en/user/">http://docs.geoserver.org/latest/en/user/</a></li>
+<li>GeoServer Tutorials - <a class="reference external" href="http://docs.geoserver.org/latest/en/user/tutorials/index.html">http://docs.geoserver.org/latest/en/user/tutorials/index.html</a></li>
+<li>GeoServer Styling Workshop - <a class="reference external" href="http://docs.geoserver.org/latest/en/user/styling/workshop/index.html">http://docs.geoserver.org/latest/en/user/styling/workshop/index.html</a></li>
+</ul>
 </div>
 </div>
 
