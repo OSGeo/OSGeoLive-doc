@@ -72,7 +72,7 @@
   <a class="reference external image-reference" href="http://postgis.net"><img alt="../../_images/logo_postgis.png" class="align-right" src="../../_images/logo_postgis.png" /></a>
 <a class="reference external image-reference" href="target:http://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <div class="section" id="postgis-quickstart">
-<h1><a class="toc-backref" href="#id1">Guía de Inicio Rápido de PostGIS</a><a class="headerlink" href="#postgis-quickstart" title="Enlazar permanentemente con este título">¶</a></h1>
+<h1>Guía de Inicio Rápido de PostGIS<a class="headerlink" href="#postgis-quickstart" title="Enlazar permanentemente con este título">¶</a></h1>
 <p>PostGIS añade capacidades espaciales a la base de datos relacional de PostgreSQL. Se extiende PostgreSQL almacena, consulta, y manipular datos espaciales. En este inicio rápido usamos “PostgreSQL” al describir las funciones de base de datos general y “PostGIS” al describir la funcionalidad espacial adicional proporcionada por PostGIS.</p>
 <p>Esta Guía de Inicio Rápido describe cómo:</p>
 <blockquote>
@@ -81,33 +81,31 @@
 <li>Administrar datos desde el cliente <code class="docutils literal"><span class="pre">pgAdmin</span></code>.</li>
 </ul>
 </div></blockquote>
-<div class="contents topic" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#postgis-quickstart" id="id1">Guía de Inicio Rápido de PostGIS</a><ul>
-<li><a class="reference internal" href="#client-server-architecture" id="id2">Arquitectura cliente-servidor</a></li>
-<li><a class="reference internal" href="#creating-a-spatially-enabled-database" id="id3">Creación de Una Base de Datos Habilitada Espacialmente</a></li>
-<li><a class="reference internal" href="#creating-a-spatial-table-the-hard-way" id="id4">El Camino Difícil para la Creación de Una Tabla Espacial</a></li>
-<li><a class="reference internal" href="#simple-queries" id="id5">Consultas simples</a></li>
-<li><a class="reference internal" href="#spatial-queries" id="id6">Consultas Espaciales</a></li>
-<li><a class="reference internal" href="#mapping" id="id7">Mapeo</a></li>
-<li><a class="reference internal" href="#creating-a-spatial-table-the-easy-way" id="id8">Creación de Una Tabla Espacial la Manera Fácil</a></li>
-<li><a class="reference internal" href="#get-to-know-pgadmin-iii" id="id9">Conocer pgAdmin III</a></li>
-<li><a class="reference internal" href="#executing-a-sql-query-from-pgadmin-iii" id="id10">Ejecutar una consulta SQL desde pgAdmin III</a></li>
-<li><a class="reference internal" href="#things-to-try" id="id11">Cosas para probar</a></li>
-<li><a class="reference internal" href="#what-next" id="id12">¿Qué sigue?</a></li>
-</ul>
-</li>
+<li><a class="reference internal" href="#client-server-architecture" id="id1">Client-server architecture</a></li>
+<li><a class="reference internal" href="#creating-a-spatially-enabled-database" id="id2">Creating a spatially-enabled database</a></li>
+<li><a class="reference internal" href="#creating-a-spatial-table-using-sql" id="id3">Creating a Spatial Table using SQL</a></li>
+<li><a class="reference internal" href="#simple-queries" id="id4">Simple queries</a></li>
+<li><a class="reference internal" href="#spatial-queries" id="id5">Spatial queries</a></li>
+<li><a class="reference internal" href="#mapping" id="id6">Mapeo</a></li>
+<li><a class="reference internal" href="#importing-spatial-data-into-the-database" id="id7">Importing spatial data into the database</a></li>
+<li><a class="reference internal" href="#get-to-know-pgadmin-iii" id="id8">Conocer pgAdmin III</a></li>
+<li><a class="reference internal" href="#executing-a-sql-query-from-pgadmin-iii" id="id9">Executing a SQL query from pgAdmin III</a></li>
+<li><a class="reference internal" href="#things-to-try" id="id10">Cosas para probar</a></li>
+<li><a class="reference internal" href="#what-next" id="id11">What next?</a></li>
 </ul>
 </div>
 <div class="section" id="client-server-architecture">
-<h2><a class="toc-backref" href="#id2">Arquitectura cliente-servidor</a><a class="headerlink" href="#client-server-architecture" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Client-server architecture</a><a class="headerlink" href="#client-server-architecture" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Como muchas bases de datos, PostgreSQL, funciona como un servidor en un sistema cliente-servidor. El cliente hace una petición al servidor y regresa una respuesta. Se trata de la misma manera que los trabajos de internet - el navegador es un cliente y un servidor web envía la página web. Con PostgreSQL las solicitudes son en el lenguaje SQL y la respuesta es generalmente una tabla de datos de la base de datos.</p>
 <p>No hay nada para detener el servidor en el mismo equipo que el cliente, y esto le permite utilizar PostgreSQL en una sola máquina. El cliente se conecta al servidor mediante la conexión de red interna “loopback” y no es visible a otros equipos a menos que usted configurarlo para serlo.</p>
 </div>
 <div class="section" id="creating-a-spatially-enabled-database">
-<h2><a class="toc-backref" href="#id3">Creación de Una Base de Datos Habilitada Espacialmente</a><a class="headerlink" href="#creating-a-spatially-enabled-database" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Clientes de línea de comandos ejecutan desde dentro de una ventana de Emulador de Terminal. Inicie un Emulador de Terminal (actualmente LXTerminal) desde el menú de Aplicaciones en la sección de Accesorios. Esto le da un mensaje de comando del shell de Unix. Tecleé:</p>
+<h2><a class="toc-backref" href="#id2">Creating a spatially-enabled database</a><a class="headerlink" href="#creating-a-spatially-enabled-database" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Command-line clients run from within a Terminal Emulator window.</p>
+<p>Start a Terminal Emulator (LXTerminal currently) from the Applications menu in the Accessories section. This gives you a Unix shell command prompt. Type:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">psql</span> <span class="o">-</span><span class="n">V</span>
 </pre></div>
 </div>
@@ -217,8 +215,8 @@
 <p>Descripciones son mesas de resolución más baja para datos ráster. Las <code class="docutils literal"><span class="pre">raster_overviews</span></code> enlistan dichas tablas y sus columnas de ráster y la tabla para la que es una vista general. Las tablas de vistas generales de ráster se utilizan herramientas como QGIS para proporcionar versiones baja resolución de datos ráster para cargar más rápido.</p>
 <p>El tipo de geometría PostGIS es el primero y aún más popular utilizado por los usuarios de PostGIS. Enfocaremos nuestra atención en ese tipo.</p>
 </div>
-<div class="section" id="creating-a-spatial-table-the-hard-way">
-<h2><a class="toc-backref" href="#id4">El Camino Difícil para la Creación de Una Tabla Espacial</a><a class="headerlink" href="#creating-a-spatial-table-the-hard-way" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="section" id="creating-a-spatial-table-using-sql">
+<h2><a class="toc-backref" href="#id3">Creating a Spatial Table using SQL</a><a class="headerlink" href="#creating-a-spatial-table-using-sql" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Ahora tenemos una base de datos espacial podemos hacer algunas tablas espaciales.</p>
 <p>Primero creamos una tabla de base de datos común para almacenar algunos datos de la ciudad. Esta tabla tiene tres campos - uno para un ID numérico de identificación de la ciudad, una para el nombre de la ciudad y otra para la columna de geometría:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># CREATE TABLE cities ( id int4 primary key, name varchar(50), geom geometry(POINT,4326) );</span>
@@ -245,7 +243,7 @@
 <p>Como se puede ver que muy rápidamente esto es cada vez más tedioso. Por suerte hay otras formas de obtener datos en las tablas PostGIS que son mucho más fáciles. Pero ahora tenemos tres ciudades en nuestra base de datos, y podemos trabajar con eso.</p>
 </div>
 <div class="section" id="simple-queries">
-<h2><a class="toc-backref" href="#id5">Consultas simples</a><a class="headerlink" href="#simple-queries" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Simple queries</a><a class="headerlink" href="#simple-queries" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Todas las operaciones SQL habituales se pueden aplicar para seleccionar datos de una tabla PostGIS:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT * FROM cities;</span>
  <span class="nb">id</span> <span class="o">|</span>      <span class="n">name</span>       <span class="o">|</span>                      <span class="n">geom</span>
@@ -269,7 +267,7 @@
 </div>
 </div>
 <div class="section" id="spatial-queries">
-<h2><a class="toc-backref" href="#id6">Consultas Espaciales</a><a class="headerlink" href="#spatial-queries" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Spatial queries</a><a class="headerlink" href="#spatial-queries" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>PostGIS añade muchas funciones con funcionalidad espacial a PostgreSQL. Ya hemos visto ST_GeomFromText que convierte WKT a la geometría. La mayoría de ellos comienza con ST (de tipo espacial) y se enumeran en una sección de la documentación de PostGIS. Ahora usaremos uno para responder a una pregunta práctica - hasta qué punto son estos tres Londres, en metros, suponiendo que una tierra esférica?</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT p1.name,p2.name,ST_DistanceSphere(p1.geom,p2.geom) FROM cities AS p1, cities AS p2 WHERE p1.id &gt; p2.id;</span>
       <span class="n">name</span>       <span class="o">|</span>      <span class="n">name</span>       <span class="o">|</span> <span class="n">st_distancesphere</span>
@@ -304,7 +302,7 @@
 </div>
 </div>
 <div class="section" id="mapping">
-<h2><a class="toc-backref" href="#id7">Mapeo</a><a class="headerlink" href="#mapping" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id6">Mapeo</a><a class="headerlink" href="#mapping" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Para producir un mapa de datos de PostGIS, necesita a un cliente que puede obtener los datos. La mayoría de los programas de código abierto GIS pueden hacerlo - gvSIG, QGIS, uDig por ejemplo. Ahora te mostramos cómo hacer un mapa de QGIS.</p>
 <p>Iniciar QGIS desde el menú de escritorio SIG y elija  <code class="docutils literal"><span class="pre">Add</span> <span class="pre">PostGIS</span> <span class="pre">layers</span></code>  en el menú de capa. Los parámetros para la conexión a los datos de Natural Earth en PostGIS ya están definidos en el menú  desplegable de Conexiones. Puede definir nuevas conexiones con servidores aquí y almacenar los ajustes para una fácil recuperación. Haga click en el menú desplegable de conexiones y escoja la Natural Earth. Presione <code class="docutils literal"><span class="pre">editar</span></code> si usted quiere ver lo que esos parámetros son para  Natural Earth, o sólo presione <code class="docutils literal"><span class="pre">Connect</span></code> para continuar:</p>
 <a class="reference internal image-reference" href="../../_images/postgis_addlayers.png"><img alt="Connect to Natural Earth" class="align-center" src="../../_images/postgis_addlayers.png" style="width: 450.0px; height: 378.0px;" /></a>
@@ -314,9 +312,9 @@
 <a class="reference internal image-reference" href="../../_images/postgis_lakesmap.png"><img alt="My First PostGIS layer" class="align-center" src="../../_images/postgis_lakesmap.png" style="width: 1146.0px; height: 952.5px;" /></a>
 <p>Ahora debería ver un mapa de los lagos. QGIS no sabe que son los lagos, así que no podría azul les color para usted - utilizar la documentación de QGIS para trabajar la manera de cambiar esto. Haga un acercamiento sobre  un famoso grupo de lagos en Canadá.</p>
 </div>
-<div class="section" id="creating-a-spatial-table-the-easy-way">
-<h2><a class="toc-backref" href="#id8">Creación de Una Tabla Espacial la Manera Fácil</a><a class="headerlink" href="#creating-a-spatial-table-the-easy-way" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>La mayoría de las herramientas de escritorio de OSGeo tienen funciones para importar datos espaciales en los archivos, como shapefiles, en las bases de datos PostGIS. Otra vez vamos a usar QGIS para mostrar esto.</p>
+<div class="section" id="importing-spatial-data-into-the-database">
+<h2><a class="toc-backref" href="#id7">Importing spatial data into the database</a><a class="headerlink" href="#importing-spatial-data-into-the-database" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Most of the OSGeo desktop tools have functions for importing spatial data from other formats (f.e. ESRI Shape) into the database. Again we’ll use QGIS to show this.</p>
 <p>Importar shapefiles a QGIS puede hacerse mediante el práctico Administrador de Base de Datos de QGIS. Encuentre el manager en el menú. Vaya a <code class="docutils literal"><span class="pre">Database</span> <span class="pre">-&gt;</span> <span class="pre">DB</span> <span class="pre">Manager</span> <span class="pre">-&gt;</span> <span class="pre">DB</span> <span class="pre">Manager</span></code>.</p>
 <p>Despliega el ítem de Postgis, luego el ítem de  NaturalEarth. Luego se conectará a la base de datos de Natural Earth. Dejar la contraseña en blanco si le pide. En el ítem público, hay la lista de las capas de la base de datos. Verás la ventana principal del administrador. A la izquierda puede seleccionar tablas de la base de datos y usar las pestañas de la derecha para conocerlas. La pestaña Vista previa le mostrará un pequeño mapa.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_managerpreview.png"><img alt="QGIS Manager Preview" class="align-center" src="../../_images/postgis_managerpreview.png" style="width: 610.5px; height: 428.25px;" /></a>
@@ -330,8 +328,14 @@
 <a class="reference internal image-reference" href="../../_images/postgis_sidsmap.png"><img alt="SIDS data mapped" class="align-center" src="../../_images/postgis_sidsmap.png" style="width: 1143.75px; height: 948.0px;" /></a>
 </div>
 <div class="section" id="get-to-know-pgadmin-iii">
-<h2><a class="toc-backref" href="#id9">Conocer pgAdmin III</a><a class="headerlink" href="#get-to-know-pgadmin-iii" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Puede utilizar al cliente de base de datos gráfica <code class="docutils literal"><span class="pre">pgAdmin</span> <span class="pre">III</span></code> del menú de Bases de Datos para consultar y modificar su base de datos no-espacialmente. Este es el cliente oficial de PostgreSQL y le permite usar SQL para manipular sus tablas de datos. Puede encontrar y ejecutar pgAdmin III desde la carpeta de Bases de Datos, existente en OSGeo Live Desktop.</p>
+<h2><a class="toc-backref" href="#id8">Conocer pgAdmin III</a><a class="headerlink" href="#get-to-know-pgadmin-iii" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>You can use the graphical database client <code class="docutils literal"><span class="pre">pgAdmin</span> <span class="pre">III</span></code> from the Databases menu to query and modify your database non-spatially. This is the official client for PostgreSQL.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Please note that there is a new version of pgAdmin called pgAdmin4 that can get installed via apt install pgadmin4</p>
+</div>
+<p>pgAdmin III lets you use SQL to manipulate your data tables. You can find and launch pgAdmin III
+from the Databases folder, existing on the OSGeoLive Desktop.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_pgadmin_main_window.png"><img alt="pgAdmin III" class="align-center" src="../../_images/postgis_pgadmin_main_window.png" style="width: 511.0px; height: 370.5px;" /></a>
 <p>Aquí, usted tiene la opción de crear una nueva conexión a un servidor PostgreSQL, o se conecta a un servidor existente. En este caso, vamos a conectar al servidor  <code class="docutils literal"><span class="pre">local</span></code> predefinido.</p>
 <p>Después de la conexión establecida, puede ver la lista de las bases de datos ya existentes en el sistema.</p>
@@ -342,7 +346,7 @@
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen1.png"><img alt="pgAdmin III" class="align-center" src="../../_images/postgis_adminscreen1.png" style="width: 768.0px; height: 557.25px;" /></a>
 </div>
 <div class="section" id="executing-a-sql-query-from-pgadmin-iii">
-<h2><a class="toc-backref" href="#id10">Ejecutar una consulta SQL desde pgAdmin III</a><a class="headerlink" href="#executing-a-sql-query-from-pgadmin-iii" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id9">Executing a SQL query from pgAdmin III</a><a class="headerlink" href="#executing-a-sql-query-from-pgadmin-iii" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>pgAdmin III, ofrece la capacidad de ejecutar consultas a una base de datos relacional.</p>
 <p>Para realizar una consulta en la base de datos, tienes que pulsar el botón <code class="docutils literal"><span class="pre">SQL</span></code> de la barra de herramientas principal (el uno con el amarillo lente de aumento).</p>
 <p>Vamos a encontrar la tasa de SIDS sobre los nacimientos del 1974 para cada ciudad. Además, vamos a ordenar el resultado, en función de la tasa calculada. Para hacer eso, necesitamos realizar la siguiente consulta (enviarla al editor de texto de la Ventana SQL):</p>
@@ -353,25 +357,23 @@
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen2.png"><img alt="pgAdmin III" class="align-center" src="../../_images/postgis_adminscreen2.png" style="width: 768.0px; height: 557.25px;" /></a>
 </div>
 <div class="section" id="things-to-try">
-<h2><a class="toc-backref" href="#id11">Cosas para probar</a><a class="headerlink" href="#things-to-try" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id10">Cosas para probar</a><a class="headerlink" href="#things-to-try" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Aquí están algunos retos adicionales para probar:</p>
-<ol class="arabic simple">
+<ul class="simple">
 <li>Pruebe algunas otras funciones espaciales como <code class="docutils literal"><span class="pre">st_buffer(geom)</span></code>, <code class="docutils literal"><span class="pre">st_transform(geom,25831)</span></code>, <code class="docutils literal"><span class="pre">st_x(geom)</span></code> - cuya  documentación encontrará completa en <a class="reference external" href="http://postgis.net/documentation/">http://postgis.net/documentation/</a></li>
 <li>Exportar las tablas a shapefiles con “” pgsql2shp”” en la línea de comandos.</li>
 <li>Pruebe <code class="docutils literal"><span class="pre">ogr2ogr</span></code> en la línea de comandos para importar/exportar datos a su  base de datos.</li>
 <li>Intente importar datos con  <code class="docutils literal"><span class="pre">shp2pgsql</span></code> en la línea de comandos a su base de datos.</li>
 <li>Trate de hacer el ruteo de camino utilizando <a class="reference internal" href="../overview/pgrouting_overview.html"><span class="doc">pgRouting</span></a>.</li>
-</ol>
+</ul>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id12">¿Qué sigue?</a><a class="headerlink" href="#what-next" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id11">What next?</a><a class="headerlink" href="#what-next" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Esto es sólo el primer paso en el camino a la utilización de PostGIS. Hay mucha más funcionalidad que puede probar.</p>
-<p>Inicio de PostGIS Project</p>
-<blockquote>
-<div><a class="reference external" href="http://postgis.net">http://postgis.net</a></div></blockquote>
-<p>Documentación de PostGIS</p>
-<blockquote>
-<div><a class="reference external" href="http://postgis.net/documentation/">http://postgis.net/documentation/</a></div></blockquote>
+<ul class="simple">
+<li>PostGIS Project home -  <a class="reference external" href="http://postgis.net">http://postgis.net</a></li>
+<li>PostGIS Documentation -  <a class="reference external" href="http://postgis.net/documentation/">http://postgis.net/documentation/</a></li>
+</ul>
 </div>
 </div>
 

@@ -72,7 +72,7 @@
   <a class="reference external image-reference" href="http://postgis.net"><img alt="../../_images/logo_postgis.png" class="align-right" src="../../_images/logo_postgis.png" /></a>
 <a class="reference external image-reference" href="target:http://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <div class="section" id="postgis-quickstart">
-<h1><a class="toc-backref" href="#id1">PostGIS Quickstart</a><a class="headerlink" href="#postgis-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<h1>PostGIS Quickstart<a class="headerlink" href="#postgis-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
 <p>PostGIS adds spatial capabilities to the PostgreSQL relational database. It extends
 PostgreSQL so it can store, query, and manipulate spatial data. In this Quickstart we will
 use 『PostgreSQL』 when describing general database functions, and 『PostGIS』 when
@@ -84,27 +84,24 @@ describing the additional spatial functionality provided by PostGIS.</p>
 <li>Manage data from the <code class="docutils literal"><span class="pre">pgAdmin</span></code> client.</li>
 </ul>
 </div></blockquote>
-<div class="contents topic" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#postgis-quickstart" id="id1">PostGIS Quickstart</a><ul>
-<li><a class="reference internal" href="#client-server-architecture" id="id2">Client-server Architecture</a></li>
-<li><a class="reference internal" href="#creating-a-spatially-enabled-database" id="id3">Creating A Spatially-Enabled database</a></li>
-<li><a class="reference internal" href="#creating-a-spatial-table-the-hard-way" id="id4">Creating A Spatial Table The Hard Way</a></li>
-<li><a class="reference internal" href="#simple-queries" id="id5">Simple Queries</a></li>
-<li><a class="reference internal" href="#spatial-queries" id="id6">Spatial Queries</a></li>
-<li><a class="reference internal" href="#mapping" id="id7">Mapping</a></li>
-<li><a class="reference internal" href="#creating-a-spatial-table-the-easy-way" id="id8">Creating A Spatial Table The Easy Way</a></li>
-<li><a class="reference internal" href="#get-to-know-pgadmin-iii" id="id9">Get to know pgAdmin III</a></li>
-<li><a class="reference internal" href="#executing-a-sql-query-from-pgadmin-iii" id="id10">Executing a SQL Query from pgAdmin III</a></li>
-<li><a class="reference internal" href="#things-to-try" id="id11">Things to try</a></li>
-<li><a class="reference internal" href="#what-next" id="id12">What Next?</a></li>
-</ul>
-</li>
+<li><a class="reference internal" href="#client-server-architecture" id="id1">Client-server architecture</a></li>
+<li><a class="reference internal" href="#creating-a-spatially-enabled-database" id="id2">Creating a spatially-enabled database</a></li>
+<li><a class="reference internal" href="#creating-a-spatial-table-using-sql" id="id3">Creating a Spatial Table using SQL</a></li>
+<li><a class="reference internal" href="#simple-queries" id="id4">Simple queries</a></li>
+<li><a class="reference internal" href="#spatial-queries" id="id5">Spatial queries</a></li>
+<li><a class="reference internal" href="#mapping" id="id6">Mapping</a></li>
+<li><a class="reference internal" href="#importing-spatial-data-into-the-database" id="id7">Importing spatial data into the database</a></li>
+<li><a class="reference internal" href="#get-to-know-pgadmin-iii" id="id8">Get to know pgAdmin III</a></li>
+<li><a class="reference internal" href="#executing-a-sql-query-from-pgadmin-iii" id="id9">Executing a SQL query from pgAdmin III</a></li>
+<li><a class="reference internal" href="#things-to-try" id="id10">Things to try</a></li>
+<li><a class="reference internal" href="#what-next" id="id11">What next?</a></li>
 </ul>
 </div>
 <div class="section" id="client-server-architecture">
-<h2><a class="toc-backref" href="#id2">Client-server Architecture</a><a class="headerlink" href="#client-server-architecture" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Client-server architecture</a><a class="headerlink" href="#client-server-architecture" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>PostgreSQL, like many databases, works as a server in a client-server system.
 The client makes a request to the server and gets back a response. This is the
 same way that the internet works - your browser is a client and a web server sends
@@ -116,10 +113,9 @@ via the internal 『loopback』 network connection, and is not visible to other 
 unless you configure it to be so.</p>
 </div>
 <div class="section" id="creating-a-spatially-enabled-database">
-<h2><a class="toc-backref" href="#id3">Creating A Spatially-Enabled database</a><a class="headerlink" href="#creating-a-spatially-enabled-database" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>Command-line clients run from within a Terminal Emulator window. Start a Terminal
-Emulator (LXTerminal currently) from the Applications menu in the Accessories section. This gives you a
-Unix shell command prompt. Type:</p>
+<h2><a class="toc-backref" href="#id2">Creating a spatially-enabled database</a><a class="headerlink" href="#creating-a-spatially-enabled-database" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>Command-line clients run from within a Terminal Emulator window.</p>
+<p>Start a Terminal Emulator (LXTerminal currently) from the Applications menu in the Accessories section. This gives you a Unix shell command prompt. Type:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">psql</span> <span class="o">-</span><span class="n">V</span>
 </pre></div>
 </div>
@@ -252,8 +248,8 @@ Raster overview tables are used by tools such as QGIS to provide lower resolutio
 <p>PostGIS geometry type is the first and still most popular type used by PostGIS users.
 We’ll be focussing our attention on that type.</p>
 </div>
-<div class="section" id="creating-a-spatial-table-the-hard-way">
-<h2><a class="toc-backref" href="#id4">Creating A Spatial Table The Hard Way</a><a class="headerlink" href="#creating-a-spatial-table-the-hard-way" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="section" id="creating-a-spatial-table-using-sql">
+<h2><a class="toc-backref" href="#id3">Creating a Spatial Table using SQL</a><a class="headerlink" href="#creating-a-spatial-table-using-sql" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>Now we have a spatial database we can make some spatial tables.</p>
 <p>First we create an ordinary database table to store some city data.
 This table has three fields - one for a numeric ID identifying the city,
@@ -291,7 +287,7 @@ data into PostGIS tables that are much easier. But now we have three cities in o
 can work with that.</p>
 </div>
 <div class="section" id="simple-queries">
-<h2><a class="toc-backref" href="#id5">Simple Queries</a><a class="headerlink" href="#simple-queries" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Simple queries</a><a class="headerlink" href="#simple-queries" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>All the usual SQL operations can be applied to select data from a PostGIS table:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT * FROM cities;</span>
  <span class="nb">id</span> <span class="o">|</span>      <span class="n">name</span>       <span class="o">|</span>                      <span class="n">geom</span>
@@ -317,7 +313,7 @@ use ST_X(geom), ST_Y(geom) to get the numeric value of the coordinates:</p>
 </div>
 </div>
 <div class="section" id="spatial-queries">
-<h2><a class="toc-backref" href="#id6">Spatial Queries</a><a class="headerlink" href="#spatial-queries" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Spatial queries</a><a class="headerlink" href="#spatial-queries" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>PostGIS adds many functions with spatial functionality to
 PostgreSQL. We’ve already seen ST_GeomFromText which converts WKT to
 geometry. Most of them start with ST (for spatial type) and are listed in a section of
@@ -363,7 +359,7 @@ spheroid name, semi-major axis and inverse flattening parameters:</p>
 </div>
 </div>
 <div class="section" id="mapping">
-<h2><a class="toc-backref" href="#id7">Mapping</a><a class="headerlink" href="#mapping" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id6">Mapping</a><a class="headerlink" href="#mapping" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>To produce a map from PostGIS data, you need a client that can get at the data. Most
 of the open source desktop GIS programs can do this - QGIS, gvSIG, uDig for example. Now we’ll
 show you how to make a map from QGIS.</p>
@@ -383,10 +379,9 @@ loaded into QGIS:</p>
 them blue for you - use the QGIS documentation to work out how to change this. Zoom in to
 a famous group of lakes in Canada.</p>
 </div>
-<div class="section" id="creating-a-spatial-table-the-easy-way">
-<h2><a class="toc-backref" href="#id8">Creating A Spatial Table The Easy Way</a><a class="headerlink" href="#creating-a-spatial-table-the-easy-way" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>Most of the OSGeo desktop tools have functions for importing spatial data in files, such as shapefiles,
-into PostGIS databases. Again we’ll use QGIS to show this.</p>
+<div class="section" id="importing-spatial-data-into-the-database">
+<h2><a class="toc-backref" href="#id7">Importing spatial data into the database</a><a class="headerlink" href="#importing-spatial-data-into-the-database" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>Most of the OSGeo desktop tools have functions for importing spatial data from other formats (f.e. ESRI Shape) into the database. Again we’ll use QGIS to show this.</p>
 <p>Importing shapefiles to QGIS can be done via the handy QGIS Database Manager. You find the manager in the menu. Go to <code class="docutils literal"><span class="pre">Database</span> <span class="pre">-&gt;</span> <span class="pre">DB</span> <span class="pre">Manager</span> <span class="pre">-&gt;</span> <span class="pre">DB</span> <span class="pre">Manager</span></code>.</p>
 <p>Deploys the Postgis item, then the NaturalEarth item. It will then  connect to the Natural Earth database. Leave
 the password blank if it asks. In the public item, there is the list of the layers provided by the database. You’ll see the main manager window. On the left you can select
@@ -410,10 +405,14 @@ a choropleth map of the sudden infant death syndrome counts (sid74 or sid79 fiel
 <a class="reference internal image-reference" href="../../_images/postgis_sidsmap.png"><img alt="SIDS data mapped" class="align-center" src="../../_images/postgis_sidsmap.png" style="width: 1143.75px; height: 948.0px;" /></a>
 </div>
 <div class="section" id="get-to-know-pgadmin-iii">
-<h2><a class="toc-backref" href="#id9">Get to know pgAdmin III</a><a class="headerlink" href="#get-to-know-pgadmin-iii" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>You can use the graphical database client <code class="docutils literal"><span class="pre">pgAdmin</span> <span class="pre">III</span></code> from the Databases menu to query and modify your database non-spatially. This
-is the official client for PostgreSQL, and lets you use SQL to manipulate your data tables. You can find and launch pgAdmin III
-from the Databases folder, existing on the OSGeo Live Desktop.</p>
+<h2><a class="toc-backref" href="#id8">Get to know pgAdmin III</a><a class="headerlink" href="#get-to-know-pgadmin-iii" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>You can use the graphical database client <code class="docutils literal"><span class="pre">pgAdmin</span> <span class="pre">III</span></code> from the Databases menu to query and modify your database non-spatially. This is the official client for PostgreSQL.</p>
+<div class="admonition tip">
+<p class="first admonition-title">ちなみに</p>
+<p class="last">Please note that there is a new version of pgAdmin called pgAdmin4 that can get installed via apt install pgadmin4</p>
+</div>
+<p>pgAdmin III lets you use SQL to manipulate your data tables. You can find and launch pgAdmin III
+from the Databases folder, existing on the OSGeoLive Desktop.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_pgadmin_main_window.png"><img alt="pgAdmin III" class="align-center" src="../../_images/postgis_pgadmin_main_window.png" style="width: 511.0px; height: 370.5px;" /></a>
 <p>Here, you have the option of creating a new connection to a PostgreSQL server, or connecting to an existing server.
 In this case, we are going to connect to the predefined <code class="docutils literal"><span class="pre">local</span></code> server.</p>
@@ -431,7 +430,7 @@ displaying the contents of the database.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen1.png"><img alt="pgAdmin III" class="align-center" src="../../_images/postgis_adminscreen1.png" style="width: 768.0px; height: 557.25px;" /></a>
 </div>
 <div class="section" id="executing-a-sql-query-from-pgadmin-iii">
-<h2><a class="toc-backref" href="#id10">Executing a SQL Query from pgAdmin III</a><a class="headerlink" href="#executing-a-sql-query-from-pgadmin-iii" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id9">Executing a SQL query from pgAdmin III</a><a class="headerlink" href="#executing-a-sql-query-from-pgadmin-iii" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>pgAdmin III, offers the capability of executing queries to a relational database.</p>
 <p>To perform a query on the database, you have to press the <code class="docutils literal"><span class="pre">SQL</span></code> button from the main toolbar (the one with the
 yellow Magnifying lens).</p>
@@ -445,25 +444,23 @@ on the text editor of the SQL Window):</p>
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen2.png"><img alt="pgAdmin III" class="align-center" src="../../_images/postgis_adminscreen2.png" style="width: 768.0px; height: 557.25px;" /></a>
 </div>
 <div class="section" id="things-to-try">
-<h2><a class="toc-backref" href="#id11">Things to try</a><a class="headerlink" href="#things-to-try" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id10">Things to try</a><a class="headerlink" href="#things-to-try" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>Here are some additional challenges for you to try:</p>
-<ol class="arabic simple">
+<ul class="simple">
 <li>Try some more spatial functions like <code class="docutils literal"><span class="pre">st_buffer(geom)</span></code>, <code class="docutils literal"><span class="pre">st_transform(geom,25831)</span></code>, <code class="docutils literal"><span class="pre">st_x(geom)</span></code> - you will find full documentation at <a class="reference external" href="http://postgis.net/documentation/">http://postgis.net/documentation/</a></li>
 <li>Export your tables to shapefiles with <code class="docutils literal"><span class="pre">pgsql2shp</span></code> on the command line.</li>
 <li>Try <code class="docutils literal"><span class="pre">ogr2ogr</span></code> on the command line to import/export data to your database.</li>
 <li>Try to import data with <code class="docutils literal"><span class="pre">shp2pgsql</span></code> on the command line to your database.</li>
 <li>Try to do road routing using <a class="reference internal" href="../overview/pgrouting_overview.html"><span class="doc">pgRouting</span></a>.</li>
-</ol>
+</ul>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id12">What Next?</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id11">What next?</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>This is only the first step on the road to using PostGIS. There is a lot more functionality you can try.</p>
-<p>PostGIS Project home</p>
-<blockquote>
-<div><a class="reference external" href="http://postgis.net">http://postgis.net</a></div></blockquote>
-<p>PostGIS Documentation</p>
-<blockquote>
-<div><a class="reference external" href="http://postgis.net/documentation/">http://postgis.net/documentation/</a></div></blockquote>
+<ul class="simple">
+<li>PostGIS Project home -  <a class="reference external" href="http://postgis.net">http://postgis.net</a></li>
+<li>PostGIS Documentation -  <a class="reference external" href="http://postgis.net/documentation/">http://postgis.net/documentation/</a></li>
+</ul>
 </div>
 </div>
 
