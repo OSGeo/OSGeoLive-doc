@@ -5,6 +5,7 @@
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Nicolas Roelandt
 :Reviewer: Angelos Tzotsos, OSGeo
+:Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive12.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -40,9 +41,10 @@ This Quick Start describes how to:
 
 
 .. contents:: Contents
+   :local:
 
-Client-server Architecture
-================================================================================
+Client-server architecture
+==========================
 
 PostgreSQL, like many databases, works as a server in a client-server system.
 The client makes a request to the server and gets back a response. This is the
@@ -55,12 +57,12 @@ enables you to use PostgreSQL on a single machine. Your client connects to the s
 via the internal 'loopback' network connection, and is not visible to other computers
 unless you configure it to be so.
 
-Creating A Spatially-Enabled database
-================================================================================
+Creating a spatially-enabled database
+=====================================
 
-Command-line clients run from within a Terminal Emulator window. Start a Terminal
-Emulator (LXTerminal currently) from the Applications menu in the Accessories section. This gives you a
-Unix shell command prompt. Type::
+Command-line clients run from within a Terminal Emulator window. 
+
+Start a Terminal Emulator (LXTerminal currently) from the Applications menu in the Accessories section. This gives you a Unix shell command prompt. Type::
 
    psql -V
 
@@ -224,8 +226,8 @@ We'll be focussing our attention on that type.
 
 
 
-Creating A Spatial Table The Hard Way
-================================================================================
+Creating a Spatial Table using SQL
+==================================
 
 Now we have a spatial database we can make some spatial tables.
 
@@ -272,8 +274,8 @@ data into PostGIS tables that are much easier. But now we have three cities in o
 can work with that.
 
 
-Simple Queries
-================================================================================
+Simple queries
+==============
 
 All the usual SQL operations can be applied to select data from a PostGIS table:
 
@@ -305,8 +307,8 @@ use ST_X(geom), ST_Y(geom) to get the numeric value of the coordinates:
 
 
 
-Spatial Queries
-================================================================================
+Spatial queries
+===============
 
 PostGIS adds many functions with spatial functionality to
 PostgreSQL. We've already seen ST_GeomFromText which converts WKT to
@@ -361,7 +363,7 @@ You are now back to system console:
     user@osgeolive:~$
 
 Mapping
-================================================================================
+=======
 
 To produce a map from PostGIS data, you need a client that can get at the data. Most 
 of the open source desktop GIS programs can do this - QGIS, gvSIG, uDig for example. Now we'll
@@ -399,11 +401,10 @@ them blue for you - use the QGIS documentation to work out how to change this. Z
 a famous group of lakes in Canada.
 
 
-Creating A Spatial Table The Easy Way
-================================================================================
+Importing spatial data into the database
+========================================
 
-Most of the OSGeo desktop tools have functions for importing spatial data in files, such as shapefiles,
-into PostGIS databases. Again we'll use QGIS to show this.
+Most of the OSGeo desktop tools have functions for importing spatial data from other formats (f.e. ESRI Shape) into the database. Again we'll use QGIS to show this.
 
 Importing shapefiles to QGIS can be done via the handy QGIS Database Manager. You find the manager in the menu. Go to ``Database -> DB Manager -> DB Manager``.
 
@@ -453,11 +454,15 @@ a choropleth map of the sudden infant death syndrome counts (sid74 or sid79 fiel
 
 
 Get to know pgAdmin III
-================================================================================
+=======================
 
-You can use the graphical database client ``pgAdmin III`` from the Databases menu to query and modify your database non-spatially. This
-is the official client for PostgreSQL, and lets you use SQL to manipulate your data tables. You can find and launch pgAdmin III 
-from the Databases folder, existing on the OSGeo Live Desktop.
+You can use the graphical database client ``pgAdmin III`` from the Databases menu to query and modify your database non-spatially. This is the official client for PostgreSQL.
+
+.. tip:: 
+   Please note that there is a new version of pgAdmin called pgAdmin4 that can get installed via apt install pgadmin4
+
+pgAdmin III lets you use SQL to manipulate your data tables. You can find and launch pgAdmin III 
+from the Databases folder, existing on the OSGeoLive Desktop. 
 
 .. image:: /images/projects/postgis/postgis_pgadmin_main_window.png
   :scale: 50 %
@@ -496,8 +501,8 @@ Navigate at the ``schemas`` subtree, expand it. Afterwards expand the
   
 
 
-Executing a SQL Query from pgAdmin III
-================================================================================
+Executing a SQL query from pgAdmin III
+======================================
 pgAdmin III, offers the capability of executing queries to a relational database.
 
 To perform a query on the database, you have to press the ``SQL`` button from the main toolbar (the one with the 
@@ -520,31 +525,27 @@ Afterwards, you should press the green arrow button, pointing to the right (exec
   
 
 Things to try
-================================================================================
+=============
 
 Here are some additional challenges for you to try:
 
-#. Try some more spatial functions like ``st_buffer(geom)``, ``st_transform(geom,25831)``, ``st_x(geom)`` - you will find full documentation at http://postgis.net/documentation/
+* Try some more spatial functions like ``st_buffer(geom)``, ``st_transform(geom,25831)``, ``st_x(geom)`` - you will find full documentation at http://postgis.net/documentation/
 
-#. Export your tables to shapefiles with ``pgsql2shp`` on the command line.
+* Export your tables to shapefiles with ``pgsql2shp`` on the command line.
 
-#. Try ``ogr2ogr`` on the command line to import/export data to your database.
+* Try ``ogr2ogr`` on the command line to import/export data to your database.
 
-#. Try to import data with ``shp2pgsql`` on the command line to your database.
+* Try to import data with ``shp2pgsql`` on the command line to your database.
 
-#. Try to do road routing using :doc:`../overview/pgrouting_overview`.
+* Try to do road routing using :doc:`../overview/pgrouting_overview`.
 
 
 
-What Next?
-================================================================================
+What next?
+==========
 
 This is only the first step on the road to using PostGIS. There is a lot more functionality you can try.
 
-PostGIS Project home
+* PostGIS Project home -  http://postgis.net
 
- http://postgis.net
-
-PostGIS Documentation
-
- http://postgis.net/documentation/
+* PostGIS Documentation -  http://postgis.net/documentation/
