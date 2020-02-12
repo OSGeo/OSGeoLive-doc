@@ -79,7 +79,7 @@ Start MapSlicer
        :scale: 70 %
        :align: center
 
-#. Open the *openlayers.html* files in a web browser to view the tileset as an overlay on the live online map. To present this on the web, just copy the entire tileset and all subdirectories to a web server, and edit the googlemaps.html or openlayers.html files as required.
+11. Open the *openlayers.html* files in a web browser to view the tileset as an overlay on the live online map. To present this on the web, just copy the entire tileset and all subdirectories to a web server, and edit the googlemaps.html or openlayers.html files as required.
 
    .. image:: /images/projects/mapslicer/mapslicer10.jpg
        :scale: 70 %
