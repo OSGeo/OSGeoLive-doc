@@ -38,12 +38,12 @@ Start Mapbender
 
 #. Choose  :menuselection:`Geospatial --> Browser Clients --> Mapbender` from the start menu or visit http://localhost/mapbender/app.php. The application will take a few moments to start up
 
-If you have any difficulties running Mapbender, please check whether your Apache web server and your PostgreSQL database are running. Or if you use SQLite as database whether you have write access to the file.
+   If you have any difficulties running Mapbender, please check whether your Apache web server and your PostgreSQL database are running. Or if you use SQLite as database whether you have write access to the file.
 
 
-The Welcome page lists applications that are public and can be used by all users. The applications are listed with a screenshot, a title and a description.
+   The Welcome page lists applications that are public and can be used by all users. The applications are listed with a screenshot, a title and a description.
 
-You can open an application by click on the title, the screenshot or the start button.
+   You can open an application by click on the title, the screenshot or the start button.
 
 #. Before you can administrate with Mapbender you have to login to get access to the administration.
 
@@ -86,9 +86,8 @@ A WMS returns an XML-file when the getCapabilities document is requested. This i
 
 #. Choose menu item :menuselection:`Services --> Add Service` or use the +-Button.
 
-#. Link to the WMS getCapabilities URL in the text field :menuselection:`Serviceurl`. Here is a example WMS:
-WhereGroup OSM WMS
-https://osm-demo.wheregroup.com/service?SERVICE=WMS&VERSION=1.3.0&REQUEST=getCapabilities
+#. Link to the WMS getCapabilities URL in the text field :menuselection:`Serviceurl`. 
+   Here is a example WMS: WhereGroup OSM WMS https://osm-demo.wheregroup.com/service?SERVICE=WMS&VERSION=1.3.0&REQUEST=getCapabilities
 
 #. Enter username and password if your service needs authentication.
 
