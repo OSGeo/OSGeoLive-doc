@@ -65,8 +65,7 @@ The first steps into istSOS setup is to configure the default configuration opti
 
    * *Permitted EPSG*: here you can configure which other Coordinate Reference Systems your system will support and reproject if requested.
 
-#. From the toolbar buttons menu, press the "GetObservation Configuration" button to
-set maximum time interval per getObservation request (zero for no limits) and aggregation no-data value.
+#. From the toolbar buttons menu, press the "GetObservation Configuration" button to set maximum time interval per getObservation request (zero for no limits) and aggregation no-data value.
 
 #. Configure your service proxy address. The Proxy URL field is the base URL seen beyond a reverse proxy.
 
