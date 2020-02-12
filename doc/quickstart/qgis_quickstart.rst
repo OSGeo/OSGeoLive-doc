@@ -54,7 +54,7 @@ You will see QGIS launch with an empty project. The various parts of the QGIS In
 Create a project
 ================
 
-#. Choose :menuselection:`Project --> New`.
+To create a new project, choose :menuselection:`Project --> New`.
 
    .. image:: /images/projects/qgis/qgis_new_project.png
       :scale: 70 %
