@@ -15,7 +15,7 @@ OSGeoLive
         Press ESC to zoom out, SPACE / arrow keys to navigate, s for slide notes.
     .. rv_small::
 
-        Note: Pop-ups are blocked in some browsers due to security settings. Try firefox or safari.
+        Note: Pop-ups are blocked in some browsers due to security settings. Try Firefox or Safari.
     
     .. rv_note::
         This OSGeoLive Overview, originally compiled by Cameron Shorter is licensed under a Creative Commons Attribution 3.0 License. It is derived from OSGeoLive Project Overviews, which are authored by the numerous OSGeoLive authors as referenced in the credits page at the end of this presentation, and also at <a href="https://live.osgeo.org">https://live.osgeo.org</a>.
@@ -157,4 +157,3 @@ OSGeoLive
             * It facilitates sharing data between agencies.
             * It reduces long term costs associated with data maintenance,
             * and it reduces long term project risk by avoiding dependence upon proprietary formats or products, thus avoiding vendor lock-in.
-
