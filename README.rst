@@ -1,10 +1,11 @@
-Building OSGeoLive documentation
+Building OSGeoLive Documentation
 ================================
 
 The following steps describe how to build OSGeoLive_ documentation on an Ubuntu
 based operating system (such as Lubuntu).
 
-https://osgeo.github.io/OSGeoLive-doc/ - automated publication of latest docs from GitHub
+https://osgeo.github.io/OSGeoLive-doc/ - automated publication of latest docs from GitHub. 
+You can see the [build script here](.travis.yml). 
 
 About OSGeoLive
 ~~~~~~~~~~~~~~~
@@ -19,18 +20,19 @@ reStructured Text
 ~~~~~~~~~~~~~~~~~
 
 The majority of OSGeoLive documentation is generated from reStructured text (reSt) sources
-using Sphinx. reSt is similar to wiki markup, and readable in plain ascii. As a
-quick check, github will (partially) render reSt documents as HTML.
+using Sphinx. reSt is similar to wiki markup, and readable in plain ASCII. As a
+quick check, GitHub will (partially) render reSt documents as HTML.
 
 Build steps
 ~~~~~~~~~~~
 
-1.1 Install python and sphinx version 1.6.5 or greater (as provided with Ubuntu >16.04), (install_main_docs.sh does this too)
+Following the steps below on the OSGeoLive Virtual Machine itself is one of the easiest ways 
+to build the OSGeoLive documentation. 
+
+1 Install Python and create a virtual environment. 
 
 For Python 2
 ::
-   cd /root/of/repo
-
    # Install pip
    sudo apt-get install python-pip
 
@@ -41,19 +43,8 @@ For Python 2
    # activate the environment
    source py-env/bin/activate
 
-   # install the requirements
-   pip install sphinx==1.6.5
-   pip install sphinx-intl
-   pip install sphinxjp.themes.revealjs
-
-   # Requirements for the presentation
-   sudo apt-get install cpanminus
-   sudo cpanm Text::SimpleTable::AutoWidth
-
 For Python 3
 ::
-   cd /root/of/repo
-
    # Install pip
    sudo apt-get install python3-pip
    sudo apt-get install python3-venv
@@ -64,21 +55,14 @@ For Python 3
    # activate the environment
    source py-env/bin/activate
 
+1.2 Install the requirements
+::
    # install the requirements
    pip install sphinx==1.6.5
    pip install sphinx-intl
    pip install sphinxjp.themes.revealjs
 
    # Requirements for the presentation
-   sudo apt-get install cpanminus
-   sudo cpanm Text::SimpleTable::AutoWidth
-  
-::
-
-1.2 Install the requirements
-   sudo pip install sphinx==1.6.5
-   sudo pip install sphinx-intl
-   sudo pip install sphinxjp.themes.revealjs
    sudo apt-get install cpanminus
    sudo cpanm Text::SimpleTable::AutoWidth
 
@@ -99,7 +83,6 @@ The output is in build/doc/_build/html/
 
 4. Generate another language documentation
 ::
-   mkdir build
    cd build
    cmake -DHTML=ON -DFR=ON ..
    make
@@ -108,12 +91,20 @@ The output is in build/doc/_build/html/
 Adding -DFR=ON adds the French language, adding another -DES=ON adds Spanish, and so on. 
 The output is also in build/doc/_build/html/
 
-5. Optional: reduce the size of the generated documentation
+5. To build all available languages
+::
+   cd build
+   cmake -DHTML=ON -DALL_LANG=ON ..
+   make
+   cd ..
+
+6. Optional: reduce the size of the generated documentation
 ::
    bash scripts/clean-images.sh
 
 Contributing:
 ~~~~~~~~~~~~~
+
 Information about how to document the projects on OSGeoLive can be found on the OSGeoLive wiki: https://trac.osgeo.org/osgeolive/wiki
 
 * `How to document a project <https://trac.osgeo.org/osgeolive/wiki/How%20to%20document%20a%20project>`__
@@ -126,7 +117,7 @@ References:
 
 * http://wiki.osgeo.org/wiki/Live_GIS_Add_Project#Application_Overview
 
-* http://sphinx.pocoo.org
+* https://www.sphinx-doc.org
 
 * http://docutils.sf.net/rst.html
 
