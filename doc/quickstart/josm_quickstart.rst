@@ -187,12 +187,13 @@ Draw your own map
 =================
 
 Now let’s draw a map in order to practice the techniques you have learned. You may wish to redraw the map that you drew on paper previously.
--  Drag the map away from the sample map. Hold the right mouse button
-   and drag your mouse, until you have a nice empty area to draw on.
--  Use the Draw tool to create points, lines, and shapes. Describe what
-   your objects are by selecting from the Presets menu.
--  When you are finished, you should have your own map, similar to the
-   sample map that we opened in sample.osm.
+
+- Drag the map away from the sample map. Hold the right mouse button
+  and drag your mouse, until you have a nice empty area to draw on.
+- Use the Draw tool to create points, lines, and shapes. Describe what
+  your objects are by selecting from the Presets menu.
+- When you are finished, you should have your own map, similar to the
+  sample map that we opened in sample.osm.
 
 Remove the sample layer
 =======================

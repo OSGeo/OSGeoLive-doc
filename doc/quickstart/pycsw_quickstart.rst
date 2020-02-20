@@ -22,25 +22,25 @@ Run the tester application
 
 1. On the Desktop go to `Web Services --> pycsw` or open Firefox and navigate to ``http://localhost/pycsw/tests/index.html``:
 
-.. image:: /images/projects/pycsw/pycsw_tester_startup.png
-  :scale: 75 %
+   .. image:: /images/projects/pycsw/pycsw_tester_startup.png
+     :scale: 75 %
 
   By selecting the left drop-down list, the user can see various predefined POST requests, encoded as XML, that can be sent to pycsw. 
 
 2. Select "apiso/DescribeRecord" and press the "Send" button. A description of the ISO Application Profile record is presented on the right panel.
 
-.. image:: /images/projects/pycsw/pycsw_tester_describe_apiso_record.png
-  :scale: 75 %
+   .. image:: /images/projects/pycsw/pycsw_tester_describe_apiso_record.png
+     :scale: 75 %
 
 3. Selecting "GetCapabilities-SOAP" and press the "Send" button. A SOAP request is sent to the server to advertise their web service capabilities.
 
-.. image:: /images/projects/pycsw/pycsw_tester_soap_capabillities.png
-  :scale: 75 %
+   .. image:: /images/projects/pycsw/pycsw_tester_soap_capabillities.png
+     :scale: 75 %
 
 4. You can search for data records, performing a spatial bounding box query, by selecting "GetRecords-filter-bbox" and editing the coordinates in the XML request.
 
-.. image:: /images/projects/pycsw/pycsw_tester_getrecords_bbox_filter.png
-  :scale: 75 %
+   .. image:: /images/projects/pycsw/pycsw_tester_getrecords_bbox_filter.png
+     :scale: 75 %
 
 You can go through all the available requests and perform various requests from this testing application.
 

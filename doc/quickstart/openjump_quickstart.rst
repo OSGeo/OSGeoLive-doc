@@ -68,27 +68,27 @@ Edit feature geometries in a layer
 #. Click on the menu entry "Editable" so that a check mark is shown. This will open a new floating toolbar over the Map View on the right side. This toolbar has a set of buttons that you can use to edit the geometry of a geographic feature.
 
    .. image:: /images/projects/openjump/openjump_ss_05.png
-   :scale: 55 
-   
+     :scale: 55 
+
    .. image:: /images/projects/openjump/openjump_ss_06.png
-   :scale: 55 
+     :scale: 55 
 
 #. Let's try a quick edit. First we need to select a geometry and then we move a point of the geometry. To do that, we first click the button that shows a mouse cursor in the editing toolbar (top left button). 
 #. Activate it and click on a single feature in the Layer View to select it. If the selection worked, then the features line color should change to yellow and small yellow squares appear at each angle point (vertex) in the feature geometry. 
 
    .. image:: /images/projects/openjump/openjump_ss_07.png
-   :scale: 55 
+     :scale: 55 
 
 #. Next, click on the button that shows a blue crosshair with a yellow square in the middle, the :guilabel:`Move Vertex Tool` (Hoovering over the buttons gives you a button description). You should now see your mouse cursor change to a small black crosshair when you move it over the Map View. 
 
    .. image:: /images/projects/openjump/openjump_ss_08.png
-   :scale: 55 
+     :scale: 55 
 
 #. Try using this to move one of the vertices/points of the geometry you selected before by clicking on one of the vertices and dragging it (leaving the mouse button pressed).
 
    .. image:: /images/projects/openjump/openjump_ss_09.png
-   :scale: 55 
-   
+     :scale: 55 
+
 What next?
 ==========
 
