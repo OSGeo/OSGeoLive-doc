@@ -89,7 +89,7 @@ The output is in `build/doc/_build/html/`
    cd ..
 
 Adding -DFR=ON adds the French language, adding another -DES=ON adds Spanish, and so on. 
-The output is also in build/doc/_build/html/
+The output is also in `build/doc/_build/html/`
 
 6. To build all available languages
 ::
@@ -98,7 +98,7 @@ The output is also in build/doc/_build/html/
    make
    cd ..
 
-7. *Optional: reduce the size of the generated documentation
+7. *Optional*: reduce the size of the generated documentation
 ::
    bash scripts/clean-images.sh
 
