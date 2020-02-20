@@ -57,7 +57,7 @@ For Python 3
 
 1.2 Install the requirements
 ::
-   # install the requirements
+   # Python requirements
    pip install sphinx==1.6.5
    pip install sphinx-intl
    pip install sphinxjp.themes.revealjs
@@ -79,7 +79,7 @@ For Python 3
    make
    cd ..
 
-The output is in build/doc/_build/html/
+The output is in `build/doc/_build/html/`
 
 4. Generate another language documentation
 ::
