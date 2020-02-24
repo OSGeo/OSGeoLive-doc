@@ -207,7 +207,7 @@ Saving your changes
 ===================
 
 #. When (and if) you want to save your edits to OpenStreetMap, click the
-  **Save** button. The panel on the left will show the upload panel.
+   **Save** button. The panel on the left will show the upload panel.
 
    |image36|
 

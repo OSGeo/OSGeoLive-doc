@@ -99,7 +99,8 @@ Vertical sections and transects along arbitrary paths
 #. Click on the map to start drawing a line. 
 #. Add "waypoints" along this line by single-clicking at each point. 
 #. Double-click to finish the line. 
-  A new browser window opens showing the variation of the viewed variable along the line (i.e. a transect plot). If the variable has a vertical dimension, a vertical section plot will display under the transect plot.
+   A new browser window opens showing the variation of the viewed variable along the line (i.e. a transect plot). If the variable has a vertical dimension, a vertical section plot will display under the transect plot.
+
 
 Changing the background map
 ---------------------------

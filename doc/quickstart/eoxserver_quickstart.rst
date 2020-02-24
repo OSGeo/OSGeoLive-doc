@@ -136,13 +136,10 @@ This is a simple demonstration, but you can do much more with EOxServer. The
 project website contains a lot of resources to help you get started. Here’s 
 a few resources to check out next:
 
-* See the :doc:`EOxServer Overview <../overview/eoxserver_overview>`_ for more information.
-* Read the `EOxServer Operators' Guide 
-  <https://eoxserver.readthedocs.org/en/latest/users/operators.html>`_.
-* Read the complete `EOxServer Users' documentation 
-  <https://eoxserver.readthedocs.org/en/latest/users/index.html>`_ starting from
-  the `EOxServer Basics
-  <https://eoxserver.readthedocs.org/en/latest/users/basics.html>`_.
+* See the :doc:`EOxServer Overview <../overview/eoxserver_overview>` for more information.
+* Read the `EOxServer Operators' Guide <https://eoxserver.readthedocs.org/en/latest/users/operators.html>`_.
+* Read the complete `EOxServer Users' documentation <https://eoxserver.readthedocs.org/en/latest/users/index.html>`_
+  starting from the `EOxServer Basics <https://eoxserver.readthedocs.org/en/latest/users/basics.html>`_.
 * If you are already in the OSGeoLive environment, read the local copy of the `EOxServer Users' local documentation
   <https://localhost/eoxserver-docs/EOxServer_documentation.pdf>`_
 * Ready to use EOxServer? Then join the community on the `mailing lists 

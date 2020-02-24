@@ -59,7 +59,7 @@ Define the projection of your view
 
 #. Select :menuselection:`View --> Properties`.
 
-  .. image:: /images/projects/gvsig/gvsig_qs_002_.png
+   .. image:: /images/projects/gvsig/gvsig_qs_002_.png
      :scale: 55
 
 #. For the :guilabel:`Current projection`, click on the :guilabel:`...` button.
@@ -72,20 +72,19 @@ Define the projection of your view
 #. Select :guilabel:`OK` to return to the **View Properties** dialog. The EPSG code is now 4326 and that the map units have changed to degrees.
 #. Select :guilabel:`OK` to return to the **Project Manager**.
 
-  .. image:: /images/projects/gvsig/gvsig_qs_003_.png
-   :scale: 55
-
+.. image:: /images/projects/gvsig/gvsig_qs_003_.png
+  :scale: 55
 
 * (1) The view window consists of three zones.
 * (2) The top-left cell contains a list of vector or raster layers being used in
-   the view (i.e. Table-of-Contents).
+  the view (i.e. Table-of-Contents).
 * (3) The bottom-left cell displays the extent of the main view over a selected
-   vector file.
+  vector file.
 * (4) The right cell is the main display area where raster and vector data is
-   rendered.
+  rendered.
 
 .. image:: /images/projects/gvsig/gvsig_qs_005_.png
-   :scale: 55
+  :scale: 55
 
 Add layers to the view
 ======================

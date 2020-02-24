@@ -45,34 +45,34 @@ Process data
 
 1. Click on the link to open the 52nWPS-TestClient. 
 
-  .. image:: /images/projects/52nWPS/52nWPS_welcome_page_2.png
-    :scale: 70 %
-    :alt: screenshot
+   .. image:: /images/projects/52nWPS/52nWPS_welcome_page_2.png
+     :scale: 70 %
+     :alt: screenshot
 
 2. Make sure that :doc:`GeoServer <../overview/geoserver_overview>` is running since the demonstration requires data from the local GeoServer installation.
 3. To do this, try to open the page http://localhost:8082/geoserver/web. If the page could not be found, select |osgeolive-appmenupath-geoserver| in the menu. The GeoServer should be running after a few moments.
 
 4. Select the example request "SimpleBuffer_out_wfs.xml" from the dropdown list:
   
-  .. image:: /images/projects/52nWPS/52nWPS_test_client.png
-    :scale: 70 %
-    :alt: screenshot
+   .. image:: /images/projects/52nWPS/52nWPS_test_client.png
+     :scale: 70 %
+     :alt: screenshot
   
 5. Push the Send-Button and the request will be transmitted to the 52°North WPS which will
-  generate a buffer around the major roads of Tasmania with a width of 0.05 degrees and store
-  the result in GeoServer. 
+   generate a buffer around the major roads of Tasmania with a width of 0.05 degrees and store
+   the result in GeoServer. 
 
-  .. image:: /images/projects/52nWPS/52nWPS_output_stored_in_wfs.png
-    :scale: 70 %
-    :alt: screenshot
+   .. image:: /images/projects/52nWPS/52nWPS_output_stored_in_wfs.png
+     :scale: 70 %
+     :alt: screenshot
   
 6. Copy the ResourceID from the response. This is the name of the GeoServer layer. Add the ID to the
-  following request: http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers=Add-ResourceID-here
-  You should get the following result:
+   following request: http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers=Add-ResourceID-here
+   You should get the following result:
 
-  .. image:: /images/projects/52nWPS/52nWPS_result_in_geoserver.png
-    :scale: 70 %
-    :alt: screenshot
+   .. image:: /images/projects/52nWPS/52nWPS_result_in_geoserver.png
+     :scale: 70 %
+     :alt: screenshot
 
 Things to try
 =============

@@ -32,11 +32,10 @@ From the Desktop, select :menuselection:`Browser Clients --> Start Geomajas`. Wa
 Alternatively, you can then access the application using the following URL: `<http://localhost:8080/geomajas/>`_. 
 
 .. image:: /images/projects/geomajas/geomajas_screenshot.png
-    :width: 100%
-    :alt: The default view of the provided Geomajas application
+  :width: 100%
+  :alt: The default view of the provided Geomajas application
 
-  .. Tip:: When you’re finished using the application, select :menuselection:`Browser Clients --> Stop Geomajas`. 
-
+.. Tip:: When you’re finished using the application, select :menuselection:`Browser Clients --> Stop Geomajas`. 
 
 Navigating the map
 ==================

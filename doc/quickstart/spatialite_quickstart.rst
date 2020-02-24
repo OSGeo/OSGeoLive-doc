@@ -79,9 +79,10 @@ Run an SQL query
 
 #. Now let's try tweaking this SQL statement to get NOME and (Lat,Long) for only the NOME_PROV fields include "BRESCIA", this time using the MunicipalHallsView.  In the upper right SQL pane type::
 
-   SELECT NOME, X(Geometry) AS Longitude, Y(Geometry) AS Latitude
+    SELECT NOME, X(Geometry) AS Longitude, Y(Geometry) AS Latitude
         FROM "MunicipalHallsView"
         WHERE NOME_PROV LIKE "BRESCIA";
+
 
 #. Click the "Execute SQL" button at the right, and see the results in the bottom right pane.
 
@@ -98,13 +99,15 @@ Users needing to script or automate queries will learn the advantages of working
 
 #. In the terminal open a sample database with **spatialite** by typing::
 
-   spatialite /home/user/data/spatialite/trento.sqlite
+    spatialite /home/user/data/spatialite/trento.sqlite
+
 
    Helpful commands from the command line::
+    
+     .help
+     .tables
+     .quit
 
-   .help
-   .tables
-   .quit   
 
 Create a new spatialite database and load a shapefile
 =====================================================

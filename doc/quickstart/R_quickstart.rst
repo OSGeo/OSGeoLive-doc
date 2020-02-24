@@ -32,7 +32,7 @@ press return, and the R interpreter evaluates it and prints the
 result.
 
 .. Tip:: Don't fear the command line - it is a source of great power. Using the up and down arrows
-to recall commands so you can edit mistakes. Hit CTRL-C if get stuck and you should get the prompt back.
+   to recall commands so you can edit mistakes. Hit CTRL-C if get stuck and you should get the prompt back.
 
 Choose :menuselection:`Geospatial --> Spatial Tools --> R Statistics`. A terminal window opens running R.
 
