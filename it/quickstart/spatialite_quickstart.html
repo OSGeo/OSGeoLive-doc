@@ -123,12 +123,11 @@ common SQL queries, or craft your own SQL queries.</p>
 <h2><a class="toc-backref" href="#id2">Run an SQL query</a><a class="headerlink" href="#run-an-sql-query" title="Link a questa intestazione">¶</a></h2>
 <ol class="arabic">
 <li><p class="first">Now let’s try tweaking this SQL statement to get NOME and (Lat,Long) for only the NOME_PROV fields include «BRESCIA», this time using the MunicipalHallsView.  In the upper right SQL pane type:</p>
-<dl class="docutils">
-<dt>SELECT NOME, X(Geometry) AS Longitude, Y(Geometry) AS Latitude</dt>
-<dd><p class="first last">FROM «MunicipalHallsView»
-WHERE NOME_PROV LIKE «BRESCIA»;</p>
-</dd>
-</dl>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">SELECT</span> <span class="n">NOME</span><span class="p">,</span> <span class="n">X</span><span class="p">(</span><span class="n">Geometry</span><span class="p">)</span> <span class="n">AS</span> <span class="n">Longitude</span><span class="p">,</span> <span class="n">Y</span><span class="p">(</span><span class="n">Geometry</span><span class="p">)</span> <span class="n">AS</span> <span class="n">Latitude</span>
+    <span class="n">FROM</span> <span class="s2">&quot;MunicipalHallsView&quot;</span>
+    <span class="n">WHERE</span> <span class="n">NOME_PROV</span> <span class="n">LIKE</span> <span class="s2">&quot;BRESCIA&quot;</span><span class="p">;</span>
+</pre></div>
+</div>
 </li>
 <li><p class="first">Click the «Execute SQL» button at the right, and see the results in the bottom right pane.</p>
 <a class="reference internal image-reference" href="../../_images/spatialite-gui-select.png"><img alt="../../_images/spatialite-gui-select.png" src="../../_images/spatialite-gui-select.png" style="width: 560.0px; height: 433.29999999999995px;" /></a>
@@ -142,7 +141,9 @@ WHERE NOME_PROV LIKE «BRESCIA»;</p>
 <li><p class="first">Before working from the command line, we need to open a terminal window: <span class="menuselection">LXDE Menu -&gt; Accessories -&gt; LXTerminal</span>.</p>
 </li>
 <li><p class="first">In the terminal open a sample database with <strong>spatialite</strong> by typing:</p>
-<p>spatialite /home/user/data/spatialite/trento.sqlite</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">spatialite</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">data</span><span class="o">/</span><span class="n">spatialite</span><span class="o">/</span><span class="n">trento</span><span class="o">.</span><span class="n">sqlite</span>
+</pre></div>
+</div>
 <p>Helpful commands from the command line:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">.</span><span class="n">help</span>
 <span class="o">.</span><span class="n">tables</span>

@@ -102,36 +102,28 @@ The service implements the OGC Web Processing Service 1.0 interface standard.</p
 </div>
 <div class="section" id="process-data">
 <h2><a class="toc-backref" href="#id3">Process data</a><a class="headerlink" href="#process-data" title="Link a questa intestazione">¶</a></h2>
-<ol class="arabic simple">
-<li>Click on the link to open the 52nWPS-TestClient.</li>
-</ol>
-<blockquote>
-<div><a class="reference internal image-reference" href="../../_images/52nWPS_welcome_page_2.png"><img alt="screenshot" src="../../_images/52nWPS_welcome_page_2.png" style="width: 560.0px; height: 420.0px;" /></a>
-</div></blockquote>
-<ol class="arabic simple" start="2">
-<li>Make sure that <a class="reference internal" href="../overview/geoserver_overview.html"><span class="doc">GeoServer</span></a> is running since the demonstration requires data from the local GeoServer installation.</li>
-<li>To do this, try to open the page <a class="reference external" href="http://localhost:8082/geoserver/web">http://localhost:8082/geoserver/web</a>. If the page could not be found, select <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span> in the menu. The GeoServer should be running after a few moments.</li>
-<li>Select the example request «SimpleBuffer_out_wfs.xml» from the dropdown list:</li>
-</ol>
-<blockquote>
-<div><a class="reference internal image-reference" href="../../_images/52nWPS_test_client.png"><img alt="screenshot" src="../../_images/52nWPS_test_client.png" style="width: 560.0px; height: 420.0px;" /></a>
-</div></blockquote>
-<ol class="arabic simple" start="5">
-<li>Push the Send-Button and the request will be transmitted to the 52°North WPS which will</li>
-</ol>
-<blockquote>
-<div><p>generate a buffer around the major roads of Tasmania with a width of 0.05 degrees and store
+<ol class="arabic">
+<li><p class="first">Click on the link to open the 52nWPS-TestClient.</p>
+<a class="reference internal image-reference" href="../../_images/52nWPS_welcome_page_2.png"><img alt="screenshot" src="../../_images/52nWPS_welcome_page_2.png" style="width: 560.0px; height: 420.0px;" /></a>
+</li>
+<li><p class="first">Make sure that <a class="reference internal" href="../overview/geoserver_overview.html"><span class="doc">GeoServer</span></a> is running since the demonstration requires data from the local GeoServer installation.</p>
+</li>
+<li><p class="first">To do this, try to open the page <a class="reference external" href="http://localhost:8082/geoserver/web">http://localhost:8082/geoserver/web</a>. If the page could not be found, select <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span> in the menu. The GeoServer should be running after a few moments.</p>
+</li>
+<li><p class="first">Select the example request «SimpleBuffer_out_wfs.xml» from the dropdown list:</p>
+<a class="reference internal image-reference" href="../../_images/52nWPS_test_client.png"><img alt="screenshot" src="../../_images/52nWPS_test_client.png" style="width: 560.0px; height: 420.0px;" /></a>
+</li>
+<li><p class="first">Push the Send-Button and the request will be transmitted to the 52°North WPS which will
+generate a buffer around the major roads of Tasmania with a width of 0.05 degrees and store
 the result in GeoServer.</p>
 <a class="reference internal image-reference" href="../../_images/52nWPS_output_stored_in_wfs.png"><img alt="screenshot" src="../../_images/52nWPS_output_stored_in_wfs.png" style="width: 560.0px; height: 420.0px;" /></a>
-</div></blockquote>
-<ol class="arabic simple" start="6">
-<li>Copy the ResourceID from the response. This is the name of the GeoServer layer. Add the ID to the</li>
-</ol>
-<blockquote>
-<div><p>following request: <a class="reference external" href="http://localhost:8082/geoserver/wms?service=WMS&amp;version=1.1.0&amp;request=GetMap&amp;styles=&amp;bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&amp;width=512&amp;height=430&amp;srs=EPSG:4326&amp;format=application/openlayers&amp;layers=Add-ResourceID-here">http://localhost:8082/geoserver/wms?service=WMS&amp;version=1.1.0&amp;request=GetMap&amp;styles=&amp;bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&amp;width=512&amp;height=430&amp;srs=EPSG:4326&amp;format=application/openlayers&amp;layers=Add-ResourceID-here</a>
+</li>
+<li><p class="first">Copy the ResourceID from the response. This is the name of the GeoServer layer. Add the ID to the
+following request: <a class="reference external" href="http://localhost:8082/geoserver/wms?service=WMS&amp;version=1.1.0&amp;request=GetMap&amp;styles=&amp;bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&amp;width=512&amp;height=430&amp;srs=EPSG:4326&amp;format=application/openlayers&amp;layers=Add-ResourceID-here">http://localhost:8082/geoserver/wms?service=WMS&amp;version=1.1.0&amp;request=GetMap&amp;styles=&amp;bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&amp;width=512&amp;height=430&amp;srs=EPSG:4326&amp;format=application/openlayers&amp;layers=Add-ResourceID-here</a>
 You should get the following result:</p>
 <a class="reference internal image-reference" href="../../_images/52nWPS_result_in_geoserver.png"><img alt="screenshot" src="../../_images/52nWPS_result_in_geoserver.png" style="width: 560.0px; height: 420.0px;" /></a>
-</div></blockquote>
+</li>
+</ol>
 </div>
 <div class="section" id="things-to-try">
 <h2><a class="toc-backref" href="#id4">Things to try</a><a class="headerlink" href="#things-to-try" title="Link a questa intestazione">¶</a></h2>
