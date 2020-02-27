@@ -57,7 +57,7 @@ Process data
    .. image:: /images/projects/52nWPS/52nWPS_test_client.png
      :scale: 70 %
      :alt: screenshot
-  
+
 5. Push the Send-Button and the request will be transmitted to the 52°North WPS which will
    generate a buffer around the major roads of Tasmania with a width of 0.05 degrees and store
    the result in GeoServer. 
@@ -65,7 +65,7 @@ Process data
    .. image:: /images/projects/52nWPS/52nWPS_output_stored_in_wfs.png
      :scale: 70 %
      :alt: screenshot
-  
+
 6. Copy the ResourceID from the response. This is the name of the GeoServer layer. Add the ID to the
    following request: http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers=Add-ResourceID-here
    You should get the following result:
