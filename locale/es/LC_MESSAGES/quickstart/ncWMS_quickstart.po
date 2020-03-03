@@ -1,0 +1,377 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# MarPetra <mvergaratrejo@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:05+0000\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2019\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:14
+msgid "ncWMS Quickstart"
+msgstr "Inicio Rápido de ncWMS"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:16
+msgid ""
+"ncWMS is a Web Map Service which allows the fast visualisation of data from "
+"NetCDF files and other sources of environmental data.  This quickstart guide"
+" describes how to explore the sample data provided using the Godiva2 web "
+"client.  For configuration and adding other data sources to the server, "
+"please consult the documentation on the `ncWMS website <https://reading-"
+"escience-centre.gitbooks.io/ncwms-user-guide/content/>`_."
+msgstr ""
+"ncWMS es un servicio de mapas web que permite la visualización rápida de "
+"datos de archivos NetCDF y otras fuentes de datos ambientales. Esta guía de "
+"inicio rápido describe cómo explorar los datos de muestra proporcionados con"
+" el cliente web Godiva2. Para configurar y agregar otras fuentes de datos al"
+" servidor, consulte la documentación en `ncWMS website <https://reading-"
+"escience-centre.gitbooks.io/ncwms-user-guide/content/>`_."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:21
+msgid "Start ncWMS"
+msgstr "Inicie ncWMS"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:23
+msgid ""
+"Select :menuselection:`Geospatial --> Web Services --> ncWMS --> Start "
+"ncWMS`"
+msgstr ""
+"Seleccione :menuselection:`Geospatial --> Servicios Web --> ncWMS --> "
+"Iniciar ncWMS`"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:25
+msgid ""
+"After a few moments the application will start up and open a web browser at "
+"http://localhost:8080/ncWMS2/Godiva3.html"
+msgstr ""
+"Después de unos momentos, la aplicación se iniciará y abrirá un navegador "
+"web en http://localhost:8080/ncWMS2/Godiva3.html"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:31
+msgid "Basic usage"
+msgstr "Uso básico"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:33
+msgid ""
+"Use the left-hand menu to choose a dataset to view.  Clicking a dataset (or "
+"the + icon to the left of it) will expand the dataset to show the available "
+"variables to plot.  Choose a variable by clicking on it.  The data should "
+"appear on the interactive map after a short delay (a progress bar may appear"
+" showing the progress of loading image tiles from the WMS server(s))."
+msgstr ""
+"Use el menú de la izquierda para elegir un conjunto de datos para verlo. Al "
+"hacer click en un conjunto de datos (o en el ícono + a la izquierda del "
+"mismo) se expandirá el conjunto de datos para mostrar las variables "
+"disponibles para trazar. Elija una variable haciendo click en ella. Los "
+"datos deben aparecer en el mapa interactivo después de un breve retraso "
+"(puede aparecer una barra de progreso que muestra el progreso de la carga de"
+" mosaicos de imágenes desde los servidores WMS)."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:36
+msgid "Navigating the map"
+msgstr "Navegando por el mapa"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:38
+msgid ""
+"The interactive map can be dragged with the mouse to navigate around. Using "
+"the controls in the top left of the map you can zoom in and out. You can "
+"zoom quickly to a particular area by holding down Shift and dragging a "
+"rectangle on the map."
+msgstr ""
+"El mapa interactivo se puede arrastrar con el mouse para navegar. Usando los"
+" controles en la parte superior izquierda del mapa puede acercar y alejar. "
+"Puede hacer zoom rápidamente en un área en particular manteniendo presionada"
+" la tecla Mayús y arrastrando un rectángulo en el mapa."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:41
+msgid "Selecting the vertical level"
+msgstr "Seleccionando el nivel vertical"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:43
+msgid ""
+"If the variable you are viewing has a vertical dimension you will be able to"
+" select the vertical level using the drop-down box above the map."
+msgstr ""
+"Si la variable que está viendo tiene una dimensión vertical, podrá "
+"seleccionar el nivel vertical usando el cuadro desplegable sobre el mapa."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:46
+msgid "Selecting the timestep"
+msgstr "Seleccionando el paso de tiempo"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:48
+msgid ""
+"If the displayed variable has a time dimension a date control will appear "
+"above the map. Click on this control to select the date you wish to focus "
+"on. If there are several timesteps available for this day, use the drop-down"
+" box above the map to select the time. See below for instructions on "
+"creating animations and timeseries plots."
+msgstr ""
+"Si la variable mostrada tiene una dimensión de tiempo, aparecerá un control "
+"de fecha sobre el mapa. Haga click en este control para seleccionar la fecha"
+" en la que desea centrarse. Si hay varios pasos de tiempo disponibles para "
+"este día, use el cuadro desplegable sobre el mapa para seleccionar la hora. "
+"Consulte a continuación las instrucciones para crear animaciones y diagramas"
+" de series de tiempo."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:51
+msgid "Finding the data value at a point"
+msgstr "Encontrar el valor de los datos en un punto"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:53
+msgid ""
+"Once a variable has been displayed on the map, you can click on the map to "
+"discover the data value at that point. The data value, along with the "
+"latitude and longitude of the point you clicked, will appear in a small pop-"
+"up window at the point where you clicked."
+msgstr ""
+"Una vez que se ha mostrado una variable en el mapa, puede hacer click en el "
+"mapa para descubrir el valor de los datos en ese punto. El valor de los "
+"datos, junto con la latitud y longitud del punto en el que hizo click, "
+"aparecerá en una pequeña ventana emergente en el punto donde hizo click."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:59
+msgid "Changing the style of the data display"
+msgstr "Cambiar el estilo de la pantalla de datos"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:62
+msgid "Adjusting the colour contrast range"
+msgstr "Ajuste del rango de contraste de color"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:64
+msgid ""
+"When you first load up a variable it will appear with a default colour scale"
+" range. This range may not be appropriate for the geographical region and "
+"timestep you are interested in. By clicking \"auto\" (the colour wheel to "
+"the right of the colour scale bar) the colour scale range will be "
+"automatically stretched to suit the data currently displayed in the map. You"
+" can also manually change the colour scale range by editing the values at "
+"the top and bottom of the colour scale bar."
+msgstr ""
+"Cuando cargue por primera vez una variable, aparecerá con un rango de escala"
+" de color predeterminado. Es posible que este rango no sea apropiado para la"
+" región geográfica y el intervalo de tiempo que le interese. Al hacer click "
+"en \"auto\" (la rueda de color a la derecha de la barra de escala de color),"
+" el rango de escala de color se ampliará automáticamente para adaptarse a "
+"los datos que se muestran actualmente en el mapa. También puede cambiar "
+"manualmente el rango de escala de color editando los valores en la parte "
+"superior e inferior de la barra de escala de color."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:67
+msgid "Locking the scale range"
+msgstr "Bloqueo del rango de escala"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:69
+msgid ""
+"Sometimes, when comparing two datasets, you might want to fix the colour "
+"scale range so that when you select a new variable, that variable is shaded "
+"with exactly the same colour scale. To do this, click the \"lock\" link, "
+"which is the padlock icon to the right of the colour scale bar. The colour "
+"scale range will then not be changed when a new variable is loaded and the "
+"scale range cannot be edited manually. However, the colour palette and the "
+"number of colour bands can still be modified while the scale range is "
+"locked. Click the lock icon again to make the colour scale editable."
+msgstr ""
+"A veces, al comparar dos conjuntos de datos, es posible que desee corregir "
+"el rango de la escala de colores para que cuando seleccione una nueva "
+"variable, esa variable esté sombreada con exactamente la misma escala de "
+"colores. Para hacer esto, haga click en el enlace \"bloquear\", que es el "
+"ícono del candado a la derecha de la barra de escala de colores. El rango de"
+" escala de color no se cambiará cuando se cargue una nueva variable y el "
+"rango de escala no se pueda editar manualmente. Sin embargo, la paleta de "
+"colores y el número de bandas de colores aún se pueden modificar mientras el"
+" rango de escala está bloqueado. Haga click en el icono de candado "
+"nuevamente para hacer que la escala de color sea editable. "
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:72
+msgid "Changing the colour palette"
+msgstr "Cambiar la paleta de colores"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:74
+msgid ""
+"The colour palette can be changed by clicking on the colour scale bar. A "
+"pop-up window will appear with the available palettes. Click on one to load "
+"the new palette. The window also contains a drop-down box to select the "
+"number of colour bands to use, from 10 (giving a contoured appearance) to "
+"250 (smoothed).  Note that if the number of colour bands is changed, you "
+"will need to click on the desired palette to effect the change.  All colour "
+"palettes can be reversed by clicking the \"Flip\" button on the colour "
+"palette selector."
+msgstr ""
+"La paleta de colores se puede cambiar haciendo click en la barra de escala "
+"de colores. Aparecerá una ventana emergente con las paletas disponibles. "
+"Haga click en uno para cargar la nueva paleta. La ventana también contiene "
+"un cuadro desplegable para seleccionar el número de bandas de color que se "
+"utilizarán, desde 10 (dando una apariencia contorneada) hasta 250 "
+"(suavizado). Tenga en cuenta que si se cambia el número de bandas de color, "
+"deberá hacer click en la paleta deseada para efectuar el cambio. Todas las "
+"paletas de colores se pueden revertir haciendo click en el botón \"Voltear\""
+" en el selector de paleta de colores. "
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:77
+msgid "Other parameters"
+msgstr "Otros parámetros "
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:79
+msgid ""
+"Certain variables, particularly biological parameters, are best displayed "
+"with a logarithmic colour scale. The spacing of the colour scale can be "
+"toggled between linear and logarithmic using the drop-down box to the right "
+"of the colour scale bar. Note that you cannot select a logarithmic scale if "
+"the colour scale range contains negative or zero values."
+msgstr ""
+"Ciertas variables, particularmente los parámetros biológicos, se muestran "
+"mejor con una escala de color logarítmica. El espaciado de la escala de "
+"color se puede alternar entre lineal y logarítmico utilizando el cuadro "
+"desplegable a la derecha de la barra de escala de color. Tenga en cuenta que"
+" no puede seleccionar una escala logarítmica si el rango de la escala de "
+"color contiene valores negativos o cero."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:82
+msgid "Creating animations"
+msgstr "Creando animaciones"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:84
+msgid ""
+"Click the animation wizard button below the lower left corner of the map."
+msgstr ""
+"Haga click en el botón del asistente de animación debajo de la esquina "
+"inferior izquierda del mapa."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:85
+msgid "Select a start and end time for the animation"
+msgstr "Seleccione una hora de inicio y finalización para la animación."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:86
+msgid "Choose the granularity and frame rate for the animation"
+msgstr "Elija la granularidad y velocidad de fotogramas para la animación."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:87
+msgid "Click \"Go\". Note that the animation may take quite a while to appear."
+msgstr ""
+"Haga click en \"Ir\". Tenga en cuenta que la animación puede tardar bastante"
+" en aparecer. "
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:88
+msgid ""
+"Click the \"Stop animation\" button (where the wizard was) to stop the "
+"animation and return the controls to normal."
+msgstr ""
+"Haga clic en el botón \"Detener animación\" (donde estaba el asistente) para"
+" detener la animación y regresar los controles a la normalidad."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:91
+msgid "Timeseries plots"
+msgstr "Gráficos de series de tiempo"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:93
+msgid ""
+"Creating a timeseries plot uses a similar wizard to that used to create "
+"animations.  When finding the data value at a point, a link will be present "
+"to create a timeseries plot if the data have a time axis.  Timeseries plots "
+"open in a new window."
+msgstr ""
+"La creación de un diagrama de serie temporal utiliza un asistente similar al"
+" que se usa para crear animaciones. Al encontrar el valor de los datos en un"
+" punto, estará presente un enlace para crear un diagrama de series de tiempo"
+" si los datos tienen un eje de tiempo. Las tramas de Timeseries se abren en "
+"una nueva ventana."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:96
+msgid "Vertical sections and transects along arbitrary paths"
+msgstr "Secciones verticales y transectos a lo largo de caminos arbitrarios "
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:98
+msgid ""
+"At the top of the map itself, select the icon that looks like a line joining"
+" four points. Click on the map to start drawing a line. Add \"waypoints\" "
+"along this line by single-clicking at each point. Double-click to finish the"
+" line. A pop-up will appear showing the variation of the viewed variable "
+"along the line (i.e. a transect plot). If the variable has a vertical "
+"dimension, a vertical section plot will appear under the transect plot."
+msgstr ""
+"En la parte superior del mapa, selecciona el ícono que parece una línea que "
+"une cuatro puntos. Haga clic en el mapa para comenzar a dibujar una línea. "
+"Agregue \"waypoints\" a lo largo de esta línea haciendo click en cada punto."
+" Haga doble click para terminar la línea. Aparecerá una ventana emergente "
+"que muestra la variación de la variable vista a lo largo de la línea (es "
+"decir, un gráfico de transecto). Si la variable tiene una dimensión "
+"vertical, aparecerá un diagrama de sección vertical debajo del diagrama de "
+"transecto."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:101
+msgid "Changing the background map"
+msgstr "Cambiar el mapa de fondo"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:103
+msgid ""
+"A selection of background maps is available on which data can be projected. "
+"Select a different background map by clicking the small plus sign in the top"
+" right-hand corner of the interactive map."
+msgstr ""
+"Hay disponible una selección de mapas de fondo en los que se pueden "
+"proyectar datos. Seleccione un mapa de fondo diferente haciendo click en el "
+"pequeño signo más en la esquina superior derecha del mapa interactivo."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:106
+msgid "Changing the map projection"
+msgstr "Cambiar la proyección del mapa"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:108
+msgid ""
+"The map projection is changed by selecting a new background map as above. If"
+" the background map is in a different projection then the data overlay will "
+"be automatically reprojected into the new coordinate system. Godiva3 "
+"provides the option to select a background map in north or south polar "
+"stereographic projection. There may be a delay before the map appears in the"
+" new projection."
+msgstr ""
+"La proyección del mapa se cambia seleccionando un nuevo mapa de fondo como "
+"el anterior. Si el mapa de fondo está en una proyección diferente, la "
+"superposición de datos se reproyectará automáticamente en el nuevo sistema "
+"de coordenadas. Godiva3 ofrece la opción de seleccionar un mapa de fondo en "
+"proyección estereográfica polar norte o sur. Puede haber una demora antes de"
+" que el mapa aparezca en la nueva proyección."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:114
+msgid "Saving and emailing the view"
+msgstr "Guardar y enviar por correo electrónico la vista"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:116
+msgid ""
+"You may wish to save the current view to return to it later or share it with"
+" a colleague. The \"Permalink\" under the bottom right-hand corner of the "
+"map links to a complete URL that, when loaded, recreates the current view. "
+"Left-click on the permalink to bring up a new window with an identical view."
+" Right-click on the permalink and select \"Copy link location\" or the "
+"equivalent for your web browser. You can then paste the link into a report, "
+"your notes or an email. You can also click on \"email\" (next to the "
+"permalink) to start a new email message in your default email client with "
+"the permalink already included in the message body."
+msgstr ""
+"Es posible que desee guardar la vista actual para volver a ella más tarde o "
+"compartirla con un colega. El \"Enlace permanente\" debajo de la esquina "
+"inferior derecha del mapa enlaza con una URL completa que, cuando se carga, "
+"recrea la vista actual. Haga click izquierdo en el enlace permanente para "
+"abrir una nueva ventana con una vista idéntica. Haga click derecho en el "
+"enlace permanente y seleccione \"Copiar ubicación del enlace\" o el "
+"equivalente para su navegador web. Luego puede pegar el enlace en un "
+"informe, sus notas o un correo electrónico. También puede hacer click en "
+"\"correo electrónico\" (junto al enlace permanente) para comenzar un nuevo "
+"mensaje de correo electrónico en su cliente de correo electrónico "
+"predeterminado con el enlace permanente ya incluido en el cuerpo del mensaje"

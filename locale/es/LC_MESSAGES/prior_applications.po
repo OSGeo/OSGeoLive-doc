@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # 
 # Translators:
 # Debora Robles Perez <derobpe@gmail.com>, 2017
@@ -19,6 +19,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -39,23 +40,6 @@ msgid "Description"
 msgstr "Descripción"
 
 #: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
 msgid "|nologo|"
 msgstr "|nologo|"
 
@@ -63,16 +47,6 @@ msgstr "|nologo|"
 msgid "`OGC Standards`_"
 msgstr "`OGC Standards`_"
 
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
 #: ../../build/doc/prior_applications.rst:1
 msgid "10.5"
 msgstr "10.5"
@@ -262,7 +236,6 @@ msgid "Microsoft Windows based Desktop GIS."
 msgstr "GIS de escritorio basadp en Microsoft Windows."
 
 #: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
 msgid "|osgeo_project|"
 msgstr "|osgeo_project|"
 
@@ -302,7 +275,6 @@ msgstr "Servicio de Seguridad Web"
 msgid "Geopublisher_"
 msgstr "Geopublisher_"
 
-#: ../../build/doc/prior_applications.rst:1
 #: ../../build/doc/prior_applications.rst:1
 msgid "6.0"
 msgstr "6.0"

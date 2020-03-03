@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2018
 # Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,8 +39,8 @@ msgstr ""
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:24
 msgid "You will need nothing but a standard web browser for this quickstart."
 msgstr ""
-"Será necesario nada más que un navegador web estándar para este Inicio "
-"Rápido."
+"Será necesario nada más que un navegador web estándar para este inicio "
+"rápido."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:26
 msgid "This Quick Start describes how to:"
