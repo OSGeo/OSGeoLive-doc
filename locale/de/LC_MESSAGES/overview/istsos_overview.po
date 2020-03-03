@@ -77,8 +77,8 @@ msgid ""
 msgstr ""
 "Verwenden Sie eine vollständige RestFul-API, um von externen Clients aus auf"
 " die istSOS-Funktionalität zuzugreifen, um interaktive Diagramme zu "
-"erstellen, den Sensor auf einer dynamischen Karte anzuzeigen oder einfach "
-"einige Wartungsskripts zu schreiben."
+"erstellen, den Sensor auf einer dynamischen Karte anzuzeigen oder einfach um"
+" Wartungsskripts zu schreiben."
 
 #: ../../build/doc/overview/istsos_overview.rst:40
 msgid ""

@@ -1,0 +1,622 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Gregor Engelmann <shl00913@myport.ac.uk>, 2018
+# Astrid Emde <astrid_emde@osgeo.org>, 2019
+# Peter Czaja <pczaja@gmx.de>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:05+0000\n"
+"Last-Translator: Peter Czaja <pczaja@gmx.de>, 2019\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:16
+msgid "iD editor Quickstart"
+msgstr "ID Editor Schnellstart"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:18
+msgid ""
+"The iD editor is the de facto, browser-based OpenStreetMap editor. iD is "
+"fast and easy to use, and allows mapping from various data sources such as "
+"satellite and aerial imageries, GPS, Field Papers or Mapillary."
+msgstr ""
+"Der iD-Editor ist de facto ein Browser-basierter OpenStreetMap-Editor. iD "
+"ist schnell und einfach zu nutzen und erlaubt das Datenerfassen auf "
+"Grundlage von unterschiedlichen Datenquellen wie Satelliten und Luftbildern,"
+" GPS, manuellen Aufnahmen oder Mapillary."
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:22
+msgid ""
+"The iD editor is a great way to edit for small and easy changes that don't "
+"require the advanced features of JOSM (a more advanced mapping editor). This"
+" chapter demonstrates the basics of editing with iD."
+msgstr ""
+"Der iD-Editor ist ideal, um kleine und einfache Veränderungen durchzuführen,"
+" die nicht die fortschrittlichen Funktionen von JOSM (einem sehr "
+"leistungsstarken Karten-Editor) benötigen. Dieses Kapitel demonstriert die "
+"Grundlagen der Arbeit mit iD."
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:29
+msgid "Starting the iD Editor"
+msgstr "iD Editor starten"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:31
+msgid "The iD editor requires an active connection to the Internet."
+msgstr "Der iD editor benötigt eine aktive Internetverbindung."
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:32
+msgid ""
+"Open your Internet browser, and go to the OpenStreetMap website at "
+"http://www.openstreetmap.org."
+msgstr ""
+"Öffnen Sie die Seite OpenStreetMap http://www.openstreetmap.org im Browser."
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:34
+msgid "**Login** using your OpenStreetMap account."
+msgstr "**Login** mit Ihrem OpenStreetMap-Konto."
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:35
+msgid ""
+"Pan and zoom the map to the area that you wish to edit. You can pan by "
+"holding the left mouse button and dragging the map to your desired area."
+msgstr ""
+"Navigieren Sie in der Karte zu dem Bereich, den Sie bearbeiten möchten. Sie "
+"können die Karte durch Bewegung der Maus mit gedrückter linker Maustaste zu "
+"dem gewünschten Bereich bewegen. "
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:38
+msgid ""
+"Click on the small arrow next to **Edit**. Then click **Edit with iD (in-"
+"browser editor)**."
+msgstr ""
+"Klicken Sie auf den kleinen Pfeil neben dem **Edit** Feld. Dann wählen Sie "
+"**Edit with iD (in-browser editor)**."
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:44
+msgid "iD Editor User Interface"
+msgstr "iD Editor Benutzeroberfläche"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:48
+msgid ""
+"**Edit Feature Panel:** This panel shows tags from the object selected on "
+"the map."
+msgstr ""
+"**Edit Feature Panel:** Diese Tafel zeigt die Kennzeichen (tags), die "
+"ausgewählten Kartenobjekten zugewiesen sind."
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:51
+msgid "You can add or edit tags from this panel."
+msgstr ""
+"Diese Tafel kann genutzt werden um Kennzeichen hinzuzufügen oder zu "
+"bearbeiten."
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:53
+msgid "**Tools:** This panel shows basic editing tools:"
+msgstr "**Tools:** Diese Tafel beinhaltet einfache Bearbeitungswerkzeuge:"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:55
+msgid "Draw point (node), *shortcut key* **1** |image3|"
+msgstr "Punkt zeichnen (Knoten), *shortcut key* **1** |image3|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:57
+msgid "Draw line (way), *shortcut key* **2** |image4|"
+msgstr "Linie zeichnen (Weg), *shortcut key* **2** |image4|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:59
+msgid "Draw shape (polygon), *shortcut key* **3** |image5|"
+msgstr "Polygon zeichnen, *shortcut key* **3** |image5|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:61
+msgid "Undo, *shortcut keys* **Ctrl+z** |image6|"
+msgstr "Rückgängig, *shortcut keys* **Ctrl+z** |image6|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:63
+msgid "Redo, *shortcut keys* **Ctrl+y** |image7|"
+msgstr "Wiederholen, *shortcut keys* **Ctrl+y** |image7|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:65
+msgid "Save changes, *shortcut keys* **Ctrl+s** |image8|"
+msgstr "Änderungen speichern, *shortcut keys* **Ctrl+s** |image8|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:67
+msgid "**Map panel:** This panel show various configuration functions:"
+msgstr ""
+"**Map panel:** Diese Tafel beinhaltet die unterschiedlichen "
+"Konfigurationsfunktionen:"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:69
+msgid "Zoom In, *shortcut key* **+** |image9|"
+msgstr "Heranzoomen, *shortcut key* **+** |image9|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:71
+msgid "Zoom Out, *shortcut key* **-** |image10|"
+msgstr "Herauszoomen, *shortcut key* **-** |image10|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:73
+msgid "Go to your location |image11|"
+msgstr "Gehen Sie zu Ihrem Standort |image11|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:75
+msgid "Configure background layer, *shortcut key* **b**"
+msgstr "Konfiguration des Hintergrundlayers, *shortcut key* **b**"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:77
+msgid "Map Data, *shortcut key* **f**"
+msgstr "Karten-Daten, *shortcut key* **f**"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:79
+msgid "Open Help Menu, *shortcut key* **h**"
+msgstr "Hilfe-Menü aufrufen, *shortcut key* **h**"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:81
+msgid ""
+"**Information panel:** This panel shows various information, such as the "
+"scale bar and which users have contributed to the area."
+msgstr ""
+"**Information panel:** Diese Tafel zeigt unterschiedliche Informationen wie "
+"die Maßstabsleiste und welche Nutzer zu einem Areal beigetragen haben."
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:85
+msgid "Configuring the Background Layer"
+msgstr "Konfiguration des Hintergrundlayers"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:87
+msgid ""
+"Click the **Background settings** button or use the *shortcut key* **b**. "
+"|image14|"
+msgstr ""
+"Klicken Sie den **Background settings**-Button oder nutzen Sie *shortcut "
+"key* **b**. |image14|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:90
+msgid "|image15|"
+msgstr "|image15|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:92
+msgid ""
+"To change the **brightness level** click one of these boxes, the levels are "
+"100%, 75%, 50%, and 25% |image16|"
+msgstr ""
+"Um die Helligkeit (**brightness level**) zu ändern, klicken Sie auf eine der"
+" Boxen. Die verfügbaren Stufen sind 100%, 75%, 50%, und 25% |image16|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:95
+msgid ""
+"You also can **change the background layer** based on your desired tile "
+"provider (the default is Bing Aerial Imagery)."
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:98
+msgid ""
+"You can add your own map tiles by clicking on **Custom**. For example, if "
+"you want to **add a Field Paper**  [1], click **Custom** then click on the "
+"magnifying glass (search) icon to open the following window:-"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:103
+msgid ""
+"|image17| and enter your **FieldPaper snapshot URL**, which will be "
+"something like this: "
+"http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:108
+msgid ""
+"To **display GPS tracks from your computer** (GPX format), drag and drop the"
+" GPX file into iD editor."
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:111
+msgid ""
+"To enable **OpenStreetMap GPS traces** click on the box. In the image below,"
+" public GPS traces are shown in various colors, indicating the direction of "
+"travel."
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:115
+msgid "|osm gps traces|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:117
+msgid ""
+"If there is `imagery offset </en/josm/aerial-imagery>`__, you can **correct "
+"the imagery offset** by clicking **Fix Alignment**."
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:120
+msgid "|image18|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:122
+msgid ""
+"Click the navigation buttons to move the imagery. Click the reset button to "
+"return to the default position. |image20|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:126
+msgid "Basic Editing with iD"
+msgstr "Einfache Bearbeitung mit iD"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:129
+msgid "Adding Points"
+msgstr "Punkte hinzufügen"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:131
+msgid "To add a new point, click on the **Point** button. |image3|"
+msgstr ""
+"Drücken Sie auf den **Point**-Button, um einen neuen Punkt hinzuzufügen. "
+"|image3|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:133
+msgid ""
+"Your mouse cursor will change into plus (+) sign. Now, click on a position "
+"that you know to mark a location. For example, if you know that there is a "
+"hospital in your area, click on the position of the hospital building."
+msgstr ""
+"Ihr Mauscursor wird sich daraufhin in ein (+) umwandeln. Jetzt klicken Sie "
+"auf eine Position, die Sie kennen um einen Ort hinzuzufügen. Falls Sie zum "
+"Beispiel ein Krankenhaus in Ihrer Gegend kennen, klicken Sie auf die "
+"Position des Krankenhauses."
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:138
+msgid "|image21|"
+msgstr "|image21|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:140
+msgid ""
+"Notice that a new point is added. At the same time, the left panel will "
+"change to show a form where you can select attributes for the object. Click "
+"**Hospital Grounds** to tag the point as a hospital."
+msgstr ""
+"Beachten Sie, dass ein neuer Punkt hinzugefügt wurde. Zur gleichen Zeit "
+"wechselt das linke Feld zu einem Formular auf dem Attribute für das neue "
+"Objekt ausgewählt werden können. Klicken Sie **Hospital Grounds**, um den "
+"Punkt als Krankenhaus zu klassifizieren."
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:144
+msgid "|image22|"
+msgstr "|image22|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:146
+msgid ""
+"You can use the forms to fill detail information about your point. You can "
+"fill hospital name, address, and/or other additional information. Note that "
+"each feature will have different options, depending on what tag you choose "
+"from the feature panel."
+msgstr ""
+"Das Formular kann weiter genutzt werden, um zusätzliche Informationen zu "
+"ihrem Punkt hinzuzufügen wie zum Beispiel Krankenhausname, Anschrift "
+"und/oder andere Informationen. Beachten Sie, dass jedes Merkmal andere "
+"Optionen hat je nachdem welches Kennzeichen aus dem Featurefeld gewählt "
+"wurde."
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:150
+msgid ""
+"If you make a mistake, such as a wrong location, you can move your point to "
+"a new location by holding the left mouse button on your point and dragging "
+"it. Or, if you want to delete your point, click the left mouse button on the"
+" point, activate the context menu by clicking with the right mouse button "
+"and then click the button which looks like a trashcan. |image23|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:157
+msgid ""
+"A \"point\" created in the iD editor is actually a standalone \"node\" with "
+"a set of \"tags\" on it."
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:161
+msgid "Drawing Lines"
+msgstr "Linien zeichnen"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:163
+msgid "To add a new line, click on the **Line** button. |image4|"
+msgstr ""
+"Um eine neue Linie hinzuzufügen, klicken Sie auf den **Line**-Button. "
+"|image4|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:165
+msgid ""
+"Your mouse cursor will change into plus (+) sign. Find a road that hasn’t "
+"been drawn on the map and trace it. Click once on a point where the road "
+"segment begins, move your mouse, and click to add additional points. Double-"
+"click to end the drawing process. Notice the panel on the left."
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:171
+msgid "|image24|"
+msgstr "|image24|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:173
+msgid "Just as with a point, select the appropriate tags for your line."
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:174
+msgid ""
+"You can drag points from the line by clicking your left mouse button on a "
+"point and dragging it."
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:176
+msgid ""
+"You also can move the whole line by selecting it, and choosing the **Move "
+"tool**. Then drag the line to a new position. |image30|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:178
+msgid ""
+"When you click your left mouse button on an individual point (node) on the "
+"line and click on the right mouse button to activate the context menu, you "
+"will see these tools:"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:181
+msgid "Delete point from line. |image23|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:182
+msgid "Disconnect point from line. |image26|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:183
+msgid "Split a line into two lines from the point you’ve selected. |image27|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:185
+msgid ""
+"When you click your left mouse button on a line (but not on a point), you "
+"will see these tools:"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:187
+msgid "Delete line. |image23|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:188
+msgid ""
+"Create a circle from a line (only active if the line is closed) |image29|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:190
+msgid "Move line |image30|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:191
+msgid ""
+"Form a square shape from a line (only active if the line is closed) "
+"|image31|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:193
+msgid "Reverse line direction (good for rivers & one-way streets) |image32|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:196
+msgid "A \"line\" created in the iD editor is actually a \"way\" with \"tags\" on it."
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:199
+msgid ""
+"A special note about **Deleting**: In general you should avoid deleting "
+"other people's mapping if it just needs improvement. You can delete your own"
+" mistakes, but you should try to *adjust* other people's mapped objects if "
+"they need changes. This preserves the history of the items in the OSM "
+"database and is respectful of fellow mappers. If you really feel something "
+"should be deleted, consider asking the original mapper or one of the OSM "
+"email lists about it first."
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:209
+msgid "Drawing Shapes (Polygons)"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:211
+msgid "To add a new multi-sided shape, click on the **Area** button."
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:213
+msgid "|image34|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:215
+msgid ""
+"Your mouse cursor will change into plus (+) sign. Try to trace a building "
+"using the imagery as a guide."
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:217
+msgid ""
+"You will notice that the color of your shape will change depending on the "
+"attributes that you assign to it. |image35|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:219
+msgid ""
+"The tools that are available when you select a shape and activate the "
+"context menu with the right mouse button are similar to those when you click"
+" on a line."
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:223
+msgid "A \"polygon\" in the iD editor is actually a \"closed way\" with tags on it."
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:226
+msgid "Drawing Multipolygons"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:228
+msgid ""
+"Sometimes you have to draw a polygon which does not only have an outer "
+"contour but also one or more inner contours. Just think of buildings with "
+"inner courtyards or lakes with islands. *Do not draw all these ways in one "
+"line* so that the inner contours suspend from the outer contour. Rather draw"
+" these contours separate, attach tags to the outer contour only, select all "
+"contours and hit **c** in order to combine them into what is called a "
+"multipolygon."
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:240
+msgid ""
+"When you select any of the contours of the newly created multipolygon you "
+"can see on the left to which multipolygons it belongs"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:248
+msgid "Saving Your Changes"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:253
+msgid "When (and if) you want to save your edits to OpenStreetMap, click the"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:251
+msgid "**Save** button. The panel on the left will show the upload panel."
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:253
+msgid "|image36|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:255
+msgid "Enter a comment about your edits and click **Save**."
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:257
+msgid ""
+"If you have edited the same feature (point, way or area) at the same time as"
+" another person was editing it, you will receive a warning that your edits "
+"cannot be uploaded until you have resolved the **conflicts** - choose whose "
+"edits to accept & upload your changes. *Resolving conflicts often involves "
+"accepting the other persons edits, in which case you will probably wish to "
+"return to the feature in question and edit again (**this time save soon "
+"after the edit to try to avoid a conflict again!**).*"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:267
+msgid "Additional Information and Custom Tags"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:269
+msgid ""
+"When you are editing an object, you will see a strip of icons at the bottom "
+"of the attribute panel. You can add additional information by clicking these"
+" icons:"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:273
+msgid "Add elevation |image37|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:274
+msgid "Add notes |image38|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:275
+msgid "Add contacts / phone number |image39|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:276
+msgid "Add source tag |image40|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:277
+msgid "Add website |image41|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:278
+msgid "Add accessibility information |image42|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:279
+msgid "Add Wikipedia link |image43|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:281
+msgid "Or, you can add custom tags by clicking **All tags**. |image44|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:283
+msgid "This will show all the tags attached to the feature."
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:285
+msgid "|image45|"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:287
+msgid ""
+"Click the plus sign (+) to add keys and values or click the trash icon to "
+"delete tags."
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:291
+msgid "iD versus JOSM"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:293
+msgid "**iD is good for...**"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:295
+msgid "When you are doing simple edits"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:296
+msgid "When you have fast Internet to load the imagery and save the edits"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:297
+msgid ""
+"When you want to be sure to follow a consistent and simple tagging scheme"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:299
+msgid ""
+"When you are restricted from installing a program on the computer you are "
+"using"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:302
+msgid "**JOSM is better...**"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:304
+msgid "When you are adding many buildings (See buildings_tool plugin)"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:305
+msgid "When you are editing many polygons or lines that already exist"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:306
+msgid "When you are on an unreliable Internet connection or offline"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:307
+msgid "When you are using a specific tagging scheme (or custom presets)"
+msgstr ""
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:310
+msgid "What Next?"
+msgstr "Was nun?"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:312
+msgid ""
+"Try the LearnOSM documentation, from which this quickstart was derived: "
+"http://learnosm.org/en/beginner/id-editor/"
+msgstr ""

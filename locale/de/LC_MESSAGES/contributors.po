@@ -1,10 +1,10 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # 
 # Translators:
-# pixx1 <pix_1@posteo.de>, 2018
+# Jonas <pix_1@posteo.de>, 2018
 # 
 #, fuzzy
 msgid ""
@@ -13,11 +13,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-09 11:45-0500\n"
 "PO-Revision-Date: 2017-01-21 16:46+0000\n"
-"Last-Translator: pixx1 <pix_1@posteo.de>, 2018\n"
+"Last-Translator: Jonas <pix_1@posteo.de>, 2018\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
