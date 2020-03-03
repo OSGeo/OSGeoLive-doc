@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:08+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/mapnik_overview.rst:15
+msgid "Mapnik"
+msgstr "Mapnik"
+
+#: ../../build/doc/overview/mapnik_overview.rst:18
+msgid "Cartographic rendering engine"
+msgstr "地図製作用レンダリングエンジン"
+
+#: ../../build/doc/overview/mapnik_overview.rst:20
+msgid ""
+"Mapnik is a toolkit for rendering beautiful maps, with clean, soft feature "
+"edges provided by quality anti-aliasing graphics, intelligent label "
+"placement, and scalable, SVG symbolisation. Most famously, mapnik is used to"
+" render the OpenStreetMap main map layers."
+msgstr ""
+"Mapnik "
+"は美しい地図を描画するツールキットで、高品質なアンチエイリアス処理によるクリーンでソフトなフィーチャの描画、インテリジェントなラベル配置、SVG "
+"によるスケーリング可能なシンボル描画が可能です。Open Street Map のメイン地図レイヤ描画エンジンとして、よく知られています。"
+
+#: ../../build/doc/overview/mapnik_overview.rst:22
+msgid ""
+"Mapnik has typically been embedded in Python applications which deliver "
+"their maps over the internet although scaling improvements have meant that "
+"Mapnik has recently been getting used to create high resolution paper maps "
+"too."
+msgstr ""
+
+#: ../../build/doc/overview/mapnik_overview.rst:31
+msgid "Core Features"
+msgstr "主な機能"
+
+#: ../../build/doc/overview/mapnik_overview.rst:33
+msgid ""
+"Essentially a collection of geographic objects (map, layer, datasource, "
+"feature, geometry),  the library doesn't rely on \"windowing systems\" and "
+"can be deployed in any server environment.  It is intended to play fair in a"
+" multi-threaded environment and is aimed primarily,  but not exclusively, at"
+" web-based development."
+msgstr ""
+"Mapnik "
+"はどのようなウィンドウシステムにも依存することなく、ジオグラフィックオブジェクト（マップ、データソース、フィーチャ、ジオメトリ）のコレクションをサーバー環境に展開することができます。Mapnik"
+" は Python との親和性が高い Zope3 や Django などを使ったアプリケーション開発を迅速に進めることができます。また、マルチスレッド "
+"Web アプリケーション開発のためにスレッドセーフで動作することを目的としています。"
+
+#: ../../build/doc/overview/mapnik_overview.rst:39
+msgid ""
+"High-level Python bindings (boost.python) facilitate rapid application "
+"development,  targeting zope3, django etc."
+msgstr ""
+
+#: ../../build/doc/overview/mapnik_overview.rst:42
+msgid ""
+"Mapnik is cross platform. Packages are available for most linux "
+"distributions and installers are commonly used on Mac OS X and windows."
+msgstr ""
+
+#: ../../build/doc/overview/mapnik_overview.rst:46
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/mapnik_overview.rst:48
+msgid "**Website:** http://www.mapnik.org/"
+msgstr "**Webサイト:** http://www.mapnik.org/"
+
+#: ../../build/doc/overview/mapnik_overview.rst:50
+msgid "**Licence:** LGPL (GNU Lesser General Public Licence)"
+msgstr "**ライセンス:** LGPL (GNU Lesser General Public Licence)"
+
+#: ../../build/doc/overview/mapnik_overview.rst:52
+msgid "**Software Version:** |version-mapnik|"
+msgstr "**ソフトウェアバージョン:** |version-mapnik|"
+
+#: ../../build/doc/overview/mapnik_overview.rst:54
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/mapnik_overview.rst:56
+msgid "**API Interfaces:** C++, Python"
+msgstr "**API インターフェイス:** C++, Python"
+
+#: ../../build/doc/overview/mapnik_overview.rst:60
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/mapnik_overview.rst:62
+msgid ":doc:`Quickstart documentation <../quickstart/mapnik_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/mapnik_quickstart>`"
