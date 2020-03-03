@@ -1,0 +1,202 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"PO-Revision-Date: 2019-08-06 18:07+0000\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/mapcache_overview.rst:16
+msgid "MapCache"
+msgstr "MapCache"
+
+#: ../../build/doc/overview/mapcache_overview.rst:19
+msgid "Web Service"
+msgstr "Web szolgáltatás"
+
+#: ../../build/doc/overview/mapcache_overview.rst:21
+msgid ""
+"MapCache is a server that implements tile caching to speed up access to WMS "
+"layers. The primary objectives are to be fast and easily deployable, while "
+"offering the essential features (and more!) expected from a tile caching "
+"solution."
+msgstr ""
+"A MapCache egy szerver, mely csempe gyorsítótárazást valósít meg a WMS "
+"rétegek hozzáférésének gyorsítására. Az elsődleges cél, hogy gyors és "
+"egyszerűen telepíthető legyen, miközben elvárható alapvető funkciókat (és "
+"többet!) biztosítson egy csempe gyorsítótárazás megoldásából."
+
+#: ../../build/doc/overview/mapcache_overview.rst:24
+msgid ""
+"MapCache is part of the MapServer family, but can be configured to cache and"
+" serve data from any geospatial server that uses WMS. MapCache can be run on"
+" Apache as a module or on any web server that supports CGI/FastCGI such as "
+"IIS, Nginx, and Jetty."
+msgstr ""
+"A MapCache a MapServer család része, de beállítható, hogy bármely WMS-t "
+"használó térinformatikai szerverhez gyorstárazott adatokat szolgáltasson. "
+"MapCache mint  Apache modul futtatható vagy bármely web szerveren, amely "
+"támogatja a CGI/FastCGI-t, mint az IIS, Nginx, és Jetty."
+
+#: ../../build/doc/overview/mapcache_overview.rst:34
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/mapcache_overview.rst:36
+msgid "Allows tile caches to be stored in"
+msgstr "Gyorstárazott csempék tárolását teszi lehetővé"
+
+#: ../../build/doc/overview/mapcache_overview.rst:38
+msgid "on disk"
+msgstr "háttértárolón"
+
+#: ../../build/doc/overview/mapcache_overview.rst:39
+msgid "in the cloud using REST (S3, Azure, Google)"
+msgstr "felhőben REST használatával (S3, Azure, Google)"
+
+#: ../../build/doc/overview/mapcache_overview.rst:40
+msgid "in databases including SQLite, Berkeley DB, Riak"
+msgstr "adatbázisban többek között SQLite, Berkeley DB, Riak"
+
+#: ../../build/doc/overview/mapcache_overview.rst:41
+msgid "in Memcache"
+msgstr "Memcache-ben"
+
+#: ../../build/doc/overview/mapcache_overview.rst:43
+msgid "Includes a seeder application"
+msgstr "Tartalmaz egy feltöltő alkalmazást"
+
+#: ../../build/doc/overview/mapcache_overview.rst:44
+msgid "Caching based on dimensions (such as time)"
+msgstr "Dimenziók alapján történő gyorsítótárazás (például idő)"
+
+#: ../../build/doc/overview/mapcache_overview.rst:45
+msgid "Allows caching of Mapbox Vector (MVT) and UTFGrid tiles"
+msgstr ""
+"Lehetővé teszi Mapbox Vector (MVT) és UTFGrid csempék gyorsítótárazását"
+
+#: ../../build/doc/overview/mapcache_overview.rst:46
+msgid "Customizable grids"
+msgstr "Testreszabható rácsok"
+
+#: ../../build/doc/overview/mapcache_overview.rst:47
+msgid ""
+"Allows tiles to be \"assembled\" together - allowing tiles for different "
+"datasets to be merged together into a single tile to send to the client"
+msgstr ""
+"Lehetővé teszi a csempék \"összegyűjtését\" - megengedi a különböző "
+"adatállományok csempéinek  összevonását egyetlen csempét küldi az ügyfélnek"
+
+#: ../../build/doc/overview/mapcache_overview.rst:49
+msgid "Includes a seeder application to pre-fill caches from the command line"
+msgstr ""
+"Tartalmaz egy feltöltő alkalmazást, mellyel a parancssorból előre "
+"feltölthető a gyorstárat"
+
+#: ../../build/doc/overview/mapcache_overview.rst:50
+msgid "Allows requests to be proxied back to a server"
+msgstr ""
+"Lehetővé teszi a kérések proxyn keresztüli visszaküldését a kiszolgálóhoz"
+
+#: ../../build/doc/overview/mapcache_overview.rst:51
+msgid "An inbuilt demo interface"
+msgstr "Egy beépített demó intefész"
+
+#: ../../build/doc/overview/mapcache_overview.rst:54
+msgid "Implemented Standards"
+msgstr "Implementált szabványok"
+
+#: ../../build/doc/overview/mapcache_overview.rst:56
+msgid "Support of numerous Open Geospatial Consortium  (OGC) standards"
+msgstr "Számos Open Geospatial Consortium (OGC) szabvány támogatása"
+
+#: ../../build/doc/overview/mapcache_overview.rst:58
+msgid "`WMS <http://www.opengeospatial.org/standards/wms>`__"
+msgstr "`WMS <http://www.opengeospatial.org/standards/wms>`__"
+
+#: ../../build/doc/overview/mapcache_overview.rst:59
+msgid "`WMTS <http://www.opengeospatial.org/standards/wmts>`__"
+msgstr "`WMTS <http://www.opengeospatial.org/standards/wmts>`__"
+
+#: ../../build/doc/overview/mapcache_overview.rst:61
+msgid "Additional standards include:"
+msgstr "További szabványok:"
+
+#: ../../build/doc/overview/mapcache_overview.rst:63
+msgid "`TMS <https://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`__"
+msgstr "`TMS <https://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`__"
+
+#: ../../build/doc/overview/mapcache_overview.rst:64
+msgid "Google Maps XYZ"
+msgstr "Google térkép XYZ"
+
+#: ../../build/doc/overview/mapcache_overview.rst:65
+msgid "KML SuperOverlays"
+msgstr "KML SuperOverlays"
+
+#: ../../build/doc/overview/mapcache_overview.rst:68
+msgid "Demo"
+msgstr "Demó"
+
+#: ../../build/doc/overview/mapcache_overview.rst:70
+msgid "`Default MapCache Demo <http://localhost/mapcache/demo/>`_"
+msgstr "`Alapértelmezett MapCache demó <http://localhost/mapcache/demo/>`_"
+
+#: ../../build/doc/overview/mapcache_overview.rst:73
+msgid "Documentation"
+msgstr "Dokumentáció"
+
+#: ../../build/doc/overview/mapcache_overview.rst:75
+msgid "`MapCache Documentation <https://mapserver.org/mapcache/>`_"
+msgstr "`MapCache dokumentáció <https://mapserver.org/mapcache/>`_"
+
+#: ../../build/doc/overview/mapcache_overview.rst:78
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/mapcache_overview.rst:80
+msgid "**Website:** https://mapserver.org/mapcache/"
+msgstr "**Honlap:** https://mapserver.org/mapcache/"
+
+#: ../../build/doc/overview/mapcache_overview.rst:82
+msgid ""
+"**Licence:** `MIT-style license "
+"<http://mapserver.org/copyright.html#license>`_"
+msgstr ""
+"**Licenc:** `MIT-style licenc "
+"<http://mapserver.org/copyright.html#license>`_"
+
+#: ../../build/doc/overview/mapcache_overview.rst:84
+msgid "**Software Version:** |version-mapcache|"
+msgstr "**Program verzió:** |version-mapcache|"
+
+#: ../../build/doc/overview/mapcache_overview.rst:86
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Támogatott platformok:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/mapcache_overview.rst:88
+msgid "**Support:** http://mapserver.org/community/"
+msgstr "**Támogatás:** http://mapserver.org/community/"
+
+#: ../../build/doc/overview/mapcache_overview.rst:92
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/mapcache_overview.rst:94
+msgid ":doc:`Quickstart documentation <../quickstart/mapcache_quickstart>`"
+msgstr ":doc:`Quickstart dokumentáció <../quickstart/mapcache_quickstart>`"

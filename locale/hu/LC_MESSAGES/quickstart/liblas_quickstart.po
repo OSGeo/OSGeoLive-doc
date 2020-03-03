@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:06+0000\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:14
+msgid "libLAS Quickstart"
+msgstr "libLAS gyorstalpaló"
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:21
+msgid "Processing"
+msgstr "Feldolgozás"
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:23
+msgid ""
+"The libLAS 'command-line utilities' provide the bulk of user-facing "
+"operational software for libLAS, although the underlying libLAS library is "
+"what powers them.  Below is a listing of common operations that you might "
+"want to do on LAS data, and the utilities and approaches to take to complete"
+" those tasks. The demo data can be found in "
+":file:`/home/user/data/las/srs.las`"
+msgstr ""
+"A libLAS \"parancssori segédprogramok\" biztosítják a libLAS szoftver "
+"felhasználó által látható részének zömét, habár az alapjául szolgáló  LibLAS"
+" könyvtár adja ehhez a teljesítményt.  Lentebb egy lista található a gyakori"
+" műveletekkel, amit LAS adatokkal és a segédprogramokkal érdemes csinálni, "
+"valamint ezen feladatok megoldásához szükséges megközelítéseket. A demo "
+"adatok megtalálhatók: file:'/home/user/data/las/srs.las' könyvtárban."
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:30
+msgid "Reprojecting an LAS file"
+msgstr "LAS fájl átvetítése"
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:32
+msgid ""
+"All LAS data are in some sort of coordinate system, even if that coordinate "
+"system is not described in the LAS file.  For terrestrial LAS data, these "
+"coordinate system descriptions often map to coordinate systems described by "
+"the `EPSG`_ database.  Another source of information about coordinate "
+"systems in http://spatialreference.org."
+msgstr ""
+"Minden LAS adat valamilyen típusú koordináta-rendszerben van, még akkor is "
+"ha nem írják le a koordináta-rendszert a LAS fájlban. Földi LAS adatok "
+"esetén ezek a koordináta-rendszerek gyakran az `EPSG`_ adatbázisban leírt "
+"koordináta-rendszerre hivatkoznak. Egy másik információforrás a koordináta-"
+"rendszerekhez a http://spatialreference.org."
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:45
+msgid ""
+"The --no-check option tells lasinfo to only print the header information for"
+" the file and to not scan through all of the points.  For a 10 point file, "
+"this of course isn't much of a concern, but with a 50 or 500 million point "
+"file, it isn't worth waiting for a full scan of the data if all you want is "
+"header information."
+msgstr ""
+"A --no-check kapcsoló azt jelenti a lasinfo-nak, hogy csak a fejléc "
+"információt írja ki és ne nézze végig az összes pontot. Egy 10 pontos fájl "
+"esetén ez nem ad okot az aggodalomra, de 50 vagy 500 millió pontos fájlnál "
+"nem éri meg az adatok teljes vizsgálatát kivárni, ha csak a fejléc "
+"információra van szüksége."
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:51
+msgid ""
+"Our 'lasinfo' invocation tells us that the ``srs.las`` file is in a UTM "
+"North Zone 17 coordinate system:"
+msgstr ""
+"A 'lasinfo' kérésünk azt mondja, hogy az ``srs.las`` fájl UTM 17-es északi "
+"zóna koordináta-rendszerben van."
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:75
+msgid ""
+"Now that we know our input coordinate system, we can make a decision about "
+"what to reproject the data to.  In our first example, we're going to use the"
+" venerable plate carrée non-coordinate system, `EPSG:4326`_."
+msgstr ""
+"Most, hogy ismerjük az input koordináta-rendszert, dönthetünk arról, hogy "
+"melyikbe vetítsük át az adatokat. Az első példánkban az `EPSG:4326`_-ot "
+"fogjuk használni."
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:83
+msgid ""
+"Our process succeeds, but after a quick inspection of the data with "
+"``lasinfo output.las`` we see a problem:"
+msgstr ""
+"A feldolgozásunk sikeres, de az adatok ``lasinfo output.las`` gyors "
+"vizsgálata után láthatjuk a problémát:"
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:95
+msgid ""
+"The ``srs.las`` file had a scale of 0.01, or two decimal places of precision"
+" for its X, Y, and Z coordinates. For UTM data, this is ok, because it "
+"implies an implicit precision of 1 cm. For decimal degree data of the "
+"unprojected Plate Carrée coordinate system, it causes us to lose a bunch of "
+"precision. We need to set our scale values to something that can hold more "
+"precision in our case:"
+msgstr ""
+"Az ``srs.las`` fájl két tizedes élességgel tartalmazza az X, Y és Z "
+"koordinátákat. Az UTM adatokhoz ez megfelelő, ez 1 cm pontosságot jelent. A "
+"vetület nélküli földrajzi rendszerek decimális szög adatinál nagy pontosság "
+"vesztéssel jár. Az élességet be kell állítanunk, hogy nagyobb élességet "
+"kapjunk, esetünkben:"
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:106
+msgid ""
+"Another quick inspection with 'lasinfo' gives us something we're more "
+"comfortable with:"
+msgstr ""
+" Egy másik gyors 'lasinfo' vizsgálat eredményével elégedettebbek lehetünk:"
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:120
+msgid "Output LAS file to text"
+msgstr "LAS fájl output szövegfájlba"

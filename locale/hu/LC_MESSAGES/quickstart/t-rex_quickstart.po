@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"PO-Revision-Date: 2019-07-18 21:56+0000\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:16
+msgid "t-rex Quickstart"
+msgstr "t-rex gyorstalpaló"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:18
+msgid ""
+"t-rex is a vector tile server specialized on publishing MVT tiles from your "
+"own data."
+msgstr ""
+"A t-rex egy vektor csempe szerver, melyet saját adatainak MVT csempeként "
+"történő publikálására specializáltak."
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:20
+msgid "This Quick Start describes how to:"
+msgstr "Ez a gyorstalpaló a következőket írja le:"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:22
+msgid ""
+"generate vector tiles without configuration and inspect them with built-in "
+"viewers"
+msgstr ""
+"Konfiguráció nélküli csempe generálás és a beépített megjelenítővel "
+"megtekintése"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:23
+msgid "generate a tile cache"
+msgstr "Csempe gyorsítótár létrehozása"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:28
+msgid "Start t-rex"
+msgstr "t-rex indítása"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:30
+msgid ""
+"Choose :menuselection:`Geospatial --> Web Services --> T-Rex` from menu"
+msgstr "Válassza a menüből `Geospatial --> Web Services --> T-Rex`"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:31
+msgid ""
+"t-rex is started in zero-config mode connecting to PostGIS database "
+"`osm_local`"
+msgstr ""
+"A t-rex zéró konfiguráció módban indul  az `osm_local` PostGIS adatbázishoz "
+"csatlakozva"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:32
+msgid "A browser window is opened showing the t-rex backend:"
+msgstr "Egy böngésző ablak nyílik meg, mely a t-rex hátteret mutatja:"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:39
+msgid "Built-in viewers"
+msgstr "Beépített nézegetők"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:41
+msgid ""
+"t-rex comes with built-in viewers for inspecting generated vector tiles."
+msgstr ""
+"A t-rex-et beépített nézegetőkkel szállítják a generált vektor csempék "
+"megvizsgálásához."
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:43
+msgid "Open the t-rex backend on http://127.0.0.1:6767/"
+msgstr "Nyissa meg a t-rex backend-et a http://127.0.0.1:6767/ címen"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:44
+msgid ""
+"Click on th `X-Ray` entry in the upper right menu, to open the x-ray viewer."
+msgstr ""
+"Kattintson az `X-Ray` elemre a jobb-felső menüben az x-ray nézegető "
+"megnyitásához."
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:45
+msgid "Hover the mouse on a line to inspect the content of a feature."
+msgstr ""
+"Vigye az egeret egy vonalra, hogy a térképi elem tartalmát megvizsgálja."
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:50
+msgid ""
+"Try also the other viewers. Remark: The Mapbox GL viewer and and Maputnik "
+"require WebGL support, which is probably not available when running "
+"OSGeoLive in a VM."
+msgstr ""
+"Próbáljon ki más megjelenítőket. Megjegyzés: A Mapbox GL nézegető és a "
+"Maputnik WebGL támogatást igényelnek, mely várhatóan nem áll rendelkezésre "
+"amikor az OSGeoLive egy virtuális gépben fut."
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:55
+msgid "Cache seeding"
+msgstr "Átmeneti tároló feltöltés"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:57
+msgid "Close the browser and the terminal window running t-rex."
+msgstr "Zárja b a böngészőt és a t-rex-et futtató terminál ablakot."
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:58
+msgid "Open any text editor (e.g. :menuselection:`Accessories --> Leafpad`)."
+msgstr ""
+"Nyisson egy tetszőleges szövegszerkesztőt (pl. :menuselection:`Accessories "
+"--> Leafpad`)."
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:60
+msgid ""
+"Create the file \"ne.toml\" in your home directory: "
+":file:`/home/user/ne.toml`"
+msgstr ""
+"Hozza létre a \"ne.toml\" fájlt a bejelentkezési könyvtárában: "
+":file:`/home/user/ne.toml`"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:63
+msgid "Put the following content in it::"
+msgstr "Írja bele a következő tartalmat::"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:106
+msgid ""
+"Open a terminal (:menuselection:`System Tools --> LXTerminal`) and type::"
+msgstr ""
+"Nyisson egy terminál ablakot (:menuselection:`System Tools --> LXTerminal`) "
+"és gépelje be::"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:110
+msgid "To inspect the generated tiles type::"
+msgstr "A generált csempék vizsgálatára  írja be::"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:116
+msgid "What Next?"
+msgstr "Mi a következő?"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:118
+msgid ""
+"To create your own map viewer you can use the snippets on the info page in "
+"the t-rex backend."
+msgstr ""
+"A saját térképnézegető létrehozásához használhatja a t-rex háttér info "
+"oldalán található kódrészletet."
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:120
+msgid ""
+"After that you can use the built-in Maputnik editor (also linked from the "
+"info page) to create your own Mapbox GL Json style."
+msgstr ""
+"Ezután használhatja a beépített Maputnik szerkesztőt a saját Mapbox GL Json "
+"stílus létrehozására."
