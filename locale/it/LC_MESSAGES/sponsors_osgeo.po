@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Luca Delucchi <lucadeluge@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:02+0000\n"
+"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/sponsors_osgeo.rst:7
+msgid "The OSGeo Foundation"
+msgstr "La Fondazione OSGeo"
+
+#: ../../build/doc/sponsors_osgeo.rst:9
+msgid "*Empower everyone with open source geospatial*"
+msgstr ""
+
+#: ../../build/doc/sponsors_osgeo.rst:11
+msgid ""
+"The `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`__ is a "
+"not-for-profit organization whose mission is to foster global adoption of "
+"open geospatial technology by being an inclusive software foundation devoted"
+" to an open philosophy and participatory community driven development."
+msgstr ""
+
+#: ../../build/doc/sponsors_osgeo.rst:17
+msgid "OSGeo outreach and activities include:"
+msgstr ""
+
+#: ../../build/doc/sponsors_osgeo.rst:19
+msgid ""
+"`Local Chapters <http://www.osgeo.org/content/chapters/index.html>`__: "
+"Local, regional and language groups support grass roots activities."
+msgstr ""
+
+#: ../../build/doc/sponsors_osgeo.rst:20
+msgid ""
+"`GeoForAll <http://www.geoforall.org>`_: Over 100 educational labs from "
+"around the world who work with partners to make geospatial education and "
+"opportunities accessible to all."
+msgstr ""
+
+#: ../../build/doc/sponsors_osgeo.rst:21
+msgid ""
+"`OSGeoLive <http://live.osgeo.org>`__: A distribution of established "
+"geospatial open source software, pre-configured with sample data and "
+"quickstarts, ready to try out."
+msgstr ""
+
+#: ../../build/doc/sponsors_osgeo.rst:22
+msgid ""
+"`FOSS4G <http://foss4g.org>`_: Annual, international conference for *Free "
+"and Open Source Software for Geospatial*, as well as many regional and local"
+" `events <http://www.osgeo.org/events>`_."
+msgstr ""

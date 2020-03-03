@@ -1,0 +1,293 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Luca Delucchi <lucadeluge@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:09+0000\n"
+"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2018\n"
+"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/pycsw_overview.rst:19
+msgid "pycsw"
+msgstr "pycsw"
+
+#: ../../build/doc/overview/pycsw_overview.rst:22
+msgid "Metadata Catalogue"
+msgstr "Catalogo dei metadati"
+
+#: ../../build/doc/overview/pycsw_overview.rst:24
+msgid ""
+"pycsw enables users to publish a catalogue of dataset descriptions "
+"(metadata) to the web, using standards based interfaces and formats, such "
+"that it can be queried and updated by catalogue clients. pycsw is simple to "
+"setup within an Apache web server (or any WSGI server) and can access "
+"metadata records stored as XML files within a database."
+msgstr ""
+"pycsw consente agli utenti di pubblicare un catalogo delle descrizioni dei "
+"set di dati (metadati) per il web, utilizzando interfacce e formati basati "
+"su standard, tali da poter essere interrogati e aggiornati dai clients del "
+"catalogo. pycsw è semplice da configurare all’interno di un server web "
+"Apache (o qualsiasi server WSGI) e può accedere ai record dei metadati "
+"memorizzati come file XML all’interno di un database."
+
+#: ../../build/doc/overview/pycsw_overview.rst:26
+msgid ""
+"Metadata is 'data about data', storing such things as creation-date, author,"
+" title, area-of-interest, etc, and is usually encoded as XML files, "
+"following international standards such as ISO 19115, ISO 19139 and FGDC "
+"CSDGM."
+msgstr ""
+"Il metadato è un ‘dato sul dato’, memorizzando cose quali la data di "
+"creazione, l’autore, il titolo, l’area d’interesse, ecc, e di solito è "
+"codificato come file XML, secondo gli standard internazionali quali ISO "
+"19115, ISO 19139 e FGDC CSDGM."
+
+#: ../../build/doc/overview/pycsw_overview.rst:28
+msgid ""
+"pycsw is a `Python`_ implementation of the `OGC Catalogue Services for the "
+"Web (CSW) standard <https://www.opengeospatial.org/standards/cat>`__. The "
+"project is certified `OGC Compliant`_, and is an `OGC Reference "
+"Implementation`_. The CSW standard defines common interfaces to discover, "
+"browse and query metadata about spatial data, web services and related "
+"resources."
+msgstr ""
+
+#: ../../build/doc/overview/pycsw_overview.rst:30
+msgid ""
+"pycsw is Open Source, released under an MIT license, and runs on all major "
+"platforms (Windows, Linux, Mac OS X)."
+msgstr ""
+"pycsw e` Open Source, rilasciato con una licenza MIT, e funziona su tutte le"
+" principali piattaforme (Windows, Linux, Mac OS X)."
+
+#: ../../build/doc/overview/pycsw_overview.rst:39
+msgid "Core Features"
+msgstr "Caratteristiche principali"
+
+#: ../../build/doc/overview/pycsw_overview.rst:41
+msgid ""
+"certified OGC Compliant and OGC Reference Implementation for OGC CSW 2.0.2 "
+"and CSW 3.0.0"
+msgstr ""
+"certificato OGC Compliant e OGC Reference Implementation per OGC CSW 2.0.2 e"
+" CSV 3.0.0"
+
+#: ../../build/doc/overview/pycsw_overview.rst:42
+msgid "harvesting support for WMS, WFS, WCS, WPS, WAF, CSW, SOS"
+msgstr "supporto per WMS, WFS, WCS, WPS, WAF, CSW, SOS"
+
+#: ../../build/doc/overview/pycsw_overview.rst:43
+msgid "implements INSPIRE Discovery Services 3.0"
+msgstr "implementa INSPIRE Discovery Services 3.0"
+
+#: ../../build/doc/overview/pycsw_overview.rst:44
+msgid "implements ISO Metadata Application Profile 1.0.0"
+msgstr "implementa ISO Metadata Application Profile 1.0.0"
+
+#: ../../build/doc/overview/pycsw_overview.rst:45
+msgid "implements FGDC CSDGM Application Profile for CSW 2.0"
+msgstr "implementa FGDC CSDGM Application Profile per CSW 2.0"
+
+#: ../../build/doc/overview/pycsw_overview.rst:46
+msgid "implements the Search/Retrieval via URL (SRU) search protocol"
+msgstr ""
+"implementa il protocollo di ricerca Search/Retrieval attraverso URL (SRU)"
+
+#: ../../build/doc/overview/pycsw_overview.rst:47
+msgid "implements Full Text Search capabilities"
+msgstr ""
+
+#: ../../build/doc/overview/pycsw_overview.rst:48
+msgid "implements OGC OpenSearch Geo/Time extensions"
+msgstr ""
+
+#: ../../build/doc/overview/pycsw_overview.rst:49
+msgid "implements Open Archives Initiative Protocol for Metadata Harvesting"
+msgstr ""
+
+#: ../../build/doc/overview/pycsw_overview.rst:50
+msgid "supports ISO, Dublin Core, DIF, FGDC, Atom and GM03 metadata models"
+msgstr ""
+"supporto ai modelli dei matadati ISO, Dublin Core, DIF, FGDC, Atom e GM03"
+
+#: ../../build/doc/overview/pycsw_overview.rst:51
+msgid "CGI or WSGI deployment"
+msgstr "sviluppo CGI o WSGI"
+
+#: ../../build/doc/overview/pycsw_overview.rst:52
+msgid "Python 2 and 3 compatible"
+msgstr "Compatibile Python 2 e 3"
+
+#: ../../build/doc/overview/pycsw_overview.rst:53
+msgid "simple configuration"
+msgstr "configurazione semplice"
+
+#: ../../build/doc/overview/pycsw_overview.rst:54
+msgid "transactional capabilities (CSW-T)"
+msgstr ""
+
+#: ../../build/doc/overview/pycsw_overview.rst:55
+msgid "flexible repository configuration"
+msgstr "configurazione del repository flessibile"
+
+#: ../../build/doc/overview/pycsw_overview.rst:56
+msgid "GeoNode connectivity"
+msgstr "connettività con GeoNode"
+
+#: ../../build/doc/overview/pycsw_overview.rst:57
+msgid "HHypermap connectivity"
+msgstr "connettività con HHypermap"
+
+#: ../../build/doc/overview/pycsw_overview.rst:58
+msgid "Open Data Catalog connectivity"
+msgstr "connettività con Catalog Open Data"
+
+#: ../../build/doc/overview/pycsw_overview.rst:59
+msgid "CKAN connectivity"
+msgstr "connettività con CKAN"
+
+#: ../../build/doc/overview/pycsw_overview.rst:60
+msgid "federated catalogue distributed searching"
+msgstr "Catalogo federato di ricerca distribuita"
+
+#: ../../build/doc/overview/pycsw_overview.rst:61
+msgid "realtime XML Schema validation"
+msgstr "validazione dello schema XML in tempo reale"
+
+#: ../../build/doc/overview/pycsw_overview.rst:62
+msgid "extensible profile plugin architecture"
+msgstr "architettura dei plugin a profilo estendibile"
+
+#: ../../build/doc/overview/pycsw_overview.rst:63
+msgid "very lightweight (Python + CGI)"
+msgstr "Molto leggero (Python + CGI)"
+
+#: ../../build/doc/overview/pycsw_overview.rst:67
+msgid "Implemented Standards"
+msgstr "Standards implementati"
+
+#: ../../build/doc/overview/pycsw_overview.rst:69
+msgid "OGC Standards:"
+msgstr "Standards OGC:"
+
+#: ../../build/doc/overview/pycsw_overview.rst:71
+msgid "CSW   2.0.2, 3.0.0"
+msgstr "CSW   2.0.2, 3.0.0"
+
+#: ../../build/doc/overview/pycsw_overview.rst:72
+msgid "Filter        1.1.0, 2.0.0"
+msgstr "Filter        1.1.0, 2.0.0"
+
+#: ../../build/doc/overview/pycsw_overview.rst:73
+msgid "OWS Common    1.0.0, 2.0.0"
+msgstr "OWS Common    1.0.0, 2.0.0"
+
+#: ../../build/doc/overview/pycsw_overview.rst:74
+msgid "GML   3.1.1"
+msgstr "GML   3.1.1"
+
+#: ../../build/doc/overview/pycsw_overview.rst:75
+msgid "OGC SFSQL     1.2.1"
+msgstr "OGC SFSQL     1.2.1"
+
+#: ../../build/doc/overview/pycsw_overview.rst:76
+msgid "OGC OpenSearch  1.0"
+msgstr "OGC OpenSearch  1.0"
+
+#: ../../build/doc/overview/pycsw_overview.rst:78
+msgid "Metadata Standards:"
+msgstr "Standards dei matadati:"
+
+#: ../../build/doc/overview/pycsw_overview.rst:80
+msgid "Dublin Core   1.1"
+msgstr "Dublin Core   1.1"
+
+#: ../../build/doc/overview/pycsw_overview.rst:81
+msgid "SOAP  1.2"
+msgstr "SOAP  1.2"
+
+#: ../../build/doc/overview/pycsw_overview.rst:82
+msgid "ISO 19115:2003"
+msgstr ""
+
+#: ../../build/doc/overview/pycsw_overview.rst:83
+msgid "ISO 19139:2007"
+msgstr ""
+
+#: ../../build/doc/overview/pycsw_overview.rst:84
+msgid "ISO 19119:2005"
+msgstr ""
+
+#: ../../build/doc/overview/pycsw_overview.rst:85
+msgid "NASA DIF 9.7"
+msgstr ""
+
+#: ../../build/doc/overview/pycsw_overview.rst:86
+msgid "FGDC CSDGM 1998"
+msgstr ""
+
+#: ../../build/doc/overview/pycsw_overview.rst:87
+msgid "GM03  2.1"
+msgstr "GM03  2.1"
+
+#: ../../build/doc/overview/pycsw_overview.rst:88
+msgid "SRU   1.1"
+msgstr "SRU   1.1"
+
+#: ../../build/doc/overview/pycsw_overview.rst:89
+msgid "OAI-PMH   2.0"
+msgstr "OAI-PMH   2.0"
+
+#: ../../build/doc/overview/pycsw_overview.rst:90
+msgid "A9 OpenSearch         1.1"
+msgstr "A9 OpenSearch         1.1"
+
+#: ../../build/doc/overview/pycsw_overview.rst:93
+msgid "Details"
+msgstr "Dettagli"
+
+#: ../../build/doc/overview/pycsw_overview.rst:95
+msgid "**Website:** https://pycsw.org"
+msgstr ""
+
+#: ../../build/doc/overview/pycsw_overview.rst:97
+msgid "**Licence:** `MIT`_"
+msgstr "**Licenza:** `MIT`_"
+
+#: ../../build/doc/overview/pycsw_overview.rst:99
+msgid "**Software Version:** |version-pycsw|"
+msgstr "**Versione del Software:** |version-pycsw|"
+
+#: ../../build/doc/overview/pycsw_overview.rst:101
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Piattaforme Supportate:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/pycsw_overview.rst:103
+msgid "**API Interfaces:** Python"
+msgstr "**Interfacce API:** Python"
+
+#: ../../build/doc/overview/pycsw_overview.rst:105
+msgid "**Support:** https://pycsw.org/docs/support.html"
+msgstr ""
+
+#: ../../build/doc/overview/pycsw_overview.rst:114
+msgid "Quickstart"
+msgstr "Guida rapida"
+
+#: ../../build/doc/overview/pycsw_overview.rst:116
+msgid ":doc:`Quickstart documentation <../quickstart/pycsw_quickstart>`"
+msgstr ":doc:`Documentazione introduttiva <../quickstart/pycsw_quickstart>`"
