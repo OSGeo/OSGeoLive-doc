@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2018, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # 
 # Translators:
 # Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2018
@@ -12,13 +12,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
 "PO-Revision-Date: 2017-01-21 16:46+0000\n"
 "Last-Translator: Santtu Pyykkönen, 2019\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -34,12 +35,12 @@ msgid ""
 "without installing anything. It is composed entirely of free software, "
 "allowing it to be freely distributed, duplicated and passed around."
 msgstr ""
-"`OSGeoLive <http://live.osgeo.org>`_ on itsenäinen käynnistettävä DVD-levy, "
-"USB-muistitikku tai virtuaalikone, joka perustuu `Lubuntu "
-"<http://lubuntu.net>`_, joka mahdollistaa Sinun kokeilla laajaa joukkoa "
-"avoimen lähdekoodin paikkatieto-ohjelmia ilman että Sinun tarvitsee asentaa "
-"mitään. Se koostuu täysin vapaista ohjelmistoista, jonka ansiosta sitä "
-"voidaan jakaa vapaasti, kopioida sekä levittää laajalti."
+"`OSGeoLive <http://live.osgeo.org>`_ on omavarainen `Lubuntuun "
+"<http://lubuntu.net>`_ perustuva virtuaalikone, USB-muistitikku tai DVD-"
+"levy, jonka avulla voi kokeilla ja käyttää laajaa joukkoa avoimen "
+"lähdekoodin paikkatieto-ohjelmia ilman että ohjelmia pitäisi asentaa. "
+"OSGeoLive koostuu täysin avoimista ja vapaista ohjelmistoista, mistä syystä "
+"sitä voidaan vapaasti jakaa, kopioida sekä levittää eteenpäin."
 
 #: ../../build/doc/index.rst:31
 msgid ""
@@ -47,24 +48,24 @@ msgid ""
 " including storage, publishing, viewing, analysis and manipulation of data. "
 "It also contains sample datasets and documentation."
 msgstr ""
-"Se tarjoaa esiasennettuja sovellutuksia joukolle paikkatiedon "
-"käyttötapauksia, mukaan lukien tietovarastot, julkaisu, katselu, analysointi"
-" sekä tiedon muokkaus. Se sisältää myös esimerkkiaineistoja ja "
-"dokumentaation."
+"Se tarjoaa esiasennettuja sovelluksia paikkatiedon eri käyttötapauksiin, "
+"mukaan lukien tietovarastot, julkaisu, katselu, analysointi sekä tiedon "
+"muokkaus. Se sisältää myös esimerkkiaineistoja ja dokumentaation."
 
 #: ../../build/doc/index.rst:35
 msgid "To try out the applications, simply:"
-msgstr "Kokeillaksesi sovellutuksia, yksinkertaisesti:"
+msgstr "Voi kokeilla sovelluksia seuraavalla tavalla:"
 
 #: ../../build/doc/index.rst:37
 msgid "Insert DVD or USB thumb drive in computer or virtual machine."
-msgstr "Laita DVD tai USB-muistitikku tietokoneeseen tai virtuaalikoneeseen."
+msgstr ""
+"Laita USB-muistitikku tai DVD-levy tietokoneeseen tai virtuaalikoneeseen."
 
 #: ../../build/doc/index.rst:38
 msgid "Reboot computer. (verify boot device order if necessary)"
 msgstr ""
-"Uudelleenkäynnistä tietokoneesi. (varmista laitteiden käynnistysjärjestys "
-"jos tarpeellista)"
+"Uudelleenkäynnistä tietokoneesi (mikäli tarpeellista varmista laitteiden "
+"käynnistysjärjestys)."
 
 #: ../../build/doc/index.rst:39
 msgid "Press \"Enter\" to startup & login."
@@ -72,7 +73,7 @@ msgstr "Paina \"Enter\" aloittaaksesi ja sisäänkirjautuaksesi."
 
 #: ../../build/doc/index.rst:40
 msgid "Select and run applications from the \"Geospatial\" menu."
-msgstr "Valitse ja suorita sovellutukset  \"Geospatial\" valikosta."
+msgstr "Valitse ja avaa tai aja sovelluksia \"Geospatial\" valikosta."
 
 #: ../../build/doc/index.rst:42
 msgid ""
@@ -99,6 +100,6 @@ msgid ""
 "applications, is available with slides, script, and `abstract "
 "<presentation/abstract.txt>`_."
 msgstr ""
-"Kaikki OSGeoLive-sovellutukset esittelevä puolen tunnin esitys "
+"Kaikki OSGeoLive-sovellutukset esittelevä puolen tunnin `esitys "
 "<presentation.html>`_ on saatavilla esityskalvoineen, skripteineen ja "
-"abstrakteineen <presentation/abstract.txt>`_."
+"`abstrakteineen <presentation/abstract.txt>`_."

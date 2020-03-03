@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Santtu Pyykkönen, 2019
+# Sini Pöytäniemi <sini.poytaniemi@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:10+0000\n"
+"Last-Translator: Sini Pöytäniemi <sini.poytaniemi@gmail.com>, 2019\n"
+"Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/R_overview.rst:14
+msgid "R for Spatial Data"
+msgstr ""
+
+#: ../../build/doc/overview/R_overview.rst:17
+msgid "Statistical Programming"
+msgstr "Tilastollinen ohjelmointi"
+
+#: ../../build/doc/overview/R_overview.rst:19
+msgid ""
+"R is a powerful, widely used software environment for statistical computing "
+"and graphics which excels at analyzing and processing geographic data sets. "
+"Geospatial analysis capabilities within R are available in R packages "
+"(modules that extend the capabilities of R) that provide access to a huge "
+"number of traditional and state of the art algorithms (). R and its packages"
+" are able to process point, line, polygon, networks, grid data (etc.)."
+msgstr ""
+"R on voimakas, laajasti käytetty ohjelmistoympäristö tilastolliseen "
+"tietojenkäsittelyyn ja graafiseen esittämiseen. R loistaa maantieteellisten "
+"aineistojen analysoimisessa ja käsittelyssä. R:n geospatiaalisen "
+"analysoinnin ominaisuudet ovat käytettävissä R-paketteina (packages: "
+"moduuleja, jotka laajentavat R:n ominaisuuksia), jotka tarjoavat "
+"käytettäväksi suuren määrän perinteisiä ja edistyneitä algoritmejä. R ja sen"
+" paketit voivat käsitellä piste-, viiva-, alue-, verkosto- ja ruudukkodataa "
+"(jne)."
+
+#: ../../build/doc/overview/R_overview.rst:27
+msgid ""
+"Users can accomplish a broad array of tasks such as: image classification, "
+"statistical analysis to infer spatial relationships and patterns of "
+"features, and others listed in the core features below. The functions "
+"available via R complement and advance capabilities found in GIS and image "
+"processing software. Using packages for parallelisation users can "
+"drastically reduce computational time and increase these capability. Several"
+" packages provide connection with other OSGeo tools and software. You can "
+"easily plug R with GRASS-GIS, Qgis, postgreSQL and postGIS."
+msgstr ""
+
+#: ../../build/doc/overview/R_overview.rst:36
+msgid ""
+"The core R interface is a command line window which provides excellent "
+"flexibility and control but tends to lengthen the time required to become a "
+"proficient user when compared to software with a graphical user interface "
+"(GUI). Fortunately R is well documented on the web site which eases the "
+"learning process. Scripts are often used to automate processing steps but "
+"there are GUIs, the leading one being RStudio (http://www.rstudio.com)."
+msgstr ""
+
+#: ../../build/doc/overview/R_overview.rst:44
+msgid ""
+"R is an implementation of the S programming language and there is "
+"significant compatibility between R and legacy S and S-Plus code as well as "
+"between R and the modern commercial version of S, TIBCO Spotfire S+. This "
+"makes it possible to convert different versions of S code to run on R "
+"without major code modifications."
+msgstr ""
+
+#: ../../build/doc/overview/R_overview.rst:57
+msgid "Core Features"
+msgstr "Keskeiset ominaisuudet"
+
+#: ../../build/doc/overview/R_overview.rst:59
+msgid ""
+"Complete Object Oriented Programming Language designed for Statistics and "
+"similar Mathematical intensive applications"
+msgstr ""
+"Täydellinen oliopohjainen ohjelmointikieli, joka on suunniteltu "
+"tilastollisesti ja matemaattisesti intensiivisiä sovelluksia varten"
+
+#: ../../build/doc/overview/R_overview.rst:60
+msgid ""
+"Currently (2017/08/11), the CRAN package repository features 11239 available"
+" packages."
+msgstr "Tällä hetkellä (2017/08/11) CRAN-projektissa on 11239 pakettia. "
+
+#: ../../build/doc/overview/R_overview.rst:61
+msgid ""
+"Hundreds of community contributed add-on packages for spatial statistics"
+msgstr ""
+
+#: ../../build/doc/overview/R_overview.rst:62
+msgid "Classes for spatial data"
+msgstr "Spatiaalisen datan luokat"
+
+#: ../../build/doc/overview/R_overview.rst:63
+msgid "Reading and writing spatial data"
+msgstr "Spatiaalisen datan lukeminen ja kirjoittaminen"
+
+#: ../../build/doc/overview/R_overview.rst:64
+msgid "Point pattern analysis"
+msgstr "Pistekuvion analysoiminen"
+
+#: ../../build/doc/overview/R_overview.rst:65
+msgid "Geostatistics"
+msgstr "Geostatistiikka"
+
+#: ../../build/doc/overview/R_overview.rst:66
+msgid "Spatial regression"
+msgstr "Spatiaalinen regressio"
+
+#: ../../build/doc/overview/R_overview.rst:67
+msgid "Ecological analysis"
+msgstr "Ekologinen analyysi"
+
+#: ../../build/doc/overview/R_overview.rst:68
+msgid "Powerful raster processing algorithms"
+msgstr "Tehokkaat algoritmit rasterin käsittelyyn"
+
+#: ../../build/doc/overview/R_overview.rst:69
+msgid "Remote sensing"
+msgstr "Kaukokartoitus"
+
+#: ../../build/doc/overview/R_overview.rst:70
+msgid "Bayesian spatial analysis"
+msgstr ""
+
+#: ../../build/doc/overview/R_overview.rst:71
+msgid "..."
+msgstr "..."
+
+#: ../../build/doc/overview/R_overview.rst:74
+msgid "Details"
+msgstr "Lisätiedot"
+
+#: ../../build/doc/overview/R_overview.rst:76
+msgid "**Website:** http://cran.r-project.org"
+msgstr "**Verkkosivu:** http://cran.r-project.org"
+
+#: ../../build/doc/overview/R_overview.rst:78
+msgid "**Licence:** GPL"
+msgstr "**Licence:** GPL"
+
+#: ../../build/doc/overview/R_overview.rst:80
+msgid "**Software Version:** |version-R|"
+msgstr "**Ohjelmistoversio:**  |version-R|"
+
+#: ../../build/doc/overview/R_overview.rst:82
+msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
+msgstr "** Tuetut käyttöjärjestelmät: ** Windows, Linux, Mac, Unix"
+
+#: ../../build/doc/overview/R_overview.rst:84
+msgid ""
+"**Community Support:** http://cran.r-project.org/web/views/Spatial.html"
+msgstr ""
+
+#: ../../build/doc/overview/R_overview.rst:86
+msgid ""
+"**CRAN packages available:** "
+"https://cran.r-project.org/web/packages/available_packages_by_name.html"
+msgstr ""
+
+#: ../../build/doc/overview/R_overview.rst:91
+msgid "Quickstart"
+msgstr "Pika-aloitus"
+
+#: ../../build/doc/overview/R_overview.rst:93
+msgid ":doc:`Quickstart documentation <../quickstart/R_quickstart>`"
+msgstr ""
