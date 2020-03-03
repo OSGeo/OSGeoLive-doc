@@ -33,7 +33,7 @@ msgid ""
 "detailed on the `OSGeo Wiki "
 "<http://wiki.osgeo.org/wiki/OSGeoLive#Contact_Us>`_."
 msgstr ""
-"Le développement d'OSGeoLive est coordonné par émail par internet chat (IRC)"
+"Le développement d'OSGeoLive est coordonné par email par internet chat (IRC)"
 " comme détaillé sur le `Wiki OSGeo "
 "<http://wiki.osgeo.org/wiki/OSGeoLive#Contact_Us>`_."
 
