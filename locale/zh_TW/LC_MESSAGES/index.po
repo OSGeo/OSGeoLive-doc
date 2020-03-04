@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Supaplex <bejokeup@gmail.com>, 2018
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-01-21 16:46+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/osgeo/teams/66156/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/index.rst:3
+msgid "Welcome to |osgeolive-version|"
+msgstr "歡迎來到 |osgeolive-version|"
+
+#: ../../build/doc/index.rst:19
+msgid ""
+"`OSGeoLive <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB "
+"thumb drive or Virtual Machine based on `Lubuntu <http://lubuntu.net>`_, "
+"that allows you to try a wide variety of open source geospatial software "
+"without installing anything. It is composed entirely of free software, "
+"allowing it to be freely distributed, duplicated and passed around."
+msgstr ""
+"`OSGeoLive <http://live.osgeo.org>`_ 自身含有可開機的 DVD、USB 隨身碟或是任何基於 `Lubuntu "
+"<http://lubuntu.net>`_ 的虛擬機器，讓你能夠不用安裝，就能使用相當多種類的開源地理空間軟體。OSGeoLive "
+"全部由自由軟體構成，允許你能自由散佈，複製或是到處流傳。"
+
+#: ../../build/doc/index.rst:31
+msgid ""
+"It provides pre-configured applications for a range of geospatial use cases,"
+" including storage, publishing, viewing, analysis and manipulation of data. "
+"It also contains sample datasets and documentation."
+msgstr ""
+"OSGeoLive "
+"提供預先設定好的應用程式，應用程式涵蓋一些不同的地理空間使用案例，像是儲存、發佈、檢視、分析和應用資料，另外還有包含示範資料集和說明文件。"
+
+#: ../../build/doc/index.rst:35
+msgid "To try out the applications, simply:"
+msgstr "要試試這些應用程式，只要簡單："
+
+#: ../../build/doc/index.rst:37
+msgid "Insert DVD or USB thumb drive in computer or virtual machine."
+msgstr "括入 DVD 或 USB 隨身碟插入電腦或是虛擬機器。"
+
+#: ../../build/doc/index.rst:38
+msgid "Reboot computer. (verify boot device order if necessary)"
+msgstr "重新啟動電腦。(必要時確認開機磁碟順序)"
+
+#: ../../build/doc/index.rst:39
+msgid "Press \"Enter\" to startup & login."
+msgstr "按\"進入\"啟動和登入。"
+
+#: ../../build/doc/index.rst:40
+msgid "Select and run applications from the \"Geospatial\" menu."
+msgstr "從\"地理空間\"選單選擇和執行程式。"
+
+#: ../../build/doc/index.rst:42
+msgid ""
+"OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo "
+"Foundation is a not-for-profit supporting Geospatial Open Source Software "
+"development, promotion and `education <http://www.geoforall.org/>`_."
+msgstr ""
+"OSGeoLive 是 `OSGeo 基金會 <http://osgeo.org/>`_ 的計畫。OSGeo "
+"基金會是非營利組織，支援地理資訊相關的開放軟體開發、推廣和`教育<http://www.geoforall.org/>`_."
+
+#: ../../build/doc/index.rst:47
+msgid "Quick Starts"
+msgstr "快速入門"
+
+#: ../../build/doc/index.rst:81
+msgid "Presentation"
+msgstr "簡報"
+
+#: ../../build/doc/index.rst:83
+msgid ""
+"A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive "
+"applications, is available with slides, script, and `abstract "
+"<presentation/abstract.txt>`_."
+msgstr ""
+"半小時的`簡報<presentation.html>`提到所有 OSGeoLive "
+"裡的應用程式，每個都有相關的簡報、腳本和`簡介<presentation/abstract.txt>`_。"

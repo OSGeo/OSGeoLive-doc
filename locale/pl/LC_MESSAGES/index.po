@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Milena Nowotarska <do.milenki@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-01-21 16:46+0000\n"
+"Last-Translator: Milena Nowotarska <do.milenki@gmail.com>, 2019\n"
+"Language-Team: Polish (https://www.transifex.com/osgeo/teams/66156/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: ../../build/doc/index.rst:3
+msgid "Welcome to |osgeolive-version|"
+msgstr "Witaj w |osgeolive-version|"
+
+#: ../../build/doc/index.rst:19
+msgid ""
+"`OSGeoLive <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB "
+"thumb drive or Virtual Machine based on `Lubuntu <http://lubuntu.net>`_, "
+"that allows you to try a wide variety of open source geospatial software "
+"without installing anything. It is composed entirely of free software, "
+"allowing it to be freely distributed, duplicated and passed around."
+msgstr ""
+"`OSGeoLive <http://live.osgeo.org>`_ jest to startowe DVD, PenDrive USB lub "
+"wirtualna maszyna z systemem `Lubuntu <http://lubuntu.net>`_. Pozwala na "
+"wypróbowanie szerokiego wachlarza oprogramowania open source do zastosowań "
+"geoprzestrzennych, bez konieczności ich instalowania. Na płycie znajduje się"
+" wyłącznie oprogramowanie opatrzone wolnymi licencjami, uprawniającymi do "
+"powielania i rozpowszechniania go."
+
+#: ../../build/doc/index.rst:31
+msgid ""
+"It provides pre-configured applications for a range of geospatial use cases,"
+" including storage, publishing, viewing, analysis and manipulation of data. "
+"It also contains sample datasets and documentation."
+msgstr ""
+"OSGeo-Live zawiera wstępnie skonfigurowane aplikacje przydatne w wielu "
+"zadaniach geoprzestrzennych, takich jak przechowywanie, publikowanie, "
+"przeglądanie, analizy i przetwarzanie danych. Płyta zawiera również zestawy "
+"danych do ćwiczeń i dokumentację."
+
+#: ../../build/doc/index.rst:35
+msgid "To try out the applications, simply:"
+msgstr "Aby wypróbować aplikacje zgromadzone na OSGeo-Live, po prostu:"
+
+#: ../../build/doc/index.rst:37
+msgid "Insert DVD or USB thumb drive in computer or virtual machine."
+msgstr "Włóż DVD lub pendrive USB do komputera lub maszyny wirtualnej."
+
+#: ../../build/doc/index.rst:38
+msgid "Reboot computer. (verify boot device order if necessary)"
+msgstr "Zrestartuj komputer (ewentualnie sprawdź kolejność bootowania)."
+
+#: ../../build/doc/index.rst:39
+msgid "Press \"Enter\" to startup & login."
+msgstr "Naciśnij \"Enter\" aby się zalogować."
+
+#: ../../build/doc/index.rst:40
+msgid "Select and run applications from the \"Geospatial\" menu."
+msgstr "Wypróbuj aplikacje znajdujące się w menu “Geospatial”."
+
+#: ../../build/doc/index.rst:42
+msgid ""
+"OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo "
+"Foundation is a not-for-profit supporting Geospatial Open Source Software "
+"development, promotion and `education <http://www.geoforall.org/>`_."
+msgstr ""
+
+#: ../../build/doc/index.rst:47
+msgid "Quick Starts"
+msgstr "Szybkie wprowadzenia"
+
+#: ../../build/doc/index.rst:81
+msgid "Presentation"
+msgstr "Prezentacja"
+
+#: ../../build/doc/index.rst:83
+msgid ""
+"A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive "
+"applications, is available with slides, script, and `abstract "
+"<presentation/abstract.txt>`_."
+msgstr ""
+"Półgodzinna `prezentacja <presentation.html>`_ omawiająca wszystkie zawarte "
+"na OSGeo-Live programy, dostępna jest w postaci slajdów, skryptów i "
+"`abstraktów <presentation/abstract.txt>`_."

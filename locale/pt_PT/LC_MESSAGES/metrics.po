@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Jorge Gustavo Rocha <jgr@di.uminho.pt>, 2017
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"PO-Revision-Date: 2017-09-20 16:02+0000\n"
+"Last-Translator: Jorge Gustavo Rocha <jgr@di.uminho.pt>, 2017\n"
+"Language-Team: Portuguese (Portugal) (https://www.transifex.com/osgeo/teams/66156/pt_PT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/metrics.rst:6
+msgid "|osgeolive-version| Project Metrics"
+msgstr "Métricas do |osgeolive-version|"
+
+#: ../../build/doc/metrics.rst:8
+msgid ""
+"Metrics provided by `OpenHUB <https://www.openhub.net/>`_ which are derived "
+"from the projects' code repositories. Note these metrics have known "
+"deficiencies (such as caused by repositories moving), and only provide "
+"partial indications about the projects' development. Lack of change in "
+"smaller, concise packages and libraries may simply reflect a level of "
+"maturity and completeness."
+msgstr ""
+"As métricas do projeto são fornecidas pelo `OpenHUB "
+"<https://www.openhub.net/>`_ a partir dos repositórios do código. Estas "
+"estatísticas têm algumas limitações (por exemplo, devido a transferências "
+"dos repositórios) e os indicadores podem não refletir fielmente as "
+"atividades de desenvolvimento do projeto. A menor atualização em pequenos "
+"pacotes ou bibliotecas pode simplesmente ser um indício de que se trata de "
+"código estável e maduro."
+
+#: ../../build/doc/metrics.rst:14
+msgid ""
+"Viewing the metrics requires an Internet connection and Javascript to be "
+"enabled."
+msgstr ""
+"Para consultar as métricas do projeto é necessário uma ligação à internet e "
+"ter o Javascript ativo no browser."
+
+#: ../../build/doc/metrics.rst:23
+msgid "Desktop GIS"
+msgstr "SIG Desktop"
+
+#: ../../build/doc/metrics.rst:36
+msgid "Browser Facing GIS"
+msgstr "SIG no browser"
+
+#: ../../build/doc/metrics.rst:51
+msgid "Web Services"
+msgstr "Web Services"
+
+#: ../../build/doc/metrics.rst:75
+msgid "Data Stores"
+msgstr "Repositórios de dados"
+
+#: ../../build/doc/metrics.rst:86
+msgid "Navigation and Maps"
+msgstr "Mapas e navegação"
+
+#: ../../build/doc/metrics.rst:99
+msgid "Spatial Tools"
+msgstr "Ferramentas geográficas"
+
+#: ../../build/doc/metrics.rst:111
+msgid "Domain Specific GIS"
+msgstr "SIG para domínios específicos"
+
+#: ../../build/doc/metrics.rst:119
+msgid "Data"
+msgstr "Dados"
+
+#: ../../build/doc/metrics.rst:130
+msgid "Geospatial Libraries"
+msgstr "Bibliotecas Geoespaciais"

@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Pedro Henriques <henriques.pedro.mf@gmail.com>, 2017
+# Joana Simoes <jo@doublebyte.net>, 2017
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2019
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-11-07 03:17+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Language-Team: Portuguese (Portugal) (https://www.transifex.com/osgeo/teams/66156/pt_PT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/download.rst:7
+msgid "Download"
+msgstr "Transferir"
+
+#: ../../build/doc/download.rst:9
+msgid ""
+"The latest stable release is |osgeolive-version| and can be downloaded from:"
+msgstr ""
+"A última versão estável é |osgeolive-version| e pode ser transferida de:"
+
+#: ../../build/doc/download.rst:11
+msgid "https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version|/"
+msgstr ""
+"https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version|/"
+
+#: ../../build/doc/download.rst:14
+msgid "Picking the right image for you:"
+msgstr "Escolha a imagem certa para si:"
+
+#: ../../build/doc/download.rst:16
+msgid "**osgeolive iso**: |osgeolive-iso-size|"
+msgstr "**osgeolive iso**: |osgeolive-iso-tamanho|"
+
+#: ../../build/doc/download.rst:18
+msgid ""
+"A Lubuntu based bootable image, which can be copied to an 8 Gig USB thumb "
+"drive (faster and recommended) or DVD (cheaper). It can also be used to "
+"build a virtual machine from scratch."
+msgstr ""
+"Uma imagem de arranque baseada em Lubuntu, que pode ser copiada para uma "
+"unidade USB de 8 GB (mais rápido e recomendado) ou DVD (mais barato). Também"
+" pode ser usado para criar uma máquina virtual a partir do zero."
+
+#: ../../build/doc/download.rst:20
+msgid "**osgeolive-vm**: |osgeolive-vm-7z-size|"
+msgstr "**osgeolive-vm**: |osgeolive-vm-7z-tamanho|"
+
+#: ../../build/doc/download.rst:22
+msgid ""
+"This is a pre-made virtual machine (.vmdk), based on osgeolive, suitable for"
+" use in VirtualBox, VMWare, KVM and other virtual machine applications. It "
+"has been compressed using `7-Zip <http://www.7-zip.org/>`_."
+msgstr ""
+"Esta é uma máquina virtual pré-fabricada (VMDK), feita com base no "
+"osgeolive, apropriada para o uso na VirtualBox, VMWare, KVM e outros "
+"programas de máquinas virtuais. Foi comprimido usando 7-Zip < "
+"http://www.7-zip.org/ >'_."
+
+#: ../../build/doc/download.rst:24
+msgid "**amd64 or i386 architecture**"
+msgstr "**arquitetura amd64 ou i386**"
+
+#: ../../build/doc/download.rst:26
+msgid ""
+"ISO images are available for recent amd64 hardware (recommended) as well as "
+"older i386 hardware."
+msgstr ""
+"Estão disponíveis imagens ISO para o hardware amd64 recente  (recomendado), "
+"tal como para hardware i386 mais antigo."
+
+#: ../../build/doc/download.rst:28
+msgid "**md5 checksum**"
+msgstr "**md5 checksum**"
+
+#: ../../build/doc/download.rst:30
+msgid ""
+"You can use the md5 checksum to verify the image downloaded successfully."
+msgstr ""
+"Pode usar o md5 checksum para verificar se a imagem transferida foi "
+"concluída com sucesso."
+
+#: ../../build/doc/download.rst:32
+msgid "**System Requirements**"
+msgstr "**Requisitos do Sistema**"
+
+#: ../../build/doc/download.rst:34
+msgid ""
+"`Minimum suggested system resources: 1 GB RAM (2 GB are better for trying "
+"Java based applications), 1GHz i386 or amd64 compatible CPU. No hard drive "
+"required. Mac users will benefit from a 3-button USB mouse.`"
+msgstr ""
+"'Recursos de sistema mínimos sugeridos: 1 GB RAM (2 GB são melhores para "
+"experimentar aplicações baseadas em Java), 1GHz i386 ou CPU compatível com "
+"amd64. Não é necessário disco duro. Os utilizadores de Mac irão beneficiar "
+"do uso de um rato USB com 3 botões.'"

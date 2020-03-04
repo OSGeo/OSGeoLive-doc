@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Anne Ylinen, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-19 08:47-0500\n"
+"PO-Revision-Date: 2017-09-20 16:06+0000\n"
+"Last-Translator: Anne Ylinen, 2019\n"
+"Language-Team: Swedish (https://www.transifex.com/osgeo/teams/66156/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:8
+msgid "Install OSGeoLive to Hard Disk"
+msgstr "Installera OSGeoLive till hårddisk"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:10
+msgid ""
+"OSGeoLive can be installed onto your hard disk, the same way an Ubuntu "
+"distribution is installed."
+msgstr ""
+"OSGeoLive kan installeras på din hårddisk, på samma sätt en Ubuntu-"
+"distribution är installerad."
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:13
+msgid ""
+"This process can also be run inside a Virtual Machine to create a permanent "
+"OSGeoLive Virtual Machine from a DVD or ISO image."
+msgstr ""
+"Den här processen kan också köras i en virtuell maskin för att skapa en "
+"permanent OSGeoLive virtuell maskin från en DVD-eller ISO-avbildning."
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:17
+msgid "System Requirements"
+msgstr "Systemkrav"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:19
+msgid "|osgeolive-hdspace| of spare Hard Disk Space"
+msgstr "|osgeolive-hdspace| av extra hårddiskutrymme"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:22
+msgid "Install OSGeoLive"
+msgstr "Installera OSGeoLive"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:27
+msgid "Select :guilabel:`Install RELEASE`"
+msgstr "Välj :guilabel:`Install RELEASE`"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:32
+msgid "Enter password=\"user\""
+msgstr "Ange password=\"user\""
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:37
+msgid "Select language"
+msgstr "Välj språk"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:42
+msgid "Select timezone"
+msgstr "Välj tidszon"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:47
+msgid "Select keyboard"
+msgstr "Välj tangentbord"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:52
+msgid ""
+"Specify which disk to want to install on. (Beware, this may delete an "
+"existing installed partition)."
+msgstr ""
+"Ange vilken disk du vill installera på. (Var försiktig, detta kan ta bort en"
+" befintlig installerad partition)."
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:58
+msgid "Defaults for settings are:"
+msgstr "Standardinställningar för inställningar är:"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:60
+msgid "Name = \"user\""
+msgstr "Namn = \"user\""
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:61
+msgid "username = \"user\""
+msgstr "username = \"user\""
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:62
+msgid "password = \"user\""
+msgstr "password = \"user\""
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:63
+msgid "computer name = \"osgeolive\""
+msgstr "computer name = \"osgeolive\""
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:64
+msgid "Log In automatically"
+msgstr "Logga in automatiskt"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:69
+msgid "Select :guilabel:`Install`"
+msgstr "Välj :guilabel:`Install`"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:71
+msgid "Go and get a cup of coffee while installation is in progress."
+msgstr "Gå och ta en fika medan installationen pågår."
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:73
+msgid "That is it."
+msgstr "Det är det."
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:75
+msgid ""
+"Installation Tips In case you are installing using a username other than "
+"\"user\", tomcat applications require to have permission to service command "
+"as described in http://trac.osgeo.org/osgeo/ticket/1153"
+msgstr ""
+"Installationstips om du installerar med ett annat användarnamn än \"user\", "
+"tomcat program kräver tillstånd till tjänstkommandot som beskrivs i "
+"http://trac.osgeo.org/osgeo/ticket/1153"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:80
+msgid "See Also:"
+msgstr "Se även:"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:82
+msgid ":doc:`osgeolive_quickstart`"
+msgstr ":doc:`osgeolive_quickstart`"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:83
+msgid ":doc:`virtualization_quickstart`"
+msgstr ":doc:`virtualization_quickstart`"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:84
+msgid ":doc:`usb_quickstart`"
+msgstr ":doc:`usb_quickstart`"

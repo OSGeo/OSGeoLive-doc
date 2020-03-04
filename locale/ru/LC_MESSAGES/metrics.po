@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Ariki <ardjakov@rambler.ru>, 2017
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"PO-Revision-Date: 2017-09-20 16:02+0000\n"
+"Last-Translator: Ariki <ardjakov@rambler.ru>, 2017\n"
+"Language-Team: Russian (https://www.transifex.com/osgeo/teams/66156/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../build/doc/metrics.rst:6
+msgid "|osgeolive-version| Project Metrics"
+msgstr ""
+
+#: ../../build/doc/metrics.rst:8
+msgid ""
+"Metrics provided by `OpenHUB <https://www.openhub.net/>`_ which are derived "
+"from the projects' code repositories. Note these metrics have known "
+"deficiencies (such as caused by repositories moving), and only provide "
+"partial indications about the projects' development. Lack of change in "
+"smaller, concise packages and libraries may simply reflect a level of "
+"maturity and completeness."
+msgstr ""
+"Показатели, предоставленные `OpenHUB <https://www.openhub.net/>`_, "
+"полученные из репозиториев кода проектов. Имейте в виду, что у этих метрик "
+"есть известные недостатки (например, вызванные перемещением репозиториев) и "
+"лишь частично отражают ход разработки проектов. Малое количество изменений в"
+" небольших, компактных пакетах и библиотеках может просто свидетельствовать "
+"об уровне их зрелости и законченности."
+
+#: ../../build/doc/metrics.rst:14
+msgid ""
+"Viewing the metrics requires an Internet connection and Javascript to be "
+"enabled."
+msgstr ""
+"Просмотр метрик требует наличия подключения к Интернету и поддержки "
+"JavaScript."
+
+#: ../../build/doc/metrics.rst:23
+msgid "Desktop GIS"
+msgstr "Настольные GIS"
+
+#: ../../build/doc/metrics.rst:36
+msgid "Browser Facing GIS"
+msgstr "GIS с браузерным интерфейсом"
+
+#: ../../build/doc/metrics.rst:51
+msgid "Web Services"
+msgstr "Веб-сервисы"
+
+#: ../../build/doc/metrics.rst:75
+msgid "Data Stores"
+msgstr "Хранилища данных"
+
+#: ../../build/doc/metrics.rst:86
+msgid "Navigation and Maps"
+msgstr "Навигация и карты"
+
+#: ../../build/doc/metrics.rst:99
+msgid "Spatial Tools"
+msgstr "Пространственные инструменты"
+
+#: ../../build/doc/metrics.rst:111
+msgid "Domain Specific GIS"
+msgstr ""
+
+#: ../../build/doc/metrics.rst:119
+msgid "Data"
+msgstr ""
+
+#: ../../build/doc/metrics.rst:130
+msgid "Geospatial Libraries"
+msgstr ""

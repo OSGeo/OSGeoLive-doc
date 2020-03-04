@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Anne Ylinen, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:07+0000\n"
+"Last-Translator: Anne Ylinen, 2019\n"
+"Language-Team: Swedish (https://www.transifex.com/osgeo/teams/66156/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:15
+msgid "52 North WPS"
+msgstr "52 North WPS"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:18
+msgid "About"
+msgstr "Om"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:20
+msgid ""
+"The 52°North `Web Processing Service (WPS) "
+"<http://www.opengeospatial.org/standards/wps>`__ enables web access to "
+"geospatial processing algorithms provided by Sextante, ArcGIS Server, R, "
+"GRASS 7, or custom developed functions. Algorithms may be as simple as "
+"determining the difference in influenza cases between two different seasons,"
+" or as complicated as a global climate change model."
+msgstr ""
+"52°North `Web Processing Service (WPS) "
+"<http://www.opengeospatial.org/standards/wps>`__ ger dig webbåtkomst till "
+"geospatiala bearbetningsalgoritmer som tillhandahålls av sextante, ArcGIS "
+"Server, R, GRASS 7, eller anpassade utvecklade funktioner. Algoritmer kan "
+"vara så enkla som att fastställa skillnaden i influensafall mellan två olika"
+" säsonger, eller så komplicerade som en global klimatförändrings modell."
+
+#: ../../build/doc/overview/52nWPS_overview.rst:32
+msgid "Core Features"
+msgstr "Kärnfunktioner"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:34
+msgid "Core GIS functions:"
+msgstr "Grundläggande GIS-funktioner:"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:36
+msgid "SimpleBufferAlgorithm"
+msgstr "SimpleBufferAlgorithm"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:37
+msgid "DouglasPeuckerAlgorithm"
+msgstr "DouglasPeuckerAlgorithm"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:38
+msgid "IntersectionAlgorithm"
+msgstr "IntersectionAlgorithm"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:39
+msgid "AddRasterValuesAlgorithm"
+msgstr "AddRasterValuesAlgorithm"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:40
+msgid "CoordinateTransformAlgorithm"
+msgstr "CoordinateTransformAlgorithm"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:42
+msgid "Backend algorithms available through:"
+msgstr "Backend-algoritmer som är tillgängliga via:"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:44
+msgid "Sextante"
+msgstr "Sextante"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:45
+msgid "ArcGIS Server"
+msgstr "ArcGIS Server"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:46
+msgid "R"
+msgstr "R"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:47
+msgid "GRASS 7"
+msgstr "GRASS 7"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:49
+msgid "Input and Output formats supported:"
+msgstr "Indata- och utdataformat som stöds:"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:51
+msgid ""
+"Vector Data: GML2, GML3, SHP files, KML, WKT (Well-known Text), DGN, JSON"
+msgstr "Vektordata: GML2, GML3, SHP-filer, KML, WKT (välkänd text), DGN, JSON"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:52
+msgid "Raster Data: Geotiff, AsciiGrid, NetCDF, JPEG, PNG, HDF-EOS, ERDAS HFA"
+msgstr "Rasterdata: geotiff, AsciiGrid, NetCDF, JPEG, PNG, HDF-EOS, ERDAS HFA"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:53
+msgid "Outputs can be stored in GeoServer/MapServer"
+msgstr "Utdata kan lagras i GeoServer/MapServer"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:55
+msgid "A browser based client"
+msgstr "En webbläsarbaserad klient"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:58
+msgid "Implemented Standards"
+msgstr "Implementerade standarder"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:60
+msgid "OGC Web Processing Service (WPS)"
+msgstr "OGC Web Processing Service (WPS)"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:61
+msgid "OGC GML2 SimpleFeatures"
+msgstr "OGC GML2 SimpleFeatures"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:62
+msgid "OGC GML3 SimpleFeatures"
+msgstr "OGC GML3 SimpleFeatures"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:65
+msgid "Details"
+msgstr "Detaljer"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:67
+msgid "**Website:** https://52north.org/software/software-projects/wps/"
+msgstr "**Webbplats:** https://52north.org/software/software-projects/wps/"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:69
+msgid "**Licence:** GPL 2"
+msgstr "**Licens:** GPL 2"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:71
+msgid "**Software Version:** |version-52nWPS|"
+msgstr "**Programvaruversion:** |version-52nWPS|"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:73
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Plattformar som stöds:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:75
+msgid "**Commercial Support:** https://52north.org/services/"
+msgstr "**Kommersiellt stöd:** https://52north.org/services/"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:77
+msgid "**Other 52°North projects:** :doc:`SOS <./52nSOS_overview>`"
+msgstr "**Övriga 52°North projekt:** :doc:`SOS <./52nSOS_overview>`"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:82
+msgid "Quickstart"
+msgstr "Snabbstart"
+
+#: ../../build/doc/overview/52nWPS_overview.rst:84
+msgid ":doc:`Quickstart documentation <../quickstart/52nWPS_quickstart>`"
+msgstr ":doc:`Quickstart documentation <../quickstart/52nWPS_quickstart>`"

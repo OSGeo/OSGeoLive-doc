@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Ariki <ardjakov@rambler.ru>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:08+0000\n"
+"Last-Translator: Ariki <ardjakov@rambler.ru>, 2019\n"
+"Language-Team: Russian (https://www.transifex.com/osgeo/teams/66156/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../build/doc/overview/mapnik_overview.rst:15
+msgid "Mapnik"
+msgstr ""
+
+#: ../../build/doc/overview/mapnik_overview.rst:18
+msgid "Cartographic rendering engine"
+msgstr ""
+
+#: ../../build/doc/overview/mapnik_overview.rst:20
+msgid ""
+"Mapnik is a toolkit for rendering beautiful maps, with clean, soft feature "
+"edges provided by quality anti-aliasing graphics, intelligent label "
+"placement, and scalable, SVG symbolisation. Most famously, mapnik is used to"
+" render the OpenStreetMap main map layers."
+msgstr ""
+
+#: ../../build/doc/overview/mapnik_overview.rst:22
+msgid ""
+"Mapnik has typically been embedded in Python applications which deliver "
+"their maps over the internet although scaling improvements have meant that "
+"Mapnik has recently been getting used to create high resolution paper maps "
+"too."
+msgstr ""
+
+#: ../../build/doc/overview/mapnik_overview.rst:31
+msgid "Core Features"
+msgstr "Основные функции"
+
+#: ../../build/doc/overview/mapnik_overview.rst:33
+msgid ""
+"Essentially a collection of geographic objects (map, layer, datasource, "
+"feature, geometry),  the library doesn't rely on \"windowing systems\" and "
+"can be deployed in any server environment.  It is intended to play fair in a"
+" multi-threaded environment and is aimed primarily,  but not exclusively, at"
+" web-based development."
+msgstr ""
+
+#: ../../build/doc/overview/mapnik_overview.rst:39
+msgid ""
+"High-level Python bindings (boost.python) facilitate rapid application "
+"development,  targeting zope3, django etc."
+msgstr ""
+
+#: ../../build/doc/overview/mapnik_overview.rst:42
+msgid ""
+"Mapnik is cross platform. Packages are available for most linux "
+"distributions and installers are commonly used on Mac OS X and windows."
+msgstr ""
+
+#: ../../build/doc/overview/mapnik_overview.rst:46
+msgid "Details"
+msgstr "Подробности"
+
+#: ../../build/doc/overview/mapnik_overview.rst:48
+msgid "**Website:** http://www.mapnik.org/"
+msgstr ""
+
+#: ../../build/doc/overview/mapnik_overview.rst:50
+msgid "**Licence:** LGPL (GNU Lesser General Public Licence)"
+msgstr ""
+
+#: ../../build/doc/overview/mapnik_overview.rst:52
+msgid "**Software Version:** |version-mapnik|"
+msgstr ""
+
+#: ../../build/doc/overview/mapnik_overview.rst:54
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Поддерживаемые платформы:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/mapnik_overview.rst:56
+msgid "**API Interfaces:** C++, Python"
+msgstr ""
+
+#: ../../build/doc/overview/mapnik_overview.rst:60
+msgid "Quickstart"
+msgstr "Быстрый старт"
+
+#: ../../build/doc/overview/mapnik_overview.rst:62
+msgid ":doc:`Quickstart documentation <../quickstart/mapnik_quickstart>`"
+msgstr ""

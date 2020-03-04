@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Eduardo G. S. Pereira <edu_vcd@hotmail.com>, 2017
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"PO-Revision-Date: 2017-09-20 16:02+0000\n"
+"Last-Translator: Eduardo G. S. Pereira <edu_vcd@hotmail.com>, 2017\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/osgeo/teams/66156/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../build/doc/metrics.rst:6
+msgid "|osgeolive-version| Project Metrics"
+msgstr "|osgeolive-version| Métricas dos Projetos"
+
+#: ../../build/doc/metrics.rst:8
+msgid ""
+"Metrics provided by `OpenHUB <https://www.openhub.net/>`_ which are derived "
+"from the projects' code repositories. Note these metrics have known "
+"deficiencies (such as caused by repositories moving), and only provide "
+"partial indications about the projects' development. Lack of change in "
+"smaller, concise packages and libraries may simply reflect a level of "
+"maturity and completeness."
+msgstr ""
+"Métricas fornecidas por `OpenHUB <https://www.openhub.net/>`_ cujas são "
+"derivadas dos repositórios dos projetos. Note que estes métricas são "
+"conhecidamente deficientes (isto é causado por mudanças no repositório), e "
+"só pode fornecer uma indicação parcial sobre o desenvolvimento destes "
+"projetos. A falta de mudanças menores e concisas nos pacotes e bibliotecas "
+"podem simplesmente refletir um nível de maturidade completude do projeto."
+
+#: ../../build/doc/metrics.rst:14
+msgid ""
+"Viewing the metrics requires an Internet connection and Javascript to be "
+"enabled."
+msgstr ""
+"A visualização das métricas requere uma conexão com a Internet e que o "
+"Javascript esteja habilitado."
+
+#: ../../build/doc/metrics.rst:23
+msgid "Desktop GIS"
+msgstr "Desktop GIS"
+
+#: ../../build/doc/metrics.rst:36
+msgid "Browser Facing GIS"
+msgstr "Browser Facing GIS"
+
+#: ../../build/doc/metrics.rst:51
+msgid "Web Services"
+msgstr "Web Services"
+
+#: ../../build/doc/metrics.rst:75
+msgid "Data Stores"
+msgstr "Armazenamento de Dados"
+
+#: ../../build/doc/metrics.rst:86
+msgid "Navigation and Maps"
+msgstr "Navegação e Mapas"
+
+#: ../../build/doc/metrics.rst:99
+msgid "Spatial Tools"
+msgstr "Ferramentas Espaciais"
+
+#: ../../build/doc/metrics.rst:111
+msgid "Domain Specific GIS"
+msgstr "GIS Específico para uma Área"
+
+#: ../../build/doc/metrics.rst:119
+msgid "Data"
+msgstr "Dados"
+
+#: ../../build/doc/metrics.rst:130
+msgid "Geospatial Libraries"
+msgstr "Bibliotecas Geoespaciais"

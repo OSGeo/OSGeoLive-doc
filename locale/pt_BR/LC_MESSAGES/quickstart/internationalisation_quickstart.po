@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Eduardo G. S. Pereira <edu_vcd@hotmail.com>, 2017
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:05+0000\n"
+"Last-Translator: Eduardo G. S. Pereira <edu_vcd@hotmail.com>, 2017\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/osgeo/teams/66156/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:10
+msgid "OSGeoLive Internationalisation Quickstart"
+msgstr "Internacionalização do Quickstart do OSGeoLive"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:13
+msgid "Switching Language"
+msgstr "Trocando o Idioma"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:15
+msgid "Many common languages are included on OSGeoLive. To switch languages:"
+msgstr ""
+"Os idiomas mais comuns estão incluídos no OSGeoLive. Para trocar o idioma:"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:17
+msgid "Log out"
+msgstr "Log out"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:18
+msgid "Select user=\"user\", password=\"user\""
+msgstr "Selecione user=\"user\",password=\"user\""
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:19
+msgid "Select another language from the top panel menu."
+msgstr "Selecione outro idioma no menu do painel superior."
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:20
+msgid "Press the :guilabel:`Log in` button."
+msgstr "Pressione o botão :guilabel:`Log in`."
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:21
+msgid "Repeat the process if needed or if you wish to change languages again."
+msgstr ""
+"Repita o processo se precisar ou se desejar trocar o idioma novamente."
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:27
+msgid ""
+"The system menus and many of the applications will now appear in the "
+"language chosen. If a specific program continues to display in English, then"
+" the program doesn't have a translation available - please consider "
+"volunteering to write a translation. Contact the program of interest "
+"directly for more information."
+msgstr ""
+"O menu do sistema e muitas outras aplicações agora irão aparecer no idioma "
+"escolhido. Se um programa específico continuar a aparecer em Inglês, então o"
+" programa não possui uma tradução disponível - por favor, considere se "
+"voluntariar para escrever a tradução. Entre em contato diretamente no site "
+"do programa de interesse para mais informações."
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:33
+msgid ""
+"For additional languages see :menuselection:`Preferences --> Language "
+"Support` from the main menu. (Requires an internet connection)."
+msgstr ""
+"Para idioma adicionais veja  :menuselection:`Preferences --> Language "
+"Support` no menu principal. (Requer uma conexão com a internet)."
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:37
+msgid "Keyboard Support"
+msgstr "Suporte para o Teclado"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:38
+msgid ""
+"International keyboard support is installed, but you will need to configure "
+"the system for your specific keyboard. To change settings open "
+":menuselection:`Preferences --> Keyboard Input Methods` from the main menu "
+"and click on the :guilabel:`Input Method` tab. Next click on "
+":guilabel:`Customize active input methods` and then on the :guilabel:`Select"
+" an input method` button. Now click the :guilabel:`Add` button on the right "
+"to add an additional layout and then :guilabel:`Close` the IBus Preferences "
+"window."
+msgstr ""
+"Suporte para teclados internacionais está instalado, mais você irá precisar "
+"configurar o sistema para o idioma do seu teclado. Para trocar as "
+"configurações abra :menuselection:`Preferences --> Keyboard Input Methods` "
+"do menu principal e clique na aba :guilabel:`Input Method`. Depois clique em"
+" :guilabel:`Customize active input methods`  e então no botão "
+":guilabel:`Select an input method`. Agora clique em :guilabel:`Add` na "
+"direita para adicionar o layout do seu teclado e depois :guilabel:`Close` a "
+"janela de preferências."
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:47
+msgid ""
+"You can now click on the keyboard icon on the lower desktop menu bar to "
+"select the active keyboard layout."
+msgstr ""
+"Agora você pode clicar no ícone do teclado no menu inferior do desktop e "
+"selecionar qual será o layout ativo para o teclado."

@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Eduardo G. S. Pereira <edu_vcd@hotmail.com>, 2017
+# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-01-21 16:46+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/osgeo/teams/66156/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../build/doc/index.rst:3
+msgid "Welcome to |osgeolive-version|"
+msgstr "Bem-vindo ao |osgeolive-version|"
+
+#: ../../build/doc/index.rst:19
+msgid ""
+"`OSGeoLive <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB "
+"thumb drive or Virtual Machine based on `Lubuntu <http://lubuntu.net>`_, "
+"that allows you to try a wide variety of open source geospatial software "
+"without installing anything. It is composed entirely of free software, "
+"allowing it to be freely distributed, duplicated and passed around."
+msgstr ""
+"`OSGeoLive <http://live.osgeo.org>`_ é uma imagem bootável para DVD , USB ou"
+" Máquina Virtual baseada em `Lubuntu <http://lubuntu.net>`_, que permite "
+"você testar uma grande variedade de programas geoespaciais de código aberto "
+"sem precisar instalar nada. É composto inteiramente de softwares livres, o "
+"permitindo de ser livremente distribuído, duplicado e compartilihado."
+
+#: ../../build/doc/index.rst:31
+msgid ""
+"It provides pre-configured applications for a range of geospatial use cases,"
+" including storage, publishing, viewing, analysis and manipulation of data. "
+"It also contains sample datasets and documentation."
+msgstr ""
+"Provê aplicações pré-configuradas para um grande número de uso de casos "
+"geoespaciais, incluindo armazenamento, publicação, visualização, análise e "
+"manipulação dos dados. Também contém exemplos de conjuntos de dados e "
+"documentação."
+
+#: ../../build/doc/index.rst:35
+msgid "To try out the applications, simply:"
+msgstr "Para tentar as aplicações, simplesmente:"
+
+#: ../../build/doc/index.rst:37
+msgid "Insert DVD or USB thumb drive in computer or virtual machine."
+msgstr "Insira o DVD ou USB no computador ou máquina virtual."
+
+#: ../../build/doc/index.rst:38
+msgid "Reboot computer. (verify boot device order if necessary)"
+msgstr ""
+"Reinicie o computador. (Verifique a ordem de inicialização do boot se "
+"necessário)"
+
+#: ../../build/doc/index.rst:39
+msgid "Press \"Enter\" to startup & login."
+msgstr "Pressione \"Enter\" para inicializar & logar."
+
+#: ../../build/doc/index.rst:40
+msgid "Select and run applications from the \"Geospatial\" menu."
+msgstr "Selecione e rode as aplicações do menu \"Geospatial\"."
+
+#: ../../build/doc/index.rst:42
+msgid ""
+"OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo "
+"Foundation is a not-for-profit supporting Geospatial Open Source Software "
+"development, promotion and `education <http://www.geoforall.org/>`_."
+msgstr ""
+"OSGeoLive é um dos projetos da `Fundação OSGeo <http://osgeo.org/>`_. A "
+"Fundação OSGeo, que não busca lucros, suporta o desenvolvimento de softwares"
+" geoespaciais livres, a divulgação destes e a `educação "
+"<http://www.geoforall.org/>`_."
+
+#: ../../build/doc/index.rst:47
+msgid "Quick Starts"
+msgstr "Quick Starts"
+
+#: ../../build/doc/index.rst:81
+msgid "Presentation"
+msgstr "Apresentação"
+
+#: ../../build/doc/index.rst:83
+msgid ""
+"A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive "
+"applications, is available with slides, script, and `abstract "
+"<presentation/abstract.txt>`_."
+msgstr ""

@@ -1,0 +1,225 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Jorge Gustavo Rocha <jgr@di.uminho.pt>, 2017
+# Joana Simoes <jo@doublebyte.net>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:09+0000\n"
+"Last-Translator: Joana Simoes <jo@doublebyte.net>, 2019\n"
+"Language-Team: Portuguese (Portugal) (https://www.transifex.com/osgeo/teams/66156/pt_PT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/qgis_overview.rst:20
+msgid "QGIS"
+msgstr "QGIS"
+
+#: ../../build/doc/overview/qgis_overview.rst:23
+msgid "Desktop GIS"
+msgstr "Desktop GIS"
+
+#: ../../build/doc/overview/qgis_overview.rst:25
+msgid ""
+"QGIS is a user friendly, Open Source, GIS client where you can visualize, "
+"manage, edit, analyse data, and compose printable maps. It includes powerful"
+" analytical functionality through integration with :doc:`GRASS "
+"<grass_overview>`, :doc:`SAGA <saga_overview>`, :doc:`Orfeo Toolbox "
+"<otb_overview>` , :doc:`GDAL/OGR <gdal_overview>` and many other algorithm "
+"providers. It runs on Linux, Unix, Mac OSX, and Windows and supports "
+"numerous vector, raster and database formats and functionality."
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:36
+msgid "Core Features"
+msgstr "Funcionalidades principais"
+
+#: ../../build/doc/overview/qgis_overview.rst:38
+msgid "Friendly graphical user interface:"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:40
+msgid "identify/select features"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:41
+msgid "edit/view/search attributes"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:42
+msgid "on the fly projection"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:43
+msgid "print composer"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:44
+msgid "feature labeling"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:45
+msgid "change vector and raster symbology"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:46
+msgid "add a graticule layer"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:47
+msgid "and more ..."
+msgstr "e também..."
+
+#: ../../build/doc/overview/qgis_overview.rst:49
+msgid "Easy Viewing of many Vector and Raster Formats"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:51
+msgid ""
+"database tables: PostgreSQL/PostGIS, Oracle Spatial, MS SQL Spatial, "
+"SpatiaLite"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:52
+msgid ""
+"most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML, "
+"OpenStreetMap vectors"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:53
+msgid ""
+"raster formats such as digital elevation models, aerial photography or "
+"landsat imagery"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:54
+msgid "GRASS locations and mapsets"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:55
+msgid "online spatial data served as OGC-compliant WMS, WMTS, WFS or WCS"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:56
+msgid "2.5D rendering support"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:58
+msgid "Create, edit and export spatial data using:"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:60
+msgid "digitizing tools for GRASS and shapefile formats"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:61
+msgid "the georeferencer plugin"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:62
+msgid ""
+"GPS tools to import and export GPX format, convert other GPS formats to GPX,"
+" or down/upload directly to a GPS unit"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:64
+msgid ""
+"Perform spatial analysis using integrated support for SAGA, OTB, MMGIS and "
+"GRASS"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:66
+msgid "map algebra"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:67
+msgid "terrain analysis"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:68
+msgid "hydrologic modeling"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:69
+msgid "network analysis"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:70
+msgid "comprehensive searchable toolbox of functions"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:71
+msgid ""
+"define and run reusable analysis routines by chaining functions using a "
+"graphical modelling tool"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:72
+msgid "and many others"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:74
+msgid "Publish to the internet"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:75
+msgid "Extensible plugin architecture"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:78
+msgid "Implemented Standards"
+msgstr "Normas implementadas"
+
+#: ../../build/doc/overview/qgis_overview.rst:80
+msgid "OGC standards compliant (WMS, WFS, ... )"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:83
+msgid "Details"
+msgstr "Detalhes"
+
+#: ../../build/doc/overview/qgis_overview.rst:85
+msgid "**Website:** http://www.qgis.org"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:87
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "* * Licença: * * GNU General Public License (GPL) versão 2"
+
+#: ../../build/doc/overview/qgis_overview.rst:89
+msgid "**Software Version:** |version-qgis|"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:91
+msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:93
+msgid "**Community Support:** http://qgis.org/en/site/forusers/support.html"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:95
+msgid ""
+"**Commercial Support:** "
+"http://qgis.org/en/site/forusers/commercial_support.html"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:100
+msgid "Quickstart"
+msgstr "Arranque rápido"
+
+#: ../../build/doc/overview/qgis_overview.rst:102
+msgid ":doc:`Quickstart documentation <../quickstart/qgis_quickstart>`"
+msgstr ""

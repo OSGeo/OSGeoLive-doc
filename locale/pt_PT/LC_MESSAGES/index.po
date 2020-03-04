@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Pedro Duarte <pduarte@aldape.pt>, 2017
+# Jorge Gustavo Rocha <jgr@di.uminho.pt>, 2017
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-01-21 16:46+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>, 2019\n"
+"Language-Team: Portuguese (Portugal) (https://www.transifex.com/osgeo/teams/66156/pt_PT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/index.rst:3
+msgid "Welcome to |osgeolive-version|"
+msgstr "Bem vindo ao |osgeolive-version|"
+
+#: ../../build/doc/index.rst:19
+msgid ""
+"`OSGeoLive <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB "
+"thumb drive or Virtual Machine based on `Lubuntu <http://lubuntu.net>`_, "
+"that allows you to try a wide variety of open source geospatial software "
+"without installing anything. It is composed entirely of free software, "
+"allowing it to be freely distributed, duplicated and passed around."
+msgstr ""
+"A `OSGeoLive <http://live.osgeo.org>`_ é uma distribuição autónoma baseada "
+"no `Lubuntu <http://lubuntu.net>`_, que pode arracancar a partir de DVD, USB"
+" ou como uma máquina virtual. Permite experimentar uma grande variedade de "
+"software geoespacial open source sem ter que instalar cada um deles. Só "
+"contém software livre. Pode ser livremente duplicada e distribuída."
+
+#: ../../build/doc/index.rst:31
+msgid ""
+"It provides pre-configured applications for a range of geospatial use cases,"
+" including storage, publishing, viewing, analysis and manipulation of data. "
+"It also contains sample datasets and documentation."
+msgstr ""
+"Inclui soluções que cobrem uma variedade de necessidades geoespaciais, como "
+"armazenamento, publicação, visualização, análise e manipulação de dados. "
+"Também inlui dados para teste e documentação."
+
+#: ../../build/doc/index.rst:35
+msgid "To try out the applications, simply:"
+msgstr "Para testar as aplicações, simplesmente:"
+
+#: ../../build/doc/index.rst:37
+msgid "Insert DVD or USB thumb drive in computer or virtual machine."
+msgstr "Insira o DVD ou pen USB no computador ou máquina virtual."
+
+#: ../../build/doc/index.rst:38
+msgid "Reboot computer. (verify boot device order if necessary)"
+msgstr ""
+"Reinicie o computador. (verificar a ordem dos dispositivos de arranque se "
+"necessário)"
+
+#: ../../build/doc/index.rst:39
+msgid "Press \"Enter\" to startup & login."
+msgstr "Pressione \"Enter\" para arranque e login."
+
+#: ../../build/doc/index.rst:40
+msgid "Select and run applications from the \"Geospatial\" menu."
+msgstr "Selecione e execute as aplicações no menu \"Geospatial\"."
+
+#: ../../build/doc/index.rst:42
+msgid ""
+"OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo "
+"Foundation is a not-for-profit supporting Geospatial Open Source Software "
+"development, promotion and `education <http://www.geoforall.org/>`_."
+msgstr ""
+"A OSGeoLive é um projeto da Fundação `OSGeo <http://osgeo.org/>`_. A  OSGeo "
+"é uma fundação sem fins lucrativos que apoia o desenvolvimento de software "
+"open source no domínio geoespacial, a sua promoção e a `educação "
+"<http://www.geoforall.org/>`_."
+
+#: ../../build/doc/index.rst:47
+msgid "Quick Starts"
+msgstr "Guias"
+
+#: ../../build/doc/index.rst:81
+msgid "Presentation"
+msgstr "Apresentação"
+
+#: ../../build/doc/index.rst:83
+msgid ""
+"A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive "
+"applications, is available with slides, script, and `abstract "
+"<presentation/abstract.txt>`_."
+msgstr ""
+"Uma meia hora de `presentation <presentation.html>`_, destacando todas as "
+"aplicações OSGeoLive, está disponível com slides, script e `abstract "
+"<presentation/abstract.txt>`_."

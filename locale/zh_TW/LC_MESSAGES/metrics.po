@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Supaplex <bejokeup@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"PO-Revision-Date: 2017-09-20 16:02+0000\n"
+"Last-Translator: Supaplex <bejokeup@gmail.com>, 2018\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/osgeo/teams/66156/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/metrics.rst:6
+msgid "|osgeolive-version| Project Metrics"
+msgstr "|osgeolive-version| 專案數據"
+
+#: ../../build/doc/metrics.rst:8
+msgid ""
+"Metrics provided by `OpenHUB <https://www.openhub.net/>`_ which are derived "
+"from the projects' code repositories. Note these metrics have known "
+"deficiencies (such as caused by repositories moving), and only provide "
+"partial indications about the projects' development. Lack of change in "
+"smaller, concise packages and libraries may simply reflect a level of "
+"maturity and completeness."
+msgstr ""
+"數據是由 `OpenHUB <https://www.openhub.net/>`_ 提供，OpenHUB "
+"由專案的程式碼倉櫥提供。注意這些數據有已知的相依性 "
+"(像是移動倉櫥位置引起)，只會提供部分專案發展的狀況。比較小型、簡潔的套件和函式庫，也許只是單純表示專案成熟度和完整度。"
+
+#: ../../build/doc/metrics.rst:14
+msgid ""
+"Viewing the metrics requires an Internet connection and Javascript to be "
+"enabled."
+msgstr "要看數據需要網路連線，以及啟用 Javascript。"
+
+#: ../../build/doc/metrics.rst:23
+msgid "Desktop GIS"
+msgstr "桌面 GIS"
+
+#: ../../build/doc/metrics.rst:36
+msgid "Browser Facing GIS"
+msgstr "瀏覽器的 GIS "
+
+#: ../../build/doc/metrics.rst:51
+msgid "Web Services"
+msgstr "網站服務 "
+
+#: ../../build/doc/metrics.rst:75
+msgid "Data Stores"
+msgstr "資料倉儲 "
+
+#: ../../build/doc/metrics.rst:86
+msgid "Navigation and Maps"
+msgstr "導航與地圖 "
+
+#: ../../build/doc/metrics.rst:99
+msgid "Spatial Tools"
+msgstr "空間工具 "
+
+#: ../../build/doc/metrics.rst:111
+msgid "Domain Specific GIS"
+msgstr "特定領域專用 GIS "
+
+#: ../../build/doc/metrics.rst:119
+msgid "Data"
+msgstr "資料 "
+
+#: ../../build/doc/metrics.rst:130
+msgid "Geospatial Libraries"
+msgstr "地理空間函式庫 "

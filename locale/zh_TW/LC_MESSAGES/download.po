@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Supaplex <bejokeup@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-11-07 03:17+0000\n"
+"Last-Translator: Supaplex <bejokeup@gmail.com>, 2019\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/osgeo/teams/66156/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/download.rst:7
+msgid "Download"
+msgstr "下載"
+
+#: ../../build/doc/download.rst:9
+msgid ""
+"The latest stable release is |osgeolive-version| and can be downloaded from:"
+msgstr "最新穩定釋出是 |osgeolive-version| 而且可以從這裡下載："
+
+#: ../../build/doc/download.rst:11
+msgid "https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version|/"
+msgstr ""
+"https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version|/"
+
+#: ../../build/doc/download.rst:14
+msgid "Picking the right image for you:"
+msgstr "選擇適合你的影像檔："
+
+#: ../../build/doc/download.rst:16
+msgid "**osgeolive iso**: |osgeolive-iso-size|"
+msgstr "**osgeolive iso**：|osgeolive-iso-size|"
+
+#: ../../build/doc/download.rst:18
+msgid ""
+"A Lubuntu based bootable image, which can be copied to an 8 Gig USB thumb "
+"drive (faster and recommended) or DVD (cheaper). It can also be used to "
+"build a virtual machine from scratch."
+msgstr ""
+"以 Lubuntu 為基礎的可開機影像，能夠複製到 8 Gig USB 隨身碟上 (比較快而且比較建議)，或是 DVD "
+"(比較便宜)。另外也可以從頭開始用在虛擬機器上。"
+
+#: ../../build/doc/download.rst:20
+msgid "**osgeolive-vm**: |osgeolive-vm-7z-size|"
+msgstr "**osgeolive-vm**：|osgeolive-vm-7z-size|"
+
+#: ../../build/doc/download.rst:22
+msgid ""
+"This is a pre-made virtual machine (.vmdk), based on osgeolive, suitable for"
+" use in VirtualBox, VMWare, KVM and other virtual machine applications. It "
+"has been compressed using `7-Zip <http://www.7-zip.org/>`_."
+msgstr ""
+"這是試先做好的虛擬機器 (.vmdk)，基於 osgeolive，適合 VirtualBox，VMAWare，KVM "
+"和其他虛擬機器應用程式。這個檔案已經用 `7-Zip <http://www.7-zip.org/>`_ 壓縮了。"
+
+#: ../../build/doc/download.rst:24
+msgid "**amd64 or i386 architecture**"
+msgstr "**amd64 或 i386 架構**"
+
+#: ../../build/doc/download.rst:26
+msgid ""
+"ISO images are available for recent amd64 hardware (recommended) as well as "
+"older i386 hardware."
+msgstr "ISO 影像檔已經支援 amd64 硬體了 (建議)，以及其較舊的 i386 硬體。"
+
+#: ../../build/doc/download.rst:28
+msgid "**md5 checksum**"
+msgstr "**md5 checksum**"
+
+#: ../../build/doc/download.rst:30
+msgid ""
+"You can use the md5 checksum to verify the image downloaded successfully."
+msgstr "你可以用 md5 checksum 來驗證影像是否成功下載。"
+
+#: ../../build/doc/download.rst:32
+msgid "**System Requirements**"
+msgstr "**系統需求**"
+
+#: ../../build/doc/download.rst:34
+msgid ""
+"`Minimum suggested system resources: 1 GB RAM (2 GB are better for trying "
+"Java based applications), 1GHz i386 or amd64 compatible CPU. No hard drive "
+"required. Mac users will benefit from a 3-button USB mouse.`"
+msgstr ""
+"最低建議系統資源：1 GB RAM (如要嘗試 Java 應用程式最好有 2GB )，1Ghz i386 或 amd64 相容 "
+"CPU。不需要硬碟，Mac 使用者最好配備三鍵的 USB 滑鼠。"

@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Ariki <ardjakov@rambler.ru>, 2017
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-01-21 16:46+0000\n"
+"Last-Translator: Ariki <ardjakov@rambler.ru>, 2017\n"
+"Language-Team: Russian (https://www.transifex.com/osgeo/teams/66156/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../build/doc/index.rst:3
+msgid "Welcome to |osgeolive-version|"
+msgstr ""
+
+#: ../../build/doc/index.rst:19
+msgid ""
+"`OSGeoLive <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB "
+"thumb drive or Virtual Machine based on `Lubuntu <http://lubuntu.net>`_, "
+"that allows you to try a wide variety of open source geospatial software "
+"without installing anything. It is composed entirely of free software, "
+"allowing it to be freely distributed, duplicated and passed around."
+msgstr ""
+
+#: ../../build/doc/index.rst:31
+msgid ""
+"It provides pre-configured applications for a range of geospatial use cases,"
+" including storage, publishing, viewing, analysis and manipulation of data. "
+"It also contains sample datasets and documentation."
+msgstr ""
+"Он предоставляет заранее сконфигурированные прикладные программы для многих "
+"геопространственных задач, включая хранение, публикацию, просмотр, анализ "
+"данных и манипуляции с ними. Кроме того, он содержит образцы наборов данных "
+"и документацию."
+
+#: ../../build/doc/index.rst:35
+msgid "To try out the applications, simply:"
+msgstr "Чтобы начать работу с программами, просто:"
+
+#: ../../build/doc/index.rst:37
+msgid "Insert DVD or USB thumb drive in computer or virtual machine."
+msgstr "Вставьте DVD или USB-носитель в компьютер или виртуальную машину."
+
+#: ../../build/doc/index.rst:38
+msgid "Reboot computer. (verify boot device order if necessary)"
+msgstr ""
+"Перезагрузите компьютер (если необходимо, проверьте порядок загрузки с "
+"устройств)."
+
+#: ../../build/doc/index.rst:39
+msgid "Press \"Enter\" to startup & login."
+msgstr "Нажмите «Enter» для запуска и входа."
+
+#: ../../build/doc/index.rst:40
+msgid "Select and run applications from the \"Geospatial\" menu."
+msgstr "Выбирайте и запускайте программы из меню «Geospatial»."
+
+#: ../../build/doc/index.rst:42
+msgid ""
+"OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo "
+"Foundation is a not-for-profit supporting Geospatial Open Source Software "
+"development, promotion and `education <http://www.geoforall.org/>`_."
+msgstr ""
+
+#: ../../build/doc/index.rst:47
+msgid "Quick Starts"
+msgstr "Начало работы"
+
+#: ../../build/doc/index.rst:81
+msgid "Presentation"
+msgstr "Презентация"
+
+#: ../../build/doc/index.rst:83
+msgid ""
+"A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive "
+"applications, is available with slides, script, and `abstract "
+"<presentation/abstract.txt>`_."
+msgstr ""

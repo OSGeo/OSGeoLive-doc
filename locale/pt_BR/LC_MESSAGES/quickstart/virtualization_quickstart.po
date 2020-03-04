@@ -1,0 +1,344 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Eduardo G. S. Pereira <edu_vcd@hotmail.com>, 2017
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"PO-Revision-Date: 2017-09-20 16:04+0000\n"
+"Last-Translator: Eduardo G. S. Pereira <edu_vcd@hotmail.com>, 2017\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/osgeo/teams/66156/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:10
+msgid "OSGeoLive Quickstart for Running in a Virtual Machine"
+msgstr "OSGeoLive Quickstart para Rodar em uma Máquina Virtual"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:12
+msgid ""
+"This Quick Start describes one way to run OSGeoLive within a VirtualBox "
+"virtual machine. For other methods, follow links from the \"See Also\" "
+"section below."
+msgstr ""
+"Este quickstart descreve uma maneira de rodar o OSGeoLive com um máquina "
+"virtual do VirtualBox. Para outros métodos veja os links na seção \"Veja "
+"Também\" abaixo."
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:15
+msgid "Virtual Machine Advantages"
+msgstr "Vantagens da Máquina Virtual"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:17
+msgid ""
+"Response speed of a VM is much faster than on the DVD, and typically "
+"comparable with installing directly on the host machine."
+msgstr ""
+"A velocidade de resposta de uma máquina virtual é muito mais rápido do que "
+"DVD, e tipicamente comparável a se instalar diretamente na máquina."
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:19
+msgid ""
+"All configuration changes, software updates, and saved files are permanent, "
+"just like on any \"regular\" computer. So"
+msgstr ""
+"Todas as mudanças de configuração, atualizações de programas e arquivos "
+"salvos são permanentes, assim como qualquer computador \"normal\". Então"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:21
+msgid "You can customize and update the system"
+msgstr "Você pode customizar e atualizar o sistema"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:22
+msgid "You can save your work within the VM"
+msgstr "Você pode salvar seu trabalho dentro da máquina virtual"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:23
+msgid "You can install additional software"
+msgstr "Você pode instalar programas adicionais"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:25
+msgid "You can backup your virtual machine installation."
+msgstr "Você pode realizar o backup da instalação de sua máquina virtual"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:28
+msgid "System Requirements"
+msgstr "Requisitos do Sistema"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:30
+msgid ""
+"RAM: 2 GB at least. The Lubuntu system runs well with 1 GB of RAM, and "
+"you'll need to keep at least the same amount of memory for your host system."
+" So a total of 2 GB will be needed for smooth operation. Some applications, "
+"like geoserver, needs that the virtual machine has at least 2GB of RAM. So "
+"if possible, consider providing 2 GB or more for your virtual machine."
+msgstr ""
+"RAM: pelo menos 3 GB. O sistema Lubuntu roda bem com 1 GB de RAM, e você "
+"precisar deixar pelo menos a mesma quantidade na máquina que está hospedando"
+" a máquina virtual. Então, um total de 2 GB serão necessários para um bom "
+"funcionamento. Algumas aplicações, como o geoserver, precisam de máquinas "
+"virtuais com pelo menos 2 GB de RAM. Então, se possível, considere fornecer "
+"mais de 2 GB para sua máquina virtual."
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:31
+msgid ""
+"Spare Hard Disk Space: The virtual disk file (vmdk) from:  `live.osgeo.org "
+"<http://live.osgeo.org/en/download.html>`_  unzips to almost 10 GB. And "
+"you'll want more space to allow some room to work on the virtual machine. So"
+" 20 GB is a good recommendation."
+msgstr ""
+"Espaço no HD: O arquivo do disco vitual (vmdk) em: `live.osgeo.org "
+"<http://live.osgeo.org/en/download.html>`_ descompactado alcança quase 10 "
+"GB. E se você pode querer mais espaço para armazenamento se precisar salvar "
+"algum trabalho seu na máquina virtual. Então, 20 GB é uma boa recomendação."
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:32
+msgid ""
+"CPU: Any CPU will do, but a processor which supports \"Virtualization "
+"Technology\" will be faster. You can check your computer CPU `here "
+"<http://www.intel.com/support/processors/sb/cs-030729.htm>`_."
+msgstr ""
+"CPU: Qualquer CPU irá funcionar, porém um CPU que suporte \"Tecnologia de "
+"Virtualização\" será mais rápido. Você pode chegar seu CPU `aqui "
+"<http://www.intel.com/support/processors/sb/cs-030729.htm>`_."
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:34
+msgid ""
+"Most machines produced in the last 4-5 years will meet these requirements."
+msgstr ""
+"A maioria das máquinas produzidas nos últimos 4-5 anos irão corresponder a "
+"estes requesitos."
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:37
+msgid "Howto"
+msgstr "Howto"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:39
+msgid "**Downloads**"
+msgstr "**Downloads**"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:41
+msgid ""
+"Download `Virtual Box <http://www.virtualbox.org/>`_  for your platform, and"
+" install the software. On windows run the installer, or on Ubuntu-like linux"
+" systems do the following:"
+msgstr ""
+"Baixe o `Virtual Box <http://www.virtualbox.org/>`_  para sua plataforma e "
+"instala o programa. No Windows execute o instalador, ou em sistemas como o "
+"Ubuntu execute o seguinte:"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:43
+msgid "``apt-get install virtualbox-ose``"
+msgstr "``apt-get install virtualbox-ose``"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:45
+msgid ""
+"In addition download the OSGeo Virtual disk file (vmdk) from `live.osgeo.org"
+" <http://live.osgeo.org/en/download.html>`_ . Click on the \"Download "
+"virtual machine\" button. Then unzip the downloaded file (using `7zip "
+"<http://www.7-zip.org>`_ )."
+msgstr ""
+"Baixe o arquivo do disco virtual (vmdk) do OSGeo em  `live.osgeo.org "
+"<http://live.osgeo.org/en/download.html>`_ . Clique em \"Baixar máquina "
+"virtual\". Então descompacte o arquivo baixado (usando `7zip "
+"<http://www.7-zip.org>`_ )."
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:49
+msgid "**Create a Virtual Machine**"
+msgstr "**Criando uma Máquina Virtual**"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:51
+msgid ""
+"Start the VirtualBox application and click on the New button to create a new"
+" VM, and then Next."
+msgstr ""
+"Inicie a aplicação do VirtualBox e clique no botão Novo para criar uma nova "
+"máquina virtual, e depois clique em próximo."
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:56
+msgid ""
+"Enter a name such as OSGeoLive, and choose Linux as the \"Operating "
+"system\", and Ubuntu as the \"Version\"."
+msgstr ""
+"Digite um nome, por exemplo OSGeoLive, e escolha Linux como o \"Sistema "
+"Operacional\", e Ubuntu como a \"Versão\"."
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:61
+msgid ""
+"In the next screen set the memory to 1024 MB (or more if your host computer "
+"has more than 4GB, like on the screenshot)."
+msgstr ""
+"Na próxima tela configura a memória para 1024 MB (ou mais se o seu "
+"computador possui mais de 4 GB, como na imagem)."
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:66
+msgid ""
+"Continue to the next screen and choose \"Use existing hard disk\" . Now "
+"click on the button (a folder icon) to browse to where you saved the "
+"OSGeoLive vmdk-file. Select this file, press Next and Create."
+msgstr ""
+"Continue para a próxima tela e escolha \"Utiliza HD existente\". Agora "
+"clique no botão (com o ícone de uma pasta) para navegar até onde você salvou"
+" o arquivo vmdk do OSGeoLive. Selecione o arquivo, pressione Próximo e "
+"Criar."
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:71
+msgid "** Config tips and tweaks**"
+msgstr "**Dicas de Configuração e Melhoramentos**"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:73
+msgid ""
+"Once the VM is created, click on the Settings button. In the \"General\" "
+"section, go to the Advanced tab, and click to select \"Show at top of "
+"screen\" for the Mini toolbar."
+msgstr ""
+"Uma vez que a máquina virtual está criada, clique no botão Configurações. Na"
+" seção \"Geral\", navegue para a aba Avançado, e clique para selecionar "
+"\"Mostre no topo da tela\" para a Mini toolbar."
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:78
+msgid ""
+"Go to the \"Display\" section and increase video memory to 32 or 64 MB. In "
+"some host operating systems, it may be required to \"Enable 3D "
+"Acceleration\" for display to work properly."
+msgstr ""
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:83
+msgid ""
+"In addition, move to the \"Shared Folders\" section, and click the \"Add "
+"folder\" (green + icon on the right) to find a directory on your host "
+"computer that you wish to share inside the VM."
+msgstr ""
+"Navegue para a seção \"Pastar Compartilhadas\", e clique em \"Adicionar "
+"Pasta\" (verde + ícone na direita) para encontrar um diretório no seu "
+"computador hospedeiro que você deseja compartilhar com a máquina virtual."
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:88
+msgid ""
+"You can select to make the shared folder read only, and auto-mounted. Once "
+"the \"Folder path\" and \"Folder name\" are defined, click OK, and again OK "
+"to finish and close the settings window."
+msgstr ""
+"Você pode selecionar para criar uma pasta compartilhada como somente leitura"
+" e com montagem automática. Uma vez que \"o caminho da pasta\" e \"o nome da"
+" pasta\" estão definidos, clique em OK, e novamente me OK para terminar e "
+"fechar a janela de configurações."
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:91
+msgid "**Running the Virtual Machine**"
+msgstr "**Rodando a Máquina Virtual**"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:93
+msgid "Now bootup the VM by clicking the Start (green arrow) button."
+msgstr "Para ligar a máquina virtual clique no botão Inicie (seta verde)."
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:95
+msgid "When you install the iso on the VM, the username must be set to \"user\""
+msgstr ""
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:97
+msgid ""
+"The user \"user\" is not a member of the \"users\" group on the OSGeoLive "
+"virtual machine. This prevents some tools from writing to its data directory"
+" and causes some software to fail to start."
+msgstr ""
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:99
+msgid "The solution is to fix the vmdk with the following one-time procedure:"
+msgstr ""
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:101
+msgid "Start a terminal."
+msgstr ""
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:102
+msgid "Run \"sudo adduser user users\"."
+msgstr ""
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:103
+msgid ""
+"Apply this change by starting a new desktop session: either restart the "
+"virtual machine or log out and log back in (username \"user\", password "
+"\"user\")."
+msgstr ""
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:105
+msgid ""
+"Also once the OSGeo system comes up, add yourself to the vboxsf group so "
+"that the shared folders (defined above) are accessible by running in a "
+"terminal window:"
+msgstr ""
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:107
+msgid "``user@osgeolive:~$ sudo usermod -a -G vboxsf user``"
+msgstr "``user@osgeolive:~$ sudo usermod -a -G vboxsf user``"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:109
+msgid ""
+"In the above example, we defined a Shared Folder path on the host system and"
+" named it \"GIS\" in the VM Settings. The shared folder will appear in the "
+"file system under /media/sf_GIS/. To mount this folder in the user's home "
+"directory, for example, in a terminal do:"
+msgstr ""
+"No exemplo acima, nós definimos o caminho de uma pasta compartilhada no "
+"sistema hospedeira e a nomeamos \"GIS\" nas configurações da máquina "
+"virtual. A pasta compartilhada irá aparecer no sistema em /media/sf_GIS/. "
+"Para montar a pasta no diretório home do usuário, por exemplo, no terminar "
+"execute:"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:111
+msgid "``user@osgeolive:~$ mkdir GIS``"
+msgstr "``user@osgeolive:~$ mkdir GIS``"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:113
+msgid ""
+"``user@osgeolive:~$ sudo mount -t vboxsf -o uid=user,rw GIS /home/user/GIS``"
+msgstr ""
+"``user@osgeolive:~$ sudo mount -t vboxsf -o uid=user,rw GIS /home/user/GIS``"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:115
+msgid ""
+"Now files on your host machine in the chosen folder will also be available "
+"in the VM in the \"GIS\" folder in user's home directory."
+msgstr ""
+"Agora os arquivos na sua máquina hospedeira na pasta escolhida, também "
+"estarão disponíveis na máquina virtual na pasta \"GIS\" no diretório home do"
+" usuário."
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:118
+msgid "See Also:"
+msgstr "Veja também:"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:120
+msgid "OSGeo wiki pages:"
+msgstr "OSGeo páginas wiki:"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:120
+msgid ""
+"`Other ways to create a Virtual Machine "
+"<http://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
+msgstr ""
+"`Outras formas de criar uma máquina virtual "
+"<http://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:122
+msgid ":doc:`osgeolive_quickstart`"
+msgstr ":doc:`osgeolive_quickstart`"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:123
+msgid ":doc:`osgeolive_install_quickstart`"
+msgstr ":doc:`osgeolive_install_quickstart`"
+
+#: ../../build/doc/quickstart/virtualization_quickstart.rst:124
+msgid ":doc:`usb_quickstart`"
+msgstr ":doc:`usb_quickstart`"

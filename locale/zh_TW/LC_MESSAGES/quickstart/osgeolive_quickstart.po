@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Supaplex <bejokeup@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:05+0000\n"
+"Last-Translator: Supaplex <bejokeup@gmail.com>, 2019\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/osgeo/teams/66156/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:9
+msgid "OSGeoLive Quickstart"
+msgstr "OSGeoLive 快速指南"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:11
+msgid "This Quick Start describes how to start OSGeoLive from a DVD or USB."
+msgstr "這份快速指南描述如何從 DVD 或 USB 啟動 OSGeoLive。"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:14
+msgid "System Requirements"
+msgstr "系統需求"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:16
+msgid "Your computer should have at least:"
+msgstr "你的電腦至少需求："
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:18
+msgid "RAM: 1 GB."
+msgstr "RAM：1 GB。"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:19
+msgid "CPU: 1 GHz i686 or compatible (Intel/AMD)"
+msgstr "CPU：1 GHz i686 或相容標準 (Intel/AMD)"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:20
+msgid "Hard Disk:"
+msgstr "硬碟："
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:22
+msgid "None required if running directly from the DVD"
+msgstr "如果從 DVD 直接執行則不需要"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:23
+msgid "|osgeolive-hdspace| if you wish to install the operating system."
+msgstr "|osgeolive-hdspace| 如果你想要安裝作業系統。"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:25
+msgid "Mouse: a 3-button mouse is useful, especially for Mac trackpad users."
+msgstr "滑鼠：三鍵滑鼠相當好用，尤其是 Mac 的觸控版使用者。"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:28
+msgid "Run:"
+msgstr "執行："
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:30
+msgid ""
+"Source an OSGeoLive DVD, ISO available from: [:doc:`Download <../download>`]"
+" Put the DVD into your computer's CD drive, then reboot your computer."
+msgstr ""
+"OSGeoLive DVD、ISO 的來源在這裡： [:doc:`Download <../download>`] 將 DVD "
+"放入你電腦的光碟機，接著重新開機。"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:33
+msgid ""
+"If your computer is set to boot from CD (as is often the case) you should "
+"boot up into a Lubuntu system, with Geospatial applications installed. "
+"Otherwise you'll have to adjust the BIOS boot settings or press the boot "
+"menu button just after powering-up."
+msgstr ""
+"如果你的電腦已經設定從 CD 開機的話 (常遇到的情境)，你應該會進入 Lubuntu 系統，而且安裝相關的地理空間應用程式。不然的話你要調整 BIOS"
+" 的啟動設定，或者在開機時按開機選單按鈕。"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:42
+msgid "Sit back while the system boots up."
+msgstr "系統啟動時坐好了。"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:48
+msgid "Try the many applications from the :menuselection:`Geospatial` menu."
+msgstr "從 :menuselection:`Geospatial` 選單嘗試不同的應用程式。"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:51
+msgid "See Also:"
+msgstr "參見："
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
+msgid ""
+"Getting started with Lubuntu and the LXDE desktop (which is used by "
+"OSGeoLive):"
+msgstr "Lubuntu 和 LXDE 桌面環境入門 (OSGeoLive 採用的環境)："
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
+msgid ""
+"https://help.ubuntu.com/community/Lubuntu/Documentation and "
+"http://wiki.lxde.org"
+msgstr ""
+"https://help.ubuntu.com/community/Lubuntu/Documentation 和 "
+"http://wiki.lxde.org"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:56
+msgid "Getting started with the Ubuntu operating system:"
+msgstr "Ubuntu 作業系統入門"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:57
+msgid ""
+"`local eBook "
+"<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and "
+"`extended online help <http://help.ubuntu.com/14.04/>`_"
+msgstr ""
+"`本地電子書 <file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_"
+" 和 `延伸線上說明 <http://help.ubuntu.com/14.04/>`_"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:58
+msgid ":doc:`virtualization_quickstart`"
+msgstr ":doc:`virtualization_quickstart`"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:59
+msgid ":doc:`osgeolive_install_quickstart`"
+msgstr ":doc:`osgeolive_install_quickstart`"
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:60
+msgid ":doc:`usb_quickstart`"
+msgstr ":doc:`usb_quickstart`"

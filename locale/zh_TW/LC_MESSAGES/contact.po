@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Supaplex <bejokeup@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:02+0000\n"
+"Last-Translator: Supaplex <bejokeup@gmail.com>, 2019\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/osgeo/teams/66156/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/contact.rst:2
+msgid "Contact Us"
+msgstr "聯絡我們"
+
+#: ../../build/doc/contact.rst:4
+msgid ""
+"OSGeoLive development is coordinated via email and internet chat (IRC) as "
+"detailed on the `OSGeo Wiki "
+"<http://wiki.osgeo.org/wiki/OSGeoLive#Contact_Us>`_."
+msgstr ""
+"OSGeoLive 的開發是經由郵件或是網路聊天 (IRC) 來協調，詳情請見  `OSGeo Wiki "
+"<http://wiki.osgeo.org/wiki/OSGeoLive#Contact_Us>`_。"
+
+#: ../../build/doc/contact.rst:9
+msgid "Disclaimer"
+msgstr "免責聲明"
+
+#: ../../build/doc/contact.rst:11
+msgid ""
+"This Live GIS disc and virtual-machine has been put together by members of "
+"the OSGeo community to showcase their favourite Free and Open Source (FOSS) "
+"geospatial software. We've included a number of non-OSGeo software packages,"
+" from both the spatial and non-spatial realms, which we hope you will find "
+"to be as useful as we do. The OSGeo Foundation does not recommend or "
+"guarantee any associated software, projects, or companies found within."
+msgstr ""
+"這片 Live GIS 磁片和虛擬機器由 OSGeo 社群的成員做成，用來展示他們最喜愛的自由與開源 (FOSS) 地理資訊軟體。我們包進一些非 "
+"OSGeo 的軟體套件，有些是空間相關，有些並不是，希望能對你有幫助。OSGeo 基金會並不推薦或是擔保裡頭會找到的相關軟體、計畫或是公司。"
+
+#: ../../build/doc/contact.rst:16
+msgid ""
+"`These programs are distributed in the hope that they will be useful, but "
+"WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
+"or FITNESS FOR A PARTICULAR PURPOSE.`"
+msgstr "‘這些軟體的散佈方式希望對大家有用，但不含任何保證書；甚至沒有適銷性或特定用途適用性的暗示保證。‘"
+
+#: ../../build/doc/contact.rst:20
+msgid ""
+"For additional information on the distribution of each program review their "
+"license as indicated on the page for each program."
+msgstr "要找到散佈的軟體額外的資訊，請察看每個軟體頁面的授權條款。"
+
+#: ../../build/doc/contact.rst:24
+msgid "Community Support"
+msgstr "社群支援"
+
+#: ../../build/doc/contact.rst:26
+msgid ""
+"If you have any questions, comments, or run into any problems, please drop "
+"us a note on `our mailing list "
+"<http://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
+msgstr ""
+"如果你有任何問題、意見，或是程式出問題，請到`我們的郵件論壇<http://lists.osgeo.org/mailman/listinfo/osgeolive>`_詢問。"
+
+#: ../../build/doc/contact.rst:29
+msgid ""
+"Searchable archives of the mailing list are hosted by `Nabble <http://osgeo-"
+"org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_."
+msgstr ""
+"過往在郵件論壇上面的討論，可以到 `Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-"
+"LiveDVD-f3777350.html>`_ 尋找。"
+
+#: ../../build/doc/contact.rst:32
+msgid ""
+"IRC users might try the #osgeolive or #osgeo channel at Freenode.net for "
+"real-time assistance. You also can meet us at Slack, Matrix or Glitter."
+msgstr ""
+"IRC 使用者也許可以嘗試 Freenode.net 的 #osgeolive 或 #osgeo 頻道來取得即時協助，你也可以到 "
+"Slack、Matrix 或 Glitter 尋求協助。"
+
+#: ../../build/doc/contact.rst:35
+msgid ""
+"A wealth of information is available on our `Wiki site "
+"<http://wiki.osgeo.org/wiki/OSGeoLive>`_, and a `bug and wish tracking "
+"system <https://trac.osgeo.org/osgeolive/report/10>`_ is also available."
+msgstr ""
+"‘Wiki 站 <http://wiki.osgeo.org/wiki/OSGeoLive>`_ "
+"上能找到豐富的資訊，而也有`臭蟲或請求功能系統<https://trac.osgeo.org/osgeolive/report/10>`_ 。"
+
+#: ../../build/doc/contact.rst:38
+msgid ""
+"Stay tuned and follow OSGeoLive on Twitter `@osgeolive "
+"<https:twitter.com/osgeolive>`_."
+msgstr ""
+"保持聯繫然後追隨 Twitter 上的 OSGeoLive `@osgeolive <https:twitter.com/osgeolive>`_。"
+
+#: ../../build/doc/contact.rst:41
+msgid "Commercial Support"
+msgstr "商業支援"
+
+#: ../../build/doc/contact.rst:43
+msgid ""
+"Most packaged applications have both community and commercial support "
+"offerings for them. Refer to specific application descriptions linked from "
+"the :doc:`Contents <./overview/overview>` for details."
+msgstr ""
+"大部分的軟體套件都有社群和商業支援。需要特定的軟體描述請到 :doc:`Contents <./overview/overview>` 瞭解詳情。"
+
+#: ../../build/doc/contact.rst:46
+msgid ""
+"In addition, there are a large number of consultancy firms world wide who "
+"provide support for OSGeo member projects. See https://www.osgeo.org"
+"/service-providers/ for one that meets your needs."
+msgstr ""
+"另外，全球還有為數不少的顧問公司，提供 OSGeo 成員計畫的支援。請參見 https://www.osgeo.org/service-"
+"providers/ 來找尋適合你的需求的公司。 "

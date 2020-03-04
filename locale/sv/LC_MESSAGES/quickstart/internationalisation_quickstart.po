@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Anne Ylinen, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:05+0000\n"
+"Last-Translator: Anne Ylinen, 2019\n"
+"Language-Team: Swedish (https://www.transifex.com/osgeo/teams/66156/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:10
+msgid "OSGeoLive Internationalisation Quickstart"
+msgstr "Snabbstart för OSGeoLive internationalisering"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:13
+msgid "Switching Language"
+msgstr "Byta språk"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:15
+msgid "Many common languages are included on OSGeoLive. To switch languages:"
+msgstr ""
+"Många vanliga språk är inkluderade på OSGeoLive. Så här byter du språk:"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:17
+msgid "Log out"
+msgstr "Logga ut"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:18
+msgid "Select user=\"user\", password=\"user\""
+msgstr "Välj user=\"user\", password=\"user\""
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:19
+msgid "Select another language from the top panel menu."
+msgstr "Välj ett annat språk från menyn på den översta panelen."
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:20
+msgid "Press the :guilabel:`Log in` button."
+msgstr "Tryck på  :guilabel:`Log in` knappen."
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:21
+msgid "Repeat the process if needed or if you wish to change languages again."
+msgstr "Upprepa processen om det behövs eller om du vill byta språk igen."
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:27
+msgid ""
+"The system menus and many of the applications will now appear in the "
+"language chosen. If a specific program continues to display in English, then"
+" the program doesn't have a translation available - please consider "
+"volunteering to write a translation. Contact the program of interest "
+"directly for more information."
+msgstr ""
+"Systemmenyerna och många av applikationerna kommer nu att visas på det valda"
+" språket. Om ett visst program fortsätter att visas på engelska, så har "
+"programmet inte en översättning tillgänglig - vänligen överväg "
+"volontärarbete för att skriva en översättning. Kontakta programmet av "
+"intresse direkt för mer information."
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:33
+msgid ""
+"For additional languages see :menuselection:`Preferences --> Language "
+"Support` from the main menu. (Requires an internet connection)."
+msgstr ""
+"För ytterligare språk se:menuselection:`Preferences --> Language Support` "
+"från huvudmenyn. (Kräver en Internetanslutning)."
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:37
+msgid "Keyboard Support"
+msgstr "Stöd för tangentbord"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:38
+msgid ""
+"International keyboard support is installed, but you will need to configure "
+"the system for your specific keyboard. To change settings open "
+":menuselection:`Preferences --> Keyboard Input Methods` from the main menu "
+"and click on the :guilabel:`Input Method` tab. Next click on "
+":guilabel:`Customize active input methods` and then on the :guilabel:`Select"
+" an input method` button. Now click the :guilabel:`Add` button on the right "
+"to add an additional layout and then :guilabel:`Close` the IBus Preferences "
+"window."
+msgstr ""
+"Det internationella tangentbords stödet är installerat, men du måste "
+"konfigurera systemet för ditt specifika tangentbord. För att ändra "
+"inställningar öppna :menuselection:`inställningar--> tangentbord "
+"inmatningsmetoder` från huvudmenyn och klicka på :guilabel:`Input "
+"Method`-fliken. Klicka sedan på :guilabel:` anpassa aktiva "
+"inmatningsmetoder` och sedan på :guilabel:`Välj en inmatningsmetod`-knappen."
+" Klicka nu på :guilabel:`Lägg till` knappen till höger för att lägga till en"
+" ytterligare layout och sedan :guilabel:`Stäng` IBus preferenser fönster."
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:47
+msgid ""
+"You can now click on the keyboard icon on the lower desktop menu bar to "
+"select the active keyboard layout."
+msgstr ""
+"Du kan nu klicka på tangentbordsikonen på den lägre desktopmenyn för att "
+"välja den aktiva tangentbordslayouten."

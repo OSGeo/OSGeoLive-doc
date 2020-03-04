@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2018, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# 
+# Translators:
+# Supaplex <bejokeup@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"PO-Revision-Date: 2017-09-20 16:05+0000\n"
+"Last-Translator: Supaplex <bejokeup@gmail.com>, 2019\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/osgeo/teams/66156/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:15
+msgid "OpenStreetMap Quickstart"
+msgstr "開放街圖快速指南"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:18
+msgid "About"
+msgstr "關於"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:22
+msgid ""
+"OpenStreetMap is a free street level map of the world, created by an ever "
+"growing community of mappers. Anyone can edit OpenStreetMap. The `Learn OSM "
+"website <http://learnosm.org>`_ provides easy to understand, step-by-step "
+"guides for you to get started with contributing to OpenStreetMap and using "
+"OpenStreetMap and using OpenStreetMap data. The Learn OSM guide at the link "
+"above shows step by step how to navigate the OpenStreetMap website, view and"
+" print maps, and sign up for a user account. After you have your own "
+"username and password, you will be able to add your first points to the map,"
+" learn how to do street surveys and work with aerial imagery."
+msgstr ""
+"開放街圖是全球尺度，免費的街道層級的地圖，由持續成長的圖客社群創造。任何人都可以編輯開放街圖，Learn OSM website "
+"<http://learnosm.org>`_ 提供簡單易懂，一步一步的指導，讓你能夠開始貢獻到開放街圖，然後使用開放街圖，以及使用開放街圖的資料。 "
+"前面的 LearnOSM "
+"連結顯示一步一步如何瀏覽開放街圖網站，檢視和列印地圖，和註冊使用者帳號。當你有了自己的使用者名稱和密碼，你會有辦法加第一個點到地圖上，學習如何進行街道探查，以及用空照影像。"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:33
+msgid ""
+"The remainder of this quickstart introduces some of the on-line and off-line"
+" software used to edit and render OSM data."
+msgstr "這個快速指南的提是介紹一些線上和線下軟體，怎麼編輯和渲染 OSM 資料。"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:38
+msgid "Programs"
+msgstr "程式"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:42
+msgid "iD"
+msgstr "iD"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:44
+msgid ""
+"**iD** is the default on-line editor for OpenStreetMap (OSM). iD is fast and"
+" easy to use, and allows mapping from various data sources such as ground "
+"survey, satellite and aerial imageries, GPS traces or street-level imagery."
+msgstr ""
+"**iD** 是開放街圖 (OSM) 預設的線上編輯器，iD 運作快速而且容易使用，而且允許運用不同資料來源畫地圖，像是實地探察、衛星和空照影像、GPS"
+" 軌跡或街景影像。"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:48
+msgid "Start page: https://www.openstreetmap.org/edit"
+msgstr "開始頁面：https://www.openstreetmap.org/edit"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:52
+#: ../../build/doc/quickstart/osm_quickstart.rst:70
+msgid "Further reading"
+msgstr "延伸閱讀"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:54
+msgid "Documentation: https://wiki.openstreetmap.org/wiki/ID"
+msgstr "說明文件：https://wiki.openstreetmap.org/wiki/ID"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:55
+msgid "Tutorial: http://learnosm.org/en/beginner/id-editor/"
+msgstr "教學文件：http://learnosm.org/en/beginner/id-editor/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:59
+msgid "JOSM"
+msgstr "JOSM"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:61
+msgid ""
+"**JOSM** (Java OpenStreetMap Editor) is an advanced editor for OpenStreetMap"
+" (OSM) written in Java. It is more powerful and complex than iD, can be used"
+" for bulk editing, off-line or on an unreliable Internet connection. It can "
+"be extended with plugins, custom presets and more extensions."
+msgstr ""
+"**JOSM** (Java OpenStreetMap 編輯器) 是用 Java 撰寫的開放街圖進階編輯器，比起 iD "
+"來說更為強大和複雜，可以用在批次、離線或是沒有穩定網路連線時的編輯狀況。另外還可以用套件、自訂預設組合和其他外掛擴充。"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:67
+msgid "Homepage: https://josm.openstreetmap.de"
+msgstr "首頁：https://josm.openstreetmap.de"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:72
+msgid "User guide: https://wiki.openstreetmap.org/wiki/JOSM/Guide"
+msgstr "使用者指南：https://wiki.openstreetmap.org/wiki/JOSM/Guide"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:73
+msgid "Tutorial: http://learnosm.org/en/josm/start-josm/"
+msgstr "教學：http://learnosm.org/en/josm/start-josm/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:74
+msgid "JOSM plugin collection: https://josm.openstreetmap.de/wiki/Plugins"
+msgstr "JOSM 外掛程式選集：https://josm.openstreetmap.de/wiki/Plugins"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:78
+msgid "Merkaartor"
+msgstr "Merkaartor"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:80
+msgid ""
+"**Merkaartor** is a map editor for OpenStreetMap which uses the Qt toolkit. "
+"It's a bit more user friendly than JOSM, but has a few less features."
+msgstr "**Merkaartor** 是採用 Qt toolkit 的開放街圖地圖編輯器，比起 JOSM 來說比較有善，但功能較少。"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:83
+msgid "Homepage: http://merkaartor.be"
+msgstr "首頁：http://merkaartor.be"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:84
+msgid ""
+"Online help: https://wiki.openstreetmap.org/wiki/Merkaartor/Documentation"
+msgstr "線上說明：https://wiki.openstreetmap.org/wiki/Merkaartor/Documentation"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:88
+msgid "QGIS"
+msgstr "QGIS"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:90
+msgid ""
+"OpenStreetMap data can be loaded in **QGIS** as vector layer, as a core "
+"functionality or through plugins like QuickOSM."
+msgstr "開放街圖的資料能夠透過 QGIS 核心功能向量圖層載入到 **QGIS** 中，或是用套件如 QuickOSM 載入。"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:93
+msgid "QuickOSM: http://plugins.qgis.org/plugins/QuickOSM/"
+msgstr "QuickOSM：http://plugins.qgis.org/plugins/QuickOSM/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:94
+msgid ""
+"Online help: "
+"https://wiki.openstreetmap.org/wiki/QGIS#QGIS_2:_Importing_OSM_vector_layers"
+msgstr ""
+"線上說明：https://wiki.openstreetmap.org/wiki/QGIS#QGIS_2:_Importing_OSM_vector_layers"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:95
+msgid "Tutorial: http://learnosm.org/en/osm-data/osm-in-qgis/"
+msgstr "教學文件：http://learnosm.org/en/osm-data/osm-in-qgis/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:98
+msgid "Osmosis"
+msgstr "Osmosis"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:100
+msgid ""
+"**Osmosis** is a highly capable utility program for performing many tasks at"
+" a raw level on OSM data. This includes data import and export to databases,"
+" sorting, cleaning, and creating data dumps."
+msgstr ""
+"**Osmosis** 有相當高能耐的程式，能處理底層或 OSM 資料，包括資料匯入和匯出到資料庫，進行進一步的排序、清理和創造資料 dumps。"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:104
+msgid "Documentation: https://wiki.openstreetmap.org/wiki/Osmosis#Usage"
+msgstr "說明文件：https://wiki.openstreetmap.org/wiki/Osmosis#Usage"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:105
+msgid "Tutorial: http://learnosm.org/en/osm-data/osmosis/"
+msgstr "教學文件：http://learnosm.org/en/osm-data/osmosis/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:109
+msgid "osm2pgsql"
+msgstr "osm2pgsql"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:111
+msgid ""
+"**osm2pgsql** is a utility program that converts OpenStreetMap (.osm) data "
+"into a format that can be loaded into PostgreSQL (PostGIS). It is often used"
+" to render OSM data visually using Mapnik, as Mapnik can query PostgreSQL "
+"for map data, but does not work directly with OSM files."
+msgstr ""
+"**osm2pgsql** 是工具程式，能夠轉換開放街圖 (.osm) 資料，變成 PostgreSQL (PostGIS) 常用的格式，Mapnik "
+"可以檢索 PostgreSQL 的地圖資料，進而渲染成 Mapnik 視覺形式，但不會直接處理 OSM 檔案。"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:116
+msgid "Homepage: https://wiki.openstreetmap.org/wiki/Osm2pgsql"
+msgstr "首頁：https://wiki.openstreetmap.org/wiki/Osm2pgsql"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:117
+msgid "Tutorial: http://learnosm.org/en/osm-data/osm2pgsql/"
+msgstr "教學文件：http://learnosm.org/en/osm-data/osm2pgsql/"
