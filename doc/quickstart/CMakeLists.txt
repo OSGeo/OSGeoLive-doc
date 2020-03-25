@@ -6,9 +6,7 @@ set (LOCAL
     "hyperv_quickstart.rst"
     "virtualization_quickstart.rst"
     "usb_quickstart.rst"
-
-    "toc.rst"
-    "make.bat")
+    )
 
 #---------------------------------------------
 # Adding the *_quickstarts
