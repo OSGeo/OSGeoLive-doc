@@ -78,8 +78,8 @@
 
 {% block header %}
 {# TODO this list should be set on the CMakeLists based on configuration #}
-{%- if pagename in ['index', 'contact', 'disclaimer.rst', 'mac_installers',  'osgeo_contact',  'scripts',  'translators',
-            'win_installers', 'contributors', 'download', 'metrics', 'prior_applications', 'sponsors_osgeo', 'copyright', 'sponsors']
+{%- if pagename in ['index', 'contact', 'disclaimer.rst', 'osgeo_contact',  'scripts',  'translators',
+            'contributors', 'download', 'metrics', 'prior_applications', 'sponsors_osgeo', 'copyright', 'sponsors']
 %}
     {{ header2() }} 
     {% else %}
@@ -115,8 +115,8 @@
 
 {% block footer %}
 {# TODO this list should be set on the CMakeLists based on configuration #}
-{%- if pagename in ['index', 'contact', 'disclaimer.rst', 'mac_installers',  'osgeo_contact',  'scripts',  'translators',
-            'win_installers', 'contributors', 'download', 'metrics', 'prior_applications', 'sponsors_osgeo', 'copyright', 'sponsors']
+{%- if pagename in ['index', 'contact', 'disclaimer.rst', 'osgeo_contact',  'scripts',  'translators',
+            'contributors', 'download', 'metrics', 'prior_applications', 'sponsors_osgeo', 'copyright', 'sponsors']
 %}
     {{ footer2() }}
     {% else %}
