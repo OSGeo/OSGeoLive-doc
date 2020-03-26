@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"POT-Creation-Date: 2020-03-25 17:45-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -674,6 +674,18 @@ msgstr ""
 
 #: ../../build/contributors.csv:1
 msgid "fschindler"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+msgid "Felicity Brand"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+msgid "felicitybrand gmail com"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+msgid "flicstar"
 msgstr ""
 
 #: ../../build/contributors.csv:1
@@ -2674,5 +2686,61 @@ msgstr ""
 
 #: ../../build/translators.csv:1
 msgid "tanner"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Swedish"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "sv"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Anne Elise Ylinen"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "aeylinen gmail.com"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Aeylinen"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Romanian"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "ro"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Ionut Ungurianu"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Romania"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "ionutungurianu gmail com"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "iungurianu"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Alin Deneanu"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "alin.deneanu gmail com"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "alindeneanu"
 msgstr ""
 
