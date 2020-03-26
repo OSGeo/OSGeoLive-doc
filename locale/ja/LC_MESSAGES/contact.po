@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -30,11 +30,9 @@ msgstr "問い合わせ先"
 #: ../../build/doc/contact.rst:4
 msgid ""
 "OSGeoLive development is coordinated via email and internet chat (IRC) as "
-"detailed on the `OSGeo Wiki "
-"<http://wiki.osgeo.org/wiki/OSGeoLive#Contact_Us>`_."
+"detailed on the `OSGeoLive Wiki "
+"<https://trac.osgeo.org/osgeolive#Communication>`_."
 msgstr ""
-"OSGeoLive の開発は、emailやインターネット・チャット (IRC) によってコーディネートされています。詳細については、`OSGeo "
-"Wiki <http://wiki.osgeo.org/wiki/OSGeoLive#Contact_Us>`_ を参照してください。"
 
 #: ../../build/doc/contact.rst:9
 msgid "Disclaimer"
