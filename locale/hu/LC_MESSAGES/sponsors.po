@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki@agt.bme.hu>, 2018
-# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
+# Vicky Vergara <vicky@georepublic.de>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -612,7 +612,7 @@ msgstr "Cameron.Shorter jirotech com"
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1
+#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 msgid "Australia"
 msgstr "Ausztrália"
 
@@ -798,6 +798,18 @@ msgstr "Ausztria"
 #: ../../build/contributors.csv:1
 msgid "fschindler"
 msgstr "fschindler"
+
+#: ../../build/contributors.csv:1
+msgid "Felicity Brand"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+msgid "felicitybrand gmail com"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+msgid "flicstar"
+msgstr ""
 
 #: ../../build/contributors.csv:1
 msgid "Fran Boon"
@@ -2887,3 +2899,59 @@ msgstr "public t lin gmail com"
 #: ../../build/translators.csv:1
 msgid "tanner"
 msgstr "tanner"
+
+#: ../../build/translators.csv:1
+msgid "Swedish"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "sv"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Anne Elise Ylinen"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "aeylinen gmail.com"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Aeylinen"
+msgstr ""
+
+#: ../../build/translators.csv:1 ../../build/translators.csv:1
+msgid "Romanian"
+msgstr ""
+
+#: ../../build/translators.csv:1 ../../build/translators.csv:1
+msgid "ro"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Ionut Ungurianu"
+msgstr ""
+
+#: ../../build/translators.csv:1 ../../build/translators.csv:1
+msgid "Romania"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "ionutungurianu gmail com"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "iungurianu"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Alin Deneanu"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "alin.deneanu gmail com"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "alindeneanu"
+msgstr ""

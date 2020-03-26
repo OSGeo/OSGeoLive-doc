@@ -1,20 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki@agt.bme.hu>, 2019
-# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,11 +21,11 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/mapnik_quickstart.rst:15
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:16
 msgid "Mapnik Quickstart"
 msgstr "Mapnik gyorstalpaló"
 
-#: ../../build/doc/quickstart/mapnik_quickstart.rst:17
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:18
 msgid ""
 "Mapnik is an toolkit for developing mapping applications. Above all Mapnik "
 "is about making beautiful maps. It is easily extensible and suitable for "
@@ -36,11 +35,11 @@ msgstr ""
 "Mindenekelőtt a Mapnik gyönyörű térképeket készít. Könnyen bővíthető és "
 "alkalmas asztali és webes fejlesztésre."
 
-#: ../../build/doc/quickstart/mapnik_quickstart.rst:21
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:25
 msgid "Mapnik & Python"
 msgstr "Mapnik & Python"
 
-#: ../../build/doc/quickstart/mapnik_quickstart.rst:23
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:27
 msgid ""
 "Mapnik and its python bindings are installed and ready to be used for "
 "scripting on this machine."
@@ -48,15 +47,13 @@ msgstr ""
 "A Mapnik-et és a python kötéseit telepítették ezen a gépen és készen áll "
 "szkriptek készítéséhez."
 
-#: ../../build/doc/quickstart/mapnik_quickstart.rst:25
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:29
 msgid ""
-"Creating maps in python is easy with Mapnik. Type `python` on the command "
-"line to enter a python interpreter and try this::"
+"Creating maps in python is easy with Mapnik. Open a terminal window and type"
+" `python` on the command line to enter a python interpreter. Then try this::"
 msgstr ""
-"A Mapnikkal könnyű pythonból térképeket létrehozni. A parancssorba gépelje "
-"be `python`, egy python értelmező elindításához és próbálja ezt::"
 
-#: ../../build/doc/quickstart/mapnik_quickstart.rst:38
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:42
 msgid ""
 "The above code depends on having an XML stylesheet that Mapnik can read, "
 "defining the layers to read data from and the styles to apply to those "
@@ -68,84 +65,58 @@ msgstr ""
 "alkalmazandó stílusok. Egy ilyet a QGIS-en belül létre tud hozni a "
 "Quantumnik modullal: http://plugins.qgis.org/plugins/quantumnik/"
 
-#: ../../build/doc/quickstart/mapnik_quickstart.rst:44
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:48
 msgid "Mapnik & Leaflet"
 msgstr "Mapnik & Leaflet"
 
-#: ../../build/doc/quickstart/mapnik_quickstart.rst:46
-msgid ""
-"In addition a basic demo application is available, which highlights using "
-"Mapnik to serve tiles into an OpenLayers web map in the OSM/Google tile "
-"scheme."
-msgstr ""
-"Továbbá egy alap demó alkalmazás áll rendelkezésre, mely bemutatja a Mapnik "
-"által szolgáltatott csempék használatát egy OpenLayers web térképen, az "
-"OSM=Google csempe sémában."
-
-#: ../../build/doc/quickstart/mapnik_quickstart.rst:48
-msgid "The demo uses a tileserver designed for Mapnik called \"TileStache\""
-msgstr "A demó a Mapnikhez tervezett \"TileStache\" nevű csempe szervert használ"
-
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:50
-msgid "More information about TileStache: http://tilestache.org/"
-msgstr "További információ a TileStache-ről: http://tilestache.org/"
+msgid ""
+"A basic demo application is available which highlights using Mapnik to serve"
+" tiles into an OpenLayers web map in the OSM/Google tile scheme."
+msgstr ""
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:52
-msgid "To run the demo just follow these steps:"
-msgstr "A demó futtatásához kövesse ezeket a lépéseket:"
+msgid ""
+"The demo uses a tileserver designed for Mapnik called \"TileStache\". Visit "
+"the TileStache website for more information: http://tilestache.org/"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:54
 msgid ""
 "Click :menuselection:`Desktop --> Spatial Tools --> Start Mapnik & "
-"TileStache`"
+"TileStache`. The server starts in a terminal window (which stays open and "
+"outputs basic debugging information)."
 msgstr ""
-"Kattintson a :menuselection:`Desktop --> Spatial Tools --> Start Mapnik & "
-"TileStache` ikonra"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:56
 msgid ""
-"The server should start in a terminal window (which stays open and outputs "
-"basic debugging information)."
+"Check that the server is working by requesting a tile from the server. Click"
+" this link http://localhost:8012/example/0/0/0.png and observe the output in"
+" the server terminal window."
 msgstr ""
-"A szervernek egy terminál ablakban kell elindulnia (mely nyitva marad és "
-"alap nyomkövetési információk jelennek meg benne)."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:58
 msgid ""
-"Check to make sure the server is working by requesting a tile from the "
-"server at http://localhost:8012/example/0/0/0.png"
+"Visit the Leaflet demo application page `http://localhost/leaflet-demo.html "
+"<../../../leaflet-demo.html>`_."
 msgstr ""
-"Bizonyosodjon meg róla, hogy a szerver dolgozik, kérjen le egy csempét a "
-"szerverről http://localhost:8012/example/0/0/0.png"
-
-#: ../../build/doc/quickstart/mapnik_quickstart.rst:60
-msgid "Then visit the Leaflet demo application page:"
-msgstr "Majd keresse fel a Leaflet demó alkalmazás oldalát:"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:62
-msgid ""
-"This page is at `http://localhost/leaflet-demo.html <../../../leaflet-"
-"demo.html>`_"
-msgstr ""
-"Ez az oldal itt található `http://localhost/leaflet-demo.html "
-"<../../../leaflet-demo.html>`_"
-
-#: ../../build/doc/quickstart/mapnik_quickstart.rst:66
-msgid "What Next?"
+msgid "What next?"
 msgstr "Mi a következő?"
 
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:64
+msgid ""
+"Follow the tutorials to learn more about Mapnik: "
+"https://github.com/mapnik/mapnik/wiki/MapnikTutorials"
+msgstr ""
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:66
+msgid ""
+"Explore the included files on the latest OSGeoLive distribution, in this "
+"directory: file:///usr/local/share/mapnik/"
+msgstr ""
+
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:68
-msgid "Mapnik Tutorials"
-msgstr "Mapnik oktatóanyagok"
-
-#: ../../build/doc/quickstart/mapnik_quickstart.rst:70
-msgid "Follow the tutorials_ to learn more about Mapnik."
-msgstr "Kövesse az oktatóanyagokat_, hogy többet megtudjon a Mapnikról."
-
-#: ../../build/doc/quickstart/mapnik_quickstart.rst:74
-msgid "Explore files on the DVD"
-msgstr "Fedezze fel a fájlokat a DVD-n"
-
-#: ../../build/doc/quickstart/mapnik_quickstart.rst:76
-msgid "See also the included files_ on this DVD."
-msgstr "Nézze meg ezen a DVD-n található fájlokat_ is."
+msgid "Visit the Mapnik website: http://www.mapnik.org/"
+msgstr ""

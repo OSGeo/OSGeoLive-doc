@@ -1,33 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki@agt.bme.hu>, 2019
-# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:15
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:16
 msgid "OpenCPN Quickstart"
 msgstr "OpenCPN gyorstalpaló"
 
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:17
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:18
 msgid ""
 "OpenCPN is a concise Chart Plotter and Navigator (CPN). As always, never use"
 " a piece of software or electronic equipment as your only means of "
@@ -37,29 +35,33 @@ msgstr ""
 "ne használjon egy szoftvert vagy egy elektronikus berendezést az egyetlen "
 "navigációs eszközként, és tartsa az egyik szemét ablakon."
 
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:23
-msgid "Running"
-msgstr "Futtatás"
-
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:26
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:27
 msgid "Setting up your charts"
 msgstr "Térképek beállítása"
 
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:27
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:29
 msgid ""
 "Before running OpenCPN on the LiveDVD you should activate the sample data. "
 "This is a condition of redistributing NOAA's free nautical charts. The first"
-" time you run OpenCPN from the :menuselection:`Geospatial --> Navigation and"
-" Maps` menu or Desktop icon you will be presented with the option to do this"
-" automatically."
+" time you open OpenCPN you are presented with the option to do this "
+"automatically."
 msgstr ""
-"Mielőtt az OpenCPN a LiveDVD-ről futtatná, aktiválnia kell a minta adatokat."
-" Ez a NOAA ingyenes tengeri térképek megosztásának feltétele.Amikor először "
-"futtatja az OpenCPN-t a  :menuselection:`Geospatial --> Navigation and Maps`"
-" menüből vagy asztali ikonnal,  egy beállítás jelenik meg, mellyel ezt "
-"automatikusan megteheti."
 
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:37
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:32
+msgid ""
+"From the Start menu, select :menuselection:`Geospatial --> Navigation and "
+"Maps --> OpenCPN`."
+msgstr ""
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:33
+msgid "Click :guilabel:`I agree` to the NOAA Nautical Chart Data Agreement."
+msgstr ""
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:34
+msgid "Click :guilabel:`OK` to agree to the OpenCPN license."
+msgstr ""
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:38
 msgid ""
 "You can download additional US nautical charts from NOAA at "
 "http://www.charts.noaa.gov"
@@ -71,19 +73,17 @@ msgstr ""
 msgid "Setting up your GPS"
 msgstr "GPS-ének beállítása"
 
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:43
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:44
 msgid ""
 "If you have a GPS connected you will want to start the gpsd service. To do "
-"that run:"
+"that, open a terminal and run:"
 msgstr ""
-"Ha van egy csatlakoztatott GPS eszköze, akkor el kell indítania a gpsd "
-"szolgáltatást. Ehhez futtassa:"
 
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:50
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:51
 msgid "and"
 msgstr "és"
 
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:56
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:57
 msgid ""
 "BlueTooth GPS users should take special care to read up about the no-probe "
 "option."
@@ -91,51 +91,48 @@ msgstr ""
 "A BlueTooth GPS használóknak különös gondossággal kell olvasniuk a no-probe "
 "beállításról."
 
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:62
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:63
 msgid "'`xgps`' is a good program to check that Gpsd can see your GPS ok."
 msgstr ""
 "'`xgps`' jó program annak ellenőrzésére, hogy a Gpsd látja az ön GPS-ét."
 
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:66
-msgid "Documentation"
-msgstr "Dokumentáció"
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:67
+msgid "Things to try"
+msgstr "Kipróbálandó dolgok"
 
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:68
-msgid ""
-"Documentation is available from the `Help menu "
-"<../../opencpn/help_en_US.html>`_, or online at "
-"http://www.opencpn.org/ocpn/opencpn_manual"
-msgstr ""
-"A dokumentáció elérhető a  `Help menüből <../../opencpn/help_en_US.html>`_, "
-"vagy közvetlenül http://www.opencpn.org/ocpn/opencpn_manual"
-
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:72
-msgid "`Getting started tips <../../opencpn/tips.html>`_"
-msgstr "`Tippek kezdőknek <../../opencpn/tips.html>`_"
-
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:76
-msgid "See also"
-msgstr "Lásd még"
-
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:78
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:69
 msgid ""
 "Current weather and wave forecast data can be downloaded and draped over "
 "your charts using the GRIB plugin. The :doc:`zyGrib software "
 "<../overview/zygrib_overview>` (also on this disc) is an easy way to "
-"download that. See the :doc:`zyGrib quickstart "
-"<../quickstart/zygrib_quickstart>` for details. Enable the plugin from the "
-"right most tab of the OpenCPN configuration menu; a new windsock icon will "
-"appear at the right end of the main toolbar."
+"download that."
 msgstr ""
-"A FRIB modul segítségével aktuális időjárási és hullám előrejelzés adatokat "
-"lehet letölteni, és a térképekre rátenni.. A :doc:`zyGrib software "
-"<../overview/zygrib_overview>`  (szintén ezen a lemezen) egy egyszerű módja "
-"arra, hogy letölthetse ezeket. Lásd a :doc:`zyGrib gyorstalpalót "
-"<../quickstart/zygrib_quickstart>`  a részletekért. Kapcsolja be a modult az"
-" OpenCPN konfigurációs menü jobb oldali fülén egy új szélzsák ikon jelenik "
-"meg a fő eszköztár jobb végén."
 
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:85
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:71
+msgid ""
+"Click the :guilabel:`Options` icon on the toolbar. The Options window "
+"displays."
+msgstr ""
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:72
+msgid "Select the :guilabel:`Plugins` tab."
+msgstr ""
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:73
+msgid "Choose GRIB and then click :guilabel:`Enable`."
+msgstr ""
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:74
+msgid "Click :guilabel:`OK`. A windsock icon is now displayed on the toolbar."
+msgstr ""
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:77
+msgid ""
+"Run through the :doc:`zyGrib quickstart <../quickstart/zygrib_quickstart>` "
+"and load the zyGrib file over your chart."
+msgstr ""
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:79
 msgid ""
 "If you saved the zyGrib file into your home directory, navigate to "
 ":file:`/home` and select your ``user`` directory as the GRIB data directory."
@@ -148,10 +145,32 @@ msgstr ""
 "megjelenítéséhez, a ``.zygrib`` könyvtár tartalmazza a letöltött GRIB "
 "fájlokat."
 
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:90
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:81
 msgid ""
 "There is no need to uncompress the file.  Click on the \">\" to the left of "
 "the filename and select from the list of available forecast times."
 msgstr ""
 "Nincs szükség a fájl kitömörítésére. Kattintson a \">\"-ra  a fájlnév bal "
 "oldalán és válasszon a elérhető előrejelzési időpontok közül."
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:85
+msgid "What next?"
+msgstr "Mi a következő?"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:87
+msgid ""
+"Documentation is available from the Help menu or online at "
+"https://opencpn.org/OpenCPN/info/manuals.html"
+msgstr ""
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:89
+msgid "`Getting started tips <../../opencpn/tips.html>`_"
+msgstr "`Tippek kezdőknek <../../opencpn/tips.html>`_"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:91
+msgid "Website: http://www.opencpn.org"
+msgstr ""
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:93
+msgid "Support: http://www.cruisersforum.com/forums/f134"
+msgstr ""

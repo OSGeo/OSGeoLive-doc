@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki@agt.bme.hu>, 2019
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-11 09:43-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2019\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:19
+#: ../../build/doc/quickstart/pywps_quickstart.rst:20
 msgid "PyWPS Quickstart"
 msgstr "PyWPS gyorstalpaló"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:21
+#: ../../build/doc/quickstart/pywps_quickstart.rst:22
 msgid ""
 "PyWPS is an OGC WPS (Web Processing Service 1.0.0) server implementation "
 "written in `Python <http://python.org>`_."
@@ -33,7 +33,7 @@ msgstr ""
 "A PyWPS egy `Python-ban <http://python.org>`_ írt OGC WPS  (Web Processing "
 "Service 1.0.0) szerver implementáció."
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:24
+#: ../../build/doc/quickstart/pywps_quickstart.rst:25
 msgid ""
 "The PyWPS 4.0.0 library is installed by default on OSGeo-Live. This is a "
 "core library that is not intended to be executed directly, but rather to be "
@@ -48,34 +48,30 @@ msgstr ""
 "`példa szolgáltatás  <https://github.com/geopython/pywps-flask>`_ elérhető a"
 " GitHub-on az első PyWPS találkozás megkönnyítése érdekében."
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:30
+#: ../../build/doc/quickstart/pywps_quickstart.rst:31
 msgid "This Quickstart describes how to:"
 msgstr "Ez a gyorstalpaló leírja:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:32
+#: ../../build/doc/quickstart/pywps_quickstart.rst:33
 msgid "Install and configure the pywps-flask example service"
 msgstr "A pywps-flask  példa szolgáltatás telepítése és konfigurálása"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:33
+#: ../../build/doc/quickstart/pywps_quickstart.rst:34
 msgid ""
 "Perform ``GetCapabilities``, ``DescribeProcess`` and ``Execute`` requests"
 msgstr ""
 "Hajtson végre ``GetCapabilities``, ``DescribeProcess`` és ``Execute`` "
 "kéréseket"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:34
+#: ../../build/doc/quickstart/pywps_quickstart.rst:35
 msgid "Develop your own WPS processes"
 msgstr "Saját WPS feldolgozások fejlesztése"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:35
-msgid "Next steps"
-msgstr "Következő lépések"
-
-#: ../../build/doc/quickstart/pywps_quickstart.rst:40
+#: ../../build/doc/quickstart/pywps_quickstart.rst:41
 msgid "Installing pywps-flask"
 msgstr "pywps-flask telepítés"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:42
+#: ../../build/doc/quickstart/pywps_quickstart.rst:43
 msgid ""
 "Since the example service depends on Flask, make sure it is installed on "
 "your OSGeo-Live:"
@@ -83,19 +79,19 @@ msgstr ""
 "Mivel a minta szolgáltatás a Flask-et használja, győződjön meg, hogy "
 "telepítették-e az OSGeoLive-ra:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:45
+#: ../../build/doc/quickstart/pywps_quickstart.rst:46
 msgid "`sudo apt install python-flask`"
 msgstr "`sudo apt install python-flask`"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:47
+#: ../../build/doc/quickstart/pywps_quickstart.rst:48
 msgid "Then clone the repository from GitHub:"
 msgstr "Majd klónozza a GitHub-ról a tárházat:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:49
+#: ../../build/doc/quickstart/pywps_quickstart.rst:50
 msgid "`git clone https://github.com/geopython/pywps-flask.git`"
 msgstr "`git clone https://github.com/geopython/pywps-flask.git`"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:51
+#: ../../build/doc/quickstart/pywps_quickstart.rst:52
 msgid ""
 "Now move into the repository folder and edit the configuration file. This "
 "can be done with a program like `nano`:"
@@ -103,11 +99,11 @@ msgstr ""
 "Mozogjon a tárház mappába  és módosítsa a konfigurációs fájlt. Ezt megteheti"
 " a `nano` programmal:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:54
+#: ../../build/doc/quickstart/pywps_quickstart.rst:55
 msgid "`nano pywps.cfg`"
 msgstr "`nano pywps.cfg`"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:56
+#: ../../build/doc/quickstart/pywps_quickstart.rst:57
 msgid ""
 "The only critical thing to verify is the location of logging database. "
 "`Pywps-flask` provides a sample SQLite database that can be used for this "
@@ -117,44 +113,41 @@ msgstr ""
 "`Pywps-flask`  gondoskodik egy minta adatbázisról, mely használható erre a "
 "célra. Győződjön meg róla, hogy a `database` beállítás így néz ki:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:60
+#: ../../build/doc/quickstart/pywps_quickstart.rst:61
 msgid "`database=sqlite:////home/user/pywps-flask/logs/pywps-logs.sqlite3`"
 msgstr "`database=sqlite:////home/user/pywps-flask/logs/pywps-logs.sqlite3`"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:62
+#: ../../build/doc/quickstart/pywps_quickstart.rst:63
 msgid ""
 "Save the configuration file and exit `nano` you can now run the service:"
 msgstr ""
 "Mentse a konfigurációs fájlt és lépen ki a `nano`-ból, most futtathatja a "
 "szolgáltatást:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:64
+#: ../../build/doc/quickstart/pywps_quickstart.rst:65
 msgid "`python demo.py`"
 msgstr "`python demo.py`"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:66
+#: ../../build/doc/quickstart/pywps_quickstart.rst:67
 msgid "If all goes well you will receive back a message like:"
 msgstr "Ha minden rendben megy egy ilyen üzenetet kap vissza:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:68
+#: ../../build/doc/quickstart/pywps_quickstart.rst:69
 msgid "`* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)`"
 msgstr "`* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)`"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:71
+#: ../../build/doc/quickstart/pywps_quickstart.rst:72
 msgid "Testing available processes"
 msgstr "Elérhető feldolgozások tesztelése"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:73
+#: ../../build/doc/quickstart/pywps_quickstart.rst:74
 msgid ""
-"Open your favourite web browser and point it to the address where the "
-"example service is listening: `http://127.0.0.1:5000/ "
-"<http://127.0.0.1:5000/>`_ You will be presented with the following page:"
+"Open a web browser and point it to the address where the example service is "
+"listening: `http://127.0.0.1:5000/ <http://127.0.0.1:5000/>`_ You will be "
+"presented with the following page:"
 msgstr ""
-"Nyissa meg a kedvenc web böngészőjét és mutasson arra a címre, ahol a példa "
-"szolgáltatás figyel: `http://127.0.0.1:5000/ <http://127.0.0.1:5000/>`_  A "
-"következő lap jelenik meg:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:80
+#: ../../build/doc/quickstart/pywps_quickstart.rst:81
 msgid ""
 "Use the green buttons to explore the service. Issue a `GetCapabilities` "
 "request for an overview of the service; issue a `DescribeProcess` request to"
@@ -166,7 +159,7 @@ msgstr ""
 "`DescribeProcess` kérést egy adott projekt részleteinek megismeréséhez. "
 "Nézze meg a kérés URL-jét a böngésző cím sorában."
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:84
+#: ../../build/doc/quickstart/pywps_quickstart.rst:85
 msgid ""
 "It is now time to test an `Execute` request. You can try the `say_hello` "
 "process, which is fairly simple. Direct your web browser to the following "
@@ -176,7 +169,7 @@ msgstr ""
 "`say_hello` feldolgozást, mely egészen egyszerű. Irányítsa a böngészőjét a "
 "következő címre:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:88
+#: ../../build/doc/quickstart/pywps_quickstart.rst:89
 msgid ""
 "`http://localhost:5000/wps?service=WPS&version=1.0.0&request=Execute&identifier=say_hello&dataInputs=name"
 "=OSGeo-Live`"
@@ -184,7 +177,7 @@ msgstr ""
 "`http://localhost:5000/wps?service=WPS&version=1.0.0&request=Execute&identifier=say_hello&dataInputs=name"
 "=OSGeo-Live`"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:90
+#: ../../build/doc/quickstart/pywps_quickstart.rst:91
 msgid ""
 "The process simply replies back with a \"Hello OSGeo\" message, encoded in a"
 " standard WPS response document. Your browser should be showing something "
@@ -194,11 +187,11 @@ msgstr ""
 "szabványos WPS válasz dokumentumba ágyazva. A böngészőjének valami hasonlót "
 "kellene mutatnia:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:97
+#: ../../build/doc/quickstart/pywps_quickstart.rst:98
 msgid "Developing WPS processes"
 msgstr "WPS feldolgozások fejlesztése"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:99
+#: ../../build/doc/quickstart/pywps_quickstart.rst:100
 msgid ""
 "To develop new processes all you need to do is create new Python modules "
 "inside the `processes` folder. Use the existing processes as templates to "
@@ -210,7 +203,7 @@ msgstr ""
 "kódjának strukturálásához. Egy közelebbi pillantás a `say_hello` "
 "feldolgozásra megmutatja egy PyWPS feldolgozás főbb elemeit:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:104
+#: ../../build/doc/quickstart/pywps_quickstart.rst:105
 msgid ""
 "1. Import the necessary assets and create a class inheriting from the PyWPS "
 "`Process` class. In the constructor create the necessary objects for inputs "
@@ -219,11 +212,11 @@ msgstr ""
 "1. A szükséges eszközök importálása és a PyWPS `Process` osztályból "
 "származtatott osztály létrehozása:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:119
+#: ../../build/doc/quickstart/pywps_quickstart.rst:120
 msgid "Invoke the parent constructor, passing on the metadata of the process:"
 msgstr "A szülő konstruktor hívása, a feldolgozás metaadatainak átadása:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:136
+#: ../../build/doc/quickstart/pywps_quickstart.rst:137
 msgid ""
 "3. Create the `handler` method, that will be invoked to handle `Execute` "
 "requests. Use the `request` and `response` objects to retrieve inputs and "
@@ -233,11 +226,11 @@ msgstr ""
 " indítunk el. Használja a `request` és `response` objektumokat az input "
 "kinyerésére és az output beállítására."
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:149
-msgid "What's Next"
-msgstr "Mi a következő?"
+#: ../../build/doc/quickstart/pywps_quickstart.rst:150
+msgid "What's next"
+msgstr ""
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:151
+#: ../../build/doc/quickstart/pywps_quickstart.rst:152
 msgid ""
 "PyWPS gives you the freedom and flexibility to write your own Python "
 "processes and expose them accordingly."
@@ -246,40 +239,24 @@ msgstr ""
 "írjon és ennek megfelelően kifejtse."
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:155
-msgid "Official documentation"
-msgstr "Hivatalos dokumentáció"
+msgid ""
+"Official documentation - For further information on PyWPS configuration and "
+"the API, consult the `documentation`_ on the PyWPS website."
+msgstr ""
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:157
 msgid ""
-"For further information on PyWPS configuration and the API, consult the "
-"`documentation`_ on the PyWPS website."
+"Tutorial - Try out the `workshop`_, a tutorial used in workshops to "
+"introduce new users to PyWPS 4."
 msgstr ""
-"A PyWPS konfigurációról és az API-ról további információt kaphat a PyWPS "
-"honlap `documentation`_ részén."
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:160
-msgid "Tutorial"
-msgstr "Oktatóanyag"
-
-#: ../../build/doc/quickstart/pywps_quickstart.rst:162
 msgid ""
-"Try out the `workshop`_, a tutorial used in workshops to introduce new users"
-" to PyWPS 4."
-msgstr ""
-"Próbálja ki a  `workshop`_-ot, ami egy workshop oktatóanyag az új "
-"felhasználóknak a PyWPS bemutatásáról."
-
-#: ../../build/doc/quickstart/pywps_quickstart.rst:166
-msgid "Deployment to production"
-msgstr "Telepítés a termelésbe"
-
-#: ../../build/doc/quickstart/pywps_quickstart.rst:168
-msgid ""
-"The `pywps-flask` service is just an example and not designed for "
-"production. One possible alternative is a Django based service, `pywps-"
-"django <https://github.com/jorgejesus/pywps-django>`_. The documentation "
-"provides further details on how to `set up a production service "
-"<http://pywps.readthedocs.io/en/latest/deployment.html>`_ with `Apache "
-"<https://httpd.apache.org/>`_ or `nginx <https://nginx.org/>`_ and `Gunicorn"
-" <http://gunicorn.org/>`_."
+"Deployment to production -   The `pywps-flask` service is just an example "
+"and not designed for production. One possible alternative is a Django based "
+"service, `pywps-django <https://github.com/jorgejesus/pywps-django>`_. The "
+"documentation provides further details on how to `set up a production "
+"service <http://pywps.readthedocs.io/en/latest/deployment.html>`_ with "
+"`Apache <https://httpd.apache.org/>`_ or `nginx <https://nginx.org/>`_ and "
+"`Gunicorn <http://gunicorn.org/>`_."
 msgstr ""

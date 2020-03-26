@@ -1,24 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki@agt.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 21:53-0600\n"
 "PO-Revision-Date: 2017-01-21 16:46+0000\n"
-"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -26,7 +25,7 @@ msgstr ""
 msgid "Welcome to |osgeolive-version|"
 msgstr "Üdvözöl az |osgeolive-version|"
 
-#: ../../build/doc/index.rst:19
+#: ../../build/doc/index.rst:5
 msgid ""
 "`OSGeoLive <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB "
 "thumb drive or Virtual Machine based on `Lubuntu <http://lubuntu.net>`_, "
@@ -41,7 +40,7 @@ msgstr ""
 "kellene. Kizárólag szabad szoftverek felhasználásával állították össze, "
 "ezzel lehetővé téve a szabad terjesztést, duplikálást és másoknak átadást."
 
-#: ../../build/doc/index.rst:31
+#: ../../build/doc/index.rst:17
 msgid ""
 "It provides pre-configured applications for a range of geospatial use cases,"
 " including storage, publishing, viewing, analysis and manipulation of data. "
@@ -52,31 +51,31 @@ msgstr ""
 "megtekintést, elemzését és manipulálását. Emellett mintaadatokat és "
 "dokumentációt is tartalmaz"
 
-#: ../../build/doc/index.rst:35
+#: ../../build/doc/index.rst:21
 msgid "To try out the applications, simply:"
 msgstr "Próbálja ki egyszerűen az alkalmazásokat:"
 
-#: ../../build/doc/index.rst:37
+#: ../../build/doc/index.rst:23
 msgid "Insert DVD or USB thumb drive in computer or virtual machine."
 msgstr ""
 "Helyezze a számítógépbe a DVD-t vagy az USB tárolót vagy használja a "
 "virtuális gépet."
 
-#: ../../build/doc/index.rst:38
+#: ../../build/doc/index.rst:24
 msgid "Reboot computer. (verify boot device order if necessary)"
 msgstr ""
 "Indítsa újra a számítógépet. (szükség esetén ellenőrizze az eszközök "
 "sorrendjét a rendszer betöltésnél)"
 
-#: ../../build/doc/index.rst:39
+#: ../../build/doc/index.rst:25
 msgid "Press \"Enter\" to startup & login."
 msgstr "Nyomja meg az Enter gombot az indításhoz és a bejelentkezéshez."
 
-#: ../../build/doc/index.rst:40
+#: ../../build/doc/index.rst:26
 msgid "Select and run applications from the \"Geospatial\" menu."
 msgstr "Válasszon ki egy alkalmazást a \"Geospatial\" menüből. "
 
-#: ../../build/doc/index.rst:42
+#: ../../build/doc/index.rst:28
 msgid ""
 "OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo "
 "Foundation is a not-for-profit supporting Geospatial Open Source Software "
@@ -87,15 +86,15 @@ msgstr ""
 "térinformatikai szoftverek fejlesztést, azok promócióját és az `oktatását "
 "<http://www.geoforall.org/>`_."
 
-#: ../../build/doc/index.rst:47
+#: ../../build/doc/index.rst:32
 msgid "Quick Starts"
 msgstr "Gyors kezdés"
 
-#: ../../build/doc/index.rst:81
+#: ../../build/doc/index.rst:66
 msgid "Presentation"
 msgstr "Prezentációk"
 
-#: ../../build/doc/index.rst:83
+#: ../../build/doc/index.rst:68
 msgid ""
 "A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive "
 "applications, is available with slides, script, and `abstract "

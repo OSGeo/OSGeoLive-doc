@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki@agt.bme.hu>, 2017
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2017\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -100,11 +100,15 @@ msgid ""
 "You name it, there's a `tool for it "
 "<https://grass.osgeo.org/grass76/manuals/keywords.html>`_."
 msgstr ""
+"Ha meg tudja nevezni talál hozzá egy `eszközt "
+"<https://grass.osgeo.org/grass76/manuals/keywords.html>`_."
 
 #: ../../build/doc/overview/grass_overview.rst:66
 msgid ""
 "Explore the `screenshot collection <https://grass.osgeo.org/screenshots/>`_."
 msgstr ""
+"Fedezze fel a `képernyő kép gyűjteményt "
+"<https://grass.osgeo.org/screenshots/>`_."
 
 #: ../../build/doc/overview/grass_overview.rst:69
 msgid "Details"
@@ -112,11 +116,11 @@ msgstr "Részletek"
 
 #: ../../build/doc/overview/grass_overview.rst:71
 msgid "**Website:** https://grass.osgeo.org"
-msgstr ""
+msgstr "**Honlap:** https://grass.osgeo.org"
 
 #: ../../build/doc/overview/grass_overview.rst:73
 msgid "**Licence:** GNU General Public License (GPL) version 2+"
-msgstr ""
+msgstr "**Licenc:** GNU General Public License (GPL) version 2+"
 
 #: ../../build/doc/overview/grass_overview.rst:75
 msgid "**Software Version:** |version-grass|"
@@ -132,7 +136,7 @@ msgstr "**API interfészek:** C, Python, Bourne Shell"
 
 #: ../../build/doc/overview/grass_overview.rst:81
 msgid "**Support:** https://grass.osgeo.org/support/"
-msgstr ""
+msgstr "**Támogatás:** https://grass.osgeo.org/support/"
 
 #: ../../build/doc/overview/grass_overview.rst:86
 msgid "Quickstart"

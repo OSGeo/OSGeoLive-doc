@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki@agt.bme.hu>, 2019
-# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2019
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:16
+#: ../../build/doc/quickstart/gmt_quickstart.rst:17
 msgid "GMT Quickstart"
 msgstr "GMT gyorstalpaló"
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:18
+#: ../../build/doc/quickstart/gmt_quickstart.rst:19
 msgid ""
 "GMT is a collection of tools that allow users to manipulate (x,y) and "
 "(x,y,z) data sets (including filtering, trend fitting, gridding, projecting,"
@@ -43,7 +43,7 @@ msgstr ""
 "perspektivikus nézetekig fekete-fehér, szürke árnyalatos, speciális minták "
 "és 24 bites színekkel."
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:25
+#: ../../build/doc/quickstart/gmt_quickstart.rst:26
 msgid ""
 "In this quick GMT tutorial we will use a digital terrain model (DTM) to "
 "generate a shaded relief map."
@@ -51,44 +51,23 @@ msgstr ""
 "Ebben a rövid GMT bemutatóban digitális terepmodellt (DTM) fogunk használni,"
 " hogy árnyalt domborzati térképet hozzunk létre."
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:30
-msgid "Source Information"
-msgstr "Információ forrás"
-
-#: ../../build/doc/quickstart/gmt_quickstart.rst:33
-msgid ""
-"Local documentation can be found in: `/usr/share/doc/gmt/html/ "
-"<../../gmt/html/index.html>`_"
+#: ../../build/doc/quickstart/gmt_quickstart.rst:32
+msgid "Create a map"
 msgstr ""
-"A helyi dokumentáció itt található: `/usr/share/doc/gmt/html/ "
-"<../../gmt/html/index.html>`_"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:34
 msgid ""
-"Examples can be found in: `/usr/share/doc/gmt/examples "
-"<../../gmt/examples/>`_"
+"As our input dataset we will use a DTM from the GRASS GIS example dataset, "
+"which is accessible by GDAL using the GDAL-GRASS driver."
 msgstr ""
-"A példák pedig itt: `/usr/share/doc/gmt/examples <../../gmt/examples/>`_"
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:44
-msgid "Quick tutorial"
-msgstr "Gyorstalpaló"
-
-#: ../../build/doc/quickstart/gmt_quickstart.rst:46
+#: ../../build/doc/quickstart/gmt_quickstart.rst:36
 msgid ""
-"As input dataset we will use a DTM from the GRASS GIS example dataset which "
-"is accessible by GDAL using the GDAL-GRASS driver."
+"From a quick look at the DTM metadata, open a terminal and use the GDAL "
+"command `gdalinfo`:"
 msgstr ""
-"Input adathalmazként egy DTM-et fogunk használni a GRASS GIS példa adatok "
-"közül, mely kezelhető a GDAL-lal a GDAL-GRASS meghajtóval."
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:48
-msgid "From a quick look at the DTM metadata use the GDAL command `gdalinfo`:"
-msgstr ""
-"A DTM metaadatok gyors megtekintéséhez használjuk a `gdalinfo` GDAL "
-"parancsot:"
-
-#: ../../build/doc/quickstart/gmt_quickstart.rst:60
 msgid ""
 "We can see the DTM is in a projected coordinate system and the data range is"
 " between 50 and 160 meters."
@@ -96,7 +75,7 @@ msgstr ""
 "Láthatjuk, hogy a DTM vetületi koordináta-rendszerben van és az adatok "
 "terjedelme 50 és 160 méter közötti."
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:62
+#: ../../build/doc/quickstart/gmt_quickstart.rst:50
 msgid ""
 "We can convert the DTM in a GMT Compatible netCDF file format with "
 "`gdal_translate` as follow:"
@@ -104,7 +83,7 @@ msgstr ""
 "A DTM-et egy GMT kompatibilis netCDF fájlformátumba konvertálhatjuk a  "
 "`gdal_translate` paranccsal így:"
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:68
+#: ../../build/doc/quickstart/gmt_quickstart.rst:56
 msgid ""
 "For our GMT example we will first transform the dataset into geographic "
 "coordinates Longitude-Latitude (EPSG:4326) using the `gdalwarp` command:"
@@ -112,7 +91,11 @@ msgstr ""
 "A GMT példánkhoz először a az adathalmazt földrajzi koordinátákba alakítjuk "
 "át, hosszúság-szélesség (EPSG:4326), a  `gdalwarp` parancsot használva:"
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:75
+#: ../../build/doc/quickstart/gmt_quickstart.rst:63
+msgid "Make a color palette"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:65
 msgid ""
 "To assign a color map to our grid we can make a GMT color palette tables "
 "with the `makecpt` command. We will set the range and number of colors with "
@@ -123,7 +106,7 @@ msgstr ""
 "`-T` kapcsolóval állítjuk be és a `-C` kapcsolóval rendeljük hozzá a "
 "színeket."
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:83
+#: ../../build/doc/quickstart/gmt_quickstart.rst:73
 msgid ""
 "You can experiment with other colortables, see `man gmt makecpt` for a "
 "complete list."
@@ -131,7 +114,11 @@ msgstr ""
 "Kísérletezhet más színtáblákkal, lásd a  `man gmt makecpt` parancsot a "
 "teljes listához."
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:85
+#: ../../build/doc/quickstart/gmt_quickstart.rst:76
+msgid "Define the gradient"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:78
 msgid ""
 "For our shaded relief example we need to specify show how the color "
 "intensity is distributed along the grid. To do so, we will compute the "
@@ -147,7 +134,7 @@ msgstr ""
 "normalizálásához a kumulatív Laplace elosztást használva és a `-A` kapcsolót"
 " az irány szerinti deriváltak északtól mért irányához."
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:93
+#: ../../build/doc/quickstart/gmt_quickstart.rst:86
 msgid ""
 "The output is a netCDF file which can then be used as color intensity by the"
 " `grdimage` command as follow:"
@@ -155,11 +142,15 @@ msgstr ""
 "Az output egy netCDF fájl, mely a következőképpen használható mint szín "
 "intenzitás a  `grdimage` parancshoz:"
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:100
+#: ../../build/doc/quickstart/gmt_quickstart.rst:93
+msgid "Display the color bar"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:95
 msgid "Finally we can add a colorbar with `psscale`:"
 msgstr "Végül egy színskálát hozzáadhatunk a `psscale` paranccsal:"
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:107
+#: ../../build/doc/quickstart/gmt_quickstart.rst:102
 msgid ""
 "Here the flag `-D` is used to select the colorbar position `TC: Top Center`,"
 " the size `5x0.25` expressed in inches `i` the orientation by `h: "
@@ -169,42 +160,50 @@ msgstr ""
 "felül középen`, a méret `5x0.25` hüvelykben `i` kifejezve a tájolás `h: "
 "vizszintes` és a `-By` állítja be az `m` címkét az `y tengelyen`."
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:110
+#: ../../build/doc/quickstart/gmt_quickstart.rst:105
 msgid "The output ps document should look like:"
 msgstr "Az eredmény ps dokumentumnak így kellene kinéznie:"
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:119
-msgid "What Next?"
-msgstr "Mi a következő?"
+#: ../../build/doc/quickstart/gmt_quickstart.rst:114
+msgid "Things to try"
+msgstr "Kipróbálandó dolgok"
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:121
+#: ../../build/doc/quickstart/gmt_quickstart.rst:116
 msgid ""
-"To explore the GMT potential we suggest going through the GMT tutorial and "
-"follow the several examples available in the src code. There are 30 example "
-"jobs built in, to test:"
+"Look at some of the examples found in: `/usr/share/doc/gmt/examples "
+"<../../gmt/examples/>`_"
 msgstr ""
-"Fedezze fel a GMT lehetőségeit, azt javasoljuk menjen végig  a GMT "
-"oktatóanyagon és kövesse a forrás kódban elérhető számos példát. 30 "
-"példafeladat van a teszteléshez:"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:124
+msgid ""
+"Go through the GMT tutorial and follow the several examples available in the"
+" src code. There are 30 example jobs built in, to test:"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:127
 msgid "Open a terminal, then"
 msgstr "Nyisson egy terminál ablakot ezután"
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:132
-msgid "`[whiz .. bang .. whirl]`"
-msgstr "`[whiz .. bang .. whirl]`"
-
-#: ../../build/doc/quickstart/gmt_quickstart.rst:134
-msgid "View results: (within :command:`gv` [#gv]_, type :kbd:`q` to quit)"
+#: ../../build/doc/quickstart/gmt_quickstart.rst:135
+msgid ""
+"To view the results in Ghostview (http://www.gnu.org/software/gv/) , use "
+"command `gv`. Type `q` to quit Ghostview."
 msgstr ""
-"Eredmények megjelenítése: (a :command:`gv` [#gv]_, type parancson belül "
-":kbd:`q` kilépés)"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:144
-msgid "Footnotes"
-msgstr "Lábjegyzetek"
+msgid "What next?"
+msgstr "Mi a következő?"
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:145
-msgid "Ghostview  http://www.gnu.org/software/gv/"
-msgstr "Ghostview  http://www.gnu.org/software/gv/"
+#: ../../build/doc/quickstart/gmt_quickstart.rst:146
+msgid ""
+"Have a read of the local documentation stored in: `/usr/share/doc/gmt/html/ "
+"<../../gmt/html/index.html>`_"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:148
+msgid "Website: https://gmt.soest.hawaii.edu"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:150
+msgid "Support: https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
+msgstr ""

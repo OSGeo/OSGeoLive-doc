@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki@agt.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,6 +54,10 @@ msgid ""
 "http://standards.rasdaman.com a collection of interactive demos is "
 "available.  A rasdaman driver is part of GDAL and MapServer."
 msgstr ""
+"A raszter lekérdező nyelv mellett a rasdaman támogatja az OGC WMS, WCS és "
+"WCPS web szolgáltatásokat, mint hogy a C++ és Java API-kat is. A "
+"http://standards.rasdaman.com oldalon interaktív demók gyűjteménye "
+"található. A rasdaman meghajtó a GDAL és a MapServer része."
 
 #: ../../build/doc/overview/rasdaman_overview.rst:28
 msgid ""
