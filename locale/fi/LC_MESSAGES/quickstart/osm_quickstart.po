@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Santtu Pyykkönen, 2019\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
@@ -21,15 +21,11 @@ msgstr ""
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:15
+#: ../../build/doc/quickstart/osm_quickstart.rst:16
 msgid "OpenStreetMap Quickstart"
 msgstr "OpenStreetMap Pika-aloitus"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:18
-msgid "About"
-msgstr "Aineistosta"
-
-#: ../../build/doc/quickstart/osm_quickstart.rst:22
+#: ../../build/doc/quickstart/osm_quickstart.rst:20
 msgid ""
 "OpenStreetMap is a free street level map of the world, created by an ever "
 "growing community of mappers. Anyone can edit OpenStreetMap. The `Learn OSM "
@@ -52,23 +48,21 @@ msgstr ""
 "ensimmäiset pisteesi kartalle, opetella tekemään katukartoituksia ja "
 "työskentelemään ilmakuvien parissa.</http:>"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:33
+#: ../../build/doc/quickstart/osm_quickstart.rst:31
 msgid ""
-"The remainder of this quickstart introduces some of the on-line and off-line"
-" software used to edit and render OSM data."
+"The remainder of this guide introduces some of the online and offline "
+"software used to edit and render OSM data."
 msgstr ""
-"Loput tästä Pika-aloituksesta esittelee joitakin on-line-ja off-line-"
-"ohjelmistoja OSM-aineistojen editointiin ja renderöintiin."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:38
-msgid "Programs"
-msgstr "Ohjelmat"
+msgid "Programs that work with OSM data"
+msgstr ""
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:42
+#: ../../build/doc/quickstart/osm_quickstart.rst:41
 msgid "iD"
 msgstr "iD"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:44
+#: ../../build/doc/quickstart/osm_quickstart.rst:43
 msgid ""
 "**iD** is the default on-line editor for OpenStreetMap (OSM). iD is fast and"
 " easy to use, and allows mapping from various data sources such as ground "
@@ -79,28 +73,23 @@ msgstr ""
 "useampaa tietolähdettä, kuten satelliittii- ja ilmakuvia, kartoituksia sekä "
 "GPS-jälki- ja katunäkymäaineistoja. "
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:48
+#: ../../build/doc/quickstart/osm_quickstart.rst:47
 msgid "Start page: https://www.openstreetmap.org/edit"
 msgstr "Aloitussivu: https://www.openstreetmap.org/edit"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:52
-#: ../../build/doc/quickstart/osm_quickstart.rst:70
-msgid "Further reading"
-msgstr "Lisälukemista"
-
-#: ../../build/doc/quickstart/osm_quickstart.rst:54
+#: ../../build/doc/quickstart/osm_quickstart.rst:48
 msgid "Documentation: https://wiki.openstreetmap.org/wiki/ID"
 msgstr "Dokumentaatio: https://wiki.openstreetmap.org/wiki/ID"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:55
+#: ../../build/doc/quickstart/osm_quickstart.rst:49
 msgid "Tutorial: http://learnosm.org/en/beginner/id-editor/"
 msgstr "Tutorial: http://learnosm.org/en/beginner/id-editor/"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:59
+#: ../../build/doc/quickstart/osm_quickstart.rst:53
 msgid "JOSM"
 msgstr "JOSM"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:61
+#: ../../build/doc/quickstart/osm_quickstart.rst:55
 msgid ""
 "**JOSM** (Java OpenStreetMap Editor) is an advanced editor for OpenStreetMap"
 " (OSM) written in Java. It is more powerful and complex than iD, can be used"
@@ -113,27 +102,27 @@ msgstr ""
 "Internet-yhteyksien kanssa. Sitä voidaan laajentaa lisäosien, mukautettujen "
 "esiasetuksien ja muiden laajennuksien avulla."
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:67
+#: ../../build/doc/quickstart/osm_quickstart.rst:61
 msgid "Homepage: https://josm.openstreetmap.de"
 msgstr "Verkkosisvusto: https://josm.openstreetmap.de"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:72
+#: ../../build/doc/quickstart/osm_quickstart.rst:62
 msgid "User guide: https://wiki.openstreetmap.org/wiki/JOSM/Guide"
 msgstr "Käyttöopas: https://wiki.openstreetmap.org/wiki/JOSM/Guide"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:73
+#: ../../build/doc/quickstart/osm_quickstart.rst:63
 msgid "Tutorial: http://learnosm.org/en/josm/start-josm/"
 msgstr "Opasartikkeli: http://learnosm.org/en/josm/start-josm/"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:74
+#: ../../build/doc/quickstart/osm_quickstart.rst:64
 msgid "JOSM plugin collection: https://josm.openstreetmap.de/wiki/Plugins"
 msgstr "JOSM lisäosakokoelma: https://josm.openstreetmap.de/wiki/Plugins"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:78
+#: ../../build/doc/quickstart/osm_quickstart.rst:68
 msgid "Merkaartor"
 msgstr "Merkaartor"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:80
+#: ../../build/doc/quickstart/osm_quickstart.rst:70
 msgid ""
 "**Merkaartor** is a map editor for OpenStreetMap which uses the Qt toolkit. "
 "It's a bit more user friendly than JOSM, but has a few less features."
@@ -142,21 +131,21 @@ msgstr ""
 "työkaluja. Se on hieman käyttäjäystävällisempi kuin JOSM, mutta sillä on "
 "hiukan vähemmän toiminnallisuuksia."
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:83
+#: ../../build/doc/quickstart/osm_quickstart.rst:73
 msgid "Homepage: http://merkaartor.be"
 msgstr "Kotisivu: http://merkaartor.be"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:84
+#: ../../build/doc/quickstart/osm_quickstart.rst:74
 msgid ""
 "Online help: https://wiki.openstreetmap.org/wiki/Merkaartor/Documentation"
 msgstr ""
 "Online-ohje: https://wiki.openstreetmap.org/wiki/Merkaartor/Documentation"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:88
+#: ../../build/doc/quickstart/osm_quickstart.rst:78
 msgid "QGIS"
 msgstr "QGIS"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:90
+#: ../../build/doc/quickstart/osm_quickstart.rst:80
 msgid ""
 "OpenStreetMap data can be loaded in **QGIS** as vector layer, as a core "
 "functionality or through plugins like QuickOSM."
@@ -165,11 +154,11 @@ msgstr ""
 "onnistuu ohjelman ydintoiminnallisuuksilla ja lisäohjelmien kuten QuickOSMin"
 " kautta."
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:93
+#: ../../build/doc/quickstart/osm_quickstart.rst:83
 msgid "QuickOSM: http://plugins.qgis.org/plugins/QuickOSM/"
 msgstr "QuickOSM: http://plugins.qgis.org/plugins/QuickOSM/"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:94
+#: ../../build/doc/quickstart/osm_quickstart.rst:84
 msgid ""
 "Online help: "
 "https://wiki.openstreetmap.org/wiki/QGIS#QGIS_2:_Importing_OSM_vector_layers"
@@ -177,15 +166,15 @@ msgstr ""
 "Online-ohje: "
 "https://wiki.openstreetmap.org/wiki/QGIS#QGIS_2:_Importing_OSM_vector_layers"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:95
+#: ../../build/doc/quickstart/osm_quickstart.rst:85
 msgid "Tutorial: http://learnosm.org/en/osm-data/osm-in-qgis/"
 msgstr "Opasartikkeli: http://learnosm.org/en/osm-data/osm-in-qgis/"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:98
+#: ../../build/doc/quickstart/osm_quickstart.rst:88
 msgid "Osmosis"
 msgstr "Osmosis"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:100
+#: ../../build/doc/quickstart/osm_quickstart.rst:90
 msgid ""
 "**Osmosis** is a highly capable utility program for performing many tasks at"
 " a raw level on OSM data. This includes data import and export to databases,"
@@ -195,19 +184,19 @@ msgstr ""
 "suorittaa monia tehtäviä OSM-datan kanssa. Tämä sisältää tietojen tuonnin ja"
 " viennin tietokantoihin, lajittelun, puhdistamisen ja datadumppien luomisen."
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:104
+#: ../../build/doc/quickstart/osm_quickstart.rst:94
 msgid "Documentation: https://wiki.openstreetmap.org/wiki/Osmosis#Usage"
 msgstr "Dokumentaatio: https://wiki.openstreetmap.org/wiki/Osmosis#Usage"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:105
+#: ../../build/doc/quickstart/osm_quickstart.rst:95
 msgid "Tutorial: http://learnosm.org/en/osm-data/osmosis/"
 msgstr "Opasartikkeli: http://learnosm.org/en/osm-data/osmosis/"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:109
+#: ../../build/doc/quickstart/osm_quickstart.rst:99
 msgid "osm2pgsql"
 msgstr "Osm2pgsql"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:111
+#: ../../build/doc/quickstart/osm_quickstart.rst:101
 msgid ""
 "**osm2pgsql** is a utility program that converts OpenStreetMap (.osm) data "
 "into a format that can be loaded into PostgreSQL (PostGIS). It is often used"
@@ -220,10 +209,22 @@ msgstr ""
 "pystyy kyselemään PostgreSQL:ästä paikkatietoja. Osm-tiedostojen "
 "hyödyntäminen suoraan Mapnikista ei  nimittäin onnistu."
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:116
+#: ../../build/doc/quickstart/osm_quickstart.rst:106
 msgid "Homepage: https://wiki.openstreetmap.org/wiki/Osm2pgsql"
 msgstr "Kotisivu: https://wiki.openstreetmap.org/wiki/Osm2pgsql"
 
-#: ../../build/doc/quickstart/osm_quickstart.rst:117
+#: ../../build/doc/quickstart/osm_quickstart.rst:107
 msgid "Tutorial: http://learnosm.org/en/osm-data/osm2pgsql/"
 msgstr "Opasartikkeli: http://learnosm.org/en/osm-data/osm2pgsql/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:110
+msgid "What next?"
+msgstr ""
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:112
+msgid "Find out more about OSM on the website: https://www.openstreetmap.org"
+msgstr ""
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:114
+msgid "Get support: https://www.openstreetmap.org/help"
+msgstr ""

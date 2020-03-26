@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2018\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
@@ -207,12 +207,13 @@ msgstr "a.beccati jacobs-university de"
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/translators.csv:1
+#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "Germany"
 msgstr "Saksa"
 
@@ -285,13 +286,13 @@ msgstr "alexander.kotsev ec.europa eu"
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "Italy"
 msgstr "Italia"
 
@@ -609,7 +610,7 @@ msgstr "Cameron.Shorter jirotech com"
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1
+#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 msgid "Australia"
 msgstr "Australia"
 
@@ -795,6 +796,18 @@ msgstr "Itävalta"
 #: ../../build/contributors.csv:1
 msgid "fschindler"
 msgstr "fschindler"
+
+#: ../../build/contributors.csv:1
+msgid "Felicity Brand"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+msgid "felicitybrand gmail com"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+msgid "flicstar"
+msgstr ""
 
 #: ../../build/contributors.csv:1
 msgid "Fran Boon"
@@ -2884,3 +2897,59 @@ msgstr "public t lin gmail com"
 #: ../../build/translators.csv:1
 msgid "tanner"
 msgstr "tanner"
+
+#: ../../build/translators.csv:1
+msgid "Swedish"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "sv"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Anne Elise Ylinen"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "aeylinen gmail.com"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Aeylinen"
+msgstr ""
+
+#: ../../build/translators.csv:1 ../../build/translators.csv:1
+msgid "Romanian"
+msgstr ""
+
+#: ../../build/translators.csv:1 ../../build/translators.csv:1
+msgid "ro"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Ionut Ungurianu"
+msgstr ""
+
+#: ../../build/translators.csv:1 ../../build/translators.csv:1
+msgid "Romania"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "ionutungurianu gmail com"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "iungurianu"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Alin Deneanu"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "alin.deneanu gmail com"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "alindeneanu"
+msgstr ""
