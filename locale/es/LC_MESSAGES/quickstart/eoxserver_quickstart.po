@@ -1,21 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# María Arias de Reyna <delawen@gmail.com>, 2017
-# MarPetra <mvergaratrejo@gmail.com>, 2018
-# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,15 +21,11 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:16
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:17
 msgid "EOxServer Quickstart"
-msgstr "Guía Rápida de EOxServer"
+msgstr "Inicio Rápido de EOxServer"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:19
-msgid "Overview"
-msgstr "Vista General"
-
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:21
 msgid ""
 "EOxServer is a server for presenting big Earth Observation (EO) data "
 "archives and metadata via Open Standards. It builds upon an Open Source "
@@ -50,78 +44,53 @@ msgstr ""
 "<../overview/spatialite_overview>`  o una base de datos de :doc:`PostGIS "
 "<../overview/postgis_overview>` "
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:29
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:27
 msgid "This Quick Start describes how to:"
 msgstr "Esta Guía de Inicio Rápido describe cómo:"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:31
-msgid "View, filter, subset, and download EO data via EOxServer's Web Client"
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:29
+msgid "Use the Web Client to view, filter, subset, and download EO data"
 msgstr ""
-"Vista, filtro, subconjunto y descarga de datos de EO a través de cliente de "
-"Web de EOxServer"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:32
-msgid "Inspect EO data archives via EOxServer's Admin Client"
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:30
+msgid "Use the Admin Client to inspect EO data archives"
 msgstr ""
-"Inspeccionar archivos de datos EO a través del Cliente de Administración de "
-"EOxServer "
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:36
-msgid ""
-"See the :doc:`EOxServer Overview <../overview/eoxserver_overview>` or the "
-"`online EOxServer documentation <https://eoxserver.readthedocs.org/>`_ for "
-"more information."
+msgid "Start EoxServer"
 msgstr ""
-"Ver :doc:`EOxServer Overview <../overview/eoxserver_overview>` o la "
-"`documentación en línea de EOxServer <https://eoxserver.readthedocs.org/>`_ "
-"para mayor información. "
+
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:38
+msgid ""
+"Choose :menuselection:`Geospatial --> Web Services --> EOxServer`. This "
+"launches a browser showing the demonstration instance available at "
+"http://localhost/eoxserver/"
+msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:45
-msgid "Demonstration Instance"
-msgstr "Instancia de demostración"
+msgid "Work with the Web Client"
+msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:47
-msgid ""
-"The icon labeled `EOxServer` filed under `Web Services` launches a browser "
-"showing the demonstration instance available at http://localhost/eoxserver/"
+msgid "Click the **Web Client** link to open the integrated EOxServer client."
 msgstr ""
-"El icono con la etiqueta `EOxServer` archivado bajo `Web Services` lanza un "
-"navegador que muestra la instancia de demostración disponible en "
-"http://localhost/eoxserver/"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:55
-msgid "Web Client"
-msgstr "Cliente Web"
-
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:57
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:49
 msgid ""
-"The **Web Client** link opens the integrated EOxServer client. Within this "
-"client you can explore the contents of the EOxServer instance. In the "
-"demonstration instance is filled with ENVISAT MERIS scenes."
+"Within this client you can explore the contents of the EOxServer instance. "
+"The demonstration instance is filled with ENVISAT MERIS scenes."
 msgstr ""
-"El enlace **Cliente Web** abre el cliente de EOxServer integrado. Dentro de "
-"este cliente, usted puede explorar los contenidos de la instancia de "
-"EOxServer. La instancia de demostración está llena de escenas de ENVISAT "
-"MERIS."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:65
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:56
 msgid ""
 "The client provides a set of interactions. On the top you can see a menu bar"
 " to show the Layer Selection and the Tools widgets. The main area is the map"
 " widget of the client with a set of datasets already displayed. On the "
 "bottom, you'll find the timeslider widget, that allows you to explore the "
-"contents in the temporal dimension. Each dataset is displayed as a small "
-"filled dot"
+"contents in the temporal dimension."
 msgstr ""
-"El cliente proporciona un conjunto de interacciones. En la parte superior se"
-" puede ver una barra de menú para mostrar la Selección de Capa y los widgets"
-" de Herramientas. El área principal es el widget del mapa del cliente con "
-"una serie de conjuntos de datos ya mostrados. En la parte inferior, "
-"encontrará el widget del deslizador de tiempo, que le permite explorar el "
-"contenido en la dimensión temporal. Cada conjunto de datos se muestra como "
-"un pequeño punto lleno."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:76
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:66
 msgid ""
 "The Layer Selection widget allows you to enable or disable the visibility "
 "and configure the rendering of the layers. Also, you can show or hide the "
@@ -141,7 +110,7 @@ msgstr ""
 "Recuadro Delimitador, la Herramienta de Gestión de Selecciones y la "
 "Herramienta de Descarga."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:88
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:78
 msgid ""
 "Similar to a map, you can zoom and pan the currently visible time of "
 "interest and select a time of interest by drawing on the area containing the"
@@ -154,7 +123,7 @@ msgstr ""
 "ver el conjunto de datos ID. Haciendo click en el punto, el mapa se acerca "
 "automáticamente a la extensión del conjunto de datos."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:97
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:87
 msgid ""
 "When the Bounding Box Tool is enabled, you can draw a bounding box directly "
 "on the map. The bounding box is used for querying within the Download Tool."
@@ -163,7 +132,7 @@ msgstr ""
 "recuadro delimitador directamente en el mapa. Ese recuadro se utiliza para "
 "realizar consultas dentro de la Herramienta de Descarga."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:104
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:94
 msgid ""
 "When the Download Tool is enabled, a query to the server is sent. This query"
 " include s the selected time of interest and bounding box. The results are "
@@ -176,7 +145,7 @@ msgstr ""
 "puede seleccionar el formato, proyección y cvonjuntos de datos para "
 "descargar."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:109
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:99
 msgid ""
 "This was a quick introduction to the EOxServer Web Client. Please refer to "
 "the `online documentation "
@@ -188,20 +157,17 @@ msgstr ""
 "<https://eoxserver.readthedocs.org/en/latest/users/webclient.html>`_ para "
 "obtener más información sobre este tema."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:115
-msgid "Admin Client"
-msgstr "Cliente de Administración"
-
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:117
-msgid ""
-"The **Admin Client** link brings you to the login page for the `Admin "
-"Client`. The password for the user `admin` is `admin`."
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:105
+msgid "Work with the Admin Client"
 msgstr ""
-"El enlace **Cliente de Administración**  conduce a la página de inicio de "
-"sesión para `Admin Client`. La contraseña para el usuario `admin` es` "
-"admin`."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:124
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:107
+msgid ""
+"From the EOxServer main page, click the **Admin Client** link and login with"
+" user `admin` and password `admin`."
+msgstr ""
+
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:113
 msgid ""
 "The `Admin Client` is Djangos standard admin and allows you to configure the"
 " available data. Please feel free to explore the client. More information "
@@ -213,30 +179,24 @@ msgstr ""
 "explorar al cliente. Puede encontrar más información en `operators' guide "
 "<https://eoxserver.readthedocs.org/en/latest/users/operators.html>`_."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:133
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:122
 msgid ""
-"You can, for example, inspect the dataset series that is loaded by default "
-"by navigating to \"Dataset Series\" and then to \"MER_FRS_1P_RGB_reduced\"."
+"For example, you can inspect the dataset series that is loaded by default by"
+" clicking the \"Dataset Series\" link and then the "
+"\"MER_FRS_1P_RGB_reduced\" link."
 msgstr ""
-"Por ejemplo, puede examinar la serie de conjunto de datos que se carga "
-"predeterminadamente navegando a \"Serie de Conjuntos de Datos\" y luego a "
-"\"MER_FRS_1P_RGB_reduced\"."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:140
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:129
 msgid ""
-"Here you can also see the included datasets. If you feel like it, you can "
-"exclude single datasets using the \"delete\" checkbox on the right and click"
-" on \"Save\"."
+"Here you can also see the included datasets. You can exclude single datasets"
+" using the \"delete\" checkbox on the right and click on \"Save\"."
 msgstr ""
-"Aquí también se pueden ver los conjuntos de datos incluidos. Si le apetece, "
-"puede excluir conjuntos de datos individuales usando la casilla de "
-"verificación \"eliminar\" a la derecha y haciendo click en \"Guardar\"."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:149
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:136
 msgid "What Next?"
 msgstr "¿Qué sigue?"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:151
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:138
 msgid ""
 "This is a simple demonstration, but you can do much more with EOxServer. The"
 " project website contains a lot of resources to help you get started. Here’s"
@@ -246,7 +206,13 @@ msgstr ""
 " El sitio web del proyecto contiene muchos recursos para ayudarle a "
 "comenzar. A continuación, algunos recursos para revisar: "
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:155
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:142
+msgid ""
+"See the :doc:`EOxServer Overview <../overview/eoxserver_overview>` for more "
+"information."
+msgstr ""
+
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:143
 msgid ""
 "Read the `EOxServer Operators' Guide "
 "<https://eoxserver.readthedocs.org/en/latest/users/operators.html>`_."
@@ -254,7 +220,7 @@ msgstr ""
 "Lea la `Guía de Operadores de EOxServer  "
 "<https://eoxserver.readthedocs.org/en/latest/users/operators.html>`_."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:157
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:144
 msgid ""
 "Read the complete `EOxServer Users' documentation "
 "<https://eoxserver.readthedocs.org/en/latest/users/index.html>`_ starting "
@@ -266,7 +232,7 @@ msgstr ""
 "desde  `EOxServer Basics "
 "<https://eoxserver.readthedocs.org/en/latest/users/basics.html>`_."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:161
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:146
 msgid ""
 "If you are already in the OSGeoLive environment, read the local copy of the "
 "`EOxServer Users' local documentation <https://localhost/eoxserver-"
@@ -276,7 +242,7 @@ msgstr ""
 "`Documentación Local de los Usuarios de EOxServer  <https://localhost"
 "/eoxserver-docs/EOxServer_documentation.pdf>`_"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:163
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:148
 msgid ""
 "Ready to use EOxServer? Then join the community on the `mailing lists "
 "<https://eoxserver.readthedocs.org/en/latest/users/mailing_lists.html>`_ to "

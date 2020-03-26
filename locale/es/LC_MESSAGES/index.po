@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Nicolas Roelandt (Personnel), 2017
-# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2017
+# Vicky Vergara <vicky@georepublic.de>, 2017
 # Violeta Sosa <vsosa.ud@gmail.com>, 2018
 # 
 #, fuzzy
@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 21:53-0600\n"
 "PO-Revision-Date: 2017-01-21 16:46+0000\n"
 "Last-Translator: Violeta Sosa <vsosa.ud@gmail.com>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -27,7 +27,7 @@ msgstr ""
 msgid "Welcome to |osgeolive-version|"
 msgstr "Bienvenido a |osgeolive-version|"
 
-#: ../../build/doc/index.rst:19
+#: ../../build/doc/index.rst:5
 msgid ""
 "`OSGeoLive <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB "
 "thumb drive or Virtual Machine based on `Lubuntu <http://lubuntu.net>`_, "
@@ -41,7 +41,7 @@ msgstr ""
 "necesidad de instalar algo particular. Se compone enteramente de software "
 "libre, lo que le permite ser libremente distribuido, duplicado y compartido."
 
-#: ../../build/doc/index.rst:31
+#: ../../build/doc/index.rst:17
 msgid ""
 "It provides pre-configured applications for a range of geospatial use cases,"
 " including storage, publishing, viewing, analysis and manipulation of data. "
@@ -52,29 +52,29 @@ msgstr ""
 "manipulación de datos. También contiene documentación y bases de datos de "
 "muestra."
 
-#: ../../build/doc/index.rst:35
+#: ../../build/doc/index.rst:21
 msgid "To try out the applications, simply:"
 msgstr "Para probar las aplicaciones, simplemente:"
 
-#: ../../build/doc/index.rst:37
+#: ../../build/doc/index.rst:23
 msgid "Insert DVD or USB thumb drive in computer or virtual machine."
 msgstr "Inserte la unidad USB o DVD en ordenador o máquina virtual."
 
-#: ../../build/doc/index.rst:38
+#: ../../build/doc/index.rst:24
 msgid "Reboot computer. (verify boot device order if necessary)"
 msgstr ""
 "Reiniciar el equipo. (verificar orden de dispositivo de arranque si es "
 "necesario)"
 
-#: ../../build/doc/index.rst:39
+#: ../../build/doc/index.rst:25
 msgid "Press \"Enter\" to startup & login."
 msgstr "Pulse \"Enter\" para inicio e inicio de sesión."
 
-#: ../../build/doc/index.rst:40
+#: ../../build/doc/index.rst:26
 msgid "Select and run applications from the \"Geospatial\" menu."
 msgstr "Seleccionar y ejecutar aplicaciones desde el menú \"Geospatial\"."
 
-#: ../../build/doc/index.rst:42
+#: ../../build/doc/index.rst:28
 msgid ""
 "OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo "
 "Foundation is a not-for-profit supporting Geospatial Open Source Software "
@@ -85,15 +85,15 @@ msgstr ""
 " Software Geoespacial de código abierto, su promoción y `educación "
 "<http://www.geoforall.org/>`_."
 
-#: ../../build/doc/index.rst:47
+#: ../../build/doc/index.rst:32
 msgid "Quick Starts"
 msgstr "Comienzo rápido"
 
-#: ../../build/doc/index.rst:81
+#: ../../build/doc/index.rst:66
 msgid "Presentation"
 msgstr "Presentación"
 
-#: ../../build/doc/index.rst:83
+#: ../../build/doc/index.rst:68
 msgid ""
 "A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive "
 "applications, is available with slides, script, and `abstract "
