@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Nicolas Roelandt (Personnel), 2018
+# Nicolas Roelandt (Personnel), 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2018\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,102 +21,100 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:15
+#: ../../build/doc/quickstart/cesium_quickstart.rst:16
 msgid "Cesium Quickstart"
 msgstr "Guide de démarrage rapide de Césium"
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:16
+#: ../../build/doc/quickstart/cesium_quickstart.rst:17
 msgid ""
-"This document shows how to use the Cesium with the 3D (Globe), 2.5D "
-"(Columbus View) and 2D (map)."
+"Cesium is a JavaScript library for creating 3D globes and 2D maps in a web "
+"browser without any plugins. It uses WebGL for hardware-accelerated "
+"graphics, and is cross-platform, cross-browser, and tuned for time-dynamic "
+"data visualization."
 msgstr ""
-"Ce document montre comment utiliser Cesium avec la  3D (Globe), la 2.5D "
-"(pseudo 3D) et la 2D (carte)."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:19
-msgid "Starting Cesium"
-msgstr "Démarrer Cesium"
+msgid ""
+"This guide shows how to use the Cesium with the 3D (Globe), 2.5D (Columbus "
+"View) and 2D (map)."
+msgstr ""
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:21
+#: ../../build/doc/quickstart/cesium_quickstart.rst:25
+msgid "Start Cesium"
+msgstr ""
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:27
 msgid ""
 "Open the browser and point it to "
 "http://localhost/cesium/Apps/HelloWorld.html"
 msgstr ""
 "Ouvrir un navigateur et aller à http://localhost/cesium/Apps/HelloWorld.html"
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:24
-msgid "Searching for locations"
-msgstr "Chercher des lieux"
-
-#: ../../build/doc/quickstart/cesium_quickstart.rst:25
-msgid ""
-"You can click on the magnifying glass and type in the location you are "
-"looking for.  In the following display, we look for India."
+#: ../../build/doc/quickstart/cesium_quickstart.rst:30
+msgid "Search for a location"
 msgstr ""
-"Vous pouvez cliquer sur la loupe et saisir l'adresse du lieu que vous "
-"recherchez.  Dans l'exemple suivant, nous recherchons l'Inde."
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:32
-msgid "Switching between 3D, 2.5D and 2D"
-msgstr "Changer entre 3D, 2.5D et 2D"
-
-#: ../../build/doc/quickstart/cesium_quickstart.rst:33
+#: ../../build/doc/quickstart/cesium_quickstart.rst:31
 msgid ""
-"You can click on the wire framed globe icon to select your preferred view.  "
-"Here the 2.5D Columbus view has been selected."
+"Click on the magnifying glass and type in the location you are looking for. "
+"In the following display, we look for India."
 msgstr ""
-"Vous pouvez cliquer sur l'icone de globe en fil de fer  pour sélectionner "
-"votre vue préférée.  Ici la 2.5D Pseudo  3D a été sélectionnée."
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:38
+msgid "Switch between 3D, 2.5D and 2D"
+msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:39
+msgid ""
+"Click on the wire framed globe icon to select your preferred view.  Here the"
+" 2.5D Columbus view has been selected."
+msgstr ""
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:45
 msgid "Now the 2D map is selected."
 msgstr "Maintenant la carte 2D est sélectionnée."
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:46
-msgid "Selecting the Image layer"
-msgstr "Sélectionner la couche Image"
-
-#: ../../build/doc/quickstart/cesium_quickstart.rst:47
-msgid ""
-"We can click on the last icon and select the type of image service we want."
-"  Here the Natural Earth II is selected and you can see how the map's image "
-"layer has changed."
+#: ../../build/doc/quickstart/cesium_quickstart.rst:52
+msgid "Select the Image layer"
 msgstr ""
-"Nous pouvons cliquer sur la dernière icone et sélectionner le type de "
-"service d'image que nous désirons. Ici le service Natural Earth II est "
-"sélectionné et vous pouvez voir comment la couche Image de la carte a "
-"changé."
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:56
-msgid "What Next?"
+#: ../../build/doc/quickstart/cesium_quickstart.rst:53
+msgid ""
+"Click on the last icon and select a type of image service.  Here the Natural"
+" Earth II is selected and you can see how the map's image layer has changed."
+msgstr ""
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:62
+msgid "What next?"
 msgstr "Ensuite ?"
-
-#: ../../build/doc/quickstart/cesium_quickstart.rst:57
-msgid ""
-"There are `video tutorials <https://www.youtube.com/playlist?list=PLBk_Dtk-"
-"_Tlm4STvXKFEdfUWylPemo-9V>`_."
-msgstr ""
-"Il y a des `tutoriels vidéo  <https://www.youtube.com/playlist?list"
-"=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V>`_."
-
-#: ../../build/doc/quickstart/cesium_quickstart.rst:59
-msgid "Web based tutorials are `here <http://cesiumjs.org/tutorials.html>`_."
-msgstr ""
-"Les tutoriels Internet sont `ici <http://cesiumjs.org/tutorials.html>`_."
-
-#: ../../build/doc/quickstart/cesium_quickstart.rst:61
-msgid ""
-"You can develop some quick applications using the Sandcastle website by "
-"following this `link "
-"<http://cesiumjs.org/Cesium/Apps/Sandcastle/index.html?src=Custom%20DataSource.html&label=Tutorials>`_."
-msgstr ""
-"Vous pouvez développer rapidement des applications en utilisant le site "
-"internet bac à sable en suivant ce `lien "
-"<http://cesiumjs.org/Cesium/Apps/Sandcastle/index.html?src=Custom%20DataSource.html&label=Tutorials>`_."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:63
 msgid ""
-"In-depth documentation is available `locally <http://localhost/cesium/>`_."
+"Watch our `video tutorials <https://www.youtube.com/playlist?list=PLBk_Dtk-"
+"_Tlm4STvXKFEdfUWylPemo-9V>`_."
 msgstr ""
-"La documentation avancée est disponible `localement "
-"<http://localhost/cesium/>`_."
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:65
+msgid "Read our written `tutorials <http://cesium.com/docs>`_."
+msgstr ""
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:67
+msgid ""
+"You can develop some quick applications using the `Sandcastle website "
+"<https://sandcastle.cesium.com/index.html>`_. Sandcastle is generally one of"
+" the best ways to learn about Cesium, and all the code examples are useful "
+"for this purpose."
+msgstr ""
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:69
+msgid ""
+"The `Cesium Forum <https://groups.google.com/forum/#!forum/cesium-dev>`_ is "
+"a great place to search for answers to common questions, and to raise "
+"questions that haven't been asked before."
+msgstr ""
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:71
+msgid ""
+"In-depth documentation is available `locally <http://localhost/cesium/>`_ on"
+" the OSGeoLive package."
+msgstr ""

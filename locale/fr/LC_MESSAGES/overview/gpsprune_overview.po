@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2018\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -57,12 +57,9 @@ msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:29
 msgid ""
-"GpsPrune uses Gpsbabel, if available, to read data directly from a GPS "
+"GpsPrune uses GPSBabel, if available, to read data directly from a GPS "
 "receiver, and can send the edited data back to the receiver too."
 msgstr ""
-"GpsPrune utilise Gpsbabel, s'il est disponible, pour lire les données "
-"directement à partir du récepteur GPS et peut aussi renvoyer les données "
-"éditées au récepteur."
 
 #: ../../build/doc/overview/gpsprune_overview.rst:32
 msgid ""
@@ -86,11 +83,9 @@ msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:45
 msgid ""
-"Zoomable map imagery from OpenStreetMap or any compatible server "
-"(OpenCycleMap, Reit- und Wanderkarte etc)"
+"Zoomable map imagery from OpenStreetMap or any compatible server (such as "
+"HikeBikeMap, Reit- und Wanderkarte etc)"
 msgstr ""
-"imagerie cartographique zoomable depuis OpenStreetMap ou tout autre serveur "
-"compatible (OpenCycleMap, Reit- und Wanderkarte etc)"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:46
 msgid "Altitude or speed profile view"
@@ -140,9 +135,10 @@ msgid "Distances, climbs, descents, time estimates and more"
 msgstr "distances, montées, descentes, estimations de temps, etc."
 
 #: ../../build/doc/overview/gpsprune_overview.rst:53
-msgid "Online resources such as wikipedia, gpsies and local weather forecasts"
+msgid ""
+"Online resources such as Wikipedia, GPSies, OpenCaching.de and local weather"
+" forecasts"
 msgstr ""
-"ressources en ligne comme wikipedia, gpsies et prévisions météo locales"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:56
 msgid "Details"

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2020-03-25 21:53-0600\n"
 "PO-Revision-Date: 2017-01-21 16:46+0000\n"
 "Last-Translator: Santtu Pyykkönen, 2019\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
@@ -26,7 +26,7 @@ msgstr ""
 msgid "Welcome to |osgeolive-version|"
 msgstr "Tervetuloa |osgeolive-version|"
 
-#: ../../build/doc/index.rst:19
+#: ../../build/doc/index.rst:5
 msgid ""
 "`OSGeoLive <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB "
 "thumb drive or Virtual Machine based on `Lubuntu <http://lubuntu.net>`_, "
@@ -34,47 +34,47 @@ msgid ""
 "without installing anything. It is composed entirely of free software, "
 "allowing it to be freely distributed, duplicated and passed around."
 msgstr ""
-"`OSGeoLive <http://live.osgeo.org>`_ on itsenäinen käynnistettävä DVD-levy, "
-"USB-muistitikku tai virtuaalikone, joka perustuu `Lubuntu "
-"<http://lubuntu.net>`_, joka mahdollistaa Sinun kokeilla laajaa joukkoa "
-"avoimen lähdekoodin paikkatieto-ohjelmia ilman että Sinun tarvitsee asentaa "
-"mitään. Se koostuu täysin vapaista ohjelmistoista, jonka ansiosta sitä "
-"voidaan jakaa vapaasti, kopioida sekä levittää laajalti."
+"`OSGeoLive <http://live.osgeo.org>`_ on omavarainen `Lubuntuun "
+"<http://lubuntu.net>`_ perustuva virtuaalikone, USB-muistitikku tai DVD-"
+"levy, jonka avulla voi kokeilla ja käyttää laajaa joukkoa avoimen "
+"lähdekoodin paikkatieto-ohjelmia ilman että ohjelmia pitäisi asentaa. "
+"OSGeoLive koostuu täysin avoimista ja vapaista ohjelmistoista, mistä syystä "
+"sitä voidaan vapaasti jakaa, kopioida sekä levittää eteenpäin."
 
-#: ../../build/doc/index.rst:31
+#: ../../build/doc/index.rst:17
 msgid ""
 "It provides pre-configured applications for a range of geospatial use cases,"
 " including storage, publishing, viewing, analysis and manipulation of data. "
 "It also contains sample datasets and documentation."
 msgstr ""
-"Se tarjoaa esiasennettuja sovellutuksia joukolle paikkatiedon "
-"käyttötapauksia, mukaan lukien tietovarastot, julkaisu, katselu, analysointi"
-" sekä tiedon muokkaus. Se sisältää myös esimerkkiaineistoja ja "
-"dokumentaation."
+"Se tarjoaa esiasennettuja sovelluksia paikkatiedon eri käyttötapauksiin, "
+"mukaan lukien tietovarastot, julkaisu, katselu, analysointi sekä tiedon "
+"muokkaus. Se sisältää myös esimerkkiaineistoja ja dokumentaation."
 
-#: ../../build/doc/index.rst:35
+#: ../../build/doc/index.rst:21
 msgid "To try out the applications, simply:"
-msgstr "Kokeillaksesi sovellutuksia, yksinkertaisesti:"
+msgstr "Voi kokeilla sovelluksia seuraavalla tavalla:"
 
-#: ../../build/doc/index.rst:37
+#: ../../build/doc/index.rst:23
 msgid "Insert DVD or USB thumb drive in computer or virtual machine."
-msgstr "Laita DVD tai USB-muistitikku tietokoneeseen tai virtuaalikoneeseen."
+msgstr ""
+"Laita USB-muistitikku tai DVD-levy tietokoneeseen tai virtuaalikoneeseen."
 
-#: ../../build/doc/index.rst:38
+#: ../../build/doc/index.rst:24
 msgid "Reboot computer. (verify boot device order if necessary)"
 msgstr ""
-"Uudelleenkäynnistä tietokoneesi. (varmista laitteiden käynnistysjärjestys "
-"jos tarpeellista)"
+"Uudelleenkäynnistä tietokoneesi (mikäli tarpeellista varmista laitteiden "
+"käynnistysjärjestys)."
 
-#: ../../build/doc/index.rst:39
+#: ../../build/doc/index.rst:25
 msgid "Press \"Enter\" to startup & login."
 msgstr "Paina \"Enter\" aloittaaksesi ja sisäänkirjautuaksesi."
 
-#: ../../build/doc/index.rst:40
+#: ../../build/doc/index.rst:26
 msgid "Select and run applications from the \"Geospatial\" menu."
-msgstr "Valitse ja suorita sovellutukset  \"Geospatial\" valikosta."
+msgstr "Valitse ja avaa tai aja sovelluksia \"Geospatial\" valikosta."
 
-#: ../../build/doc/index.rst:42
+#: ../../build/doc/index.rst:28
 msgid ""
 "OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo "
 "Foundation is a not-for-profit supporting Geospatial Open Source Software "
@@ -85,20 +85,20 @@ msgstr ""
 "kehitystä, edistämistä ja `koulutusta <http://www.geoforall.org/>`_ tukeva "
 "järjestö."
 
-#: ../../build/doc/index.rst:47
+#: ../../build/doc/index.rst:32
 msgid "Quick Starts"
 msgstr "Pika-aloitukset"
 
-#: ../../build/doc/index.rst:81
+#: ../../build/doc/index.rst:66
 msgid "Presentation"
 msgstr "Esittely"
 
-#: ../../build/doc/index.rst:83
+#: ../../build/doc/index.rst:68
 msgid ""
 "A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive "
 "applications, is available with slides, script, and `abstract "
 "<presentation/abstract.txt>`_."
 msgstr ""
-"Kaikki OSGeoLive-sovellutukset esittelevä puolen tunnin esitys "
+"Kaikki OSGeoLive-sovellutukset esittelevä puolen tunnin `esitys "
 "<presentation.html>`_ on saatavilla esityskalvoineen, skripteineen ja "
-"abstrakteineen <presentation/abstract.txt>`_."
+"`abstrakteineen <presentation/abstract.txt>`_."

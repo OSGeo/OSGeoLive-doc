@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 17:45-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Welcome to |osgeolive-version|"
 msgstr ""
 
-#: ../../build/doc/index.rst:19
+#: ../../build/doc/index.rst:5
 msgid ""
 "`OSGeoLive <http://live.osgeo.org>`_ is a self-contained bootable DVD, "
 "USB thumb drive or Virtual Machine based on `Lubuntu "
@@ -31,34 +31,34 @@ msgid ""
 "duplicated and passed around."
 msgstr ""
 
-#: ../../build/doc/index.rst:31
+#: ../../build/doc/index.rst:17
 msgid ""
 "It provides pre-configured applications for a range of geospatial use "
 "cases, including storage, publishing, viewing, analysis and manipulation "
 "of data. It also contains sample datasets and documentation."
 msgstr ""
 
-#: ../../build/doc/index.rst:35
+#: ../../build/doc/index.rst:21
 msgid "To try out the applications, simply:"
 msgstr ""
 
-#: ../../build/doc/index.rst:37
+#: ../../build/doc/index.rst:23
 msgid "Insert DVD or USB thumb drive in computer or virtual machine."
 msgstr ""
 
-#: ../../build/doc/index.rst:38
+#: ../../build/doc/index.rst:24
 msgid "Reboot computer. (verify boot device order if necessary)"
 msgstr ""
 
-#: ../../build/doc/index.rst:39
+#: ../../build/doc/index.rst:25
 msgid "Press \"Enter\" to startup & login."
 msgstr ""
 
-#: ../../build/doc/index.rst:40
+#: ../../build/doc/index.rst:26
 msgid "Select and run applications from the \"Geospatial\" menu."
 msgstr ""
 
-#: ../../build/doc/index.rst:42
+#: ../../build/doc/index.rst:28
 msgid ""
 "OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The "
 "OSGeo Foundation is a not-for-profit supporting Geospatial Open Source "
@@ -66,15 +66,15 @@ msgid ""
 "<http://www.geoforall.org/>`_."
 msgstr ""
 
-#: ../../build/doc/index.rst:47
+#: ../../build/doc/index.rst:32
 msgid "Quick Starts"
 msgstr ""
 
-#: ../../build/doc/index.rst:81
+#: ../../build/doc/index.rst:66
 msgid "Presentation"
 msgstr ""
 
-#: ../../build/doc/index.rst:83
+#: ../../build/doc/index.rst:68
 msgid ""
 "A half hour `presentation <presentation.html>`_, highlighting all "
 "OSGeoLive applications, is available with slides, script, and `abstract "

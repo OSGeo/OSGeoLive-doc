@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki@agt.bme.hu>, 2019
-# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2019
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,6 +50,10 @@ msgid ""
 "TileStache**. This will provide background tiles that will be used in this "
 "demo."
 msgstr ""
+"A gyorstalpaló futtatása előtt el kell indítania a TileStache-t. Az "
+"OSGeoLive-on ez a **Geospatial\\\\Spatial Tools\\\\Start Mapnik & "
+"TileStache** alatt található. Ez háttér csempéket szolgáltat, melyeket ebben"
+" a demóban használunk."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:27
 msgid "View the example_"
@@ -61,6 +65,9 @@ msgid ""
 "the original demo on: http://leafletjs.com/examples/quick-start/, since this"
 " demo uses tilestache on OSGeoLive."
 msgstr ""
+"Ha nem az OSGeoLive-on olvassa ezt a gyorstalpalót, akkor jobban teszi, ha "
+"az eredeti demót olvassa el itt: http://leafletjs.com/examples/quick-start/,"
+" mivel ez a demo az OSGeoLive-on a tilestache-t használja."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:32
 msgid "Preparing your page"

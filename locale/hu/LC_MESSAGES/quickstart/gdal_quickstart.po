@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki@agt.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,73 +21,68 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:17
+#: ../../build/doc/quickstart/gdal_quickstart.rst:18
 msgid "GDAL/OGR Quickstart"
 msgstr "GDAL/OGR gyorstalpaló"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:19
-msgid ""
-"You will need nothing but a terminal for this quickstart. If you want to "
-"visualize the results, you can use one of the Desktop GIS Software "
-"applications on OSGeoLive like :doc:`../overview/qgis_overview`."
-msgstr ""
-"Ehhez a gyorstalpalóhoz csak egy terminálra lesz szüksége. Ha meg akarja "
-"jeleníteni az eredményeket, használhatja az asztali GIS alkalmazások egyikét"
-" mint a :doc:`../overview/qgis_overview`."
-
-#: ../../build/doc/quickstart/gdal_quickstart.rst:23
+#: ../../build/doc/quickstart/gdal_quickstart.rst:21
 msgid ""
 "This Quick Start is divided into two parts: GDAL (raster data) and OGR "
-"(vector data). We will start with GDAL."
+"(vector data)."
 msgstr ""
-"Ez a gyorstalpaló két részből all: GDAL (raszter adatok) és OGR (vektor "
-"adatok). A GDAL-lal fogunk kezdeni."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:26
+#: ../../build/doc/quickstart/gdal_quickstart.rst:24
 msgid "This Quick Start describes how to:"
 msgstr "Ez a gyorstalpaló leírja:"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:34
+#: ../../build/doc/quickstart/gdal_quickstart.rst:32
 msgid "GDAL"
 msgstr "GDAL"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:29
+#: ../../build/doc/quickstart/gdal_quickstart.rst:27
 msgid "Explore your image data with gdalinfo"
 msgstr "Fedezze fel a képadatait a gdalinfo segítségével"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:30
+#: ../../build/doc/quickstart/gdal_quickstart.rst:28
 msgid "Format translations with gdal_translate"
 msgstr "Formátum átalakítás gdal_translate-tel"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:31
+#: ../../build/doc/quickstart/gdal_quickstart.rst:29
 msgid "Reproject your data with gdalwarp"
 msgstr "Vetületi átszámítás az adataira a gdalwarp-pal"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:32
+#: ../../build/doc/quickstart/gdal_quickstart.rst:30
 msgid "Mosaic your data with gdal_warp or gdal_merge.py"
 msgstr "Adatainak mozaikolása gdal_warp-pal vagy gdal_merge.py-al"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:33
+#: ../../build/doc/quickstart/gdal_quickstart.rst:31
 msgid "Build a shapefile as a raster tileindex with gdaltindex"
 msgstr "Egy shape fájl készítése gdaltindex-el mint egy raszter csempe index"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:38
+#: ../../build/doc/quickstart/gdal_quickstart.rst:36
 msgid "OGR"
 msgstr "OGR"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:37
+#: ../../build/doc/quickstart/gdal_quickstart.rst:35
 msgid "get information about your data with ogrinfo"
 msgstr "információ az adatairól ogrinfo-val"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:38
+#: ../../build/doc/quickstart/gdal_quickstart.rst:36
 msgid "use ogr2ogr to transform your data to other formats"
 msgstr "ogr2ogr használata az adatainak más formátumba átalakításához"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:43
+#: ../../build/doc/quickstart/gdal_quickstart.rst:38
+msgid ""
+"The only thing you'll need for this quickstart is a terminal. If you want to"
+" visualize the results, you can use one of the Desktop GIS Software "
+"applications on OSGeoLive like :doc:`../overview/qgis_overview`."
+msgstr ""
+
+#: ../../build/doc/quickstart/gdal_quickstart.rst:46
 msgid "Get to know GDAL"
 msgstr "GDAL megismerése"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:45
+#: ../../build/doc/quickstart/gdal_quickstart.rst:48
 msgid ""
 "You will find the demo data at :file:`/usr/local/share/data`. We want to "
 "have a look at the :doc:`Natural Earth data "
@@ -100,48 +95,48 @@ msgstr ""
 "adatokra <../overview/naturalearth_overview>`. Az adatok egy másolatával "
 "akarunk dolgozni. Így az első lépés az adatok átmásolása a home könyvtárba."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:56
+#: ../../build/doc/quickstart/gdal_quickstart.rst:59
 msgid ""
 "You will then find a NaturalEarth Raster file and a .tfw World-file at: ::"
 msgstr "Egy NaturalEarth raszter fájlt és egy .twf világ fájlt itt talál ::"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:62
+#: ../../build/doc/quickstart/gdal_quickstart.rst:65
 msgid "Open the file with a Desktop GIS like QGIS, and have a look."
 msgstr "Nyissa meg a fájlt egy asztali GIS-sel pl. QGIS-sel és nézze meg."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:65
+#: ../../build/doc/quickstart/gdal_quickstart.rst:68
 msgid "Get information about the raster data with gdalinfo"
 msgstr "Szerezzen információt a raszter adatokról a gdalinfo-val"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:101
+#: ../../build/doc/quickstart/gdal_quickstart.rst:104
 msgid "Note:"
 msgstr "Megjegyzés:"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:95
+#: ../../build/doc/quickstart/gdal_quickstart.rst:98
 msgid "Driver is \"GTiff/GeoTIFF\""
 msgstr "A meghajtó \"GTiff/GeoTIFF\""
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:96
+#: ../../build/doc/quickstart/gdal_quickstart.rst:99
 msgid "Size is 10800x5400"
 msgstr "A méret 10800x5400"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:97
+#: ../../build/doc/quickstart/gdal_quickstart.rst:100
 msgid "3 Bands of type Byte."
 msgstr "3 byte típusú sáv."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:98
+#: ../../build/doc/quickstart/gdal_quickstart.rst:101
 msgid "Coordinates"
 msgstr "Koordináták"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:99
+#: ../../build/doc/quickstart/gdal_quickstart.rst:102
 msgid "no coordinate system"
 msgstr "nincs koordináta-rendszer"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:104
-msgid "Simple Format Translation"
-msgstr "Egyszerű formátum átalakítás"
+#: ../../build/doc/quickstart/gdal_quickstart.rst:107
+msgid "Simple format translation"
+msgstr ""
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:106
+#: ../../build/doc/quickstart/gdal_quickstart.rst:109
 msgid ""
 "First get to know your drivers. The `--formats` commandline switch of "
 "gdal_translate can be used to see a list of available format drivers."
@@ -150,23 +145,23 @@ msgstr ""
 "kapcsolója  használható az elérhető formátum meghajtók listájának "
 "megtekintéséhez."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:112
+#: ../../build/doc/quickstart/gdal_quickstart.rst:115
 msgid "Each format reports if it is"
 msgstr "Minden formátum mellet megjelenik"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:110
+#: ../../build/doc/quickstart/gdal_quickstart.rst:113
 msgid "read only (ro),"
 msgstr "csak olvasható (ro),"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:111
+#: ../../build/doc/quickstart/gdal_quickstart.rst:114
 msgid "read/write (rw) or"
 msgstr "olvasható/írható (rw) vagy"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:112
+#: ../../build/doc/quickstart/gdal_quickstart.rst:115
 msgid "read/write/update (rw+)."
 msgstr "olvasható/írható/aktualizálható (rw+)."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:118
+#: ../../build/doc/quickstart/gdal_quickstart.rst:121
 msgid ""
 "The `--format` commandline switch can be used to query details about a "
 "particular driver, including creation options, and permitted data types."
@@ -175,11 +170,11 @@ msgstr ""
 "részleteinek lekérdezésére, beleértve a létrehozási beállításokat és "
 "megengedett adat típusokat."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:127
+#: ../../build/doc/quickstart/gdal_quickstart.rst:130
 msgid "Translation"
 msgstr "Átalakítás"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:129
+#: ../../build/doc/quickstart/gdal_quickstart.rst:132
 msgid ""
 "Translations are accomplished with the gdal_translate command. The default "
 "output format is GeoTIFF.  The `-of` flag is used to select an output format"
@@ -190,28 +185,28 @@ msgstr ""
 "output formátum kiválasztáshoz és a -co kapcsolót a létrehozási beállítások "
 "megadásához:"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:137
+#: ../../build/doc/quickstart/gdal_quickstart.rst:140
 msgid "The `-ot` switch can be used to alter the output data type."
 msgstr "A `-ot` kapcsoló használható az output adat típus módosítására."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:143
+#: ../../build/doc/quickstart/gdal_quickstart.rst:146
 msgid "Use gdalinfo to verify data type."
 msgstr "Használja a gdalinfo-t az adattípus ellenőrzésére."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:147
+#: ../../build/doc/quickstart/gdal_quickstart.rst:150
 msgid "Rescaling"
 msgstr "Átméretezés"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:149
+#: ../../build/doc/quickstart/gdal_quickstart.rst:152
 msgid "The `-outsize` switch can be used to set the size of the output file."
 msgstr ""
 "A `-outsize`  kapcsoló használható az output fájl méretének beállítására."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:155
+#: ../../build/doc/quickstart/gdal_quickstart.rst:158
 msgid "Use gdalinfo to verify the size."
 msgstr "Használja a gdalinfo-t a méret ellenőrzésére."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:157
+#: ../../build/doc/quickstart/gdal_quickstart.rst:160
 msgid ""
 "The `-scale` switch can be used to rescale data. Explicit control of the "
 "input and output ranges is also available. The gdalinfo `-mm` switch can be "
@@ -221,7 +216,7 @@ msgstr ""
 "tartományok pontos beállítására is van lehetőség. A gdalinfo `-mm` kapcsoló "
 "használható a pixel min/max értékek megjelenítésére."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:161
+#: ../../build/doc/quickstart/gdal_quickstart.rst:164
 msgid ""
 "Let's split our image into two with `-srcwin` which makes a copy based on "
 "pixel/line location (xoff yoff xsize ysize). You also could use `-projwin` "
@@ -232,11 +227,11 @@ msgstr ""
 "használhatná és a sarkokat georeferált koordinátákkal adhatja meg (ulx uly "
 "lrx lry)."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:173
+#: ../../build/doc/quickstart/gdal_quickstart.rst:176
 msgid "Raster tileindex with gdaltindex"
 msgstr "Raszter csempe index gdaltindex-el"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:175
+#: ../../build/doc/quickstart/gdal_quickstart.rst:178
 msgid ""
 "You can build a shapefile as a raster tileindex. For every image a polygon "
 "is generated with the bounds of the extent of the polygon and the path to "
@@ -246,7 +241,7 @@ msgstr ""
 "képhez egy poligont generál a kép terjedelmére és a fájl elérési útját "
 "tárolja."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:183
+#: ../../build/doc/quickstart/gdal_quickstart.rst:186
 msgid ""
 "Have a look at your output shapefile with QGIS and ogrinfo (you will learn "
 "more about ogrinfo later in this tutorial)"
@@ -254,11 +249,11 @@ msgstr ""
 "Vessen egy pillantást az output fájlra a QGIS-el vagy orginfo-val (az "
 "ogrinfo-ról többet fog tanulni később ebben az oktató anyagban)"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:211
+#: ../../build/doc/quickstart/gdal_quickstart.rst:214
 msgid "Reprojecting"
 msgstr "Vetületi átszámítás"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:213
+#: ../../build/doc/quickstart/gdal_quickstart.rst:216
 msgid ""
 "For this process we assume that HYP_50M_SR_W.tif has been properly created "
 "with bounds. As we saw before with gdainfo no coordinate system was set. So "
@@ -269,7 +264,7 @@ msgstr ""
 "beállított koordináta-rendszer. Az első lépésben a WGS84 koordináta-"
 "rendszert rendeljük a képhez."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:222
+#: ../../build/doc/quickstart/gdal_quickstart.rst:225
 msgid ""
 "The gdalwarp command can be used to reproject images. Here we reproject the "
 "WGS84 geographic image to the Mercator projection:"
@@ -277,15 +272,15 @@ msgstr ""
 "A gdalwarp parancs használható a képek vetületi átszámítására. Itt a WGS84 "
 "földrajzi koordinátákból áttérünk a Mercator vetületre:"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:229
+#: ../../build/doc/quickstart/gdal_quickstart.rst:232
 msgid "Use gdalinfo to verify the change and have a look at the image."
 msgstr "Használja a gdalinfo-t a változás ellenőrzésére és nézzen rá a képre."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:234
+#: ../../build/doc/quickstart/gdal_quickstart.rst:237
 msgid "Here we reproject to the Ortho projection."
 msgstr "Itt átszámítunk az Otho vetületre."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:244
+#: ../../build/doc/quickstart/gdal_quickstart.rst:247
 msgid ""
 "Note how the poles are clipped?  This is because the edges at the pole can't"
 " be reprojected gdalwarp does not read all the data.  We can force gdalwarp "
@@ -299,11 +294,11 @@ msgstr ""
 "egy módja a probléma megoldásának. Tudjon meg többet erről a RasterTutorial-"
 "ban http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:252
+#: ../../build/doc/quickstart/gdal_quickstart.rst:255
 msgid "Mosaicking"
 msgstr "Mozaikolás"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:254
+#: ../../build/doc/quickstart/gdal_quickstart.rst:257
 msgid ""
 "gdal_merge.py is a python script that can be used for simple mosaicking "
 "tasks. Mosaic the east.tif and west.tif into a single file:"
@@ -311,7 +306,7 @@ msgstr ""
 "gdal_merge.py egy python szkript,mely egyszerű mozaikolos feladatoknál "
 "használható. Másoljuk egy fájlba az east.tif-et és west.tif-et:"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:262
+#: ../../build/doc/quickstart/gdal_quickstart.rst:265
 msgid ""
 "The same task can be accomplished with gdalwarp. gdalwarp has a variety of "
 "advantages over gdal_merge, but can be slow to merge many files:"
@@ -319,24 +314,24 @@ msgstr ""
 "Ugyanez a feladat megoldható a gdalwarp-al. A gdalwarp-nak számos előnye van"
 " a gdal_merge-vel szembe, de sok fájl összemásolásánál lassú lehet:"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:272
+#: ../../build/doc/quickstart/gdal_quickstart.rst:275
 msgid "Get to know OGR"
 msgstr "Ismerje meg az OGR-t"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:279
+#: ../../build/doc/quickstart/gdal_quickstart.rst:282
 msgid "Open the shape file with a Desktop GIS like QGIS, and have a look."
 msgstr ""
 "Nyissa meg a shape fájlt egy asztali GIS-sel,például QGIS és nézze meg."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:283
+#: ../../build/doc/quickstart/gdal_quickstart.rst:286
 msgid "Get information about the vector data with ogrinfo"
 msgstr "Szerezzen információt a vektor adatokról az ogrinfo-val"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:304
+#: ../../build/doc/quickstart/gdal_quickstart.rst:307
 msgid "Get a summary about your data with ogrinfo together with `-so`."
 msgstr "Kapjon összefoglalót az adatairól az ogrinfo-val a -so kapcsolóval."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:387
+#: ../../build/doc/quickstart/gdal_quickstart.rst:390
 msgid ""
 "If you run ogrinfo without a parameter you will get a summary about your "
 "data and afterwards a section for every dataset."
@@ -344,7 +339,7 @@ msgstr ""
 "Ha paraméter nélkül futtatja az ogrinfo-t, egy összefoglalást kap az "
 "adatairól és utána minden adathalmazról egy részt."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:394
+#: ../../build/doc/quickstart/gdal_quickstart.rst:397
 msgid ""
 "You can forward the result from ogrinfo to grep to filter and get only the "
 "attribute COUNTRY."
@@ -352,7 +347,7 @@ msgstr ""
 "Az ogrinfo eredményét továbbíthatja a grep-hez és csak a COUNTRY "
 "attribútumot kapja."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:410
+#: ../../build/doc/quickstart/gdal_quickstart.rst:413
 msgid ""
 "You can convert your data to other formats. Get the list of the supported "
 "formats with `--formats`."
@@ -360,12 +355,12 @@ msgstr ""
 "Az adatai más formátumba konvertálhatja. szerezze be a támogatott formátumok"
 " listáját a `--formats` kapcsolóval."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:414
+#: ../../build/doc/quickstart/gdal_quickstart.rst:417
 msgid "Use ogr2ogr to convert data between file formats"
 msgstr ""
 "Használja az ogr2ogr-t az adatok konvertálására fájl formátumok között"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:416
+#: ../../build/doc/quickstart/gdal_quickstart.rst:419
 msgid ""
 "You can use ogr2ogr to converts simple features data between file formats. "
 "You can use `--formats` to get the list of the supported formats with "
@@ -376,28 +371,28 @@ msgstr ""
 "támogatott formátumok listájának megjelenítésére az olvasás/írás "
 "információval együtt."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:420
+#: ../../build/doc/quickstart/gdal_quickstart.rst:423
 msgid "Convert the countries to GML."
 msgstr "Konvertálja az országokat GML-be."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:429
+#: ../../build/doc/quickstart/gdal_quickstart.rst:432
 msgid "Things to try"
 msgstr "Kipróbálandó dolgok"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:431
+#: ../../build/doc/quickstart/gdal_quickstart.rst:434
 msgid "Here are some additional challenges for you to try:"
 msgstr "Íme néhány további kihívás kipróbálásra:"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:433
+#: ../../build/doc/quickstart/gdal_quickstart.rst:436
 msgid "Try gdalwarp or gdal_merge.py to mosaic your data"
 msgstr ""
 "Próbálja ki a gdalwarp vagy gdal_merge.py programot az adatai mozaikolására"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:435
+#: ../../build/doc/quickstart/gdal_quickstart.rst:438
 msgid "Try gdaladdo to build internal overviews"
 msgstr "Próbálja ki a gdaladdo programot a belső áttekintők készítésére"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:437
+#: ../../build/doc/quickstart/gdal_quickstart.rst:440
 msgid ""
 "QGIS uses GDAL/OGR too to suport many formats. It also provides the "
 "GdalTools Plugin to process raster data. This plugin integrates the gdal-"
@@ -407,7 +402,7 @@ msgstr ""
 "biztosítja a raszter adatok kezelésére. Ez a modul a gdal eszközöket "
 "integrálja a QGIS-be."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:439
+#: ../../build/doc/quickstart/gdal_quickstart.rst:442
 msgid ""
 "Try ogr2ogr to import/export your vector data to other formats like PostGIS."
 " Have a look at the options ogr2ogr provides."
@@ -416,15 +411,15 @@ msgstr ""
 "alakítására mint például PostGIS. Vessen egy pillantást az ogr2ogr által "
 "biztosított opciókra."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:441
+#: ../../build/doc/quickstart/gdal_quickstart.rst:444
 msgid "Try the QGIS plugin OGR-Layer-Konverter."
 msgstr "Próbálja ki az OGR-Layer-Konverter QGIS modult."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:445
-msgid "What Next?"
+#: ../../build/doc/quickstart/gdal_quickstart.rst:448
+msgid "What next?"
 msgstr "Mi a következő?"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:447
+#: ../../build/doc/quickstart/gdal_quickstart.rst:450
 msgid ""
 "This is only the first step on the road to using GDAL and OGR. There is a "
 "lot more functionality you can try."
@@ -432,27 +427,27 @@ msgstr ""
 "Ez csak az első lépés az úton a GDAL és OGR használatához. Sokkal szélesebb "
 "a funkcionalitása amit kipróbálhat."
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:450
+#: ../../build/doc/quickstart/gdal_quickstart.rst:453
 msgid "GDAL Project home"
 msgstr "GDAL projekt honlap"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:452
+#: ../../build/doc/quickstart/gdal_quickstart.rst:455
 msgid "http://www.gdal.org"
 msgstr "http://www.gdal.org"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:454
+#: ../../build/doc/quickstart/gdal_quickstart.rst:457
 msgid "GDAL Raster Tutorial"
 msgstr "GDAL raszter oktatóanyag"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:456
+#: ../../build/doc/quickstart/gdal_quickstart.rst:459
 msgid "http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
 msgstr "http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:458
+#: ../../build/doc/quickstart/gdal_quickstart.rst:461
 msgid "GDAL Workshop"
 msgstr "GDAL Workshop"
 
-#: ../../build/doc/quickstart/gdal_quickstart.rst:460
+#: ../../build/doc/quickstart/gdal_quickstart.rst:463
 msgid "http://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
 msgstr ""
 "http://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"

@@ -1,19 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2018
+# Vicky Vergara <vicky@georepublic.de>, 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,77 +22,54 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:16
+#: ../../build/doc/quickstart/josm_quickstart.rst:17
 msgid "JOSM Quickstart"
-msgstr "Guía de Inicio Rápido de JOSM "
+msgstr "Inicio Rápido de JOSM "
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:18
+#: ../../build/doc/quickstart/josm_quickstart.rst:19
+msgid ""
+"JOSM is a feature rich, extensible, offline desktop editor for OpenStreetMap"
+" (OSM) data, written in Java."
+msgstr ""
+"JOSM es un editor de escritorio sin conexión rico en funciones y extensible "
+"para datos de OpenStreetMap (OSM), escrito en Java."
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:21
+msgid ""
+"It supports loading stand-alone GPX tracks and GPX track data as well as "
+"editing existing nodes (points), ways (lines), metadata tags (name/value "
+"information) and relations (ordered sequence of points and lines) from the "
+"OSM database. GPX tracks, are usually downloaded in advance from a GPS "
+"receiver or from other sources."
+msgstr ""
+"Es compatible con la carga de pistas GPX independientes y datos de "
+"seguimiento GPX, así como la edición de nodos existentes (puntos), rutas "
+"(líneas), etiquetas de metadatos (información de nombre/valor) y relaciones "
+"(secuencia ordenada de puntos y líneas) desde la base de datos OSM. Las "
+"pistas GPX generalmente se descargan por adelantado desde un receptor GPS o "
+"desde otras fuentes."
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:23
 msgid "This quickstart covers basic usage of the Java OpenStreetMap editor."
 msgstr ""
 "Esta Guía de Inicio Rápido cubre el uso básico del editor Java "
 "OpenStreetMap."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:22
-msgid "When JOSM starts, it will look something like this:"
-msgstr "Cuando comience JOSM, se verá algo como esto:"
+#: ../../build/doc/quickstart/josm_quickstart.rst:29
+msgid "Start JOSM"
+msgstr ""
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:28
-msgid "JOSM Preferences"
-msgstr " Preferencias de JOSM"
-
-#: ../../build/doc/quickstart/josm_quickstart.rst:30
+#: ../../build/doc/quickstart/josm_quickstart.rst:31
 msgid ""
-"There are many different settings that you can customize in JOSM. One "
-"setting that you may want to adjust is the language. JOSM has been "
-"translated into numerous languages, and you may prefer to work in a "
-"different one."
+"From the desktop, choose :menuselection:`Navigation and Maps --> JOSM`. When"
+" JOSM starts, it will look something like this:"
 msgstr ""
-"Hay diversos ajustes que se pueden personalizar en JOSM. Una configuración "
-"que quizás desee ajustar es el idioma. JOSM se ha traducido a numerosos "
-"idiomas, y es posible que prefiera trabajar en uno diferente."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:35
-msgid "To access the Preferences window, click Edit -> Preferences."
+#: ../../build/doc/quickstart/josm_quickstart.rst:38
+msgid "Load a sample (ficticious) map"
 msgstr ""
-"Para acceder a la ventana de Preferencias, haga clic en Editar-> "
-"Preferencias."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:40
-msgid ""
-"On the left side, click the icon that looks like a paint can and paint "
-"brush."
-msgstr ""
-"En el lado izquierdo, haga click en el icono que parece una lata de pintura "
-"y una brocha "
-
-#: ../../build/doc/quickstart/josm_quickstart.rst:42
-msgid "At the top of the window, click the tab that says “Look and Feel”."
-msgstr ""
-"En la parte superior de la ventana, haga click en la pestaña que dice "
-"\"Apariencia y sensación\" o “Look and Feel”."
-
-#: ../../build/doc/quickstart/josm_quickstart.rst:43
-msgid "Choose your language in the dropdown box next to the word “Language”."
-msgstr "Elige tu idioma en el menú desplegable junto a la palabra \"Lenguaje\"."
-
-#: ../../build/doc/quickstart/josm_quickstart.rst:48
-msgid "Click OK."
-msgstr "Haga click en Aceptar."
-
-#: ../../build/doc/quickstart/josm_quickstart.rst:49
-msgid ""
-"You need to restart JOSM to save your settings. Click “File” in the upper "
-"left corner, and Click “Restart” near the bottom of the menu."
-msgstr ""
-"Tendrá que reiniciar JOSM para guardar la configuración. Haga click en "
-"\"Archivo\" en la esquina superior izquierda y haga clic en \"Restart\" en "
-"la parte inferior del menú."
-
-#: ../../build/doc/quickstart/josm_quickstart.rst:53
-msgid "Learn Basic Drawing with JOSM"
-msgstr "Aprenda Dibujo Básico con JOSM"
-
-#: ../../build/doc/quickstart/josm_quickstart.rst:55
 msgid ""
 "Now let’s open up a sample OSM file which we will use to learn the basic "
 "ways to draw maps with JOSM. Note that this map is not real, in that it is "
@@ -102,7 +80,7 @@ msgstr ""
 " real, es decir, no es el mapa de un lugar real, por lo que no debe "
 "guardarse en OpenStreetMap."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:59
+#: ../../build/doc/quickstart/josm_quickstart.rst:44
 msgid ""
 "Download the file here: `sample.osm "
 "<http://learnosm.org/files/sample.osm>`__"
@@ -110,7 +88,7 @@ msgstr ""
 "Descargue el archivo aquí: `sample.osm "
 "<http://learnosm.org/files/sample.osm>`__"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:60
+#: ../../build/doc/quickstart/josm_quickstart.rst:45
 msgid ""
 "Now let’s open the sample map file in JOSM. Click the “Open” button in the "
 "upper left."
@@ -118,20 +96,19 @@ msgstr ""
 "Ahora, abriremos el archivo del mapa de muestra en JOSM. Haga click en el "
 "botón \"Abrir\" en la parte superior izquierda."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:66
+#: ../../build/doc/quickstart/josm_quickstart.rst:51
 msgid ""
 "Find the file **sample.osm**. It is probably in your Downloads folder, "
-"unless you saved it somewhere else. Click on it, and then click “Open”."
+"unless you saved it somewhere else."
 msgstr ""
-"Busque el archivo **sample.osm**. Es probablemente en la carpeta de "
-"Descargas, a menos que lo haya guardado en otra parte. Haga click en él y "
-"después, click en \"Abrir\"."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:69
-msgid "You should now see a sample map that looks like this:"
-msgstr "Ahora debería ver una muestra de mapa que se ve como este:"
+#: ../../build/doc/quickstart/josm_quickstart.rst:53
+msgid ""
+"Click on it, and then click “Open”. You should now see a sample map that "
+"looks like this:"
+msgstr ""
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:75
+#: ../../build/doc/quickstart/josm_quickstart.rst:59
 msgid ""
 "You will use these data in order to try various editing techniques. *You "
 "must however never upload these fictitious data to the database.*"
@@ -139,11 +116,11 @@ msgstr ""
 "Utilizará estos datos para probar varias técnicas de edición. *Sin embargo, "
 "nunca debe cargar estos datos ficticios a la database.*"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:80
-msgid "Basic Operations"
-msgstr "Operaciones Básicas"
+#: ../../build/doc/quickstart/josm_quickstart.rst:64
+msgid "Navigate the map"
+msgstr ""
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:82
+#: ../../build/doc/quickstart/josm_quickstart.rst:66
 msgid ""
 "To move the map left or right, up or down, hold your right mouse button "
 "down, and move your mouse."
@@ -151,7 +128,7 @@ msgstr ""
 "Para mover el mapa izquierda o derecha, arriba o abajo, mantenga presionado "
 "el botón derecho de su rotón y  muévalo. "
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:84
+#: ../../build/doc/quickstart/josm_quickstart.rst:68
 msgid ""
 "There are several ways to zoom in and out of the map. If you have a mouse, "
 "you can use your scroll wheel to zoom in and out. If you are using a laptop "
@@ -167,7 +144,7 @@ msgstr ""
 " presionado el botón derecho del ratón mientras mueve la barra a la "
 "izquierda o a la derecha. "
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:95
+#: ../../build/doc/quickstart/josm_quickstart.rst:79
 msgid ""
 "Look at the sample map. There a few different types of objects here. There "
 "is a river, a forest, some buildings, several roads, and a couple of shops. "
@@ -178,11 +155,11 @@ msgstr ""
 "tiendas. Para seleccionar un objeto, haga click en él con el botón izquierdo"
 " del ratón."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:101
-msgid "Points, Lines, and Shapes"
-msgstr "Puntos, Líneas y Formas"
+#: ../../build/doc/quickstart/josm_quickstart.rst:85
+msgid "Points, lines, and shapes"
+msgstr ""
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:103
+#: ../../build/doc/quickstart/josm_quickstart.rst:87
 msgid ""
 "As you click different objects on the sample map, notice that there are "
 "three different types of objects on the map. There are points, lines, and "
@@ -191,7 +168,7 @@ msgstr ""
 "Al hacer click en diferentes objetos en el mapa de muestra, observe que hay "
 "tres tipos de objetos en el mapa. Hay puntos, líneas y formas."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:106
+#: ../../build/doc/quickstart/josm_quickstart.rst:89
 msgid ""
 "Points are a single location, represented by symbols. On this sample map, "
 "there are two points, a shoe shop and a supermarket. The shoe shop is "
@@ -203,7 +180,7 @@ msgstr ""
 "representado por un símbolo de zapato, y el mercado está representado por un"
 " carro de compras."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:110
+#: ../../build/doc/quickstart/josm_quickstart.rst:93
 msgid ""
 "There are several lines on the map as well, which represent roads. If you "
 "look closely you will see that within the lines, there are points as well. "
@@ -215,7 +192,7 @@ msgstr ""
 "tienen ningún símbolo ni otra información asociada a ellos, pero ayudan a "
 "definir donde se encuentra la línea."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:115
+#: ../../build/doc/quickstart/josm_quickstart.rst:98
 msgid ""
 "Lastly, there are numerous shapes on the sample map, representing different "
 "places - a forest, a river, a park, and buildings. A shape is used to "
@@ -229,7 +206,7 @@ msgstr ""
 "exactamente igual que una línea - la única diferencia es que la línea "
 "comienza en el mismo punto donde termina."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:121
+#: ../../build/doc/quickstart/josm_quickstart.rst:104
 msgid ""
 "It's easy to think of a map as containing these three basic types of objects"
 " - points, lines, and shapes. In OpenStreetMap there is special terminology "
@@ -244,7 +221,7 @@ msgstr ""
 "**nodos** y las líneas, **caminos**. Una forma es llamada **camino cerrado**"
 " porque es sólo una línea que termina en el mismo punto donde comienza."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:128
+#: ../../build/doc/quickstart/josm_quickstart.rst:111
 msgid ""
 "You may notice that when you select an object, a list appears to the right "
 "of the map in a window called “Properties”. These are known as tags. Tags "
@@ -261,7 +238,7 @@ msgstr ""
 "necesitas saber es que esta información ayuda a describir si nuestro objeto "
 "es un bosque, un río, un edificio u otra cosa."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:135
+#: ../../build/doc/quickstart/josm_quickstart.rst:118
 msgid ""
 "Think about drawing a map by hand, and how you are also drawing points, "
 "lines, and shapes. What other places are best represented by points? Lines? "
@@ -271,23 +248,23 @@ msgstr ""
 "líneas y formas. ¿Qué otros lugares están mejor representadas por puntos? "
 "¿Líneas? ¿Formas?"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:140
-msgid "Changing Objects"
-msgstr "Cambiando Objetos"
+#: ../../build/doc/quickstart/josm_quickstart.rst:123
+msgid "Changing objects"
+msgstr ""
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:142
+#: ../../build/doc/quickstart/josm_quickstart.rst:125
 msgid ""
 "Select the forest on the left side of the map. Be sure to click on the line "
-"around the forest, not one of the points on the line. Now hold your left "
-"mouse button down and drag your mouse. You should be able to move the forest"
-" to a new location on the map."
+"around the forest, not one of the points on the line."
 msgstr ""
-"Seleccione el bosque en el lado izquierdo del mapa. Asegúrese de hacer click"
-" en la línea por el bosque, no en uno de los puntos de la línea. Ahora, "
-"mantenga presionado el botón izquierdo del ratón y arrástrelo. Usted debería"
-" poder mover el bosque a una nueva ubicación en el mapa."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:146
+#: ../../build/doc/quickstart/josm_quickstart.rst:127
+msgid ""
+"Now hold your left mouse button down and drag your mouse. You should be able"
+" to move the forest to a new location on the map."
+msgstr ""
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:128
 msgid ""
 "Click on one of the points on the line around the forest. Hold your left "
 "mouse button down and drag your mouse. You should be able to move the point."
@@ -297,11 +274,11 @@ msgstr ""
 "el botón izquierdo del ratón y arrástrelo. Ahora debería poder mover el "
 "punto. Así es como puede cambiar la forma de un objeto, o mover un punto."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:152
+#: ../../build/doc/quickstart/josm_quickstart.rst:134
 msgid "Drawing"
 msgstr "Dibujando"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:154
+#: ../../build/doc/quickstart/josm_quickstart.rst:136
 msgid ""
 "On the left side of JOSM is a column of buttons. Many of these buttons open "
 "new windows on the right side that provide more information about the map. "
@@ -314,7 +291,7 @@ msgstr ""
 "superior de esta columna. Estos botones cambian lo que puede hacer con su "
 "ratón."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:159
+#: ../../build/doc/quickstart/josm_quickstart.rst:141
 msgid ""
 "The top buttons in this column are the ones you will use the most. They are "
 "used for selecting objects and for drawing new ones."
@@ -322,27 +299,27 @@ msgstr ""
 "Los botones superiores en esta columna son los que utilizarás más. Se usan "
 "para seleccionar objetos y para dibujar nuevos."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:161
+#: ../../build/doc/quickstart/josm_quickstart.rst:143
 msgid "Until now, you have been using the Select tool, which looks like this:"
 msgstr ""
 "Hasta ahora, ha estado utilizando la herramienta de selección, que se parece"
 " a esto:"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:168
-msgid ""
-"Before you draw, you need to make sure that nothing is selected. Click in "
-"the black space on the map, where it is empty, to make sure nothing is "
-"selected."
+#: ../../build/doc/quickstart/josm_quickstart.rst:150
+msgid "Before you draw, you need to make sure that nothing is selected."
 msgstr ""
-"Antes de dibujar, usted necesita asegurarse de que no hay nada seleccionado."
-" Haga click en el espacio negro en el mapa, donde está vacío, para "
-"asegurarse de que no hay nada seleccionado."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:171
+#: ../../build/doc/quickstart/josm_quickstart.rst:152
+msgid ""
+"Click in the black space on the map, where it is empty, to make sure nothing"
+" is selected."
+msgstr ""
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:154
 msgid "Click on the second button, the Draw tool."
 msgstr "Haga click en el segundo botón, la herramienta de Dibujo."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:177
+#: ../../build/doc/quickstart/josm_quickstart.rst:160
 msgid ""
 "Find an empty area on the map, and double-click with your mouse. This will "
 "draw a single point."
@@ -350,7 +327,7 @@ msgstr ""
 "Encontrar un área vacía en el mapa y haga doble click. Esto dibujará "
 "extraerá un solo punto."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:179
+#: ../../build/doc/quickstart/josm_quickstart.rst:163
 msgid ""
 "To draw a line, single-click with your mouse. Move your mouse and click "
 "again. Continue until you are happy with your line. To end the line, double-"
@@ -360,7 +337,7 @@ msgstr ""
 "de nuevo. Continúe hasta que esté satisfecho con su línea. Para finalizar la"
 " línea, haga doble click."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:182
+#: ../../build/doc/quickstart/josm_quickstart.rst:166
 msgid ""
 "Draw a shape the same way that you draw a line, but finish the shape by "
 "double-clicking on the point where you started the line."
@@ -368,11 +345,11 @@ msgstr ""
 "Dibuje una forma de la misma manera que dibuje una línea, pero terminar la "
 "forma haciendo doble click en el punto donde comenzó la línea."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:186
-msgid "Add Presets"
-msgstr "Añadir Ajustes Preestablecidos"
+#: ../../build/doc/quickstart/josm_quickstart.rst:170
+msgid "Add presets"
+msgstr ""
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:188
+#: ../../build/doc/quickstart/josm_quickstart.rst:172
 msgid ""
 "Now we know how to draw points, lines and shapes, but we still haven’t "
 "defined what they represent. We want to be able to say that our points are "
@@ -384,34 +361,30 @@ msgstr ""
 "tiendas, escuelas u otra cosa, y si nuestras formas son campos, edificios u "
 "otra cosa."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:192
+#: ../../build/doc/quickstart/josm_quickstart.rst:174
 msgid "Click on the Select tool, in the column of buttons on the left."
 msgstr ""
 "Haga click en la herramienta de Seleccionar, en la columna de botones a la "
 "izquierda."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:198
-msgid ""
-"Select one of the objects that you drew with the Draw tool. On the top menu,"
-" click “Presets”. Move your mouse through the sub-menu to the type of "
-"location you would like to define."
+#: ../../build/doc/quickstart/josm_quickstart.rst:180
+msgid "Select one of the objects that you drew with the Draw tool."
 msgstr ""
-"Seleccione uno de los objetos que dibujó con la herramienta Dibujar. En el "
-"menú principal, haga clic en \"Ajustes preestablecidos\". Mueva el ratón a "
-"través del submenú hacia el tipo de ubicación que se desee definir."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:201
+#: ../../build/doc/quickstart/josm_quickstart.rst:181
 msgid ""
-"When you click on a preset, a form will pop up asking you for more "
+"On the top menu, click “Presets” and choose the type of location you would "
+"like to define."
+msgstr ""
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:182
+msgid ""
+"When you choose on a preset, a form will pop up asking you for more "
 "information. You do not have to fill in every field, but you may wish to add"
 " some of the important fields, such as the name of the object."
 msgstr ""
-"Al hacer click en un ajuste preestablecido, un formulario aparecerá le pide "
-"más información. No tienes que rellenar todos los campos, pero es posible "
-"que desee añadir algunos de los campos importantes, como el nombre del "
-"objeto."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:204
+#: ../../build/doc/quickstart/josm_quickstart.rst:185
 msgid ""
 "When you are finished entering the information, click “Apply Preset”. If "
 "everything went well, your point, line, or shape should change colors or "
@@ -422,11 +395,11 @@ msgstr ""
 "cambiar los colores o un símbolo. Esto es porque usted ha definido lo que "
 "es."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:209
-msgid "Draw Your Own Map"
-msgstr "Dibujar Su Propio Mapa"
+#: ../../build/doc/quickstart/josm_quickstart.rst:190
+msgid "Draw your own map"
+msgstr ""
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:211
+#: ../../build/doc/quickstart/josm_quickstart.rst:192
 msgid ""
 "Now let’s draw a map in order to practice the techniques you have learned. "
 "You may wish to redraw the map that you drew on paper previously."
@@ -435,7 +408,7 @@ msgstr ""
 "aprendido. Es posible que desee volver a trazar el mapa que dibujó en papel "
 "previamente."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:214
+#: ../../build/doc/quickstart/josm_quickstart.rst:194
 msgid ""
 "Drag the map away from the sample map. Hold the right mouse button and drag "
 "your mouse, until you have a nice empty area to draw on."
@@ -444,7 +417,7 @@ msgstr ""
 "derecho y arrastre el mouse, hasta que tenga un área vacía agradable para "
 "dibujar."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:216
+#: ../../build/doc/quickstart/josm_quickstart.rst:196
 msgid ""
 "Use the Draw tool to create points, lines, and shapes. Describe what your "
 "objects are by selecting from the Presets menu."
@@ -452,7 +425,7 @@ msgstr ""
 "Utilice la herramienta de Dibujo para crear puntos, líneas y formas. "
 "Describa cuáles son sus objeto seleccionando en el menú Preajustes."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:218
+#: ../../build/doc/quickstart/josm_quickstart.rst:198
 msgid ""
 "When you are finished, you should have your own map, similar to the sample "
 "map that we opened in sample.osm."
@@ -460,11 +433,11 @@ msgstr ""
 "Cuando haya terminado, debe tener su propio mapa, similar al mapa muestra "
 "que abrimos en sample.osm."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:222
+#: ../../build/doc/quickstart/josm_quickstart.rst:202
 msgid "Remove the sample layer"
 msgstr "Eliminar la capa de la muestra"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:224
+#: ../../build/doc/quickstart/josm_quickstart.rst:204
 msgid ""
 "Once you feel comfortable with these basic editing techniques you might want"
 " to turn your attention to mapping real features."
@@ -473,7 +446,7 @@ msgstr ""
 "posible que desee centrar su atención en la asignación de características "
 "reales."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:227
+#: ../../build/doc/quickstart/josm_quickstart.rst:207
 msgid ""
 "*It is very important that you first remove the layer with the sample data. "
 "These data are fictitious and must not be uploaded to the OpenStreetMap "
@@ -483,7 +456,7 @@ msgstr ""
 "Estos datos son ficticios y no deben cargarse en la base de datos de "
 "OpenStreetMap (versiones más reciebtes de JOSM lo impiden automáticamente).*"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:232
+#: ../../build/doc/quickstart/josm_quickstart.rst:209
 msgid ""
 "In the Layers window on the upper right of the screen select the sample.osm "
 "layer. Then click on the trash can icon in the lower right corner of that "
@@ -495,11 +468,11 @@ msgstr ""
 " en la esquina inferior derecha de esa ventana. Alternativamente puede "
 "elegir eliminar desde el menú contextual de la capa."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:238
-msgid "What Next?"
+#: ../../build/doc/quickstart/josm_quickstart.rst:215
+msgid "What next?"
 msgstr "¿Qué sigue?"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:240
+#: ../../build/doc/quickstart/josm_quickstart.rst:217
 msgid ""
 "Try the LearnOSM documentation, from which this quickstart was derived: "
 "http://learnosm.org/en/josm/start-josm/"
@@ -507,7 +480,7 @@ msgstr ""
 "Pruebe la documentación de LearnOSM, de la cual se deriva esta Guía de "
 "Inicio Rápido: http://learnosm.org/en/josm/start-josm/"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:242
+#: ../../build/doc/quickstart/josm_quickstart.rst:219
 msgid ""
 "In order to continue editing you first need to download real data. This is "
 "explained in the next chapter: http://learnosm.org/en/josm/more-about-josm/"
@@ -515,3 +488,7 @@ msgstr ""
 "Para seguir editando lo primero tiene que descargar datos reales. Esto se "
 "explica en el siguiente capítulo: http://learnosm.org/en/josm/more-about-"
 "josm/"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:222
+msgid "Website: https://josm.openstreetmap.de/"
+msgstr ""

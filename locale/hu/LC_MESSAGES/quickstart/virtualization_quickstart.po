@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki@agt.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -247,6 +247,8 @@ msgstr "Most töltse be a VM-et a Start (zöld nyíl) gombra kattintva."
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:95
 msgid "When you install the iso on the VM, the username must be set to \"user\""
 msgstr ""
+"Amikor az ISO-t egy virtuális gépre telepíti, a felhasználó névnek "
+"\"user\"-nek kell lennie"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:97
 msgid ""
@@ -254,18 +256,21 @@ msgid ""
 "virtual machine. This prevents some tools from writing to its data directory"
 " and causes some software to fail to start."
 msgstr ""
+"A \"user\" felhasználó nem tagja a \"users\" csoportnak az OSGeoLive "
+"virtuális gépen. Ez megakadályozza, hogy néhány eszköz az adatkönyvtárakba "
+"írjon és néhány szoftver elindulását megakadályozza."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:99
 msgid "The solution is to fix the vmdk with the following one-time procedure:"
-msgstr ""
+msgstr "A megoldás a VMDK javítása a következő egyszeri eljárással:"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:101
 msgid "Start a terminal."
-msgstr ""
+msgstr "Indítson egy terminált"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:102
 msgid "Run \"sudo adduser user users\"."
-msgstr ""
+msgstr "Futtassa \"sudo adduser user users\"."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:103
 msgid ""
@@ -273,6 +278,9 @@ msgid ""
 "virtual machine or log out and log back in (username \"user\", password "
 "\"user\")."
 msgstr ""
+"Alkalmazza ezt a módosítást egy új munkamenet indításával: vagy indítsa újra"
+" a virtuális gépet vagy jelentkezzen ki és jelentkezzen be (felhasználónév "
+"\"user\", jelszó \"user\")."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:105
 msgid ""
@@ -280,6 +288,9 @@ msgid ""
 "that the shared folders (defined above) are accessible by running in a "
 "terminal window:"
 msgstr ""
+"Amikor az OSGeoLive rendszer elindul adja magát a vboxf csoporthoz, hogy (a "
+"korábban definiált) megosztott mappák elérhetők legyenek, a következő "
+"futtatásával egy terminál ablakban:"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:107
 msgid "``user@osgeolive:~$ sudo usermod -a -G vboxsf user``"

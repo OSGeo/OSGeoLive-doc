@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki@agt.bme.hu>, 2019
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2019\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/zoo-project_quickstart.rst:19
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:20
 msgid "Zoo Project Quickstart"
 msgstr "Zoo Projekt gyorstalpaló"
 
-#: ../../build/doc/quickstart/zoo-project_quickstart.rst:21
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:22
 msgid ""
 "The ZOO-Project provides a developer friendly Web Processing Service (WPS) "
 "framework for creating and chaining Web Processing Services. A WPS provides "
@@ -36,113 +36,110 @@ msgstr ""
 "összeláncolásához. Egy WPS  webes hozzáférést biztosít függvényekhez, melyek"
 " térbeli algoritmusokat futtatnak."
 
-#: ../../build/doc/quickstart/zoo-project_quickstart.rst:24
-msgid "This Quick Start describes how to:"
-msgstr "Ez a gyorstalpaló leírja:"
-
-#: ../../build/doc/quickstart/zoo-project_quickstart.rst:26
-msgid "Apply processes to a WFS from a web browser."
-msgstr "Feldolgozások alkalmazása egy WFS-hez a böngészőből."
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:30
+msgid "Start ZOO-Project"
+msgstr ""
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:32
-msgid "Running"
-msgstr "Futtatás"
+msgid ""
+"From the Start menu, select :menuselection:`Geospatial --> Web Services --> "
+"ZOO Project`."
+msgstr ""
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:34
 msgid ""
-"To run the ZOO Project demo from the OSGeoLive DVD, click on the \"ZOO "
-"Project\" link you will find it in the menu-items under \"Geospatial\" > "
-"\"Web Services\"."
-msgstr ""
-"A ZOO Project demó futtatásához az OSGeoLIve DVD-ről kattintson a \"Zoo "
-"Project\" linkre, amit a  \"Geospatial\" > \"Web Services\" menü elem alatt "
-"talál meg."
-
-#: ../../build/doc/quickstart/zoo-project_quickstart.rst:36
-msgid ""
 "Firefox will open the ZOO Project demonstration landing page. From here, you"
-" can decide what is the demonstration you want to use."
+" can select a demon application."
 msgstr ""
-"A Firefox megnyitja t a ZOO projekt demonstrációs kezdőoldalt. Itt "
-"eldöntheti, melyik demonstrációt kívánja használni."
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:42
+msgid "OGR spatial tools demo"
+msgstr ""
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:44
-msgid "OGR spatial tools"
-msgstr "OGR térbeli eszközök"
+msgid ""
+"On the ZOO Project demonstration landing page, click :guilabel:`view` on OGR"
+" spatial tools."
+msgstr ""
 
-#: ../../build/doc/quickstart/zoo-project_quickstart.rst:46
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:45
 msgid ""
 "Click on the map to select a feature from the :doc:`GeoServer "
 "<../overview/geoserver_overview>` WFS Server, the feature will be displayed "
-"in blue, then click on simple geometry process like Buffer, Centroid, "
-"ConvexHull or Boundary and the result will be displayed in yellow."
+"in blue."
 msgstr ""
-"Kattintson a térképre egy térképi elem kiválasztásához a :doc:`GeoServer "
-"<../overview/geoserver_overview>` WFS szerverből, a térképi elem kékkel fog "
-"megjelenni, eután kattintson egy egyszerű geometriai feldolgozásra, például "
-"övezet, centrális vagy konvex burkoló és az eredmény sárgával jelenik meg."
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:46
+msgid ""
+"Click on simple geometry process like Buffer, Centroid, ConvexHull or "
+"Boundary and the result will be displayed in yellow."
+msgstr ""
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:54
 msgid ""
-"Now select another feature near the first you've selected then click on "
-"multiple geometries process button Union, Intersection, Symmetric Difference"
-" or Difference to get the result displayed in red on the map."
+"Now select another feature near the first you've selected, then click on a "
+"multiple geometries process button like Union, Intersection, Symmetric "
+"Difference or Difference to get the result displayed in red on the map."
 msgstr ""
-"Most válasszon egy másik térképi elemet az előzőleg kiválasztott közelében, "
-"majd kattintson a több geometriát feldolgozó gombra mint unió, szimmetrikus "
-"különbség vagy különbség, az eredmény pirossal jelenik meg a térképen."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:62
-msgid "CGAL triangulations"
-msgstr "CGAL háromszögelések"
+msgid "CGAL triangulations demo"
+msgstr ""
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:64
 msgid ""
-"From the CGAL triangulations application, you simply have to press the "
-"Voronoi or Delaunay button to display on your map the result of the WPS "
-"service execution, as shown bellow."
+"On the ZOO Project demonstration landing page, click :guilabel:`view` on "
+"CGAL triangulations."
 msgstr ""
-"A CGAL háromszögések alkalmazásban egyszerűen meg kell nyomnia a Voronoi "
-"vagy Delaunay gombot, hogy a térképén megjelenítse a WPS szolgáltatás "
-"eredményét, amint lentebb láthatja."
 
-#: ../../build/doc/quickstart/zoo-project_quickstart.rst:74
-msgid "OTB Applications"
-msgstr "OTB alkalmazások"
-
-#: ../../build/doc/quickstart/zoo-project_quickstart.rst:76
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:65
 msgid ""
-"From the OTB application demonstration interface, you have to fill the form "
-"on the left to configure the WPS service execution. Once, you have selected "
-"the value for your processing, you can then press the Execute button at the "
-"bottom of the left form. In case you choose image/png as the output format, "
-"you will see the result of your processing displayed on the map. You can see"
-" below a sample KMeansClassification execution when selecting the image/png "
-"output format."
+"Press the Voronoi or Delaunay button to display on your map the result of "
+"the WPS service execution, as shown below."
 msgstr ""
-"Az OTB alkalmazás demonstrációs felületéről ki kell töltenie az űrlapot a "
-"WPS szolgáltatás végrehajtás konfigurálásának bal oldalán. Ha már "
-"kiválasztotta a feldolgozásához az értéket, megnyomhatja az Execute gombot a"
-" párbeszédablak bal alsó részén. Abban az esetben, ha image/png output "
-"formátumot választott, a feldolgozása eredményét láthatja a térképen. "
-"Lentebb egy példa KMeansClassification végrehajtását láthatja, amikor az "
-"image/png output volt kiválasztva."
 
-#: ../../build/doc/quickstart/zoo-project_quickstart.rst:86
-msgid "What Next?"
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:75
+msgid "OTB Applications demo"
+msgstr ""
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:77
+msgid ""
+"On the ZOO Project demonstration landing page, click :guilabel:`view` on OTB"
+" application."
+msgstr ""
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:78
+msgid "Fill the form on the left to configure the WPS service execution."
+msgstr ""
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:79
+msgid ""
+"Once you have selected the values for your processing, press the "
+":guilabel:`Execute` button at the bottom of the left form."
+msgstr ""
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:80
+msgid ""
+"If you chose image/png as the output format, you will see the result of your"
+" processing displayed on the map. You can see below a sample "
+"KMeansClassification execution when selecting the image/png output format."
+msgstr ""
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:90
+msgid "What next?"
 msgstr "Mi a következő?"
 
-#: ../../build/doc/quickstart/zoo-project_quickstart.rst:89
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:93
 msgid "You can access the capabilities of the ZOO WPS Server:"
 msgstr "Hozzáférhet a ZOO WPS képességeihez:"
 
-#: ../../build/doc/quickstart/zoo-project_quickstart.rst:89
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:93
 msgid ""
 "http://localhost/cgi-bin/zoo_loader.cgi?Request=GetCapabilities&Service=WPS"
 msgstr ""
 "http://localhost/cgi-bin/zoo_loader.cgi?Request=GetCapabilities&Service=WPS"
 
-#: ../../build/doc/quickstart/zoo-project_quickstart.rst:91
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:95
 msgid ""
 "For further questions you can contact the ZOO Project mailing list: zoo-"
 "discuss@lists.osgeo.org"

@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki@agt.bme.hu>, 2019
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2019\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,74 +21,53 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:16
+#: ../../build/doc/quickstart/josm_quickstart.rst:17
 msgid "JOSM Quickstart"
 msgstr "JOSM gyorstalpaló"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:18
+#: ../../build/doc/quickstart/josm_quickstart.rst:19
+msgid ""
+"JOSM is a feature rich, extensible, offline desktop editor for OpenStreetMap"
+" (OSM) data, written in Java."
+msgstr ""
+"JOSM egy funkció gazdag, bővíthető, offline asztali szerkesztő OpenStreetMap"
+" (OSM) adatokhoz,  melyet Javaban írtak"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:21
+msgid ""
+"It supports loading stand-alone GPX tracks and GPX track data as well as "
+"editing existing nodes (points), ways (lines), metadata tags (name/value "
+"information) and relations (ordered sequence of points and lines) from the "
+"OSM database. GPX tracks, are usually downloaded in advance from a GPS "
+"receiver or from other sources."
+msgstr ""
+"Támogatja az önálló GPX nyomvonalak és adataik betöltését az OSM "
+"adatbázisból, mint ahogy a töréspontokat (pontok), utakat (vonalak) meta "
+"adatokat (név/érték információk) és kapcsolatokat (pontok és vonalak "
+"rendezett sorozata). A GPX nyomvonalakat általában előzőleg letöltik a GPS "
+"vevőről vagy más forrásról."
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:23
 msgid "This quickstart covers basic usage of the Java OpenStreetMap editor."
 msgstr ""
 "Ez a gyorstalpaló a Java OpenStreetMap szerkesztő alapvető használatáról "
 "szól."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:22
-msgid "When JOSM starts, it will look something like this:"
-msgstr "Amikor a JOSM elindul valahogy így fog kinézni:"
+#: ../../build/doc/quickstart/josm_quickstart.rst:29
+msgid "Start JOSM"
+msgstr ""
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:28
-msgid "JOSM Preferences"
-msgstr "JOSM preferenciák"
-
-#: ../../build/doc/quickstart/josm_quickstart.rst:30
+#: ../../build/doc/quickstart/josm_quickstart.rst:31
 msgid ""
-"There are many different settings that you can customize in JOSM. One "
-"setting that you may want to adjust is the language. JOSM has been "
-"translated into numerous languages, and you may prefer to work in a "
-"different one."
+"From the desktop, choose :menuselection:`Navigation and Maps --> JOSM`. When"
+" JOSM starts, it will look something like this:"
 msgstr ""
-"Sok különböző testreszabható beállítás van a JOSM-ben. A nyelv egy beállítás"
-" amit módosítani akarhat. Számos nyelvre lefordították a JOSM-t és lehet, "
-"hogy egy másikkal dolgozna."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:35
-msgid "To access the Preferences window, click Edit -> Preferences."
+#: ../../build/doc/quickstart/josm_quickstart.rst:38
+msgid "Load a sample (ficticious) map"
 msgstr ""
-"A preferencia menü eléréséhez kattintson az Edit -> Preferences menüpontra."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:40
-msgid ""
-"On the left side, click the icon that looks like a paint can and paint "
-"brush."
-msgstr ""
-"A bal oldalon kattintson az ikonra, mely úgy néz ki, mint egy festékes doboz"
-" és ecset."
-
-#: ../../build/doc/quickstart/josm_quickstart.rst:42
-msgid "At the top of the window, click the tab that says “Look and Feel”."
-msgstr "Az ablak tetején kattintson a “Look and Feel” fülre."
-
-#: ../../build/doc/quickstart/josm_quickstart.rst:43
-msgid "Choose your language in the dropdown box next to the word “Language”."
-msgstr "Válassza ki a nyelvét a legördülő listából a “Language” szó mellett."
-
-#: ../../build/doc/quickstart/josm_quickstart.rst:48
-msgid "Click OK."
-msgstr "Kattintson az OK-ra"
-
-#: ../../build/doc/quickstart/josm_quickstart.rst:49
-msgid ""
-"You need to restart JOSM to save your settings. Click “File” in the upper "
-"left corner, and Click “Restart” near the bottom of the menu."
-msgstr ""
-"Újra kell indítania a JOSM-t a beállítások mentéséhez. Kattintson a "
-"\"File\"-ra bal felső sarokban és kattintson a \"Restart\"-ra közel a menü "
-"aljához."
-
-#: ../../build/doc/quickstart/josm_quickstart.rst:53
-msgid "Learn Basic Drawing with JOSM"
-msgstr "JOSM rajzolási alapok megtanulása"
-
-#: ../../build/doc/quickstart/josm_quickstart.rst:55
 msgid ""
 "Now let’s open up a sample OSM file which we will use to learn the basic "
 "ways to draw maps with JOSM. Note that this map is not real, in that it is "
@@ -99,7 +78,7 @@ msgstr ""
 "nem egy valódi hely valódi térképe, így ezt nem fogjuk az OpenStreetMap-be "
 "menteni."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:59
+#: ../../build/doc/quickstart/josm_quickstart.rst:44
 msgid ""
 "Download the file here: `sample.osm "
 "<http://learnosm.org/files/sample.osm>`__"
@@ -107,7 +86,7 @@ msgstr ""
 "Töltse le a fájlt innen: `sample.osm "
 "<http://learnosm.org/files/sample.osm>`__"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:60
+#: ../../build/doc/quickstart/josm_quickstart.rst:45
 msgid ""
 "Now let’s open the sample map file in JOSM. Click the “Open” button in the "
 "upper left."
@@ -115,20 +94,19 @@ msgstr ""
 "Most nyissuk meg a minta térkép fájlt a JOSM-ban. Kattintson az \"Open\" "
 "gombra a bal felső sarokban."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:66
+#: ../../build/doc/quickstart/josm_quickstart.rst:51
 msgid ""
 "Find the file **sample.osm**. It is probably in your Downloads folder, "
-"unless you saved it somewhere else. Click on it, and then click “Open”."
+"unless you saved it somewhere else."
 msgstr ""
-"Keresse meg a **sample.osm** fájlt. Valószínűleg a a letöltések mappájában "
-"van, hacsak nem mentette valahová máshová. Kattintson rá és utána az "
-"\"Open\"-re."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:69
-msgid "You should now see a sample map that looks like this:"
-msgstr "Egy minta térképet kell látnia, mely ehhez hasonlóan néz ki:"
+#: ../../build/doc/quickstart/josm_quickstart.rst:53
+msgid ""
+"Click on it, and then click “Open”. You should now see a sample map that "
+"looks like this:"
+msgstr ""
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:75
+#: ../../build/doc/quickstart/josm_quickstart.rst:59
 msgid ""
 "You will use these data in order to try various editing techniques. *You "
 "must however never upload these fictitious data to the database.*"
@@ -137,11 +115,11 @@ msgstr ""
 "kipróbálásához. *Nem szabad ezeket a fiktív adatokat az adatbázisba "
 "feltöltenie.*"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:80
-msgid "Basic Operations"
-msgstr "Alapműveletek"
+#: ../../build/doc/quickstart/josm_quickstart.rst:64
+msgid "Navigate the map"
+msgstr ""
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:82
+#: ../../build/doc/quickstart/josm_quickstart.rst:66
 msgid ""
 "To move the map left or right, up or down, hold your right mouse button "
 "down, and move your mouse."
@@ -149,7 +127,7 @@ msgstr ""
 "A térkép balra vagy jobbra, fel vagy le mozgatásához tartsa nyomva a jobb "
 "egérgombot és mozgassa az egeret."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:84
+#: ../../build/doc/quickstart/josm_quickstart.rst:68
 msgid ""
 "There are several ways to zoom in and out of the map. If you have a mouse, "
 "you can use your scroll wheel to zoom in and out. If you are using a laptop "
@@ -163,7 +141,7 @@ msgstr ""
 "léptékvonalzót használhatja. Húzza a vonalzót jobbra és balra a bal egérgomb"
 " nyomvatartása mellett."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:95
+#: ../../build/doc/quickstart/josm_quickstart.rst:79
 msgid ""
 "Look at the sample map. There a few different types of objects here. There "
 "is a river, a forest, some buildings, several roads, and a couple of shops. "
@@ -173,11 +151,11 @@ msgstr ""
 "egy erdő, néhány épület, számos út és pár üzlet. Egy objektum "
 "szelektálásához a bal egérgombbal kattintson rá."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:101
-msgid "Points, Lines, and Shapes"
-msgstr "Pontok, vonalak és alakzatok"
+#: ../../build/doc/quickstart/josm_quickstart.rst:85
+msgid "Points, lines, and shapes"
+msgstr ""
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:103
+#: ../../build/doc/quickstart/josm_quickstart.rst:87
 msgid ""
 "As you click different objects on the sample map, notice that there are "
 "three different types of objects on the map. There are points, lines, and "
@@ -187,7 +165,7 @@ msgstr ""
 "különböző típusú objektum van a térképen. Pontok, vonalak és alakzatok "
 "vannak."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:106
+#: ../../build/doc/quickstart/josm_quickstart.rst:89
 msgid ""
 "Points are a single location, represented by symbols. On this sample map, "
 "there are two points, a shoe shop and a supermarket. The shoe shop is "
@@ -198,7 +176,7 @@ msgstr ""
 "pont van egy cipőbolt és egy áruház. A cipőboltot a cipő szimbólummal "
 "jelöltük, az áruházat egy bevásárló  kocsival."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:110
+#: ../../build/doc/quickstart/josm_quickstart.rst:93
 msgid ""
 "There are several lines on the map as well, which represent roads. If you "
 "look closely you will see that within the lines, there are points as well. "
@@ -210,7 +188,7 @@ msgstr ""
 "a pontokhoz nem tartozik szimbólum vagy más  információ, a vonal helyét "
 "határozzák meg csupán."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:115
+#: ../../build/doc/quickstart/josm_quickstart.rst:98
 msgid ""
 "Lastly, there are numerous shapes on the sample map, representing different "
 "places - a forest, a river, a park, and buildings. A shape is used to "
@@ -224,7 +202,7 @@ msgstr ""
 "vagy épület. Az alakzatok pontosan olyanok mint a vonalak - az egyetlen "
 "különbség, hogy a vonal kezdő és végpontja megegyezik."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:121
+#: ../../build/doc/quickstart/josm_quickstart.rst:104
 msgid ""
 "It's easy to think of a map as containing these three basic types of objects"
 " - points, lines, and shapes. In OpenStreetMap there is special terminology "
@@ -240,7 +218,7 @@ msgstr ""
 "alakzatot **zárt útnak** nevezünk, mert ez egy vonal mely ugyanabban a "
 "pontban végződik ahonnan indult."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:128
+#: ../../build/doc/quickstart/josm_quickstart.rst:111
 msgid ""
 "You may notice that when you select an object, a list appears to the right "
 "of the map in a window called “Properties”. These are known as tags. Tags "
@@ -257,7 +235,7 @@ msgstr ""
 " segítenek az objektumunk leírásában, hogy egy erdőről, egy folyóról, egy "
 "épületről vagy valami másról van szó."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:135
+#: ../../build/doc/quickstart/josm_quickstart.rst:118
 msgid ""
 "Think about drawing a map by hand, and how you are also drawing points, "
 "lines, and shapes. What other places are best represented by points? Lines? "
@@ -267,23 +245,23 @@ msgstr ""
 "alakzatokat. Milyen más helyeket reprezentálnak legjobban pontok, vonalak, "
 "alakzatok?"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:140
-msgid "Changing Objects"
-msgstr "Objektumok módosítás"
+#: ../../build/doc/quickstart/josm_quickstart.rst:123
+msgid "Changing objects"
+msgstr ""
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:142
+#: ../../build/doc/quickstart/josm_quickstart.rst:125
 msgid ""
 "Select the forest on the left side of the map. Be sure to click on the line "
-"around the forest, not one of the points on the line. Now hold your left "
-"mouse button down and drag your mouse. You should be able to move the forest"
-" to a new location on the map."
+"around the forest, not one of the points on the line."
 msgstr ""
-"Válassza ki az erdőt a térkép bal oldalán. Győződjön meg róla, hogy az erdő "
-"körüli vonalra kattint és nem az egyik pontra a vonalon. Tartsa nyomva a bal"
-" egérgombot és húzza az egeret. El tudja húzni az erdőt egy új helyre a "
-"térképen."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:146
+#: ../../build/doc/quickstart/josm_quickstart.rst:127
+msgid ""
+"Now hold your left mouse button down and drag your mouse. You should be able"
+" to move the forest to a new location on the map."
+msgstr ""
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:128
 msgid ""
 "Click on one of the points on the line around the forest. Hold your left "
 "mouse button down and drag your mouse. You should be able to move the point."
@@ -293,11 +271,11 @@ msgstr ""
 "egérgombot és húzza az egeret. Mozgatni tudja a pontot. Így tudja módosítani"
 " az objektum alakját vagy egy pontot mozgatni."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:152
+#: ../../build/doc/quickstart/josm_quickstart.rst:134
 msgid "Drawing"
 msgstr "Rajzolás"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:154
+#: ../../build/doc/quickstart/josm_quickstart.rst:136
 msgid ""
 "On the left side of JOSM is a column of buttons. Many of these buttons open "
 "new windows on the right side that provide more information about the map. "
@@ -309,7 +287,7 @@ msgstr ""
 "Legfontosabb gombok azonban az oszlop tetején találhatók. Ezek a gombok "
 "megváltoztatják, hogy mit tud csinálni az egérrel."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:159
+#: ../../build/doc/quickstart/josm_quickstart.rst:141
 msgid ""
 "The top buttons in this column are the ones you will use the most. They are "
 "used for selecting objects and for drawing new ones."
@@ -317,25 +295,25 @@ msgstr ""
 "A felül lévő gombok azok, melyeket a legtöbbet fog használni. Ezeket az "
 "objektumok kiválasztására és újak rajzolására használjuk."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:161
+#: ../../build/doc/quickstart/josm_quickstart.rst:143
 msgid "Until now, you have been using the Select tool, which looks like this:"
 msgstr "Idáig a kiválasztás eszközöket használtuk, melyek így néznek ki:"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:168
-msgid ""
-"Before you draw, you need to make sure that nothing is selected. Click in "
-"the black space on the map, where it is empty, to make sure nothing is "
-"selected."
+#: ../../build/doc/quickstart/josm_quickstart.rst:150
+msgid "Before you draw, you need to make sure that nothing is selected."
 msgstr ""
-"A rajzolás előtt legyen biztos benne, hogy nincs kiválasztott elem. "
-"Kattintson  a fekete területbe a térképen, ahol nincs semmi, hogy semmi se "
-"legyen szelektálva."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:171
+#: ../../build/doc/quickstart/josm_quickstart.rst:152
+msgid ""
+"Click in the black space on the map, where it is empty, to make sure nothing"
+" is selected."
+msgstr ""
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:154
 msgid "Click on the second button, the Draw tool."
 msgstr "Kattintson a második ikonra, a Draw eszközre."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:177
+#: ../../build/doc/quickstart/josm_quickstart.rst:160
 msgid ""
 "Find an empty area on the map, and double-click with your mouse. This will "
 "draw a single point."
@@ -343,7 +321,7 @@ msgstr ""
 "Keressen egy üres terültet a térképen és duplán kattintson az egérrel. Ez "
 "egy pontot fog rajzolni."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:179
+#: ../../build/doc/quickstart/josm_quickstart.rst:163
 msgid ""
 "To draw a line, single-click with your mouse. Move your mouse and click "
 "again. Continue until you are happy with your line. To end the line, double-"
@@ -353,7 +331,7 @@ msgstr ""
 "ismét. Folytassa amíg elégedett lesz a vonalával.  vonal lezárásához "
 "kattintson duplán az egerével."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:182
+#: ../../build/doc/quickstart/josm_quickstart.rst:166
 msgid ""
 "Draw a shape the same way that you draw a line, but finish the shape by "
 "double-clicking on the point where you started the line."
@@ -361,11 +339,11 @@ msgstr ""
 "Rajzoljon egy alakzatot ugyanúgy ahogy vonalat rajzol, de az alakzat "
 "befejezéséhez duplán kattintson a pontra, ahol elkezdte a vonalat."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:186
-msgid "Add Presets"
-msgstr "Beállítások hozzáadása"
+#: ../../build/doc/quickstart/josm_quickstart.rst:170
+msgid "Add presets"
+msgstr ""
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:188
+#: ../../build/doc/quickstart/josm_quickstart.rst:172
 msgid ""
 "Now we know how to draw points, lines and shapes, but we still haven’t "
 "defined what they represent. We want to be able to say that our points are "
@@ -377,31 +355,28 @@ msgstr ""
 "pontjaink üzletek, iskolák vagy valami más és az alakzataink mezők, épületek"
 " vagy valami más."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:192
+#: ../../build/doc/quickstart/josm_quickstart.rst:174
 msgid "Click on the Select tool, in the column of buttons on the left."
 msgstr "Kattintson a Select eszközre a bal oldali gomb oszlopban."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:198
-msgid ""
-"Select one of the objects that you drew with the Draw tool. On the top menu,"
-" click “Presets”. Move your mouse through the sub-menu to the type of "
-"location you would like to define."
+#: ../../build/doc/quickstart/josm_quickstart.rst:180
+msgid "Select one of the objects that you drew with the Draw tool."
 msgstr ""
-"Válasszon ki egyet a Draw eszközzel rajzolt objektumok közül. A felő menüben"
-" kattintson a “Presets”-re. Mozgassa az egeret végig az almenün addig a hely"
-" típusig amit definiálni szeretne."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:201
+#: ../../build/doc/quickstart/josm_quickstart.rst:181
 msgid ""
-"When you click on a preset, a form will pop up asking you for more "
+"On the top menu, click “Presets” and choose the type of location you would "
+"like to define."
+msgstr ""
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:182
+msgid ""
+"When you choose on a preset, a form will pop up asking you for more "
 "information. You do not have to fill in every field, but you may wish to add"
 " some of the important fields, such as the name of the object."
 msgstr ""
-"Amikor egy beállításra kattint egy űrlap bukkan fel további információkat "
-"kérve. Nem kell minden mezőt kitöltenie, de érdemes néhány mezőt felvenni "
-"mint például az objektum neve."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:204
+#: ../../build/doc/quickstart/josm_quickstart.rst:185
 msgid ""
 "When you are finished entering the information, click “Apply Preset”. If "
 "everything went well, your point, line, or shape should change colors or "
@@ -411,11 +386,11 @@ msgstr ""
 "minden jól ment a pont, a vonal vagy alakzat színe megváltozik vagy egy "
 "szimbólum jelenik meg. Ez azért történik, mert megadta, hogy mi az."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:209
-msgid "Draw Your Own Map"
-msgstr "Saját térkép rajzolása"
+#: ../../build/doc/quickstart/josm_quickstart.rst:190
+msgid "Draw your own map"
+msgstr ""
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:211
+#: ../../build/doc/quickstart/josm_quickstart.rst:192
 msgid ""
 "Now let’s draw a map in order to practice the techniques you have learned. "
 "You may wish to redraw the map that you drew on paper previously."
@@ -423,7 +398,7 @@ msgstr ""
 "Most rajzoljunk egy térképet, hogy gyakoroljuk a technikákat amit eddig "
 "tanult. Újra elkészítheti a térképet, melyet az előző lapokon rajzolt."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:214
+#: ../../build/doc/quickstart/josm_quickstart.rst:194
 msgid ""
 "Drag the map away from the sample map. Hold the right mouse button and drag "
 "your mouse, until you have a nice empty area to draw on."
@@ -431,7 +406,7 @@ msgstr ""
 "Húzza el a térképet a minta térképből. Tartsa nyomva a jobb egér gombot és "
 "húzza az egeret amíg egy üres területet kap a rajzoláshoz."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:216
+#: ../../build/doc/quickstart/josm_quickstart.rst:196
 msgid ""
 "Use the Draw tool to create points, lines, and shapes. Describe what your "
 "objects are by selecting from the Presets menu."
@@ -439,7 +414,7 @@ msgstr ""
 "Használja a Draw eszközt pontok, vonalak és alakzatok létrehozására. Írja le"
 " mik ezek az objektumok, a Preset menüből kiválasztva."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:218
+#: ../../build/doc/quickstart/josm_quickstart.rst:198
 msgid ""
 "When you are finished, you should have your own map, similar to the sample "
 "map that we opened in sample.osm."
@@ -447,11 +422,11 @@ msgstr ""
 "Amikor befejezte egy saját térképpel rendelkezik, hasonló a minta térképhez,"
 " melyet a sample.osm tartalmazott."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:222
+#: ../../build/doc/quickstart/josm_quickstart.rst:202
 msgid "Remove the sample layer"
 msgstr "Távolítsa el a minta réteget"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:224
+#: ../../build/doc/quickstart/josm_quickstart.rst:204
 msgid ""
 "Once you feel comfortable with these basic editing techniques you might want"
 " to turn your attention to mapping real features."
@@ -459,7 +434,7 @@ msgstr ""
 "Ha már megismerte az alapvető szerkesztési technikákat érdemes lenne a "
 "figyelmét a valós elemek térképezésére."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:227
+#: ../../build/doc/quickstart/josm_quickstart.rst:207
 msgid ""
 "*It is very important that you first remove the layer with the sample data. "
 "These data are fictitious and must not be uploaded to the OpenStreetMap "
@@ -469,7 +444,7 @@ msgstr ""
 "fiktív adatok és nem szabad feltölteni őket az OpenStreetMap adatbázisba "
 "(újabb JOSM kiadások automatikusan meggátolják ezt).*"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:232
+#: ../../build/doc/quickstart/josm_quickstart.rst:209
 msgid ""
 "In the Layers window on the upper right of the screen select the sample.osm "
 "layer. Then click on the trash can icon in the lower right corner of that "
@@ -481,11 +456,11 @@ msgstr ""
 "sarkában. A réteg helyi menüjéből is kiválaszthatja a törlést alternatív "
 "megoldásként."
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:238
-msgid "What Next?"
+#: ../../build/doc/quickstart/josm_quickstart.rst:215
+msgid "What next?"
 msgstr "Mi a következő?"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:240
+#: ../../build/doc/quickstart/josm_quickstart.rst:217
 msgid ""
 "Try the LearnOSM documentation, from which this quickstart was derived: "
 "http://learnosm.org/en/josm/start-josm/"
@@ -493,7 +468,7 @@ msgstr ""
 "Próbálja meg a LearnOSM dokumentációt, melyből ezt a gyorstalpalót "
 "készítettük: http://learnosm.org/en/josm/start-josm/"
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:242
+#: ../../build/doc/quickstart/josm_quickstart.rst:219
 msgid ""
 "In order to continue editing you first need to download real data. This is "
 "explained in the next chapter: http://learnosm.org/en/josm/more-about-josm/"
@@ -501,3 +476,7 @@ msgstr ""
 "A szerkesztés folytatásához először valós adatokat kell letöltenie. Ezt a "
 "következő fejezetben magyarázzuk el: http://learnosm.org/en/josm/more-about-"
 "josm/"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:222
+msgid "Website: https://josm.openstreetmap.de/"
+msgstr ""

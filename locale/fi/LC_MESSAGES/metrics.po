@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-08 15:38-0500\n"
+"POT-Creation-Date: 2020-03-25 21:53-0600\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2018\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
@@ -57,30 +57,30 @@ msgstr "Työasema GIS"
 msgid "Browser Facing GIS"
 msgstr "Selain pohjainen GIS"
 
-#: ../../build/doc/metrics.rst:50
+#: ../../build/doc/metrics.rst:51
 msgid "Web Services"
 msgstr "Verkkopalvelut"
 
-#: ../../build/doc/metrics.rst:70
+#: ../../build/doc/metrics.rst:75
 msgid "Data Stores"
 msgstr "Tietovarastot"
 
-#: ../../build/doc/metrics.rst:81
+#: ../../build/doc/metrics.rst:86
 msgid "Navigation and Maps"
 msgstr "Navigointi ja kartat"
 
-#: ../../build/doc/metrics.rst:94
+#: ../../build/doc/metrics.rst:99
 msgid "Spatial Tools"
 msgstr "Paikkatietovälineet"
 
-#: ../../build/doc/metrics.rst:107
+#: ../../build/doc/metrics.rst:111
 msgid "Domain Specific GIS"
 msgstr "Erityisalan GIS"
 
-#: ../../build/doc/metrics.rst:115
+#: ../../build/doc/metrics.rst:119
 msgid "Data"
 msgstr "Tiedot"
 
-#: ../../build/doc/metrics.rst:126
+#: ../../build/doc/metrics.rst:130
 msgid "Geospatial Libraries"
 msgstr "Paikkatiedon kirjastot"

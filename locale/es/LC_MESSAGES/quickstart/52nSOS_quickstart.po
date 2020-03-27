@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2018
-# MarPetra <mvergaratrejo@gmail.com>, 2018
+# Vicky Vergara <vicky@georepublic.de>, 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,11 +62,11 @@ msgstr ""
 msgid "Explore the REST API endpoint for client developers."
 msgstr "Explorar el endpoint  REST de API para desarrolladores de cliente."
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:32
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:33
 msgid "Getting Started"
 msgstr "Para empezar"
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:34
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:35
 msgid ""
 "Select :menuselection:`Geospatial --> Web Services --> 52North --> Start "
 "52North SOS` to start the 52°North SOS."
@@ -74,42 +74,36 @@ msgstr ""
 "Seleccione :menuselection:`Geospatial --> Web Services --> 52North --> Start"
 " 52North SOS` para iniciar el 52°North SOS."
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:36
-msgid ""
-"This will open the 52°North SOS client welcome page in firefox at "
-"http://localhost:8080/52nSOS/ (see Fig. 1)."
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:45
+msgid "This will open the 52°North SOS client welcome page in firefox at"
 msgstr ""
-"Se abrirá la página en firefox de recepción de clientes del 52°North SOS  en"
-" http://localhost:8080/52nSOS/ (see Fig. 1)."
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:44
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:38
+msgid "http://localhost:8080/52nSOS/ (see Fig. 1)."
+msgstr ""
+
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:45
 msgid "**Fig. 1**: 52°North SOS client - welcome page."
 msgstr "**Fig. 1**: página de bienvenida de cliente de 52°North SOS- "
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:46
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:47
 msgid ""
-"Once you know `the capabilities of an SOS Server "
+"Click :guilabel:`Client` from the top menu bar. Once you know `the "
+"capabilities of an SOS Server "
 "<http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=2.0.0>`_,"
-" (see Fiq. 2) you can craft appropriate queries. Again, this is made easier "
-"by selecting sample queries from the test client pull down list. Using the "
-"information from the capabilities document, you can adjust the available "
-"example queries."
+" (see Fiq. 2) you can craft appropriate queries. This is made easier by "
+"selecting sample queries. Using the information from the capabilities "
+"document, you can adjust the available example queries."
 msgstr ""
-"Una vez que sepa `las capacidades de un servidor de SOS "
-"<http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=2.0.0>`_,"
-" (véase Fig. 2) puede crear consultas apropiadas. De nuevo, esto se hace más"
-" fácil seleccionando consultas de muestra de la lista desplegable del "
-"cliente de prueba. Usando la información  de capacidades del documento, "
-"puede ajustar las consultas de ejemplo disponibles."
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:57
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:58
 msgid ""
 "**Fig. 2**: 52°North SOS client - test client with GetCapabilities request."
 msgstr ""
 "**Fig. 2**: Cliente de 52°North SOS - cliente de prueba con petición "
 "GetCapabilities."
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:59
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:60
 msgid ""
 "To get the available observation data within the time interval from "
 "2018-07-02T23:45:00.000+00:00 to 2018-07-04T23:45:00.000+00:00 for each time"
@@ -125,26 +119,26 @@ msgstr ""
 "**unión ** SOAP --> **operación** GetObservation` en el campo de solicitud  "
 "`cliente de prueba <http://localhost:8080/52nSOS/client>`_ :"
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:94
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:95
 msgid "**Listing 1:** Request of observations."
 msgstr "**Listado 1:** petición de observaciones."
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:98
-msgid "Things to Try"
-msgstr "Cosas que probar"
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:99
+msgid "Things to try"
+msgstr "Cosas para probar"
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:100
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:101
 msgid "Try some of the other example queries from the pull down list."
 msgstr ""
 "Pruebe algunas de las otras consultas de ejemplo de la lista desplegable."
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:101
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:102
 msgid "Try tweaking some of these queries to get different information."
 msgstr ""
 "Intente ajustar algunas de estas consultas para obtener información "
 "diferente"
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:102
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:103
 msgid ""
 "Try the `SOS administrator <http://localhost:8080/52nSOS/admin/index>`_ "
 "using username :code:`user` and password :code:`user`."
@@ -152,7 +146,7 @@ msgstr ""
 "Pruebe el  `SOS administrator <http://localhost:8080/52nSOS/admin/index>`_ "
 "con el nombre de usuario :code:`user` y la contraseña :code:`user`."
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:104
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:105
 msgid ""
 "Try Helgoland - the `Viewer Client "
 "<http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ (see Fig. 3)."
@@ -161,11 +155,11 @@ msgstr ""
 "<http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ (véase Fig. "
 "3)."
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:105
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:106
 msgid "Try other sample data by performing the following steps:"
 msgstr "Pruebe otros datos de la muestra realizando los siguientes pasos:"
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:107
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:108
 msgid ""
 "Open the SOS administrator `database maintenance page "
 "<http://localhost:8080/52nSOS/admin/datasource>`_."
@@ -173,7 +167,7 @@ msgstr ""
 "Abra el administrador SOS  `página de mantenimiento de la base de datos "
 "<http://localhost:8080/52nSOS/admin/datasource>`_."
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:108
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:109
 msgid ""
 "Empty the database using the \"Clear Datasource\" button (this will delete "
 "the example data. You can restart OSGeoLive to get the data back.)."
@@ -182,7 +176,7 @@ msgstr ""
 "(esto borrará los datos de ejemplo. Puede reiniciar OSGeoLive para recuperar"
 " los datos.)."
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:110
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:111
 msgid ""
 "Insert dynamically generated sample data by clicking the \"Insert sample "
 "data\" button. Please be informed that this operation might take some "
@@ -192,7 +186,7 @@ msgstr ""
 " botón \"Insertar datos de muestra\". Le informamos de que esta operación "
 "puede tardar algunos minutos."
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:113
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:114
 msgid ""
 "Open `Helgoland "
 "<http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ again and "
@@ -202,14 +196,14 @@ msgstr ""
 "<http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_  de nuevo y "
 "explore la muestra de datos generada."
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:121
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:122
 msgid ""
 "**Fig. 3**: 52°North SOS client - JavaScript client with time series data."
 msgstr ""
 "**Fig. 3**: Cliente de 52°North SOS- Cliente JavaScript con daros de series "
 "de tiempo."
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:123
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:124
 msgid ""
 "Try the `Sensor Web REST API <http://localhost:8080/52nSOS/api/>`_ (see "
 "Listing 2):"
@@ -217,15 +211,15 @@ msgstr ""
 "Pruebe el  `Sensor Web REST API <http://localhost:8080/52nSOS/api/>`_ (Véase"
 " Listado 2):"
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:180
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:181
 msgid "**Listing 2:** Output of Sensor Web REST API endpoint."
 msgstr "**Listado 2:** Salida del endopoint de API REST de Sensor Web."
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:184
-msgid "What Next?"
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:185
+msgid "What next?"
 msgstr "¿Qué sigue?"
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:186
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:187
 msgid ""
 "To learn more about the 52°North SOS and/or the 52°North Sensor Web "
 "Community, potential starting points are:"
@@ -233,15 +227,15 @@ msgstr ""
 "Para aprender más sobre 52°North SOS y/o la Comunidad de Sensor Web "
 "52°North, puntos de partida potenciales son:"
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:189
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:190
 msgid "52°North :doc:`SOS overview <../overview/52nSOS_overview>`"
 msgstr "52°North :doc:`overview SOS <../overview/52nSOS_overview>`"
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:190
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:191
 msgid "52°North Sensor Web mailing list: sensorweb@52north.org"
 msgstr "Sensor Web 52°North, lista de correos: sensorweb@52north.org"
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:191
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:192
 msgid ""
 "52°North `Sensor Web community <https://52north.org/research/research-labs"
 "/sensor-web/>`_"
@@ -249,16 +243,16 @@ msgstr ""
 "52°North `comunidad Sensor Web <https://52north.org/research/research-labs"
 "/sensor-web/>`_"
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:192
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:193
 msgid "52°North `SOS Client <http://sensorweb.demo.52north.org/SOSclient/>`_"
 msgstr ""
 "52°North `Cliente SOS <http://sensorweb.demo.52north.org/SOSclient/>`_"
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:193
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:194
 msgid "52°North `SOS Web site <https://52north.org/sos>`_"
 msgstr "52°North `sitio Web SOS  <https://52north.org/sos>`_"
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:195
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:196
 msgid ""
 "The development of this version of the 52°North SOS was supported by "
 "different projects, organizations, and persons. More details can be found in"
@@ -268,7 +262,7 @@ msgstr ""
 "proyectos, organizaciones y personas. Más detalles pueden encontrarse en "
 "`52°North SOS client <http://localhost:8080/52nSOS/index>`_."
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:199
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:200
 msgid ""
 "We would like to thank the Belgian Interregional Environment Agency (`IRCEL "
 "- CELINE <http://www.irceline.be/en/>`_) for providing the demonstration "
@@ -281,7 +275,7 @@ msgstr ""
 "demostración se publican bajo una `CC-BY licence "
 "<http://creativecommons.org/licenses/by/3.0/>`_."
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:205
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:206
 msgid ""
 "When the SOS is not available, please check if the tomcat servlet engine is "
 "running. Use the following commands:"
@@ -289,7 +283,7 @@ msgstr ""
 "Cuando SOS no está disponible, por favor, revise si el motor tomcat servlet "
 "se está ejecutando. Utilice los sigueintes comandos:"
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:217
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:218
 msgid ""
 "**Listing 3:** Tomcat Status and Start (password for sudo: :code:`user`)."
 msgstr ""

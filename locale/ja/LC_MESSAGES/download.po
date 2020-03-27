@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Takayuki Nuimura <nuimura@nagoya-u.jp>, 2018
-# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2019
 # Ko Nagase <nagase@georepublic.co.jp>, 2019
 # 
 #, fuzzy
@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 21:53-0600\n"
 "PO-Revision-Date: 2017-11-07 03:17+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -33,9 +33,9 @@ msgid ""
 msgstr "最新の安定版リリースは  |osgeolive-version| でこちらからダウンロード可能です:"
 
 #: ../../build/doc/download.rst:11
-msgid "https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version|/"
+msgid ""
+"https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version-only|/"
 msgstr ""
-"https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version|/"
 
 #: ../../build/doc/download.rst:14
 msgid "Picking the right image for you:"

@@ -1,19 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2018
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,15 +22,33 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:14
+#: ../../build/doc/quickstart/liblas_quickstart.rst:15
 msgid "libLAS Quickstart"
 msgstr "libLAS Inicio Rápido"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:21
+#: ../../build/doc/quickstart/liblas_quickstart.rst:17
+msgid ""
+"libLAS is a C/C++ library for reading and writing the very common LAS LiDAR "
+"format. The ASPRS LAS format is a sequential binary format used to store "
+"data from LiDAR sensors and by LiDAR processing software for data "
+"interchange and archival."
+msgstr ""
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:19
+msgid ""
+"LiDAR (Light Detection and Ranging) is a form of high precision range "
+"detection much like a radar system that uses laser light as the "
+"electromagnetic emission. One of LiDAR systems' products is a \"point "
+"cloud\" data product that can be conceptualized as a series of point "
+"measurements representing distance from the sensor to a returned emission. A"
+" common storage format for these point cloud data is ASPRS LAS format."
+msgstr ""
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:25
 msgid "Processing"
 msgstr "Procesamiento"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:23
+#: ../../build/doc/quickstart/liblas_quickstart.rst:27
 msgid ""
 "The libLAS 'command-line utilities' provide the bulk of user-facing "
 "operational software for libLAS, although the underlying libLAS library is "
@@ -46,11 +65,11 @@ msgstr ""
 "tareas. Los datos de demostración se pueden encontrar en "
 ":file:`/home/user/data/las/srs.las`"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:30
+#: ../../build/doc/quickstart/liblas_quickstart.rst:34
 msgid "Reprojecting an LAS file"
 msgstr "Reproyectar un archivo LAS"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:32
+#: ../../build/doc/quickstart/liblas_quickstart.rst:36
 msgid ""
 "All LAS data are in some sort of coordinate system, even if that coordinate "
 "system is not described in the LAS file.  For terrestrial LAS data, these "
@@ -65,7 +84,7 @@ msgstr ""
 "database.  Otra fuente de información sobre sistemas de coordenadas en "
 "http://spatialreference.org."
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:45
+#: ../../build/doc/quickstart/liblas_quickstart.rst:49
 msgid ""
 "The --no-check option tells lasinfo to only print the header information for"
 " the file and to not scan through all of the points.  For a 10 point file, "
@@ -79,7 +98,7 @@ msgstr ""
 "archivo de 50 o 500 millones de puntos, no vale la pena esperar un escaneo "
 "completo de los datos si todo lo que desea es información del encabezado."
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:51
+#: ../../build/doc/quickstart/liblas_quickstart.rst:55
 msgid ""
 "Our 'lasinfo' invocation tells us that the ``srs.las`` file is in a UTM "
 "North Zone 17 coordinate system:"
@@ -87,7 +106,7 @@ msgstr ""
 "Nuestra invocación de 'lasinfo' nos dice que el archivo ``srs.las`` está en "
 "un sistema de coordenadas UTM Norte, Zona 17:"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:75
+#: ../../build/doc/quickstart/liblas_quickstart.rst:79
 msgid ""
 "Now that we know our input coordinate system, we can make a decision about "
 "what to reproject the data to.  In our first example, we're going to use the"
@@ -98,7 +117,7 @@ msgstr ""
 "vamos a utilizar el venerable sistema de coordenadas del carrée plate, "
 "`EPSG:4326`_."
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:83
+#: ../../build/doc/quickstart/liblas_quickstart.rst:87
 msgid ""
 "Our process succeeds, but after a quick inspection of the data with "
 "``lasinfo output.las`` we see a problem:"
@@ -106,7 +125,7 @@ msgstr ""
 "Nuestro proceso tiene éxito, pero después de una inspección rápida de los "
 "datos con ``lasinfo output.las``  vemos un problema:"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:95
+#: ../../build/doc/quickstart/liblas_quickstart.rst:99
 msgid ""
 "The ``srs.las`` file had a scale of 0.01, or two decimal places of precision"
 " for its X, Y, and Z coordinates. For UTM data, this is ok, because it "
@@ -122,7 +141,7 @@ msgstr ""
 " de precisión. Necesitamos establecer nuestros valores de escala a algo que "
 "pueda contener más precisión en nuestro caso:"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:106
+#: ../../build/doc/quickstart/liblas_quickstart.rst:110
 msgid ""
 "Another quick inspection with 'lasinfo' gives us something we're more "
 "comfortable with:"
@@ -130,6 +149,18 @@ msgstr ""
 "Otra inspección rápida con 'lasinfo' nos da algo con lo que nos sentimos más"
 " cómodos:"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:120
+#: ../../build/doc/quickstart/liblas_quickstart.rst:124
 msgid "Output LAS file to text"
 msgstr "Salida del archivo LAS al texto"
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:131
+msgid "What next?"
+msgstr "¿Qué sigue?"
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:133
+msgid "Website: http://liblas.org"
+msgstr ""
+
+#: ../../build/doc/quickstart/liblas_quickstart.rst:134
+msgid "Support: http://liblas.org/community.html"
+msgstr ""

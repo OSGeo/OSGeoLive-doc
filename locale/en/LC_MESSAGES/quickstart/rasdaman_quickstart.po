@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"POT-Creation-Date: 2020-03-25 17:45-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:19
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:20
 msgid "Rasdaman Quickstart"
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:21
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:22
 msgid ""
 "Rasdaman is a Big Data Engine for flexible ad-hoc analytics on multi-"
 "dimensional spatio-temporal sensor, image, simulation, and statistics "
@@ -34,11 +34,11 @@ msgid ""
 " an example 2D coverage using WCPS language."
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:30
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:31
 msgid "Setup"
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:32
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:33
 msgid ""
 "The first step before trying any of the following queries is to start "
 "rasdaman and Tomcat. Open the *Databases* directory on the Desktop, and "
@@ -47,54 +47,54 @@ msgid ""
 "<http://localhost:8080/rasdaman/ows>`_ loads in the browser)."
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:38
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:39
 msgid ""
 "Afterwards, you can open *Rasdaman-Earthlook Demo* from the same "
 "directory, which will launch a local demonstrator in the browser. For a "
 "more hands-on tutorial though, continue with the next examples here."
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:44
-msgid "Running WCPS Queries"
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:45
+msgid "Running WCPS queries"
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:49
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:50
 msgid "Either:"
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:47
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:48
 msgid ""
 "Go to the `rasdaman web client <http://localhost:8080/rasdaman/ows>`_, "
 "switch to the *ProcessCoverages* tab, and enter your query in the query "
 "boxes and press send."
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:48
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:49
 msgid ""
 "Add your query in this url: "
 "http://localhost:8080/rasdaman/ows?query=your_query and run it using a "
 "browser."
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:52
-msgid "Running Coverage"
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:53
+msgid "Running coverage"
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:54
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:55
 msgid ""
-"The example coverage which will be used in the seqeul is a 6 MB image as "
-"bellow:"
+"The example coverage which will be used subsequently is a 6 MB image as "
+"below:"
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:60
-msgid "Access A Coverage"
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:61
+msgid "Access full coverage"
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:62
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:63
 msgid "The WCPS query to access the full coverage is as follows:"
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:68
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:69
 #, python-format
 msgid ""
 "Click on `coverage request "
@@ -102,15 +102,15 @@ msgid ""
 " to execute it in the browser."
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:72
-msgid "Select a Subset of the Coverage"
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:73
+msgid "Select a subset of the coverage"
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:74
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:75
 msgid "The WCPS query to access a subset of the coverage is as follows:"
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:80
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:81
 #, python-format
 msgid ""
 "Click on the `subsetting request "
@@ -118,19 +118,19 @@ msgid ""
 " j(0:500)],%20%22png%22%29>`_ to execute it on the browser."
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:82
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:83
 msgid "The query result is an image as follows:"
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:89
-msgid "Band Extraction from the Coverage"
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:90
+msgid "Band extraction from the coverage"
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:91
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:92
 msgid "The WCPS query to access the red band of the coverage is as follows:"
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:97
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:98
 #, python-format
 msgid ""
 "Click on `band extraction "
@@ -139,11 +139,11 @@ msgid ""
 "result:"
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:103
-msgid "Arithmetic Operation: Extracting NDVI of the Coverage"
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:104
+msgid "Arithmetic operation: Extracting NDVI of the coverage"
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:105
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:106
 msgid ""
 "The NDVI (Normalized Difference Vegetation Index) is a measure for the "
 "probability of vegetation in remote sensing, i.e., the closer to +1 a "
@@ -151,18 +151,18 @@ msgid ""
 "from the coverage is as follows:"
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:123
-msgid "What Next?"
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:124
+msgid "What next?"
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:125
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:126
 msgid ""
 "The `rasdaman tutorial <http://tutorial.rasdaman.org>`_ provides a "
 "condensed introduction to the concepts behind rasdaman, rasql and the OGC"
 " web services support."
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:126
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:127
 msgid ""
 "Learn more about the OGC  `Web Coverage Processing Service "
 "<http://www.opengeospatial.org/standards/wcps>`_ (WCPS) Language standard"
@@ -172,20 +172,20 @@ msgid ""
 "sandbox.html>`_."
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:127
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:128
 msgid ""
 "Interested in coverage data and services in general? Visit OGC's "
 "`Coverages Domain Working Group wiki "
 "<http://external.opengeospatial.org/twiki_public/CoveragesDWG/WebHome>`_."
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:128
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:129
 msgid ""
 "Explore the `rasdaman documentation <http://doc.rasdaman.org>`_ to learn "
 "about rasdaman administration, its query language, and data ingestion."
 msgstr ""
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:129
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:130
 msgid ""
 "Go to the `multi-dimensional demo <http://localhost/rasdaman-demo>`_ to "
 "explore interactive 1-D to 4-D rasdaman demos. The small ones are part of"

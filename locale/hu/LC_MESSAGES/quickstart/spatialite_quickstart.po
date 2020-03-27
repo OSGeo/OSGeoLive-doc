@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki@agt.bme.hu>, 2019
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2019\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,16 +21,16 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:23
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:24
 msgid "SpatiaLite Quickstart"
 msgstr "SpatiaLite gyorstalpaló"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:25
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:26
 msgid "SpatiaLite is an SQLite database engine with spatial functions added."
 msgstr ""
 "A SpatiLite egy SQLite adatbázis motor hozzáadott térbeli függvényekkel."
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:27
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:28
 msgid ""
 "SQLite is a Database Management System (DBMS) which is simple, robust, easy "
 "to use and very lightweight. Each SQLite database is simply a file. You can "
@@ -41,7 +41,7 @@ msgstr ""
 "fájl. Szabadon másolhatja, tömörítheti átviheti Windows, Linux, MacOs, stb. "
 "között."
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:29
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:30
 msgid ""
 "This Quick Start describes how to open a spatialite database from both GUI "
 "applications and the command line. Some sample SQL queries are shown."
@@ -50,11 +50,11 @@ msgstr ""
 "grafikus felületről és a parancssorból. Néhány SQL lekérdezést is "
 "bemutatunk."
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:34
-msgid "Using spatialite-gui"
-msgstr "spatialite-gui használata"
-
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:36
+msgid "Start Spatialite and load a database"
+msgstr ""
+
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:38
 msgid ""
 "Spatialite-gui provides a visual interface for viewing and maintaining a "
 "spatialite database. You can easily see the structure of the tables and data"
@@ -66,28 +66,18 @@ msgstr ""
 "szerkezetét és tartalmát egérműveletekkel, melyek közül sok SQL lekérdezést "
 "hoz létre vagy készítse el saját SQL lekérdezéseit."
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:41
-msgid ""
-"Let's start by viewing a spatialite database, and looking at columns within "
-"a table:"
-msgstr ""
-"Kezdjük egy spatialite adatbázis megtekintésével és nézzük meg az oszlopokat"
-" egy táblában:"
-
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:44
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:43
 msgid ""
 "Open the Spatialite GUI by selecting "
-":menuselection:`Geospatial->Databases->Spatialite GUI`"
+":menuselection:`Geospatial->Databases->Spatialite GUI`."
 msgstr ""
-"Nyissa meg a Spatialite grafikus felületét a "
-":menuselection:`Geospatial->Databases->Spatialite GUI` kiválasztásával"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:52
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:47
 msgid "Select :menuselection:`File->Connecting an existing SQLite DB`"
 msgstr ""
 "Válassza a menüből :menuselection:`File->Connecting an existing SQLite DB`"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:53
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:48
 msgid ""
 "Browse to the :file:`/home/user/data/spatialite` directory and choose "
 ":file:`trento.sqlite`."
@@ -95,17 +85,17 @@ msgstr ""
 "Tallózzon a :file:`/home/user/data/spatialite` könyvtárba és válassza a "
 ":file:`trento.sqlite` fájlt."
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:61
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:55
 msgid "Right click on the MunicipalHallsView table and select \"Show Columns\""
 msgstr ""
 "Jobb kattintás a MunicipalHallsView táblán és válassza a \"Show Columns\" "
 "opciót"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:66
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:60
 msgid "You will notice the display broken into 3 areas:"
 msgstr "Megfigyelheti, hogy a képernyő három részre bomlik:"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:68
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:62
 msgid ""
 "The left panel displays the database hierarchy, such as a list of tables, "
 "and columns within the table. Right click on elements of the left panel to "
@@ -115,7 +105,7 @@ msgstr ""
 "listája és oszlopok a táblában. Jobb gombbal kattintson egy elemre a "
 "baloldali panelben az általános adatbázis műveletek listájához."
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:70
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:64
 msgid ""
 "The top right panel shows SQL for the action selected. You can enter your "
 "own customised SQL into this panel."
@@ -123,11 +113,11 @@ msgstr ""
 "A jobb-felső panel a kiválasztott művelethez tartozó SQL-t mutatja. Beviheti"
 " a saját testreszabott SQL utasítását ebbe a panelbe."
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:72
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:66
 msgid "The bottom right panel shows the results of the SQL query."
 msgstr "A jobb-alsó panel az SQL lekérdezés eredményét mutatja."
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:74
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:68
 msgid ""
 "Right Click on the MunicipalHalls table and select \"Edit table rows\". "
 "Notice the SQL query which has been created for you in the top right pane, "
@@ -137,7 +127,11 @@ msgstr ""
 " Vegye észre az SQL lekérdezést, melyet a program létrehozott a jobb-felső "
 "panelben és az eredményeket a jobb-alsóban::"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:87
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:76
+msgid "Run an SQL query"
+msgstr ""
+
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:83
 msgid ""
 "Now let's try tweaking this SQL statement to get NOME and (Lat,Long) for "
 "only the NOME_PROV fields include \"BRESCIA\", this time using the "
@@ -148,19 +142,17 @@ msgstr ""
 "\"BRESCIA\"-t, most a MunicipalHallsView-t használva. A jobb-felső SQL "
 "panelba írja be::"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:95
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:90
 msgid ""
-"and click the \"Execute SQL\" button at the right, and see the results in "
-"the bottom right pane."
+"Click the \"Execute SQL\" button at the right, and see the results in the "
+"bottom right pane."
 msgstr ""
-"és kattintson az \"Execute SQL\" gomra a jobb oldalon és az eredményt jobb "
-"alsó részen láthatja."
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:103
-msgid "Running spatialite from the command line"
-msgstr "Spatialite futtatása a parancssorból"
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:97
+msgid "Run spatialite from the command line"
+msgstr ""
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:105
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:99
 msgid ""
 "Users needing to script or automate queries will learn the advantages of "
 "working with a spatialite database from the command line interface. In this "
@@ -172,7 +164,7 @@ msgstr ""
 "vel való munkában. Ebben a példában betöltünk egy shape fájlt és a 42-es "
 "autópálya közelében lévő iskolákat keresi ki."
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:107
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:101
 msgid ""
 "Before working from the command line, we need to open a terminal window: "
 ":menuselection:`LXDE Menu -> Accessories -> LXTerminal`."
@@ -180,20 +172,20 @@ msgstr ""
 "A parancssori munka megkezdése előtt meg kell nyitnunk egy terminál ablakot:"
 " :menuselection:`LXDE Menu -> Accessories -> LXTerminal`."
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:109
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:103
 msgid "In the terminal open a sample database with **spatialite** by typing::"
 msgstr ""
 "A következők beírásával nyissa meg a minta adatbázis a **spatialitte**-tal::"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:113
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:108
 msgid "Helpful commands from the command line::"
 msgstr "Hasznos parancsok a parancssorból::"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:119
-msgid "Creating a new spatialite database and loading a shapefile"
-msgstr "Új spatialite adatbázis létrehozása és shape fájl betöltése"
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:116
+msgid "Create a new spatialite database and load a shapefile"
+msgstr ""
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:121
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:118
 msgid ""
 "Let's create a new, empty spatialite database, and load two shapefiles from "
 "the north_carolina dataset::"
@@ -201,7 +193,7 @@ msgstr ""
 "Hozzunk létre egy új, üres spatialite adatbázist és töltsünk be két shape "
 "fájlt a north_carolina adatokból:"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:144
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:141
 msgid ""
 "Note the format of the .loadshp command: first the shapefile without the "
 ".shp extension, then the name of the new spatialite table, next the "
@@ -211,11 +203,11 @@ msgstr ""
 " nélkül, utána az új spatialite tábla neve, majd a karakter kódolás és végül"
 "  a shape fájl referencia rendszerének az EPSG kódja."
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:146
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:143
 msgid "Now we'll query for schools near to highway 42.::"
 msgstr "Most lekérdezzük az iskolákat a 42-es autópálya közelében::"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:157
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:154
 msgid ""
 "Finally, we output the query to a \"comma separated values\" text file "
 "\"schools_rt42.txt\" with the following commands::"
@@ -223,27 +215,27 @@ msgstr ""
 "Végül írjuk ki a lekérdezés eredményét a következő paranccsal egy "
 "\"vesszővel elválasztott értékek\" szöveg fájlba \"schools_rt42.txt\"::"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:170
-msgid "Things to Try"
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:167
+msgid "Things to try"
 msgstr "Kipróbálandó dolgok"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:172
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:169
 msgid "Here are some additional challenges for you to try:"
 msgstr "Íme néhány további kihívás kipróbálásra:"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:174
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:171
 msgid "Inspect geometries with spatialite-gui"
 msgstr "Vizsgáljuk meg a geometriákat a spatialite-GUI-val"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:175
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:172
 msgid "Open and edit SpatiaLite layers in QGIS"
 msgstr "Nyissa meg és szerkessze a Spatialite rétegeket QGIS-ben"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:178
-msgid "What Next?"
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:175
+msgid "What next?"
 msgstr "Mi a következő?"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:180
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:177
 msgid ""
 "To learn more about SpatiaLite, a starting point is the `SpatiaLite project "
 "page`_."
@@ -251,6 +243,6 @@ msgstr ""
 "A  `SpatiaLite projekt lap`_ egy jó kiinduló pont a Statilalite további "
 "tanulásához"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:184
-msgid "and be sure to visit the tutorial `Spatialite cookbook`_"
-msgstr "és látogassa meg a `Spatialite cookbook`_ bemutatót"
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:181
+msgid "Be sure to visit the tutorial `Spatialite cookbook`_"
+msgstr ""

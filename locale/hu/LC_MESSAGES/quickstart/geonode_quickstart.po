@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki@agt.bme.hu>, 2019
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2019\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,15 +21,15 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:18
+#: ../../build/doc/quickstart/geonode_quickstart.rst:19
 msgid "GeoNode Quickstart"
 msgstr "GeoNode gyorstalpaló"
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:20
+#: ../../build/doc/quickstart/geonode_quickstart.rst:21
 msgid "Open Source Geospatial Content Management System"
 msgstr "Nyílt forráskódú érinformatikai tartalomkezelő rendszer"
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:22
+#: ../../build/doc/quickstart/geonode_quickstart.rst:23
 msgid ""
 "GeoNode is a web-based application and platform for developing geospatial "
 "information systems (GIS) and for deploying spatial data infrastructures "
@@ -38,31 +38,11 @@ msgstr ""
 "A GeoNode egy web alapú alkalmazás és platform térinformatikai rendszerek "
 "(GIS) fejlesztésére és téradat infrastruktúra (SDI) telepítésére."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:24
-msgid "In this Quickstart guide you will learn the following:"
-msgstr "Ebben a gyorstalpalóban a következőket tanulja meg:"
+#: ../../build/doc/quickstart/geonode_quickstart.rst:31
+msgid "Start GeoNode"
+msgstr ""
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:26
-msgid "to register a new account to get started"
-msgstr "új fiók regisztrálása az elinduláshoz"
-
-#: ../../build/doc/quickstart/geonode_quickstart.rst:27
-msgid "add a new layer"
-msgstr "egy új réteg hozzáadása"
-
-#: ../../build/doc/quickstart/geonode_quickstart.rst:28
-msgid "create a map using your new layer"
-msgstr "egy térkép létrehozása, mely az új rétegét használja"
-
-#: ../../build/doc/quickstart/geonode_quickstart.rst:29
-msgid "share your map with others"
-msgstr "térképe megosztása másokkal"
-
-#: ../../build/doc/quickstart/geonode_quickstart.rst:35
-msgid "Get to know GeoNode"
-msgstr "Ismerjük meg a GeoNode-t"
-
-#: ../../build/doc/quickstart/geonode_quickstart.rst:37
+#: ../../build/doc/quickstart/geonode_quickstart.rst:33
 msgid ""
 "To start GeoNode on your OSGeoLive DVD you have to choose "
 ":menuselection:`Geospatial --> Browser Clients --> GeoNode --> Start "
@@ -74,11 +54,11 @@ msgstr ""
 "kisvártatva a GeoNode honlap nyílik meg automatikusan http://geonode.org. Az"
 " oldal úgy fog kinézni mint a lenti kép."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:47
+#: ../../build/doc/quickstart/geonode_quickstart.rst:43
 msgid "Sign in as a registered user"
 msgstr "Jelentkezzen be mint egy regisztrált felhasználó"
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:49
+#: ../../build/doc/quickstart/geonode_quickstart.rst:45
 msgid ""
 "From the interface shown above, one can view and modify existing spatial "
 "layers and maps, as well as find information on other GeoNode users. But, "
@@ -92,7 +72,7 @@ msgstr ""
 "rétegekhez. Egy térkép létrehozásához és rétegek hozzáadásához először be "
 "kell jelentkeznie."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:51
+#: ../../build/doc/quickstart/geonode_quickstart.rst:47
 msgid ""
 "From any page in the web interface, you will see a *Sign in* link on the "
 "top-right of the page. Click that link, and in the dialog that displays, "
@@ -104,11 +84,11 @@ msgstr ""
 "felhasználó hitelesítő adatokat. Próbálja az \"admin\"-t és \"admin\"-t a "
 "Username-ra és a Password-re."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:58
+#: ../../build/doc/quickstart/geonode_quickstart.rst:54
 msgid "Add a new layer"
 msgstr "Új réteg hozzáadása"
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:60
+#: ../../build/doc/quickstart/geonode_quickstart.rst:56
 msgid ""
 "Layers are a published resource representing a raster or vector spatial data"
 " source. Layers also can be associated with metadata, ratings, and comments."
@@ -117,7 +97,7 @@ msgstr ""
 "térinformatikai adatforrást reprezentáltak. A rétegekhez metaadatokat, "
 "értékelést és megjegyzést rendelhetünk."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:62
+#: ../../build/doc/quickstart/geonode_quickstart.rst:58
 msgid ""
 "To see existing layers, from the navigation bar on the top of any page, "
 "select *Data* menu and click on the *Layers* link."
@@ -125,11 +105,11 @@ msgstr ""
 "A létező rétegek megtekintéséhez bármelyik lap tetején a navigáció sorból "
 "válassza a *Data* menüt és kattintson a *Layers* linkre."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:67
+#: ../../build/doc/quickstart/geonode_quickstart.rst:63
 msgid "The result will look like this:"
 msgstr "Az eredmény így fog kinézni:"
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:72
+#: ../../build/doc/quickstart/geonode_quickstart.rst:68
 msgid ""
 "To add a layer to your account, select the *Upload* button on the top right "
 "of the *Layers* page:"
@@ -137,7 +117,7 @@ msgstr ""
 "Egy réteg a fiókjához hozzáadásához válassza az *Upload* gombot  a *Layers* "
 "oldal jobb felső sarkában:"
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:77
+#: ../../build/doc/quickstart/geonode_quickstart.rst:73
 msgid ""
 "In case you want to upload data from any other page, from the navigation "
 "bar, select *Data* menu and click on the *Upload Layers* link."
@@ -145,13 +125,13 @@ msgstr ""
 "Amennyiben egy másik oldalról akar adatokat feltölteni, válassza a "
 "navigációs sorban a *Data* menüből az *Upload Layers* linket."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:82
+#: ../../build/doc/quickstart/geonode_quickstart.rst:78
 msgid ""
 "By clicking one of the above *Upload* links you will be brought to the "
 "upload page."
 msgstr "A fenti egyik *Upload* linkre kattintva a feltöltés oldalra kerül."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:87
+#: ../../build/doc/quickstart/geonode_quickstart.rst:83
 msgid ""
 "You have two possibilities to add your files. You can either do that by "
 "using *drag & drop* on the *Drop Files Here* area or you can use the *Choose"
@@ -165,7 +145,7 @@ msgstr ""
 "töltenie, mely egy *shp*, egy *prj*, egy *dbf* és egy *shx* fájlból áll. Ha "
 "az egyik hiányzik , a GeoNode figyelmezteti önt a feltöltés előtt."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:91
+#: ../../build/doc/quickstart/geonode_quickstart.rst:87
 msgid ""
 "Now click *Choose Files* button and you'll see a file selection window. "
 "Navigate to :file:`/home/user/data/natural_earth2` folder and select all the"
@@ -175,11 +155,11 @@ msgstr ""
 " meg. Navigáljon a  :file:`/home/user/data/natural_earth2` mappába és "
 "válassza a :file:`ne_10m_admin_0_countries` fájlokat."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:96
+#: ../../build/doc/quickstart/geonode_quickstart.rst:92
 msgid "You should now be able to see all the files you want to upload."
 msgstr "Most látnia kell az összes fájlt amit fel akar tölteni."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:101
+#: ../../build/doc/quickstart/geonode_quickstart.rst:97
 msgid ""
 "GeoNode has the ability to restrict who can view, edit, and manage layers. "
 "On the right side of the page you can see the *Permission* section, where "
@@ -197,11 +177,11 @@ msgstr ""
 "a *Who can edit this data* alatt válassza a felhasználó nevét. Ez "
 "biztosítja, hogy csak ön tudja szerkeszteni a réteg adatokat."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:108
+#: ../../build/doc/quickstart/geonode_quickstart.rst:104
 msgid "To upload data, click the *Upload* button at the bottom."
 msgstr "Az adatok feltöltéséhez kattintson az *Upload* gombra alul."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:113
+#: ../../build/doc/quickstart/geonode_quickstart.rst:109
 msgid ""
 "After the layer upload is completed, you can either preview the layer with "
 "*Layer Info* button, or edit the layer metadata with *Edit Metadata* or edit"
@@ -212,15 +192,15 @@ msgstr ""
 "Metadata*-val vagy szerkesztheti  réteg stílusát a GeoServeren a *Manage "
 "Styles* gombbal."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:118
+#: ../../build/doc/quickstart/geonode_quickstart.rst:114
 msgid "Press the *Layer Info* button to see the layer page"
 msgstr "Nyomj meg a *Layer Info* gombot a réteg oldal megjelenítéséhez"
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:125
+#: ../../build/doc/quickstart/geonode_quickstart.rst:121
 msgid "Create a new map"
 msgstr "Egy új térkép létrehozása"
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:127
+#: ../../build/doc/quickstart/geonode_quickstart.rst:123
 msgid ""
 "The next step for you is to create a map and add the newly created layers to"
 " this map."
@@ -228,7 +208,7 @@ msgstr ""
 "A következő lépése egy térkép létrehozása és az újonnan létrehozott rétegek "
 "hozzáadása lesz ehhez a térképhez."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:129
+#: ../../build/doc/quickstart/geonode_quickstart.rst:125
 msgid ""
 "Click the *Explore Maps* link on the *Maps* toolbar. This will bring up the "
 "list of maps."
@@ -236,19 +216,17 @@ msgstr ""
 "Kattintson az *Explore Maps* linkre a *Maps* eszközsorban. Ez a térképek "
 "listáját hozza fel."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:134
+#: ../../build/doc/quickstart/geonode_quickstart.rst:130
 msgid ""
 "Currently, there aren't any maps here. To add one click the *Create a New "
-"Map* button"
+"Map* button."
 msgstr ""
-"Jelenleg nincs egyetlen térkép sem itt. Egy hozzáadásához kattintson a "
-"*Create a New Map* gombra."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:139
+#: ../../build/doc/quickstart/geonode_quickstart.rst:135
 msgid "A map composition interface will display."
 msgstr "Megjelenik egy térkép összetállítási felület."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:144
+#: ../../build/doc/quickstart/geonode_quickstart.rst:140
 msgid ""
 "If a 404 popup message appears, ignore it, this is due to a missing "
 "GeoServer plugin that is not installed on OSGeoLive."
@@ -256,7 +234,7 @@ msgstr ""
 "Ha egy 404 felbukkanó üzenet jelenik meg, hagyja figyelmen kívül, ezt a "
 "hiányzó GoServer modul okozza, melyet az OSGeoLive-re nem telepítenek."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:146
+#: ../../build/doc/quickstart/geonode_quickstart.rst:142
 msgid ""
 "In this interface there is a toolbar, layer list, and map window. The map "
 "window contains the OpenStreetMap layer by default."
@@ -264,19 +242,17 @@ msgstr ""
 "Ebben az interfészben van egy eszközsor, egy réteg lista és térkép ablak. A "
 "térkép ablak az OpenStreetMap réteget tartalmazza alapértelmezés szerint."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:148
+#: ../../build/doc/quickstart/geonode_quickstart.rst:144
 msgid "Click on the *New Layers* button and select *Add Layers*."
 msgstr "Kattintson a *New Layers* gombra és válassza az Add Layers*-t."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:154
+#: ../../build/doc/quickstart/geonode_quickstart.rst:150
 msgid ""
-"Now you should be able to see all the available layers. In your case, this "
+"Now you should be able to see all the available layers. In this case, this "
 "should include the ones you've added before."
 msgstr ""
-"Most látnia kell az összes elérhető réteget. Az ön esetében tartalmaznia "
-"kellene az ön által korábban hozzáadott rétegeket."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:156
+#: ../../build/doc/quickstart/geonode_quickstart.rst:152
 msgid ""
 "Select some layers by clicking the first entry and Ctrl-clicking the rest. "
 "Click *Add Layers* to add them all to the map."
@@ -285,11 +261,11 @@ msgstr ""
 "kattintva. Kattintson az *Add Layers*-re az összes hozzáadásához a "
 "térképhez."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:161
+#: ../../build/doc/quickstart/geonode_quickstart.rst:157
 msgid "The layers will be added to the map."
 msgstr "A rétegeket hozzáadjuk a térképhez."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:163
+#: ../../build/doc/quickstart/geonode_quickstart.rst:159
 msgid ""
 "To save the map click on the *Map* button in the toolbar, and select *Save "
 "Map*."
@@ -297,11 +273,11 @@ msgstr ""
 "A térkép mentéséhez kattintson a *Map* gombra az eszközsorban és válassza a "
 "*Save Map*-ot."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:169
+#: ../../build/doc/quickstart/geonode_quickstart.rst:165
 msgid "Enter a title and abstract for your map."
 msgstr "Írjon be egy címet és egy összefoglalót a térképéhez."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:175
+#: ../../build/doc/quickstart/geonode_quickstart.rst:171
 msgid ""
 "Click *Save*. Notice that the link on the top right of the page changed to "
 "reflect the map's name."
@@ -309,7 +285,7 @@ msgstr ""
 "Kattintson a *Save*-re. Vegye észre, hogy az oldal jobb felső részén a link "
 "megváltozott, hogy a térkép nevét tükrözze."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:181
+#: ../../build/doc/quickstart/geonode_quickstart.rst:177
 msgid ""
 "This link contains a permalink to your map. If you open this link in a new "
 "window, your map will appear exactly as it was saved."
@@ -317,29 +293,29 @@ msgstr ""
 "Ez a link egy permalinket tartalmaz a térképhez. Ha egy új ablakban "
 "megnyitja ezt a linket a térképe pontosan úgy jelenik meg, ahogy elmentette."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:183
+#: ../../build/doc/quickstart/geonode_quickstart.rst:179
 msgid ""
 "Click *Done* next to the *Add Layers* button to see the legend of your map."
 msgstr ""
 "Kattintson a *Done*-ra az *Add Layers* gomb mellett a térkép "
 "jelmagyarázatának megtekintéséhez."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:186
+#: ../../build/doc/quickstart/geonode_quickstart.rst:182
 msgid "Share your map"
 msgstr "Ossza meg a térképét"
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:188
+#: ../../build/doc/quickstart/geonode_quickstart.rst:184
 msgid "Now let's finish our map."
 msgstr "Most fejezzük be a térképünket."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:190
+#: ../../build/doc/quickstart/geonode_quickstart.rst:186
 msgid ""
 "Right click on the *USA Population* layer and select *Zoom to layer extend*"
 msgstr ""
 "Jobb gomb kattintás az *USA Population* rétegen és válassza a *Zoom to layer"
 " extend*-et."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:196
+#: ../../build/doc/quickstart/geonode_quickstart.rst:192
 msgid ""
 "Make any final adjustments to the map composition as desired, including zoom"
 " and pan settings."
@@ -347,13 +323,13 @@ msgstr ""
 "Végezze el a szükséges végső simításokat beleértve a nagyítást és az eltolás"
 " beállítását."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:198
+#: ../../build/doc/quickstart/geonode_quickstart.rst:194
 msgid "Click the *Map* button in the toolbar, and then click *Publish Map*."
 msgstr ""
 "Kattintson a *Map* gombra az eszközsorban és utána kattintson a *Publish "
 "Map*-re."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:204
+#: ../../build/doc/quickstart/geonode_quickstart.rst:200
 msgid ""
 "The title and abstract as previously created should still be there. Make any"
 " adjustments as necessary, and click *Save*."
@@ -361,7 +337,7 @@ msgstr ""
 "A korábban beállított címnek és az összefoglalónak még ott kell lennie. "
 "Végezze el szükség szerint a módosításukat és kattintson a *Save*-re."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:206
+#: ../../build/doc/quickstart/geonode_quickstart.rst:202
 msgid ""
 "A new dialog will appear with instructions on how to embed this map in a "
 "webpage, including a code snippet. You can adjust the parameters as "
@@ -371,15 +347,15 @@ msgstr ""
 " honlapra beágyazhatjuk,  beleértve egy kódrészletet. Szükség szerint "
 "módosíthatja a paramétereket."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:212
-msgid "Your map can now be shared!"
-msgstr "A térképe most megosztható!"
+#: ../../build/doc/quickstart/geonode_quickstart.rst:208
+msgid "Your map can now be shared."
+msgstr ""
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:216
-msgid "What Next?"
+#: ../../build/doc/quickstart/geonode_quickstart.rst:212
+msgid "What next?"
 msgstr "Mi a következő?"
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:218
+#: ../../build/doc/quickstart/geonode_quickstart.rst:214
 msgid ""
 "Now you've gotten a quick insight in the possibilities of GeoNode. To learn "
 "more about GeoNode and its features, visit our webpage www.geonode.org."
@@ -388,7 +364,7 @@ msgstr ""
 "www.geonode.org honlapunkat, hogy többet tnuljon a GeoNode-ról és a "
 "funkcionalitásáról."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:220
+#: ../../build/doc/quickstart/geonode_quickstart.rst:216
 msgid ""
 "To install GeoNode on your own server, follow our `Quick Installation Guide "
 "<http://docs.geonode.org/en/latest/tutorials/install_and_admin/quick_install.html>`_"
@@ -399,7 +375,7 @@ msgstr ""
 "<http://docs.geonode.org/en/latest/tutorials/install_and_admin/quick_install.html>`_"
 " ."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:222
+#: ../../build/doc/quickstart/geonode_quickstart.rst:218
 msgid ""
 "In order to get started with GeoNode our `documentation "
 "<http://docs.geonode.org/en/latest/index.html>`_ might be useful."
@@ -407,7 +383,7 @@ msgstr ""
 "Az induláshoz a GeoNode-dal a `dokumentációnk "
 "<http://docs.geonode.org/en/latest/index.html>`_ hasznos lehet."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:224
+#: ../../build/doc/quickstart/geonode_quickstart.rst:220
 msgid ""
 "If you need help or want to get some information about a specific topic "
 "please don't hasitate to ask us! You can do this through the #geonode IRC "

@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki@agt.bme.hu>, 2019
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-06 12:41-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2019\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -184,6 +184,8 @@ msgid ""
 "|OSGeo_project| :doc:`mapcache_overview` - [:doc:`Quickstart "
 "<../quickstart/mapcache_quickstart>`] - OGC Web Services"
 msgstr ""
+"|OSGeo_project| :doc:`mapcache_overview` - [:doc:`Gyorstalpaló "
+"<../quickstart/mapcache_quickstart>`] - OGC Web Szolgáltatás"
 
 #: ../../build/doc/overview/overview.rst:137
 msgid ""
@@ -286,12 +288,16 @@ msgid ""
 "|nologo| :doc:`t-rex_overview` - [:doc:`Quickstart "
 "<../quickstart/t-rex_quickstart>`] - Vector Tile Service"
 msgstr ""
+"|nologo| :doc:`t-rex_overview` - [:doc:`Gyorstalapló "
+"<../quickstart/t-rex_quickstart>`] - Vektor Csempe Szolgáltatás"
 
 #: ../../build/doc/overview/overview.rst:163
 msgid ""
 "|nologo| :doc:`actinia_overview` - [:doc:`Quickstart "
 "<../quickstart/actinia_quickstart>`] - Processing of Geographical Data"
 msgstr ""
+"|nologo| :doc:`actinia_overview` - [:doc:`Gyorstalpaló "
+"<../quickstart/actinia_quickstart>`] - Térinformatikai adatatok feldolgozása"
 
 #: ../../build/doc/overview/overview.rst:167
 msgid "Data Stores"

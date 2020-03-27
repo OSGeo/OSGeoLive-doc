@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki@agt.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-03-25 21:08-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Zoltan Siki <siki@agt.bme.hu>, 2018\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,11 +56,9 @@ msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:29
 msgid ""
-"GpsPrune uses Gpsbabel, if available, to read data directly from a GPS "
+"GpsPrune uses GPSBabel, if available, to read data directly from a GPS "
 "receiver, and can send the edited data back to the receiver too."
 msgstr ""
-"A GpsPrune a GpsBabelt használja az adatok GPS vevőből történő közvetlen "
-"kiolvasására és a módosított adatokat is vissza tudja küldeni a vevőre."
 
 #: ../../build/doc/overview/gpsprune_overview.rst:32
 msgid ""
@@ -84,11 +82,9 @@ msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:45
 msgid ""
-"Zoomable map imagery from OpenStreetMap or any compatible server "
-"(OpenCycleMap, Reit- und Wanderkarte etc)"
+"Zoomable map imagery from OpenStreetMap or any compatible server (such as "
+"HikeBikeMap, Reit- und Wanderkarte etc)"
 msgstr ""
-"Nagyítható OpenStreetMap háttértérkép vagy bármilyen kompatibilis szerverről"
-" (OpenCycleMap, Reit- und Wanderkarte, stb.)"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:46
 msgid "Altitude or speed profile view"
@@ -136,9 +132,10 @@ msgid "Distances, climbs, descents, time estimates and more"
 msgstr "Távolság, emelkedés, ereszkedés, idő becslések és továbbiak"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:53
-msgid "Online resources such as wikipedia, gpsies and local weather forecasts"
+msgid ""
+"Online resources such as Wikipedia, GPSies, OpenCaching.de and local weather"
+" forecasts"
 msgstr ""
-"Online források mint például wikipedia, gpsies és helyi időjárás előrejelzés"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:56
 msgid "Details"
