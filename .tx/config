@@ -709,18 +709,6 @@ source_file = locale/pot/overview/netcdf_dataset_overview.pot
 source_lang = en
 type = PO
 
-[osgeolive.win_installers]
-file_filter = locale/<lang>/LC_MESSAGES/win_installers.po
-source_file = locale/pot/win_installers.pot
-source_lang = en
-type = PO
-
-[osgeolive.mac_installers]
-file_filter = locale/<lang>/LC_MESSAGES/mac_installers.po
-source_file = locale/pot/mac_installers.pot
-source_lang = en
-type = PO
-
 [osgeolive.quickstart--pywps_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/pywps_quickstart.po
 source_file = locale/pot/quickstart/pywps_quickstart.pot
