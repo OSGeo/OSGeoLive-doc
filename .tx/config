@@ -307,12 +307,6 @@ source_file = locale/pot/quickstart/pycsw_quickstart.pot
 source_lang = en
 type = PO
 
-[osgeolive.quickstart--toc]
-file_filter = locale/<lang>/LC_MESSAGES/quickstart/toc.po
-source_file = locale/pot/quickstart/toc.pot
-source_lang = en
-type = PO
-
 [osgeolive.quickstart--virtualization_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/virtualization_quickstart.po
 source_file = locale/pot/quickstart/virtualization_quickstart.pot
@@ -616,12 +610,6 @@ type = PO
 [osgeolive.overview--mapproxy_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/mapproxy_overview.po
 source_file = locale/pot/overview/mapproxy_overview.pot
-source_lang = en
-type = PO
-
-[osgeolive.overview--toc]
-file_filter = locale/<lang>/LC_MESSAGES/overview/toc.po
-source_file = locale/pot/overview/toc.pot
 source_lang = en
 type = PO
 
