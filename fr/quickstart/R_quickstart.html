@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>R Quickstart &#8212; OSGeoLive 13.0 Documentation</title>
+    <title>Guide de démarrage avec R &#8212; OSGeoLive 13.0 Documentation</title>
     <link rel="stylesheet" href="../../_static/overview.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -71,7 +71,7 @@
             
   <a class="reference external image-reference" href="http://cran.r-project.org"><img alt="../../_images/logo_R.png" class="align-right" src="../../_images/logo_R.png" /></a>
 <div class="section" id="r-quickstart">
-<h1>R Quickstart<a class="headerlink" href="#r-quickstart" title="Lien permanent vers ce titre">¶</a></h1>
+<h1>Guide de démarrage avec R<a class="headerlink" href="#r-quickstart" title="Lien permanent vers ce titre">¶</a></h1>
 <p>R est un environnement logiciel libre pour le calcul statistique et la création de graphiques.</p>
 <p>Ce guide de démarrage rapide décrit comment&nbsp;:</p>
 <blockquote>
@@ -89,7 +89,7 @@
 <li><a class="reference internal" href="#building-data" id="id2">Building data</a></li>
 <li><a class="reference internal" href="#loading-map-data" id="id3">Loading map data</a></li>
 <li><a class="reference internal" href="#vignettes" id="id4">Vignettes</a></li>
-<li><a class="reference internal" href="#what-next" id="id5">What next?</a></li>
+<li><a class="reference internal" href="#what-next" id="id5">Ensuite ?</a></li>
 </ul>
 </div>
 <div class="section" id="start-r">
@@ -227,7 +227,7 @@ forget a closing bracket or parenthesis.</p>
 </pre></div>
 </div>
 <img alt="../../_images/r_plot2_1.png" src="../../_images/r_plot2_1.png" />
-<p>Cela trace la carte de base des données transformées. Maintenant, nous voulons ajouter quelques points à partir de l’ensemble de données de lieux peuplés. Encore une fois, nous créons unsous-ensemble des points que nous voulons et les transformons dans la grille de référence de l’Ordnance Survey :</p>
+<p>Cela trace la carte de base des données transformées. Maintenant, nous voulons ajouter quelques points à partir de l’ensemble de données de lieux peuplés. Encore une fois, nous créons un sous-ensemble des points que nous voulons et les transformons dans la grille de référence de l’Ordnance Survey :</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>&gt; ukpop &lt;- places[places$SOV0NAME == &#39;United Kingdom&#39;,]
 &gt; ukpop &lt;- st_transform(ukpop,27700)
 </pre></div>
@@ -263,7 +263,7 @@ you will get the list of those vignettes on your system. Try <code class="docuti
 slightly technical introduction to the R spatial package.</p>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id5">What next?</a><a class="headerlink" href="#what-next" title="Lien permanent vers ce titre">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Ensuite ?</a><a class="headerlink" href="#what-next" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Pour plus d’informations sur R, essayez l”<a class="reference external" href="http://cran.r-project.org/doc/manuals/R-intro.html">introduction officielle à R</a> ou toute la documentation de la page principale <a class="reference external" href="http://www.r-project.org/">R Project</a> .</p>
 <p>Pour plus d’informations sur les aspects spatiaux de R, le meilleur endroit pour commencer est probablement <a class="reference external" href="http://cran.r-project.org/web/views/Spatial.html">R Spatial Task View</a> .</p>
 <p>Vous pouvez également consulter la page <a class="reference external" href="http://www.rspatial.org">R-Spatial</a>.</p>
