@@ -253,7 +253,7 @@ sub get_section {
     }
 
     if ($max == 1) {
-        $contents .= "              @img_line\n           @name_line\n\n";
+        $contents .= "           @img_line\n           @name_line\n\n";
         $contents .= "$description";
         return "$contents\n$slides";
     }
