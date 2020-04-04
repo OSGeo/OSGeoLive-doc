@@ -43,7 +43,7 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** https://www.qgis.org/
+**Website:** @WEB_qgis_mapserver@
 
 **Licence:** GPL
 
