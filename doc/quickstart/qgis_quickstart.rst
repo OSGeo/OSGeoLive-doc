@@ -300,6 +300,6 @@ What next?
 To learn more about QGIS, a good starting point is the `Documentation page`_ on
 the QGIS homepage and `A Gentle Introduction to GIS`_ eBook.
 
-.. _`Documentation page`: http://docs.qgis.org/
+.. _`Documentation page`: https://www.qgis.org/en/docs/index.html
 .. _`A Gentle Introduction to GIS`: https://docs.qgis.org/3.4/en/docs/gentle_gis_introduction/index.html
 .. _`QGIS User Guide`: https://docs.qgis.org/3.4/en/docs/user_manual/
