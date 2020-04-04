@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,8 +27,8 @@ msgstr ""
 
 #: ../../build/doc/sponsors_osgeo.rst:11
 msgid ""
-"The `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`__ is a"
-" not-for-profit organization whose mission is to foster global adoption "
+"The `Open Source Geospatial Foundation (OSGeo) <https://osgeo.org>`__ is "
+"a not-for-profit organization whose mission is to foster global adoption "
 "of open geospatial technology by being an inclusive software foundation "
 "devoted to an open philosophy and participatory community driven "
 "development."
@@ -40,28 +40,28 @@ msgstr ""
 
 #: ../../build/doc/sponsors_osgeo.rst:19
 msgid ""
-"`Local Chapters <http://www.osgeo.org/content/chapters/index.html>`__: "
-"Local, regional and language groups support grass roots activities."
+"`Local Chapters <https://www.osgeo.org/local-chapters>`__: Local, "
+"regional and language groups support grass roots activities."
 msgstr ""
 
 #: ../../build/doc/sponsors_osgeo.rst:20
 msgid ""
-"`GeoForAll <http://www.geoforall.org>`_: Over 100 educational labs from "
-"around the world who work with partners to make geospatial education and "
-"opportunities accessible to all."
+"`GeoForAll <https://www.osgeo.org/initiatives/geo-for-all>`__: Over 100 "
+"educational labs from around the world who work with partners to make "
+"geospatial education and opportunities accessible to all."
 msgstr ""
 
 #: ../../build/doc/sponsors_osgeo.rst:21
 msgid ""
-"`OSGeoLive <http://live.osgeo.org>`__: A distribution of established "
+"`OSGeoLive <https://live.osgeo.org>`__: A distribution of established "
 "geospatial open source software, pre-configured with sample data and "
 "quickstarts, ready to try out."
 msgstr ""
 
 #: ../../build/doc/sponsors_osgeo.rst:22
 msgid ""
-"`FOSS4G <http://foss4g.org>`_: Annual, international conference for *Free"
-" and Open Source Software for Geospatial*, as well as many regional and "
-"local `events <http://www.osgeo.org/events>`_."
+"`FOSS4G <https://foss4g.org>`_: Annual, international conference for "
+"*Free and Open Source Software for Geospatial*, as well as many regional "
+"and local `events <https://www.osgeo.org/events>`_."
 msgstr ""
 

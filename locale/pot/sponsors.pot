@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,31 +16,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../build/doc/sponsors.rst:2
-msgid "OSGeoLive Sponsors"
+#: ../../build/doc/sponsors.rst:1
+msgid "OSGeoLive Sponsors kea"
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:8
+#: ../../build/doc/sponsors.rst:10
 msgid "The Open Source Geospatial Foundation (OSGeo) provides the primary development & hosting infrastructure and personnel for the project, and for many of the software teams which contribute to it."
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:16
+#: ../../build/doc/sponsors.rst:18
 msgid "Information Center for the Environment at the University of California, Davis provides hardware resources and development support to the OSGeoLive project."
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:25
+#: ../../build/doc/sponsors.rst:27
 msgid "Remote Sensing Laboratory at the National Technical University of Athens, provides hardware resources and development support to the OSGeoLive project."
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:33
+#: ../../build/doc/sponsors.rst:35
 msgid "The DebianGIS and UbuntuGIS projects provide and quality-assure many of the core packages."
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:40
+#: ../../build/doc/sponsors.rst:42
 msgid "Okeanos is the Greek Academic cloud service (IaaS) which is providing virtualized computing resources free of charge to the Greek Universities and public Research Centres. Okeanos is build on top of existing proven open source software (e.g. Synnefo, Google Ganeti). Okeanos is kindly providing Virtual Machines for building the OSGeoLive iso images."
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:52
+#: ../../build/doc/sponsors.rst:53
 msgid "Georepublic is a Geolocation Technology Company, that embraces the idea of Free Software, and provide support and custom development for Open Source GIS software."
 msgstr ""
 
@@ -53,7 +53,7 @@ msgid "*Empower everyone with open source geospatial*"
 msgstr ""
 
 #: ../../build/doc/sponsors_osgeo.rst:11
-msgid "The `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`__ is a not-for-profit organization whose mission is to foster global adoption of open geospatial technology by being an inclusive software foundation devoted to an open philosophy and participatory community driven development."
+msgid "The `Open Source Geospatial Foundation (OSGeo) <https://osgeo.org>`__ is a not-for-profit organization whose mission is to foster global adoption of open geospatial technology by being an inclusive software foundation devoted to an open philosophy and participatory community driven development."
 msgstr ""
 
 #: ../../build/doc/sponsors_osgeo.rst:17
@@ -61,22 +61,22 @@ msgid "OSGeo outreach and activities include:"
 msgstr ""
 
 #: ../../build/doc/sponsors_osgeo.rst:19
-msgid "`Local Chapters <http://www.osgeo.org/content/chapters/index.html>`__: Local, regional and language groups support grass roots activities."
+msgid "`Local Chapters <https://www.osgeo.org/local-chapters>`__: Local, regional and language groups support grass roots activities."
 msgstr ""
 
 #: ../../build/doc/sponsors_osgeo.rst:20
-msgid "`GeoForAll <http://www.geoforall.org>`_: Over 100 educational labs from around the world who work with partners to make geospatial education and opportunities accessible to all."
+msgid "`GeoForAll <https://www.osgeo.org/initiatives/geo-for-all>`__: Over 100 educational labs from around the world who work with partners to make geospatial education and opportunities accessible to all."
 msgstr ""
 
 #: ../../build/doc/sponsors_osgeo.rst:21
-msgid "`OSGeoLive <http://live.osgeo.org>`__: A distribution of established geospatial open source software, pre-configured with sample data and quickstarts, ready to try out."
+msgid "`OSGeoLive <https://live.osgeo.org>`__: A distribution of established geospatial open source software, pre-configured with sample data and quickstarts, ready to try out."
 msgstr ""
 
 #: ../../build/doc/sponsors_osgeo.rst:22
-msgid "`FOSS4G <http://foss4g.org>`_: Annual, international conference for *Free and Open Source Software for Geospatial*, as well as many regional and local `events <http://www.osgeo.org/events>`_."
+msgid "`FOSS4G <https://foss4g.org>`_: Annual, international conference for *Free and Open Source Software for Geospatial*, as well as many regional and local `events <https://www.osgeo.org/events>`_."
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:58
+#: ../../build/doc/sponsors.rst:59
 msgid "Contributors"
 msgstr ""
 
@@ -1958,7 +1958,7 @@ msgstr ""
 msgid "Siki"
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:68
+#: ../../build/doc/sponsors.rst:69
 msgid "Translators"
 msgstr ""
 
