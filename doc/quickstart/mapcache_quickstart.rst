@@ -199,5 +199,5 @@ What Next?
 
 * Read the `MapCache Documentation <https://mapserver.org/mapcache/index.html>`_.
 * Then join the MapServer community, of which MapCache is a part, on the `Mailing Lists 
-  <http://www.mapserver.org/community/lists.html>`_ to exchange ideas, discuss 
+  <https://www.mapserver.org/community/lists.html>`_ to exchange ideas, discuss 
   potential software improvements and ask questions. 

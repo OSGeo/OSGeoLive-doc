@@ -45,8 +45,8 @@ Implemented Standards
 
 * Support of numerous Open Geospatial Consortium  (OGC) standards
 
-  * `WMS <http://www.opengeospatial.org/standards/wms>`__
-  * `WMTS <http://www.opengeospatial.org/standards/wmts>`__
+  * |WMS|
+  * |WMTS|
 
 * Additional standards include:
 
@@ -67,15 +67,15 @@ Documentation
 Details
 --------------------------------------------------------------------------------
 
-**Website:** https://mapserver.org/mapcache/
+**Website:** @WEB_mapcache@
 
-**Licence:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
+**Licence:** `MIT-style license <https://mapserver.org/copyright.html#license>`_
 
 **Software Version:** |version-mapcache|
 
 **Supported Platforms:** Windows, Linux, Mac
 
-**Support:** http://mapserver.org/community/
+**Support:** https://mapserver.org/community/
 
 @QUICKSTART_mapcache@
     
