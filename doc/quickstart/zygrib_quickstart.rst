@@ -57,7 +57,7 @@ Create an animation
 #. Click the right-hand most icon on the toolbar (a rocketship). A new window opens and an animation will be generated. 
 #. Wait while it runs through the time sequence for the first time. When it is done it will rewind to the beginning of the time series.
 #. You can play, pause and rewind the sequence as you like. 
-#. You can also save each frame as an image file for later encoding into an AVI, MPEG, or animated GIF `using other software <http://grass.osgeo.org/wiki/Movies>`_.
+#. You can also save each frame as an image file for later encoding into an AVI, MPEG, or animated GIF `using other software <https://grasswiki.osgeo.org/wiki/Movies>`_.
 #. When you're done, click the red power button to close.
 
 
@@ -70,5 +70,5 @@ downloaded GRIB file.
 See
 the :doc:`OpenCPN quickstart <../quickstart/opencpn_quickstart>` for details.
 
-* Website: http://www.zygrib.org
-* Support: http://zygrib.org/forum/
+* Website: https://www.zygrib.org
+* Support: https://zygrib.org/forum/

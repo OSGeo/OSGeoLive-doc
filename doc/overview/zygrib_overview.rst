@@ -31,7 +31,7 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.zygrib.org
+**Website:** @WEB_zygrib@
 
 **Licence:** GNU General Public License (GPL) version 3
 
@@ -39,7 +39,7 @@ Details
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
-**Support:** http://zygrib.org/forum/
+**Support:** https://zygrib.org/forum/
 
 
 @QUICKSTART_zygrib@
