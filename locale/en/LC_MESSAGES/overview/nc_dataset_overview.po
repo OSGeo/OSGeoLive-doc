@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -115,13 +115,11 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:63
-msgid "**Website:** http://www.grassbook.org/data_menu3rd.php"
+msgid "**Website:** https://wiki.osgeo.org/wiki/Category:Education"
 msgstr ""
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:65
-msgid ""
-"**License:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC "
-"BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_"
+msgid "**License:** |CC BY-SA 3.0|"
 msgstr ""
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:67
@@ -139,6 +137,6 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:73
-msgid "**Support:** http://lists.osgeo.org/mailman/listinfo/geodata"
+msgid "**Support:** https://lists.osgeo.org/mailman/listinfo/geodata"
 msgstr ""
 

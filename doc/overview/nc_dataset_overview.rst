@@ -53,9 +53,9 @@ Raster Data Themes:
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.grassbook.org/data_menu3rd.php
+**Website:** @WEB_nc_dataset@
 
-**License:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_
+**License:** |CC BY-SA 3.0|
 
 **Data Version:** 2008
 
@@ -63,7 +63,7 @@ Details
 
 **Spatial coordinate system:** NC State Plane (Lambert Conformal Conic), NAD83
 
-**Support:** http://lists.osgeo.org/mailman/listinfo/geodata
+**Support:** https://lists.osgeo.org/mailman/listinfo/geodata
 
 @QUICKSTART_nc_dataset@
 
