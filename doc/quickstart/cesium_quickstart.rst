@@ -59,7 +59,7 @@ What next?
 ==========
 * Watch our `video tutorials <https://www.youtube.com/playlist?list=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V>`_.
 
-* Read our written `tutorials <http://cesium.com/docs>`_.
+* Read our written `tutorials <https://cesium.com/docs>`_.
 
 * You can develop some quick applications using the `Sandcastle website <https://sandcastle.cesium.com/index.html>`_. Sandcastle is generally one of the best ways to learn about Cesium, and all the code examples are useful for this purpose.
 
