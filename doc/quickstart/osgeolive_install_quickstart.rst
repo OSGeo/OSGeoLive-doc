@@ -74,7 +74,7 @@ That is it.
 
 .. tip:: Installation Tips
       In case you are installing using a username other than "user", tomcat applications require to 
-      have permission to service command as described in http://trac.osgeo.org/osgeo/ticket/1153
+      have permission to service command as described in https://trac.osgeo.org/osgeo/ticket/1153
 
 See Also:
 --------------------------------------------------------------------------------
