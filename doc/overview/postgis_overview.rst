@@ -93,7 +93,7 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://postgis.net
+**Website:** @WEB_postgis@
 
 **Licence:** GNU General Public License (GPL) version 2
 
@@ -107,7 +107,7 @@ Details
   Link to webpage which lists the primary support details for the application,
   preferably this would list both community and commercial contacts.
 
-**Support:** http://www.osgeo.org/search_profile
+**Support:** |SUPPORT|
 
 
 @QUICKSTART_postgis@
