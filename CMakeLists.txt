@@ -111,8 +111,8 @@ option(DUMMY
 option(LATEX
     "Set ON|OFF (default=OFF) to build Documentation library tree as LATEX page" OFF)
 
-#option(LATEXPDF
-#    "Set ON|OFF (default=OFF) to build Documentation library tree as LATEXPDF page" OFF)
+option(LINKCHECK
+    "Set ON|OFF (default=OFF) to build Documentation library tree as LINKCHECK page" OFF)
 
 option(LOCALE
     "Set ON|OFF (default=OFF) to build the locale files of all languages.
@@ -120,7 +120,7 @@ option(LOCALE
     All supported languages are considered" OFF
     )
 
-foreach(opt HTML DIRHTML SINGLEHTML PICKLE JSON HTMLHELP LATEX)
+foreach(opt HTML DIRHTML SINGLEHTML PICKLE JSON HTMLHELP LATEX LINKCHECK)
     if (${${opt}} OR ALL_DOC)
         string(TOLOWER ${opt} val)
         list(APPEND OSGeoLiveDoc_DOC_TARGETS ${val})
@@ -240,7 +240,7 @@ MACRO(INSERT_INTO_MAP_KIND _KEY _TARGET)
       set(_TRGT 
 ".. image:: /images/logos/${_TARGET}.png
     :align: right
-    :target: target: http://www.osgeo.org
+    :target: https://www.osgeo.org
 ")
     endif()
       
@@ -290,6 +290,10 @@ ENDMACRO(INSERT_INTO_MAP_QUICK)
 MACRO(INSERT_INTO_MAP_NAME _KEY _TARGET)
     SET("NAME_${_KEY}" "${_TARGET}")
 ENDMACRO(INSERT_INTO_MAP_NAME)
+
+MACRO(INSERT_INTO_MAP_WEB _KEY _TARGET)
+	SET("WEB_${_KEY}" "${_TARGET}")
+ENDMACRO()
 
 set (OSGeoLiveDoc_PROJECTS_NAMES "")
 set (OSGeoLiveDoc_PROJECTS_LOGOS "")
@@ -344,6 +348,7 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     INSERT_INTO_MAP_SCREENSHOT("${project_page}" "${url_target}")
     INSERT_INTO_MAP_KIND("${project_page}" "${osgeo_kind}")
     INSERT_INTO_MAP_NAME("${project_page}" "${project_name}")
+    INSERT_INTO_MAP_WEB("${project_page}" "${url_target}")
     INSERT_INTO_MAP_QUICK("${project_page}" "${want_quickstart}")
 
 

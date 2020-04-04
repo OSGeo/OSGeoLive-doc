@@ -243,7 +243,21 @@ latex_documents = [
 
 # Linkcheck configuration, see http://sphinx.pocoo.org/latest/config.html#options-for-the-linkcheck-builder
 
-linkcheck_ignore = [ r'http://localhost:\d+/', r'http://localhost/', r'http://127.0.0.1:\d+/', r'http://download.osgeo.org/']
+linkcheck_ignore = [ r'http://www.dnr.state.mn.us/maps/compass.html',
+        r'https://www.asprs.org/divisions-committees/lidar-division/laser-las-file-format-exchange-activities.html',
+        r'http://geonode',
+        r'http://localhost:\d+/',  r'http://localhost:\d+', r'http://localhost/', r'http://127.0.0.1:\d+/',
+        r'https://localhost:\d+/',  r'https://localhost:\d+', r'https://localhost/', r'https://127.0.0.1:\d+/',
+        r'http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities',
+        'http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities',
+        r'https://www.orfeo-toolbox.org/packages/OTBSoftwareGuide.pdf',
+        r'https://www.mapbender.org/Community',
+        'http://members.ozemail.com.au/~nulifetv/freezip/freeware/dsfok.zip'
+        r'http://members.ozemail.com.au/~nulifetv/freezip/freeware/dsfok.zip'
+        'https://rasdaman.org',
+        r'https://www.youtube.com/watch?v=eQBdVO-n6Mg',
+        r'https://standards.rasdaman.com',
+        r'http://download.osgeo.org/']
 linkcheck_anchors = False
 
 # If false, no module index is generated.
@@ -284,6 +298,29 @@ rst_epilog="""
                         :align: middle
                         :height: 18
                         :target: ../sponsors_osgeo.html
+.. |CAT| replace:: `Catalogue Service <https://www.ogc.org/standards/cat>`__
+.. |CSW| replace:: `Catalogue Service <https://www.ogc.org/standards/cat>`__
+.. |GML| replace:: `Geography Markup Language (GML) <https://www.ogc.org/standards/gml>`__
+.. |FE| replace:: `Filter Encoding (FE) <https://www.ogc.org/standards/filter>`__
+.. |KML| replace:: `KML <https://www.ogc.org/standards/kml>`__
+.. |ORM| replace:: `OGC Reference Model (ORM) <https://www.ogc.org/standards/orm>`__
+.. |SENSORML| replace:: `Sensor Model Language (SensorML) <https://www.ogc.org/standards/sensorml>`__
+.. |SFS| replace:: `Simple Feature Access (SFS) <https://www.ogc.org/standards/sfs>`__
+.. |SFSQL| replace:: `Simple Features for SQL (SFS) <https://www.ogc.org/standards/sfs>`__
+.. |SLD| replace:: `Styled Layer Descriptor (SLD) <https://www.ogc.org/standards/sld>`__
+.. |SOS| replace:: `Sensor Observation Service (SOS) <https://www.ogc.org/standards/sos>`__
+.. |WCPS| replace:: `Web Coverage Processing Service <https://www.ogc.org/standards/wcps>`__
+.. |WCS| replace:: `Web Coverage Service (WCS) <https://www.ogc.org/standards/wcs>`__
+.. |WMC| replace:: `Web Map Context (WMC) <https://www.ogc.org/standards/wmc>`__
+.. |WMS| replace:: `Web Map Service (WMS) <https://www.ogc.org/standards/wms>`__
+.. |WMTS| replace:: `OpenGIS Web Map Tile ServiceW (WMTS) <https://www.ogc.org/standards/wmts>`__
+.. |WFS| replace:: `Web Feature Service (WFS) <https://www.ogc.org/standards/wfs>`__
+.. |WPS| replace:: `Web Processing Service (WPS) <https://www.ogc.org/standards/wps>`__
+.. |OGC| replace:: `Open Geospatial Consortium (OGC) <https://www.ogc.org>`__
+.. |OGCS| replace:: `OGC Standards <https://www.ogc.org/standards>`__
+.. |SUPPORT| replace:: `OSGeo service providers <https://www.osgeo.org/service-providers>`__
+.. |CC BY 3.0| replace:: `CC BY 3.0 <https://creativecommons.org/licenses/by/3.0/>`__
+.. |CC BY-SA 3.0| replace:: `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`__
 
 @OSGeoLiveDoc_PROJECTS_LOGOS@
 @OSGeoLiveDoc_PROJECTS_VERSIONS@""" % {

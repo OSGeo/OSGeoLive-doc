@@ -27,16 +27,14 @@ install:
   - pip install sphinxjp.themes.revealjs
   - sudo cpanm -f -n Text::SimpleTable::AutoWidth
 
+env:
+  - LINKCHECK=ON
+  - LINKCHECK=OFF    
+
 script: 
   - mkdir build
   - cd build
-  #- cmake -DLOCALE=ON -DALL_DOC=ON -DALL_LANG=ON ..
-  - cmake -DHTML=ON -DFI=ON -DIT=ON -DJA=ON -DES=ON -DFR=ON -DDE=ON -DHU=ON -@OSGeoLiveDoc_DEBUG=ON ..
-  - make
-  - cd ..
-  - bash scripts/clean-images.sh
-  - touch build/doc/_build/html/.nojekyll # needed for gh pages to keep dirs starting with _
-  - du -h build/doc/_build/html
+  - bash ../ci/travis.sh
 
 # deploy to github pages - see https://docs.travis-ci.com/user/deployment/pages/
 deploy:
@@ -47,4 +45,5 @@ deploy:
   local_dir:  build/doc/_build/html/
   verbose: true
   on:
-    branch: master # switch to master when ok
+    - branch: master # switch to master when ok
+    - condition: $LINKCHECK=OFF
