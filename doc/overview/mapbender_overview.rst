@@ -53,9 +53,9 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** https://www.mapbender.org/
+**Website:** @WEB_mapbender@
 
-**Licence:** `MIT license <http://opensource.org/licenses/MIT>`_
+**Licence:** `MIT license <https://opensource.org/licenses/MIT>`_
 
 **Software Version:** |version-mapbender|
 
