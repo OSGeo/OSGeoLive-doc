@@ -18,7 +18,7 @@ SpatiaLite is an SQLite_ database engine with spatial functions added.
 
 SQLite is a Database Management System (DBMS) which is simple, robust, easy to use and very lightweight. Each SQLite database is simply a file. You can freely copy it, compress it, and port it between Windows, Linux, MacOs etc.
 
-.. _SQLite: http://www.sqlite.org/
+.. _SQLite: https://www.sqlite.org/index.html
 
 @SCREENSHOT_spatialite@
 
@@ -49,7 +49,7 @@ Highlights:
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.gaia-gis.it/gaia-sins/
+**Website:** @WEB_spatialite@
 
 **Licence:** MPL v1.1 and GPL v3
 
