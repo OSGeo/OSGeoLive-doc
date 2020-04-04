@@ -55,7 +55,7 @@ You can start with simple arithmetic.
 
 A full range of arithmetic, trigonometric, and statistical
 functions are built-in, and thousands more are available from
-packages in the `CRAN <http://cran.r-project.org/>`_ archive.
+packages in the `CRAN <https://cran.r-project.org/>`_ archive.
 
 The main prompt in R is ``>``, but there is also the continuation prompt ``+``, which 
 appears if R expects more input to make a valid expression. You'll see this if you
@@ -262,10 +262,10 @@ slightly technical introduction to the R spatial package.
 What next?
 ==========
 
-For general information about R, try the official `Introduction to R <http://cran.r-project.org/doc/manuals/R-intro.html>`_ or any of the documentation from the main `R Project <http://www.r-project.org/>`_ page.
+For general information about R, try the official `Introduction to R <https://cran.r-project.org/doc/manuals/R-intro.html>`_ or any of the documentation from the main `R Project <https://www.r-project.org/>`_ page.
 
-For more information on spatial aspects of R, the best place to start is probably the `R Spatial Task View <http://cran.r-project.org/web/views/Spatial.html>`_
+For more information on spatial aspects of R, the best place to start is probably the `R Spatial Task View <https://cran.r-project.org/web/views/Spatial.html>`_
 
-You might also want to check out the `R-Spatial <http://www.rspatial.org>`_ 
+You might also want to check out the `R-Spatial <https://www.rspatial.org>`_ 
 page.
 

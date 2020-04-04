@@ -36,7 +36,7 @@ become a proficient user when compared to software with a graphical
 user interface (GUI). Fortunately R is well documented on the web site
 which eases the learning process. Scripts are often used to automate
 processing steps but there are GUIs, the leading one being
-RStudio (http://www.rstudio.com).
+RStudio (https://rstudio.com).
 
 R is an implementation of the S programming language and there is
 significant compatibility between R and legacy S and S-Plus code as
@@ -66,7 +66,7 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://cran.r-project.org
+**Website:** @WEB_R@
 
 **Licence:** GPL
 
@@ -74,7 +74,7 @@ Details
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 
-**Community Support:** http://cran.r-project.org/web/views/Spatial.html
+**Community Support:** https://cran.r-project.org/web/views/Spatial.html
 
 **CRAN packages available:** https://cran.r-project.org/web/packages/available_packages_by_name.html
 
