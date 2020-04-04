@@ -122,7 +122,7 @@ You can follow the same step with the other layers in the directory by using the
 Styling data
 ============
 
-Styling a data set into a map layer |GS| uses an OGC standard called `Styled Layer Descriptors (SLD) <http://www.opengeospatial.org/standards/sld>`__. These are represented as XML files which describe the rules that are used to apply various symbolizers to the data.
+Styling a data set into a map layer |GS| uses an OGC standard called |SLD|. These are represented as XML files which describe the rules that are used to apply various symbolizers to the data.
 
 To get started, lets style the Land and Ocean datasets. 
 You can create SLD files using a simple text editor, but sometimes a graphical editor is better. There are several options here but |UG| allows you to open the shapefiles directly and apply simple styles using a GUI. It also provides a simple editor to modify the XML if I need to. 
@@ -234,7 +234,7 @@ Adding the style to the layer
 Clients for WMS layers
 ================================================================================
 
-The `WMS <http://www.opengeospatial.org/standards/wms>`__ layers you are serving from |GS| can be used with a variety of clients on this OSGeoLive distribution, including: 
+The |WMS| layers you are serving from |GS| can be used with a variety of clients on this OSGeoLive distribution, including: 
 
 * :doc:`uDig <../overview/udig_overview>`
 * :doc:`OpenLayers <../overview/openlayers_overview>`
@@ -285,8 +285,9 @@ This is only the first step on the road to using GeoServer. There is a lot more 
 
 * GeoServer Project home - http://geoserver.org/
 
-* GeoServer User Manual - http://docs.geoserver.org/latest/en/user/
+* GeoServer User Manual - https://docs.geoserver.org/latest/en/user/
 
-* GeoServer Tutorials - http://docs.geoserver.org/latest/en/user/tutorials/index.html
+* GeoServer Tutorials - https://docs.geoserver.org/latest/en/user/tutorials/index.html
 
-* GeoServer Styling Workshop - http://docs.geoserver.org/latest/en/user/styling/workshop/index.html
+* GeoServer Styling Workshop - https://docs.geoserver.org/latest/en/user/styling/workshop/index.html
+

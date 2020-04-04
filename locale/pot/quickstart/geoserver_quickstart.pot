@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -153,7 +153,7 @@ msgid "Styling data"
 msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:131
-msgid "Styling a data set into a map layer |GS| uses an OGC standard called `Styled Layer Descriptors (SLD) <http://www.opengeospatial.org/standards/sld>`__. These are represented as XML files which describe the rules that are used to apply various symbolizers to the data."
+msgid "Styling a data set into a map layer |GS| uses an OGC standard called |SLD|. These are represented as XML files which describe the rules that are used to apply various symbolizers to the data."
 msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:133
@@ -265,7 +265,7 @@ msgid "Clients for WMS layers"
 msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:243
-msgid "The `WMS <http://www.opengeospatial.org/standards/wms>`__ layers you are serving from |GS| can be used with a variety of clients on this OSGeoLive distribution, including:"
+msgid "The |WMS| layers you are serving from |GS| can be used with a variety of clients on this OSGeoLive distribution, including:"
 msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:245
@@ -349,14 +349,14 @@ msgid "GeoServer Project home - http://geoserver.org/"
 msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:294
-msgid "GeoServer User Manual - http://docs.geoserver.org/latest/en/user/"
+msgid "GeoServer User Manual - https://docs.geoserver.org/latest/en/user/"
 msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:296
-msgid "GeoServer Tutorials - http://docs.geoserver.org/latest/en/user/tutorials/index.html"
+msgid "GeoServer Tutorials - https://docs.geoserver.org/latest/en/user/tutorials/index.html"
 msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:298
-msgid "GeoServer Styling Workshop - http://docs.geoserver.org/latest/en/user/styling/workshop/index.html"
+msgid "GeoServer Styling Workshop - https://docs.geoserver.org/latest/en/user/styling/workshop/index.html"
 msgstr ""
 

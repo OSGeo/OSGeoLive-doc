@@ -48,10 +48,10 @@ Core Features
      GeoServer supports the majority of the EPSG database of projections and can reproject to any of them on demand to allow clients with limited reprojection support to pass the load to the server.
 
 **Tiling Cache**
-    `GeoWebCache <http://geowebcache.org/>`_, which is integrated into GeoServer, tiles and caches map images from a variety of sources such as WMS. It implements various service interfaces (such as WMS-C, WMTS, TMS, Google Maps KML, Virtual Earth) in order to accelerate and optimize map image delivery. It can also recombine tiles to work with regular WMS clients.
+    `GeoWebCache <https://www.geowebcache.org>`_, which is integrated into GeoServer, tiles and caches map images from a variety of sources such as WMS. It implements various service interfaces (such as WMS-C, WMTS, TMS, Google Maps KML, Virtual Earth) in order to accelerate and optimize map image delivery. It can also recombine tiles to work with regular WMS clients.
 
 **Web Processing Service (WPS)**
-    Geospatial algorithms, including those from :doc:`JTS <jts_overview>`, can be called through GeoServer's `WPS <http://www.opengeospatial.org/standards/wps>`__ interface. This includes the chaining of processes, and using rendering transformations to create powerful visualisations through the WMS interface.
+    Geospatial algorithms, including those from :doc:`JTS <jts_overview>`, can be called through GeoServer's |WPS| interface. This includes the chaining of processes, and using rendering transformations to create powerful visualisations through the WMS interface.
 
 Implemented Standards
 --------------------------------------------------------------------------------
@@ -60,19 +60,19 @@ Support of numerous Open Geospatial Consortium  (OGC) standards:
 
   
 
-* `WMS <http://www.opengeospatial.org/standards/wms>`__ (client/server)
-* Web Map Tile Service (WMTS)
-* `WFS-T <http://www.opengeospatial.org/standards/wfs>`__ (transactional)
-* `WCS <http://www.opengeospatial.org/standards/wcs>`__
-* `FE <http://www.opengeospatial.org/standards/fe>`__
-* `SLD <http://www.opengeospatial.org/standards/sld>`__
-* `GML <http://www.opengeospatial.org/standards/gml>`__
-* `KML <http://www.opengeospatial.org/standards/kml>`__
+* |WMS| (client/server)
+* |WMTS|
+* |WFS| (transactional)
+* |WCS|
+* |FE|
+* |SLD|
+* |GML|
+* |KML|
 
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://geoserver.org/
+**Website:** @WEB_geoserver@
 
 **Licence:** GNU General Public License (GPL) version 2
 
@@ -89,5 +89,3 @@ Details
 .. presentation-note
     GeoServer is one of the more popular Web Service applications, providing Web Map Service, Web Feature Services, Web Coverage Services, Web Processing Services, Tile Caching and more.
     GeoServer comes with a nice browser-based management interface and connects to multiple data sources at the back end.
-
-
