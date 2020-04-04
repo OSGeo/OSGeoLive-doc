@@ -53,7 +53,7 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.saga-gis.org
+**Website:** @WEB_saga@
 
 **Licence:** LGPL v2.1 (api); GPLv2 (GUI and modules)
 
