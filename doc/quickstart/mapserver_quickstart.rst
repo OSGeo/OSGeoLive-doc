@@ -17,11 +17,10 @@
 @NAME_mapserver@ Quickstart
 ================================================================================
 
-MapServer is an `Open Source <http://www.opensource.org>`_ server based 
+MapServer is an `Open Source <https://opensource.org/>`_ server based 
 application that allows you to publish geographic map images and vector data 
-through the internet using `OGC standards <http://www.opengeospatial.org/standards>`__ 
-such as `WMS <http://www.opengeospatial.org/standards/wms>`__, `WFS 
-<http://www.opengeospatial.org/standards/wfs>`__, and `WCS <http://www.opengeospatial.org/standards/wcs>`__.
+through the internet using |OGCS| 
+such as |WMS|, |WFS| and |WCS|.
 
 .. contents:: Contents
     :local:
@@ -40,7 +39,7 @@ Configure MapServer using the Mapfile configuration file
 What is a Mapfile ?
 -------------------
 
-The `Mapfile <http://mapserver.org/mapfile/index.html>`_ is the 
+The `Mapfile <https://mapserver.org/mapfile/index.html>`_ is the 
 configuration file that MapServer uses to render geospatial data as images 
 or vector data. Its main purpose is to define the layers it can draw, how to 
 read necessary data, and how to render it (e.g. color, symbol, label, etc...).
@@ -126,7 +125,7 @@ contains a bunch of properties and objects too. Among them are:
 
   A complete list of the available objects and properties a Mapfile can have 
   can be found in the `MapServer documentation page 
-  <http://mapserver.org/mapfile/index.html>`_.
+  <https://mapserver.org/mapfile/index.html>`_.
 
 
 
@@ -142,8 +141,8 @@ Open a web browser and enter the following URL::
 
   http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Countries&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
 
-What does the above mean?  If we put it in simple words, it's a `Web Map 
-Service (WMS) <http://www.opengeospatial.org/standards/wms>`_ **GetMap** 
+What does the above mean?  If we put it in simple words, it's a |WMS|
+**GetMap** 
 request that tells MapServer to "*use the following Mapfile to render the 
 specified layers as a png image based on some user-supplied parameters such 
 as image size, geographical extent, projection, etc.*".  All layers 
@@ -230,7 +229,7 @@ Style a layer using Mapfile configurations
 In a Mapfile, a LAYER object can contain an infinite number of CLASS 
 objects. These are used to style the elements contained in the spatial data 
 file (DATA). For example, if we look closer at our "ne_10m_lakes" data file 
-using a tool such as `ogrinfo <http://www.gdal.org/ogrinfo.html>`_, we'll 
+using a tool such as `ogrinfo <https://gdal.org/ogrinfo.html>`_, we'll 
 see the geometry and attribute definitions it contains. These attribute 
 values can be used as a way to draw the elements inside a dataset 
 differently using multiple CLASS objects.
@@ -280,7 +279,7 @@ rendered with a black outline:
 .. note::
 
   Learn more about `EXPRESSIONS 
-  <http://mapserver.org/mapfile/expressions.html>`_ in MapServer.
+  <https://mapserver.org/mapfile/expressions.html>`_ in MapServer.
 
 
 Publish your data as OGC WMS (Web Map Service)
@@ -313,13 +312,13 @@ project website contains many resources to help you get started. Here's a
 few resources to check out next:
 
 * Read the `Introduction to MapServer 
-  <http://mapserver.org/introduction.html#introduction>`_.
+  <https://mapserver.org/introduction.html#introduction>`_.
 * Have a look at the `MapServer Tutorial 
-  <http://www.mapserver.org/tutorial/index.html>`_ which contains more Mapfile 
+  <https://www.mapserver.org/tutorial/index.html>`_ which contains more Mapfile 
   examples.
 * Check the `OGC Support and Configuration 
-  <http://www.mapserver.org/ogc/index.html>`_ to learn more about OGC 
+  <https://www.mapserver.org/ogc/index.html>`_ to learn more about OGC 
   standards in MapServer (WMS, WFS, SLD, WFS Filter Encoding, WCS, SOS, etc.).
 * Ready to use MapServer? Then join the community on the `Mailing Lists 
-  <http://www.mapserver.org/community/lists.html>`_ to exchange ideas, discuss 
+  <https://www.mapserver.org/community/lists.html>`_ to exchange ideas, discuss 
   potential software improvements and ask questions.
