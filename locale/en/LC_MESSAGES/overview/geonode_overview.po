@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../build/doc/overview/geonode_overview.rst:22
 msgid ""
-"`GeoNode <http://geonode.org>`_ is a Content Management System for "
+"`GeoNode <https://geonode.org>`_ is a Content Management System for "
 "geospatial data which provides creation, sharing, and collaborative use "
 "of geospatial data. Datasets can be uploaded in various formats, maps can"
 " be edited, styled and aggregated through browser based tools, maps and "
@@ -132,31 +132,31 @@ msgid "Implemented Standards"
 msgstr ""
 
 #: ../../build/doc/overview/geonode_overview.rst:69
-msgid "`WMS <http://www.opengeospatial.org/standards/wms>`__"
+msgid "|WMS|"
 msgstr ""
 
 #: ../../build/doc/overview/geonode_overview.rst:70
-msgid "`CSW <http://www.opengeospatial.org/standards/csw>`__"
+msgid "|CSW|"
 msgstr ""
 
 #: ../../build/doc/overview/geonode_overview.rst:71
-msgid "`WFS <http://www.opengeospatial.org/standards/wfs>`__"
+msgid "|WFS|"
 msgstr ""
 
 #: ../../build/doc/overview/geonode_overview.rst:72
-msgid "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
+msgid "|WCS|"
 msgstr ""
 
 #: ../../build/doc/overview/geonode_overview.rst:73
-msgid "`FE <http://www.opengeospatial.org/standards/fe>`__"
+msgid "|FE|"
 msgstr ""
 
 #: ../../build/doc/overview/geonode_overview.rst:74
-msgid "`SLD <http://www.opengeospatial.org/standards/sld>`__"
+msgid "|SLD|"
 msgstr ""
 
 #: ../../build/doc/overview/geonode_overview.rst:75
-msgid "`GML <http://www.opengeospatial.org/standards/gml>`__"
+msgid "|GML|"
 msgstr ""
 
 #: ../../build/doc/overview/geonode_overview.rst:78
@@ -164,7 +164,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/geonode_overview.rst:80
-msgid "**Website:** http://geonode.org/"
+msgid "**Website:** https://geonode.org"
 msgstr ""
 
 #: ../../build/doc/overview/geonode_overview.rst:82
@@ -184,7 +184,7 @@ msgid "**API Interfaces:** Python (Django)"
 msgstr ""
 
 #: ../../build/doc/overview/geonode_overview.rst:90
-msgid "**Support:** http://opengeo.org/technology/geonode/"
+msgid "**Support:** https://www.osgeo.org/service-providers"
 msgstr ""
 
 #: ../../build/doc/overview/geonode_overview.rst:94
