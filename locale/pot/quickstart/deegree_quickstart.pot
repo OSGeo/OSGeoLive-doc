@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,7 +77,7 @@ msgid "View a map"
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:72
-msgid "Click on *'see layers'* to open a simple map-client. The service is configured to visualize the data and a basemap (rendered by `OpenStreetMap <http://openstreetmap.org/>`_)."
+msgid "Click on *'see layers'* to open a simple map-client. The service is configured to visualize the data and a basemap (rendered by `OpenStreetMap <https://www.openstreetmap.org/>`_)."
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:74
@@ -85,11 +85,11 @@ msgid "Click on the **+** on the right side to open a layer tree showing all ava
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:77
-msgid "The map client is based on `OpenLayers <http://openlayers.org/>`_. You can pan through the map holding the left mouse button and drag the map. Zooming is possible via mouse wheel or the navigation elements on the left side."
+msgid "The map client is based on `OpenLayers <https://openlayers.org/>`_. You can pan through the map holding the left mouse button and drag the map. Zooming is possible via mouse wheel or the navigation elements on the left side."
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:81
-msgid "More information and step-by-step tutorials about the INSPIRE workspace can be found in the deegree `documentation <http://download.deegree.org/documentation/3.4.1/html/lightly.html#example-workspace-1-inspire-network-services>`_."
+msgid "More information and step-by-step tutorials about the INSPIRE workspace can be found in the deegree `documentation <https://download.deegree.org/documentation/3.4.1/html/lightly.html#example-workspace-1-inspire-network-services>`__."
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:86
@@ -101,10 +101,10 @@ msgid "This was just a short introduction to the features of deegree 3. There is
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:91
-msgid "deegree online demo - Available here: http://demo.deegree.org"
+msgid "deegree online demo - Available here: https://www.deegree.org/demo/"
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:93
-msgid "deegree website - Available here: http://www.deegree.org"
+msgid "deegree website - Available here: https://www.deegree.org"
 msgstr ""
 

@@ -63,17 +63,17 @@ Additionally it supports multiple request types and queries.
 View a map
 ==========
 
-#. Click on *'see layers'* to open a simple map-client. The service is configured to visualize the data and a basemap (rendered by `OpenStreetMap <http://openstreetmap.org/>`_).
+#. Click on *'see layers'* to open a simple map-client. The service is configured to visualize the data and a basemap (rendered by `OpenStreetMap <https://www.openstreetmap.org/>`_).
 
 #. Click on the **+** on the right side to open a layer tree showing all available  layers. You can activate the INSPIRE layer served by the deegree WMS here.
 
 .. tip::
-   The map client is based on `OpenLayers <http://openlayers.org/>`_. 
+   The map client is based on `OpenLayers <https://openlayers.org/>`_. 
    You can pan through the map holding the left mouse button and drag the map.
    Zooming is possible via mouse wheel or the navigation elements on the left side.
 
 More information and step-by-step tutorials about the INSPIRE workspace can be 
-found in the deegree `documentation <http://download.deegree.org/documentation/3.4.1/html/lightly.html#example-workspace-1-inspire-network-services>`_.
+found in the deegree `documentation <https://download.deegree.org/documentation/3.4.1/html/lightly.html#example-workspace-1-inspire-network-services>`__.
 
 
 What next?
@@ -82,6 +82,6 @@ What next?
 This was just a short introduction to the features of deegree 3. 
 There is more information in the demo installations and on the deegree website.
 
-  * deegree online demo - Available here: http://demo.deegree.org
+  * deegree online demo - Available here: https://www.deegree.org/demo/
 
-  * deegree website - Available here: http://www.deegree.org
+  * deegree website - Available here: https://www.deegree.org
