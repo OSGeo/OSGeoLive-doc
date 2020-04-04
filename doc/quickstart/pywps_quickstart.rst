@@ -14,12 +14,12 @@
 ********************************
 
 PyWPS is an OGC WPS (Web Processing Service 1.0.0) server implementation written
-in `Python <http://python.org>`_.
+in `Python <https://www.python.org>`_.
 
 The PyWPS 4.0.0 library is installed by default on OSGeo-Live. This is a core 
 library that is not intended to be executed directly, but rather to be used in the
 development of WPS services. An `example service <https://github.com/geopython/pywps-flask>`_ 
-based on `Flask <http://flask.pocoo.org/>`_ is available at
+based on `Flask <https://flask.palletsprojects.com>`_ is available at
 GitHub to facilitate a first contact with PyWPS. 
 
 This Quickstart describes how to:
@@ -153,8 +153,8 @@ accordingly.
   
 * Deployment to production -   The `pywps-flask` service is just an example and not designed for production. 
   One possible alternative is a Django based service, `pywps-django <https://github.com/jorgejesus/pywps-django>`_. The 
-  documentation provides further details on how to `set up a production service <http://pywps.readthedocs.io/en/latest/deployment.html>`_
-  with `Apache <https://httpd.apache.org/>`_ or `nginx <https://nginx.org/>`_ and `Gunicorn <http://gunicorn.org/>`_.
+  documentation provides further details on how to `set up a production service <https://pywps.readthedocs.io/en/latest/deployment.html>`_
+  with `Apache <https://httpd.apache.org/>`_ or `nginx <https://nginx.org/>`_ and `Gunicorn <https://gunicorn.org/>`_.
 
 .. _`workshop`: https://github.com/PyWPS/pywps-workshop
-.. _`documentation`: http://pywps.org/docs
+.. _`documentation`: https://pywps.org/docs/

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "Web Processing Service"
 msgstr ""
 
 #: ../../build/doc/overview/pywps_overview.rst:23
-msgid "PyWPS provides web access to custom geospatial operations (referred to as Processes) via the `Web Processing Service (WPS) <http://www.opengeospatial.org/standards/wps>`__ standard."
+msgid "PyWPS provides web access to custom geospatial operations (referred to as Processes) via the |WPS| standard."
 msgstr ""
 
 #: ../../build/doc/overview/pywps_overview.rst:26
@@ -93,7 +93,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/pywps_overview.rst:61
-msgid "**Website:** http://pywps.org"
+msgid "**Website:** https://pywps.org/"
 msgstr ""
 
 #: ../../build/doc/overview/pywps_overview.rst:63
@@ -113,7 +113,7 @@ msgid "**API Interfaces:** Python"
 msgstr ""
 
 #: ../../build/doc/overview/pywps_overview.rst:71
-msgid "**Support:** http://pywps.org/community/#professional-support"
+msgid "**Support:** https://pywps.org/community/#professional-support"
 msgstr ""
 
 #: ../../build/doc/overview/pywps_overview.rst:75
