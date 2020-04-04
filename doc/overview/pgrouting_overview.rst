@@ -14,7 +14,7 @@
 GIS Tools
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-pgRouting extends the :doc:`PostGIS <postgis_overview>`/`PostgreSQL <http://postgresql.org>`_ geospatial database to provide geospatial routing and other network analysis functionality.
+pgRouting extends the :doc:`PostGIS <postgis_overview>`/`PostgreSQL <https://www.postgresql.org>`_ geospatial database to provide geospatial routing and other network analysis functionality.
 
 Advantages of the database routing approach are:
 
@@ -54,7 +54,7 @@ Learn more about using pgRouting in your application by reading the `documentati
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.pgrouting.org
+**Website:** @WEB_pgrouting@
 
 **Licence:** GNU General Public License (GPL) version 2
 
@@ -64,7 +64,7 @@ Details
 
 **API Interfaces:** SQL
 
-**Commercial Support:** http://www.pgrouting.org/support.html
+**Commercial Support:** https://pgrouting.org/support.html
 
 
 @QUICKSTART_pgrouting@
