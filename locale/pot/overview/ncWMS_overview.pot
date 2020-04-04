@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,46 +77,46 @@ msgid "Implemented Standards"
 msgstr ""
 
 #: ../../build/doc/overview/ncWMS_overview.rst:53
-msgid "`WMS <http://www.opengeospatial.org/standards/wms>`__ (v1.1.1, v1.3.0)"
+msgid "|WMS| (v1.1.1, v1.3.0)"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:55
-msgid "`KML <http://www.opengeospatial.org/standards/kml>`__"
+#: ../../build/doc/overview/ncWMS_overview.rst:54
+msgid "|KML|"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:58
+#: ../../build/doc/overview/ncWMS_overview.rst:57
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:60
-msgid "**Website:** https://github.com/Reading-eScience-Centre/ncwms"
+#: ../../build/doc/overview/ncWMS_overview.rst:59
+msgid "**Website:** https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:62
-msgid "**Licence:** `Modified BSD License <https://github.com/Reading-eScience-Centre/ncwms/releases/download/ncwms-2.2.8/licence.txt>`_"
+#: ../../build/doc/overview/ncWMS_overview.rst:61
+msgid "**Licence:** `Modified BSD License <https://github.com/Reading-eScience-Centre/ncwms/blob/master/licence.txt>`__"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:64
+#: ../../build/doc/overview/ncWMS_overview.rst:63
 msgid "**Software Version:** |version-ncWMS|"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:66
+#: ../../build/doc/overview/ncWMS_overview.rst:65
 msgid "**Supported Platforms:** All Java 1.8 platforms: Windows, Linux, Mac"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:68
+#: ../../build/doc/overview/ncWMS_overview.rst:67
 msgid "**API Interfaces:** Java; WMS"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:70
+#: ../../build/doc/overview/ncWMS_overview.rst:69
 msgid "**Support:** https://github.com/Reading-eScience-Centre/ncwms/issues"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:75
+#: ../../build/doc/overview/ncWMS_overview.rst:74
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/ncWMS_overview.rst:77
+#: ../../build/doc/overview/ncWMS_overview.rst:76
 msgid ":doc:`Quickstart documentation <../quickstart/ncWMS_quickstart>`"
 msgstr ""
 
