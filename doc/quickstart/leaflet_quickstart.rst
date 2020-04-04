@@ -1,4 +1,4 @@
-:Author: Vladimir Agafonkin, adopted for live dvd by Johan Van de Wauw
+:Auhttps://lists.maptools.org/mailman/listinfo/projthor: Vladimir Agafonkin, adopted for live dvd by Johan Van de Wauw
 :Reviewer: Angelos Tzotsos, OSGeo
 :Reviewer: Nicolas Roelandt, OSGeoLive
 :Reviewer: Shubham Sharma
@@ -23,7 +23,7 @@ This will provide background tiles that will be used in this demo.
 
 View the example_
 
-.. tip :: If you are reading this quickstart outside OSGeoLive you may prefer reading the original demo on: http://leafletjs.com/examples/quick-start/, since this demo uses tilestache on OSGeoLive.
+.. tip :: If you are reading this quickstart outside OSGeoLive you may prefer reading the original demo on: https://leafletjs.com/examples/quick-start/, since this demo uses tilestache on OSGeoLive.
 
 Preparing your page
 ===================
@@ -172,6 +172,6 @@ What Next?
 Now you've learned Leaflet basics and can start building map apps straight away! Don't forget to take a look at the detailed documentation_ or other examples_.
 
 
-.. _documentation: http://leafletjs.com/reference.html
-.. _example: http://localhost/leaflet-demo.html
-.. _examples: http://leafletjs.com/examples.html
+.. _documentation: https://leafletjs.com/reference.html
+.. _example: https://localhost/leaflet-demo.html
+.. _examples: https://leafletjs.com/examples.html

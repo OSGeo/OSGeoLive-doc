@@ -89,7 +89,7 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://leafletjs.com
+**Website:** @WEB_leaflet@
 
 **Licence:** BSD
 
