@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -250,7 +250,7 @@ msgid ""
 "can't be reprojected gdalwarp does not read all the data.  We can force "
 "gdalwarp to read a bunch of surplus data around chunks as one way to "
 "resolve this. Read more about this in the RasterTutorial "
-"http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
+"https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
 msgstr ""
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:255
@@ -366,7 +366,7 @@ msgid "GDAL Project home"
 msgstr ""
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:455
-msgid "http://www.gdal.org"
+msgid "https://gdal.org"
 msgstr ""
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:457
@@ -374,7 +374,7 @@ msgid "GDAL Raster Tutorial"
 msgstr ""
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:459
-msgid "http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
+msgid "https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
 msgstr ""
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:461
@@ -382,6 +382,6 @@ msgid "GDAL Workshop"
 msgstr ""
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:463
-msgid "http://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
+msgid "https://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
 msgstr ""
 
