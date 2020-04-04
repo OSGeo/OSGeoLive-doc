@@ -2,12 +2,6 @@
 host = https://www.transifex.com
 type = PO
 
-[osgeolive.contributors]
-file_filter = locale/<lang>/LC_MESSAGES/contributors.po
-source_file = locale/pot/contributors.pot
-source_lang = en
-type = PO
-
 [osgeolive.download]
 file_filter = locale/<lang>/LC_MESSAGES/download.po
 source_file = locale/pot/download.pot
@@ -37,12 +31,6 @@ source_file = locale/pot/sponsors_osgeo.pot
 source_lang = en
 type = PO
 
-[osgeolive.translators]
-file_filter = locale/<lang>/LC_MESSAGES/translators.po
-source_file = locale/pot/translators.pot
-source_lang = en
-type = PO
-
 [osgeolive.metrics]
 file_filter = locale/<lang>/LC_MESSAGES/metrics.po
 source_file = locale/pot/metrics.pot
@@ -52,6 +40,12 @@ type = PO
 [osgeolive.sponsors]
 file_filter = locale/<lang>/LC_MESSAGES/sponsors.po
 source_file = locale/pot/sponsors.pot
+source_lang = en
+type = PO
+
+[osgeolive.osgeo_contact]
+file_filter = locale/<lang>/LC_MESSAGES/osgeo_contact.po
+source_file = locale/pot/osgeo_contact.pot
 source_lang = en
 type = PO
 
@@ -208,12 +202,6 @@ type = PO
 [osgeolive.quickstart--gpsprune_quickstart]
 file_filter = locale/<lang>/LC_MESSAGES/quickstart/gpsprune_quickstart.po
 source_file = locale/pot/quickstart/gpsprune_quickstart.pot
-source_lang = en
-type = PO
-
-[osgeolive.quickstart--ossim_quickstart]
-file_filter = locale/<lang>/LC_MESSAGES/quickstart/ossim_quickstart.po
-source_file = locale/pot/quickstart/ossim_quickstart.pot
 source_lang = en
 type = PO
 
@@ -460,12 +448,6 @@ type = PO
 [osgeolive.overview--geoserver_overview]
 file_filter = locale/<lang>/LC_MESSAGES/overview/geoserver_overview.po
 source_file = locale/pot/overview/geoserver_overview.pot
-source_lang = en
-type = PO
-
-[osgeolive.overview--ossim_overview]
-file_filter = locale/<lang>/LC_MESSAGES/overview/ossim_overview.po
-source_file = locale/pot/overview/ossim_overview.pot
 source_lang = en
 type = PO
 
