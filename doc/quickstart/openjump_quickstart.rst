@@ -94,11 +94,11 @@ What next?
 
 This is only the first step on the road to using OpenJUMP. There is a lot more material left for you to discover.
 
-* You can download tutorials for the OpenJUMP here: http://sourceforge.net/projects/jump-pilot/files/Documentation/
+* You can download tutorials for the OpenJUMP here: https://sourceforge.net/projects/jump-pilot/files/Documentation/
 
 * You can read the OpenJUMP wiki here: http://ojwiki.soldin.de/index.php?title=Main_Page
 
-* You can get help fast on the OpenJUMP users mailing list: http://groups.google.com/group/openjump-users
+* You can get help fast on the OpenJUMP users mailing list: https://groups.google.com/forum/#!forum/openjump-users
 
-* The latest OpenJUMP version can be found here: http://sourceforge.net/projects/jump-pilot/files/OpenJUMP/
+* The latest OpenJUMP version can be found here: https://sourceforge.net/projects/jump-pilot/files/OpenJUMP/
 

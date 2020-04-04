@@ -65,7 +65,7 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.openjump.org
+**Website:** @WEB_openjump@
 
 **Licence:** GPL
 
@@ -75,9 +75,9 @@ Details
 
 **Community Support:** http://www.openjump.org/support.html
 
-**Commercial Support:** http://ojwiki.soldin.de/index.php?title=Professional_Support_Page
+**Commercial Support:** https://ojwiki.soldin.de/index.php?title=Professional_Support_Page
 
-**Download Page:** http://sourceforge.net/projects/jump-pilot/files/
+**Download Page:** https://sourceforge.net/projects/jump-pilot/files/
 
 @QUICKSTART_openjump@
 
