@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,12 +27,11 @@ msgstr ""
 
 #: ../../build/doc/overview/52nWPS_overview.rst:20
 msgid ""
-"The 52°North `Web Processing Service (WPS) "
-"<http://www.opengeospatial.org/standards/wps>`__ enables web access to "
-"geospatial processing algorithms provided by Sextante, ArcGIS Server, R, "
-"GRASS 7, or custom developed functions. Algorithms may be as simple as "
-"determining the difference in influenza cases between two different "
-"seasons, or as complicated as a global climate change model."
+"The 52°North |WPS| enables web access to geospatial processing algorithms"
+" provided by Sextante, ArcGIS Server, R, GRASS 7, or custom developed "
+"functions. Algorithms may be as simple as determining the difference in "
+"influenza cases between two different seasons, or as complicated as a "
+"global climate change model."
 msgstr ""
 
 #: ../../build/doc/overview/52nWPS_overview.rst:32
@@ -108,7 +107,7 @@ msgid "Implemented Standards"
 msgstr ""
 
 #: ../../build/doc/overview/52nWPS_overview.rst:60
-msgid "OGC Web Processing Service (WPS)"
+msgid "|WPS|"
 msgstr ""
 
 #: ../../build/doc/overview/52nWPS_overview.rst:61
@@ -124,7 +123,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/52nWPS_overview.rst:67
-msgid "**Website:** https://52north.org/software/software-projects/wps/"
+msgid "**Website:** https://52north.org/software/software-projects/wps"
 msgstr ""
 
 #: ../../build/doc/overview/52nWPS_overview.rst:69

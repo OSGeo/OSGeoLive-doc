@@ -89,7 +89,7 @@ What next?
 
 * Set up the WPS to execute :doc:`R <../overview/R_overview>` scripts as processes.
 
-Available in the 52°North wiki: https://wiki.52north.org/bin/view/Geoprocessing/GeoprocessingTutorials
+Available in the 52°North wiki: https://wiki.52north.org/Geoprocessing/GeoprocessingTutorials
 	
 For further questions you can contact the 52°North WPS mailing list:
 
