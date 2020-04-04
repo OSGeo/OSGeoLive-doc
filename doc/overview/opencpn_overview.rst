@@ -30,7 +30,7 @@ OpenCPN supports:
 
 * BSB raster, C-MAP (CM93/2) and S-57 ENC vector charts
 * AIS input decoding
-* NMEA GPS or `Gpsd <http://gpsd.berlios.de>`_ daemon input
+* NMEA GPS or `Gpsd <https://www.berlios.de/software/gpsd/>`_ daemon input
 * Waypoint / autopilot navigation
 * Unlimited route/mark creation
 * Quilted charts
@@ -41,7 +41,7 @@ OpenCPN supports:
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.opencpn.org
+**Website:** @WEB_opencpn@
 
 **Licence:** GNU General Public License (GPL) version 2
 
@@ -49,7 +49,7 @@ Details
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
-**Support:** http://www.cruisersforum.com/forums/f134
+**Support:** https://www.cruisersforum.com/forums/f134/
 
 
 @QUICKSTART_opencpn@

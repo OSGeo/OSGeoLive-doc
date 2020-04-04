@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,7 @@ msgid "Click :guilabel:`OK` to agree to the OpenCPN license."
 msgstr ""
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:38
-msgid "You can download additional US nautical charts from NOAA at http://www.charts.noaa.gov"
+msgid "You can download additional US nautical charts from NOAA at https://www.charts.noaa.gov/"
 msgstr ""
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:42
@@ -117,10 +117,10 @@ msgid "`Getting started tips <../../opencpn/tips.html>`_"
 msgstr ""
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:91
-msgid "Website: http://www.opencpn.org"
+msgid "Website: https://www.opencpn.org"
 msgstr ""
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:93
-msgid "Support: http://www.cruisersforum.com/forums/f134"
+msgid "Support: https://www.cruisersforum.com/forums/f134"
 msgstr ""
 
