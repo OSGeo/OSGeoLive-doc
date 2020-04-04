@@ -1,7 +1,7 @@
 This is a suggested workshop abstract for inclusion within a conference program. You are welcome to customise as you see fit.
 
 The abstract, slides and script are maintained at:
-https://github.com/OSGeo/OSGeoLive-doc/tree/master/en/presentation
+https://github.com/OSGeo/OSGeoLive-doc/tree/master/doc/presentation
 
 The latest stable version of the slides can be viewed at:
 https://live.osgeo.org/en/presentation/index.html
@@ -11,6 +11,7 @@ https://live.osgeo.org/en/presentation/index.html
 
 :History: This document is derived from OSGeoLive Project Overviews and
   Quickstarts, by OSGeoLive authors.
+:History: This presentation was initially compiled by Cameron Shorter, one of the coordinators of the OSGeoLive project.
 
 :License: Creative Commons Attribution Share Alike 3.0 Unported (CC BY-SA 3.0)
 
@@ -41,5 +42,4 @@ This presentation is very useful for anyone wishing to gain a high level underst
 
 <Presenter1> is ...
 
-This presentation was initially compiled by Cameron Shorter, one of the coordinators of the OSGeoLive project.
 

@@ -21,8 +21,9 @@ OSGeoLive
         This OSGeoLive Overview, originally compiled by Cameron Shorter is licensed under a Creative Commons Attribution 3.0 License. It is derived from OSGeoLive Project Overviews, which are authored by the numerous OSGeoLive authors as referenced in the credits page at the end of this presentation, and also at <a href="https://live.osgeo.org">https://live.osgeo.org</a>.
         We have created this presentation in the hope that it will help increase the awareness and uptake of the breadth of quality GeoSpatial Open Source Software.
         Please feel free to use these slides, or a subset of these slides, for whatever purposes you see fit, but please credit us authors.
-        The latest version of this presentation and abstract is available at <a href="https://github.com/OSGeo/OSGeoLive-doc/tree/master/en/presentation">https://github.com/OSGeo/OSGeoLive-doc/tree/master/en/presentation</a>.
-        These slides make use of the <a href="http://lab.hakim.se/reveal-js/#/">reveal</a> javascript presentation library. Press "s" for Speaker Notes, [ESC] to zoom out, [SPACE] and arrow keys to navigate.
+        The latest version of this presentation and abstract is available at
+        <a href="https://github.com/OSGeo/OSGeoLive-doc/tree/master/doc/presentation">https://github.com/OSGeo/OSGeoLive-doc/tree/master/doc/presentation</a>.
+        These slides make use of the <a href="https://revealjs.com">reveal</a> javascript presentation library. Press "s" for Speaker Notes, [ESC] to zoom out, [SPACE] and arrow keys to navigate.
 
 .. revealjs::
 
@@ -111,7 +112,7 @@ OSGeoLive
         .. image:: ../images/logos/OSGeo_compass_with_text_square.png
             :alt: OSGeo
             :height: 300
-            :target: http://osgeo.org
+            :target: https://www.osgeo.org
 
         .. rv_note::
             Set up in 2006, the OSGeo Foundation is non-profit for the geospatial community which fosters an open approach to software, standards, education, research and data.
