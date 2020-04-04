@@ -52,13 +52,13 @@ as well as a handy desktop GIS for handheld PDAs or netbooks.
 Core Features
 --------------------------------------------------------------------------------
 
-* You name it, there's a `tool for it <https://grass.osgeo.org/grass76/manuals/keywords.html>`_.
+* You name it, there's a `tool for it <https://grass.osgeo.org/grass78/manuals/keywords.html>`_.
 * Explore the `screenshot collection <https://grass.osgeo.org/screenshots/>`_.
 
 Details
 --------------------------------------------------------------------------------
 
-**Website:** https://grass.osgeo.org
+**Website:** @WEB_grass@
 
 **Licence:** GNU General Public License (GPL) version 2+
 

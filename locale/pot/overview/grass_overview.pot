@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgid "Core Features"
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:65
-msgid "You name it, there's a `tool for it <https://grass.osgeo.org/grass76/manuals/keywords.html>`_."
+msgid "You name it, there's a `tool for it <https://grass.osgeo.org/grass78/manuals/keywords.html>`_."
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:66
@@ -53,7 +53,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:71
-msgid "**Website:** https://grass.osgeo.org"
+msgid "**Website:**"
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:73
