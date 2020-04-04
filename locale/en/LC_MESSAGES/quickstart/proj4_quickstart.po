@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,7 +58,7 @@ msgstr ""
 #: ../../build/doc/quickstart/proj4_quickstart.rst:149
 msgid ""
 "These commands are fully describe in `proj documentation "
-"<http://proj4.org/apps/proj.html>`_ for the latest version."
+"<https://proj.org/apps/proj.html>`_ for the latest version."
 msgstr ""
 
 #: ../../build/doc/quickstart/proj4_quickstart.rst:52
@@ -108,7 +108,7 @@ msgstr ""
 #: ../../build/doc/quickstart/proj4_quickstart.rst:94
 msgid ""
 "These commands are fully describe in `cs2cs documentation "
-"<http://proj4.org/apps/cs2cs.html>`_ for the latest version."
+"<https://proj.org/apps/cs2cs.html>`_ for the latest version."
 msgstr ""
 
 #: ../../build/doc/quickstart/proj4_quickstart.rst:97
@@ -200,19 +200,19 @@ msgid "Further reading"
 msgstr ""
 
 #: ../../build/doc/quickstart/proj4_quickstart.rst:195
-msgid "`GeographicLib <http://geographiclib.sf.net>`_"
+msgid "`GeographicLib <https://geographiclib.sourceforge.io/>`_"
 msgstr ""
 
 #: ../../build/doc/quickstart/proj4_quickstart.rst:197
 msgid ""
 "`C. F. F. Karney, Algorithms for Geodesics, J. Geodesy 87, 43-55 (2013) "
-"<http://dx.doi.org/10.1007/s00190-012-0578-z>`_. `Addendum "
-"<http://geographiclib.sf.net/geod-addenda.html>`_"
+"<https://link.springer.com/article/10.1007/s00190-012-0578-z>`_. "
+"`Addendum <https://geographiclib.sourceforge.io/geod-addenda.html>`_"
 msgstr ""
 
 #: ../../build/doc/quickstart/proj4_quickstart.rst:200
 msgid ""
-"`The online geodesic bibliography <http://geographiclib.sf.net/geodesic-"
-"papers/biblio.html>`_"
+"`The online geodesic bibliography <https://geographiclib.sourceforge.io"
+"/geodesic-papers/biblio.html>`_"
 msgstr ""
 
