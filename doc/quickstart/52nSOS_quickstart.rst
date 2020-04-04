@@ -187,18 +187,18 @@ potential starting points are:
 * 52°North :doc:`SOS overview <../overview/52nSOS_overview>`
 * 52°North Sensor Web mailing list: sensorweb@52north.org
 * 52°North `Sensor Web community <https://52north.org/research/research-labs/sensor-web/>`_
-* 52°North `SOS Client <http://sensorweb.demo.52north.org/SOSclient/>`_
-* 52°North `SOS Web site <https://52north.org/sos>`_
+* 52°North `SOS Client <https://sensorweb.demo.52north.org/sensorwebclient-webapp-stable/>`_
+* 52°North `SOS Web site <https://52north.org/software/software-projects/sos>`_
 
 The development of this version of the 52°North SOS was supported by different
 projects, organizations, and persons. More details can be found in the
 `52°North SOS client <http://localhost:8080/52nSOS/index>`_.
 
 We would like to thank the Belgian Interregional Environment Agency
-(`IRCEL - CELINE <http://www.irceline.be/en/>`_)
+(`IRCEL - CELINE <https://www.irceline.be/en/>`_)
 for providing the demonstration data used in this SOS installation.
 The demo data are published under a
-`CC-BY licence <http://creativecommons.org/licenses/by/3.0/>`_.
+|CC BY 3.0| license.
 
 When the SOS is not available, please check if the tomcat servlet engine is
 running. Use the following commands:
