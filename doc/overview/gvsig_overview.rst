@@ -90,7 +90,7 @@ Advanced client support of numerous Open Geospatial Consortium (OGC) standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.gvsig.com/
+**Website:** @WEB_gvsig@
 
 **Licence:** GNU General Public License (GPL) version 2
 
@@ -101,7 +101,7 @@ Details
 **Support:** http://www.gvsig.com/en/gvsig-association, http://www.gvsig.com/en/community/mailing-lists
 
 
-.. _gvSIG: http://www.gvsig.com
+.. _gvSIG: @WEB_gvsig@
 
 @QUICKSTART_gvsig@
 

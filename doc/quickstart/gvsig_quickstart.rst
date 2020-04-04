@@ -443,4 +443,4 @@ What next?
 * `User manuals <http://downloads.gvsig.org/download/web/en/build/html/index.html>`_
 * `Courses and tutorials <http://www.gvsig.com/en/diffusion/educational-material?p_p_id=122_INSTANCE_A9eo37KAqtxs&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&p_r_p_564233524_resetCur=true&p_r_p_564233524_categoryId=25973>`_
 * `Learning gvSIG in 30 minutes <https://blog.gvsig.org/2017/05/23/learning-gvsig-in-30-minutes/>`_
-* `gvSIG Blog <http://blog.gvsig.org/category/languages/english/>`_
+* `gvSIG Blog <https://blog.gvsig.org/category/languages/english/>`_
