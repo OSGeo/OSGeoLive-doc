@@ -287,4 +287,4 @@ and their source code. You can find more OpenLayers information here:
 
 * `Examples <../../openlayers/examples/>`_
 
-* `OpenLayers.org Website <http://openlayers.org/>`_
+* `OpenLayers.org Website <https://openlayers.org/>`_

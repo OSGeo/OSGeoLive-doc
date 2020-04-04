@@ -63,7 +63,7 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://openlayers.org
+**Website:** @WEB_openlayers@
 
 **License:** 2-clause BSD License (aka FreeBSD License)
 
