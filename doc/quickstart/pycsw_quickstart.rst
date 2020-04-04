@@ -12,7 +12,7 @@
 @NAME_pycsw@ Quickstart
 ********************************************************************************
 
-pycsw is an OGC CSW server implementation written in `Python <https://python.org>`_. pycsw allows for the publishing and discovery of geospatial metadata.  Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0.
+pycsw is an OGC CSW server implementation written in `Python <https://www.python.org>`_. pycsw allows for the publishing and discovery of geospatial metadata.  Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0.
 
 .. contents:: Contents
    :local:
@@ -105,7 +105,7 @@ In order to create a new SQLite database we need to:
 
 This will create the necessary tables and values for the repository.
 
-The database created is an `OGC SFSQL`_ compliant database, and can be used with any implementing software.  For example, to use with `OGR`_:
+The database created is an |SFS| compliant database, and can be used with any implementing software.  For example, to use with `OGR`_:
 
 .. code-block:: bash
 
@@ -167,7 +167,6 @@ What next?
 
 For more information on pycsw, please consult the `documentation`_ on the pycsw website.
 
-.. _`OpenGIS Catalogue Service Implementation Specification`: https://www.opengeospatial.org/standards/cat
 .. _`2011`: https://kralidis.ca/blog/2011/02/04/help-wanted-baking-a-csw-server-in-python/
 .. _`Open Source`: https://www.opensource.org/
 .. _`documentation`: https://pycsw.org/docs/
@@ -176,10 +175,9 @@ For more information on pycsw, please consult the `documentation`_ on the pycsw 
 .. _`Shapely`: https://github.com/Toblerity/Shapely
 .. _`pyproj`: https://github.com/jswhit/pyproj
 .. _`Download pycsw`: https://pycsw.org/download.html
-.. _`OGC Compliant`: https://www.opengeospatial.org/resource/products/details/?pid=1104
+.. _`OGC Compliant`: https://www.ogc.org/resource/products/details/?pid=1104
 .. _`OGC Reference Implementation`: http://demo.pycsw.org/
 .. _`GitHub`: https://github.com/geopython/pycsw
-.. _`OGR`: https://www.gdal.org/ogr
-.. _`OGC SFSQL`: https://www.opengeospatial.org/standards/sfs
+.. _`OGR`: https://gdal.org/ogrinfo.html
 .. _`OWSLib CSW`: https://geopython.github.io/OWSLib/#csw
 

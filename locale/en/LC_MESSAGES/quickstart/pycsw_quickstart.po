@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,9 +24,9 @@ msgstr ""
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:21
 msgid ""
 "pycsw is an OGC CSW server implementation written in `Python "
-"<https://python.org>`_. pycsw allows for the publishing and discovery of "
-"geospatial metadata.  Existing repositories of geospatial metadata can be"
-" exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0."
+"<https://www.python.org>`_. pycsw allows for the publishing and discovery"
+" of geospatial metadata.  Existing repositories of geospatial metadata "
+"can be exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0."
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:27
@@ -202,8 +202,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:114
 msgid ""
-"The database created is an `OGC SFSQL`_ compliant database, and can be "
-"used with any implementing software.  For example, to use with `OGR`_:"
+"The database created is an |SFS| compliant database, and can be used with"
+" any implementing software.  For example, to use with `OGR`_:"
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:126
