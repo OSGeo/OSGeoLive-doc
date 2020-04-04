@@ -30,7 +30,7 @@ Starting the iD Editor
 The iD editor requires an active connection to the Internet.
 
 #. Open your Internet browser, and go to the OpenStreetMap website at
-   http://www.openstreetmap.org.
+   https://www.openstreetmap.org.
 #. **Login** using your OpenStreetMap account.
 #. Pan and zoom the map to the area that you want to edit. You can pan
    by holding the left mouse button and dragging the map to your desired
@@ -69,7 +69,8 @@ Configuring the background layer
 
    |image17|
   
-#. Enter your **FieldPaper snapshot URL**, which will be something like this:   http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715
+#. Enter your **FieldPaper snapshot URL**, which will be something like this:
+   http://fieldpapers.org/snapshots/cqhmf2v9#18/37.80593/-122.22715
 
 #. To **display GPS tracks from your computer** (GPX format), drag and drop the GPX file into iD editor.
 
@@ -249,9 +250,9 @@ Or, you can add custom tags by clicking **All tags**. |image44|
 What next?
 ==========
 
-* Try the LearnOSM documentation, from which this quickstart was derived: http://learnosm.org/en/beginner/id-editor/
+* Try the LearnOSM documentation, from which this quickstart was derived: https://learnosm.org/en/beginner/id-editor/
 
-* Website: http://wiki.openstreetmap.org/wiki/ID
+* Website: https://wiki.openstreetmap.org/wiki/ID
 
 .. |image3| image:: /images/projects/ideditor/id-editor_image3.png
   :height: 24px

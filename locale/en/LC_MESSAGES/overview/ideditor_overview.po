@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,8 +28,8 @@ msgstr ""
 #: ../../build/doc/overview/ideditor_overview.rst:19
 msgid ""
 "The iD editor is the de facto, browser-based `OpenStreetMap "
-"<http://www.openstreetmap.org>`_ editor. iD is fast and easy to use, and "
-"allows mapping from various data sources such as satellite and aerial "
+"<https://www.openstreetmap.org>`_ editor. iD is fast and easy to use, and"
+" allows mapping from various data sources such as satellite and aerial "
 "imageries, GPS, Field Papers or Mapillary."
 msgstr ""
 
@@ -73,7 +73,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/ideditor_overview.rst:46
-msgid "**Website:** http://wiki.openstreetmap.org/wiki/ID"
+msgid "**Website:** https://wiki.openstreetmap.org/wiki/ID"
 msgstr ""
 
 #: ../../build/doc/overview/ideditor_overview.rst:48
