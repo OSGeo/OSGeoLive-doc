@@ -62,7 +62,7 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://udig.refractions.net/
+**Website:** @WEB_udig@
 
 **Licence:** Dual BSD / EPL (Eclipse Foundation)
 
