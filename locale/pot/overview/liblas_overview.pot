@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,7 @@ msgid "`Command line utilities`_ for manipulating LAS data based on `LAStools`_"
 msgstr ""
 
 #: ../../build/doc/overview/liblas_overview.rst:42
-msgid "Coordinate reprojection via `GDAL <http://gdal.org>`__"
+msgid "Coordinate reprojection via `GDAL <https://gdal.org>`__"
 msgstr ""
 
 #: ../../build/doc/overview/liblas_overview.rst:45
@@ -53,7 +53,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/liblas_overview.rst:47
-msgid "**Website:** http://liblas.org"
+msgid "**Website:** https://liblas.org/"
 msgstr ""
 
 #: ../../build/doc/overview/liblas_overview.rst:49
@@ -73,7 +73,7 @@ msgid "**API Interfaces:** C, C++, Python"
 msgstr ""
 
 #: ../../build/doc/overview/liblas_overview.rst:57
-msgid "**Support:** `Communication and Support <http://liblas.org/community.html>`_"
+msgid "**Support:** `Communication and Support <https://liblas.org/community.html>`_"
 msgstr ""
 
 #: ../../build/doc/overview/liblas_overview.rst:71
