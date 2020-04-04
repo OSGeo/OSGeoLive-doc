@@ -17,13 +17,13 @@ exchange “geospatial” information and instructions with other information
 systems. Requirements range from complex scheduling and control of Earth
 observation satellites to displaying simple map images on the Web and encoding
 location in just a few bytes for geo-tagging and messaging. A look at the `OGC
-Domain Working Groups <http://www.opengeospatial.org/projects/groups/wg>`_
+Domain Working Groups <http://www.ogc.org/projects/groups/wg>`_
 shows the wide scope of current activity in the OGC.
 
-The OGC Standards Baseline consists of the `OGC standards
-<http://www.opengeospatial.org/standards>`_ for interfaces, encodings,
-profiles, application schemas, and best practice documents. The `OGC Reference
-Model (ORM) <http://www.opengeospatial.org/standards/orm>`_ describes these
+The OGC Standards Baseline consists of the |OGC| standards
+for interfaces, encodings,
+profiles, application schemas, and best practice documents. The |ORM|
+describes these
 standards and the relationships between them and related ISO standards. The ORM
 provides an overview of OGC standards and serves as a useful resource for
 defining architectures for specific applications.
@@ -40,9 +40,9 @@ environment.
 Most of the OGC standards developed in recent years are standards for the Web
 services environment, and these standards are collectively referred to as OGC
 Web Services (OWS). A `comprehensive list of standards
-<http://www.opengeospatial.org/standards/>`_ is available.
+<https://www.ogc.org/standards/>`__ is available.
 
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.opengeospatial.org
+**Website:** @WEB_ogc@
