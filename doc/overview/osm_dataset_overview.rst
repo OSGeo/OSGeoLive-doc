@@ -55,9 +55,9 @@ The smaller CBD extract is loaded into another PostGIS database called "pgroutin
 Details
 --------------------------------------------------------------------------------
 
-**Website:** https://www.openstreetmap.org/
+**Website:** @WEB_osm_dataset@
 
-**License:** `Open Data Commons Open Database License (ODbL) <http://opendatacommons.org/licenses/odbl/>`_
+**License:** `Open Data Commons Open Database License (ODbL) <https://opendatacommons.org/licenses/odbl/>`_
 
 **Data Version:** Live database extract
 
