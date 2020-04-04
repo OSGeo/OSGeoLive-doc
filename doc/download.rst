@@ -19,7 +19,7 @@ A Lubuntu based bootable image, which can be copied to an 8 Gig USB thumb drive 
 
 **osgeolive-vm**: |osgeolive-vm-7z-size|
 
-This is a pre-made virtual machine (.vmdk), based on osgeolive, suitable for use in VirtualBox, VMWare, KVM and other virtual machine applications. It has been compressed using `7-Zip <http://www.7-zip.org/>`_.
+This is a pre-made virtual machine (.vmdk), based on osgeolive, suitable for use in VirtualBox, VMWare, KVM and other virtual machine applications. It has been compressed using `7-Zip <https://www.7-zip.org/>`_.
 
 **amd64 or i386 architecture**
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,11 +45,11 @@ msgid "Community Support"
 msgstr ""
 
 #: ../../build/doc/contact.rst:26
-msgid "If you have any questions, comments, or run into any problems, please drop us a note on `our mailing list <http://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
+msgid "If you have any questions, comments, or run into any problems, please drop us a note on `our mailing list <https://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
 msgstr ""
 
 #: ../../build/doc/contact.rst:29
-msgid "Searchable archives of the mailing list are hosted by `Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_."
+msgid "Searchable archives of the mailing list are hosted by `Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeoLive-f3777350.html>`_."
 msgstr ""
 
 #: ../../build/doc/contact.rst:32
@@ -57,11 +57,11 @@ msgid "IRC users might try the #osgeolive or #osgeo channel at Freenode.net for 
 msgstr ""
 
 #: ../../build/doc/contact.rst:35
-msgid "A wealth of information is available on our `Wiki site <http://wiki.osgeo.org/wiki/OSGeoLive>`_, and a `bug and wish tracking system <https://trac.osgeo.org/osgeolive/report/10>`_ is also available."
+msgid "A wealth of information is available on our `Wiki site <https://trac.osgeo.org/osgeolive/wiki>`_, and a `bug and wish tracking system <https://trac.osgeo.org/osgeolive/report/10>`_ is also available."
 msgstr ""
 
 #: ../../build/doc/contact.rst:38
-msgid "Stay tuned and follow OSGeoLive on Twitter `@osgeolive <https:twitter.com/osgeolive>`_."
+msgid "Stay tuned and follow OSGeoLive on Twitter `@osgeolive <https://mobile.twitter.com/osgeolive>`_."
 msgstr ""
 
 #: ../../build/doc/contact.rst:41

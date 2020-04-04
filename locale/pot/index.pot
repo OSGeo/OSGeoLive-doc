@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "Welcome to |osgeolive-version|"
 msgstr ""
 
 #: ../../build/doc/index.rst:5
-msgid "`OSGeoLive <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB thumb drive or Virtual Machine based on `Lubuntu <http://lubuntu.net>`_, that allows you to try a wide variety of open source geospatial software without installing anything. It is composed entirely of free software, allowing it to be freely distributed, duplicated and passed around."
+msgid "`OSGeoLive <https://live.osgeo.org>`_ is a self-contained bootable DVD, USB thumb drive or Virtual Machine based on `Lubuntu <https://lubuntu.net>`_, that allows you to try a wide variety of open source geospatial software without installing anything. It is composed entirely of free software, allowing it to be freely distributed, duplicated and passed around."
 msgstr ""
 
 #: ../../build/doc/index.rst:17
@@ -49,18 +49,18 @@ msgid "Select and run applications from the \"Geospatial\" menu."
 msgstr ""
 
 #: ../../build/doc/index.rst:28
-msgid "OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo Foundation is a not-for-profit supporting Geospatial Open Source Software development, promotion and `education <http://www.geoforall.org/>`_."
+msgid "OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo Foundation is a not-for-profit supporting Geospatial Open Source Software development, promotion and `education <https://www.osgeo.org/initiatives/geo-for-all/>`_."
 msgstr ""
 
-#: ../../build/doc/index.rst:32
+#: ../../build/doc/index.rst:34
 msgid "Quick Starts"
 msgstr ""
 
-#: ../../build/doc/index.rst:66
+#: ../../build/doc/index.rst:68
 msgid "Presentation"
 msgstr ""
 
-#: ../../build/doc/index.rst:68
+#: ../../build/doc/index.rst:70
 msgid "A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive applications, is available with slides, script, and `abstract <presentation/abstract.txt>`_."
 msgstr ""
 

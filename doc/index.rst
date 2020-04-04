@@ -2,8 +2,8 @@
 Welcome to |osgeolive-version|
 ================================================================================
 
-`OSGeoLive <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB
-thumb drive or Virtual Machine based on `Lubuntu <http://lubuntu.net>`_,
+`OSGeoLive <https://live.osgeo.org>`_ is a self-contained bootable DVD, USB
+thumb drive or Virtual Machine based on `Lubuntu <https://lubuntu.net>`_,
 that allows you to try a wide variety of open
 source geospatial software without installing anything. It is composed
 entirely of free software, allowing it to be freely distributed, duplicated
@@ -25,7 +25,9 @@ To try out the applications, simply:
 #. Press "Enter" to startup & login.
 #. Select and run applications from the "Geospatial" menu.
 
-OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo Foundation is a not-for-profit supporting Geospatial Open Source Software development, promotion and `education <http://www.geoforall.org/>`_.
+OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo Foundation
+is a not-for-profit supporting Geospatial Open Source Software development, promotion
+and `education <https://www.osgeo.org/initiatives/geo-for-all/>`_.
 
 
 Quick Starts
