@@ -96,7 +96,7 @@ Support of numerous Open Geospatial Consortium (OGC) standards:
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://geotools.org/
+**Website:** @WEB_geotools@
 
 **Licence:** LGPL
 
