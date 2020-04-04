@@ -15,9 +15,9 @@ Virtual globe and world atlas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Marble is an open source KDE Education Project program similar
-to `NASA World Wind <http://worldwind.arc.nasa.gov/java/>`_ or
+to `NASA World Wind <https://worldwind.arc.nasa.gov/java/>`_ or
 Google Earth. Besides choosing any number of maps to view on your
-globe (including `OpenStreetMaps <http://www.osm.org>`_), you are
+globe (including `OpenStreetMaps <https://www.openstreetmap.org>`_), you are
 encouraged to include a KDE Marble widget in your application.
 
 Explore the neighborhood with Marble's rich set of city and street 
@@ -51,13 +51,13 @@ Core Features
 * Integration with many online services (Amateur Radio Aprs, OpenCaching.com, etc.)
 * WMS & TMS support
 * Tools (Distance Measurement, Bookmarks, Time Simulation, Offline Mode)
-* `OpenStreetMap <http://www.osm.org>`_ integration
+* `OpenStreetMap <https://www.openstreetmap.org>`_ integration
 
 
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://marble.kde.org
+**Website:** @WEB_marble@
 
 **Licence:** GNU Lesser General Public License (LGPL) version 2.1
 
@@ -67,9 +67,9 @@ Details
 
 **API Interfaces:** Qt designer, C++, Python, D-BUS, Shell script
 
-**Support:** http://techbase.kde.org/Projects/Marble
+**Support:** https://techbase.kde.org/Projects/Marble
 
-**More Info:** http://www.slideshare.net/marbleglobe/marble-1-6en
+**More Info:** https://www.slideshare.net/marbleglobe/marble-1-6en
 
 
 @QUICKSTART_marble@
