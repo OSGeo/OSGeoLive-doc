@@ -44,7 +44,7 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** https://www.openstreetmap.org
+**Website:** @WEB_osm@
 
 **Licences:**
 
