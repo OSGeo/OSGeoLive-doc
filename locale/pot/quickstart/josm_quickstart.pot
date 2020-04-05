@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgid "Now let’s open up a sample OSM file which we will use to learn the basi
 msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:44
-msgid "Download the file here: `sample.osm <http://learnosm.org/files/sample.osm>`__"
+msgid "Download the file here: `sample.osm <https://learnosm.org/files/sample.osm>`__"
 msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:45
@@ -241,11 +241,11 @@ msgid "What next?"
 msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:217
-msgid "Try the LearnOSM documentation, from which this quickstart was derived: http://learnosm.org/en/josm/start-josm/"
+msgid "Try the LearnOSM documentation, from which this quickstart was derived: https://learnosm.org/en/josm/start-josm/"
 msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:219
-msgid "In order to continue editing you first need to download real data. This is explained in the next chapter: http://learnosm.org/en/josm/more-about-josm/"
+msgid "In order to continue editing you first need to download real data. This is explained in the next chapter: https://learnosm.org/en/josm/more-about-josm/"
 msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:222

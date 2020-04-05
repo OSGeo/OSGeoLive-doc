@@ -46,7 +46,7 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** https://www.geomoose.org/
+**Website:** @WEB_geomoose@
 
 **Licence:** MIT based license. https://www.geomoose.org/info/license.html
 

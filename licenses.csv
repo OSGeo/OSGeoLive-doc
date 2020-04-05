@@ -3,7 +3,7 @@
 "52nWSS_overview","Jan Drewnak (j.drewnak@52north.org)","Cameron Shorter, Jirotech","Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
 "R_overview","OSGeoLive","Cameron Shorter, Jirotech","Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
 "atlasstyler_overview","Stefan Tzeggai","Cameron Shorter, Jirotech","Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
-"cartaro_overview","Friedjoff Trautwein, http://www.geops.de; Patric Hafner, http://www.geops.de","Cameron Shorter, http://jirotech.com","Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
+"cartaro_overview","Friedjoff Trautwein, https://geops.de; Patric Hafner, https://geops.de","Cameron Shorter, https://www.jirotech.com","Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
 "cesium_overview","Balasubramaniam Natarajan","Angelos Tzotsos, OSGeo","Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
 "deegree_overview","Johannes Wilden, Markus Schneider, Danilo Bretschneider","Cameron Shorter, Jirotech","Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
 "eoxserver_overview","OSGeoLive; Stephan Meissl, Stephan Krause","Cameron Shorter, Jirotech; Angelos Tzotsos, OSGeo","Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
@@ -69,8 +69,8 @@
 "udig_overview","OSGeoLive","Cameron Shorter, Jirotech","Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
 "ushahidi_overview","Henry Addo","Cameron Shorter, Jirotech","Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
 "viking_overview","Hamish Bowman","Cameron Shorter, Jirotech","Creative Commons"
-"webworldwind_overview","Gabriele Prestifilippo","Cameron Shorter, Jirotech","Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
-"worldwindjava_overview","Gabriele Prestifilippo","Cameron Shorter, Jirotech","Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
+"webworldwind_overview","Gabriele Prestifilippo","Cameron Shorter, Jirotech","Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
+"worldwindjava_overview","Gabriele Prestifilippo","Cameron Shorter, Jirotech","Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
 "zoo-project_overview","Gérald Fenoy","Cameron Shorter, Jirotech","Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
 "zygrib_overview","Hamish Bowman","Cameron Shorter, Jirotech","Creative Commons Attribution 3.0 Unported  (CC BY 3.0)"
 "52nSOS_quickstart","Simon Jirka (s.jirka@52north.org)","Angelos Tzotsos, OSGeo","Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
@@ -78,7 +78,7 @@
 "52nWSS_quickstart","Jan Drewnak (j.drewnak@52north.org)","Sergio Baños Calvo; Cameron Shorter, Jirotech","Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
 "R_quickstart","Barry Rowlingson","","Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
 "atlasstyler_quickstart","Stefan Tzeggai","","Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
-"cartaro_quickstart","Friedjoff Trautwein (http://www.geops.de); Augustus Kling (http://www.geops.de); Patric Hafner (http://www.geops.de)","","Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
+"cartaro_quickstart","Friedjoff Trautwein (https://geops.de); Augustus Kling (https://geops.de); Patric Hafner (https://geops.de)","","Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
 "cesium_quickstart","Balasubramaniam Natarajan","Cameron Shorter, Jirotech; Angelos Tzotsos, OSGeo","Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
 "deegree_quickstart","Johannes Wilden, Danilo Bretschneider, Torsten Friebe","","Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
 "eoxserver_quickstart","OSGeoLive ; Stephan Meissl; Stephan Krause","Angelos Tzotsos, OSGeo","Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
@@ -143,7 +143,7 @@
 "virtualbox_quickstart","OSGeoLive; Cameron Shorter","","Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
 "virtualization_quickstart","OSGeoLive; Micha Silver","Cameron Shorter, Jirotech; Stephen Woodbridge","Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
 "vmware_quickstart","OSGeoLive; Micha Silver","","Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
-"webworldwind_quickstart","Gabriele Prestifilippo","","`NASA OPEN SOURCE AGREEMENT VERSION 1.3 <http://worldwind.arc.nasa.gov/worldwind-nosa-1.3.html/>`_ "
-"worldwindjava_quickstart","Gabriele Prestifilippo","","`NASA OPEN SOURCE AGREEMENT VERSION 1.3 <http://worldwind.arc.nasa.gov/worldwind-nosa-1.3.html/>`_ "
+"webworldwind_quickstart","Gabriele Prestifilippo","","`NASA OPEN SOURCE AGREEMENT VERSION 1.3 <https://opensource.org/licenses/NASA-1.3>`_ "
+"worldwindjava_quickstart","Gabriele Prestifilippo","","`NASA OPEN SOURCE AGREEMENT VERSION 1.3 <https://opensource.org/licenses/NASA-1.3>`_ "
 "zoo-project_quickstart","Gérald Fenoy","Angelos Tzotsos; Cameron Shorter, Jirotech","Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
 "zygrib_quickstart","Hamish Bowman","","Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"

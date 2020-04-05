@@ -72,7 +72,7 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.qgis.org
+**Website:** @WEB_qgis@
 
 **Licence:** GNU General Public License (GPL) version 2
 
@@ -80,9 +80,9 @@ Details
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 
-**Community Support:** http://qgis.org/en/site/forusers/support.html
+**Community Support:** https://qgis.org/en/site/forusers/support.html
 
-**Commercial Support:** http://qgis.org/en/site/forusers/commercial_support.html
+**Commercial Support:** https://qgis.org/en/site/forusers/commercial_support.html
 
 
 @QUICKSTART_qgis@

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -182,7 +182,7 @@ msgstr ""
 #: ../../build/doc/quickstart/openjump_quickstart.rst:100
 msgid ""
 "You can download tutorials for the OpenJUMP here: "
-"http://sourceforge.net/projects/jump-pilot/files/Documentation/"
+"https://sourceforge.net/projects/jump-pilot/files/Documentation/"
 msgstr ""
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:102
@@ -194,12 +194,12 @@ msgstr ""
 #: ../../build/doc/quickstart/openjump_quickstart.rst:104
 msgid ""
 "You can get help fast on the OpenJUMP users mailing list: "
-"http://groups.google.com/group/openjump-users"
+"https://groups.google.com/forum/#!forum/openjump-users"
 msgstr ""
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:106
 msgid ""
 "The latest OpenJUMP version can be found here: "
-"http://sourceforge.net/projects/jump-pilot/files/OpenJUMP/"
+"https://sourceforge.net/projects/jump-pilot/files/OpenJUMP/"
 msgstr ""
 

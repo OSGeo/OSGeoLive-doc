@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,7 +65,7 @@ msgid "You can start with simple arithmetic."
 msgstr ""
 
 #: ../../build/doc/quickstart/R_quickstart.rst:59
-msgid "A full range of arithmetic, trigonometric, and statistical functions are built-in, and thousands more are available from packages in the `CRAN <http://cran.r-project.org/>`_ archive."
+msgid "A full range of arithmetic, trigonometric, and statistical functions are built-in, and thousands more are available from packages in the `CRAN <https://cran.r-project.org/>`_ archive."
 msgstr ""
 
 #: ../../build/doc/quickstart/R_quickstart.rst:63
@@ -157,14 +157,14 @@ msgid "What next?"
 msgstr ""
 
 #: ../../build/doc/quickstart/R_quickstart.rst:268
-msgid "For general information about R, try the official `Introduction to R <http://cran.r-project.org/doc/manuals/R-intro.html>`_ or any of the documentation from the main `R Project <http://www.r-project.org/>`_ page."
+msgid "For general information about R, try the official `Introduction to R <https://cran.r-project.org/doc/manuals/R-intro.html>`_ or any of the documentation from the main `R Project <https://www.r-project.org/>`_ page."
 msgstr ""
 
 #: ../../build/doc/quickstart/R_quickstart.rst:270
-msgid "For more information on spatial aspects of R, the best place to start is probably the `R Spatial Task View <http://cran.r-project.org/web/views/Spatial.html>`_"
+msgid "For more information on spatial aspects of R, the best place to start is probably the `R Spatial Task View <https://cran.r-project.org/web/views/Spatial.html>`_"
 msgstr ""
 
 #: ../../build/doc/quickstart/R_quickstart.rst:272
-msgid "You might also want to check out the `R-Spatial <http://www.rspatial.org>`_ page."
+msgid "You might also want to check out the `R-Spatial <https://www.rspatial.org>`_ page."
 msgstr ""
 

@@ -14,11 +14,17 @@
 Web Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-MapServer is an `Open Source <http://www.opensource.org>`_ geographic data rendering engine written in C. Beyond browsing GIS data, MapServer allows you create "geographic image maps", that is, maps that can direct users to web content. For example, the Minnesota DNR `Recreation Compass <http://www.dnr.state.mn.us/maps/compass.html>`_ provides users with more than 10,000 web pages, reports and maps via a single application. The same application serves as a "map engine" for other portions of the site, providing spatial context where needed.
+MapServer is an `Open Source <https://opensource.org/>`_ geographic data
+rendering engine written in C. Beyond browsing GIS data, MapServer allows you
+create "geographic image maps", that is, maps that can direct users to web
+content. For example, the Minnesota DNR `Recreation Compass <http://www.dnr.state.mn.us/maps/compass.html>`_
+provides users with more than 10,000 web pages, reports and maps via a single
+application. The same application serves as a "map engine" for other portions
+of the site, providing spatial context where needed.
 
 MapServer was originally developed by the University of Minnesota (UMN) ForNet project in cooperation with NASA, and the Minnesota Department of Natural Resources (MNDNR). Later it was hosted by the TerraSIP project, a NASA sponsored project between the UMN and a consortium of land management interests.
 
-MapServer is now a project of `OSGeo <http://www.osgeo.org>`_, and is maintained by a growing number of developers (nearing 20) from around the world. It is supported by a diverse group of organizations that fund enhancements and maintenance, and administered within OSGeo by the MapServer Project Steering Committee made up of developers and other contributors.
+MapServer is now a project of `OSGeo <https://www.osgeo.org>`_, and is maintained by a growing number of developers (nearing 20) from around the world. It is supported by a diverse group of organizations that fund enhancements and maintenance, and administered within OSGeo by the MapServer Project Steering Committee made up of developers and other contributors.
 
 @SCREENSHOT_mapserver@
 
@@ -76,14 +82,14 @@ Implemented Standards
 
 * Support of numerous Open Geospatial Consortium  (OGC) standards
 
-  * `WMS <http://www.opengeospatial.org/standards/wms>`__ (client/server)
-  * `WFS <http://www.opengeospatial.org/standards/wfs>`__ (non-transactional, client/server)
-  * WMC
-  * `WCS <http://www.opengeospatial.org/standards/wcs>`__
-  * `FE <http://www.opengeospatial.org/standards/fe>`__
-  * `SLD <http://www.opengeospatial.org/standards/sld>`__
-  * `GML <http://www.opengeospatial.org/standards/gml>`__
-  * SOS
+  * |WMS| (client/server)
+  * |WFS| (non-transactional, client/server)
+  * |WMC|
+  * |WCS|
+  * |FE|
+  * |SLD|
+  * |GML|
+  * |SOS|
   * OM
 
 * INSPIRE View Service compliant
@@ -101,9 +107,9 @@ Documentation
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.mapserver.org/
+**Website:** @WEB_mapserver@
 
-**Licence:** `MIT-style license <http://mapserver.org/copyright.html#license>`_
+**Licence:** `MIT-style license <https://mapserver.org/copyright.html#license>`_
 
 **Software Version:** |version-mapserver|
 
@@ -111,7 +117,7 @@ Details
 
 **API Interfaces:** C, PHP, Python, Perl, Ruby, Java, and .NET
 
-**Support:** http://mapserver.org/community/
+**Support:** https://mapserver.org/community/
 
 @QUICKSTART_mapserver@
     

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -121,7 +121,7 @@ msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:61
 msgid ""
-"`GeoWebCache <http://geowebcache.org/>`_, which is integrated into "
+"`GeoWebCache <https://www.geowebcache.org>`_, which is integrated into "
 "GeoServer, tiles and caches map images from a variety of sources such as "
 "WMS. It implements various service interfaces (such as WMS-C, WMTS, TMS, "
 "Google Maps KML, Virtual Earth) in order to accelerate and optimize map "
@@ -136,10 +136,9 @@ msgstr ""
 #: ../../build/doc/overview/geoserver_overview.rst:64
 msgid ""
 "Geospatial algorithms, including those from :doc:`JTS <jts_overview>`, "
-"can be called through GeoServer's `WPS "
-"<http://www.opengeospatial.org/standards/wps>`__ interface. This includes"
-" the chaining of processes, and using rendering transformations to create"
-" powerful visualisations through the WMS interface."
+"can be called through GeoServer's |WPS| interface. This includes the "
+"chaining of processes, and using rendering transformations to create "
+"powerful visualisations through the WMS interface."
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:67
@@ -151,35 +150,35 @@ msgid "Support of numerous Open Geospatial Consortium  (OGC) standards:"
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:73
-msgid "`WMS <http://www.opengeospatial.org/standards/wms>`__ (client/server)"
+msgid "|WMS| (client/server)"
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:74
-msgid "Web Map Tile Service (WMTS)"
+msgid "|WMTS|"
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:75
-msgid "`WFS-T <http://www.opengeospatial.org/standards/wfs>`__ (transactional)"
+msgid "|WFS| (transactional)"
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:76
-msgid "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
+msgid "|WCS|"
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:77
-msgid "`FE <http://www.opengeospatial.org/standards/fe>`__"
+msgid "|FE|"
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:78
-msgid "`SLD <http://www.opengeospatial.org/standards/sld>`__"
+msgid "|SLD|"
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:79
-msgid "`GML <http://www.opengeospatial.org/standards/gml>`__"
+msgid "|GML|"
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:80
-msgid "`KML <http://www.opengeospatial.org/standards/kml>`__"
+msgid "|KML|"
 msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:83

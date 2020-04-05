@@ -34,7 +34,7 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** https://github.com/mundialis/actinia_core
+**Website:** @WEB_actinia@
 
 **Licence:** GNU General Public License (GPL) version 3
 

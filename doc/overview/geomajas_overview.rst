@@ -40,7 +40,7 @@ Enterprise Server features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.geomajas.org/
+**Website:** @WEB_geomajas@
 
 **Licence:** AGPL
 
@@ -50,7 +50,7 @@ Details
 
 **API Interfaces:** Java and Javascript
 
-**Support:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089
+**Support:** https://www.osgeo.org/service-providers
 
 
 @QUICKSTART_geomajas@

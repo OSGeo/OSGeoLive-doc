@@ -17,13 +17,13 @@ on a flat, bidimensional map.
 
 Proj4 is used in :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik <mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation and various others. 
 
-Proj4 has been translated from C to `other languages <http://trac.osgeo.org/metacrs/wiki>`.  These sub-projects include:
+Proj4 has been translated from C to `other languages <https://trac.osgeo.org/metacrs/wiki>`.  These sub-projects include:
 These tools include:
 * Proj4js (JavaScript) - used in :doc:`OpenLayers <openlayers_overview>`.
 * CS-Map (C++) - used in MapGuide.
 * GeoTIFF/libgeotiff (C++).
 * Proj4J (Java).
-* `SpatialReference.org <http://spatialreference.org/>`_  - website to retrieve coordinate system definitions (obsolete).
+* `SpatialReference.org <https://spatialreference.org/>`_  - website to retrieve coordinate system definitions (obsolete).
 
 @SCREENSHOT_proj4@
 
@@ -39,16 +39,16 @@ Implemented Standards
 --------------------------------------------------------------------------------
 
 Proj4 uses coordinate system definitions defined by the 
-`European Petroleum Survey Group (EPSG) <http://www.epsg.org/>`.
+`European Petroleum Survey Group (EPSG) <https://www.epsg.org/>`.
 Well Known Text (WKT) format.
 
 
 Details
 --------------------------------------------------------------------------------
 
-  **Website:**  http://proj4.org/
+  **Website:** @WEB_proj4@
   
-  **Licence:** `X/MIT style Open Source license <http://trac.osgeo.org/proj/wiki/WikiStart#License>`_
+  **Licence:** `X/MIT style Open Source license <httpis://trac.osgeo.org/proj/wiki/WikiStart#License>`_
   
   **Software Version:** 4.9.2 (stable)
   
@@ -56,7 +56,7 @@ Details
   
   **API Interfaces:** C, C++, Python, Java, Ruby
   
-  **Support:** http://lists.maptools.org/mailman/listinfo/proj
+  **Support:** https://lists.osgeo.org/mailman/listinfo/proj
 
 @QUICKSTART_proj4@
 

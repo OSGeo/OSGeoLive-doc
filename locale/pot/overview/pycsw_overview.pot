@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "Metadata is 'data about data', storing such things as creation-date, auth
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:28
-msgid "pycsw is a `Python`_ implementation of the `OGC Catalogue Services for the Web (CSW) standard <https://www.opengeospatial.org/standards/cat>`__. The project is certified `OGC Compliant`_, and is an `OGC Reference Implementation`_. The CSW standard defines common interfaces to discover, browse and query metadata about spatial data, web services and related resources."
+msgid "pycsw is a `Python`_ implementation of the |CSW|. The project is certified `OGC Compliant`_, and is an `OGC Reference Implementation`_. The CSW standard defines common interfaces to discover, browse and query metadata about spatial data, web services and related resources."
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:30
@@ -145,11 +145,11 @@ msgid "OGC Standards:"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:71
-msgid "CSW   2.0.2, 3.0.0"
+msgid "|CSW|         2.0.2, 3.0.0"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:72
-msgid "Filter        1.1.0, 2.0.0"
+msgid "|FE|          1.1.0, 2.0.0"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:73
@@ -157,11 +157,11 @@ msgid "OWS Common    1.0.0, 2.0.0"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:74
-msgid "GML   3.1.1"
+msgid "|GML|         3.1.1"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:75
-msgid "OGC SFSQL     1.2.1"
+msgid "|SFS|         1.2.1"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:76
@@ -221,7 +221,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:95
-msgid "**Website:** https://pycsw.org"
+msgid "**Website:** https://pycsw.org/"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:97
@@ -241,7 +241,7 @@ msgid "**API Interfaces:** Python"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:105
-msgid "**Support:** https://pycsw.org/docs/support.html"
+msgid "**Support:** |SUPPORT|"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:114

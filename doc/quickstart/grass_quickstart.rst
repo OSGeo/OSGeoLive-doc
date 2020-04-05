@@ -302,7 +302,7 @@ While not covered here, you may like to experiment with the
 Cartographic Composer and object-oriented Graphical Modelling Tool (offers
 export to Python). You'll find icons to launch them on the lower row of
 icons in the `Layer Manager` window. Further details can be found in
-the `wxGUI <https://grass.osgeo.org/grass76/manuals/wxGUI.html>`_ help pages.
+the `wxGUI <https://grass.osgeo.org/grass78/manuals/wxGUI.html>`_ help pages.
 
 API
 ---
@@ -334,8 +334,8 @@ prompt to leave the GIS environment.
 What next?
 ==========
 * Visit the GRASS GIS website at `https://grass.osgeo.org <https://grass.osgeo.org>`_
-* Visit the GRASS GIS Wiki help site at `https://grasswiki.osgeo.org/wiki/ <https://grasswiki.osgeo.org/wiki/>`_
+* Visit the GRASS GIS Wiki help site at `https://grasswiki.osgeo.org/wiki/ <https://grasswiki.osgeo.org/wiki/Main_Page>`_
 * More tutorials and overviews can be found `here <https://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
-* A `synopsis of the GRASS GIS modules <https://grass.osgeo.org/grass76/manuals/full_index.html>`_
+* A `synopsis of the GRASS GIS modules <https://grass.osgeo.org/grass78/manuals/full_index.html>`_
 * If the 400 GIS modules which come with GRASS aren't enough for you have a look at the many contributed
-  add-ons at `https://grass.osgeo.org/grass7/manuals/addons/ <https://grass.osgeo.org/grass7/manuals/addons/>`_
+  add-ons at `https://grass.osgeo.org/grass78/manuals/addons/ <https://grass.osgeo.org/grass78/manuals/addons/>`_

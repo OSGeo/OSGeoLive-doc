@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -198,11 +198,15 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:193
-msgid "52°North `SOS Client <http://sensorweb.demo.52north.org/SOSclient/>`_"
+msgid ""
+"52°North `SOS Client <https://sensorweb.demo.52north.org/sensorwebclient-"
+"webapp-stable/>`_"
 msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:194
-msgid "52°North `SOS Web site <https://52north.org/sos>`_"
+msgid ""
+"52°North `SOS Web site <https://52north.org/software/software-"
+"projects/sos>`_"
 msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:196
@@ -215,10 +219,9 @@ msgstr ""
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:200
 msgid ""
 "We would like to thank the Belgian Interregional Environment Agency "
-"(`IRCEL - CELINE <http://www.irceline.be/en/>`_) for providing the "
+"(`IRCEL - CELINE <https://www.irceline.be/en/>`_) for providing the "
 "demonstration data used in this SOS installation. The demo data are "
-"published under a `CC-BY licence "
-"<http://creativecommons.org/licenses/by/3.0/>`_."
+"published under a |CC BY 3.0| license."
 msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:206

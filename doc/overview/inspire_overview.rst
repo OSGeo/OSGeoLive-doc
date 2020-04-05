@@ -43,6 +43,6 @@ and an overview of OSGeo tools that implementers may use.
 Details
 --------------------------------------------------------------------------------
 
-**Website:** https://inspire.ec.europa.eu/about-inspire/563
+**Website:** @WEB_inspire@
 
 

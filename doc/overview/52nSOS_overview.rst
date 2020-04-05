@@ -17,7 +17,7 @@
 About
 --------------------------------------------------------------------------------
 
-The 52°North `Sensor Observation Service (SOS) <http://www.opengeospatial.org/standards/sos>`__
+The 52°North |SOS|
 supports the interoperable provision of live and archived sensor observation
 data. A sensor could be a water level meter in a stream, a weather station, or
 an air quality monitoring station.
@@ -42,37 +42,37 @@ Core Features
   service. Background information is provided in a `blog post
   <https://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-an-inspire-download-service-based-on-sos/>`_
   and in the `wiki
-  <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_ .
+  <https://wiki.52north.org/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_ .
 * **Air Quality Data e-Reporting Extension**: Starting with version 4.3.0, an
   extension is available that provides for the Air Quality Data Flows E1a,
   E1b and E2a compliant data (the instance on OSGeoLive is not configured
   accordingly). The `installation and configuration
-  <https://wiki.52north.org/bin/view/SensorWeb/AqdEReporting#Installation>`_
+  <https://wiki.52north.org/SensorWeb/AqdEReporting#Installation>`_
   is documented in the 52°North Wiki.
 * **Sensor Web REST-API**: Starting with Version 4.1.1., a bundle
   version is available, that directly provides the `RESTful API
-  <https://wiki.52north.org/bin/view/SensorWeb/SensorWebClientRESTInterface>`_,
+  <https://wiki.52north.org/SensorWeb/SensorWebClientRESTInterface>`_,
   is available.
   Hence, observation data can be requested in a RESTful way and is returned
   in JSON encoded responses. More details incl. documentation can be found in the
   `SOS webapp <http://localhost:8080/52nSOS/static/doc/api-doc/>`_.
 * **INSPIRE Sepcialized Observations**: Support for the INSPIRE Specialized
   Observations defined in Guidelines for the use of `Observations & Measurements and
-  Sensor Web Enablement-related standards in INSPIRE (D2.9) <http://inspire.ec.europa.eu/id/document/tg/d2.9-o%26m-swe>`_
+  Sensor Web Enablement-related standards in INSPIRE (D2.9) <https://inspire.ec.europa.eu/id/document/tg/d2.9-o%26m-swe>`_
   (`detailed information about the implementation <https://wiki.52north.org/SensorWeb/InspireSpecialisedObservations>`_).
 * **ResultFiltering**: Support for the filtering the observations (GetObservation)
   and data availabiliy information (GetDataAvailability) by the value of the observation.
 * **Read more**: `Details of the implemented functionalities
-  <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation#Features>`_
+  <https://wiki.52north.org/SensorWeb/SensorObservationServiceIVDocumentation#Features>`_
   can be found in the 52°North Wiki.
 * The development of this version of the 52°North SOS was supported by different
   projects, organizations, and persons. More details can be found in the
   `52°North SOS client <http://localhost:8080/52nSOS/index>`_.
 * We would like to thank the Belgian Interregional Environment Agency
-  (`IRCEL - CELINE <http://www.irceline.be/en/>`_)
+  (`IRCEL - CELINE <https://www.irceline.be/en/>`_)
   for providing the demonstration data used in this SOS installation.
   The demo data are published under a
-  `CC-BY licence <http://creativecommons.org/licenses/by/3.0/>`_.
+  |CC BY 3.0| License.
 
 
 SOS Operations
@@ -89,7 +89,7 @@ SOS Operations
 * GetResultTemplate (from specification version 2.0): for requesting a template of the result
   structure that will be returned by a GetResult request.
 * GetDataAvailability (from `SOS 2.0 Hydrology Profile - OGC Best Practice
-  <http://docs.opengeospatial.org/bp/14-004r1/14-004r1.html#38>`_): for
+  <https://docs.ogc.org/bp/14-004r1/14-004r1.html#38>`_): for
   requesting the data availability for certain configurations.
 
 **Transactions**:
@@ -117,15 +117,15 @@ applicable:
 Applicable Standards
 -------------------------------------------------------------------------------
 
-* `Sensor Observation Service (SOS) <http://www.opengeospatial.org/standards/sos>`__
-* `Geography Markup Language (GML) <http://www.opengeospatial.org/standards/gml>`__
-* `Sensor Model Language (SensorML) <http://www.opengeospatial.org/standards/sensorml>`__
+* |SOS|
+* |GML|
+* |SENSORML|
 
 
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://52north.org/sos
+**Website:** @WEB_52nSOS@
 
 **Licence:** GNU General Public License (GPL) version 2
 

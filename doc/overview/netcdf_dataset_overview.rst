@@ -25,7 +25,7 @@ Data courtesy of the University of Victoria PCIC (Pacific Climate Impacts Consor
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.pacificclimate.org/
+**Website:** @WEB_netcdf_dataset@
 
 **License:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`_
 
@@ -35,7 +35,7 @@ Details
 
 **Spatial coordinate system:** EPSG:4326, NAD83
 
-**Support:** http://lists.osgeo.org/mailman/listinfo/geodata
+**Support:** https://lists.osgeo.org/mailman/listinfo/geodata
 
 @QUICKSTART_netcdf@
 

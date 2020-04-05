@@ -30,9 +30,9 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-  **Website:**  https://t-rex.tileserver.ch/
+  **Website:** @WEB_t-rex@
 
-  **Licence:** `MIT license <http://opensource.org/licenses/MIT>`_
+  **Licence:** `MIT license <https://opensource.org/licenses/MIT>`_
 
   **Software Version:** |version-t-rex|
 

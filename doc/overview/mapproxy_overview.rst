@@ -98,7 +98,7 @@ MapProxy implements the following open specifications:
 Details
 --------------------------------------------------------------------------------
 
-**Website:** https://mapproxy.org/
+**Website:** @WEB_mapproxy@
 
 **Licence:** `Apache Software License 2.0 <https://www.apache.org/licenses/LICENSE-2.0.html>`_
 

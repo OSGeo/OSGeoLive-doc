@@ -13,7 +13,7 @@
 Geospatial Content Management System
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`GeoNode <http://geonode.org>`_ is a Content Management System for geospatial data which provides creation, sharing, and collaborative use of geospatial data. Datasets can be uploaded in various formats, maps can be edited, styled and aggregated through browser based tools, maps and metadata can be published and searched, and reviews, ratings and comments can be captured from users.
+`GeoNode <@WEB_geonode@>`_ is a Content Management System for geospatial data which provides creation, sharing, and collaborative use of geospatial data. Datasets can be uploaded in various formats, maps can be edited, styled and aggregated through browser based tools, maps and metadata can be published and searched, and reviews, ratings and comments can be captured from users.
 
 GeoNode is built upon: GeoServer, GeoExplorer, pycsw, Django, and GeoExt.
 
@@ -56,18 +56,18 @@ Implemented Standards
 --------------------------------------------------------------------------------
 
 
-* `WMS <http://www.opengeospatial.org/standards/wms>`__
-* `CSW <http://www.opengeospatial.org/standards/csw>`__
-* `WFS <http://www.opengeospatial.org/standards/wfs>`__
-* `WCS <http://www.opengeospatial.org/standards/wcs>`__
-* `FE <http://www.opengeospatial.org/standards/fe>`__
-* `SLD <http://www.opengeospatial.org/standards/sld>`__
-* `GML <http://www.opengeospatial.org/standards/gml>`__
+* |WMS|
+* |CSW|
+* |WFS|
+* |WCS|
+* |FE|
+* |SLD|
+* |GML|
 
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://geonode.org/
+**Website:** @WEB_geonode@
 
 **Licence:** GNU General Public License (GPL) version 2.0
 
@@ -77,7 +77,7 @@ Details
 
 **API Interfaces:** Python (Django)
 
-**Support:** http://opengeo.org/technology/geonode/
+**Support:** https://www.osgeo.org/service-providers
 
 @QUICKSTART_geonode@
 

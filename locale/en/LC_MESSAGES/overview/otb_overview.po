@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -134,7 +134,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/otb_overview.rst:72
-msgid "**Website:** http://www.orfeo-toolbox.org/"
+msgid "**Website:** https://www.orfeo-toolbox.org/"
 msgstr ""
 
 #: ../../build/doc/overview/otb_overview.rst:74
@@ -154,7 +154,7 @@ msgid "**API Interfaces:** C++"
 msgstr ""
 
 #: ../../build/doc/overview/otb_overview.rst:82
-msgid "**Commercial Support:** http://www.osgeo.org/search_profile"
+msgid "**Commercial Support:** |SUPPORT|"
 msgstr ""
 
 #: ../../build/doc/overview/otb_overview.rst:87

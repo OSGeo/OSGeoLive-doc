@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/mapnik_overview.rst:48
-msgid "**Website:** http://www.mapnik.org/"
+msgid "**Website:** https://mapnik.org/"
 msgstr ""
 
 #: ../../build/doc/overview/mapnik_overview.rst:50

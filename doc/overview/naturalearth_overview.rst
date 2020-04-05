@@ -46,7 +46,7 @@ Raster Data Themes:
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://naturalearthdata.com
+**Website:** @WEB_naturalearth@
 
 **License:** None, the data is public domain.
 
@@ -56,7 +56,7 @@ Details
 
 **Spatial coordinate system:** WGS84.
 
-**Support:** http://naturalearthdata.com/forums/
+**Support:** https://www.naturalearthdata.com/forums/
 
 @QUICKSTART_naturalearth@
 

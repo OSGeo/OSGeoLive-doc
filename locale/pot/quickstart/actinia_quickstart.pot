@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -125,7 +125,7 @@ msgid "empty (``latlong/PERMANENT/``)"
 msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:114
-msgid "16-days NDVI, MOD13C1, V006, CMG 0.05 deg res. (``latlong/modis_ndvi_global/``; source: https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table/mod13c1_v006)"
+msgid "16-days NDVI, MOD13C1, V006, CMG 0.05 deg res. (``latlong/modis_ndvi_global/``; source: https://lpdaac.usgs.gov/products/mod13c1v006/)"
 msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:117
@@ -302,6 +302,6 @@ msgid "actinia tutorial: `https://neteler.gitlab.io/actinia-introduction <https:
 msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:399
-msgid "Further reading: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based geoprocessing. In Proc. of the 2019 conference on Big Data from Space (BiDS'2019) (pp. 41–44). EUR 29660 EN, Publications Office of the European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI <https://doi.org/10.5281/zenodo.2631917>`__)"
+msgid "Further reading: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based geoprocessing. In Proc. of the 2019 conference on Big Data from Space (BiDS'2019) (pp. 41–44). EUR 29660 EN, Publications Office of the European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI <https://zenodo.org/record/2631917>`__)"
 msgstr ""
 

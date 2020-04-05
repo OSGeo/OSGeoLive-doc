@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,9 +27,9 @@ msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:20
 msgid ""
-"`GpsPrune <https://gpsprune.activityworkshop.net/>`_ is a tool for "
-"viewing, editing and converting coordinate data from GPS systems.  It can"
-" be used for planning trips in advance, or for analysing the tracks "
+"`GpsPrune <https://activityworkshop.net/software/gpsprune>`_ is a tool "
+"for viewing, editing and converting coordinate data from GPS systems.  It"
+" can be used for planning trips in advance, or for analysing the tracks "
 "recorded by GPS receivers."
 msgstr ""
 
@@ -117,7 +117,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:58
-msgid "**Website:** https://gpsprune.activityworkshop.net/"
+msgid "**Website:** https://activityworkshop.net/software/gpsprune"
 msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:60

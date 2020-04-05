@@ -40,7 +40,7 @@ proj Synopsis
     proj [ -bcCeEfiIlmorsStTvVwW [ args ] ] [ +args ] file[s]
     invproj [ -bcCeEfiIlmorsStTwW [ args ] ] [ +args ] file[s]
 
-These commands are fully describe in `proj documentation <http://proj4.org/apps/proj.html>`_ for the latest version.
+These commands are fully describe in `proj documentation <https://proj.org/apps/proj.html>`_ for the latest version.
 
 proj Example
 --------------------------------------------------------------------------------
@@ -85,7 +85,7 @@ cs2cs Synopsis
 
     cs2cs [ -eEfIlrstvwW [ args ] ] [ +opts[=arg] ] [ +to [+opts[=arg]] ] file[s]
 
-These commands are fully describe in `cs2cs documentation <http://proj4.org/apps/cs2cs.html>`_ for the latest version.
+These commands are fully describe in `cs2cs documentation <https://proj.org/apps/cs2cs.html>`_ for the latest version.
 
 cs2cs Example
 --------------------------------------------------------------------------------
@@ -140,7 +140,7 @@ geod Synopsis
 
        invgeod +ellps=<ellipse> [ -afFIlptwW [ args  ]  ]  [  +args  ] file[s]
 
-These commands are fully describe in `proj documentation <http://proj4.org/apps/proj.html>`_ for the latest version.
+These commands are fully describe in `proj documentation <https://proj.org/apps/proj.html>`_ for the latest version.
 
 geod Example
 --------------------------------------------------------------------------------
@@ -186,10 +186,10 @@ which gives:
 Further reading
 --------------------------------------------------------------------------------
 
-#. `GeographicLib <http://geographiclib.sf.net>`_
+#. `GeographicLib <https://geographiclib.sourceforge.io/>`_
 
-#. `C. F. F. Karney, Algorithms for Geodesics, J. Geodesy 87, 43-55 (2013) <http://dx.doi.org/10.1007/s00190-012-0578-z>`_.
-   `Addendum <http://geographiclib.sf.net/geod-addenda.html>`_
+#. `C. F. F. Karney, Algorithms for Geodesics, J. Geodesy 87, 43-55 (2013) <https://link.springer.com/article/10.1007/s00190-012-0578-z>`_.
+   `Addendum <https://geographiclib.sourceforge.io/geod-addenda.html>`_
 
-#. `The online geodesic bibliography <http://geographiclib.sf.net/geodesic-papers/biblio.html>`_
+#. `The online geodesic bibliography <https://geographiclib.sourceforge.io/geodesic-papers/biblio.html>`_
 

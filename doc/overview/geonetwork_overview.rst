@@ -46,7 +46,7 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://geonetwork-opensource.org
+**Website:** @WEB_geonetwork@
 
 **Licence:** GNU General Public License (GPL) version 2
 
@@ -56,7 +56,7 @@ Details
 
 **API Interfaces:** Java
 
-**Support:** http://www.osgeo.org/search_profile
+**Support:** https://www.osgeo.org/service-providers
 
 
 @QUICKSTART_geonetwork@

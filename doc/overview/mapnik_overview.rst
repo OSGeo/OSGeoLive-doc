@@ -38,7 +38,7 @@ distributions and installers are commonly used on Mac OS X and windows.
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.mapnik.org/
+**Website:** @WEB_mapnik@
 
 **Licence:** LGPL (GNU Lesser General Public Licence)
 

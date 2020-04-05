@@ -11,7 +11,7 @@
 @NAME_istsos@ Quickstart
 ********************************************************************************
 
-istSOS is an OGC `SOS <http://www.opengeospatial.org/standards/sos>`__ server implementation written in `Python <https://www.python.org/>`__.
+istSOS is an OGC |SOS| server implementation written in `Python <https://www.python.org/>`__.
 istSOS allows for managing and dispatch observations from monitoring sensors according to the Sensor Observation Service standard.
 
 The project provides also a Graphical user Interface that allows for easing the daily operations and a RESTFull Web api for automatizing administration procedures.

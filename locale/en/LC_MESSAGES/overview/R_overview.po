@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgid ""
 "interface (GUI). Fortunately R is well documented on the web site which "
 "eases the learning process. Scripts are often used to automate processing"
 " steps but there are GUIs, the leading one being RStudio "
-"(http://www.rstudio.com)."
+"(https://rstudio.com)."
 msgstr ""
 
 #: ../../build/doc/overview/R_overview.rst:44
@@ -134,7 +134,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/R_overview.rst:76
-msgid "**Website:** http://cran.r-project.org"
+msgid "**Website:** https://cran.r-project.org"
 msgstr ""
 
 #: ../../build/doc/overview/R_overview.rst:78
@@ -150,7 +150,7 @@ msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
 msgstr ""
 
 #: ../../build/doc/overview/R_overview.rst:84
-msgid "**Community Support:** http://cran.r-project.org/web/views/Spatial.html"
+msgid "**Community Support:** https://cran.r-project.org/web/views/Spatial.html"
 msgstr ""
 
 #: ../../build/doc/overview/R_overview.rst:86

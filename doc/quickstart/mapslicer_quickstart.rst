@@ -12,13 +12,20 @@
 @NAME_mapslicer@ Quickstart
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`MapSlicer <https://wiki.osgeo.org/wiki/MapSlicer>`_ provides a simple way of creating a set of tiles from any georeferenced map image. The tiles can then be presented as a georeferenced map overlay on a web server. It follows the `Open Source Geospatial Foundation's (OSGeo's) <http://www.osgeo.org/>`_ `Tile Map Service (TMS) <http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`_ specification.
+`MapSlicer <https://wiki.osgeo.org/wiki/MapSlicer>`_ provides a simple way of creating a set of tiles from any georeferenced map image. The tiles can then be presented as a georeferenced map overlay on a web server. It follows the `Open Source Geospatial Foundation's (OSGeo's) <https://www.osgeo.org/>`_ `Tile Map Service (TMS) <https://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`_ specification.
 
 * **Input options**: Any georeferenced image file, eg. a TIFF, JPEG from ArcGIS, QGIS.
 * **Output options**: A set of directories with tiled images which can be copied to a web server for presentation as a georeferenced overlay. 
 * **Strengths**: MapSlicer is simple, free, open-source software, with an easy wizard, described below, to guide through the options.
 
-MapSlicer takes advantage of the fact that `Google Maps <http://maps.google.com/>`_ , `Microsoft Bing <http://maps.bing.com>`_ , `Yahoo Maps <http://maps.yahoo.com/>`_ , and other online mapping providers including `OpenStreetMap <http://www.openstreetmap.org/>`_  use the same projection and tiling profile and the tiles are therefore compatible. MapSlicer prepares tiles using this specification as an easy and quick way of preparing a georeferenced map in a mashup web page.
+.. TODO link to yahoo maps is no longer available
+
+MapSlicer takes advantage of the fact that `Google Maps <http://maps.google.com/>`__,
+`Microsoft Bing <https://www.bing.com/maps>`__, `Yahoo Maps <https://maps.yahoo.com/>`__,
+and other online mapping providers including `OpenStreetMap <https://www.openstreetmap.org/>`__
+use the same projection and tiling profile and the tiles are therefore compatible.
+MapSlicer prepares tiles using this specification as an easy and quick way of
+preparing a georeferenced map in a mashup web page.
 
 Start MapSlicer
 --------------------------------------------------------------------------------
@@ -93,7 +100,7 @@ MapSlicer is essentially a GUI frontend to the `gdal2tiles.py` script. An update
 version of `gdal2tiles.py` is also present on the Live disc. The resulting tile
 trees created by these software can be used with the `mb-util` program to create
 an mbtiles database, for use with smartphone software
-like `Geopaparazzi <http://geopaparazzi.github.io/geopaparazzi/>`_.
+like `Geopaparazzi <https://www.geopaparazzi.org/>`_.
 
 To create an MBTiles SQLite database from the newly created tile tree, open a
 terminal, then

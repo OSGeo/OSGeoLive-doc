@@ -34,7 +34,7 @@ All LAS data are in some sort of coordinate system, even if that coordinate
 system is not described in the LAS file.  For terrestrial LAS data, these 
 coordinate system descriptions often map to coordinate systems described 
 by the `EPSG`_ database.  Another source of information about coordinate 
-systems in http://spatialreference.org.  
+systems in https://spatialreference.org.  
 
 
 ::
@@ -127,8 +127,8 @@ Output LAS file to text
 What next?
 ==========
 
-* Website: http://liblas.org
-* Support: http://liblas.org/community.html
+* Website: https://liblas.org
+* Support: https://liblas.org/community.html
 
 
 .. _`LASzip`: http://laszip.org
@@ -146,7 +146,7 @@ What next?
 .. _`DebianGIS`: https://wiki.debian.org/DebianGis
 .. _`gdal_translate`: http://www.gdal.org/gdal_translate.html
 .. _`EPSG`: http://www.epsg-registry.org/
-.. _`EPSG:4326`: http://spatialreference.org/ref/epsg/4326/
+.. _`EPSG:4326`: https://spatialreference.org/ref/epsg/4326/
 .. _`Proj.4`: http://trac.osgeo.org/proj/
 .. _`WKT`: http://en.wikipedia.org/wiki/Well-known_text#Spatial_reference_systems
 .. _`GDAL`: http://gdal.org

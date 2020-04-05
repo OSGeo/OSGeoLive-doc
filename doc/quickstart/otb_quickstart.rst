@@ -156,7 +156,9 @@ What next?
   heavily illustrated with results from real remote sensing
   processing. 
   
-  * `OTBSoftwareGuide.pdf <http://www.orfeo-toolbox.org/packages/OTBSoftwareGuide.pdf>`_
+.. TODO pdf link is broken
+
+  * `OTBSoftwareGuide.pdf <https://www.orfeo-toolbox.org/packages/OTBSoftwareGuide.pdf>`_
   * `Online html OTB Software Guide <https://www.orfeo-toolbox.org/SoftwareGuide/index.html>`_
 
 * OTB CookBook
@@ -166,6 +168,8 @@ What next?
   tour of of OTB-Applications and Monteverdi, followed by a set of
   recipes to perform usual remote sensing tasks with both tools. 
   
+.. TODO pdf link is broken
+
   * `OTBCookBook.pdf <http://orfeo-toolbox.org/packages/OTBCookBook.pdf>`_
   * `Online html OTB CookBook <https://www.orfeo-toolbox.org/CookBook>`_
 
@@ -173,7 +177,7 @@ What next?
 
   Follow the tutorials_ to learn more about OTB.
 
-.. _tutorials: http://www.orfeo-toolbox.org/SoftwareGuide/SoftwareGuidepa2.html#x17-49000II
+.. _tutorials: https://www.orfeo-toolbox.org/SoftwareGuide/SoftwareGuidepa2.html#x17-49000II
 
 * OTB Applications documentation
 

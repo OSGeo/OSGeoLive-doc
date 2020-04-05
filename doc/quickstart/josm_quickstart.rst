@@ -38,7 +38,7 @@ Load a sample (ficticious) map
    basic ways to draw maps with JOSM. Note that this map is not real, in
    that it is not a real map of a real place, so we will not save it on
    OpenStreetMap.
-#. Download the file here: `sample.osm <http://learnosm.org/files/sample.osm>`__
+#. Download the file here: `sample.osm <https://learnosm.org/files/sample.osm>`__
 #. Now let’s open the sample map file in JOSM. Click the “Open” button
    in the upper left.
 
@@ -212,8 +212,8 @@ What next?
 ==========
 
 -  Try the LearnOSM documentation, from which this quickstart was derived: 
-   http://learnosm.org/en/josm/start-josm/
+   https://learnosm.org/en/josm/start-josm/
 -  In order to continue editing you first need to download real data. 
    This is explained in the next chapter: 
-   http://learnosm.org/en/josm/more-about-josm/
+   https://learnosm.org/en/josm/more-about-josm/
 -  Website: https://josm.openstreetmap.de/

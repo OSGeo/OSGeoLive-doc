@@ -1,10 +1,10 @@
 This is a suggested abstract for inclusion within a conference program. You are welcome to customise as you see fit.
 
 The abstract, slides and script are maintained at:
-https://github.com/OSGeo/OSGeoLive-doc/tree/master/en/presentation
+https://github.com/OSGeo/OSGeoLive-doc/tree/master/doc/presentation
 
 The latest stable version of the slides can be viewed at:
-https://live.osgeo.org/en/presentation/index.html
+https://live.osgeo.org/en/presentation.html#/
 
 :Author: <Your Name>, <Affiliation>
 :Author: Cameron Shorter

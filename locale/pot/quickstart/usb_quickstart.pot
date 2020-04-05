@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid "A USB flash drive (at least 4 Gig, 8+ Gig is recommended)."
 msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:19
-msgid "An OSGeoLive ISO image (downloaded from: http://live.osgeo.org/en/download.html) or converted from a DVD."
+msgid "An OSGeoLive ISO image (downloaded from: https://live.osgeo.org/en/download.html) or converted from a DVD."
 msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:21
@@ -89,7 +89,7 @@ msgid "The version of Ubuntu you are running, needs to be the same or newer than
 msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:49
-msgid "`Download <http://live.osgeo.org/en/download.html>`_ osgeolive or osgeolive-mini to your computer's hard drive."
+msgid "`Download <https://live.osgeo.org/en/download.html>`_ osgeolive or osgeolive-mini to your computer's hard drive."
 msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:51
@@ -145,7 +145,7 @@ msgid "When booting, look for a message indicating a Boot Menu (most commonly yo
 msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:84
-msgid "If your computer does not have a boot menu, then boot into your system BIOS. The button to enter BIOS varies by brand and model of computer. If you can't figure out yours try this website that lists many BIOS hotkeys. http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems/"
+msgid "If your computer does not have a boot menu, then boot into your system BIOS. The button to enter BIOS varies by brand and model of computer. If you can't figure out yours try this website that lists many BIOS hotkeys. https://www.mydigitallife.net/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems/"
 msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:86
@@ -161,7 +161,7 @@ msgid "Note also, the USB drive is often listed under hard drives rather than re
 msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:90
-msgid "This `Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates booting from USB."
+msgid "This `Video <https://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates booting from USB."
 msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:93

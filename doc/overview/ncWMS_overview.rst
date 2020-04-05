@@ -43,16 +43,15 @@ Core Features
 Implemented Standards
 ---------------------
 
-* `WMS <http://www.opengeospatial.org/standards/wms>`__ (v1.1.1, v1.3.0)
-
-* `KML <http://www.opengeospatial.org/standards/kml>`__
+* |WMS| (v1.1.1, v1.3.0)
+* |KML| 
 
 Details
 -------
 
-**Website:** https://github.com/Reading-eScience-Centre/ncwms
+**Website:** @WEB_ncWMS@
 
-**Licence:** `Modified BSD License <https://github.com/Reading-eScience-Centre/ncwms/releases/download/ncwms-2.2.8/licence.txt>`_
+**Licence:** `Modified BSD License <https://github.com/Reading-eScience-Centre/ncwms/blob/master/licence.txt>`__
 
 **Software Version:** |version-ncWMS|
 

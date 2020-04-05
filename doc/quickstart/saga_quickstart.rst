@@ -253,7 +253,7 @@ explore some of the other modules of SAGA!
 What next?
 ==========
 More documentation can be found on the SAGA website:
- * http://www.saga-gis.org
+* @WEB_saga@
 and specifically in the documentation archive:
- * http://www.saga-gis.org/en/about/references.html 
- * http://sourceforge.net/projects/saga-gis/files/SAGA%20-%20Documentation/ 
+* http://www.saga-gis.org/en/about/references.html 
+* https://sourceforge.net/projects/saga-gis/files/SAGA%20-%20Documentation/ 

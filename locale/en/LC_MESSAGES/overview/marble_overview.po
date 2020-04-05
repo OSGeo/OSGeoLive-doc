@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,10 +28,10 @@ msgstr ""
 #: ../../build/doc/overview/marble_overview.rst:23
 msgid ""
 "Marble is an open source KDE Education Project program similar to `NASA "
-"World Wind <http://worldwind.arc.nasa.gov/java/>`_ or Google Earth. "
+"World Wind <https://worldwind.arc.nasa.gov/java/>`_ or Google Earth. "
 "Besides choosing any number of maps to view on your globe (including "
-"`OpenStreetMaps <http://www.osm.org>`_), you are encouraged to include a "
-"KDE Marble widget in your application."
+"`OpenStreetMaps <https://www.openstreetmap.org>`_), you are encouraged to"
+" include a KDE Marble widget in your application."
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:29
@@ -122,7 +122,7 @@ msgid "Tools (Distance Measurement, Bookmarks, Time Simulation, Offline Mode)"
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:64
-msgid "`OpenStreetMap <http://www.osm.org>`_ integration"
+msgid "`OpenStreetMap <https://www.openstreetmap.org>`_ integration"
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:68
@@ -130,7 +130,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:70
-msgid "**Website:** http://marble.kde.org"
+msgid "**Website:** https://marble.kde.org/"
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:72
@@ -150,11 +150,11 @@ msgid "**API Interfaces:** Qt designer, C++, Python, D-BUS, Shell script"
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:80
-msgid "**Support:** http://techbase.kde.org/Projects/Marble"
+msgid "**Support:** https://techbase.kde.org/Projects/Marble"
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:82
-msgid "**More Info:** http://www.slideshare.net/marbleglobe/marble-1-6en"
+msgid "**More Info:** https://www.slideshare.net/marbleglobe/marble-1-6en"
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:87

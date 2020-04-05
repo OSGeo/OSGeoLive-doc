@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,7 +122,7 @@ msgid "This is only the first step on the road to using OpenJUMP. There is a lot
 msgstr ""
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:100
-msgid "You can download tutorials for the OpenJUMP here: http://sourceforge.net/projects/jump-pilot/files/Documentation/"
+msgid "You can download tutorials for the OpenJUMP here: https://sourceforge.net/projects/jump-pilot/files/Documentation/"
 msgstr ""
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:102
@@ -130,10 +130,10 @@ msgid "You can read the OpenJUMP wiki here: http://ojwiki.soldin.de/index.php?ti
 msgstr ""
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:104
-msgid "You can get help fast on the OpenJUMP users mailing list: http://groups.google.com/group/openjump-users"
+msgid "You can get help fast on the OpenJUMP users mailing list: https://groups.google.com/forum/#!forum/openjump-users"
 msgstr ""
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:106
-msgid "The latest OpenJUMP version can be found here: http://sourceforge.net/projects/jump-pilot/files/OpenJUMP/"
+msgid "The latest OpenJUMP version can be found here: https://sourceforge.net/projects/jump-pilot/files/OpenJUMP/"
 msgstr ""
 

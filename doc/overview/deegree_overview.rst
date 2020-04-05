@@ -17,13 +17,13 @@ About
 --------------------------------------------------------------------------------
 
 
-deegree provides geospatial webservices based upon `Open Geospatial Consortium (OGC) <http://www.opengeospatial.org>`_ and `INSPIRE Network Services <http://inspire.jrc.ec.europa.eu>`_ specifications. deegree supports:
+deegree provides geospatial webservices based upon |OGC| and `INSPIRE Network Services <https://inspire.ec.europa.eu>`_ specifications. deegree supports:
 
-* `Web Feature Services (WFS) <http://www.opengeospatial.org/standards/wfs>`_: Serves vector data from geospatial data
-* `Web Map Services (WMS) <http://www.opengeospatial.org/standards/wms>`_: Serves maps rendered from geospatial data
-* `Web Map Tile Services (WMTS) <http://www.opengeospatial.org/standards/wmts>`_: Serves pre-rendered map tiles
-* `Catalogue Services for the Web (CSW) <http://www.opengeospatial.org/standards/cat>`_: Performs searches for geospatial datasets and services
-* `Web Processing Services (WPS) <http://www.opengeospatial.org/standards/wps>`_: Executes geospatial processes
+* |WFS|: Serves vector data from geospatial data
+* |WMS|: Serves maps rendered from geospatial data
+* |WMTS|: Serves pre-rendered map tiles
+* |CSW|: Performs searches for geospatial datasets and services
+* |WPS|: Executes geospatial processes
 
 @SCREENSHOT_deegree@
 
@@ -98,17 +98,17 @@ Core Features
 Implemented Standards
 --------------------------------------------------------------------------------
 
-* OGC Web Feature Service (WFS) 1.0.0, 1.1.0 and 2.0.0
-* OGC Web Map Service (WMS) 1.1.1 and 1.3.0
-* OGC Web Map Tile Service (WMTS) 1.1.0
+* |WFS| 1.0.0, 1.1.0 and 2.0.0
+* |WMS| 1.1.1 and 1.3.0
+* |WMTS| 1.1.0
 * OGC Catalogue Service-Web (CSW) 2.0.2
-* OGC Web Processing Service (WPS) 1.0.0
-* OGC GML 2.12, 3.0.1, 3.1.1 and 3.2.1
+* |WPS| 1.0.0
+* |GML| 2.12, 3.0.1, 3.1.1 and 3.2.1
 
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.deegree.org
+**Website:** @WEB_deegree@
 
 **Licence:** LGPL
 

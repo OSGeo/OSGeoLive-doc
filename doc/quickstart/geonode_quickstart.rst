@@ -207,11 +207,13 @@ What next?
 
 Now you've gotten a quick insight in the possibilities of GeoNode. To learn more about GeoNode and its features, visit our webpage www.geonode.org. 
 
-To install GeoNode on your own server, follow our `Quick Installation Guide <http://docs.geonode.org/en/latest/tutorials/install_and_admin/quick_install.html>`_ .
+To install GeoNode on your own server, follow our `Quick Installation Guide <https://docs.geonode.org/en/master/start/index.html#quick-installation-guide>`_ .
 
-In order to get started with GeoNode our `documentation <http://docs.geonode.org/en/latest/index.html>`_ might be useful.
+In order to get started with GeoNode our `documentation <https://docs.geonode.org/en/master/>`_ might be useful.
 
-If you need help or want to get some information about a specific topic please don't hasitate to ask us! You can do this through the #geonode IRC channel using http://webchat.freenode.net/ , through the `GeoNode Gitter channel <https://gitter.im/GeoNode/general>`_
+If you need help or want to get some information about a specific topic please
+don't hasitate to ask us! You can do this through the #geonode IRC channel using
+https://webchat.freenode.net/, through the `GeoNode Gitter channel <https://gitter.im/GeoNode/general>`_
 or by asking your question in our `mailing list <https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users>`_ !
     
     

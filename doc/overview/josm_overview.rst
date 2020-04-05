@@ -59,13 +59,13 @@ Core Features
 Implemented Standards
 --------------------------------------------------------------------------------
 
-* JOSM views WMS layers, but uses the `OSM API <http://wiki.openstreetmap.org/wiki/API_v0.6>`_ to communicate with OSM database.
+* JOSM views WMS layers, but uses the `OSM API <https://wiki.openstreetmap.org/wiki/API_v0.6>`_ to communicate with OSM database.
 
 
 Details
 --------------------------------------------------------------------------------
 
-**Website:** https://josm.openstreetmap.de/
+**Website:** @WEB_josm@
 
 **Licence:** GNU General Public License (GPL) version 2. Note: JOSM plugins may use other licences.
 

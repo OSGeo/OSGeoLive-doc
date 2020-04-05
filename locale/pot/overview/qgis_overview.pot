@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -165,7 +165,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rst:85
-msgid "**Website:** http://www.qgis.org"
+msgid "**Website:** https://www.qgis.org/en/site/"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rst:87
@@ -181,11 +181,11 @@ msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rst:93
-msgid "**Community Support:** http://qgis.org/en/site/forusers/support.html"
+msgid "**Community Support:** https://qgis.org/en/site/forusers/support.html"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rst:95
-msgid "**Commercial Support:** http://qgis.org/en/site/forusers/commercial_support.html"
+msgid "**Commercial Support:** https://qgis.org/en/site/forusers/commercial_support.html"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rst:100

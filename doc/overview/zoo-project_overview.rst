@@ -71,7 +71,7 @@ Demo
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://zoo-project.org
+**Website:** @WEB_zoo-project@
 
 **Licence:** MIT x/11
 

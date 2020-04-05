@@ -24,18 +24,18 @@ Community Support
 ================================================================================
 
 If you have any questions, comments, or run into any problems, please drop us a
-note on `our mailing list <http://lists.osgeo.org/mailman/listinfo/osgeolive>`_.
+note on `our mailing list <https://lists.osgeo.org/mailman/listinfo/osgeolive>`_.
 
 Searchable archives of the mailing list are hosted by
-`Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_.
+`Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeoLive-f3777350.html>`_.
 
 IRC users might try the #osgeolive or #osgeo channel at Freenode.net for real-time
 assistance. You also can meet us at Slack, Matrix or Glitter.
 
-A wealth of information is available on our `Wiki site <http://wiki.osgeo.org/wiki/OSGeoLive>`_, 
+A wealth of information is available on our `Wiki site <https://trac.osgeo.org/osgeolive/wiki>`_, 
 and a `bug and wish tracking system <https://trac.osgeo.org/osgeolive/report/10>`_ is also available.
 
-Stay tuned and follow OSGeoLive on Twitter `@osgeolive <https:twitter.com/osgeolive>`_.
+Stay tuned and follow OSGeoLive on Twitter `@osgeolive <https://mobile.twitter.com/osgeolive>`_.
 
 Commercial Support
 ================================================================================

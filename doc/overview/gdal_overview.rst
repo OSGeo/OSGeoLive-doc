@@ -56,9 +56,9 @@ The OGR vector data model is compliant with the OGC Simple Features specificatio
 Details
 --------------------------------------------------------------------------------
 
-**Website:**  http://www.gdal.org
+**Website:** @WEB_gdal@
 
-**Licence:** `X/MIT style Open Source license <http://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
+**Licence:** `X/MIT style Open Source license <https://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
 
 **Software Version:** |version-gdal|
 
@@ -66,7 +66,7 @@ Details
 
 **API Interfaces:** C, C++, Python, Java, C#, Ruby, VB6 and Perl
 
-**Support:** http://lists.osgeo.org/mailman/listinfo/gdal-dev, http://www.osgeo.org/search_profile
+**Support:** https://lists.osgeo.org/mailman/listinfo/gdal-dev, https://www.osgeo.org/service-providers/
 
 @QUICKSTART_gdal@
 

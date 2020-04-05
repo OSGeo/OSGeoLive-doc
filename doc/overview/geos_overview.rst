@@ -14,14 +14,18 @@
 Spatial Library
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GEOS (Geometry Engine - Open Source) is a C++ port of the `JTS Topology Suite (JTS) <https://www.locationtech.org/proposals/jts-topology-suite>`_. It includes the OpenGIS Simple Features for SQL spatial predicate functions and spatial operators, as well as specific JTS enhanced topology functions.
+GEOS (Geometry Engine - Open Source) is a C++ port of the `JTS Topology Suite (JTS) <https://projects.eclipse.org/projects/locationtech>`_.
+It includes the OpenGIS Simple Features for SQL spatial predicate functions and spatial operators, as well as specific JTS enhanced topology functions.
 
-GEOS is the most widely used geospatial C++ geometry library, being used by open source projects such as :doc:`PostGIS <postgis_overview>`, :doc:`QGIS <qgis_overview>`, :doc:`GDAL/OGR <gdal_overview>` and :doc:`MapServer <mapserver_overview>`, and by proprietary products including `FME <http://www.safe.com/fme/fme-technology/>`_.
+GEOS is the most widely used geospatial C++ geometry library, being used by open
+source projects such as :doc:`PostGIS <postgis_overview>`, :doc:`QGIS <qgis_overview>`,
+:doc:`GDAL/OGR <gdal_overview>` and :doc:`MapServer <mapserver_overview>`,
+and by proprietary products including `FME <https://www.safe.com/fme>`_.
 
 Implemented Standards
 --------------------------------------------------------------------------------
 
-* `OpenGIS Simple Features for SQL <http://www.opengeospatial.org/standards/sfs>`_  spatial predicate functions and spatial operators
+* OpenGIS |SFSQL| spatial predicate functions and spatial operators
 
 ..  @SCREENSHOT_geos@
 
@@ -40,7 +44,7 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:**  http://geos.osgeo.org/
+**Website:** @WEB_geos@
 
 **Licence:** LGPL
 
@@ -50,7 +54,7 @@ Details
 
 **API Interfaces:** C, C++
 
-**Support:** http://lists.osgeo.org/mailman/listinfo/geos-devel, http://www.osgeo.org/search_profile
+**Support:** https://lists.osgeo.org/mailman/listinfo/geos-devel, https://www.osgeo.org/service-providers
 
 @QUICKSTART_geos@
 

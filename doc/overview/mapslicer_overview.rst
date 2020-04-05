@@ -38,7 +38,7 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** https://wiki.osgeo.org/wiki/MapSlicer
+**Website:** @WEB_mapslicer@
 
 **Licence:** New BSD License
 

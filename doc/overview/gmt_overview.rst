@@ -36,7 +36,7 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** https://gmt.soest.hawaii.edu
+**Website:** @WEB_gmt@
 
 **Licence:** GNU General Public License (GPL) version 2
 

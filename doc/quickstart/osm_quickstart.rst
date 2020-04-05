@@ -16,7 +16,7 @@
 
 OpenStreetMap is a free street level map of the world, created by an ever
 growing community of mappers. Anyone can edit OpenStreetMap.
-The `Learn OSM website <http://learnosm.org>`_ provides easy to understand,
+The `Learn OSM website <https://learnosm.org>`_ provides easy to understand,
 step-by-step guides for you to get started with contributing to OpenStreetMap
 and using OpenStreetMap and using OpenStreetMap data.
 The Learn OSM guide at the link above shows step by step how to navigate
@@ -43,7 +43,7 @@ satellite and aerial imageries, GPS traces or street-level imagery.
 
 * Start page: https://www.openstreetmap.org/edit
 * Documentation: https://wiki.openstreetmap.org/wiki/ID
-* Tutorial: http://learnosm.org/en/beginner/id-editor/
+* Tutorial: https://learnosm.org/en/beginner/id-editor/
 
 
 JOSM
@@ -57,7 +57,7 @@ extended with plugins, custom presets and more extensions.
 
 * Homepage: https://josm.openstreetmap.de
 * User guide: https://wiki.openstreetmap.org/wiki/JOSM/Guide
-* Tutorial: http://learnosm.org/en/josm/start-josm/
+* Tutorial: https://learnosm.org/en/josm/start-josm/
 * JOSM plugin collection: https://josm.openstreetmap.de/wiki/Plugins
 
 
@@ -77,9 +77,9 @@ QGIS
 OpenStreetMap data can be loaded in **QGIS** as vector layer, as a core 
 functionality or through plugins like QuickOSM.
 
-* QuickOSM: http://plugins.qgis.org/plugins/QuickOSM/
+* QuickOSM: https://plugins.qgis.org/plugins/QuickOSM/
 * Online help: https://wiki.openstreetmap.org/wiki/QGIS#QGIS_2:_Importing_OSM_vector_layers
-* Tutorial: http://learnosm.org/en/osm-data/osm-in-qgis/
+* Tutorial: https://learnosm.org/en/osm-data/osm-in-qgis/
 
 Osmosis
 -------
@@ -89,7 +89,7 @@ a raw level on OSM data. This includes data import and export to databases,
 sorting, cleaning, and creating data dumps.
 
 * Documentation: https://wiki.openstreetmap.org/wiki/Osmosis#Usage
-* Tutorial: http://learnosm.org/en/osm-data/osmosis/
+* Tutorial: https://learnosm.org/en/osm-data/osmosis/
 
 
 osm2pgsql
@@ -101,7 +101,7 @@ used to render OSM data visually using Mapnik, as Mapnik can query
 PostgreSQL for map data, but does not work directly with OSM files.
 
 * Homepage: https://wiki.openstreetmap.org/wiki/Osm2pgsql
-* Tutorial: http://learnosm.org/en/osm-data/osm2pgsql/
+* Tutorial: https://learnosm.org/en/osm-data/osm2pgsql/
 
 What next?
 ==========

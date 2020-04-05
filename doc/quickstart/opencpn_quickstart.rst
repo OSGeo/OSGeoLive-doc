@@ -32,7 +32,7 @@ This is a condition of redistributing NOAA's free nautical charts. The first tim
 
 .. To do this manually, open a Terminal from the main Accessories menu and run :command:`opencpn_noaa_agreement.sh` at the command prompt. The user's password is given in the file on the main desktop.
 
-You can download additional US nautical charts from NOAA at http://www.charts.noaa.gov
+You can download additional US nautical charts from NOAA at https://www.charts.noaa.gov/
 
 
 Setting up your GPS
@@ -85,6 +85,6 @@ What next?
 
 *  `Getting started tips <../../opencpn/tips.html>`_
 
-* Website: http://www.opencpn.org
+* Website: @WEB_opencpn@
 
-* Support: http://www.cruisersforum.com/forums/f134
+* Support: https://www.cruisersforum.com/forums/f134

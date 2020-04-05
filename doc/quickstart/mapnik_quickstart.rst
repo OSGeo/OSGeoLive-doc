@@ -62,4 +62,4 @@ What next?
 
 * Explore the included files on the latest OSGeoLive distribution, in this directory: file:///usr/local/share/mapnik/
 
-* Visit the Mapnik website: http://www.mapnik.org/
+* Visit the Mapnik website: https://mapnik.org

@@ -28,8 +28,8 @@ System Requirements
 --------------------------------------------------------------------------------
 
 * RAM: 2 GB at least. The Lubuntu system runs well with 1 GB of RAM, and you'll need to keep at least the same amount of memory for your host system. So a total of 2 GB will be needed for smooth operation. Some applications, like geoserver, needs that the virtual machine has at least 2GB of RAM. So if possible, consider providing 2 GB or more for your virtual machine.
-* Spare Hard Disk Space: The virtual disk file (vmdk) from:  `live.osgeo.org <http://live.osgeo.org/en/download.html>`_  unzips to almost 10 GB. And you'll want more space to allow some room to work on the virtual machine. So 20 GB is a good recommendation.
-* CPU: Any CPU will do, but a processor which supports "Virtualization Technology" will be faster. You can check your computer CPU `here <http://www.intel.com/support/processors/sb/cs-030729.htm>`_.
+* Spare Hard Disk Space: The virtual disk file (vmdk) from:  `live.osgeo.org <https://live.osgeo.org/en/download.html>`_  unzips to almost 10 GB. And you'll want more space to allow some room to work on the virtual machine. So 20 GB is a good recommendation.
+* CPU: Any CPU will do, but a processor which supports "Virtualization Technology" will be faster. You can check your computer CPU `here <https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html>`__.
 
 Most machines produced in the last 4-5 years will meet these requirements.
 
@@ -38,12 +38,12 @@ Howto
 
 **Downloads**
 
-Download `Virtual Box <http://www.virtualbox.org/>`_  for your platform, and install the software. On windows run the installer, or on Ubuntu-like linux systems do the following:
+Download `Virtual Box <https://www.virtualbox.org/>`_  for your platform, and install the software. On windows run the installer, or on Ubuntu-like linux systems do the following:
 
   ``apt-get install virtualbox-ose``
 
-In addition download the OSGeo Virtual disk file (vmdk) from `live.osgeo.org <http://live.osgeo.org/en/download.html>`_
-. Click on the "Download virtual machine" button. Then unzip the downloaded file (using `7zip <http://www.7-zip.org>`_ ).
+In addition download the OSGeo Virtual disk file (vmdk) from `live.osgeo.org <https://live.osgeo.org/en/download.html>`_
+. Click on the "Download virtual machine" button. Then unzip the downloaded file (using `7zip <https://www.7-zip.org>`_ ).
 
 
 **Create a Virtual Machine**
@@ -117,7 +117,7 @@ Now files on your host machine in the chosen folder will also be available in th
 See Also:
 --------------------------------------------------------------------------------
  * OSGeo wiki pages:
-        `Other ways to create a Virtual Machine <http://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_
+        `Other ways to create a Virtual Machine <https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_
 
  * :doc:`osgeolive_quickstart`
  * :doc:`osgeolive_install_quickstart`

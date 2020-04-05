@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,7 +89,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/geomajas_overview.rst:53
-msgid "**Website:** http://www.geomajas.org/"
+msgid "**Website:** http://www.geomajas.org"
 msgstr ""
 
 #: ../../build/doc/overview/geomajas_overview.rst:55
@@ -109,7 +109,7 @@ msgid "**API Interfaces:** Java and Javascript"
 msgstr ""
 
 #: ../../build/doc/overview/geomajas_overview.rst:63
-msgid "**Support:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089"
+msgid "**Support:** https://www.osgeo.org/service-providers"
 msgstr ""
 
 #: ../../build/doc/overview/geomajas_overview.rst:68

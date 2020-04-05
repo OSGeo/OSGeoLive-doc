@@ -27,7 +27,7 @@ editing and viewing Geospatial data.
 
 This Quick Start describes how to:
 
-  * load a map layers from a shapefile and `Web Map Service (WMS) <http://www.opengeospatial.org/standards/wms>`__
+  * load a map layers from a shapefile and |WMS|
   * use the standard map tools
   * apply colour to map features using styling
 
@@ -214,9 +214,11 @@ available layers of information that you can mix into your own maps.
 	.. image:: /images/projects/udig/udig_WebViewClick.png
 		:scale: 50 %
 
-#. Click on the link WMS\:`dm solutions`_ link
+#. Click on the link ``WMS\:http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities``
 
-	.. _dm solutions: http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities
+.. TODO #. Click on the link WMS\:`dm solutions`_ lin
+
+.. TODO .. _dm solutions: http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities
 
 #. From the Resource Selection page we are going to choose the following layers:
 
@@ -265,7 +267,7 @@ Style
 
 #. When you are happy with the result you can press :guilabel:`Close` to dismiss the dialog
 
-.. note:: Some files include style settings. The Style definition can be found in files with the :file:`*.sld` extension. The name itself should be equal to the file containing the data. If such a `Styled Layer Description (SLD) <http://www.opengeospatial.org/standards/sld>__` file exists, the style will be applied automatically. 
+.. note:: Some files include style settings. The Style definition can be found in files with the :file:`*.sld` extension. The name itself should be equal to the file containing the data. If such a |SLD| file exists, the style will be applied automatically. 
 
 Sometimes it is a bit hard to see what is going on with layer providing much details. To get focused on the task you like to work on, you can choose :menuselection:`Map --> Mylar` from the menu bar. Using the *Layer* view select different layers in turn to see the effect. You can turn off this effect at any time using :menuselection:`Map --> Mylar` from the menu bar.
   
@@ -287,7 +289,7 @@ Things to Try
 
 Here are some additional challenges for you to try:
 
-#. Try viewing your own GIS map layers, or try adding a layer from a `Web Feature Service (WFS) <http://www.opengeospatial.org/standards/wfs>`__ 
+#. Try viewing your own GIS map layers, or try adding a layer from a |WFS| 
 #. Try styling the WFS layer.
 
 What Next?

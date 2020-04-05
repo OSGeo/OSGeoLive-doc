@@ -23,12 +23,12 @@ Core Features
 --------------------------------------------------------------------------------
 * Dynamic Geospatial Visualization:
 
-  * Create data-driven, time-dynamic scenes with `CZML <https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide>`_.
+  * Create data-driven, time-dynamic scenes with `CZML <https://github.com/CesiumGS/cesium/wiki/CZML-Guide>`_.
   * Visualize high-resolution worldwide terrain.
   * Draw imagery layers using WMS, TMS, OpenStreetMaps, Bing, and Esri standards.
   * Draw vector data from GeoJSON and TopoJSON.
   * Draw 3D models using COLLADA and glTF.
-  * Use `plugins <http://cesiumjs.org/plugins/index.html>`_ to extend Cesium.
+  * Use `plugins <https://cesium.com/cesiumjs>`_ to extend Cesium.
 
 * Built for Performance and Precision:
 
@@ -49,7 +49,7 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://cesiumjs.org
+**Website:** @WEB_cesium@
 
 **Licence:** Apache 2.0 license
 
@@ -57,7 +57,7 @@ Details
 
 **Supported Platforms:**  Platform independent, depends only on a browser which supports WebGL
 
-**Community Support:** Forum at https://cesiumjs.org/forum/
+**Community Support:** Forum at https://groups.google.com/forum/?hl=en#!forum/cesium-dev
 
 @QUICKSTART_cesium@
 

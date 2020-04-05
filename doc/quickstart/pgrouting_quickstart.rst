@@ -278,7 +278,7 @@ For these cases you need to add an additional column to your query `reverse_cost
 What next?
 ==========
 
-* **pgRouting Website** - Visit the project website https://www.pgrouting.org to learn more about pgRouting.
+* **pgRouting Website** - Visit the project website https://pgrouting.org to learn more about pgRouting.
 * **pgRouting Documentation** - Find the most recent documentation in https://docs.pgrouting.org.
 * **pgRouting Workshop** - The workshop `"FOSS4G routing with pgRouting tools and OpenStreetMap road data"` is available in: https://workshop.pgrouting.org.
 * **osm2pgRouting loading data** - https://github.com/pgRouting/osm2pgrouting/wiki/Documentation-for-osm2pgrouting-v2.1

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgid "Dynamic Geospatial Visualization:"
 msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rst:33
-msgid "Create data-driven, time-dynamic scenes with `CZML <https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide>`_."
+msgid "Create data-driven, time-dynamic scenes with `CZML <https://github.com/CesiumGS/cesium/wiki/CZML-Guide>`_."
 msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rst:34
@@ -61,7 +61,7 @@ msgid "Draw 3D models using COLLADA and glTF."
 msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rst:38
-msgid "Use `plugins <http://cesiumjs.org/plugins/index.html>`_ to extend Cesium."
+msgid "Use `plugins <https://cesium.com/cesiumjs>`_ to extend Cesium."
 msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rst:40
@@ -109,7 +109,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rst:59
-msgid "**Website:** http://cesiumjs.org"
+msgid "**Website:** https://cesium.com/"
 msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rst:61
@@ -125,7 +125,7 @@ msgid "**Supported Platforms:**  Platform independent, depends only on a browser
 msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rst:67
-msgid "**Community Support:** Forum at https://cesiumjs.org/forum/"
+msgid "**Community Support:** Forum at https://groups.google.com/forum/?hl=en#!forum/cesium-dev"
 msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rst:71

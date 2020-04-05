@@ -32,12 +32,12 @@ Core Features
 
 * C/C++/Python APIs for reading, writing, and manipulating LAS data
 * `Command line utilities`_ for manipulating LAS data based on `LAStools`_
-* Coordinate reprojection via `GDAL <http://gdal.org>`__
+* Coordinate reprojection via `GDAL <https://gdal.org>`__
 
 Details
 --------------------------------------------------------------------------------
  
-**Website:** http://liblas.org
+**Website:** @WEB_liblas@
 
 **Licence:** BSD
 
@@ -47,16 +47,16 @@ Details
 
 **API Interfaces:** C, C++, Python
 
-**Support:** `Communication and Support <http://liblas.org/community.html>`_
+**Support:** `Communication and Support <https://liblas.org/community.html>`_
 
 
-.. _`LIDAR`: http://en.wikipedia.org/wiki/LIDAR
+.. _`LIDAR`:  https://en.wikipedia.org/wiki/LIDAR
 .. _`LAStools`: http://www.cs.unc.edu/~isenburg/lastools/
 .. _`LAS Format`: http://www.lasformat.org/
-.. _`ASPRS Standards Committee`: http://www.asprs.org/society/committees/standards/lidar_exchange_format.html
-.. _`ASPRS LAS format`: http://www.asprs.org/society/committees/standards/lidar_exchange_format.html
-.. _`Command line utilities`: http://liblas.org/utilities/index.html
-.. _`OSGeo4W`: http://trac.osgeo.org/osgeo4w/
+.. _`ASPRS Standards Committee`: https://www.asprs.org/society/committees/standards/lidar_exchange_format.html
+.. _`ASPRS LAS format`: https://www.asprs.org/divisions-committees/lidar-division/laser-las-file-format-exchange-activities.html
+.. _`Command line utilities`: https://liblas.org/utilities/index.html
+.. _`OSGeo4W`: https://trac.osgeo.org/osgeo4w/
 .. _`Wikipedia`: http://en.wikipedia.org/wiki/LIDAR
 
 @QUICKSTART_liblas@

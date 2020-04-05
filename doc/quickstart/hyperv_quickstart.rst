@@ -29,7 +29,7 @@ Downloads and Virtual Machine Conversion
 --------------------------------------------------------------------------------
 
 Download the OSGeoLive VirtualBox virtual hard disk (vmdk) by following the links on `live.osgeo.org <http://live.osgeo.org/en/download.html>`_. 
-Once downloaded unzip the downloaded file (using `7zip <http://www.7-zip.org>`_ ).
+Once downloaded unzip the downloaded file (using `7zip <https://www.7-zip.org>`_ ).
 
 The virtual machine image format for Hyper-V differs from the VirtualBox download. The file therefore has to be converted from ``vmdk`` to
 ``vhdx``. There are currently two conversion options available. 
@@ -37,7 +37,7 @@ The virtual machine image format for Hyper-V differs from the VirtualBox downloa
 StarWind V2V Converter
 ++++++++++++++++++++++
 
-Use the `StarWind V2V Converter <https://www.starwindsoftware.com/converter>`_ program. This has a simple user interface allowing you to select the
+Use the `StarWind V2V Converter <https://www.starwindsoftware.com/starwind-v2v-converter>`_ program. This has a simple user interface allowing you to select the
 ``osgeo-live-XX.X-vm.vmdk`` file and convert to a *Microsoft VHDX* image. 
 
 Microsoft Virtual Machine Converter 3.0
@@ -46,9 +46,11 @@ Microsoft Virtual Machine Converter 3.0
 The second more complicated option is as follows.
 
 #. Download the `Microsoft Virtual Machine Converter 3.0 <https://www.microsoft.com/en-us/download/details.aspx?id=42497>`_ and install. 
-#. Download the `DS File Ops Kit <http://members.ozemail.com.au/~nulifetv/freezip/freeware/dsfok.zip>`_ and unzip. 
+#. Download the DS File Ops Kit and unzip. 
 #. Open PowerShell (with administrator rights)
 #. Run the following command to get the disk descriptor from the OSGeoLive vmdk. This saves the disk description to the "descriptor1.txt" file. 
+
+.. TODO link is broken #. Download the `DS File Ops Kit <http://members.ozemail.com.au/~nulifetv/freezip/freeware/dsfok.zip>`_ and unzip. 
 
    .. code-block:: bat
   
@@ -117,7 +119,7 @@ See Also:
 --------------------------------------------------------------------------------
  * :doc:`virtualization_quickstart`. 
  * OSGeo wiki pages:
-        `Other ways to create a Virtual Machine <http://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_
+        `Other ways to create a Virtual Machine <https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_
 
  * :doc:`osgeolive_quickstart`
  * :doc:`osgeolive_install_quickstart`

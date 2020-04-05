@@ -35,12 +35,11 @@ Core Features
 * View, filter, subset, and download EO data
 * Register EO data archives
 * Web based and command line administration interface
-* Publish data via `Open Geospatial Consortium (OGC) standards
-  <http://www.opengeospatial.org/standards>`__:
+* Publish data via |OGC|
 
-  * `Web Coverage Service (WCS) <http://www.opengeospatial.org/standards/wcs>`__ 1.0, 1.1 and
+  * |WCS| 1.0, 1.1 and
     2.0 & proposed EO-WCS
-  * `Web Map Service (WMS) <http://www.opengeospatial.org/standards/wms>`__ & EO-WMS
+  * |WMS| & EO-WMS
   * Proposed extensions to WCS including: GeoTIFF encoding, predefined
     projections (CRSs), scaling, and interpolation.
   * Protocols supported are: KVP and XML/POST (used together with SOAP2POST
@@ -70,9 +69,9 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** https://eoxserver.readthedocs.org/
+**Website:** @WEB_eoxserver@
 
-**Licence:** `MIT-style license <https://eoxserver.readthedocs.org/en/latest/copyright.html#license>`_
+**Licence:** `MIT-style license <https://eoxserver.readthedocs.io/en/latest/copyright.html#license>`_
 
 **Software Version:** |version-eoxserver|
 
@@ -80,7 +79,7 @@ Details
 
 **API Interfaces:** Python
 
-**Support:** https://eoxserver.readthedocs.org/en/latest/users/basics.html#where-can-i-get-support
+**Support:** https://eoxserver.readthedocs.io/en/latest/users/basics.html#where-can-i-get-support
 
 @QUICKSTART_eoxserver@
 

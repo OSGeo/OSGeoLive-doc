@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -159,7 +159,7 @@ msgstr ""
 msgid ""
 "You can also save each frame as an image file for later encoding into an "
 "AVI, MPEG, or animated GIF `using other software "
-"<http://grass.osgeo.org/wiki/Movies>`_."
+"<https://grasswiki.osgeo.org/wiki/Movies>`_."
 msgstr ""
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:64
@@ -179,10 +179,10 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:76
-msgid "Website: http://www.zygrib.org"
+msgid "Website: https://www.zygrib.org"
 msgstr ""
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:77
-msgid "Support: http://zygrib.org/forum/"
+msgid "Support: https://zygrib.org/forum/"
 msgstr ""
 

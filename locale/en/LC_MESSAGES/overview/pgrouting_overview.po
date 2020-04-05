@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr ""
 #: ../../build/doc/overview/pgrouting_overview.rst:23
 msgid ""
 "pgRouting extends the :doc:`PostGIS <postgis_overview>`/`PostgreSQL "
-"<http://postgresql.org>`_ geospatial database to provide geospatial "
+"<https://www.postgresql.org>`_ geospatial database to provide geospatial "
 "routing and other network analysis functionality."
 msgstr ""
 
@@ -124,7 +124,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/pgrouting_overview.rst:67
-msgid "**Website:** http://www.pgrouting.org"
+msgid "**Website:** https://pgrouting.org/"
 msgstr ""
 
 #: ../../build/doc/overview/pgrouting_overview.rst:69
@@ -144,7 +144,7 @@ msgid "**API Interfaces:** SQL"
 msgstr ""
 
 #: ../../build/doc/overview/pgrouting_overview.rst:77
-msgid "**Commercial Support:** http://www.pgrouting.org/support.html"
+msgid "**Commercial Support:** https://pgrouting.org/support.html"
 msgstr ""
 
 #: ../../build/doc/overview/pgrouting_overview.rst:82

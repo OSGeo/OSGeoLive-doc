@@ -59,7 +59,7 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.orfeo-toolbox.org/
+**Website:** @WEB_otb@
 
 **Licence:** Apache v2.0
 
@@ -69,7 +69,7 @@ Details
 
 **API Interfaces:** C++
 
-**Commercial Support:** http://www.osgeo.org/search_profile
+**Commercial Support:** |SUPPORT|
 
 
 @QUICKSTART_otb@

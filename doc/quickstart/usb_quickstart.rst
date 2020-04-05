@@ -16,7 +16,7 @@ Requirements
 --------------------------------------------------------------------------------
 
 * A USB flash drive (at least 4 Gig, 8+ Gig is recommended).
-* An OSGeoLive ISO image (downloaded from: http://live.osgeo.org/en/download.html) or converted from a DVD.
+* An OSGeoLive ISO image (downloaded from: https://live.osgeo.org/en/download.html) or converted from a DVD.
 
  * For a 4 GB USB flash drive, use osgeolive-mini ISO (without Windows and Mac installers), without persistence.
  * For a 8+ GB USB flash drive, use either osgeolive-mini ISO, or osgeolive ISO (with Windows and Mac installers). 8+ GB is recommended if you wish to support persistence.
@@ -46,7 +46,7 @@ Creating bootable USB drive with Ubuntu Startup Disk Creator
 .. note::
    The version of Ubuntu you are running, needs to be the same or newer than the version of Lubuntu being installed onto your USB.  If installing OSGeoLive 8.0 onto a USB, then you will need to be running Ubuntu 14.04 or newer.
 
-`Download <http://live.osgeo.org/en/download.html>`_ osgeolive or osgeolive-mini to your computer's hard drive. 
+`Download <https://live.osgeo.org/en/download.html>`_ osgeolive or osgeolive-mini to your computer's hard drive. 
 
 Boot your computer into a recent Ubuntu/Xbuntu distribution. You can do this by running from an OSGeoLive DVD, as explained in :doc:`osgeolive_quickstart`.
 
@@ -81,13 +81,13 @@ Booting from the USB drive:
 
    * Most computers are not set to boot from a USB drive by default.
    * When booting, look for a message indicating a Boot Menu (most commonly you press F12)
-   * If your computer does not have a boot menu, then boot into your system BIOS. The button to enter BIOS varies by brand and model of computer. If you can't figure out yours try this website that lists many BIOS hotkeys. http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems/
+   * If your computer does not have a boot menu, then boot into your system BIOS. The button to enter BIOS varies by brand and model of computer. If you can't figure out yours try this website that lists many BIOS hotkeys. https://www.mydigitallife.net/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems/
 
 #. Select to boot from the USB device.
 
    * Note, that for some computers you will need to have the USB drive inserted into the computer in order to select it.
    * Note also, the USB drive is often listed under hard drives rather than removable devices. 
-   * This `Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates booting from USB.
+   * This `Video <https://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates booting from USB.
 
 Run:
 --------------------------------------------------------------------------------

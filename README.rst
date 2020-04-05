@@ -115,7 +115,7 @@ Information about how to document the projects on OSGeoLive can be found on the 
 References:
 ~~~~~~~~~~~
 
-* http://wiki.osgeo.org/wiki/Live_GIS_Add_Project#Application_Overview
+* https://wiki.osgeo.org/wiki/Live_GIS_Add_Project#Application_Overview
 
 * https://www.sphinx-doc.org
 

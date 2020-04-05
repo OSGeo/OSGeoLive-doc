@@ -117,8 +117,12 @@ The WCPS query to derive NDVI from the coverage is as follows:
 What next?
 ==========
 
-* The `rasdaman tutorial <http://tutorial.rasdaman.org>`_ provides a condensed introduction to the concepts behind rasdaman, rasql and the OGC web services support.
-* Learn more about the OGC  `Web Coverage Processing Service <http://www.opengeospatial.org/standards/wcps>`_ (WCPS) Language standard (which was heavily inspired by rasdaman); a good starting point is the  `documentation and tutorials page <http://standards.rasdaman.com/>`_  and `WCPS Query SandBox <http://localhost/rasdaman-demo/demo/client/query-sandbox.html>`_.
-* Interested in coverage data and services in general? Visit OGC's `Coverages Domain Working Group wiki <http://external.opengeospatial.org/twiki_public/CoveragesDWG/WebHome>`_.
-* Explore the `rasdaman documentation <http://doc.rasdaman.org>`_ to learn about rasdaman administration, its query language, and data ingestion.
-* Go to the `multi-dimensional demo <http://localhost/rasdaman-demo>`_ to explore interactive 1-D to 4-D rasdaman demos. The small ones are part of OSGeoLive, those utilizing larger sets (beyond this drive's capacity) forward to the `OGC standards showcase site <http://standards.rasdaman.com>`_ .
+* The `rasdaman tutorial <https://tutorial.rasdaman.org/>`_ provides a condensed introduction to the concepts behind rasdaman, rasql and the OGC web services support.
+* Learn more about the OGC  |WCPS| Language standard (which was heavily inspired 
+  by rasdaman); a good starting point is the
+  `documentation and tutorials page <https://standards.rasdaman.com/>`_  and `WCPS Query SandBox <http://localhost/rasdaman-demo/demo/client/query-sandbox.html>`_.
+* Interested in coverage data and services in general? Visit OGC's `Coverages Domain Working Group wiki <https://external.opengeospatial.org/twiki_public/CoveragesDWG/WebHome>`_.
+* Explore the `rasdaman documentation <https://doc.rasdaman.org>`_ to learn about rasdaman administration, its query language, and data ingestion.
+* Go to the `multi-dimensional demo <http://localhost/rasdaman-demo>`_ to explore interactive 1-D to 4-D rasdaman demos. 
+  The small ones are part of OSGeoLive, those utilizing larger sets (beyond this drive's capacity) 
+  forward to the `OGC standards showcase site <https://standards.rasdaman.com>`_ .
