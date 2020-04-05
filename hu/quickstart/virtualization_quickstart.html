@@ -93,18 +93,19 @@
 <h2>Rendszer követelmények<a class="headerlink" href="#system-requirements" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <ul class="simple">
 <li>RAM: legalább 2GB. Az Lubuntu rendszer jól fut 1 GB RAM-mal és legalább ugyanannyi memóriát kell fenntartani a gazda számítógépnek. Szóval összesen 2 GB szükséges a zökkenőmentes működéshez. Néhány alkalmazás számára, mint a geoserver, legalább 2 GB RAM szükséges a virtuális gépben. Tehát ha lehetséges, fontolja meg, hogy 2 GB-ot vagy többet biztosítson virtuális gépének.</li>
-<li>Szabad merevlemez terület:: a <a class="reference external" href="http://live.osgeo.org/en/download.html">live.osgeo.org</a> oldalról letöltött virtuális lemez fájl (vmdk) kitömörítve majdnem 10 GB. És további területre lesz szüksége a virtuális gépen dolgozáshoz. 20 GB egy megfelelő javasolt méret.</li>
-<li>CPU: bármilyen CPU megfelelő, de a „Virtualizációs technológiát” támogató processzorok gyorsabbak. A számítógépének processzorát <a class="reference external" href="http://www.intel.com/support/processors/sb/cs-030729.htm">itt</a> ellenőrizheti.</li>
+<li>Spare Hard Disk Space: The virtual disk file (vmdk) from:  <a class="reference external" href="https://live.osgeo.org/en/download.html">live.osgeo.org</a>  unzips to almost 10 GB. And you’ll want more space to allow some room to work on the virtual machine. So 20 GB is a good recommendation.</li>
+<li>CPU: Any CPU will do, but a processor which supports „Virtualization Technology” will be faster. You can check your computer CPU <a class="reference external" href="https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html">here</a>.</li>
 </ul>
 <p>Az elmúlt 4-5 évben készített gépek többsége megfelel a követelményeknek.</p>
 </div>
 <div class="section" id="howto">
 <h2>Hogyan csináljuk<a class="headerlink" href="#howto" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p><strong>Letöltések</strong></p>
-<p>Töltse le a <a class="reference external" href="http://www.virtualbox.org/">Virtual Box-ot</a> a platformjához és telepítse a szoftvert.  Windowson futtassa a telepítőt vagy Ubuntu típusú linux rendszereken tegye a következőt:</p>
+<p>Download <a class="reference external" href="https://www.virtualbox.org/">Virtual Box</a>  for your platform, and install the software. On windows run the installer, or on Ubuntu-like linux systems do the following:</p>
 <blockquote>
 <div><code class="docutils literal"><span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">virtualbox-ose</span></code></div></blockquote>
-<p>Emellett töltse le az OSGeo virtuális lemez fájlt (vmdk) a  <a class="reference external" href="http://live.osgeo.org/en/download.html">live.osgeo.org</a> oldalról. Kattintson a „Virtuális gép letöltés” gombra. Majd tömörítse ki a letöltött fájl (<a class="reference external" href="http://www.7-zip.org">7zip</a> használatával).</p>
+<p>In addition download the OSGeo Virtual disk file (vmdk) from <a class="reference external" href="https://live.osgeo.org/en/download.html">live.osgeo.org</a>
+. Click on the „Download virtual machine” button. Then unzip the downloaded file (using <a class="reference external" href="https://www.7-zip.org">7zip</a> ).</p>
 <p><strong>Virtuális gép létrehozása</strong></p>
 <p>Indítsa el a virtuális gép alkalmazást és kattintson az Új gombra egy új VM létrehozásához, majd nyomja meg a Következő gombot.</p>
 <blockquote>
@@ -159,7 +160,7 @@
 <div><ul class="simple">
 <li><dl class="first docutils">
 <dt>OSGeo wiki oldalak:</dt>
-<dd><a class="reference external" href="http://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine">Más megoldások a virtuális gép létrehozására</a></dd>
+<dd><a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine">Other ways to create a Virtual Machine</a></dd>
 </dl>
 </li>
 <li><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">OSGeoLive gyorstalpaló</span></a></li>

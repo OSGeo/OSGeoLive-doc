@@ -90,30 +90,24 @@ needs to have the following hardware requirements:</p>
 <div class="section" id="downloads-and-virtual-machine-conversion">
 <h2>Downloads and Virtual Machine Conversion<a class="headerlink" href="#downloads-and-virtual-machine-conversion" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Download the OSGeoLive VirtualBox virtual hard disk (vmdk) by following the links on <a class="reference external" href="http://live.osgeo.org/en/download.html">live.osgeo.org</a>.
-Once downloaded unzip the downloaded file (using <a class="reference external" href="http://www.7-zip.org">7zip</a> ).</p>
+Once downloaded unzip the downloaded file (using <a class="reference external" href="https://www.7-zip.org">7zip</a> ).</p>
 <p>The virtual machine image format for Hyper-V differs from the VirtualBox download. The file therefore has to be converted from <code class="docutils literal"><span class="pre">vmdk</span></code> to
 <code class="docutils literal"><span class="pre">vhdx</span></code>. There are currently two conversion options available.</p>
 <div class="section" id="starwind-v2v-converter">
 <h3>StarWind V2V Converter<a class="headerlink" href="#starwind-v2v-converter" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
-<p>Use the <a class="reference external" href="https://www.starwindsoftware.com/converter">StarWind V2V Converter</a> program. This has a simple user interface allowing you to select the
+<p>Use the <a class="reference external" href="https://www.starwindsoftware.com/starwind-v2v-converter">StarWind V2V Converter</a> program. This has a simple user interface allowing you to select the
 <code class="docutils literal"><span class="pre">osgeo-live-XX.X-vm.vmdk</span></code> file and convert to a <em>Microsoft VHDX</em> image.</p>
 </div>
 <div class="section" id="microsoft-virtual-machine-converter-3-0">
 <h3>Microsoft Virtual Machine Converter 3.0<a class="headerlink" href="#microsoft-virtual-machine-converter-3-0" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <p>The second more complicated option is as follows.</p>
+<ol class="arabic simple">
+<li>Download the <a class="reference external" href="https://www.microsoft.com/en-us/download/details.aspx?id=42497">Microsoft Virtual Machine Converter 3.0</a> and install.</li>
+<li>Download the DS File Ops Kit and unzip.</li>
+<li>Open PowerShell (with administrator rights)</li>
+<li>Run the following command to get the disk descriptor from the OSGeoLive vmdk. This saves the disk description to the „descriptor1.txt” file.</li>
+</ol>
 <ol class="arabic">
-<li><p class="first">Download the <a class="reference external" href="https://www.microsoft.com/en-us/download/details.aspx?id=42497">Microsoft Virtual Machine Converter 3.0</a> and install.</p>
-</li>
-<li><p class="first">Download the <a class="reference external" href="http://members.ozemail.com.au/~nulifetv/freezip/freeware/dsfok.zip">DS File Ops Kit</a> and unzip.</p>
-</li>
-<li><p class="first">Open PowerShell (with administrator rights)</p>
-</li>
-<li><p class="first">Run the following command to get the disk descriptor from the OSGeoLive vmdk. This saves the disk description to the „descriptor1.txt” file.</p>
-<div class="highlight-bat"><div class="highlight"><pre><span></span><span class="k">cd</span> D:\osgeo-live-11.0-vm
-D<span class="p">:</span><span class="nl">\tools\dsfo.exe</span><span class="c1"> .\osgeo-live-11.0-vm.vmdk 512 1024 descriptor1.txt</span>
-</pre></div>
-</div>
-</li>
 <li><p class="first">Open this in a text editor (such as Notepad) and comment out the following lines using hashes (this metadata is VirtualBox specific and is not recognised by the converter):</p>
 <div class="highlight-bat"><div class="highlight"><pre><span></span>#ddb.uuid.image=<span class="s2">&quot;0247ca9d-f9aa-4910-9e8c-1c14d83a7749&quot;</span>
 #ddb.uuid.parent=<span class="s2">&quot;00000000-0000-0000-0000-000000000000&quot;</span>
@@ -179,7 +173,7 @@ name for the virtual machine.</p>
 <li><a class="reference internal" href="virtualization_quickstart.html"><span class="doc">OSGEoLive gyorstalpaló a virtuális gép futtatásához</span></a>.</li>
 <li><dl class="first docutils">
 <dt>OSGeo wiki pages:</dt>
-<dd><a class="reference external" href="http://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine">Other ways to create a Virtual Machine</a></dd>
+<dd><a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine">Other ways to create a Virtual Machine</a></dd>
 </dl>
 </li>
 <li><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">OSGeoLive gyorstalpaló</span></a></li>

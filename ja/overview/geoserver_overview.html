@@ -70,7 +70,7 @@
           <div class="body" role="main">
             
   <a class="reference external image-reference" href="http://geoserver.org/"><img alt="../../_images/logo_geoserver.png" class="align-right" src="../../_images/logo_geoserver.png" /></a>
-<a class="reference external image-reference" href="target:http://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <div class="section" id="geoserver">
 <h1>GeoServer<a class="headerlink" href="#geoserver" title="このヘッドラインへのパーマリンク">¶</a></h1>
 <div class="section" id="web-service">
@@ -112,23 +112,23 @@ The data can be transmitted using GML (compressed) as well as other standard dat
 <dt><strong>オンザフライ投影変換:</strong></dt>
 <dd>GeoServer は EPSG データベースの主な投影法をサポートしており、オンデマンドでそれらの投影法への再投影ができます。クライアント側で再投影を制限され手いる場合にはサーバ側でその処理を行うこともできます。</dd>
 <dt><strong>タイルキャッシュ</strong></dt>
-<dd><a class="reference external" href="http://geowebcache.org/">GeoWebCache</a> は GeoServer に統合されていて、 WMS などの様々なソースからタイル化して地図画像をキャッシュします。様々な (WMS-C, WMTS, TMS, Google Maps KML, Virtual Earth などの) サービスインターフェイスを実装し、地図画像配信を加速・最適化します。通常の WMS クライアントで動作するよう、タイルを再結合することも可能です。</dd>
+<dd><a class="reference external" href="https://www.geowebcache.org">GeoWebCache</a>, which is integrated into GeoServer, tiles and caches map images from a variety of sources such as WMS. It implements various service interfaces (such as WMS-C, WMTS, TMS, Google Maps KML, Virtual Earth) in order to accelerate and optimize map image delivery. It can also recombine tiles to work with regular WMS clients.</dd>
 <dt><strong>Web Processing Service (WPS)</strong></dt>
-<dd><a class="reference internal" href="jts_overview.html"><span class="doc">JTS</span></a> に由来する地理空間アルゴリズムを、 GeoServer の <a class="reference external" href="http://www.opengeospatial.org/standards/wps">WPS</a> インターフェイスを経由して呼び出すことが可能です。処理を連結することや、 WMS インターフェイスを経由して強力な可視化を行うためにレンダリングの変換を行うことも可能です。</dd>
+<dd>Geospatial algorithms, including those from <a class="reference internal" href="jts_overview.html"><span class="doc">JTS</span></a>, can be called through GeoServer’s <a class="reference external" href="https://www.ogc.org/standards/wps">Web Processing Service (WPS)</a> interface. This includes the chaining of processes, and using rendering transformations to create powerful visualisations through the WMS interface.</dd>
 </dl>
 </div>
 <div class="section" id="implemented-standards">
 <h3>準拠している標準規格<a class="headerlink" href="#implemented-standards" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <p>多くの Open Geospatial Consortium (OGC) 標準をサポートしています:</p>
 <ul class="simple">
-<li><a class="reference external" href="http://www.opengeospatial.org/standards/wms">WMS</a> (クライアント/サーバ)</li>
-<li>Web Map Tile Service (WMTS)</li>
-<li><a class="reference external" href="http://www.opengeospatial.org/standards/wfs">WFS-T</a> (トランザクショナル)</li>
-<li><a class="reference external" href="http://www.opengeospatial.org/standards/wcs">WCS</a></li>
-<li><a class="reference external" href="http://www.opengeospatial.org/standards/fe">FE</a></li>
-<li><a class="reference external" href="http://www.opengeospatial.org/standards/sld">SLD</a></li>
-<li><a class="reference external" href="http://www.opengeospatial.org/standards/gml">GML</a></li>
-<li><a class="reference external" href="http://www.opengeospatial.org/standards/kml">KML</a></li>
+<li><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> (client/server)</li>
+<li><a class="reference external" href="https://www.ogc.org/standards/wmts">OpenGIS Web Map Tile ServiceW (WMTS)</a></li>
+<li><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> (transactional)</li>
+<li><a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a></li>
+<li><a class="reference external" href="https://www.ogc.org/standards/filter">Filter Encoding (FE)</a></li>
+<li><a class="reference external" href="https://www.ogc.org/standards/sld">Styled Layer Descriptor (SLD)</a></li>
+<li><a class="reference external" href="https://www.ogc.org/standards/gml">Geography Markup Language (GML)</a></li>
+<li><a class="reference external" href="https://www.ogc.org/standards/kml">KML</a></li>
 </ul>
 </div>
 <div class="section" id="details">

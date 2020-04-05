@@ -69,16 +69,21 @@
       <div class="documentwrapper">
           <div class="body" role="main">
             
-  <a class="reference external image-reference" href="http://mapproxy.org/"><img alt="../../_images/logo_mapslicer.png" class="align-right" src="../../_images/logo_mapslicer.png" /></a>
+  <a class="reference external image-reference" href="https://mapproxy.org/"><img alt="../../_images/logo_mapslicer.png" class="align-right" src="../../_images/logo_mapslicer.png" /></a>
 <div class="section" id="mapslicer-quickstart">
 <h1>MapSlicer gyorstalpaló<a class="headerlink" href="#mapslicer-quickstart" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
-<p>A <a class="reference external" href="https://wiki.osgeo.org/wiki/MapSlicer">MapSlicer</a> egyszerű lehetőséget biztosít csempék létrehozására georeferált raszterekből. A csempéket ezután mint egy georeferált térkép réteget jeleníthetjük meg egy web szerveren. Az <a class="reference external" href="http://www.osgeo.org/">Open Source Geospatial Foundation (OSGeo)</a>  <a class="reference external" href="http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification">Tile Map Service (TMS)</a> specifikációját valósítja meg.</p>
+<p><a class="reference external" href="https://wiki.osgeo.org/wiki/MapSlicer">MapSlicer</a> provides a simple way of creating a set of tiles from any georeferenced map image. The tiles can then be presented as a georeferenced map overlay on a web server. It follows the <a class="reference external" href="https://www.osgeo.org/">Open Source Geospatial Foundation’s (OSGeo’s)</a> <a class="reference external" href="https://wiki.osgeo.org/wiki/Tile_Map_Service_Specification">Tile Map Service (TMS)</a> specification.</p>
 <ul class="simple">
 <li><strong>Input options</strong>: Tetszőleges georeferált kép fájl pl. TIFF, JPEG  ArcGIS, QGIS szoftverekből.</li>
 <li><strong>Output</strong>: A könyvtárak egy csoportja a csempe képekkel, melyeket egy web szerverre másolhatunk egy georeferált rétegként történő megjelenítéshez.</li>
 <li><strong>Erősségek</strong>: MapSlicer egyszerű, szabad, nyílt forráskódú program egy könnyen használható varázslóval, melyet alább írunk le, hogy végigvezessük a beállításokon.</li>
 </ul>
-<p>A MapSlicer kihasználja azt a tényt, hogy a <cite>Google Maps &lt;http://maps.google.com/&gt;</cite> _, a <cite>Microsoft Bing &lt;http://maps.bing.com&gt;</cite> _, a <a class="reference external" href="http://maps.yahoo.com/">Yahoo Maps</a> és más online térképszolgáltatók, beleértve az <a class="reference external" href="http://www.openstreetmap.org/">OpenStreetMap</a> -et, ugyanazt a vetületet és csempézési profilt használják, és a így a csempék kompatibilisek. A MapSlicer ezen a specifikációalapján készíti a csempéket, mint egy könnyű és gyors módszer a georeferált térkép készítésére mashup honlapon.</p>
+<p>MapSlicer takes advantage of the fact that <a class="reference external" href="http://maps.google.com/">Google Maps</a>,
+<a class="reference external" href="https://www.bing.com/maps">Microsoft Bing</a>, <a class="reference external" href="https://maps.yahoo.com/">Yahoo Maps</a>,
+and other online mapping providers including <a class="reference external" href="https://www.openstreetmap.org/">OpenStreetMap</a>
+use the same projection and tiling profile and the tiles are therefore compatible.
+MapSlicer prepares tiles using this specification as an easy and quick way of
+preparing a georeferenced map in a mashup web page.</p>
 <div class="section" id="start-mapslicer">
 <h2>MapSlicer indítás<a class="headerlink" href="#start-mapslicer" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <ol class="arabic">
@@ -123,7 +128,11 @@
 </div>
 <div class="section" id="using-gdal2tiles-to-create-a-mbtiles-database">
 <h2>gdal2tiles használta egy MBTiles adatbázis létrehozására<a class="headerlink" href="#using-gdal2tiles-to-create-a-mbtiles-database" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>A MapSlicer alapvetően egy grafikus felület a <cite>gdal2tiles.py</cite> szkripthez. A <cite>gdal2tiles.py</cite> egy aktualizált változata is rajta van a Live lemezen. Ezzel a szoftverrel létrehozott eredmény csempe fák használhatók&nbsp; <cite>mb-util</cite> programmal, hogy mbcsempe adatbázist hozzon létre az okostelefon programokhoz mint a  <a class="reference external" href="http://geopaparazzi.github.io/geopaparazzi/">Geopaparazzi</a>.</p>
+<p>MapSlicer is essentially a GUI frontend to the <cite>gdal2tiles.py</cite> script. An updated
+version of <cite>gdal2tiles.py</cite> is also present on the Live disc. The resulting tile
+trees created by these software can be used with the <cite>mb-util</cite> program to create
+an mbtiles database, for use with smartphone software
+like <a class="reference external" href="https://www.geopaparazzi.org/">Geopaparazzi</a>.</p>
 <p>Az újonnan létrehozott csempe fából egy MBTiles SQLite adatbázis létrehozásához nyisson meg egy terminált, majd</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cp</span> <span class="n">data</span><span class="o">/</span><span class="n">raster</span><span class="o">/</span><span class="n">bluemarble</span><span class="o">.</span><span class="n">tif</span> <span class="o">.</span>
 <span class="n">mapslicer</span>    <span class="c1"># (select /home/user/bluemarble.tif for input, JPEG as format)</span>

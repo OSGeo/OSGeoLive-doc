@@ -69,14 +69,14 @@
       <div class="documentwrapper">
           <div class="body" role="main">
             
-  <a class="reference external image-reference" href="http://mapserver.org/"><img alt="../../_images/logo_mapserver.png" class="align-right" src="../../_images/logo_mapserver.png" /></a>
-<a class="reference external image-reference" href="target:http://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+  <a class="reference external image-reference" href="https://mapserver.org"><img alt="../../_images/logo_mapserver.png" class="align-right" src="../../_images/logo_mapserver.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <div class="section" id="mapserver-quickstart">
 <h1>MapServer Quickstart<a class="headerlink" href="#mapserver-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
-<p>MapServer is an <a class="reference external" href="http://www.opensource.org">Open Source</a> server based
+<p>MapServer is an <a class="reference external" href="https://opensource.org/">Open Source</a> server based
 application that allows you to publish geographic map images and vector data
-through the internet using <a class="reference external" href="http://www.opengeospatial.org/standards">OGC standards</a>
-such as <a class="reference external" href="http://www.opengeospatial.org/standards/wms">WMS</a>, <a class="reference external" href="http://www.opengeospatial.org/standards/wfs">WFS</a>, and <a class="reference external" href="http://www.opengeospatial.org/standards/wcs">WCS</a>.</p>
+through the internet using <a class="reference external" href="https://www.ogc.org/standards">OGC Standards</a>
+such as <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a>, <a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> and <a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a>.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
@@ -99,7 +99,7 @@ as images using WMS requests.</p>
 </div>
 <div class="section" id="what-is-a-mapfile">
 <h3>What is a Mapfile ?<a class="headerlink" href="#what-is-a-mapfile" title="このヘッドラインへのパーマリンク">¶</a></h3>
-<p>The <a class="reference external" href="http://mapserver.org/mapfile/index.html">Mapfile</a> is the
+<p>The <a class="reference external" href="https://mapserver.org/mapfile/index.html">Mapfile</a> is the
 configuration file that MapServer uses to render geospatial data as images
 or vector data. Its main purpose is to define the layers it can draw, how to
 read necessary data, and how to render it (e.g. color, symbol, label, etc…).</p>
@@ -189,7 +189,7 @@ more detail later.</li>
 <div class="admonition note">
 <p class="first admonition-title">注釈</p>
 <p class="last">A complete list of the available objects and properties a Mapfile can have
-can be found in the <a class="reference external" href="http://mapserver.org/mapfile/index.html">MapServer documentation page</a>.</p>
+can be found in the <a class="reference external" href="https://mapserver.org/mapfile/index.html">MapServer documentation page</a>.</p>
 </div>
 </div>
 </div>
@@ -204,8 +204,8 @@ layers from a Mapfile with MapServer using an OGC WMS request.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&amp;SERVICE=WMS&amp;REQUEST=Getmap&amp;VERSION=1.1.1&amp;LAYERS=Countries&amp;SRS=EPSG:4326&amp;BBOX=-137,29,-53,88&amp;FORMAT=PNG&amp;WIDTH=800&amp;HEIGHT=600
 </pre></div>
 </div>
-<p>What does the above mean?  If we put it in simple words, it’s a <a class="reference external" href="http://www.opengeospatial.org/standards/wms">Web Map
-Service (WMS)</a> <strong>GetMap</strong>
+<p>What does the above mean?  If we put it in simple words, it’s a <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a>
+<strong>GetMap</strong>
 request that tells MapServer to 「<em>use the following Mapfile to render the
 specified layers as a png image based on some user-supplied parameters such
 as image size, geographical extent, projection, etc.</em>」.  All layers
@@ -281,7 +281,7 @@ a layer depending on some of its data properties.</p>
 <p>In a Mapfile, a LAYER object can contain an infinite number of CLASS
 objects. These are used to style the elements contained in the spatial data
 file (DATA). For example, if we look closer at our 「ne_10m_lakes」 data file
-using a tool such as <a class="reference external" href="http://www.gdal.org/ogrinfo.html">ogrinfo</a>, we’ll
+using a tool such as <a class="reference external" href="https://gdal.org/ogrinfo.html">ogrinfo</a>, we’ll
 see the geometry and attribute definitions it contains. These attribute
 values can be used as a way to draw the elements inside a dataset
 differently using multiple CLASS objects.</p>
@@ -327,7 +327,7 @@ rendered with a black outline:</p>
 </div></blockquote>
 <div class="admonition note">
 <p class="first admonition-title">注釈</p>
-<p class="last">Learn more about <a class="reference external" href="http://mapserver.org/mapfile/expressions.html">EXPRESSIONS</a> in MapServer.</p>
+<p class="last">Learn more about <a class="reference external" href="https://mapserver.org/mapfile/expressions.html">EXPRESSIONS</a> in MapServer.</p>
 </div>
 </div>
 <div class="section" id="publish-your-data-as-ogc-wms-web-map-service">
@@ -354,12 +354,12 @@ rendered with a black outline:</p>
 project website contains many resources to help you get started. Here’s a
 few resources to check out next:</p>
 <ul class="simple">
-<li>Read the <a class="reference external" href="http://mapserver.org/introduction.html#introduction">Introduction to MapServer</a>.</li>
-<li>Have a look at the <a class="reference external" href="http://www.mapserver.org/tutorial/index.html">MapServer Tutorial</a> which contains more Mapfile
+<li>Read the <a class="reference external" href="https://mapserver.org/introduction.html#introduction">Introduction to MapServer</a>.</li>
+<li>Have a look at the <a class="reference external" href="https://www.mapserver.org/tutorial/index.html">MapServer Tutorial</a> which contains more Mapfile
 examples.</li>
-<li>Check the <a class="reference external" href="http://www.mapserver.org/ogc/index.html">OGC Support and Configuration</a> to learn more about OGC
+<li>Check the <a class="reference external" href="https://www.mapserver.org/ogc/index.html">OGC Support and Configuration</a> to learn more about OGC
 standards in MapServer (WMS, WFS, SLD, WFS Filter Encoding, WCS, SOS, etc.).</li>
-<li>Ready to use MapServer? Then join the community on the <a class="reference external" href="http://www.mapserver.org/community/lists.html">Mailing Lists</a> to exchange ideas, discuss
+<li>Ready to use MapServer? Then join the community on the <a class="reference external" href="https://www.mapserver.org/community/lists.html">Mailing Lists</a> to exchange ideas, discuss
 potential software improvements and ask questions.</li>
 </ul>
 </div>

@@ -83,28 +83,24 @@
 </div>
 <div class="section" id="downloads-and-virtual-machine-conversion">
 <h2>Lataukset ja virtuaalikone konversiot<a class="headerlink" href="#downloads-and-virtual-machine-conversion" title="Permalink to this headline">¶</a></h2>
-<p>Lataa OSGeoLive VirtualBox virtuaali kovalevy (vmdk) seuraamalla linkkejä osoitteessa <a class="reference external" href="http://live.osgeo.org/en/download.html">live.osgeo.org</a>. Kun olet ladannut pura ladattu tiedosto (käyttäen <a class="reference external" href="http://www.7-zip.org">7zip</a> ).</p>
+<p>Download the OSGeoLive VirtualBox virtual hard disk (vmdk) by following the links on <a class="reference external" href="http://live.osgeo.org/en/download.html">live.osgeo.org</a>.
+Once downloaded unzip the downloaded file (using <a class="reference external" href="https://www.7-zip.org">7zip</a> ).</p>
 <p>Virtuaalikoneen imagen kuva eroaa Hyper-V:ssä ladatusta VirtualBoxin imagesta. Tiedosto on siksi konvertoitava  <code class="docutils literal"><span class="pre">vmdk</span></code> muodosta <code class="docutils literal"><span class="pre">vhdx</span></code>. muotoon&nbsp; On olemassa kaksi vaihtoehtoa konversioon.</p>
 <div class="section" id="starwind-v2v-converter">
 <h3>StarWind V2V konvertoija<a class="headerlink" href="#starwind-v2v-converter" title="Permalink to this headline">¶</a></h3>
-<p>Käytä <a class="reference external" href="https://www.starwindsoftware.com/converter">StarWind V2V Converter</a> ohjelmaa. Tällä on yksinkertainen käyttäjäliitäntä joka sallii Sinun valita <code class="docutils literal"><span class="pre">osgeo-live-XX.X-vm.vmdk</span></code> tiedoston ja konvertoida sen <em>Microsoft VHDX</em> imageksi.</p>
+<p>Use the <a class="reference external" href="https://www.starwindsoftware.com/starwind-v2v-converter">StarWind V2V Converter</a> program. This has a simple user interface allowing you to select the
+<code class="docutils literal"><span class="pre">osgeo-live-XX.X-vm.vmdk</span></code> file and convert to a <em>Microsoft VHDX</em> image.</p>
 </div>
 <div class="section" id="microsoft-virtual-machine-converter-3-0">
 <h3>Microsoft Virtual Machine Converter 3.0<a class="headerlink" href="#microsoft-virtual-machine-converter-3-0" title="Permalink to this headline">¶</a></h3>
 <p>Toinen monimutkaisempi vaihtoehto on seuraava.</p>
+<ol class="arabic simple">
+<li>Lataa <a class="reference external" href="https://www.microsoft.com/en-us/download/details.aspx?id=42497">Microsoft Virtual Machine Converter 3.0</a> ja asenna se.</li>
+<li>Download the DS File Ops Kit and unzip.</li>
+<li>Avaa PowerShell (järjestelmänvalvojan oikeuksin)</li>
+<li>Suorita seuraava komento saadaksesi levyn kuvauksen OSGeoLive vmdk:sta. Tämä tallentaa levyn kuvauksen ”descriptor1.txt”&nbsp;tiedostoon.</li>
+</ol>
 <ol class="arabic">
-<li><p class="first">Lataa <a class="reference external" href="https://www.microsoft.com/en-us/download/details.aspx?id=42497">Microsoft Virtual Machine Converter 3.0</a> ja asenna se.</p>
-</li>
-<li><p class="first">Lataa <a class="reference external" href="http://members.ozemail.com.au/~nulifetv/freezip/freeware/dsfok.zip">DS File Ops Kit</a> ja pura se.</p>
-</li>
-<li><p class="first">Avaa PowerShell (järjestelmänvalvojan oikeuksin)</p>
-</li>
-<li><p class="first">Suorita seuraava komento saadaksesi levyn kuvauksen OSGeoLive vmdk:sta. Tämä tallentaa levyn kuvauksen ”descriptor1.txt”&nbsp;tiedostoon.</p>
-<div class="highlight-bat"><div class="highlight"><pre><span></span><span class="k">cd</span> D:\osgeo-live-11.0-vm
-D<span class="p">:</span><span class="nl">\tools\dsfo.exe</span><span class="c1"> .\osgeo-live-11.0-vm.vmdk 512 1024 descriptor1.txt</span>
-</pre></div>
-</div>
-</li>
 <li><p class="first">Avaa tämä tiedosto tekstimuokkaimessa (kuten esimerkiksi Notepadissä) ja poista kommentteina seuraavat rivit käyttäen ristikkomerkkejä (tämä metadata on erityistä VirtualBoxille eikä konvertoija tunnista sitä):</p>
 <div class="highlight-bat"><div class="highlight"><pre><span></span>#ddb.uuid.image=<span class="s2">&quot;0247ca9d-f9aa-4910-9e8c-1c14d83a7749&quot;</span>
 #ddb.uuid.parent=<span class="s2">&quot;00000000-0000-0000-0000-000000000000&quot;</span>
@@ -167,7 +163,7 @@ ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath .\osgeo-live-11.0-vm.vmdk -VhdF
 <li><a class="reference internal" href="virtualization_quickstart.html"><span class="doc">OSGeoLive Quickstart for Running in a Virtual Machine</span></a>.</li>
 <li><dl class="first docutils">
 <dt>OSGeo wiki sivut:</dt>
-<dd><a class="reference external" href="http://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine">Muita tapooja luoda virtuaalikone</a></dd>
+<dd><a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine">Other ways to create a Virtual Machine</a></dd>
 </dl>
 </li>
 <li><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">OSGeoLive Pika-aloitus</span></a></li>

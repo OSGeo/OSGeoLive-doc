@@ -83,28 +83,24 @@
 </div>
 <div class="section" id="downloads-and-virtual-machine-conversion">
 <h2>Descargas y Conversión de la Máquina Virtual<a class="headerlink" href="#downloads-and-virtual-machine-conversion" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Descargar el VirtualBox de Disco Duro virtual (vmdk) de OSGeoLive  siguiendo los enlaces en  <a class="reference external" href="http://live.osgeo.org/en/download.html">live.osgeo.org</a>.  Una vez descargado, descomprimimos el archivo descargado (usando <a class="reference external" href="http://www.7-zip.org">7zip</a> ).</p>
+<p>Download the OSGeoLive VirtualBox virtual hard disk (vmdk) by following the links on <a class="reference external" href="http://live.osgeo.org/en/download.html">live.osgeo.org</a>.
+Once downloaded unzip the downloaded file (using <a class="reference external" href="https://www.7-zip.org">7zip</a> ).</p>
 <p>El formato de imagen de máquina virtual de Hyper-V difiere de la descarga de VirtualBox. El archivo por lo tanto tiene que ser convertido de “” vmdk”” a “” vhdx””. Actualmente hay dos opciones de conversión disponibles.</p>
 <div class="section" id="starwind-v2v-converter">
 <h3>StarWind V2V Converter<a class="headerlink" href="#starwind-v2v-converter" title="Enlazar permanentemente con este título">¶</a></h3>
-<p>Uso del programa _ <cite>StarWind V2V Converter &lt; https://www.starwindsoftware.com/converter &gt;</cite>. Posee una sencilla interfaz de usuario que le permite seleccionar el archivo `` osgeo-live-XX.X-vm.vmdk`` y convertirlo a * Microsoft VHDX * imagen.</p>
+<p>Use the <a class="reference external" href="https://www.starwindsoftware.com/starwind-v2v-converter">StarWind V2V Converter</a> program. This has a simple user interface allowing you to select the
+<code class="docutils literal"><span class="pre">osgeo-live-XX.X-vm.vmdk</span></code> file and convert to a <em>Microsoft VHDX</em> image.</p>
 </div>
 <div class="section" id="microsoft-virtual-machine-converter-3-0">
 <h3>Convertidor de máquina Virtual de Microsoft 3.0<a class="headerlink" href="#microsoft-virtual-machine-converter-3-0" title="Enlazar permanentemente con este título">¶</a></h3>
 <p>La segunda opción más complicada es la siguiente.</p>
+<ol class="arabic simple">
+<li>Descargue el <a class="reference external" href="https://www.microsoft.com/en-us/download/details.aspx?id=42497">Convertidor de Máquina Virtual de Microsoft 3.0</a> e instale.</li>
+<li>Download the DS File Ops Kit and unzip.</li>
+<li>Open PowerShell (con derechos de administrador)</li>
+<li>Ejecute el siguiente comando para obtener el descriptor de disco del OSGeoLive vmdk. Esto guarda la descripción del disco en el archivo «descriptor1.txt».</li>
+</ol>
 <ol class="arabic">
-<li><p class="first">Descargue el <a class="reference external" href="https://www.microsoft.com/en-us/download/details.aspx?id=42497">Convertidor de Máquina Virtual de Microsoft 3.0</a> e instale.</p>
-</li>
-<li><p class="first">Descargue el <a class="reference external" href="http://members.ozemail.com.au/~nulifetv/freezip/freeware/dsfok.zip">DS File Ops Kit</a> y descomprima.</p>
-</li>
-<li><p class="first">Open PowerShell (con derechos de administrador)</p>
-</li>
-<li><p class="first">Ejecute el siguiente comando para obtener el descriptor de disco del OSGeoLive vmdk. Esto guarda la descripción del disco en el archivo «descriptor1.txt».</p>
-<div class="highlight-bat"><div class="highlight"><pre><span></span><span class="k">cd</span> D:\osgeo-live-11.0-vm
-D<span class="p">:</span><span class="nl">\tools\dsfo.exe</span><span class="c1"> .\osgeo-live-11.0-vm.vmdk 512 1024 descriptor1.txt</span>
-</pre></div>
-</div>
-</li>
 <li><p class="first">Ábralo en un editor de texto (como Bloc de notas) y comentar las siguientes líneas utilizando hashes (estos metadatos es específico de VirtualBox y no está reconocido por el convertidor):</p>
 <div class="highlight-bat"><div class="highlight"><pre><span></span>#ddb.uuid.image=<span class="s2">&quot;0247ca9d-f9aa-4910-9e8c-1c14d83a7749&quot;</span>
 #ddb.uuid.parent=<span class="s2">&quot;00000000-0000-0000-0000-000000000000&quot;</span>
@@ -167,7 +163,7 @@ ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath .\osgeo-live-11.0-vm.vmdk -VhdF
 <li><a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Inicio Rápido de OSGeoLive para Ejecutar en una Máquina Virtual</span></a>.</li>
 <li><dl class="first docutils">
 <dt>Páginas de OSGeo wiki:</dt>
-<dd><cite>Otras formas de crear una Máquina Virtual &lt; http://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine &gt;</cite> _</dd>
+<dd><a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine">Other ways to create a Virtual Machine</a></dd>
 </dl>
 </li>
 <li><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Guía de Inicio Rápido para OSGeoLive</span></a></li>

@@ -69,7 +69,7 @@
       <div class="documentwrapper">
           <div class="body" role="main">
             
-  <a class="reference external image-reference" href="https://eoxserver.readthedocs.org/"><img alt="../../_images/logo_eoxserver.png" class="align-right" src="../../_images/logo_eoxserver.png" /></a>
+  <a class="reference external image-reference" href="https://docs.eoxserver.org/en/stable/"><img alt="../../_images/logo_eoxserver.png" class="align-right" src="../../_images/logo_eoxserver.png" /></a>
 <div class="section" id="eoxserver-quickstart">
 <h1>EOxServer gyorstalpaló<a class="headerlink" href="#eoxserver-quickstart" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
 <p>Az EOxServer egy szerver nagy Föld megfigyelési adat  (EO) archívumok és metaadatok prezentálására nyílt szabványok alkalmazásával. Több nyílt forráskódú szoftverre épül, többek között Python, <a class="reference internal" href="../overview/mapserver_overview.html"><span class="doc">MapServer</span></a>, Django/GeoDjango, <a class="reference internal" href="../overview/gdal_overview.html"><span class="doc">GDAL</span></a>, PROJ.4 és a <a class="reference internal" href="../overview/spatialite_overview.html"><span class="doc">SpatiaLite</span></a> vagy <a class="reference internal" href="../overview/postgis_overview.html"><span class="doc">PostGIS</span></a>  adatbázis.</p>
@@ -111,13 +111,17 @@ contents in the temporal dimension.</p>
 <p>Amikor a Bounding Box Tool-t bekapcsolja egy befoglaló téglalapot rajzolhat közvetlenül a térképre. A befoglaló téglalapot a Download Tool-on belül a lekérdezéshez használjuk.</p>
 <a class="reference internal image-reference" href="../../_images/eoxserver_webclient5.png"><img alt="EOxServer demonstration embedded client outlines" src="../../_images/eoxserver_webclient5.png" style="width: 512.0px; height: 384.0px;" /></a>
 <p>Amikor a Download Tool-t  bekapcsolja egy lekérdezést küldünk a szervernek. Ez a lekérdezés tartalmazza a kiválasztott időpontot és a befoglaló téglalapot.a z eredmények megjelennek a Download vezérlőben, ahol a formátumot, a vetületet és a letöltendő adatállományokat.</p>
-<p>Ez a  EOxServer Web kliens rövid bemutatása volt. További információkért kérjük forduljon az <a class="reference external" href="https://eoxserver.readthedocs.org/en/latest/users/webclient.html">online dokumentációhoz</a>.</p>
+<p>This was a quick introduction to the EOxServer Web Client. Please refer to the
+<a class="reference external" href="https://eoxserver.readthedocs.io/en/latest/users/webclient.html">online documentation</a> for more
+information on this topic.</p>
 </div>
 <div class="section" id="work-with-the-admin-client">
 <h2><a class="toc-backref" href="#id3">Work with the Admin Client</a><a class="headerlink" href="#work-with-the-admin-client" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>From the EOxServer main page, click the <strong>Admin Client</strong> link and login with user <cite>admin</cite> and password <cite>admin</cite>.</p>
 <a class="reference internal image-reference" href="../../_images/eoxserver_adminclient1.png"><img alt="EOxServer demonstration admin client login" src="../../_images/eoxserver_adminclient1.png" style="width: 512.0px; height: 384.0px;" /></a>
-<p>Az <cite>Admin Client</cite> egy Django szabványos admin és az elérhető adatok konfigurálását teszi lehetővé. Kérjük, nyugodtan fedezze fel a klienst. További információ található az <a class="reference external" href="https://eoxserver.readthedocs.org/en/latest/users/operators.html">operators» kézikönyvben</a>.</p>
+<p>The <cite>Admin Client</cite> is Djangos standard admin and allows you to configure the
+available data. Please feel free to explore the client. More information can
+be found in the <a class="reference external" href="https://eoxserver.readthedocs.io/en/latest/users/operators.html">operators» guide</a>.</p>
 <a class="reference internal image-reference" href="../../_images/eoxserver_adminclient2.png"><img alt="EOxServer demonstration admin client start" src="../../_images/eoxserver_adminclient2.png" style="width: 512.0px; height: 384.0px;" /></a>
 <p>For example, you can inspect the dataset series that is loaded by default by
 clicking the „Dataset Series” link and then the „MER_FRS_1P_RGB_reduced” link.</p>
@@ -130,10 +134,12 @@ clicking the „Dataset Series” link and then the „MER_FRS_1P_RGB_reduced”
 <p>Ez egy egyszerű bemutató, de sokkal többet csinálhat az EOxServerrel. A projekt honlapja rengeteg forrást tartalmaz az elinduláshoz. Itt van néhány legközelebb megtekintendő forrás:</p>
 <ul class="simple">
 <li>See the <a class="reference internal" href="../overview/eoxserver_overview.html"><span class="doc">EOxServer Overview</span></a> for more information.</li>
-<li>Olvassa el az <a class="reference external" href="https://eoxserver.readthedocs.org/en/latest/users/operators.html">EOxServer Operators» Guide-ot</a>.</li>
-<li>Olvassa el a teljes <a class="reference external" href="https://eoxserver.readthedocs.org/en/latest/users/index.html">EOxServer dokumentációt</a>&nbsp; kezdje az <a class="reference external" href="https://eoxserver.readthedocs.org/en/latest/users/basics.html">EOxServer alapoknál</a>.</li>
+<li>Read the <a class="reference external" href="https://eoxserver.readthedocs.io/en/latest/users/operators.html">EOxServer Operators» Guide</a>.</li>
+<li>Read the complete <a class="reference external" href="https://eoxserver.readthedocs.io/en/latest/users/index.html">EOxServer Users» documentation</a>
+starting from the <a class="reference external" href="https://eoxserver.readthedocs.io/en/latest/users/basics.html">EOxServer Basics</a>.</li>
 <li>Ha már az OSGeoLive környezetben van, olvassa el az  <a class="reference external" href="https://localhost/eoxserver-docs/EOxServer_documentation.pdf">EOxServer Users» helyi dokumentációját</a></li>
-<li>Készen áll a EOxServer használatára? Az elképzelések megosztásához, a lehetséges szoftver fejlesztések megbeszéléséhez és kérdések feltételéhez csatlakozzon a közösséghez <a class="reference external" href="https://eoxserver.readthedocs.org/en/latest/users/mailing_lists.html">a levelező listákon</a>.</li>
+<li>Ready to use EOxServer? Then join the community on the <a class="reference external" href="https://eoxserver.readthedocs.io/en/latest/users/mailing_lists.html">mailing lists</a> to
+exchange ideas, discuss potential software improvements, and ask questions.</li>
 </ul>
 </div>
 </div>

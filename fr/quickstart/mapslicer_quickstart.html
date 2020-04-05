@@ -69,16 +69,21 @@
       <div class="documentwrapper">
           <div class="body" role="main">
             
-  <a class="reference external image-reference" href="http://mapproxy.org/"><img alt="../../_images/logo_mapslicer.png" class="align-right" src="../../_images/logo_mapslicer.png" /></a>
+  <a class="reference external image-reference" href="https://mapproxy.org/"><img alt="../../_images/logo_mapslicer.png" class="align-right" src="../../_images/logo_mapslicer.png" /></a>
 <div class="section" id="mapslicer-quickstart">
 <h1>Guide de démarrage rapide de MapSlicer<a class="headerlink" href="#mapslicer-quickstart" title="Lien permanent vers ce titre">¶</a></h1>
-<p><a class="reference external" href="https://wiki.osgeo.org/wiki/MapSlicer">MapSlicer</a> offre un moyen simple de créer un ensemble de tuiles à partir de n’importe quelle image de carte géoréférencée. Les tuiles peuvent alors être présentées comme une superposition de carte géoréférencées sur un serveur web. Il suit la spécification <a class="reference external" href="http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification">Tile Map Service (TMS)</a>  de l” <a class="reference external" href="http://www.osgeo.org/">Open Source Geospatial Foundation’s (OSGeo’s)</a></p>
+<p><a class="reference external" href="https://wiki.osgeo.org/wiki/MapSlicer">MapSlicer</a> provides a simple way of creating a set of tiles from any georeferenced map image. The tiles can then be presented as a georeferenced map overlay on a web server. It follows the <a class="reference external" href="https://www.osgeo.org/">Open Source Geospatial Foundation’s (OSGeo’s)</a> <a class="reference external" href="https://wiki.osgeo.org/wiki/Tile_Map_Service_Specification">Tile Map Service (TMS)</a> specification.</p>
 <ul class="simple">
 <li><strong>Options d’entrée</strong>&nbsp;: n’importe quel fichier image géoréférencé, par exemple, un fichier TIFF, JPEG à partir d’ArcGIS ou QGIS.</li>
 <li><strong>Options de sortie</strong>&nbsp;: un ensemble de répertoires avec des images en mosaïque qui peuvent être copiées sur un serveur web pour la présentation comme une superposition de géoréférencées.</li>
 <li><strong>Points forts</strong>&nbsp;: MapSlicer est un logiciel simple, gratuit, open-source, avec un assistant simple, décrit ci-dessous, pour guider les options.</li>
 </ul>
-<p>MapSlicer tire parti du fait que`Google Maps &lt;<a class="reference external" href="http://maps.google.com/">http://maps.google.com/</a>&gt;`_ , <a class="reference external" href="http://maps.bing.com">Microsoft Bing</a> , <a class="reference external" href="http://maps.yahoo.com/">Yahoo Maps</a>  et d’autres fournisseurs de cartographie en ligne, y compris <a class="reference external" href="http://www.openstreetmap.org/">OpenStreetMap</a> utilisent la même projection et par conséquent, le profil de tuilage et les tuiles sont compatibles. MapSlicer prépare les tuiles à l’aide de cette spécification comme un moyen facile et rapide de préparer une carte géoréférencée dans une page web.</p>
+<p>MapSlicer takes advantage of the fact that <a class="reference external" href="http://maps.google.com/">Google Maps</a>,
+<a class="reference external" href="https://www.bing.com/maps">Microsoft Bing</a>, <a class="reference external" href="https://maps.yahoo.com/">Yahoo Maps</a>,
+and other online mapping providers including <a class="reference external" href="https://www.openstreetmap.org/">OpenStreetMap</a>
+use the same projection and tiling profile and the tiles are therefore compatible.
+MapSlicer prepares tiles using this specification as an easy and quick way of
+preparing a georeferenced map in a mashup web page.</p>
 <div class="section" id="start-mapslicer">
 <h2>Démarrer MapSlicer<a class="headerlink" href="#start-mapslicer" title="Lien permanent vers ce titre">¶</a></h2>
 <ol class="arabic">
@@ -123,7 +128,11 @@
 </div>
 <div class="section" id="using-gdal2tiles-to-create-a-mbtiles-database">
 <h2>Utiliser gdal2tiles pour créer une base de données MBTiles<a class="headerlink" href="#using-gdal2tiles-to-create-a-mbtiles-database" title="Lien permanent vers ce titre">¶</a></h2>
-<p>MapSlicer est essentiellement une interface graphique pour le script <cite>gdal2tiles.py</cite>. Une version actualisée du <cite>gdal2tiles.py</cite> est également présente sur le disque OSGeoLive. Les arbres de tuiles créés par ce logiciel sont utilisables avec le programme <cite>mb-util</cite>  pour créer une base de données mbtiles, pour une utilisation avec des logiciels de smartphone comme <a class="reference external" href="http://geopaparazzi.github.io/geopaparazzi/">Geopaparazzi</a>.</p>
+<p>MapSlicer is essentially a GUI frontend to the <cite>gdal2tiles.py</cite> script. An updated
+version of <cite>gdal2tiles.py</cite> is also present on the Live disc. The resulting tile
+trees created by these software can be used with the <cite>mb-util</cite> program to create
+an mbtiles database, for use with smartphone software
+like <a class="reference external" href="https://www.geopaparazzi.org/">Geopaparazzi</a>.</p>
 <p>Pour créer une base de données SQLite MBTiles  partir de l’arborescence de la tuile nouvellement créé, ouvrez un terminal, puis</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cp</span> <span class="n">data</span><span class="o">/</span><span class="n">raster</span><span class="o">/</span><span class="n">bluemarble</span><span class="o">.</span><span class="n">tif</span> <span class="o">.</span>
 <span class="n">mapslicer</span>    <span class="c1"># (select /home/user/bluemarble.tif for input, JPEG as format)</span>
