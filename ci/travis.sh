@@ -6,7 +6,7 @@
 # ------------------------------------------------------------------------------
 if [ "$LINKCHECK" == "ON" ]
 then
-  cmake -DLINKCHECK=ON .. 
+  cmake -DES=ON -DLINKCHECK=ON .. 
   make
 else
   cmake -DHTML=ON -DFI=ON -DIT=ON -DJA=ON -DES=ON -DFR=ON -DDE=ON -DHU=ON -@OSGeoLiveDoc_DEBUG=ON ..
