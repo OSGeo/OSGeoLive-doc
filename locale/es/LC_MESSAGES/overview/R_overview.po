@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -76,15 +76,8 @@ msgid ""
 "proficient user when compared to software with a graphical user interface "
 "(GUI). Fortunately R is well documented on the web site which eases the "
 "learning process. Scripts are often used to automate processing steps but "
-"there are GUIs, the leading one being RStudio (http://www.rstudio.com)."
+"there are GUIs, the leading one being RStudio (https://rstudio.com)."
 msgstr ""
-"La interfaz del núcleo R es una ventana de línea de comandos que proporciona"
-" excelente  flexibilidad y control pero tiende a alargar el tiempo necesario"
-" para convertirse en un usuario competente comparado con el software con una"
-" interfaz gráfica de usuario (GUI). Afortunadamente R está bien documentado "
-"en el sitio web que facilita el proceso de aprendizaje. Los scripts son "
-"usualmente utilizados para automatizar los pasos de procesamiento, pero hay "
-"GUIs, el líder es RStudio (http://www.rstudio.com)."
 
 #: ../../build/doc/overview/R_overview.rst:44
 msgid ""
@@ -172,8 +165,8 @@ msgid "Details"
 msgstr "Detalles"
 
 #: ../../build/doc/overview/R_overview.rst:76
-msgid "**Website:** http://cran.r-project.org"
-msgstr "**Sitio web:** http://cran.r-project.org"
+msgid "**Website:** https://cran.r-project.org"
+msgstr ""
 
 #: ../../build/doc/overview/R_overview.rst:78
 msgid "**Licence:** GPL"
@@ -189,9 +182,8 @@ msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows, Unix"
 
 #: ../../build/doc/overview/R_overview.rst:84
 msgid ""
-"**Community Support:** http://cran.r-project.org/web/views/Spatial.html"
+"**Community Support:** https://cran.r-project.org/web/views/Spatial.html"
 msgstr ""
-"**Soporte de la comunidad** http://cran.r-project.org/web/views/Spatial.html"
 
 #: ../../build/doc/overview/R_overview.rst:86
 msgid ""
