@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2019
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,6 +31,8 @@ msgid ""
 "This Quick Start is divided into two parts: GDAL (raster data) and OGR "
 "(vector data)."
 msgstr ""
+"Esta Guía de Inicio Rápido se divide en dos partes: GDAL (datos ráster) y "
+"OGR (datos vectoriales)."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:24
 msgid "This Quick Start describes how to:"
@@ -78,6 +80,10 @@ msgid ""
 " visualize the results, you can use one of the Desktop GIS Software "
 "applications on OSGeoLive like :doc:`../overview/qgis_overview`."
 msgstr ""
+"Lo único que se necesita este Inicio Rápido es una terminal. Si desea "
+"visualizar los resultados, puede utilizar una de las aplicaciones de "
+"Software GIS de Escritorio en OSGeoLive como  "
+":doc:`../overview/qgis_overview`."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:46
 msgid "Get to know GDAL"
@@ -138,7 +144,7 @@ msgstr "sin sistema de coordenadas"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:107
 msgid "Simple format translation"
-msgstr ""
+msgstr "Traducción de formato simple"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:109
 msgid ""
@@ -294,13 +300,13 @@ msgid ""
 " be reprojected gdalwarp does not read all the data.  We can force gdalwarp "
 "to read a bunch of surplus data around chunks as one way to resolve this. "
 "Read more about this in the RasterTutorial "
-"http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
+"https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
 msgstr ""
-"¿Nota cómo se recortan los polos?  Esto es porque los bordes en el Polo no "
+"¿Nota cómo se recortan los polos?  Esto es porque los bordes en el polo no "
 "pueden ser reproyectados, gdalwarp no lee todos los datos.  Podemos forzar "
 "gdalwarp para leer un montón de datos excedentes en trozos como una manera "
 "de resolver esto. Lea más sobre esto en el  RasterTutorial de "
-"http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
+"https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:255
 msgid "Mosaicking"
@@ -437,22 +443,23 @@ msgid "GDAL Project home"
 msgstr "Proyecto GDAL inicio"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:455
-msgid "http://www.gdal.org"
-msgstr "http://www.gdal.org"
+msgid "https://gdal.org"
+msgstr "https://gdal.org"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:457
 msgid "GDAL Raster Tutorial"
 msgstr "GDAL Raster Tutorial"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:459
-msgid "http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
-msgstr "http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
+msgid "https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
+msgstr "https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:461
 msgid "GDAL Workshop"
 msgstr "GDAL Workshop"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:463
-msgid "http://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
+msgid ""
+"https://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
 msgstr ""
-"http://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
+"https://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
