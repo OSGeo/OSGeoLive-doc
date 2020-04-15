@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-03-25 17:45-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -50,7 +50,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:28
 msgid "Start GeoMoose"
-msgstr ""
+msgstr "Iniciar GeoMoose"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:30
 msgid "Go to the \"Browser Clients\" folder on the desktop."
@@ -87,7 +87,7 @@ msgstr "Una barra de herramientas"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:44
 msgid "A map window with navigation and zoom controls"
-msgstr ""
+msgstr "Una ventana de mapa con controles de navegación y zoom"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:45
 msgid "A side menu with:"
@@ -128,15 +128,17 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:56
 msgid "Identify a location"
-msgstr ""
+msgstr "Identificar una ubicación"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:58
 msgid "Click on the \"identify\" (\"i\" in a circle icon) button in the top toolbar"
 msgstr ""
+"Click en el botón \"identificar\" (\"i\" en un ícono de círculo) en la barra"
+" superior de herramientas"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:59
 msgid "Click a point on the map."
-msgstr ""
+msgstr "Haga click en un punto del mapa."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:63
 msgid ""
@@ -153,7 +155,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:66
 msgid "Use the measuring tool"
-msgstr ""
+msgstr "Utilice la herramienta de medición"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:68
 msgid ""
@@ -161,16 +163,21 @@ msgid ""
 "coordinates of a picked point) * measure the distance along a potentially "
 "multi-segment line * measure the area of a polygon."
 msgstr ""
+"La herramienta de medición GeoMoose permite: * medir un punto (devolver las "
+"coordenadas de un punto seleccionado) * medir la distancia a lo largo de una"
+" línea potencialmente multisegmento * medir el área de un polígono."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:73
 msgid ""
 "Click the double ended arrow icon in the top toolbar to start the measuring "
 "tool."
 msgstr ""
+"Click en el ícono de flecha de doble extremo en la barra de herramientas "
+"superior para iniciar la herramienta de medición."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:74
 msgid "Choose to measure a point, line, or polygon."
-msgstr ""
+msgstr "Elija medir un punto, una línea o un polígono."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:75
 msgid ""
@@ -178,10 +185,13 @@ msgid ""
 "the point on the map you want to measure.  To measure a line or polygon "
 "click on the map for each vertex a of the line/polygon."
 msgstr ""
+"Haga click en el mapa donde desea medir.  Para medir un punto, simplemente "
+"haga click en el punto del mapa que desea medir.  Para medir una línea o "
+"polígono, haga click en el mapa para cada vértice a de la línea/polígono."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:76
 msgid "Double click to end the line/polygon."
-msgstr ""
+msgstr "Doble click para finalizar la línea/polígono."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:84
 msgid ""
@@ -189,6 +199,9 @@ msgid ""
 "vector layer, including previous query results) without having to manually "
 "trace over it."
 msgstr ""
+"También puede medir una entidad preexistente en el mapa (si procede de una "
+"capa vectorial, incluidos los resultados de la consulta anterior) sin tener "
+"que trazar la imagen manualmente sobre ella."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:88
 msgid "Select features"
@@ -266,7 +279,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:107
 msgid "Search for features"
-msgstr ""
+msgstr "Buscar características"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:109
 msgid ""
@@ -302,7 +315,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:127
 msgid "Print the map"
-msgstr ""
+msgstr "Imprimir el mapa"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:129
 msgid ""
