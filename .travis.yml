@@ -45,5 +45,5 @@ deploy:
   local_dir:  build/doc/_build/html/
   verbose: true
   on:
-    - branch: master # switch to master when ok
-    - condition: $LINKCHECK=OFF
+    branch: master # switch to master when ok
+    condition: $LINKCHECK = OFF
