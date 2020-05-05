@@ -161,7 +161,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:73
 msgid "|image17|"
-msgstr "|imagen17|"
+msgstr "|image17|"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:75
 msgid ""
