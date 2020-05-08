@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-03-25 17:45-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -33,32 +33,38 @@ msgid ""
 "globe (including OpenStreetMap), you are encouraged to include a KDE Marble "
 "widget in your application."
 msgstr ""
+"Marble es un programa de Proyecto de Educación KDE de código abierto similar"
+" a NASA World Wind o Google Earth.  Además de elegir cualquier cantidad de "
+"mapas para ver en su globo (incluyendo OpenStreetMap) se le recomienda "
+"incluir un widget KDE Marble en su aplicación."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:27
 msgid "Start Marble"
-msgstr ""
+msgstr "Iniciar Marble"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:29
 msgid ""
 "On the desktop, choose :menuselection:`Navigation and Maps --> Marble`. You "
 "will see a window like this:"
 msgstr ""
+"En el escritorio, elija :menuselection:`Navegación y Mapas --> Marble`. Verá"
+" una ventana como esta:"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:36
 msgid "Change the display"
-msgstr ""
+msgstr "Cambiar la pantalla"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:38
 msgid "Scale the globe by rotating the wheel of your mouse."
-msgstr ""
+msgstr "Escala el globo girando la rueda del ratón."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:39
 msgid "To move around press the left button of your mouse and move it."
-msgstr ""
+msgstr "Para moverte, presiona el botón izquierdo del ratón y muévelo."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:41
 msgid "Marble has 11 different views (themes):"
-msgstr ""
+msgstr "Mármol tiene 11 vistas diferentes (temas):"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:43
 msgid "Atlas"
@@ -109,14 +115,18 @@ msgid ""
 "Click one of entries in the \"Theme\" list in \"Map View\" tab to switch "
 "between them."
 msgstr ""
+"Haga clic en una de las entradas de la lista \"Tema\" en la pestaña \"Vista "
+"de mapa\" para cambiar entre ellas."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:60
 msgid "Click a label in any place to view more information about it."
 msgstr ""
+"Haga clic en una etiqueta en cualquier lugar para ver más información al "
+"respecto."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:67
 msgid "Find a location"
-msgstr ""
+msgstr "Encontrar una ubicación"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:69
 msgid ""
@@ -130,29 +140,33 @@ msgstr ""
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:77
 msgid "Add a bookmark"
-msgstr ""
+msgstr "Añadir un marcador"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:79
 msgid "Use bookmarks in Marble to remember the location of something."
-msgstr ""
+msgstr "Usa marcadores en Marble para recordar la ubicación de algo."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:81
 msgid ""
 "To add a bookmark, press the left button of your mouse and click \"Add "
 "bookmark\". A window will appear like this:"
 msgstr ""
+"Para añadir un marcador, pulse el botón izquierdo del ratón y haga clic en "
+"\"Agregar marcador\". Aparecerá una ventana como esta:"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:86
 msgid "Write the name, description and destination folder of the bookmark"
 msgstr ""
+"Escriba el nombre, la descripción y la carpeta de destino del marcador"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:87
 msgid "Click the \"Ok\" button. Then the bookmark will appear."
-msgstr ""
+msgstr "Haga clikc en \"Aceptar\". A continuación, aparecerá el marcador."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:89
 msgid "To manage bookmarks, go to \"Bookmarks->Manage Bookmarks\"."
 msgstr ""
+"Para administrar marcadores, vaya a \"Marcadores->Administrar marcadores\"."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:95
 msgid "Things to try"
@@ -163,6 +177,9 @@ msgid ""
 "Try to use the Routing feature. See the `Marble documentation "
 "<https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ for help."
 msgstr ""
+"Intente utilizar la Característica de Ruteo. Consulte la `Documentación de "
+"Marble<https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ para "
+"obtener ayuda."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:101
 msgid "What next?"
@@ -172,3 +189,5 @@ msgstr "¿Qué sigue?"
 msgid ""
 "See the `Marble homepage <https://marble.kde.org/>`_ for more information."
 msgstr ""
+"Consulte la `página de inicio de Marble <https://marble.kde.org/>`_ para "
+"obtener más información."
