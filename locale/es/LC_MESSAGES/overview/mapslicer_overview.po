@@ -45,7 +45,7 @@ msgstr ""
 "mosiacos de mapas  y la publicación rápida de mapas ráster.  Los Geodatos "
 "son transformados en teselas compatibles con Google Maps y Earth - listos "
 "para publicarse mediante carga directa en cualquier servidor web o "
-"almacenamiento en la nube, por ejemplo Amazon S3."
+"almacenamiento en la nube, (por ejemplo Amazon S3)."
 
 #: ../../build/doc/overview/mapslicer_overview.rst:25
 msgid ""
