@@ -178,7 +178,7 @@ msgid ""
 "<https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ for help."
 msgstr ""
 "Intente utilizar la Característica de Ruteo. Consulte la `Documentación de "
-"Marble<https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ para "
+"Marble <https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ para "
 "obtener ayuda."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:101
