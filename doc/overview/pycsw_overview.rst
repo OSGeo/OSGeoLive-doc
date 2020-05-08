@@ -97,7 +97,7 @@ Details
 .. _`Python`: https://www.python.org/
 .. _`MIT`: https://docs.pycsw.org/en/latest/license.html
 .. _`OGC Compliant`: https://www.ogc.org/resource/products/details/?pid=1374
-.. _`OGC Reference Implementation`: http://demo.pycsw.org/
+.. _`OGC Reference Implementation`: https://demo.pycsw.org/
 
 @QUICKSTART_pycsw@
 
