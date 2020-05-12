@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,7 +30,7 @@ msgstr "Guía de Inicio Rápido de OpenStreetMap "
 msgid ""
 "OpenStreetMap is a free street level map of the world, created by an ever "
 "growing community of mappers. Anyone can edit OpenStreetMap. The `Learn OSM "
-"website <http://learnosm.org>`_ provides easy to understand, step-by-step "
+"website <https://learnosm.org>`_ provides easy to understand, step-by-step "
 "guides for you to get started with contributing to OpenStreetMap and using "
 "OpenStreetMap and using OpenStreetMap data. The Learn OSM guide at the link "
 "above shows step by step how to navigate the OpenStreetMap website, view and"
@@ -40,12 +40,12 @@ msgid ""
 msgstr ""
 "OpenStreetMap es un mapa libre de nivel calle  del mundo, creado por una "
 "comunidad permanentemente creciente de mappers. Cualquiera puede editar "
-"OpenStreetMap. El `Sitio Web Aprenda OSM <http://learnosm.org>`_ proporciona"
-" guías fáciles de entender,  paso a paso, para que usted pueda comenzar a "
-"contribuir a OpenStreetMap y usando  los datos OpenStreetMap . La guía "
-"Aprenda OSM en el enlace de arriba paso a paso muestra cómo navegar por el "
-"Sitio Web de OpenStreetMap, vistas y mapas de impresión y regístrese para "
-"una cuenta de usuario. Después de tener tu propio nombre de usuario y "
+"OpenStreetMap. El `Sitio Web Aprenda OSM <https://learnosm.org>`_ "
+"proporciona guías fáciles de entender,  paso a paso, para que usted pueda "
+"comenzar a contribuir a OpenStreetMap y usando  los datos OpenStreetMap . La"
+" guía Aprenda OSM en el enlace de arriba paso a paso muestra cómo navegar "
+"por el Sitio Web de OpenStreetMap, vistas y mapas de impresión y regístrese "
+"para una cuenta de usuario. Después de tener tu propio nombre de usuario y "
 "contraseña, podrás añadir tus primeros puntos en el mapa, aprende a hacer "
 "encuestas de calle y trabajo con imágenes aéreas."
 
@@ -54,10 +54,12 @@ msgid ""
 "The remainder of this guide introduces some of the online and offline "
 "software used to edit and render OSM data."
 msgstr ""
+"El resto de esta guía presenta parte del software en línea y fuera de línea "
+"utilizada para editar y representar datos OSM."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:38
 msgid "Programs that work with OSM data"
-msgstr ""
+msgstr "Programas que funcionan con datos OSM"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:41
 msgid "iD"
@@ -83,8 +85,8 @@ msgid "Documentation: https://wiki.openstreetmap.org/wiki/ID"
 msgstr "Documentación: https://wiki.openstreetmap.org/wiki/ID"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:49
-msgid "Tutorial: http://learnosm.org/en/beginner/id-editor/"
-msgstr "Tutorial: http://learnosm.org/en/beginner/id-editor/"
+msgid "Tutorial: https://learnosm.org/en/beginner/id-editor/"
+msgstr "Tutorial: https://learnosm.org/en/beginner/id-editor/"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:53
 msgid "JOSM"
@@ -112,8 +114,8 @@ msgid "User guide: https://wiki.openstreetmap.org/wiki/JOSM/Guide"
 msgstr "Guía de usuario: https://wiki.openstreetmap.org/wiki/JOSM/Guide"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:63
-msgid "Tutorial: http://learnosm.org/en/josm/start-josm/"
-msgstr "Tutorial: http://learnosm.org/en/josm/start-josm/"
+msgid "Tutorial: https://learnosm.org/en/josm/start-josm/"
+msgstr "Tutorial: https://learnosm.org/en/josm/start-josm/"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:64
 msgid "JOSM plugin collection: https://josm.openstreetmap.de/wiki/Plugins"
@@ -157,8 +159,8 @@ msgstr ""
 "QuickOSM."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:83
-msgid "QuickOSM: http://plugins.qgis.org/plugins/QuickOSM/"
-msgstr "QuickOSM: http://plugins.qgis.org/plugins/QuickOSM/"
+msgid "QuickOSM: https://plugins.qgis.org/plugins/QuickOSM/"
+msgstr "QuickOSM: https://plugins.qgis.org/plugins/QuickOSM/"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:84
 msgid ""
@@ -169,8 +171,8 @@ msgstr ""
 "https://wiki.openstreetmap.org/wiki/QGIS#QGIS_2:_Importing_OSM_vector_layers"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:85
-msgid "Tutorial: http://learnosm.org/en/osm-data/osm-in-qgis/"
-msgstr "Tutorial: http://learnosm.org/en/osm-data/osm-in-qgis/"
+msgid "Tutorial: https://learnosm.org/en/osm-data/osm-in-qgis/"
+msgstr "Tutorial: https://learnosm.org/en/osm-data/osm-in-qgis/"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:88
 msgid "Osmosis"
@@ -191,8 +193,8 @@ msgid "Documentation: https://wiki.openstreetmap.org/wiki/Osmosis#Usage"
 msgstr "Documentación: https://wiki.openstreetmap.org/wiki/Osmosis#Usage"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:95
-msgid "Tutorial: http://learnosm.org/en/osm-data/osmosis/"
-msgstr "Tutorial: http://learnosm.org/en/osm-data/osmosis/"
+msgid "Tutorial: https://learnosm.org/en/osm-data/osmosis/"
+msgstr "Tutorial: https://learnosm.org/en/osm-data/osmosis/"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:99
 msgid "osm2pgsql"
@@ -216,8 +218,8 @@ msgid "Homepage: https://wiki.openstreetmap.org/wiki/Osm2pgsql"
 msgstr "Página Web: https://wiki.openstreetmap.org/wiki/Osm2pgsql"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:107
-msgid "Tutorial: http://learnosm.org/en/osm-data/osm2pgsql/"
-msgstr "Tutorial: http://learnosm.org/en/osm-data/osm2pgsql/"
+msgid "Tutorial: https://learnosm.org/en/osm-data/osm2pgsql/"
+msgstr "Tutorial: https://learnosm.org/en/osm-data/osm2pgsql/"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:110
 msgid "What next?"
@@ -226,7 +228,9 @@ msgstr "¿Qué sigue?"
 #: ../../build/doc/quickstart/osm_quickstart.rst:112
 msgid "Find out more about OSM on the website: https://www.openstreetmap.org"
 msgstr ""
+"Obtenga más información sobre OSM en el sitio web: "
+"https://www.openstreetmap.org"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:114
 msgid "Get support: https://www.openstreetmap.org/help"
-msgstr ""
+msgstr "Obtenga soporte: https://www.openstreetmap.org/help"
