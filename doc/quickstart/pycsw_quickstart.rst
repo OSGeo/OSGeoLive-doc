@@ -174,9 +174,9 @@ For more information on pycsw, please consult the `documentation`_ on the pycsw 
 .. _`SQLAlchemy`: https://www.sqlalchemy.org/
 .. _`Shapely`: https://github.com/Toblerity/Shapely
 .. _`pyproj`: https://github.com/jswhit/pyproj
-.. _`Download pycsw`: https://pycsw.org/download.html
+.. _`Download pycsw`: https://pycsw.org/download
 .. _`OGC Compliant`: https://www.ogc.org/resource/products/details/?pid=1104
-.. _`OGC Reference Implementation`: http://demo.pycsw.org/
+.. _`OGC Reference Implementation`: https://demo.pycsw.org/
 .. _`GitHub`: https://github.com/geopython/pycsw
 .. _`OGR`: https://gdal.org/ogrinfo.html
 .. _`OWSLib CSW`: https://geopython.github.io/OWSLib/#csw
