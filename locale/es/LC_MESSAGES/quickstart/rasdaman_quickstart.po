@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2019
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:45
 msgid "Running WCPS queries"
-msgstr ""
+msgstr "Ejecución de consultas WCPS"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:50
 msgid "Either:"
@@ -108,17 +108,19 @@ msgstr ""
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:53
 msgid "Running coverage"
-msgstr ""
+msgstr "Cobertura de ejecución"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:55
 msgid ""
 "The example coverage which will be used subsequently is a 6 MB image as "
 "below:"
 msgstr ""
+"La cobertura de ejemplo que se utilizará posteriormente es una imagen de 6 "
+"MB como se muestra a continuación:"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:61
 msgid "Access full coverage"
-msgstr ""
+msgstr "Acceder a la cobertura completa"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:63
 msgid "The WCPS query to access the full coverage is as follows:"
@@ -136,7 +138,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:73
 msgid "Select a subset of the coverage"
-msgstr ""
+msgstr "Seleccione un subconjunto de la cobertura"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:75
 msgid "The WCPS query to access a subset of the coverage is as follows:"
@@ -158,7 +160,7 @@ msgstr "El resultado de la consulta es imagen como la siguiente:"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:90
 msgid "Band extraction from the coverage"
-msgstr ""
+msgstr "Extracción de bandas de la cobertura"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:92
 msgid "The WCPS query to access the red band of the coverage is as follows:"
@@ -180,7 +182,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:104
 msgid "Arithmetic operation: Extracting NDVI of the coverage"
-msgstr ""
+msgstr "Operación aritmética: Extracción de NDVI de la cobertura"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:106
 msgid ""
@@ -200,59 +202,56 @@ msgstr "¿Qué sigue?"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:126
 msgid ""
-"The `rasdaman tutorial <http://tutorial.rasdaman.org>`_ provides a condensed"
-" introduction to the concepts behind rasdaman, rasql and the OGC web "
-"services support."
+"The `rasdaman tutorial <https://tutorial.rasdaman.org/>`_ provides a "
+"condensed introduction to the concepts behind rasdaman, rasql and the OGC "
+"web services support."
 msgstr ""
-"El tutorial 'tutorial de rasdaman <http://tutorial.rasdaman.org>`_  "
-"proporciona una introducción condensada a los conceptos detrás de rasdaman, "
-"rasql y al soporte de servicios web OGC."
+"El tutorial  `rasdaman <https://tutorial.rasdaman.org/>`_ proporciona una "
+"introducción condensada a los conceptos detrás de rasdaman, rasql y el "
+"soporte de los servicios web  de OGC."
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:127
 msgid ""
-"Learn more about the OGC  `Web Coverage Processing Service "
-"<http://www.opengeospatial.org/standards/wcps>`_ (WCPS) Language standard "
-"(which was heavily inspired by rasdaman); a good starting point is the  "
-"`documentation and tutorials page <http://standards.rasdaman.com/>`_  and "
-"`WCPS Query SandBox <http://localhost/rasdaman-demo/demo/client/query-"
-"sandbox.html>`_."
+"Learn more about the OGC  |WCPS| Language standard (which was heavily "
+"inspired by rasdaman); a good starting point is the `documentation and "
+"tutorials page <https://standards.rasdaman.com/>`_  and `WCPS Query SandBox "
+"<http://localhost/rasdaman-demo/demo/client/query-sandbox.html>`_."
 msgstr ""
-"Aprenda más acerca del Lenguaje Estándar (WCPS) de OGC  `Web Coverage "
-"Processing Service <http://www.opengeospatial.org/standards/wcps>`_   (que "
-"está fuertemente inspirado en rasdaman); un buen punto de partida es   `la "
-"página de documentación y tutoriales <http://standards.rasdaman.com/>`_  y  "
-"`WCPS Query SandBox <http://localhost/rasdaman-demo/demo/client/query-"
-"sandbox.html>`_."
+"Aprenda más sobre el Lenguage OGC estándar (inspirado  en gran medida en "
+"rasdaman); un buen punto de partida es la página de `documentación y "
+"tutoriales <https://standards.rasdaman.com/>`_  y `Consultas WCPS SandBox "
+"<http://localhost/rasdaman-demo/demo/client/query-sandbox.html>`_."
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:128
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:130
 msgid ""
 "Interested in coverage data and services in general? Visit OGC's `Coverages "
 "Domain Working Group wiki "
-"<http://external.opengeospatial.org/twiki_public/CoveragesDWG/WebHome>`_."
+"<https://external.opengeospatial.org/twiki_public/CoveragesDWG/WebHome>`_."
 msgstr ""
-"¿Interesado en cobetura de datos y servicios en general? Visite OGC's "
-"`Coverages Domain Working Group wiki "
-"<http://external.opengeospatial.org/twiki_public/CoveragesDWG/WebHome>`_."
+"¿Interesado en cobetura de datos y servicios en general? Visite la `Wiki del"
+" Grupo de Trabajo de Dominio de Coberturas "
+"<https://external.opengeospatial.org/twiki_public/CoveragesDWG/WebHome>` de "
+"OGC_."
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:129
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:131
 msgid ""
-"Explore the `rasdaman documentation <http://doc.rasdaman.org>`_ to learn "
+"Explore the `rasdaman documentation <https://doc.rasdaman.org>`_ to learn "
 "about rasdaman administration, its query language, and data ingestion."
 msgstr ""
-"Explore  `rasdaman documentation <http://doc.rasdaman.org>`_ para aprender "
-"sobre la administración de rasdaman, su lenguaje de consultas e ingestión de"
-" datos. "
+"Explore la `documentación de rasdaman <https://doc.rasdaman.org>`_ para "
+"aprender acerca de la administración de rasdman, su lenguage de consultas y "
+"su ingestión de datos."
 
-#: ../../build/doc/quickstart/rasdaman_quickstart.rst:130
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:132
 msgid ""
 "Go to the `multi-dimensional demo <http://localhost/rasdaman-demo>`_ to "
 "explore interactive 1-D to 4-D rasdaman demos. The small ones are part of "
 "OSGeoLive, those utilizing larger sets (beyond this drive's capacity) "
 "forward to the `OGC standards showcase site "
-"<http://standards.rasdaman.com>`_ ."
+"<https://standards.rasdaman.com>`_ ."
 msgstr ""
-"Vaya a  `multi-dimensional demo <http://localhost/rasdaman-demo>`_ para "
-"explorar los demos interactivos  1-D a 4-D de rasdaman. Los más pequeños son"
-" parte de OSGeoLive, aquellos que utilizan conjuntos más grandes (más allá "
-"de la capacidad de este disco), avanzan hacia el `OGC standards showcase "
-"site <http://standards.rasdaman.com>`_ ."
+"Visite la `demo multi-dimensional <http://localhost/rasdaman-demo>`_  para "
+"explorar los demos interactivos 1-D a 4-D. . Los más pequeños son parte de "
+"OSGeoLive, aquellos que utilizan conjuntos más grandes (más allá de la "
+"capacidad de este disco), avanzan hacia el `sitio de escaparate de normas de"
+" OGC <https://standards.rasdaman.com>`_ ."
