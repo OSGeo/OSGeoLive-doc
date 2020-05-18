@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2018
-# MarPetra <mvergaratrejo@gmail.com>, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2019\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -80,7 +80,7 @@ msgstr "Detalles"
 
 #: ../../build/doc/overview/zygrib_overview.rst:41
 msgid "**Website:** https://www.zygrib.org"
-msgstr ""
+msgstr "**Sitio web:** https://www.zygrib.org"
 
 #: ../../build/doc/overview/zygrib_overview.rst:43
 msgid "**Licence:** GNU General Public License (GPL) version 3"
@@ -96,7 +96,7 @@ msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
 
 #: ../../build/doc/overview/zygrib_overview.rst:49
 msgid "**Support:** https://zygrib.org/forum/"
-msgstr ""
+msgstr "**Soporte:** https://zygrib.org/forum/"
 
 #: ../../build/doc/overview/zygrib_overview.rst:54
 msgid "Quickstart"
