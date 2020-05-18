@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-03-25 17:45-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,29 +39,35 @@ msgstr ""
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:30
 msgid "Start ZOO-Project"
-msgstr ""
+msgstr "Iniciar ZOO-Project"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:32
 msgid ""
 "From the Start menu, select :menuselection:`Geospatial --> Web Services --> "
 "ZOO Project`."
 msgstr ""
+"En el menú Inicio, seleccione :menuselection:`Geoespacial --> Servicios Web "
+"--> ZOO Project`."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:34
 msgid ""
 "Firefox will open the ZOO Project demonstration landing page. From here, you"
 " can select a demon application."
 msgstr ""
+"Firefox abrirá la página de inicio de demostración del ZOO Project. Desde "
+"aquí, puede seleccionar una demo de aplicación."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:42
 msgid "OGR spatial tools demo"
-msgstr ""
+msgstr "Demostración de herramientas espaciales OGR"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:44
 msgid ""
 "On the ZOO Project demonstration landing page, click :guilabel:`view` on OGR"
 " spatial tools."
 msgstr ""
+"En la página de inicio de la demostración del ZOO Project, haga click en "
+":guilabel:`view` en las herramientas espaciales de OGR."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:45
 msgid ""
@@ -69,12 +75,17 @@ msgid ""
 "<../overview/geoserver_overview>` WFS Server, the feature will be displayed "
 "in blue."
 msgstr ""
+"Haga click en el mapa para seleccionar una característica en el servidor WFS"
+" :doc:`GeoServer <../overview/geoserver_overview>`, la función se mostrará "
+"en azul."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:46
 msgid ""
 "Click on simple geometry process like Buffer, Centroid, ConvexHull or "
 "Boundary and the result will be displayed in yellow."
 msgstr ""
+"Haga click en un proceso de geometría simple como Buffer, Centroid, "
+"ConvexHull o Boundary y el resultado se mostrará en amarillo."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:54
 msgid ""
@@ -82,42 +93,56 @@ msgid ""
 "multiple geometries process button like Union, Intersection, Symmetric "
 "Difference or Difference to get the result displayed in red on the map."
 msgstr ""
+"Ahora seleccione otra característica cerca de la primera que haya "
+"seleccionado y, a continuación, haga click en un botón de proceso de varias "
+"geometrías como Unión, Intersección, Diferencia simétrica o Diferencia para "
+"obtener el resultado que se muestra en rojo en el mapa."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:62
 msgid "CGAL triangulations demo"
-msgstr ""
+msgstr "Demostración de triangulaciones CGAL"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:64
 msgid ""
 "On the ZOO Project demonstration landing page, click :guilabel:`view` on "
 "CGAL triangulations."
 msgstr ""
+"En la página de inicio de la demostración del ZOO Project, haga click en "
+":guilabel:`vista` en las triangulaciones CGAL."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:65
 msgid ""
 "Press the Voronoi or Delaunay button to display on your map the result of "
 "the WPS service execution, as shown below."
 msgstr ""
+"Pulse el botón Voronoi o Delaunay para mostrar en el mapa el resultado de la"
+" ejecución del servicio WPS, como se muestra a continuación."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:75
 msgid "OTB Applications demo"
-msgstr ""
+msgstr "Demostración de Aplicaciones OTB"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:77
 msgid ""
 "On the ZOO Project demonstration landing page, click :guilabel:`view` on OTB"
 " application."
 msgstr ""
+"En la página de destino de la demostración del ZOO Project, haga click en "
+":guilabel:`ver` en la aplicación OTB."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:78
 msgid "Fill the form on the left to configure the WPS service execution."
 msgstr ""
+"Rellene el formulario de la izquierda para configurar la ejecución del "
+"servicio WPS."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:79
 msgid ""
 "Once you have selected the values for your processing, press the "
 ":guilabel:`Execute` button at the bottom of the left form."
 msgstr ""
+"Una vez que haya seleccionado los valores para su procesamiento, presione el"
+" botón :guilabel:`Ejecutar` en la parte inferior del formulario izquierdo."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:80
 msgid ""
@@ -125,6 +150,10 @@ msgid ""
 " processing displayed on the map. You can see below a sample "
 "KMeansClassification execution when selecting the image/png output format."
 msgstr ""
+"Si elige image/png como formato de salida, verá el resultado del "
+"procesamiento que se muestra en el mapa. Puede ver a continuación una "
+"ejecución de KMeansClassification de ejemplo al seleccionar el formato de "
+"salida image/png."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:90
 msgid "What next?"
