@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -78,6 +78,13 @@ msgid ""
 "learning process. Scripts are often used to automate processing steps but "
 "there are GUIs, the leading one being RStudio (https://rstudio.com)."
 msgstr ""
+"La interfaz del núcleo R es una ventana de línea de comandos que proporciona"
+" excelente flexibilidad y control pero tiende a alargar el tiempo necesario "
+"para convertirse en un usuario competente comparado con el software con una "
+"interfaz gráfica de usuario (GUI). Afortunadamente R está bien documentado "
+"en el sitio web que facilita el proceso de aprendizaje. Los scripts son "
+"usualmente utilizados para automatizar los pasos de procesamiento, pero hay "
+"GUIs, el líder es RStudio (https://rstudio.com)."
 
 #: ../../build/doc/overview/R_overview.rst:44
 msgid ""
@@ -166,7 +173,7 @@ msgstr "Detalles"
 
 #: ../../build/doc/overview/R_overview.rst:76
 msgid "**Website:** https://cran.r-project.org"
-msgstr ""
+msgstr "**Sitio Web:** https://cran.r-project.org"
 
 #: ../../build/doc/overview/R_overview.rst:78
 msgid "**Licence:** GPL"
@@ -184,6 +191,7 @@ msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows, Unix"
 msgid ""
 "**Community Support:** https://cran.r-project.org/web/views/Spatial.html"
 msgstr ""
+"**Soporte comunitario** https://cran.r-project.org/web/views/Spatial.html"
 
 #: ../../build/doc/overview/R_overview.rst:86
 msgid ""
