@@ -246,13 +246,12 @@ msgstr ""
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:91
 msgid "**Running the Virtual Machine**"
-msgstr "** Ejecutando la Máquina Virtual **"
+msgstr "**Ejecutando la Máquina Virtual**"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:93
 msgid "Now bootup the VM by clicking the Start (green arrow) button."
 msgstr ""
-"Ahora, inicie la VM haciendo clik en el botón de Start o Inicio (flecha "
-"verde)."
+"Ahora, inicie la VM haciendo clikk en el botón Iniciar (flecha verde)."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:95
 msgid "When you install the iso on the VM, the username must be set to \"user\""
@@ -319,7 +318,7 @@ msgstr ""
 "above example, we defined a Shared Folder path en el sistema host y lo "
 "llamamos \"GIS\" en Configuraciones  de VM. La carpeta compartida aparecerá "
 "en el sistema de archivos en /media/sf_GIS/.  Para montar esta carpeta en el"
-" directorio de inicio del usuario, por ejemplo, en un terminal hacer lo "
+" directorio de inicio del usuario, por ejemplo, en una terminal hacer lo "
 "siguiente:"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:111

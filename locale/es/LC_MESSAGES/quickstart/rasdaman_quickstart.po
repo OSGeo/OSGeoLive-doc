@@ -231,7 +231,7 @@ msgstr ""
 "¿Interesado en cobetura de datos y servicios en general? Visite la `Wiki del"
 " Grupo de Trabajo de Dominio de Coberturas "
 "<https://external.opengeospatial.org/twiki_public/CoveragesDWG/WebHome>` de "
-"OGC_."
+"OGC's_."
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:131
 msgid ""
