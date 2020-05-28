@@ -33,9 +33,9 @@ msgid ""
 "virtual machine. For other methods, follow links from the \"See Also\" "
 "section below."
 msgstr ""
-"Este Inicio Rápido describe una forma de ejecutar OSGeoLive dentro de una "
-"máquina virtual de VirtualBox. Para otros métodos, siga los enlaces de la "
-"sección \"Ver también\" que se muestra a continuación."
+"Este Inicio Rápido describe una forma de ejecutar OSGeo-Live en una Máquina "
+"Virtual de VirtualBox. Para otros métodos, siga los enlaces de la sección "
+"\"Vea también\" más abajo."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:15
 msgid "Virtual Machine Advantages"
