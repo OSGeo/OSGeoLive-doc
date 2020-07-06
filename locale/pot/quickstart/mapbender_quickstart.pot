@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-07-06 11:23-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -313,6 +313,6 @@ msgid "You can find an extended tutorial at https://doc.mapbender.org/en/quickst
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:196
-msgid "Get involved in the project https://www.mapbender.org/Community"
+msgid "Get involved in the project https://mapbender.org/community/"
 msgstr ""
 
