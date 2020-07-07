@@ -71,7 +71,7 @@
             
   <div class="section" id="osgeolive-quickstart-for-running-in-a-virtual-machine">
 <h1>Inicio Rápido de OSGeoLive para Ejecutar en una Máquina Virtual<a class="headerlink" href="#osgeolive-quickstart-for-running-in-a-virtual-machine" title="Enlazar permanentemente con este título">¶</a></h1>
-<p>Este Inicio Rápido describe una forma de ejecutar OSGeoLive dentro de una máquina virtual de VirtualBox. Para otros métodos, siga los enlaces de la sección «Ver también» que se muestra a continuación.</p>
+<p>Este Inicio Rápido describe una forma de ejecutar OSGeo-Live en una Máquina Virtual de VirtualBox. Para otros métodos, siga los enlaces de la sección «Vea también» más abajo.</p>
 <div class="section" id="virtual-machine-advantages">
 <h2>Ventajas de la Máquina Virtual<a class="headerlink" href="#virtual-machine-advantages" title="Enlazar permanentemente con este título">¶</a></h2>
 <ul class="simple">
@@ -93,19 +93,18 @@
 <h2>Requisitos del Sistema<a class="headerlink" href="#system-requirements" title="Enlazar permanentemente con este título">¶</a></h2>
 <ul class="simple">
 <li>RAM: 2 GB por lo menos. El sistema Lubuntu system funciona bien con 1 GB de RAM, y usted sólo necesita matener al menos la misma cantidad de memoria en su sistema host. Por lo tanto, se necesitarán un total de 2 GB para un funcionamiento sin problemas. Algunas aplicaciones, como geoserver, necesitan que la máquina virtual tenga al menos 2 GB de RAM. De ser posible, considere proporcionar 2 GB o más para su máquina virtual.</li>
-<li>Spare Hard Disk Space: The virtual disk file (vmdk) from:  <a class="reference external" href="https://live.osgeo.org/en/download.html">live.osgeo.org</a>  unzips to almost 10 GB. And you’ll want more space to allow some room to work on the virtual machine. So 20 GB is a good recommendation.</li>
-<li>CPU: Any CPU will do, but a processor which supports «Virtualization Technology» will be faster. You can check your computer CPU <a class="reference external" href="https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html">here</a>.</li>
+<li>Espacio en el Disco Duro de Repuesto: El archivo de disco virtual (vmdk) disponible en:  <a class="reference external" href="https://live.osgeo.org/en/download.html">live.osgeo.org</a> se descomprime a casi 10 GB. Requerirá más espacio para permitir que éste  funcione en la máquina virtual. Para ello, 20 GB es una buena recomendación.</li>
+<li>CPU: Cualquier CPU funcionará, pero un procesador que soporte «Virtualization Technology» será más rápido. Puede revisar el CPU de su computadora <a class="reference external" href="https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html">aquí</a>.</li>
 </ul>
 <p>La mayoría de los equipos producidos en los últimos 4-5 años cumplirá estos requisitos.</p>
 </div>
 <div class="section" id="howto">
 <h2>Cómo<a class="headerlink" href="#howto" title="Enlazar permanentemente con este título">¶</a></h2>
 <p><strong>Descargas</strong></p>
-<p>Download <a class="reference external" href="https://www.virtualbox.org/">Virtual Box</a>  for your platform, and install the software. On windows run the installer, or on Ubuntu-like linux systems do the following:</p>
+<p>Descargue Virtual Box &lt;<a class="reference external" href="https://www.virtualbox.org/">https://www.virtualbox.org/</a>&gt;`_ para su plataforma e instale el software. En windows, ejecute el instalador run the installer, o en sistemas Linux similares a Ubuntu haga lo siguiente:</p>
 <blockquote>
 <div><code class="docutils literal"><span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">virtualbox-ose</span></code></div></blockquote>
-<p>In addition download the OSGeo Virtual disk file (vmdk) from <a class="reference external" href="https://live.osgeo.org/en/download.html">live.osgeo.org</a>
-. Click on the «Download virtual machine» button. Then unzip the downloaded file (using <a class="reference external" href="https://www.7-zip.org">7zip</a> ).</p>
+<p>Adicionalmente, descargue el Archivo de Disco Virtual (vmdk) de OSGeo desde <a class="reference external" href="https://live.osgeo.org/en/download.html">live.osgeo.org</a> . Haga clik en el botón «Descargar máquina virtual». Después, descomprima el archivo descargado (usando <a class="reference external" href="https://www.7-zip.org">7zip</a> ).</p>
 <p>** Crear una Máquina Virtual **</p>
 <p>Iniciar la aplicación VirtualBox y haga clic en el botón nuevo para crear una nueva MV, y luego Siguiente.</p>
 <blockquote>
@@ -137,8 +136,8 @@
 <div><a class="reference internal image-reference" href="../../_images/vmdk_shared_folders.png"><img alt="../../_images/vmdk_shared_folders.png" src="../../_images/vmdk_shared_folders.png" style="width: 423.15000000000003px; height: 280.8px;" /></a>
 </div></blockquote>
 <p>Puede seleccionar que la carpeta compartida sea de sólo lectura y se monte automáticamente. Una vez que se definan la «Ruta de Carpeta» y el «Nombre de Carpeta», haga clik en OK, y de nuevo OK para finalizar y cerrar la ventana de configuraciones.</p>
-<p>** Ejecutando la Máquina Virtual **</p>
-<p>Ahora, inicie la VM haciendo clik en el botón de Start o Inicio (flecha verde).</p>
+<p><strong>Ejecutando la Máquina Virtual</strong></p>
+<p>Ahora, inicie la VM haciendo clikk en el botón Iniciar (flecha verde).</p>
 <p>Al instalar el iso en la máquina virtual, el nombre de usuario debe establecerse en «user»</p>
 <p>El usuario «user» no es miembro del grupo «users» en la máquina virtual OSGeoLive. Esto evita que algunas herramientas escriban en su directorio de datos y cause algún software falle al iniciar.</p>
 <p>La solución consiste en corregir el vmdk con el siguiente procedimiento que se hace una sola vez:</p>
@@ -149,7 +148,7 @@
 </ol>
 <p>Una vez que el sistema de OSGeo arranca, agréguese al grupo de vboxsf para que las carpetas compartidas (definidas anteriormente) sean accesibles ejecutando una ventana de terminal</p>
 <p><code class="docutils literal"><span class="pre">user&#64;osgeolive:~$</span> <span class="pre">sudo</span> <span class="pre">usermod</span> <span class="pre">-a</span> <span class="pre">-G</span> <span class="pre">vboxsf</span> <span class="pre">user</span></code></p>
-<p>En el ejemplo anterior, definimos la ruta de una Carpeta Compartida n the above example, we defined a Shared Folder path en el sistema host y lo llamamos «GIS» en Configuraciones  de VM. La carpeta compartida aparecerá en el sistema de archivos en /media/sf_GIS/.  Para montar esta carpeta en el directorio de inicio del usuario, por ejemplo, en un terminal hacer lo siguiente:</p>
+<p>En el ejemplo anterior, definimos la ruta de una Carpeta Compartida n the above example, we defined a Shared Folder path en el sistema host y lo llamamos «GIS» en Configuraciones  de VM. La carpeta compartida aparecerá en el sistema de archivos en /media/sf_GIS/.  Para montar esta carpeta en el directorio de inicio del usuario, por ejemplo, en una terminal hacer lo siguiente:</p>
 <p><code class="docutils literal"><span class="pre">user&#64;osgeolive:~$</span> <span class="pre">mkdir</span> <span class="pre">GIS</span></code></p>
 <p><code class="docutils literal"><span class="pre">user&#64;osgeolive:~$</span> <span class="pre">sudo</span> <span class="pre">mount</span> <span class="pre">-t</span> <span class="pre">vboxsf</span> <span class="pre">-o</span> <span class="pre">uid=user,rw</span> <span class="pre">GIS</span> <span class="pre">/home/user/GIS</span></code></p>
 <p>Ahora, los archivos en su máquina host, en la carpeta elejida, estarán disponibles también en la VM, dentro del folder «GIS» en el directorio de inicio del usuario.</p>
@@ -160,7 +159,7 @@
 <div><ul class="simple">
 <li><dl class="first docutils">
 <dt>Páginas del wiki de OSGeo:</dt>
-<dd><a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine">Other ways to create a Virtual Machine</a></dd>
+<dd><a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine">Otras formas de crear una Virtual Machine</a></dd>
 </dl>
 </li>
 <li><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Guía de Inicio Rápido para OSGeoLive</span></a></li>

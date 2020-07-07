@@ -73,8 +73,7 @@
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <div class="section" id="gdal-ogr-quickstart">
 <h1>Inicio Rápido GDAL/OGR<a class="headerlink" href="#gdal-ogr-quickstart" title="Enlazar permanentemente con este título">¶</a></h1>
-<p>This Quick Start is divided into two parts: GDAL (raster data) and OGR
-(vector data).</p>
+<p>Esta Guía de Inicio Rápido se divide en dos partes: GDAL (datos ráster) y OGR (datos vectoriales).</p>
 <p>Esta Guía de Inicio Rápido describe cómo:</p>
 <dl class="docutils">
 <dt>GDAL</dt>
@@ -93,15 +92,13 @@
 </ul>
 </dd>
 </dl>
-<p>The only thing you’ll need for this quickstart is a terminal. If you want to
-visualize the results, you can use one of the Desktop GIS Software
-applications on OSGeoLive like <a class="reference internal" href="../overview/qgis_overview.html"><span class="doc">QGIS</span></a>.</p>
+<p>Lo único que se necesita este Inicio Rápido es una terminal. Si desea visualizar los resultados, puede utilizar una de las aplicaciones de Software GIS de Escritorio en OSGeoLive como  <a class="reference internal" href="../overview/qgis_overview.html"><span class="doc">QGIS</span></a>.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
 <li><a class="reference internal" href="#get-to-know-gdal" id="id1">Conozca GDAL</a></li>
 <li><a class="reference internal" href="#get-information-about-the-raster-data-with-gdalinfo" id="id2">Obtenga información acerca de los datos ráster con gdalinfo</a></li>
-<li><a class="reference internal" href="#simple-format-translation" id="id3">Simple format translation</a></li>
+<li><a class="reference internal" href="#simple-format-translation" id="id3">Traducción de formato simple</a></li>
 <li><a class="reference internal" href="#translation" id="id4">Traducción</a></li>
 <li><a class="reference internal" href="#rescaling" id="id5">Reescalando</a></li>
 <li><a class="reference internal" href="#raster-tileindex-with-gdaltindex" id="id6">Ráster tileindex con gdaltindex</a></li>
@@ -172,7 +169,7 @@ applications on OSGeoLive like <a class="reference internal" href="../overview/q
 </dl>
 </div>
 <div class="section" id="simple-format-translation">
-<h2><a class="toc-backref" href="#id3">Simple format translation</a><a class="headerlink" href="#simple-format-translation" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Traducción de formato simple</a><a class="headerlink" href="#simple-format-translation" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Primero Conozca a sus conductores.El modificador de línea de comando <cite>–formats</cite> de gdal_translate se puede usar para ver una lista de controladores de formato disponibles.</p>
 <dl class="docutils">
 <dt>Cada formato informa si es</dt>
@@ -269,10 +266,7 @@ the WGS84 geographic image to the Mercator projection:</p>
 </pre></div>
 </div>
 <a class="reference internal image-reference" href="../../_images/gdal_ortho.png"><img alt="../../_images/gdal_ortho.png" src="../../_images/gdal_ortho.png" style="width: 294.40000000000003px; height: 296.8px;" /></a>
-<p>Note how the poles are clipped?  This is because the edges at the pole
-can’t be reprojected gdalwarp does not read all the data.  We can force
-gdalwarp to read a bunch of surplus data around chunks as one way to
-resolve this. Read more about this in the RasterTutorial <a class="reference external" href="https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial">https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial</a>.</p>
+<p>¿Nota cómo se recortan los polos?  Esto es porque los bordes en el polo no pueden ser reproyectados, gdalwarp no lee todos los datos.  Podemos forzar gdalwarp para leer un montón de datos excedentes en trozos como una manera de resolver esto. Lea más sobre esto en el  RasterTutorial de <a class="reference external" href="https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial">https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial</a>.</p>
 </div>
 <div class="section" id="mosaicking">
 <h2><a class="toc-backref" href="#id8">Mosaico</a><a class="headerlink" href="#mosaicking" title="Enlazar permanentemente con este título">¶</a></h2>

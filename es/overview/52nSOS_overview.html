@@ -27,7 +27,7 @@
     <link rel="search" title="Búsqueda" href="../search.html" />
     <link rel="copyright" title="Copyright" href="../copyright.html" />
     <link rel="next" title="Inicio Rápido 52 North SOS" href="../quickstart/52nSOS_quickstart.html" />
-    <link rel="prev" title="istSOS Quickstart" href="../quickstart/istsos_quickstart.html" />
+    <link rel="prev" title="Inicio Rápido de istSOS" href="../quickstart/istsos_quickstart.html" />
 	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
 
 
@@ -74,10 +74,7 @@
 <h1>52 North SOS<a class="headerlink" href="#north-sos" title="Enlazar permanentemente con este título">¶</a></h1>
 <div class="section" id="about">
 <h2>Acerca de<a class="headerlink" href="#about" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>The 52°North <a class="reference external" href="https://www.ogc.org/standards/sos">Sensor Observation Service (SOS)</a>
-supports the interoperable provision of live and archived sensor observation
-data. A sensor could be a water level meter in a stream, a weather station, or
-an air quality monitoring station.</p>
+<p>El 52°North <a class="reference external" href="https://www.ogc.org/standards/sos">Sensor Observation Service (SOS)</a>  admite la provisión interoperable de datos de observación de sensores vivos y archivados. Un sensor podría ser un medidor de nivel de agua en una corriente, una estación meteorológica o una estación de monitoreo de calidad del aire.</p>
 <a class="reference internal image-reference" href="../../_images/52nSOS_screenshot.png"><img alt="52nSOS screenshot" class="align-right" src="../../_images/52nSOS_screenshot.png" style="width: 500px;" /></a>
 </div>
 <div class="section" id="core-features">
@@ -86,34 +83,14 @@ an air quality monitoring station.</p>
 <li><strong>Browser Client</strong>: El SOS se entrega con una aplicación basada en navegador. Esto proporciona medios para la administración y configuración de la instancia de servicio, así como el envío de solicitudes de prueba para operaciones SOS; Se incluyen solicitudes de muestra apropiadas.</li>
 <li><strong>Helgoland</strong>:  SOS contiene la aplicación de Helgoland applicationpara la exploración, análisis y visualización de datos de Sensor Web en varios campos de uso, por ejemplo, hidrología, meteorología, mnitoreo ambiental, gestión de de tráfico.</li>
 <li><strong>Specifications</strong>: El 52°North SOS implementa la especificación actual versión 2.0.0 y la anterior, 1.0.0 (aquí no hay operaciones transaccionales). Las operaciones implementadas para cada versión estándar se enumeran a continuación.</li>
-<li><strong>INSPIRE Download Service Extension</strong>: Starting with Version 4.2.0, an
-extension is available that allows the SOS to be used as an INSPIRE download
-service. Background information is provided in a <a class="reference external" href="https://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-an-inspire-download-service-based-on-sos/">blog post</a>
-and in the <a class="reference external" href="https://wiki.52north.org/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi">wiki</a> .</li>
-<li><strong>Air Quality Data e-Reporting Extension</strong>: Starting with version 4.3.0, an
-extension is available that provides for the Air Quality Data Flows E1a,
-E1b and E2a compliant data (the instance on OSGeoLive is not configured
-accordingly). The <a class="reference external" href="https://wiki.52north.org/SensorWeb/AqdEReporting#Installation">installation and configuration</a>
-is documented in the 52°North Wiki.</li>
-<li><strong>Sensor Web REST-API</strong>: Starting with Version 4.1.1., a bundle
-version is available, that directly provides the <a class="reference external" href="https://wiki.52north.org/SensorWeb/SensorWebClientRESTInterface">RESTful API</a>,
-is available.
-Hence, observation data can be requested in a RESTful way and is returned
-in JSON encoded responses. More details incl. documentation can be found in the
-<a class="reference external" href="http://localhost:8080/52nSOS/static/doc/api-doc/">SOS webapp</a>.</li>
-<li><strong>INSPIRE Sepcialized Observations</strong>: Support for the INSPIRE Specialized
-Observations defined in Guidelines for the use of <a class="reference external" href="https://inspire.ec.europa.eu/id/document/tg/d2.9-o%26m-swe">Observations &amp; Measurements and
-Sensor Web Enablement-related standards in INSPIRE (D2.9)</a>
-(<a class="reference external" href="https://wiki.52north.org/SensorWeb/InspireSpecialisedObservations">detailed information about the implementation</a>).</li>
+<li><strong>INSPIRE Extensión de Servicio de Descarga</strong>: Comenzando con la Versión 4.2.0, una extensión disponible permite que el SOS se utilice como un servicio de descarga INSPIRE. La información de fondo es proporcionada en un  <a class="reference external" href="https://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-an-inspire-download-service-based-on-sos/">blog post</a> y en la  <a class="reference external" href="https://wiki.52north.org/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi">wiki</a> .</li>
+<li><strong>La Extensión de Reporte electrónico sobre Datos de Calidad del Aire</strong>: Comenzando con la Versión 4.3.0, está disponible una extensión que proporciona los Datos sobre Calidad de Flujo de Aire E1a, E1b y E2a (la instancia en OSGeoLive no está configurada en consecuencia). La  <a class="reference external" href="https://wiki.52north.org/SensorWeb/AqdEReporting#Installation">instalación y configuración</a> está documentada en el Wiki de 52°North.</li>
+<li><strong>Sensor Web REST-API</strong>: Comenzando con la Versión 4.1.1., una versión del paquete disponible, proporciona directamente la  <a class="reference external" href="https://wiki.52north.org/SensorWeb/SensorWebClientRESTInterface">RESTful API</a>. Por lo tanto, los datos de observación pueden solicitarse en forma de RESTful y son devueltos en respuestas codificadas JSON. Más detalles, incluyendo la documentación, pueden encontrarse en la <a class="reference external" href="http://localhost:8080/52nSOS/static/doc/api-doc/">SOS webapp</a>.</li>
+<li><strong>Observaciones Especializadas INSPIRE</strong>: Soporte para Observaciones Especializadas INSPIRE definidas en los lineamientos para el uso de <a class="reference external" href="https://inspire.ec.europa.eu/id/document/tg/d2.9-o%26m-swe">Observaciones  &amp; Medidas y  estándares de Sensor Web con relación a la habilitación en INSPIRE (D2.9)</a> (<a class="reference external" href="https://wiki.52north.org/SensorWeb/InspireSpecialisedObservations">información detallada sobre la implementación</a>).</li>
 <li><strong>Filtración de Resultados</strong>: Soporte para la filtración de observaciones (GetObservation) e información sobre disponibilidad de datos (GetDataAvailability) por el valor de la obsevación.</li>
-<li><strong>Read more</strong>: <a class="reference external" href="https://wiki.52north.org/SensorWeb/SensorObservationServiceIVDocumentation#Features">Details of the implemented functionalities</a>
-can be found in the 52°North Wiki.</li>
+<li><strong>Leer más</strong>: <a class="reference external" href="https://wiki.52north.org/SensorWeb/SensorObservationServiceIVDocumentation#Features">Detalles de las funcinalidades implementadas</a> pueden encontrarse en la Wiki de 52°North .</li>
 <li>El desarrollo de esta versión de 52°North SOS fue apoyado por distintos proyectos, organizaciones y personas. Más detalles en  <a class="reference external" href="http://localhost:8080/52nSOS/index">52°North SOS client</a>.</li>
-<li>We would like to thank the Belgian Interregional Environment Agency
-(<a class="reference external" href="https://www.irceline.be/en/">IRCEL - CELINE</a>)
-for providing the demonstration data used in this SOS installation.
-The demo data are published under a
-<a class="reference external" href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a> License.</li>
+<li>Nos gustaría agradecer a la Agencia Ambiental Interregional Belga (<a class="reference external" href="https://www.irceline.be/en/">IRCEL - CELINE</a>) por proporcionar los datos de demostración utilizados en esta instalación de SOS. Estos datos de demostración se publican bajo una licencia <a class="reference external" href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</li>
 </ul>
 <div class="section" id="sos-operations">
 <h3>Operaciones SOS<a class="headerlink" href="#sos-operations" title="Enlazar permanentemente con este título">¶</a></h3>
@@ -125,8 +102,7 @@ The demo data are published under a
 <li>GetObservationById / GetObservation: para la solicitud de observaciones.</li>
 <li>GetResult (desde la especificación de la versión 2.0): para solicitar los datos del sensor.</li>
 <li>GetResultTemplate (desde la especificación de la versión 2.0): para solicitar una plantilla de la estructura del resultado que devolverá una solicitud GetResult.</li>
-<li>GetDataAvailability (from <a class="reference external" href="https://docs.ogc.org/bp/14-004r1/14-004r1.html#38">SOS 2.0 Hydrology Profile - OGC Best Practice</a>): for
-requesting the data availability for certain configurations.</li>
+<li>GetDataAvailability (de <a class="reference external" href="https://docs.ogc.org/bp/14-004r1/14-004r1.html#38">Perfil Hidrológico de SOS 2.0 Hydrology Profile - Mejores prácticas OGC</a>): para solicitar la disponibilidad de datos para ciertas configuraciones.</li>
 </ul>
 <p><strong>Transacciones</strong>:</p>
 <ul class="simple">
@@ -158,7 +134,7 @@ requesting the data availability for certain configurations.</li>
 </div>
 <div class="section" id="details">
 <h2>Detalles<a class="headerlink" href="#details" title="Enlazar permanentemente con este título">¶</a></h2>
-<p><strong>Website:</strong> <a class="reference external" href="https://52north.org/software/software-projects/sos">https://52north.org/software/software-projects/sos</a></p>
+<p><strong>Sitio Web:</strong> <a class="reference external" href="https://52north.org/software/software-projects/sos">https://52north.org/software/software-projects/sos</a></p>
 <p><strong>Licencia:</strong> GNU General Public License (GPL) version 2</p>
 <p><strong>Versión de software:</strong> 4.4.3</p>
 <p><strong>Plataformas compatibles:</strong> GNU/Linux, Mac OSX, MS Windows</p>

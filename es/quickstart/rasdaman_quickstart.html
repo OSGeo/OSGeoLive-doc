@@ -73,17 +73,17 @@
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_incubation.png" class="align-right" src="../../_images/OSGeo_incubation.png" /></a>
 <div class="section" id="rasdaman-quickstart">
 <span id="id1"></span><h1>Inicio Rápido de Rasdaman<a class="headerlink" href="#rasdaman-quickstart" title="Enlazar permanentemente con este título">¶</a></h1>
-<p>Rasdaman es un Gran Motor de Datos para análisis ad-hoc y flexibles de datos  espacio-temporales multidimensionales de sensores, imágenes, simulaciones y estadísticas de tamaño ilimitado. El lenguaje de consulta de Servicio Web de Procesamiento de Cobertura (WCPS) es un estándar de Open Geospatial Consortium (OGC) que permite filtrado y procesamiento de coberturas ráster múltiples dimensiones, tales como sensores, simulación, imagen y estadísticas de datos mediante servicios web. Las consultas WCPS se traducen a lenguaje de interrogación rasdaman, rasql y se ejecutan en rasdaman. Esta guía de inicio rápido muestra cómo tener acceso y manipular un ejemplo de cobertura 2D usando WCPS lenguaje.</p>
+<p>Rasdaman es un Gran Motor de Datos para análisis ad-hoc y flexibles de datos espacio-temporales multi-dimensionales de sensores, imágenes, simulaciones y estadísticas de tamaño ilimitado. El lenguaje de consulta de Servicio Web de Procesamiento de Cobertura (WCPS) es un estándar del Consorcio Geoespacial Abierto (OGC) que permite filtrado y procesamiento de coberturas ráster múltiples dimensiones, tales como sensores, simulación, imagen y estadísticas de datos mediante servicios web. Las consultas WCPS se traducen a lenguaje de interrogación rasdaman, rasql y se ejecutan en rasdaman. Esta guía de inicio rápido muestra cómo tener acceso y manipular un ejemplo de cobertura 2D usando lenguaje WCPS.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
 <li><a class="reference internal" href="#setup" id="id3">Configuración</a></li>
-<li><a class="reference internal" href="#running-wcps-queries" id="id4">Running WCPS queries</a></li>
-<li><a class="reference internal" href="#running-coverage" id="id5">Running coverage</a></li>
-<li><a class="reference internal" href="#access-full-coverage" id="id6">Access full coverage</a></li>
-<li><a class="reference internal" href="#select-a-subset-of-the-coverage" id="id7">Select a subset of the coverage</a></li>
-<li><a class="reference internal" href="#band-extraction-from-the-coverage" id="id8">Band extraction from the coverage</a></li>
-<li><a class="reference internal" href="#arithmetic-operation-extracting-ndvi-of-the-coverage" id="id9">Arithmetic operation: Extracting NDVI of the coverage</a></li>
+<li><a class="reference internal" href="#running-wcps-queries" id="id4">Ejecución de consultas WCPS</a></li>
+<li><a class="reference internal" href="#running-coverage" id="id5">Cobertura de ejecución</a></li>
+<li><a class="reference internal" href="#access-full-coverage" id="id6">Acceder a la cobertura completa</a></li>
+<li><a class="reference internal" href="#select-a-subset-of-the-coverage" id="id7">Seleccione un subconjunto de la cobertura</a></li>
+<li><a class="reference internal" href="#band-extraction-from-the-coverage" id="id8">Extracción de bandas de la cobertura</a></li>
+<li><a class="reference internal" href="#arithmetic-operation-extracting-ndvi-of-the-coverage" id="id9">Operación aritmética: Extracción de NDVI de la cobertura</a></li>
 <li><a class="reference internal" href="#what-next" id="id10">¿Qué sigue?</a></li>
 </ul>
 </div>
@@ -93,7 +93,7 @@
 <p>Después, puede abrir <em>Rasdaman-Earthlook Demo</em> desde el mismo directorio, que lanzará un demostrador local en el navegador. Para obtener un tutorial más práctico, sin embargo, continúe con los siguientes ejemplos de aquí.</p>
 </div>
 <div class="section" id="running-wcps-queries">
-<h2><a class="toc-backref" href="#id4">Running WCPS queries</a><a class="headerlink" href="#running-wcps-queries" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Ejecución de consultas WCPS</a><a class="headerlink" href="#running-wcps-queries" title="Enlazar permanentemente con este título">¶</a></h2>
 <dl class="docutils">
 <dt>Ya sea:</dt>
 <dd><ul class="first last simple">
@@ -104,12 +104,12 @@
 </dl>
 </div>
 <div class="section" id="running-coverage">
-<h2><a class="toc-backref" href="#id5">Running coverage</a><a class="headerlink" href="#running-coverage" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>The example coverage which will be used subsequently is a 6 MB image as below:</p>
+<h2><a class="toc-backref" href="#id5">Cobertura de ejecución</a><a class="headerlink" href="#running-coverage" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La cobertura de ejemplo que se utilizará posteriormente es una imagen de 6 MB como se muestra a continuación:</p>
 <a class="reference internal image-reference" href="../../_images/rasdaman_ndvi1.png"><img alt="../../_images/rasdaman_ndvi1.png" src="../../_images/rasdaman_ndvi1.png" style="width: 479.0px; height: 269.0px;" /></a>
 </div>
 <div class="section" id="access-full-coverage">
-<h2><a class="toc-backref" href="#id6">Access full coverage</a><a class="headerlink" href="#access-full-coverage" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id6">Acceder a la cobertura completa</a><a class="headerlink" href="#access-full-coverage" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>La consulta WCPS para acceder a la cobertura completa es como sigue:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span><span class="n">NIR</span><span class="p">)</span> <span class="k">return</span> <span class="n">encode</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="s2">&quot;png&quot;</span><span class="p">)</span>
 </pre></div>
@@ -117,7 +117,7 @@
 <p>haga click en <a class="reference external" href="http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c,%20%22png%22%29">coverage request</a> para ejecutarlo en el navegador.</p>
 </div>
 <div class="section" id="select-a-subset-of-the-coverage">
-<h2><a class="toc-backref" href="#id7">Select a subset of the coverage</a><a class="headerlink" href="#select-a-subset-of-the-coverage" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id7">Seleccione un subconjunto de la cobertura</a><a class="headerlink" href="#select-a-subset-of-the-coverage" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>La consulta WCPS a un subconjunto de la cobertura es la siguiente:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span><span class="n">NIR</span><span class="p">)</span> <span class="k">return</span> <span class="n">encode</span><span class="p">(</span><span class="n">c</span><span class="p">[</span><span class="n">i</span><span class="p">(</span><span class="mi">0</span><span class="p">:</span><span class="mi">500</span><span class="p">),</span><span class="n">j</span><span class="p">(</span><span class="mi">0</span><span class="p">:</span><span class="mi">500</span><span class="p">)],</span> <span class="s2">&quot;png&quot;</span><span class="p">)</span>
 </pre></div>
@@ -127,7 +127,7 @@
 <a class="reference internal image-reference" href="../../_images/rasdaman_ndvi2.png"><img alt="../../_images/rasdaman_ndvi2.png" src="../../_images/rasdaman_ndvi2.png" style="width: 479.0px; height: 125.25px;" /></a>
 </div>
 <div class="section" id="band-extraction-from-the-coverage">
-<h2><a class="toc-backref" href="#id8">Band extraction from the coverage</a><a class="headerlink" href="#band-extraction-from-the-coverage" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id8">Extracción de bandas de la cobertura</a><a class="headerlink" href="#band-extraction-from-the-coverage" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>La consulta WCPS para accesar a la banda roja de la cobertura es la siguiente:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span><span class="n">NIR</span><span class="p">)</span> <span class="k">return</span> <span class="n">encode</span><span class="p">(</span><span class="n">c</span><span class="o">.</span><span class="n">red</span><span class="p">,</span> <span class="s2">&quot;png&quot;</span><span class="p">)</span>
 </pre></div>
@@ -136,7 +136,7 @@
 <a class="reference internal image-reference" href="../../_images/rasdaman_ndvi3.png"><img alt="../../_images/rasdaman_ndvi3.png" src="../../_images/rasdaman_ndvi3.png" style="width: 479.0px; height: 269.0px;" /></a>
 </div>
 <div class="section" id="arithmetic-operation-extracting-ndvi-of-the-coverage">
-<h2><a class="toc-backref" href="#id9">Arithmetic operation: Extracting NDVI of the coverage</a><a class="headerlink" href="#arithmetic-operation-extracting-ndvi-of-the-coverage" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id9">Operación aritmética: Extracción de NDVI de la cobertura</a><a class="headerlink" href="#arithmetic-operation-extracting-ndvi-of-the-coverage" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>El NDVI (Índice de Vegetación de Diferencia Normalizada) es una medida de la probabilidad de la vegetación en teledetección, es decir, cuanto más cerca esté de +1 un píxel, más probable es que sean plantas. La consulta de WCPS para obtener NDVI de la cobertura es la siguiente:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span> <span class="n">NIR</span> <span class="p">)</span> <span class="k">return</span>
 <span class="n">encode</span><span class="p">(</span>
@@ -152,15 +152,11 @@
 <div class="section" id="what-next">
 <h2><a class="toc-backref" href="#id10">¿Qué sigue?</a><a class="headerlink" href="#what-next" title="Enlazar permanentemente con este título">¶</a></h2>
 <ul class="simple">
-<li>The <a class="reference external" href="https://tutorial.rasdaman.org/">rasdaman tutorial</a> provides a condensed introduction to the concepts behind rasdaman, rasql and the OGC web services support.</li>
-<li>Learn more about the OGC  <a class="reference external" href="https://www.ogc.org/standards/wcps">Web Coverage Processing Service</a> Language standard (which was heavily inspired
-by rasdaman); a good starting point is the
-<a class="reference external" href="https://standards.rasdaman.com/">documentation and tutorials page</a>  and <a class="reference external" href="http://localhost/rasdaman-demo/demo/client/query-sandbox.html">WCPS Query SandBox</a>.</li>
-<li>Interested in coverage data and services in general? Visit OGC’s <a class="reference external" href="https://external.opengeospatial.org/twiki_public/CoveragesDWG/WebHome">Coverages Domain Working Group wiki</a>.</li>
-<li>Explore the <a class="reference external" href="https://doc.rasdaman.org">rasdaman documentation</a> to learn about rasdaman administration, its query language, and data ingestion.</li>
-<li>Go to the <a class="reference external" href="http://localhost/rasdaman-demo">multi-dimensional demo</a> to explore interactive 1-D to 4-D rasdaman demos.
-The small ones are part of OSGeoLive, those utilizing larger sets (beyond this drive’s capacity)
-forward to the <a class="reference external" href="https://standards.rasdaman.com">OGC standards showcase site</a> .</li>
+<li>El tutorial  <a class="reference external" href="https://tutorial.rasdaman.org/">rasdaman</a> proporciona una introducción condensada a los conceptos detrás de rasdaman, rasql y el soporte de los servicios web  de OGC.</li>
+<li>Aprenda más sobre el Lenguage <a class="reference external" href="https://www.ogc.org/standards/wcps">Web Coverage Processing Service</a> OGC estándar (inspirado  en gran medida en rasdaman); un buen punto de partida es la página de <a class="reference external" href="https://standards.rasdaman.com/">documentación y tutoriales</a>  y <a class="reference external" href="http://localhost/rasdaman-demo/demo/client/query-sandbox.html">Consultas WCPS SandBox</a>.</li>
+<li>¿Interesado en cobetura de datos y servicios en general? Visite la <a class="reference external" href="https://external.ogc.org/twiki_public/CoveragesDWG/WebHome">Wiki del Grupo de Trabajo de Dominio de Coberturas de OGC</a>.</li>
+<li>Explore la <a class="reference external" href="https://doc.rasdaman.org">documentación de rasdaman</a> para aprender acerca de la administración de rasdman, su lenguage de consultas y su ingestión de datos.</li>
+<li>Visite la <a class="reference external" href="http://localhost/rasdaman-demo">demo multi-dimensional</a> para explorar los demos interactivos 1-D a 4-D. Los más pequeños son parte de OSGeoLive, aquellos que utilizan conjuntos más grandes (más allá de la capacidad de este disco), avanzan hacia el <a class="reference external" href="https://standards.rasdaman.com">sitio de de normas de OGC</a> .</li>
 </ul>
 </div>
 </div>

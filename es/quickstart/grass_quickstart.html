@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>GRASS GIS Quickstart &#8212; OSGeoLive 13.0 Documentation</title>
+    <title>InicioRápido de GRASS GIS &#8212; OSGeoLive 13.0 Documentation</title>
     <link rel="stylesheet" href="../../_static/overview.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -72,291 +72,132 @@
   <img alt="../../_images/logo_grass.png" class="align-right" src="../../_images/logo_grass.png" />
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <div class="section" id="grass-gis-quickstart">
-<h1>GRASS GIS Quickstart<a class="headerlink" href="#grass-gis-quickstart" title="Enlazar permanentemente con este título">¶</a></h1>
-<p>GRASS GIS is a powerful GIS which lets you visualize, manage, analyse and edit
-geospatial data.</p>
+<h1>InicioRápido de GRASS GIS<a class="headerlink" href="#grass-gis-quickstart" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>GRASS GIS es un poderoso SIG que le permite visualizar, administrar, analizar y editar datos geoespaciales.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#start-grass" id="id1">Start GRASS</a></li>
-<li><a class="reference internal" href="#display-a-map" id="id2">Display a map</a></li>
-<li><a class="reference internal" href="#plot-an-elevation-profile" id="id3">Plot an elevation profile</a></li>
-<li><a class="reference internal" href="#adjust-raster-map-colors" id="id4">Adjust raster map colors</a></li>
-<li><a class="reference internal" href="#create-a-shaded-relief-map" id="id5">Create a shaded relief map</a></li>
-<li><a class="reference internal" href="#add-watersheds-and-streams" id="id6">Add watersheds and streams</a></li>
-<li><a class="reference internal" href="#work-with-vector-modules" id="id7">Work with vector modules</a></li>
-<li><a class="reference internal" href="#adjust-vector-map-colors" id="id8">Adjust vector map colors</a></li>
-<li><a class="reference internal" href="#manage-attributes" id="id9">Manage attributes</a></li>
-<li><a class="reference internal" href="#view-a-3d-visualization" id="id10">View a 3D visualization</a></li>
-<li><a class="reference internal" href="#things-to-try" id="id11">Things to try</a><ul>
+<li><a class="reference internal" href="#start-grass" id="id1">Iniciar GRASS</a></li>
+<li><a class="reference internal" href="#display-a-map" id="id2">Mostrar un mapa</a></li>
+<li><a class="reference internal" href="#plot-an-elevation-profile" id="id3">Trazar un perfil de elevación</a></li>
+<li><a class="reference internal" href="#adjust-raster-map-colors" id="id4">Ajustar colores de mapa ráster</a></li>
+<li><a class="reference internal" href="#create-a-shaded-relief-map" id="id5">Crear un mapa de relieve sombreado</a></li>
+<li><a class="reference internal" href="#add-watersheds-and-streams" id="id6">Añadir cuencas hidrográficas y arroyos</a></li>
+<li><a class="reference internal" href="#work-with-vector-modules" id="id7">Trabajar con módulos vectoriales</a></li>
+<li><a class="reference internal" href="#adjust-vector-map-colors" id="id8">Ajuste de mapa de colores vectoriales</a></li>
+<li><a class="reference internal" href="#manage-attributes" id="id9">Administrar atributos</a></li>
+<li><a class="reference internal" href="#view-a-3d-visualization" id="id10">Ver una visualización 3D</a></li>
+<li><a class="reference internal" href="#things-to-try" id="id11">Cosas para probar</a><ul>
 <li><a class="reference internal" href="#api" id="id12">API</a></li>
-<li><a class="reference internal" href="#command-line" id="id13">Command line</a></li>
+<li><a class="reference internal" href="#command-line" id="id13">Línea de comandos</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#what-next" id="id14">What next?</a></li>
+<li><a class="reference internal" href="#what-next" id="id14">¿Qué sigue?</a></li>
 </ul>
 </div>
 <div class="section" id="start-grass">
-<h2><a class="toc-backref" href="#id1">Start GRASS</a><a class="headerlink" href="#start-grass" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Iniciar GRASS</a><a class="headerlink" href="#start-grass" title="Enlazar permanentemente con este título">¶</a></h2>
 <ol class="arabic simple">
-<li>Click on the GRASS link in the <span class="menuselection">Geospatial ‣ Desktop GIS</span> menu.</li>
+<li>Click en el vínculo de GRASS en el menú <span class="menuselection">Geospatial ‣ Desktop GIS</span>.</li>
 <li>From the «Welcome to GRASS GIS » window, select the nc_basic_spm_grass7 dataset for the location, and «user1» for the mapset</li>
-<li>Click on <span class="guilabel">Start GRASS session</span>.</li>
+<li>Click en <span class="guilabel">Iniciar sesión en GRASS</span>.</li>
 </ol>
 <a class="reference internal image-reference" href="../../_images/grass-startup.png"><img alt="screenshot" class="align-right" src="../../_images/grass-startup.png" style="width: 297.0px; height: 300.0px;" /></a>
-<p>This will launch GRASS into the <a class="reference external" href="../../grass/wxGUI.html">graphical user interface (written in wxPython)</a>.</p>
+<p>Esto lanzará GRASS en la <a class="reference external" href="../../grass/wxGUI.html">interfaz gráfica de usuario (escrita en wxPython)</a>.</p>
 <div class="admonition tip">
 <p class="first admonition-title">Truco</p>
-<p class="last">If you are on a netbook with a very small display (800x600 resolution)
-the startup screen might get a little scrunched and the [<em>Start GRASS</em>]
-button hidden behind the location and mapset lists. If this happens to
-you the solution is to drag the corner of the window to make it a little
-bigger. You might have to move the window up past the top of the screen
-a bit to get the room (hold down the Alt key and left-click drag the
-window to move it).</p>
+<p class="last">Si está en una netbook con una pantalla muy pequeña (resolución de 800x600), la pantalla de inicio puede quedar un poco arrugada y el botón [<em>Iniciar GRASS</em>] oculto detrás de las listas de ubicación y mapas. Si esto le sucede, la solución es arrastrar la esquina de la ventana para que sea un poco más grande. Es posible que tenga que mover la ventana un poco más arriba de la parte superior de la pantalla para obtener la habitación (mantenga presionada la tecla Alt y haga click izquierdo arrastrando la ventana para moverla).</p>
 </div>
 </div>
 <div class="section" id="display-a-map">
-<h2><a class="toc-backref" href="#id2">Display a map</a><a class="headerlink" href="#display-a-map" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Mostrar un mapa</a><a class="headerlink" href="#display-a-map" title="Enlazar permanentemente con este título">¶</a></h2>
 <a class="reference internal image-reference" href="../../_images/grass-layerman.png"><img alt="screenshot" class="align-left" src="../../_images/grass-layerman.png" style="width: 384.0px; height: 300.0px;" /></a>
-<p>Once inside select for display a raster map layer such as «<cite>elevation</cite>» from
-the PERMANENT mapset.</p>
+<p>Una vez dentro, seleccione para mostrar una capa de mapa ráster como «<cite>elevación</cite>» del conjunto de mapas PERMANENTE.</p>
 <ol class="arabic simple">
-<li>Go into the <cite>GIS Layer Manager</cite> window.</li>
-<li>Click on the checkerboard toolbar button with a «+» on it.</li>
-<li>Select the map name you want from the «<em>map to be displayed</em>» pull-down list, and click <span class="guilabel">Ok</span>.</li>
-<li>Click on the toolbar button with a «+» and a bent poly-line which looks a bit like a «V».</li>
-<li>Select the «<cite>roadsmajor</cite>» vector layer from the PERMANENT mapset, and click <span class="guilabel">Ok</span>.</li>
+<li>Vaya a la ventana “Administrador de Capas SIG”.</li>
+<li>Click en el botón de la barra de herramientas del tablero de ajedrez con un «+» en él.</li>
+<li>Seleccione el nombre del mapa que desea en la lista desplegable «<em>mapa que se mostrará</em>» y haga click en <span class="guilabel">Ok</span>.</li>
+<li>Click en el botón de la barra de herramientas con un «+» y una polilínea doblada que se parece un poco a una «V».</li>
+<li>Seleccione la capa vectorial «<cite>roadsmajor</cite>» del conjunto de mapas PERMANENTE y haga click en <span class="guilabel">O</span>”.</li>
 </ol>
-<p>If you need to, right click on the raster map layer and choose «Zoom to selected map(s)».</p>
-<p>You should now see the maps displayed.</p>
+<p>Si lo necesita, haga click con el botón derecho en la capa del mapa ráster y elija «Acercamiento al (los) mapas seleccionados».</p>
+<p>Ahora debería ver los mapas que se muestran.</p>
 </div>
 <div class="section" id="plot-an-elevation-profile">
-<h2><a class="toc-backref" href="#id3">Plot an elevation profile</a><a class="headerlink" href="#plot-an-elevation-profile" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Trazar un perfil de elevación</a><a class="headerlink" href="#plot-an-elevation-profile" title="Enlazar permanentemente con este título">¶</a></h2>
 <a class="reference internal image-reference" href="../../_images/grass-profile.png"><img alt="screenshot" class="align-right" src="../../_images/grass-profile.png" style="width: 344.0px; height: 199.5px;" /></a>
-<p>Back in the <cite>GIS Layer Manager</cite> window click on the <cite>elevation</cite> raster
-map name to select it. Then in the <cite>Map Display</cite> window, to the right of the
-zooming buttons on the <cite>Map Display</cite> toolbar is an icon with a line graph
-and checkerboard on it. Click on that and select <strong>Profile surface map</strong>.
-The <cite>&#64;PERMANENT</cite> mapset is automatically searched.
-If the map isn’t automatically listed, again pick the <cite>elevation</cite> map
-as the raster layer and press <span class="guilabel">Ok</span>. In the <cite>GRASS Profile Analysis
-Tool</cite> window select the second button from the left, it allows
-you to set out the profile line, click it then mark out a few points on
-the <cite>Map Display</cite> canvas. When done go back to the Profile window.
-Click on the I/O button of the far right to close the profile window.</p>
+<p>De vuelta en la ventana del <cite>Administrador de Capas SIG</cite>, haga click en el nombre del mapa ráster de <cite>elevación</cite> para seleccionarlo. Luego, en la ventana de <cite>Despliegue del Mapa</cite> , a la derecha de los botones de acercamiento en la barra de herramientas de <cite>Despliegue del Mapa</cite>, hay un icono con un gráfico de líneas y un tablero de ajedrez.
+Haga click ahí y seleccione <strong>Perfil de superficie de mapa</strong>. El conjunto de mapas <cite>&#64;PERMANENTE</cite> se busca automáticamente. Si el mapa no aparece automáticamente en la lista, vuelva a elegir el mapa de <cite>elevación</cite> como la capa ráster y presione <span class="guilabel">Aceptar</span> . En la ventana <cite>Herramienta de Análisis de Perfil de GRASS</cite> , seleccione el segundo botón de la izquierda, le permite establecer la línea de perfil, haga click en ella y marque algunos puntos en el lienzo de <cite>Despliegue del Mapa</cite>. Cuando termine, regrese a la ventana Perfil. Haga click en el botón de I/O en el extremo derecho para cerrar la ventana de perfil.</p>
 </div>
 <div class="section" id="adjust-raster-map-colors">
-<h2><a class="toc-backref" href="#id4">Adjust raster map colors</a><a class="headerlink" href="#adjust-raster-map-colors" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Now you’ll see your new raster map added to the layer list along with
-the elevation raster map, except this time it will be in your «user1»
-working mapset. You might un-tick the <cite>elevation</cite> layer’s visibility check-box
-now so that the two raster layers don’t draw over the top of each other. Click
-on the checkbox to view your new map if it doesn’t render automatically.
-The colors might not be as you’d like so let’s change them. With the
-fractal DEM selected in the layer list, right click on the this raster map
-layer name and choose «Set color table». As an alternative, you can manage
-color tables in the <cite>Raster</cite> menu select <span class="menuselection">Manage colors ‣ Color tables</span>.
-In the “Define” tab click on the pull-down list for the «Name of color
-table» option, and pick one from the list. «terrain» or «srtm» are nice
-choices. Once done click the [<em>Run</em>] button and close the <em>r.colors</em> dialog
-window. The colors should then update automatically.</p>
+<h2><a class="toc-backref" href="#id4">Ajustar colores de mapa ráster</a><a class="headerlink" href="#adjust-raster-map-colors" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Ahora verá su nuevo mapa ráster agregado a la lista de capas junto con el mapa ráster de elevación, excepto que esta vez estará en su conjunto de mapas de trabajo «usuario1». Puede desmarcar la casilla de verificación de visibilidad de la capa de <cite>elevación</cite> ahora para que las dos capas ráster no se dibujen una encima de la otra. Haga click en la casilla de verificación para ver su nuevo mapa si no se procesa automáticamente. Los colores pueden no ser los que desea, así que vamos a cambiarlos. Con el DEM fractal seleccionado en la lista de capas, haga click derecho en el nombre de esta capa de mapa ráster y elija «Establecer tabla de colores». Como alternativa, puede administrar tablas de colores en el menú <cite>Ráster</cite>, seleccione <span class="menuselection">Administrar colores ‣ Tablas de colores</span>. En la pestaña “Definir”, haga clic en la lista desplegable para la opción «Nombre de la tabla de colores» y elija uno de la lista. «Terreno» o «srtm» son buenas opciones. Una vez hecho esto, haga click en el botón [<em>Ejecutar</em>] y cierre la ventana de diálogo <em>r.colors</em>. Los colores deberían actualizarse automáticamente.</p>
 </div>
 <div class="section" id="create-a-shaded-relief-map">
-<h2><a class="toc-backref" href="#id5">Create a shaded relief map</a><a class="headerlink" href="#create-a-shaded-relief-map" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Crear un mapa de relieve sombreado</a><a class="headerlink" href="#create-a-shaded-relief-map" title="Enlazar permanentemente con este título">¶</a></h2>
 <a class="reference internal image-reference" href="../../_images/grass-shadedrelief.png"><img alt="screenshot" class="align-right" src="../../_images/grass-shadedrelief.png" style="width: 338.5px; height: 300.0px;" /></a>
-<p>Next we’ll create a shaded relief map of the «elevation» layer we saw
-earlier. Start by verifying that the <em>computational region</em> is set match
-the raster map of interest, «<cite>elevation</cite>» in the PERMANENT mapset. To
-do this, make sure it is loaded into the layer list of the main <cite>GIS Layer
-Manager</cite> window, right click on its name and select «Set computation region
-from selected map(s)». You will notice the Layer Manage tab will switch to
-a text console to display the new settings. Click on the «<em>Layers</em>» tab
-at the bottom to get back to the layer list.</p>
-<p>In the <cite>Raster</cite> menu select <span class="menuselection">Terrain analysis ‣ Compute
-shaded relief</span> (Terrain analysis is about half way down the <cite>Raster</cite> menu),
-and the module control dialog will appear. Select as the input name the
-«elevation» <em>&#64;PERMANENT</em> map and as the output map you may specify «shaded_relief».
-Once done click [<em>Run</em>]. Now you should find the new <cite>shaded_relief</cite> <em>&#64;user1</em>
-map added into your layer list. Un-tick the other raster layers to only
-display the newly created shaded relief raster layer.</p>
+<p>A continuación, crearemos un mapa de relieve sombreado de la capa de «elevación» que vimos anteriormente. Comience por verificar que la <em>región computacional</em> está configurada para que coincida con el mapa ráster de interés, «<cite>elevación</cite>» en el conjunto de mapas PERMANENTES. Para hacer esto, asegúrese de que esté cargado en la lista de capas de la ventana principal de <cite>GIS Layer Manager</cite>, haga click derecho en su nombre y seleccione «Establecer región de cálculo de mapa(s) seleccionados». Notará que la pestaña Layer Manage cambiará a una consola de texto para mostrar la nueva configuración. Haga click en la pestaña «<em>Capas</em>» en la parte inferior para volver a la lista de capas.</p>
+<p>En el menú Ráster , seleccione <span class="menuselection">Análisis de terreno ‣ Cálculo de relieve sombreado</span> (el análisis de terreno está aproximadamente a la mitad del menú <cite>Ráster</cite> ) y aparecerá el cuadro de diálogo de control del módulo. Seleccione como nombre de entrada el mapa «elevación» <em>&#64;PERMANENT</em> y como mapa de salida puede especificar «relieve_sombreado». Una vez hecho esto, haga clic en [<em>Ejecutar</em>]. Ahora debería encontrar el nuevo mapa <cite>relieve_sombreado</cite> <em>&#64;user1</em> agregado en su lista de capas. Desmarca las otras capas ráster para mostrar solo la capa de relieve sombreado recién creada.</p>
 </div>
 <div class="section" id="add-watersheds-and-streams">
-<h2><a class="toc-backref" href="#id6">Add watersheds and streams</a><a class="headerlink" href="#add-watersheds-and-streams" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Once again select the <cite>elevation</cite> <em>&#64;PERMANENT</em> map. If you changed the
-region since the last step, again right click on the layer name and click
-on <span class="menuselection">Set computational region from selected map(s)</span> from the
-context menu in order to consider the full map for the watsershed calculation.</p>
+<h2><a class="toc-backref" href="#id6">Añadir cuencas hidrográficas y arroyos</a><a class="headerlink" href="#add-watersheds-and-streams" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Una vez más, seleccione el mapa de <cite>elevación</cite> <em>&#64;PERMANENTE</em> . Si cambió la región desde el último paso, nuevamente haga click derecho en el nombre de la capa y seleccione <span class="menuselection">establecer región computacional del (los) mapas  seleccionados</span> del menú contextual para considerar el mapa completo para el cálculo de la cuenca hidrográfica.</p>
 <div class="admonition note">
 <p class="first admonition-title">Nota</p>
-<p class="last">The wxGUI map display’s view and zoom is independent and does not affect processing calculations. Check the computational region at any time with <span class="menuselection">Settings ‣ Region ‣ Display Region</span>; this is of fundamental importance to any raster grid operations. Raster maps of differing bounds and resolution will be resampled to the current computational region on-the-fly.</p>
+<p class="last">La vista y el zoom de la visualización del mapa wxGUI es independiente y no afecta los cálculos de procesamiento. Verifique la región computacional en cualquier momento en <span class="menuselection">Ajustes ‣ Región ‣ Desplegar Región</span>; Esto es de importancia fundamental para cualquier operación de cuadrícula ráster. Los mapas ráster de diferentes límites y resolución se volverán a muestrear en la región computacional actual sobre la marcha.</p>
 </div>
-<p>Next, in the <cite>Raster</cite> menu
-choose <span class="menuselection">Hydrologic modeling ‣ Watershed analysis</span>. This
-will open the <code class="docutils literal"><span class="pre">r.watershed</span></code> module. Select the <cite>elevation</cite> layer as your
-input map, in the same “Inputs” tab set the «Minimum size of the exterior
-watershed basin» <em>threshold</em> to
-10000 cells, then in the “Outputs” tab enter «elev.basins» for the «Name for
-basins raster map» <em>basins</em> option and «elev.streams» for the «Name for
-output stream segments raster map» <em>streams</em> option just below it. Then click [<em>Run</em>].</p>
-<p>Back in the <cite>GIS Layer Manager</cite> window check that those two new raster maps are
-in the layer list and make sure that the basins map is ticked for display in
-the box to the left of the layer name. You might untick the streams map for now.
-Next, right click on the «<cite>elev.basins</cite>» raster map layer name and
-select «<cite>Change opacity level</cite>». Set it to about 50% which will re-render the
-Map Display. Drag a map layer (such as the earlier created shaded relief map)
-to lower down in the layer list if you wish for it to be drawn behind the
-watershed basins map layer, and make sure to tick its visibility box to
-view it as a backdrop.</p>
+<p>A continuación, en el menú <cite>Ráster</cite>, elija <span class="menuselection">Modelado hidrológico ‣ Análisis de cuencas</span> . Esto abrirá el módulo <code class="docutils literal"><span class="pre">r.watershed</span></code>. Seleccione la capa de <cite>elevación</cite> como su mapa de entrada, en la misma pestaña “Entradas” establezca el umbral «Tamaño mínimo de la cuenca hidrográfica exterior» <em>limitado</em> a 10000 celdas, luego en la pestaña “Salidas” ingrese «elev.cuencas» para el “Nombre para mapa ráster de cuencas» en la opción <em>cuencas</em> y «elev.corrientes» para la opción de «Nombre de segmentos de corrientes de salida en el mapa ráster» en la opción <em>corrientes</em> justo debajo de ella. Luego haga click en [<em>Ejecutar</em>].</p>
+<p>De vuelta en la ventana <cite>Administrador de Capas GIS</cite> , verifique que esos dos nuevos mapas ráster estén en la lista de capas y asegúrese de que el mapa de cuencas esté marcado para desplegar mostrar en el cuadro a la izquierda del nombre de la capa. Puede desmarcar la corrientes del mapa de por ahora. A continuación, haga click derecho en el nombre de la capa del mapa ráster «<cite>elev.cuencas</cite>» y seleccione «<cite>Cambiar nivel de opacidad</cite>». Ajústelo a aproximadamente 50%, lo que volverá a renderizar la visualización del mapa. Arrastre una capa de mapa (como el mapa de relieve sombreado creado anteriormente) para bajar en la lista de capas si desea que se dibuje detrás de la capa de mapa de cuencas hidrográficas, y asegúrese de marcar su casilla de visibilidad para verlo como fondo .</p>
 <a class="reference internal image-reference" href="../../_images/grass-watersheds.png"><img alt="screenshot" class="align-left" src="../../_images/grass-watersheds.png" style="width: 352.5px; height: 300.0px;" /></a>
-<p>In the <cite>GIS Layer Manager</cite> window click on the <cite>Add various overlays</cite> button
-and <cite>Add grid layer</cite>. For size of grid put 5000 (in map units, here meter).
-Once done press <span class="guilabel">OK</span>. Optionally you may change the colors for
-the grid lines and the text labels.</p>
-<p>To add a scalebar go to the <cite>Map Display</cite> window and press the «Add
-map elements» button to the right of where you selected the Profile tool
-earlier and select «Show/hide scalebar» then click <span class="guilabel">Ok</span>.
-A scalebar will appear in the top left of the map canvas.
-Drag it down to the bottom right.</p>
-<p>Now you may be thinking to yourself that these fonts are a bit bare.
-That’s easily fixed in the <cite>GIS Layer Manager</cite> menus
-open <span class="menuselection">Settings ‣ Preferences</span> and in the Map Display
-tab click the [<em>Set font</em>] button, choose
-one (for example DajVu Sans Bold), and then [<em>Save</em>] or [<em>Save for this session only</em>]
-in the Preferences window. You will
-have to do a full re-render to see the change so click on the re-render button
-the first in the <cite>Map Display</cite> window. The fonts will now be much prettier.</p>
+<p>En la ventana <cite>Administrador de Capas GIS</cite>, haga click en <cite>Agregar varias superposiciones</cite> y en <cite>Agregar capa de cuadrícula</cite> el tamaño de la cuadrícula ponga 5000 (en unidades de mapa, aquí metro). Una vez hecho esto, presione <span class="guilabel">Aceptar</span>. Opcionalmente, puede cambiar los colores de las líneas de cuadrícula y las etiquetas de texto.</p>
+<p>Para agregar una barra de escala, vaya a la ventana <cite>Despliegue del mapa</cite> y presione el botón «Agregar elementos del mapa» a la derecha de donde seleccionó la herramienta Perfil anteriormente y seleccione «Mostrar/ocultar barra de escala» y luego haga click en <span class="guilabel">Aceptar</span> . Aparecerá una barra de escala en la esquina superior izquierda del lienzo del mapa. Arrástrelo hacia la parte inferior derecha.</p>
+<p>Ahora puede estar pensando que estas fuentes están un poco desnudas. Eso se soluciona fácilmente en los menús del <cite>Administrador de Capas SIG</cite>, abra <span class="menuselection">Ajustes ‣ Preferencias</span> y en la pestaña Despliegue de Mapa, haga click en el botón [<em>Establecer fuente</em>], elija una (por ejemplo, DajVu Sans Bold) y luego [<em>Guardar</em>] o [<em>Guardar solo para esta sesión</em>] en la ventana de Preferencias. Tendrá que hacer un re-renderizado completo para ver el cambio, así que haga click en el botón de re-renderizado primero en la ventana de <cite>Desplegar Mapa</cite> . Las fuentes ahora serán mucho más bonitas.</p>
 </div>
 <div class="section" id="work-with-vector-modules">
-<h2><a class="toc-backref" href="#id7">Work with vector modules</a><a class="headerlink" href="#work-with-vector-modules" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>The above tasks have only covered a few raster modules. Don’t let this
-give you the idea that GRASS GIS is just for raster maps – the vector engine
-and modules are every bit as full-featured as the raster ones. GRASS GIS
-maintains a fully topological vector engine which allows all sorts
-of very powerful analyses.</p>
+<h2><a class="toc-backref" href="#id7">Trabajar con módulos vectoriales</a><a class="headerlink" href="#work-with-vector-modules" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Las tareas anteriores solo han cubierto algunos módulos ráster. No permita que esto le dé la idea de que GRASS GIS es solo para mapas ráster – El motor y los módulos vectoriales son tan completos como los ráster. GRASS GIS mantiene un motor vectorial completamente topológico que permite todo tipo de análisis muy potentes.</p>
 <a class="reference internal image-reference" href="../../_images/grass_screenshot.png"><img alt="screenshot" class="align-right" src="../../_images/grass_screenshot.png" style="width: 512.0px; height: 384.0px;" /></a>
-<p>Continuing with the watershed basins created above, next we’ll convert
-them into vector polygons. In the <cite>Raster</cite> menu select <span class="menuselection">Map type conversions ‣ Raster to vector</span>.
-In the <cite>r.to.vect</cite> dialog that opens make sure that <code class="docutils literal"><span class="pre">elev.basins</span> <span class="pre">&#64;user1</span></code> is
-selected for the input map, give a name for the output map like <code class="docutils literal"><span class="pre">basins_areas</span></code>
-(vector map names must be SQL compliant, hence not all characters are allowed),
-and change «Output feature type» to <cite>area</cite>. In the <cite>Attributes</cite> tab tick
-the box to use raster values as category numbers (i.e., the IDs),
-since these will match the values in our stream segment raster map created
-earlier. Then click on [<em>Run</em>]. Once the new vector map is displayed, you
-might right click on it in the <cite>Layer Manager</cite> list and change its opacity
-level to 50%.</p>
+<p>Continuando con las cuencas hidrográficas creadas anteriormente, a continuación las convertiremos en polígonos vectoriales. En el menú <cite>Ráster</cite>, seleccione <span class="menuselection">Conversiones de tipo de mapa ‣ Ráster a vectores</span>. En el cuadro de diálogo <cite>r.to.vect</cite> que se abre, asegúrese de que <code class="docutils literal"><span class="pre">elev.basins</span> <span class="pre">&#64;user1</span></code> esté seleccionado para el mapa de entrada: nombre el mapa de salida, por ejemplo <code class="docutils literal"><span class="pre">cuencas_áreas</span></code> (los nombres de mapas vectoriales deben ser compatibles con SQL, por lo tanto, no se permiten todos los caracteres). Ccambie «Tipo de característica de salida» a <cite>área</cite> . En la pestaña <cite>Atributos</cite>, marque la casilla para usar valores ráster como números de categoría (es decir, los ID), ya que estos coincidirán con los valores en nuestro mapa ráster de segmentos de corrientes creado anteriormente. Luego haga click en [<em>Ejecutar</em>]. Una vez que se muestra el nuevo mapa vectorial, puede hacer click derecho sobre él en la lista del <cite>Administrador de Capas</cite> y cambiar su nivel de opacidad al 50%.</p>
 </div>
 <div class="section" id="adjust-vector-map-colors">
-<h2><a class="toc-backref" href="#id8">Adjust vector map colors</a><a class="headerlink" href="#adjust-vector-map-colors" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>As we did earlier with a raster map we will change the color table of the
-new watershed basins vector map. With the <code class="docutils literal"><span class="pre">basins_areas</span></code> selected in the
-layer list, right click on the this vector map layer name and choose
-«Set color table». In the “Define” tab click on the pull-down list for the
-«Name of color table» option, and pick for example «bcyr» (blue-cyan-yellow-red)
-from the list. Once done click the [<em>Run</em>] button and close the <em>v.colors</em>
-dialog window. You may need to re-draw the map to see the colorized vector
-map.</p>
+<h2><a class="toc-backref" href="#id8">Ajuste de mapa de colores vectoriales</a><a class="headerlink" href="#adjust-vector-map-colors" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Como hicimos anteriormente con un mapa ráster, cambiaremos la tabla de colores del nuevo mapa vectorial de cuencas hidrográficas. Con la capa <code class="docutils literal"><span class="pre">cuencas_areas</span></code> seleccionada en la lista de capas, haga click derecho en el nombre de la capa de este mapa vectorial y seleccione «Establecer tabla de colores». En la pestaña “Definir”, haga click en la lista desplegable para la opción “Nombre de la tabla de colores” y seleccione, por ejemplo, «bcyr» (azul-cian-amarillo-rojo) de la lista. Una vez hecho esto, haga clic en el botón [<em>Ejecutar</em>] y cierre la ventana de diálogo <em>v.colores</em>. Es posible que deba volver a dibujar el mapa para ver el mapa vectorial coloreado.</p>
 <a class="reference internal image-reference" href="../../_images/grass-vector-basins.png"><img alt="screenshot" class="align-right" src="../../_images/grass-vector-basins.png" style="width: 352.5px; height: 300.0px;" /></a>
 </div>
 <div class="section" id="manage-attributes">
-<h2><a class="toc-backref" href="#id9">Manage attributes</a><a class="headerlink" href="#manage-attributes" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Next we’ll add some attributes to those new areas, containing the average
-elevation in each basin. In the Vector menu select <span class="menuselection">Update attributes ‣ Update area attributes from raster</span>.
-Use <code class="docutils literal"><span class="pre">basin_areas</span></code> as the vector polygon map, and select the <code class="docutils literal"><span class="pre">elevation</span></code>
-raster map to calculate the statistics from; set the the «Column prefix for
-new attribute columns» to <code class="docutils literal"><span class="pre">elev</span></code>, and click [<em>Run</em>]; then close the dialog when
-it is finished. You can query the values in the <cite>Map Display</cite> window using
-the fourth icon from the left and after verifying that the vector-areas map
-is selected in the <cite>Layer List</cite>, clicking on a vector area in the map canvas.</p>
-<p>You can now re-colorize the areas based on the average elevation values using the
-<code class="docutils literal"><span class="pre">v.colors</span></code> module. In the Vector menu select <span class="menuselection">Manage colors ‣ Color tables</span>.
-Select <code class="docutils literal"><span class="pre">basin_areas</span></code> for the input vector map, as «Source value» select
-<code class="docutils literal"><span class="pre">attr</span></code> instead of <code class="docutils literal"><span class="pre">cat</span></code>. Then, in the «Define» tab choose the <code class="docutils literal"><span class="pre">elev_average</span></code>
-attribute column for the column containing the numeric range. The colors we
-want to copy from the <cite>elevation</cite> raster map, so we select it as the name for
-«Raster map from which to copy color table». After clicking [<em>Run</em>] you
-need to refresh the map display (first icon from left) to see the updated
-basins map.</p>
-<p>Now let’s look at the attribute table and SQL builder in more detail. In the
-<cite>Layer Manager</cite> click the table icon («Show attribute data for selected vector
-map»), it is second from the left on the bottom row. This will open a view
-of the database table attached to the selected vector map. For now we’ll just
-do a <em>Simple</em> database query to find watershed basins without a lot of variation
-in them. Where it says <code class="docutils literal"><span class="pre">SELECT</span> <span class="pre">*</span> <span class="pre">FROM</span> <span class="pre">basin_areas</span> <span class="pre">WHERE</span></code> pick <code class="docutils literal"><span class="pre">elev_stddev</span></code>
-from the pull down list for the standard deviation statistic, then select <code class="docutils literal"><span class="pre">&lt;</span></code>
-from the relation list and in the text box to its right enter <code class="docutils literal"><span class="pre">&lt;</span> <span class="pre">50</span></code> and
-click [<em>Apply</em>]. You’ll notice the
-number of loaded records in the information bar along the bottom of the window
-has shrunk, and that all of the rows with large values for standard deviation
-(std. dev.) are now gone from the displayed table. Right-click on the table data
-and choose <code class="docutils literal"><span class="pre">Select</span> <span class="pre">all</span></code>. Again right-click on the table data and this time
-choose <code class="docutils literal"><span class="pre">Highlight</span> <span class="pre">selected</span> <span class="pre">features</span></code>. You should see e.g. alluvial flood basins
-and mesas show up in the <code class="docutils literal"><span class="pre">Map</span> <span class="pre">Display</span></code>.</p>
+<h2><a class="toc-backref" href="#id9">Administrar atributos</a><a class="headerlink" href="#manage-attributes" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>A continuación, agregaremos algunos atributos a esas nuevas áreas, que contienen la elevación promedio en cada cuenca. En el menú Vector, seleccione <span class="menuselection">Actualizar atributos ‣ Actualizar atributos de área desde ráster</span>. Use <code class="docutils literal"><span class="pre">cuencas_áreas</span></code> como el mapa poligonal vectorial y seleccione el mapa ráster de <code class="docutils literal"><span class="pre">elevación</span></code> para calcular las estadísticas; establezca el «Prefijo de columna para nuevas columnas de atributos» en <code class="docutils literal"><span class="pre">elev</span></code>, y haga click en [<em>Ejecutar</em>]; luego cierre el cuadro de diálogo cuando haya terminado. Puede consultar los valores en la ventana de <cite>Despliegue del Mapa</cite> utilizando el cuarto icono de la izquierda y después de verificar que el mapa de áreas-vectoriales está seleccionado en la <cite>Lista de capas</cite>, haciendo click en un área vectorial en el lienzo del mapa.</p>
+<p>Ahora puede cambiar el color de las áreas según los valores de elevación promedio utilizando el módulo <code class="docutils literal"><span class="pre">v.colores</span></code>. En el menú Vector, seleccione <span class="menuselection">Administrar colores ‣ Tablas de color</span>. Seleccione <code class="docutils literal"><span class="pre">cuencas_áreas</span></code> para el mapa vectorial de entrada, como «Valor de origen» seleccione <code class="docutils literal"><span class="pre">attr</span></code> lugar de <code class="docutils literal"><span class="pre">cat</span></code>. Luego, en la pestaña «Definir», elija la columna de atributo <code class="docutils literal"><span class="pre">elev_promedio</span></code> para la columna que contiene el rango numérico. Los colores que queremos copiar del mapa ráster de <cite>elevación</cite>, por lo que lo seleccionamos como el nombre de «Mapa ráster desde el que copiar la tabla de colores». Después de hacer click en [<em>Ejecutar</em>], debe actualizar la visualización del mapa (primer icono de la izquierda) para ver el mapa actualizado de las cuencas.</p>
+<p>Ahora veamos la tabla de atributos y el generador de SQL con más detalle. En el <cite>Administrador de Capas</cite>, haga click en el ícono de la tabla («Mostrar datos de atributos para el mapa vectorial seleccionado»), es el segundo desde la izquierda en la fila inferior. Esto abrirá una vista de la tabla de la base de datos adjunta al mapa vectorial seleccionado. Por ahora solo haremos una consulta de base de datos <em>Simple</em> para encontrar cuencas hidrográficas sin mucha variación en ellas. Donde dice <code class="docutils literal"><span class="pre">SELECCIONAR</span> <span class="pre">*</span> <span class="pre">DESDE</span> <span class="pre">cuencas_areas</span> <span class="pre">DONDE</span></code> elija <code class="docutils literal"><span class="pre">elev_stddev</span></code> de la lista desplegable para la estadística de desviación estándar, luego seleccione <code class="docutils literal"><span class="pre">&lt;</span></code> de la lista de relaciones y en el cuadro de texto a su derecha ingrese <code class="docutils literal"><span class="pre">&lt;</span> <span class="pre">50</span></code> y haga clicK en [<em>Aplicar</em>]. Notará que el número de registros cargados en la barra de información en la parte inferior de la ventana se ha reducido, y que todas las filas con valores grandes para la desviación estándar (std. dev.) ahora han desaparecido de la tabla mostrada. Haga click derecho en los datos de la tabla y elija <code class="docutils literal"><span class="pre">Seleccionar</span> <span class="pre">todo</span></code> . De nuevo, haga click derecho en los datos de la tabla y esta vez elija <code class="docutils literal"><span class="pre">Resaltar</span> <span class="pre">características</span> <span class="pre">seleccionadas</span></code>. Debería ver, por ejemplo, cuencas de inundación aluviales y mesetas en el <code class="docutils literal"><span class="pre">Despliegue</span> <span class="pre">del</span> <span class="pre">Mapa</span></code>.</p>
 </div>
 <div class="section" id="view-a-3d-visualization">
-<h2><a class="toc-backref" href="#id10">View a 3D visualization</a><a class="headerlink" href="#view-a-3d-visualization" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id10">Ver una visualización 3D</a><a class="headerlink" href="#view-a-3d-visualization" title="Enlazar permanentemente con este título">¶</a></h2>
 <a class="reference internal image-reference" href="../../_images/grass-nviz.png"><img alt="screenshot" class="align-right" src="../../_images/grass-nviz.png" style="width: 512.0px; height: 234.5px;" /></a>
-<p>In order to start the 3D visualization suite, select the <cite>elevation</cite> map
-as the raster elevation in the <cite>Layer list</cite> and additionally highlight the
-entry, then select in the <cite>Map Display</cite> window the «3D view» (at the right
-end of the toolbar). Once the 3D display interface loads, you will see
-several tabs for the display control of the 3D view.
-Next select the «Data» tab and set the fine resolution to «1» (the lower
-the value, the finer the resolution), then move the positioning puck and
-height slider on the «View» tab around to get different views.</p>
-<p>To drape maps, satellite or aerial imagery over the top of the DEM, in the
-«Data» tab select as name for the <strong>Surface Attributes</strong> map the overlay
-image «<cite>landuse</cite>» in the PERMANENT mapset is a good choice. The new view
-is rendered immediately.
-Since the area is relatively flat, you can go back to the «View» tab and
-increase the Z exaggeration («z-Exag»).</p>
-<p>For easy navigation in the 3D view, switch on the «Rotate 3D scene» in
-the map display toolbar, then use the mouse to move the view around.</p>
+<p>Para iniciar el conjunto de visualización 3D, seleccione el mapa de <cite>elevación</cite> como la elevación ráster en la <cite>Lista de Capas</cite> y, además, resalte la entrada, luego seleccione en la ventana de <cite>Despliegue del Mapa</cite> la «vista 3D» (en el extremo derecho de la barra de herramientas). Una vez que se carga la interfaz de visualización en 3D, verá varias pestañas para el control de visualización de la vista en 3D. Luego seleccione la pestaña «Datos» y establezca la resolución fina en «1» (cuanto menor sea el valor, más fina será la resolución), luego mueva el disco de posicionamiento y el control deslizante de altura en la pestaña «Vista» para obtener diferentes vistas.</p>
+<p>Para colocar mapas, imágenes satelitales o aéreas sobre la parte superior del DEM, en la pestaña «Datos», seleccione como nombre para el mapa de <strong>Atributos de Superficie</strong>, la imagen de superposición «<cite>landuse</cite>» en el conjunto de mapas PERMANENTE es una buena opción. La nueva vista se renderizada de inmediato. Como el área es relativamente plana, puede volver a la pestaña «Ver» y aumentar la exageración Z («z-Exag»).</p>
+<p>Para una fácil navegación en la vista 3D, active la opción «Girar escena 3D» en la barra de herramientas de visualización del mapa, luego use el mouse para mover la vista.</p>
 </div>
 <div class="section" id="things-to-try">
-<h2><a class="toc-backref" href="#id11">Things to try</a><a class="headerlink" href="#things-to-try" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>While not covered here, you may like to experiment with the
-Cartographic Composer and object-oriented Graphical Modelling Tool (offers
-export to Python). You’ll find icons to launch them on the lower row of
-icons in the <cite>Layer Manager</cite> window. Further details can be found in
-the <a class="reference external" href="https://grass.osgeo.org/grass78/manuals/wxGUI.html">wxGUI</a> help pages.</p>
+<h2><a class="toc-backref" href="#id11">Cosas para probar</a><a class="headerlink" href="#things-to-try" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Si bien no se trata aquí, es posible que desee experimentar con el Compositor Cartográfico y la Herramienta de Modelado Gráfico orientados a objetos (ofrece exportación a Python); encontrará íconos para iniciarlos en la fila inferior de iconos en la ventana del <cite>Administrador de Capas</cite> . Se pueden encontrar más detalles en las páginas de ayuda de <a class="reference external" href="https://grass.osgeo.org/grass78/manuals/wxGUI.html">wxGUI</a> .</p>
 <div class="section" id="api">
 <h3><a class="toc-backref" href="#id12">API</a><a class="headerlink" href="#api" title="Enlazar permanentemente con este título">¶</a></h3>
-<p>The wxGUI is written in Python, and if you’re a fan of Python programming
-there are a number of great tools and an API available to you. In the bottom
-of the <cite>Layer Manager</cite> window click on the <cite>Python shell</cite> tab and
-type <code class="docutils literal"><span class="pre">help(grass.core)</span></code> to see a listing of the many functions available
-in the core GIS python library. Besides the core GIS functions there is
-also <cite>array</cite> (NumPy), <cite>db</cite> (database), <cite>raster</cite>, and <cite>vector</cite> libraries
-available. For advanced use <cite>Pythons Ctypes</cite> is supported allowing the
-Python programmer direct access to GRASS GIS” extensive C libraries.
-See the manual pages for an extensive description of the programming options.</p>
+<p>El wxGUI está escrito en Python, y si eres un fanático de la programación de Python, hay una serie de excelentes herramientas y una API disponibles para ti. En la parte inferior de la ventana del <cite>Administrador de Capas</cite>, haga click en la pestaña de <cite>Python shell</cite> y escriba <code class="docutils literal"><span class="pre">help(grass.core)</span></code> para ver una lista de las muchas funciones disponibles en la biblioteca principal de Python GIS. Además de las funciones centrales de SIG, también hay disponibles bibliotecas de <cite>arreglos</cite> (NumPy), <cite>db</cite> (base de datos), <cite>ráster</cite> y <cite>vectores</cite> . Para uso avanzado, se admite <cite>Pythons Ctypes</cite> que permite al programador de Python acceso directo a las amplias bibliotecas C de GRASS GIS. Consulte las páginas del manual para obtener una descripción extensa de las opciones de programación.</p>
 </div>
 <div class="section" id="command-line">
-<h3><a class="toc-backref" href="#id13">Command line</a><a class="headerlink" href="#command-line" title="Enlazar permanentemente con este título">¶</a></h3>
-<p>In the GRASS terminal session, try a GRASS module by typing «<code class="docutils literal"><span class="pre">v.clean</span> <span class="pre">--help</span></code>» which will give you a list of module options.
-The GRASS command line is where the true power of
-the GIS comes into its own. GRASS is designed to allow all commands
-to be tied together in scripts for large bulk processing jobs. Popular
-scripting languages are Bourne Shell and Python, and many neat tricks
-to help make scripting easier are included for both. With these tools
-you can make a new GRASS module with only about 5 minutes of coding,
-complete with powerful parser, GUI, and help page template.</p>
-<p>«<code class="docutils literal"><span class="pre">g.manual</span> <span class="pre">-i</span></code>» will launch a web browser with the module help pages.
-When you are done close the browser and type «exit» at the GRASS terminal
-prompt to leave the GIS environment.</p>
+<h3><a class="toc-backref" href="#id13">Línea de comandos</a><a class="headerlink" href="#command-line" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>En la sesión de terminal GRASS, pruebe un módulo GRASS escribiendo «<code class="docutils literal"><span class="pre">v.clean</span> <span class="pre">--help</span></code>» que le dará una lista de opciones de módulo. La línea de comandos GRASS es donde el verdadero poder del SIG entra en su apogeo. GRASS está diseñado para permitir que todos los comandos se atan entre sí en scripts para trabajos de procesamiento masivo grandes. Los lenguajes de scripting más populares son Bourne Shell y Python, y muchos trucos geniales para ayudar a facilitar el scripting para ambos. Con estas herramientas puede crear un nuevo módulo GRASS con solo unos 5 minutos de codificación, con potente analizador, GUI y plantilla de página de ayuda.</p>
+<p>«<code class="docutils literal"><span class="pre">g.manual</span> <span class="pre">-i</span></code>» lanzará un navegador web con las páginas de ayuda del módulo. Cuando haya terminado, cierre el navegador y escriba «salir» en el indicador de terminal de GRASS para abandonar el entorno SIG.</p>
 </div>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id14">What next?</a><a class="headerlink" href="#what-next" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#id14">¿Qué sigue?</a><a class="headerlink" href="#what-next" title="Enlazar permanentemente con este título">¶</a></h2>
 <ul class="simple">
-<li>Visit the GRASS GIS website at <a class="reference external" href="https://grass.osgeo.org">https://grass.osgeo.org</a></li>
-<li>Visit the GRASS GIS Wiki help site at <a class="reference external" href="https://grasswiki.osgeo.org/wiki/Main_Page">https://grasswiki.osgeo.org/wiki/</a></li>
-<li>More tutorials and overviews can be found <a class="reference external" href="https://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started">here</a>.</li>
-<li>A <a class="reference external" href="https://grass.osgeo.org/grass78/manuals/full_index.html">synopsis of the GRASS GIS modules</a></li>
-<li>If the 400 GIS modules which come with GRASS aren’t enough for you have a look at the many contributed
-add-ons at <a class="reference external" href="https://grass.osgeo.org/grass78/manuals/addons/">https://grass.osgeo.org/grass78/manuals/addons/</a></li>
+<li>Visite el sitio web de GRASS GIS en <a class="reference external" href="https://grass.osgeo.org">https://grass.osgeo.org</a></li>
+<li>Visite el sitio de ayuda de GRASS GIS Wiki en <a class="reference external" href="https://grasswiki.osgeo.org/wiki/Main_Page">https://grasswiki.osgeo.org/wiki/</a></li>
+<li>Más tutoriales y resúmenes se pueden encontrar <a class="reference external" href="https://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started">aquí</a>.</li>
+<li>Una <a class="reference external" href="https://grass.osgeo.org/grass78/manuals/full_index.html">sinopsis de los módulos de GRASS GIS</a></li>
+<li>Si los 400 módulos SIG que vienen con GRASS no son suficientes para que usted tenga un vistazo a los muchos complementos contribuidos en  <a class="reference external" href="https://grass.osgeo.org/grass78/manuals/addons/">https://grass.osgeo.org/grass78/manuals/addons/</a></li>
 </ul>
 </div>
 </div>
