@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2018
-# MarPetra <mvergaratrejo@gmail.com>, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2019\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -155,20 +155,20 @@ msgstr "Estándares implementados"
 #: ../../build/doc/overview/josm_overview.rst:69
 msgid ""
 "JOSM views WMS layers, but uses the `OSM API "
-"<http://wiki.openstreetmap.org/wiki/API_v0.6>`_ to communicate with OSM "
+"<https://wiki.openstreetmap.org/wiki/API_v0.6>`_ to communicate with OSM "
 "database."
 msgstr ""
-"JOSM visualiza capas de WMS,  pero usa  `OSM API "
-"<http://wiki.openstreetmap.org/wiki/API_v0.6>`_  para comunicarse con la "
-"base de datos de OSM."
+"JOSM visualiza capas WMS, pero usa la `OSM API "
+"<https://wiki.openstreetmap.org/wiki/API_v0.6>`_ para  comunicarse con la "
+"base de datos OSM."
 
 #: ../../build/doc/overview/josm_overview.rst:73
 msgid "Details"
 msgstr "Detalles"
 
 #: ../../build/doc/overview/josm_overview.rst:75
-msgid "**Website:** https://josm.openstreetmap.de/"
-msgstr "**Sitio web:** https://josm.openstreetmap.de/"
+msgid "**Website:** https://josm.openstreetmap.de"
+msgstr "**Sitio web:** https://josm.openstreetmap.de"
 
 #: ../../build/doc/overview/josm_overview.rst:77
 msgid ""

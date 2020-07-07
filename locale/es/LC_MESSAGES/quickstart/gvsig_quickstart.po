@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -128,6 +128,8 @@ msgid ""
 "For the :guilabel:`Current projection`, click on the :guilabel:`...` button."
 " This will open the **New CRS** dialog."
 msgstr ""
+"Para el :guilabel:`Proyección actual`, haga click en el botón "
+":guilabel:`...`. Esto abrirá el cuadro de diálogo **Nuevo CRS**."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:73
 msgid "Using the dropdown list for :guilabel:`Type`, select EPSG."
@@ -150,6 +152,9 @@ msgid ""
 "Select :guilabel:`OK` to return to the **View Properties** dialog. The EPSG "
 "code is now 4326 and that the map units have changed to degrees."
 msgstr ""
+"Seleccione :guilabel:`OK` para volver al cuadro de diálogo **Propiedades de "
+"Vista**. El código EPSG ahora es 4326 y las unidades de mapa han cambiado a "
+"grados."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:79
 msgid "Select :guilabel:`OK` to return to the **Project Manager**."
@@ -165,22 +170,28 @@ msgid ""
 "(2) The top-left cell contains a list of vector or raster layers being used "
 "in the view (i.e. Table-of-Contents)."
 msgstr ""
+"(2) La celda superior izquierda contiene una lista de capas vectoriales o "
+"ráster que se utilizan en la vista (es decir, Tabla de Contenido)."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:87
 msgid ""
 "(3) The bottom-left cell displays the extent of the main view over a "
 "selected vector file."
 msgstr ""
+"(3) La celda inferior izquierda muestra la extensión de la vista principal "
+"sobre un archivo vectorial seleccionado."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:89
 msgid ""
 "(4) The right cell is the main display area where raster and vector data is "
 "rendered."
 msgstr ""
+"(4) La celda derecha es el área de visualización principal donde se "
+"representan los datos ráster y vectorial."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:96
 msgid "Add layers to the view"
-msgstr ""
+msgstr "Añadir capas a la vista"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:98
 msgid ""
@@ -234,7 +245,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:114
 msgid "Configure the view display"
-msgstr ""
+msgstr "Configurar la visualización de la vista"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:116
 msgid ""
@@ -286,11 +297,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:138
 msgid "Change how the layers look"
-msgstr ""
+msgstr "Cambiar el aspecto de las capas"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:141
 msgid "Make a polygon transparent"
-msgstr ""
+msgstr "Hacer transparente un polígono"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:143
 msgid ""
@@ -310,7 +321,7 @@ msgstr "El cuadro de diálogo **Propiedades de la Capa** aparecerá."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:152
 msgid "Change the symbology of a vector layer"
-msgstr ""
+msgstr "Cambiar la simbología de una capa vectorial"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:154
 msgid ""
@@ -330,7 +341,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:158
 msgid "Remove the fill symbol and changing the border color"
-msgstr ""
+msgstr "Elimine el símbolo de relleno y cambie el color del borde"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:160
 msgid ""
@@ -365,7 +376,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:170
 msgid "Change the labelling of a vector layer"
-msgstr ""
+msgstr "Cambiar el etiquetado de una capa vectorial"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:172
 msgid ""
@@ -387,7 +398,7 @@ msgstr ""
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:302
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:391
 msgid "View the result"
-msgstr ""
+msgstr "Ver el resultado"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:182
 msgid ""
@@ -404,7 +415,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:191
 msgid "Add an overview or locator"
-msgstr ""
+msgstr "Añadir una visión general o localizador"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:193
 msgid "Select :menuselection:`View --> Locator setup`."
@@ -446,11 +457,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:216
 msgid "Select towns within a region"
-msgstr ""
+msgstr "Seleccionar ciudades dentro de una región"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:219
 msgid "Select the region"
-msgstr ""
+msgstr "Seleccione la región"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:221
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:255
@@ -478,7 +489,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:231
 msgid "Open the Selection by layer tool"
-msgstr ""
+msgstr "Abra la herramienta Selección por capa"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:233
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:268
@@ -499,7 +510,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:240
 msgid "Select the towns contained within a region"
-msgstr ""
+msgstr "Seleccione las ciudades contenidas en una región"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:242
 msgid ""
@@ -533,7 +544,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:253
 msgid "Deselect the polygon so you can see what has happened"
-msgstr ""
+msgstr "Anule la selección del polígono para que pueda ver lo que ha sucedido"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:256
 msgid "Select the 'Clear selection' icon in the main toolbar."
@@ -554,7 +565,7 @@ msgstr "Exportar funciones seleccionadas a un nuevo archivo  shape."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:266
 msgid "Select the output file format"
-msgstr ""
+msgstr "Seleccione el formato de archivo de salida"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:269
 msgid "Select :menuselection:`Layer --> Export to...` to start the export."
@@ -576,7 +587,7 @@ msgstr "Haga click en *Siguiente*."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:277
 msgid "Select the output file name"
-msgstr ""
+msgstr "Seleccione el nombre del archivo de salida"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:279
 msgid "Choose a folder and type the file name."
@@ -654,7 +665,7 @@ msgstr "El mapa aparecerán con la vista seleccionada."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:322
 msgid "Work with the map"
-msgstr ""
+msgstr "Trabajar con el mapa"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:324
 msgid ""
@@ -684,7 +695,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:334
 msgid "Save your project or exiting gvSIG"
-msgstr ""
+msgstr "Guarde su proyecto o salga de gvSIG"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:336
 msgid ""
@@ -704,11 +715,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:344
 msgid "Install an add-on"
-msgstr ""
+msgstr "Instalar un complemento"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:347
 msgid "Open the add-ons manager"
-msgstr ""
+msgstr "Abra el administrador de complementos"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:349
 msgid ""
@@ -736,7 +747,7 @@ msgstr "Haga click en el botón de *Siguiente*."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:359
 msgid "Find an add-on"
-msgstr ""
+msgstr "Encuentra un complemento"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:361
 msgid "At the add-ons manager we can find plugins and symbol libraries."
@@ -756,7 +767,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:370
 msgid "Finish the installation"
-msgstr ""
+msgstr "Finalizar la instalación"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:372
 msgid "Click on *Start downloading*."
@@ -782,7 +793,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:380
 msgid "Add an OpenStreetMap layer"
-msgstr ""
+msgstr "Añadir una capa OpenStreetMap"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:382
 msgid ""
@@ -814,7 +825,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:404
 msgid "Add a WMTS layer"
-msgstr ""
+msgstr "Añadir una capa WMTS"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:406
 msgid "WMTS is an evolution of WMS OGC standard based on tile management."
@@ -823,7 +834,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:409
 msgid "Select a server"
-msgstr ""
+msgstr "Seleccione un servidor"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:411
 msgid "Within a view, click on the :guilabel:`Add layer…` button."
@@ -844,7 +855,7 @@ msgstr "Haga click en *Conectar*."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:421
 msgid "Select one of the available layers"
-msgstr ""
+msgstr "Seleccione una de las capas disponibles"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:423
 msgid "Select one of the available layers (e.g. bluemarble)"
@@ -856,7 +867,7 @@ msgstr "Haga click en *Añadir*."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:431
 msgid "Select image format and reference system"
-msgstr ""
+msgstr "Seleccionar formato de imagen y sistema de referencia"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:433
 msgid "Select *image/jpeg* as image format."
@@ -907,5 +918,5 @@ msgstr ""
 "gvsig-in-30-minutes/>`_"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:452
-msgid "`gvSIG Blog <http://blog.gvsig.org/category/languages/english/>`_"
-msgstr "`gvSIG Blog <http://blog.gvsig.org/category/languages/english/>`_"
+msgid "`gvSIG Blog <https://blog.gvsig.org/category/languages/english/>`_"
+msgstr "`Blog de gvSIG <https://blog.gvsig.org/category/languages/english/>`_"

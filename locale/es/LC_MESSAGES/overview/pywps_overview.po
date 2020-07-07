@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2018
-# MarPetra <mvergaratrejo@gmail.com>, 2018
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,12 +33,10 @@ msgstr "Servicio Web de Procesamiento"
 #: ../../build/doc/overview/pywps_overview.rst:23
 msgid ""
 "PyWPS provides web access to custom geospatial operations (referred to as "
-"Processes) via the `Web Processing Service (WPS) "
-"<http://www.opengeospatial.org/standards/wps>`__ standard."
+"Processes) via the |WPS| standard."
 msgstr ""
 "PyWPS proporciona acceso web a operaciones geoespaciales personalizadas "
-"(referidas como Procesos) a través de `Servicio de Procesamiento Web (WPS) "
-"<http://www.opengeospatial.org/standards/wps>`__  estándar."
+"(denominadas Procesos) a través de la |WPS| estándar."
 
 #: ../../build/doc/overview/pywps_overview.rst:26
 msgid ""
@@ -116,8 +114,8 @@ msgid "Details"
 msgstr "Detalles"
 
 #: ../../build/doc/overview/pywps_overview.rst:61
-msgid "**Website:** http://pywps.org"
-msgstr "**Sitio web:** http://pywps.org"
+msgid "**Website:** https://pywps.org/"
+msgstr "**Sitio web:** https://pywps.org/"
 
 #: ../../build/doc/overview/pywps_overview.rst:63
 msgid "**Licence:** GPL"
@@ -136,8 +134,8 @@ msgid "**API Interfaces:** Python"
 msgstr "**Interfaces API:** Python"
 
 #: ../../build/doc/overview/pywps_overview.rst:71
-msgid "**Support:** http://pywps.org/community/#professional-support"
-msgstr "**Soporte:** http://pywps.org/community/#professional-support"
+msgid "**Support:** https://pywps.org/community/#professional-support"
+msgstr "**Soporte:** https://pywps.org/community/#professional-support"
 
 #: ../../build/doc/overview/pywps_overview.rst:75
 msgid "Quickstart"

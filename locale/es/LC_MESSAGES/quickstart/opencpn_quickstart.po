@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -47,28 +47,36 @@ msgid ""
 " time you open OpenCPN you are presented with the option to do this "
 "automatically."
 msgstr ""
+"Antes de ejecutar OpenCPN en el LiveDVD, debe activar los datos de ejemplo. "
+"Esta es una condición para redistribuir las cartas náuticas gratuitas de la "
+"NOAA. La primera vez que abra OpenCPN se le presentará la opción de hacerlo "
+"automáticamente."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:32
 msgid ""
 "From the Start menu, select :menuselection:`Geospatial --> Navigation and "
 "Maps --> OpenCPN`."
 msgstr ""
+"En el menú Inicio, seleccione :menuselection:`Geospatial --> Navegación y "
+"mapas --> OpenCPN`."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:33
 msgid "Click :guilabel:`I agree` to the NOAA Nautical Chart Data Agreement."
 msgstr ""
+"Haga click en :guilabel:`Aceptar` en el Acuerdo de Datos de Cartas Náuticas "
+"NOAA."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:34
 msgid "Click :guilabel:`OK` to agree to the OpenCPN license."
-msgstr ""
+msgstr "Haga click en :guilabel:`OK` para aceptar la licencia de OpenCPN."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:38
 msgid ""
 "You can download additional US nautical charts from NOAA at "
-"http://www.charts.noaa.gov"
+"https://www.charts.noaa.gov/"
 msgstr ""
-"Puede descargar más cartas náuticas de los E.E.U.U. desde  NOAA en "
-"http://www.charts.noaa.gov"
+"Puede descargar cartas náuticas adicionales de EUA de la NOAA en "
+"https://www.charts.noaa.gov/"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:42
 msgid "Setting up your GPS"
@@ -79,6 +87,8 @@ msgid ""
 "If you have a GPS connected you will want to start the gpsd service. To do "
 "that, open a terminal and run:"
 msgstr ""
+"Si tiene un GPS conectado, querrá iniciar el servicio GPSd. Para ello, abra "
+"un terminal y ejecute:"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:51
 msgid "and"
@@ -108,30 +118,40 @@ msgid ""
 "<../overview/zygrib_overview>` (also on this disc) is an easy way to "
 "download that."
 msgstr ""
+"Los datos actuales de pronóstico del tiempo y las ondas se pueden descargar "
+"y cubrir sobre sus gráficos utilizando el plugin GRIB. El software "
+":doc:`zyGrib <../overview/zygrib_overview>` (también en este disco) es una "
+"manera fácil de descargar eso."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:71
 msgid ""
 "Click the :guilabel:`Options` icon on the toolbar. The Options window "
 "displays."
 msgstr ""
+"Haga click en el ícono :guilabel:`Opciones` de la barra de herramientas. "
+"Aparecerá la ventana Opciones."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:72
 msgid "Select the :guilabel:`Plugins` tab."
-msgstr ""
+msgstr "Seleccione la pestaña :guilabel:`Complementos`."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:73
 msgid "Choose GRIB and then click :guilabel:`Enable`."
-msgstr ""
+msgstr "Elija GRIB y, a continuación, haga click en :guilabel:`Habilitar`."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:74
 msgid "Click :guilabel:`OK`. A windsock icon is now displayed on the toolbar."
 msgstr ""
+"Haga click en :guilabel:`OK`. Ahora se muestra un ícono de cierre de viento "
+"en la barra de herramientas."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:77
 msgid ""
 "Run through the :doc:`zyGrib quickstart <../quickstart/zygrib_quickstart>` "
 "and load the zyGrib file over your chart."
 msgstr ""
+"Ejecute el inicio rápido de :doc:`zyGrib <../quickstart/zygrib_quickstart>`"
+"  y cargue el archivo zyGrib sobre su gráfico."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:79
 msgid ""
@@ -164,15 +184,17 @@ msgid ""
 "Documentation is available from the Help menu or online at "
 "https://opencpn.org/OpenCPN/info/manuals.html"
 msgstr ""
+"La documentación está disponible en el menú Ayuda o en línea en "
+"https://opencpn.org/OpenCPN/info/manuals.html"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:89
 msgid "`Getting started tips <../../opencpn/tips.html>`_"
 msgstr "`Consejos para comenzar <../../opencpn/tips.html>`_"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:91
-msgid "Website: http://www.opencpn.org"
-msgstr ""
+msgid "Website: https://www.opencpn.org"
+msgstr "Sitio web: https://www.opencpn.org"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:93
-msgid "Support: http://www.cruisersforum.com/forums/f134"
-msgstr ""
+msgid "Support: https://www.cruisersforum.com/forums/f134"
+msgstr "Soporte: https://www.cruisersforum.com/forums/f134"

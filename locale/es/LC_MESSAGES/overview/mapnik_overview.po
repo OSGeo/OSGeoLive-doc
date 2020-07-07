@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2018
-# MarPetra <mvergaratrejo@gmail.com>, 2018
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -95,8 +95,8 @@ msgid "Details"
 msgstr "Detalles"
 
 #: ../../build/doc/overview/mapnik_overview.rst:48
-msgid "**Website:** http://www.mapnik.org/"
-msgstr "** Sitio web: ** http://www.mapnik.org/"
+msgid "**Website:** https://mapnik.org/"
+msgstr "**Sitio web:** https://mapnik.org/"
 
 #: ../../build/doc/overview/mapnik_overview.rst:50
 msgid "**Licence:** LGPL (GNU Lesser General Public Licence)"
