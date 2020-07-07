@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-07-06 11:23-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -32,13 +32,13 @@ msgstr "Marco Geoportal"
 
 #: ../../build/doc/overview/mapbender_overview.rst:19
 msgid ""
-"`Mapbender <https://www.mapbender.org/en>`_ is a graduated OSGeo project. It"
-" is a web based geoportal framework to publish, register, view, navigate, "
+"`Mapbender <https://mapbender.org/en>`_ is a graduated OSGeo project. It is "
+"a web based geoportal framework to publish, register, view, navigate, "
 "monitor and grant secure access to spatial data infrastructure services."
 msgstr ""
-"`Mapbender <https://www.mapbender.org/en>`_ es un proyecto graduado de "
-"OSGeo. Es un marco de geoportal basado en web para publicar, registrar, ver,"
-" navegar, monitorear y otorgar acceso seguro a servicios de infraestructura "
+"`Mapbender <https://mapbender.org/en>`_  es un proyecto graduado de OSGeo. "
+"Es un marco de geoportal basado en web para publicar, registrar, ver, "
+"navegar, monitorear y otorgar acceso seguro a servicios de infraestructura "
 "de datos espaciales."
 
 #: ../../build/doc/overview/mapbender_overview.rst:21
@@ -172,8 +172,8 @@ msgid "Details"
 msgstr "Detalles"
 
 #: ../../build/doc/overview/mapbender_overview.rst:63
-msgid "**Website:** https://www.mapbender.org"
-msgstr "**Sitio web:** https://www.mapbender.org"
+msgid "**Website:** https://mapbender.org"
+msgstr "**Sitio web:** https://mapbender.org"
 
 #: ../../build/doc/overview/mapbender_overview.rst:65
 msgid "**Licence:** `MIT license <https://opensource.org/licenses/MIT>`_"
@@ -188,8 +188,8 @@ msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
 
 #: ../../build/doc/overview/mapbender_overview.rst:71
-msgid "**Support:** https://www.mapbender.org/en/community"
-msgstr "**Soporte:** https://www.mapbender.org/en/community"
+msgid "**Support:** https://mapbender.org/en/community"
+msgstr "**Soporte:** https://mapbender.org/en/community"
 
 #: ../../build/doc/overview/mapbender_overview.rst:75
 msgid "Quickstart"
