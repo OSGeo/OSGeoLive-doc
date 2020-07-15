@@ -6,15 +6,16 @@
 # Translators:
 # Santtu Pyykkönen, 2019
 # Vicky Vergara <vicky@georepublic.de>, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2019\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,6 +32,8 @@ msgid ""
 "This Quick Start is divided into two parts: GDAL (raster data) and OGR "
 "(vector data)."
 msgstr ""
+"Tämä pika-aloitus on jaettu kahteen osaan: GDAL (rasteritiedot) ja OGR "
+"(vektoritiedot)."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:24
 msgid "This Quick Start describes how to:"
@@ -83,6 +86,9 @@ msgid ""
 " visualize the results, you can use one of the Desktop GIS Software "
 "applications on OSGeoLive like :doc:`../overview/qgis_overview`."
 msgstr ""
+"Tarvitset vain päätteen. Jos haluat visualisoida tulokset, voit käyttää yhtä"
+" DESKTOP GIS Software -sovelluksesta OSGeoLivessä kuten "
+":doc:`../overview/qgis_overview`."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:46
 msgid "Get to know GDAL"
@@ -143,7 +149,7 @@ msgstr "ei koordinaattititietoja"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:107
 msgid "Simple format translation"
-msgstr ""
+msgstr "Yksinkertainen käännösmuoto"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:109
 msgid ""
@@ -294,13 +300,13 @@ msgid ""
 " be reprojected gdalwarp does not read all the data.  We can force gdalwarp "
 "to read a bunch of surplus data around chunks as one way to resolve this. "
 "Read more about this in the RasterTutorial "
-"http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
+"https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
 msgstr ""
-"Huomaa, miten pylväät leikataan?  Tämä johtuu siitä, että reunat napa ei "
-"voida uudelleen gdalwarp ei Lue kaikki tiedot.  Voimme pakottaa gdalwarp "
-"lukea nippu ylijäämä tietoja noin paloina yhtenä keinona ratkaista tämä. Lue"
-" lisää tästä RasterTutorial "
-"http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
+"Huomaa, miten pylväät leikataan?  Tämä johtuu siitä, reunat napa ei voida "
+"reprojected gdalwarp ei lue kaikkia tietoja.  Voimme pakottaa gdalwarpin "
+"lukemaan ylijäämätietoja paloina yhtenä keinona ratkaista tämä. Lue lisää "
+"tästä RasterTutorial "
+"https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:255
 msgid "Mosaicking"
@@ -420,7 +426,7 @@ msgstr "Kokeile QGIS plugin OGR-Layer-Konverter."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:448
 msgid "What next?"
-msgstr ""
+msgstr "Mitä seuraavaksi?"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:450
 msgid ""
@@ -435,22 +441,23 @@ msgid "GDAL Project home"
 msgstr "GDAL-projektin koti sivu"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:455
-msgid "http://www.gdal.org"
-msgstr "http://www.gdal.org"
+msgid "https://gdal.org"
+msgstr "https://gdal.org"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:457
 msgid "GDAL Raster Tutorial"
 msgstr "GDAL Raster opetus ohjelma"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:459
-msgid "http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
-msgstr "http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
+msgid "https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
+msgstr "https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:461
 msgid "GDAL Workshop"
 msgstr "GDAL työpaja"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:463
-msgid "http://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
+msgid ""
+"https://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
 msgstr ""
-"http://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
+"https://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
