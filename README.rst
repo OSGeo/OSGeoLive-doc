@@ -31,6 +31,13 @@ to build the OSGeoLive documentation.
 
 First install Python and create a virtual environment. 
 
+1.0 Requirements
+You might need to install `git` and `cmake` if they are not on your system yet.
+::
+   # Install git and cmake
+   sudo apt-get install git cmake
+
+
 1.1. For Python 2
 ::
    # Install pip
