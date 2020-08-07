@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:31
 msgid "Start GeoNode"
-msgstr ""
+msgstr "Käynnistä GeoNode"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:33
 msgid ""
@@ -81,6 +81,10 @@ msgid ""
 "fill in the user credentials. Try \"admin\" and \"admin\" for the Username "
 "and Password."
 msgstr ""
+"Miltä tahansa verkkokäyttöliittymän sivulta näet *Kirjaudu sisään* -linkin "
+"sivun oikeassa yläkulmassa. Napsauta kyseistä linkkiä ja täytä käyttäjän "
+"tunnistetiedot näkyviin avautuessa valintaikkunassa. Kokeile \"admin\" ja "
+"\"admin\" varten käyttäjätunnus ja salasana."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:54
 msgid "Add a new layer"
@@ -91,34 +95,45 @@ msgid ""
 "Layers are a published resource representing a raster or vector spatial data"
 " source. Layers also can be associated with metadata, ratings, and comments."
 msgstr ""
+"Tasot ovat julkaistu resurssi, joka edustaa rasteri- tai "
+"vektoritietolähdettä. Tasot voidaan liittää myös metatietoihin, luokituksiin"
+" ja kommentteihin."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:58
 msgid ""
 "To see existing layers, from the navigation bar on the top of any page, "
 "select *Data* menu and click on the *Layers* link."
 msgstr ""
+"Jos haluat nähdä aiemmin luodut tasot, valitse minkä tahansa sivun "
+"yläreunassa olevasta siirtymispalkista *Data*-valikko ja napsauta "
+"*Tasot*-linkkiä."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:63
 msgid "The result will look like this:"
-msgstr ""
+msgstr "Tulos näyttää tältä:"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:68
 msgid ""
 "To add a layer to your account, select the *Upload* button on the top right "
 "of the *Layers* page:"
 msgstr ""
+"Jos haluat lisätä tason tiliisi, valitse *Tasot*-sivun oikeassa yläkulmassa "
+"oleva *Lataa*-painike:"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:73
 msgid ""
 "In case you want to upload data from any other page, from the navigation "
 "bar, select *Data* menu and click on the *Upload Layers* link."
 msgstr ""
+"Jos haluat ladata tietoja miltä tahansa muulta sivulta, valitse "
+"siirtymispalkista *Data*-valikko ja napsauta *Lataa tasot* -linkkiä."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:78
 msgid ""
 "By clicking one of the above *Upload* links you will be brought to the "
 "upload page."
 msgstr ""
+"Klikkaamalla jotakin edellä *Lataa* linkkejä sinut tuodaan ladata sivulle."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:83
 msgid ""
@@ -128,6 +143,12 @@ msgid ""
 "set of files, consisting of a *shp*, a *prj*, a *dbf* and a *shx* file. If "
 "one of them is missing, GeoNode will warn you before you upload them."
 msgstr ""
+"Sinulla on kaksi mahdollisuutta lisätä tiedostoja. Voit joko tehdä sen "
+"käyttämällä *vedä ja pudota* *Drop Files Here* -alueella tai voit valita ne "
+"*Valitse tiedostot*-painikkeella. Huomaa, että sinun täytyy ladata "
+"täydellinen joukko tiedostoja, jotka koostuvat *shp*, *prj*, *dbf* ja *shx* "
+"tiedosto. Jos jokin niistä puuttuu, GeoNode varoittaa sinua ennen niiden "
+"lataamista."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:87
 msgid ""
@@ -135,10 +156,14 @@ msgid ""
 "Navigate to :file:`/home/user/data/natural_earth2` folder and select all the"
 " :file:`ne_10m_admin_0_countries` files."
 msgstr ""
+"Nyt klikkaa * Valitse tiedostot * -painiketta ja näet tiedoston "
+"valintaikkuna. Siirry kansioon :file:`/home/user/data/natural_earth2` ja "
+"valitse kaikki :file:`ne_10m_admin_0_countries` -tiedostot."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:92
 msgid "You should now be able to see all the files you want to upload."
 msgstr ""
+"Sinun pitäisi nyt pystyä näkemään kaikki tiedostot, jotka haluat ladata."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:97
 msgid ""
@@ -150,10 +175,18 @@ msgid ""
 "select your username. This will ensure that only you are able to edit the "
 "data in the layer."
 msgstr ""
+"GeoNode pystyy rajoittamaan sitä, kuka voi tarkastella, muokata ja hallita "
+"tasoja. Sivun oikeassa reunassa on *Lupa*-osio, jossa voit rajoittaa tason "
+"käyttöä. Valitse *Kuka voi tarkastella ja ladata näitä tietoja*-kohdassa "
+"*Kuka tahansa rekisteröitynyt käyttäjä*. Näin varmistetaan, että anonyymin "
+"näkymän käyttö on poistettu käytöstä. Valitse käyttäjänimesi samalla "
+"alueella *Kuka voi muokata näitä tietoja*. Näin varmistat, että vain sinä "
+"voit muokata tason tietoja."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:104
 msgid "To upload data, click the *Upload* button at the bottom."
 msgstr ""
+"Jos haluat ladata tietoja, napsauta alareunassa olevaa *Lataa*-painiketta."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:109
 msgid ""
@@ -161,6 +194,10 @@ msgid ""
 "*Layer Info* button, or edit the layer metadata with *Edit Metadata* or edit"
 " layer style on GeoServer with *Manage Styles* button."
 msgstr ""
+"Kun tason lataaminen on valmis, voit joko esikatsella tasoa "
+"*Tasotiedot*-painikkeella tai muokata tason metatietoja *Muokkaa "
+"metatietoja* -painikkeella tai muokata tasotyyliä GeoServerissä *Hallitse "
+"tyylejä*-painikkeella."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:114
 msgid "Press the *Layer Info* button to see the layer page"
@@ -175,50 +212,63 @@ msgid ""
 "The next step for you is to create a map and add the newly created layers to"
 " this map."
 msgstr ""
+"Seuraava vaihe on luoda kartta ja lisätä juuri luodut tasot tähän karttaan."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:125
 msgid ""
 "Click the *Explore Maps* link on the *Maps* toolbar. This will bring up the "
 "list of maps."
 msgstr ""
+"Klikkaa *Maps*-työkalurivin *Tutki karttoja*-linkkiä. Tämä tuo esiin kartan "
+"luettelon."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:130
 msgid ""
 "Currently, there aren't any maps here. To add one click the *Create a New "
 "Map* button."
 msgstr ""
+"Tällä hetkellä ei ole mitään karttoja täällä. Voit lisätä yhden napsautuksen"
+" *Luo uusi kartta* -painiketta."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:135
 msgid "A map composition interface will display."
-msgstr ""
+msgstr "Karttakoostumusliittymä tulee näkyviin."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:140
 msgid ""
 "If a 404 popup message appears, ignore it, this is due to a missing "
 "GeoServer plugin that is not installed on OSGeoLive."
 msgstr ""
+"Jos näyttöön tulee 404-ponnahdusviesti, ohita se, tämä johtuu puuttuvasta "
+"GeoServer-laajennuksesta, jota ei ole asennettu OSGeoLiveen."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:142
 msgid ""
 "In this interface there is a toolbar, layer list, and map window. The map "
 "window contains the OpenStreetMap layer by default."
 msgstr ""
+"Tässä käyttöliittymässä on työkalurivi, tasoluettelo ja karttaikkuna. "
+"Karttaikkuna sisältää oletusarvoisesti OpenStreetMap-tason."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:144
 msgid "Click on the *New Layers* button and select *Add Layers*."
-msgstr ""
+msgstr "Napsauta *Uudet tasot*-painiketta ja valitse *Lisää tasot*."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:150
 msgid ""
 "Now you should be able to see all the available layers. In this case, this "
 "should include the ones you've added before."
 msgstr ""
+"Nyt sinun pitäisi pystyä näkemään kaikki käytettävissä olevat kerrokset. "
+"Tässä tapauksessa tämän pitäisi sisältää ne, jotka olet lisännyt aiemmin."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:152
 msgid ""
 "Select some layers by clicking the first entry and Ctrl-clicking the rest. "
 "Click *Add Layers* to add them all to the map."
 msgstr ""
+"Valitse joitakin tasoja napsauttamalla ensimmäistä merkintää ja ctrl-"
+"napsauttamalla loput. Klikkaa *Lisää tasot* lisätä ne kaikki karttaan."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:157
 msgid "The layers will be added to the map."
@@ -272,22 +322,30 @@ msgstr "Viimeistelkäämme karttamme."
 msgid ""
 "Right click on the *USA Population* layer and select *Zoom to layer extend*"
 msgstr ""
+"Napsauta hiiren kakkospainikkeella *USA-väestö* -kerrosta ja valitse *Zoomaa"
+" kerroksen laajentamiseen*"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:192
 msgid ""
 "Make any final adjustments to the map composition as desired, including zoom"
 " and pan settings."
 msgstr ""
+"Tee kartan koostumukseen lopulliset säädöt haluamallasi tavalla, mukaan "
+"lukien zoomaus- ja panorointiasetukset."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:194
 msgid "Click the *Map* button in the toolbar, and then click *Publish Map*."
 msgstr ""
+"Napsauta työkalurivin *Kartta*-painiketta ja valitse sitten *Julkaise "
+"kartta*."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:200
 msgid ""
 "The title and abstract as previously created should still be there. Make any"
 " adjustments as necessary, and click *Save*."
 msgstr ""
+"Otsikko ja abstrakti kuten aiemmin luotu pitäisi silti olla siellä. Tee "
+"tarvittavat muutokset ja valitse *Tallenna*."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:202
 msgid ""
@@ -295,10 +353,13 @@ msgid ""
 "webpage, including a code snippet. You can adjust the parameters as "
 "necessary."
 msgstr ""
+"Näyttöön tulee uusi valintaikkuna, jossa on ohjeet tämän kartan upottamiseen"
+" verkkosivulle, mukaan lukien koodikatkelma. Voit säätää parametreja tarpeen"
+" mukaan."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:208
 msgid "Your map can now be shared."
-msgstr ""
+msgstr "Karttasi voidaan nyt jakaa."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:212
 msgid "What next?"
@@ -319,12 +380,17 @@ msgid ""
 "<https://docs.geonode.org/en/master/start/index.html#quick-installation-"
 "guide>`_ ."
 msgstr ""
+"Voit asentaa GeoNode omalla palvelimella, seuraa `Pika-asennusopas "
+"<https://docs.geonode.org/en/master/start/index.html#quick-installation-"
+"guide>`_ ."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:218
 msgid ""
 "In order to get started with GeoNode our `documentation "
 "<https://docs.geonode.org/en/master/>`_ might be useful."
 msgstr ""
+"Aloittamiseen GeoNode-aloitteesta `dokumentaatiomme "
+"<https://docs.geonode.org/en/master/>`_ voi olla hyödyllistä."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:220
 msgid ""
@@ -335,3 +401,9 @@ msgid ""
 "our `mailing list <https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-"
 "users>`_ !"
 msgstr ""
+"Jos tarvitset apua tai haluat saada tietoa tietystä aiheesta, älä kiirehdi "
+"kysyä meiltä! Voit tehdä tämän #geonode IRC -kanavan kautta käyttämällä "
+"https://webchat.freenode.net/, `GeoNode Gitter -kanavan kautta "
+"<https://gitter.im/GeoNode/general>`_   tai esittämällä kysymyksesi "
+"`postituslistallemme<https://lists.osgeo.org/cgi-bin/mailman/listinfo"
+"/geonode-users>`_ !"
