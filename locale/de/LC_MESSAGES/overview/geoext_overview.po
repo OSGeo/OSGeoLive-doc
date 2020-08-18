@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Astrid Emde <astrid_emde@osgeo.org>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2019-07-17 15:40+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,13 +36,13 @@ msgid ""
 "through the web. It is a JavaScript framework that combines the GIS "
 "functionality of `OpenLayers <https://openlayers.org/>`_ with the user "
 "interface of the `ExtJS <https://www.sencha.com/products/extjs/>`_ library "
-"provided by `Sencha <https://www.sencha.com/>`_."
+"provided by `Sencha <https://www.sencha.com>`_."
 msgstr ""
 "GeoExt ist Open Source und ermöglicht das Erstellen von Desktop-ähnlichen "
 "GIS-Anwendungen über das Web. Es ist ein JavaScript-Framework, das die GIS-"
 "Funktionalität von `OpenLayers <https://openlayers.org/>`_ mit der "
 "Benutzeroberfläche der  `ExtJS <https://www.sencha.com/products/extjs/>`_ "
-"-Bibliothek von `Sencha <https://www.sencha.com/>`_ kombiniert."
+"-Bibliothek von `Sencha <https://www.sencha.com>`_ kombiniert."
 
 #: ../../build/doc/overview/geoext_overview.rst:22
 msgid ""
@@ -138,8 +139,8 @@ msgid "Details"
 msgstr "Details"
 
 #: ../../build/doc/overview/geoext_overview.rst:62
-msgid "**Website:** https://geoext.github.io/geoext3/"
-msgstr "Webseite:** https://geoext.github.io/geoext3/"
+msgid "**Website:** https://geoext.github.io/geoext3"
+msgstr "**Webseite:** https://geoext.github.io/geoext3"
 
 #: ../../build/doc/overview/geoext_overview.rst:64
 msgid ""
