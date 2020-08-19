@@ -53,7 +53,7 @@ Core Features
 --------------------------------------------------------------------------------
 
 * You name it, there's a `tool for it <https://grass.osgeo.org/grass78/manuals/keywords.html>`_.
-* Explore the `screenshot collection <ttps://grass.osgeo.org/learn/gallery/>`_.
+* Explore the `screenshot collection <https://grass.osgeo.org/learn/gallery/>`_.
 
 Details
 --------------------------------------------------------------------------------
