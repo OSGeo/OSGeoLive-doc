@@ -257,7 +257,8 @@ linkcheck_ignore = [ r'http://www.dnr.state.mn.us/maps/compass.html',
         'http://prj2epsg.org/search',
         r'https://www.youtube.com/watch?v=eQBdVO-n6Mg',
         r'https://standards.rasdaman.com',
-        r'http://download.osgeo.org/']
+        r'http://download.osgeo.org/',
+        'https://www.openstreetmap.org/edit']
 linkcheck_anchors = False
 
 # If false, no module index is generated.

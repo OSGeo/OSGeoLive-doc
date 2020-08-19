@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-08-19 10:16-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -155,7 +155,7 @@ msgstr ""
 #: ../../build/doc/overview/eoxserver_overview.rst:81
 msgid ""
 "**Licence:** `MIT-style license "
-"<https://eoxserver.readthedocs.io/en/latest/copyright.html#license>`_"
+"<https://docs.eoxserver.org/en/latest/copyright.html#license>`_"
 msgstr ""
 
 #: ../../build/doc/overview/eoxserver_overview.rst:83
@@ -172,7 +172,7 @@ msgstr ""
 
 #: ../../build/doc/overview/eoxserver_overview.rst:89
 msgid ""
-"**Support:** https://eoxserver.readthedocs.io/en/latest/users/basics.html"
+"**Support:** https://docs.eoxserver.org/en/latest/users/basics.html"
 "#where-can-i-get-support"
 msgstr ""
 

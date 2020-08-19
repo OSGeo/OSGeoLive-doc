@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-08-19 10:16-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "OGC"
 msgstr ""
 
 #: ../../build/doc/overview/ogc_overview.rst:14
-msgid "The Open Geospatial Consortium (OGC) was founded in 1994 to make geographic information an integral part of the world’s information infrastructure. OGC members – technology providers and technology users – collaboratively develop open interface standards and associated encoding standards, and also best practices, that enable developers to create information systems that can easily exchange “geospatial” information and instructions with other information systems. Requirements range from complex scheduling and control of Earth observation satellites to displaying simple map images on the Web and encoding location in just a few bytes for geo-tagging and messaging. A look at the `OGC Domain Working Groups <http://www.ogc.org/projects/groups/wg>`_ shows the wide scope of current activity in the OGC."
+msgid "The Open Geospatial Consortium (OGC) was founded in 1994 to make geographic information an integral part of the world’s information infrastructure. OGC members – technology providers and technology users – collaboratively develop open interface standards and associated encoding standards, and also best practices, that enable developers to create information systems that can easily exchange “geospatial” information and instructions with other information systems. Requirements range from complex scheduling and control of Earth observation satellites to displaying simple map images on the Web and encoding location in just a few bytes for geo-tagging and messaging. A look at the `OGC Domain Working Groups <https://www.ogc.org/projects/groups/wg>`_ shows the wide scope of current activity in the OGC."
 msgstr ""
 
 #: ../../build/doc/overview/ogc_overview.rst:26
