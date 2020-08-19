@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-08-19 10:16-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,7 +77,7 @@ msgid "When the Download Tool is enabled, a query to the server is sent. This qu
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:99
-msgid "This was a quick introduction to the EOxServer Web Client. Please refer to the `online documentation <https://eoxserver.readthedocs.io/en/latest/users/webclient.html>`_ for more information on this topic."
+msgid "This was a quick introduction to the EOxServer Web Client. Please refer to the `online documentation <https://docs.eoxserver.org/en/latest/users/webclient.html>`_ for more information on this topic."
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:105
@@ -89,7 +89,7 @@ msgid "From the EOxServer main page, click the **Admin Client** link and login w
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:113
-msgid "The `Admin Client` is Djangos standard admin and allows you to configure the available data. Please feel free to explore the client. More information can be found in the `operators' guide <https://eoxserver.readthedocs.io/en/latest/users/operators.html>`_."
+msgid "The `Admin Client` is Djangos standard admin and allows you to configure the available data. Please feel free to explore the client. More information can be found in the `operators' guide <https://docs.eoxserver.org/en/latest/users/operators.html>`_."
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:122
@@ -113,11 +113,11 @@ msgid "See the :doc:`EOxServer Overview <../overview/eoxserver_overview>` for mo
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:143
-msgid "Read the `EOxServer Operators' Guide <https://eoxserver.readthedocs.io/en/latest/users/operators.html>`_."
+msgid "Read the `EOxServer Operators' Guide <https://docs.eoxserver.org/en/latest/users/operators.html>`_."
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:144
-msgid "Read the complete `EOxServer Users' documentation <https://eoxserver.readthedocs.io/en/latest/users/index.html>`_ starting from the `EOxServer Basics <https://eoxserver.readthedocs.io/en/latest/users/basics.html>`_."
+msgid "Read the complete `EOxServer Users' documentation <https://docs.eoxserver.org/en/latest/users/index.html>`_ starting from the `EOxServer Basics <https://docs.eoxserver.org/en/latest/users/basics.html>`_."
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:146
@@ -125,6 +125,6 @@ msgid "If you are already in the OSGeoLive environment, read the local copy of t
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:148
-msgid "Ready to use EOxServer? Then join the community on the `mailing lists <https://eoxserver.readthedocs.io/en/latest/users/mailing_lists.html>`_ to exchange ideas, discuss potential software improvements, and ask questions."
+msgid "Ready to use EOxServer? Then join the community on the `mailing lists <https://docs.eoxserver.org/en/latest/users/mailing_lists.html>`_ to exchange ideas, discuss potential software improvements, and ask questions."
 msgstr ""
 

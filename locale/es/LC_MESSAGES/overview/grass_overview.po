@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2019\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -97,10 +98,10 @@ msgstr "Características Principales"
 #: ../../build/doc/overview/grass_overview.rst:65
 msgid ""
 "You name it, there's a `tool for it "
-"<https://grass.osgeo.org/grass76/manuals/keywords.html>`_."
+"<https://grass.osgeo.org/grass78/manuals/keywords.html>`_."
 msgstr ""
-"Menciónalo, hay una `herramienta "
-"<https://grass.osgeo.org/grass76/manuals/keywords.html>`_."
+"Lo que sea, hay una `herramienta para ello "
+"<https://grass.osgeo.org/grass78/manuals/keywords.html>`_."
 
 #: ../../build/doc/overview/grass_overview.rst:66
 msgid ""
@@ -114,8 +115,8 @@ msgid "Details"
 msgstr "Detalles"
 
 #: ../../build/doc/overview/grass_overview.rst:71
-msgid "**Website:** https://grass.osgeo.org"
-msgstr "**Sitio web:** https://grass.osgeo.org"
+msgid "**Website:**"
+msgstr "**Sitio web:**"
 
 #: ../../build/doc/overview/grass_overview.rst:73
 msgid "**Licence:** GNU General Public License (GPL) version 2+"

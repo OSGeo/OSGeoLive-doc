@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-03-25 17:45-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -54,7 +54,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:36
 msgid "Start Spatialite and load a database"
-msgstr ""
+msgstr "Inicie Spatialite y cargue una base de datos"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:38
 msgid ""
@@ -73,6 +73,8 @@ msgid ""
 "Open the Spatialite GUI by selecting "
 ":menuselection:`Geospatial->Databases->Spatialite GUI`."
 msgstr ""
+"Abra la GUI de Spatialite seleccionando :menuselection:`Geoespacial->Bases "
+"de Datos->Spatialite GUI`."
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:47
 msgid "Select :menuselection:`File->Connecting an existing SQLite DB`"
@@ -131,7 +133,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:76
 msgid "Run an SQL query"
-msgstr ""
+msgstr "Ejecutar una consulta SQL"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:83
 msgid ""
@@ -148,10 +150,12 @@ msgid ""
 "Click the \"Execute SQL\" button at the right, and see the results in the "
 "bottom right pane."
 msgstr ""
+"Haga click en el botón \"Ejecutar SQL\" a la derecha y vea los resultados en"
+" el panel inferior derecho."
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:97
 msgid "Run spatialite from the command line"
-msgstr ""
+msgstr "Ejecute spatialite desde la línea de comandos"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:99
 msgid ""
@@ -183,7 +187,7 @@ msgstr "Comandos útiles desde la línea de comandos:"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:116
 msgid "Create a new spatialite database and load a shapefile"
-msgstr ""
+msgstr "Cree una nueva base de datos spatialite y cargue un shapefile"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:118
 msgid ""
@@ -245,4 +249,4 @@ msgstr ""
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:181
 msgid "Be sure to visit the tutorial `Spatialite cookbook`_"
-msgstr ""
+msgstr "Asegúrese de visitar el tutorial `Spatialite cookbook`_"

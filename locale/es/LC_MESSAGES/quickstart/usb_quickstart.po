@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2019\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,10 +62,10 @@ msgstr "Una unidad flash USB  (se recomienda de al menos 4 Gig, 8+ Gig)"
 #: ../../build/doc/quickstart/usb_quickstart.rst:19
 msgid ""
 "An OSGeoLive ISO image (downloaded from: "
-"http://live.osgeo.org/en/download.html) or converted from a DVD."
+"https://live.osgeo.org/en/download.html) or converted from a DVD."
 msgstr ""
 "Una imagen ISO de OSGeoLive (descargado de: "
-"http://live.osgeo.org/en/download.html) o convertida a partir de un DVD."
+"https://live.osgeo.org/en/download.html) o convertida a partir de un DVD."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:21
 msgid ""
@@ -157,11 +157,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:49
 msgid ""
-"`Download <http://live.osgeo.org/en/download.html>`_ osgeolive or osgeolive-"
-"mini to your computer's hard drive."
+"`Download <https://live.osgeo.org/en/download.html>`_ osgeolive or "
+"osgeolive-mini to your computer's hard drive."
 msgstr ""
-"`Descargar <http://live.osgeo.org/en/download.html>`_ osgeolive o osgeolive-"
-"mini disco duro de su ordenador."
+"`Descargar <https://live.osgeo.org/en/download.html>`_ osgeolive o "
+"osgeolive-mini disco duro de su ordenador."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:51
 msgid ""
@@ -248,15 +248,15 @@ msgid ""
 "If your computer does not have a boot menu, then boot into your system BIOS."
 " The button to enter BIOS varies by brand and model of computer. If you "
 "can't figure out yours try this website that lists many BIOS hotkeys. "
-"http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-"
+"https://www.mydigitallife.net/comprehensive-list-of-how-key-to-press-to-"
 "access-bios-for-various-oem-and-computer-systems/"
 msgstr ""
-"Si su computadora no tiene un menú de inicio, inicie en el BIOS de su "
-"sistema. El botón para ingresar al BIOS varía según la marca y el modelo de "
-"la computadora. Si no puede descubrir el suyo, pruebe este sitio web que "
-"enumera muchas teclas de acceso rápido del BIOS : "
-"http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-"
-"access-bios-for-various-oem-and-computer-systems/"
+"Si el equipo no tiene un menú de arranque, arranque en el BIOS del sistema. "
+"El botón para entrar en el BIOS varía según la marca y el modelo del "
+"ordenador. Si no puede averiguar el suyo probar este sitio web que enumera "
+"muchas teclas de acceso rápido BIOS. https://www.mydigitallife.net"
+"/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-"
+"computer-systems/"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:86
 msgid "Select to boot from the USB device."
@@ -280,10 +280,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:90
 msgid ""
-"This `Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates "
+"This `Video <https://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates "
 "booting from USB."
 msgstr ""
-"Este `Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ muestra el "
+"Este `video <https://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ muestra el "
 "arranque desde USB."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:93
