@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-08-19 10:16-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,7 +75,7 @@ msgstr ""
 #: ../../build/doc/overview/grass_overview.rst:66
 msgid ""
 "Explore the `screenshot collection "
-"<https://grass.osgeo.org/screenshots/>`_."
+"<ttps://grass.osgeo.org/learn/gallery/>`_."
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:69
@@ -103,7 +103,7 @@ msgid "**API Interfaces:** C, Python, Bourne Shell"
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:81
-msgid "**Support:** https://grass.osgeo.org/support/"
+msgid "**Support:** https://grass.osgeo.org/about/community/"
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:86

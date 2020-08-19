@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-08-19 10:16-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -262,16 +262,18 @@ msgid "Further reading"
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:110
-msgid "GpsPrune home page: https://gpsprune.activityworkshop.net/"
+msgid "GpsPrune home page: https://activityworkshop.net/software/gpsprune/"
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:111
-msgid "Screenshots: https://gpsprune.activityworkshop.net/screenshots.html"
+msgid ""
+"Screenshots: "
+"https://activityworkshop.net/software/gpsprune/screenshots.html"
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:112
 msgid ""
-"How-tos and instructions: https://gpsprune.activityworkshop.net/how-"
-"tos.html"
+"How-tos and instructions: https://activityworkshop.net/software/gpsprune"
+"/how-tos.html"
 msgstr ""
 
