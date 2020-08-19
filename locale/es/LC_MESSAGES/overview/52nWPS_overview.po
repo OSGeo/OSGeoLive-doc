@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2018
-# MarPetra <mvergaratrejo@gmail.com>, 2018
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:07+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,20 +32,18 @@ msgstr "Acerca de"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:20
 msgid ""
-"The 52°North `Web Processing Service (WPS) "
-"<http://www.opengeospatial.org/standards/wps>`__ enables web access to "
-"geospatial processing algorithms provided by Sextante, ArcGIS Server, R, "
-"GRASS 7, or custom developed functions. Algorithms may be as simple as "
-"determining the difference in influenza cases between two different seasons,"
-" or as complicated as a global climate change model."
+"The 52°North |WPS| enables web access to geospatial processing algorithms "
+"provided by Sextante, ArcGIS Server, R, GRASS 7, or custom developed "
+"functions. Algorithms may be as simple as determining the difference in "
+"influenza cases between two different seasons, or as complicated as a global"
+" climate change model."
 msgstr ""
-"El 52°North `Servicio de Procesamiento Web (WPS por sus siglas en inglés) "
-"<http://www.opengeospatial.org/standards/wps>`__ permite el acceso web a "
-"algoritmos de procesamiento geoespacial proporcionados por Sextante, ArcGIS "
-"Server, R, GRASS 7 o funciones personalizadas desarrolladas. Los algoritmos "
-"pueden ser tan simples como determinar la diferencia en casos de influencia "
-"entre dos temporadas diferentes, o tan complicados como un modelo de cambio "
-"climático global."
+"El |WPS| 52°North  permite el acceso enables web web a algoritmos de "
+"procesamiento geoespacial proporcionados por Sextante, ArcGIS Server, R, "
+"GRASS 7 o funciones personalizadas desarrolladas. Los algoritmos pueden ser "
+"tan simples como determinar la diferencia en casos de influencia entre dos "
+"temporadas diferentes, o tan complicados como un modelo de cambio climático "
+"global."
 
 #: ../../build/doc/overview/52nWPS_overview.rst:32
 msgid "Core Features"
@@ -125,8 +123,8 @@ msgid "Implemented Standards"
 msgstr "Estándares implementados"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:60
-msgid "OGC Web Processing Service (WPS)"
-msgstr "Servicios Web procesamiento (WPS) de OGC"
+msgid "|WPS|"
+msgstr "|WPS|"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:61
 msgid "OGC GML2 SimpleFeatures"
@@ -141,8 +139,8 @@ msgid "Details"
 msgstr "Detalles"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:67
-msgid "**Website:** https://52north.org/software/software-projects/wps/"
-msgstr "**Sitio web:** https://52north.org/software/software-projects/wps/"
+msgid "**Website:** https://52north.org/software/software-projects/wps"
+msgstr "**Sitio Web:** https://52north.org/software/software-projects/wps"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:69
 msgid "**Licence:** GPL 2"

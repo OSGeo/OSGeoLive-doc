@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Vicky Vergara <vicky@georepublic.de>, 2019
 # MarPetra <mvergaratrejo@gmail.com>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-08-19 12:21-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -115,10 +115,10 @@ msgstr "**Sitio web:** https://proj4.org/index.html"
 #: ../../build/doc/overview/proj4_overview.rst:61
 msgid ""
 "**Licence:** `X/MIT style Open Source license "
-"<httpis://trac.osgeo.org/proj/wiki/WikiStart#License>`_"
+"<https://trac.osgeo.org/proj4j#License>`_"
 msgstr ""
 "**Licencia:** `licencia X/MIT estilo Código Abierto "
-"<httpis://trac.osgeo.org/proj/wiki/WikiStart#License>`_"
+"<https://trac.osgeo.org/proj4j#License>`_"
 
 #: ../../build/doc/overview/proj4_overview.rst:63
 msgid "**Software Version:** 4.9.2 (stable)"
