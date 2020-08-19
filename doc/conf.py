@@ -251,13 +251,14 @@ linkcheck_ignore = [ r'http://www.dnr.state.mn.us/maps/compass.html',
         r'http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities',
         'http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities',
         r'https://www.orfeo-toolbox.org/packages/OTBSoftwareGuide.pdf',
-        r'https://www.mapbender.org/Community',
         'http://members.ozemail.com.au/~nulifetv/freezip/freeware/dsfok.zip'
         r'http://members.ozemail.com.au/~nulifetv/freezip/freeware/dsfok.zip'
         'https://rasdaman.org',
+        'http://prj2epsg.org/search',
         r'https://www.youtube.com/watch?v=eQBdVO-n6Mg',
         r'https://standards.rasdaman.com',
-        r'http://download.osgeo.org/']
+        r'http://download.osgeo.org/',
+        'https://www.openstreetmap.org/edit']
 linkcheck_anchors = False
 
 # If false, no module index is generated.

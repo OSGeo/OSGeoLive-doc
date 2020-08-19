@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2018
-# MarPetra <mvergaratrejo@gmail.com>, 2018
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:11+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,11 +28,11 @@ msgstr "MapSlicer"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:18
 msgid "Proxy WMS & tile services"
-msgstr "Proxy WMS & Servicios de mosaicos cartográficos "
+msgstr "Proxy WMS & Servicios de mosaicos cartográficos"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:21
 msgid "Map Publishing"
-msgstr "Publicacion de Mapas"
+msgstr "Publicación de Mapas"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:23
 msgid ""
@@ -45,7 +45,7 @@ msgstr ""
 "mosiacos de mapas  y la publicación rápida de mapas ráster.  Los Geodatos "
 "son transformados en teselas compatibles con Google Maps y Earth - listos "
 "para publicarse mediante carga directa en cualquier servidor web o "
-"almacenamiento en la nube, por ejemplo Amazon S3."
+"almacenamiento en la nube, (por ejemplo Amazon S3)."
 
 #: ../../build/doc/overview/mapslicer_overview.rst:25
 msgid ""
@@ -90,13 +90,14 @@ msgstr ""
 msgid ""
 "Easy mashup with commercial layers (Google, Bing, Yahoo) or OpenStreetMap"
 msgstr ""
-"Mashup sencillo con capas comerciales (Google, Bing, Yahoo) o OpenStreetMap"
+"Mashup sencillo con capas comerciales (Google, Bing, Yahoo) u OpenStreetMap"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:42
 msgid "Tiles follow OSGEO TMS (Tile Map Service Specification)"
 msgstr ""
 "Las teselas se adecúan al Servicio de especificación de mosaicos "
-"cartográficos de OSGEO TMS (Tile Map Service Specification)."
+"cartográficos de OSGEO TMS (Especificación del Servicio de Mapas de "
+"Mosaico)."
 
 #: ../../build/doc/overview/mapslicer_overview.rst:43
 msgid ""
@@ -111,8 +112,8 @@ msgid "Details"
 msgstr "Detalles"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:48
-msgid "**Website:** https://wiki.osgeo.org/wiki/MapSlicer"
-msgstr "**Sitio web:** https://wiki.osgeo.org/wiki/MapSlicer"
+msgid "**Website:** https://mapproxy.org/"
+msgstr "**Sitio web:** https://mapproxy.org/"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:50
 msgid "**Licence:** New BSD License"
@@ -120,15 +121,15 @@ msgstr "**Licencia:** Nueva Licencia BSD"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:52
 msgid "**Source Code:** https://github.com/geopython/mapslicer"
-msgstr "**Código fuente:** https://github.com/geopython/mapslicer"
+msgstr "**Código Fuente:** https://github.com/geopython/mapslicer"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:54
 msgid "**Software Version:** |version-mapslicer|"
-msgstr "**Versión de software:** |version-mapslicer|"
+msgstr "**Versión de Software:** |version-mapslicer|"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:56
 msgid "**Supported Platforms:** Windows, Linux, Mac"
-msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
+msgstr "**Plataformas Compatibles:** GNU/Linux, Mac OSX, MS Windows"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:61
 msgid "Quickstart"

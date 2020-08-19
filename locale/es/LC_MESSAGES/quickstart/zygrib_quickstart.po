@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,19 +36,23 @@ msgstr ""
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:23
 msgid "Start zyGrib"
-msgstr ""
+msgstr "Empezar zyGrib"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:25
 msgid ""
 "From the desktop, choose :menuselection:`Navigation and Maps --> zyGrib GRIB"
 " file viewer`."
 msgstr ""
+"Desde el escritorio, elija :menuselection:`Navegación y Mapas --> zyGrib "
+"GRIB visor de archivos`."
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:26
 msgid ""
 "Select your preferred language and click :guilabel:`OK`. The program opens "
 "and you are presented with a map of the world."
 msgstr ""
+"Seleccione su idioma preferido y haga click en :guilabel:`Aceptar`. El "
+"programa se abre y se le presenta un mapa del mundo."
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:27
 msgid ""
@@ -56,6 +60,10 @@ msgid ""
 "the screen, click the power plug icon. The File Server Status window opens "
 "and after a moment, it will confirm the status of the connection."
 msgstr ""
+"Compruebe la conexión con el servidor de datos. En la barra de herramientas "
+"en la parte superior derecha de la pantalla, haga click en el ícono del "
+"enchufe de eléctrico. Se abre la ventana Estado del Servidor de Archivos y, "
+"después de un momento, confirmará el estado de la conexión."
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:30
 msgid ""
@@ -63,10 +71,14 @@ msgid ""
 "You can get GRIB data from many sources, but as a convenience the zyGrib "
 "authors maintain a data server to use with zyGrib."
 msgstr ""
+"Necesitarás una conexión a internet para descargar los datos de previsión "
+"meteorológica GRIB. Puede obtener datos GRIB de muchas fuentes, pero para "
+"comodidad los autores de zyGrib mantienen un servidor de datos para usar con"
+" zyGrib."
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:34
 msgid "Download data"
-msgstr ""
+msgstr "Descargar datos"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:36
 msgid ""
@@ -74,28 +86,41 @@ msgid ""
 "world you are interested in. The Gulf of Mexico or the southern tip of "
 "Africa often have dynamic winds."
 msgstr ""
+"Utilice el ratón para hacer click y arrastrar un cuadro en el lienzo del "
+"mapa en una parte del mundo que le interesa. El Golfo de México o el extremo"
+" sur de Africa a menudo tienen vientos dinámicos."
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:37
 msgid ""
 "With your box drawn on the map, click the zoom-to-box icon on the taskbar "
 "(the magnifying glass with a small box underneath it)"
 msgstr ""
+"Con el cuadro dibujado en el mapa, haga click en el ícono de zoom-a-caja en "
+"la barra de tareas (la lupa con una pequeña caja debajo de ella)"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:38
 msgid ""
 "Again,  mark out a box of interest with a left-click drag, but this time "
 "covering most or all of the zoomed-in map canvas."
 msgstr ""
+"Una vez más, marque un cuadro de interés con un arrastre del botón izquierdo"
+" del click, pero esta vez cubriendo la mayor parte o la totalidad del lienzo"
+" de mapa ampliado."
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:39
 msgid ""
 "Select :menuselection:`File --> Download GRIB` and select the features you "
 "want to download. If in doubt, accept the defaults."
 msgstr ""
+"Seleccione :menuselection:`File --> Descargar GRIB` y seleccione las "
+"características que desea descargar. En caso de duda, acepte los valores "
+"predeterminados."
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:40
 msgid "When ready click the ``Download`` button, and save the file to disk."
 msgstr ""
+"Cuando esté listo, haga click en el botón ``Descargar`` y guarde el archivo "
+"en el disco."
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:42
 msgid ""
@@ -103,16 +128,21 @@ msgid ""
 "set for the current time. You can use the mouse wheel to zoom in if you "
 "like."
 msgstr ""
+"La aplicación muestra un mapa del tiempo con un control deslizante de tiempo"
+" a lo largo de la parte inferior, establecido para la hora actual. Puede "
+"utilizar la rueda del ratón para acercar si lo desea."
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:46
 msgid "Change views"
-msgstr ""
+msgstr "Cambiar vistas"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:48
 msgid ""
 "Move the mouse around the map you'll see the exact conditions listed in the "
 "pane on the left."
 msgstr ""
+"Mueva el ratón por el mapa, verá las condiciones exactas enumeradas en el "
+"panel de la izquierda."
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:49
 msgid ""
@@ -129,6 +159,9 @@ msgid ""
 "select :menuselection:`Weather map --> Cloud cover` and the view should "
 "change."
 msgstr ""
+"En el menú ``Mapa meteorológico``, seleccione una variable para visualizar. "
+"Por ejemplo, seleccione :menuselection:`Mapa meteorológico --> Cubierta de "
+"nubes` y la vista debe cambiar."
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:52
 msgid ""
@@ -147,37 +180,47 @@ msgid ""
 "If you downloaded data for southern Africa, cloud cover may be more "
 "interesting."
 msgstr ""
+"Si ha descargado datos para el sur de Africa, la cobertura de nubes puede "
+"ser más interesante."
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:58
 msgid "Create an animation"
-msgstr ""
+msgstr "Crear una animación"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:60
 msgid ""
 "Click the right-hand most icon on the toolbar (a rocketship). A new window "
 "opens and an animation will be generated."
 msgstr ""
+"Haga click en el ícono de la derecha más en la barra de herramientas (un "
+"cohete). Se abre una nueva ventana y se generará una animación."
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:61
 msgid ""
 "Wait while it runs through the time sequence for the first time. When it is "
 "done it will rewind to the beginning of the time series."
 msgstr ""
+"Espere mientras se ejecuta a través de la secuencia de tiempo por primera "
+"vez. Cuando se hace se rebobinará al principio de la serie temporal."
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:62
 msgid "You can play, pause and rewind the sequence as you like."
-msgstr ""
+msgstr "Puede reproducir, pausar y rebobinar la secuencia como desee."
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:63
 msgid ""
 "You can also save each frame as an image file for later encoding into an "
 "AVI, MPEG, or animated GIF `using other software "
-"<http://grass.osgeo.org/wiki/Movies>`_."
+"<https://grasswiki.osgeo.org/wiki/Movies>`_."
 msgstr ""
+"También puede guardar cada fotograma como un archivo de imagen para su "
+"posterior codificación en un AVI, MPEG o GIF animado `utilizando otro "
+"software <https://grasswiki.osgeo.org/wiki/Movies>`_."
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:64
 msgid "When you're done, click the red power button to close."
 msgstr ""
+"Cuando haya terminado, haga click en el botón rojo de encendido para cerrar."
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:68
 msgid "What next?"
@@ -196,9 +239,9 @@ msgstr ""
 "<../quickstart/opencpn_quickstart>` para más detalles. "
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:76
-msgid "Website: http://www.zygrib.org"
-msgstr ""
+msgid "Website: https://www.zygrib.org"
+msgstr "Sitio web: https://www.zygrib.org"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:77
-msgid "Support: http://zygrib.org/forum/"
-msgstr ""
+msgid "Support: https://zygrib.org/forum/"
+msgstr "Soporte: https://zygrib.org/forum/"

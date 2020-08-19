@@ -7,16 +7,16 @@
 # Jorge Sanz <xurxosanz@gmail.com>, 2017
 # Violeta Sosa <vsosa.ud@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2018
-# MarPetra <mvergaratrejo@gmail.com>, 2018
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:53-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -117,7 +117,7 @@ msgstr "Atribucion en la Documentación del OSGeoLive"
 #: ../../build/doc/copyright.rst:20
 msgid ""
 "As per the `terms of the Creative Commons license "
-"<https://wiki.creativecommons.org/Frequently_Asked_Questions#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_,"
+"<https://creativecommons.org/faq/#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_,"
 " if you include OSGeoLive documentation into a new document, you will need "
 "to attribute the contributors. Further, if Quickstarts are included, which "
 "are licenced under the `CC By-SA <https://creativecommons.org/licenses/by-"
@@ -125,7 +125,7 @@ msgid ""
 "under the `CC By-SA <https://creativecommons.org/licenses/by-sa/3.0/>`_."
 msgstr ""
 "De acuerdo con los `términos de la licencia Creative Commons "
-"<https://wiki.creativecommons.org/Frequently_Asked_Questions#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_,"
+"<https://creativecommons.org/faq/#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_,"
 " si usted incluye documentación de OSGeoLive en un nuevo documento debe "
 "hacer mención a los contribuidores.  Además, si incluye Guías de Inicio "
 "Rápido, que están licenciadas con licencia `CC By-SA "
@@ -133,7 +133,7 @@ msgstr ""
 "documento deberá licenciarse necesariamente bajo `CC By-SA "
 "<https://creativecommons.org/licenses/by-sa/3.0/>`_."
 
-#: ../../build/doc/copyright.rst:23
+#: ../../build/doc/copyright.rst:25
 msgid ""
 "Note that images are not necessarily provided under the same CC license as "
 "the text; check with the author."
@@ -141,82 +141,81 @@ msgstr ""
 "Tenga en cuenta que las imágenes no están necesariamente bajo la misma "
 "licencia CC que el texto, por lo que debe consultar con el autor."
 
-#: ../../build/doc/copyright.rst:25
+#: ../../build/doc/copyright.rst:27
 msgid "You may use attribution text similar to one of the following:"
 msgstr ""
 "Puede usar un texto de reconocimiento similar a los siguientes ejemplos:"
 
-#: ../../build/doc/copyright.rst:27
+#: ../../build/doc/copyright.rst:29
 msgid "**Verbose, suitable for a 100 page thesis:**"
 msgstr "**Detallado, adecuado para una tesis de 100 páginas:**"
 
-#: ../../build/doc/copyright.rst:29
+#: ../../build/doc/copyright.rst:31
 msgid ""
 "|CC-By-SA-med| This document includes content from the \"gvSIG Quickstart\" "
 "created by Simon Cropper under the Creative Commons Attribution-ShareAlike "
 "3.0 Unported licence, https://creativecommons.org/licenses/by-sa/3.0/ "
 "available from the OSGeoLive project, "
-"http://live.osgeo.org/en/quickstart/gvsig_quickstart.html, and downloaded on"
-" 25 July 2011. The original work was translated from English to German."
+"https://live.osgeo.org/en/quickstart/gvsig_quickstart.html, and downloaded "
+"on 25 July 2011. The original work was translated from English to German."
 msgstr ""
 "|CC-By-SA-med| Este documento incluye contenido de la \"Guía de Inicio "
 "Rápido de gvSIG\" creada por Simon Cropper bajo la licenciaCreative Commons "
 "Attribution-ShareAlike 3.0 Unported, https://creativecommons.org/licenses"
 "/by-sa/3.0/ disponible en el proyecto OSGeoLive, "
-"http://live.osgeo.org/en/quickstart/gvsig_quickstart.html, y descargado el "
-"25 de Julio de 2011. El trabajo original fue traducido del inglés al "
-"español."
+"https://live.osgeo.org/en/quickstart/gvsig_quickstart.html y descargado el "
+"25 de Julio de 2011. El trabajo original fue traducido del inglés al alemán."
 
-#: ../../build/doc/copyright.rst:34
+#: ../../build/doc/copyright.rst:36
 msgid "**Concise CC-By-SA and attribution:**"
 msgstr "**Conciso CC-By-SA y reconocimiento:**"
 
-#: ../../build/doc/copyright.rst:36
+#: ../../build/doc/copyright.rst:38
 msgid ""
 "© 2011 [Your Name] under a `CC By SA License "
 "<https://creativecommons.org/licenses/by-sa/3.0/>`_.  [Derived "
-"from|Includes|Extends] `OSGeoLive <http://live.osgeo.org>`_ documentation by"
-" `OSGeoLive contributors <http://live.osgeo.org/en/copyright.html>`_."
+"from|Includes|Extends] `OSGeoLive <https://live.osgeo.org>`_ documentation "
+"by `OSGeoLive contributors <http://live.osgeo.org/en/copyright.html>`_."
 msgstr ""
 "© 2011 [Su nombre] bajo una `Licencia CC By SA "
 "<https://creativecommons.org/licenses/by-sa/3.0/>`_. [Derivado "
-"de|Incluye|Extiende] documentación del `OSGeo-Live <http://live.osgeo.org>`_"
-" elaborado por los siguientes `contribuidores de OSGeoLive "
-"<http://live.osgeo.org/en/copyright.html>`_."
+"de|Incluye|Extiende] documentación del `OSGeo-Live "
+"<https://live.osgeo.org>`_ elaborado por los siguientes `contribuidores de "
+"OSGeoLive <http://live.osgeo.org/en/copyright.html>`_."
 
-#: ../../build/doc/copyright.rst:38
+#: ../../build/doc/copyright.rst:40
 msgid "**Alternative Concise CC-By and attribution:**"
 msgstr "**Alternativa Concisa CC-By y reconocimiento:**"
 
-#: ../../build/doc/copyright.rst:40
+#: ../../build/doc/copyright.rst:42
 msgid ""
 "|CC-By-small| © 2011 [Your Name]. [Derived from|Includes|Extends] `OSGeoLive"
-" <http://live.osgeo.org>`_ Project Overviews by `OSGeoLive contributors "
+" <https://live.osgeo.org>`_ Project Overviews by `OSGeoLive contributors "
 "<http://live.osgeo.org/en/copyright.html>`_."
 msgstr ""
 "|CC-By-small| © 2011 [Your Name]. [Derived from|Includes|Extends] `OSGeoLive"
-" <http://live.osgeo.org>`_  Vistas Generales de Proyectos por `OSGeoLive "
+" <https://live.osgeo.org>`_  Vistas Generales de Proyectos por `OSGeoLive "
 "contributors <http://live.osgeo.org/en/copyright.html>`_."
 
-#: ../../build/doc/copyright.rst:45
+#: ../../build/doc/copyright.rst:47
 msgid "**Minimum (for Project Overviews), attribution only:**"
 msgstr "**Mínimo (para Vistas Generales de Proyectos), sólo atribución:**"
 
-#: ../../build/doc/copyright.rst:47
+#: ../../build/doc/copyright.rst:49
 msgid ""
-"This document includes `OSGeoLive <http://live.osgeo.org>`_ Project "
+"This document includes `OSGeoLive <https://live.osgeo.org>`_ Project "
 "Overviews by `OSGeoLive contributors "
 "<http://live.osgeo.org/en/copyright.html>`_."
 msgstr ""
-"Este documento incluye `OSGeoLive <http://live.osgeo.org>`_ Vistas Generales"
-" de Proyectos por `OSGeoLive contributors "
+"Este documento incluye `OSGeoLive <https://live.osgeo.org>`_ Vistas "
+"Generales de Proyectos por `OSGeoLive contributors "
 "<http://live.osgeo.org/en/copyright.html>`_."
 
-#: ../../build/doc/copyright.rst:50
+#: ../../build/doc/copyright.rst:52
 msgid "Documentation Contributors"
 msgstr "Contribuidores de documentación"
 
-#: ../../build/doc/copyright.rst:52
+#: ../../build/doc/copyright.rst:54
 msgid ""
 "The table below credits the contributors for each of the documents on "
 "OSGeoLive."
@@ -224,7 +223,7 @@ msgstr ""
 "La siguiente table atribuye a los contribuidores de cada uno de los "
 "documentos del OSGeoLive."
 
-#: ../../build/doc/copyright.rst:54
+#: ../../build/doc/copyright.rst:56
 msgid "OSGeoLive Document Contributors"
 msgstr "Contribuidores a la documentación de OSGeoLive"
 
@@ -387,14 +386,13 @@ msgid "cartaro_overview"
 msgstr "cartaro_overview"
 
 #: ../../build/licenses.csv:1
-msgid ""
-"Friedjoff Trautwein, http://www.geops.de; Patric Hafner, http://www.geops.de"
+msgid "Friedjoff Trautwein, https://geops.de; Patric Hafner, https://geops.de"
 msgstr ""
-"Friedjoff Trautwein, http://www.geops.de; Patric Hafner, http://www.geops.de"
+"Friedjoff Trautwein, https://geops.de; Patric Hafner, https://geops.de"
 
 #: ../../build/licenses.csv:1
-msgid "Cameron Shorter, http://jirotech.com"
-msgstr "Cameron Shorter, http://jirotech.com"
+msgid "Cameron Shorter, https://www.jirotech.com"
+msgstr "Cameron Shorter, https://www.jirotech.com"
 
 #: ../../build/licenses.csv:1
 msgid "cesium_overview"
@@ -972,11 +970,11 @@ msgstr "cartaro_quickstart"
 
 #: ../../build/licenses.csv:1
 msgid ""
-"Friedjoff Trautwein (http://www.geops.de); Augustus Kling "
-"(http://www.geops.de); Patric Hafner (http://www.geops.de)"
+"Friedjoff Trautwein (https://geops.de); Augustus Kling (https://geops.de); "
+"Patric Hafner (https://geops.de)"
 msgstr ""
-"Friedjoff Trautwein (http://www.geops.de); Augustus Kling "
-"(http://www.geops.de); Patric Hafner (http://www.geops.de)"
+"Friedjoff Trautwein (https://geops.de); Augustus Kling (https://geops.de); "
+"Patric Hafner (https://geops.de)"
 
 #: ../../build/licenses.csv:1
 msgid "cesium_quickstart"
@@ -1440,11 +1438,11 @@ msgstr "webworldwind_quickstart"
 
 #: ../../build/licenses.csv:1 ../../build/licenses.csv:1
 msgid ""
-"`NASA OPEN SOURCE AGREEMENT VERSION 1.3 <http://worldwind.arc.nasa.gov"
-"/worldwind-nosa-1.3.html/>`_"
+"`NASA OPEN SOURCE AGREEMENT VERSION 1.3 "
+"<https://opensource.org/licenses/NASA-1.3>`_"
 msgstr ""
-"`NASA OPEN SOURCE AGREEMENT VERSION 1.3 <http://worldwind.arc.nasa.gov"
-"/worldwind-nosa-1.3.html/>`_"
+"`NASA OPEN SOURCE AGREEMENT VERSION 1.3 "
+"<https://opensource.org/licenses/NASA-1.3>`_"
 
 #: ../../build/licenses.csv:1
 msgid "worldwindjava_quickstart"
@@ -1462,11 +1460,11 @@ msgstr "Angelos Tzotsos; Cameron Shorter, Jirotech"
 msgid "zygrib_quickstart"
 msgstr "zygrib_quickstart"
 
-#: ../../build/doc/copyright.rst:59
+#: ../../build/doc/copyright.rst:61
 msgid "Disclaimer"
 msgstr "Disclaimer"
 
-#: ../../build/doc/copyright.rst:61
+#: ../../build/doc/copyright.rst:63
 msgid ""
 "*The contents of OSGeoLive are provided by the copyright holders and "
 "contributors \"as is\" and any express or implied warranties, including, but"
