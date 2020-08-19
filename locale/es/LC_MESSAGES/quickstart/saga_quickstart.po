@@ -1,0 +1,614 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Gabo Gaona <gavg712@gmail.com>, 2018
+# Vicky Vergara <vicky@georepublic.de>, 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"PO-Revision-Date: 2017-09-20 16:03+0000\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:17
+msgid "SAGA Quickstart"
+msgstr "Inicio rápido de SAGA"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:19
+msgid ""
+"SAGA (System for Automated Geoscientific Analyses) is an open source "
+"geographic information system (GIS) used for editing and analysing spatial "
+"data. It includes a large number of modules for the analysis of vector "
+"(point, line and polygon), table, grid and image data. Among others the "
+"package includes modules for geostatistics, image classification, "
+"projections, simulation of dynamic processes (hydrology, landscape "
+"development) and terrain analysis. The functionality can be accessed through"
+" a GUI, the command line or by using the C++ API."
+msgstr ""
+"SAGA (Sistema para Análisis Geocientíficos Automatizados, siglas en inglés) "
+"es un sistema de información geográfica (SIG) de código abierto utilizado "
+"para editar y analizar datos espaciales. Este incluye un gran número de "
+"módulos para el análisis de datos vectoriales (puntos, líneas y polígonos), "
+"tablas, cuadrículas e imágenes. Entre otros, el paquete incluye módulos de "
+"geoestadística, clasificación de imágenes, proyecciones, simulación de "
+"procesos dinámicos (hidrología, desarrollo del paisaje) y análisis del "
+"terreno. Se puede acceder a estas funcionalidades a través de una interfaz "
+"gráfica de usuario, la línea de comandos o utilizando la API de C++."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:32
+msgid "Running"
+msgstr "Ejecutando"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:34
+msgid ""
+"To run SAGA GIS on the Live DVD, open the Desktop GIS group on the Desktop "
+"and click on the SAGA link."
+msgstr ""
+"Para ejecutar SAGA GIS en el Live DVD, abra el grupo Desktop GIS en el "
+"escritorio y luego clic en el acceso directo de SAGA. "
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:37
+msgid ""
+"When opening SAGA for the first time, you are presented with 3 subwindows: "
+"the Manager, the object Properties and the Messages window. The information "
+"in the object properties window will change depending on your selection in "
+"the Manager window."
+msgstr ""
+"Al abrir SAGA por primera vez, se le presentan 3 subventanas: el "
+"Administrador, las Propiedades del objeto y la Ventana de mensajes. La "
+"información en la ventana de propiedades del objeto cambiará dependiendo de "
+"su selección en la ventana del Administrador."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:42
+msgid ""
+"You can close any of the windows (Manager, Object Properties, Data Sources "
+"and Messages). Try closing one of the windows to get more place for your "
+"map. You can show closed windows again in the **Window** menu."
+msgstr ""
+"Puede cerrar cualquiera de las ventanas (Administrador, Propiedades de "
+"objeto, Fuentes de datos y Mensajes). Intente cerrar una de las ventanas "
+"para obtener más espacio para su mapa. Puede volver a mostrar las ventanas "
+"cerradas en el menú **Ventana**."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:51
+msgid "Opening data"
+msgstr "Datos de apertura"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:53
+msgid ""
+"Open the SAGA GUI and load the grid "
+"`/home/user/data/saga/DGM_30m_Mt.St.Helens_SRTM.grd` via the "
+"**File|Grid|Load** menu."
+msgstr ""
+"Abra la interfaz gráfica de SAGA y cargue la grid "
+"`/home/user/data/saga/DGM_30m_Mt.St.Helens_SRTM.grd` a través del menú "
+"**File|Grid|Load**."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:56
+msgid ""
+"You will get a message in the General tab of the Messages window regarding "
+"the success or failure of this task. You should see something like `Load "
+"Grid: DGM_30m_Mt.St.Helens_SRTM.grd...okay`. Once you loaded the dataset, it"
+" will show up in the Data tab of the Workspace window. It will be listed "
+"under Grids and the grid system it belongs to."
+msgstr ""
+"Obtendrá un mensaje en la pestaña General de la Ventana de mensajes de éxito"
+" o fallo de esta tarea. Deberia ver algo como `Load Grid: "
+"DGM_30m_Mt.St.Helens_SRTM.grd...okay`. Una vez cargado el conjunto de datos,"
+" aparecerá en la pestaña Datos de la ventana Espacio de trabajo. Se listará "
+"en Cuadrículas y el sistema de cuadrículas al que pertenece."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:62
+msgid ""
+"In this case, the grid system information will look like **30;312x 458y; "
+"557970x 5108130y**. The first number is the cell size (30 meters), the next "
+"two numbers show the number of cells in x and y direction respectively, and "
+"the last two numbers are the origin of the grid."
+msgstr ""
+"En este caso, la información del sistema de la cuadrícula se verá como "
+"**30;312x 458y; 557970x 5108130y**. El primer número es el tamaño de la "
+"celda (30 metros), los siguientes dos números muestran el número de celdas "
+"en las direcciones x e y respectivamente, y los últimos dos números son el "
+"origen de la cuadrícula."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:67
+msgid ""
+"SAGA's grid systems are referenced by the bottom left corner. This, and some"
+" more useful information on the dataset show up if you select the "
+"Description tab of the Properties window. Once you click on the tab, you "
+"will see not only more detailed information on the grid system, but also the"
+" Value Type of the grid (here FLOAT), the Value Range, some statistical "
+"measures and the Memory Size."
+msgstr ""
+"Los sistemas de cuadrículas de SAGA son referenciados por la esquina "
+"inferior izquierda. Esto, y alguna otra información útil sobre el conjunto "
+"de datos se muestra si selecciona la pestaña Descripción de la Ventana de "
+"propiedades. Una vez que haga clic en la pestaña, verá no sólo información "
+"más detallada sobre el sistema de la cuadrícula, sino también el Tipo de "
+"valores de la cuadrícula (aquí FLOAT), el Rango de valores, algunas medidas "
+"estadísticas y el Tamaño de la memoria."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:74
+msgid ""
+"You can also load data by dragging and dropping it on the application. Try "
+"this with one of the datasets in the **/home/user/data/gdal_natural_earth/**"
+" folder."
+msgstr ""
+"También puede cargar datos arrastrándolos y soltándolos en la aplicación. "
+"Pruebe esto con uno de los conjuntos de datos en la carpeta "
+"**/home/user/data/gdal_natural_earth/**. "
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:78
+msgid "Displaying data"
+msgstr "Visualización de datos"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:80
+msgid "To display the dataset in a map view:"
+msgstr "Para mostrar el conjunto de datos en una vista de mapa:"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:82
+msgid ""
+"Double click on the dataset in the Data tab of the Workspace window. A new "
+"Map window will open up with the dataset displayed. The canvas is framed: "
+"top and left the x- and y-world coordinates are displayed. Bottom and right "
+"you see rulers in map units."
+msgstr ""
+"Haz doble click en el conjunto de datos en la pestaña Datos de la ventana "
+"del Espacio de Trabajo. Se abrirá una nueva ventana de Mapa con el conjunto "
+"de datos desplegado. El lienzo está enmarcado: arriba y a la izquierda se "
+"muestran las coordenadas mundiales x- e y-. Abajo y a la derecha, verás "
+"reglas en unidades de mapa."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:85
+msgid ""
+"Try moving the mouse pointer over the map and watch the x-, y- and "
+"z-coordinates displayed in the bottom bar of the SAGA GUI window. The "
+"z-coordinates displayed correspond to the elevation values of the dataset "
+"(be aware that the values displayed are always those of the dataset selected"
+" in the Data or Maps tab)."
+msgstr ""
+"Intente mover el puntero del mouse sobre el mapa y observe las coordenadas "
+"x-, y- y z- que se muestran en la barra inferior de la ventana SAGA GUI. Las"
+" coordenadas z- que se muestran corresponden a los valores de elevación del "
+"conjunto de datos (tenga en cuenta que los valores que se muestran son "
+"siempre los del conjunto de datos seleccionado en la pestaña Datos o Mapas)."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:90
+msgid ""
+"Now use the navigation tools to zoom and pan. The Zoom tool is selected by "
+"default. A left click on the map zooms in, a right click zooms out. Holding "
+"the left mouse button down, dragging to the opposite corner and letting the "
+"mouse button up allows you to zoom to an area of interest."
+msgstr ""
+"Ahora use las herramientas de navegación para hacer zoom y panear. La "
+"herramienta Zoom está seleccionada de forma predeterminada. Un click "
+"izquierdo en el mapa se acerca, un clic derecho se aleja. Manteniendo "
+"presionado el botón izquierdo del mouse, arrastrándolo a la esquina opuesta "
+"y dejando el botón del mouse hacia arriba le permite acercarse a un área de "
+"interés."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:95
+msgid ""
+"If you zoom in a lot and turn on Show cell values on Settings tab, you will "
+"see that the cell values are getting displayed. To pan, select the Pan tool "
+"and click and drag to move the map. Have a look at the other buttons in the "
+"tool bar: these allow you to zoom e.g. to Full Extent."
+msgstr ""
+"Si amplía mucho y activa Mostrar valores de celda en la pestaña "
+"Configuración, verá que se despliegan los valores de celda. Para panear, "
+"seleccione la herramienta Paneo y haz click y arrastre para mover el mapa. "
+"Eche un vistazo a los otros botones en la barra de herramientas: estos le "
+"permiten hacer zoom, por ejemplo, a Extensión completa."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:102
+msgid ""
+"Saga zooms very fast, if you are lost while browsing your data, click the "
+"'Zoom to Full Extent' button in the toolbar"
+msgstr ""
+"Saga hace zoom muy rápido, si se pierde mientras navega por sus datos, haga "
+"click en el botón 'Zoom a Extensión Completa' en la barra de herramientas"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:106
+msgid "Creating a shaded relief map view"
+msgstr "Creación de una vista de mapa con relieve sombreado"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:107
+msgid "We will enhance the map display by calculating a shaded relief map."
+msgstr ""
+"Mejoraremos la visualización del mapa calculando un mapa de relieve "
+"sombreado."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:109
+msgid ""
+"Switch to the Tools tab of the Manager window and click on the triangle left"
+" to the **Terrain Analysis - Lighting, Visibility** module library: the list"
+" with the modules of this library will show up."
+msgstr ""
+"Cambie a la pestaña Herramientas de la ventana Administrador y haga click en"
+" el triángulo a la izquierda de la biblioteca de módulos **Análisis de "
+"Terreno - Iluminación, Visibilidad**: aparecerá la lista con los módulos de "
+"esta biblioteca."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:112
+msgid ""
+"Now select the Analytical Hillshading module and then select the Settings "
+"tab of the Properties window. This will show up the module parameters (also "
+"have a look at the Description tab, which will display more information "
+"about the module and its parameters)."
+msgstr ""
+"Ahora seleccione el módulo Sombreado Analítico y luego seleccione la pestaña"
+" Configuración de la ventana Propiedades. Esto mostrará los parámetros del "
+"módulo (también eche un vistazo a la pestaña Descripción, que mostrará más "
+"información sobre el módulo y sus parámetros)."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:116
+msgid ""
+"Click in the right column of the Grid system parameter (where [not set] is "
+"displayed) and select the grid system of the Mt. St. Helens dataset (**30; "
+"312x 458y; 557970x 5108130y**)."
+msgstr ""
+"Haga click en la columna derecha del parámetro del sistema de Cuadrícula "
+"(donde se muestra [no establecido]) y seleccione el sistema de cuadrícula "
+"del conjunto de datos de Mt. St. Helens ( 30; 312x 458y; 557970x 5108130y )."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:119
+msgid ""
+"Next click into the right column of the Elevation parameter and select the "
+"dataset. Click in the right column of the Shading Method option and select "
+"Standard. Now press the Apply and then the Execute button. A new dataset "
+"containing the hillshade will be calculated."
+msgstr ""
+"Luego haga click en la columna derecha del parámetro Elevación y seleccione "
+"el conjunto de datos. Haga click en la columna derecha de la opción Método "
+"de sombreado y seleccione Estándar. Ahora presione el botón Aplicar y luego "
+"el botón Ejecutar. Se calculará un nuevo conjunto de datos que contiene el "
+"sombreado."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:124
+msgid ""
+"Have a look at the Data tab of the Workspace window - you will find the "
+"newly created dataset."
+msgstr ""
+"Eche un vistazo a la pestaña Datos de la ventana del Espacio de Trabajo: "
+"encontrará el conjunto de datos recién creado."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:126
+msgid ""
+"Double click on the 'Analytical Hillshading' dataset and select New in the "
+"dialog popping up. This will display the dataset in a new map view. After "
+"inspecting the dataset, close the Map window by selecting Close from the "
+"Window menu."
+msgstr ""
+"Haga doble click en el conjunto de datos 'Sombreado Analítico' y seleccione "
+"Nuevo en el cuadro de diálogo emergente. Esto mostrará el conjunto de datos "
+"en una nueva vista de mapa. Después de inspeccionar el conjunto de datos, "
+"cierre la ventana de Mapa seleccionando Cerrar en el menú de Ventana."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:131
+msgid ""
+"Now double click on the hillshade dataset again, but select the Map "
+"containing the elevation dataset in the dialog popping up (Add layer to "
+"selected map). This will place the hillshade on top of the elevation "
+"dataset."
+msgstr ""
+"Ahora haga doble click en el conjunto de datos de sombreado nuevamente, pero"
+" seleccione el Mapa que contiene el conjunto de datos de elevación en el "
+"cuadro de diálogo emergente (Agregar capa al mapa seleccionado). Esto "
+"colocará el sombreado en la parte superior del conjunto de datos de "
+"elevación."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:138
+msgid ""
+"Switch to the Maps tab of the Manager window. You will see on the Tree tab "
+"the entry of your map and the datasets the map is composed of. The drawing "
+"order is top to bottom. Now do a right click on the 'Analytical Hillshading'"
+" dataset and select Move To Bottom from the context menu popping up. This "
+"will change the drawing order, placing the hillshade beneath the elevation "
+"dataset (which now shows up again in the map view)."
+msgstr ""
+"Cambie a la pestaña Mapas de la ventana Administrador. Verá en la pestaña "
+"Árbol la entrada de su mapa y los conjuntos de datos de los que está "
+"compuesto el mapa. El orden de dibujo es de arriba a abajo. Ahora haga click"
+" con el botón derecho en el conjunto de datos 'Sombreado Analítico' y "
+"seleccione Mover a la Parte Inferior en el menú contextual emergente. Esto "
+"cambiará el orden de dibujo, colocando el sombreado debajo del conjunto de "
+"datos de elevación (que ahora aparece nuevamente en la vista del mapa)."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:144
+msgid ""
+"Now select the elevation dataset (by left clicking) and have a look at the "
+"Settings tab of the Properties window. Find the Display section of the "
+"parameters and click in the right column of the Transparency option. Enter a"
+" value of 30 and press the Apply button. Now you will see your elevation "
+"values shaded by relief."
+msgstr ""
+"Ahora seleccione el conjunto de datos de elevación (haciendo click "
+"izquierdo) y eche un vistazo a la pestaña Configuración de la ventana "
+"Propiedades. Busque la sección Visualización de los parámetros y haga click "
+"en la columna derecha de la opción Transparencia. Ingrese un valor de 30 y "
+"presione el botón Aplicar. Ahora verá sus valores de elevación sombreados "
+"por relieve."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:150
+msgid ""
+"Feel free to try other Transparency settings or even try other Shading "
+"Methods in the Analytical Hillshading module (in case you do not change the "
+"output dataset parameter, the changes will be written to the grid already "
+"created, i.e. you will see the changes in the map view immediately)."
+msgstr ""
+"Siéntase libre de probar otras configuraciones de Transparencia o incluso "
+"probar otros Métodos de Sombreado en el módulo de Sombreado Analítico (en "
+"caso de que no cambie el parámetro del conjunto de datos de salida, los "
+"cambios se escribirán en la cuadrícula ya creada, es decir, verá los cambios"
+" en el mapa ver de inmediato)."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:156
+msgid "3D visualization"
+msgstr "Visualización 3D"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:157
+msgid "In a next step, you might like to visualize your map in 3D."
+msgstr "En el siguiente paso, es posible que desee visualizar su mapa en 3D."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:159
+msgid ""
+"Be sure your Map window is selected and press the Show 3D-View button in the"
+" tool bar. In the dialog popping up, select the grid system containing your "
+"elevation dataset and set the Mt. St. Helens dataset as the Elevation "
+"parameter. Once you press the Okay button, the 3D view of your map will show"
+" up. Hold the left mouse button pressed and move the mouse to rotate and "
+"tilt the map."
+msgstr ""
+"Asegúrese de que su ventana de Mapa esté seleccionada y presione el botón "
+"Mostrar Vista-3D en la barra de herramientas. En el cuadro de diálogo "
+"emergente, seleccione el sistema de cuadrícula que contiene su conjunto de "
+"datos de elevación y configure el  Conjunto de datos de Mt. St. Helens como "
+"parámetro de Elevación. Una vez que presione el botón Aceptar, aparecerá la "
+"vista 3D de su mapa. Mantenga presionado el botón izquierdo del mouse y "
+"mueva el mouse para rotar e inclinar el mapa."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:166
+msgid ""
+"Use the mouse wheel to zoom in/out and the right button to shift the map. "
+"Also have a look at the tool bar of the 3D View: the buttons replicate the "
+"mouse operations and offer further functionality. To close the 3D view "
+"select the Close option from the Window menu."
+msgstr ""
+"Use la rueda del mouse para acercar/alejar y el botón derecho para desplazar"
+" el mapa. También eche un vistazo a la barra de herramientas de la Vista 3D:"
+" los botones replican las operaciones del mouse y ofrecen más funciones. "
+"Para cerrar la vista 3D, seleccione la opción Cerrar en el menú de Ventana."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:175
+msgid "Creating contour lines"
+msgstr "Creación de curvas de nivel"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:176
+msgid ""
+"As a short introduction to SAGA vector capabilities, we will now generate "
+"Contour Lines from the digital elevation model."
+msgstr ""
+"Como una breve introducción a las capacidades vectoriales de SAGA, ahora "
+"generaremos Líneas de Contorno a partir del modelo de elevación digital."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:179
+msgid ""
+"This can be done by using the **Shapes - Grid | Contour Lines From Grid** if"
+" you open the tools tab in the manager, or you can equally well open the "
+"module using the menu: **Geoprocessing|Shapes|Grid|Vectorization**."
+msgstr ""
+"Esto se puede hacer usando las **Formas - Cuadrícula | Líneas de Contorno de"
+" la Cuadrícula** si abre la pestaña de herramientas en el administrador, o "
+"bien puede abrir el módulo utilizando el menú: "
+"**Geoprocesamiento|Formas|Cuadrícula|Vectorización**."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:182
+msgid ""
+"Choose your grid system and grid (this has to be the elevation). You can "
+"leave the options as they are, but perhaps it is better to choose an "
+"equidistance of 50m instead of the standard 10m."
+msgstr ""
+"Elija su sistema de cuadrícula y cuadrícula (esta debe ser la elevación). "
+"Puede dejar las opciones como están, pero quizás sea mejor elegir una "
+"equidistancia de 50m en lugar de la estándar de 10m."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:185
+msgid ""
+"A few seconds later your contour map has been generated and you should find "
+"it back under the data tab in the workspace. Try opening your contour map in"
+" a new map. All contour lines now have the same colour, which is not that "
+"attractive."
+msgstr ""
+"Unos segundos después, se ha generado su mapa de contorno y debería "
+"encontrarlo nuevamente en la pestaña de datos en el espacio de trabajo. "
+"Intente abrir su mapa contorneado en un nuevo mapa. Todas las líneas de "
+"contorno ahora tienen el mismo color, lo que no es tan atractivo."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:189
+msgid ""
+"If you select your data set (in the workspace, data tab) and check the "
+"Settings in the Object Properties window, you can find a section: Display: "
+"color classification. You can change the classification from 'Unique symbol'"
+" to graduated color. Then you should still adjust the attribute which is "
+"used for this graduated color to the elevation. Press apply, and you are "
+"presented with coloured contour lines."
+msgstr ""
+"Si selecciona su conjunto de datos (en el espacio de trabajo, pestaña de "
+"datos) y verifica la Configuración en la ventana Propiedades del Objeto, "
+"puede encontrar una sección: Pantalla: clasificación de colores. Puede "
+"cambiar la clasificación de 'Símbolo único' a color graduado. Entonces aún "
+"debe ajustar el atributo que se utiliza para este color graduado a la "
+"elevación. Presione aplicar, y se le presentarán líneas de contorno "
+"coloreadas."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:197
+msgid "Check your history"
+msgstr "Revisa tu historial"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:198
+msgid ""
+"If you select a dataset (eg your contour lines) in the data tab of the "
+"manager window, you can switch the object properties tab to 'history' to "
+"review which module and which options were used to create the dataset. This "
+"information is also kept when you save your files (in .mshp and .mgrd "
+"files)."
+msgstr ""
+"Si selecciona un conjunto de datos (por ejemplo, sus líneas de contorno) en "
+"la pestaña de datos de la ventana del administrador, puede cambiar la "
+"pestaña de propiedades del objeto a 'historial' para revisar qué módulo y "
+"qué opciones se usaron para crear el conjunto de datos. Esta información "
+"también se mantiene cuando guarda sus archivos (en archivos .mshp y .mgrd)."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:206
+msgid ""
+"You can create a tool chain from your history - which allows you to run a "
+"chain of modules again with fixed options. A tutorial can be found at "
+"https://rohanfisher.wordpress.com/saga-tool-chains/"
+msgstr ""
+"Puede crear una cadena de herramientas a partir de su historial, lo que le "
+"permite ejecutar una cadena de módulos nuevamente con opciones fijas. Puede "
+"encontrar un tutorial en https://rohanfisher.wordpress.com/saga-tool-chains/"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:211
+msgid "Saving data"
+msgstr "Guardando datos"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:212
+msgid ""
+"To save the work you have created you should open the data tab in the "
+"workspace, and right click on the file you want to save. SAGA will save grid"
+" files to its own native format (\\*.sgrd) and shapefiles to the standard "
+"ESRI shapefile format (\\*.shp). It is also possible to save the project, by"
+" choosing **File|Project|Save Project As**. This will save all the map views"
+" and data settings, as well as offering to save the data files."
+msgstr ""
+"Para guardar el trabajo que ha creado, debe abrir la pestaña de datos en el "
+"espacio de trabajo y hacer click con el botón derecho en el archivo que "
+"desea guardar. SAGA guardará los archivos de cuadrícula en su propio formato"
+" nativo (\\*.shp) y los archivos shape en el formato de archivo shape "
+"estándar de ESRI (\\*.shp). También es posible guardar el proyecto "
+"seleccionando **Archivo|Proyecto|Guardar| Proyecto Como**. Esto guardará "
+"todas las vistas del mapa y la configuración de datos, además de ofrecer "
+"guardar los archivos de datos."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:220
+msgid "Importing/Exporting data"
+msgstr "Importación/Exportación de datos"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:221
+msgid ""
+"Under the hood SAGA can also use the GDAL library for opening different "
+"raster and vector formats. The easiest way is to use **File|Grid|Open** for "
+"raster data and **File|Shapes|Open** for vector data. For rasters among "
+"others geotiff is supported. Note that you can also just drag and drop files"
+" on SAGA. More advanced options and modules are present under "
+"**Geoprocessing|File|Grid**."
+msgstr ""
+"Bajo el capó, SAGA también puede usar la biblioteca GDAL para abrir "
+"diferentes formatos ráster y vectoriales. La forma más fácil es usar "
+"**Archivo|Cuadrícula|Abrir** para datos ráster y **Archivo|Formas|Abrir** "
+"para datos vectoriales. Para rásters, entre otros, se admite geotiff. Tenga "
+"en cuenta que también puede arrastrar y soltar archivos en SAGA. Las "
+"opciones y módulos más avanzados están presentes en "
+"**Geoprocesamiento|Archivo|Cuadrícula** . "
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:228
+msgid ""
+"SAGA GIS grid format is supported by GDAL since version 1.7.0. Grid Files "
+"saved by SAGA can be opened by many other programs using GDAL. However, you "
+"must open the '\\*.sdat' file and not the '\\*.sgrd' file."
+msgstr ""
+"El formato de cuadrícula SAGA GIS es compatible con GDAL desde la versión "
+"1.7.0. Los archivos de Cuadrícula guardados por SAGA pueden ser abiertos por"
+" muchos otros programas usando GDAL. Sin embargo, debe abrir el archivo "
+"'\\*.sdat' y no el archivo '\\*.sgrd'."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:232
+msgid ""
+"In this example we will use the digital elevation (SRTM) data from the "
+"region around Barcelona as you would download it from the web."
+msgstr ""
+"En este ejemplo, utilizaremos los datos de elevación digital (SRTM) de la "
+"región alrededor de Barcelona, como se descargarían de la web."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:235
+msgid ""
+"The data file we want to use is `SRTM_u03_n041e002.tif` and can be found "
+"under `/home/user/data/raster` . You can import this using the Import/Export"
+" GDAL/OGR module, which can also be found in the **Geoprocessing|file|import"
+" raster**."
+msgstr ""
+"El archivo de datos que queremos usar es SRTM_u03_n041e002.tif y se puede "
+"encontrar en `/home/user/data/raster`  . Puede importar esto utilizando el "
+"módulo Importar/Exportar GDAL/OGR, que también se puede encontrar en el "
+"**Geoprocesamiento|archivo|ráster de importación**."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:240
+msgid ""
+"After importing this dataset and opening it in a new window, you will most "
+"likely be disappointed: It looks all gray! Let's check what might be the "
+"cause: Some pixels near the coast seem to have a very small value (-32768) "
+"(you can check the value of a pixel by checking the Z: value in the status "
+"bar while moving your mouse over the grid)."
+msgstr ""
+"Después de importar este conjunto de datos y abrirlo en una nueva ventana, "
+"lo más probable es que se sienta decepcionado: ¡todo se ve gris! Veamos cuál"
+" podría ser la causa: algunos píxeles cerca de la costa parecen tener un "
+"valor muy pequeño (-32768) (puede verificar el valor de un píxel al "
+"verificar el valor Z: en la barra de estado mientras mueve el mouse sobre la"
+" cuadrícula )"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:246
+msgid ""
+"These pixels actually have no data, so we should adjust the nodata settings:"
+" in the object properties window (after selecting the dataset in the "
+"workspace window), set the maximum no data value to -32768 and apply.  After"
+" doing that, we can reset our color scale to fit the range of the data. An "
+"easy method is right clicking on the grid in the workspace and choosing "
+"'Classification|Set Range to minimum maximum'."
+msgstr ""
+"Estos píxeles en realidad no tienen datos, por lo que debemos ajustar la "
+"configuración de los nodos: en la ventana de propiedades del objeto (después"
+" de seleccionar el conjunto de datos en la ventana del espacio de trabajo), "
+"establezca el valor máximo sin datos en -32768 y aplique. Después de hacer "
+"eso, podemos restablecer nuestra escala de colores para que se ajuste al "
+"rango de los datos. Un método fácil es hacer click  derecho en la cuadrícula"
+" en el espacio de trabajo y elegir 'Clasificación|Establecer Rango al mínimo"
+" máximo'."
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:253
+msgid ""
+"You are now ready to repeat the first steps to create a hillshaded map or "
+"explore some of the other modules of SAGA!"
+msgstr ""
+"¡Ahora está listo para repetir los primeros pasos para crear un mapa "
+"sombreado o explorar algunos de los otros módulos de SAGA!"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:257
+msgid "What next?"
+msgstr "¿Qué sigue?"
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:258
+msgid ""
+"More documentation can be found on the SAGA website: * http://www.saga-"
+"gis.org and specifically in the documentation archive: * http://www.saga-"
+"gis.org/en/about/references.html * https://sourceforge.net/projects/saga-"
+"gis/files/SAGA%20-%20Documentation/"
+msgstr ""
+"Puede encontrar más documentación en el sitio web de SAGA: * http://www"
+".saga-gis.org y específicamente en el archivo de documentación: * http://www"
+".saga-gis.org/en/about/references.html * https://sourceforge.net/projects"
+"/saga-gis/files/SAGA%20-%20Documentation/"

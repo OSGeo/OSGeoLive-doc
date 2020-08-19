@@ -187,4 +187,4 @@ This is only the first step on the road to using Mapbender. There is a lot more 
 
 * You can find an extended tutorial at https://doc.mapbender.org/en/quickstart.html
 
-* Get involved in the project https://www.mapbender.org/Community
+* Get involved in the project https://mapbender.org/community/

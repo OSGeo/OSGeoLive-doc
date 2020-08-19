@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-03-25 17:45-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -53,19 +53,24 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:32
 msgid "Create a map"
-msgstr ""
+msgstr "Crear un mapa"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:34
 msgid ""
 "As our input dataset we will use a DTM from the GRASS GIS example dataset, "
 "which is accessible by GDAL using the GDAL-GRASS driver."
 msgstr ""
+"Como nuestro conjunto de datos de entrada utilizaremos un DTM del conjunto "
+"de datos de ejemplo GRASS GIS, al que GDAL puede acceder mediante el "
+"controlador GDAL-GRASS."
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:36
 msgid ""
 "From a quick look at the DTM metadata, open a terminal and use the GDAL "
 "command `gdalinfo`:"
 msgstr ""
+"Desde un vistazo rápido a los metadatos DTM, abra una terminal y utilice el "
+"comando GDAL `gdalinfo`:"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:48
 msgid ""
@@ -94,7 +99,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:63
 msgid "Make a color palette"
-msgstr ""
+msgstr "Crear una paleta de colores"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:65
 msgid ""
@@ -117,7 +122,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:76
 msgid "Define the gradient"
-msgstr ""
+msgstr "Definir el degradado"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:78
 msgid ""
@@ -145,7 +150,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:93
 msgid "Display the color bar"
-msgstr ""
+msgstr "Mostrar la barra de color"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:95
 msgid "Finally we can add a colorbar with `psscale`:"
@@ -175,12 +180,16 @@ msgid ""
 "Look at some of the examples found in: `/usr/share/doc/gmt/examples "
 "<../../gmt/examples/>`_"
 msgstr ""
+"Encontrará algunos de los ejemplos en: `/usr/share/doc/gmt/examples "
+"<../../gmt/examples/>`_"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:124
 msgid ""
 "Go through the GMT tutorial and follow the several examples available in the"
 " src code. There are 30 example jobs built in, to test:"
 msgstr ""
+"Vaya a través del tutorial GMT y siga los varios ejemplos disponibles en el "
+"código src. Hay 30 trabajos de ejemplo integrados para probar:"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:127
 msgid "Open a terminal, then"
@@ -191,6 +200,8 @@ msgid ""
 "To view the results in Ghostview (http://www.gnu.org/software/gv/) , use "
 "command `gv`. Type `q` to quit Ghostview."
 msgstr ""
+"Para ver los resultados en Ghostview (http://www.gnu.org/software/gv/), "
+"utilice el comando `gv`. Escriba `q` para salir de Ghostview."
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:144
 msgid "What next?"
@@ -201,11 +212,13 @@ msgid ""
 "Have a read of the local documentation stored in: `/usr/share/doc/gmt/html/ "
 "<../../gmt/html/index.html>`_"
 msgstr ""
+"Tenga una lectura de la documentación local almacenada en: "
+"`/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:148
 msgid "Website: https://gmt.soest.hawaii.edu"
-msgstr ""
+msgstr "Sitio web: https://gmt.soest.hawaii.edu"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:150
 msgid "Support: https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
-msgstr ""
+msgstr "Soporte: https://gmt.soest.hawaii.edu/projects/gmt/boards/1"

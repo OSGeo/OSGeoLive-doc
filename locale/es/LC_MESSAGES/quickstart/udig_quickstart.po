@@ -1,0 +1,625 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Vicky Vergara <vicky@georepublic.de>, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"PO-Revision-Date: 2017-09-20 16:06+0000\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:17
+msgid "uDig Quickstart"
+msgstr "Inicio Rápido de uDig"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:25
+msgid ""
+"uDig (User Friendly Internet Desktop GIS), is a GIS Desktop client for "
+"editing and viewing Geospatial data."
+msgstr ""
+"uDig (User Friendly Internet Desktop GIS), es un cliente para edición y "
+"visualización de Geospatial data."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:31
+msgid "This Quick Start describes how to:"
+msgstr "Esta Guía de Inicio Rápido describe cómo:"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:33
+msgid "load a map layers from a shapefile and |WMS|"
+msgstr "Cargar capas de un mapa desde un shapefile y |WMS|"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:34
+msgid "use the standard map tools"
+msgstr "utilizar las herramientas de mapa estándar"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:35
+msgid "apply colour to map features using styling"
+msgstr "aplicar color para asignar funciones con estilo"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:40
+msgid "start uDig"
+msgstr "Iniciar uDig"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:51
+msgid "Choose |osgeolive-appmenupath-udig| from menu"
+msgstr "Elija |osgeolive-appmenupath-udig| del menú "
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:52
+msgid "The application will take a few moments to start up"
+msgstr "La aplicación tomará unos momentos para poner en marcha"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:63
+msgid ""
+"If you have any difficulties, or are running uDig please review the Running "
+"uDig reference page."
+msgstr ""
+"Si usted tiene dificultades o uDig corriente por favor informe la página de "
+"referencia de uDig que se esta usando."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:66
+msgid "Welcome View"
+msgstr "Vista de bienvenida"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:68
+msgid ""
+"When you start up uDig for the first time the Welcome view takes up the "
+"entire display. This screen has links to tutorials, documentation and the "
+"project website."
+msgstr ""
+"Cuando inicia uDig por primera vez, la vista de Bienvenida ocupa toda la "
+"pantalla. Esta pantalla tiene enlaces a tutoriales, documentación y el sitio"
+" web del proyecto."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:71
+msgid ""
+"Click the arrow labelled Workbench in the upper right corner, to reveal the "
+"contents of the uDig workbench."
+msgstr ""
+"Haga click en la flecha denominada Workbench en la esquina superior derecha,"
+" para revelar el contenido del uDig workbench."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:76
+msgid ""
+"You can return to the Welcome view at any time by selecting the "
+":menuselection:`Help --> Welcome` from the menu bar."
+msgstr ""
+"Puede volver a la vista de Bienvenida en cualquier momento seleccionando  "
+":menuselection:`Help --> Welcome` en la barra de menú."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:79
+msgid "Workbench"
+msgstr "Mesa de trabajo"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:81
+msgid ""
+"The Workbench window offers multiple Editors (each showing a Map) and "
+"supporting Views (offering information about the current Map)."
+msgstr ""
+"La ventana Workbench ofrece múltiples Editores (cada uno mostrando un Mapa) "
+"y vistas de soporte (ofreciendo información sobre el Mapa actual)."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:87
+msgid "Shown above is a typical uDig session with the"
+msgstr "Se muestra arriba es una sesión típica uDig con el"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:89
+msgid "Layers view (1),"
+msgstr "Vista de capas (1),"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:90
+msgid "Projects view (2),"
+msgstr "Vista de proyectos  (2),"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:91
+msgid "Catalog view (3) and"
+msgstr "Vista de catálogo (3) y"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:92
+msgid "Map editor (4)."
+msgstr "Editor de mapas (4)."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:94
+msgid "These views will be described further as we demonstrate their use."
+msgstr "Estas vistas se describen aún más a medida que demuestra su uso."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:97
+msgid "Files"
+msgstr "Archivos"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:99
+msgid ""
+"To start out with we are going to load some of the sample data included on "
+"the DVD."
+msgstr ""
+"Para empezar con que vamos a cargar algunos de los datos de muestra "
+"incluidos en el DVD."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:101
+msgid ""
+"Choose :menuselection:`Layer --> Add` from the menu bar to open up the **Add"
+" Data** wizard"
+msgstr ""
+"Elegir :menuselection:`Layer --> Add` en la barra de menú para abrir el "
+"asistente  **Add Data**"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:103
+msgid "Select **Files** from the list of data sources"
+msgstr "Seleccione  **Files** de la lista de orígenes de datos"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:105
+msgid "Press :guilabel:`Next` to open up a file dialog"
+msgstr "Presiona :guilabel:`Next` para abrir un cuadro de diálogo"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:107
+msgid "The OSGeoLive DVD contains sample data in:"
+msgstr "El DVD de OSGeoLive contiene datos de muestra en:"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:109
+msgid ":file:`~/data` (a short cut to :file:`/usr/local/share/data`)"
+msgstr ":file:`~/data` (atajo de :file:`/usr/local/share/data`)"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:111
+msgid "Select the following file from the :file:`natural_earth2` folder:"
+msgstr ""
+"Seleccione el archivo siguiente de la carpeta  :file:`natural_earth2` :"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:113
+msgid ":file:`ne_10m_admin_0_countries.shp`"
+msgstr ":file:`ne_10m_admin_0_countries.shp`"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:115
+msgid "Press :guilabel:`Open`"
+msgstr "Presiona :guilabel:`Open`"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:117
+msgid ""
+"A new Map editor will be opened based on the contents of your shapefile. The"
+" default name and projection of the Map has been taken from your shapefile."
+msgstr ""
+"Se abrirá un nuevo editor de Mapas basado en el contenido de tu archivo "
+"shape. El nombre y la proyección predeterminados del Mapa se han tomado de "
+"tu archivo shape."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:120
+msgid ""
+"You can see the **Catalog view** has been updated with an entry for "
+":file:`ne_10m_admin_0_countries.shp`. This view is used to track the use of "
+"resources by the uDig application."
+msgstr ""
+"Puedes ver que la **Vista de Catálogo** se ha actualizado con una entrada "
+"para :file:`ne_10m_admin_0_countries.shp`. Esta vista se utiliza para "
+"rastrear el uso de recursos por parte de la aplicación uDig."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:123
+msgid ""
+"The **Layers** view shows a single layer is displayed on this map. This view"
+" is used to change the order and appearance of information in your Map."
+msgstr ""
+"La vista de **Capas** muestra que una sola capa se despliega en este mapa. "
+"Esta vista se utiliza para cambiar el orden y la apariencia de la "
+"información en su Mapa."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:126
+msgid ""
+"The **Projects** view has been updated to show that your map is stored in "
+"`projects > ne 10m admin 0 countries`. You can have multiple projects open "
+"at a time, each project can have several maps."
+msgstr ""
+"La vista **Proyectos** se ha actualizado para mostrar que tu mapa está "
+"almacenado en `projects > ne 10m admin 0 countries`. Puedes tener varios "
+"proyectos abiertos a la vez, cada proyecto puede tener varios Mapas."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:129
+msgid "Open up the :file:`~/data/natural_earth2/` folder on the desktop"
+msgstr "Abre la carpeta  :file:`~/data/natural_earth2/` en el escritorio"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:131
+msgid ""
+"Drag :file:`HYP_50M_SR_W.tif` onto the Map Editor, a new layer is added to "
+"to the map."
+msgstr ""
+"Arrastrar  :file:`HYP_50M_SR_W.tif` al Editor de mapas, se agrega una nueva "
+"capa al mapa."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:133
+msgid ""
+"You can see the order the layers are drawn in the layer view. Right now the "
+"`HYP_50M_SR_W` layer is drawn on top of the `ne 10m admin 0 countries` "
+"layer."
+msgstr ""
+"Puedes ver el orden en que se dibujan las capas en la vista de capas. En "
+"este momento, la capa `HYP_50M_SR_W` se dibuja sobre la capa `ne 10m admin 0"
+" countries` "
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:136
+msgid ""
+"Select the `HYP_50M_SR_W` layer in the catalog view and drag it to the "
+"bottom of the list"
+msgstr ""
+"Seleccione la capa  `HYP_50M_SR_W`  en la vista de catálogo y arrástrelo a "
+"la parte inferior de la lista"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:147
+msgid ""
+"One of the most common questions asked when uDig is considered for an "
+"organization is how much memory the application uses. Unlike most GIS "
+"applications uDig can get by with a fixed amount of memory. The above "
+"shapefile is not loaded into memory, we have a policy of keeping data on "
+"disk and drawing data like this shapefile onto the screen as needed."
+msgstr ""
+"Una de las preguntas más comunes que se hacen cuando se considera uDig para "
+"una organización es cuánta memoria usa la aplicación. A diferencia de la "
+"mayoría de las aplicaciones SIG, uDig puede funcionar con una cantidad fija "
+"de memoria. El archivo shape anterior no se carga en la memoria, tenemos la "
+"política de mantener los datos en el disco y dibujar datos como este archivo"
+" de forma en la pantalla según sea necesario."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:156
+msgid ""
+"You can also drag and drop shapefiles directly into the uDig application!"
+msgstr ""
+"¡También puede arrastrar y soltar archivos shapefile directamente en la "
+"aplicación de uDig!"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:159
+msgid "Map"
+msgstr "Mapa"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:161
+msgid ""
+"You can control where in the world the Map Editor is looking by using the "
+"navigation tools in the tool bar along the top of the screen."
+msgstr ""
+"Puede controlar en qué parte del mundo está buscando el Editor de Mapas "
+"utilizando las herramientas de navegación en la barra de herramientas de la "
+"parte superior de la pantalla."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:164
+msgid "The |ZOOM| Zoom tool is available by default"
+msgstr "La Herramienta Zoom |ZOOM| está disponible de forma predeterminada"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:168
+msgid ""
+"Use the zoom tool by drawing a box using the left mouse button around the "
+"area of the world you wish to see."
+msgstr ""
+"Use la herramienta de zoom dibujando un cuadro con el botón izquierdo del "
+"mouse alrededor del área del mundo que desea ver."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:170
+msgid ""
+"To zoom out draw a box with the right mouse button. The current map extents "
+"will be located within the box you draw."
+msgstr ""
+"Para alejar, dibuje un cuadro con el botón derecho del mouse. La extensión "
+"actual del mapa se ubicará dentro del cuadro que dibuje."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:173
+msgid ""
+"The |PAN| Pan tool can be used to scroll around your map with out changing "
+"scale."
+msgstr ""
+"La herramienta de paneo |PAN| se puede utilizar para desplazarse por el mapa"
+" con un cambio de escala."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:177
+msgid ""
+"There are also several navigation buttons that can be used at any time:"
+msgstr ""
+"También existen varios botones de navegación que se pueden utilizar en "
+"cualquier momento:"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:179
+msgid ""
+"|SHOWALL| Show All, can be used to return to the full extents at any time"
+msgstr ""
+"|SHOWALL| Mostrar Todo, se puede usar para volver a la extensión completa en"
+" cualquier momento"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:183
+msgid ""
+"|ZOOM_IN| Zoom In and |ZOOM_OUT| Zoom Out can be used to change the scale by"
+" a fixed amount."
+msgstr ""
+"|ZOOM_IN| Acercar y |ZOOM_OUT|  Alejar pueden usarse para cambiar la escala "
+"en una cantidad fija."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:188
+msgid ""
+"You can use Navigation Back |BNAV| and Forward |FNAV| in the menu bar to "
+"cycle though previously visited locations."
+msgstr ""
+"Puedes usar Navegación Atrás |BNAV| y Adelante |FNAV| en la barra de menú "
+"para recorrer las ubicaciones visitadas anteriormente."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:194
+msgid ""
+"Most tools allow you to Pan by holding the center button and control the "
+"scale using the scroll wheel."
+msgstr ""
+"La mayoría de las herramientas permiten desplazarse presionando el botón "
+"central y controlar la escala con la rueda de desplazamiento."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:198
+msgid "Web Map Server"
+msgstr "Servidor Cartográfico Web"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:200
+msgid ""
+"One of the reasons to use an application like uDig is to access all the "
+"great free geospatial information available on the web. This section covers "
+"the use of Web Map Servers which make available layers of information that "
+"you can mix into your own maps."
+msgstr ""
+"Una de las razones para usar una aplicación como uDig es acceder a toda la "
+"gran información geoespacial gratuita disponible en la web. Esta sección "
+"cubre el uso de servidores de mapas web que ponen a disposición capas de "
+"información que puede mezclar en sus propios mapas."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:204
+msgid ""
+"If you are not connected to the Internet run |osgeolive-appmenupath-"
+"geoserver| for a local WMS. The script will open a page with a \"Service "
+"Capabilities\" section and two links for WMS Services you can drag into your"
+" empty map."
+msgstr ""
+"Si no está conectado a Internet, ejecute |osgeolive-appmenupath-geoserver| "
+"para un WMS local. El script abrirá una página con una sección de "
+"\"Capacidades de servicio\" y dos enlaces para servicios WMS que puede "
+"arrastrar a su mapa vacío."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:208
+msgid ""
+"You can copy a WMS URL (e.g. for `WMS 1.1.1`_) from right panel of "
+"`GeoServer Welcome page`_ and \"paste\" it either on the **Map** view or the"
+" **Layers** view. A wizard shows you the layers you can add to the **Map**. "
+"You can also connect to Web Map Servers using the **Add Data** "
+"(:menuselection:`Layer --> Add...`) Wizard and paste WMS URL right there."
+msgstr ""
+"Puede copiar una URL de WMS (por ejemplo, para `WMS 1.1.1`_) desde el panel "
+"derecho de la `GeoServer Welcome page`_ y \"pegarla\" en la vista de "
+"**Mapa** o en la vista de **Capas**. Un asistente le muestra las capas que "
+"puede agregar al **Mapa**. También puede conectarse a los Servidores de "
+"Mapas Web utilizando el Asistente  **Agregar Datos** (:menuselection:`Layer "
+"--> Add...`) y pegar la URL del WMS ahí mismo."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:213
+msgid "Select :menuselection:`File --> New --> New Map` from the menu bar"
+msgstr ""
+"Seleccione  :menuselection:`File --> New --> New Map` en la barra de menús"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:215
+msgid ""
+"Change to the **Web** view, click on the tab next to the **Catalog** view to"
+" reveal the *Web* view."
+msgstr ""
+"Cambiar a la vista **Web**, haga clic en la ficha junto a la vista "
+"**Catalog** vista para revelar la vista *Web* ."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:220
+msgid ""
+"Click on the link ``WMS\\:http://www2.dmsolutions.ca/cgi-"
+"bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities``"
+msgstr ""
+"Haga click en el enlace ``WMS\\:http://www2.dmsolutions.ca/cgi-"
+"bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities``"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:226
+msgid ""
+"From the Resource Selection page we are going to choose the following "
+"layers:"
+msgstr ""
+"Desde la página de Selección de Recursos vamos a elegir las siguientes "
+"capas:"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:228
+msgid "Elevation/Bathymetry"
+msgstr "Elevación/batimetría"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:229
+msgid "Parks"
+msgstr "Parques"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:230
+msgid "Cities"
+msgstr "Ciudades"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:235
+msgid "Press :guilabel:`Finish` to add these layers to your map"
+msgstr "Presiona :guilabel:`Finish` para añadir estas capas en el mapa"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:240
+msgid "Use the |ZOOM| Zoom Tool to move closer to one of the Parks"
+msgstr "Usa la herramienta de zoom |ZOOM| para acercarse a uno de los parques"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:242
+msgid ""
+"Switch to the |INFO| Info Tool and click on one the parks to learn more "
+"about it"
+msgstr ""
+"Cambiar a la Herramienta de información |INFO|  y haga clic en uno de los "
+"parques para obtener más información."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:246
+msgid ""
+"You can switch between the zoom and info tools by pressing `Z` and `I` on "
+"the keyboard."
+msgstr ""
+" Puede alternar entre las herramientas de zoom e información presionando `Z`"
+" e `I` en el teclado."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:249
+msgid "Style"
+msgstr "Estilo"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:251
+msgid ""
+"Select the `project > ne 10m admin 0 countries`, you can double click to "
+"open this Map, or Right Click and choose Open Map"
+msgstr ""
+" Seleccione el `proyecto> ne 10m admin 0 países`, puede hacer doble clic "
+"para abrir este Mapa, o haga Clic Derecho y elija Abrir Mapa"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:253
+msgid "Select the countries layer in the Layer view"
+msgstr "Seleccione la capa de los países en la vista de Capas"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:255
+msgid ""
+"Open up the **Style Editor** by right clicking on `ne 10m admin 0 countries`"
+" layer and choosing :guilabel:`Change Style`"
+msgstr ""
+"Abra el **Editor de Estilos** haciendo clic derecho en la capa  `ne 10m "
+"admin 0 countries` y eligiendo  :guilabel:`Change Style`"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:257
+msgid "We are going to change a few things about how countries are displayed"
+msgstr "Vamos a cambiar algunas cosas sobre cómo se muestran los países"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:259
+msgid ""
+"Line: Click :guilabel:`Border`, click on the Color button and change the "
+"color to BLACK"
+msgstr ""
+"Línea: haga clic en Click :guilabel:`Border`, haga clic en el botón Color y "
+"cambie el color a NEGRO"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:261
+msgid ""
+"Fill: On Tab :guilabel:`Fill` uncheck the box :guilabel:`enable/disable "
+"fill` to turn off fill"
+msgstr ""
+"Relleno: en la pestaña  :guilabel:`Fill` desmarque la casilla "
+":guilabel:`enable/disable fill` para desactivar el relleno"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:263
+msgid ""
+"Label: On Tab :guilabel:`Labels` check the box :guilabel:`enable/disable "
+"labeling`, and choose the attribute **NAME** from the list of attributes"
+msgstr ""
+"Etiqueta: en pestaña :guilabel:`Labels` marque la casilla "
+":guilabel:`enable/disable labeling` y elija el atributo **NOMBRE** de la "
+"lista de atributos"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:268
+msgid ""
+"Press :guilabel:`Apply` to see what this looks like on your Map, the "
+"**Layer** view will also be updated to reflect the current style"
+msgstr ""
+"Presione :guilabel:`Apply` para ver cómo se ve esto en su mapa, la vista de "
+"**Capa** también se actualizará para reflejar el estilo actua"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:271
+msgid ""
+"When you are happy with the result you can press :guilabel:`Close` to "
+"dismiss the dialog"
+msgstr ""
+"Cuando estés contento con el resultado que se puede pulsar :guilabel:`Close`"
+" para cerrar el cuadro de diálogo"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:273
+msgid ""
+"Some files include style settings. The Style definition can be found in "
+"files with the :file:`*.sld` extension. The name itself should be equal to "
+"the file containing the data. If such a |SLD| file exists, the style will be"
+" applied automatically."
+msgstr ""
+"Algunos archivos incluyen la configuración de estilo. La definición de "
+"Estilo se puede encontrar en archivos con la extensión :file:`*.sld`. El "
+"nombre en sí debe ser igual al archivo que contiene los datos. Si tal |SLD| "
+"archivo existe, el estilo se aplicará automáticamente."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:275
+msgid ""
+"Sometimes it is a bit hard to see what is going on with layer providing much"
+" details. To get focused on the task you like to work on, you can choose "
+":menuselection:`Map --> Mylar` from the menu bar. Using the *Layer* view "
+"select different layers in turn to see the effect. You can turn off this "
+"effect at any time using :menuselection:`Map --> Mylar` from the menu bar."
+msgstr ""
+"A veces es un poco difícil ver qué sucede con la capa que proporciona muchos"
+" detalles. Para enfocarse en la tarea en la que le gusta trabajar, puede "
+"elegir :menuselection:`Map --> Mylar` en la barra de menú. Usando la vista "
+"de **Capa**, seleccione diferentes capas para ver el efecto. Puede "
+"desactivar este efecto en cualquier momento usando :menuselection:`Map --> "
+"Mylar` de la barra de menú."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:291
+msgid "Things to Try"
+msgstr "Cosas para Probar"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:293
+msgid "Here are some additional challenges for you to try:"
+msgstr "Aquí hay algunos desafíos adicionales para que intentes:"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:295
+msgid ""
+"Try viewing your own GIS map layers, or try adding a layer from a |WFS|"
+msgstr ""
+"Intente ver sus propias capas de mapa SIG, o intente agregar una capa desde "
+"un |WFS|"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:296
+msgid "Try styling the WFS layer."
+msgstr "Trate de estilizar la capa WFS."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:299
+msgid "What Next?"
+msgstr "¿Qué sigue?"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:304
+msgid ""
+"This is only the first step on the road to using uDig. There is a lot more "
+"great material (and ability) left for you to discover in our **walkthrough**"
+" documents."
+msgstr ""
+"Este es solo el primer paso en el camino hacia el uso de uDig. Queda mucho "
+"más material (y capacidad) por descubrir en nuestros documentos de "
+"**recorrido**."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:306
+msgid "Walkthrough 1"
+msgstr "Tutorial 1"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:308
+msgid ""
+"Try out the use of :doc:`PostGIS <../overview/postgis_overview>`, extract "
+"data from a Web Feature Server and explore the use of **Themes** with our "
+"powerful `Color Brewer` technology."
+msgstr ""
+"Pruebe el uso de  :doc:`PostGIS <../overview/postgis_overview>`, extraiga "
+"datos de un Servidor de Características Web y explore el uso de **temas** "
+"con nuestra poderosa tecnología `Color Brewer`."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:311
+msgid ":file:`/usr/local/share/udig/udig-docs/uDigWalkthrough 1.pdf`"
+msgstr ":file:`/usr/local/share/udig/udig-docs/uDigWalkthrough 1.pdf`"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:313
+msgid ""
+"Walkthrough 2 - Learn how to create shapefiles and use the Edit tools to "
+"manipulate feature data, covers the installation of :doc:`GeoServer "
+"<../overview/geoserver_overview>` and editing with a Web Feature Server."
+msgstr ""
+"Tutorial 2 - aprender a crear archivos y utilizar las herramientas de "
+"edición para manipular los datos de función, abarca la instalación de "
+":doc:`GeoServer <../overview/geoserver_overview>`  y la edición con un "
+"servidor de la característica de Web."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:317
+msgid "Available on http://udig.refractions.net/"
+msgstr "Disponible en http://udig.refractions.net/"

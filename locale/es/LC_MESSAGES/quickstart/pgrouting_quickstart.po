@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2019
-# MarPetra <mvergaratrejo@gmail.com>, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2019\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,6 +32,9 @@ msgid ""
 "functionality to :doc:`PostGIS <../overview/postgis_overview>`/`PostgreSQL "
 "<https://www.postgresql.org>`_ databases."
 msgstr ""
+"pgRouting es una extensión que añade enrutamiento y otras funciones de "
+"análisis de red a bases de datos :doc:`PostGIS "
+"<../overview/postgis_overview>`/`PostgreSQL <https://www.postgresql.org>`_"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:23
 msgid ""
@@ -105,6 +108,8 @@ msgid ""
 "Open a new terminal window to verify the version of osm2pgrouting you have "
 "installed. Should read 2.1 or higher."
 msgstr ""
+"Abra una nueva ventana de terminal para verificar la versión de "
+"osm2pgrouting que ha instalado. Debe leer 2.1 o superior."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:76
 msgid "Output shows:"
@@ -258,15 +263,19 @@ msgstr "¿Qué sigue?"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:287
 msgid ""
-"**pgRouting Website** - Visit the project website https://www.pgrouting.org "
-"to learn more about pgRouting."
+"**pgRouting Website** - Visit the project website https://pgrouting.org to "
+"learn more about pgRouting."
 msgstr ""
+"**pgRouting Website** - Visite el sitio web del proyecto "
+"https://pgrouting.org para obtener más información sobre pgRouting."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:288
 msgid ""
 "**pgRouting Documentation** - Find the most recent documentation in "
 "https://docs.pgrouting.org."
 msgstr ""
+"**pgRouting Documentation** - Encuentra la documentación más reciente en  "
+"https://docs.pgrouting.org."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:289
 msgid ""
@@ -274,6 +283,9 @@ msgid ""
 " and OpenStreetMap road data\"` is available in: "
 "https://workshop.pgrouting.org."
 msgstr ""
+"**PgRouting Workshop** - El taller `\"Enrutamiento FOSS4G con herramientas "
+"pgRouting y datos de carreteras OpenStreetMap\"` está disponible en: "
+"https://workshop.pgrouting.org."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:290
 msgid ""

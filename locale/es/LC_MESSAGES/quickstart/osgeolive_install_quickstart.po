@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2019\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -123,12 +123,12 @@ msgstr "Eso es todo."
 msgid ""
 "Installation Tips In case you are installing using a username other than "
 "\"user\", tomcat applications require to have permission to service command "
-"as described in http://trac.osgeo.org/osgeo/ticket/1153"
+"as described in https://trac.osgeo.org/osgeo/ticket/1153"
 msgstr ""
-"Consejos de instalación. En caso de que esté instalando utilizando un nombre"
-" de usuario que no sea \"user\", las aplicaciones de Tomcat requieren tener "
-"permiso para dar el servicio del comando como se describe en "
-"http://trac.osgeo.org/osgeo/ticket/1153"
+"Consejos de instalación En caso de que esté instalando utilizando un nombre "
+"de usuario distinto de \"usuario\", las aplicaciones tomcat requieren tener "
+"permiso para el comando service como se describe en "
+"https://trac.osgeo.org/osgeo/ticket/1153"
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:80
 msgid "See Also:"

@@ -1,4 +1,4 @@
-:Auhttps://lists.maptools.org/mailman/listinfo/projthor: Vladimir Agafonkin, adopted for live dvd by Johan Van de Wauw
+:Author: Vladimir Agafonkin, adopted for live dvd by Johan Van de Wauw
 :Reviewer: Angelos Tzotsos, OSGeo
 :Reviewer: Nicolas Roelandt, OSGeoLive
 :Reviewer: Shubham Sharma

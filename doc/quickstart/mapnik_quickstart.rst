@@ -38,7 +38,7 @@ Creating maps in python is easy with Mapnik. Open a terminal window and type `py
     
       The above code depends on having an XML stylesheet that Mapnik can read, defining the layers
       to read data from and the styles to apply to those layers. You can create one of these inside QGIS
-      with the Quantumnik plugin: http://plugins.qgis.org/plugins/quantumnik/
+      with the Quantumnik plugin: https://plugins.qgis.org/plugins/quantumnik/
 
 
 Mapnik & Leaflet
