@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Vicky Vergara <vicky@georepublic.de>, 2019
 # MarPetra <mvergaratrejo@gmail.com>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-08-19 12:21-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -105,10 +105,11 @@ msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:66
 msgid ""
-"Explore the `screenshot collection <https://grass.osgeo.org/screenshots/>`_."
+"Explore the `screenshot collection "
+"<https://grass.osgeo.org/learn/gallery/>`_."
 msgstr ""
-"Explorar las `collección de pantallas "
-"<https://grass.osgeo.org/screenshots/>`_."
+"Explorar la `collección de pantallas "
+"<https://grass.osgeo.org/learn/gallery/>`_."
 
 #: ../../build/doc/overview/grass_overview.rst:69
 msgid "Details"
@@ -135,8 +136,8 @@ msgid "**API Interfaces:** C, Python, Bourne Shell"
 msgstr "**Interfaces API:** C, Python, Shell de Bourne"
 
 #: ../../build/doc/overview/grass_overview.rst:81
-msgid "**Support:** https://grass.osgeo.org/support/"
-msgstr "**Soporte:** https://grass.osgeo.org/support/"
+msgid "**Support:** https://grass.osgeo.org/about/community/"
+msgstr "**Soporte:** https://grass.osgeo.org/about/community/"
 
 #: ../../build/doc/overview/grass_overview.rst:86
 msgid "Quickstart"

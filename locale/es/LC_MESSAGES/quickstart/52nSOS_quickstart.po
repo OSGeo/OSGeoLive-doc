@@ -77,10 +77,11 @@ msgstr ""
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:45
 msgid "This will open the 52°North SOS client welcome page in firefox at"
 msgstr ""
+"Se abrirá la página en firefox de recepción de clientes del 52°North SOS  en"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:38
 msgid "http://localhost:8080/52nSOS/ (see Fig. 1)."
-msgstr ""
+msgstr "http://localhost:8080/52nSOS/ (ver Fig. 1)."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:45
 msgid "**Fig. 1**: 52°North SOS client - welcome page."
@@ -95,6 +96,12 @@ msgid ""
 "selecting sample queries. Using the information from the capabilities "
 "document, you can adjust the available example queries."
 msgstr ""
+"Haga click en :guilabel:`Client` de la Barra superior del menú. Una vez "
+"queue conozca las `capacidades de un servidor SOS "
+"<http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=2.0.0>`_,"
+" (ver Fig. 2) puede crear consultas apropiadas. esto se hace más fácil "
+"seleccionando consultas de muestra. Usando la información de las capacidades"
+" del documento, puede ajustar las consultas de ejemplo disponibles."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:58
 msgid ""
@@ -248,12 +255,16 @@ msgid ""
 "52°North `SOS Client <https://sensorweb.demo.52north.org/sensorwebclient-"
 "webapp-stable/>`_"
 msgstr ""
+"52°North `Cliente SOS <https://sensorweb.demo.52north.org/sensorwebclient-"
+"webapp-stable/>`_"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:194
 msgid ""
 "52°North `SOS Web site <https://52north.org/software/software-"
 "projects/sos>`_"
 msgstr ""
+"52°North `sitio Web SOS <https://52north.org/software/software-"
+"projects/sos>`_"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:196
 msgid ""
@@ -272,6 +283,10 @@ msgid ""
 "data used in this SOS installation. The demo data are published under a |CC "
 "BY 3.0| license."
 msgstr ""
+"Nos gustaría agradecer a la Agencia Ambielntal Interregional Belga (`IRCEL -"
+" CELINE <https://www.irceline.be/en/>`_) por porporcionar los datos de "
+"demostración utilizados en esta instalación de SOS. Estos datos de "
+"demostración se publican bajo una licencia |CC BY 3.0|."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:206
 msgid ""
