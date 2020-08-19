@@ -5,15 +5,16 @@
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-08-19 10:16-0500\n"
 "PO-Revision-Date: 2018-07-27 22:51+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,7 +38,7 @@ msgid ""
 "of Earth observation satellites to displaying simple map images on the Web "
 "and encoding location in just a few bytes for geo-tagging and messaging. A "
 "look at the `OGC Domain Working Groups "
-"<http://www.ogc.org/projects/groups/wg>`_ shows the wide scope of current "
+"<https://www.ogc.org/projects/groups/wg>`_ shows the wide scope of current "
 "activity in the OGC."
 msgstr ""
 "El Open Geospatial Consortium (OGC) se fundó en 1994 para hacer de la "
@@ -52,7 +53,7 @@ msgstr ""
 "Tierra hasta la visualización de imágenes de mapas simples en la Web y la "
 "ubicación de codificación en unos pocos bytes para el etiquetado geográfico "
 "y la mensajería. Un vistazo a `OGC Domain Working Groups "
-"<http://www.ogc.org/projects/groups/wg>`_ muestra el amplio alcance de la "
+"<https://www.ogc.org/projects/groups/wg>`_ muestra el amplio alcance de la "
 "actividad actual en el OGC."
 
 #: ../../build/doc/overview/ogc_overview.rst:26
