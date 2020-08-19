@@ -96,18 +96,14 @@
 <li>Seleccione <span class="menuselection">Geospatial ‣ Web Services ‣ 52North ‣ Start 52North SOS</span> para iniciar el 52°North SOS.</li>
 </ol>
 <dl class="docutils">
-<dt>This will open the 52°North SOS client welcome page in firefox at</dt>
-<dd><p class="first"><a class="reference external" href="http://localhost:8080/52nSOS/">http://localhost:8080/52nSOS/</a> (see Fig. 1).</p>
+<dt>Se abrirá la página en firefox de recepción de clientes del 52°North SOS  en</dt>
+<dd><p class="first"><a class="reference external" href="http://localhost:8080/52nSOS/">http://localhost:8080/52nSOS/</a> (ver Fig. 1).</p>
 <a class="reference internal image-reference" href="../../_images/52n_sos_start.png"><img alt="52°North SOS client welcome page" class="align-center" src="../../_images/52n_sos_start.png" style="width: 716.8px; height: 537.5999999999999px;" /></a>
 <p class="last"><strong>Fig. 1</strong>: página de bienvenida de cliente de 52°North SOS-</p>
 </dd>
 </dl>
 <ol class="arabic" start="2">
-<li><p class="first">Click <span class="guilabel">Client</span> from the top menu bar. Once you know <a class="reference external" href="http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&amp;SERVICE=SOS&amp;ACCEPTVERSIONS=2.0.0">the capabilities of an SOS Server</a>,
-(see Fiq. 2) you can craft appropriate queries. This is made easier
-by selecting sample queries. Using the
-information from the capabilities document, you can adjust the available example
-queries.</p>
+<li><p class="first">Haga click en <span class="guilabel">Client</span> de la Barra superior del menú. Una vez queue conozca las <a class="reference external" href="http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&amp;SERVICE=SOS&amp;ACCEPTVERSIONS=2.0.0">capacidades de un servidor SOS</a>, (ver Fig. 2) puede crear consultas apropiadas. esto se hace más fácil seleccionando consultas de muestra. Usando la información de las capacidades del documento, puede ajustar las consultas de ejemplo disponibles.</p>
 <a class="reference internal image-reference" href="../../_images/52n_sos_get_capabilities.png"><img alt="52°North SOS client - test client with GetCapabilities request" class="align-center" src="../../_images/52n_sos_get_capabilities.png" style="width: 717.5px; height: 537.5999999999999px;" /></a>
 <p><strong>Fig. 2</strong>: Cliente de 52°North SOS - cliente de prueba con petición GetCapabilities.</p>
 </li>
@@ -227,15 +223,11 @@ queries.</p>
 <li>52°North <a class="reference internal" href="../overview/52nSOS_overview.html"><span class="doc">overview SOS</span></a></li>
 <li>Sensor Web 52°North, lista de correos: <a class="reference external" href="mailto:sensorweb&#37;&#52;&#48;52north&#46;org">sensorweb<span>&#64;</span>52north<span>&#46;</span>org</a></li>
 <li>52°North <a class="reference external" href="https://52north.org/research/research-labs/sensor-web/">comunidad Sensor Web</a></li>
-<li>52°North <a class="reference external" href="https://sensorweb.demo.52north.org/sensorwebclient-webapp-stable/">SOS Client</a></li>
-<li>52°North <a class="reference external" href="https://52north.org/software/software-projects/sos">SOS Web site</a></li>
+<li>52°North <a class="reference external" href="https://sensorweb.demo.52north.org/sensorwebclient-webapp-stable/">Cliente SOS</a></li>
+<li>52°North <a class="reference external" href="https://52north.org/software/software-projects/sos">sitio Web SOS</a></li>
 </ul>
 <p>El desarrollo de esta versión de 52 ° North SOS fue apoyado por diferentes proyectos, organizaciones y personas. Más detalles pueden encontrarse en <a class="reference external" href="http://localhost:8080/52nSOS/index">52°North SOS client</a>.</p>
-<p>We would like to thank the Belgian Interregional Environment Agency
-(<a class="reference external" href="https://www.irceline.be/en/">IRCEL - CELINE</a>)
-for providing the demonstration data used in this SOS installation.
-The demo data are published under a
-<a class="reference external" href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a> license.</p>
+<p>Nos gustaría agradecer a la Agencia Ambielntal Interregional Belga (<a class="reference external" href="https://www.irceline.be/en/">IRCEL - CELINE</a>) por porporcionar los datos de demostración utilizados en esta instalación de SOS. Estos datos de demostración se publican bajo una licencia <a class="reference external" href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
 <p>Cuando SOS no está disponible, por favor, revise si el motor tomcat servlet se está ejecutando. Utilice los sigueintes comandos:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>user@osgeolive:~$ sudo systemctl status tomcat8.service | grep Active
 Active: active (running) since Wed 2017-06-21 12:00:42 UTC; 42min ago  &lt;-- Tomcat is running
