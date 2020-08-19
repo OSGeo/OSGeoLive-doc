@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -53,6 +53,9 @@ msgid ""
 "Creating maps in python is easy with Mapnik. Open a terminal window and type"
 " `python` on the command line to enter a python interpreter. Then try this::"
 msgstr ""
+"Crear mapas en Python es fácil con Mapnik. Abra una ventana de terminal y "
+"escriba `python` en la línea de comandos para introducir un intérprete de "
+"Python. A continuación, intente lo siguiente::"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:42
 msgid ""
@@ -75,12 +78,18 @@ msgid ""
 "A basic demo application is available which highlights using Mapnik to serve"
 " tiles into an OpenLayers web map in the OSM/Google tile scheme."
 msgstr ""
+"Una aplicación de demostración básica está disponible que destaca el uso de "
+"Mapnik para servir teselas en un mapa web de OpenLayers en el esquema de "
+"teselas OSM/Google."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:52
 msgid ""
 "The demo uses a tileserver designed for Mapnik called \"TileStache\". Visit "
 "the TileStache website for more information: http://tilestache.org/"
 msgstr ""
+"La demo utiliza un servidor de teselas diseñado para Mapnik llamado "
+"\"TileStache\". Visite el sitio web de TileStache para obtener más "
+"información: http://tilestache.org/"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:54
 msgid ""
@@ -88,6 +97,9 @@ msgid ""
 "TileStache`. The server starts in a terminal window (which stays open and "
 "outputs basic debugging information)."
 msgstr ""
+"Haga click en :menuselection:`Desktop --> Herramientas espaciales --> "
+"Iniciar Mapnik & TileStache`. El servidor se inicia en una ventana de "
+"terminal (que permanece abierta y genera información básica de depuración)."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:56
 msgid ""
@@ -95,12 +107,17 @@ msgid ""
 " this link http://localhost:8012/example/0/0/0.png and observe the output in"
 " the server terminal window."
 msgstr ""
+"Compruebe que el servidor funciona solicitando un icono del servidor. Haga "
+"click este link http://localhost:8012/example/0/0/0.png y observe la salida "
+"en la ventana del terminal del servidor."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:58
 msgid ""
 "Visit the Leaflet demo application page `http://localhost/leaflet-demo.html "
 "<../../../leaflet-demo.html>`_."
 msgstr ""
+"Visite la página de la aplicación de demostración de Leaflet  "
+"`http://localhost/leaflet-demo.html <../../../leaflet-demo.html>`_."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:62
 msgid "What next?"
@@ -111,13 +128,17 @@ msgid ""
 "Follow the tutorials to learn more about Mapnik: "
 "https://github.com/mapnik/mapnik/wiki/MapnikTutorials"
 msgstr ""
+"Siga los tutoriales para obtener más información sobre Mapnik: "
+"https://github.com/mapnik/mapnik/wiki/MapnikTutorials"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:66
 msgid ""
 "Explore the included files on the latest OSGeoLive distribution, in this "
 "directory: file:///usr/local/share/mapnik/"
 msgstr ""
+"Explore los archivos incluidos en la última distribución de OSGeoLive, en "
+"este directorio:  file:///usr/local/share/mapnik/"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:68
-msgid "Visit the Mapnik website: http://www.mapnik.org/"
-msgstr ""
+msgid "Visit the Mapnik website: https://mapnik.org"
+msgstr "Visite el sitio web de Mapnik: https://mapnik.org"

@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2018
-# MarPetra <mvergaratrejo@gmail.com>, 2018
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -170,8 +170,8 @@ msgid "Details"
 msgstr "Detalles"
 
 #: ../../build/doc/overview/otb_overview.rst:72
-msgid "**Website:** http://www.orfeo-toolbox.org/"
-msgstr "**Sitio web:** http://www.orfeo-toolbox.org/"
+msgid "**Website:** https://www.orfeo-toolbox.org/"
+msgstr "**Sitio web:** https://www.orfeo-toolbox.org/"
 
 #: ../../build/doc/overview/otb_overview.rst:74
 msgid "**Licence:** Apache v2.0"
@@ -190,8 +190,8 @@ msgid "**API Interfaces:** C++"
 msgstr "**Interfaces API:** C++"
 
 #: ../../build/doc/overview/otb_overview.rst:82
-msgid "**Commercial Support:** http://www.osgeo.org/search_profile"
-msgstr "**Soporte comercial:** http://www.osgeo.org/search_profile"
+msgid "**Commercial Support:** |SUPPORT|"
+msgstr "**Soporte Comercial:** |SUPPORT|"
 
 #: ../../build/doc/overview/otb_overview.rst:87
 msgid "Quickstart"

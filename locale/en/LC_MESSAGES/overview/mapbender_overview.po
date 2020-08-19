@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-07-06 11:23-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,10 +27,9 @@ msgstr ""
 
 #: ../../build/doc/overview/mapbender_overview.rst:19
 msgid ""
-"`Mapbender <https://www.mapbender.org/en>`_ is a graduated OSGeo project."
-" It is a web based geoportal framework to publish, register, view, "
-"navigate, monitor and grant secure access to spatial data infrastructure "
-"services."
+"`Mapbender <https://mapbender.org/en>`_ is a graduated OSGeo project. It "
+"is a web based geoportal framework to publish, register, view, navigate, "
+"monitor and grant secure access to spatial data infrastructure services."
 msgstr ""
 
 #: ../../build/doc/overview/mapbender_overview.rst:21
@@ -140,7 +139,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/mapbender_overview.rst:63
-msgid "**Website:** https://www.mapbender.org"
+msgid "**Website:** https://mapbender.org"
 msgstr ""
 
 #: ../../build/doc/overview/mapbender_overview.rst:65
@@ -156,7 +155,7 @@ msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
 #: ../../build/doc/overview/mapbender_overview.rst:71
-msgid "**Support:** https://www.mapbender.org/en/community"
+msgid "**Support:** https://mapbender.org/en/community"
 msgstr ""
 
 #: ../../build/doc/overview/mapbender_overview.rst:75

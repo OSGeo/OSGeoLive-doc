@@ -6,16 +6,16 @@
 # Translators:
 # Violeta Sosa <vsosa.ud@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2018
-# MarPetra <mvergaratrejo@gmail.com>, 2018
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -117,10 +117,10 @@ msgstr ""
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
 msgid ""
 "https://help.ubuntu.com/community/Lubuntu/Documentation and "
-"http://wiki.lxde.org"
+"https://wiki.lxde.org/en/Main_Page"
 msgstr ""
 "https://help.ubuntu.com/community/Lubuntu/Documentation and "
-"http://wiki.lxde.org"
+"https://wiki.lxde.org/en/Main_Page"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:56
 msgid "Getting started with the Ubuntu operating system:"
@@ -130,11 +130,11 @@ msgstr "Primeros pasos con el sistema operativo Ubuntu:"
 msgid ""
 "`local eBook "
 "<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and "
-"`extended online help <http://help.ubuntu.com/14.04/>`_"
+"`extended online help <https://help.ubuntu.com>`_"
 msgstr ""
-"`local eBook "
+"`eBook local "
 "<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ y "
-"`ayuda en línea <http://help.ubuntu.com/14.04/>`_"
+"`ayuda ampliada en línea <https://help.ubuntu.com>`_"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:58
 msgid ":doc:`virtualization_quickstart`"

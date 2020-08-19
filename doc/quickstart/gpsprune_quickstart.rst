@@ -104,6 +104,6 @@ You can also save the downloaded map tiles to disk by selecting the menu option 
 
 Further reading
 ~~~~~~~~~~~~~~~
-* GpsPrune home page: https://gpsprune.activityworkshop.net/
-* Screenshots: https://gpsprune.activityworkshop.net/screenshots.html
-* How-tos and instructions: https://gpsprune.activityworkshop.net/how-tos.html
+* GpsPrune home page: https://activityworkshop.net/software/gpsprune/
+* Screenshots: https://activityworkshop.net/software/gpsprune/screenshots.html
+* How-tos and instructions: https://activityworkshop.net/software/gpsprune/how-tos.html

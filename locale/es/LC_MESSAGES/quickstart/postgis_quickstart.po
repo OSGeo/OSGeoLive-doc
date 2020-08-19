@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2019
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-03-25 17:45-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,7 +58,7 @@ msgstr "Administrar datos desde el cliente ``pgAdmin``."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:53
 msgid "Client-server architecture"
-msgstr ""
+msgstr "Arquitectura cliente-servidor"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:55
 msgid ""
@@ -91,11 +91,13 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:67
 msgid "Creating a spatially-enabled database"
-msgstr ""
+msgstr "Creación de una base de datos habilitada espacialmente"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:69
 msgid "Command-line clients run from within a Terminal Emulator window."
 msgstr ""
+"Los clientes de línea de comandos se ejecutan desde una ventana de Emulador "
+"de Terminal."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:71
 msgid ""
@@ -103,6 +105,9 @@ msgid ""
 "in the Accessories section. This gives you a Unix shell command prompt. "
 "Type::"
 msgstr ""
+"Inicie un Emulador de Terminal (LXTerminal actualmente) desde el menú "
+"Aplicaciones de la sección Accesorios. Esto le da un símbolo del sistema del"
+" shell de Unix. Tipo::"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:75
 msgid "and hit enter to see the PostgreSQL version number."
@@ -341,7 +346,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:236
 msgid "Creating a Spatial Table using SQL"
-msgstr ""
+msgstr "Creación de una Tabla Espacial mediante SQL"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:238
 msgid "Now we have a spatial database we can make some spatial tables."
@@ -414,7 +419,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:284
 msgid "Simple queries"
-msgstr ""
+msgstr "Consultas simples"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:286
 msgid ""
@@ -445,7 +450,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:317
 msgid "Spatial queries"
-msgstr ""
+msgstr "Consultas espaciales"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:319
 msgid ""
@@ -559,7 +564,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:411
 msgid "Importing spatial data into the database"
-msgstr ""
+msgstr "Importación de datos espaciales a la base de datos"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:413
 msgid ""
@@ -567,6 +572,9 @@ msgid ""
 "from other formats (f.e. ESRI Shape) into the database. Again we'll use QGIS"
 " to show this."
 msgstr ""
+"La mayoría de las herramientas de escritorio de OSGeo tienen funciones para "
+"importar datos espaciales de otros formatos (por ejemplo, ESRI Shape) a la "
+"base de datos. Una vez más usaremos QGIS para mostrar esto."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:415
 msgid ""
@@ -653,12 +661,17 @@ msgid ""
 " menu to query and modify your database non-spatially. This is the official "
 "client for PostgreSQL."
 msgstr ""
+"Puede utilizar el cliente de base de datos gráfica ``pgAdmin III`` del menú "
+"Bases de Datos para consultar y modificar la base de datos de forma no "
+"espacial. Este es el cliente oficial de PostgreSQL."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:468
 msgid ""
 "Please note that there is a new version of pgAdmin called pgAdmin4 that can "
 "get installed via apt install pgadmin4"
 msgstr ""
+"Tenga en cuenta que hay una nueva versión de pgAdmin llamada pgAdmin4 que se"
+" puede instalar a través de apt install pgadmin4"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:470
 msgid ""
@@ -666,6 +679,9 @@ msgid ""
 "and launch pgAdmin III from the Databases folder, existing on the OSGeoLive "
 "Desktop."
 msgstr ""
+"pgAdmin III le permite utilizar SQL para manipular las tablas de datos. "
+"Puede encontrar e iniciar pgAdmin III desde la carpeta Bases de Datos, "
+"existente en OSGeoLive Desktop."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:478
 msgid ""
@@ -722,7 +738,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:511
 msgid "Executing a SQL query from pgAdmin III"
-msgstr ""
+msgstr "Ejecución de una consulta SQL desde pgAdmin III"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:512
 msgid ""
@@ -819,8 +835,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:555
 msgid "PostGIS Project home -  http://postgis.net"
-msgstr ""
+msgstr "PostGIS Proyecto en casa -  http://postgis.net"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:557
 msgid "PostGIS Documentation -  http://postgis.net/documentation/"
-msgstr ""
+msgstr "PostGIS Documentación -  http://postgis.net/documentation/"

@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,6 +33,10 @@ msgid ""
 "data from LiDAR sensors and by LiDAR processing software for data "
 "interchange and archival."
 msgstr ""
+"libLAS es una biblioteca C/C++ para leer y escribir el formato muy común de "
+"LAS LiDAR. El formato ASPRS LAS es un formato binario secuencial utilizado "
+"para almacenar datos de sensores LiDAR y por el software de procesamiento "
+"LiDAR para el intercambio de datos y el archivo."
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:19
 msgid ""
@@ -43,6 +47,13 @@ msgid ""
 "measurements representing distance from the sensor to a returned emission. A"
 " common storage format for these point cloud data is ASPRS LAS format."
 msgstr ""
+"LiDAR (Light Detection and Ranging) es una forma de detección de rango de "
+"alta precisión muy similar a un sistema de radar que utiliza la luz láser "
+"como emisión electromagnética. Uno de los productos de los sistemas LiDAR es"
+" un producto de datos de \"nube de puntos\" que se puede conceptualizar como"
+" una serie de mediciones de puntos que representan la distancia desde el "
+"sensor hasta una emisión devuelta. Un formato de almacenamiento común para "
+"estos datos de nube de puntos es el formato ASPRS LAS."
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:25
 msgid "Processing"
@@ -75,14 +86,14 @@ msgid ""
 "system is not described in the LAS file.  For terrestrial LAS data, these "
 "coordinate system descriptions often map to coordinate systems described by "
 "the `EPSG`_ database.  Another source of information about coordinate "
-"systems in http://spatialreference.org."
+"systems in https://spatialreference.org."
 msgstr ""
-"Todos los datos LAS están en algún tipo de sistema de coordenadas, incluso "
-"si ese sistema de coordenadas no se describe en el archivo LAS. Para los "
-"datos LAS terrestres, estas descripciones del sistema de coordenadas a "
-"menudo se asignan a los sistemas de coordenadas descritos por el `EPSG`_ "
-"database.  Otra fuente de información sobre sistemas de coordenadas en "
-"http://spatialreference.org."
+"Todos los datos LAS se encuentran en algún tipo de sistema de coordenadas, "
+"incluso si ese sistema de coordenadas no se describe en el archivo LAS.  "
+"Para los datos LAS terrestres, estas descripciones del sistema de "
+"coordenadas a menudo se asignan a los sistemas de coordenadas descritos por "
+"la base de datos `EPSG`_.  Otra fuente de información sobre los sistemas de "
+"coordenadas en  https://spatialreference.org."
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:49
 msgid ""
@@ -158,9 +169,9 @@ msgid "What next?"
 msgstr "¿Qué sigue?"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:133
-msgid "Website: http://liblas.org"
-msgstr ""
+msgid "Website: https://liblas.org"
+msgstr "Sitio web: https://liblas.org"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:134
-msgid "Support: http://liblas.org/community.html"
-msgstr ""
+msgid "Support: https://liblas.org/community.html"
+msgstr "Soporte: https://liblas.org/community.html"

@@ -5,17 +5,17 @@
 # 
 # Translators:
 # Debora Robles Perez <derobpe@gmail.com>, 2017
-# MarPetra <mvergaratrejo@gmail.com>, 2018
-# Vicky Vergara <vicky@georepublic.de>, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,9 +33,9 @@ msgid ""
 "virtual machine. For other methods, follow links from the \"See Also\" "
 "section below."
 msgstr ""
-"Este Inicio Rápido describe una forma de ejecutar OSGeoLive dentro de una "
-"máquina virtual de VirtualBox. Para otros métodos, siga los enlaces de la "
-"sección \"Ver también\" que se muestra a continuación."
+"Este Inicio Rápido describe una forma de ejecutar OSGeo-Live en una Máquina "
+"Virtual de VirtualBox. Para otros métodos, siga los enlaces de la sección "
+"\"Vea también\" más abajo."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:15
 msgid "Virtual Machine Advantages"
@@ -98,24 +98,25 @@ msgstr ""
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:31
 msgid ""
 "Spare Hard Disk Space: The virtual disk file (vmdk) from:  `live.osgeo.org "
-"<http://live.osgeo.org/en/download.html>`_  unzips to almost 10 GB. And "
+"<https://live.osgeo.org/en/download.html>`_  unzips to almost 10 GB. And "
 "you'll want more space to allow some room to work on the virtual machine. So"
 " 20 GB is a good recommendation."
 msgstr ""
-"Espacio de Disco Duro de Repuesto: El archivo de disco virtual (vmdk) a "
-"partir de:  `live.osgeo.org <http://live.osgeo.org/en/download.html>`_  se "
-"descomprime a casi 10 GB. Requerirá más espacio para permitir que éste  "
+"Espacio en el Disco Duro de Repuesto: El archivo de disco virtual (vmdk) "
+"disponible en:  `live.osgeo.org <https://live.osgeo.org/en/download.html>`_ "
+"se descomprime a casi 10 GB. Requerirá más espacio para permitir que éste  "
 "funcione en la máquina virtual. Para ello, 20 GB es una buena recomendación."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:32
 msgid ""
 "CPU: Any CPU will do, but a processor which supports \"Virtualization "
 "Technology\" will be faster. You can check your computer CPU `here "
-"<http://www.intel.com/support/processors/sb/cs-030729.htm>`_."
+"<https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html>`__."
 msgstr ""
-"CPU: Cualquier CPU funcionará, pero un procesador que admita \"Tecnología de"
-" virtualización\" será más rápido. Puede consultar la CPU de su computadora "
-"`aquí <http://www.intel.com/support/processors/sb/cs-030729.htm>`_."
+"CPU: Cualquier CPU funcionará, pero un procesador que soporte "
+"\"Virtualization Technology\" será más rápido. Puede revisar el CPU de su "
+"computadora `aquí "
+"<https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html>`__."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:34
 msgid ""
@@ -134,13 +135,13 @@ msgstr "**Descargas**"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:41
 msgid ""
-"Download `Virtual Box <http://www.virtualbox.org/>`_  for your platform, and"
-" install the software. On windows run the installer, or on Ubuntu-like linux"
-" systems do the following:"
+"Download `Virtual Box <https://www.virtualbox.org/>`_  for your platform, "
+"and install the software. On windows run the installer, or on Ubuntu-like "
+"linux systems do the following:"
 msgstr ""
-"Descargue  `Virtual Box <http://www.virtualbox.org/>`_  para su plataforma e"
-" instale el software. En windows, ejecute el instalador run the installer, o"
-" en sistemas Linux similares a Ubuntu haga lo siguiente:"
+"Descargue Virtual Box <https://www.virtualbox.org/>`_ para su plataforma e "
+"instale el software. En windows, ejecute el instalador run the installer, o "
+"en sistemas Linux similares a Ubuntu haga lo siguiente:"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:43
 msgid "``apt-get install virtualbox-ose``"
@@ -149,14 +150,14 @@ msgstr "``apt-get install virtualbox-ose``"
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:45
 msgid ""
 "In addition download the OSGeo Virtual disk file (vmdk) from `live.osgeo.org"
-" <http://live.osgeo.org/en/download.html>`_ . Click on the \"Download "
+" <https://live.osgeo.org/en/download.html>`_ . Click on the \"Download "
 "virtual machine\" button. Then unzip the downloaded file (using `7zip "
-"<http://www.7-zip.org>`_ )."
+"<https://www.7-zip.org>`_ )."
 msgstr ""
-"Adicionalmente, descargue el Archivo de Disco Virtual (vmdk) de OSGeo desde"
-"  `live.osgeo.org <http://live.osgeo.org/en/download.html>`_ . Haga clik en "
+"Adicionalmente, descargue el Archivo de Disco Virtual (vmdk) de OSGeo desde "
+"`live.osgeo.org <https://live.osgeo.org/en/download.html>`_ . Haga clik en "
 "el botón \"Descargar máquina virtual\". Después, descomprima el archivo "
-"descargado (usando `7zip <http://www.7-zip.org>`_ )."
+"descargado (usando `7zip <https://www.7-zip.org>`_ )."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:49
 msgid "**Create a Virtual Machine**"
@@ -245,13 +246,12 @@ msgstr ""
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:91
 msgid "**Running the Virtual Machine**"
-msgstr "** Ejecutando la Máquina Virtual **"
+msgstr "**Ejecutando la Máquina Virtual**"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:93
 msgid "Now bootup the VM by clicking the Start (green arrow) button."
 msgstr ""
-"Ahora, inicie la VM haciendo clik en el botón de Start o Inicio (flecha "
-"verde)."
+"Ahora, inicie la VM haciendo clikk en el botón Iniciar (flecha verde)."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:95
 msgid "When you install the iso on the VM, the username must be set to \"user\""
@@ -318,7 +318,7 @@ msgstr ""
 "above example, we defined a Shared Folder path en el sistema host y lo "
 "llamamos \"GIS\" en Configuraciones  de VM. La carpeta compartida aparecerá "
 "en el sistema de archivos en /media/sf_GIS/.  Para montar esta carpeta en el"
-" directorio de inicio del usuario, por ejemplo, en un terminal hacer lo "
+" directorio de inicio del usuario, por ejemplo, en una terminal hacer lo "
 "siguiente:"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:111
@@ -351,10 +351,10 @@ msgstr "Páginas del wiki de OSGeo:"
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:120
 msgid ""
 "`Other ways to create a Virtual Machine "
-"<http://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
+"<https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
 msgstr ""
-"`Otras formas de crear una Máquina Virtual "
-"<http://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
+"`Otras formas de crear una Virtual Machine "
+"<https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:122
 msgid ":doc:`osgeolive_quickstart`"

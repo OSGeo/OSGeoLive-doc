@@ -17,7 +17,7 @@ exchange “geospatial” information and instructions with other information
 systems. Requirements range from complex scheduling and control of Earth
 observation satellites to displaying simple map images on the Web and encoding
 location in just a few bytes for geo-tagging and messaging. A look at the `OGC
-Domain Working Groups <http://www.ogc.org/projects/groups/wg>`_
+Domain Working Groups <https://www.ogc.org/projects/groups/wg>`_
 shows the wide scope of current activity in the OGC.
 
 The OGC Standards Baseline consists of the |OGC| standards
