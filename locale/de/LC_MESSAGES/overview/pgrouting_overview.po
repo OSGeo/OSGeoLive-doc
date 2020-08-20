@@ -167,7 +167,7 @@ msgstr "**API Schnittstellen:** SQL"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:77
 msgid "**Commercial Support:** https://pgrouting.org/support.html"
-msgstr "**Kommerzieller Support:** https:/pgrouting.org/support.html"
+msgstr "**Kommerzieller Support:** https://pgrouting.org/support.html"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:82
 msgid "Quickstart"
