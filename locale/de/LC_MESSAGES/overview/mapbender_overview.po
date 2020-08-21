@@ -38,10 +38,10 @@ msgid ""
 "a web based geoportal framework to publish, register, view, navigate, "
 "monitor and grant secure access to spatial data infrastructure services."
 msgstr ""
-"`Mapbender <https://www.mapbender.org/de>`_ ist ein graduiertes OSGeo "
-"Projekt. Mapbender ist ein web-basiertes Geoportal Framework zum "
-"Veröffentlichen, Anzeigen und Überwachen von OGC Diensten, mit der "
-"Möglichkeit Dienste gesichert anzubieten. "
+"`Mapbender <https://mapbender.org>`_ ist ein graduiertes OSGeo Projekt. "
+"Mapbender ist ein web-basiertes Geoportal Framework zum Veröffentlichen, "
+"Anzeigen und Überwachen von OGC Diensten, mit der Möglichkeit Dienste "
+"gesichert anzubieten. "
 
 #: ../../build/doc/overview/mapbender_overview.rst:21
 msgid ""
@@ -187,7 +187,7 @@ msgstr "**Unterstützte Plattformen:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/mapbender_overview.rst:71
 msgid "**Support:** https://mapbender.org/en/community"
-msgstr "**Support:** https://mapbender.org/de/community"
+msgstr "**Support:** https://mapbender.org/community"
 
 #: ../../build/doc/overview/mapbender_overview.rst:75
 msgid "Quickstart"
