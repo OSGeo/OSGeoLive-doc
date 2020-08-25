@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Astrid Emde <astrid_emde@osgeo.org>, 2018
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2018\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,12 +33,12 @@ msgstr "Browserbasierter Editor für OpenStreetMap"
 #: ../../build/doc/overview/ideditor_overview.rst:19
 msgid ""
 "The iD editor is the de facto, browser-based `OpenStreetMap "
-"<http://www.openstreetmap.org>`_ editor. iD is fast and easy to use, and "
+"<https://www.openstreetmap.org>`_ editor. iD is fast and easy to use, and "
 "allows mapping from various data sources such as satellite and aerial "
 "imageries, GPS, Field Papers or Mapillary."
 msgstr ""
 "Der iD Editor ist ein browserbasierter `OpenStreetMap "
-"<http://www.openstreetmap.org>`_ Editor. iD ist schnell und leicht zu "
+"<https://www.openstreetmap.org>`_ Editor. iD ist schnell und leicht zu "
 "handhaben und erlaubt das Erfassen auf Basis von unterschiedlichen "
 "Datenquellen z.B. Satelliten und  Luftbildern, GPS, Field Papers oder "
 "Mapillary."
@@ -85,8 +86,8 @@ msgid "Details"
 msgstr "Details"
 
 #: ../../build/doc/overview/ideditor_overview.rst:46
-msgid "**Website:** http://wiki.openstreetmap.org/wiki/ID"
-msgstr "**Webseite:** http://wiki.openstreetmap.org/wiki/ID"
+msgid "**Website:** https://wiki.openstreetmap.org/wiki/ID"
+msgstr "**Webseite:** https://wiki.openstreetmap.org/wiki/ID"
 
 #: ../../build/doc/overview/ideditor_overview.rst:48
 msgid "**Licence:** `ISC <https://en.wikipedia.org/wiki/ISC_license>`_"

@@ -7,15 +7,16 @@
 # Manfred Reiter <ma.reiter@gmail.com>, 2017
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Astrid Emde <astrid_emde@osgeo.org>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,11 +24,11 @@ msgstr ""
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/sponsors.rst:2
-msgid "OSGeoLive Sponsors"
-msgstr "OSGeoLive Sponsoren"
+#: ../../build/doc/sponsors.rst:1
+msgid "OSGeoLive Sponsors kea"
+msgstr "OSGeoLive Sponsors kea"
 
-#: ../../build/doc/sponsors.rst:8
+#: ../../build/doc/sponsors.rst:10
 msgid ""
 "The Open Source Geospatial Foundation (OSGeo) provides the primary "
 "development & hosting infrastructure and personnel for the project, and for "
@@ -37,7 +38,7 @@ msgstr ""
 "Entwicklungs- und Hostinginfrastruktur und personelle Unterstützung für das "
 "Projekt sowie für viele der Software Teams, die Beiträge leisten, bereit."
 
-#: ../../build/doc/sponsors.rst:16
+#: ../../build/doc/sponsors.rst:18
 msgid ""
 "Information Center for the Environment at the University of California, "
 "Davis provides hardware resources and development support to the OSGeoLive "
@@ -47,7 +48,7 @@ msgstr ""
 "Davis stellt dem OSGeo-Live Projekt Hardware und Entwicklerleistung zur "
 "Verfügung."
 
-#: ../../build/doc/sponsors.rst:25
+#: ../../build/doc/sponsors.rst:27
 msgid ""
 "Remote Sensing Laboratory at the National Technical University of Athens, "
 "provides hardware resources and development support to the OSGeoLive "
@@ -56,7 +57,7 @@ msgstr ""
 "Das Remote Sensing Laboratory der National Technical University von Athen "
 "unterstützt das OSGeo-Live Projekt mit Hardware und Entwicklerleistungen."
 
-#: ../../build/doc/sponsors.rst:33
+#: ../../build/doc/sponsors.rst:35
 msgid ""
 "The DebianGIS and UbuntuGIS projects provide and quality-assure many of the "
 "core packages."
@@ -64,7 +65,7 @@ msgstr ""
 "Das DebianGIS und UbuntuGIS Projekt stellen viele der Hauptprojekte bereit "
 "und sorgen für eine Qualitätssicherung."
 
-#: ../../build/doc/sponsors.rst:40
+#: ../../build/doc/sponsors.rst:42
 msgid ""
 "Okeanos is the Greek Academic cloud service (IaaS) which is providing "
 "virtualized computing resources free of charge to the Greek Universities and"
@@ -79,7 +80,7 @@ msgstr ""
 "Ganeti) auf. Okeanos stellt freundlicherweise die Virtuellen Maschinen, auf "
 "denen die OSGeoLive iso-Images gebaut werden."
 
-#: ../../build/doc/sponsors.rst:52
+#: ../../build/doc/sponsors.rst:53
 msgid ""
 "Georepublic is a Geolocation Technology Company, that embraces the idea of "
 "Free Software, and provide support and custom development for Open Source "
@@ -101,14 +102,14 @@ msgstr ""
 
 #: ../../build/doc/sponsors_osgeo.rst:11
 msgid ""
-"The `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`__ is a "
+"The `Open Source Geospatial Foundation (OSGeo) <https://osgeo.org>`__ is a "
 "not-for-profit organization whose mission is to foster global adoption of "
 "open geospatial technology by being an inclusive software foundation devoted"
 " to an open philosophy and participatory community driven development."
 msgstr ""
-"Die `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`_ ist eine"
-" Non-Profit Organisation, die sich für die Förderung von Freier und Open "
-"Source Software in der räumlichen Datenverarbeitung einsetzt. "
+"Die `Open Source Geospatial Foundation (OSGeo) <https://osgeo.org>`_ ist "
+"eine Non-Profit Organisation, die sich für die Förderung von Freier und "
+"Open-Source-Software in der räumlichen Datenverarbeitung einsetzt. "
 
 #: ../../build/doc/sponsors_osgeo.rst:17
 msgid "OSGeo outreach and activities include:"
@@ -116,44 +117,47 @@ msgstr "OSGeo Beratung und Aktivitäten umfassen:"
 
 #: ../../build/doc/sponsors_osgeo.rst:19
 msgid ""
-"`Local Chapters <http://www.osgeo.org/content/chapters/index.html>`__: "
-"Local, regional and language groups support grass roots activities."
+"`Local Chapters <https://www.osgeo.org/local-chapters>`__: Local, regional "
+"and language groups support grass roots activities."
 msgstr ""
-"`Local Chapters <http://www.osgeo.org/content/chapters/index.html>`__: "
-"Lokale, regionale Gruppen sowie Gruppen nach Sprachen unterstützen "
-"Graswurzel-Aktivitäten."
+"`Lokale Gruppen <https://www.osgeo.org/local-chapters>`__: Lokale, regionale"
+" Gruppen sowie Gruppen mit gleicher Sprache unterstützen Graswurzel-"
+"Aktivitäten."
 
 #: ../../build/doc/sponsors_osgeo.rst:20
 msgid ""
-"`GeoForAll <http://www.geoforall.org>`_: Over 100 educational labs from "
-"around the world who work with partners to make geospatial education and "
-"opportunities accessible to all."
+"`GeoForAll <https://www.osgeo.org/initiatives/geo-for-all>`__: Over 100 "
+"educational labs from around the world who work with partners to make "
+"geospatial education and opportunities accessible to all."
 msgstr ""
-"`GeoForAll <http://www.geoforall.org>`_: Über 100 Bildungslabore aus der "
-"ganzen Welt, die mit Partnern zusammenarbeiten, um die Bildung im Bereich "
-"von räumlichen Daten und den Zugang für jeden möglich zu machen."
+"`GeoForAll <https://www.osgeo.org/initiatives/geo-for-all>`_: Über 100 "
+"Geospatial-Labore wurden weltweit eingerichtet. Diese arbeiten mit Partnern "
+"daran, die Lehre rund um Geospatial voranzubringen und die deren "
+"Möglichkeiten für alle verfügbar zu machen."
 
 #: ../../build/doc/sponsors_osgeo.rst:21
 msgid ""
-"`OSGeoLive <http://live.osgeo.org>`__: A distribution of established "
+"`OSGeoLive <https://live.osgeo.org>`__: A distribution of established "
 "geospatial open source software, pre-configured with sample data and "
 "quickstarts, ready to try out."
 msgstr ""
-"`OSGeoLive <http://live.osgeo.org>`__: Eine Distribution von etablierter "
-"räumlicher Open-Source-Software, vorkonfiguriert mit Beispieldaten und "
-"Schnellstart-Dokumenten, bereit zum Ausprobieren."
+"`OSGeoLive <https://live.osgeo.org>`__: Eine Sammlung von etablierter "
+"Geospatial Open Source Software, vorkonfiguriert mit Beispieldaten und "
+"Einführungsdokumenten (Quickstart). Mit OSGeoLive können die Programme "
+"direkt ausprobiert werden."
 
 #: ../../build/doc/sponsors_osgeo.rst:22
 msgid ""
-"`FOSS4G <http://foss4g.org>`_: Annual, international conference for *Free "
+"`FOSS4G <https://foss4g.org>`_: Annual, international conference for *Free "
 "and Open Source Software for Geospatial*, as well as many regional and local"
-" `events <http://www.osgeo.org/events>`_."
+" `events <https://www.osgeo.org/events>`_."
 msgstr ""
-"`FOSS4G <http://foss4g.org>`_: Jährliche, internationale Tagung zu *Free and"
-" Open Source Software for Geospatial*, sowie viele regionale und lokale "
-"`Events <http://www.osgeo.org/events>`_."
+"`FOSS4G <https://foss4g.org>`_: Jährlich stattfindende internationale "
+"Konferenz für *Freie und Open-Source-Software rund um Geospatial*, sowie "
+"zahlreiche regionale und lokale `Veranstaltungen "
+"<http://www.osgeo.org/events>`_."
 
-#: ../../build/doc/sponsors.rst:58
+#: ../../build/doc/sponsors.rst:59
 msgid "Contributors"
 msgstr "Beitragende"
 
@@ -801,15 +805,15 @@ msgstr "fschindler"
 
 #: ../../build/contributors.csv:1
 msgid "Felicity Brand"
-msgstr ""
+msgstr "Felicity Brand"
 
 #: ../../build/contributors.csv:1
 msgid "felicitybrand gmail com"
-msgstr ""
+msgstr "felicitybrand gmail com"
 
 #: ../../build/contributors.csv:1
 msgid "flicstar"
-msgstr ""
+msgstr "flicstar"
 
 #: ../../build/contributors.csv:1
 msgid "Fran Boon"
@@ -1879,7 +1883,7 @@ msgstr "Ungarn"
 msgid "Siki"
 msgstr "Siki"
 
-#: ../../build/doc/sponsors.rst:68
+#: ../../build/doc/sponsors.rst:69
 msgid "Translators"
 msgstr "Übersetzer"
 
@@ -2902,56 +2906,56 @@ msgstr "tanner"
 
 #: ../../build/translators.csv:1
 msgid "Swedish"
-msgstr ""
+msgstr "Swedish"
 
 #: ../../build/translators.csv:1
 msgid "sv"
-msgstr ""
+msgstr "sv"
 
 #: ../../build/translators.csv:1
 msgid "Anne Elise Ylinen"
-msgstr ""
+msgstr "Anne Elise Ylinen"
 
 #: ../../build/translators.csv:1
 msgid "aeylinen gmail.com"
-msgstr ""
+msgstr "aeylinen gmail.com"
 
 #: ../../build/translators.csv:1
 msgid "Aeylinen"
-msgstr ""
+msgstr "Aeylinen"
 
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 msgid "Romanian"
-msgstr ""
+msgstr "Romanian"
 
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 msgid "ro"
-msgstr ""
+msgstr "ro"
 
 #: ../../build/translators.csv:1
 msgid "Ionut Ungurianu"
-msgstr ""
+msgstr "Ionut Ungurianu"
 
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 msgid "Romania"
-msgstr ""
+msgstr "Romania"
 
 #: ../../build/translators.csv:1
 msgid "ionutungurianu gmail com"
-msgstr ""
+msgstr "ionutungurianu gmail com"
 
 #: ../../build/translators.csv:1
 msgid "iungurianu"
-msgstr ""
+msgstr "iungurianu"
 
 #: ../../build/translators.csv:1
 msgid "Alin Deneanu"
-msgstr ""
+msgstr "Alin Deneanu"
 
 #: ../../build/translators.csv:1
 msgid "alin.deneanu gmail com"
-msgstr ""
+msgstr "alin.deneanu gmail com"
 
 #: ../../build/translators.csv:1
 msgid "alindeneanu"
-msgstr ""
+msgstr "alindeneanu"

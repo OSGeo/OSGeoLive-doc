@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-08-19 10:16-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Andreas Schild <andreas.schild@bfw.gv.at>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -319,15 +319,16 @@ msgid "Further reading"
 msgstr "Weiterführende Literatur"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:110
-msgid "GpsPrune home page: https://gpsprune.activityworkshop.net/"
-msgstr "GpsPrune Homeseite (englisch): https://gpsprune.activityworkshop.net/"
+msgid "GpsPrune home page: https://activityworkshop.net/software/gpsprune/"
+msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:111
-msgid "Screenshots: https://gpsprune.activityworkshop.net/screenshots.html"
+msgid ""
+"Screenshots: https://activityworkshop.net/software/gpsprune/screenshots.html"
 msgstr ""
-"Bildschirmfotos: https://gpsprune.activityworkshop.net/screenshots.html"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:112
 msgid ""
-"How-tos and instructions: https://gpsprune.activityworkshop.net/how-tos.html"
+"How-tos and instructions: https://activityworkshop.net/software/gpsprune"
+"/how-tos.html"
 msgstr ""

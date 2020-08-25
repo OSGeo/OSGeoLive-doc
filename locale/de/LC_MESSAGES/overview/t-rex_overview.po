@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Pirmin Kalberer <pka@sourcepole.com>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2019-07-18 21:57+0000\n"
-"Last-Translator: Pirmin Kalberer <pka@sourcepole.com>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -72,12 +73,12 @@ msgid "Details"
 msgstr "Details"
 
 #: ../../build/doc/overview/t-rex_overview.rst:40
-msgid "**Website:**  https://t-rex.tileserver.ch/"
+msgid "**Website:** https://t-rex.tileserver.ch/"
 msgstr "**Webseite:** https://t-rex.tileserver.ch/"
 
 #: ../../build/doc/overview/t-rex_overview.rst:42
-msgid "**Licence:** `MIT license <http://opensource.org/licenses/MIT>`_"
-msgstr "**Lizenz:** `MIT <http://opensource.org/licenses/MIT>`_"
+msgid "**Licence:** `MIT license <https://opensource.org/licenses/MIT>`_"
+msgstr "**Lizenz:** `MIT-Lizenz <https://opensource.org/licenses/MIT>`_"
 
 #: ../../build/doc/overview/t-rex_overview.rst:44
 msgid "**Software Version:** |version-t-rex|"
