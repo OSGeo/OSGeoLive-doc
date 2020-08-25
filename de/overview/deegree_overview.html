@@ -75,7 +75,7 @@
 <h1>deegree<a class="headerlink" href="#deegree" title="Link zu dieser Überschrift">¶</a></h1>
 <div class="section" id="about">
 <h2>Über<a class="headerlink" href="#about" title="Link zu dieser Überschrift">¶</a></h2>
-<p>deegree provides geospatial webservices based upon <a class="reference external" href="https://www.ogc.org">Open Geospatial Consortium (OGC)</a> and <a class="reference external" href="https://inspire.ec.europa.eu">INSPIRE Network Services</a> specifications. deegree supports:</p>
+<p>Die deegree Webservices sind Implementierungen der Webservice Spezifikationen des <a class="reference external" href="https://www.ogc.org">Open Geospatial Consortium (OGC)</a> und der <a class="reference external" href="https://inspire.ec.europa.eu">INSPIRE Network Services</a>. deegree unterstützt die folgenden Dienste:</p>
 <ul class="simple">
 <li><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a>: Serves vector data from geospatial data</li>
 <li><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a>: Serves maps rendered from geospatial data</li>
@@ -87,7 +87,7 @@
 </div>
 <div class="section" id="core-features">
 <h2>Eigenschaften des deegree WFS<a class="headerlink" href="#core-features" title="Link zu dieser Überschrift">¶</a></h2>
-<p>Der deegree WFS ist eine Implementierung der <a class="reference external" href="http://www.opengeospatial.org/standards/wfs">OGC Web Feature Service Spezifikation</a>. Einige Eigenschaften:</p>
+<p><strong>WFS</strong></p>
 <ul class="simple">
 <li>Implementiert  WFS standards 1.0.0, 1.1.0 and 2.0.0</li>
 <li>Vollständig transaktional (auch bei komplexen Datenmodellen)</li>
@@ -102,7 +102,7 @@
 <li>Unterstützt fortschrittliche Filterausdrücke basierend auf XPath 1.0</li>
 <li>Unterstützt eine Vielzahl von Datenquellen, wie beispielsweise PostGIS, Oracle Spatial, MS SQL Server, Shapefile oder GML-Dokumente.</li>
 </ul>
-<p>Der deegree WMS ist eine Implementierung der <a class="reference external" href="http://www.opengeospatial.org/standards/wms">OGC Web Map Service Spezifikation</a>. Einige Eigenschaften:</p>
+<p><strong>WMS</strong></p>
 <ul class="simple">
 <li>Implementiert die WMS Standards 1.1.1 und 1.3.0</li>
 <li>Umfangreiche Unterstützung für die Styling-Sprachen SLD/SE-Versionen 1.0.0 und 1.1.0</li>
@@ -117,7 +117,7 @@
 <li>Unterstützt zahlreiche Backends, wie PostGIS, Oracle Spatial, Shape oder GML-Instanz-Dokumente</li>
 <li>Rich-data-models können direkt angezeigt werden.</li>
 </ul>
-<p>Der deegree WMTS ist eine Implementierung der <a class="reference external" href="http://www.opengeospatial.org/standards/wmts">OGC Web Map Tile Service Spezifikation</a>. Einige Eigenschaften:</p>
+<p><strong>WMTS</strong></p>
 <ul class="simple">
 <li>Implementiert Basic WMTS Standard 1.0.0 (KVP)</li>
 <li>Hoch performant und hervorragend skalierbar</li>
@@ -125,7 +125,7 @@
 <li>Unterstützt on-the-fly Caching (Verwendung von EHCache)</li>
 <li>Unterstützt GetFeatureInfo für Remote WMS Datenquellen</li>
 </ul>
-<p>Der deegree CSW ist eine Implementierung der <a class="reference external" href="http://www.opengeospatial.org/standards/cat">OGC Catalogue Service Spezifikation</a>. Einige Eigenschaften:</p>
+<p><strong>CSW</strong></p>
 <ul class="simple">
 <li>Implementiert CSV standard 2.0.2</li>
 <li>Vollständig transaktional</li>
@@ -138,7 +138,7 @@
 <li>Unterstützt all definierten queryable Properties (für Dublin Core und ISO Profil)</li>
 <li>Komplexe Filter-Ausdrücke</li>
 </ul>
-<p>Der deegree WPS ist eine Implementierung der <a class="reference external" href="http://www.opengeospatial.org/standards/wps">OGC Processing Service Spezifikation</a>. Einige Eigenschaften:</p>
+<p><strong>WPS</strong></p>
 <ul class="simple">
 <li>Implementiert WPS Standard 1.0.0</li>
 <li>Unterstützt KVP, XML und SOAP Requests</li>
@@ -156,12 +156,12 @@
 <div class="section" id="implemented-standards">
 <h2>Implementierte Standards<a class="headerlink" href="#implemented-standards" title="Link zu dieser Überschrift">¶</a></h2>
 <ul class="simple">
-<li><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> 1.0.0, 1.1.0 and 2.0.0</li>
-<li><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> 1.1.1 and 1.3.0</li>
+<li><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> 1.0.0, 1.1.0 und 2.0.0</li>
+<li><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> 1.1.1 und 1.3.0</li>
 <li><a class="reference external" href="https://www.ogc.org/standards/wmts">OpenGIS Web Map Tile ServiceW (WMTS)</a> 1.1.0</li>
 <li>OGC Catalogue Service-Web (CSW) 2.0.2</li>
 <li><a class="reference external" href="https://www.ogc.org/standards/wps">Web Processing Service (WPS)</a> 1.0.0</li>
-<li><a class="reference external" href="https://www.ogc.org/standards/gml">Geography Markup Language (GML)</a> 2.12, 3.0.1, 3.1.1 and 3.2.1</li>
+<li><a class="reference external" href="https://www.ogc.org/standards/gml">Geography Markup Language (GML)</a> 2.12, 3.0.1, 3.1.1 und 3.2.1</li>
 </ul>
 </div>
 <div class="section" id="details">

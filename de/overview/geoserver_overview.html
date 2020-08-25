@@ -110,18 +110,18 @@
 <dt><strong>On-the-fly Umprojektion:</strong></dt>
 <dd>GeoServer supports the majority of the EPSG database of projections and can reproject to any of them on demand to allow clients with limited reprojection support to pass the load to the server.</dd>
 <dt><strong>Tiling Cache</strong></dt>
-<dd><a class="reference external" href="https://www.geowebcache.org">GeoWebCache</a>, which is integrated into GeoServer, tiles and caches map images from a variety of sources such as WMS. It implements various service interfaces (such as WMS-C, WMTS, TMS, Google Maps KML, Virtual Earth) in order to accelerate and optimize map image delivery. It can also recombine tiles to work with regular WMS clients.</dd>
+<dd><a class="reference external" href="https://www.geowebcache.org">GeoWebCache</a> wurde in GeoServer integriert. GeoWebCache kachelt und legt eine Zwischenspeicher von Kartenbilder von einer Vielzahl von Quellen beispielweise WMS an. Es wurden verschiedene Service Interfaces geschaffen (WMS-C, WMTS, TMS, Google Maps KML, Virtual Earth), um die Bildauslieferung zu beschleunigen und zu optimieren. Kacheln können ebenso wieder zusammengefügt werden, um mit gängigen WMS Clients zu arbeiten.</dd>
 <dt><strong>Web Processing Service (WPS)</strong></dt>
-<dd>Geospatial algorithms, including those from <a class="reference internal" href="jts_overview.html"><span class="doc">JTS</span></a>, can be called through GeoServer’s <a class="reference external" href="https://www.ogc.org/standards/wps">Web Processing Service (WPS)</a> interface. This includes the chaining of processes, and using rendering transformations to create powerful visualisations through the WMS interface.</dd>
+<dd>Räumliche Algorithmen, inklusive der <a class="reference internal" href="jts_overview.html"><span class="doc">JTS</span></a> Algorithme, können über GeoServer’s <a class="reference external" href="https://www.ogc.org/standards/wps">Web Processing Service (WPS)</a>  Interface aufgerufen werden. Dies beinhaltet das Verketten von Prozessen und verwendet Renderingtransformationen, um eine beeindruckende Darstellung durch das WMS Interface zu erzeugen.</dd>
 </dl>
 </div>
 <div class="section" id="implemented-standards">
 <h3>Implementierte Standards<a class="headerlink" href="#implemented-standards" title="Link zu dieser Überschrift">¶</a></h3>
 <p>Unterstützung zahlreicher Open Geospatial Consortium (OGC) Standards:</p>
 <ul class="simple">
-<li><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> (client/server)</li>
+<li><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> (Client/Server)</li>
 <li><a class="reference external" href="https://www.ogc.org/standards/wmts">OpenGIS Web Map Tile ServiceW (WMTS)</a></li>
-<li><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> (transactional)</li>
+<li><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> (transaktional)</li>
 <li><a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a></li>
 <li><a class="reference external" href="https://www.ogc.org/standards/filter">Filter Encoding (FE)</a></li>
 <li><a class="reference external" href="https://www.ogc.org/standards/sld">Styled Layer Descriptor (SLD)</a></li>
