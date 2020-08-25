@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Santtu Pyykkönen, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Santtu Pyykkönen, 2019\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -160,8 +161,8 @@ msgid "Details"
 msgstr "Tiedot"
 
 #: ../../build/doc/overview/openlayers_overview.rst:76
-msgid "**Website:** http://openlayers.org"
-msgstr "* * Verkkosivusto: * * http://openlayers.org"
+msgid "**Website:** https://openlayers.org/"
+msgstr ""
 
 #: ../../build/doc/overview/openlayers_overview.rst:78
 msgid "**License:** 2-clause BSD License (aka FreeBSD License)"
@@ -180,9 +181,8 @@ msgid ""
 "**Support:** https://stackoverflow.com/questions/tagged/openlayers (user) "
 "and https://groups.google.com/forum/#!forum/openlayers-dev (developer)"
 msgstr ""
-"* * Tuki: * * https://stackoverflow.com/questions/tagged/openlayers "
-"(käyttäjä) ja https://groups.google.com/forum/#!forum/openlayers-dev "
-"(kehittäjä)"
+"**Tuki:**  https://stackoverflow.com/questions/tagged/openlayers (käyttäjä) ja\n"
+"https://groups.google.com/forum/#!forum/openlayers-dev (kehittäjä)"
 
 #: ../../build/doc/overview/openlayers_overview.rst:89
 msgid "Quickstart"
@@ -191,5 +191,4 @@ msgstr "Quickstart"
 #: ../../build/doc/overview/openlayers_overview.rst:91
 msgid ":doc:`Quickstart documentation <../quickstart/openlayers_quickstart>`"
 msgstr ""
-":d oC: ' Quickstart <.. uickstart/openlayers_quickstart=\"\">-dokumentaatio "
-"'</..>"
+":doc:`Pika-aloitusdokumentaatio <../quickstart/openlayers_quickstart>`"
