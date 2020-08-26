@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fi">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>PostGIS Quickstart &#8212; OSGeoLive 13.0 Documentation</title>
+    <title>PostGIS pika-aloitus &#8212; OSGeoLive 13.0 Documentation</title>
     <link rel="stylesheet" href="../../_static/overview.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -72,111 +72,86 @@
   <a class="reference external image-reference" href="http://postgis.net"><img alt="../../_images/logo_postgis.png" class="align-right" src="../../_images/logo_postgis.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <div class="section" id="postgis-quickstart">
-<h1>PostGIS Quickstart<a class="headerlink" href="#postgis-quickstart" title="Permalink to this headline">¶</a></h1>
-<p>PostGIS adds spatial capabilities to the PostgreSQL relational database. It extends
-PostgreSQL so it can store, query, and manipulate spatial data. In this Quickstart we will
-use ’PostgreSQL’ when describing general database functions, and ’PostGIS’ when
-describing the additional spatial functionality provided by PostGIS.</p>
-<p>This Quick Start describes how to:</p>
+<h1>PostGIS pika-aloitus<a class="headerlink" href="#postgis-quickstart" title="Permalink to this headline">¶</a></h1>
+<p>PostGIS lisää spatiaaliset toiminallisuudet PostgreSQL-relaatiotietokantaan. Se laajentaa PostgreSQL:ää, jotta se pystyisi tallentamaan, kyselemään, ja manipuloimaan paikkatietoja. Tässä pika-aloituksessa käytämme ”PostgreSQL” kuvattaessa yleisiä tietokanta toimintoja, ja ”PostGIS” kuvattaessa spatiaalisia toiminnallisuuksia, jotka PostGIS tarjoaa.</p>
+<p>Tämä Pika-aloitus kuvaa, miten:</p>
 <blockquote>
 <div><ul class="simple">
-<li>Create and query a spatial database from the command line and <a class="reference internal" href="../overview/qgis_overview.html"><span class="doc">QGIS</span></a> graphical client.</li>
-<li>Manage data from the <code class="docutils literal"><span class="pre">pgAdmin</span></code> client.</li>
+<li>Luo ja Kysele paikkatietokantaa komentoriviltä ja <a class="reference internal" href="../overview/qgis_overview.html"><span class="doc">QGIS</span></a> graafisen käyttöliittymän omaavasta client-ohjelmistosta.</li>
+<li>Hallitse tietoja  ”pgAdmin”-client-ohjelmistosta.</li>
 </ul>
 </div></blockquote>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#client-server-architecture" id="id1">Client-server architecture</a></li>
-<li><a class="reference internal" href="#creating-a-spatially-enabled-database" id="id2">Creating a spatially-enabled database</a></li>
+<li><a class="reference internal" href="#client-server-architecture" id="id1">Asiakas-palvelin-arkkitehtuuri</a></li>
+<li><a class="reference internal" href="#creating-a-spatially-enabled-database" id="id2">Paikkatietoista tietokantaa käyttävän tietokannan luominen</a></li>
 <li><a class="reference internal" href="#creating-a-spatial-table-using-sql" id="id3">Creating a Spatial Table using SQL</a></li>
-<li><a class="reference internal" href="#simple-queries" id="id4">Simple queries</a></li>
-<li><a class="reference internal" href="#spatial-queries" id="id5">Spatial queries</a></li>
-<li><a class="reference internal" href="#mapping" id="id6">Mapping</a></li>
-<li><a class="reference internal" href="#importing-spatial-data-into-the-database" id="id7">Importing spatial data into the database</a></li>
-<li><a class="reference internal" href="#get-to-know-pgadmin-iii" id="id8">Get to know pgAdmin III</a></li>
-<li><a class="reference internal" href="#executing-a-sql-query-from-pgadmin-iii" id="id9">Executing a SQL query from pgAdmin III</a></li>
-<li><a class="reference internal" href="#things-to-try" id="id10">Things to try</a></li>
-<li><a class="reference internal" href="#what-next" id="id11">What next?</a></li>
+<li><a class="reference internal" href="#simple-queries" id="id4">Yksinkertaiset kyselyt</a></li>
+<li><a class="reference internal" href="#spatial-queries" id="id5">Paikkatietokyselyt</a></li>
+<li><a class="reference internal" href="#mapping" id="id6">Kartoitus</a></li>
+<li><a class="reference internal" href="#importing-spatial-data-into-the-database" id="id7">Paikkatietojen tuominen tietokantaan</a></li>
+<li><a class="reference internal" href="#get-to-know-pgadmin-iii" id="id8">Tutustu pgAdmin III:een</a></li>
+<li><a class="reference internal" href="#executing-a-sql-query-from-pgadmin-iii" id="id9">Suoritetaan SQL-kysely sivulta pgAdmin III</a></li>
+<li><a class="reference internal" href="#things-to-try" id="id10">Kokeiltavaa:</a></li>
+<li><a class="reference internal" href="#what-next" id="id11">Mitä seuraavaksi?</a></li>
 </ul>
 </div>
 <div class="section" id="client-server-architecture">
-<h2><a class="toc-backref" href="#id1">Client-server architecture</a><a class="headerlink" href="#client-server-architecture" title="Permalink to this headline">¶</a></h2>
-<p>PostgreSQL, like many databases, works as a server in a client-server system.
-The client makes a request to the server and gets back a response. This is the
-same way that the internet works - your browser is a client and a web server sends
-back the web page. With PostgreSQL the requests are in the SQL language and the
-response is usually a table of data from the database.</p>
-<p>There is nothing to stop the server being on the same computer as the client, and this
-enables you to use PostgreSQL on a single machine. Your client connects to the server
-via the internal ’loopback’ network connection, and is not visible to other computers
-unless you configure it to be so.</p>
+<h2><a class="toc-backref" href="#id1">Asiakas-palvelin-arkkitehtuuri</a><a class="headerlink" href="#client-server-architecture" title="Permalink to this headline">¶</a></h2>
+<p>PostgreSQL, monien tietokantojen tapaan, toimii palvelimena asiakas-palvelin järjestelmässä. Asiakas tekee pyynnön palvelimelle ja saa takaisin vastauksen. Tämä mukailee tapaa, jolla Internet toimii - selaimesi on client-ohjelmisto ja palvelin lähettää takaisin verkkosivuston. PostgreSQL:n yhteydessä pyynnöt tehdään SQL-kielellä ja vastaus on yleensä tietokantataulukon muodossa.</p>
+<p>Mikään ei estä asettamaan palvelinta olemasta samassa tietokoneessa kuin itse client-ohjelmisto. Näin voit käyttää PostgreSQL-ohjelmaa yksittäisessä koneessa. Client-ohjelmistosi muodostaa yhteyden palvelimeen sisäisen ”loopback”-verkkoyhteyden kautta, eikä se näy muille tietokoneille, ellet määritä sitä sellaiseksi.</p>
 </div>
 <div class="section" id="creating-a-spatially-enabled-database">
-<h2><a class="toc-backref" href="#id2">Creating a spatially-enabled database</a><a class="headerlink" href="#creating-a-spatially-enabled-database" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Paikkatietoista tietokantaa käyttävän tietokannan luominen</a><a class="headerlink" href="#creating-a-spatially-enabled-database" title="Permalink to this headline">¶</a></h2>
 <p>Command-line clients run from within a Terminal Emulator window.</p>
 <p>Start a Terminal Emulator (LXTerminal currently) from the Applications menu in the Accessories section. This gives you a Unix shell command prompt. Type:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">psql</span> <span class="o">-</span><span class="n">V</span>
 </pre></div>
 </div>
-<p>and hit enter to see the PostgreSQL version number.</p>
-<p>A single PostgreSQL server lets you organise work by arranging it into separate
-databases. Each database is an independent regime, with its own tables, views, users
-and so on. When you connect to a PostgreSQL server you have to specify a
-database.</p>
-<p>You can get a list of databases on the server with the:</p>
+<p>ja paina ENTER nähdäksesi PostgreSQL:n versionumero.</p>
+<p>Yksittäinen PostgreSQL-palvelin mahdollistaa työskentelyn organisoimalla sen erillisiin tietokantoihin. Jokainen tietokanta on itsenäinen hallintojärjestelmä, jossa on omat taulukot, näkymät, käyttäjät ja niin edelleen. Muodostaessasi yhteyden PostgreSQL-palvelimeen, sinun on määritettävä tietokanta.</p>
+<p>Voit saada luettelon tietokannoista palvelimella:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">psql</span> <span class="o">-</span><span class="n">l</span>
 </pre></div>
 </div>
-<p>command. You should see several databases used by some of the projects on the system.
-We will create a new one for this quickstart.</p>
+<p>komento. Sinun pitäisi nähdä useita tietokantoja, jotka ovat käytössä järjestelmässä joiden projektien toimesta. Luomme uuden kannan tämän pika-aloituksen kautta.</p>
 <div class="admonition tip">
 <p class="first admonition-title">Vihje</p>
-<p class="last">The list uses a standard unix pager - hit space for next page, <code class="kbd docutils literal"><span class="pre">b</span></code> to go back, <code class="kbd docutils literal"><span class="pre">q</span></code>
-to quit, h for help.</p>
+<p class="last">Luettelo käyttää standardinomaisesti UNIX:ia  - paina space-näppäintä päästäksesi seuraavalle sivulle,: KBD: ’ b ’ mennäksesi takaisin,: KBD: ’ q ’ lopettaaksesi, h löytääksesi apuja.</p>
 </div>
-<p>PostgreSQL gives us a utility program for creating databases, <code class="docutils literal"><span class="pre">createdb</span></code>. We need to
-create a database before adding the PostGIS extensions. We’ll call our database <code class="docutils literal"><span class="pre">demo</span></code>.
-The command is then:</p>
+<p>PostgreSQL antaa meille apuohjelman tietokantojen luomiseen, ’’ createdb ’’. Meidän on luotava tietokanta ennen kuin lisäämme PostGIS-laajennuksen. Tietokantaamme kutsumme nimellä ’’demo’’’. Komento on näin:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">createdb</span> <span class="n">demo</span>
 </pre></div>
 </div>
 <div class="admonition tip">
 <p class="first admonition-title">Vihje</p>
-<p class="last">You can usually get help for command line tools by using a <code class="docutils literal"><span class="pre">--help</span></code> option.</p>
+<p class="last">Voit yleensä saada apuja ja lisätietoja komentorivityökalujen käyttämällä ’’–help’’ komentoa.</p>
 </div>
-<p>If you now run <code class="docutils literal"><span class="pre">psql</span> <span class="pre">-l</span></code> you should see your <code class="docutils literal"><span class="pre">demo</span></code> database in the listing.
-We have not added the PostGIS extension yet, but in the next section you will learn how.</p>
-<p>You can create PostGIS databases using the SQL language. First we’ll delete the
-database we just created using the <code class="docutils literal"><span class="pre">dropdb</span></code> command, then use the <code class="docutils literal"><span class="pre">psql</span></code> command
-to get an SQL command interpreter:</p>
+<p>Jos nyt ajat komennon ’’psql -l’’ sinun pitäisi nähdä ’’demo’’-tietokanta listalla. Emme ole vielä lisänneet PostGIS laajennusta, mutta seuraavassa osiossa opit miten se tehdään.</p>
+<p>Voit luoda PostGIS-tietokantoja käyttämällä SQL-kieltä. Ensin deletoimme tietokannan, jonka juuri loimme käyttäen <code class="docutils literal"><span class="pre">dropdb</span></code>-komentoa. Sitten käytä <code class="docutils literal"><span class="pre">psql</span></code>-komentoa saadaksesi SQL-komentorivisovelluksen auki:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">dropdb</span> <span class="n">demo</span>
 <span class="n">psql</span> <span class="o">-</span><span class="n">d</span> <span class="n">postgres</span>
 </pre></div>
 </div>
-<p>This connects to the core system database called <code class="docutils literal"><span class="pre">postgres</span></code>.
-Now enter the SQL to create a new database:</p>
+<p>Tämä muodostaa yhteyden ydinjärjestelmän tietokantaan nimeltä ’’postgres’’. Nyt aja tarvittava SQL-komento luodaksesi uuden tietokannan:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">postgres</span><span class="o">=</span><span class="c1"># CREATE DATABASE demo;</span>
 </pre></div>
 </div>
-<p>Now switch your connection from the <code class="docutils literal"><span class="pre">postgres</span></code> database to the new <code class="docutils literal"><span class="pre">demo</span></code> database.
-In the future you can connect to it directly with <code class="docutils literal"><span class="pre">psql</span> <span class="pre">-d</span> <span class="pre">demo</span></code>, but here’s a neat
-way of switching within the <code class="docutils literal"><span class="pre">psql</span></code> command line:</p>
+<p>Vaihda nyt yhteytesi <code class="docutils literal"><span class="pre">postgres</span></code> tietokannasta uuteen <code class="docutils literal"><span class="pre">demo</span></code>-tietokantaan. Tulevaisuudessa voit tehdä siihen suoraan yhteyden käyttämällä <code class="docutils literal"><span class="pre">psql</span> <span class="pre">-d</span> <span class="pre">demo</span></code>-komentoa, mutta siihen on myös näppärä tapa suoraan <code class="docutils literal"><span class="pre">psql</span></code>-komentoriviltä.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">postgres</span><span class="o">=</span><span class="c1"># \c demo</span>
 </pre></div>
 </div>
 <div class="admonition tip">
 <p class="first admonition-title">Vihje</p>
-<p class="last">Hit <code class="kbd docutils literal"><span class="pre">CTRL</span></code> + <code class="kbd docutils literal"><span class="pre">C</span></code> if the psql prompt keeps appearing after pressing return. It will clear your
-input and start again. It is probably waiting for a closing quote mark, semicolon, or something.</p>
+<p class="last">Paina <code class="kbd docutils literal"><span class="pre">CTRL</span></code> + <code class="kbd docutils literal"><span class="pre">C</span></code> mikäli psql-prompt pysyy näkyvillä painettuasi Enter-näppäintä. Se tyhjentää syötteen ja aloittaa uudelleen. Se on luultavasti odottanut komennon sulkemiseen lainausmerkkiä, puolipistettä, tai jotain muuta merkkiä.</p>
 </div>
-<p>You should see an informational message, and the prompt will change to show that you are now
-connected to the <code class="docutils literal"><span class="pre">demo</span></code> database.</p>
-<p>Next, add PostGIS extension:</p>
+<p>Nyt sinun pitäisi nähdä informatiivinen viesti ja komentorivityökaluun tulee näkymään, että olet nyt yhteydessä <code class="docutils literal"><span class="pre">demo</span></code> -tietokantaan.</p>
+<p>Lisää seuraavaksi PostGIS-laajennus:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># create extension postgis;</span>
 </pre></div>
 </div>
-<p>To verify you have postgis now installed, run the following query:</p>
+<p>Voit varmistaa, että sinulla on nyt asennettuna PostGIS, suorittamalla seuraavan kyselyn:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT postgis_version();</span>
 
            <span class="n">postgis_version</span>
@@ -185,9 +160,8 @@ connected to the <code class="docutils literal"><span class="pre">demo</span></c
 <span class="p">(</span><span class="mi">1</span> <span class="n">row</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>PostGIS installs many functions, a table, and several views</p>
-<p>Type <code class="docutils literal"><span class="pre">\dt</span></code> to list the
-tables in the database. You should see something like this:</p>
+<p>PostGIS asentaa useita toimintoja, taulukon ja useita näkymiä</p>
+<p>Voit listata tietokannan taulukot kirjoittamalla <code class="docutils literal"><span class="pre">\dt</span></code>. Sinun pitäisi nähdä jotain seuraavanlaista:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># \dt</span>
              <span class="n">List</span> <span class="n">of</span> <span class="n">relations</span>
  <span class="n">Schema</span> <span class="o">|</span>       <span class="n">Name</span>       <span class="o">|</span> <span class="n">Type</span>  <span class="o">|</span> <span class="n">Owner</span>
@@ -196,9 +170,7 @@ tables in the database. You should see something like this:</p>
 <span class="p">(</span><span class="mi">1</span> <span class="n">row</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>The <code class="docutils literal"><span class="pre">spatial_ref_sys</span></code> table is used by PostGIS for converting between different spatial reference systems.
-The <code class="docutils literal"><span class="pre">spatial_ref_sys</span></code> table stores information
-on valid spatial reference systems, and we can use some SQL to have a quick look:</p>
+<p>PostGIS käyttää ’’spatial_ref_sys’’ taulukkoa eri koordinaattijärjestelmien välisiin muunnoksiin. ’’Spatial_ref_sys’’-taulukkoon on tallennettu tietoja valideista koordinaattijärjestelmistä, ja voimme käyttää SQL-kieltä vilkaistaaksemme tietoihin:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT srid, auth_name, proj4text FROM spatial_ref_sys LIMIT 10;</span>
 
  <span class="n">srid</span> <span class="o">|</span> <span class="n">auth_name</span> <span class="o">|</span>          <span class="n">proj4text</span>
@@ -216,10 +188,9 @@ on valid spatial reference systems, and we can use some SQL to have a quick look
 <span class="p">(</span><span class="mi">10</span> <span class="n">rows</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>This confirms we have a spatially-enabled database.</p>
-<p>In addition to this table, you’ll find several views created when you enable postgis in your database.</p>
-<p>Type <code class="docutils literal"><span class="pre">\dv</span></code> to list the
-views in the database. You should see something like this:</p>
+<p>Tämä vahvistaa, että meillä on paikkatieotoja tukeva tietokanta.</p>
+<p>Ottaessasi PostGIS-toiminnot käyttöösi tietokannassa huomaat tämän taulukon lisäksi useita muita näkymiä.</p>
+<p>Kirjoita <code class="docutils literal"><span class="pre">\dv</span></code>, jos haluat luetella tietokannan näkymät. Sinun pitäisi nähdä jotain seuraavanlaista:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># \dv</span>
                                                                 <span class="n">List</span> <span class="n">of</span> <span class="n">relations</span>
  <span class="n">Schema</span> <span class="o">|</span>       <span class="n">Name</span>        <span class="o">|</span> <span class="n">Type</span> <span class="o">|</span>  <span class="n">Owner</span>
@@ -231,29 +202,23 @@ views in the database. You should see something like this:</p>
 <span class="p">(</span><span class="mi">4</span> <span class="n">rows</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>PostGIS supports several spatial data types:</p>
+<p>PostGIS tukee useita paikkatietotyyppejä:</p>
 <blockquote>
-<div><p><cite>geometry</cite> - is a data type that stores data as vectors drawn on a flat surface</p>
-<p><cite>geography</cite> - is a data type that stores data as vectors drawn on a spheroidal surface</p>
+<div><p><cite>geometry</cite> on tietotyyppi, joka tallentaa vektoritietoja piirrettynä litteälle tasopinnalle (tasokoordinaattijärjestelmiä hyödyntäen).</p>
+<p><cite>geography</cite> - on tietotyyppi, joka tallentaa vektoritietoja piirrettynä  pallopinnalle (maantieteelliset koordinaatit)</p>
 <dl class="docutils">
-<dt><cite>raster</cite> - is a data type that stores data as an n-dimensional matrix where each position (pixel) represents</dt>
-<dd>an area of space, and each band (dimension) has a value for each pixel space.</dd>
+<dt>’rasteri’ - on tietotyyppi, joka tallentaa dataa n-ulotteisena matriisina, jossa kukin sijainti (pikseli) edustaa</dt>
+<dd>tiettyä aluetta maastossa, ja kullakin kaistalla (ulottuvuudella) on arvo kutakin pikseliä varten.</dd>
 </dl>
 </div></blockquote>
-<p>The <code class="docutils literal"><span class="pre">geometry_columns</span></code>, <code class="docutils literal"><span class="pre">geography_columns</span></code>, and <code class="docutils literal"><span class="pre">raster_columns</span></code> views have the
-job of telling PostGIS which tables have PostGIS geometry, geography, and raster columns.</p>
-<p>Overviews are lower resolution tables for raster data.
-The <code class="docutils literal"><span class="pre">raster_overviews</span></code> lists such tables and their raster column and the table each is an overview for.
-Raster overview tables are used by tools such as QGIS to provide lower resolution versions of raster data for faster loading.</p>
-<p>PostGIS geometry type is the first and still most popular type used by PostGIS users.
-We’ll be focussing our attention on that type.</p>
+<p>Näkymät ’’geometry_columns ’’, ’’geography_columns’’ ja ’’ raster_columns’’ kertovat PostGISille, mitkä taulukot omaavat paikkatietonsa PostGIS-geometry-, -geography- ja rasteri-sarakkeessa.</p>
+<p>Ylikatsaukset ovat alemman tarkkuuden taulukkoja rasteritiedoille. <code class="docutils literal"><span class="pre">raster_overviews</span></code> listaa tällaiset taulukot sekä niiden rasterisarakkeet ja taulukot, joille yleiskatsaukset on tehty. Rasteri-yleiskatsaustaulukoita käyttävät työkalut, kuten QGIS, tarjotakseen alemman resoluution näkymiä rasteritietoihin nopeampaa aineistojen lataamista varten.</p>
+<p>PostGISin geometry-tyyppi on ensimmäinen ja edelleen suosituin sekä käytetyin tyyppi PostGIS-käyttäjien keskuudessa. Keskitymmekin tähän tyyppiin.</p>
 </div>
 <div class="section" id="creating-a-spatial-table-using-sql">
 <h2><a class="toc-backref" href="#id3">Creating a Spatial Table using SQL</a><a class="headerlink" href="#creating-a-spatial-table-using-sql" title="Permalink to this headline">¶</a></h2>
-<p>Now we have a spatial database we can make some spatial tables.</p>
-<p>First we create an ordinary database table to store some city data.
-This table has three fields - one for a numeric ID identifying the city,
-one for the city name, and another for the geometry column:</p>
+<p>Nyt meillä on spatiaalinen tietokanta, jonka avulla voimme tehdä paikkatietoa sisältäviä tietokantatauluja.</p>
+<p>Ensin luodaan tavallinen tietokantataulu, johon tallennetaan tietoja kaupungeista. Tässä taulukossa on kolme kenttää: yksi kaupungit yksilöivälle numeeriselle ID-tunnukselle, yksi kaupunkien nimille ja yksi geometria-sarakkeelle.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># CREATE TABLE cities ( id int4 primary key, name varchar(50), geom geometry(POINT,4326) );</span>
 </pre></div>
 </div>
@@ -262,17 +227,14 @@ one for the city name, and another for the geometry column:</p>
 each feature has (points, lines, polygons etc), how many dimensions
 (in this case 2, if it had 3 or 4 dimensions we would use POINTZ, POINTM, or POINTZM), and the spatial reference
 system. We used EPSG:4326 coordinates for our cities.</p>
-<p>Now if you check the cities table you should see the new column, and be informed
-that the table currently contains no rows.</p>
+<p>Tarkistaessasi nyt kaupungeista tehdyn tietokantataulun sinun pitäisi nähdä uusi sarake ja nähdä myös, että taulukossa ei tällä hetkellä ole rivejä.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT * from cities;</span>
  <span class="nb">id</span> <span class="o">|</span> <span class="n">name</span> <span class="o">|</span> <span class="n">geom</span>
 <span class="o">----+------+----------</span>
 <span class="p">(</span><span class="mi">0</span> <span class="n">rows</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>To add rows to the table we use some SQL statements. To get the geometry into
-the geometry column we use the PostGIS <code class="docutils literal"><span class="pre">ST_GeomFromText</span></code> function to convert
-from a text format that gives the coordinates and a spatial reference system id:</p>
+<p>Jos haluat lisätä rivejä tauluun, käytämme joitain SQL-lauseita. Jos haluat saada geometria-tietoja geometria-sarakkeeseen, käytämme PostGISin <code class="docutils literal"><span class="pre">ST_GeomFromText</span></code>-funktiota muuntaaksemme geometriatiedon tekstimuotoisesta tiedosta, mikä antaa myös koordinaattijärjestelmän tiedot referenssi id:n kautta:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># INSERT INTO cities (id, geom, name) VALUES (1,ST_GeomFromText(&#39;POINT(-0.1257 51.508)&#39;,4326),&#39;London, England&#39;);</span>
 <span class="n">demo</span><span class="o">=</span><span class="c1"># INSERT INTO cities (id, geom, name) VALUES (2,ST_GeomFromText(&#39;POINT(-81.233 42.983)&#39;,4326),&#39;London, Ontario&#39;);</span>
 <span class="n">demo</span><span class="o">=</span><span class="c1"># INSERT INTO cities (id, geom, name) VALUES (3,ST_GeomFromText(&#39;POINT(27.91162491 -33.01529)&#39;,4326),&#39;East London,SA&#39;);</span>
@@ -280,15 +242,13 @@ from a text format that gives the coordinates and a spatial reference system id:
 </div>
 <div class="admonition tip">
 <p class="first admonition-title">Vihje</p>
-<p class="last">Use the arrow keys to recall and edit command lines.</p>
+<p class="last">Käytä nuolinäppäimiä käyttääksese komentoja uudelleen ja editoidaksesi niitä.</p>
 </div>
-<p>As you can see this gets increasingly tedious very quickly. Luckily there are other ways of getting
-data into PostGIS tables that are much easier. But now we have three cities in our database, and we
-can work with that.</p>
+<p>Kuten näette, toimista tulee verrattain hankalia nopeasti. PostGIS-tauluihin saa onneksi tietoja myös muilla tavoilla, jotka, jotka ovat paljon helpompaa. Mutta nyt meillä on kuitenkin kolme kaupunkia tietokannassamme, ja voimme aloittaa työskentelyn niillä.</p>
 </div>
 <div class="section" id="simple-queries">
-<h2><a class="toc-backref" href="#id4">Simple queries</a><a class="headerlink" href="#simple-queries" title="Permalink to this headline">¶</a></h2>
-<p>All the usual SQL operations can be applied to select data from a PostGIS table:</p>
+<h2><a class="toc-backref" href="#id4">Yksinkertaiset kyselyt</a><a class="headerlink" href="#simple-queries" title="Permalink to this headline">¶</a></h2>
+<p>Kaikkia tavallisia SQL-operaatioita voidaan käyttää valitsemaan tietoja PostGIS-taulukosta:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT * FROM cities;</span>
  <span class="nb">id</span> <span class="o">|</span>      <span class="n">name</span>       <span class="o">|</span>                      <span class="n">geom</span>
 <span class="o">----+-----------------+----------------------------------------------------</span>
@@ -298,10 +258,8 @@ can work with that.</p>
 <span class="p">(</span><span class="mi">3</span> <span class="n">rows</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>This gives us an encoded hexadecimal version of the coordinates, not so useful for humans.</p>
-<p>If you want to have a look at your geometry in WKT format again, you
-can use the functions ST_AsText(geom) or ST_AsEwkt(geom). You can also
-use ST_X(geom), ST_Y(geom) to get the numeric value of the coordinates:</p>
+<p>Tämä antaa meille koodatun heksadesimaaliversion koordinaateista, ei niin hyödyllinen ihmisille.</p>
+<p>Jos haluat tarkastella uudelleen geometrioitasi WKT-muodossa, voit käyttää funktioita ST_AsText (geom) tai ST_AsEwkt (geom). Voit myös käyttää ST_X (geom), ST_Y (geom) saadaksesi koordinaatit numeerisessa muodossa:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT id, ST_AsText(geom), ST_AsEwkt(geom), ST_X(geom), ST_Y(geom) FROM cities;</span>
  <span class="nb">id</span> <span class="o">|</span>          <span class="n">st_astext</span>           <span class="o">|</span>               <span class="n">st_asewkt</span>                <span class="o">|</span>    <span class="n">st_x</span>     <span class="o">|</span>   <span class="n">st_y</span>
 <span class="o">----+------------------------------+----------------------------------------+-------------+-----------</span>
@@ -313,7 +271,7 @@ use ST_X(geom), ST_Y(geom) to get the numeric value of the coordinates:</p>
 </div>
 </div>
 <div class="section" id="spatial-queries">
-<h2><a class="toc-backref" href="#id5">Spatial queries</a><a class="headerlink" href="#spatial-queries" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Paikkatietokyselyt</a><a class="headerlink" href="#spatial-queries" title="Permalink to this headline">¶</a></h2>
 <p>PostGIS adds many functions with spatial functionality to
 PostgreSQL. We’ve already seen ST_GeomFromText which converts WKT to
 geometry. Most of them start with ST (for spatial type) and are listed in a section of
@@ -349,17 +307,17 @@ spheroid name, semi-major axis and inverse flattening parameters:</p>
 <span class="p">(</span><span class="mi">3</span> <span class="n">rows</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>To quit PostgreSQL command line, enter:</p>
+<p>Voit lopettaa PostgreSQL-komentorivin kirjoittamalla:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>\<span class="n">q</span>
 </pre></div>
 </div>
-<p>You are now back to system console:</p>
+<p>Olet nyt takaisin järjestelmäkonsoliin:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>user@osgeolive:~$
 </pre></div>
 </div>
 </div>
 <div class="section" id="mapping">
-<h2><a class="toc-backref" href="#id6">Mapping</a><a class="headerlink" href="#mapping" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id6">Kartoitus</a><a class="headerlink" href="#mapping" title="Permalink to this headline">¶</a></h2>
 <p>To produce a map from PostGIS data, you need a client that can get at the data. Most
 of the open source desktop GIS programs can do this - QGIS, gvSIG, uDig for example. Now we’ll
 show you how to make a map from QGIS.</p>
@@ -369,7 +327,7 @@ drop-down menu. You can define new server connections here, and store the settin
 recall. Click on Connections drop down menu and choose Natural Earth. Hit <code class="docutils literal"><span class="pre">Edit</span></code> if you want to see what those parameters are for Natural Earth, or just
 hit <code class="docutils literal"><span class="pre">Connect</span></code> to continue:</p>
 <a class="reference internal image-reference" href="../../_images/postgis_addlayers.png"><img alt="Connect to Natural Earth" class="align-center" src="../../_images/postgis_addlayers.png" style="width: 450.0px; height: 378.0px;" /></a>
-<p>You will now get a list of the spatial tables in the database:</p>
+<p>Saat nyt listan spatiaalisista tauluista tietokannassa:</p>
 <a class="reference internal image-reference" href="../../_images/postgis_listtables.png"><img alt="Natural Earth Layers" class="align-center" src="../../_images/postgis_listtables.png" style="width: 450.0px; height: 378.0px;" /></a>
 <p>Choose the ne_10m_lakes table and hit <code class="docutils literal"><span class="pre">Add</span></code> at the bottom (not <code class="docutils literal"><span class="pre">Load</span></code> at the
 top - that loads database connection parameters), and it should be
@@ -380,7 +338,7 @@ them blue for you - use the QGIS documentation to work out how to change this. Z
 a famous group of lakes in Canada.</p>
 </div>
 <div class="section" id="importing-spatial-data-into-the-database">
-<h2><a class="toc-backref" href="#id7">Importing spatial data into the database</a><a class="headerlink" href="#importing-spatial-data-into-the-database" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id7">Paikkatietojen tuominen tietokantaan</a><a class="headerlink" href="#importing-spatial-data-into-the-database" title="Permalink to this headline">¶</a></h2>
 <p>Most of the OSGeo desktop tools have functions for importing spatial data from other formats (f.e. ESRI Shape) into the database. Again we’ll use QGIS to show this.</p>
 <p>Importing shapefiles to QGIS can be done via the handy QGIS Database Manager. You find the manager in the menu. Go to <code class="docutils literal"><span class="pre">Database</span> <span class="pre">-&gt;</span> <span class="pre">DB</span> <span class="pre">Manager</span> <span class="pre">-&gt;</span> <span class="pre">DB</span> <span class="pre">Manager</span></code>.</p>
 <p>Deploys the Postgis item, then the NaturalEarth item. It will then  connect to the Natural Earth database. Leave
@@ -395,7 +353,7 @@ of the R statistics package add-ons.</p>
 Hit the <code class="docutils literal"><span class="pre">...</span></code> button and browse to the <code class="docutils literal"><span class="pre">sids.shp</span></code> shapefile in the R <code class="docutils literal"><span class="pre">maptools</span></code> package
 (located in /usr/local/lib/R/site-library/spData/shapes):</p>
 <a class="reference internal image-reference" href="../../_images/postgis_browsedata.png"><img alt="Find the shapefile" class="align-center" src="../../_images/postgis_browsedata.png" style="width: 632.25px; height: 492.0px;" /></a>
-<p>Leave everything else as it is and hit <code class="docutils literal"><span class="pre">Load</span></code></p>
+<p>Jätä kaikki muu kuin se on ja paina <code class="docutils literal"><span class="pre">Load</span></code></p>
 <a class="reference internal image-reference" href="../../_images/postgis_importsids.png"><img alt="Import a shapefile" class="align-center" src="../../_images/postgis_importsids.png" style="width: 346.5px; height: 400.5px;" /></a>
 <p>Let the Coordinate Reference System Selector default to (WGS 84 EPSG:4326) and hit <code class="docutils literal"><span class="pre">OK</span></code>. The shapefile should be imported into PostGIS with no errors. Close the PostGIS manager and
 get back to the main QGIS window.</p>
@@ -405,7 +363,7 @@ a choropleth map of the sudden infant death syndrome counts (sid74 or sid79 fiel
 <a class="reference internal image-reference" href="../../_images/postgis_sidsmap.png"><img alt="SIDS data mapped" class="align-center" src="../../_images/postgis_sidsmap.png" style="width: 1143.75px; height: 948.0px;" /></a>
 </div>
 <div class="section" id="get-to-know-pgadmin-iii">
-<h2><a class="toc-backref" href="#id8">Get to know pgAdmin III</a><a class="headerlink" href="#get-to-know-pgadmin-iii" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id8">Tutustu pgAdmin III:een</a><a class="headerlink" href="#get-to-know-pgadmin-iii" title="Permalink to this headline">¶</a></h2>
 <p>You can use the graphical database client <code class="docutils literal"><span class="pre">pgAdmin</span> <span class="pre">III</span></code> from the Databases menu to query and modify your database non-spatially. This is the official client for PostgreSQL.</p>
 <div class="admonition tip">
 <p class="first admonition-title">Vihje</p>
@@ -414,8 +372,7 @@ a choropleth map of the sudden infant death syndrome counts (sid74 or sid79 fiel
 <p>pgAdmin III lets you use SQL to manipulate your data tables. You can find and launch pgAdmin III
 from the Databases folder, existing on the OSGeoLive Desktop.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_pgadmin_main_window.png"><img alt="pgAdmin III" class="align-center" src="../../_images/postgis_pgadmin_main_window.png" style="width: 511.0px; height: 370.5px;" /></a>
-<p>Here, you have the option of creating a new connection to a PostgreSQL server, or connecting to an existing server.
-In this case, we are going to connect to the predefined <code class="docutils literal"><span class="pre">local</span></code> server.</p>
+<p>Nyt sinulla on mahdollisuus luoda uusi yhteys PostgreSQL palvelimeen, tai yhdistää olemassa olevaan palvelimeen. Tässä tapauksessa yhdistämme etukäteen määriteltyyn ”paikalliseen” palvelimeen.</p>
 <p>After connection established, you can see the list of the databases already existing in the system.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen0.png"><img alt="pgAdmin III" class="align-center" src="../../_images/postgis_adminscreen0.png" style="width: 768.75px; height: 556.5px;" /></a>
 <p>The red ”X” on the image of most of the databases, denotes that you haven’t been yet connected to any of them (you are connected only
@@ -430,8 +387,8 @@ displaying the contents of the database.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen1.png"><img alt="pgAdmin III" class="align-center" src="../../_images/postgis_adminscreen1.png" style="width: 768.0px; height: 557.25px;" /></a>
 </div>
 <div class="section" id="executing-a-sql-query-from-pgadmin-iii">
-<h2><a class="toc-backref" href="#id9">Executing a SQL query from pgAdmin III</a><a class="headerlink" href="#executing-a-sql-query-from-pgadmin-iii" title="Permalink to this headline">¶</a></h2>
-<p>pgAdmin III, offers the capability of executing queries to a relational database.</p>
+<h2><a class="toc-backref" href="#id9">Suoritetaan SQL-kysely sivulta pgAdmin III</a><a class="headerlink" href="#executing-a-sql-query-from-pgadmin-iii" title="Permalink to this headline">¶</a></h2>
+<p>pgAdmin III, tarjoaa mahdollisuuden suorittaa kyselyjä relaatiotietokantaan.</p>
 <p>To perform a query on the database, you have to press the <code class="docutils literal"><span class="pre">SQL</span></code> button from the main toolbar (the one with the
 yellow Magnifying lens).</p>
 <p>We are going to find the rate of the SIDS over the births for the 1974 for each city.
@@ -444,22 +401,22 @@ on the text editor of the SQL Window):</p>
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen2.png"><img alt="pgAdmin III" class="align-center" src="../../_images/postgis_adminscreen2.png" style="width: 768.0px; height: 557.25px;" /></a>
 </div>
 <div class="section" id="things-to-try">
-<h2><a class="toc-backref" href="#id10">Things to try</a><a class="headerlink" href="#things-to-try" title="Permalink to this headline">¶</a></h2>
-<p>Here are some additional challenges for you to try:</p>
+<h2><a class="toc-backref" href="#id10">Kokeiltavaa:</a><a class="headerlink" href="#things-to-try" title="Permalink to this headline">¶</a></h2>
+<p>Seuraavassa on joitakin muita haasteita, joita voit kokeilla:</p>
 <ul class="simple">
-<li>Try some more spatial functions like <code class="docutils literal"><span class="pre">st_buffer(geom)</span></code>, <code class="docutils literal"><span class="pre">st_transform(geom,25831)</span></code>, <code class="docutils literal"><span class="pre">st_x(geom)</span></code> - you will find full documentation at <a class="reference external" href="http://postgis.net/documentation/">http://postgis.net/documentation/</a></li>
+<li>Kokeile joitain enemmän tilatoimintoja, kuten``st_buffer(geom)``, <code class="docutils literal"><span class="pre">st_transform(geom,25831)</span></code>, <code class="docutils literal"><span class="pre">st_x(geom)</span></code> -  löydät täydelliset ohjeet osoitteesta <a class="reference external" href="http://postgis.net/documentation/">http://postgis.net/documentation/</a></li>
 <li>Export your tables to shapefiles with <code class="docutils literal"><span class="pre">pgsql2shp</span></code> on the command line.</li>
 <li>Try <code class="docutils literal"><span class="pre">ogr2ogr</span></code> on the command line to import/export data to your database.</li>
 <li>Try to import data with <code class="docutils literal"><span class="pre">shp2pgsql</span></code> on the command line to your database.</li>
-<li>Try to do road routing using <a class="reference internal" href="../overview/pgrouting_overview.html"><span class="doc">pgRouting</span></a>.</li>
+<li>Yritä tehdä tienreititys käyttämällä <a class="reference internal" href="../overview/pgrouting_overview.html"><span class="doc">pgRouting</span></a>.</li>
 </ul>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id11">What next?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id11">Mitä seuraavaksi?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
 <p>This is only the first step on the road to using PostGIS. There is a lot more functionality you can try.</p>
 <ul class="simple">
-<li>PostGIS Project home -  <a class="reference external" href="http://postgis.net">http://postgis.net</a></li>
-<li>PostGIS Documentation -  <a class="reference external" href="http://postgis.net/documentation/">http://postgis.net/documentation/</a></li>
+<li>PostGIS-projektin koti -  <a class="reference external" href="http://postgis.net">http://postgis.net</a></li>
+<li>PostGIS-dokumentaatio -  <a class="reference external" href="http://postgis.net/documentation/">http://postgis.net/documentation/</a></li>
 </ul>
 </div>
 </div>

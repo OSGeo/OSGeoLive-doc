@@ -73,8 +73,7 @@
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <div class="section" id="gdal-ogr-quickstart">
 <h1>GDAL/OGR Pika-aloitus<a class="headerlink" href="#gdal-ogr-quickstart" title="Permalink to this headline">¶</a></h1>
-<p>This Quick Start is divided into two parts: GDAL (raster data) and OGR
-(vector data).</p>
+<p>Tämä pika-aloitus on jaettu kahteen osaan: GDAL (rasteritiedot) ja OGR (vektoritiedot).</p>
 <p>Tässä Pika-aloituksessa kuvataan, miten:</p>
 <dl class="docutils">
 <dt>GDAL</dt>
@@ -93,15 +92,13 @@
 </ul>
 </dd>
 </dl>
-<p>The only thing you’ll need for this quickstart is a terminal. If you want to
-visualize the results, you can use one of the Desktop GIS Software
-applications on OSGeoLive like <a class="reference internal" href="../overview/qgis_overview.html"><span class="doc">QGIS</span></a>.</p>
+<p>Tarvitset vain päätteen. Jos haluat visualisoida tulokset, voit käyttää yhtä DESKTOP GIS Software -sovelluksesta OSGeoLivessä kuten <a class="reference internal" href="../overview/qgis_overview.html"><span class="doc">QGIS</span></a>.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
 <li><a class="reference internal" href="#get-to-know-gdal" id="id1">Tutustu GDAL-ohjelmaan</a></li>
 <li><a class="reference internal" href="#get-information-about-the-raster-data-with-gdalinfo" id="id2">Saat tietoja rasteriaineistoista gdalinfon avulla</a></li>
-<li><a class="reference internal" href="#simple-format-translation" id="id3">Simple format translation</a></li>
+<li><a class="reference internal" href="#simple-format-translation" id="id3">Yksinkertainen käännösmuoto</a></li>
 <li><a class="reference internal" href="#translation" id="id4">Käännös</a></li>
 <li><a class="reference internal" href="#rescaling" id="id5">Uudelleenskaalaus</a></li>
 <li><a class="reference internal" href="#raster-tileindex-with-gdaltindex" id="id6">Raster tileindex kanssa gdaltindex</a></li>
@@ -111,7 +108,7 @@ applications on OSGeoLive like <a class="reference internal" href="../overview/q
 <li><a class="reference internal" href="#get-information-about-the-vector-data-with-ogrinfo" id="id10">Saat tietoja vektori tiedoista ogrinfo</a></li>
 <li><a class="reference internal" href="#use-ogr2ogr-to-convert-data-between-file-formats" id="id11">Tietojen muuntaminen tiedosto muotojen välillä ogr2ogr avulla</a></li>
 <li><a class="reference internal" href="#things-to-try" id="id12">Kokeiltava asiat</a></li>
-<li><a class="reference internal" href="#what-next" id="id13">What next?</a></li>
+<li><a class="reference internal" href="#what-next" id="id13">Mitä seuraavaksi?</a></li>
 </ul>
 </div>
 <div class="section" id="get-to-know-gdal">
@@ -172,7 +169,7 @@ applications on OSGeoLive like <a class="reference internal" href="../overview/q
 </dl>
 </div>
 <div class="section" id="simple-format-translation">
-<h2><a class="toc-backref" href="#id3">Simple format translation</a><a class="headerlink" href="#simple-format-translation" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Yksinkertainen käännösmuoto</a><a class="headerlink" href="#simple-format-translation" title="Permalink to this headline">¶</a></h2>
 <p>Ensimmäiseksi on tiedettävä ajurit. Komennolla ”–formats” gdal_translate-komennon perässä saat nähtäväksi luettelon kaikista käytettävissä olevista tietoformaateista.</p>
 <dl class="docutils">
 <dt>Kukin formaatti kertoo osaltaan, onko se</dt>
@@ -268,10 +265,7 @@ OGRFeature(index_natural_earth):1
 </pre></div>
 </div>
 <a class="reference internal image-reference" href="../../_images/gdal_ortho.png"><img alt="../../_images/gdal_ortho.png" src="../../_images/gdal_ortho.png" style="width: 294.40000000000003px; height: 296.8px;" /></a>
-<p>Note how the poles are clipped?  This is because the edges at the pole
-can’t be reprojected gdalwarp does not read all the data.  We can force
-gdalwarp to read a bunch of surplus data around chunks as one way to
-resolve this. Read more about this in the RasterTutorial <a class="reference external" href="https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial">https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial</a>.</p>
+<p>Huomaa, miten pylväät leikataan?  Tämä johtuu siitä, reunat napa ei voida reprojected gdalwarp ei lue kaikkia tietoja.  Voimme pakottaa gdalwarpin lukemaan ylijäämätietoja paloina yhtenä keinona ratkaista tämä. Lue lisää tästä RasterTutorial <a class="reference external" href="https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial">https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial</a>.</p>
 </div>
 <div class="section" id="mosaicking">
 <h2><a class="toc-backref" href="#id8">Mosaiikki</a><a class="headerlink" href="#mosaicking" title="Permalink to this headline">¶</a></h2>
@@ -433,7 +427,7 @@ homepart: Real (16.6)
 </ul>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id13">What next?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id13">Mitä seuraavaksi?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
 <p>Tämä on vasta ensimmäinen askel tiellä käyttää GDAL ja OGR. Paikalla on arpa enemmän funktionalismi te kanisteri koetus.</p>
 <p>GDAL-projektin koti sivu</p>
 <blockquote>

@@ -26,8 +26,8 @@
     <link rel="index" title="Sisällysluettelo" href="../genindex.html" />
     <link rel="search" title="Etsi" href="../search.html" />
     <link rel="copyright" title="Copyright" href="../copyright.html" />
-    <link rel="next" title="GeoServer Quickstart" href="../quickstart/geoserver_quickstart.html" />
-    <link rel="prev" title="GeoNode Quickstart" href="../quickstart/geonode_quickstart.html" />
+    <link rel="next" title="GeoServer Pika-aloitus" href="../quickstart/geoserver_quickstart.html" />
+    <link rel="prev" title="GeoNode pika-aloitus" href="../quickstart/geonode_quickstart.html" />
 	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
 
 
@@ -110,18 +110,18 @@
 <dt><strong>On the fly reprojection:</strong></dt>
 <dd>GeoServer tukee enemmistöä EPSG-tietokannan karttaprojektioista ja voi uudelleenprojektoida niihin lennossa, jotta rajallisen kapasiteetin omaavat käyttäjät voivat siirtää uudelleenprojektoinnista koituvan kuorman palvelimelle.</dd>
 <dt><strong>Tiling Cache</strong></dt>
-<dd><a class="reference external" href="https://www.geowebcache.org">GeoWebCache</a>, which is integrated into GeoServer, tiles and caches map images from a variety of sources such as WMS. It implements various service interfaces (such as WMS-C, WMTS, TMS, Google Maps KML, Virtual Earth) in order to accelerate and optimize map image delivery. It can also recombine tiles to work with regular WMS clients.</dd>
+<dd><a class="reference external" href="https://www.geowebcache.org">GeoWebCache</a>, joka on integroitu GeoServeriin, laatat ja välimuistit kartoittävät kuvia useista eri lähteistä, kuten WMS:stä. Se toteuttaa erilaisia palvelurajapintoja (kuten WMS-C, WMTS, TMS, Google Maps KML, Virtual Earth), jotta voidaan nopeuttaa ja optimoida karttakuvan toimitus. Se voi myös yhdistää laatat toimimaan säännöllisesti WMS asiakkaita.</dd>
 <dt><strong>Web Processing Service (WPS)</strong></dt>
-<dd>Geospatial algorithms, including those from <a class="reference internal" href="jts_overview.html"><span class="doc">JTS</span></a>, can be called through GeoServer’s <a class="reference external" href="https://www.ogc.org/standards/wps">Web Processing Service (WPS)</a> interface. This includes the chaining of processes, and using rendering transformations to create powerful visualisations through the WMS interface.</dd>
+<dd>Geospatiaalisia algoritmeja, mukaan lukien <a class="reference internal" href="jts_overview.html"><span class="doc">JTS</span></a>, voidaan kutsua GeoServerin <a class="reference external" href="https://www.ogc.org/standards/wps">Web Processing Service (WPS)</a> Käyttöliittymä. Tämä sisältää prosessien ketjutuksen ja renderointimuunnosten käyttämisen tehokkaiden visualisointien luomiseksi WMS-käyttöliittymän kautta.</dd>
 </dl>
 </div>
 <div class="section" id="implemented-standards">
 <h3>Toteutetut standardit<a class="headerlink" href="#implemented-standards" title="Permalink to this headline">¶</a></h3>
 <p>Usean Open Geospatial Consortium (OGC) -pohjaisten standardien tukeminen:</p>
 <ul class="simple">
-<li><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> (client/server)</li>
+<li><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a>. (asiakas/palvelin)</li>
 <li><a class="reference external" href="https://www.ogc.org/standards/wmts">OpenGIS Web Map Tile ServiceW (WMTS)</a></li>
-<li><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> (transactional)</li>
+<li><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> (tapahtumallinen)</li>
 <li><a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a></li>
 <li><a class="reference external" href="https://www.ogc.org/standards/filter">Filter Encoding (FE)</a></li>
 <li><a class="reference external" href="https://www.ogc.org/standards/sld">Styled Layer Descriptor (SLD)</a></li>

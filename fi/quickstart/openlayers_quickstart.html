@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fi">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>OpenLayers Quickstart &#8212; OSGeoLive 13.0 Documentation</title>
+    <title>OpenLayers Pika-aloitus &#8212; OSGeoLive 13.0 Documentation</title>
     <link rel="stylesheet" href="../../_static/overview.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -72,37 +72,37 @@
   <a class="reference external image-reference" href="https://openlayers.org/"><img alt="../../_images/logo_openlayers.png" class="align-right" src="../../_images/logo_openlayers.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <div class="section" id="openlayers-quickstart">
-<h1>OpenLayers Quickstart<a class="headerlink" href="#openlayers-quickstart" title="Permalink to this headline">¶</a></h1>
+<h1>OpenLayers Pika-aloitus<a class="headerlink" href="#openlayers-quickstart" title="Permalink to this headline">¶</a></h1>
 <p>This Quick Start describes some basic steps required to start working with OpenLayers: creating a basic map, adding raster and vector layers and styling features.</p>
-<p>OpenLayers makes it easy to put a dynamic map in any web page. It can display map tiles, vector data and markers loaded from any source. OpenLayers has been developed to further the use of geographic information of all kinds. It is completely free, Open Source JavaScript, released under the 2-clause BSD License (also known as the FreeBSD).</p>
+<p>OpenLayersin avulla on helppo viedä dynaaminen kartta mille tahansa verkkosivulle. Se voi visualisoida karttatiilejä, vektoriaineistoja  ja karttamerkkejä  mistä tahansa lähteestä. OpenLayers on kehitetty edistämään kaikenlaisen paikkatiedon käyttöä. Se on täysin ilmainen, avoimen lähdekoodin JavaScript-kirjasto ja se on julkaistu BSD-lisenssin pykälä kahden puiettaissa  (tunnetaan myös nimellä FreeBSD).</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#core-concepts" id="id1">Core concepts</a></li>
+<li><a class="reference internal" href="#core-concepts" id="id1">Keskeiset käsitteet</a></li>
 <li><a class="reference internal" href="#create-a-basic-map" id="id2">Create a basic map</a></li>
 <li><a class="reference internal" href="#add-raster-layers" id="id3">Add raster layers</a></li>
 <li><a class="reference internal" href="#add-vector-layers" id="id4">Add vector layers</a></li>
 <li><a class="reference internal" href="#apply-style-to-features" id="id5">Apply style to features</a></li>
 <li><a class="reference internal" href="#work-with-events" id="id6">Work with events</a></li>
-<li><a class="reference internal" href="#what-next" id="id7">What next?</a></li>
+<li><a class="reference internal" href="#what-next" id="id7">Mitä seuraavaksi?</a></li>
 </ul>
 </div>
 <div class="section" id="core-concepts">
-<h2><a class="toc-backref" href="#id1">Core concepts</a><a class="headerlink" href="#core-concepts" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Keskeiset käsitteet</a><a class="headerlink" href="#core-concepts" title="Permalink to this headline">¶</a></h2>
 <p>Before we start working with OpenLayers it helps to understand OpenLayers core concepts:</p>
 <dl class="docutils">
-<dt><strong>Map</strong></dt>
+<dt><strong>Kartta</strong></dt>
 <dd>The <em>map</em> is the core component of OpenLayers. For a <em>map</em> to render, a <em>view</em>, one or more <em>layers</em>, and a target container are needed.</dd>
-<dt><strong>View</strong></dt>
+<dt><strong>Näkymä</strong></dt>
 <dd>The <em>view</em> determines how the map is rendered. It is used to set the resolution, the center location, etc. It is like a camera through which we look at the map’s content.</dd>
-<dt><strong>Layers</strong></dt>
+<dt><strong>Kerrokset</strong></dt>
 <dd><em>Layers</em> can be added to the map in a stacked order. Layers can be either <em>raster layers</em> (images), or <em>vector layers</em> (points/lines/polygons).</dd>
-<dt><strong>Source</strong></dt>
+<dt><strong>Lähde</strong></dt>
 <dd>Each layer has a <em>source</em>, which knows how to load the layer content.
 In the case of <em>vector layers</em>, its source reads vector data
 using a <em>format</em> class (for example GeoJSON or KML) and provides the layer
 with a set of <em>features</em>.</dd>
-<dt><strong>Features</strong></dt>
+<dt><strong>Ominaisuudet</strong></dt>
 <dd><em>Features</em> represent real world things and can be rendered using different
 <em>geometries</em> (like point, line or polygon) using a given <em>style</em>, which
 determines its look (line thinkness, fill color, etc).</dd>
@@ -159,7 +159,7 @@ determines its look (line thinkness, fill color, etc).</dd>
 </div>
 <p>Now try opening basic-map.html from a web browser using File-&gt;Open File. You should see the following:</p>
 <a class="reference internal image-reference" href="../../_images/openlayers-basic-map.png"><img alt="../../_images/openlayers-basic-map.png" src="../../_images/openlayers-basic-map.png" style="width: 711.0px; height: 620.0px;" /></a>
-<p>Note:</p>
+<p>Huomautus:</p>
 <ul class="simple">
 <li>The code follows the best practice of loading JavaScipt code at the end of the html file.</li>
 <li>An OpenLayers map needs to be attached to a HTML DOM element, so we have created a <code class="docutils literal"><span class="pre">&lt;div&gt;</span></code> element identified by the <em>map</em> id.</li>
@@ -296,7 +296,7 @@ We have set a <code class="docutils literal"><span class="pre">fill</span></code
 <div class="section" id="work-with-events">
 <h2><a class="toc-backref" href="#id6">Work with events</a><a class="headerlink" href="#work-with-events" title="Permalink to this headline">¶</a></h2>
 <p>Most of the components, like map, layers or controls, trigger events to notify changes. For example we can be notified each time the mouse is moved over the map, or when a feature is added to a vector layer, etc.</p>
-<p>Events can be easily registered on an object with the <code class="docutils literal"><span class="pre">on()</span></code> method and unregistered with <code class="docutils literal"><span class="pre">un()</span></code>.</p>
+<p>Tapahtumat voidaan helposti rekisteröidä objektiin <code class="docutils literal"><span class="pre">on()</span></code> -menetelmällä ja rekisteröidä <code class="docutils literal"><span class="pre">un()</span></code> lla.</p>
 <p>The following code registers an event on a map instance, and will be notified each time the pointer is moved. Within the callback function we obtain the pointer coordinates and print in the browser console in two different projections.</p>
 <div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;pointermove&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
   <span class="kd">var</span> <span class="nx">coord3857</span> <span class="o">=</span> <span class="nx">event</span><span class="p">.</span><span class="nx">coordinate</span><span class="p">;</span>
@@ -308,13 +308,13 @@ We have set a <code class="docutils literal"><span class="pre">fill</span></code
 </div>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id7">What next?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id7">Mitä seuraavaksi?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
 <p>Sometimes the quickest way to work out how OpenLayers works is to look at examples
 and their source code. You can find more OpenLayers information here:</p>
 <ul class="simple">
 <li><a class="reference external" href="../../openlayers/apidoc/">API Docs</a></li>
-<li><a class="reference external" href="../../openlayers/examples/">Examples</a></li>
-<li><a class="reference external" href="https://openlayers.org/">OpenLayers.org Website</a></li>
+<li><a class="reference external" href="../../openlayers/examples/">Esimerkkejä</a></li>
+<li><a class="reference external" href="https://openlayers.org/">OpenLayers.org-verkkosivusto</a></li>
 </ul>
 </div>
 </div>

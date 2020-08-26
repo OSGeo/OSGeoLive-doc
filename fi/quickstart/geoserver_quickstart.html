@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fi">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>GeoServer Quickstart &#8212; OSGeoLive 13.0 Documentation</title>
+    <title>GeoServer Pika-aloitus &#8212; OSGeoLive 13.0 Documentation</title>
     <link rel="stylesheet" href="../../_static/overview.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -72,172 +72,167 @@
   <a class="reference external image-reference" href="http://geoserver.org/"><img alt="../../_images/logo_geoserver.png" class="align-right" src="../../_images/logo_geoserver.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <div class="section" id="geoserver-quickstart">
-<h1>GeoServer Quickstart<a class="headerlink" href="#geoserver-quickstart" title="Permalink to this headline">¶</a></h1>
-<p>GeoServer is a java application for serving maps (and data) for other clients (such as web browsers) to draw. GeoServer comes with a browser-based management interface and connects to multiple data sources at the back end.</p>
-<p>This Quick Start describes how to:</p>
+<h1>GeoServer Pika-aloitus<a class="headerlink" href="#geoserver-quickstart" title="Permalink to this headline">¶</a></h1>
+<p>GeoServer on java-sovellus, joka palvelee karttoja (ja tietoja) muille asiakkaille (kuten selaimille) piirtämiseen. GeoServerin mukana tulee selainpohjainen hallintaliittymä, joka muodostaa yhteyden useisiin tietolähteisiin.</p>
+<p>Tässä Pika-aloitusnäytössä kuvataan, miten</p>
 <blockquote>
 <div><ul class="simple">
-<li>add a vector and raster data source to GeoServer</li>
-<li>apply color to map features using styling</li>
-<li>test the layers in a simple web map</li>
-<li>learn about clients that can display your maps</li>
-<li>add a layer from a NetCDF file</li>
+<li>vektori- ja rasteritietolähteen lisääminen GeoServeriin</li>
+<li>käytä väriä karttaominaisuuksilla muotoilun avulla</li>
+<li>testaa kerrokset yksinkertaisessa verkkokartassa</li>
+<li>tietoja asiakkaista, jotka voivat näyttää kartat</li>
+<li>tason lisääminen NetCDF-tiedostosta</li>
 </ul>
 </div></blockquote>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#start-geoserver" id="id1">Start Geoserver</a></li>
-<li><a class="reference internal" href="#loading-data" id="id2">Loading data</a></li>
-<li><a class="reference internal" href="#styling-data" id="id3">Styling data</a><ul>
-<li><a class="reference internal" href="#using-ug-to-create-simple-styles" id="id4">Using uDig to create simple styles</a></li>
-<li><a class="reference internal" href="#adding-the-style-to-geoserver" id="id5">Adding the style to GeoServer</a></li>
-<li><a class="reference internal" href="#adding-the-style-to-the-layer" id="id6">Adding the style to the layer</a></li>
+<li><a class="reference internal" href="#start-geoserver" id="id1">Käynnistä Geoserver</a></li>
+<li><a class="reference internal" href="#loading-data" id="id2">Ladataan tietoja</a></li>
+<li><a class="reference internal" href="#styling-data" id="id3">Tietojen muotoilu</a><ul>
+<li><a class="reference internal" href="#using-ug-to-create-simple-styles" id="id4">Käyttämällä uDig luoda yksinkertaisia tyylejä</a></li>
+<li><a class="reference internal" href="#adding-the-style-to-geoserver" id="id5">Tyylin lisääminen GeoServeriin</a></li>
+<li><a class="reference internal" href="#adding-the-style-to-the-layer" id="id6">Tyylin lisääminen tasoon</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#clients-for-wms-layers" id="id7">Clients for WMS layers</a></li>
-<li><a class="reference internal" href="#add-a-layer-from-a-netcdf-file" id="id8">Add a layer from a NetCDF file</a><ul>
-<li><a class="reference internal" href="#configure-a-netcdf-store" id="id9">Configure a NetCDF store</a></li>
-<li><a class="reference internal" href="#preview-the-netcdf-layer" id="id10">Preview the NetCDF layer</a></li>
+<li><a class="reference internal" href="#clients-for-wms-layers" id="id7">WMS-kerrosten asiakkaat</a></li>
+<li><a class="reference internal" href="#add-a-layer-from-a-netcdf-file" id="id8">Tason lisääminen NetCDF-tiedostosta</a><ul>
+<li><a class="reference internal" href="#configure-a-netcdf-store" id="id9">NetCDF-säilön määrittäminen</a></li>
+<li><a class="reference internal" href="#preview-the-netcdf-layer" id="id10">NetCDF-tason esikatselu</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#what-next" id="id11">What next?</a></li>
+<li><a class="reference internal" href="#what-next" id="id11">Mitä seuraavaksi?</a></li>
 </ul>
 </div>
 <div class="section" id="start-geoserver">
-<h2><a class="toc-backref" href="#id1">Start Geoserver</a><a class="headerlink" href="#start-geoserver" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Käynnistä Geoserver</a><a class="headerlink" href="#start-geoserver" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p class="first">From the Start menu, select <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span>. The application will take a few moments to start up and will open a web page at <a class="reference external" href="http://localhost:8082/geoserver/web">http://localhost:8082/geoserver/web</a></p>
+<li><p class="first">Valitse Käynnistä-valikosta <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span>. Sovellus käynnistyy hetken ja avaa verkkosivun <a class="reference external" href="http://localhost:8082/geoserver/web">http://localhost:8082/geoserver/web</a></p>
 <a class="reference internal image-reference" href="../../_images/geoserver-login.png"><img alt="../../_images/geoserver-login.png" src="../../_images/geoserver-login.png" style="width: 562.0999999999999px; height: 289.79999999999995px;" /></a>
 </li>
-<li><p class="first">Log in using the username <strong>admin</strong> and password <strong>geoserver</strong>. You will now see the <em>admin page</em>.</p>
+<li><p class="first">Kirjaudu sisään käyttäjätunnuksella <strong>admin</strong> ja salasanalla <strong>geoserver</strong>. Näet nyt <em>admin sivu</em>.</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-welcome.png"><img alt="../../_images/geoserver-welcome.png" src="../../_images/geoserver-welcome.png" style="width: 556.5px; height: 350.0px;" /></a>
 </li>
-<li><p class="first">Select the <strong>Layer Preview</strong> link at the top of the <em>Data</em> section in the left hand menu to see a preview of the layers that are loaded on the server.</p>
+<li><p class="first">Valitse <strong>Tason esikatselu</strong> -linkki vasemmanpuoleisen valikon <em>Data</em>-osion yläosasta, niin näet palvelimeen ladattujen tasojen esikatselun.</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-layerpreview.png"><img alt="../../_images/geoserver-layerpreview.png" src="../../_images/geoserver-layerpreview.png" style="width: 784.6999999999999px; height: 458.49999999999994px;" /></a>
 </li>
-<li><p class="first">Scroll to the bottom of the page and click on the <strong>OpenLayers</strong> link in the <strong>tiger-ny</strong> row. This will open a new window with a preview of some of the sample data.</p>
+<li><p class="first">Vieritä sivun alareunaan ja napsauta <strong>OpenLayers</strong>-linkkiä <strong>tiger-ny</strong>-rivillä. Tämä avaa uuden ikkunan, jossa on joidenkin mallitietojen esikatselu.</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-preview.png"><img alt="../../_images/geoserver-preview.png" src="../../_images/geoserver-preview.png" style="width: 260.4px; height: 398.29999999999995px;" /></a>
 </li>
-<li><p class="first">You can zoom in to the map in three ways:</p>
+<li><p class="first">Voit lähentää karttaa kolmella tavalla:</p>
 <blockquote>
 <div><ul class="simple">
-<li>by clicking on the zoom bar on the left, the higher you click on it the more zoomed in you will see.</li>
-<li>by using the mouse scroll wheel (if you have one), scrolling up will zoom in and down will zoom out.</li>
-<li>by dragging a box on the map while holding down the <code class="kbd docutils literal"><span class="pre">shift</span> <span class="pre">key</span></code> - this will zoom in to the box selected (or as near as will fit in the screen).</li>
+<li>klikkaamalla zoomauspalkkia vasemmalla, sitä korkeampi klikkaat sitä enemmän zoomattu näet.</li>
+<li>käyttämällä hiiren vieritysrullaa (jos sinulla on sellainen), vierittäminen ylöspäin lähentää ja alas loitontaa.</li>
+<li>vetämällä laatikko kartalla pitämällä alhaalla : kbd:’shift-näppäintä’ - tämä lähentää valittuun ruutuun (tai niin lähelle kuin sopii näyttöön).</li>
 </ul>
 </div></blockquote>
 </li>
 </ol>
-<p>Experiment with this view and look at some of the other previews.  Once you are comfortable viewing existing data you can move on to adding some new data.</p>
+<p>Kokeile tätä näkymää ja katso joitakin muita esikatseluita.  Kun olet tyytyväinen tarkastelemaan olemassa olevia tietoja, voit lisätä uusia tietoja.</p>
 </div>
 <div class="section" id="loading-data">
-<h2><a class="toc-backref" href="#id2">Loading data</a><a class="headerlink" href="#loading-data" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Ladataan tietoja</a><a class="headerlink" href="#loading-data" title="Permalink to this headline">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">Muista</p>
-<p class="last">You will not be able to carry out the following steps if you are
-running with a <strong>read only</strong> file system (such as the DVD). You
-will either need to run in a Virtual Machine, or from a USB, or install
-OSGeoLive (or just GeoServer) onto your hard drive.</p>
+<p class="last">Seuraavia vaiheita ei voi suorittaa, jos käytössä on <strong>vain luku</strong>-tiedostojärjestelmä (kuten DVD-levy). Sinun on joko suoritettava Virtuaalikoneessa tai USB:stä tai asennettava OSGeoLive (tai vain GeoServer) kiintolevylle.</p>
 </div>
-<p>In this example we are going to use the <a class="reference internal" href="../overview/naturalearth_overview.html"><span class="doc">Natural Earth data set</span></a>
-that is included on OSGeoLive (<code class="file docutils literal"><span class="pre">/usr/local/share/data/natural_earth2/</span></code>).</p>
+<p>Tässä esimerkissä käytämme <a class="reference internal" href="../overview/naturalearth_overview.html"><span class="doc">Natural Earth -tietojoukkoa</span></a> joka sisältyy OSGeoLiveen (<code class="file docutils literal"><span class="pre">/usr/local/share/data/natural_earth2/</span></code>).</p>
 <ol class="arabic">
-<li><p class="first">We need to create a Store for our data. From the GeoServer admin page go to <span class="guilabel">Stores</span>.</p>
+<li><p class="first">Meidän on luotava myymälä tiedoillemme. Lähettäjä GeoServer järjestelmänvalvojan sivu menee <span class="guilabel">Stores</span>.</p>
 </li>
-<li><p class="first">Click on <span class="guilabel">Add new Store</span>. You will see this page:</p>
+<li><p class="first">Napsauta <span class="guilabel">Add new Store</span>. Näet tämän sivun:</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-newstore.png"><img alt="The New Store page" class="align-center" src="../../_images/geoserver-newstore.png" style="width: 793.8px; height: 457.09999999999997px;" /></a>
 </li>
-<li><p class="first">Select the <span class="guilabel">Directory of spatial files</span>. You will see the following:</p>
+<li><p class="first">Valitse <span class="guilabel">Directory of spatial files</span>. Näet seuraavat asiat:</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-new-vector.png"><img alt="Filling in the New Store page" class="align-center" src="../../_images/geoserver-new-vector.png" style="width: 805.6999999999999px; height: 457.09999999999997px;" /></a>
 </li>
-<li><p class="first">Type in a name for the Data Store (for example, <em>Natural Earth</em>) and fill in the URL to the data set - in this case <code class="file docutils literal"><span class="pre">/usr/local/share/data/natural_earth2/</span></code>. You can use the browse button to find the directory if your data is somewhere else.</p>
+<li><p class="first">Kirjoita tietosäilön nimi (esimerkiksi <em>Natural Earth</em>) ja täytä tietojoukon URL-osoite - tässä tapauksessa <code class="file docutils literal"><span class="pre">/usr/local/share/data/natural_earth2/</span></code>. Selaa-painikkeella voit etsiä hakemiston, jos tietosi ovat jossain muualla.</p>
 </li>
-<li><p class="first">Press <span class="guilabel">save</span>.</p>
+<li><p class="first">Lehdistö <span class="guilabel">save</span>.</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-naturalearth.png"><img alt="The Natural Earth Datastore" class="align-center" src="../../_images/geoserver-naturalearth.png" style="width: 536.1999999999999px; height: 303.79999999999995px;" /></a>
 </li>
-<li><p class="first">Press <span class="guilabel">publish</span> next to one of the layers to finish adding the data. This will take you to the <em>Layers</em> page:</p>
+<li><p class="first">Lehdistö <span class="guilabel">publish</span> vieressä yksi kerroksista lopettaa lisäämällä tiedot. Tämä vie sinut <em>Tasot</em> -sivulle:</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-publish.png"><img alt="The layer publishing page" class="align-center" src="../../_images/geoserver-publish.png" style="width: 532.6999999999999px; height: 1051.3999999999999px;" /></a>
-<p>As you scroll down the page you will see that GeoServer has filled in many of the fields for you. When you reach <span class="guilabel">Coordinate Reference System</span> you will notice that under <em>Native SRS</em> it says UNKNOWN you will need to fill in the next box (<em>declared SRS</em>) to make sure GeoServer knows where the data is.</p>
+<p>Kun vierität sivua alaspäin, näet GeoServer on täyttänyt monet kentät sinulle. Kun saavut <span class="guilabel">Coordinate Reference System</span>, huomaat, että <em>Native SRS</em> -kohdassa sanotaan TUNTEMATON, sinun on täytettävä seuraava ruutu (<em>ilmoitettu SRS</em>) varmistaaksesi GeoServer tietää missä tiedot ovat.</p>
 </li>
-<li><p class="first">You can type epsg:4326 in the box, or go to <a class="reference external" href="http://prj2epsg.org/search">http://prj2epsg.org/search</a> and paste in the string you see if you click on the link next to ”UNKNOWN”.</p>
+<li><p class="first">Voit kirjoittaa ruutuun epsg:4326 tai siirtyä kohtaan <a class="reference external" href="http://prj2epsg.org/search">http://prj2epsg.org/search</a> ja liitä merkkijonoon, jota näet, jos napsautat linkkiä ”TUNTEMATON”.</p>
 </li>
-<li><p class="first">Click on <span class="guilabel">Compute from data</span> and <span class="guilabel">Compute from native bounds</span> to fill in the Bounding Boxes.</p>
+<li><p class="first">Klikkaa <span class="guilabel">Compute from data</span> ja <span class="guilabel">Compute from native bounds</span> täyttääksesi rajauslaatikot.</p>
 </li>
-<li><p class="first">Finally hit <span class="guilabel">save</span> and you have published your first layer.</p>
+<li><p class="first">Lopuksi osuma: guilabel:<cite>save</cite> ja olet julkaissut ensimmäisen kerroksen.</p>
 </li>
 </ol>
 <div class="admonition note">
 <p class="first admonition-title">Muista</p>
-<p class="last">Don’t worry if the layer preview doesn’t look very good as it is using the default style. In the next section we will look at producing a nicer style.</p>
+<p class="last">Älä huoli, jos tason esikatselu ei näytä kovin hyvältä, koska se käyttää oletustyyliä. Seuraavassa jaksossa tarkastelemme tuottaa mukavampaa tyyliä.</p>
 </div>
-<p>You can follow the same step with the other layers in the directory by using the <span class="guilabel">Add a new resource</span> button on the layers page. Just select the natural earth store from the drop down box to get back to the store’s page.</p>
+<p>Voit seurata samaa vaihetta muiden hakemiston tasojen kanssa käyttämällä tasosivun :guilabel:’Add a new resource’-painiketta. Valitse vain luonnollinen maakauppa avattavasta valikosta palataksesi kaupan sivulle.</p>
 </div>
 <div class="section" id="styling-data">
-<h2><a class="toc-backref" href="#id3">Styling data</a><a class="headerlink" href="#styling-data" title="Permalink to this headline">¶</a></h2>
-<p>Styling a data set into a map layer GeoServer uses an OGC standard called <a class="reference external" href="https://www.ogc.org/standards/sld">Styled Layer Descriptor (SLD)</a>. These are represented as XML files which describe the rules that are used to apply various symbolizers to the data.</p>
-<p>To get started, lets style the Land and Ocean datasets.
-You can create SLD files using a simple text editor, but sometimes a graphical editor is better. There are several options here but uDig allows you to open the shapefiles directly and apply simple styles using a GUI. It also provides a simple editor to modify the XML if I need to.</p>
+<h2><a class="toc-backref" href="#id3">Tietojen muotoilu</a><a class="headerlink" href="#styling-data" title="Permalink to this headline">¶</a></h2>
+<p>Tietojoukon muotoilu karttakerrokseen GeoServer käyttää OGC-standardia nimeltään <a class="reference external" href="https://www.ogc.org/standards/sld">Styled Layer Descriptor (SLD)</a>. Ne esitetään XML-tiedostoina, jotka kuvaavat sääntöjä, joita käytetään erilaisten symbolien käyttämiseen tietoihin.</p>
+<p>Aloita säis, antaa tyyli Maa ja valtameri tietojoukot. Voit luoda SLD-tiedostoja yksinkertaisella tekstieditorilla, mutta joskus graafinen editori on parempi. Täällä on useita vaihtoehtoja, mutta uDig antaa sinun avata muototiedostot suoraan ja käyttää yksinkertaisia tyylejä graafisen käyttöliittymän avulla. Se tarjoaa myös yksinkertaisen toimittajan, joka voi muokata XML: ää tarvittaessa.</p>
 <div class="section" id="using-ug-to-create-simple-styles">
-<h3><a class="toc-backref" href="#id4">Using uDig to create simple styles</a><a class="headerlink" href="#using-ug-to-create-simple-styles" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id4">Käyttämällä uDig luoda yksinkertaisia tyylejä</a><a class="headerlink" href="#using-ug-to-create-simple-styles" title="Permalink to this headline">¶</a></h3>
 <div class="admonition note">
 <p class="first admonition-title">Muista</p>
-<p class="last">For more details on how to use uDig see the <a class="reference internal" href="udig_quickstart.html"><span class="doc">uDig Quickstart</span></a></p>
+<p class="last">Lisätietoja | UG: n käytöstä katso <a class="reference internal" href="udig_quickstart.html"><span class="doc">uDig Pika-aloitus</span></a></p>
 </div>
 <ol class="arabic">
-<li><p class="first">Open uDig and add the shapefiles (using the add data button in the top left hand corner).</p>
+<li><p class="first">Avaa uDig ja lisää muototiedostot (käyttämällä vasemmassa yläkulmassa olevaa lisää datapainiketta).</p>
 </li>
-<li><p class="first">Drag the ne_10m_land and ne_10m_ocean tables into the map window. uDig automatically applies a style (so you can see the data).</p>
+<li><p class="first">Vedä ne_10m_land ja ne_10m_ocean taulukot karttaikkunaan. uDig käyttää tyyliä automaattisesti (jotta näet tiedot).</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-udig_startup.png"><img alt="Default Styling in uDig" class="align-center" src="../../_images/geoserver-udig_startup.png" style="width: 773.5px; height: 357.7px;" /></a>
 </li>
-<li><p class="first">In the <a class="reference internal" href="#layer-list"><span class="std std-ref">Layer list</span></a> select the style button (it looks like an artist’s palette).</p>
+<li><p class="first">Valitse <a class="reference internal" href="#layer-list"><span class="std std-ref">Layer list</span></a> tyylipainike (se näyttää taiteilijan paletilta).</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-layer-chooser.png" id="layer-list"><img alt="The Layer list window" class="align-center" id="layer-list" src="../../_images/geoserver-layer-chooser.png" style="width: 177.79999999999998px; height: 167.29999999999998px;" /></a>
-<p>This will open the <a class="reference internal" href="#style-pane"><span class="std std-ref">Style Pane</span></a>.</p>
+<p>Tämä avaa <a class="reference internal" href="#style-pane"><span class="std std-ref">Style Pane</span></a>.</p>
 </li>
-<li><p class="first">In the simple window we can easily select a nice blue for the oceans by clicking on the colored box on the fill tab and choosing from the color picker it produces. We can also increase the opacity of the fill to 100% to make the color look better. Pick the same blue for the border color so it will match.</p>
+<li><p class="first">Yksinkertaisessa ikkunassa voimme helposti valita mukava sininen valtamerien klikkaamalla värillinen laatikko täyttää välilehti ja valitsemalla värivalitsin se tuottaa. Voimme myös lisätä peittävyyttä täyttää 100% jotta väri näyttää paremmalta. Valitse saman sinisen reunan väri, jotta se vastaa.</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-style-pane.png" id="style-pane"><img alt="The Style Pane" class="align-center" id="style-pane" src="../../_images/geoserver-style-pane.png" style="width: 680.4px; height: 501.9px;" /></a>
 </li>
-<li><p class="first">Click <code class="docutils literal"><span class="pre">OK</span></code> and uDig will display the changes.</p>
+<li><p class="first">Napsauta <code class="docutils literal"><span class="pre">OK</span></code> ja uDig näyttää muutokset.</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-blue-ocean.png"><img alt="Blue Oceans" class="align-center" src="../../_images/geoserver-blue-ocean.png" style="width: 770.6999999999999px; height: 394.79999999999995px;" /></a>
 </li>
-<li><p class="first">Repeat the steps above to change the color of the land layer. You can use the <code class="docutils literal"><span class="pre">define</span> <span class="pre">custom</span> <span class="pre">colors</span></code> section to create your preferred color.</p>
+<li><p class="first">Toista yllä olevat vaiheet muuttaaksesi maakerroksen värin. Voit luoda haluamasi värin <code class="docutils literal"><span class="pre">määritä</span> <span class="pre">mukautetut</span> <span class="pre">värit</span></code> -osiossa.</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-custom-colour.png"><img alt="Defining a nicer land color" class="align-center" src="../../_images/geoserver-custom-colour.png" style="width: 359.09999999999997px; height: 208.6px;" /></a>
 </li>
 </ol>
-<p>This gives a nice looking basic world map.</p>
+<p>Tämä antaa mukavan näköinen perusmaailmankartta.</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-basic-world.png"><img alt="A basic word map" class="align-center" src="../../_images/geoserver-basic-world.png" style="width: 743.4px; height: 375.2px;" /></a>
 </div>
 <div class="section" id="adding-the-style-to-geoserver">
-<h3><a class="toc-backref" href="#id5">Adding the style to GeoServer</a><a class="headerlink" href="#adding-the-style-to-geoserver" title="Permalink to this headline">¶</a></h3>
-<p>Now we need to transfer these styles to GeoServer.</p>
+<h3><a class="toc-backref" href="#id5">Tyylin lisääminen GeoServeriin</a><a class="headerlink" href="#adding-the-style-to-geoserver" title="Permalink to this headline">¶</a></h3>
+<p>Nyt meidän täytyy siirtää nämä tyylit GeoServer.</p>
 <ol class="arabic simple">
-<li>On the style window there is an export button which allows you to save the SLD file that defines your style.</li>
-<li>Once saved, you can go to the GeoServer admin page again and select <code class="docutils literal"><span class="pre">Styles</span></code> (at the bottom of the <code class="docutils literal"><span class="pre">Data</span></code> section).</li>
-<li>Select the <code class="docutils literal"><span class="pre">Add</span> <span class="pre">New</span> <span class="pre">Style</span></code> link. At the bottom of that page is a file upload box and a browse button.</li>
-<li>Clicking browse to find the files you just saved.</li>
-<li>Click the upload link (next to the browse button) and a copy of the file appears in the editor.</li>
-<li>If you click on the validate button the highlighted lines will give you an error but you can safely ignore the error (or delete those lines as they don’t do anything).</li>
-<li>Press the <span class="guilabel">Submit</span> at the bottom of the page.</li>
+<li>Tyyli-ikkunassa on vientipainike, jonka avulla voit tallentaa tyylisi määrittävän SLD-tiedoston.</li>
+<li>Tallennettuaan voit siirtyä GeoServer -sovellukseen admin-sivu uudelleen ja valitse <code class="docutils literal"><span class="pre">Tyylit</span></code> (<code class="docutils literal"><span class="pre">Data</span></code>-osan alaosassa).</li>
+<li>Valitse <code class="docutils literal"><span class="pre">isää</span> <span class="pre">uusi</span> <span class="pre">tyyl</span></code> -linkki. Sivun alareunassa on tiedostojen lähetyslaatikko ja selauspainike.</li>
+<li>Napsauttamalla selaa löytääksesi juuri tallentamasi tiedostot.</li>
+<li>Napsauta latauslinkkiä (selauspainikkeen vieressä) ja kopio tiedostosta ilmestyy editoriin.</li>
+<li>Jos napsautat vahvista-painiketta, korostetut rivit antavat sinulle virheilmoituksen, mutta voit turvallisesti ohittaa virheen (tai poistaa nämä rivit, koska ne eivät tee mitään).</li>
+<li>Paina sivun alaosassa olevaa <span class="guilabel">Submit</span>.</li>
 </ol>
 <a class="reference internal image-reference" href="../../_images/geoserver-add-style.png"><img alt="Adding a Style to GeoServer" class="align-center" src="../../_images/geoserver-add-style.png" style="width: 765.0999999999999px; height: 455.7px;" /></a>
 </div>
 <div class="section" id="adding-the-style-to-the-layer">
-<h3><a class="toc-backref" href="#id6">Adding the style to the layer</a><a class="headerlink" href="#adding-the-style-to-the-layer" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id6">Tyylin lisääminen tasoon</a><a class="headerlink" href="#adding-the-style-to-the-layer" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
-<li>Click on the <span class="guilabel">Layers</span> link in the Menu on the left of the GeoServer window.</li>
-<li>Click on the layer (e.g. <em>ne_10m_land</em>), then select the <span class="guilabel">Publishing</span> tab.</li>
-<li>Change the <span class="guilabel">Default Style</span> box to the name of the style you uploaded in the previous section.</li>
-<li>Now click <span class="guilabel">Save</span> and go to the Layer Preview page to check that it looks good.</li>
+<li>Napsauta <span class="guilabel">Layers</span> -linkkiä GeoServer vasemmalla puolella olevassa valikossa ikkuna.</li>
+<li>Napsauta tasoa (esim. <em>ne_10m_land</em>) ja valitse sitten <span class="guilabel">Publishing</span> -välilehti.</li>
+<li>Muuta: guilabel: <cite>Default Style</cite> -ruutu edellisen osan lataamasi tyylin nimeen.</li>
+<li>Napsauta nyt <span class="guilabel">Save</span> ja siirry Kerroksen Esikatselu -sivulle tarkistaaksesi, että se näyttää hyvältä.</li>
 </ol>
 <div class="admonition note">
 <p class="first admonition-title">Muista</p>
-<p class="last">There are example style files for all of the example Natural Earth layers in <code class="file docutils literal"><span class="pre">/usr/local/share/geoserver</span></code>.</p>
+<p class="last">Kaikille esimerkkeille Natural Earth -kerroksista on tyyppitiedostoja <code class="file docutils literal"><span class="pre">/usr/local/share/geoserver</span></code>.</p>
 </div>
 </div>
 </div>
 <div class="section" id="clients-for-wms-layers">
-<h2><a class="toc-backref" href="#id7">Clients for WMS layers</a><a class="headerlink" href="#clients-for-wms-layers" title="Permalink to this headline">¶</a></h2>
-<p>The <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> layers you are serving from GeoServer can be used with a variety of clients on this OSGeoLive distribution, including:</p>
+<h2><a class="toc-backref" href="#id7">WMS-kerrosten asiakkaat</a><a class="headerlink" href="#clients-for-wms-layers" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> kerrokset, joista palvelet GeoServer voidaan käyttää useiden asiakkaiden kanssa tässä OSGeoLive-jakelussa, mukaan lukien:</p>
 <ul class="simple">
 <li><a class="reference internal" href="../overview/udig_overview.html"><span class="doc">uDig</span></a></li>
 <li><a class="reference internal" href="../overview/openlayers_overview.html"><span class="doc">OpenLayers</span></a></li>
@@ -245,25 +240,25 @@ You can create SLD files using a simple text editor, but sometimes a graphical e
 </ul>
 </div>
 <div class="section" id="add-a-layer-from-a-netcdf-file">
-<h2><a class="toc-backref" href="#id8">Add a layer from a NetCDF file</a><a class="headerlink" href="#add-a-layer-from-a-netcdf-file" title="Permalink to this headline">¶</a></h2>
-<p>The GeoServer NetCDF plugin allows the publication of rasters from NetCDF files.</p>
+<h2><a class="toc-backref" href="#id8">Tason lisääminen NetCDF-tiedostosta</a><a class="headerlink" href="#add-a-layer-from-a-netcdf-file" title="Permalink to this headline">¶</a></h2>
+<p>GeoServer NetCDF plugin mahdollistaa julkaisemisen rasters alkaen NetCDF tiedostoja.</p>
 <div class="section" id="configure-a-netcdf-store">
-<h3><a class="toc-backref" href="#id9">Configure a NetCDF store</a><a class="headerlink" href="#configure-a-netcdf-store" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id9">NetCDF-säilön määrittäminen</a><a class="headerlink" href="#configure-a-netcdf-store" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic">
-<li><p class="first">After running ”Start GeoServer”</p>
+<li><p class="first">Kun olet suoritettaessa ”Käynnistä GeoServer”</p>
 </li>
-<li><p class="first">Login as the administrator.</p>
+<li><p class="first">Kirjaudu järjestelmänvalvojana.</p>
 </li>
-<li><p class="first">Click on <span class="guilabel">Add stores</span> then <span class="guilabel">NetCDF</span>.</p>
+<li><p class="first">Napsauta <span class="guilabel">Lisää kauppoja</span> ja sitten :guilabel:` NetCDF`.</p>
 </li>
-<li><p class="first">Enter a value for Data Source Name (this example uses ”netcdf”) and a NetCDF URL. You can use this sample file:</p>
+<li><p class="first">Kirjoita arvo tietolähteen nimelle (tässä esimerkissä käytetään ”netcdf”) ja NetCDF URL. Voit käyttää tätä mallitiedostoa:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">file</span><span class="p">:</span><span class="o">///</span><span class="n">usr</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">share</span><span class="o">/</span><span class="n">data</span><span class="o">/</span><span class="n">netcdf</span><span class="o">/</span><span class="n">polyphemus_20120401</span><span class="o">.</span><span class="n">nc</span>
 </pre></div>
 </div>
 </li>
-<li><p class="first">Press ”Save”, ”Publish” the ”O3” layer.</p>
+<li><p class="first">Paina ”Save”, ”Publish” ”O3” kerros.</p>
 </li>
-<li><p class="first">Scroll down to the bottom of the ”Data” tab and press ”Save” again.</p>
+<li><p class="first">Vieritä ”Data” -välilehden alareunaan ja paina uudelleen ”Save”.</p>
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/geoserver-netcdf-store.png"><img alt="Adding a NetCDF store" class="align-center" src="../../_images/geoserver-netcdf-store.png" style="width: 680.0px; height: 473.0px;" /></a>
 </div></blockquote>
@@ -271,13 +266,13 @@ You can create SLD files using a simple text editor, but sometimes a graphical e
 </ol>
 </div>
 <div class="section" id="preview-the-netcdf-layer">
-<h3><a class="toc-backref" href="#id10">Preview the NetCDF layer</a><a class="headerlink" href="#preview-the-netcdf-layer" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id10">NetCDF-tason esikatselu</a><a class="headerlink" href="#preview-the-netcdf-layer" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic">
-<li><p class="first">Select ”Layer Preview” from the menu on the left</p>
+<li><p class="first">Valitse ”Layer Preview” vasemmalla olevasta valikosta</p>
 </li>
-<li><p class="first">Scroll down to find the ”cite:O3” entry, and click on the ”OpenLayers” link to show a preview of the layer.</p>
+<li><p class="first">Vieritä alas löytääksesi ”cite:O3”-merkinnän ja klikkaa ”OpenLayers”-linkkiä näyttääksesi tason esikatselun.</p>
 </li>
-<li><p class="first">Clicking on points will cause the value of ”Ozone_concentration” to be shown in a table at the bottom of the map.</p>
+<li><p class="first">Pisteiden napsauttaminen aiheuttaa sen, että ”Ozone_concentration” arvo näkyy kartan alareunassa olevassa taulukossa.</p>
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/geoserver-netcdf-preview.png"><img alt="OpenLayers preview of a NetCDF layer" class="align-center" src="../../_images/geoserver-netcdf-preview.png" style="width: 781.0px; height: 564.0px;" /></a>
 </div></blockquote>
@@ -285,18 +280,18 @@ You can create SLD files using a simple text editor, but sometimes a graphical e
 </ol>
 <div class="admonition note">
 <p class="first admonition-title">Muista</p>
-<p class="last">This GeoServer instance has been configured with the <code class="docutils literal"><span class="pre">NETCDF_DATA_DIR</span></code> Java system property to allow the publication of NetCDF files in read-only directories.</p>
+<p class="last">Tämä GeoServer-ilmentymä on määritetty `` NETCDF_DATA_DIR`` Java-järjestelmän ominaisuuksilla sallimaan NetCDF-tiedostojen julkaiseminen vain luku -hakemistossa.</p>
 </div>
 </div>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id11">What next?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
-<p>This is only the first step on the road to using GeoServer. There is a lot more functionality you can try.</p>
+<h2><a class="toc-backref" href="#id11">Mitä seuraavaksi?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
+<p>Tämä on vasta ensimmäinen askel tiellä käyttää GeoServer. On paljon enemmän toimintoja voit kokeilla.</p>
 <ul class="simple">
-<li>GeoServer Project home - <a class="reference external" href="http://geoserver.org/">http://geoserver.org/</a></li>
-<li>GeoServer User Manual - <a class="reference external" href="https://docs.geoserver.org/latest/en/user/">https://docs.geoserver.org/latest/en/user/</a></li>
-<li>GeoServer Tutorials - <a class="reference external" href="https://docs.geoserver.org/latest/en/user/tutorials/index.html">https://docs.geoserver.org/latest/en/user/tutorials/index.html</a></li>
-<li>GeoServer Styling Workshop - <a class="reference external" href="https://docs.geoserver.org/latest/en/user/styling/workshop/index.html">https://docs.geoserver.org/latest/en/user/styling/workshop/index.html</a></li>
+<li>GeoServer Projectin kotisivu - <a class="reference external" href="http://geoserver.org/">http://geoserver.org/</a></li>
+<li>GeoServerin käyttöopas - <a class="reference external" href="https://docs.geoserver.org/latest/en/user/">https://docs.geoserver.org/latest/en/user/</a></li>
+<li>GeoServer Oppaat -<a class="reference external" href="https://docs.geoserver.org/latest/en/user/tutorials/index.html">https://docs.geoserver.org/latest/en/user/tutorials/index.html</a></li>
+<li>GeoServer Tyylityöpaja - <a class="reference external" href="https://docs.geoserver.org/latest/en/user/styling/workshop/index.html">https://docs.geoserver.org/latest/en/user/styling/workshop/index.html</a></li>
 </ul>
 </div>
 </div>
