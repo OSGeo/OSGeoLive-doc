@@ -1,118 +1,117 @@
-# document? | slug | version | Quickstart? | Overview? | Section | last | One Liner | OpenHub name | URL | kind | name
-###################### | | | | | | | | | | | 
-#   Desktop GIS | | | | | | | | | | | 
-###################### | | | | | | | | | | | 
-Y | qgis | 3.4.10 | Y | Y | Desktop GIS | | | qgis | https://www.qgis.org/en/site/ | OSGeo_project | QGIS
-Y | grass | 7.6.1 | Y | Y | Desktop GIS | | | grass_gis | | OSGeo_project | GRASS GIS
-Y | gvsig | 2.3.1 | Y | Y | Desktop GIS | | | gvsig-desktop-2 | http://www.gvsig.com/es | OSGeo_project | gvSIG Desktop
-Y | udig | 2.0.0 | Y | Y | Desktop GIS | | | udig | http://udig.refractions.net/ | | uDig
-Y | openjump | 1.14.1 | Y | Y | Desktop GIS | | | openjump_gis | http://www.openjump.org | | OpenJUMP GIS
-Y | saga | 7.3.0 | Y | Y | Desktop GIS | | | saga-gis | http://www.saga-gis.org | | SAGA
-###################### | | | | | | | | | | | 
-# Browser Facing GIS | | | | | | | | | | | 
-###################### | | | | | | | | | | | 
-Y | openlayers | 5.3.0 | Y | Y | Browser Facing GIS | | Browser Mapping Library | openlayers | https://openlayers.org/ | OSGeo_project | OpenLayers
-Y | leaflet | 1.0.3 | Y | Y | Browser Facing GIS | | Mobile Friendly Interactive Maps | Leaflet | https://leafletjs.com | | Leaflet
-Y | cesium | 1.58 | Y | Y | Browser Facing GIS | | 3D globes and 2D maps in a browser | cesiumjs | https://cesium.com/ | | Cesium
-Y | geomajas | 2.4.0 | Y | Y | Browser Facing GIS | | Browser GIS Client | geomajas | http://www.geomajas.org | OSGeo_project | Geomajas
-Y | mapbender | 3.2.0 | Y | Y | Browser Facing GIS | | Geoportal Framework | mapbender | https://mapbender.org | OSGeo_project | Mapbender
-Y | geoext | 3.1.0 | Y | Y | Browser Facing GIS | | JavaScript Toolkit Web Mapping | geoext3 | https://geoext.github.io/geoext3 | | GeoExt
-Y | geomoose | 3.3.1 | Y | Y | Browser Facing GIS | | Web GIS Portal | geomoose | https://www.geomoose.org | OSGeo_project | GeoMoose
-Y | geonode | 2.10.0 | Y | Y | Browser Facing GIS | | Geospatial Content Management System | geonode | https://geonode.org | OSGeo_project | GeoNode
-###################### | | | | | | | | | | | 
-#   Web Services | | | | | | | | | | | 
-###################### | | | | | | | | | | | 
-Y | geoserver | 2.15.1 | Y | Y | Web Services | | OGC Web Services | geoserver | http://geoserver.org/ | OSGeo_project | GeoServer
-Y | mapserver | 7.4.1 | Y | Y | Web Services | | OGC Web Services | mapserver | https://mapserver.org | OSGeo_project | MapServer
-Y | mapcache | 1.8.0 | Y | Y | Web Services | | OGC Web Services | mapcache | https://mapserver.org/mapcache | OSGeo_project | MapCache
-Y | deegree | 3.4.1 | Y | Y | Web Services | | OGC Web Services | deegree3 | http://www.deegree.org | OSGeo_project | deegree
-Y | ncWMS | 2.2.8 | Y | Y | Web Services | | Web Map Service | ncwms | https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/ | | ncWMS
-Y | eoxserver | 1.0.0beta1 | Y | Y | Web Services | | Web Coverage Service | eoxserver | https://docs.eoxserver.org/en/stable/ | | EOxServer
-Y | geonetwork | 3.2.1 | Y | Y | Web Services | | Metadata Catalogue | geonetwork-opensource | https://geonetwork-opensource.org | OSGeo_project | GeoNetwork
-Y | pycsw | 2.4.0 | Y | Y | Web Services | | Metadata Catalogue | pycsw | https://pycsw.org/ | OSGeo_project | pycsw
-Y | pywps | 4.0.0 | Y | Y | Web Services | | Web Processing Service | pyWPS | https://pywps.org/ | OSGeo_project | PyWPS
-Y | mapproxy | 1.11.0 | Y | Y | Web Services | | Proxy WMS & tile services | mapproxy | https://mapproxy.org/ | OSGeo_community | MapProxy
-Y | qgis_mapserver | 3.4.9 | Y | Y | Web Services | | Web Map Service | | https://www.qgis.org/en/site/ | | QGIS Server
-Y | istsos | 2.3.1 | Y | Y | Web Services | | Sensor Observation Service | istsos | http://istsos.org | OSGeo_community | istSOS
-Y | 52nSOS | 4.4.3 | Y | Y | Web Services | | Sensor Observation Service | SensorObservationService | https://52north.org/software/software-projects/sos | | 52 North SOS
-Y | 52nWPS | 3.6.3 | Y | Y | Web Services | | Web Processing Service | n52-wps | https://52north.org/software/software-projects/wps | | 52 North WPS
-Y | zoo-project | 1.7.0 | Y | Y | Web Services | | Web Processing Service | zoo-project | http://zoo-project.org/ | OSGeo_incubation | Zoo Project
-Y | t-rex | 0.9.0 | Y | Y | Web Services | | Vector Tile Service | t-rex | https://t-rex.tileserver.ch/ | | t-rex
-Y | actinia | 0.2.1 | Y | Y | Web Services | | Processing of Geographical Data | actinia_core | https://actinia.mundialis.de/ | | Actinia
-###################### | | | | | | | | | | | 
-# Data Stores | | | | | | | | | | | 
-###################### | | | | | | | | | | | 
-Y | postgis | 2.5.2 | Y | Y | Data Stores | | Spatial Database | postgis | http://postgis.net | OSGeo_project | PostGIS
-Y | spatialite | 4.3.0 | Y | Y | Data Stores | | Lightweight Database | spatialite | http://www.gaia-gis.it/gaia-sins/ | | SpatiaLite
-Y | rasdaman | 10.0.0 | Y | Y | Data Stores | | Multi-Dimensional Raster Database | rasdaman | https://rasdaman.org | OSGeo_incubation | Rasdaman
-Y | pgrouting | 2.6.2 | Y | Y | Data Stores | | Routing for PostGIS | pgrouting | https://pgrouting.org/ | OSGeo_community | pgRouting
-###################### | | | | | | | | | | | 
-# Navigation and Maps | | | | | | | | | | | 
-###################### | | | | | | | | | | | 
-Y | gpsprune | 19.2.0 | Y | Y | Navigation and Maps | | View, Edit and Convert GPS Tracks | gpsprune | https://activityworkshop.net/software/gpsprune | | GpsPrune
-Y | marble | 17.12.3 | Y | Y | Navigation and Maps | | Virtual Globe | marble | https://marble.kde.org/ | OSGeo_project | Marble
-Y | osm | josm (13878) | Y | Y | Navigation and Maps | | OpenStreetMap Tools | | https://www.openstreetmap.org/ | | OpenStreetMap
-Y | ideditor | 2.2.2 | Y | Y | Navigation and Maps | | OpenStreetMap Web Editor | iD_OSM | https://wiki.openstreetmap.org/wiki/ID | | iD editor
-Y | josm | svn13878 | Y | Y | Navigation and Maps | | OpenStreetMap Desktop Editor | josm | https://josm.openstreetmap.de | | JOSM
-Y | opencpn | 4.8.4 | Y | Y | Navigation and Maps | | Marine GPS Chartplotter | opencpn | https://www.opencpn.org | | OpenCPN
-###################### | | | | | | | | | | | 
-#   Spatial Tools | | | | | | | | | | | 
-###################### | | | | | | | | | | | 
-Y | gmt | 5.4.5 | Y | Y | Spatial Tools | 11 | Cartographic Rendering | GMT | https://gmt.soest.hawaii.edu | | GMT
-Y | otb | 6.6.1 | Y | Y | Spatial Tools | | Image Processing | otb | https://www.orfeo-toolbox.org/ | OSGeo_project | OTB
-Y | R | 3.4.4 | Y | Y | Spatial Tools | | Statistical Programming | R_project | https://cran.r-project.org | | R
-Y | mapnik | 3.0.22 | Y | Y | Spatial Tools | | Cartographic Rendering | mapnik | https://mapnik.org/ | | Mapnik
-Y | mapslicer | 1.0rc2 | Y | Y | Spatial Tools | | Create Map Tiles | | https://mapproxy.org/ | | MapSlicer
-N | ossim | 2.7.2 | Y | Y | Spatial Tools | | Image Processing | ossim | http://www.ossim.org/ | OSGeo_project | OSSIM
-###################### | | | | | | | | | | | 
-#   Domain Specific GIS | | | | | | | | | | | 
-###################### | | | | | | | | | | | 
-Y | zygrib | 8.0.1 | Y | Y | Domain Specific GIS | | Weather Forecast Maps | | https://www.zygrib.org | | zyGrib
-###################### | | | | | | | | | | | 
-#   Data | | | | | | | | | | | 
-###################### | | | | | | | | | | | 
-Y | naturalearth | | N | Y | Data | | Global Data Sets | | http://www.naturalearthdata.com/ | | Natural Earth
-Y | nc_dataset | | N | Y | Data | | | | https://wiki.osgeo.org/wiki/Category:Education | | North Carolina USA Educational dataset
-Y | osm_dataset | | N | Y | Data | | Sample extract from OpenStreetMap | | https://www.openstreetmap.org/ | | OpenStreetMap
-Y | netcdf_dataset | | N | Y | Data | | Time series temperature and precipitation | | https://wiki.osgeo.org/wiki/Category:Education | | NetCDF Data Set
-###################### | | | | | | | | | | | 
-#   Geospatial Libraries | | | | | | | | | | | 
-###################### | | | | | | | | | | | 
-Y | gdal | 2.4.2 | Y | Y | Geospatial Libraries | | Geospatial Data Translation Tools | gdal | https://gdal.org/ | OSGeo_project | GDAL/OGR
-Y | geotools | NA | N | Y | Geospatial Libraries | | Java GIS Toolkit | geotools | https://geotools.org/ | OSGeo_project | GeoTools
-Y | geos | 3.7.1 | N | Y | Geospatial Libraries | | C/C++ Spatial Library | geos | https://trac.osgeo.org/geos | OSGeo_project | GEOS
-Y | proj4 | 5.2.0 | Y | Y | Geospatial Libraries | | Coordinate Reference System Libraries | proj4 | https://proj4.org/index.html | OSGeo_community | Proj.4
-Y | liblas | 1.8.1 | Y | Y | Geospatial Libraries | | LiDAR Data Access | liblas | https://liblas.org/ | | libLAS
-Y | jts | NA | N | Y | Geospatial Libraries | | Java Topology Suite | jts-topo-suite | https://projects.eclipse.org/projects/locationtech.jts | | JTS
-
-###################### | | | | | | | | | | | 
-#   Geospatial Standards | | | | | | | | | | | 
-###################### | | | | | | | | | | | 
-Y | ogc | NA | N | Y | Geospatial Standards | | Open Geospatial Consortium | | https://www.ogc.org | | OGC
-Y | inspire | NA | N | Y | Geospatial Standards | | Infrastructure for Spatial Information in Europe | | https://inspire.ec.europa.eu/about-inspire/563 | | INSPIRE
-###################### | | | | | | | | | | | 
-# RETIRED | | | | | | | | | | | 
-###################### | | | | | | | | | | | 
-N | 52nWSS | retired | Y | Y | | 6.5 | Web Security Service, retired after OSGeoLive 6.5 | | http://52north.org/security | | 52°North WSS
-N | atlasstyler | retired | Y | Y | | 6 | Style Editor, retired after OSGeoLive 6.0 | Geopublishing | http://en.geopublishing.org/AtlasStyler | | AtlasStyler
-N | cartaro | retired | Y | Y | | 10 | Geospatial CMS | | http://cartaro.org | | Cartaro
-N | geopublisher | retired | Y | Y | | 6 | Catalogue, retired after OSGeoLive 6.0 | Geopublishing | | | Geopublisher
-N | gpsdrive | retired | Y | Y | | 9 | GPS Navigation, retired after OSGeoLive 9.0 | | http://www.gpsdrive.de | | GpsDrive
-N | jupyter | hide | Y | Y | | | | jupyter_notebook | http://jupyter.org/ | | Jupyter Notebook
-N | mapfish | retired | Y | Y | | 7.9 | Web Mapping Framework, retired after OSGeoLive 7.9 | mapfish | http://www.mapfish.org | OSGeo_project | MapFish
-N | mapguide | retired | Y | Y | | 5 | Web Service, not included after OSGeoLive 5.0 (to save disk space) | mapguide | https://mapguide.osgeo.org/ | OSGeo_project | MapGuide Open Source
-N | mapwindow | retired | Y | Y | Other software of interest (not available Live) | | Microsoft Windows based Desktop GIS | mapwindow | | | MapWindow GIS Lite
-N | tilemill | retired | Y | Y | | 9.5 | Styling and Publishing, retired after OSGeoLive 9.5 | | http://www.tilemill.com | | TileMill
-N | tomcat | | N | N | | | | | | | 
-N | webworldwind | | Y | Y | | | | | http://webworldwind.org/ | | WebWorldWind
-N | geokettle | retired | Y | Y | Spatial Tools | 11 | ETL (Extract, Transform and Load) Tool | geokettle | http://www.geokettle.org/ | | GeoKettle
-N | iris | retired | Y | Y | Geospatial Libraries | 11 | Meteorology and Climatology | python-iris | http://scitools.org.uk/iris/ | | Iris
-N | metacrs | retired | N | Y | Geospatial Libraries | 11 | Coordinate Reference System Transformations | | http://trac.osgeo.org/metacrs/wiki | OSGeo_incubation | metaCRS
-N | mb-system | retire? | Y | Y | Domain Specific GIS | 11 | | mb-system | http://www.ldeo.columbia.edu/res/pi/MB-System/ | | MB-System
-N | osgearth | hide | Y | Y | Domain Specific GIS | 11 | | osgearth | http://osgearth.org/ | | osgEarth
-N | sahana | retired | Y | Y | Domain Specific GIS | 11 | | sahanapy | http://www.sahanafoundation.org | | Sahana Eden
-N | ushahidi | retired | Y | Y | Domain Specific GIS | 11 | | ushahidi | http://www.ushahidi.com | | Ushahidi
-N | viking | retired | Y | Y | Navigation and Maps | 11 | GPS Data Analysis and Viewer | viking | http://sourceforge.net/apps/mediawiki/viking/ | | Viking
-N | worldwindjava | | Y | Y | Navigation and Maps | 11 | Desktop Virtual Globe | | http://goworldwind.org/ | | goWorldWind
-N | kosmo | retired | Y | Y | Desktop GIS | | | kosmo_desktop | http://www.opengis.es/index.php?lang=en | | Kosmo_desktop
-N | tinyows | retire? | Y | Y | Web Services | | WFS-T Service | tinyows | http://mapserver.org/tinyows/ | OSGeo_project | TinyOWS
+# document? | slug | version | Quickstart? | Overview? | Section | last | One Liner | OpenHub name | URL | kind | name|ISO
+###################### | | | | | | | | | | | |
+#   Desktop GIS | | | | | | | | | | | |
+###################### | | | | | | | | | | || 
+Y | qgis | 3.4.10 | Y | Y | Desktop GIS | | | qgis | https://www.qgis.org/en/site/ | OSGeo_project | QGIS | Y
+Y | grass | 7.6.1 | Y | Y | Desktop GIS | | | grass_gis | | OSGeo_project | GRASS GIS | Y
+Y | gvsig | 2.3.1 | Y | Y | Desktop GIS | | | gvsig-desktop-2 | http://www.gvsig.com/es | OSGeo_project | gvSIG Desktop | N
+Y | udig | 2.0.0 | Y | Y | Desktop GIS | | | udig | http://udig.refractions.net/ | | uDig | Y
+Y | openjump | 1.14.1 | Y | Y | Desktop GIS | | | openjump_gis | http://www.openjump.org | | OpenJUMP GIS | Y
+Y | saga | 7.3.0 | Y | Y | Desktop GIS | | | saga-gis | http://www.saga-gis.org | | SAGA | Y
+###################### | | | | | | | | | | | |
+# Browser Facing GIS | | | | | | | | | | | |
+###################### | | | | | | | | | | || 
+Y | openlayers | 5.3.0 | Y | Y | Browser Facing GIS | | Browser Mapping Library | openlayers | https://openlayers.org/ | OSGeo_project | OpenLayers | Y
+Y | leaflet | 1.0.3 | Y | Y | Browser Facing GIS | | Mobile Friendly Interactive Maps | Leaflet | https://leafletjs.com | | Leaflet | Y
+Y | cesium | 1.58 | Y | Y | Browser Facing GIS | | 3D globes and 2D maps in a browser | cesiumjs | https://cesium.com/ | | Cesium | Y
+Y | geomajas | 2.4.0 | Y | Y | Browser Facing GIS | | Browser GIS Client | geomajas | http://www.geomajas.org | OSGeo_project | Geomajas | Y
+Y | mapbender | 3.2.0 | Y | Y | Browser Facing GIS | | Geoportal Framework | mapbender | https://mapbender.org | OSGeo_project | Mapbender | Y
+Y | geoext | 3.1.0 | Y | Y | Browser Facing GIS | | JavaScript Toolkit Web Mapping | geoext3 | https://geoext.github.io/geoext3 | | GeoExt | Y
+Y | geomoose | 3.3.1 | Y | Y | Browser Facing GIS | | Web GIS Portal | geomoose | https://www.geomoose.org | OSGeo_project | GeoMoose | Y
+Y | geonode | 2.10.0 | Y | Y | Browser Facing GIS | | Geospatial Content Management System | geonode | https://geonode.org | OSGeo_project | GeoNode | Y
+###################### | | | | | | | | | | | |
+#   Web Services | | | | | | | | | | | |
+###################### | | | | | | | | | | || 
+Y | geoserver | 2.15.1 | Y | Y | Web Services | | OGC Web Services | geoserver | http://geoserver.org/ | OSGeo_project | GeoServer | Y
+Y | mapserver | 7.4.1 | Y | Y | Web Services | | OGC Web Services | mapserver | https://mapserver.org | OSGeo_project | MapServer | Y
+Y | mapcache | 1.8.0 | Y | Y | Web Services | | OGC Web Services | mapcache | https://mapserver.org/mapcache | OSGeo_project | MapCache | Y
+Y | deegree | 3.4.1 | Y | Y | Web Services | | OGC Web Services | deegree3 | http://www.deegree.org | OSGeo_project | deegree | Y
+Y | ncWMS | 2.2.8 | Y | Y | Web Services | | Web Map Service | ncwms | https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/ | | ncWMS | Y
+Y | eoxserver | 1.0.0beta1 | Y | Y | Web Services | | Web Coverage Service | eoxserver | https://docs.eoxserver.org/en/stable/ | | EOxServer | Y
+Y | geonetwork | 3.2.1 | Y | Y | Web Services | | Metadata Catalogue | geonetwork-opensource | https://geonetwork-opensource.org | OSGeo_project | GeoNetwork | Y
+Y | pycsw | 2.4.0 | Y | Y | Web Services | | Metadata Catalogue | pycsw | https://pycsw.org/ | OSGeo_project | pycsw | Y
+Y | pywps | 4.0.0 | Y | Y | Web Services | | Web Processing Service | pyWPS | https://pywps.org/ | OSGeo_project | PyWPS | Y
+Y | mapproxy | 1.11.0 | Y | Y | Web Services | | Proxy WMS & tile services | mapproxy | https://mapproxy.org/ | OSGeo_community | MapProxy | Y
+Y | qgis_mapserver | 3.4.9 | Y | Y | Web Services | | Web Map Service | | https://www.qgis.org/en/site/ | | QGIS Server | Y
+Y | istsos | 2.3.1 | Y | Y | Web Services | | Sensor Observation Service | istsos | http://istsos.org | OSGeo_community | istSOS | Y
+Y | 52nSOS | 4.4.3 | Y | Y | Web Services | | Sensor Observation Service | SensorObservationService | https://52north.org/software/software-projects/sos | | 52 North SOS | Y
+Y | 52nWPS | 3.6.3 | Y | Y | Web Services | | Web Processing Service | n52-wps | https://52north.org/software/software-projects/wps | | 52 North WPS | Y
+Y | zoo-project | 1.7.0 | Y | Y | Web Services | | Web Processing Service | zoo-project | http://zoo-project.org/ | OSGeo_incubation | Zoo Project | Y
+Y | t-rex | 0.9.0 | Y | Y | Web Services | | Vector Tile Service | t-rex | https://t-rex.tileserver.ch/ | | t-rex | Y
+Y | actinia | 0.2.1 | Y | Y | Web Services | | Processing of Geographical Data | actinia_core | https://actinia.mundialis.de/ | | Actinia | Y
+###################### | | | | | | | | | | | |
+# Data Stores | | | | | | | | | | | |
+###################### | | | | | | | | | | || 
+Y | postgis | 2.5.2 | Y | Y | Data Stores | | Spatial Database | postgis | http://postgis.net | OSGeo_project | PostGIS | Y
+Y | spatialite | 4.3.0 | Y | Y | Data Stores | | Lightweight Database | spatialite | http://www.gaia-gis.it/gaia-sins/ | | SpatiaLite | Y
+Y | rasdaman | 10.0.0 | Y | Y | Data Stores | | Multi-Dimensional Raster Database | rasdaman | https://rasdaman.org | OSGeo_incubation | Rasdaman | Y
+Y | pgrouting | 2.6.2 | Y | Y | Data Stores | | Routing for PostGIS | pgrouting | https://pgrouting.org/ | OSGeo_community | pgRouting | Y
+###################### | | | | | | | | | | | |
+# Navigation and Maps | | | | | | | | | | | |
+###################### | | | | | | | | | | | |
+Y | gpsprune | 19.2.0 | Y | Y | Navigation and Maps | | View, Edit and Convert GPS Tracks | gpsprune | https://activityworkshop.net/software/gpsprune | | GpsPrune | Y
+Y | marble | 17.12.3 | Y | Y | Navigation and Maps | | Virtual Globe | marble | https://marble.kde.org/ | OSGeo_project | Marble | Y
+Y | osm | josm (13878) | Y | Y | Navigation and Maps | | OpenStreetMap Tools | | https://www.openstreetmap.org/ | | OpenStreetMap | Y
+Y | ideditor | 2.2.2 | Y | Y | Navigation and Maps | | OpenStreetMap Web Editor | iD_OSM | https://wiki.openstreetmap.org/wiki/ID | | iD editor | Y
+Y | josm | svn13878 | Y | Y | Navigation and Maps | | OpenStreetMap Desktop Editor | josm | https://josm.openstreetmap.de | | JOSM | Y
+Y | opencpn | 4.8.4 | Y | Y | Navigation and Maps | | Marine GPS Chartplotter | opencpn | https://www.opencpn.org | | OpenCPN | Y
+###################### | | | | | | | | | | | |
+#   Spatial Tools | | | | | | | | | | | |
+###################### | | | | | | | | | | || 
+Y | gmt | 5.4.5 | Y | Y | Spatial Tools | 11 | Cartographic Rendering | GMT | https://gmt.soest.hawaii.edu | | GMT | Y
+Y | otb | 6.6.1 | Y | Y | Spatial Tools | | Image Processing | otb | https://www.orfeo-toolbox.org/ | OSGeo_project | OTB | Y
+Y | R | 3.4.4 | Y | Y | Spatial Tools | | Statistical Programming | R_project | https://cran.r-project.org | | R | Y
+Y | mapnik | 3.0.22 | Y | Y | Spatial Tools | | Cartographic Rendering | mapnik | https://mapnik.org/ | | Mapnik | Y
+Y | mapslicer | 1.0rc2 | Y | Y | Spatial Tools | | Create Map Tiles | | https://mapproxy.org/ | | MapSlicer | Y
+N | ossim | 2.7.2 | Y | Y | Spatial Tools | | Image Processing | ossim | http://www.ossim.org/ | OSGeo_project | OSSIM | Y
+###################### | | | | | | | | | | | |
+#   Domain Specific GIS | | | | | | | | | | | |
+###################### | | | | | | | | | | | |
+Y | zygrib | 8.0.1 | Y | Y | Domain Specific GIS | | Weather Forecast Maps | | https://www.zygrib.org | | zyGrib | Y
+###################### | | | | | | | | | | | |
+#   Data | | | | | | | | | | | |
+###################### | | | | | | | | | | | |
+Y | naturalearth | | N | Y | Data | | Global Data Sets | | http://www.naturalearthdata.com/ | | Natural Earth | Y
+Y | nc_dataset | | N | Y | Data | | | | https://wiki.osgeo.org/wiki/Category:Education | | North Carolina USA Educational dataset | Y
+Y | osm_dataset | | N | Y | Data | | Sample extract from OpenStreetMap | | https://www.openstreetmap.org/ | | OpenStreetMap | Y
+Y | netcdf_dataset | | N | Y | Data | | Time series temperature and precipitation | | https://wiki.osgeo.org/wiki/Category:Education | | NetCDF Data Set | Y
+###################### | | | | | | | | | | | |
+#   Geospatial Libraries | | | | | | | | | | || 
+###################### | | | | | | | | | | | |
+Y | gdal | 2.4.2 | Y | Y | Geospatial Libraries | | Geospatial Data Translation Tools | gdal | https://gdal.org/ | OSGeo_project | GDAL/OGR | Y
+Y | geotools | NA | N | Y | Geospatial Libraries | | Java GIS Toolkit | geotools | https://geotools.org/ | OSGeo_project | GeoTools | Y
+Y | geos | 3.7.1 | N | Y | Geospatial Libraries | | C/C++ Spatial Library | geos | https://trac.osgeo.org/geos | OSGeo_project | GEOS | Y
+Y | proj4 | 5.2.0 | Y | Y | Geospatial Libraries | | Coordinate Reference System Libraries | proj4 | https://proj4.org/index.html | OSGeo_community | Proj.4 | Y
+Y | liblas | 1.8.1 | Y | Y | Geospatial Libraries | | LiDAR Data Access | liblas | https://liblas.org/ | | libLAS | Y
+Y | jts | NA | N | Y | Geospatial Libraries | | Java Topology Suite | jts-topo-suite | https://projects.eclipse.org/projects/locationtech.jts | | JTS | Y
+###################### | | | | | | | | | | | |
+#   Geospatial Standards | | | | | | | | | | || 
+###################### | | | | | | | | | | | |
+Y | ogc | NA | N | Y | Geospatial Standards | | Open Geospatial Consortium | | https://www.ogc.org | | OGC | Y
+Y | inspire | NA | N | Y | Geospatial Standards | | Infrastructure for Spatial Information in Europe | | https://inspire.ec.europa.eu/about-inspire/563 | | INSPIRE | Y
+###################### | | | | | | | | | | | |
+# RETIRED | | | | | | | | | | | |
+###################### | | | | | | | | | | ||
+N | 52nWSS | retired | Y | Y | | 6.5 | Web Security Service, retired after OSGeoLive 6.5 | | http://52north.org/security | | 52 North WSS | N
+N | atlasstyler | retired | Y | Y | | 6 | Style Editor, retired after OSGeoLive 6.0 | Geopublishing | http://en.geopublishing.org/AtlasStyler | | AtlasStyler | N
+N | cartaro | retired | Y | Y | | 10 | Geospatial CMS | | http://cartaro.org | | Cartaro | N
+N | geopublisher | retired | Y | Y | | 6 | Catalogue, retired after OSGeoLive 6.0 | Geopublishing | | | Geopublisher | N
+N | gpsdrive | retired | Y | Y | | 9 | GPS Navigation, retired after OSGeoLive 9.0 | | http://www.gpsdrive.de | | GpsDrive | N
+N | jupyter | hide | Y | Y | | | | jupyter_notebook | http://jupyter.org/ | | Jupyter Notebook | N
+N | mapfish | retired | Y | Y | | 7.9 | Web Mapping Framework, retired after OSGeoLive 7.9 | mapfish | http://www.mapfish.org | OSGeo_project | MapFish | N
+N | mapguide | retired | Y | Y | | 5 | Web Service, not included after OSGeoLive 5.0 (to save disk space) | mapguide | https://mapguide.osgeo.org/ | OSGeo_project | MapGuide Open Source | N
+N | mapwindow | retired | Y | Y | Other software of interest (not available Live) | | Microsoft Windows based Desktop GIS | mapwindow | | | MapWindow GIS Lite | N
+N | tilemill | retired | Y | Y | | 9.5 | Styling and Publishing, retired after OSGeoLive 9.5 | | http://www.tilemill.com | | TileMill | N
+N | tomcat | | N | N | | | | | | |  | N
+N | webworldwind | | Y | Y | | | | | http://webworldwind.org/ | | WebWorldWind | N
+N | geokettle | retired | Y | Y | Spatial Tools | 11 | ETL (Extract, Transform and Load) Tool | geokettle | http://www.geokettle.org/ | | GeoKettle | N
+N | iris | retired | Y | Y | Geospatial Libraries | 11 | Meteorology and Climatology | python-iris | http://scitools.org.uk/iris/ | | Iris | N
+N | metacrs | retired | N | Y | Geospatial Libraries | 11 | Coordinate Reference System Transformations | | http://trac.osgeo.org/metacrs/wiki | OSGeo_incubation | metaCRS | N
+N | mb-system | retire? | Y | Y | Domain Specific GIS | 11 | | mb-system | http://www.ldeo.columbia.edu/res/pi/MB-System/ | | MB-System | N
+N | osgearth | hide | Y | Y | Domain Specific GIS | 11 | | osgearth | http://osgearth.org/ | | osgEarth | N
+N | sahana | retired | Y | Y | Domain Specific GIS | 11 | | sahanapy | http://www.sahanafoundation.org | | Sahana Eden | N
+N | ushahidi | retired | Y | Y | Domain Specific GIS | 11 | | ushahidi | http://www.ushahidi.com | | Ushahidi | N
+N | viking | retired | Y | Y | Navigation and Maps | 11 | GPS Data Analysis and Viewer | viking | http://sourceforge.net/apps/mediawiki/viking/ | | Viking | N
+N | worldwindjava | | Y | Y | Navigation and Maps | 11 | Desktop Virtual Globe | | http://goworldwind.org/ | | goWorldWind | N
+N | kosmo | retired | Y | Y | Desktop GIS | | | kosmo_desktop | http://www.opengis.es/index.php?lang=en | | Kosmo_desktop | N
+N | tinyows | retire? | Y | Y | Web Services | | WFS-T Service | tinyows | http://mapserver.org/tinyows/ | OSGeo_project | TinyOWS | N
