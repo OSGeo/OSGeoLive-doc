@@ -57,5 +57,6 @@ Details
 **Support:** http://trac.mapfish.org/trac/mapfish#Community
 
 
+@VMDK_mapfish@
 @QUICKSTART_mapfish@
 

@@ -149,6 +149,7 @@ Details
 
 
 
+@VMDK_52nSOS@
 @QUICKSTART_52nSOS@
 
 .. presentation-note

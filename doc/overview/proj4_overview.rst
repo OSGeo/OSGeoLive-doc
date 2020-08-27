@@ -58,6 +58,7 @@ Details
   
   **Support:** https://lists.osgeo.org/mailman/listinfo/proj
 
+@VMDK_proj4@
 @QUICKSTART_proj4@
 
 .. presentation-note

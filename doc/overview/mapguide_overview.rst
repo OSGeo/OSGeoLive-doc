@@ -105,5 +105,6 @@ Details
 **Commercial Support:** https://www.osgeo.org/search_profile
 
 
+@VMDK_mapguide@
 @QUICKSTART_mapguide@
 

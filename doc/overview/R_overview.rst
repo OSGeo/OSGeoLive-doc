@@ -79,6 +79,7 @@ Details
 **CRAN packages available:** https://cran.r-project.org/web/packages/available_packages_by_name.html
 
 
+@VMDK_R@
 @QUICKSTART_R@
 
 .. presentation-note

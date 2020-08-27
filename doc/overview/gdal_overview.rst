@@ -68,6 +68,7 @@ Details
 
 **Support:** https://lists.osgeo.org/mailman/listinfo/gdal-dev, https://www.osgeo.org/service-providers/
 
+@VMDK_gdal@
 @QUICKSTART_gdal@
 
 .. presentation-note

@@ -76,6 +76,7 @@ Details
 **API Interfaces:** Java
 
 
+@VMDK_josm@
 @QUICKSTART_josm@
  
 .. presentation-note

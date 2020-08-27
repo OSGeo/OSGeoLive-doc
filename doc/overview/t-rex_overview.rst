@@ -42,6 +42,7 @@ Details
 
   **Support:** https://github.com/t-rex-tileserver/t-rex/
 
+@VMDK_t-rex@
 @QUICKSTART_t-rex@
 
 .. presentation-note

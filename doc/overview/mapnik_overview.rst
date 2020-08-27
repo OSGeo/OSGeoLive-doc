@@ -48,6 +48,7 @@ Details
 
 **API Interfaces:** C++, Python
 
+@VMDK_mapnik@
 @QUICKSTART_mapnik@
 
 .. presentation-note

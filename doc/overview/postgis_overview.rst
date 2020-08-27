@@ -110,6 +110,7 @@ Details
 **Support:** |SUPPORT|
 
 
+@VMDK_postgis@
 @QUICKSTART_postgis@
 
 .. presentation-note
