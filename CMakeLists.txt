@@ -270,21 +270,31 @@ MACRO(INSERT_INTO_MAP_SCREENSHOT _KEY _TARGET)
 ")
 ENDMACRO(INSERT_INTO_MAP_SCREENSHOT)
 
-
 MACRO(INSERT_INTO_MAP_QUICK _KEY _TARGET)
     if ("${_TARGET}" STREQUAL "Y")
         set(_QUICK "
 Quickstart
 --------------------------------------------------------------------------------
-        
+
 * :doc:`Quickstart documentation <../quickstart/${_KEY}_quickstart>`
 ")
     else()
         set(_QUICK  " ")
     endif()
-      
+
     SET("QUICKSTART_${_KEY}" "${_QUICK}")
 ENDMACRO(INSERT_INTO_MAP_QUICK)
+
+
+MACRO(INSERT_INTO_MAP_VMDK _KEY _TARGET)
+    if ("${_TARGET}" STREQUAL "Y")
+        set(_NOTE  " ")
+    else()
+	set(_NOTE ".. note:: This  project is only included on the OSGeoLive virtual machine disk (VMDK)")
+    endif()
+
+    SET("VMDK_${_KEY}" "${_NOTE}")
+ENDMACRO(INSERT_INTO_MAP_VMDK)
 
 
 MACRO(INSERT_INTO_MAP_NAME _KEY _TARGET)
@@ -297,7 +307,7 @@ ENDMACRO()
 
 set (OSGeoLiveDoc_PROJECTS_NAMES "")
 set (OSGeoLiveDoc_PROJECTS_LOGOS "")
-set (OSGeoLiveDoc_CONFIGURATION_REGEXP "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|.*\\|.*\\|.*\\|.*\\|(.*)\\|(.*)\\|(.*)")
+set (OSGeoLiveDoc_CONFIGURATION_REGEXP "^(.*)\\|(.*)\\|(.*)\\|(.*)\\|(.*)\\|.*\\|.*\\|.*\\|.*\\|(.*)\\|(.*)\\|(.*)\\|(.*)")
 
 foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     #Skipping comments
@@ -317,6 +327,7 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\6" url_target ${line})
     string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\7" osgeo_kind ${line})
     string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\8" project_name ${line})
+    string(REGEX REPLACE "${OSGeoLiveDoc_CONFIGURATION_REGEXP}" "\\9" on_iso ${line})
 
     string(STRIP "${wantDoc}" wantDoc)
     string(STRIP "${project_page}" project_page)
@@ -335,6 +346,7 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     string(STRIP "${url_target}" url_target)
     string(STRIP "${osgeo_kind}" osgeo_kind)
     string(STRIP "${project_name}" project_name)
+    string(STRIP "${on_iso}" on_iso)
 
     if (OSGeoLiveDoc_DEBUG)
         message(STATUS "wantDoc:${wantDoc} \tpage:${project_page} \tversion:${project_version} \twant_quickstart:${want_quickstart} \twant_overview:${want_overview}\turl:${url_target} \tkind:${osgeo_kind}\tname:${project_name}")
@@ -350,6 +362,7 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     INSERT_INTO_MAP_NAME("${project_page}" "${project_name}")
     INSERT_INTO_MAP_WEB("${project_page}" "${url_target}")
     INSERT_INTO_MAP_QUICK("${project_page}" "${want_quickstart}")
+    INSERT_INTO_MAP_VMDK("${project_page}" "${on_iso}")
 
 
     if ("${want_quickstart}" MATCHES "Y")
