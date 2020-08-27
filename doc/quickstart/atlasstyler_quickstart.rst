@@ -4,6 +4,9 @@
 
 @LOGO_atlasstyler@
 @OSGEO_KIND_atlasstyler@
+@VMDK_atlasstyler@
+
+
 
 ********************************************************************************
 @NAME_atlasstyler@ Quickstart

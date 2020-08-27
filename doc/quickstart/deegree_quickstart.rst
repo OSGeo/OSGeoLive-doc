@@ -7,6 +7,9 @@
 
 @LOGO_deegree@
 @OSGEO_KIND_deegree@
+@VMDK_deegree@
+
+
 
 ********************************************************************************
 @NAME_deegree@ Quickstart

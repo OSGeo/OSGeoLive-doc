@@ -5,6 +5,9 @@
 
 @LOGO_geoext@
 @OSGEO_KIND_geoext@
+@VMDK_geoext@
+
+
 
 ********************************************************************************
 @NAME_geoext@ Quickstart

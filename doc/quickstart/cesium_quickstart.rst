@@ -7,6 +7,9 @@
 
 @LOGO_cesium@
 @OSGEO_KIND_cesium@
+@VMDK_cesium@
+
+
 
 ********************************************************************************
 @NAME_cesium@ Quickstart

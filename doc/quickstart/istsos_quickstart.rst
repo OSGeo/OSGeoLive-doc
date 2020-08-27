@@ -6,6 +6,9 @@
 
 @LOGO_istsos@
 @OSGEO_KIND_istsos@
+@VMDK_istsos@
+
+
 
 ********************************************************************************
 @NAME_istsos@ Quickstart

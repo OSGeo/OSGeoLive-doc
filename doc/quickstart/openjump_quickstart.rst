@@ -8,6 +8,9 @@
 
 @LOGO_openjump@
 @OSGEO_KIND_openjump@
+@VMDK_openjump@
+
+
 
 ********************************************************************************
 @NAME_openjump@ Quickstart

@@ -4,6 +4,9 @@
 
 @LOGO_geopublisher@
 @OSGEO_KIND_geopublisher@
+@VMDK_geopublisher@
+
+
 
 ********************************************************************************
 @NAME_geopublisher@ Quickstart
