@@ -27,9 +27,6 @@ install:
   - pip install sphinxjp.themes.revealjs
   - sudo cpanm -f -n Text::SimpleTable::AutoWidth
 
-env:
-  - LINKCHECK=ON
-  - LINKCHECK=OFF    
 
 script: 
   - mkdir build
