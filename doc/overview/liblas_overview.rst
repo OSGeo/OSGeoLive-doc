@@ -59,6 +59,7 @@ Details
 .. _`OSGeo4W`: https://trac.osgeo.org/osgeo4w/
 .. _`Wikipedia`: http://en.wikipedia.org/wiki/LIDAR
 
+@VMDK_liblas@
 @QUICKSTART_liblas@
 
 .. presentation-note

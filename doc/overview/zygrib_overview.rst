@@ -42,6 +42,7 @@ Details
 **Support:** https://zygrib.org/forum/
 
 
+@VMDK_zygrib@
 @QUICKSTART_zygrib@
 
 .. presentation-note

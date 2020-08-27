@@ -72,5 +72,6 @@ Details
 
 **Support:** `Support <http://www.sahanafoundation.org/support>`_, `Mailing lists <http://wiki.sahanafoundation.org/doku.php?id=community:mailing_lists>`_,  `Chat <http://wiki.sahanafoundation.org/doku.php/community:chat>`_.
 
+@VMDK_sahana@
 @QUICKSTART_sahana@
 

@@ -101,6 +101,7 @@ Details
 
 **Support:** https://groups.google.com/forum/#!forum/leaflet-js
 
+@VMDK_leaflet@
 @QUICKSTART_leaflet@
 
 .. presentation-note

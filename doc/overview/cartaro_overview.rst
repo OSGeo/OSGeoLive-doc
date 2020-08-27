@@ -68,5 +68,6 @@ Details
 
 **Support:** http://www.geops.de
 
+@VMDK_cartaro@
 @QUICKSTART_cartaro@
 

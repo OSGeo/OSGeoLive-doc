@@ -54,6 +54,7 @@ Details
 
 **Support:** http://gpsdrive.de/support.shtml
 
+@VMDK_gpsdrive@
 @QUICKSTART_gpsdrive@
 
 

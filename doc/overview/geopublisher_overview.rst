@@ -62,5 +62,6 @@ Details
 **Support:** http://www.wikisquare.de
 
 
+@VMDK_geopublisher@
 @QUICKSTART_geopublisher@
 
