@@ -6,6 +6,9 @@
 
 @LOGO_geomoose@
 @OSGEO_KIND_geomoose@
+@VMDK_geomoose@
+
+
 
 ********************************************************************************
 @NAME_geomoose@ Quickstart

@@ -4,6 +4,9 @@
 
 @LOGO_sahana@
 @OSGEO_KIND_sahana@
+@VMDK_sahana@
+
+
 
 ********************************************************************************
 @NAME_sahana@ Quickstart

@@ -17,6 +17,9 @@
 
 @LOGO_cartaro@
 @OSGEO_KIND_cartaro@
+@VMDK_cartaro@
+
+
 
 ********************************************************************************
 @NAME_cartaro@ Quickstart

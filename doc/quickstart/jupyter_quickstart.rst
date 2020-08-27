@@ -6,6 +6,9 @@
 
 @LOGO_jupyter@
 @OSGEO_KIND_jupyter@
+@VMDK_jupyter@
+
+
 
 ********************************************************************************
 @NAME_jupyter@ Quickstart

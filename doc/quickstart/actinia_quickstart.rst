@@ -7,6 +7,9 @@
 
 @LOGO_actinia@
 @OSGEO_KIND_actinia@
+@VMDK_actinia@
+
+
 
 ********************************************************************************
 @NAME_actinia@ Quickstart

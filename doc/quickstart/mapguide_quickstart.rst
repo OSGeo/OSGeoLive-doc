@@ -4,6 +4,9 @@
 
 @LOGO_mapguide@
 @OSGEO_KIND_mapguide@
+@VMDK_mapguide@
+
+
 
 @NAME_mapguide@ Quickstart
 ================================================================================

@@ -6,6 +6,9 @@
 
 @LOGO_gdal@
 @OSGEO_KIND_gdal@
+@VMDK_gdal@
+
+
 
 ********************************************************************************
 @NAME_gdal@ Quickstart
