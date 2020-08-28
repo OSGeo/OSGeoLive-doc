@@ -19,6 +19,7 @@ Y | mapbender | 3.0.8.1 | Y | Y | Browser Facing GIS | | Geoportal Framework | m
 Y | geoext | 3.1.0 | Y | Y | Browser Facing GIS | | JavaScript Toolkit Web Mapping | geoext3 | https://geoext.github.io/geoext3 | | GeoExt
 Y | geomoose | 3.3.1 | Y | Y | Browser Facing GIS | | Web GIS Portal | geomoose | https://www.geomoose.org | OSGeo_project | GeoMoose
 Y | geonode | 2.10.0 | Y | Y | Browser Facing GIS | | Geospatial Content Management System | geonode | https://geonode.org | OSGeo_project | GeoNode
+Y | geostyler | 5.4.0 | Y | Y | Browser Facing GIS | | Generic Styler For Geodata | GeoStyler | https://geostyler.org | OSGeo_community | GeoStyler
 ###################### | | | | | | | | | | | 
 #   Web Services | | | | | | | | | | | 
 ###################### | | | | | | | | | | | 
