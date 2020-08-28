@@ -19,7 +19,9 @@ jobs:
 
     steps:
       - name: print language
-        run: echo "${{ env.LANG_MSG }}"
+        run: |
+          echo "Language:"
+          echo "${{ env.LANG_MSG }}"
 
       - name: Install python
         if: contains(github.event.head_commit.message, env.LANG_MSG) || matrix.language == 'en'
