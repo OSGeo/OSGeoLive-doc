@@ -12,7 +12,7 @@ jobs:
     strategy:
         fail-fast: false
         matrix:
-          language: [de,en,es,fi,fr,hu,ja,it]
+          language: [de, en,es,fi,fr,hu,ja,it]
 
     env:
         LANG_MSG: "[${{ matrix.language }}]"
