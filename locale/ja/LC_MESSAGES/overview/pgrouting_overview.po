@@ -36,8 +36,9 @@ msgid ""
 "<https://www.postgresql.org>`_ geospatial database to provide geospatial "
 "routing and other network analysis functionality."
 msgstr ""
-"pgRoutingは :doc:`PostGIS `/`PostgreSQL <https://www.postgresql.org>`_  "
-"地理空間データベースを拡張して、地理空間ルーティングやその他のネットワーク分析機能を提供します。"
+"pgRouting は地理空間における経路探索や他のネットワーク解析機能を提供するために :doc:`PostGIS "
+"<postgis_overview>`/`PostgreSQL <https://www.postgresql.org>`_ "
+"地理空間データベースを拡張します。"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:25
 msgid "Advantages of the database routing approach are:"

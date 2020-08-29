@@ -147,7 +147,7 @@ msgid ""
 "database."
 msgstr ""
 "JOSM は WMS レイヤーを閲覧し、 `OSM API "
-"<https://wiki.openstreetmap.org/wiki/API_v0.6>`_を使用してOSMデータベースと通信します"
+"<https://wiki.openstreetmap.org/wiki/API_v0.6>`_ を使用してOSMデータベースと通信します"
 
 #: ../../build/doc/overview/josm_overview.rst:73
 msgid "Details"
