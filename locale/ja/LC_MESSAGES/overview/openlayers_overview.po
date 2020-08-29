@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -151,8 +152,8 @@ msgid "Details"
 msgstr "詳細"
 
 #: ../../build/doc/overview/openlayers_overview.rst:76
-msgid "**Website:** http://openlayers.org"
-msgstr "**Webサイト:** http://openlayers.org"
+msgid "**Website:** https://openlayers.org/"
+msgstr "**Webサイト:** https://openlayers.org/"
 
 #: ../../build/doc/overview/openlayers_overview.rst:78
 msgid "**License:** 2-clause BSD License (aka FreeBSD License)"
