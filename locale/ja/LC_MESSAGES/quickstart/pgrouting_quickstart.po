@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,6 +32,9 @@ msgid ""
 "functionality to :doc:`PostGIS <../overview/postgis_overview>`/`PostgreSQL "
 "<https://www.postgresql.org>`_ databases."
 msgstr ""
+"pgRoutingは、ルーティングおよびその他のネットワーク分析機能を :doc:`PostGIS "
+"<../overview/postgis_overview>`/`PostgreSQL <https://www.postgresql.org>`_ "
+"データベースに追加する拡張機能です。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:23
 msgid ""
@@ -89,12 +93,14 @@ msgid ""
 "osm2pgrouting is a command-line tool for loading .osm files into pgRouting "
 "compatible format. Here is how you use osm2pgrouting version 2.1.0+."
 msgstr ""
+"osm2pgroutingは、.osmファイルをpgRouting互換形式にロードするためのコマンドラインツールです。 これがosm2pgrouting"
+" バージョン2.1.0+ の使い方です。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:70
 msgid ""
 "Open a new terminal window to verify the version of osm2pgrouting you have "
 "installed. Should read 2.1 or higher."
-msgstr ""
+msgstr "新しいターミナルウィンドウを開いて、インストールしたosm2pgroutingのバージョンを確認します。2.1以上を読む必要があります。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:76
 msgid "Output shows:"
@@ -102,7 +108,7 @@ msgstr "出力が表示されます:"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:82
 msgid "Now load the data from osm file:"
-msgstr ""
+msgstr "次に、osm ファイルからデータをロードします。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:92
 msgid "Output should be something like:"
@@ -154,6 +160,9 @@ msgid ""
 "to alias them so resulting pgr_dijkstra query columns are named source and "
 "target."
 msgstr ""
+"注：SQLステートメントには、常にフィールド名 `id、source、target、およびcost` が必要です。 フィールド `source_osm`"
+" と `target_osm` を使用しているため、それらにエイリアスを設定して、結果の pgr_dijkstra クエリ列に source と "
+"target という名前を付ける必要があります。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:202
 msgid "Output is:"
@@ -200,6 +209,8 @@ msgid ""
 " DB Manager -> DB Manager``. Select the SQL Window icon and cut and paste "
 "the above pgRouting Query."
 msgstr ""
+"QGISのDbManager拡張機能を使用するには、QGISを開き、``データベース-> DBマネージャー-> DBマネージャー`` に移動します。 "
+"SQLウィンドウアイコンを選択し、上記のpgRoutingクエリをカットアンドペーストします。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:264
 msgid "Run the Dijkstra shortest path function with considering direction."
@@ -226,15 +237,17 @@ msgstr "次のステップ"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:287
 msgid ""
-"**pgRouting Website** - Visit the project website https://www.pgrouting.org "
-"to learn more about pgRouting."
+"**pgRouting Website** - Visit the project website https://pgrouting.org to "
+"learn more about pgRouting."
 msgstr ""
+"**pgRouting Webサイト** - プロジェクトのウェブサイト https://pgrouting.org で、pgRouting "
+"についてさらに学ぶことができます。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:288
 msgid ""
 "**pgRouting Documentation** - Find the most recent documentation in "
 "https://docs.pgrouting.org."
-msgstr ""
+msgstr "**pgRoutingドキュメント**- https://docs.pgrouting.org で最新のドキュメントを検索してください。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:289
 msgid ""
@@ -242,6 +255,9 @@ msgid ""
 " and OpenStreetMap road data\"` is available in: "
 "https://workshop.pgrouting.org."
 msgstr ""
+"**pgRouting Workshop** -ワークショップ "
+"`\"pgRoutingツールとOpenStreetMap道路データを使用したFOSS4Gルーティング \"` "
+"は、https://workshop.pgrouting.org で入手できます。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:290
 msgid ""

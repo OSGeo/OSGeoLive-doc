@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:11+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,11 +33,11 @@ msgstr "GIS ツール"
 #: ../../build/doc/overview/pgrouting_overview.rst:23
 msgid ""
 "pgRouting extends the :doc:`PostGIS <postgis_overview>`/`PostgreSQL "
-"<http://postgresql.org>`_ geospatial database to provide geospatial routing "
-"and other network analysis functionality."
+"<https://www.postgresql.org>`_ geospatial database to provide geospatial "
+"routing and other network analysis functionality."
 msgstr ""
-"pgRouting は地理空間における経路探索や他のネットワーク解析機能を提供するために :doc:`PostGIS "
-"<postgis_overview>`/`PostgreSQL <http://postgresql.org>`_ 地理空間データベースを拡張します。"
+"pgRoutingは :doc:`PostGIS `/`PostgreSQL <https://www.postgresql.org>`_  "
+"地理空間データベースを拡張して、地理空間ルーティングやその他のネットワーク分析機能を提供します。"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:25
 msgid "Advantages of the database routing approach are:"
@@ -135,8 +136,8 @@ msgid "Details"
 msgstr "詳細"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:67
-msgid "**Website:** http://www.pgrouting.org"
-msgstr "**Webサイト:** http://www.pgrouting.org"
+msgid "**Website:** https://pgrouting.org/"
+msgstr "**Webサイト:** https://pgrouting.org/"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:69
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -155,8 +156,8 @@ msgid "**API Interfaces:** SQL"
 msgstr "**API インターフェイス:** SQL"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:77
-msgid "**Commercial Support:** http://www.pgrouting.org/support.html"
-msgstr "**商用サポート:** http://www.pgrouting.org/support.html"
+msgid "**Commercial Support:** https://pgrouting.org/support.html"
+msgstr "**商用サポート:** https://pgrouting.org/support.html"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:82
 msgid "Quickstart"
