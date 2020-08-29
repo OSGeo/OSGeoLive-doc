@@ -23,11 +23,12 @@ jobs:
       - name : GITHUB CONTEXT
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
-        run: echo "$GITHUB_CONTEXT"
+        run: |
+           echo "$GITHUB_CONTEXT"
+           git log --no-merges -1 --oneline
 
       - name: get commit message
         run: |
-           git log --no-merges -1 --oneline
            echo ::set-env name=commitmsg::$(git log --format=%B -n 1 ${{ github.event.after }})
       - name: show commit message
         run : echo $commitmsg
