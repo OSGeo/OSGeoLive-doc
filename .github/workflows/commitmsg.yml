@@ -5,9 +5,10 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 3
+      - name: fetch repo
+        uses: actions/checkout@v2
+          with:
+            fetch-depth: 1
 
       - name : GITHUB CONTEXT
         env:
