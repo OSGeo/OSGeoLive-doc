@@ -1,19 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Luca Delucchi <lucadeluge@gmail.com>, 2018
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2018\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -126,8 +127,8 @@ msgid "Details"
 msgstr "Dettagli"
 
 #: ../../build/doc/overview/geomajas_overview.rst:53
-msgid "**Website:** http://www.geomajas.org/"
-msgstr "**Sito web:** http://www.geomajas.org/"
+msgid "**Website:** http://www.geomajas.org"
+msgstr "**Sito web:** http://www.geomajas.org"
 
 #: ../../build/doc/overview/geomajas_overview.rst:55
 msgid "**Licence:** AGPL"
@@ -146,8 +147,8 @@ msgid "**API Interfaces:** Java and Javascript"
 msgstr "**Interfacce API:** Java e Javascript"
 
 #: ../../build/doc/overview/geomajas_overview.rst:63
-msgid "**Support:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089"
-msgstr "**Supporto:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089"
+msgid "**Support:** https://www.osgeo.org/service-providers"
+msgstr "**Supporto:** https://www.osgeo.org/service-providers"
 
 #: ../../build/doc/overview/geomajas_overview.rst:68
 msgid "Quickstart"

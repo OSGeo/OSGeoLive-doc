@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2018, OSGeo
+# Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # pibinko <pibinko@gmail.com>, 2018
 # Luca Delucchi <lucadeluge@gmail.com>, 2019
-# Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-18 16:31-0500\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@georepublic.de>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,10 +58,10 @@ msgstr "Visualizzazione geospaziale dinamica:"
 #: ../../build/doc/overview/cesium_overview.rst:33
 msgid ""
 "Create data-driven, time-dynamic scenes with `CZML "
-"<https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide>`_."
+"<https://github.com/CesiumGS/cesium/wiki/CZML-Guide>`_."
 msgstr ""
 "Creazione di scene dinamiche basate su dati con `CZML "
-"<https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide>`_."
+"<https://github.com/CesiumGS/cesium/wiki/CZML-Guide>`_."
 
 #: ../../build/doc/overview/cesium_overview.rst:34
 msgid "Visualize high-resolution worldwide terrain."
@@ -84,11 +84,9 @@ msgid "Draw 3D models using COLLADA and glTF."
 msgstr "Renderizza modelli 3D utilizzando COLLADA e glTF."
 
 #: ../../build/doc/overview/cesium_overview.rst:38
-msgid ""
-"Use `plugins <http://cesiumjs.org/plugins/index.html>`_ to extend Cesium."
+msgid "Use `plugins <https://cesium.com/cesiumjs>`_ to extend Cesium."
 msgstr ""
-"Usate i `plugins <http://cesiumjs.org/plugins/index.html>`_ per estendere "
-"Cesium."
+"Usate i `plugins <https://cesium.com/cesiumjs>`_ per estendere Cesium."
 
 #: ../../build/doc/overview/cesium_overview.rst:40
 msgid "Built for Performance and Precision:"
@@ -159,8 +157,8 @@ msgid "Details"
 msgstr "Dettagli"
 
 #: ../../build/doc/overview/cesium_overview.rst:59
-msgid "**Website:** http://cesiumjs.org"
-msgstr "**Sito web:** http://cesiumjs.org"
+msgid "**Website:** https://cesium.com/"
+msgstr "**Sito web:** https://cesium.com/"
 
 #: ../../build/doc/overview/cesium_overview.rst:61
 msgid "**Licence:** Apache 2.0 license"
@@ -179,8 +177,12 @@ msgstr ""
 "un browser che supporta WebGL"
 
 #: ../../build/doc/overview/cesium_overview.rst:67
-msgid "**Community Support:** Forum at https://cesiumjs.org/forum/"
-msgstr "**Supporto alla comunità:** Forum su https://cesiumjs.org/forum/"
+msgid ""
+"**Community Support:** Forum at "
+"https://groups.google.com/forum/?hl=en#!forum/cesium-dev"
+msgstr ""
+"**Supporto alla comunità:** Forum su "
+"https://groups.google.com/forum/?hl=en#!forum/cesium-dev"
 
 #: ../../build/doc/overview/cesium_overview.rst:71
 msgid "Quickstart"
