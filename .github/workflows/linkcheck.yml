@@ -12,26 +12,39 @@ jobs:
     strategy:
         fail-fast: false
         matrix:
-          language: [de, en, es, fi, fr, hu, ja, it]
+          language: [de, en,es,fi,fr,hu,ja,it]
 
     env:
         LANG_MSG: "[${{ matrix.language }}]"
 
     steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+
+      - name: get commit message
+        run: |
+           echo ::set-env name=commitmsg::$(git log --format=%B -n 2)
+
+      - name: show commit message
+        run : echo $commitmsg
+
+      - name: print language
+        run: |
+          echo "Language:"
+          echo "${{ env.LANG_MSG }}"
+          echo "${{ github.event.head_commit.message }}"
+          echo "${{ env.commitmsg }}"
 
       - name: Install python
-        if: contains(github.event.head_commit.message, env.LANG_MSG) || matrix.language == 'en'
+        if: contains(env.commitmsg, env.LANG_MSG) || matrix.language == 'en'
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
 
-      - name: Checkout repository
-        if: contains(github.event.head_commit.message, env.LANG_MSG) || matrix.language == 'en'
-        uses: actions/checkout@v2
-
 
       - name: Install dependencies
-        if: contains(github.event.head_commit.message, env.LANG_MSG) || matrix.language == 'en'
+        if: contains(env.commitmsg, env.LANG_MSG) || matrix.language == 'en'
         run: |
           sudo apt-get update
           sudo apt-get install -y \
@@ -41,14 +54,14 @@ jobs:
           pip list
 
       - name: Configure link checks
-        if: contains(github.event.head_commit.message, env.LANG_MSG) || matrix.language == 'en'
+        if: contains(env.commitmsg, env.LANG_MSG) || matrix.language == 'en'
         run: |
           mkdir build
           cd build
           cmake -DLINKCHECK=ON -DDE=ON -DES=ON -DFI=ON -DFR=ON -DHU=ON -DJA=ON -DIT=ON ..
 
       - name: Check Links languages
-        if: contains(github.event.head_commit.message, env.LANG_MSG) || matrix.language == 'en'
+        if: contains(env.commitmsg, env.LANG_MSG) || matrix.language == 'en'
         run: |
           cd build
           make linkcheck-${{ matrix.language }}
