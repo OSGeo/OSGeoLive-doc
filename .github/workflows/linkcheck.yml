@@ -18,8 +18,7 @@ jobs:
         LANG_MSG: "[${{ matrix.language }}]"
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      uses: actions/checkout@v2
 
       - name : GITHUB CONTEXT
         env:
@@ -28,7 +27,7 @@ jobs:
 
       - name: get commit message
         run: |
-           echo "$(git log --name-status HEAD^..HEAD)"
+           echo "$(git log -n 1 ${{ github.event.after }}"
            echo ::set-env name=commitmsg::$(git log --format=%B -n 1 ${{ github.event.after }})
       - name: show commit message
         run : echo $commitmsg
