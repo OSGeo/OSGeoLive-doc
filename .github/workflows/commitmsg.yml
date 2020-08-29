@@ -17,7 +17,8 @@ jobs:
       - name: get commit message
         run: |
            git log -n 2
-           #echo ::set-env name=commitmsg::$(git log --format=%B -n 1 ${{ github.event.after }})
+           echo ::set-env name=commitmsg::$(git log --format=%B -n 2)
+
       - name: show commit message
         run : echo $commitmsg
 
