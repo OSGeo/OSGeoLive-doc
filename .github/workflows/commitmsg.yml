@@ -8,7 +8,7 @@ jobs:
       - name: fetch repo
         uses: actions/checkout@v2
           with:
-            fetch-depth: 1
+            fetch-depth: 2
 
       - name : GITHUB CONTEXT
         env:
@@ -17,7 +17,7 @@ jobs:
 
       - name: get commit message
         run: |
-           git log
+           git log -n 2
            #echo ::set-env name=commitmsg::$(git log --format=%B -n 1 ${{ github.event.after }})
       - name: show commit message
         run : echo $commitmsg
