@@ -256,4 +256,4 @@ More documentation can be found on the SAGA website:
 * @WEB_saga@
 and specifically in the documentation archive:
 * http://www.saga-gis.org/en/about/references.html 
-* https://sourceforge.net/projects/saga-gis/files/SAGA%20-%20Documentation/ 
+* https://sourceforge.net/p/saga-gis/wiki/Documentation/
