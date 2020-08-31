@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Luca Delucchi <lucadeluge@gmail.com>, 2018
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2018\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,12 +33,10 @@ msgstr "Web Processing Service"
 #: ../../build/doc/overview/pywps_overview.rst:23
 msgid ""
 "PyWPS provides web access to custom geospatial operations (referred to as "
-"Processes) via the `Web Processing Service (WPS) "
-"<http://www.opengeospatial.org/standards/wps>`__ standard."
+"Processes) via the |WPS| standard."
 msgstr ""
 "PyWPS fornisce accesso web per operazioni spaziali personalizzabili "
-"(denominati con Processi)  attraverso lo standard `Web Processing Service "
-"(WPS) <http://www.opengeospatial.org/standards/wps>`_"
+"(denominati con Processi)  attraverso lo standard  |WPS|"
 
 #: ../../build/doc/overview/pywps_overview.rst:26
 msgid ""
@@ -114,8 +113,8 @@ msgid "Details"
 msgstr "Dettagli"
 
 #: ../../build/doc/overview/pywps_overview.rst:61
-msgid "**Website:** http://pywps.org"
-msgstr "**Sito web:** http://pywps.org"
+msgid "**Website:** https://pywps.org/"
+msgstr "**Sito web:** https://pywps.org/"
 
 #: ../../build/doc/overview/pywps_overview.rst:63
 msgid "**Licence:** GPL"
@@ -134,8 +133,8 @@ msgid "**API Interfaces:** Python"
 msgstr "**Interfacce API:** Python"
 
 #: ../../build/doc/overview/pywps_overview.rst:71
-msgid "**Support:** http://pywps.org/community/#professional-support"
-msgstr "**Supporto:** http://pywps.org/community/#professional-support"
+msgid "**Support:** https://pywps.org/community/#professional-support"
+msgstr "**Supporto:** https://pywps.org/community/#professional-support"
 
 #: ../../build/doc/overview/pywps_overview.rst:75
 msgid "Quickstart"
