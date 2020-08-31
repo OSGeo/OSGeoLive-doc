@@ -6,15 +6,16 @@
 # Translators:
 # pibinko <pibinko@gmail.com>, 2018
 # Luca Delucchi <lucadeluge@gmail.com>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-08-19 12:21-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,6 +35,12 @@ msgid ""
 " as latitude, longitude and elevation). Different systems are used to "
 "represent the tridimensional earth on a flat, bidimensional map."
 msgstr ""
+"Proj4 è una libreria che offre metodi per trasformare dati tra sistemi di "
+"riferimento di coordinate differenti. Un sistema di riferimento di "
+"coordinate geografiche consente a tutti i punti sulla terra di essere "
+"descritti come insiemte di coordinate (quali latitudine, longitudine e "
+"quota). Sistemi diversi vengono usati per rappresentare la terra "
+"tridimensionale su una mappa piatta, a due dimensioni."
 
 #: ../../build/doc/overview/proj4_overview.rst:24
 msgid ""
@@ -50,19 +57,19 @@ msgstr ""
 #: ../../build/doc/overview/proj4_overview.rst:26
 msgid ""
 "Proj4 has been translated from C to `other languages "
-"<http://trac.osgeo.org/metacrs/wiki>`.  These sub-projects include: These "
+"<https://trac.osgeo.org/metacrs/wiki>`.  These sub-projects include: These "
 "tools include: * Proj4js (JavaScript) - used in :doc:`OpenLayers "
 "<openlayers_overview>`. * CS-Map (C++) - used in MapGuide. * "
 "GeoTIFF/libgeotiff (C++). * Proj4J (Java). * `SpatialReference.org "
-"<http://spatialreference.org/>`_  - website to retrieve coordinate system "
+"<https://spatialreference.org/>`_  - website to retrieve coordinate system "
 "definitions (obsolete)."
 msgstr ""
 "Proj4  è stato tradotto dal C in `altri linguaggi "
-"<http://trac.osgeo.org/metacrs/wiki>`.  Questi sottoprogetti includono:  * "
+"<https://trac.osgeo.org/metacrs/wiki>`.  Questi sottoprogetti includono:  * "
 "Proj4js (JavaScript) - usato in :doc:`OpenLayers <openlayers_overview>`. * "
 "CS-Map (C++) - usato in MapGuide. * GeoTIFF/libgeotiff (C++). * Proj4J "
-"(Java). * Il sito `SpatialReference.org <http://spatialreference.org/>`_  - "
-"per reperire definizioni dei sistemi di coordinate (obsoleto)."
+"(Java). * Il sito `SpatialReference.org <https://spatialreference.org/>`_  -"
+" per reperire definizioni dei sistemi di coordinate (obsoleto)."
 
 #: ../../build/doc/overview/proj4_overview.rst:41
 msgid "Core Features"
@@ -91,10 +98,10 @@ msgstr "Standard implementati"
 #: ../../build/doc/overview/proj4_overview.rst:51
 msgid ""
 "Proj4 uses coordinate system definitions defined by the `European Petroleum "
-"Survey Group (EPSG) <http://www.epsg.org/>`. Well Known Text (WKT) format."
+"Survey Group (EPSG) <https://www.epsg.org/>`. Well Known Text (WKT) format."
 msgstr ""
 "Proj4 use le definizioni del sistema di coordinate forniti dall'`European "
-"Petroleum Survey Group (EPSG) <http://www.epsg.org/>`. Formato Well Known "
+"Petroleum Survey Group (EPSG) <https://www.epsg.org/>`. Formato Well Known "
 "Text (WKT)."
 
 #: ../../build/doc/overview/proj4_overview.rst:57
@@ -102,16 +109,16 @@ msgid "Details"
 msgstr "Dettagli"
 
 #: ../../build/doc/overview/proj4_overview.rst:59
-msgid "**Website:**  http://proj4.org/"
-msgstr "**Sito web:**  http://proj4.org/"
+msgid "**Website:** https://proj4.org/index.html"
+msgstr "**Sito web:**  https://proj4.org/index.html"
 
 #: ../../build/doc/overview/proj4_overview.rst:61
 msgid ""
 "**Licence:** `X/MIT style Open Source license "
-"<http://trac.osgeo.org/proj/wiki/WikiStart#License>`_"
+"<https://trac.osgeo.org/proj4j#License>`_"
 msgstr ""
 "**Licenza:** `Licenza Open Source sullo stile di X/MIT "
-"<http://trac.osgeo.org/proj/wiki/WikiStart#License>`_"
+"<https://trac.osgeo.org/proj4j#License>`_"
 
 #: ../../build/doc/overview/proj4_overview.rst:63
 msgid "**Software Version:** 4.9.2 (stable)"
@@ -126,8 +133,8 @@ msgid "**API Interfaces:** C, C++, Python, Java, Ruby"
 msgstr "**Interfacce API:** C, C++, Python, Java, Ruby"
 
 #: ../../build/doc/overview/proj4_overview.rst:69
-msgid "**Support:** http://lists.maptools.org/mailman/listinfo/proj"
-msgstr "**Supporto:** http://lists.maptools.org/mailman/listinfo/proj"
+msgid "**Support:** https://lists.osgeo.org/mailman/listinfo/proj"
+msgstr "**Supporto:** https://lists.osgeo.org/mailman/listinfo/proj"
 
 #: ../../build/doc/overview/proj4_overview.rst:73
 msgid "Quickstart"
