@@ -5,15 +5,16 @@
 # 
 # Translators:
 # pibinko <pibinko@gmail.com>, 2018
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: pibinko <pibinko@gmail.com>, 2018\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,16 +33,17 @@ msgstr "Globo virtuale e atlante mondiale"
 #: ../../build/doc/overview/marble_overview.rst:23
 msgid ""
 "Marble is an open source KDE Education Project program similar to `NASA "
-"World Wind <http://worldwind.arc.nasa.gov/java/>`_ or Google Earth. Besides "
-"choosing any number of maps to view on your globe (including `OpenStreetMaps"
-" <http://www.osm.org>`_), you are encouraged to include a KDE Marble widget "
-"in your application."
+"World Wind <https://worldwind.arc.nasa.gov/java/>`_ or Google Earth. Besides"
+" choosing any number of maps to view on your globe (including "
+"`OpenStreetMaps <https://www.openstreetmap.org>`_), you are encouraged to "
+"include a KDE Marble widget in your application."
 msgstr ""
 "Marble è un programma open source parte del progetto educativo KDE Education"
-" Project, simile a `NASA World Wind <http://worldwind.arc.nasa.gov/java/>`_ "
-"o a Google Earth. A parte scegliere qualsiasi numero di mappe da "
-"visualizzare sul globo (compreso `OpenStreetMaps <http://www.osm.org>`_), "
-"siete invitati a includere un widget  KDE Marble nella vostra applicazione."
+" Project, simile a `NASA World Wind <https://worldwind.arc.nasa.gov/java/>`_"
+" o a Google Earth. A parte scegliere qualsiasi numero di mappe da "
+"visualizzare sul globo (compreso OpenStreetMaps "
+"<https://www.openstreetmap.org>`_), siete invitati a includere un widget  "
+"KDE Marble nella vostra applicazione."
 
 #: ../../build/doc/overview/marble_overview.rst:29
 msgid ""
@@ -157,16 +159,16 @@ msgstr ""
 "offline)"
 
 #: ../../build/doc/overview/marble_overview.rst:64
-msgid "`OpenStreetMap <http://www.osm.org>`_ integration"
-msgstr "Integrazione con `OpenStreetMap <http://www.osm.org>`_ "
+msgid "`OpenStreetMap <https://www.openstreetmap.org>`_ integration"
+msgstr "Integrazione con `OpenStreetMap <https://www.openstreetmap.org>`_ "
 
 #: ../../build/doc/overview/marble_overview.rst:68
 msgid "Details"
 msgstr "Dettagli"
 
 #: ../../build/doc/overview/marble_overview.rst:70
-msgid "**Website:** http://marble.kde.org"
-msgstr "**Sito web:** http://marble.kde.org"
+msgid "**Website:** https://marble.kde.org/"
+msgstr "**Sito web:** https://marble.kde.org/"
 
 #: ../../build/doc/overview/marble_overview.rst:72
 msgid "**Licence:** GNU Lesser General Public License (LGPL) version 2.1"
@@ -185,14 +187,14 @@ msgid "**API Interfaces:** Qt designer, C++, Python, D-BUS, Shell script"
 msgstr "**Interfacce API:** Qt designer, C++, Python, D-BUS, Shell script"
 
 #: ../../build/doc/overview/marble_overview.rst:80
-msgid "**Support:** http://techbase.kde.org/Projects/Marble"
-msgstr "**Supporto:** http://techbase.kde.org/Projects/Marble"
+msgid "**Support:** https://techbase.kde.org/Projects/Marble"
+msgstr "**Supporto:** https://techbase.kde.org/Projects/Marble"
 
 #: ../../build/doc/overview/marble_overview.rst:82
-msgid "**More Info:** http://www.slideshare.net/marbleglobe/marble-1-6en"
+msgid "**More Info:** https://www.slideshare.net/marbleglobe/marble-1-6en"
 msgstr ""
 "**Ulteriori informazioni:** "
-"http://www.slideshare.net/marbleglobe/marble-1-6en"
+"https://www.slideshare.net/marbleglobe/marble-1-6en"
 
 #: ../../build/doc/overview/marble_overview.rst:87
 msgid "Quickstart"

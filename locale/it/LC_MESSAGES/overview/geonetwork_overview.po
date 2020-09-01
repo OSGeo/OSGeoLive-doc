@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Luca Delucchi <lucadeluge@gmail.com>, 2018
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:07+0000\n"
-"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2018\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -144,8 +145,8 @@ msgid "Details"
 msgstr "Dettagli"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:59
-msgid "**Website:** http://geonetwork-opensource.org"
-msgstr "**Sito web:** http://geonetwork-opensource.org"
+msgid "**Website:** https://geonetwork-opensource.org"
+msgstr "**Sito web:** https://geonetwork-opensource.org"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:61
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -164,8 +165,8 @@ msgid "**API Interfaces:** Java"
 msgstr "**Interfacce API:** Java"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:69
-msgid "**Support:** http://www.osgeo.org/search_profile"
-msgstr "**Supporto:** http://www.osgeo.org/search_profile"
+msgid "**Support:** https://www.osgeo.org/service-providers"
+msgstr "**Supporto:** https://www.osgeo.org/service-providers"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:74
 msgid "Quickstart"
