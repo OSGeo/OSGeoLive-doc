@@ -47,7 +47,7 @@ t-rex comes with built-in viewers for inspecting generated vector tiles.
 
 Try also the other viewers. 
 
-.. note:: The Mapbox GL viewer and and Maputnik require WebGL support, which is probably not available when running OSGeoLive in a VM.
+.. note:: The Mapbox GL viewer and Maputnik require WebGL support, which is probably not available when running OSGeoLive in a VM.
 
 
 Cache seeding
