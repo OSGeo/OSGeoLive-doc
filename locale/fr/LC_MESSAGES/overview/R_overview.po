@@ -4,7 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Sant-anna <delazj@gmail.com>, 2017
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
 # Nicolas Roelandt (Personnel), 2020
 # 
@@ -13,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -79,7 +78,7 @@ msgid ""
 "proficient user when compared to software with a graphical user interface "
 "(GUI). Fortunately R is well documented on the web site which eases the "
 "learning process. Scripts are often used to automate processing steps but "
-"there are GUIs, the leading one being RStudio (http://www.rstudio.com)."
+"there are GUIs, the leading one being RStudio (https://rstudio.com)."
 msgstr ""
 "L'interface du cœur de R est une fenêtre de ligne de commande qui fournit "
 "une flexibilité et un contrôle  excellent mais tend à allonger le temps "
@@ -87,7 +86,8 @@ msgstr ""
 "avec une interface graphique. Heureusement, R est bien documenté sur le site"
 " web ce qui facilite le processus d'apprentissage. Les scripts sont souvent "
 "utilisés pour automatiser des étapes de traitement mais il y a des "
-"interfaces graphiques, la principale étant RStudio (http://www.rstudio.com)."
+"interfaces graphiques, la principale étant RStudio "
+"(https://www.rstudio.com)."
 
 #: ../../build/doc/overview/R_overview.rst:44
 msgid ""
@@ -175,8 +175,8 @@ msgid "Details"
 msgstr "Détails"
 
 #: ../../build/doc/overview/R_overview.rst:76
-msgid "**Website:** http://cran.r-project.org"
-msgstr "**Site web:** http://cran.r-project.org"
+msgid "**Website:** https://cran.r-project.org"
+msgstr "**Site web:** https://cran.r-project.org"
 
 #: ../../build/doc/overview/R_overview.rst:78
 msgid "**Licence:** GPL"
@@ -192,9 +192,9 @@ msgstr "**Plates-formes supportées:** Windows, Linux, Mac, Unix"
 
 #: ../../build/doc/overview/R_overview.rst:84
 msgid ""
-"**Community Support:** http://cran.r-project.org/web/views/Spatial.html"
+"**Community Support:** https://cran.r-project.org/web/views/Spatial.html"
 msgstr ""
-"**Support Communautaire:** http://cran.r-project.org/web/views/Spatial.html"
+"**Support Communautaire:** https://cran.r-project.org/web/views/Spatial.html"
 
 #: ../../build/doc/overview/R_overview.rst:86
 msgid ""
