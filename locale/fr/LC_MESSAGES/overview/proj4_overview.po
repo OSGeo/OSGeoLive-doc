@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
-# Nicolas Roelandt (Personnel), 2019
+# Nicolas Roelandt (Personnel), 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-08-19 12:21-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2019\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,19 +57,19 @@ msgstr ""
 #: ../../build/doc/overview/proj4_overview.rst:26
 msgid ""
 "Proj4 has been translated from C to `other languages "
-"<http://trac.osgeo.org/metacrs/wiki>`.  These sub-projects include: These "
+"<https://trac.osgeo.org/metacrs/wiki>`.  These sub-projects include: These "
 "tools include: * Proj4js (JavaScript) - used in :doc:`OpenLayers "
 "<openlayers_overview>`. * CS-Map (C++) - used in MapGuide. * "
 "GeoTIFF/libgeotiff (C++). * Proj4J (Java). * `SpatialReference.org "
-"<http://spatialreference.org/>`_  - website to retrieve coordinate system "
+"<https://spatialreference.org/>`_  - website to retrieve coordinate system "
 "definitions (obsolete)."
 msgstr ""
-"Proj4 a été traduit du C dans `un grand nombre d'autres languages "
-"<http://trac.osgeo.org/metacrs/wiki>`.  Ces outils incluent: * Proj4js "
+"Proj4 a été traduit du C dans `un grand nombre d'autres langages "
+"<https://trac.osgeo.org/metacrs/wiki>`.  Ces outils incluent: * Proj4js "
 "(JavaScript) - utilisé dans :doc:`OpenLayers <openlayers_overview>`. * CS-"
 "Map (C++) - utilisé dans MapGuide. * GeoTIFF/libgeotiff (C++). * Proj4J "
-"(Java). * `SpatialReference.org <http://spatialreference.org/>`_  - site web"
-" de références des définitions de systèmes de coordonnées (obsolète)."
+"(Java). * `SpatialReference.org <https://spatialreference.org/>`_  - site "
+"web de références des définitions de systèmes de coordonnées (obsolète)."
 
 #: ../../build/doc/overview/proj4_overview.rst:41
 msgid "Core Features"
@@ -98,10 +98,10 @@ msgstr "Standards implémentés"
 #: ../../build/doc/overview/proj4_overview.rst:51
 msgid ""
 "Proj4 uses coordinate system definitions defined by the `European Petroleum "
-"Survey Group (EPSG) <http://www.epsg.org/>`. Well Known Text (WKT) format."
+"Survey Group (EPSG) <https://www.epsg.org/>`. Well Known Text (WKT) format."
 msgstr ""
 "Proj4 utilise les définitions de système de coordonnées définies par le "
-"`European Petroleum Survey Group (EPSG) <http://www.epsg.org/>`_ au format "
+"`European Petroleum Survey Group (EPSG) <https://www.epsg.org/>`_ au format "
 "WKT (Well Known Text)."
 
 #: ../../build/doc/overview/proj4_overview.rst:57
@@ -109,16 +109,16 @@ msgid "Details"
 msgstr "Détails"
 
 #: ../../build/doc/overview/proj4_overview.rst:59
-msgid "**Website:**  http://proj4.org/"
-msgstr "**Site web:**  http://proj4.org/"
+msgid "**Website:** https://proj4.org/index.html"
+msgstr "**Site web:**  https://proj4.org/"
 
 #: ../../build/doc/overview/proj4_overview.rst:61
 msgid ""
 "**Licence:** `X/MIT style Open Source license "
-"<http://trac.osgeo.org/proj/wiki/WikiStart#License>`_"
+"<https://trac.osgeo.org/proj4j#License>`_"
 msgstr ""
-"**Licence:** `X/MIT style Open Source license "
-"<http://trac.osgeo.org/proj/wiki/WikiStart#License>`_"
+"**Licence:** `Licence Open Source style X/MIT "
+"<https://trac.osgeo.org/proj4j#License>`_"
 
 #: ../../build/doc/overview/proj4_overview.rst:63
 msgid "**Software Version:** 4.9.2 (stable)"
@@ -133,8 +133,8 @@ msgid "**API Interfaces:** C, C++, Python, Java, Ruby"
 msgstr "**Interfaces d'API:** C, C++, Python, Java, Ruby"
 
 #: ../../build/doc/overview/proj4_overview.rst:69
-msgid "**Support:** http://lists.maptools.org/mailman/listinfo/proj"
-msgstr "**Support:** http://lists.maptools.org/mailman/listinfo/proj"
+msgid "**Support:** https://lists.osgeo.org/mailman/listinfo/proj"
+msgstr "**Support:** https://lists.osgeo.org/mailman/listinfo/proj"
 
 #: ../../build/doc/overview/proj4_overview.rst:73
 msgid "Quickstart"

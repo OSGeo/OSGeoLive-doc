@@ -6,6 +6,7 @@
 # Translators:
 # MarieSilvestre, 2020
 # Nicolas Roelandt (Personnel), 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -284,7 +285,7 @@ msgid ""
 "BY 3.0| license."
 msgstr ""
 "Nous tenons à remercier l’Agence belge de l’environnement Interregional "
-"(`IRCEL - CELINE <http://www.irceline.be/en/>`_)  pour fournir les données "
+"(`IRCEL - CELINE <https://www.irceline.be/en/>`_)  pour fournir les données "
 "de démonstration utilisées dans cette installation de SOS. Les données de "
 "démo sont publiées sous une licence |CC BY 3.0|."
 

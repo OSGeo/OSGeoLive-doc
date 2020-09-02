@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:43
 msgid "Start QGIS"
-msgstr ""
+msgstr "Démarrer QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:45
 msgid "Open the 'Desktop GIS' folder."
@@ -52,42 +52,56 @@ msgid ""
 "You will see QGIS launch with an empty project. The various parts of the "
 "QGIS Interface are listed below."
 msgstr ""
+"Vous verrez QGIS se lancer avec un projet vide. Les différentes parties de "
+"l'interface QGIS sont énumérées ci-dessous."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:54
 msgid ""
 "[1] Menu bar: Access to various QGIS features using a standard hierarchical "
 "menu."
 msgstr ""
+"[1] Barre de menu : Accès à diverses fonctionnalités QGIS à l'aide d'un menu"
+" hiérarchique standard."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:55
 msgid ""
 "[2] Toolbars: For interaction with the map, layers, attributes and "
 "selections."
 msgstr ""
+"[2] Barres d'outils : Pour l'interaction avec la carte, les couches, les "
+"attributs et les sélections."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:56
 msgid ""
 "[3] Browser Panel: A spatial file browser allowing drag and drop content "
 "into the map frame."
 msgstr ""
+"[3] Panneau de navigateur : Navigateur de fichiers spatiaux permettant de "
+"glisser et de déposer du contenu dans le cadre de la carte."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:57
 msgid "[4] Layer Panel: Controls the map layers, their order, and visibility."
 msgstr ""
+"[4] Panneau de couches : Contrôle les couches de la carte, leur ordre et "
+"leur visibilité."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:58
 msgid ""
 "[5] Status Bar: General information about the map and access to a universal "
 "search bar."
 msgstr ""
+"[5] Barre d'état : Informations générales sur la carte et l'accès à une "
+"barre de recherche universelle."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:61
 msgid "Create a project"
-msgstr ""
+msgstr "Créer un projet"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:63
 msgid "To create a new project, choose :menuselection:`Project --> New`."
 msgstr ""
+"Pour créer un nouveau projet, choisissez :menuselection:`Projet --> "
+"Nouveau`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:69
 msgid ""
@@ -124,10 +138,12 @@ msgid ""
 "Once the layer has been dragged onto the map frame, you will see a layer "
 "showing countries."
 msgstr ""
+"Une fois que la couche a été déposée dans la carte, vous verrez une couche "
+"montrant les pays."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:87
 msgid "Now let's try adding a raster layer to the project."
-msgstr ""
+msgstr "Essayons maintenant d'ajouter une couche raster au projet."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:91
 msgid "Select 'HYP_50M_SR_W.tif'."
@@ -138,6 +154,8 @@ msgid ""
 "Once the layer has been dragged onto the map frame, you will see a raster "
 "layer showing land cover and bathymetry."
 msgstr ""
+"Une fois que la couche a été déposée sur la carte, vous verrez une couche "
+"raster montrant la couverture terrestre et la bathymétrie."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:105
 msgid ""
@@ -149,7 +167,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:108
 msgid "Choose :menuselection:`Project --> Save`."
-msgstr ""
+msgstr "Choisissez :menuselection:`Projet --> Sauvegarder`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:114
 msgid "Make the location to save the project '/home/user/desktop'."
@@ -162,7 +180,7 @@ msgstr "Appelez le projet 'Mon projet QGIS'."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:121
 msgid "Click 'Save'."
-msgstr ""
+msgstr "Cliquez sur 'Enregistrer'."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:123
 msgid ""
@@ -205,10 +223,13 @@ msgid ""
 "of recent projects to chose from. This is a convenient way to open a project"
 " you have used recently."
 msgstr ""
+"Ouvrez QGIS. Notez que lorsque QGIS est ouvert, il vous sera présenté une "
+"liste de projets récents à choisir. C'est un moyen pratique d'ouvrir des "
+"projets récents."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:140
 msgid "Choose :menuselection:`Project --> Open`."
-msgstr ""
+msgstr "Choisissez :menuselection:`Projet --> Ouvrir`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:141
 msgid "Navigate to '/home/user/qgis-example'."
@@ -220,7 +241,7 @@ msgstr "Sélectionnez le projet 'QGIS-NaturalEarth-Example.qgs'."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:143
 msgid "Click 'Open'."
-msgstr ""
+msgstr "Cliquez sur 'Ouvrir'."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:149
 msgid ""
@@ -327,41 +348,49 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:197
 msgid "Navigate the map"
-msgstr ""
+msgstr "Naviguez dans la carte"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:199
 msgid ""
 "The navigation toolbar allows users to move around the map and change the "
 "map extent."
 msgstr ""
+"La barre d'outils de navigation permet aux utilisateurs de se déplacer "
+"autour de la carte et de modifier l'étendue de la carte."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:205
 msgid "[1] Pan: Allows the map to be dragged ('panned') to a new location."
 msgstr ""
+"[1] Déplacement : Permet à la carte d'être déplacée vers un nouvel "
+"emplacement."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:206
 msgid "[2] Zoom in: Allows the map extent to be zoomed in."
-msgstr ""
+msgstr "[2] Zoom avant : Permet de zoomer dans l'étendue de la carte."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:207
 msgid "[3] Zoom out: Allows the map to be zoomed out."
-msgstr ""
+msgstr "[3] Zoom arrière : permet de zoomer en dehors de la carte."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:208
 msgid ""
 "[4] Zoom to full extent: Changes the map extent to fit all of the map layers"
 " into the map frame."
 msgstr ""
+"[4] Zoom sur toute l'étendue : Modifie l'étendue de la carte pour s'adapter "
+"à l'étendue de toutes les couches dans le cadre de la carte."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:209
 msgid ""
 "[5] Zoom to layer: Changes the map extent to fit the extent of the layer "
 "highlighted in the layer panel."
 msgstr ""
+"[5] Zoom sur la couche : Modifie l'étendue de la carte pour s'adapter à "
+"l'étendue de la couche mise en évidence dans le panneau de couches."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:211
 msgid "Let's try changing the map extent with the zoom-in tool."
-msgstr ""
+msgstr "Essayons de modifier l'étendue de la carte avec l'outil de zoom."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:213
 msgid "Select the 'Zoom in' tool from the navigation toolbar."
@@ -433,7 +462,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:233
 msgid "Style your layers"
-msgstr ""
+msgstr "Styliser vos couches"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:235
 msgid ""

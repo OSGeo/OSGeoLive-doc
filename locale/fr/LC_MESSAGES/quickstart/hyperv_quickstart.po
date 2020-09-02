@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Nicolas Roelandt (Personnel), 2018
 # Vicky Vergara <vicky@georepublic.de>, 2018
+# Nicolas Roelandt (Personnel), 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2018-06-09 16:37+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2018\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -97,13 +97,13 @@ msgstr "Téléchargement et conversion de la machine virtuelle"
 msgid ""
 "Download the OSGeoLive VirtualBox virtual hard disk (vmdk) by following the "
 "links on `live.osgeo.org <http://live.osgeo.org/en/download.html>`_. Once "
-"downloaded unzip the downloaded file (using `7zip <http://www.7-zip.org>`_ "
+"downloaded unzip the downloaded file (using `7zip <https://www.7-zip.org>`_ "
 ")."
 msgstr ""
 "Téléchargez le disque dur virtuel VirtualBox  (vmdk)  d'OSGeoLive en suivant"
-" le lien `live.osgeo.org <http://live.osgeo.org/en/download.html>`_. Une "
+" le lien `live.osgeo.org <https://live.osgeo.org/en/download.html>`_. Une "
 "fois téléchargé décompressez le fichier téléchargé (en utilisant `7zip "
-"<http://www.7-zip.org>`_)."
+"<https://www.7-zip.org>`_)."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:34
 msgid ""
@@ -121,15 +121,15 @@ msgstr "Convertisseur StarWind V2V"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:40
 msgid ""
-"Use the `StarWind V2V Converter "
-"<https://www.starwindsoftware.com/converter>`_ program. This has a simple "
-"user interface allowing you to select the ``osgeo-live-XX.X-vm.vmdk`` file "
-"and convert to a *Microsoft VHDX* image."
+"Use the `StarWind V2V Converter <https://www.starwindsoftware.com/starwind-"
+"v2v-converter>`_ program. This has a simple user interface allowing you to "
+"select the ``osgeo-live-XX.X-vm.vmdk`` file and convert to a *Microsoft "
+"VHDX* image."
 msgstr ""
 "Utilisez le programme `StarWind V2V Converter "
-"<https://www.starwindsoftware.com/converter>`_ . Il a une interface simple "
-"vous permettant de sélectionner le fichier  ``osgeo-live-XX.X-vm.vmdk`` et "
-"convertir en une image *Microsoft VHDX*."
+"<https://www.starwindsoftware.com/starwind-v2v-converter>`_ . Il a une "
+"interface simple vous permettant de sélectionner le fichier  ``osgeo-live-"
+"XX.X-vm.vmdk`` et convertir en une image *Microsoft VHDX*."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:44
 msgid "Microsoft Virtual Machine Converter 3.0"
@@ -150,14 +150,8 @@ msgstr ""
 "installer."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:49
-msgid ""
-"Download the `DS File Ops Kit "
-"<http://members.ozemail.com.au/~nulifetv/freezip/freeware/dsfok.zip>`_ and "
-"unzip."
-msgstr ""
-"Téléchargez le `DS File Ops Kit "
-"<http://members.ozemail.com.au/~nulifetv/freezip/freeware/dsfok.zip>`_ et "
-"décompressez."
+msgid "Download the DS File Ops Kit and unzip."
+msgstr "Téléchargez le kit d’opérations de fichiers DS et dézippez le."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:50
 msgid "Open PowerShell (with administrator rights)"
@@ -172,7 +166,7 @@ msgstr ""
 "le vmdk d'OSGeoLive. Cela enregistre la description du disque dans le "
 "fichier \"descriptor1.txt\"."
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:58
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:60
 msgid ""
 "Open this in a text editor (such as Notepad) and comment out the following "
 "lines using hashes (this metadata is VirtualBox specific and is not "
@@ -182,7 +176,7 @@ msgstr ""
 " suivantes à l’aide de croisillons (ces métadonnées sont  spécifiques à "
 "VirtualBox et ne sont pas reconnue par le convertisseur) :"
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:68
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:70
 msgid ""
 "Run the following command to insert the disk descriptor back into the "
 "``vmdk`` file:"
@@ -190,7 +184,7 @@ msgstr ""
 "Exécutez la commande suivante pour insérer le descripteur de disque dans le "
 "fichier  ``vmdk`` :"
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:76
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:78
 msgid ""
 "Failing to do the above steps will result in the error *\"ConvertTo-"
 "MvmcVirtualHardDisk : The entry 0247ca9d-f9aa-4910-9e8c-1c14d83a7749 is not "
@@ -200,15 +194,15 @@ msgstr ""
 "MvmcVirtualHardDisk : The entry 0247ca9d-f9aa-4910-9e8c-1c14d83a7749 is not "
 "a supported disk database entry for the descriptor.\"*"
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:79
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:81
 msgid "Finally run the conversion process:"
 msgstr "Enfin, exécutez le processus de conversion :"
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:89
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:91
 msgid "How-To"
 msgstr "Mode d’emploi"
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:91
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:93
 msgid ""
 "This guide assumes Hyper-V is already installed and enabled - if this is not"
 " the case the more typical approach using Virtual Box outlined at "
@@ -218,11 +212,11 @@ msgstr ""
 " de l’approche plus classique à l’aide de Virtual Box décrites à "
 ":doc:`virtualization_quickstart`  peut être utilisé."
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:94
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:96
 msgid "**Create a Virtual Machine**"
 msgstr "**Créer une machine virtuelle**"
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:96
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:98
 msgid ""
 "Start the Hyper-V Manager application and under Actions select New > Virtual"
 " Machine, and then Next. Then enter an appropriate name for the virtual "
@@ -232,11 +226,11 @@ msgstr ""
 "Nouveau > Machine virtuelle, puis sur suivant. Puis entrez un nom approprié "
 "pour la machine virtuelle."
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:101
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:103
 msgid "Select \"Generation 1\" from the Specify Generation options."
 msgstr "Sélectionnez \"Generation 1\"  dans les options de `Specify Generation`."
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:105
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:107
 msgid ""
 "When assigning memory, you can select \"Use Dynamic Memory for this virtual "
 "machine\"."
@@ -244,7 +238,7 @@ msgstr ""
 "Lors de l’affectation de mémoire, vous pouvez sélectionner \"Utilisation de "
 "mémoire dynamique pour cet ordinateur virtuel\"."
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:106
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:108
 msgid ""
 "If you require the virtual machine to have Internet access you will need to "
 "set this up this up on the \"Configure Networking\" screen."
@@ -253,7 +247,7 @@ msgstr ""
 "vous devrez mettre en place ceci vers le haut sur l’écran  \"Configuration "
 "réseau\"."
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:107
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:109
 msgid ""
 "On the \"Connect Virtual Hard Disk\", select \"Use an existing virtual hard "
 "disk\" and select the ``.vhdx`` file you unzipped earlier."
@@ -262,16 +256,16 @@ msgstr ""
 " hard disk\" et sélectionnez le fichier ``.vhdx`` vous avez dézippé plus "
 "tôt."
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:111
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:113
 msgid "**Running the Virtual Machine**"
 msgstr "**Exécuter la machine virtuelle**"
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:113
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:115
 msgid "Select the virtual machine from the Virtual Machines list"
 msgstr ""
 "Sélectionnez la machine virtuelle dans la liste des machines virtuelles"
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:114
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:116
 msgid ""
 "Right-click and select \"Connect\". You will be prompted to start the "
 "machine, and a new \"Virtual Machine Connection\" window will open."
@@ -280,34 +274,34 @@ msgstr ""
 "démarrer la machine, et ouvrira une nouvelle fenêtre \"Virtual Machine "
 "Connection\"."
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:117
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:119
 msgid "See Also:"
 msgstr "Voir Aussi:"
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:118
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:120
 msgid ":doc:`virtualization_quickstart`."
 msgstr ":doc:`virtualization_quickstart`."
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:120
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:122
 msgid "OSGeo wiki pages:"
 msgstr "Pages du wiki OSGeo:"
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:120
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:122
 msgid ""
 "`Other ways to create a Virtual Machine "
-"<http://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
+"<https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
 msgstr ""
 "`Autres manières de créer une machine virtuelle "
-"<http://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
+"<https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:122
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:124
 msgid ":doc:`osgeolive_quickstart`"
 msgstr ":doc:`osgeolive_quickstart`"
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:123
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:125
 msgid ":doc:`osgeolive_install_quickstart`"
 msgstr ":doc:`osgeolive_install_quickstart`"
 
-#: ../../build/doc/quickstart/hyperv_quickstart.rst:124
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:126
 msgid ":doc:`usb_quickstart`"
 msgstr ":doc:`usb_quickstart`"

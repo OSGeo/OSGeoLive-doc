@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
+# Nicolas Roelandt (Personnel), 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -177,10 +178,10 @@ msgstr "**Site web:** https://www.openstreetmap.org/"
 #: ../../build/doc/overview/osm_dataset_overview.rst:67
 msgid ""
 "**License:** `Open Data Commons Open Database License (ODbL) "
-"<http://opendatacommons.org/licenses/odbl/>`_"
+"<https://opendatacommons.org/licenses/odbl/>`_"
 msgstr ""
 "**Licence:** `Open Data Commons Open Database License (ODbL) "
-"<http://opendatacommons.org/licenses/odbl/>`_"
+"<https://opendatacommons.org/licenses/odbl/>`_"
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:69
 msgid "**Data Version:** Live database extract"

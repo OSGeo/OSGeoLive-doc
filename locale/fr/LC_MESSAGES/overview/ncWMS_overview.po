@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
+# Nicolas Roelandt (Personnel), 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:11+0000\n"
-"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -98,53 +99,56 @@ msgid "Implemented Standards"
 msgstr "Standards implémentés"
 
 #: ../../build/doc/overview/ncWMS_overview.rst:53
-msgid "`WMS <http://www.opengeospatial.org/standards/wms>`__ (v1.1.1, v1.3.0)"
-msgstr ""
-"`WMS <http://www.opengeospatial.org/standards/wms>`__ (v1.1.1, v1.3.0)"
+msgid "|WMS| (v1.1.1, v1.3.0)"
+msgstr "|WMS| (v1.1.1, v1.3.0)"
 
-#: ../../build/doc/overview/ncWMS_overview.rst:55
-msgid "`KML <http://www.opengeospatial.org/standards/kml>`__"
-msgstr "`KML <http://www.opengeospatial.org/standards/kml>`__"
+#: ../../build/doc/overview/ncWMS_overview.rst:54
+msgid "|KML|"
+msgstr "|KML|"
 
-#: ../../build/doc/overview/ncWMS_overview.rst:58
+#: ../../build/doc/overview/ncWMS_overview.rst:57
 msgid "Details"
 msgstr "Détails"
 
-#: ../../build/doc/overview/ncWMS_overview.rst:60
-msgid "**Website:** https://github.com/Reading-eScience-Centre/ncwms"
-msgstr "**Site web:** https://github.com/Reading-eScience-Centre/ncwms"
+#: ../../build/doc/overview/ncWMS_overview.rst:59
+msgid ""
+"**Website:** https://reading-escience-centre.gitbooks.io/ncwms-user-"
+"guide/content/"
+msgstr ""
+"**Site web:** https://reading-escience-centre.gitbooks.io/ncwms-user-"
+"guide/content/"
 
-#: ../../build/doc/overview/ncWMS_overview.rst:62
+#: ../../build/doc/overview/ncWMS_overview.rst:61
 msgid ""
 "**Licence:** `Modified BSD License <https://github.com/Reading-eScience-"
-"Centre/ncwms/releases/download/ncwms-2.2.8/licence.txt>`_"
+"Centre/ncwms/blob/master/licence.txt>`__"
 msgstr ""
 "**Licence:** `Licence BSD modifiée <https://github.com/Reading-eScience-"
-"Centre/ncwms/releases/download/ncwms-2.2.8/licence.txt>`_"
+"Centre/ncwms/blob/master/licence.txt>`_"
 
-#: ../../build/doc/overview/ncWMS_overview.rst:64
+#: ../../build/doc/overview/ncWMS_overview.rst:63
 msgid "**Software Version:** |version-ncWMS|"
 msgstr "**Version du logiciel:** |version-ncWMS|"
 
-#: ../../build/doc/overview/ncWMS_overview.rst:66
+#: ../../build/doc/overview/ncWMS_overview.rst:65
 msgid "**Supported Platforms:** All Java 1.8 platforms: Windows, Linux, Mac"
 msgstr ""
 "**Plates-formes supportées:** Toutes les plates-formes Java 1.8: Windows, "
 "Linux, Mac"
 
-#: ../../build/doc/overview/ncWMS_overview.rst:68
+#: ../../build/doc/overview/ncWMS_overview.rst:67
 msgid "**API Interfaces:** Java; WMS"
 msgstr "**Interface d'API:** Java; WMS"
 
-#: ../../build/doc/overview/ncWMS_overview.rst:70
+#: ../../build/doc/overview/ncWMS_overview.rst:69
 msgid "**Support:** https://github.com/Reading-eScience-Centre/ncwms/issues"
 msgstr "**Support:** https://github.com/Reading-eScience-Centre/ncwms/issues"
 
-#: ../../build/doc/overview/ncWMS_overview.rst:75
+#: ../../build/doc/overview/ncWMS_overview.rst:74
 msgid "Quickstart"
 msgstr "Guide de démarrage rapide"
 
-#: ../../build/doc/overview/ncWMS_overview.rst:77
+#: ../../build/doc/overview/ncWMS_overview.rst:76
 msgid ":doc:`Quickstart documentation <../quickstart/ncWMS_quickstart>`"
 msgstr ""
 ":doc:`Documentation du guide de démarrage rapide "
