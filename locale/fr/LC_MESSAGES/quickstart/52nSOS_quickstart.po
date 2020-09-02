@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -77,11 +77,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:45
 msgid "This will open the 52°North SOS client welcome page in firefox at"
-msgstr ""
+msgstr "Cela ouvrira la page d’accueil du client 52°North SOS dans firefox à"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:38
 msgid "http://localhost:8080/52nSOS/ (see Fig. 1)."
-msgstr ""
+msgstr "http://localhost:8080/52nSOS/ (voir Fig. 1)."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:45
 msgid "**Fig. 1**: 52°North SOS client - welcome page."
@@ -96,6 +96,13 @@ msgid ""
 "selecting sample queries. Using the information from the capabilities "
 "document, you can adjust the available example queries."
 msgstr ""
+"Cliquez sur :guilabel:`Client` la barre de menu supérieure. Une fois que "
+"`les capacités de SOS "
+"<http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=2.0.0>`_"
+" sont connues, (voir Fig. 2) vous pouvez écrire des requêtes appropriées. "
+"Ceci est rendu plus facile en sélectionnant des requêtes d'exemple dans la "
+"liste déroulante. En utilisant les informations des capacités, vous pouvez "
+"ajuster les requêtes exemples."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:58
 msgid ""
@@ -245,13 +252,18 @@ msgstr ""
 "/sensor-web/>`_"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:193
-msgid "52°North `SOS Client <http://sensorweb.demo.52north.org/SOSclient/>`_"
+msgid ""
+"52°North `SOS Client <https://sensorweb.demo.52north.org/sensorwebclient-"
+"webapp-stable/>`_"
 msgstr ""
-" `Client 52°North SOS <http://sensorweb.demo.52north.org/SOSclient/>`_"
+"Client 52°North `SOS <https://sensorweb.demo.52north.org/sensorwebclient-"
+"webapp-stable/>`_"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:194
-msgid "52°North `SOS Web site <https://52north.org/sos>`_"
-msgstr " `Site internet de 52°North SOS <https://52north.org/sos>`_"
+msgid ""
+"52°North `SOS Web site <https://52north.org/software/software-"
+"projects/sos>`_"
+msgstr "**Site Internet:** https://52north.org/software/software-projects/sos"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:196
 msgid ""
@@ -267,15 +279,14 @@ msgstr ""
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:200
 msgid ""
 "We would like to thank the Belgian Interregional Environment Agency (`IRCEL "
-"- CELINE <http://www.irceline.be/en/>`_) for providing the demonstration "
-"data used in this SOS installation. The demo data are published under a `CC-"
-"BY licence <http://creativecommons.org/licenses/by/3.0/>`_."
+"- CELINE <https://www.irceline.be/en/>`_) for providing the demonstration "
+"data used in this SOS installation. The demo data are published under a |CC "
+"BY 3.0| license."
 msgstr ""
 "Nous tenons à remercier l’Agence belge de l’environnement Interregional "
 "(`IRCEL - CELINE <http://www.irceline.be/en/>`_)  pour fournir les données "
 "de démonstration utilisées dans cette installation de SOS. Les données de "
-"démo sont publiées sous un `licence CC-BY "
-"<http://creativecommons.org/licenses/by/3.0/>`_.."
+"démo sont publiées sous une licence |CC BY 3.0|."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:206
 msgid ""
