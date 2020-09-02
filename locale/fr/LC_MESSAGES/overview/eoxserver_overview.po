@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
-# Nicolas Roelandt (Personnel), 2017
+# Nicolas Roelandt (Personnel), 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-08-19 10:16-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2017\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -81,30 +81,18 @@ msgid "Web based and command line administration interface"
 msgstr "Interface d'administration web et en ligne de commande"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:45
-msgid ""
-"Publish data via `Open Geospatial Consortium (OGC) standards "
-"<http://www.opengeospatial.org/standards>`__:"
-msgstr ""
-"Publier la donnée via `les standards de l'Open Geospatial Consortium (OGC) "
-"<http://www.opengeospatial.org/standards>`__:"
+msgid "Publish data via |OGC|"
+msgstr "Publier des données via l'|OGC|"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:48
-msgid ""
-"`Web Coverage Service (WCS) <http://www.opengeospatial.org/standards/wcs>`__"
-" 1.0, 1.1 and 2.0 & proposed EO-WCS"
-msgstr ""
-"`Web Coverage Service (WCS) <http://www.opengeospatial.org/standards/wcs>`__"
-"  1.0, 1.1 et 2.0 & EO-WCS proposé"
+#: ../../build/doc/overview/eoxserver_overview.rst:47
+msgid "|WCS| 1.0, 1.1 and 2.0 & proposed EO-WCS"
+msgstr "|WCS| 1.0, 1.1 et 2.0 & EO-WCS proposé"
+
+#: ../../build/doc/overview/eoxserver_overview.rst:49
+msgid "|WMS| & EO-WMS"
+msgstr "|WMS| et EO-WMS"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:50
-msgid ""
-"`Web Map Service (WMS) <http://www.opengeospatial.org/standards/wms>`__ & "
-"EO-WMS"
-msgstr ""
-"`Web Map Service (WMS) <http://www.opengeospatial.org/standards/wms>`__ & "
-"EO-WMS"
-
-#: ../../build/doc/overview/eoxserver_overview.rst:51
 msgid ""
 "Proposed extensions to WCS including: GeoTIFF encoding, predefined "
 "projections (CRSs), scaling, and interpolation."
@@ -112,7 +100,7 @@ msgstr ""
 "Extensions proposées au WCS incluant: encodage GeoTIFF, projections "
 "prédéfinies (CRSs), mise à l'échelle et interpolation."
 
-#: ../../build/doc/overview/eoxserver_overview.rst:53
+#: ../../build/doc/overview/eoxserver_overview.rst:52
 msgid ""
 "Protocols supported are: KVP and XML/POST (used together with SOAP2POST "
 "Proxy to provide also XML/SOAP)"
@@ -120,108 +108,108 @@ msgstr ""
 "Les protocoles supportés sont: KVP et XML/POST (utilisés ensemble avec le "
 "proxy SOAP2POSTpour fournir aussi XML/SOAP)"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:56
+#: ../../build/doc/overview/eoxserver_overview.rst:55
 msgid "Publish using the following formats and groupings:"
 msgstr "Publier en utilisant les formats et regroupements suivants:"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:58
+#: ../../build/doc/overview/eoxserver_overview.rst:57
 msgid "2-D EO Coverages derived from gmlcov:RectifiedGridCoverage"
 msgstr "Couvertures 2-D EO dérivées de gmlcov:RectifiedGridCoverage"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:59
+#: ../../build/doc/overview/eoxserver_overview.rst:58
 msgid "2-D EO Coverages derived from gmlcov:ReferenceableGridCoverage"
 msgstr "Couvertures 2-D EO dérivées de gmlcov:ReferenceableGridCoverage"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:60
+#: ../../build/doc/overview/eoxserver_overview.rst:59
 msgid "Dataset Series as a collection of EO Coverages e.g. in a time series"
 msgstr ""
 "Séries de jeux de données comme collection de couvertures EO c'est à dire "
 "dans des séries temporelles"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:61
+#: ../../build/doc/overview/eoxserver_overview.rst:60
 msgid ""
 "Stitched Mosaics of Rectified EO Coverages including contributingFootprint"
 msgstr ""
 "Mosaïques regroupées de couvertures EO rectifiées incluant "
 "contributingFootprint"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:63
+#: ../../build/doc/overview/eoxserver_overview.rst:62
 msgid "Coverage formats supported:"
 msgstr "Formats de couverture supportés:"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:65
+#: ../../build/doc/overview/eoxserver_overview.rst:64
 msgid "GeoTIFF"
 msgstr "GeoTIFF"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:66
+#: ../../build/doc/overview/eoxserver_overview.rst:65
 msgid "Formats supported by the GDAL library"
 msgstr "Formats supportés par la bibliothèque GDAL"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:69
+#: ../../build/doc/overview/eoxserver_overview.rst:68
 msgid "Implemented Standards"
 msgstr "Standards implémentés"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:71
+#: ../../build/doc/overview/eoxserver_overview.rst:70
 msgid "WCS, EO-WCS"
 msgstr "WCS, EO-WCS"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:72
+#: ../../build/doc/overview/eoxserver_overview.rst:71
 msgid "WMS, EO-WMS"
 msgstr "WMS, EO-WMS"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:73
+#: ../../build/doc/overview/eoxserver_overview.rst:72
 msgid "WPS"
 msgstr "WPS"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:74
+#: ../../build/doc/overview/eoxserver_overview.rst:73
 msgid "GML, GMLCOV, EO-O&M"
 msgstr "GML, GMLCOV, EO-O&M"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:75
+#: ../../build/doc/overview/eoxserver_overview.rst:74
 msgid "OpenSearch"
 msgstr "OpenSearch"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:78
+#: ../../build/doc/overview/eoxserver_overview.rst:77
 msgid "Details"
 msgstr "Détails"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:80
-msgid "**Website:** https://eoxserver.readthedocs.org/"
-msgstr "**Site web:** https://eoxserver.readthedocs.org/"
+#: ../../build/doc/overview/eoxserver_overview.rst:79
+msgid "**Website:** https://docs.eoxserver.org/en/stable/"
+msgstr "**Site web:** https://docs.eoxserver.org/en/stable/"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:82
+#: ../../build/doc/overview/eoxserver_overview.rst:81
 msgid ""
 "**Licence:** `MIT-style license "
-"<https://eoxserver.readthedocs.org/en/latest/copyright.html#license>`_"
+"<https://docs.eoxserver.org/en/latest/copyright.html#license>`_"
 msgstr ""
-"**Licence:** `licence MIT-style "
-"<https://eoxserver.readthedocs.org/en/latest/copyright.html#license>`_"
+"**Licence:** `Licence style MIT "
+"<https://docs.eoxserver.org/en/latest/copyright.html#license>`_"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:84
+#: ../../build/doc/overview/eoxserver_overview.rst:83
 msgid "**Software Version:** |version-eoxserver|"
 msgstr "**Version du logiciel:** |version-eoxserver|"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:86
+#: ../../build/doc/overview/eoxserver_overview.rst:85
 msgid "**Supported Platforms:** Linux, Windows, Mac"
 msgstr "**Plates-formes supportées:** Linux, Windows, Mac"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:88
+#: ../../build/doc/overview/eoxserver_overview.rst:87
 msgid "**API Interfaces:** Python"
 msgstr "**Interface d'API:** Python"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:90
+#: ../../build/doc/overview/eoxserver_overview.rst:89
 msgid ""
-"**Support:** https://eoxserver.readthedocs.org/en/latest/users/basics.html"
-"#where-can-i-get-support"
+"**Support:** https://docs.eoxserver.org/en/latest/users/basics.html#where-"
+"can-i-get-support"
 msgstr ""
-"**Support:** https://eoxserver.readthedocs.org/en/latest/users/basics.html"
-"#where-can-i-get-support"
+"**Support:** https://docs.eoxserver.org/en/latest/users/basics.html#where-"
+"can-i-get-support"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:94
+#: ../../build/doc/overview/eoxserver_overview.rst:93
 msgid "Quickstart"
 msgstr "Guide de démarrage rapide"
 
-#: ../../build/doc/overview/eoxserver_overview.rst:96
+#: ../../build/doc/overview/eoxserver_overview.rst:95
 msgid ":doc:`Quickstart documentation <../quickstart/eoxserver_quickstart>`"
 msgstr ""
 ":doc:`Documentation du guide de démarrage rapide "

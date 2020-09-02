@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Sant-anna <delazj@gmail.com>, 2017
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
+# Nicolas Roelandt (Personnel), 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -76,16 +76,16 @@ msgstr ""
 "`LAStools`_"
 
 #: ../../build/doc/overview/liblas_overview.rst:42
-msgid "Coordinate reprojection via `GDAL <http://gdal.org>`__"
-msgstr "Reprojection de coordonnées via `GDAL <http://gdal.org>`__"
+msgid "Coordinate reprojection via `GDAL <https://gdal.org>`__"
+msgstr "Reprojection de coordonnées via `GDAL <https://gdal.org>`__"
 
 #: ../../build/doc/overview/liblas_overview.rst:45
 msgid "Details"
 msgstr "Détails"
 
 #: ../../build/doc/overview/liblas_overview.rst:47
-msgid "**Website:** http://liblas.org"
-msgstr "**Site web:** http://liblas.org"
+msgid "**Website:** https://liblas.org/"
+msgstr "**Site web:** https://liblas.org"
 
 #: ../../build/doc/overview/liblas_overview.rst:49
 msgid "**Licence:** BSD"
@@ -109,9 +109,10 @@ msgstr "**Interfaces de l'API:** C, C++, Python"
 
 #: ../../build/doc/overview/liblas_overview.rst:57
 msgid ""
-"**Support:** `Communication and Support <http://liblas.org/community.html>`_"
+"**Support:** `Communication and Support "
+"<https://liblas.org/community.html>`_"
 msgstr ""
-"**Support:** `Communication et Support <http://liblas.org/community.html>`_"
+"**Support:** `Communication et Support <https://liblas.org/community.html>`_"
 
 #: ../../build/doc/overview/liblas_overview.rst:71
 msgid "Quickstart"

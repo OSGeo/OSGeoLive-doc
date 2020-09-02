@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -31,6 +31,8 @@ msgid ""
 "This Quick Start is divided into two parts: GDAL (raster data) and OGR "
 "(vector data)."
 msgstr ""
+"Ce guide de démarrage rapide est divisé en deux parties : GDAL (données "
+"raster) et OGR (données vectorielles)."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:24
 msgid "This Quick Start describes how to:"
@@ -79,6 +81,10 @@ msgid ""
 " visualize the results, you can use one of the Desktop GIS Software "
 "applications on OSGeoLive like :doc:`../overview/qgis_overview`."
 msgstr ""
+"La seule chose dont vous aurez besoin pour ce guide de démarrage rapide est "
+"un terminal. Si vous souhaitez visualiser les résultats, vous pouvez "
+"utiliser l’une des applications SIG de bureau sur OSGeoLive comme "
+":doc:`../overview/qgis_overview`."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:46
 msgid "Get to know GDAL"
@@ -140,7 +146,7 @@ msgstr "l'absence de système de coordonnées"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:107
 msgid "Simple format translation"
-msgstr ""
+msgstr "Changement de format de fichier simple"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:109
 msgid ""
@@ -296,13 +302,14 @@ msgid ""
 " be reprojected gdalwarp does not read all the data.  We can force gdalwarp "
 "to read a bunch of surplus data around chunks as one way to resolve this. "
 "Read more about this in the RasterTutorial "
-"http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
+"https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
 msgstr ""
-"Vous notez que les pôles ont été découpés ? C'est parce que les pôle ne "
-"peuvent pas être reprojetés, gdal ne lit pas toutes les données. Pour "
-"résoudre le problème, nous pouvons forcer gdal à lire plus de données sur "
-"les bords. Plus d'information sur cette solution dans le RasterTutorial "
-"http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
+"Notez comment les pôles sont coupés?  C’est parce que les bords aux pôles ne"
+" peut pas être reprojetés car gdalwarp ne lit pas toutes les données.  Nous "
+"pouvons forcer gdalwarp à lire un supplément de données autour des morceaux "
+"comme un moyen de résoudre ce problème. En savoir plus à ce sujet dans le "
+"tutoriel Raster: "
+"https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:255
 msgid "Mosaicking"
@@ -439,22 +446,23 @@ msgid "GDAL Project home"
 msgstr "Page d'accueil de GDAL"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:455
-msgid "http://www.gdal.org"
-msgstr "http://www.gdal.org"
+msgid "https://gdal.org"
+msgstr "https://gdal.org"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:457
 msgid "GDAL Raster Tutorial"
 msgstr "Tutoriel pour GDAL raster"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:459
-msgid "http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
-msgstr "http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
+msgid "https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
+msgstr "https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:461
 msgid "GDAL Workshop"
 msgstr "Workshop sur GDAL"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:463
-msgid "http://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
+msgid ""
+"https://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
 msgstr ""
-"http://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
+"https://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
