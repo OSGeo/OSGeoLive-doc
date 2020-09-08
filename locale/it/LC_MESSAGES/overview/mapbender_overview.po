@@ -5,15 +5,16 @@
 # 
 # Translators:
 # pibinko <pibinko@gmail.com>, 2018
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-07-06 11:23-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: pibinko <pibinko@gmail.com>, 2018\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,14 +32,14 @@ msgstr "Framework per geoportali"
 
 #: ../../build/doc/overview/mapbender_overview.rst:19
 msgid ""
-"`Mapbender <https://www.mapbender.org/en>`_ is a graduated OSGeo project. It"
-" is a web based geoportal framework to publish, register, view, navigate, "
+"`Mapbender <https://mapbender.org/en>`_ is a graduated OSGeo project. It is "
+"a web based geoportal framework to publish, register, view, navigate, "
 "monitor and grant secure access to spatial data infrastructure services."
 msgstr ""
-"`Mapbender <https://www.mapbender.org/en>`_ è uno dei progetti laureati  "
-"OSGeo. E' un framework per geoportali basato su webper pubblicare, "
-"registrare, visualizzare, navigare, e garantire accessi sicuri ai servizi di"
-" infrastrutture dati territoriali."
+"`Mapbender <https://mapbender.org/en>`_ è uno dei progetti laureati  OSGeo. "
+"E' un framework per geoportali basato su webper pubblicare, registrare, "
+"visualizzare, navigare, e garantire accessi sicuri ai servizi di "
+"infrastrutture dati territoriali."
 
 #: ../../build/doc/overview/mapbender_overview.rst:21
 msgid ""
@@ -171,12 +172,12 @@ msgid "Details"
 msgstr "Dettagli"
 
 #: ../../build/doc/overview/mapbender_overview.rst:63
-msgid "**Website:** https://www.mapbender.org/"
-msgstr "**Sito web:** https://www.mapbender.org/"
+msgid "**Website:** https://mapbender.org"
+msgstr "**Sito web:** https://mapbender.org"
 
 #: ../../build/doc/overview/mapbender_overview.rst:65
-msgid "**Licence:** `MIT license <http://opensource.org/licenses/MIT>`_"
-msgstr "**Licenza:** `MIT license <http://opensource.org/licenses/MIT>`_"
+msgid "**Licence:** `MIT license <https://opensource.org/licenses/MIT>`_"
+msgstr "**Licenza:** `MIT license <https://opensource.org/licenses/MIT>`_"
 
 #: ../../build/doc/overview/mapbender_overview.rst:67
 msgid "**Software Version:** |version-mapbender|"
@@ -187,8 +188,8 @@ msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr "**Piattaforme Supportate:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/mapbender_overview.rst:71
-msgid "**Support:** https://www.mapbender.org/en/community"
-msgstr "**Supporto:** https://www.mapbender.org/en/community"
+msgid "**Support:** https://mapbender.org/en/community"
+msgstr "**Supporto:** https://mapbender.org/en/community"
 
 #: ../../build/doc/overview/mapbender_overview.rst:75
 msgid "Quickstart"

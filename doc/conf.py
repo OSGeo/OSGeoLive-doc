@@ -258,6 +258,11 @@ linkcheck_ignore = [ r'http://www.dnr.state.mn.us/maps/compass.html',
         r'https://www.youtube.com/watch?v=eQBdVO-n6Mg',
         r'https://standards.rasdaman.com',
         r'http://download.osgeo.org/',
+        r'https://www.microsoft.com/en-us/download/',
+        r'https://www.microsoft.com/en-us/download/404Error.aspx',
+        r'https://wiki.52north.org/SensorWeb/AqdEReporting#Installation',
+        r'https://wiki.52north.org/SensorWeb/SensorWebClientRESTInterface',
+        r'https://wiki.52north.org/SensorWeb/InspireSpecialisedObservations',
         'https://www.openstreetmap.org/edit']
 linkcheck_anchors = False
 

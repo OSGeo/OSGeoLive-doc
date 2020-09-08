@@ -6,15 +6,16 @@
 # Translators:
 # Toshikazu SETO <tosseto@gmail.com>, 2017
 # Ko Nagase <nagase@georepublic.co.jp>, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:53-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-01-21 16:46+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,13 +29,14 @@ msgstr "|osgeolive-version| へようこそ"
 
 #: ../../build/doc/index.rst:5
 msgid ""
-"`OSGeoLive <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB "
-"thumb drive or Virtual Machine based on `Lubuntu <http://lubuntu.net>`_, "
+"`OSGeoLive <https://live.osgeo.org>`_ is a self-contained bootable DVD, USB "
+"thumb drive or Virtual Machine based on `Lubuntu <https://lubuntu.net>`_, "
 "that allows you to try a wide variety of open source geospatial software "
 "without installing anything. It is composed entirely of free software, "
 "allowing it to be freely distributed, duplicated and passed around."
 msgstr ""
-"`OSGeoLive <http://live.osgeo.org>`_ は仮想マシン `Lubuntu <http://lubuntu.net>`_ "
+"`OSGeoLive <https://live.osgeo.org>`_ は仮想マシン `Lubuntu "
+"<https://lubuntu.net>`_ "
 "をベースとした起動可能なブータブルDVD／USBメディアで、幅広く多様なオープンソースの地理空間ソフトウェアを、インストール無しに試すことができます。OSGeoLive"
 " は全てフリーソフトで構成されており、自由に複製、配布することができます。"
 
@@ -71,21 +73,22 @@ msgstr "\"Geospatial\" メニューからアプリケーションを選択し、
 msgid ""
 "OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo "
 "Foundation is a not-for-profit supporting Geospatial Open Source Software "
-"development, promotion and `education <http://www.geoforall.org/>`_."
+"development, promotion and `education <https://www.osgeo.org/initiatives"
+"/geo-for-all/>`_."
 msgstr ""
 "OSGeoLive は `OSGeo 財団 <http://osgeo.org/>`_  のプロジェクトです。OSGeo "
-"財団は、非営利で地理空間のオープンソースソフトウェアの開発、プロモーション、及び `教育 <http://www.geoforall.org/>`_ "
-"をサポートしています。"
+"財団は、非営利で地理空間のオープンソースソフトウェアの開発、プロモーション、及び `教育 "
+"<https://www.osgeo.org/initiatives/geo-for-all/>`_ をサポートしています。"
 
-#: ../../build/doc/index.rst:32
+#: ../../build/doc/index.rst:34
 msgid "Quick Starts"
 msgstr "クイックスタート"
 
-#: ../../build/doc/index.rst:66
+#: ../../build/doc/index.rst:68
 msgid "Presentation"
 msgstr "プレゼンテーション"
 
-#: ../../build/doc/index.rst:68
+#: ../../build/doc/index.rst:70
 msgid ""
 "A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive "
 "applications, is available with slides, script, and `abstract "
