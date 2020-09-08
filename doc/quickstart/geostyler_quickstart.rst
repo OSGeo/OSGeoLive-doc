@@ -11,13 +11,20 @@
 
 This Quickstart describes some basic steps required to start working with GeoStyler: installing GeoStyler and adding a first UI component to your react application.
 
+A complete beginner tutorial can be found on `localhost/geostyler <localhost/geostyler>`__.
+
 GeoStyler makes it easy to style geodata in any web page. The UI is independent from any styling format and should be usable for e.g. OpenLayer or SLD.
 
 .. contents:: Contents
     :local:
 
-Installing GeoStyler
+(Optional) Installing GeoStyler
 ====================
+
+OSGeoLive comes with GeoStyler already installed. So you should be able to import it into your project
+as described in the next section. You can skip this section, if you just want to take a first look at the library.
+
+However, it is recommended to install GeoStyler for each project separately. This sections describes the required steps.
 
 The most simple way to install GeoStyler is to use ``npm``. Simply run following command from your project root:
 
