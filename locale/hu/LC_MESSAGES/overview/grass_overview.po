@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-08-19 12:21-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -98,25 +98,26 @@ msgstr "Alapfunkciók"
 #: ../../build/doc/overview/grass_overview.rst:65
 msgid ""
 "You name it, there's a `tool for it "
-"<https://grass.osgeo.org/grass76/manuals/keywords.html>`_."
+"<https://grass.osgeo.org/grass78/manuals/keywords.html>`_."
 msgstr ""
 "Ha meg tudja nevezni talál hozzá egy `eszközt "
-"<https://grass.osgeo.org/grass76/manuals/keywords.html>`_."
+"<https://grass.osgeo.org/grass78/manuals/keywords.html>`_."
 
 #: ../../build/doc/overview/grass_overview.rst:66
 msgid ""
-"Explore the `screenshot collection <https://grass.osgeo.org/screenshots/>`_."
+"Explore the `screenshot collection "
+"<https://grass.osgeo.org/learn/gallery/>`_."
 msgstr ""
-"Fedezze fel a `képernyő kép gyűjteményt "
-"<https://grass.osgeo.org/screenshots/>`_."
+"Fedezze fel  a `képernyőkép gyűjteményt "
+"<https://grass.osgeo.org/learn/gallery/>`_."
 
 #: ../../build/doc/overview/grass_overview.rst:69
 msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/grass_overview.rst:71
-msgid "**Website:** https://grass.osgeo.org"
-msgstr "**Honlap:** https://grass.osgeo.org"
+msgid "**Website:**"
+msgstr "**Honlap:**"
 
 #: ../../build/doc/overview/grass_overview.rst:73
 msgid "**Licence:** GNU General Public License (GPL) version 2+"
@@ -135,8 +136,8 @@ msgid "**API Interfaces:** C, Python, Bourne Shell"
 msgstr "**API interfészek:** C, Python, Bourne Shell"
 
 #: ../../build/doc/overview/grass_overview.rst:81
-msgid "**Support:** https://grass.osgeo.org/support/"
-msgstr "**Támogatás:** https://grass.osgeo.org/support/"
+msgid "**Support:** https://grass.osgeo.org/about/community/"
+msgstr "**Támogatás:** https://grass.osgeo.org/about/community/"
 
 #: ../../build/doc/overview/grass_overview.rst:86
 msgid "Quickstart"
