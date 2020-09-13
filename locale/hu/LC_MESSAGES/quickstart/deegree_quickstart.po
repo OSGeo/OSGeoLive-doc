@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -133,7 +133,7 @@ msgstr ""
 msgid ""
 "Click on *'see layers'* to open a simple map-client. The service is "
 "configured to visualize the data and a basemap (rendered by `OpenStreetMap "
-"<http://openstreetmap.org/>`_)."
+"<https://www.openstreetmap.org/>`_)."
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:74
@@ -145,26 +145,18 @@ msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:77
 msgid ""
-"The map client is based on `OpenLayers <http://openlayers.org/>`_. You can "
+"The map client is based on `OpenLayers <https://openlayers.org/>`_. You can "
 "pan through the map holding the left mouse button and drag the map. Zooming "
 "is possible via mouse wheel or the navigation elements on the left side."
 msgstr ""
-"A térkép kliens az `OpenLayers-re <http://openlayers.org/>`_ épül. A térkép "
-"eltolásához tartsa a  egér bal gombját lenyomva és húzza a térképet. A "
-"nagyítás az egérgörgő vagy a bal oldali navigációs elemek segítségével "
-"lehetséges."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:81
 msgid ""
 "More information and step-by-step tutorials about the INSPIRE workspace can "
 "be found in the deegree `documentation "
-"<http://download.deegree.org/documentation/3.4.1/html/lightly.html#example-"
-"workspace-1-inspire-network-services>`_."
+"<https://download.deegree.org/documentation/3.4.1/html/lightly.html#example-"
+"workspace-1-inspire-network-services>`__."
 msgstr ""
-"További információ és lépésről-lépésre oktatóanyag az INSPIRE "
-"munkaterületről megtalálható a deegree `dokumentációban "
-"<http://download.deegree.org/documentation/3.4.1/html/lightly.html#example-"
-"workspace-1-inspire-network-services>`_."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:86
 msgid "What next?"
@@ -177,9 +169,9 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:91
-msgid "deegree online demo - Available here: http://demo.deegree.org"
+msgid "deegree online demo - Available here: https://www.deegree.org/demo/"
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:93
-msgid "deegree website - Available here: http://www.deegree.org"
+msgid "deegree website - Available here: https://www.deegree.org"
 msgstr ""
