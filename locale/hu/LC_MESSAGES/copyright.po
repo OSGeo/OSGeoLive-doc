@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
-# MarPetra <mvergaratrejo@gmail.com>, 2018
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:53-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -116,7 +116,7 @@ msgstr "OSGeoLive dokumentáció megnevezése"
 #: ../../build/doc/copyright.rst:20
 msgid ""
 "As per the `terms of the Creative Commons license "
-"<https://wiki.creativecommons.org/Frequently_Asked_Questions#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_,"
+"<https://creativecommons.org/faq/#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_,"
 " if you include OSGeoLive documentation into a new document, you will need "
 "to attribute the contributors. Further, if Quickstarts are included, which "
 "are licenced under the `CC By-SA <https://creativecommons.org/licenses/by-"
@@ -124,7 +124,7 @@ msgid ""
 "under the `CC By-SA <https://creativecommons.org/licenses/by-sa/3.0/>`_."
 msgstr ""
 "A `Creative Commons licenc "
-"<https://wiki.creativecommons.org/Frequently_Asked_Questions#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_"
+"<https://creativecommons.org/faq/#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_"
 " feltételei szerint , ha az OSGeoLive dokumentációt egy új dokumentumba "
 "helyezi, akkor meg kell adnia a közreműködőket. Továbbá, ha a "
 "Gyorstalpalókat a `CC By-SA <https://creativecommons.org/licenses/by-"
@@ -132,7 +132,7 @@ msgstr ""
 "By-SA <https://creativecommons.org/licenses/by-sa/3.0/>`_ licenc alatt kell "
 "közzétenni."
 
-#: ../../build/doc/copyright.rst:23
+#: ../../build/doc/copyright.rst:25
 msgid ""
 "Note that images are not necessarily provided under the same CC license as "
 "the text; check with the author."
@@ -140,86 +140,86 @@ msgstr ""
 "Vegye figyelembe, hogy a képeket nem feltétlenül azonos CC licenccel adják "
 "mint a szöveget, egyeztessen a szerzővel."
 
-#: ../../build/doc/copyright.rst:25
+#: ../../build/doc/copyright.rst:27
 msgid "You may use attribution text similar to one of the following:"
 msgstr "A megnevezés szövegben a következőhöz hasonlót használhat:"
 
-#: ../../build/doc/copyright.rst:27
+#: ../../build/doc/copyright.rst:29
 msgid "**Verbose, suitable for a 100 page thesis:**"
 msgstr "**Bőbeszédű, 100 oldalas tézishez alkalmas:**"
 
-#: ../../build/doc/copyright.rst:29
+#: ../../build/doc/copyright.rst:31
 msgid ""
 "|CC-By-SA-med| This document includes content from the \"gvSIG Quickstart\" "
 "created by Simon Cropper under the Creative Commons Attribution-ShareAlike "
 "3.0 Unported licence, https://creativecommons.org/licenses/by-sa/3.0/ "
 "available from the OSGeoLive project, "
-"http://live.osgeo.org/en/quickstart/gvsig_quickstart.html, and downloaded on"
-" 25 July 2011. The original work was translated from English to German."
+"https://live.osgeo.org/en/quickstart/gvsig_quickstart.html, and downloaded "
+"on 25 July 2011. The original work was translated from English to German."
 msgstr ""
 "|CC-By-SA-med| Ez a dokumentum Simon Cropper által készített tartalmat "
 "foglal magába a Creative Commons Attribution-ShareAlike 3.0 Unported licenc "
 "szerint, https://creativecommons.org/licenses/by-sa/3.0/ elérhető az "
 "OSGeoLive projektből, "
-"http://live.osgeo.org/en/quickstart/gvsig_quickstart.html, és 2011. július "
+"https://live.osgeo.org/en/quickstart/gvsig_quickstart.html, és 2011. július "
 "25-én töltötték le. Az eredeti munkát angolról németre fordították."
 
-#: ../../build/doc/copyright.rst:34
+#: ../../build/doc/copyright.rst:36
 msgid "**Concise CC-By-SA and attribution:**"
 msgstr "** Tömör CC-By-SA és megnevezés:**"
 
-#: ../../build/doc/copyright.rst:36
+#: ../../build/doc/copyright.rst:38
 msgid ""
 "© 2011 [Your Name] under a `CC By SA License "
 "<https://creativecommons.org/licenses/by-sa/3.0/>`_.  [Derived "
-"from|Includes|Extends] `OSGeoLive <http://live.osgeo.org>`_ documentation by"
-" `OSGeoLive contributors <http://live.osgeo.org/en/copyright.html>`_."
+"from|Includes|Extends] `OSGeoLive <https://live.osgeo.org>`_ documentation "
+"by `OSGeoLive contributors <http://live.osgeo.org/en/copyright.html>`_."
 msgstr ""
 "© 2011 [az ön neve] `CC By SA Licenc <https://creativecommons.org/licenses"
 "/by-sa/3.0/>`_ szerint. [levezetett|tartalmaz|kibővíti] az `OSGeoLive "
 "hozzájárulók <http://live.osgeo.org/en/copyright.html>`_ által készített "
-"`OSGeoLive <http://live.osgeo.org>`_ dokumentációhoz."
+"`OSGeoLive <https://live.osgeo.org>`_ dokumentációhoz."
 
-#: ../../build/doc/copyright.rst:38
+#: ../../build/doc/copyright.rst:40
 msgid "**Alternative Concise CC-By and attribution:**"
 msgstr "** Alternatív tömör CC-By-SA és megnevezés:**"
 
-#: ../../build/doc/copyright.rst:40
+#: ../../build/doc/copyright.rst:42
 msgid ""
 "|CC-By-small| © 2011 [Your Name]. [Derived from|Includes|Extends] `OSGeoLive"
-" <http://live.osgeo.org>`_ Project Overviews by `OSGeoLive contributors "
+" <https://live.osgeo.org>`_ Project Overviews by `OSGeoLive contributors "
 "<http://live.osgeo.org/en/copyright.html>`_."
 msgstr ""
 "|CC-By-small| © 2011 [az ön neve]. [levezetve ebbőlItartalmazza|kibővíti]  "
-"az `OSGeoLive <http://live.osgeo.org>`_`OSGeoLive közreműködők "
+"az `OSGeoLive <https://live.osgeo.org>`_`OSGeoLive közreműködők "
 "<http://live.osgeo.org/en/copyright.html>`_ által készített projekt "
 "áttekintőket."
 
-#: ../../build/doc/copyright.rst:45
+#: ../../build/doc/copyright.rst:47
 msgid "**Minimum (for Project Overviews), attribution only:**"
 msgstr "**Minimum (a projekt áttekintőkhöz), csak megnevezés:**"
 
-#: ../../build/doc/copyright.rst:47
+#: ../../build/doc/copyright.rst:49
 msgid ""
-"This document includes `OSGeoLive <http://live.osgeo.org>`_ Project "
+"This document includes `OSGeoLive <https://live.osgeo.org>`_ Project "
 "Overviews by `OSGeoLive contributors "
 "<http://live.osgeo.org/en/copyright.html>`_."
 msgstr ""
 "Ez a dokumentum az `OSGeoLive hozzájárulók  "
 "<http://live.osgeo.org/en/copyright.html>`_ által készített  `OSGeoLive "
-"<http://live.osgeo.org>`_ projekt áttekintőket tartalmaz."
+"<https://live.osgeo.org>`_ projekt áttekintőket tartalmaz."
 
-#: ../../build/doc/copyright.rst:50
+#: ../../build/doc/copyright.rst:52
 msgid "Documentation Contributors"
 msgstr "Dokumentáció közreműködői"
 
-#: ../../build/doc/copyright.rst:52
+#: ../../build/doc/copyright.rst:54
 msgid ""
 "The table below credits the contributors for each of the documents on "
 "OSGeoLive."
 msgstr "Az alábbi táblázat felsorolja az OSGeoLive dokumentációk készítőit."
 
-#: ../../build/doc/copyright.rst:54
+#: ../../build/doc/copyright.rst:56
 msgid "OSGeoLive Document Contributors"
 msgstr "OSGeoLive dokumentáció közreműködők"
 
@@ -382,14 +382,13 @@ msgid "cartaro_overview"
 msgstr "cartaro_overview"
 
 #: ../../build/licenses.csv:1
-msgid ""
-"Friedjoff Trautwein, http://www.geops.de; Patric Hafner, http://www.geops.de"
+msgid "Friedjoff Trautwein, https://geops.de; Patric Hafner, https://geops.de"
 msgstr ""
-"Friedjoff Trautwein, http://www.geops.de; Patric Hafner, http://www.geops.de"
+"Friedjoff Trautwein, https://geops.de; Patric Hafner, https://geops.de"
 
 #: ../../build/licenses.csv:1
-msgid "Cameron Shorter, http://jirotech.com"
-msgstr "Cameron Shorter, http://jirotech.com"
+msgid "Cameron Shorter, https://www.jirotech.com"
+msgstr "Cameron Shorter, https://www.jirotech.com"
 
 #: ../../build/licenses.csv:1
 msgid "cesium_overview"
@@ -967,11 +966,11 @@ msgstr "cartaro_quickstart"
 
 #: ../../build/licenses.csv:1
 msgid ""
-"Friedjoff Trautwein (http://www.geops.de); Augustus Kling "
-"(http://www.geops.de); Patric Hafner (http://www.geops.de)"
+"Friedjoff Trautwein (https://geops.de); Augustus Kling (https://geops.de); "
+"Patric Hafner (https://geops.de)"
 msgstr ""
-"Friedjoff Trautwein (http://www.geops.de); Augustus Kling "
-"(http://www.geops.de); Patric Hafner (http://www.geops.de)"
+"Friedjoff Trautwein (https://geops.de); Augustus Kling (https://geops.de); "
+"Patric Hafner (https://geops.de)"
 
 #: ../../build/licenses.csv:1
 msgid "cesium_quickstart"
@@ -1435,11 +1434,11 @@ msgstr "webworldwind_quickstart"
 
 #: ../../build/licenses.csv:1 ../../build/licenses.csv:1
 msgid ""
-"`NASA OPEN SOURCE AGREEMENT VERSION 1.3 <http://worldwind.arc.nasa.gov"
-"/worldwind-nosa-1.3.html/>`_"
+"`NASA OPEN SOURCE AGREEMENT VERSION 1.3 "
+"<https://opensource.org/licenses/NASA-1.3>`_"
 msgstr ""
-"`NASA OPEN SOURCE AGREEMENT VERSION 1.3 <http://worldwind.arc.nasa.gov"
-"/worldwind-nosa-1.3.html/>`_"
+"`NASA OPEN SOURCE AGREEMENT VERSION 1.3 "
+"<https://opensource.org/licenses/NASA-1.3>`_"
 
 #: ../../build/licenses.csv:1
 msgid "worldwindjava_quickstart"
@@ -1457,11 +1456,11 @@ msgstr "Angelos Tzotsos; Cameron Shorter, Jirotech"
 msgid "zygrib_quickstart"
 msgstr "zygrib_quickstart"
 
-#: ../../build/doc/copyright.rst:59
+#: ../../build/doc/copyright.rst:61
 msgid "Disclaimer"
 msgstr "Felelősség kizárása"
 
-#: ../../build/doc/copyright.rst:61
+#: ../../build/doc/copyright.rst:63
 msgid ""
 "*The contents of OSGeoLive are provided by the copyright holders and "
 "contributors \"as is\" and any express or implied warranties, including, but"
