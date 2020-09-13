@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -83,8 +83,10 @@ msgid "AIS input decoding"
 msgstr "AIS input dekódolás"
 
 #: ../../build/doc/overview/opencpn_overview.rst:40
-msgid "NMEA GPS or `Gpsd <http://gpsd.berlios.de>`_ daemon input"
-msgstr "NMEA GPS vagy `Gpsd <http://gpsd.berlios.de>`_ daemon input"
+msgid ""
+"NMEA GPS or `Gpsd <https://www.berlios.de/software/gpsd/>`_ daemon input"
+msgstr ""
+"NMEA GPS vagy `Gpsd <https://www.berlios.de/software/gpsd/>`_ daemon input"
 
 #: ../../build/doc/overview/opencpn_overview.rst:41
 msgid "Waypoint / autopilot navigation"
@@ -115,8 +117,8 @@ msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/opencpn_overview.rst:51
-msgid "**Website:** http://www.opencpn.org"
-msgstr "**Honlap:** http://www.opencpn.org"
+msgid "**Website:** https://www.opencpn.org"
+msgstr "**Honlap:** https://www.opencpn.org"
 
 #: ../../build/doc/overview/opencpn_overview.rst:53
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -131,8 +133,8 @@ msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
 msgstr "**Támogatott platformok:** GNU/Linux, Mac OSX, MS Windows"
 
 #: ../../build/doc/overview/opencpn_overview.rst:59
-msgid "**Support:** http://www.cruisersforum.com/forums/f134"
-msgstr "**Támogatás:** http://www.cruisersforum.com/forums/f134"
+msgid "**Support:** https://www.cruisersforum.com/forums/f134/"
+msgstr "**Támogatás:** https://www.cruisersforum.com/forums/f134/"
 
 #: ../../build/doc/overview/opencpn_overview.rst:64
 msgid "Quickstart"
