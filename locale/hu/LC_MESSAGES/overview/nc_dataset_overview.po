@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:14
 msgid "North Carolina USA Educational dataset"
-msgstr ""
+msgstr "Észak Karolina, USA oktatási adatok"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:17
 msgid "Map Data"
@@ -135,16 +135,12 @@ msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:63
-msgid "**Website:** http://www.grassbook.org/data_menu3rd.php"
-msgstr "**Honlap:** http://www.grassbook.org/data_menu3rd.php"
+msgid "**Website:** https://wiki.osgeo.org/wiki/Category:Education"
+msgstr "**Honlap:** https://wiki.osgeo.org/wiki/Category:Education"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:65
-msgid ""
-"**License:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA"
-" 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_"
-msgstr ""
-"**Licenc:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA "
-"3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_"
+msgid "**License:** |CC BY-SA 3.0|"
+msgstr "**Licenc:** |CC BY-SA 3.0|"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:67
 msgid "**Data Version:** 2008"
@@ -162,5 +158,5 @@ msgstr ""
 "**Koordináta-rendszer:** NC State Plane (Lambert Conformal Conic), NAD83"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:73
-msgid "**Support:** http://lists.osgeo.org/mailman/listinfo/geodata"
-msgstr "**Támogatás:** http://lists.osgeo.org/mailman/listinfo/geodata"
+msgid "**Support:** https://lists.osgeo.org/mailman/listinfo/geodata"
+msgstr "**Támogatás:** https://lists.osgeo.org/mailman/listinfo/geodata"
