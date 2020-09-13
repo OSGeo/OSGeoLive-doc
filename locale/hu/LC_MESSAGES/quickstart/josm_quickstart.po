@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -55,17 +55,19 @@ msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:29
 msgid "Start JOSM"
-msgstr ""
+msgstr "JOSM indítása"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:31
 msgid ""
 "From the desktop, choose :menuselection:`Navigation and Maps --> JOSM`. When"
 " JOSM starts, it will look something like this:"
 msgstr ""
+"Az asztalról válassza :menuselection:`Navigation and Maps --> JOSM`. Amikor "
+"a JOSM elindul valahogy így néz ki:"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:38
 msgid "Load a sample (ficticious) map"
-msgstr ""
+msgstr "Egy (képzeletbeli) minta térkép betöltése"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:40
 msgid ""
@@ -81,10 +83,10 @@ msgstr ""
 #: ../../build/doc/quickstart/josm_quickstart.rst:44
 msgid ""
 "Download the file here: `sample.osm "
-"<http://learnosm.org/files/sample.osm>`__"
+"<https://learnosm.org/files/sample.osm>`__"
 msgstr ""
 "Töltse le a fájlt innen: `sample.osm "
-"<http://learnosm.org/files/sample.osm>`__"
+"<https://learnosm.org/files/sample.osm>`__"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:45
 msgid ""
@@ -99,12 +101,16 @@ msgid ""
 "Find the file **sample.osm**. It is probably in your Downloads folder, "
 "unless you saved it somewhere else."
 msgstr ""
+"Keresse meg a **sample.osm** fájlt. Valószínűleg a letöltések mappájában "
+"van, hacsak nem mentette valahová máshová. "
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:53
 msgid ""
 "Click on it, and then click “Open”. You should now see a sample map that "
 "looks like this:"
 msgstr ""
+"Kattintson az \"Open\"-re. Egy minta térképet kell látnia, mely ehhez "
+"hasonlóan néz ki:"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:59
 msgid ""
@@ -117,7 +123,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:64
 msgid "Navigate the map"
-msgstr ""
+msgstr "Navigáció a térképen"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:66
 msgid ""
@@ -153,7 +159,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:85
 msgid "Points, lines, and shapes"
-msgstr ""
+msgstr "Pontok, vonalak és alakzatok"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:87
 msgid ""
@@ -247,19 +253,23 @@ msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:123
 msgid "Changing objects"
-msgstr ""
+msgstr "Objektumok módosítása"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:125
 msgid ""
 "Select the forest on the left side of the map. Be sure to click on the line "
 "around the forest, not one of the points on the line."
 msgstr ""
+"Válassza ki az erdőt a térkép bal oldalán. Győződjön meg róla, hogy az erdő "
+"körüli vonalra kattint és nem az egyik pontra a vonalon. "
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:127
 msgid ""
 "Now hold your left mouse button down and drag your mouse. You should be able"
 " to move the forest to a new location on the map."
 msgstr ""
+"Tartsa nyomva a bal egérgombot és húzza az egeret. El tudja húzni az erdőt "
+"egy új helyre a térképen."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:128
 msgid ""
@@ -302,12 +312,15 @@ msgstr "Idáig a kiválasztás eszközöket használtuk, melyek így néznek ki:
 #: ../../build/doc/quickstart/josm_quickstart.rst:150
 msgid "Before you draw, you need to make sure that nothing is selected."
 msgstr ""
+"Mielőtt elkezd rajzolni, győződjön meg arról, hogy semmit sem szelektált."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:152
 msgid ""
 "Click in the black space on the map, where it is empty, to make sure nothing"
 " is selected."
 msgstr ""
+"Kattintson a fekete területbe a térképen, ahol nincs semmi, hogy semmi se "
+"legyen szelektálva."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:154
 msgid "Click on the second button, the Draw tool."
@@ -361,13 +374,15 @@ msgstr "Kattintson a Select eszközre a bal oldali gomb oszlopban."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:180
 msgid "Select one of the objects that you drew with the Draw tool."
-msgstr ""
+msgstr "Válassza ki az egyik objektumok amit a rajzeszközzel rajzolt."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:181
 msgid ""
 "On the top menu, click “Presets” and choose the type of location you would "
 "like to define."
 msgstr ""
+"A felső menüben kattintson a “Presets”-re és válassza ki a hely típust amit "
+"definiálni szeretne."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:182
 msgid ""
@@ -388,7 +403,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:190
 msgid "Draw your own map"
-msgstr ""
+msgstr "Saját térkép rajzolása"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:192
 msgid ""
@@ -463,20 +478,20 @@ msgstr "Mi a következő?"
 #: ../../build/doc/quickstart/josm_quickstart.rst:217
 msgid ""
 "Try the LearnOSM documentation, from which this quickstart was derived: "
-"http://learnosm.org/en/josm/start-josm/"
+"https://learnosm.org/en/josm/start-josm/"
 msgstr ""
 "Próbálja meg a LearnOSM dokumentációt, melyből ezt a gyorstalpalót "
-"készítettük: http://learnosm.org/en/josm/start-josm/"
+"készítettük: https://learnosm.org/en/josm/start-josm/"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:219
 msgid ""
 "In order to continue editing you first need to download real data. This is "
-"explained in the next chapter: http://learnosm.org/en/josm/more-about-josm/"
+"explained in the next chapter: https://learnosm.org/en/josm/more-about-josm/"
 msgstr ""
 "A szerkesztés folytatásához először valós adatokat kell letöltenie. Ezt a "
-"következő fejezetben magyarázzuk el: http://learnosm.org/en/josm/more-about-"
-"josm/"
+"következő fejezetben magyarázzuk el: https://learnosm.org/en/josm/more-"
+"about-josm/"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:222
 msgid "Website: https://josm.openstreetmap.de/"
-msgstr ""
+msgstr "Honlap: https://josm.openstreetmap.de/"
