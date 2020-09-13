@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:51
 msgid "Opening data"
-msgstr ""
+msgstr "Adatok megnyitása"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:53
 msgid ""
@@ -146,7 +146,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:78
 msgid "Displaying data"
-msgstr ""
+msgstr "Adatok megjelenítése"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:80
 msgid "To display the dataset in a map view:"
@@ -378,7 +378,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:175
 msgid "Creating contour lines"
-msgstr ""
+msgstr "Szintvonalak létrehozása"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:176
 msgid ""
@@ -580,23 +580,13 @@ msgid "What next?"
 msgstr "Mi a következő?"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:258
-msgid "More documentation can be found on the SAGA website:"
-msgstr "További dokumentáció található a SAGA honlapon:"
-
-#: ../../build/doc/quickstart/saga_quickstart.rst:259
-msgid "http://www.saga-gis.org"
-msgstr "http://www.saga-gis.org"
-
-#: ../../build/doc/quickstart/saga_quickstart.rst:263
-msgid "and specifically in the documentation archive:"
-msgstr "és különösen a dokumentáció archívumban:"
-
-#: ../../build/doc/quickstart/saga_quickstart.rst:261
-msgid "http://www.saga-gis.org/en/about/references.html"
-msgstr "http://www.saga-gis.org/en/about/references.html"
-
-#: ../../build/doc/quickstart/saga_quickstart.rst:262
 msgid ""
-"http://sourceforge.net/projects/saga-gis/files/SAGA%20-%20Documentation/"
+"More documentation can be found on the SAGA website: * http://www.saga-"
+"gis.org and specifically in the documentation archive: * http://www.saga-"
+"gis.org/en/about/references.html * https://sourceforge.net/projects/saga-"
+"gis/files/SAGA%20-%20Documentation/"
 msgstr ""
-"http://sourceforge.net/projects/saga-gis/files/SAGA%20-%20Documentation/"
+"Több dokumentáció található a SAGA honlapon: * http://www.saga-gis.org és "
+"kifejezetten a dokumentáció archivumban: * http://www.saga-"
+"gis.org/en/about/references.html * https://sourceforge.net/projects/saga-"
+"gis/files/SAGA%20-%20Documentation/"
