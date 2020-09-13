@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# MarPetra <mvergaratrejo@gmail.com>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"PO-Revision-Date: 2019-08-06 18:07+0000\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/mapcache_overview.rst:16
+msgid "MapCache"
+msgstr "MapCache"
+
+#: ../../build/doc/overview/mapcache_overview.rst:19
+msgid "Web Service"
+msgstr "Servicio Web"
+
+#: ../../build/doc/overview/mapcache_overview.rst:21
+msgid ""
+"MapCache is a server that implements tile caching to speed up access to WMS "
+"layers. The primary objectives are to be fast and easily deployable, while "
+"offering the essential features (and more!) expected from a tile caching "
+"solution."
+msgstr ""
+"MapCache es un servidor que implementa el almacenamiento en caché de "
+"mosaicos para acelerar el acceso a las capas WMS. Los objetivos principales "
+"son ser rápidos y fáciles de implementar, al tiempo que ofrecen las "
+"características esenciales (¡y más!) que se esperan de una solución de "
+"almacenamiento en caché de teselas."
+
+#: ../../build/doc/overview/mapcache_overview.rst:24
+msgid ""
+"MapCache is part of the MapServer family, but can be configured to cache and"
+" serve data from any geospatial server that uses WMS. MapCache can be run on"
+" Apache as a module or on any web server that supports CGI/FastCGI such as "
+"IIS, Nginx, and Jetty."
+msgstr ""
+"MapCache es parte de la familia MapServer, pero se puede configurar para "
+"almacenar en caché y servir datos de cualquier servidor geoespacial que use "
+"WMS. MapCache se puede ejecutar en Apache como un módulo o en cualquier "
+"servidor web que admita CGI/FastCGI como IIS, Nginx y Jetty."
+
+#: ../../build/doc/overview/mapcache_overview.rst:34
+msgid "Core Features"
+msgstr "Características Principales"
+
+#: ../../build/doc/overview/mapcache_overview.rst:36
+msgid "Allows tile caches to be stored in"
+msgstr " Permite almacenar cachés de mosaico en"
+
+#: ../../build/doc/overview/mapcache_overview.rst:38
+msgid "on disk"
+msgstr "en disco"
+
+#: ../../build/doc/overview/mapcache_overview.rst:39
+msgid "in the cloud using REST (S3, Azure, Google)"
+msgstr "en la nube usando REST (S3, Azure, Google)"
+
+#: ../../build/doc/overview/mapcache_overview.rst:40
+msgid "in databases including SQLite, Berkeley DB, Riak"
+msgstr "en bases de datos que incluyen SQLite, Berkeley DB, Riak"
+
+#: ../../build/doc/overview/mapcache_overview.rst:41
+msgid "in Memcache"
+msgstr "en memoria cache"
+
+#: ../../build/doc/overview/mapcache_overview.rst:43
+msgid "Includes a seeder application"
+msgstr "Incluye una aplicación semillera"
+
+#: ../../build/doc/overview/mapcache_overview.rst:44
+msgid "Caching based on dimensions (such as time)"
+msgstr "Cache basado en dimensiones (como tiempo)"
+
+#: ../../build/doc/overview/mapcache_overview.rst:45
+msgid "Allows caching of Mapbox Vector (MVT) and UTFGrid tiles"
+msgstr ""
+"Permite el almacenamiento en caché de mosaicos Vector Mapbox (MVT) y UTFGrid"
+
+#: ../../build/doc/overview/mapcache_overview.rst:46
+msgid "Customizable grids"
+msgstr "Cuadrículas personalizables"
+
+#: ../../build/doc/overview/mapcache_overview.rst:47
+msgid ""
+"Allows tiles to be \"assembled\" together - allowing tiles for different "
+"datasets to be merged together into a single tile to send to the client"
+msgstr ""
+"Permite que los mosaicos se \"ensamblen\" juntos, lo que permite combinar "
+"mosaicos para diferentes conjuntos de datos en un solo mosaico para enviar "
+"al cliente"
+
+#: ../../build/doc/overview/mapcache_overview.rst:49
+msgid "Includes a seeder application to pre-fill caches from the command line"
+msgstr ""
+"Incluye una aplicación de semillera para llenar previamente cachés desde la "
+"línea de comando"
+
+#: ../../build/doc/overview/mapcache_overview.rst:50
+msgid "Allows requests to be proxied back to a server"
+msgstr "Permite que las solicitudes se devuelvan a un servidor"
+
+#: ../../build/doc/overview/mapcache_overview.rst:51
+msgid "An inbuilt demo interface"
+msgstr "na interfaz de demostración incorporada"
+
+#: ../../build/doc/overview/mapcache_overview.rst:54
+msgid "Implemented Standards"
+msgstr "Estándares  implementados"
+
+#: ../../build/doc/overview/mapcache_overview.rst:56
+msgid "Support of numerous Open Geospatial Consortium  (OGC) standards"
+msgstr "Apoyo de numerosos estándares del Open Geospatial Consortium (OGC)"
+
+#: ../../build/doc/overview/mapcache_overview.rst:58
+msgid "|WMS|"
+msgstr "|WMS|"
+
+#: ../../build/doc/overview/mapcache_overview.rst:59
+msgid "|WMTS|"
+msgstr "|WMTS|"
+
+#: ../../build/doc/overview/mapcache_overview.rst:61
+msgid "Additional standards include:"
+msgstr "Estándares adicionales incluyen:"
+
+#: ../../build/doc/overview/mapcache_overview.rst:63
+msgid "`TMS <https://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`__"
+msgstr "`TMS <https://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`__"
+
+#: ../../build/doc/overview/mapcache_overview.rst:64
+msgid "Google Maps XYZ"
+msgstr "Google Maps XYZ"
+
+#: ../../build/doc/overview/mapcache_overview.rst:65
+msgid "KML SuperOverlays"
+msgstr "SuperOverlays KML"
+
+#: ../../build/doc/overview/mapcache_overview.rst:68
+msgid "Demo"
+msgstr "Demostración"
+
+#: ../../build/doc/overview/mapcache_overview.rst:70
+msgid "`Default MapCache Demo <http://localhost/mapcache/demo/>`_"
+msgstr ""
+"`Demostración predeterminada de MapCache <http://localhost/mapcache/demo/>`_"
+
+#: ../../build/doc/overview/mapcache_overview.rst:73
+msgid "Documentation"
+msgstr "Documentación"
+
+#: ../../build/doc/overview/mapcache_overview.rst:75
+msgid "`MapCache Documentation <https://mapserver.org/mapcache/>`_"
+msgstr "`Documentación de MapCache  <https://mapserver.org/mapcache/>`_"
+
+#: ../../build/doc/overview/mapcache_overview.rst:78
+msgid "Details"
+msgstr "Detalles"
+
+#: ../../build/doc/overview/mapcache_overview.rst:80
+msgid "**Website:** https://mapserver.org/mapcache"
+msgstr "**Sitio web:** https://mapserver.org/mapcache"
+
+#: ../../build/doc/overview/mapcache_overview.rst:82
+msgid ""
+"**Licence:** `MIT-style license "
+"<https://mapserver.org/copyright.html#license>`_"
+msgstr ""
+"**Licencia:** `MIT-style license "
+"<https://mapserver.org/copyright.html#license>`_"
+
+#: ../../build/doc/overview/mapcache_overview.rst:84
+msgid "**Software Version:** |version-mapcache|"
+msgstr "**Versión de software:** |version-mapcache|"
+
+#: ../../build/doc/overview/mapcache_overview.rst:86
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
+
+#: ../../build/doc/overview/mapcache_overview.rst:88
+msgid "**Support:** https://mapserver.org/community/"
+msgstr "**Soporte:** https://mapserver.org/community/"
+
+#: ../../build/doc/overview/mapcache_overview.rst:92
+msgid "Quickstart"
+msgstr "Guía de Inicio Rápido"
+
+#: ../../build/doc/overview/mapcache_overview.rst:94
+msgid ":doc:`Quickstart documentation <../quickstart/mapcache_quickstart>`"
+msgstr ""
+":doc:`Documentación de inicio rápido <../quickstart/mapcache_quickstart>`"
