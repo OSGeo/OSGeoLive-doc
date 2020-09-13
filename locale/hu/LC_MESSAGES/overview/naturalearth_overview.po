@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -155,8 +155,8 @@ msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:56
-msgid "**Website:** http://naturalearthdata.com"
-msgstr "**Honlap:** http://naturalearthdata.com"
+msgid "**Website:** http://www.naturalearthdata.com/"
+msgstr "**Honlap:** http://www.naturalearthdata.com/"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:58
 msgid "**License:** None, the data is public domain."
@@ -175,5 +175,5 @@ msgid "**Spatial coordinate system:** WGS84."
 msgstr "**Térbeli koordináta-rendszer:** WGS84."
 
 #: ../../build/doc/overview/naturalearth_overview.rst:66
-msgid "**Support:** http://naturalearthdata.com/forums/"
-msgstr "**Támogatás:** http://naturalearthdata.com/forums/"
+msgid "**Support:** https://www.naturalearthdata.com/forums/"
+msgstr "**Támogatás:** https://www.naturalearthdata.com/forums/"
