@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:31
 msgid "Start GeoNode"
-msgstr ""
+msgstr "GeoNode indítása"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:33
 msgid ""
@@ -221,6 +221,8 @@ msgid ""
 "Currently, there aren't any maps here. To add one click the *Create a New "
 "Map* button."
 msgstr ""
+"Jelenleg nincs egyetlen térkép sem itt. Egy hozzáadásához kattintson a "
+"*Create a New Map* gombra."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:135
 msgid "A map composition interface will display."
@@ -251,6 +253,8 @@ msgid ""
 "Now you should be able to see all the available layers. In this case, this "
 "should include the ones you've added before."
 msgstr ""
+"Most látnia kell az összes elérhető réteget. Az ön esetében tartalmaznia "
+"kellene az ön által korábban hozzáadott rétegeket."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:152
 msgid ""
@@ -349,7 +353,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:208
 msgid "Your map can now be shared."
-msgstr ""
+msgstr "A térképe most megosztható."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:212
 msgid "What next?"
@@ -367,34 +371,33 @@ msgstr ""
 #: ../../build/doc/quickstart/geonode_quickstart.rst:216
 msgid ""
 "To install GeoNode on your own server, follow our `Quick Installation Guide "
-"<http://docs.geonode.org/en/latest/tutorials/install_and_admin/quick_install.html>`_"
-" ."
+"<https://docs.geonode.org/en/master/start/index.html#quick-installation-"
+"guide>`_ ."
 msgstr ""
 "A GeoNode telepítéséhez a saját szerverén, kövesse a  `Quick Installation "
-"Guide-ot "
-"<http://docs.geonode.org/en/latest/tutorials/install_and_admin/quick_install.html>`_"
-" ."
+"Guide-ot <https://docs.geonode.org/en/master/start/index.html#quick-"
+"installation-guide>`_ ."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:218
 msgid ""
 "In order to get started with GeoNode our `documentation "
-"<http://docs.geonode.org/en/latest/index.html>`_ might be useful."
+"<https://docs.geonode.org/en/master/>`_ might be useful."
 msgstr ""
 "Az induláshoz a GeoNode-dal a `dokumentációnk "
-"<http://docs.geonode.org/en/latest/index.html>`_ hasznos lehet."
+"<https://docs.geonode.org/en/master/>`_ hasznos lehet."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:220
 msgid ""
 "If you need help or want to get some information about a specific topic "
 "please don't hasitate to ask us! You can do this through the #geonode IRC "
-"channel using http://webchat.freenode.net/ , through the `GeoNode Gitter "
+"channel using https://webchat.freenode.net/, through the `GeoNode Gitter "
 "channel <https://gitter.im/GeoNode/general>`_ or by asking your question in "
 "our `mailing list <https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-"
 "users>`_ !"
 msgstr ""
 "Ha segítségre van szüksége vagy egy konkrét témakörben akarna több "
 "információt kapni, kérjük ne habozzon megkérdezni minket! Ezt megteheti a "
-"#geonode IRC csatorna használatával http://webchat.freenode.net/, a  "
+"#geonode IRC csatorna használatával https://webchat.freenode.net/, a  "
 "`GeoNode Gitter csatornán <https://gitter.im/GeoNode/general>`_ vagy kérdés "
 "feltevésével a `levelező listánkon <https://lists.osgeo.org/cgi-"
 "bin/mailman/listinfo/geonode-users>`_ !"
