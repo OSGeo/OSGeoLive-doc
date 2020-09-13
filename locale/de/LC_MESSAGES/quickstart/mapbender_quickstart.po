@@ -7,7 +7,7 @@
 # Robin Schwammborn, 2018
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2018
-# Astrid Emde <astrid_emde@osgeo.org>, 2019
+# Astrid Emde <astrid_emde@osgeo.org>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-06 11:23-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2019\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,7 +60,7 @@ msgstr "WMS konfigurieren"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:31
 msgid "add elements to an application"
-msgstr ""
+msgstr "Elemente zu Anwendungen hinzufügen"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:33
 msgid "This is how a Mapbender application can look like:"
@@ -76,6 +76,9 @@ msgid ""
 "the start menu or visit http://localhost/mapbender/app.php. The application "
 "will take a few moments to start up"
 msgstr ""
+"Wählen Sie :menuselection:`Geospatial --> Browser Clients --> Mapbender` aus"
+" dem Startmenü oder besuchen Sie http://localhost/mapbender/app.php. Die "
+"Anwendung braucht eine kurze Zeit, um zu starten."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:47
 msgid ""
@@ -121,6 +124,12 @@ msgid ""
 "change the root password if you want to run a productive environment. Please"
 " don't delete the user :guilabel:`root`.)."
 msgstr ""
+"Klicken Sie oben rechts auf Anmelden, um zum Login-Bereich zu gelangen. "
+"Melden Sie sich mit dem Benutzer :guilabel:`root`  mit dem Kennwort "
+":guilabel:`root`  an (Dies ist die Benutzer/Kennwort-Kombination nach der "
+"Installation von Mapbender auf der OSGeoLive. Bitte ändern Sie das Kennwort,"
+" wenn Sie eine Produktivumgebung betreiben. Löschen Sie den Benutzer root "
+"nicht.)."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:63
 msgid "Create an individual application"
@@ -138,35 +147,42 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:67
 msgid "Choose :menuselection:`Applications --> New Application`"
-msgstr ""
+msgstr "Wählen Sie :menuselection:`Applications --> New Application`"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:69
 msgid "Define a title and description for your application"
-msgstr ""
+msgstr "Geben Sie einen Titel und eine Beschreibung der Anwendung ein"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:71
 msgid ""
 "Define an URL title which will be used in the URL to open the application. "
 "It can be the same as the title"
 msgstr ""
+"Geben Sie einen URL-Titel an, der in der URL benutzt wird, um die Anwendung "
+"zu starten. Er kann identisch zum Titel sein."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:73
 msgid "Upload an image file as screenshot for the application overview"
 msgstr ""
+"Laden Sie eine png-Datei hoch und definieren so ein Vorschaubild für die "
+"Anwendungsübersicht"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:75
 msgid "Choose a template for your application"
-msgstr ""
+msgstr "Wählen Sie eine Layoutvorlage für die Anwendung"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:77
 msgid "Choose the button **Create** to create the application"
 msgstr ""
+"Betätigen Sie die Schaltfläche **Create**, um die Anwendung zu erzeugen."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:79
 msgid ""
 "Your application is set up. Next you need a WMS to be displayed in your "
 "application."
 msgstr ""
+"Ihre Anwendung wurde erstellt. Jetzt benötigen Sie Kartendienste, die in der"
+" Anwendung angezeigt werden sollen."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:86
 msgid "Loading Web Map Services"
@@ -199,6 +215,8 @@ msgid ""
 "Choose menu item :menuselection:`Services --> Add Service` or use the "
 "+-Button."
 msgstr ""
+"Wählen Sie :menuselection:`Services --> Add Service` oder verwenden Sie den "
+"+-Button."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:95
 msgid ""
@@ -207,6 +225,10 @@ msgid ""
 "://osm-"
 "demo.wheregroup.com/service?SERVICE=WMS&VERSION=1.3.0&REQUEST=getCapabilities"
 msgstr ""
+" Geben Sie den Link zur WMS-getCapabilities-URL in das Textfeld "
+":menuselection:`Serviceurl` ein. Hier ist ein Beispiel-WMS: WhereGroup OSM "
+"WMS https://osm-"
+"demo.wheregroup.com/service?SERVICE=WMS&VERSION=1.3.0&REQUEST=getCapabilities"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:98
 msgid "Enter username and password if your service needs authentication."
@@ -217,6 +239,7 @@ msgstr ""
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:100
 msgid "Click **Load** to load the Service to the repository."
 msgstr ""
+"Klicken Sie **Laden (Load)**, um den Dienst in das Repository zu laden."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:105
 msgid ""
@@ -296,7 +319,7 @@ msgstr "Sie sehen eine Tabelle mit den Layern des Dienstes."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:130
 msgid "You can change the order of the layers via drag & drop."
-msgstr ""
+msgstr "Sie können die Reihenfolge der Ebenen über Drag & Drop ändern."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:137
 msgid "Add Elements to your application"
@@ -345,7 +368,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:151
 msgid "You can change the position of the element via drag & drop."
-msgstr ""
+msgstr "Sie können die Position der Elemente über Drag & Drop ändern."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:153
 msgid ""
@@ -437,6 +460,7 @@ msgstr "Versuchen Sie eine eigene Anwendung zu erzeugen."
 msgid ""
 "Create users and groups, and assign an application to the new users/groups."
 msgstr ""
+"Erzeugen Sie Benutzer und Gruppen und weisen Sie diesen Anwendungen zu."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:186
 msgid "What Next?"
@@ -452,18 +476,20 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:190
 msgid "Mapbender Website https://mapbender.org/"
-msgstr ""
+msgstr "Mapbender Webseite https://mapbender.org/"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:192
 msgid "You can find tutorials at https://doc.mapbender.org"
-msgstr ""
+msgstr "Tutorials finden Sie unter https://doc.mapbender.org"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:194
 msgid ""
 "You can find an extended tutorial at "
 "https://doc.mapbender.org/en/quickstart.html"
 msgstr ""
+"Weitergehende Tutorials finden Sie unter "
+"https://doc.mapbender.org/en/quickstart.html"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:196
 msgid "Get involved in the project https://mapbender.org/community/"
-msgstr ""
+msgstr "Beteiligen Sie sich https://mapbender.org/community/"
