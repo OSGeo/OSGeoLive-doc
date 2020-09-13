@@ -4,16 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:11+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,12 +33,12 @@ msgstr "GIS eszközök"
 #: ../../build/doc/overview/pgrouting_overview.rst:23
 msgid ""
 "pgRouting extends the :doc:`PostGIS <postgis_overview>`/`PostgreSQL "
-"<http://postgresql.org>`_ geospatial database to provide geospatial routing "
-"and other network analysis functionality."
+"<https://www.postgresql.org>`_ geospatial database to provide geospatial "
+"routing and other network analysis functionality."
 msgstr ""
 "pgRouting kibővíti a :doc:`PostGIS <postgis_overview>`/`PostgreSQL "
-"<http://postgresql.org>`_ térinformatikai adatbázist, hogy útvonalkeresést "
-"és más hálózatelemző funkciókat biztosítsanak."
+"<https://www.postgresql.org>`_ térinformatikai adatbázist, hogy "
+"útvonalkeresést és más hálózatelemző funkciókat biztosítson."
 
 #: ../../build/doc/overview/pgrouting_overview.rst:25
 msgid "Advantages of the database routing approach are:"
@@ -143,8 +144,8 @@ msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:67
-msgid "**Website:** http://www.pgrouting.org"
-msgstr "**Honlap:** http://www.pgrouting.org"
+msgid "**Website:** https://pgrouting.org/"
+msgstr "**Honlap:** https://pgrouting.org/"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:69
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -163,8 +164,8 @@ msgid "**API Interfaces:** SQL"
 msgstr "**API interfészek:** SQL"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:77
-msgid "**Commercial Support:** http://www.pgrouting.org/support.html"
-msgstr "**Kereskedelmi támogatás:** http://www.pgrouting.org/support.html"
+msgid "**Commercial Support:** https://pgrouting.org/support.html"
+msgstr "**Kereskedelmi támogatás:** https://pgrouting.org/support.html"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:82
 msgid "Quickstart"
