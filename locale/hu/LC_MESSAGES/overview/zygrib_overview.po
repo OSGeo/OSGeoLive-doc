@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -79,8 +79,8 @@ msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/zygrib_overview.rst:41
-msgid "**Website:** http://www.zygrib.org"
-msgstr "**Honlap:** http://www.zygrib.org"
+msgid "**Website:** https://www.zygrib.org"
+msgstr "**Honlap:** https://www.zygrib.org"
 
 #: ../../build/doc/overview/zygrib_overview.rst:43
 msgid "**Licence:** GNU General Public License (GPL) version 3"
@@ -95,8 +95,8 @@ msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
 msgstr "**Támogatott platformok:** GNU/Linux, Mac OSX, MS Windows"
 
 #: ../../build/doc/overview/zygrib_overview.rst:49
-msgid "**Support:** http://zygrib.org/forum/"
-msgstr "**Támogatás:** http://zygrib.org/forum/"
+msgid "**Support:** https://zygrib.org/forum/"
+msgstr "**Támogatás:** https://zygrib.org/forum/"
 
 #: ../../build/doc/overview/zygrib_overview.rst:54
 msgid "Quickstart"
