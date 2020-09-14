@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:53-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-01-21 16:46+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,15 +27,15 @@ msgstr "Üdvözöl az |osgeolive-version|"
 
 #: ../../build/doc/index.rst:5
 msgid ""
-"`OSGeoLive <http://live.osgeo.org>`_ is a self-contained bootable DVD, USB "
-"thumb drive or Virtual Machine based on `Lubuntu <http://lubuntu.net>`_, "
+"`OSGeoLive <https://live.osgeo.org>`_ is a self-contained bootable DVD, USB "
+"thumb drive or Virtual Machine based on `Lubuntu <https://lubuntu.net>`_, "
 "that allows you to try a wide variety of open source geospatial software "
 "without installing anything. It is composed entirely of free software, "
 "allowing it to be freely distributed, duplicated and passed around."
 msgstr ""
 "Az `OSGeoLive <http://live.osgeo.org>`_ egy önállóan indítható,  `Lubuntu "
-"<http://lubuntu.net>` operációs rendszeren alapuló DVD, USB tároló vagy "
-"virtuális gép, mely lehetővé teszi a nyílt forráskódú tréinformatikai "
+"<https://lubuntu.net>` operációs rendszeren alapuló DVD, USB tároló vagy "
+"virtuális gép, mely lehetővé teszi a nyílt forráskódú térinformatikai "
 "szoftverek széles skálájának kipróbálását, anélkül, hogy bármit telepítenie "
 "kellene. Kizárólag szabad szoftverek felhasználásával állították össze, "
 "ezzel lehetővé téve a szabad terjesztést, duplikálást és másoknak átadást."
@@ -79,22 +79,23 @@ msgstr "Válasszon ki egy alkalmazást a \"Geospatial\" menüből. "
 msgid ""
 "OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo "
 "Foundation is a not-for-profit supporting Geospatial Open Source Software "
-"development, promotion and `education <http://www.geoforall.org/>`_."
+"development, promotion and `education <https://www.osgeo.org/initiatives"
+"/geo-for-all/>`_."
 msgstr ""
 "Az OSGeoLive egy `OSGeo Alapítvány <http://osgeo.org/>`_ projekt. Az OSGeo "
 "Alapítvány egy nonprofit szervezet, mely támogatja a nyílt forráskódú "
 "térinformatikai szoftverek fejlesztést, azok promócióját és az `oktatását "
-"<http://www.geoforall.org/>`_."
+"<https://www.osgeo.org/initiatives/geo-for-all/>`_."
 
-#: ../../build/doc/index.rst:32
+#: ../../build/doc/index.rst:34
 msgid "Quick Starts"
 msgstr "Gyors kezdés"
 
-#: ../../build/doc/index.rst:66
+#: ../../build/doc/index.rst:68
 msgid "Presentation"
 msgstr "Prezentációk"
 
-#: ../../build/doc/index.rst:68
+#: ../../build/doc/index.rst:70
 msgid ""
 "A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive "
 "applications, is available with slides, script, and `abstract "

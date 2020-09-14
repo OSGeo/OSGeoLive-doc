@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-03-25 17:45-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -45,7 +45,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:34
 msgid "Start the service and view the demo"
-msgstr ""
+msgstr "Indítsa el a szolgáltatást és nézze meg a demót"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:36
 msgid ""
@@ -70,6 +70,8 @@ msgstr ""
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:40
 msgid "Open Firefox and navigate to `<http://localhost:8011/demo>`_"
 msgstr ""
+"Nyissa meg a Firefox-ot és navigáljona `<http://localhost:8011/demo>`_ "
+"oldalra"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:42
 msgid ""
@@ -83,7 +85,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:46
 msgid "View in desktop GIS"
-msgstr ""
+msgstr "Megtekintés asztali GIS-ben"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:48
 msgid ""

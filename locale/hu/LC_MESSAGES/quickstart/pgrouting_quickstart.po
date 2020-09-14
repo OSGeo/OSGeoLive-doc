@@ -4,16 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,6 +32,10 @@ msgid ""
 "functionality to :doc:`PostGIS <../overview/postgis_overview>`/`PostgreSQL "
 "<https://www.postgresql.org>`_ databases."
 msgstr ""
+"pgRouting egy bővítmény, mely útvonalkeresést és más hálózati elemző "
+"funkcionalitást ad a :doc:`PostGIS "
+"<../overview/postgis_overview>`/`PostgreSQL <https://www.postgresql.org>`_ "
+"adatbázisokhoz."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:23
 msgid ""
@@ -105,6 +110,8 @@ msgid ""
 "Open a new terminal window to verify the version of osm2pgrouting you have "
 "installed. Should read 2.1 or higher."
 msgstr ""
+"Nyisson meg egy új terminál ablakot a telepített osm2pgrouting verziójának "
+"ellenőrzésére. 2.1 vagy későbbi kell legyen."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:76
 msgid "Output shows:"
@@ -260,15 +267,19 @@ msgstr "Mi a következő?"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:287
 msgid ""
-"**pgRouting Website** - Visit the project website https://www.pgrouting.org "
-"to learn more about pgRouting."
+"**pgRouting Website** - Visit the project website https://pgrouting.org to "
+"learn more about pgRouting."
 msgstr ""
+"**pgRouting honlap** - Látogassa meg a projekt honlapját "
+"https://pgrouting.org, hogy többet tudjon meg a pgRouting-ról."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:288
 msgid ""
 "**pgRouting Documentation** - Find the most recent documentation in "
 "https://docs.pgrouting.org."
 msgstr ""
+"**pgRouting dokumentáció** - A legújabb dokumentációt a "
+"https://docs.pgrouting.org oldalon találja."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:289
 msgid ""
@@ -276,6 +287,9 @@ msgid ""
 " and OpenStreetMap road data\"` is available in: "
 "https://workshop.pgrouting.org."
 msgstr ""
+"**pgRouting Workshop** - A `\"FOSS4G routing with pgRouting tools and "
+"OpenStreetMap road data\"` workshop elérhető a "
+"https://workshop.pgrouting.org oldalon."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:290
 msgid ""

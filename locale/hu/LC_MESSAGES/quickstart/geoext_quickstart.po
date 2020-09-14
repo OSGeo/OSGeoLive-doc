@@ -1,0 +1,264 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"PO-Revision-Date: 2019-07-17 15:40+0000\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:14
+msgid "GeoExt Quickstart"
+msgstr "GeoExt gyorstalpaló"
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:16
+msgid ""
+"GeoExt is a JavaScript library that runs in the browser, it combines and "
+"enhances the ExtJS framework and OpenLayers library. This quick start "
+"details the steps to create a rich web application using GeoExt components "
+"in less than 200 lines of code. We will be using the installed MapServer web"
+" services on OSGeoLive a MapServer to supply map layers to the application. "
+"Completing the steps below will result in the demo GeoExt application at "
+"http://localhost/geoext/."
+msgstr ""
+"A GeoExt egy JavaScript könyvtár, mely a böngészőben fut, kombinálja és "
+"kiterjeszti az ExtJS keretrendszert és az OpenLayers könyvtárat. Ez a "
+"gyorstalpaló egy 200 sor kódból álló gazdag web alkalmazás létrehozását "
+"részletezi.  Az OSGeoLive-ra telepített MapServer webes szolgáltatásait "
+"fogjuk használni a térképi rétegek szolgáltatásához az alkalmazáshoz. Az "
+"alábbi lépések befejezése után egy demó GeoExt alkalmazást kapunk a "
+"http://localhost/geoext/ címen."
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:24
+msgid "Create an HTML page"
+msgstr "Egy HTML oldal létrehozása"
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:26
+msgid ""
+"In this step we will set-up an empty HTML page which will contain the "
+"application. We'll use the text editor Leafpad installed on OSGeoLive to "
+"create a new HTML file at ``/var/www/html/geoext/demo.html``"
+msgstr ""
+"Ebben a lépésben egy üres HTML oldalt készítünk el, mely az alkalmazást "
+"fogja tartalmazni. Az OSGeoLive-ra telepített Leafpad szövegszerkesztőt "
+"fogjuk használni az új HTML fájl létrehozására itt "
+"``/var/www/html/geoext/demo.html``"
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:28
+msgid ""
+"Open Leafpad from the command line with elevated permissions (so you can "
+"save the file) using the command below:"
+msgstr ""
+"Nyissa meg a parancssorból a Leafpad megnövelt jogosultsággal  (így el tudja"
+" menteni a fájlt) az alábbi paranccsal:"
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:34
+msgid ""
+"Next paste in the HTML below. This contains links to the ExtJS and "
+"OpenLayers JavaScript libraries, and two CSS files used to style ExtJS and "
+"OpenLayers components."
+msgstr ""
+"Utána másolja be az alábbi HTML-t.. Ez linkeket tartalmaz az ExtJS és "
+"OpenLayers JavaScript könyvtárakhoz és két CSS fájlhoz, melyeket az ExtJS és"
+" OpenLayers komponensek stílusához használjuk."
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:36
+msgid ""
+"We will use the ``Ext.Loader`` class to load in GeoExt JavaScript source "
+"files. These are all in the ``src`` folder in ``/var/www/html/geoext/``."
+msgstr ""
+"Az ``Ext.Loader``osztályt fogjuk használni a GeoExt JavaScript forrás fájlok"
+" betöltéséhez. Ezek mind az ``src``  mappában vannak a "
+"``/var/www/html/geoext/`` alatt."
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:67
+msgid ""
+"You should now be able to view an empty HTML page in Firefox at "
+"http://localhost/geoext/demo.html"
+msgstr ""
+"Most egy üres HTML oldalt kell látnia a Firefox-ban a "
+"http://localhost/geoext/demo.html címen."
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:69
+msgid ""
+"All the JavaScript in the following sections should be pasted after the ``//"
+" all JavaScript application code should go here`` comment in the "
+"``Ext.onReady`` function. Placing code here ensures the JavaScript libraries"
+" have been loaded before running any custom JavaScript code."
+msgstr ""
+"Az összes JavaScriptet a következő fejezetekben az `Ext.onReady`` "
+"függvényben található ``// all JavaScript application code should go here`` "
+"megjegyzés után kell beilleszteni. A kód ide helyezésével biztosítjuk, hogy "
+"a JavaScript könyvtárakat betöltöttük mielőtt bármelyik saját kód lefutna."
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:73
+msgid "Configure OpenLayers objects"
+msgstr "OpenLayers objektumok beállítása"
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:75
+msgid ""
+"Next we will configure some OpenLayers objects used by the application."
+msgstr ""
+"A következőkben az alkalmazás által használt OpenLayers objektumokat "
+"állítjuk be."
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:77
+msgid ""
+"First lets create a map tile layer using OpenStreetMap, and some WMS layers "
+"that are available from the MapServer Itasca demo on OSGeoLive."
+msgstr ""
+"Először hozzunk létre egy csempe térkép réteget az OpenStreetMap "
+"felhasználásával és néhány WMS réteget az OSGeoLive-ban elérhető MapServer "
+"Itasca demóból."
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:113
+msgid ""
+"Next we are going to add in a WFS vector layer - this is a little more "
+"complicated, but follows the same approach of creating a source and then a "
+"layer as the previous layers:"
+msgstr ""
+"A következőkben egy WFS réteget fogunk hozzáadni - ez egy kicsit "
+"bonyolultabb, de az előző rétegekhez hasonlóan ugyanazt a megközelítést "
+"követjük, egy forrás majd utána egy réteg létrehozása:"
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:133
+msgid ""
+"Now we are going to create our OpenLayers map object configured with the "
+"layers we just created. We will also set the center and zoom level of the "
+"map, and add in a select interaction so we can select features in our vector"
+" layer."
+msgstr ""
+"Most az OpenLayers térkép objektumot hozzuk létre, melyet az éppen "
+"létrehozott rétegekkel konfigurálunk. Be fogjuk állítani a térkép "
+"középpontját és nagyítási szintjét valamint hozzáadunk egy kiválasztás "
+"interakciót, hogy a vektor réteg elemeit ki tudjuk választani."
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:152
+msgid "Work with GeoExt components"
+msgstr "Munka a GeoExt komponensekkel"
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:154
+msgid ""
+"Now the map and layers have been configured we are going to create and "
+"configure our GeoExt components."
+msgstr ""
+"Miután a térképet és a rétegeket beállítottuk létre fogjuk hozni és "
+"beállítjuk a GeoExt komponenseket."
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:156
+msgid ""
+"First of all we will create a ``GeoExt.component.Map``. This uses the "
+"OpenLayers map we created, and will be positioned in the 'center' region of "
+"our application."
+msgstr ""
+"Mindenek előtt egy ``GeoExt.component.Map``-et hozunk létre. Ez az általunk "
+"létrehozott OpenLayers térképet használja és az alkalmazásunk 'center' "
+"területére pozicionáljuk."
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:166
+msgid ""
+"Next we will create a layer tree component. The tree has its own data store "
+"- ``GeoExt.data.store.LayersTree``, which we will fill with layers from our "
+"OpenLayers map. The store will then be used to populate our tree panel. We "
+"will also add in a plugin to the tree to allow the map layer order to be "
+"changed by dragging and dropping the layers. The ``flex`` property causes "
+"the tree panel to fill up all available space in its region of the screen."
+msgstr ""
+"Ezután egy rétegfa komponenst hozunk létre. A fának van saját adattárolója -"
+" ``GeoExt.data.store.LayersTree``, melyet az OpenLayers térkép rétegeivel "
+"töltünk fel. A tárat használjuk majd a fa panel benépesítésére. Egy modult "
+"is hozzáadunk a fához, hogy lehetővé tegyük a térképi rétegek sorrendjének "
+"megváltoztatását húzással és elengedéssel. A ``flex`` tulajdonság miatt a fa"
+" panel a képernyő régiójában kitölti az összes rendelkezésre álló helyet."
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:188
+msgid ""
+"We are also going to create a grid component to display the attributes of "
+"features in our WFS layer. Similar to the layer tree store and tree panel, "
+"we create a ``GeoExt.data.store.Features`` store and a grid panel."
+msgstr ""
+"Egy rács komponenst is létrehozunk a WFS rétegünk attribútumainak  "
+"megjelenítésére. Hasonlóan a rétegfa tárhoz és fa panelhez, létrehozunk egy "
+"``GeoExt.data.store.Features``  tárat és egy rács panelt."
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:218
+msgid ""
+"Our final GeoExt component is an overview map - "
+"``GeoExt.component.OverviewMap``. We will configure this to display the "
+"OpenStreetMap layer we created earlier, and place it in an ExtJS panel."
+msgstr ""
+"Az utolsó GeoExt komponensünk egy áttekintő térkép - "
+"``GeoExt.component.OverviewMap``. Ezt az OpenStreetMap réteg megjelenítésére"
+" konfiguráljuk, melyet korábban hoztunk létre és egy ExtJS panelben "
+"helyezzük el."
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:239
+msgid "Create a viewport"
+msgstr "Nézet létrehozása"
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:241
+msgid ""
+"The final step in creating our application is to create a viewport - a "
+"container representing the application which will display all the components"
+" we created above."
+msgstr ""
+"Az utolsó lépés az alkalmazás létrehozásában egy nézet létrehozása - az "
+"alkalmazást reprezentáló konténert, mely az összes általunk létrehozott "
+"komponenst megjeleníti."
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:263
+msgid ""
+"You should now be able to refresh the link http://localhost/geoext/demo.html"
+" in your browser and see a complete GeoExt application similar to the image "
+"below."
+msgstr ""
+"Most frissítenie kellene a http://localhost/geoext/demo.html linket a "
+"böngészőjében és az alábbi képhez hasonló teljes GeoExt alkalmazást kell "
+"látnia."
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:270
+msgid "What's next?"
+msgstr "Mi a következő?"
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:272
+msgid ""
+"The `GeoExt homepage <https://geoext.github.io/geoext3/>`_ contains full "
+"`API documentation <https://geoext.github.io/geoext3/v3.1.0/docs>`_ and "
+"examples"
+msgstr ""
+"A `GeoExt honlap <https://geoext.github.io/geoext3/>`_ tartalmazza a teljes "
+"`API dokumentációt <https://geoext.github.io/geoext3/v3.1.0/docs>`_ és "
+"példákat."
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:274
+msgid ""
+"A `GeoExt workshop <https://github.com/geoext/geoext3-ws>`_ details all the "
+"steps for configuring and using GeoExt3 in your ExtJS applications"
+msgstr ""
+"Egy `GeoExt workshop <https://github.com/geoext/geoext3-ws>`_ az összes "
+"lépést leírja a GeoExt3 konfigurálásához és használatához az ön ExtJS "
+"alkalmazásában."
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:276
+msgid ""
+"The `OpenLayers v4.6.5 API docs <https://openlayers.org/en/v4.6.5/apidoc>`_"
+msgstr ""
+"Az `OpenLayers v4.6.5 API doksik <https://openlayers.org/en/v4.6.5/apidoc>`_"
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:277
+msgid "The `ExtJS 6.2.0 API docs <https://docs.sencha.com/extjs/6.2.0/>`_"
+msgstr "Az `ExtJS 6.2.0 API doksik <https://docs.sencha.com/extjs/6.2.0/>`_"

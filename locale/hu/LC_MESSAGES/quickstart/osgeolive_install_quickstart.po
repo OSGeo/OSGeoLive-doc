@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -121,12 +122,12 @@ msgstr "Ez minden."
 msgid ""
 "Installation Tips In case you are installing using a username other than "
 "\"user\", tomcat applications require to have permission to service command "
-"as described in http://trac.osgeo.org/osgeo/ticket/1153"
+"as described in https://trac.osgeo.org/osgeo/ticket/1153"
 msgstr ""
 "Telepítési tippek, abban az esetben ha a \"user\" felhasználónévtől eltérőt "
 "használ a telepítésnél, akkor a tomcat alkalmazásoknak engedéllyel kell "
 "rendelkezniük a service parancs futtatásához, ahogy a "
-"http://trac.osgeo.org/osgeo/ticket/1153 oldalon írják."
+"https://trac.osgeo.org/osgeo/ticket/1153 oldalon írják."
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:80
 msgid "See Also:"

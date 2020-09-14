@@ -43,4 +43,3 @@ deploy:
   verbose: true
   on:
     branch: master # switch to master when ok
-    condition: $LINKCHECK = OFF

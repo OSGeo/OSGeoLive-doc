@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
@@ -11,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -30,6 +31,8 @@ msgid ""
 "This Quick Start is divided into two parts: GDAL (raster data) and OGR "
 "(vector data)."
 msgstr ""
+"Ez a gyorstalpaló két részből áll: GDAL (raszter adatok) és OGR (vektor "
+"adatok). "
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:24
 msgid "This Quick Start describes how to:"
@@ -77,6 +80,9 @@ msgid ""
 " visualize the results, you can use one of the Desktop GIS Software "
 "applications on OSGeoLive like :doc:`../overview/qgis_overview`."
 msgstr ""
+"Ehhez a gyorstalpalóhoz csak egy terminálra lesz szüksége. Ha meg akarja "
+"jeleníteni az eredményeket, használhatja az asztali GIS alkalmazások egyikét"
+" mint például a :doc:`../overview/qgis_overview`."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:46
 msgid "Get to know GDAL"
@@ -134,7 +140,7 @@ msgstr "nincs koordináta-rendszer"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:107
 msgid "Simple format translation"
-msgstr ""
+msgstr "Egyszerű formátum átalakítás"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:109
 msgid ""
@@ -286,13 +292,13 @@ msgid ""
 " be reprojected gdalwarp does not read all the data.  We can force gdalwarp "
 "to read a bunch of surplus data around chunks as one way to resolve this. "
 "Read more about this in the RasterTutorial "
-"http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
+"https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
 msgstr ""
 "Észrevette, hogy a sarkokat levágta?  Ez azért van, mert az éleket a "
 "pólusnál nem lehet átvetíteni, a gdalwarp nem olvassa be az összes adatot.  "
 "Rákényszeríthetjük a gdalwarp-ot hogy beolvassa a a többlet adatokat, mint "
 "egy módja a probléma megoldásának. Tudjon meg többet erről a RasterTutorial-"
-"ban http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
+"ban https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:255
 msgid "Mosaicking"
@@ -432,22 +438,23 @@ msgid "GDAL Project home"
 msgstr "GDAL projekt honlap"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:455
-msgid "http://www.gdal.org"
-msgstr "http://www.gdal.org"
+msgid "https://gdal.org"
+msgstr "https://gdal.org"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:457
 msgid "GDAL Raster Tutorial"
 msgstr "GDAL raszter oktatóanyag"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:459
-msgid "http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
-msgstr "http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
+msgid "https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
+msgstr "https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:461
 msgid "GDAL Workshop"
 msgstr "GDAL Workshop"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:463
-msgid "http://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
+msgid ""
+"https://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
 msgstr ""
-"http://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
+"https://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"

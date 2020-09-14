@@ -5,16 +5,16 @@
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2018
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-08-19 12:21-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,19 +56,19 @@ msgstr ""
 #: ../../build/doc/overview/proj4_overview.rst:26
 msgid ""
 "Proj4 has been translated from C to `other languages "
-"<http://trac.osgeo.org/metacrs/wiki>`.  These sub-projects include: These "
+"<https://trac.osgeo.org/metacrs/wiki>`.  These sub-projects include: These "
 "tools include: * Proj4js (JavaScript) - used in :doc:`OpenLayers "
 "<openlayers_overview>`. * CS-Map (C++) - used in MapGuide. * "
 "GeoTIFF/libgeotiff (C++). * Proj4J (Java). * `SpatialReference.org "
-"<http://spatialreference.org/>`_  - website to retrieve coordinate system "
+"<https://spatialreference.org/>`_  - website to retrieve coordinate system "
 "definitions (obsolete)."
 msgstr ""
 "A Proj4-et lefordították C-ből `más nyelvekre "
-"<http://trac.osgeo.org/metacrs/wiki>`. Ezek az alprojektek tartalmazzák: "
+"<https://trac.osgeo.org/metacrs/wiki>`. Ezek az alprojektek tartalmazzák: "
 "Ezeket az eszközöket: * * Proj4js (JavaScript) - used in :doc:`OpenLayers "
 "<openlayers_overview>` használja. * CS-Map (C++) MapGuide használja.  * "
 "GeoTIFF/libgeotiff (C++). * Proj4J (Java). * `SpatialReference.org "
-"<http://spatialreference.org/>`_ - honlap a vetületi definíciók  "
+"<https://spatialreference.org/>`_ - honlap a vetületi definíciók  "
 "beszerzésére (idejét múlt)."
 
 #: ../../build/doc/overview/proj4_overview.rst:41
@@ -97,26 +97,26 @@ msgstr "Implementált szabványok"
 #: ../../build/doc/overview/proj4_overview.rst:51
 msgid ""
 "Proj4 uses coordinate system definitions defined by the `European Petroleum "
-"Survey Group (EPSG) <http://www.epsg.org/>`. Well Known Text (WKT) format."
+"Survey Group (EPSG) <https://www.epsg.org/>`. Well Known Text (WKT) format."
 msgstr ""
-"A Proj4 az  `European Petroleum Survey Group (EPSG) <http://www.epsg.org/>` "
-"vetületi definícióját használja.  Well Known Text (WKT) formátum."
+"A Proj4 az  `European Petroleum Survey Group (EPSG) <https://www.epsg.org/>`"
+" vetületi definícióját használja.  Well Known Text (WKT) formátum."
 
 #: ../../build/doc/overview/proj4_overview.rst:57
 msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/proj4_overview.rst:59
-msgid "**Website:**  http://proj4.org/"
-msgstr "**Honlap:**  http://proj4.org/"
+msgid "**Website:** https://proj4.org/index.html"
+msgstr "**Honlap:**  https://proj4.org/index.html"
 
 #: ../../build/doc/overview/proj4_overview.rst:61
 msgid ""
 "**Licence:** `X/MIT style Open Source license "
-"<http://trac.osgeo.org/proj/wiki/WikiStart#License>`_"
+"<https://trac.osgeo.org/proj4j#License>`_"
 msgstr ""
 "**Licenc:** `X/MIT style Open Source license "
-"<http://trac.osgeo.org/proj/wiki/WikiStart#License>`_"
+"<https://trac.osgeo.org/proj4j#License>`_"
 
 #: ../../build/doc/overview/proj4_overview.rst:63
 msgid "**Software Version:** 4.9.2 (stable)"
@@ -131,8 +131,8 @@ msgid "**API Interfaces:** C, C++, Python, Java, Ruby"
 msgstr "**API interfészek:** C, C++, Python, Java, Ruby"
 
 #: ../../build/doc/overview/proj4_overview.rst:69
-msgid "**Support:** http://lists.maptools.org/mailman/listinfo/proj"
-msgstr "**Támogatás:** http://lists.maptools.org/mailman/listinfo/proj"
+msgid "**Support:** https://lists.osgeo.org/mailman/listinfo/proj"
+msgstr "**Támogatás:** https://lists.osgeo.org/mailman/listinfo/proj"
 
 #: ../../build/doc/overview/proj4_overview.rst:73
 msgid "Quickstart"

@@ -4,16 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,16 +32,16 @@ msgstr "Térinformatikai tartalomkezelő rendszer"
 
 #: ../../build/doc/overview/geonode_overview.rst:22
 msgid ""
-"`GeoNode <http://geonode.org>`_ is a Content Management System for "
+"`GeoNode <https://geonode.org>`_ is a Content Management System for "
 "geospatial data which provides creation, sharing, and collaborative use of "
 "geospatial data. Datasets can be uploaded in various formats, maps can be "
 "edited, styled and aggregated through browser based tools, maps and metadata"
 " can be published and searched, and reviews, ratings and comments can be "
 "captured from users."
 msgstr ""
-"`GeoNode <http://geonode.org>`_ egy tartalomkezelő rendszer térinformatikai "
-"adatokhoz, mely a térinformatikai adatok létrehozását, megosztását és közös "
-"használatát biztosítja. Az adatok különböző formátumokban tölthetők fel, a "
+"`GeoNode <https://geonode.org>`_ egy tartalomkezelő rendszer térinformatikai"
+" adatokhoz, mely a térinformatikai adatok létrehozását, megosztását és közös"
+" használatát biztosítja. Az adatok különböző formátumokban tölthetők fel, a "
 "térképek szerkeszthetők. stílusuk módosítható, és összevonhatók böngésző "
 "alapú eszközökkel, a térképek és a meta adatok publikálhatók, kereshetők, "
 "értékelések és megjegyzések gyűjthetők a felhasználóktól."
@@ -145,40 +146,40 @@ msgid "Implemented Standards"
 msgstr "Implementált szabványok"
 
 #: ../../build/doc/overview/geonode_overview.rst:69
-msgid "`WMS <http://www.opengeospatial.org/standards/wms>`__"
-msgstr "`WMS <http://www.opengeospatial.org/standards/wms>`__"
+msgid "|WMS|"
+msgstr "|WMS|"
 
 #: ../../build/doc/overview/geonode_overview.rst:70
-msgid "`CSW <http://www.opengeospatial.org/standards/csw>`__"
-msgstr "`CSW <http://www.opengeospatial.org/standards/csw>`__"
+msgid "|CSW|"
+msgstr "|CSW|"
 
 #: ../../build/doc/overview/geonode_overview.rst:71
-msgid "`WFS <http://www.opengeospatial.org/standards/wfs>`__"
-msgstr "`WFS <http://www.opengeospatial.org/standards/wfs>`__"
+msgid "|WFS|"
+msgstr "|WFS|"
 
 #: ../../build/doc/overview/geonode_overview.rst:72
-msgid "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
-msgstr "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
+msgid "|WCS|"
+msgstr "|WCS|"
 
 #: ../../build/doc/overview/geonode_overview.rst:73
-msgid "`FE <http://www.opengeospatial.org/standards/fe>`__"
-msgstr "`FE <http://www.opengeospatial.org/standards/fe>`__"
+msgid "|FE|"
+msgstr "|FE|"
 
 #: ../../build/doc/overview/geonode_overview.rst:74
-msgid "`SLD <http://www.opengeospatial.org/standards/sld>`__"
-msgstr "`SLD <http://www.opengeospatial.org/standards/sld>`__"
+msgid "|SLD|"
+msgstr "|SLD|"
 
 #: ../../build/doc/overview/geonode_overview.rst:75
-msgid "`GML <http://www.opengeospatial.org/standards/gml>`__"
-msgstr "`GML <http://www.opengeospatial.org/standards/gml>`__"
+msgid "|GML|"
+msgstr "|GML|"
 
 #: ../../build/doc/overview/geonode_overview.rst:78
 msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/geonode_overview.rst:80
-msgid "**Website:** http://geonode.org/"
-msgstr "**Honlap:** http://geonode.org/"
+msgid "**Website:** https://geonode.org"
+msgstr "**Honlap:** https://geonode.org"
 
 #: ../../build/doc/overview/geonode_overview.rst:82
 msgid "**Licence:** GNU General Public License (GPL) version 2.0"
@@ -197,8 +198,8 @@ msgid "**API Interfaces:** Python (Django)"
 msgstr "**API interfészek:** Python (Django)"
 
 #: ../../build/doc/overview/geonode_overview.rst:90
-msgid "**Support:** http://opengeo.org/technology/geonode/"
-msgstr "**Támogatás:** http://opengeo.org/technology/geonode/"
+msgid "**Support:** https://www.osgeo.org/service-providers"
+msgstr "**Támogatás:** https://www.osgeo.org/service-providers"
 
 #: ../../build/doc/overview/geonode_overview.rst:94
 msgid "Quickstart"
