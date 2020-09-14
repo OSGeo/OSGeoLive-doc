@@ -132,7 +132,7 @@
 <div class="section" id="setting-up-the-map">
 <h2><a class="toc-backref" href="#id4">Einrichten der Karte</a><a class="headerlink" href="#setting-up-the-map" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Erstellen wir eine Karte von Ostafrika mit einem Hinweis auf die FOSS4G-Konferenz 2018. Zuerst initialisieren wir die Karte und legen die Ansicht auf unsere gewählten geographischen Koordinaten und eine Zoomstufe fest:</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">map</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="s1">&#39;map&#39;</span><span class="p">).</span><span class="nx">setView</span><span class="p">([</span><span class="mf">44.43743</span><span class="p">,</span> <span class="mf">26.104</span><span class="p">],</span> <span class="mi">15</span><span class="p">);</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">map</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="s1">&#39;map&#39;</span><span class="p">).</span><span class="nx">setView</span><span class="p">([</span><span class="mf">44.43743</span><span class="p">,</span> <span class="mf">26.104</span><span class="p">],</span> <span class="mf">15</span><span class="p">);</span>
 </pre></div>
 </div>
 <p>Standardmäßig (da wir beim Erstellen der Karteninstanz keine Optionen übergeben haben) sind alle Maus- und Touchinteraktionen auf der Karte aktiviert, und sie verfügt über Zoom- und Attributions-Steuerelemente.</p>
@@ -156,7 +156,7 @@
 </pre></div>
 </div>
 <p>Das Hinzufügen eines Kreises ist identisch (mit Ausnahme der Angabe des Radius in Metern als zweites Argument), Sie können jedoch steuern, wie er aussieht, indem Sie Optionen als letztes Argument beim Erstellen des Objekts übergeben:</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">circle</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">circle</span><span class="p">([</span><span class="mf">44.435</span><span class="p">,</span> <span class="mf">26.11</span><span class="p">],</span> <span class="mi">250</span><span class="p">,</span> <span class="p">{</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">circle</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">circle</span><span class="p">([</span><span class="mf">44.435</span><span class="p">,</span> <span class="mf">26.11</span><span class="p">],</span> <span class="mf">250</span><span class="p">,</span> <span class="p">{</span>
    <span class="nx">color</span><span class="o">:</span> <span class="s1">&#39;red&#39;</span><span class="p">,</span>
    <span class="nx">fillColor</span><span class="o">:</span> <span class="s1">&#39;#f03&#39;</span><span class="p">,</span>
    <span class="nx">fillOpacity</span><span class="o">:</span> <span class="mf">0.5</span>

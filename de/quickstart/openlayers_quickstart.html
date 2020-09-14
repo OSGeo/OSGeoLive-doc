@@ -143,7 +143,7 @@
             <span class="p">],</span>
             <span class="nx">view</span><span class="o">:</span> <span class="k">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">View</span><span class="p">({</span>
               <span class="nx">center</span><span class="o">:</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">proj</span><span class="p">.</span><span class="nx">fromLonLat</span><span class="p">([</span><span class="mf">2.1833</span><span class="p">,</span> <span class="mf">41.3833</span><span class="p">]),</span>
-              <span class="nx">zoom</span><span class="o">:</span> <span class="mi">6</span>
+              <span class="nx">zoom</span><span class="o">:</span> <span class="mf">6</span>
             <span class="p">})</span>
           <span class="p">});</span>
         <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
@@ -219,11 +219,11 @@
 <p>Objekte können auch manuell erstellt werden. In diesem Fall müssen wir eine Geometrie erstellen, die das Objekt darstellt:</p>
 <div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="c1">// Geometries</span>
 <span class="kd">var</span> <span class="nx">point</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">geom</span><span class="p">.</span><span class="nx">Point</span><span class="p">(</span>
-    <span class="nx">ol</span><span class="p">.</span><span class="nx">proj</span><span class="p">.</span><span class="nx">transform</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span><span class="mi">50</span><span class="p">],</span> <span class="s1">&#39;EPSG:4326&#39;</span><span class="p">,</span> <span class="s1">&#39;EPSG:3857&#39;</span><span class="p">)</span>
+    <span class="nx">ol</span><span class="p">.</span><span class="nx">proj</span><span class="p">.</span><span class="nx">transform</span><span class="p">([</span><span class="mf">3</span><span class="p">,</span><span class="mf">50</span><span class="p">],</span> <span class="s1">&#39;EPSG:4326&#39;</span><span class="p">,</span> <span class="s1">&#39;EPSG:3857&#39;</span><span class="p">)</span>
 <span class="p">);</span>
 <span class="kd">var</span> <span class="nx">circle</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">geom</span><span class="p">.</span><span class="nx">Circle</span><span class="p">(</span>
     <span class="nx">ol</span><span class="p">.</span><span class="nx">proj</span><span class="p">.</span><span class="nx">transform</span><span class="p">([</span><span class="mf">2.1833</span><span class="p">,</span> <span class="mf">41.3833</span><span class="p">],</span> <span class="s1">&#39;EPSG:4326&#39;</span><span class="p">,</span> <span class="s1">&#39;EPSG:3857&#39;</span><span class="p">),</span>
-    <span class="mi">1000000</span>
+    <span class="mf">1000000</span>
 <span class="p">);</span>
 
 <span class="c1">// Features</span>
@@ -263,10 +263,10 @@
     <span class="p">}),</span>
     <span class="nx">stroke</span><span class="o">:</span> <span class="k">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">Stroke</span><span class="p">({</span>
       <span class="nx">color</span><span class="o">:</span> <span class="s1">&#39;rgba(55, 155, 55, 0.8)&#39;</span><span class="p">,</span>
-      <span class="nx">width</span><span class="o">:</span> <span class="mi">1</span>
+      <span class="nx">width</span><span class="o">:</span> <span class="mf">1</span>
     <span class="p">}),</span>
     <span class="nx">image</span><span class="o">:</span> <span class="k">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">Circle</span><span class="p">({</span>
-      <span class="nx">radius</span><span class="o">:</span> <span class="mi">7</span><span class="p">,</span>
+      <span class="nx">radius</span><span class="o">:</span> <span class="mf">7</span><span class="p">,</span>
       <span class="nx">fill</span><span class="o">:</span> <span class="k">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">Fill</span><span class="p">({</span>
         <span class="nx">color</span><span class="o">:</span> <span class="s1">&#39;rgba(55, 155, 55, 0.5)&#39;</span><span class="p">,</span>
       <span class="p">})</span>

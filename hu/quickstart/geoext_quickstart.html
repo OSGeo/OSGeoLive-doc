@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="hu">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>GeoExt Quickstart &#8212; OSGeoLive 13.0 Documentation</title>
+    <title>GeoExt gyorstalpaló &#8212; OSGeoLive 13.0 Documentation</title>
     <link rel="stylesheet" href="../../_static/overview.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -71,31 +71,29 @@
             
   <a class="reference external image-reference" href="https://geoext.github.io/geoext3"><img alt="../../_images/logo_geoext.png" class="align-right" src="../../_images/logo_geoext.png" /></a>
 <div class="section" id="geoext-quickstart">
-<h1>GeoExt Quickstart<a class="headerlink" href="#geoext-quickstart" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
-<p>GeoExt is a JavaScript library that runs in the browser, it combines and enhances the ExtJS framework and OpenLayers library.
-This quick start details the steps to create a rich web application using GeoExt components in less than 200 lines of code.
-We will be using the installed MapServer web services on OSGeoLive a MapServer to supply map layers to the application. Completing the steps below will result in the demo GeoExt application at <a class="reference external" href="http://localhost/geoext/">http://localhost/geoext/</a>.</p>
+<h1>GeoExt gyorstalpaló<a class="headerlink" href="#geoext-quickstart" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
+<p>A GeoExt egy JavaScript könyvtár, mely a böngészőben fut, kombinálja és kiterjeszti az ExtJS keretrendszert és az OpenLayers könyvtárat. Ez a gyorstalpaló egy 200 sor kódból álló gazdag web alkalmazás létrehozását részletezi.  Az OSGeoLive-ra telepített MapServer webes szolgáltatásait fogjuk használni a térképi rétegek szolgáltatásához az alkalmazáshoz. Az alábbi lépések befejezése után egy demó GeoExt alkalmazást kapunk a <a class="reference external" href="http://localhost/geoext/">http://localhost/geoext/</a> címen.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#create-an-html-page" id="id1">Create an HTML page</a></li>
-<li><a class="reference internal" href="#configure-openlayers-objects" id="id2">Configure OpenLayers objects</a></li>
-<li><a class="reference internal" href="#work-with-geoext-components" id="id3">Work with GeoExt components</a></li>
-<li><a class="reference internal" href="#create-a-viewport" id="id4">Create a viewport</a></li>
-<li><a class="reference internal" href="#what-s-next" id="id5">What’s next?</a></li>
+<li><a class="reference internal" href="#create-an-html-page" id="id1">Egy HTML oldal létrehozása</a></li>
+<li><a class="reference internal" href="#configure-openlayers-objects" id="id2">OpenLayers objektumok beállítása</a></li>
+<li><a class="reference internal" href="#work-with-geoext-components" id="id3">Munka a GeoExt komponensekkel</a></li>
+<li><a class="reference internal" href="#create-a-viewport" id="id4">Nézet létrehozása</a></li>
+<li><a class="reference internal" href="#what-s-next" id="id5">Mi a következő?</a></li>
 </ul>
 </div>
 <div class="section" id="create-an-html-page">
-<h2><a class="toc-backref" href="#id1">Create an HTML page</a><a class="headerlink" href="#create-an-html-page" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>In this step we will set-up an empty HTML page which will contain the application. We’ll use the text editor Leafpad installed on OSGeoLive to create a new HTML file at <code class="docutils literal"><span class="pre">/var/www/html/geoext/demo.html</span></code></p>
+<h2><a class="toc-backref" href="#id1">Egy HTML oldal létrehozása</a><a class="headerlink" href="#create-an-html-page" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<p>Ebben a lépésben egy üres HTML oldalt készítünk el, mely az alkalmazást fogja tartalmazni. Az OSGeoLive-ra telepített Leafpad szövegszerkesztőt fogjuk használni az új HTML fájl létrehozására itt <code class="docutils literal"><span class="pre">/var/www/html/geoext/demo.html</span></code></p>
 <ol class="arabic">
-<li><p class="first">Open Leafpad from the command line with elevated permissions (so you can save the file) using the command below:</p>
+<li><p class="first">Nyissa meg a parancssorból a Leafpad megnövelt jogosultsággal  (így el tudja menteni a fájlt) az alábbi paranccsal:</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>sudo leafpad
 </pre></div>
 </div>
 </li>
-<li><p class="first">Next paste in the HTML below. This contains links to the ExtJS and OpenLayers JavaScript libraries, and two CSS files used to style ExtJS and OpenLayers components.</p>
-<p>We will use the <code class="docutils literal"><span class="pre">Ext.Loader</span></code> class to load in GeoExt JavaScript source files. These are all in the <code class="docutils literal"><span class="pre">src</span></code> folder in <code class="docutils literal"><span class="pre">/var/www/html/geoext/</span></code>.</p>
+<li><p class="first">Utána másolja be az alábbi HTML-t.. Ez linkeket tartalmaz az ExtJS és OpenLayers JavaScript könyvtárakhoz és két CSS fájlhoz, melyeket az ExtJS és OpenLayers komponensek stílusához használjuk.</p>
+<p>Az <code class="docutils literal"><span class="pre">Ext.Loader``osztályt</span> <span class="pre">fogjuk</span> <span class="pre">használni</span> <span class="pre">a</span> <span class="pre">GeoExt</span> <span class="pre">JavaScript</span> <span class="pre">forrás</span> <span class="pre">fájlok</span> <span class="pre">betöltéséhez.</span> <span class="pre">Ezek</span> <span class="pre">mind</span> <span class="pre">az</span> <span class="pre">``src</span></code>&nbsp; mappában vannak a <code class="docutils literal"><span class="pre">/var/www/html/geoext/</span></code> alatt.</p>
 <div class="highlight-html"><div class="highlight"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
 <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
@@ -126,15 +124,14 @@ We will be using the installed MapServer web services on OSGeoLive a MapServer t
 </div>
 </li>
 </ol>
-<p>You should now be able to view an empty HTML page in Firefox at <a class="reference external" href="http://localhost/geoext/demo.html">http://localhost/geoext/demo.html</a></p>
-<p>All the JavaScript in the following sections should be pasted after the <code class="docutils literal"><span class="pre">//</span> <span class="pre">all</span> <span class="pre">JavaScript</span> <span class="pre">application</span> <span class="pre">code</span> <span class="pre">should</span> <span class="pre">go</span> <span class="pre">here</span></code> comment in the
-<code class="docutils literal"><span class="pre">Ext.onReady</span></code> function. Placing code here ensures the JavaScript libraries have been loaded before running any custom JavaScript code.</p>
+<p>Most egy üres HTML oldalt kell látnia a Firefox-ban a <a class="reference external" href="http://localhost/geoext/demo.html">http://localhost/geoext/demo.html</a> címen.</p>
+<p>Az összes JavaScriptet a következő fejezetekben az <cite>Ext.onReady`</cite> függvényben található <code class="docutils literal"><span class="pre">//</span> <span class="pre">all</span> <span class="pre">JavaScript</span> <span class="pre">application</span> <span class="pre">code</span> <span class="pre">should</span> <span class="pre">go</span> <span class="pre">here</span></code> megjegyzés után kell beilleszteni. A kód ide helyezésével biztosítjuk, hogy a JavaScript könyvtárakat betöltöttük mielőtt bármelyik saját kód lefutna.</p>
 </div>
 <div class="section" id="configure-openlayers-objects">
-<h2><a class="toc-backref" href="#id2">Configure OpenLayers objects</a><a class="headerlink" href="#configure-openlayers-objects" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>Next we will configure some OpenLayers objects used by the application.</p>
+<h2><a class="toc-backref" href="#id2">OpenLayers objektumok beállítása</a><a class="headerlink" href="#configure-openlayers-objects" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<p>A következőkben az alkalmazás által használt OpenLayers objektumokat állítjuk be.</p>
 <ol class="arabic">
-<li><p class="first">First lets create a map tile layer using OpenStreetMap, and some WMS layers that are available from the MapServer Itasca demo on OSGeoLive.</p>
+<li><p class="first">Először hozzunk létre egy csempe térkép réteget az OpenStreetMap felhasználásával és néhány WMS réteget az OSGeoLive-ban elérhető MapServer Itasca demóból.</p>
 <div class="highlight-js"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">map</span><span class="p">;</span>
 <span class="kd">var</span> <span class="nx">mapServerUrl</span> <span class="o">=</span> <span class="s1">&#39;http://localhost/cgi-bin/mapserv?map=/usr/local/www/docs_maps/mapserver_demos/itasca/itasca.map&amp;&#39;</span><span class="p">;</span>
 
@@ -169,7 +166,7 @@ We will be using the installed MapServer web services on OSGeoLive a MapServer t
 </pre></div>
 </div>
 </li>
-<li><p class="first">Next we are going to add in a WFS vector layer - this is a little more complicated, but follows the same approach of creating a source and then a layer as the previous layers:</p>
+<li><p class="first">A következőkben egy WFS réteget fogunk hozzáadni - ez egy kicsit bonyolultabb, de az előző rétegekhez hasonlóan ugyanazt a megközelítést követjük, egy forrás majd utána egy réteg létrehozása:</p>
 <div class="highlight-js"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">vectorSource</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">Vector</span><span class="p">({</span>
     <span class="nx">format</span><span class="o">:</span> <span class="k">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">format</span><span class="p">.</span><span class="nx">GeoJSON</span><span class="p">(),</span>
     <span class="nx">url</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">extent</span><span class="p">)</span> <span class="p">{</span>
@@ -188,15 +185,14 @@ We will be using the installed MapServer web services on OSGeoLive a MapServer t
 </pre></div>
 </div>
 </li>
-<li><p class="first">Now we are going to create our OpenLayers map object configured with the layers we just created. We will also set the center
-and zoom level of the map, and add in a select interaction so we can select features in our vector layer.</p>
+<li><p class="first">Most az OpenLayers térkép objektumot hozzuk létre, melyet az éppen létrehozott rétegekkel konfigurálunk. Be fogjuk állítani a térkép középpontját és nagyítási szintjét valamint hozzáadunk egy kiválasztás interakciót, hogy a vektor réteg elemeit ki tudjuk választani.</p>
 <div class="highlight-js"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">map</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">Map</span><span class="p">({</span>
     <span class="nx">layers</span><span class="o">:</span> <span class="p">[</span>
         <span class="nx">wmsLayer1</span><span class="p">,</span> <span class="nx">wmsLayer2</span><span class="p">,</span> <span class="nx">wmsLayer3</span><span class="p">,</span> <span class="nx">vectorLayer</span>
     <span class="p">],</span>
     <span class="nx">view</span><span class="o">:</span> <span class="k">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">View</span><span class="p">({</span>
         <span class="nx">center</span><span class="o">:</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">proj</span><span class="p">.</span><span class="nx">fromLonLat</span><span class="p">([</span><span class="o">-</span><span class="mf">93.33</span><span class="p">,</span> <span class="mf">47.32</span><span class="p">]),</span>
-        <span class="nx">zoom</span><span class="o">:</span> <span class="mi">6</span>
+        <span class="nx">zoom</span><span class="o">:</span> <span class="mf">6</span>
     <span class="p">})</span>
 <span class="p">});</span>
 
@@ -208,10 +204,10 @@ and zoom level of the map, and add in a select interaction so we can select feat
 </ol>
 </div>
 <div class="section" id="work-with-geoext-components">
-<h2><a class="toc-backref" href="#id3">Work with GeoExt components</a><a class="headerlink" href="#work-with-geoext-components" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>Now the map and layers have been configured we are going to create and configure our GeoExt components.</p>
+<h2><a class="toc-backref" href="#id3">Munka a GeoExt komponensekkel</a><a class="headerlink" href="#work-with-geoext-components" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<p>Miután a térképet és a rétegeket beállítottuk létre fogjuk hozni és beállítjuk a GeoExt komponenseket.</p>
 <ol class="arabic">
-<li><p class="first">First of all we will create a <code class="docutils literal"><span class="pre">GeoExt.component.Map</span></code>. This uses the OpenLayers map we created, and will be positioned in the «center» region of our application.</p>
+<li><p class="first">Mindenek előtt egy <code class="docutils literal"><span class="pre">GeoExt.component.Map</span></code>-et hozunk létre. Ez az általunk létrehozott OpenLayers térképet használja és az alkalmazásunk «center» területére pozicionáljuk.</p>
 <div class="highlight-js"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">mapComponent</span> <span class="o">=</span> <span class="nx">Ext</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="s1">&#39;GeoExt.component.Map&#39;</span><span class="p">,</span> <span class="p">{</span>
     <span class="nx">map</span><span class="o">:</span> <span class="nx">map</span><span class="p">,</span>
     <span class="nx">region</span><span class="o">:</span> <span class="s1">&#39;center&#39;</span>
@@ -219,18 +215,15 @@ and zoom level of the map, and add in a select interaction so we can select feat
 </pre></div>
 </div>
 </li>
-<li><p class="first">Next we will create a layer tree component. The tree has its own data store - <code class="docutils literal"><span class="pre">GeoExt.data.store.LayersTree</span></code>, which we will fill
-with layers from our OpenLayers map. The store will then be used to populate our tree panel. We will also add in a plugin to the
-tree to allow the map layer order to be changed by dragging and dropping the layers. The <code class="docutils literal"><span class="pre">flex</span></code> property causes the tree panel
-to fill up all available space in its region of the screen.</p>
+<li><p class="first">Ezután egy rétegfa komponenst hozunk létre. A fának van saját adattárolója - <code class="docutils literal"><span class="pre">GeoExt.data.store.LayersTree</span></code>, melyet az OpenLayers térkép rétegeivel töltünk fel. A tárat használjuk majd a fa panel benépesítésére. Egy modult is hozzáadunk a fához, hogy lehetővé tegyük a térképi rétegek sorrendjének megváltoztatását húzással és elengedéssel. A <code class="docutils literal"><span class="pre">flex</span></code> tulajdonság miatt a fa panel a képernyő régiójában kitölti az összes rendelkezésre álló helyet.</p>
 <div class="highlight-js"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">treeStore</span> <span class="o">=</span> <span class="nx">Ext</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="s1">&#39;GeoExt.data.store.LayersTree&#39;</span><span class="p">,</span> <span class="p">{</span>
     <span class="nx">layerGroup</span><span class="o">:</span> <span class="nx">map</span><span class="p">.</span><span class="nx">getLayerGroup</span><span class="p">()</span>
 <span class="p">});</span>
 
 <span class="kd">var</span> <span class="nx">layerTreePanel</span> <span class="o">=</span> <span class="nx">Ext</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="s1">&#39;Ext.tree.Panel&#39;</span><span class="p">,</span> <span class="p">{</span>
     <span class="nx">title</span><span class="o">:</span> <span class="s1">&#39;Map Layers&#39;</span><span class="p">,</span>
-    <span class="nx">width</span><span class="o">:</span> <span class="mi">300</span><span class="p">,</span>
-    <span class="nx">flex</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="nx">width</span><span class="o">:</span> <span class="mf">300</span><span class="p">,</span>
+    <span class="nx">flex</span><span class="o">:</span> <span class="mf">1</span><span class="p">,</span>
     <span class="nx">store</span><span class="o">:</span> <span class="nx">treeStore</span><span class="p">,</span>
     <span class="nx">rootVisible</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
     <span class="nx">viewConfig</span><span class="o">:</span> <span class="p">{</span>
@@ -240,8 +233,7 @@ to fill up all available space in its region of the screen.</p>
 </pre></div>
 </div>
 </li>
-<li><p class="first">We are also going to create a grid component to display the attributes of features in our WFS layer.
-Similar to the layer tree store and tree panel, we create a <code class="docutils literal"><span class="pre">GeoExt.data.store.Features</span></code> store and a grid panel.</p>
+<li><p class="first">Egy rács komponenst is létrehozunk a WFS rétegünk attribútumainak  megjelenítésére. Hasonlóan a rétegfa tárhoz és fa panelhez, létrehozunk egy <code class="docutils literal"><span class="pre">GeoExt.data.store.Features</span></code>&nbsp; tárat és egy rács panelt.</p>
 <div class="highlight-js"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">featureStore</span> <span class="o">=</span> <span class="nx">Ext</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="s1">&#39;GeoExt.data.store.Features&#39;</span><span class="p">,</span> <span class="p">{</span>
     <span class="nx">layer</span><span class="o">:</span> <span class="nx">vectorLayer</span><span class="p">,</span>
     <span class="nx">map</span><span class="o">:</span> <span class="nx">map</span>
@@ -252,9 +244,9 @@ Similar to the layer tree store and tree panel, we create a <code class="docutil
     <span class="nx">region</span><span class="o">:</span> <span class="s1">&#39;south&#39;</span><span class="p">,</span>
     <span class="nx">title</span><span class="o">:</span> <span class="s1">&#39;Airport Runways for Itasca County&#39;</span><span class="p">,</span>
     <span class="nx">columns</span><span class="o">:</span> <span class="p">[</span>
-        <span class="p">{</span> <span class="nx">text</span><span class="o">:</span> <span class="s1">&#39;Name&#39;</span><span class="p">,</span> <span class="nx">dataIndex</span><span class="o">:</span> <span class="s1">&#39;NAME&#39;</span><span class="p">,</span> <span class="nx">flex</span><span class="o">:</span> <span class="mi">3</span> <span class="p">},</span>
-        <span class="p">{</span> <span class="nx">text</span><span class="o">:</span> <span class="s1">&#39;Quadrant&#39;</span><span class="p">,</span> <span class="nx">dataIndex</span><span class="o">:</span> <span class="s1">&#39;QUADNAME&#39;</span><span class="p">,</span> <span class="nx">flex</span><span class="o">:</span> <span class="mi">1</span> <span class="p">},</span>
-        <span class="p">{</span> <span class="nx">text</span><span class="o">:</span> <span class="s1">&#39;Elevation&#39;</span><span class="p">,</span> <span class="nx">dataIndex</span><span class="o">:</span> <span class="s1">&#39;ELEVATION&#39;</span><span class="p">,</span> <span class="nx">flex</span><span class="o">:</span> <span class="mi">1</span> <span class="p">}</span>
+        <span class="p">{</span> <span class="nx">text</span><span class="o">:</span> <span class="s1">&#39;Name&#39;</span><span class="p">,</span> <span class="nx">dataIndex</span><span class="o">:</span> <span class="s1">&#39;NAME&#39;</span><span class="p">,</span> <span class="nx">flex</span><span class="o">:</span> <span class="mf">3</span> <span class="p">},</span>
+        <span class="p">{</span> <span class="nx">text</span><span class="o">:</span> <span class="s1">&#39;Quadrant&#39;</span><span class="p">,</span> <span class="nx">dataIndex</span><span class="o">:</span> <span class="s1">&#39;QUADNAME&#39;</span><span class="p">,</span> <span class="nx">flex</span><span class="o">:</span> <span class="mf">1</span> <span class="p">},</span>
+        <span class="p">{</span> <span class="nx">text</span><span class="o">:</span> <span class="s1">&#39;Elevation&#39;</span><span class="p">,</span> <span class="nx">dataIndex</span><span class="o">:</span> <span class="s1">&#39;ELEVATION&#39;</span><span class="p">,</span> <span class="nx">flex</span><span class="o">:</span> <span class="mf">1</span> <span class="p">}</span>
     <span class="p">],</span>
     <span class="nx">listeners</span><span class="o">:</span> <span class="p">{</span>
         <span class="nx">selectionchange</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">sm</span><span class="p">,</span> <span class="nx">selected</span><span class="p">)</span> <span class="p">{</span>
@@ -264,13 +256,12 @@ Similar to the layer tree store and tree panel, we create a <code class="docutil
             <span class="p">});</span>
         <span class="p">}</span>
     <span class="p">},</span>
-    <span class="nx">height</span><span class="o">:</span> <span class="mi">300</span>
+    <span class="nx">height</span><span class="o">:</span> <span class="mf">300</span>
 <span class="p">});</span>
 </pre></div>
 </div>
 </li>
-<li><p class="first">Our final GeoExt component is an overview map - <code class="docutils literal"><span class="pre">GeoExt.component.OverviewMap</span></code>.
-We will configure this to display the OpenStreetMap layer we created earlier, and place it in an ExtJS panel.</p>
+<li><p class="first">Az utolsó GeoExt komponensünk egy áttekintő térkép - <code class="docutils literal"><span class="pre">GeoExt.component.OverviewMap</span></code>. Ezt az OpenStreetMap réteg megjelenítésére konfiguráljuk, melyet korábban hoztunk létre és egy ExtJS panelben helyezzük el.</p>
 <div class="highlight-js"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">overview</span> <span class="o">=</span> <span class="nx">Ext</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="s1">&#39;GeoExt.component.OverviewMap&#39;</span><span class="p">,</span> <span class="p">{</span>
     <span class="nx">parentMap</span><span class="o">:</span> <span class="nx">map</span><span class="p">,</span>
     <span class="nx">layers</span><span class="o">:</span> <span class="p">[</span><span class="nx">osmLayer</span><span class="p">]</span>
@@ -280,8 +271,8 @@ We will configure this to display the OpenStreetMap layer we created earlier, an
     <span class="nx">title</span><span class="o">:</span> <span class="s1">&#39;Overview&#39;</span><span class="p">,</span>
     <span class="nx">layout</span><span class="o">:</span> <span class="s1">&#39;fit&#39;</span><span class="p">,</span>
     <span class="nx">items</span><span class="o">:</span> <span class="nx">overview</span><span class="p">,</span>
-    <span class="nx">height</span><span class="o">:</span> <span class="mi">300</span><span class="p">,</span>
-    <span class="nx">width</span><span class="o">:</span> <span class="mi">300</span><span class="p">,</span>
+    <span class="nx">height</span><span class="o">:</span> <span class="mf">300</span><span class="p">,</span>
+    <span class="nx">width</span><span class="o">:</span> <span class="mf">300</span><span class="p">,</span>
     <span class="nx">collapsible</span><span class="o">:</span> <span class="kc">true</span>
 <span class="p">});</span>
 </pre></div>
@@ -290,8 +281,8 @@ We will configure this to display the OpenStreetMap layer we created earlier, an
 </ol>
 </div>
 <div class="section" id="create-a-viewport">
-<h2><a class="toc-backref" href="#id4">Create a viewport</a><a class="headerlink" href="#create-a-viewport" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>The final step in creating our application is to create a viewport - a container representing the application which will display all the components we created above.</p>
+<h2><a class="toc-backref" href="#id4">Nézet létrehozása</a><a class="headerlink" href="#create-a-viewport" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<p>Az utolsó lépés az alkalmazás létrehozásában egy nézet létrehozása - az alkalmazást reprezentáló konténert, mely az összes általunk létrehozott komponenst megjeleníti.</p>
 <div class="highlight-js"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">vp</span> <span class="o">=</span> <span class="nx">Ext</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="s1">&#39;Ext.container.Viewport&#39;</span><span class="p">,</span> <span class="p">{</span>
     <span class="nx">layout</span><span class="o">:</span> <span class="s1">&#39;border&#39;</span><span class="p">,</span>
     <span class="nx">items</span><span class="o">:</span> <span class="p">[</span>
@@ -311,18 +302,16 @@ We will configure this to display the OpenStreetMap layer we created earlier, an
 <span class="p">});</span>
 </pre></div>
 </div>
-<p>You should now be able to refresh the link <a class="reference external" href="http://localhost/geoext/demo.html">http://localhost/geoext/demo.html</a> in your browser and see a complete GeoExt application similar to the image below.</p>
+<p>Most frissítenie kellene a <a class="reference external" href="http://localhost/geoext/demo.html">http://localhost/geoext/demo.html</a> linket a böngészőjében és az alábbi képhez hasonló teljes GeoExt alkalmazást kell látnia.</p>
 <a class="reference internal image-reference" href="../../_images/geoext_quickstart.png"><img alt="../../_images/geoext_quickstart.png" src="../../_images/geoext_quickstart.png" style="width: 1521.0px; height: 725.0px;" /></a>
 </div>
 <div class="section" id="what-s-next">
-<h2><a class="toc-backref" href="#id5">What’s next?</a><a class="headerlink" href="#what-s-next" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Mi a következő?</a><a class="headerlink" href="#what-s-next" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <ul class="simple">
-<li>The <a class="reference external" href="https://geoext.github.io/geoext3/">GeoExt homepage</a> contains full <a class="reference external" href="https://geoext.github.io/geoext3/v3.1.0/docs">API documentation</a>
-and examples</li>
-<li>A <a class="reference external" href="https://github.com/geoext/geoext3-ws">GeoExt workshop</a> details all the steps for configuring and using
-GeoExt3 in your ExtJS applications</li>
-<li>The <a class="reference external" href="https://openlayers.org/en/v4.6.5/apidoc">OpenLayers v4.6.5 API docs</a></li>
-<li>The <a class="reference external" href="https://docs.sencha.com/extjs/6.2.0/">ExtJS 6.2.0 API docs</a></li>
+<li>A <a class="reference external" href="https://geoext.github.io/geoext3/">GeoExt honlap</a> tartalmazza a teljes <a class="reference external" href="https://geoext.github.io/geoext3/v3.1.0/docs">API dokumentációt</a> és példákat.</li>
+<li>Egy <a class="reference external" href="https://github.com/geoext/geoext3-ws">GeoExt workshop</a> az összes lépést leírja a GeoExt3 konfigurálásához és használatához az ön ExtJS alkalmazásában.</li>
+<li>Az <a class="reference external" href="https://openlayers.org/en/v4.6.5/apidoc">OpenLayers v4.6.5 API doksik</a></li>
+<li>Az <a class="reference external" href="https://docs.sencha.com/extjs/6.2.0/">ExtJS 6.2.0 API doksik</a></li>
 </ul>
 </div>
 </div>

@@ -26,7 +26,7 @@
     <link rel="index" title="Tárgymutató" href="../genindex.html" />
     <link rel="search" title="Keresés" href="../search.html" />
     <link rel="copyright" title="Minden jog fenntartva" href="../copyright.html" />
-    <link rel="next" title="MapCache Quickstart" href="../quickstart/mapcache_quickstart.html" />
+    <link rel="next" title="MapCache gyorstalpaló" href="../quickstart/mapcache_quickstart.html" />
     <link rel="prev" title="MapServer gyorstalpaló" href="../quickstart/mapserver_quickstart.html" />
 	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
 
@@ -74,73 +74,70 @@
 <div class="section" id="mapcache">
 <h1>MapCache<a class="headerlink" href="#mapcache" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
 <div class="section" id="web-service">
-<h2>Web Service<a class="headerlink" href="#web-service" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>MapCache is a server that implements tile caching to speed up access to WMS layers. The primary objectives are to be fast and easily deployable,
-while offering the essential features (and more!) expected from a tile caching solution.</p>
-<p>MapCache is part of the MapServer family, but can be configured to cache and serve data from any geospatial server
-that uses WMS. MapCache can be run on Apache as a module or on any web server that supports CGI/FastCGI such as IIS, Nginx, and Jetty.</p>
+<h2>Web szolgáltatás<a class="headerlink" href="#web-service" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<p>A MapCache egy szerver, mely csempe gyorsítótárazást valósít meg a WMS rétegek hozzáférésének gyorsítására. Az elsődleges cél, hogy gyors és egyszerűen telepíthető legyen, miközben elvárható alapvető funkciókat (és többet!) biztosítson egy csempe gyorsítótárazás megoldásából.</p>
+<p>A MapCache a MapServer család része, de beállítható, hogy bármely WMS-t használó térinformatikai szerverhez gyorstárazott adatokat szolgáltasson. MapCache mint  Apache modul futtatható vagy bármely web szerveren, amely támogatja a CGI/FastCGI-t, mint az IIS, Nginx, és Jetty.</p>
 <a class="reference internal image-reference" href="../../_images/mapcache_screenshot.png"><img alt="mapcache screenshot" class="align-right" src="../../_images/mapcache_screenshot.png" style="width: 500px;" /></a>
 <div class="section" id="core-features">
-<h3>Core Features<a class="headerlink" href="#core-features" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
+<h3>Alapfunkciók<a class="headerlink" href="#core-features" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <ul class="simple">
-<li>Allows tile caches to be stored in<ul>
-<li>on disk</li>
-<li>in the cloud using REST (S3, Azure, Google)</li>
-<li>in databases including SQLite, Berkeley DB, Riak</li>
-<li>in Memcache</li>
+<li>Gyorstárazott csempék tárolását teszi lehetővé<ul>
+<li>háttértárolón</li>
+<li>felhőben REST használatával (S3, Azure, Google)</li>
+<li>adatbázisban többek között SQLite, Berkeley DB, Riak</li>
+<li>Memcache-ben</li>
 </ul>
 </li>
-<li>Includes a seeder application</li>
-<li>Caching based on dimensions (such as time)</li>
-<li>Allows caching of Mapbox Vector (MVT) and UTFGrid tiles</li>
-<li>Customizable grids</li>
-<li>Allows tiles to be „assembled” together - allowing tiles for different datasets to be
-merged together into a single tile to send to the client</li>
-<li>Includes a seeder application to pre-fill caches from the command line</li>
-<li>Allows requests to be proxied back to a server</li>
-<li>An inbuilt demo interface</li>
+<li>Tartalmaz egy feltöltő alkalmazást</li>
+<li>Dimenziók alapján történő gyorsítótárazás (például idő)</li>
+<li>Lehetővé teszi Mapbox Vector (MVT) és UTFGrid csempék gyorsítótárazását</li>
+<li>Testreszabható rácsok</li>
+<li>Lehetővé teszi a csempék „összegyűjtését” - megengedi a különböző adatállományok csempéinek  összevonását egyetlen csempét küldi az ügyfélnek</li>
+<li>Tartalmaz egy feltöltő alkalmazást, mellyel a parancssorból előre feltölthető a gyorstárat</li>
+<li>Lehetővé teszi a kérések proxyn keresztüli visszaküldését a kiszolgálóhoz</li>
+<li>Egy beépített demó intefész</li>
 </ul>
 </div>
 <div class="section" id="implemented-standards">
-<h3>Implemented Standards<a class="headerlink" href="#implemented-standards" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
+<h3>Implementált szabványok<a class="headerlink" href="#implemented-standards" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <ul class="simple">
-<li>Support of numerous Open Geospatial Consortium  (OGC) standards<ul>
+<li>Számos Open Geospatial Consortium (OGC) szabvány támogatása<ul>
 <li><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a></li>
 <li><a class="reference external" href="https://www.ogc.org/standards/wmts">OpenGIS Web Map Tile ServiceW (WMTS)</a></li>
 </ul>
 </li>
-<li>Additional standards include:<ul>
+<li>További szabványok:<ul>
 <li><a class="reference external" href="https://wiki.osgeo.org/wiki/Tile_Map_Service_Specification">TMS</a></li>
-<li>Google Maps XYZ</li>
+<li>Google térkép XYZ</li>
 <li>KML SuperOverlays</li>
 </ul>
 </li>
 </ul>
 </div>
 <div class="section" id="demo">
-<h3>Demo<a class="headerlink" href="#demo" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
+<h3>Demó<a class="headerlink" href="#demo" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <ul class="simple">
-<li><a class="reference external" href="http://localhost/mapcache/demo/">Default MapCache Demo</a></li>
+<li><a class="reference external" href="http://localhost/mapcache/demo/">Alapértelmezett MapCache demó</a></li>
 </ul>
 </div>
 <div class="section" id="documentation">
-<h3>Documentation<a class="headerlink" href="#documentation" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
+<h3>Dokumentáció<a class="headerlink" href="#documentation" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <ul class="simple">
-<li><a class="reference external" href="https://mapserver.org/mapcache/">MapCache Documentation</a></li>
+<li><a class="reference external" href="https://mapserver.org/mapcache/">MapCache dokumentáció</a></li>
 </ul>
 </div>
 <div class="section" id="details">
-<h3>Details<a class="headerlink" href="#details" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
-<p><strong>Website:</strong> <a class="reference external" href="https://mapserver.org/mapcache">https://mapserver.org/mapcache</a></p>
-<p><strong>Licence:</strong> <a class="reference external" href="https://mapserver.org/copyright.html#license">MIT-style license</a></p>
-<p><strong>Software Version:</strong> 1.8.0</p>
-<p><strong>Supported Platforms:</strong> Windows, Linux, Mac</p>
-<p><strong>Support:</strong> <a class="reference external" href="https://mapserver.org/community/">https://mapserver.org/community/</a></p>
+<h3>Részletek<a class="headerlink" href="#details" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
+<p><strong>Honlap:</strong> <a class="reference external" href="https://mapserver.org/mapcache">https://mapserver.org/mapcache</a></p>
+<p><strong>Licenc:</strong> <a class="reference external" href="https://mapserver.org/copyright.html#license">MIT-style licenc</a></p>
+<p><strong>Program verzió:</strong> 1.8.0</p>
+<p><strong>Támogatott platformok:</strong> Windows, Linux, Mac</p>
+<p><strong>Támogatás:</strong> <a class="reference external" href="https://mapserver.org/community/">https://mapserver.org/community/</a></p>
 </div>
 <div class="section" id="quickstart">
-<h3>Quickstart<a class="headerlink" href="#quickstart" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
+<h3>Gyorstalpaló<a class="headerlink" href="#quickstart" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <ul class="simple">
-<li><a class="reference internal" href="../quickstart/mapcache_quickstart.html"><span class="doc">Quickstart documentation</span></a></li>
+<li><a class="reference internal" href="../quickstart/mapcache_quickstart.html"><span class="doc">Quickstart dokumentáció</span></a></li>
 </ul>
 </div>
 </div>

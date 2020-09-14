@@ -84,7 +84,7 @@
 <div class="section" id="mapnik-python">
 <h2><a class="toc-backref" href="#id1">Mapnik &amp; Python</a><a class="headerlink" href="#mapnik-python" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>A Mapnik-et és a python kötéseit telepítették ezen a gépen és készen áll szkriptek készítéséhez.</p>
-<p>Creating maps in python is easy with Mapnik. Open a terminal window and type <cite>python</cite> on the command line to enter a python interpreter. Then try this:</p>
+<p>A Mapnikkal könnyű pythonból térképeket létrehozni. A parancssorba gépelje be <cite>python</cite>, a python értelmező elindításához. Utána próbálja ezt:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">mapnik</span><span class="o">,</span> <span class="nn">os</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">m</span> <span class="o">=</span> <span class="n">mapnik</span><span class="o">.</span><span class="n">Map</span><span class="p">(</span><span class="mi">600</span><span class="p">,</span><span class="mi">400</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">style</span> <span class="o">=</span> <span class="s1">&#39;/usr/local/share/mapnik/demo/population.xml&#39;</span>
@@ -96,27 +96,25 @@
 </div>
 <div class="admonition note">
 <p class="first admonition-title">Megjegyzés</p>
-<p class="last">The above code depends on having an XML stylesheet that Mapnik can read, defining the layers
-to read data from and the styles to apply to those layers. You can create one of these inside QGIS
-with the Quantumnik plugin: <a class="reference external" href="https://plugins.qgis.org/plugins/quantumnik/">https://plugins.qgis.org/plugins/quantumnik/</a></p>
+<p class="last">A fenti kód egy XML stíluslap meglététől függ, melyet a Mapnik olvasni tud, ebben van a rétegek definíciója melyekből az adatok jönnek és azokhoz a rétegekhez alkalmazandó stílusok. Egy ilyet a QGIS-en belül létre tud hozni a Quantumnik modullal: <a class="reference external" href="https://plugins.qgis.org/plugins/quantumnik/">https://plugins.qgis.org/plugins/quantumnik/</a></p>
 </div>
 </div>
 <div class="section" id="mapnik-leaflet">
 <h2><a class="toc-backref" href="#id2">Mapnik &amp; Leaflet</a><a class="headerlink" href="#mapnik-leaflet" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>A basic demo application is available which highlights using Mapnik to serve tiles into an OpenLayers web map in the OSM/Google tile scheme.</p>
-<p>The demo uses a tileserver designed for Mapnik called „TileStache”. Visit the TileStache website for more information: <a class="reference external" href="http://tilestache.org/">http://tilestache.org/</a></p>
+<p>Egy alap demó alkalmazás rendelkezésre áll, mely bemutatja a Mapnik által szolgáltatott csempék használatát egy OpenLayers web térképen, az OSM/Google csempe sémában.</p>
+<p>A demó a Mapnikhez tervezett „TileStache” nevű csempe szervert használja. Látogassa meg a TileCache honlapját további információért: <a class="reference external" href="http://tilestache.org/">http://tilestache.org/</a></p>
 <ol class="arabic simple">
-<li>Click <span class="menuselection">Desktop ‣ Spatial Tools ‣ Start Mapnik &amp; TileStache</span>. The server starts in a terminal window (which stays open and outputs basic debugging information).</li>
-<li>Check that the server is working by requesting a tile from the server. Click this link <a class="reference external" href="http://localhost:8012/example/0/0/0.png">http://localhost:8012/example/0/0/0.png</a> and observe the output in the server terminal window.</li>
-<li>Visit the Leaflet demo application page <a class="reference external" href="../../../leaflet-demo.html">http://localhost/leaflet-demo.html</a>.</li>
+<li>Kattintson a <span class="menuselection">Desktop ‣ Spatial Tools ‣ Start Mapnik &amp; TileStache</span>. menüpontra. A szerver egy terminál ablakban indul (mely nyitva marad és alap nyomkövetési információk jelennek meg benne).</li>
+<li>Bizonyosodjon meg róla, hogy a szerver dolgozik, kérjen le egy csempét a szervertől. Kattintson erre a linkre <a class="reference external" href="http://localhost:8012/example/0/0/0.png">http://localhost:8012/example/0/0/0.png</a> és nézze meg a outputot a szerver terminál ablakában.</li>
+<li>Látogassa meg a Leaflet demó alkalmazás oldalát <a class="reference external" href="../../../leaflet-demo.html">http://localhost/leaflet-demo.html</a>.</li>
 </ol>
 </div>
 <div class="section" id="what-next">
 <h2><a class="toc-backref" href="#id3">Mi a következő?</a><a class="headerlink" href="#what-next" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <ul class="simple">
-<li>Follow the tutorials to learn more about Mapnik: <a class="reference external" href="https://github.com/mapnik/mapnik/wiki/MapnikTutorials">https://github.com/mapnik/mapnik/wiki/MapnikTutorials</a></li>
-<li>Explore the included files on the latest OSGeoLive distribution, in this directory: <a class="reference external" href="file:///usr/local/share/mapnik/">file:///usr/local/share/mapnik/</a></li>
-<li>Visit the Mapnik website: <a class="reference external" href="https://mapnik.org">https://mapnik.org</a></li>
+<li>Kövesse az oktatóanyagokat, hogy többet megtudjon a Mapnikról: <a class="reference external" href="https://github.com/mapnik/mapnik/wiki/MapnikTutorials">https://github.com/mapnik/mapnik/wiki/MapnikTutorials</a></li>
+<li>Fedezze fel a legujabb OSGeoLive kiadásban található fájlokat ebben a könyvtárban: <a class="reference external" href="file:///usr/local/share/mapnik/">file:///usr/local/share/mapnik/</a></li>
+<li>Látogassa meg a Mapnik honlapot: <a class="reference external" href="https://mapnik.org">https://mapnik.org</a></li>
 </ul>
 </div>
 </div>

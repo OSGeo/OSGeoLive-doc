@@ -73,39 +73,31 @@
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <div class="section" id="mapserver-quickstart">
 <h1>MapServer gyorstalpaló<a class="headerlink" href="#mapserver-quickstart" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
-<p>MapServer is an <a class="reference external" href="https://opensource.org/">Open Source</a> server based
-application that allows you to publish geographic map images and vector data
-through the internet using <a class="reference external" href="https://www.ogc.org/standards">OGC Standards</a>
-such as <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a>, <a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> and <a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a>.</p>
+<p>A MapServer egy <a class="reference external" href="https://opensource.org/">nyílt forráskódú</a> szerver alapú alkalmazás, mely lehetővé teszi raszteres és vektoros térképi adatok publikálását az interneten keresztül, <a class="reference external" href="https://www.ogc.org/standards">OGC Standards</a> használatával  mint például <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a>, <a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> és <a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a>.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#configure-mapserver-using-the-mapfile-configuration-file" id="id1">Configure MapServer using the Mapfile configuration file</a></li>
+<li><a class="reference internal" href="#configure-mapserver-using-the-mapfile-configuration-file" id="id1">MapServer beállítása a MapFile konfigurációs állomány felhasználásával</a></li>
 <li><a class="reference internal" href="#render-a-map-image-with-mapserver-using-a-wms-getmap-request" id="id2">Rajzoltassunk egy térképet a MapServer-rel a WMS <strong>GetMap</strong> kéréssel</a></li>
 <li><a class="reference internal" href="#render-a-map-image-with-mapserver-using-the-command-line" id="id3">Készítsünk térkép képet a MapServerrel a parancssorból</a></li>
-<li><a class="reference internal" href="#add-a-new-layer-to-the-mapfile-to-serve-a-local-shapefile" id="id4">Add a new layer to the Mapfile to serve a local Shapefile</a></li>
-<li><a class="reference internal" href="#style-a-layer-using-mapfile-configurations" id="id5">Style a layer using Mapfile configurations</a></li>
+<li><a class="reference internal" href="#add-a-new-layer-to-the-mapfile-to-serve-a-local-shapefile" id="id4">Egy új réteg hozzáadása a Map fájlhoz egy helyi shape fájl szolgáltatásához</a></li>
+<li><a class="reference internal" href="#style-a-layer-using-mapfile-configurations" id="id5">Rétegstílus beállítása a Map fájl konfigurációban</a></li>
 <li><a class="reference internal" href="#publish-your-data-as-ogc-wms-web-map-service" id="id6">Adatainak publikálása OGC WMS-ként  (Web Map Service)</a></li>
 <li><a class="reference internal" href="#what-next" id="id7">Mi a következő?</a></li>
 </ul>
 </div>
 <div class="section" id="configure-mapserver-using-the-mapfile-configuration-file">
-<h2><a class="toc-backref" href="#id1">Configure MapServer using the Mapfile configuration file</a><a class="headerlink" href="#configure-mapserver-using-the-mapfile-configuration-file" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">MapServer beállítása a MapFile konfigurációs állomány felhasználásával</a><a class="headerlink" href="#configure-mapserver-using-the-mapfile-configuration-file" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">Megjegyzés</p>
-<p class="last"><strong>What will I learn ?</strong> In this section, you will learn what a
-Mapfile is and how to configure it to allow MapServer to serve a shapefile
-as images using WMS requests.</p>
+<p class="last"><strong>Mit fogunk tanulni ?</strong> Ebben a fejezetben megtanuljuk mi a Map fájl és hogyan konfiguráljuk,hogy a MapServer képként szolgáltassa a shape fájljainkat WMS kérések használatával.</p>
 </div>
 <div class="section" id="what-is-a-mapfile">
-<h3>What is a Mapfile ?<a class="headerlink" href="#what-is-a-mapfile" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
-<p>The <a class="reference external" href="https://mapserver.org/mapfile/index.html">Mapfile</a> is the
-configuration file that MapServer uses to render geospatial data as images
-or vector data. Its main purpose is to define the layers it can draw, how to
-read necessary data, and how to render it (e.g. color, symbol, label, etc…).</p>
+<h3>Mi az a mapfájl?<a class="headerlink" href="#what-is-a-mapfile" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
+<p>A Map fájl &lt;<a class="reference external" href="https://mapserver.org/mapfile/index.html">https://mapserver.org/mapfile/index.html</a>&gt;`_ egy konfigurációs fájl, melyet a MapServer a raszter és vektor adatok megjelenítéshez használ. Elsődleges célja, hogy megadja megjelenítendő rétegeket, hogyan érhetők el a szükséges adatok és hogy kell megjeleníteni őket (pl. szín, szimbólum, címke, stb.).</p>
 </div>
 <div class="section" id="creating-my-first-mapfile">
-<h3>Creating my first Mapfile<a class="headerlink" href="#creating-my-first-mapfile" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
+<h3>Első Map fájlom létrehozása<a class="headerlink" href="#creating-my-first-mapfile" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <ol class="arabic">
 <li><p class="first">Nyisson meg egy szövegszerkesztőt (pl. <span class="menuselection">Applications ‣ Accessories ‣ Leafpad</span>).</p>
 </li>
@@ -154,12 +146,8 @@ read necessary data, and how to render it (e.g. color, symbol, label, etc…).</
 </div>
 </li>
 </ol>
-<p>Each object in a Mapfile starts with its name (for example <strong>MAP</strong>) and ends
-with an <strong>END</strong>.  A Mapfile always starts with the <strong>MAP</strong> object and should
-contain a list of <strong>LAYER</strong> objects the Mapfile can read and draw. In our
-Mapfile, we currently have only one layer defined.</p>
-<p>Let’s take a look at some of the objects (and properties) defined in our
-Mapfile:</p>
+<p>A Map fájlban minden objektum a nevével kezdődik (például <strong>MAP</strong>) és <strong>END</strong> zárja le. A Map fájl mindig a <strong>MAP</strong> objektummal kezdődik és a <strong>LAYER</strong> objektumok listáját tartalmazza, melyeket a Map fájl képes beolvasni és megjeleníteni. A Map fájlunkban most csak egy réteget adtunk meg.</p>
+<p>Vessünk egy pillantást néhány a Map fájlunkban megadott objektumra (és tulajdonságra):</p>
 <blockquote>
 <div><ul class="simple">
 <li>EXTENT: megadja az alapértelmezett határoló téglalapot ehhez a konfigurációhoz.</li>
@@ -167,21 +155,18 @@ Mapfile:</p>
 <li>SHAPEPATH: a fájl alapú adatok elérési útját állítja be (pl. shape fájl vagy tiff képek).</li>
 </ul>
 </div></blockquote>
-<p>If we look closer at the <strong>LAYER</strong> in our Mapfile, we’ll see that it
-contains a bunch of properties and objects too. Among them are:</p>
+<p>Ha közelebbről megvizsgáljuk a <strong>LAYER</strong>-t a Map fájlunkban, láthatjuk, hogy egy csomó tulajdonságot és objektumot is tartalmaz. Többek között:</p>
 <blockquote>
 <div><ul class="simple">
 <li>STATUS: megadja, hogy a réteg megjelenítendő (<em>ON</em>), nem rajzolandó (<em>OFF</em>) vagy mindig megjelenítendő (<em>DEFAULT</em>).</li>
-<li>TYPE: the geometry type that MapServer should use when rendering the data
-as an image. In our Mapfile, the data will be drawn as <em>polygons</em>.</li>
+<li>TYPE: A geometria típus, amit a MapServernek használnia kell az adatok kirajzolásánál. A mi Map fájlunkban az adatokat <em>polygon</em>-ként rajzolja ki.</li>
 <li>DATA: a téradat fájl amit a réteg használ, ebben az esetben egy shape fájl.</li>
 <li>CLASS: meghatározza hogyan rajzolja ki a réteget (stílus). Ezzel az elemmel később foglalkozunk részletesebben.</li>
 </ul>
 </div></blockquote>
 <div class="admonition note">
 <p class="first admonition-title">Megjegyzés</p>
-<p class="last">A complete list of the available objects and properties a Mapfile can have
-can be found in the <a class="reference external" href="https://mapserver.org/mapfile/index.html">MapServer documentation page</a>.</p>
+<p class="last">A Map fájlban használható objektumok  és tulajdonságok teljes listája megtalálható a <a class="reference external" href="https://mapserver.org/mapfile/index.html">MapServer dokumentáció oldalon</a>.</p>
 </div>
 </div>
 </div>
@@ -189,21 +174,13 @@ can be found in the <a class="reference external" href="https://mapserver.org/ma
 <h2><a class="toc-backref" href="#id2">Rajzoltassunk egy térképet a MapServer-rel a WMS <strong>GetMap</strong> kéréssel</a><a class="headerlink" href="#render-a-map-image-with-mapserver-using-a-wms-getmap-request" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">Megjegyzés</p>
-<p class="last"><strong>What will I learn ?</strong> You will learn how to use to render an image with
-layers from a Mapfile with MapServer using an OGC WMS request.</p>
+<p class="last"><strong>Mit fogok tanulni?</strong> Megtanulja hogy a MapServer-rel a MapFile rétegeiből hogyan készítsen egy képet egy OGC WMS kérésre.</p>
 </div>
 <p>Nyisson meg egy böngésző programot és írja be a következő címet:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&amp;SERVICE=WMS&amp;REQUEST=Getmap&amp;VERSION=1.1.1&amp;LAYERS=Countries&amp;SRS=EPSG:4326&amp;BBOX=-137,29,-53,88&amp;FORMAT=PNG&amp;WIDTH=800&amp;HEIGHT=600
 </pre></div>
 </div>
-<p>What does the above mean?  If we put it in simple words, it’s a <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a>
-<strong>GetMap</strong>
-request that tells MapServer to „<em>use the following Mapfile to render the
-specified layers as a png image based on some user-supplied parameters such
-as image size, geographical extent, projection, etc.</em>”.  All layers
-specified in the „<em>&amp;LAYERS=…</em>” property having <em>STATUS ON</em> in the Mapfile
-will be rendered in addition to all layers with <em>STATUS DEFAULT</em>. The
-result looks like the following:</p>
+<p>Mit jelentenek a fentiek? Ha egyszerűen akarjuk elmondani, ez a <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a>  <strong>GetMap</strong> kérés, mely azt mondja a MapServernek „használd a következő map fájlt  a megadott rétegek png képként megjelenítéséhez, a felhasználó által megadott paraméterek alapján, például képméret, földrajzi kiterjedés, vetület, stb.”. Minden a  „<em>&amp;LAYERS=…</em>” paraméterben megadott, a MapFájlban STATUS ON  beállítással rendelkező réteg megjelenítése, hozzáadva a  <em>STATUS DEFAULT</em> rétegeket. Az eredmény így néz ki:</p>
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/mapserver_map.png"><img alt="../../_images/mapserver_map.png" src="../../_images/mapserver_map.png" style="width: 560.0px; height: 420.0px;" /></a>
 </div></blockquote>
@@ -222,14 +199,12 @@ result looks like the following:</p>
 <p>Ha a parancs sikeresen lefut, láthatja az elkészült térképet <a class="reference external" href="file:///home/user/mymap.png">file:///home/user/mymap.png</a>.</p>
 </div>
 <div class="section" id="add-a-new-layer-to-the-mapfile-to-serve-a-local-shapefile">
-<h2><a class="toc-backref" href="#id4">Add a new layer to the Mapfile to serve a local Shapefile</a><a class="headerlink" href="#add-a-new-layer-to-the-mapfile-to-serve-a-local-shapefile" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Egy új réteg hozzáadása a Map fájlhoz egy helyi shape fájl szolgáltatásához</a><a class="headerlink" href="#add-a-new-layer-to-the-mapfile-to-serve-a-local-shapefile" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">Megjegyzés</p>
-<p class="last"><strong>What will I learn ?</strong> You will learn how to add a new layer object
-definition to your Mapfile.</p>
+<p class="last"><strong>Mit fogok tanulni?</strong> Meg fogja tanulni egy új réteg objektum definíció hozzáadását a Map fájljához.</p>
 </div>
-<p>We will now add a new layer to our Mapfile. Before the last <em>END</em> statement
-in the Mapfile, add the following layer configuration:</p>
+<p>Most egy új réteget fogunk hozzáadni a Map fájlunkhoz. A Map fájlban az utolsó <em>END</em> sor elé illessze be a következő réteg konfigurációt:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">LAYER</span>
   <span class="n">NAME</span> <span class="s2">&quot;Lakes&quot;</span>
   <span class="n">STATUS</span> <span class="n">ON</span>
@@ -243,9 +218,7 @@ in the Mapfile, add the following layer configuration:</p>
 <span class="n">END</span>
 </pre></div>
 </div>
-<p>Now we have 2 layer definitions in our Mapfile. Note that the new one we
-just added has the „STATUS” property set to „ON”. That means that unless we
-specifically request it, it won’t be rendered.</p>
+<p>Most 2 réteg definíciónk van a Map fájlunkban. Vegye figyelembe, hogy az éppen hozzáadott réteg „STATUS” tulajdonságát „ON»-ra állítottuk. Ez azt jelenti, hacsak nem adjuk meg a kérésünkben, nem jelenik meg.</p>
 <p>Vegyük a korábbi WMS <strong>GetMAP</strong> kérésünket és adjuk hozzá az új „Lakes” rétegünket az elkészített képhez. Egyszerűen hozzá kell adnunk az új réteg nevét a „LAYERS” tulajdonság listához:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&amp;SERVICE=WMS&amp;REQUEST=Getmap&amp;VERSION=1.1.1&amp;LAYERS=Countries,Lakes&amp;SRS=EPSG:4326&amp;BBOX=-137,29,-53,88&amp;FORMAT=PNG&amp;WIDTH=800&amp;HEIGHT=600
 </pre></div>
@@ -256,18 +229,12 @@ specifically request it, it won’t be rendered.</p>
 </div></blockquote>
 </div>
 <div class="section" id="style-a-layer-using-mapfile-configurations">
-<h2><a class="toc-backref" href="#id5">Style a layer using Mapfile configurations</a><a class="headerlink" href="#style-a-layer-using-mapfile-configurations" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Rétegstílus beállítása a Map fájl konfigurációban</a><a class="headerlink" href="#style-a-layer-using-mapfile-configurations" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">Megjegyzés</p>
 <p class="last"><strong>Mit fogok tanulni?</strong> Egy példát lát majd a rétegen belüli elemek stílusának beállítására az adataik alapján.</p>
 </div>
-<p>In a Mapfile, a LAYER object can contain an infinite number of CLASS
-objects. These are used to style the elements contained in the spatial data
-file (DATA). For example, if we look closer at our „ne_10m_lakes” data file
-using a tool such as <a class="reference external" href="https://gdal.org/ogrinfo.html">ogrinfo</a>, we’ll
-see the geometry and attribute definitions it contains. These attribute
-values can be used as a way to draw the elements inside a dataset
-differently using multiple CLASS objects.</p>
+<p>A Map fájlban a LAYER objektum tetszőleges számú  CLASS objektumot tartalmazhat. Ezeket használjuk a téradatokat tartalmazó adatfájl (DATA) elemek stílusának a beállítására. Például, ha közelebbről megnézzük a „ne_10m_lakes” adatfájlt az <a class="reference external" href="httsp://www.gdal.org/ogrinfo.html">ogrinfo</a> eszközzel, látni fogjuk a benne lévő geometriát és attribútum definíciókat. Ezeket az attribútum értékeket használhatjuk, hogy az térképi elemeket különböző módon jelenítsük meg több CLASS objektum használatával.</p>
 <p>A „ne_10m_lakes” adatállományunkban van egy <em>ScaleRank</em> attribútum, mely a tavak méretéhez kapcsolódik. Ezt használhatjuk, hogy a tavakat különbözőképpen jelenítsük meg. A LAYER objektumhoz egy másik CLASS objektumot adunk az aktuális elé:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">LAYER</span>
   <span class="n">NAME</span> <span class="s2">&quot;Lakes&quot;</span>
@@ -297,7 +264,7 @@ differently using multiple CLASS objects.</p>
 </div></blockquote>
 <div class="admonition note">
 <p class="first admonition-title">Megjegyzés</p>
-<p class="last">Learn more about <a class="reference external" href="https://mapserver.org/mapfile/expressions.html">EXPRESSIONS</a> in MapServer.</p>
+<p class="last">Tanuljon többet a MapServer <a class="reference external" href="https://mapserver.org/mapfile/expressions.html">kifejezésekről</a></p>
 </div>
 </div>
 <div class="section" id="publish-your-data-as-ogc-wms-web-map-service">
@@ -306,11 +273,11 @@ differently using multiple CLASS objects.</p>
 <div class="section" id="using-qgis-desktop-to-load-your-ogc-wms">
 <h3>Asztali QGIS használata OGC WMS adatainak betöltésére<a class="headerlink" href="#using-qgis-desktop-to-load-your-ogc-wms" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <ol class="arabic">
-<li><p class="first">Start QGIS via <span class="menuselection">Geospatial ‣ Desktop GIS ‣ QGIS Desktop</span>. Go to <span class="menuselection">Layer ‣ Add Layer ‣ Add WMS/WMTS Layer</span>.</p>
+<li><p class="first">Indítsa el a QGIS-t <span class="menuselection">Geospatial ‣ Desktop GIS ‣ QGIS Desktop</span>. Menjen ide <span class="menuselection">Réteg ‣ Réteg hazzáadás ‣  WMS/WMTS réteg hozzáadás.</span>.</p>
 </li>
-<li><p class="first">Click button <strong>New</strong> and add a name and your Service URL</p>
+<li><p class="first">Kattintson az <strong>Új</strong> gombra és adjon meg egy nevet és a szolgáltatás URL-jét.</p>
 </li>
-<li><p class="first">Save your settings:</p>
+<li><p class="first">Mentse a beállításokat:</p>
 <p><a class="reference external" href="http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&amp;SERVICE=WMS&amp;REQUEST=GetCapabilities&amp;VERSION=1.3.0">http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&amp;SERVICE=WMS&amp;REQUEST=GetCapabilities&amp;VERSION=1.3.0</a></p>
 </li>
 </ol>
@@ -322,13 +289,10 @@ differently using multiple CLASS objects.</p>
 <h2><a class="toc-backref" href="#id7">Mi a következő?</a><a class="headerlink" href="#what-next" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Ez egy egyszerű példa, de sokkal többet tehet. A MapServer projekt honlapja sok forrást tartalmaz az elindulást segítendő. Itt van néhány forrás, amit legközelebb megtekinthet.</p>
 <ul class="simple">
-<li>Read the <a class="reference external" href="https://mapserver.org/introduction.html#introduction">Introduction to MapServer</a>.</li>
-<li>Have a look at the <a class="reference external" href="https://www.mapserver.org/tutorial/index.html">MapServer Tutorial</a> which contains more Mapfile
-examples.</li>
-<li>Check the <a class="reference external" href="https://www.mapserver.org/ogc/index.html">OGC Support and Configuration</a> to learn more about OGC
-standards in MapServer (WMS, WFS, SLD, WFS Filter Encoding, WCS, SOS, etc.).</li>
-<li>Ready to use MapServer? Then join the community on the <a class="reference external" href="https://www.mapserver.org/community/lists.html">Mailing Lists</a> to exchange ideas, discuss
-potential software improvements and ask questions.</li>
+<li>Olvassa el az <a class="reference external" href="https://mapserver.org/introduction.html#introduction">Introduction to MapServer</a> oldalt.</li>
+<li>Vessen egy pillantást a <a class="reference external" href="https://www.mapserver.org/tutorial/index.html">MapServer oktatóanyagra</a>, mely több Map fájl példát tartalmaz.</li>
+<li>Nézze meg az  <a class="reference external" href="https://www.mapserver.org/ogc/index.html">OGC Support and Configuration</a> oldalt, hogy többet tudjon meg az OGC szabványokról a MapServer-ben (WMS, WFS, SLD, WFS Filter Encoding, WCS, SOS, stb.).</li>
+<li>Készen áll a MapServer használatára? Csatlakozzon a közösséghez a levelező listán &lt;<a class="reference external" href="https://www.mapserver.org/community/lists.html">https://www.mapserver.org/community/lists.html</a>&gt;`_, az elképzelések kicseréléséhez, a lehetséges szoftver fejlesztések megtárgyalásához és kérdések feltételéhez.</li>
 </ul>
 </div>
 </div>

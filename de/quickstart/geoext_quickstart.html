@@ -193,7 +193,7 @@
     <span class="p">],</span>
     <span class="nx">view</span><span class="o">:</span> <span class="k">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">View</span><span class="p">({</span>
         <span class="nx">center</span><span class="o">:</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">proj</span><span class="p">.</span><span class="nx">fromLonLat</span><span class="p">([</span><span class="o">-</span><span class="mf">93.33</span><span class="p">,</span> <span class="mf">47.32</span><span class="p">]),</span>
-        <span class="nx">zoom</span><span class="o">:</span> <span class="mi">6</span>
+        <span class="nx">zoom</span><span class="o">:</span> <span class="mf">6</span>
     <span class="p">})</span>
 <span class="p">});</span>
 
@@ -223,8 +223,8 @@
 
 <span class="kd">var</span> <span class="nx">layerTreePanel</span> <span class="o">=</span> <span class="nx">Ext</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="s1">&#39;Ext.tree.Panel&#39;</span><span class="p">,</span> <span class="p">{</span>
     <span class="nx">title</span><span class="o">:</span> <span class="s1">&#39;Map Layers&#39;</span><span class="p">,</span>
-    <span class="nx">width</span><span class="o">:</span> <span class="mi">300</span><span class="p">,</span>
-    <span class="nx">flex</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="nx">width</span><span class="o">:</span> <span class="mf">300</span><span class="p">,</span>
+    <span class="nx">flex</span><span class="o">:</span> <span class="mf">1</span><span class="p">,</span>
     <span class="nx">store</span><span class="o">:</span> <span class="nx">treeStore</span><span class="p">,</span>
     <span class="nx">rootVisible</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
     <span class="nx">viewConfig</span><span class="o">:</span> <span class="p">{</span>
@@ -245,9 +245,9 @@
     <span class="nx">region</span><span class="o">:</span> <span class="s1">&#39;south&#39;</span><span class="p">,</span>
     <span class="nx">title</span><span class="o">:</span> <span class="s1">&#39;Airport Runways for Itasca County&#39;</span><span class="p">,</span>
     <span class="nx">columns</span><span class="o">:</span> <span class="p">[</span>
-        <span class="p">{</span> <span class="nx">text</span><span class="o">:</span> <span class="s1">&#39;Name&#39;</span><span class="p">,</span> <span class="nx">dataIndex</span><span class="o">:</span> <span class="s1">&#39;NAME&#39;</span><span class="p">,</span> <span class="nx">flex</span><span class="o">:</span> <span class="mi">3</span> <span class="p">},</span>
-        <span class="p">{</span> <span class="nx">text</span><span class="o">:</span> <span class="s1">&#39;Quadrant&#39;</span><span class="p">,</span> <span class="nx">dataIndex</span><span class="o">:</span> <span class="s1">&#39;QUADNAME&#39;</span><span class="p">,</span> <span class="nx">flex</span><span class="o">:</span> <span class="mi">1</span> <span class="p">},</span>
-        <span class="p">{</span> <span class="nx">text</span><span class="o">:</span> <span class="s1">&#39;Elevation&#39;</span><span class="p">,</span> <span class="nx">dataIndex</span><span class="o">:</span> <span class="s1">&#39;ELEVATION&#39;</span><span class="p">,</span> <span class="nx">flex</span><span class="o">:</span> <span class="mi">1</span> <span class="p">}</span>
+        <span class="p">{</span> <span class="nx">text</span><span class="o">:</span> <span class="s1">&#39;Name&#39;</span><span class="p">,</span> <span class="nx">dataIndex</span><span class="o">:</span> <span class="s1">&#39;NAME&#39;</span><span class="p">,</span> <span class="nx">flex</span><span class="o">:</span> <span class="mf">3</span> <span class="p">},</span>
+        <span class="p">{</span> <span class="nx">text</span><span class="o">:</span> <span class="s1">&#39;Quadrant&#39;</span><span class="p">,</span> <span class="nx">dataIndex</span><span class="o">:</span> <span class="s1">&#39;QUADNAME&#39;</span><span class="p">,</span> <span class="nx">flex</span><span class="o">:</span> <span class="mf">1</span> <span class="p">},</span>
+        <span class="p">{</span> <span class="nx">text</span><span class="o">:</span> <span class="s1">&#39;Elevation&#39;</span><span class="p">,</span> <span class="nx">dataIndex</span><span class="o">:</span> <span class="s1">&#39;ELEVATION&#39;</span><span class="p">,</span> <span class="nx">flex</span><span class="o">:</span> <span class="mf">1</span> <span class="p">}</span>
     <span class="p">],</span>
     <span class="nx">listeners</span><span class="o">:</span> <span class="p">{</span>
         <span class="nx">selectionchange</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">sm</span><span class="p">,</span> <span class="nx">selected</span><span class="p">)</span> <span class="p">{</span>
@@ -257,7 +257,7 @@
             <span class="p">});</span>
         <span class="p">}</span>
     <span class="p">},</span>
-    <span class="nx">height</span><span class="o">:</span> <span class="mi">300</span>
+    <span class="nx">height</span><span class="o">:</span> <span class="mf">300</span>
 <span class="p">});</span>
 </pre></div>
 </div>
@@ -272,8 +272,8 @@
     <span class="nx">title</span><span class="o">:</span> <span class="s1">&#39;Overview&#39;</span><span class="p">,</span>
     <span class="nx">layout</span><span class="o">:</span> <span class="s1">&#39;fit&#39;</span><span class="p">,</span>
     <span class="nx">items</span><span class="o">:</span> <span class="nx">overview</span><span class="p">,</span>
-    <span class="nx">height</span><span class="o">:</span> <span class="mi">300</span><span class="p">,</span>
-    <span class="nx">width</span><span class="o">:</span> <span class="mi">300</span><span class="p">,</span>
+    <span class="nx">height</span><span class="o">:</span> <span class="mf">300</span><span class="p">,</span>
+    <span class="nx">width</span><span class="o">:</span> <span class="mf">300</span><span class="p">,</span>
     <span class="nx">collapsible</span><span class="o">:</span> <span class="kc">true</span>
 <span class="p">});</span>
 </pre></div>

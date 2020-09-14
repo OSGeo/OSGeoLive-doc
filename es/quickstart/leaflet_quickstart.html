@@ -132,7 +132,7 @@
 <div class="section" id="setting-up-the-map">
 <h2><a class="toc-backref" href="#id4">Configurar el mapa</a><a class="headerlink" href="#setting-up-the-map" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Vamos a crear un mapa de el este de África con una indicación de la Conferencia FOSS4G de 2018. Primero vamos a inicializar el mapa y estableceremos su vista en nuestras coordenadas geográficas elegidas y a un nivel de acercamiento:</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">map</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="s1">&#39;map&#39;</span><span class="p">).</span><span class="nx">setView</span><span class="p">([</span><span class="mf">44.43743</span><span class="p">,</span> <span class="mf">26.104</span><span class="p">],</span> <span class="mi">15</span><span class="p">);</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">map</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="s1">&#39;map&#39;</span><span class="p">).</span><span class="nx">setView</span><span class="p">([</span><span class="mf">44.43743</span><span class="p">,</span> <span class="mf">26.104</span><span class="p">],</span> <span class="mf">15</span><span class="p">);</span>
 </pre></div>
 </div>
 <p>De manera predeterminada (al no pasar cualquier opción al crear la instancia de mapa), todas las interacciones con el mouse y el tacto en el mapa están habilitadas, y tiene controles de zoom y de atribución.</p>
@@ -156,7 +156,7 @@
 </pre></div>
 </div>
 <p>Para añadir un círculo es igual (excepto para especificar el radio en metros como un segundo argumento), pero le permite controlar cómo se ve pasando opciones como el argumento pasado al crear el objeto:</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">circle</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">circle</span><span class="p">([</span><span class="mf">44.435</span><span class="p">,</span> <span class="mf">26.11</span><span class="p">],</span> <span class="mi">250</span><span class="p">,</span> <span class="p">{</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">circle</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">circle</span><span class="p">([</span><span class="mf">44.435</span><span class="p">,</span> <span class="mf">26.11</span><span class="p">],</span> <span class="mf">250</span><span class="p">,</span> <span class="p">{</span>
    <span class="nx">color</span><span class="o">:</span> <span class="s1">&#39;red&#39;</span><span class="p">,</span>
    <span class="nx">fillColor</span><span class="o">:</span> <span class="s1">&#39;#f03&#39;</span><span class="p">,</span>
    <span class="nx">fillOpacity</span><span class="o">:</span> <span class="mf">0.5</span>

@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="hu">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>R Quickstart &#8212; OSGeoLive 13.0 Documentation</title>
+    <title>R gyorstalpaló &#8212; OSGeoLive 13.0 Documentation</title>
     <link rel="stylesheet" href="../../_static/overview.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -71,7 +71,7 @@
             
   <a class="reference external image-reference" href="https://cran.r-project.org"><img alt="../../_images/logo_R.png" class="align-right" src="../../_images/logo_R.png" /></a>
 <div class="section" id="r-quickstart">
-<h1>R Quickstart<a class="headerlink" href="#r-quickstart" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
+<h1>R gyorstalpaló<a class="headerlink" href="#r-quickstart" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
 <p>Az R egy szabad szoftver környezet statisztikai számításokhoz és grafikákhoz.</p>
 <p>Ez a gyorstalpaló leírja:</p>
 <blockquote>
@@ -86,8 +86,8 @@
 <p class="topic-title">Contents</p>
 <ul class="simple">
 <li><a class="reference internal" href="#start-r" id="id1">Indítsa el az R-t</a></li>
-<li><a class="reference internal" href="#building-data" id="id2">Building data</a></li>
-<li><a class="reference internal" href="#loading-map-data" id="id3">Loading map data</a></li>
+<li><a class="reference internal" href="#building-data" id="id2">Adatok előállítása</a></li>
+<li><a class="reference internal" href="#loading-map-data" id="id3">Térképi adatok betöltése</a></li>
 <li><a class="reference internal" href="#vignettes" id="id4">Matricák</a></li>
 <li><a class="reference internal" href="#what-next" id="id5">Mi a következő?</a></li>
 </ul>
@@ -97,11 +97,10 @@
 <p>Az R lényegében egy parancssori program, bár a grafikus felhasználói felületek is  rendelkezésre állnak. Beír egy sornyi kódot a parancssorba, megnyomja a return gombot, és a R interpreter kiértékeli azt, és kiírja az eredményt.</p>
 <div class="admonition tip">
 <p class="first admonition-title">Javaslat</p>
-<p class="last">Don’t fear the command line - it is a source of great power. Using the up and down arrows
-to recall commands so you can edit mistakes. Hit CTRL-C if get stuck and you should get the prompt back.</p>
+<p class="last">Ne tartson a parancssortól - nagy lehetőségek forrása. A fel és le nyilakat használva visszahívhatja a korábbi parancsokat, így kijavíthatja a hibákat. Nyomjon CTRL.C-t, ha elakadt és a promptot szeretné visszakapni.</p>
 </div>
-<p>Choose <span class="menuselection">Geospatial ‣ Spatial Tools ‣ R Statistics</span>. A terminal window opens running R.</p>
-<p>You can start with simple arithmetic.</p>
+<p>Válassza a menüből <span class="menuselection">Geospatial ‣ Spatial Tools ‣ R Statistics</span>. Az R-t futtató terminálablak jelenik meg.</p>
+<p>Egyszerű aritmetikai számításokkal kezdheti.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">&gt;</span> <span class="mi">3</span><span class="o">*</span><span class="mi">2</span>
 <span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="mi">6</span>
 
@@ -115,12 +114,8 @@ to recall commands so you can edit mistakes. Hit CTRL-C if get stuck and you sho
 <span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="mf">1.155727</span>
 </pre></div>
 </div>
-<p>A full range of arithmetic, trigonometric, and statistical
-functions are built-in, and thousands more are available from
-packages in the <a class="reference external" href="https://cran.r-project.org/">CRAN</a> archive.</p>
-<p>The main prompt in R is <code class="docutils literal"><span class="pre">&gt;</span></code>, but there is also the continuation prompt <code class="docutils literal"><span class="pre">+</span></code>, which
-appears if R expects more input to make a valid expression. You’ll see this if you
-forget a closing bracket or parenthesis.</p>
+<p>Az aritmetikai, trigonometriai és statisztikai függvények teljes készletét beépítették és további ezrek érhetők el a <a class="reference external" href="https://cran.r-project.org/">CRAN</a> archívum csomagjaiból.</p>
+<p>Az R-ben a fő prompt a <code class="docutils literal"><span class="pre">&gt;</span></code>, de van egy folytató prompt <code class="docutils literal"><span class="pre">+</span></code>, mely akkor jelenik meg ha az R további inputot vár teljes kifejezéshez. Akkor látja, ha elfelejt megadni egy záró szögletes vagy kerek zárójelet.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">&gt;</span> <span class="n">sqrt</span><span class="p">(</span>
 <span class="o">+</span> <span class="mi">2</span>
 <span class="o">+</span> <span class="p">)</span>
@@ -129,7 +124,7 @@ forget a closing bracket or parenthesis.</p>
 </div>
 </div>
 <div class="section" id="building-data">
-<h2><a class="toc-backref" href="#id2">Building data</a><a class="headerlink" href="#building-data" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Adatok előállítása</a><a class="headerlink" href="#building-data" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Lehet, hogy csodálkozik, hogy mit csinálhat a titokzatos «egy» a szögletes zárójelben az outputban. Ez azt jelenti, hogy az eredmény egy szám. Az R képes az adatokat egydimenziós vektorokban, kétdimenziós mátrixokban, és a többdimenziós tömbökben tárolni. Sok olyan függvény van, amely képes ezeket generálni. Íme egy egyszerű sorozat:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">&gt;</span> <span class="n">seq</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="nb">len</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 <span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="mf">1.000000</span> <span class="mf">1.444444</span> <span class="mf">1.888889</span> <span class="mf">2.333333</span> <span class="mf">2.777778</span> <span class="mf">3.222222</span> <span class="mf">3.666667</span> <span class="mf">4.111111</span>
@@ -201,7 +196,7 @@ forget a closing bracket or parenthesis.</p>
 </div>
 </div>
 <div class="section" id="loading-map-data">
-<h2><a class="toc-backref" href="#id3">Loading map data</a><a class="headerlink" href="#loading-map-data" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Térképi adatok betöltése</a><a class="headerlink" href="#loading-map-data" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Sok csomag létezik a téradatok kezelésére és statisztikákra. Néhányat bevettünk ide és néhány letölthető a CRAN-ról.</p>
 <p>Két shape fájlt fogunk betölteni itt - az országhatárok és lakott helyek a Natural Earth adatokból. Két kiegészítő csomagot használunk a térbeli funkcionalitás eléréséhez:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">&gt;</span> <span class="n">library</span><span class="p">(</span><span class="n">sf</span><span class="p">)</span>           <span class="c1"># Simple Features manipulation Library</span>
@@ -256,18 +251,13 @@ forget a closing bracket or parenthesis.</p>
 </div>
 <div class="section" id="vignettes">
 <h2><a class="toc-backref" href="#id4">Matricák</a><a class="headerlink" href="#vignettes" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>In the past, the documentation for R packages tended to be tersely-written help pages
-for each function. Now package authors are encouraged to write a «vignette» as a friendly
-introduction to the package. If you run the <code class="docutils literal"><span class="pre">vignette()</span></code> function with no arguments
-you will get the list of those vignettes on your system. Try <code class="docutils literal"><span class="pre">vignette(&quot;sf1&quot;)</span></code> for a
-slightly technical introduction to the R spatial package.</p>
+<p>Korábban az R csomagok dokumentációja minden függvényhez tömören megírt súgó oldalakra irányult. Most a csomag szerzőit arra bátorítjuk, hogy egy «matricát» írjanak mint a csomag egy barátságos bemutatása. Ha a <code class="docutils literal"><span class="pre">vignette()</span></code> függvényt argumentumok nélkül futtatja a rendszerén található matricák listáját kapja. Próbálja ki a <code class="docutils literal"><span class="pre">vignette(&quot;sf1&quot;)</span></code> parancsot egy technikai bevezetőhöz az R térbeli csomagjához.</p>
 </div>
 <div class="section" id="what-next">
 <h2><a class="toc-backref" href="#id5">Mi a következő?</a><a class="headerlink" href="#what-next" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>For general information about R, try the official <a class="reference external" href="https://cran.r-project.org/doc/manuals/R-intro.html">Introduction to R</a> or any of the documentation from the main <a class="reference external" href="https://www.r-project.org/">R Project</a> page.</p>
-<p>For more information on spatial aspects of R, the best place to start is probably the <a class="reference external" href="https://cran.r-project.org/web/views/Spatial.html">R Spatial Task View</a></p>
-<p>You might also want to check out the <a class="reference external" href="https://www.rspatial.org">R-Spatial</a>
-page.</p>
+<p>Általános információkhoz az R-ről próbálja meg a hivatalos <a class="reference external" href="https://cran.r-project.org/doc/manuals/R-intro.html">Introduction to R</a> vagy bármely dokumentációt az  <a class="reference external" href="https://www.r-project.org/">R Project</a> fő oldaláról.</p>
+<p>Az R térbeli vonatkozásairól további információhoz a legjobb kezdőpont valószínűleg az <a class="reference external" href="https://cran.r-project.org/web/views/Spatial.html">R Spatial Task View</a></p>
+<p>Érdemes megnéznie az „R-Spatial &lt;&lt;<a class="reference external" href="https://www.rspatial.org">https://www.rspatial.org</a>&gt; « _ oldalt is.</p>
 </div>
 </div>
 
