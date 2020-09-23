@@ -28,7 +28,7 @@ needs to have the following hardware requirements:
 Downloads and Virtual Machine Conversion
 --------------------------------------------------------------------------------
 
-Download the OSGeoLive VirtualBox virtual hard disk (vmdk) by following the links on `live.osgeo.org <http://live.osgeo.org/en/download.html>`_. 
+Download the OSGeoLive VirtualBox virtual hard disk (vmdk) by following the links on :doc:`live.osgeo.org <../download>`.
 Once downloaded unzip the downloaded file (using `7zip <https://www.7-zip.org>`_ ).
 
 The virtual machine image format for Hyper-V differs from the VirtualBox download. The file therefore has to be converted from ``vmdk`` to
@@ -46,7 +46,7 @@ Microsoft Virtual Machine Converter 3.0
 The second more complicated option is as follows.
 
 #. Download the `Microsoft Virtual Machine Converter 3.0 <https://www.microsoft.com/en-us/download/details.aspx?id=42497>`_ and install. 
-#. Download the DS File Ops Kit and unzip. 
+#. Download the DS File Ops Kit and unzip.
 #. Open PowerShell (with administrator rights)
 #. Run the following command to get the disk descriptor from the OSGeoLive vmdk. This saves the disk description to the "descriptor1.txt" file. 
 
