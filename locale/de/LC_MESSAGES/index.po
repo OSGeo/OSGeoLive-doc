@@ -77,15 +77,15 @@ msgstr "Wählen Sie Anwendungen aus dem \"Geospatial\" Menü."
 
 #: ../../build/doc/index.rst:28
 msgid ""
-"OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo "
-"Foundation is a not-for-profit supporting Geospatial Open Source Software "
-"development, promotion and `education <https://www.osgeo.org/initiatives"
-"/geo-for-all/>`_."
+"OSGeoLive is an `OSGeo Foundation <https://www.osgeo.org/>`_ project. The "
+"OSGeo Foundation is a not-for-profit supporting Geospatial Open Source "
+"Software development, promotion and `education "
+"<https://www.osgeo.org/initiatives/geo-for-all/>`_."
 msgstr ""
-"OSGeoLive ist ein Projekt der `OSGeo Foundation <https://osgeo.org/>`_ . Die"
-" OSGeo Foundation ist ein not-for-profit Projekt, das die Entwicklung, im "
-"Bereich Geospatial Open Source Software, deren Verbreitung und in den "
-"Einsatz in der `Lehre <https://www.osgeo.org/initiatives/geo-for-all//>`_ "
+"OSGeoLive ist ein Projekt der `OSGeo Foundation <https://www.osgeo.org/>`_ ."
+" Die OSGeo Foundation ist ein not-for-profit Projekt, das die Entwicklung, "
+"im Bereich Geospatial Open Source Software, deren Verbreitung und in den "
+"Einsatz in der `Lehre <https://www.osgeo.org/initiatives/geo-for-all/>`_ "
 "unterstützt."
 
 #: ../../build/doc/index.rst:34
