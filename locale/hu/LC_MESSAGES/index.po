@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-01-21 16:46+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -77,13 +78,13 @@ msgstr "Válasszon ki egy alkalmazást a \"Geospatial\" menüből. "
 
 #: ../../build/doc/index.rst:28
 msgid ""
-"OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo "
-"Foundation is a not-for-profit supporting Geospatial Open Source Software "
-"development, promotion and `education <https://www.osgeo.org/initiatives"
-"/geo-for-all/>`_."
+"OSGeoLive is an `OSGeo Foundation <https://www.osgeo.org/>`_ project. The "
+"OSGeo Foundation is a not-for-profit supporting Geospatial Open Source "
+"Software development, promotion and `education "
+"<https://www.osgeo.org/initiatives/geo-for-all/>`_."
 msgstr ""
-"Az OSGeoLive egy `OSGeo Alapítvány <http://osgeo.org/>`_ projekt. Az OSGeo "
-"Alapítvány egy nonprofit szervezet, mely támogatja a nyílt forráskódú "
+"Az OSGeoLive egy `OSGeo Alapítvány <https://www.osgeo.org/>`_ projekt. Az "
+"OSGeo Alapítvány egy nonprofit szervezet, mely támogatja a nyílt forráskódú "
 "térinformatikai szoftverek fejlesztést, azok promócióját és az `oktatását "
 "<https://www.osgeo.org/initiatives/geo-for-all/>`_."
 
