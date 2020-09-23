@@ -6,15 +6,16 @@
 # Translators:
 # MarieSilvestre, 2019
 # Nicolas Roelandt (Personnel), 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-09-23 09:57-0500\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -99,8 +100,8 @@ msgstr "Essayez aussi les autres visionneuses."
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:53
 msgid ""
-"The Mapbox GL viewer and and Maputnik require WebGL support, which is "
-"probably not available when running OSGeoLive in a VM."
+"The Mapbox GL viewer and Maputnik require WebGL support, which is probably "
+"not available when running OSGeoLive in a VM."
 msgstr ""
 "Les visionneuses Mapbox GL et Maputnik ont besoin d'un support WebGL, qui "
 "n'est probablement pas disponible lors de l'exécution d'OSGeoLive dans une "
