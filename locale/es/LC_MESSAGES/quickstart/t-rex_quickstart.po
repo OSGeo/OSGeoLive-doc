@@ -5,17 +5,17 @@
 # 
 # Translators:
 # David Mateos, 2019
-# Vicky Vergara <vicky@georepublic.de>, 2020
 # MarPetra <mvergaratrejo@gmail.com>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-09-23 09:57-0500\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -100,8 +100,8 @@ msgstr "Pruebe también los otros espectadores."
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:53
 msgid ""
-"The Mapbox GL viewer and and Maputnik require WebGL support, which is "
-"probably not available when running OSGeoLive in a VM."
+"The Mapbox GL viewer and Maputnik require WebGL support, which is probably "
+"not available when running OSGeoLive in a VM."
 msgstr ""
 "El visor de Mapbox GL y Maputnik requieren soporte de WebGL, que "
 "probablemente no esté disponible al ejecutar OSGeoLive en una máquina "
