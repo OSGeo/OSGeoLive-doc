@@ -266,7 +266,7 @@ linkcheck_ignore = [
         
         # Used in overview/inspire_overview
         # Error message: broken    https://etf-validator.net - 503 Server Error: Service Temporarily Unavailable for url: https://etf-validator.net/
-        'https://etf-validator.net'
+        'https://etf-validator.net',
   
         # Link does not exist anymore
         # Used in quickstart/geoserver_quickstart
