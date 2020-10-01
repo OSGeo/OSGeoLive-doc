@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-10-01 18:54-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -365,46 +365,166 @@ msgid "Afterwards, you should press the green arrow button, pointing to the righ
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:534
-msgid "Things to try"
+msgid "Get to know Foreign Data Wrappers (FDW)"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:536
-msgid "Here are some additional challenges for you to try:"
+msgid "From you database you can access remote objects like tables from other PostgreSQL databases or connect to remote databases like Oracle, MySQL, MS SQL or CouchDB. You also can connect via ODBC, connect to CSV, Geospatial Data and even to twitter."
 msgstr ""
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:538
-msgid "Try some more spatial functions like ``st_buffer(geom)``, ``st_transform(geom,25831)``, ``st_x(geom)`` - you will find full documentation at http://postgis.net/documentation/"
+#: ../../build/doc/quickstart/postgis_quickstart.rst:539
+msgid "You find a list of different FDW at:"
 msgstr ""
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:540
-msgid "Export your tables to shapefiles with ``pgsql2shp`` on the command line."
+#: ../../build/doc/quickstart/postgis_quickstart.rst:541
+msgid "https://wiki.postgresql.org/wiki/Foreign_data_wrappers"
 msgstr ""
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:542
-msgid "Try ``ogr2ogr`` on the command line to import/export data to your database."
+#: ../../build/doc/quickstart/postgis_quickstart.rst:543
+msgid "Let's see how it works! The easiest way is to connect to a different PostgreSQL database."
 msgstr ""
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:544
-msgid "Try to import data with ``shp2pgsql`` on the command line to your database."
+#: ../../build/doc/quickstart/postgis_quickstart.rst:545
+msgid "Here are the steps:"
 msgstr ""
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:546
-msgid "Try to do road routing using :doc:`../overview/pgrouting_overview`."
+#: ../../build/doc/quickstart/postgis_quickstart.rst:547
+msgid "First load the extension for the Foreign Data Wrapper that you want to use. For a connection to a different PostgreSQL database you need ``postgres_fdw``"
 msgstr ""
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:551
-msgid "What next?"
-msgstr ""
-
-#: ../../build/doc/quickstart/postgis_quickstart.rst:553
-msgid "This is only the first step on the road to using PostGIS. There is a lot more functionality you can try."
-msgstr ""
-
-#: ../../build/doc/quickstart/postgis_quickstart.rst:555
-msgid "PostGIS Project home -  http://postgis.net"
+#: ../../build/doc/quickstart/postgis_quickstart.rst:554
+msgid "Please note that in pgAdmin III the foreign data wrappers, foreign servers, user mappings and foreign tables are not displayed by default in the tree. You have to activate them via menu via :menuselection:`File --> Options --> Browser --> Display`"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:557
+msgid "Create a foreign Server that tells you where to find the data source that you want to connect"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:565
+msgid "Define the user that should be used when you connect to the foreign server"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:573
+msgid "Now you can create a foreign table."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:582
+msgid "Find new tables in your database and have a look at the data from a foreign table."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:589
+msgid "Connect to a remote OGR data source via ogr_fdw"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:591
+msgid "The extension ``ogr_fdw`` allows connection too several geodata formats like KML, GeoPackage, WFS, GeoJSON, GPX, GML and more."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:594
+msgid "Read more about ``ogr_fdw``: * Repository: https://github.com/pramsey/pgsql-ogr-fdw * New and improved: http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:600
+msgid "Install the extension ``ogr_fdw`` in your database."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:601
+msgid "On the database prompt type:"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:609
+msgid "Inspect which formats are supported:"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:610
+msgid "Open a terminal and search for ogr_fdw_info:"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:617
+msgid "Results might look like these: ::"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:635
+msgid "Create a FDW to a WFS"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:636
+msgid "Start Geoserver via :menuselection:`Geospatial --> Web Services --> GeoServer -->  Start GeoServer`"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:638
+msgid "Open GeoServer http://localhost:8082/geoserver/web/"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:639
+msgid "GeoServer WFS GetCapabilities http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:640
+msgid "GeoServer WFS DescribeFeatureType for topp:states `http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states <http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states>`__"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:643
+msgid "GeoServer WFS GetFeature topp:states `http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states <http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states>`__"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:649
+msgid "Create a foreign server that refers to the WFS that you want to connect"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:657
+msgid "Import all WFS feature_types as foreign tables with one command."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:658
+msgid "After the import you will see several new foreign tables in your schema."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:667
+msgid "Inspect the foreign data table ``topp_states``:"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:674
+msgid "Things to try"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:676
+msgid "Here are some additional challenges for you to try:"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:678
+msgid "Try some more spatial functions like ``st_buffer(geom)``, ``st_transform(geom,25831)``, ``st_x(geom)`` - you will find full documentation at http://postgis.net/documentation/"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:680
+msgid "Export your tables to shapefiles with ``pgsql2shp`` on the command line."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:682
+msgid "Try ``ogr2ogr`` on the command line to import/export data to your database."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:684
+msgid "Try to import data with ``shp2pgsql`` on the command line to your database."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:686
+msgid "Try to do road routing using :doc:`../overview/pgrouting_overview`."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:691
+msgid "What next?"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:693
+msgid "This is only the first step on the road to using PostGIS. There is a lot more functionality you can try."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:695
+msgid "PostGIS Project home -  http://postgis.net"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:697
 msgid "PostGIS Documentation -  http://postgis.net/documentation/"
 msgstr ""
 
