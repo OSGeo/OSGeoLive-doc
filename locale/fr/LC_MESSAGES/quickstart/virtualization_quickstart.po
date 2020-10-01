@@ -6,15 +6,16 @@
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
 # Nicolas Roelandt (Personnel), 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-09-23 09:57-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -96,16 +97,15 @@ msgstr ""
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:31
 msgid ""
-"Spare Hard Disk Space: The virtual disk file (vmdk) from:  `live.osgeo.org "
-"<https://live.osgeo.org/en/download.html>`_  unzips to almost 10 GB. And "
-"you'll want more space to allow some room to work on the virtual machine. So"
-" 20 GB is a good recommendation."
+"Spare Hard Disk Space: The virtual disk file (vmdk) from "
+":doc:`live.osgeo.org <../download>`  unzips to almost 10 GB. And you'll want"
+" more space to allow some room to work on the virtual machine. So 20 GB is a"
+" good recommendation."
 msgstr ""
 "Espace disque dur disponible: le fichier de disque virtuel (vmdk) de:  "
-"`live.osgeo.org <https://live.osgeo.org/en/download.html>`_  décompressé "
-"fait presque 10 GB. Et vous voudrez sûrement plus d'espace pour pouvoir "
-"travailler sur la machine virtuelle. Ainsi 20 Go est une bonne "
-"recommandation."
+":doc:`live.osgeo.org <../download>`  décompressé fait presque 10 GB. Et vous"
+" voudrez sûrement plus d'espace pour pouvoir travailler sur la machine "
+"virtuelle. Ainsi 20 Go est une bonne recommandation."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:32
 msgid ""
@@ -149,15 +149,15 @@ msgstr "``apt-get install virtualbox-ose``"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:45
 msgid ""
-"In addition download the OSGeo Virtual disk file (vmdk) from `live.osgeo.org"
-" <https://live.osgeo.org/en/download.html>`_ . Click on the \"Download "
-"virtual machine\" button. Then unzip the downloaded file (using `7zip "
+"In addition download the OSGeo Virtual disk file (vmdk) from "
+":doc:`live.osgeo.org <../download>`. Click on the \"Download virtual "
+"machine\" button. Then unzip the downloaded file (using `7zip "
 "<https://www.7-zip.org>`_ )."
 msgstr ""
 "En plus, téléchargez fichier de disque virtuel OSGeo (vmdk) depuis "
-"`live.osgeo.org <https://live.osgeo.org/en/download.html>`_ . Cliquez sur le"
-" bouton \"Téléchargez la machine virtuelle\". Ensuite, décompresser le "
-"fichier téléchargé (en utilisant `7zip <https://www.7-zip.org>`_ )."
+":doc:`live.osgeo.org <../download>` . Cliquez sur le bouton \"Téléchargez la"
+" machine virtuelle\". Ensuite, décompresser le fichier téléchargé (en "
+"utilisant `7zip <https://www.7-zip.org>`_ )."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:49
 msgid "**Create a Virtual Machine**"

@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2018
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-09-23 09:57-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2018\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,6 +45,10 @@ msgid ""
 "there are likely more tricks and issues. Look for latest tips here: "
 "https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB"
 msgstr ""
+"Olemme havainneet, että USB-aseman rakentamiseen onnistuneesti on olemassa "
+"monia vinkkejä ja temppuja. Olemme dokumentoineet sen, mitä tiedämme, mutta "
+"todennäköisesti on enemmän temppuja ja asioita. Etsi viimeisimmät vinkit "
+"täältä: https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:16
 msgid "Requirements"
@@ -55,11 +60,9 @@ msgstr "USB muistitikku (vähintään 4 GB,  8+ GB on suositeltava)"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:19
 msgid ""
-"An OSGeoLive ISO image (downloaded from: "
-"http://live.osgeo.org/en/download.html) or converted from a DVD."
+"An OSGeoLive ISO image (downloaded from: :doc:`OSGeoLive downloads "
+"<../download>`) or converted from a DVD."
 msgstr ""
-"OSGeoLive ISO image (ladattu osoitteesta: "
-"http://live.osgeo.org/en/download.html) tai konvertoitu  DVD:ltä."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:21
 msgid ""
@@ -156,11 +159,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:49
 msgid ""
-"`Download <http://live.osgeo.org/en/download.html>`_ osgeolive or osgeolive-"
-"mini to your computer's hard drive."
+":doc:`Download <../download>` osgeolive or osgeolive-mini to your computer's"
+" hard drive."
 msgstr ""
-"Lataa <http://live.osgeo.org/fi/download.html>`_ osgeolive tai osgeolive-"
-"mini tietokoneesi kovalevylle."
+":doc:`Lataa <../download>` osgeolive tai osgeolive-mini tietokoneesi "
+"kovalevylle."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:51
 msgid ""
@@ -239,17 +242,24 @@ msgid ""
 "When booting, look for a message indicating a Boot Menu (most commonly you "
 "press F12)"
 msgstr ""
+"Käynnistäessä, etsi viesti joka osoittaa käynnistysvalikkoa (yleisimmin "
+"paina F12)"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:84
 msgid ""
 "If your computer does not have a boot menu, then boot into your system BIOS."
 " The button to enter BIOS varies by brand and model of computer. If you "
 "can't figure out yours try this website that lists many BIOS hotkeys. "
-"http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-"
+"https://www.mydigitallife.net/comprehensive-list-of-how-key-to-press-to-"
 "access-bios-for-various-oem-and-computer-systems/"
 msgstr ""
-"Jos tietokoneessasi ei ole käynnistysvalikkoa, niin Sinun tulee käynnistää järjestelmän BIOS valikon kautta. Näppäin päästäksesi BIOS valikkoon vaihtelee konemerkin ja mallin mukaan. Jos et keksi kuinka pääset omaasi voit yrittää etsiä keinoa tämän verkkosivun kautta jolla on listattuna lukemattomia BIOS näppäimiä.\n"
-"http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems/"
+"Jos tietokoneessasi ei ole käynnistysvalikkoa, niin Sinun tulee käynnistää "
+"järjestelmän BIOS valikon kautta. Näppäin päästäksesi BIOS valikkoon "
+"vaihtelee konemerkin ja mallin mukaan. Jos et keksi kuinka pääset omaasi "
+"voit yrittää etsiä keinoa tämän verkkosivun kautta jolla on listattuna "
+"lukemattomia BIOS näppäimiä. https://www.mydigitallife.net/comprehensive-"
+"list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-"
+"systems/"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:86
 msgid "Select to boot from the USB device."
@@ -273,10 +283,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:90
 msgid ""
-"This `Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates "
+"This `Video <https://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates "
 "booting from USB."
 msgstr ""
-"Tämä `Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ esimerkkinä "
+"Tämä `Video <https://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ esimerkkinä "
 "USB:ltä käynnistämisestä."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:93
@@ -308,9 +318,13 @@ msgid ""
 "Alternative USB creation methods and latest tips are collected here: `wiki "
 "<https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
 msgstr ""
+"Vaihtoehtoinen USB:n luontimenetelmä ja viimeiset vinkit on kerätty tänne:: "
+"`wiki <https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:104
 msgid ""
 "Questions can be directed to our email list: "
 "https://lists.osgeo.org/pipermail/osgeolive/"
 msgstr ""
+"Kysymykset voidaan osoittaa sähköpostilistallemme: "
+"https://lists.osgeo.org/pipermail/osgeolive/"

@@ -4,10 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Manfred Reiter <ma.reiter@gmail.com>, 2017
-# Andreas Schild <andreas.schild@bfw.gv.at>, 2018
-# Richard Bischof <richard.bischof@lgln.niedersachsen.de>, 2018
-# Astrid Emde <astrid_emde@osgeo.org>, 2019
+# Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2018
+# Santtu Pyykkönen, 2019
+# Sini Pöytäniemi <sini.poytaniemi@gmail.com>, 2019
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
@@ -18,16 +17,16 @@ msgstr ""
 "POT-Creation-Date: 2020-09-23 12:06-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
-"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
+"Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../build/doc/contact.rst:2
 msgid "Contact Us"
-msgstr "Kontakt"
+msgstr "Ota yhteyttä"
 
 #: ../../build/doc/contact.rst:4
 msgid ""
@@ -35,13 +34,13 @@ msgid ""
 "detailed on the `OSGeoLive Wiki "
 "<https://trac.osgeo.org/osgeolive#Communication>`_."
 msgstr ""
-"Die Entwicklung von OSGeoLive wird über E-Mail und Internet-Chat (IRC) "
-"koordiniert. Weitere Informationen hierzu sind im `OSGeo Wiki "
-"<https://trac.osgeo.org/osgeolive#Communication>`_ zu finden."
+"OSGeoLive kehitystyö koordinoidaan käyttäen sähköpostia ja verkkokeskustelua"
+" (IRC) kuten on kuvattu `OSGeoLive Wikissä "
+"<https://trac.osgeo.org/osgeolive#Communication>`_."
 
 #: ../../build/doc/contact.rst:9
 msgid "Disclaimer"
-msgstr "Haftungsausschluss"
+msgstr "Vastuuvapauslauseke"
 
 #: ../../build/doc/contact.rst:11
 msgid ""
@@ -52,13 +51,8 @@ msgid ""
 "to be as useful as we do. The OSGeo Foundation does not recommend or "
 "guarantee any associated software, projects, or companies found within."
 msgstr ""
-"Dieses Live-Disc und virtuelle Maschine wurde zusammengestellt von "
-"Mitgliedern der OSGeo Gemeinschaft um beliebte Free und Open Source Software"
-" (FOSS) Geospatial Software präsentieren. Wir haben eine Reihe von nicht-"
-"OSGeo Software-Pakete aus den räumlichen und nicht räumlichen Bereichen "
-"integriert, und wir hoffen, dass Sie diese ebenso nützlich finden, wie wir "
-"es tun. Die OSGeo Foundation steht in neutraler Position zu der verwendeten "
-"Software, Projekten oder Unternehmen."
+"OSGeo-yhteisön jäsenet ovat koonneet tämän Live GIS -levyn ja -virtuaalikoneen esittelemään preferoimansa vapaan ja avoimen lähdekoodin (FOSS) paikkatieto-ohjelmistot.\n"
+"Olemme sisällyttäneet useita ei-OSGeo-ohjelmistopaketteja sekä spatiaalisilta että ei-spatiaalisilta sektoreilta, joilta toivomme Sinun kokevan yhtä hyödyllisiksi kuin me. OSGeo-säätiö ei erityisesti suosittele tai takaa mitään kokoelmaan kuuluvia  ohjelmistoja, projekteja tai yrityksiä."
 
 #: ../../build/doc/contact.rst:16
 msgid ""
@@ -66,22 +60,21 @@ msgid ""
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE.`"
 msgstr ""
-"Diese Programme werden in der Hoffnung weiterverbreitet, dass sie nützlich "
-"sein werden, jedoch OHNE IRGENDEINE GARANTIE - eingeschlossen Zusicherungen "
-"allgemeiner GEBRAUCHSTAUGLICHKEIT oder GEWÄHRLEISTUNG DER EIGNUNG FÜR EINEN "
-"BESTIMMTEN ZWECK."
+"\"Nämä ohjelmat ovat jakelussa toivoen, että ne ovat hyödyllisiä, mutta "
+"ILMAN MITÄÄN TAKUUTA; ilman edes TUOTTAMUKSELLISUUSTAKUUTA taikka SOPIVUUTTA"
+" TIETTYYN TARKOITUKSEEN. \""
 
 #: ../../build/doc/contact.rst:20
 msgid ""
 "For additional information on the distribution of each program review their "
 "license as indicated on the page for each program."
 msgstr ""
-"Weitere Informationen zu den einzelnen Programmen und deren Lizenz finden "
-"sich auf der Seite des jeweiligen Programms."
+"Saadaksesi lisätietoja jokaisen ohjelman jakelusta tutustu kunkin ohjelman "
+"verkkosivuun, jossa on tietoa lisenssistä."
 
 #: ../../build/doc/contact.rst:24
 msgid "Community Support"
-msgstr "Unterstützung durch die Gemeinschaft"
+msgstr "Yhteisön tuki"
 
 #: ../../build/doc/contact.rst:26
 msgid ""
@@ -89,8 +82,8 @@ msgid ""
 "us a note on `our mailing list "
 "<https://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
 msgstr ""
-"Wenn Sie Fragen, Anmerkungen oder Schwierigkeiten haben, erhalten Sie Hilfe "
-"auf der Mailing Liste "
+"Jos Sinulla on kysymyksiä, kommentteja, tai ajaudut ongelmiin, ole "
+"ystävällinen ja lähetä meille viesti `sähköpostilistallemme "
 "<https://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
 
 #: ../../build/doc/contact.rst:29
@@ -98,17 +91,17 @@ msgid ""
 "Searchable archives of the mailing list are hosted by `Nabble <http://www"
 ".osgeo-org.1560.x6.nabble.com/OSGeoLive-f3777350.html>`_."
 msgstr ""
-"Durchsuchbare Archive werden von `Nabble <http://www.osgeo-"
-"org.1560.x6.nabble.com/OSGeoLive-f3777350.html>`_ zur Verfügung gestellt."
+"Haettavat sähköpostilistojen arkistot ovat talletettu  `Nabbleen <http://www"
+".osgeo-org.1560.x6.nabble.com/OSGeoLive-f3777350.html>`_."
 
 #: ../../build/doc/contact.rst:32
 msgid ""
 "IRC users might try the #osgeolive or #osgeo channel at Freenode.net for "
 "real-time assistance. You also can meet us at Slack, Matrix or Glitter."
 msgstr ""
-"IRC-Benutzer können den #osgeolive oder #osgeo Kanal auf Freenode.net "
-"versuchen, um Echtzeit-Unterstützung zu erhalten. Sie können uns auch bei "
-"Slack, Matrix oder Glitter treffen."
+"IRC käyttäjät voivat kokeilla kanavia #osgeolive ja#osgeo osoitteessa "
+"Freenode.net saadakseen reaaliaikaista neuvontaa. Meidät löytää myös "
+"Slackissa, Matrixissa ja Glitterissä."
 
 #: ../../build/doc/contact.rst:35
 msgid ""
@@ -116,22 +109,22 @@ msgid ""
 "<https://trac.osgeo.org/osgeolive/wiki>`_, and a `bug and wish tracking "
 "system <https://trac.osgeo.org/osgeolive/report/10>`_ is also available."
 msgstr ""
-"Eine Fülle von Informationen ist auf der `Wikiseite "
-"<https://trac.osgeo.org/osgeolive/wiki>`_ verfügbar und ein `Tracking System"
-" für Probleme und Wünsche <https://trac.osgeo.org/osgeolive/report/10>`_ "
-"steht ebenso bereit."
+"Informaatiota löytyy laajalti `Wiki sivustoltamme "
+"<https://trac.osgeo.org/osgeolive/wiki>`_, ja `virhe ja toive "
+"seurantajärjestelmästämme <https://trac.osgeo.org/osgeolive/report/10>`_ "
+"joka  on myös käytössäsi."
 
 #: ../../build/doc/contact.rst:38
 msgid ""
 "Stay tuned and follow OSGeoLive on Twitter `@osgeolive "
 "<https://mobile.twitter.com/osgeolive>`_."
 msgstr ""
-"Bleiben Sie auf dem Laufenden und folgen Sie OSGeoLive auf Twitter "
-"`@osgeolive <https://mobile.twitter.com/osgeolive>`_."
+"Pysy ajan tasalla ja seuraa OSGeoLiveä Twitterissä  `@osgeolive "
+"<https://mobile.twitter.com/osgeolive>`_."
 
 #: ../../build/doc/contact.rst:41
 msgid "Commercial Support"
-msgstr "Kommerzieller Support"
+msgstr "Kaupallinen tuki"
 
 #: ../../build/doc/contact.rst:43
 msgid ""
@@ -139,10 +132,9 @@ msgid ""
 "offerings for them. Refer to specific application descriptions linked from "
 "the :doc:`Contents <./overview/overview>` for details."
 msgstr ""
-"Für viele der enthaltenen Softwarepakete gibt es sowohl Unterstützung durch "
-"die Community als auch kommerziellen Support. Besuchen Sie die auf der "
-"jeweiligen Projekt-Übersichtsseite verlinkten Informationen :doc:`Contents "
-"<./overview/overview>`."
+"Useimmat pakatut sovellukset tarjoavat sekä yhteisöllisiä että kaupallisia "
+"tukipalveluja. Katso erityisistä sovellutuksen :doc:`Sisältö kuvauksista "
+"<./overview/overview>` saadaksesi lisätietoja."
 
 #: ../../build/doc/contact.rst:46
 msgid ""
@@ -150,6 +142,6 @@ msgid ""
 "provide support for OSGeo member projects. See https://www.osgeo.org"
 "/service-providers/ for one that meets your needs."
 msgstr ""
-"Darüber hinaus gibt es eine große Auswahl von Unternehmen, die Support für "
-"OSGeo-Projekte anbieten. Unter https://www.osgeo.org/service-providers/ "
-"können Sie ein Unternehmen finden, das Ihren Anforderungen entspricht."
+"Lisäksi on olemassa suuri määrä konsultointiyrityksiä maailmanlaajuisesti "
+"jotka tarjoavat tukea OSGeo jäsenten hankkeille. Katso https://www.osgeo.org"
+"/service-providers/ löytääksesi tarpeitasi vastaavan."

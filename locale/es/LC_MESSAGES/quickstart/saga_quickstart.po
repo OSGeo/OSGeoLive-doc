@@ -5,17 +5,17 @@
 # 
 # Translators:
 # Gabo Gaona <gavg712@gmail.com>, 2018
-# Vicky Vergara <vicky@georepublic.de>, 2020
 # MarPetra <mvergaratrejo@gmail.com>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-09-23 09:57-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -605,10 +605,10 @@ msgstr "¿Qué sigue?"
 msgid ""
 "More documentation can be found on the SAGA website: * http://www.saga-"
 "gis.org and specifically in the documentation archive: * http://www.saga-"
-"gis.org/en/about/references.html * https://sourceforge.net/projects/saga-"
-"gis/files/SAGA%20-%20Documentation/"
+"gis.org/en/about/references.html * https://sourceforge.net/p/saga-"
+"gis/wiki/Documentation/"
 msgstr ""
 "Puede encontrar más documentación en el sitio web de SAGA: * http://www"
 ".saga-gis.org y específicamente en el archivo de documentación: * http://www"
-".saga-gis.org/en/about/references.html * https://sourceforge.net/projects"
-"/saga-gis/files/SAGA%20-%20Documentation/"
+".saga-gis.org/en/about/references.html * https://sourceforge.net/p/saga-"
+"gis/wiki/Documentation/"
