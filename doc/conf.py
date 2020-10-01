@@ -258,6 +258,12 @@ linkcheck_ignore = [
         r'http://127.0.0.1', r'https://127.0.0.1',
         'http://geonode',
 
+
+        # link exists but when many link checks are done link checker fails
+        # ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+        # Used in quickstart/osm_quickstart
+        'https://www.openstreetmap.org/edit',
+
         # Link does not exist anymore
         # Used in quickstart/geoserver_quickstart
         r'http://prj2epsg.org',

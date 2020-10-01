@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-09-23 09:57-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -60,11 +60,9 @@ msgstr "Egy USB meghajtó (legalább 4GB, 8+ GB ajánlott)."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:19
 msgid ""
-"An OSGeoLive ISO image (downloaded from: "
-"https://live.osgeo.org/en/download.html) or converted from a DVD."
+"An OSGeoLive ISO image (downloaded from: :doc:`OSGeoLive downloads "
+"<../download>`) or converted from a DVD."
 msgstr ""
-"Egy OSGeoLive ISO kép (a https://live.osgeo.org/en/download.html címről "
-"töltheti le) vagy egy DVD-ről konvertálhatja."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:21
 msgid ""
@@ -159,11 +157,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:49
 msgid ""
-"`Download <https://live.osgeo.org/en/download.html>`_ osgeolive or "
-"osgeolive-mini to your computer's hard drive."
+":doc:`Download <../download>` osgeolive or osgeolive-mini to your computer's"
+" hard drive."
 msgstr ""
-"`Töltse le <https://live.osgeo.org/en/download.html>`_ az osgeolive-ot vagy"
-"  az osgeolive-minii a számítógépének merevlemezére."
+":doc:`Töltse le <../download>` az osgeolive-ot vagy osgeolive-mini-t a "
+"gépének merevlemezére."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:51
 msgid ""
