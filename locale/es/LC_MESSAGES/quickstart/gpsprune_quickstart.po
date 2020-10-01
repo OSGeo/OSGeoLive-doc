@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Vicky Vergara <vicky@georepublic.de>, 2020
 # MarPetra <mvergaratrejo@gmail.com>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-08-19 10:16-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -359,17 +359,20 @@ msgid "Further reading"
 msgstr "Lectura adicional"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:110
-msgid "GpsPrune home page: https://gpsprune.activityworkshop.net/"
-msgstr "Página de inicio de GpsPrune: https://gpsprune.activityworkshop.net/"
+msgid "GpsPrune home page: https://activityworkshop.net/software/gpsprune/"
+msgstr "Sitio web: https://activityworkshop.net/software/gpsprune/"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:111
-msgid "Screenshots: https://gpsprune.activityworkshop.net/screenshots.html"
+msgid ""
+"Screenshots: https://activityworkshop.net/software/gpsprune/screenshots.html"
 msgstr ""
-"Capturas de pantalla: https://gpsprune.activityworkshop.net/screenshots.html"
+"Capturas de pantalla:  "
+"https://activityworkshop.net/software/gpsprune/screenshots.html"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:112
 msgid ""
-"How-tos and instructions: https://gpsprune.activityworkshop.net/how-tos.html"
+"How-tos and instructions: https://activityworkshop.net/software/gpsprune"
+"/how-tos.html"
 msgstr ""
-"Cómo hacerlo e instrucciones: https://gpsprune.activityworkshop.net/how-"
-"tos.html"
+"Cómo hacerlo e instrucciones: https://activityworkshop.net/software/gpsprune"
+"/how-tos.html"

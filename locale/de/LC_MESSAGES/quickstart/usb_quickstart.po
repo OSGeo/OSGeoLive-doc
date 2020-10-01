@@ -6,15 +6,16 @@
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Astrid Emde <astrid_emde@osgeo.org>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-09-23 09:57-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,6 +46,10 @@ msgid ""
 "there are likely more tricks and issues. Look for latest tips here: "
 "https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB"
 msgstr ""
+"Zur USB Installation gibt es zahlreiche Tricks und Quirks. Es wurde alles "
+"Dokumentiert, was bisher zu Schwierigkeiten geführt hat, darüber hinaus "
+"können Sie auch aktuelle Hinweise hier ansehen: "
+"https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:16
 msgid "Requirements"
@@ -56,11 +61,9 @@ msgstr "Einen USB-Stick (mindestens 4GB, wir empfehlen 8GB oder mehr). "
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:19
 msgid ""
-"An OSGeoLive ISO image (downloaded from: "
-"http://live.osgeo.org/en/download.html) or converted from a DVD."
+"An OSGeoLive ISO image (downloaded from: :doc:`OSGeoLive downloads "
+"<../download>`) or converted from a DVD."
 msgstr ""
-"Ein OSGeoLive ISO Image (Download von: "
-"http://live.osgeo.org/en/download.html)."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:21
 msgid ""
@@ -157,11 +160,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:49
 msgid ""
-"`Download <http://live.osgeo.org/en/download.html>`_ osgeolive or osgeolive-"
-"mini to your computer's hard drive."
+":doc:`Download <../download>` osgeolive or osgeolive-mini to your computer's"
+" hard drive."
 msgstr ""
-"Laden Sie `download <http://live.osgeo.org/en/download.html>`_ osgeo-live "
-"oder osgeo-live-mini auf ihren Computer herunter."
+"Laden Sie :doc:`download <../download>` osgeo-live oder osgeo-live-mini auf "
+"ihren Computer herunter."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:51
 msgid ""
@@ -240,20 +243,22 @@ msgid ""
 "When booting, look for a message indicating a Boot Menu (most commonly you "
 "press F12)"
 msgstr ""
+"Um dies zu ändern starten Sie Ihren Rechner und drücken Sie die "
+"entsprechende Taste um ins Boot-Menü zu gelangen (üblicherweise durch F12)."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:84
 msgid ""
 "If your computer does not have a boot menu, then boot into your system BIOS."
 " The button to enter BIOS varies by brand and model of computer. If you "
 "can't figure out yours try this website that lists many BIOS hotkeys. "
-"http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-"
+"https://www.mydigitallife.net/comprehensive-list-of-how-key-to-press-to-"
 "access-bios-for-various-oem-and-computer-systems/"
 msgstr ""
 "Wenn ihr Computer kein Boot-Menü besitzt, booten Sie in ihr Sytem-BIOS. Die "
 "Taste, um ins BIOS zu gelangen, variiert nach Marke und Modell. Wenn Sie es "
 "nicht herausfinden sollten, schauen Sie auf der folgenden Webseite nach "
-"http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-"
-"access-bios-for-various-oem-and-computer-systems/."
+"https://www.mydigitallife.net/comprehensive-list-of-how-key-to-press-to-"
+"access-bios-for-various-oem-and-computer-systems/"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:86
 msgid "Select to boot from the USB device."
@@ -277,11 +282,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:90
 msgid ""
-"This `Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates "
+"This `Video <https://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates "
 "booting from USB."
 msgstr ""
-"`Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstriert das Boten"
-" von USB."
+"`Video <https://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstriert das "
+"Boten von USB."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:93
 msgid "Run:"
@@ -312,9 +317,14 @@ msgid ""
 "Alternative USB creation methods and latest tips are collected here: `wiki "
 "<https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
 msgstr ""
+"Alternative Methoden zur Erstellung eines USB Sticks und aktuelle Hinweise "
+"finden Sie hier: `wiki "
+"<https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_ "
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:104
 msgid ""
 "Questions can be directed to our email list: "
 "https://lists.osgeo.org/pipermail/osgeolive/"
 msgstr ""
+"Fragen können auch an unsere Mailingliste gestellt werden: "
+"https://lists.osgeo.org/pipermail/osgeolive/"

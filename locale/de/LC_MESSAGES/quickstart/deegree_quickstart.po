@@ -7,15 +7,16 @@
 # Dirk Stenger <stenger@lat-lon.de>, 2018
 # lgoltz <goltz@lat-lon.de>, 2018
 # Astrid Emde <astrid_emde@osgeo.org>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -135,7 +136,7 @@ msgstr ""
 msgid ""
 "Click on *'see layers'* to open a simple map-client. The service is "
 "configured to visualize the data and a basemap (rendered by `OpenStreetMap "
-"<http://openstreetmap.org/>`_)."
+"<https://www.openstreetmap.org/>`_)."
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:74
@@ -147,12 +148,12 @@ msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:77
 msgid ""
-"The map client is based on `OpenLayers <http://openlayers.org/>`_. You can "
+"The map client is based on `OpenLayers <https://openlayers.org/>`_. You can "
 "pan through the map holding the left mouse button and drag the map. Zooming "
 "is possible via mouse wheel or the navigation elements on the left side."
 msgstr ""
-"Der Karten-Client basiert auf `OpenLayers <http://openlayers.org/>`_. Durch "
-"das Halten der linken Maustaste und Ziehen der Karte kann über die Karte "
+"Der Karten-Client basiert auf `OpenLayers <https://openlayers.org/>`_. Durch"
+" das Halten der linken Maustaste und Ziehen der Karte kann über die Karte "
 "navigiert werden. Zoomen erfolgt via Mausrad oder über die "
 "Navigationselemente auf der linken Seite."
 
@@ -160,9 +161,13 @@ msgstr ""
 msgid ""
 "More information and step-by-step tutorials about the INSPIRE workspace can "
 "be found in the deegree `documentation "
-"<http://download.deegree.org/documentation/3.4.1/html/lightly.html#example-"
-"workspace-1-inspire-network-services>`_."
+"<https://download.deegree.org/documentation/3.4.1/html/lightly.html#example-"
+"workspace-1-inspire-network-services>`__."
 msgstr ""
+"Weitere Informationen und Schritt-für-Schritt-Anleitungen über den INSPIRE-"
+"Workspace finden Sie in der deegree `Dokumentation "
+"<https://download.deegree.org/documentation/3.4.1/html/lightly.html#example-"
+"workspace-1-inspire-network-services>`_."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:86
 msgid "What next?"
@@ -175,9 +180,9 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:91
-msgid "deegree online demo - Available here: http://demo.deegree.org"
+msgid "deegree online demo - Available here: https://www.deegree.org/demo/"
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:93
-msgid "deegree website - Available here: http://www.deegree.org"
+msgid "deegree website - Available here: https://www.deegree.org"
 msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-03-25 17:45-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:36
 msgid "Start Spatialite and load a database"
-msgstr ""
+msgstr "Spatialite elindítása és egy adatbázis betöltése"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:38
 msgid ""
@@ -71,6 +71,8 @@ msgid ""
 "Open the Spatialite GUI by selecting "
 ":menuselection:`Geospatial->Databases->Spatialite GUI`."
 msgstr ""
+"Nyissa meg a Spatialite grafikus felületét a "
+":menuselection:`Geospatial->Databases->Spatialite GUI` kiválasztásával"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:47
 msgid "Select :menuselection:`File->Connecting an existing SQLite DB`"
@@ -129,7 +131,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:76
 msgid "Run an SQL query"
-msgstr ""
+msgstr "SQL lekérdezés futtatása"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:83
 msgid ""
@@ -147,10 +149,12 @@ msgid ""
 "Click the \"Execute SQL\" button at the right, and see the results in the "
 "bottom right pane."
 msgstr ""
+"Kattintson az \"Execute SQL\" gombra a jobb oldalon és az eredményt jobb "
+"alsó részen láthatja."
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:97
 msgid "Run spatialite from the command line"
-msgstr ""
+msgstr "Spatialite futtatása a parancssorból"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:99
 msgid ""
@@ -183,7 +187,7 @@ msgstr "Hasznos parancsok a parancssorból::"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:116
 msgid "Create a new spatialite database and load a shapefile"
-msgstr ""
+msgstr "Új spatialite adatbázis létrehozása és shape fájl betöltése"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:118
 msgid ""
@@ -245,4 +249,4 @@ msgstr ""
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:181
 msgid "Be sure to visit the tutorial `Spatialite cookbook`_"
-msgstr ""
+msgstr "Feltétlenül látogassa meg a `Spatialite cookbook`_ oktatóanyagot."

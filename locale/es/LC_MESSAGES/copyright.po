@@ -6,17 +6,17 @@
 # Translators:
 # Jorge Sanz <xurxosanz@gmail.com>, 2017
 # Violeta Sosa <vsosa.ud@gmail.com>, 2018
-# Vicky Vergara <vicky@georepublic.de>, 2018
 # MarPetra <mvergaratrejo@gmail.com>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-09-23 09:57-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -155,16 +155,16 @@ msgid ""
 "|CC-By-SA-med| This document includes content from the \"gvSIG Quickstart\" "
 "created by Simon Cropper under the Creative Commons Attribution-ShareAlike "
 "3.0 Unported licence, https://creativecommons.org/licenses/by-sa/3.0/ "
-"available from the OSGeoLive project, "
-"https://live.osgeo.org/en/quickstart/gvsig_quickstart.html, and downloaded "
-"on 25 July 2011. The original work was translated from English to German."
+"available from the OSGeoLive project, :doc:`quickstart/gvsig_quickstart`, "
+"and downloaded on 25 July 2011. The original work was translated from "
+"English to German."
 msgstr ""
 "|CC-By-SA-med| Este documento incluye contenido de la \"Guía de Inicio "
 "Rápido de gvSIG\" creada por Simon Cropper bajo la licenciaCreative Commons "
 "Attribution-ShareAlike 3.0 Unported, https://creativecommons.org/licenses"
 "/by-sa/3.0/ disponible en el proyecto OSGeoLive, "
-"https://live.osgeo.org/en/quickstart/gvsig_quickstart.html y descargado el "
-"25 de Julio de 2011. El trabajo original fue traducido del inglés al alemán."
+":doc:`quickstart/gvsig_quickstart`, y descargado el 25 de Julio de 2011. El "
+"trabajo original fue traducido del inglés al español."
 
 #: ../../build/doc/copyright.rst:36
 msgid "**Concise CC-By-SA and attribution:**"
@@ -174,14 +174,13 @@ msgstr "**Conciso CC-By-SA y reconocimiento:**"
 msgid ""
 "© 2011 [Your Name] under a `CC By SA License "
 "<https://creativecommons.org/licenses/by-sa/3.0/>`_.  [Derived "
-"from|Includes|Extends] `OSGeoLive <https://live.osgeo.org>`_ documentation "
-"by `OSGeoLive contributors <http://live.osgeo.org/en/copyright.html>`_."
+"from|Includes|Extends] :doc:`OSGeoLive <index>` documentation by "
+":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
 "© 2011 [Su nombre] bajo una `Licencia CC By SA "
-"<https://creativecommons.org/licenses/by-sa/3.0/>`_. [Derivado "
-"de|Incluye|Extiende] documentación del `OSGeo-Live "
-"<https://live.osgeo.org>`_ elaborado por los siguientes `contribuidores de "
-"OSGeoLive <http://live.osgeo.org/en/copyright.html>`_."
+"<https://creativecommons.org/licenses/by-sa/3.0/>`_. [Derivado de | Incluye "
+"| Extiende] la documentación de :doc:`OSGeoLive <index>`  por los "
+":doc:`Contribuidores de OSGeoLive <copyright>`."
 
 #: ../../build/doc/copyright.rst:40
 msgid "**Alternative Concise CC-By and attribution:**"
@@ -189,13 +188,13 @@ msgstr "**Alternativa Concisa CC-By y reconocimiento:**"
 
 #: ../../build/doc/copyright.rst:42
 msgid ""
-"|CC-By-small| © 2011 [Your Name]. [Derived from|Includes|Extends] `OSGeoLive"
-" <https://live.osgeo.org>`_ Project Overviews by `OSGeoLive contributors "
-"<http://live.osgeo.org/en/copyright.html>`_."
+"|CC-By-small| © 2011 [Your Name]. [Derived from|Includes|Extends] "
+":doc:`OSGeoLive <index>` Project Overviews by :doc:`OSGeoLive contributors "
+"<copyright>`."
 msgstr ""
-"|CC-By-small| © 2011 [Your Name]. [Derived from|Includes|Extends] `OSGeoLive"
-" <https://live.osgeo.org>`_  Vistas Generales de Proyectos por `OSGeoLive "
-"contributors <http://live.osgeo.org/en/copyright.html>`_."
+"|CC-By-small| © 2011 [Su nombre]. [Derivado de | Incluye | Extiende] los "
+"resúmenes de los proyectos :doc:`OSGeoLive <index>`  por los "
+":doc:`Contrinuidores de OSGeoLive <copyright>`."
 
 #: ../../build/doc/copyright.rst:47
 msgid "**Minimum (for Project Overviews), attribution only:**"
@@ -203,13 +202,11 @@ msgstr "**Mínimo (para Vistas Generales de Proyectos), sólo atribución:**"
 
 #: ../../build/doc/copyright.rst:49
 msgid ""
-"This document includes `OSGeoLive <https://live.osgeo.org>`_ Project "
-"Overviews by `OSGeoLive contributors "
-"<http://live.osgeo.org/en/copyright.html>`_."
+"This document includes :doc:`OSGeoLive <index>` Project Overviews by "
+":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
-"Este documento incluye `OSGeoLive <https://live.osgeo.org>`_ Vistas "
-"Generales de Proyectos por `OSGeoLive contributors "
-"<http://live.osgeo.org/en/copyright.html>`_."
+"Este documento incluye los resumenes de los proyectos de :doc:`OSGeoLive "
+"<index>`  por los :doc:`Contribuidores de OSGeoLive <copyright>`."
 
 #: ../../build/doc/copyright.rst:52
 msgid "Documentation Contributors"

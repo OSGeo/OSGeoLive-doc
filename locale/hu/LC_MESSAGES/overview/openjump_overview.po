@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2017
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2017\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -203,14 +203,14 @@ msgstr "**Közösségi támogatás:** http://www.openjump.org/support.html"
 #: ../../build/doc/overview/openjump_overview.rst:85
 msgid ""
 "**Commercial Support:** "
-"http://ojwiki.soldin.de/index.php?title=Professional_Support_Page"
+"https://ojwiki.soldin.de/index.php?title=Professional_Support_Page"
 msgstr ""
 "**Kereskedelmi támogatás:** "
-"http://ojwiki.soldin.de/index.php?title=Professional_Support_Page"
+"https://ojwiki.soldin.de/index.php?title=Professional_Support_Page"
 
 #: ../../build/doc/overview/openjump_overview.rst:87
-msgid "**Download Page:** http://sourceforge.net/projects/jump-pilot/files/"
-msgstr "**Letöltés:** http://sourceforge.net/projects/jump-pilot/files/"
+msgid "**Download Page:** https://sourceforge.net/projects/jump-pilot/files/"
+msgstr "**Letöltés:** https://sourceforge.net/projects/jump-pilot/files/"
 
 #: ../../build/doc/overview/openjump_overview.rst:91
 msgid "Quickstart"

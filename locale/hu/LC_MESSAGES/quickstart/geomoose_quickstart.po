@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-03-25 17:45-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:28
 msgid "Start GeoMoose"
-msgstr ""
+msgstr "GeoMoose indítása"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:30
 msgid "Go to the \"Browser Clients\" folder on the desktop."
@@ -82,7 +82,7 @@ msgstr "Egy eszközsor"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:44
 msgid "A map window with navigation and zoom controls"
-msgstr ""
+msgstr "Egy térkép ablak navigációs és nagyítási vezérlőkkel"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:45
 msgid "A side menu with:"
@@ -122,15 +122,17 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:56
 msgid "Identify a location"
-msgstr ""
+msgstr "Hely azonosítása"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:58
 msgid "Click on the \"identify\" (\"i\" in a circle icon) button in the top toolbar"
 msgstr ""
+"Kattintson az \"azonosítás\" (\"i\" egy körben ikon) gombra a felső "
+"eszköztárban"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:59
 msgid "Click a point on the map."
-msgstr ""
+msgstr "Kattintson egy pontra a térképen."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:63
 msgid ""
@@ -146,7 +148,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:66
 msgid "Use the measuring tool"
-msgstr ""
+msgstr "Mérőeszköz használata"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:68
 msgid ""
@@ -154,16 +156,21 @@ msgid ""
 "coordinates of a picked point) * measure the distance along a potentially "
 "multi-segment line * measure the area of a polygon."
 msgstr ""
+"A GeoMoose mérőeszköz lehetővé teszi: * egy pont mérése (a kattintott pont "
+"koordinátáit adja vissza) * távolság mérés több szegmensből álló törtvonalon"
+" * egy zárt idom területének lemérése."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:73
 msgid ""
 "Click the double ended arrow icon in the top toolbar to start the measuring "
 "tool."
 msgstr ""
+"Kattintson a dupla nyíl végű ikonra a felső eszközsorban a mérőeszköz "
+"elindításához."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:74
 msgid "Choose to measure a point, line, or polygon."
-msgstr ""
+msgstr "Válassza a pont, törtvonal vagy zárt idom mérést."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:75
 msgid ""
@@ -171,10 +178,13 @@ msgid ""
 "the point on the map you want to measure.  To measure a line or polygon "
 "click on the map for each vertex a of the line/polygon."
 msgstr ""
+"Kattintson a térképre ahol mérni akar. Egy pont méréséhez csak kattintson a "
+"mérendő pontra a térképen. Törtvonal vagy zárt idom méréséhez kattintson a "
+"vonal/zárt idom minden töréspontjába."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:76
 msgid "Double click to end the line/polygon."
-msgstr ""
+msgstr "Duplán kattintson a vonal/zárt idom végpontjába."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:84
 msgid ""
@@ -182,6 +192,9 @@ msgid ""
 "vector layer, including previous query results) without having to manually "
 "trace over it."
 msgstr ""
+"lemérheti a térképen létező elemeket is (ha egy vektor réteg része és "
+"korábbi lekérdezés eredménye tartalmazza) anélkül, hogy kézzel végig kellene"
+" kattingatni."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:88
 msgid "Select features"
@@ -254,7 +267,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:107
 msgid "Search for features"
-msgstr ""
+msgstr "Térképi elemek keresése"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:109
 msgid ""
@@ -291,7 +304,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:127
 msgid "Print the map"
-msgstr ""
+msgstr "A térkép nyomtatása"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:129
 msgid ""

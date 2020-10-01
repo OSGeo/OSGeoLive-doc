@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
-# Astrid Emde <astrid_emde@osgeo.org>, 2018
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2018\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,50 +33,44 @@ msgstr "Bibliothek für räumliche Daten"
 #: ../../build/doc/overview/geos_overview.rst:23
 msgid ""
 "GEOS (Geometry Engine - Open Source) is a C++ port of the `JTS Topology "
-"Suite (JTS) <https://www.locationtech.org/proposals/jts-topology-suite>`_. "
-"It includes the OpenGIS Simple Features for SQL spatial predicate functions "
-"and spatial operators, as well as specific JTS enhanced topology functions."
+"Suite (JTS) <https://projects.eclipse.org/projects/locationtech>`_. It "
+"includes the OpenGIS Simple Features for SQL spatial predicate functions and"
+" spatial operators, as well as specific JTS enhanced topology functions."
 msgstr ""
 "GEOS (Geometry Engine - Open Source) ist eine C++ -Portierung der `JTS "
-"Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_. "
-"Sie deckt dabei die OpenGIS Simple Features für SQL räumliche "
+"Topology Suite (JTS) <https://projects.eclipse.org/projects/locationtech>`_."
+" Sie deckt dabei die OpenGIS Simple Features für SQL räumliche "
 "Beziehungseigenschaften und räumlichen Operatoren, sowie spezifische durch "
 "JTS verbesserte Topologie-Funktionen ab."
 
-#: ../../build/doc/overview/geos_overview.rst:25
+#: ../../build/doc/overview/geos_overview.rst:26
 msgid ""
 "GEOS is the most widely used geospatial C++ geometry library, being used by "
 "open source projects such as :doc:`PostGIS <postgis_overview>`, :doc:`QGIS "
 "<qgis_overview>`, :doc:`GDAL/OGR <gdal_overview>` and :doc:`MapServer "
 "<mapserver_overview>`, and by proprietary products including `FME "
-"<http://www.safe.com/fme/fme-technology/>`_."
+"<https://www.safe.com/fme>`_."
 msgstr ""
 "GEOS ist die am weitesten verbreitete geospatiale C++ Bibliothek für "
 "Geometrien, die von Open-Source-Projekten wie zum Beispiel :doc:`PostGIS "
 "<postgis_overview>`, :doc:`QGIS <qgis_overview>`, :doc:`GDAL/OGR "
 "<gdal_overview>` und :doc:`MapServer <mapserver_overview>` sowie von "
-"proprietären Produkten wie zum Beispiel `FME <http://www.safe.com/fme/fme-"
-"technology/>`_ verwendet wird."
+"proprietären Produkten wie zum Beispiel `FME <https://www.safe.com/fme>`_ "
+"verwendet wird."
 
-#: ../../build/doc/overview/geos_overview.rst:28
+#: ../../build/doc/overview/geos_overview.rst:32
 msgid "Implemented Standards"
 msgstr "Unterstützte Standards"
 
-#: ../../build/doc/overview/geos_overview.rst:30
-msgid ""
-"`OpenGIS Simple Features for SQL "
-"<http://www.opengeospatial.org/standards/sfs>`_  spatial predicate functions"
-" and spatial operators"
-msgstr ""
-"`OpenGIS Simple Features for SQL "
-"<http://www.opengeospatial.org/standards/sfs>`_  räumliche Prädikate und "
-"Operatoren"
+#: ../../build/doc/overview/geos_overview.rst:34
+msgid "OpenGIS |SFSQL| spatial predicate functions and spatial operators"
+msgstr "OpenGIS |SFSQL|  räumliche Prädikate und Operatoren"
 
-#: ../../build/doc/overview/geos_overview.rst:39
+#: ../../build/doc/overview/geos_overview.rst:43
 msgid "Core Features"
 msgstr "Kernfunktionen"
 
-#: ../../build/doc/overview/geos_overview.rst:41
+#: ../../build/doc/overview/geos_overview.rst:45
 msgid ""
 "Geometries: Point, LineString, Polygon, MultiPoint, MultiLineString, "
 "MultiPolygon, GeometryCollection"
@@ -84,7 +78,7 @@ msgstr ""
 "Geometrien: Point, LineString, Polygon, MultiPoint, MultiLineString, "
 "MultiPolygon, GeometryCollection"
 
-#: ../../build/doc/overview/geos_overview.rst:42
+#: ../../build/doc/overview/geos_overview.rst:46
 msgid ""
 "Predicates: Intersects, Touches, Disjoint, Crosses, Within, Contains, "
 "Overlaps, Equals, Covers"
@@ -92,7 +86,7 @@ msgstr ""
 "Prädikate: Intersects, Touches, Disjoint, Crosses, Within, Contains, "
 "Overlaps, Equals, Covers"
 
-#: ../../build/doc/overview/geos_overview.rst:43
+#: ../../build/doc/overview/geos_overview.rst:47
 msgid ""
 "Operations: Union, Distance, Intersection, Symmetric Difference, Convex "
 "Hull, Envelope, Buffer, Simplify, Polygon Assembly, Valid, Area, Length,"
@@ -100,57 +94,57 @@ msgstr ""
 "Operatoren: Union, Distance, Intersection, Symmetric Difference, Convex "
 "Hull, Envelope, Buffer, Simplify, Polygon Assembly, Valid, Area, Length,"
 
-#: ../../build/doc/overview/geos_overview.rst:44
+#: ../../build/doc/overview/geos_overview.rst:48
 msgid "Prepared geometries (pre-spatially indexed)"
 msgstr "orbereitete Geometrien (räumlich vorindiziert)"
 
-#: ../../build/doc/overview/geos_overview.rst:45
+#: ../../build/doc/overview/geos_overview.rst:49
 msgid "STR spatial index"
 msgstr "STR räumlicher Index"
 
-#: ../../build/doc/overview/geos_overview.rst:46
+#: ../../build/doc/overview/geos_overview.rst:50
 msgid ""
 "OGC Well Known Text (WKT) and Well Known Binary (WKB) encoders and decoders."
 msgstr ""
 "OGC Well Known Text (WKT) and Well Known Binary (WKB) Kodierer und "
 "Dekodierer."
 
-#: ../../build/doc/overview/geos_overview.rst:47
+#: ../../build/doc/overview/geos_overview.rst:51
 msgid "C and C++ API (C API gives long term ABI stability)"
 msgstr "C and C++ API (C API sichert langfristige ABI Beständigkeit zu)"
 
-#: ../../build/doc/overview/geos_overview.rst:48
+#: ../../build/doc/overview/geos_overview.rst:52
 msgid "Thread safe (using the reentrant API)"
 msgstr "Thread-sicher (mit dem Reentrant API)"
 
-#: ../../build/doc/overview/geos_overview.rst:51
+#: ../../build/doc/overview/geos_overview.rst:55
 msgid "Details"
 msgstr "Details"
 
-#: ../../build/doc/overview/geos_overview.rst:53
-msgid "**Website:**  http://geos.osgeo.org/"
-msgstr "**Webseite:**  http://geos.osgeo.org/"
+#: ../../build/doc/overview/geos_overview.rst:57
+msgid "**Website:** https://trac.osgeo.org/geos"
+msgstr "**Webseite:** https://trac.osgeo.org/geos"
 
-#: ../../build/doc/overview/geos_overview.rst:55
+#: ../../build/doc/overview/geos_overview.rst:59
 msgid "**Licence:** LGPL"
 msgstr "**Lizenz:** LGPL"
 
-#: ../../build/doc/overview/geos_overview.rst:57
+#: ../../build/doc/overview/geos_overview.rst:61
 msgid "**Software Version:** |version-geos|"
 msgstr "**Software Version:** |version-geos|"
 
-#: ../../build/doc/overview/geos_overview.rst:59
+#: ../../build/doc/overview/geos_overview.rst:63
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr "**Unterstützte Plattformen:** Windows, Linux, Mac"
 
-#: ../../build/doc/overview/geos_overview.rst:61
+#: ../../build/doc/overview/geos_overview.rst:65
 msgid "**API Interfaces:** C, C++"
 msgstr "**API Schnittstellen:** C, C++"
 
-#: ../../build/doc/overview/geos_overview.rst:63
+#: ../../build/doc/overview/geos_overview.rst:67
 msgid ""
-"**Support:** http://lists.osgeo.org/mailman/listinfo/geos-devel, "
-"http://www.osgeo.org/search_profile"
+"**Support:** https://lists.osgeo.org/mailman/listinfo/geos-devel, "
+"https://www.osgeo.org/service-providers"
 msgstr ""
-"**Support:** http://lists.osgeo.org/mailman/listinfo/geos-devel, "
-"http://www.osgeo.org/search_profile"
+"**Support:** https://lists.osgeo.org/mailman/listinfo/geos-devel, "
+"https://www.osgeo.org/service-providers"

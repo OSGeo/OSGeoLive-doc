@@ -243,22 +243,40 @@ latex_documents = [
 
 # Linkcheck configuration, see http://sphinx.pocoo.org/latest/config.html#options-for-the-linkcheck-builder
 
-linkcheck_ignore = [ r'http://www.dnr.state.mn.us/maps/compass.html',
-        r'https://www.asprs.org/divisions-committees/lidar-division/laser-las-file-format-exchange-activities.html',
-        r'http://geonode',
-        r'http://localhost:\d+/',  r'http://localhost:\d+', r'http://localhost/', r'http://127.0.0.1:\d+/',
-        r'https://localhost:\d+/',  r'https://localhost:\d+', r'https://localhost/', r'https://127.0.0.1:\d+/',
-        r'http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities',
-        'http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities',
-        r'https://www.orfeo-toolbox.org/packages/OTBSoftwareGuide.pdf',
-        'http://members.ozemail.com.au/~nulifetv/freezip/freeware/dsfok.zip'
-        r'http://members.ozemail.com.au/~nulifetv/freezip/freeware/dsfok.zip'
-        'https://rasdaman.org',
-        'http://prj2epsg.org/search',
-        r'https://www.youtube.com/watch?v=eQBdVO-n6Mg',
-        r'https://standards.rasdaman.com',
-        r'http://download.osgeo.org/',
-        'https://www.openstreetmap.org/edit']
+linkcheck_ignore = [
+        # link exists but does not accept robots and linkchecker is a robot
+        # used in overview/mapserver_overview
+        'http://www.dnr.state.mn.us/maps/compass.html',
+
+        # Link does not exist anymore
+        # Used in overview/liblas_overview
+        'https://www.asprs.org/divisions-committees/lidar-division/laser-las-file-format-exchange-activities.html',
+
+
+        # links to the disk internals
+        r'http://localhost', r'https://localhost',
+        r'http://127.0.0.1', r'https://127.0.0.1',
+        'http://geonode',
+
+
+        # link exists but when many link checks are done link checker fails
+        # ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+        # Used in quickstart/osm_quickstart
+        'https://www.openstreetmap.org/edit',
+
+        # Link does not exist anymore
+        # Used in quickstart/geoserver_quickstart
+        r'http://prj2epsg.org',
+
+        # Link with error 404 Client Error
+        # Used in quickstart/hyperv_quickstart
+        r'https://www.microsoft.com/en-us/download',
+
+        # Link does not exist anymore
+        # Used in quickstart/mapslicer_quickstart
+        'https://maps.yahoo.com/',
+        ]
+
 linkcheck_anchors = False
 
 # If false, no module index is generated.

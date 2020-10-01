@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:30
 msgid "Core concepts"
-msgstr ""
+msgstr "Alapfunkciók"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:32
 msgid ""
@@ -134,7 +134,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:55
 msgid "Create a basic map"
-msgstr ""
+msgstr "Egy alaptérkép létrehozása"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:57
 msgid ""
@@ -210,7 +210,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:127
 msgid "Add raster layers"
-msgstr ""
+msgstr "Raszter rétegek hozzáadása"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:129
 msgid ""
@@ -232,14 +232,15 @@ msgstr "Kétféle módon adhatunk rétegeket a térképhez:"
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:149
 msgid "When constructing the ``ol.Map``, use the ``layers`` property:"
 msgstr ""
+"Az ``ol.Map`` létrehozatalánál a  ``layers`` tulajdonság használatával:"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:160
 msgid "Add them manually with the ``map.addLayer()`` method:"
-msgstr ""
+msgstr "Manuális hozzáadásuk a  ``map.addLayer()`` metódussal:"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:169
 msgid "Add vector layers"
-msgstr ""
+msgstr "Vektor rétegek hozzáadása"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:171
 msgid ""
@@ -274,7 +275,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:228
 msgid "Apply style to features"
-msgstr ""
+msgstr "Stílus alkalmazása az elemekre"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:230
 msgid ""
@@ -315,7 +316,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:268
 msgid "Work with events"
-msgstr ""
+msgstr "Munka az eseményekkel"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:270
 msgid ""
@@ -371,5 +372,5 @@ msgid "`Examples <../../openlayers/examples/>`_"
 msgstr "`Példák <../../openlayers/examples/>`_"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:296
-msgid "`OpenLayers.org Website <http://openlayers.org/>`_"
-msgstr "`OpenLayers.org honlap <http://openlayers.org/>`_"
+msgid "`OpenLayers.org Website <https://openlayers.org/>`_"
+msgstr "`OpenLayers.org honlap <https://openlayers.org/>`_"

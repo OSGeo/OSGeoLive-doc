@@ -6,16 +6,16 @@
 # Translators:
 # Sant-anna <delazj@gmail.com>, 2017
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
-# Nicolas Roelandt (Personnel), 2018
+# Nicolas Roelandt (Personnel), 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2018\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -214,8 +214,8 @@ msgid "Details"
 msgstr "Détails"
 
 #: ../../build/doc/overview/qgis_overview.rst:85
-msgid "**Website:** http://www.qgis.org"
-msgstr "**Site web:** http://www.qgis.org"
+msgid "**Website:** https://www.qgis.org/en/site/"
+msgstr "**Site Internet:** https://www.qgis.org/fr/site/"
 
 #: ../../build/doc/overview/qgis_overview.rst:87
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -230,17 +230,17 @@ msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
 msgstr "**Plates-formes supportées:** Windows, Linux, Mac, Unix"
 
 #: ../../build/doc/overview/qgis_overview.rst:93
-msgid "**Community Support:** http://qgis.org/en/site/forusers/support.html"
+msgid "**Community Support:** https://qgis.org/en/site/forusers/support.html"
 msgstr ""
-"**Support Communautaire** http://qgis.org/en/site/forusers/support.html"
+"**Support Communautaire** https://qgis.org/en/site/forusers/support.html"
 
 #: ../../build/doc/overview/qgis_overview.rst:95
 msgid ""
 "**Commercial Support:** "
-"http://qgis.org/en/site/forusers/commercial_support.html"
+"https://qgis.org/en/site/forusers/commercial_support.html"
 msgstr ""
 "**Support commercial:** "
-"http://qgis.org/en/site/forusers/commercial_support.html"
+"https://qgis.org/en/site/forusers/commercial_support.html"
 
 #: ../../build/doc/overview/qgis_overview.rst:100
 msgid "Quickstart"

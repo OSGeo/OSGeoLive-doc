@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Vicky Vergara <vicky@georepublic.de>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -36,23 +36,27 @@ msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:31
 msgid "Start GRASS"
-msgstr ""
+msgstr "GRASS indítása"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:36
 msgid ""
 "Click on the GRASS link in the :menuselection:`Geospatial --> Desktop GIS` "
 "menu."
 msgstr ""
+"Kattintson a GRASS linkre a :menuselection:`Geospatial --> Desktop GIS` "
+"menüben"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:37
 msgid ""
 "From the \"Welcome to GRASS GIS \" window, select the nc_basic_spm_grass7 "
 "dataset for the location, and \"user1\" for the mapset"
 msgstr ""
+"A \"Welcome to GRASS GIS \" ablakban válassza a nc_basic_spm_grass7 "
+"adathalmazt a helyhez és a \"user1\"-et a térképhalmazhoz."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:38
 msgid "Click on :guilabel:`Start GRASS session`."
-msgstr ""
+msgstr "Kattintson a :guilabel:`Start GRASS session`-re."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:45
 msgid ""
@@ -81,39 +85,45 @@ msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:61
 msgid "Display a map"
-msgstr ""
+msgstr "Egy térkép megjelenítése"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:67
 msgid ""
 "Once inside select for display a raster map layer such as \"`elevation`\" "
 "from the PERMANENT mapset."
 msgstr ""
+"A megjelenítéshez válasszon egy raszter réteget  mint például az "
+"\"`elevation`\" a PERMANENT térképhalmazból."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:70
 msgid "Go into the `GIS Layer Manager` window."
-msgstr ""
+msgstr "Menjen a `GIS Layer Manager` ablakba."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:71
 msgid "Click on the checkerboard toolbar button with a \"+\" on it."
-msgstr ""
+msgstr "Kattintson a sakktábla eszköztár gombra, melyen \"+\" van."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:72
 msgid ""
 "Select the map name you want from the \"*map to be displayed*\" pull-down "
 "list, and click :guilabel:`Ok`."
 msgstr ""
+"Válassza ki a térkép nevét a \"*map to be displayed*\" legördülő listából és"
+" kattintson a  :guilabel:`Ok`-ra."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:73
 msgid ""
 "Click on the toolbar button with a \"+\" and a bent poly-line which looks a "
 "bit like a \"V\"."
-msgstr ""
+msgstr "Kattintson a \"V\" betű alakú eszközsor gombra a \"+\" jellel."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:74
 msgid ""
 "Select the \"`roadsmajor`\" vector layer from the PERMANENT mapset, and "
 "click :guilabel:`Ok`."
 msgstr ""
+"Válassza a \"`roadsmajor`\" vektor réteget a PERMANENT térképhalmazból és "
+"kattintson az :guilabel:`Ok`-ra."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:76
 msgid ""
@@ -237,7 +247,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:140
 msgid "Add watersheds and streams"
-msgstr ""
+msgstr "Vízgyűjtők és vízfolyások hozzáadása"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:141
 msgid ""
@@ -358,7 +368,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:202
 msgid "Work with vector modules"
-msgstr ""
+msgstr "Munka a vektor modulokkal"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:203
 msgid ""
@@ -427,7 +437,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:243
 msgid "Manage attributes"
-msgstr ""
+msgstr "Attribútumok kezelése"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:244
 msgid ""
@@ -512,7 +522,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:280
 msgid "View a 3D visualization"
-msgstr ""
+msgstr "Egy 3D megjelenítés megtekintése"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:286
 msgid ""
@@ -567,12 +577,18 @@ msgid ""
 "Composer and object-oriented Graphical Modelling Tool (offers export to "
 "Python). You'll find icons to launch them on the lower row of icons in the "
 "`Layer Manager` window. Further details can be found in the `wxGUI "
-"<https://grass.osgeo.org/grass76/manuals/wxGUI.html>`_ help pages."
+"<https://grass.osgeo.org/grass78/manuals/wxGUI.html>`_ help pages."
 msgstr ""
+"Bár nem szerepelt itt, érdemes kísérletezni a Cartographic Composerrel és az"
+" objektum-orientált Graphical Modelling Toollal (Pythonba exportálást "
+"biztosít); Az indításukra szolgáló ikonokat a Layer Manager ablakban az alsó"
+" ikonsorban találja. További részletek a `wxGUI "
+"<https://grass.osgeo.org/grass78/manuals/wxGUI.html>` _ súgóoldalakon "
+"találhatók."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:314
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:315
 msgid ""
@@ -598,7 +614,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:326
 msgid "Command line"
-msgstr ""
+msgstr "Parancssor"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:327
 msgid ""
@@ -611,6 +627,15 @@ msgid ""
 "With these tools you can make a new GRASS module with only about 5 minutes "
 "of coding, complete with powerful parser, GUI, and help page template."
 msgstr ""
+"A GRASS terminál munkafolyamatban próbáljon ki egy GRASS modult a "
+"\"``v.clean --help``\" begépelésével, mely a modul lehetőségek listáját "
+"adja. A GRASS parancssor ahol a GIS valódi ereje megmutatkozik. A GRASS-t "
+"úgy tervezték, hogy minden parancs összekapcsolható legyen egy szkriptben, "
+"nagy, tömeges feldolgozási feladatokhoz. A Bourne burok és a Python népszerű"
+" szkript nyelv, a GRASS a szkript készítés könnyebbé tételéhez számos "
+"trükköt tartalmaz mindkettőhöz. Ezekkel az eszközökkel kb. öt perc "
+"kódolással létrehozhat egy új GRASS modult a hatékony parancsértelmező, GUI "
+"és súgó oldal sablon segítségével."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:336
 msgid ""
@@ -632,40 +657,41 @@ msgid ""
 "<https://grass.osgeo.org>`_"
 msgstr ""
 "Látogassa meg a GRASS GIS honlapot  `http://grass.osgeo.org "
-"<http://grass.osgeo.org>`_"
+"<https://grass.osgeo.org>`_"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:343
 msgid ""
 "Visit the GRASS GIS Wiki help site at `https://grasswiki.osgeo.org/wiki/ "
-"<https://grasswiki.osgeo.org/wiki/>`_"
+"<https://grasswiki.osgeo.org/wiki/Main_Page>`_"
 msgstr ""
-"Látogassa meg a GRASS GIS Wiki súgó oldalt `http://grasswiki.osgeo.org/wiki/"
-" <http://grasswiki.osgeo.org/wiki/>`_"
+"Látogassa meg a GRASS GIS Wiki súgó oldalt "
+"`https://grasswiki.osgeo.org/wiki/ "
+"<https://grasswiki.osgeo.org/wiki/Main_Page>`_"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:344
 msgid ""
 "More tutorials and overviews can be found `here "
 "<https://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_."
 msgstr ""
-"`Itt  <http://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_ több "
+"`Itt  <https://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_ több "
 "oktatóanyagot és összefoglalót találhat."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:345
 msgid ""
 "A `synopsis of the GRASS GIS modules "
-"<https://grass.osgeo.org/grass76/manuals/full_index.html>`_"
+"<https://grass.osgeo.org/grass78/manuals/full_index.html>`_"
 msgstr ""
-"Egy `összefoglaló a GRASS GIS modulokhoz "
-"<https://grass.osgeo.org/grass76/manuals/full_index.html>`_"
+"Egy `összefoglaló a GRASS modulokhoz "
+"<https://grass.osgeo.org/grass78/manuals/full_index.html>`_"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:346
 msgid ""
 "If the 400 GIS modules which come with GRASS aren't enough for you have a "
 "look at the many contributed add-ons at "
-"`https://grass.osgeo.org/grass7/manuals/addons/ "
-"<https://grass.osgeo.org/grass7/manuals/addons/>`_"
+"`https://grass.osgeo.org/grass78/manuals/addons/ "
+"<https://grass.osgeo.org/grass78/manuals/addons/>`_"
 msgstr ""
 "Ha a GRASS-szal érkező 400 GIS modul nem elegendő önnek, akkor vessen egy "
 "pillantást a sok hozzáadott bővítményre a "
-"`http://grass.osgeo.org/grass7/manuals/addons/ "
-"<http://grass.osgeo.org/grass7/manuals/addons/>`_ oldalon."
+"`https://grass.osgeo.org/grass78/manuals/addons/ "
+"<https://grass.osgeo.org/grass78/manuals/addons/>`_ oldalon."

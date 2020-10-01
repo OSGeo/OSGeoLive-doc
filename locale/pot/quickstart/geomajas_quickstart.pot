@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-09-23 09:57-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,7 +109,7 @@ msgid "**GitHub:** `<https://github.com/geomajas/geomajas-gwt2-quickstart-applic
 msgstr ""
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:91
-msgid "**OSGeo:** `<https://live.osgeo.org/en/overview/geomajas_overview.html>`_"
+msgid "**OSGeo:** :doc:`../overview/geomajas_overview`"
 msgstr ""
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:92

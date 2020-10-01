@@ -28,25 +28,25 @@ You may use attribution text similar to one of the following:
 
 **Verbose, suitable for a 100 page thesis:**
 
-  |CC-By-SA-med| This document includes content from the "gvSIG Quickstart" created by Simon Cropper under the Creative Commons Attribution-ShareAlike 3.0 Unported licence, https://creativecommons.org/licenses/by-sa/3.0/ available from the OSGeoLive project, https://live.osgeo.org/en/quickstart/gvsig_quickstart.html, and downloaded on 25 July 2011. The original work was translated from English to German.
+  |CC-By-SA-med| This document includes content from the "gvSIG Quickstart" created by Simon Cropper under the Creative Commons Attribution-ShareAlike 3.0 Unported licence, https://creativecommons.org/licenses/by-sa/3.0/ available from the OSGeoLive project, :doc:`quickstart/gvsig_quickstart`, and downloaded on 25 July 2011. The original work was translated from English to German.
 
   .. |CC-By-SA-med| image:: /images/logos/CC-By-SA-med.png
     :target: https://creativecommons.org/licenses/by-sa/3.0/
 
 **Concise CC-By-SA and attribution:**
 
-  © 2011 [Your Name] under a `CC By SA License <https://creativecommons.org/licenses/by-sa/3.0/>`_.  [Derived from|Includes|Extends] `OSGeoLive <https://live.osgeo.org>`_ documentation by `OSGeoLive contributors <http://live.osgeo.org/en/copyright.html>`_.
+  © 2011 [Your Name] under a `CC By SA License <https://creativecommons.org/licenses/by-sa/3.0/>`_.  [Derived from|Includes|Extends] :doc:`OSGeoLive <index>` documentation by :doc:`OSGeoLive contributors <copyright>`.
 
 **Alternative Concise CC-By and attribution:**
 
-  |CC-By-small| © 2011 [Your Name]. [Derived from|Includes|Extends] `OSGeoLive <https://live.osgeo.org>`_ Project Overviews by `OSGeoLive contributors <http://live.osgeo.org/en/copyright.html>`_.
+  |CC-By-small| © 2011 [Your Name]. [Derived from|Includes|Extends] :doc:`OSGeoLive <index>` Project Overviews by :doc:`OSGeoLive contributors <copyright>`.
 
   .. |CC-By-small| image:: /images/logos/CC-By-small.png
     :target: https://creativecommons.org/licenses/by/3.0/
 
 **Minimum (for Project Overviews), attribution only:**
 
-  This document includes `OSGeoLive <https://live.osgeo.org>`_ Project Overviews by `OSGeoLive contributors <http://live.osgeo.org/en/copyright.html>`_.
+  This document includes :doc:`OSGeoLive <index>` Project Overviews by :doc:`OSGeoLive contributors <copyright>`.
 
 Documentation Contributors
 --------------------------------------------------------------------------------

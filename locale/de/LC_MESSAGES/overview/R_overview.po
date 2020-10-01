@@ -6,15 +6,16 @@
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Astrid Emde <astrid_emde@osgeo.org>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -73,7 +74,7 @@ msgid ""
 "proficient user when compared to software with a graphical user interface "
 "(GUI). Fortunately R is well documented on the web site which eases the "
 "learning process. Scripts are often used to automate processing steps but "
-"there are GUIs, the leading one being RStudio (http://www.rstudio.com)."
+"there are GUIs, the leading one being RStudio (https://rstudio.com)."
 msgstr ""
 "Mit R wird hauptsächlich auf der Kommandozeile gearbeitet. Dies bietet eine "
 "große Flexibilität und Kontrolle, führt aber oft auch zu einer längeren "
@@ -81,8 +82,8 @@ msgstr ""
 "graphischen Benutzeroberfläche. Glücklicherweise verfügt R über eine gute "
 "Dokumentation auf der Webseite, was den Einstieg erleichtert. Skripte werden"
 " oft verwendet, um Prozessierungschritte zu automatisieren. Es gibt andere "
-"Open Source Projekte, die graphische Oberflächen für R "
-"(http://rwiki.sciviews.org/doku.php?id=guis:guis) entwickeln. "
+"Open Source Projekte, die graphische Oberflächen für R (https://rstudio.com)"
+" entwickeln. "
 
 #: ../../build/doc/overview/R_overview.rst:44
 msgid ""
@@ -168,8 +169,8 @@ msgid "Details"
 msgstr "Details"
 
 #: ../../build/doc/overview/R_overview.rst:76
-msgid "**Website:** http://cran.r-project.org"
-msgstr "**Webseite:** http://cran.r-project.org"
+msgid "**Website:** https://cran.r-project.org"
+msgstr "**Webseite:** https://cran.r-project.org"
 
 #: ../../build/doc/overview/R_overview.rst:78
 msgid "**Licence:** GPL"
@@ -185,10 +186,10 @@ msgstr "**Unterstützte Plattformen:** Windows, Linux, Mac, Unix"
 
 #: ../../build/doc/overview/R_overview.rst:84
 msgid ""
-"**Community Support:** http://cran.r-project.org/web/views/Spatial.html"
+"**Community Support:** https://cran.r-project.org/web/views/Spatial.html"
 msgstr ""
-"**Support aus der Community:** "
-"http://cran.r-project.org/web/views/Spatial.html"
+"**Community-Unterstützung:** "
+"https://cran.r-project.org/web/views/Spatial.html"
 
 #: ../../build/doc/overview/R_overview.rst:86
 msgid ""
