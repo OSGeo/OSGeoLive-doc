@@ -25,7 +25,8 @@ GeoNetwork is a catalog application to manage spatially referenced resources. It
 Prerequisites
 =============
 
-This guide assumes that you have Geonetwork installed and running, and know the URL so you can connect to it from your browser. If not, refer to the `Installation Guide <https://geonetwork-opensource.org/manuals/trunk/en/maintainer-guide/installing/index.html>`_.
+This guide assumes that you have Geonetwork installed and running, and know the URL so you can connect to it from your browser.
+If not, refer to the `Installation Guide <https://geonetwork-opensource.org/manuals/trunk/en/install-guide/index.html>`__.
 
 Throughout this guide we will use the URL ``http://localhost:8880/geonetwork`` to refer to the catalog, please substitute a different URL if this is not correct for your system.
 

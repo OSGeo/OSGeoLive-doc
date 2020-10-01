@@ -145,7 +145,7 @@ What next?
 .. _`Boost`: http://www.boost.org/
 .. _`DebianGIS`: https://wiki.debian.org/DebianGis
 .. _`gdal_translate`: http://www.gdal.org/gdal_translate.html
-.. _`EPSG`: http://www.epsg-registry.org/
+.. _`EPSG`: https://epsg.org/home.html
 .. _`EPSG:4326`: https://spatialreference.org/ref/epsg/4326/
 .. _`Proj.4`: http://trac.osgeo.org/proj/
 .. _`WKT`: http://en.wikipedia.org/wiki/Well-known_text#Spatial_reference_systems
