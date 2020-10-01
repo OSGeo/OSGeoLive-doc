@@ -15,7 +15,7 @@ Y | openlayers | 5.3.0 | Y | Y | Browser Facing GIS | | Browser Mapping Library 
 Y | leaflet | 1.0.3 | Y | Y | Browser Facing GIS | | Mobile Friendly Interactive Maps | Leaflet | https://leafletjs.com | | Leaflet
 Y | cesium | 1.58 | Y | Y | Browser Facing GIS | | 3D globes and 2D maps in a browser | cesiumjs | https://cesium.com/ | | Cesium
 Y | geomajas | 2.4.0 | Y | Y | Browser Facing GIS | | Browser GIS Client | geomajas | http://www.geomajas.org | OSGeo_project | Geomajas
-Y | mapbender | 3.0.8.1 | Y | Y | Browser Facing GIS | | Geoportal Framework | mapbender | https://mapbender.org | OSGeo_project | Mapbender
+Y | mapbender | 3.2.0 | Y | Y | Browser Facing GIS | | Geoportal Framework | mapbender | https://mapbender.org | OSGeo_project | Mapbender
 Y | geoext | 3.1.0 | Y | Y | Browser Facing GIS | | JavaScript Toolkit Web Mapping | geoext3 | https://geoext.github.io/geoext3 | | GeoExt
 Y | geomoose | 3.3.1 | Y | Y | Browser Facing GIS | | Web GIS Portal | geomoose | https://www.geomoose.org | OSGeo_project | GeoMoose
 Y | geonode | 2.10.0 | Y | Y | Browser Facing GIS | | Geospatial Content Management System | geonode | https://geonode.org | OSGeo_project | GeoNode
@@ -44,7 +44,7 @@ Y | actinia | 0.2.1 | Y | Y | Web Services | | Processing of Geographical Data |
 ###################### | | | | | | | | | | | 
 Y | postgis | 2.5.2 | Y | Y | Data Stores | | Spatial Database | postgis | http://postgis.net | OSGeo_project | PostGIS
 Y | spatialite | 4.3.0 | Y | Y | Data Stores | | Lightweight Database | spatialite | http://www.gaia-gis.it/gaia-sins/ | | SpatiaLite
-Y | rasdaman | 9.8.1 | Y | Y | Data Stores | | Multi-Dimensional Raster Database | rasdaman | https://rasdaman.org | OSGeo_incubation | Rasdaman
+Y | rasdaman | 10.0.0 | Y | Y | Data Stores | | Multi-Dimensional Raster Database | rasdaman | https://rasdaman.org | OSGeo_incubation | Rasdaman
 Y | pgrouting | 2.6.2 | Y | Y | Data Stores | | Routing for PostGIS | pgrouting | https://pgrouting.org/ | OSGeo_community | pgRouting
 ###################### | | | | | | | | | | | 
 # Navigation and Maps | | | | | | | | | | | 
