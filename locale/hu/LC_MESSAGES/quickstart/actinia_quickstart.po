@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-08-19 10:16-0500\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:26
 msgid "Actinia can be used in different ways:"
-msgstr ""
+msgstr "Az actinia-t különböző módokon használhatjuk:"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:28
 msgid "`curl` or similar command line tools"
@@ -129,7 +129,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:62
 msgid "Setup your environment"
-msgstr ""
+msgstr "A környezet beállítása"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:63
 msgid ""
@@ -141,13 +141,15 @@ msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:74
 msgid "Access sample data"
-msgstr ""
+msgstr "Hozzáférés a példa adatokhoz"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:76
 msgid ""
 "Selected datasets are available to the demo user. To list the locations you "
 "have access to, run"
 msgstr ""
+"A kiválasztott adatok elérhetők a demo felhasználó számára. A helyek "
+"listája, melyekhez hozzáférhet "
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:83
 msgid ""
@@ -159,7 +161,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:93
 msgid "Access data from external sources"
-msgstr ""
+msgstr "Adatok elérése külső forrásokból"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:94
 msgid ""
@@ -199,10 +201,10 @@ msgstr ""
 #: ../../build/doc/quickstart/actinia_quickstart.rst:108
 msgid ""
 "Landsat subscenes (``nc_spm_08/landsat``; source: "
-"https://grass.osgeo.org/download/sample-data/)"
+"https://grass.osgeo.org/download/data/)"
 msgstr ""
 "Landsat subscenes (``nc_spm_08/landsat``; source: "
-"https://grass.osgeo.org/download/sample-data/)"
+"https://grass.osgeo.org/download/data/)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:111
 msgid "Latitude-Longitude location (LatLong WGS84, EPSG:4326):"
@@ -216,11 +218,11 @@ msgstr "empty (``latlong/PERMANENT/``)"
 msgid ""
 "16-days NDVI, MOD13C1, V006, CMG 0.05 deg res. "
 "(``latlong/modis_ndvi_global/``; source: "
-"https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table/mod13c1_v006)"
+"https://lpdaac.usgs.gov/products/mod13c1v006/)"
 msgstr ""
-"16-nap NDVI, MOD13C1, V006, CMG 0.05 fok felbontás "
-"(``latlong/modis_ndvi_global/``; source: "
-"https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table/mod13c1_v006)"
+"16-napi NDVI, MOD13C1, V006, CMG 0.05 fok felbontás "
+"(``latlong/modis_ndvi_global/``; forrás: "
+"https://lpdaac.usgs.gov/products/mod13c1v006)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:117
 msgid ""
@@ -276,7 +278,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:138
 msgid "Inspect the REST call prior to submission"
-msgstr ""
+msgstr "A REST-hívás ellenőrzése az elküldés előtt"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:140
 msgid ""
@@ -288,7 +290,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:148
 msgid "Display a map - map rendering"
-msgstr ""
+msgstr "Egy térkép megjelenítése - térképrajzolás"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:150
 msgid "It is very easy (and fast) to render a map:"
@@ -306,6 +308,11 @@ msgid ""
 "result for download and further analysis. The following export formats are "
 "currently supported:"
 msgstr ""
+"Az efemer feldolgozás az actinia alapértelmezett feldolgozási módszere. A "
+"parancsokat egy efemer térképhalmazban hajtunk végre, amit a feldolgozás "
+"után eltávolítunk. A GRASS GIS modulok outputját exportálhatja, a számítási "
+"eredmények  tárolására, letöltésére vagy további elemzéshez. A következő "
+"export formátumokat támogatjuk:"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:168
 msgid "raster: ``GTiff``"
@@ -464,11 +471,11 @@ msgstr "Kipróbálandó dolgok"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:373
 msgid "Create new locations"
-msgstr ""
+msgstr "Új helyek létrehozása"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:383
 msgid "Install GRASS GIS addons (extensions)"
-msgstr ""
+msgstr "GRASS GIS bővítmények telepítése"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:396
 msgid "What next?"
@@ -487,6 +494,8 @@ msgid ""
 "actinia tutorial: `https://neteler.gitlab.io/actinia-introduction "
 "<https://neteler.gitlab.io/actinia-introduction>`_"
 msgstr ""
+"actinia oktatóanyag: `https://neteler.gitlab.io/actinia-introduction "
+"<https://neteler.gitlab.io/actinia-introduction>`_"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:399
 msgid ""
@@ -495,5 +504,11 @@ msgid ""
 "geoprocessing. In Proc. of the 2019 conference on Big Data from Space "
 "(BiDS'2019) (pp. 41–44). EUR 29660 EN, Publications Office of the European "
 "Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI "
-"<https://doi.org/10.5281/zenodo.2631917>`__)"
+"<https://zenodo.org/record/2631917>`__)"
 msgstr ""
+"További olvasmányok: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., "
+"Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based "
+"geoprocessing. In Proc. of the 2019 conference on Big Data from Space "
+"(BiDS'2019) (pp. 41–44). EUR 29660 EN, Publications Office of the European "
+"Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI "
+"<https://zenodo.org/record/2631917>`__)"

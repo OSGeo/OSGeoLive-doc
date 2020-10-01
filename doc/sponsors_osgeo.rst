@@ -8,7 +8,7 @@ The OSGeo Foundation
 
 *Empower everyone with open source geospatial*
 
-The `Open Source Geospatial Foundation (OSGeo) <https://osgeo.org>`__
+The `Open Source Geospatial Foundation (OSGeo) <https://www.osgeo.org>`__
 is a not-for-profit organization whose mission is to foster global
 adoption of open geospatial technology by being an inclusive software
 foundation devoted to an open philosophy and participatory community

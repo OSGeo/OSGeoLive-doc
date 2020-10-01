@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2019-07-17 15:40+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,10 +35,10 @@ msgid ""
 "through the web. It is a JavaScript framework that combines the GIS "
 "functionality of `OpenLayers <https://openlayers.org/>`_ with the user "
 "interface of the `ExtJS <https://www.sencha.com/products/extjs/>`_ library "
-"provided by `Sencha <https://www.sencha.com/>`_."
+"provided by `Sencha <https://www.sencha.com>`_."
 msgstr ""
-"A GeoExt nyílt forráskódú és asztali alkalmazáshoz hasonló a weben elérhető "
-"GIS építését teszi lehetővé. Ez egy JavaScript keretrendszer, mely "
+"A GeoExt nyílt forráskódú és asztali alkalmazáshoz hasonló, a weben elérhető"
+" GIS készítését teszi lehetővé. Ez egy JavaScript keretrendszer, mely "
 "kombinálja  az `OpenLayers <https://openlayers.org/>`_ GIS funkcionalitását "
 "az  `ExtJS <https://www.sencha.com/products/extjs/>`_ könyvtár felhasználói "
 "felületével, melyet a `Sencha <https://www.sencha.com/>`_ szolgáltat."
@@ -141,8 +141,8 @@ msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/geoext_overview.rst:62
-msgid "**Website:** https://geoext.github.io/geoext3/"
-msgstr "**Honlap:** https://geoext.github.io/geoext3/"
+msgid "**Website:** https://geoext.github.io/geoext3"
+msgstr "**Honlap:** https://geoext.github.io/geoext3"
 
 #: ../../build/doc/overview/geoext_overview.rst:64
 msgid ""

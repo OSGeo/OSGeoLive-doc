@@ -6,15 +6,16 @@
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Astrid Emde <astrid_emde@osgeo.org>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-09-23 09:57-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -92,26 +93,22 @@ msgstr ""
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:31
 msgid ""
-"Spare Hard Disk Space: The virtual disk file (vmdk) from:  `live.osgeo.org "
-"<http://live.osgeo.org/en/download.html>`_  unzips to almost 10 GB. And "
-"you'll want more space to allow some room to work on the virtual machine. So"
-" 20 GB is a good recommendation."
+"Spare Hard Disk Space: The virtual disk file (vmdk) from "
+":doc:`live.osgeo.org <../download>`  unzips to almost 10 GB. And you'll want"
+" more space to allow some room to work on the virtual machine. So 20 GB is a"
+" good recommendation."
 msgstr ""
-"Freier Festplattenspeicher: Die Virtuelle Maschinen Datei (vmdk) von: "
-"`live.osgeo.org <http://live.osgeo.org/en/download.html>`_ ist entpackt etwa"
-" 10 GB groß. Sie benötigt noch weiteren Speicher, um Arbeiten auf der "
-"Virtuellen Maschine zu ermöglichen. So sind 20 GB Speicher eine gute "
-"Empfehlung."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:32
 msgid ""
 "CPU: Any CPU will do, but a processor which supports \"Virtualization "
 "Technology\" will be faster. You can check your computer CPU `here "
-"<http://www.intel.com/support/processors/sb/cs-030729.htm>`_."
+"<https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html>`__."
 msgstr ""
 "CPU: Jede CPU reicht aus, doch ist ein Prozessor, der \"Virtualization "
 "Technology\" unterstützt schneller. Sie können ihre CPU `hier "
-"<http://www.intel.com/support/processors/sb/cs-030729.htm>`_ prüfen."
+"<https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html>`_"
+" prüfen."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:34
 msgid ""
@@ -130,11 +127,11 @@ msgstr "**Downloads**"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:41
 msgid ""
-"Download `Virtual Box <http://www.virtualbox.org/>`_  for your platform, and"
-" install the software. On windows run the installer, or on Ubuntu-like linux"
-" systems do the following:"
+"Download `Virtual Box <https://www.virtualbox.org/>`_  for your platform, "
+"and install the software. On windows run the installer, or on Ubuntu-like "
+"linux systems do the following:"
 msgstr ""
-"Laden Sie `Virtual Box <http://www.virtualbox.org/>`_ für ihr System "
+"Laden Sie `Virtual Box <https://www.virtualbox.org/>`_ für ihr System "
 "herunter und installieren Sie die Software. Durchlaufen Sie unter Windows "
 "den Installer. Führen Sie unter Ubuntu-ähnlichen Linux Systemen den "
 "folgenden Befehl aus:"
@@ -145,15 +142,11 @@ msgstr "``apt-get install virtualbox-ose``"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:45
 msgid ""
-"In addition download the OSGeo Virtual disk file (vmdk) from `live.osgeo.org"
-" <http://live.osgeo.org/en/download.html>`_ . Click on the \"Download "
-"virtual machine\" button. Then unzip the downloaded file (using `7zip "
-"<http://www.7-zip.org>`_ )."
+"In addition download the OSGeo Virtual disk file (vmdk) from "
+":doc:`live.osgeo.org <../download>`. Click on the \"Download virtual "
+"machine\" button. Then unzip the downloaded file (using `7zip "
+"<https://www.7-zip.org>`_ )."
 msgstr ""
-"Laden Sie die OSGeo Virtual Disk Datei (vmdk) von `live.osgeo.org "
-"<http://live.osgeo.org/en/download.html>`_ herunter. Klicken Sie auf den "
-"\"Download Virtuelle Maschine\" Button. Entpacken Sie die heruntergeladene "
-"Datei (nutzen Sie dazu `7zip <http://www.7-zip.org>`_ )."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:49
 msgid "**Create a Virtual Machine**"
@@ -331,10 +324,10 @@ msgstr "OSGeo Wiki: "
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:120
 msgid ""
 "`Other ways to create a Virtual Machine "
-"<http://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
+"<https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
 msgstr ""
 "`Andere Möglichkeiten, um eine Virtuelle Maschine zu erzeugen "
-"<http://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
+"<https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:122
 msgid ":doc:`osgeolive_quickstart`"

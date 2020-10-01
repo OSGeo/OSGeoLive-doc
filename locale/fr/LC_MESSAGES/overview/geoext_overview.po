@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Nicolas Roelandt (Personnel), 2019
+# Nicolas Roelandt (Personnel), 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2019-07-17 15:40+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2019\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,13 +37,13 @@ msgid ""
 "through the web. It is a JavaScript framework that combines the GIS "
 "functionality of `OpenLayers <https://openlayers.org/>`_ with the user "
 "interface of the `ExtJS <https://www.sencha.com/products/extjs/>`_ library "
-"provided by `Sencha <https://www.sencha.com/>`_."
+"provided by `Sencha <https://www.sencha.com>`_."
 msgstr ""
 "GeoExt est Open Source et permet de créer des applications SIG bureautique "
 "sur le Web. Il s'agit d'un cadre JavaScript qui combine les fonctionnalités "
 "SIG d'`OpenLayers <https://openlayers.org/>`_ avec l'interface utilisateur "
 "de la bibliothèque `ExtJS <https://www.sencha.com/products/extjs/>`_ fournie"
-" par `Sencha <https://www.sencha.com/>`_."
+" par `Sencha <https://www.sencha.com>`_."
 
 #: ../../build/doc/overview/geoext_overview.rst:22
 msgid ""
@@ -142,8 +142,8 @@ msgid "Details"
 msgstr "Détails"
 
 #: ../../build/doc/overview/geoext_overview.rst:62
-msgid "**Website:** https://geoext.github.io/geoext3/"
-msgstr "**Site Web :** https://geoext.github.io/geoext3/"
+msgid "**Website:** https://geoext.github.io/geoext3"
+msgstr "**Site Internet:** https://geoext.github.io/geoext3"
 
 #: ../../build/doc/overview/geoext_overview.rst:64
 msgid ""

@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
-# Nicolas Roelandt (Personnel), 2018
+# Nicolas Roelandt (Personnel), 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2018\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,11 +57,10 @@ msgstr "Visualisation géospatiale dynamique:"
 #: ../../build/doc/overview/cesium_overview.rst:33
 msgid ""
 "Create data-driven, time-dynamic scenes with `CZML "
-"<https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide>`_."
+"<https://github.com/CesiumGS/cesium/wiki/CZML-Guide>`_."
 msgstr ""
 "Créez des scènes dynamiques en fonction du temps, pilotées par les données "
-"avec `CZML <https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-"
-"Guide>`_."
+"avec `CZML <https://github.com/CesiumGS/cesium/wiki/CZML-Guide>`_."
 
 #: ../../build/doc/overview/cesium_overview.rst:34
 msgid "Visualize high-resolution worldwide terrain."
@@ -84,11 +83,9 @@ msgid "Draw 3D models using COLLADA and glTF."
 msgstr "Dessine des modèles 3D en utilisant COLLADA et glTF."
 
 #: ../../build/doc/overview/cesium_overview.rst:38
-msgid ""
-"Use `plugins <http://cesiumjs.org/plugins/index.html>`_ to extend Cesium."
+msgid "Use `plugins <https://cesium.com/cesiumjs>`_ to extend Cesium."
 msgstr ""
-"Utilise des `plugins <http://cesiumjs.org/plugins/index.html>`_ pour étendre"
-" Cesium."
+"Utilise des `plugins <https://cesium.com/cesiumjs>`_ pour étendre Cesium."
 
 #: ../../build/doc/overview/cesium_overview.rst:40
 msgid "Built for Performance and Precision:"
@@ -161,8 +158,8 @@ msgid "Details"
 msgstr "Détails"
 
 #: ../../build/doc/overview/cesium_overview.rst:59
-msgid "**Website:** http://cesiumjs.org"
-msgstr "**Site web:** http://cesiumjs.org"
+msgid "**Website:** https://cesium.com/"
+msgstr "**Site web:** https://cesium.com/"
 
 #: ../../build/doc/overview/cesium_overview.rst:61
 msgid "**Licence:** Apache 2.0 license"
@@ -181,8 +178,12 @@ msgstr ""
 " navigateur qui supporte WebGL"
 
 #: ../../build/doc/overview/cesium_overview.rst:67
-msgid "**Community Support:** Forum at https://cesiumjs.org/forum/"
-msgstr "**Support Communautaire:**  Forum à https://cesiumjs.org/forum/"
+msgid ""
+"**Community Support:** Forum at "
+"https://groups.google.com/forum/?hl=en#!forum/cesium-dev"
+msgstr ""
+"**Support communautaire:** Forum "
+"https://groups.google.com/forum/?hl=en#!forum/cesium-dev"
 
 #: ../../build/doc/overview/cesium_overview.rst:71
 msgid "Quickstart"

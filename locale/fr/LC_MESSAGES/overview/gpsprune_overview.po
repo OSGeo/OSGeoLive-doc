@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
-# Nicolas Roelandt (Personnel), 2018
+# Nicolas Roelandt (Personnel), 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2018\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,15 +32,15 @@ msgstr "Édition de traces GPS"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:20
 msgid ""
-"`GpsPrune <https://gpsprune.activityworkshop.net/>`_ is a tool for viewing, "
-"editing and converting coordinate data from GPS systems.  It can be used for"
-" planning trips in advance, or for analysing the tracks recorded by GPS "
-"receivers."
+"`GpsPrune <https://activityworkshop.net/software/gpsprune>`_ is a tool for "
+"viewing, editing and converting coordinate data from GPS systems.  It can be"
+" used for planning trips in advance, or for analysing the tracks recorded by"
+" GPS receivers."
 msgstr ""
-"`GpsPrune <https://gpsprune.activityworkshop.net/>`_ est un outil pour "
-"visualiser, éditer et convertir des données en coordonnées de systèmes GPS. "
-"Il peut être utilisé pour planifier des voyages à l'avance ou analyser les "
-"traces enregistrées par des récepteurs GPS."
+"`GpsPrune <https://activityworkshop.net/software/gpsprune>`_ est un outil "
+"pour visualiser, éditer et convertir des données en coordonnées de systèmes "
+"GPS. Il peut être utilisé pour planifier des voyages à l'avance ou analyser "
+"les traces enregistrées par des récepteurs GPS."
 
 #: ../../build/doc/overview/gpsprune_overview.rst:24
 msgid ""
@@ -60,6 +60,9 @@ msgid ""
 "GpsPrune uses GPSBabel, if available, to read data directly from a GPS "
 "receiver, and can send the edited data back to the receiver too."
 msgstr ""
+"GpsPrune utilise GPSBabel, s'il est disponible, pour lire les données "
+"directement à partir du récepteur GPS et peut aussi renvoyer les données "
+"éditées au récepteur."
 
 #: ../../build/doc/overview/gpsprune_overview.rst:32
 msgid ""
@@ -86,6 +89,8 @@ msgid ""
 "Zoomable map imagery from OpenStreetMap or any compatible server (such as "
 "HikeBikeMap, Reit- und Wanderkarte etc)"
 msgstr ""
+"imagerie cartographique zoomable depuis OpenStreetMap ou tout autre serveur "
+"compatible (HikeBikeMap, Reit- und Wanderkarte etc)"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:46
 msgid "Altitude or speed profile view"
@@ -139,14 +144,16 @@ msgid ""
 "Online resources such as Wikipedia, GPSies, OpenCaching.de and local weather"
 " forecasts"
 msgstr ""
+"Des ressources telles que Wikipédia, GPSies, OpenCaching.de et des "
+"prévisions météorologiques"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:56
 msgid "Details"
 msgstr "Détails"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:58
-msgid "**Website:** https://gpsprune.activityworkshop.net/"
-msgstr "**Site Internet:** https://gpsprune.activityworkshop.net/"
+msgid "**Website:** https://activityworkshop.net/software/gpsprune"
+msgstr "**Site web:** https://activityworkshop.net/software/gpsprune"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:60
 msgid "**Licence:** GNU General Public License (GPL) version 2"

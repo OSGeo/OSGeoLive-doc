@@ -6,15 +6,16 @@
 # Translators:
 # John Kennedy <julius.krey@wheregroup.com>, 2018
 # Astrid Emde <astrid_emde@osgeo.org>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:11+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,13 +35,11 @@ msgstr "Daten-Managementwerkzeug"
 msgid ""
 "istSOS is sensor data management tool that allows collection, maintenance "
 "and publishing of monitoring observations using the Open Geospatial "
-"Consortium (OGC) `Sensor Observation Service (SOS) "
-"<http://www.opengeospatial.org/standards/sos>`__ standard."
+"Consortium (OGC) |SOS| standard."
 msgstr ""
 "istSOS ist ein Managementwerkzeug für Sensordaten, das das Sammeln, Pflegen "
 "und Monitoren von Beobachtungen mit Hilfe der Standards des Open Geospatial "
-"Consortium (OGC)`Sensor Observation Service (SOS) "
-"<http://www.opengeospatial.org/standards/sos>` ermöglicht."
+"Consortium (OGC)` |SOS|  ermöglicht."
 
 #: ../../build/doc/overview/istsos_overview.rst:26
 msgid ""

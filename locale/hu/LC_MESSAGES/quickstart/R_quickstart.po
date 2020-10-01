@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/R_quickstart.rst:15
 msgid "R Quickstart"
-msgstr ""
+msgstr "R gyorstalpaló"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:17
 msgid ""
@@ -73,23 +74,31 @@ msgid ""
 "and down arrows to recall commands so you can edit mistakes. Hit CTRL-C if "
 "get stuck and you should get the prompt back."
 msgstr ""
+"Ne tartson a parancssortól - nagy lehetőségek forrása. A fel és le nyilakat "
+"használva visszahívhatja a korábbi parancsokat, így kijavíthatja a hibákat. "
+"Nyomjon CTRL.C-t, ha elakadt és a promptot szeretné visszakapni."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:40
 msgid ""
 "Choose :menuselection:`Geospatial --> Spatial Tools --> R Statistics`. A "
 "terminal window opens running R."
 msgstr ""
+"Válassza a menüből :menuselection:`Geospatial --> Spatial Tools --> R "
+"Statistics`. Az R-t futtató terminálablak jelenik meg."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:42
 msgid "You can start with simple arithmetic."
-msgstr ""
+msgstr "Egyszerű aritmetikai számításokkal kezdheti."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:59
 msgid ""
 "A full range of arithmetic, trigonometric, and statistical functions are "
 "built-in, and thousands more are available from packages in the `CRAN "
-"<http://cran.r-project.org/>`_ archive."
+"<https://cran.r-project.org/>`_ archive."
 msgstr ""
+"Az aritmetikai, trigonometriai és statisztikai függvények teljes készletét "
+"beépítették és további ezrek érhetők el a `CRAN "
+"<https://cran.r-project.org/>`_ archívum csomagjaiból."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:63
 msgid ""
@@ -97,10 +106,13 @@ msgid ""
 "``+``, which appears if R expects more input to make a valid expression. "
 "You'll see this if you forget a closing bracket or parenthesis."
 msgstr ""
+"Az R-ben a fő prompt a ``>``, de van egy folytató prompt ``+``, mely akkor "
+"jelenik meg ha az R további inputot vár teljes kifejezéshez. Akkor látja, ha"
+" elfelejt megadni egy záró szögletes vagy kerek zárójelet."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:76
 msgid "Building data"
-msgstr ""
+msgstr "Adatok előállítása"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:78
 msgid ""
@@ -162,7 +174,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/R_quickstart.rst:171
 msgid "Loading map data"
-msgstr ""
+msgstr "Térképi adatok betöltése"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:173
 msgid ""
@@ -262,6 +274,12 @@ msgid ""
 "vignettes on your system. Try ``vignette(\"sf1\")`` for a slightly technical"
 " introduction to the R spatial package."
 msgstr ""
+"Korábban az R csomagok dokumentációja minden függvényhez tömören megírt súgó"
+" oldalakra irányult. Most a csomag szerzőit arra bátorítjuk, hogy egy "
+"'matricát' írjanak mint a csomag egy barátságos bemutatása. Ha a "
+"``vignette()`` függvényt argumentumok nélkül futtatja a rendszerén található"
+" matricák listáját kapja. Próbálja ki a ``vignette(\"sf1\")`` parancsot egy "
+"technikai bevezetőhöz az R térbeli csomagjához."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:266
 msgid "What next?"
@@ -270,26 +288,26 @@ msgstr "Mi a következő?"
 #: ../../build/doc/quickstart/R_quickstart.rst:268
 msgid ""
 "For general information about R, try the official `Introduction to R "
-"<http://cran.r-project.org/doc/manuals/R-intro.html>`_ or any of the "
-"documentation from the main `R Project <http://www.r-project.org/>`_ page."
+"<https://cran.r-project.org/doc/manuals/R-intro.html>`_ or any of the "
+"documentation from the main `R Project <https://www.r-project.org/>`_ page."
 msgstr ""
 "Általános információkhoz az R-ről próbálja meg a hivatalos `Introduction to "
-"R <http://cran.r-project.org/doc/manuals/R-intro.html>`_ vagy bármely "
-"dokumentációt az  `R Project <http://www.r-project.org/>`_ fő oldaláról."
+"R <https://cran.r-project.org/doc/manuals/R-intro.html>`_ vagy bármely "
+"dokumentációt az  `R Project <https://www.r-project.org/>`_ fő oldaláról."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:270
 msgid ""
 "For more information on spatial aspects of R, the best place to start is "
 "probably the `R Spatial Task View "
-"<http://cran.r-project.org/web/views/Spatial.html>`_"
+"<https://cran.r-project.org/web/views/Spatial.html>`_"
 msgstr ""
-"Az R térbeli vonatkozásaihoz további információ szerzéséhez a legjobb "
-"kezdőpont valószínűleg az `R Spatial Task View "
-"<http://cran.r-project.org/web/views/Spatial.html>`_"
+"Az R térbeli vonatkozásairól további információhoz a legjobb kezdőpont "
+"valószínűleg az `R Spatial Task View "
+"<https://cran.r-project.org/web/views/Spatial.html>`_"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:272
 msgid ""
-"You might also want to check out the `R-Spatial <http://www.rspatial.org>`_ "
-"page."
+"You might also want to check out the `R-Spatial <https://www.rspatial.org>`_"
+" page."
 msgstr ""
-"Érdemes megnéznie az \"R-Spatial <http://www.rspatial.org> ' _ oldalt is."
+"Érdemes megnéznie az \"R-Spatial <<https://www.rspatial.org> ' _ oldalt is."

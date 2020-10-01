@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Santtu Pyykkönen, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Santtu Pyykkönen, 2019\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,11 +58,10 @@ msgstr "Dynaaminen paikkatieto-visualisaatio:"
 #: ../../build/doc/overview/cesium_overview.rst:33
 msgid ""
 "Create data-driven, time-dynamic scenes with `CZML "
-"<https://github.com/AnalyticalGraphicsInc/cesium/wiki/CZML-Guide>`_."
+"<https://github.com/CesiumGS/cesium/wiki/CZML-Guide>`_."
 msgstr ""
-"Luo datalähtöisiä, aika-dynaamisia visualisointeja `CZML <https: "
-"github.com/analyticalgraphicsinc/cesium/wiki/czml-guide=\"\">` -formaatin "
-"avulla."
+"Luo datalähtöisiä, aika-dynaamisia visualisointeja `CZML "
+"<https://github.com/CesiumGS/cesium/wiki/CZML-Guide>`_."
 
 #: ../../build/doc/overview/cesium_overview.rst:34
 msgid "Visualize high-resolution worldwide terrain."
@@ -84,11 +84,10 @@ msgid "Draw 3D models using COLLADA and glTF."
 msgstr "Visualisoi 3D-malleja käyttämällä COLLADA- ja glTF-formaatteja."
 
 #: ../../build/doc/overview/cesium_overview.rst:38
-msgid ""
-"Use `plugins <http://cesiumjs.org/plugins/index.html>`_ to extend Cesium."
+msgid "Use `plugins <https://cesium.com/cesiumjs>`_ to extend Cesium."
 msgstr ""
-"Käytä `lisäosat <http: cesiumjs.org/plugins/index.html=\"\">` laajentamaan "
-"Cesiumin toiminnallisuuksia."
+"Käytä `lisäosat <https://cesium.com/cesiumjs>`_  laajentamaan Cesiumin "
+"toiminnallisuuksia."
 
 #: ../../build/doc/overview/cesium_overview.rst:40
 msgid "Built for Performance and Precision:"
@@ -117,8 +116,8 @@ msgid ""
 "including photogrammetry models, 3D buildings, CAD and BIM exterior and "
 "interiors, and point clouds."
 msgstr ""
-"Käytä `3D-karttatiilejä <https: cesium.com/blog/2017/07/12/the-next-"
-"generation-of-3d-tiles/=\"\">`_ ja suoratoista, tyylittele ja vuorovaikuta "
+"Käytä `3D-karttatiilejä <https://cesium.com/blog/2017/07/12/the-next-"
+"generation-of-3d-tiles/>`_ ja suoratoista, tyylittele ja vuorovaikuta "
 "erilaisten 3D-karttatiilien kanssa, mukaan lukien fotogrammetria-mallit, 3D-"
 "rakennukset, CAD-ja BIM- ulko- ja sisätiloja varten sekä pistepilvet."
 
@@ -159,8 +158,8 @@ msgid "Details"
 msgstr "Lisätiedot"
 
 #: ../../build/doc/overview/cesium_overview.rst:59
-msgid "**Website:** http://cesiumjs.org"
-msgstr "**Verkkosivusto:** http://cesiumjs.org"
+msgid "**Website:** https://cesium.com/"
+msgstr "**Verkkosivusto:** https://cesium.com/"
 
 #: ../../build/doc/overview/cesium_overview.rst:61
 msgid "**Licence:** Apache 2.0 license"
@@ -179,8 +178,12 @@ msgstr ""
 "tukee WebGL-tekniikkaa"
 
 #: ../../build/doc/overview/cesium_overview.rst:67
-msgid "**Community Support:** Forum at https://cesiumjs.org/forum/"
-msgstr "**Yhteisö tuki:** Foorumi osoitteessa https://cesiumjs.org/forum/"
+msgid ""
+"**Community Support:** Forum at "
+"https://groups.google.com/forum/?hl=en#!forum/cesium-dev"
+msgstr ""
+"**Yhteisö tuki:** Foorumi osoitteessa "
+"https://groups.google.com/forum/?hl=en#!forum/cesium-dev"
 
 #: ../../build/doc/overview/cesium_overview.rst:71
 msgid "Quickstart"

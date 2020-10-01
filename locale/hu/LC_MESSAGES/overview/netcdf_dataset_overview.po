@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-11-07 04:17+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,8 +74,8 @@ msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:35
-msgid "**Website:** http://www.pacificclimate.org/"
-msgstr "**Honlap:** http://www.pacificclimate.org/"
+msgid "**Website:** https://wiki.osgeo.org/wiki/Category:Education"
+msgstr "**Honlap:** https://wiki.osgeo.org/wiki/Category:Education"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:37
 msgid ""
@@ -98,5 +98,5 @@ msgid "**Spatial coordinate system:** EPSG:4326, NAD83"
 msgstr "**Térbeli koordináta-rendszer:** EPSG:4326, NAD83"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:45
-msgid "**Support:** http://lists.osgeo.org/mailman/listinfo/geodata"
-msgstr "**Támogatás:** http://lists.osgeo.org/mailman/listinfo/geodata"
+msgid "**Support:** https://lists.osgeo.org/mailman/listinfo/geodata"
+msgstr "**Támogatás:** https://lists.osgeo.org/mailman/listinfo/geodata"

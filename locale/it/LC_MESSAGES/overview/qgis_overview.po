@@ -7,15 +7,16 @@
 # Stefano Campus <skampus@gmail.com>, 2017
 # Elena Mezzini <elena.mezzini@gmail.com>, 2018
 # Luca Delucchi <lucadeluge@gmail.com>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -213,8 +214,8 @@ msgid "Details"
 msgstr "Dettagli"
 
 #: ../../build/doc/overview/qgis_overview.rst:85
-msgid "**Website:** http://www.qgis.org"
-msgstr "**Sito web:** http://www.qgis.org"
+msgid "**Website:** https://www.qgis.org/en/site/"
+msgstr "**Sito web:** https://www.qgis.org/en/site/"
 
 #: ../../build/doc/overview/qgis_overview.rst:87
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -229,17 +230,17 @@ msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
 msgstr "**Piattaforme Supportate:** Windows, Linux, Mac, Unix"
 
 #: ../../build/doc/overview/qgis_overview.rst:93
-msgid "**Community Support:** http://qgis.org/en/site/forusers/support.html"
+msgid "**Community Support:** https://qgis.org/en/site/forusers/support.html"
 msgstr ""
-"**Support della comunità:** http://qgis.org/en/site/forusers/support.html"
+"**Support della comunità:** https://qgis.org/en/site/forusers/support.html"
 
 #: ../../build/doc/overview/qgis_overview.rst:95
 msgid ""
 "**Commercial Support:** "
-"http://qgis.org/en/site/forusers/commercial_support.html"
+"https://qgis.org/en/site/forusers/commercial_support.html"
 msgstr ""
 "**Supporto commerciale:** "
-"http://qgis.org/en/site/forusers/commercial_support.html"
+"https://qgis.org/en/site/forusers/commercial_support.html"
 
 #: ../../build/doc/overview/qgis_overview.rst:100
 msgid "Quickstart"

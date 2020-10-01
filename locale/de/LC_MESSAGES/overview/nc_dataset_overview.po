@@ -6,15 +6,16 @@
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Astrid Emde <astrid_emde@osgeo.org>, 2018
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2018\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr ""
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:14
 msgid "North Carolina USA Educational dataset"
-msgstr ""
+msgstr "North Carolina, USA Schulungsdatensatz "
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:17
 msgid "Map Data"
@@ -141,16 +142,12 @@ msgid "Details"
 msgstr "Details"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:63
-msgid "**Website:** http://www.grassbook.org/data_menu3rd.php"
-msgstr "**Webseite:** http://www.grassbook.org/data_menu3rd.php"
+msgid "**Website:** https://wiki.osgeo.org/wiki/Category:Education"
+msgstr "**Webseite:** https://wiki.osgeo.org/wiki/Category:Education"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:65
-msgid ""
-"**License:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA"
-" 3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_"
-msgstr ""
-"**Lizenz:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA "
-"3.0) <http://creativecommons.org/licenses/by-sa/3.0/>`_"
+msgid "**License:** |CC BY-SA 3.0|"
+msgstr "**License:** |CC BY-SA 3.0|"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:67
 msgid "**Data Version:** 2008"
@@ -168,5 +165,5 @@ msgstr ""
 "**Koordinatensystem:** NC State Plane (Lambert Conformal Conic), NAD83"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:73
-msgid "**Support:** http://lists.osgeo.org/mailman/listinfo/geodata"
-msgstr "**Support:** http://lists.osgeo.org/mailman/listinfo/geodata"
+msgid "**Support:** https://lists.osgeo.org/mailman/listinfo/geodata"
+msgstr "**Support:** https://lists.osgeo.org/mailman/listinfo/geodata"

@@ -5,17 +5,17 @@
 # 
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
-# Vicky Vergara <vicky@georepublic.de>, 2019
 # Astrid Emde <astrid_emde@osgeo.org>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -116,10 +116,10 @@ msgstr ""
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
 msgid ""
 "https://help.ubuntu.com/community/Lubuntu/Documentation and "
-"http://wiki.lxde.org"
+"https://wiki.lxde.org/en/Main_Page"
 msgstr ""
 "https://help.ubuntu.com/community/Lubuntu/Documentation und "
-"http://wiki.lxde.org"
+"https://wiki.lxde.org/de/Main_Page"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:56
 msgid "Getting started with the Ubuntu operating system:"
@@ -129,11 +129,11 @@ msgstr "Einstieg in das Ubuntu Betriebssystem:"
 msgid ""
 "`local eBook "
 "<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and "
-"`extended online help <http://help.ubuntu.com/14.04/>`_"
+"`extended online help <https://help.ubuntu.com>`_"
 msgstr ""
 "`local eBook "
 "<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ und "
-"`Erweiterte Online Hilfe <http://help.ubuntu.com/14.04/>`_"
+"`Erweiterte Online Hilfe <https://help.ubuntu.com>`_"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:58
 msgid ":doc:`virtualization_quickstart`"

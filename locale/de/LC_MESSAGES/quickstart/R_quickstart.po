@@ -6,15 +6,16 @@
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Astrid Emde <astrid_emde@osgeo.org>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/R_quickstart.rst:15
 msgid "R Quickstart"
-msgstr ""
+msgstr "R Schnellstart"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:17
 msgid ""
@@ -73,6 +74,10 @@ msgid ""
 "and down arrows to recall commands so you can edit mistakes. Hit CTRL-C if "
 "get stuck and you should get the prompt back."
 msgstr ""
+"Keine Angst vor der Kommandozeile - es ist eine Quelle großer Macht. Mit der"
+" Aufwärts- und Abwärts Pfeiltasten können Sie Befehle zurückholen und die "
+"Tastenkombination CTRL-C gibt den Eingabepromt wieder, wenn Sie mal irgendwo"
+" stecken bleiben."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:40
 msgid ""
@@ -82,13 +87,13 @@ msgstr ""
 
 #: ../../build/doc/quickstart/R_quickstart.rst:42
 msgid "You can start with simple arithmetic."
-msgstr ""
+msgstr "Sie können mit einer einfachen Arithmetik starten"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:59
 msgid ""
 "A full range of arithmetic, trigonometric, and statistical functions are "
 "built-in, and thousands more are available from packages in the `CRAN "
-"<http://cran.r-project.org/>`_ archive."
+"<https://cran.r-project.org/>`_ archive."
 msgstr ""
 
 #: ../../build/doc/quickstart/R_quickstart.rst:63
@@ -100,7 +105,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/R_quickstart.rst:76
 msgid "Building data"
-msgstr ""
+msgstr "Daten erstellen"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:78
 msgid ""
@@ -164,7 +169,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/R_quickstart.rst:171
 msgid "Loading map data"
-msgstr ""
+msgstr "Karten laden"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:173
 msgid ""
@@ -269,6 +274,12 @@ msgid ""
 "vignettes on your system. Try ``vignette(\"sf1\")`` for a slightly technical"
 " introduction to the R spatial package."
 msgstr ""
+"In der Vergangenheit waren die Dokumentationen für R-Pakete eher knapp. Nun "
+"werden Autoren von Paketen aufgefordert eine 'Vignette' , d.h. eine "
+"Einführung für ihr Paket zu schreiben. Wenn Sie nun einfach die "
+"``vignette()``-Funktion ohne Argumente aufrufen, erhalten Sie eine Liste "
+"dieser Vignetten auf ihrem System. Rufen Sie ``vignette(\"sf1\")`` für eine "
+"eher technische Einführung in das R Spatial Paket auf."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:266
 msgid "What next?"
@@ -277,28 +288,28 @@ msgstr "Was kommt als Nächstes?"
 #: ../../build/doc/quickstart/R_quickstart.rst:268
 msgid ""
 "For general information about R, try the official `Introduction to R "
-"<http://cran.r-project.org/doc/manuals/R-intro.html>`_ or any of the "
-"documentation from the main `R Project <http://www.r-project.org/>`_ page."
+"<https://cran.r-project.org/doc/manuals/R-intro.html>`_ or any of the "
+"documentation from the main `R Project <https://www.r-project.org/>`_ page."
 msgstr ""
 "Für allgemeine Informationen über R, versuchen Sie die offizielle Seite "
-"`Introduction to R <http://cran.r-project.org/doc/manuals/R-intro.html>`_ "
+"`Introduction to R <https://cran.r-project.org/doc/manuals/R-intro.html>`_ "
 "oder eine andere Dokumentation von der Hauptseite des `R Projekts "
-"<http://www.r-project.org/>`_."
+"<https://www.r-project.org/>`_."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:270
 msgid ""
 "For more information on spatial aspects of R, the best place to start is "
 "probably the `R Spatial Task View "
-"<http://cran.r-project.org/web/views/Spatial.html>`_"
+"<https://cran.r-project.org/web/views/Spatial.html>`_"
 msgstr ""
 "Für weitere Informationen über räumliche Aspekte von R, ist wahrscheinlich "
 "das `R Spatial Task View "
-"<http://cran.r-project.org/web/views/Spatial.html>`_ am hilfreichsten."
+"<https://cran.r-project.org/web/views/Spatial.html>`_ am hilfreichsten."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:272
 msgid ""
-"You might also want to check out the `R-Spatial <http://www.rspatial.org>`_ "
-"page."
+"You might also want to check out the `R-Spatial <https://www.rspatial.org>`_"
+" page."
 msgstr ""
 "Sie interessieren sich vermutlich auch für die `R-Spatial "
-"<http://www.rspatial.org>`_ -Seite."
+"<https://www.rspatial.org>`_ -Seite."

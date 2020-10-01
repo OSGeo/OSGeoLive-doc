@@ -4,16 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-09-23 09:57-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,7 +48,7 @@ msgstr ""
 "Úgy tapasztaltuk, hogy számos váratlan fordulat lehet és számos trükk "
 "szükséges az USB meghajtó elkészítéséhez. Dokumentáltuk, amit tudunk, de "
 "valószínűleg további trükkök és problémák lehetnek. A legújabb trükköket itt"
-" találja: http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB"
+" találja: https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:16
 msgid "Requirements"
@@ -59,11 +60,9 @@ msgstr "Egy USB meghajtó (legalább 4GB, 8+ GB ajánlott)."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:19
 msgid ""
-"An OSGeoLive ISO image (downloaded from: "
-"http://live.osgeo.org/en/download.html) or converted from a DVD."
+"An OSGeoLive ISO image (downloaded from: :doc:`OSGeoLive downloads "
+"<../download>`) or converted from a DVD."
 msgstr ""
-"Egy OSGeoLive ISO kép (a http://live.osgeo.org/en/download.html címről "
-"töltheti le) vagy egy DVD-ről konvertálhatja."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:21
 msgid ""
@@ -158,11 +157,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:49
 msgid ""
-"`Download <http://live.osgeo.org/en/download.html>`_ osgeolive or osgeolive-"
-"mini to your computer's hard drive."
+":doc:`Download <../download>` osgeolive or osgeolive-mini to your computer's"
+" hard drive."
 msgstr ""
-"`Töltse le <http://live.osgeo.org/en/download.html>`_ az osgeolive-ot vagy "
-"osgeolive-mini-t a gépének merevlemezére."
+":doc:`Töltse le <../download>` az osgeolive-ot vagy osgeolive-mini-t a "
+"gépének merevlemezére."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:51
 msgid ""
@@ -249,14 +248,14 @@ msgid ""
 "If your computer does not have a boot menu, then boot into your system BIOS."
 " The button to enter BIOS varies by brand and model of computer. If you "
 "can't figure out yours try this website that lists many BIOS hotkeys. "
-"http://www.mydigitallife.info/comprehensive-list-of-how-key-to-press-to-"
+"https://www.mydigitallife.net/comprehensive-list-of-how-key-to-press-to-"
 "access-bios-for-various-oem-and-computer-systems/"
 msgstr ""
-"Ha a számítógépén nincs 'Boot menu', akkor az indításnál lépjen a BIOS-ba. A"
-" BIOS-ba belépéshez használt billentyű a számítógép márkájától és típusától "
+"Ha a számítógépén nincs boot menü, akkor az indításnál lépjen a BIOS-ba. A "
+"BIOS-ba belépéshez használt billentyű a számítógép márkájától és típusától "
 "függően változatos lehet. Ha nem sikerül kitalálnia ezt a gépén, akkor "
 "próbálja meg a következő honlapot, mely számos BIOS gyors billentyű listáját"
-" tartalmazza. http://www.mydigitallife.info/comprehensive-list-of-how-key-"
+" tartalmazza. https://www.mydigitallife.net/comprehensive-list-of-how-key-"
 "to-press-to-access-bios-for-various-oem-and-computer-systems/"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:86
@@ -281,11 +280,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:90
 msgid ""
-"This `Video <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates "
+"This `Video <https://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates "
 "booting from USB."
 msgstr ""
-"Ez a  `videó <http://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ bemutatja az USB"
-" meghajtóról indítást."
+"Ez a  `videó <https://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ bemutatja az "
+"USB meghajtóról indítást."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:93
 msgid "Run:"
@@ -317,7 +316,7 @@ msgid ""
 "<https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
 msgstr ""
 "Alternatív USB létrehozó módszereket és a legújabb tippeket itt gyűjtjük:  "
-"`wiki <http://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
+"`wiki <https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:104
 msgid ""

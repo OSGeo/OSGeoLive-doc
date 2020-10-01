@@ -16,7 +16,7 @@ Requirements
 --------------------------------------------------------------------------------
 
 * A USB flash drive (at least 4 Gig, 8+ Gig is recommended).
-* An OSGeoLive ISO image (downloaded from: https://live.osgeo.org/en/download.html) or converted from a DVD.
+* An OSGeoLive ISO image (downloaded from: :doc:`OSGeoLive downloads <../download>`) or converted from a DVD.
 
  * For a 4 GB USB flash drive, use osgeolive-mini ISO (without Windows and Mac installers), without persistence.
  * For a 8+ GB USB flash drive, use either osgeolive-mini ISO, or osgeolive ISO (with Windows and Mac installers). 8+ GB is recommended if you wish to support persistence.
@@ -46,7 +46,7 @@ Creating bootable USB drive with Ubuntu Startup Disk Creator
 .. note::
    The version of Ubuntu you are running, needs to be the same or newer than the version of Lubuntu being installed onto your USB.  If installing OSGeoLive 8.0 onto a USB, then you will need to be running Ubuntu 14.04 or newer.
 
-`Download <https://live.osgeo.org/en/download.html>`_ osgeolive or osgeolive-mini to your computer's hard drive. 
+:doc:`Download <../download>` osgeolive or osgeolive-mini to your computer's hard drive.
 
 Boot your computer into a recent Ubuntu/Xbuntu distribution. You can do this by running from an OSGeoLive DVD, as explained in :doc:`osgeolive_quickstart`.
 
