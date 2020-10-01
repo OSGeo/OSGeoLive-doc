@@ -279,6 +279,10 @@ linkcheck_ignore = [
         # Link does not exist anymore
         # Used in quickstart/mapslicer_quickstart
         'https://maps.yahoo.com/',
+
+        # Link with certiciate problems
+        # Used in quickstart/liblas_quickstart
+        'https://epsg.org/home.html',
         ]
 
 linkcheck_anchors = False
