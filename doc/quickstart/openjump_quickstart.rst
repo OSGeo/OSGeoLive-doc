@@ -74,7 +74,7 @@ Edit feature geometries in a layer
      :scale: 55 
 
 #. Let's try a quick edit. First we need to select a geometry and then we move a point of the geometry. To do that, we first click the button that shows a mouse cursor in the editing toolbar (top left button). 
-#. Activate it and click on a single feature in the Layer View to select it. If the selection worked, then the features line color should change to yellow and small yellow squares appear at each angle point (vertex) in the feature geometry. 
+#. Activate it and click on a single feature in the Map View to select it. If the selection worked, then the features line color should change to yellow and small yellow squares appear at each angle point (vertex) in the feature geometry. 
 
    .. image:: /images/projects/openjump/openjump_ss_07.png
      :scale: 55 
