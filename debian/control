@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Johan Van de Wauw <johan.vandewauw@gmail.com>
 Build-Depends: debhelper (>= 8.0.0), 
                python3-sphinx,
-               python3-stemmer
+               python3-stemmer,
                python3-pil,
                pngquant,
                cmake,
