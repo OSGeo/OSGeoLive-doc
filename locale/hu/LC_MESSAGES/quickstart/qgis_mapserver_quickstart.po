@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-03-25 17:45-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -66,6 +66,9 @@ msgid ""
 "Click :menuselection:`Geospatial --> Web Services --> QGIS Server`. You "
 "should see a browser window with a web map viewer showing a world map."
 msgstr ""
+"Kattinson ide :menuselection:`Geospatial --> Web Services --> QGIS Server`. "
+"Egy böngésző ablakot kellene látnia egy webes térkép megjelenítővel, mely a "
+"világtérképet jeleníti meg."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:39
 msgid ""
@@ -89,7 +92,7 @@ msgstr "Kattintson ide :menuselection:`Geospatial --> Desktop GIS --> QGIS`."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:50
 msgid "Choose :menuselection:`Project --> Open` from the menu bar."
-msgstr ""
+msgstr "Válassza :menuselection:`Project --> Open...`-t a menüből."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:52
 msgid ""
@@ -118,7 +121,7 @@ msgstr "Módosítsa a színt a körvonal beállításokban egy másik kék tónu
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:61
 msgid "Press :guilabel:`OK`. Rivers are now rendered in a new color."
-msgstr ""
+msgstr "Nyomja meg az :guilabel:`OK`-t. A folyók az új színnel jelennek meg."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:63
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:83
@@ -127,11 +130,12 @@ msgstr "Mentse el a projektet :menuselection:`Project --> Save`."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:65
 msgid "Reopen the web browser."
-msgstr ""
+msgstr "Nyissa meg újra a böngészőt."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:67
 msgid "Zoom in. You will now see rivers rendered in the same new color."
 msgstr ""
+"Nagyítson. Most ugyanazzal az új színnel kirajzolt folyókat fog látni."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:71
 msgid "Create a new QGIS project"
@@ -139,7 +143,7 @@ msgstr "Új QGIS projekt létrehozása"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:73
 msgid "Reopen QGIS."
-msgstr ""
+msgstr "Nyissa meg újra a QGIS-t."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:75
 msgid "Choose :menuselection:`Project --> New`."
@@ -148,6 +152,8 @@ msgstr "Válassza a :menuselection:`Project --> New`-t a menüből."
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:77
 msgid "Click :menuselection:`Layer --> Add Layer --> Add Vector Layer`."
 msgstr ""
+"Kattintson a :menuselection:`Layer --> Add Layer --> Add Vector "
+"Layer...`-re."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:79
 msgid ""
@@ -160,6 +166,7 @@ msgstr ""
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:81
 msgid "Press :guilabel:`Open`. You should see all world countries."
 msgstr ""
+"Nyomja meg az :guilabel:`Open`-t. A világ összes országát kell látnia."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:85
 msgid "Use file name :file:`/home/user/world.qgs` and press :guilabel:`Save`."
@@ -173,6 +180,9 @@ msgid ""
 "bin/qgis_mapserv?map=/home/user/world.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_."
 " You should see all world countries, this time rendered by QGIS Server."
 msgstr ""
+"Nyissa meg a `WMS URL-t <http://localhost/cgi-"
+"bin/qgis_mapserv?map=/home/user/world.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_."
+" A világ országait kell látnia, ezúttal a QGIS server megjelenítésében."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:91
 msgid "What next?"

@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -126,8 +126,8 @@ msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/geomajas_overview.rst:53
-msgid "**Website:** http://www.geomajas.org/"
-msgstr "**Honlap:** http://www.geomajas.org/"
+msgid "**Website:** http://www.geomajas.org"
+msgstr "**Honlap:** http://www.geomajas.org"
 
 #: ../../build/doc/overview/geomajas_overview.rst:55
 msgid "**Licence:** AGPL"
@@ -146,8 +146,8 @@ msgid "**API Interfaces:** Java and Javascript"
 msgstr "**API Interfészek:** Java és Javascript"
 
 #: ../../build/doc/overview/geomajas_overview.rst:63
-msgid "**Support:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089"
-msgstr "**Támogatás:** http://www.osgeo.org/node/725?SET=1&MUL_TECH[]=00089"
+msgid "**Support:** https://www.osgeo.org/service-providers"
+msgstr "**Támogatás:** https://www.osgeo.org/service-providers"
 
 #: ../../build/doc/overview/geomajas_overview.rst:68
 msgid "Quickstart"

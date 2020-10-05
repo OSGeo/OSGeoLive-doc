@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -299,27 +299,11 @@ msgstr ""
 "pour installer OTB et l'utilisez. La plupart des classes disponibles est "
 "largement illustrée avec les résultats de traitement de télédétection réels."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:165
-msgid ""
-"`OTBSoftwareGuide.pdf <http://www.orfeo-"
-"toolbox.org/packages/OTBSoftwareGuide.pdf>`_"
-msgstr ""
-"`Guide du logiciel OTB en ligne au format pdf <http://www.orfeo-"
-"toolbox.org/packages/OTBSoftwareGuide.pdf>`_"
-
-#: ../../build/doc/quickstart/otb_quickstart.rst:166
-msgid ""
-"`Online html OTB Software Guide <https://www.orfeo-"
-"toolbox.org/SoftwareGuide/index.html>`_"
-msgstr ""
-"`Guide du logiciel OTB en ligne au format HTML <https://www.orfeo-"
-"toolbox.org/SoftwareGuide/index.html>`_"
-
-#: ../../build/doc/quickstart/otb_quickstart.rst:168
+#: ../../build/doc/quickstart/otb_quickstart.rst:170
 msgid "OTB CookBook"
 msgstr "OTB CookBook"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:170
+#: ../../build/doc/quickstart/otb_quickstart.rst:172
 msgid ""
 "A guide for OTB-Applications and Monteverdi dedicated for non-developers is "
 "also available.This guide is composed of a brief tour of of OTB-Applications"
@@ -331,34 +315,23 @@ msgstr ""
 "applications OTB et de Monteverdi, suivie d’une série de recettes pour "
 "mettre oeuvre des tâches habituelles de télédétection avec ces deux outils."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:175
-msgid "`OTBCookBook.pdf <http://orfeo-toolbox.org/packages/OTBCookBook.pdf>`_"
-msgstr ""
-"`OTBCookBook.pdf <http://orfeo-toolbox.org/packages/OTBCookBook.pdf>`_"
-
-#: ../../build/doc/quickstart/otb_quickstart.rst:176
-msgid "`Online html OTB CookBook <https://www.orfeo-toolbox.org/CookBook>`_"
-msgstr ""
-"`Livre de recette OTB en ligne au format HTML  <https://www.orfeo-"
-"toolbox.org/CookBook>`_"
-
-#: ../../build/doc/quickstart/otb_quickstart.rst:178
+#: ../../build/doc/quickstart/otb_quickstart.rst:182
 msgid "OTB Tutorials"
 msgstr "Tutoriels OTB"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:180
+#: ../../build/doc/quickstart/otb_quickstart.rst:184
 msgid "Follow the tutorials_ to learn more about OTB."
 msgstr "Suivez les tutorials_ pour en savoir plus sur OTB."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:184
+#: ../../build/doc/quickstart/otb_quickstart.rst:188
 msgid "OTB Applications documentation"
 msgstr "Documentation des applications OTB"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:186
+#: ../../build/doc/quickstart/otb_quickstart.rst:190
 msgid "See also detailed documentation about OTB applications_"
 msgstr "Voir aussi une documentation détaillée sur les applications_ OTB"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:190
+#: ../../build/doc/quickstart/otb_quickstart.rst:194
 msgid ""
 "OTB courses with Pleiades images to learn how to use OTB applications and "
 "Monteverdi"
@@ -366,7 +339,7 @@ msgstr ""
 "Cours d’OTB avec des images Pléiades pour apprendre à utiliser les "
 "applications de l’OTB et Monteverdi"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:192
+#: ../../build/doc/quickstart/otb_quickstart.rst:196
 msgid "Follow the courses_ to learn more about OTB (see section Tutorials)."
 msgstr ""
 "Suivez les courses_ pour en savoir plus sur OTB (voir la section Tutoriels)."

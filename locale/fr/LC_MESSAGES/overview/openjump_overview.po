@@ -6,15 +6,16 @@
 # Translators:
 # Sant-anna <delazj@gmail.com>, 2017
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
+# Nicolas Roelandt (Personnel), 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -207,15 +208,15 @@ msgstr "**Support Communautaire:** http://www.openjump.org/support.html"
 #: ../../build/doc/overview/openjump_overview.rst:85
 msgid ""
 "**Commercial Support:** "
-"http://ojwiki.soldin.de/index.php?title=Professional_Support_Page"
+"https://ojwiki.soldin.de/index.php?title=Professional_Support_Page"
 msgstr ""
 "**Support Commercial:** "
-"http://ojwiki.soldin.de/index.php?title=Professional_Support_Page"
+"https://ojwiki.soldin.de/index.php?title=Professional_Support_Page"
 
 #: ../../build/doc/overview/openjump_overview.rst:87
-msgid "**Download Page:** http://sourceforge.net/projects/jump-pilot/files/"
+msgid "**Download Page:** https://sourceforge.net/projects/jump-pilot/files/"
 msgstr ""
-"**Page de téléchargement:** http://sourceforge.net/projects/jump-"
+"**Page de téléchargement:** https://sourceforge.net/projects/jump-"
 "pilot/files/"
 
 #: ../../build/doc/overview/openjump_overview.rst:91

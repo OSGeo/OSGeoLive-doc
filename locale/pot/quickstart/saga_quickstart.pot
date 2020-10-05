@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-09-23 09:57-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -237,6 +237,6 @@ msgid "What next?"
 msgstr ""
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:258
-msgid "More documentation can be found on the SAGA website: * http://www.saga-gis.org and specifically in the documentation archive: * http://www.saga-gis.org/en/about/references.html * https://sourceforge.net/projects/saga-gis/files/SAGA%20-%20Documentation/"
+msgid "More documentation can be found on the SAGA website: * http://www.saga-gis.org and specifically in the documentation archive: * http://www.saga-gis.org/en/about/references.html * https://sourceforge.net/p/saga-gis/wiki/Documentation/"
 msgstr ""
 

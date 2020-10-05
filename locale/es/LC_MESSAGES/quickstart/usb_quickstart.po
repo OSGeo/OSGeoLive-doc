@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Vicky Vergara <vicky@georepublic.de>, 2019
 # MarPetra <mvergaratrejo@gmail.com>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-09-23 09:57-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -61,11 +61,11 @@ msgstr "Una unidad flash USB  (se recomienda de al menos 4 Gig, 8+ Gig)"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:19
 msgid ""
-"An OSGeoLive ISO image (downloaded from: "
-"https://live.osgeo.org/en/download.html) or converted from a DVD."
+"An OSGeoLive ISO image (downloaded from: :doc:`OSGeoLive downloads "
+"<../download>`) or converted from a DVD."
 msgstr ""
-"Una imagen ISO de OSGeoLive (descargado de: "
-"https://live.osgeo.org/en/download.html) o convertida a partir de un DVD."
+"Una imagen ISO de OSGeoLive (descargado de: :doc:`OSGeoLive downloads "
+"<../download>`) o convertida a partir de un DVD."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:21
 msgid ""
@@ -157,11 +157,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:49
 msgid ""
-"`Download <https://live.osgeo.org/en/download.html>`_ osgeolive or "
-"osgeolive-mini to your computer's hard drive."
+":doc:`Download <../download>` osgeolive or osgeolive-mini to your computer's"
+" hard drive."
 msgstr ""
-"`Descargar <https://live.osgeo.org/en/download.html>`_ osgeolive o "
-"osgeolive-mini disco duro de su ordenador."
+":doc:`Descargar <../download>` osgeolive o osgeolive-mini disco duro de su "
+"ordenador."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:51
 msgid ""

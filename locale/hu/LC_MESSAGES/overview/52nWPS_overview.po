@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:07+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,19 +31,17 @@ msgstr "Névjegy"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:20
 msgid ""
-"The 52°North `Web Processing Service (WPS) "
-"<http://www.opengeospatial.org/standards/wps>`__ enables web access to "
-"geospatial processing algorithms provided by Sextante, ArcGIS Server, R, "
-"GRASS 7, or custom developed functions. Algorithms may be as simple as "
-"determining the difference in influenza cases between two different seasons,"
-" or as complicated as a global climate change model."
+"The 52°North |WPS| enables web access to geospatial processing algorithms "
+"provided by Sextante, ArcGIS Server, R, GRASS 7, or custom developed "
+"functions. Algorithms may be as simple as determining the difference in "
+"influenza cases between two different seasons, or as complicated as a global"
+" climate change model."
 msgstr ""
-"Az 52°North `Web Processing Service (WPS) "
-"<http://www.opengeospatial.org/standards/wps>`__ webes hozzáférést tesz "
-"lehetővé a Sextante, ArcGIS szerver, R, GRASS 7  által biztosított és "
-"egyedileg kidolgozott feldolgozási algoritmusokhoz. Az algoritmus olyan "
-"egyszerű is lehet mint az influenzás esetek különbsége két különböző "
-"időszakban vagy olyan komplikált mint egy globális klímaváltozási modell. "
+"Az 52°North |WPS| webes hozzáférést tesz lehetővé a Sextante, ArcGIS "
+"szerver, R, GRASS 7  által biztosított és egyedileg kidolgozott feldolgozási"
+" algoritmusokhoz. Az algoritmus olyan egyszerű is lehet mint az influenzás "
+"esetek különbsége két különböző időszakban vagy olyan komplikált mint egy "
+"globális klímaváltozási modell. "
 
 #: ../../build/doc/overview/52nWPS_overview.rst:32
 msgid "Core Features"
@@ -121,8 +119,8 @@ msgid "Implemented Standards"
 msgstr "Implementált szabványok"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:60
-msgid "OGC Web Processing Service (WPS)"
-msgstr "OGC Web Processing Service (WPS)"
+msgid "|WPS|"
+msgstr "|WPS|"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:61
 msgid "OGC GML2 SimpleFeatures"
@@ -137,8 +135,8 @@ msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:67
-msgid "**Website:** https://52north.org/software/software-projects/wps/"
-msgstr "**Honlap:** https://52north.org/software/software-projects/wps/"
+msgid "**Website:** https://52north.org/software/software-projects/wps"
+msgstr "**Honlap:** https://52north.org/software/software-projects/wps"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:69
 msgid "**Licence:** GPL 2"

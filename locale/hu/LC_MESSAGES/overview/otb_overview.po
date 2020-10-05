@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -166,8 +166,8 @@ msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/otb_overview.rst:72
-msgid "**Website:** http://www.orfeo-toolbox.org/"
-msgstr "**Honlap:** http://www.orfeo-toolbox.org/"
+msgid "**Website:** https://www.orfeo-toolbox.org/"
+msgstr "**Honlap:** https://www.orfeo-toolbox.org/"
 
 #: ../../build/doc/overview/otb_overview.rst:74
 msgid "**Licence:** Apache v2.0"
@@ -186,8 +186,8 @@ msgid "**API Interfaces:** C++"
 msgstr "**API interfészek:** C++"
 
 #: ../../build/doc/overview/otb_overview.rst:82
-msgid "**Commercial Support:** http://www.osgeo.org/search_profile"
-msgstr "**Kereskedelmi támogatás:** http://www.osgeo.org/search_profile"
+msgid "**Commercial Support:** |SUPPORT|"
+msgstr "**Kereskedelmi támogatás:** |SUPPORT|"
 
 #: ../../build/doc/overview/otb_overview.rst:87
 msgid "Quickstart"
