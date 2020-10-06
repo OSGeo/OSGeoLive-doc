@@ -3,12 +3,13 @@ Section: doc
 Priority: optional
 Maintainer: Johan Van de Wauw <johan.vandewauw@gmail.com>
 Build-Depends: debhelper (>= 8.0.0), 
-               python-sphinx,
-               python-pil,
+               python3-sphinx,
+               python3-stemmer,
+               python3-pil,
                pngquant,
                cmake,
                libtext-simpletable-autowidth-perl,
-               python-sphinxjp.themes.revealjs,
+               python3-sphinxjp.themes.revealjs,
 Standards-Version: 3.9.6
 Homepage: http://live.osgeo.org
 

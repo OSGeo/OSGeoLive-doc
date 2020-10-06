@@ -1,3 +1,9 @@
+osgeolive-docs (14.0~alpha1) focal; urgency=medium
+  
+  * Preparing 14.0 alpha1 release.
+
+ -- Angelos Tzotsos <gcpp.kalxas@gmail.com>  Sun, 04 Oct 2020 18:00:00 +0200
+
 osgeolive-docs (13.0.0) bionic; urgency=medium
   
   * Preparing 13.0 final release.
