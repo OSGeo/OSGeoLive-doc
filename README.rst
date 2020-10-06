@@ -72,6 +72,15 @@ You might need to install `git` and `cmake` if they are not on your system yet.
    # Requirements for the presentation
    sudo apt-get install cpanminus
    sudo cpanm Text::SimpleTable::AutoWidth
+   
+   
+2.1 For Ubuntu 20.04 (Focal Fossa)
+To build onto Focal Fossa, you will need `specific packages <https://github.com/OSGeo/OSGeoLive-doc/blob/master/debian/control#L5-L12>`_:
+::
+   # Packages required for doc building on Ubuntu 20.04
+   sudo apt install debhelper python3-sphinx python3-stemmer python3-pil \
+   pngquant cmake libtext-simpletable-autowidth-perl \
+   python3-sphinxjp.themes.revealjs
 
 3. Clone or download OSGeoLive source documentation
 ::
