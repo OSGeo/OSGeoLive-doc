@@ -51,7 +51,7 @@ Creating my first Mapfile
 -------------------------
 
 #. Open any text editor (e.g. :menuselection:`Applications --> Accessories --> 
-   Leafpad`).
+   FeatherPad`).
 #. Create the file "mapserver_quickstart.map" in your home directory: 
    :file:`/home/user/mapserver_quickstart.map`
 
