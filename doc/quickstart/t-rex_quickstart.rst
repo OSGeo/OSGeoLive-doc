@@ -58,7 +58,7 @@ Cache seeding
 
 #. Close the browser and the terminal window running t-rex.
 #. Open any text editor (e.g. :menuselection:`Accessories -->
-   Leafpad`).
+   FeatherPad`).
 #. Create the file "ne.toml" in your home directory:
    :file:`/home/user/ne.toml`
 

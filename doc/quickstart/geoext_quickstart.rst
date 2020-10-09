@@ -23,15 +23,15 @@ We will be using the installed MapServer web services on OSGeoLive a MapServer t
 Create an HTML page
 ===================
 
-In this step we will set-up an empty HTML page which will contain the application. We'll use the text editor Leafpad installed on OSGeoLive to create a new HTML file at ``/var/www/html/geoext/demo.html`` 
+In this step we will set-up an empty HTML page which will contain the application. We'll use the text editor FeatherPad installed on OSGeoLive to create a new HTML file at ``/var/www/html/geoext/demo.html`` 
 
-#. Open Leafpad from the command line with elevated permissions (so you can save the file) using the command below:
+#. Open FeatherPad from the command line with elevated permissions, so you can save the file, using System Tools > QTerminal and then running run the command below:
 
    .. code-block:: bash
 
-    sudo leafpad
+    sudo featherpad
 
-#. Next paste in the HTML below. This contains links to the ExtJS and OpenLayers JavaScript libraries, and two CSS files used to style ExtJS and OpenLayers components. 
+#. Next paste in the HTML below, and save the file as ``/var/www/html/geoext/demo.html``. The file contains links to the ExtJS and OpenLayers JavaScript libraries, and two CSS files used to style ExtJS and OpenLayers components. 
 
    We will use the ``Ext.Loader`` class to load in GeoExt JavaScript source files. These are all in the ``src`` folder in ``/var/www/html/geoext/``. 
 
