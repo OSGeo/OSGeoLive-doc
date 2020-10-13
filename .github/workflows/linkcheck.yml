@@ -33,19 +33,19 @@ jobs:
       - name: print language
         run: |
           echo "Language:"
-          echo "${{ env.LANG_MSG }}"
+          echo "${{ LANG_MSG }}"
           echo "${{ github.event.head_commit.message }}"
-          echo "${{ env.commitmsg }}"
+          echo "${{ commitmsg }}"
 
       - name: Install python
-        if: contains(env.commitmsg, env.LANG_MSG) || matrix.language == 'en'
+        if: contains(commitmsg, LANG_MSG) || matrix.language == 'en'
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
 
 
       - name: Install dependencies
-        if: contains(env.commitmsg, env.LANG_MSG) || matrix.language == 'en'
+        if: contains(commitmsg, LANG_MSG) || matrix.language == 'en'
         run: |
           sudo apt-get update
           sudo apt-get install -y \
@@ -55,14 +55,14 @@ jobs:
           pip list
 
       - name: Configure link checks
-        if: contains(env.commitmsg, env.LANG_MSG) || matrix.language == 'en'
+        if: contains(commitmsg, LANG_MSG) || matrix.language == 'en'
         run: |
           mkdir build
           cd build
           cmake -DLINKCHECK=ON -DDE=ON -DES=ON -DFI=ON -DFR=ON -DHU=ON -DJA=ON -DIT=ON ..
 
       - name: Check Links languages
-        if: contains(env.commitmsg, env.LANG_MSG) || matrix.language == 'en'
+        if: contains(commitmsg, LANG_MSG) || matrix.language == 'en'
         run: |
           cd build
           make linkcheck-${{ matrix.language }}
