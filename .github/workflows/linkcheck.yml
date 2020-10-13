@@ -24,7 +24,8 @@ jobs:
 
       - name: get commit message
         run: |
-           echo ::set-env name=commitmsg::$(git log --format=%B -n 2)
+           commitmsg=$(git log --format=%B -n 2)
+           echo "commitmsg=$(commitmsg)" >> $GITHUB_ENV
 
       - name: show commit message
         run : echo $commitmsg
