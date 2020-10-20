@@ -12,10 +12,7 @@ jobs:
     strategy:
         fail-fast: false
         matrix:
-          language: [de, en,es,fi,fr,hu,ja,it]
-
-    env:
-        LANG_MSG: "[${{ matrix.language }}]"
+          language: [de,en,es,fi,fr,hu,ja,it]
 
     steps:
       - uses: actions/checkout@v2
@@ -24,27 +21,24 @@ jobs:
 
       - name: get commit message
         run: |
-           echo ::set-env name=commitmsg::$(git log --format=%B -n 2)
-
-      - name: show commit message
-        run : echo $commitmsg
-
-      - name: print language
-        run: |
-          echo "Language:"
-          echo "${{ env.LANG_MSG }}"
-          echo "${{ github.event.head_commit.message }}"
-          echo "${{ env.commitmsg }}"
-
+           PROCESS=${{ false }}
+           if [[ $(git log --format=%B -n 2 | tr -d "'" | tr -d " " | grep "\[${{ matrix.language }}\]") ]]; then
+             PROCESS=${{ true }}
+           fi
+           if [[ "${{ matrix.language }}" == "en" ]]; then
+             PROCESS=${{ true }}
+           fi
+           echo "PROCESS=${PROCESS}" >> $GITHUB_ENV
+           
       - name: Install python
-        if: contains(env.commitmsg, env.LANG_MSG) || matrix.language == 'en'
+        if: env.PROCESS == 'true'
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
 
 
       - name: Install dependencies
-        if: contains(env.commitmsg, env.LANG_MSG) || matrix.language == 'en'
+        if: env.PROCESS == 'true'
         run: |
           sudo apt-get update
           sudo apt-get install -y \
@@ -54,14 +48,14 @@ jobs:
           pip list
 
       - name: Configure link checks
-        if: contains(env.commitmsg, env.LANG_MSG) || matrix.language == 'en'
+        if: env.PROCESS == 'true'
         run: |
           mkdir build
           cd build
           cmake -DLINKCHECK=ON -DDE=ON -DES=ON -DFI=ON -DFR=ON -DHU=ON -DJA=ON -DIT=ON ..
 
       - name: Check Links languages
-        if: contains(env.commitmsg, env.LANG_MSG) || matrix.language == 'en'
+        if: env.PROCESS == 'true'
         run: |
           cd build
           make linkcheck-${{ matrix.language }}
