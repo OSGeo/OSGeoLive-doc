@@ -87,14 +87,14 @@ We will be using the installed MapServer web services on OSGeoLive a MapServer t
 </div>
 <div class="section" id="create-an-html-page">
 <h2><a class="toc-backref" href="#id1">Create an HTML page</a><a class="headerlink" href="#create-an-html-page" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>In this step we will set-up an empty HTML page which will contain the application. We’ll use the text editor Leafpad installed on OSGeoLive to create a new HTML file at <code class="docutils literal"><span class="pre">/var/www/html/geoext/demo.html</span></code></p>
+<p>In this step we will set-up an empty HTML page which will contain the application. We’ll use the text editor FeatherPad installed on OSGeoLive to create a new HTML file at <code class="docutils literal"><span class="pre">/var/www/html/geoext/demo.html</span></code></p>
 <ol class="arabic">
-<li><p class="first">Open Leafpad from the command line with elevated permissions (so you can save the file) using the command below:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>sudo leafpad
+<li><p class="first">Open FeatherPad from the command line with elevated permissions, so you can save the file, using System Tools &gt; QTerminal and then running run the command below:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>sudo featherpad
 </pre></div>
 </div>
 </li>
-<li><p class="first">Next paste in the HTML below. This contains links to the ExtJS and OpenLayers JavaScript libraries, and two CSS files used to style ExtJS and OpenLayers components.</p>
+<li><p class="first">Next paste in the HTML below, and save the file as <code class="docutils literal"><span class="pre">/var/www/html/geoext/demo.html</span></code>. The file contains links to the ExtJS and OpenLayers JavaScript libraries, and two CSS files used to style ExtJS and OpenLayers components.</p>
 <p>We will use the <code class="docutils literal"><span class="pre">Ext.Loader</span></code> class to load in GeoExt JavaScript source files. These are all in the <code class="docutils literal"><span class="pre">src</span></code> folder in <code class="docutils literal"><span class="pre">/var/www/html/geoext/</span></code>.</p>
 <div class="highlight-html"><div class="highlight"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
