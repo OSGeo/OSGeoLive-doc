@@ -11,6 +11,9 @@
 
 @LOGO_geonetwork@
 @OSGEO_KIND_geonetwork@
+@VMDK_geonetwork@
+
+
 
 
 ********************************************************************************

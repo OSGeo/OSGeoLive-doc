@@ -106,5 +106,6 @@ Details
 **Support:** http://www.spatialytics.org & http://www.spatialytics.com
 
 
+@VMDK_geokettle@
 @QUICKSTART_geokettle@
     

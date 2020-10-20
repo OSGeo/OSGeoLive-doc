@@ -6,6 +6,9 @@
 
 @LOGO_worldwindjava@
 @OSGEO_KIND_worldwindjava@
+@VMDK_worldwindjava@
+
+
 
 
 ********************************************************************************

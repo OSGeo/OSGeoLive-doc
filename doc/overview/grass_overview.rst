@@ -71,6 +71,7 @@ Details
 **Support:** https://grass.osgeo.org/about/community/
 
 
+@VMDK_grass@
 @QUICKSTART_grass@
 
 .. presentation-note

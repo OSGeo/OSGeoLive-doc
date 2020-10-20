@@ -55,5 +55,6 @@ Details
 **Support:** `www.wikisquare.de <http://www.wikisquare.de>`_ 
 
 
+@VMDK_atlasstyler@
 @QUICKSTART_atlasstyler@
 

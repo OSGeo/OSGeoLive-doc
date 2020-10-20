@@ -53,6 +53,7 @@ Details
 **Support:** https://www.osgeo.org/service-providers
 
 
+@VMDK_geomajas@
 @QUICKSTART_geomajas@
 
 .. presentation-note

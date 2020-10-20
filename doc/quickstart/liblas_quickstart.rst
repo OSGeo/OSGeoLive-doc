@@ -6,6 +6,9 @@
 
 @LOGO_liblas@
 @OSGEO_KIND_liblas@
+@VMDK_liblas@
+
+
 
 ********************************************************************************
 @NAME_liblas@ Quickstart

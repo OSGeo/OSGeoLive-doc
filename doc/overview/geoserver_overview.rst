@@ -84,6 +84,7 @@ Details
 
 **Support:** http://geoserver.org/support/
 
+@VMDK_geoserver@
 @QUICKSTART_geoserver@
 
 .. presentation-note

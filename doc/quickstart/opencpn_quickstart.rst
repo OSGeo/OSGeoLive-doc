@@ -6,6 +6,9 @@
 
 @LOGO_opencpn@
 @OSGEO_KIND_opencpn@
+@VMDK_opencpn@
+
+
 
 
 *************************

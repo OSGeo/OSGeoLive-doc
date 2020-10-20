@@ -5,6 +5,9 @@
 
 @LOGO_gpsprune@
 @OSGEO_KIND_gpsprune@
+@VMDK_gpsprune@
+
+
 
 ********************************************************************************
 @NAME_gpsprune@ Quickstart

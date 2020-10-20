@@ -9,6 +9,9 @@
 
 @LOGO_gvsig@
 @OSGEO_KIND_gvsig@
+@VMDK_gvsig@
+
+
 
 ********************************************************************************
 @NAME_gvsig@ Quickstart

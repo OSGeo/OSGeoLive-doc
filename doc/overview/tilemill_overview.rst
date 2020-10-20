@@ -92,5 +92,6 @@ Details
 **Support:** http://www.tilemill.com
 
 
+@VMDK_tilemill@
 @QUICKSTART_tilemill@
     

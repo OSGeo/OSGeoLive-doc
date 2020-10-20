@@ -99,6 +99,7 @@ Details
 .. _`OGC Compliant`: https://www.ogc.org/resource/products/details/?pid=1374
 .. _`OGC Reference Implementation`: https://demo.pycsw.org/
 
+@VMDK_pycsw@
 @QUICKSTART_pycsw@
 
 .. presentation-note

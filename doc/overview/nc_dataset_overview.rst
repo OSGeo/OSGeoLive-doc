@@ -65,6 +65,7 @@ Details
 
 **Support:** https://lists.osgeo.org/mailman/listinfo/geodata
 
+@VMDK_nc_dataset@
 @QUICKSTART_nc_dataset@
 
 .. presentation-note

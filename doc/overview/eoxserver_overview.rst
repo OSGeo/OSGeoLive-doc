@@ -81,6 +81,7 @@ Details
 
 **Support:** https://docs.eoxserver.org/en/latest/users/basics.html#where-can-i-get-support
 
+@VMDK_eoxserver@
 @QUICKSTART_eoxserver@
 
 .. presentation-note

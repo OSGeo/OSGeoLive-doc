@@ -15,6 +15,9 @@
 
 @LOGO_spatialite@
 @OSGEO_KIND_spatialite@
+@VMDK_spatialite@
+
+
 
 ********************************************************************************
 @NAME_spatialite@ Quickstart

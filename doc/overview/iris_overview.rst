@@ -52,5 +52,6 @@ Quickstart
 
 .. _`GitHub`: https://github.com/SciTools/iris
 
+@VMDK_iris@
 @QUICKSTART_iris@
 

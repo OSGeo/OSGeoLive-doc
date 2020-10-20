@@ -24,6 +24,9 @@
 
 @LOGO_postgis@
 @OSGEO_KIND_postgis@
+@VMDK_postgis@
+
+
 
 ********************************************************************************
 @NAME_postgis@ Quickstart

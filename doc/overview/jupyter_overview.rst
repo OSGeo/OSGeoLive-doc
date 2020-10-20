@@ -71,6 +71,7 @@ Details
 **Support:**  http://jupyter.org/community.html
 
 
+@VMDK_jupyter@
 @QUICKSTART_jupyter@
 
 .. presentation-note

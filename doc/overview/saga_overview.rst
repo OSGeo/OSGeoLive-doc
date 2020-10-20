@@ -66,6 +66,7 @@ Details
 **Support:** http://www.saga-gis.org
 
 
+@VMDK_saga@
 @QUICKSTART_saga@
 
 .. presentation-note

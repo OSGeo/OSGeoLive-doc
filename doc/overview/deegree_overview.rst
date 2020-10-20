@@ -121,6 +121,7 @@ Details
 **Support:** https://www.deegree.org/community
 
 
+@VMDK_deegree@
 @QUICKSTART_deegree@
 
 .. presentation-note
