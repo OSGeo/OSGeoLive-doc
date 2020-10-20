@@ -757,3 +757,14 @@ source_file = locale/pot/overview/mapcache_overview.pot
 source_lang = en
 type = PO
 
+[osgeolive.quickstart--geostyler_quickstart]
+file_filter = locale/<lang>/LC_MESSAGES/quickstart/geostyler_quickstart.po
+source_file = locale/pot/quickstart/geostyler_quickstart.pot
+source_lang = en
+type = PO
+
+[osgeolive.overview--geostyler_overview]
+file_filter = locale/<lang>/LC_MESSAGES/overview/geostyler_overview.po
+source_file = locale/pot/overview/geostyler_overview.pot
+source_lang = en
+type = PO
