@@ -8,6 +8,9 @@
 
 @LOGO_ideditor@
 @OSGEO_KIND_ideditor@
+@VMDK_ideditor@
+
+
 
 ********************************************************************************
 @NAME_ideditor@ Quickstart

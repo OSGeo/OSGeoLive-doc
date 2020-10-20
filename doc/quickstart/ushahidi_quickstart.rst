@@ -4,6 +4,9 @@
 
 @LOGO_ushahidi@
 @OSGEO_KIND_ushahidi@
+@VMDK_ushahidi@
+
+
 
 @NAME_ushahidi@ Quickstart
 ================================================================================

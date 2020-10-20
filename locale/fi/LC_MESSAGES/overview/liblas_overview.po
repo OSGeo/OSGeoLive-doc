@@ -6,15 +6,16 @@
 # Translators:
 # Santtu Pyykkönen, 2019
 # Vicky Vergara <vicky@georepublic.de>, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2019\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -77,17 +78,16 @@ msgstr ""
 "`LAStools`_-työkaluun"
 
 #: ../../build/doc/overview/liblas_overview.rst:42
-msgid "Coordinate reprojection via `GDAL <http://gdal.org>`__"
-msgstr ""
-"Koordinaatiston kääntäminen `GDAL <http://gdal.org>`__ työkalun avulla"
+msgid "Coordinate reprojection via `GDAL <https://gdal.org>`__"
+msgstr "Koordinoi uudelleenprojektio `GDAL <https://gdal.org>`__ kautta"
 
 #: ../../build/doc/overview/liblas_overview.rst:45
 msgid "Details"
 msgstr "Tiedot"
 
 #: ../../build/doc/overview/liblas_overview.rst:47
-msgid "**Website:** http://liblas.org"
-msgstr "**Verkkosivusto:** http://liblas.org"
+msgid "**Website:** https://liblas.org/"
+msgstr "**Verkkosivusto:** https://liblas.org/"
 
 #: ../../build/doc/overview/liblas_overview.rst:49
 msgid "**Licence:** BSD"
@@ -111,8 +111,9 @@ msgstr "**API-liittymät:** C, C++, python"
 
 #: ../../build/doc/overview/liblas_overview.rst:57
 msgid ""
-"**Support:** `Communication and Support <http://liblas.org/community.html>`_"
-msgstr "**Tuki:** `viestintä ja tuki <http://liblas.org/community.html>`_"
+"**Support:** `Communication and Support "
+"<https://liblas.org/community.html>`_"
+msgstr "**Tuki:** `Viestintä ja tuki <https://liblas.org/community.html>`_"
 
 #: ../../build/doc/overview/liblas_overview.rst:71
 msgid "Quickstart"

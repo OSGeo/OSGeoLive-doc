@@ -60,6 +60,7 @@ Details
 **API Interfaces:** C
 
 
+@VMDK_spatialite@
 @QUICKSTART_spatialite@
 
 .. presentation-note

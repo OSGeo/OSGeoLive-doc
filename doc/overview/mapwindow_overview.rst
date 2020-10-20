@@ -87,5 +87,6 @@ Details
 **Commercial Support:** http://www.mapwindow.nl, http://www.mapwindow.org/documentation/mapwindow5/support.html
 
 
+@VMDK_mapwindow@
 @QUICKSTART_mapwindow@
 

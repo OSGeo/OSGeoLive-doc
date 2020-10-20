@@ -57,6 +57,7 @@ Details
 **Supported Platforms:** GNU/Linux, Mac OSX, Windows
 
 
+@VMDK_gpsprune@
 @QUICKSTART_gpsprune@
 
 .. presentation-note

@@ -37,6 +37,7 @@ Details
 
 **Support:** https://lists.osgeo.org/mailman/listinfo/geodata
 
+@VMDK_netcdf@
 @QUICKSTART_netcdf@
 
 .. presentation-note

@@ -6,15 +6,16 @@
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Astrid Emde <astrid_emde@osgeo.org>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,7 +47,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:27
 msgid "Start 52°North WPS"
-msgstr ""
+msgstr "Starten Sie den 52°North WPS"
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:29
 msgid ""
@@ -64,6 +65,10 @@ msgid ""
 " following the steps at the bottom of the :doc:`SOS quickstart page "
 "<../quickstart/52nSOS_quickstart>`.)"
 msgstr ""
+"(Ist der Service nicht erreichbar, versuchen Sie den Tomcat Service zu "
+"starten. Folgen Sie dabei den einzelnen Schritten, wie es am Ende des "
+"Dokumentes :doc:`SOS Quickstart<../quickstart/52nSOS_quickstart>` "
+"beschrieben ist.)"
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:40
 msgid "Get information about the service"
@@ -96,6 +101,9 @@ msgid ""
 "Make sure that :doc:`GeoServer <../overview/geoserver_overview>` is running "
 "since the demonstration requires data from the local GeoServer installation."
 msgstr ""
+"Stellen Sie sicher, dass der :doc:`GeoServer "
+"<../overview/geoserver_overview>` gestartet ist, da die Demo Daten dieses "
+"lokalen Services verwendet."
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:56
 msgid ""
@@ -103,6 +111,10 @@ msgid ""
 " page could not be found, select |osgeolive-appmenupath-geoserver| in the "
 "menu. The GeoServer should be running after a few moments."
 msgstr ""
+"Sie können dies prüfen, indem Sie den folgenden Link aufrufen "
+"http://localhost:8082/geoserver/web. Wenn die Seite nicht angezeigt werden "
+"konnte, wählen Sie |osgeolive-appmenupath-geoserver| im Menü. GeoServer "
+"sollte nach einigen Augenblicken starten."
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:58
 msgid ""
@@ -181,10 +193,10 @@ msgstr ""
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:95
 msgid ""
 "Available in the 52°North wiki: "
-"https://wiki.52north.org/bin/view/Geoprocessing/GeoprocessingTutorials"
+"https://wiki.52north.org/Geoprocessing/GeoprocessingTutorials"
 msgstr ""
 "Verfügbar im 52°North Wiki: "
-"https://wiki.52north.org/bin/view/Geoprocessing/GeoprocessingTutorials"
+"https://wiki.52north.org/Geoprocessing/GeoprocessingTutorials"
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:97
 msgid "For further questions you can contact the 52°North WPS mailing list:"

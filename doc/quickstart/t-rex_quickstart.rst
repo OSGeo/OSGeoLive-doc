@@ -8,6 +8,9 @@
 
 @LOGO_t-rex@
 @OSGEO_KIND_t-rex@
+@VMDK_t-rex@
+
+
 
 ********************************************************************************
 @NAME_t-rex@ Quickstart
@@ -47,7 +50,7 @@ t-rex comes with built-in viewers for inspecting generated vector tiles.
 
 Try also the other viewers. 
 
-.. note:: The Mapbox GL viewer and and Maputnik require WebGL support, which is probably not available when running OSGeoLive in a VM.
+.. note:: The Mapbox GL viewer and Maputnik require WebGL support, which is probably not available when running OSGeoLive in a VM.
 
 
 Cache seeding
@@ -55,7 +58,7 @@ Cache seeding
 
 #. Close the browser and the terminal window running t-rex.
 #. Open any text editor (e.g. :menuselection:`Accessories -->
-   Leafpad`).
+   FeatherPad`).
 #. Create the file "ne.toml" in your home directory:
    :file:`/home/user/ne.toml`
 

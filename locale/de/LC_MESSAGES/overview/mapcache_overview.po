@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Astrid Emde <astrid_emde@osgeo.org>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2019-08-06 18:07+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -128,12 +129,12 @@ msgstr ""
 "Unterstützung zahlreicher Standards des Open Geospatial Consortium (OGC)"
 
 #: ../../build/doc/overview/mapcache_overview.rst:58
-msgid "`WMS <http://www.opengeospatial.org/standards/wms>`__"
-msgstr "`WMS <http://www.opengeospatial.org/standards/wms>`__"
+msgid "|WMS|"
+msgstr "|WMS|"
 
 #: ../../build/doc/overview/mapcache_overview.rst:59
-msgid "`WMTS <http://www.opengeospatial.org/standards/wmts>`__"
-msgstr "`WMTS <http://www.opengeospatial.org/standards/wmts>`__"
+msgid "|WMTS|"
+msgstr "|WMTS|"
 
 #: ../../build/doc/overview/mapcache_overview.rst:61
 msgid "Additional standards include:"
@@ -172,16 +173,16 @@ msgid "Details"
 msgstr "Details"
 
 #: ../../build/doc/overview/mapcache_overview.rst:80
-msgid "**Website:** https://mapserver.org/mapcache/"
-msgstr "**Webseite:** https://mapserver.org/mapcache/"
+msgid "**Website:** https://mapserver.org/mapcache"
+msgstr "**Webseite:** https://mapserver.org/mapcache"
 
 #: ../../build/doc/overview/mapcache_overview.rst:82
 msgid ""
 "**Licence:** `MIT-style license "
-"<http://mapserver.org/copyright.html#license>`_"
+"<https://mapserver.org/copyright.html#license>`_"
 msgstr ""
 "**Lizenz:** `MIT-style license "
-"<http://mapserver.org/copyright.html#license>`_"
+"<https://mapserver.org/copyright.html#license>`_"
 
 #: ../../build/doc/overview/mapcache_overview.rst:84
 msgid "**Software Version:** |version-mapcache|"
@@ -192,8 +193,8 @@ msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr "**Unterstützte Plattformen:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/mapcache_overview.rst:88
-msgid "**Support:** http://mapserver.org/community/"
-msgstr "**Support:** http://mapserver.org/community/"
+msgid "**Support:** https://mapserver.org/community/"
+msgstr "**Support:** https://mapserver.org/community/"
 
 #: ../../build/doc/overview/mapcache_overview.rst:92
 msgid "Quickstart"

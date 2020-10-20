@@ -49,6 +49,7 @@ Details
 **Support:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1
 
 
+@VMDK_gmt@
 @QUICKSTART_gmt@
 
 .. presentation-note

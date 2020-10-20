@@ -5,15 +5,16 @@
 # 
 # Translators:
 # CharlyUnicorn <charlotte.toma@wheregroup.com>, 2018
+# Andreas Schild <andreas.schild@bfw.gv.at>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:11+0000\n"
-"Last-Translator: CharlyUnicorn <charlotte.toma@wheregroup.com>, 2018\n"
+"Last-Translator: Andreas Schild <andreas.schild@bfw.gv.at>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -92,8 +93,8 @@ msgid "Details"
 msgstr "Details"
 
 #: ../../build/doc/overview/osm_overview.rst:54
-msgid "**Website:** https://www.openstreetmap.org"
-msgstr "**Webseite:** https://www.openstreetmap.org"
+msgid "**Website:** https://www.openstreetmap.org/"
+msgstr "**Webseite:** https://www.openstreetmap.org/"
 
 #: ../../build/doc/overview/osm_overview.rst:56
 msgid "**Licences:**"

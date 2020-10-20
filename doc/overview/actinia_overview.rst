@@ -48,6 +48,7 @@ Details
 
 **Support:** https://github.com/mundialis/actinia_core
 
+@VMDK_actinia@
 @QUICKSTART_actinia@
 
 .. presentation-note

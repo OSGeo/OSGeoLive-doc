@@ -6,15 +6,16 @@
 # Translators:
 # pibinko <pibinko@gmail.com>, 2018
 # Luca Delucchi <lucadeluge@gmail.com>, 2018
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-03 23:39-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2018\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr ""
 
 #: ../../build/doc/overview/jts_overview.rst:14
 msgid "JTS"
-msgstr ""
+msgstr "JTS"
 
 #: ../../build/doc/overview/jts_overview.rst:16
 msgid ""
@@ -137,8 +138,8 @@ msgid "Details"
 msgstr "Dettagli"
 
 #: ../../build/doc/overview/jts_overview.rst:63
-msgid "**Website:** ttps://www.locationtech.org/projects/technology.jts"
-msgstr "**Sito web:** ttps://www.locationtech.org/projects/technology.jts"
+msgid "**Website:** https://projects.eclipse.org/projects/locationtech.jts"
+msgstr "**Sito web:** https://projects.eclipse.org/projects/locationtech.jts"
 
 #: ../../build/doc/overview/jts_overview.rst:65
 msgid "**Licence:** LGPL"

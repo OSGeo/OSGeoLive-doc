@@ -6,6 +6,9 @@
 
 @LOGO_leaflet@
 @OSGEO_KIND_leaflet@
+@VMDK_leaflet@
+
+
 
 ********************************************************************************
 @NAME_leaflet@ Quickstart

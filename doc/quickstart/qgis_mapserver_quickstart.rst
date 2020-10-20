@@ -7,6 +7,9 @@
 
 @LOGO_qgis_mapserver@
 @OSGEO_KIND_qgi_mapservers@
+@VMDK_qgi_mapservers@
+
+
 
 
 ********************************************************************************

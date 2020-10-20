@@ -5,17 +5,18 @@
 # 
 # Translators:
 # Takayuki Nuimura <nuimura@nagoya-u.jp>, 2018
-# Vicky Vergara <vicky@georepublic.de>, 2019
 # Ko Nagase <nagase@georepublic.co.jp>, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:53-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-11-07 03:17+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,6 +37,7 @@ msgstr "最新の安定版リリースは  |osgeolive-version| でこちらか�
 msgid ""
 "https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version-only|/"
 msgstr ""
+"https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version-only|/"
 
 #: ../../build/doc/download.rst:14
 msgid "Picking the right image for you:"
@@ -62,10 +64,10 @@ msgstr "**osgeolive-vm**: |osgeolive-vm-7z-size|"
 msgid ""
 "This is a pre-made virtual machine (.vmdk), based on osgeolive, suitable for"
 " use in VirtualBox, VMWare, KVM and other virtual machine applications. It "
-"has been compressed using `7-Zip <http://www.7-zip.org/>`_."
+"has been compressed using `7-Zip <https://www.7-zip.org/>`_."
 msgstr ""
 "VirtualBox、VMWare、KVM などの仮想マシンに適した、OSGeoLiveに基づいて事前作成された仮想マシン(.vmdk)です。 "
-"`7-Zip <http://www.7-zip.org/>`_ で圧縮されています。"
+"`7-Zip <https://www.7-zip.org/>`_ で圧縮されています。"
 
 #: ../../build/doc/download.rst:24
 msgid "**amd64 or i386 architecture**"

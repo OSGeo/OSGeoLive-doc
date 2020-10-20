@@ -7,15 +7,16 @@
 # Peter Czaja <pczaja@gmx.de>, 2019
 # Astrid Emde <astrid_emde@osgeo.org>, 2020
 # John Kennedy <julius.krey@wheregroup.com>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: John Kennedy <julius.krey@wheregroup.com>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -82,10 +83,10 @@ msgstr ""
 #: ../../build/doc/quickstart/josm_quickstart.rst:44
 msgid ""
 "Download the file here: `sample.osm "
-"<http://learnosm.org/files/sample.osm>`__"
+"<https://learnosm.org/files/sample.osm>`__"
 msgstr ""
 "Laden wir nun diese Datei herunter: `sample.osm "
-"<http://learnosm.org/files/sample.osm>`__"
+"<https://learnosm.org/files/sample.osm>`__"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:45
 msgid ""
@@ -100,6 +101,8 @@ msgid ""
 "Find the file **sample.osm**. It is probably in your Downloads folder, "
 "unless you saved it somewhere else."
 msgstr ""
+"Finde die Datei **sample.osm**. Sie befindet sich wahrscheinlich im Ordner "
+"\"Downloads\", es sei denn Du hast sie woanders gespeichert."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:53
 msgid ""
@@ -154,7 +157,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:85
 msgid "Points, lines, and shapes"
-msgstr ""
+msgstr "Punkte, Linien und Flächen"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:87
 msgid ""
@@ -251,19 +254,24 @@ msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:123
 msgid "Changing objects"
-msgstr ""
+msgstr "Ändern von Objekten"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:125
 msgid ""
 "Select the forest on the left side of the map. Be sure to click on the line "
 "around the forest, not one of the points on the line."
 msgstr ""
+"Wähle den Wald auf der linken Seite der Karte aus. Achte darauf, auf die "
+"Linie um den Wald zu klicken, nicht auf einen der Punkte auf der Linie."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:127
 msgid ""
 "Now hold your left mouse button down and drag your mouse. You should be able"
 " to move the forest to a new location on the map."
 msgstr ""
+"Halte nun die linke Maustaste gedrückt und bewege die Maus. Du solltest nun "
+"in der Lage sein, den Wald an eine neue Position auf der Karte zu "
+"verschieben."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:128
 msgid ""
@@ -309,13 +317,15 @@ msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:150
 msgid "Before you draw, you need to make sure that nothing is selected."
-msgstr ""
+msgstr "Before you draw, you need to make sure that nothing is selected. "
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:152
 msgid ""
 "Click in the black space on the map, where it is empty, to make sure nothing"
 " is selected."
 msgstr ""
+"Klicke in den schwarzen leeren Bereich auf der Karte, um sicherzustellen, "
+"dass nichts ausgewählt ist."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:154
 msgid "Click on the second button, the Draw tool."
@@ -350,7 +360,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:170
 msgid "Add presets"
-msgstr ""
+msgstr "Vorlagen hinzufügen"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:172
 msgid ""
@@ -386,6 +396,10 @@ msgid ""
 "information. You do not have to fill in every field, but you may wish to add"
 " some of the important fields, such as the name of the object."
 msgstr ""
+"Wenn Du auf eine Vorlage klickst erscheint ein Formular, in dem Du nach "
+"weiteren Informationen gefragt wirst. Du musst nicht jedes Feld ausfüllen, "
+"aber kannst aber einige der wichtigen Felder hinzufügen, z. B. den Namen des"
+" Objekts."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:185
 msgid ""
@@ -400,7 +414,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:190
 msgid "Draw your own map"
-msgstr ""
+msgstr "Erstelle Deine eigene Karte"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:192
 msgid ""
@@ -479,20 +493,20 @@ msgstr "Was kommt als Nächstes?"
 #: ../../build/doc/quickstart/josm_quickstart.rst:217
 msgid ""
 "Try the LearnOSM documentation, from which this quickstart was derived: "
-"http://learnosm.org/en/josm/start-josm/"
+"https://learnosm.org/en/josm/start-josm/"
 msgstr ""
 "Probiere die LearnOSM-Dokumentation aus, aus der dieser Schnellstart "
-"abgeleitet wurde: http://learnosm.org/de/josm/start-josm/"
+"abgeleitet wurde: https://learnosm.org/de/josm/start-josm/"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:219
 msgid ""
 "In order to continue editing you first need to download real data. This is "
-"explained in the next chapter: http://learnosm.org/en/josm/more-about-josm/"
+"explained in the next chapter: https://learnosm.org/en/josm/more-about-josm/"
 msgstr ""
 "Um die Bearbeitung fortzusetzen, musst Du zunächst echte Daten "
 "herunterladen. Dies wird im nächsten Kapitel erläutert: "
-"http://learnosm.org/de/josm/more-about-josm/"
+"https://learnosm.org/en/josm/more-about-josm/"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:222
 msgid "Website: https://josm.openstreetmap.de/"
-msgstr ""
+msgstr "Webseite: https://josm.openstreetmap.de/"

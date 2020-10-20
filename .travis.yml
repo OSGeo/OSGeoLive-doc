@@ -27,9 +27,6 @@ install:
   - pip install sphinxjp.themes.revealjs
   - sudo cpanm -f -n Text::SimpleTable::AutoWidth
 
-env:
-  - LINKCHECK=ON
-  - LINKCHECK=OFF    
 
 script: 
   - mkdir build
@@ -45,5 +42,4 @@ deploy:
   local_dir:  build/doc/_build/html/
   verbose: true
   on:
-    - branch: master # switch to master when ok
-    - condition: $LINKCHECK=OFF
+    branch: master # switch to master when ok

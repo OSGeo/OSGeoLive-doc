@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-19 10:16-0500\n"
+"POT-Creation-Date: 2020-08-19 11:53-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,7 +75,7 @@ msgstr ""
 #: ../../build/doc/overview/grass_overview.rst:66
 msgid ""
 "Explore the `screenshot collection "
-"<ttps://grass.osgeo.org/learn/gallery/>`_."
+"<https://grass.osgeo.org/learn/gallery/>`_."
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:69

@@ -6,6 +6,9 @@
 
 @LOGO_ossim@
 @OSGEO_KIND_ossim@
+@VMDK_ossim@
+
+
 
 ********************************************************************************
 @NAME_ossim@ Quickstart

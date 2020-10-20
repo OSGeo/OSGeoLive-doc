@@ -5,17 +5,18 @@
 # 
 # Translators:
 # Takayuki Nuimura <nuimura@nagoya-u.jp>, 2018
-# Toshikazu SETO <tosseto@gmail.com>, 2019
 # Ko Nagase <nagase@georepublic.co.jp>, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-09-23 12:06-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,6 +34,8 @@ msgid ""
 "detailed on the `OSGeoLive Wiki "
 "<https://trac.osgeo.org/osgeolive#Communication>`_."
 msgstr ""
+"OSGeoLive の開発は、emailやインターネット・チャット (IRC) によってコーディネートされています。詳細については、`OSGeo "
+"Wiki <https://trac.osgeo.org/osgeolive#Communication>`_ を参照してください。"
 
 #: ../../build/doc/contact.rst:9
 msgid "Disclaimer"
@@ -72,18 +75,18 @@ msgstr "コミュニティサポート"
 msgid ""
 "If you have any questions, comments, or run into any problems, please drop "
 "us a note on `our mailing list "
-"<http://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
+"<https://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
 msgstr ""
-"もし何か質問やコメント、または動作で問題があれば `私たちのメーリングリスト "
-"<http://lists.osgeo.org/mailman/listinfo/osgeolive>`_ にその内容を投稿してください 。"
+"質問、コメント、または問題が発生した場合は、`私たちのメーリングリスト "
+"<https://lists.osgeo.org/mailman/listinfo/osgeolive>`_ にご連絡ください"
 
 #: ../../build/doc/contact.rst:29
 msgid ""
-"Searchable archives of the mailing list are hosted by `Nabble <http://osgeo-"
-"org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_."
+"Searchable archives of the mailing list are hosted by `Nabble <http://www"
+".osgeo-org.1560.x6.nabble.com/OSGeoLive-f3777350.html>`_."
 msgstr ""
-"メーリングリストの記事検索は `Nabble <http://osgeo-org.1560.x6.nabble.com/OSGeo-FOSS4G-"
-"LiveDVD-f3777350.html>`_ でホストされています。"
+"メーリングリストの記事検索は `Nabble <http://www.osgeo-"
+"org.1560.x6.nabble.com/OSGeoLive-f3777350.html>`_ でホストされています。"
 
 #: ../../build/doc/contact.rst:32
 msgid ""
@@ -96,18 +99,19 @@ msgstr ""
 #: ../../build/doc/contact.rst:35
 msgid ""
 "A wealth of information is available on our `Wiki site "
-"<http://wiki.osgeo.org/wiki/OSGeoLive>`_, and a `bug and wish tracking "
+"<https://trac.osgeo.org/osgeolive/wiki>`_, and a `bug and wish tracking "
 "system <https://trac.osgeo.org/osgeolive/report/10>`_ is also available."
 msgstr ""
-"豊富な情報は、私達の `Wiki サイト <http://wiki.osgeo.org/wiki/OSGeoLive>`_ や、 "
+"豊富な情報は、私達の `Wiki サイト <https://trac.osgeo.org/osgeolive/wiki>`_ や、 "
 "`バグ・要望トラッキングシステム <https://trac.osgeo.org/osgeolive/report/10>`_ をごらんください。"
 
 #: ../../build/doc/contact.rst:38
 msgid ""
 "Stay tuned and follow OSGeoLive on Twitter `@osgeolive "
-"<https:twitter.com/osgeolive>`_."
+"<https://mobile.twitter.com/osgeolive>`_."
 msgstr ""
-"OSGeoLiveのツイッターアカウントはこちらです．`@osgeolive <https:twitter.com/osgeolive>`_"
+"OSGeoLiveのツイッターアカウントはこちらです．`@osgeolive "
+"<https://mobile.twitter.com/osgeolive>`_"
 
 #: ../../build/doc/contact.rst:41
 msgid "Commercial Support"
@@ -129,4 +133,4 @@ msgid ""
 "/service-providers/ for one that meets your needs."
 msgstr ""
 "加えて、世界的にコンサルタント企業が多数あり、 OSGeo メンバーのプロジェクトに対して支援を提供しています。あなたのニーズを満たすために、 "
-"https://www.osgeo.org/service-providers/ をご覧ください。 "
+"https://www.osgeo.org/service-providers/  をご覧ください。 "

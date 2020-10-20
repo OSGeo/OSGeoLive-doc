@@ -64,6 +64,7 @@ and `License FAQ <https://github.com/geoext/geoext3/blob/master/LICENSE-FAQ.md>`
 **Support:** Mailing list https://www.geoext.org/cgi-bin/mailman/listinfo/users and https://stackoverflow.com/questions/tagged/geoext3
 
 
+@VMDK_geoext@
 @QUICKSTART_geoext@
 
 .. presentation-note

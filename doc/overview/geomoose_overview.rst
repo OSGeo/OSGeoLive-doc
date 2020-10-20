@@ -59,6 +59,7 @@ Details
 **Community Support:** https://www.geomoose.org/info/mailing_lists.html
 
 
+@VMDK_geomoose@
 @QUICKSTART_geomoose@
     
 .. presentation-note

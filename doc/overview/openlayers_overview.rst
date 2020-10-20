@@ -74,6 +74,7 @@ Details
 **Support:** https://stackoverflow.com/questions/tagged/openlayers (user) and https://groups.google.com/forum/#!forum/openlayers-dev (developer)
 
 
+@VMDK_openlayers@
 @QUICKSTART_openlayers@
 
 .. presentation-note

@@ -103,6 +103,7 @@ Details
 
 .. _gvSIG: @WEB_gvsig@
 
+@VMDK_gvsig@
 @QUICKSTART_gvsig@
 
 .. presentation-note

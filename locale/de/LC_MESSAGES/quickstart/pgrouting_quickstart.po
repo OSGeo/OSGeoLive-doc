@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Astrid Emde <astrid_emde@osgeo.org>, 2019
-# Vicky Vergara <vicky@georepublic.de>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,6 +32,10 @@ msgid ""
 "functionality to :doc:`PostGIS <../overview/postgis_overview>`/`PostgreSQL "
 "<https://www.postgresql.org>`_ databases."
 msgstr ""
+"pgRouting ist eine Erweiterung, die Routing und andere "
+"Netzwerkanalysefunktionen zu  :doc:`PostGIS "
+"<../overview/postgis_overview>`/`PostgreSQL <https://www.postgresql.org>`_ "
+"Datenbanken hinzufügt."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:23
 msgid ""
@@ -251,9 +255,11 @@ msgstr "Was kommt als Nächstes?"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:287
 msgid ""
-"**pgRouting Website** - Visit the project website https://www.pgrouting.org "
-"to learn more about pgRouting."
+"**pgRouting Website** - Visit the project website https://pgrouting.org to "
+"learn more about pgRouting."
 msgstr ""
+"**pgRouting-Webseite** - Besuchen Sie die Projektwebsite "
+"https://pgrouting.org, um mehr über pgRouting zu erfahren."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:288
 msgid ""

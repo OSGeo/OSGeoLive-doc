@@ -6,6 +6,9 @@
 
 @LOGO_rasdaman@
 @OSGEO_KIND_rasdaman@
+@VMDK_rasdaman@
+
+
 
 .. _rasdaman-quickstart:
 

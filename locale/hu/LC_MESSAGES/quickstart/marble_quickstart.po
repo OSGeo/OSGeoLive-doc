@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-03-25 17:45-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,32 +33,38 @@ msgid ""
 "globe (including OpenStreetMap), you are encouraged to include a KDE Marble "
 "widget in your application."
 msgstr ""
+"Marble egy nyílt forráskódú KDE oktatási projekt program, hasonló a  NASA "
+"World Wind-hez  vagy Google Földhöz. Tetszőleges számú térképet jeleníthet "
+"meg a földgömbön (többek között az OpenStreetMaps-et), arra bátorítjuk, hogy"
+" építse be az alkalmazásába a KDE Marble vezérlőt."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:27
 msgid "Start Marble"
-msgstr ""
+msgstr "Marble indítása"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:29
 msgid ""
 "On the desktop, choose :menuselection:`Navigation and Maps --> Marble`. You "
 "will see a window like this:"
 msgstr ""
+"Az asztalról válassza :menuselection:`Navigation and Maps --> Marble`-t. Egy"
+" ilyen ablakot lát:"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:36
 msgid "Change the display"
-msgstr ""
+msgstr "A megjelenítés megváltoztatása"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:38
 msgid "Scale the globe by rotating the wheel of your mouse."
-msgstr ""
+msgstr "Az egérgörgő forgatásával nagyíthatja a földgömböt."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:39
 msgid "To move around press the left button of your mouse and move it."
-msgstr ""
+msgstr "A mozgatáshoz nyomja le az egér bal gombját és mozgassa."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:41
 msgid "Marble has 11 different views (themes):"
-msgstr ""
+msgstr "A Marble-nak 11 különböző nézete (témája) van:"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:43
 msgid "Atlas"
@@ -108,14 +115,16 @@ msgid ""
 "Click one of entries in the \"Theme\" list in \"Map View\" tab to switch "
 "between them."
 msgstr ""
+"A témák közötti váltáshoz kattintson az egyik elemre a  \"Theme\" listában a"
+" \"Map View\" fülön."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:60
 msgid "Click a label in any place to view more information about it."
-msgstr ""
+msgstr "Kattintson egy címkére bárhol, hogy további információt kapjon arról."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:67
 msgid "Find a location"
-msgstr ""
+msgstr "Hely keresés"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:69
 msgid ""
@@ -128,29 +137,34 @@ msgstr ""
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:77
 msgid "Add a bookmark"
-msgstr ""
+msgstr "Könyvjelző hozzáadása"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:79
 msgid "Use bookmarks in Marble to remember the location of something."
 msgstr ""
+"A Marbel-ben használja a könyvjelzőket valami helyének a megjegyzésére."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:81
 msgid ""
 "To add a bookmark, press the left button of your mouse and click \"Add "
 "bookmark\". A window will appear like this:"
 msgstr ""
+"Egy könyvjelző hozzáadásához nyomja meg a bal egérgombot és kattintson az "
+"\"Add bookmark\"-ra. Ezután egy ilyen ablak jelenik meg:"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:86
 msgid "Write the name, description and destination folder of the bookmark"
-msgstr ""
+msgstr "Írja be a könyvjelző nevét, leírását és a cél mappát"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:87
 msgid "Click the \"Ok\" button. Then the bookmark will appear."
-msgstr ""
+msgstr "Kattintson az \"Ok\" gombra. Azután a könyvjelző megjelenik:"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:89
 msgid "To manage bookmarks, go to \"Bookmarks->Manage Bookmarks\"."
 msgstr ""
+"A könyvjelzők kezeléséhez menjen a \"Bookmarks->Manage Bookmarks\" "
+"menüponthoz."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:95
 msgid "Things to try"
@@ -161,6 +175,8 @@ msgid ""
 "Try to use the Routing feature. See the `Marble documentation "
 "<https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ for help."
 msgstr ""
+"Próbálja ki az útvonalkeresés funkciót. További segítségért lásd a `Marble "
+"dokumentációt <https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:101
 msgid "What next?"
@@ -170,3 +186,5 @@ msgstr "Mi a következő?"
 msgid ""
 "See the `Marble homepage <https://marble.kde.org/>`_ for more information."
 msgstr ""
+"Nézze meg a `Marble honlapot <https://marble.kde.org/>`_ további "
+"információkért."

@@ -51,9 +51,10 @@ Details
 
 **API Interfaces:** C++
 
-**Commercial Support:** http://www.osgeo.org/search_profile
+**Commercial Support:** https://www.osgeo.org/search_profile
 
 
+@VMDK_ossim@
 @QUICKSTART_ossim@
 
 .. presentation-note

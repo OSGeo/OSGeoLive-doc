@@ -7,6 +7,9 @@
 
 @LOGO_pgrouting@
 @OSGEO_KIND_pgrouting@
+@VMDK_pgrouting@
+
+
 
 ********************************************************************************
 @NAME_pgrouting@ Quickstart

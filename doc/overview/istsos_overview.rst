@@ -54,6 +54,7 @@ Details
 **Support:** https://groups.google.com/forum/#!forum/istsos
 
 
+@VMDK_istsos@
 @QUICKSTART_istsos@
     
 .. presentation-note

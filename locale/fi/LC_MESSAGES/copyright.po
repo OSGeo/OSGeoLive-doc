@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2018
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:53-0600\n"
+"POT-Creation-Date: 2020-09-23 09:57-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2018\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -111,7 +112,7 @@ msgstr "Ansion osoittaminen OSGeoLive dokumentaatiossa"
 #: ../../build/doc/copyright.rst:20
 msgid ""
 "As per the `terms of the Creative Commons license "
-"<https://wiki.creativecommons.org/Frequently_Asked_Questions#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_,"
+"<https://creativecommons.org/faq/#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_,"
 " if you include OSGeoLive documentation into a new document, you will need "
 "to attribute the contributors. Further, if Quickstarts are included, which "
 "are licenced under the `CC By-SA <https://creativecommons.org/licenses/by-"
@@ -119,15 +120,14 @@ msgid ""
 "under the `CC By-SA <https://creativecommons.org/licenses/by-sa/3.0/>`_."
 msgstr ""
 "Kuten `Creative Commons lisenssin ehdoissa "
-"<https://wiki.creativecommons.org/Frequently_Asked_Questions#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_,"
+"<https://creativecommons.org/faq/#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_,"
 " jos sisällytät OSGeoLive dokumentaation uuteen dokumenttiin, tulee sinun "
 "antaa avustajille arvoa.. Lisäksi jos  otat mukaan pika-aloituksia jotka on "
 "lisenssoitu käyttäen `CC By-SA <https://creativecommons.org/licenses/by-"
-"sa/3.0/deed.fi>`_ lisenssiä, niin uusi dokumentti tulee myös lisenssoida "
-"käyttäen lisenssiä `CC By-SA <https://creativecommons.org/licenses/by-"
-"sa/3.0/deed.fi>`_."
+"sa/3.0/>`_ lisenssiä, niin uusi dokumentti tulee myös lisenssoida käyttäen "
+"lisenssiä `CC By-SA <https://creativecommons.org/licenses/by-sa/3.0/>`_."
 
-#: ../../build/doc/copyright.rst:23
+#: ../../build/doc/copyright.rst:25
 msgid ""
 "Note that images are not necessarily provided under the same CC license as "
 "the text; check with the author."
@@ -135,89 +135,70 @@ msgstr ""
 "Huomaa etteivät kuvat välttämättä ole lisensoitu samalla CC lisenssillä kuin"
 " teksti; tarkista kirjoittajalta."
 
-#: ../../build/doc/copyright.rst:25
+#: ../../build/doc/copyright.rst:27
 msgid "You may use attribution text similar to one of the following:"
 msgstr "Voit käyttää ansion osoituksena jotain seuraavista teksteistä:"
 
-#: ../../build/doc/copyright.rst:27
+#: ../../build/doc/copyright.rst:29
 msgid "**Verbose, suitable for a 100 page thesis:**"
 msgstr "**Sanallinen, sopiva 100 sivuiseen tutkielmaan.**"
 
-#: ../../build/doc/copyright.rst:29
+#: ../../build/doc/copyright.rst:31
 msgid ""
 "|CC-By-SA-med| This document includes content from the \"gvSIG Quickstart\" "
 "created by Simon Cropper under the Creative Commons Attribution-ShareAlike "
 "3.0 Unported licence, https://creativecommons.org/licenses/by-sa/3.0/ "
-"available from the OSGeoLive project, "
-"http://live.osgeo.org/en/quickstart/gvsig_quickstart.html, and downloaded on"
-" 25 July 2011. The original work was translated from English to German."
+"available from the OSGeoLive project, :doc:`quickstart/gvsig_quickstart`, "
+"and downloaded on 25 July 2011. The original work was translated from "
+"English to German."
 msgstr ""
-"|CC-By-SA-med| Tämän dokumentin sisältö on \"gvSIG Pika-aloitus "
-"dokumentista\" jonka on kirjoittanut Simon Cropper ja on Creative Commons "
-"Nimeä-JaaSamoin 3.0 Ei sovitettu (CC BY-SA 3.0) lisenssin alainen, "
-"https://creativecommons.org/licenses/by-sa/3.0/deed.fi ja on saatavissa "
-"OSGeoLive projektista, "
-"http://live.osgeo.org/fi/quickstart/gvsig_quickstart.html, ja on ladattu 25 "
-"heinäkuuta 2011. Alkuperäinen työ on käännetty englannista saksaksi."
 
-#: ../../build/doc/copyright.rst:34
+#: ../../build/doc/copyright.rst:36
 msgid "**Concise CC-By-SA and attribution:**"
 msgstr "**Suppea CC-By-SA ja ansion osoittaminen:**"
 
-#: ../../build/doc/copyright.rst:36
+#: ../../build/doc/copyright.rst:38
 msgid ""
 "© 2011 [Your Name] under a `CC By SA License "
 "<https://creativecommons.org/licenses/by-sa/3.0/>`_.  [Derived "
-"from|Includes|Extends] `OSGeoLive <http://live.osgeo.org>`_ documentation by"
-" `OSGeoLive contributors <http://live.osgeo.org/en/copyright.html>`_."
+"from|Includes|Extends] :doc:`OSGeoLive <index>` documentation by "
+":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
-"© 2018 [Sinun Nimi] `CC By SA Lisenssillä "
-"<https://creativecommons.org/licenses/by-sa/3.0/deed.fi>`_.  "
-"[PeriytyyISisältää|Laajentaa] `OSGeoLive avustajien "
-"<http://live.osgeo.org/fi/copyright.html>`_ `OSGeoLive "
-"<http://live.osgeo.org>`_ documentaatiota."
 
-#: ../../build/doc/copyright.rst:38
+#: ../../build/doc/copyright.rst:40
 msgid "**Alternative Concise CC-By and attribution:**"
 msgstr "**Vaihtoehtoinen suppea CC-By-SA ja ansion osoittaminen:**"
 
-#: ../../build/doc/copyright.rst:40
+#: ../../build/doc/copyright.rst:42
 msgid ""
-"|CC-By-small| © 2011 [Your Name]. [Derived from|Includes|Extends] `OSGeoLive"
-" <http://live.osgeo.org>`_ Project Overviews by `OSGeoLive contributors "
-"<http://live.osgeo.org/en/copyright.html>`_."
+"|CC-By-small| © 2011 [Your Name]. [Derived from|Includes|Extends] "
+":doc:`OSGeoLive <index>` Project Overviews by :doc:`OSGeoLive contributors "
+"<copyright>`."
 msgstr ""
-"|CC-By-small| © 2018 [Sinun Nimi]. [Periytyy|Sisältää|Laajentaa] `OSGeoLive "
-"avustajien <http://live.osgeo.org/fi/copyright.html>`_ tekemiä `OSGeoLive "
-"<http://live.osgeo.org>`_ Projektien Yleiskatsauksia."
 
-#: ../../build/doc/copyright.rst:45
+#: ../../build/doc/copyright.rst:47
 msgid "**Minimum (for Project Overviews), attribution only:**"
 msgstr ""
 "**Minimi (Projektien yleiskatsaukset), ansion osoitukset ainoastaan:**"
 
-#: ../../build/doc/copyright.rst:47
+#: ../../build/doc/copyright.rst:49
 msgid ""
-"This document includes `OSGeoLive <http://live.osgeo.org>`_ Project "
-"Overviews by `OSGeoLive contributors "
-"<http://live.osgeo.org/en/copyright.html>`_."
+"This document includes :doc:`OSGeoLive <index>` Project Overviews by "
+":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
-"Tämä dokumentti sisältää  `OSGeoLive avustajien "
-"<http://live.osgeo.org/fi/copyright.html>`_ `OSGeoLive "
-"<http://live.osgeo.org>`_ Projektien yleiskatsaukset."
 
-#: ../../build/doc/copyright.rst:50
+#: ../../build/doc/copyright.rst:52
 msgid "Documentation Contributors"
 msgstr "Avustajat dokumentoinnissa"
 
-#: ../../build/doc/copyright.rst:52
+#: ../../build/doc/copyright.rst:54
 msgid ""
 "The table below credits the contributors for each of the documents on "
 "OSGeoLive."
 msgstr ""
 "Alla olevasta taulukko huomioi jokaisenOSGeoLive-dokumentin osallistujan."
 
-#: ../../build/doc/copyright.rst:54
+#: ../../build/doc/copyright.rst:56
 msgid "OSGeoLive Document Contributors"
 msgstr "OSGeoLive dokumentoinnin avustajat"
 
@@ -380,14 +361,13 @@ msgid "cartaro_overview"
 msgstr "cartaro_overview"
 
 #: ../../build/licenses.csv:1
-msgid ""
-"Friedjoff Trautwein, http://www.geops.de; Patric Hafner, http://www.geops.de"
+msgid "Friedjoff Trautwein, https://geops.de; Patric Hafner, https://geops.de"
 msgstr ""
-"Friedjoff Trautwein, http://www.geops.de; Patric Hafner, http://www.geops.de"
+"Friedjoff Trautwein, https://geops.de; Patric Hafner, https://geops.de"
 
 #: ../../build/licenses.csv:1
-msgid "Cameron Shorter, http://jirotech.com"
-msgstr "Cameron Shorter, http://jirotech.com"
+msgid "Cameron Shorter, https://www.jirotech.com"
+msgstr "Cameron Shorter, https://www.jirotech.com"
 
 #: ../../build/licenses.csv:1
 msgid "cesium_overview"
@@ -965,11 +945,11 @@ msgstr "cartaro_quickstart"
 
 #: ../../build/licenses.csv:1
 msgid ""
-"Friedjoff Trautwein (http://www.geops.de); Augustus Kling "
-"(http://www.geops.de); Patric Hafner (http://www.geops.de)"
+"Friedjoff Trautwein (https://geops.de); Augustus Kling (https://geops.de); "
+"Patric Hafner (https://geops.de)"
 msgstr ""
-"Friedjoff Trautwein (http://www.geops.de); Augustus Kling "
-"(http://www.geops.de); Patric Hafner (http://www.geops.de)"
+"Friedjoff Trautwein (https://geops.de); Augustus Kling (https://geops.de); "
+"Patric Hafner (https://geops.de)"
 
 #: ../../build/licenses.csv:1
 msgid "cesium_quickstart"
@@ -1433,11 +1413,11 @@ msgstr "webworldwind_quickstart"
 
 #: ../../build/licenses.csv:1 ../../build/licenses.csv:1
 msgid ""
-"`NASA OPEN SOURCE AGREEMENT VERSION 1.3 <http://worldwind.arc.nasa.gov"
-"/worldwind-nosa-1.3.html/>`_"
+"`NASA OPEN SOURCE AGREEMENT VERSION 1.3 "
+"<https://opensource.org/licenses/NASA-1.3>`_"
 msgstr ""
-"`NASA AVOIMEN LÄHDEKOODIN SOPIMUS VERSIO 1.3 <http://worldwind.arc.nasa.gov"
-"/worldwind-nosa-1.3.html/>`_"
+"`NASA AVOIMEN LÄHDEKOODIN SOPIMUS VERSIO 1.3 "
+"<https://opensource.org/licenses/NASA-1.3>`_"
 
 #: ../../build/licenses.csv:1
 msgid "worldwindjava_quickstart"
@@ -1455,11 +1435,11 @@ msgstr "Angelos Tzotsos; Cameron Shorter, Jirotech"
 msgid "zygrib_quickstart"
 msgstr "zygrib_quickstart"
 
-#: ../../build/doc/copyright.rst:59
+#: ../../build/doc/copyright.rst:61
 msgid "Disclaimer"
 msgstr "Vastuuvapauslauseke"
 
-#: ../../build/doc/copyright.rst:61
+#: ../../build/doc/copyright.rst:63
 msgid ""
 "*The contents of OSGeoLive are provided by the copyright holders and "
 "contributors \"as is\" and any express or implied warranties, including, but"

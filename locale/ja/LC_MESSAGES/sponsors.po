@@ -5,15 +5,17 @@
 # 
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2019
+# MarPetra <mvergaratrejo@gmail.com>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,11 +23,11 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../build/doc/sponsors.rst:2
-msgid "OSGeoLive Sponsors"
-msgstr "OSGeoLive スポンサー"
+#: ../../build/doc/sponsors.rst:1
+msgid "OSGeoLive Sponsors kea"
+msgstr "OSGeoLiveスポンサー"
 
-#: ../../build/doc/sponsors.rst:8
+#: ../../build/doc/sponsors.rst:10
 msgid ""
 "The Open Source Geospatial Foundation (OSGeo) provides the primary "
 "development & hosting infrastructure and personnel for the project, and for "
@@ -34,27 +36,27 @@ msgstr ""
 "オープンソース地理空間財団 (OSGeo) "
 "は主要な開発やインフラのホスト、プロジェクトの要員を提供し、これに貢献する多くのソフトウェアチームのためにあります。"
 
-#: ../../build/doc/sponsors.rst:16
+#: ../../build/doc/sponsors.rst:18
 msgid ""
 "Information Center for the Environment at the University of California, "
 "Davis provides hardware resources and development support to the OSGeoLive "
 "project."
 msgstr "カリフォルニア大学デイビス校環境情報センターは、OSGeoLiveプロジェクトへのハードウェア資源と開発支援を提供しています。"
 
-#: ../../build/doc/sponsors.rst:25
+#: ../../build/doc/sponsors.rst:27
 msgid ""
 "Remote Sensing Laboratory at the National Technical University of Athens, "
 "provides hardware resources and development support to the OSGeoLive "
 "project."
 msgstr "アテネ工科大学リモートセンシング研究室は、OSGeoLiveプロジェクトへのハードウェア資源と開発支援を提供しています。"
 
-#: ../../build/doc/sponsors.rst:33
+#: ../../build/doc/sponsors.rst:35
 msgid ""
 "The DebianGIS and UbuntuGIS projects provide and quality-assure many of the "
 "core packages."
 msgstr "DebianGISとUbuntuGISプロジェクトは、コアパッケージの多くを提供し品質を保証します。"
 
-#: ../../build/doc/sponsors.rst:40
+#: ../../build/doc/sponsors.rst:42
 msgid ""
 "Okeanos is the Greek Academic cloud service (IaaS) which is providing "
 "virtualized computing resources free of charge to the Greek Universities and"
@@ -67,7 +69,7 @@ msgstr ""
 "(Synnefo、Google Ganetiなど)上に構築されています。Okeanos は OSGeoLive "
 "のISOイメージをビルドするための仮想マシンを、好意で提供しています。"
 
-#: ../../build/doc/sponsors.rst:52
+#: ../../build/doc/sponsors.rst:53
 msgid ""
 "Georepublic is a Geolocation Technology Company, that embraces the idea of "
 "Free Software, and provide support and custom development for Open Source "
@@ -86,12 +88,13 @@ msgstr "*オープンソース地理空間で、すべての人に力を*"
 
 #: ../../build/doc/sponsors_osgeo.rst:11
 msgid ""
-"The `Open Source Geospatial Foundation (OSGeo) <http://osgeo.org>`__ is a "
-"not-for-profit organization whose mission is to foster global adoption of "
-"open geospatial technology by being an inclusive software foundation devoted"
-" to an open philosophy and participatory community driven development."
+"The `Open Source Geospatial Foundation (OSGeo) <https://www.osgeo.org>`__ is"
+" a not-for-profit organization whose mission is to foster global adoption of"
+" open geospatial technology by being an inclusive software foundation "
+"devoted to an open philosophy and participatory community driven "
+"development."
 msgstr ""
-"`オープンソース地理空間財団 (OSGeo) <http://osgeo.org>`__ "
+"`オープンソース地理空間財団 (OSGeo) <https://www.osgeo.org>`__ "
 "は非営利組織であり、その使命は、オープンな哲学と、全員参加のコミュニティー駆動の開発に献身的な、包括的なソフトウェア財団であることによって、オープンな地理空間技術の世界的な採択を育むことです。"
 
 #: ../../build/doc/sponsors_osgeo.rst:17
@@ -100,41 +103,41 @@ msgstr "OSGeoのアウトリーチや活動に含まれるもの:"
 
 #: ../../build/doc/sponsors_osgeo.rst:19
 msgid ""
-"`Local Chapters <http://www.osgeo.org/content/chapters/index.html>`__: "
-"Local, regional and language groups support grass roots activities."
+"`Local Chapters <https://www.osgeo.org/local-chapters>`__: Local, regional "
+"and language groups support grass roots activities."
 msgstr ""
-"`ローカルチャプター <http://www.osgeo.org/content/chapters/index.html>`__: "
+"`ローカルチャプター <https://www.osgeo.org/local-chapters>`__: "
 "各地・各言語で草の根活動を支援するグループです。"
 
 #: ../../build/doc/sponsors_osgeo.rst:20
 msgid ""
-"`GeoForAll <http://www.geoforall.org>`_: Over 100 educational labs from "
-"around the world who work with partners to make geospatial education and "
-"opportunities accessible to all."
+"`GeoForAll <https://www.osgeo.org/initiatives/geo-for-all>`__: Over 100 "
+"educational labs from around the world who work with partners to make "
+"geospatial education and opportunities accessible to all."
 msgstr ""
-"`GeoForAll <http://www.geoforall.org>`_: "
+"`GeoForAll <https://www.osgeo.org/initiatives/geo-for-all>`__: "
 "世界中で100を超える教育研究機関が、パートナーとともに、地理空間教育と機会を誰もが利用できるようにしています。"
 
 #: ../../build/doc/sponsors_osgeo.rst:21
 msgid ""
-"`OSGeoLive <http://live.osgeo.org>`__: A distribution of established "
+"`OSGeoLive <https://live.osgeo.org>`__: A distribution of established "
 "geospatial open source software, pre-configured with sample data and "
 "quickstarts, ready to try out."
 msgstr ""
-"`OSGeoLive <http://live.osgeo.org>`__: "
+"`OSGeoLive <https://live.osgeo.org>`__: "
 "地理空間オープンソースソフトウェア、事前設定のサンプルデータ、クイックスタートによって構成されたディストリビューションで、試す準備ができています。"
 
 #: ../../build/doc/sponsors_osgeo.rst:22
 msgid ""
-"`FOSS4G <http://foss4g.org>`_: Annual, international conference for *Free "
+"`FOSS4G <https://foss4g.org>`_: Annual, international conference for *Free "
 "and Open Source Software for Geospatial*, as well as many regional and local"
-" `events <http://www.osgeo.org/events>`_."
+" `events <https://www.osgeo.org/events>`_."
 msgstr ""
-"`FOSS4G <http://foss4g.org>`_: *地理空間のためのフリーでオープンなソフトウェア* "
-"のために毎年開催される国際カンファレンスで、多くの地域でも同様の `イベント <http://www.osgeo.org/events>`_ "
+"`FOSS4G <https://foss4g.org>`_: *地理空間のためのフリーでオープンなソフトウェア* "
+"のために毎年開催される国際カンファレンスで、多くの地域でも同様の `イベント <https://www.osgeo.org/events>`_. "
 "が開催されています。"
 
-#: ../../build/doc/sponsors.rst:58
+#: ../../build/doc/sponsors.rst:59
 msgid "Contributors"
 msgstr "貢献者"
 
@@ -782,15 +785,15 @@ msgstr "fschindler"
 
 #: ../../build/contributors.csv:1
 msgid "Felicity Brand"
-msgstr ""
+msgstr "Felicity Brand"
 
 #: ../../build/contributors.csv:1
 msgid "felicitybrand gmail com"
-msgstr ""
+msgstr "felicitybrand gmail com"
 
 #: ../../build/contributors.csv:1
 msgid "flicstar"
-msgstr ""
+msgstr "flicstar"
 
 #: ../../build/contributors.csv:1
 msgid "Fran Boon"
@@ -1860,7 +1863,7 @@ msgstr "Hungary"
 msgid "Siki"
 msgstr "Siki"
 
-#: ../../build/doc/sponsors.rst:68
+#: ../../build/doc/sponsors.rst:69
 msgid "Translators"
 msgstr "翻訳者"
 
@@ -2883,56 +2886,56 @@ msgstr "tanner"
 
 #: ../../build/translators.csv:1
 msgid "Swedish"
-msgstr ""
+msgstr "スウェーデン語"
 
 #: ../../build/translators.csv:1
 msgid "sv"
-msgstr ""
+msgstr "Sv"
 
 #: ../../build/translators.csv:1
 msgid "Anne Elise Ylinen"
-msgstr ""
+msgstr "Anne Elise Ylinen"
 
 #: ../../build/translators.csv:1
 msgid "aeylinen gmail.com"
-msgstr ""
+msgstr "aeylinen gmail.com"
 
 #: ../../build/translators.csv:1
 msgid "Aeylinen"
-msgstr ""
+msgstr "Aeylinen"
 
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 msgid "Romanian"
-msgstr ""
+msgstr "ルーマニア語"
 
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 msgid "ro"
-msgstr ""
+msgstr "Ro"
 
 #: ../../build/translators.csv:1
 msgid "Ionut Ungurianu"
-msgstr ""
+msgstr "Ionut Ungurianu"
 
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 msgid "Romania"
-msgstr ""
+msgstr "ルーマニア"
 
 #: ../../build/translators.csv:1
 msgid "ionutungurianu gmail com"
-msgstr ""
+msgstr "ionutungurianu gmail com"
 
 #: ../../build/translators.csv:1
 msgid "iungurianu"
-msgstr ""
+msgstr "iungurianu"
 
 #: ../../build/translators.csv:1
 msgid "Alin Deneanu"
-msgstr ""
+msgstr "Alin Deneanu"
 
 #: ../../build/translators.csv:1
 msgid "alin.deneanu gmail com"
-msgstr ""
+msgstr "alin.deneanu gmail com"
 
 #: ../../build/translators.csv:1
 msgid "alindeneanu"
-msgstr ""
+msgstr "alindeneanu"

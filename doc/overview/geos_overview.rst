@@ -56,6 +56,7 @@ Details
 
 **Support:** https://lists.osgeo.org/mailman/listinfo/geos-devel, https://www.osgeo.org/service-providers
 
+@VMDK_geos@
 @QUICKSTART_geos@
 
 .. presentation-note

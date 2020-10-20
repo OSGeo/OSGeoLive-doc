@@ -54,6 +54,7 @@ Details
 **Commercial Support:** https://www.qgis.org/en/site/forusers/commercial_support.html
 
 
+@VMDK_qgis_mapserver@
 @QUICKSTART_qgis_mapserver@
 
 .. presentation-note

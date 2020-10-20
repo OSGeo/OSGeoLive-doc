@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-09-23 12:06-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,6 +32,9 @@ msgid ""
 "detailed on the `OSGeoLive Wiki "
 "<https://trac.osgeo.org/osgeolive#Communication>`_."
 msgstr ""
+"Az OSGeoLive fejlesztést emailen és internetes csevegőn (IRC) keresztül "
+"koordináljuk, amint azt az `OSGeo Wiki "
+"<https://trac.osgeo.org/osgeolive#Communication>`_ oldalon részletezzük."
 
 #: ../../build/doc/contact.rst:9
 msgid "Disclaimer"
@@ -79,19 +83,19 @@ msgstr "Közösségi támogatás"
 msgid ""
 "If you have any questions, comments, or run into any problems, please drop "
 "us a note on `our mailing list "
-"<http://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
+"<https://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
 msgstr ""
 "Ha bármilyen kérdése, észrevétele van, vagy bármilyen problémába ütközne, "
 "küldjön nekünk egy üzenetet a `levelezőlistánkon "
-"<http://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
+"<https://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
 
 #: ../../build/doc/contact.rst:29
 msgid ""
-"Searchable archives of the mailing list are hosted by `Nabble <http://osgeo-"
-"org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_."
+"Searchable archives of the mailing list are hosted by `Nabble <http://www"
+".osgeo-org.1560.x6.nabble.com/OSGeoLive-f3777350.html>`_."
 msgstr ""
-"A levelezőlista kereshető archívumát a `Nabble <http://osgeo-"
-"org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>_` tárolja."
+"A levelezőlista kereshető archívumát a `Nabble <http://www.osgeo-"
+"org.1560.x6.nabble.com/OSGeoLive-f3777350.html>_` tárolja."
 
 #: ../../build/doc/contact.rst:32
 msgid ""
@@ -105,20 +109,20 @@ msgstr ""
 #: ../../build/doc/contact.rst:35
 msgid ""
 "A wealth of information is available on our `Wiki site "
-"<http://wiki.osgeo.org/wiki/OSGeoLive>`_, and a `bug and wish tracking "
+"<https://trac.osgeo.org/osgeolive/wiki>`_, and a `bug and wish tracking "
 "system <https://trac.osgeo.org/osgeolive/report/10>`_ is also available."
 msgstr ""
-"A `Wiki oldalon <http://wiki.osgeo.org/wiki/OSGeoLive>_` rengeteg információ"
-" érhető el, valamint egy `hiba és kívánság követő rendszer "
-"https://trac.osgeo.org/osgeolive/report/10<>_` is megtalálható."
+"A `Wiki oldalon <https://trac.osgeo.org/osgeolive/wiki>_` rengeteg "
+"információ érhető el, valamint egy `hiba és kívánság követő rendszer "
+"<https://trac.osgeo.org/osgeolive/report/10>`_  is megtalálható."
 
 #: ../../build/doc/contact.rst:38
 msgid ""
 "Stay tuned and follow OSGeoLive on Twitter `@osgeolive "
-"<https:twitter.com/osgeolive>`_."
+"<https://mobile.twitter.com/osgeolive>`_."
 msgstr ""
 "Maradjon velünk és kövesse az OSGeoLive-ot a Twitter-en `@osgeolive "
-"<https:twitter.com/osgeolive>`_."
+"<https://mobile.twitter.com/osgeolive>`_."
 
 #: ../../build/doc/contact.rst:41
 msgid "Commercial Support"

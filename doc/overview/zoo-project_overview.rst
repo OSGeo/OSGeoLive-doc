@@ -84,6 +84,7 @@ Details
 **Support:** http://zoo-project.org/
 
 
+@VMDK_zoo-project@
 @QUICKSTART_zoo-project@
 
 .. presentation-note

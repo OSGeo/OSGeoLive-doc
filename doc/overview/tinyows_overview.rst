@@ -56,5 +56,6 @@ Details
 **Support:** http://lists.osgeo.org/mailman/listinfo/mapserver-users
 
 
+@VMDK_tinyows@
 @QUICKSTART_tinyows@
 

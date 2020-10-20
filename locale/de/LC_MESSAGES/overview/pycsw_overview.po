@@ -6,15 +6,16 @@
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Astrid Emde <astrid_emde@osgeo.org>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,19 +61,11 @@ msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:28
 msgid ""
-"pycsw is a `Python`_ implementation of the `OGC Catalogue Services for the "
-"Web (CSW) standard <https://www.opengeospatial.org/standards/cat>`__. The "
-"project is certified `OGC Compliant`_, and is an `OGC Reference "
-"Implementation`_. The CSW standard defines common interfaces to discover, "
-"browse and query metadata about spatial data, web services and related "
-"resources."
+"pycsw is a `Python`_ implementation of the |CSW|. The project is certified "
+"`OGC Compliant`_, and is an `OGC Reference Implementation`_. The CSW "
+"standard defines common interfaces to discover, browse and query metadata "
+"about spatial data, web services and related resources."
 msgstr ""
-"pycsw ist eine `Python`_ Implementierung des `OGC Catalogue Services für Web"
-" (CSW) Standards <https://www.opengeospatial.org/standards/cat>`__. Das "
-"Projekt ist `OGC Compliant`_ zertifiziert, und ist eine `OGC Referenz-"
-"Implementierung`_. Der CSW Standard definiert gängige Oberflächen zum "
-"Entdecken, Durchsuchen und Abfragen von Metadaten nach räumlichen Daten, "
-"Diensten und vergleichbaren Quellen."
 
 #: ../../build/doc/overview/pycsw_overview.rst:30
 msgid ""
@@ -194,24 +187,24 @@ msgid "OGC Standards:"
 msgstr "OGC Standards:"
 
 #: ../../build/doc/overview/pycsw_overview.rst:71
-msgid "CSW   2.0.2, 3.0.0"
-msgstr "CSW   2.0.2, 3.0.0"
+msgid "|CSW|         2.0.2, 3.0.0"
+msgstr "|CSW|         2.0.2, 3.0.0"
 
 #: ../../build/doc/overview/pycsw_overview.rst:72
-msgid "Filter        1.1.0, 2.0.0"
-msgstr "Filter        1.1.0, 2.0.0"
+msgid "|FE|          1.1.0, 2.0.0"
+msgstr "|FE|          1.1.0, 2.0.0"
 
 #: ../../build/doc/overview/pycsw_overview.rst:73
 msgid "OWS Common    1.0.0, 2.0.0"
 msgstr "OWS Common    1.0.0, 2.0.0"
 
 #: ../../build/doc/overview/pycsw_overview.rst:74
-msgid "GML   3.1.1"
-msgstr "GML   3.1.1"
+msgid "|GML|         3.1.1"
+msgstr "|GML|         3.1.1"
 
 #: ../../build/doc/overview/pycsw_overview.rst:75
-msgid "OGC SFSQL     1.2.1"
-msgstr "OGC SFSQL     1.2.1"
+msgid "|SFS|         1.2.1"
+msgstr "|SFS|         1.2.1"
 
 #: ../../build/doc/overview/pycsw_overview.rst:76
 msgid "OGC OpenSearch  1.0"
@@ -270,8 +263,8 @@ msgid "Details"
 msgstr "Details"
 
 #: ../../build/doc/overview/pycsw_overview.rst:95
-msgid "**Website:** https://pycsw.org"
-msgstr "**Webseite:** https://pycsw.org"
+msgid "**Website:** https://pycsw.org/"
+msgstr "**Webseite:** https://pycsw.org/"
 
 #: ../../build/doc/overview/pycsw_overview.rst:97
 msgid "**Licence:** `MIT`_"
@@ -290,8 +283,8 @@ msgid "**API Interfaces:** Python"
 msgstr "**API Schnittstellen:** Python"
 
 #: ../../build/doc/overview/pycsw_overview.rst:105
-msgid "**Support:** https://pycsw.org/docs/support.html"
-msgstr "**Support:** https://pycsw.org/docs/support.html"
+msgid "**Support:** |SUPPORT|"
+msgstr "**Support:** |SUPPORT|"
 
 #: ../../build/doc/overview/pycsw_overview.rst:114
 msgid "Quickstart"

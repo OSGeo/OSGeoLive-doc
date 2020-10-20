@@ -6,15 +6,16 @@
 # Translators:
 # John Kennedy <julius.krey@wheregroup.com>, 2018
 # Astrid Emde <astrid_emde@osgeo.org>, 2018
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2018\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -160,14 +161,14 @@ msgstr "**Tiling Cache**"
 
 #: ../../build/doc/overview/geoserver_overview.rst:61
 msgid ""
-"`GeoWebCache <http://geowebcache.org/>`_, which is integrated into "
+"`GeoWebCache <https://www.geowebcache.org>`_, which is integrated into "
 "GeoServer, tiles and caches map images from a variety of sources such as "
 "WMS. It implements various service interfaces (such as WMS-C, WMTS, TMS, "
 "Google Maps KML, Virtual Earth) in order to accelerate and optimize map "
 "image delivery. It can also recombine tiles to work with regular WMS "
 "clients."
 msgstr ""
-"`GeoWebCache <http://geowebcache.org/>`_ wurde in GeoServer integriert. "
+"`GeoWebCache <https://www.geowebcache.org>`_ wurde in GeoServer integriert. "
 "GeoWebCache kachelt und legt eine Zwischenspeicher von Kartenbilder von "
 "einer Vielzahl von Quellen beispielweise WMS an. Es wurden verschiedene "
 "Service Interfaces geschaffen (WMS-C, WMTS, TMS, Google Maps KML, Virtual "
@@ -182,17 +183,14 @@ msgstr "**Web Processing Service (WPS)**"
 #: ../../build/doc/overview/geoserver_overview.rst:64
 msgid ""
 "Geospatial algorithms, including those from :doc:`JTS <jts_overview>`, can "
-"be called through GeoServer's `WPS "
-"<http://www.opengeospatial.org/standards/wps>`__ interface. This includes "
-"the chaining of processes, and using rendering transformations to create "
-"powerful visualisations through the WMS interface."
+"be called through GeoServer's |WPS| interface. This includes the chaining of"
+" processes, and using rendering transformations to create powerful "
+"visualisations through the WMS interface."
 msgstr ""
 "Räumliche Algorithmen, inklusive der :doc:`JTS <jts_overview>` Algorithme, "
-"können über GeoServer's `WPS "
-"<http://www.opengeospatial.org/standards/wps>`__  Interface aufgerufen "
-"werden. Dies beinhaltet das Verketten von Prozessen und verwendet "
-"Renderingtransformationen, um eine beeindruckende Darstellung durch das WMS "
-"Interface zu erzeugen."
+"können über GeoServer's |WPS|  Interface aufgerufen werden. Dies beinhaltet "
+"das Verketten von Prozessen und verwendet Renderingtransformationen, um eine"
+" beeindruckende Darstellung durch das WMS Interface zu erzeugen."
 
 #: ../../build/doc/overview/geoserver_overview.rst:67
 msgid "Implemented Standards"
@@ -203,38 +201,36 @@ msgid "Support of numerous Open Geospatial Consortium  (OGC) standards:"
 msgstr "Unterstützung zahlreicher Open Geospatial Consortium (OGC) Standards:"
 
 #: ../../build/doc/overview/geoserver_overview.rst:73
-msgid "`WMS <http://www.opengeospatial.org/standards/wms>`__ (client/server)"
-msgstr "`WMS <http://www.opengeospatial.org/standards/wms>`__ (Client/Server)"
+msgid "|WMS| (client/server)"
+msgstr "|WMS| (Client/Server)"
 
 #: ../../build/doc/overview/geoserver_overview.rst:74
-msgid "Web Map Tile Service (WMTS)"
-msgstr "Web Map Tile Service (WMTS)"
+msgid "|WMTS|"
+msgstr "|WMTS|"
 
 #: ../../build/doc/overview/geoserver_overview.rst:75
-msgid ""
-"`WFS-T <http://www.opengeospatial.org/standards/wfs>`__ (transactional)"
-msgstr ""
-"`WFS-T <http://www.opengeospatial.org/standards/wfs>`__ (transactional)"
+msgid "|WFS| (transactional)"
+msgstr "|WFS| (transaktional)"
 
 #: ../../build/doc/overview/geoserver_overview.rst:76
-msgid "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
-msgstr "`WCS <http://www.opengeospatial.org/standards/wcs>`__"
+msgid "|WCS|"
+msgstr "|WCS|"
 
 #: ../../build/doc/overview/geoserver_overview.rst:77
-msgid "`FE <http://www.opengeospatial.org/standards/fe>`__"
-msgstr "`FE <http://www.opengeospatial.org/standards/fe>`__"
+msgid "|FE|"
+msgstr "|FE|"
 
 #: ../../build/doc/overview/geoserver_overview.rst:78
-msgid "`SLD <http://www.opengeospatial.org/standards/sld>`__"
-msgstr "`SLD <http://www.opengeospatial.org/standards/sld>`__"
+msgid "|SLD|"
+msgstr "|SLD|"
 
 #: ../../build/doc/overview/geoserver_overview.rst:79
-msgid "`GML <http://www.opengeospatial.org/standards/gml>`__"
-msgstr "`GML <http://www.opengeospatial.org/standards/gml>`__"
+msgid "|GML|"
+msgstr "|GML|"
 
 #: ../../build/doc/overview/geoserver_overview.rst:80
-msgid "`KML <http://www.opengeospatial.org/standards/kml>`__"
-msgstr "`KML <http://www.opengeospatial.org/standards/kml>`__"
+msgid "|KML|"
+msgstr "|KML|"
 
 #: ../../build/doc/overview/geoserver_overview.rst:83
 msgid "Details"

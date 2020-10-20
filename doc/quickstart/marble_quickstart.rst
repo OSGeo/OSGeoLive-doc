@@ -7,6 +7,9 @@
 
 @LOGO_marble@
 @OSGEO_KIND_marble@
+@VMDK_marble@
+
+
 
 ********************************************************************************
 @NAME_marble@ Quickstart
