@@ -439,8 +439,8 @@ OSGeoLive
               PyWPS              MapProxy           QGIS Server             istSOS        
               |52nSOS_logo|      |52nWPS_logo|      |zoo-project_logo|      |t-rex_logo|  
               52 North SOS       52 North WPS       Zoo Project             t-rex         
-              |actinia_logo|                          
-              Actinia                                 
+              |actinia_logo|     |re3gistry_logo|                 
+              Actinia            Re3gistry                        
             =================== ================== ======================= =================
 
 
@@ -675,6 +675,19 @@ OSGeoLive
             processing of geographical data that uses GRASS GIS for computational tasks.
             Actinia provides a REST API to process satellite images, time series of 
             satellite images, raster and vector data.
+
+
+
+
+    .. revealjs:: Re3gistry
+        :title-heading: h3
+  
+        .. image:: ../images/projects/re3gistry/re3gistry_screenshot.png
+            :height: 600
+
+        .. rv_note::
+            Note 
+           The Re3gistry provides a consistent central access point where labels and descriptions for reference codes can be easily browsed by humans and retrieved by machines.
 
 
 
@@ -1256,6 +1269,7 @@ OSGeoLive
 .. |zoo-project_logo| image:: ../images/projects/zoo-project/logo_zoo-project.png
 .. |t-rex_logo| image:: ../images/projects/t-rex/logo_t-rex.png
 .. |actinia_logo| image:: ../images/projects/actinia/logo_actinia.png
+.. |re3gistry_logo| image:: ../images/projects/re3gistry/logo_re3gistry.png
 .. |postgis_logo| image:: ../images/projects/postgis/logo_postgis.png
 .. |spatialite_logo| image:: ../images/projects/spatialite/logo_spatialite.png
 .. |rasdaman_logo| image:: ../images/projects/rasdaman/logo_rasdaman.png
