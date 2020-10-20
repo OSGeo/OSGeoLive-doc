@@ -5,9 +5,9 @@
 # 
 # Translators:
 # Nicolas Roelandt (Personnel), 2017
-# Vicky Vergara <vicky@georepublic.de>, 2017
 # Violeta Sosa <vsosa.ud@gmail.com>, 2018
 # MarPetra <mvergaratrejo@gmail.com>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-01-21 16:46+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -78,14 +78,14 @@ msgstr "Seleccionar y ejecutar aplicaciones desde el menú \"Geospatial\"."
 
 #: ../../build/doc/index.rst:28
 msgid ""
-"OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo "
-"Foundation is a not-for-profit supporting Geospatial Open Source Software "
-"development, promotion and `education <https://www.osgeo.org/initiatives"
-"/geo-for-all/>`_."
+"OSGeoLive is an `OSGeo Foundation <https://www.osgeo.org/>`_ project. The "
+"OSGeo Foundation is a not-for-profit supporting Geospatial Open Source "
+"Software development, promotion and `education "
+"<https://www.osgeo.org/initiatives/geo-for-all/>`_."
 msgstr ""
-"OSGeoLive es un proyecto de `OSGeo Foundation <http://osgeo.org/>`_. La "
-"Fundación OSGeo es una entidad sin ánimo de lucro que apoya el desarrollo de"
-" Software Geoespacial de código abierto, su promoción y `educación "
+"OSGeoLive es un proyecto de `OSGeo Foundation <https://www.osgeo.org/>`_. La"
+" Fundación OSGeo es una entidad sin ánimo de lucro que apoya el desarrollo "
+"de Software Geoespacial de código abierto, su promoción y `educación "
 "<https://www.osgeo.org/initiatives/geo-for-all/>`_."
 
 #: ../../build/doc/index.rst:34

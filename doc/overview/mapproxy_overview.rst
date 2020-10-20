@@ -109,6 +109,7 @@ Details
 **Support:** https://mapproxy.org/support
 
 
+@VMDK_mapproxy@
 @QUICKSTART_mapproxy@
 
 .. presentation-note

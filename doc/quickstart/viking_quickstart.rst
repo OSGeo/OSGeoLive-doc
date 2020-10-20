@@ -4,6 +4,9 @@
 
 @LOGO_viking@
 @OSGEO_KIND_viking@
+@VMDK_viking@
+
+
 
 ********************************************************************************
 @NAME_viking@ Quickstart

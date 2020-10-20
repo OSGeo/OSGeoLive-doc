@@ -7,6 +7,9 @@
 
 @LOGO_mapbender@
 @OSGEO_KIND_mapbender@
+@VMDK_mapbender@
+
+
 
 
 

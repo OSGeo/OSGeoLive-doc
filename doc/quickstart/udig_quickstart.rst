@@ -8,6 +8,9 @@
 
 @LOGO_udig@
 @OSGEO_KIND_udig@
+@VMDK_udig@
+
+
 
 ********************************************************************************
 @NAME_udig@ Quickstart

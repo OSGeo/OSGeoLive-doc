@@ -73,5 +73,6 @@ Details
 **Commercial Support:** http://52north.org/
 
 
+@VMDK_52nWSS@
 @QUICKSTART_52nWSS@
 

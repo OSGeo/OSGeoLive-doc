@@ -8,6 +8,9 @@
 
 @LOGO_eoxserver@
 @OSGEO_KIND_eoxserver@
+@VMDK_eoxserver@
+
+
 
 ================================================================================
 @NAME_eoxserver@ Quickstart

@@ -4,6 +4,9 @@
 
 @LOGO_kosmo@
 @OSGEO_KIND_kosmo@
+@VMDK_kosmo@
+
+
 
 ********************************************************************************
 @NAME_kosmo@ Quickstart

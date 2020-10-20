@@ -7,6 +7,9 @@
 
 @LOGO_pycsw@
 @OSGEO_KIND_pycsw@
+@VMDK_pycsw@
+
+
 
 ********************************************************************************
 @NAME_pycsw@ Quickstart

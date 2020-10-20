@@ -6,6 +6,9 @@
 
 @LOGO_geomajas@
 @OSGEO_KIND_geomajas@
+@VMDK_geomajas@
+
+
 
 
 ######################################

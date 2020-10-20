@@ -6,6 +6,9 @@
 
 @LOGO_tilemill@
 @OSGEO_KIND_tilemill@
+@VMDK_tilemill@
+
+
 
 ********************************************************************************
 @NAME_tilemill@ Quickstart

@@ -24,6 +24,9 @@
 
 @LOGO_postgis@
 @OSGEO_KIND_postgis@
+@VMDK_postgis@
+
+
 
 ********************************************************************************
 @NAME_postgis@ Quickstart
@@ -523,6 +526,146 @@ Afterwards, you should press the green arrow button, pointing to the right (exec
   :alt: pgAdmin III
   :align: center
   
+
+Get to know Foreign Data Wrappers (FDW)
+================================================================================
+
+From you database you can access remote objects like tables from other PostgreSQL databases or connect to remote databases like Oracle, MySQL, MS SQL or CouchDB. 
+You also can connect via ODBC, connect to CSV, Geospatial Data and even to twitter. 
+
+You find a list of different FDW at:
+
+ https://wiki.postgresql.org/wiki/Foreign_data_wrappers 
+
+Let's see how it works! The easiest way is to connect to a different PostgreSQL database.
+
+Here are the steps:
+
+First load the extension for the Foreign Data Wrapper that you want to use. For a connection to a different PostgreSQL database you need ``postgres_fdw``
+
+::
+
+ CREATE EXTENSION postgres_fdw;
+
+.. tip:: 
+   Please note that in pgAdmin III the foreign data wrappers, foreign servers, user mappings and foreign tables are not displayed by default in the tree. 
+   You have to activate them via menu via :menuselection:`File --> Options --> Browser --> Display`
+
+Create a foreign Server that tells you where to find the data source that you want to connect
+
+::
+
+  CREATE SERVER fdw_pg_server_osm_local
+   FOREIGN DATA WRAPPER postgres_fdw
+   OPTIONS (host '127.0.0.1', port '5432', dbname 'osm_local');
+
+Define the user that should be used when you connect to the foreign server
+
+::
+
+  CREATE USER MAPPING FOR user
+        SERVER fdw_pg_server_osm_local
+        OPTIONS (user 'user', password 'user');
+        
+Now you can create a foreign table. 
+
+::
+
+  IMPORT FOREIGN SCHEMA public
+    LIMIT TO (planet_osm_polygon, planet_osm_point) -- or EXCEPT
+    FROM SERVER fdw_pg_server_osm_local
+    INTO public;
+
+Find new tables in your database and have a look at the data from a foreign table. 
+
+::
+
+  Select * from planet_osm_polygon limit 10;
+
+Connect to a remote OGR data source via ogr_fdw
+================================================================================
+
+The extension ``ogr_fdw`` allows connection too several geodata formats like KML,
+GeoPackage, WFS, GeoJSON, GPX, GML and more.
+
+Read more about ``ogr_fdw``:
+* Repository: https://github.com/pramsey/pgsql-ogr-fdw 
+* New and improved: http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html
+
+
+.. rubric:: Install the extension ``ogr_fdw`` in your database.
+
+On the database prompt type:
+
+::
+
+ CREATE EXTENSION ogr_fdw;
+
+
+.. rubric:: Inspect which formats are supported:
+
+Open a terminal and search for ogr_fdw_info:
+
+:: 
+
+ locate ogr_fdw_info 
+ /usr/lib/postgresql/10/bin/ogr_fdw_info -f
+
+Results might look like these:
+::
+
+ Supported Formats:
+  -> "OGR_GRASS" (readonly)
+  -> "PCIDSK" (read/write)
+  -> "netCDF" (read/write)
+  -> "JP2OpenJPEG" (readonly)
+  -> "PDF" (read/write)
+  -> "MBTiles" (read/write)
+  -> "EEDA" (readonly)
+  -> "ESRI Shapefile" (read/write)
+  -> "MapInfo File" (read/write)
+  .... many more
+  
+
+
+.. rubric:: Create a FDW to a WFS
+
+Start Geoserver via :menuselection:`Geospatial --> Web Services --> GeoServer -->  Start GeoServer`
+
+* Open GeoServer http://localhost:8082/geoserver/web/
+* GeoServer WFS GetCapabilities http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities
+* GeoServer WFS DescribeFeatureType for topp:states 
+  `http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states 
+  <http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states>`__
+* GeoServer WFS GetFeature topp:states 
+  `http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states
+  <http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states>`__
+
+
+.. rubric:: Create a foreign server that refers to the WFS that you want to connect
+
+::
+
+  CREATE SERVER fdw_ogr_server_wfs
+  FOREIGN DATA WRAPPER ogr_fdw 
+  OPTIONS ( datasource 'WFS:http://localhost:8082/geoserver/ows', format 'WFS' );
+
+.. rubric:: Import all WFS feature_types as foreign tables with one command.
+
+After the import you will see several new foreign tables in your schema. 
+
+::
+
+ IMPORT FOREIGN SCHEMA ogr_all
+ FROM SERVER fdw_ogr_server_wfs
+    INTO public;
+
+.. rubric:: Inspect the foreign data table ``topp_states``:
+
+::
+
+ SELECT * FROM topp_states WHERE state_name = 'Minnesota';  
+
 
 Things to try
 =============

@@ -52,6 +52,7 @@ Details
 **Support:** https://www.cruisersforum.com/forums/f134/
 
 
+@VMDK_opencpn@
 @QUICKSTART_opencpn@
 
 .. presentation-note

@@ -6,6 +6,9 @@
 
 @LOGO_zygrib@
 @OSGEO_KIND_zygrib@
+@VMDK_zygrib@
+
+
 
 ************************
 @NAME_zygrib@ Quickstart

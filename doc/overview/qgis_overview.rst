@@ -85,6 +85,7 @@ Details
 **Commercial Support:** https://qgis.org/en/site/forusers/commercial_support.html
 
 
+@VMDK_qgis@
 @QUICKSTART_qgis@
 
 .. presentation-note

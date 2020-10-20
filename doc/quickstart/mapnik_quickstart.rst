@@ -7,6 +7,9 @@
 
 @LOGO_mapnik@
 @OSGEO_KIND_mapnik@
+@VMDK_mapnik@
+
+
 
 ========================
 @NAME_mapnik@ Quickstart

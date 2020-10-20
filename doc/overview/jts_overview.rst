@@ -63,6 +63,7 @@ Details
 
 **Support:** https://sourceforge.net/projects/jts-topo-suite/
 
+@VMDK_jts@
 @QUICKSTART_jts@
 
 .. presentation-note

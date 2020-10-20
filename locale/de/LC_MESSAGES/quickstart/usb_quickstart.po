@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-09-23 09:57-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -61,11 +61,9 @@ msgstr "Einen USB-Stick (mindestens 4GB, wir empfehlen 8GB oder mehr). "
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:19
 msgid ""
-"An OSGeoLive ISO image (downloaded from: "
-"https://live.osgeo.org/en/download.html) or converted from a DVD."
+"An OSGeoLive ISO image (downloaded from: :doc:`OSGeoLive downloads "
+"<../download>`) or converted from a DVD."
 msgstr ""
-"Ein OSGeoLive ISO Image (Download von: "
-"https://live.osgeo.org/en/download.html)."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:21
 msgid ""
@@ -162,11 +160,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:49
 msgid ""
-"`Download <https://live.osgeo.org/en/download.html>`_ osgeolive or "
-"osgeolive-mini to your computer's hard drive."
+":doc:`Download <../download>` osgeolive or osgeolive-mini to your computer's"
+" hard drive."
 msgstr ""
-"Laden Sie `download <https://live.osgeo.org/en/download.html>`_ osgeo-live "
-"oder osgeo-live-mini auf ihren Computer herunter."
+"Laden Sie :doc:`download <../download>` osgeo-live oder osgeo-live-mini auf "
+"ihren Computer herunter."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:51
 msgid ""

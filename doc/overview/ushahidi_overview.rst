@@ -79,5 +79,6 @@ Details
 **Support:** https://wiki.ushahidi.com/display/forums/Ushahidi+Forums
 
 
+@VMDK_ushahidi@
 @QUICKSTART_ushahidi@
 

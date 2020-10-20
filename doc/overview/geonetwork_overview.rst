@@ -59,6 +59,7 @@ Details
 **Support:** https://www.osgeo.org/service-providers
 
 
+@VMDK_geonetwork@
 @QUICKSTART_geonetwork@
 
 .. presentation-note

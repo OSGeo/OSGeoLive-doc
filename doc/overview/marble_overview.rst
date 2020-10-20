@@ -72,6 +72,7 @@ Details
 **More Info:** https://www.slideshare.net/marbleglobe/marble-1-6en
 
 
+@VMDK_marble@
 @QUICKSTART_marble@
 
 .. presentation-note

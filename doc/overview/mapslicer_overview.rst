@@ -49,6 +49,7 @@ Details
 **Supported Platforms:** Windows, Linux, Mac
 
 
+@VMDK_mapslicer@
 @QUICKSTART_mapslicer@
 
 .. presentation-note

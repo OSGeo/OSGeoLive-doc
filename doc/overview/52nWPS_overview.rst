@@ -70,6 +70,7 @@ Details
 **Other 52°North projects:** :doc:`SOS <./52nSOS_overview>`
 
 
+@VMDK_52nWPS@
 @QUICKSTART_52nWPS@
 
 .. presentation-note

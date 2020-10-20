@@ -77,15 +77,15 @@ msgstr "Provare le applicazioni dal menu “Geospatial”."
 
 #: ../../build/doc/index.rst:28
 msgid ""
-"OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo "
-"Foundation is a not-for-profit supporting Geospatial Open Source Software "
-"development, promotion and `education <https://www.osgeo.org/initiatives"
-"/geo-for-all/>`_."
+"OSGeoLive is an `OSGeo Foundation <https://www.osgeo.org/>`_ project. The "
+"OSGeo Foundation is a not-for-profit supporting Geospatial Open Source "
+"Software development, promotion and `education "
+"<https://www.osgeo.org/initiatives/geo-for-all/>`_."
 msgstr ""
-"OSGeoLive è un progetto della `Fondazione OSGeo <http://osgeo.org/>`_. La "
-"Fondazione OSGeo è un'associazione no profit che supporta lo sviluppo, la "
-"promozione e `educazione <https://www.osgeo.org/initiatives/geo-for-all/>`_ "
-"del software geografico libero e open source "
+"OSGeoLive è un progetto della `Fondazione OSGeo <https://www.osgeo.org/>`_. "
+"La Fondazione OSGeo è un'associazione no profit che supporta lo sviluppo, la"
+" promozione e `educazione <https://www.osgeo.org/initiatives/geo-for-all/>`_"
+" del software geografico libero e open source "
 
 #: ../../build/doc/index.rst:34
 msgid "Quick Starts"

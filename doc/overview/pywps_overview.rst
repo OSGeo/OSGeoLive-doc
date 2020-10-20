@@ -60,5 +60,6 @@ Details
 
 **Support:** https://pywps.org/community/#professional-support
 
+@VMDK_pywps@
 @QUICKSTART_pywps@
 

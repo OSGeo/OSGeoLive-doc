@@ -62,6 +62,7 @@ Details
 **Support:** https://github.com/Reading-eScience-Centre/ncwms/issues
 
 
+@VMDK_ncWMS@
 @QUICKSTART_ncWMS@
 
 .. presentation-note

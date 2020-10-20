@@ -59,6 +59,7 @@ Details
 
 **Community Support:** Forum at https://groups.google.com/forum/?hl=en#!forum/cesium-dev
 
+@VMDK_cesium@
 @QUICKSTART_cesium@
 
 .. presentation-note

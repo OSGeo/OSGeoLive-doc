@@ -72,6 +72,7 @@ Details
 **Commercial Support:** |SUPPORT|
 
 
+@VMDK_otb@
 @QUICKSTART_otb@
 
 .. presentation-note

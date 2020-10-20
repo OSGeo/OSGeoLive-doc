@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Vicky Vergara <vicky@georepublic.de>, 2018
 # Nicolas Roelandt (Personnel), 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-09-23 09:57-0500\n"
 "PO-Revision-Date: 2018-06-09 16:37+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -96,13 +96,12 @@ msgstr "Téléchargement et conversion de la machine virtuelle"
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:31
 msgid ""
 "Download the OSGeoLive VirtualBox virtual hard disk (vmdk) by following the "
-"links on `live.osgeo.org <http://live.osgeo.org/en/download.html>`_. Once "
-"downloaded unzip the downloaded file (using `7zip <https://www.7-zip.org>`_ "
-")."
+"links on :doc:`live.osgeo.org <../download>`. Once downloaded unzip the "
+"downloaded file (using `7zip <https://www.7-zip.org>`_ )."
 msgstr ""
 "Téléchargez le disque dur virtuel VirtualBox  (vmdk)  d'OSGeoLive en suivant"
-" le lien `live.osgeo.org <https://live.osgeo.org/en/download.html>`_. Une "
-"fois téléchargé décompressez le fichier téléchargé (en utilisant `7zip "
+" le lien :doc:`live.osgeo.org <../download>`. Une fois téléchargé "
+"décompressez le fichier téléchargé (en utilisant `7zip "
 "<https://www.7-zip.org>`_)."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:34

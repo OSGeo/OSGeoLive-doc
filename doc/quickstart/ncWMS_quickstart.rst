@@ -5,6 +5,9 @@
 
 @LOGO_ncWMS@
 @OSGEO_KIND_ncWMS@
+@VMDK_ncWMS@
+
+
 
 
 ***********************

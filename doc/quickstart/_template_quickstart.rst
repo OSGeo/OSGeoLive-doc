@@ -4,6 +4,9 @@
 
 @LOGO_slug@
 @OSGEO_KIND_slug@
+@VMDK_slug@
+
+
 
 ********************************************************************************
 @NAME_slug@ Quickstart

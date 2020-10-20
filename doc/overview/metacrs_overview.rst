@@ -115,5 +115,6 @@ Proj4J
   
   **Support:** http://lists.osgeo.org/mailman/listinfo/proj4j
   
+@VMDK_metacrs@
 @QUICKSTART_metacrs@
 

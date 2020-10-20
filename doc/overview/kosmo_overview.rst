@@ -85,5 +85,6 @@ Details
 **Commercial Support:** http://www.saig.es/index.php?lang=en
 
 
+@VMDK_kosmo@
 @QUICKSTART_kosmo@
 

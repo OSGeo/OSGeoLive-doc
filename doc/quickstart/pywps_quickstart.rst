@@ -8,6 +8,9 @@
 
 @LOGO_pywps@
 @OSGEO_KIND_pywps@
+@VMDK_pywps@
+
+
 
 ******************************** 
 @NAME_pywps@ Quickstart
