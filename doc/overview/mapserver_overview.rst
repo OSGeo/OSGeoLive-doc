@@ -119,6 +119,7 @@ Details
 
 **Support:** https://mapserver.org/community/
 
+@VMDK_mapserver@
 @QUICKSTART_mapserver@
     
 .. presentation-note

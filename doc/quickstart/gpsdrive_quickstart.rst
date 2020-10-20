@@ -5,6 +5,9 @@
 
 @LOGO_gpsdrive@
 @OSGEO_KIND_gpsdrive@
+@VMDK_gpsdrive@
+
+
 
 ********************************************************************************
 @NAME_gpsdrive@ Quickstart

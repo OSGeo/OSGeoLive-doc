@@ -6,6 +6,9 @@
 
 @LOGO_webworldwind@
 @OSGEO_KIND_webworldwind@
+@VMDK_webworldwind@
+
+
 
 
 ********************************************************************************

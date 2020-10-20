@@ -6,6 +6,9 @@
 
 @LOGO_istsos@
 @OSGEO_KIND_istsos@
+@VMDK_istsos@
+
+
 
 ********************************************************************************
 @NAME_istsos@ Quickstart
@@ -145,7 +148,7 @@ Add new observations
 
 First we will create a text file with sensor data, formatted according to "text/csv, subtype=istSOS". The file uses a Comma Separated Values (CSV) format. The first line contains header information, including URI names of the observed properties. The following lines contain the data.
 
-#. Open a text editor by selecting :menuselection:`Accessories --> Leafpad`.
+#. Open a text editor by selecting :menuselection:`Accessories --> FeatherPad`.
 
 #. Copy and paste the follOwing text into the text editor window:
 

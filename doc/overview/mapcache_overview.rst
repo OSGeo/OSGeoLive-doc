@@ -77,6 +77,7 @@ Details
 
 **Support:** https://mapserver.org/community/
 
+@VMDK_mapcache@
 @QUICKSTART_mapcache@
     
 .. presentation-note

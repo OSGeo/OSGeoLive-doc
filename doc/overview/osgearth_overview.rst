@@ -78,5 +78,6 @@ Details
 
 **Commercial Support:** http://osgearth.org/#ProfessionalServices
 
+@VMDK_osgearth@
 @QUICKSTART_osgearth@
 

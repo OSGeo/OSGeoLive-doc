@@ -8,6 +8,9 @@
 
 @LOGO_mapslicer@
 @OSGEO_KIND_mapslicer@
+@VMDK_mapslicer@
+
+
 
 @NAME_mapslicer@ Quickstart
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

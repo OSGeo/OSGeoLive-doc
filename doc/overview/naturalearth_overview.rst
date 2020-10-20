@@ -58,6 +58,7 @@ Details
 
 **Support:** https://www.naturalearthdata.com/forums/
 
+@VMDK_naturalearth@
 @QUICKSTART_naturalearth@
 
 .. presentation-note

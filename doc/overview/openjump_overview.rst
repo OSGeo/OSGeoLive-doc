@@ -79,6 +79,7 @@ Details
 
 **Download Page:** https://sourceforge.net/projects/jump-pilot/files/
 
+@VMDK_openjump@
 @QUICKSTART_openjump@
 
 .. presentation-note

@@ -77,6 +77,7 @@ Details
 **Developers:** http://udig.refractions.net/developers/
 
 
+@VMDK_udig@
 @QUICKSTART_udig@
 
 .. presentation-note

@@ -7,6 +7,9 @@
 
 @LOGO_zoo-project@
 @OSGEO_KIND_zoo-project@
+@VMDK_zoo-project@
+
+
 
 
 ********************************************************************************

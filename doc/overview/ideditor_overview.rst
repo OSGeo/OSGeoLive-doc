@@ -46,6 +46,7 @@ Details
 
 **Support:** https://help.openstreetmap.org/
 
+@VMDK_ideditor@
 @QUICKSTART_ideditor@
     
 .. presentation-note

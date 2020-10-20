@@ -67,6 +67,7 @@ Details
 
 **Support:** https://www.openstreetmap.org/help
 
+@VMDK_osm_dataset@
 @QUICKSTART_osm_dataset@
 
 .. presentation-note

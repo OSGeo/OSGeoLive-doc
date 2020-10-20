@@ -8,6 +8,9 @@
 
 @LOGO_t-rex@
 @OSGEO_KIND_t-rex@
+@VMDK_t-rex@
+
+
 
 ********************************************************************************
 @NAME_t-rex@ Quickstart
@@ -55,7 +58,7 @@ Cache seeding
 
 #. Close the browser and the terminal window running t-rex.
 #. Open any text editor (e.g. :menuselection:`Accessories -->
-   Leafpad`).
+   FeatherPad`).
 #. Create the file "ne.toml" in your home directory:
    :file:`/home/user/ne.toml`
 

@@ -8,6 +8,9 @@
 
 @LOGO_josm@
 @OSGEO_KIND_josm@
+@VMDK_josm@
+
+
 
 ********************************************************************************
 @NAME_josm@ Quickstart

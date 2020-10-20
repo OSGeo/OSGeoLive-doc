@@ -263,7 +263,11 @@ linkcheck_ignore = [
         # ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
         # Used in quickstart/osm_quickstart
         'https://www.openstreetmap.org/edit',
-
+        
+        # Used in overview/inspire_overview
+        # Error message: broken    https://etf-validator.net - 503 Server Error: Service Temporarily Unavailable for url: https://etf-validator.net/
+        'https://etf-validator.net',
+  
         # Link does not exist anymore
         # Used in quickstart/geoserver_quickstart
         r'http://prj2epsg.org',
@@ -275,6 +279,10 @@ linkcheck_ignore = [
         # Link does not exist anymore
         # Used in quickstart/mapslicer_quickstart
         'https://maps.yahoo.com/',
+
+        # Link with certiciate problems
+        # Used in quickstart/liblas_quickstart
+        'https://epsg.org/home.html',
         ]
 
 linkcheck_anchors = False

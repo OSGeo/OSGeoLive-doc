@@ -58,6 +58,7 @@ Details
 
 **Support:**  https://rasdaman.com
 
+@VMDK_rasdaman@
 @QUICKSTART_rasdaman@
 
 .. presentation-note

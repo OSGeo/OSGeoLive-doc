@@ -24,13 +24,17 @@ seed a tile cache from the command line.
 Adding a New Tileset and Displaying in OpenLayers
 =================================================
 
-MapCache is configured using XML files. OSGeoLive includes an example configuration file at ``/home/user/mapcache/mapcache-quickstart.xml``. 
+MapCache is configured using XML files. OSGeoLive includes an example configuration file at ``/usr/local/share/mapcache/mapcache-quickstart.xml``. 
 The example uses the OSGeoLive demo MapServer application of Itasca County in the United States as its source. 
 
 In this quick start we will set up tile caching for an additional WMS layer and display the tiles in a simple HTML page containing an OpenLayers map. 
 
-First let's open the MapCache configuration file in LeafPad - a text editor. Navigate to ``/home/user/mapcache`` in the File Manager, 
-right-click on ``mapcache-quickstart.xml`` and select LeafPad. 
+First let's open the MapCache configuration file in FeatherPad - a text editor. Open FeatherPad from the command line with elevated permissions, so you can save the file,
+using System Tools > QTerminal and then running run the command below:
+
+.. code-block:: bash
+
+    sudo featherpad
 
 We can see which layers are available in our source WMS server by opening the following link: http://localhost/itasca/?service=wms&request=getcapabilities
 MapCache is configured to forward on any requests it can't handle, such as GetCapabilities, to MapServer with the rule shown below:
@@ -97,7 +101,7 @@ Now let's add the tileset to our OpenLayers map. Open the HTML page using the fo
 
 .. code-block:: bash
 
-    sudo leafpad /var/www/html/mapcache-quickstart/index.html
+    sudo featherpad /var/www/html/mapcache-quickstart/index.html
 
 Uncomment out the JavaScript code below:
 
@@ -130,12 +134,12 @@ Adding New Services
 ===================
 
 You can configure Apache to run as many different MapCache services, each with its own configuration file by editing the
-``/etc/apache2/conf-enabled/mapcache.conf`` file. As this requires super user permissions you can open it for editing in LeafPad by
+``/etc/apache2/conf-enabled/mapcache.conf`` file. As this requires super user permissions you can open it for editing in FeatherPad by
 running the command below:
 
 .. code-block:: bash
 
-    sudo leafpad /etc/apache2/conf-enabled/mapcache.conf
+    sudo featherpad /etc/apache2/conf-enabled/mapcache.conf
 
 OSGeoLive has two MapCache services, each with an alias and a configuration file. 
 The alias is the URL to use on the server, e.g. http://localhost/mapcache and http://localhost/itasca
