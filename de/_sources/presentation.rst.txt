@@ -287,6 +287,8 @@ OSGeoLive
               OpenLayers          Leaflet          Cesium            Geomajas       
               |mapbender_logo|    |geoext_logo|    |geomoose_logo|   |geonode_logo| 
               Mapbender           GeoExt           GeoMoose          GeoNode        
+              |geostyler_logo|                  
+              GeoStyler                         
             ==================== ================ ================= ==================
 
 
@@ -404,6 +406,19 @@ OSGeoLive
         .. rv_note::
             Note 
             GeoNode is a Content Management System for geospatial data which provides creation, sharing, and collaborative use of geospatial data. Datasets can be uploaded, maps and metadata can be edited and published, and user ratings and comments can be captured.
+
+
+
+
+    .. revealjs:: GeoStyler
+        :title-heading: h3
+  
+        .. image:: ../images/projects/geostyler/geostyler_screenshot.png
+            :height: 600
+
+        .. rv_note::
+            Note 
+            @NAME_geostyler@ is an Open Source JavaScript library that enables users to style maps with the help of a Graphical User Interface.
 
 
 
@@ -1223,6 +1238,7 @@ OSGeoLive
 .. |geoext_logo| image:: ../images/projects/geoext/logo_geoext.png
 .. |geomoose_logo| image:: ../images/projects/geomoose/logo_geomoose.png
 .. |geonode_logo| image:: ../images/projects/geonode/logo_geonode.png
+.. |geostyler_logo| image:: ../images/projects/geostyler/logo_geostyler.png
 .. |geoserver_logo| image:: ../images/projects/geoserver/logo_geoserver.png
 .. |mapserver_logo| image:: ../images/projects/mapserver/logo_mapserver.png
 .. |mapcache_logo| image:: ../images/projects/mapcache/logo_mapcache.png
