@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../build/doc/overview/re3gistry_overview.rst:18
+msgid "Re3gistry"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:21
+msgid "About"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:23
+msgid "The Re3gistry 2 is a reusable open source solution for managing and sharing \"reference codes\". Initially developed as a central component of the EU's :doc:`INSPIRE <inspire_overview>` infrastructure, it provides a consistent central access point where labels and descriptions for reference codes can be easily browsed by humans and retrieved by machines. Reference codes are exchanged between applications to uniquely reference some ‘thing’. They can be used to define sets of permissible values for a data field or to provide a reference or context for the data being exchanged. Examples are enumerations, controlled vocabularies, taxonomies, thesauri or, simply, ‘lists of things’. The Re3gistry 2 supports organisations in managing and updating reference codes in a consistent way. The Re3gistry software version numbers comply with the Semantic Versioning Specification 2.0.0."
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:34
+msgid "Core Features"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:36
+msgid "User-friendly editing interface to easily add, edit and manage the registers and reference codes"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:37
+msgid "Management of the full lifecycle of the reference codes (based on the ISO 19135 Standard)"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:38
+msgid "Highly flexible and customisable data models"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:39
+msgid "Multi-lingual content support"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:40
+msgid "Support for versioning"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:41
+msgid "RESTful API with content negotiation (including OpenAPI 3 descriptor)"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:42
+msgid "Free-text search"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:43
+msgid "Supported formats: HTML, ISO 19135 XML, JSON"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:44
+msgid "Service formats can be easily added or customised (default formats: JSON and ISO 19135 XML)"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:45
+msgid "Multiple authentication options"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:46
+msgid "Externally governed items referenced through URIs"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:47
+msgid "INSPIRE register federation format support (option to automatically create the RoR format)"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:48
+msgid "Web-app to access the reference codes in a human readable way."
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:51
+msgid "Details"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:53
+msgid "**Website:** https://github.com/ec-jrc/re3gistry"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:55
+msgid "**Licence:** EUPL"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:57
+msgid "**Software Version:** |version-re3gistry|"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:59
+msgid "**Supported Platforms:** Windows, Linux"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:61
+msgid "**API Interfaces:** Java"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:63
+msgid "**Support:** https://github.com/ec-jrc/re3gistry"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:65
+msgid "**User manual:** https://github.com/ec-jrc/re3gistry/blob/master/documentation/user-manual.md"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:67
+msgid "**Administrator manual:** https://github.com/ec-jrc/re3gistry/blob/master/documentation/administrator-manual.md"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:69
+msgid "**Developer manual:** https://github.com/ec-jrc/re3gistry/blob/master/documentation/developer-manual.md"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:74
+msgid "Quickstart"
+msgstr ""
+
+#: ../../build/doc/overview/re3gistry_overview.rst:76
+msgid ":doc:`Quickstart documentation <../quickstart/re3gistry_quickstart>`"
+msgstr ""
+

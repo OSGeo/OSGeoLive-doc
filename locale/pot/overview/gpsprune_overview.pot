@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,11 +104,11 @@ msgstr ""
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, Windows"
 msgstr ""
 
-#: ../../build/doc/overview/gpsprune_overview.rst:69
+#: ../../build/doc/overview/gpsprune_overview.rst:70
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/gpsprune_overview.rst:71
+#: ../../build/doc/overview/gpsprune_overview.rst:72
 msgid ":doc:`Quickstart documentation <../quickstart/gpsprune_quickstart>`"
 msgstr ""
 
