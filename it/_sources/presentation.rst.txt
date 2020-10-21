@@ -687,7 +687,9 @@ OSGeoLive
 
         .. rv_note::
             Note 
-           The Re3gistry provides a consistent central access point where labels and descriptions for reference codes can be easily browsed by humans and retrieved by machines.
+            The Re3gistry provides a consistent central access point where labels and
+            descriptions for reference codes can be easily browsed by humans and
+            retrieved by machines.
 
 
 
