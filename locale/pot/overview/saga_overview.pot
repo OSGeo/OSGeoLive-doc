@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,11 +120,11 @@ msgstr ""
 msgid "**Support:** http://www.saga-gis.org"
 msgstr ""
 
-#: ../../build/doc/overview/saga_overview.rst:78
+#: ../../build/doc/overview/saga_overview.rst:79
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/saga_overview.rst:80
+#: ../../build/doc/overview/saga_overview.rst:81
 msgid ":doc:`Quickstart documentation <../quickstart/saga_quickstart>`"
 msgstr ""
 

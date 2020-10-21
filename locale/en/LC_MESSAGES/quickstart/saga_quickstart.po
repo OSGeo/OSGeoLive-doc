@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-23 09:57-0500\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:17
+#: ../../build/doc/quickstart/saga_quickstart.rst:20
 msgid "SAGA Quickstart"
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:19
+#: ../../build/doc/quickstart/saga_quickstart.rst:22
 msgid ""
 "SAGA (System for Automated Geoscientific Analyses) is an open source "
 "geographic information system (GIS) used for editing and analysing "
@@ -33,17 +33,17 @@ msgid ""
 "accessed through a GUI, the command line or by using the C++ API."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:32
+#: ../../build/doc/quickstart/saga_quickstart.rst:35
 msgid "Running"
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:34
+#: ../../build/doc/quickstart/saga_quickstart.rst:37
 msgid ""
 "To run SAGA GIS on the Live DVD, open the Desktop GIS group on the "
 "Desktop and click on the SAGA link."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:37
+#: ../../build/doc/quickstart/saga_quickstart.rst:40
 msgid ""
 "When opening SAGA for the first time, you are presented with 3 "
 "subwindows: the Manager, the object Properties and the Messages window. "
@@ -51,25 +51,25 @@ msgid ""
 "your selection in the Manager window."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:42
+#: ../../build/doc/quickstart/saga_quickstart.rst:45
 msgid ""
 "You can close any of the windows (Manager, Object Properties, Data "
 "Sources and Messages). Try closing one of the windows to get more place "
 "for your map. You can show closed windows again in the **Window** menu."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:51
+#: ../../build/doc/quickstart/saga_quickstart.rst:54
 msgid "Opening data"
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:53
+#: ../../build/doc/quickstart/saga_quickstart.rst:56
 msgid ""
 "Open the SAGA GUI and load the grid "
 "`/home/user/data/saga/DGM_30m_Mt.St.Helens_SRTM.grd` via the "
 "**File|Grid|Load** menu."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:56
+#: ../../build/doc/quickstart/saga_quickstart.rst:59
 msgid ""
 "You will get a message in the General tab of the Messages window "
 "regarding the success or failure of this task. You should see something "
@@ -78,7 +78,7 @@ msgid ""
 "will be listed under Grids and the grid system it belongs to."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:62
+#: ../../build/doc/quickstart/saga_quickstart.rst:65
 msgid ""
 "In this case, the grid system information will look like **30;312x 458y; "
 "557970x 5108130y**. The first number is the cell size (30 meters), the "
@@ -86,7 +86,7 @@ msgid ""
 "respectively, and the last two numbers are the origin of the grid."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:67
+#: ../../build/doc/quickstart/saga_quickstart.rst:70
 msgid ""
 "SAGA's grid systems are referenced by the bottom left corner. This, and "
 "some more useful information on the dataset show up if you select the "
@@ -96,22 +96,22 @@ msgid ""
 "statistical measures and the Memory Size."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:74
+#: ../../build/doc/quickstart/saga_quickstart.rst:77
 msgid ""
 "You can also load data by dragging and dropping it on the application. "
 "Try this with one of the datasets in the "
 "**/home/user/data/gdal_natural_earth/** folder."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:78
+#: ../../build/doc/quickstart/saga_quickstart.rst:81
 msgid "Displaying data"
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:80
+#: ../../build/doc/quickstart/saga_quickstart.rst:83
 msgid "To display the dataset in a map view:"
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:82
+#: ../../build/doc/quickstart/saga_quickstart.rst:85
 msgid ""
 "Double click on the dataset in the Data tab of the Workspace window. A "
 "new Map window will open up with the dataset displayed. The canvas is "
@@ -119,7 +119,7 @@ msgid ""
 " and right you see rulers in map units."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:85
+#: ../../build/doc/quickstart/saga_quickstart.rst:88
 msgid ""
 "Try moving the mouse pointer over the map and watch the x-, y- and "
 "z-coordinates displayed in the bottom bar of the SAGA GUI window. The "
@@ -128,7 +128,7 @@ msgid ""
 "selected in the Data or Maps tab)."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:90
+#: ../../build/doc/quickstart/saga_quickstart.rst:93
 msgid ""
 "Now use the navigation tools to zoom and pan. The Zoom tool is selected "
 "by default. A left click on the map zooms in, a right click zooms out. "
@@ -136,7 +136,7 @@ msgid ""
 "letting the mouse button up allows you to zoom to an area of interest."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:95
+#: ../../build/doc/quickstart/saga_quickstart.rst:98
 msgid ""
 "If you zoom in a lot and turn on Show cell values on Settings tab, you "
 "will see that the cell values are getting displayed. To pan, select the "
@@ -144,28 +144,28 @@ msgid ""
 "buttons in the tool bar: these allow you to zoom e.g. to Full Extent."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:102
+#: ../../build/doc/quickstart/saga_quickstart.rst:105
 msgid ""
 "Saga zooms very fast, if you are lost while browsing your data, click the"
 " 'Zoom to Full Extent' button in the toolbar"
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:106
+#: ../../build/doc/quickstart/saga_quickstart.rst:109
 msgid "Creating a shaded relief map view"
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:107
+#: ../../build/doc/quickstart/saga_quickstart.rst:110
 msgid "We will enhance the map display by calculating a shaded relief map."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:109
+#: ../../build/doc/quickstart/saga_quickstart.rst:112
 msgid ""
 "Switch to the Tools tab of the Manager window and click on the triangle "
 "left to the **Terrain Analysis - Lighting, Visibility** module library: "
 "the list with the modules of this library will show up."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:112
+#: ../../build/doc/quickstart/saga_quickstart.rst:115
 msgid ""
 "Now select the Analytical Hillshading module and then select the Settings"
 " tab of the Properties window. This will show up the module parameters "
@@ -173,14 +173,14 @@ msgid ""
 "information about the module and its parameters)."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:116
+#: ../../build/doc/quickstart/saga_quickstart.rst:119
 msgid ""
 "Click in the right column of the Grid system parameter (where [not set] "
 "is displayed) and select the grid system of the Mt. St. Helens dataset "
 "(**30; 312x 458y; 557970x 5108130y**)."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:119
+#: ../../build/doc/quickstart/saga_quickstart.rst:122
 msgid ""
 "Next click into the right column of the Elevation parameter and select "
 "the dataset. Click in the right column of the Shading Method option and "
@@ -188,13 +188,13 @@ msgid ""
 "dataset containing the hillshade will be calculated."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:124
+#: ../../build/doc/quickstart/saga_quickstart.rst:127
 msgid ""
 "Have a look at the Data tab of the Workspace window - you will find the "
 "newly created dataset."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:126
+#: ../../build/doc/quickstart/saga_quickstart.rst:129
 msgid ""
 "Double click on the 'Analytical Hillshading' dataset and select New in "
 "the dialog popping up. This will display the dataset in a new map view. "
@@ -202,7 +202,7 @@ msgid ""
 "from the Window menu."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:131
+#: ../../build/doc/quickstart/saga_quickstart.rst:134
 msgid ""
 "Now double click on the hillshade dataset again, but select the Map "
 "containing the elevation dataset in the dialog popping up (Add layer to "
@@ -210,7 +210,7 @@ msgid ""
 "dataset."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:138
+#: ../../build/doc/quickstart/saga_quickstart.rst:141
 msgid ""
 "Switch to the Maps tab of the Manager window. You will see on the Tree "
 "tab the entry of your map and the datasets the map is composed of. The "
@@ -220,7 +220,7 @@ msgid ""
 "beneath the elevation dataset (which now shows up again in the map view)."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:144
+#: ../../build/doc/quickstart/saga_quickstart.rst:147
 msgid ""
 "Now select the elevation dataset (by left clicking) and have a look at "
 "the Settings tab of the Properties window. Find the Display section of "
@@ -229,7 +229,7 @@ msgid ""
 "elevation values shaded by relief."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:150
+#: ../../build/doc/quickstart/saga_quickstart.rst:153
 msgid ""
 "Feel free to try other Transparency settings or even try other Shading "
 "Methods in the Analytical Hillshading module (in case you do not change "
@@ -238,15 +238,15 @@ msgid ""
 "immediately)."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:156
+#: ../../build/doc/quickstart/saga_quickstart.rst:159
 msgid "3D visualization"
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:157
+#: ../../build/doc/quickstart/saga_quickstart.rst:160
 msgid "In a next step, you might like to visualize your map in 3D."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:159
+#: ../../build/doc/quickstart/saga_quickstart.rst:162
 msgid ""
 "Be sure your Map window is selected and press the Show 3D-View button in "
 "the tool bar. In the dialog popping up, select the grid system containing"
@@ -256,7 +256,7 @@ msgid ""
 "to rotate and tilt the map."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:166
+#: ../../build/doc/quickstart/saga_quickstart.rst:169
 msgid ""
 "Use the mouse wheel to zoom in/out and the right button to shift the map."
 " Also have a look at the tool bar of the 3D View: the buttons replicate "
@@ -264,31 +264,31 @@ msgid ""
 "view select the Close option from the Window menu."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:175
+#: ../../build/doc/quickstart/saga_quickstart.rst:178
 msgid "Creating contour lines"
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:176
+#: ../../build/doc/quickstart/saga_quickstart.rst:179
 msgid ""
 "As a short introduction to SAGA vector capabilities, we will now generate"
 " Contour Lines from the digital elevation model."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:179
+#: ../../build/doc/quickstart/saga_quickstart.rst:182
 msgid ""
 "This can be done by using the **Shapes - Grid | Contour Lines From Grid**"
 " if you open the tools tab in the manager, or you can equally well open "
 "the module using the menu: **Geoprocessing|Shapes|Grid|Vectorization**."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:182
+#: ../../build/doc/quickstart/saga_quickstart.rst:185
 msgid ""
 "Choose your grid system and grid (this has to be the elevation). You can "
 "leave the options as they are, but perhaps it is better to choose an "
 "equidistance of 50m instead of the standard 10m."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:185
+#: ../../build/doc/quickstart/saga_quickstart.rst:188
 msgid ""
 "A few seconds later your contour map has been generated and you should "
 "find it back under the data tab in the workspace. Try opening your "
@@ -296,7 +296,7 @@ msgid ""
 "which is not that attractive."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:189
+#: ../../build/doc/quickstart/saga_quickstart.rst:192
 msgid ""
 "If you select your data set (in the workspace, data tab) and check the "
 "Settings in the Object Properties window, you can find a section: "
@@ -306,11 +306,11 @@ msgid ""
 "apply, and you are presented with coloured contour lines."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:197
+#: ../../build/doc/quickstart/saga_quickstart.rst:200
 msgid "Check your history"
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:198
+#: ../../build/doc/quickstart/saga_quickstart.rst:201
 msgid ""
 "If you select a dataset (eg your contour lines) in the data tab of the "
 "manager window, you can switch the object properties tab to 'history' to "
@@ -319,18 +319,18 @@ msgid ""
 ".mgrd files)."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:206
+#: ../../build/doc/quickstart/saga_quickstart.rst:209
 msgid ""
 "You can create a tool chain from your history - which allows you to run a"
 " chain of modules again with fixed options. A tutorial can be found at "
 "https://rohanfisher.wordpress.com/saga-tool-chains/"
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:211
+#: ../../build/doc/quickstart/saga_quickstart.rst:214
 msgid "Saving data"
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:212
+#: ../../build/doc/quickstart/saga_quickstart.rst:215
 msgid ""
 "To save the work you have created you should open the data tab in the "
 "workspace, and right click on the file you want to save. SAGA will save "
@@ -341,11 +341,11 @@ msgid ""
 " files."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:220
+#: ../../build/doc/quickstart/saga_quickstart.rst:223
 msgid "Importing/Exporting data"
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:221
+#: ../../build/doc/quickstart/saga_quickstart.rst:224
 msgid ""
 "Under the hood SAGA can also use the GDAL library for opening different "
 "raster and vector formats. The easiest way is to use **File|Grid|Open** "
@@ -355,20 +355,20 @@ msgid ""
 "**Geoprocessing|File|Grid**."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:228
+#: ../../build/doc/quickstart/saga_quickstart.rst:231
 msgid ""
 "SAGA GIS grid format is supported by GDAL since version 1.7.0. Grid Files"
 " saved by SAGA can be opened by many other programs using GDAL. However, "
 "you must open the '\\*.sdat' file and not the '\\*.sgrd' file."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:232
+#: ../../build/doc/quickstart/saga_quickstart.rst:235
 msgid ""
 "In this example we will use the digital elevation (SRTM) data from the "
 "region around Barcelona as you would download it from the web."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:235
+#: ../../build/doc/quickstart/saga_quickstart.rst:238
 msgid ""
 "The data file we want to use is `SRTM_u03_n041e002.tif` and can be found "
 "under `/home/user/data/raster` . You can import this using the "
@@ -376,7 +376,7 @@ msgid ""
 "**Geoprocessing|file|import raster**."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:240
+#: ../../build/doc/quickstart/saga_quickstart.rst:243
 msgid ""
 "After importing this dataset and opening it in a new window, you will "
 "most likely be disappointed: It looks all gray! Let's check what might be"
@@ -385,7 +385,7 @@ msgid ""
 "the status bar while moving your mouse over the grid)."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:246
+#: ../../build/doc/quickstart/saga_quickstart.rst:249
 msgid ""
 "These pixels actually have no data, so we should adjust the nodata "
 "settings: in the object properties window (after selecting the dataset in"
@@ -395,31 +395,21 @@ msgid ""
 "workspace and choosing 'Classification|Set Range to minimum maximum'."
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:253
+#: ../../build/doc/quickstart/saga_quickstart.rst:256
 msgid ""
 "You are now ready to repeat the first steps to create a hillshaded map or"
 " explore some of the other modules of SAGA!"
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:257
+#: ../../build/doc/quickstart/saga_quickstart.rst:260
 msgid "What next?"
 msgstr ""
 
-#: ../../build/doc/quickstart/saga_quickstart.rst:258
+#: ../../build/doc/quickstart/saga_quickstart.rst:261
 msgid ""
 "More documentation can be found on the SAGA website: * http://www.saga-"
 "gis.org and specifically in the documentation archive: * http://www.saga-"
 "gis.org/en/about/references.html * https://sourceforge.net/p/saga-"
 "gis/wiki/Documentation/"
 msgstr ""
-
-#~ msgid ""
-#~ "More documentation can be found on "
-#~ "the SAGA website: * http://www.saga-"
-#~ "gis.org and specifically in the "
-#~ "documentation archive: * http://www.saga-"
-#~ "gis.org/en/about/references.html * "
-#~ "https://sourceforge.net/projects/saga-"
-#~ "gis/files/SAGA%20-%20Documentation/"
-#~ msgstr ""
 

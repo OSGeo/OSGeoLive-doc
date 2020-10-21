@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,111 +16,111 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:16
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:19
 msgid "52 North WPS Quickstart"
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:18
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:21
 msgid "The 52°North WPS is a framework for web-based processing of (geospatial) data. The service implements the OGC Web Processing Service 1.0 interface standard."
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:21
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:24
 msgid "This quickstart describes how to process data and store the result in another web service using WPS operations."
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:27
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:30
 msgid "Start 52°North WPS"
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:29
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:32
 msgid "To run the 52°North WPS on the Live DVD, go to |osgeolive-appmenupath-52nWPS| or use this `direct link <http://localhost:8080/52nWPS/>`_."
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:31
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:34
 msgid "The 52n WPS welcome page will appear."
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:37
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:40
 msgid "(If the web service is not reachable, try to start the Tomcat servlet engine following the steps at the bottom of the :doc:`SOS quickstart page <../quickstart/52nSOS_quickstart>`.)"
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:40
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:43
 msgid "Get information about the service"
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:42
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:45
 msgid "Check out the capabilities of the 52°North WPS with this request:"
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:44
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:47
 msgid "http://localhost:8080/52nWPS/WebProcessingService?Request=GetCapabilities&Service=WPS"
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:47
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:50
 msgid "Process data"
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:49
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:52
 msgid "Click on the link to open the 52nWPS-TestClient."
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:55
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:58
 msgid "Make sure that :doc:`GeoServer <../overview/geoserver_overview>` is running since the demonstration requires data from the local GeoServer installation."
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:56
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:59
 msgid "To do this, try to open the page http://localhost:8082/geoserver/web. If the page could not be found, select |osgeolive-appmenupath-geoserver| in the menu. The GeoServer should be running after a few moments."
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:58
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:61
 msgid "Select the example request \"SimpleBuffer_out_wfs.xml\" from the dropdown list:"
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:64
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:67
 msgid "Push the Send-Button and the request will be transmitted to the 52°North WPS which will generate a buffer around the major roads of Tasmania with a width of 0.05 degrees and store the result in GeoServer."
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:72
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:75
 msgid "Copy the ResourceID from the response. This is the name of the GeoServer layer. Add the ID to the following request: http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers=Add-ResourceID-here You should get the following result:"
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:81
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:84
 msgid "Things to try"
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:83
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:86
 msgid "Try out other example requests from the dropdown list of the WPS test client."
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:84
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:87
 msgid "You could also install the WPS plugin for :doc:`QGIS <../overview/qgis_overview>` and try it out with the 52°North WPS."
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:87
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:90
 msgid "What next?"
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:89
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:92
 msgid "Create your own processes and execute them using various clients."
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:91
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:94
 msgid "Set up the WPS to execute GRASS GIS 7 processes."
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:93
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:96
 msgid "Set up the WPS to execute :doc:`R <../overview/R_overview>` scripts as processes."
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:95
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:98
 msgid "Available in the 52°North wiki: https://wiki.52north.org/Geoprocessing/GeoprocessingTutorials"
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:97
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:100
 msgid "For further questions you can contact the 52°North WPS mailing list:"
 msgstr ""
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:99
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:102
 msgid "geoprocessing@52north.org"
 msgstr ""
 

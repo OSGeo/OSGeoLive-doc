@@ -6,64 +6,64 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:17
+#: ../../build/doc/quickstart/openjump_quickstart.rst:20
 msgid "OpenJUMP GIS Quickstart"
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:19
+#: ../../build/doc/quickstart/openjump_quickstart.rst:22
 msgid ""
 "OpenJUMP is a desktop GIS program that allows for easy viewing and "
 "editing of vector GIS data. The PLUS edition also support analysis of "
 "raster data."
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:26
+#: ../../build/doc/quickstart/openjump_quickstart.rst:29
 msgid "Start OpenJUMP"
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:28
+#: ../../build/doc/quickstart/openjump_quickstart.rst:31
 msgid "From the desktop, choose :menuselection:`Desktop GIS --> OpenJUMP`."
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:30
+#: ../../build/doc/quickstart/openjump_quickstart.rst:33
 msgid "The OpenJUMP user interface has four (4) basic components."
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:32
+#: ../../build/doc/quickstart/openjump_quickstart.rst:35
 msgid "[1] The first is a top-level menu bar for accessing most functionality."
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:33
+#: ../../build/doc/quickstart/openjump_quickstart.rst:36
 msgid ""
 "[2] The second is a main toolbar that sits just below the menu bar. The "
 "buttons give access to the most important display and navigation "
 "functions."
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:34
+#: ../../build/doc/quickstart/openjump_quickstart.rst:37
 msgid ""
 "[3] The third is a tree view on the left that shows the layer list of the"
 " active project."
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:35
+#: ../../build/doc/quickstart/openjump_quickstart.rst:38
 msgid ""
 "[4] The fourth is the map view. This is the actual map where a graphical "
 "representation of the spatial data in each layer is given."
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:37
+#: ../../build/doc/quickstart/openjump_quickstart.rst:40
 msgid ""
 "Finally there is an information bar at the bottom displaying mouse "
 "pointer coordinates, processing reports, and memory usage. A project "
@@ -72,25 +72,25 @@ msgid ""
 "working with a single window."
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:44
+#: ../../build/doc/quickstart/openjump_quickstart.rst:47
 msgid "Open an ESRI shapefile"
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:46
+#: ../../build/doc/quickstart/openjump_quickstart.rst:49
 msgid ""
 "On the top-level menu bar in OpenJUMP, select :menuselection:`File --> "
 "Open File`. This will present you with a dialog box that allows you to "
 "open files containing geospatial data."
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:47
+#: ../../build/doc/quickstart/openjump_quickstart.rst:50
 msgid ""
 "Browse for an ESRI shapefile. Look for a file with the .shp extension "
 "(e.g. on the LiveDVD under "
 "`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`)."
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:48
+#: ../../build/doc/quickstart/openjump_quickstart.rst:51
 msgid ""
 "Select the file and click the :guilabel:`Finish` button on the dialog. "
 "After a few moments, you will be able to see the data from your shapefile"
@@ -99,24 +99,24 @@ msgid ""
 "shapefile."
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:53
+#: ../../build/doc/quickstart/openjump_quickstart.rst:56
 msgid ""
 "Another quicker option is to directly drag and drop your shapefile in the"
 " Layer View."
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:56
+#: ../../build/doc/quickstart/openjump_quickstart.rst:59
 msgid "Style a layer"
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:58
-#: ../../build/doc/quickstart/openjump_quickstart.rst:70
+#: ../../build/doc/quickstart/openjump_quickstart.rst:61
+#: ../../build/doc/quickstart/openjump_quickstart.rst:73
 msgid ""
 "In the Layer List, right click on the layer name. This will show a pop-up"
 " menu."
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:59
+#: ../../build/doc/quickstart/openjump_quickstart.rst:62
 msgid ""
 "Choose to :menuselection:`Style --> `Change Styles`. The Change Styles "
 "dialog has five (5) tabs that allow you to change how the layer is "
@@ -126,11 +126,11 @@ msgid ""
 "displayed at."
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:68
+#: ../../build/doc/quickstart/openjump_quickstart.rst:71
 msgid "Edit feature geometries in a layer"
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:71
+#: ../../build/doc/quickstart/openjump_quickstart.rst:74
 msgid ""
 "Click on the menu entry \"Editable\" so that a check mark is shown. This "
 "will open a new floating toolbar over the Map View on the right side. "
@@ -138,22 +138,22 @@ msgid ""
 "of a geographic feature."
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:79
+#: ../../build/doc/quickstart/openjump_quickstart.rst:82
 msgid ""
 "Let's try a quick edit. First we need to select a geometry and then we "
 "move a point of the geometry. To do that, we first click the button that "
 "shows a mouse cursor in the editing toolbar (top left button)."
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:80
+#: ../../build/doc/quickstart/openjump_quickstart.rst:83
 msgid ""
-"Activate it and click on a single feature in the Layer View to select it."
-" If the selection worked, then the features line color should change to "
+"Activate it and click on a single feature in the Map View to select it. "
+"If the selection worked, then the features line color should change to "
 "yellow and small yellow squares appear at each angle point (vertex) in "
 "the feature geometry."
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:85
+#: ../../build/doc/quickstart/openjump_quickstart.rst:88
 msgid ""
 "Next, click on the button that shows a blue crosshair with a yellow "
 "square in the middle, the :guilabel:`Move Vertex Tool` (Hoovering over "
@@ -162,42 +162,42 @@ msgid ""
 "Map View."
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:90
+#: ../../build/doc/quickstart/openjump_quickstart.rst:93
 msgid ""
 "Try using this to move one of the vertices/points of the geometry you "
 "selected before by clicking on one of the vertices and dragging it "
 "(leaving the mouse button pressed)."
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:96
+#: ../../build/doc/quickstart/openjump_quickstart.rst:99
 msgid "What next?"
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:98
+#: ../../build/doc/quickstart/openjump_quickstart.rst:101
 msgid ""
 "This is only the first step on the road to using OpenJUMP. There is a lot"
 " more material left for you to discover."
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:100
+#: ../../build/doc/quickstart/openjump_quickstart.rst:103
 msgid ""
 "You can download tutorials for the OpenJUMP here: "
 "https://sourceforge.net/projects/jump-pilot/files/Documentation/"
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:102
+#: ../../build/doc/quickstart/openjump_quickstart.rst:105
 msgid ""
 "You can read the OpenJUMP wiki here: "
 "http://ojwiki.soldin.de/index.php?title=Main_Page"
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:104
+#: ../../build/doc/quickstart/openjump_quickstart.rst:107
 msgid ""
 "You can get help fast on the OpenJUMP users mailing list: "
 "https://groups.google.com/forum/#!forum/openjump-users"
 msgstr ""
 
-#: ../../build/doc/quickstart/openjump_quickstart.rst:106
+#: ../../build/doc/quickstart/openjump_quickstart.rst:109
 msgid ""
 "The latest OpenJUMP version can be found here: "
 "https://sourceforge.net/projects/jump-pilot/files/OpenJUMP/"

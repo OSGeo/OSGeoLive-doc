@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -124,11 +124,11 @@ msgstr ""
 msgid "**CRAN packages available:** https://cran.r-project.org/web/packages/available_packages_by_name.html"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:91
+#: ../../build/doc/overview/R_overview.rst:92
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:93
+#: ../../build/doc/overview/R_overview.rst:94
 msgid ":doc:`Quickstart documentation <../quickstart/R_quickstart>`"
 msgstr ""
 
