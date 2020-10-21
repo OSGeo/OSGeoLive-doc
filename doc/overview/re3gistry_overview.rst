@@ -17,9 +17,18 @@
 About
 --------------------------------------------------------------------------------
 
-The Re3gistry 2 is a reusable open source solution for managing and sharing "reference codes". Initially developed as a central component of the EU's :doc:`INSPIRE <inspire_overview>` infrastructure, it provides a consistent central access point where labels and descriptions for reference codes can be easily browsed by humans and retrieved by machines.
-Reference codes are exchanged between applications to uniquely reference some ‘thing’. They can be used to define sets of permissible values for a data field or to provide a reference or context for the data being exchanged. Examples are enumerations, controlled vocabularies, taxonomies, thesauri or, simply, ‘lists of things’.
-The Re3gistry 2 supports organisations in managing and updating reference codes in a consistent way. The Re3gistry software version numbers comply with the Semantic Versioning Specification 2.0.0.
+The Re3gistry 2 is a reusable open source solution for managing and sharing
+"reference codes". Initially developed as a central component of the EU's
+:doc:`INSPIRE <inspire_overview>` infrastructure, it provides a consistent
+central access point where labels and descriptions for reference codes can be
+easily browsed by humans and retrieved by machines.  Reference codes are
+exchanged between applications to uniquely reference some ‘thing’. They can be
+used to define sets of permissible values for a data field or to provide a
+reference or context for the data being exchanged. Examples are enumerations,
+controlled vocabularies, taxonomies, thesauri or, simply, ‘lists of things’.
+The Re3gistry 2 supports organisations in managing and updating reference codes
+in a consistent way. The Re3gistry software version numbers comply with the
+Semantic Versioning Specification 2.0.0.
 
 @SCREENSHOT_re3gistry@
 
@@ -65,4 +74,6 @@ Details
 @QUICKSTART_re3gistry@
 
 .. presentation-note
-   The Re3gistry provides a consistent central access point where labels and descriptions for reference codes can be easily browsed by humans and retrieved by machines.
+    The Re3gistry provides a consistent central access point where labels and
+    descriptions for reference codes can be easily browsed by humans and
+    retrieved by machines.
