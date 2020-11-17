@@ -56,7 +56,7 @@ Details
 
 **Spatial coordinate system:** WGS84.
 
-**Support:** https://www.naturalearthdata.com/forums/
+**Support:** https://www.naturalearthdata.com/about
 
 @VMDK_naturalearth@
 @QUICKSTART_naturalearth@
