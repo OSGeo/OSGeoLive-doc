@@ -33,7 +33,11 @@ Configure and start the service
 
 #. From the Start menu, select |osgeolive-appmenupath-pygeoapi|. The application will open a web page at http://localhost:5000 
 
-#. navigate to the user folder ``/usr/local/share/pygeoapi`` and locate a file ``pygeoapi-config.yml``. This file contains the configuration of the service. Open the file ``sudo less pygeoapi-config.yml``.  Update some parameters in the file, such as Title and Author.
+#. navigate to the user folder ``/usr/local/share/pygeoapi`` and locate a file ``pygeoapi-config.yml``. This file contains the configuration of the service. 
+
+#. Open the file ``sudo nano pygeoapi-config.yml``.  
+
+#. Update some parameters in the file, such as Title and Author. And Save the file.
 
 #. Restart the service, for example by closing the terminal and starting the service again
 
