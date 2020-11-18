@@ -37,6 +37,9 @@ Configure and start the service
 
 #. Restart the service, for example by closing the terminal and starting the service again
 
+   .. image:: /images/projects/pygeoapi/home.png
+    :scale: 70 %
+
 Configure new service
 ================================================================================
 
@@ -45,7 +48,7 @@ You'll now deploy a vector dataset in pygeoapi and expose its features as OGC AP
 pygeoapi supports a wide range of backends to use as vector source, e.g. geopackage, PostGIS, Elasticsearch, WFS, etc. Via the GDAL OGR provider an almost unlimited set of other vector sources can be added.
  
 Interesting datasets to expose as OAPI-Features consist of real world data having multiple attributes and links to other resources. 
-An example is https://ckan.dataplatform.nl/dataset/beperkingen-schiedam, a dataset listing all public limited areas in the city of Schiedam in the Netherlands, with various properties. 
+An example is https://ckan.dataplatform.nl/dataset/beperkingen-schiedam, a dataset listing all public limited areas in the city of Schiedam in the Netherlands. 
 This dataset happens to be available as a GeoJSON. We can configure it in pygeoapi using the GeoJSON provider.
  
 #.  Download the GeoJSON file and place it in the tests/data folder.
@@ -89,6 +92,9 @@ To create the layout of these HTML pages, pygeoapi uses a templating technique c
  
 Each Open API has an interactive documentation page at  http://localhost:5000/openapi. In this interactive webpage you can read about the various methods in the service, but also directly interact with them via web forms.
 
+   .. image:: /images/projects/pygeoapi/openapidoc.png
+    :scale: 70 %
+
 OGC API’s have been developed with the `spatial data on the web best practices <https://w3c.github.io/sdw/bp/#bp-summary>`_ in mind. An important aspect of these best practices is search engine optimization. Pygeoapi adds some crawl optimizations on top of the requirements of the Open API standards; Collection metadata can be crawled by search engines in a structured way, with the goal to make the collections discoverable in tools like Google Dataset Search. To evaluate the structured data capabilities you can use the Structured Data Testing tools of Yandex or Google. Copy the html source of the schiedam-limited-areas collection page (or the url of a collection page of an online pygeoapi instance) into a structured data testing tool and evaluate what structured data the tool is able to extract from it. The search engine will use that information in its datasets index.
  
 Using OAPI-Features in Desktop GIS
@@ -96,10 +102,16 @@ Using OAPI-Features in Desktop GIS
 
 In this quickstart we use QGIS to query the service, but similar workflow is possible in other GIS tooling, e.g. ArcGIS, FME, OpenLayers.
  
-Starting from QGIS 3.14 you can add an OAPI-Features layer as vector layer. From the ‘add layer’ menu select ‘Add WFS / OAPI-Features layer’.
+Starting from QGIS 3.14 you can add an OAPI-Features layer as vector layer. From the ``add layer`` menu select ``Add WFS / OAPI-Features layer``.
+
+   .. image:: /images/projects/pygeoapi/qgis-wfs.png
+    :scale: 70 %
 
 On the window that opens create a new connection, enter the url to the service http://localhost:5000.
  
+   .. image:: /images/projects/pygeoapi/qgis-layers.png
+    :scale: 70 %
+
 Click Ok, and then ``connect`` to load the available collections in the service.
 
 Select the ``schiedam-limited-areas`` collection and click ‘Add’ to add the layer in the QGIS map.
