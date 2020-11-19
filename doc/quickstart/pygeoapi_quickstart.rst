@@ -41,7 +41,7 @@ Configure and start the service
 
 #. Restart the service, for example by closing the terminal and starting the service again
 
-   .. image:: /images/projects/pygeoapi/home.png
+   .. image:: /images/projects/pygeoapi/pygeoapi_screenshot.png
     :scale: 70 %
 
 Configure new service
