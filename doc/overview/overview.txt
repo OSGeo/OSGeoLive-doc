@@ -78,6 +78,8 @@ Publishing spatial data to the internet:
 
 |nologo| :doc:`t-rex_overview` - [:doc:`QuickStart <../quickstart/t-rex_quickstart>`] - Vector Tile Service
 
+|osgeocommunity| :doc:`pygeoapi_overview` - [:doc:`QuickStart <../quickstart/pygeoapi_quickstart>`] - OGC Web Services
+
 Data Stores
 --------------------------------------------------------------------------------
 Storing spatial data:
