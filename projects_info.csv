@@ -41,6 +41,7 @@ Y | zoo-project | 1.7.0 | Y | Y | Web Services | | Web Processing Service | zoo-
 Y | t-rex | 0.9.0 | Y | Y | Web Services | | Vector Tile Service | t-rex | https://t-rex.tileserver.ch/ | | t-rex | Y
 Y | actinia | 0.2.1 | Y | Y | Web Services | | Processing of Geographical Data | actinia_core | https://actinia.mundialis.de/ | | Actinia | Y
 Y | re3gistry | 2.0.0 | Y | Y | Web Services | | Management of reference codes | re3gistry | https://github.com/ec-jrc/re3gistry | | Re3gistry | Y
+Y | pygeoapi | 0.8.0 | Y | Y | Web Services | | OGC Web Services | pygeoapi | https://pygeoapi.io/ | OSGeo_community | pygeoapi | Y
 ###################### | | | | | | | | | | | |
 # Data Stores | | | | | | | | | | | |
 ###################### | | | | | | | | | | || 
