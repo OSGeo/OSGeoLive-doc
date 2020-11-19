@@ -91,6 +91,7 @@ Y | jts | NA | N | Y | Geospatial Libraries | | Java Topology Suite | jts-topo-s
 ###################### | | | | | | | | | | | |
 Y | ogc | NA | N | Y | Geospatial Standards | | Open Geospatial Consortium | | https://www.ogc.org | | OGC | Y
 Y | inspire | NA | N | Y | Geospatial Standards | | Infrastructure for Spatial Information in Europe | | https://inspire.ec.europa.eu/about-inspire/563 | | INSPIRE | Y
+Y | pygeoapi | NA | Y | N | Geospatial Standards | | Python server implementation of the OGC API suite of standards | | https://pygeoapi.io/ | OSGeo_community | pygeoapi | Y
 ###################### | | | | | | | | | | | |
 # RETIRED | | | | | | | | | | | |
 ###################### | | | | | | | | | | ||
