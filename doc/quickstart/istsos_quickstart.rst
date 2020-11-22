@@ -150,7 +150,7 @@ First we will create a text file with sensor data, formatted according to "text/
 
 #. Open a text editor by selecting :menuselection:`Accessories --> FeatherPad`.
 
-#. Copy and paste the follOwing text into the text editor window:
+#. Copy and paste the following text into the text editor window:
 
     .. code-block:: rest
 
