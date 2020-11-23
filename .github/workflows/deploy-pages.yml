@@ -1,0 +1,46 @@
+# ------------------------------------------------------------------------------
+# GitHub Actions scripts 
+# Copyright(c) pgRouting Contributors
+#
+# Main configuration
+# ------------------------------------------------------------------------------
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install apt packages
+        run: |
+          sudo apt-get install cmake cpanminus
+          sudo cpanm Text::SimpleTable::AutoWidth
+
+      - name: Setup Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.6'
+          architecture: 'x64'
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install -r ./requirements.txt
+
+      - name: Build pages
+        run: |
+          mkdir build
+          cd build
+          bash ../ci/build-pages.sh
+
+      - name: Deploy pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build/doc/_build/html/
