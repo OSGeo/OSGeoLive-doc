@@ -9,7 +9,7 @@ name: Deploy GitHub Pages
 on:
   push:
     branches:
-      - travis-ci-to-gh-actions
+      - master
 
 jobs:
   deploy:
