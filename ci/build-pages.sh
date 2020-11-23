@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------------
-# Travis CI scripts 
+# GitHub Actions scripts 
 # Copyright(c) pgRouting Contributors
 #
 # Main configuration
