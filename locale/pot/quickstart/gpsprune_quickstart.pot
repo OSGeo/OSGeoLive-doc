@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2020-11-28 22:14-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "Start GpsPrune"
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:28
-msgid "From the Start menu, choose :menuselection:`Navigation and Maps --> GpsPrune`.  This will then give you the empty window shown below."
+msgid "From the Start menu, choose :menuselection:`Geospatial --> Navigation and Maps --> GpsPrune`.  This will then give you the empty window shown below."
 msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:33
