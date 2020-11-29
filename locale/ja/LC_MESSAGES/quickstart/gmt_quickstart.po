@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# MarPetra <mvergaratrejo@gmail.com>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:05+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:20
+msgid "GMT Quickstart"
+msgstr "GMTクイックスタート"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:22
+msgid ""
+"GMT is a collection of tools that allow users to manipulate (x,y) and "
+"(x,y,z) data sets (including filtering, trend fitting, gridding, projecting,"
+" etc.) and produce Encapsulated PostScript File (EPS) illustrations ranging "
+"from simple x-y plots through contour maps to artificially illuminated "
+"surfaces and 3-D perspective views in black and white, gray tone, hachure "
+"patterns, and 24-bit color."
+msgstr ""
+"GMTは、(x,y)および(x,y,z)のデータセット(フィルタリング、トレンドフィッティング、グリッド、投影など)を操作して、Encapsulated"
+" PostScript File(EPS)イラストレーションを生成するためのツール群です。EPSイラストレーションには、単純なx-"
+"yプロットから等高線マップ、人工的に照らされたサーフェス、白黒、グレートーン、アッシャパターン、24ビットカラーの3Dパースビューまでがあります。"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:29
+msgid ""
+"In this quick GMT tutorial we will use a digital terrain model (DTM) to "
+"generate a shaded relief map."
+msgstr "このクイックGMTチュートリアルでは、デジタル地形モデル(DTM)を使用して、シェーディングされた防災地図を生成します。"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:35
+msgid "Create a map"
+msgstr "マップを作成する"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:37
+msgid ""
+"As our input dataset we will use a DTM from the GRASS GIS example dataset, "
+"which is accessible by GDAL using the GDAL-GRASS driver."
+msgstr ""
+"入力データセットとして、GRASS GISサンプルデータセットからのDTMを使用します。これは、GDAL-"
+"GRASSドライバを使用してGDALからアクセス可能です。"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:39
+msgid ""
+"From a quick look at the DTM metadata, open a terminal and use the GDAL "
+"command `gdalinfo`:"
+msgstr "DTMメタデータをざっと見て、端末を開き、GDALコマンド`gdalinfo`:"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:51
+msgid ""
+"We can see the DTM is in a projected coordinate system and the data range is"
+" between 50 and 160 meters."
+msgstr "DTMが投影された座標系にあり、データ範囲が50～160メートルであることがわかります。"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:53
+msgid ""
+"We can convert the DTM in a GMT Compatible netCDF file format with "
+"`gdal_translate` as follow:"
+msgstr "`gdal_translate`を使用して、GMT互換のnetCDFファイル形式のDTMを次のように変換できます。"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:59
+msgid ""
+"For our GMT example we will first transform the dataset into geographic "
+"coordinates Longitude-Latitude (EPSG:4326) using the `gdalwarp` command:"
+msgstr "GMTの例では、最初に`gdalwarp`コマンドを使用して、データセットを地理座標(経度-緯度)(EPSG:4326)に変換します。"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:66
+msgid "Make a color palette"
+msgstr "カラーパレットを作成"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:68
+msgid ""
+"To assign a color map to our grid we can make a GMT color palette tables "
+"with the `makecpt` command. We will set the range and number of colors with "
+"the flag `-T` and assign a colormap with the flag `-C`."
+msgstr ""
+"グリッドにカラーマップを割り当てるには、`makecpt`コマンドを使用してGMTカラーパレットテーブルを作成します。`-T`フラグで色の範囲と数を設定し、`-C`フラグでカラーマップを割り当てます。"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:76
+msgid ""
+"You can experiment with other colortables, see `man gmt makecpt` for a "
+"complete list."
+msgstr "他のcolortablesを試してみることもできます。完全なリストについては、`man gmt makecpt`を参照してください。"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:79
+msgid "Define the gradient"
+msgstr "グラデーションを定義"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:81
+msgid ""
+"For our shaded relief example we need to specify show how the color "
+"intensity is distributed along the grid. To do so, we will compute the "
+"directional derivative, or gradient, from our grid using the `grdgradient` "
+"command. In `grdgradient` we will use the `-Ne` flag to normalize the output"
+" using a cumulative Laplace distribution and the `-A` flag for Azimuthal "
+"direction for a directional derivative."
+msgstr ""
+"シェーディングされた防災地図の例では、カラー強度がグリッドに沿ってどのように分布しているかを表示するように指定する必要があります。そのために、「grdgradient」コマンドを使用して、グリッドから方向の導関数、つまり勾配を計算します。「grdgradient」では、「-Ne」フラグを使用して、累積ラプラス分布を使用して出力を正規化し、「-A」フラグを方位角方向の方向微分に使用します。"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:89
+msgid ""
+"The output is a netCDF file which can then be used as color intensity by the"
+" `grdimage` command as follow:"
+msgstr "出力はnetCDFファイルで、次のように`grdimage`コマンドでカラー強度として使用できます。"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:96
+msgid "Display the color bar"
+msgstr "カラーバーを表示"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:98
+msgid "Finally we can add a colorbar with `psscale`:"
+msgstr "最後に、`psscale`を使ってカラーバーを追加します:"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:105
+msgid ""
+"Here the flag `-D` is used to select the colorbar position `TC: Top Center`,"
+" the size `5x0.25` expressed in inches `i` the orientation by `h: "
+"horizontal` and the flag `-By` to set a label `m` on the `y axis`."
+msgstr ""
+"ここでは、フラグ`-D`を使用して、カラーバーの位置`TC:Top "
+"Center`、サイズ`5x0.25`をインチ`i`で表したもの、方向を`h:horizontal`で表したもの、フラグ`-By`を使用してラベル`m`を`y軸`に設定したものを選択します。"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:108
+msgid "The output ps document should look like:"
+msgstr "出力されるps文書は次のようになります:"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:117
+msgid "Things to try"
+msgstr "試してみること"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:119
+msgid ""
+"Look at some of the examples found in: `/usr/share/doc/gmt/examples "
+"<../../gmt/examples/>`_"
+msgstr "次の例を見てください。`/usr/share/doc/gmt/examples<././gmt/examples/>`_"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:127
+msgid ""
+"Go through the GMT tutorial and follow the several examples available in the"
+" src code. There are 30 example jobs built in, to test:"
+msgstr ""
+"GMTチュートリアルを実行し、srcコードで利用可能ないくつかの例に従ってください。30のサンプルジョブが組み込まれています。テストするには:"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:130
+msgid "Open a terminal, then"
+msgstr "端末を開き、次に"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:138
+msgid ""
+"To view the results in Ghostview (http://www.gnu.org/software/gv/) , use "
+"command `gv`. Type `q` to quit Ghostview."
+msgstr ""
+"結果をGhostview(http://www.gnu.org/software/gv/))で表示するには、コマンド`gv`を使用します。`q`と入力してGhostviewを終了します。"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:147
+msgid "What next?"
+msgstr "次のステップ"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:149
+msgid ""
+"Have a read of the local documentation stored in: `/usr/share/doc/gmt/html/ "
+"<../../gmt/html/index.html>`_"
+msgstr ""
+"`/usr/share/doc/gmt/html/<././gmt/html/index.html>`_に保存されているローカルのドキュメントを読んでください。"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:151
+msgid "Website: https://gmt.soest.hawaii.edu"
+msgstr "Webサイト: https://gmt.soest.hawaii.edu"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:153
+msgid "Support: https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
+msgstr "サポート: https://gmt.soest.hawaii.edu/projects/gmt/boards/1"

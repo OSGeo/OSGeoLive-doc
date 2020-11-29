@@ -1,0 +1,415 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# MarPetra <mvergaratrejo@gmail.com>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:05+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:20
+msgid "JOSM Quickstart"
+msgstr "JOSM クイック スタート"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:22
+msgid ""
+"JOSM is a feature rich, extensible, offline desktop editor for OpenStreetMap"
+" (OSM) data, written in Java."
+msgstr ""
+"JOSM は、 Java で記述された OpenStreetMap (OSM) "
+"データ用の、機能豊富で、拡張可能な、オフラインのデスクトップエディタです。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:24
+msgid ""
+"It supports loading stand-alone GPX tracks and GPX track data as well as "
+"editing existing nodes (points), ways (lines), metadata tags (name/value "
+"information) and relations (ordered sequence of points and lines) from the "
+"OSM database. GPX tracks, are usually downloaded in advance from a GPS "
+"receiver or from other sources."
+msgstr ""
+"スタンドアロン GPX トラックや GPX トラックデータの読み込みと共に、OSM データベースから既存のノード (点) 、ウェイ (ライン) "
+"、メタデータタグ (名前/値の情報) 、リレーション (点と線の順序付けられたシーケンス) の編集をサポートしています。GPX トラックは、通常、GPS"
+" 受信機または他のソースから事前にダウンロードされます。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:26
+msgid "This quickstart covers basic usage of the Java OpenStreetMap editor."
+msgstr "このクイックスタートでは、Java OpenStreetMapエディターの基本的な使い方について説明します。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:32
+msgid "Start JOSM"
+msgstr "JOSM を起動する"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:34
+msgid ""
+"From the desktop, choose :menuselection:`Navigation and Maps --> JOSM`. When"
+" JOSM starts, it will look something like this:"
+msgstr ""
+"デスクトップから:menuselection:`Navigation and "
+"Maps-->JOSM`を選択します。JOSMが始まると、次のようになります。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:41
+msgid "Load a sample (ficticious) map"
+msgstr "サンプル(架空)マップをロードする"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:43
+msgid ""
+"Now let’s open up a sample OSM file which we will use to learn the basic "
+"ways to draw maps with JOSM. Note that this map is not real, in that it is "
+"not a real map of a real place, so we will not save it on OpenStreetMap."
+msgstr ""
+"次に、サンプルのOSMファイルを開きます。このファイルを使用して、JOSMを使用してマップを描画する基本的な方法を学習します。このマップは実際の場所の実際のマップではないため、OpenStreetMapには保存しません。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:47
+msgid ""
+"Download the file here: `sample.osm "
+"<https://learnosm.org/files/sample.osm>`__"
+msgstr ""
+"ここでファイルをダウンロードしてください： `sample.osm <https://learnosm.org/files/sample.osm>` "
+"__"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:48
+msgid ""
+"Now let’s open the sample map file in JOSM. Click the “Open” button in the "
+"upper left."
+msgstr "次に、JOSMでサンプルの地図を開きます。JOSMの左上に表示されている\"ファイルを開く\"ボタンを押してください。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:54
+msgid ""
+"Find the file **sample.osm**. It is probably in your Downloads folder, "
+"unless you saved it somewhere else."
+msgstr "**sample.osm**ファイルを探します。別の場所に保存していない限り、通常はDownloadsフォルダにあります。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:56
+msgid ""
+"Click on it, and then click “Open”. You should now see a sample map that "
+"looks like this:"
+msgstr "ファイルをクリックして、もう一度\"Open\"をクリックしてください。サンプルの地図が開き、次のように表示されます。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:62
+msgid ""
+"You will use these data in order to try various editing techniques. *You "
+"must however never upload these fictitious data to the database.*"
+msgstr "これらのデータを使用して、さまざまな編集方法を試します。*ただし、これらの架空のデータをデータベースにアップロードしないでください。*"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:67
+msgid "Navigate the map"
+msgstr "マップをナビゲートする"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:69
+msgid ""
+"To move the map left or right, up or down, hold your right mouse button "
+"down, and move your mouse."
+msgstr "画面上で右クリックをしたままマウスを動かすと、表示領域を上下左右に移動させることができます。。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:71
+msgid ""
+"There are several ways to zoom in and out of the map. If you have a mouse, "
+"you can use your scroll wheel to zoom in and out. If you are using a laptop "
+"and don’t have a mouse, you can zoom in and out using the scale bar in the "
+"upper left of the map window. Drag the bar left and right by holding your "
+"left mouse down and moving the bar left or right with your mouse."
+msgstr ""
+"表示領域の拡大/縮小を行うにはいくつかの方法があります。マウスが使える場合は、マウスのスクロールホイールを回転させることで、拡大と縮小が可能です。ラップトップを使用していて、トラックパッドやタッチパッドを使っていてマウスがない場合は、地図の左上に表示されている+と-のボタンをクリックしてください。マウスを左クリックしたままバーを左右に動かすことで、地図の拡大と縮小ができます。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:82
+msgid ""
+"Look at the sample map. There a few different types of objects here. There "
+"is a river, a forest, some buildings, several roads, and a couple of shops. "
+"To select an object, click on it with your left mouse button."
+msgstr ""
+"サンプルの地図を見てみましょう。種類の違うオブジェクトがいくつか表示されています。表示されているのは、河川が1つ、森林が1つ、そして建物と道路がいくつか、複数の店舗です。オブジェクトを選択するには、対象を左クリックしてください。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:88
+msgid "Points, lines, and shapes"
+msgstr "ポイント、ライン、シェイプ"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:90
+msgid ""
+"As you click different objects on the sample map, notice that there are "
+"three different types of objects on the map. There are points, lines, and "
+"shapes."
+msgstr ""
+"地図の上のオブジェクトをいくつかクリックしているうちに、オブジェクトにはポイント、ライン、シェイプの3つの種類があることに気がつくかもしれません。ポイント、ライン、シェイプがあります。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:92
+msgid ""
+"Points are a single location, represented by symbols. On this sample map, "
+"there are two points, a shoe shop and a supermarket. The shoe shop is "
+"represented by a shoe symbol, and the market is represented by a shopping "
+"cart."
+msgstr ""
+"ポイントとは単一の地点で、シンボルによって表現されます。このサンプルマップには、靴屋とスーパーマーケットの2つのポイントがあります。靴屋は靴のシンボルで表され、市場はショッピングカートで表されます。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:96
+msgid ""
+"There are several lines on the map as well, which represent roads. If you "
+"look closely you will see that within the lines, there are points as well. "
+"These points don’t have any symbols or other information associated with "
+"them, but they help to define where the line is located."
+msgstr ""
+"その他、地図に描かれているいくつかのラインは道路を表現しています。ラインの細部を表示させると、ラインの中にいくつかのポイントが存在していることがわかります。これらのポイントは特定のシンボルや情報を持っておらず、ラインがどの地点を通過しているのかを指し示しています。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:101
+msgid ""
+"Lastly, there are numerous shapes on the sample map, representing different "
+"places - a forest, a river, a park, and buildings. A shape is used to "
+"represent an area, like a field or a building. A shape is exactly like a "
+"line - the only difference is that the line begins at the same point where "
+"it ends."
+msgstr ""
+"最後に、地図の上には多くのシェイプが存在し、森や河川、公園、建物など、それぞれ異なる地点を表現しています。シェイプは基本的に、区域や建物など、なんらかのエリアを表しています。シェイプはラインに非常によく似ていますが、唯一、ラインの始点と終点が1つのポイントになっていることが異なっています。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:107
+msgid ""
+"It's easy to think of a map as containing these three basic types of objects"
+" - points, lines, and shapes. In OpenStreetMap there is special terminology "
+"which you will come to learn as you progress. In OSM, points are actually "
+"called **nodes**, and lines are called **ways**. A shape is called a "
+"**closed way** because it is just a line that ends at the same point where "
+"it begins."
+msgstr ""
+"地図には基本的に、ポイント・ライン・シェイプという3つのタイプのオブジェクトしかない、とかんがえるととてもシンプルです。これから先、OpenStreetMapについて調べてゆくと、これらを別の単語で表現していることがあります。"
+" ポイントは実際には ノード(node) と呼ばれ、ラインは ウェイ "
+"と呼ばれます。シェイプは、データ上では始点と終点が同一の地点にあるだけのウェイなので 閉じたウェイ(closed way) と呼ばれます。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:114
+msgid ""
+"You may notice that when you select an object, a list appears to the right "
+"of the map in a window called “Properties”. These are known as tags. Tags "
+"are information that is tied to a point, line or shape that describes what "
+"it is. We’ll learn more about tags in a later chapter. For now all you need "
+"to know is that this information helps describe whether our object is a "
+"forest, a river, a building, or something else."
+msgstr ""
+"オブジェクトを選択すると、JOSMの画面右側に”プロパティ”と呼ばれるリストが表示されることに気がつくかもしれません。ここに表示される値はタグと呼ばれます。タグとは、ポイントやライン、シェイプに関連付けられた情報で、その地点が何を表しているかを示しています。タグについては、後の章で詳しく説明します。いまのところ、森林や河川、建物などの内容はタグに書かれた情報によって表されている、ということを知っているだけでかまいません。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:121
+msgid ""
+"Think about drawing a map by hand, and how you are also drawing points, "
+"lines, and shapes. What other places are best represented by points? Lines? "
+"Shapes?"
+msgstr ""
+"地図を手書きで書くときを思い出してください。ポイントやライン、シェイプをどのように使って描くと、地図がよりわかりやすくなるでしょうか。他にはどんな場所をポイントで表すのが一番いいですか?ライン?シェイプ?"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:126
+msgid "Changing objects"
+msgstr "オブジェクトの編集"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:128
+msgid ""
+"Select the forest on the left side of the map. Be sure to click on the line "
+"around the forest, not one of the points on the line."
+msgstr "地図の左側にある森林を選択してみましょう。森林をあらわしているラインを選択します。ラインの上にあるポイントではないので注意してください。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:130
+msgid ""
+"Now hold your left mouse button down and drag your mouse. You should be able"
+" to move the forest to a new location on the map."
+msgstr ""
+"選択ができたら、森林を選択した状態でマウスを左クリックし、クリックしたままマウスをドラッグさせてみましょう。地図の中の別の場所へ森林を移動させることができます。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:131
+msgid ""
+"Click on one of the points on the line around the forest. Hold your left "
+"mouse button down and drag your mouse. You should be able to move the point."
+" This is how you can change the shape of an object, or move a point."
+msgstr ""
+"森林をあらわすラインの中にあるポイントを、どこか1つクリックして選択して下さい。マウスを左クリックした状態で、クリックしたままマウスをドラッグさせてみましょう。ポイントを移動させることができます。オブジェクトの位置を変更したい場合や、オブジェクトの形を変更したい場合はこのようにして行います。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:137
+msgid "Drawing"
+msgstr "地図の描画"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:139
+msgid ""
+"On the left side of JOSM is a column of buttons. Many of these buttons open "
+"new windows on the right side that provide more information about the map. "
+"The most important buttons, however, are at the top of these column. These "
+"buttons change what you can do with your mouse."
+msgstr ""
+"JOSM画面の左側には、多くのボタンが配置されています。それらのボタンを押すと右側に新しいボックスが表示され、地図に対する情報がより多く表示されます。しかし、それらのボタンのなかで最も重要なのは、列の一番上に表示されているボタンです。これらのボタンは、マウスで実施できる挙動を変更します。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:144
+msgid ""
+"The top buttons in this column are the ones you will use the most. They are "
+"used for selecting objects and for drawing new ones."
+msgstr ""
+"最も重要なボタンは、このカラムの一番上のほうに配置されています。これらのボタンをクリックすると、オブジェクトの選択や描画を行うことができます。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:146
+msgid "Until now, you have been using the Select tool, which looks like this:"
+msgstr "ここまでの操作では、”選択”ツールを使用してきています。以下のアイコンです。:"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:153
+msgid "Before you draw, you need to make sure that nothing is selected."
+msgstr "描画を行う際には、地図のどのオブジェクトも選択していないことを確認してください。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:155
+msgid ""
+"Click in the black space on the map, where it is empty, to make sure nothing"
+" is selected."
+msgstr "なにもオブジェクトが描かれていない、地図の黒い地点をクリックすることで、なにも選択していない状態にすることができます。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:157
+msgid "Click on the second button, the Draw tool."
+msgstr "2番目のボタン”描画”をクリックしてみましょう。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:163
+msgid ""
+"Find an empty area on the map, and double-click with your mouse. This will "
+"draw a single point."
+msgstr "地図の何も書かれていない地点でダブルクリックしてみてください。単一の地点が1つ描画されます。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:166
+msgid ""
+"To draw a line, single-click with your mouse. Move your mouse and click "
+"again. Continue until you are happy with your line. To end the line, double-"
+"click your mouse."
+msgstr ""
+"ラインを描画するには、まずどこかでクリックを1回行います。そのままマウスを移動させ、別の場所でもう一度クリックします。ラインの形ができるまで、移動させてクリックを繰り返します。ダブルクリックを行うと、そこでラインの描画は終了となります。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:169
+msgid ""
+"Draw a shape the same way that you draw a line, but finish the shape by "
+"double-clicking on the point where you started the line."
+msgstr "シェイプを描くには、ラインと同じような操作をした後、ラインを描き始めたポイントでダブルクリックします。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:173
+msgid "Add presets"
+msgstr "プリセットの適用"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:175
+msgid ""
+"Now we know how to draw points, lines and shapes, but we still haven’t "
+"defined what they represent. We want to be able to say that our points are "
+"shops, schools, or something else, and whether our shapes are fields, "
+"buildings, or something else."
+msgstr ""
+"ポイント、ライン、シェイプを描画する方法はわかりました。単にポイントを描いただけでは、そのポイントが何を表しているのか不明瞭なままです。ポイントを追加するときには、それが店舗なのか、学校なのか、それとも他の施設なのかを示しましょう。シェイプについても同様で、そこがなにに使われている土地なのか、それとも建物なのか、などを示します。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:177
+msgid "Click on the Select tool, in the column of buttons on the left."
+msgstr "画面左側にあるカラムから、”選択”ツールをクリックしてください。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:183
+msgid "Select one of the objects that you drew with the Draw tool."
+msgstr "描画ツールを選択した状態で、編集したいオブジェクトの一部をクリックしてください。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:184
+msgid ""
+"On the top menu, click “Presets” and choose the type of location you would "
+"like to define."
+msgstr ""
+"トップメニューに表示されている”プリセット”をクリックしてください。より詳細なメニューが表示されますので、地点に対して定義したい種別が表示されるまでマウスを移動させてください。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:185
+msgid ""
+"When you choose on a preset, a form will pop up asking you for more "
+"information. You do not have to fill in every field, but you may wish to add"
+" some of the important fields, such as the name of the object."
+msgstr ""
+"プリセットをクリックすると、詳細な情報入力を促すポップアップが表示されます。すべての項目を入力する必要はありませんが、地点の名称など、いくつかの重要な項目については入力ができるとよいでしょう。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:188
+msgid ""
+"When you are finished entering the information, click “Apply Preset”. If "
+"everything went well, your point, line, or shape should change colors or "
+"show a symbol. This is because you have defined what it is."
+msgstr ""
+"情報の入力が終わったら、”プリセットの適用”をクリックしてください。以上の操作でオブジェクトに対して情報が追加され、ポイントやライン、シェイプの表示色変更、あるいはシンボル表示の変更などが行われます。これで、何であるかの定義をおこなうことができました。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:193
+msgid "Draw your own map"
+msgstr "地図を描いてみましょう"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:195
+msgid ""
+"Now let’s draw a map in order to practice the techniques you have learned. "
+"You may wish to redraw the map that you drew on paper previously."
+msgstr ""
+"それでは、ここまでで紹介したテクニックを実践するため、実際に自分自身の地図を描いてみましょう。題材として、あなたが紙の上に描いた地図を取り上げます。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:197
+msgid ""
+"Drag the map away from the sample map. Hold the right mouse button and drag "
+"your mouse, until you have a nice empty area to draw on."
+msgstr "サンプルの地図表示が画面外になるよう、表示位置を変更します。マウスを右クリックし、何も書かれていない場所までドラッグして移動します。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:199
+msgid ""
+"Use the Draw tool to create points, lines, and shapes. Describe what your "
+"objects are by selecting from the Presets menu."
+msgstr ""
+"描画ツールを使って、ポイント、ライン、シェイプを描いてみてください。描かれたオブジェクトの内容を示すには、プリセットメニューから適切な内容を選択します。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:201
+msgid ""
+"When you are finished, you should have your own map, similar to the sample "
+"map that we opened in sample.osm."
+msgstr "自分自身の地図を書き終えたら作業完了です。”sample.osm”で表示されていた地図のように描けたでしょうか？"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:205
+msgid "Remove the sample layer"
+msgstr "サンプル レイヤーを削除する"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:207
+msgid ""
+"Once you feel comfortable with these basic editing techniques you might want"
+" to turn your attention to mapping real features."
+msgstr "これらの基本的な編集テクニックに慣れてきたら、実際のフィーチャのマッピングにうつるとよいでしょう。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:210
+msgid ""
+"*It is very important that you first remove the layer with the sample data. "
+"These data are fictitious and must not be uploaded to the OpenStreetMap "
+"database (newer JOSM releases automatically prevent this).*"
+msgstr ""
+"*最初にサンプルデータを含むレイヤーを削除することが非常に重要です。これらのデータは架空のものであり、OpenStreetMapデータベースにアップロードしないでください(新しいJOSMリリースでは自動的にこの問題が回避されます)。*"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:212
+msgid ""
+"In the Layers window on the upper right of the screen select the sample.osm "
+"layer. Then click on the trash can icon in the lower right corner of that "
+"window. Alternatively you can choose delete from the context menu of the "
+"layer."
+msgstr ""
+"画面の右上にあるLayersウィンドウで、sample.osmレイヤを選択します。次に、そのウィンドウの右下隅にあるごみ箱アイコンをクリックします。または、レイヤのコンテキストメニューから[削除]を選択することもできます。"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:218
+msgid "What next?"
+msgstr "次のステップ"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:220
+msgid ""
+"Try the LearnOSM documentation, from which this quickstart was derived: "
+"https://learnosm.org/en/josm/start-josm/"
+msgstr ""
+"このクイックスタートの元となったLearnOSMドキュメントを試してください： https://learnosm.org/en/josm/start-"
+"josm/"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:222
+msgid ""
+"In order to continue editing you first need to download real data. This is "
+"explained in the next chapter: https://learnosm.org/en/josm/more-about-josm/"
+msgstr ""
+"編集を続けるには、まず実際のデータをダウンロードする必要があります。これ以降は、次の文書で説明します: "
+"https://learnosm.org/en/josm/more-about-josm/"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:225
+msgid "Website: https://josm.openstreetmap.de/"
+msgstr "**Webサイト:** https://josm.openstreetmap.de/"

@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2019-07-18 21:57+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/t-rex_overview.rst:13
+msgid "t-rex"
+msgstr "t-rex"
+
+#: ../../build/doc/overview/t-rex_overview.rst:16
+msgid "Vector Tile Service"
+msgstr "ベクタータイルサービス"
+
+#: ../../build/doc/overview/t-rex_overview.rst:18
+msgid ""
+"t-rex is a vector tile server specialized on publishing MVT tiles from your "
+"own data."
+msgstr "t-rexは、独自のデータからMVTタイルを配信することに特化したベクタータイルサーバです。"
+
+#: ../../build/doc/overview/t-rex_overview.rst:27
+msgid "Core Features"
+msgstr "主要機能"
+
+#: ../../build/doc/overview/t-rex_overview.rst:29
+msgid "Support for PostGIS databases and GDAL vector formats"
+msgstr "PostGISデータベースとGDALベクターフォーマットのサポート"
+
+#: ../../build/doc/overview/t-rex_overview.rst:30
+msgid "Auto-detection of layers in data source"
+msgstr "データソース内のレイヤーの自動検出"
+
+#: ../../build/doc/overview/t-rex_overview.rst:31
+msgid "Built-in viewers for data display and inspection"
+msgstr "データ表示および検査用の組み込みビューア"
+
+#: ../../build/doc/overview/t-rex_overview.rst:32
+msgid "Tile generation command with simple parallelization"
+msgstr "シンプルな並列化によるタイル生成コマンド"
+
+#: ../../build/doc/overview/t-rex_overview.rst:33
+msgid "Automatic reprojection to grid CRS"
+msgstr "グリッドCRSへの自動再投影"
+
+#: ../../build/doc/overview/t-rex_overview.rst:34
+msgid "Support for custom tile grids"
+msgstr "カスタムタイルグリッドのサポート"
+
+#: ../../build/doc/overview/t-rex_overview.rst:38
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/t-rex_overview.rst:40
+msgid "**Website:** https://t-rex.tileserver.ch/"
+msgstr "**ウェブサイト:** https://t-rex.tileserver.ch/"
+
+#: ../../build/doc/overview/t-rex_overview.rst:42
+msgid "**Licence:** `MIT license <https://opensource.org/licenses/MIT>`_"
+msgstr "**ライセンス:** `MIT license <https://opensource.org/licenses/MIT>`_"
+
+#: ../../build/doc/overview/t-rex_overview.rst:44
+msgid "**Software Version:** |version-t-rex|"
+msgstr "**ソフトウェアバージョン:**version-t-rex"
+
+#: ../../build/doc/overview/t-rex_overview.rst:46
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/t-rex_overview.rst:48
+msgid "**API Interfaces:** http, Mapbox Vector Tiles"
+msgstr "**APIインターフェイス:** http, Mapbox Vector Tiles"
+
+#: ../../build/doc/overview/t-rex_overview.rst:50
+msgid "**Support:** https://github.com/t-rex-tileserver/t-rex/"
+msgstr "**サポート:** https://github.com/t-rex-tileserver/t-rex/"
+
+#: ../../build/doc/overview/t-rex_overview.rst:55
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/t-rex_overview.rst:57
+msgid ":doc:`Quickstart documentation <../quickstart/t-rex_quickstart>`"
+msgstr ":doc:`クイックスタートドキュメント<./quickstart/t-rex_quickstart>`"

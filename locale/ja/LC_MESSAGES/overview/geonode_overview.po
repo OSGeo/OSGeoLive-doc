@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# MarPetra <mvergaratrejo@gmail.com>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:08+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/geonode_overview.rst:17
+msgid "GeoNode"
+msgstr ""
+
+#: ../../build/doc/overview/geonode_overview.rst:20
+msgid "Geospatial Content Management System"
+msgstr "地理空間コンテンツ管理システム"
+
+#: ../../build/doc/overview/geonode_overview.rst:22
+msgid ""
+"`GeoNode <https://geonode.org>`_ is a Content Management System for "
+"geospatial data which provides creation, sharing, and collaborative use of "
+"geospatial data. Datasets can be uploaded in various formats, maps can be "
+"edited, styled and aggregated through browser based tools, maps and metadata"
+" can be published and searched, and reviews, ratings and comments can be "
+"captured from users."
+msgstr ""
+"`GeoNode<https://geonode.org>`_は地理空間データのためのコンテンツ管理システムであり、地理空間データの作成、共有、および共同使用の仕組みを提供します。データセットはさまざまな形式でアップロードでき、マップはブラウザベースのツールを使用して編集、スタイル設定、集計を行うことができ、マップとメタデータを公開して検索することができ、レビュー、評価、コメントをユーザーから取得することができます。"
+
+#: ../../build/doc/overview/geonode_overview.rst:24
+msgid ""
+"GeoNode is built upon: GeoServer, GeoExplorer, pycsw, Django, and GeoExt."
+msgstr "GeoNodeは、GeoServer、GeoExplorer、pycsw、Django、およびGeoExtに基づいて構築されています。"
+
+#: ../../build/doc/overview/geonode_overview.rst:33
+msgid "Core Features"
+msgstr "主要機能"
+
+#: ../../build/doc/overview/geonode_overview.rst:35
+msgid "Spatial Data Discovery"
+msgstr "空間データ探索"
+
+#: ../../build/doc/overview/geonode_overview.rst:37
+msgid "Powerful spatial search engine"
+msgstr "強力な空間検索エンジン"
+
+#: ../../build/doc/overview/geonode_overview.rst:38
+msgid "Federated OGC services"
+msgstr "統合OGCサービス"
+
+#: ../../build/doc/overview/geonode_overview.rst:39
+msgid "Metadata catalogue"
+msgstr "メタデータカタログ"
+
+#: ../../build/doc/overview/geonode_overview.rst:41
+msgid "Import and Manage Geospatial Data"
+msgstr "地理空間データのインポートと管理"
+
+#: ../../build/doc/overview/geonode_overview.rst:43
+msgid "Publish raster, vector, and tabular data"
+msgstr "ラスタ、ベクタ、テーブルデータをパブリッシュする"
+
+#: ../../build/doc/overview/geonode_overview.rst:44
+msgid "Manage metadata and associated documents"
+msgstr "メタデータと関連ドキュメントを管理する"
+
+#: ../../build/doc/overview/geonode_overview.rst:45
+msgid "Securely or publicly share data"
+msgstr "データを安全に共有する、あるいは公開する"
+
+#: ../../build/doc/overview/geonode_overview.rst:46
+msgid "Versioned geospatial data editor"
+msgstr "バージョン管理された空間データエディタ"
+
+#: ../../build/doc/overview/geonode_overview.rst:48
+msgid "Interactive Mapping"
+msgstr "インタラクティブマッピング"
+
+#: ../../build/doc/overview/geonode_overview.rst:50
+msgid "GeoExplorer GIS client"
+msgstr "GeoExplorer GISクライアント"
+
+#: ../../build/doc/overview/geonode_overview.rst:51
+msgid "Graphical style editor"
+msgstr "スタイル編集画面"
+
+#: ../../build/doc/overview/geonode_overview.rst:52
+msgid "Create multi-layer interactive maps"
+msgstr "マルチレイヤインタラクティブマップを作成する"
+
+#: ../../build/doc/overview/geonode_overview.rst:53
+msgid "Share and embed maps in web pages"
+msgstr "マップを共有してWebページに埋め込む"
+
+#: ../../build/doc/overview/geonode_overview.rst:54
+msgid "Print maps as PDF"
+msgstr "マップをPDFとして印刷する"
+
+#: ../../build/doc/overview/geonode_overview.rst:56
+msgid "Collaboration"
+msgstr "コラボレーション"
+
+#: ../../build/doc/overview/geonode_overview.rst:58
+msgid "Review, rate, and comment on data"
+msgstr "データのレビュー、評価、コメント"
+
+#: ../../build/doc/overview/geonode_overview.rst:59
+msgid "Groups of users"
+msgstr "ユーザーのグループ"
+
+#: ../../build/doc/overview/geonode_overview.rst:60
+msgid "Activity streams"
+msgstr "アクティビティストリーム"
+
+#: ../../build/doc/overview/geonode_overview.rst:61
+msgid "Announcements and notifications"
+msgstr "アナウンスと通知"
+
+#: ../../build/doc/overview/geonode_overview.rst:63
+msgid "... and more!"
+msgstr "などなど ..."
+
+#: ../../build/doc/overview/geonode_overview.rst:66
+msgid "Implemented Standards"
+msgstr "実装されている標準規格"
+
+#: ../../build/doc/overview/geonode_overview.rst:69
+msgid "|WMS|"
+msgstr "|WMS|"
+
+#: ../../build/doc/overview/geonode_overview.rst:70
+msgid "|CSW|"
+msgstr "|CSW|"
+
+#: ../../build/doc/overview/geonode_overview.rst:71
+msgid "|WFS|"
+msgstr "|WFS|"
+
+#: ../../build/doc/overview/geonode_overview.rst:72
+msgid "|WCS|"
+msgstr "|WCS|"
+
+#: ../../build/doc/overview/geonode_overview.rst:73
+msgid "|FE|"
+msgstr "|FE|"
+
+#: ../../build/doc/overview/geonode_overview.rst:74
+msgid "|SLD|"
+msgstr "|SLD|"
+
+#: ../../build/doc/overview/geonode_overview.rst:75
+msgid "|GML|"
+msgstr "|GML|"
+
+#: ../../build/doc/overview/geonode_overview.rst:78
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/geonode_overview.rst:80
+msgid "**Website:** https://geonode.org"
+msgstr "**Webサイト:** https://geonode.org"
+
+#: ../../build/doc/overview/geonode_overview.rst:82
+msgid "**Licence:** GNU General Public License (GPL) version 2.0"
+msgstr "**ライセンス:** GNU General Public License (GPL) version 2.0"
+
+#: ../../build/doc/overview/geonode_overview.rst:84
+msgid "**Software Version:** |version-geonode|"
+msgstr "**ソフトウェアバージョン:** |version-geonode|"
+
+#: ../../build/doc/overview/geonode_overview.rst:86
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/geonode_overview.rst:88
+msgid "**API Interfaces:** Python (Django)"
+msgstr "**API インターフェイス:** Python (Django)"
+
+#: ../../build/doc/overview/geonode_overview.rst:90
+msgid "**Support:** https://www.osgeo.org/service-providers"
+msgstr "**サポート:** https://www.osgeo.org/service-providers"
+
+#: ../../build/doc/overview/geonode_overview.rst:95
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/geonode_overview.rst:97
+msgid ":doc:`Quickstart documentation <../quickstart/geonode_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/geonode_quickstart>`"

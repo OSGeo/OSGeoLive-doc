@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Toshikazu SETO <tosseto@gmail.com>, 2017
+# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:08+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/cesium_overview.rst:13
+msgid "Cesium"
+msgstr "Cesium"
+
+#: ../../build/doc/overview/cesium_overview.rst:16
+msgid "About"
+msgstr "About"
+
+#: ../../build/doc/overview/cesium_overview.rst:19
+msgid "3D Globes and 2D Maps in a Browser"
+msgstr "ブラウザ上の3次元地球儀と2次元地図"
+
+#: ../../build/doc/overview/cesium_overview.rst:21
+msgid ""
+"Cesium is a JavaScript library for creating 3D globes and 2D maps in a web "
+"browser without any plugins. It uses WebGL for hardware-accelerated "
+"graphics, and is cross-platform, cross-browser, and tuned for dynamic-data "
+"visualization."
+msgstr ""
+"Cesiumは、プラグインなしでウェブブラウザで3D地球儀と2Dマップを作成するためのJavaScriptライブラリです。ハードウェアで高速化されたグラフィックスにWebGLを使用し、クロスプラットフォーム、クロスブラウザで、動的データの視覚化に合わせて調整されています。"
+
+#: ../../build/doc/overview/cesium_overview.rst:30
+msgid "Core Features"
+msgstr "主要機能"
+
+#: ../../build/doc/overview/cesium_overview.rst:31
+msgid "Dynamic Geospatial Visualization:"
+msgstr "動的な地理空間視覚化:"
+
+#: ../../build/doc/overview/cesium_overview.rst:33
+msgid ""
+"Create data-driven, time-dynamic scenes with `CZML "
+"<https://github.com/CesiumGS/cesium/wiki/CZML-Guide>`_."
+msgstr ""
+"`CZML<https://github.com/CesiumGS/cesium/wiki/CZML-"
+"Guide>`_を使用して、データ駆動型で時間動的なシーンを作成します。"
+
+#: ../../build/doc/overview/cesium_overview.rst:34
+msgid "Visualize high-resolution worldwide terrain."
+msgstr "世界的な地形を高解像度で可視化します。"
+
+#: ../../build/doc/overview/cesium_overview.rst:35
+msgid ""
+"Draw imagery layers using WMS, TMS, OpenStreetMaps, Bing, and Esri "
+"standards."
+msgstr "WMS、TMS、OpenStreetMaps、Bing、およびEsri標準を使用して画像レイヤを描画します。"
+
+#: ../../build/doc/overview/cesium_overview.rst:36
+msgid "Draw vector data from GeoJSON and TopoJSON."
+msgstr "GeoJSONとTopoJSONからベクタデータを描画します。"
+
+#: ../../build/doc/overview/cesium_overview.rst:37
+msgid "Draw 3D models using COLLADA and glTF."
+msgstr "COLLADAとglTFを使用して3Dモデルを描画します。"
+
+#: ../../build/doc/overview/cesium_overview.rst:38
+msgid "Use `plugins <https://cesium.com/cesiumjs>`_ to extend Cesium."
+msgstr "`プラグイン<https://cesium.com/cesiumjs>`_を使用してCesiumを拡張します。"
+
+#: ../../build/doc/overview/cesium_overview.rst:40
+msgid "Built for Performance and Precision:"
+msgstr "パフォーマンスと精度を重視した設計:"
+
+#: ../../build/doc/overview/cesium_overview.rst:42
+msgid ""
+"Optimized WebGL with batching and culling efficiently uses hardware-"
+"accelerated graphics."
+msgstr "バッチとカリングに最適化されたWebGLにより、ハードウェアで高速化されたグラフィックスを効率的に使用します。"
+
+#: ../../build/doc/overview/cesium_overview.rst:43
+msgid ""
+"Draw a wide range of geometries including polylines, polygons, billboards, "
+"labels, extrusions, and corridors."
+msgstr "ポリライン、ポリゴン、ビルボード、ラベル、押し出し、コリドーなど、さまざまなジオメトリを描画します。"
+
+#: ../../build/doc/overview/cesium_overview.rst:44
+msgid ""
+"Use `3D Tiles <https://cesium.com/blog/2017/07/12/the-next-generation-of-3d-"
+"tiles/>`_ to stream, style and interact with heterogeneous 3D data, "
+"including photogrammetry models, 3D buildings, CAD and BIM exterior and "
+"interiors, and point clouds."
+msgstr ""
+"`3Dタイル<https://cesium.com/blog/2017/07/12/the-next-generation-of-3d-"
+"tiles/>`_を使用して、写真測量モデル、3D建物、CADとBIMの外部と内部、ポイントクラウドなど、異種の3Dデータをストリーミング、スタイル設定、および操作します。"
+
+#: ../../build/doc/overview/cesium_overview.rst:45
+msgid "Control the camera and create flight paths."
+msgstr "カメラを制御して飛行経路を作成します。"
+
+#: ../../build/doc/overview/cesium_overview.rst:46
+msgid ""
+"Use standard widgets to control animation time, select imagery layers, and "
+"zoom to a location."
+msgstr "標準ウィジェットを使用して、アニメーション時間を制御したり、画像レイヤを選択したり、場所にズームしたりします。"
+
+#: ../../build/doc/overview/cesium_overview.rst:48
+msgid "One API, Three Views:"
+msgstr "1つのAPI、3つのビュー:"
+
+#: ../../build/doc/overview/cesium_overview.rst:50
+msgid ""
+"Cesium supports a 3D globe, 2D map, and 2.5D Columbus View with the same "
+"API."
+msgstr "Cesium は同じAPIで3D地球儀、2Dマップ、2.5Dコロンブスビューをサポートしています。"
+
+#: ../../build/doc/overview/cesium_overview.rst:53
+msgid "Implemented Standards"
+msgstr "実装されている標準規格"
+
+#: ../../build/doc/overview/cesium_overview.rst:54
+msgid "WMS and WMTS"
+msgstr "WMSとWMTS"
+
+#: ../../build/doc/overview/cesium_overview.rst:57
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/cesium_overview.rst:59
+msgid "**Website:** https://cesium.com/"
+msgstr "**Webサイト:** https://cesium.com/"
+
+#: ../../build/doc/overview/cesium_overview.rst:61
+msgid "**Licence:** Apache 2.0 license"
+msgstr "**ライセンス:** Apache 2.0 license"
+
+#: ../../build/doc/overview/cesium_overview.rst:63
+msgid "**Software Version:** |version-cesium|"
+msgstr "**ソフトウェアバージョン:** |version-cesium|"
+
+#: ../../build/doc/overview/cesium_overview.rst:65
+msgid ""
+"**Supported Platforms:**  Platform independent, depends only on a browser "
+"which supports WebGL"
+msgstr ""
+"**対応プラットフォーム:**  Platform independent, depends only on a browser which "
+"supports WebGL"
+
+#: ../../build/doc/overview/cesium_overview.rst:67
+msgid ""
+"**Community Support:** Forum at "
+"https://groups.google.com/forum/?hl=en#!forum/cesium-dev"
+msgstr ""
+"**コミュニティサポート:** Forum at https://groups.google.com/forum/?hl=en#!forum"
+"/cesium-dev"
+
+#: ../../build/doc/overview/cesium_overview.rst:72
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/cesium_overview.rst:74
+msgid ":doc:`Quickstart documentation <../quickstart/cesium_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/cesium_quickstart>`"

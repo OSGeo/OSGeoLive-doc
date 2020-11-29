@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:08+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/opencpn_overview.rst:16
+msgid "OpenCPN"
+msgstr ""
+
+#: ../../build/doc/overview/opencpn_overview.rst:19
+msgid "Marine GPS navigation software"
+msgstr "船舶用GPS航法ソフトウェア"
+
+#: ../../build/doc/overview/opencpn_overview.rst:20
+msgid ""
+"OpenCPN provides free navigation software for use at the helm of vessels of "
+"all types and sizes, as well as offline for route planning. It has been "
+"developed by a team of active sailors using real world conditions for "
+"program testing and refinement."
+msgstr ""
+"OpenCPNはあらゆる船型や船型の船舶を操船するためのフリーナビゲーション・ソフトウェアや、航路計画のためのオフライン・ソフトウェアを提供しています。これは、プログラムのテストと改良のために実世界の条件を使用して、アクティブな水兵のチームによって開発されました。"
+
+#: ../../build/doc/overview/opencpn_overview.rst:22
+msgid ""
+"OpenCPN presents a user with the vessel's current position, speed and course"
+" superimposed upon accurate navigational chart images, tide and current "
+"predictions. Information received by standard radio links describing the "
+"position and intent of other vessels can also be shown."
+msgstr ""
+"OpenCPNは、正確な航海図画像、潮汐及び海流予測に重ね合わされた船の現在位置、速度及び針路をユーザに提示します。他の船舶の位置及び意図を記述する標準無線リンクによって受信された情報も示すことができます。"
+
+#: ../../build/doc/overview/opencpn_overview.rst:24
+msgid ""
+"As the host vessel moves, new charts are selected and displayed at user "
+"specified resolution and detail. Further, the user may enter routes and "
+"waypoints allowing interface to an external autopilot for precise course "
+"following."
+msgstr ""
+"ホストの船舶が移動すると、新しいチャートが選択され、ユーザ指定の解像度および詳細で表示されます。さらに、ユーザは、正確なコース追跡のための外部自動操縦装置へのインターフェースを可能にする経路およびウェイポイントを入力することができます。"
+
+#: ../../build/doc/overview/opencpn_overview.rst:34
+msgid "Core Features"
+msgstr "主要機能"
+
+#: ../../build/doc/overview/opencpn_overview.rst:36
+msgid "OpenCPN supports:"
+msgstr "OpenCPN は次のものをサポートします:"
+
+#: ../../build/doc/overview/opencpn_overview.rst:38
+msgid "BSB raster, C-MAP (CM93/2) and S-57 ENC vector charts"
+msgstr "BSBラスター、C-MAP(CM93/2)、S-57ENCベクトル図"
+
+#: ../../build/doc/overview/opencpn_overview.rst:39
+msgid "AIS input decoding"
+msgstr "AIS入力デコード"
+
+#: ../../build/doc/overview/opencpn_overview.rst:40
+msgid ""
+"NMEA GPS or `Gpsd <https://www.berlios.de/software/gpsd/>`_ daemon input"
+msgstr "NMEA GPSまたは`Gpsd<https://www.berlios.de/software/gpsd/>`_ デーモンの入力"
+
+#: ../../build/doc/overview/opencpn_overview.rst:41
+msgid "Waypoint / autopilot navigation"
+msgstr "ウェイポイント/オートパイロットナビゲーション"
+
+#: ../../build/doc/overview/opencpn_overview.rst:42
+msgid "Unlimited route/mark creation"
+msgstr "無制限のルート/マークの作成"
+
+#: ../../build/doc/overview/opencpn_overview.rst:43
+msgid "Quilted charts"
+msgstr ""
+
+#: ../../build/doc/overview/opencpn_overview.rst:44
+msgid "International language support"
+msgstr "国際化のサポート"
+
+#: ../../build/doc/overview/opencpn_overview.rst:45
+msgid "Cross-platform support"
+msgstr "クロスプラットフォーム対応"
+
+#: ../../build/doc/overview/opencpn_overview.rst:46
+msgid "GRIB weather data overlay"
+msgstr "GRIB天候データオーバーレイ"
+
+#: ../../build/doc/overview/opencpn_overview.rst:49
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/opencpn_overview.rst:51
+msgid "**Website:** https://www.opencpn.org"
+msgstr "**ウェブサイト:**https://www.opencpn.org"
+
+#: ../../build/doc/overview/opencpn_overview.rst:53
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**ライセンス:** GNU General Public License (GPL) version 2"
+
+#: ../../build/doc/overview/opencpn_overview.rst:55
+msgid "**Software Version:** |version-opencpn|"
+msgstr "**ソフトウェアバージョン:** |version-opencpn|"
+
+#: ../../build/doc/overview/opencpn_overview.rst:57
+msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
+msgstr "**対応プラットフォーム:** GNU/Linux, Mac OSX, MS Windows"
+
+#: ../../build/doc/overview/opencpn_overview.rst:59
+msgid "**Support:** https://www.cruisersforum.com/forums/f134/"
+msgstr "**サポート:**https://www.cruisersforum.com/forums/f134/"
+
+#: ../../build/doc/overview/opencpn_overview.rst:65
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/opencpn_overview.rst:67
+msgid ":doc:`Quickstart documentation <../quickstart/opencpn_quickstart>`"
+msgstr ":doc:`クイックスタート文書<./quickstart/opencpn_quickstart>`"

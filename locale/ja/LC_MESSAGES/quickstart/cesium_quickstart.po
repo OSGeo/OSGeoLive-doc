@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:04+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:19
+msgid "Cesium Quickstart"
+msgstr "Cesiumクイックスタート"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:20
+msgid ""
+"Cesium is a JavaScript library for creating 3D globes and 2D maps in a web "
+"browser without any plugins. It uses WebGL for hardware-accelerated "
+"graphics, and is cross-platform, cross-browser, and tuned for time-dynamic "
+"data visualization."
+msgstr ""
+"Cesiumは、プラグインなしでウェブブラウザで3D地球儀と2Dマップを作成するためのJavaScriptライブラリです。OSGeoLiveは、ハードウェアアクセラレーションによるグラフィックス処理にWebGLを使用し、クロスプラットフォーム、クロスブラウザ対応で、時間動的なデータ視覚化に合わせて調整されています。"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:22
+msgid ""
+"This guide shows how to use the Cesium with the 3D (Globe), 2.5D (Columbus "
+"View) and 2D (map)."
+msgstr "このガイドでは、Cesiumを3D(地球儀)、2.5D(コロンブスビュー)、2D(マップ)で使用する方法について説明します。"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:28
+msgid "Start Cesium"
+msgstr "Cesiumの開始"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:30
+msgid ""
+"Open the browser and point it to "
+"http://localhost/cesium/Apps/HelloWorld.html"
+msgstr "ブラウザを開き、http://localhost/cesium/Apps/HelloWorld.htmlを開く"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:33
+msgid "Search for a location"
+msgstr "場所を検索"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:34
+msgid ""
+"Click on the magnifying glass and type in the location you are looking for. "
+"In the following display, we look for India."
+msgstr "虫眼鏡をクリックして、探している位置を入力します。次の表示では、インドを探します。"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:41
+msgid "Switch between 3D, 2.5D and 2D"
+msgstr "3D、2.5D、2Dの切り替え"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:42
+msgid ""
+"Click on the wire framed globe icon to select your preferred view.  Here the"
+" 2.5D Columbus view has been selected."
+msgstr "ワイヤーで囲まれたビューアイコンをクリックして、希望の地球儀を選択します。ここでは、2.5D Columbusビューが選択されています。"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:48
+msgid "Now the 2D map is selected."
+msgstr "これで、2Dマップが選択されました。"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:55
+msgid "Select the Image layer"
+msgstr "画像のレイヤを選択"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:56
+msgid ""
+"Click on the last icon and select a type of image service.  Here the Natural"
+" Earth II is selected and you can see how the map's image layer has changed."
+msgstr ""
+"最後のアイコンをクリックして、イメージサービスの種類を選択します。ここでNatural Earth "
+"IIが選択され、マップのイメージレイヤがどのように変化したかを見ることができます。"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:65
+msgid "What next?"
+msgstr "次のステップ"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:66
+msgid ""
+"Watch our `video tutorials <https://www.youtube.com/playlist?list=PLBk_Dtk-"
+"_Tlm4STvXKFEdfUWylPemo-9V>`_."
+msgstr ""
+"`ビデオチュートリアル<https://www.youtube.com/playlist?list=PLBk_Dtk - "
+"_Tlm4STvXKFEdfUWylPemo-9V>`_をご覧ください。"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:68
+msgid "Read our written `tutorials <https://cesium.com/docs>`_."
+msgstr "`チュートリアル<https://cesium.com/docs>`_をお読みください。"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:70
+msgid ""
+"You can develop some quick applications using the `Sandcastle website "
+"<https://sandcastle.cesium.com/index.html>`_. Sandcastle is generally one of"
+" the best ways to learn about Cesium, and all the code examples are useful "
+"for this purpose."
+msgstr ""
+"`Sandcastle "
+"Webサイト<https://sandcastle.cesium.com/index.html>`_を使用して、いくつかのクイックアプリケーションを開発できます。Sandcastleは一般的にCesiumについて学ぶ最良の方法の1つであり、すべてのコード例がこの目的に役立ちます。"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:72
+msgid ""
+"The `Cesium Forum <https://groups.google.com/forum/#!forum/cesium-dev>`_ is "
+"a great place to search for answers to common questions, and to raise "
+"questions that haven't been asked before."
+msgstr ""
+"`Cesium Forum<https://groups.google.com/forum/#!forum/cesium-"
+"dev>`_は、一般的な質問に対する回答を検索したり、これまでに質問されたことのない質問を提起したりするのに最適な場所です。"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rst:74
+msgid ""
+"In-depth documentation is available `locally <http://localhost/cesium/>`_ on"
+" the OSGeoLive package."
+msgstr ""
+"詳細なドキュメントは、OSGeoLiveパッケージの`locally<http://localhost/cesium/>`_で入手できます。"
