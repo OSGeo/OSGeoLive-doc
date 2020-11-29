@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2020-11-28 22:14-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid "In this example we will create a database called `city_routing` and enabl
 msgstr ""
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:35
-msgid "Open a :menuselection:`Applications --> Accessories --> Terminal` window and open up psql: (psql is the commandline tool packaged with PostgreSQL)"
+msgid "Open a :menuselection:`System Tools --> LXTerminal` window and open up psql: (psql is the commandline tool packaged with PostgreSQL)"
 msgstr ""
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:41
@@ -85,7 +85,7 @@ msgid "Running pgRouting"
 msgstr ""
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:113
-msgid "Open a :menuselection:`Applications --> Accessories --> Terminal` window and connect to the ``city_routing`` database:"
+msgid "Open a :menuselection:`System Tools --> LXTerminal` window and connect to the ``city_routing`` database:"
 msgstr ""
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:119

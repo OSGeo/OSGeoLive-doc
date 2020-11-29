@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2020-11-28 22:14-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -221,7 +221,7 @@ msgid "Open a text editor by selecting :menuselection:`Accessories --> FeatherPa
 msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:159
-msgid "Copy and paste the follOwing text into the text editor window:"
+msgid "Copy and paste the following text into the text editor window:"
 msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:176
@@ -229,7 +229,7 @@ msgid "Save the file as \"T_LUGANO_20140603161000000.dat\" on the Desktop. The f
 msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:178
-msgid "Open a terminal by selecting :menuselection:`Accessories --> LXTerminal`."
+msgid "Open a terminal by selecting :menuselection:`System Tools --> LXTerminal`."
 msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:180
