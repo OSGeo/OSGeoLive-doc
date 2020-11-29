@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
@@ -196,10 +196,10 @@ msgstr ""
 "**Ulteriori informazioni:** "
 "https://www.slideshare.net/marbleglobe/marble-1-6en"
 
-#: ../../build/doc/overview/marble_overview.rst:87
+#: ../../build/doc/overview/marble_overview.rst:88
 msgid "Quickstart"
 msgstr "Guida rapida"
 
-#: ../../build/doc/overview/marble_overview.rst:89
+#: ../../build/doc/overview/marble_overview.rst:90
 msgid ":doc:`Quickstart documentation <../quickstart/marble_quickstart>`"
 msgstr ":doc:`Quickstart documentation <../quickstart/marble_quickstart>`"

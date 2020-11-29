@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-11-28 22:14-0600\n"
 "PO-Revision-Date: 2017-09-20 16:07+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
@@ -121,12 +121,12 @@ msgid "Open Archives Initiatives (OAI-PMH)"
 msgstr "Open Archives Initiatives (OAI-PMH)"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:49
-msgid "OpenSearch-Geo"
-msgstr "OpenSearch-Geo"
+msgid "OpenSearch-Geo / INSPIRE Atom"
+msgstr ""
 
 #: ../../build/doc/overview/geonetwork_overview.rst:50
-msgid "OAI-PMH"
-msgstr "OAI-PMH"
+msgid "Client for OGC-WMS/WMTS/WFS"
+msgstr ""
 
 #: ../../build/doc/overview/geonetwork_overview.rst:51
 msgid "Metadata standards:"
@@ -168,11 +168,11 @@ msgstr "**Interfacce API:** Java"
 msgid "**Support:** https://www.osgeo.org/service-providers"
 msgstr "**Supporto:** https://www.osgeo.org/service-providers"
 
-#: ../../build/doc/overview/geonetwork_overview.rst:74
+#: ../../build/doc/overview/geonetwork_overview.rst:75
 msgid "Quickstart"
 msgstr "Guida rapida"
 
-#: ../../build/doc/overview/geonetwork_overview.rst:76
+#: ../../build/doc/overview/geonetwork_overview.rst:77
 msgid ":doc:`Quickstart documentation <../quickstart/geonetwork_quickstart>`"
 msgstr ""
 ":doc:`Documentazione introduttiva <../quickstart/geonetwork_quickstart>`"

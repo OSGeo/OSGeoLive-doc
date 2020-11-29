@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
@@ -114,10 +114,10 @@ msgstr "**Piattaforme Supportate:** Windows, Linux, Mac"
 msgid "**API Interfaces:** C++, Python"
 msgstr "**Interfacce API:** C++, Python"
 
-#: ../../build/doc/overview/mapnik_overview.rst:60
+#: ../../build/doc/overview/mapnik_overview.rst:61
 msgid "Quickstart"
 msgstr "Guida rapida"
 
-#: ../../build/doc/overview/mapnik_overview.rst:62
+#: ../../build/doc/overview/mapnik_overview.rst:63
 msgid ":doc:`Quickstart documentation <../quickstart/mapnik_quickstart>`"
 msgstr ":doc:`Documentazione introduttiva <../quickstart/mapnik_quickstart>`"

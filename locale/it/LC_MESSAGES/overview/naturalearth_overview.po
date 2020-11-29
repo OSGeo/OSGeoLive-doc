@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-11-28 21:50-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
@@ -177,5 +177,5 @@ msgid "**Spatial coordinate system:** WGS84."
 msgstr "**Sistema di coordinate spaziali:**  WGS84"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:66
-msgid "**Support:** https://www.naturalearthdata.com/forums/"
-msgstr "**Supporto:** https://www.naturalearthdata.com/forums/"
+msgid "**Support:** https://www.naturalearthdata.com/about"
+msgstr ""
