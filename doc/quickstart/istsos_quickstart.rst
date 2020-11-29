@@ -150,7 +150,7 @@ First we will create a text file with sensor data, formatted according to "text/
 
 #. Open a text editor by selecting :menuselection:`Accessories --> FeatherPad`.
 
-#. Copy and paste the follOwing text into the text editor window:
+#. Copy and paste the following text into the text editor window:
 
     .. code-block:: rest
 
@@ -169,7 +169,7 @@ First we will create a text file with sensor data, formatted according to "text/
 
 #. Save the file as "T_LUGANO_20140603161000000.dat" on the Desktop. The filename convention being used is: PROCEDURENAME_YYYYMMDDhhmmssfff.dat
 
-#. Open a terminal by selecting :menuselection:`Accessories --> LXTerminal`.
+#. Open a terminal by selecting :menuselection:`System Tools --> LXTerminal`.
 
 #. In the terminal, enter: "cd /usr/share/istsos/" and press ENTER.
 

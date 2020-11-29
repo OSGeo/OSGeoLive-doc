@@ -28,7 +28,7 @@ Core Features
 
 * Common GIS Desktop Interface tools:
 
-  * Tool bar customization, View control (zoom, pan. etc), styles, icons and layers management.
+  * Toolbar customization, View control (zoom, pan. etc), styles, icons and layers management.
 
 * Download and upload OSM vector data.
 
