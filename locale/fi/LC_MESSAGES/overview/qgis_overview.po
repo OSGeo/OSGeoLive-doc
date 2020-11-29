@@ -11,9 +11,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
@@ -244,11 +244,11 @@ msgstr ""
 "**Kaupallinen tuki:** "
 "https://qgis.org/en/site/forusers/commercial_support.html"
 
-#: ../../build/doc/overview/qgis_overview.rst:100
+#: ../../build/doc/overview/qgis_overview.rst:101
 msgid "Quickstart"
 msgstr "Lähtöohjeistus"
 
-#: ../../build/doc/overview/qgis_overview.rst:102
+#: ../../build/doc/overview/qgis_overview.rst:103
 msgid ":doc:`Quickstart documentation <../quickstart/qgis_quickstart>`"
 msgstr ""
 ":doc:`Lähtöohjeistuksen dokumentaatio  <../quickstart/qgis_quickstart>`"
