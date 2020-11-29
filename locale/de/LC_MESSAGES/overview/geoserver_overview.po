@@ -5,17 +5,17 @@
 # 
 # Translators:
 # John Kennedy <julius.krey@wheregroup.com>, 2018
-# Astrid Emde <astrid_emde@osgeo.org>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Astrid Emde <astrid_emde@osgeo.org>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -169,7 +169,7 @@ msgid ""
 "clients."
 msgstr ""
 "`GeoWebCache <https://www.geowebcache.org>`_ wurde in GeoServer integriert. "
-"GeoWebCache kachelt und legt eine Zwischenspeicher von Kartenbilder von "
+"GeoWebCache kachelt und legt eine Zwischenspeicher von Kartenbildern von "
 "einer Vielzahl von Quellen beispielweise WMS an. Es wurden verschiedene "
 "Service Interfaces geschaffen (WMS-C, WMTS, TMS, Google Maps KML, Virtual "
 "Earth), um die Bildauslieferung zu beschleunigen und zu optimieren. Kacheln "
@@ -264,10 +264,10 @@ msgstr "**API Schnittstellen:** WMS, WFS, WCS, REST"
 msgid "**Support:** http://geoserver.org/support/"
 msgstr "**Support:** http://geoserver.org/support/"
 
-#: ../../build/doc/overview/geoserver_overview.rst:99
+#: ../../build/doc/overview/geoserver_overview.rst:100
 msgid "Quickstart"
 msgstr "Quickstart"
 
-#: ../../build/doc/overview/geoserver_overview.rst:101
+#: ../../build/doc/overview/geoserver_overview.rst:102
 msgid ":doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`"
 msgstr ":doc:`Quickstart Dokumentation <../quickstart/geoserver_quickstart>`"

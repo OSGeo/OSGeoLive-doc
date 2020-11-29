@@ -5,17 +5,17 @@
 # 
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
-# Astrid Emde <astrid_emde@osgeo.org>, 2019
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Astrid Emde <astrid_emde@osgeo.org>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -66,6 +66,10 @@ msgid ""
 "standard defines common interfaces to discover, browse and query metadata "
 "about spatial data, web services and related resources."
 msgstr ""
+"pycsw ist eine `Python`_-Implementierung des |CSW|. Das Projekt ist als `OGC"
+" Compliant`_ zertifiziert und eine `OGC Referenzimplementierung`_. Der CSW "
+"Standard definiert gängige Methoden zum Entdecken, Durchsuchen und Abfragen "
+"von Metadaten nach räumlichen Daten, Web Services und verwandten Quellen."
 
 #: ../../build/doc/overview/pycsw_overview.rst:30
 msgid ""
@@ -286,10 +290,10 @@ msgstr "**API Schnittstellen:** Python"
 msgid "**Support:** |SUPPORT|"
 msgstr "**Support:** |SUPPORT|"
 
-#: ../../build/doc/overview/pycsw_overview.rst:114
+#: ../../build/doc/overview/pycsw_overview.rst:115
 msgid "Quickstart"
 msgstr "Schnellstart"
 
-#: ../../build/doc/overview/pycsw_overview.rst:116
+#: ../../build/doc/overview/pycsw_overview.rst:117
 msgid ":doc:`Quickstart documentation <../quickstart/pycsw_quickstart>`"
 msgstr ":doc:`Quickstart Dokumentation <../quickstart/pycsw_quickstart>`"

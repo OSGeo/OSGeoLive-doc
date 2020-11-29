@@ -11,9 +11,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -23,11 +23,11 @@ msgstr ""
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:16
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:19
 msgid "MapSlicer Quickstart"
 msgstr "MapSlicer Quickstart"
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:18
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:21
 msgid ""
 "`MapSlicer <https://wiki.osgeo.org/wiki/MapSlicer>`_ provides a simple way "
 "of creating a set of tiles from any georeferenced map image. The tiles can "
@@ -44,7 +44,7 @@ msgstr ""
 "<https://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`_ Spezifikation"
 " der `Open Source Geospatial Foundation (OSGeo) <https://www.osgeo.org/>`_."
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:20
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:23
 msgid ""
 "**Input options**: Any georeferenced image file, eg. a TIFF, JPEG from "
 "ArcGIS, QGIS."
@@ -52,7 +52,7 @@ msgstr ""
 "**Eingangsparameter**: Beliebige georeferenzierte Bilddateien, z.B. TIFF, "
 "JPEG von ArcGIS, QGIS."
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:21
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:24
 msgid ""
 "**Output options**: A set of directories with tiled images which can be "
 "copied to a web server for presentation as a georeferenced overlay."
@@ -60,7 +60,7 @@ msgstr ""
 "**Ausgabeoptionen**: Verzeichnisse mit gekachelten Bildern, die in einen "
 "Webserver kopiert werden können."
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:22
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:25
 msgid ""
 "**Strengths**: MapSlicer is simple, free, open-source software, with an easy"
 " wizard, described below, to guide through the options."
@@ -69,7 +69,7 @@ msgstr ""
 "einem einfachen Assistenten, der untern beschrieben und auf die Optionen "
 "eingegangen wird."
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:26
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:29
 msgid ""
 "MapSlicer takes advantage of the fact that `Google Maps "
 "<http://maps.google.com/>`__, `Microsoft Bing "
@@ -89,18 +89,18 @@ msgstr ""
 "Spezfikation passen und ist somit ein einfaches Tool, um georeferenzierte "
 "Karten in einer Mashup Webseite einzubinden."
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:34
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:37
 msgid "Start MapSlicer"
 msgstr "MapSlicer starten"
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:36
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:39
 msgid ""
 "Start MapSlicer from the Geospatial menu, under the Spatial Tools sub-menu."
 msgstr ""
 "Download MapSlicer oder starten Sie das Programm direkt von der OSGeo-Live "
 "Distribution."
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:38
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:41
 msgid ""
 "Select the **Tile Profile**. Choose *Image Based Tiles (raster)* for "
 "standard web publishing. Click *Continue*."
@@ -109,7 +109,7 @@ msgstr ""
 "Tiles (raster)* für die Standard-Webveröffentlichung. Klicken Sie auf "
 "*Weiter*."
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:44
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:47
 msgid ""
 "Choose the **Source Data Files**. Browse to select the raster image you want"
 " to tile. It is also possible to select a NODATA colour that will appear as "
@@ -120,7 +120,7 @@ msgstr ""
 "NODATA-Farbe auszuwählen, die im resultierenden Bild als transparent "
 "erscheint. Klicken Sie auf *Weiter*."
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:50
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:53
 msgid ""
 "Specify the **Spatial Reference System / Coordinate System** of the image. "
 "Specify the id-number from the EPSG database. Click *Continue*."
@@ -129,7 +129,7 @@ msgstr ""
 "an. Geben Sie die ID-Nummer aus der EPSG-Datenbank an. Klicken Sie auf "
 "*Weiter*."
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:56
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:59
 msgid ""
 "Specify details about the **Tile Pyramid**. The default settings for zoom "
 "levels and file format are often best. Click *Continue*."
@@ -137,7 +137,7 @@ msgstr ""
 "Geben Sie Details zur **Kachelpyramide** an. Die Standardeinstellungen für "
 "Zoomstufen und Dateiformat sind oft am besten. Klicken Sie auf *Weiter*."
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:62
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:65
 msgid ""
 "Specify details about the **Destination folder and Addresses / URLs** for "
 "the tileset. If you do not know these, they can be added into the default "
@@ -149,7 +149,7 @@ msgstr ""
 "die Standarddateien *googlemaps.html* und *openlayers.html* eingefügt "
 "werden. Klicken Sie auf *Weiter*."
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:68
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:71
 msgid ""
 "Tick the **Viewers that should be generated**. By default, a "
 "*openlayers.html* file is generated. Click *Continue*."
@@ -157,7 +157,7 @@ msgstr ""
 "Klicken Sie **Viewers that should be generated**. Standardmäßig wird eine "
 "*openlayers.html*-Datei generiert. Klicken Sie auf *Weiter*."
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:74
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:77
 msgid ""
 "Specify the **Details for generating the Viewers**, such as the title, "
 "copyright notice, and API keys. If you do not know these, they can be added "
@@ -169,17 +169,17 @@ msgstr ""
 " nach der Kachelgenerierung in die Standarddateien *googlemaps.html / "
 "openlayers.html* eingefügt werden. Klicken Sie auf *Weiter*."
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:80
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:83
 msgid "Click **Render** to start rendering the image."
 msgstr ""
 "Klicken Sie auf **Render**, um mit dem Rendern des Bildes zu beginnen."
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:86
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:89
 msgid "When complete, MapSlicer provides a link to the finished tileset."
 msgstr ""
 "Nach Beendigung, stellt MapSlicer einen Link zum fertigen Kachelsatz bereit."
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:92
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:95
 msgid ""
 "Open the *openlayers.html* files in a web browser to view the tileset as an "
 "overlay on the live online map. To present this on the web, just copy the "
@@ -192,11 +192,11 @@ msgstr ""
 "Unterverzeichnisse auf einen Webserver und bearbeiten Sie die Dateien "
 "googlemaps.html oder openlayers.html nach Bedarf."
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:100
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:103
 msgid "Using gdal2tiles to create a MBTiles database"
 msgstr "Verwenden von gdal2tiles zum Erstellen einer MBTiles-Datenbank"
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:102
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:105
 msgid ""
 "MapSlicer is essentially a GUI frontend to the `gdal2tiles.py` script. An "
 "updated version of `gdal2tiles.py` is also present on the Live disc. The "
@@ -211,7 +211,7 @@ msgstr ""
 " mbtiles-Datenbank zu erstellen, um Sie mit Smartphone-Software wie  "
 "`Geopaparazzi <https://www.geopaparazzi.org/>`_ zu verwenden. "
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:108
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:111
 msgid ""
 "To create an MBTiles SQLite database from the newly created tile tree, open "
 "a terminal, then"
@@ -219,7 +219,7 @@ msgstr ""
 "Um eine MBTiles-SQLite-Datenbank aus dem neu erstellten Kachelbaum zu "
 "erstellen, öffnen Sie ein Terminal,"
 
-#: ../../build/doc/quickstart/mapslicer_quickstart.rst:118
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:121
 msgid ""
 "See `gdal2tiles.py --help` and `mb-util --help` for additional information "
 "on running these tools."

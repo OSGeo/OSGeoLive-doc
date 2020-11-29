@@ -5,17 +5,17 @@
 # 
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
-# Astrid Emde <astrid_emde@osgeo.org>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Astrid Emde <astrid_emde@osgeo.org>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -206,17 +206,17 @@ msgid ""
 "**Commercial Support:** "
 "https://ojwiki.soldin.de/index.php?title=Professional_Support_Page"
 msgstr ""
-"**Komerzieller Support:** "
+"**Kommerzieller Support:** "
 "https://ojwiki.soldin.de/index.php?title=Professional_Support_Page"
 
 #: ../../build/doc/overview/openjump_overview.rst:87
 msgid "**Download Page:** https://sourceforge.net/projects/jump-pilot/files/"
 msgstr "**Download:** https://sourceforge.net/projects/jump-pilot/files/"
 
-#: ../../build/doc/overview/openjump_overview.rst:91
+#: ../../build/doc/overview/openjump_overview.rst:92
 msgid "Quickstart"
 msgstr "Schnellstart"
 
-#: ../../build/doc/overview/openjump_overview.rst:93
+#: ../../build/doc/overview/openjump_overview.rst:94
 msgid ":doc:`Quickstart documentation <../quickstart/openjump_quickstart>`"
 msgstr ":doc:`Quickstart Dokumentation <../quickstart/openjump_quickstart>`"
