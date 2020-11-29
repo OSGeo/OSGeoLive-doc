@@ -88,13 +88,12 @@
 </div>
 <div class="section" id="prerequisites">
 <h2><a class="toc-backref" href="#id1">Prerequisites</a><a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h2>
-<p>This guide assumes that you have Geonetwork installed and running, and know the URL so you can connect to it from your browser.
-If not, refer to the <a class="reference external" href="https://geonetwork-opensource.org/manuals/trunk/en/install-guide/index.html">Installation Guide</a>.</p>
+<p>GeoNetwork can directly be started from the OSGeo Live start menu and will be available at <a class="reference external" href="http://localhost:8080/geonetwork">http://localhost:8080/geonetwork</a> some moments later. Check the <a class="reference external" href="https://geonetwork-opensource.org/manuals/trunk/en/install-guide/index.html">Installation Guide</a> if you are using GeoNetwork is some other context.</p>
 <p>Throughout this guide we will use the URL <code class="docutils literal"><span class="pre">http://localhost:8880/geonetwork</span></code> to refer to the catalog, please substitute a different URL if this is not correct for your system.</p>
 </div>
 <div class="section" id="access-the-catalog">
 <h2><a class="toc-backref" href="#id2">Access the catalog</a><a class="headerlink" href="#access-the-catalog" title="Permalink to this headline">¶</a></h2>
-<p>In the Web Services folder on the Desktop, double-click <strong>start GeoNetwork</strong>. This will open the Firefox web browser at the URL <code class="docutils literal"><span class="pre">http://localhost:8880/geonetwork</span></code>. This will be referred to throughout this document as the <em>homepage</em>.</p>
+<p>In the Web Services folder on the Desktop (or via the start menu), double-click <strong>start GeoNetwork</strong>. This will open the Firefox web browser at the URL <code class="docutils literal"><span class="pre">http://localhost:8880/geonetwork</span></code>. This will be referred to throughout this document as the <em>homepage</em>.</p>
 <p>You can return to the  homepage at any point by selecting the catalogue logo in the top left of the top toolbar. In the screenshot below, this is labelled  “My GeoNetwork catalogue” but it may have a different name and logo.</p>
 <div class="figure">
 <a class="reference internal image-reference" href="../../_images/geonetwork_home-page.png"><img alt="../../_images/geonetwork_home-page.png" src="../../_images/geonetwork_home-page.png" style="width: 716.8px; height: 427.7px;" /></a>
@@ -113,18 +112,16 @@ If not, refer to the <a class="reference external" href="https://geonetwork-open
 </div>
 <div class="section" id="load-sample-data">
 <h2><a class="toc-backref" href="#id4">Load sample data</a><a class="headerlink" href="#load-sample-data" title="Permalink to this headline">¶</a></h2>
-<p>Select <strong>Admin console</strong> in the top toolbar to access the administrative functions in the catalog, then select the blue <strong>Metadata and templates</strong> button to access the sample data and templates tab.</p>
-<div class="figure">
-<a class="reference internal image-reference" href="../../_images/geonetwork_metadata-and-templates.png"><img alt="../../_images/geonetwork_metadata-and-templates.png" src="../../_images/geonetwork_metadata-and-templates.png" style="width: 150.5px; height: 105.0px;" /></a>
-</div>
-<p>This tab lists all the metadata standards loaded in the catalog. The default standards in GeoNetwork 3.2 are:</p>
+<p>Select <strong>Admin console</strong> in the top toolbar to access the administrative functions in the catalog, then select the <strong>Metadata and templates</strong> menuitem to access the sample data and templates tab.</p>
+<p>This page lists all the metadata standards loaded in the catalog. The default standards in GeoNetwork are:</p>
 <ul class="simple">
-<li>Geographic information - Metadata (iso19139)</li>
+<li>Geographic information - Metadata (iso19139:2007)</li>
+<li>Geographic information - Metadata (iso19115-3.2018)</li>
 <li>Dublin Core (for CSW only) (csw-record)</li>
 <li>Dublin Core (dublin core)</li>
 <li>Geographic information - Methodology for feature cataloguing (iso9110)</li>
 </ul>
-<p>For the purposes of this Quick Start Guide, select Geographic information - Metadata (iso19139) and then select the blue <strong>Load samples for selected standards</strong> button below the list.</p>
+<p>For the purposes of this Quick Start Guide, select <code class="docutils literal"><span class="pre">Geographic</span> <span class="pre">information</span> <span class="pre">-</span> <span class="pre">Metadata</span> <span class="pre">(iso19139:2007)</span></code> and then select first the <strong>Load samples for selected standards</strong> button below the list.</p>
 <div class="figure">
 <a class="reference internal image-reference" href="../../_images/geonetwork_templates.png"><img alt="../../_images/geonetwork_templates.png" src="../../_images/geonetwork_templates.png" style="width: 534.1px; height: 467.59999999999997px;" /></a>
 </div>
@@ -175,7 +172,7 @@ If not, refer to the <a class="reference external" href="https://geonetwork-open
 </div>
 <p>In the top right of the record are icons for:</p>
 <ul class="simple">
-<li>Editing the record</li>
+<li>Editing the record (when logged in)</li>
 <li>Deleting the record</li>
 <li>Managing the record (such as assigning viewing or editing privileges, transferring ownership to a different user)</li>
 <li>Downloading the record as multiple formats</li>
