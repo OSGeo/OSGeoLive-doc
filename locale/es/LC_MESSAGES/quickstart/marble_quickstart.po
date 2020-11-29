@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:19
+#: ../../build/doc/quickstart/marble_quickstart.rst:22
 msgid "Marble Quickstart"
 msgstr "Inicio Rápido de mármol"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:21
+#: ../../build/doc/quickstart/marble_quickstart.rst:24
 msgid ""
 "Marble is an open source KDE Education Project program similar to NASA World"
 " Wind or Google Earth. Besides choosing any number of maps to view on your "
@@ -38,11 +38,11 @@ msgstr ""
 "mapas para ver en su globo (incluyendo OpenStreetMap) se le recomienda "
 "incluir un widget KDE Marble en su aplicación."
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:27
+#: ../../build/doc/quickstart/marble_quickstart.rst:30
 msgid "Start Marble"
 msgstr "Iniciar Marble"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:29
+#: ../../build/doc/quickstart/marble_quickstart.rst:32
 msgid ""
 "On the desktop, choose :menuselection:`Navigation and Maps --> Marble`. You "
 "will see a window like this:"
@@ -50,67 +50,67 @@ msgstr ""
 "En el escritorio, elija :menuselection:`Navegación y Mapas --> Marble`. Verá"
 " una ventana como esta:"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:36
+#: ../../build/doc/quickstart/marble_quickstart.rst:39
 msgid "Change the display"
 msgstr "Cambiar la pantalla"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:38
+#: ../../build/doc/quickstart/marble_quickstart.rst:41
 msgid "Scale the globe by rotating the wheel of your mouse."
 msgstr "Escala el globo girando la rueda del ratón."
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:39
+#: ../../build/doc/quickstart/marble_quickstart.rst:42
 msgid "To move around press the left button of your mouse and move it."
 msgstr "Para moverte, presiona el botón izquierdo del ratón y muévelo."
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:41
+#: ../../build/doc/quickstart/marble_quickstart.rst:44
 msgid "Marble has 11 different views (themes):"
 msgstr "Mármol tiene 11 vistas diferentes (temas):"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:43
+#: ../../build/doc/quickstart/marble_quickstart.rst:46
 msgid "Atlas"
 msgstr "Atlas"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:44
+#: ../../build/doc/quickstart/marble_quickstart.rst:47
 msgid "OpenStreetMap"
 msgstr "OpenStreetMap"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:45
+#: ../../build/doc/quickstart/marble_quickstart.rst:48
 msgid "Satellite View"
 msgstr "Vista satelitetal"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:46
+#: ../../build/doc/quickstart/marble_quickstart.rst:49
 msgid "Earth at Night"
 msgstr "Tierra por la noche"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:47
+#: ../../build/doc/quickstart/marble_quickstart.rst:50
 msgid "Historical Map 1689"
 msgstr "Mapa histórico de 1689"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:48
+#: ../../build/doc/quickstart/marble_quickstart.rst:51
 msgid "Moon"
 msgstr "Luna"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:49
+#: ../../build/doc/quickstart/marble_quickstart.rst:52
 msgid "Plain Map"
 msgstr "Mapa simple"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:50
+#: ../../build/doc/quickstart/marble_quickstart.rst:53
 msgid "Precipitation (December)"
 msgstr "Precipitación (Diciembre)"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:51
+#: ../../build/doc/quickstart/marble_quickstart.rst:54
 msgid "Precipitation (July)"
 msgstr "Precipitación (Julio)"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:52
+#: ../../build/doc/quickstart/marble_quickstart.rst:55
 msgid "Temperature (December)"
 msgstr "Temperatura (Diciembre)"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:53
+#: ../../build/doc/quickstart/marble_quickstart.rst:56
 msgid "Temperature (July)."
 msgstr "Temperatura (Julio)."
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:55
+#: ../../build/doc/quickstart/marble_quickstart.rst:58
 msgid ""
 "Click one of entries in the \"Theme\" list in \"Map View\" tab to switch "
 "between them."
@@ -118,17 +118,17 @@ msgstr ""
 "Haga clic en una de las entradas de la lista \"Tema\" en la pestaña \"Vista "
 "de mapa\" para cambiar entre ellas."
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:60
+#: ../../build/doc/quickstart/marble_quickstart.rst:63
 msgid "Click a label in any place to view more information about it."
 msgstr ""
 "Haga clic en una etiqueta en cualquier lugar para ver más información al "
 "respecto."
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:67
+#: ../../build/doc/quickstart/marble_quickstart.rst:70
 msgid "Find a location"
 msgstr "Encontrar una ubicación"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:69
+#: ../../build/doc/quickstart/marble_quickstart.rst:72
 msgid ""
 "To find a location, enter its name into the search line on the top of "
 "\"Search\" panel. As you start typing, suggestions below the search line "
@@ -138,15 +138,15 @@ msgstr ""
 "parte superior en el panel \"Buscar\". Así como empiece a "
 "escribir,aparecerán sugerencias debajo de la línea de búsqueda como esta:"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:77
+#: ../../build/doc/quickstart/marble_quickstart.rst:80
 msgid "Add a bookmark"
 msgstr "Añadir un marcador"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:79
+#: ../../build/doc/quickstart/marble_quickstart.rst:82
 msgid "Use bookmarks in Marble to remember the location of something."
 msgstr "Usa marcadores en Marble para recordar la ubicación de algo."
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:81
+#: ../../build/doc/quickstart/marble_quickstart.rst:84
 msgid ""
 "To add a bookmark, press the left button of your mouse and click \"Add "
 "bookmark\". A window will appear like this:"
@@ -154,25 +154,25 @@ msgstr ""
 "Para añadir un marcador, pulse el botón izquierdo del ratón y haga clic en "
 "\"Agregar marcador\". Aparecerá una ventana como esta:"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:86
+#: ../../build/doc/quickstart/marble_quickstart.rst:89
 msgid "Write the name, description and destination folder of the bookmark"
 msgstr ""
 "Escriba el nombre, la descripción y la carpeta de destino del marcador"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:87
+#: ../../build/doc/quickstart/marble_quickstart.rst:90
 msgid "Click the \"Ok\" button. Then the bookmark will appear."
 msgstr "Haga clikc en \"Aceptar\". A continuación, aparecerá el marcador."
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:89
+#: ../../build/doc/quickstart/marble_quickstart.rst:92
 msgid "To manage bookmarks, go to \"Bookmarks->Manage Bookmarks\"."
 msgstr ""
 "Para administrar marcadores, vaya a \"Marcadores->Administrar marcadores\"."
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:95
+#: ../../build/doc/quickstart/marble_quickstart.rst:98
 msgid "Things to try"
 msgstr "Cosas para probar"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:97
+#: ../../build/doc/quickstart/marble_quickstart.rst:100
 msgid ""
 "Try to use the Routing feature. See the `Marble documentation "
 "<https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ for help."
@@ -181,11 +181,11 @@ msgstr ""
 "Marble <https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ para "
 "obtener ayuda."
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:101
+#: ../../build/doc/quickstart/marble_quickstart.rst:104
 msgid "What next?"
 msgstr "¿Qué sigue?"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:103
+#: ../../build/doc/quickstart/marble_quickstart.rst:106
 msgid ""
 "See the `Marble homepage <https://marble.kde.org/>`_ for more information."
 msgstr ""

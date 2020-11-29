@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -387,11 +387,11 @@ msgstr "**Interfaces API:** Java"
 msgid "**Support:** https://www.deegree.org/community"
 msgstr "**Soporte:** https://www.deegree.org/community"
 
-#: ../../build/doc/overview/deegree_overview.rst:136
+#: ../../build/doc/overview/deegree_overview.rst:137
 msgid "Quickstart"
 msgstr "Inicio Rápido"
 
-#: ../../build/doc/overview/deegree_overview.rst:138
+#: ../../build/doc/overview/deegree_overview.rst:139
 msgid ":doc:`Quickstart documentation <../quickstart/deegree_quickstart>`"
 msgstr ""
 ":doc:`Documentación de inicio rápido <../quickstart/deegree_quickstart>`"
