@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:20
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:23
 msgid "OpenLayers Quickstart"
 msgstr "OpenLayers gyorstalpaló"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:22
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:25
 msgid ""
 "This Quick Start describes some basic steps required to start working with "
 "OpenLayers: creating a basic map, adding raster and vector layers and "
@@ -35,7 +35,7 @@ msgstr ""
 "tartalmazza az OpenLayers-el: alaptérkép létrehozása,  raszter és vektor "
 "réteg hozzáadása és az elemek stílusának beállítása"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:24
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:27
 msgid ""
 "OpenLayers makes it easy to put a dynamic map in any web page. It can "
 "display map tiles, vector data and markers loaded from any source. "
@@ -50,11 +50,11 @@ msgstr ""
 "forráskódú JavaScript, melyet a 2-záradék BSD licenc (úgyis ismert mint "
 "FreeBSD) alatt bocsájtanak ki."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:30
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:33
 msgid "Core concepts"
 msgstr "Alapfunkciók"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:32
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:35
 msgid ""
 "Before we start working with OpenLayers it helps to understand OpenLayers "
 "core concepts:"
@@ -62,11 +62,11 @@ msgstr ""
 "Mielőtt elkezdenénk a munkát az OpenLayers-el segít, ha megértjük az "
 "alapkoncepcióját:"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:35
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:38
 msgid "**Map**"
 msgstr "**Térkép**"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:35
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:38
 msgid ""
 "The *map* is the core component of OpenLayers. For a *map* to render, a "
 "*view*, one or more *layers*, and a target container are needed."
@@ -74,11 +74,11 @@ msgstr ""
 "A *térkép* az OpenLayers egy alapkomponense. Egy térkép megjelenítéséhez egy"
 " *view*, egy vagy több réteg és egy cél konténer szükséges."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:38
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:41
 msgid "**View**"
 msgstr "**View** (nézet)"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:38
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:41
 msgid ""
 "The *view* determines how the map is rendered. It is used to set the "
 "resolution, the center location, etc. It is like a camera through which we "
@@ -88,11 +88,11 @@ msgstr ""
 "hogy beállítsuk a felbontást, a középpont helyét, stb. Ez olyan mint egy "
 "kamera melyen keresztül a térkép tartalmát nézzük."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:41
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:44
 msgid "**Layers**"
 msgstr "**Rétegek**"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:41
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:44
 msgid ""
 "*Layers* can be added to the map in a stacked order. Layers can be either "
 "*raster layers* (images), or *vector layers* (points/lines/polygons)."
@@ -101,11 +101,11 @@ msgstr ""
 "*raszter réteg* (képek) vagy *vektor réteg* (pontok/vonalak/felületek) "
 "lehet."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:47
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:50
 msgid "**Source**"
 msgstr "**Forrás**"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:44
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:47
 msgid ""
 "Each layer has a *source*, which knows how to load the layer content. In the"
 " case of *vector layers*, its source reads vector data using a *format* "
@@ -117,11 +117,11 @@ msgstr ""
 "olvassa be az adatokat (például GeoJSON vagy KML) és mint a *térképi elemek*"
 " (features) halmazát szolgáltatja a réteget."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:52
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:55
 msgid "**Features**"
 msgstr "**Features** (térképelemek)"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:50
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:53
 msgid ""
 "*Features* represent real world things and can be rendered using different "
 "*geometries* (like point, line or polygon) using a given *style*, which "
@@ -132,11 +132,11 @@ msgstr ""
 " adott *stílus* használatával, mely a kinézetüket határozza meg "
 "(vonalvastagság, kitöltési szín, stb.)."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:55
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:58
 msgid "Create a basic map"
 msgstr "Egy alaptérkép létrehozása"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:57
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:60
 msgid ""
 "Create a file in e.g. /home/user/ called basic-map.html , and copy the "
 "following content into the file."
@@ -144,7 +144,7 @@ msgstr ""
 "Hozzon létre egy fájl például a /home/user/ könyvtárban basic-map.html "
 "névvel és másolja be a következő tartalma a fájlba."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:107
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:110
 msgid ""
 "Now try opening basic-map.html from a web browser using File->Open File. You"
 " should see the following:"
@@ -152,11 +152,11 @@ msgstr ""
 "Most próbálja megnyitni a basic-map.html fájlt a böngésző programból a "
 "File->Open File használatával. A következőt kellene látnia:"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:112
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:115
 msgid "Note:"
 msgstr "Megjegyzés:"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:114
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:117
 msgid ""
 "The code follows the best practice of loading JavaScipt code at the end of "
 "the html file."
@@ -164,7 +164,7 @@ msgstr ""
 "A kód követi a legjobb gyakorlatot, a JavaScript kód betöltése a html fájl "
 "végén."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:116
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:119
 msgid ""
 "An OpenLayers map needs to be attached to a HTML DOM element, so we have "
 "created a ``<div>`` element identified by the *map* id."
@@ -172,7 +172,7 @@ msgstr ""
 "Egy OpenLayers térképet egy HTML DOM elemhez kapcsolnunk, ezért létrehoztunk"
 " egy ``<div>`` elemet, a *map* azonosítóval (id)."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:118
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:121
 msgid ""
 "Maps are represented by the ``ol.Map`` class. We specify the DOM element to "
 "render the map into using the **target** property."
@@ -180,7 +180,7 @@ msgstr ""
 "A térképeket az ``olMap`` osztály reprezentálja. A DOM elemet, melyben a "
 "térképet megjelentjük a **target** tulajdonság beállításával adjuk meg."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:120
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:123
 msgid ""
 "OpenLayers allows map rendering using two different mechanisms: Canvas and "
 "WebGL. The default renderer is *canvas*."
@@ -189,7 +189,7 @@ msgstr ""
 "teszi lehetővé: a Canvas és a WebGL. Az alapértelmezett megjelenítő a "
 "*canvas*."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:122
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:125
 msgid ""
 "A map shows data contained within layers, so we have created a tiled layer, "
 "represented by the ``ol.layer.Tile`` class, that loads content from the "
@@ -200,7 +200,7 @@ msgstr ""
 " tartalmat az OpenStreetMap projektből tölti be az `ol.source.OSM`` forrás "
 "osztály felhasználásával."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:124
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:127
 msgid ""
 "Finally, we set the initial position of the *camera* using the ``ol.View`` "
 "class, set the initial zoom level and center location."
@@ -208,11 +208,11 @@ msgstr ""
 "Végül a kamera kezdeti pozícióját az ``ol.View`` osztály használatával "
 "állítjuk be, a kezdeti nagyítást és a középpontot."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:127
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:130
 msgid "Add raster layers"
 msgstr "Raszter rétegek hozzáadása"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:129
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:132
 msgid ""
 "The most used raster layers are the tiled layers, provided by the likes of "
 "OpenStreetMap, Stamen, Bing, etc. Tiled layers are represented by the "
@@ -225,24 +225,24 @@ msgstr ""
 "tudja hogyan tölthetők be a csempék egy adott szolgáltatótól, mint például "
 "az ``ol.source.OSM`` vagy ``ol.source.Stamen``:"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:147
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:150
 msgid "Layers can be added to the map in two ways:"
 msgstr "Kétféle módon adhatunk rétegeket a térképhez:"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:149
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:152
 msgid "When constructing the ``ol.Map``, use the ``layers`` property:"
 msgstr ""
 "Az ``ol.Map`` létrehozatalánál a  ``layers`` tulajdonság használatával:"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:160
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:163
 msgid "Add them manually with the ``map.addLayer()`` method:"
 msgstr "Manuális hozzáadásuk a  ``map.addLayer()`` metódussal:"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:169
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:172
 msgid "Add vector layers"
 msgstr "Vektor rétegek hozzáadása"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:171
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:174
 msgid ""
 "Vector layers are represented by the ``ol.layer.Vector`` class and must use "
 "a source suitable for reading the vector format, like ``ol.source.GeoJSON``,"
@@ -252,7 +252,7 @@ msgstr ""
 "formátum olvasására alkalmas forrást kell használnia mint például  "
 "``ol.source.GeoJSON``, ``ol.source.KML`` vagy ``ol.source.TopoJSON``."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:190
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:193
 msgid ""
 "Note, in the previous code we must change the ``url_to_file`` to point to a "
 "valid GeoJSON file placed in our server. Note that Javascript security will "
@@ -265,7 +265,7 @@ msgstr ""
 " adatok külső URL-ről, egy másik szerverről vagy portról betöltését (más "
 "néven: ugyanaz a forrás szabály)."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:194
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:197
 msgid ""
 "Features can also be created manually. In this case we need to create a "
 "geometry that represents the feature:"
@@ -273,11 +273,11 @@ msgstr ""
 "Térképi elemeket manuálisan is létrehozhatunk. Ebben az esetben a térképi "
 "elemet reprezentáló geometriát kell létrehoznunk:"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:228
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:231
 msgid "Apply style to features"
 msgstr "Stílus alkalmazása az elemekre"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:230
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:233
 msgid ""
 "Features within vector layers can be styled. The style is determined by a "
 "combination of fill, stroke, text  and image, which are all optional. In "
@@ -290,7 +290,7 @@ msgstr ""
 "meghatározza az összes tartalmazott térképi elem stílusát, vagy egyes "
 "térképi elemekre."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:233
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:236
 msgid ""
 "A style is represented by the ``ol.style.Style`` class which has properties "
 "to set the ``fill``, ``stroke``, ``text`` and ``image`` to be applied. The "
@@ -302,7 +302,7 @@ msgstr ""
 "következő példa a világ országait zöld kitöltéssel és zöld határvonalakkal "
 "mutatja be."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:263
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:266
 msgid ""
 "In the code, we have loaded a TopoJSON file and styled it through the "
 "``style`` property. We have set a ``fill`` and ``stroke``, required for "
@@ -314,11 +314,11 @@ msgstr ""
 "és felületekhez kívántra állítottuk és egy ``image``-t (ebben az esetben egy"
 " kör) használtunk a pont térképi elemekhez."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:268
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:271
 msgid "Work with events"
 msgstr "Munka az eseményekkel"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:270
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:273
 msgid ""
 "Most of the components, like map, layers or controls, trigger events to "
 "notify changes. For example we can be notified each time the mouse is moved "
@@ -329,7 +329,7 @@ msgstr ""
 " minden alkalommal arról, ha a térképen az egér elmozdul, vagy amikor egy "
 "térképi elemet adtak egy vektor réteghez, stb."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:272
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:275
 msgid ""
 "Events can be easily registered on an object with the ``on()`` method and "
 "unregistered with ``un()``."
@@ -337,7 +337,7 @@ msgstr ""
 "Eseményekre könnyen regisztrálhatunk egy objektummal az  ``on()`` metódussal"
 " és visszavonhatjuk a regisztrációt az ``un()`` metódussal."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:274
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:277
 msgid ""
 "The following code registers an event on a map instance, and will be "
 "notified each time the pointer is moved. Within the callback function we "
@@ -349,11 +349,11 @@ msgstr ""
 "megkapjuk az egérmutató koordinátáit és a böngésző konzolba kiírjuk két "
 "különböző vetületben."
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:287
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:290
 msgid "What next?"
 msgstr "Mi a következő?"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:289
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:292
 msgid ""
 "Sometimes the quickest way to work out how OpenLayers works is to look at "
 "examples and their source code. You can find more OpenLayers information "
@@ -363,14 +363,14 @@ msgstr ""
 " kitaláljuk, hogyan működik az OpenLayers További OpenLayers információkat "
 "itt talál:"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:292
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:295
 msgid "`API Docs <../../openlayers/apidoc/>`_"
 msgstr "`API Docs <../../openlayers/apidoc/>`_"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:294
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:297
 msgid "`Examples <../../openlayers/examples/>`_"
 msgstr "`Példák <../../openlayers/examples/>`_"
 
-#: ../../build/doc/quickstart/openlayers_quickstart.rst:296
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:299
 msgid "`OpenLayers.org Website <https://openlayers.org/>`_"
 msgstr "`OpenLayers.org honlap <https://openlayers.org/>`_"

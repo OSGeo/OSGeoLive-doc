@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-19 12:21-0500\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -134,10 +134,10 @@ msgstr "**API interfészek:** C, C++, Python, Java, Ruby"
 msgid "**Support:** https://lists.osgeo.org/mailman/listinfo/proj"
 msgstr "**Támogatás:** https://lists.osgeo.org/mailman/listinfo/proj"
 
-#: ../../build/doc/overview/proj4_overview.rst:73
+#: ../../build/doc/overview/proj4_overview.rst:74
 msgid "Quickstart"
 msgstr "Gyorstalpaló"
 
-#: ../../build/doc/overview/proj4_overview.rst:75
+#: ../../build/doc/overview/proj4_overview.rst:76
 msgid ":doc:`Quickstart documentation <../quickstart/proj4_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/proj4_quickstart>`"

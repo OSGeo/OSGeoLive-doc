@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-11-28 21:50-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -89,7 +89,7 @@ msgstr "GIS böngészőből"
 msgid "General GIS viewing, editing and analysis in the browser"
 msgstr "Általános GIS megjelenítő, szerkesztő és elemző a böngészőből"
 
-#: ../../build/doc/overview/overview.rst:71
+#: ../../build/doc/overview/overview.rst:73
 msgid ""
 "|OSGeo_project| :doc:`openlayers_overview` - [:doc:`Quickstart "
 "<../quickstart/openlayers_quickstart>`] - Browser Mapping Library"
@@ -97,7 +97,7 @@ msgstr ""
 "|OSGeo_project| :doc:`openlayers_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/openlayers_quickstart>`] - Térképező könyvtár böngészőhöz"
 
-#: ../../build/doc/overview/overview.rst:73
+#: ../../build/doc/overview/overview.rst:75
 msgid ""
 "|nologo| :doc:`leaflet_overview` - [:doc:`Quickstart "
 "<../quickstart/leaflet_quickstart>`] - Mobile Friendly Interactive Maps"
@@ -105,7 +105,7 @@ msgstr ""
 "|nologo| :doc:`leaflet_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/leaflet_quickstart>`] - Mobilbarát interaktív térképek"
 
-#: ../../build/doc/overview/overview.rst:75
+#: ../../build/doc/overview/overview.rst:77
 msgid ""
 "|nologo| :doc:`cesium_overview` - [:doc:`Quickstart "
 "<../quickstart/cesium_quickstart>`] - 3D globes and 2D maps in a browser"
@@ -114,7 +114,7 @@ msgstr ""
 "<../quickstart/cesium_quickstart>`] - 3D földgömbök és 2D térképek a "
 "böngészőben"
 
-#: ../../build/doc/overview/overview.rst:77
+#: ../../build/doc/overview/overview.rst:79
 msgid ""
 "|OSGeo_project| :doc:`geomajas_overview` - [:doc:`Quickstart "
 "<../quickstart/geomajas_quickstart>`] - Browser GIS Client"
@@ -122,7 +122,7 @@ msgstr ""
 "|OSGeo_project| :doc:`geomajas_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/geomajas_quickstart>`] - Böngésző GIS kliens"
 
-#: ../../build/doc/overview/overview.rst:79
+#: ../../build/doc/overview/overview.rst:81
 msgid ""
 "|OSGeo_project| :doc:`mapbender_overview` - [:doc:`Quickstart "
 "<../quickstart/mapbender_quickstart>`] - Geoportal Framework"
@@ -130,7 +130,7 @@ msgstr ""
 "|OSGeo_project| :doc:`mapbender_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/mapbender_quickstart>`] - Geoportál keretrendszer"
 
-#: ../../build/doc/overview/overview.rst:81
+#: ../../build/doc/overview/overview.rst:83
 msgid ""
 "|nologo| :doc:`geoext_overview` - [:doc:`Quickstart "
 "<../quickstart/geoext_quickstart>`] - JavaScript Toolkit Web Mapping"
@@ -138,7 +138,7 @@ msgstr ""
 "|nologo| :doc:`geoext_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/geoext_quickstart>`] - JavaScript Toolkit Web Mapping"
 
-#: ../../build/doc/overview/overview.rst:83
+#: ../../build/doc/overview/overview.rst:85
 msgid ""
 "|OSGeo_project| :doc:`geomoose_overview` - [:doc:`Quickstart "
 "<../quickstart/geomoose_quickstart>`] - Web GIS Portal"
@@ -146,7 +146,7 @@ msgstr ""
 "|OSGeo_project| :doc:`geomoose_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/geomoose_quickstart>`] - Web GIS Portál"
 
-#: ../../build/doc/overview/overview.rst:85
+#: ../../build/doc/overview/overview.rst:87
 msgid ""
 "|OSGeo_project| :doc:`geonode_overview` - [:doc:`Quickstart "
 "<../quickstart/geonode_quickstart>`] - Geospatial Content Management System"
@@ -156,14 +156,23 @@ msgstr ""
 "rendszer"
 
 #: ../../build/doc/overview/overview.rst:89
+msgid ""
+"|OSGeo_community| :doc:`geostyler_overview` - [:doc:`Quickstart "
+"<../quickstart/geostyler_quickstart>`] - Generic Styler For Geodata"
+msgstr ""
+"|OSGeo_community| :doc:`geostyler_overview` - [:doc:`Gyorstalpaló "
+"<../quickstart/geostyler_quickstart>`] - Általános stílus kezelő "
+"geoadatokhoz"
+
+#: ../../build/doc/overview/overview.rst:93
 msgid "Web Services"
 msgstr "Web szolgáltatások"
 
-#: ../../build/doc/overview/overview.rst:91
+#: ../../build/doc/overview/overview.rst:95
 msgid "Publishing spatial data to the internet"
 msgstr "Térinformatikai adatok publikálása az interneten"
 
-#: ../../build/doc/overview/overview.rst:131
+#: ../../build/doc/overview/overview.rst:139
 msgid ""
 "|OSGeo_project| :doc:`geoserver_overview` - [:doc:`Quickstart "
 "<../quickstart/geoserver_quickstart>`] - OGC Web Services"
@@ -171,7 +180,7 @@ msgstr ""
 "|OSGeo_project| :doc:`geoserver_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/geoserver_quickstart>`] - OGC Web szolgáltatások"
 
-#: ../../build/doc/overview/overview.rst:133
+#: ../../build/doc/overview/overview.rst:141
 msgid ""
 "|OSGeo_project| :doc:`mapserver_overview` - [:doc:`Quickstart "
 "<../quickstart/mapserver_quickstart>`] - OGC Web Services"
@@ -179,7 +188,7 @@ msgstr ""
 "|OSGeo_project| :doc:`mapserver_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/mapserver_quickstart>`] - OGC Web szolgáltatások"
 
-#: ../../build/doc/overview/overview.rst:135
+#: ../../build/doc/overview/overview.rst:143
 msgid ""
 "|OSGeo_project| :doc:`mapcache_overview` - [:doc:`Quickstart "
 "<../quickstart/mapcache_quickstart>`] - OGC Web Services"
@@ -187,7 +196,7 @@ msgstr ""
 "|OSGeo_project| :doc:`mapcache_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/mapcache_quickstart>`] - OGC Web Szolgáltatás"
 
-#: ../../build/doc/overview/overview.rst:137
+#: ../../build/doc/overview/overview.rst:145
 msgid ""
 "|OSGeo_project| :doc:`deegree_overview` - [:doc:`Quickstart "
 "<../quickstart/deegree_quickstart>`] - OGC Web Services"
@@ -195,7 +204,7 @@ msgstr ""
 "|OSGeo_project| :doc:`deegree_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/deegree_quickstart>`] - OGC Web szolgáltatások"
 
-#: ../../build/doc/overview/overview.rst:139
+#: ../../build/doc/overview/overview.rst:147
 msgid ""
 "|nologo| :doc:`ncWMS_overview` - [:doc:`Quickstart "
 "<../quickstart/ncWMS_quickstart>`] - Web Map Service"
@@ -203,7 +212,7 @@ msgstr ""
 "|nologo| :doc:`ncWMS_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/ncWMS_quickstart>`] - Web térkép szolgáltatás"
 
-#: ../../build/doc/overview/overview.rst:141
+#: ../../build/doc/overview/overview.rst:149
 msgid ""
 "|nologo| :doc:`eoxserver_overview` - [:doc:`Quickstart "
 "<../quickstart/eoxserver_quickstart>`] - Web Coverage Service"
@@ -211,7 +220,7 @@ msgstr ""
 "|nologo| :doc:`eoxserver_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/eoxserver_quickstart>`] - Web Coverage Service"
 
-#: ../../build/doc/overview/overview.rst:143
+#: ../../build/doc/overview/overview.rst:151
 msgid ""
 "|OSGeo_project| :doc:`geonetwork_overview` - [:doc:`Quickstart "
 "<../quickstart/geonetwork_quickstart>`] - Metadata Catalogue"
@@ -219,7 +228,7 @@ msgstr ""
 "|OSGeo_project| :doc:`geonetwork_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/geonetwork_quickstart>`] - Meta adat katalógus"
 
-#: ../../build/doc/overview/overview.rst:145
+#: ../../build/doc/overview/overview.rst:153
 msgid ""
 "|OSGeo_project| :doc:`pycsw_overview` - [:doc:`Quickstart "
 "<../quickstart/pycsw_quickstart>`] - Metadata Catalogue"
@@ -227,7 +236,7 @@ msgstr ""
 "|OSGeo_project| :doc:`pycsw_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/pycsw_quickstart>`] - Meta adat katalógus"
 
-#: ../../build/doc/overview/overview.rst:147
+#: ../../build/doc/overview/overview.rst:155
 msgid ""
 "|OSGeo_project| :doc:`pywps_overview` - [:doc:`Quickstart "
 "<../quickstart/pywps_quickstart>`] - Web Processing Service"
@@ -235,7 +244,7 @@ msgstr ""
 "|OSGeo_project| :doc:`pywps_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/pywps_quickstart>`] - Web Processing Service"
 
-#: ../../build/doc/overview/overview.rst:149
+#: ../../build/doc/overview/overview.rst:157
 msgid ""
 "|OSGeo_community| :doc:`mapproxy_overview` - [:doc:`Quickstart "
 "<../quickstart/mapproxy_quickstart>`] - Proxy WMS & tile services"
@@ -243,7 +252,7 @@ msgstr ""
 "|OSGeo_community| :doc:`mapproxy_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/mapproxy_quickstart>`] - Proxy WMS és csempe szolgáltatások"
 
-#: ../../build/doc/overview/overview.rst:151
+#: ../../build/doc/overview/overview.rst:159
 msgid ""
 "|nologo| :doc:`qgis_mapserver_overview` - [:doc:`Quickstart "
 "<../quickstart/qgis_mapserver_quickstart>`] - Web Map Service"
@@ -251,7 +260,7 @@ msgstr ""
 "|nologo| :doc:`qgis_mapserver_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/qgis_mapserver_quickstart>`] - Web Map Service"
 
-#: ../../build/doc/overview/overview.rst:153
+#: ../../build/doc/overview/overview.rst:161
 msgid ""
 "|OSGeo_community| :doc:`istsos_overview` - [:doc:`Quickstart "
 "<../quickstart/istsos_quickstart>`] - Sensor Observation Service"
@@ -259,7 +268,7 @@ msgstr ""
 "|OSGeo_community| :doc:`istsos_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/istsos_quickstart>`] - Szenzor észlelés szolgáltatás"
 
-#: ../../build/doc/overview/overview.rst:155
+#: ../../build/doc/overview/overview.rst:163
 msgid ""
 "|nologo| :doc:`52nSOS_overview` - [:doc:`Quickstart "
 "<../quickstart/52nSOS_quickstart>`] - Sensor Observation Service"
@@ -267,7 +276,7 @@ msgstr ""
 "|nologo| :doc:`52nSOS_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/52nSOS_quickstart>`] - Szenzor észlelés szolgáltatás"
 
-#: ../../build/doc/overview/overview.rst:157
+#: ../../build/doc/overview/overview.rst:165
 msgid ""
 "|nologo| :doc:`52nWPS_overview` - [:doc:`Quickstart "
 "<../quickstart/52nWPS_quickstart>`] - Web Processing Service"
@@ -275,7 +284,7 @@ msgstr ""
 "|nologo| :doc:`52nWPS_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/52nWPS_quickstart>`] - Web feldolgozás szolgáltatás"
 
-#: ../../build/doc/overview/overview.rst:159
+#: ../../build/doc/overview/overview.rst:167
 msgid ""
 "|OSGeo_incubation| :doc:`zoo-project_overview` - [:doc:`Quickstart "
 "<../quickstart/zoo-project_quickstart>`] - Web Processing Service"
@@ -283,7 +292,7 @@ msgstr ""
 "|OSGeo_incubation| :doc:`zoo-project_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/zoo-project_quickstart>`] - Web feldolgozás szolgáltatás"
 
-#: ../../build/doc/overview/overview.rst:161
+#: ../../build/doc/overview/overview.rst:169
 msgid ""
 "|nologo| :doc:`t-rex_overview` - [:doc:`Quickstart "
 "<../quickstart/t-rex_quickstart>`] - Vector Tile Service"
@@ -291,7 +300,7 @@ msgstr ""
 "|nologo| :doc:`t-rex_overview` - [:doc:`Gyorstalapló "
 "<../quickstart/t-rex_quickstart>`] - Vektor Csempe Szolgáltatás"
 
-#: ../../build/doc/overview/overview.rst:163
+#: ../../build/doc/overview/overview.rst:171
 msgid ""
 "|nologo| :doc:`actinia_overview` - [:doc:`Quickstart "
 "<../quickstart/actinia_quickstart>`] - Processing of Geographical Data"
@@ -299,15 +308,29 @@ msgstr ""
 "|nologo| :doc:`actinia_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/actinia_quickstart>`] - Térinformatikai adatatok feldolgozása"
 
-#: ../../build/doc/overview/overview.rst:167
+#: ../../build/doc/overview/overview.rst:173
+msgid ""
+"|nologo| :doc:`re3gistry_overview` - [:doc:`Quickstart "
+"<../quickstart/re3gistry_quickstart>`] - Management of reference codes"
+msgstr ""
+"|nologo| :doc:`re3gistry_overview` - [:doc:`Gyorstalpaló "
+"<../quickstart/re3gistry_quickstart>`] - Management of reference codes"
+
+#: ../../build/doc/overview/overview.rst:175
+msgid ""
+"|OSGeo_community| :doc:`pygeoapi_overview` - [:doc:`Quickstart "
+"<../quickstart/pygeoapi_quickstart>`] - OGC Web Services"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:179
 msgid "Data Stores"
 msgstr "Adattárolás"
 
-#: ../../build/doc/overview/overview.rst:169
+#: ../../build/doc/overview/overview.rst:181
 msgid "Storing spatial data"
 msgstr "Téradat tárolás"
 
-#: ../../build/doc/overview/overview.rst:183
+#: ../../build/doc/overview/overview.rst:195
 msgid ""
 "|OSGeo_project| :doc:`postgis_overview` - [:doc:`Quickstart "
 "<../quickstart/postgis_quickstart>`] - Spatial Database"
@@ -315,7 +338,7 @@ msgstr ""
 "|OSGeo_project| :doc:`postgis_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/postgis_quickstart>`] - Téradatbázis"
 
-#: ../../build/doc/overview/overview.rst:185
+#: ../../build/doc/overview/overview.rst:197
 msgid ""
 "|nologo| :doc:`spatialite_overview` - [:doc:`Quickstart "
 "<../quickstart/spatialite_quickstart>`] - Lightweight Database"
@@ -323,7 +346,7 @@ msgstr ""
 "|nologo| :doc:`spatialite_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/spatialite_quickstart>`] - Könnyűsúlyú adatbázis"
 
-#: ../../build/doc/overview/overview.rst:187
+#: ../../build/doc/overview/overview.rst:199
 msgid ""
 "|OSGeo_incubation| :doc:`rasdaman_overview` - [:doc:`Quickstart "
 "<../quickstart/rasdaman_quickstart>`] - Multi-Dimensional Raster Database"
@@ -331,7 +354,7 @@ msgstr ""
 "|OSGeo_incubation| :doc:`rasdaman_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/rasdaman_quickstart>`] - Többdimenziós raszter adatbázis"
 
-#: ../../build/doc/overview/overview.rst:189
+#: ../../build/doc/overview/overview.rst:201
 msgid ""
 "|OSGeo_community| :doc:`pgrouting_overview` - [:doc:`Quickstart "
 "<../quickstart/pgrouting_quickstart>`] - Routing for PostGIS"
@@ -339,11 +362,11 @@ msgstr ""
 "|OSGeo_community| :doc:`pgrouting_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/pgrouting_quickstart>`] - Útvonalak PostGIS-hez"
 
-#: ../../build/doc/overview/overview.rst:193
+#: ../../build/doc/overview/overview.rst:205
 msgid "Navigation and Maps"
 msgstr "Navigáció és térképek"
 
-#: ../../build/doc/overview/overview.rst:213
+#: ../../build/doc/overview/overview.rst:225
 msgid ""
 "|nologo| :doc:`gpsprune_overview` - [:doc:`Quickstart "
 "<../quickstart/gpsprune_quickstart>`] - View, Edit and Convert GPS Tracks"
@@ -352,7 +375,7 @@ msgstr ""
 "<../quickstart/gpsprune_quickstart>`] - GPS nyomvonalak szerkesztése, "
 "konvertálása"
 
-#: ../../build/doc/overview/overview.rst:215
+#: ../../build/doc/overview/overview.rst:227
 msgid ""
 "|OSGeo_project| :doc:`marble_overview` - [:doc:`Quickstart "
 "<../quickstart/marble_quickstart>`] - Virtual Globe"
@@ -360,7 +383,7 @@ msgstr ""
 "|OSGeo_project| :doc:`marble_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/marble_quickstart>`] - Virtuális földgömb"
 
-#: ../../build/doc/overview/overview.rst:217
+#: ../../build/doc/overview/overview.rst:229
 msgid ""
 "|nologo| :doc:`osm_overview` - [:doc:`Quickstart "
 "<../quickstart/osm_quickstart>`] - OpenStreetMap Tools"
@@ -368,7 +391,7 @@ msgstr ""
 "|nologo| :doc:`osm_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/osm_quickstart>`] - OpenStreetMap eszközök"
 
-#: ../../build/doc/overview/overview.rst:219
+#: ../../build/doc/overview/overview.rst:231
 msgid ""
 "|nologo| :doc:`ideditor_overview` - [:doc:`Quickstart "
 "<../quickstart/ideditor_quickstart>`] - OpenStreetMap Web Editor"
@@ -376,7 +399,7 @@ msgstr ""
 "|nologo| :doc:`ideditor_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/ideditor_quickstart>`] - OpenStreetMap Web szerkesztő"
 
-#: ../../build/doc/overview/overview.rst:221
+#: ../../build/doc/overview/overview.rst:233
 msgid ""
 "|nologo| :doc:`josm_overview` - [:doc:`Quickstart "
 "<../quickstart/josm_quickstart>`] - OpenStreetMap Desktop Editor"
@@ -384,7 +407,7 @@ msgstr ""
 "|nologo| :doc:`josm_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/josm_quickstart>`] - OpenStreetMap asztali szerkesztő"
 
-#: ../../build/doc/overview/overview.rst:223
+#: ../../build/doc/overview/overview.rst:235
 msgid ""
 "|nologo| :doc:`opencpn_overview` - [:doc:`Quickstart "
 "<../quickstart/opencpn_quickstart>`] - Marine GPS Chartplotter"
@@ -392,15 +415,15 @@ msgstr ""
 "|nologo| :doc:`opencpn_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/opencpn_quickstart>`] - Marine GPS Chartplotter"
 
-#: ../../build/doc/overview/overview.rst:227
+#: ../../build/doc/overview/overview.rst:239
 msgid "Spatial Tools"
 msgstr "Térinformatikai eszközök"
 
-#: ../../build/doc/overview/overview.rst:229
+#: ../../build/doc/overview/overview.rst:241
 msgid "Specific analysis tools"
 msgstr "Speciális elemző eszközök"
 
-#: ../../build/doc/overview/overview.rst:245
+#: ../../build/doc/overview/overview.rst:257
 msgid ""
 "|nologo| :doc:`gmt_overview` - [:doc:`Quickstart "
 "<../quickstart/gmt_quickstart>`] - Cartographic Rendering"
@@ -408,7 +431,7 @@ msgstr ""
 "|nologo| :doc:`gmt_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/gmt_quickstart>`] - kartografált megjelenítés"
 
-#: ../../build/doc/overview/overview.rst:247
+#: ../../build/doc/overview/overview.rst:259
 msgid ""
 "|OSGeo_project| :doc:`otb_overview` - [:doc:`Quickstart "
 "<../quickstart/otb_quickstart>`] - Image Processing"
@@ -416,7 +439,7 @@ msgstr ""
 "|OSGeo_project| :doc:`otb_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/otb_quickstart>`] - Képfeldolgozás"
 
-#: ../../build/doc/overview/overview.rst:249
+#: ../../build/doc/overview/overview.rst:261
 msgid ""
 "|nologo| :doc:`R_overview` - [:doc:`Quickstart "
 "<../quickstart/R_quickstart>`] - Statistical Programming"
@@ -424,7 +447,7 @@ msgstr ""
 "|nologo| :doc:`R_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/R_quickstart>`] - Statisztikai programozás"
 
-#: ../../build/doc/overview/overview.rst:251
+#: ../../build/doc/overview/overview.rst:263
 msgid ""
 "|nologo| :doc:`mapnik_overview` - [:doc:`Quickstart "
 "<../quickstart/mapnik_quickstart>`] - Cartographic Rendering"
@@ -432,7 +455,7 @@ msgstr ""
 "|nologo| :doc:`mapnik_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/mapnik_quickstart>`] - kartografált megjelenítés"
 
-#: ../../build/doc/overview/overview.rst:253
+#: ../../build/doc/overview/overview.rst:265
 msgid ""
 "|nologo| :doc:`mapslicer_overview` - [:doc:`Quickstart "
 "<../quickstart/mapslicer_quickstart>`] - Create Map Tiles"
@@ -440,15 +463,15 @@ msgstr ""
 "|nologo| :doc:`mapslicer_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/mapslicer_quickstart>`] - Térkép csempék készítése"
 
-#: ../../build/doc/overview/overview.rst:257
+#: ../../build/doc/overview/overview.rst:269
 msgid "Domain Specific GIS"
 msgstr "Szakterület specifikus GIS"
 
-#: ../../build/doc/overview/overview.rst:259
+#: ../../build/doc/overview/overview.rst:271
 msgid "Applications targeted at a specific domain"
 msgstr "Egy speciális szakterületet megcélzó alkalmazás"
 
-#: ../../build/doc/overview/overview.rst:267
+#: ../../build/doc/overview/overview.rst:279
 msgid ""
 "|nologo| :doc:`zygrib_overview` - [:doc:`Quickstart "
 "<../quickstart/zygrib_quickstart>`] - Weather Forecast Maps"
@@ -456,39 +479,39 @@ msgstr ""
 "|nologo| :doc:`zygrib_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/zygrib_quickstart>`] - Időjárás előrejelzés térképek"
 
-#: ../../build/doc/overview/overview.rst:271
+#: ../../build/doc/overview/overview.rst:283
 msgid "Data"
 msgstr "Adatok"
 
-#: ../../build/doc/overview/overview.rst:273
+#: ../../build/doc/overview/overview.rst:285
 msgid "Spatial data sets"
 msgstr "Térbeli adathalmazok"
 
-#: ../../build/doc/overview/overview.rst:283
+#: ../../build/doc/overview/overview.rst:295
 msgid "|nologo| :doc:`naturalearth_overview`  - Global Data Sets"
 msgstr "|nologo| :doc:`naturalearth_overview`  - Globális adathalmazok"
 
-#: ../../build/doc/overview/overview.rst:285
+#: ../../build/doc/overview/overview.rst:297
 msgid "|nologo| :doc:`nc_dataset_overview`"
 msgstr "|nologo| :doc:`nc_dataset_overview`"
 
-#: ../../build/doc/overview/overview.rst:287
+#: ../../build/doc/overview/overview.rst:299
 msgid ""
 "|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
 msgstr "|nologo| :doc:`osm_dataset_overview`  - Minta OpenStreetMap kivonat"
 
-#: ../../build/doc/overview/overview.rst:289
+#: ../../build/doc/overview/overview.rst:301
 msgid ""
 "|nologo| :doc:`netcdf_dataset_overview`  - Time series temperature and "
 "precipitation"
 msgstr ""
 "|nologo| :doc:`netcdf_dataset_overview`  - Hőmérséklet és csapadék idősorok"
 
-#: ../../build/doc/overview/overview.rst:293
+#: ../../build/doc/overview/overview.rst:305
 msgid "Geospatial Libraries"
 msgstr "Térinformatikai könyvtárak"
 
-#: ../../build/doc/overview/overview.rst:310
+#: ../../build/doc/overview/overview.rst:322
 msgid ""
 "|OSGeo_project| :doc:`gdal_overview` - [:doc:`Quickstart "
 "<../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools"
@@ -496,16 +519,16 @@ msgstr ""
 "|OSGeo_project| :doc:`gdal_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/gdal_quickstart>`] - Térinformatikai adatátalakító eszközök"
 
-#: ../../build/doc/overview/overview.rst:312
+#: ../../build/doc/overview/overview.rst:324
 msgid "|OSGeo_project| :doc:`geotools_overview`  - Java GIS Toolkit"
 msgstr "|OSGeo_project| :doc:`geotools_overview`  - Java GIS eszközkészlet"
 
-#: ../../build/doc/overview/overview.rst:314
+#: ../../build/doc/overview/overview.rst:326
 msgid "|OSGeo_project| :doc:`geos_overview`  - C/C++ Spatial Library"
 msgstr ""
 "|OSGeo_project| :doc:`geos_overview`  - C/C++ térinformatikai könyvtár"
 
-#: ../../build/doc/overview/overview.rst:316
+#: ../../build/doc/overview/overview.rst:328
 msgid ""
 "|OSGeo_community| :doc:`proj4_overview` - [:doc:`Quickstart "
 "<../quickstart/proj4_quickstart>`] - Coordinate Reference System Libraries"
@@ -513,7 +536,7 @@ msgstr ""
 "|OSGeo_community| :doc:`proj4_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/proj4_quickstart>`] - Vetületi rendszerek könyvtár"
 
-#: ../../build/doc/overview/overview.rst:318
+#: ../../build/doc/overview/overview.rst:330
 msgid ""
 "|nologo| :doc:`liblas_overview` - [:doc:`Quickstart "
 "<../quickstart/liblas_quickstart>`] - LiDAR Data Access"
@@ -521,19 +544,19 @@ msgstr ""
 "|nologo| :doc:`liblas_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/liblas_quickstart>`] - LiDAR adatkezelés"
 
-#: ../../build/doc/overview/overview.rst:320
+#: ../../build/doc/overview/overview.rst:332
 msgid "|nologo| :doc:`jts_overview`  - Java Topology Suite"
 msgstr "|nologo| :doc:`jts_overview`  - Java topológiai készlet"
 
-#: ../../build/doc/overview/overview.rst:324
+#: ../../build/doc/overview/overview.rst:336
 msgid "Geospatial Standards"
 msgstr "Térinformatikai szabványok"
 
-#: ../../build/doc/overview/overview.rst:334
+#: ../../build/doc/overview/overview.rst:346
 msgid "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
 msgstr "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
 
-#: ../../build/doc/overview/overview.rst:336
+#: ../../build/doc/overview/overview.rst:348
 msgid ""
 "|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial Information "
 "in Europe"
@@ -541,10 +564,10 @@ msgstr ""
 "|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial Information "
 "in Europe"
 
-#: ../../build/doc/overview/overview.rst:340
+#: ../../build/doc/overview/overview.rst:352
 msgid "Available in prior OSGeo-Live releases"
 msgstr "Elérhető az OSGeo-Live korábbi verzióiban"
 
-#: ../../build/doc/overview/overview.rst:352
+#: ../../build/doc/overview/overview.rst:364
 msgid ":doc:`../prior_applications`"
 msgstr ":doc:`../prior_applications`"

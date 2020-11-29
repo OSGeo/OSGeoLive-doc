@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -21,26 +21,30 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:19
+#: ../../build/doc/quickstart/deegree_quickstart.rst:22
 msgid "deegree Quickstart"
 msgstr "deegree gyorstalpaló"
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:21
+#: ../../build/doc/quickstart/deegree_quickstart.rst:24
 msgid ""
 "*deegree* is open source software for spatial data infrastructures and the "
 "geospatial web. *deegree* is a Java application for serving maps (and vector"
 " data) for other clients to show."
 msgstr ""
+"*deegree* egí nyílt forráskódú szoftver a térinformatikai adat "
+"infrastruktúrákhoz és a térinformatikai web-hez. A *deegree* egy Java "
+"alkalmazás térkép  (és vektor adat) szolgáltatáshoz más kliensekben "
+"megjelenítéshez."
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:24
+#: ../../build/doc/quickstart/deegree_quickstart.rst:27
 msgid "Available components are:"
 msgstr "Elérhető komponensek:"
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:26
+#: ../../build/doc/quickstart/deegree_quickstart.rst:29
 msgid "Web-Services: WFS, WMS, WMTS, CSW, WPS"
 msgstr "Web szolgáltatások: WFS, WMS, WMTS, CSW, WPS"
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:28
+#: ../../build/doc/quickstart/deegree_quickstart.rst:31
 msgid ""
 "*deegree 3* is the new generation of the deegree Java framework for GIS "
 "applications and OGC-service implementations. It can be used to build web-"
@@ -50,11 +54,11 @@ msgstr ""
 "és OGC szolgáltatások implementációjához. Web alapú téradat infrastruktúra "
 "(GDI) építésére használható."
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:36
+#: ../../build/doc/quickstart/deegree_quickstart.rst:39
 msgid "Start deegree 3 webservices"
 msgstr "deegree3 web szolgáltatások indítása"
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:38
+#: ../../build/doc/quickstart/deegree_quickstart.rst:41
 msgid ""
 "Choose *'Start deegree'* from the :menuselection:`Geospatial --> Web "
 "Services --> deegree` menu. The application will take a few moments to start"
@@ -63,25 +67,32 @@ msgstr ""
 "Válassza a  *'Start deegree'*-t a :menuselection:`Geospatial --> Web "
 "Services --> deegree` menüből. Az alkalmazás néhány pillanat múlva elindul."
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:41
+#: ../../build/doc/quickstart/deegree_quickstart.rst:44
 msgid ""
 "Firefox opens the *deegree 3 services console*. (You can also open this "
 "manually by pointing your browser to http://localhost:8033). This is a "
 "simple web-based GUI for editing the configuration files of the *deegree "
 "workspace*."
 msgstr ""
+"A Firefox megnyitja a *deegree 3 szolgáltatás konzolt*. (Ezt manuálisan is "
+"megnyithatja a http://localhost:8033 címre irányítva a böngészőt). Ez egy "
+"egyszerű web alapú GUI a *deegree munkaterületnek* nevezett konfiguráció "
+"fájlok szerkesztéséhez."
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:45
+#: ../../build/doc/quickstart/deegree_quickstart.rst:48
 msgid "Load a workspace"
-msgstr ""
+msgstr "Egy munkaterület betöltése"
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:47
+#: ../../build/doc/quickstart/deegree_quickstart.rst:50
 msgid ""
 "*deegree 3* uses configurations conformant to all *deegree 3* based "
 "webservices. Those configurations are stored in the workspace."
 msgstr ""
+"A *deegree 3* olyan konfigurációkat használ, mely megfelel minden *deegree "
+"3* alapú web szolgáltatásnak. A konfigurációkat úgynevezett "
+"munkaterületekben tároljuk."
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:49
+#: ../../build/doc/quickstart/deegree_quickstart.rst:52
 msgid ""
 "To manage the included and ready-to-use workspaces, click *'workspaces'* on "
 "the left side. You are now in the workspace management of the running "
@@ -90,12 +101,17 @@ msgid ""
 "workspaces and offical workspaces which can be imported if you have a "
 "internet connection."
 msgstr ""
+"A használatra kész és telepített munkaterületek kezeléséhez kattintson a "
+"\"workspaces\"-re a bal oldalon. Most a futó *deegree* példány munkaterület "
+"kezelőjében van. Láthatja melyik workspace aktív (csak egy lehet aktív "
+"egyidőben), inaktív lokálisan elérhető workspace-ket és hivatalos workspace-"
+"ket importálhat, ha van internet kapcsolata."
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:51
+#: ../../build/doc/quickstart/deegree_quickstart.rst:54
 msgid "Press start on the *deegree-inspire-workspace*."
-msgstr ""
+msgstr "Nyomja meg a start-ot a *deegree-inspire-workspace*-en."
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:53
+#: ../../build/doc/quickstart/deegree_quickstart.rst:56
 msgid ""
 "This workspace includes an example configuration for INSPIRE View- and "
 "Download-Services. It consists of a transactional WFS (2.0.0 and 1.1.0) for "
@@ -115,7 +131,7 @@ msgstr ""
 "harmonizált INSPIRE GML. Továbbá többféle kérdés típust és lekérdezést "
 "támogat."
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:64
+#: ../../build/doc/quickstart/deegree_quickstart.rst:67
 msgid ""
 "This workspace loads harmonized INSPIRE GML from local files. This can "
 "easily changed to PostGIS, Oracle Spatial or Microsoft SQL Server as "
@@ -125,53 +141,69 @@ msgstr ""
 "könnyen megváltoztatható  PostGIS, Oracel Spatial vagy Microsoft SQL server "
 "háttérre."
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:70
+#: ../../build/doc/quickstart/deegree_quickstart.rst:73
 msgid "View a map"
-msgstr ""
+msgstr "Egy térkép megtekintése"
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:72
+#: ../../build/doc/quickstart/deegree_quickstart.rst:75
 msgid ""
 "Click on *'see layers'* to open a simple map-client. The service is "
 "configured to visualize the data and a basemap (rendered by `OpenStreetMap "
 "<https://www.openstreetmap.org/>`_)."
 msgstr ""
+"Kattintson a *'see layers'*-re egy egyszerű térkép megnyitásához. A "
+"szolgáltatást az adatok és egy alaptérkép (`OpenStreetMap "
+"<http://openstreetmap.org/>`_) megjelenítésére konfigurálták."
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:74
+#: ../../build/doc/quickstart/deegree_quickstart.rst:77
 msgid ""
 "Click on the **+** on the right side to open a layer tree showing all "
 "available  layers. You can activate the INSPIRE layer served by the deegree "
 "WMS here."
 msgstr ""
+"A jobb oldali *+**-ra kattintva megnyitja az összes elérhető réteget "
+"tartalmazó réteg fát. Itt kapcsolhatja be a deegree WMS által szolgáltatott "
+"INSPIRE réteget."
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:77
+#: ../../build/doc/quickstart/deegree_quickstart.rst:80
 msgid ""
 "The map client is based on `OpenLayers <https://openlayers.org/>`_. You can "
 "pan through the map holding the left mouse button and drag the map. Zooming "
 "is possible via mouse wheel or the navigation elements on the left side."
 msgstr ""
+"A térkép kliens az `OpenLayers-re <https://openlayers.org/>`_ épül. A térkép"
+" eltolásához tartsa a  egér bal gombját lenyomva és húzza a térképet. A "
+"nagyítás az egérgörgő vagy a bal oldali navigációs elemek segítségével "
+"lehetséges."
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:81
+#: ../../build/doc/quickstart/deegree_quickstart.rst:84
 msgid ""
 "More information and step-by-step tutorials about the INSPIRE workspace can "
 "be found in the deegree `documentation "
 "<https://download.deegree.org/documentation/3.4.1/html/lightly.html#example-"
 "workspace-1-inspire-network-services>`__."
 msgstr ""
+"További információ és lépésről-lépésre oktatóanyag az INSPIRE "
+"munkaterületről megtalálható a deegree `dokumentációban "
+"<https://download.deegree.org/documentation/3.4.1/html/lightly.html#example-"
+"workspace-1-inspire-network-services>`_."
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:86
+#: ../../build/doc/quickstart/deegree_quickstart.rst:89
 msgid "What next?"
 msgstr "Mi a következő?"
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:88
+#: ../../build/doc/quickstart/deegree_quickstart.rst:91
 msgid ""
 "This was just a short introduction to the features of deegree 3. There is "
 "more information in the demo installations and on the deegree website."
 msgstr ""
+"Ez csak egy rövid bemutatkozás volt a deegree 3 funkcióiról. Több információ"
+" érhető el a demó telepítésben és a deegree honlapon."
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:91
+#: ../../build/doc/quickstart/deegree_quickstart.rst:94
 msgid "deegree online demo - Available here: https://www.deegree.org/demo/"
-msgstr ""
+msgstr "deegree online demó - elérhető itt: https://www.deegree.org/demo/"
 
-#: ../../build/doc/quickstart/deegree_quickstart.rst:93
+#: ../../build/doc/quickstart/deegree_quickstart.rst:96
 msgid "deegree website - Available here: https://www.deegree.org"
-msgstr ""
+msgstr "deegree honlap - elérhető itt: https://www.deegree.org"
