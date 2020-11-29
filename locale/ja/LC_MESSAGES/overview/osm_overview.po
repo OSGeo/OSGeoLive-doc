@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:11+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -136,10 +136,10 @@ msgstr "**API インターフェイス (データ):** REST (Xapi 経由), XML"
 msgid "**Support:** https://www.openstreetmap.org/help"
 msgstr "**サポート:** https://www.openstreetmap.org/help"
 
-#: ../../build/doc/overview/osm_overview.rst:89
+#: ../../build/doc/overview/osm_overview.rst:90
 msgid "Quickstart"
 msgstr "クイックスタート"
 
-#: ../../build/doc/overview/osm_overview.rst:91
+#: ../../build/doc/overview/osm_overview.rst:92
 msgid ":doc:`Quickstart documentation <../quickstart/osm_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/osm_quickstart>`"

@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:07+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -301,10 +301,10 @@ msgstr "**対応プラットフォーム:** Linux, Mac, Windows"
 msgid "**Support:** https://mapproxy.org/support"
 msgstr "**サポート:** https://mapproxy.org/support"
 
-#: ../../build/doc/overview/mapproxy_overview.rst:124
+#: ../../build/doc/overview/mapproxy_overview.rst:125
 msgid "Quickstart"
 msgstr "クイックスタート"
 
-#: ../../build/doc/overview/mapproxy_overview.rst:126
+#: ../../build/doc/overview/mapproxy_overview.rst:127
 msgid ":doc:`Quickstart documentation <../quickstart/mapproxy_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/mapproxy_quickstart>`"
