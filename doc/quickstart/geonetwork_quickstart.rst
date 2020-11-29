@@ -1,5 +1,5 @@
 :Author: GeoNetwork Community
-:Version: osgeolive13.0
+:Version: osgeolive14.0
 :Reviewer: Jo Cook
 :Reviewer: Cameron Shorter
 :Reviewer: Angelos Tzotsos, OSGeo
@@ -28,8 +28,7 @@ GeoNetwork is a catalog application to manage spatially referenced resources. It
 Prerequisites
 =============
 
-This guide assumes that you have Geonetwork installed and running, and know the URL so you can connect to it from your browser.
-If not, refer to the `Installation Guide <https://geonetwork-opensource.org/manuals/trunk/en/install-guide/index.html>`__.
+GeoNetwork can directly be started from the OSGeo Live start menu and will be available at http://localhost:8080/geonetwork some moments later. Check the `Installation Guide <https://geonetwork-opensource.org/manuals/trunk/en/install-guide/index.html>`__ if you are using GeoNetwork is some other context.
 
 Throughout this guide we will use the URL ``http://localhost:8880/geonetwork`` to refer to the catalog, please substitute a different URL if this is not correct for your system.
 
@@ -37,7 +36,7 @@ Throughout this guide we will use the URL ``http://localhost:8880/geonetwork`` t
 Access the catalog
 ==================
 
-In the Web Services folder on the Desktop, double-click **start GeoNetwork**. This will open the Firefox web browser at the URL ``http://localhost:8880/geonetwork``. This will be referred to throughout this document as the *homepage*. 
+In the Web Services folder on the Desktop (or via the start menu), double-click **start GeoNetwork**. This will open the Firefox web browser at the URL ``http://localhost:8880/geonetwork``. This will be referred to throughout this document as the *homepage*. 
 
 You can return to the  homepage at any point by selecting the catalogue logo in the top left of the top toolbar. In the screenshot below, this is labelled  “My GeoNetwork catalogue” but it may have a different name and logo.
 
@@ -64,26 +63,20 @@ Once signed in, the top toolbar will change to include some additional elements,
 Load sample data
 ================
 
-Select **Admin console** in the top toolbar to access the administrative functions in the catalog, then select the blue **Metadata and templates** button to access the sample data and templates tab.
+Select **Admin console** in the top toolbar to access the administrative functions in the catalog, then select the **Metadata and templates** menuitem to access the sample data and templates tab.
 
+This page lists all the metadata standards loaded in the catalog. The default standards in GeoNetwork are:
 
-.. figure:: /images/projects/geonetwork/geonetwork_metadata-and-templates.png
-  :scale: 70 %
-
-
-This tab lists all the metadata standards loaded in the catalog. The default standards in GeoNetwork 3.2 are:
-
-- Geographic information - Metadata (iso19139)
+- Geographic information - Metadata (iso19139:2007)
+- Geographic information - Metadata (iso19115-3.2018)
 - Dublin Core (for CSW only) (csw-record)
 - Dublin Core (dublin core)
 - Geographic information - Methodology for feature cataloguing (iso9110)
 
-For the purposes of this Quick Start Guide, select Geographic information - Metadata (iso19139) and then select the blue **Load samples for selected standards** button below the list.
-
+For the purposes of this Quick Start Guide, select ``Geographic information - Metadata (iso19139:2007)`` and then select first the **Load samples for selected standards** button below the list.
 
 .. figure:: /images/projects/geonetwork/geonetwork_templates.png
   :scale: 70 %
-
 
 *When this process is complete, a notice will appear in the right of the window indicating that 5 record(s) have been added for schema ‘iso19139’.*
 
@@ -137,7 +130,7 @@ Select a card to take you to a page showing the full details for that record. Se
 
 In the top right of the record are icons for:
 
-- Editing the record
+- Editing the record (when logged in)
 - Deleting the record
 - Managing the record (such as assigning viewing or editing privileges, transferring ownership to a different user)
 - Downloading the record as multiple formats

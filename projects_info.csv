@@ -29,7 +29,7 @@ Y | mapcache | 1.8.0 | Y | Y | Web Services | | OGC Web Services | mapcache | ht
 Y | deegree | 3.4.1 | Y | Y | Web Services | | OGC Web Services | deegree3 | http://www.deegree.org | OSGeo_project | deegree | Y
 Y | ncWMS | 2.2.8 | Y | Y | Web Services | | Web Map Service | ncwms | https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/ | | ncWMS | Y
 Y | eoxserver | 1.0.0beta1 | Y | Y | Web Services | | Web Coverage Service | eoxserver | https://docs.eoxserver.org/en/stable/ | | EOxServer | Y
-Y | geonetwork | 3.2.1 | Y | Y | Web Services | | Metadata Catalogue | geonetwork-opensource | https://geonetwork-opensource.org | OSGeo_project | GeoNetwork | Y
+Y | geonetwork | 3.10 | Y | Y | Web Services | | Metadata Catalogue | geonetwork-opensource | https://geonetwork-opensource.org | OSGeo_project | GeoNetwork | Y
 Y | pycsw | 2.4.0 | Y | Y | Web Services | | Metadata Catalogue | pycsw | https://pycsw.org/ | OSGeo_project | pycsw | Y
 Y | pywps | 4.0.0 | Y | Y | Web Services | | Web Processing Service | pyWPS | https://pywps.org/ | OSGeo_project | PyWPS | Y
 Y | mapproxy | 1.11.0 | Y | Y | Web Services | | Proxy WMS & tile services | mapproxy | https://mapproxy.org/ | OSGeo_community | MapProxy | Y

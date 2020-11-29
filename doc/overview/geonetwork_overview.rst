@@ -36,8 +36,8 @@ Implemented Standards
 
 * OGC Catalogue Service-Web (CSW) 2.0.2 ISO
 * Open Archives Initiatives (OAI-PMH)
-* OpenSearch-Geo
-* OAI-PMH
+* OpenSearch-Geo / INSPIRE Atom
+* Client for OGC-WMS/WMTS/WFS
 * Metadata standards:
 
  * ISO19115/ISO19119/ISO19139/ISO19110 and ISO Profiles
