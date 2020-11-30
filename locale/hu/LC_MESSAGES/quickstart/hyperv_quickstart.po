@@ -1,0 +1,295 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2018-06-09 16:37+0000\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:8
+msgid "OSGeoLive Quickstart for Running in a Hyper-V Virtual Machine"
+msgstr "OSGEoLive gyorstalpaló a  Hyper-V virtuális gépen futtatáshoz"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:10
+msgid ""
+"This Quick Start describes how to run OSGeoLive using Hyper-V, Microsoft's "
+"virtualisation software. For other methods, follow links from the \"See "
+"Also\" section below. Hyper-V is available on both Windows Server, and "
+"Windows 10 Professional - it is not part of Windows 10 Home."
+msgstr ""
+"Ez a gyorstalpaló írja le hogyan futtassuk az OSGeoLive-ot a Hyper-V, a "
+"Microsoft virtualizásiós szoftverében. Egy másik megoldáshoz kövesse a "
+"linket a *Lásd még fejezet*ben lentebb. A Hyper-V a Windows Server és a "
+"Windows 10 Professional rendszerekben érhető el - nem része a Windows Home "
+"verziónak."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:13
+msgid ""
+"The advantages of using a virtual machine are the same as those outlined at "
+":doc:`virtualization_quickstart`. Unfortunately Virtual Box and Hyper-V "
+"cannot be run simultaneously. This leaves 2 options - disabling the Hyper-V "
+"feature, or configuring a new Hyper-V machine to run OSGeoLive. A free tool "
+"`hypervswitch <https://unclassified.software/en/apps/hypervswitch>`_ can be "
+"used to quickly enable and disable Hyper-V - however it still requires a "
+"reboot each time the setting is changed. The rest of this page documents how"
+" to configure OSGeoLive to run on Hyper-V."
+msgstr ""
+"A virtuális gép használatának előnyei ugyanazok, melyeket a "
+":doc:`virtualization_quickstart`-ban kiemeltünk. Sajnos a Virtual Box és a "
+"Hyper-V nem futtatható párhuzamosan. Ez két lehetőséget hagy - a Hyper-V "
+"letiltása vagy egy új Hyper-V gép konfigurálása az OSGeoLive futtatásához. "
+"Egy szabad eszköz hypervswitch "
+"<https://unclassified.software/en/apps/hypervswitch>`_ használható a Hyper-V"
+" gyors engedélyezéséhez és letiltásához - bár ez egy újraindítást igényel a "
+"beállítás minden módosítása után. Az oldal további része az OSGeoLive "
+"Hyper-V-n futtatását dokumentálja."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:19
+msgid "System Requirements"
+msgstr "Rendszer követelmények"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:21
+msgid ""
+"Hyper-V requirements can be found `here <https://docs.microsoft.com/en-"
+"us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements>`_. This"
+" link also provides information on checking if your machine is compatible "
+"using the ``systeminfo`` command. In summary the host machine needs to have "
+"the following hardware requirements:"
+msgstr ""
+"A Hyper-V követelmények `itt találhatók <https://docs.microsoft.com/en-"
+"us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements>`_. Ez a"
+" link információt tartalmaz a gép kompatibilitásnak ellenőrzéséről a "
+"``systeminfo`` paranccsal. Összefoglalóan a gazda gépnek a következő hardver"
+" feltételeknek kell megfelelnie:"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:25
+msgid "RAM: 4 GB minimum"
+msgstr "RAM: 4 GB minimum"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:26
+msgid "64-bit Processor"
+msgstr "64-bit Processor"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:29
+msgid "Downloads and Virtual Machine Conversion"
+msgstr "Letöltések és virtuális gép konverzió"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:31
+msgid ""
+"Download the OSGeoLive VirtualBox virtual hard disk (vmdk) by following the "
+"links on :doc:`live.osgeo.org <../download>`. Once downloaded unzip the "
+"downloaded file (using `7zip <https://www.7-zip.org>`_ )."
+msgstr ""
+"Töltse le az OSGeoLive VirtualBox virtuális lemezt (vmdk) a következő link "
+":doc:`live.osgeo.org <../download>`-ről. A letöltés után tömörítse ki a "
+"letöltött fájlt (a `7zip <https://www.7-zip.org>`_ használatával)."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:34
+msgid ""
+"The virtual machine image format for Hyper-V differs from the VirtualBox "
+"download. The file therefore has to be converted from ``vmdk`` to ``vhdx``. "
+"There are currently two conversion options available."
+msgstr ""
+"A Hyper-V virtuális gép formátuma eltér a letöltött VrtualBox-tól. Ezért a "
+"fájlt a ``vmdk`` formátumból ``vhdx``-ba kell konvertálni. Jelenleg két "
+"konvertálási lehetőség van."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:38
+msgid "StarWind V2V Converter"
+msgstr "StarWind V2V konventer"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:40
+msgid ""
+"Use the `StarWind V2V Converter <https://www.starwindsoftware.com/starwind-"
+"v2v-converter>`_ program. This has a simple user interface allowing you to "
+"select the ``osgeo-live-XX.X-vm.vmdk`` file and convert to a *Microsoft "
+"VHDX* image."
+msgstr ""
+"Használja a `StarWind V2V Converter <https://www.starwindsoftware.com"
+"/starwind-v2v-converter>`_ programot. Egy egyszerű felhasználói felülete "
+"van, megengedi az ``osgeo-live-XX.X-vm.vmdk`` fájl kiválasztását és a  "
+"*Microsoft VHDX* képbe konvertálását."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:44
+msgid "Microsoft Virtual Machine Converter 3.0"
+msgstr "Microsoft Virtual Machine Converter 3.0"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:46
+msgid "The second more complicated option is as follows."
+msgstr "A második, komplikáltabb lehetőség a következő."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:48
+msgid ""
+"Download the `Microsoft Virtual Machine Converter 3.0 "
+"<https://www.microsoft.com/en-us/download/details.aspx?id=42497>`_ and "
+"install."
+msgstr ""
+"Töltse le a `Microsoft Virtual Machine Converter 3.0-t "
+"<https://www.microsoft.com/en-us/download/details.aspx?id=42497>`_ és "
+"telepítse."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:49
+msgid "Download the DS File Ops Kit and unzip."
+msgstr "Töltse le a DS File Ops Kit-et és tömörítse ki."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:50
+msgid "Open PowerShell (with administrator rights)"
+msgstr "Nyissa meg a PeorShell-t (adminisztrátori jogokkal)"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:51
+msgid ""
+"Run the following command to get the disk descriptor from the OSGeoLive "
+"vmdk. This saves the disk description to the \"descriptor1.txt\" file."
+msgstr ""
+"Futtassa a következő parancsot az OSGeoLive vmdk lemez leírójának "
+"beszerzéséhez. Ez elmenti a lemez leírót a descriptor1.txt\" fájlba."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:60
+msgid ""
+"Open this in a text editor (such as Notepad) and comment out the following "
+"lines using hashes (this metadata is VirtualBox specific and is not "
+"recognised by the converter):"
+msgstr ""
+"Nyissa meg ezt egy szövegszerkesztőben (pl. Jegyzettömb) és kommentezze ki a"
+" következő sorokat a dupla-kereszt használatával (ezek a metaadatok "
+"VirtualBox specifikusak és a konverter nem is meri fel őket)"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:70
+msgid ""
+"Run the following command to insert the disk descriptor back into the "
+"``vmdk`` file:"
+msgstr ""
+"Futtassa a következő parancsot a lemez leíró visszaillesztéséhez a ``vmdk`` "
+"fájlba:"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:78
+msgid ""
+"Failing to do the above steps will result in the error *\"ConvertTo-"
+"MvmcVirtualHardDisk : The entry 0247ca9d-f9aa-4910-9e8c-1c14d83a7749 is not "
+"a supported disk database entry for the descriptor.\"*"
+msgstr ""
+"A fenti lépések kihagyása egy hibát eredményez *\"ConvertTo-"
+"MvmcVirtualHardDisk : The entry 0247ca9d-f9aa-4910-9e8c-1c14d83a7749 is not "
+"a supported disk database entry for the descriptor.\"*"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:81
+msgid "Finally run the conversion process:"
+msgstr "Végül futtassa a konvertálást:"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:91
+msgid "How-To"
+msgstr "Útmutató"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:93
+msgid ""
+"This guide assumes Hyper-V is already installed and enabled - if this is not"
+" the case the more typical approach using Virtual Box outlined at "
+":doc:`virtualization_quickstart` can be used."
+msgstr ""
+"Ez at útmutató feltételezi, hogy a Hyper-V-t telepítette és engedélyezte. Ha"
+" nem ez az eset, akkor tipikusabb megoldás a "
+":doc:`virtualization_quickstart`-ban leírt Virtua Box használata."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:96
+msgid "**Create a Virtual Machine**"
+msgstr "**Egy virtuális gép létrehozása**"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:98
+msgid ""
+"Start the Hyper-V Manager application and under Actions select New > Virtual"
+" Machine, and then Next. Then enter an appropriate name for the virtual "
+"machine."
+msgstr ""
+"Indítsa el a Hyper-V Manager alkalmazást és az Actions alatt válassza a New "
+"> Virtual Machine-t és utána Next. Majd adja meg a virtuális gép nevét."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:103
+msgid "Select \"Generation 1\" from the Specify Generation options."
+msgstr "Válassza a \"Generation 1\"-et a Specify Generation beállítások közül."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:107
+msgid ""
+"When assigning memory, you can select \"Use Dynamic Memory for this virtual "
+"machine\"."
+msgstr ""
+"A memória hozzárendelésnél kiválaszthatja a \"Use Dynamic Memory for this "
+"virtual machine\"-t."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:108
+msgid ""
+"If you require the virtual machine to have Internet access you will need to "
+"set this up this up on the \"Configure Networking\" screen."
+msgstr ""
+"Ha szüksége van, hogy a virtuális gép elérje az internetet, akkor ezt be "
+"kell állítania \"Configure Networking\" képernyőn."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:109
+msgid ""
+"On the \"Connect Virtual Hard Disk\", select \"Use an existing virtual hard "
+"disk\" and select the ``.vhdx`` file you unzipped earlier."
+msgstr ""
+"\"Connect Virtual Hard Disk\" lapon válassza a \"Use an existing virtual "
+"hard disk\"-et és válassza ki az előbb kitömörített ``.vhdx`` fájlt."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:113
+msgid "**Running the Virtual Machine**"
+msgstr "**Virtuális gép futtatás**"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:115
+msgid "Select the virtual machine from the Virtual Machines list"
+msgstr "Válassza ki a virtuális gépet a Virtuális gépek listából"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:116
+msgid ""
+"Right-click and select \"Connect\". You will be prompted to start the "
+"machine, and a new \"Virtual Machine Connection\" window will open."
+msgstr ""
+"Jobb kattintás és válassza a \"Connect\"et.  A rendszer rákérdez a a ép "
+"elindítására és egy új \"Virtual Machine Connection\" ablak nyílik meg."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:119
+msgid "See Also:"
+msgstr "Lásd még:"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:120
+msgid ":doc:`virtualization_quickstart`."
+msgstr ":doc:`virtualization_quickstart`."
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:122
+msgid "OSGeo wiki pages:"
+msgstr "OSGeo wiki oldalak:"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:122
+msgid ""
+"`Other ways to create a Virtual Machine "
+"<https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
+msgstr ""
+"`Más megoldások a virtuális gép létrehozására "
+"<https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:124
+msgid ":doc:`osgeolive_quickstart`"
+msgstr ":doc:`osgeolive_quickstart`"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:125
+msgid ":doc:`osgeolive_install_quickstart`"
+msgstr ":doc:`osgeolive_install_quickstart`"
+
+#: ../../build/doc/quickstart/hyperv_quickstart.rst:126
+msgid ":doc:`usb_quickstart`"
+msgstr ":doc:`usb_quickstart`"

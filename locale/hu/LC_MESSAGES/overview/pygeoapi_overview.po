@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-28 21:50-0600\n"
+"PO-Revision-Date: 2020-11-29 04:49+0000\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:17
+msgid "pygeoapi"
+msgstr "pygeoapi"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:20
+msgid "Web Service"
+msgstr "Web szolgáltatás"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:22
+msgid ""
+"`pygeoapi`_ is a `Python`_ server implementation of the OGC API suite of "
+"standards. The project emerged as part of the next generation `OGC API`_ "
+"efforts in 2018 and provides the capability for organizations to deploy a "
+"RESTful OGC API endpoint using OpenAPI, GeoJSON, and HTML. pygeoapi is `open"
+" source <https://opensource.org>`_ and released under an `MIT`_ license."
+msgstr ""
+"A `pygeoapi`_  egy `Python`_ szerver implementáció az OGC API szsvány "
+"sorozathoz. A projekt a következő generációs `OGC API`_ erőfeszítések "
+"részeként jelent meg 2018-ban és lehetőséget biztosít a szervezeteknek egy "
+"RESTful OGC API végpont felvonultatására OpenAPI, GeoJSON és HTML "
+"használatával. A pygeoapi `nyílt forráskódú <https://opensource.org>`_ és "
+"`MIT`_ licenc alatt adják ki."
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:32
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:34
+msgid "out of the box modern OGC API server"
+msgstr "kész modern OGC API szerver"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:35
+msgid ""
+"certified OGC Compliant and Reference Implementation for OGC API - Features"
+msgstr ""
+"tanúsított OGC-kompatibilis és referenciaimplementáció OGC API-elemekhez"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:36
+msgid ""
+"additionally implements OGC API - Coverages, OGC API - Tiles, OGC API - "
+"Processes and SpatioTemporal Asset Library"
+msgstr ""
+"továbbá implementálja az OGC API - feddvény, OGC API - csempék, OGC API - "
+"feldolgozás és a tér-idő eszközök könyvtárat"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:37
+msgid ""
+"out of the box data provider plugins for rasterio, GDAL/OGR, Elasticsearch, "
+"PostgreSQL/PostGIS"
+msgstr ""
+"kész adatszolgáltató modulok a rasterio-hoz, GDAL/OGR-hez, Elasticsearch-"
+"hez, PostgreSQL/PostGIS-hez"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:38
+msgid "easy to use OpenAPI / Swagger documentation for developers"
+msgstr "könnyen használható OpenAPI / Swagger dokumentáció fejlesztőknek"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:39
+msgid "supports JSON, GeoJSON, HTML and CSV output"
+msgstr "támogatja a JSON, GeoJSON, HTML és CSV outputot"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:40
+msgid "supports data filtering by spatial, temporal or attribute queries"
+msgstr ""
+"támogatja a térbeli, időbeli vagy attribútum lekérdezés szerinti adatszűrést"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:41
+msgid "easy to install: install a full implementation via ``pip`` or ``git``"
+msgstr ""
+"könnyen telepíthető: telepítse a teljes implementáció``pip`` vagy ``git`` "
+"segítségével"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:42
+msgid "simple YAML configuration"
+msgstr "egyszerű YAML konfiguráció"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:43
+msgid "easy to deploy: via UbuntuGIS or the official Docker image"
+msgstr ""
+"könnyen bevethető: UbuntuGIS vagy a hivatalos Docker image segítségével"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:44
+msgid ""
+"flexible: built on a robust plugin framework to build custom data "
+"connections, formats and processes"
+msgstr ""
+"rugalmas: az egyedi adatkapcsolatok, formátumok és feldolgozások "
+"készítéséhez robusztus modul keretrendszerre épül"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:45
+msgid ""
+"supports any Python web framework (included are Flask [default], Starlette)"
+msgstr ""
+"bármilyen Python web keretrendszert támogat (beleértve a Flask-et "
+"[alapértelmezett], Starlette-t) "
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:49
+msgid "Implemented Standards"
+msgstr "Implementált szabványok"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:51
+msgid ""
+"Standards are at the core of pygeoapi.  Below is the project's standards "
+"support matrix."
+msgstr ""
+"A szabványok a pygeoapi középpontjában vannak. Lentebb a projekt szabvány "
+"támogatási mátrixa van."
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:53
+msgid "Implementing: implements standard (good)"
+msgstr "Implementálás: szabványt valósít meg (jó)"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:54
+msgid "Compliant: conforms to OGC compliance requirements (great)"
+msgstr ""
+"Megfelelőség: megfelel az OGC megfelelőségi követelményeknek (nagyszerű)"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:55
+msgid ""
+"Reference Implementation: provides a reference for the standard (awesome!)"
+msgstr ""
+"Referencia implementáció: referenciát biztosít a szabványhoz (fantasztikus!)"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:1
+msgid "Standard"
+msgstr "Szabvány"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:1
+msgid "Support"
+msgstr "Támogatás"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:1
+msgid "`OGC API - Features`_"
+msgstr "`OGC API - Elemek`_"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:1
+msgid "Reference Implementation"
+msgstr "Referencia implementáció"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:1
+msgid "`OGC API - Coverages`_"
+msgstr "`OGC API - Feddvények`_"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:1
+#: ../../build/doc/overview/pygeoapi_overview.rst:1
+#: ../../build/doc/overview/pygeoapi_overview.rst:1
+#: ../../build/doc/overview/pygeoapi_overview.rst:1
+msgid "Implementing"
+msgstr "Implementálja"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:1
+msgid "`OGC API - Tiles`_"
+msgstr "`OGC API - Csempék`_"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:1
+msgid "`OGC API - Processes`_"
+msgstr "`OGC API - Feldolgozások`_"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:1
+msgid "`SpatioTemporal Asset Catalog`_"
+msgstr "`tér-idő eszközök katalógus`_"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:69
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:71
+msgid "**Website:** https://pygeoapi.io/"
+msgstr "**Honlap:** https://pygeoapi.io/"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:73
+msgid "**Licence:** `MIT`_"
+msgstr "**Licenc:** `MIT`_"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:75
+msgid "**Software Version:** |version-pygeoapi|"
+msgstr "**Szoftver verzió:** |version-pygeoapi|"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:77
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**Támogatott platformok:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:79
+msgid "**API Interfaces:** Python"
+msgstr "**API interfészek:** Python"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:81
+msgid "**Support:** |SUPPORT|"
+msgstr "**Támogatás:** |SUPPORT|"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:96
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:98
+msgid ":doc:`Quickstart documentation <../quickstart/pygeoapi_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/pygeoapi_quickstart>`"

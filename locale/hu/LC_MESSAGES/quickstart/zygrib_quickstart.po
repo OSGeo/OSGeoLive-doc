@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:03+0000\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:18
+msgid "zyGrib Quickstart"
+msgstr "zyGrib gyorstalpaló"
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:20
+msgid ""
+"zyGrib is a program to download and visualize weather forecast data in the "
+"standard GRIB distribution format."
+msgstr ""
+"A zyGrib egy olyan program, amellyel letöltheti és megjelenítheti az "
+"időjárás-előrejelzési adatokat a standard GRIB formátumban."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:26
+msgid "Start zyGrib"
+msgstr "zyGrib indítása"
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:28
+msgid ""
+"From the desktop, choose :menuselection:`Navigation and Maps --> zyGrib GRIB"
+" file viewer`."
+msgstr ""
+"Az asztalról válassza a :menuselection:`Navigation and Maps --> zyGrib GRIB "
+"file viewer`-t."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:29
+msgid ""
+"Select your preferred language and click :guilabel:`OK`. The program opens "
+"and you are presented with a map of the world."
+msgstr ""
+"Válassza ki az ön által kedvelt nyelvet és kattintson a  :guilabel:`OK`-ra. "
+"A program megnyílik és egy világtérkép jelenik meg."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:30
+msgid ""
+"Check the connection to the data server. On the toolbar at the top right of "
+"the screen, click the power plug icon. The File Server Status window opens "
+"and after a moment, it will confirm the status of the connection."
+msgstr ""
+"Ellenőrizze a kapcsolatot az adatszerverhez. Az eszközsorban a képernyő "
+"jobb-felső sarkában kattintson a tápcsatlakozó ikonra. A File Server Status "
+"ablak nyílik meg egy pillanat múlva, a kapcsolat állapotát ellenőrizheti."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:33
+msgid ""
+"You'll need an internet connection to download GRIB weather forecast data. "
+"You can get GRIB data from many sources, but as a convenience the zyGrib "
+"authors maintain a data server to use with zyGrib."
+msgstr ""
+"Internet kapcsolatra lesz szüksége  a GRIB időjárás előrejelzés adatok "
+"letöltéséhez. Többféle forrásból kaphat GRIB adatokat, de a zyGrib készítői "
+"egy adatszervert üzemeltetnek a zyGrib kényelmes használatához."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:37
+msgid "Download data"
+msgstr "Adatletöltés"
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:39
+msgid ""
+"Use the mouse to click and drag a box on the map canvas on a part of the "
+"world you are interested in. The Gulf of Mexico or the southern tip of "
+"Africa often have dynamic winds."
+msgstr ""
+"Használja az egeret, hogy egy téglalapot húzzon ki a világ ön számára "
+"érdekes részén. A Mexikói öböl vagy Afrika déli csücske gyakran szeles."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:40
+msgid ""
+"With your box drawn on the map, click the zoom-to-box icon on the taskbar "
+"(the magnifying glass with a small box underneath it)"
+msgstr ""
+"A térképére rajzolt téglalap mellett kattintson a téglalapra nagyítás ikonra"
+" az eszközsorban (a nagyító egy kis téglalappal)"
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:41
+msgid ""
+"Again,  mark out a box of interest with a left-click drag, but this time "
+"covering most or all of the zoomed-in map canvas."
+msgstr ""
+"Ismét jelöljön ki egy téglalapot bal kattintással és húzással, de most "
+"takarja a nagyított térkép nagy részét vagy az egészet."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:42
+msgid ""
+"Select :menuselection:`File --> Download GRIB` and select the features you "
+"want to download. If in doubt, accept the defaults."
+msgstr ""
+"Válassza a :menuselection:`File --> Download GRIB`-et és válassza ki a "
+"letöltendő elemeket. Ha kétségei vannak fogadja el az alapértelmezettet."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:43
+msgid "When ready click the ``Download`` button, and save the file to disk."
+msgstr ""
+"Amikor készen van kattintson a ``Download`` gombra és mentse a fájlt a "
+"lemezre."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:45
+msgid ""
+"The application displays a weather map with a time slider along the bottom, "
+"set for the current time. You can use the mouse wheel to zoom in if you "
+"like."
+msgstr ""
+"Az alkalmazás egy időjárás térkép jelenít meg az aktuális időpontra "
+"beállított idő csúszkával alul. Az egérgörgővel nagyíthat, ha szeretne."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:49
+msgid "Change views"
+msgstr "Nézet módosítása"
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:51
+msgid ""
+"Move the mouse around the map you'll see the exact conditions listed in the "
+"pane on the left."
+msgstr ""
+"Mozgassa az egeret a térképen, és a bal oldali panelen a pontos  körülmények"
+" láthatók."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:52
+msgid ""
+"You can change the time by moving the slider along the bottom, or from the "
+"drop down menu in the top-left of the window."
+msgstr ""
+"Az időt megváltoztathatja az alsó csúszka mozgatásával vagy a legördülő "
+"menüből az ablak bal-felső részén."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:53
+msgid ""
+"From the ``Weather map`` menu, select a variable to visualize. For example, "
+"select :menuselection:`Weather map --> Cloud cover` and the view should "
+"change."
+msgstr ""
+"``Weather map`` menüből válasszon egy változót a megjelenítéséhez. Például "
+"válassza a :menuselection:`Weather map --> Cloud cover`-t és a nézet "
+"megváltozik."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:55
+msgid ""
+"If you downloaded data for the Gulf of Mexico you'll be interested to view "
+"the CAPE data. \"CAPE\" stands for Convective Available Potential Energy at "
+"ground level. It is a measure of atmospheric instability, and high values "
+"(1000s of J/kg) indicate a threat of thunderstorms and/or tornadoes."
+msgstr ""
+"Ha adatokat töltött le a Mexikói-öbölre, érdekes lehet hogy megtekinthesse a"
+" CAPE adatokat. \"CAPE\" jelentése Konvektív rendelkezésre álló potenciális "
+"energia a talajszinten. Ez a légköri instabilitás mértéke, és a magas "
+"értékek (1000j J/kg) zivatarok és/vagy tornádók veszélyére utalnak."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:57
+msgid ""
+"If you downloaded data for southern Africa, cloud cover may be more "
+"interesting."
+msgstr ""
+"Ha Dél-Afrikára töltött le adatokat, a felhőtakaró még érdekesebb lehet."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:61
+msgid "Create an animation"
+msgstr "Animáció létrehozása"
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:63
+msgid ""
+"Click the right-hand most icon on the toolbar (a rocketship). A new window "
+"opens and an animation will be generated."
+msgstr ""
+"Kattintson a jobb szélső ikonra az eszköztáron (egy űrhajó). Egy új ablak "
+"jelenik, és egy animáció jön létre."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:64
+msgid ""
+"Wait while it runs through the time sequence for the first time. When it is "
+"done it will rewind to the beginning of the time series."
+msgstr ""
+"Várjon, amíg először végigfut az idősorozaton. Ha ez megtörtént, akkor "
+"visszamegy az idősorozat elejére."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:65
+msgid "You can play, pause and rewind the sequence as you like."
+msgstr ""
+"Lejátszhatja, megállíthatja és visszatekerheti a sorozatot, ahogy tetszik."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:66
+msgid ""
+"You can also save each frame as an image file for later encoding into an "
+"AVI, MPEG, or animated GIF `using other software "
+"<https://grasswiki.osgeo.org/wiki/Movies>`_."
+msgstr ""
+"Elmentheti az egyes képkockákat későbbi  AVI, MPEG, vagy animált GIF-be "
+"konvertáláshoz `más szoftver <https://grasswiki.osgeo.org/wiki/Movies>`_ "
+"felhasználásával."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:67
+msgid "When you're done, click the red power button to close."
+msgstr "Ha elkészült, a bezáráshoz kattintson a piros kikapcsoló gombra."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:71
+msgid "What next?"
+msgstr "Mi a következő?"
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:73
+msgid ""
+"The :doc:`OpenCPN software <../overview/opencpn_overview>` (also on this "
+"disc) has a GRIB overlay plugin which you may try with your newly downloaded"
+" GRIB file. See the :doc:`OpenCPN quickstart "
+"<../quickstart/opencpn_quickstart>` for details."
+msgstr ""
+"A :doc:`OpenCPN <.../overview/opencpn_overview>` szoftvernek (szintén ezen a"
+" lemezen) van egy GRIB overlay modulja, mellyel kipróbálhatja az újonnan "
+"letöltött GRIB fájlt. A részleteket a :doc:`OpenCPN gyorstalpalóban "
+"<../quickstart/opencpn_quickstart>` találja."
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:79
+msgid "Website: https://www.zygrib.org"
+msgstr "Honlap: https://www.zygrib.org"
+
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:80
+msgid "Support: https://zygrib.org/forum/"
+msgstr "Támogatás: https://zygrib.org/forum/"

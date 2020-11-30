@@ -1,0 +1,479 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:06+0000\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:24
+msgid "Mapbender Quickstart"
+msgstr "Mapbender gyorstalpaló"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:26
+msgid ""
+"Mapbender is a web based geoportal framework to publish, register, view, "
+"navigate, monitor and grant secure access to spatial data infrastructure "
+"services."
+msgstr ""
+"A Mapbender egy web alapú geoportál keretrendszer téradat infrastruktúra "
+"szolgáltatások publikálására, regisztrálására, megtekintésére, navigálásra, "
+"monitorozására és biztonságos hozzáférés biztosítására."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:28
+msgid "This Quick Start describes how to:"
+msgstr "Ez a gyorstalpaló leírja:"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:30
+msgid "start Mapbender"
+msgstr "Mapbender indítása"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:31
+msgid "create an application"
+msgstr "egy alkalmazás létrehozása"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:32
+msgid "load a Web Map Service (OGC WMS)"
+msgstr "egy Web Map Service (OGC WMS) betöltése"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:33
+msgid "configure WMS"
+msgstr "WMS konfigurálás"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:34
+msgid "add elements to an application"
+msgstr "Elemek hozzáadása egy alkalmazásához"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:36
+msgid "This is how a Mapbender application can look like:"
+msgstr "Ez ahogy egy Mapbender alkalmazás kinéz:"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:46
+msgid "Start Mapbender"
+msgstr "Mapbender indítás"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:48
+msgid ""
+"Choose  :menuselection:`Geospatial --> Browser Clients --> Mapbender` from "
+"the start menu or visit http://localhost/mapbender/app.php. The application "
+"will take a few moments to start up"
+msgstr ""
+"Válassza a :menuselection:`Geospatial --> Browser Clients --> Mapbender`-t a"
+" start menüből vagy látogassa meg a http://localhost/mapbender/app.php "
+"oldalt. Az alkalmazás elindításához néhány percre van szükség"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:50
+msgid ""
+"If you have any difficulties running Mapbender, please check whether your "
+"Apache web server and your PostgreSQL database are running. Or if you use "
+"SQLite as database whether you have write access to the file."
+msgstr ""
+"Ha bármilyen nehézség adódik a Mapbender futtatásában, kérjük ellenőrizze, "
+"hogy az Apache web szervere és a PostgreSQL adatbázisa fut-e. Vagy ha SQLite"
+" adatbázist használ van írási joga a fájlhoz."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:53
+msgid ""
+"The Welcome page lists applications that are public and can be used by all "
+"users. The applications are listed with a screenshot, a title and a "
+"description."
+msgstr ""
+"Az üdvözlő lap a nyilvános és bármely felhasználó által használható "
+"alkalmazásokat listázza. Az alkalmazások egy képernyő képpel, egy címmel és "
+"egy leírással jelennek meg."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:55
+msgid ""
+"You can open an application by click on the title, the screenshot or the "
+"start button."
+msgstr ""
+"Egy alkalmazást megnyithat a címre, a képernyőképre vagy a start gombra "
+"kattintással."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:57
+msgid ""
+"Before you can administrate with Mapbender you have to login to get access "
+"to the administration."
+msgstr ""
+"Mielőtt adminisztrálni tudna a Mapbenderrel be kell jelentkeznie, hogy "
+"hozzáférjen az adminisztrációhoz."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:59
+msgid ""
+"Click on Login at right-top to open the login page. Login with username "
+":guilabel:`root` and password :guilabel:`root` (This is the default user and"
+" password that you get after installation of Mapbender on OSGeoLive. Please "
+"change the root password if you want to run a productive environment. Please"
+" don't delete the user :guilabel:`root`.)."
+msgstr ""
+"Kattintson a Login-ra a jobb felső részen a bejelentkező oldal "
+"megnyitásához. Jelentkezzen be a :guilabel:`root` lfelhasználó névvel és a "
+":guilabel:`root` jelszóval (Ez az alapértelmezett felhasználó és jelszó, "
+"melyet az OSGeoLive-ra telepített Mapbender-hez kap. Kérjük módosítsa a root"
+" jelszót, ha éles környezetben akarja futtatni. Kérjük ne törölje a "
+":guilabel:`root` felhasználót.)."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:66
+msgid "Create an individual application"
+msgstr "Egyedi alkalmazás létrehozása"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:68
+msgid ""
+"Create a new application by providing basic information about your "
+"application. After that you use the edit mode to add elements, layers and "
+"security."
+msgstr ""
+"Hozzon létre egy új alkalmazást az alap információk megadásával az "
+"alkalmazásáról. Ezután a szerkesztő módot használhatja elemek, rétegek és "
+"biztonság hozzáadásához."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:70
+msgid "Choose :menuselection:`Applications --> New Application`"
+msgstr "válassza a :menuselection:`Applications --> New Application`-t"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:72
+msgid "Define a title and description for your application"
+msgstr "Adjon meg egy címet és leírást az alkalmazásához"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:74
+msgid ""
+"Define an URL title which will be used in the URL to open the application. "
+"It can be the same as the title"
+msgstr ""
+"Adjon meg egy URL címet, melyet az alkalmazás megnyitásához használunk az "
+"URL-ben, Ez ugyanaz lehet mint a cím"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:76
+msgid "Upload an image file as screenshot for the application overview"
+msgstr ""
+"Töltsön fel egy kép fájlt mint képernyőképet az alkalmazás összefoglalóhoz"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:78
+msgid "Choose a template for your application"
+msgstr "Válasszon egy sablont az alkalmazásához"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:80
+msgid "Choose the button **Create** to create the application"
+msgstr "Válassza a **Create** gombot az alkalmazás létrehozásához"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:82
+msgid ""
+"Your application is set up. Next you need a WMS to be displayed in your "
+"application."
+msgstr ""
+"Az alkalmazását beállította. Most egy az alkalmazásában megjelenített WMS-re"
+" van szüksége."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:89
+msgid "Loading Web Map Services"
+msgstr "Web térkép szolgáltatások betöltése"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:90
+msgid "You can load OGC Web Map Services (WMS) to your application."
+msgstr "Betölthet OGC Web Map Szolgáltatásokat (WMS) az alkalmazásába."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:92
+msgid ""
+"A WMS returns an XML-file when the getCapabilities document is requested. "
+"This information is parsed by Mapbender and Mapbender gets all the necessary"
+" information about the service from this XML"
+msgstr ""
+"A WMS egy XML fájlt ad vissza, amikor a getCapabilities dokumentumot kérik. "
+"Ez az információt értelmező a Mapbender és minden szükséges szükséges "
+"információt megkap  a szolgáltatásról ebből az XML-ből."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:94
+msgid ""
+"You should first check the Capabilities document in your browser before you "
+"try to load it with Mapbender"
+msgstr ""
+"Először ellenőriznie kell a Capabilities dokumentumot a böngészőjében "
+"mielőtt megpróbálja betölteni a Mapbender-be."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:96
+msgid ""
+"Choose menu item :menuselection:`Services --> Add Service` or use the "
+"+-Button."
+msgstr ""
+"Válassza a :menuselection:`Services --> Add Service` menüelemet vagy "
+"használja a + gombot."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:98
+msgid ""
+"Link to the WMS getCapabilities URL in the text field "
+":menuselection:`Serviceurl`. Here is a example WMS: WhereGroup OSM WMS https"
+"://osm-"
+"demo.wheregroup.com/service?SERVICE=WMS&VERSION=1.3.0&REQUEST=getCapabilities"
+msgstr ""
+"Linkeljen a WMS getCapabilities URL-re a szöveg mezőben "
+":menuselection:`Serviceurl`. Itt van egy példa WMS: WhereGroup OSM WMS https"
+"://osm-"
+"demo.wheregroup.com/service?SERVICE=WMS&VERSION=1.3.0&REQUEST=getCapabilities"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:101
+msgid "Enter username and password if your service needs authentication."
+msgstr ""
+"Adja mg  felhasználó nevét és jelszavát, ha a szolgáltatás hitelesítést kér."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:103
+msgid "Click **Load** to load the Service to the repository."
+msgstr "Kattintson a **Load**-ra a szolgáltatás betöltéséhez a tárházba."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:108
+msgid ""
+"After successful registration of the service Mapbender will display an "
+"overview on the information that was provided by the service."
+msgstr ""
+"A szolgáltatás sikeres regisztrációja után a Mapbender egy összefoglalót "
+"jelenít meg az adatokról, melyeket a szolgáltatás biztosít."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:111
+msgid "Add Service to Application"
+msgstr "Szolgáltatás hozzáadása az alkalmazáshoz"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:112
+msgid ""
+"After the successful upload of a WMS you want to add your WMS to an "
+"application."
+msgstr ""
+"Egy WMS sikeres feltöltése után a WMS-ét hozzá fogja adni egy alkalmazáshoz."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:114
+msgid ""
+"Choose :menuselection:`Applications --> edit-Button --> Layers --> Edit-"
+"Button`."
+msgstr ""
+"Válassza a :menuselection:`Applications --> edit-Button --> Layers --> Edit-"
+"Button`-t."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:116
+msgid ""
+"Click on the :menuselection:`+-button` to add a layerset, which represents a"
+" collection of layers (a possible name could be main)"
+msgstr ""
+"Kattintson a :menuselection:`+-gombra` egy rétegcsoport hozzáadásához, mely "
+"a rétegek egy csoportját reprezentálja (egy lehetséges név main)"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:118
+msgid "Now you can add layer to the layerset"
+msgstr "Most réteget adhat hozzá a réteg csoporthoz"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:120
+msgid ""
+"Click on the :menuselection:`+-button` at your new layerset to add a "
+"Service."
+msgstr ""
+"Kattintson a :menuselection:`+-gombra` az új rétegcsoportjában egy "
+"szolgáltatás hozzáadásához."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:126
+msgid "Configure your WMS"
+msgstr "WMS konfigurálása"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:127
+msgid ""
+"You can configure the WMS for your specific application. Maybe you don't "
+"want to provide all layers or you want to change the order or titles of the "
+"layer or disable the feature info or change the maxscale for a layer."
+msgstr ""
+"Konfigurálhatja a WMS-t az egyedi alkalmazásához. Lehet, hogy nem akarja az "
+"összes réteget kínálni vagy módosítani szeretné a rétegek sorrendjét vagy "
+"címét vagy az elem infót le akarja tiltani vagy a max méretarányt akarja "
+"módosítani."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:129
+msgid ""
+"Choose :menuselection:`Applications --> edit-Button --> Layers --> edit-"
+"Button` to configure the Service Instance."
+msgstr ""
+"Válassza  :menuselection:`Applications --> edit-Button --> Layers --> edit-"
+"Button` a szolgáltatás példány konfigurálásához."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:131
+msgid "You will see a table with the layers of the Service."
+msgstr "Egy táblázatot lát a szolgáltatás rétegeivel."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:133
+msgid "You can change the order of the layers via drag & drop."
+msgstr ""
+"Módosíthatja a rétegek sorrendjét húzással és elngedéssel módosíthatja."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:140
+msgid "Add Elements to your application"
+msgstr "Elemek hozzáadása az alkalmazásához"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:141
+msgid ""
+"Mapbender offers a set of elements. You can add the elements to your "
+"application. You have different regions (Toolbar, Sidepane, Content, Footer)"
+" to which you can add elements."
+msgstr ""
+"A Mapbender az elemeknek egy halmazát kínálja. Az elemeket hozzáadhatja az "
+"alkalmazásához. Különböző régiókkal rendelkezik (Toolbar, Sidepane, Content,"
+" Footer), melyekhez elemeket adhat hozzá."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:146
+msgid ""
+"Choose :menuselection:`Applications --> edit-Button --> Layers --> Button +`"
+" to get an overview over the elements Mapbender3 provides."
+msgstr ""
+"Válassza a :menuselection:`Applications --> edit-Button --> Layers --> "
+"Button +`-t egy összefoglalóhoz a Mapbender3 által biztosított elemekről."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:148
+msgid "Choose an element from the list."
+msgstr "Válasszon egy elemet a listából."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:150
+msgid ""
+"Notice that you have different areas in your application. Make sure to add "
+"the element to a region that makes sense."
+msgstr ""
+"Vegye észre, hogy különböző területekkel rendelkezik az alkalmazásában. "
+"Győződjön meg róla, hogy az elemet olyan területhez adja aminek értelme van."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:152
+msgid ""
+"Configure the element. Notice: When you select an element for example "
+"**map** you see that the element has a set of attributes. Each element "
+"offers individual attributes for configuration."
+msgstr ""
+"Konfigurálja az elemet. Megjegyzés: amikor egy elemet kiválaszt, például a "
+"**térképet** látja, hogy az elemnek attribútumai vannak. Minden elem egyedi "
+"tulajdonságokat kínál a konfiguráláshoz."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:154
+msgid "You can change the position of the element via drag & drop."
+msgstr "Az elem pozícióját húzással és elengedéssel megváltoztathatja"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:156
+msgid ""
+"Have a look at your application. Open your application from "
+":menuselection:`Applications --> Applications Overview`"
+msgstr ""
+"Vessen egy pillantást az alkalmazására. Nyissa meg az alkalmazását "
+":menuselection:`Applications --> Applications Overview`"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:158
+msgid ""
+"Now you should get an idea how easy it is to change a Mapbender application "
+"without changes in the code."
+msgstr ""
+"Most már elképzelése lehet, milyen egyszerű egy Mapbender alkalmazás "
+"megváltoztatása a kód megváltoztatása nélkül."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:163
+msgid ""
+"You find detailed information on every element in the `Mapbender element "
+"documentation <https://doc.mapbender.org/en/functions.html>`_."
+msgstr ""
+"Részletes információt talál minden elemről a `Mapbender elem dokumentációban"
+" <https://doc.mapbender.org/en/functions.html>`_."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:167
+msgid "Things to try"
+msgstr "Kipróbálandó dolgok"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:169
+msgid "add a Map Element to the content of your application"
+msgstr "térkép elem hozzáadása az alkalmazás tartalmához"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:170
+msgid "add a Layertree to the sidepane of your application"
+msgstr "rétegfa hozzáadása az alkalmazása oldal paneléhez"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:171
+msgid "add a Legend to the sidepane of your application"
+msgstr "jelmagyarázat hozzáadása az alkalmazása oldal paneléhez"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:172
+msgid "add a print element to the content"
+msgstr "nyomtatás elem hozzáadása a tartalomhoz"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:173
+msgid "add a button that opens the print to the top of your application"
+msgstr "gomb hozzáadása, mely a nyomtatást az alkalmazás fölött nyitja meg"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:174
+msgid "add the Navigation Toolbar to the content"
+msgstr "Navigációs eszköztár hozzáadása a tartalomhoz"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:175
+msgid "add an overview map to the content"
+msgstr "áttekintő térkép hozzáadása a tartalomhoz"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:176
+msgid "add a Copyright and change the copyright text"
+msgstr "szerzői jog hozzáadása és a szerzői jog szöveg módosítása"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:177
+msgid "add a Scales Selector and an SRS Selector to the footer"
+msgstr "méretarány választó és vetület választó hozzáadása a lábléchez"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:179
+msgid "Here are some additional challenges for you to try:"
+msgstr "Itt van néhány további kipróbálandó kihívás önnek:"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:181
+msgid "Try to load some WMS in your application. Try to configure your WMS."
+msgstr ""
+"Próbáljon meg néhány WMS-t betölteni az alkalmazásába. Próbálja "
+"megkonfigurálni a WMS-ét."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:183
+msgid "Try to create an individual application."
+msgstr "Próbáljon egy saját alkalmazást létrehozni."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:185
+msgid ""
+"Create users and groups, and assign an application to the new users/groups."
+msgstr ""
+"Hozzon létre felhasználókat és csoportokat és rendelje egy alkalmazást az új"
+" felhasználókhoz/csoportokhoz."
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:189
+msgid "What Next?"
+msgstr "Mi a következő?"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:191
+msgid ""
+"This is only the first step on the road to using Mapbender. There is a lot "
+"more functionality you can try."
+msgstr ""
+"Ez csak az első lépés a Mapbender használatának útján. Sokkal több "
+"funkcionalitása van, amit kipróbálhat. "
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:193
+msgid "Mapbender Website https://mapbender.org/"
+msgstr "Mapbender honlap https://mapbender.org/"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:195
+msgid "You can find tutorials at https://doc.mapbender.org"
+msgstr "Oktatóanyagokat találhat a https://doc.mapbender.org oldalon"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:197
+msgid ""
+"You can find an extended tutorial at "
+"https://doc.mapbender.org/en/quickstart.html"
+msgstr ""
+"Kibővített oktatóanyagokat találhat a "
+"https://doc.mapbender.org/en/quickstart.html oldalon"
+
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:199
+msgid "Get involved in the project https://mapbender.org/community/"
+msgstr "Vegyen részt a projektben https://mapbender.org/community/"

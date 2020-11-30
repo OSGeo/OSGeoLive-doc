@@ -1,0 +1,615 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:06+0000\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:20
+msgid "uDig Quickstart"
+msgstr "uDig gyorstalpaló"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:28
+msgid ""
+"uDig (User Friendly Internet Desktop GIS), is a GIS Desktop client for "
+"editing and viewing Geospatial data."
+msgstr ""
+"A uDig (User Friendly Internet Desktop GIS) egy asztali GIS kliens a "
+"téradatok szerkesztésére és megtekintésére."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:34
+msgid "This Quick Start describes how to:"
+msgstr "Ez a gyorstalpaló leírja:"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:36
+msgid "load a map layers from a shapefile and |WMS|"
+msgstr "térképi rétegek betöltése shape fájlból és és |WMS|-ből"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:37
+msgid "use the standard map tools"
+msgstr "szabványos térképi eszközök használata"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:38
+msgid "apply colour to map features using styling"
+msgstr "stílus beállítás, színek alkalmazása a térképi elemekhez"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:43
+msgid "start uDig"
+msgstr "uDig indítása"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:54
+msgid "Choose |osgeolive-appmenupath-udig| from menu"
+msgstr "Válassza a |osgeolive-appmenupath-udig| a menüből"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:55
+msgid "The application will take a few moments to start up"
+msgstr "Néhány pillanatot vesz igénybe az alkalmazás elindulása"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:66
+msgid ""
+"If you have any difficulties, or are running uDig please review the Running "
+"uDig reference page."
+msgstr ""
+"Ha bármilyen problémája van, vagy ha az uDig programot futtatja, kérjük, "
+"tekintse át a Running uDig referencia oldalt."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:69
+msgid "Welcome View"
+msgstr "Üdvözlő nézet"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:71
+msgid ""
+"When you start up uDig for the first time the Welcome view takes up the "
+"entire display. This screen has links to tutorials, documentation and the "
+"project website."
+msgstr ""
+"Amikor legelőször indítja el a uDig-et az üdvözlő kép eltakarja az egész "
+"képernyőt. Ezen az oldalon link található az oktatóanyagokhoz, a "
+"dokumentációhoz és a projekt honlapjához."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:74
+msgid ""
+"Click the arrow labelled Workbench in the upper right corner, to reveal the "
+"contents of the uDig workbench."
+msgstr ""
+"Kattintson a nyíllal megjelölt munkaasztalra a jobb-felső sarokban a uDig "
+"munkaasztal tartalmának  felfedéséhez."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:79
+msgid ""
+"You can return to the Welcome view at any time by selecting the "
+":menuselection:`Help --> Welcome` from the menu bar."
+msgstr ""
+"Bármikor visszatérhet a munkaasztal nézethez a :menuselection:`Help --> "
+"Welcome` kiválasztásával a menüsorból."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:82
+msgid "Workbench"
+msgstr "Munkaasztal"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:84
+msgid ""
+"The Workbench window offers multiple Editors (each showing a Map) and "
+"supporting Views (offering information about the current Map)."
+msgstr ""
+"A munkaasztal ablak többféle szerkesztőt  (mindegyik térképet jelenít meg) "
+"és segítő nézeteket (információt szolgáltat az aktuális térképről) biztosít"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:90
+msgid "Shown above is a typical uDig session with the"
+msgstr "A fenti egy tipikus uDig munkamenet ezzekkel"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:92
+msgid "Layers view (1),"
+msgstr "Rétegek nézet (1),"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:93
+msgid "Projects view (2),"
+msgstr "Projektek nézet (2),"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:94
+msgid "Catalog view (3) and"
+msgstr "Katalógus nézet (3) és"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:95
+msgid "Map editor (4)."
+msgstr "Térkép szerkesztő (4)."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:97
+msgid "These views will be described further as we demonstrate their use."
+msgstr ""
+"Ezeket a nézeteket bővebben leírjuk amikor a használatukat bemutatjuk."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:100
+msgid "Files"
+msgstr "Fájlok"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:102
+msgid ""
+"To start out with we are going to load some of the sample data included on "
+"the DVD."
+msgstr ""
+"Az elinduláshoz a DVD-n található minta adatok közül töltünk be néhányat."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:104
+msgid ""
+"Choose :menuselection:`Layer --> Add` from the menu bar to open up the **Add"
+" Data** wizard"
+msgstr ""
+"Válassza a :menuselection:`Layer --> Add` menüpontot a menüsorból az **Add "
+"Data** varázsló elindításához"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:106
+msgid "Select **Files** from the list of data sources"
+msgstr "Válasszon **fájlokat** az adatforrások listájából"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:108
+msgid "Press :guilabel:`Next` to open up a file dialog"
+msgstr ""
+"Nyomja meg a :guilabel:`Next` gombot egy fájl párbeszédablak megnyitásához"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:110
+msgid "The OSGeoLive DVD contains sample data in:"
+msgstr "Az OSGeoLive DVD minta adatokat tartalmaz itt:"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:112
+msgid ":file:`~/data` (a short cut to :file:`/usr/local/share/data`)"
+msgstr ":file:`~/data` (egy rövidítés ehhez :file:`/usr/local/share/data`)"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:114
+msgid "Select the following file from the :file:`natural_earth2` folder:"
+msgstr "Válassza a következő fájlt a :file:`natural_earth2` mappából:"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:116
+msgid ":file:`ne_10m_admin_0_countries.shp`"
+msgstr ":file:`ne_10m_admin_0_countries.shp`"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:118
+msgid "Press :guilabel:`Open`"
+msgstr "Nyomja meg az  :guilabel:`Open`-t"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:120
+msgid ""
+"A new Map editor will be opened based on the contents of your shapefile. The"
+" default name and projection of the Map has been taken from your shapefile."
+msgstr ""
+"Egy új térkép szerkesztő nyílik meg a shápe fájljának tartalmával. A térkép "
+"alapértelmezett neve és vetülete a shape fájlból jön."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:123
+msgid ""
+"You can see the **Catalog view** has been updated with an entry for "
+":file:`ne_10m_admin_0_countries.shp`. This view is used to track the use of "
+"resources by the uDig application."
+msgstr ""
+"Láthatja, hogy a **Catalog view**-t frissítettük a "
+":file:`ne_10m_admin_0_countries.shp`.hez tartozó elemmel. Ezt a nézetet a "
+"források felhasználásának nyomon követésére használja az uDig alkalmazás."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:126
+msgid ""
+"The **Layers** view shows a single layer is displayed on this map. This view"
+" is used to change the order and appearance of information in your Map."
+msgstr ""
+"A **Layers**  nézet egyetlen, a térképen megjelenő réteget mutat. Ezt a "
+"nézetet a térképen megjelenő információk sorrendjének és megjelenésének "
+"módosítására használjuk."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:129
+msgid ""
+"The **Projects** view has been updated to show that your map is stored in "
+"`projects > ne 10m admin 0 countries`. You can have multiple projects open "
+"at a time, each project can have several maps."
+msgstr ""
+"A **Projects** nézetet frissítettük, hogy a térképét a  `projects > ne 10m "
+"admin 0 countries`.-ban tároljuk. Egyszerre több projektet nyitva tarthat, "
+"minden egyes projekthez több térkép tartozhat."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:132
+msgid "Open up the :file:`~/data/natural_earth2/` folder on the desktop"
+msgstr "Nyissa meg a :file:`~/data/natural_earth2/` mappát az asztalon"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:134
+msgid ""
+"Drag :file:`HYP_50M_SR_W.tif` onto the Map Editor, a new layer is added to "
+"to the map."
+msgstr ""
+"Húzza a :file:`HYP_50M_SR_W.tif fájlt a térkép szerkesztőre, egy új réteget "
+"adtunk a térképhez."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:136
+msgid ""
+"You can see the order the layers are drawn in the layer view. Right now the "
+"`HYP_50M_SR_W` layer is drawn on top of the `ne 10m admin 0 countries` "
+"layer."
+msgstr ""
+"Láthatja a rétegek kirajzolási sorrendjét a réteg nézetben. Most a "
+"`HYP_50M_SR_W` réteg a `ne 10m admin 0 countries` réteg fölött jelenik meg."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:139
+msgid ""
+"Select the `HYP_50M_SR_W` layer in the catalog view and drag it to the "
+"bottom of the list"
+msgstr ""
+"Válassza ki a `HYP_50M_SR_W` réteget a katalógus nézetben és húzza lista "
+"aljára"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:150
+msgid ""
+"One of the most common questions asked when uDig is considered for an "
+"organization is how much memory the application uses. Unlike most GIS "
+"applications uDig can get by with a fixed amount of memory. The above "
+"shapefile is not loaded into memory, we have a policy of keeping data on "
+"disk and drawing data like this shapefile onto the screen as needed."
+msgstr ""
+"Az egyik a uDig-gel kapcsolatos általános kérdés egy szervezet részéről, "
+"hogy mennyi memóriát használ az alkalmazás. A legtöbb térinformatikai "
+"alkalmazással ellentétben az uDig fix memória mérettel képes boldogulni. A "
+"fenti shape fájlt nem tölti be a memóriába, a statégiánk, hogy az adatokat a"
+" lemezen tároljuk és szükség szerint a képernyőre rajzoljuk az adatokat, "
+"mint ez a shape fájl."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:159
+msgid ""
+"You can also drag and drop shapefiles directly into the uDig application!"
+msgstr ""
+"Közvetlenül a uDig alkalmazásra is húzhatja és dobhatja a shape fájlokat!"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:162
+msgid "Map"
+msgstr "Térkép"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:164
+msgid ""
+"You can control where in the world the Map Editor is looking by using the "
+"navigation tools in the tool bar along the top of the screen."
+msgstr ""
+"A képernyő tetején lévő navigációs eszközök használatával vezérelheti, hogy "
+"a világ melyik részét mutatja a Map Editor."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:167
+msgid "The |ZOOM| Zoom tool is available by default"
+msgstr "A |ZOOM| nagyító eszköz alapértelmezésben elérhető"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:171
+msgid ""
+"Use the zoom tool by drawing a box using the left mouse button around the "
+"area of the world you wish to see."
+msgstr ""
+"Használja a nagyító eszközt úgy, hogy a bal egérgombbal egy téglalapot "
+"rajzol a terület köré, amelyet látni szeretne."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:173
+msgid ""
+"To zoom out draw a box with the right mouse button. The current map extents "
+"will be located within the box you draw."
+msgstr ""
+"A kicsinyítéshez jobb egérgombbal rajzoljon egy téglalapot. Az aktuális "
+"térképi terjedelem kerül be a rajzolt téglalapba."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:176
+msgid ""
+"The |PAN| Pan tool can be used to scroll around your map with out changing "
+"scale."
+msgstr ""
+"A |PAN| eltolás eszköz használható a térkép görgetéséhez, a méretarány "
+"módosítása nélkül."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:180
+msgid ""
+"There are also several navigation buttons that can be used at any time:"
+msgstr "Sok navigációs gomb van, melyeket bármikor használhat:"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:182
+msgid ""
+"|SHOWALL| Show All, can be used to return to the full extents at any time"
+msgstr ""
+"|SHOWALL| Show All használható bármikor a teljes terjedelemhez visszatérésre"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:186
+msgid ""
+"|ZOOM_IN| Zoom In and |ZOOM_OUT| Zoom Out can be used to change the scale by"
+" a fixed amount."
+msgstr ""
+"|ZOOM_IN|  Zoom In és |ZOOM_OUT| Zoom Out használható a a méretarány fix "
+"mértékkel módosításához."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:191
+msgid ""
+"You can use Navigation Back |BNAV| and Forward |FNAV| in the menu bar to "
+"cycle though previously visited locations."
+msgstr ""
+"A Navigation Back |BNAV| és Forward |FNAV| használható a menüsorban az "
+"előzőleg megtekintett helyek visszanézésére."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:197
+msgid ""
+"Most tools allow you to Pan by holding the center button and control the "
+"scale using the scroll wheel."
+msgstr ""
+"A legtöbb eszköz lehetővé teszi az eltolás a középső egérgomb nyomva "
+"tartásával és a méretarány változtatásra a görgő forgatásával."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:201
+msgid "Web Map Server"
+msgstr "Web Map Server"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:203
+msgid ""
+"One of the reasons to use an application like uDig is to access all the "
+"great free geospatial information available on the web. This section covers "
+"the use of Web Map Servers which make available layers of information that "
+"you can mix into your own maps."
+msgstr ""
+"Az egyik oka az olyan alkalmazásnak, mint uDig, hogy hozzáférjen az "
+"interneten elérhető  nagyszerű ingyenes térinformatikai adatokat. Ez a rész "
+"a webtérkép-kiszolgálók használatát ismerteti, amelyek saját térképeivel "
+"keverhető rétegeket testnek elérhetővé."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:207
+msgid ""
+"If you are not connected to the Internet run |osgeolive-appmenupath-"
+"geoserver| for a local WMS. The script will open a page with a \"Service "
+"Capabilities\" section and two links for WMS Services you can drag into your"
+" empty map."
+msgstr ""
+"Ha nem kapcsolódik az internetre, futtassa a |osgeolive-appmenupath-"
+"geoserver|-t egy helyi WMS-hez. A szkript egy  oldalt nyit meg a \"Service "
+"Capabilities\" fejezettel és két WMS szolgáltatás linkkel, melyeket behúzhat"
+" az üres térképébe."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:211
+msgid ""
+"You can copy a WMS URL (e.g. for `WMS 1.1.1`_) from right panel of "
+"`GeoServer Welcome page`_ and \"paste\" it either on the **Map** view or the"
+" **Layers** view. A wizard shows you the layers you can add to the **Map**. "
+"You can also connect to Web Map Servers using the **Add Data** "
+"(:menuselection:`Layer --> Add...`) Wizard and paste WMS URL right there."
+msgstr ""
+"A WMS URL-t (pl. `WMS 1.1.1`_) kimásolhatja a jobb oldali `GeoServer Welcome"
+" page`_  panelból és beillesztheti vagy a **Map* nézetbe vagy a **Layers** "
+"nézetbe. Egy varázsló mutatja meg önnek a a **Map**-be beilleszthető "
+"rétegeket.  Az **Add Data** (:menuselection:`Layer --> Add...`) varázsló "
+"segítségével Webes térkép szerverekhez is csatlakozhat és a WMS URL-t "
+"beillesztheti ide."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:216
+msgid "Select :menuselection:`File --> New --> New Map` from the menu bar"
+msgstr "Válassza a  :menuselection:`File --> New --> New Map`-et a menüsorból"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:218
+msgid ""
+"Change to the **Web** view, click on the tab next to the **Catalog** view to"
+" reveal the *Web* view."
+msgstr ""
+"Váltson a **Web** nézetre, kattintson a a fülön a **Catalog** nézet mellé, "
+"hogy a **Web** nézetet felhozza."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:223
+msgid ""
+"Click on the link ``WMS\\:http://www2.dmsolutions.ca/cgi-"
+"bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities``"
+msgstr ""
+"Kattintson a ``WMS\\:http://www2.dmsolutions.ca/cgi-"
+"bin/mswms_gmap?Service=WMS&VERSION=1.1.0&REQUEST=GetCapabilities`` linkre"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:229
+msgid ""
+"From the Resource Selection page we are going to choose the following "
+"layers:"
+msgstr ""
+"A Resource Selection oldalról a következő rétegeket fogjuk kiválasztani:"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:231
+msgid "Elevation/Bathymetry"
+msgstr "Elevation/Bathymetry"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:232
+msgid "Parks"
+msgstr "Parks"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:233
+msgid "Cities"
+msgstr "Cities"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:238
+msgid "Press :guilabel:`Finish` to add these layers to your map"
+msgstr "Nyomja meg :guilabel:`Finish`-t a réteg térképhez adásához"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:243
+msgid "Use the |ZOOM| Zoom Tool to move closer to one of the Parks"
+msgstr "Használja a |ZOOM| nagyítás eszközt, hogy közelebb hozzon egy parkot"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:245
+msgid ""
+"Switch to the |INFO| Info Tool and click on one the parks to learn more "
+"about it"
+msgstr ""
+"Váltson az |INFO| info eszközre és kattintson egy parkra, hogy többet tudjon"
+" meg róla"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:249
+msgid ""
+"You can switch between the zoom and info tools by pressing `Z` and `I` on "
+"the keyboard."
+msgstr ""
+"A nagyítás és info eszközök között válthat a \"Z\" és \"I\" billentyű "
+"megnyomásával a billentyűzeten."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:252
+msgid "Style"
+msgstr "Stílus"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:254
+msgid ""
+"Select the `project > ne 10m admin 0 countries`, you can double click to "
+"open this Map, or Right Click and choose Open Map"
+msgstr ""
+"Válassza a `project > ne 10m admin 0 countries`-t, duplán kattinthat a "
+"térkép megnyitásához vagy jobb kattintás és válassza az Open Map-et"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:256
+msgid "Select the countries layer in the Layer view"
+msgstr "Válassza az országok réteget a Layer nézetben"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:258
+msgid ""
+"Open up the **Style Editor** by right clicking on `ne 10m admin 0 countries`"
+" layer and choosing :guilabel:`Change Style`"
+msgstr ""
+"Az `ne 10m admin 0 countries`-ra jobb kattintással és a :guilabel:`Change "
+"Style` kiválaszásával nyissa meg a **Style Editor**-t"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:260
+msgid "We are going to change a few things about how countries are displayed"
+msgstr "Néhány dolgot meg fogunk változtatni az országok megjeleítésében"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:262
+msgid ""
+"Line: Click :guilabel:`Border`, click on the Color button and change the "
+"color to BLACK"
+msgstr ""
+"Vonal: kattintson a :guilabel:`Border`-ra, kattintson a Color gombra és "
+"változtassa a színt feketére"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:264
+msgid ""
+"Fill: On Tab :guilabel:`Fill` uncheck the box :guilabel:`enable/disable "
+"fill` to turn off fill"
+msgstr ""
+"Kitöltés: :guilabel:`Fill`  fülön vegye ki a pipát a "
+":guilabel:`enable/disable fill` jelölőnégyzetből a kitöltés kikapcsolásához"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:266
+msgid ""
+"Label: On Tab :guilabel:`Labels` check the box :guilabel:`enable/disable "
+"labeling`, and choose the attribute **NAME** from the list of attributes"
+msgstr ""
+"Címke: a :guilabel:`Labels` fülön jelölje be :guilabel:`enable/disable "
+"labeling` jelölőnégyzetet és válassza a  **NAME** attribútumot az "
+"attribútumok közül"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:271
+msgid ""
+"Press :guilabel:`Apply` to see what this looks like on your Map, the "
+"**Layer** view will also be updated to reflect the current style"
+msgstr ""
+"Nyomja meg az :guilabel:`Apply`-t, hogy láthassa hogy néz ki ez a térképén, "
+"a **Layer** nézetet szintén frissítjük, hogy az aktuális stílus jelenjen meg"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:274
+msgid ""
+"When you are happy with the result you can press :guilabel:`Close` to "
+"dismiss the dialog"
+msgstr ""
+"Ha elégedett az eredménnyel megnyomhatja a :guilabel:`Close`-t a "
+"párbeszédablak lezárásához"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:276
+msgid ""
+"Some files include style settings. The Style definition can be found in "
+"files with the :file:`*.sld` extension. The name itself should be equal to "
+"the file containing the data. If such a |SLD| file exists, the style will be"
+" applied automatically."
+msgstr ""
+"Néhány fájl stílus beállításokat tartalmaz. A stílus beállítások az  "
+":file:`*.sld` kiterjesztésű fájlokban találhatók. A névnek meg kell egyeznie"
+" az adatokat tartalmazó fájléval. Ha olyan |SLD| fájl létezik a stílust "
+"automatikusan alkalmazzuk."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:278
+msgid ""
+"Sometimes it is a bit hard to see what is going on with layer providing much"
+" details. To get focused on the task you like to work on, you can choose "
+":menuselection:`Map --> Mylar` from the menu bar. Using the *Layer* view "
+"select different layers in turn to see the effect. You can turn off this "
+"effect at any time using :menuselection:`Map --> Mylar` from the menu bar."
+msgstr ""
+"Időnként nehéz követni mi történik túl sok részletet tartalmazó réteggel.  "
+"Hogy arra a feladatra koncentráljon amin dolgozni szeretne, kiválaszthatja a"
+" :menuselection:`Map --> Mylar`-t a menüsorból. A *Layer* nézet "
+"használatával válasszon ki különböző rétegeket, hogy lássa a hatást. "
+"Bármikor kikapcsolhatja ezt a hatást a :menuselection:`Map --> Mylar`-al a "
+"menüsorból."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:294
+msgid "Things to Try"
+msgstr "Kipróbálandó dolgok"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:296
+msgid "Here are some additional challenges for you to try:"
+msgstr "Itt van néhány további kihívás önnek, hogy kipróbálja:"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:298
+msgid ""
+"Try viewing your own GIS map layers, or try adding a layer from a |WFS|"
+msgstr ""
+"Próbálja megnézni a saját GIS térképi rétegeit vagy próbáljon egy  |WFS|-ből"
+" rétegek hozzáadni"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:299
+msgid "Try styling the WFS layer."
+msgstr "Próbálja meg beállítani a WFS réteg stílusát."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:302
+msgid "What Next?"
+msgstr "Mi a következő?"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:307
+msgid ""
+"This is only the first step on the road to using uDig. There is a lot more "
+"great material (and ability) left for you to discover in our **walkthrough**"
+" documents."
+msgstr ""
+"Ez csak az első lépés az úton a uDig használatához. Még sokkal több "
+"felfedezendő nagyszerű anyag (és képesség)  maradt önnek a **walkthrough** "
+"dokumentumainkban."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:309
+msgid "Walkthrough 1"
+msgstr "Walkthrough 1"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:311
+msgid ""
+"Try out the use of :doc:`PostGIS <../overview/postgis_overview>`, extract "
+"data from a Web Feature Server and explore the use of **Themes** with our "
+"powerful `Color Brewer` technology."
+msgstr ""
+"Próbálja ki a :doc:`PostGIS <../overview/postgis_overview>` használatát, "
+"nyerje ki az adatokat egy Web Feature Serverből és fedezze fel a **Themes** "
+"használja a hatékony `Color Brewer` technológiánkkal."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:314
+msgid ":file:`/usr/local/share/udig/udig-docs/uDigWalkthrough 1.pdf`"
+msgstr ":file:`/usr/local/share/udig/udig-docs/uDigWalkthrough 1.pdf`"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:316
+msgid ""
+"Walkthrough 2 - Learn how to create shapefiles and use the Edit tools to "
+"manipulate feature data, covers the installation of :doc:`GeoServer "
+"<../overview/geoserver_overview>` and editing with a Web Feature Server."
+msgstr ""
+"Walkthrough 2 - Ismerje meg, hogyan hozhat létre shape fájlokat, és hogyan "
+"használhatja a szerkesztés eszközöket az adatok kezelésére, tartalmazza a "
+":doc:`GeoServer <../overview/geoserver_overview>`  telepítését és a "
+"szerkesztést Web Feature Serverrel."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:320
+msgid "Available on http://udig.refractions.net/"
+msgstr "Elérhető a http://udig.refractions.net/ címen"
