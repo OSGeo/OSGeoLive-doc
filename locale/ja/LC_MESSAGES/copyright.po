@@ -6,6 +6,7 @@
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
 # Hiroshi Miura <miurahr@northside.tokyo>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Hiroshi Miura <miurahr@northside.tokyo>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,10 +50,10 @@ msgid ""
 "provided under a `Creative Commons Attribution 3.0 Unported License "
 "<https://creativecommons.org/licenses/by/3.0/>`_."
 msgstr ""
-"OSGeo-Liveプロジェクトは、`LGPL license "
-"v2.1<http://www.gnu.de/documents/lgpl-2.1.en.html>`__のもとで配布されています。すべてのドキュメントは、`Creative"
-" Commons Attribution 3.0 Unported License "
-"<https://creativecommons.org/licenses/by/3.0/>`_の下で提供されます。"
+"OSGeo-Liveプロジェクトは、`LGPL license v2.1 "
+"<http://www.gnu.de/documents/lgpl-2.1.en.html>`__ "
+"のもとで配布されています。すべてのドキュメントは、`Creative Commons Attribution 3.0 Unported License "
+"<https://creativecommons.org/licenses/by/3.0/>`_ の下で提供されます。"
 
 #: ../../build/doc/copyright.rst:10
 msgid ""
