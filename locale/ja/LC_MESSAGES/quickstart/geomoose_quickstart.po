@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -142,7 +143,10 @@ msgid ""
 "coordinates of a picked point) * measure the distance along a potentially "
 "multi-segment line * measure the area of a polygon."
 msgstr ""
-"GeoMooseの計測ツールを使用すると、次のことができます。*点を計測(選択された点の座標を返す)*複数の区間を含む可能性のある線に沿った距離を計測*ポリゴンの面積を計測"
+"GeoMooseの計測ツールを使用すると、次のことができます。\n"
+"* 点を計測(選択された点の座標を返す)\n"
+"* 複数の区間を含む可能性のある線に沿った距離を計測\n"
+"* ポリゴンの面積を計測"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:76
 msgid ""

@@ -6,6 +6,7 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -85,7 +86,7 @@ msgstr "プロジェクトを作成する"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:66
 msgid "To create a new project, choose :menuselection:`Project --> New`."
-msgstr "新しいプロジェクトを作成するには、:menuselection:`Project-->New`を選択します。"
+msgstr "新しいプロジェクトを作成するには、:menuselection:`Project-->New` を選択します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:72
 msgid ""
@@ -140,7 +141,7 @@ msgstr "プロジェクトにコンテンツを追加したので、このプロ
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:111
 msgid "Choose :menuselection:`Project --> Save`."
-msgstr ":menuselection:`Project-->Save`を選択します。"
+msgstr ":menuselection:`Project-->Save` を選択します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:117
 msgid "Make the location to save the project '/home/user/desktop'."
@@ -191,7 +192,7 @@ msgstr "QGISを開くQGISを開くと、最近選択したプロジェクトの�
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:143
 msgid "Choose :menuselection:`Project --> Open`."
-msgstr " :menuselection:`Project --> Open`を選択"
+msgstr " :menuselection:`Project --> Open` を選択"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:144
 msgid "Navigate to '/home/user/qgis-example'."
@@ -246,7 +247,8 @@ msgid ""
 "but can no longer see the rivers and lakes which are within the 'Waters' "
 "layer."
 msgstr ""
-"マップフレームが更新され、レイヤリストの変更が反映されていることに注目してください。現在では、`ne_10m_populated_places`レイヤをポイントとして見ることができますが、`Waters`レイヤ内の河川や湖を見ることはできません。"
+"マップフレームが更新され、レイヤリストの変更が反映されていることに注目してください。現在では、`ne_10m_populated_places` "
+"レイヤをポイントとして見ることができますが、`Waters` レイヤ内の河川や湖を見ることはできません。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:181
 msgid ""
@@ -461,7 +463,8 @@ msgid ""
 "<https://docs.qgis.org/3.4/en/docs/user_manual/plugins/plugins.html>`_."
 msgstr ""
 "`プラグイン "
-"<https://docs.qgis.org/3.4/en/docs/user_manual/plugins/plugins.html>`_を使用してQGIS機能を拡張します。"
+"<https://docs.qgis.org/3.4/en/docs/user_manual/plugins/plugins.html>`_ "
+"を使用してQGIS機能を拡張します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:299
 msgid ""
@@ -469,7 +472,8 @@ msgid ""
 "<https://docs.qgis.org/3.4/en/docs/user_manual/processing/toolbox.html>`_."
 msgstr ""
 "`処理ツールボックス "
-"<https://docs.qgis.org/3.4/en/docs/user_manual/processing/toolbox.html>`_を使用してデータの操作してみます。"
+"<https://docs.qgis.org/3.4/en/docs/user_manual/processing/toolbox.html>`_ "
+"を使用してデータの操作してみます。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:301
 msgid ""
@@ -477,7 +481,8 @@ msgid ""
 "<https://docs.qgis.org/3.4/en/docs/training_manual/spatial_databases/index.html>`_."
 msgstr ""
 "`PostGISデータベース "
-"<https://docs.qgis.org/3.4/en/docs/training_manual/spatial_databases/index.html>`_からコンテンツをビューするのにQGISを使用してみます。"
+"<https://docs.qgis.org/3.4/en/docs/training_manual/spatial_databases/index.html>`_"
+" からコンテンツをビューするのにQGISを使用してみます。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:303
 msgid ""
@@ -485,9 +490,9 @@ msgid ""
 "<../overview/qgis_mapserver_overview.html>`_. in the "
 ":menuselection:`Geospatial --> Web Services` menu."
 msgstr ""
-"`QGISマップサーバ "
-"<./overview/qgis_mapserver_overview.html>`_を使用して、QGISマップをWebに公開してみてください。:menuselection:`Geospatial"
-" --> Web Services` メニューにあります。"
+"`QGISマップサーバ <./overview/qgis_mapserver_overview.html>`_ "
+"を使用して、QGISマップをWebに公開してみてください。:menuselection:`Geospatial --> Web Services` "
+"メニューにあります。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:307
 msgid "What next?"
@@ -498,5 +503,5 @@ msgid ""
 "To learn more about QGIS, a good starting point is the `Documentation page`_"
 " on the QGIS homepage and `A Gentle Introduction to GIS`_ eBook."
 msgstr ""
-"QGISの詳細については、QGISホームページの`ドキュメントページ`_と`A Gentle Introduction to "
-"GIS(英語)`_eBookを参照してください。"
+"QGISの詳細については、QGISホームページの `Documentation page`_ と `Gentle Introduction to "
+"GIS(英語)`_ eBookを参照してください。"

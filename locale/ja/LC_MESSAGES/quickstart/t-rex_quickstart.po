@@ -6,6 +6,7 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -53,14 +54,14 @@ msgstr "T-Rexを起動"
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:35
 msgid ""
 "Choose :menuselection:`Geospatial --> Web Services --> T-Rex` from the menu."
-msgstr "メニューから:menuselection:`Geospatial-->Web Services-->T-Rex`を選択します。"
+msgstr "メニューから:menuselection:`Geospatial-->Web Services-->T-Rex` を選択します。"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:37
 msgid ""
 "This starts t-rex in zero-config mode connecting to PostGIS database "
 "`osm_local`. A browser window is opened showing the t-rex backend."
 msgstr ""
-"これにより、PostGISデータベース`osm_local`に接続する設定なしのモードでt-"
+"これにより、PostGISデータベース `osm_local` に接続する設定なしのモードでt-"
 "rexが起動されます。ブラウザウィンドウが開き、t-rexのバックエンドが表示されます。"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:44
@@ -109,7 +110,7 @@ msgstr "任意のテキストエディタを開きます(例:menuselection:`Acce
 msgid ""
 "Create the file \"ne.toml\" in your home directory: "
 ":file:`/home/user/ne.toml`"
-msgstr "ファイル\"ne.toml\"をホームディレクトリ::file:`/home/user/ne.toml`に作成します。"
+msgstr "ファイル\"ne.toml\"をホームディレクトリ: :file:`/home/user/ne.toml` に作成します。"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:68
 msgid "Put the following content in it::"

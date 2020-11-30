@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,7 +32,8 @@ msgid ""
 "geospatial web. *deegree* is a Java application for serving maps (and vector"
 " data) for other clients to show."
 msgstr ""
-"*deegree*は、空間データインフラストラクチャと地理空間Webのためのオープンソースソフトウェアです。*deegree*は、他のクライアントが表示するマップ(およびベクタデータ)を提供するJavaアプリケーションです。"
+"*deegree* は、空間データインフラストラクチャと地理空間Webのためのオープンソースソフトウェアです。*deegree* "
+"は、他のクライアントが表示するマップ(およびベクタデータ)を提供するJavaアプリケーションです。"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:27
 msgid "Available components are:"
@@ -47,7 +49,7 @@ msgid ""
 "applications and OGC-service implementations. It can be used to build web-"
 "based geospatial-data-infrastructures (GDI)."
 msgstr ""
-"*deegree3*は、deegree "
+"*deegree3* は、deegree "
 "Javaフレームワークの新世代であり、GISアプリケーションとOGCサービス実装のためのものです。Webベースの地理空間データインフラストラクチャ(GDI)の構築に使用できます。"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:39
@@ -60,8 +62,8 @@ msgid ""
 "Services --> deegree` menu. The application will take a few moments to start"
 " up."
 msgstr ""
-":menuselection:`Geospatial-->Web "
-"Services-->deegree`メニューから*'deegreeを開始'*を選択します。アプリケーションの起動には少し時間がかかります。"
+":menuselection:`Geospatial-->Web Services-->deegree` メニューから* 'deegreeを開始'* "
+"を選択します。アプリケーションの起動には少し時間がかかります。"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:44
 msgid ""
@@ -70,8 +72,9 @@ msgid ""
 "simple web-based GUI for editing the configuration files of the *deegree "
 "workspace*."
 msgstr ""
-"Firefoxは*deegree3サービス "
-"コンソール*を開きます。(ブラウザでhttp://localhost:8033)を選択して手動で開くこともできます。これは、*deegree作業フォルダ*の設定ファイルを編集するためのシンプルなWebベースのGUIです。"
+"Firefoxは *deegree3サービス コンソール* "
+"を開きます。(ブラウザでhttp://localhost:8033)を選択して手動で開くこともできます。これは、*deegree作業フォルダ* "
+"の設定ファイルを編集するためのシンプルなWebベースのGUIです。"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:48
 msgid "Load a workspace"
@@ -82,7 +85,8 @@ msgid ""
 "*deegree 3* uses configurations conformant to all *deegree 3* based "
 "webservices. Those configurations are stored in the workspace."
 msgstr ""
-"*deegree3*はすべての*deegree3*ベースのウェブサービスに準拠した設定を使用しています。これらの設定は作業フォルダに保存されています。"
+"*deegree3* はすべての *deegree3* "
+"ベースのウェブサービスに準拠した設定を使用しています。これらの設定は作業フォルダに保存されています。"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:52
 msgid ""
@@ -93,11 +97,12 @@ msgid ""
 "workspaces and offical workspaces which can be imported if you have a "
 "internet connection."
 msgstr ""
-"含まれているすぐに使用できるワークスペースを管理するには、左側の[*'workspaces'*]をクリックします。これで、実行中の*deegree*インスタンスの作業フォルダ管理が開始されました。現在アクティブな作業フォルダ(一度に1つしかアクティブにできない)、非アクティブなローカルで利用可能なワークスペース、およびインターネット接続がある場合にインポートできるオフラインのワークスペースを確認できます。作業フォルダ"
+"含まれているすぐに使用できるワークスペースを管理するには、左側の*'workspaces'* をクリックします。これで、実行中の *deegree* "
+"インスタンスの作業フォルダ管理が開始されました。現在アクティブな作業フォルダ(一度に1つしかアクティブにできない)、非アクティブなローカルで利用可能なワークスペース、およびインターネット接続がある場合にインポートできるオフラインのワークスペースを確認できます。作業フォルダ"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:54
 msgid "Press start on the *deegree-inspire-workspace*."
-msgstr "*deegree-inspire-workspace*の開始を押してください。"
+msgstr "*deegree-inspire-workspace* の開始を押してください。"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:56
 msgid ""
@@ -134,8 +139,8 @@ msgid ""
 "configured to visualize the data and a basemap (rendered by `OpenStreetMap "
 "<https://www.openstreetmap.org/>`_)."
 msgstr ""
-"*'see "
-"layers'*をクリックして、簡単なマップクライアントを開きます。このサービスは、データとベースマップ(`OpenStreetMap<https://www.openstreetmap.org/>`_)を視覚化するように設定されています。"
+"*'see layers'* をクリックして、簡単なマップクライアントを開きます。このサービスは、データとベースマップ(`OpenStreetMap "
+"<https://www.openstreetmap.org/>`_)を視覚化するように設定されています。"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:77
 msgid ""
@@ -143,7 +148,7 @@ msgid ""
 "available  layers. You can activate the INSPIRE layer served by the deegree "
 "WMS here."
 msgstr ""
-"右側の**+**をクリックすると、レイヤの木が開き、利用可能なすべてのレイヤが表示されます。deegree "
+"右側の **+** をクリックすると、レイヤの木が開き、利用可能なすべてのレイヤが表示されます。deegree "
 "WMSが提供するINSPIREレイヤは、ここで有効化できます。"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:80
@@ -152,7 +157,8 @@ msgid ""
 "pan through the map holding the left mouse button and drag the map. Zooming "
 "is possible via mouse wheel or the navigation elements on the left side."
 msgstr ""
-"マップクライアントは、`OpenLayers<https://openlayers.org/>`_に基づいています。マウスの左ボタンを押したままマップを移動し、マップをドラッグできます。ズームは、マウスホイールまたは左側のナビゲーション要素を使用して可能です。"
+"マップクライアントは、`OpenLayers <https://openlayers.org/>`_ "
+"に基づいています。マウスの左ボタンを押したままマップを移動し、マップをドラッグできます。ズームは、マウスホイールまたは左側のナビゲーション要素を使用して可能です。"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:84
 msgid ""
@@ -161,9 +167,9 @@ msgid ""
 "<https://download.deegree.org/documentation/3.4.1/html/lightly.html#example-"
 "workspace-1-inspire-network-services>`__."
 msgstr ""
-"INSPIRE作業フォルダに関する詳細情報と段階的なチュートリアルは、deegree`文書 "
+"INSPIRE作業フォルダに関する詳細情報と段階的なチュートリアルは、deegree `文書 "
 "<https://download.deegree.org/documentation/3.4.1/html/lightly.html#example-"
-"workspace-1-inspire-network-services>`__にあります。"
+"workspace-1-inspire-network-services>`__ にあります。"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:89
 msgid "What next?"

@@ -6,6 +6,7 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-28 22:14-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -65,19 +66,20 @@ msgid ""
 "Open the Spatialite GUI by selecting "
 ":menuselection:`Geospatial->Databases->Spatialite GUI`."
 msgstr ""
-":menuselection:`Geospatial->Databases->Spatialite GUI`を選択して、Spatialite "
+":menuselection:`Geospatial->Databases->Spatialite GUI` を選択して、Spatialite "
 "GUIを開きます。"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:50
 msgid "Select :menuselection:`File->Connecting an existing SQLite DB`"
-msgstr ":menuselection:`File->Connecting an existing SQLite DB`を選択します。"
+msgstr ":menuselection:`File->Connecting an existing SQLite DB` を選択します。"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:51
 msgid ""
 "Browse to the :file:`/home/user/data/spatialite` directory and choose "
 ":file:`trento.sqlite`."
 msgstr ""
-":file:`/home/user/data/spatialite`ディレクトリにブラウズし、:file:`trento.sqlite`を選択します。"
+":file:`/home/user/data/spatialite` ディレクトリにブラウズし、:file:`trento.sqlite` "
+"を選択します。"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:58
 msgid "Right click on the MunicipalHallsView table and select \"Show Columns\""
@@ -216,8 +218,8 @@ msgstr "次のステップ"
 msgid ""
 "To learn more about SpatiaLite, a starting point is the `SpatiaLite project "
 "page`_."
-msgstr "Spatialiteの詳細については、`Spatialite project page`_を参照してください。"
+msgstr "Spatialiteの詳細については、`Spatialite project page`_ を参照してください。"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:184
 msgid "Be sure to visit the tutorial `Spatialite cookbook`_"
-msgstr "チュートリアル`Spatialite cookbook`_を必ず参照してください。"
+msgstr "チュートリアル `Spatialite cookbook`_ を必ず参照してください。"

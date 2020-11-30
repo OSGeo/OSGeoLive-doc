@@ -6,6 +6,7 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +34,7 @@ msgid ""
 " through the internet using |OGCS| such as |WMS|, |WFS| and |WCS|."
 msgstr ""
 "MapServerは、 `オープンソース <https://opensource.org/>`_ "
-"サーバーベースのアプリケーションであり、|WMS|、|WFS|、|WCS|などの |OGCS| "
+"サーバーベースのアプリケーションであり、|WMS|、|WFS|、|WCS| などの  |OGCS| "
 "を使用して、インターネットを介して地理的地図の画像やベクタデータを公開できます。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:40
@@ -61,7 +62,7 @@ msgid ""
 " read necessary data, and how to render it (e.g. color, symbol, label, "
 "etc...)."
 msgstr ""
-"`Mapfile<https://mapserver.org/mapfile/index.html>`_ "
+"`Mapfile <https://mapserver.org/mapfile/index.html>`_ "
 "は、MapServerが空間データをイメージまたはベクタデータとしてレンダリングするために使用する設定ファイルです。その主な目的は、描画できるレイヤ、必要なデータの読み方、レンダリング方法(色、シンボル、ラベルなど)を定義することです。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:57
@@ -79,7 +80,8 @@ msgid ""
 "Create the file \"mapserver_quickstart.map\" in your home directory: "
 ":file:`/home/user/mapserver_quickstart.map`"
 msgstr ""
-"\"mapserver_quickstart.map\"を、ホームディレクトリ::file:`/home/user/mapserver_quickstart.map`に作成します。"
+"\"mapserver_quickstart.map\"を、ホームディレクトリ: "
+":file:`/home/user/mapserver_quickstart.map` に作成します。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:64
 msgid "Put the following content in it::"
@@ -91,8 +93,8 @@ msgid ""
 " :file:`~/data/natural_earth2` (a short cut to "
 ":file:`/usr/local/share/data/natural_earth2`)."
 msgstr ""
-"この例では、既にOSGeoLive上の "
-":file:`~/data/natural_earth2`(:file:`/usr/local/share/data/natural_earth2` "
+"この例では、既にOSGeoLive上の :file:`~/data/natural_earth2 "
+"`(:file:`/usr/local/share/data/natural_earth2` "
 "へのショートカット)にある自然地球データセットを使用しています。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:107
@@ -102,7 +104,9 @@ msgid ""
 "should contain a list of **LAYER** objects the Mapfile can read and draw. In"
 " our Mapfile, we currently have only one layer defined."
 msgstr ""
-"Mapfile内の各オブジェクトは、名前(**MAP**など)で始まり、**END**で終わります。Mapfileは常に**MAP**オブジェクトで始まり、Mapfileが読み取って描画できる**LAYER**オブジェクトのリストを含む必要があります。このMapfileでは、いまのところ1つのレイヤのみが定義されています。"
+"Mapfile内の各オブジェクトは、名前(**MAP** など)で始まり、**END** で終わります。Mapfileは常に **MAP** "
+"オブジェクトで始まり、Mapfileが読み取って描画できる **LAYER** "
+"オブジェクトのリストを含む必要があります。このMapfileでは、いまのところ1つのレイヤのみが定義されています。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:112
 msgid ""
@@ -132,7 +136,8 @@ msgid ""
 "If we look closer at the **LAYER** in our Mapfile, we'll see that it "
 "contains a bunch of properties and objects too. Among them are:"
 msgstr ""
-"Mapfileの**LAYER**をよく見ると、このファイルにはたくさんのプロパティーとオブジェクトも含まれていることがわかります。その中には次のようなものがあります"
+"Mapfileの **LAYER** "
+"をよく見ると、このファイルにはたくさんのプロパティーとオブジェクトも含まれていることがわかります。その中には次のようなものがあります"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:124
 msgid ""
@@ -171,7 +176,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:142
 msgid "Render a map image with MapServer using a WMS **GetMap** request"
-msgstr "WMSの**GetMap**要求を使用してMapServerで地図イメージをレンダリングする"
+msgstr "WMSの **GetMap** 要求を使用してMapServerで地図イメージをレンダリングする"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:146
 msgid ""
@@ -195,9 +200,10 @@ msgid ""
 " the Mapfile will be rendered in addition to all layers with *STATUS "
 "DEFAULT*. The result looks like the following:"
 msgstr ""
-"上記はどういう意味ですか?簡単に言うと、これはWMSの**GetMap**要求であり、「*次のMapfileを使用して、イメージサイズ、地理的範囲、投影などのユーザ指定のパラメータに基づいて、指定されたレイヤをpngイメージとしてレンダリングする*」ようMapServerに指示します。Mapfileで*STATUS"
-" ON*を持つ\"*&LAYERS=.*\"プロパティで指定されたすべてのレイヤは、*STATUS "
-"DEFAULT*を持つすべての画層に加えてレンダリングされます。結果は次のようになります。"
+"上記はどういう意味ですか?簡単に言うと、これはWMSの** GetMap** "
+"要求であり、「*次のMapfileを使用して、イメージサイズ、地理的範囲、投影などのユーザ指定のパラメータに基づいて、指定されたレイヤをpngイメージとしてレンダリングする*」ようMapServerに指示します。Mapfileで*STATUS"
+" ON*を持つ\"*&LAYERS=.*\"プロパティで指定されたすべてのレイヤは、 *STATUS DEFAULT* "
+"を持つすべての画層に加えてレンダリングされます。結果は次のようになります。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:167
 msgid ""
@@ -240,7 +246,7 @@ msgstr "新しいレイヤをMapfileに追加して、ローカルシェイプ�
 msgid ""
 "**What will I learn ?** You will learn how to add a new layer object "
 "definition to your Mapfile."
-msgstr "**何を学べますか?**新しいレイヤオブジェクト定義をMapfileに追加する方法を学習します。"
+msgstr "**何を学べますか?** 新しいレイヤオブジェクト定義をMapfileに追加する方法を学習します。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:197
 msgid ""
@@ -262,7 +268,8 @@ msgid ""
 "layer to the image rendered. We simply need to add the new layer name to the"
 " \"LAYERS\" property list::"
 msgstr ""
-"前述のWMSの**GetMap**要求を受け取り、レンダリングしたイメージに新しい「Lakes」レイヤを追加します。「LAYERS」プロパティリストに新しいレイヤ名を追加するだけです。"
+"前述のWMSの **GetMap** "
+"要求を受け取り、レンダリングしたイメージに新しい「Lakes」レイヤを追加します。「LAYERS」プロパティリストに新しいレイヤ名を追加するだけです。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:222
 msgid ""
@@ -290,8 +297,10 @@ msgid ""
 "values can be used as a way to draw the elements inside a dataset "
 "differently using multiple CLASS objects."
 msgstr ""
-"Mapfileでは、LAYERオブジェクトに無限個のCLASSオブジェクトを含めることができます。これらは、空間データファイル(DATA)に含まれる要素のスタイルを設定するために使用されます。たとえば、`ogrinfo<https://gdal.org/ogrinfo.html>`_などのツールを使用して\"ne_10m_lakes\"データファイルを詳しく調べると、このファイルに含まれるジオメトリと属性定義がわかります。"
-" これらの属性値は、複数のCLASSオブジェクトを使用してデータセット内の要素を異なる方法で描画する方法として使用できます。"
+"Mapfileでは、LAYERオブジェクトに無限個のCLASSオブジェクトを含めることができます。これらは、空間データファイル(DATA)に含まれる要素のスタイルを設定するために使用されます。たとえば、"
+" `ogrinfo <https://gdal.org/ogrinfo.html>`_ "
+"などのツールを使用して\"ne_10m_lakes\"データファイルを詳しく調べると、このファイルに含まれるジオメトリと属性定義がわかります。 "
+"これらの属性値は、複数のCLASSオブジェクトを使用してデータセット内の要素を異なる方法で描画する方法として使用できます。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:246
 msgid ""
@@ -353,12 +362,12 @@ msgid ""
 "Start QGIS via :menuselection:`Geospatial --> Desktop GIS --> QGIS Desktop`."
 " Go to :menuselection:`Layer --> Add Layer --> Add WMS/WMTS Layer`."
 msgstr ""
-"QGISの起動方法:menuselection:`Geospatial-->Desktop GIS-->QGIS Desktop` "
-":menuselection:`Layer --> Add Layer --> Add WMS/WMTS Layer`にいく"
+"QGISの起動方法 :menuselection:`Geospatial-->Desktop GIS-->QGIS Desktop` "
+":menuselection:`Layer --> Add Layer --> Add WMS/WMTS Layer` にいく"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:304
 msgid "Click button **New** and add a name and your Service URL"
-msgstr "ボタン**New**をクリックし、名前とサービスURLを追加します。"
+msgstr "ボタン **New** をクリックし、名前とサービスURLを追加します。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:306
 msgid "Save your settings:"
@@ -398,7 +407,7 @@ msgid ""
 "Read the `Introduction to MapServer "
 "<https://mapserver.org/introduction.html#introduction>`_."
 msgstr ""
-"`MapServerの概要  <https://mapserver.org/introduction.html#introduction>`_を読む"
+"`MapServerの概要  <https://mapserver.org/introduction.html#introduction>`_ を読む"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:325
 msgid ""
@@ -414,9 +423,9 @@ msgid ""
 "<https://www.mapserver.org/ogc/index.html>`_ to learn more about OGC "
 "standards in MapServer (WMS, WFS, SLD, WFS Filter Encoding, WCS, SOS, etc.)."
 msgstr ""
-"`OGC サポートと構成 "
-"<https://www.mapserver.org/ogc/index.html>`_をチェックして、MapServerのOGC標準（WMS、WFS、SLD、WFS"
-" Filter Encoding、WCS、SOSなど）の詳細を確認してください。"
+"`OGC サポートと構成 <https://www.mapserver.org/ogc/index.html>`_ "
+"をチェックして、MapServerのOGC標準（WMS、WFS、SLD、WFS Filter "
+"Encoding、WCS、SOSなど）の詳細を確認してください。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:331
 msgid ""
@@ -425,4 +434,4 @@ msgid ""
 "discuss potential software improvements and ask questions."
 msgstr ""
 "MapServerを使用する準備はできていますか?次に、`メーリングリスト<https://www.mapserver.org/community/lists.html>`"
-" _のコミュニティに参加して、アイデアを交換したり、ソフトウェアの改善点について話し合ったり、質問したりします。"
+" _ のコミュニティに参加して、アイデアを交換したり、ソフトウェアの改善点について話し合ったり、質問したりします。"

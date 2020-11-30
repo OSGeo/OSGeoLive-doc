@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,8 +50,8 @@ msgid ""
 " at http://geonode. The page will look like the image below."
 msgstr ""
 "OSGeoLive DVD上でGeoNodeを起動するには、:menuselection:`Geospatial-->Browser "
-"Clients-->GeoNode-->Start "
-"GeoNode`を選択する必要があります。しばらくすると、GeoNodeのWebページがhttp://geonodeで自動的に開きます。ページは次のようになります。"
+"Clients-->GeoNode-->Start GeoNode` "
+"を選択する必要があります。しばらくすると、GeoNodeのWebページがhttp://geonodeで自動的に開きます。ページは次のようになります。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:46
 msgid "Sign in as a registered user"
@@ -101,7 +102,7 @@ msgstr "結果は次のようになります。"
 msgid ""
 "To add a layer to your account, select the *Upload* button on the top right "
 "of the *Layers* page:"
-msgstr "アカウントにレイヤを追加するには、*Layers*ページの右上にある*Upload*ボタンをクリックします。"
+msgstr "アカウントにレイヤを追加するには、*Layers* ページの右上にある *Upload* ボタンをクリックします。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:76
 msgid ""
@@ -125,8 +126,9 @@ msgid ""
 "set of files, consisting of a *shp*, a *prj*, a *dbf* and a *shx* file. If "
 "one of them is missing, GeoNode will warn you before you upload them."
 msgstr ""
-"ファイルを追加する方法は2つあります。これは、*Drop Files Here*領域の*ドラッグ&ドロップ*を使用するか、*Choose "
-"Files*ボタンを使用して選択できます。*shp*、*prj*、*dbf*、*shx*ファイルからなる完全なファイルセットをアップロードする必要があることに注意してください。いずれかが欠けていると、アップロード前にGeoNodeから警告が表示されます。"
+"ファイルを追加する方法は2つあります。これは、*Drop Files Here* 領域の*ドラッグ&ドロップ*を使用するか、*Choose Files*"
+" ボタンを使用して選択できます。*shp*、*prj*、*dbf*、*shx* "
+"ファイルからなる完全なファイルセットをアップロードする必要があることに注意してください。いずれかが欠けていると、アップロード前にGeoNodeから警告が表示されます。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:90
 msgid ""
@@ -134,7 +136,8 @@ msgid ""
 "Navigate to :file:`/home/user/data/natural_earth2` folder and select all the"
 " :file:`ne_10m_admin_0_countries` files."
 msgstr ""
-"次に、[*ファイルを選択*]ボタンをクリックすると、ファイル選択ウィンドウが表示されます。:file:`/home/user/data/natural_earth2`フォルダに移動し、:file:`ne_10m_admin_0_countries`ファイルをすべて選択します。"
+"次に、[*ファイルを選択*]ボタンをクリックすると、ファイル選択ウィンドウが表示されます。:file:`/home/user/data/natural_earth2`"
+" フォルダに移動し、:file:`ne_10m_admin_0_countries` ファイルをすべて選択します。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:95
 msgid "You should now be able to see all the files you want to upload."
@@ -157,7 +160,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:107
 msgid "To upload data, click the *Upload* button at the bottom."
-msgstr "データをアップロードするには、下部の*Upload*ボタンをクリックします。"
+msgstr "データをアップロードするには、下部の *Upload* ボタンをクリックします。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:112
 msgid ""
@@ -165,13 +168,12 @@ msgid ""
 "*Layer Info* button, or edit the layer metadata with *Edit Metadata* or edit"
 " layer style on GeoServer with *Manage Styles* button."
 msgstr ""
-"レイヤのアップロードが完了したら、*Layer Info*ボタンを使用してレイヤをプレビューするか、*Edit "
-"Metadata*を使用してレイヤメタデータを編集するか、*Manage "
-"Styles*ボタンを使用してGeoServer上のレイヤスタイルを編集できます。"
+"レイヤのアップロードが完了したら、*Layer Info* ボタンを使用してレイヤをプレビューするか、*Edit Metadata* "
+"を使用してレイヤメタデータを編集するか、*Manage Styles* ボタンを使用してGeoServer上のレイヤスタイルを編集できます。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:117
 msgid "Press the *Layer Info* button to see the layer page"
-msgstr "*Layer Info*ボタンを押して、レイヤページを表示"
+msgstr "*Layer Info* ボタンを押して、レイヤページを表示"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:124
 msgid "Create a new map"
@@ -215,7 +217,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:147
 msgid "Click on the *New Layers* button and select *Add Layers*."
-msgstr "*New Layers* ボタンをクリックし、 *Add Layers*を選択します。"
+msgstr "*New Layers* ボタンをクリックし、 *Add Layers* を選択します。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:153
 msgid ""
@@ -228,8 +230,8 @@ msgid ""
 "Select some layers by clicking the first entry and Ctrl-clicking the rest. "
 "Click *Add Layers* to add them all to the map."
 msgstr ""
-"最初の項目をクリックし、Ctrlキーを押しながら残りの項目をクリックして、いくつかのレイヤーを選択します。 *Add "
-"Layers*をクリックして、すべてのレイヤをマップに追加します。"
+"最初の項目をクリックし、Ctrlキーを押しながら残りの項目をクリックして、いくつかのレイヤーを選択します。 *Add Layers* "
+"をクリックして、すべてのレイヤをマップに追加します。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:160
 msgid "The layers will be added to the map."
@@ -239,7 +241,7 @@ msgstr "レイヤーがマップに追加されます。"
 msgid ""
 "To save the map click on the *Map* button in the toolbar, and select *Save "
 "Map*."
-msgstr "マップを保存するには、ツールバーの*Map* ボタンをクリックし、 *Save Map*を選択します。"
+msgstr "マップを保存するには、ツールバーの*Map* ボタンをクリックし、 *Save Map* を選択します。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:168
 msgid "Enter a title and abstract for your map."
@@ -249,7 +251,7 @@ msgstr "マップのタイトルと要約を入力してください。"
 msgid ""
 "Click *Save*. Notice that the link on the top right of the page changed to "
 "reflect the map's name."
-msgstr "*保存*をクリックします。ページの右上のリンクが、マップの名前を反映するように変更されていることに注意してください。"
+msgstr "*保存* をクリックします。ページの右上のリンクが、マップの名前を反映するように変更されていることに注意してください。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:180
 msgid ""
@@ -260,7 +262,7 @@ msgstr "このリンクには、マップへのパーマリンクが含まれて
 #: ../../build/doc/quickstart/geonode_quickstart.rst:182
 msgid ""
 "Click *Done* next to the *Add Layers* button to see the legend of your map."
-msgstr "*Add Layers*ボタンの横の*Done*をクリックして、マップの凡例を表示します。"
+msgstr "*Add Layers* ボタンの横の *Done* をクリックして、マップの凡例を表示します。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:185
 msgid "Share your map"
@@ -273,7 +275,7 @@ msgstr "次に、マップを終了します。"
 #: ../../build/doc/quickstart/geonode_quickstart.rst:189
 msgid ""
 "Right click on the *USA Population* layer and select *Zoom to layer extend*"
-msgstr "*USA Population*レイヤを右クリックして、 *Zoom to layer extend*を選択します。"
+msgstr "*USA Population* レイヤを右クリックして、 *Zoom to layer extend* を選択します。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:195
 msgid ""
@@ -283,13 +285,13 @@ msgstr "ズームやパンの設定など、必要に応じてマップの構成
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:197
 msgid "Click the *Map* button in the toolbar, and then click *Publish Map*."
-msgstr "ツールバーの *Map*ボタンをクリックし、*Publish Map*をクリックします。"
+msgstr "ツールバーの *Map* ボタンをクリックし、*Publish Map* をクリックします。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:203
 msgid ""
 "The title and abstract as previously created should still be there. Make any"
 " adjustments as necessary, and click *Save*."
-msgstr "前に作成したタイトルと要約が残っているはずです。必要に応じて調整し、 *Save*をクリックします。"
+msgstr "前に作成したタイトルと要約が残っているはずです。必要に応じて調整し、 *Save* をクリックします。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:205
 msgid ""
@@ -320,15 +322,16 @@ msgid ""
 "<https://docs.geonode.org/en/master/start/index.html#quick-installation-"
 "guide>`_ ."
 msgstr ""
-"GeoNodeを独自のサーバーにインストールするには、`クイックインストールガイド<https://docs.geonode.org/en/master/start/index.html"
-"#quick-installation-guide>`_に従ってください。"
+"GeoNodeを独自のサーバーにインストールするには、`クイックインストールガイド "
+"<https://docs.geonode.org/en/master/start/index.html#quick-installation-"
+"guide>`_ に従ってください。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:221
 msgid ""
 "In order to get started with GeoNode our `documentation "
 "<https://docs.geonode.org/en/master/>`_ might be useful."
 msgstr ""
-"GeoNodeを使用するには、`documentation<https://docs.geonode.org/en/master/>`_が便利です。"
+"GeoNodeを使用するには、`documentation <https://docs.geonode.org/en/master/>`_ が便利です。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:223
 msgid ""
@@ -340,7 +343,7 @@ msgid ""
 "users>`_ !"
 msgstr ""
 "ヘルプが必要な場合や、特定のトピックに関する情報を取得したい場合は、遠慮なくお問い合わせください。https://webchat.freenode.net/"
-" の #geonode IRCチャネルを使用したり、`GeoNode "
-"Gitterチャネル<https://gitter.im/GeoNode/general>`_ "
-"にアクセスしたり、または私たちの`メーリングリスト<https://lists.osgeo.org/cgi-bin/mailman/listinfo"
-"/geonode-users>`_!で質していただけます。問"
+" の #geonode IRCチャネルを使用したり、`GeoNode Gitterチャネル "
+"<https://gitter.im/GeoNode/general>`_ にアクセスしたり、または私たちの`メーリングリスト "
+"<https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users>`_ "
+"!で質していただけます。問"

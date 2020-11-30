@@ -6,6 +6,7 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:08-0500\n"
 "PO-Revision-Date: 2020-10-21 15:59+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,7 +39,7 @@ msgstr ""
 msgid ""
 "A complete beginner tutorial can be found on `localhost/geostyler "
 "<localhost/geostyler>`__."
-msgstr "完全な初心者向けチュートリアルは、`localhost/geostyler<localhost/geostyler>`__にあります。"
+msgstr "完全な初心者向けチュートリアルは、`localhost/geostyler <localhost/geostyler>`__ にあります。"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:22
 msgid ""
@@ -71,7 +72,7 @@ msgid ""
 "The most simple way to install GeoStyler is to use ``npm``. Simply run "
 "following command from your project root:"
 msgstr ""
-"GeoStylerをインストールする最も簡単な方法は、``npm``を使用することです。プロジェクトのルートから次のコマンドを実行するだけです。"
+"GeoStylerをインストールする最も簡単な方法は、``npm`` を使用することです。プロジェクトのルートから次のコマンドを実行するだけです。"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:41
 msgid ""
@@ -90,11 +91,11 @@ msgstr "GeoStylerを統合"
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:57
 msgid ""
 "Import the GeoStyler ``Style`` component into your application as follows:"
-msgstr "GeoStyler``Style``コンポーネントを次のようにアプリケーションにインポートします:"
+msgstr "GeoStyler ``Style`` コンポーネントを次のようにアプリケーションにインポートします:"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:63
 msgid "The ``Style`` component provides a variety of styling functionality."
-msgstr "``Style``コンポーネントは、さまざまなスタイリング機能を提供します。"
+msgstr "``Style`` コンポーネントは、さまざまなスタイリング機能を提供します。"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:65
 msgid "After importing, you can use it in your render method like this:"
@@ -102,7 +103,7 @@ msgstr "インポート後、レンダリングメソッドで次のように使
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:73
 msgid "The ``Style`` component should now be visible in the browser."
-msgstr "``Style``コンポーネントがブラウザに表示されます。"
+msgstr "``Style`` コンポーネントがブラウザに表示されます。"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:78
 msgid "Integrate geostyler-sld-parser"
@@ -113,8 +114,8 @@ msgid ""
 "To edit an existing SLD via GeoStyler, we first have to import and "
 "instantiate the ``geostyler-sld-parser``."
 msgstr ""
-"GeoStylerを使用して既存のSLDを編集するには、まず``geostyler-sld-"
-"parser``をインポートしてインスタンス化する必要があります。"
+"GeoStylerを使用して既存のSLDを編集するには、まず ``geostyler-sld-parser`` "
+"をインポートしてインスタンス化する必要があります。"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:87
 msgid ""
@@ -128,7 +129,8 @@ msgid ""
 "and pass it to our ``Style`` component. After defining ``myStyle`` as a "
 "state variable, you can use it as follows:"
 msgstr ""
-"このスタイルをUIに接続するには、状態変数に保存し、``Style``コンポーネントに渡す必要があります。``myStyle``を状態変数として定義すると、次のように使用できます。"
+"このスタイルをUIに接続するには、状態変数に保存し、``Style`` コンポーネントに渡す必要があります。``myStyle`` "
+"を状態変数として定義すると、次のように使用できます。"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:154
 msgid "The GeoStyler UI should now match the style that was defined as SLD."
@@ -140,8 +142,9 @@ msgid ""
 " ``writeStyle()`` method of the geostyler-sld-parser within the "
 "``onStyleChange()`` method of the ``Style`` component."
 msgstr ""
-"編集されたスタイルを``Style``コンポーネントからSLDとして取得するには、``Style``コンポーネントの``onStyleChange"
-"()``メソッド内でgeostyler-sld-parserの``writeStyle()``メソッドを使用できます。"
+"編集されたスタイルを``Style`` コンポーネントからSLDとして取得するには、``Style``コンポーネントの "
+"``onStyleChange()`` メソッド内でgeostyler-sld-parserの ``writeStyle()`` "
+"メソッドを使用できます。"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:199
 msgid "Things to try"
@@ -153,7 +156,8 @@ msgid ""
 "``Style`` component to the map, so that you can directly see the changes you"
 " made on the map."
 msgstr ""
-"次のステップとして、OpenLayersマップを追加し、``Style``コンポーネントをマップに接続して、マップ上で行った変更を直接見ることができます。"
+"次のステップとして、OpenLayersマップを追加し、``Style`` "
+"コンポーネントをマップに接続して、マップ上で行った変更を直接見ることができます。"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:205
 msgid "What next?"

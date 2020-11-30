@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2019-07-17 15:40+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -67,8 +68,8 @@ msgid ""
 " OpenLayers JavaScript libraries, and two CSS files used to style ExtJS and "
 "OpenLayers components."
 msgstr ""
-"次に下のHTMLに貼り付け、ファイルを``/var/www/html/geoext/demo.html``として保存します。このファイルには、ExtJSおよびOpenLayers"
-" "
+"次に下のHTMLに貼り付け、ファイルを ``/var/www/html/geoext/demo.html`` "
+"として保存します。このファイルには、ExtJSおよびOpenLayers "
 "JavaScriptライブラリへのリンクと、ExtJSおよびOpenLayersコンポーネントのスタイル設定に使用される2つのCSSファイルが含まれています。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:39
@@ -76,7 +77,8 @@ msgid ""
 "We will use the ``Ext.Loader`` class to load in GeoExt JavaScript source "
 "files. These are all in the ``src`` folder in ``/var/www/html/geoext/``."
 msgstr ""
-"``Ext.Loader``クラスを使用して、GeoExtのJavaScriptソースファイルをロードします。これらはすべて``/var/www/html/geoext/``の``src``フォルダにあります。"
+"``Ext.Loader``クラスを使用して、GeoExtのJavaScriptソースファイルをロードします。これらはすべて "
+"``/var/www/html/geoext/`` の ``src`` フォルダにあります。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:70
 msgid ""
@@ -92,9 +94,9 @@ msgid ""
 "``Ext.onReady`` function. Placing code here ensures the JavaScript libraries"
 " have been loaded before running any custom JavaScript code."
 msgstr ""
-"以下のセクションにあるすべてのJavaScriptは、``Ext.onReady``関数の``//all JavaScript application "
-"code should go "
-"here``コメントの後に貼り付ける必要があります。ここにコードを配置すると、カスタムJavaScriptコードを実行する前に、JavaScriptライブラリが確実にロードされます。"
+"以下のセクションにあるすべてのJavaScriptは、``Ext.onReady`` 関数の ``//all JavaScript "
+"application code should go here`` "
+"コメントの後に貼り付ける必要があります。ここにコードを配置すると、カスタムJavaScriptコードを実行する前に、JavaScriptライブラリが確実にロードされます。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:76
 msgid "Configure OpenLayers objects"
@@ -145,7 +147,8 @@ msgid ""
 "OpenLayers map we created, and will be positioned in the 'center' region of "
 "our application."
 msgstr ""
-"まず、``GeoExt.component.Map``を作成します。これは、作成したOpenLayersマップを使用し、アプリケーションの``中央``領域に配置されます。"
+"まず、``GeoExt.component.Map`` "
+"を作成します。これは、作成したOpenLayersマップを使用し、アプリケーションの``中央``領域に配置されます。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:169
 msgid ""
@@ -156,7 +159,9 @@ msgid ""
 "changed by dragging and dropping the layers. The ``flex`` property causes "
 "the tree panel to fill up all available space in its region of the screen."
 msgstr ""
-"次に、画層ツリーコンポーネントを作成します。ツリーには独自のデータストア``GeoExt.data.store.LayersTree``があり、OpenLayersマップのレイヤで埋めます。このストアは、ツリー・パネルへの入力に使用されます。また、ツリーにプラグインを追加して、レイヤをドラッグアンドドロップして地図レイヤの順序を変更できるようにします。``flex``プロパティーを指定すると、ツリー・パネルは画面の領域内の使用可能なスペースをすべて埋めます。"
+"次に、画層ツリーコンポーネントを作成します。ツリーには独自のデータストア ``GeoExt.data.store.LayersTree` "
+"`があり、OpenLayersマップのレイヤで埋めます。このストアは、ツリー・パネルへの入力に使用されます。また、ツリーにプラグインを追加して、レイヤをドラッグアンドドロップして地図レイヤの順序を変更できるようにします。``flex``"
+" プロパティーを指定すると、ツリー・パネルは画面の領域内の使用可能なスペースをすべて埋めます。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:191
 msgid ""
@@ -164,7 +169,8 @@ msgid ""
 "features in our WFS layer. Similar to the layer tree store and tree panel, "
 "we create a ``GeoExt.data.store.Features`` store and a grid panel."
 msgstr ""
-"また、WFSレイヤのフィーチャの属性を表示するグリッドコンポーネントを作成します。レイヤーツリーストアとツリーパネルと同様に、``GeoExt.data.store.Features``ストアとグリッドパネルを作成します。"
+"また、WFSレイヤのフィーチャの属性を表示するグリッドコンポーネントを作成します。レイヤーツリーストアとツリーパネルと同様に、``GeoExt.data.store.Features``"
+" ストアとグリッドパネルを作成します。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:221
 msgid ""
@@ -172,7 +178,8 @@ msgid ""
 "``GeoExt.component.OverviewMap``. We will configure this to display the "
 "OpenStreetMap layer we created earlier, and place it in an ExtJS panel."
 msgstr ""
-"我々の最後のGeoExtコンポーネントは概観地図-``GeoExt.componnet.OverviewMap``である。先ほど作成したOpenStreetMapレイヤーを表示するように設定し、ExtJSパネルに配置します。"
+"我々の最後のGeoExtコンポーネントは概観地図-``GeoExt.componnet.OverviewMap`` "
+"である。先ほど作成したOpenStreetMapレイヤーを表示するように設定し、ExtJSパネルに配置します。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:242
 msgid "Create a viewport"
@@ -204,20 +211,22 @@ msgid ""
 "`API documentation <https://geoext.github.io/geoext3/v3.1.0/docs>`_ and "
 "examples"
 msgstr ""
-"`GeoExtのホームページ<https://geoext.github.io/geoext3/>`_には完全な`APIドキュメント<https://geoext.github.io/geoext3/v3.1.0/docs>`_と例があります。"
+"`GeoExtのホームページ <https://geoext.github.io/geoext3/>`_ には完全な `APIドキュメント "
+"<https://geoext.github.io/geoext3/v3.1.0/docs>`_ と例があります。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:277
 msgid ""
 "A `GeoExt workshop <https://github.com/geoext/geoext3-ws>`_ details all the "
 "steps for configuring and using GeoExt3 in your ExtJS applications"
 msgstr ""
-"`GeoExtワークショップ<https://github.com/geoext/GeoExt3-ws>`_では、ExtJSアプリケーションでGeoExt3を設定および使用するためのすべての手順について詳しく説明しています。"
+"`GeoExtワークショップ <https://github.com/geoext/geoext3-ws>`_ "
+"では、ExtJSアプリケーションでGeoExt3を設定および使用するためのすべての手順について詳しく説明しています。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:279
 msgid ""
 "The `OpenLayers v4.6.5 API docs <https://openlayers.org/en/v4.6.5/apidoc>`_"
 msgstr ""
-"`OpenLayers v4.6.5 APIドキュメント <https://openlayers.org/en/v4.6.5/apidoc>`_"
+"`OpenLayers v4.6.5 APIド キュメント <https://openlayers.org/en/v4.6.5/apidoc>`_"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:280
 msgid "The `ExtJS 6.2.0 API docs <https://docs.sencha.com/extjs/6.2.0/>`_"

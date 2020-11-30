@@ -6,6 +6,7 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,8 +60,8 @@ msgid ""
 "From the desktop, choose :menuselection:`Navigation and Maps --> JOSM`. When"
 " JOSM starts, it will look something like this:"
 msgstr ""
-"デスクトップから:menuselection:`Navigation and "
-"Maps-->JOSM`を選択します。JOSMが始まると、次のようになります。"
+"デスクトップから :menuselection:`Navigation and Maps-->JOSM` "
+"を選択します。JOSMが始まると、次のようになります。"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:41
 msgid "Load a sample (ficticious) map"
@@ -92,7 +93,7 @@ msgstr "次に、JOSMでサンプルの地図を開きます。JOSMの左上に�
 msgid ""
 "Find the file **sample.osm**. It is probably in your Downloads folder, "
 "unless you saved it somewhere else."
-msgstr "**sample.osm**ファイルを探します。別の場所に保存していない限り、通常はDownloadsフォルダにあります。"
+msgstr "**sample.osm** ファイルを探します。別の場所に保存していない限り、通常はDownloadsフォルダにあります。"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:56
 msgid ""
@@ -184,8 +185,8 @@ msgid ""
 "it begins."
 msgstr ""
 "地図には基本的に、ポイント・ライン・シェイプという3つのタイプのオブジェクトしかない、とかんがえるととてもシンプルです。これから先、OpenStreetMapについて調べてゆくと、これらを別の単語で表現していることがあります。"
-" ポイントは実際には ノード(node) と呼ばれ、ラインは ウェイ "
-"と呼ばれます。シェイプは、データ上では始点と終点が同一の地点にあるだけのウェイなので 閉じたウェイ(closed way) と呼ばれます。"
+" ポイントは実際には ノード と呼ばれ、ラインは ウェイ と呼ばれます。シェイプは、データ上では始点と終点が同一の地点にあるだけのウェイなので "
+"閉じたウェイ(closed way) と呼ばれます。"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:114
 msgid ""

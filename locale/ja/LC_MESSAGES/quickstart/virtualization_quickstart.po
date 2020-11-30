@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -87,7 +88,8 @@ msgid ""
 "want more space to allow some room to work on the virtual machine. So 20 GB "
 "is a good recommendation."
 msgstr ""
-"ハードディスクの空き容量:doc:`live.osgeo.org<./download>`の仮想ディスクファイル(vmdk)は、ほぼ10GBに解凍されます。また、仮想マシン上で作業できるスペースを確保するために、より多くのスペースが必要になります。したがって、20GBが推奨されます。"
+"ハードディスクの空き容量 :doc:`live.osgeo.org <../download>`  "
+"の仮想ディスクファイル(vmdk)は、ほぼ10GBに解凍されます。また、仮想マシン上で作業できるスペースを確保するために、より多くのスペースが必要になります。したがって、20GBが推奨されます。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:33
 msgid ""
@@ -96,7 +98,8 @@ msgid ""
 "<https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html>`__."
 msgstr ""
 "CPU: どのCPUでもかまいませんが、\"Virtualization "
-"Technology\"をサポートの方が高速です。あなたのコンピュータのCPUはここ<https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html>で確認できます。"
+"Technology\"をサポートの方が高速です。あなたのコンピュータのCPUは`ここ<https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html>_"
+" で確認できます。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:35
 msgid ""
@@ -117,8 +120,8 @@ msgid ""
 "and install the software. On Windows run the installer, or on Ubuntu-like "
 "Linux systems do the following:"
 msgstr ""
-"`Virtual "
-"Box<https://www.virtualbox.org/><https://www.virtualbox.org/>`_をダウンロードし、ソフトウェアをインストールしてください。Windowsでインストーラを実行するか、UbuntuのようなLinuxシステムで次の操作を行います。"
+"`Virtual Box <https://www.virtualbox.org/>`_  "
+"をダウンロードし、ソフトウェアをインストールしてください。Windowsでインストーラを実行するか、UbuntuのようなLinuxシステムで次の操作を行います。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:44
 msgid "``apt-get install virtualbox-ose``"
@@ -131,9 +134,10 @@ msgid ""
 "machine\" button. Then unzip the downloaded file (using `7zip "
 "<https://www.7-zip.org>`_ )."
 msgstr ""
-"さらに、doc:`live.osgeo.org<../download>`からOSGeo仮想ディスクファイル(vmdk)をダウンロードします。「Download"
-" virtual "
-"machine(仮想マシンのダウンロード)」ボタンをクリックします。次に、ダウンロードしたファイルを解凍します(`7zip<https://www7-zip.org>`_)。"
+"さらに、:doc:`live.osgeo.org<../download>` "
+"からOSGeo仮想ディスクファイル(vmdk)をダウンロードします。「Download virtual "
+"machine(仮想マシンのダウンロード)」ボタンをクリックします。次に、ダウンロードしたファイルを解凍します(`7zip "
+"<https://www.7-zip.org>`_ )。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:50
 msgid "**Create a Virtual Machine**"
@@ -296,7 +300,7 @@ msgid ""
 "`Other ways to create a Virtual Machine "
 "<https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
 msgstr ""
-"`仮想マシンを作成するその他の方法<https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
+"`仮想マシンを作成するその他の方法 <https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:123
 msgid ":doc:`osgeolive_quickstart`"

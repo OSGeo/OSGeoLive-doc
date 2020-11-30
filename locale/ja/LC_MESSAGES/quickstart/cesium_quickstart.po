@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -95,12 +96,12 @@ msgid ""
 "Watch our `video tutorials <https://www.youtube.com/playlist?list=PLBk_Dtk-"
 "_Tlm4STvXKFEdfUWylPemo-9V>`_."
 msgstr ""
-"`ビデオチュートリアル<https://www.youtube.com/playlist?list=PLBk_Dtk - "
-"_Tlm4STvXKFEdfUWylPemo-9V>`_をご覧ください。"
+"`ビデオチュートリアル <https://www.youtube.com/playlist?list=PLBk_Dtk-"
+"_Tlm4STvXKFEdfUWylPemo-9V>`_ をご覧ください。"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:68
 msgid "Read our written `tutorials <https://cesium.com/docs>`_."
-msgstr "`チュートリアル<https://cesium.com/docs>`_をお読みください。"
+msgstr "`チュートリアル <https://cesium.com/docs>`_ をお読みください。"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:70
 msgid ""
@@ -109,8 +110,8 @@ msgid ""
 " the best ways to learn about Cesium, and all the code examples are useful "
 "for this purpose."
 msgstr ""
-"`Sandcastle "
-"Webサイト<https://sandcastle.cesium.com/index.html>`_を使用して、いくつかのクイックアプリケーションを開発できます。Sandcastleは一般的にCesiumについて学ぶ最良の方法の1つであり、すべてのコード例がこの目的に役立ちます。"
+"`Sandcastle Webサイト <https://sandcastle.cesium.com/index.html>`_ "
+"を使用して、いくつかのクイックアプリケーションを開発できます。Sandcastleは一般的にCesiumについて学ぶ最良の方法の1つであり、すべてのコード例がこの目的に役立ちます。"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:72
 msgid ""
@@ -118,12 +119,12 @@ msgid ""
 "a great place to search for answers to common questions, and to raise "
 "questions that haven't been asked before."
 msgstr ""
-"`Cesium Forum<https://groups.google.com/forum/#!forum/cesium-"
-"dev>`_は、一般的な質問に対する回答を検索したり、これまでに質問されたことのない質問を提起したりするのに最適な場所です。"
+"`Cesium Forum <https://groups.google.com/forum/#!forum/cesium-dev>`_ "
+"は、一般的な質問に対する回答を検索したり、これまでに質問されたことのない質問を提起したりするのに最適な場所です。"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:74
 msgid ""
 "In-depth documentation is available `locally <http://localhost/cesium/>`_ on"
 " the OSGeoLive package."
 msgstr ""
-"詳細なドキュメントは、OSGeoLiveパッケージの`locally<http://localhost/cesium/>`_で入手できます。"
+"詳細なドキュメントは、OSGeoLiveパッケージの`locally <http://localhost/cesium/>`_で入手できます。"

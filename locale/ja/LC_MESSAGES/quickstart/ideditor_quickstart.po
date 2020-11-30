@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,7 +60,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:40
 msgid "**Login** using your OpenStreetMap account."
-msgstr "OpenStreetMapアカウントを使用して**ログイン**します。"
+msgstr "OpenStreetMapアカウントを使用して **ログイン** します。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:41
 msgid ""
@@ -71,11 +72,11 @@ msgstr "編集する領域にマップを画面移動およびズームします
 msgid ""
 "Click on the small arrow next to **Edit**, then click **Edit with iD (in-"
 "browser editor)**."
-msgstr "**[編集]**の横の小さな矢印をクリックし、[**iD編集(ブラウザ内エディタ)**]をクリックします。"
+msgstr "**[編集]** の横の小さな矢印をクリックし、[**iD編集(ブラウザ内エディタ)**]をクリックします。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:52
 msgid "[1] **Edit Feature Panel:** This panel shows tags from the object"
-msgstr "[1]**[フィーチャ編集]パネル:**このパネルにはオブジェクトのタグが表示されます"
+msgstr "[1] **[フィーチャ編集]パネル:** このパネルにはオブジェクトのタグが表示されます"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:52
 msgid "selected on the map. You can add or edit tags from this panel."
@@ -83,16 +84,16 @@ msgstr "マップ上で選択されています。このパネルからタグを
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:54
 msgid "[2] **Tools:** This panel shows basic editing tools."
-msgstr "[2]**ツール:**このパネルには、基本的な編集ツールが表示されます。"
+msgstr "[2] **ツール:** このパネルには、基本的な編集ツールが表示されます。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:56
 msgid "[3] **Map panel:** This panel show various configuration functions."
-msgstr "[3]**Mapパネル:**このパネルには、さまざまな設定機能が表示されます。"
+msgstr "[3] **Mapパネル:** このパネルには、さまざまな設定機能が表示されます。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:59
 msgid ""
 "[4] **Information panel:** This panel shows various information, such as"
-msgstr "[4]**情報パネル:**このパネルには、次のようなさまざまな情報が表示されます。"
+msgstr "[4]** 情報パネル:** このパネルには、次のようなさまざまな情報が表示されます。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:59
 msgid "the scale bar and which users have contributed to the area."
@@ -106,7 +107,7 @@ msgstr "背景レイヤーの設定"
 msgid ""
 "Click the **Background settings** button or use the *shortcut key* **b**. "
 "|image14|"
-msgstr "**背景設定**ボタンをクリックするか、*ショートカットキー***b**を使用します。|image14|"
+msgstr "**背景設定** ボタンをクリックするか、*ショートカットキー* **b** を使用します。|image14|"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:67
 msgid "|image15|"
@@ -117,13 +118,14 @@ msgid ""
 "To change the **brightness level** click one of these boxes, the levels are "
 "100%, 75%, 50%, and 25% |image16|"
 msgstr ""
-"**輝度レベル**を変更するには、これらのボックスの1つをクリックします。レベルは、100%、75%、50%、および25%の|image16|です。"
+"**輝度レベル** を変更するには、これらのボックスの1つをクリックします。レベルは、100%、75%、50%、および25%の|image16|です。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:72
 msgid ""
 "You also can **change the background layer** based on your desired tile "
 "provider (the default is Bing Aerial Imagery)."
-msgstr "また、目的のタイルプロバイダに基づいて**背景レイヤーを変更する**こともできます(デフォルトはBing Aerial Imagery)。"
+msgstr ""
+"また、目的のタイルプロバイダに基づいて** 背景レイヤーを変更する** こともできます(デフォルトはBing Aerial Imagery)。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:74
 msgid ""
@@ -131,8 +133,8 @@ msgid ""
 "you want to **add a Field Paper**  [1], click **Custom** then   click on the"
 " magnifying glass (search) icon to open the following window:"
 msgstr ""
-"**Custom**をクリックすると、独自のマップタイルを追加できます。たとえば、Field "
-"Paper**[1]を**追加する場合は、**Custom**をクリックし、虫眼鏡(検索)アイコンをクリックして次のウィンドウを開きます。"
+"**Custom** をクリックすると、独自のマップタイルを追加できます。たとえば、**Field Paper [1] を** "
+"追加する場合は、**Custom** をクリックし、虫眼鏡(検索)アイコンをクリックして次のウィンドウを開きます。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:76
 msgid "|image17|"
@@ -143,14 +145,15 @@ msgid ""
 "Enter your **FieldPaper snapshot URL**, which will be something like this: "
 "http://fieldpapers.org/snapshots/cqhmf2v9#18/37.80593/-122.22715"
 msgstr ""
-"**FieldPaperのスナップショットURL**を入力します。次のようになります。http://fieldpapers.org/snapshots/cqhmf2v9#18/37.80593/-122.22715"
+"**FieldPaperのスナップショットURL** "
+"を入力します。次のようになります。http://fieldpapers.org/snapshots/cqhmf2v9#18/37.80593/-122.22715"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:81
 msgid ""
 "To **display GPS tracks from your computer** (GPX format), drag and drop the"
 " GPX file into iD editor."
 msgstr ""
-"**お使いのコンピュータからGPSトラックを表示**(GPXフォーマット)するには、GPXファイルをiDエディタにドラッグ&ドロップします。"
+"**お使いのコンピュータからGPSトラック** を表示**(GPXフォーマット)するには、GPXファイルをiDエディタにドラッグ&ドロップします。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:83
 msgid ""
@@ -158,8 +161,8 @@ msgid ""
 " public GPS traces are shown in various colors, indicating the direction of "
 "travel."
 msgstr ""
-"**OpenStreetMap "
-"GPSトレース**を有効にするには、ボックスをクリックします。下のイメージでは、公共のGPS追跡がさまざまな色で表示され、進行方向を示しています。"
+"**OpenStreetMap GPSトレース** "
+"を有効にするには、ボックスをクリックします。下のイメージでは、公共のGPS追跡がさまざまな色で表示され、進行方向を示しています。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:85
 msgid "|osm gps traces|"
@@ -170,8 +173,8 @@ msgid ""
 "If there is `imagery offset </en/josm/aerial-imagery>`__, you can **correct "
 "the imagery offset** by clicking **Fix Alignment**."
 msgstr ""
-"`imagery offset</en/josm/aerial-imagery>`__がある場合は、**Fix "
-"Alignment**をクリックして**image offset**を修正できます。"
+"`imagery offset </en/josm/aerial-imagery>`__ がある場合は、**Fix Alignment** "
+"をクリックして **image offset** を修正できます。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:89
 msgid "|image18|"
@@ -210,8 +213,8 @@ msgid ""
 "change to show a form where you can select attributes for the object. Click "
 "**Hospital Grounds** to tag the point as a hospital."
 msgstr ""
-"新しい点が追加されます。同時に、左側のパネルが変わり、オブジェクトの属性を選択できるフォームが表示されます。**Hospital "
-"Grounds**をクリックして、ポイントに病院のタグを付けます。"
+"新しい点が追加されます。同時に、左側のパネルが変わり、オブジェクトの属性を選択できるフォームが表示されます。**Hospital Grounds** "
+"をクリックして、ポイントに病院のタグを付けます。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:110
 msgid "|image22|"
@@ -248,7 +251,7 @@ msgstr "線の描画"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:129
 msgid "To add a new line, click on the **Line** button. |image4|"
-msgstr "新しいラインを追加するには、**ライン**ボタンをクリックします。|image4|"
+msgstr "新しいラインを追加するには、**ライン** ボタンをクリックします。|image4|"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:131
 msgid ""
@@ -277,7 +280,7 @@ msgstr "ポイント上でマウスの左ボタンをクリックしてドラッ
 msgid ""
 "You also can move the whole line by selecting it, and choosing the **Move "
 "tool**. Then drag the line to a new position. |image30|"
-msgstr "ライン全体を移動するには、ラインを選択して**移動ツール**を選択します。次に、ラインを新しい位置にドラッグします。|image30|"
+msgstr "ライン全体を移動するには、ラインを選択して **移動ツール** を選択します。次に、ラインを新しい位置にドラッグします。|image30|"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:144
 msgid ""
@@ -342,7 +345,7 @@ msgid ""
 "should be deleted, consider asking the original mapper or one of the OSM "
 "email lists about it first."
 msgstr ""
-"**削除**に関する特記事項: "
+"**削除** に関する特記事項: "
 "一般的に、改善が必要な場合は、他のユーザのマッピングを削除しないようにしてください。自分の間違いを削除することもできますが、変更が必要な場合は、他のユーザのマッピングされたオブジェクトを*調整*してみてください。これにより、OSMデータベース内のアイテムの履歴が保持され、他のマッパーにも配慮されます。削除する必要があると本当に感じている場合は、最初に元のマッパーまたはOSM電子メールリストのいずれかに問い合わせてみてください。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:175
@@ -351,7 +354,7 @@ msgstr "シェイプ(ポリゴン)を描画する"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:177
 msgid "To add a new multi-sided shape, click on the **Area** button."
-msgstr "新しい多辺形状を追加するには、**領域**ボタンをクリックします。"
+msgstr "新しい多辺形状を追加するには、**領域** ボタンをクリックします。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:179
 msgid "|image34|"
@@ -394,7 +397,8 @@ msgid ""
 "contours and hit **c** in order to combine them into what is called a "
 "multipolygon."
 msgstr ""
-"外部輪郭だけでなく、1つまたは複数の内部輪郭を持つポリゴンを描画する必要がある場合があります。中庭のある建物や島のある湖を思い浮かべてください*これらのすべての方法を1本の線で描画しないでください*。内側の輪郭線が外側の輪郭線から一時停止します。むしろ、これらの等高線を別々に描き、外側の等高線のみにタグを付け、すべての等高線を選択して**c**を押し、それらをいわゆるマルチポリゴンに結合します。"
+"外部輪郭だけでなく、1つまたは複数の内部輪郭を持つポリゴンを描画する必要がある場合があります。中庭のある建物や島のある湖を思い浮かべてください*これらのすべての方法を1本の線で描画しないでください*。内側の輪郭線が外側の輪郭線から一時停止します。むしろ、これらの等高線を別々に描き、外側の等高線のみにタグを付け、すべての等高線を選択して"
+" **c** を押し、それらをいわゆるマルチポリゴンに結合します。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:206
 msgid ""
@@ -419,7 +423,7 @@ msgstr "|image36|"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:221
 msgid "Enter a comment about your edits and click **Save**."
-msgstr "編集内容についてのコメントを入力し、**保存**をクリックします。"
+msgstr "編集内容についてのコメントを入力し、**保存** をクリックします。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:223
 msgid ""
@@ -431,7 +435,7 @@ msgid ""
 "return to the feature in question and edit again (**this time save soon "
 "after the edit to try to avoid a conflict again!**).*"
 msgstr ""
-"他のユーザが編集していたのと同時に同じフィーチャ(点、経路、または領域)を編集した場合は、**衝突**を解決するまで編集をアップロードできないという警告が表示されます。変更を受け入れてアップロードする編集を選択してください。*コンフリクトを解決するには、多くの場合、他のユーザによる編集を受け入れる必要があります。その場合は、問題のフィーチャーに戻って再度編集することをお勧めします(**今回は編集後すぐに保存して、再度コンフリクトを回避します!**)。*"
+"他のユーザが編集していたのと同時に同じフィーチャ(点、経路、または領域)を編集した場合は、**衝突**を解決するまで編集をアップロードできないという警告が表示されます。変更を受け入れてアップロードする編集を選択してください。**コンフリクト**を解決するには、多くの場合、他のユーザによる編集を受け入れる必要があります。その場合は、問題のフィーチャーに戻って再度編集することをお勧めします(**今回は編集後すぐに保存して、再度コンフリクトを回避します!**)。*"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:233
 msgid "Add additional information and custom tags"
@@ -474,7 +478,7 @@ msgstr "Wikipediaリンクを追加 |image43|"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:247
 msgid "Or, you can add custom tags by clicking **All tags**. |image44|"
-msgstr "または、カスタムタグを **全タグ**をクリックして追加。|image44|"
+msgstr "または、カスタムタグを **全タグ** をクリックして追加。|image44|"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:249
 msgid "This will show all the tags attached to the feature."

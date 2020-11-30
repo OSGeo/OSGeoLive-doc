@@ -6,6 +6,7 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -78,7 +79,8 @@ msgid ""
 " visualize the results, you can use one of the Desktop GIS Software "
 "applications on OSGeoLive like :doc:`../overview/qgis_overview`."
 msgstr ""
-"このクイックスタートに必要なのはターミナルだけです。結果を視覚化する場合は、OSGeoLiveのデスクトップGISソフトウェアアプリケーションの1つである:doc:`../overview/qgis_overview`を使用できます。"
+"このクイックスタートに必要なのはターミナルだけです。結果を視覚化する場合は、OSGeoLiveのデスクトップGISソフトウェアアプリケーションの1つである"
+" :doc:`../overview/qgis_overview` を使用できます。"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:49
 msgid "Get to know GDAL"
@@ -92,8 +94,9 @@ msgid ""
 "with a copy of the data. So the first step is to copy the data to your home "
 "directory."
 msgstr ""
-"デモデータは:file:`/usr/local/share/data`にあります。このクイックスタートの:doc:`Natural "
-"Earthデータ<./overview/naturalearth_overview>`を見てみましょう。データのコピーを操作します。したがって、最初のステップは、データをホームディレクトリにコピーすることです。"
+"デモデータは :file:`/usr/local/share/data` にあります。このクイックスタートの :doc:`Natural "
+"Earthデータ<../overview/naturalearth_overview>` "
+"を見てみましょう。データのコピーを操作します。したがって、最初のステップは、データをホームディレクトリにコピーすることです。"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:62
 msgid ""
@@ -141,7 +144,8 @@ msgid ""
 "First get to know your drivers. The `--formats` commandline switch of "
 "gdal_translate can be used to see a list of available format drivers."
 msgstr ""
-"まずドライバーについて知りましょう。gdal_translateの`--formats`コマンドラインスイッチを使用すると、利用可能なフォーマットドライバの一覧を表示できます。"
+"まずドライバーについて知りましょう。gdal_translateの `--formats` "
+"コマンドラインスイッチを使用すると、利用可能なフォーマットドライバの一覧を表示できます。"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:118
 msgid "Each format reports if it is"
@@ -164,7 +168,8 @@ msgid ""
 "The `--format` commandline switch can be used to query details about a "
 "particular driver, including creation options, and permitted data types."
 msgstr ""
-"`--format`コマンドラインスイッチを使用すると、特定のドライバについて、作成オプションや許可されたデータ型などを含めて詳細に問い合わせることができます。"
+"`--format` "
+"コマンドラインスイッチを使用すると、特定のドライバについて、作成オプションや許可されたデータ型などを含めて詳細に問い合わせることができます。"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:133
 msgid "Translation"
@@ -176,11 +181,12 @@ msgid ""
 "output format is GeoTIFF.  The `-of` flag is used to select an output format"
 " and the -co flag is used to specify a creation option:"
 msgstr ""
-"変換はgdal_translateコマンドで行います。既定の出力形式はGeoTIFFです。`-of`フラグは出力フォーマットの選択に使用され、-coフラグは作成オプションの指定に使用されます。"
+"変換はgdal_translateコマンドで行います。既定の出力形式はGeoTIFFです。`-of` "
+"フラグは出力フォーマットの選択に使用され、-coフラグは作成オプションの指定に使用されます。"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:143
 msgid "The `-ot` switch can be used to alter the output data type."
-msgstr "`-ot`スイッチを使用して、出力データ型を変更できます。"
+msgstr "`-ot` スイッチを使用して、出力データ型を変更できます。"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:149
 msgid "Use gdalinfo to verify data type."
@@ -204,7 +210,8 @@ msgid ""
 "input and output ranges is also available. The gdalinfo `-mm` switch can be "
 "used to see pixel min/max values."
 msgstr ""
-"`-scale`スイッチは、データの再スケールに使用できます。入力および出力範囲の明示的な制御も可能です。gdalinfo`-mm`スイッチを使用して、ピクセルの最小値/最大値を表示できます。"
+"`-scale` スイッチは、データの再スケールに使用できます。入力および出力範囲の明示的な制御も可能です。gdalinfo `-mm` "
+"スイッチを使用して、ピクセルの最小値/最大値を表示できます。"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:167
 msgid ""
@@ -212,8 +219,8 @@ msgid ""
 "pixel/line location (xoff yoff xsize ysize). You also could use `-projwin` "
 "and define the corners in georeferenced coordinates (ulx uly lrx lry)."
 msgstr ""
-"ピクセル/ラインの位置に基づいてコピーを作成する`-srcwin`を使用して、イメージを2つに分割してみましょう(xoff yoff xsize "
-"ysize)。`-projwin`を使用して、地理参照座標(ulx uly lrx lry)でコーナーを定義することもできます。"
+"ピクセル/ラインの位置に基づいてコピーを作成する`-srcwin` を使用して、イメージを2つに分割してみましょう(xoff yoff xsize "
+"ysize)。`-projwin` を使用して、地理参照座標(ulx uly lrx lry)でコーナーを定義することもできます。"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:179
 msgid "Raster tileindex with gdaltindex"
@@ -305,7 +312,7 @@ msgstr "ogrinfoでベクタデータに関する情報を取得する"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:310
 msgid "Get a summary about your data with ogrinfo together with `-so`."
-msgstr "ogrinfoに`-so`を付けて、データの概要を表示します。"
+msgstr "ogrinfoに `-so` を付けて、データの概要を表示します。"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:393
 msgid ""
@@ -323,7 +330,7 @@ msgstr "ogrinfoの結果をgrepに転送して、COUNTRY属性だけをフィル
 msgid ""
 "You can convert your data to other formats. Get the list of the supported "
 "formats with `--formats`."
-msgstr "データを他の形式に変換できます。対応フォーマットの一覧を`--formats`で取得します。"
+msgstr "データを他の形式に変換できます。対応フォーマットの一覧を `--formats` で取得します。"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:420
 msgid "Use ogr2ogr to convert data between file formats"
@@ -335,7 +342,8 @@ msgid ""
 "You can use `--formats` to get the list of the supported formats with "
 "read/write information."
 msgstr ""
-"ogr2ogrを使用して、ファイルフォーマット間で簡単なフィーチャデータを変換できます。`--formats`を使用して、読み書き可能な情報を持つ対応フォーマットの一覧を取得できます。"
+"ogr2ogrを使用して、ファイルフォーマット間で簡単なフィーチャデータを変換できます。`--formats` "
+"を使用して、読み書き可能な情報を持つ対応フォーマットの一覧を取得できます。"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:426
 msgid "Convert the countries to GML."

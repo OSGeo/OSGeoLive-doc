@@ -6,6 +6,7 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,9 +34,8 @@ msgid ""
 "data from LiDAR sensors and by LiDAR processing software for data "
 "interchange and archival."
 msgstr ""
-"ibLAS は一般的な `LAS` `LiDAR`_ フォーマットを読み書きするための C/C++ ライブラリです。 。`ASPRS LAS "
-"format`_ は LiDAR センサや LiDAR "
-"処理ソフトウェアがデータの保存、交換，アーカイブに使用しているシーケンシャルなバイナリフォーマットです。"
+"ibLAS は一般的な LAS LiDAR フォーマットを読み書きするための C/C++ ライブラリです。 ASPRS LAS format は "
+"LiDAR センサや LiDAR 処理ソフトウェアがデータの保存、交換，アーカイブに使用しているシーケンシャルなバイナリフォーマットです。"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:22
 msgid ""
@@ -64,7 +64,8 @@ msgid ""
 " those tasks. The demo data can be found in "
 ":file:`/home/user/data/las/srs.las`"
 msgstr ""
-"libLASの「コマンドライン・ユーティリティー」は、libLAS用のユーザー向けの操作ソフトウェアの大部分を提供していますが、基礎となるlibLAS・ライブラリーがその原動力となっています。以下は、LASデータに対して実行する一般的な操作と、これらのタスクを実行するために使用するユーティリティとアプローチの一覧です。デモデータは、ファイル`/home/user/data/las/srs.las`にあります。"
+"libLASの「コマンドライン・ユーティリティー」は、libLAS用のユーザー向けの操作ソフトウェアの大部分を提供していますが、基礎となるlibLAS・ライブラリーがその原動力となっています。以下は、LASデータに対して実行する一般的な操作と、これらのタスクを実行するために使用するユーティリティとアプローチの一覧です。デモデータは、:file:`/home/user/data/las/srs.las`"
+" にあります。"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:37
 msgid "Reprojecting an LAS file"
@@ -79,7 +80,7 @@ msgid ""
 "systems in https://spatialreference.org."
 msgstr ""
 "その座標系がLASファイルに記述されていない場合でも、すべてのLASデータはある種の座標系にあります。 地上LASデータの場合、これらの座標系の記述は、"
-" `EPSG`_データベースによって記述された座標系にマップされることがよくあります。 https://spatialreference.org "
+" `EPSG`_ データベースによって記述された座標系にマップされることがよくあります。 https://spatialreference.org "
 "の座標系に関する別の情報源。"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:52
@@ -97,20 +98,20 @@ msgstr ""
 msgid ""
 "Our 'lasinfo' invocation tells us that the ``srs.las`` file is in a UTM "
 "North Zone 17 coordinate system:"
-msgstr "`lasinfo`を呼び出すと``srs.las``ファイルがUTM North Zone 17座標系にあることがわかります。"
+msgstr "'lasinfo' を呼び出すと ``srs.las`` ファイルがUTM North Zone 17座標系にあることがわかります。"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:82
 msgid ""
 "Now that we know our input coordinate system, we can make a decision about "
 "what to reproject the data to.  In our first example, we're going to use the"
 " venerable plate carrée non-coordinate system, `EPSG:4326`_."
-msgstr "入力座標系がわかったので、データの再投影先を決定できます。最初の例では、由緒ある 経緯度座標系の `EPSG:4326`_を使用します。"
+msgstr "入力座標系がわかったので、データの再投影先を決定できます。最初の例では、由緒ある 経緯度座標系の `EPSG:4326`_ を使用します。"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:90
 msgid ""
 "Our process succeeds, but after a quick inspection of the data with "
 "``lasinfo output.las`` we see a problem:"
-msgstr "私たちのプロセスは成功しましたが、``lasinfo output.las``を使ってデータを調べたところ、問題がありました。"
+msgstr "私たちのプロセスは成功しましたが、``lasinfo output.las`` を使ってデータを調べたところ、問題がありました。"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:102
 msgid ""
@@ -128,7 +129,7 @@ msgstr ""
 msgid ""
 "Another quick inspection with 'lasinfo' gives us something we're more "
 "comfortable with:"
-msgstr "`lasinfo`で更なる簡単な調査をすることで、快適な作業を提供してくれます。"
+msgstr "'lasinfo'で更なる簡単な調査をすることで、快適な作業を提供してくれます。"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:127
 msgid "Output LAS file to text"

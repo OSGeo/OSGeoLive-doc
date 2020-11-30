@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,7 +48,7 @@ msgstr ""
 msgid ""
 "Select your preferred language and click :guilabel:`OK`. The program opens "
 "and you are presented with a map of the world."
-msgstr "使用する言語を選択し、:guilabel:`OK`をクリックします。プログラムが開き、世界のマップが表示されます。"
+msgstr "使用する言語を選択し、:guilabel:`OK` をクリックします。プログラムが開き、世界のマップが表示されます。"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:30
 msgid ""
@@ -94,12 +95,12 @@ msgid ""
 "Select :menuselection:`File --> Download GRIB` and select the features you "
 "want to download. If in doubt, accept the defaults."
 msgstr ""
-":menuselection:`File-->Download "
-"GRIB`を選択し、ダウンロードしたい地物を選択します。よくわからない場合は、デフォルトを受け入れてください。"
+":menuselection:`File-->Download GRIB` "
+"を選択し、ダウンロードしたい地物を選択します。よくわからない場合は、デフォルトを受け入れてください。"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:43
 msgid "When ready click the ``Download`` button, and save the file to disk."
-msgstr "準備ができたら、``Download``ボタンをクリックし、ファイルをディスクに保存します。"
+msgstr "準備ができたら、``Download`` ボタンをクリックし、ファイルをディスクに保存します。"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:45
 msgid ""
@@ -131,8 +132,8 @@ msgid ""
 "select :menuselection:`Weather map --> Cloud cover` and the view should "
 "change."
 msgstr ""
-"``Weather map``メニューから、視覚化する変数を選択します。たとえば、:menuselection:`Weather map-->Cloud"
-" cover`を選択すると、ビューが変更されます。"
+"``Weather map`` メニューから、視覚化する変数を選択します。たとえば、:menuselection:`Weather "
+"map-->Cloud cover` を選択すると、ビューが変更されます。"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:55
 msgid ""
@@ -177,7 +178,8 @@ msgid ""
 "AVI, MPEG, or animated GIF `using other software "
 "<https://grasswiki.osgeo.org/wiki/Movies>`_."
 msgstr ""
-"各フレームを画像ファイルとして保存して、後で他のソフトウェア<https://grasswiki.osgeo.org/wiki/Movies>`_を使用してAVI、MPEG、またはアニメーションGIF`にエンコードすることもできます。"
+"各フレームを画像ファイルとして保存して、後で他のソフトウェア<https://grasswiki.osgeo.org/wiki/Movies>`_ "
+"を使用してAVI、MPEG、またはアニメーションGIF`にエンコードすることもできます。"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:67
 msgid "When you're done, click the red power button to close."
@@ -194,7 +196,9 @@ msgid ""
 " GRIB file. See the :doc:`OpenCPN quickstart "
 "<../quickstart/opencpn_quickstart>` for details."
 msgstr ""
-":doc:`OpenCPNソフトウェア<../overview/opencpn_overview>`(このディスクにもあります)にはGRIBオーバーレイプラグインがあり、新しくダウンロードしたGRIBファイルで試すことができます。詳細は、:doc:`クイックスタート文書<./quickstart/opencpn_quickstart>`を参照してください。"
+":doc:`OpenCPNソフトウェア<../overview/opencpn_overview>` "
+"(このディスクにもあります)にはGRIBオーバーレイプラグインがあり、新しくダウンロードしたGRIBファイルで試すことができます。詳細は、:doc:`クイックスタート文書<../quickstart/opencpn_quickstart>`"
+"  を参照してください。"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:79
 msgid "Website: https://www.zygrib.org"

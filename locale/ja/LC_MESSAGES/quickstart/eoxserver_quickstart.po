@@ -6,6 +6,7 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +37,12 @@ msgid ""
 "<../overview/spatialite_overview>` or :doc:`PostGIS "
 "<../overview/postgis_overview>` database."
 msgstr ""
-"EOxServerは、大規模な地球観測(EO)データアーカイブとメタデータをオープンスタンダードで提供するサーバです。これは、Python、:doc:`MapServer<./overview/mapserver_overview>`、Django/GeoDjango、:doc:`GDAL<./overview/gdal_overview>`、PROJ.4および:doc:`Spatialite<./overview/spatialite_overview>`または:doc:`PostGIS<./overview/postgis_overview>`データベースを含むソフトウェアのオープンソーススタック上に構築されています。"
+"EOxServerは、大規模な地球観測(EO)データアーカイブとメタデータをオープンスタンダードで提供するサーバです。これは、Python、:doc:`MapServer"
+" <../overview/mapserver_overview>`、Django/GeoDjango、:doc:`GDAL "
+"<../overview/gdal_overview>`、PROJ.4および "
+":doc:`Spatialite<../overview/spatialite_overview>` または "
+":doc:`PostGIS<../overview/postgis_overview>` "
+"データベースを含むソフトウェアのオープンソーススタック上に構築されています。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:30
 msgid "This Quick Start describes how to:"
@@ -60,8 +66,8 @@ msgid ""
 "launches a browser showing the demonstration instance available at "
 "http://localhost/eoxserver/"
 msgstr ""
-"メニューから:menuselection:`Geospatial-->Web "
-"Services-->EOxServer`を選択します。これによりブラウザが起動し、http://localhost/eoxserver/で利用可能なデモインスタンスが表示されます"
+"メニューから :menuselection:`Geospatial-->Web Services-->EOxServer` "
+"を選択します。これによりブラウザが起動し、http://localhost/eoxserver/ で利用可能なデモインスタンスが表示されます"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:48
 msgid "Work with the Web Client"
@@ -69,7 +75,7 @@ msgstr "Web Clientの操作"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:50
 msgid "Click the **Web Client** link to open the integrated EOxServer client."
-msgstr "**Web Client**リンクをクリックして、統合されたEOxServerクライアントを開きます。"
+msgstr "**Web Client** リンクをクリックして、統合されたEOxServerクライアントを開きます。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:52
 msgid ""
@@ -134,7 +140,7 @@ msgid ""
 "information on this topic."
 msgstr ""
 "これは、EOxServer Web Clientの簡単な説明です。このトピックの詳細については、`オンライン文書 "
-"<https://docs.eoxserver.org/en/latest/users/webclient.html>`_を参照してください。"
+"<https://docs.eoxserver.org/en/latest/users/webclient.html>`_ を参照してください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:108
 msgid "Work with the Admin Client"
@@ -145,8 +151,8 @@ msgid ""
 "From the EOxServer main page, click the **Admin Client** link and login with"
 " user `admin` and password `admin`."
 msgstr ""
-"EOxServerのメインページで[**Admin "
-"Client**]リンクをクリックし、ユーザー「admin」とパスワード「admin」でログインします。"
+"EOxServerのメインページで **Admin Client** "
+"リンクをクリックし、ユーザー「admin」とパスワード「admin」でログインします。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:116
 msgid ""
@@ -155,8 +161,9 @@ msgid ""
 "can be found in the `operators' guide "
 "<https://docs.eoxserver.org/en/latest/users/operators.html>`_."
 msgstr ""
-"`Admin "
-"Client`はDjangos標準の管理者であり、利用可能なデータを設定できます。クライアントを自由にご覧ください。詳細については、`運用者ガイド<https://docs.eoxserver.org/en/latest/users/operators.html>`_を参照してください。"
+"`Admin Client "
+"`はDjangos標準の管理者であり、利用可能なデータを設定できます。クライアントを自由にご覧ください。詳細については、`運用者ガイド "
+"<https://docs.eoxserver.org/en/latest/users/operators.html>`_ を参照してください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:125
 msgid ""
@@ -189,15 +196,16 @@ msgstr ""
 msgid ""
 "See the :doc:`EOxServer Overview <../overview/eoxserver_overview>` for more "
 "information."
-msgstr "詳細については、:doc:`EOxServerの概要<./overview/eoxserver_overview>`を参照してください。"
+msgstr ""
+"詳細については、:doc:`EOxServerの概要 <../overview/eoxserver_overview>` を参照してください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:146
 msgid ""
 "Read the `EOxServer Operators' Guide "
 "<https://docs.eoxserver.org/en/latest/users/operators.html>`_."
 msgstr ""
-"`EOxServer "
-"運用者ガイド<https://docs.eoxserver.org/en/latest/users/operators.html>`_を読んでください。"
+"`EOxServer 運用者ガイド "
+"<https://docs.eoxserver.org/en/latest/users/operators.html>`_ を読んでください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:147
 msgid ""
@@ -206,9 +214,9 @@ msgid ""
 "`EOxServer Basics "
 "<https://docs.eoxserver.org/en/latest/users/basics.html>`_."
 msgstr ""
-"`EOxServerの基本事項<https://docs.eoxserver.org/en/latest/users/basics.html>`_から始まる完全な`EOxServer"
-" "
-"ユーザーズドキュメント<https://docs.eoxserver.org/en/latest/users/index.html>`_を読んでください。"
+"`EOxServerの基本事項 <https://docs.eoxserver.org/en/latest/users/basics.html>`_ "
+"から始まる完全な `EOxServer ユーザーズドキュメント "
+"<https://docs.eoxserver.org/en/latest/users/index.html>`_ を読んでください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:149
 msgid ""
@@ -216,9 +224,8 @@ msgid ""
 "`EOxServer Users' local documentation <https://localhost/eoxserver-"
 "docs/EOxServer_documentation.pdf>`_"
 msgstr ""
-"すでにOSGeoLive環境にいる場合は、メディアにはいっている`EOxServer "
-"Users'ローカルドキュメント<https://localhost/eoxserver-"
-"docs/EOxServer_documentation.pdf>`_をお読みください。"
+"すでにOSGeoLive環境にいる場合は、メディアにはいっている`EOxServer Users'ローカルドキュメント "
+"<https://localhost/eoxserver-docs/EOxServer_documentation.pdf>`_ をお読みください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:151
 msgid ""
@@ -226,4 +233,6 @@ msgid ""
 "<https://docs.eoxserver.org/en/latest/users/mailing_lists.html>`_ to "
 "exchange ideas, discuss potential software improvements, and ask questions."
 msgstr ""
-"EOxServerを使用する準備はできていますか?次に、`メーリングリスト<https://docs.eoxserver.org/en/latest/users/mailing_lists.html>`_のコミュニティに参加して、アイデアを交換したり、ソフトウェアの改善点について話し合ったり、質問したりします。"
+"EOxServerを使用する準備はできていますか?次に、`メーリングリスト "
+"<https://docs.eoxserver.org/en/latest/users/mailing_lists.html>`_ "
+"のコミュニティに参加して、アイデアを交換したり、ソフトウェアの改善点について話し合ったり、質問したりします。"
