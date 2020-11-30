@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +36,8 @@ msgid ""
 "a web based geoportal framework to publish, register, view, navigate, "
 "monitor and grant secure access to spatial data infrastructure services."
 msgstr ""
-"`Mapbender<https://mapbender.org/en>`_は卒業したOSGeoプロジェクトです。これは、空間データインフラストラクチャサービスへの安全なアクセスを公開、登録、ビュー、ナビゲート、監視、および付与するためのWebベースのGeoportal"
+"`Mapbender <https://mapbender.org/en>`_ "
+"は卒業したOSGeoプロジェクトです。これは、空間データインフラストラクチャサービスへの安全なアクセスを公開、登録、ビュー、ナビゲート、監視、および付与するためのWebベースのGeoportal"
 " フレームワークです。"
 
 #: ../../build/doc/overview/mapbender_overview.rst:21

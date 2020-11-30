@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,7 +41,8 @@ msgid ""
 "creation, geoprocessing, networks, etc.), which turns gvSIG into the ideal "
 "tool for users working in the land realm."
 msgstr ""
-"gvSIG_は、地理情報システム(GIS)デスクトップアプリケーションで、複雑な管理と計画の問題を解決するために、参照されているあらゆる種類の地理情報をキャプチャ、保存、処理、分析、および展開するように設計されています。gvSIGは、ユーザフレンドリなインターフェイスと、すべての一般的なベクトル形式とラスター形式にアクセスできることで知られています。これには、地理情報を操作するためのさまざまなツール(クエリー、レイアウト作成、地理処理、ネットワークなど)が用意されており、gvSIGを陸上で作業するユーザにとって理想的なツールに変えることができます。"
+"gvSIG_ "
+"は、地理情報システム(GIS)デスクトップアプリケーションで、複雑な管理と計画の問題を解決するために、参照されているあらゆる種類の地理情報をキャプチャ、保存、処理、分析、および展開するように設計されています。gvSIGは、ユーザフレンドリなインターフェイスと、すべての一般的なベクトル形式とラスター形式にアクセスできることで知られています。これには、地理情報を操作するためのさまざまなツール(クエリー、レイアウト作成、地理処理、ネットワークなど)が用意されており、gvSIGを陸上で作業するユーザにとって理想的なツールに変えることができます。"
 
 #: ../../build/doc/overview/gvsig_overview.rst:26
 msgid "gvSIG is known for:"

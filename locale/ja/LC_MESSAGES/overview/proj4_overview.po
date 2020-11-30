@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,12 +58,11 @@ msgid ""
 "<https://spatialreference.org/>`_  - website to retrieve coordinate system "
 "definitions (obsolete)."
 msgstr ""
-"Proj4は、C から `さまざまな言語 "
-"<https://trac.osgeo.org/metacrs/wiki>`に変換されています。これらのサブプロジェクトには、* Proj4js "
-"(JavaScript) - used in :doc:`OpenLayers <openlayers_overview>`があります。* "
-"MapGuideでつかわれているCS-Map (C++)。* GeoTIFF/libgeotiff (C++)。* Proj4J (Java)。* "
-"`SpatialReference.org <https://spatialreference.org/>`_  - "
-"座標系定義を取得するためのWebサイトです(旧式)"
+"Proj4は、C から `さまざまな言語 <https://trac.osgeo.org/metacrs/wiki>` "
+"に変換されています。これらのサブプロジェクトには、* Proj4js (JavaScript) - used in :doc:`OpenLayers "
+"<openlayers_overview>`. * MapGuideでつかわれているCS-Map (C++)。 * GeoTIFF/libgeotiff"
+" (C++)。 * Proj4J (Java)。 * `SpatialReference.org "
+"<https://spatialreference.org/>`_  - 座標系定義を取得するためのWebサイトです(旧式)"
 
 #: ../../build/doc/overview/proj4_overview.rst:41
 msgid "Core Features"
@@ -91,9 +91,8 @@ msgid ""
 "Proj4 uses coordinate system definitions defined by the `European Petroleum "
 "Survey Group (EPSG) <https://www.epsg.org/>`. Well Known Text (WKT) format."
 msgstr ""
-"Proj4は、`European Petroleum Survey "
-"Group(EPSG)<https://www.epsg.org/>`によって定義された座標系定義を使用します。Well Known "
-"Text(WKT)形式。"
+"Proj4は、`European Petroleum Survey Group(EPSG)  <https://www.epsg.org/>` "
+"によって定義された座標系定義を使用します。Well Known Text(WKT)形式。"
 
 #: ../../build/doc/overview/proj4_overview.rst:57
 msgid "Details"
