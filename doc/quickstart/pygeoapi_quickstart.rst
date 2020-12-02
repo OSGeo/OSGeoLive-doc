@@ -52,7 +52,7 @@ You'll now deploy a vector dataset in pygeoapi and expose its features as OGC AP
 pygeoapi supports a wide range of backends to use as vector source, e.g. geopackage, PostGIS, Elasticsearch, WFS, etc. Via the GDAL OGR provider an almost unlimited set of other vector sources can be added.
 
 Interesting datasets to expose as OAPI-Features consist of real world data having multiple attributes and links to other resources.
-OSGeo Live contains a number of datasets we can use. An example is ``/var/www/html/openlayers/examples/data/geojson/countries.geojson``.
+OSGeoLive contains a number of datasets we can use. An example is ``/var/www/html/openlayers/examples/data/geojson/countries.geojson``.
 You can configure it in pygeoapi using the GeoJSON provider.
 
 #.  Download the GeoJSON file and place it in the tests/data folder.
