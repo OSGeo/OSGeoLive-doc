@@ -52,7 +52,7 @@ See Also:
 
  * Getting started with Lubuntu and the LXDE desktop (which is used by OSGeoLive):
     https://help.ubuntu.com/community/Lubuntu/Documentation and
-    https://wiki.lxde.org/en/Main_Page
+    https://www.lxde.org/
  * Getting started with the Ubuntu operating system:
     `local eBook <file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and `extended online help <https://help.ubuntu.com>`_
  * :doc:`virtualization_quickstart`
