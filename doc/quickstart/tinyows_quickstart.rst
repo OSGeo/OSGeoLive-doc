@@ -6,6 +6,9 @@
 
 @LOGO_tinyows@
 @OSGEO_KIND_tinyows@
+@VMDK_tinyows@
+
+
 
 ********************************************************************************
 @NAME_tinyows@ Quickstart

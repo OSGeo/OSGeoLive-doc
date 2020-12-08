@@ -48,7 +48,7 @@ Details
 
   **Website:** @WEB_proj4@
   
-  **Licence:** `X/MIT style Open Source license <httpis://trac.osgeo.org/proj/wiki/WikiStart#License>`_
+  **Licence:** `X/MIT style Open Source license <https://trac.osgeo.org/proj4j#License>`_
   
   **Software Version:** 4.9.2 (stable)
   
@@ -58,6 +58,7 @@ Details
   
   **Support:** https://lists.osgeo.org/mailman/listinfo/proj
 
+@VMDK_proj4@
 @QUICKSTART_proj4@
 
 .. presentation-note

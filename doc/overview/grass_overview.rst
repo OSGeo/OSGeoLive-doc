@@ -53,7 +53,7 @@ Core Features
 --------------------------------------------------------------------------------
 
 * You name it, there's a `tool for it <https://grass.osgeo.org/grass78/manuals/keywords.html>`_.
-* Explore the `screenshot collection <https://grass.osgeo.org/screenshots/>`_.
+* Explore the `screenshot collection <https://grass.osgeo.org/learn/gallery/>`_.
 
 Details
 --------------------------------------------------------------------------------
@@ -68,9 +68,10 @@ Details
 
 **API Interfaces:** C, Python, Bourne Shell
 
-**Support:** https://grass.osgeo.org/support/
+**Support:** https://grass.osgeo.org/about/community/
 
 
+@VMDK_grass@
 @QUICKSTART_grass@
 
 .. presentation-note

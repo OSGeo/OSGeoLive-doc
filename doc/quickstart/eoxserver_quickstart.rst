@@ -8,6 +8,9 @@
 
 @LOGO_eoxserver@
 @OSGEO_KIND_eoxserver@
+@VMDK_eoxserver@
+
+
 
 ================================================================================
 @NAME_eoxserver@ Quickstart
@@ -95,7 +98,7 @@ to download.
 
 This was a quick introduction to the EOxServer Web Client. Please refer to the 
 `online documentation 
-<https://eoxserver.readthedocs.io/en/latest/users/webclient.html>`_ for more 
+<https://docs.eoxserver.org/en/latest/users/webclient.html>`_ for more 
 information on this topic.
 
 Work with the Admin Client
@@ -110,7 +113,7 @@ From the EOxServer main page, click the **Admin Client** link and login with use
 The `Admin Client` is Djangos standard admin and allows you to configure the 
 available data. Please feel free to explore the client. More information can 
 be found in the `operators' guide 
-<https://eoxserver.readthedocs.io/en/latest/users/operators.html>`_.
+<https://docs.eoxserver.org/en/latest/users/operators.html>`_.
 
 .. image:: /images/projects/eoxserver/eoxserver_adminclient2.png
   :scale: 50 %
@@ -137,11 +140,11 @@ project website contains a lot of resources to help you get started. Here’s
 a few resources to check out next:
 
 * See the :doc:`EOxServer Overview <../overview/eoxserver_overview>` for more information.
-* Read the `EOxServer Operators' Guide <https://eoxserver.readthedocs.io/en/latest/users/operators.html>`_.
-* Read the complete `EOxServer Users' documentation <https://eoxserver.readthedocs.io/en/latest/users/index.html>`_
-  starting from the `EOxServer Basics <https://eoxserver.readthedocs.io/en/latest/users/basics.html>`_.
+* Read the `EOxServer Operators' Guide <https://docs.eoxserver.org/en/latest/users/operators.html>`_.
+* Read the complete `EOxServer Users' documentation <https://docs.eoxserver.org/en/latest/users/index.html>`_
+  starting from the `EOxServer Basics <https://docs.eoxserver.org/en/latest/users/basics.html>`_.
 * If you are already in the OSGeoLive environment, read the local copy of the `EOxServer Users' local documentation
   <https://localhost/eoxserver-docs/EOxServer_documentation.pdf>`_
 * Ready to use EOxServer? Then join the community on the `mailing lists 
-  <https://eoxserver.readthedocs.io/en/latest/users/mailing_lists.html>`_ to 
+  <https://docs.eoxserver.org/en/latest/users/mailing_lists.html>`_ to 
   exchange ideas, discuss potential software improvements, and ask questions.

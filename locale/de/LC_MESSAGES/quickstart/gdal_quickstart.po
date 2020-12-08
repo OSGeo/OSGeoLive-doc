@@ -5,17 +5,17 @@
 # 
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
-# Vicky Vergara <vicky@georepublic.de>, 2018
 # Astrid Emde <astrid_emde@osgeo.org>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -141,7 +141,7 @@ msgstr "es liegt keine Angabe zum Koordinatenreferenzsystem vor"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:107
 msgid "Simple format translation"
-msgstr ""
+msgstr "gdal_translate zur einfachen Formatumwandlung"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:109
 msgid ""
@@ -299,13 +299,13 @@ msgid ""
 " be reprojected gdalwarp does not read all the data.  We can force gdalwarp "
 "to read a bunch of surplus data around chunks as one way to resolve this. "
 "Read more about this in the RasterTutorial "
-"http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
+"https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
 msgstr ""
 "Beachten Sie, wie die Pole abgeschnitten werden. Weil die Ecken an den Polen"
 " nicht umprojiziert werden können, kann gdalwarp nicht alle Daten lesen. Als"
 " Lösung können wir gdalwarp zwingen, ein wenig zusätzliche Daten zu lesen. "
 "Zu diesem Thema erfahren Sie mehr im Raster-Tutorial "
-"http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
+"https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:255
 msgid "Mosaicking"
@@ -448,22 +448,23 @@ msgid "GDAL Project home"
 msgstr "GDAL Projektseite"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:455
-msgid "http://www.gdal.org"
-msgstr "http://www.gdal.org"
+msgid "https://gdal.org"
+msgstr "https://gdal.org"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:457
 msgid "GDAL Raster Tutorial"
 msgstr "GDAL Tutorial"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:459
-msgid "http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
-msgstr "http://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
+msgid "https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
+msgstr "https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:461
 msgid "GDAL Workshop"
 msgstr "GDAL Workshop"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:463
-msgid "http://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
+msgid ""
+"https://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
 msgstr ""
-"http://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
+"https://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"

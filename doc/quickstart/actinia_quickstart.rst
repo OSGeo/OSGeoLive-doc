@@ -7,6 +7,9 @@
 
 @LOGO_actinia@
 @OSGEO_KIND_actinia@
+@VMDK_actinia@
+
+
 
 ********************************************************************************
 @NAME_actinia@ Quickstart
@@ -103,7 +106,7 @@ Currently available datasets are (organized by projections):
    -  base cartography (``nc_spm_08/PERMANENT``; source:
       https://grassbook.org/datasets/datasets-3rd-edition/)
    -  Landsat subscenes (``nc_spm_08/landsat``; source:
-      https://grass.osgeo.org/download/sample-data/)
+      https://grass.osgeo.org/download/data/)
 
 -  Latitude-Longitude location (LatLong WGS84, EPSG:4326):
 

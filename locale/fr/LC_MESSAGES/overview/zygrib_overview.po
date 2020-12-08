@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
-# Nicolas Roelandt (Personnel), 2018
+# Nicolas Roelandt (Personnel), 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2018\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -82,8 +82,8 @@ msgid "Details"
 msgstr "Détails"
 
 #: ../../build/doc/overview/zygrib_overview.rst:41
-msgid "**Website:** http://www.zygrib.org"
-msgstr "**Site web:** http://www.zygrib.org"
+msgid "**Website:** https://www.zygrib.org"
+msgstr "**Site Internet:** https://www.zygrib.org"
 
 #: ../../build/doc/overview/zygrib_overview.rst:43
 msgid "**Licence:** GNU General Public License (GPL) version 3"
@@ -98,8 +98,8 @@ msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
 msgstr "**Platesformes supportées:** GNU/Linux, Mac OSX, MS Windows"
 
 #: ../../build/doc/overview/zygrib_overview.rst:49
-msgid "**Support:** http://zygrib.org/forum/"
-msgstr "**Support:** http://zygrib.org/forum/"
+msgid "**Support:** https://zygrib.org/forum/"
+msgstr "**Support:** https://zygrib.org/forum/"
 
 #: ../../build/doc/overview/zygrib_overview.rst:54
 msgid "Quickstart"

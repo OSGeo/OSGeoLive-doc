@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-07-06 11:23-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,14 +31,14 @@ msgstr "Geoportál Keretrendszer"
 
 #: ../../build/doc/overview/mapbender_overview.rst:19
 msgid ""
-"`Mapbender <https://www.mapbender.org/en>`_ is a graduated OSGeo project. It"
-" is a web based geoportal framework to publish, register, view, navigate, "
+"`Mapbender <https://mapbender.org/en>`_ is a graduated OSGeo project. It is "
+"a web based geoportal framework to publish, register, view, navigate, "
 "monitor and grant secure access to spatial data infrastructure services."
 msgstr ""
-"`Mapbender <https://www.mapbender.org/en>`_ egy közismert OSGeo projekt. Egy"
-" web alapú geoportál keretrendszer térbeli adat infrastruktúra "
-"szolgáltatásokhoz a publikáláshoz. regisztrációhoz, megtekintéshez, "
-"navigáláshoz, monitorozáshoz és biztonságok hozzáférés biztosításához."
+"A `Mapbender <https://mapbender.org/en>`_ az OSGeo egy elismert projektje. "
+"Ez egy web alapú geoportál keretrendszer publikáláshoz, regisztrációhoz, "
+"megtekintéshez, navigáláshoz valamint téradat infrastruktúra szolgáltatások "
+"biztonságos elérésének biztosításához és monitorozásához."
 
 #: ../../build/doc/overview/mapbender_overview.rst:21
 msgid ""
@@ -172,12 +172,12 @@ msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/mapbender_overview.rst:63
-msgid "**Website:** https://www.mapbender.org/"
-msgstr "**Honlap:** https://www.mapbender.org/"
+msgid "**Website:** https://mapbender.org"
+msgstr "**Honlap:** https://mapbender.org"
 
 #: ../../build/doc/overview/mapbender_overview.rst:65
-msgid "**Licence:** `MIT license <http://opensource.org/licenses/MIT>`_"
-msgstr "**Licenc:** `MIT license <http://opensource.org/licenses/MIT>`_"
+msgid "**Licence:** `MIT license <https://opensource.org/licenses/MIT>`_"
+msgstr "**Licenc:** `MIT license <https://opensource.org/licenses/MIT>`_"
 
 #: ../../build/doc/overview/mapbender_overview.rst:67
 msgid "**Software Version:** |version-mapbender|"
@@ -188,8 +188,8 @@ msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr "**Támogatott platformok:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/mapbender_overview.rst:71
-msgid "**Support:** https://www.mapbender.org/en/community"
-msgstr "**Támogatás:** https://www.mapbender.org/en/community"
+msgid "**Support:** https://mapbender.org/en/community"
+msgstr "**Támogatás:** https://mapbender.org/en/community"
 
 #: ../../build/doc/overview/mapbender_overview.rst:75
 msgid "Quickstart"

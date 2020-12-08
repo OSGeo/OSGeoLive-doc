@@ -67,6 +67,7 @@ Details
 **Commercial Support:** https://pgrouting.org/support.html
 
 
+@VMDK_pgrouting@
 @QUICKSTART_pgrouting@
 
 .. presentation-note

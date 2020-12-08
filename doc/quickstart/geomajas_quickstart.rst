@@ -6,6 +6,9 @@
 
 @LOGO_geomajas@
 @OSGEO_KIND_geomajas@
+@VMDK_geomajas@
+
+
 
 
 ######################################
@@ -82,5 +85,5 @@ Interested in learning more about Geomajas? The following links provide more inf
 
 * **Geomajas:** `<http://www.geomajas.org/>`_
 * **GitHub:** `<https://github.com/geomajas/geomajas-gwt2-quickstart-application>`_
-* **OSGeo:** `<https://live.osgeo.org/en/overview/geomajas_overview.html>`_
+* **OSGeo:** :doc:`../overview/geomajas_overview`
 * **Wiki:** `<https://wiki.osgeo.org/wiki/Geomajas>`_

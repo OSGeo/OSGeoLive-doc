@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -75,7 +75,7 @@ msgid ""
 "proficient user when compared to software with a graphical user interface "
 "(GUI). Fortunately R is well documented on the web site which eases the "
 "learning process. Scripts are often used to automate processing steps but "
-"there are GUIs, the leading one being RStudio (http://www.rstudio.com)."
+"there are GUIs, the leading one being RStudio (https://rstudio.com)."
 msgstr ""
 "Az R alap felhasználói felülete egy parancssor ablak, mely kiváló "
 "rugalmasságot és felügyeletet biztosít, de megnöveli a gyakorlott "
@@ -83,7 +83,7 @@ msgstr ""
 " szoftverekhez hasonlítjuk. Szerencsére az R a honlapján jól dokumentált, "
 "ami megkönnyíti a tanulási folyamatot. Gyakran szkripteket használunk a "
 "feldolgozási lépések automatizálására, de vannak GUI-k, ezek között a vezető"
-" az RStudio (http://www.rstudio.com)."
+" az RStudio (https://rstudio.com)."
 
 #: ../../build/doc/overview/R_overview.rst:44
 msgid ""
@@ -167,8 +167,8 @@ msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/R_overview.rst:76
-msgid "**Website:** http://cran.r-project.org"
-msgstr "**Honlap:** http://cran.r-project.org"
+msgid "**Website:** https://cran.r-project.org"
+msgstr "**Honlap:** https://cran.r-project.org"
 
 #: ../../build/doc/overview/R_overview.rst:78
 msgid "**Licence:** GPL"
@@ -184,9 +184,9 @@ msgstr "**Támogatott platformok:** Windows, Linux, Mac, Unix"
 
 #: ../../build/doc/overview/R_overview.rst:84
 msgid ""
-"**Community Support:** http://cran.r-project.org/web/views/Spatial.html"
+"**Community Support:** https://cran.r-project.org/web/views/Spatial.html"
 msgstr ""
-"**Közösségi támogatás:** http://cran.r-project.org/web/views/Spatial.html"
+"**Közösségi támogatás:** https://cran.r-project.org/web/views/Spatial.html"
 
 #: ../../build/doc/overview/R_overview.rst:86
 msgid ""

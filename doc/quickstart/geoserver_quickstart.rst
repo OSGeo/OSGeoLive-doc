@@ -9,6 +9,9 @@
 
 @LOGO_geoserver@
 @OSGEO_KIND_geoserver@
+@VMDK_geoserver@
+
+
 
 .. |GS| replace:: GeoServer
 .. |UG| replace:: uDig 

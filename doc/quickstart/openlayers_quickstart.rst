@@ -8,6 +8,9 @@
 
 @LOGO_openlayers@
 @OSGEO_KIND_openlayers@
+@VMDK_openlayers@
+
+
 
 ********************************************************************************
 @NAME_openlayers@ Quickstart

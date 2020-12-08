@@ -5,6 +5,9 @@
 
 @LOGO_osgearth@
 @OSGEO_KIND_osgearth@
+@VMDK_osgearth@
+
+
 
 ********************************************************************************
 @NAME_osgearth@ Quickstart

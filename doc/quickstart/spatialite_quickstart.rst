@@ -15,6 +15,9 @@
 
 @LOGO_spatialite@
 @OSGEO_KIND_spatialite@
+@VMDK_spatialite@
+
+
 
 ********************************************************************************
 @NAME_spatialite@ Quickstart
@@ -95,7 +98,7 @@ Run spatialite from the command line
 
 Users needing to script or automate queries will learn the advantages of working with a spatialite database from the command line interface. In this example, we will load a shapefile, and search for schools which are near highway 42. 
 
-#. Before working from the command line, we need to open a terminal window: :menuselection:`LXDE Menu -> Accessories -> LXTerminal`.
+#. Before working from the command line, we need to open a terminal window: :menuselection:`System Tools -> LXTerminal`.
 
 #. In the terminal open a sample database with **spatialite** by typing::
 

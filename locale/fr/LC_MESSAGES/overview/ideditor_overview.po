@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
+# Nicolas Roelandt (Personnel), 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,13 +33,13 @@ msgstr "Éditeur pour OpenStreetMap basé sur des technologies web"
 #: ../../build/doc/overview/ideditor_overview.rst:19
 msgid ""
 "The iD editor is the de facto, browser-based `OpenStreetMap "
-"<http://www.openstreetmap.org>`_ editor. iD is fast and easy to use, and "
+"<https://www.openstreetmap.org>`_ editor. iD is fast and easy to use, and "
 "allows mapping from various data sources such as satellite and aerial "
 "imageries, GPS, Field Papers or Mapillary."
 msgstr ""
 "L'éditeur iD est l'éditeur de fait, dans le navigateur d'`OpenStreetMap "
-"<http://www.openstreetmap.org>`_ . iD est rapide et facile à utiliser, et il"
-" permet d’utiliser différentes sources de données comme de l’imagerie "
+"<https://www.openstreetmap.org>`_ . iD est rapide et facile à utiliser, et "
+"il permet d’utiliser différentes sources de données comme de l’imagerie "
 "satellite, des coordonnées GPS et les Field Papers et Mapillary."
 
 #: ../../build/doc/overview/ideditor_overview.rst:21
@@ -84,8 +85,8 @@ msgid "Details"
 msgstr "Détails"
 
 #: ../../build/doc/overview/ideditor_overview.rst:46
-msgid "**Website:** http://wiki.openstreetmap.org/wiki/ID"
-msgstr "**Site web:** http://wiki.openstreetmap.org/wiki/ID"
+msgid "**Website:** https://wiki.openstreetmap.org/wiki/ID"
+msgstr "**Site Internet:** https://wiki.openstreetmap.org/wiki/ID"
 
 #: ../../build/doc/overview/ideditor_overview.rst:48
 msgid "**Licence:** `ISC <https://en.wikipedia.org/wiki/ISC_license>`_"

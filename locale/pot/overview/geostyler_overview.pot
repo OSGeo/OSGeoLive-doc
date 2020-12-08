@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../build/doc/overview/geostyler_overview.rst:18
+msgid "GeoStyler"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:20
+msgid "GeoStyler is an Open Source JavaScript library that enables users to style maps with the help of a Graphical User Interface. The goal of GeoStyler is a universally applicable GUI that works with any given style format; be it SLD, QML, OpenLayers, etc."
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:23
+msgid "GeoStyler provides a set of UI Components for map styling. Just like a modular building block system all components can be stacked together to create a nice UI for your web applications. To simplify the setup, we also provide some high-level components (based on our building blocks) that already do the work for you. These include, among many others, Symbolizer Editors, RuleTables and a fully-fledged StyleEditor including filters and scale denominators."
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:28
+msgid "Furthermore, GeoStyler allows for the translation between multiple styling formats, i.e. SLD, OpenLayers, QGIS, Mapbox. Since we are following the concept of micro packages, these translators (we call them parsers) can be used as standalone libraries, without the need to include the UI components as a dependency. Currently we have parsers for SLD, QGIS-styles, Mapbox styles and OpenLayers styles. Parsing of Mapfiles is in the works. Please take a look at StyleParser Implementations. Since attributively styling geodata is easier when you can look at the data to be styled, we can connect to several datasources like WFS, Shapefiles and GeoJSON files. We plan on developing a data reader for the Geopackage format."
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:42
+msgid "Core Features"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:43
+msgid "Generic - not bound to one format only"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:44
+msgid "Supports common formats (e.g. SLD, QGIS) already out of the box"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:45
+msgid "Graphical User Interface (GUI) including support for reordering of rules, a mapview, pickers for colors and symbols and a ton more"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:46
+msgid "Has a GUI - but you are not required to use it"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:47
+msgid "Extensible - you're invited to build your own data readers or parsers"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:48
+msgid "Continues to grow - we are planning new features (like a commandline interface, more parsers etc.) and small improvements"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:51
+msgid "Implemented Standards"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:53
+msgid "|FE|"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:54
+msgid "Geographic JSON (GeoJSON)"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:55
+msgid "|OGC|"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:56
+msgid "|SLD|"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:57
+msgid "|WFS|"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:58
+msgid "|WMS|"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:62
+msgid "Details"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:64
+msgid "**Website:** https://geostyler.org"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:66
+msgid "**Licence:** BSD-2-Clause"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:68
+msgid "**Software Version:** |version-geostyler|"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:70
+msgid "**API Interfaces:** JavaScript"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:72
+msgid "**Support:** Issues on https://github.com/geostyler/geostyler"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:74
+msgid "**Developers:** https://github.com/geostyler/geostyler/graphs/contributors"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:80
+msgid "Quickstart"
+msgstr ""
+
+#: ../../build/doc/overview/geostyler_overview.rst:82
+msgid ":doc:`Quickstart documentation <../quickstart/geostyler_quickstart>`"
+msgstr ""
+

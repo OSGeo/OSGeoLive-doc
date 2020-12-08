@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-08-19 11:53-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,7 +89,7 @@ msgstr ""
 #: ../../build/doc/overview/proj4_overview.rst:61
 msgid ""
 "**Licence:** `X/MIT style Open Source license "
-"<httpis://trac.osgeo.org/proj/wiki/WikiStart#License>`_"
+"<https://trac.osgeo.org/proj4j#License>`_"
 msgstr ""
 
 #: ../../build/doc/overview/proj4_overview.rst:63

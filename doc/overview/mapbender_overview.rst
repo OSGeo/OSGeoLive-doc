@@ -63,6 +63,7 @@ Details
 
 **Support:** https://mapbender.org/en/community
 
+@VMDK_mapbender@
 @QUICKSTART_mapbender@
 
 .. presentation-note

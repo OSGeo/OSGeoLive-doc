@@ -6,16 +6,16 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:9
 msgid "Creating an OSGeoLive Bootable USB flash drive"
@@ -47,8 +47,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:19
 msgid ""
-"An OSGeoLive ISO image (downloaded from: "
-"https://live.osgeo.org/en/download.html) or converted from a DVD."
+"An OSGeoLive ISO image (downloaded from: :doc:`OSGeoLive downloads "
+"<../download>`) or converted from a DVD."
 msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:21
@@ -122,8 +122,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:49
 msgid ""
-"`Download <https://live.osgeo.org/en/download.html>`_ osgeolive or "
-"osgeolive-mini to your computer's hard drive."
+":doc:`Download <../download>` osgeolive or osgeolive-mini to your "
+"computer's hard drive."
 msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:51

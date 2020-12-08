@@ -4,17 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2018
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,12 +40,12 @@ msgid ""
 "numerous vector, raster and database formats and functionality."
 msgstr ""
 "A QGIS egy felhasználóbarát, nyílt forráskódú GIS kliens melyben adatokat "
-"megjeleníthet, kezelhet, szerkeszthet, elemezhet és nyomtatható térképeket "
+"jeleníthet meg, kezelhet, szerkeszthet, elemezhet és nyomtatható térképeket "
 "állíthat össze. Hatékony elemző funkciókat tartalmaz a  "
 ":doc:`GRASS<grass_overview>`, :doc:`SAGA <saga_overview>`, :doc:`Orfeo "
 "Toolbox <otb_overview>` , :doc:`GDAL/OGR <gdal_overview>` és még további "
 "algoritmus szolgáltatók integrációján keresztül. Futtatható Linux-on Mac "
-"OSX-en és Windows-on és számos vektor, raszter és adatbázis formátumokat és "
+"OSX-en és Windows-on és számos vektor, raszter és adatbázis formátumot és "
 "funkcionalitást támogat."
 
 #: ../../build/doc/overview/qgis_overview.rst:36
@@ -209,8 +208,8 @@ msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/qgis_overview.rst:85
-msgid "**Website:** http://www.qgis.org"
-msgstr "**Honlap:** http://www.qgis.org"
+msgid "**Website:** https://www.qgis.org/en/site/"
+msgstr "**Honlap:** https://www.qgis.org/en/site/"
 
 #: ../../build/doc/overview/qgis_overview.rst:87
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -225,17 +224,17 @@ msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
 msgstr "**Támogatott platformok:** Windows, Linux, Mac, Unix"
 
 #: ../../build/doc/overview/qgis_overview.rst:93
-msgid "**Community Support:** http://qgis.org/en/site/forusers/support.html"
+msgid "**Community Support:** https://qgis.org/en/site/forusers/support.html"
 msgstr ""
-"**Közösségi támogatás:** http://qgis.org/en/site/forusers/support.html"
+"**Közösségi támogatás:** https://qgis.org/en/site/forusers/support.html"
 
 #: ../../build/doc/overview/qgis_overview.rst:95
 msgid ""
 "**Commercial Support:** "
-"http://qgis.org/en/site/forusers/commercial_support.html"
+"https://qgis.org/en/site/forusers/commercial_support.html"
 msgstr ""
 "**Kereskedelmi támogatás:** "
-"http://qgis.org/en/site/forusers/commercial_support.html"
+"https://qgis.org/en/site/forusers/commercial_support.html"
 
 #: ../../build/doc/overview/qgis_overview.rst:100
 msgid "Quickstart"

@@ -5,6 +5,9 @@
 
 @LOGO_gpsprune@
 @OSGEO_KIND_gpsprune@
+@VMDK_gpsprune@
+
+
 
 ********************************************************************************
 @NAME_gpsprune@ Quickstart
@@ -19,7 +22,7 @@ In this Quick Start, we will load and view a data file included on this live ima
 Start @NAME_gpsprune@
 ================================================================================
 
-From the Start menu, choose :menuselection:`Navigation and Maps --> GpsPrune`.  This will then give you the empty window shown below.
+From the Start menu, choose :menuselection:`Geospatial --> Navigation and Maps --> GpsPrune`.  This will then give you the empty window shown below.
 
 .. image:: /images/projects/gpsprune/gpsprune_emptywindow.png
    :scale: 55
@@ -104,6 +107,6 @@ You can also save the downloaded map tiles to disk by selecting the menu option 
 
 Further reading
 ~~~~~~~~~~~~~~~
-* GpsPrune home page: https://gpsprune.activityworkshop.net/
-* Screenshots: https://gpsprune.activityworkshop.net/screenshots.html
-* How-tos and instructions: https://gpsprune.activityworkshop.net/how-tos.html
+* GpsPrune home page: https://activityworkshop.net/software/gpsprune/
+* Screenshots: https://activityworkshop.net/software/gpsprune/screenshots.html
+* How-tos and instructions: https://activityworkshop.net/software/gpsprune/how-tos.html

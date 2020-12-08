@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-08-19 10:16-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -155,7 +155,7 @@ msgstr ""
 #: ../../build/doc/quickstart/actinia_quickstart.rst:108
 msgid ""
 "Landsat subscenes (``nc_spm_08/landsat``; source: "
-"https://grass.osgeo.org/download/sample-data/)"
+"https://grass.osgeo.org/download/data/)"
 msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:111

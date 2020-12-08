@@ -25,7 +25,7 @@ To try out the applications, simply:
 #. Press "Enter" to startup & login.
 #. Select and run applications from the "Geospatial" menu.
 
-OSGeoLive is an `OSGeo Foundation <http://osgeo.org/>`_ project. The OSGeo Foundation
+OSGeoLive is an `OSGeo Foundation <https://www.osgeo.org/>`_ project. The OSGeo Foundation
 is a not-for-profit supporting Geospatial Open Source Software development, promotion
 and `education <https://www.osgeo.org/initiatives/geo-for-all/>`_.
 

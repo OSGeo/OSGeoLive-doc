@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
@@ -11,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -45,13 +46,16 @@ msgstr ""
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:27
 msgid "Start 52°North WPS"
-msgstr ""
+msgstr "52 North WPS indítása"
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:29
 msgid ""
 "To run the 52°North WPS on the Live DVD, go to |osgeolive-appmenupath-"
 "52nWPS| or use this `direct link <http://localhost:8080/52nWPS/>`_."
 msgstr ""
+"52°North WPS futtatásához a Live DVD-n menjen a  |osgeolive-appmenupath-"
+"52nWPS|-hez vagy használja `közvetlen linket "
+"<http://localhost:8080/52nWPS/>`_."
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:31
 msgid "The 52n WPS welcome page will appear."
@@ -63,6 +67,9 @@ msgid ""
 " following the steps at the bottom of the :doc:`SOS quickstart page "
 "<../quickstart/52nSOS_quickstart>`.)"
 msgstr ""
+"Ha a szolgáltatás nem érhető el próbálja meg elindítani a Tomcat servlet "
+"motort a :doc:`SOS gyorstalpaló oldal <../quickstart/52nSOS_quickstart>` "
+"alján található lépéseket követve."
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:40
 msgid "Get information about the service"
@@ -91,6 +98,8 @@ msgid ""
 "Make sure that :doc:`GeoServer <../overview/geoserver_overview>` is running "
 "since the demonstration requires data from the local GeoServer installation."
 msgstr ""
+"Győződjön meg, hogí a :doc:`GeoServer <../overview/geoserver_overview>` fut,"
+" mivel a bemutatónak a helyi GeoServer telepítés adataira van szüksége."
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:56
 msgid ""
@@ -98,6 +107,9 @@ msgid ""
 " page could not be found, select |osgeolive-appmenupath-geoserver| in the "
 "menu. The GeoServer should be running after a few moments."
 msgstr ""
+"Ehhez próbálja megnyitni a http://localhost:8082/geoserver/web oldalt. Ha az"
+" oldal nem található válassza a |osgeolive-appmenupath-geoserver|-t a "
+"menüből. A GeoServer-nek futnia kell néhány pillanat múlva."
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:58
 msgid ""
@@ -172,10 +184,10 @@ msgstr ""
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:95
 msgid ""
 "Available in the 52°North wiki: "
-"https://wiki.52north.org/bin/view/Geoprocessing/GeoprocessingTutorials"
+"https://wiki.52north.org/Geoprocessing/GeoprocessingTutorials"
 msgstr ""
-"Elérhető az 52°North wikiben: "
-"https://wiki.52north.org/bin/view/Geoprocessing/GeoprocessingTutorials"
+"Elérhető az 52°North wikiben:  "
+"https://wiki.52north.org/Geoprocessing/GeoprocessingTutorials"
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:97
 msgid "For further questions you can contact the 52°North WPS mailing list:"

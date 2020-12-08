@@ -1,11 +1,14 @@
 :Author: Barry Rowlingson
 :Author: Nicolas Roelandt
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
-:Version: osgeolive12.0
+:Version: osgeolive14.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_R@
 @OSGEO_KIND_R@
+@VMDK_R@
+
+
 
 ********************************************************************************
 @NAME_R@ Quickstart
@@ -248,7 +251,7 @@ and our final image appears:
 .. image:: /images/projects/R/r_plot3.png
 
 
-.. Tip:: To quite R, type ``q()`` and hit return. R will ask you if you want to save your workspace as an R data image file. When you start R again from a directory with a ``.RData`` file it will restore all its data from there.
+.. Tip:: To quit R, type ``q()`` and hit return. R will ask you if you want to save your workspace as an R data image file. When you start R again from a directory with a ``.RData`` file it will restore all its data from there.
 
 Vignettes
 =========

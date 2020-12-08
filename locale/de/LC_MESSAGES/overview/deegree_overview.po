@@ -10,16 +10,16 @@
 # Astrid Emde <astrid_emde@osgeo.org>, 2018
 # Dirk Stenger <stenger@lat-lon.de>, 2018
 # lgoltz <goltz@lat-lon.de>, 2018
-# Vicky Vergara <vicky@georepublic.de>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,62 +37,33 @@ msgstr "Über"
 
 #: ../../build/doc/overview/deegree_overview.rst:26
 msgid ""
-"deegree provides geospatial webservices based upon `Open Geospatial "
-"Consortium (OGC) <http://www.opengeospatial.org>`_ and `INSPIRE Network "
-"Services <http://inspire.jrc.ec.europa.eu>`_ specifications. deegree "
+"deegree provides geospatial webservices based upon |OGC| and `INSPIRE "
+"Network Services <https://inspire.ec.europa.eu>`_ specifications. deegree "
 "supports:"
 msgstr ""
 "Die deegree Webservices sind Implementierungen der Webservice "
-"Spezifikationen des `Open Geospatial Consortium (OGC) "
-"<http://www.opengeospatial.org>`_ und der `INSPIRE Network Services "
-"<http://inspire.jrc.ec.europa.eu>`_. deegree unterstützt die folgenden "
-"Dienste:"
+"Spezifikationen des |OGC| und der `INSPIRE Network Services "
+"<https://inspire.ec.europa.eu>`_. deegree unterstützt die folgenden Dienste:"
 
 #: ../../build/doc/overview/deegree_overview.rst:28
-msgid ""
-"`Web Feature Services (WFS) <http://www.opengeospatial.org/standards/wfs>`_:"
-" Serves vector data from geospatial data"
+msgid "|WFS|: Serves vector data from geospatial data"
 msgstr ""
-"`Web Feature Service (WFS) <http://www.opengeospatial.org/standards/wfs>`_: "
-"Ermöglicht den direkten Zugriff Vektordaten aus räumlichen Datenobjekten."
 
 #: ../../build/doc/overview/deegree_overview.rst:29
-msgid ""
-"`Web Map Services (WMS) <http://www.opengeospatial.org/standards/wms>`_: "
-"Serves maps rendered from geospatial data"
+msgid "|WMS|: Serves maps rendered from geospatial data"
 msgstr ""
-"`Web Map Service (WMS) <http://www.opengeospatial.org/standards/wms>`_: "
-"Liefert Karten, die aus räumlichen Daten gerendert werden"
 
 #: ../../build/doc/overview/deegree_overview.rst:30
-msgid ""
-"`Web Map Tile Services (WMTS) "
-"<http://www.opengeospatial.org/standards/wmts>`_: Serves pre-rendered map "
-"tiles"
+msgid "|WMTS|: Serves pre-rendered map tiles"
 msgstr ""
-"`Web Map Tile Service (WMTS) "
-"<http://www.opengeospatial.org/standards/wmts>`_: Liefert vorberechnete "
-"Kartenkacheln."
 
 #: ../../build/doc/overview/deegree_overview.rst:31
-msgid ""
-"`Catalogue Services for the Web (CSW) "
-"<http://www.opengeospatial.org/standards/cat>`_: Performs searches for "
-"geospatial datasets and services"
+msgid "|CSW|: Performs searches for geospatial datasets and services"
 msgstr ""
-"`Catalogue Service for the Web (CSW) "
-"<http://www.opengeospatial.org/standards/cat>`_: Durchführung von Suchen "
-"nach räumlichen Datensätzen und Diensten."
 
 #: ../../build/doc/overview/deegree_overview.rst:32
-msgid ""
-"`Web Processing Services (WPS) "
-"<http://www.opengeospatial.org/standards/wps>`_: Executes geospatial "
-"processes"
+msgid "|WPS|: Executes geospatial processes"
 msgstr ""
-"`Web Processing Service (WPS) "
-"<http://www.opengeospatial.org/standards/wps>`_: Führt Berechnungen auf "
-"räumlichen Daten aus."
 
 #: ../../build/doc/overview/deegree_overview.rst:41
 msgid "Core Features"
@@ -100,10 +71,7 @@ msgstr "Eigenschaften des deegree WFS"
 
 #: ../../build/doc/overview/deegree_overview.rst:43
 msgid "**WFS**"
-msgstr ""
-"Der deegree WFS ist eine Implementierung der `OGC Web Feature Service "
-"Spezifikation <http://www.opengeospatial.org/standards/wfs>`_. Einige "
-"Eigenschaften:"
+msgstr "**WFS**"
 
 #: ../../build/doc/overview/deegree_overview.rst:45
 msgid "Implements WFS standards 1.0.0, 1.1.0 and 2.0.0"
@@ -172,10 +140,7 @@ msgstr ""
 
 #: ../../build/doc/overview/deegree_overview.rst:58
 msgid "**WMS**"
-msgstr ""
-"Der deegree WMS ist eine Implementierung der `OGC Web Map Service "
-"Spezifikation <http://www.opengeospatial.org/standards/wms>`_. Einige "
-"Eigenschaften:"
+msgstr "**WMS**"
 
 #: ../../build/doc/overview/deegree_overview.rst:60
 msgid "Implements WMS standards 1.1.1 and 1.3.0"
@@ -244,10 +209,7 @@ msgstr "Rich-data-models können direkt angezeigt werden."
 
 #: ../../build/doc/overview/deegree_overview.rst:73
 msgid "**WMTS**"
-msgstr ""
-"Der deegree WMTS ist eine Implementierung der `OGC Web Map Tile Service "
-"Spezifikation <http://www.opengeospatial.org/standards/wmts>`_. Einige "
-"Eigenschaften:"
+msgstr "**WMTS**"
 
 #: ../../build/doc/overview/deegree_overview.rst:75
 msgid "Implements Basic WMTS standard 1.0.0 (KVP)"
@@ -271,10 +233,7 @@ msgstr "Unterstützt GetFeatureInfo für Remote WMS Datenquellen"
 
 #: ../../build/doc/overview/deegree_overview.rst:81
 msgid "**CSW**"
-msgstr ""
-"Der deegree CSW ist eine Implementierung der `OGC Catalogue Service "
-"Spezifikation <http://www.opengeospatial.org/standards/cat>`_. Einige "
-"Eigenschaften:"
+msgstr "**CSW**"
 
 #: ../../build/doc/overview/deegree_overview.rst:83
 msgid "Implements CSW standard 2.0.2"
@@ -326,10 +285,7 @@ msgstr "Komplexe Filter-Ausdrücke"
 
 #: ../../build/doc/overview/deegree_overview.rst:94
 msgid "**WPS**"
-msgstr ""
-"Der deegree WPS ist eine Implementierung der `OGC Processing Service "
-"Spezifikation <http://www.opengeospatial.org/standards/wps>`_. Einige "
-"Eigenschaften:"
+msgstr "**WPS**"
 
 #: ../../build/doc/overview/deegree_overview.rst:96
 msgid "Implements WPS standard 1.0.0"
@@ -380,28 +336,28 @@ msgid "Implemented Standards"
 msgstr "Implementierte Standards"
 
 #: ../../build/doc/overview/deegree_overview.rst:111
-msgid "OGC Web Feature Service (WFS) 1.0.0, 1.1.0 and 2.0.0"
-msgstr "OGC Web Feature Service (WFS) 1.0.0, 1.1.0 und 2.0.0"
+msgid "|WFS| 1.0.0, 1.1.0 and 2.0.0"
+msgstr "|WFS| 1.0.0, 1.1.0 und 2.0.0"
 
 #: ../../build/doc/overview/deegree_overview.rst:112
-msgid "OGC Web Map Service (WMS) 1.1.1 and 1.3.0"
-msgstr "OGC Web Map Service (WMS) 1.1.1 und 1.3.0"
+msgid "|WMS| 1.1.1 and 1.3.0"
+msgstr "|WMS| 1.1.1 und 1.3.0"
 
 #: ../../build/doc/overview/deegree_overview.rst:113
-msgid "OGC Web Map Tile Service (WMTS) 1.1.0"
-msgstr "OGC Web Map Tile Service (WMTS) 1.1.0"
+msgid "|WMTS| 1.1.0"
+msgstr "|WMTS| 1.1.0"
 
 #: ../../build/doc/overview/deegree_overview.rst:114
 msgid "OGC Catalogue Service-Web (CSW) 2.0.2"
 msgstr "OGC Catalogue Service-Web (CSW) 2.0.2"
 
 #: ../../build/doc/overview/deegree_overview.rst:115
-msgid "OGC Web Processing Service (WPS) 1.0.0"
-msgstr "OGC Web Processing Service (WPS) 1.0.0"
+msgid "|WPS| 1.0.0"
+msgstr "|WPS| 1.0.0"
 
 #: ../../build/doc/overview/deegree_overview.rst:116
-msgid "OGC GML 2.12, 3.0.1, 3.1.1 and 3.2.1"
-msgstr "OGC GML 2.12, 3.0.1, 3.1.1 und 3.2.1"
+msgid "|GML| 2.12, 3.0.1, 3.1.1 and 3.2.1"
+msgstr "|GML| 2.12, 3.0.1, 3.1.1 und 3.2.1"
 
 #: ../../build/doc/overview/deegree_overview.rst:119
 msgid "Details"

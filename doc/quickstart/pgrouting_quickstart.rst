@@ -7,6 +7,9 @@
 
 @LOGO_pgrouting@
 @OSGEO_KIND_pgrouting@
+@VMDK_pgrouting@
+
+
 
 ********************************************************************************
 @NAME_pgrouting@ Quickstart
@@ -23,7 +26,7 @@ Enabling pgRouting in a database
 ================================
 In this example we will create a database called `city_routing` and enable pgRouting in the database.
 
-* Open a :menuselection:`Applications --> Accessories --> Terminal` window and open up psql: (psql is the commandline tool packaged with PostgreSQL)
+* Open a :menuselection:`System Tools --> LXTerminal` window and open up psql: (psql is the commandline tool packaged with PostgreSQL)
 
 ::
 
@@ -101,7 +104,7 @@ Output should be something like:
 Running pgRouting
 =================
 
-* Open a :menuselection:`Applications --> Accessories --> Terminal` window and connect to the ``city_routing`` database:
+* Open a :menuselection:`System Tools --> LXTerminal` window and connect to the ``city_routing`` database:
 
 ::
 

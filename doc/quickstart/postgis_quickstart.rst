@@ -24,6 +24,9 @@
 
 @LOGO_postgis@
 @OSGEO_KIND_postgis@
+@VMDK_postgis@
+
+
 
 ********************************************************************************
 @NAME_postgis@ Quickstart
@@ -577,27 +580,29 @@ Find new tables in your database and have a look at the data from a foreign tabl
 
 ::
 
-Select * from planet_osm_polygon limit 10;
+  Select * from planet_osm_polygon limit 10;
 
 Connect to a remote OGR data source via ogr_fdw
 ================================================================================
 
-There is the great extension ``ogr_fdw`` that allows you to connect so several geodata formats like KML, GeoPackage, WFS, GeoJSON, GPX, GML & more.
+The extension ``ogr_fdw`` allows connection too several geodata formats like KML,
+GeoPackage, WFS, GeoJSON, GPX, GML and more.
 
 Read more about ``ogr_fdw``:
-
-* https://github.com/pramsey/pgsql-ogr-fdw 
+* Repository: https://github.com/pramsey/pgsql-ogr-fdw 
 * New and improved: http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html
 
 
-You need the extension ``ogr_fdw`` in your database.
+.. rubric:: Install the extension ``ogr_fdw`` in your database.
+
+On the database prompt type:
 
 ::
 
  CREATE EXTENSION ogr_fdw;
 
 
-Have a look which formats are supported:
+.. rubric:: Inspect which formats are supported:
 
 Open a terminal and search for ogr_fdw_info:
 
@@ -606,6 +611,7 @@ Open a terminal and search for ogr_fdw_info:
  locate ogr_fdw_info 
  /usr/lib/postgresql/10/bin/ogr_fdw_info -f
 
+Results might look like these:
 ::
 
  Supported Formats:
@@ -620,17 +626,23 @@ Open a terminal and search for ogr_fdw_info:
   -> "MapInfo File" (read/write)
   .... many more
   
-Let's create a FDW to a WFS
+
+
+.. rubric:: Create a FDW to a WFS
 
 Start Geoserver via :menuselection:`Geospatial --> Web Services --> GeoServer -->  Start GeoServer`
 
 * Open GeoServer http://localhost:8082/geoserver/web/
 * GeoServer WFS GetCapabilities http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities
-* GeoServer WFS DescribeFeatureType for topp:states http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states 
-* GeoServer WFS GetFeature topp:stateshttp://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states
+* GeoServer WFS DescribeFeatureType for topp:states 
+  `http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states 
+  <http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states>`__
+* GeoServer WFS GetFeature topp:states 
+  `http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states
+  <http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states>`__
 
 
-Create a foreign server that refers to the WFS that you want to connect
+.. rubric:: Create a foreign server that refers to the WFS that you want to connect
 
 ::
 
@@ -638,8 +650,9 @@ Create a foreign server that refers to the WFS that you want to connect
   FOREIGN DATA WRAPPER ogr_fdw 
   OPTIONS ( datasource 'WFS:http://localhost:8082/geoserver/ows', format 'WFS' );
 
-Now you can import all WFS feature_types as foreign tables with one command. After the import you will see several new foreign tables in your schema. 
+.. rubric:: Import all WFS feature_types as foreign tables with one command.
 
+After the import you will see several new foreign tables in your schema. 
 
 ::
 
@@ -647,11 +660,11 @@ Now you can import all WFS feature_types as foreign tables with one command. Aft
  FROM SERVER fdw_ogr_server_wfs
     INTO public;
 
-Have a look at the foreign data table ``topp_states``:
+.. rubric:: Inspect the foreign data table ``topp_states``:
 
 ::
 
- Select * from topp_states where state_name = 'Minnesota';  
+ SELECT * FROM topp_states WHERE state_name = 'Minnesota';  
 
 
 Things to try

@@ -8,15 +8,16 @@
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Richard Bischof <richard.bischof@lgln.niedersachsen.de>, 2018
 # Astrid Emde <astrid_emde@osgeo.org>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-09-23 12:06-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,6 +35,9 @@ msgid ""
 "detailed on the `OSGeoLive Wiki "
 "<https://trac.osgeo.org/osgeolive#Communication>`_."
 msgstr ""
+"Die Entwicklung von OSGeoLive wird über E-Mail und Internet-Chat (IRC) "
+"koordiniert. Weitere Informationen hierzu sind im `OSGeo Wiki "
+"<https://trac.osgeo.org/osgeolive#Communication>`_ zu finden."
 
 #: ../../build/doc/contact.rst:9
 msgid "Disclaimer"
@@ -83,19 +87,19 @@ msgstr "Unterstützung durch die Gemeinschaft"
 msgid ""
 "If you have any questions, comments, or run into any problems, please drop "
 "us a note on `our mailing list "
-"<http://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
+"<https://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
 msgstr ""
 "Wenn Sie Fragen, Anmerkungen oder Schwierigkeiten haben, erhalten Sie Hilfe "
-"auf der Mailing Liste <http://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
+"auf der Mailing Liste "
+"<https://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
 
 #: ../../build/doc/contact.rst:29
 msgid ""
-"Searchable archives of the mailing list are hosted by `Nabble <http://osgeo-"
-"org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_."
+"Searchable archives of the mailing list are hosted by `Nabble <http://www"
+".osgeo-org.1560.x6.nabble.com/OSGeoLive-f3777350.html>`_."
 msgstr ""
-"Durchsuchbare Archive werden von `Nabble <http://osgeo-"
-"org.1560.x6.nabble.com/OSGeo-FOSS4G-LiveDVD-f3777350.html>`_ zur Verfügung "
-"gestellt."
+"Durchsuchbare Archive werden von `Nabble <http://www.osgeo-"
+"org.1560.x6.nabble.com/OSGeoLive-f3777350.html>`_ zur Verfügung gestellt."
 
 #: ../../build/doc/contact.rst:32
 msgid ""
@@ -109,21 +113,21 @@ msgstr ""
 #: ../../build/doc/contact.rst:35
 msgid ""
 "A wealth of information is available on our `Wiki site "
-"<http://wiki.osgeo.org/wiki/OSGeoLive>`_, and a `bug and wish tracking "
+"<https://trac.osgeo.org/osgeolive/wiki>`_, and a `bug and wish tracking "
 "system <https://trac.osgeo.org/osgeolive/report/10>`_ is also available."
 msgstr ""
 "Eine Fülle von Informationen ist auf der `Wikiseite "
-"<http://wiki.osgeo.org/wiki/OSGeoLive>`_ verfügbar und ein `Tracking System "
-"für Probleme und Wünsche <https://trac.osgeo.org/osgeolive/report/10>`_ "
+"<https://trac.osgeo.org/osgeolive/wiki>`_ verfügbar und ein `Tracking System"
+" für Probleme und Wünsche <https://trac.osgeo.org/osgeolive/report/10>`_ "
 "steht ebenso bereit."
 
 #: ../../build/doc/contact.rst:38
 msgid ""
 "Stay tuned and follow OSGeoLive on Twitter `@osgeolive "
-"<https:twitter.com/osgeolive>`_."
+"<https://mobile.twitter.com/osgeolive>`_."
 msgstr ""
 "Bleiben Sie auf dem Laufenden und folgen Sie OSGeoLive auf Twitter "
-"`@osgeolive <https:twitter.com/osgeolive>`_."
+"`@osgeolive <https://mobile.twitter.com/osgeolive>`_."
 
 #: ../../build/doc/contact.rst:41
 msgid "Commercial Support"

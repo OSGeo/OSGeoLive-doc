@@ -77,5 +77,6 @@ Details
 **Support:** https://www.openstreetmap.org/help
 
 
+@VMDK_osm@
 @QUICKSTART_osm@
 

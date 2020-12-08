@@ -4,16 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-04-02 08:38-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,10 +29,10 @@ msgstr "PyWPS gyorstalpaló"
 #: ../../build/doc/quickstart/pywps_quickstart.rst:22
 msgid ""
 "PyWPS is an OGC WPS (Web Processing Service 1.0.0) server implementation "
-"written in `Python <http://python.org>`_."
+"written in `Python <https://www.python.org>`_."
 msgstr ""
-"A PyWPS egy `Python-ban <http://python.org>`_ írt OGC WPS  (Web Processing "
-"Service 1.0.0) szerver implementáció."
+"A PyWPS egy `Python-ban <https://www.python.org>`_ írt OGC WPS  (Web "
+"Processing Service 1.0.0) szerver implementáció."
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:25
 msgid ""
@@ -39,14 +40,14 @@ msgid ""
 "core library that is not intended to be executed directly, but rather to be "
 "used in the development of WPS services. An `example service "
 "<https://github.com/geopython/pywps-flask>`_ based on `Flask "
-"<http://flask.pocoo.org/>`_ is available at GitHub to facilitate a first "
-"contact with PyWPS."
+"<https://flask.palletsprojects.com>`_ is available at GitHub to facilitate a"
+" first contact with PyWPS."
 msgstr ""
 "APyWPS 4.0.0. könyvtárat telepítették az OSGeoLive-on. Ez egy alap könyvtár "
 "nem a közvetlen végrehajtás a cél, hanem inkább WPS szolgáltatások "
-"fejlesztésére használható. Egy  `Flask <http://flask.pocoo.org/>`_  alapú "
-"`példa szolgáltatás  <https://github.com/geopython/pywps-flask>`_ elérhető a"
-" GitHub-on az első PyWPS találkozás megkönnyítése érdekében."
+"fejlesztésére használható. Egy  `Flask <https://flask.palletsprojects.com>`_"
+"  alapú `példa szolgáltatás  <https://github.com/geopython/pywps-flask>`_ "
+"elérhető a GitHub-on az első PyWPS találkozás megkönnyítése érdekében."
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:31
 msgid "This Quickstart describes how to:"
@@ -146,6 +147,9 @@ msgid ""
 "listening: `http://127.0.0.1:5000/ <http://127.0.0.1:5000/>`_ You will be "
 "presented with the following page:"
 msgstr ""
+"Nyisson meg egy web böngészőt és mutasson arra a címre, ahol a példa "
+"szolgáltatás figyel: `http://127.0.0.1:5000/ <http://127.0.0.1:5000/>`_  A "
+"következő lap jelenik meg:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:81
 msgid ""
@@ -228,7 +232,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:150
 msgid "What's next"
-msgstr ""
+msgstr "Mi a következő"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:152
 msgid ""
@@ -243,12 +247,16 @@ msgid ""
 "Official documentation - For further information on PyWPS configuration and "
 "the API, consult the `documentation`_ on the PyWPS website."
 msgstr ""
+"Hivatalos dokumentáció - További információkért a PyWPS konfigurációról és "
+"az API-ról olvassa a `documentation`_ a PyWPS honlapon."
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:157
 msgid ""
 "Tutorial - Try out the `workshop`_, a tutorial used in workshops to "
 "introduce new users to PyWPS 4."
 msgstr ""
+"Próbálja ki a  `workshop`_-ot, ami egy workshop oktatóanyag az új "
+"felhasználóknak a PyWPS 4 bemutatásáról."
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:160
 msgid ""
@@ -256,7 +264,14 @@ msgid ""
 "and not designed for production. One possible alternative is a Django based "
 "service, `pywps-django <https://github.com/jorgejesus/pywps-django>`_. The "
 "documentation provides further details on how to `set up a production "
-"service <http://pywps.readthedocs.io/en/latest/deployment.html>`_ with "
+"service <https://pywps.readthedocs.io/en/latest/deployment.html>`_ with "
 "`Apache <https://httpd.apache.org/>`_ or `nginx <https://nginx.org/>`_ and "
-"`Gunicorn <http://gunicorn.org/>`_."
+"`Gunicorn <https://gunicorn.org/>`_."
 msgstr ""
+"A `pywps-flask` szolgáltatás csak egy példa, nem terveztük komoly "
+"használatra. Egy lehetséges alternatíva a Django alapú szolgáltatás, `pywps-"
+"django <https://github.com/jorgejesus/pywps-django>`_. A dokumentáció "
+"további részleteket tartalmaz hogyan `állítsunk fel egy produktív "
+"szolgáltatást <https://pywps.readthedocs.io/en/latest/deployment.html>`_ "
+"Apache-val <https://httpd.apache.org/>`_ vagy `nginx-el "
+"<https://nginx.org/>`_ és `Gunicorn-nal <https://gunicorn.org/>`_."

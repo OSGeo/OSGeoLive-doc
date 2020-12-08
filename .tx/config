@@ -757,3 +757,37 @@ source_file = locale/pot/overview/mapcache_overview.pot
 source_lang = en
 type = PO
 
+[osgeolive.quickstart--geostyler_quickstart]
+file_filter = locale/<lang>/LC_MESSAGES/quickstart/geostyler_quickstart.po
+source_file = locale/pot/quickstart/geostyler_quickstart.pot
+source_lang = en
+type = PO
+
+[osgeolive.overview--geostyler_overview]
+file_filter = locale/<lang>/LC_MESSAGES/overview/geostyler_overview.po
+source_file = locale/pot/overview/geostyler_overview.pot
+source_lang = en
+type = PO
+
+[osgeolive.quickstart--re3gistry_quickstart]
+file_filter = locale/<lang>/LC_MESSAGES/quickstart/re3gistry_quickstart.po
+source_file = locale/pot/quickstart/re3gistry_quickstart.pot
+source_lang = en
+type = PO
+
+[osgeolive.overview--re3gistry_overview]
+file_filter = locale/<lang>/LC_MESSAGES/overview/re3gistry_overview.po
+source_file = locale/pot/overview/re3gistry_overview.pot
+source_lang = en
+
+[osgeolive.quickstart--pygeoapi_quickstart]
+file_filter = locale/<lang>/LC_MESSAGES/quickstart/pygeoapi_quickstart.po
+source_file = locale/pot/quickstart/pygeoapi_quickstart.pot
+source_lang = en
+type = PO
+
+[osgeolive.overview--pygeoapi_overview]
+file_filter = locale/<lang>/LC_MESSAGES/overview/pygeoapi_overview.po
+source_file = locale/pot/overview/pygeoapi_overview.pot
+source_lang = en
+type = PO

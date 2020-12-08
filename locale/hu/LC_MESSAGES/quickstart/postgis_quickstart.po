@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-03-25 17:45-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -57,7 +57,7 @@ msgstr "Hogyan kezeljük az adatokat a pgAdmin kliensből."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:53
 msgid "Client-server architecture"
-msgstr ""
+msgstr "Kliens-szerver architektúra"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:55
 msgid ""
@@ -90,11 +90,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:67
 msgid "Creating a spatially-enabled database"
-msgstr ""
+msgstr "Téradatbázis létrehozása"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:69
 msgid "Command-line clients run from within a Terminal Emulator window."
-msgstr ""
+msgstr "A parancssori kliens a terminál emulátor ablakban fut."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:71
 msgid ""
@@ -102,6 +102,9 @@ msgid ""
 "in the Accessories section. This gives you a Unix shell command prompt. "
 "Type::"
 msgstr ""
+"Indítson egy terminál emulátort (LXTerminal ebben a verzióban) az "
+"Applications menüből az Accessories csoportból. Ez egy Unix burok parancs "
+"promptot ad. Írja be:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:75
 msgid "and hit enter to see the PostgreSQL version number."
@@ -339,7 +342,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:236
 msgid "Creating a Spatial Table using SQL"
-msgstr ""
+msgstr "Téradat tábla létrehozása SQL használatával"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:238
 msgid "Now we have a spatial database we can make some spatial tables."
@@ -409,7 +412,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:284
 msgid "Simple queries"
-msgstr ""
+msgstr "Egyszerű lekérdezések"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:286
 msgid ""
@@ -440,7 +443,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:317
 msgid "Spatial queries"
-msgstr ""
+msgstr "Térbeli lekérdezések"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:319
 msgid ""
@@ -553,7 +556,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:411
 msgid "Importing spatial data into the database"
-msgstr ""
+msgstr "Téradatok importálása az adatbázisba"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:413
 msgid ""
@@ -561,6 +564,9 @@ msgid ""
 "from other formats (f.e. ESRI Shape) into the database. Again we'll use QGIS"
 " to show this."
 msgstr ""
+"A legtöbb OSGeo asztali eszközben van más formátumú téradatok fájlból "
+"(például ESRI shape)  importálás funkciója az adatbázisba. Ismét a QGIS "
+"használjuk ennek bemutatására."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:415
 msgid ""
@@ -647,12 +653,17 @@ msgid ""
 " menu to query and modify your database non-spatially. This is the official "
 "client for PostgreSQL."
 msgstr ""
+"Használhatja a ``pgAdmin III`` grafikus adatbázist klienst a Databeses "
+"menüből a nem térbeli adatok lekérdezéséhez és módosításához. Ez a hivatalos"
+" kliens a PostgreSQL-hez."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:468
 msgid ""
 "Please note that there is a new version of pgAdmin called pgAdmin4 that can "
 "get installed via apt install pgadmin4"
 msgstr ""
+"Vegye figyelembe, hogy a pgAdmin-nak van új verziója a pgAdmin4, melyet az "
+"apt install pgadmin4 paranccsal telepíthet"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:470
 msgid ""
@@ -660,6 +671,8 @@ msgid ""
 "and launch pgAdmin III from the Databases folder, existing on the OSGeoLive "
 "Desktop."
 msgstr ""
+"A pgAdmin III lehetővé teszi az adattábláinak kezelését az SQL "
+"használatával. A Databases mappában találja és indíthatja a pgAdmin III-at."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:478
 msgid ""
@@ -714,7 +727,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:511
 msgid "Executing a SQL query from pgAdmin III"
-msgstr ""
+msgstr "Egy SQL lekérdezés végrehajtása a pgAdmin III-ból"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:512
 msgid ""
@@ -809,8 +822,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:555
 msgid "PostGIS Project home -  http://postgis.net"
-msgstr ""
+msgstr "PostGIS Projekt honlap - http://postgis.net"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:557
 msgid "PostGIS Documentation -  http://postgis.net/documentation/"
-msgstr ""
+msgstr "PostGIS Dokumentáció -  http://postgis.net/documentation/"
