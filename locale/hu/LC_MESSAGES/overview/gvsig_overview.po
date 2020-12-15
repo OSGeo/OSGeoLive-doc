@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -307,10 +307,15 @@ msgstr ""
 "**Támogatás:** http://www.gvsig.com/en/gvsig-association, "
 "http://www.gvsig.com/en/community/mailing-lists"
 
-#: ../../build/doc/overview/gvsig_overview.rst:118
+#: ../../build/doc/overview/gvsig_overview.rst:116
+msgid ""
+"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr "Ez a projekt csak az OSGeoLive virtuális gépben (VMDK) található meg"
+
+#: ../../build/doc/overview/gvsig_overview.rst:119
 msgid "Quickstart"
 msgstr "Gyorstalpaló"
 
-#: ../../build/doc/overview/gvsig_overview.rst:120
+#: ../../build/doc/overview/gvsig_overview.rst:121
 msgid ":doc:`Quickstart documentation <../quickstart/gvsig_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/gvsig_quickstart>`"

@@ -4,15 +4,15 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-23 09:57-0500\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -157,6 +157,12 @@ msgid ""
 "and downloaded on 25 July 2011. The original work was translated from "
 "English to German."
 msgstr ""
+"|CC-By-SA-med| Ez a dokumentáció Creative Commons Attribution-ShareAlike 3.0"
+" Unported licenc védelme alatt álló, Simon Cropper által készített \"gvSIG "
+"Quickstart\"-ból tartalmaz részleteket. https://creativecommons.org/licenses"
+"/by-sa/3.0/ elérhető az OSGeoLive projektből, "
+":doc:`quickstart/gvsig_quickstart` 2011. július 25-én töltöttük le. Az "
+"eredeti munkát angolból németre fordították."
 
 #: ../../build/doc/copyright.rst:36
 msgid "**Concise CC-By-SA and attribution:**"
@@ -169,6 +175,10 @@ msgid ""
 "from|Includes|Extends] :doc:`OSGeoLive <index>` documentation by "
 ":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
+"© 2011 [Your Name] under a `CC By SA License "
+"<https://creativecommons.org/licenses/by-sa/3.0/>`_.  [Derived "
+"from|Includes|Extends] :doc:`OSGeoLive <index>` dokumentáció by "
+":doc:`OSGeoLive hozzájárulóktól <copyright>`."
 
 #: ../../build/doc/copyright.rst:40
 msgid "**Alternative Concise CC-By and attribution:**"
@@ -180,6 +190,9 @@ msgid ""
 ":doc:`OSGeoLive <index>` Project Overviews by :doc:`OSGeoLive contributors "
 "<copyright>`."
 msgstr ""
+"|CC-By-small| © 2011 [Your Name]. [Derived from|Includes|Extends] "
+":doc:`OSGeoLive <index>` Projekt áttekintők a :doc:`OSGeoLive "
+"hozzájárulóktól <copyright>`."
 
 #: ../../build/doc/copyright.rst:47
 msgid "**Minimum (for Project Overviews), attribution only:**"
@@ -190,6 +203,8 @@ msgid ""
 "This document includes :doc:`OSGeoLive <index>` Project Overviews by "
 ":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
+"Ez a dokumentum az :doc:`OSGeoLive <index>` hozzájárulók   által készített  "
+":doc:`OSGeoLive <copyright>` projekt áttekintőket tartalmazza."
 
 #: ../../build/doc/copyright.rst:52
 msgid "Documentation Contributors"

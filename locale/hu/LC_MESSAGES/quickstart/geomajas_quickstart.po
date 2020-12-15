@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-23 09:57-0500\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:19
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:22
 msgid "Geomajas Quickstart"
 msgstr "Geomajas gyorstalpaló"
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:21
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:24
 msgid ""
 "Geomajas itself is an application framework allowing you to build very "
 "diverse and advanced web GIS solutions."
@@ -34,7 +34,7 @@ msgstr ""
 "A Geomajas maga egy alkalmazás keretrendszer, mely szerteágazó és kifinomult"
 " webes GIS megoldások készítését teszi lehetővé."
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:23
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:26
 msgid ""
 "On this OSGeo Live DVD we have included a ready-to-use Geomajas Application."
 " This application features a map, navigation controllers, several data "
@@ -44,11 +44,11 @@ msgstr ""
 " az alkalmazás egy térképet, navigációs vezérlőket, számos adat réteget, egy"
 " eszköztárat GIS eszközökkel és a réteg fát tartalmazza."
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:34
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:37
 msgid "Start Geomajas"
 msgstr "Geomajas indítása"
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:36
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:39
 msgid ""
 "From the Desktop, select :menuselection:`Browser Clients --> Start "
 "Geomajas`. Wait for Geomajas to open in a browser window."
@@ -56,7 +56,7 @@ msgstr ""
 "Az asztalról válassza a :menuselection:`Browser Clients --> Start "
 "Geomajas`-t. Várjon a Geomajas-ra amíg a böngésző ablakban megnyílik."
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:38
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:41
 msgid ""
 "Alternatively, you can then access the application using the following URL: "
 "`<http://localhost:8080/geomajas/>`_."
@@ -64,7 +64,7 @@ msgstr ""
 "Alternatív megoldásként a böngészőből is elérheti az alkalmazást a következő"
 " URL-en: `<http://localhost:8080/geojamas>`_."
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:44
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:47
 msgid ""
 "When you’re finished using the application, select :menuselection:`Browser "
 "Clients --> Stop Geomajas`."
@@ -72,11 +72,11 @@ msgstr ""
 "Amikor befejezte az alkalmazás használatát, válassza "
 "a:menuselection:`Browser Clients --> Stop Geomajas`-t."
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:47
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:50
 msgid "Navigating the map"
 msgstr "Navigáció a térképen"
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:52
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:55
 msgid ""
 "You can drag the map with your mouse so that the desired area is centered on"
 " your screen."
@@ -84,7 +84,7 @@ msgstr ""
 "Húzhatja a térképet az egérrel, hogy a kívánt területet középre hozza a "
 "képernyőn."
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:54
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:57
 msgid ""
 "To get a closer look, you can either use the mousewheel to zoom in or use "
 "the provided zoom-buttons in the upper left of the application."
@@ -92,7 +92,7 @@ msgstr ""
 "Egy közelebbi nézethez használja az egérgörgőt vagy a nagyítás gombot az "
 "alkalmazás bal-felső sarkában."
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:56
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:59
 msgid ""
 "You can also select an area to display by clicking the magnifier icon and "
 "selecting the desired area (via rectangular select)."
@@ -100,11 +100,11 @@ msgstr ""
 "Kiválaszthatja a megjelenítendő területet a nagyító ikonnal kattintva és a "
 "kívánt terület kiválasztásával (téglalap kiválasztással)."
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:59
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:62
 msgid "Understanding the legend"
 msgstr "A jelmagyarázat megértése"
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:64
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:67
 msgid ""
 "In the upper right, a toggleable legend box is provided. This legend gives "
 "you an overview of all the layers currently loaded into the application, "
@@ -116,11 +116,11 @@ msgstr ""
 "rétegről, a ki-, bekapcsolás lehetőségével. Részletes információt is "
 "megjelenít az egyes rétegekről az ikonra, a színekre, stb. vonatkozóan."
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:68
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:71
 msgid "Gathering information"
 msgstr "Információ gyűjtés"
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:70
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:73
 msgid ""
 "Geomajas applications have the ability to display a variety of information "
 "within the layers. Clicking on the map will display the related information "
@@ -132,11 +132,11 @@ msgstr ""
 " elérhető. A bal felső info ikonra kattintva válthatunk az alap és részletes"
 " információk között."
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:75
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:78
 msgid "Things to try"
 msgstr "Kipróbálandó dolgok"
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:77
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:80
 msgid ""
 "If you want to use this sample application to build and customize your own "
 "Web GIS solution, visit `<http://www.geomajas.org/client-gwt>`_. The "
@@ -149,18 +149,18 @@ msgstr ""
 "legújabb és legjobb minta alkalmazásokat, dokumentációt, tippeket és "
 "trükköket tartalmazza, hogy elkészíthesse a sajátját."
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:81
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:84
 msgid "What next?"
 msgstr "Mi a következő?"
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:83
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:86
 msgid ""
 "To continue using the web demo, visit `<http://www.geomajas.org/demo>`_."
 msgstr ""
 "A web demó használatának a folytatásához keresse fel a "
 "`<http://www.geomajas.org/demo>`_ oldalt."
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:84
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:87
 msgid ""
 "To continue using the stand-alone application, visit "
 "`<http://files.geomajas.org/downloads/2.3.0/geomajas-standalone-gwt2.zip>`_."
@@ -169,7 +169,7 @@ msgstr ""
 "<http://files.geomajas.org/downloads/2.3.0/geomajas-standalone-gwt2.zip>`_ "
 "oldalt."
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:87
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:90
 msgid ""
 "Interested in learning more about Geomajas? The following links provide more"
 " information:"
@@ -177,11 +177,11 @@ msgstr ""
 "Többet szeretne megtanulni a Geomajas-ról? A következő linkeken további "
 "információt talál:"
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:89
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:92
 msgid "**Geomajas:** `<http://www.geomajas.org/>`_"
 msgstr "**Geomajas:** `<http://www.geomajas.org/>`_"
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:90
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:93
 msgid ""
 "**GitHub:** `<https://github.com/geomajas/geomajas-gwt2-quickstart-"
 "application>`_"
@@ -189,10 +189,10 @@ msgstr ""
 "**GitHub:** `<https://github.com/geomajas/geomajas-gwt2-quickstart-"
 "application>`_"
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:91
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:94
 msgid "**OSGeo:** :doc:`../overview/geomajas_overview`"
 msgstr "**OSGeo:** :doc:`../overview/geomajas_overview`"
 
-#: ../../build/doc/quickstart/geomajas_quickstart.rst:92
+#: ../../build/doc/quickstart/geomajas_quickstart.rst:95
 msgid "**Wiki:** `<https://wiki.osgeo.org/wiki/Geomajas>`_"
 msgstr "**Wiki:** `<https://wiki.osgeo.org/wiki/Geomajas>`_"
