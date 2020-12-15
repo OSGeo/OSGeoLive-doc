@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-11-28 21:50-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -71,7 +71,7 @@ msgstr "Outils d'interface courants des SIG bureautique:"
 
 #: ../../build/doc/overview/josm_overview.rst:38
 msgid ""
-"Tool bar customization, View control (zoom, pan. etc), styles, icons and "
+"Toolbar customization, View control (zoom, pan. etc), styles, icons and "
 "layers management."
 msgstr ""
 "Personnalisation de la barre d'outils, contrôle de la vue (zoom, "
@@ -191,11 +191,11 @@ msgstr "**Plate-formes supportées:** Windows, Linux, Mac"
 msgid "**API Interfaces:** Java"
 msgstr "**Interface d'API:** Java"
 
-#: ../../build/doc/overview/josm_overview.rst:88
+#: ../../build/doc/overview/josm_overview.rst:89
 msgid "Quickstart"
 msgstr "Guide de démarrage rapide"
 
-#: ../../build/doc/overview/josm_overview.rst:90
+#: ../../build/doc/overview/josm_overview.rst:91
 msgid ":doc:`Quickstart documentation <../quickstart/josm_quickstart>`"
 msgstr ""
 ":doc:`Documentation du guide démarrage rapide "

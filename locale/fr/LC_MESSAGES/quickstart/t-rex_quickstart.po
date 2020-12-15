@@ -5,17 +5,17 @@
 # 
 # Translators:
 # MarieSilvestre, 2019
-# Nicolas Roelandt (Personnel), 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Nicolas Roelandt (Personnel), 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-23 09:57-0500\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,11 +23,11 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:17
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:20
 msgid "t-rex Quickstart"
 msgstr "Guide de démarrage rapide t-rex"
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:19
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:22
 msgid ""
 "t-rex is a vector tile server specialized on publishing MVT tiles from your "
 "own data."
@@ -35,11 +35,11 @@ msgstr ""
 "t-rex est un serveur de tuiles vectorielles spécialisé dans la publication "
 "de tuiles MVT à partir de vos propres données."
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:21
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:24
 msgid "This Quick Start describes how to:"
 msgstr "Ce guide décrit comment :"
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:23
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:26
 msgid ""
 "generate vector tiles without configuration and inspect them with built-in "
 "viewers"
@@ -47,22 +47,22 @@ msgstr ""
 "générer des tuiles vectorielles sans configuration et les inspecter avec des"
 " visionneuses intégrées"
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:24
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:27
 msgid "generate a tile cache"
 msgstr "générer un cache de tuiles"
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:30
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:33
 msgid "Start T-Rex"
 msgstr "Démarrer T-Rex"
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:32
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:35
 msgid ""
 "Choose :menuselection:`Geospatial --> Web Services --> T-Rex` from the menu."
 msgstr ""
 "Choisissez :menuselection:`Geospatial --> Web Services --> T-Rex`  à partir "
 "du menu."
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:34
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:37
 msgid ""
 "This starts t-rex in zero-config mode connecting to PostGIS database "
 "`osm_local`. A browser window is opened showing the t-rex backend."
@@ -71,34 +71,34 @@ msgstr ""
 "PostGIS `osm_local`. Un navigateur web s'ouvre pour afficher l'arrière-"
 "boutique de t-rex."
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:41
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:44
 msgid "Built-in viewers"
 msgstr "Visionneuses intégrées"
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:43
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:46
 msgid ""
 "t-rex comes with built-in viewers for inspecting generated vector tiles."
 msgstr ""
 "t-rex est livré avec des visionneuses intégrées pour inspecter les tuiles "
 "vectorielles générées."
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:45
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:48
 msgid ""
 "Click on th `X-Ray` entry in the upper right menu to open the x-ray viewer."
 msgstr ""
 "Cliquez sur l'entrée `X-Ray` dans le menu supérieur droit pour ouvrir la "
 "visionneuse rayons X."
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:46
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:49
 msgid "Hover the mouse on a line to inspect the content of a feature."
 msgstr ""
 "Survolez une ligne avec la souris pour inspecter le contenu d'une entité."
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:51
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:54
 msgid "Try also the other viewers."
 msgstr "Essayez aussi les autres visionneuses."
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:53
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:56
 msgid ""
 "The Mapbox GL viewer and Maputnik require WebGL support, which is probably "
 "not available when running OSGeoLive in a VM."
@@ -107,21 +107,22 @@ msgstr ""
 "n'est probablement pas disponible lors de l'exécution d'OSGeoLive dans une "
 "machine virtuelle."
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:57
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:60
 msgid "Cache seeding"
 msgstr "Ensemencement de cache"
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:59
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:62
 msgid "Close the browser and the terminal window running t-rex."
 msgstr "Fermez le navigateur et l'émulateur de terminal exécutant t-rex."
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:60
-msgid "Open any text editor (e.g. :menuselection:`Accessories --> Leafpad`)."
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:63
+msgid ""
+"Open any text editor (e.g. :menuselection:`Accessories --> FeatherPad`)."
 msgstr ""
 "Ouvrez n'importe quel éditeur de texte (par exemple "
-":menuselection:`Accessories --> Leafpad`)."
+":menuselection:`Accessories --> FeatherPad`)."
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:62
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:65
 msgid ""
 "Create the file \"ne.toml\" in your home directory: "
 ":file:`/home/user/ne.toml`"
@@ -129,26 +130,26 @@ msgstr ""
 "Créez le fichier \"ne.toml\" dans votre répertoire à la maison: "
 ":file:`/home/user/ne.toml`"
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:65
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:68
 msgid "Put the following content in it::"
 msgstr "Mettez dedans le contenu suivant ::"
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:108
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:111
 msgid ""
 "Open a terminal (:menuselection:`System Tools --> LXTerminal`) and type::"
 msgstr ""
 "Ouvrez un terminal (:menuselection:`System Tools --> LXTerminal`) et "
 "saisissez::"
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:112
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:115
 msgid "To inspect the generated tiles type::"
 msgstr "Pour inspecter le type de tuiles générées :"
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:118
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:121
 msgid "What next?"
 msgstr "Ensuite ?"
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:120
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:123
 msgid ""
 "To create your own map viewer you can use the snippets on the info page in "
 "the t-rex backend."
@@ -156,7 +157,7 @@ msgstr ""
 "Pour créer votre propre visionneuse de carte, vous pouvez utiliser les "
 "extraits de la page d'information dans le backend t-rex."
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:122
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:125
 msgid ""
 "After that you can use the built-in Maputnik editor (also linked from the "
 "info page) to create your own Mapbox GL Json style."
@@ -165,10 +166,10 @@ msgstr ""
 " partir de la page d'information) pour créer votre propre style Mapbox GL "
 "Json."
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:125
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:128
 msgid "Website: https://t-rex.tileserver.ch/"
 msgstr "**Site Internet:** https://t-rex.tileserver.ch/"
 
-#: ../../build/doc/quickstart/t-rex_quickstart.rst:126
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:129
 msgid "Support: https://github.com/t-rex-tileserver/t-rex/"
 msgstr "**Support:** https://github.com/t-rex-tileserver/t-rex/"
