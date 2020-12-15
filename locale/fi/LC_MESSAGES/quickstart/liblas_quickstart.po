@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:15
+#: ../../build/doc/quickstart/liblas_quickstart.rst:18
 msgid "libLAS Quickstart"
 msgstr "libLAS Pika-aloitus"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:17
+#: ../../build/doc/quickstart/liblas_quickstart.rst:20
 msgid ""
 "libLAS is a C/C++ library for reading and writing the very common LAS LiDAR "
 "format. The ASPRS LAS format is a sequential binary format used to store "
@@ -37,7 +37,7 @@ msgstr ""
 "käytetään tietojen tallentamiseen LiDAR-antureista ja LiDAR-"
 "prosessointiohjelmistolla tietojen vaihtoa ja arkistointia varten."
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:19
+#: ../../build/doc/quickstart/liblas_quickstart.rst:22
 msgid ""
 "LiDAR (Light Detection and Ranging) is a form of high precision range "
 "detection much like a radar system that uses laser light as the "
@@ -54,11 +54,11 @@ msgstr ""
 "päästöön. Näille pistepilvetiedoille yleinen tallennusmuoto on ASPRS LAS "
 "-muoto."
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:25
+#: ../../build/doc/quickstart/liblas_quickstart.rst:28
 msgid "Processing"
 msgstr "Käsittely"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:27
+#: ../../build/doc/quickstart/liblas_quickstart.rst:30
 msgid ""
 "The libLAS 'command-line utilities' provide the bulk of user-facing "
 "operational software for libLAS, although the underlying libLAS library is "
@@ -74,11 +74,11 @@ msgstr ""
 "apuohjelmista ja lähestymistavoista, joita nämä tehtävät suorittavat. "
 "Demotiedot löytyvät tiedostosta :file:`/home/user/data/las/srs.las`"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:34
+#: ../../build/doc/quickstart/liblas_quickstart.rst:37
 msgid "Reprojecting an LAS file"
 msgstr "LAS-tiedoston uudelleenprojektiominen"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:36
+#: ../../build/doc/quickstart/liblas_quickstart.rst:39
 msgid ""
 "All LAS data are in some sort of coordinate system, even if that coordinate "
 "system is not described in the LAS file.  For terrestrial LAS data, these "
@@ -92,7 +92,7 @@ msgstr ""
 "`EPSG`_-tietokannan kuvaamia koordinaattijärjestelmiä. Toinen tietolähde "
 "koordinaattijärjestelmistä osoitteessa https://spatialreference.org."
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:49
+#: ../../build/doc/quickstart/liblas_quickstart.rst:52
 msgid ""
 "The --no-check option tells lasinfo to only print the header information for"
 " the file and to not scan through all of the points.  For a 10 point file, "
@@ -106,7 +106,7 @@ msgstr ""
 "miljoonan pisteen tiedostossa ei kannata odottaa tietojen täydellistä "
 "tarkistusta, jos haluat vain otsikkotietoja."
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:55
+#: ../../build/doc/quickstart/liblas_quickstart.rst:58
 msgid ""
 "Our 'lasinfo' invocation tells us that the ``srs.las`` file is in a UTM "
 "North Zone 17 coordinate system:"
@@ -114,7 +114,7 @@ msgstr ""
 "Meidän 'lasinfo' kutsumus kertoo meille, että ``srs.las`` tiedosto on UTM "
 "North Zone 17 koordinaattijärjestelmä:"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:79
+#: ../../build/doc/quickstart/liblas_quickstart.rst:82
 msgid ""
 "Now that we know our input coordinate system, we can make a decision about "
 "what to reproject the data to.  In our first example, we're going to use the"
@@ -124,7 +124,7 @@ msgstr ""
 "tiedot projisoidaan. Ensimmäisessä esimerkissä aiomme käyttää kunniallista "
 "levykarjakonsentraatiojärjestelmää, `EPSG:4326`_."
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:87
+#: ../../build/doc/quickstart/liblas_quickstart.rst:90
 msgid ""
 "Our process succeeds, but after a quick inspection of the data with "
 "``lasinfo output.las`` we see a problem:"
@@ -132,7 +132,7 @@ msgstr ""
 "Prosessimme onnistuu, mutta kun nopea tarkastus tiedot ``lasinfo "
 "output.las`` näemme ongelman:"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:99
+#: ../../build/doc/quickstart/liblas_quickstart.rst:102
 msgid ""
 "The ``srs.las`` file had a scale of 0.01, or two decimal places of precision"
 " for its X, Y, and Z coordinates. For UTM data, this is ok, because it "
@@ -148,25 +148,25 @@ msgstr ""
 "menettämään joukon tarkkuutta. Meidän on asetettava mittakaava-arvomme "
 "johonkin, joka voi tapauksessamme olla tarkempia:"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:110
+#: ../../build/doc/quickstart/liblas_quickstart.rst:113
 msgid ""
 "Another quick inspection with 'lasinfo' gives us something we're more "
 "comfortable with:"
 msgstr ""
 "Toinen nopea tarkastus 'lasinfo' antaa meille jotain olemme mukavampaa:"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:124
+#: ../../build/doc/quickstart/liblas_quickstart.rst:127
 msgid "Output LAS file to text"
 msgstr "Tulosta LAS-tiedosto tekstiksi"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:131
+#: ../../build/doc/quickstart/liblas_quickstart.rst:134
 msgid "What next?"
 msgstr "Mitä seuraavaksi?"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:133
+#: ../../build/doc/quickstart/liblas_quickstart.rst:136
 msgid "Website: https://liblas.org"
 msgstr "Verkkosivusto: https://liblas.org"
 
-#: ../../build/doc/quickstart/liblas_quickstart.rst:134
+#: ../../build/doc/quickstart/liblas_quickstart.rst:137
 msgid "Support: https://liblas.org/community.html"
 msgstr "Tuki: https://liblas.org/community.html"
