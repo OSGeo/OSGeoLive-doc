@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -325,10 +325,10 @@ msgstr "**API Interfészek:** C, PHP, Python, Perl, Ruby, Java, és .NET"
 msgid "**Support:** https://mapserver.org/community/"
 msgstr "**Támogatás:** https://mapserver.org/community/"
 
-#: ../../build/doc/overview/mapserver_overview.rst:134
+#: ../../build/doc/overview/mapserver_overview.rst:135
 msgid "Quickstart"
 msgstr "Gyorstalpaló"
 
-#: ../../build/doc/overview/mapserver_overview.rst:136
+#: ../../build/doc/overview/mapserver_overview.rst:137
 msgid ":doc:`Quickstart documentation <../quickstart/mapserver_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/mapserver_quickstart>`"
