@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -156,10 +156,10 @@ msgstr "**APIs:** rasql, C++, Java"
 msgid "**Support:**  https://rasdaman.com"
 msgstr "**Support:**  https://rasdaman.com"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:73
+#: ../../build/doc/overview/rasdaman_overview.rst:74
 msgid "Quickstart"
 msgstr "Schnellstart"
 
-#: ../../build/doc/overview/rasdaman_overview.rst:75
+#: ../../build/doc/overview/rasdaman_overview.rst:76
 msgid ":doc:`Quickstart documentation <../quickstart/rasdaman_quickstart>`"
 msgstr ":doc:`Quickstart Dokumentation <../quickstart/rasdaman_quickstart>`"

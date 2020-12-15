@@ -6,15 +6,16 @@
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Astrid Emde <astrid_emde@osgeo.org>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:11+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -120,7 +121,7 @@ msgid ""
 "**Licence:** `Modified BSD License <https://github.com/Reading-eScience-"
 "Centre/ncwms/blob/master/licence.txt>`__"
 msgstr ""
-"**Licence:** `Modified BSD License <https://github.com/Reading-eScience-"
+"**Lizenz** `Modified BSD License <https://github.com/Reading-eScience-"
 "Centre/ncwms/blob/master/licence.txt>`__"
 
 #: ../../build/doc/overview/ncWMS_overview.rst:63
@@ -140,10 +141,10 @@ msgstr "**API Schnittstellen:** Java; WMS"
 msgid "**Support:** https://github.com/Reading-eScience-Centre/ncwms/issues"
 msgstr "**Support:** https://github.com/Reading-eScience-Centre/ncwms/issues"
 
-#: ../../build/doc/overview/ncWMS_overview.rst:74
+#: ../../build/doc/overview/ncWMS_overview.rst:75
 msgid "Quickstart"
 msgstr "Schnellstart"
 
-#: ../../build/doc/overview/ncWMS_overview.rst:76
+#: ../../build/doc/overview/ncWMS_overview.rst:77
 msgid ":doc:`Quickstart documentation <../quickstart/ncWMS_quickstart>`"
 msgstr ":doc:`Quickstart Dokumentation <../quickstart/ncWMS_quickstart>`"
