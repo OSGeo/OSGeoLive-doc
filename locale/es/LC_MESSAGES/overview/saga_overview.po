@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -165,10 +165,10 @@ msgstr "**Interfaces API:** C++, Python, R"
 msgid "**Support:** http://www.saga-gis.org"
 msgstr "**Soporte:** http://www.saga-gis.org"
 
-#: ../../build/doc/overview/saga_overview.rst:78
+#: ../../build/doc/overview/saga_overview.rst:79
 msgid "Quickstart"
 msgstr "Inicio Rápido"
 
-#: ../../build/doc/overview/saga_overview.rst:80
+#: ../../build/doc/overview/saga_overview.rst:81
 msgid ":doc:`Quickstart documentation <../quickstart/saga_quickstart>`"
 msgstr ":doc:`Documentación de inicio rápido <../quickstart/saga_quickstart>`"
