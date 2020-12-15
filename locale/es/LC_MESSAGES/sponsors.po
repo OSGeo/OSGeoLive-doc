@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -210,12 +210,12 @@ msgstr "a.beccati jacobs-university de"
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
+#: ../../build/contributors.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1
 msgid "Germany"
 msgstr "Alemania"
 
@@ -1059,6 +1059,18 @@ msgstr "j.drewnak 52north com"
 #: ../../build/contributors.csv:1
 msgid "drewnak"
 msgstr "drewnak"
+
+#: ../../build/contributors.csv:1
+msgid "Jan Suleiman"
+msgstr "Jan Suleiman"
+
+#: ../../build/contributors.csv:1
+msgid "suleiman terrestris de"
+msgstr "suleiman terrestris de"
+
+#: ../../build/contributors.csv:1
+msgid "jansule"
+msgstr "jansule"
 
 #: ../../build/contributors.csv:1
 msgid "Jane Lewis"

@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -167,11 +167,11 @@ msgstr "**Versión de software:** |version-gpsprune|"
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, Windows"
 msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
 
-#: ../../build/doc/overview/gpsprune_overview.rst:69
+#: ../../build/doc/overview/gpsprune_overview.rst:70
 msgid "Quickstart"
 msgstr "Inicio Rápido"
 
-#: ../../build/doc/overview/gpsprune_overview.rst:71
+#: ../../build/doc/overview/gpsprune_overview.rst:72
 msgid ":doc:`Quickstart documentation <../quickstart/gpsprune_quickstart>`"
 msgstr ""
 ":doc:`Documentación de inicio rápido  <../quickstart/gpsprune_quickstart>`"

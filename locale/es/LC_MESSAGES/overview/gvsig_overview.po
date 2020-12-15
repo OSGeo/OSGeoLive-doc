@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -312,11 +312,18 @@ msgstr ""
 "**Soporte:** http://www.gvsig.com/en/gvsig-association, "
 "http://www.gvsig.com/en/community/mailing-lists"
 
-#: ../../build/doc/overview/gvsig_overview.rst:118
+#: ../../build/doc/overview/gvsig_overview.rst:116
+msgid ""
+"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr ""
+"Este proyecto solo se incluye en el disco de máquina virtual OSGeoLive "
+"(VMDK)"
+
+#: ../../build/doc/overview/gvsig_overview.rst:119
 msgid "Quickstart"
 msgstr "Inicio Rápido"
 
-#: ../../build/doc/overview/gvsig_overview.rst:120
+#: ../../build/doc/overview/gvsig_overview.rst:121
 msgid ":doc:`Quickstart documentation <../quickstart/gvsig_quickstart>`"
 msgstr ""
 ":doc:`Documentación de inicio rápido <../quickstart/gvsig_quickstart>`"
