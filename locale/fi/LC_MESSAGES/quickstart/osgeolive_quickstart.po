@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 21:08-0600\n"
+"POT-Creation-Date: 2020-12-15 14:20-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2018\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
@@ -111,10 +111,8 @@ msgstr "Kuinka aloitetaan Lubuntu ja LXDE työpöytä (OSGeoLive käyttää sit�
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
 msgid ""
 "https://help.ubuntu.com/community/Lubuntu/Documentation and "
-"http://wiki.lxde.org"
+"https://www.lxde.org/"
 msgstr ""
-"https://help.ubuntu.com/community/Lubuntu/Documentation and "
-"http://wiki.lxde.org"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:56
 msgid "Getting started with the Ubuntu operating system:"
@@ -124,11 +122,8 @@ msgstr "Kuinka käynnistän Ubuntu käyttöjärjestelmän:"
 msgid ""
 "`local eBook "
 "<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and "
-"`extended online help <http://help.ubuntu.com/14.04/>`_"
+"`extended online help <https://help.ubuntu.com>`_"
 msgstr ""
-"`paikallinen eBook "
-"<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ ja "
-"`laajennettu online tuki <http://help.ubuntu.com/14.04/>`_"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:58
 msgid ":doc:`virtualization_quickstart`"
