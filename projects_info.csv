@@ -74,7 +74,7 @@ Y | zygrib | 8.0.1 | Y | Y | Domain Specific GIS | | Weather Forecast Maps | | h
 ###################### | | | | | | | | | | | |
 #   Data | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |
-Y | naturalearth | | N | Y | Data | | Global Data Sets | | http://www.naturalearthdata.com/ | | Natural Earth | Y
+Y | naturalearth | | N | Y | Data | | Global Data Sets | | https://www.naturalearthdata.com/ | | Natural Earth | Y
 Y | nc_dataset | | N | Y | Data | | | | https://wiki.osgeo.org/wiki/Category:Education | | North Carolina USA Educational dataset | Y
 Y | osm_dataset | | N | Y | Data | | Sample extract from OpenStreetMap | | https://www.openstreetmap.org/ | | OpenStreetMap | Y
 Y | netcdf_dataset | | N | Y | Data | | Time series temperature and precipitation | | https://wiki.osgeo.org/wiki/Category:Education | | NetCDF Data Set | Y
