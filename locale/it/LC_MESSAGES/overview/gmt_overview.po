@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2018\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
@@ -96,10 +96,10 @@ msgstr "**Interfacce API:** Command line"
 msgid "**Support:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
 msgstr "**Supporto:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
 
-#: ../../build/doc/overview/gmt_overview.rst:61
+#: ../../build/doc/overview/gmt_overview.rst:62
 msgid "Quickstart"
 msgstr "Guida rapida"
 
-#: ../../build/doc/overview/gmt_overview.rst:63
+#: ../../build/doc/overview/gmt_overview.rst:64
 msgid ":doc:`Quickstart documentation <../quickstart/gmt_quickstart>`"
 msgstr ":doc:`Documentazione introduttiva <../quickstart/gmt_quickstart>`"
