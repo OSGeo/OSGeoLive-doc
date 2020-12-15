@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2020-12-15 14:20-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,7 +85,7 @@ msgid "Getting started with Lubuntu and the LXDE desktop (which is used by OSGeo
 msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
-msgid "https://help.ubuntu.com/community/Lubuntu/Documentation and https://wiki.lxde.org/en/Main_Page"
+msgid "https://help.ubuntu.com/community/Lubuntu/Documentation and https://www.lxde.org/"
 msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:56
