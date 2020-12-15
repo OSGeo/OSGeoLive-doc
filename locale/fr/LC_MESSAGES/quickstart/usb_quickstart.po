@@ -9,15 +9,16 @@
 # Nicolas Roelandt (Personnel), 2020
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# MarieSilvestre, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-23 09:57-0500\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: MarieSilvestre, 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -66,6 +67,8 @@ msgid ""
 "An OSGeoLive ISO image (downloaded from: :doc:`OSGeoLive downloads "
 "<../download>`) or converted from a DVD."
 msgstr ""
+"Une image ISO de l'OSGeoLive (téléchargée depuis : :doc:`OSGeoLive downloads"
+" <../download>`) ou convertie depuis un DVD."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:21
 msgid ""

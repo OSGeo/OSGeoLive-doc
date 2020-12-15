@@ -11,9 +11,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -23,11 +23,11 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:15
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:18
 msgid "zyGrib Quickstart"
 msgstr "Guide de démarrage rapide de zyGrib"
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:17
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:20
 msgid ""
 "zyGrib is a program to download and visualize weather forecast data in the "
 "standard GRIB distribution format."
@@ -35,87 +35,116 @@ msgstr ""
 "zyGrib est un programne pour télécharger et visualiser des données de "
 "prévision météorologique au format standard de distribution GRIB."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:23
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:26
 msgid "Start zyGrib"
-msgstr ""
+msgstr "Démarrer zyGrib"
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:25
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:28
 msgid ""
 "From the desktop, choose :menuselection:`Navigation and Maps --> zyGrib GRIB"
 " file viewer`."
 msgstr ""
+"Depuis le bureau, choisissez :menuselection:`Navigation and Maps --> zyGrib "
+"GRIB file viewer`."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:26
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:29
 msgid ""
 "Select your preferred language and click :guilabel:`OK`. The program opens "
 "and you are presented with a map of the world."
 msgstr ""
+"Sélectionnez votre langue préférée et cliquez sur :guilabel:`OK`. Le "
+"programme s’ouvre et une carte du monde vous est présentée."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:27
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:30
 msgid ""
 "Check the connection to the data server. On the toolbar at the top right of "
 "the screen, click the power plug icon. The File Server Status window opens "
 "and after a moment, it will confirm the status of the connection."
 msgstr ""
+"Vérifiez la connexion au serveur de données. Sur la barre d’outils en haut à"
+" droite de l’écran, cliquez sur l’icône en forme de prise de courant. La "
+"fenêtre d’état du serveur de fichiers s’ouvre et après un moment, elle "
+"confirmera l’état de la connexion."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:30
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:33
 msgid ""
 "You'll need an internet connection to download GRIB weather forecast data. "
 "You can get GRIB data from many sources, but as a convenience the zyGrib "
 "authors maintain a data server to use with zyGrib."
 msgstr ""
+"Vous aurez besoin d’une connexion Internet pour télécharger les données des "
+"prévisions météorologiques GRIB. Vous pouvez obtenir des données GRIB de "
+"nombreuses sources, mais par commodité les auteurs de zyGrib maintiennent un"
+" serveur de données à utiliser avec zyGrib."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:34
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:37
 msgid "Download data"
-msgstr ""
+msgstr "Télécharger les données"
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:36
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:39
 msgid ""
 "Use the mouse to click and drag a box on the map canvas on a part of the "
 "world you are interested in. The Gulf of Mexico or the southern tip of "
 "Africa often have dynamic winds."
 msgstr ""
+"Utilisez la souris pour faire un cliqué-glissé sur la zone de la carte sur "
+"une partie du monde qui vous intéresse. Le golfe du Mexique ou la pointe sud"
+" de l’Afrique ont souvent des vents dynamiques."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:37
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:40
 msgid ""
 "With your box drawn on the map, click the zoom-to-box icon on the taskbar "
 "(the magnifying glass with a small box underneath it)"
 msgstr ""
+"Avec votre rectangle dessiné sur la carte, cliquez sur l’icône zoom-to-box "
+"sur la barre des tâches (la loupe avec un petit rectangle en dessous)"
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:38
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:41
 msgid ""
 "Again,  mark out a box of interest with a left-click drag, but this time "
 "covering most or all of the zoomed-in map canvas."
 msgstr ""
+"Encore une fois, marquez votre zone d'intérêt avec un cliqué-glissé gauche, "
+"mais cette fois couvrant la plupart de la carte zoomée."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:39
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:42
 msgid ""
 "Select :menuselection:`File --> Download GRIB` and select the features you "
 "want to download. If in doubt, accept the defaults."
 msgstr ""
+"Sélectionnez :menuselection:`File --> Download GRIB` et sélectionnez les "
+"entités que vous souhaitez télécharger. En cas de doute, acceptez les "
+"paramètres par défaut."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:40
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:43
 msgid "When ready click the ``Download`` button, and save the file to disk."
 msgstr ""
+"Lorsque vous êtes prêt, cliquez sur le bouton ``Download`` et enregistrez le"
+" fichier sur le disque."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:42
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:45
 msgid ""
 "The application displays a weather map with a time slider along the bottom, "
 "set for the current time. You can use the mouse wheel to zoom in if you "
 "like."
 msgstr ""
+"L’application affiche une carte météo avec un curseur de temps le long du "
+"bas de la carte, définie pour l’heure actuelle. Vous pouvez utiliser la "
+"molette de la souris pour zoomer si vous le souhaitez."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:46
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:49
 msgid "Change views"
-msgstr ""
+msgstr "Modifier les vues"
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:48
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:51
 msgid ""
 "Move the mouse around the map you'll see the exact conditions listed in the "
 "pane on the left."
 msgstr ""
+"Déplacez la souris autour de la carte, vous verrez les conditions exactes "
+"énumérées dans le volet sur la gauche."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:49
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:52
 msgid ""
 "You can change the time by moving the slider along the bottom, or from the "
 "drop down menu in the top-left of the window."
@@ -123,14 +152,17 @@ msgstr ""
 "Vous pouvez modifier le temps en déplaçant le curseur le long de la partie "
 "inférieure, ou dans le menu déroulant en haut à gauche de la fenêtre."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:50
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:53
 msgid ""
 "From the ``Weather map`` menu, select a variable to visualize. For example, "
 "select :menuselection:`Weather map --> Cloud cover` and the view should "
 "change."
 msgstr ""
+"Dans le menu ``Weather map``, sélectionnez une variable à visualiser. Par "
+"exemple, sélectionnez :menuselection:`Weather map --> Cloud cover` et la vue"
+" doit changer."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:52
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:55
 msgid ""
 "If you downloaded data for the Gulf of Mexico you'll be interested to view "
 "the CAPE data. \"CAPE\" stands for Convective Available Potential Energy at "
@@ -144,48 +176,62 @@ msgstr ""
 "valeurs élevées (1000 s de J/kg) indique un risque d’orages et/ou de "
 "tornades."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:54
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:57
 msgid ""
 "If you downloaded data for southern Africa, cloud cover may be more "
 "interesting."
 msgstr ""
+"Si vous avez téléchargé des données pour l’Afrique australe, la couverture "
+"nuageuse peut être plus intéressante."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:58
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:61
 msgid "Create an animation"
-msgstr ""
+msgstr "Créer une animation"
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:60
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:63
 msgid ""
 "Click the right-hand most icon on the toolbar (a rocketship). A new window "
 "opens and an animation will be generated."
 msgstr ""
+"Cliquez sur l’icône la plus à droite sur la barre d’outils (une fusée). Une "
+"nouvelle fenêtre s’ouvre et une animation sera générée."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:61
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:64
 msgid ""
 "Wait while it runs through the time sequence for the first time. When it is "
 "done it will rewind to the beginning of the time series."
 msgstr ""
+"Attendez que l'application traverse la séquence de temps pour la première "
+"fois. Quand cela est fait, elle se rembobinera au début de la série de "
+"temps."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:62
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:65
 msgid "You can play, pause and rewind the sequence as you like."
 msgstr ""
+"Vous pouvez jouer, mettre en pause et rembobiner la séquence comme vous le "
+"souhaitez."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:63
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:66
 msgid ""
 "You can also save each frame as an image file for later encoding into an "
 "AVI, MPEG, or animated GIF `using other software "
 "<https://grasswiki.osgeo.org/wiki/Movies>`_."
 msgstr ""
+"Vous pouvez également enregistrer chaque image comme un fichier d’image pour"
+" l’encodage ultérieur dans un AVI, MPEG, ou GIF animé en utilisant `d’autres"
+" logiciels <https://grasswiki.osgeo.org/wiki/Movies>`_."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:64
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:67
 msgid "When you're done, click the red power button to close."
 msgstr ""
+"Lorsque vous avez terminé, cliquez sur le bouton d’alimentation rouge pour "
+"fermer."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:68
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:71
 msgid "What next?"
 msgstr "Ensuite ?"
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:70
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:73
 msgid ""
 "The :doc:`OpenCPN software <../overview/opencpn_overview>` (also on this "
 "disc) has a GRIB overlay plugin which you may try with your newly downloaded"
@@ -198,10 +244,10 @@ msgstr ""
 "rapide d'OpenCPN quickstart <../quickstart/opencpn_quickstart>` pour plus de"
 " détails."
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:76
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:79
 msgid "Website: https://www.zygrib.org"
-msgstr ""
+msgstr "**Site Internet:** https://www.zygrib.org"
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:77
+#: ../../build/doc/quickstart/zygrib_quickstart.rst:80
 msgid "Support: https://zygrib.org/forum/"
-msgstr ""
+msgstr "**Support:** https://zygrib.org/forum/"

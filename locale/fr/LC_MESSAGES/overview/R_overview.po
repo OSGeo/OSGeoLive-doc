@@ -11,9 +11,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -204,10 +204,10 @@ msgstr ""
 "**Paquets disponibles sur CRAN:** "
 "https://cran.r-project.org/web/packages/available_packages_by_name.html"
 
-#: ../../build/doc/overview/R_overview.rst:91
+#: ../../build/doc/overview/R_overview.rst:92
 msgid "Quickstart"
 msgstr "Guide de démarrage rapide"
 
-#: ../../build/doc/overview/R_overview.rst:93
+#: ../../build/doc/overview/R_overview.rst:94
 msgid ":doc:`Quickstart documentation <../quickstart/R_quickstart>`"
 msgstr ":doc:`Documentation de démarrage rapide <../quickstart/R_quickstart>`"

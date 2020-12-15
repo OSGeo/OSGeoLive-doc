@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -291,11 +291,11 @@ msgstr "**Interface d'API:** Python"
 msgid "**Support:** |SUPPORT|"
 msgstr "**Support:** |SUPPORT|"
 
-#: ../../build/doc/overview/pycsw_overview.rst:114
+#: ../../build/doc/overview/pycsw_overview.rst:115
 msgid "Quickstart"
 msgstr "Guide de démarrage rapide"
 
-#: ../../build/doc/overview/pycsw_overview.rst:116
+#: ../../build/doc/overview/pycsw_overview.rst:117
 msgid ":doc:`Quickstart documentation <../quickstart/pycsw_quickstart>`"
 msgstr ""
 ":doc:`Documentation du guide de démarrage rapide "
