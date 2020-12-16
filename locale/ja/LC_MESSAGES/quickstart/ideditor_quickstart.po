@@ -1,0 +1,510 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:05+0000\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:20
+msgid "iD editor Quickstart"
+msgstr "iDエディタ クイックスタート"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:22
+msgid ""
+"The iD editor is the de facto, browser-based OpenStreetMap editor. iD is "
+"fast and easy to use, and allows mapping from various data sources such as "
+"satellite and aerial imageries, GPS, Field Papers or Mapillary."
+msgstr ""
+"iDエディタは事実上、ブラウザベースのOpenStreetMapエディタです。iDは高速で使いやすく、衛星や航空画像、GPS、Field "
+"Papers、Mapillaryなどのさまざまなデータソースからのマッピングが可能です。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:26
+msgid ""
+"The iD editor is a great way to edit for small and easy changes that don't "
+"require the advanced features of JOSM (a more advanced mapping editor). This"
+" chapter demonstrates the basics of editing with iD."
+msgstr ""
+"iDエディタは、JOSM(より高度なマッピングエディタ)の高度な機能を必要としない、小さくて簡単な変更を編集するための優れた方法です。この章では、iDを使用した編集の基本について説明します。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:34
+msgid "Starting the iD Editor"
+msgstr "iDエディタを起動する"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:36
+msgid "The iD editor requires an active connection to the Internet."
+msgstr "iDエディタには、インターネットへのアクティブな接続が必要です。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:38
+msgid ""
+"Open your Internet browser, and go to the OpenStreetMap website at "
+"https://www.openstreetmap.org."
+msgstr ""
+"インターネットブラウザを開き、https://www.openstreetmap.org のOpenStreetMapのWebサイトにアクセスします。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:40
+msgid "**Login** using your OpenStreetMap account."
+msgstr "OpenStreetMapアカウントを使用して **ログイン** します。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:41
+msgid ""
+"Pan and zoom the map to the area that you want to edit. You can pan by "
+"holding the left mouse button and dragging the map to your desired area."
+msgstr "編集する領域にマップを画面移動およびズームします。マウスの左ボタンを押したままマップを目的の領域にドラッグすると、画面移動できます。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:44
+msgid ""
+"Click on the small arrow next to **Edit**, then click **Edit with iD (in-"
+"browser editor)**."
+msgstr "**[編集]** の横の小さな矢印をクリックし、[**iD編集(ブラウザ内エディタ)**]をクリックします。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:52
+msgid "[1] **Edit Feature Panel:** This panel shows tags from the object"
+msgstr "[1] **[フィーチャ編集]パネル:** このパネルにはオブジェクトのタグが表示されます"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:52
+msgid "selected on the map. You can add or edit tags from this panel."
+msgstr "マップ上で選択されています。このパネルからタグを追加または編集できます。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:54
+msgid "[2] **Tools:** This panel shows basic editing tools."
+msgstr "[2] **ツール:** このパネルには、基本的な編集ツールが表示されます。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:56
+msgid "[3] **Map panel:** This panel show various configuration functions."
+msgstr "[3] **Mapパネル:** このパネルには、さまざまな設定機能が表示されます。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:59
+msgid ""
+"[4] **Information panel:** This panel shows various information, such as"
+msgstr "[4]** 情報パネル:** このパネルには、次のようなさまざまな情報が表示されます。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:59
+msgid "the scale bar and which users have contributed to the area."
+msgstr "スケールバーと、その領域にどのユーザが貢献したかを示します。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:62
+msgid "Configuring the background layer"
+msgstr "背景レイヤーの設定"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:64
+msgid ""
+"Click the **Background settings** button or use the *shortcut key* **b**. "
+"|image14|"
+msgstr "**背景設定** ボタンをクリックするか、*ショートカットキー* **b** を使用します。|image14|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:67
+msgid "|image15|"
+msgstr "|image15|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:69
+msgid ""
+"To change the **brightness level** click one of these boxes, the levels are "
+"100%, 75%, 50%, and 25% |image16|"
+msgstr ""
+"**輝度レベル** を変更するには、これらのボックスの1つをクリックします。レベルは、100%、75%、50%、および25%の|image16|です。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:72
+msgid ""
+"You also can **change the background layer** based on your desired tile "
+"provider (the default is Bing Aerial Imagery)."
+msgstr ""
+"また、目的のタイルプロバイダに基づいて** 背景レイヤーを変更する** こともできます(デフォルトはBing Aerial Imagery)。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:74
+msgid ""
+"You can add your own map tiles by clicking on **Custom**. For example,   if "
+"you want to **add a Field Paper**  [1], click **Custom** then   click on the"
+" magnifying glass (search) icon to open the following window:"
+msgstr ""
+"**Custom** をクリックすると、独自のマップタイルを追加できます。たとえば、**Field Paper [1] を** "
+"追加する場合は、**Custom** をクリックし、虫眼鏡(検索)アイコンをクリックして次のウィンドウを開きます。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:76
+msgid "|image17|"
+msgstr "|image17|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:78
+msgid ""
+"Enter your **FieldPaper snapshot URL**, which will be something like this: "
+"http://fieldpapers.org/snapshots/cqhmf2v9#18/37.80593/-122.22715"
+msgstr ""
+"**FieldPaperのスナップショットURL** "
+"を入力します。次のようになります。http://fieldpapers.org/snapshots/cqhmf2v9#18/37.80593/-122.22715"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:81
+msgid ""
+"To **display GPS tracks from your computer** (GPX format), drag and drop the"
+" GPX file into iD editor."
+msgstr ""
+"**お使いのコンピュータからGPSトラック** を表示**(GPXフォーマット)するには、GPXファイルをiDエディタにドラッグ&ドロップします。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:83
+msgid ""
+"To enable **OpenStreetMap GPS traces** click on the box. In the image below,"
+" public GPS traces are shown in various colors, indicating the direction of "
+"travel."
+msgstr ""
+"**OpenStreetMap GPSトレース** "
+"を有効にするには、ボックスをクリックします。下のイメージでは、公共のGPS追跡がさまざまな色で表示され、進行方向を示しています。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:85
+msgid "|osm gps traces|"
+msgstr "|osm gps traces|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:87
+msgid ""
+"If there is `imagery offset </en/josm/aerial-imagery>`__, you can **correct "
+"the imagery offset** by clicking **Fix Alignment**."
+msgstr ""
+"`imagery offset </en/josm/aerial-imagery>`__ がある場合は、**Fix Alignment** "
+"をクリックして **image offset** を修正できます。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:89
+msgid "|image18|"
+msgstr "|image18|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:91
+msgid ""
+"Click the navigation buttons to move the imagery. Click the reset button to "
+"return to the default position. |image20|"
+msgstr ""
+"イメージを移動するには、ナビゲーションボタンをクリックします。リセットボタンをクリックすると、デフォルトの位置に戻ります。|image20|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:95
+msgid "Adding points"
+msgstr "ポイントを追加する"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:97
+msgid "To add a new point, click on the **Point** button. |image3|"
+msgstr "新しい点を追加するには、[**Point**]ボタンをクリックします。|image3|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:99
+msgid ""
+"Your mouse cursor will change into plus (+) sign. Now, click on a position "
+"that you know to mark a location. For example, if you know that there is a "
+"hospital in your area, click on the position of the hospital building."
+msgstr ""
+"マウスカーソルがプラス(+)記号に変わります。次に、位置をマークする位置をクリックします。たとえば、地域に病院があることがわかっている場合は、病院の建物の位置をクリックします。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:104
+msgid "|image21|"
+msgstr "|image21|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:106
+msgid ""
+"Notice that a new point is added. At the same time, the left panel will "
+"change to show a form where you can select attributes for the object. Click "
+"**Hospital Grounds** to tag the point as a hospital."
+msgstr ""
+"新しい点が追加されます。同時に、左側のパネルが変わり、オブジェクトの属性を選択できるフォームが表示されます。**Hospital Grounds** "
+"をクリックして、ポイントに病院のタグを付けます。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:110
+msgid "|image22|"
+msgstr "|image22|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:112
+msgid ""
+"You can use the forms to fill detail information about your point. You can "
+"fill hospital name, address, and/or other additional information. Note that "
+"each feature will have different options, depending on what tag you choose "
+"from the feature panel."
+msgstr ""
+"フォームを使用して、ポイントに関する詳細情報を入力できます。病院の名前、住所、その他の追加情報を入力できます。各フィーチャには、フィーチャパネルから選択したタグに応じて異なるオプションがあることに注意してください。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:116
+msgid ""
+"If you make a mistake, such as a wrong location, you can move your point to "
+"a new location by holding the left mouse button on your point and dragging "
+"it. Or, if you want to delete your point, click the left mouse button on the"
+" point, activate the context menu by clicking with the right mouse button "
+"and then click the button which looks like a trashcan. |image23|"
+msgstr ""
+"位置を間違えた場合などに、マウスの左ボタンを押したままドラッグすると、ポイントを新しい位置に移動できます。または、ポイントを削除する場合は、ポイント上で左マウスボタンをクリックし、さらに右マウスボタンでクリックしてコンテキストメニューを表示し、ごみ箱のボタンをクリックします。|image23|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:123
+msgid ""
+"A \"point\" created in the iD editor is actually a standalone \"node\" with "
+"a set of \"tags\" on it."
+msgstr "iDエディタで作成される\"ポイント\"は、実際には\"タグ\"のセットが付いた独立の\"ノード\"です。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:127
+msgid "Drawing lines"
+msgstr "線の描画"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:129
+msgid "To add a new line, click on the **Line** button. |image4|"
+msgstr "新しいラインを追加するには、**ライン** ボタンをクリックします。|image4|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:131
+msgid ""
+"Your mouse cursor will change into plus (+) sign. Find a road that hasn’t "
+"been drawn on the map and trace it. Click once on a point where the road "
+"segment begins, move your mouse, and click to add additional points. Double-"
+"click to end the drawing process. Notice the panel on the left."
+msgstr ""
+"マウスカーソルがプラス(+)記号に変わります。地図に描かれていない道を探して、たどってみましょう。道路セグメントの始点を1回クリックし、マウスを移動してクリックし、点を追加します。図面プロセスを終了するには、ダブルクリックします。左側のパネルに注目してください。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:137
+msgid "|image24|"
+msgstr "|image24|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:139
+msgid "Just as with a point, select the appropriate tags for your line."
+msgstr "点の場合と同様に、線分に適切なタグを選択します。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:140
+msgid ""
+"You can drag points from the line by clicking your left mouse button on a "
+"point and dragging it."
+msgstr "ポイント上でマウスの左ボタンをクリックしてドラッグすると、ラインからポイントをドラッグできます。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:142
+msgid ""
+"You also can move the whole line by selecting it, and choosing the **Move "
+"tool**. Then drag the line to a new position. |image30|"
+msgstr "ライン全体を移動するには、ラインを選択して **移動ツール** を選択します。次に、ラインを新しい位置にドラッグします。|image30|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:144
+msgid ""
+"When you click your left mouse button on an individual point (node) on the "
+"line and click on the right mouse button to activate the context menu, you "
+"will see these tools:"
+msgstr ""
+"ラインの個々のポイント(ノード)上で左マウスボタンをクリックし、さらに右マウスボタンをクリックしてコンテキストメニューを表示すると、次のツールが表示されます。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:147
+msgid "Delete point from line. |image23|"
+msgstr "ラインからポイントを削除します。|image23|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:148
+msgid "Disconnect point from line. |image26|"
+msgstr "ポイントをラインから切断します。|image26|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:149
+msgid "Split a line into two lines from the point you’ve selected. |image27|"
+msgstr "選択したポイントから2本のラインに分割します。|image27|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:151
+msgid ""
+"When you click your left mouse button on a line (but not on a point), you "
+"will see these tools:"
+msgstr "ライン上(ポイント上ではない)でマウスの左ボタンをクリックすると、次のツールが表示されます。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:153
+msgid "Delete line. |image23|"
+msgstr "ラインの削除。|image23|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:154
+msgid ""
+"Create a circle from a line (only active if the line is closed) |image29|"
+msgstr "線分から円を作成する(ラインが閉じている場合にのみ有効) |image29|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:156
+msgid "Move line |image30|"
+msgstr "ラインを移動 |image30|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:157
+msgid ""
+"Form a square shape from a line (only active if the line is closed) "
+"|image31|"
+msgstr "線分から四角形を作成する(ラインが閉じている場合のみ有効)) |image31|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:159
+msgid "Reverse line direction (good for rivers & one-way streets) |image32|"
+msgstr "ラインの方向を逆転 (河川や一方通行の設定に便利) |image32|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:162
+msgid "A \"line\" created in the iD editor is actually a \"way\" with \"tags\" on it."
+msgstr "iDエディタで作成される \"ライン\"は、実際には\"タグ\"がついた\"ウエイ\"です。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:165
+msgid ""
+"A special note about **Deleting**: In general you should avoid deleting "
+"other people's mapping if it just needs improvement. You can delete your own"
+" mistakes, but you should try to *adjust* other people's mapped objects if "
+"they need changes. This preserves the history of the items in the OSM "
+"database and is respectful of fellow mappers. If you really feel something "
+"should be deleted, consider asking the original mapper or one of the OSM "
+"email lists about it first."
+msgstr ""
+"**削除** に関する特記事項: "
+"一般的に、改善が必要な場合は、他のユーザのマッピングを削除しないようにしてください。自分の間違いを削除することもできますが、変更が必要な場合は、他のユーザのマッピングされたオブジェクトを*調整*してみてください。これにより、OSMデータベース内のアイテムの履歴が保持され、他のマッパーにも配慮されます。削除する必要があると本当に感じている場合は、最初に元のマッパーまたはOSM電子メールリストのいずれかに問い合わせてみてください。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:175
+msgid "Drawing shapes (polygons)"
+msgstr "シェイプ(ポリゴン)を描画する"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:177
+msgid "To add a new multi-sided shape, click on the **Area** button."
+msgstr "新しい多辺形状を追加するには、**領域** ボタンをクリックします。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:179
+msgid "|image34|"
+msgstr "|image34|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:181
+msgid ""
+"Your mouse cursor will change into plus (+) sign. Try to trace a building "
+"using the imagery as a guide."
+msgstr "マウスカーソルがプラス(+)記号に変わります。イメージをガイドとして使用して、建物をトレースしてみます。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:183
+msgid ""
+"You will notice that the color of your shape will change depending on the "
+"attributes that you assign to it. |image35|"
+msgstr "シェイプのカラーは、割り当てるアトリビュートに応じて変化します。|image35|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:185
+msgid ""
+"The tools that are available when you select a shape and activate the "
+"context menu with the right mouse button are similar to those when you click"
+" on a line."
+msgstr "シェイプを選択して右マウスボタンでコンテキストメニューを表示したときに使用できるツールは、ラインをクリックしたときのツールと似ています。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:189
+msgid "A \"polygon\" in the iD editor is actually a \"closed way\" with tags on it."
+msgstr "iDエディタの\"ポリゴン\"は、実際にはタグが付いた\"閉じたウエイ\"です。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:192
+msgid "Drawing multipolygons"
+msgstr "マルチポリゴンを描画する"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:194
+msgid ""
+"Sometimes you have to draw a polygon which does not only have an outer "
+"contour but also one or more inner contours. Just think of buildings with "
+"inner courtyards or lakes with islands. *Do not draw all these ways in one "
+"line* so that the inner contours suspend from the outer contour. Rather draw"
+" these contours separate, attach tags to the outer contour only, select all "
+"contours and hit **c** in order to combine them into what is called a "
+"multipolygon."
+msgstr ""
+"外部輪郭だけでなく、1つまたは複数の内部輪郭を持つポリゴンを描画する必要がある場合があります。中庭のある建物や島のある湖を思い浮かべてください*これらのすべての方法を1本の線で描画しないでください*。内側の輪郭線が外側の輪郭線から一時停止します。むしろ、これらの等高線を別々に描き、外側の等高線のみにタグを付け、すべての等高線を選択して"
+" **c** を押し、それらをいわゆるマルチポリゴンに結合します。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:206
+msgid ""
+"When you select any of the contours of the newly created multipolygon you "
+"can see on the left to which multipolygons it belongs"
+msgstr "新しく作成したマルチポリゴンのいずれかの輪郭を選択すると、そのマルチポリゴンが属する残りのオブジェクトを確認できます。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:214
+msgid "Saving your changes"
+msgstr "変更を保存する"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:216
+msgid ""
+"When (and if) you want to save your edits to OpenStreetMap, click the "
+"**Save** button. The panel on the left will show the upload panel."
+msgstr ""
+"編集内容をOpenStreetMapに保存する場合は、[**保存**]ボタンをクリックします。左側のパネルにアップロード・パネルが表示されます。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:219
+msgid "|image36|"
+msgstr "|image36|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:221
+msgid "Enter a comment about your edits and click **Save**."
+msgstr "編集内容についてのコメントを入力し、**保存** をクリックします。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:223
+msgid ""
+"If you have edited the same feature (point, way or area) at the same time as"
+" another person was editing it, you will receive a warning that your edits "
+"cannot be uploaded until you have resolved the **conflicts** - choose whose "
+"edits to accept & upload your changes. *Resolving conflicts often involves "
+"accepting the other persons edits, in which case you will probably wish to "
+"return to the feature in question and edit again (**this time save soon "
+"after the edit to try to avoid a conflict again!**).*"
+msgstr ""
+"他のユーザが編集していたのと同時に同じフィーチャ(点、経路、または領域)を編集した場合は、**衝突**を解決するまで編集をアップロードできないという警告が表示されます。変更を受け入れてアップロードする編集を選択してください。**コンフリクト**を解決するには、多くの場合、他のユーザによる編集を受け入れる必要があります。その場合は、問題のフィーチャーに戻って再度編集することをお勧めします(**今回は編集後すぐに保存して、再度コンフリクトを回避します!**)。*"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:233
+msgid "Add additional information and custom tags"
+msgstr "追加情報とカスタムタグの追加"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:235
+msgid ""
+"When you are editing an object, you will see a strip of icons at the bottom "
+"of the attribute panel. You can add additional information by clicking these"
+" icons:"
+msgstr "オブジェクトを編集すると、属性パネルの下部にアイコンのストリップが表示されます。次のアイコンをクリックすると、追加情報を追加できます。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:239
+msgid "Add elevation |image37|"
+msgstr "標高の追加 |image37|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:240
+msgid "Add notes |image38|"
+msgstr "ノートの追加 |image38|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:241
+msgid "Add contacts / phone number |image39|"
+msgstr "連絡先/電話番号の追加 |image39|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:242
+msgid "Add source tag |image40|"
+msgstr "sourceタグの追加 |image40|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:243
+msgid "Add website |image41|"
+msgstr "websiteの追加 |image41|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:244
+msgid "Add accessibility information |image42|"
+msgstr "アクセスのしやすさ情報を追加 |image42|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:245
+msgid "Add Wikipedia link |image43|"
+msgstr "Wikipediaリンクを追加 |image43|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:247
+msgid "Or, you can add custom tags by clicking **All tags**. |image44|"
+msgstr "または、カスタムタグを **全タグ** をクリックして追加。|image44|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:249
+msgid "This will show all the tags attached to the feature."
+msgstr "これにより、フィーチャにアタッチされているすべてのタグが表示されます。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:251
+msgid "|image45|"
+msgstr "|image45|"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:253
+msgid ""
+"Click the plus sign (+) to add keys and values or click the trash icon to "
+"delete tags."
+msgstr "プラス記号(+)をクリックしてキーと値を追加するか、ごみ箱アイコンをクリックしてタグを削除します。"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:257
+msgid "What next?"
+msgstr "次のステップ"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:259
+msgid ""
+"Try the LearnOSM documentation, from which this quickstart was derived: "
+"https://learnosm.org/en/beginner/id-editor/"
+msgstr ""
+"このクイックスタートが派生したLearnOSMのドキュメントを試してください:https://learnosm.org/en/beginner/idエディタ/"
+
+#: ../../build/doc/quickstart/ideditor_quickstart.rst:261
+msgid "Website: https://wiki.openstreetmap.org/wiki/ID"
+msgstr "Webサイト: https://wiki.openstreetmap.org/wiki/ID"

@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:08+0000\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/ideditor_overview.rst:14
+msgid "iD editor"
+msgstr "iDエディタ"
+
+#: ../../build/doc/overview/ideditor_overview.rst:17
+msgid "Browser based editor for OpenStreetMap"
+msgstr "OpenStreetMap用ブラウザベースエディタ"
+
+#: ../../build/doc/overview/ideditor_overview.rst:19
+msgid ""
+"The iD editor is the de facto, browser-based `OpenStreetMap "
+"<https://www.openstreetmap.org>`_ editor. iD is fast and easy to use, and "
+"allows mapping from various data sources such as satellite and aerial "
+"imageries, GPS, Field Papers or Mapillary."
+msgstr ""
+"iDエディタは、事実上のOSM標準のブラウザベースの`OpenStreetMap "
+"<https://www.openstreetmap.org>`_エディタです。iDは高速で使いやすく、衛星や航空画像、GPS、Field "
+"Papers、Mapillaryなどのさまざまなデータソースからのマッピングが可能です。"
+
+#: ../../build/doc/overview/ideditor_overview.rst:21
+msgid ""
+"The iD editor is a great way to edit small and easy changes that don’t "
+"require the advanced features of the more advanced :doc:`JOSM "
+"<josm_overview>` editor."
+msgstr ""
+"iDエディタは、より高度な :doc:`JOSM<josm_overview>` "
+"エディタの高機能を必要としない、小さくて簡単な変更を編集するときに、優れた方法です。"
+
+#: ../../build/doc/overview/ideditor_overview.rst:30
+msgid "Core Features"
+msgstr "主要機能"
+
+#: ../../build/doc/overview/ideditor_overview.rst:32
+msgid "OpenStreetMap Editing"
+msgstr "OpenStreetMap編集"
+
+#: ../../build/doc/overview/ideditor_overview.rst:33
+msgid "Fast"
+msgstr "高速"
+
+#: ../../build/doc/overview/ideditor_overview.rst:34
+msgid "Intuitive"
+msgstr "直感的"
+
+#: ../../build/doc/overview/ideditor_overview.rst:35
+msgid "Browser Based"
+msgstr "ブラウザベース"
+
+#: ../../build/doc/overview/ideditor_overview.rst:39
+msgid "Implemented Standards"
+msgstr "実装されている標準規格"
+
+#: ../../build/doc/overview/ideditor_overview.rst:41
+msgid "Web Map Tile Service (for basemaps)"
+msgstr "Webマップタイルサービス(ベースマップの場合)"
+
+#: ../../build/doc/overview/ideditor_overview.rst:44
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/ideditor_overview.rst:46
+msgid "**Website:** https://wiki.openstreetmap.org/wiki/ID"
+msgstr "**Webサイト:** https://wiki.openstreetmap.org/wiki/ID"
+
+#: ../../build/doc/overview/ideditor_overview.rst:48
+msgid "**Licence:** `ISC <https://en.wikipedia.org/wiki/ISC_license>`_"
+msgstr "**ライセンス:** `ISC <https://en.wikipedia.org/wiki/ISC_license>`_"
+
+#: ../../build/doc/overview/ideditor_overview.rst:50
+msgid "**Software Version:** |version-ideditor|"
+msgstr "**ソフトウェアバージョン:** |version-ideditor|"
+
+#: ../../build/doc/overview/ideditor_overview.rst:52
+msgid ""
+"**Supported Platforms:** Anything that supports a browser: Windows, "
+"GNU/Linux, Mac, Android, iOS"
+msgstr "**対応プラットフォーム:**  Windows, GNU/Linux, Mac, Android, iOSのブラウザならどれでも"
+
+#: ../../build/doc/overview/ideditor_overview.rst:54
+msgid "**Support:** https://help.openstreetmap.org/"
+msgstr "**サポート:** https://help.openstreetmap.org/"
+
+#: ../../build/doc/overview/ideditor_overview.rst:59
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/ideditor_overview.rst:61
+msgid ":doc:`Quickstart documentation <../quickstart/ideditor_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/ideditor_quickstart>`"

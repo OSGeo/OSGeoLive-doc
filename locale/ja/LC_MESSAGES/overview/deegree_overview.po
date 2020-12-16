@@ -1,0 +1,361 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:09+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/deegree_overview.rst:20
+msgid "deegree"
+msgstr "deegree"
+
+#: ../../build/doc/overview/deegree_overview.rst:23
+msgid "About"
+msgstr "About"
+
+#: ../../build/doc/overview/deegree_overview.rst:26
+msgid ""
+"deegree provides geospatial webservices based upon |OGC| and `INSPIRE "
+"Network Services <https://inspire.ec.europa.eu>`_ specifications. deegree "
+"supports:"
+msgstr ""
+"deegreeは、OGCと「INSPIRE Network "
+"Services<https://inspire.ec.europa.eu>」仕様に基づいた地理空間ウェブサービスを提供している。deegreeは以下をサポートしている。"
+
+#: ../../build/doc/overview/deegree_overview.rst:28
+msgid "|WFS|: Serves vector data from geospatial data"
+msgstr "|WFS|: 空間データからベクトルデータを提供"
+
+#: ../../build/doc/overview/deegree_overview.rst:29
+msgid "|WMS|: Serves maps rendered from geospatial data"
+msgstr "|WMS|: 空間データからレンダリングされたマップを提供します。"
+
+#: ../../build/doc/overview/deegree_overview.rst:30
+msgid "|WMTS|: Serves pre-rendered map tiles"
+msgstr "|WMTS|: 事前にレンダリングされたマップタイルを提供"
+
+#: ../../build/doc/overview/deegree_overview.rst:31
+msgid "|CSW|: Performs searches for geospatial datasets and services"
+msgstr "|CSW|: 地理空間データセットおよびサービスの検索を実行します。"
+
+#: ../../build/doc/overview/deegree_overview.rst:32
+msgid "|WPS|: Executes geospatial processes"
+msgstr "|WPS|: 空間処理を実行します"
+
+#: ../../build/doc/overview/deegree_overview.rst:41
+msgid "Core Features"
+msgstr "主要機能"
+
+#: ../../build/doc/overview/deegree_overview.rst:43
+msgid "**WFS**"
+msgstr "**WFS**"
+
+#: ../../build/doc/overview/deegree_overview.rst:45
+msgid "Implements WFS standards 1.0.0, 1.1.0 and 2.0.0"
+msgstr "WFS標準1.0.0、1.1.0、および2.0.0を実装"
+
+#: ../../build/doc/overview/deegree_overview.rst:46
+msgid "Fully transactional (even for rich data models)"
+msgstr "完全なトランザクション(リッチ・データ・モデルの場合も含む)"
+
+#: ../../build/doc/overview/deegree_overview.rst:47
+#: ../../build/doc/overview/deegree_overview.rst:85
+#: ../../build/doc/overview/deegree_overview.rst:97
+msgid "Supports KVP, XML and SOAP requests"
+msgstr "KVP、XML、およびSOAP要求をサポート"
+
+#: ../../build/doc/overview/deegree_overview.rst:48
+msgid "GML 2/3.0/3.1/3.2 output/input"
+msgstr "GM L2/3.0/3.1/3.2出力/入力"
+
+#: ../../build/doc/overview/deegree_overview.rst:49
+msgid "Support for GetGmlObject requests and XLinks"
+msgstr "GetGmlObjectリクエストとXLinksのサポート"
+
+#: ../../build/doc/overview/deegree_overview.rst:50
+#: ../../build/doc/overview/deegree_overview.rst:62
+#: ../../build/doc/overview/deegree_overview.rst:76
+#: ../../build/doc/overview/deegree_overview.rst:86
+msgid "High performance and excellent scalability"
+msgstr "高いパフォーマンスと優れた拡張性"
+
+#: ../../build/doc/overview/deegree_overview.rst:51
+msgid "On-the-fly coordinate transformation"
+msgstr "オンザフライ座標変換"
+
+#: ../../build/doc/overview/deegree_overview.rst:52
+msgid "Designed for rich data models from the bottom up"
+msgstr "ボトムアップのリッチ・データ・モデル向けに設計"
+
+#: ../../build/doc/overview/deegree_overview.rst:53
+msgid ""
+"Backends support flexible mapping of GML application schemas to relational "
+"models"
+msgstr "バックエンドは、GMLアプリケーションスキーマのリレーショナルモデルへの柔軟なマッピングをサポートします。"
+
+#: ../../build/doc/overview/deegree_overview.rst:54
+msgid ""
+"ISO 19107-compliant geometry model: Complex geometries (e.g. non-linear "
+"curves)"
+msgstr "ISO19107準拠形状モデル:複雑な形状(例:非線形曲線)"
+
+#: ../../build/doc/overview/deegree_overview.rst:55
+msgid "Advanced filter expression support based on XPath 1.0"
+msgstr "XPath1.0に基づく高度なフィルタ式のサポート"
+
+#: ../../build/doc/overview/deegree_overview.rst:56
+msgid ""
+"Supports numerous backends, such as PostGIS, Oracle Spatial, MS SQL Server, "
+"Shapefiles or GML instance documents"
+msgstr ""
+"PostGIS、Oracle Spatial、MS SQL "
+"Server、Shapefiles、GMLインスタンスドキュメントなどの多数のバックエンドをサポート"
+
+#: ../../build/doc/overview/deegree_overview.rst:58
+msgid "**WMS**"
+msgstr "**WMS**"
+
+#: ../../build/doc/overview/deegree_overview.rst:60
+msgid "Implements WMS standards 1.1.1 and 1.3.0"
+msgstr "WMS標準1.1.1および1.3.0を実装"
+
+#: ../../build/doc/overview/deegree_overview.rst:61
+msgid ""
+"Extensive support for styling languages SLD/SE versions 1.0.0 and 1.1.0"
+msgstr "スタイル言語SLD/SEバージョン1.0.0および1.1.0の広範なサポート"
+
+#: ../../build/doc/overview/deegree_overview.rst:63
+msgid "High quality rendering"
+msgstr "高精度レンダリング"
+
+#: ../../build/doc/overview/deegree_overview.rst:64
+msgid "Scale dependent styling"
+msgstr "スケールに依存するスタイル設定"
+
+#: ../../build/doc/overview/deegree_overview.rst:65
+msgid "Support for SE removes the need for a lot of proprietary extensions"
+msgstr "SEのサポートにより、多くの独自仕様の拡張が不要"
+
+#: ../../build/doc/overview/deegree_overview.rst:66
+msgid ""
+"Easy configuration of HTML and other output formats for GetFeatureInfo "
+"responses"
+msgstr "GetFeatureInfo応答のHTMLおよびその他の出力フォーマットの簡単な設定"
+
+#: ../../build/doc/overview/deegree_overview.rst:67
+msgid "Uses stream-based data access with minimal memory footprint"
+msgstr "最小限のメモリ・フットプリントでストリーム・ベースのデータ・アクセスを使用"
+
+#: ../../build/doc/overview/deegree_overview.rst:68
+msgid ""
+"Nearly complete support for raster symbolizing as defined in SE (with some "
+"extensions)"
+msgstr "SEで定義されているラスターシンボルのほぼ完全なサポート(拡張機能あり)"
+
+#: ../../build/doc/overview/deegree_overview.rst:69
+msgid ""
+"Complete support for TIME/ELEVATION and other dimensions for both feature "
+"and raster data"
+msgstr "フィーチャデータとラスターデータの両方で、TIME/ELEVATIONおよびその他の寸法が完全にサポートされます。"
+
+#: ../../build/doc/overview/deegree_overview.rst:70
+msgid ""
+"Supports numerous backends, such as PostGIS, Oracle Spatial, Shapefiles or "
+"GML instance documents"
+msgstr "PostGIS、Oracle Spatial、Shapefiles、GMLインスタンスドキュメントなどの多数のバックエンドをサポート"
+
+#: ../../build/doc/overview/deegree_overview.rst:71
+msgid "Can render rich data models directly"
+msgstr "リッチ・データ・モデルを直接レンダリングできる"
+
+#: ../../build/doc/overview/deegree_overview.rst:73
+msgid "**WMTS**"
+msgstr "**WMTS**"
+
+#: ../../build/doc/overview/deegree_overview.rst:75
+msgid "Implements Basic WMTS standard 1.0.0 (KVP)"
+msgstr "基本的なWMTS標準1.0.0(KVP)を実装"
+
+#: ../../build/doc/overview/deegree_overview.rst:77
+msgid ""
+"Supports different backends, such as GeoTIFF, remote WMS or file system tile"
+" image hierarchies"
+msgstr "GeoTIFF、リモートWMS、ファイルシステムなどの異なるバックエンドをサポートタイルイメージの階層"
+
+#: ../../build/doc/overview/deegree_overview.rst:78
+msgid "Supports on-the-fly caching (using EHCache)"
+msgstr "オンザフライキャッシュをサポート(EHCキャッシュを使用)"
+
+#: ../../build/doc/overview/deegree_overview.rst:79
+msgid "Supports GetFeatureInfo for remote WMS backends"
+msgstr "リモートWMSバックエンドのGetFeatureInfoをサポート"
+
+#: ../../build/doc/overview/deegree_overview.rst:81
+msgid "**CSW**"
+msgstr "**CSW**"
+
+#: ../../build/doc/overview/deegree_overview.rst:83
+msgid "Implements CSW standard 2.0.2"
+msgstr "CSW標準2.0.2を実装"
+
+#: ../../build/doc/overview/deegree_overview.rst:84
+msgid "Fully transactional"
+msgstr "完全なトランザクション"
+
+#: ../../build/doc/overview/deegree_overview.rst:87
+msgid "ISO Metadata Application Profile 1.0.0"
+msgstr "ISOメタデータアプリケーションプロファイル1.0.0"
+
+#: ../../build/doc/overview/deegree_overview.rst:88
+msgid ""
+"Pluggable and modular dataaccess layer allows to add support for new APs and"
+" backends"
+msgstr "プラグ可能でモジュラー型のデータアクセスレイヤにより、新しいAPとバックエンドのサポートを追加可能"
+
+#: ../../build/doc/overview/deegree_overview.rst:89
+msgid ""
+"Modular inspector architecture allows to validate records to be inserted "
+"against various criteria"
+msgstr "モジュラー型の検査アーキテクチャにより、さまざまな基準に照らして挿入されたレコードを検証可能"
+
+#: ../../build/doc/overview/deegree_overview.rst:90
+msgid ""
+"Standard inspectors: schema validity, identifier integrity, INSPIRE "
+"requirements"
+msgstr "標準インスペクタ: スキーマの妥当性、識別子の完全性、INSPIRE要件"
+
+#: ../../build/doc/overview/deegree_overview.rst:91
+msgid ""
+"Handles all defined queryable properties (for Dublin Core as well as ISO "
+"profile)"
+msgstr "定義の定義済みクエリー可能プロパティを処理します(Dublin CoreおよびISOプロファイルの場合)。"
+
+#: ../../build/doc/overview/deegree_overview.rst:92
+msgid "Complex filter expressions"
+msgstr "複雑なフィルタ式"
+
+#: ../../build/doc/overview/deegree_overview.rst:94
+msgid "**WPS**"
+msgstr "**WPS**"
+
+#: ../../build/doc/overview/deegree_overview.rst:96
+msgid "Implements WPS standard 1.0.0"
+msgstr "WPS標準1.0.0を実装"
+
+#: ../../build/doc/overview/deegree_overview.rst:98
+msgid "Pluggable process provider layer"
+msgstr "プラガブル・プロセス・プロバイダ層"
+
+#: ../../build/doc/overview/deegree_overview.rst:99
+msgid "Easy-to-use API for implementing Java processes"
+msgstr "Javaプロセスを実装するための使いやすいAPI"
+
+#: ../../build/doc/overview/deegree_overview.rst:100
+msgid ""
+"Supports all variants of input/output parameters: literal, bbox, complex "
+"(binary and xml)"
+msgstr "入力/出力パラメータのすべてのバリエーション(literal、bbox、complex(binaryおよびxml))をサポート"
+
+#: ../../build/doc/overview/deegree_overview.rst:101
+msgid "Streaming access for complex input/output parameters"
+msgstr "複雑な入出力パラメータへのストリーミングアクセス"
+
+#: ../../build/doc/overview/deegree_overview.rst:102
+msgid "Processing of huge amounts of data with minimal memory footprint"
+msgstr "最小限のメモリ使用量で大量のデータを処理"
+
+#: ../../build/doc/overview/deegree_overview.rst:103
+msgid "Supports storing of response documents/output parameters"
+msgstr ""
+
+#: ../../build/doc/overview/deegree_overview.rst:104
+msgid "Supports input parameters given inline and by reference"
+msgstr ""
+
+#: ../../build/doc/overview/deegree_overview.rst:105
+msgid "Supports RawDataOutput/ResponseDocument responses"
+msgstr ""
+
+#: ../../build/doc/overview/deegree_overview.rst:106
+msgid "Supports asynchronous execution (with polling of process status)"
+msgstr ""
+
+#: ../../build/doc/overview/deegree_overview.rst:109
+msgid "Implemented Standards"
+msgstr "実装されている標準規格"
+
+#: ../../build/doc/overview/deegree_overview.rst:111
+msgid "|WFS| 1.0.0, 1.1.0 and 2.0.0"
+msgstr ""
+
+#: ../../build/doc/overview/deegree_overview.rst:112
+msgid "|WMS| 1.1.1 and 1.3.0"
+msgstr ""
+
+#: ../../build/doc/overview/deegree_overview.rst:113
+msgid "|WMTS| 1.1.0"
+msgstr "|WMTS| 1.1.0"
+
+#: ../../build/doc/overview/deegree_overview.rst:114
+msgid "OGC Catalogue Service-Web (CSW) 2.0.2"
+msgstr ""
+
+#: ../../build/doc/overview/deegree_overview.rst:115
+msgid "|WPS| 1.0.0"
+msgstr "|WPS| 1.0.0"
+
+#: ../../build/doc/overview/deegree_overview.rst:116
+msgid "|GML| 2.12, 3.0.1, 3.1.1 and 3.2.1"
+msgstr ""
+
+#: ../../build/doc/overview/deegree_overview.rst:119
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/deegree_overview.rst:121
+msgid "**Website:** http://www.deegree.org"
+msgstr "**Webサイト:** http://www.deegree.org"
+
+#: ../../build/doc/overview/deegree_overview.rst:123
+msgid "**Licence:** LGPL"
+msgstr "**ライセンス:** LGPL"
+
+#: ../../build/doc/overview/deegree_overview.rst:125
+msgid "**Software Version:** |version-deegree|"
+msgstr "**ソフトウェアバージョン:** |version-deegree|"
+
+#: ../../build/doc/overview/deegree_overview.rst:127
+msgid "**Supported Platforms:** Windows, Linux"
+msgstr "**対応プラットフォーム:** Windows, Linux"
+
+#: ../../build/doc/overview/deegree_overview.rst:129
+msgid "**API Interfaces:** Java"
+msgstr "**API インターフェイス:** Java"
+
+#: ../../build/doc/overview/deegree_overview.rst:131
+msgid "**Support:** https://www.deegree.org/community"
+msgstr "**サポート:** https://www.deegree.org/community"
+
+#: ../../build/doc/overview/deegree_overview.rst:137
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/deegree_overview.rst:139
+msgid ":doc:`Quickstart documentation <../quickstart/deegree_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/deegree_quickstart>`"
