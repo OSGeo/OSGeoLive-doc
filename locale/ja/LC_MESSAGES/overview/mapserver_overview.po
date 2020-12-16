@@ -4,18 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2019
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,7 +74,7 @@ msgstr ""
 
 #: ../../build/doc/overview/mapserver_overview.rst:42
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/mapserver_overview.rst:45
 msgid "Advanced cartographic output"
@@ -308,10 +308,10 @@ msgstr "**API インターフェイス:** C, PHP, Python, Perl, Ruby, Java, .NET
 msgid "**Support:** https://mapserver.org/community/"
 msgstr "**サポート:** https://mapserver.org/community/"
 
-#: ../../build/doc/overview/mapserver_overview.rst:134
+#: ../../build/doc/overview/mapserver_overview.rst:135
 msgid "Quickstart"
 msgstr "クイックスタート"
 
-#: ../../build/doc/overview/mapserver_overview.rst:136
+#: ../../build/doc/overview/mapserver_overview.rst:137
 msgid ":doc:`Quickstart documentation <../quickstart/mapserver_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/mapserver_quickstart>`"
