@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:08-0500\n"
+"PO-Revision-Date: 2020-10-21 15:59+0000\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:16
+msgid "GeoStyler Quickstart"
+msgstr "GeoStyler gyorstalpaló"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:18
+msgid ""
+"This Quickstart describes some basic steps required to start working with "
+"GeoStyler: installing GeoStyler and adding a first UI component to your "
+"react application."
+msgstr ""
+"Ez a gyorstalpaló néhány alapvető lépést ismertet a a munka megkezséséhez a "
+"GeoStyler-ben: a GeoStyler telepítése és az első felhasználói felületi "
+"összetevő hozzáadása az alkalmazáshoz."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:20
+msgid ""
+"A complete beginner tutorial can be found on `localhost/geostyler "
+"<localhost/geostyler>`__."
+msgstr ""
+"Egy teljesen kezdőknek szóló oktatóanyag található itt `localhost/geostyler "
+"<localhost/geostyler>`__."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:22
+msgid ""
+"GeoStyler makes it easy to style geodata in any web page. The UI is "
+"independent from any styling format and should be usable for e.g. OpenLayer "
+"or SLD."
+msgstr ""
+"A GeoStyler könnyűvé teszi a geo adatok stílusának beállítását bármely "
+"honlapon. Az felhasználói felület független bármely stílus formátumtól  és "
+"használható például OpenLayers-hez vagy SLD-hez."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:28
+msgid "(Optional) Installing GeoStyler"
+msgstr "(opcionális) GeoStyler telepítés"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:30
+msgid ""
+"OSGeoLive comes with GeoStyler already installed. So you should be able to "
+"import it into your project as described in the next section. You can skip "
+"this section, if you just want to take a first look at the library."
+msgstr ""
+"Az OSGeoLive telepített GeoStylerrel érkezik. Így importálhatja a "
+"projektjében, ahogy a következő fejezetben leírjuk. Átugorhatja ezt a "
+"fejezetet, ha csak egy első pillantást akar vetni a könyvtárra."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:33
+msgid ""
+"However, it is recommended to install GeoStyler for each project separately."
+" This sections describes the required steps."
+msgstr ""
+"Ajánlott a GeoStyler-t minden projekthez külön-külön telepíteni. Ez a "
+"szakasz a szükséges lépéseket ismerteti."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:35
+msgid ""
+"The most simple way to install GeoStyler is to use ``npm``. Simply run "
+"following command from your project root:"
+msgstr ""
+"A Ge oStyles legegyszerűbb telepítése módja az  ``npm`` használata. "
+"Egyszerűen futtassa az alábbi parancsot a projektjének gyökár könyvtárából:"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:41
+msgid ""
+"Please make sure that all peer dependencies are installed in the specified "
+"versions:"
+msgstr ""
+"Győződjön meg róla hogy az összes függőség a megfelelő verzióját "
+"telepítette:"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:47
+msgid "Don't forget to install the parsers you want to use:"
+msgstr "Ne felejtse el telepíteni a használni akart értelmezőket:"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:55
+msgid "Integrate GeoStyler"
+msgstr "GeoStyler integráció"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:57
+msgid ""
+"Import the GeoStyler ``Style`` component into your application as follows:"
+msgstr ""
+"Importálja a GeoStyler `Style`` komponensét az alkalmazásába a következők "
+"szerint:"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:63
+msgid "The ``Style`` component provides a variety of styling functionality."
+msgstr "A ``Style`` komponens a stílus beállítás variációit biztosítja."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:65
+msgid "After importing, you can use it in your render method like this:"
+msgstr "Az importálás után így használhatja a rajzoló módszereiben:"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:73
+msgid "The ``Style`` component should now be visible in the browser."
+msgstr "A `Style`` komponensnek látszania kell a böngészőben,"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:78
+msgid "Integrate geostyler-sld-parser"
+msgstr "geostyler-sld-parser integrálása"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:80
+msgid ""
+"To edit an existing SLD via GeoStyler, we first have to import and "
+"instantiate the ``geostyler-sld-parser``."
+msgstr ""
+"Egy meglévő SLD GeoStylerrel szerkesztéséhez először importálni és "
+"példányosítani kell a \"geostyler-sld-parser\"-t."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:87
+msgid ""
+"Afterwards, we are able to read an existing SLD into the GeoStyler-readable "
+"format."
+msgstr ""
+"Ezután be tudunk olvasni egy létező SLD a GeoStyler olvasható formátumba."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:117
+msgid ""
+"To connect this style with the UI, we have to store it in a state variable "
+"and pass it to our ``Style`` component. After defining ``myStyle`` as a "
+"state variable, you can use it as follows:"
+msgstr ""
+"Ahhoz, hogy ezt a stílust a felhasználói felülethez kapcsoljuk, egy állapot "
+"változóban kell tárolnunk és át kell adnunk a ``Style`` komponensünknek. A "
+"``myStyle`` stílusváltozóként deklarálása után, a következőképpen "
+"használhatja:"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:154
+msgid "The GeoStyler UI should now match the style that was defined as SLD."
+msgstr ""
+"A GeoStyler felületének meg kell felelnie az SLD-ben definiált stílusnak."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:156
+msgid ""
+"To get the edited style as SLD from the ``Style`` component, you can use the"
+" ``writeStyle()`` method of the geostyler-sld-parser within the "
+"``onStyleChange()`` method of the ``Style`` component."
+msgstr ""
+"A ``Style`` komponensből a módosított stíluts SLD-ként megkaphatjuk, "
+"használhatja a geostyler-sld-parser ``writeStyle()`` metódusát a ``Style`` "
+"komponens  ``onStyleChange()`` metódusából."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:199
+msgid "Things to try"
+msgstr "Kipróbálandó dolgok"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:201
+msgid ""
+"As a next step, you can try to add an OpenLayers map and connect the "
+"``Style`` component to the map, so that you can directly see the changes you"
+" made on the map."
+msgstr ""
+"A következő lépésben megpróbálhat egy OpenStreetMap-et és a ``Style`` "
+"komponenst a térképhez kapcsolni, így közvetlenül láthatja a térképen "
+"végzett módosításokat."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:205
+msgid "What next?"
+msgstr "Mi a következő?"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:207
+msgid "Check out these other resources about this application."
+msgstr ""
+"Tekintse meg ezeket, ezzel az alkalmazással kapcsolatos egyéb forrásokat."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:209
+msgid ""
+"`GeoStyler Documentation "
+"<https://geostyler.github.io/geostyler/latest/index.html>`__"
+msgstr ""
+"`GeoStyler dokumentáció "
+"<https://geostyler.github.io/geostyler/latest/index.html>`__"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:210
+msgid ""
+"`Beginner Tutorial <https://geostyler.github.io/geostyler-beginner-"
+"workshop>`__"
+msgstr ""
+"`Bevezető oktatóanyagl <https://geostyler.github.io/geostyler-beginner-"
+"workshop>`__"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:211
+msgid "`geostyler.org Website <https://geostyler.org>`__"
+msgstr "`geostyler.org honlap <https://geostyler.org>`__"
