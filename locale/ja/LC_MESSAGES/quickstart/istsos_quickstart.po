@@ -1,0 +1,385 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-28 22:14-0600\n"
+"PO-Revision-Date: 2017-09-20 16:03+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:21
+msgid "istSOS Quickstart"
+msgstr "istSOSクイックスタート"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:23
+msgid ""
+"istSOS is an OGC |SOS| server implementation written in `Python "
+"<https://www.python.org/>`__. istSOS allows for managing and dispatch "
+"observations from monitoring sensors according to the Sensor Observation "
+"Service standard."
+msgstr ""
+"istSOSは、`Python<https://www.python.org/>`__ で記述されたOGC "
+"|SOS|サーバ実装です。istSOSは、Sensor Observation "
+"Service標準に従って、モニタリングセンサーからの観測情報を管理し、ディスパッチすることを可能にします。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:26
+msgid ""
+"The project provides also a Graphical user Interface that allows for easing "
+"the daily operations and a RESTFull Web api for automatizing administration "
+"procedures."
+msgstr ""
+"このプロジェクトはまた、日常的な操作を容易にするグラフィカル・ユーザー・インターフェースと、管理手順を自動化するためのRESTフル Web "
+"apiも提供しています。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:28
+msgid ""
+"istSOS is released under the GPLv2 licence, and runs on all major platforms "
+"(Windows, Linux, Mac OS X), even though it has been used in production in "
+"linux environment only."
+msgstr ""
+"istSOSはGPLv2ライセンスでリリースされ、すべての主要プラットフォーム(Windows、Linux、Mac OS "
+"X)で動作します。ただし、これまでLinux環境でのみ使用されていました。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:35
+msgid "Create postgis database"
+msgstr "postgisデータベースを作成する"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:37
+msgid "Open a terminal and execute the following commands:"
+msgstr "端末を開き、次のコマンドを実行します:"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:46
+msgid "Set up an istSOS service instance"
+msgstr "istSOSサービスインスタンスを設定する"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:48
+msgid ""
+"With istSOS you can organize your sensor data in different instances. Every "
+"instance has its own database schema independent from other instances. You "
+"can even deploy other databases over your network according to your needs."
+msgstr ""
+"istSOSを使用すると、センサーデータをさまざまなインスタンスまとめることができます。すべてのインスタンスには、他のインスタンスから独立した独自のデータベーススキーマがあります。必要に応じて、ネットワーク上に他のデータベースを展開することもできます。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:50
+msgid ""
+"The first steps into istSOS setup is to configure the default configuration "
+"options. These options will then be automatically used for your convenience "
+"by every new istSOS instance created."
+msgstr ""
+"istSOSセットアップの最初のステップは、デフォルトの設定オプションを設定することです。これらのオプションは、新しいistSOSインスタンスが作成されるたびに自動的に使用されます。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:52
+msgid ""
+"Click :menuselection:`Geospatial --> Webservices --> istSOS` to open the Web"
+" Admin interface. Alternatively, open a browser and go to "
+"`<http://localhost/istsos/admin>`_"
+msgstr ""
+":menuselection:`Geospatial-->Webservices-->istSOS`をクリックして、Web "
+"Adminインターフェイスを開きます。または、ブラウザを開き、`<http://localhost/istsos/admin>`_に移動します。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:54
+msgid "Click the :guilabel:`Enter` button in the administration page."
+msgstr "管理ページで:guilabel:`Enter`ボタンをクリックします。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:56
+msgid ""
+"Configure your database connection. From the toolbar buttons menu, press the"
+" \"Database\" button and fill in the database configuration options:"
+msgstr "データベース接続を設定します。ツールバーのボタンメニューから、\"Database\"ボタンを押し、データベース設定オプションを入力します。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:66
+msgid ""
+"Press the \"Service provider\" button and fill it using your institutional "
+"information."
+msgstr "\"Service provider\"ボタンを押して、施設情報を使用して入力します。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:69
+msgid ""
+"Press the \"Service identification\" button and fill up with custom metadata"
+" that describe the service usage."
+msgstr "\"Service identification\"ボタンを押して、サービスの使用状況を説明するカスタムメタデータを入力します。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:71
+msgid ""
+"Press the \"Coordinates system\" button to manage the Coordinate Reference "
+"System (CRS)."
+msgstr "座標参照系(CRS)を管理するには、\"Coordinates system\" ボタンを押します。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:73
+msgid ""
+"*Default EPSG code*: this will be the native Coordinate Reference System of "
+"your geometries in the database."
+msgstr "*Default EPSG code*:これはデータベース内のジオメトリのネイティブの座標参照システムになります。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:75
+msgid ""
+"*Permitted EPSG*: here you can configure which other Coordinate Reference "
+"Systems your system will support and reproject if requested."
+msgstr "*Permitted EPSG*: ここでは、システムがサポートして再投影する他の座標参照系を設定できます。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:77
+msgid ""
+"From the toolbar buttons menu, press the \"GetObservation Configuration\" "
+"button to set maximum time interval per getObservation request (zero for no "
+"limits) and aggregation no-data value."
+msgstr ""
+"ツールバーのボタンメニューから、\"GetObservation "
+"Configuration\"ボタンを押して、getObservation要求ごとの最大時間間隔(無制限の場合は0)と集計のno-"
+"data値を設定します。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:79
+msgid ""
+"Configure your service proxy address. The Proxy URL field is the base URL "
+"seen beyond a reverse proxy."
+msgstr "サービスプロキシアドレスを設定します。プロキシURLフィールドは、リバースプロキシ越しで見えるベースのURLをいれます。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:83
+msgid "Create a new service"
+msgstr "新しいサービスを作成する"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:85
+msgid ""
+"Now that you have configured istSOS, it's time to create a new service "
+"instance."
+msgstr "istSOSを設定したので、次は新しいサービスインスタンスを作成します。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:87
+msgid ""
+"From the toolbar buttons menu press the \"new service\" button and click "
+":guilabel:`Next`."
+msgstr "ツールバーのボタンメニューから\"new service\"ボタンを押し、:guilabel:`Next`をクリックします。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:89
+msgid "Type **demo** for the Service name."
+msgstr "サービス名に**demo**と入力します。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:91
+msgid ""
+"In the EPSG field you can set the database native projection. Leave it empty"
+" to use the default. Click :guilabel:`Next`."
+msgstr ""
+"EPSGフィールドでは、データベースのネイティブ投影を設定できます。デフォルトを使用する場合は空のままにします。:guilabel:`Next`をクリックします。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:93
+msgid ""
+"Clicking on the \"Customize database\" box, you are able to change the "
+"default database configuration for this new istSOS instance."
+msgstr ""
+"\"Customize database\"ボックスをクリックすると、この新しいistSOSインスタンスのデフォルトデータベース設定を変更できます。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:95
+msgid ""
+"Press :guilabel:`Next`. The server status panel is displayed. If something's"
+" gone wrong during the creation you will see an alert here."
+msgstr ":guilabel:`Next`を押します。サーバステータスパネルが表示されます。作成中に何か問題が発生した場合ここに警告が表示されます。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:98
+msgid ""
+"The istSOS “demo” instance has inherited all the configuration options from "
+"the default configuration. If, for any reason you decide to modify them, the"
+" changes will affect only this instance."
+msgstr ""
+"istSOSの\"demo\"インスタンスは、デフォルト設定からすべての設定オプションを継承しています。何らかの理由で変更した場合、変更はこのインスタンスにのみ影響します。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:102
+msgid "Add a new procedure"
+msgstr "新しいプロシージャを追加する"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:104
+msgid ""
+"From the “services” drop down button of the admin interface "
+"(http://localhost/istsos/admin ) choose the desired instance."
+msgstr ""
+"管理インターフェイス(http://localhost/istsos/admin)の\"services\"ドロップダウンボタンから、目的のインスタンスを選択します。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:106
+msgid ""
+"From the toolbar buttons menu press the :guilabel:`New procedure` button."
+msgstr "ツールバーのボタンメニューから:guilabel:`New procedure`ボタンを押します。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:108
+msgid "Fill in the form using appropriate information."
+msgstr "適切な情報を使用してフォームに入力します。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:111
+msgid ""
+"Once a procedure is created the outputs (observed properties) cannot be "
+"changed."
+msgstr "プロシージャが作成されると、出力(観測されたプロパティ)は変更できません。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:114
+msgid "*Optional parameters:* Fill at your own need and willing"
+msgstr "*Optional parameters:*必要に応じて自由に入力してください"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:117
+msgid "*Example* (minimal configuration)"
+msgstr "*例*(最小構成)"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:119
+msgid "Name: T_LUGANO"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:121
+msgid "Description: temperature weather station in Lugano"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:123
+msgid "Keywords: weather, meteorological, IST"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:125
+msgid "System type: insitu-fixed-point"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:127
+msgid "Sensor type: PTC thermistors of the \"switching\" type"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:129
+msgid "FOI name: LUGANO"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:131
+msgid "EPSG: 4326"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:133
+msgid "Coordinates: x: 8.96127 y: 46.02723 z: 344.1"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:136
+msgid "*Outputs (confirm the outputs pressing the \"add\" button):*"
+msgstr "*出力(\"add\"ボタンを押して出力を確認):*"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:139
+msgid ""
+"Observed property: urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature"
+msgstr "観測されたプロパティ:urn:ogc:def:parameter:x-istSOS:1.0:meteo:air:temperature"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:141
+msgid "Unit of measure: °C"
+msgstr "単位:°C"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:143
+msgid "Description (optional): conversion from resistance to temperature"
+msgstr "説明(オプション): 抵抗値から温度への変換"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:145
+msgid "quality index check (optional): Between / from -40 to +60"
+msgstr "品質指数チェック(オプション):-40から+60まで"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:149
+msgid "Register the new sensor (procedure) pressing the \"submit\" button."
+msgstr "\"submit\"ボタンを押して、新しいセンサー(プロシージャ)を登録します。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:153
+msgid "Add new observations"
+msgstr "新しい観測情報を追加する"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:155
+msgid ""
+"First we will create a text file with sensor data, formatted according to "
+"\"text/csv, subtype=istSOS\". The file uses a Comma Separated Values (CSV) "
+"format. The first line contains header information, including URI names of "
+"the observed properties. The following lines contain the data."
+msgstr ""
+"まず、\"text/csv,subtype=istSOS\"に従ってフォーマットされたセンサーデータのテキストファイルを作成します。このファイルはCSV(カンマ区切りテキスト)形式を使用しています。最初の行には、観測されたプロパティのURI名を含むヘッダ情報が含まれます。次の行にデータが含まれています。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:157
+msgid ""
+"Open a text editor by selecting :menuselection:`Accessories --> FeatherPad`."
+msgstr ":menuselection:`アクセサリ-->FeatherPad`を選択して、テキストエディタを開きます。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:159
+msgid "Copy and paste the following text into the text editor window:"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:176
+msgid ""
+"Save the file as \"T_LUGANO_20140603161000000.dat\" on the Desktop. The "
+"filename convention being used is: PROCEDURENAME_YYYYMMDDhhmmssfff.dat"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:178
+msgid ""
+"Open a terminal by selecting :menuselection:`System Tools --> LXTerminal`."
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:180
+msgid "In the terminal, enter: \"cd /usr/share/istsos/\" and press ENTER."
+msgstr "端末で:\"cd/usr/share/istSOS/\"と入力し、ENTERを押します。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:182
+msgid ""
+"Write \"python scripts/csv2istsos.py -p T_LUGANO -u http://localhost/istsos "
+"-s demo -w ~/Desktop\" and press ENTER"
+msgstr ""
+" \"python scripts/csv2istsos.py -p T_LUGANO -u http://localhost/istsos -s "
+"demo -w ~/Desktop\" とうちこんで、ENTERを押します"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:184
+msgid "You should see a message \"Insert observation success: True\""
+msgstr "\"Insert observation success:True\"というメッセージが表示されます。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:186
+msgid "Click :menuselection:`Geospatial --> Webservices --> istSOS`."
+msgstr ":menuselection:`Geospatial-->Webservices-->istSOS`をクリックします。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:188
+msgid "Click the :guilabel:`Enter` button in the administration page"
+msgstr "管理ページで:guilabel:`Enter`ボタンをクリックします"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:190
+msgid "Click :menuselection:`Data Management --> Data Viewer`."
+msgstr ":menuselection:`Data Management-->Data Viewer`をクリックします。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:195
+msgid "Select the following:"
+msgstr "次を選択してください:"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:193
+msgid "Service = demo"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:194
+msgid "Offering = temporary"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:195
+msgid "Procedure T_LUGANO"
+msgstr ""
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:197
+msgid "Click the :guilabel:`Add` button"
+msgstr ":guilabel:`Add`ボタンをクリックします"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:199
+msgid ""
+"Click the :guilabel:`Plot` button and check that the data have been added "
+"(watch out at your time zone!)"
+msgstr ":guilabel:`Plot`ボタンをクリックし、データが追加されたことを確認します(タイムゾーンに注意してください)。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:253
+msgid "What next?"
+msgstr "次のステップ"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:255
+msgid ""
+"To learn more about istSOS, a starting point is the `istSOS Documentation`_ "
+"and the `istSOS Tutorial`_."
+msgstr ""
+"istSOSについてさらに学ぶには、 `istSOS Documentation`_ と `istSOS Tutorial`_を参照してください。"
