@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2019
 # MarPetra <mvergaratrejo@gmail.com>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:11+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,7 +74,7 @@ msgstr "pgRouting は GPLv2 ライセンスで提供され、個人、企業及�
 
 #: ../../build/doc/overview/pgrouting_overview.rst:40
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:42
 msgid "pgRouting provides functions for:"
@@ -160,10 +160,10 @@ msgstr "**API インターフェイス:** SQL"
 msgid "**Commercial Support:** https://pgrouting.org/support.html"
 msgstr "**商用サポート:** https://pgrouting.org/support.html"
 
-#: ../../build/doc/overview/pgrouting_overview.rst:82
+#: ../../build/doc/overview/pgrouting_overview.rst:83
 msgid "Quickstart"
 msgstr "クイックスタート"
 
-#: ../../build/doc/overview/pgrouting_overview.rst:84
+#: ../../build/doc/overview/pgrouting_overview.rst:85
 msgid ":doc:`Quickstart documentation <../quickstart/pgrouting_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/pgrouting_quickstart>`"
