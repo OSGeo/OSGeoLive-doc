@@ -67,7 +67,7 @@ The Layer Selection widget allows you to enable or disable the visibility and
 configure the rendering of the layers. Also, you can show or hide the
 streets-overlay and select the background layer. Please note, that when you
 disable the "MER FRS 1P RGB reduced" layer, the timeslider widget is hidden and
-only reappears once a layer dataset layer is enabled.
+only reappears once a dataset layer is enabled.
 The Tools widget provides three different tools: the Bounding Box Selection Tool,
 the Selection Management Tool and the Download Tool.
 
@@ -92,7 +92,7 @@ the map. The bounding box is used for querying within the Download Tool.
   :alt: EOxServer demonstration embedded client outlines
 
 When the Download Tool is enabled, a query to the server is sent. This query
-include s the selected time of interest and bounding box. The results are shown
+includes the selected time of interest and bounding box. The results are shown
 in the Download widget, where you can select the format, projection and datasets
 to download.
 
