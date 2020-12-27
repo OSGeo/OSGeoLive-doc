@@ -283,6 +283,10 @@ linkcheck_ignore = [
         # Link with certiciate problems
         # Used in quickstart/liblas_quickstart
         'https://epsg.org/home.html',
+
+        # Link with error 400 Client Error
+        # Used in contact
+        r'https://mobile.twitter.com/osgeolive',
         ]
 
 linkcheck_anchors = False
