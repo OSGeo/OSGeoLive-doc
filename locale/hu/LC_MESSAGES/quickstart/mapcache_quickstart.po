@@ -4,14 +4,15 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2019-08-06 18:07+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -53,12 +54,12 @@ msgstr "Új csempekészlet hozzáadása és megjelenítése OpenLayers-ben"
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:33
 msgid ""
 "MapCache is configured using XML files. OSGeoLive includes an example "
-"configuration file at ``/home/user/mapcache/mapcache-quickstart.xml``. The "
-"example uses the OSGeoLive demo MapServer application of Itasca County in "
-"the United States as its source."
+"configuration file at ``/usr/local/share/mapcache/mapcache-quickstart.xml``."
+" The example uses the OSGeoLive demo MapServer application of Itasca County "
+"in the United States as its source."
 msgstr ""
 "A MapCache-t XML fájlok felhasználasával konfigurálták. Az OSGeoLive egy "
-"minta konfigurációs fájlt tartalmaz ``/home/user/mapcache/mapcache-"
+"minta konfigurációs fájlt tartalmaz  ``/usr/local/share/mapcache/mapcache-"
 "quickstart.xml``. A példa az OSGeoLive Itasca megyei demó MapServer "
 "alkalmazást használja forrásként."
 
@@ -73,16 +74,17 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:38
 msgid ""
-"First let's open the MapCache configuration file in LeafPad - a text editor."
-" Navigate to ``/home/user/mapcache`` in the File Manager, right-click on "
-"``mapcache-quickstart.xml`` and select LeafPad."
+"First let's open the MapCache configuration file in FeatherPad - a text "
+"editor. Open FeatherPad from the command line with elevated permissions, so "
+"you can save the file, using System Tools > QTerminal and then running run "
+"the command below:"
 msgstr ""
-"Először nyissuk meg a MapChache  konfigurációs fájlt a LeafPad "
-"szövegszerkesztőben. Navigáljon a fájlkezelőben a ``/home/user/mapcache`` "
-"könyvtárba, jobb kattintás a ``mapcache-quickstart.xml`` fájlra és válassza "
-"a LeafPad-et."
+"Először nyissa meg a MapCache konfigurációs fájlt a FeatherPad "
+"szövegszerkesztőben. A parancssorból megnyitott FeatherPad ellenőrzi a "
+"jogosultságokat, elmentheti a fájlt System Tools > QTerminallal majd "
+"futtassa az alábbi parancsot:"
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:41
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:45
 msgid ""
 "We can see which layers are available in our source WMS server by opening "
 "the following link: "
@@ -96,7 +98,7 @@ msgstr ""
 "úgy konfigurálták, hogy az általa nem kezelt kéréseket, például "
 "GetCapabilities,  a MapServer-hez továbbítsa az alább bemutatott szabállyal:"
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:52
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:56
 msgid ""
 "One of the layer names listed in the WMS Capabilities document is "
 "``dlgstln2`` - streams for Itasca county. We will add this as a new tileset "
@@ -114,7 +116,7 @@ msgstr ""
 "quickstart.xml``hez ``<source name=\"lake_source\" "
 "type=\"wms\">...</source>`` tavakhoz használt blokk után:"
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:71
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:75
 msgid ""
 "We use the ``<params>`` block to pass the WMS layer name, and the image "
 "format back to the WMS server, along with the MapServer specific ``<map>`` "
@@ -128,7 +130,7 @@ msgstr ""
 "dokumentációjához nézze meg a `Konfiguráció documentációt "
 "<https://mapserver.org/mapcache/config.html>`_."
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:75
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:79
 msgid ""
 "Next we will add a ``<tileset>`` block, which defines how the source will be"
 " stored and served as tiles. Place the following block after the existing "
@@ -138,7 +140,7 @@ msgstr ""
 " forrást és hogyan szolgáltatjuk csempeként. Helyezze el a következő blokkot"
 " a létező ``<tileset name=\"lakes\">...</tileset>`` blokk után."
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:87
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:91
 msgid ""
 "We set the grid type to the inbuilt ``GoogleMapsCompatible`` grid used as "
 "the default tiling scheme in many web mapping applications. The "
@@ -152,7 +154,7 @@ msgstr ""
 "eléréséhez. Lemez alapú gyorsítótárat használunk (inkább mint adatbázisban "
 "tárolt csempéket vagy felhő környezetet)."
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:91
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:95
 msgid ""
 "Anytime you modify the MapCache configuration file you need to reload Apache"
 " for the changes to come into effect. This can be run from the command line "
@@ -162,7 +164,7 @@ msgstr ""
 "érvényesítése érdekében újra be kell tölteni az Apache-t. Ez a parancssorból"
 " futtatható a következőképpen:"
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:98
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:102
 msgid ""
 "You should now be able to access a tile with the following URL: "
 "http://localhost/itasca/gmaps/streams@GoogleMapsCompatible/12/987/1433.png"
@@ -170,7 +172,7 @@ msgstr ""
 "Most már elérheti a csempét a következő URL-el: "
 "http://localhost/itasca/gmaps/streams@GoogleMapsCompatible/12/987/1433.png"
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:102
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:106
 msgid ""
 "Now let's add the tileset to our OpenLayers map. Open the HTML page using "
 "the following command:"
@@ -178,11 +180,11 @@ msgstr ""
 "Most adjuk a csempe készletet az OpenLayers térképünkhöz. Nyissa meg a HTML "
 "oldalt a következő parancs használatával:"
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:108
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:112
 msgid "Uncomment out the JavaScript code below:"
 msgstr "Szüntesse meg a komment jeleket az alábbi JavaScript kódban:"
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:118
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:122
 msgid ""
 "Now refresh the page at http://localhost/mapcache-quickstart/ - you should "
 "see the new streams layer being served by MapCache."
@@ -190,7 +192,7 @@ msgstr ""
 "Most frissítse azt oldalt http://localhost/mapcache-quickstart/ - látnia "
 "kell a MapCache által szolgáltatott új patakok réteget."
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:122
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:126
 msgid ""
 "As you browse the map you will see the tile cache folders in "
 "``/var/cache/mapcache`` fill with PNG images."
@@ -198,7 +200,7 @@ msgstr ""
 "Ahogy böngészi a térképet láthatja a csempe mappákat a "
 "``/var/cache/mapcache``-ben PGN képekkel feltöltve."
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:126
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:130
 msgid ""
 "The location and type of the cache is set by the following block in the "
 "configuration file:"
@@ -206,24 +208,24 @@ msgstr ""
 "A gyorsítótár helyét és típusát a konfiguráció fájlban állíthatjuk be a "
 "következő blokkal:"
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:136
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:140
 msgid "Adding New Services"
 msgstr "Új szolgáltatás hozzáadása"
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:138
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:142
 msgid ""
 "You can configure Apache to run as many different MapCache services, each "
 "with its own configuration file by editing the ``/etc/apache2/conf-"
 "enabled/mapcache.conf`` file. As this requires super user permissions you "
-"can open it for editing in LeafPad by running the command below:"
+"can open it for editing in FeatherPad by running the command below:"
 msgstr ""
 "Úgy konfigurálhatja az Apache-t, hogy több különböző MapCache szolgáltatást "
 "futtasson, mindegyiket a saját konfiguráció fájljával, az ``/etc/apache2"
 "/conf-enabled/mapcache.conf`` fájl szerkesztésével. Mivel ez rendszergazda "
-"jogosultságot igényel, megnyithatja szerkesztésre a LeafPad-ben a következő "
-"paranccsal:"
+"jogosultságot igényel, megnyithatja szerkesztésre a FeatherPad-ben a "
+"következő paranccsal:"
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:146
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:150
 msgid ""
 "OSGeoLive has two MapCache services, each with an alias and a configuration "
 "file. The alias is the URL to use on the server, e.g. "
@@ -233,7 +235,7 @@ msgstr ""
 " egy alias és egy konfigurációs fájl. Az alias a szerveren használandó URL "
 "pl. http://localhost/mapcache and http://localhost/itasca"
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:160
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:164
 msgid ""
 "To add a new service simply add a new line in the following format, "
 "replacing WEB_PATH and PATH_TO_CONFIG_FILE with the relevant parameters:"
@@ -242,7 +244,7 @@ msgstr ""
 "formátumban, helyettesítse a WEB_PATH-t és a PATH_TO_CONFIG_FILE-t a "
 "megfelelő paraméterekkel:"
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:167
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:171
 msgid ""
 "See the `Apache Module Instructions "
 "<https://mapserver.org/mapcache/install.html#apache-module-specific-"
@@ -252,11 +254,11 @@ msgstr ""
 "<https://mapserver.org/mapcache/install.html#apache-module-specific-"
 "instructions>`_ az Apache modul konfigurálás további részleteiről."
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:171
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:175
 msgid "The Seeder Application"
 msgstr "A feltöltő alkalmazás"
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:173
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:177
 msgid ""
 "Map tiles are dynamically created when requested by the web server. To speed"
 " up request times we can generate tiles using a command line application. "
@@ -268,7 +270,7 @@ msgstr ""
 "generálhatunk. Ezt az eljárást mint *feltöltést* ismerjük és a MapCache "
 "parancssori alkalmazás a ``mapcache_seed``."
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:177
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:181
 msgid ""
 "To make sure the tiles created by the seeder application are accessible by "
 "the web server account we add ``sudo -u www-data`` before running the "
@@ -278,11 +280,11 @@ msgstr ""
 "elérhetők legyenek a web szerver felhasználó számára a ``sudo -u www-data`` "
 "részt adjuk a ``mapcache_seed`` alkalmazás futtatása elé."
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:180
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:184
 msgid "In the example below we pass in three options to ``mapcache_seed``:"
 msgstr "Az alábbi példában három paramétert adunk át a ``mapcache_seed``-nek:"
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:182
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:186
 msgid ""
 "*config*: ``/home/user/mapcache/mapcache-quickstart.xml`` - this is the path"
 " to the MapCache configuration file"
@@ -290,7 +292,7 @@ msgstr ""
 "*config*: ``/home/user/mapcache/mapcache-quickstart.xml`` - ez az elérési út"
 " a MapCache konfigurációs fájlhoz"
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:184
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:188
 msgid ""
 "*tileset*: ``lakes`` - this is the tileset name we are going to seed, and is"
 " found in ``mapcache-quickstart.xml``"
@@ -298,7 +300,7 @@ msgstr ""
 "*tileset*: ``lakes`` - ez a csempe készlet neve, melyet feltöltünk és a "
 "``mapcache-quickstart.xml``-ben található"
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:185
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:189
 msgid ""
 "*zoom*: ``0,5`` - this is the range of zoom levels we are going to seed, "
 "from zoom level 0 (the extent of the world in a single tile) to zoom level 5"
@@ -307,7 +309,7 @@ msgstr ""
 "0-s nagyítási szinttől (a világ terjedelme egyetlen csempében) az 5-ös "
 "nagyítási szintig"
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:192
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:196
 msgid ""
 "For the many other ``mapcache_seed`` options please see the `Seeder "
 "Documentation <https://mapserver.org/mapcache/seed.html>`_."
@@ -315,18 +317,18 @@ msgstr ""
 "További számos más ``mapcache_seed`` paraméterekhez kérjük nézze meg a "
 "`Seeder dokumentációt <https://mapserver.org/mapcache/seed.html>`_."
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:197
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:201
 msgid ""
 "If you want to remove a cache folder you can run the following command:"
 msgstr ""
 "Ha el akar távolítani egy gyorstár mappát, a következő parancsot "
 "futtathatja:"
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:204
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:208
 msgid "What Next?"
 msgstr "Mi a következő?"
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:206
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:210
 msgid ""
 "Read the `MapCache Documentation "
 "<https://mapserver.org/mapcache/index.html>`_."
@@ -334,7 +336,7 @@ msgstr ""
 "Olvassa el a `MapCache Dokumentációt "
 "<https://mapserver.org/mapcache/index.html>`_."
 
-#: ../../build/doc/quickstart/mapcache_quickstart.rst:207
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:211
 msgid ""
 "Then join the MapServer community, of which MapCache is a part, on the "
 "`Mailing Lists <https://www.mapserver.org/community/lists.html>`_ to "

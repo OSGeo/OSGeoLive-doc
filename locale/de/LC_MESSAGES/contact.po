@@ -9,15 +9,16 @@
 # Richard Bischof <richard.bischof@lgln.niedersachsen.de>, 2018
 # Astrid Emde <astrid_emde@osgeo.org>, 2019
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Markus Neteler <neteler@osgeo.org>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-23 12:06-0500\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Markus Neteler <neteler@osgeo.org>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +37,7 @@ msgid ""
 "<https://trac.osgeo.org/osgeolive#Communication>`_."
 msgstr ""
 "Die Entwicklung von OSGeoLive wird über E-Mail und Internet-Chat (IRC) "
-"koordiniert. Weitere Informationen hierzu sind im `OSGeo Wiki "
+"koordiniert. Weitere Informationen hierzu sind im `OSGeoLive Wiki "
 "<https://trac.osgeo.org/osgeolive#Communication>`_ zu finden."
 
 #: ../../build/doc/contact.rst:9

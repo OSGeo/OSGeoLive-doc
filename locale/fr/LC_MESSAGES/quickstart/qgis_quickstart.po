@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:33
+#: ../../build/doc/quickstart/qgis_quickstart.rst:36
 msgid "QGIS Quickstart"
 msgstr "Guide de démarrage avec QGIS"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:35
+#: ../../build/doc/quickstart/qgis_quickstart.rst:38
 msgid ""
 "QGIS is a user-friendly Desktop GIS client which lets you visualize, manage,"
 " edit, analyse data and compose printable maps."
@@ -35,19 +35,19 @@ msgstr ""
 "visualiser, gérer, éditer, analyser les données et composer des cartes "
 "imprimables."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:43
+#: ../../build/doc/quickstart/qgis_quickstart.rst:46
 msgid "Start QGIS"
 msgstr "Démarrer QGIS"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:45
+#: ../../build/doc/quickstart/qgis_quickstart.rst:48
 msgid "Open the 'Desktop GIS' folder."
 msgstr "Ouvrez le dossier 'Desktop SIG'."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:46
+#: ../../build/doc/quickstart/qgis_quickstart.rst:49
 msgid "Double click on the 'QGIS' icon."
 msgstr "Double clic sur l'icône 'QGIS'."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:48
+#: ../../build/doc/quickstart/qgis_quickstart.rst:51
 msgid ""
 "You will see QGIS launch with an empty project. The various parts of the "
 "QGIS Interface are listed below."
@@ -55,7 +55,7 @@ msgstr ""
 "Vous verrez QGIS se lancer avec un projet vide. Les différentes parties de "
 "l'interface QGIS sont énumérées ci-dessous."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:54
+#: ../../build/doc/quickstart/qgis_quickstart.rst:57
 msgid ""
 "[1] Menu bar: Access to various QGIS features using a standard hierarchical "
 "menu."
@@ -63,7 +63,7 @@ msgstr ""
 "[1] Barre de menu : Accès à diverses fonctionnalités QGIS à l'aide d'un menu"
 " hiérarchique standard."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:55
+#: ../../build/doc/quickstart/qgis_quickstart.rst:58
 msgid ""
 "[2] Toolbars: For interaction with the map, layers, attributes and "
 "selections."
@@ -71,7 +71,7 @@ msgstr ""
 "[2] Barres d'outils : Pour l'interaction avec la carte, les couches, les "
 "attributs et les sélections."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:56
+#: ../../build/doc/quickstart/qgis_quickstart.rst:59
 msgid ""
 "[3] Browser Panel: A spatial file browser allowing drag and drop content "
 "into the map frame."
@@ -79,13 +79,13 @@ msgstr ""
 "[3] Panneau de navigateur : Navigateur de fichiers spatiaux permettant de "
 "glisser et de déposer du contenu dans le cadre de la carte."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:57
+#: ../../build/doc/quickstart/qgis_quickstart.rst:60
 msgid "[4] Layer Panel: Controls the map layers, their order, and visibility."
 msgstr ""
 "[4] Panneau de couches : Contrôle les couches de la carte, leur ordre et "
 "leur visibilité."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:58
+#: ../../build/doc/quickstart/qgis_quickstart.rst:61
 msgid ""
 "[5] Status Bar: General information about the map and access to a universal "
 "search bar."
@@ -93,17 +93,17 @@ msgstr ""
 "[5] Barre d'état : Informations générales sur la carte et l'accès à une "
 "barre de recherche universelle."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:61
+#: ../../build/doc/quickstart/qgis_quickstart.rst:64
 msgid "Create a project"
 msgstr "Créer un projet"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:63
+#: ../../build/doc/quickstart/qgis_quickstart.rst:66
 msgid "To create a new project, choose :menuselection:`Project --> New`."
 msgstr ""
 "Pour créer un nouveau projet, choisissez :menuselection:`Projet --> "
 "Nouveau`."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:69
+#: ../../build/doc/quickstart/qgis_quickstart.rst:72
 msgid ""
 "Let's start by adding a vector layer to the map. Layers can be added to QGIS"
 " using the browser panel, located on the left of the screen."
@@ -112,28 +112,28 @@ msgstr ""
 "peuvent être ajoutées à QGIS à l'aide du panneau du navigateur, situé à "
 "gauche de l'écran."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:71
-#: ../../build/doc/quickstart/qgis_quickstart.rst:89
+#: ../../build/doc/quickstart/qgis_quickstart.rst:74
+#: ../../build/doc/quickstart/qgis_quickstart.rst:92
 msgid "Go the browser panel on the left of the screen."
 msgstr "Allez dans le panneau du navigateur sur la gauche de l'écran."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:72
-#: ../../build/doc/quickstart/qgis_quickstart.rst:90
+#: ../../build/doc/quickstart/qgis_quickstart.rst:75
+#: ../../build/doc/quickstart/qgis_quickstart.rst:93
 msgid "Navigate the folder tree to 'home/data/natural_earth2'."
 msgstr "Naviguez dans l'arbre de dossier  jusqu'à 'home/data/natural-earth2'."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:73
+#: ../../build/doc/quickstart/qgis_quickstart.rst:76
 msgid "Select 'ne_10m_admin_0_countries.shp'."
 msgstr "Sélectionnez 'ne_10m_admin_0_countries.shp'."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:74
-#: ../../build/doc/quickstart/qgis_quickstart.rst:92
+#: ../../build/doc/quickstart/qgis_quickstart.rst:77
+#: ../../build/doc/quickstart/qgis_quickstart.rst:95
 msgid "Drag the layer from the browser panel and drop it in the map frame."
 msgstr ""
 "Faites glisser la couche du panneau du navigateur et déposez-la dans le "
 "cadre de la carte."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:80
+#: ../../build/doc/quickstart/qgis_quickstart.rst:83
 msgid ""
 "Once the layer has been dragged onto the map frame, you will see a layer "
 "showing countries."
@@ -141,15 +141,15 @@ msgstr ""
 "Une fois que la couche a été déposée dans la carte, vous verrez une couche "
 "montrant les pays."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:87
+#: ../../build/doc/quickstart/qgis_quickstart.rst:90
 msgid "Now let's try adding a raster layer to the project."
 msgstr "Essayons maintenant d'ajouter une couche raster au projet."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:91
+#: ../../build/doc/quickstart/qgis_quickstart.rst:94
 msgid "Select 'HYP_50M_SR_W.tif'."
 msgstr "Sélectionnez 'HYP_50M_SR_W.tif'."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:98
+#: ../../build/doc/quickstart/qgis_quickstart.rst:101
 msgid ""
 "Once the layer has been dragged onto the map frame, you will see a raster "
 "layer showing land cover and bathymetry."
@@ -157,7 +157,7 @@ msgstr ""
 "Une fois que la couche a été déposée sur la carte, vous verrez une couche "
 "raster montrant la couverture terrestre et la bathymétrie."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:105
+#: ../../build/doc/quickstart/qgis_quickstart.rst:108
 msgid ""
 "Now that we have added some content to our project we can save this project "
 "so that we can come back to it at a later time."
@@ -165,24 +165,24 @@ msgstr ""
 "Maintenant que nous avons ajouté du contenu à notre projet, nous pouvons "
 "enregistrer ce projet afin que nous puissions y revenir plus tard."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:108
+#: ../../build/doc/quickstart/qgis_quickstart.rst:111
 msgid "Choose :menuselection:`Project --> Save`."
 msgstr "Choisissez :menuselection:`Projet --> Sauvegarder`."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:114
+#: ../../build/doc/quickstart/qgis_quickstart.rst:117
 msgid "Make the location to save the project '/home/user/desktop'."
 msgstr ""
 "Choisissez l'emplacement '/home/user/desktop' pour enregistrer le projet."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:115
+#: ../../build/doc/quickstart/qgis_quickstart.rst:118
 msgid "Call the project 'My QGIS project'."
 msgstr "Appelez le projet 'Mon projet QGIS'."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:121
+#: ../../build/doc/quickstart/qgis_quickstart.rst:124
 msgid "Click 'Save'."
 msgstr "Cliquez sur 'Enregistrer'."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:123
+#: ../../build/doc/quickstart/qgis_quickstart.rst:126
 msgid ""
 "You will know the project has been saved because there will be a project "
 "file on the desktop called 'My QGIS project' and the top of your project "
@@ -194,11 +194,11 @@ msgstr ""
 "de projet ne sera plus lu comme 'sans titre', mais plutôt se lira comme 'Mon"
 " projet QGIS'."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:131
+#: ../../build/doc/quickstart/qgis_quickstart.rst:134
 msgid "Open an existing project"
 msgstr "Ouvrir un projet existant"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:133
+#: ../../build/doc/quickstart/qgis_quickstart.rst:136
 msgid ""
 "A QGIS project saves layers, styles, map extents and settings for use at a "
 "later time. This information is stored as a QGIS project file and has an "
@@ -211,13 +211,13 @@ msgstr ""
 "'.qgs' ou '.qgz', avec '.qgz' étant le futur format de fichier par défaut "
 "dans QGIS."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:137
+#: ../../build/doc/quickstart/qgis_quickstart.rst:140
 msgid "Let's open an existing QGIS project and have a look at how it works."
 msgstr ""
 "Ouvrons un projet QGIS existant et jetons un coup d'œil à son "
 "fonctionnement."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:139
+#: ../../build/doc/quickstart/qgis_quickstart.rst:142
 msgid ""
 "Open QGIS. Note that when QGIS is opened you will be presented with a list "
 "of recent projects to chose from. This is a convenient way to open a project"
@@ -227,23 +227,23 @@ msgstr ""
 "liste de projets récents à choisir. C'est un moyen pratique d'ouvrir des "
 "projets récents."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:140
+#: ../../build/doc/quickstart/qgis_quickstart.rst:143
 msgid "Choose :menuselection:`Project --> Open`."
 msgstr "Choisissez :menuselection:`Projet --> Ouvrir`."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:141
+#: ../../build/doc/quickstart/qgis_quickstart.rst:144
 msgid "Navigate to '/home/user/qgis-example'."
 msgstr "Naviguez vers '/home/user/qgis-example'."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:142
+#: ../../build/doc/quickstart/qgis_quickstart.rst:145
 msgid "Select the project 'QGIS-NaturalEarth-Example.qgs'."
 msgstr "Sélectionnez le projet 'QGIS-NaturalEarth-Example.qgs'."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:143
+#: ../../build/doc/quickstart/qgis_quickstart.rst:146
 msgid "Click 'Open'."
 msgstr "Cliquez sur 'Ouvrir'."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:149
+#: ../../build/doc/quickstart/qgis_quickstart.rst:152
 msgid ""
 "This will open a QGIS project with a number of Natural Earth datasets, as "
 "shown below. This project contains a number of layers in the layers panel "
@@ -254,7 +254,7 @@ msgstr ""
 "nombre de couches dans le panneau de couches et affiche le contenu spatial "
 "dans le cadre de la carte."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:157
+#: ../../build/doc/quickstart/qgis_quickstart.rst:160
 msgid ""
 "Layers can be turned on or off by clicking the checkbox next to the layer "
 "name in the layers panel. When a layer is turned on in the layer panel, the "
@@ -267,7 +267,7 @@ msgstr ""
 " jour pour afficher la couche. Un gros plan du panneau de calque est montré "
 "ci-dessous."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:165
+#: ../../build/doc/quickstart/qgis_quickstart.rst:168
 msgid ""
 "Let's interact with the layer panel and change the visibility of some map "
 "layers."
@@ -275,7 +275,7 @@ msgstr ""
 "Interagissons avec le panneau de calque et changeons la visibilité de "
 "certaines couches de carte."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:167
+#: ../../build/doc/quickstart/qgis_quickstart.rst:170
 msgid ""
 "Click the checkbox next to the 'ne_10m_populated_places' layer to turn it "
 "on."
@@ -283,13 +283,13 @@ msgstr ""
 "Cliquez sur la case à cocher à côté de la couche 'ne_10m_populated_places'  "
 "pour l'afficher."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:168
+#: ../../build/doc/quickstart/qgis_quickstart.rst:171
 msgid "Click the checkbox next to the 'Water' layer to turn the layer off."
 msgstr ""
 "Cliquez sur la case à cocher à côté de la couche 'Water' pour désactiver la "
 "couche."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:170
+#: ../../build/doc/quickstart/qgis_quickstart.rst:173
 msgid ""
 "Notice how the map frame has been updated to reflect the changes in the "
 "layer list. We can now see the 'ne_10m_populated_places' layer as points, "
@@ -301,7 +301,7 @@ msgstr ""
 " 'ne_10m_populated_places' comme des points, mais ne pouvons plus voir les "
 "rivières et les lacs qui sont dans la couche 'Water'."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:178
+#: ../../build/doc/quickstart/qgis_quickstart.rst:181
 msgid ""
 "In addition to controlling layer visibility, we can also change the order in"
 " which layers are drawn in the layer panel. This is done by selecting a "
@@ -316,18 +316,18 @@ msgstr ""
 "sur lequel les couches apparaissent dans la liste de couches est l'ordre sur"
 " lequel elles s'appuieront dans le cadre de la carte."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:183
+#: ../../build/doc/quickstart/qgis_quickstart.rst:186
 msgid "Left-Click on the layer 'HYP_50M_SR_W'."
 msgstr "Faites un clic gauche sur la couche 'HYP_50M_SR_W'."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:184
+#: ../../build/doc/quickstart/qgis_quickstart.rst:187
 msgid ""
 "While holding the mouse button down drag the layer to the top of the list."
 msgstr ""
 "Tout en maintenant le bouton de la souris appuyé, glissez la couche vers le "
 "haut de la liste."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:186
+#: ../../build/doc/quickstart/qgis_quickstart.rst:189
 msgid ""
 "Notice how the raster layer is now on top of all other layers in the layer "
 "panel. This now renders the raster layer on top of all other layers in the "
@@ -337,7 +337,7 @@ msgstr ""
 "autres couches dans le panneau de couche. Cela rend maintenant la couche "
 "raster sur le dessus de toutes les autres couches dans le cadre de la carte."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:193
+#: ../../build/doc/quickstart/qgis_quickstart.rst:196
 msgid ""
 "Try moving the 'HYP_50M_SR_W' layer to the bottom of the layer list. This "
 "would be a more appropriate position for a map layer like this."
@@ -346,11 +346,11 @@ msgstr ""
 "couches. Ce serait une position plus appropriée pour une couche de carte "
 "comme celle-ci."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:197
+#: ../../build/doc/quickstart/qgis_quickstart.rst:200
 msgid "Navigate the map"
 msgstr "Naviguez dans la carte"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:199
+#: ../../build/doc/quickstart/qgis_quickstart.rst:202
 msgid ""
 "The navigation toolbar allows users to move around the map and change the "
 "map extent."
@@ -358,21 +358,21 @@ msgstr ""
 "La barre d'outils de navigation permet aux utilisateurs de se déplacer "
 "autour de la carte et de modifier l'étendue de la carte."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:205
+#: ../../build/doc/quickstart/qgis_quickstart.rst:208
 msgid "[1] Pan: Allows the map to be dragged ('panned') to a new location."
 msgstr ""
 "[1] Déplacement : Permet à la carte d'être déplacée vers un nouvel "
 "emplacement."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:206
+#: ../../build/doc/quickstart/qgis_quickstart.rst:209
 msgid "[2] Zoom in: Allows the map extent to be zoomed in."
 msgstr "[2] Zoom avant : Permet de zoomer dans l'étendue de la carte."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:207
+#: ../../build/doc/quickstart/qgis_quickstart.rst:210
 msgid "[3] Zoom out: Allows the map to be zoomed out."
 msgstr "[3] Zoom arrière : permet de zoomer en dehors de la carte."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:208
+#: ../../build/doc/quickstart/qgis_quickstart.rst:211
 msgid ""
 "[4] Zoom to full extent: Changes the map extent to fit all of the map layers"
 " into the map frame."
@@ -380,7 +380,7 @@ msgstr ""
 "[4] Zoom sur toute l'étendue : Modifie l'étendue de la carte pour s'adapter "
 "à l'étendue de toutes les couches dans le cadre de la carte."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:209
+#: ../../build/doc/quickstart/qgis_quickstart.rst:212
 msgid ""
 "[5] Zoom to layer: Changes the map extent to fit the extent of the layer "
 "highlighted in the layer panel."
@@ -388,24 +388,24 @@ msgstr ""
 "[5] Zoom sur la couche : Modifie l'étendue de la carte pour s'adapter à "
 "l'étendue de la couche mise en évidence dans le panneau de couches."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:211
+#: ../../build/doc/quickstart/qgis_quickstart.rst:214
 msgid "Let's try changing the map extent with the zoom-in tool."
 msgstr "Essayons de modifier l'étendue de la carte avec l'outil de zoom."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:213
+#: ../../build/doc/quickstart/qgis_quickstart.rst:216
 msgid "Select the 'Zoom in' tool from the navigation toolbar."
 msgstr ""
 "Sélectionnez l'outil 'Zoom in' à partir de la barre d'outils de navigation."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:214
+#: ../../build/doc/quickstart/qgis_quickstart.rst:217
 msgid "Move the cursor over the map frame."
 msgstr "Déplacez le curseur sur le cadre de la carte."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:215
+#: ../../build/doc/quickstart/qgis_quickstart.rst:218
 msgid "Click and hold the left mouse button."
 msgstr "Cliquez et maintenez le bouton gauche de la souris."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:216
+#: ../../build/doc/quickstart/qgis_quickstart.rst:219
 msgid ""
 "While still holding the mouse button move the cursor diagonally in any "
 "direction. Notice this draws a rectangle which is the area that will be "
@@ -415,13 +415,13 @@ msgstr ""
 " n'importe quelle direction. Notez que cela dessine un rectangle qui est la "
 "zone qui sera zoomée."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:217
+#: ../../build/doc/quickstart/qgis_quickstart.rst:220
 msgid "Release the mouse button when happy with the area created."
 msgstr ""
 "Relâchez le bouton de la souris lorsque vous êtes satisfait de la zone "
 "créée."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:219
+#: ../../build/doc/quickstart/qgis_quickstart.rst:222
 msgid ""
 "The process of using the zoom out tool is the same as the zoom-in tool. The "
 "result is just the opposite."
@@ -429,7 +429,7 @@ msgstr ""
 "Le processus d'utilisation de l'outil de zoom arrière est le même que "
 "l'outil de zoom. Le résultat est tout le contraire."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:221
+#: ../../build/doc/quickstart/qgis_quickstart.rst:224
 msgid ""
 "Now, let’s look at the zoom to full extent tool. This tool will zoom the map"
 " out to an extent that will fit in all the layers in the map. To use this "
@@ -440,31 +440,31 @@ msgstr ""
 "carte. Pour utiliser cet outil, cliquez sur le bouton 'Zoom sur toute "
 "l'étendue'."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:225
+#: ../../build/doc/quickstart/qgis_quickstart.rst:228
 msgid ""
 "Finally, try the zoom to layer tool. To use this tool follow these steps:"
 msgstr ""
 "Enfin, essayez l'outil de zoom sur l'étendue d'une couche. Pour utiliser cet"
 " outil, suivez les étapes suivantes :"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:227
+#: ../../build/doc/quickstart/qgis_quickstart.rst:230
 msgid "Click on a layer name in the layer panel."
 msgstr "Cliquez sur un nom de couche dans le panneau de couche."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:228
+#: ../../build/doc/quickstart/qgis_quickstart.rst:231
 msgid "Click on the 'Zoom to layer' button."
 msgstr "Cliquez sur le bouton 'Zoom sur la couche'."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:230
+#: ../../build/doc/quickstart/qgis_quickstart.rst:233
 msgid "The map should zoom to the extent of the selected ('active') layer."
 msgstr ""
 "La carte doit zoomer sur l'emprise de la couche sélectionnée ('active')."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:233
+#: ../../build/doc/quickstart/qgis_quickstart.rst:236
 msgid "Style your layers"
 msgstr "Styliser vos couches"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:235
+#: ../../build/doc/quickstart/qgis_quickstart.rst:238
 msgid ""
 "Layers can be styled in QGIS using the style dock. The style dock is not "
 "visible by default, but easily accessible via a button at the top of the "
@@ -474,7 +474,7 @@ msgstr ""
 "Le panneau de style n'est pas visible par défaut, mais facilement accessible"
 " via un bouton en haut du panneau de couche comme indiqué ci-dessous."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:242
+#: ../../build/doc/quickstart/qgis_quickstart.rst:245
 msgid ""
 "The above button acts as a toggle so the style dock can be easily hidden "
 "from view by clicking the same button again. When the style dock is enabled "
@@ -487,7 +487,7 @@ msgstr ""
 "droit de l'écran prêt à styliser la couche active mise en valeur dans le "
 "panneau de couche."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:246
+#: ../../build/doc/quickstart/qgis_quickstart.rst:249
 msgid ""
 "With the style dock open, we can modify the appearance of the layer shown at"
 " the top of the style dock."
@@ -495,7 +495,7 @@ msgstr ""
 "Avec le panneau de style ouvert, nous pouvons modifier l'apparence de la "
 "couche montrée en haut du panneau de style."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:252
+#: ../../build/doc/quickstart/qgis_quickstart.rst:255
 msgid ""
 "With the style dock now open, we can modify the colour and the width of the "
 "lines in the 'ne_10m_rivers_lakes_centrelines' layer. Let’s try modifying "
@@ -505,7 +505,7 @@ msgstr ""
 " et la largeur des lignes dans la couche 'ne_10m_rivers_lakes_centrelines'. "
 "Essayons d'abord de modifier la couleur."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:255
+#: ../../build/doc/quickstart/qgis_quickstart.rst:258
 msgid ""
 "Click on the 'Color' swatch shown below. This will launch a colour palette "
 "allowing you to choose a different colour."
@@ -513,20 +513,20 @@ msgstr ""
 "Cliquez sur l'échantillon 'Couleur' ci-dessous. Cela vous permettra de "
 "choisir une couleur différente."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:261
+#: ../../build/doc/quickstart/qgis_quickstart.rst:264
 msgid ""
 "In the 'Select Color' palette, move the cross-hair to your preferred colour."
 msgstr ""
 "Dans la palette 'Choix d'une couleur', déplacez le curseur vers votre "
 "couleur préférée."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:267
+#: ../../build/doc/quickstart/qgis_quickstart.rst:270
 msgid "Then click the back arrow to return to the symbol render preview."
 msgstr ""
 "Cliquez ensuite sur la flèche arrière pour revenir à l'aperçu du rendu du "
 "symbole."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:273
+#: ../../build/doc/quickstart/qgis_quickstart.rst:276
 msgid ""
 "The symbol preview will be updated with the new colour, and so will the "
 "layer in the map frame."
@@ -534,7 +534,7 @@ msgstr ""
 "L'aperçu du symbole sera mis à jour avec la nouvelle couleur, tout comme la "
 "couche dans le cadre de la carte."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:279
+#: ../../build/doc/quickstart/qgis_quickstart.rst:282
 msgid ""
 "In the style dock, we can also modify the size of the map features. To "
 "modify the thickness of the lines follow these steps:"
@@ -543,7 +543,7 @@ msgstr ""
 "entités de la carte. Pour modifier l'épaisseur des lignes, suivez ces étapes"
 " :"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:282
+#: ../../build/doc/quickstart/qgis_quickstart.rst:285
 msgid ""
 "Make sure that the 'ne_10m_rivers_lakes_centrelines' is selected at the top "
 "of the style panel."
@@ -551,12 +551,12 @@ msgstr ""
 "Assurez-vous que la cocuhe 'ne_10m_rivers_lakes_centrelines' est "
 "sélectionnée en haut du panneau de style."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:283
+#: ../../build/doc/quickstart/qgis_quickstart.rst:286
 msgid "In the style panel enter the value '0.5' in the 'width' input."
 msgstr ""
 "Dans le panneau de style, entrez la valeur '0.5' dans le champ 'largeur'."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:289
+#: ../../build/doc/quickstart/qgis_quickstart.rst:292
 msgid ""
 "Notice the line in the symbol preview increase in width, and so do the lines"
 " that are in the map frame."
@@ -564,11 +564,11 @@ msgstr ""
 "Notez l'augmentation de la largeur de la ligne dans l'aperçu du symbole, et "
 "ainsi que les lignes qui sont dans le cadre de la carte."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:292
+#: ../../build/doc/quickstart/qgis_quickstart.rst:295
 msgid "Things to try"
 msgstr "Choses à essayer"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:294
+#: ../../build/doc/quickstart/qgis_quickstart.rst:297
 msgid ""
 "Extend QGIS functionality with `Plugins "
 "<https://docs.qgis.org/3.4/en/docs/user_manual/plugins/plugins.html>`_."
@@ -576,7 +576,7 @@ msgstr ""
 "Étendez les fonctionnalités de QGIS avec les `Plugins "
 "<https://docs.qgis.org/3.4/en/docs/user_manual/plugins/plugins.html>`_."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:296
+#: ../../build/doc/quickstart/qgis_quickstart.rst:299
 msgid ""
 "Start manipulating data with the `Processing toolbox "
 "<https://docs.qgis.org/3.4/en/docs/user_manual/processing/toolbox.html>`_."
@@ -584,7 +584,7 @@ msgstr ""
 "Commencez à manipuler les données avec la `Boite à outils de traitements "
 "<https://docs.qgis.org/3.4/en/docs/user_manual/processing/toolbox.html>`_."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:298
+#: ../../build/doc/quickstart/qgis_quickstart.rst:301
 msgid ""
 "Use QGIS to view content from a `PostGIS database "
 "<https://docs.qgis.org/3.4/en/docs/training_manual/spatial_databases/index.html>`_."
@@ -592,7 +592,7 @@ msgstr ""
 "Utilisez QGIS pour afficher le contenu d'une `base de données PostGIS "
 "<https://docs.qgis.org/3.4/en/docs/training_manual/spatial_databases/index.html>`_."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:300
+#: ../../build/doc/quickstart/qgis_quickstart.rst:303
 msgid ""
 "Try publishing your QGIS map to the web using `QGIS Map Server "
 "<../overview/qgis_mapserver_overview.html>`_. in the "
@@ -602,11 +602,11 @@ msgstr ""
 "<../overview/qgis_mapserver_overview.html>`_. dans le menu "
 ":menuselection:`Geospatial --> Web Services`"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:304
+#: ../../build/doc/quickstart/qgis_quickstart.rst:307
 msgid "What next?"
 msgstr "Ensuite ?"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:306
+#: ../../build/doc/quickstart/qgis_quickstart.rst:309
 msgid ""
 "To learn more about QGIS, a good starting point is the `Documentation page`_"
 " on the QGIS homepage and `A Gentle Introduction to GIS`_ eBook."

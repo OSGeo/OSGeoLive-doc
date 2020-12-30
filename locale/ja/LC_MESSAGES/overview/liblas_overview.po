@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2019
 # MarPetra <mvergaratrejo@gmail.com>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,7 +37,7 @@ msgid ""
 "to store data from LiDAR sensors and by LiDAR processing software for data "
 "interchange and archival."
 msgstr ""
-"ibLAS は一般的な `LAS` `LiDAR`_ フォーマットを読み書きするための C/C++ ライブラリです。 `ASPRS LAS "
+"ibLAS は一般的な `LAS` `LiDAR`_ フォーマットを読み書きするための C/C++ ライブラリです。 。`ASPRS LAS "
 "format`_ は LiDAR センサや LiDAR "
 "処理ソフトウェアがデータの保存、交換，アーカイブに使用しているシーケンシャルなバイナリフォーマットです。"
 
@@ -57,7 +57,7 @@ msgstr ""
 
 #: ../../build/doc/overview/liblas_overview.rst:38
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/liblas_overview.rst:40
 msgid "C/C++/Python APIs for reading, writing, and manipulating LAS data"
@@ -105,10 +105,10 @@ msgid ""
 "<https://liblas.org/community.html>`_"
 msgstr "**サポート：** `コミュニケーションとサポート  <https://liblas.org/community.html>`_"
 
-#: ../../build/doc/overview/liblas_overview.rst:71
+#: ../../build/doc/overview/liblas_overview.rst:72
 msgid "Quickstart"
 msgstr "クイックスタート"
 
-#: ../../build/doc/overview/liblas_overview.rst:73
+#: ../../build/doc/overview/liblas_overview.rst:74
 msgid ":doc:`Quickstart documentation <../quickstart/liblas_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/liblas_quickstart>`"

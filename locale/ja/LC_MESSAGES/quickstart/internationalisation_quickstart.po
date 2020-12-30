@@ -4,16 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2019
+# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -70,7 +71,7 @@ msgid ""
 "Support` from the main menu. (Requires an internet connection)."
 msgstr ""
 "その他の言語については、メインメニューから :menuselection:`Preferences --> Language Support` "
-"を確認してください。(インターネット接続が必要となります)"
+"を確認してください。(インターネット接続が必要です)。"
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:37
 msgid "Keyboard Support"
@@ -87,12 +88,11 @@ msgid ""
 "to add an additional layout and then :guilabel:`Close` the IBus Preferences "
 "window."
 msgstr ""
-"国際化キーボード環境はインストール済みですが、ご利用のキーボードに合わせて設定する必要があります。設定を変更するには、メインメニューから "
-":menuselection:`Preferences --> Keyboard Input Methods` を開き、 "
-":guilabel:`Input Method` タブをクリックします。次に :guilabel:`Customize active input "
-"methods` をクリックし、 :guilabel:`Select an input method` ボタンをクリックします。右側の "
-":guilabel:`Add` ボタンをクリックして追加のレイアウトを追加し、 IBus Preferences window の "
-":guilabel:`Close` をクリックします。"
+"国際的なキーボードのサポートがインストールされていますが、特定のキーボード用にシステムを設定する必要があります。設定を変更するには、メインメニューから "
+":menuselection:`Preferences-->Keyboard Input Methods` を開き、:guilabel:` Input "
+"Method`タブをクリックします。次に、 :guilabel:` Customize active input methods`ボタンをクリックし、 "
+":guilabel:` Select an input method`ボタンをクリックします。次に右側の :guilabel:`Add` "
+"ボタンをクリックしてレイアウトを追加し、:guilabel:`Close` をクリックしてiBus 設定ウィンドウを閉じます。"
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:47
 msgid ""

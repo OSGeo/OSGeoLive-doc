@@ -11,9 +11,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-12-15 14:20-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -116,10 +116,8 @@ msgstr ""
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
 msgid ""
 "https://help.ubuntu.com/community/Lubuntu/Documentation and "
-"https://wiki.lxde.org/en/Main_Page"
+"https://www.lxde.org/"
 msgstr ""
-"https://help.ubuntu.com/community/Lubuntu/Documentation und "
-"https://wiki.lxde.org/de/Main_Page"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:56
 msgid "Getting started with the Ubuntu operating system:"

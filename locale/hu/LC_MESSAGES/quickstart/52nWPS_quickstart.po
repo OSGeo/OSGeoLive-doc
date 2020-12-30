@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:16
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:19
 msgid "52 North WPS Quickstart"
 msgstr "52 North WPS gyorstalpaló"
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:18
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:21
 msgid ""
 "The 52°North WPS is a framework for web-based processing of (geospatial) "
 "data. The service implements the OGC Web Processing Service 1.0 interface "
@@ -36,7 +36,7 @@ msgstr ""
 "feldolgozására. A szolgáltatás az OGC Web Processing Service 1.0 interfész "
 "szabványt implementálja."
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:21
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:24
 msgid ""
 "This quickstart describes how to process data and store the result in "
 "another web service using WPS operations."
@@ -44,11 +44,11 @@ msgstr ""
 "Ez a gyorstalpaló leírja hogyan dolgozzuk fel az adatokat és tároljuk az "
 "eredményt egy másik web szolgáltatásban a WPS műveleteket használva."
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:27
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:30
 msgid "Start 52°North WPS"
 msgstr "52 North WPS indítása"
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:29
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:32
 msgid ""
 "To run the 52°North WPS on the Live DVD, go to |osgeolive-appmenupath-"
 "52nWPS| or use this `direct link <http://localhost:8080/52nWPS/>`_."
@@ -57,11 +57,11 @@ msgstr ""
 "52nWPS|-hez vagy használja `közvetlen linket "
 "<http://localhost:8080/52nWPS/>`_."
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:31
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:34
 msgid "The 52n WPS welcome page will appear."
 msgstr "A 52n WPS üdvözlő kép jelenik meg,"
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:37
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:40
 msgid ""
 "(If the web service is not reachable, try to start the Tomcat servlet engine"
 " following the steps at the bottom of the :doc:`SOS quickstart page "
@@ -71,29 +71,29 @@ msgstr ""
 "motort a :doc:`SOS gyorstalpaló oldal <../quickstart/52nSOS_quickstart>` "
 "alján található lépéseket követve."
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:40
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:43
 msgid "Get information about the service"
 msgstr "Kapjon információt a szolgáltatásról"
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:42
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:45
 msgid "Check out the capabilities of the 52°North WPS with this request:"
 msgstr "Nézd meg az az 52 ° North WPS  képességeit ezzel a kéréssel:"
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:44
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:47
 msgid ""
 "http://localhost:8080/52nWPS/WebProcessingService?Request=GetCapabilities&Service=WPS"
 msgstr ""
 "http://localhost:8080/52nWPS/WebProcessingService?Request=GetCapabilities&Service=WPS"
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:47
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:50
 msgid "Process data"
 msgstr "Adatfeldolgozás"
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:49
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:52
 msgid "Click on the link to open the 52nWPS-TestClient."
 msgstr "Kattintson a linkre az 52nWPS-TestClient megnyitásához."
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:55
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:58
 msgid ""
 "Make sure that :doc:`GeoServer <../overview/geoserver_overview>` is running "
 "since the demonstration requires data from the local GeoServer installation."
@@ -101,7 +101,7 @@ msgstr ""
 "Győződjön meg, hogí a :doc:`GeoServer <../overview/geoserver_overview>` fut,"
 " mivel a bemutatónak a helyi GeoServer telepítés adataira van szüksége."
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:56
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:59
 msgid ""
 "To do this, try to open the page http://localhost:8082/geoserver/web. If the"
 " page could not be found, select |osgeolive-appmenupath-geoserver| in the "
@@ -111,13 +111,13 @@ msgstr ""
 " oldal nem található válassza a |osgeolive-appmenupath-geoserver|-t a "
 "menüből. A GeoServer-nek futnia kell néhány pillanat múlva."
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:58
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:61
 msgid ""
 "Select the example request \"SimpleBuffer_out_wfs.xml\" from the dropdown "
 "list:"
 msgstr "Válassza a \"SimpleBuffer_out_wfs.xml\" kérést a legördülő listából:"
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:64
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:67
 msgid ""
 "Push the Send-Button and the request will be transmitted to the 52°North WPS"
 " which will generate a buffer around the major roads of Tasmania with a "
@@ -127,7 +127,7 @@ msgstr ""
 "0.05 fokos övezetet generál Tasmania főútjai körül és az eredményt a "
 "GeoServe-ben tárolja."
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:72
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:75
 msgid ""
 "Copy the ResourceID from the response. This is the name of the GeoServer "
 "layer. Add the ID to the following request: "
@@ -139,11 +139,11 @@ msgstr ""
 "http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers=ide_írj_az_ID-t."
 " A következő eredményt kell kapnia: "
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:81
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:84
 msgid "Things to try"
 msgstr "Kipróbálandó dolgok"
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:83
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:86
 msgid ""
 "Try out other example requests from the dropdown list of the WPS test "
 "client."
@@ -151,7 +151,7 @@ msgstr ""
 "Próbáljon ki további minta kéréseket a WPS teszt kliens legördülő "
 "listájából."
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:84
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:87
 msgid ""
 "You could also install the WPS plugin for :doc:`QGIS "
 "<../overview/qgis_overview>` and try it out with the 52°North WPS."
@@ -159,21 +159,21 @@ msgstr ""
 "A WPS modult telepítheti a :doc:`QGIS-hez <../overview/qgis_overview>` és "
 "próbálja ki az 52°North WPS-sel."
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:87
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:90
 msgid "What next?"
 msgstr "Mi a következő?"
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:89
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:92
 msgid "Create your own processes and execute them using various clients."
 msgstr ""
 "Hozza létre saját feldolgozásait és futtassa őket különböző kliensek "
 "felhasználásával."
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:91
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:94
 msgid "Set up the WPS to execute GRASS GIS 7 processes."
 msgstr "Állítsa be a WPS-t GRASS GIS 7 feldolgozások végrehajtásához."
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:93
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:96
 msgid ""
 "Set up the WPS to execute :doc:`R <../overview/R_overview>` scripts as "
 "processes."
@@ -181,7 +181,7 @@ msgstr ""
 "Állítsa be a WPS-t :doc:`R <../overview/R_overview>` szriptek mint "
 "feldolgozások végrehajtásához."
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:95
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:98
 msgid ""
 "Available in the 52°North wiki: "
 "https://wiki.52north.org/Geoprocessing/GeoprocessingTutorials"
@@ -189,12 +189,12 @@ msgstr ""
 "Elérhető az 52°North wikiben:  "
 "https://wiki.52north.org/Geoprocessing/GeoprocessingTutorials"
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:97
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:100
 msgid "For further questions you can contact the 52°North WPS mailing list:"
 msgstr ""
 "További kérdések esetén vegye fel a kapcsolatot az 52°North WPS levelező "
 "listával:"
 
-#: ../../build/doc/quickstart/52nWPS_quickstart.rst:99
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:102
 msgid "geoprocessing@52north.org"
 msgstr "geoprocessing@52north.org"

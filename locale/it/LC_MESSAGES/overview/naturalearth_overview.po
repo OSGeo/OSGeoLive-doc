@@ -5,16 +5,15 @@
 # 
 # Translators:
 # Luca Delucchi <lucadeluge@gmail.com>, 2018
-# Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-12-15 14:20-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2018\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -157,8 +156,8 @@ msgid "Details"
 msgstr "Dettagli"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:56
-msgid "**Website:** http://www.naturalearthdata.com/"
-msgstr "**Sito web:** http://www.naturalearthdata.com/"
+msgid "**Website:** https://www.naturalearthdata.com/"
+msgstr ""
 
 #: ../../build/doc/overview/naturalearth_overview.rst:58
 msgid "**License:** None, the data is public domain."
@@ -177,5 +176,5 @@ msgid "**Spatial coordinate system:** WGS84."
 msgstr "**Sistema di coordinate spaziali:**  WGS84"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:66
-msgid "**Support:** https://www.naturalearthdata.com/forums/"
-msgstr "**Supporto:** https://www.naturalearthdata.com/forums/"
+msgid "**Support:** https://www.naturalearthdata.com/about"
+msgstr ""

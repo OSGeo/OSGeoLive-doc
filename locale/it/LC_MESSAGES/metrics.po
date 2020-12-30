@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-11-28 21:50-0600\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2019\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
@@ -59,30 +59,30 @@ msgstr "Desktop GIS"
 msgid "Browser Facing GIS"
 msgstr "Client Web GIS"
 
-#: ../../build/doc/metrics.rst:51
+#: ../../build/doc/metrics.rst:52
 msgid "Web Services"
 msgstr "Servizi Web"
 
-#: ../../build/doc/metrics.rst:75
+#: ../../build/doc/metrics.rst:78
 msgid "Data Stores"
 msgstr "Database"
 
-#: ../../build/doc/metrics.rst:86
+#: ../../build/doc/metrics.rst:89
 msgid "Navigation and Maps"
 msgstr "Navigazione e Mappe"
 
-#: ../../build/doc/metrics.rst:99
+#: ../../build/doc/metrics.rst:102
 msgid "Spatial Tools"
 msgstr "Strumenti Spaziali"
 
-#: ../../build/doc/metrics.rst:111
+#: ../../build/doc/metrics.rst:114
 msgid "Domain Specific GIS"
 msgstr "GIS per un uso specifico"
 
-#: ../../build/doc/metrics.rst:119
+#: ../../build/doc/metrics.rst:122
 msgid "Data"
 msgstr "Dati"
 
-#: ../../build/doc/metrics.rst:130
+#: ../../build/doc/metrics.rst:133
 msgid "Geospatial Libraries"
 msgstr "Librerie geospaziali"

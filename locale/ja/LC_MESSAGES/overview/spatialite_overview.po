@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2019
+# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2019\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,7 +44,7 @@ msgstr ""
 
 #: ../../build/doc/overview/spatialite_overview.rst:33
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/spatialite_overview.rst:35
 msgid ""
@@ -160,10 +160,10 @@ msgstr "**対応プラットフォーム:** Linux, Mac, Windows"
 msgid "**API Interfaces:** C"
 msgstr "**API インターフェイス:** C"
 
-#: ../../build/doc/overview/spatialite_overview.rst:72
+#: ../../build/doc/overview/spatialite_overview.rst:73
 msgid "Quickstart"
 msgstr "クイックスタート"
 
-#: ../../build/doc/overview/spatialite_overview.rst:74
+#: ../../build/doc/overview/spatialite_overview.rst:75
 msgid ":doc:`Quickstart documentation <../quickstart/spatialite_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/spatialite_quickstart>`"

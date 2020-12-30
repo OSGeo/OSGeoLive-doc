@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:19
+#: ../../build/doc/quickstart/otb_quickstart.rst:22
 msgid "OTB Quickstart"
 msgstr "OTB gyorstalpaló"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:21
+#: ../../build/doc/quickstart/otb_quickstart.rst:24
 msgid ""
 "ORFEO Toolbox library (OTB) is a high performance library for image "
 "processing targeted on remote sensing."
@@ -34,19 +34,19 @@ msgstr ""
 "Az ORFEO Toolbox könyvtár (OTB) egy nagy teljesítményű könyvtár "
 "távérzékelési célú képfeldolgozáshoz."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:23
+#: ../../build/doc/quickstart/otb_quickstart.rst:26
 msgid "This Quickstart describes how to:"
 msgstr "Ez a gyorstalpaló leírja:"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:25
+#: ../../build/doc/quickstart/otb_quickstart.rst:28
 msgid "Get metadata information from an image"
 msgstr "Metaadatok beszerzése egy képből"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:26
+#: ../../build/doc/quickstart/otb_quickstart.rst:29
 msgid "Perform mathematical operations between image bands"
 msgstr "Matematikai műveletek a képsávok között"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:27
+#: ../../build/doc/quickstart/otb_quickstart.rst:30
 msgid ""
 "Open raster images with the application monteverdi, perform segmentation "
 "(mean-shift clustering) and visualize the result"
@@ -54,14 +54,14 @@ msgstr ""
 "Raszter képek megnyitása a monteverdi alkalmazással, szegmentáció "
 "végrehajtása (mean-shift clustering)  és az eredmény megjelenítése"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:28
+#: ../../build/doc/quickstart/otb_quickstart.rst:31
 msgid ""
 "Perform supervised classification based on Support Vector Machine algorithm"
 msgstr ""
 "Ellenőrzött osztályozás végrehajtása a Support Vector Machine algoritmus "
 "alapján"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:30
+#: ../../build/doc/quickstart/otb_quickstart.rst:33
 msgid ""
 "The OTB applications provide lots of interesting tools which facilitate the "
 "manipulation of images. All these tools are available through:"
@@ -70,7 +70,7 @@ msgstr ""
 "megkönnyítik a képek manipulálását. Mindezek az eszközök elérhetők az alábbi"
 " módokon:"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:32
+#: ../../build/doc/quickstart/otb_quickstart.rst:35
 msgid ""
 "CLI (command line interface). All applications can be called from a terminal"
 " starting with `otbcli_` plus the application name."
@@ -78,7 +78,7 @@ msgstr ""
 "CLI (parancssori interfész): minden alkalmazás meghívható a terminálból az "
 "`otbcli_` plusz az alkalmazás neve paranccsal"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:33
+#: ../../build/doc/quickstart/otb_quickstart.rst:36
 msgid ""
 "GUI (a standalone graphical user interface in Qt). The applications can be "
 "called from a terminal with the alias `otbgui_` plus the application name. "
@@ -90,23 +90,23 @@ msgstr ""
 "másik lehetőség egy kis indító használata (elérhető  a menüből -> Geospatial"
 " -> Spatial Tools -> OTB Launcher)"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:34
+#: ../../build/doc/quickstart/otb_quickstart.rst:37
 msgid "QGIS plugin - available through the processing framework."
 msgstr "QGIS modul: elérhető a feldolgozás keretrendszeren keresztül."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:37
+#: ../../build/doc/quickstart/otb_quickstart.rst:40
 msgid "Sample data used in this quickstart can be found in :"
 msgstr "Ebben a gyorstalpalóban használ mintaadatok itt találhatók:"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:37
+#: ../../build/doc/quickstart/otb_quickstart.rst:40
 msgid "/home/user/data/north_carolina/rast_geotiffs"
 msgstr "/home/user/data/north_carolina/rast_geotiffs"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:43
+#: ../../build/doc/quickstart/otb_quickstart.rst:46
 msgid "Display metadata information in an image"
 msgstr "Kép metaadatainak megjelenítése"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:45
+#: ../../build/doc/quickstart/otb_quickstart.rst:48
 msgid ""
 "You can get all the metadata information contained in an image with the "
 "command : `otbcli_ReadImageInfo` The unique parameter is the Input image "
@@ -115,11 +115,11 @@ msgstr ""
 "A képben tárolt metaadatokat megkaphatja az `otbcli_ReadImageInfo` "
 "paranccsal. Az egyetlen paraméter az input képfájl neve, például::"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:51
+#: ../../build/doc/quickstart/otb_quickstart.rst:54
 msgid "Calculator on image bands"
 msgstr "Számológép a képsávokra"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:53
+#: ../../build/doc/quickstart/otb_quickstart.rst:56
 msgid ""
 "The `otbcli_otbBandMath` provides an efficient way to perform mathematical "
 "operation on image bands. The syntax is quite simple. For example to "
@@ -131,7 +131,7 @@ msgstr ""
 "két sáv kivonásához használja a következő parancsot az `lsat7_2002_10.tif` "
 "és `lsat7_2002_20.tif``, képek különbségének kiszámításához::"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:58
+#: ../../build/doc/quickstart/otb_quickstart.rst:61
 msgid ""
 "The application is able to perform complex mathematical operations over "
 "images (threshold, logarithmic rescaling, etc). This homebrewed digital "
@@ -150,7 +150,7 @@ msgstr ""
 "vegetációs különbség index) a vegetációról. A számológéppel kiszámíthatja az"
 " NDVI értékét egy multispektrális szenzor képéből így::"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:63
+#: ../../build/doc/quickstart/otb_quickstart.rst:66
 msgid ""
 "The file `lsat7_2002_30.tif` corresponds to Landsat 7 red channel, "
 "`lsat7_2002_40.tif` corresponds to Near Infra-Red."
@@ -158,16 +158,16 @@ msgstr ""
 "Az `lsat7_2002_30.tif`  fájl megfelel a LandSat 7 vörös sávjának, a "
 "`lsat7_2002_40.tif` pedig a közeli infra-vörösnek."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:65
+#: ../../build/doc/quickstart/otb_quickstart.rst:68
 msgid "You can then visualize input images and the result with the command ::"
 msgstr ""
 "Ezután az input és az eredmény képeket megjelenítheti ezzel a paranccsal:"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:70
+#: ../../build/doc/quickstart/otb_quickstart.rst:73
 msgid "Pixel based classification"
 msgstr "Pixel alapú osztályozás"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:71
+#: ../../build/doc/quickstart/otb_quickstart.rst:74
 msgid ""
 "The classification in the application framework provides a supervised pixel-"
 "wise classification chain based on learning from multiple images, and using "
@@ -190,15 +190,15 @@ msgstr ""
 "vegye figyelembe, hogy az összes bemeneti képben azonos számú sávnak kell "
 "lennie ahhoz, hogy összehasonlítható legyen."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:82
+#: ../../build/doc/quickstart/otb_quickstart.rst:85
 msgid "To discover this application, you can use the command ::"
 msgstr "Az alkalmazás felfedezéséhez ezt a parancsot használhatja ::"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:88
+#: ../../build/doc/quickstart/otb_quickstart.rst:91
 msgid "Perform segmentation"
 msgstr "Szegmentáció végrehajtása"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:89
+#: ../../build/doc/quickstart/otb_quickstart.rst:92
 msgid ""
 "The OTB *Segmentation* application allows to produce a raster segmentation "
 "output with different algorithms and to scale up to large raster by "
@@ -210,43 +210,43 @@ msgstr ""
 "raszterekre skálázva és vektor output előállításával, melyeket GIS programba"
 " importálhat. Az alkalmazásban négy szegmentálási módszer áll rendelkezésre:"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:94
+#: ../../build/doc/quickstart/otb_quickstart.rst:97
 msgid "Mean-Shift"
 msgstr "Mean-Shift"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:95
+#: ../../build/doc/quickstart/otb_quickstart.rst:98
 msgid "Watershed (ITK implementation)"
 msgstr "Vízgyűjtő terület (ITK implementáció)"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:96
+#: ../../build/doc/quickstart/otb_quickstart.rst:99
 msgid "Connected-Components"
 msgstr "Connected-Components"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:97
+#: ../../build/doc/quickstart/otb_quickstart.rst:100
 msgid "Morphological profiles"
 msgstr "Morfológiai metszet"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:99
+#: ../../build/doc/quickstart/otb_quickstart.rst:102
 msgid "You can test the segmentation with these commands:"
 msgstr "Ezekkel a parancsokkal tesztelheti a szegmentációt:"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:101
+#: ../../build/doc/quickstart/otb_quickstart.rst:104
 msgid "Creation of a multichannel Red-Green-Blue-Nir image"
 msgstr "Többsávos Red-Green-Blue-Nir kép létrehozás"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:107
+#: ../../build/doc/quickstart/otb_quickstart.rst:110
 msgid "Apply segmentation"
 msgstr "Szegmentáció"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:113
+#: ../../build/doc/quickstart/otb_quickstart.rst:116
 msgid "Generate colors instead of labels"
 msgstr "Színek generálása címkék helyett"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:120
+#: ../../build/doc/quickstart/otb_quickstart.rst:123
 msgid "Moreover the application can work in two different modes:"
 msgstr "Ezen felül a az alkalmazás két különböző módban képes működni:"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:122
+#: ../../build/doc/quickstart/otb_quickstart.rst:125
 msgid ""
 "Raster mode: allows you to segment a small image and produces a raster where"
 " each component of the segmentation is labeled with a unique integer"
@@ -254,7 +254,7 @@ msgstr ""
 "Raszter mód: egy kis kép szegmentálását teszi lehetővé és egy rasztert hoz "
 "létre ahol a szegmentálás minden komponense egy egyedi egész értéket kap"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:123
+#: ../../build/doc/quickstart/otb_quickstart.rst:126
 msgid ""
 "Vector mode: segment larger images and produce a vector file where each "
 "segment of the segmentation is represented by a polygon"
@@ -262,7 +262,7 @@ msgstr ""
 "Vektor mód: nagyobb képek szegmentálása és vektor fájl létrehozása, ahol a "
 "szegmentálás minden elemét felület elemmel reprezentálnak"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:127
+#: ../../build/doc/quickstart/otb_quickstart.rst:130
 msgid ""
 "OTB also includes a framework to perform tile-wise segmentation of very "
 "large images with theoretical guarantees of getting identical results to "
@@ -272,11 +272,11 @@ msgstr ""
 "képek csempénként  történő szegmentálását, mely elméletileg ugyanazt az "
 "eredményt adja a mint csempék nélküli megoldás."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:133
+#: ../../build/doc/quickstart/otb_quickstart.rst:136
 msgid "OTB in QGis"
 msgstr "OTB a QGIS-ben"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:135
+#: ../../build/doc/quickstart/otb_quickstart.rst:138
 msgid ""
 "The same set of OTB applications can also be used from the "
 ":menuselection:`Processing --> Toolbox` menu in QGis. The applications are "
@@ -286,11 +286,11 @@ msgstr ""
 ":menuselection:`Processing --> Toolbox` menüből. Az alkalmazások tegek "
 "szerinti sorrendben jelennek meg."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:141
+#: ../../build/doc/quickstart/otb_quickstart.rst:144
 msgid "Developing with OTB"
 msgstr "Fejlesztés OTB-vel"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:143
+#: ../../build/doc/quickstart/otb_quickstart.rst:146
 msgid ""
 "If you want to use the OTB library and compile your C++ code inside "
 "OSGeoLive, you will need to:"
@@ -298,15 +298,15 @@ msgstr ""
 "Ha az OTB könyvtárat akarja használni és a C++ kódját sz OSGeoLive-on belül "
 "akarja lefordítani, a következőket kell tennie:"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:146
+#: ../../build/doc/quickstart/otb_quickstart.rst:149
 msgid "Install development package **libotb-dev** and **libqt4-dev** ."
 msgstr "Telepítse a fejlesztői csomagokat **libotb-dev** és **libqt4-dev** ."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:147
+#: ../../build/doc/quickstart/otb_quickstart.rst:150
 msgid "Check that **cmake** is installed."
 msgstr "Ellenőrizze, hogy a **cmake**-t telepítették-e."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:149
+#: ../../build/doc/quickstart/otb_quickstart.rst:152
 msgid ""
 "The OTB_DIR location should be found automatically (usually in "
 "*/usr/lib/x86_64-linux-gnu/cmake/OTB-...*). In your CMake configuration, you"
@@ -316,19 +316,19 @@ msgstr ""
 "*/usr/lib/x86_64-linux-gnu/cmake/OTB-...*). A CMake konfigurációjában a "
 "könyvtárakat az OTB_LIBRARIES változóhoz kell kapcsolni."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:151
+#: ../../build/doc/quickstart/otb_quickstart.rst:154
 msgid "More information can be found in the Software Guide."
 msgstr " További információ a SoftwareGuid-ban található."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:155
+#: ../../build/doc/quickstart/otb_quickstart.rst:158
 msgid "What next?"
 msgstr "Mi a következő?"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:157
+#: ../../build/doc/quickstart/otb_quickstart.rst:160
 msgid "OTB Software Guide"
 msgstr "OTB Software Guide"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:159
+#: ../../build/doc/quickstart/otb_quickstart.rst:162
 msgid ""
 "The main source of information is the OTB Software Guide. This is a "
 "comprehensive guide which comprises about 600 pages, detailing the steps to "
@@ -341,11 +341,11 @@ msgstr ""
 "többségét valódi távérzékelési feldolgozások eredményivel részletesen "
 "illusztráljuk."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:170
+#: ../../build/doc/quickstart/otb_quickstart.rst:173
 msgid "OTB CookBook"
 msgstr "OTB CookBook"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:172
+#: ../../build/doc/quickstart/otb_quickstart.rst:175
 msgid ""
 "A guide for OTB-Applications and Monteverdi dedicated for non-developers is "
 "also available.This guide is composed of a brief tour of of OTB-Applications"
@@ -357,23 +357,23 @@ msgstr ""
 "bemutatásából áll, melyet a szokásos távérzékelési feladatok végrehajtásáról"
 " szóló receptek követnek, mindkét eszközzel."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:182
+#: ../../build/doc/quickstart/otb_quickstart.rst:185
 msgid "OTB Tutorials"
 msgstr "OTB Oktatóanyagok"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:184
+#: ../../build/doc/quickstart/otb_quickstart.rst:187
 msgid "Follow the tutorials_ to learn more about OTB."
 msgstr "Kövesse az oktatóanyagokat_, hogy többet tudjon meg az OTB-ről."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:188
+#: ../../build/doc/quickstart/otb_quickstart.rst:191
 msgid "OTB Applications documentation"
 msgstr "OTB alkalmazások dokumentációja"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:190
+#: ../../build/doc/quickstart/otb_quickstart.rst:193
 msgid "See also detailed documentation about OTB applications_"
 msgstr "Nézze meg az OTB alkalmazásokról_ szóló részletes dokumentációt is"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:194
+#: ../../build/doc/quickstart/otb_quickstart.rst:197
 msgid ""
 "OTB courses with Pleiades images to learn how to use OTB applications and "
 "Monteverdi"
@@ -381,7 +381,7 @@ msgstr ""
 "OTB kurzusok Pieiades képekkel az OTB alkalmazások és Monteverdi "
 "használatának megtanulásához"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:196
+#: ../../build/doc/quickstart/otb_quickstart.rst:199
 msgid "Follow the courses_ to learn more about OTB (see section Tutorials)."
 msgstr ""
 "Kövesse a kurzusokat_, hogy többet megtudjon az OTB-ről (lásd a Tutorials "
