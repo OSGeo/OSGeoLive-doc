@@ -23,7 +23,7 @@ In this quickstart we’ll guide you in setting up the software and use it for s
 Prior knowledge
 ------------------------------------------------------
 
-pygeoapi is a Python web application for the spatial domain, so you need to be aware of the concepts of web applications and geospatial aspects such as grid and vector formats, OGC standards and projection systems. Python knowledge is recommended, although you can do without by running the application from osgeo live.
+pygeoapi is a Python web application for the spatial domain, so you need to be aware of the concepts of web applications and geospatial aspects such as grid and vector formats, OGC standards and projection systems. Python knowledge is recommended, although you can do without by running the application from OSGeoLive.
 
 .. contents:: Contents
    :local:
