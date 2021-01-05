@@ -1,9 +1,9 @@
 :Author: Markus Neteler, mundialis
 :Reviewer: Astrid Emde 
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
-:Version: osgeolive13.0
+:Version: osgeolive14.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
-:Copyright: 2019 by The OSGeo Foundation
+:Copyright: 2019-2021 by The OSGeo Foundation
 
 @LOGO_actinia@
 @OSGEO_KIND_actinia@
@@ -39,7 +39,7 @@ then execute it on the server.
 Introduction to ace - actinia command execution
 ===============================================
 
-The ``ace`` tool (`details <https://github.com/mundialis/actinia_core/tree/master/scripts>`_)
+The ``ace`` tool (`details <https://github.com/mundialis/actinia_core/tree/master/scripts/README.md>`_)
 allows the execution of a single GRASS GIS command or a
 list of GRASS GIS commands on an actinia REST service
 (https://actinia.mundialis.de/). In addition it provides job management,
@@ -60,6 +60,9 @@ in the **persistent** user database. It can be used with
 
 Setup your environment
 ======================
+
+Be sure to run the following commands in a GRASS GIS session.
+
 The user must setup the following environmental variables to specify the
 actinia server and credentials:
 
@@ -78,14 +81,15 @@ Selected datasets are available to the demo user. To list the locations you have
 .. code:: bash
 
    ace --list-locations
-   ['latlong', 'nc_spm_08', 'utm_32n', 'latlong']
+   ['latlong_wgs84', 'ECAD', 'nc_spm_08']
 
 The following command lists mapsets of current location in the active
 GRASS GIS session (nc_spm_08):
 
 .. code:: bash
 
-   # running ace in the "nc_spm_08" location:
+   # running ace in the "nc_spm_08" location
+   # (the current location name is propagated to the server):
    ace --list-mapsets
    ['PERMANENT', 'landsat']
 
@@ -110,15 +114,15 @@ Currently available datasets are (organized by projections):
 
 -  Latitude-Longitude location (LatLong WGS84, EPSG:4326):
 
-   -  empty (``latlong/PERMANENT/``)
+   -  empty (``latlong_wgs84/PERMANENT/``)
    -  16-days NDVI, MOD13C1, V006, CMG 0.05 deg res.
-      (``latlong/modis_ndvi_global/``; source:
+      (``latlong_wgs84/modis_ndvi_global/``; source:
       https://lpdaac.usgs.gov/products/mod13c1v006/)
-   -  LST growing degree days asia 2017 (``latlong/asia_gdd_2017/``;
+   -  LST growing degree days asia 2017 (``latlong_wgs84/asia_gdd_2017/``;
       source: https://www.mundialis.de/en/temperature-data/)
-   -  LST tropical days asia 2017 (``latlong/asia_tropical_2017/``)
+   -  LST tropical days asia 2017 (``latlong_wgs84/asia_tropical_2017/``)
    -  LST temperature daily asia 2017, including min, max and avg
-      (``latlong/asia_lst_daily_2017/``)
+      (``latlong_wgs84/asia_lst_daily_2017/``)
 
 -  Europe (EU LAEA CRS, EPSG:3035):
 
@@ -138,7 +142,7 @@ Inspect the REST call prior to submission
 ================================================================================
 
 To generate the actinia process chain JSON request simply add the
-–dry-run flag:
+--dry-run flag:
 
 .. code:: bash
 
@@ -152,8 +156,8 @@ It is very easy (and fast) to render a map:
 ::
 
    # check amount of pixels, just FYI
-   ace --location latlong r.info globcover@globcover
-   ace --location latlong --render-raster globcover@globcover
+   ace --location latlong_wgs84 r.info globcover@globcover
+   ace --location latlong_wgs84 --render-raster globcover@globcover
 
 .. figure:: /images/projects/actinia/esa_globcover_rendered_by_ace.png
    :alt: ESA Globcover map shown by actinia
@@ -186,7 +190,7 @@ Store the following script as text file ``ace_dtm_statistics.sh``:
 
 .. code:: bash
 
-   # grass77 ~/grassdata/nc_spm_08/user1/
+   # grass78 ~/grassdata/nc_spm_08/user1/
    # Import the web resource and set the region to the imported map
    g.region raster=elev+https://storage.googleapis.com/graas-geodata/elev_ned_30m.tif -ap
    # Compute univariate statistics
@@ -206,7 +210,7 @@ run the saved script as
 The results are provided as REST resources.
 
 To generate the actinia process chain JSON request simply add the
-–dry-run flag
+--dry-run flag
 
 .. code:: bash
 
@@ -279,7 +283,7 @@ Store the following script as text file ``/tmp/ace_segmentation.sh``:
 
 .. code:: bash
 
-   # grass77 ~/grassdata/nc_spm_08/user1/
+   # grass78 ~/grassdata/nc_spm_08/user1/
    # Import the web resource and set the region to the imported map
    # we apply a trick for the import of multi-band GeoTIFFs:
    # install with: g.extension importer
@@ -396,4 +400,4 @@ What next?
 ==========
 * Visit the actinia website at `https://actinia.mundialis.de <https://actinia.mundialis.de>`_
 * actinia tutorial: `https://neteler.gitlab.io/actinia-introduction <https://neteler.gitlab.io/actinia-introduction>`_
-* Further reading: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based geoprocessing. In Proc. of the 2019 conference on Big Data from Space (BiDS'2019) (pp. 41–44). EUR 29660 EN, Publications Office of the European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI <https://zenodo.org/record/2631917>`__)
+* Further reading: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based geoprocessing. In Proc. of the 2019 conference on Big Data from Space (BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI <https://zenodo.org/record/2631917>`__)
