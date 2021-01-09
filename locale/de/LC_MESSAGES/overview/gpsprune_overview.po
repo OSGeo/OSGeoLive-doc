@@ -6,15 +6,16 @@
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Astrid Emde <astrid_emde@osgeo.org>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,11 +38,11 @@ msgid ""
 " used for planning trips in advance, or for analysing the tracks recorded by"
 " GPS receivers."
 msgstr ""
-"`GpsPrune <https://activityworkshop.net/software/gpsprune>`_ ist ein Tool "
-"für die Visualisierung, das Editieren und das Konvertieren von "
+"`GpsPrune <https://activityworkshop.net/software/gpsprune>`_ ist ein "
+"Werkzeug für die Visualisierung, das Editieren und das Konvertieren von "
 "Koordinatendaten aus GPS Systemen. Es kann dazu verwendet werden, Ausflüge "
-"im Voraus zu planen oder zur Analyse der per GPS Empfänger aufgenommenen "
-"Tracks."
+"im Voraus zu planen oder auch zur Analyse der per GPS-Empfänger "
+"aufgenommenen Tracks verwendet werden."
 
 #: ../../build/doc/overview/gpsprune_overview.rst:24
 msgid ""
@@ -61,6 +62,9 @@ msgid ""
 "GpsPrune uses GPSBabel, if available, to read data directly from a GPS "
 "receiver, and can send the edited data back to the receiver too."
 msgstr ""
+"GpsPrune nutzt GPSBabel - sofern verfügbar - um Daten direkt vom GPS-"
+"Empfänger zu lesen und kann die bearbeiteten Daten auch wieder zurück an den"
+" Empfänger senden."
 
 #: ../../build/doc/overview/gpsprune_overview.rst:32
 msgid ""
@@ -141,6 +145,8 @@ msgid ""
 "Online resources such as Wikipedia, GPSies, OpenCaching.de and local weather"
 " forecasts"
 msgstr ""
+"Online-Quellen wie Wikipedia, GPSies, OpenCaching.de und lokale "
+"Wettervorhersagen"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:56
 msgid "Details"
@@ -162,10 +168,10 @@ msgstr "**Software Version:** |version-gpsprune|"
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, Windows"
 msgstr "**Unterstützte Plattformen:** GNU/Linux, Mac OSX, Windows"
 
-#: ../../build/doc/overview/gpsprune_overview.rst:69
+#: ../../build/doc/overview/gpsprune_overview.rst:70
 msgid "Quickstart"
 msgstr "Schnellstart"
 
-#: ../../build/doc/overview/gpsprune_overview.rst:71
+#: ../../build/doc/overview/gpsprune_overview.rst:72
 msgid ":doc:`Quickstart documentation <../quickstart/gpsprune_quickstart>`"
 msgstr ":doc:`Quickstart Dokumentation <../quickstart/gpsprune_quickstart>`"

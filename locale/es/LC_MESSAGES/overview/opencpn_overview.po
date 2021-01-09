@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -139,11 +139,11 @@ msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
 msgid "**Support:** https://www.cruisersforum.com/forums/f134/"
 msgstr "**Soporte:** https://www.cruisersforum.com/forums/f134/"
 
-#: ../../build/doc/overview/opencpn_overview.rst:64
+#: ../../build/doc/overview/opencpn_overview.rst:65
 msgid "Quickstart"
 msgstr "Inicio Rápido"
 
-#: ../../build/doc/overview/opencpn_overview.rst:66
+#: ../../build/doc/overview/opencpn_overview.rst:67
 msgid ":doc:`Quickstart documentation <../quickstart/opencpn_quickstart>`"
 msgstr ""
 ":doc:`Documentación de inicio rápido  <../quickstart/opencpn_quickstart>`"

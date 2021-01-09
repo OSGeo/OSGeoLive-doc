@@ -73,9 +73,9 @@ Details
 .. _`pygeoapi`: https://pygeoapi.io
 .. _`OGC API`: https://ogcapi.ogc.org
 .. _`OGC API - Features`: https://www.ogc.org/standards/ogcapi-features
-.. _`OGC API - Coverages`: https://github.com/opengeospatial/ogc_api_coverages
-.. _`OGC API - Tiles`: https://github.com/opengeospatial/OGC-API-Tiles
-.. _`OGC API - Processes`: https://github.com/opengeospatial/wps-rest-binding
+.. _`OGC API - Coverages`: https://github.com/opengeospatial/ogcapi-coverages
+.. _`OGC API - Tiles`: https://github.com/opengeospatial/ogcapi-tiles
+.. _`OGC API - Processes`: https://github.com/opengeospatial/ogcapi-processes
 .. _`SpatioTemporal Asset Catalog`: https://stacspec.org
 .. _`Python`: https://www.python.org/
 .. _`MIT`: https://docs.pygeoapi.io/en/latest/license.html

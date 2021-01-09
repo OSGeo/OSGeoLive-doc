@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 21:50-0600\n"
+"POT-Creation-Date: 2020-12-15 14:20-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -174,3 +174,4 @@ msgstr ""
 #: ../../build/doc/overview/pygeoapi_overview.rst:98
 msgid ":doc:`Quickstart documentation <../quickstart/pygeoapi_quickstart>`"
 msgstr ""
+

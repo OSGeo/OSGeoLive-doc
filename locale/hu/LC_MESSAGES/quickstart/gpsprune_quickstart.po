@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-19 10:16-0500\n"
+"POT-Creation-Date: 2020-11-28 22:14-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:14
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:17
 msgid "GpsPrune Quickstart"
 msgstr "GpsPrune gyorstalpaló"
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:16
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:19
 msgid ""
 "GpsPrune is a java application for viewing and editing coordinate data.  It "
 "can be used for preparing data for GPS devices and for analyzing the data "
@@ -35,7 +35,7 @@ msgstr ""
 "szerkesztésére. Felhasználható az adatok előkészítésére a GPS eszközökhöz és"
 " az azok által rögzített adatok elemzésére."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:18
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:21
 msgid ""
 "In this Quick Start, we will load and view a data file included on this live"
 " image, and access some online information to supplement it.  It will be "
@@ -47,17 +47,19 @@ msgstr ""
 "Ezért hasznos lesz, ha ennek bemutatásához valamilyen fajta internet "
 "kapcsolattal rendelkezik."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:23
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:26
 msgid "Start GpsPrune"
-msgstr ""
+msgstr "GpsPrune intdítás"
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:25
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:28
 msgid ""
-"From the Start menu, choose :menuselection:`Navigation and Maps --> "
-"GpsPrune`.  This will then give you the empty window shown below."
+"From the Start menu, choose :menuselection:`Geospatial --> Navigation and "
+"Maps --> GpsPrune`.  This will then give you the empty window shown below."
 msgstr ""
+"A Start menüből válassza a :menuselection:`Geospatial --> Navigation and "
+"Maps --> GpsPrune`-t. Ez egy lent látható üres ablakot ad."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:30
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:33
 msgid ""
 "We will now load a file by using the menu command :menuselection:`File --> "
 "Open file` and selecting the file to load.  This can be a GPX file, a KML or"
@@ -71,7 +73,7 @@ msgstr ""
 "Egy megfelelő, pár nyomvonalat tartalmazó GPX fájl megtalálható a lemezen "
 "itt: :file:`~/data/vector/gpx/test_trk2.gpx`, így ezt töltjük be."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:34
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:37
 msgid ""
 "Because this file contains two tracks, we are offered the choice of which "
 "one(s) to load.  We choose just the first one and press OK."
@@ -79,7 +81,7 @@ msgstr ""
 "Mivel ez a fájl két nyomvonalat tartalmaz, kiválaszthatjuk melyiket töltsük "
 "be. Válasszuk az elsőt és nyomjunk OK-t."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:36
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:39
 msgid ""
 "Now you should see the track marked in blue against a white background.  If "
 "this track had any waypoints (which it doesn't), then they would be shown "
@@ -91,7 +93,7 @@ msgstr ""
 "megjelennének a nevükkel. Lent a fő térkép alatt egy magassági grafikon "
 "látható, mely a nyomvonal metszetét mutatja, ha az tartalmaz magasságokat."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:42
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:45
 msgid ""
 "Now, assuming you have a network connection, you can activate the map by "
 "clicking the globe icon at the top of the main map display, or with the menu"
@@ -101,7 +103,7 @@ msgstr ""
 "földgömb ikonra kattintva a fő térképablak felső részén vagy a menüből "
 ":menuselection:`View --> Show Map`."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:48
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:51
 msgid ""
 "You can drag the map around with the mouse, and zoom in and out with the "
 "mousewheel or by double-clicking.  Dragging with the right mouse button "
@@ -117,11 +119,11 @@ msgstr ""
 "magasságot és az időpontot, ha rendelkezésre áll. A magassági metszetre is "
 "kattinthat, hogy a megfelelő pontot kiválassza."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:51
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:54
 msgid "Customizing the display"
 msgstr "A megjelenítés testreszabása"
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:52
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:55
 msgid ""
 "You can change the map with the menu option :menuselection:`Settings --> Set"
 " map background`. Let's have a look at an alternative map source by "
@@ -135,22 +137,25 @@ msgstr ""
 ".org-ról használja a térképet hegymászáshoz és kerékpározáshoz hasznos "
 "további információk megjelenítéséhez mint szintvonalak és kerékpárutak."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:59
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:62
 msgid "Advanced Functions"
-msgstr ""
+msgstr "Haladó funkciók"
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:60
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:63
 msgid ""
 "Now that we can load and view files from the included file system, let's see"
 " if we can supplement this with some online information as well, using some "
 "more advanced functions."
 msgstr ""
+"Most, hogy fájlokat be tudunk tölteni és meg tudunk jeleníteni a mellékelt "
+"fájlrendszerből, nézzük meg, ki tudjuk-e egészíteni ezt néhány online "
+"információval is, a haladó funkciók használatával."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:63
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:66
 msgid "Wikipedia"
 msgstr "Wikipedia"
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:64
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:67
 msgid ""
 "Now let's find out some more information about where this track is.  We can "
 "do this by selecting a point, and then choosing the menu option "
@@ -165,7 +170,7 @@ msgstr ""
 "koordinátája a legközelebb vannak a kiválasztott ponthoz. Az egyik "
 "listaelemre kattintva további információt kapunk a lenti részben."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:68
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:71
 msgid ""
 "You can then use the button `Load` to load that point into GpsPrune, or "
 "`Show webpage` to load the Wikipedia page in a browser."
@@ -173,19 +178,24 @@ msgstr ""
 "Ezután a `Load` gombot használhatja a pont betöltésére a GpsPrune-ba vagy a "
 "`Show webpage` gombot a Wikipedia oldal böngészőbe betöltésére."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:71
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:74
 msgid "Gpsies"
 msgstr "Gpsies"
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:72
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:75
 msgid ""
 "We can also use an online service to download another track from the same "
 "area.  We can use the menu command :menuselection:`Online --> Get Gpsies "
 "tracks` to search for tracks on the website gpsies.com.  Again, we get a "
 "list of matching entries, and we can select one to view the description."
 msgstr ""
+"Online szolgáltatást is használhatunk ugyanerről a területről egy másik "
+"nyomvonal letöltésére. A :menuselection:`Online --> Get Gpsies tracks`  menü"
+" parancsot használhatjuk nyomvonalak keresésére a gpsies.com oldalról. A "
+"találatokról ismét egy listát kapunk és egyet szelektálhatunk a leírás "
+"megjelenítéséhez."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:76
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:79
 msgid ""
 "Click the `Load` button to load the track, and select to append this track "
 "to the data we've already got.  Now we can see both tracks in the same view."
@@ -194,78 +204,100 @@ msgstr ""
 "nyomvonal hozzáfűzéséhez a már betöltött adatokhoz. Most mindkét nyomvonalat"
 " láthatjuk ugyanabban az ablakban."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:79
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:82
 msgid "Measuring distances"
 msgstr "Távolságok mérése"
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:80
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:83
 msgid ""
 "To find out how long the climb is, we will select just the part of the track"
 " which contains the climb, and then we will be able to view the properties "
 "of this selected range, such as the distance, climb and descent."
 msgstr ""
+"Hogy megtudja, mennyi az emelkedés, akkor a pályának csak azt a részét "
+"választjuk ki, amely az emelkedőt tartalmazza, majd megtekinthetjük ennek a "
+"kiválasztott tartománynak a tulajdonságait, például a távolságot, az "
+"emelkedést és a lejtést."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:82
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:85
 msgid ""
 "Click on the point at the start of the climb, just north of Dunedin, to "
 "select it."
 msgstr ""
+"Kattintson az emelkedő kezdőpontjába, Dunedintől északra, hogy kiválassza "
+"azt."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:83
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:86
 msgid ""
 "Select :menuselection:`Range --> Set range start` to make this point the "
 "start of the selection."
 msgstr ""
+"Válassza a :menuselection:`Range --> Set range start`-ot, hogy ezt a pontot "
+"a szelekció kezdetévé tegye."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:84
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:87
 msgid ""
 "Select a point at the top of the climb by clicking on the highest point of "
 "the altitude profile."
 msgstr ""
+"Válasszon egy pontot az emelkedő tetején, a legmagasabb pontra kattintva a "
+"magasság metszeten."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:85
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:88
 msgid ""
 "Select :menuselection:`Range --> Set range end` to finish the selection."
 msgstr ""
+"Válassza :menuselection:`Range --> Set range end`  a szelekció "
+"befejezéséhez."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:86
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:89
 msgid ""
 "You can now see in the \"Range details\" section that this part of the track"
 " is 8.55 km long, climbs 346 m and descends just 10 m."
 msgstr ""
+"Most láthatja a \"Range details\" részen, hogy a nyomvonal ezen része 8.55 "
+"km hosszú, 346 m-t emelkedik és 10 m-t lejt."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:92
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:95
 msgid "Things to Try"
 msgstr "Kipróbálandó dolgok"
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:93
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:96
 msgid ""
 "Select a point in the track and delete it with :menuselection:`Point --> "
 "Delete point`"
 msgstr ""
+"Válaszon egy pontot a nyomvonalon és törölje a :menuselection:`Point --> "
+"Delete point` paranccsal."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:94
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:97
 msgid ""
 "Draw your own track with `Create series of points` from the right-click menu"
 " and measure the total distance"
 msgstr ""
+"Rajzolja meg saját nyomvonalát a `Create series of points` paranccsal a "
+"jobb-kattintás menüből és mérje meg a teljes távolságot"
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:95
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:98
 msgid ""
 "Export an image of your track with :menuselection:`File --> Export image`"
 msgstr ""
+"Exportáljon egy képet a nyomvonaláról a :menuselection:`File --> Export "
+"image` paranccsal"
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:96
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:99
 msgid ""
 "If you have your own track files in any of the formats gpx, kml, kmz or csv,"
 " load one of these into GpsPrune and view it using one of the available maps"
 msgstr ""
+"Ha vannak saját nyomvonal fájljai gpx, kml, kmz vagy csv formátumban, töltse"
+" be őket GpsPrune-ba és nézze meg az egyik elérhető térképen"
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:99
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:102
 msgid "Using GpsPrune on other systems"
 msgstr "GpsPrune használata más rendszereken"
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:100
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:103
 msgid ""
 "After trying out GpsPrune on this live image, you may want to use it on "
 "another system, whether it's another Linux system or Mac OSX or Windows.  "
@@ -279,15 +311,19 @@ msgstr ""
 "(keresse a \"Prune\"-t vagy \"GpsPrune\"-t), vagy egyszerűen letöltheti a "
 "honlapról a legújabb változatot."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:102
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:105
 msgid ""
 "It doesn't need to be installed, but it does need a java runtime to be "
 "installed, version 1.5 or higher.  You can extend GpsPrune's functionalities"
 " by installing other free software, such as *GPSBabel*, *Gnuplot*, "
 "*Exiftool* and *Java3d*."
 msgstr ""
+"Nem kell telepíteni, de a java runtime telepítését igényli, 1.5 vagy "
+"magasabb verziót. Kibővítheti a GpsPrune funkcionalitását más szabad "
+"szoftverek telepítésével, mint például *GPSBabel*, *Gnuplot*, *Exiftool* és "
+"*Java3d*."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:104
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:107
 msgid ""
 "Once you've installed GpsPrune on your permanent system, you can save your "
 "settings with the menu option :menuselection:`Settings --> Save settings`.  "
@@ -301,7 +337,7 @@ msgstr ""
 " figyelembe, hogy a live lemez használatakor az összes, a normál "
 "fájlrendszerbe mentett minden fájl elveszik amikor leállítja a számítógépet."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:106
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:109
 msgid ""
 "You can also save the downloaded map tiles to disk by selecting the menu "
 "option :menuselection:`Settings --> Save maps to disk` and selecting a "
@@ -313,21 +349,25 @@ msgstr ""
 "egy könyvtár megadásával, melybe a képeket mentjük. Ez segít a megjelenítés "
 "gyorsításában mivel nem kell ismételten letölteni a képeket."
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:109
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:112
 msgid "Further reading"
 msgstr "További olvasmányok"
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:110
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:113
 msgid "GpsPrune home page: https://activityworkshop.net/software/gpsprune/"
-msgstr ""
+msgstr "GpsPrune honlap: https://activityworkshop.net/software/gpsprune/"
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:111
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:114
 msgid ""
 "Screenshots: https://activityworkshop.net/software/gpsprune/screenshots.html"
 msgstr ""
+"Képernyőképek: "
+"https://activityworkshop.net/software/gpsprune/screenshots.html"
 
-#: ../../build/doc/quickstart/gpsprune_quickstart.rst:112
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:115
 msgid ""
 "How-tos and instructions: https://activityworkshop.net/software/gpsprune"
 "/how-tos.html"
 msgstr ""
+"Segéd és oktatóanyagok: https://activityworkshop.net/software/gpsprune/how-"
+"tos.html"

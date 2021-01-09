@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -185,11 +185,11 @@ msgstr ""
 "**Support communautaire:** Forum "
 "https://groups.google.com/forum/?hl=en#!forum/cesium-dev"
 
-#: ../../build/doc/overview/cesium_overview.rst:71
+#: ../../build/doc/overview/cesium_overview.rst:72
 msgid "Quickstart"
 msgstr "Guide de démarrage rapide"
 
-#: ../../build/doc/overview/cesium_overview.rst:73
+#: ../../build/doc/overview/cesium_overview.rst:74
 msgid ":doc:`Quickstart documentation <../quickstart/cesium_quickstart>`"
 msgstr ""
 ":doc:`Documentation du guide de démarrage rapide "

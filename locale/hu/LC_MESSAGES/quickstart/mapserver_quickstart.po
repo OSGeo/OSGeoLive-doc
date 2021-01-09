@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:24
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:27
 msgid "MapServer Quickstart"
 msgstr "MapServer gyorstalpaló"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:26
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:29
 msgid ""
 "MapServer is an `Open Source <https://opensource.org/>`_ server based "
 "application that allows you to publish geographic map images and vector data"
@@ -37,12 +37,12 @@ msgstr ""
 "publikálását az interneten keresztül, |OGCS| használatával  mint például "
 "|WMS|, |WFS| és |WCS|."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:37
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:40
 msgid "Configure MapServer using the Mapfile configuration file"
 msgstr ""
 "MapServer beállítása a MapFile konfigurációs állomány felhasználásával"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:41
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:44
 msgid ""
 "**What will I learn ?** In this section, you will learn what a Mapfile is "
 "and how to configure it to allow MapServer to serve a shapefile as images "
@@ -52,11 +52,11 @@ msgstr ""
 "hogyan konfiguráljuk,hogy a MapServer képként szolgáltassa a shape "
 "fájljainkat WMS kérések használatával."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:46
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:49
 msgid "What is a Mapfile ?"
 msgstr "Mi az a mapfájl?"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:48
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:51
 msgid ""
 "The `Mapfile <https://mapserver.org/mapfile/index.html>`_ is the "
 "configuration file that MapServer uses to render geospatial data as images "
@@ -70,19 +70,19 @@ msgstr ""
 "a szükséges adatok és hogy kell megjeleníteni őket (pl. szín, szimbólum, "
 "címke, stb.)."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:54
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:57
 msgid "Creating my first Mapfile"
 msgstr "Első Map fájlom létrehozása"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:56
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:59
 msgid ""
 "Open any text editor (e.g. :menuselection:`Applications --> Accessories --> "
-"Leafpad`)."
+"FeatherPad`)."
 msgstr ""
 "Nyisson meg egy szövegszerkesztőt (pl. :menuselection:`Applications --> "
-"Accessories --> Leafpad`)."
+"Accessories --> FeatherPad`)."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:58
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:61
 msgid ""
 "Create the file \"mapserver_quickstart.map\" in your home directory: "
 ":file:`/home/user/mapserver_quickstart.map`"
@@ -90,11 +90,11 @@ msgstr ""
 "Hozza létre a \"mapserver_quickstart.map\" fájlt a home könyvtárában:  "
 ":file:`/home/user/mapserver_quickstart.map`"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:61
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:64
 msgid "Put the following content in it::"
 msgstr "Írja bele a következő tartalmat:"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:101
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:104
 msgid ""
 "The example uses the natural earth dataset, which is already on OSGeoLive at"
 " :file:`~/data/natural_earth2` (a short cut to "
@@ -104,7 +104,7 @@ msgstr ""
 "OSGeoLive-ra a :file:`~/data/natural_earth2` mappába (ez egy rövidítése "
 "ehhez :file:`/usr/local/share/data/natural_earth2`)."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:104
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:107
 msgid ""
 "Each object in a Mapfile starts with its name (for example **MAP**) and ends"
 " with an **END**.  A Mapfile always starts with the **MAP** object and "
@@ -117,7 +117,7 @@ msgstr ""
 "beolvasni és megjeleníteni. A Map fájlunkban most csak egy réteget adtunk "
 "meg."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:109
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:112
 msgid ""
 "Let's take a look at some of the objects (and properties) defined in our "
 "Mapfile:"
@@ -125,14 +125,14 @@ msgstr ""
 "Vessünk egy pillantást néhány a Map fájlunkban megadott objektumra (és "
 "tulajdonságra):"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:112
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:115
 msgid ""
 "EXTENT: sets the default geospatial bounding box for this configuration."
 msgstr ""
 "EXTENT: megadja az alapértelmezett határoló téglalapot ehhez a "
 "konfigurációhoz."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:113
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:116
 msgid ""
 "LAYER: defines access and display properties for a spatial dataset.  We'll "
 "add another layer later."
@@ -140,7 +140,7 @@ msgstr ""
 "LAYER: egy térinformatikai adathalmazhoz megadja a hozzáférést és a "
 "megjelenítési tulajdonságokat. Később egy másik réteget is hozzáadunk."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:115
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:118
 msgid ""
 "SHAPEPATH: sets a base path for file-based data (e.g. shapefiles or tiff "
 "images)."
@@ -148,7 +148,7 @@ msgstr ""
 "SHAPEPATH: a fájl alapú adatok elérési útját állítja be (pl. shape fájl vagy"
 " tiff képek)."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:118
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:121
 msgid ""
 "If we look closer at the **LAYER** in our Mapfile, we'll see that it "
 "contains a bunch of properties and objects too. Among them are:"
@@ -156,7 +156,7 @@ msgstr ""
 "Ha közelebbről megvizsgáljuk a **LAYER**-t a Map fájlunkban, láthatjuk, hogy"
 " egy csomó tulajdonságot és objektumot is tartalmaz. Többek között:"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:121
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:124
 msgid ""
 "STATUS: defines whether the layer can be drawn (*ON*), can't be drawn "
 "(*OFF*) or is always drawn (*DEFAULT*)."
@@ -164,7 +164,7 @@ msgstr ""
 "STATUS: megadja, hogy a réteg megjelenítendő (*ON*), nem rajzolandó (*OFF*) "
 "vagy mindig megjelenítendő (*DEFAULT*)."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:123
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:126
 msgid ""
 "TYPE: the geometry type that MapServer should use when rendering the data as"
 " an image. In our Mapfile, the data will be drawn as *polygons*."
@@ -172,14 +172,14 @@ msgstr ""
 "TYPE: A geometria típus, amit a MapServernek használnia kell az adatok "
 "kirajzolásánál. A mi Map fájlunkban az adatokat *polygon*-ként rajzolja ki."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:125
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:128
 msgid ""
 "DATA: the name of the spatial data file this layer uses, in this case a "
 "shapefile."
 msgstr ""
 "DATA: a téradat fájl amit a réteg használ, ebben az esetben egy shape fájl."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:127
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:130
 msgid ""
 "CLASS: determines how to draw a layer (styling). We'll cover this object in "
 "more detail later."
@@ -187,7 +187,7 @@ msgstr ""
 "CLASS: meghatározza hogyan rajzolja ki a réteget (stílus). Ezzel az elemmel "
 "később foglalkozunk részletesebben."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:132
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:135
 msgid ""
 "A complete list of the available objects and properties a Mapfile can have "
 "can be found in the `MapServer documentation page "
@@ -197,11 +197,11 @@ msgstr ""
 "megtalálható a `MapServer dokumentáció oldalon "
 "<https://mapserver.org/mapfile/index.html>`_."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:139
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:142
 msgid "Render a map image with MapServer using a WMS **GetMap** request"
 msgstr "Rajzoltassunk egy térképet a MapServer-rel a WMS **GetMap** kéréssel"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:143
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:146
 msgid ""
 "**What will I learn ?** You will learn how to use to render an image with "
 "layers from a Mapfile with MapServer using an OGC WMS request."
@@ -209,11 +209,11 @@ msgstr ""
 "**Mit fogok tanulni?** Megtanulja hogy a MapServer-rel a MapFile rétegeiből "
 "hogyan készítsen egy képet egy OGC WMS kérésre."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:146
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:149
 msgid "Open a web browser and enter the following URL::"
 msgstr "Nyisson meg egy böngésző programot és írja be a következő címet::"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:150
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:153
 msgid ""
 "What does the above mean?  If we put it in simple words, it's a |WMS| "
 "**GetMap** request that tells MapServer to \"*use the following Mapfile to "
@@ -231,7 +231,7 @@ msgstr ""
 "MapFájlban STATUS ON  beállítással rendelkező réteg megjelenítése, hozzáadva"
 " a  *STATUS DEFAULT* rétegeket. Az eredmény így néz ki:"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:164
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:167
 msgid ""
 "All parameters of the request are WMS-specific, except "
 "\"*?map=/home/user/mapserver_quickstart.map*\", which is MapServer-specific."
@@ -239,11 +239,11 @@ msgstr ""
 "A kérés minden paramétere WMS specifikus, kivéve a "
 "\"*?map=/home/user/mapserver_quickstart.map*\", mely MapServer specifikus."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:170
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:173
 msgid "Render a map image with MapServer using the command line"
 msgstr "Készítsünk térkép képet a MapServerrel a parancssorból"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:172
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:175
 msgid ""
 "Although MapServer is geared towards web applications, it can also produce "
 "images on the command line. This can be useful if you are looking for "
@@ -253,7 +253,7 @@ msgstr ""
 "vele a parancssorból. Ez akkor lehet hasznos, ha megismételhető térképet "
 "szeretne vagy hibakereséskor."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:176
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:179
 msgid ""
 "Open a terminal (:menuselection:`Applications --> System Tools --> Terminal "
 "Emulator`) and type::"
@@ -261,7 +261,7 @@ msgstr ""
 "Nyisson egy terminált (:menuselection:`Applications --> System Tools --> "
 "Terminal Emulator`) és írja be:"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:181
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:184
 msgid ""
 "If this command runs successfully, you are able to see your rendered map at "
 "file:///home/user/mymap.png."
@@ -269,12 +269,12 @@ msgstr ""
 "Ha a parancs sikeresen lefut, láthatja az elkészült térképet "
 "file:///home/user/mymap.png."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:187
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:190
 msgid "Add a new layer to the Mapfile to serve a local Shapefile"
 msgstr ""
 "Egy új réteg hozzáadása a Map fájlhoz egy helyi shape fájl szolgáltatásához"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:191
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:194
 msgid ""
 "**What will I learn ?** You will learn how to add a new layer object "
 "definition to your Mapfile."
@@ -282,7 +282,7 @@ msgstr ""
 "**Mit fogok tanulni?** Meg fogja tanulni egy új réteg objektum definíció "
 "hozzáadását a Map fájljához."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:194
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:197
 msgid ""
 "We will now add a new layer to our Mapfile. Before the last *END* statement "
 "in the Mapfile, add the following layer configuration::"
@@ -290,7 +290,7 @@ msgstr ""
 "Most egy új réteget fogunk hozzáadni a Map fájlunkhoz. A Map fájlban az "
 "utolsó *END* sor elé illessze be a következő réteg konfigurációt:"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:209
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:212
 msgid ""
 "Now we have 2 layer definitions in our Mapfile. Note that the new one we "
 "just added has the \"STATUS\" property set to \"ON\". That means that unless"
@@ -300,7 +300,7 @@ msgstr ""
 "éppen hozzáadott réteg \"STATUS\" tulajdonságát \"ON'-ra állítottuk. Ez azt "
 "jelenti, hacsak nem adjuk meg a kérésünkben, nem jelenik meg."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:213
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:216
 msgid ""
 "Let's take our previous WMS **GetMap** request and add our new \"Lakes\" "
 "layer to the image rendered. We simply need to add the new layer name to the"
@@ -310,7 +310,7 @@ msgstr ""
 "rétegünket az elkészített képhez. Egyszerűen hozzá kell adnunk az új réteg "
 "nevét a \"LAYERS\" tulajdonság listához:"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:219
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:222
 msgid ""
 "The image rendered by MapServer looks like our previous map, but with the "
 "addition of the lakes from our new layer:"
@@ -318,11 +318,11 @@ msgstr ""
 "A MapServer által készített kép hasonlóan néz ki mint az előző térképünk, "
 "eltekintve az új rétegünkből hozzáadott tavaktól:"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:228
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:231
 msgid "Style a layer using Mapfile configurations"
 msgstr "Rétegstílus beállítása a Map fájl konfigurációban"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:232
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:235
 msgid ""
 "**What will I learn ?** You will see an example of styling elements inside a"
 " layer depending on some of its data properties."
@@ -330,7 +330,7 @@ msgstr ""
 "**Mit fogok tanulni?** Egy példát lát majd a rétegen belüli elemek "
 "stílusának beállítására az adataik alapján."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:235
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:238
 msgid ""
 "In a Mapfile, a LAYER object can contain an infinite number of CLASS "
 "objects. These are used to style the elements contained in the spatial data "
@@ -348,7 +348,7 @@ msgstr ""
 " Ezeket az attribútum értékeket használhatjuk, hogy az térképi elemeket "
 "különböző módon jelenítsük meg több CLASS objektum használatával."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:243
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:246
 msgid ""
 "In our \"ne_10m_lakes\" dataset, we have a *ScaleRank* attribute, which "
 "seems to be related to the size of the lakes. We can use this as a way to "
@@ -360,7 +360,7 @@ msgstr ""
 "különbözőképpen jelenítsük meg. A LAYER objektumhoz egy másik CLASS "
 "objektumot adunk az aktuális elé::"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:268
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:271
 msgid ""
 "What does our new CLASS object do? It basically tells MapServer to draw the "
 "elements having the \"ScaleRank\" property equal to \"0\" or \"1\" with a "
@@ -385,7 +385,7 @@ msgstr ""
 "réteg \"CLASSITEM\" tulajdonsága jelzi a MapServer-nek melyik attribútumot "
 "használja, amikor a CLASS objektumban megadott \"EXPRESSION\"-t kiértékeli."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:279
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:282
 msgid ""
 "The result of this new addition should make the big lakes in our map image "
 "rendered with a black outline:"
@@ -393,7 +393,7 @@ msgstr ""
 "Ennek az újabb változtatásnak az eredményeképpen a nagy tavakat fekete "
 "körvonallal rajzolja ki."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:287
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:290
 msgid ""
 "Learn more about `EXPRESSIONS "
 "<https://mapserver.org/mapfile/expressions.html>`_ in MapServer."
@@ -401,11 +401,11 @@ msgstr ""
 "Tanuljon többet a MapServer `kifejezésekről "
 "<https://mapserver.org/mapfile/expressions.html>`_"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:292
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:295
 msgid "Publish your data as OGC WMS (Web Map Service)"
 msgstr "Adatainak publikálása OGC WMS-ként  (Web Map Service)"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:294
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:297
 msgid ""
 "MapServer supports different OGC Standards like OGC WMS, WFS or WCS. With "
 "OGC WMS you can publish your data as a Map Service and integrate the service"
@@ -416,11 +416,11 @@ msgstr ""
 "szolgáltatást integrálhatja az asztali térinformatikai szoftverbe pl. QGIS "
 "vagy egy web kliensbe pl. OpenLayers vagy Mapbender."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:297
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:300
 msgid "Using QGIS Desktop to load your OGC WMS"
 msgstr "Asztali QGIS használata OGC WMS adatainak betöltésére"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:299
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:302
 msgid ""
 "Start QGIS via :menuselection:`Geospatial --> Desktop GIS --> QGIS Desktop`."
 " Go to :menuselection:`Layer --> Add Layer --> Add WMS/WMTS Layer`."
@@ -429,17 +429,17 @@ msgstr ""
 "Desktop`. Menjen ide :menuselection:`Réteg --> Réteg hazzáadás -->  WMS/WMTS"
 " réteg hozzáadás.`."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:301
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:304
 msgid "Click button **New** and add a name and your Service URL"
 msgstr ""
 "Kattintson az **Új** gombra és adjon meg egy nevet és a szolgáltatás URL-"
 "jét."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:303
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:306
 msgid "Save your settings:"
 msgstr "Mentse a beállításokat:"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:305
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:308
 msgid ""
 "http://localhost/cgi-"
 "bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0"
@@ -447,7 +447,7 @@ msgstr ""
 "http://localhost/cgi-"
 "bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:307
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:310
 msgid ""
 "Then you can connect to your service and add one or more layers of the "
 "service to your QGIS project. If you choose the layer with the ID 0 you can "
@@ -457,11 +457,11 @@ msgstr ""
 "rétegét adja hozzá a QGIS projektjéhez. Ha a 0 ID-vel rendelkező réteget "
 "választja, akkor egyszerre betöltheti a szolgáltatás összes rétegét."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:314
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:317
 msgid "What Next?"
 msgstr "Mi a következő?"
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:316
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:319
 msgid ""
 "This is a simple example, but you can do much, much more. The MapServer "
 "project website contains many resources to help you get started. Here's a "
@@ -471,7 +471,7 @@ msgstr ""
 "sok forrást tartalmaz az elindulást segítendő. Itt van néhány forrás, amit "
 "legközelebb megtekinthet."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:320
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:323
 msgid ""
 "Read the `Introduction to MapServer "
 "<https://mapserver.org/introduction.html#introduction>`_."
@@ -479,7 +479,7 @@ msgstr ""
 "Olvassa el az `Introduction to MapServer "
 "<https://mapserver.org/introduction.html#introduction>`_ oldalt."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:322
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:325
 msgid ""
 "Have a look at the `MapServer Tutorial "
 "<https://www.mapserver.org/tutorial/index.html>`_ which contains more "
@@ -489,7 +489,7 @@ msgstr ""
 "<https://www.mapserver.org/tutorial/index.html>`_, mely több Map fájl példát"
 " tartalmaz."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:325
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:328
 msgid ""
 "Check the `OGC Support and Configuration "
 "<https://www.mapserver.org/ogc/index.html>`_ to learn more about OGC "
@@ -500,7 +500,7 @@ msgstr ""
 "az OGC szabványokról a MapServer-ben (WMS, WFS, SLD, WFS Filter Encoding, "
 "WCS, SOS, stb.)."
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:328
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:331
 msgid ""
 "Ready to use MapServer? Then join the community on the `Mailing Lists "
 "<https://www.mapserver.org/community/lists.html>`_ to exchange ideas, "

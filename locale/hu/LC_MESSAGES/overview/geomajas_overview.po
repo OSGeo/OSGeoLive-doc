@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -149,10 +149,10 @@ msgstr "**API Interfészek:** Java és Javascript"
 msgid "**Support:** https://www.osgeo.org/service-providers"
 msgstr "**Támogatás:** https://www.osgeo.org/service-providers"
 
-#: ../../build/doc/overview/geomajas_overview.rst:68
+#: ../../build/doc/overview/geomajas_overview.rst:69
 msgid "Quickstart"
 msgstr "Gyorstalpaló"
 
-#: ../../build/doc/overview/geomajas_overview.rst:70
+#: ../../build/doc/overview/geomajas_overview.rst:71
 msgid ":doc:`Quickstart documentation <../quickstart/geomajas_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/geomajas_quickstart>`"

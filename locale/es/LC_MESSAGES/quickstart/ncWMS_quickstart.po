@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:15
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:18
 msgid "ncWMS Quickstart"
 msgstr "Inicio Rápido de ncWMS"
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:17
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:20
 msgid ""
 "ncWMS is a Web Map Service which allows the fast visualisation of data from "
 "NetCDF files and other sources of environmental data.  This quickstart guide"
@@ -42,11 +42,11 @@ msgstr ""
 " servidor, consulte la documentación en `ncWMS website <https://reading-"
 "escience-centre.gitbooks.io/ncwms-user-guide/content/>`_."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:24
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:27
 msgid "Start ncWMS and understand the workspace"
 msgstr "Inicie ncWMS y comprenda el espacio de trabajo"
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:26
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:29
 msgid ""
 "Select :menuselection:`Geospatial --> Web Services --> ncWMS --> Start "
 "ncWMS`."
@@ -54,7 +54,7 @@ msgstr ""
 "Seleccione :menuselection:`Geospatial --> Servicios Web --> ncWMS --> "
 "Iniciar ncWMS`."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:28
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:31
 msgid ""
 "After a few moments the application will start up and open a web browser at "
 "http://localhost:8080/ncWMS2/Godiva3.html"
@@ -62,12 +62,12 @@ msgstr ""
 "Después de unos momentos, la aplicación se iniciará y abrirá un navegador "
 "web en http://localhost:8080/ncWMS2/Godiva3.html"
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:34
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:37
 msgid "Use the left-hand menu to choose a dataset to view."
 msgstr ""
 "Utilice el menú de la izquierda para elegir un conjunto de datos para ver."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:35
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:38
 msgid ""
 "Clicking a dataset (or the + icon to the left of it) will expand the dataset"
 " to show the available variables to plot."
@@ -76,7 +76,7 @@ msgstr ""
 "mismo) se expandirá el conjunto de datos para mostrar las variables "
 "disponibles para trazar."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:36
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:39
 msgid ""
 "Choose a variable by clicking on it. The data displays on the interactive "
 "map after a short delay (a progress bar may display showing the progress of "
@@ -87,11 +87,11 @@ msgstr ""
 "progreso que muestra el progreso de la carga de teselas de imagen desde los "
 "servidores WMS)."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:39
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:42
 msgid "Navigating the map"
 msgstr "Navegando por el mapa"
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:41
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:44
 msgid ""
 "The interactive map can be dragged with the mouse to navigate around. Using "
 "the controls in the top left of the map you can zoom in and out. You can "
@@ -103,11 +103,11 @@ msgstr ""
 "Puede acercar rápidamente a un área determinada manteniendo pulsada la tecla"
 " Mayús y arrastrando un rectángulo en el mapa."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:44
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:47
 msgid "Selecting the vertical level"
 msgstr "Seleccionando el nivel vertical"
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:46
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:49
 msgid ""
 "If the variable you are viewing has a vertical dimension you will be able to"
 " select the vertical level using the drop-down box above the map."
@@ -115,11 +115,11 @@ msgstr ""
 "Si la variable que está viendo tiene una dimensión vertical, podrá "
 "seleccionar el nivel vertical usando el cuadro desplegable sobre el mapa."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:49
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:52
 msgid "Selecting the timestep"
 msgstr "Seleccionando el paso de tiempo"
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:51
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:54
 msgid ""
 "If the displayed variable has a time dimension a date control will appear "
 "above the map. Click on this control to select the date you want to focus "
@@ -132,11 +132,11 @@ msgstr ""
 "para este día, utilice el cuadro desplegable situado encima del mapa para "
 "seleccionar la hora."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:54
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:57
 msgid "Finding the data value at a point"
 msgstr "Encontrar el valor de los datos en un punto"
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:56
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:59
 msgid ""
 "Once a variable has been displayed on the map, you can click on the map to "
 "discover the data value at that point. The data value, along with the "
@@ -148,15 +148,15 @@ msgstr ""
 "datos, junto con la latitud y longitud del punto en el que hizo click, "
 "aparecerá en una pequeña ventana emergente en el punto donde hizo click."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:62
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:65
 msgid "Change the style of the data display"
 msgstr "Cambiar el estilo de la visualización de datos"
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:65
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:68
 msgid "Adjusting the colour contrast range"
 msgstr "Ajuste del rango de contraste de color"
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:67
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:70
 msgid ""
 "When you first load a variable it will appear with a default colour scale "
 "range. This range may not be appropriate for the geographical region and "
@@ -175,11 +175,11 @@ msgstr ""
 " rango de escala de color editando los valores en la parte superior e "
 "inferior de la barra de escala de color."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:70
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:73
 msgid "Locking the scale range"
 msgstr "Bloqueo del rango de escala"
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:72
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:75
 msgid ""
 "Sometimes, when comparing two datasets, you might want to fix the colour "
 "scale range so that when you select a new variable, that variable is shaded "
@@ -201,11 +201,11 @@ msgstr ""
 " rango de escala está bloqueado. Haga click en el icono de candado "
 "nuevamente para hacer que la escala de color sea editable. "
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:75
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:78
 msgid "Changing the colour palette"
 msgstr "Cambiar la paleta de colores"
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:77
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:80
 msgid ""
 "The colour palette can be changed by clicking on the colour scale bar. A "
 "pop-up window will display with the available palettes. Click on one to load"
@@ -226,11 +226,11 @@ msgstr ""
 " se pueden invertir haciendo clic en el botón \"Voltear\" en el selector de "
 "paletas de colores."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:80
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:83
 msgid "Other parameters"
 msgstr "Otros parámetros "
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:82
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:85
 msgid ""
 "Certain variables, particularly biological parameters, are best displayed "
 "with a logarithmic colour scale. The spacing of the colour scale can be "
@@ -245,32 +245,32 @@ msgstr ""
 " no puede seleccionar una escala logarítmica si el rango de la escala de "
 "color contiene valores negativos o cero."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:85
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:88
 msgid "Creating animations"
 msgstr "Creando animaciones"
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:87
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:90
 msgid ""
 "Click the animation wizard button below the lower left corner of the map."
 msgstr ""
 "Haga click en el botón del asistente de animación debajo de la esquina "
 "inferior izquierda del mapa."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:88
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:91
 msgid "Select a start and end time for the animation"
 msgstr "Seleccione una hora de inicio y finalización para la animación."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:89
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:92
 msgid "Choose the granularity and frame rate for the animation"
 msgstr "Elija la granularidad y velocidad de fotogramas para la animación."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:90
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:93
 msgid "Click \"Go\". Note that the animation may take quite a while to display."
 msgstr ""
 "Haga click en \"Ir\". Tenga en cuenta que la animación puede tardar bastante"
 " tiempo en mostrarse."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:91
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:94
 msgid ""
 "Click the \"Stop animation\" button (where the wizard was) to stop the "
 "animation and return the controls to normal."
@@ -278,11 +278,11 @@ msgstr ""
 "Haga clic en el botón \"Detener animación\" (donde estaba el asistente) para"
 " detener la animación y regresar los controles a la normalidad."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:94
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:97
 msgid "Timeseries plots"
 msgstr "Gráficos de series de tiempo"
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:96
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:99
 msgid ""
 "Creating a timeseries plot uses a similar wizard to that used to create "
 "animations. When finding the data value at a point, a link will be present "
@@ -295,11 +295,11 @@ msgstr ""
 " tienen un eje de tiempo.  Las gráficas de series temporales se abren en una"
 " nueva ventana."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:99
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:102
 msgid "Vertical sections and transects along arbitrary paths"
 msgstr "Secciones verticales y transectos a lo largo de caminos arbitrarios "
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:101
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:104
 msgid ""
 "At the top of the map, click the icon that looks like a line joining four "
 "points."
@@ -307,17 +307,17 @@ msgstr ""
 "En la parte superior del mapa, haga click en el icono que parece una línea "
 "que une cuatro puntos."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:102
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:105
 msgid "Click on the map to start drawing a line."
 msgstr "Haga click en el mapa para empezar a dibujar una línea."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:103
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:106
 msgid "Add \"waypoints\" along this line by single-clicking at each point."
 msgstr ""
 "Agregue \"puntos de ruta\" a lo largo de esta línea haciendo un solo click "
 "en cada punto."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:104
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:107
 msgid ""
 "Double-click to finish the line. A new browser window opens showing the "
 "variation of the viewed variable along the line (i.e. a transect plot). If "
@@ -330,11 +330,11 @@ msgstr ""
 "vertical, se mostrará un trazado de sección vertical debajo del trazado de "
 "transecto."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:109
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:112
 msgid "Changing the background map"
 msgstr "Cambiar el mapa de fondo"
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:111
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:114
 msgid ""
 "A selection of background maps is available on which data can be projected. "
 "Select a different background map by clicking the small plus sign in the top"
@@ -344,11 +344,11 @@ msgstr ""
 "proyectar datos. Seleccione un mapa de fondo diferente haciendo click en el "
 "pequeño signo más en la esquina superior derecha del mapa interactivo."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:114
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:117
 msgid "Changing the map projection"
 msgstr "Cambiar la proyección del mapa"
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:116
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:119
 msgid ""
 "The map projection is changed by selecting a new background map as above. If"
 " the background map is in a different projection then the data overlay will "
@@ -364,11 +364,11 @@ msgstr ""
 "un mapa de fondo en la proyección estereográfica polar norte o sur. Puede "
 "haber un retraso antes de que el mapa se muestre en la nueva proyección."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:122
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:125
 msgid "Saving and emailing the view"
 msgstr "Guardar y enviar por correo electrónico la vista"
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:124
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:127
 msgid ""
 "You may want to save the current view to return to it later or share it with"
 " a colleague. The \"Permalink\" under the bottom right-hand corner of the "
@@ -379,14 +379,14 @@ msgstr ""
 "derecha del mapa enlaza a una URL completa que vuelve a crear la vista "
 "actual."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:126
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:129
 msgid ""
 "Left-click on the permalink to bring up a new window with an identical view."
 msgstr ""
 "Haga clic con el botón izquierdo en el enlace permanente para abrir una "
 "nueva ventana con una vista idéntica."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:128
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:131
 msgid ""
 "Right-click on the permalink and select \"Copy link location\" or the "
 "equivalent for your web browser. You can then paste the link into a report, "
@@ -396,7 +396,7 @@ msgstr ""
 "de enlace\" o el equivalente para su navegador web. A continuación, puede "
 "pegar el enlace en un informe, sus notas o un correo electrónico."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:130
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:133
 msgid ""
 "You can click on \"Email Link\" to start a new email message in your default"
 " email client with the permalink already included in the message body."
@@ -405,14 +405,14 @@ msgstr ""
 "mensaje de correo electrónico en su cliente de correo electrónico "
 "predeterminado con el link permanente ya incluido en el cuerpo del mensaje."
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:133
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:136
 msgid "What next?"
 msgstr "¿Qué sigue?"
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:135
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:138
 msgid "Website: https://github.com/Reading-eScience-Centre/ncwms"
 msgstr "Sitio Web: https://github.com/Reading-eScience-Centre/ncwms"
 
-#: ../../build/doc/quickstart/ncWMS_quickstart.rst:137
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:140
 msgid "Support: https://github.com/Reading-eScience-Centre/ncwms/issues"
 msgstr "Soporte: https://github.com/Reading-eScience-Centre/ncwms/issues"

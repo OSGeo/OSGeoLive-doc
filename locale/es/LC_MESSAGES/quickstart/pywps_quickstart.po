@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:20
+#: ../../build/doc/quickstart/pywps_quickstart.rst:23
 msgid "PyWPS Quickstart"
 msgstr "Inicio Rápido PyWPS"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:22
+#: ../../build/doc/quickstart/pywps_quickstart.rst:25
 msgid ""
 "PyWPS is an OGC WPS (Web Processing Service 1.0.0) server implementation "
 "written in `Python <https://www.python.org>`_."
@@ -34,7 +34,7 @@ msgstr ""
 "PyWPS es una implementación de servidor OGC WPS (Web Processing Service "
 "1.0.0) ecrita en `Python <https://www.python.org>`_."
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:25
+#: ../../build/doc/quickstart/pywps_quickstart.rst:28
 msgid ""
 "The PyWPS 4.0.0 library is installed by default on OSGeo-Live. This is a "
 "core library that is not intended to be executed directly, but rather to be "
@@ -50,30 +50,30 @@ msgstr ""
 "`Flask <https://flask.palletsprojects.com>`_ está disponible en GitHub para "
 "facilitar un primer contacto con PyWPS."
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:31
+#: ../../build/doc/quickstart/pywps_quickstart.rst:34
 msgid "This Quickstart describes how to:"
 msgstr "Esta Guía de Inicio Rápido describe cómo:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:33
+#: ../../build/doc/quickstart/pywps_quickstart.rst:36
 msgid "Install and configure the pywps-flask example service"
 msgstr "Instalar y configurar el servicio de ejemplo de pywps-flask"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:34
+#: ../../build/doc/quickstart/pywps_quickstart.rst:37
 msgid ""
 "Perform ``GetCapabilities``, ``DescribeProcess`` and ``Execute`` requests"
 msgstr ""
 "Realizar requerimientos de ``GetCapabilities``, ``DescribeProcess``  y "
 "``Execute``"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:35
+#: ../../build/doc/quickstart/pywps_quickstart.rst:38
 msgid "Develop your own WPS processes"
 msgstr "Desarrollar sus propios procesos WPS"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:41
+#: ../../build/doc/quickstart/pywps_quickstart.rst:44
 msgid "Installing pywps-flask"
 msgstr "Instalación de pywps-flask"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:43
+#: ../../build/doc/quickstart/pywps_quickstart.rst:46
 msgid ""
 "Since the example service depends on Flask, make sure it is installed on "
 "your OSGeo-Live:"
@@ -81,19 +81,19 @@ msgstr ""
 "Dado que el servicio de ejemplo depende de Flask, asegúrese de que esté "
 "instalado en su OSGeoLive:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:46
+#: ../../build/doc/quickstart/pywps_quickstart.rst:49
 msgid "`sudo apt install python-flask`"
 msgstr "`sudo apt install python-flask`"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:48
+#: ../../build/doc/quickstart/pywps_quickstart.rst:51
 msgid "Then clone the repository from GitHub:"
 msgstr "Luego clonar el repositorio de GitHub:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:50
+#: ../../build/doc/quickstart/pywps_quickstart.rst:53
 msgid "`git clone https://github.com/geopython/pywps-flask.git`"
 msgstr "`git clone https://github.com/geopython/pywps-flask.git`"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:52
+#: ../../build/doc/quickstart/pywps_quickstart.rst:55
 msgid ""
 "Now move into the repository folder and edit the configuration file. This "
 "can be done with a program like `nano`:"
@@ -101,11 +101,11 @@ msgstr ""
 "Ahora muévase a la carpeta del repositorio y edite el archivo de "
 "configuración. Esto se puede hacer con un programa como `nano`:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:55
+#: ../../build/doc/quickstart/pywps_quickstart.rst:58
 msgid "`nano pywps.cfg`"
 msgstr "`nano pywps.cfg`"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:57
+#: ../../build/doc/quickstart/pywps_quickstart.rst:60
 msgid ""
 "The only critical thing to verify is the location of logging database. "
 "`Pywps-flask` provides a sample SQLite database that can be used for this "
@@ -116,34 +116,34 @@ msgstr ""
 "se puede utilizar para este propósito. Asegúrese de que la configuración de "
 "la` base de datos` se lea como:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:61
+#: ../../build/doc/quickstart/pywps_quickstart.rst:64
 msgid "`database=sqlite:////home/user/pywps-flask/logs/pywps-logs.sqlite3`"
 msgstr "`database=sqlite:////home/user/pywps-flask/logs/pywps-logs.sqlite3`"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:63
+#: ../../build/doc/quickstart/pywps_quickstart.rst:66
 msgid ""
 "Save the configuration file and exit `nano` you can now run the service:"
 msgstr ""
 "Guardar el archivo de configuración y salir de `nano`  ahora puede ejecutar "
 "el servicio:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:65
+#: ../../build/doc/quickstart/pywps_quickstart.rst:68
 msgid "`python demo.py`"
 msgstr "`python demo.py`"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:67
+#: ../../build/doc/quickstart/pywps_quickstart.rst:70
 msgid "If all goes well you will receive back a message like:"
 msgstr "Si todo sale bien usted recibirá nuevamente un mensaje como:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:69
+#: ../../build/doc/quickstart/pywps_quickstart.rst:72
 msgid "`* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)`"
 msgstr "`* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)`"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:72
+#: ../../build/doc/quickstart/pywps_quickstart.rst:75
 msgid "Testing available processes"
 msgstr "Pruebas de procesos disponibles"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:74
+#: ../../build/doc/quickstart/pywps_quickstart.rst:77
 msgid ""
 "Open a web browser and point it to the address where the example service is "
 "listening: `http://127.0.0.1:5000/ <http://127.0.0.1:5000/>`_ You will be "
@@ -153,7 +153,7 @@ msgstr ""
 " ejemplo:  `http://127.0.0.1:5000/ <http://127.0.0.1:5000/>`_ y se le "
 "presentará la siguiente página:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:81
+#: ../../build/doc/quickstart/pywps_quickstart.rst:84
 msgid ""
 "Use the green buttons to explore the service. Issue a `GetCapabilities` "
 "request for an overview of the service; issue a `DescribeProcess` request to"
@@ -165,7 +165,7 @@ msgstr ""
 "una solicitud `DescribeProcess` para conocer los detalles de un proyecto en "
 "particular. Observe la URL de solicitud en la dirección del navegador."
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:85
+#: ../../build/doc/quickstart/pywps_quickstart.rst:88
 msgid ""
 "It is now time to test an `Execute` request. You can try the `say_hello` "
 "process, which is fairly simple. Direct your web browser to the following "
@@ -175,7 +175,7 @@ msgstr ""
 "proceso `say_hello` , que es bastante simple. Dirija su navegador web a la "
 "siguiente dirección: "
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:89
+#: ../../build/doc/quickstart/pywps_quickstart.rst:92
 msgid ""
 "`http://localhost:5000/wps?service=WPS&version=1.0.0&request=Execute&identifier=say_hello&dataInputs=name"
 "=OSGeo-Live`"
@@ -183,7 +183,7 @@ msgstr ""
 "`http://localhost:5000/wps?service=WPS&version=1.0.0&request=Execute&identifier=say_hello&dataInputs=name"
 "=OSGeo-Live`"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:91
+#: ../../build/doc/quickstart/pywps_quickstart.rst:94
 msgid ""
 "The process simply replies back with a \"Hello OSGeo\" message, encoded in a"
 " standard WPS response document. Your browser should be showing something "
@@ -193,11 +193,11 @@ msgstr ""
 "codificado en un documento de respuesta WPS estándar. Su navegador debería "
 "mostrar algo como:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:98
+#: ../../build/doc/quickstart/pywps_quickstart.rst:101
 msgid "Developing WPS processes"
 msgstr "Desarrollo de procesos de WPS"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:100
+#: ../../build/doc/quickstart/pywps_quickstart.rst:103
 msgid ""
 "To develop new processes all you need to do is create new Python modules "
 "inside the `processes` folder. Use the existing processes as templates to "
@@ -210,7 +210,7 @@ msgstr ""
 " más cercana al proceso `say_hello` muestra la característica principal de "
 "un proceso PyWPS:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:105
+#: ../../build/doc/quickstart/pywps_quickstart.rst:108
 msgid ""
 "1. Import the necessary assets and create a class inheriting from the PyWPS "
 "`Process` class. In the constructor create the necessary objects for inputs "
@@ -220,12 +220,12 @@ msgstr ""
 "`Process` de PyWPS. En el constructor, crear los objetos necesarios para "
 "entradas y salidas:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:120
+#: ../../build/doc/quickstart/pywps_quickstart.rst:123
 msgid "Invoke the parent constructor, passing on the metadata of the process:"
 msgstr ""
 "Invocar el constructor del padre, pasando en los metadatos del proceso:"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:137
+#: ../../build/doc/quickstart/pywps_quickstart.rst:140
 msgid ""
 "3. Create the `handler` method, that will be invoked to handle `Execute` "
 "requests. Use the `request` and `response` objects to retrieve inputs and "
@@ -235,11 +235,11 @@ msgstr ""
 "solicitudes de ejecución. Utilice los objetos de solicitud y respuesta para "
 "recuperar entradas y establecer salidas."
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:150
+#: ../../build/doc/quickstart/pywps_quickstart.rst:153
 msgid "What's next"
 msgstr "Lo que sigue"
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:152
+#: ../../build/doc/quickstart/pywps_quickstart.rst:155
 msgid ""
 "PyWPS gives you the freedom and flexibility to write your own Python "
 "processes and expose them accordingly."
@@ -247,7 +247,7 @@ msgstr ""
 "PyWPS le da la libertad y flexibilidad para escribir sus propios procesos de"
 " Python y exponerlos en consecuencia."
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:155
+#: ../../build/doc/quickstart/pywps_quickstart.rst:158
 msgid ""
 "Official documentation - For further information on PyWPS configuration and "
 "the API, consult the `documentation`_ on the PyWPS website."
@@ -255,7 +255,7 @@ msgstr ""
 "Documentación oficial - Para obtener más información sobre la configuración "
 "de PyWPS y la API, consulte la `documentación`_ en el sitio web de PyWPS."
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:157
+#: ../../build/doc/quickstart/pywps_quickstart.rst:160
 msgid ""
 "Tutorial - Try out the `workshop`_, a tutorial used in workshops to "
 "introduce new users to PyWPS 4."
@@ -263,7 +263,7 @@ msgstr ""
 "Tutorial - Pruebe el `workshop`_, un tutorial utilizado en talleres para "
 "introducir nuevos usuarios a PyWPS 4."
 
-#: ../../build/doc/quickstart/pywps_quickstart.rst:160
+#: ../../build/doc/quickstart/pywps_quickstart.rst:163
 msgid ""
 "Deployment to production -   The `pywps-flask` service is just an example "
 "and not designed for production. One possible alternative is a Django based "

@@ -11,9 +11,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
@@ -262,10 +262,10 @@ msgstr "**Interfacce API:** Javascript"
 msgid "**Support:** https://groups.google.com/forum/#!forum/leaflet-js"
 msgstr "**Supporto:** https://groups.google.com/forum/#!forum/leaflet-js"
 
-#: ../../build/doc/overview/leaflet_overview.rst:113
+#: ../../build/doc/overview/leaflet_overview.rst:114
 msgid "Quickstart"
 msgstr "Guida rapida"
 
-#: ../../build/doc/overview/leaflet_overview.rst:115
+#: ../../build/doc/overview/leaflet_overview.rst:116
 msgid ":doc:`Quickstart documentation <../quickstart/leaflet_quickstart>`"
 msgstr ":doc:`Documentazione introduttiva <../quickstart/leaflet_quickstart>`"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 21:50-0600\n"
+"POT-Creation-Date: 2020-12-15 14:20-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +73,7 @@ msgid "pygeoapi supports a wide range of backends to use as vector source, e.g. 
 msgstr ""
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:60
-msgid "Interesting datasets to expose as OAPI-Features consist of real world data having multiple attributes and links to other resources. OSGeo Live contains a number of datasets we can use. An example is ``/var/www/html/openlayers/examples/data/geojson/countries.geojson``. You can configure it in pygeoapi using the GeoJSON provider."
+msgid "Interesting datasets to expose as OAPI-Features consist of real world data having multiple attributes and links to other resources. OSGeoLive contains a number of datasets we can use. An example is ``/var/www/html/openlayers/examples/data/geojson/countries.geojson``. You can configure it in pygeoapi using the GeoJSON provider."
 msgstr ""
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:64
@@ -131,3 +131,4 @@ msgstr ""
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:125
 msgid "Select the ``countries`` collection and click ‘Add’ to add the layer in the QGIS map."
 msgstr ""
+

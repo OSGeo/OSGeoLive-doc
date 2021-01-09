@@ -4,18 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2019
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,9 +40,9 @@ msgid ""
 "number of traditional and state of the art algorithms (). R and its packages"
 " are able to process point, line, polygon, networks, grid data (etc.)."
 msgstr ""
-"R は強力で広く使われている高性能な統計計算および作図環境で、地理的データの解析と演算にも優れています。R による地理空間分析は、R "
-"パッケージ（Rの機能を拡張するモジュール）を利用して古典的なものから最新のものまで、膨大なアルゴリズムが利用できます。中には他のオープンソースまたはプロプライエタリ・ソフトウェアよりも早く利用可能になるものもあります。R"
-" とそのパッケージではポイント、ライン、ポリゴン、グリッドデータを処理できます。"
+"Rは、地理データセットの分析と処理に優れた、統計計算とグラフィックスのための強力で広く使用されているソフトウェア環境です。R による地理空間分析は、R "
+"パッケージ（Rの機能を拡張するモジュール）を利用して古典的なものから最新のものまで、膨大なアルゴリズムが利用できます。R "
+"とそのパッケージではポイント、ライン、ポリゴン、グリッドデータ(など)を処理できます。"
 
 #: ../../build/doc/overview/R_overview.rst:27
 msgid ""
@@ -55,12 +55,8 @@ msgid ""
 " packages provide connection with other OSGeo tools and software. You can "
 "easily plug R with GRASS-GIS, Qgis, postgreSQL and postGIS."
 msgstr ""
-"ユーザーは、例えば画像分類、空間的関係を推定するための統計解析、地物の分布パターン、そして以下の基本機能に列挙されるものなど、大規模な配列の処理ができます。R"
-" が提供している機能は、GIS や画像処理ソフトに使われている高性能で先進的なものです。 Using packages for "
-"parallelisation users can drastically reduce computational time and increase"
-" these capability. Several packages provide connection with other OSGeo "
-"tools and software. You can easily plug R with GRASS-GIS, Qgis, postgreSQL "
-"and postGIS."
+"ユーザーは、例えば画像分類、空間的関係を推定するための統計解析、地物の分布パターン、そして以下の基本機能に列挙されるものなど、大規模な配列の処理ができます。Rで利用できる機能は、GISや画像処理ソフトウェアの機能を補完し、拡張します。並列化のためのパッケージを使用すると、計算時間を大幅に削減し、これらの機能を向上させることができます。いくつかのパッケージは、他のOSGeoツールやソフトウェアとの接続を提供します"
+"。RはGRASS-GIS、Qgis、PostgreSQL、postGISで簡単にプラグインできます。"
 
 #: ../../build/doc/overview/R_overview.rst:36
 msgid ""
@@ -89,7 +85,7 @@ msgstr ""
 
 #: ../../build/doc/overview/R_overview.rst:57
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/R_overview.rst:59
 msgid ""
@@ -181,10 +177,10 @@ msgstr ""
 "**CRAN パッケージが利用可能:** "
 "https://cran.r-project.org/web/packages/available_packages_by_name.html"
 
-#: ../../build/doc/overview/R_overview.rst:91
+#: ../../build/doc/overview/R_overview.rst:92
 msgid "Quickstart"
 msgstr "クイックスタート"
 
-#: ../../build/doc/overview/R_overview.rst:93
+#: ../../build/doc/overview/R_overview.rst:94
 msgid ":doc:`Quickstart documentation <../quickstart/R_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/R_quickstart>`"

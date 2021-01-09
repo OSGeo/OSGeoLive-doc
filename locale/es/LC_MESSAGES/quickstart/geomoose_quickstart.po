@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:18
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:21
 msgid "GeoMoose Quickstart"
 msgstr "Guía de Inicio Rápido de GeoMoose "
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:20
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:23
 msgid ""
 "GeoMoose is a browser based mapping framework for displaying distributed "
 "cartographic data. It is particularly useful for managing spatial and non-"
@@ -38,7 +38,7 @@ msgstr ""
 " espaciales y no espaciales dentro de un condado, ciudad y oficinas "
 "municipales (a partir del cual se origina GeoMoose)."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:22
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:25
 msgid ""
 "GeoMoose is a GIS data portal management framework. The installed version of"
 " GeoMoose on the Live DVD is an example configuration that displays an "
@@ -48,15 +48,15 @@ msgstr ""
 " de GeoMoose en el  Live DVD es un ejemplo de configuración que  muestra un "
 "ejemplo de conjunto de capas."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:28
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:31
 msgid "Start GeoMoose"
 msgstr "Iniciar GeoMoose"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:30
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:33
 msgid "Go to the \"Browser Clients\" folder on the desktop."
 msgstr "Ir a la carpeta \"Clientes de Navegador\" en el escritorio."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:32
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:35
 msgid ""
 "Click on the desktop icon \"Start GeoMoose\". This will launch the default "
 "browser which will navigate to the correct location automatically."
@@ -65,7 +65,7 @@ msgstr ""
 "navegador predeterminado que navegará a la ubicación correcta "
 "automáticamente."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:34
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:37
 msgid ""
 "You will be presented with a web page displaying a demo interface of a "
 "GeoMoose instance."
@@ -73,31 +73,31 @@ msgstr ""
 "Se le presentará una página web que muestra una interfaz de demostración de "
 "una instancia de GeoMoose."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:40
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:43
 msgid "The Interfaces presented above shows:"
 msgstr "Las Interfaces presentadas arriba muestran:"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:42
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:45
 msgid "A banner bar"
 msgstr "Una barra de banner "
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:43
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:46
 msgid "A tool bar"
 msgstr "Una barra de herramientas"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:44
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:47
 msgid "A map window with navigation and zoom controls"
 msgstr "Una ventana de mapa con controles de navegación y zoom"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:45
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:48
 msgid "A side menu with:"
 msgstr "Un menú lateral con:"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:47
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:50
 msgid "A \"Jump to\" location pull down list"
 msgstr "Una \"Saltar a\" lista desplegable de ubicación "
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:48
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:51
 msgid ""
 "Control tabs starting with \"Catalog\", for displaying the layer list.  As "
 "needed, additional tabs will appear: an \"Information\" readout, a "
@@ -107,11 +107,11 @@ msgstr ""
 "  Según sea necesario, aparecen fichas adicionales: una lectura de "
 "\"Información\", una ficha de salida de \"Custom\" y otros."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:50
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:53
 msgid "A Footer bar with:"
 msgstr "Una barra a pie de página con:"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:52
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:55
 msgid ""
 "Multiple coordinate readouts, one each for: X,Y (local dataset coordinates),"
 " LAT/LON (Decimal) and United States National Grid (USNG)"
@@ -120,27 +120,27 @@ msgstr ""
 "conjunto de datos locales), LAT/LON (Decimal) y Red Nacional de Estados "
 "Unidos (USNG)"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:53
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:56
 msgid "An editable pull down list for a view scales to choose from or define."
 msgstr ""
 "Una lista editable y desplegable para una vista escalas para elegir o "
 "definir."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:56
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:59
 msgid "Identify a location"
 msgstr "Identificar una ubicación"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:58
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:61
 msgid "Click on the \"identify\" (\"i\" in a circle icon) button in the top toolbar"
 msgstr ""
 "Click en el botón \"identificar\" (\"i\" en un ícono de círculo) en la barra"
 " superior de herramientas"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:59
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:62
 msgid "Click a point on the map."
 msgstr "Haga click en un punto del mapa."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:63
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:66
 msgid ""
 "The catalog along the left side of the Map view will change to the \"Super "
 "Tab\" - a place to where GeoMoose displays results of an action or asks for "
@@ -153,11 +153,11 @@ msgstr ""
 "resultados de una consulta de cada capa activa e identificable para el punto"
 " en que usted hizo click en el mapa."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:66
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:69
 msgid "Use the measuring tool"
 msgstr "Utilice la herramienta de medición"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:68
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:71
 msgid ""
 "The GeoMoose measure tool allows you to: * measure a point (return the "
 "coordinates of a picked point) * measure the distance along a potentially "
@@ -167,7 +167,7 @@ msgstr ""
 "coordenadas de un punto seleccionado) * medir la distancia a lo largo de una"
 " línea potencialmente multisegmento * medir el área de un polígono."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:73
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:76
 msgid ""
 "Click the double ended arrow icon in the top toolbar to start the measuring "
 "tool."
@@ -175,11 +175,11 @@ msgstr ""
 "Click en el ícono de flecha de doble extremo en la barra de herramientas "
 "superior para iniciar la herramienta de medición."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:74
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:77
 msgid "Choose to measure a point, line, or polygon."
 msgstr "Elija medir un punto, una línea o un polígono."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:75
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:78
 msgid ""
 "Click on the map where you want to measure.  To measure a point, just click "
 "the point on the map you want to measure.  To measure a line or polygon "
@@ -189,11 +189,11 @@ msgstr ""
 "haga click en el punto del mapa que desea medir.  Para medir una línea o "
 "polígono, haga click en el mapa para cada vértice a de la línea/polígono."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:76
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:79
 msgid "Double click to end the line/polygon."
 msgstr "Doble click para finalizar la línea/polígono."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:84
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:87
 msgid ""
 "you can also measure a pre-existing feature on the map (if it is from a "
 "vector layer, including previous query results) without having to manually "
@@ -203,11 +203,11 @@ msgstr ""
 "capa vectorial, incluidos los resultados de la consulta anterior) sin tener "
 "que trazar la imagen manualmente sobre ella."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:88
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:91
 msgid "Select features"
 msgstr "Seleccionar Funciones"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:89
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:92
 msgid ""
 "You can select features from a Point, Line, Polygon, or from an existing "
 "feature.  To start, click on the \"Select Features\" icon (mouse cursor "
@@ -224,7 +224,7 @@ msgstr ""
 "desea ajustar su selección puede hacerlo con la opción \"Modificar "
 "característica\"."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:91
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:94
 msgid ""
 "You also have the option to select features based on a buffered version of "
 "what you drew.  The default is to buffer by \"0\" which does nothing.  "
@@ -236,7 +236,7 @@ msgstr ""
 " \"0\" que no hace nada.  Valores positivos amplían lo que dibujó por esa "
 "distancia, valores negativos reducen su dibujo."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:93
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:96
 msgid ""
 "Select which layer you want to select features from using the \"Query "
 "Layer\" select-box.  Note: not all layers can be used with the Select "
@@ -249,7 +249,7 @@ msgstr ""
 "disponibles para la selección, una capa tiene que ser una capa vectorial y "
 "configurarse para la selección en el mapbook."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:98
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:101
 msgid ""
 "Finally, click the \"Go\" button to actually select the features.  GeoMoose "
 "will return a summary of what was selected in the Super Tab as well, "
@@ -261,7 +261,7 @@ msgstr ""
 "en la Super Tab, resaltará las características seleccionadas en el mapa y "
 "mostrará una tabla de atributos de ellas."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:103
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:106
 msgid ""
 "If you hover over a line in the table, the corresponding feature on the map "
 "will be highlighted.  Additionally, you can use the funnel icons in the "
@@ -277,11 +277,11 @@ msgstr ""
 "utilizando el icono de descarga para la parte superior e izquierda de la "
 "tabla."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:107
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:110
 msgid "Search for features"
 msgstr "Buscar características"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:109
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:112
 msgid ""
 "You can also search for features by attribute.  To start, hover over the "
 "\"Search\" menu in the toolbar and then click on the \"Search Parcels\" "
@@ -293,7 +293,7 @@ msgstr ""
 "el ícono \"Buscar Parcelas\".  Introduzca sus parámetros de búsqueda en la "
 "Super Tab y haga click en el botón \"Go!\"."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:113
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:116
 msgid ""
 "The following screenshot demonstrates a search of all parcel owners "
 "containing the name \"frank\"."
@@ -301,11 +301,11 @@ msgstr ""
 "La siguiente captura de pantalla demuestra una búsqueda de todos los "
 "propietarios de parcelas que contienen el nombre \"Frank\"."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:117
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:120
 msgid "Three results appear in the list and are highlighted on the map."
 msgstr "Tres resultados aparecen en la lista y se destacan en el mapa."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:121
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:124
 msgid ""
 "Clicking the magnifying glass icon/parcel number will zoom you to the "
 "specific parcel as illustrated in the following screenshot."
@@ -313,11 +313,11 @@ msgstr ""
 "Haciendo click en el ícono de lupa/número de parcela, se acercará a la "
 "parcela específica tal como se ilustra en la siguiente pantalla."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:127
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:130
 msgid "Print the map"
 msgstr "Imprimir el mapa"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:129
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:132
 msgid ""
 "This next screenshot shows how the Print tool looks as provided with demo "
 "for GeoMoose.  When you click on the Print tool, a dialog appears which asks"
@@ -330,7 +330,7 @@ msgstr ""
 "un título para el mapa impreso, el tamaño de la página y rotación, "
 "resolución impresa y muestra una vista previa de lo que se imprimirá."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:133
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:136
 msgid ""
 "Clicking the Print button in the dialog will generate a PDF printout that "
 "you can open or save."
@@ -338,11 +338,11 @@ msgstr ""
 "Haciendo click en el botón de Imprimir en el cuadro de diálogo se va a "
 "generar una impresión PDF que puede abrir o guardar."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:139
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:142
 msgid "What next?"
 msgstr "¿Qué sigue?"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:141
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:144
 msgid ""
 "This is only the first step on the road to using GeoMoose. There is a lot "
 "more functionality you can try."
@@ -350,18 +350,18 @@ msgstr ""
 "Esto es sólo el primer paso en el camino al uso de GeoMoose. Hay mucha más "
 "funcionalidad que puede tratar."
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:144
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:147
 msgid "GeoMoose Project home"
 msgstr "Proyecto GeoMoose, inicio"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:146
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:149
 msgid "https://www.geomoose.org/"
 msgstr "https://www.geomoose.org/"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:148
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:151
 msgid "GeoMoose Tutorial"
 msgstr "Tutorial de GeoMoose "
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:150
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:153
 msgid "https://www.geomoose.org/quickstart.html"
 msgstr "https://www.geomoose.org/quickstart.html"

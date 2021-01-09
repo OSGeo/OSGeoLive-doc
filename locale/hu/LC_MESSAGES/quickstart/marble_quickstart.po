@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:19
+#: ../../build/doc/quickstart/marble_quickstart.rst:22
 msgid "Marble Quickstart"
 msgstr "Marble gyorstalpaló"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:21
+#: ../../build/doc/quickstart/marble_quickstart.rst:24
 msgid ""
 "Marble is an open source KDE Education Project program similar to NASA World"
 " Wind or Google Earth. Besides choosing any number of maps to view on your "
@@ -38,11 +38,11 @@ msgstr ""
 "meg a földgömbön (többek között az OpenStreetMaps-et), arra bátorítjuk, hogy"
 " építse be az alkalmazásába a KDE Marble vezérlőt."
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:27
+#: ../../build/doc/quickstart/marble_quickstart.rst:30
 msgid "Start Marble"
 msgstr "Marble indítása"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:29
+#: ../../build/doc/quickstart/marble_quickstart.rst:32
 msgid ""
 "On the desktop, choose :menuselection:`Navigation and Maps --> Marble`. You "
 "will see a window like this:"
@@ -50,67 +50,67 @@ msgstr ""
 "Az asztalról válassza :menuselection:`Navigation and Maps --> Marble`-t. Egy"
 " ilyen ablakot lát:"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:36
+#: ../../build/doc/quickstart/marble_quickstart.rst:39
 msgid "Change the display"
 msgstr "A megjelenítés megváltoztatása"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:38
+#: ../../build/doc/quickstart/marble_quickstart.rst:41
 msgid "Scale the globe by rotating the wheel of your mouse."
 msgstr "Az egérgörgő forgatásával nagyíthatja a földgömböt."
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:39
+#: ../../build/doc/quickstart/marble_quickstart.rst:42
 msgid "To move around press the left button of your mouse and move it."
 msgstr "A mozgatáshoz nyomja le az egér bal gombját és mozgassa."
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:41
+#: ../../build/doc/quickstart/marble_quickstart.rst:44
 msgid "Marble has 11 different views (themes):"
 msgstr "A Marble-nak 11 különböző nézete (témája) van:"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:43
+#: ../../build/doc/quickstart/marble_quickstart.rst:46
 msgid "Atlas"
 msgstr "Atlasz"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:44
+#: ../../build/doc/quickstart/marble_quickstart.rst:47
 msgid "OpenStreetMap"
 msgstr "OpenStreetMap"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:45
+#: ../../build/doc/quickstart/marble_quickstart.rst:48
 msgid "Satellite View"
 msgstr "Műhold nézet"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:46
+#: ../../build/doc/quickstart/marble_quickstart.rst:49
 msgid "Earth at Night"
 msgstr "A Föld éjjel"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:47
+#: ../../build/doc/quickstart/marble_quickstart.rst:50
 msgid "Historical Map 1689"
 msgstr "Történelmi térkép 1689"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:48
+#: ../../build/doc/quickstart/marble_quickstart.rst:51
 msgid "Moon"
 msgstr "Hold"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:49
+#: ../../build/doc/quickstart/marble_quickstart.rst:52
 msgid "Plain Map"
 msgstr "Sík térkép"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:50
+#: ../../build/doc/quickstart/marble_quickstart.rst:53
 msgid "Precipitation (December)"
 msgstr "Csapadék (december)"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:51
+#: ../../build/doc/quickstart/marble_quickstart.rst:54
 msgid "Precipitation (July)"
 msgstr "Csapadék (július)"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:52
+#: ../../build/doc/quickstart/marble_quickstart.rst:55
 msgid "Temperature (December)"
 msgstr "Hőmérséklet (december)"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:53
+#: ../../build/doc/quickstart/marble_quickstart.rst:56
 msgid "Temperature (July)."
 msgstr "Hőmérséklet (július)."
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:55
+#: ../../build/doc/quickstart/marble_quickstart.rst:58
 msgid ""
 "Click one of entries in the \"Theme\" list in \"Map View\" tab to switch "
 "between them."
@@ -118,15 +118,15 @@ msgstr ""
 "A témák közötti váltáshoz kattintson az egyik elemre a  \"Theme\" listában a"
 " \"Map View\" fülön."
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:60
+#: ../../build/doc/quickstart/marble_quickstart.rst:63
 msgid "Click a label in any place to view more information about it."
 msgstr "Kattintson egy címkére bárhol, hogy további információt kapjon arról."
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:67
+#: ../../build/doc/quickstart/marble_quickstart.rst:70
 msgid "Find a location"
 msgstr "Hely keresés"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:69
+#: ../../build/doc/quickstart/marble_quickstart.rst:72
 msgid ""
 "To find a location, enter its name into the search line on the top of "
 "\"Search\" panel. As you start typing, suggestions below the search line "
@@ -135,16 +135,16 @@ msgstr ""
 "Egy hely megtalálásához írja be a nevét a \"Search\" panel tetején a kereső "
 "sorba. Ahogy gépel javaslatok jelennek meg a kereső sor alatt valahogy így:"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:77
+#: ../../build/doc/quickstart/marble_quickstart.rst:80
 msgid "Add a bookmark"
 msgstr "Könyvjelző hozzáadása"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:79
+#: ../../build/doc/quickstart/marble_quickstart.rst:82
 msgid "Use bookmarks in Marble to remember the location of something."
 msgstr ""
 "A Marbel-ben használja a könyvjelzőket valami helyének a megjegyzésére."
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:81
+#: ../../build/doc/quickstart/marble_quickstart.rst:84
 msgid ""
 "To add a bookmark, press the left button of your mouse and click \"Add "
 "bookmark\". A window will appear like this:"
@@ -152,25 +152,25 @@ msgstr ""
 "Egy könyvjelző hozzáadásához nyomja meg a bal egérgombot és kattintson az "
 "\"Add bookmark\"-ra. Ezután egy ilyen ablak jelenik meg:"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:86
+#: ../../build/doc/quickstart/marble_quickstart.rst:89
 msgid "Write the name, description and destination folder of the bookmark"
 msgstr "Írja be a könyvjelző nevét, leírását és a cél mappát"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:87
+#: ../../build/doc/quickstart/marble_quickstart.rst:90
 msgid "Click the \"Ok\" button. Then the bookmark will appear."
 msgstr "Kattintson az \"Ok\" gombra. Azután a könyvjelző megjelenik:"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:89
+#: ../../build/doc/quickstart/marble_quickstart.rst:92
 msgid "To manage bookmarks, go to \"Bookmarks->Manage Bookmarks\"."
 msgstr ""
 "A könyvjelzők kezeléséhez menjen a \"Bookmarks->Manage Bookmarks\" "
 "menüponthoz."
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:95
+#: ../../build/doc/quickstart/marble_quickstart.rst:98
 msgid "Things to try"
 msgstr "Kipróbálandó dolgok"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:97
+#: ../../build/doc/quickstart/marble_quickstart.rst:100
 msgid ""
 "Try to use the Routing feature. See the `Marble documentation "
 "<https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ for help."
@@ -178,11 +178,11 @@ msgstr ""
 "Próbálja ki az útvonalkeresés funkciót. További segítségért lásd a `Marble "
 "dokumentációt <https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_."
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:101
+#: ../../build/doc/quickstart/marble_quickstart.rst:104
 msgid "What next?"
 msgstr "Mi a következő?"
 
-#: ../../build/doc/quickstart/marble_quickstart.rst:103
+#: ../../build/doc/quickstart/marble_quickstart.rst:106
 msgid ""
 "See the `Marble homepage <https://marble.kde.org/>`_ for more information."
 msgstr ""

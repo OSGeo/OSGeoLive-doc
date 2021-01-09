@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-06 11:23-0500\n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:21
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:24
 msgid "Mapbender Quickstart"
 msgstr "Gía de Inicio Rápido de Mapbender"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:23
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:26
 msgid ""
 "Mapbender is a web based geoportal framework to publish, register, view, "
 "navigate, monitor and grant secure access to spatial data infrastructure "
@@ -36,39 +36,39 @@ msgstr ""
 "ver, navegar, controlar y otorgar acceso seguro a servicios de "
 "infraestructura de datos espaciales."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:25
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:28
 msgid "This Quick Start describes how to:"
 msgstr "Esta Guía de Inicio Rápido describe cómo:"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:27
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:30
 msgid "start Mapbender"
 msgstr "Iniciar Mapbender"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:28
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:31
 msgid "create an application"
 msgstr "crear una aplicación"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:29
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:32
 msgid "load a Web Map Service (OGC WMS)"
 msgstr "Cargar un Web Map Service (WMS OGC)"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:30
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:33
 msgid "configure WMS"
 msgstr "configurar WMS"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:31
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:34
 msgid "add elements to an application"
 msgstr "añadir elementos a una aplicación"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:33
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:36
 msgid "This is how a Mapbender application can look like:"
 msgstr "Se trata de cómo puede parecerse a una aplicación de Mapbender:"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:43
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:46
 msgid "Start Mapbender"
 msgstr "Iniciar Mapbender "
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:45
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:48
 msgid ""
 "Choose  :menuselection:`Geospatial --> Browser Clients --> Mapbender` from "
 "the start menu or visit http://localhost/mapbender/app.php. The application "
@@ -78,7 +78,7 @@ msgstr ""
 "menú de inicio, o visite http://localhost/mapbender/app.php.  La aplicación "
 "tardará unos minutos en iniciarse."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:47
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:50
 msgid ""
 "If you have any difficulties running Mapbender, please check whether your "
 "Apache web server and your PostgreSQL database are running. Or if you use "
@@ -89,7 +89,7 @@ msgstr ""
 "si usa SQLite como base de datos, compruebe si usted tiene acceso de "
 "escritura al archivo."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:50
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:53
 msgid ""
 "The Welcome page lists applications that are public and can be used by all "
 "users. The applications are listed with a screenshot, a title and a "
@@ -99,7 +99,7 @@ msgstr ""
 "utilizadas por todos los usuarios. Esas aplicaciones se enumeran con una "
 "captura de pantalla, un título y una descripción."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:52
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:55
 msgid ""
 "You can open an application by click on the title, the screenshot or the "
 "start button."
@@ -107,7 +107,7 @@ msgstr ""
 "Puede abrir una palicación haciendo click en el título, la captura de "
 "pantalla o el botón de inicio."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:54
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:57
 msgid ""
 "Before you can administrate with Mapbender you have to login to get access "
 "to the administration."
@@ -115,7 +115,7 @@ msgstr ""
 "Antes de que puede administrar con Mapbender tiene que iniciar sesión para "
 "obtener acceso a la administración."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:56
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:59
 msgid ""
 "Click on Login at right-top to open the login page. Login with username "
 ":guilabel:`root` and password :guilabel:`root` (This is the default user and"
@@ -130,11 +130,11 @@ msgstr ""
 "Mapbender en OSGeoLive. Cambie la contraseña raíz si desea ejecutar un "
 "entorno productivo. Por favor, no elimine el usuario :guilabel:'root'.)."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:63
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:66
 msgid "Create an individual application"
 msgstr "Crear una aplicación individual"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:65
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:68
 msgid ""
 "Create a new application by providing basic information about your "
 "application. After that you use the edit mode to add elements, layers and "
@@ -144,15 +144,15 @@ msgstr ""
 "aplicación. Después, utilice el modo de edición para añadir elementos, capas"
 " y seguridad."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:67
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:70
 msgid "Choose :menuselection:`Applications --> New Application`"
 msgstr "Elija :menuselection:`Aplicaciones --> Nueva aplicación`"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:69
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:72
 msgid "Define a title and description for your application"
 msgstr "Defina un título y una descripción para la aplicación"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:71
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:74
 msgid ""
 "Define an URL title which will be used in the URL to open the application. "
 "It can be the same as the title"
@@ -160,21 +160,21 @@ msgstr ""
 "Defina un título de URL que se utilizará en la dirección URL para abrir la "
 "aplicación. Puede ser el mismo que el título"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:73
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:76
 msgid "Upload an image file as screenshot for the application overview"
 msgstr ""
 "Cargue un archivo de imagen como captura de pantalla para la descripción "
 "general de la aplicación"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:75
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:78
 msgid "Choose a template for your application"
 msgstr "Elija una plantilla para su aplicación"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:77
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:80
 msgid "Choose the button **Create** to create the application"
 msgstr "Elija el botón **Crear** para crear la aplicación"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:79
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:82
 msgid ""
 "Your application is set up. Next you need a WMS to be displayed in your "
 "application."
@@ -182,15 +182,15 @@ msgstr ""
 "La aplicación está configurada. A continuación, necesita que se muestre un "
 "WMS en la aplicación."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:86
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:89
 msgid "Loading Web Map Services"
 msgstr "Cargar Servicios Mapas Web "
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:87
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:90
 msgid "You can load OGC Web Map Services (WMS) to your application."
 msgstr "Puede cargar Servicios de Mapas Web (WMS) de OGC para su aplicación."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:89
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:92
 msgid ""
 "A WMS returns an XML-file when the getCapabilities document is requested. "
 "This information is parsed by Mapbender and Mapbender gets all the necessary"
@@ -200,7 +200,7 @@ msgstr ""
 "solicita. Esta información se analiza por Mapbender y Mapbender obtiene toda"
 " la información necesaria sobre el servicio de este XML"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:91
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:94
 msgid ""
 "You should first check the Capabilities document in your browser before you "
 "try to load it with Mapbender"
@@ -208,7 +208,7 @@ msgstr ""
 "Primero debe verificar el documento Capabilities en su navegador antes de "
 "intentar cargarlo con Mapbender"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:93
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:96
 msgid ""
 "Choose menu item :menuselection:`Services --> Add Service` or use the "
 "+-Button."
@@ -216,7 +216,7 @@ msgstr ""
 "Elija el elemento de menú :menuselection:`Servicios --> Añadir Servicio` o "
 "utilice el botón +."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:95
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:98
 msgid ""
 "Link to the WMS getCapabilities URL in the text field "
 ":menuselection:`Serviceurl`. Here is a example WMS: WhereGroup OSM WMS https"
@@ -228,17 +228,17 @@ msgstr ""
 "https://osm-"
 "demo.wheregroup.com/service?SERVICE=WMS&VERSION=1.3.0&REQUEST=getCapabilities"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:98
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:101
 msgid "Enter username and password if your service needs authentication."
 msgstr ""
 "Introduzca nombre de usuario y contraseña si su servicio requiere "
 "autenticación."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:100
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:103
 msgid "Click **Load** to load the Service to the repository."
 msgstr "Haga clic en **Cargar** para cargar el Servicio en el repositorio."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:105
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:108
 msgid ""
 "After successful registration of the service Mapbender will display an "
 "overview on the information that was provided by the service."
@@ -246,11 +246,11 @@ msgstr ""
 "Después del registro exitoso del servicio de Mapbender se mostrará una Vista"
 " General sobre la información que fue proporcionada por el servicio."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:108
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:111
 msgid "Add Service to Application"
 msgstr "Añadir Servicio a la Aplicación"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:109
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:112
 msgid ""
 "After the successful upload of a WMS you want to add your WMS to an "
 "application."
@@ -258,7 +258,7 @@ msgstr ""
 "Después de la carga exitosa de un WMS usted desea agregar su WMS a una "
 "aplicación."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:111
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:114
 msgid ""
 "Choose :menuselection:`Applications --> edit-Button --> Layers --> Edit-"
 "Button`."
@@ -266,7 +266,7 @@ msgstr ""
 "Elija :menuselection:`Applications --> edit-Button --> Layers --> Edit-"
 "Button`."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:113
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:116
 msgid ""
 "Click on the :menuselection:`+-button` to add a layerset, which represents a"
 " collection of layers (a possible name could be main)"
@@ -275,11 +275,11 @@ msgstr ""
 "que representa una colección de capas (un nombre posible podría ser lo "
 "principal)"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:115
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:118
 msgid "Now you can add layer to the layerset"
 msgstr "Ahora puede añadir capas al conjunto de capas"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:117
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:120
 msgid ""
 "Click on the :menuselection:`+-button` at your new layerset to add a "
 "Service."
@@ -287,11 +287,11 @@ msgstr ""
 "Haga click en  :menuselection:`+-button` en su nuevo conjunto de capas para "
 "agregar un Servicio."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:123
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:126
 msgid "Configure your WMS"
 msgstr "Configure su WMS"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:124
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:127
 msgid ""
 "You can configure the WMS for your specific application. Maybe you don't "
 "want to provide all layers or you want to change the order or titles of the "
@@ -302,7 +302,7 @@ msgstr ""
 " o desactivar la información de la característica o cambiar la escala máxima"
 " de una capa."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:126
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:129
 msgid ""
 "Choose :menuselection:`Applications --> edit-Button --> Layers --> edit-"
 "Button` to configure the Service Instance."
@@ -310,19 +310,19 @@ msgstr ""
 "Elija :menuselection:`Applications --> edit-Button --> Layers --> edit-"
 "Button` para configurar la Instancia de Servicio."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:128
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:131
 msgid "You will see a table with the layers of the Service."
 msgstr "Usted verá una tabla con las capas del Servicio."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:130
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:133
 msgid "You can change the order of the layers via drag & drop."
 msgstr "Puede cambiar el orden de las capas mediante arrastrar y soltar."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:137
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:140
 msgid "Add Elements to your application"
 msgstr "Agregar Elementos a la aplicación"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:138
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:141
 msgid ""
 "Mapbender offers a set of elements. You can add the elements to your "
 "application. You have different regions (Toolbar, Sidepane, Content, Footer)"
@@ -332,7 +332,7 @@ msgstr ""
 "aplicación. Tiene diferentes regiones (Barra de Herramientas, Sidepane, "
 "Contenido, Pie de Página) a las que usted puede agregar elementos."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:143
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:146
 msgid ""
 "Choose :menuselection:`Applications --> edit-Button --> Layers --> Button +`"
 " to get an overview over the elements Mapbender3 provides."
@@ -340,11 +340,11 @@ msgstr ""
 "Elija :menuselection:`Applications --> edit-Button --> Layers --> Button +` "
 "para obtener una Vista General de los elementos que Mapbender3  proporciona "
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:145
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:148
 msgid "Choose an element from the list."
 msgstr "Elija un elemento de la lista."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:147
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:150
 msgid ""
 "Notice that you have different areas in your application. Make sure to add "
 "the element to a region that makes sense."
@@ -352,7 +352,7 @@ msgstr ""
 "Tenga en cuenta que tiene distintas áreas en su aplicación. Asegúrese de "
 "agregar el elemento a una región que haga sentido."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:149
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:152
 msgid ""
 "Configure the element. Notice: When you select an element for example "
 "**map** you see that the element has a set of attributes. Each element "
@@ -362,11 +362,11 @@ msgstr ""
 "**mapa** puede ver que el elemento tiene un conjunto de atributos. Cada "
 "elemento ofrece atributos individuales para la configuración."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:151
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:154
 msgid "You can change the position of the element via drag & drop."
 msgstr "Puede cambiar la posición del elemento mediante arrastrar y soltar."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:153
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:156
 msgid ""
 "Have a look at your application. Open your application from "
 ":menuselection:`Applications --> Applications Overview`"
@@ -374,7 +374,7 @@ msgstr ""
 "Eche un vistazo a su aplicación.  Puede abrirla desde "
 ":menuselection:`Applications --> Applications Overview`"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:155
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:158
 msgid ""
 "Now you should get an idea how easy it is to change a Mapbender application "
 "without changes in the code."
@@ -382,7 +382,7 @@ msgstr ""
 "Ahora usted debe tener una idea de lo fácil que es cambiar una aplicación de"
 " Mapbender sin cambios en el código."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:160
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:163
 msgid ""
 "You find detailed information on every element in the `Mapbender element "
 "documentation <https://doc.mapbender.org/en/functions.html>`_."
@@ -390,71 +390,71 @@ msgstr ""
 "Encontrará información detallada sobre cada elemento de la 'Documentación de"
 " elementos de Mapbender  <https://doc.mapbender.org/en/functions.html>`_."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:164
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:167
 msgid "Things to try"
 msgstr "Cosas para probar "
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:166
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:169
 msgid "add a Map Element to the content of your application"
 msgstr "Añadir un elemento de mapa al contenido de su aplicación"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:167
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:170
 msgid "add a Layertree to the sidepane of your application"
 msgstr "añadir un Layertree al panel lateral de la aplicación"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:168
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:171
 msgid "add a Legend to the sidepane of your application"
 msgstr "añadir una leyenda al panel lateral de la aplicación"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:169
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:172
 msgid "add a print element to the content"
 msgstr "añadir un elemento de impresión al contenido"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:170
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:173
 msgid "add a button that opens the print to the top of your application"
 msgstr ""
 "añadir un botón que abra la impresión en la parte superior de la aplicación"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:171
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:174
 msgid "add the Navigation Toolbar to the content"
 msgstr "Añadir la Barra de Herramientas de Navegación al contenido"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:172
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:175
 msgid "add an overview map to the content"
 msgstr "añadir un mapa de información general al contenido"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:173
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:176
 msgid "add a Copyright and change the copyright text"
 msgstr "Añadir un Copyright y cambiar el texto de derechos de autor"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:174
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:177
 msgid "add a Scales Selector and an SRS Selector to the footer"
 msgstr "añadir un selector de escalas y un selector SRS al pie de página"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:176
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:179
 msgid "Here are some additional challenges for you to try:"
 msgstr "Aquí están algunos retos adicionales para que los pruebe:"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:178
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:181
 msgid "Try to load some WMS in your application. Try to configure your WMS."
 msgstr ""
 "Intente cargar algunos WMS en su aplicación. Intente configurar su WMS."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:180
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:183
 msgid "Try to create an individual application."
 msgstr "Intentar crear una aplicación individual."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:182
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:185
 msgid ""
 "Create users and groups, and assign an application to the new users/groups."
 msgstr ""
 "Cree usuarios y grupos y asigne una aplicación a los nuevos usuarios/grupos."
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:186
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:189
 msgid "What Next?"
 msgstr "¿Qué sigue?"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:188
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:191
 msgid ""
 "This is only the first step on the road to using Mapbender. There is a lot "
 "more functionality you can try."
@@ -462,15 +462,15 @@ msgstr ""
 "Esto es sólo el primer paso en el camino al uso de Mapbender. Hay mucha más "
 "funcionalidad que puede probar. "
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:190
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:193
 msgid "Mapbender Website https://mapbender.org/"
 msgstr "Sitio web de Mapbender https://mapbender.org/"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:192
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:195
 msgid "You can find tutorials at https://doc.mapbender.org"
 msgstr "Puede encontrar tutoriales en https://doc.mapbender.org"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:194
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:197
 msgid ""
 "You can find an extended tutorial at "
 "https://doc.mapbender.org/en/quickstart.html"
@@ -478,6 +478,6 @@ msgstr ""
 "Puede encontrar un tutorial extendido en "
 "https://doc.mapbender.org/en/quickstart.html"
 
-#: ../../build/doc/quickstart/mapbender_quickstart.rst:196
+#: ../../build/doc/quickstart/mapbender_quickstart.rst:199
 msgid "Get involved in the project https://mapbender.org/community/"
 msgstr "Participe en el proyecto https://mapbender.org/community/"
