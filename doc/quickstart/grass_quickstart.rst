@@ -60,6 +60,7 @@ Display a map
   :scale: 50 %
   :alt: screenshot
   :align: left
+  
 
 #. Once inside, select for display the raster map layer "`elevation`" from the PERMANENT mapset. 
 #. Go into the `GIS Layer Manager` window. 
@@ -114,7 +115,7 @@ Create a shaded relief map
   :alt: screenshot
   :align: right
 
-Next we'll create a shaded relief map of the "`elevation`" layer we saw
+Next we'll create a shaded relief map of the `elevation` layer we saw
 earlier. Start by verifying that the *computational region* is set match
 the raster map of interest, "`elevation`" in the PERMANENT mapset. To
 do this, make sure it is loaded into the layer list of the main `GIS Layer
