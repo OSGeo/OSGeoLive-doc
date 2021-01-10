@@ -43,16 +43,16 @@ You can start with simple arithmetic.
 
 ::
 
-   > 3*2
+   3*2
    [1] 6
 
-   > 1 + 2 * 3 / 4
+   1 + 2 * 3 / 4
    [1] 2.5
 
-   > sqrt(2)
+   sqrt(2)
    [1] 1.414214
 
-   > pi * exp(-1)
+   pi * exp(-1)
    [1] 1.155727
 
 
@@ -66,7 +66,7 @@ forget a closing bracket or parenthesis.
 
 ::
 
-   > sqrt(
+   sqrt(
    + 2
    + )
    [1] 1.414214
@@ -83,7 +83,7 @@ generate these things. Here's a simple sequence:
 
 ::
 
-    > seq(1, 5, len=10)
+    seq(1, 5, len=10)
     [1] 1.000000 1.444444 1.888889 2.333333 2.777778 3.222222 3.666667 4.111111
     [9] 4.555556 5.000000
 
@@ -94,8 +94,8 @@ If you construct a matrix you get row and column labels:
 
 ::
 
-	> m = matrix(1:12, 3, 4)
-	> m
+	m = matrix(1:12, 3, 4)
+	m
 	     [,1] [,2] [,3] [,4]
 	[1,]    1    4    7   10
 	[2,]    2    5    8   11
@@ -107,13 +107,13 @@ index to get multiple rows or columns as a smaller matrix:
 
 ::
 
-	> m[2,4]
+	m[2,4]
 	[1] 11
 
-	> m[2,]
+	m[2,]
 	[1]  2  5  8 11
 
-	> m[,3:4]
+	m[,3:4]
 	     [,1] [,2]
 	[1,]    7   10
 	[2,]    8   11
@@ -129,8 +129,8 @@ using $-notation:
 
 ::
 
-	> d = data.frame(x=1:10, y=1:10, z=runif(10)) # z is 10 random numbers
-	> d
+	d = data.frame(x=1:10, y=1:10, z=runif(10)) # z is 10 random numbers
+	d
 	        x  y          z 
 	    1   1  1 0.44128080 
 	    2   2  2 0.09394331 
@@ -143,12 +143,12 @@ using $-notation:
 	    9   9  9 0.24004866 
 	    10 10 10 0.35972749 
 
-	> d$z
+	d$z
 	 [1] 0.44128080 0.09394331 0.51097462 0.82683828 0.21826740 0.65600533
 	 [7] 0.59798278 0.19003625 0.24004866 0.35972749
 
-	> d$big = d$z > 0.6  # d$big is now a boolean true/false value
-	> d[1:5,]
+	d$big = d$z > 0.6  # d$big is now a boolean true/false value
+	d[1:5,]
 	  x y          z   big
 	1 1 1 0.44128080 FALSE
 	2 2 2 0.09394331 FALSE
@@ -156,8 +156,8 @@ using $-notation:
 	4 4 4 0.82683828  TRUE
 	5 5 5 0.21826740 FALSE
 
-	> d$name = letters[1:10] # create a new field of characters
-	> d[1:5,]
+	d$name = letters[1:10] # create a new field of characters
+	d[1:5,]
 	  x y          z   big name
 	  1 1 1 0.44128080 FALSE    a
 	  2 2 2 0.09394331 FALSE    b
@@ -179,12 +179,12 @@ functionality:
 
 ::
 
-	> library(sf) 		# Simple Features manipulation Library
-	> library(ggplot2)	# Plotting library
+	library(sf) 		# Simple Features manipulation Library
+	library(ggplot2)	# Plotting library
 
-	> countries <- st_read(dsn = "~/data/natural_earth2/ne_10m_admin_0_countries.shp")
-	> places <- st_read(dsn = "~/data/natural_earth2/ne_10m_populated_places.shp")
-	> ggplot(countries) + geom_sf()
+	countries <- st_read(dsn = "~/data/natural_earth2/ne_10m_admin_0_countries.shp")
+	places <- st_read(dsn = "~/data/natural_earth2/ne_10m_populated_places.shp")
+	ggplot(countries) + geom_sf()
 
 This gives us a simple map of the world:
 
@@ -196,8 +196,8 @@ field to subset the world data and just get the UK:
 
 ::
 
-	> uk <- countries[countries$admin == 'United Kingdom',]
-	> ggplot(uk) + geom_sf()
+	uk <- countries[countries$admin == 'United Kingdom',]
+	ggplot(uk) + geom_sf()
 
 .. image:: /images/projects/R/r_plot2.png
 
@@ -211,8 +211,8 @@ to EPSG:27700 which is the Ordnance Survey of Great Britain grid system:
 
 ::
 
-	> ukos <- st_transform(uk,27700)
-	> ggplot(ukos) + geom_sf()
+	ukos <- st_transform(uk,27700)
+	ggplot(ukos) + geom_sf()
 
 .. image:: /images/projects/R/r_plot2_1.png
 
@@ -222,8 +222,8 @@ Ordnance Survey Grid Reference coordinates:
 
 ::
 
-	> ukpop <- places[places$SOV0NAME == 'United Kingdom',]
-	> ukpop <- st_transform(ukpop,27700)
+	ukpop <- places[places$SOV0NAME == 'United Kingdom',]
+	ukpop <- st_transform(ukpop,27700)
 
 
 We add these points to the base map, scaling their size by scaled square root of the 
@@ -232,18 +232,18 @@ colour to red and the plotting character to a solid blob:
 
 ::
 
-    > ggplot() + 
-    > 	geom_sf(data = ukos) + 								# add UK shape to the map
-    > 	geom_sf(data = ukpop, 								# add the Populated places
-    > 	        aes(size = ukpop$POP_MAX/100000), 			# fix size of points (by area)
-    > 	        colour = 'red', alpha = 1/5) + 				# set points colour and transparency
-    > 	coord_sf(crs = 27700, datum= sf::st_crs(27700), 	# set a bounding box
-    > 	         xlim = st_bbox(ukos[c(1,3)]),				# for the map	
-    > 	         ylim = st_bbox(ukos[c(2,4)])
-    > 	        ) +
-    > 	ggtitle('Uk Population centre sizes') + 			# set the map title
-    > 	    theme(legend.position = 'bottom') +				# Legend position
-    >		scale_size_area(name = 'Population \nin 100K')	# 0 value means 0 area + legend title 
+    ggplot() + 
+    	geom_sf(data = ukos) + 								# add UK shape to the map
+    	geom_sf(data = ukpop, 								# add the Populated places
+    	        aes(size = ukpop$POP_MAX/100000), 			# fix size of points (by area)
+    	        colour = 'red', alpha = 1/5) + 				# set points colour and transparency
+    	coord_sf(crs = 27700, datum= sf::st_crs(27700), 	# set a bounding box
+    	         xlim = st_bbox(ukos)[c(1,3)],				# for the map	
+    	         ylim = st_bbox(ukos)[c(2,4)]
+    	        ) +
+    	ggtitle('Uk Population centre sizes') + 			# set the map title
+    	    theme(legend.position = 'bottom') +				# Legend position
+    	scale_size_area(name = 'Population \nin 100K')	# 0 value means 0 area + legend title 
  
 
 and our final image appears:
