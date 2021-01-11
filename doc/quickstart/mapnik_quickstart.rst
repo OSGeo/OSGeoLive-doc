@@ -1,8 +1,10 @@
 :Author: OSGeoLive
 :Author: Dane Springmeyer
+:Author: Astrid Emde
 :Reviewer: Angelos Tzotsos, OSGeo
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
-:Version: osgeolive13.0
+:Reviewer: Astrid Emde
+:Version: osgeolive14.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_mapnik@
@@ -26,36 +28,41 @@ Mapnik & Python
 
 Mapnik and its python bindings are installed and ready to be used for scripting on this machine.
 
-Creating maps in python is easy with Mapnik. Open a terminal window and type `python` on the command line to enter a python interpreter. Then try this::
+Creating maps in python is easy with Mapnik. Open a terminal window and type `python3` on the command line to enter a python interpreter. Then try this::
 
     >>> import mapnik, os
     >>> m = mapnik.Map(600,400)
-    >>> style = '/usr/local/share/mapnik/demo/population.xml'
+    >>> style = '/usr/local/share/mapnik/world_population.xml'
     >>> mapnik.load_map(m,style)
     >>> m.zoom_all()
-    >>> mapnik.render_to_file(m,'map.png')
-    >>> os.system('xdg-open map.png')
+    >>> mapnik.render_to_file(m,'world_population.png')
+    >>> os.system('xdg-open world_population.png')
 
 
 .. note::
     
-      The above code depends on having an XML stylesheet that Mapnik can read, defining the layers
-      to read data from and the styles to apply to those layers. You can create one of these inside QGIS
-      with the Quantumnik plugin: https://plugins.qgis.org/plugins/quantumnik/
+      The above code depends on having an XML stylesheet that Mapnik can read (world_population.xml), defining the layers
+      to read data from and the styles to apply to those layers.
 
 
-Mapnik & Leaflet
-================
+Mapnik & MapProxy
+=================
 
-A basic demo application is available which highlights using Mapnik to serve tiles into an OpenLayers web map in the OSM/Google tile scheme.
+A basic demo application is available which demonstrates using Mapnik with MapProxy
 
-The demo uses a tileserver designed for Mapnik called "TileStache". Visit the TileStache website for more information: http://tilestache.org/
+The demo uses the world_population.xml from the Mapnik demo. 
 
-#. Click :menuselection:`Desktop --> Spatial Tools --> Start Mapnik & TileStache`. The server starts in a terminal window (which stays open and outputs basic debugging information).
+#. Click :menuselection:`Geospatial --> Web Services --> MapProxy --> Start MapProxy`. The server starts in a terminal window (which stays open and outputs basic debugging information).
 
-#. Check that the server is working by requesting a tile from the server. Click this link http://localhost:8012/example/0/0/0.png and observe the output in the server terminal window. 
+#. Open the MapProxy demo application http://0.0.0.0:8011/demo/
 
-#. Visit the Leaflet demo application page `http://localhost/leaflet-demo.html <../../../leaflet-demo.html>`_.
+#. You find the world population demo by Mapnik as a WMS layer and also the wolrd population in combination with a the GeoServer layer topp:states (make sure GeoServer is running)
+
+
+#. You can usethe MapProxy WMS in other applications f.e in QGIS or in Mapbender (http://localhost/mapbender/application/mapbender_user).
+ 
+
+#. Observe the output in the server terminal window.
 
 
 What next?
