@@ -42,6 +42,7 @@ Quick Starts
   Run OSGeoLive in a Virtual Machine <quickstart/virtualization_quickstart>
   Create an OSGeoLive bootable USB thumb drive <quickstart/usb_quickstart>
   Running in a Hyper-V Virtual Machine <quickstart/hyperv_quickstart>
+  Command Line basics <quickstart/commandline_quickstart>
 
 .. toctree::
   :hidden:
