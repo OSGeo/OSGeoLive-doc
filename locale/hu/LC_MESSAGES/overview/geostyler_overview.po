@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Vicky Vergara <vicky@georepublic.de>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:08-0500\n"
+"PO-Revision-Date: 2020-10-21 15:59+0000\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/geostyler_overview.rst:18
+msgid "GeoStyler"
+msgstr "GeoStyler"
+
+#: ../../build/doc/overview/geostyler_overview.rst:20
+msgid ""
+"GeoStyler is an Open Source JavaScript library that enables users to style "
+"maps with the help of a Graphical User Interface. The goal of GeoStyler is a"
+" universally applicable GUI that works with any given style format; be it "
+"SLD, QML, OpenLayers, etc."
+msgstr ""
+"A GeoStyler egy JavaScript könyvtár, mely lehetővé teszi a térképek "
+"stílusának beállítását egy grafikus felhasználói felület segítségével. A "
+"GeoStyler célja egy általánosan használható GUI, mely bármilyen stílus "
+"formátummal dolgozik, legyen az SLD, QML, OpenLayers, stb."
+
+#: ../../build/doc/overview/geostyler_overview.rst:23
+msgid ""
+"GeoStyler provides a set of UI Components for map styling. Just like a "
+"modular building block system all components can be stacked together to "
+"create a nice UI for your web applications. To simplify the setup, we also "
+"provide some high-level components (based on our building blocks) that "
+"already do the work for you. These include, among many others, Symbolizer "
+"Editors, RuleTables and a fully-fledged StyleEditor including filters and "
+"scale denominators."
+msgstr ""
+"A GeoStyler az UI komponensek egy halmazát biztosítja a térkép stílus "
+"beállításhoz. Mint egy moduláris építőkocka rendszer, minden komponens "
+"egymásra építhető, hogy a webes alkalmazásaihoz szép UI-t készítsen. A "
+"beállítás egyszerűsítése érdekében néhány magas szintű összetevőt is "
+"kínálunk (építőkockáinkra alapozva), amelyek már elvégzik az Ön munkáját. "
+"Ide tartozik többek között a Symbolizer Editors, a RuleTables és a teljes "
+"értékű StyleEditor, amely szűrőket és méretarányszámokat tartalmaz."
+
+#: ../../build/doc/overview/geostyler_overview.rst:28
+msgid ""
+"Furthermore, GeoStyler allows for the translation between multiple styling "
+"formats, i.e. SLD, OpenLayers, QGIS, Mapbox. Since we are following the "
+"concept of micro packages, these translators (we call them parsers) can be "
+"used as standalone libraries, without the need to include the UI components "
+"as a dependency. Currently we have parsers for SLD, QGIS-styles, Mapbox "
+"styles and OpenLayers styles. Parsing of Mapfiles is in the works. Please "
+"take a look at StyleParser Implementations. Since attributively styling "
+"geodata is easier when you can look at the data to be styled, we can connect"
+" to several datasources like WFS, Shapefiles and GeoJSON files. We plan on "
+"developing a data reader for the Geopackage format."
+msgstr ""
+"Továbbá, a GeoStyler lehetővé teszi a fordítás több stílus formátum között, "
+"pl. SLD, OpenLayers, QGIS, Mapbox. Mivel a mikrocsomag koncepciót követjük, "
+"ezek a fordítók (értelmezőknek nevezzük őket) önálló könyvtárakként "
+"használhatók, anélkül, hogy a felhasználói felület összetevőit függőségként "
+"kellene feltüntetni. Jelenleg SLD, QGIS-stílus, Mapbox stílus és OpenLayers "
+"stílus értelmezővel rendelkezünk. A Mapfiles értelmező készítése folyamatban"
+" van. Kérjük, vessen egy pillantást StyleParser megvalósításokra. Mivel az "
+"attribútumok alapján történő stílus beállítás  egyszerűbb, ha vethet egy "
+"pillantás az adatokra hozzárendelése könnyebb,  több adatforráshoz tudunk "
+"csatlakozni, mint a WFS, Shapefiles és GeoJSON fájlok. Azt tervezzük, hogy a"
+" fejlesztünk egy adat beolvasót a Geopackage formátumhoz."
+
+#: ../../build/doc/overview/geostyler_overview.rst:42
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/geostyler_overview.rst:43
+msgid "Generic - not bound to one format only"
+msgstr "Általános - nem csak egy formátumot kezel"
+
+#: ../../build/doc/overview/geostyler_overview.rst:44
+msgid "Supports common formats (e.g. SLD, QGIS) already out of the box"
+msgstr "Támogatja az elterjedt formátumokat (pl. SLD, QGIS)"
+
+#: ../../build/doc/overview/geostyler_overview.rst:45
+msgid ""
+"Graphical User Interface (GUI) including support for reordering of rules, a "
+"mapview, pickers for colors and symbols and a ton more"
+msgstr ""
+"Grafikus felhasználói felület (GUI), beleértve a szabályok átrendezésének "
+"támogatását, a térkép megjelenítést, a szín és szimbólum kiválasztó és még "
+"egy tonnával több"
+
+#: ../../build/doc/overview/geostyler_overview.rst:46
+msgid "Has a GUI - but you are not required to use it"
+msgstr "GUI-val rendelkezik - de nem szükséges, hogy használja"
+
+#: ../../build/doc/overview/geostyler_overview.rst:47
+msgid "Extensible - you're invited to build your own data readers or parsers"
+msgstr ""
+"Bővíthető - kérjük készítse el saját adat beolvasóját vagy értelmezőjét"
+
+#: ../../build/doc/overview/geostyler_overview.rst:48
+msgid ""
+"Continues to grow - we are planning new features (like a commandline "
+"interface, more parsers etc.) and small improvements"
+msgstr ""
+"Tovább bővül - új funkciókat tervezünk (mint például egy parancssori "
+"felület, több értelmező stb.) és kisebb fejlesztéseket"
+
+#: ../../build/doc/overview/geostyler_overview.rst:51
+msgid "Implemented Standards"
+msgstr "Implementált szabványok"
+
+#: ../../build/doc/overview/geostyler_overview.rst:53
+msgid "|FE|"
+msgstr "|FE|"
+
+#: ../../build/doc/overview/geostyler_overview.rst:54
+msgid "Geographic JSON (GeoJSON)"
+msgstr "Geographic JSON (GeoJSON)"
+
+#: ../../build/doc/overview/geostyler_overview.rst:55
+msgid "|OGC|"
+msgstr "|OGC|"
+
+#: ../../build/doc/overview/geostyler_overview.rst:56
+msgid "|SLD|"
+msgstr "|SLD|"
+
+#: ../../build/doc/overview/geostyler_overview.rst:57
+msgid "|WFS|"
+msgstr "|WFS|"
+
+#: ../../build/doc/overview/geostyler_overview.rst:58
+msgid "|WMS|"
+msgstr "|WMS|"
+
+#: ../../build/doc/overview/geostyler_overview.rst:62
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/geostyler_overview.rst:64
+msgid "**Website:** https://geostyler.org"
+msgstr "**Honlap:** https://geostyler.org"
+
+#: ../../build/doc/overview/geostyler_overview.rst:66
+msgid "**Licence:** BSD-2-Clause"
+msgstr "**Licenc:** BSD-2-Clause"
+
+#: ../../build/doc/overview/geostyler_overview.rst:68
+msgid "**Software Version:** |version-geostyler|"
+msgstr "**Szoftver verzió:** |version-geostyler|"
+
+#: ../../build/doc/overview/geostyler_overview.rst:70
+msgid "**API Interfaces:** JavaScript"
+msgstr "**API interfész:** JavaScript"
+
+#: ../../build/doc/overview/geostyler_overview.rst:72
+msgid "**Support:** Issues on https://github.com/geostyler/geostyler"
+msgstr ""
+"**Támogatás:** problémák a https://github.com/geostyler/geostyler oldalon"
+
+#: ../../build/doc/overview/geostyler_overview.rst:74
+msgid ""
+"**Developers:** https://github.com/geostyler/geostyler/graphs/contributors"
+msgstr ""
+"**Fejlesztők:** https://github.com/geostyler/geostyler/graphs/contributors"
+
+#: ../../build/doc/overview/geostyler_overview.rst:80
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/geostyler_overview.rst:82
+msgid ":doc:`Quickstart documentation <../quickstart/geostyler_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/geostyler_quickstart>`"

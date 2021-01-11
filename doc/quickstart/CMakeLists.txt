@@ -6,6 +6,7 @@ set (LOCAL
     "hyperv_quickstart.rst"
     "virtualization_quickstart.rst"
     "usb_quickstart.rst"
+    "commandline_quickstart.rst"
     )
 
 #---------------------------------------------

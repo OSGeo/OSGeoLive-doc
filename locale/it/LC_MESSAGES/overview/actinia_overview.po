@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Luca Delucchi <lucadeluge@gmail.com>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2019-07-18 21:56+0000\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/actinia_overview.rst:15
+msgid "Actinia"
+msgstr "Actinia"
+
+#: ../../build/doc/overview/actinia_overview.rst:18
+msgid "High Performance Geospatial Processing"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:20
+msgid ""
+"`Actinia <https://actinia.mundialis.de/>`__ is an open source REST API for "
+"scalable, distributed, high performance processing of geographical data that"
+" uses `GRASS GIS <https://grass.osgeo.org/>`__ for computational tasks."
+msgstr ""
+"`Actinia <https://actinia.mundialis.de/>`__ è una REST API a codice aperto "
+"per il processamento scalabile, distribuito ad alte performance di da "
+"geografici che usa `GRASS GIS <https://grass.osgeo.org/>`__ per i compiti "
+"computazionali. "
+
+#: ../../build/doc/overview/actinia_overview.rst:25
+msgid ""
+"It provides a REST API to process satellite images, time series of satellite"
+" images, arbitrary raster data with geographical relations and vector data."
+msgstr ""
+"Fornisce un REST API per processare immagini satellitari, serie temporali di"
+" immagini satellitari, qualsiasi raster con relazione geografica e dati "
+"vettoriali. "
+
+#: ../../build/doc/overview/actinia_overview.rst:36
+msgid "Core Features"
+msgstr "Caratteristiche principali"
+
+#: ../../build/doc/overview/actinia_overview.rst:38
+msgid ""
+"REST API to process satellite images, time series of satellite images, "
+"raster and vector data."
+msgstr ""
+"API REST per processare immagini satellitari, serie temporali di immagini "
+"satellitari, dati raster e vettoriali."
+
+#: ../../build/doc/overview/actinia_overview.rst:39
+msgid "Explore the `tutorial <https://actinia.mundialis.de/tutorial/>`_."
+msgstr "Visualizza il `turorial <https://actinia.mundialis.de/tutorial/>`_."
+
+#: ../../build/doc/overview/actinia_overview.rst:42
+msgid "Details"
+msgstr "Dettagli"
+
+#: ../../build/doc/overview/actinia_overview.rst:44
+msgid "**Website:** https://actinia.mundialis.de/"
+msgstr "**Sito web:** https://actinia.mundialis.de/"
+
+#: ../../build/doc/overview/actinia_overview.rst:46
+msgid "**Licence:** GNU General Public License (GPL) version 3"
+msgstr "**Licenza:** GNU General Public License (GPL) versione 3"
+
+#: ../../build/doc/overview/actinia_overview.rst:48
+msgid "**Software Version:** |version-actinia|"
+msgstr "**Versione Software:** |version-actinia|"
+
+#: ../../build/doc/overview/actinia_overview.rst:50
+msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
+msgstr "**Piattaforme supportate:** GNU/Linux, Mac OSX, MS Windows"
+
+#: ../../build/doc/overview/actinia_overview.rst:52
+msgid "**API Interfaces:** REST API, Python"
+msgstr "**Interfacce API:** REST API, Python"
+
+#: ../../build/doc/overview/actinia_overview.rst:54
+msgid "**API documentation:** https://actinia.mundialis.de/api_docs/"
+msgstr "**Documentazione delle API:** https://actinia.mundialis.de/api_docs/"
+
+#: ../../build/doc/overview/actinia_overview.rst:56
+msgid "**Support:** https://github.com/mundialis/actinia_core"
+msgstr "**Supporto:** https://github.com/mundialis/actinia_core"
+
+#: ../../build/doc/overview/actinia_overview.rst:61
+msgid "Quickstart"
+msgstr "Guida rapida"
+
+#: ../../build/doc/overview/actinia_overview.rst:63
+msgid ":doc:`Quickstart documentation <../quickstart/actinia_quickstart>`"
+msgstr ":doc:`Guida rapida <../quickstart/actinia_quickstart>`"
