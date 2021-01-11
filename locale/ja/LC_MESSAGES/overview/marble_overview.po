@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:08+0000\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/marble_overview.rst:18
+msgid "Marble"
+msgstr "Marble"
+
+#: ../../build/doc/overview/marble_overview.rst:21
+msgid "Virtual globe and world atlas"
+msgstr "バーチャル地球儀と世界地図"
+
+#: ../../build/doc/overview/marble_overview.rst:23
+msgid ""
+"Marble is an open source KDE Education Project program similar to `NASA "
+"World Wind <https://worldwind.arc.nasa.gov/java/>`_ or Google Earth. Besides"
+" choosing any number of maps to view on your globe (including "
+"`OpenStreetMaps <https://www.openstreetmap.org>`_), you are encouraged to "
+"include a KDE Marble widget in your application."
+msgstr ""
+"Marbleは「NASA World Wind<https://worldwind.arc.nasa.gov/java/>」やGoogle "
+"Earthに似たオープンソースのKDE Education Projectプログラムです。地球儀に表示する(`OpenStreetMaps "
+"<https://www.openstreetmap.org>`_ を含む)マップをいろいろ選択するだけでなく、アプリケーションにKDE "
+"Marbleウィジェットを含めることをお勧めします。"
+
+#: ../../build/doc/overview/marble_overview.rst:29
+msgid ""
+"Explore the neighborhood with Marble's rich set of city and street level "
+"maps. Search for addresses and places of interest. Marble takes care of "
+"querying various search backends and presents their results in a unified "
+"view. Calculate pedestrian, bike and motorcar routes with ease - online and "
+"offline, with an arbitrary number of via points."
+msgstr ""
+"Marbleの都市および街路レベルマップの豊富なセットを使用して、周辺を探索します。住所と名所を検索します。Marbleはさまざまな検索バックエンドをクエリーし、その結果を統一されたビューで表示します。任意の数の経由ポイントを使用して、オンラインとオフラインで、歩行者、自転車、自動車のルートを簡単に計算できます。"
+
+#: ../../build/doc/overview/marble_overview.rst:35
+msgid ""
+"Start exploring the world. View clouds and sun shadow, follow satellites and"
+" space stations and display their orbits, all updated in real-time. Travel "
+"back in time and learn about historic views of our planet using maps from "
+"past centuries. Earth is not enough? Marble also offers maps of the moon and"
+" other planets."
+msgstr ""
+"世界を探検しよう。雲や太陽の影を表示したり、衛星や宇宙ステーションを追跡したり、それらの軌道を表示したりします。これらはすべてリアルタイムで更新されます。昔に戻り、過去数世紀の地図を使って、私たちの惑星の歴史的な眺めについて学びましょう。地球だけでは十分じゃない?Marbleは月や他の惑星の地図も提供しています。"
+
+#: ../../build/doc/overview/marble_overview.rst:48
+msgid "Core Features"
+msgstr "主要機能"
+
+#: ../../build/doc/overview/marble_overview.rst:50
+msgid "Virtual Globe And World Atlas"
+msgstr "バーチャル地球儀と世界地図"
+
+#: ../../build/doc/overview/marble_overview.rst:51
+msgid "Easy to use"
+msgstr "使いやすい"
+
+#: ../../build/doc/overview/marble_overview.rst:52
+msgid "A great solution for the geography lessons"
+msgstr "地理の学習に最適なソリューション"
+
+#: ../../build/doc/overview/marble_overview.rst:53
+msgid ""
+"Map Presentation (Atlas View, Street Maps, Satellite Maps, Topographic Maps,"
+" Educational Maps)"
+msgstr "地図表示(地図帳、街路図、衛星地図、地形図、教育用地図)"
+
+#: ../../build/doc/overview/marble_overview.rst:54
+msgid "Navigate globe in 3D"
+msgstr "地球儀を3Dでナビゲートする"
+
+#: ../../build/doc/overview/marble_overview.rst:55
+msgid "3 different projections are available (3D Globe, Flat Map, Mercator)"
+msgstr "3種類の投影を使用できます(3D地球儀、平面図、メルカトル)。"
+
+#: ../../build/doc/overview/marble_overview.rst:56
+msgid ""
+"Information layers (Weather, Real-time clouds, Day/Night View, Real-time "
+"Satellites, Wikipedia Articles, Photos, Postal Codes, Earthquakes)"
+msgstr "情報レイヤー(天気、リアルタイム・クラウド、昼/夜ビュー、リアルタイム衛星、ウィキペディアの記事、写真、郵便番号、地震)"
+
+#: ../../build/doc/overview/marble_overview.rst:57
+msgid "Search (Online address search, Online POI search)"
+msgstr "検索(オンライン住所検索、オンラインPOI検索)"
+
+#: ../../build/doc/overview/marble_overview.rst:58
+msgid ""
+"Positioning & Tracking (GPS and WLAN localization, Track export in KML)"
+msgstr "Positioning&Tracking(GPSとWLANのローカリゼーション、KMLでのトラックエクスポート)"
+
+#: ../../build/doc/overview/marble_overview.rst:59
+msgid ""
+"Routing & Navigation (Voice navigation, Online motorcar routing, Online bike"
+" routing, Online pedestrian routing, Offline routing optional download, "
+"Turn-by-turn navigation)"
+msgstr ""
+"ルーティングとナビゲーション(音声ナビゲーション、オンラインでの自動車のルーティング、オンラインでの自転車のルーティング、オンラインでの歩行者のルーティング、オフラインでのルーティング(オプション)のダウンロード、曲がり角ごとのナビゲーション)"
+
+#: ../../build/doc/overview/marble_overview.rst:60
+msgid "Interactive KML tours (Creating, editing, viewing)"
+msgstr "インタラクティブなKMLツアー(作成、編集、表示)"
+
+#: ../../build/doc/overview/marble_overview.rst:61
+msgid ""
+"Integration with many online services (Amateur Radio Aprs, OpenCaching.com, "
+"etc.)"
+msgstr "多くのオンラインサービス(Amateur Radio Aprs、OpenCaching.comなど)との統合"
+
+#: ../../build/doc/overview/marble_overview.rst:62
+msgid "WMS & TMS support"
+msgstr "WMSとTMSのサポート"
+
+#: ../../build/doc/overview/marble_overview.rst:63
+msgid "Tools (Distance Measurement, Bookmarks, Time Simulation, Offline Mode)"
+msgstr "ツール(距離測定、ブックマーク、時間シミュレーション、オフラインモード)"
+
+#: ../../build/doc/overview/marble_overview.rst:64
+msgid "`OpenStreetMap <https://www.openstreetmap.org>`_ integration"
+msgstr "`OpenStreetMap <https://www.openstreetmap.org>`_ 統合"
+
+#: ../../build/doc/overview/marble_overview.rst:68
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/marble_overview.rst:70
+msgid "**Website:** https://marble.kde.org/"
+msgstr "**Webサイト:** https://marble.kde.org/"
+
+#: ../../build/doc/overview/marble_overview.rst:72
+msgid "**Licence:** GNU Lesser General Public License (LGPL) version 2.1"
+msgstr "**ライセンス:** GNU Lesser General Public License (LGPL) version 2.1"
+
+#: ../../build/doc/overview/marble_overview.rst:74
+msgid "**Software Version:** |version-marble|"
+msgstr "**ソフトウエアバージョン:** |version-marble|"
+
+#: ../../build/doc/overview/marble_overview.rst:76
+msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows, Maemo 5"
+msgstr "**対応プラットフォーム:** GNU/Linux, Mac OSX, MS Windows, Maemo 5"
+
+#: ../../build/doc/overview/marble_overview.rst:78
+msgid "**API Interfaces:** Qt designer, C++, Python, D-BUS, Shell script"
+msgstr "**API インターフェイス:** Qt designer, C++, Python, D-BUS, Shell script"
+
+#: ../../build/doc/overview/marble_overview.rst:80
+msgid "**Support:** https://techbase.kde.org/Projects/Marble"
+msgstr "**サポート:** https://techbase.kde.org/Projects/Marble"
+
+#: ../../build/doc/overview/marble_overview.rst:82
+msgid "**More Info:** https://www.slideshare.net/marbleglobe/marble-1-6en"
+msgstr "**詳細情報:** https://www.slideshare.net/marbleglobe/marble-1-6en"
+
+#: ../../build/doc/overview/marble_overview.rst:88
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/marble_overview.rst:90
+msgid ":doc:`Quickstart documentation <../quickstart/marble_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/marble_quickstart>`"
