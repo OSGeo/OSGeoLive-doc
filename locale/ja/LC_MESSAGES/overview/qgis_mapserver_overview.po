@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# MarPetra <mvergaratrejo@gmail.com>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:09+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:14
+msgid "QGIS Server"
+msgstr "QGISサーバー"
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:17
+msgid "Web Service"
+msgstr "Web サービス"
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:19
+msgid ""
+"QGIS Server provides web map and feature services (WMS & WFS) using the same"
+" libraries as the GIS (QGIS) desktop application. Maps and print templates "
+"created in QGIS desktop can be published as web maps simply by copying the "
+"QGIS project file into the server directory. The resulting web maps look "
+"exactly the same as in the desktop. QGIS Server is usually run as "
+"CGI/FastCGI module within the Apache Webserver."
+msgstr ""
+"QGISサーバは、GIS(QGIS)デスクトップアプリケーションと同じライブラリを使用して、Webマップおよびフィーチャサービス(WMS & "
+"WFS)を提供します。QGISのデスクトップで作成されたマップと印刷テンプレートは、QGISプロジェクトファイルをサーバディレクトリにコピーするだけで、Webマップとしてパブリッシュできます。作成されるWebマップは、デスクトップとまったく同じように表示されます。QGISサーバーは通常、Apache"
+" Webserver内でCGI/FastCGIモジュールとして実行されます。"
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:30
+msgid "Core Features"
+msgstr "主要機能"
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:32
+msgid "Web Map Service (WMS) - images"
+msgstr "Web Map Service(WMS):イメージ"
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:33
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:45
+msgid "OGC Web Map Tile Service (WMTS) 1.0.0"
+msgstr "OGC Web Map Tile Service (WMTS) 1.0.0"
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:34
+msgid "Web Feature Service (WFS) - vectors"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:35
+msgid "Built-in PDF output"
+msgstr "組み込みのPDF出力"
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:36
+msgid "WYSIWYG map creation with QGIS"
+msgstr "QGISを使用したWYSIWYGマップの作成"
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:37
+msgid "Advanced cartographic symbolisation"
+msgstr "高度な地図記号"
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:38
+msgid "Supports Styled Layer Descriptor (SLD)"
+msgstr "Styled Layer Descriptor (SLD)をサポート"
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:39
+msgid "Extra parameters like f.e. FILTER, SELECTION, DPI"
+msgstr "f.e.などの追加パラメータFILTER, SELECTION, DPI"
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:42
+msgid "Implemented Standards"
+msgstr "実装されている標準規格"
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:44
+msgid "OGC Web Map Service (WMS) 1.1.1 and 1.3.0"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:46
+msgid ""
+"OGC Web Feature Service (WFS) 1.0.0 and Transactional WFS (WFS-T) 1.0.0"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:47
+msgid "OGC Web Coverage Service (WCS)"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:48
+msgid "OGC Styled Layer Descriptor (SLD) 1.0"
+msgstr ""
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:51
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:53
+msgid "**Website:** https://www.qgis.org/en/site/"
+msgstr "**Webサイト:** https://www.qgis.org/en/site/"
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:55
+msgid "**Licence:** GPL"
+msgstr "**ライセンス:** GPL"
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:57
+msgid "**Software Version:** |version-qgis_mapserver|"
+msgstr "**ソフトウエアバージョン:** |version-qgis_mapserver|"
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:59
+msgid "**Supported Platforms:** Windows, Linux"
+msgstr "**対応プラットフォーム:** Windows, Linux"
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:61
+msgid ""
+"**Commercial Support:** "
+"https://www.qgis.org/en/site/forusers/commercial_support.html"
+msgstr ""
+"**商用サポート:** https://www.qgis.org/en/site/forusers/commercial_support.html"
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:67
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:69
+msgid ""
+":doc:`Quickstart documentation <../quickstart/qgis_mapserver_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/qgis_mapserver_quickstart>`"
