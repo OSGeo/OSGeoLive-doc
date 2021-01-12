@@ -85,15 +85,17 @@
 <h2><a class="toc-backref" href="#id1">Mapnik &amp; Python</a><a class="headerlink" href="#mapnik-python" title="Link a questa intestazione">¶</a></h2>
 <p>Mapnik and its python bindings are installed and ready to be used for scripting on this machine.</p>
 <p>Creating maps in python is easy with Mapnik. Open a terminal window and type <cite>python3</cite> on the command line to enter a python interpreter. Then try this:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">mapnik</span><span class="o">,</span> <span class="nn">os</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">m</span> <span class="o">=</span> <span class="n">mapnik</span><span class="o">.</span><span class="n">Map</span><span class="p">(</span><span class="mi">600</span><span class="p">,</span><span class="mi">400</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">style</span> <span class="o">=</span> <span class="s1">&#39;/usr/local/share/mapnik/world_population.xml&#39;</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">mapnik</span><span class="o">.</span><span class="n">load_map</span><span class="p">(</span><span class="n">m</span><span class="p">,</span><span class="n">style</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">m</span><span class="o">.</span><span class="n">zoom_all</span><span class="p">()</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">mapnik</span><span class="o">.</span><span class="n">render_to_file</span><span class="p">(</span><span class="n">m</span><span class="p">,</span><span class="s1">&#39;world_population.png&#39;</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s1">&#39;xdg-open world_population.png&#39;</span><span class="p">)</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="p">::</span>
 </pre></div>
 </div>
+<blockquote>
+<div>import mapnik, os
+m = mapnik.Map(600,400)
+style = “/usr/local/share/mapnik/world_population.xml”
+mapnik.load_map(m,style)
+m.zoom_all()
+mapnik.render_to_file(m,”world_population.png”)
+os.system(“xdg-open world_population.png”)</div></blockquote>
 <div class="admonition note">
 <p class="first admonition-title">Nota</p>
 <p class="last">The above code depends on having an XML stylesheet that Mapnik can read (world_population.xml), defining the layers
