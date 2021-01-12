@@ -30,13 +30,15 @@ Mapnik and its python bindings are installed and ready to be used for scripting 
 
 Creating maps in python is easy with Mapnik. Open a terminal window and type `python3` on the command line to enter a python interpreter. Then try this::
 
-    >>> import mapnik, os
-    >>> m = mapnik.Map(600,400)
-    >>> style = '/usr/local/share/mapnik/world_population.xml'
-    >>> mapnik.load_map(m,style)
-    >>> m.zoom_all()
-    >>> mapnik.render_to_file(m,'world_population.png')
-    >>> os.system('xdg-open world_population.png')
+:: 
+    
+    import mapnik, os
+    m = mapnik.Map(600,400)
+    style = '/usr/local/share/mapnik/world_population.xml'
+    mapnik.load_map(m,style)
+    m.zoom_all()
+    mapnik.render_to_file(m,'world_population.png')
+    os.system('xdg-open world_population.png')
 
 
 .. note::
