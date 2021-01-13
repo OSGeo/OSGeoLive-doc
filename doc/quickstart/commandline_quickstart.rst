@@ -58,7 +58,7 @@ Where am I?
 How to navigate in the file system?
 ===================================
 
-First you should get to know how the file system under Linux is organized. The file system is organized in a tree. It starts with the `/` knowm as root directory. All files and directories are under the root directory (`/`).
+First you should get to know how the file system under Linux is organized. The file system is organized in a tree. It starts with the `/` known as root directory. All files and directories are under the root directory (`/`).
 
 The current user is "`user`" and has a home directory located at `/home/user`. Anytime you open a terminal window it will start in your home directory (see pwd).
 
