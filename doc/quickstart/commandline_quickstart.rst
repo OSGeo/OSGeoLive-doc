@@ -7,7 +7,7 @@
 Command Line Quickstart
 ********************************************************************************
 
-When you work with GNU/Linux operations systems such as OSGeoLive, Ubuntu, etc., it is good to know how to work on the command line. 
+When you work with GNU/Linux Operating Systems such as OSGeoLive, Ubuntu, etc., it is good to know how to work on the command line. 
 
 Don't worry. It is not difficult to learn and you will discover that it is fun and very powerful.
 
