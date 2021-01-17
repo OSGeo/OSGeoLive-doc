@@ -83,14 +83,14 @@ Put the following content in it::
 
   [[tileset.layer]]
   name = "country"
-  geometry_field = "the_geom"
+  geometry_field = "geom"
   geometry_type = "MULTIPOLYGON"
   srid = 4326
   buffer_size = 3
   #make_valid = true
   simplify = false
   [[tileset.layer.query]]
-  sql = """SELECT the_geom, adm0_a3, mapcolor7 FROM ne_10m_admin_0_countries WHERE the_geom && !bbox!"""
+  sql = """SELECT geom, adm0_a3, mapcolor7 FROM ne_10m_admin_0_countries WHERE the_geom && !bbox!"""
 
   [cache.file]
   base = "/home/user/mvtcache"

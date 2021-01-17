@@ -1,0 +1,359 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:04+0000\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:22
+msgid "pycsw Quickstart"
+msgstr "pycsw gyorstalpaló"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:24
+msgid ""
+"pycsw is an OGC CSW server implementation written in `Python "
+"<https://www.python.org>`_. pycsw allows for the publishing and discovery of"
+" geospatial metadata.  Existing repositories of geospatial metadata can be "
+"exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0."
+msgstr ""
+"A pycsw egy `Pythonban <https://www.python.org>`_ írt  OGC CSW szerver "
+"implementáció. A pycsw lehetővé teszi térbeli metaadatok publikálását és "
+"felfedezését. Létező térbeli metaadatok feltárhatók OGC:CSW 2.0.2 vagy "
+"OGC:CSW 3.0.0 keresztül."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:30
+msgid "Run the tester application"
+msgstr "Teszt alkalmazás futtatása"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:32
+msgid ""
+"On the Desktop go to `Web Services --> pycsw` or open Firefox and navigate "
+"to ``http://localhost/pycsw/tests/index.html``:"
+msgstr ""
+"Az asztalon menjen a `Web Services --> pycsw`-re vagy nyissa meg a FireFox-"
+"ot és navigáljon a ``http://localhost/pycsw/tests/index.html`` oldalra:"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:37
+msgid ""
+"By selecting the left drop-down list, the user can see various predefined "
+"POST requests, encoded as XML, that can be sent to pycsw."
+msgstr ""
+"Baloldali legördülő listát kiválasztva a felhasználó a felhasználó különböző"
+" előre definiált XML-ként kódolt POST kéréseket láthat, melyek elküldhetők a"
+" pycsw-nek."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:39
+msgid ""
+"Select \"apiso/DescribeRecord\" and press the \"Send\" button. A description"
+" of the ISO Application Profile record is presented on the right panel."
+msgstr ""
+"Válassza az \"apiso/DescribeRecord\"-ot és nyomja meg a Send\" gombot. Az "
+"ISO Application Profile rekord leírása jelenik meg a jobb oldali panelben."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:44
+msgid ""
+"Selecting \"GetCapabilities-SOAP\" and press the \"Send\" button. A SOAP "
+"request is sent to the server to advertise their web service capabilities."
+msgstr ""
+"A \"GetCapabilities-SOAP\" kiválasztása után nyomj meg a \"Send\" gombot. "
+"Egy SOAP kérést küldünk a szerverhez a web szolgáltatási képességek "
+"közzétételéhez."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:49
+msgid ""
+"You can search for data records, performing a spatial bounding box query, by"
+" selecting \"GetRecords-filter-bbox\" and editing the coordinates in the XML"
+" request."
+msgstr ""
+"Adat rekordokat kereshet egy befoglaló téglalap térbeli lekérdezés "
+"végrehajtásával,  válassza ki a \"GetRecords-filter-bbox\"-ot és módosítsa a"
+" koordinátákat az XML lekérdezésben."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:54
+msgid ""
+"You can go through all the available requests and perform various requests "
+"from this testing application."
+msgstr ""
+"Végigmehet az összes elérhető lekérdezésen és a tesztelő alkalmazásból "
+"végrehajthat különböző lekérdezéseket. "
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:57
+msgid "Understand capabilities and configuration"
+msgstr "A képességek és a konfiguráció megértése"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:59
+msgid ""
+"The capabilities of the pycsw installation can be found at "
+"``http://localhost/pycsw?service=CSW&version=2.0.2&request=GetCapabilities``."
+" If you just use ``http://localhost/pycsw`` you will get the capabilities "
+"document for CSW 3.0.0, since that is the latest version supported."
+msgstr ""
+"A pycsw telepítés képességei a  "
+"``http://localhost/pycsw?service=CSW&version=2.0.2&request=GetCapabilities``"
+" oldalon találhatók.  Ha csak a ``http://localhost/pycsw`` linket használja,"
+" akkor a CSW 3.0.0, képességek dokumentumát kapja meg, mivel az a legújabb "
+"támogatott változat."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:62
+msgid ""
+"To edit the web service metadata, included in the capabilities document, you"
+" can modify the file ``/etc/pycsw/default.cfg`` under the tag "
+"``[metadata:main]``."
+msgstr ""
+"A képességek dokumentumban található web szolgáltatás metaadatok "
+"szerkesztéséhez módisíthatja az `/etc/pycsw/default.cfg`` fájlt a "
+"``[metadata:main]`` címke alatt."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:64
+msgid ""
+"If you want to enable INSPIRE Discovery Service support, fill in the "
+"metadata under the tag ``[metadata:inspire]`` and set the ``enabled`` "
+"property to ``true``."
+msgstr ""
+"Ha engedélyezni akarja az INSPIRE Discovery Service támogatást, töltse ki a "
+"metaadatokat a ``[metadata:inspire]``  címke alatt és állítsa az  "
+"``enabled``  tulajdonságot ``true``-ra."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:66
+msgid ""
+"For full functionality and configuration options, please consult the "
+"`documentation`_ on the pycsw website."
+msgstr ""
+"Kérjük nézze meg a pycsw honlapon a `dokumentációt`_ a teljes funkcionalitás"
+" és konfiguráció beállításokhoz."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:69
+msgid "Create metadata"
+msgstr "Metaadatok létrehozása"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:71
+msgid ""
+"Metadata files for a spatial dataset or a spatial web service can be created"
+" through the open source implementation of inspire directive for metadata, "
+"European Open Source Metadata Editor (EUOSME). This application can be found"
+" at ``http://inspire-geoportal.ec.europa.eu/editor/``. Source code is "
+"available at ``https://joinup.ec.europa.eu/svn/euosme/trunk``"
+msgstr ""
+"A térbeli adatokhoz vagy térbeli webszolgáltatáshoz készült metaadatfájlok a"
+" metaadatokra vonatkozó inspire irányelv nyílt forráskódú megvalósításával, "
+"az European Open Source Metadata Editor  (EUOSME) segítségével hozhatók "
+"létre. Ez az alkalmazás megtalálható a ``http://inspire-"
+"geoportal.ec.europa.eu/editor/`` oldalon. A forráskód a "
+"``https://joinup.ec.europa.eu/svn/euosme/trunk`` oldalon."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:73
+msgid ""
+"You can fill the mandatory metadata fields by going through the application "
+"tabs, adding information like the name of the data owner, keywords, resource"
+" location on the web, geographic location (using a bounding box or the name "
+"of a country), etc."
+msgstr ""
+"Kitöltheti a kötelező metaadat mezőket az alkalmazás fülein végighaladva, "
+"mint a név, az adat tulajdonos, kulcsszavak, az adatforrás a weben, "
+"földrajzi elhelyezkedés (befoglaló téglalap vagy egy ország neve), stb."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:78
+msgid ""
+"After you have added all the information available, press the "
+":guilabel:`validation` button on top of the page to check for consistency "
+"with the INSPIRE directive."
+msgstr ""
+"Miután minden elérhető információt megadott nyomja meg a "
+":guilabel:`validation` gombot az oldal tetején, hogy ellenőrizze a "
+"konzisztenciát az INSPIRE direktívával."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:83
+msgid ""
+"After a successful validation, the XML file can be saved to the local disk "
+"and viewed through a text editor or a browser."
+msgstr ""
+"A sikeres ellenőrzés után az XML fájlt elmentheti a helyi lemezre és "
+"megnézheti egy szövegszerkesztőben vagy böngészőben."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:87
+msgid "Load metadata"
+msgstr "Metaadatok betöltése"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:89
+msgid "pycsw supports the following databases:"
+msgstr "pycsw a következő adatbázisokat támogatja:"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:91
+msgid "SQLite3"
+msgstr "SQLite3"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:92
+msgid "PostgreSQL (PostGIS optional)"
+msgstr "PostgreSQL (PostGIS opcionális)"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:93
+msgid "MySQL"
+msgstr "MySQL"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:95
+msgid ""
+"In OSGeoLive, a simple SQLite setup has been implemented. The database can "
+"be found in ``/usr/share/pycsw/tests/suites/cite/data/records.db``"
+msgstr ""
+"Az OSGeoLive-ban egy egyszerű SQLite beállítást implementáltunk. Az "
+"adatbázis itt található "
+"``/usr/share/pycsw/tests/suites/cite/data/records.db``"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:98
+msgid "Create a new database"
+msgstr "Új adatbázis létrehozása"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:100
+msgid "In order to create a new SQLite database we need to:"
+msgstr "Egy új SQLite adatbázis létrehozásához ezeket kell tennünk:"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:102
+msgid "Edit ``/etc/pycsw/default.cfg``:"
+msgstr "Szerkessze a ``/etc/pycsw/default.cfg``:"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:104
+msgid "**[repository]**"
+msgstr "**[repository]**"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:106
+msgid ""
+"**database**: the full file path to the metadata database, in database URL "
+"format (see https://docs.sqlalchemy.org/en/latest/core/engines.html"
+"#database-urls)"
+msgstr ""
+"*database**: teljes elérési új a metaadat adatbázishoz, adatbázis URL "
+"formátumban (lásd https://docs.sqlalchemy.org/en/latest/core/engines.html"
+"#database-urls)"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:107
+msgid ""
+"**table**: the table name for metadata records (default is ``records``)"
+msgstr ""
+"**table**: a táblázat név a metaadat rekordokhoz (az alapértelmezett "
+"``records``)"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:109
+msgid "Setup the database:"
+msgstr "Az adatbázis beállítása"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:115
+msgid "This will create the necessary tables and values for the repository."
+msgstr "Ez létrehozza a szükséges táblákat  és értékeket a tárházhoz."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:117
+msgid ""
+"The database created is an |SFS| compliant database, and can be used with "
+"any implementing software.  For example, to use with `OGR`_:"
+msgstr ""
+"A létrehozott adatbázis |SFS| megfelelőségű adatbázis és használható "
+"bármelyik implementációs szoftverben. Például használja az `OGR`_-el:"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:129
+msgid "Import Metadata"
+msgstr "Metaadatok importálása"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:135
+msgid ""
+"This will import all ``*.xml`` records from ``/path/to/records`` into the "
+"new database and configure the repository to expose queryables as per Table "
+"53 of OGC:CSW."
+msgstr ""
+"Ez importálja az összes `*.xml`` rekordot a ``/path/to/records``-ból az új "
+"adatbázisba és a tárolót az OGC:CSW 53. táblának megfelelően konfigurálja a "
+"lekérdezhető szolgáltatások hirdetéséhez."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:139
+msgid "Data discovery through QGIS MetaSearch plugin"
+msgstr "Adatok felfedezése a QGIS MetaSearch modullal"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:141
+msgid ""
+"On the Desktop go to `Desktop GIS --> QGIS` to start QGIS, then click on the"
+" :guilabel:`MetaSearch` button (CSW icon)"
+msgstr ""
+"Az asztalon válassza a `Desktop GIS --> QGIS`-t a QGIS indításához majd "
+"kattintson a :guilabel:`MetaSearch` gombra (CSW ikon)"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:146
+msgid ""
+"Add the pycsw server by pressing the :guilabel:`New` button and type in "
+"``http://localhost/pycsw/``"
+msgstr ""
+"Adja hozzá a pycsw szervert a :guilabel:`New` gomb megnyomásával és írja be "
+"``http://localhost/pycsw/``"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:151
+msgid ""
+"Add some default servers using the :guilabel:`Add default servers` button "
+"and also get the capabilities of the server using :guilabel:`Server info` "
+"button"
+msgstr ""
+"Adjon hozzá néhány alapértelmezett szervert a :guilabel:`Add default "
+"servers` gombbal és szerezze be a szerver képességeit is a :guilabel:`Server"
+" info` gomb segítségével."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:156
+msgid ""
+"Perform a search using the catalogue, either by a string value or with a "
+"bounding box"
+msgstr ""
+"A katalógus használatával hajtson végre egy keresést egy szöveg vagy egy "
+"befoglaló téglalap megadásával"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:163
+msgid "Things to try"
+msgstr "Kipróbálandó dolgok"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:165
+msgid ""
+"Try to discover data through the Tester application by setting the "
+"appropriate requests eg. any text search with the string \"imagery\" leads "
+"to discovering the xml data created previously by EUOSME"
+msgstr ""
+"Próbálja meg a tesztelő alkalmazáson keresztül felfedezni az adatokat, egy "
+"megfelelő kérés beállításával pl. tetszőleges szöveges keresés az "
+"\"imagery\" szöveggel az EUOSME által létrehozott xml adatok felfedezéséhez"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:170
+msgid "Try to discover data through the Python `OWSLib CSW`_ interface."
+msgstr ""
+"Próbálja meg felfedezni a az adatokat a Python `OWSLib CSW`_ interfészen "
+"keresztül."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:172
+msgid ""
+"Try to discover data from GeoNode, which is also included in OSGeoLive and "
+"uses pycsw as the default CSW engine."
+msgstr ""
+"Próbálja meg felfedezni  az adatokat a GeoNode-ból, melyeket szintén "
+"tartalmaz az OSGeoLiveés a pycsw-t használja mint az alapértelmezett CSW "
+"motor,"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:175
+msgid "What next?"
+msgstr "Mi a következő?"
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:177
+msgid ""
+"For more information on pycsw, please consult the `documentation`_ on the "
+"pycsw website."
+msgstr ""
+"Forduljon a pywcs honlapon található `dokumentációhoz`_  további "
+"információkért a pycsw-ről."

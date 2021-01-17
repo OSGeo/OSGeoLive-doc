@@ -2,7 +2,8 @@
 :Author: Pirmin Kalberer
 :Reviewer: Angelos Tzotsos, OSGeo
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
-:Version: osgeolive13.0
+:Reviewer: Astrid Emde, OSGeo
+:Version: osgeolive14.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_qgis_mapserver@
@@ -84,19 +85,19 @@ Create a new QGIS project
 
 #. Use file name :file:`/home/user/world.qgs` and press :guilabel:`Save`.
 
-#. Open the `WMS URL <http://localhost/cgi-bin/qgis_mapserv?map=/home/user/world.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_. You should see all world countries, this time rendered by QGIS Server.
+#. Open the `WMS URL <http://localhost/cgi-bin/qgis_mapserv.fcgi?map=/home/user/world.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_. You should see all world countries, this time rendered by QGIS Server.
 
 
 What next?
 ==========
 
-To learn more about QGIS Server, a good starting point is the `QGIS User Guide`_.
+To learn more about QGIS Server, a good starting point is the `QGIS Server Guide`_.
 
+.. _`QGIS Server Guide`: https://docs.qgis.org/3.10/en/docs/server_manual/
 
-.. _`QGIS User Guide`: https://docs.qgis.org/3.4/en/docs/user_manual/working_with_ogc/server/index.html
 
 Documentation:
-  * https://docs.qgis.org/3.4/en/docs/user_manual/working_with_ogc/server/index.html
+  * https://docs.qgis.org/3.10/en/docs/server_manual/
 
 Quick start for Server Installation on Debian/Ubuntu:
 
