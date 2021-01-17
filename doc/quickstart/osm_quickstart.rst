@@ -1,4 +1,6 @@
 :Author: Hamish Bowman
+:Author: Enock Seth Nyamador
+:Author: Astrid Emde
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive6.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
