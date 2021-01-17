@@ -2,8 +2,10 @@
 .. revealjs:: 
 
     .. revealjs:: Credits
+    
+        Developers and Translators
 
-        Project Steering Committee:
+        Project Steering Committee
 
         * Angelos Tzotsos (Chair)
         * Brian M Hamlin
