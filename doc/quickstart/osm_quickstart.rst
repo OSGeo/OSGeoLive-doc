@@ -102,13 +102,19 @@ PostgreSQL for map data, but does not work directly with OSM files.
 Working with OSM data in QGIS
 ================================
 
-OSGeoLive comes with OSM Data for the city where the global `FOSS4G conference <https://foss4g.org>`_ takes place.
-You find the data in the file system at /usr/local/share/data/osm/ or in the PostgreSQL database osm_local.
+OSGeoLive comes with OSM data for the city where the global `FOSS4G conference <https://foss4g.org>`_ takes place.
+You find the data in the file system at `/usr/local/share/data/osm/` or in the PostgreSQL database `osm_local`.
 
 Start QGIS and have a look at the data.
 
 #. Open the `Desktop GIS` folder.
 #. Double click on the `QGIS` icon.
+#. Go the browser panel on the left of the screen.
+#. Navigate to `PostGIS` and then to the database `osm_local`. You will find the data in the schema `public`.
+#. Drag the layers from the `Browser` panel and drop them in the map canvas.
+
+  .. image:: /images/projects/osm/osm_postgis_qgis.jpg
+     :scale: 80 %
 
 You find a QGIS introduction in the :doc:`QGIS Quickstart <../quickstart/qgis_quickstart>`
 
@@ -123,14 +129,39 @@ QuickOSM
 * Homepage: https://github.com/3liz/QuickOSM
 
 #. You have to enable the Plugin in QGIS. Search for `QuickOSM` from `Plugins --> Manage and Install Plugins` in QGIS
-#. Open QickOSM
+#. Open QickOSM from `Vector --> QuickOSM --> QuickOSM`
 #. Search for all the pubs in the FOSS4G city
 #. Choose key `amenity`, value `pub`, in `Buenos Aires`
 #. Show the query to see the Overpass query
-#. Run the query. The resulting data will be loaded in your QGIS project as temporal data
+#. Click  `Run query`. The resulting data will be loaded in your QGIS project as temporal data
 #. You can now save the data via `Export -> Save as....`. Choose i.e. Geopackage and save the data as `buenos_aires_pubs`.
 
-.. tip:: You also find many OSM Plugins for QGIS. Search for QGIS in the plugin repository.
+.. tip:: You also find many OSM Plugins for QGIS. Search for `OSM` in the plugin repository.
+
+
+Using OSM as basemap in QGIS
+=============================
+
+XYZ Tiles
+-------------------------------
+
+By default, QGIS comes with OpenStreetMap basemap layer and is located in the `Browser Panel` under `XYZ Tiles`.
+
+  .. image:: /images/projects/osm/osm_xyz_qgis.jpg
+     :scale: 80 %
+
+QuickMapServices
+------------------------------
+
+`QuickMapServices` plugin allows you to easily add various map services as basemaps with one click in QGIS.
+
+* Homepage: https://github.com/nextgis/quickmapservices
+
+#. You have to enable the Plugin in QGIS. Search for `QuickMapServices` from `Plugins --> Manage and Install Plugins` in QGIS
+#. Add an OSM basemap from `Web --> QuickMapServices --> OSM`
+
+  .. image:: /images/projects/osm/osm_quickmapservices_qgis.jpg
+     :scale: 80 %
 
 Start working with OSM data
 ===========================
@@ -143,9 +174,9 @@ You can use the following tools and services to extract OSM Data for your area o
 Geofabrik
 ----------------
 
-`Geofabrik <https://download.geofabrik.de/>`_ provides daily worldwide OpenStreetMap data extracts by sub-regions and countries.
+`Geofabrik <https://download.geofabrik.de/>`_ provides daily worldwide OpenStreetMap data extracts by subregion and country.
 Choose the region or country you are interested in. Data is provided in three formats: `.osm.pbf`, `.shp.zip` and `.osm.bz2`.
-`.osm.pbf` and`.shp.zip` can be opened in QGIS.
+`.osm.pbf` and`.shp.zip` can be opened directly in QGIS.
 
 .. tip:: **.osm.bz2** contains raw OSM XML files `.osm`, `osm2pgsql`_ works well with them, find out more about working with them here https://wiki.openstreetmap.org/wiki/OSM_XML
 
@@ -160,7 +191,7 @@ Have a look at the web client and download all the pubs in the FOSS4G city.
 #. Open https://overpass-turbo.eu/
 #. Search for all the pubs in the FOSS4G city
 #. Click on the button `Wizard` and paste the query to the search column `amenity=pub in "Buenos Aires"`
-#. Then press the buttom `build and run query`
+#. Then click the button `build and run query`
 #. Click `zoom to data` in the map canvas to navigate to your results
 
   .. image:: /images/projects/osm/overpass_turbo.jpg
@@ -171,7 +202,7 @@ HOT Export Tool
 
 The Humanitarian OpenStreetMap Team (HOT) provides an export tool for OpenStreetMap too.
 To use it you need an OSM account.
-You can download in several formats and have history for your downloaded data and exports.
+You can download data in several formats and have history for your downloaded data and exports.
 
 Here is a quickstart: https://export.hotosm.org/en/v3/learn/quick_start
 
