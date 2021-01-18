@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-01-18 20:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,11 +56,11 @@ msgstr ""
 msgid "Quick Starts"
 msgstr ""
 
-#: ../../build/doc/index.rst:68
+#: ../../build/doc/index.rst:69
 msgid "Presentation"
 msgstr ""
 
-#: ../../build/doc/index.rst:70
+#: ../../build/doc/index.rst:71
 msgid "A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive applications, is available with slides, script, and `abstract <presentation/abstract.txt>`_."
 msgstr ""
 
