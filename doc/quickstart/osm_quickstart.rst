@@ -129,7 +129,7 @@ QuickOSM
 * Homepage: https://github.com/3liz/QuickOSM
 
 #. You have to enable the Plugin in QGIS. Search for `QuickOSM` from `Plugins --> Manage and Install Plugins` in QGIS
-#. Open QickOSM from `Vector --> QuickOSM --> QuickOSM`
+#. Open QuickOSM from `Vector --> QuickOSM --> QuickOSM`
 #. Search for all the pubs in the FOSS4G city
 #. Choose key `amenity`, value `pub`, in `Buenos Aires`
 #. Show the query to see the Overpass query
