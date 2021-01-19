@@ -61,7 +61,7 @@ The demo uses the world_population.xml from the Mapnik demo.
 #. You find the world population demo by Mapnik as a WMS layer and also the world population in combination with a the GeoServer layer topp:states (make sure GeoServer is running)
 
 
-#. You can usethe MapProxy WMS in other applications f.e in QGIS or in Mapbender (http://localhost/mapbender/application/mapbender_user).
+#. You can use the MapProxy WMS in other applications for example in QGIS or in Mapbender (http://localhost/mapbender/application/mapbender_user).
  
 
 #. Observe the output in the server terminal window.
