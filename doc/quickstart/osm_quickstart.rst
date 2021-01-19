@@ -168,7 +168,7 @@ Start working with OSM data
 
 There are several ways to download OpenStreetMap data for your region. You can get the data in several formats.
 
-You can use the following tools and services to extract OSM Data for your area of interest
+You can use the following tools and services to extract OSM data for your area of interest.
 
 
 Geofabrik
