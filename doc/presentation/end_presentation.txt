@@ -2,8 +2,21 @@
 .. revealjs:: 
 
     .. revealjs:: Credits
+    
+        * Developers and project maintainers
+        * Authors and reviewers of the documentation
+        * Translators
+        * https://live.osgeo.org/en/sponsors.html
+        
+        .. rv_note::
+            As you can see listed here, many people have been involved in packaging the Open Source Software for OSGeoLive,
+            and literally thousands of developers have helped build the software we package.
+            Thank you.        
+        
 
-        Project Steering Committee:
+    .. revealjs:: Credits
+
+        Project Steering Committee
 
         * Angelos Tzotsos (Chair)
         * Brian M Hamlin
@@ -38,14 +51,11 @@
         :title-heading: h2
 
         *  Proof-read, test and correct Quickstarts and Overviews
-
-          * There is a good possibility to get to know cool software!
-
-        *  Translate and improve the documentation
-
-          * Translation is made in `Transifex <https://www.transifex.com/osgeo/osgeolive>`__
-          * Local Chapters can easily get involved here
-          * No technical experience necessary
+        * There is a good possibility to get to know cool software!
+        * Translate and improve the documentation
+        * Translation is made in `Transifex <https://www.transifex.com/osgeo/osgeolive>`__
+        * Local Chapters can easily get involved here
+        * No technical experience necessary
 
 
     .. revealjs:: Sponsors
