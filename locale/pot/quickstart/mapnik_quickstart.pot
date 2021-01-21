@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-18 20:30+0100\n"
+"POT-Creation-Date: 2021-01-21 12:32-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,11 +65,11 @@ msgid "Open the MapProxy demo application http://0.0.0.0:8011/demo/"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:64
-msgid "You find the world population demo by Mapnik as a WMS layer and also the wolrd population in combination with a the GeoServer layer topp:states (make sure GeoServer is running)"
+msgid "You find the world population demo by Mapnik as a WMS layer and also the world population in combination with a the GeoServer layer topp:states (make sure GeoServer is running)"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:67
-msgid "You can usethe MapProxy WMS in other applications f.e in QGIS or in Mapbender (http://localhost/mapbender/application/mapbender_user)."
+msgid "You can use the MapProxy WMS in other applications for example in QGIS or in Mapbender (http://localhost/mapbender/application/mapbender_user)."
 msgstr ""
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:70

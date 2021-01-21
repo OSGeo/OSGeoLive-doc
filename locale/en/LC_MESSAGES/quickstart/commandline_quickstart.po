@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-18 20:30+0100\n"
+"POT-Creation-Date: 2021-01-21 12:32-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:8
 msgid "Command Line Quickstart"
@@ -23,8 +23,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:10
 msgid ""
-"When you work with GNU/Linux operations systems such as OSGeoLive, "
-"Ubuntu, etc., it is good to know how to work on the command line."
+"When you work with GNU/Linux Operating Systems such as OSGeoLive, Ubuntu,"
+" etc., it is good to know how to work on the command line."
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:12
@@ -474,4 +474,11 @@ msgstr ""
 #: ../../build/doc/quickstart/commandline_quickstart.rst:337
 msgid "https://en.wikipedia.org/wiki/Category:Standard_Unix_programs"
 msgstr ""
+
+#~ msgid ""
+#~ "When you work with GNU/Linux operations"
+#~ " systems such as OSGeoLive, Ubuntu, "
+#~ "etc., it is good to know how "
+#~ "to work on the command line."
+#~ msgstr ""
 
