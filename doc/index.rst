@@ -36,12 +36,13 @@ Quick Starts
 .. toctree::
   :maxdepth: 1
 
-  Getting started with the OSGeoLive DVD <quickstart/osgeolive_quickstart>
+  Getting started with OSGeoLive <quickstart/osgeolive_quickstart>
   Change language or keyboard type <quickstart/internationalisation_quickstart>
   Install OSGeoLive on your hard disk <quickstart/osgeolive_install_quickstart>
   Run OSGeoLive in a Virtual Machine <quickstart/virtualization_quickstart>
   Create an OSGeoLive bootable USB thumb drive <quickstart/usb_quickstart>
   Running in a Hyper-V Virtual Machine <quickstart/hyperv_quickstart>
+  Command Line basics <quickstart/commandline_quickstart>
 
 .. toctree::
   :hidden:

@@ -60,10 +60,9 @@ Display a map
   :scale: 50 %
   :alt: screenshot
   :align: left
+  
 
-Once inside select for display a raster map layer such as "`elevation`" from
-the PERMANENT mapset. 
-
+#. Once inside, select for display the raster map layer "`elevation`" from the PERMANENT mapset. 
 #. Go into the `GIS Layer Manager` window. 
 #. Click on the checkerboard toolbar button with a "+" on it. 
 #. Select the map name you want from the "*map to be displayed*" pull-down list, and click :guilabel:`Ok`.
@@ -116,13 +115,12 @@ Create a shaded relief map
   :alt: screenshot
   :align: right
 
-Next we'll create a shaded relief map of the "elevation" layer we saw
+Next we'll create a shaded relief map of the `elevation` layer we saw
 earlier. Start by verifying that the *computational region* is set match
 the raster map of interest, "`elevation`" in the PERMANENT mapset. To
 do this, make sure it is loaded into the layer list of the main `GIS Layer
 Manager` window, right click on its name and select "Set computation region
-from selected map(s)". You will notice the Layer Manage tab will switch to
-a text console to display the new settings. Click on the "*Layers*" tab
+from selected map(s)". If necessary, click on the "*Layers*" tab
 at the bottom to get back to the layer list.
 
 In the `Raster` menu select :menuselection:`Terrain analysis --> Compute

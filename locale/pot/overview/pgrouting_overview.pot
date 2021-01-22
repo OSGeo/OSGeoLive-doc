@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-01-21 12:32-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,118 +25,102 @@ msgid "GIS Tools"
 msgstr ""
 
 #: ../../build/doc/overview/pgrouting_overview.rst:23
-msgid "pgRouting extends the :doc:`PostGIS <postgis_overview>`/`PostgreSQL <https://www.postgresql.org>`_ geospatial database to provide geospatial routing and other network analysis functionality."
-msgstr ""
-
-#: ../../build/doc/overview/pgrouting_overview.rst:25
-msgid "Advantages of the database routing approach are:"
+msgid "pgRouting extends the :doc:`postgis_overview`/`PostgreSQL <https://www.postgresql.org>`__ geospatial database to provide geospatial routing and other network analysis functionality."
 msgstr ""
 
 #: ../../build/doc/overview/pgrouting_overview.rst:27
-msgid "Data and attributes can be modified by many clients, like :doc:`QGIS <qgis_overview>` and :doc:`uDig <udig_overview>` through JDBC, ODBC, or directly using Pl/pgSQL. The clients can either be PCs or mobile devices."
-msgstr ""
-
-#: ../../build/doc/overview/pgrouting_overview.rst:28
-msgid "Data changes can be reflected instantaneously through the routing engine. There is no need for precalculation."
+msgid "Advantages of the database routing approach are:"
 msgstr ""
 
 #: ../../build/doc/overview/pgrouting_overview.rst:29
+msgid "Data and attributes can be modified by many clients, like :doc:`qgis_overview` and :doc:`udig_overview` through JDBC, ODBC, or directly using Pl/pgSQL. The clients can either be PCs or mobile devices."
+msgstr ""
+
+#: ../../build/doc/overview/pgrouting_overview.rst:32
+msgid "Data changes can be reflected instantaneously through the routing engine. There is no need for precalculation."
+msgstr ""
+
+#: ../../build/doc/overview/pgrouting_overview.rst:34
 msgid "The \"cost\" parameter can be dynamically calculated through SQL and its value can come from multiple fields or tables."
 msgstr ""
 
-#: ../../build/doc/overview/pgrouting_overview.rst:31
-msgid "pgRouting is available under the GPLv2 license and is supported by a growing community of individuals, businesses and organizations."
-msgstr ""
-
-#: ../../build/doc/overview/pgrouting_overview.rst:40
-msgid "Core Features"
-msgstr ""
-
-#: ../../build/doc/overview/pgrouting_overview.rst:42
-msgid "pgRouting provides functions for:"
-msgstr ""
-
-#: ../../build/doc/overview/pgrouting_overview.rst:44
-msgid "All Pairs Shortest Path, Johnson’s Algorithm"
-msgstr ""
-
-#: ../../build/doc/overview/pgrouting_overview.rst:45
-msgid "All Pairs Shortest Path, Floyd-Warshall Algorithm"
-msgstr ""
-
-#: ../../build/doc/overview/pgrouting_overview.rst:46
-msgid "Shortest Path A*"
+#: ../../build/doc/overview/pgrouting_overview.rst:37
+msgid "pgRouting is available under the GPLv2+ license and is supported by a growing community of individuals, businesses and organizations."
 msgstr ""
 
 #: ../../build/doc/overview/pgrouting_overview.rst:47
-msgid "Bi-directional Dijkstra Shortest Path"
-msgstr ""
-
-#: ../../build/doc/overview/pgrouting_overview.rst:48
-msgid "Bi-directional A* Shortest Path"
+msgid "Core Features"
 msgstr ""
 
 #: ../../build/doc/overview/pgrouting_overview.rst:49
-msgid "Shortest Path Dijkstra"
-msgstr ""
-
-#: ../../build/doc/overview/pgrouting_overview.rst:50
-msgid "Driving Distance"
+msgid "pgRouting provides functions for:"
 msgstr ""
 
 #: ../../build/doc/overview/pgrouting_overview.rst:51
-msgid "K-Shortest Path, Multiple Alternative Paths"
-msgstr ""
-
-#: ../../build/doc/overview/pgrouting_overview.rst:52
-msgid "K-Dijkstra, One to Many Shortest Path"
-msgstr ""
-
-#: ../../build/doc/overview/pgrouting_overview.rst:53
-msgid "Traveling Sales Person"
+msgid "All Pairs Shortest Path * Johnson’s Algorithm * Floyd-Warshall Algorithm"
 msgstr ""
 
 #: ../../build/doc/overview/pgrouting_overview.rst:54
-msgid "Turn Restriction Shortest Path (TRSP)"
+msgid "Shortest Path * A* algorithm * Dijkstra algorithm"
 msgstr ""
 
-#: ../../build/doc/overview/pgrouting_overview.rst:56
-msgid "Learn more about using pgRouting in your application by reading the `documentation <http://docs.pgrouting.org>`_."
+#: ../../build/doc/overview/pgrouting_overview.rst:57
+msgid "Bi-directional Shortest Path * A* algorithm * Dijkstra algorithm"
 msgstr ""
 
-#: ../../build/doc/overview/pgrouting_overview.rst:65
+#: ../../build/doc/overview/pgrouting_overview.rst:60
+msgid "Driving Distance"
+msgstr ""
+
+#: ../../build/doc/overview/pgrouting_overview.rst:61
+msgid "K-Shortest Path * Yen's algorithm"
+msgstr ""
+
+#: ../../build/doc/overview/pgrouting_overview.rst:63
+msgid "Traveling Sales Person"
+msgstr ""
+
+#: ../../build/doc/overview/pgrouting_overview.rst:64
+msgid "And many more"
+msgstr ""
+
+#: ../../build/doc/overview/pgrouting_overview.rst:66
+msgid "Learn more about pgRouting in the `documentation <http://docs.pgrouting.org>`__."
+msgstr ""
+
+#: ../../build/doc/overview/pgrouting_overview.rst:70
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/pgrouting_overview.rst:67
+#: ../../build/doc/overview/pgrouting_overview.rst:72
 msgid "**Website:** https://pgrouting.org/"
 msgstr ""
 
-#: ../../build/doc/overview/pgrouting_overview.rst:69
+#: ../../build/doc/overview/pgrouting_overview.rst:74
 msgid "**Licence:** GNU General Public License (GPL) version 2"
 msgstr ""
 
-#: ../../build/doc/overview/pgrouting_overview.rst:71
+#: ../../build/doc/overview/pgrouting_overview.rst:76
 msgid "**Software Version:** |version-pgrouting|"
 msgstr ""
 
-#: ../../build/doc/overview/pgrouting_overview.rst:73
+#: ../../build/doc/overview/pgrouting_overview.rst:78
 msgid "**Supported Platforms:** Linux, Windows, Mac"
 msgstr ""
 
-#: ../../build/doc/overview/pgrouting_overview.rst:75
+#: ../../build/doc/overview/pgrouting_overview.rst:80
 msgid "**API Interfaces:** SQL"
 msgstr ""
 
-#: ../../build/doc/overview/pgrouting_overview.rst:77
+#: ../../build/doc/overview/pgrouting_overview.rst:82
 msgid "**Commercial Support:** https://pgrouting.org/support.html"
 msgstr ""
 
-#: ../../build/doc/overview/pgrouting_overview.rst:83
+#: ../../build/doc/overview/pgrouting_overview.rst:88
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/pgrouting_overview.rst:85
+#: ../../build/doc/overview/pgrouting_overview.rst:90
 msgid ":doc:`Quickstart documentation <../quickstart/pgrouting_quickstart>`"
 msgstr ""
 

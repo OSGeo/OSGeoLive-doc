@@ -59,7 +59,7 @@ One file regardles of translation completition, normally used while translating.
 
 **Note:** Don't commit incomplete translations
 ```
-tx pull -r osgeolive.overview--52nSOS_overview -l fr 
+tx pull -r osgeolive.overview--52nSOS_overview -l fr
 ```
 
 All the 100% translated files of French language.
@@ -91,7 +91,7 @@ git add .tx/config
 ```
 # tx push -s -r osgeolive.<name_of_resource>
 # for example:
-tx push -s -r osgeolive.quickstart--hyperv_quickstart
+tx push -s -r osgeolive.quickstart--commandline_quickstart
 ```
 
 if doubt on name of resource inspect `tx/config` file

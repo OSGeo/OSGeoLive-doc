@@ -1,0 +1,437 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# MarPetra <mvergaratrejo@gmail.com>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:05+0000\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:27
+msgid "MapServer Quickstart"
+msgstr "MapServer クイックスタート"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:29
+msgid ""
+"MapServer is an `Open Source <https://opensource.org/>`_ server based "
+"application that allows you to publish geographic map images and vector data"
+" through the internet using |OGCS| such as |WMS|, |WFS| and |WCS|."
+msgstr ""
+"MapServerは、 `オープンソース <https://opensource.org/>`_ "
+"サーバーベースのアプリケーションであり、|WMS|、|WFS|、|WCS| などの  |OGCS| "
+"を使用して、インターネットを介して地理的地図の画像やベクタデータを公開できます。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:40
+msgid "Configure MapServer using the Mapfile configuration file"
+msgstr "Mapfile設定ファイルを使用してMapServerを設定する"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:44
+msgid ""
+"**What will I learn ?** In this section, you will learn what a Mapfile is "
+"and how to configure it to allow MapServer to serve a shapefile as images "
+"using WMS requests."
+msgstr ""
+"**何がわかる？** "
+"ここでは、Mapfileの概要と、MapServerがWMS要求を使用してシェイプファイルをイメージとして処理できるように設定する方法について説明します。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:49
+msgid "What is a Mapfile ?"
+msgstr "Mapfileとは"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:51
+msgid ""
+"The `Mapfile <https://mapserver.org/mapfile/index.html>`_ is the "
+"configuration file that MapServer uses to render geospatial data as images "
+"or vector data. Its main purpose is to define the layers it can draw, how to"
+" read necessary data, and how to render it (e.g. color, symbol, label, "
+"etc...)."
+msgstr ""
+"`Mapfile <https://mapserver.org/mapfile/index.html>`_ "
+"は、MapServerが空間データをイメージまたはベクタデータとしてレンダリングするために使用する設定ファイルです。その主な目的は、描画できるレイヤ、必要なデータの読み方、レンダリング方法(色、シンボル、ラベルなど)を定義することです。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:57
+msgid "Creating my first Mapfile"
+msgstr "はじめてMapfileを作成する"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:59
+msgid ""
+"Open any text editor (e.g. :menuselection:`Applications --> Accessories --> "
+"FeatherPad`)."
+msgstr "任意のテキストエディタを開きます(例 :menuselection:`アクセサリ-->FeatherPad`)。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:61
+msgid ""
+"Create the file \"mapserver_quickstart.map\" in your home directory: "
+":file:`/home/user/mapserver_quickstart.map`"
+msgstr ""
+"\"mapserver_quickstart.map\"を、ホームディレクトリ: "
+":file:`/home/user/mapserver_quickstart.map` に作成します。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:64
+msgid "Put the following content in it::"
+msgstr "次の内容を入力します::"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:104
+msgid ""
+"The example uses the natural earth dataset, which is already on OSGeoLive at"
+" :file:`~/data/natural_earth2` (a short cut to "
+":file:`/usr/local/share/data/natural_earth2`)."
+msgstr ""
+"この例では、既にOSGeoLive上の :file:`~/data/natural_earth2 "
+"`(:file:`/usr/local/share/data/natural_earth2` "
+"へのショートカット)にある自然地球データセットを使用しています。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:107
+msgid ""
+"Each object in a Mapfile starts with its name (for example **MAP**) and ends"
+" with an **END**.  A Mapfile always starts with the **MAP** object and "
+"should contain a list of **LAYER** objects the Mapfile can read and draw. In"
+" our Mapfile, we currently have only one layer defined."
+msgstr ""
+"Mapfile内の各オブジェクトは、名前(**MAP** など)で始まり、**END** で終わります。Mapfileは常に **MAP** "
+"オブジェクトで始まり、Mapfileが読み取って描画できる **LAYER** "
+"オブジェクトのリストを含む必要があります。このMapfileでは、いまのところ1つのレイヤのみが定義されています。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:112
+msgid ""
+"Let's take a look at some of the objects (and properties) defined in our "
+"Mapfile:"
+msgstr "Mapfileで定義されているオブジェクト(およびプロパティ)をいくつか見てみましょう。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:115
+msgid ""
+"EXTENT: sets the default geospatial bounding box for this configuration."
+msgstr "EXTENT:この設定のデフォルトの空間境界ボックスを設定します。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:116
+msgid ""
+"LAYER: defines access and display properties for a spatial dataset.  We'll "
+"add another layer later."
+msgstr "LAYER: 空間データセットのアクセスプロパティと表示プロパティを定義します。レイヤは後で追加します。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:118
+msgid ""
+"SHAPEPATH: sets a base path for file-based data (e.g. shapefiles or tiff "
+"images)."
+msgstr "SHAPEPATH:ファイルベースのデータ(シェイプファイルやTIFFイメージなど)のベースパスを設定します。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:121
+msgid ""
+"If we look closer at the **LAYER** in our Mapfile, we'll see that it "
+"contains a bunch of properties and objects too. Among them are:"
+msgstr ""
+"Mapfileの **LAYER** "
+"をよく見ると、このファイルにはたくさんのプロパティーとオブジェクトも含まれていることがわかります。その中には次のようなものがあります"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:124
+msgid ""
+"STATUS: defines whether the layer can be drawn (*ON*), can't be drawn "
+"(*OFF*) or is always drawn (*DEFAULT*)."
+msgstr "STATUS: レイヤを描画できる(*ON*)か、描画できない(*OFF*)か、常に描画する(*DEFAULT*)かを定義します。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:126
+msgid ""
+"TYPE: the geometry type that MapServer should use when rendering the data as"
+" an image. In our Mapfile, the data will be drawn as *polygons*."
+msgstr ""
+"TYPE: "
+"MapServerがデータをイメージとしてレンダリングするときに使用するジオメトリタイプ。このMapfileでは、データは*ポリゴン*として描画されます。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:128
+msgid ""
+"DATA: the name of the spatial data file this layer uses, in this case a "
+"shapefile."
+msgstr "DATA:このレイヤが使用する空間データファイル(この場合はシェイプファイル)の名前。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:130
+msgid ""
+"CLASS: determines how to draw a layer (styling). We'll cover this object in "
+"more detail later."
+msgstr "CLASS: レイヤの描画方法(スタイル設定)を決定します。このオブジェクトについては、後で詳しく説明します。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:135
+msgid ""
+"A complete list of the available objects and properties a Mapfile can have "
+"can be found in the `MapServer documentation page "
+"<https://mapserver.org/mapfile/index.html>`_."
+msgstr ""
+"Mapfileで使用できるオブジェクトとプロパティの完全なリストは、 `MapServerドキュメントページ "
+"<https://mapserver.org/mapfile/index.html>`_ にあります。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:142
+msgid "Render a map image with MapServer using a WMS **GetMap** request"
+msgstr "WMSの **GetMap** 要求を使用してMapServerで地図イメージをレンダリングする"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:146
+msgid ""
+"**What will I learn ?** You will learn how to use to render an image with "
+"layers from a Mapfile with MapServer using an OGC WMS request."
+msgstr ""
+"**何を学べますか?** OGC "
+"WMS要求を使用して、MapServerを使用してMapfileからレイヤを含むイメージをレンダリングする方法を学習します。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:149
+msgid "Open a web browser and enter the following URL::"
+msgstr "Webブラウザを開き、次のURLを入力します。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:153
+msgid ""
+"What does the above mean?  If we put it in simple words, it's a |WMS| "
+"**GetMap** request that tells MapServer to \"*use the following Mapfile to "
+"render the specified layers as a png image based on some user-supplied "
+"parameters such as image size, geographical extent, projection, etc.*\".  "
+"All layers specified in the \"*&LAYERS=...*\" property having *STATUS ON* in"
+" the Mapfile will be rendered in addition to all layers with *STATUS "
+"DEFAULT*. The result looks like the following:"
+msgstr ""
+"上記はどういう意味ですか?簡単に言うと、これはWMSの** GetMap** "
+"要求であり、「*次のMapfileを使用して、イメージサイズ、地理的範囲、投影などのユーザ指定のパラメータに基づいて、指定されたレイヤをpngイメージとしてレンダリングする*」ようMapServerに指示します。Mapfileで*STATUS"
+" ON*を持つ\"*&LAYERS=.*\"プロパティで指定されたすべてのレイヤは、 *STATUS DEFAULT* "
+"を持つすべての画層に加えてレンダリングされます。結果は次のようになります。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:167
+msgid ""
+"All parameters of the request are WMS-specific, except "
+"\"*?map=/home/user/mapserver_quickstart.map*\", which is MapServer-specific."
+msgstr ""
+"要求のすべてのパラメータは、MapServer固有の「*?map=/home/user/mapserver_quickstart.map*」を除き、WMS固有です。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:173
+msgid "Render a map image with MapServer using the command line"
+msgstr "コマンドラインを使用してMapServerで地図イメージをレンダリングする"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:175
+msgid ""
+"Although MapServer is geared towards web applications, it can also produce "
+"images on the command line. This can be useful if you are looking for "
+"repetitive mapping, or while debugging."
+msgstr ""
+"MapServerはウェブアプリケーション向けだが、コマンドラインで画像を生成することもできます。これは、反復マッピングを探している場合やデバッグ中に便利です。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:179
+msgid ""
+"Open a terminal (:menuselection:`Applications --> System Tools --> Terminal "
+"Emulator`) and type::"
+msgstr ""
+"ターミナルを開き(:menuselection:`Applications-->System Tools-->Terminal "
+"Emulator`)、次のように入力します。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:184
+msgid ""
+"If this command runs successfully, you are able to see your rendered map at "
+"file:///home/user/mymap.png."
+msgstr "このコマンドが正常に実行されると、file:///home/user/mymap.pngでレンダリングされたマップを表示できます。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:190
+msgid "Add a new layer to the Mapfile to serve a local Shapefile"
+msgstr "新しいレイヤをMapfileに追加して、ローカルシェイプファイルを提供する"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:194
+msgid ""
+"**What will I learn ?** You will learn how to add a new layer object "
+"definition to your Mapfile."
+msgstr "**何を学べますか?** 新しいレイヤオブジェクト定義をMapfileに追加する方法を学習します。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:197
+msgid ""
+"We will now add a new layer to our Mapfile. Before the last *END* statement "
+"in the Mapfile, add the following layer configuration::"
+msgstr "次に、新しいレイヤをMapfileに追加します。Mapfileの最後の*END*文の前に、次のレイヤ設定を追加します。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:212
+msgid ""
+"Now we have 2 layer definitions in our Mapfile. Note that the new one we "
+"just added has the \"STATUS\" property set to \"ON\". That means that unless"
+" we specifically request it, it won't be rendered."
+msgstr ""
+"これで、Mapfileに2つのレイヤ定義が作成されました。ここで追加した新しいオブジェクトの「STATUS」プロパティが「ON」に設定されていることに注意してください。具体的にお願いしないと出せないということですね。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:216
+msgid ""
+"Let's take our previous WMS **GetMap** request and add our new \"Lakes\" "
+"layer to the image rendered. We simply need to add the new layer name to the"
+" \"LAYERS\" property list::"
+msgstr ""
+"前述のWMSの **GetMap** "
+"要求を受け取り、レンダリングしたイメージに新しい「Lakes」レイヤを追加します。「LAYERS」プロパティリストに新しいレイヤ名を追加するだけです。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:222
+msgid ""
+"The image rendered by MapServer looks like our previous map, but with the "
+"addition of the lakes from our new layer:"
+msgstr "MapServerによってレンダリングされたイメージは、前のマップに似ていますが、新しいレイヤから湖が追加されています。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:231
+msgid "Style a layer using Mapfile configurations"
+msgstr "マップファイル設定を使用してレイヤのスタイルを設定する"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:235
+msgid ""
+"**What will I learn ?** You will see an example of styling elements inside a"
+" layer depending on some of its data properties."
+msgstr "**何を学ベますか?** レイヤ内の要素のスタイル設定の例が、データプロパティの一部に応じて表示されます。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:238
+msgid ""
+"In a Mapfile, a LAYER object can contain an infinite number of CLASS "
+"objects. These are used to style the elements contained in the spatial data "
+"file (DATA). For example, if we look closer at our \"ne_10m_lakes\" data "
+"file using a tool such as `ogrinfo <https://gdal.org/ogrinfo.html>`_, we'll "
+"see the geometry and attribute definitions it contains. These attribute "
+"values can be used as a way to draw the elements inside a dataset "
+"differently using multiple CLASS objects."
+msgstr ""
+"Mapfileでは、LAYERオブジェクトに無限個のCLASSオブジェクトを含めることができます。これらは、空間データファイル(DATA)に含まれる要素のスタイルを設定するために使用されます。たとえば、"
+" `ogrinfo <https://gdal.org/ogrinfo.html>`_ "
+"などのツールを使用して\"ne_10m_lakes\"データファイルを詳しく調べると、このファイルに含まれるジオメトリと属性定義がわかります。 "
+"これらの属性値は、複数のCLASSオブジェクトを使用してデータセット内の要素を異なる方法で描画する方法として使用できます。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:246
+msgid ""
+"In our \"ne_10m_lakes\" dataset, we have a *ScaleRank* attribute, which "
+"seems to be related to the size of the lakes. We can use this as a way to "
+"render the lakes differently. In the LAYER object, we'll add another CLASS "
+"object just before our current one::"
+msgstr ""
+"\"ne_10m_lakes\"データセットには、湖の大きさに関係すると思われる*ScaleRank*属性がある。これを使って湖を違った形にレンダリングすることができますLAYERオブジェクトでは、現在のオブジェクトの直前に別のCLASSオブジェクトを追加します。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:271
+msgid ""
+"What does our new CLASS object do? It basically tells MapServer to draw the "
+"elements having the \"ScaleRank\" property equal to \"0\" or \"1\" with a "
+"black outline. Class objects are always read from the top to the bottom for "
+"each feature to be drawn. When a feature matches the \"EXPRESSION\" "
+"specified in a class, that class is going to render the feature. If the "
+"feature does not match a class the next class is checked. If a feature does "
+"not match any class then it is not rendered at all but if the last class in "
+"a layer contains no EXPRESSION then that class acts as a default. The LAYER "
+"\"CLASSITEM\" property tells MapServer which attribute to use when "
+"evaluating EXPRESSIONs defined in the CLASS objects."
+msgstr ""
+"新しいCLASSオブジェクトは何をしますか?基本的には、MapServerに対して、「0」または「1」に等しい「ScaleRank」プロパティを持つ要素を黒いアウトラインで描画するように指示します。クラスオブジェクトは、描画されるフィーチャごとに常に上から下に読み込まれます。フィーチャがクラスで指定された「EXPRESSION」に一致すると、そのクラスはフィーチャをレンダリングします。フィーチャがクラスと一致しない場合、次のクラスがチェックされます。フィーチャがどのクラスとも一致しない場合、フィーチャはまったくレンダリングされませんが、画層の最後のクラスにEXPRESSIONが含まれていない場合、そのクラスが既定として機能します。LAYERの「CLASSITEM」プロパティは、CLASSオブジェクトで定義された式を評価するときに使用する属性をMapServerに伝えます。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:282
+msgid ""
+"The result of this new addition should make the big lakes in our map image "
+"rendered with a black outline:"
+msgstr "この新しい追加の結果、地図イメージ内の大きな湖が黒いアウトラインでレンダリングされます。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:290
+msgid ""
+"Learn more about `EXPRESSIONS "
+"<https://mapserver.org/mapfile/expressions.html>`_ in MapServer."
+msgstr ""
+"MapServerの `EXPRESSIONS <https://mapserver.org/mapfile/expressions.html>`_ "
+"の詳細をご覧ください。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:295
+msgid "Publish your data as OGC WMS (Web Map Service)"
+msgstr "データをOGC WMS(Web Map Service)としてパブリッシュする"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:297
+msgid ""
+"MapServer supports different OGC Standards like OGC WMS, WFS or WCS. With "
+"OGC WMS you can publish your data as a Map Service and integrate the service"
+" in a Desktop GIS like QGIS or in a Web Client like OpenLayers or Mapbender."
+msgstr ""
+"MapServerは、OGC WMS、WFS、WCSなど、さまざまなOGC標準をサポートしています。OGC "
+"WMSを使用すると、データをマップサービスとしてパブリッシュし、QGISのようなデスクトップGISや、OpenLayersやMapbenderのようなWebクライアントでサービスを統合できます。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:300
+msgid "Using QGIS Desktop to load your OGC WMS"
+msgstr "QGISデスクトップを使用したOGC WMSのロード"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:302
+msgid ""
+"Start QGIS via :menuselection:`Geospatial --> Desktop GIS --> QGIS Desktop`."
+" Go to :menuselection:`Layer --> Add Layer --> Add WMS/WMTS Layer`."
+msgstr ""
+"QGISの起動方法 :menuselection:`Geospatial-->Desktop GIS-->QGIS Desktop` "
+":menuselection:`Layer --> Add Layer --> Add WMS/WMTS Layer` にいく"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:304
+msgid "Click button **New** and add a name and your Service URL"
+msgstr "ボタン **New** をクリックし、名前とサービスURLを追加します。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:306
+msgid "Save your settings:"
+msgstr "設定を保存します。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:308
+msgid ""
+"http://localhost/cgi-"
+"bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0"
+msgstr ""
+"http://localhost/cgi-"
+"bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:310
+msgid ""
+"Then you can connect to your service and add one or more layers of the "
+"service to your QGIS project. If you choose the layer with the ID 0 you can "
+"load the whole service with all layers at once."
+msgstr ""
+"その後、サービスに接続し、サービスの1つまたは複数のレイヤをQGISプロジェクトに追加できます。ID "
+"0のレイヤを選択すると、すべてのレイヤを含むサービス全体を一度にロードできます。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:317
+msgid "What Next?"
+msgstr "次のステップ"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:319
+msgid ""
+"This is a simple example, but you can do much, much more. The MapServer "
+"project website contains many resources to help you get started. Here's a "
+"few resources to check out next:"
+msgstr ""
+"これは簡単な例ですが、できることはたくさんあります。MapServerプロジェクトのWebサイトには、作業を開始に役立つ多くのリソースが用意されています。次に、いくつかのをいくつか紹介しよう。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:323
+msgid ""
+"Read the `Introduction to MapServer "
+"<https://mapserver.org/introduction.html#introduction>`_."
+msgstr ""
+"`MapServerの概要  <https://mapserver.org/introduction.html#introduction>`_ を読む"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:325
+msgid ""
+"Have a look at the `MapServer Tutorial "
+"<https://www.mapserver.org/tutorial/index.html>`_ which contains more "
+"Mapfile examples."
+msgstr ""
+"`MapServerチュートリアル <https://www.mapserver.org/tutorial/index.html>`_ をご覧ください"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:328
+msgid ""
+"Check the `OGC Support and Configuration "
+"<https://www.mapserver.org/ogc/index.html>`_ to learn more about OGC "
+"standards in MapServer (WMS, WFS, SLD, WFS Filter Encoding, WCS, SOS, etc.)."
+msgstr ""
+"`OGC サポートと構成 <https://www.mapserver.org/ogc/index.html>`_ "
+"をチェックして、MapServerのOGC標準（WMS、WFS、SLD、WFS Filter "
+"Encoding、WCS、SOSなど）の詳細を確認してください。"
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:331
+msgid ""
+"Ready to use MapServer? Then join the community on the `Mailing Lists "
+"<https://www.mapserver.org/community/lists.html>`_ to exchange ideas, "
+"discuss potential software improvements and ask questions."
+msgstr ""
+"MapServerを使用する準備はできていますか?次に、`メーリングリスト<https://www.mapserver.org/community/lists.html>`"
+" _ のコミュニティに参加して、アイデアを交換したり、ソフトウェアの改善点について話し合ったり、質問したりします。"

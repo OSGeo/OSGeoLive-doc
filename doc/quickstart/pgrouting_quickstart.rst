@@ -1,8 +1,9 @@
+:Author: Vicky Vergara
 :Author: Daniel Kastl
 :Author: Regina Obe
 :Reviewer: Angelos Tzotsos, OSGeo
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
-:Version: osgeolive13.0
+:Version: osgeolive14.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_pgrouting@
@@ -15,267 +16,365 @@
 @NAME_pgrouting@ Quickstart
 ********************************************************************************
 
-pgRouting is an extension that adds routing and other network analysis functionality to :doc:`PostGIS <../overview/postgis_overview>`/`PostgreSQL <https://www.postgresql.org>`_ databases.
-
-This Quick Start describes how to enable pgrouting in a PostgreSQL database, load data with osm2pgrouting, and run a basic shortest path query with the sample test data.
+pgRouting is an extension that adds routing and other network analysis functionality
+to :doc:`../overview/postgis_overview`/`PostgreSQL <https://www.postgresql.org>`_ databases.
 
 .. contents:: Contents
    :local:
-   
+
 Enabling pgRouting in a database
-================================
-In this example we will create a database called `city_routing` and enable pgRouting in the database.
+================================================================================
+In this example we will create a database called `city_routing` and enable pgRouting
+in the database.
 
-* Open a :menuselection:`System Tools --> LXTerminal` window and open up psql: (psql is the commandline tool packaged with PostgreSQL)
-
-::
-
-  	psql
-
-At psql prompt type:
+* Open a :menuselection:`System Tools --> QTerminal` window and execute the commandline
+  tool packaged with PostgreSQL `psql`
 
 ::
 
-	CREATE DATABASE city_routing;
-	\connect city_routing;
-	CREATE EXTENSION postgis;
-	CREATE EXTENSION pgrouting;
+    psql
 
+At the `psql` prompt type:
 
-If you are running PostgreSQL 9.6+, you can skip the postgis line and do :code:`CREATE EXTENSION pgrouting CASCADE;`
+::
+
+  CREATE DATABASE city_routing;
+  \connect city_routing;
+  CREATE EXTENSION pgrouting CASCADE;
+
 
 You can verify your installation by running this:
 
 ::
 
-	SELECT  * FROM pgr_version();
+  SELECT  * FROM pgr_version();
 
 ::
 
-	 version |  tag   |   hash    | branch | boost
-	---------+--------+-----------+--------+--------
-	 2.3.2   | v2.3.2 | 1f2af3c52 | master | 1.58.0
-	(1 row)
+  pgr_version
+  -------------
+   3.1.0
+  (1 row)
 
-Your version should be 2.1.0 or higher to use examples in this quickstart.
+Your version should be 3.1.0 or higher
+
+Exit the database
+
+::
+
+  \q
+
 
 Loading OSM data with osm2pgrouting
-===================================
-osm2pgrouting is a command-line tool for loading .osm files into pgRouting compatible format.
-Here is how you use osm2pgrouting version 2.1.0+.
+================================================================================
 
-Open a new terminal window to verify the version of osm2pgrouting you have installed. Should read 2.1 or higher.
+osm2pgrouting is a command-line tool for loading `.osm` files into the database
+with a pgRouting compatible format.
 
-::
-
-	osm2pgrouting --version
-
-Output shows:
+Check the installed version
 
 ::
 
-	This is osm2pgrouting Version 2.2
+  osm2pgrouting --version
 
-Now load the data from osm file:
+Output shows
 
 ::
 
-	 cd
-	 bzcat data/osm/feature_city.osm.bz2 > /tmp/feature_city.osm
-	 osm2pgrouting -f /tmp/feature_city.osm -h localhost -U user -d city_routing -p 5432 -W user --conf=/usr/share/osm2pgrouting/mapconfig_for_cars.xml
-	 rm /tmp/feature_city.osm
+  This is osm2pgrouting Version 2.3.6
+
+Load the data from osm file:
+
+::
+
+   bzcat data/osm/feature_city.osm.bz2 > /tmp/feature_city.osm
+   osm2pgrouting
+     -f /tmp/feature_city.osm \
+     -h localhost \
+     -U user \
+     -d city_routing \
+     -p 5432 \
+     -W user \
+     --conf=/usr/share/osm2pgrouting/mapconfig_for_cars.xml \
+   rm /tmp/feature_city.osm
 
 
 Output should be something like:
 
 ::
 
-	Export Ways ...
-	    Processing 45383 ways:
-	[*************************************************| ] (99%)    Ways Processed: 45383	    Split Ways generated: 10483	Vertices inserted 9165 Inserted 10483 split ways
-	Creating Foreign Keys ...
-	Foreign keys for osm_way_classes table created
-	Foreign keys for relations_ways table created
-	Foreign keys for Ways table created
-	#########################
-	size of streets: 45383
-	#########################
 
-Running pgRouting
-=================
+  Execution starts at: Thu Jan 21 16:25:38 2021
 
-* Open a :menuselection:`System Tools --> LXTerminal` window and connect to the ``city_routing`` database:
+  ***************************************************
+             COMMAND LINE CONFIGURATION             *
+  ***************************************************
+  Filename = /tmp/feature_city.osm
+  Configuration file = /usr/share/osm2pgrouting/mapconfig_for_cars.xml
+  host = localhost
+  port = 5432
+  dbname = city_routing
+  username = user
+  schema=
+  prefix =
+  suffix =
+  Don't drop tables
+  Don't create indexes
+  Don't add OSM nodes
+  ***************************************************
+  Testing database connection: city_routing
+  database connection successful: city_routing
+  Connecting to the database
+  connection success
 
-::
+  Creating tables...
+  TABLE: ways_vertices_pgr created ... OK.
+  TABLE: ways created ... OK.
+  TABLE: pointsofinterest created ... OK.
+  TABLE: configuration created ... OK.
+  Opening configuration file: /usr/share/osm2pgrouting/mapconfig_for_cars.xml
+      Parsing configuration
 
-	psql -U postgres city_routing
-
-* Type :command:`\\d` will list you all available tables:
-
-::
-
-	                    List of relations
-	 Schema |           Name           |   Type   |  Owner
-	--------+--------------------------+----------+----------
-	 public | geography_columns        | view     | postgres
-	 public | geometry_columns         | view     | postgres
-	 public | osm_nodes                | table    | postgres
-	 public | osm_nodes_node_id_seq    | sequence | postgres
-	 public | osm_relations            | table    | postgres
-	 public | osm_way_classes          | table    | postgres
-	 public | osm_way_types            | table    | postgres
-	 public | raster_columns           | view     | postgres
-	 public | raster_overviews         | view     | postgres
-	 public | relations_ways           | table    | postgres
-	 public | spatial_ref_sys          | table    | postgres
-	 public | ways                     | table    | postgres
-	 public | ways_gid_seq             | sequence | postgres
-	 public | ways_vertices_pgr        | table    | postgres
-	 public | ways_vertices_pgr_id_seq | sequence | postgres
-	(15 rows)
+  Exporting configuration ...
+    - Done
+  Counting lines ...
+    - Done
+  Opening data file: /tmp/feature_city.osm        total lines: 844044
+      Parsing data
 
 
-* Run the Dijkstra shortest path function assuming undirected travel:
-
-::
-
-	SELECT seq, node, edge, cost
-		FROM pgr_dijkstra('
-			SELECT gid as id, source, target,
-				length as cost FROM ways',
-			100, 600, false
-		);
-
-::
-
-	 seq | node | edge  |         cost
-	-----+------+-------+-----------------------
-	   1 |  100 |   148 |  0.000106201177015572
-	   2 | 3603 |  4118 |  0.000171096610136435
-	   3 | 8284 |  9429 |  0.000101401380664492
-	 ... |  ... |   ... |                 ...
-	  37 | 3461 |  3964 |   0.00121559903339768
-	  38 | 1761 |  2013 |   0.00307553090376563
-	  39 | 5981 |  6801 |  0.000158813884783759
-	  40 |  600 |    -1 |                     0
-	(40 rows)
+  End Of file
 
 
-pgr_dijkstra also supports bigints for nodes and edges, and osm2pgrouting loads the osm_ids as well, so you
-could alternatively use the osm_id instead of the autogenerated source and targets for nodes.
-To look up the corresponding osm_ids for our nodes, we would use this query:
+      Finish Parsing data
+
+  Adding auxiliary tables to database...
+
+  Export Ways ...
+      Processing 37373 ways:
+  [**************************|                        ] (53%) Total processed: 20000       Vertices inserted: 8126        Split ways inserted 10253
+  [**************************************************|] (100%) Total processed: 37373      Vertices inserted: 1423        Split ways inserted 3385
+
+  Creating indexes ...
+
+  Processing Points of Interest ...
+  #########################
+  size of streets: 37373
+  Execution started at: Thu Jan 21 16:25:38 2021
+  Execution ended at:   Thu Jan 21 16:25:42 2021
+  Elapsed time: 4.645 Seconds.
+  User CPU time: -> 2.36362 seconds
+  #########################
+
+
+Check the imported data
+================================================================================
+
+Connect to the `city_routing` database
 
 ::
 
-	SELECT id, osm_id
-		FROM ways_vertices_pgr where id IN( 100, 600);
+  psql city_routing
 
-Which outputs:
-
-::
-
-	 id  |   osm_id
-	-----+------------
-	 100 | 1896068597
-	 600 |   31369798
-	(2 rows)
-
-
-To do so you would change
-your query to below:
+The :command:`\\d` command will list all available tables and sequences
 
 ::
 
-	SELECT seq, node, edge, cost
-	FROM pgr_dijkstra('
-		SELECT gid as id, source_osm AS source, target_osm AS target,
-			length as cost FROM ways',
-		1896068597, 31369798, false
-	);
+                      List of relations
+   Schema |           Name           |   Type   |  Owner
+  --------+--------------------------+----------+----------
+   public | geography_columns        | view     | postgres
+   public | geometry_columns         | view     | postgres
+   public | osm_nodes                | table    | postgres
+   public | osm_nodes_node_id_seq    | sequence | postgres
+   public | osm_relations            | table    | postgres
+   public | osm_way_classes          | table    | postgres
+   public | osm_way_types            | table    | postgres
+   public | raster_columns           | view     | postgres
+   public | raster_overviews         | view     | postgres
+   public | relations_ways           | table    | postgres
+   public | spatial_ref_sys          | table    | postgres
+   public | ways                     | table    | postgres
+   public | ways_gid_seq             | sequence | postgres
+   public | ways_vertices_pgr        | table    | postgres
+   public | ways_vertices_pgr_id_seq | sequence | postgres
+  (15 rows)
 
-Note: the SQL statement must always have field names `id, source, target, and cost`.
-Since we are using fields `source_osm` and `target_osm`, we need to alias them so resulting pgr_dijkstra query columns are named source and target.
+
+
+osm2pgrouting loads the OSM identifiers `osm_id` and it also generates a unique
+identifier for all the data: `id` on the vertices, `gid` on the edges.
+
+::
+
+  SELECT id, osm_id
+  FROM ways_vertices_pgr
+  WHERE id IN(100,600);
+
+The results are:
+
+::
+
+   id  |  osm_id
+  -----+----------
+   100 | 81622364
+   600 | 82708785
+  (2 rows)
+
+
+Inner Query
+================================================================================
+
+Most of the pgRouting functions have a parameter that is an SQL statement, it is
+called **inner query**
+
+The inner SQL statement must always have field names `id`, `source`, `target`, and `cost`
+having `reverse_cost` as optional.
+
+Inner query that use `gid` as identifier of the segments
+
+::
+
+  SELECT gid as id,
+         source, target,
+         cost, reverse_cost
+  FROM ways
+
+Inner query that use `gid` as identifier of the segments and lenght as `cost`
+without the optional `reverse_cost`
+
+::
+
+  SELECT gid as id,
+         source, target,
+         length AS cost
+  FROM ways
+
+
+pgr_Dijkstra
+================================================================================
+
+Run the Dijkstra shortest path function based on the time in seconds to traverse
+a segment on an undirected graph, using `id` as the identifier of a vertex
+
+::
+
+  SELECT *
+  FROM pgr_dijkstra(
+    'SELECT gid as id,
+            source, target,
+            cost_s AS cost, reverse_cost_s AS reverse_cost
+    FROM ways',
+    100, 600,
+    directed => false
+  );
+
+
+The results are:
+
+::
+
+   seq | path_seq | node | edge  |      cost          |       agg_cost
+  -----+----------+------+-------+--------------------+--------------------
+     1 |        1 |  100 |  6199 |  8.994104012024671 |                  0
+     2 |        2 | 4360 |   152 | 2.8524015038110697 |  8.994104012024671
+     3 |        3 |  101 |   511 | 2.4123361340227754 |  11.84650551583574
+     4 |        4 |  322 |   707 |   3.63955931676029 | 14.258841649858514
+     5 |        5 |  448 |   705 | 2.9567136964053367 | 17.898400966618805
+     6 |        6 |  445 |   662 |  4.185190538775397 | 20.855114663024143
+     7 |        7 |  415 |   663 | 1.2667248968947813 |  25.04030520179954
+     8 |        8 |  442 |   699 |  6.371427985640729 |  26.30703009869432
+     9 |        9 |  593 |   913 | 2.5897354220718807 |  32.67845808433505
+    10 |       10 |  438 |   693 | 5.5261229396496585 |  35.26819350640693
+    11 |       11 | 1573 |  2421 |  7.003475952839719 |  40.79431644605659
+    12 |       12 |  619 | 10389 | 3.8659203494409344 |  47.79779239889631
+    13 |       13 |  600 |    -1 |                  0 |  51.66371274833725
+  (13 rows)
+
+
+.. rubric:: A query that use the OSM identifier becomes:
+
+::
+
+  SELECT *
+  FROM pgr_dijkstra(
+    'SELECT gid as id,
+            source_osm AS source, target_osm AS target,
+            cost_s AS cost, reverse_cost_s AS reverse_cost
+    FROM ways',
+    81622364, 82708785,
+    directed => false
+  );
+
+Because the query is using fields `source_osm` and `target_osm` the query aliases them to have
+the required names `source` and `target`.
 
 Output is:
 
 ::
 
-	 seq |    node    | edge  |         cost
-	-----+------------+-------+-----------------------
-	   1 | 1896068597 |   148 |  0.000106201177015572
-	   2 |  471372588 |  4118 |  0.000171096610136435
-	   3 |  471372583 |  9429 |  0.000101401380664492
-	   :
-	   :
-	  ...|  ...       |   ... |                 ...
-	  37 | 1370351630 |  3964 |   0.00121559903339768
-	  38 |   30812815 |  2013 |   0.00307553090376563
-	  39 | 3214028631 |  6801 |  0.000158813884783759
-	  40 |   31369798 |    -1 |                     0
-	(40 rows)
-
-Since we are still using autogenerated edge ids, our edge numbers are the same as our previous query,
-but the nodes are the osm node ids.
-
-The benefit of using the osm_ids instead of the auto-generated ids is that your results will be consistent
-between different databases if they share a common set of osm ids.  Not all pgRouting functions have
-been changed to use bigints, so osm_ids can't be used with all functions.
+   seq | path_seq |    node    | edge  |        cost        |      agg_cost
+  -----+----------+------------+-------+--------------------+--------------------
+     1 |        1 |   81622364 |  6199 |  8.994104012024671 |                  0
+     2 |        2 | 1177972556 |   152 | 2.8524015038110697 |  8.994104012024671
+     3 |        3 |   81622365 |   511 | 2.4123361340227754 |  11.84650551583574
+     4 |        4 |   81917858 |   707 |   3.63955931676029 | 14.258841649858514
+     5 |        5 |   82582021 |   705 | 2.9567136964053367 | 17.898400966618805
+     6 |        6 |   82581909 |   662 |  4.185190538775397 | 20.855114663024143
+     7 |        7 |   82571671 |   663 | 1.2667248968947813 |  25.04030520179954
+     8 |        8 |   82581612 |   699 |  6.371427985640729 |  26.30703009869432
+     9 |        9 |   82708510 |   913 | 2.5897354220718807 |  32.67845808433505
+    10 |       10 |   82580320 |   693 | 5.5261229396496585 |  35.26819350640693
+    11 |       11 |   97825917 |  2421 |  7.003475952839719 |  40.79431644605659
+    12 |       12 |   82714784 | 10389 | 3.8659203494409344 |  47.79779239889631
+    13 |       13 |   82708785 |    -1 |                  0 |  51.66371274833725
+  (13 rows)
 
 
+The costs are the same as in the first query
 
+.. rubric::  A query to get the geometry of the path
 
-* To output the route geometry, link the result with the road geometries:
+The results of `pgr_dijkstra` need to be joined with the table ways.
 
 ::
 
-	SELECT seq, edge, rpad(b.the_geom::text,60,' ') AS "the_geom (truncated)"
-		FROM pgr_dijkstra('
-			SELECT gid as id, source, target,
-				length as cost FROM ways',
-			100, 600, false
-		) a INNER JOIN ways b ON (a.edge = b.gid) ORDER BY seq;
+  SELECT seq, edge, rpad(b.the_geom::text,60,' ') AS "the_geom (truncated)"
+  FROM pgr_dijkstra(
+    'SELECT gid as id,
+            source, target,
+            cost_s AS cost, reverse_cost_s AS reverse_cost
+    FROM ways',
+    100, 600,
+    directed => false
+  ) AS q1
+  JOIN ways ON (edge = gid) ORDER BY seq;
 
 
-::
-
-	 seq | edge  |                     the_geom (truncated)
-	-----+-------+--------------------------------------------------------------
-	   1 |   148 | 0102000020E61000000200000035BEE5A03A641C40BC98C1734A5E4940F4
-	   2 |  4118 | 0102000020E610000002000000F4CE577F3A641C402B5CA0EE4D5E494058
-	   3 |  9429 | 0102000020E61000000200000058BCA2A53C641C40C3503D88535E4940F5
-	 ... |   ... |                                                          ...
-	  36 |  6538 | 0102000020E6100000020000002999F7938C6F1C409DD843FB585D49405C
-	  37 |  3964 | 0102000020E6100000020000005CAE7E6C926F1C40E55C2FF2575D494088
-	  38 |  2013 | 0102000020E6100000020000008849B89047701C406DF7BC2C375D4940E8
-	  39 |  6801 | 0102000020E610000002000000E82E89B322721C40A85890C1E55C494059
-	(39 rows)
-
-
-* You can view the routes using a graphical tool
-    such as :doc:`OpenJump <../overview/openjump_overview>` or
-    the :doc:`QGIS <../overview/qgis_overview>` DbManager extension.
-
-To use the DbManager extension of QGIS open up QGIS then go to ``Database -> DB Manager -> DB Manager``.
-Select the SQL Window icon and cut and paste the above pgRouting Query.
-
-* Run the Dijkstra shortest path function with considering direction.
-
-In the previous examples, we assumed streets have equal cost in both directions.
-For cases where you have one ways or different speed limits on either lane,
-cost going on one direction of a road, may be different than going the other way.
-For these cases you need to add an additional column to your query `reverse_cost`
+The results, for visual purposes are truncated here, the geometries are much longer
+than shown
 
 ::
 
-	SELECT seq, node, edge, cost
-		FROM pgr_dijkstra('
-			SELECT gid as id, source, target,
-				cost_s As cost, reverse_cost_s AS reverse_cost FROM ways',
-			100, 600, true
-		);
+   seq | edge  |                     the_geom (truncated)
+  -----+-------+--------------------------------------------------------------
+     1 |  6199 | 0102000020E6100000050000009F3825C56C3C4DC0D8367B56884A41C011
+     2 |   152 | 0102000020E610000003000000B586F7C19E3C4DC016A0127C784A41C034
+     3 |   511 | 0102000020E610000002000000EFF7D566AD3C4DC09C267D6B714A41C04A
+     4 |   707 | 0102000020E6100000060000004A247612B63C4DC0FA1F05F4674A41C052
+     5 |   705 | 0102000020E610000003000000964E35C4C23C4DC0D81E076F594A41C095
+     6 |   662 | 0102000020E610000002000000504FC4C7CC3C4DC00858AB764D4A41C01F
+     7 |   663 | 0102000020E610000002000000408C6BD7DF3C4DC013ACBBC3374A41C01F
+     8 |   699 | 0102000020E61000000300000082FD7C00F73C4DC0E44FAFEF1E4A41C017
+     9 |   913 | 0102000020E610000002000000650D28E5FF3C4DC03D02C985144A41C082
+    10 |   693 | 0102000020E610000002000000C761D5C5123D4DC060E05E3EFE4941C065
+    11 |  2421 | 0102000020E610000003000000675F1ED72B3D4DC0A45F11B2E24941C05F
+    12 | 10389 | 0102000020E6100000020000006CA9CD49393D4DC08E548440D34941C067
+  (12 rows)
 
 
-* With :command:`\\q` command leave the PostgreSQL shell.
+
+With :command:`\\q` command leave the PostgreSQL shell.
 
 
 What next?
@@ -284,6 +383,5 @@ What next?
 * **pgRouting Website** - Visit the project website https://pgrouting.org to learn more about pgRouting.
 * **pgRouting Documentation** - Find the most recent documentation in https://docs.pgrouting.org.
 * **pgRouting Workshop** - The workshop `"FOSS4G routing with pgRouting tools and OpenStreetMap road data"` is available in: https://workshop.pgrouting.org.
-* **osm2pgRouting loading data** - https://github.com/pgRouting/osm2pgrouting/wiki/Documentation-for-osm2pgrouting-v2.1
-* **QGIS pgRouting Layer Plugin** - https://plugins.qgis.org/plugins/pgRoutingLayer/ provides GUI for pgRouting functions and interacts with map so you don't have to write SQL.
+* **osm2pgRouting loading data** - https://github.com/pgRouting/osm2pgrouting/wiki/Documentation-for-osm2pgrouting-v2.3
 
