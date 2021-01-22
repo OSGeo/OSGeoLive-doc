@@ -90,7 +90,7 @@ GRASS GIS session (nc_spm_08):
 
    # running ace in the "nc_spm_08" location
    # (the current location name is propagated to the server):
-   ace --list-mapsets
+   ace --location latlong_wgs84 --list-mapsets
    ['PERMANENT', 'landsat']
 
 Access data from external sources
@@ -169,8 +169,8 @@ ephemeral mapset which will be removed after processing. You can export the
 output of GRASS GIS modules to store the computational result for download and further analysis.
 The following export formats are currently supported:
 
--  raster: ``GTiff``
--  vector: ``ESRI_Shapefile``, ``GeoJSON``, ``GML``
+-  raster: ``COG``, ``GTiff``
+-  vector: ``ESRI_Shapefile``, ``GeoJSON``, ``GML``, ``GPKG``
 -  table: ``CSV``, ``TXT``
 
 
@@ -192,12 +192,12 @@ Store the following script as text file ``ace_dtm_statistics.sh``:
 
    # grass78 ~/grassdata/nc_spm_08/user1/
    # Import the web resource and set the region to the imported map
-   g.region raster=elev+https://storage.googleapis.com/graas-geodata/elev_ned_30m.tif -ap
+   g.region raster=elev@https://storage.googleapis.com/graas-geodata/elev_ned_30m.tif -ap
    # Compute univariate statistics
    r.univar map=elev
    r.info elev
-   # Compute the slope of the imported map and mark it for export as geotiff file
-   r.slope.aspect elevation=elev slope=slope_elev+GTiff
+   # Compute the slope of the imported map and mark it for export as a COG file (Cloud Optimized GeoTIFF)
+   r.slope.aspect elevation=elev slope=slope_elev+COG
    r.info slope_elev
 
 Save the script in the text file to ``/tmp/ace_dtm_statistics.sh`` and
@@ -205,76 +205,116 @@ run the saved script as
 
 .. code:: bash
 
-   ace --script /tmp/ace_dtm_statistics.sh
+   ace --location nc_spm_08 --script ace_dtm_statistics.sh
 
-The results are provided as REST resources.
+The results (messages, statistics, files) are provided as REST resources.
 
 To generate the actinia process chain JSON request simply add the
 --dry-run flag
 
 .. code:: bash
 
-   ace --dry-run --script /tmp/ace_dtm_statistics.sh
+   ace --dry-run --location nc_spm_08 --script /tmp/ace_dtm_statistics.sh
 
 The output should look like this:
 
 .. code:: json
 
-   {
-     "version": "1",
-     "list": [
-       {
-         "module": "g.region",
-         "id": "g.region_1804289383",
-         "flags": "pa",
-         "inputs": [
-           {
-             "import_descr": {
-               "source": "https://storage.googleapis.com/graas-geodata/elev_ned_30m.tif",
-               "type": "raster"
-             },
-             "param": "raster", "value": "elev"
-           }
-         ]
-       },
-       {
-         "module": "r.univar",
-         "id": "r.univar_1804289383",
-         "inputs": [
-           {"param": "map", "value": "elev"},
-           {"param": "percentile", "value": "90"},
-           {"param": "separator", "value": "pipe"}
-         ]
-       },
-       {
-         "module": "r.info",
-         "id": "r.info_1804289383",
-         "inputs": [{"param": "map", "value": "elev"}]
-       },
-       {
-         "module": "r.slope.aspect",
-         "id": "r.slope.aspect_1804289383",
-         "inputs": [
-           {"param": "elevation", "value": "elev"},
-           {"param": "format", "value": "degrees"},
-           {"param": "precision", "value": "FCELL"},
-           {"param": "zscale", "value": "1.0"},
-           {"param": "min_slope", "value": "0.0"}
-         ],
-         "outputs": [
-           {
-             "export": {"format": "GTiff", "type": "raster"},
-             "param": "slope", "value": "slope_elev"
-           }
-         ]
-       },
-       {
-         "module": "r.info",
-         "id": "r.info_1804289383",
-         "inputs": [{"param": "map", "value": "slope_elev"}]
-       }
-     ]
-   }
+    {
+      "version": "1",
+      "list": [
+        {
+          "module": "g.region",
+          "id": "g.region_1804289383",
+          "flags": "pa",
+          "inputs": [
+            {
+              "import_descr": {
+                "source": "https://storage.googleapis.com/graas-geodata/elev_ned_30m.tif",
+                "type": "raster"
+              },
+              "param": "raster",
+              "value": "elev"
+            }
+          ]
+        },
+        {
+          "module": "r.univar",
+          "id": "r.univar_1804289383",
+          "inputs": [
+            {
+              "param": "map",
+              "value": "elev"
+            },
+            {
+              "param": "percentile",
+              "value": "90"
+            },
+            {
+              "param": "separator",
+              "value": "pipe"
+            }
+          ]
+        },
+        {
+          "module": "r.info",
+          "id": "r.info_1804289383",
+          "inputs": [
+            {
+              "param": "map",
+              "value": "elev"
+            }
+          ]
+        },
+        {
+          "module": "r.slope.aspect",
+          "id": "r.slope.aspect_1804289383",
+          "inputs": [
+            {
+              "param": "elevation",
+              "value": "elev"
+            },
+            {
+              "param": "format",
+              "value": "degrees"
+            },
+            {
+              "param": "precision",
+              "value": "FCELL"
+            },
+            {
+              "param": "zscale",
+              "value": "1.0"
+            },
+            {
+              "param": "min_slope",
+              "value": "0.0"
+            }
+          ],
+          "outputs": [
+            {
+              "export": {
+                "format": "COG",
+                "type": "raster"
+              },
+              "param": "slope",
+              "value": "slope_elev"
+            }
+          ]
+        },
+        {
+          "module": "r.info",
+          "id": "r.info_1804289383",
+          "inputs": [
+            {
+              "param": "map",
+              "value": "slope_elev"
+            }
+          ]
+        }
+      ]
+    }
+
 
 Example 2: Orthophoto image segmentation with export
 ----------------------------------------------------
@@ -286,8 +326,8 @@ Store the following script as text file ``/tmp/ace_segmentation.sh``:
    # grass78 ~/grassdata/nc_spm_08/user1/
    # Import the web resource and set the region to the imported map
    # we apply a trick for the import of multi-band GeoTIFFs:
-   # install with: g.extension importer
-   importer raster=ortho2010+https://apps.mundialis.de/workshops/osgeo_ireland2017/north_carolina/ortho2010_t792_subset_20cm.tif
+   # install with: g.extension importer url=https://github.com/mundialis/importer
+   importer raster=ortho2010@https://apps.mundialis.de/workshops/osgeo_ireland2017/north_carolina/ortho2010_t792_subset_20cm.tif
    # The importer has created three new raster maps, one for each band in the geotiff file
    # stored them in an image group
    r.info map=ortho2010.1
@@ -296,7 +336,8 @@ Store the following script as text file ``/tmp/ace_segmentation.sh``:
    # Set the region and resolution
    g.region raster=ortho2010.1 res=1 -p
    # Note: the RGB bands are organized as a group
-   i.segment group=ortho2010 threshold=0.25 output=ortho2010_segment_25+GTiff goodness=ortho2010_seg_25_fit+GTiff
+   # export as a as COG file (Cloud Optimized GeoTIFF)
+   i.segment group=ortho2010 threshold=0.25 output=ortho2010_segment_25+COG goodness=ortho2010_seg_25_fit+COG
    # Finally vectorize segments with r.to.vect and export as a GeoJSON file
    r.to.vect input=ortho2010_segment_25 type=area output=ortho2010_segment_25+GeoJSON
 
@@ -304,9 +345,9 @@ Run the script saved in a text file as
 
 .. code:: bash
 
-   ace --script /tmp/ace_segmentation.sh
+   ace --location nc_spm_08 --script /tmp/ace_segmentation.sh
 
-The results are provided as REST resources.
+The results (messages, statistics, files) are provided as REST resources.
 
 Examples for persistent processing
 ----------------------------------
@@ -328,7 +369,7 @@ Run the commands from the statistic script in the new persistent mapset
 
 .. code:: bash
 
-   ace --location nc_spm_08 --persistent test_mapset --script /path/to/ace_dtm_statistics.sh
+   ace --location nc_spm_08 --persistent test_mapset --script /tmp/ace_dtm_statistics.sh
 
 Show all raster maps that have been created with the script in
 test_mapset
@@ -344,13 +385,13 @@ Show information about raster map elev and slope_elev
    ace --location nc_spm_08 --persistent test_mapset r.info elev@test_mapset
    ace --location nc_spm_08 --persistent test_mapset r.info slope_elev@test_mapset
 
-Delete the test_mapset
+Delete the test_mapset (always double check names when deleting)
 
 .. code:: bash
 
    ace --location nc_spm_08 --delete-mapset test_mapset
 
-If the active GRASS GIS session has identical location/mapset settings,
+If the active GRASS GIS session has identical location/mapset names,
 then an alias can be used to avoid the persistent option in each single
 command call:
 
@@ -379,9 +420,9 @@ Create new locations
 .. code:: bash
 
    # create new location
-   ace --create-location latlon 4326
+   ace --create-location latlon_test 4326
    # create new mapset within location
-   ace --location latlon --create-mapset user1
+   ace --location latlon_test --create-mapset user1
 
 Install GRASS GIS addons (extensions)
 --------------------------------------------------------------------------------
@@ -389,10 +430,10 @@ Install GRASS GIS addons (extensions)
 
    # list existing addons, see also
    # https://grass.osgeo.org/grass7/manuals/addons/
-   ace --location latlon g.extension -l
+   ace --location latlon_test g.extension -l
 
    # install machine learning addon r.learn.ml
-   ace --location latlon g.extension r.learn.ml
+   ace --location latlon_test g.extension r.learn.ml
 
 
 
