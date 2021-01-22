@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-18 20:30+0100\n"
+"POT-Creation-Date: 2021-01-21 12:32-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../build/doc/sponsors.rst:1
 msgid "OSGeoLive Sponsors kea"
@@ -2402,6 +2402,26 @@ msgstr ""
 
 #: ../../build/translators.csv:1
 msgid "sanak"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Taro Matsuzawa"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "taro georepublic co jp"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Hiroshi Miura"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "miurahr osmf jp"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "miurahr"
 msgstr ""
 
 #: ../../build/translators.csv:1
