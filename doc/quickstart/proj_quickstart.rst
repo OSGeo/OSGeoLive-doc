@@ -34,7 +34,7 @@ PROJ
 What is PROJ ?
 --------------------------------------------------------------------------------
 
-PROJ and invproj perform respective forward and inverse transformation  of cartographic data to
+PROJ and invproj perform respective forward and inverse transformation of cartographic data to
 or from cartesian data with a wide range of selectable projection functions.
 
 proj Synopsis
@@ -61,10 +61,10 @@ The following script
      EOF
 
 will perform UTM forward projection with a stan-
-dard  UTM  central  meridian  nearest  longitude
-112W.  The geographic values of this example are
-equivalent and  meant  as  examples  of  various
-forms  of  DMS  input.  The x-y output data will
+dard UTM central meridian nearest longitude
+112W. The geographic values of this example are
+equivalent and meant as examples of various
+forms of DMS input. The x-y output data will
 appear as three lines of::
 
      460769.27     5011648.45
@@ -79,9 +79,9 @@ cs2cs
 What is cs2cs ?
 --------------------------------------------------------------------------------
 
-``cs2cs`` performs transformation between the source and destination cartographic  coordinate  system
-on a set of input points.  The coordinate system transformation can include  translation  between
-projected  and geographic coordinates as well as the application of datum shifts.
+``cs2cs`` performs transformation between the source and destination cartographic coordinate system
+on a set of input points. The coordinate system transformation can include translation between
+projected and geographic coordinates as well as the application of datum shifts.
 
 cs2cs Synopsis
 --------------------------------------------------------------------------------
@@ -106,9 +106,9 @@ The following script
      +45.25919444444    111d30'000w
      EOF
 
-will  transform the input NAD83 geographic coordinates into NAD27
-coordinates in the  UTM  projection  with  zone 10 selected.  The geographic
-values of this example are equivalent and  meant as  examples of various forms of DMS input.
+will transform the input NAD83 geographic coordinates into NAD27
+coordinates in the UTM projection with zone 10 selected. The geographic
+values of this example are equivalent and meant as examples of various forms of DMS input.
 The x-y output data will appear as three lines of:
 
 ::
@@ -125,15 +125,15 @@ geod
 What is geod ?
 --------------------------------------------------------------------------------
 
-``geod``  (direct)  and  ``invgeod`` (inverse) perform geodesic ("Great
-Circle") computations for determining latitude,  longitude  and
-back  azimuth  of  a terminus point given a initial point latitude,
-longitude, azimuth and distance (direct) or  the  forward
-and  back azimuths and distance between an initial and terminus
-point latitudes and  longitudes  (inverse).   The  results  are
-accurate  to  round  off for `|f| < 1/50`, where f is flattening.
+``geod`` (direct) and ``invgeod`` (inverse) perform geodesic ("Great
+Circle") computations for determining latitude, longitude and
+back azimuth of a terminus point given a initial point latitude,
+longitude, azimuth and distance (direct) or the forward
+and back azimuths and distance between an initial and terminus
+point latitudes and longitudes (inverse). The results are
+accurate to round off for `|f| < 1/50`, where f is flattening.
 
-``invgeod`` may not be available on all  platforms;  in  this  case
+``invgeod`` may not be available on all platforms; in this case
 call geod with the -I option.
 
 geod Synopsis
@@ -149,7 +149,7 @@ These commands are fully describe in `PROJ documentation <https://proj.org/apps/
 geod Example
 --------------------------------------------------------------------------------
 
-The following script determines the geodesic azimuths and  distance in U.S.
+The following script determines the geodesic azimuths and distance in U.S.
 statute miles from Boston, MA, to Portland, OR:
 
 ::
@@ -167,7 +167,7 @@ which gives the results:
 where the first two values are the azimuth from Boston to Portland,
 the back azimuth from Portland to Boston followed by the distance.
 
-An  example  of forward geodesic use is to use the Boston loca-
+An example of forward geodesic use is to use the Boston loca-
 tion and determine Portland's location by azimuth and distance:
 
 ::
@@ -183,7 +183,7 @@ which gives:
      45d31'0.003"N 123d40'59.985"W 75d39'13.094"
 
 .. note::
-    lack  of precision in the distance value compromises the
+    Lack of precision in the distance value compromises the
     precision of the Portland location.
 
 
