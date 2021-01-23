@@ -1,23 +1,24 @@
 :Author: OSGeoLive :Author: Mike Adair, Julien Moquet
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeolive11.0
+:Reviewer: Astrid Emde, OSGeo
+:Version: osgeolive14.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-@LOGO_proj4@
-@OSGEO_KIND_proj4@
+@LOGO_proj@
+@OSGEO_KIND_proj@
 
-@NAME_proj4@
+@NAME_proj@
 ================================================================================
 
-Proj4 is a library that provides methods to transform between different coordinate
+PROJ is a library that provides methods to transform between different coordinate
 reference systems. A geographic coordinate reference system allows all points on the
 earth to be described as a set of coordinates (such as latitude, longitude and
 elevation). Different systems are used to represent the tridimensional earth
 on a flat, bidimensional map.
 
-Proj4 is used in :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik <mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation and various others. 
+PROJ is used in :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik <mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation and various others. 
 
-Proj4 has been translated from C to `other languages <https://trac.osgeo.org/metacrs/wiki>`.  These sub-projects include:
+PROJ has been translated from C to `other languages <https://trac.osgeo.org/metacrs/wiki>`.  These sub-projects include:
 These tools include:
 * Proj4js (JavaScript) - used in :doc:`OpenLayers <openlayers_overview>`.
 * CS-Map (C++) - used in MapGuide.
@@ -25,7 +26,7 @@ These tools include:
 * Proj4J (Java).
 * `SpatialReference.org <https://spatialreference.org/>`_  - website to retrieve coordinate system definitions (obsolete).
 
-@SCREENSHOT_proj4@
+@SCREENSHOT_proj@
 
 Core Features
 --------------------------------------------------------------------------------
@@ -38,7 +39,7 @@ Core Features
 Implemented Standards
 --------------------------------------------------------------------------------
 
-Proj4 uses coordinate system definitions defined by the 
+PROJ uses coordinate system definitions defined by the 
 `European Petroleum Survey Group (EPSG) <https://www.epsg.org/>`.
 Well Known Text (WKT) format.
 
@@ -46,11 +47,11 @@ Well Known Text (WKT) format.
 Details
 --------------------------------------------------------------------------------
 
-  **Website:** @WEB_proj4@
+  **Website:** @WEB_proj@
   
-  **Licence:** `X/MIT style Open Source license <https://trac.osgeo.org/proj4j#License>`_
+  **Licence:** `X/MIT Open Source license <https://proj.org/about.html#license>`_
   
-  **Software Version:** 4.9.2 (stable)
+  **Software Version:** |version-proj|
   
   **Supported Platforms:** Windows, Linux, Mac
   
@@ -58,8 +59,8 @@ Details
   
   **Support:** https://lists.osgeo.org/mailman/listinfo/proj
 
-@VMDK_proj4@
-@QUICKSTART_proj4@
+@VMDK_proj@
+@QUICKSTART_proj@
 
 .. presentation-note
-    Proj4 is a library that provides methods to transform between different coordinate reference systems. A geographic coordinate reference systems allows all points on the earth to be described as a set of coordinates (such as latitude, longitude and elevation). Different systems are used to represent the 3 dimensional earth on a flat, 2 dimensional map..
+    PROJ is a library that provides methods to transform between different coordinate reference systems. A geographic coordinate reference systems allows all points on the earth to be described as a set of coordinates (such as latitude, longitude and elevation). Different systems are used to represent the 3 dimensional earth on a flat, 2 dimensional map..

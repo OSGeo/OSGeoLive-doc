@@ -1,20 +1,21 @@
 :Author: OSGeoLive
 :Author: Julien Moquet
 :Reviewer: Vicky Vergara
-:Version: osgeolive11.0
+:Reviewer: Astrid Emde, OSGeo
+:Version: osgeolive14.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-@LOGO_proj4@
-@OSGEO_KIND_proj4@
-@VMDK_proj4@
+@LOGO_proj@
+@OSGEO_KIND_proj@
+@VMDK_proj@
 
 
 
 ********************************************************************************
-@NAME_proj4@ Quickstart
+@NAME_proj@ Quickstart
 ********************************************************************************
 
-proj.4 is a standard Unix filter function which converts geographic longitude
+@NAME_proj@ is a standard Unix filter function which converts geographic longitude
 and latitude coordinates into cartesian coordinates (and vice versa), and it is
 a C API for software developers to include coordinate transformation in their
 own software.
@@ -23,18 +24,18 @@ own software.
    :local:
    :depth: 1
 
-proj
+PROJ
 ================================================================================
 
 .. note:: 
 
-  **What will I learn ?** In this section, you will learn how to use the proj tool. 
+  **What will I learn ?** In this section, you will learn how to use the PROJ tool. 
 
-What is proj ?
+What is PROJ ?
 --------------------------------------------------------------------------------
 
-Proj and invproj perform respective forward  and inverse  transformation  of cartographic data to
-or from cartesian data  with  a  wide  range  of selectable projection functions.
+PROJ and invproj perform respective forward and inverse transformation  of cartographic data to
+or from cartesian data with a wide range of selectable projection functions.
 
 proj Synopsis
 --------------------------------------------------------------------------------
@@ -43,9 +44,9 @@ proj Synopsis
     proj [ -bcCeEfiIlmorsStTvVwW [ args ] ] [ +args ] file[s]
     invproj [ -bcCeEfiIlmorsStTwW [ args ] ] [ +args ] file[s]
 
-These commands are fully describe in `proj documentation <https://proj.org/apps/proj.html>`_ for the latest version.
+These commands are fully describe in `PROJ documentation <https://proj.org/apps/proj.html>`_ for the latest version.
 
-proj Example
+PROJ Example
 --------------------------------------------------------------------------------
 
 The following script
@@ -143,7 +144,7 @@ geod Synopsis
 
        invgeod +ellps=<ellipse> [ -afFIlptwW [ args  ]  ]  [  +args  ] file[s]
 
-These commands are fully describe in `proj documentation <https://proj.org/apps/proj.html>`_ for the latest version.
+These commands are fully describe in `PROJ documentation <https://proj.org/apps/proj.html>`_ for the latest version.
 
 geod Example
 --------------------------------------------------------------------------------
