@@ -791,3 +791,9 @@ file_filter = locale/<lang>/LC_MESSAGES/overview/pygeoapi_overview.po
 source_file = locale/pot/overview/pygeoapi_overview.pot
 source_lang = en
 type = PO
+
+[osgeolive.quickstart--commandline_quickstart]
+file_filter = locale/<lang>/LC_MESSAGES/quickstart/commandline_quickstart.po
+source_file = locale/pot/quickstart/commandline_quickstart.pot
+source_lang = en
+type = PO

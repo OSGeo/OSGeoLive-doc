@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-01-18 20:30+0100\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -729,6 +729,22 @@ msgid "?"
 msgstr "?"
 
 #: ../../build/contributors.csv:1
+msgid "Enock Seth Nyamador"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+msgid "open enockseth co"
+msgstr ""
+
+#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
+msgid "Ghana"
+msgstr "Ghana"
+
+#: ../../build/contributors.csv:1
+msgid "enockseth"
+msgstr ""
+
+#: ../../build/contributors.csv:1
 msgid "Eric Lemoine"
 msgstr "Eric Lemoine"
 
@@ -967,10 +983,6 @@ msgstr "Henry Addo"
 #: ../../build/contributors.csv:1
 msgid "henry ushahidi com"
 msgstr "henry ushahidi com"
-
-#: ../../build/contributors.csv:1
-msgid "Ghana"
-msgstr "Ghana"
 
 #: ../../build/contributors.csv:1
 msgid "eyedol"

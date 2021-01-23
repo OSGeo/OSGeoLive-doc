@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-01-21 12:32-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -601,6 +601,22 @@ msgid "?"
 msgstr ""
 
 #: ../../build/contributors.csv:1
+msgid "Enock Seth Nyamador"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+msgid "open enockseth co"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+msgid "Ghana"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+msgid "enockseth"
+msgstr ""
+
+#: ../../build/contributors.csv:1
 msgid "Eric Lemoine"
 msgstr ""
 
@@ -838,10 +854,6 @@ msgstr ""
 
 #: ../../build/contributors.csv:1
 msgid "henry ushahidi com"
-msgstr ""
-
-#: ../../build/contributors.csv:1
-msgid "Ghana"
 msgstr ""
 
 #: ../../build/contributors.csv:1
@@ -2390,6 +2402,26 @@ msgstr ""
 
 #: ../../build/translators.csv:1
 msgid "sanak"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Taro Matsuzawa"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "taro georepublic co jp"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Hiroshi Miura"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "miurahr osmf jp"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "miurahr"
 msgstr ""
 
 #: ../../build/translators.csv:1
