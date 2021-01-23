@@ -70,7 +70,7 @@ same as
 cd ~
 
 `cd ..` moves you one directory to the top, 
-`cd ~user` goes from your current location to the home directory of user. This is not the same as `/user`
+`cd` user goes from your current location to the home directory of user. This is not the same as `/user`
 
 .. tip:: 
    Use the tab key to autocomplete the path while you are typing. 
