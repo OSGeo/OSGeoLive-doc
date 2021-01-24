@@ -1,8 +1,10 @@
 :Author: Massimo Di Stefano
+:Author: Astrid Emde, OSGeo
 :Contact: epiesasha at me dot com
-:Version: osgeolive9.5
-:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Reviewer: Cameron Shorter, Jirotech
+:Reviewer: Astrid Emde, OSGeo
+:Version: osgeolive14
+:License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 @LOGO_jupyter@
 @OSGEO_KIND_jupyter@
@@ -19,111 +21,101 @@ The Jupyter Notebook is a web application that allows you to create and share do
 
 This Quick Start describes how to:
 
-  * start a jupyter notebook server
+  * start a Jupyter Notebook server
   * load a jupyter notebook
   * interact with python code and javascript widgets
 
 .. contents:: Contents
 
-Start the jupyter server
+Start the Jupyter server
 ================================================================================
 
 From the application launch menu in the lower left corner.
  
-* Choose  *Geospatial* -> *Spatial Tools* -> *Start Jupyter Notebook*
+* Choose  *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*
+
+A terminal window will open and a startup log will begin to scroll. Afterwards a web browser is launched showing the Jupyter Notebook dashboard. 
+From the Jupyter Notebook dashboard you can navigate the directory tree, start new notebooks, create files and directories, as well as rename, delete and upload files.
+
 
 .. image:: /images/projects/jupyter/jupyter1-1.png
    :scale: 60 %
   
-A terminal window will open and a startup log will begin to scroll.
 
-* Choose   *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook* 
 
-.. image:: /images/projects/jupyter/jupyter1-2.png
-   :scale: 60 %
-
-A web browser is launched showing the notebook dashboard.
-
-.. image:: /images/projects/jupyter/jupyter1-3.png
-   :scale: 60 %
-
-From the notebook dashboard you can navigate the directory tree, start new notebooks, create files and directories, as well as rename, delete and upload files.
-
-.. Cameron Comment. I suggest the first step should be to create a simple
-  "Hello World" notebook from scratch. 
-  Probably then extend to simple calculations. Like "print 10 + 5 = 15".
 
 Open and execute an existing notebook
 ================================================================================
 
-Let's open an existing notebook. From the main page click on the directory GSOC.
+Let's open an existing notebook. From the main page click on the directory geopandas-tutorial and choose the Introduction notebook (01-introduction-geospatial-data.ipynb). 
+This is an introduction with many examples on how to use geospatial vector data in Python with geopandas using the Natural Earth2 data.
 
-.. Cameron Comment: We are going through too many steps here to find the
-  Cesium example. We should be able to select Cesium from the first TOC.
-
-.. image:: /images/projects/jupyter/jupyter2.png
+.. image:: /images/projects/jupyter/jupyter2-1.png
    :scale: 80 %
+   
+The tutorial is made up with explaining text and cells. The cells contain in this case python code, that can be run.   
 
-Choose the Introduction notebook. 
- 
-.. image:: /images/projects/jupyter/jupyter3.png
+From the toolbar on top of the notebook you can choose different options: 
+
+* Cell-> Run Cells: will run the code in the cell with the focus and will move to the next cell.
+* Cell-> Run All:  will run all the cells and show the results If everything worked as planned you should be able to see the results at the bottom of the page.
+
+Have a look at the results after running all the cells. 
+
+.. image:: /images/projects/jupyter/jupyter2-2.png
+   :scale: 60 %
+   
+You will see additional Out[] section with different output for example tables, maps or calculations. 
+
+In Out[3] you can see the country information as a table.
+
+.. image:: /images/projects/jupyter/jupyter2-2.png
    :scale: 60 %
 
-This is a simple notebook, which contains text and links, like a HTML web page.
 
-Then under "Simple-web-gis-products" select "CESIUM".
+In Out[4] a plot was generated from all the countries.
 
-.. image:: /images/projects/jupyter/jupyter4.png
+.. image:: /images/projects/jupyter/jupyter2-3.png
    :scale: 60 %
+   
 
-.. Cameron Comments:
-  * Suggest rename Interact to Interactive
-
-Here there is a series of examples using the cesium javascript library.
-Let's click on "CesiumWidget Interact-Example", which uses the widget extension, some python libraries and cesium-js.
-
-From the toolbar on top of the notebook choose: cell->run all. If everything worked as planned you should be able to see the results at the bottom of the page.
-
-.. image:: /images/projects/jupyter/jupyter5.png
-   :scale: 60 %
+   
 
 Change code
 ================================================================================
 
-Now let's change some of the code:
+Now let's change some of the code.
 
-In the code cell ``in [8]`` we generated a python dictionary based on some keywords (location names) with empty values:
 
-.. code-block:: python
-
-    in [8]:  myplace = {'Eboli, IT':'', 'Woods Hole, MA':'', 'Durham, NH':''}
-
-and at the code input cell ``in [9]``, we loop over the dictionary keys and making use of a geocoding library ``geocoder``, we add the location information inside the previously created python dictionary ``my place``:
-
+In In [10] a filter was defined for the countries. Only the continent ``Africa`` is selected from the countries:
 
 .. code-block:: python
 
-    in [9]: import geocoder
-            import time
-            for i in myplace.keys():
-                g = geocoder.google(i)
-                print(g.latlng)
-                myplace[i]=g.latlng
+    In [10]:  africa = countries[countries['continent'] == 'Africa']
+    
+Therefore in the plot there is only the continent ``Africa``.    
 
-Try to add or replace new keywords like we did in ``In [8]``
-
+.. image:: /images/projects/jupyter/jupyter3-1.png
+   :scale: 80 %    
+   
+Change the selection to ``Asia`` and rund the two cells again.
+    
 .. code-block:: python
 
-    in []:  mynewplace = {'Cairns, AU':'', 'Cooktown, AU':'', 'Darvin, AU':''}
+    In [10]:  africa = countries[countries['continent'] == 'Asia']    
+    
+As result you will see that instead of ``Africa`` there will be ``Asia`` in the plot.    
 
-and re run ``In [9] [10] [11]`` you will see the newly created dictionary is now used in the drop down menu to select the new location and zoom-to within the Cesium globe.
+.. image:: /images/projects/jupyter/jupyter3-2.png
+   :scale: 80 %
+
+
+
 
 What Next?
 ================================================================================
 
-For more information about the jupyter notebook, please refer to the `jupyter official documentation`_.
-More notebook examples are available from the notebook root directory.
-For a quick introduction on how to use the jupyter-notebook interface, from the start page, check the notebook: "Introduction to jupyter notebook"
-
-
-.. _jupyter official documentation: http://jupyter.readthedocs.org/en/latest/index.html
+* Discover the other notebooks that are provided with OSGeoLive and find out how to work with Shapely, Rasterio, R, Iris & other software.
+* For more information about the jupyter notebook, please refer to the `Jupyter Notebooks official documentation <https://jupyter.readthedocs.io/>`_.
+* More notebook examples are available from the notebook root directory.
+* Quick introduction on how to use the Jupyter Notebooks interface: `Get started with Jupyter Notebook <https://jupyter.readthedocs.io/en/latest/content-quickstart.html>`_.
