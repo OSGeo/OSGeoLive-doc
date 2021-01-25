@@ -19,12 +19,12 @@ on a flat, bidimensional map.
 PROJ is used in :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik <mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation and various others. 
 
 PROJ has been translated from C to `other languages <https://trac.osgeo.org/metacrs/wiki>`_. These sub-projects include:
-These tools include:
 
 * Proj4js (JavaScript) - used in :doc:`OpenLayers <openlayers_overview>`.
 * CS-Map (C++) - used in MapGuide.
 * GeoTIFF/libgeotiff (C++).
 * Proj4J (Java).
+* `EPSG.io <http://epsg.io/>`_ - website to retrieve coordinate system definitions
 * `SpatialReference.org <https://spatialreference.org/>`_ - website to retrieve coordinate system definitions (obsolete).
 
 @SCREENSHOT_proj@
