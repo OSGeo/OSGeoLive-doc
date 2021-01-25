@@ -20,8 +20,8 @@ EOxServer is a server for presenting big Earth Observation (EO) data
 archives and metadata via Open Standards. It builds upon an Open Source
 stack of software which includes Python, :doc:`MapServer
 <../overview/mapserver_overview>`, Django/GeoDjango, :doc:`GDAL
-<../overview/gdal_overview>`,  :doc:`PROJ.4
-<../overview/proj4_overview>` and a :doc:`SpatiaLite
+<../overview/gdal_overview>`,  :doc:`PROJ
+<../overview/proj_overview>` and a :doc:`SpatiaLite
 <../overview/spatialite_overview>` or :doc:`PostGIS
 <../overview/postgis_overview>` database.
 
