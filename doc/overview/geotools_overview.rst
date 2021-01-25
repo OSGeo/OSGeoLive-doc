@@ -13,7 +13,7 @@
 GeoTools is an open source (LGPL) Java library which provides standards compliant methods for manipulating geospatial data, and uses data structures based on Open Geospatial Consortium (OGC) specifications.
 
 GeoTools is used by a number of projects including web services, command line tools and desktop applications. OSGeoLive applications which include GeoTools include:
-:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, AtlasStyler, :doc:`geomajas_overview`, Geopublisher, :doc:`geoserver_overview`, and :doc:`udig_overview`.
+:doc:`52nSOS_overview`, :doc:`52nWPS_overview`, AtlasStyler, Geomajas, Geopublisher, :doc:`geoserver_overview`, and :doc:`udig_overview`.
 
 @SCREENSHOT_geotools@
 

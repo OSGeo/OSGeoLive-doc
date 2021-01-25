@@ -24,7 +24,7 @@ typically used to monitor Earth's natural and built environment.
 
 EOxServer builds upon an Open Source stack of software which includes
 Python, :doc:`MapServer <mapserver_overview>`, Django/GeoDjango, :doc:`GDAL
-<gdal_overview>`, PROJ.4, and a :doc:`SpatiaLite <spatialite_overview>` or
+<gdal_overview>`, PROJ, and a :doc:`SpatiaLite <spatialite_overview>` or
 :doc:`PostGIS <postgis_overview>` database.
 
 @SCREENSHOT_eoxserver@
