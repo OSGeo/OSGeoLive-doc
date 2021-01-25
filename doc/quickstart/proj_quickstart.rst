@@ -1,20 +1,21 @@
 :Author: OSGeoLive
 :Author: Julien Moquet
 :Reviewer: Vicky Vergara
-:Version: osgeolive11.0
+:Reviewer: Astrid Emde, OSGeo
+:Version: osgeolive14.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-@LOGO_proj4@
-@OSGEO_KIND_proj4@
-@VMDK_proj4@
+@LOGO_proj@
+@OSGEO_KIND_proj@
+@VMDK_proj@
 
 
 
 ********************************************************************************
-@NAME_proj4@ Quickstart
+@NAME_proj@ Quickstart
 ********************************************************************************
 
-proj.4 is a standard Unix filter function which converts geographic longitude
+@NAME_proj@ is a standard Unix filter function which converts geographic longitude
 and latitude coordinates into cartesian coordinates (and vice versa), and it is
 a C API for software developers to include coordinate transformation in their
 own software.
@@ -23,18 +24,18 @@ own software.
    :local:
    :depth: 1
 
-proj
+PROJ
 ================================================================================
 
 .. note:: 
 
-  **What will I learn ?** In this section, you will learn how to use the proj tool. 
+  **What will I learn ?** In this section, you will learn how to use the PROJ tool. 
 
-What is proj ?
+What is PROJ ?
 --------------------------------------------------------------------------------
 
-Proj and invproj perform respective forward  and inverse  transformation  of cartographic data to
-or from cartesian data  with  a  wide  range  of selectable projection functions.
+PROJ and invproj perform respective forward and inverse transformation of cartographic data to
+or from cartesian data with a wide range of selectable projection functions.
 
 proj Synopsis
 --------------------------------------------------------------------------------
@@ -43,9 +44,9 @@ proj Synopsis
     proj [ -bcCeEfiIlmorsStTvVwW [ args ] ] [ +args ] file[s]
     invproj [ -bcCeEfiIlmorsStTwW [ args ] ] [ +args ] file[s]
 
-These commands are fully describe in `proj documentation <https://proj.org/apps/proj.html>`_ for the latest version.
+These commands are fully describe in `PROJ documentation <https://proj.org/apps/proj.html>`_ for the latest version.
 
-proj Example
+PROJ Example
 --------------------------------------------------------------------------------
 
 The following script
@@ -60,10 +61,10 @@ The following script
      EOF
 
 will perform UTM forward projection with a stan-
-dard  UTM  central  meridian  nearest  longitude
-112W.  The geographic values of this example are
-equivalent and  meant  as  examples  of  various
-forms  of  DMS  input.  The x-y output data will
+dard UTM central meridian nearest longitude
+112W. The geographic values of this example are
+equivalent and meant as examples of various
+forms of DMS input. The x-y output data will
 appear as three lines of::
 
      460769.27     5011648.45
@@ -78,9 +79,9 @@ cs2cs
 What is cs2cs ?
 --------------------------------------------------------------------------------
 
-``cs2cs`` performs transformation between the source and destination cartographic  coordinate  system
-on a set of input points.  The coordinate system transformation can include  translation  between
-projected  and geographic coordinates as well as the application of datum shifts.
+``cs2cs`` performs transformation between the source and destination cartographic coordinate system
+on a set of input points. The coordinate system transformation can include translation between
+projected and geographic coordinates as well as the application of datum shifts.
 
 cs2cs Synopsis
 --------------------------------------------------------------------------------
@@ -105,9 +106,9 @@ The following script
      +45.25919444444    111d30'000w
      EOF
 
-will  transform the input NAD83 geographic coordinates into NAD27
-coordinates in the  UTM  projection  with  zone 10 selected.  The geographic
-values of this example are equivalent and  meant as  examples of various forms of DMS input.
+will transform the input NAD83 geographic coordinates into NAD27
+coordinates in the UTM projection with zone 10 selected. The geographic
+values of this example are equivalent and meant as examples of various forms of DMS input.
 The x-y output data will appear as three lines of:
 
 ::
@@ -124,15 +125,15 @@ geod
 What is geod ?
 --------------------------------------------------------------------------------
 
-``geod``  (direct)  and  ``invgeod`` (inverse) perform geodesic ("Great
-Circle") computations for determining latitude,  longitude  and
-back  azimuth  of  a terminus point given a initial point latitude,
-longitude, azimuth and distance (direct) or  the  forward
-and  back azimuths and distance between an initial and terminus
-point latitudes and  longitudes  (inverse).   The  results  are
-accurate  to  round  off for `|f| < 1/50`, where f is flattening.
+``geod`` (direct) and ``invgeod`` (inverse) perform geodesic ("Great
+Circle") computations for determining latitude, longitude and
+back azimuth of a terminus point given a initial point latitude,
+longitude, azimuth and distance (direct) or the forward
+and back azimuths and distance between an initial and terminus
+point latitudes and longitudes (inverse). The results are
+accurate to round off for `|f| < 1/50`, where f is flattening.
 
-``invgeod`` may not be available on all  platforms;  in  this  case
+``invgeod`` may not be available on all platforms; in this case
 call geod with the -I option.
 
 geod Synopsis
@@ -143,12 +144,12 @@ geod Synopsis
 
        invgeod +ellps=<ellipse> [ -afFIlptwW [ args  ]  ]  [  +args  ] file[s]
 
-These commands are fully describe in `proj documentation <https://proj.org/apps/proj.html>`_ for the latest version.
+These commands are fully describe in `PROJ documentation <https://proj.org/apps/proj.html>`_ for the latest version.
 
 geod Example
 --------------------------------------------------------------------------------
 
-The following script determines the geodesic azimuths and  distance in U.S.
+The following script determines the geodesic azimuths and distance in U.S.
 statute miles from Boston, MA, to Portland, OR:
 
 ::
@@ -166,7 +167,7 @@ which gives the results:
 where the first two values are the azimuth from Boston to Portland,
 the back azimuth from Portland to Boston followed by the distance.
 
-An  example  of forward geodesic use is to use the Boston loca-
+An example of forward geodesic use is to use the Boston loca-
 tion and determine Portland's location by azimuth and distance:
 
 ::
@@ -182,7 +183,7 @@ which gives:
      45d31'0.003"N 123d40'59.985"W 75d39'13.094"
 
 .. note::
-    lack  of precision in the distance value compromises the
+    Lack of precision in the distance value compromises the
     precision of the Portland location.
 
 

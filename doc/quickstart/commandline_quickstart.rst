@@ -69,8 +69,8 @@ cd /home/user goes to your home directory
 same as
 cd ~
 
-`cd ..` moves you one directory to the top 
-`cd user` goes from your current location to the home directory of user. This is not the same as `/user`
+`cd ..` moves you one directory to the top, 
+`cd` user goes from your current location to the home directory of user. This is not the same as `/user`
 
 .. tip:: 
    Use the tab key to autocomplete the path while you are typing. 
@@ -102,7 +102,7 @@ How to create a new file
  touch hello.txt
 
 .. tip:: 
-   You can pipe the information from a command to a file i.e. the command history. history displays the command history. With the following command it can be saved in a file.
+   You can pipe the information from a command to a file i.e. the command history. `history` displays the command history. With the following command it can be saved in a file.
 
 ::
  
@@ -164,8 +164,8 @@ Who is sudo?
 ============
 
 With `sudo` you can do things that you are normally not allowed to.
-sudo runs commands with the rights of the superuser also known as root
-With sudo you can i.e. install more software, administrate services, change access rights and more fun. You will see the use of sudo in some of the following commands.
+`sudo` runs commands with the rights of the superuser also known as root
+With `sudo` you can i.e. install more software, administrate services, change access rights and more fun. You will see the use of `sudo` in some of the following commands.
 
 
 Search and install programs
@@ -215,7 +215,7 @@ How to edit files
 
 You can either edit files in the terminal or open them with an external program like Geany.
 
-In the terminal window you can use the vim editor (Vi IMproved). vim is very powerful and has many options.
+In the terminal window you can use the `vim` editor (Vi IMproved). `vim` is very powerful and has many options.
 
 See also
 
@@ -223,14 +223,14 @@ See also
 * https://vim.rtorr.com/lang/en_en
 
 
-Open a file with vim:
+Open a file with `vim`:
 
 :: 
 
  vim /home/user/demo/hello.txt
 
-* press `i` to switch to the edit mode
-* `ESC` leaves the edit mode
+* press `i` to switch to the input mode
+* `ESC` leaves the input mode
 * `:w` saves your changes
 * `:wq` saves your changes and closes the file
 * `:q` closes the file
@@ -245,7 +245,7 @@ Access rights define whether a `user` or `group` or `others` have access to a fi
 
 Directories or files have an owner and a group definition. By default the creator of a file/directory is the owner. But this definition can be changed. You will learn this in the next section.
 
-You can show the user and group via `ls -l`
+You can show the owner and group via `ls -l`
 
 :: 
 
@@ -257,6 +257,7 @@ You can show the user and group via `ls -l`
 * `user` is defined as the owner and the group
 
 Access rights are listed at the beginning of the row:
+
 * `r` read
 * `w` write
 * `x` execute
@@ -266,8 +267,8 @@ Access rights are listed at the beginning of the row:
 * followed by the last 3 letters for others 
 
 
-You can change the owner with chown
-===================================
+Change the owner with `chown`
+=============================
 
 :: 
 
@@ -277,8 +278,8 @@ You can change the owner with chown
 * `-R` recursive
 
 
-You can change the access rights with chmod
-===========================================
+Change access rights with `chmod`
+=================================
 
 :: 
 
@@ -296,8 +297,8 @@ You can change the access rights with chmod
 * 2 write
 * 1 execute
 
-* 660 - user and group are allowed to read and write, other have no rights
-* 744 - user can do everything, group and others can only read
+* 660 - owner and group are allowed to read and write, other have no rights
+* 744 - owner can do everything, group and others can only read
 
 or use it like this
 
@@ -319,9 +320,10 @@ Here are other commands you may try.
 
 * grep - search for a pattern in a text
 * history | grep cd
-* rm - remove a file/directory
-* mv - rename
-* less - show the beginning of a file
+* rm - remove a file
+* rmdir - remove an empty directory
+* mv - rename/move
+* head - show the beginning of a file
 * tail - show the end of a file
 * find - search for files in a directory hierarchy
 * locate - find files by name
