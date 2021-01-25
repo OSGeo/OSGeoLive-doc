@@ -21,9 +21,9 @@ The Jupyter Notebook is a web application that allows you to create and share do
 
 This Quick Start describes how to:
 
-  * start a Jupyter Notebook server
-  * load a jupyter notebook
-  * interact with python code and javascript widgets
+  * Start a Jupyter Notebook server
+  * Load a jupyter notebook
+  * Interact with python code
 
 .. contents:: Contents
 
