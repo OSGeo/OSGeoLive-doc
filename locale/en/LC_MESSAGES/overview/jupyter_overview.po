@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-26 21:04+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../build/doc/overview/jupyter_overview.rst:16
+msgid "Jupyter Notebook"
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:19
+msgid "Mixing rich media in documentation"
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:21
+msgid ""
+"The Jupyter Notebook is a web application that allows you to create and "
+"share documents that contain live code, equations, visualizations and "
+"explanatory text."
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:23
+msgid "It combines two components:"
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:25
+msgid ""
+"A web application providing browser-based, interactive authoring of "
+"notebook documents."
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:27
+msgid ""
+"Notebook documents which store a representation of all content visible in"
+" the web application, including inputs and outputs of computations, "
+"explanatory text, mathematics, code, images, videos, graphs, maps, and "
+"other rich media representations of objects."
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:35
+msgid ""
+"Notebooks can be shared with others on GitHub, Dropbox, and the `Jupyter "
+"Notebook Viewer <https://nbviewer.jupyter.org/>`_."
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:37
+msgid ""
+"Uses include: data cleaning and transformation, numerical simulation, "
+"statistical modeling, machine learning and much more."
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:41
+msgid "Core Features"
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:43
+msgid "Create Jupyter Notebooks which can contain:"
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:45
+msgid "Marked up text (with headings, styles, paragraphs, etc)"
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:46
+msgid "Formulas, mathematics, plots, maps, ..."
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:47
+msgid "Imported external libraries to add functionality"
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:48
+msgid ""
+"Code from multiple programming languages, including Python, R, Julia, "
+"Bash and many more."
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:50
+msgid "Jupyter Notebooks on OSGeoLive can use geospatial functions from:"
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:52
+msgid ""
+"Numpy, SciPy Matplotlib, IRIS, Cartopy, gdal, Geopandas, pyshp, Fiona, "
+"netCDF4, PostgreSQL, psycopg2, R, rpy2, and more."
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:56
+msgid "Details"
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:58
+msgid "**Website:** http://jupyter.org/"
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:60
+msgid "**Licence:** The 3-Clause BSD License"
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:62
+msgid "**Software Version:** |version-jupyter|"
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:64
+msgid "**Supported Platforms:** Linux, Mac, Windows"
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:66
+msgid "**API Interfaces:** Python"
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:68
+msgid "**Support:** http://jupyter.org/community.html"
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:74
+msgid "Quickstart"
+msgstr ""
+
+#: ../../build/doc/overview/jupyter_overview.rst:76
+msgid ":doc:`Quickstart documentation <../quickstart/jupyter_quickstart>`"
+msgstr ""
+

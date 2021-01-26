@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"POT-Creation-Date: 2021-01-26 21:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../build/doc/overview/overview.rst:6
 msgid "|osgeolive-version| Contents"
@@ -324,117 +324,129 @@ msgstr ""
 msgid "Specific analysis tools"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:251
+#: ../../build/doc/overview/overview.rst:255
 msgid ""
 "|nologo| :doc:`gmt_overview` - [:doc:`Quickstart "
 "<../quickstart/gmt_quickstart>`] - Cartographic Rendering"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:253
+#: ../../build/doc/overview/overview.rst:257
 msgid ""
 "|OSGeo_project| :doc:`otb_overview` - [:doc:`Quickstart "
 "<../quickstart/otb_quickstart>`] - Image Processing"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:255
+#: ../../build/doc/overview/overview.rst:259
 msgid ""
 "|nologo| :doc:`R_overview` - [:doc:`Quickstart "
 "<../quickstart/R_quickstart>`] - Statistical Programming"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:257
+#: ../../build/doc/overview/overview.rst:261
 msgid ""
 "|nologo| :doc:`mapnik_overview` - [:doc:`Quickstart "
 "<../quickstart/mapnik_quickstart>`] - Cartographic Rendering"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:261
+#: ../../build/doc/overview/overview.rst:263
+msgid ""
+"|nologo| :doc:`mapslicer_overview` - [:doc:`Quickstart "
+"<../quickstart/mapslicer_quickstart>`] - Create Map Tiles"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:265
+msgid ""
+"|nologo| :doc:`jupyter_overview` - [:doc:`Quickstart "
+"<../quickstart/jupyter_quickstart>`] - Mixing rich media in presentations"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:269
 msgid "Domain Specific GIS"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:263
+#: ../../build/doc/overview/overview.rst:271
 msgid "Applications targeted at a specific domain"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:271
+#: ../../build/doc/overview/overview.rst:279
 msgid ""
 "|nologo| :doc:`zygrib_overview` - [:doc:`Quickstart "
 "<../quickstart/zygrib_quickstart>`] - Weather Forecast Maps"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:275
+#: ../../build/doc/overview/overview.rst:283
 msgid "Data"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:277
+#: ../../build/doc/overview/overview.rst:285
 msgid "Spatial data sets"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:287
+#: ../../build/doc/overview/overview.rst:295
 msgid "|nologo| :doc:`naturalearth_overview`  - Global Data Sets"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:289
+#: ../../build/doc/overview/overview.rst:297
 msgid "|nologo| :doc:`nc_dataset_overview`"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:291
+#: ../../build/doc/overview/overview.rst:299
 msgid "|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:293
+#: ../../build/doc/overview/overview.rst:301
 msgid ""
 "|nologo| :doc:`netcdf_dataset_overview`  - Time series temperature and "
 "precipitation"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:297
+#: ../../build/doc/overview/overview.rst:305
 msgid "Geospatial Libraries"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:312
+#: ../../build/doc/overview/overview.rst:320
 msgid ""
 "|OSGeo_project| :doc:`gdal_overview` - [:doc:`Quickstart "
 "<../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:314
+#: ../../build/doc/overview/overview.rst:322
 msgid "|OSGeo_project| :doc:`geotools_overview`  - Java GIS Toolkit"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:316
+#: ../../build/doc/overview/overview.rst:324
 msgid "|OSGeo_project| :doc:`geos_overview`  - C/C++ Spatial Library"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:318
+#: ../../build/doc/overview/overview.rst:326
 msgid ""
 "|OSGeo_community| :doc:`proj_overview` - [:doc:`Quickstart "
 "<../quickstart/proj_quickstart>`] - Coordinate Reference System Libraries"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:320
+#: ../../build/doc/overview/overview.rst:328
 msgid "|nologo| :doc:`jts_overview`  - Java Topology Suite"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:324
+#: ../../build/doc/overview/overview.rst:332
 msgid "Geospatial Standards"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:334
+#: ../../build/doc/overview/overview.rst:342
 msgid "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:336
+#: ../../build/doc/overview/overview.rst:344
 msgid ""
 "|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial "
 "Information in Europe"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:340
+#: ../../build/doc/overview/overview.rst:348
 msgid "Available in prior OSGeo-Live releases"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:352
+#: ../../build/doc/overview/overview.rst:360
 msgid ":doc:`../prior_applications`"
 msgstr ""
 

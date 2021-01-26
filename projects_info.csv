@@ -60,11 +60,13 @@ Y | opencpn | 5.0.0 | Y | Y | Navigation and Maps | | Marine GPS Chartplotter | 
 ###################### | | | | | | | | | | | |
 #   Spatial Tools | | | | | | | | | | | |
 ###################### | | | | | | | | | | ||
-Y | gmt | 6.0.0 | Y | Y | Spatial Tools | 11 | Cartographic Rendering | GMT | https://gmt.soest.hawaii.edu | | GMT | Y
-Y | otb | 7.2.0 | Y | Y | Spatial Tools | | Image Processing | otb | https://www.orfeo-toolbox.org/ | OSGeo_project | OTB | Y
-Y | R | 3.6.3 | Y | Y | Spatial Tools | | Statistical Programming | R_project | https://cran.r-project.org | | R | Y
-Y | mapnik | 3.0.23 | Y | Y | Spatial Tools | | Cartographic Rendering | mapnik | https://mapnik.org/ | | Mapnik | Y
-N | ossim | 2.9.1 | Y | Y | Spatial Tools | | Image Processing | ossim | http://www.ossim.org/ | OSGeo_project | OSSIM | Y
+Y | gmt | 5.4.5 | Y | Y | Spatial Tools | 11 | Cartographic Rendering | GMT | https://gmt.soest.hawaii.edu | | GMT | Y
+Y | otb | 6.6.1 | Y | Y | Spatial Tools | | Image Processing | otb | https://www.orfeo-toolbox.org/ | OSGeo_project | OTB | Y
+Y | R | 3.4.4 | Y | Y | Spatial Tools | | Statistical Programming | R_project | https://cran.r-project.org | | R | Y
+Y | mapnik | 3.0.22 | Y | Y | Spatial Tools | | Cartographic Rendering | mapnik | https://mapnik.org/ | | Mapnik | Y
+Y | mapslicer | 1.0rc2 | Y | Y | Spatial Tools | | Create Map Tiles | | https://mapproxy.org/ | | MapSlicer | Y
+N | ossim | 2.7.2 | Y | Y | Spatial Tools | | Image Processing | ossim | http://www.ossim.org/ | OSGeo_project | OSSIM | Y
+Y | jupyter | 4.6.3 | Y | Y | Spatial Tools | | Mixing rich media in presentations | jupyter_notebook | http://jupyter.org/ | | Jupyter Notebook | Y
 ###################### | | | | | | | | | | | |
 #   Domain Specific GIS | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |
@@ -101,7 +103,6 @@ N | atlasstyler | retired | Y | Y | | 6 | Style Editor, retired after OSGeoLive 
 N | cartaro | retired | Y | Y | | 10 | Geospatial CMS | | http://cartaro.org | | Cartaro | N
 N | geopublisher | retired | Y | Y | | 6 | Catalogue, retired after OSGeoLive 6.0 | Geopublishing | | | Geopublisher | N
 N | gpsdrive | retired | Y | Y | | 9 | GPS Navigation, retired after OSGeoLive 9.0 | | http://www.gpsdrive.de | | GpsDrive | N
-N | jupyter | hide | Y | Y | | | | jupyter_notebook | http://jupyter.org/ | | Jupyter Notebook | N
 N | mapfish | retired | Y | Y | | 7.9 | Web Mapping Framework, retired after OSGeoLive 7.9 | mapfish | http://www.mapfish.org | OSGeo_project | MapFish | N
 N | mapguide | retired | Y | Y | | 5 | Web Service, not included after OSGeoLive 5.0 (to save disk space) | mapguide | https://mapguide.osgeo.org/ | OSGeo_project | MapGuide Open Source | N
 N | mapwindow | retired | Y | Y | Other software of interest (not available Live) | | Microsoft Windows based Desktop GIS | mapwindow | | | MapWindow GIS Lite | N
