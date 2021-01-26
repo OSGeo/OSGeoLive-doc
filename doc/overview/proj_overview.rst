@@ -16,7 +16,7 @@ earth to be described as a set of coordinates (such as latitude, longitude and
 elevation). Different systems are used to represent the tridimensional earth
 on a flat, bidimensional map.
 
-PROJ is used in :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik <mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation and various others. 
+PROJ is used in :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik <mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation and various others.
 
 PROJ has been translated from C to `other languages <https://trac.osgeo.org/metacrs/wiki>`_. These sub-projects include:
 
@@ -24,7 +24,7 @@ PROJ has been translated from C to `other languages <https://trac.osgeo.org/meta
 * CS-Map (C++) - used in MapGuide.
 * GeoTIFF/libgeotiff (C++).
 * Proj4J (Java).
-* `EPSG.io <http://epsg.io/>`_ - website to retrieve coordinate system definitions
+* `EPSG.io <https://epsg.io/>`_ - website to retrieve coordinate system definitions
 * `SpatialReference.org <https://spatialreference.org/>`_ - website to retrieve coordinate system definitions (obsolete).
 
 @SCREENSHOT_proj@
@@ -40,7 +40,7 @@ Core Features
 Implemented Standards
 --------------------------------------------------------------------------------
 
-PROJ uses coordinate system definitions defined by the 
+PROJ uses coordinate system definitions defined by the
 `European Petroleum Survey Group (EPSG) <https://www.epsg.org/>`_.
 Well Known Text (WKT) format.
 
