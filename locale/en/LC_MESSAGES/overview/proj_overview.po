@@ -139,8 +139,3 @@ msgstr ""
 msgid ":doc:`Quickstart documentation <../quickstart/proj_quickstart>`"
 msgstr ""
 
-#~ msgid ""
-#~ "`EPSG.io <http://epsg.io/>`_ - website to "
-#~ "retrieve coordinate system definitions"
-#~ msgstr ""
-
