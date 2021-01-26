@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-01-25 18:18-0600\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
@@ -23,8 +23,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../build/doc/overview/actinia_overview.rst:15
-msgid "Actinia"
-msgstr "Actinia"
+msgid "actinia"
+msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:18
 msgid "High Performance Geospatial Processing"
