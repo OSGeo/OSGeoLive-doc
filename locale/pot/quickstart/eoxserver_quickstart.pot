@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-18 20:30+0100\n"
+"POT-Creation-Date: 2021-01-25 18:18-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "EOxServer Quickstart"
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:22
-msgid "EOxServer is a server for presenting big Earth Observation (EO) data archives and metadata via Open Standards. It builds upon an Open Source stack of software which includes Python, :doc:`MapServer <../overview/mapserver_overview>`, Django/GeoDjango, :doc:`GDAL <../overview/gdal_overview>`,  :doc:`PROJ.4 <../overview/proj4_overview>` and a :doc:`SpatiaLite <../overview/spatialite_overview>` or :doc:`PostGIS <../overview/postgis_overview>` database."
+msgid "EOxServer is a server for presenting big Earth Observation (EO) data archives and metadata via Open Standards. It builds upon an Open Source stack of software which includes Python, :doc:`MapServer <../overview/mapserver_overview>`, Django/GeoDjango, :doc:`GDAL <../overview/gdal_overview>`,  :doc:`PROJ <../overview/proj_overview>` and a :doc:`SpatiaLite <../overview/spatialite_overview>` or :doc:`PostGIS <../overview/postgis_overview>` database."
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:31

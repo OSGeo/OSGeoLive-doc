@@ -5,8 +5,8 @@
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,41 +44,41 @@ msgstr "[デスクトップGIS]フォルダを開きます。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:49
 msgid "Double click on the 'QGIS' icon."
-msgstr "「QGIS」アイコンをダブルクリックします。"
+msgstr "'QGIS' アイコンをダブルクリックします。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:51
 msgid ""
 "You will see QGIS launch with an empty project. The various parts of the "
 "QGIS Interface are listed below."
-msgstr "QGISが空プロジェクトで起動します。QGISインターフェイスのさまざまな部分を次に示します。"
+msgstr "QGISが空プロジェクトで起動します。QGISインタフェースのさまざまな部分を次に示します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:57
 msgid ""
 "[1] Menu bar: Access to various QGIS features using a standard hierarchical "
 "menu."
-msgstr "[1]メニューバー:標準の階層メニューを使用して、さまざまなQGIS機能にアクセスできます。"
+msgstr "[1] メニューバー: 標準の階層メニューを使用して、さまざまなQGIS機能にアクセスできます。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:58
 msgid ""
 "[2] Toolbars: For interaction with the map, layers, attributes and "
 "selections."
-msgstr "[2]ツールバー:マップ、画層、属性、および選択を操作します。"
+msgstr "[2] ツールバー: マップ、画層、属性、および選択を操作します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:59
 msgid ""
 "[3] Browser Panel: A spatial file browser allowing drag and drop content "
 "into the map frame."
-msgstr "[3]ブラウザパネル:マップフレームにコンテンツをドラッグアンドドロップできる空間ファイルブラウザ。"
+msgstr "[3] ブラウザパネル: マップフレームにコンテンツをドラッグアンドドロップできる空間ファイルブラウザ。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:60
 msgid "[4] Layer Panel: Controls the map layers, their order, and visibility."
-msgstr "[4] レイヤーパネル:マップ画層、画層の順序、表示/非表示をコントロールします。"
+msgstr "[4] レイヤーパネル: マップ画層、画層の順序、表示/非表示をコントロールします。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:61
 msgid ""
 "[5] Status Bar: General information about the map and access to a universal "
 "search bar."
-msgstr "[5]ステータスバー:マップに関する一般情報とユニバーサル検索バーへのアクセス。"
+msgstr "[5] ステータスバー: マップに関する一般情報とユニバーサル検索バーへのアクセス。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:64
 msgid "Create a project"
@@ -86,7 +86,7 @@ msgstr "プロジェクトを作成する"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:66
 msgid "To create a new project, choose :menuselection:`Project --> New`."
-msgstr "新しいプロジェクトを作成するには、:menuselection:`Project-->New` を選択します。"
+msgstr "新しいプロジェクトを作成するには、 :menuselection:`Project --> New` を選択します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:72
 msgid ""
@@ -102,11 +102,11 @@ msgstr "画面の左側にあるブラウザパネルに移動します。"
 #: ../../build/doc/quickstart/qgis_quickstart.rst:75
 #: ../../build/doc/quickstart/qgis_quickstart.rst:93
 msgid "Navigate the folder tree to 'home/data/natural_earth2'."
-msgstr "フォルダツリーを'home/data/natural_earth2'に移動します。"
+msgstr "フォルダツリーを 'home/data/natural_earth2' に移動します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:76
 msgid "Select 'ne_10m_admin_0_countries.shp'."
-msgstr "'ne_10m_admin_0_countries.shp'を選択します。"
+msgstr "'ne_10m_admin_0_countries.shp' を選択します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:77
 #: ../../build/doc/quickstart/qgis_quickstart.rst:95
@@ -125,7 +125,7 @@ msgstr "次に、プロジェクトにラスタレイヤを追加してみまし
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:94
 msgid "Select 'HYP_50M_SR_W.tif'."
-msgstr "[HYP_50M_SR_W.tif]を選択します。"
+msgstr "[HYP_50M_SR_W.tif] を選択します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:101
 msgid ""
@@ -145,11 +145,11 @@ msgstr ":menuselection:`Project-->Save` を選択します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:117
 msgid "Make the location to save the project '/home/user/desktop'."
-msgstr "プロジェクトを保存する場所を'/home/user/desktop'にします。"
+msgstr "プロジェクトを保存する場所を '/home/user/desktop' にします。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:118
 msgid "Call the project 'My QGIS project'."
-msgstr "このプロジェクトを'My QGIS project'と呼んでください。"
+msgstr "このプロジェクトを 'My QGIS project' と呼びます。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:124
 msgid "Click 'Save'."
@@ -162,9 +162,9 @@ msgid ""
 "document will no longer read as 'untitled' but instead will read as 'My QGIS"
 " project'."
 msgstr ""
-"プロジェクトが保存されたことがわかります。これは、'My QGIS "
-"project'という名前のプロジェクトファイルがデスクトップにあり、プロジェクトドキュメントの一番上が「untitled」ではなく'My QGIS "
-"project'になるためです。"
+"プロジェクトが保存されたことがわかります。これは、 'My QGIS project' "
+"という名前のプロジェクトファイルがデスクトップにあり、プロジェクトドキュメントの一番上が 'untitled' ではなく 'My QGIS "
+"project' になるためです。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:134
 msgid "Open an existing project"
@@ -177,7 +177,8 @@ msgid ""
 "extension of '.qgs' or '.qgz', with '.qgz' being the default file format in "
 "QGIS going into the future."
 msgstr ""
-"QGISプロジェクトは、レイヤ、スタイル、マップ範囲、および設定を保存し、後で使用できるようにします。この情報はQGISのプロジェクトファイルとして保存され、拡張子は「.qgs」または「.qgz」になります。「.qgz」は将来のQGISでの既定のファイル形式です。"
+"QGISプロジェクトは、レイヤ、スタイル、マップ範囲、および設定を保存し、後で使用できるようにします。この情報はQGISのプロジェクトファイルとして保存され、拡張子は"
+" '.qgs' または '.qgz' になります。 '.qgz' は将来のQGISでの既定のファイル形式です。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:140
 msgid "Let's open an existing QGIS project and have a look at how it works."
@@ -196,11 +197,11 @@ msgstr " :menuselection:`Project --> Open` を選択"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:144
 msgid "Navigate to '/home/user/qgis-example'."
-msgstr " '/home/user/qgis-example'に移動します。"
+msgstr " '/home/user/qgis-example' に移動します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:145
 msgid "Select the project 'QGIS-NaturalEarth-Example.qgs'."
-msgstr "プロジェクト'QGIS-NaturalEarth-Example.qgs'を選択します。"
+msgstr "プロジェクト 'QGIS-NaturalEarth-Example.qgs' を選択します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:146
 msgid "Click 'Open'."
@@ -234,11 +235,11 @@ msgstr "レイヤパネルを操作して、マップレイヤの表示/非表�
 msgid ""
 "Click the checkbox next to the 'ne_10m_populated_places' layer to turn it "
 "on."
-msgstr "'ne_10m_populated_places'レイヤの横にあるチェックボックスをオンにします。"
+msgstr "'ne_10m_populated_places' レイヤの横にあるチェックボックスをオンにします。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:171
 msgid "Click the checkbox next to the 'Water' layer to turn the layer off."
-msgstr "「Water」レイヤの横にあるチェックボックスをクリックして、レイヤをオフにします。"
+msgstr "'Water' レイヤの横にあるチェックボックスをクリックして、レイヤをオフにします。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:173
 msgid ""
@@ -247,8 +248,8 @@ msgid ""
 "but can no longer see the rivers and lakes which are within the 'Waters' "
 "layer."
 msgstr ""
-"マップフレームが更新され、レイヤリストの変更が反映されていることに注目してください。現在では、`ne_10m_populated_places` "
-"レイヤをポイントとして見ることができますが、`Waters` レイヤ内の河川や湖を見ることはできません。"
+"マップフレームが更新され、レイヤリストの変更が反映されていることに注目してください。現在では、 'ne_10m_populated_places' "
+"レイヤをポイントとして見ることができますが、 'Waters' レイヤ内の河川や湖を見ることはできません。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:181
 msgid ""
@@ -262,7 +263,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:186
 msgid "Left-Click on the layer 'HYP_50M_SR_W'."
-msgstr "レイヤ'HYP_50M_SR_W`を左クリックします。"
+msgstr "レイヤ 'HYP_50M_SR_W' を左クリックします。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:187
 msgid ""
@@ -281,7 +282,7 @@ msgstr ""
 msgid ""
 "Try moving the 'HYP_50M_SR_W' layer to the bottom of the layer list. This "
 "would be a more appropriate position for a map layer like this."
-msgstr "'HYP_50M_SR_W'レイヤをレイヤリストの一番下に移動してみてください。これは、このようなマップレイヤに適した位置です。"
+msgstr "'HYP_50M_SR_W' レイヤをレイヤリストの一番下に移動してみてください。これは、このようなマップレイヤに適した位置です。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:200
 msgid "Navigate the map"
@@ -295,27 +296,27 @@ msgstr "ナビゲーションツールバーを使用すると、マップを移
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:208
 msgid "[1] Pan: Allows the map to be dragged ('panned') to a new location."
-msgstr "[1]パン: マップを新しい位置にドラッグ(「パン」)できます。"
+msgstr "[1] パン: マップを新しい位置にドラッグ('パン')できます。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:209
 msgid "[2] Zoom in: Allows the map extent to be zoomed in."
-msgstr "[2]ズームイン:マップの範囲をズームインできます。"
+msgstr "[2] ズームイン: マップの範囲をズームインできます。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:210
 msgid "[3] Zoom out: Allows the map to be zoomed out."
-msgstr "[3]ズームアウト:マップのズームアウトを許可します。"
+msgstr "[3] ズームアウト: マップのズームアウトを許可します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:211
 msgid ""
 "[4] Zoom to full extent: Changes the map extent to fit all of the map layers"
 " into the map frame."
-msgstr "[4]全範囲ズーム: マップの範囲を変更して、すべてのマップレイヤーをマップの枠に合わせます。"
+msgstr "[4] 全範囲ズーム: マップの範囲を変更して、すべてのマップレイヤーをマップの枠に合わせます。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:212
 msgid ""
 "[5] Zoom to layer: Changes the map extent to fit the extent of the layer "
 "highlighted in the layer panel."
-msgstr "[5]レイヤにズーム: マップパネルで強調表示されているレイヤの範囲に合わせてレイヤの範囲を変更します。"
+msgstr "[5] レイヤにズーム: マップパネルで強調表示されているレイヤの範囲に合わせてレイヤの範囲を変更します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:214
 msgid "Let's try changing the map extent with the zoom-in tool."
@@ -323,7 +324,7 @@ msgstr "ズームインツールでマップの範囲を変更してみましょ
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:216
 msgid "Select the 'Zoom in' tool from the navigation toolbar."
-msgstr "ナビゲーションツールバーから'ズームイン'ツールを選択します。"
+msgstr "ナビゲーションツールバーから 'ズームイン' ツールを選択します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:217
 msgid "Move the cursor over the map frame."
@@ -373,7 +374,7 @@ msgstr "[レイヤにズーム]ボタンをクリックします。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:233
 msgid "The map should zoom to the extent of the selected ('active') layer."
-msgstr "マップは選択された(「アクティブ」)レイヤの範囲にズームします。"
+msgstr "マップは選択された('アクティブ')レイヤの範囲にズームします。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:236
 msgid "Style your layers"
@@ -408,7 +409,8 @@ msgid ""
 "lines in the 'ne_10m_rivers_lakes_centrelines' layer. Let’s try modifying "
 "the colour first."
 msgstr ""
-"スタイルの枠が開いた状態で、'ne_10m_rivers_lakes_centrelines'レイヤの線の色と幅を変更できます。最初に色を変更してみましょう。"
+"スタイルの枠が開いた状態で、 'ne_10m_rivers_lakes_centrelines' "
+"レイヤの線の色と幅を変更できます。最初に色を変更してみましょう。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:258
 msgid ""
@@ -441,11 +443,11 @@ msgstr "スタイル枠では、地物のサイズを変更することもでき
 msgid ""
 "Make sure that the 'ne_10m_rivers_lakes_centrelines' is selected at the top "
 "of the style panel."
-msgstr "スタイルパネルの最上部で「ne_10m_rivers_lakes_centrelines」が選択されていることを確認します。"
+msgstr "スタイルパネルの最上部で 'ne_10m_rivers_lakes_centrelines' が選択されていることを確認します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:286
 msgid "In the style panel enter the value '0.5' in the 'width' input."
-msgstr "スタイルパネルで、入力値「width」に値「0.5」を入力します。"
+msgstr "スタイルパネルで、入力値 'width' に値 '0.5' を入力します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:292
 msgid ""
@@ -471,7 +473,7 @@ msgid ""
 "Start manipulating data with the `Processing toolbox "
 "<https://docs.qgis.org/3.4/en/docs/user_manual/processing/toolbox.html>`_."
 msgstr ""
-"`処理ツールボックス "
+"`プロセシング ツールボックス "
 "<https://docs.qgis.org/3.4/en/docs/user_manual/processing/toolbox.html>`_ "
 "を使用してデータの操作してみます。"
 
@@ -503,5 +505,5 @@ msgid ""
 "To learn more about QGIS, a good starting point is the `Documentation page`_"
 " on the QGIS homepage and `A Gentle Introduction to GIS`_ eBook."
 msgstr ""
-"QGISの詳細については、QGISホームページの `Documentation page`_ と `Gentle Introduction to "
-"GIS(英語)`_ eBookを参照してください。"
+"QGISの詳細については、QGISホームページの `ドキュメントページ`_ と `A Gentle Introduction to GIS(英語)`_ "
+"eBookを参照してください。"

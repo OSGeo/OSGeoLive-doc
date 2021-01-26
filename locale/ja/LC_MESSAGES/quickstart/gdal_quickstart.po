@@ -5,8 +5,8 @@
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +35,7 @@ msgstr "このクイックスタートは、GDAL(ラスタデータ)とOGR(ベ�
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:27
 msgid "This Quick Start describes how to:"
-msgstr "このクイックスタートでは、次の方法について説明します。"
+msgstr "このクイックスタートでは、次の方法について説明します:"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:35
 msgid "GDAL"
@@ -59,7 +59,7 @@ msgstr "データをgdal_warpまたはgdal_merge.pyでモザイク化"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:34
 msgid "Build a shapefile as a raster tileindex with gdaltindex"
-msgstr "シェイプファイルをgdaltindex付きのラスタータイルインデックスとして作成"
+msgstr "シェープファイルをgdaltindex付きのラスタータイルインデックスとして作成"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:39
 msgid "OGR"
@@ -95,7 +95,7 @@ msgid ""
 "directory."
 msgstr ""
 "デモデータは :file:`/usr/local/share/data` にあります。このクイックスタートの :doc:`Natural "
-"Earthデータ<../overview/naturalearth_overview>` "
+"Earthデータ <../overview/naturalearth_overview>` "
 "を見てみましょう。データのコピーを操作します。したがって、最初のステップは、データをホームディレクトリにコピーすることです。"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:62
@@ -117,7 +117,7 @@ msgstr "注意："
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:101
 msgid "Driver is \"GTiff/GeoTIFF\""
-msgstr "ドライバーは「GTiff/GeoTIFF」"
+msgstr "ドライバーは \"GTiff/GeoTIFF\""
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:102
 msgid "Size is 10800x5400"
@@ -181,8 +181,8 @@ msgid ""
 "output format is GeoTIFF.  The `-of` flag is used to select an output format"
 " and the -co flag is used to specify a creation option:"
 msgstr ""
-"変換はgdal_translateコマンドで行います。既定の出力形式はGeoTIFFです。`-of` "
-"フラグは出力フォーマットの選択に使用され、-coフラグは作成オプションの指定に使用されます。"
+"変換はgdal_translateコマンドで行います。既定の出力形式はGeoTIFFです。`-of` フラグは出力フォーマットの選択に使用され、-co "
+"フラグは作成オプションの指定に使用されます:"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:143
 msgid "The `-ot` switch can be used to alter the output data type."
@@ -219,7 +219,7 @@ msgid ""
 "pixel/line location (xoff yoff xsize ysize). You also could use `-projwin` "
 "and define the corners in georeferenced coordinates (ulx uly lrx lry)."
 msgstr ""
-"ピクセル/ラインの位置に基づいてコピーを作成する`-srcwin` を使用して、イメージを2つに分割してみましょう(xoff yoff xsize "
+"ピクセル/ラインの位置に基づいてコピーを作成する `-srcwin` を使用して、イメージを2つに分割してみましょう(xoff yoff xsize "
 "ysize)。`-projwin` を使用して、地理参照座標(ulx uly lrx lry)でコーナーを定義することもできます。"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:179
@@ -232,14 +232,14 @@ msgid ""
 "is generated with the bounds of the extent of the polygon and the path to "
 "the file."
 msgstr ""
-"シェイプファイルをラスタタイルインデックスとして作成できます。すべてのイメージに対して、ポリゴンの範囲とファイルへのパスの境界を持つポリゴンが生成されます。"
+"シェープファイルをラスタタイルインデックスとして作成できます。すべてのイメージに対して、ポリゴンの範囲とファイルへのパスの境界を持つポリゴンが生成されます。"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:189
 msgid ""
 "Have a look at your output shapefile with QGIS and ogrinfo (you will learn "
 "more about ogrinfo later in this tutorial)"
 msgstr ""
-"QGISとogrinfoを使用して、出力シェイプファイルを見てみましょう(ogrinfoについては、このチュートリアルの後半で詳しく説明します)。"
+"QGISとogrinfoを使用して、出力シェープファイルを見てみましょう(ogrinfoについては、このチュートリアルの後半で詳しく説明します)。"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:217
 msgid "Reprojecting"
@@ -304,7 +304,7 @@ msgstr "OGRについて知る"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:285
 msgid "Open the shape file with a Desktop GIS like QGIS, and have a look."
-msgstr "QGISのようなデスクトップGISを使用してシェイプファイルを開き、確認します。"
+msgstr "QGISのようなデスクトップGISを使用してシェープファイルを開き、確認します。"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:289
 msgid "Get information about the vector data with ogrinfo"

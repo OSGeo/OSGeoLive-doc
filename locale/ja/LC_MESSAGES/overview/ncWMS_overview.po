@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# MarPetra <mvergaratrejo@gmail.com>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:11+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:14
+msgid "ncWMS"
+msgstr "ncWMS"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:17
+msgid "Web Map Service"
+msgstr "Web Map サービス"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:19
+msgid ""
+"ncWMS publishes multi-dimensional data (such as environmental and weather "
+"data) as an OGC compliant Web Map Service (WMS). ncWMS quickly and "
+"efficiently extracts the map images from the very large data files typically"
+" associated with environmental data."
+msgstr ""
+"ncWMS は OGC 準拠の Web Map Service (WMS) として多次元データ ( 環境や気象データなど ) "
+"を公開しています。ncWMS は、通常、環境データに関連付けられた非常に大きなデータ・ファイルから、マップ・イメージを迅速かつ効率的に抽出します。"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:28
+msgid "Core Features"
+msgstr "主な機能"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:30
+msgid "Fast extraction of data"
+msgstr "データの高速抽出"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:32
+msgid "Generation of timeseries and vertical profile plots"
+msgstr "タイムシリーズの生成と垂直プロファイルの作図"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:34
+msgid "Ability to plot data along a transect"
+msgstr "断面にそったデータのプロットができる"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:36
+msgid ""
+"Automatic recognition of vector-components and generation of vector arrows"
+msgstr "ベクタ成分の自動認識 - ベクタ矢印の生成"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:38
+msgid ""
+"Support for a large range of projections (for both source data and target "
+"images)"
+msgstr "( ソース・データとターゲット・イメージの両方について ) 様々な投影法のサポート"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:40
+msgid "Support for creating animations"
+msgstr "アニメーション作成のサポート"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:42
+msgid "Browser client included"
+msgstr "ブラウザ内蔵"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:44
+msgid "Support for export to Google Earth KML format"
+msgstr "Google Earth KML フォーマットへのエクスポート"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:46
+msgid "Input formats: NetCDF, GRIB, OPeNDAP"
+msgstr "入力フォーマット: NetCDF, GRIB, OPeNDAP"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:48
+msgid "Output formats: PNG, JPEG, animated GIF, KML"
+msgstr "出力フォーマッット: PNG, JPEG, animated GIF, KML"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:51
+msgid "Implemented Standards"
+msgstr "実装されている標準規格"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:53
+msgid "|WMS| (v1.1.1, v1.3.0)"
+msgstr "|WMS| (v1.1.1, v1.3.0)"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:54
+msgid "|KML|"
+msgstr "|KML|"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:57
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:59
+msgid ""
+"**Website:** https://reading-escience-centre.gitbooks.io/ncwms-user-"
+"guide/content/"
+msgstr ""
+"**Webサイト:** https://reading-escience-centre.gitbooks.io/ncwms-user-"
+"guide/content/"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:61
+msgid ""
+"**Licence:** `Modified BSD License <https://github.com/Reading-eScience-"
+"Centre/ncwms/blob/master/licence.txt>`__"
+msgstr ""
+"**ライセンス:** `Modified BSD License <https://github.com/Reading-eScience-"
+"Centre/ncwms/blob/master/licence.txt>`__"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:63
+msgid "**Software Version:** |version-ncWMS|"
+msgstr "**ソフトウェアバージョン:** |version-ncWMS|"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:65
+msgid "**Supported Platforms:** All Java 1.8 platforms: Windows, Linux, Mac"
+msgstr "**対応プラットフォーム:** All Java 1.8 platforms: Windows, Linux, Mac"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:67
+msgid "**API Interfaces:** Java; WMS"
+msgstr "**API インタフェース:** Java; WMS"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:69
+msgid "**Support:** https://github.com/Reading-eScience-Centre/ncwms/issues"
+msgstr "**サポート:** https://github.com/Reading-eScience-Centre/ncwms/issues"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:75
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/ncWMS_overview.rst:77
+msgid ":doc:`Quickstart documentation <../quickstart/ncWMS_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/ncWMS_quickstart>`"

@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2019-07-17 15:40+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -77,7 +77,7 @@ msgid ""
 "We will use the ``Ext.Loader`` class to load in GeoExt JavaScript source "
 "files. These are all in the ``src`` folder in ``/var/www/html/geoext/``."
 msgstr ""
-"``Ext.Loader``クラスを使用して、GeoExtのJavaScriptソースファイルをロードします。これらはすべて "
+"``Ext.Loader`` クラスを使用して、GeoExtのJavaScriptソースファイルをロードします。これらはすべて "
 "``/var/www/html/geoext/`` の ``src`` フォルダにあります。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:70
@@ -85,7 +85,7 @@ msgid ""
 "You should now be able to view an empty HTML page in Firefox at "
 "http://localhost/geoext/demo.html"
 msgstr ""
-"http://localhost/geoext/demo.htmlでFirefoxの空のHTMLページを見ることができるようになりましたね。"
+"http://localhost/geoext/demo.html でFirefoxの空のHTMLページを見ることができるようになりましたね。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:72
 msgid ""
@@ -94,7 +94,7 @@ msgid ""
 "``Ext.onReady`` function. Placing code here ensures the JavaScript libraries"
 " have been loaded before running any custom JavaScript code."
 msgstr ""
-"以下のセクションにあるすべてのJavaScriptは、``Ext.onReady`` 関数の ``//all JavaScript "
+"以下のセクションにあるすべてのJavaScriptは、``Ext.onReady`` 関数の ``// all JavaScript "
 "application code should go here`` "
 "コメントの後に貼り付ける必要があります。ここにコードを配置すると、カスタムJavaScriptコードを実行する前に、JavaScriptライブラリが確実にロードされます。"
 
@@ -147,8 +147,8 @@ msgid ""
 "OpenLayers map we created, and will be positioned in the 'center' region of "
 "our application."
 msgstr ""
-"まず、``GeoExt.component.Map`` "
-"を作成します。これは、作成したOpenLayersマップを使用し、アプリケーションの``中央``領域に配置されます。"
+"まず、 ``GeoExt.component.Map`` を作成します。これは、作成したOpenLayersマップを使用し、アプリケーションの '中央'"
+" 領域に配置されます。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:169
 msgid ""
@@ -159,8 +159,8 @@ msgid ""
 "changed by dragging and dropping the layers. The ``flex`` property causes "
 "the tree panel to fill up all available space in its region of the screen."
 msgstr ""
-"次に、画層ツリーコンポーネントを作成します。ツリーには独自のデータストア ``GeoExt.data.store.LayersTree` "
-"`があり、OpenLayersマップのレイヤで埋めます。このストアは、ツリー・パネルへの入力に使用されます。また、ツリーにプラグインを追加して、レイヤをドラッグアンドドロップして地図レイヤの順序を変更できるようにします。``flex``"
+"次に、画層ツリーコンポーネントを作成します。ツリーには独自のデータストア ``GeoExt.data.store.LayersTree`` "
+"があり、OpenLayersマップのレイヤで埋めます。このストアは、ツリー・パネルへの入力に使用されます。また、ツリーにプラグインを追加して、レイヤをドラッグアンドドロップして地図レイヤの順序を変更できるようにします。``flex``"
 " プロパティーを指定すると、ツリー・パネルは画面の領域内の使用可能なスペースをすべて埋めます。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:191
@@ -169,8 +169,8 @@ msgid ""
 "features in our WFS layer. Similar to the layer tree store and tree panel, "
 "we create a ``GeoExt.data.store.Features`` store and a grid panel."
 msgstr ""
-"また、WFSレイヤのフィーチャの属性を表示するグリッドコンポーネントを作成します。レイヤーツリーストアとツリーパネルと同様に、``GeoExt.data.store.Features``"
-" ストアとグリッドパネルを作成します。"
+"また、WFSレイヤのフィーチャの属性を表示するグリッドコンポーネントを作成します。レイヤーツリーストアとツリーパネルと同様に、 "
+"``GeoExt.data.store.Features`` ストアとグリッドパネルを作成します。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:221
 msgid ""
@@ -178,7 +178,7 @@ msgid ""
 "``GeoExt.component.OverviewMap``. We will configure this to display the "
 "OpenStreetMap layer we created earlier, and place it in an ExtJS panel."
 msgstr ""
-"我々の最後のGeoExtコンポーネントは概観地図-``GeoExt.componnet.OverviewMap`` "
+"我々の最後のGeoExtコンポーネントは概観地図- ``GeoExt.componnet.OverviewMap`` "
 "である。先ほど作成したOpenStreetMapレイヤーを表示するように設定し、ExtJSパネルに配置します。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:242
@@ -199,7 +199,8 @@ msgid ""
 " in your browser and see a complete GeoExt application similar to the image "
 "below."
 msgstr ""
-"ブラウザでリンクhttp://localhost/geoext/demo.htmlを更新すると、下の画像のような完全なGeoExtアプリケーションが表示されます。"
+"ブラウザでリンク http://localhost/geoext/demo.html "
+"を更新すると、下の画像のような完全なGeoExtアプリケーションが表示されます。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:273
 msgid "What's next?"
@@ -219,14 +220,14 @@ msgid ""
 "A `GeoExt workshop <https://github.com/geoext/geoext3-ws>`_ details all the "
 "steps for configuring and using GeoExt3 in your ExtJS applications"
 msgstr ""
-"`GeoExtワークショップ <https://github.com/geoext/geoext3-ws>`_ "
+"`GeoExtワークショップ <https://github.com/geoext/GeoExt3-ws>`_ "
 "では、ExtJSアプリケーションでGeoExt3を設定および使用するためのすべての手順について詳しく説明しています。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:279
 msgid ""
 "The `OpenLayers v4.6.5 API docs <https://openlayers.org/en/v4.6.5/apidoc>`_"
 msgstr ""
-"`OpenLayers v4.6.5 APIド キュメント <https://openlayers.org/en/v4.6.5/apidoc>`_"
+"`OpenLayers v4.6.5 APIドキュメント <https://openlayers.org/en/v4.6.5/apidoc>`_"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:280
 msgid "The `ExtJS 6.2.0 API docs <https://docs.sencha.com/extjs/6.2.0/>`_"

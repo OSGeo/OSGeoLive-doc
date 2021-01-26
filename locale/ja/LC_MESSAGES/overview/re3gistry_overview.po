@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-28 21:50-0600\n"
 "PO-Revision-Date: 2020-10-21 15:59+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/re3gistry_overview.rst:18
 msgid "Re3gistry"
-msgstr ""
+msgstr "Re3gistry"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:21
 msgid "About"
@@ -45,15 +45,15 @@ msgid ""
 "updating reference codes in a consistent way. The Re3gistry software version"
 " numbers comply with the Semantic Versioning Specification 2.0.0."
 msgstr ""
-"Re3gistry 2は、「リファレンスコード」を管理および共有するための再利用可能なオープンソースソリューションです。当初はEUの "
-":doc:`INSPIRE<inspire_overview>` "
+"Re3gistry 2は、 \"リファレンスコード\" を管理および共有するための再利用可能なオープンソースソリューションです。当初はEUの "
+":doc:`INSPIRE <inspire_overview>` "
 "インフラストラクチャの中心的なコンポーネントとして開発されたもので、リファレンスコードのラベルと説明を人間が簡単にブラウズし、マシンが検索できる一貫した中央アクセスポイントを提供します。リファレンスコードは、何らかの「もの」を一意に参照するためにアプリケーション間で交換されます。これらを使用して、データフィールドの許容値のセットを定義したり、交換されるデータの参照またはコンテキストを提供したりできます。例としては、列挙、統制された語彙、分類法、シソーラス、あるいは単に「ものの一覧」があります。Re3gistry"
 " "
 "2は、組織が一貫した方法で参照コードを管理し更新することを支援しています。Re3gistryソフトウェアのバージョン番号は、セマンティック・バージョン付与標準2.0.0に準拠しています。"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:43
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:45
 msgid ""
@@ -81,7 +81,7 @@ msgstr "バージョン管理のサポート"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:50
 msgid "RESTful API with content negotiation (including OpenAPI 3 descriptor)"
-msgstr "コンテンツネゴシエーションを持つ(OpenAPI 3記述子を含む)RESTful API"
+msgstr "コンテンツネゴシエーションを持つ (OpenAPI 3記述子を含む) RESTful API"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:51
 msgid "Free-text search"
@@ -129,7 +129,7 @@ msgstr "**ライセンス:** EUPL"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:66
 msgid "**Software Version:** |version-re3gistry|"
-msgstr "**ソフトウェアバージョン:** version-re3gistry"
+msgstr "**ソフトウェアバージョン:** |version-re3gistry|"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:68
 msgid "**Supported Platforms:** Windows, Linux"
@@ -137,7 +137,7 @@ msgstr "**対応プラットフォーム:** Windows, Linux"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:70
 msgid "**API Interfaces:** Java"
-msgstr "**API インターフェイス:** Java"
+msgstr "**API インタフェース:** Java"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:72
 msgid "**Support:** https://github.com/ec-jrc/re3gistry"
@@ -173,4 +173,4 @@ msgstr "クイックスタート"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:85
 msgid ":doc:`Quickstart documentation <../quickstart/re3gistry_quickstart>`"
-msgstr ":doc:`クイックスタートドキュメント <../quickstart/re3gistry_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/re3gistry_quickstart>`"

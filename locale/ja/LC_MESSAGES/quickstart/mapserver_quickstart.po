@@ -5,8 +5,8 @@
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,9 +33,8 @@ msgid ""
 "application that allows you to publish geographic map images and vector data"
 " through the internet using |OGCS| such as |WMS|, |WFS| and |WCS|."
 msgstr ""
-"MapServerは、 `オープンソース <https://opensource.org/>`_ "
-"サーバーベースのアプリケーションであり、|WMS|、|WFS|、|WCS| などの  |OGCS| "
-"を使用して、インターネットを介して地理的地図の画像やベクタデータを公開できます。"
+"MapServerは、 `オープンソース <https://opensource.org/>`_ サーバーベースのアプリケーションであり、 |WMS| "
+"、 |WFS| 、 |WCS| などの |OGCS| を使用して、インターネットを介して地理的地図の画像やベクタデータを公開できます。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:40
 msgid "Configure MapServer using the Mapfile configuration file"
@@ -47,8 +46,8 @@ msgid ""
 "and how to configure it to allow MapServer to serve a shapefile as images "
 "using WMS requests."
 msgstr ""
-"**何がわかる？** "
-"ここでは、Mapfileの概要と、MapServerがWMS要求を使用してシェイプファイルをイメージとして処理できるように設定する方法について説明します。"
+"**何を学べますか？** "
+"ここでは、Mapfileの概要と、MapServerがWMS要求を使用してシェープファイルをイメージとして処理できるように設定する方法について説明します。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:49
 msgid "What is a Mapfile ?"
@@ -73,7 +72,8 @@ msgstr "はじめてMapfileを作成する"
 msgid ""
 "Open any text editor (e.g. :menuselection:`Applications --> Accessories --> "
 "FeatherPad`)."
-msgstr "任意のテキストエディタを開きます(例 :menuselection:`アクセサリ-->FeatherPad`)。"
+msgstr ""
+"任意のテキストエディタを開きます(例 :menuselection:`アプリケーション --> アクセサリ --> FeatherPad`)。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:61
 msgid ""
@@ -93,8 +93,8 @@ msgid ""
 " :file:`~/data/natural_earth2` (a short cut to "
 ":file:`/usr/local/share/data/natural_earth2`)."
 msgstr ""
-"この例では、既にOSGeoLive上の :file:`~/data/natural_earth2 "
-"`(:file:`/usr/local/share/data/natural_earth2` "
+"この例では、既にOSGeoLive上の :file:`~/data/natural_earth2` "
+"(:file:`/usr/local/share/data/natural_earth2` "
 "へのショートカット)にある自然地球データセットを使用しています。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:107
@@ -104,7 +104,7 @@ msgid ""
 "should contain a list of **LAYER** objects the Mapfile can read and draw. In"
 " our Mapfile, we currently have only one layer defined."
 msgstr ""
-"Mapfile内の各オブジェクトは、名前(**MAP** など)で始まり、**END** で終わります。Mapfileは常に **MAP** "
+"Mapfile内の各オブジェクトは、名前(**MAP** など)で始まり、 **END** で終わります。Mapfileは常に **MAP** "
 "オブジェクトで始まり、Mapfileが読み取って描画できる **LAYER** "
 "オブジェクトのリストを含む必要があります。このMapfileでは、いまのところ1つのレイヤのみが定義されています。"
 
@@ -129,7 +129,7 @@ msgstr "LAYER: 空間データセットのアクセスプロパティと表示�
 msgid ""
 "SHAPEPATH: sets a base path for file-based data (e.g. shapefiles or tiff "
 "images)."
-msgstr "SHAPEPATH:ファイルベースのデータ(シェイプファイルやTIFFイメージなど)のベースパスを設定します。"
+msgstr "SHAPEPATH:ファイルベースのデータ(シェープファイルやTIFFイメージなど)のベースパスを設定します。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:121
 msgid ""
@@ -150,14 +150,14 @@ msgid ""
 "TYPE: the geometry type that MapServer should use when rendering the data as"
 " an image. In our Mapfile, the data will be drawn as *polygons*."
 msgstr ""
-"TYPE: "
-"MapServerがデータをイメージとしてレンダリングするときに使用するジオメトリタイプ。このMapfileでは、データは*ポリゴン*として描画されます。"
+"TYPE: MapServerがデータをイメージとしてレンダリングするときに使用するジオメトリタイプ。このMapfileでは、データは *ポリゴン* "
+"として描画されます。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:128
 msgid ""
 "DATA: the name of the spatial data file this layer uses, in this case a "
 "shapefile."
-msgstr "DATA:このレイヤが使用する空間データファイル(この場合はシェイプファイル)の名前。"
+msgstr "DATA:このレイヤが使用する空間データファイル(この場合はシェープファイル)の名前。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:130
 msgid ""
@@ -200,17 +200,18 @@ msgid ""
 " the Mapfile will be rendered in addition to all layers with *STATUS "
 "DEFAULT*. The result looks like the following:"
 msgstr ""
-"上記はどういう意味ですか?簡単に言うと、これはWMSの** GetMap** "
-"要求であり、「*次のMapfileを使用して、イメージサイズ、地理的範囲、投影などのユーザ指定のパラメータに基づいて、指定されたレイヤをpngイメージとしてレンダリングする*」ようMapServerに指示します。Mapfileで*STATUS"
-" ON*を持つ\"*&LAYERS=.*\"プロパティで指定されたすべてのレイヤは、 *STATUS DEFAULT* "
-"を持つすべての画層に加えてレンダリングされます。結果は次のようになります。"
+"上記はどういう意味ですか? 簡単に言うと、これは |WMS| の **GetMap** 要求であり、 "
+"\"*次のMapfileを使用して、イメージサイズ、地理的範囲、投影などのユーザ指定のパラメータに基づいて、指定されたレイヤをpngイメージとしてレンダリングする*\""
+" ようMapServerに指示します。Mapfileで *STATUS ON* を持つ \"*&LAYERS=...*\" "
+"プロパティで指定されたすべてのレイヤは、 *STATUS DEFAULT* を持つすべての画層に加えてレンダリングされます。結果は次のようになります。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:167
 msgid ""
 "All parameters of the request are WMS-specific, except "
 "\"*?map=/home/user/mapserver_quickstart.map*\", which is MapServer-specific."
 msgstr ""
-"要求のすべてのパラメータは、MapServer固有の「*?map=/home/user/mapserver_quickstart.map*」を除き、WMS固有です。"
+"要求のすべてのパラメータは、MapServer固有の \"*?map=/home/user/mapserver_quickstart.map*\" "
+"を除き、WMS固有です。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:173
 msgid "Render a map image with MapServer using the command line"
@@ -229,18 +230,18 @@ msgid ""
 "Open a terminal (:menuselection:`Applications --> System Tools --> Terminal "
 "Emulator`) and type::"
 msgstr ""
-"ターミナルを開き(:menuselection:`Applications-->System Tools-->Terminal "
+"ターミナルを開き(:menuselection:`Applications --> System Tools --> Terminal "
 "Emulator`)、次のように入力します。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:184
 msgid ""
 "If this command runs successfully, you are able to see your rendered map at "
 "file:///home/user/mymap.png."
-msgstr "このコマンドが正常に実行されると、file:///home/user/mymap.pngでレンダリングされたマップを表示できます。"
+msgstr "このコマンドが正常に実行されると、file:///home/user/mymap.png でレンダリングされたマップを表示できます。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:190
 msgid "Add a new layer to the Mapfile to serve a local Shapefile"
-msgstr "新しいレイヤをMapfileに追加して、ローカルシェイプファイルを提供する"
+msgstr "新しいレイヤをMapfileに追加して、ローカルシェープファイルを提供する"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:194
 msgid ""
@@ -252,7 +253,7 @@ msgstr "**何を学べますか?** 新しいレイヤオブジェクト定義を
 msgid ""
 "We will now add a new layer to our Mapfile. Before the last *END* statement "
 "in the Mapfile, add the following layer configuration::"
-msgstr "次に、新しいレイヤをMapfileに追加します。Mapfileの最後の*END*文の前に、次のレイヤ設定を追加します。"
+msgstr "次に、新しいレイヤをMapfileに追加します。Mapfileの最後の *END* 文の前に、次のレイヤ設定を追加します。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:212
 msgid ""
@@ -260,7 +261,8 @@ msgid ""
 "just added has the \"STATUS\" property set to \"ON\". That means that unless"
 " we specifically request it, it won't be rendered."
 msgstr ""
-"これで、Mapfileに2つのレイヤ定義が作成されました。ここで追加した新しいオブジェクトの「STATUS」プロパティが「ON」に設定されていることに注意してください。具体的にお願いしないと出せないということですね。"
+"これで、Mapfileに2つのレイヤ定義が作成されました。ここで追加した新しいオブジェクトの \"STATUS\" プロパティが \"ON\" "
+"に設定されていることに注意してください。具体的にお願いしないと出せないということですね。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:216
 msgid ""
@@ -268,8 +270,8 @@ msgid ""
 "layer to the image rendered. We simply need to add the new layer name to the"
 " \"LAYERS\" property list::"
 msgstr ""
-"前述のWMSの **GetMap** "
-"要求を受け取り、レンダリングしたイメージに新しい「Lakes」レイヤを追加します。「LAYERS」プロパティリストに新しいレイヤ名を追加するだけです。"
+"前述のWMSの **GetMap** 要求を受け取り、レンダリングしたイメージに新しい \"Lakes\" レイヤを追加します。 \"LAYERS\" "
+"プロパティリストに新しいレイヤ名を追加するだけです。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:222
 msgid ""
@@ -298,8 +300,8 @@ msgid ""
 "differently using multiple CLASS objects."
 msgstr ""
 "Mapfileでは、LAYERオブジェクトに無限個のCLASSオブジェクトを含めることができます。これらは、空間データファイル(DATA)に含まれる要素のスタイルを設定するために使用されます。たとえば、"
-" `ogrinfo <https://gdal.org/ogrinfo.html>`_ "
-"などのツールを使用して\"ne_10m_lakes\"データファイルを詳しく調べると、このファイルに含まれるジオメトリと属性定義がわかります。 "
+" `ogrinfo <https://gdal.org/ogrinfo.html>`_ などのツールを使用して \"ne_10m_lakes\" "
+"データファイルを詳しく調べると、このファイルに含まれるジオメトリと属性定義がわかります。 "
 "これらの属性値は、複数のCLASSオブジェクトを使用してデータセット内の要素を異なる方法で描画する方法として使用できます。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:246
@@ -309,7 +311,8 @@ msgid ""
 "render the lakes differently. In the LAYER object, we'll add another CLASS "
 "object just before our current one::"
 msgstr ""
-"\"ne_10m_lakes\"データセットには、湖の大きさに関係すると思われる*ScaleRank*属性がある。これを使って湖を違った形にレンダリングすることができますLAYERオブジェクトでは、現在のオブジェクトの直前に別のCLASSオブジェクトを追加します。"
+"\"ne_10m_lakes\" データセットには、湖の大きさに関係すると思われる *ScaleRank* "
+"属性がある。これを使って湖を違った形にレンダリングすることができます。LAYERオブジェクトでは、現在のオブジェクトの直前に別のCLASSオブジェクトを追加します。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:271
 msgid ""
@@ -324,7 +327,12 @@ msgid ""
 "\"CLASSITEM\" property tells MapServer which attribute to use when "
 "evaluating EXPRESSIONs defined in the CLASS objects."
 msgstr ""
-"新しいCLASSオブジェクトは何をしますか?基本的には、MapServerに対して、「0」または「1」に等しい「ScaleRank」プロパティを持つ要素を黒いアウトラインで描画するように指示します。クラスオブジェクトは、描画されるフィーチャごとに常に上から下に読み込まれます。フィーチャがクラスで指定された「EXPRESSION」に一致すると、そのクラスはフィーチャをレンダリングします。フィーチャがクラスと一致しない場合、次のクラスがチェックされます。フィーチャがどのクラスとも一致しない場合、フィーチャはまったくレンダリングされませんが、画層の最後のクラスにEXPRESSIONが含まれていない場合、そのクラスが既定として機能します。LAYERの「CLASSITEM」プロパティは、CLASSオブジェクトで定義された式を評価するときに使用する属性をMapServerに伝えます。"
+"新しいCLASSオブジェクトは何をしますか?基本的には、MapServerに対して、 \"0\" または \"1\" に等しい "
+"\"ScaleRank\" "
+"プロパティを持つ要素を黒いアウトラインで描画するように指示します。クラスオブジェクトは、描画されるフィーチャごとに常に上から下に読み込まれます。フィーチャがクラスで指定された"
+" \"EXPRESSION\" "
+"に一致すると、そのクラスはフィーチャをレンダリングします。フィーチャがクラスと一致しない場合、次のクラスがチェックされます。フィーチャがどのクラスとも一致しない場合、フィーチャはまったくレンダリングされませんが、画層の最後のクラスにEXPRESSIONが含まれていない場合、そのクラスが既定として機能します。LAYERの"
+" \"CLASSITEM\" プロパティは、CLASSオブジェクトで定義された式を評価するときに使用する属性をMapServerに伝えます。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:282
 msgid ""
@@ -362,7 +370,7 @@ msgid ""
 "Start QGIS via :menuselection:`Geospatial --> Desktop GIS --> QGIS Desktop`."
 " Go to :menuselection:`Layer --> Add Layer --> Add WMS/WMTS Layer`."
 msgstr ""
-"QGISの起動方法 :menuselection:`Geospatial-->Desktop GIS-->QGIS Desktop` "
+"QGISの起動方法 :menuselection:`Geospatial --> Desktop GIS --> QGIS Desktop` "
 ":menuselection:`Layer --> Add Layer --> Add WMS/WMTS Layer` にいく"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:304
@@ -433,5 +441,6 @@ msgid ""
 "<https://www.mapserver.org/community/lists.html>`_ to exchange ideas, "
 "discuss potential software improvements and ask questions."
 msgstr ""
-"MapServerを使用する準備はできていますか?次に、`メーリングリスト<https://www.mapserver.org/community/lists.html>`"
-" _ のコミュニティに参加して、アイデアを交換したり、ソフトウェアの改善点について話し合ったり、質問したりします。"
+"MapServerを使用する準備はできていますか?次に、`メーリングリスト "
+"<https://www.mapserver.org/community/lists.html>`_ "
+"のコミュニティに参加して、アイデアを交換したり、ソフトウェアの改善点について話し合ったり、質問したりします。"

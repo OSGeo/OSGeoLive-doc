@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
-# Sant-anna <delazj@gmail.com>, 2018
+# Harrissou Sant-anna, 2018
 # Nicolas Roelandt (Personnel), 2020
 # 
 #, fuzzy

@@ -6,7 +6,7 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,7 +42,7 @@ msgid ""
 "application serves as a \"map engine\" for other portions of the site, "
 "providing spatial context where needed."
 msgstr ""
-"MapServer は C 言語で記述された`オープンソース<https://opensource.org/>`_ "
+"MapServer は C 言語で記述された `オープンソース <https://opensource.org/>`_ "
 "のジオグラフィックデータレンダリングエンジンです。GISデータのブラウズはもちろん、MapServer "
 "はユーザにコンテンツを直接伝えるためのグラフィックイメージ地図を作ることが出来ます。例として、ミネソタ DNR `Recreation Compass "
 "<http://www.dnr.state.mn.us/maps/compass.html>`_ "
@@ -74,7 +74,7 @@ msgstr ""
 
 #: ../../build/doc/overview/mapserver_overview.rst:42
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/mapserver_overview.rst:45
 msgid "Advanced cartographic output"
@@ -222,7 +222,7 @@ msgstr "多数の Open Geospatial Consortium  (OGC) 標準規格のサポート"
 
 #: ../../build/doc/overview/mapserver_overview.rst:95
 msgid "|WMS| (client/server)"
-msgstr "|WMS| (クライアントサーバー)"
+msgstr "|WMS| (クライアント/サーバ)"
 
 #: ../../build/doc/overview/mapserver_overview.rst:96
 msgid "|WFS| (non-transactional, client/server)"
@@ -302,7 +302,7 @@ msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/mapserver_overview.rst:128
 msgid "**API Interfaces:** C, PHP, Python, Perl, Ruby, Java, and .NET"
-msgstr "**API インターフェイス:** C, PHP, Python, Perl, Ruby, Java, .NET"
+msgstr "**API インタフェース:** C, PHP, Python, Perl, Ruby, Java, .NET"
 
 #: ../../build/doc/overview/mapserver_overview.rst:130
 msgid "**Support:** https://mapserver.org/community/"

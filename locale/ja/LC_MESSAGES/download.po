@@ -5,9 +5,9 @@
 # 
 # Translators:
 # Takayuki Nuimura <nuimura@nagoya-u.jp>, 2018
-# Ko Nagase <nagase@georepublic.co.jp>, 2019
+# Vicky Vergara <vicky@georepublic.de>, 2019
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-11-07 03:17+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -66,8 +66,9 @@ msgid ""
 " use in VirtualBox, VMWare, KVM and other virtual machine applications. It "
 "has been compressed using `7-Zip <https://www.7-zip.org/>`_."
 msgstr ""
-"VirtualBox、VMWare、KVM などの仮想マシンに適した、OSGeoLiveに基づいて事前作成された仮想マシン(.vmdk)です。 "
-"`7-Zip <https://www.7-zip.org/>`_ で圧縮されています。"
+"VirtualBox、VMWare、KVM "
+"やその他の仮想マシンアプリケーションに適した、OSGeoLiveに基づいて事前作成された仮想マシン(.vmdk)です。`7-Zip "
+"<https://www.7-zip.org/>`_ で圧縮されています。"
 
 #: ../../build/doc/download.rst:24
 msgid "**amd64 or i386 architecture**"
@@ -98,5 +99,5 @@ msgid ""
 "Java based applications), 1GHz i386 or amd64 compatible CPU. No hard drive "
 "required. Mac users will benefit from a 3-button USB mouse.`"
 msgstr ""
-"`最低限の動作環境は: メモリ 1GB (Java ベースのアプリケーションを使用する場合 2 GB あるとよいでしょう)、1GHz 以上の i386 "
-"か amd64 互換の CPU。ハードディスクは必要な場合のみ。Mac ユーザーには 3ボタン USB マウスの利用をお勧めします。`"
+"`最低限の動作環境は: メモリ 1GB (Java ベースのアプリケーションを使用する場合 2GB あるとよいでしょう)、1GHz 以上の i386 か"
+" amd64 互換の CPU。ハードディスクは必要な場合のみ。Mac ユーザーには 3ボタン USB マウスの利用をお勧めします。`"

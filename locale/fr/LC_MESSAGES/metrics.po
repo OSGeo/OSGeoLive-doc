@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 21:50-0600\n"
+"POT-Creation-Date: 2021-01-25 18:18-0600\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2017\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -59,30 +59,30 @@ msgstr "SIG Bureautique"
 msgid "Browser Facing GIS"
 msgstr "Interface SIG dans le navigateur"
 
-#: ../../build/doc/metrics.rst:52
+#: ../../build/doc/metrics.rst:51
 msgid "Web Services"
 msgstr "Services Web"
 
-#: ../../build/doc/metrics.rst:78
+#: ../../build/doc/metrics.rst:77
 msgid "Data Stores"
 msgstr "Entrepôts de données"
 
-#: ../../build/doc/metrics.rst:89
+#: ../../build/doc/metrics.rst:88
 msgid "Navigation and Maps"
 msgstr "Navigation et Cartes"
 
-#: ../../build/doc/metrics.rst:102
+#: ../../build/doc/metrics.rst:101
 msgid "Spatial Tools"
 msgstr "Outils spatiaux"
 
-#: ../../build/doc/metrics.rst:114
+#: ../../build/doc/metrics.rst:112
 msgid "Domain Specific GIS"
 msgstr "SIG spécifiques à un domaine"
 
-#: ../../build/doc/metrics.rst:122
+#: ../../build/doc/metrics.rst:120
 msgid "Data"
 msgstr "Données"
 
-#: ../../build/doc/metrics.rst:133
+#: ../../build/doc/metrics.rst:131
 msgid "Geospatial Libraries"
 msgstr "Bibliothèques géospatiales"

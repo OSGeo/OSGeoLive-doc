@@ -5,8 +5,7 @@
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
-# Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,7 +50,7 @@ msgid ""
 "From the Desktop, select :menuselection:`Browser Clients --> Start "
 "Geomajas`. Wait for Geomajas to open in a browser window."
 msgstr ""
-"デスクトップから :menuselection:`Browser Clients-->Start Geomajas` "
+"デスクトップから :menuselection:`Browser Clients --> Start Geomajas` "
 "を選択します。Geomajasがブラウザウィンドウで開くまで待ちます。"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:41
@@ -66,7 +65,7 @@ msgid ""
 "When you’re finished using the application, select :menuselection:`Browser "
 "Clients --> Stop Geomajas`."
 msgstr ""
-"アプリケーションの使用が終了したら、:menuselection:`Browser Clients-->Stop Geomajas` を選択します。"
+"アプリケーションの使用が終了したら、 :menuselection:`Browser Clients-->Stop Geomajas` を選択します。"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:50
 msgid "Navigating the map"
@@ -127,8 +126,8 @@ msgid ""
 "download page always features the latest and greatest sample applications, "
 "documentation, tips and tricks to roll-your-own."
 msgstr ""
-"このサンプルアプリケーションを使用して独自のWeb "
-"GISソリューションを構築およびカスタマイズする場合は、`<http://www.geomajas.org/client-gwt>`_ "
+"このサンプルアプリケーションを使用して独自のWeb GISソリューションを構築およびカスタマイズする場合は、 "
+"`<http://www.geomajas.org/client-gwt>`_ "
 "を参照してください。ダウンロードページには、常に最新で最高のサンプルアプリケーション、ドキュメント、独自のロールアップのためのヒントやトリックが掲載されています。"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:84
@@ -138,15 +137,15 @@ msgstr "次のステップ"
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:86
 msgid ""
 "To continue using the web demo, visit `<http://www.geomajas.org/demo>`_."
-msgstr "ウェブデモを継続するには、`<http://www.geomajas.org/demo>`_ をご覧ください。"
+msgstr "ウェブデモを継続するには、 `<http://www.geomajas.org/demo>`_ をご覧ください。"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:87
 msgid ""
 "To continue using the stand-alone application, visit "
 "`<http://files.geomajas.org/downloads/2.3.0/geomajas-standalone-gwt2.zip>`_."
 msgstr ""
-"スタンドアロンアプリケーションの使用を継続するには、`<http://files.geomajas.org/downloads/2.3.0"
-"/geomajas-standalone-gwt2.zip>`_ を参照してください。"
+"スタンドアロンアプリケーションの使用を継続するには、 `<http://files.geomajas.org/downloads/2.3.0"
+"/geomajas-standalone-gwt2. zip>`_ を参照してください。"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:90
 msgid ""

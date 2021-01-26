@@ -1,0 +1,355 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# MarieSilvestre, 2020
+# Nicolas Roelandt (Personnel), 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2019-08-06 18:07+0000\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:18
+msgid "MapCache Quickstart"
+msgstr "Guide de démarrage avec MapCache"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:20
+msgid ""
+"MapCache is a tile server that speeds up access to WMS layers. It can be run"
+" as a CGI application under many different web servers, or as an Apache "
+"module. OSGeoLive has MapCache installed and configured as an Apache module."
+msgstr ""
+"MapCache est un serveur de tuiles qui accélère l’accès aux couches WMS. Il "
+"peut être exécuté sous forme d’application CGI sous de nombreux serveurs Web"
+" différents, ou sous forme de module Apache. OSGeoLive dispose de MapCache "
+"installé et configuré comme un module Apache."
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:23
+msgid ""
+"This quick start shows how to add a new WMS layer to a MapCache set-up, "
+"display the tile service in an OpenLayers web map, and seed a tile cache "
+"from the command line."
+msgstr ""
+"Ce guide de démarrage rapide montre comment ajouter une nouvelle couche WMS "
+"à une instance MapCache, afficher le service de tuiles dans une carte Web "
+"OpenLayers et ensemencer un cache de tuiles à partir de la ligne de "
+"commande."
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:31
+msgid "Adding a New Tileset and Displaying in OpenLayers"
+msgstr "Ajout d’un nouveau jeu de tuiles et affichage dans OpenLayers"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:33
+msgid ""
+"MapCache is configured using XML files. OSGeoLive includes an example "
+"configuration file at ``/usr/local/share/mapcache/mapcache-quickstart.xml``."
+" The example uses the OSGeoLive demo MapServer application of Itasca County "
+"in the United States as its source."
+msgstr ""
+"MapCache est configuré à l’aide de fichiers XML. OSGeoLive inclut un fichier"
+" de configuration d’exemple à `/usr/local/share/mapcache/mapcache-"
+"quickstart.xml``.  L’exemple utilise l’application de démonstration "
+"OSGeoLive de MapServer du comté d’Itasca aux États-Unis comme source."
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:36
+msgid ""
+"In this quick start we will set up tile caching for an additional WMS layer "
+"and display the tiles in a simple HTML page containing an OpenLayers map."
+msgstr ""
+"Dans ce guide de démarrage rapide, nous allons configurer la mise en cache "
+"de tuiles pour une couche WMS supplémentaire et afficher les tuiles dans une"
+" page HTML simple contenant une carte OpenLayers."
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:38
+msgid ""
+"First let's open the MapCache configuration file in FeatherPad - a text "
+"editor. Open FeatherPad from the command line with elevated permissions, so "
+"you can save the file, using System Tools > QTerminal and then running run "
+"the command below:"
+msgstr ""
+"Ouvrez d’abord le fichier de configuration MapCache dans FeatherPad - un "
+"éditeur de texte. Ouvrez FeatherPad à partir de la ligne de commande avec "
+"des autorisations élevées, de sorte que vous pouvez enregistrer le fichier, "
+"en utilisant les outils système > QTerminal, puis en cours d’exécution "
+"exécuter la commande ci-dessous:"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:45
+msgid ""
+"We can see which layers are available in our source WMS server by opening "
+"the following link: "
+"http://localhost/itasca/?service=wms&request=getcapabilities MapCache is "
+"configured to forward on any requests it can't handle, such as "
+"GetCapabilities, to MapServer with the rule shown below:"
+msgstr ""
+"Nous pouvons voir quelles couches sont disponibles dans notre serveur WMS "
+"source en ouvrant le lien suivant : "
+"http://localhost/itasca/?service=wms&request=getcapabilities MapCache est "
+"configuré pour transmettre toutes les demandes qu’il ne peut pas gérer, "
+"telles que GetCapabilities, à MapServer avec la règle indiquée ci-dessous :"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:56
+msgid ""
+"One of the layer names listed in the WMS Capabilities document is "
+"``dlgstln2`` - streams for Itasca county. We will add this as a new tileset "
+"to the MapCache service. First we add a ``<source>`` block - this is the "
+"configuration to retrieve data from the WMS server. Add the following XML "
+"block after the existing ``<source name=\"lake_source\" "
+"type=\"wms\">...</source>`` block used for the lakes to ``mapcache-"
+"quickstart.xml``:"
+msgstr ""
+"L’un des noms de calque énumérés dans le document WMS Capabilities est "
+"``dlgstln2`` - flux pour le comté d’Itasca. Nous allons ajouter cela comme "
+"un nouveau tileset au service MapCache. Tout d’abord, nous ajoutons un bloc "
+"``<source>`` - c’est la configuration pour récupérer des données à partir du"
+" serveur WMS. Ajouter le bloc XML suivant après le bloc existant ``<source "
+"name=\"lake_source\" type=\"wms\">...</source>`` utilisé pour les lacs à "
+"``mapcache-quickstart.xml``:"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:75
+msgid ""
+"We use the ``<params>`` block to pass the WMS layer name, and the image "
+"format back to the WMS server, along with the MapServer specific ``<map>`` "
+"parameter. The URL to the WMS server is in the ``<http>`` block. For "
+"documentation on all configuration file elements see the `Configuration "
+"Documentation <https://mapserver.org/mapcache/config.html>`_."
+msgstr ""
+"Nous utilisons le bloc ``<params>`` pour passer le nom de la couche WMS, et "
+"le format d’image de retour au serveur WMS, avec le paramètre mapserver "
+"spécifique ``<map>`` . L’URL du serveur WMS se trouve dans le bloc "
+"``<http>``. Pour la documentation sur tous les éléments de fichier de "
+"configuration, consultez la `documentation de configuration  "
+"<https://mapserver.org/mapcache/config.html>`_."
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:79
+msgid ""
+"Next we will add a ``<tileset>`` block, which defines how the source will be"
+" stored and served as tiles. Place the following block after the existing "
+"``<tileset name=\"lakes\">...</tileset>`` block."
+msgstr ""
+"Ensuite, nous ajouterons un bloc ``<tileset>`` qui définit la façon dont la "
+"source sera stockée et servie de tuiles. Placez le bloc suivant après le "
+"bloc existant ``<tileset name=\"lakes\">...</tileset>``."
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:91
+msgid ""
+"We set the grid type to the inbuilt ``GoogleMapsCompatible`` grid used as "
+"the default tiling scheme in many web mapping applications. The "
+"``name=streams`` is used by client applications to access the tileset. We "
+"are using a disk-based cache (rather than storing tiles in a database or in "
+"a cloud environment)."
+msgstr ""
+"Nous définissons le type de grille sur la grille intégrée "
+"``GoogleMapsCompatible`` utilisée comme système de carroyage par défaut dans"
+" de nombreuses applications de cartographie Web. Le ``name=streams`` est "
+"utilisé par les applications clientes pour accéder au carrelage. Nous "
+"utilisons un cache basé sur disque (plutôt que de stocker des tuiles dans "
+"une base de données ou dans un environnement cloud)."
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:95
+msgid ""
+"Anytime you modify the MapCache configuration file you need to reload Apache"
+" for the changes to come into effect. This can be run from the command line "
+"as follows:"
+msgstr ""
+"Chaque fois que vous modifiez le fichier de configuration MapCache, vous "
+"devez recharger Apache pour que les modifications entrent en vigueur. Ceci "
+"peut être exécuté à partir de la ligne de commande comme suit :"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:102
+msgid ""
+"You should now be able to access a tile with the following URL: "
+"http://localhost/itasca/gmaps/streams@GoogleMapsCompatible/12/987/1433.png"
+msgstr ""
+"Vous devriez maintenant être en mesure d’accéder à une tuile avec l’URL "
+"suivante: "
+"http://localhost/itasca/gmaps/streams@GoogleMapsCompatible/12/987/1433.png"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:106
+msgid ""
+"Now let's add the tileset to our OpenLayers map. Open the HTML page using "
+"the following command:"
+msgstr ""
+"Ajoutons maintenant le jeu de tuiles à notre carte OpenLayers. Ouvrez la "
+"page HTML à l’aide de la commande suivante :"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:112
+msgid "Uncomment out the JavaScript code below:"
+msgstr "Décommentez le code JavaScript ci-dessous :"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:122
+msgid ""
+"Now refresh the page at http://localhost/mapcache-quickstart/ - you should "
+"see the new streams layer being served by MapCache."
+msgstr ""
+"Maintenant, actualisez la page http://localhost/mapcache-quickstart/ - vous "
+"devriez voir la nouvelle couche de flux en cours de service par MapCache."
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:126
+msgid ""
+"As you browse the map you will see the tile cache folders in "
+"``/var/cache/mapcache`` fill with PNG images."
+msgstr ""
+"Lorsque vous naviguez sur la carte, vous verrez les dossiers de cache de "
+"tuiles dans ``/var/cache/mapcache`` se remplir d’images PNG."
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:130
+msgid ""
+"The location and type of the cache is set by the following block in the "
+"configuration file:"
+msgstr ""
+"L’emplacement et le type de cache sont définis par le bloc suivant dans le "
+"fichier de configuration :"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:140
+msgid "Adding New Services"
+msgstr "Ajout de nouveaux services"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:142
+msgid ""
+"You can configure Apache to run as many different MapCache services, each "
+"with its own configuration file by editing the ``/etc/apache2/conf-"
+"enabled/mapcache.conf`` file. As this requires super user permissions you "
+"can open it for editing in FeatherPad by running the command below:"
+msgstr ""
+"Vous pouvez configurer Apache pour exécuter autant de différents services "
+"MapCache, chacun avec son propre fichier de configuration en éditant le "
+"fichier ``/etc/apache2/conf-enabled/mapcache.conf`` Comme cela nécessite des"
+" autorisations de super utilisateur, vous pouvez l’ouvrir pour l’édition "
+"dans FeatherPad en exécutant la commande ci-dessous:"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:150
+msgid ""
+"OSGeoLive has two MapCache services, each with an alias and a configuration "
+"file. The alias is the URL to use on the server, e.g. "
+"http://localhost/mapcache and http://localhost/itasca"
+msgstr ""
+"OSGeoLive dispose de deux services MapCache, chacun avec un alias et un "
+"fichier de configuration. L’alias est l’URL à utiliser sur le serveur, par "
+"exemple http://localhost/mapcache et http://localhost/itasca"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:164
+msgid ""
+"To add a new service simply add a new line in the following format, "
+"replacing WEB_PATH and PATH_TO_CONFIG_FILE with the relevant parameters:"
+msgstr ""
+"Pour ajouter un nouveau service, il suffit d’ajouter une nouvelle ligne dans"
+" le format suivant, en remplaçant WEB_PATH et PATH_TO_CONFIG_FILE par les "
+"paramètres pertinents :"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:171
+msgid ""
+"See the `Apache Module Instructions "
+"<https://mapserver.org/mapcache/install.html#apache-module-specific-"
+"instructions>`_ for further details on configuring the Apache module."
+msgstr ""
+"Consultez les `instructions du module Apache  "
+"<https://mapserver.org/mapcache/install.html#apache-module-specific-"
+"instructions>`_ pour plus de détails sur la configuration du module Apache."
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:175
+msgid "The Seeder Application"
+msgstr "L’application Seeder"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:177
+msgid ""
+"Map tiles are dynamically created when requested by the web server. To speed"
+" up request times we can generate tiles using a command line application. "
+"This process is known as *seeding*, and the MapCache command line "
+"application is ``mapcache_seed``."
+msgstr ""
+"Les vignettes cartographiques sont créées dynamiquement sur demande par le "
+"serveur Web. Pour accélérer les temps de demande, nous pouvons générer des "
+"tuiles à l’aide d’une application de ligne de commande. Ce processus est "
+"connu sous le nom *seeding* (ensemencement), et l’application MapCache en "
+"ligne de commande  est  ``mapcache_seed``."
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:181
+msgid ""
+"To make sure the tiles created by the seeder application are accessible by "
+"the web server account we add ``sudo -u www-data`` before running the "
+"``mapcache_seed`` application."
+msgstr ""
+"Pour vous assurer que les vignettes créées par l’application seeder sont "
+"accessibles par le compte serveur Web, nous ajoutons ``sudo -u www-data`` "
+"avant d’exécuter l’application ``mapcache_seed``."
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:184
+msgid "In the example below we pass in three options to ``mapcache_seed``:"
+msgstr ""
+"Dans l’exemple ci-dessous, nous passons trois options à ``mapcache_seed``:"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:186
+msgid ""
+"*config*: ``/home/user/mapcache/mapcache-quickstart.xml`` - this is the path"
+" to the MapCache configuration file"
+msgstr ""
+"*config*: ``/home/user/mapcache/mapcache-quickstart.xml`` -c’est le chemin "
+"vers le fichier de configuration MapCache"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:188
+msgid ""
+"*tileset*: ``lakes`` - this is the tileset name we are going to seed, and is"
+" found in ``mapcache-quickstart.xml``"
+msgstr ""
+"*tileset*: ``lakes`` - c’est le nom du jeu de tuiles que nous allons "
+"ensemencer, et qui se trouve dans ``mapcache-quickstart.xml``"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:189
+msgid ""
+"*zoom*: ``0,5`` - this is the range of zoom levels we are going to seed, "
+"from zoom level 0 (the extent of the world in a single tile) to zoom level 5"
+msgstr ""
+"*zoom*: ``0,5`` -  c’est la gamme de niveaux de zoom que nous allons "
+"ensemencer, du niveau de zoom 0 (l’étendue du monde en une seule tuile) au "
+"zoom niveau 5"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:196
+msgid ""
+"For the many other ``mapcache_seed`` options please see the `Seeder "
+"Documentation <https://mapserver.org/mapcache/seed.html>`_."
+msgstr ""
+"Pour les nombreuses autres options ``mapcache_seed`` s’il vous plaît voir la"
+" `documentation du Seeder  <https://mapserver.org/mapcache/seed.html>`_"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:201
+msgid ""
+"If you want to remove a cache folder you can run the following command:"
+msgstr ""
+"Si vous souhaitez supprimer un dossier de cache, vous pouvez exécuter la "
+"commande suivante :"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:208
+msgid "What Next?"
+msgstr "Ensuite ?"
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:210
+msgid ""
+"Read the `MapCache Documentation "
+"<https://mapserver.org/mapcache/index.html>`_."
+msgstr ""
+"Lisez la `documentation MapCache "
+"<https://mapserver.org/mapcache/index.html>`_.."
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:211
+msgid ""
+"Then join the MapServer community, of which MapCache is a part, on the "
+"`Mailing Lists <https://www.mapserver.org/community/lists.html>`_ to "
+"exchange ideas, discuss potential software improvements and ask questions."
+msgstr ""
+"Rejoignez ensuite la communauté MapServer, dont MapCache fait partie, sur "
+"les `listes de diffusion <https://www.mapserver.org/community/lists.html>`_ "
+"pour échanger des idées, discuter d’améliorations logicielles potentielles "
+"et poser des questions."

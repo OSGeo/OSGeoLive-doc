@@ -111,6 +111,8 @@ msgid ""
 "https://help.ubuntu.com/community/Lubuntu/Documentation and "
 "https://www.lxde.org/"
 msgstr ""
+"https://help.ubuntu.com/community/Lubuntu/Documentation és "
+"https://www.lxde.org/"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:56
 msgid "Getting started with the Ubuntu operating system:"

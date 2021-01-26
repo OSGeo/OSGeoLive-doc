@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:10+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:15
+msgid "GpsPrune"
+msgstr "GpsPrune"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:18
+msgid "GPS Track-Editing"
+msgstr "GPS トラック編集"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:20
+msgid ""
+"`GpsPrune <https://activityworkshop.net/software/gpsprune>`_ is a tool for "
+"viewing, editing and converting coordinate data from GPS systems.  It can be"
+" used for planning trips in advance, or for analysing the tracks recorded by"
+" GPS receivers."
+msgstr ""
+"`GpsPrune <https://activityworkshop.net/software/gpsprune>`_  は GPS "
+"システムの位置情報を表示、編集、変換するためのツールです。旅行の計画を事前に立てたり、GPS "
+"受信機によって記録されたトラックを分析するために使用することができます。"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:24
+msgid ""
+"It uses :doc:`OpenStreetMap <osm_dataset_overview>` imagery to show recorded"
+" tracks and waypoints, and provides a variety of tools to let you edit, crop"
+" and prune the data points.  It also has functions for correlating photos "
+"and audio files to the coordinates using the file timestamps."
+msgstr ""
+":doc:`OpenStreetMap <osm_dataset_overview>` "
+"の画像を使用して、記録されたトラックとウェイポイントを表示します。また、さまざまなツールを備えていて、データポイントの編集、切り抜き、部分削除などが自由に行なえます。また、ファイルのタイムスタンプを使って、写真や音声ファイルを位置座標に関連付ける機能も持っています。"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:29
+msgid ""
+"GpsPrune uses GPSBabel, if available, to read data directly from a GPS "
+"receiver, and can send the edited data back to the receiver too."
+msgstr "可能な場合には Gpsbabel を用いて GPS 受信機から直接データを読み込み、編集したデータを 受信機に送り返すこともできます。"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:32
+msgid ""
+"GpsPrune runs on Mac OSX, Windows and Linux, and is available in over ten "
+"different languages."
+msgstr "GpsPrune Mac OSX, Windows, Linux で動作し、10以上の異なる言語で利用可能です。"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:42
+msgid "Core Features"
+msgstr "主な機能"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:44
+msgid ""
+"Load data from text files, gpx files, kml/kmz files, or directly from a GPS "
+"receiver"
+msgstr "テキストファイル、gpx ファイル、 kml/kmz ファイル、または GPS 受信機からの直接のデータ読み込み"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:45
+msgid ""
+"Zoomable map imagery from OpenStreetMap or any compatible server (such as "
+"HikeBikeMap, Reit- und Wanderkarte etc)"
+msgstr ""
+"OpenStreetMap や互換サーバの画像（HikeBikeMap, Reit- und Wanderkarte など）を使用した地図画像の拡大縮小"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:46
+msgid "Altitude or speed profile view"
+msgstr "高度、速度のプロファイル表示"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:47
+msgid ""
+"Editing tools for creating, modifying, deleting, reversing and compressing "
+"tracks"
+msgstr "作成、修正、削除、方向転換、トラック圧縮などの編集ツール"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:48
+msgid ""
+"Interactive 3d view of the data or export to POV format for 3D rendering, "
+"both including map imagery painted onto the terrain"
+msgstr ""
+"データの対話型 3D ビュー、または3Dレンダリング用の POV フォーマットへのエクスポート (いずれも、地表に描画された地図画像を含む)"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:49
+msgid ""
+"Save data to text files, gpx files, kml/kmz files, or directly to a GPS "
+"receiver"
+msgstr "テキストファイル、gpx ファイル、kml/kmz ファイル、または GPS 受信機への直接のデータ保存"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:50
+msgid ""
+"Automatic correlation of photographs and audio files with the loaded data "
+"using timestamps"
+msgstr "タイムスタンプを使用した写真およびオーディオファイルと読み込まれたデータの自動での関連付け"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:51
+msgid ""
+"Creation of charts such as altitude against distance, speed against time"
+msgstr "距離に対する高度、時間に対する速度などのチャートの作成"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:52
+msgid "Distances, climbs, descents, time estimates and more"
+msgstr "距離、登り、下り、時間の見積もりなど"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:53
+msgid ""
+"Online resources such as Wikipedia, GPSies, OpenCaching.de and local weather"
+" forecasts"
+msgstr "Wikipedia、GPSies、OpenCaching.de、地域の天気予報などのオンラインリソース"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:56
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:58
+msgid "**Website:** https://activityworkshop.net/software/gpsprune"
+msgstr "**Webサイト:** https://activityworkshop.net/software/gpsprune"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:60
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**ライセンス:** GNU General Public License (GPL) version 2"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:62
+msgid "**Software Version:** |version-gpsprune|"
+msgstr "**ソフトウェアバージョン:** |version-gpsprune|"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:64
+msgid "**Supported Platforms:** GNU/Linux, Mac OSX, Windows"
+msgstr "**対応プラットフォーム:** GNU/Linux, Mac OSX, Windows"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:70
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/gpsprune_overview.rst:72
+msgid ":doc:`Quickstart documentation <../quickstart/gpsprune_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/gpsprune_quickstart>`"

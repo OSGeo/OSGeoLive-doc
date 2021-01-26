@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Sant-anna <delazj@gmail.com>, 2017
+# Harrissou Sant-anna, 2017
 # Vicky Vergara <vicky@georepublic.de>, 2018
 # Manuel Grizonnet <manuel.grizonnet@cnes.fr>, 2018
 # Nicolas Roelandt (Personnel), 2020

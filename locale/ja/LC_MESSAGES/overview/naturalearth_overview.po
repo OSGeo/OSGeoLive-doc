@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-15 14:20-0600\n"
+"PO-Revision-Date: 2017-09-20 16:10+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:15
+msgid "Natural Earth"
+msgstr "Natural Earth"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:18
+msgid "Map Data"
+msgstr "地図データ"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:20
+msgid ""
+"Natural Earth provides cartographers an off-the shelf solution for creating "
+"small-scale world, regional, and country maps at 1:10-, 1:50-, and 1:110- "
+"million scales. Both political (administrative) and physical (natural) "
+"features are included and vector features align perfectly with included "
+"raster data."
+msgstr ""
+"Natural "
+"Earthは、1:10、1:50、および1:110百万のスケールで小規模な世界、地域、および国のマップを作成するための既製のソリューションを地図作成者に提供します。政治(行政)フィーチャと物理(自然)フィーチャの両方が含まれ、ベクトルフィーチャは含まれるラスターデータと完全に位置合わせされます。"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:22
+msgid ""
+"Natural Earth solves the common problem that many cartographers face: "
+"finding vector data for making publication-quality small-scale maps at the "
+"appropriate level of detail for the maps they are making."
+msgstr ""
+"Natural "
+"Earthは、多くの地図製作者が直面する一般的な問題を解決します。つまり、作成中のマップに適した詳細レベルでパブリケーション品質の小規模マップを作成するためのベクタデータを検索します。"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:31
+msgid "Core Features"
+msgstr "主な機能"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:33
+msgid "Vector features include name and other attributes"
+msgstr "ベクトルフィーチャには、名前とその他の属性が含まれます。"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:34
+msgid ""
+"Large polygons are split for more efficient data handling such as "
+"bathymetric layers."
+msgstr "大きなポリゴンは、水深レイヤなどのデータ処理を効率化するために分割されます。"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:35
+msgid ""
+"Projection friendly vectors precisely match at 180 degrees longitude. Lines "
+"contain enough data  points for smooth bending in conic projections, but not"
+" so many that computer processing speed suffers."
+msgstr ""
+"投影に適したベクトルは、経度180度で正確に一致します。直線には、円錐図法で滑らかに曲げるのに十分なデータ点が含まれていますが、コンピュータ処理速度が低下するほど多くは含まれていません。"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:36
+msgid ""
+"Raster data includes grayscale-shaded relief and cross-blended hypsometric "
+"tints derived from the latest NASA SRTM Plus elevation data and tailored to "
+"register with Natural Earth Vector."
+msgstr ""
+"ラスターデータには、グレースケールでシェーディングされたレリーフと、最新のNASA SRTM Plus標高データから派生し、Natural Earth "
+"Vectorに登録するように調整されたクロスブレンドされた浅色が含まれます。"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:37
+msgid ""
+"Optimized for use in web mapping applications, such as Google or Yahoo, with"
+" built-in scale attributes to direct features to be shown at different zoom "
+"levels."
+msgstr ""
+"GoogleやYahooなどのWebマッピングアプリケーションでの使用に最適化されています。さまざまなズームレベルで表示されるフィーチャを指定するための尺度属性が組み込まれています。"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:41
+msgid "Data Sets"
+msgstr "データセット"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:44
+msgid "Cultural Vector Data Themes:"
+msgstr "Culturalベクタデータのテーマ:"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:44
+msgid ""
+"Includes countries, disputed areas, states and provinces (1st order "
+"administrative divisions), and populated places (cities, towns). Roads, "
+"rails, urban polygons, parks and protected areas, Pacific nation groups, and"
+" water boundary indicators round out the cultural offerings."
+msgstr ""
+"国・係争地・州・県(1番目の都道府県)・居住地(市町村)を含む。道路、鉄道、都市ポリゴン、公園と保護地域、太平洋地域の国グループ、water "
+"boundary indicatersなどを、Cultural提供物にまとめている。"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:47
+msgid "Physical Vector Data Themes:"
+msgstr "物理ベクタデータのテーマ:"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:47
+msgid ""
+"Include coastline, land, ocean, minor islands, reefs, physical region "
+"features and points, rivers, lakes, glaciated areas, Antarctic ice shelves, "
+"bathymetry, geographic lines, and graticles."
+msgstr "海岸線、陸地、海洋、小島嶼、岩礁、物理的地域の特徴及び地点、河川、湖、氷河区域、南極の棚氷、水深測定、地理的境界線及び氷床を含む。"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:51
+msgid "Raster Data Themes:"
+msgstr "ラスターデータのテーマ:"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:50
+msgid ""
+"Greyscale shaded relief, cross blended hypsometric tints, satellite-derived "
+"land cover data, idealized world environment, ocean bottom, and bathymetry. "
+"Optional baked in content includes: land cover, shaded relief, ocean water, "
+"and drainages with lakes."
+msgstr ""
+"グレースケールでシェーディングされた起伏、クロスブレンドされた浅色、衛星由来の土地被覆データ、理想化された世界環境、海底、水深測定。オプションのベイク処理済みコンテンツには、土地被覆、シェーディングされたレリーフ、海水、湖の排水が含まれます。"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:54
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:56
+msgid "**Website:** https://www.naturalearthdata.com/"
+msgstr "**Webサイト:** https://www.naturalearthdata.com/"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:58
+msgid "**License:** None, the data is public domain."
+msgstr "**ライセンス:** パブリックドメイン"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:60
+msgid "**Data Version:** 2.0"
+msgstr "**データバージョン:** 2.0"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:62
+msgid "**Data format:** SHP and TIF+TFW"
+msgstr "**データフォーマット:** SHP と TIF+TFW"
+
+#: ../../build/doc/overview/naturalearth_overview.rst:64
+msgid "**Spatial coordinate system:** WGS84."
+msgstr "**空間座標系:** WGS84."
+
+#: ../../build/doc/overview/naturalearth_overview.rst:66
+msgid "**Support:** https://www.naturalearthdata.com/about"
+msgstr "**サポート:** https://www.naturalearthdata.com/about"

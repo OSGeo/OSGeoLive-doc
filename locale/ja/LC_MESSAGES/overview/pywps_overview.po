@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# MarPetra <mvergaratrejo@gmail.com>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"PO-Revision-Date: 2017-09-20 16:08+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/pywps_overview.rst:18
+msgid "PyWPS"
+msgstr "PyWPS"
+
+#: ../../build/doc/overview/pywps_overview.rst:21
+msgid "Web Processing Service"
+msgstr "Web Processing Service"
+
+#: ../../build/doc/overview/pywps_overview.rst:23
+msgid ""
+"PyWPS provides web access to custom geospatial operations (referred to as "
+"Processes) via the |WPS| standard."
+msgstr "PyWPS は、カスタムの地理空間操作 ( プロセスと呼ばれる ) への Web アクセスを、 |WPS| 標準で提供しています。"
+
+#: ../../build/doc/overview/pywps_overview.rst:26
+msgid ""
+"Processes are written in the Python programming language and can integrate "
+"tools such as :doc:`GRASS GIS <grass_overview>`, :doc:`R <R_overview>`, "
+":doc:`GDAL/OGR <gdal_overview>`, :doc:`proj <proj_overview>` and other "
+"libraries with Python bindings.  Source data can be provided with WPS "
+"requests or accessed from data on the WPS server."
+msgstr ""
+
+#: ../../build/doc/overview/pywps_overview.rst:37
+msgid "Core Features"
+msgstr "主な機能"
+
+#: ../../build/doc/overview/pywps_overview.rst:39
+msgid "small and lightweight"
+msgstr "小型で軽量"
+
+#: ../../build/doc/overview/pywps_overview.rst:40
+msgid "easy and fast to install and setup"
+msgstr "インストールとセットアップが容易かつ迅速"
+
+#: ../../build/doc/overview/pywps_overview.rst:41
+msgid "implemented in pure Python"
+msgstr "純粋な Python で実装されている"
+
+#: ../../build/doc/overview/pywps_overview.rst:42
+msgid "integrates seamlessly with the Python ecosystem of packages:"
+msgstr "シームレスに統合されたPython エコシステムのパッケージ:"
+
+#: ../../build/doc/overview/pywps_overview.rst:44
+msgid "GRASS 7"
+msgstr "GRASS 7"
+
+#: ../../build/doc/overview/pywps_overview.rst:45
+msgid "R"
+msgstr "R"
+
+#: ../../build/doc/overview/pywps_overview.rst:46
+msgid "GDAL/OGR"
+msgstr "GDAL/OGR"
+
+#: ../../build/doc/overview/pywps_overview.rst:47
+msgid "Proj"
+msgstr ""
+
+#: ../../build/doc/overview/pywps_overview.rst:48
+msgid "Numpy"
+msgstr "Numpy"
+
+#: ../../build/doc/overview/pywps_overview.rst:49
+msgid "Shapely"
+msgstr "Shapely"
+
+#: ../../build/doc/overview/pywps_overview.rst:52
+msgid "Implemented Standards"
+msgstr "実装されている標準規格"
+
+#: ../../build/doc/overview/pywps_overview.rst:54
+msgid "OGC Standards:"
+msgstr "OGC Standards:"
+
+#: ../../build/doc/overview/pywps_overview.rst:56
+msgid "WPS 1.0.0"
+msgstr "WPS 1.0.0"
+
+#: ../../build/doc/overview/pywps_overview.rst:59
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/pywps_overview.rst:61
+msgid "**Website:** https://pywps.org/"
+msgstr "**Webサイト:** https://pywps.org/"
+
+#: ../../build/doc/overview/pywps_overview.rst:63
+msgid "**Licence:** GPL"
+msgstr "**ライセンス:** GPL"
+
+#: ../../build/doc/overview/pywps_overview.rst:65
+msgid "**Software Version:** |version-pywps|"
+msgstr "**ソフトウェアバージョン:** |version-pywps|"
+
+#: ../../build/doc/overview/pywps_overview.rst:67
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/pywps_overview.rst:69
+msgid "**API Interfaces:** Python"
+msgstr "**API インタフェース:** Python"
+
+#: ../../build/doc/overview/pywps_overview.rst:71
+msgid "**Support:** https://pywps.org/community/#professional-support"
+msgstr "**サポート:** https://pywps.org/community/#professional-support"
+
+#: ../../build/doc/overview/pywps_overview.rst:76
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/pywps_overview.rst:78
+msgid ":doc:`Quickstart documentation <../quickstart/pywps_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/pywps_quickstart>`"

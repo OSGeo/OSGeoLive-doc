@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-01-25 18:18-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,37 +32,30 @@ msgid ""
 "archives and metadata via Open Standards. It builds upon an Open Source "
 "stack of software which includes Python, :doc:`MapServer "
 "<../overview/mapserver_overview>`, Django/GeoDjango, :doc:`GDAL "
-"<../overview/gdal_overview>`, PROJ.4 and a :doc:`SpatiaLite "
-"<../overview/spatialite_overview>` or :doc:`PostGIS "
+"<../overview/gdal_overview>`,  :doc:`PROJ <../overview/proj_overview>` and a"
+" :doc:`SpatiaLite <../overview/spatialite_overview>` or :doc:`PostGIS "
 "<../overview/postgis_overview>` database."
 msgstr ""
-"Az EOxServer egy szerver nagy Föld megfigyelési adat  (EO) archívumok és "
-"metaadatok prezentálására nyílt szabványok alkalmazásával. Több nyílt "
-"forráskódú szoftverre épül, többek között Python, :doc:`MapServer "
-"<../overview/mapserver_overview>`, Django/GeoDjango, :doc:`GDAL "
-"<../overview/gdal_overview>`, PROJ.4 és a :doc:`SpatiaLite "
-"<../overview/spatialite_overview>` vagy :doc:`PostGIS "
-"<../overview/postgis_overview>`  adatbázis."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:30
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:31
 msgid "This Quick Start describes how to:"
 msgstr "Ez a gyorstalpaló leírja:"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:32
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:33
 msgid "Use the Web Client to view, filter, subset, and download EO data"
 msgstr ""
 "Használja a Web klienst az EO adatok megjelenítéséhez, szűréséhez, "
 "részhalmaz képzéséhez és letöltéséhez"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:33
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:34
 msgid "Use the Admin Client to inspect EO data archives"
 msgstr "Használja az Admin klienst az EO adat archívumok megtekintéséhez"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:39
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:40
 msgid "Start EoxServer"
 msgstr "EOxServer indítás"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:41
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:42
 msgid ""
 "Choose :menuselection:`Geospatial --> Web Services --> EOxServer`. This "
 "launches a browser showing the demonstration instance available at "
@@ -72,17 +65,17 @@ msgstr ""
 "menüből. Ez elindítja a böngészőt, mely a http://localhost/eoxserver/ címen "
 "elérhető bemutató példányt mutatja."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:48
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:49
 msgid "Work with the Web Client"
 msgstr "Munka a Web klienssel"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:50
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:51
 msgid "Click the **Web Client** link to open the integrated EOxServer client."
 msgstr ""
 "Kattintson a **Web Client** linkre az integrált EOxServer kliens "
 "megnyitásához."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:52
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:53
 msgid ""
 "Within this client you can explore the contents of the EOxServer instance. "
 "The demonstration instance is filled with ENVISAT MERIS scenes."
@@ -90,7 +83,7 @@ msgstr ""
 "Ebben a kliensben felfedezheti a EOxServer példány tartalmát. A bemutató "
 "példányt ENVISAT MERIS helyszínekkel töltötték fel. "
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:59
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:60
 msgid ""
 "The client provides a set of interactions. On the top you can see a menu bar"
 " to show the Layer Selection and the Tools widgets. The main area is the map"
@@ -103,14 +96,14 @@ msgstr ""
 " vezérlőé, a már megjelenített adatállományokkal. Alul egy idő csúszkát "
 "talál, mellyel felfedezheti a tartalom idő dimenzióját. "
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:69
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:70
 msgid ""
 "The Layer Selection widget allows you to enable or disable the visibility "
 "and configure the rendering of the layers. Also, you can show or hide the "
 "streets-overlay and select the background layer. Please note, that when you "
 "disable the \"MER FRS 1P RGB reduced\" layer, the timeslider widget is "
-"hidden and only reappears once a layer dataset layer is enabled. The Tools "
-"widget provides three different tools: the Bounding Box Selection Tool, the "
+"hidden and only reappears once a dataset layer is enabled. The Tools widget "
+"provides three different tools: the Bounding Box Selection Tool, the "
 "Selection Management Tool and the Download Tool."
 msgstr ""
 "A réteg kiválasztó vezérlővel ki vagy bekapcsolhatja a rétegek láthatóságát "
@@ -121,7 +114,7 @@ msgstr ""
 "vezérlő három különböző eszközt biztosít: a Bounding Box Selection Tool-t. a"
 " Selection Management Tool-t és a Download Tool-t."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:81
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:82
 msgid ""
 "Similar to a map, you can zoom and pan the currently visible time of "
 "interest and select a time of interest by drawing on the area containing the"
@@ -133,7 +126,7 @@ msgstr ""
 "rajzolva. Egy pontra mozogva láthatja az adatállomány azonosítóját. A pontra"
 " kattintva a térkép automatikusan az adatállomány terjedelmére nagyít."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:90
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:91
 msgid ""
 "When the Bounding Box Tool is enabled, you can draw a bounding box directly "
 "on the map. The bounding box is used for querying within the Download Tool."
@@ -142,19 +135,19 @@ msgstr ""
 "közvetlenül a térképre. A befoglaló téglalapot a Download Tool-on belül a "
 "lekérdezéshez használjuk."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:97
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:98
 msgid ""
 "When the Download Tool is enabled, a query to the server is sent. This query"
-" include s the selected time of interest and bounding box. The results are "
+" includes the selected time of interest and bounding box. The results are "
 "shown in the Download widget, where you can select the format, projection "
 "and datasets to download."
 msgstr ""
 "Amikor a Download Tool-t  bekapcsolja egy lekérdezést küldünk a szervernek. "
 "Ez a lekérdezés tartalmazza a kiválasztott időpontot és a befoglaló "
-"téglalapot.a z eredmények megjelennek a Download vezérlőben, ahol a "
-"formátumot, a vetületet és a letöltendő adatállományokat."
+"téglalapot. Az eredmények megjelennek a Download vezérlőben, ahol "
+"kiválaszthatja a formátumot, a vetületet és a letöltendő adatállományokat."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:102
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:103
 msgid ""
 "This was a quick introduction to the EOxServer Web Client. Please refer to "
 "the `online documentation "
@@ -165,11 +158,11 @@ msgstr ""
 "kérjük forduljon az `online dokumentációhoz "
 "<https://docs.eoxserver.org/en/latest/users/webclient.html>`_."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:108
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:109
 msgid "Work with the Admin Client"
 msgstr "Munka az Admin klienssel"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:110
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:111
 msgid ""
 "From the EOxServer main page, click the **Admin Client** link and login with"
 " user `admin` and password `admin`."
@@ -177,7 +170,7 @@ msgstr ""
 "Az EOxServer fő oldalán kattintson az **Admin Client** linkre és "
 "jelentkezzen be az `admin` felhasználónévvel és `admin` jelszóval."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:116
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:117
 msgid ""
 "The `Admin Client` is Djangos standard admin and allows you to configure the"
 " available data. Please feel free to explore the client. More information "
@@ -189,7 +182,7 @@ msgstr ""
 "További információ található az `operators' kézikönyvben "
 "<https://docs.eoxserver.org/en/latest/users/operators.html>`_."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:125
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:126
 msgid ""
 "For example, you can inspect the dataset series that is loaded by default by"
 " clicking the \"Dataset Series\" link and then the "
@@ -199,7 +192,7 @@ msgstr ""
 "\"Dataset Series\"-re navigálva és utána a \"MER_FRS_1P_RGB_reduced\" linkre"
 " kattintva."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:132
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:133
 msgid ""
 "Here you can also see the included datasets. You can exclude single datasets"
 " using the \"delete\" checkbox on the right and click on \"Save\"."
@@ -207,11 +200,11 @@ msgstr ""
 "Itt láthatja a tartalmazott adatállományokat. Ha szeretné egy adatállományt "
 "kivehet a \"delete\" jelölő négyzettel jobbra és a Save\"-re kattintva."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:139
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:140
 msgid "What Next?"
 msgstr "Mi következik?"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:141
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:142
 msgid ""
 "This is a simple demonstration, but you can do much more with EOxServer. The"
 " project website contains a lot of resources to help you get started. Here’s"
@@ -221,7 +214,7 @@ msgstr ""
 "projekt honlapja rengeteg forrást tartalmaz az elinduláshoz. Itt van néhány "
 "legközelebb megtekintendő forrás:"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:145
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:146
 msgid ""
 "See the :doc:`EOxServer Overview <../overview/eoxserver_overview>` for more "
 "information."
@@ -229,7 +222,7 @@ msgstr ""
 "További információkért lásd a :doc:`EOxServer összefoglalót "
 "<../overview/eoxserver_overview>`."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:146
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:147
 msgid ""
 "Read the `EOxServer Operators' Guide "
 "<https://docs.eoxserver.org/en/latest/users/operators.html>`_."
@@ -237,7 +230,7 @@ msgstr ""
 "Olvassa el az `EOxServer Operators' kézikönyvet "
 "<https://docs.eoxserver.org/en/latest/users/operators.html>`_."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:147
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:148
 msgid ""
 "Read the complete `EOxServer Users' documentation "
 "<https://docs.eoxserver.org/en/latest/users/index.html>`_ starting from the "
@@ -249,7 +242,7 @@ msgstr ""
 "`EOxServer alapoknál "
 "<https://docs.eoxserver.org/en/latest/users/basics.html>`_."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:149
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:150
 msgid ""
 "If you are already in the OSGeoLive environment, read the local copy of the "
 "`EOxServer Users' local documentation <https://localhost/eoxserver-"
@@ -259,7 +252,7 @@ msgstr ""
 " dokumentációját <https://localhost/eoxserver-"
 "docs/EOxServer_documentation.pdf>`_ "
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:151
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:152
 msgid ""
 "Ready to use EOxServer? Then join the community on the `mailing lists "
 "<https://docs.eoxserver.org/en/latest/users/mailing_lists.html>`_ to "

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-01-21 12:32-0600\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
@@ -364,6 +364,7 @@ msgstr "anton.patrushev gmail com"
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
@@ -725,6 +726,22 @@ msgid "?"
 msgstr "?"
 
 #: ../../build/contributors.csv:1
+msgid "Enock Seth Nyamador"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+msgid "open enockseth co"
+msgstr ""
+
+#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
+msgid "Ghana"
+msgstr "Ghana"
+
+#: ../../build/contributors.csv:1
+msgid "enockseth"
+msgstr ""
+
+#: ../../build/contributors.csv:1
 msgid "Eric Lemoine"
 msgstr "Eric Lemoine"
 
@@ -965,10 +982,6 @@ msgid "henry ushahidi com"
 msgstr "henry ushahidi com"
 
 #: ../../build/contributors.csv:1
-msgid "Ghana"
-msgstr "Ghana"
-
-#: ../../build/contributors.csv:1
 msgid "eyedol"
 msgstr "eyedol"
 
@@ -1063,15 +1076,15 @@ msgstr "drewnak"
 
 #: ../../build/contributors.csv:1
 msgid "Jan Suleiman"
-msgstr ""
+msgstr "Jan Suleiman"
 
 #: ../../build/contributors.csv:1
 msgid "suleiman terrestris de"
-msgstr ""
+msgstr "suleiman terrestris de"
 
 #: ../../build/contributors.csv:1
 msgid "jansule"
-msgstr ""
+msgstr "jansule"
 
 #: ../../build/contributors.csv:1
 msgid "Jane Lewis"
@@ -2527,10 +2540,12 @@ msgstr "Roberta Fagandini"
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1
 msgid "Japanese"
 msgstr "Japani"
 
+#: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
@@ -2585,6 +2600,26 @@ msgstr "nagase georepublic co jp"
 #: ../../build/translators.csv:1
 msgid "sanak"
 msgstr "sanak"
+
+#: ../../build/translators.csv:1
+msgid "Taro Matsuzawa"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "taro georepublic co jp"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Hiroshi Miura"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "miurahr osmf jp"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "miurahr"
+msgstr ""
 
 #: ../../build/translators.csv:1
 msgid "Korean"
