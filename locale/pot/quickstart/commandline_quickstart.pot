@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-21 12:32-0600\n"
+"POT-Creation-Date: 2021-01-25 18:18-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +73,7 @@ msgid "cd / navigated to the root directory cd /home/user goes to your home dire
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:72
-msgid "`cd ..` moves you one directory to the top `cd user` goes from your current location to the home directory of user. This is not the same as `/user`"
+msgid "`cd ..` moves you one directory to the top, `cd` user goes from your current location to the home directory of user. This is not the same as `/user`"
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:76
@@ -101,7 +101,7 @@ msgid "`touch` creates a new empty file."
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:105
-msgid "You can pipe the information from a command to a file i.e. the command history. history displays the command history. With the following command it can be saved in a file."
+msgid "You can pipe the information from a command to a file i.e. the command history. `history` displays the command history. With the following command it can be saved in a file."
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:113
@@ -157,7 +157,7 @@ msgid "Who is sudo?"
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:166
-msgid "With `sudo` you can do things that you are normally not allowed to. sudo runs commands with the rights of the superuser also known as root With sudo you can i.e. install more software, administrate services, change access rights and more fun. You will see the use of sudo in some of the following commands."
+msgid "With `sudo` you can do things that you are normally not allowed to. `sudo` runs commands with the rights of the superuser also known as root With `sudo` you can i.e. install more software, administrate services, change access rights and more fun. You will see the use of `sudo` in some of the following commands."
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:172
@@ -201,7 +201,7 @@ msgid "You can either edit files in the terminal or open them with an external p
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:218
-msgid "In the terminal window you can use the vim editor (Vi IMproved). vim is very powerful and has many options."
+msgid "In the terminal window you can use the `vim` editor (Vi IMproved). `vim` is very powerful and has many options."
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:220
@@ -217,15 +217,15 @@ msgid "https://vim.rtorr.com/lang/en_en"
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:226
-msgid "Open a file with vim:"
+msgid "Open a file with `vim`:"
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:232
-msgid "press `i` to switch to the edit mode"
+msgid "press `i` to switch to the input mode"
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:233
-msgid "`ESC` leaves the edit mode"
+msgid "`ESC` leaves the input mode"
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:234
@@ -257,7 +257,7 @@ msgid "Directories or files have an owner and a group definition. By default the
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:248
-msgid "You can show the user and group via `ls -l`"
+msgid "You can show the owner and group via `ls -l`"
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:256
@@ -269,151 +269,167 @@ msgid "`user` is defined as the owner and the group"
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:259
-msgid "Access rights are listed at the beginning of the row: * `r` read * `w` write * `x` execute"
+msgid "Access rights are listed at the beginning of the row:"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:264
-msgid "first 3 letters for the owner"
+#: ../../build/doc/quickstart/commandline_quickstart.rst:261
+msgid "`r` read"
+msgstr ""
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:262
+msgid "`w` write"
+msgstr ""
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:263
+msgid "`x` execute"
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:265
-msgid "then next 3 letters for the group"
+msgid "first 3 letters for the owner"
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:266
+msgid "then next 3 letters for the group"
+msgstr ""
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:267
 msgid "followed by the last 3 letters for others"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:270
-msgid "You can change the owner with chown"
-msgstr ""
-
-#: ../../build/doc/quickstart/commandline_quickstart.rst:276
-msgid "first pass the user then the group - like `user:www-data`"
+#: ../../build/doc/quickstart/commandline_quickstart.rst:271
+msgid "Change the owner with `chown`"
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:277
-#: ../../build/doc/quickstart/commandline_quickstart.rst:289
+msgid "first pass the user then the group - like `user:www-data`"
+msgstr ""
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:278
+#: ../../build/doc/quickstart/commandline_quickstart.rst:290
 msgid "`-R` recursive"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:281
-msgid "You can change the access rights with chmod"
+#: ../../build/doc/quickstart/commandline_quickstart.rst:282
+msgid "Change access rights with `chmod`"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:288
+#: ../../build/doc/quickstart/commandline_quickstart.rst:289
 msgid "777 everyone can do everything"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:291
+#: ../../build/doc/quickstart/commandline_quickstart.rst:292
 msgid "number: owner (u)"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:292
+#: ../../build/doc/quickstart/commandline_quickstart.rst:293
 msgid "number: group (g)"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:293
+#: ../../build/doc/quickstart/commandline_quickstart.rst:294
 msgid "number: other (o)"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:295
+#: ../../build/doc/quickstart/commandline_quickstart.rst:296
 msgid "4 read"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:296
+#: ../../build/doc/quickstart/commandline_quickstart.rst:297
 msgid "2 write"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:297
+#: ../../build/doc/quickstart/commandline_quickstart.rst:298
 msgid "1 execute"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:299
-msgid "660 - user and group are allowed to read and write, other have no rights"
-msgstr ""
-
 #: ../../build/doc/quickstart/commandline_quickstart.rst:300
-msgid "744 - user can do everything, group and others can only read"
+msgid "660 - owner and group are allowed to read and write, other have no rights"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:302
+#: ../../build/doc/quickstart/commandline_quickstart.rst:301
+msgid "744 - owner can do everything, group and others can only read"
+msgstr ""
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:303
 msgid "or use it like this"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:308
+#: ../../build/doc/quickstart/commandline_quickstart.rst:309
 msgid "u = user"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:309
+#: ../../build/doc/quickstart/commandline_quickstart.rst:310
 msgid "g = group"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:310
+#: ../../build/doc/quickstart/commandline_quickstart.rst:311
 msgid "o = other"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:311
+#: ../../build/doc/quickstart/commandline_quickstart.rst:312
 msgid "a = all"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:312
+#: ../../build/doc/quickstart/commandline_quickstart.rst:313
 msgid "+/- right: r = read / w = write / x = execute"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:316
+#: ../../build/doc/quickstart/commandline_quickstart.rst:317
 msgid "Things to try"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:318
+#: ../../build/doc/quickstart/commandline_quickstart.rst:319
 msgid "Here are other commands you may try."
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:320
+#: ../../build/doc/quickstart/commandline_quickstart.rst:321
 msgid "grep - search for a pattern in a text"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:321
+#: ../../build/doc/quickstart/commandline_quickstart.rst:322
 msgid "history | grep cd"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:322
-msgid "rm - remove a file/directory"
-msgstr ""
-
 #: ../../build/doc/quickstart/commandline_quickstart.rst:323
-msgid "mv - rename"
+msgid "rm - remove a file"
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:324
-msgid "less - show the beginning of a file"
+msgid "rmdir - remove an empty directory"
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:325
-msgid "tail - show the end of a file"
+msgid "mv - rename/move"
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:326
-msgid "find - search for files in a directory hierarchy"
+msgid "head - show the beginning of a file"
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:327
+msgid "tail - show the end of a file"
+msgstr ""
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:328
+msgid "find - search for files in a directory hierarchy"
+msgstr ""
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:329
 msgid "locate - find files by name"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:332
+#: ../../build/doc/quickstart/commandline_quickstart.rst:334
 msgid "What next?"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:334
+#: ../../build/doc/quickstart/commandline_quickstart.rst:336
 msgid "You have learned some important commands and information to work with the command line. Hopefully you have discovered how powerful the command line is."
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:336
+#: ../../build/doc/quickstart/commandline_quickstart.rst:338
 msgid "https://ubuntu.com/tutorials/command-line-for-beginners#1-overview"
 msgstr ""
 
-#: ../../build/doc/quickstart/commandline_quickstart.rst:337
+#: ../../build/doc/quickstart/commandline_quickstart.rst:339
 msgid "https://en.wikipedia.org/wiki/Category:Standard_Unix_programs"
 msgstr ""
 

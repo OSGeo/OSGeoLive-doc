@@ -277,9 +277,9 @@ source_file = locale/pot/quickstart/mapproxy_quickstart.pot
 source_lang = en
 type = PO
 
-[osgeolive.quickstart--proj4_quickstart]
-file_filter = locale/<lang>/LC_MESSAGES/quickstart/proj4_quickstart.po
-source_file = locale/pot/quickstart/proj4_quickstart.pot
+[osgeolive.quickstart--proj_quickstart]
+file_filter = locale/<lang>/LC_MESSAGES/quickstart/proj_quickstart.po
+source_file = locale/pot/quickstart/proj_quickstart.pot
 source_lang = en
 type = PO
 
@@ -571,9 +571,9 @@ source_file = locale/pot/overview/openlayers_overview.pot
 source_lang = en
 type = PO
 
-[osgeolive.overview--proj4_overview]
-file_filter = locale/<lang>/LC_MESSAGES/overview/proj4_overview.po
-source_file = locale/pot/overview/proj4_overview.pot
+[osgeolive.overview--proj_overview]
+file_filter = locale/<lang>/LC_MESSAGES/overview/proj_overview.po
+source_file = locale/pot/overview/proj_overview.pot
 source_lang = en
 type = PO
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 21:50-0600\n"
+"POT-Creation-Date: 2021-01-25 18:18-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,31 +36,31 @@ msgstr ""
 msgid "Browser Facing GIS"
 msgstr ""
 
-#: ../../build/doc/metrics.rst:52
+#: ../../build/doc/metrics.rst:51
 msgid "Web Services"
 msgstr ""
 
-#: ../../build/doc/metrics.rst:78
+#: ../../build/doc/metrics.rst:77
 msgid "Data Stores"
 msgstr ""
 
-#: ../../build/doc/metrics.rst:89
+#: ../../build/doc/metrics.rst:88
 msgid "Navigation and Maps"
 msgstr ""
 
-#: ../../build/doc/metrics.rst:102
+#: ../../build/doc/metrics.rst:101
 msgid "Spatial Tools"
 msgstr ""
 
-#: ../../build/doc/metrics.rst:114
+#: ../../build/doc/metrics.rst:112
 msgid "Domain Specific GIS"
 msgstr ""
 
-#: ../../build/doc/metrics.rst:122
+#: ../../build/doc/metrics.rst:120
 msgid "Data"
 msgstr ""
 
-#: ../../build/doc/metrics.rst:133
+#: ../../build/doc/metrics.rst:131
 msgid "Geospatial Libraries"
 msgstr ""
 
