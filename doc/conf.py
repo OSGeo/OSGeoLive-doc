@@ -284,6 +284,7 @@ linkcheck_ignore = [
         # Link with certiciate problems
         # Used in quickstart/liblas_quickstart
         'https://epsg.org/home.html',
+        'https://www.epsg.org/',
 
         # Link with error 400 Client Error
         # Used in contact
