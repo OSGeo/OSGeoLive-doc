@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-01-18 20:30+0100\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -88,25 +88,23 @@ msgstr ""
 msgid "Display a map"
 msgstr "Mostrar un mapa"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:70
+#: ../../build/doc/quickstart/grass_quickstart.rst:71
 msgid ""
-"Once inside select for display a raster map layer such as \"`elevation`\" "
-"from the PERMANENT mapset."
+"Once inside, select for display the raster map layer \"`elevation`\" from "
+"the PERMANENT mapset."
 msgstr ""
-"Una vez dentro, seleccione para mostrar una capa de mapa ráster como "
-"\"`elevación`\" del conjunto de mapas PERMANENTE."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:73
+#: ../../build/doc/quickstart/grass_quickstart.rst:72
 msgid "Go into the `GIS Layer Manager` window."
 msgstr "Vaya a la ventana 'Administrador de Capas SIG'."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:74
+#: ../../build/doc/quickstart/grass_quickstart.rst:73
 msgid "Click on the checkerboard toolbar button with a \"+\" on it."
 msgstr ""
 "Click en el botón de la barra de herramientas del tablero de ajedrez con un "
 "\"+\" en él."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:75
+#: ../../build/doc/quickstart/grass_quickstart.rst:74
 msgid ""
 "Select the map name you want from the \"*map to be displayed*\" pull-down "
 "list, and click :guilabel:`Ok`."
@@ -114,7 +112,7 @@ msgstr ""
 "Seleccione el nombre del mapa que desea en la lista desplegable \"*mapa que "
 "se mostrará*\" y haga click en :guilabel:`Ok`."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:76
+#: ../../build/doc/quickstart/grass_quickstart.rst:75
 msgid ""
 "Click on the toolbar button with a \"+\" and a bent poly-line which looks a "
 "bit like a \"V\"."
@@ -122,7 +120,7 @@ msgstr ""
 "Click en el botón de la barra de herramientas con un \"+\" y una polilínea "
 "doblada que se parece un poco a una \"V\"."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:77
+#: ../../build/doc/quickstart/grass_quickstart.rst:76
 msgid ""
 "Select the \"`roadsmajor`\" vector layer from the PERMANENT mapset, and "
 "click :guilabel:`Ok`."
@@ -130,7 +128,7 @@ msgstr ""
 "Seleccione la capa vectorial \"`roadsmajor`\" del conjunto de mapas "
 "PERMANENTE y haga click en :guilabel:`O`'."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:79
+#: ../../build/doc/quickstart/grass_quickstart.rst:78
 msgid ""
 "If you need to, right click on the raster map layer and choose \"Zoom to "
 "selected map(s)\"."
@@ -138,15 +136,15 @@ msgstr ""
 "Si lo necesita, haga click con el botón derecho en la capa del mapa ráster y"
 " elija \"Acercamiento al (los) mapas seleccionados\"."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:81
+#: ../../build/doc/quickstart/grass_quickstart.rst:80
 msgid "You should now see the maps displayed."
 msgstr "Ahora debería ver los mapas que se muestran."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:84
+#: ../../build/doc/quickstart/grass_quickstart.rst:83
 msgid "Plot an elevation profile"
 msgstr "Trazar un perfil de elevación"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:90
+#: ../../build/doc/quickstart/grass_quickstart.rst:89
 msgid ""
 "Back in the `GIS Layer Manager` window click on the `elevation` raster map "
 "name to select it. Then in the `Map Display` window, to the right of the "
@@ -163,11 +161,11 @@ msgstr ""
 "De vuelta en la ventana del `Administrador de Capas SIG`, haga click en el nombre del mapa ráster de `elevación` para seleccionarlo. Luego, en la ventana de `Despliegue del Mapa` , a la derecha de los botones de acercamiento en la barra de herramientas de `Despliegue del Mapa`, hay un icono con un gráfico de líneas y un tablero de ajedrez. \n"
 "Haga click ahí y seleccione **Perfil de superficie de mapa**. El conjunto de mapas `@PERMANENTE` se busca automáticamente. Si el mapa no aparece automáticamente en la lista, vuelva a elegir el mapa de `elevación` como la capa ráster y presione :guilabel:`Aceptar` . En la ventana `Herramienta de Análisis de Perfil de GRASS` , seleccione el segundo botón de la izquierda, le permite establecer la línea de perfil, haga click en ella y marque algunos puntos en el lienzo de `Despliegue del Mapa`. Cuando termine, regrese a la ventana Perfil. Haga click en el botón de I/O en el extremo derecho para cerrar la ventana de perfil."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:103
+#: ../../build/doc/quickstart/grass_quickstart.rst:102
 msgid "Adjust raster map colors"
 msgstr "Ajustar colores de mapa ráster "
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:104
+#: ../../build/doc/quickstart/grass_quickstart.rst:103
 msgid ""
 "Now you'll see your new raster map added to the layer list along with the "
 "elevation raster map, except this time it will be in your \"user1\" working "
@@ -200,33 +198,22 @@ msgstr ""
 "[*Ejecutar*] y cierre la ventana de diálogo *r.colors*. Los colores deberían"
 " actualizarse automáticamente."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:119
+#: ../../build/doc/quickstart/grass_quickstart.rst:118
 msgid "Create a shaded relief map"
 msgstr "Crear un mapa de relieve sombreado"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:125
+#: ../../build/doc/quickstart/grass_quickstart.rst:124
 msgid ""
-"Next we'll create a shaded relief map of the \"elevation\" layer we saw "
+"Next we'll create a shaded relief map of the `elevation` layer we saw "
 "earlier. Start by verifying that the *computational region* is set match the"
 " raster map of interest, \"`elevation`\" in the PERMANENT mapset. To do "
 "this, make sure it is loaded into the layer list of the main `GIS Layer "
 "Manager` window, right click on its name and select \"Set computation region"
-" from selected map(s)\". You will notice the Layer Manage tab will switch to"
-" a text console to display the new settings. Click on the \"*Layers*\" tab "
-"at the bottom to get back to the layer list."
+" from selected map(s)\". If necessary, click on the \"*Layers*\" tab at the "
+"bottom to get back to the layer list."
 msgstr ""
-"A continuación, crearemos un mapa de relieve sombreado de la capa de "
-"\"elevación\" que vimos anteriormente. Comience por verificar que la *región"
-" computacional* está configurada para que coincida con el mapa ráster de "
-"interés, \"`elevación`\" en el conjunto de mapas PERMANENTES. Para hacer "
-"esto, asegúrese de que esté cargado en la lista de capas de la ventana "
-"principal de `GIS Layer Manager`, haga click derecho en su nombre y "
-"seleccione \"Establecer región de cálculo de mapa(s) seleccionados\". Notará"
-" que la pestaña Layer Manage cambiará a una consola de texto para mostrar la"
-" nueva configuración. Haga click en la pestaña \"*Capas*\" en la parte "
-"inferior para volver a la lista de capas."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:134
+#: ../../build/doc/quickstart/grass_quickstart.rst:132
 msgid ""
 "In the `Raster` menu select :menuselection:`Terrain analysis --> Compute "
 "shaded relief` (Terrain analysis is about half way down the `Raster` menu), "
@@ -246,11 +233,11 @@ msgstr ""
 "Desmarca las otras capas ráster para mostrar solo la capa de relieve "
 "sombreado recién creada. "
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:143
+#: ../../build/doc/quickstart/grass_quickstart.rst:141
 msgid "Add watersheds and streams"
 msgstr "Añadir cuencas hidrográficas y arroyos"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:144
+#: ../../build/doc/quickstart/grass_quickstart.rst:142
 msgid ""
 "Once again select the `elevation` *@PERMANENT* map. If you changed the "
 "region since the last step, again right click on the layer name and click on"
@@ -264,7 +251,7 @@ msgstr ""
 "(los) mapas  seleccionados` del menú contextual para considerar el mapa "
 "completo para el cálculo de la cuenca hidrográfica."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:149
+#: ../../build/doc/quickstart/grass_quickstart.rst:147
 msgid ""
 "The wxGUI map display's view and zoom is independent and does not affect "
 "processing calculations. Check the computational region at any time with "
@@ -280,7 +267,7 @@ msgstr ""
 "cuadrícula ráster. Los mapas ráster de diferentes límites y resolución se "
 "volverán a muestrear en la región computacional actual sobre la marcha."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:151
+#: ../../build/doc/quickstart/grass_quickstart.rst:149
 msgid ""
 "Next, in the `Raster` menu choose :menuselection:`Hydrologic modeling --> "
 "Watershed analysis`. This will open the ``r.watershed`` module. Select the "
@@ -301,7 +288,7 @@ msgstr ""
 "\"Nombre de segmentos de corrientes de salida en el mapa ráster\" en la "
 "opción *corrientes* justo debajo de ella. Luego haga click en [*Ejecutar*]."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:160
+#: ../../build/doc/quickstart/grass_quickstart.rst:158
 msgid ""
 "Back in the `GIS Layer Manager` window check that those two new raster maps "
 "are in the layer list and make sure that the basins map is ticked for "
@@ -325,7 +312,7 @@ msgstr ""
 " se dibuje detrás de la capa de mapa de cuencas hidrográficas, y asegúrese "
 "de marcar su casilla de visibilidad para verlo como fondo ."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:175
+#: ../../build/doc/quickstart/grass_quickstart.rst:173
 msgid ""
 "In the `GIS Layer Manager` window click on the `Add various overlays` button"
 " and `Add grid layer`. For size of grid put 5000 (in map units, here meter)."
@@ -338,7 +325,7 @@ msgstr ""
 " presione :guilabel:`Aceptar`. Opcionalmente, puede cambiar los colores de "
 "las líneas de cuadrícula y las etiquetas de texto."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:180
+#: ../../build/doc/quickstart/grass_quickstart.rst:178
 msgid ""
 "To add a scalebar go to the `Map Display` window and press the \"Add map "
 "elements\" button to the right of where you selected the Profile tool "
@@ -353,7 +340,7 @@ msgstr ""
 ":guilabel:`Aceptar` . Aparecerá una barra de escala en la esquina superior "
 "izquierda del lienzo del mapa. Arrástrelo hacia la parte inferior derecha."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:195
+#: ../../build/doc/quickstart/grass_quickstart.rst:193
 msgid ""
 "Now you may be thinking to yourself that these fonts are a bit bare. That's "
 "easily fixed in the `GIS Layer Manager` menus open :menuselection:`Settings "
@@ -372,11 +359,11 @@ msgstr ""
 " ver el cambio, así que haga click en el botón de re-renderizado primero en "
 "la ventana de `Desplegar Mapa` . Las fuentes ahora serán mucho más bonitas."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:205
+#: ../../build/doc/quickstart/grass_quickstart.rst:203
 msgid "Work with vector modules"
 msgstr "Trabajar con módulos vectoriales"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:206
+#: ../../build/doc/quickstart/grass_quickstart.rst:204
 msgid ""
 "The above tasks have only covered a few raster modules. Don't let this give "
 "you the idea that GRASS GIS is just for raster maps -- the vector engine and"
@@ -390,7 +377,7 @@ msgstr ""
 " mantiene un motor vectorial completamente topológico que permite todo tipo "
 "de análisis muy potentes."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:217
+#: ../../build/doc/quickstart/grass_quickstart.rst:215
 msgid ""
 "Continuing with the watershed basins created above, next we'll convert them "
 "into vector polygons. In the `Raster` menu select :menuselection:`Map type "
@@ -419,11 +406,11 @@ msgstr ""
 "nuevo mapa vectorial, puede hacer click derecho sobre él en la lista del "
 "`Administrador de Capas` y cambiar su nivel de opacidad al 50%."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:230
+#: ../../build/doc/quickstart/grass_quickstart.rst:228
 msgid "Adjust vector map colors"
 msgstr "Ajuste de mapa de colores vectoriales"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:231
+#: ../../build/doc/quickstart/grass_quickstart.rst:229
 msgid ""
 "As we did earlier with a raster map we will change the color table of the "
 "new watershed basins vector map. With the ``basins_areas`` selected in the "
@@ -445,11 +432,11 @@ msgstr ""
 " posible que deba volver a dibujar el mapa para ver el mapa vectorial "
 "coloreado."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:246
+#: ../../build/doc/quickstart/grass_quickstart.rst:244
 msgid "Manage attributes"
 msgstr "Administrar atributos"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:247
+#: ../../build/doc/quickstart/grass_quickstart.rst:245
 msgid ""
 "Next we'll add some attributes to those new areas, containing the average "
 "elevation in each basin. In the Vector menu select :menuselection:`Update "
@@ -473,7 +460,7 @@ msgstr ""
 "de verificar que el mapa de áreas-vectoriales está seleccionado en la `Lista"
 " de capas`, haciendo click en un área vectorial en el lienzo del mapa. "
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:256
+#: ../../build/doc/quickstart/grass_quickstart.rst:254
 msgid ""
 "You can now re-colorize the areas based on the average elevation values "
 "using the ``v.colors`` module. In the Vector menu select "
@@ -498,7 +485,7 @@ msgstr ""
 "[*Ejecutar*], debe actualizar la visualización del mapa (primer icono de la "
 "izquierda) para ver el mapa actualizado de las cuencas."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:266
+#: ../../build/doc/quickstart/grass_quickstart.rst:264
 msgid ""
 "Now let's look at the attribute table and SQL builder in more detail. In the"
 " `Layer Manager` click the table icon (\"Show attribute data for selected "
@@ -535,11 +522,11 @@ msgstr ""
 "seleccionadas``. Debería ver, por ejemplo, cuencas de inundación aluviales y"
 " mesetas en el ``Despliegue del Mapa``."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:283
+#: ../../build/doc/quickstart/grass_quickstart.rst:281
 msgid "View a 3D visualization"
 msgstr "Ver una visualización 3D"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:289
+#: ../../build/doc/quickstart/grass_quickstart.rst:287
 msgid ""
 "In order to start the 3D visualization suite, select the `elevation` map as "
 "the raster elevation in the `Layer list` and additionally highlight the "
@@ -561,7 +548,7 @@ msgstr ""
 " y el control deslizante de altura en la pestaña \"Vista\" para obtener "
 "diferentes vistas."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:298
+#: ../../build/doc/quickstart/grass_quickstart.rst:296
 msgid ""
 "To drape maps, satellite or aerial imagery over the top of the DEM, in the "
 "\"Data\" tab select as name for the **Surface Attributes** map the overlay "
@@ -576,7 +563,7 @@ msgstr ""
 "renderizada de inmediato. Como el área es relativamente plana, puede volver "
 "a la pestaña \"Ver\" y aumentar la exageración Z (\"z-Exag\")."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:305
+#: ../../build/doc/quickstart/grass_quickstart.rst:303
 msgid ""
 "For easy navigation in the 3D view, switch on the \"Rotate 3D scene\" in the"
 " map display toolbar, then use the mouse to move the view around."
@@ -585,11 +572,11 @@ msgstr ""
 "3D\" en la barra de herramientas de visualización del mapa, luego use el "
 "mouse para mover la vista. "
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:309
+#: ../../build/doc/quickstart/grass_quickstart.rst:307
 msgid "Things to try"
 msgstr "Cosas para probar"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:310
+#: ../../build/doc/quickstart/grass_quickstart.rst:308
 msgid ""
 "While not covered here, you may like to experiment with the Cartographic "
 "Composer and object-oriented Graphical Modelling Tool (offers export to "
@@ -604,11 +591,11 @@ msgstr ""
 "pueden encontrar más detalles en las páginas de ayuda de `wxGUI "
 "<https://grass.osgeo.org/grass78/manuals/wxGUI.html>`_ ."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:317
+#: ../../build/doc/quickstart/grass_quickstart.rst:315
 msgid "API"
 msgstr "API"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:318
+#: ../../build/doc/quickstart/grass_quickstart.rst:316
 msgid ""
 "The wxGUI is written in Python, and if you're a fan of Python programming "
 "there are a number of great tools and an API available to you. In the bottom"
@@ -632,11 +619,11 @@ msgstr ""
 "de GRASS GIS. Consulte las páginas del manual para obtener una descripción "
 "extensa de las opciones de programación."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:329
+#: ../../build/doc/quickstart/grass_quickstart.rst:327
 msgid "Command line"
 msgstr "Línea de comandos"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:330
+#: ../../build/doc/quickstart/grass_quickstart.rst:328
 msgid ""
 "In the GRASS terminal session, try a GRASS module by typing \"``v.clean "
 "--help``\" which will give you a list of module options. The GRASS command "
@@ -657,7 +644,7 @@ msgstr ""
 "puede crear un nuevo módulo GRASS con solo unos 5 minutos de codificación, "
 "con potente analizador, GUI y plantilla de página de ayuda."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:339
+#: ../../build/doc/quickstart/grass_quickstart.rst:337
 msgid ""
 "\"``g.manual -i``\" will launch a web browser with the module help pages. "
 "When you are done close the browser and type \"exit\" at the GRASS terminal "
@@ -667,11 +654,11 @@ msgstr ""
 "módulo. Cuando haya terminado, cierre el navegador y escriba \"salir\" en el"
 " indicador de terminal de GRASS para abandonar el entorno SIG."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:344
+#: ../../build/doc/quickstart/grass_quickstart.rst:342
 msgid "What next?"
 msgstr "¿Qué sigue?"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:345
+#: ../../build/doc/quickstart/grass_quickstart.rst:343
 msgid ""
 "Visit the GRASS GIS website at `https://grass.osgeo.org "
 "<https://grass.osgeo.org>`_"
@@ -679,7 +666,7 @@ msgstr ""
 "Visite el sitio web de GRASS GIS en `https://grass.osgeo.org "
 "<https://grass.osgeo.org>`_"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:346
+#: ../../build/doc/quickstart/grass_quickstart.rst:344
 msgid ""
 "Visit the GRASS GIS Wiki help site at `https://grasswiki.osgeo.org/wiki/ "
 "<https://grasswiki.osgeo.org/wiki/Main_Page>`_"
@@ -688,7 +675,7 @@ msgstr ""
 "`https://grasswiki.osgeo.org/wiki/ "
 "<https://grasswiki.osgeo.org/wiki/Main_Page>`_"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:347
+#: ../../build/doc/quickstart/grass_quickstart.rst:345
 msgid ""
 "More tutorials and overviews can be found `here "
 "<https://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_."
@@ -696,7 +683,7 @@ msgstr ""
 "Más tutoriales y resúmenes se pueden encontrar `aquí "
 "<https://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:348
+#: ../../build/doc/quickstart/grass_quickstart.rst:346
 msgid ""
 "A `synopsis of the GRASS GIS modules "
 "<https://grass.osgeo.org/grass78/manuals/full_index.html>`_"
@@ -704,7 +691,7 @@ msgstr ""
 "Una `sinopsis de los módulos de GRASS GIS "
 "<https://grass.osgeo.org/grass78/manuals/full_index.html>`_"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:349
+#: ../../build/doc/quickstart/grass_quickstart.rst:347
 msgid ""
 "If the 400 GIS modules which come with GRASS aren't enough for you have a "
 "look at the many contributed add-ons at "
