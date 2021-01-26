@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:11+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:17
 msgid "istSOS"
-msgstr ""
+msgstr "istSOS"
 
 #: ../../build/doc/overview/istsos_overview.rst:20
 msgid "Data Management Tool"
@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:35
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/istsos_overview.rst:37
 msgid ""
@@ -58,7 +58,7 @@ msgstr "Sensor Observation Service (SOS)標準に従ってセンサーデータ�
 
 #: ../../build/doc/overview/istsos_overview.rst:38
 msgid "Administer sensors and data with an intuitive web-based interface."
-msgstr "直感的なWebベースのインターフェイスでセンサーとデータを管理します。"
+msgstr "直感的なWebベースのインタフェースでセンサーとデータを管理します。"
 
 #: ../../build/doc/overview/istsos_overview.rst:39
 msgid ""
@@ -97,7 +97,7 @@ msgstr "埋め込み妥当性テストにより、各観測に品質指数を関
 msgid ""
 "Online editing of data with a seamless interface and advanced observation "
 "calculator."
-msgstr "シームレスなインターフェイスと先進的な観測計算機によるデータのオンライン編集"
+msgstr "シームレスなインタフェースと先進的な観測計算機によるデータのオンライン編集"
 
 #: ../../build/doc/overview/istsos_overview.rst:48
 msgid "Implemented Standards"
@@ -121,7 +121,7 @@ msgstr "**ライセンス:** GNU General Public License (GPL) version 2"
 
 #: ../../build/doc/overview/istsos_overview.rst:58
 msgid "**Software Version:** |version-istsos|"
-msgstr "**ソフトウエアバージョン:** |version-istsos|"
+msgstr "**ソフトウェアバージョン:** |version-istsos|"
 
 #: ../../build/doc/overview/istsos_overview.rst:60
 msgid "**Supported Platforms:** Linux, Unix, Mac, Windows"
@@ -129,7 +129,7 @@ msgstr "**対応プラットフォーム:** Linux, Unix, Mac, Windows"
 
 #: ../../build/doc/overview/istsos_overview.rst:62
 msgid "**API Interfaces:** Python / wsgi"
-msgstr "**API インターフェイス:** Python / wsgi"
+msgstr "**API インタフェース:** Python / wsgi"
 
 #: ../../build/doc/overview/istsos_overview.rst:64
 msgid "**Support:** https://groups.google.com/forum/#!forum/istsos"

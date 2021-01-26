@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,9 +49,9 @@ msgid ""
 "GeoNode` and after a few moments the GeoNode webpage will automatically open"
 " at http://geonode. The page will look like the image below."
 msgstr ""
-"OSGeoLive DVD上でGeoNodeを起動するには、:menuselection:`Geospatial-->Browser "
-"Clients-->GeoNode-->Start GeoNode` "
-"を選択する必要があります。しばらくすると、GeoNodeのWebページがhttp://geonodeで自動的に開きます。ページは次のようになります。"
+"OSGeoLive DVD上でGeoNodeを起動するには、 :menuselection:`Geospatial --> Browser "
+"Clients --> GeoNode --> Start GeoNode` を選択する必要があります。しばらくすると、GeoNodeのWebページが "
+"http://geonode で自動的に開きます。ページは次のようになります。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:46
 msgid "Sign in as a registered user"
@@ -65,7 +65,7 @@ msgid ""
 "layers. In order to create a map and add layers to it, you have to sign in "
 "first."
 msgstr ""
-"上記のインターフェイスから、既存の空間レイヤとマップをビューおよび変更したり、他のGeoNodeユーザに関する情報を検索したりできます。しかし、ログインしていないと、パブリックレイヤーへの読み取り専用アクセスに制限されます。マップを作成してレイヤを追加するには、最初にサインインする必要があります。"
+"上記のインタフェースから、既存の空間レイヤとマップをビューおよび変更したり、他のGeoNodeユーザに関する情報を検索したりできます。しかし、ログインしていないと、パブリックレイヤーへの読み取り専用アクセスに制限されます。マップを作成してレイヤを追加するには、最初にサインインする必要があります。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:50
 msgid ""
@@ -74,7 +74,8 @@ msgid ""
 "fill in the user credentials. Try \"admin\" and \"admin\" for the Username "
 "and Password."
 msgstr ""
-"Webインターフェイスの任意のページから、ページの右上に[*サインイン*]リンクが表示されます。そのリンクをクリックし、表示されるダイアログでユーザー認証情報を入力します。ユーザー名とパスワードに「admin」と「admin」を使用してみてください。"
+"Webインタフェースの任意のページから、ページの右上に[*サインイン*]リンクが表示されます。そのリンクをクリックし、表示されるダイアログでユーザー認証情報を入力します。ユーザー名とパスワードに"
+" \"admin\" と \"admin\" を使用してみてください。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:57
 msgid "Add a new layer"
@@ -92,7 +93,7 @@ msgid ""
 "To see existing layers, from the navigation bar on the top of any page, "
 "select *Data* menu and click on the *Layers* link."
 msgstr ""
-"既存のレイヤーを表示するには、ページの最上部にあるナビゲーションバーから[*データ*]メニューを選択し、[*レイヤー*]リンクをクリックします。"
+"既存のレイヤーを表示するには、ページの最上部にあるナビゲーションバーから *[データ]* メニューを選択し、 *[レイヤー]* リンクをクリックします。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:66
 msgid "The result will look like this:"
@@ -102,21 +103,21 @@ msgstr "結果は次のようになります。"
 msgid ""
 "To add a layer to your account, select the *Upload* button on the top right "
 "of the *Layers* page:"
-msgstr "アカウントにレイヤを追加するには、*Layers* ページの右上にある *Upload* ボタンをクリックします。"
+msgstr "アカウントにレイヤを追加するには、 *Layers* ページの右上にある *Upload* ボタンをクリックします。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:76
 msgid ""
 "In case you want to upload data from any other page, from the navigation "
 "bar, select *Data* menu and click on the *Upload Layers* link."
 msgstr ""
-"他のページからデータをアップロードする場合は、ナビゲーションバーから[*Data*]メニューを選択し、[*Upload "
-"Layers*]リンクをクリックします。"
+"他のページからデータをアップロードする場合は、ナビゲーションバーから *[Data]* メニューを選択し、 *[Upload Layers]* "
+"リンクをクリックします。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:81
 msgid ""
 "By clicking one of the above *Upload* links you will be brought to the "
 "upload page."
-msgstr "上記の[アップロード]リンクのいずれかをクリックすると、アップロードページが表示されます。"
+msgstr "上記の *[アップロード]* リンクのいずれかをクリックすると、アップロードページが表示されます。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:86
 msgid ""
@@ -126,8 +127,8 @@ msgid ""
 "set of files, consisting of a *shp*, a *prj*, a *dbf* and a *shx* file. If "
 "one of them is missing, GeoNode will warn you before you upload them."
 msgstr ""
-"ファイルを追加する方法は2つあります。これは、*Drop Files Here* 領域の*ドラッグ&ドロップ*を使用するか、*Choose Files*"
-" ボタンを使用して選択できます。*shp*、*prj*、*dbf*、*shx* "
+"ファイルを追加する方法は2つあります。これは、 *Drop Files Here* 領域の *ドラッグ&ドロップ* を使用するか、 *Choose "
+"Files* ボタンを使用して選択できます。*shp* 、 *prj* 、 *dbf* 、 *shx* "
 "ファイルからなる完全なファイルセットをアップロードする必要があることに注意してください。いずれかが欠けていると、アップロード前にGeoNodeから警告が表示されます。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:90
@@ -136,8 +137,9 @@ msgid ""
 "Navigate to :file:`/home/user/data/natural_earth2` folder and select all the"
 " :file:`ne_10m_admin_0_countries` files."
 msgstr ""
-"次に、[*ファイルを選択*]ボタンをクリックすると、ファイル選択ウィンドウが表示されます。:file:`/home/user/data/natural_earth2`"
-" フォルダに移動し、:file:`ne_10m_admin_0_countries` ファイルをすべて選択します。"
+"次に、 *ファイルを選択* "
+"ボタンをクリックすると、ファイル選択ウィンドウが表示されます。:file:`/home/user/data/natural_earth2` "
+"フォルダに移動し、:file:`ne_10m_admin_0_countries` ファイルをすべて選択します。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:95
 msgid "You should now be able to see all the files you want to upload."
@@ -153,10 +155,10 @@ msgid ""
 "select your username. This will ensure that only you are able to edit the "
 "data in the layer."
 msgstr ""
-"GeoNodeには、レイヤのビュー、編集、管理が可能なユーザを制限する機能があります。ページの右側には*Permission*セクションが表示され、レイヤのアクセスを制限できます。[*Who"
-" can view and download this data*]の下で、[*Any registered "
-"user*]を選択します。これにより、匿名のビューアクセスが無効になります。同じ領域で、[*Who can edit this "
-"data*]の下からユーザー名を選択します。これにより、レイヤのデータを編集できるのはあなただけになります。"
+"GeoNodeには、レイヤのビュー、編集、管理が可能なユーザを制限する機能があります。ページの右側には *Permission* "
+"セクションが表示され、レイヤのアクセスを制限できます。*[Who can view and download this data]* の下で、 "
+"*[Any registered user]* を選択します。これにより、匿名のビューアクセスが無効になります。同じ領域で、 *[Who can "
+"edit this data]* の下からユーザー名を選択します。これにより、レイヤのデータを編集できるのはあなただけになります。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:107
 msgid "To upload data, click the *Upload* button at the bottom."
@@ -168,8 +170,8 @@ msgid ""
 "*Layer Info* button, or edit the layer metadata with *Edit Metadata* or edit"
 " layer style on GeoServer with *Manage Styles* button."
 msgstr ""
-"レイヤのアップロードが完了したら、*Layer Info* ボタンを使用してレイヤをプレビューするか、*Edit Metadata* "
-"を使用してレイヤメタデータを編集するか、*Manage Styles* ボタンを使用してGeoServer上のレイヤスタイルを編集できます。"
+"レイヤのアップロードが完了したら、 *Layer Info* ボタンを使用してレイヤをプレビューするか、 *Edit Metadata* "
+"を使用してレイヤメタデータを編集するか、 *Manage Styles* ボタンを使用してGeoServer上のレイヤスタイルを編集できます。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:117
 msgid "Press the *Layer Info* button to see the layer page"
@@ -189,17 +191,17 @@ msgstr "次のステップは、マップを作成し、新しく作成したレ
 msgid ""
 "Click the *Explore Maps* link on the *Maps* toolbar. This will bring up the "
 "list of maps."
-msgstr "[*Maps*]ツールバーの[*Explore Maps*]リンクをクリックします。これにより、地図の一覧が表示されます。"
+msgstr "*[Maps]* ツールバーの *[Explore Maps]* リンクをクリックします。これにより、地図の一覧が表示されます。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:133
 msgid ""
 "Currently, there aren't any maps here. To add one click the *Create a New "
 "Map* button."
-msgstr "現在、地図はありません。追加するには、*Create a New Map* ボタンをクリックします。"
+msgstr "現在、地図はありません。追加するには、 *Create a New Map* ボタンをクリックします。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:138
 msgid "A map composition interface will display."
-msgstr "マップ合成インターフェイスが表示されます。"
+msgstr "マップ合成インタフェースが表示されます。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:143
 msgid ""
@@ -213,7 +215,7 @@ msgid ""
 "In this interface there is a toolbar, layer list, and map window. The map "
 "window contains the OpenStreetMap layer by default."
 msgstr ""
-"このインターフェイスには、ツールバー、レイヤ一覧、マップウィンドウがあります。マップウィンドウには、既定でOpenStreetMapレイヤが表示されます。"
+"このインタフェースには、ツールバー、レイヤ一覧、マップウィンドウがあります。マップウィンドウには、既定でOpenStreetMapレイヤが表示されます。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:147
 msgid "Click on the *New Layers* button and select *Add Layers*."
@@ -241,7 +243,7 @@ msgstr "レイヤーがマップに追加されます。"
 msgid ""
 "To save the map click on the *Map* button in the toolbar, and select *Save "
 "Map*."
-msgstr "マップを保存するには、ツールバーの*Map* ボタンをクリックし、 *Save Map* を選択します。"
+msgstr "マップを保存するには、ツールバーの *Map* ボタンをクリックし、 *Save Map* を選択します。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:168
 msgid "Enter a title and abstract for your map."
@@ -285,7 +287,7 @@ msgstr "ズームやパンの設定など、必要に応じてマップの構成
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:197
 msgid "Click the *Map* button in the toolbar, and then click *Publish Map*."
-msgstr "ツールバーの *Map* ボタンをクリックし、*Publish Map* をクリックします。"
+msgstr "ツールバーの *Map* ボタンをクリックし、 *Publish Map* をクリックします。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:203
 msgid ""
@@ -314,7 +316,8 @@ msgid ""
 "Now you've gotten a quick insight in the possibilities of GeoNode. To learn "
 "more about GeoNode and its features, visit our webpage www.geonode.org."
 msgstr ""
-"これで、GeoNodeの可能性について簡単に理解できました。GeoNodeとその機能の詳細については、Webページwww.geonode.orgを参照してください。"
+"これで、GeoNodeの可能性について簡単に理解できました。GeoNodeとその機能の詳細については、Webページ www.geonode.org "
+"を参照してください。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:219
 msgid ""
@@ -322,7 +325,7 @@ msgid ""
 "<https://docs.geonode.org/en/master/start/index.html#quick-installation-"
 "guide>`_ ."
 msgstr ""
-"GeoNodeを独自のサーバーにインストールするには、`クイックインストールガイド "
+"GeoNodeを独自のサーバーにインストールするには、 `クイックインストールガイド "
 "<https://docs.geonode.org/en/master/start/index.html#quick-installation-"
 "guide>`_ に従ってください。"
 
@@ -331,7 +334,8 @@ msgid ""
 "In order to get started with GeoNode our `documentation "
 "<https://docs.geonode.org/en/master/>`_ might be useful."
 msgstr ""
-"GeoNodeを使用するには、`documentation <https://docs.geonode.org/en/master/>`_ が便利です。"
+"GeoNodeを使用するには、 `documentation <https://docs.geonode.org/en/master/>`_ "
+"が便利です。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:223
 msgid ""
@@ -343,7 +347,7 @@ msgid ""
 "users>`_ !"
 msgstr ""
 "ヘルプが必要な場合や、特定のトピックに関する情報を取得したい場合は、遠慮なくお問い合わせください。https://webchat.freenode.net/"
-" の #geonode IRCチャネルを使用したり、`GeoNode Gitterチャネル "
-"<https://gitter.im/GeoNode/general>`_ にアクセスしたり、または私たちの`メーリングリスト "
+"  の #geonode IRCチャンネルを使用したり、 `GeoNode Gitterチャンネル "
+"<https://gitter.im/GeoNode/general>`_  にアクセスしたり、または私たちの `メーリングリスト "
 "<https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users>`_ "
-"!で質していただけます。問"
+"で質問いただけます。問"

@@ -5,7 +5,7 @@
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-28 21:50-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,7 +58,7 @@ msgstr "JOSM のために記述された特殊なプラグインのいくつか�
 
 #: ../../build/doc/overview/josm_overview.rst:34
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/josm_overview.rst:36
 msgid "Common GIS Desktop Interface tools:"
@@ -68,7 +68,7 @@ msgstr "共通的なGISデスクトップインタフェースツール:"
 msgid ""
 "Toolbar customization, View control (zoom, pan. etc), styles, icons and "
 "layers management."
-msgstr ""
+msgstr "ツールバーのカスタマイズ、ビューコントロール (ズーム、画面移動など)、スタイル、アイコンとレイヤ管理。"
 
 #: ../../build/doc/overview/josm_overview.rst:40
 msgid "Download and upload OSM vector data."
@@ -175,7 +175,7 @@ msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/josm_overview.rst:83
 msgid "**API Interfaces:** Java"
-msgstr "**API インターフェイス:** Java"
+msgstr "**API インタフェース:** Java"
 
 #: ../../build/doc/overview/josm_overview.rst:89
 msgid "Quickstart"

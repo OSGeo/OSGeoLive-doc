@@ -5,9 +5,9 @@
 # 
 # Translators:
 # Takayuki Nuimura <nuimura@nagoya-u.jp>, 2018
-# Ko Nagase <nagase@georepublic.co.jp>, 2019
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,8 +34,9 @@ msgid ""
 "detailed on the `OSGeoLive Wiki "
 "<https://trac.osgeo.org/osgeolive#Communication>`_."
 msgstr ""
-"OSGeoLive の開発は、emailやインターネット・チャット (IRC) によってコーディネートされています。詳細については、`OSGeo "
-"Wiki <https://trac.osgeo.org/osgeolive#Communication>`_ を参照してください。"
+"OSGeoLive の開発は、 `OSGeoLive Wiki "
+"<https://trac.osgeo.org/osgeolive#Communication>`_ "
+"に詳述されているように、Eメールとインターネットチャット(IRC)を通じて調整されています。"
 
 #: ../../build/doc/contact.rst:9
 msgid "Disclaimer"
@@ -51,7 +52,7 @@ msgid ""
 "guarantee any associated software, projects, or companies found within."
 msgstr ""
 "このLive "
-"GISディスクと仮想マシンは、それぞれが推奨する自由でオープンソース(FOSS)な地理空間ソフトウェアを紹介するために、OSGeoコミュニティの成員によってまとめられたものです。この中には、GISにフォーカスしたものとそれ以外にも非OSGeoソフトウェア・パッケージの幾つかも含まれていますが、我々はあなたに、我々と同様に有用であることを発見してほしいと願っています。OSGeo財団は、この中でいかなる関連するソフトウェア、プロジェクト、または企業を推奨または保証するものではありません。"
+"GISディスクと仮想マシンは、OSGeoコミュニティのメンバーによって、お気に入りのフリーでオープンソース(FOSS)な地理空間ソフトウェアを紹介するためにまとめられたものです。OSGeo以外のソフトウェア・パッケージも、空間的分野と非空間的領域の両方からいくつか含まれていますが、私たちと同じように役に立つことを期待しています。OSGeo財団は、この中でいかなる関連するソフトウェア、プロジェクト、または企業を推奨または保証するものではありません。"
 
 #: ../../build/doc/contact.rst:16
 msgid ""
@@ -59,7 +60,8 @@ msgid ""
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE.`"
 msgstr ""
-"`これらのプログラムは、有用であることを願って配布されますが、いかなる場合でも無保証ですー特定の目的に対する商品性または適合性も保証するものではありません。`"
+"`これらのプログラムは、有用であることを願って配布されますが、いかなる場合でも無保証です ー "
+"特定の目的に対する商品性または適合性も保証するものではありません。`"
 
 #: ../../build/doc/contact.rst:20
 msgid ""
@@ -93,8 +95,8 @@ msgid ""
 "IRC users might try the #osgeolive or #osgeo channel at Freenode.net for "
 "real-time assistance. You also can meet us at Slack, Matrix or Glitter."
 msgstr ""
-"IRC ユーザーは、 Freenode.net の #osgeolive または #osgeo チャンネル でのリアルタイムによる支援をお試しください。"
-" Slack、Matrix、もしくは Glitter でも私たちと会うことができます。"
+"IRCユーザーは、Freenode.netの #osgeolive または #osgeo "
+"チャンネルを使ってリアルタイムによる支援を試してみてください。Slack、Matrix、Glitterでも私たちに会うことができます。"
 
 #: ../../build/doc/contact.rst:35
 msgid ""
@@ -102,16 +104,16 @@ msgid ""
 "<https://trac.osgeo.org/osgeolive/wiki>`_, and a `bug and wish tracking "
 "system <https://trac.osgeo.org/osgeolive/report/10>`_ is also available."
 msgstr ""
-"豊富な情報は、私達の `Wiki サイト <https://trac.osgeo.org/osgeolive/wiki>`_ や、 "
-"`バグ・要望トラッキングシステム <https://trac.osgeo.org/osgeolive/report/10>`_ をごらんください。"
+"豊富な情報は、私たちの `Wiki サイト <https://trac.osgeo.org/osgeolive/wiki>`_ や、 "
+"`バグ・要望トラッキングシステム <https://trac.osgeo.org/osgeolive/report/10>`_ をご覧ください。"
 
 #: ../../build/doc/contact.rst:38
 msgid ""
 "Stay tuned and follow OSGeoLive on Twitter `@osgeolive "
 "<https://mobile.twitter.com/osgeolive>`_."
 msgstr ""
-"OSGeoLiveのツイッターアカウントはこちらです．`@osgeolive "
-"<https://mobile.twitter.com/osgeolive>`_"
+"Twitter `@osgeolive <https://mobile.twitter.com/osgeolive>`_ で OSGeoLive "
+"をフォローしてください。"
 
 #: ../../build/doc/contact.rst:41
 msgid "Commercial Support"
@@ -123,8 +125,8 @@ msgid ""
 "offerings for them. Refer to specific application descriptions linked from "
 "the :doc:`Contents <./overview/overview>` for details."
 msgstr ""
-"同梱されているほとんどのアプリケーションは、コミュニティと商用サポートの両方を提供しています。その詳細については、 :doc:`Contents "
-"<./overview/overview>` からリンクされている個々のアプリケーションの説明を参照してください。"
+"ほとんどのパッケージ・アプリケーションには、コミュニティ・サポートと商用サポートの両方が用意されています。詳細については、 :doc:`Contents"
+" <./overview/overview>`  からリンクされている特定のアプリケーションの説明を参照してください。"
 
 #: ../../build/doc/contact.rst:46
 msgid ""
@@ -132,5 +134,5 @@ msgid ""
 "provide support for OSGeo member projects. See https://www.osgeo.org"
 "/service-providers/ for one that meets your needs."
 msgstr ""
-"加えて、世界的にコンサルタント企業が多数あり、 OSGeo メンバーのプロジェクトに対して支援を提供しています。あなたのニーズを満たすために、 "
-"https://www.osgeo.org/service-providers/  をご覧ください。 "
+"また、OSGeoメンバーのプロジェクトをサポートするコンサルタント会社も世界中に多数存在します。あなたのニーズを満たすために、 "
+"https://www.osgeo.org/service-providers/  をご覧ください。"

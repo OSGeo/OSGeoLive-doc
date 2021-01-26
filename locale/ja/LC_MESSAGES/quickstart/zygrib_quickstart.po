@@ -4,8 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
-# Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,7 +29,7 @@ msgstr "zyGribクイックスタート"
 msgid ""
 "zyGrib is a program to download and visualize weather forecast data in the "
 "standard GRIB distribution format."
-msgstr "zyGribは、標準的なGRIB配布フォーマットで天気予報データをダウンロードして視覚化するプログラムです。"
+msgstr "zyGrib は、標準的なGRIB配布フォーマットで天気予報データをダウンロードして視覚化するプログラムです。"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:26
 msgid "Start zyGrib"
@@ -41,14 +40,14 @@ msgid ""
 "From the desktop, choose :menuselection:`Navigation and Maps --> zyGrib GRIB"
 " file viewer`."
 msgstr ""
-"From the desktop, choose :menuselection:`ナビゲーションと地図 --> zyGrib GRIB file "
-"viewer`."
+"デスクトップから :menuselection:`Navigation and Maps --> zyGrib GRIB file viewer` "
+"を選択します。"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:29
 msgid ""
 "Select your preferred language and click :guilabel:`OK`. The program opens "
 "and you are presented with a map of the world."
-msgstr "使用する言語を選択し、:guilabel:`OK` をクリックします。プログラムが開き、世界のマップが表示されます。"
+msgstr "使用する言語を選択し、 :guilabel:`OK` をクリックします。プログラムが開き、世界のマップが表示されます。"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:30
 msgid ""
@@ -95,12 +94,12 @@ msgid ""
 "Select :menuselection:`File --> Download GRIB` and select the features you "
 "want to download. If in doubt, accept the defaults."
 msgstr ""
-":menuselection:`File-->Download GRIB` "
+":menuselection:`File --> Download GRIB` "
 "を選択し、ダウンロードしたい地物を選択します。よくわからない場合は、デフォルトを受け入れてください。"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:43
 msgid "When ready click the ``Download`` button, and save the file to disk."
-msgstr "準備ができたら、``Download`` ボタンをクリックし、ファイルをディスクに保存します。"
+msgstr "準備ができたら、 ``Download`` ボタンをクリックし、ファイルをディスクに保存します。"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:45
 msgid ""
@@ -132,8 +131,8 @@ msgid ""
 "select :menuselection:`Weather map --> Cloud cover` and the view should "
 "change."
 msgstr ""
-"``Weather map`` メニューから、視覚化する変数を選択します。たとえば、:menuselection:`Weather "
-"map-->Cloud cover` を選択すると、ビューが変更されます。"
+"``Weather map`` メニューから、視覚化する変数を選択します。たとえば、  :menuselection:`Weather map --> "
+"Cloud cover` を選択すると、ビューが変更されます。"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:55
 msgid ""
@@ -142,9 +141,9 @@ msgid ""
 "ground level. It is a measure of atmospheric instability, and high values "
 "(1000s of J/kg) indicate a threat of thunderstorms and/or tornadoes."
 msgstr ""
-"メキシコ湾のデータをダウンロードした場合、CAPEデータのビューに興味があるでしょう。\"CAPE\"は対流利用可能ポテンシャルエネルギー(Convection"
-" Available Potential "
-"Energy)の略です。これは大気の不安定性の尺度であり、高い値(1000J/kg)は雷雨や竜巻の脅威を示します。"
+"メキシコ湾のデータをダウンロードした場合、CAPEデータのビューに興味があるでしょう。\"CAPE\" は対流利用可能ポテンシャルエネルギー "
+"(Convection Available Potential Energy)の略です。これは大気の不安定性の尺度であり、高い値(1000 "
+"J/kg)は雷雨や竜巻の脅威を示します。"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:57
 msgid ""
@@ -178,8 +177,8 @@ msgid ""
 "AVI, MPEG, or animated GIF `using other software "
 "<https://grasswiki.osgeo.org/wiki/Movies>`_."
 msgstr ""
-"各フレームを画像ファイルとして保存して、後で他のソフトウェア<https://grasswiki.osgeo.org/wiki/Movies>`_ "
-"を使用してAVI、MPEG、またはアニメーションGIF`にエンコードすることもできます。"
+"各フレームを画像ファイルとして保存して、後で `他のソフトウェア <https://grasswiki.osgeo.org/wiki/Movies>`_"
+" を使用してAVI、MPEG、またはアニメーションGIFにエンコードすることもできます。"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:67
 msgid "When you're done, click the red power button to close."
@@ -196,9 +195,9 @@ msgid ""
 " GRIB file. See the :doc:`OpenCPN quickstart "
 "<../quickstart/opencpn_quickstart>` for details."
 msgstr ""
-":doc:`OpenCPNソフトウェア<../overview/opencpn_overview>` "
-"(このディスクにもあります)にはGRIBオーバーレイプラグインがあり、新しくダウンロードしたGRIBファイルで試すことができます。詳細は、:doc:`クイックスタート文書<../quickstart/opencpn_quickstart>`"
-"  を参照してください。"
+":doc:`OpenCPNソフトウェア <../overview/opencpn_overview>` "
+"(このディスクにもあります)にはGRIBオーバーレイプラグインがあり、新しくダウンロードしたGRIBファイルで試すことができます。詳細は、  "
+":doc:`クイックスタート文書 <../quickstart/opencpn_quickstart>` を参照してください。"
 
 #: ../../build/doc/quickstart/zygrib_quickstart.rst:79
 msgid "Website: https://www.zygrib.org"

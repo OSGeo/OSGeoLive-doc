@@ -4,17 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
-# Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-01-25 18:18-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,13 +43,12 @@ msgid ""
 "presentation graphics and hardcopy maps. GRASS GIS has been translated into "
 "many languages and supports a huge array of data formats."
 msgstr ""
-"GRASS(Geographic Resources Analysis Support "
-"System)は、一般にGRASSと呼ばれる地理情報システム(GIS)で単一の統合ソフトウェアスイートで提供する地理情報システム(GIS)です。GRASS"
-" "
-"GISには、空間モデリング、ラスターおよびベクトルデータの視覚化、空間データの管理と分析、衛星および航空画像の処理のためのツールが含まれています。高度な時系列処理のための時間的フレームワークと、高速空間プログラミングのためのPython"
-" APIが付属しています。GRASS "
-"GISは、パフォーマンスおよび大規模な空間データ分析用に最適化されています。また、高度なプレゼンテーショングラフィックスやハードコピーマップを作成することもできます。GRASS"
-" GISは多くの言語に翻訳され、膨大なデータフォーマットをサポートしています。"
+"GRASS（Geographic Resources Analysis Support System、地理空間情報リソースの解析補助システム） "
+"はラスタ、ベクタ、地理情報処理エンジンを一つのソフトウェアに統合した地理情報システム (GIS) です。GRASS GIS "
+"には、空間モデリング、ラスタおよびベクタデータの視覚化、地理空間データの管理と解析、衛星および航空写真画像の処理のためのツールが含まれています。高度な時系列処理のための時間的フレームワークと、高速な地理空間プログラミングのための"
+" Python API が付属しています。GRASS GIS "
+"は、パフォーマンスおよび大規模な空間データ分析用に最適化されています。さらに、プレゼンテーション用のすばらしい画像の作成、地図の印刷も可能です。GRASS"
+" GIS は多くの言語に翻訳されており、多数のデータフォーマットに対応しています。"
 
 #: ../../build/doc/overview/grass_overview.rst:40
 msgid ""
@@ -60,9 +58,9 @@ msgid ""
 "open-source software released under the terms of the GNU General Public "
 "License."
 msgstr ""
-"GRASS "
-"GISは、多くの政府機関や環境コンサルティング会社だけでなく、学術的および商業的な環境で世界中で使用されています。さまざまな一般的なハードウェアプラットフォーム上で動作し、GNU"
-" General Public Licenseの条件に基づいてリリースされたフリーのオープンソースソフトウェアです。"
+"GRASS GIS "
+"は、多くの政府機関や環境コンサルティング会社だけでなく、学術的および商業的な環境で世界中のあらゆる所で使用されています。さまざまな一般的なハードウェアプラットフォーム上で動作し、GNU"
+" General Public License の条件に基づいてリリースされたフリーのオープンソースソフトウェアです。"
 
 #: ../../build/doc/overview/grass_overview.rst:45
 msgid ""
@@ -74,37 +72,36 @@ msgid ""
 "be used both for batch data processing on massively-parallel supercomputers "
 "as well as a handy desktop GIS for handheld PDAs or netbooks."
 msgstr ""
-"GRASS "
-"GISソフトウェアには、400以上の分析モジュールが組み込まれています。さらに、コミュニティが提供する100を超えるモジュールとツールボックスは、アドオンリポジトリから無償で利用できます。GRASS"
-" "
-"GISは、30年以上にわたって継続的に開発されてきたオープンソースGISの中で、最も長く維持され、かつ最大のものです。これは簡単にスクリプト化でき、超並列スーパーコンピュータ上でのバッチデータ処理にも、ハンドヘルドPDAやネットブック用の便利なデスクトップGISにも十分に使用できます。"
+"GRASS GIS "
+"ソフトウェアには、400以上の解析モジュールが組み込まれています。さらに、コミュニティが提供する100を超えるモジュールとツールボックスは、アドオンリポジトリから無償で利用できます。GRASS"
+" GIS "
+"は、30年以上にわたって継続的に開発されてきたオープンソースGISの中で、最も長く維持され、かつ最大のものです。これは簡単にスクリプト化でき、超並列スーパーコンピュータ上でのバッチデータ処理にも、ハンドヘルドPDAやネットブック用の便利なデスクトップGISにも十分に使用できます。"
 
 #: ../../build/doc/overview/grass_overview.rst:63
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/grass_overview.rst:65
 msgid ""
 "You name it, there's a `tool for it "
 "<https://grass.osgeo.org/grass78/manuals/keywords.html>`_."
 msgstr ""
-"名前から逆引するための `ツールがあります  "
-"<https://grass.osgeo.org/grass78/manuals/keywords.html>`_."
+"名前から逆引するための `ツール <https://grass.osgeo.org/grass78/manuals/keywords.html>`_ "
+"があります。"
 
 #: ../../build/doc/overview/grass_overview.rst:66
 msgid ""
 "Explore the `screenshot collection "
 "<https://grass.osgeo.org/learn/gallery/>`_."
-msgstr ""
-" `screenshot collection <https://grass.osgeo.org/learn/gallery/>`_ をご覧ください。"
+msgstr "`スクリーンショット集 <https://grass.osgeo.org/learn/gallery/>`_ をご覧ください。"
 
 #: ../../build/doc/overview/grass_overview.rst:69
 msgid "Details"
 msgstr "詳細"
 
 #: ../../build/doc/overview/grass_overview.rst:71
-msgid "**Website:**"
-msgstr "**Webサイト:**"
+msgid "**Website:** https://grass.osgeo.org/"
+msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:73
 msgid "**Licence:** GNU General Public License (GPL) version 2+"
@@ -112,7 +109,7 @@ msgstr "**ライセンス:** GNU General Public License (GPL) version 2+"
 
 #: ../../build/doc/overview/grass_overview.rst:75
 msgid "**Software Version:** |version-grass|"
-msgstr "**ソフトウエアバージョン:** |version-grass|"
+msgstr "**ソフトウェアバージョン:** |version-grass|"
 
 #: ../../build/doc/overview/grass_overview.rst:77
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
@@ -120,7 +117,7 @@ msgstr "**対応プラットフォーム:** GNU/Linux, Mac OSX, MS Windows"
 
 #: ../../build/doc/overview/grass_overview.rst:79
 msgid "**API Interfaces:** C, Python, Bourne Shell"
-msgstr "**API インターフェイス:** C, Python, Bourne Shell"
+msgstr "**API インタフェース:** C, Python, Bourne Shell"
 
 #: ../../build/doc/overview/grass_overview.rst:81
 msgid "**Support:** https://grass.osgeo.org/about/community/"

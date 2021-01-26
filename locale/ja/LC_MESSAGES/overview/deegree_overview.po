@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,12 +35,12 @@ msgid ""
 "Network Services <https://inspire.ec.europa.eu>`_ specifications. deegree "
 "supports:"
 msgstr ""
-"deegreeは、OGCと「INSPIRE Network "
-"Services<https://inspire.ec.europa.eu>」仕様に基づいた地理空間ウェブサービスを提供している。deegreeは以下をサポートしている。"
+"deegreeは、 |OGC| と `INSPIRE Network Services <https://inspire.ec.europa.eu>`_"
+" 仕様に基づいた地理空間ウェブサービスを提供しています。deegreeは以下をサポートしています。"
 
 #: ../../build/doc/overview/deegree_overview.rst:28
 msgid "|WFS|: Serves vector data from geospatial data"
-msgstr "|WFS|: 空間データからベクトルデータを提供"
+msgstr "|WFS|: 空間データからベクタデータを提供"
 
 #: ../../build/doc/overview/deegree_overview.rst:29
 msgid "|WMS|: Serves maps rendered from geospatial data"
@@ -60,7 +60,7 @@ msgstr "|WPS|: 空間処理を実行します"
 
 #: ../../build/doc/overview/deegree_overview.rst:41
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/deegree_overview.rst:43
 msgid "**WFS**"
@@ -72,7 +72,7 @@ msgstr "WFS標準1.0.0、1.1.0、および2.0.0を実装"
 
 #: ../../build/doc/overview/deegree_overview.rst:46
 msgid "Fully transactional (even for rich data models)"
-msgstr "完全なトランザクション(リッチ・データ・モデルの場合も含む)"
+msgstr "完全なトランザクション(リッチデータモデルの場合も含む)"
 
 #: ../../build/doc/overview/deegree_overview.rst:47
 #: ../../build/doc/overview/deegree_overview.rst:85
@@ -82,7 +82,7 @@ msgstr "KVP、XML、およびSOAP要求をサポート"
 
 #: ../../build/doc/overview/deegree_overview.rst:48
 msgid "GML 2/3.0/3.1/3.2 output/input"
-msgstr "GM L2/3.0/3.1/3.2出力/入力"
+msgstr "GML 2/3.0/3.1/3.2 出力/入力"
 
 #: ../../build/doc/overview/deegree_overview.rst:49
 msgid "Support for GetGmlObject requests and XLinks"
@@ -101,7 +101,7 @@ msgstr "オンザフライ座標変換"
 
 #: ../../build/doc/overview/deegree_overview.rst:52
 msgid "Designed for rich data models from the bottom up"
-msgstr "ボトムアップのリッチ・データ・モデル向けに設計"
+msgstr "ボトムアップのリッチデータモデル向けに設計"
 
 #: ../../build/doc/overview/deegree_overview.rst:53
 msgid ""
@@ -113,11 +113,11 @@ msgstr "バックエンドは、GMLアプリケーションスキーマのリレ
 msgid ""
 "ISO 19107-compliant geometry model: Complex geometries (e.g. non-linear "
 "curves)"
-msgstr "ISO19107準拠形状モデル:複雑な形状(例:非線形曲線)"
+msgstr "ISO 19107準拠のジオメトリモデル: 複雑なジオメトリ (例: 非線形曲線)"
 
 #: ../../build/doc/overview/deegree_overview.rst:55
 msgid "Advanced filter expression support based on XPath 1.0"
-msgstr "XPath1.0に基づく高度なフィルタ式のサポート"
+msgstr "XPath 1.0に基づく高度なフィルタ式のサポート"
 
 #: ../../build/doc/overview/deegree_overview.rst:56
 msgid ""
@@ -125,7 +125,7 @@ msgid ""
 "Shapefiles or GML instance documents"
 msgstr ""
 "PostGIS、Oracle Spatial、MS SQL "
-"Server、Shapefiles、GMLインスタンスドキュメントなどの多数のバックエンドをサポート"
+"Server、シェープファイル、GMLインスタンスドキュメントなどの多数のバックエンドをサポート"
 
 #: ../../build/doc/overview/deegree_overview.rst:58
 msgid "**WMS**"
@@ -182,7 +182,7 @@ msgstr "PostGIS、Oracle Spatial、Shapefiles、GMLインスタンスドキュ�
 
 #: ../../build/doc/overview/deegree_overview.rst:71
 msgid "Can render rich data models directly"
-msgstr "リッチ・データ・モデルを直接レンダリングできる"
+msgstr "リッチデータモデルを直接レンダリングできる"
 
 #: ../../build/doc/overview/deegree_overview.rst:73
 msgid "**WMTS**"
@@ -260,7 +260,7 @@ msgstr "WPS標準1.0.0を実装"
 
 #: ../../build/doc/overview/deegree_overview.rst:98
 msgid "Pluggable process provider layer"
-msgstr "プラガブル・プロセス・プロバイダ層"
+msgstr "プラグ可能なプロセスプロバイダレイヤ"
 
 #: ../../build/doc/overview/deegree_overview.rst:99
 msgid "Easy-to-use API for implementing Java processes"
@@ -282,19 +282,19 @@ msgstr "最小限のメモリ使用量で大量のデータを処理"
 
 #: ../../build/doc/overview/deegree_overview.rst:103
 msgid "Supports storing of response documents/output parameters"
-msgstr ""
+msgstr "レスポンス文書/出力パラメータの保存をサポート"
 
 #: ../../build/doc/overview/deegree_overview.rst:104
 msgid "Supports input parameters given inline and by reference"
-msgstr ""
+msgstr "インラインと参照で指定されたパラメータをサポート"
 
 #: ../../build/doc/overview/deegree_overview.rst:105
 msgid "Supports RawDataOutput/ResponseDocument responses"
-msgstr ""
+msgstr "RawDataOutput/ResponseDocument 応答のサポート"
 
 #: ../../build/doc/overview/deegree_overview.rst:106
 msgid "Supports asynchronous execution (with polling of process status)"
-msgstr ""
+msgstr "非同期実行をサポート(プロセスステータスをポーリング)"
 
 #: ../../build/doc/overview/deegree_overview.rst:109
 msgid "Implemented Standards"
@@ -302,11 +302,11 @@ msgstr "実装されている標準規格"
 
 #: ../../build/doc/overview/deegree_overview.rst:111
 msgid "|WFS| 1.0.0, 1.1.0 and 2.0.0"
-msgstr ""
+msgstr "|WFS| 1.0.0, 1.1.0 および 2.0.0"
 
 #: ../../build/doc/overview/deegree_overview.rst:112
 msgid "|WMS| 1.1.1 and 1.3.0"
-msgstr ""
+msgstr "|WMS| 1.1.1 および 1.3.0"
 
 #: ../../build/doc/overview/deegree_overview.rst:113
 msgid "|WMTS| 1.1.0"
@@ -314,7 +314,7 @@ msgstr "|WMTS| 1.1.0"
 
 #: ../../build/doc/overview/deegree_overview.rst:114
 msgid "OGC Catalogue Service-Web (CSW) 2.0.2"
-msgstr ""
+msgstr "OGC Catalogue Service-Web (CSW) 2.0.2"
 
 #: ../../build/doc/overview/deegree_overview.rst:115
 msgid "|WPS| 1.0.0"
@@ -322,7 +322,7 @@ msgstr "|WPS| 1.0.0"
 
 #: ../../build/doc/overview/deegree_overview.rst:116
 msgid "|GML| 2.12, 3.0.1, 3.1.1 and 3.2.1"
-msgstr ""
+msgstr "|GML| 2.12, 3.0.1, 3.1.1 および 3.2.1"
 
 #: ../../build/doc/overview/deegree_overview.rst:119
 msgid "Details"
@@ -346,7 +346,7 @@ msgstr "**対応プラットフォーム:** Windows, Linux"
 
 #: ../../build/doc/overview/deegree_overview.rst:129
 msgid "**API Interfaces:** Java"
-msgstr "**API インターフェイス:** Java"
+msgstr "**API インタフェース:** Java"
 
 #: ../../build/doc/overview/deegree_overview.rst:131
 msgid "**Support:** https://www.deegree.org/community"

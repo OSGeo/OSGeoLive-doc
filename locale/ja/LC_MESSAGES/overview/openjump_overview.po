@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/openjump_overview.rst:14
 msgid "OpenJUMP GIS"
-msgstr ""
+msgstr "OpenJUMP GIS"
 
 #: ../../build/doc/overview/openjump_overview.rst:17
 msgid "Desktop GIS"
@@ -145,7 +145,7 @@ msgstr "カスタマイズ"
 
 #: ../../build/doc/overview/openjump_overview.rst:61
 msgid "internationalization (cz, de, en, es, fi, fr, hu, it, ja, pt, ta, zh)"
-msgstr "国際化(cz, de, en, es, fi, fr, hu, it, ja, pt, ta, zh)"
+msgstr "国際化 (cz, de, en, es, fi, fr, hu, it, ja, pt, ta, zh)"
 
 #: ../../build/doc/overview/openjump_overview.rst:62
 msgid "provides an API, scripting via BeanShell and Java Python/Ython"
@@ -153,7 +153,7 @@ msgstr "BeanShellおよびJava Python/Ythonを介したAPI、スクリプトの�
 
 #: ../../build/doc/overview/openjump_overview.rst:63
 msgid "(Java) plugin-system"
-msgstr ""
+msgstr "(Java) プラグインシステム"
 
 #: ../../build/doc/overview/openjump_overview.rst:66
 msgid "Implemented Standards"

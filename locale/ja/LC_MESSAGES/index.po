@@ -5,18 +5,16 @@
 # 
 # Translators:
 # Toshikazu SETO <tosseto@gmail.com>, 2017
-# Ko Nagase <nagase@georepublic.co.jp>, 2019
-# MarPetra <mvergaratrejo@gmail.com>, 2020
-# Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-01-18 20:30+0100\n"
 "PO-Revision-Date: 2017-01-21 16:46+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,10 +34,8 @@ msgid ""
 "without installing anything. It is composed entirely of free software, "
 "allowing it to be freely distributed, duplicated and passed around."
 msgstr ""
-"`OSGeoLive <https://live.osgeo.org>`_ は仮想マシン `Lubuntu "
-"<https://lubuntu.net>`_ "
-"をベースとした起動可能なブータブルDVD／USBメディアで、幅広く多様なオープンソースの地理空間ソフトウェアを、インストール無しに試すことができます。OSGeoLive"
-" は全てフリーソフトで構成されており、自由に複製、配布することができます。"
+"`OSGeoLive <https://live.osgeo.org>`_ は、 `Lubuntu <https://lubuntu.net>`_ "
+"をベースにした、自己完結型のブータブルDVD、USBサムドライブまたは仮想マシンで、何もインストールせずに、さまざまなオープンソースの地理空間ソフトウェアを試すことができます。完全にフリーソフトウェアで構成されており、自由に配布、複製、譲渡することができます。"
 
 #: ../../build/doc/index.rst:17
 msgid ""
@@ -47,12 +43,11 @@ msgid ""
 " including storage, publishing, viewing, analysis and manipulation of data. "
 "It also contains sample datasets and documentation."
 msgstr ""
-"OSGeoLive は様々な地理空間関連の保管、配布、表示、分析、データメンテナンスなどの "
-"ユースケースに応じた設定済みのアプリケーションを提供しています。また、サンプル データセットやドキュメントも含んでいます。"
+"データの保存、公開、表示、分析、操作など、さまざまな地理空間の用途に合わせて事前構成されたアプリケーションを提供します。また、サンプルデータセットやドキュメントも含んでいます。"
 
 #: ../../build/doc/index.rst:21
 msgid "To try out the applications, simply:"
-msgstr "アプリケーションを試すには、単に以下の手順を実施します:"
+msgstr "アプリケーションを試すには、シンプルに:"
 
 #: ../../build/doc/index.rst:23
 msgid "Insert DVD or USB thumb drive in computer or virtual machine."
@@ -60,7 +55,7 @@ msgstr "DVDまたはUSBドライブをコンピュータもしくは仮想マシ
 
 #: ../../build/doc/index.rst:24
 msgid "Reboot computer. (verify boot device order if necessary)"
-msgstr "コンピューターを再起動 (必要に応じてデバイスの起動順序を確認してください)"
+msgstr "コンピュータを再起動 (必要に応じてデバイスの起動順序を確認)"
 
 #: ../../build/doc/index.rst:25
 msgid "Press \"Enter\" to startup & login."
@@ -77,23 +72,23 @@ msgid ""
 "Software development, promotion and `education "
 "<https://www.osgeo.org/initiatives/geo-for-all/>`_."
 msgstr ""
-"OSGeoLive は `OSGeo 財団 <https://www.osgeo.org/>`_  のプロジェクトです。OSGeo "
-"財団は、非営利で地理空間のオープンソースソフトウェアの開発、プロモーション、及び `教育 "
+"OSGeoLive は `OSGeo財団 <https://www.osgeo.org/>`_  "
+"のプロジェクトです。OSGeo財団は、非営利で地理空間のオープンソースソフトウェアの開発、プロモーション、及び `教育 "
 "<https://www.osgeo.org/initiatives/geo-for-all/>`_ をサポートしています。"
 
 #: ../../build/doc/index.rst:34
 msgid "Quick Starts"
 msgstr "クイックスタート"
 
-#: ../../build/doc/index.rst:68
+#: ../../build/doc/index.rst:69
 msgid "Presentation"
 msgstr "プレゼンテーション"
 
-#: ../../build/doc/index.rst:70
+#: ../../build/doc/index.rst:71
 msgid ""
 "A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive "
 "applications, is available with slides, script, and `abstract "
 "<presentation/abstract.txt>`_."
 msgstr ""
 "全ての OSGeoLive アプリケーションを取り上げた30分間の `プレゼンテーション <presentation.html>`_ がスライドや原稿、"
-" `アブストラクト <presentation/abstract.txt>`_ とともに、利用可能です。"
+" `要約 <presentation/abstract.txt>`_ とともに、利用可能です。"
