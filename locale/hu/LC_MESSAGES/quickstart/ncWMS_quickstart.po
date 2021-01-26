@@ -1,0 +1,403 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:05+0000\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:18
+msgid "ncWMS Quickstart"
+msgstr "ncWMS gyorstalpaló"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:20
+msgid ""
+"ncWMS is a Web Map Service which allows the fast visualisation of data from "
+"NetCDF files and other sources of environmental data.  This quickstart guide"
+" describes how to explore the sample data provided using the Godiva2 web "
+"client.  For configuration and adding other data sources to the server, "
+"please consult the documentation on the `ncWMS website <https://reading-"
+"escience-centre.gitbooks.io/ncwms-user-guide/content/>`_."
+msgstr ""
+"Az ncWMS egy web térkép szolgáltatás, mely lehetővé teszi NetCDF adatok és "
+"más környezeti adatforrások gyors megjelenítését. Ez a gyorstalpaló leírja "
+"hogyan fedezzük fel a Godiva2 web kliens használatával szolgáltat minta "
+"adatokat. A konfiguráláshoz és más adatforrások a szerverhez hozzáadásához "
+"kérjük nézze meg a dokumentációt az  `ncWMS honlapon <https://reading-"
+"escience-centre.gitbooks.io/ncwms-user-guide/content/>`_."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:27
+msgid "Start ncWMS and understand the workspace"
+msgstr "ncWMS indítása és a munkaterület megértése"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:29
+msgid ""
+"Select :menuselection:`Geospatial --> Web Services --> ncWMS --> Start "
+"ncWMS`."
+msgstr ""
+"Válassza a :menuselection:`Geospatial --> Web Services --> ncWMS --> Start "
+"ncWMS`-t ."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:31
+msgid ""
+"After a few moments the application will start up and open a web browser at "
+"http://localhost:8080/ncWMS2/Godiva3.html"
+msgstr ""
+"Néhány pillanat múlva az alkalmazás elindul és megnyitja a böngésző ezen a "
+"lapon http://localhost:8080/ncWMS2/Godiva3.html"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:37
+msgid "Use the left-hand menu to choose a dataset to view."
+msgstr ""
+"Használja a bal oldali menüt a megjelenítendő adathalmaz kiválasztásához."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:38
+msgid ""
+"Clicking a dataset (or the + icon to the left of it) will expand the dataset"
+" to show the available variables to plot."
+msgstr ""
+"Kattintson egy adathalmazra (vagy az ikonra balra tőle) és kinyílik az "
+"adathalmaz, hogy megjelenjenek az elérhető kirajzolható változók."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:39
+msgid ""
+"Choose a variable by clicking on it. The data displays on the interactive "
+"map after a short delay (a progress bar may display showing the progress of "
+"loading image tiles from the WMS servers)."
+msgstr ""
+"Válasszon ki egy változót kattintással. Az adatok kis késleltetéssel "
+"megjelennek az interaktív térképen (egy haladás mutató jelenhet meg, a WMS "
+"szerverekről a kép csempék letöltésének arányát mutatja)."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:42
+msgid "Navigating the map"
+msgstr "Navigáció a térképen"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:44
+msgid ""
+"The interactive map can be dragged with the mouse to navigate around. Using "
+"the controls in the top left of the map you can zoom in and out. You can "
+"zoom quickly to a particular area by holding down the Shift key and dragging"
+" a rectangle on the map."
+msgstr ""
+"Az interaktív térkép az egérrel elhúzható a navigáláshoz. A térkép bal-felső"
+" sarkában lévő vezérlőkkel nagyíthat, kicsinyíthet. Gyorsan egy kiválasztott"
+" területre nagyíthat, ha shift nyomva tartása mellett egy téglalapot húz ki "
+"a térképen."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:47
+msgid "Selecting the vertical level"
+msgstr "Magassági szint kiválasztása"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:49
+msgid ""
+"If the variable you are viewing has a vertical dimension you will be able to"
+" select the vertical level using the drop-down box above the map."
+msgstr ""
+"Ha a megtekintett változó függőleges dimenzióval rendelkezik, akkor egy a "
+"térkép feletti legördülő lista segítségével kiválaszthatja a magassági "
+"szintet."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:52
+msgid "Selecting the timestep"
+msgstr "Időpont kiválasztása"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:54
+msgid ""
+"If the displayed variable has a time dimension a date control will appear "
+"above the map. Click on this control to select the date you want to focus "
+"on. If there are several timesteps available for this day, use the drop-down"
+" box above the map to select the time."
+msgstr ""
+"Ha a megjelenített változónak van idő dimenziója is, akkor egy vezérlő "
+"jelenik meg a térkép felett. Kattintson a vezérlőre és válassza ki a dátumot"
+" melyre fókuszálni akar. Ha több időpont áll rendelkezésre ezen a napon, "
+"akkor használja a térkép feletti legördülő listát az időpont kiválasztására."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:57
+msgid "Finding the data value at a point"
+msgstr "Értékek megtalálása egy pontban"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:59
+msgid ""
+"Once a variable has been displayed on the map, you can click on the map to "
+"discover the data value at that point. The data value, along with the "
+"latitude and longitude of the point you clicked, will appear in a small pop-"
+"up window at the point where you clicked."
+msgstr ""
+"Amikor egy változó megjelenik a térképen, a térképre kattinthat az adatok "
+"feltárására abban a pontban. Az adatok értéke jelenik meg a pont hosszúsága "
+"és hosszúsága mellett egy kis felbukkanó ablakban a kattintás helyén."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:65
+msgid "Change the style of the data display"
+msgstr "Adatmegjelenítés stílusának megváltoztatása"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:68
+msgid "Adjusting the colour contrast range"
+msgstr "A színkontraszt tartomány beállítása"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:70
+msgid ""
+"When you first load a variable it will appear with a default colour scale "
+"range. This range may not be appropriate for the geographical region and "
+"timestep you are interested in. By clicking \"auto\" (the colour wheel to "
+"the right of the colour scale bar) the colour scale range will be "
+"automatically stretched to suit the data currently displayed in the map. You"
+" can also manually change the colour scale range by editing the values at "
+"the top and bottom of the colour scale bar."
+msgstr ""
+"Amikor először tölt be egy változót, az alapértelmezett színskála "
+"tartománnyal jelenik meg. Ez a tartomány lehet, hogy nem felel meg az ön "
+"számára érdekes földrajzi területnek és az időpontnak. Az \"auto\"-ra "
+"kattintva (a színkerék a színskála oszloptól jobbra) a színskála tartományt "
+"automatikusan széthúzzuk a térképen aktuálisan megjelenő adatokra. "
+"Manuálisan módosíthatja színskála tartományt a színskála oszlop alsó és "
+"felső értékének szerkesztésével."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:73
+msgid "Locking the scale range"
+msgstr "Méretarány tartomány rögzítése"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:75
+msgid ""
+"Sometimes, when comparing two datasets, you might want to fix the colour "
+"scale range so that when you select a new variable, that variable is shaded "
+"with exactly the same colour scale. To do this, click the \"lock\" link, "
+"which is the padlock icon to the right of the colour scale bar. The colour "
+"scale range will then not be changed when a new variable is loaded and the "
+"scale range cannot be edited manually. However, the colour palette and the "
+"number of colour bands can still be modified while the scale range is "
+"locked. Click the lock icon again to make the colour scale editable."
+msgstr ""
+"Időnként, amikor két adathalmazt hasonlítunk össze, rögzíteni akarhatja a "
+"színskála tartományt , úgy hogy amikor egy új változót választ ki, az a "
+"változó pontosan ugyanazzal  színskálával jelenjen meg. Ehhez kattintson a "
+"\"lock\" linkre, ez a lakat ikon a színskála oszloptól jobbra. A színskála "
+"tartomány nem fog megváltozni amikor egy új változót tölt be és a skála "
+"tartomány nem szerkeszthető manuálisan. Habár a szín paletta és a színsávok "
+"száma módosítható miközben a skála tartomány rögzített. Kattintson ismét a "
+"zárolás ikonra a színskála szerkeszthetővé tételéhez."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:78
+msgid "Changing the colour palette"
+msgstr "Színpaletta módosítása"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:80
+msgid ""
+"The colour palette can be changed by clicking on the colour scale bar. A "
+"pop-up window will display with the available palettes. Click on one to load"
+" the new palette. The window also contains a drop-down box to select the "
+"number of colour bands to use, from 10 (giving a contoured appearance) to "
+"250 (smoothed).  Note that if the number of colour bands is changed, you "
+"will need to click on the desired palette to effect the change.  All colour "
+"palettes can be reversed by clicking the \"Flip\" button on the colour "
+"palette selector."
+msgstr ""
+"A színpaletta a színskála oszlopra kattintva módosítható. Egy felbukkanó "
+"ablak jelenik meg az elérhető palettákkal. Kattintson egyre az új paletta "
+"betöltéséhez. Az ablak egy legördülő listát is tartalmaz a használt szín "
+"sávok számának kiválasztására 10-től (sávos megjelenítés ad) 250-ig "
+"(simított). Vegye figyelembe, ha a szín sávok száma módosult, a megfelelő "
+"palettára rá kell kattintania a változás érvényesítéséhez. Minden szín "
+"paletta  átfordítható  a \"Flip\" gombra kattintva a szín paletta "
+"kiválasztón. "
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:83
+msgid "Other parameters"
+msgstr "További paraméterek"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:85
+msgid ""
+"Certain variables, particularly biological parameters, are best displayed "
+"with a logarithmic colour scale. The spacing of the colour scale can be "
+"toggled between linear and logarithmic using the drop-down box to the right "
+"of the colour scale bar. Note that you cannot select a logarithmic scale if "
+"the colour scale range contains negative or zero values."
+msgstr ""
+"Bizonyos változók, különösen a biológiai paraméterek, logaritmikus "
+"színskálával jelennek meg a legjobban. A színskála beosztása átváltható a "
+"lineáris és a logaritmikus között a színskála oszlop jobb oldalán lévő "
+"legördülő listával. Vegye figyelembe, hogy a logaritmikus skála nem "
+"választható ki ha a színtartomány negatív vagy nulla értéket  tartalmaz."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:88
+msgid "Creating animations"
+msgstr "Animációk létrehozása"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:90
+msgid ""
+"Click the animation wizard button below the lower left corner of the map."
+msgstr ""
+"Kattintson az animáció varázsló gombra lentebb a térkép bal-alsó sarkában."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:91
+msgid "Select a start and end time for the animation"
+msgstr "Az animáció kezdő és záróidejének kiválasztása"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:92
+msgid "Choose the granularity and frame rate for the animation"
+msgstr "Válassza ki az animációhoz a részletességet és képszámot"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:93
+msgid "Click \"Go\". Note that the animation may take quite a while to display."
+msgstr ""
+"Kattintson a \"Go\"-ra. Vegye figyelembe, hogy az animáció megjelenítése "
+"hasszabb időt vehet igénybe."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:94
+msgid ""
+"Click the \"Stop animation\" button (where the wizard was) to stop the "
+"animation and return the controls to normal."
+msgstr ""
+"Kattintson a \"Stop animation\" gombra (ahol a varázsló volt) az animáció "
+"megállításához és a normál vezérlőkhöz visszatéréshez."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:97
+msgid "Timeseries plots"
+msgstr "Idősoros rajzok"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:99
+msgid ""
+"Creating a timeseries plot uses a similar wizard to that used to create "
+"animations. When finding the data value at a point, a link will be present "
+"to create a timeseries plot if the data have a time axis.  Timeseries plots "
+"open in a new window."
+msgstr ""
+"Az idősoros rajz létrehozása az animációk létrehozásához használt "
+"varázslóhoz hasonlót használ. Amikor egy ponthoz tartozó az adatértékeket "
+"keresünk, egy hivatkozás jelenik meg, amely idősoros rajz létrehozásához, ha"
+" az adatoknak van időtengelyük.  Az idősoros rajzok új ablakban nyílnak meg."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:102
+msgid "Vertical sections and transects along arbitrary paths"
+msgstr "Függőleges metszetek és keresztmetszetek tetszőleges útvonal mentén"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:104
+msgid ""
+"At the top of the map, click the icon that looks like a line joining four "
+"points."
+msgstr ""
+"A térkép tetején kattintson a négy pontot összekötő vonalat tartalmazó "
+"ikonra."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:105
+msgid "Click on the map to start drawing a line."
+msgstr "Kattintson a térképre egy vonal rajzolás indításához."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:106
+msgid "Add \"waypoints\" along this line by single-clicking at each point."
+msgstr "\"Útpontok\" hozzáadása a vonal mentén az egyes pontokba kattintással."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:107
+msgid ""
+"Double-click to finish the line. A new browser window opens showing the "
+"variation of the viewed variable along the line (i.e. a transect plot). If "
+"the variable has a vertical dimension, a vertical section plot will display "
+"under the transect plot."
+msgstr ""
+"Duplán kattintson a vonal befejezéséhez. Egy új böngésző ablak nyílik meg, a"
+" megjelenített változó eltéréseivel a vonal mentén (egy metszetvonal rajz). "
+"Ha a változó függőleges kiterjedéssel  bír, egy függőleges metszet rajz "
+"jelenik meg a metszetvonal alatt."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:112
+msgid "Changing the background map"
+msgstr "A háttértérkép módosítása"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:114
+msgid ""
+"A selection of background maps is available on which data can be projected. "
+"Select a different background map by clicking the small plus sign in the top"
+" right-hand corner of the interactive map."
+msgstr ""
+"A háttértérképek egy gyűjteménye érhető el, melyekre az adatok rávetíthetők."
+" Válasszon egy másik háttértérképet a kis plusz ikonra kattintva az "
+"interaktív térkép jobb felső sarkában."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:117
+msgid "Changing the map projection"
+msgstr "A térkép vetület módosítása"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:119
+msgid ""
+"The map projection is changed by selecting a new background map as above. If"
+" the background map is in a different projection then the data overlay will "
+"be automatically reprojected into the new coordinate system. Godiva3 "
+"provides the option to select a background map in north or south polar "
+"stereographic projection. There may be a delay before the map displays in "
+"the new projection."
+msgstr ""
+"A térképi vetület megváltozik egy másik háttértérkép kiválasztásával, mint "
+"fent. Ha a háttértérkép másik vetületben van, akkor a rávetített adatokat "
+"automatikusan átvetítjük az új koordináta-rendszerbe. Godiva3 egy beállítást"
+" biztosít a háttértérkép északi vagy déli sarki sztereografikus vetület "
+"kiválasztására. Lehet egy késleltetés mielőtt a térkép megjelenik az új "
+"vetületben."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:125
+msgid "Saving and emailing the view"
+msgstr "A nézet mentése és emailben elküldése"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:127
+msgid ""
+"You may want to save the current view to return to it later or share it with"
+" a colleague. The \"Permalink\" under the bottom right-hand corner of the "
+"map links to a complete URL that recreates the current view."
+msgstr ""
+"Lehet, hogy el szeretné menteni az aktuális nézethez később vagy megosztaná "
+"a kollégáival. A \"Permalink\" a térkép jobb-alsó sarkában egy teljes linkre"
+" mutat, mely az aktuális nézetet létrehozza."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:129
+msgid ""
+"Left-click on the permalink to bring up a new window with an identical view."
+msgstr ""
+"Bal kattintás a permalinken egy azonos nézetet tartalmazó új ablak "
+"megnyitásához."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:131
+msgid ""
+"Right-click on the permalink and select \"Copy link location\" or the "
+"equivalent for your web browser. You can then paste the link into a report, "
+"your notes or an email."
+msgstr ""
+"Jobb kattintás a permalinken és válassza a \"Copy link location\"-t vagy az "
+"ennek megfelelőt a web böngészőjében. Beillesztheti a linket egy jelentésbe,"
+" a jegyzeteibe vagy egy emailbe."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:133
+msgid ""
+"You can click on \"Email Link\" to start a new email message in your default"
+" email client with the permalink already included in the message body."
+msgstr ""
+"Az \"Email Link\"-re kattinthat egy új email üzenet indításához az "
+"alapértelmezett levelező kliensében, melyben a térképre mutató link az "
+"üzenetbe már bekerül."
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:136
+msgid "What next?"
+msgstr "Mi a következő?"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:138
+msgid "Website: https://github.com/Reading-eScience-Centre/ncwms"
+msgstr "Honlap: https://github.com/Reading-eScience-Centre/ncwms"
+
+#: ../../build/doc/quickstart/ncWMS_quickstart.rst:140
+msgid "Support: https://github.com/Reading-eScience-Centre/ncwms/issues"
+msgstr "Támogatás: https://github.com/Reading-eScience-Centre/ncwms/issues"

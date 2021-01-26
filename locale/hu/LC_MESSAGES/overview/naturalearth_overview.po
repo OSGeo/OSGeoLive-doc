@@ -156,7 +156,7 @@ msgstr "Részletek"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:56
 msgid "**Website:** https://www.naturalearthdata.com/"
-msgstr ""
+msgstr "**Honlap:** https://www.naturalearthdata.com/"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:58
 msgid "**License:** None, the data is public domain."
