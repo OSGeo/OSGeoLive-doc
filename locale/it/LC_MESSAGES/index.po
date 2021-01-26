@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-01-18 20:30+0100\n"
 "PO-Revision-Date: 2017-01-21 16:46+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
@@ -91,11 +91,11 @@ msgstr ""
 msgid "Quick Starts"
 msgstr "Guide rapide"
 
-#: ../../build/doc/index.rst:68
+#: ../../build/doc/index.rst:69
 msgid "Presentation"
 msgstr "Presentazione"
 
-#: ../../build/doc/index.rst:70
+#: ../../build/doc/index.rst:71
 msgid ""
 "A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive "
 "applications, is available with slides, script, and `abstract "
