@@ -5,8 +5,8 @@
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,13 +34,13 @@ msgid ""
 "globe (including OpenStreetMap), you are encouraged to include a KDE Marble "
 "widget in your application."
 msgstr ""
-"MarbleはオープンソースのKDE 教育プロジェクト プログラムで、NASA World WindやGoogle "
-"Earthに似ています。地球儀に表示する(OpenStreetMapを含む)マップをいろいろ選択するだけでなく、アプリケーションにKDE "
-"Marbleウィジェットを含めることをお勧めします。"
+"Marble はオープンソースの KDE 教育プロジェクトプログラムで、NASA World Wind や Google Earth "
+"に似ています。地球儀に表示する(OpenStreetMap を含む)マップをいろいろ選択するだけでなく、アプリケーションに KDE Marble "
+"ウィジェットを含めることをお勧めします。"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:30
 msgid "Start Marble"
-msgstr "Marbleの開始"
+msgstr "Marble の開始"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:32
 msgid ""
@@ -63,11 +63,11 @@ msgstr "移動するには、マウスの左ボタンを押して移動します
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:44
 msgid "Marble has 11 different views (themes):"
-msgstr "Marbleには11種類のビュー(テーマ)があります。"
+msgstr "Marble には11種類のビュー(テーマ)があります。"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:46
 msgid "Atlas"
-msgstr ""
+msgstr "アトラス"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:47
 msgid "OpenStreetMap"
@@ -83,7 +83,7 @@ msgstr "夜の地球"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:50
 msgid "Historical Map 1689"
-msgstr ""
+msgstr "歴史的地図 1689"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:51
 msgid "Moon"
@@ -113,7 +113,7 @@ msgstr "気温(7月)。"
 msgid ""
 "Click one of entries in the \"Theme\" list in \"Map View\" tab to switch "
 "between them."
-msgstr "「マップビュー」タブの「テーマ」リストの項目の1つをクリックして、切り替えます。"
+msgstr "\"マップビュー\" タブの \"テーマ\" リストの項目の1つをクリックして、切り替えます。"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:63
 msgid "Click a label in any place to view more information about it."
@@ -128,7 +128,7 @@ msgid ""
 "To find a location, enter its name into the search line on the top of "
 "\"Search\" panel. As you start typing, suggestions below the search line "
 "will appear like this:"
-msgstr "場所を検索するには、「検索」パネルの一番上の検索行に名前を入力します。入力を開始すると、検索ラインの下に次のような提案が表示されます:"
+msgstr "場所を検索するには、 \"検索\" パネルの一番上の検索行に名前を入力します。入力を開始すると、検索ラインの下に次のような提案が表示されます:"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:80
 msgid "Add a bookmark"
@@ -136,7 +136,7 @@ msgstr "ブックマークを追加"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:82
 msgid "Use bookmarks in Marble to remember the location of something."
-msgstr "Marbleのブックマークを使用して、表示したことのある位置を記憶します。"
+msgstr "Marble のブックマークを使用して、表示したことのある位置を記憶します。"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:84
 msgid ""
@@ -150,11 +150,11 @@ msgstr "ブックマークの名前、説明、移動先フォルダを記入"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:90
 msgid "Click the \"Ok\" button. Then the bookmark will appear."
-msgstr "「OK」ボタンをクリックします。するとブックマークが表示されます。"
+msgstr "\"OK\" ボタンをクリックします。するとブックマークが表示されます。"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:92
 msgid "To manage bookmarks, go to \"Bookmarks->Manage Bookmarks\"."
-msgstr "ブックマークを管理するには、「ブックマーク->ブックマークの管理」に移動します。"
+msgstr "ブックマークを管理するには、 \"ブックマーク->ブックマークの管理\" に移動します。"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:98
 msgid "Things to try"
@@ -165,7 +165,7 @@ msgid ""
 "Try to use the Routing feature. See the `Marble documentation "
 "<https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ for help."
 msgstr ""
-"ルーティング機能を使用してみます。ヘルプについて、`Marble documentation "
+"ルーティング機能を使用してみます。ヘルプについて、 `Marble ドキュメント "
 "<https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ を参照してください。"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:104

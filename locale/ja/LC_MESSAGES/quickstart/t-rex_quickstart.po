@@ -4,9 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +34,7 @@ msgstr "t-rexは、独自のデータからMVTタイルを配信することに�
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:24
 msgid "This Quick Start describes how to:"
-msgstr "このクイックスタートでは、次の方法について説明します。"
+msgstr "このクイックスタートでは、次の方法について説明します:"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:26
 msgid ""
@@ -54,7 +53,7 @@ msgstr "T-Rexを起動"
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:35
 msgid ""
 "Choose :menuselection:`Geospatial --> Web Services --> T-Rex` from the menu."
-msgstr "メニューから:menuselection:`Geospatial-->Web Services-->T-Rex` を選択します。"
+msgstr "メニューから :menuselection:`Geospatial --> Web Services --> T-Rex` を選択します。"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:37
 msgid ""
@@ -104,13 +103,13 @@ msgstr "ブラウザを閉じ、t-rexを実行しているターミナルウィ�
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:63
 msgid ""
 "Open any text editor (e.g. :menuselection:`Accessories --> FeatherPad`)."
-msgstr "任意のテキストエディタを開きます(例:menuselection:`Accessories-->FeatherPad`)。"
+msgstr "任意のテキストエディタを開きます(例: :menuselection:`アクセサリ --> FeatherPad`)。"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:65
 msgid ""
 "Create the file \"ne.toml\" in your home directory: "
 ":file:`/home/user/ne.toml`"
-msgstr "ファイル\"ne.toml\"をホームディレクトリ: :file:`/home/user/ne.toml` に作成します。"
+msgstr "ファイル \"ne.toml\" をホームディレクトリ: :file:`/home/user/ne.toml` に作成します。"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:68
 msgid "Put the following content in it::"
@@ -119,7 +118,7 @@ msgstr "次の内容を入力します::"
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:111
 msgid ""
 "Open a terminal (:menuselection:`System Tools --> LXTerminal`) and type::"
-msgstr "端末を開き(:menuselection:`System Tools-->LXTerminal`)、次を入力します::"
+msgstr "端末を開き(:menuselection:`System Tools --> LXTerminal`)、次を入力します::"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:115
 msgid "To inspect the generated tiles type::"

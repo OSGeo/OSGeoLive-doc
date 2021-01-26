@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/opencpn_overview.rst:16
 msgid "OpenCPN"
-msgstr ""
+msgstr "OpenCPN"
 
 #: ../../build/doc/overview/opencpn_overview.rst:19
 msgid "Marine GPS navigation software"
@@ -55,11 +55,11 @@ msgid ""
 "waypoints allowing interface to an external autopilot for precise course "
 "following."
 msgstr ""
-"ホストの船舶が移動すると、新しいチャートが選択され、ユーザ指定の解像度および詳細で表示されます。さらに、ユーザは、正確なコース追跡のための外部自動操縦装置へのインターフェースを可能にする経路およびウェイポイントを入力することができます。"
+"ホストの船舶が移動すると、新しいチャートが選択され、ユーザ指定の解像度および詳細で表示されます。さらに、ユーザは、正確なコース追跡のための外部自動操縦装置へのインタフェースを可能にする経路およびウェイポイントを入力することができます。"
 
 #: ../../build/doc/overview/opencpn_overview.rst:34
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/opencpn_overview.rst:36
 msgid "OpenCPN supports:"
@@ -76,7 +76,7 @@ msgstr "AIS入力デコード"
 #: ../../build/doc/overview/opencpn_overview.rst:40
 msgid ""
 "NMEA GPS or `Gpsd <https://www.berlios.de/software/gpsd/>`_ daemon input"
-msgstr "NMEA GPSまたは`Gpsd<https://www.berlios.de/software/gpsd/>`_ デーモンの入力"
+msgstr "NMEA GPS または `Gpsd <https://www.berlios.de/software/gpsd/>`_ デーモンの入力"
 
 #: ../../build/doc/overview/opencpn_overview.rst:41
 msgid "Waypoint / autopilot navigation"
@@ -88,7 +88,7 @@ msgstr "無制限のルート/マークの作成"
 
 #: ../../build/doc/overview/opencpn_overview.rst:43
 msgid "Quilted charts"
-msgstr ""
+msgstr "海図の繋ぎ合わせ"
 
 #: ../../build/doc/overview/opencpn_overview.rst:44
 msgid "International language support"

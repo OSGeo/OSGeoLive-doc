@@ -5,7 +5,7 @@
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,12 +39,12 @@ msgid ""
 "management interface and connects to multiple data sources at the back end."
 msgstr ""
 "GeoServer は、多様なフォーマットから地図とデータを Web ブラウザやデスクトップ GIS プログラム等の標準的なクライアントに配信する "
-"Web サーバです。データは WMS、WFS、WCS、WPS、タイルキャッシュなどの標準に基づくインターフェイス経由で配信されます。GeoServer "
-"は、ブラウザベースの管理インターフェイスを持ち、バックエンド側で複数のデータソースへ接続します。"
+"Web サーバです。データは WMS、WFS、WCS、WPS、タイルキャッシュなどの標準に基づくインタフェース経由で配信されます。GeoServer "
+"は、ブラウザベースの管理インタフェースを持ち、バックエンド側で複数のデータソースへ接続します。"
 
 #: ../../build/doc/overview/geoserver_overview.rst:37
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/geoserver_overview.rst:44
 msgid "**Serve data from a variety of data stores:**"
@@ -71,8 +71,8 @@ msgid ""
 "GeoTiff, JPG and PNG (with world file), image pyramid, GDAL formats, Image "
 "Mosaic, Oracle GeoRaster, NetCDF"
 msgstr ""
-"GeoTiff, JPG 及び PNG (ワールドファイル付き), image pyramid, GDAL formats, Image Mosaic,"
-" Oracle GeoRaster, NetCDF"
+"GeoTiff, JPG 及び PNG (ワールドファイル付き), イメージピラミッド, GDALフォーマット, イメージモザイク, Oracle "
+"GeoRaster, NetCDF"
 
 #: ../../build/doc/overview/geoserver_overview.rst:48
 msgid ""
@@ -103,7 +103,7 @@ msgid ""
 "WFS-T protocol. The data can be transmitted using GML (compressed) as well "
 "as other standard data formats like shapefile and json."
 msgstr ""
-" WFS クライアントは、ベクタデータをダウンロードして地図表示や空間解析等の用途に使用できます。さらに WFS-T "
+"WFS クライアントは、ベクタデータをダウンロードして地図表示や空間解析等の用途に使用できます。さらに WFS-T "
 "プロトコルを利用して、認証されたユーザがサーバのデータを編集、アップロードすることで更新できます。シェープファイルや JSON "
 "のような標準規格同様に、データは圧縮した GML で送受信を行います。"
 
@@ -117,7 +117,6 @@ msgid ""
 " This allows a user to create applications which can model the process "
 "described by your data."
 msgstr ""
-" "
 "GISクライアントはラスタの実データを要求して空間解析に使うことができます。この機能を使うと、あなたのデータで記述したプロセスをベースに、ユーザーが活用することができます。"
 
 #: ../../build/doc/overview/geoserver_overview.rst:58
@@ -131,7 +130,7 @@ msgid ""
 "reprojection support to pass the load to the server."
 msgstr ""
 "GeoServer は EPSG "
-"データベースの主な投影法をサポートしており、オンデマンドでそれらの投影法への再投影ができます。クライアント側で再投影を制限され手いる場合にはサーバ側でその処理を行うこともできます。"
+"データベースの主な投影法をサポートしており、オンデマンドでそれらの投影法への再投影ができます。クライアント側で再投影を制限されている場合にはサーバ側でその処理を行うこともできます。"
 
 #: ../../build/doc/overview/geoserver_overview.rst:61
 msgid "**Tiling Cache**"
@@ -148,7 +147,7 @@ msgid ""
 msgstr ""
 "`GeoWebCache <https://www.geowebcache.org>`_ は GeoServer に統合されていて、 WMS "
 "などの様々なソースからタイル化して地図画像をキャッシュします。様々な (WMS-C, WMTS, TMS, Google Maps KML, "
-"Virtual Earth などの) サービスインターフェイスを実装し、地図画像配信を加速・最適化します。通常の WMS "
+"Virtual Earth などの) サービスインタフェースを実装し、地図画像配信を加速・最適化します。通常の WMS "
 "クライアントで動作するよう、タイルを再結合することも可能です。"
 
 #: ../../build/doc/overview/geoserver_overview.rst:64
@@ -163,8 +162,8 @@ msgid ""
 "visualisations through the WMS interface."
 msgstr ""
 ":doc:`JTS <jts_overview>` に由来する地理空間アルゴリズムを、 GeoServer の |WPS| "
-"インターフェイスを経由して呼び出すことが可能です。これには、処理を連結することや、 レンダリング変換を使用したWMS "
-"インターフェイスによる強力な可視化が含まれます。"
+"インタフェースを経由して呼び出すことが可能です。これには、処理を連結することや、 レンダリング変換を使用したWMS "
+"インタフェースによる強力な可視化が含まれます。"
 
 #: ../../build/doc/overview/geoserver_overview.rst:67
 msgid "Implemented Standards"
@@ -176,7 +175,7 @@ msgstr "多くの Open Geospatial Consortium (OGC) 標準をサポートして�
 
 #: ../../build/doc/overview/geoserver_overview.rst:73
 msgid "|WMS| (client/server)"
-msgstr "|WMS| (クライアントサーバー)"
+msgstr "|WMS| (クライアント/サーバ)"
 
 #: ../../build/doc/overview/geoserver_overview.rst:74
 msgid "|WMTS|"
@@ -230,7 +229,7 @@ msgstr "**対応プラットフォーム:** Windows, Linux, Mac 上の Java 8 (O
 
 #: ../../build/doc/overview/geoserver_overview.rst:93
 msgid "**API Interfaces:** WMS, WFS, WCS, REST"
-msgstr "**API インターフェイス:** WMS, WFS, WCS, REST"
+msgstr "**API インタフェース:** WMS, WFS, WCS, REST"
 
 #: ../../build/doc/overview/geoserver_overview.rst:95
 msgid "**Support:** http://geoserver.org/support/"

@@ -4,17 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
-# Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-01-25 18:18-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,18 +39,13 @@ msgid ""
 "GeoTools is used by a number of projects including web services, command "
 "line tools and desktop applications. OSGeoLive applications which include "
 "GeoTools include: :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, "
-"AtlasStyler, :doc:`geomajas_overview`, Geopublisher, "
-":doc:`geoserver_overview`, and :doc:`udig_overview`."
+"AtlasStyler, Geomajas, Geopublisher, :doc:`geoserver_overview`, and "
+":doc:`udig_overview`."
 msgstr ""
-"GeoTools は Web "
-"サービスやコマンドライン、デスクトップアプリケーションなどを含むいくつかのプロジェクトで利用されています。OSGeoLive のアプリケーションで  "
-"GeoTools を利用しているものは以下となります: :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, "
-"AtlasStyler, :doc:`geomajas_overview`, Geopublisher, "
-":doc:`geoserver_overview`, 及び :doc:`udig_overview`"
 
 #: ../../build/doc/overview/geotools_overview.rst:31
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/geotools_overview.rst:33
 msgid "Definition of interfaces for key spatial concepts and data structures"
@@ -62,78 +56,79 @@ msgid ""
 "Integrated Geometry support provided by `JTS Topology Suite (JTS) "
 "<https://sourceforge.net/projects/jts-topo-suite/>`_"
 msgstr ""
-"統合されたジオメトリのサポートは、`JTS Topology Suite(JTS) <https://sourceforge.net/projects"
-"/jts-topo-suite/>`_ によって提供されます。"
+"`JTS Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-"
+"suite/>`_ による、統合されたジオメトリのサポート"
 
 #: ../../build/doc/overview/geotools_overview.rst:36
 msgid "Attribute and spatial filters using OGC Filter Encoding specification"
-msgstr "OGC Filter Encoding仕様を使用する属性および空間フィルタ"
+msgstr "OGC Filter Encoding 仕様を利用した、属性および空間フィルタ"
 
 #: ../../build/doc/overview/geotools_overview.rst:38
 msgid ""
 "A clean data access API supporting feature access, transaction support and "
 "locking between threads"
-msgstr "スレッド間、トランザクションサポート、スレッド間のロックをサポートするクリーンなデータアクセスAPI"
+msgstr "地物へのアクセス、トランザクション、スレッド間のロックをサポートする、クリーンなデータアクセスAPI"
 
 #: ../../build/doc/overview/geotools_overview.rst:40
 msgid "Access GIS data in many file formats and spatial databases"
-msgstr "多くのファイル形式および空間データベースのGISデータにアクセスする"
+msgstr "多くのファイルフォーマットや空間データベースのGISデータへのアクセス"
 
 #: ../../build/doc/overview/geotools_overview.rst:41
 msgid "Coordinate reference system and transformation support"
-msgstr "座標参照系と変換サポート"
+msgstr "座標参照系と座標変換のサポート"
 
 #: ../../build/doc/overview/geotools_overview.rst:42
 msgid "Work with an extensive range of map projections"
-msgstr "広範囲のマップ投影を使用する"
+msgstr "広範囲の地図投影法との連携"
 
 #: ../../build/doc/overview/geotools_overview.rst:43
 msgid "filter and analyze data in terms of spatial and non-spatial attributes"
-msgstr "空間的および非空間的属性に関してデータをフィルタ処理および分析する"
+msgstr "空間的および非空間的属性の観点からの、データのフィルタと分析"
 
 #: ../../build/doc/overview/geotools_overview.rst:45
 msgid ""
 "A stateless, low memory renderer, particularly useful in server-side "
 "environments."
-msgstr "ステートレスでメモリの少ないレンダラ。サーバ側の環境で特に便利です。"
+msgstr "ステートレスで低メモリのレンダラは、特にサーバ側の環境で便利です。"
 
 #: ../../build/doc/overview/geotools_overview.rst:47
 msgid "compose and display maps with complex styling"
-msgstr "複雑なスタイルを使用してマップを作成および表示する"
+msgstr "複雑なスタイルを使用して地図の構成と表示できます"
 
 #: ../../build/doc/overview/geotools_overview.rst:49
 msgid ""
 "Powerful *schema assisted* parsing technology using XML Schema to bind to "
 "GML content"
-msgstr "XML Schemaを使用してGMLコンテンツにバインドする強力な*schema assisted*解析テクノロジ"
+msgstr "GML コンテンツにバインドするための XML Schema を利用した強力な *スキーマ支援の* 構文解析技術"
 
 #: ../../build/doc/overview/geotools_overview.rst:51
 msgid ""
 "The parsing / encoding technology is provided with bindings for many OGC "
 "standards including GML, Filter, KML, SLD, and SE."
-msgstr "構文解析/符号化技術は、GML、Filter、KML、SLD、およびSEを含む多くのOGC標準のバインディングを備えています。"
+msgstr "構文解析/符号化技術は、GML、Filter、KML、SLD、および SE を含む多くの OGC 標準のバインディングを備えています。"
 
 #: ../../build/doc/overview/geotools_overview.rst:53
 msgid ""
 "GeoTools Plugins: open plug-in system allowing you to teach the library "
 "additional formats"
-msgstr "GeoToolsプラグイン:ライブラリに追加のフォーマットを追加ができるオープンなプラグインシステム"
+msgstr "GeoTools プラグイン: ライブラリに追加のフォーマットを設定できる、オープンなプラグインシステム"
 
 #: ../../build/doc/overview/geotools_overview.rst:55
 msgid ""
 "Plug-ins for the ImageIO-EXT project allowing GeoTools to read additional "
 "raster formats from GDAL"
-msgstr "GDALから追加のラスター形式を読み込めるようにするImageIO-EXTプロジェクトのプラグイン"
+msgstr ""
+"ImageIO-EXTプロジェクトのプラグインは、GeoTools で GDAL 経由で追加のラスタフォーマットを読み込めるようにしています。"
 
 #: ../../build/doc/overview/geotools_overview.rst:57
 msgid "GeoTools Extensions"
-msgstr "GeoTools拡張機能"
+msgstr "GeoTools 拡張機能"
 
 #: ../../build/doc/overview/geotools_overview.rst:59
 msgid ""
 "Provide additional capabilities built using the spatial facilites of the "
 "core library."
-msgstr "コアライブラリのspatial facilitesを使用して構築された追加機能を提供します。"
+msgstr "コアライブラリの空間機能を使用して構築された追加機能を提供します。"
 
 #: ../../build/doc/overview/geotools_overview.rst:64
 msgid ""
@@ -141,18 +136,19 @@ msgid ""
 "path), validation, a web map server client, bindings for xml parsing and "
 "encoding and color brewer."
 msgstr ""
-"拡張機能は、(最短パスを見つけるための)グラフとネットワーキングのサポート、検証、Webマップサーバクライアント、XML構文解析とエンコーディングのバインディング、そしてカラーbrewerを提供します。"
+"拡張機能は、(最短パスを見つけるための)グラフとネットワーキングのサポート、検証、Webマップサーバクライアント、XML構文解析とエンコーディングのバインディング、そして"
+" Color Brewer を提供します。"
 
 #: ../../build/doc/overview/geotools_overview.rst:66
 msgid "GeoTools Unsupported"
-msgstr "サポートされていないGeoTools"
+msgstr "GeoTools 未サポート機能"
 
 #: ../../build/doc/overview/geotools_overview.rst:68
 msgid ""
 "GeoTools also operates as part of a wider community with a staging area used"
 " to foster new talent and promote experimentation."
 msgstr ""
-"GeoToolsはまた、新しい人材を育成し、実験を促進するために使用されるステージング領域を持つ、より広いコミュニティの一部として動作します。"
+"GeoTools はまた、新しい人材の育成や実験の促進に使用されるステージング領域を持つ、より広いコミュニティの一部としても運営されています。"
 
 #: ../../build/doc/overview/geotools_overview.rst:70
 msgid ""
@@ -160,7 +156,9 @@ msgid ""
 "and web process support, additional symbology, additional data formats, "
 "generation of grids and a couple of implementations of ISO Geometry."
 msgstr ""
-"注目すべき点は、スイングサポート(geotoolsチュートリアルで使用)、swt、ローカルおよびWebプロセスサポート、追加の記号、追加のデータフォーマット、グリッドの生成、およびISOジオメトリのいくつかの実装です。"
+"注目すべき点は、Swing サポート "
+"(geotoolsチュートリアルで使用)、SWT、ローカルおよびWebプロセスサポート、追加のシンボロジー、追加のデータフォーマット、グリッドの生成、および"
+" ISO ジオメトリのいくつかの実装です。"
 
 #: ../../build/doc/overview/geotools_overview.rst:73
 msgid "Supported Formats"
@@ -168,7 +166,7 @@ msgstr "サポートするフォーマット"
 
 #: ../../build/doc/overview/geotools_overview.rst:75
 msgid "raster formats and data access:"
-msgstr "ラスター形式とデータアクセス:"
+msgstr "ラスタフォーマットとデータアクセス:"
 
 #: ../../build/doc/overview/geotools_overview.rst:77
 msgid ""
@@ -180,7 +178,7 @@ msgstr ""
 
 #: ../../build/doc/overview/geotools_overview.rst:79
 msgid "Database \"jdbc-ng\" support:"
-msgstr "データベース \"jdbc-ng\"のサポート:"
+msgstr "データベース \"jdbc-ng\" サポート:"
 
 #: ../../build/doc/overview/geotools_overview.rst:81
 msgid "db2, h2, mysql, oracle, postgis, spatialite, sqlserver."
@@ -208,14 +206,14 @@ msgid ""
 "simple types), fes, filter, gml2, gml3, kml, ows, sld, wcs, wfs, wms, wps, "
 "vpf."
 msgstr ""
-"次データのために提供されるJavaデータ構造とバインディング: xsd-core (xml simple types), fes, filter, "
+"Javaデータ構造とバインディングによって次の形式が利用できます: xsd-core (xml simple types), fes, filter, "
 "gml2, gml3, kml, ows, sld, wcs, wfs, wms, wps, vpf."
 
 #: ../../build/doc/overview/geotools_overview.rst:92
 msgid ""
 "Additional Geometry, Filter and Style parser/encoders available for DOM and "
 "SAX applications."
-msgstr "DOMおよびSAXサプリケーションで利用できる追加のジオメトリ、フィルタ、スタイルのパーサ/エンコーダ。"
+msgstr "DOM および SAX アプリケーションで利用できる、追加のジオメトリ、フィルタ、スタイルのパーサ/エンコーダ。"
 
 #: ../../build/doc/overview/geotools_overview.rst:95
 msgid "Implemented Standards"
@@ -223,37 +221,37 @@ msgstr "実装されている標準規格"
 
 #: ../../build/doc/overview/geotools_overview.rst:97
 msgid "Support of numerous Open Geospatial Consortium (OGC) standards:"
-msgstr "多数のオープン地理空間コンソーシアム(OGC)標準のサポート:"
+msgstr "多くの Open Geospatial Consortium (OGC) 標準をサポート:"
 
 #: ../../build/doc/overview/geotools_overview.rst:99
 msgid ""
 "OGC Style Layer Descriptor / Symbology Encoding data structures and "
 "rendering engine"
-msgstr "OGC Style Layer Descriptor/記号データ構造のエンコードとレンダリングエンジン"
+msgstr "OGC Style Layer Descriptor / Symbology Encoding データ構造とレンダリングエンジン"
 
 #: ../../build/doc/overview/geotools_overview.rst:100
 msgid "OGC General Feature Model including Simple Feature support"
-msgstr "Simple Featureサポートを含むOGC General Feature Model"
+msgstr "Simple Feature サポートを含む OGC General Feature Model"
 
 #: ../../build/doc/overview/geotools_overview.rst:101
 msgid "OGC Grid Coverage representation of raster information"
-msgstr "ラスタ情報表現のOGC Grid Coverage"
+msgstr "ラスタ情報表現の OGC Grid Coverage"
 
 #: ../../build/doc/overview/geotools_overview.rst:102
 msgid "OGC Filter and Common Constraint Language (CQL)"
-msgstr "OGC  Filterと Common Constraint Language (CQL)"
+msgstr "OGC Filterと Common Constraint Language (CQL)"
 
 #: ../../build/doc/overview/geotools_overview.rst:103
 msgid ""
 "Clients for Web Feature Service (WFS), Web Map Service (WMS) and "
 "experimental support for Web Process Service (WPS)"
 msgstr ""
-"Web Feature Service(WFS)、Web Map Service(WMS)、およびWeb Process "
-"Service(WPS)の試験的サポートのクライアント"
+"Web Feature Service (WFS)、Web Map Service (WMS) のクライアントと、Web Process Service"
+" (WPS) の試験的なサポート"
 
 #: ../../build/doc/overview/geotools_overview.rst:104
 msgid "ISO 19107 Geometry"
-msgstr "ISO19107ジオメトリ"
+msgstr "ISO 19107 ジオメトリ"
 
 #: ../../build/doc/overview/geotools_overview.rst:107
 msgid "Details"
@@ -269,23 +267,23 @@ msgstr "**ライセンス:** LGPL"
 
 #: ../../build/doc/overview/geotools_overview.rst:113
 msgid "**Supported Platforms:** Cross Platform Java 8,9,10"
-msgstr "**対応OS:** Cross Platform Java 8,9,10"
+msgstr "**対応プラットフォーム:** クロスプラットフォーム Java 8,9,10"
 
 #: ../../build/doc/overview/geotools_overview.rst:115
 msgid "**API Interfaces:** Java"
-msgstr "**API インターフェイス:** Java"
+msgstr "**API インタフェース:** Java"
 
 #: ../../build/doc/overview/geotools_overview.rst:117
 msgid ""
 "**Support:** `Communication and Support "
 "<http://docs.geotools.org/latest/userguide/welcome/support.html>`_"
 msgstr ""
-"**サポート:** `Communication and Support  "
+"**サポート:** `コミュニケーションとサポート "
 "<http://docs.geotools.org/latest/userguide/welcome/support.html>`_"
 
 #: ../../build/doc/overview/geotools_overview.rst:120
 msgid "GeoTools_Support"
-msgstr "GeoTools_サポート"
+msgstr "GeoTools サポート"
 
 #: ../../build/doc/overview/geotools_overview.rst:122
 msgid ""

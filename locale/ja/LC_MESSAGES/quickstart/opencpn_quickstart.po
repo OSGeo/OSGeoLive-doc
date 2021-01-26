@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# MarPetra <mvergaratrejo@gmail.com>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:06+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:19
+msgid "OpenCPN Quickstart"
+msgstr "OpenCPNクイックスタート"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:21
+msgid ""
+"OpenCPN is a concise Chart Plotter and Navigator (CPN). As always, never use"
+" a piece of software or electronic equipment as your only means of "
+"navigation and keep an eye out the window."
+msgstr ""
+"OpenCPNは、簡潔なCPN(Chart Plotter and "
+"Navigator)です。常に、ソフトウェアや電子機器を唯一のナビゲーション手段として使用したり、窓から目を離さないでください。"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:30
+msgid "Setting up your charts"
+msgstr "チャートを設定する"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:32
+msgid ""
+"Before running OpenCPN on the LiveDVD you should activate the sample data. "
+"This is a condition of redistributing NOAA's free nautical charts. The first"
+" time you open OpenCPN you are presented with the option to do this "
+"automatically."
+msgstr ""
+"LiveDVDでOpenCPNを実行する前に、サンプルデータを有効にする必要があります。これは、NOAAの自由な海図を再配布するための条件です。OpenCPNを初めて開くと、自動的に開くオプションが表示されます。"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:35
+msgid ""
+"From the Start menu, select :menuselection:`Geospatial --> Navigation and "
+"Maps --> OpenCPN`."
+msgstr ""
+"スタートメニューから :menuselection:`Geospatial --> ナビゲーションと地図 --> OpenCPN` を選択します。"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:36
+msgid "Click :guilabel:`I agree` to the NOAA Nautical Chart Data Agreement."
+msgstr ""
+" :guilabel:`I agree` をクリックして、NOAA Nautical Chart Data Agreementに同意します。"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:37
+msgid "Click :guilabel:`OK` to agree to the OpenCPN license."
+msgstr ":guilabel:`OK` をクリックして、OpenCPN ライセンスに同意します。"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:41
+msgid ""
+"You can download additional US nautical charts from NOAA at "
+"https://www.charts.noaa.gov/"
+msgstr "https://www.charts.noaa.gov/ のNOAAから追加の米国海図をダウンロードできます。"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:45
+msgid "Setting up your GPS"
+msgstr "GPSを設定する"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:47
+msgid ""
+"If you have a GPS connected you will want to start the gpsd service. To do "
+"that, open a terminal and run:"
+msgstr "GPSに接続している場合は、gpsdサービスを開始します。これを行うには、ターミナルを開き、次のコマンドを実行します。"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:54
+msgid "and"
+msgstr "and"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:60
+msgid ""
+"BlueTooth GPS users should take special care to read up about the no-probe "
+"option."
+msgstr "Blue tooth GPSユーザーは、no-probeオプションについて詳しく調べる必要があります。"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:66
+msgid "'`xgps`' is a good program to check that Gpsd can see your GPS ok."
+msgstr "'`xgps`' は、GpsdがあなたのGPSを確認できるかどうかチェックしてくれる良いプログラムです。"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:70
+msgid "Things to try"
+msgstr "試してみること"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:72
+msgid ""
+"Current weather and wave forecast data can be downloaded and draped over "
+"your charts using the GRIB plugin. The :doc:`zyGrib software "
+"<../overview/zygrib_overview>` (also on this disc) is an easy way to "
+"download that."
+msgstr ""
+"GRIBプラグインを使用すると、現在の気象や波の予測データをダウンロードして、グラフ上にドレープすることができます。:doc:`zyGrib "
+"software <../overview/zygrib_overview>` (このディスクにもあります)は、簡単にダウンロードできます。"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:74
+msgid ""
+"Click the :guilabel:`Options` icon on the toolbar. The Options window "
+"displays."
+msgstr "ツールバーの :guilabel:`Options`  アイコンをクリックします。オプションウィンドウが表示されます。"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:75
+msgid "Select the :guilabel:`Plugins` tab."
+msgstr " :guilabel:`Plugins` タブを選択します。"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:76
+msgid "Choose GRIB and then click :guilabel:`Enable`."
+msgstr "GRIBを選択し、 :guilabel:`Enable` をクリックします。"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:77
+msgid "Click :guilabel:`OK`. A windsock icon is now displayed on the toolbar."
+msgstr " :guilabel:`OK` をクリックします。吹き流しのアイコンがツールバーに表示されます。"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:80
+msgid ""
+"Run through the :doc:`zyGrib quickstart <../quickstart/zygrib_quickstart>` "
+"and load the zyGrib file over your chart."
+msgstr ""
+" :doc:`zyGrib quickstart <../quickstart/zygrib_quickstart>` を実行し、 "
+"zyGribファイルをチャート上にロードします。"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:82
+msgid ""
+"If you saved the zyGrib file into your home directory, navigate to "
+":file:`/home` and select your ``user`` directory as the GRIB data directory."
+" Then right click on the file listing's background to show hidden files, "
+"including the ``.zygrib`` directory that contains the GRIB download files."
+msgstr ""
+"zyGribファイルをホームディレクトリに保存した場合は、 :file:`/home`  に移動して、 ``user``  "
+"ディレクトリをGRIBデータディレクトリとして選択してください。次に、ファイルリストの背景を右クリックして、GRIBダウンロードファイルを含む "
+"``.zygrib`` ディレクトリなどの隠しファイルを表示します。"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:84
+msgid ""
+"There is no need to uncompress the file.  Click on the \">\" to the left of "
+"the filename and select from the list of available forecast times."
+msgstr "ファイルを解凍する必要はありません。ファイル名の左側にある \">\" をクリックし、利用可能な予測時間のリストから選択します。"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:88
+msgid "What next?"
+msgstr "次のステップ"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:90
+msgid ""
+"Documentation is available from the Help menu or online at "
+"https://opencpn.org/OpenCPN/info/manuals.html"
+msgstr ""
+"ドキュメントは、https://opencpn.org/OpenCPN/info/manuals.html "
+"のヘルプメニューまたはオンラインから利用できます"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:92
+msgid "`Getting started tips <../../opencpn/tips.html>`_"
+msgstr "`Getting started tips <../../opencpn/tips.html>`_"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:94
+msgid "Website: https://www.opencpn.org"
+msgstr "Webサイト: https://www.opencpn.org"
+
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:96
+msgid "Support: https://www.cruisersforum.com/forums/f134"
+msgstr "サポート: https://www.cruisersforum.com/forums/f134"

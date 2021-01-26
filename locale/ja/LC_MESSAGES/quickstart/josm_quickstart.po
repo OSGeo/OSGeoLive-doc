@@ -5,8 +5,8 @@
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,8 +60,7 @@ msgid ""
 "From the desktop, choose :menuselection:`Navigation and Maps --> JOSM`. When"
 " JOSM starts, it will look something like this:"
 msgstr ""
-"デスクトップから :menuselection:`Navigation and Maps-->JOSM` "
-"を選択します。JOSMが始まると、次のようになります。"
+"デスクトップから :menuselection:`ナビゲーションと地図 --> JOSM` を選択します。JOSMが始まると、次のようになります。"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:41
 msgid "Load a sample (ficticious) map"
@@ -80,8 +79,7 @@ msgid ""
 "Download the file here: `sample.osm "
 "<https://learnosm.org/files/sample.osm>`__"
 msgstr ""
-"ここでファイルをダウンロードしてください： `sample.osm <https://learnosm.org/files/sample.osm>` "
-"__"
+"ここでファイルをダウンロードしてください: `sample.osm <https://learnosm.org/files/sample.osm>`__"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:48
 msgid ""
@@ -115,7 +113,7 @@ msgstr "マップをナビゲートする"
 msgid ""
 "To move the map left or right, up or down, hold your right mouse button "
 "down, and move your mouse."
-msgstr "画面上で右クリックをしたままマウスを動かすと、表示領域を上下左右に移動させることができます。。"
+msgstr "画面上で右クリックをしたままマウスを動かすと、表示領域を上下左右に移動させることができます。"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:71
 msgid ""
@@ -185,8 +183,8 @@ msgid ""
 "it begins."
 msgstr ""
 "地図には基本的に、ポイント・ライン・シェイプという3つのタイプのオブジェクトしかない、とかんがえるととてもシンプルです。これから先、OpenStreetMapについて調べてゆくと、これらを別の単語で表現していることがあります。"
-" ポイントは実際には ノード と呼ばれ、ラインは ウェイ と呼ばれます。シェイプは、データ上では始点と終点が同一の地点にあるだけのウェイなので "
-"閉じたウェイ(closed way) と呼ばれます。"
+" ポイントは実際には **ノード(node)** と呼ばれ、ラインは **ウェイ(way)** "
+"と呼ばれます。シェイプは、データ上では始点と終点が同一の地点にあるだけのウェイなので **閉じたウェイ(closed way)** と呼ばれます。"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:114
 msgid ""
@@ -197,7 +195,8 @@ msgid ""
 "to know is that this information helps describe whether our object is a "
 "forest, a river, a building, or something else."
 msgstr ""
-"オブジェクトを選択すると、JOSMの画面右側に”プロパティ”と呼ばれるリストが表示されることに気がつくかもしれません。ここに表示される値はタグと呼ばれます。タグとは、ポイントやライン、シェイプに関連付けられた情報で、その地点が何を表しているかを示しています。タグについては、後の章で詳しく説明します。いまのところ、森林や河川、建物などの内容はタグに書かれた情報によって表されている、ということを知っているだけでかまいません。"
+"オブジェクトを選択すると、JOSMの画面右側に ”プロパティ” "
+"と呼ばれるリストが表示されることに気がつくかもしれません。ここに表示される値はタグと呼ばれます。タグとは、ポイントやライン、シェイプに関連付けられた情報で、その地点が何を表しているかを示しています。タグについては、後の章で詳しく説明します。いまのところ、森林や河川、建物などの内容はタグに書かれた情報によって表されている、ということを知っているだけでかまいません。"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:121
 msgid ""
@@ -413,4 +412,4 @@ msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:225
 msgid "Website: https://josm.openstreetmap.de/"
-msgstr "**Webサイト:** https://josm.openstreetmap.de/"
+msgstr "Webサイト: https://josm.openstreetmap.de/"

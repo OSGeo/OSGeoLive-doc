@@ -5,8 +5,7 @@
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
-# Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,7 +41,7 @@ msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rst:35
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:37
 msgid ""
@@ -51,7 +50,8 @@ msgid ""
 "instance, as well as sending test requests for SOS operations; appropriate "
 "sample requests are included."
 msgstr ""
-"**ブラウザクライアント**:SOSはブラウザベースのアプリケーションで提供されます。これにより、サービス・インスタンスの管理と構成、およびSOS操作のテスト要求の送信のための手段が提供されます。適切なサンプル要求が含まれます。"
+"**ブラウザクライアント**: "
+"SOSはブラウザベースのアプリケーションで提供されます。これにより、サービス・インスタンスの管理と構成、およびSOS操作のテスト要求の送信のための手段が提供されます。適切なサンプル要求が含まれます。"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:41
 msgid ""
@@ -60,7 +60,8 @@ msgid ""
 " of use, e.g. hydrology, meteorology, environmental monitoring, traffic "
 "management."
 msgstr ""
-"**Helgoland**:SOSには、水文、気象、環境モニタリング、交通管理など、さまざまな使用分野におけるセンサーWebデータの調査、分析、視覚化のためのHelgolandアプリケーションが含まれています。"
+"**Helgoland**: "
+"SOSには、水文、気象、環境モニタリング、交通管理など、さまざまな使用分野におけるセンサーWebデータの調査、分析、視覚化のためのHelgolandアプリケーションが含まれています。"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:44
 msgid ""
@@ -83,9 +84,9 @@ msgid ""
 " ."
 msgstr ""
 "**INSPIRE ダウンロードサービス拡張**: "
-"バージョン4.2.0以降では、SOSをINSPIREダウンロードサービスとして使用できるように拡張されています。背景情報は、`ブログポスト "
+"バージョン4.2.0以降では、SOSをINSPIREダウンロードサービスとして使用できるように拡張されています。背景情報は、 `ブログポスト "
 "<https://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-"
-"an-inspire-download-service-based-on-sos/>`_  および  `Wiki "
+"an-inspire-download-service-based-on-sos/>`_  および `Wiki "
 "<https://wiki.52north.org/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_"
 " で提供されています。"
 
@@ -98,7 +99,7 @@ msgid ""
 "<https://wiki.52north.org/SensorWeb/AqdEReporting#Installation>`_ is "
 "documented in the 52°North Wiki."
 msgstr ""
-"**Air Quality データ eレポート拡張**: バージョン4.3.0以降では、Air Quality Data Flows "
+"**Air Quality データeレポート拡張**: バージョン4.3.0以降では、Air Quality Data Flows "
 "E1a、E1b、およびE2a準拠データを提供する拡張機能が使用可能です(OSGeoLiveのインスタンスは適切に設定されていません)。`インストールと設定"
 " <https://wiki.52north.org/SensorWeb/AqdEReporting#Installation>`_ は "
 "52°North Wiki 内に記載されています。"
@@ -114,9 +115,9 @@ msgid ""
 "doc/>`_."
 msgstr ""
 "**センサー Web REST-API**: バージョン4.1.1以降では、バンドルバージョンが使用可能で、 `RESTful API "
-"<https://wiki.52north.org/SensorWeb/SensorWebClientRESTInterface>`_　"
-"が直接使用可能です。したがって、観測データはRESTfulな方法で要求することができ、JSONエンコードされた応答で返されます。詳細については`SOS "
-"webapp <http://localhost:8080/52nSOS/static/doc/api-doc/>`_ 内で文書を確認できます。"
+"<https://wiki.52north.org/SensorWeb/SensorWebClientRESTInterface>`_ "
+"が直接使用可能です。したがって、観測データはRESTfulな方法で要求することができ、JSONエンコードされた応答で返されます。詳細については `SOS"
+" webapp <http://localhost:8080/52nSOS/static/doc/api-doc/>`_ 内で文書を確認できます。"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:66
 msgid ""
@@ -158,7 +159,7 @@ msgid ""
 " the `52°North SOS client <http://localhost:8080/52nSOS/index>`_."
 msgstr ""
 "このバージョンの 52°North SOS の開発は、様々なプロジェクト、組織、メンバーによってサポートされています。詳細については `52°North"
-" SOS client <http://localhost:8080/52nSOS/index>`_ を参照してください。"
+" SOS クライアント <http://localhost:8080/52nSOS/index>`_ を参照してください。"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:78
 msgid ""
@@ -168,7 +169,7 @@ msgid ""
 "BY 3.0| License."
 msgstr ""
 "我々は、このSOSインストールで利用されているデモデータを提供してくれた、ベルギーの地域間環境庁(`IRCEL - CELINE "
-"<https://www.irceline.be/en/>`_)に感謝の意を表します。でもデータは、 |CC BY 3.0| "
+"<https://www.irceline.be/en/>`_)に感謝の意を表します。デモデータは、 |CC BY 3.0| "
 "ライセンスの下で公開されています。"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:86

@@ -4,8 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
-# Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,23 +49,23 @@ msgstr "GeoMooseを開始"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:33
 msgid "Go to the \"Browser Clients\" folder on the desktop."
-msgstr "デスクトップ上の\"Browser Clients\"フォルダに移動します。"
+msgstr "デスクトップ上の \"Browser Clients\" フォルダに移動します。"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:35
 msgid ""
 "Click on the desktop icon \"Start GeoMoose\". This will launch the default "
 "browser which will navigate to the correct location automatically."
-msgstr "デスクトップアイコン\"Start GeoMoose\"をクリックします。これにより既定のブラウザが起動し、自動的に正しい場所に移動します。"
+msgstr "デスクトップアイコン \"Start GeoMoose\" をクリックします。これにより既定のブラウザが起動し、自動的に正しい場所に移動します。"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:37
 msgid ""
 "You will be presented with a web page displaying a demo interface of a "
 "GeoMoose instance."
-msgstr "Webページが表示され、GeoMooseインスタンスのデモインターフェイスが表示されます。"
+msgstr "Webページが表示され、GeoMooseインスタンスのデモインタフェースが表示されます。"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:43
 msgid "The Interfaces presented above shows:"
-msgstr "上記のインターフェイスは次のものを示しています。"
+msgstr "上記のインタフェースは次のものを示しています。"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:45
 msgid "A banner bar"
@@ -86,7 +85,7 @@ msgstr "サイドメニュー:"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:50
 msgid "A \"Jump to\" location pull down list"
-msgstr "\"Jump to\"の場所のプルダウンリスト"
+msgstr "\"Jump to\" の場所のプルダウンリスト"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:51
 msgid ""
@@ -94,7 +93,8 @@ msgid ""
 "needed, additional tabs will appear: an \"Information\" readout, a "
 "\"Custom\" output tab, and others."
 msgstr ""
-"\"Catalog\"で始まるコントロールタブで、レイヤ一覧を表示します。必要に応じて、追加のタブが表示されます:\"Information\"の読み出し、\"Custom\"の出力タブなどです。"
+"\"Catalog\" で始まるコントロールタブで、レイヤ一覧を表示します。必要に応じて、追加のタブが表示されます: \"Information\" "
+"の読み出し、 \"Custom\" の出力タブなどです。"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:53
 msgid "A Footer bar with:"
@@ -117,7 +117,7 @@ msgstr "ロケーションを識別"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:61
 msgid "Click on the \"identify\" (\"i\" in a circle icon) button in the top toolbar"
-msgstr "上部ツールバーの\"identify\"(円形アイコンの中の\"i\")ボタンをクリック"
+msgstr "上部ツールバーの \"identify\" (円形アイコンの中の \"i\")ボタンをクリック"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:62
 msgid "Click a point on the map."
@@ -130,8 +130,8 @@ msgid ""
 "more information.  In this case, it will show the results of a query of each"
 " active and identifiable layer for the point that you clicked in the map."
 msgstr ""
-"マップビューの左側に表示されるカタログが「Super "
-"Tab」に変わります。GeoMooseがアクションの結果を表示したり、詳細情報を要求したりする場所です。この場合、レイヤ内でクリックしたポイントについて、有効で識別可能な各マップのクエリー結果が表示されます。"
+"マップビューの左側に表示されるカタログが \"Super Tab\" "
+"に変わります。GeoMooseがアクションの結果を表示したり、詳細情報を要求したりする場所です。この場合、レイヤ内でクリックしたポイントについて、有効で識別可能な各マップのクエリー結果が表示されます。"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:69
 msgid "Use the measuring tool"
@@ -144,9 +144,9 @@ msgid ""
 "multi-segment line * measure the area of a polygon."
 msgstr ""
 "GeoMooseの計測ツールを使用すると、次のことができます。\n"
-"* 点を計測(選択された点の座標を返す)\n"
-"* 複数の区間を含む可能性のある線に沿った距離を計測\n"
-"* ポリゴンの面積を計測"
+"* 点を計測(選択された点の座標を返す) \n"
+"* 複数の区間を含む可能性のある線に沿った距離を計測  \n"
+"* ポリゴンの面積を計測。"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:76
 msgid ""
@@ -190,8 +190,9 @@ msgid ""
 " you want to adjust your selection you can do that with the \"Modify "
 "Feature\" option."
 msgstr ""
-"地物はポイント、ライン、ポリゴン、または既存の地物から選択できます。開始するには、「Select "
-"Features」アイコン(マウスカーソルアイコン)をクリックし、ポイント、ライン、ポリゴンを選択して、マップで選択の描画を開始します。最後の点をダブルクリックすると、描画プロセスを終了できます。選択を調整する場合は、[地物の変更]オプションを使用します。"
+"地物はポイント、ライン、ポリゴン、または既存の地物から選択できます。開始するには、 \"Select Features\" "
+"アイコン(マウスカーソルアイコン)をクリックし、ポイント、ライン、ポリゴンを選択して、マップで選択の描画を開始します。最後の点をダブルクリックすると、描画プロセスを終了できます。選択を調整する場合は、"
+" \"地物の変更\" オプションを使用します。"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:94
 msgid ""
@@ -200,7 +201,8 @@ msgid ""
 "Positive values expand what you drew by that distance, negative values "
 "shrink your drawing."
 msgstr ""
-"描画したもののバッファバージョンに基づいてフィーチャを選択するオプションもあります。既定値は\"0\"でバッファリングされ、何も行われません。正の値を指定すると、その距離で描いたものが拡大され、負の値を指定すると縮小されます。"
+"描画したもののバッファバージョンに基づいてフィーチャを選択するオプションもあります。既定値は \"0\" "
+"でバッファリングされ、何も行われません。正の値を指定すると、その距離で描いたものが拡大され、負の値を指定すると縮小されます。"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:96
 msgid ""
@@ -209,7 +211,7 @@ msgid ""
 "Features tool.  To be available for selection, a layer needs to be a vector "
 "layer and be configured for selection in the mapbook."
 msgstr ""
-"「クエリーレイヤ」選択ボックスを使用して、地物を選択するレイヤを選択します。注: "
+"\"クエリーレイヤ\" 選択ボックスを使用して、地物を選択するレイヤを選択します。注: "
 "地物を選択ツールで使用できないレイヤもあります。選択可能にするには、レイヤがベクタレイヤであり、マップブックで選択するように設定されている必要があります。"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:101
@@ -219,7 +221,8 @@ msgid ""
 "highlight the selected features on the map, and show an attribute table of "
 "the selected features."
 msgstr ""
-"最後に、[Go]ボタンをクリックして、地物を実際に選択します。GeoMooseは、スーパータブで選択されたものの概要も返し、マップ上で選択されたフィーチャを強調表示し、選択されたフィーチャの属性テーブルを表示します。"
+"最後に、 \"Go\" "
+"ボタンをクリックして、地物を実際に選択します。GeoMooseは、スーパータブで選択されたものの概要も返し、マップ上で選択されたフィーチャを強調表示し、選択されたフィーチャの属性テーブルを表示します。"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:106
 msgid ""
@@ -242,14 +245,14 @@ msgid ""
 "icon.  Enter your search parameters in the Super Tab then click the \"Go!\" "
 "button."
 msgstr ""
-"地物を属性で検索することもできます。開始するには、ツールバーの\"検索\"メニューにカーソルを置き、\"区画検索\"アイコンをクリックします。Super"
-" Tabに検索パラメータを入力し、[Go!]ボタンをクリックします。"
+"地物を属性で検索することもできます。開始するには、ツールバーの \"検索\" メニューにカーソルを置き、 \"区画検索\" "
+"アイコンをクリックします。Super Tabに検索パラメータを入力し、 \"Go!\" ボタンをクリックします。"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:116
 msgid ""
 "The following screenshot demonstrates a search of all parcel owners "
 "containing the name \"frank\"."
-msgstr "次のスクリーンショットは、「frank」という名前を含むすべての区画所有者の検索を示しています。"
+msgstr "次のスクリーンショットは、 \"frank\" という名前を含むすべての区画所有者の検索を示しています。"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:120
 msgid "Three results appear in the list and are highlighted on the map."

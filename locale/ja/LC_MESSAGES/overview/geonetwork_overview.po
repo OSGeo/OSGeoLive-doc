@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-15 14:20-0600\n"
+"PO-Revision-Date: 2017-09-20 16:07+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:18
+msgid "GeoNetwork"
+msgstr "GeoNetwork"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:21
+msgid "Metadata Catalog"
+msgstr "メタデータカタログ"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:23
+msgid ""
+"GeoNetwork OpenSource is a catalog application for managing spatially "
+"referenced resources. It provides powerful metadata editing and search "
+"functions, an embedded interactive web map viewer, and is based upon Open "
+"Standards."
+msgstr ""
+"GeoNetworkは、空間的に参照されているリソースを管理するためのカタログアプリケーションです。強力なメタデータ編集と検索機能、およびインタラクティブなWebマップビューアを提供します。"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:32
+msgid "Core Features"
+msgstr "主な機能"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:33
+msgid "Immediate search access to local and distributed geospatial catalogues"
+msgstr "地理空間カタログへの迅速な検索アクセス"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:34
+msgid ""
+"Up and downloading of data, graphics, documents, pdf files and any other "
+"content type"
+msgstr "データ、グラフィックス、ドキュメント、pdfファイル、その他のコンテンツタイプのアップロードとダウンロード"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:35
+msgid ""
+"An interactive Web Map Viewer to combine Web Map Services from distributed "
+"servers around the world"
+msgstr "世界中の分散しているサーバからのWebマップサービスを結合するインタラクティブなWebマップビューア"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:36
+msgid ""
+"Recently updated entries are accessible as RSS news feeds and as GeoRSS."
+msgstr "最近更新されたエントリは、RSS ニュースフィードおよび GeoRSS としてアクセスできるようになりました。"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:37
+msgid "Online editing of metadata with a powerful template system"
+msgstr "強力なテンプレートシステムによるメタデータのオンライン編集"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:38
+msgid ""
+"Native support for ISO19115/ISO19119/ISO19139/ISO19110 and Dublin Core "
+"formatted metadata"
+msgstr ""
+"ISO19115/ISO19119/ISO19139/ISO19110 および Dublin Core フォーマットのメタデータのネイティブサポート"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:39
+msgid ""
+"Scheduled harvesting and synchronization of metadata between distributed "
+"catalogues (GeoNetwork, CSW, OGC WxS GetCapabilities, WebDav, ArcSDE, "
+"Thredds, OGC WFS Features, OAI-PMH)"
+msgstr ""
+"配信されたカタログ (GeoNetwork、CSW、OGC WxS GetCapabilities、WebDAV、ArcSDE、Thredds、OGC "
+"WFS Features、OAI-PMH) 間のメタデータのスケジュールされた収集と同期"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:40
+msgid "Fine-grained access control"
+msgstr "きめ細やかなアクセス制御"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:41
+msgid "Group and user management"
+msgstr "グループとユーザーの管理"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:42
+msgid "Multi-lingual user interface"
+msgstr "多言語のユーザインタフェース"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:45
+msgid "Implemented Standards"
+msgstr "実装されている標準規格"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:47
+msgid "OGC Catalogue Service-Web (CSW) 2.0.2 ISO"
+msgstr "OGC Catalogue Service-Web (CSW) 2.0.2 ISO"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:48
+msgid "Open Archives Initiatives (OAI-PMH)"
+msgstr "Open Archives Initiatives (OAI-PMH)"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:49
+msgid "OpenSearch-Geo / INSPIRE Atom"
+msgstr "OpenSearch-Geo / INSPIRE Atom"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:50
+msgid "Client for OGC-WMS/WMTS/WFS"
+msgstr "Client for OGC-WMS/WMTS/WFS"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:51
+msgid "Metadata standards:"
+msgstr "メタデータ標準規格:"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:53
+msgid "ISO19115/ISO19119/ISO19139/ISO19110 and ISO Profiles"
+msgstr "ISO19115/ISO19119/ISO19139/ISO19110 and ISO Profiles"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:54
+msgid "Dublin Core"
+msgstr "Dublin Core"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:57
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:59
+msgid "**Website:** https://geonetwork-opensource.org"
+msgstr "**Webサイト:** https://geonetwork-opensource.org"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:61
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**ライセンス:** GNU General Public License (GPL) version 2"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:63
+msgid "**Software Version:** |version-geonetwork|"
+msgstr "**ソフトウェアバージョン:** |version-geonetwork|"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:65
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr "**対応プラットフォーム:** Windows, Linux, Mac"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:67
+msgid "**API Interfaces:** Java"
+msgstr "**API インタフェース:** Java"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:69
+msgid "**Support:** https://www.osgeo.org/service-providers"
+msgstr "**サポート:** https://www.osgeo.org/service-providers"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:75
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/geonetwork_overview.rst:77
+msgid ":doc:`Quickstart documentation <../quickstart/geonetwork_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/geonetwork_quickstart>`"

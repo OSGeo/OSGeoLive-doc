@@ -5,8 +5,8 @@
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +34,7 @@ msgid ""
 "data from LiDAR sensors and by LiDAR processing software for data "
 "interchange and archival."
 msgstr ""
-"ibLAS は一般的な LAS LiDAR フォーマットを読み書きするための C/C++ ライブラリです。 ASPRS LAS format は "
+"ibLAS は一般的な LAS LiDAR フォーマットを読み書きするための C/C++ ライブラリです。 。ASPRS LAS フォーマットは "
 "LiDAR センサや LiDAR 処理ソフトウェアがデータの保存、交換，アーカイブに使用しているシーケンシャルなバイナリフォーマットです。"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:22
@@ -64,8 +64,9 @@ msgid ""
 " those tasks. The demo data can be found in "
 ":file:`/home/user/data/las/srs.las`"
 msgstr ""
-"libLASの「コマンドライン・ユーティリティー」は、libLAS用のユーザー向けの操作ソフトウェアの大部分を提供していますが、基礎となるlibLAS・ライブラリーがその原動力となっています。以下は、LASデータに対して実行する一般的な操作と、これらのタスクを実行するために使用するユーティリティとアプローチの一覧です。デモデータは、:file:`/home/user/data/las/srs.las`"
-" にあります。"
+"libLASの 'コマンドライン・ユーティリティー' "
+"は、libLAS用のユーザー向けの操作ソフトウェアの大部分を提供していますが、基礎となるlibLAS・ライブラリーがその原動力となっています。以下は、LASデータに対して実行する一般的な操作と、これらのタスクを実行するために使用するユーティリティとアプローチの一覧です。デモデータは、"
+" :file:`/home/user/data/las/srs.las` にあります。"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:37
 msgid "Reprojecting an LAS file"
@@ -111,7 +112,7 @@ msgstr "入力座標系がわかったので、データの再投影先を決定
 msgid ""
 "Our process succeeds, but after a quick inspection of the data with "
 "``lasinfo output.las`` we see a problem:"
-msgstr "私たちのプロセスは成功しましたが、``lasinfo output.las`` を使ってデータを調べたところ、問題がありました。"
+msgstr "私たちのプロセスは成功しましたが、 ``lasinfo output.las`` を使ってデータを調べたところ、問題がありました。"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:102
 msgid ""
@@ -129,7 +130,7 @@ msgstr ""
 msgid ""
 "Another quick inspection with 'lasinfo' gives us something we're more "
 "comfortable with:"
-msgstr "'lasinfo'で更なる簡単な調査をすることで、快適な作業を提供してくれます。"
+msgstr "'lasinfo' で更なる簡単な調査をすることで、快適な作業を提供してくれます。"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:127
 msgid "Output LAS file to text"

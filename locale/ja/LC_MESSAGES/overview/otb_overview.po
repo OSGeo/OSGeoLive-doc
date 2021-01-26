@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:08+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/otb_overview.rst:17
+msgid "OTB"
+msgstr "OTB"
+
+#: ../../build/doc/overview/otb_overview.rst:20
+msgid "Image Processing"
+msgstr "イメージ処理"
+
+#: ../../build/doc/overview/otb_overview.rst:22
+msgid ""
+"ORFEO Toolbox Library (OTB) is a high performance image processing library. "
+"It is primarily used for processing large remote sensing images such as "
+"those gathered by radars, satellites and aerial photography. OTB provides "
+"tools for optic and radar images (tridimensional aspects, segmentation, "
+"classification, changes detection, texture analysis, pattern matching, and "
+"optic/radar complementarities), many of which can be run on limited-"
+"resourced laptops."
+msgstr ""
+"ORFEO Toolbox Library (OTB ) "
+"は、高性能イメージ処理ライブラリーです。主にレーダー、人工衛星、航空写真などの大きなリモートセンシング画像を処理するのに使われます。OTB "
+"は、光学およびレーダーのイメージ "
+"(三次元の側面、セグメンテーション、分類、変更検出、テクスチャー分析、パターン・マッチング、および光学/レーダーの補完性 ) "
+"を提供するツールを提供しており、これらの多くは性能が限定的なノートPCでも実行できます。"
+
+#: ../../build/doc/overview/otb_overview.rst:29
+msgid ""
+"OTB is also shipped with a set of extensible ready-to-use tools for "
+"classical remote sensing tasks and a fully integrated application called "
+"Monteverdi, which is a fast viewer that allows users to vizualise multiple "
+"layers, and call OTB processing tools from a menu entry."
+msgstr ""
+"OTB には同梱アプリケーションとともに配布されています。それは、リモートセンシング用の拡張可能な従来型のツールと "
+"、複数のレイヤを可視化させたりメニュー項目から OTB "
+"の処理ツールを呼び出せる高速なビューアであるMonteverdiという完全に統合されたアプリケーションです。"
+
+#: ../../build/doc/overview/otb_overview.rst:34
+msgid ""
+"OTB has been funded the French Space Agency (CNES) in the frame of the "
+"Methodological Part of the ORFEO/Pleiades Accompaniement Program and has "
+"been actively developed since 2006. It is based on the ITK image processing "
+"library and is distributed as open source."
+msgstr ""
+"OTB は、ORFEO/Pleiades付属プログラムの メソドロジカル・パートの枠組みにもとづき、フランス宇宙機関 (CNES) の資金提供をうけて、"
+" 2006年から活発に開発されている。これは、 ITK イメージ処理ライブラリーに基づいており、オープンソースとして配布されます。"
+
+#: ../../build/doc/overview/otb_overview.rst:46
+msgid "Core Features"
+msgstr "主な機能"
+
+#: ../../build/doc/overview/otb_overview.rst:49
+msgid ""
+"image access: optimized read/write access for most remote sensing raster "
+"formats (also JPEG2000 formats), meta-data access and visualization;"
+msgstr ""
+"画像アクセス:  ほとんどのリモートセンシングラスターフォーマット ( JPEG2000 "
+"形式を含む)、メタデータアクセス、および視覚化のための最適化された読み取り/書き込みアクセス"
+
+#: ../../build/doc/overview/otb_overview.rst:51
+msgid ""
+"orthorectification using DEM, map reprojection and sensor model refinement"
+msgstr "DEM、地図の再投影、およびセンサーモデルの改良によるオルソ化"
+
+#: ../../build/doc/overview/otb_overview.rst:52
+msgid "optical and SAR calibration"
+msgstr "光学式および SAR 調整"
+
+#: ../../build/doc/overview/otb_overview.rst:53
+msgid "image fusion"
+msgstr "画像融合"
+
+#: ../../build/doc/overview/otb_overview.rst:54
+msgid "filtering: blurring, denoising, enhancement..."
+msgstr "フィルタリング: ぼかし、ノイズ除去、強調..."
+
+#: ../../build/doc/overview/otb_overview.rst:55
+msgid "feature extraction: interest points, alignments, lines..."
+msgstr "フィーチャー抽出:  POI、整列、線分..."
+
+#: ../../build/doc/overview/otb_overview.rst:56
+msgid "object detection"
+msgstr "オブジェクト抽出"
+
+#: ../../build/doc/overview/otb_overview.rst:57
+msgid ""
+"large scale image segmentation: region growing, mean-shift, watershed, level"
+" sets..."
+msgstr "大規模画像セグメンテーション: 領域拡張、平均シフト、水位、レベルセット..."
+
+#: ../../build/doc/overview/otb_overview.rst:58
+msgid "sample selection framework for training"
+msgstr "トレーニング用のサンプル選択フレームワーク"
+
+#: ../../build/doc/overview/otb_overview.rst:59
+msgid ""
+"classification: both supervised and unsupervised algorithms coming from "
+"OpenCV , Shark, libSVM or custom implementations (K-means, Markov random "
+"fields, SVM, Random Forest, ...)"
+msgstr ""
+"種別: OpenCV 、 Shark、 libSVM 、またはカスタム・インプリメンテーション ( K - 平均、マルコフ・ランダム・フィールド、 "
+"SVM、ランダム・フォレスト、 ...) からくる、教師ありアルゴリズムと教師なしアルゴリズムの両方。"
+
+#: ../../build/doc/overview/otb_overview.rst:62
+msgid ""
+"regression using machine learning methods from OpenCV (SVM, Random Forest, "
+"...)"
+msgstr "OpenCV (SVM、ランダム・フォレスト、 ...) から機械学習メソッドを使用した回帰"
+
+#: ../../build/doc/overview/otb_overview.rst:63
+msgid "object-based image analysis"
+msgstr "オブジェクト・ベースのイメージ分析"
+
+#: ../../build/doc/overview/otb_overview.rst:64
+msgid "geospatial analysis"
+msgstr "地理空間分析"
+
+#: ../../build/doc/overview/otb_overview.rst:65
+msgid "stereoscopic reconstruction from optical images"
+msgstr "光学画像からの立体構造の復元"
+
+#: ../../build/doc/overview/otb_overview.rst:66
+msgid "SAR data analysis : calibration, polarimetry analysis"
+msgstr "SAR データ分析 : 較正、偏光分析"
+
+#: ../../build/doc/overview/otb_overview.rst:67
+msgid "change detection."
+msgstr "変更の検出。"
+
+#: ../../build/doc/overview/otb_overview.rst:70
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/otb_overview.rst:72
+msgid "**Website:** https://www.orfeo-toolbox.org/"
+msgstr "**Webサイト:** https://www.orfeo-toolbox.org/"
+
+#: ../../build/doc/overview/otb_overview.rst:74
+msgid "**Licence:** Apache v2.0"
+msgstr "**ライセンスLicence:** Apache v2.0"
+
+#: ../../build/doc/overview/otb_overview.rst:76
+msgid "**Software Version:** |version-otb|"
+msgstr "**ソフトウェアバージョン:** |version-otb|"
+
+#: ../../build/doc/overview/otb_overview.rst:78
+msgid "**Supported Platforms:** Linux, Mac, Windows"
+msgstr "**対応プラットフォーム:** Linux, Mac, Windows"
+
+#: ../../build/doc/overview/otb_overview.rst:80
+msgid "**API Interfaces:** C++"
+msgstr "**API インタフェース:** C++"
+
+#: ../../build/doc/overview/otb_overview.rst:82
+msgid "**Commercial Support:** |SUPPORT|"
+msgstr "**商用サポート:** |SUPPORT|"
+
+#: ../../build/doc/overview/otb_overview.rst:88
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/otb_overview.rst:90
+msgid ":doc:`Quickstart documentation <../quickstart/otb_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/otb_quickstart>`"

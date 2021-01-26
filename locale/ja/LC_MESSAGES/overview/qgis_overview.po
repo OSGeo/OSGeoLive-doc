@@ -6,7 +6,7 @@
 # Translators:
 # Takayuki Nuimura <nuimura@nagoya-u.jp>, 2018
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,11 +49,11 @@ msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rst:36
 msgid "Core Features"
-msgstr "主要機能"
+msgstr "主な機能"
 
 #: ../../build/doc/overview/qgis_overview.rst:38
 msgid "Friendly graphical user interface:"
-msgstr "使いやすいグラフィカルなユーザーインターフェイス:"
+msgstr "使いやすいグラフィカルなユーザインタフェース:"
 
 #: ../../build/doc/overview/qgis_overview.rst:40
 msgid "identify/select features"
@@ -77,7 +77,7 @@ msgstr "地物に対するラベル表示"
 
 #: ../../build/doc/overview/qgis_overview.rst:45
 msgid "change vector and raster symbology"
-msgstr "ベクタとラスタのシンボルの変更"
+msgstr "ベクタとラスタのシンボロジーの変更"
 
 #: ../../build/doc/overview/qgis_overview.rst:46
 msgid "add a graticule layer"

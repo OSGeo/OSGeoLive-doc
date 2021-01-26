@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2018-07-27 22:51+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/ogc_overview.rst:13
+msgid "OGC"
+msgstr "OGC"
+
+#: ../../build/doc/overview/ogc_overview.rst:15
+msgid ""
+"The Open Geospatial Consortium (OGC) is an international consortium of more "
+"than 500 businesses, government agencies, research organizations, and "
+"universities driven to make geospatial (location) information and services "
+"FAIR - Findable, Accessible, Interoperable, and Reusable. OGC's member-"
+"driven consensus process creates royalty free, publicly available, open "
+"geospatial standards. Existing at the cutting edge, OGC actively analyzes "
+"and anticipates emerging tech trends, and runs an agile, collaborative "
+"Research and Development (R&D) lab - the OGC Innovation Program - that "
+"builds and tests innovative prototype solutions to members' use cases. OGC "
+"members together form a global forum of experts and communities that use "
+"location to connect people with technology and improve decision-making at "
+"all levels. OGC is committed to creating a sustainable future for us, our "
+"children, and future generations. A look at the `OGC Domain Working Groups "
+"<https://www.ogc.org/projects/groups/wg>`_ shows the wide scope of current "
+"activity in the OGC."
+msgstr ""
+"オープン地理空間コンソーシアム(OGC)は、500を超える企業、政府機関、研究機関、大学が参加する国際的なコンソーシアムであり、地理空間(ロケーション)情報およびサービスを、検索可能、アクセス可能、相互運用可能、再利用可能にすることを目的としています。OGCのメンバー主導型の合意プロセスは、ロイヤリティフリーで公に利用可能なオープンな空間標準を作成します。OGCはOGCは、新しい技術トレンドを積極的に分析し予測し、メンバーのユースケースに対する革新的なプロトタイプソリューションを構築しとテストを行う、アジャイルの共同研究開発(R&D)ラボであるOGCイノベーションプログラムを運営しています。OGCのメンバーは、専門家とコミュニティのグローバルなフォーラムを形成し、人々をテクノロジーでつなぎ、あらゆるレベルで意思決定を改善するために場所を利用しています。OGCは、私たち、私たちの子供たち、そして未来の世代のために持続可能な未来を創造することにコミットしています。`OGC"
+" Domain Working Groups <https://www.ogc.org/projects/groups/wg>`_ "
+"を見ると、OGCにおける現在の活動の広い範囲がわかります。"
+
+#: ../../build/doc/overview/ogc_overview.rst:19
+msgid ""
+"The OGC Standards Baseline consists of the |OGC| standards for interfaces, "
+"encodings, profiles, application schemas, and best practice documents. The "
+"|ORM| describes these standards and the relationships between them and "
+"related ISO standards. The ORM provides an overview of OGC standards and "
+"serves as a useful resource for defining architectures for specific "
+"applications."
+msgstr ""
+"OGC Standards "
+"Baselineは、インタフェース、エンコーディング、プロファイル、アプリケーション・スキーマ、ベスト・プラクティス文書に関する |OGC| "
+"標準で構成されています。|ORM| "
+"では、これらの規格と、関連するISO規格との関係について説明しています。ORMは、OGC標準の概要を提供し、特定のアプリケーションのアーキテクチャーを定義するための有用なリソースとして役立ちます。"
+
+#: ../../build/doc/overview/ogc_overview.rst:26
+msgid ""
+"In 2020, the `OGC API <https://ogcapi.ogc.org/>`_ family of standards "
+"started to be developed to make it easy for anyone to provide geospatial "
+"data to the web. These standards build upon the legacy of the OGC Web "
+"Service standards (WMS, WFS, WCS, WPS, etc.), but define resource-centric "
+"APIs that take advantage of modern web development practices. This web page "
+"provides information on these standards in a consolidated location. These "
+"standards are being constructed as \"building blocks\" that can be used to "
+"assemble novel APIs for web access to geospatial content. The building "
+"blocks are defined not only by the requirements of the specific standards, "
+"but also through interoperability prototyping and testing in OGC's "
+"Innovation Program."
+msgstr ""
+"2020年に `OGC API <https://ogcapi.ogc.org/>`_ "
+"ファミリの標準が開発され始めました。これは、空間データを誰でも簡単にWebに提供できるようにするためです。これらの標準は、OGC "
+"Webサービス標準(WMS、WFS、WCS、WPSなど)のレガシーに基づいていますが、最新のWeb開発手法を活用するリソース中心のAPIを定義しています。このWebページには、これらの標準に関する情報がまとめられています。これらの標準は、空間コンテンツへのWebアクセス用の新しいAPIを組み立てるために使用できる"
+" \"ビルディング・ブロック\" として構築されています。ビルディング・ブロックは、特定の標準の要件だけでなく、OGCのInnovation "
+"Programにおける相互運用性のプロトタイピングとテストによっても定義されます。"
+
+#: ../../build/doc/overview/ogc_overview.rst:28
+msgid ""
+"For further details, check the `comprehensive list of OGC standards "
+"<https://www.ogc.org/standards/>`__."
+msgstr "詳細については、 `包括的なOGC標準リスト <https://www.ogc.org/standards/>`__ を参照してください。"
+
+#: ../../build/doc/overview/ogc_overview.rst:32
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/ogc_overview.rst:34
+msgid "**Website:** https://www.ogc.org"
+msgstr "**Webサイト:** https://www.ogc.org"
