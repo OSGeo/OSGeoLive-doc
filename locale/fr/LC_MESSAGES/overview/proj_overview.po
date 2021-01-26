@@ -4,18 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
-# Nicolas Roelandt (Personnel), 2020
-# Vicky Vergara <vicky@georepublic.de>, 2020
+# Thomas Gratier <thomas_gratier@yahoo.fr>, 2021
+# Nicolas Roelandt (Personnel), 2021
+# Vicky Vergara <vicky@georepublic.de>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
-"PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"POT-Creation-Date: 2021-01-25 20:14-0600\n"
+"PO-Revision-Date: 2021-01-26 00:35+0000\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,126 +23,145 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../build/doc/overview/proj4_overview.rst:16
-msgid "Proj.4"
-msgstr "Proj.4"
+#: ../../build/doc/overview/proj_overview.rst:17
+msgid "PROJ"
+msgstr "PROJ"
 
-#: ../../build/doc/overview/proj4_overview.rst:18
+#: ../../build/doc/overview/proj_overview.rst:19
 msgid ""
-"Proj4 is a library that provides methods to transform between different "
+"PROJ is a library that provides methods to transform between different "
 "coordinate reference systems. A geographic coordinate reference system "
 "allows all points on the earth to be described as a set of coordinates (such"
 " as latitude, longitude and elevation). Different systems are used to "
 "represent the tridimensional earth on a flat, bidimensional map."
 msgstr ""
-"Proj4 est une librairie qui fournit des méthodes pour transformer des points"
-" entre différents systèmes de coordonnées de référence. Un système de "
+"PROJ est une librairie qui fournit des méthodes pour transformer des points "
+"entre différents systèmes de coordonnées de référence. Un système de "
 "coordonnées géographique de référence permet de décrire tous les points de "
 "la Terre sous la forme d'un ensemble de coordonnées (comme la latitude, la "
 "longitude et l'élévation). Différents systèmes sont utilisés pour "
 "représenter les 3 dimensions de la Terre sur une carte plate en 2 "
 "dimensions."
 
-#: ../../build/doc/overview/proj4_overview.rst:24
+#: ../../build/doc/overview/proj_overview.rst:25
 msgid ""
-"Proj4 is used in :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS "
+"PROJ is used in :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS "
 "<grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik "
 "<mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation and "
 "various others."
 msgstr ""
-"Proj4 est utilisé dans :doc:`MapServer <mapserver_overview>`, :doc:`GRASS "
-"GIS <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik "
+"PROJ est utilisé dans :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS"
+" <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik "
 "<mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation et "
 "bien d'autres."
 
-#: ../../build/doc/overview/proj4_overview.rst:26
+#: ../../build/doc/overview/proj_overview.rst:27
 msgid ""
-"Proj4 has been translated from C to `other languages "
-"<https://trac.osgeo.org/metacrs/wiki>`.  These sub-projects include: These "
-"tools include: * Proj4js (JavaScript) - used in :doc:`OpenLayers "
-"<openlayers_overview>`. * CS-Map (C++) - used in MapGuide. * "
-"GeoTIFF/libgeotiff (C++). * Proj4J (Java). * `SpatialReference.org "
-"<https://spatialreference.org/>`_  - website to retrieve coordinate system "
-"definitions (obsolete)."
+"PROJ has been translated from C to `other languages "
+"<https://trac.osgeo.org/metacrs/wiki>`_. These sub-projects include:"
 msgstr ""
-"Proj4 a été traduit du C dans `un grand nombre d'autres langages "
-"<https://trac.osgeo.org/metacrs/wiki>`.  Ces outils incluent: * Proj4js "
-"(JavaScript) - utilisé dans :doc:`OpenLayers <openlayers_overview>`. * CS-"
-"Map (C++) - utilisé dans MapGuide. * GeoTIFF/libgeotiff (C++). * Proj4J "
-"(Java). * `SpatialReference.org <https://spatialreference.org/>`_  - site "
-"web de références des définitions de systèmes de coordonnées (obsolète)."
 
-#: ../../build/doc/overview/proj4_overview.rst:41
+#: ../../build/doc/overview/proj_overview.rst:29
+msgid ""
+"Proj4js (JavaScript) - used in :doc:`OpenLayers <openlayers_overview>`."
+msgstr ""
+"Proj4js (JavaScript) - utilisé dans :doc:`OpenLayers <openlayers_overview>`."
+
+#: ../../build/doc/overview/proj_overview.rst:30
+msgid "CS-Map (C++) - used in MapGuide."
+msgstr "CS-Map (C++) - utilisé dans MapGuide."
+
+#: ../../build/doc/overview/proj_overview.rst:31
+msgid "GeoTIFF/libgeotiff (C++)."
+msgstr "GeoTIFF/libgeotiff (C++)."
+
+#: ../../build/doc/overview/proj_overview.rst:32
+msgid "Proj4J (Java)."
+msgstr "Proj4J (Java)."
+
+#: ../../build/doc/overview/proj_overview.rst:33
+msgid ""
+"`EPSG.io <https://epsg.io/>`_ - website to retrieve coordinate system "
+"definitions"
+msgstr ""
+"`EPSG.io <https://epsg.io/>`_  - pour récupérer les définitions des systèmes"
+" de coordonnées."
+
+#: ../../build/doc/overview/proj_overview.rst:34
+msgid ""
+"`SpatialReference.org <https://spatialreference.org/>`_ - website to "
+"retrieve coordinate system definitions (obsolete)."
+msgstr ""
+
+#: ../../build/doc/overview/proj_overview.rst:43
 msgid "Core Features"
-msgstr "Caractéristiques principales"
+msgstr "Fonctionnalités principales"
 
-#: ../../build/doc/overview/proj4_overview.rst:43
+#: ../../build/doc/overview/proj_overview.rst:45
 msgid ""
 "Provides point transformation from one coordinate reference system to "
 "another."
 msgstr ""
-"Fournit la transformation d'un point d'un système de coordonnées de "
-"référence à un autre."
+"fournit la transformation de point d'un système de coordonnées de référence "
+"à un autre"
 
-#: ../../build/doc/overview/proj4_overview.rst:44
+#: ../../build/doc/overview/proj_overview.rst:46
 msgid "Includes transformation between datums."
-msgstr "Inclus la transformation entre datums"
+msgstr "inclut la transformation entre datums"
 
-#: ../../build/doc/overview/proj4_overview.rst:45
+#: ../../build/doc/overview/proj_overview.rst:47
 msgid "Large number of projection classes supported."
-msgstr "Un grand nombre de classes de projection supportées."
+msgstr "un grand nombre de classes de projections supportées"
 
-#: ../../build/doc/overview/proj4_overview.rst:49
+#: ../../build/doc/overview/proj_overview.rst:51
 msgid "Implemented Standards"
 msgstr "Standards implémentés"
 
-#: ../../build/doc/overview/proj4_overview.rst:51
+#: ../../build/doc/overview/proj_overview.rst:53
 msgid ""
-"Proj4 uses coordinate system definitions defined by the `European Petroleum "
-"Survey Group (EPSG) <https://www.epsg.org/>`. Well Known Text (WKT) format."
+"PROJ uses coordinate system definitions defined by the `European Petroleum "
+"Survey Group (EPSG) <https://www.epsg.org/>`_. Well Known Text (WKT) format."
 msgstr ""
-"Proj4 utilise les définitions de système de coordonnées définies par le "
+"PROJ utilise les définitions de système de coordonnées définies par le "
 "`European Petroleum Survey Group (EPSG) <https://www.epsg.org/>` au format "
 "WKT (Well Known Text)."
 
-#: ../../build/doc/overview/proj4_overview.rst:57
+#: ../../build/doc/overview/proj_overview.rst:59
 msgid "Details"
 msgstr "Détails"
 
-#: ../../build/doc/overview/proj4_overview.rst:59
-msgid "**Website:** https://proj4.org/index.html"
-msgstr "**Site web:**  https://proj4.org/"
+#: ../../build/doc/overview/proj_overview.rst:61
+msgid "**Website:** https://proj.org/"
+msgstr "**Site web:**  https://proj.org/"
 
-#: ../../build/doc/overview/proj4_overview.rst:61
+#: ../../build/doc/overview/proj_overview.rst:63
 msgid ""
-"**Licence:** `X/MIT style Open Source license "
-"<https://trac.osgeo.org/proj4j#License>`_"
+"**Licence:** `X/MIT Open Source license "
+"<https://proj.org/about.html#license>`_"
 msgstr ""
-"**Licence:** `Licence Open Source style X/MIT "
-"<https://trac.osgeo.org/proj4j#License>`_"
 
-#: ../../build/doc/overview/proj4_overview.rst:63
-msgid "**Software Version:** 4.9.2 (stable)"
-msgstr "**Version du logiciel:** 4.9.2 (stable)"
+#: ../../build/doc/overview/proj_overview.rst:65
+msgid "**Software Version:** |version-proj|"
+msgstr "**Version du logiciel:** |version-proj|"
 
-#: ../../build/doc/overview/proj4_overview.rst:65
+#: ../../build/doc/overview/proj_overview.rst:67
 msgid "**Supported Platforms:** Windows, Linux, Mac"
-msgstr "**Plates-formes supportées:** Windows, Linux, Mac"
+msgstr "**Plates-formes supportées :** Windows, Linux, Mac"
 
-#: ../../build/doc/overview/proj4_overview.rst:67
+#: ../../build/doc/overview/proj_overview.rst:69
 msgid "**API Interfaces:** C, C++, Python, Java, Ruby"
 msgstr "**Interfaces d'API:** C, C++, Python, Java, Ruby"
 
-#: ../../build/doc/overview/proj4_overview.rst:69
+#: ../../build/doc/overview/proj_overview.rst:71
 msgid "**Support:** https://lists.osgeo.org/mailman/listinfo/proj"
 msgstr "**Support:** https://lists.osgeo.org/mailman/listinfo/proj"
 
-#: ../../build/doc/overview/proj4_overview.rst:74
+#: ../../build/doc/overview/proj_overview.rst:76
 msgid "Quickstart"
 msgstr "Guide de démarrage rapide"
 
-#: ../../build/doc/overview/proj4_overview.rst:76
-msgid ":doc:`Quickstart documentation <../quickstart/proj4_quickstart>`"
+#: ../../build/doc/overview/proj_overview.rst:78
+msgid ":doc:`Quickstart documentation <../quickstart/proj_quickstart>`"
 msgstr ""
 ":doc:`Documentation du guide de démarrage rapide "
-"<../quickstart/proj4_quickstart>`"
+"<../quickstart/proj_quickstart>`"
