@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Sant-anna <delazj@gmail.com>, 2017
+# Harrissou Sant-anna, 2017
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
 # 
 #, fuzzy
