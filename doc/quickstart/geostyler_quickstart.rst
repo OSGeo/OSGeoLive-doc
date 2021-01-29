@@ -9,7 +9,7 @@
 @NAME_geostyler@ Quickstart
 ********************************************************************************
 
-This Quickstart describes some basic steps required to start working with GeoStyler: installing GeoStyler and adding a first UI component to your react application.
+This Quickstart describes the basic steps required to start working with GeoStyler: installing GeoStyler and adding a first UI component to your react application.
 
 A complete beginner tutorial can be found on `localhost/geostyler <localhost/geostyler>`__.
 
@@ -18,15 +18,15 @@ GeoStyler makes it easy to style geodata in any web page. The UI is independent 
 .. contents:: Contents
     :local:
 
-(Optional) Installing GeoStyler
+Installing GeoStyler
 ================================================================================
 
-OSGeoLive comes with GeoStyler already installed. So you should be able to import it into your project
-as described in the next section. You can skip this section, if you just want to take a first look at the library.
+In order to use GeoStyler, you need to have ``node.js`` installed on your system. Instructions on how to install ``node.js` can be found on the
+`node.js homepage <https://nodejs.org/>`__.
 
-However, it is recommended to install GeoStyler for each project separately. This sections describes the required steps.
+It is recommended to install GeoStyler for each project separately. This sections describes the required steps.
 
-The most simple way to install GeoStyler is to use ``npm``. Simply run following command from your project root:
+The most simple way to install GeoStyler is to use ``npm`` that comes with the ``node.js` installation. Simply run following command from your project root:
 
 .. code-block:: bash
 
@@ -192,7 +192,7 @@ of the geostyler-sld-parser within the ``onStyleChange()`` method of the ``Style
 Things to try
 ================================================================================
 
-As a next step, you can try to add an OpenLayers map and connect the ``Style`` component to the map,
+As a next step, you can try to add an `OpenLayers <https://openlayers.org/>`__ map and connect the ``Style`` component to the map,
 so that you can directly see the changes you made on the map.
 
 What next?
