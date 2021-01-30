@@ -47,7 +47,7 @@ You can verify your installation by running this:
 
 ::
 
-  SELECT  * FROM pgr_version();
+  SELECT * FROM pgr_version();
 
 ::
 
@@ -88,14 +88,14 @@ Load the data from osm file:
 ::
 
    bzcat data/osm/feature_city.osm.bz2 > /tmp/feature_city.osm
-   osm2pgrouting
+   osm2pgrouting \
      -f /tmp/feature_city.osm \
      -h localhost \
      -U user \
      -d city_routing \
      -p 5432 \
      -W user \
-     --conf=/usr/share/osm2pgrouting/mapconfig_for_cars.xml \
+     --conf=/usr/share/osm2pgrouting/mapconfig_for_cars.xml
    rm /tmp/feature_city.osm
 
 
@@ -180,25 +180,21 @@ The :command:`\\d` command will list all available tables and sequences
 
 ::
 
-                      List of relations
-   Schema |           Name           |   Type   |  Owner
-  --------+--------------------------+----------+----------
-   public | geography_columns        | view     | postgres
-   public | geometry_columns         | view     | postgres
-   public | osm_nodes                | table    | postgres
-   public | osm_nodes_node_id_seq    | sequence | postgres
-   public | osm_relations            | table    | postgres
-   public | osm_way_classes          | table    | postgres
-   public | osm_way_types            | table    | postgres
-   public | raster_columns           | view     | postgres
-   public | raster_overviews         | view     | postgres
-   public | relations_ways           | table    | postgres
-   public | spatial_ref_sys          | table    | postgres
-   public | ways                     | table    | postgres
-   public | ways_gid_seq             | sequence | postgres
-   public | ways_vertices_pgr        | table    | postgres
-   public | ways_vertices_pgr_id_seq | sequence | postgres
-  (15 rows)
+                    List of relations
+   Schema |           Name           |   Type   | Owner
+  --------+--------------------------+----------+-------
+   public | configuration            | table    | user
+   public | configuration_id_seq     | sequence | user
+   public | geography_columns        | view     | user
+   public | geometry_columns         | view     | user
+   public | pointsofinterest         | table    | user
+   public | pointsofinterest_pid_seq | sequence | user
+   public | spatial_ref_sys          | table    | user
+   public | ways                     | table    | user
+   public | ways_gid_seq             | sequence | user
+   public | ways_vertices_pgr        | table    | user
+   public | ways_vertices_pgr_id_seq | sequence | user
+  (11 rows)
 
 
 
@@ -347,8 +343,8 @@ The results of `pgr_dijkstra` need to be joined with the table ways.
     FROM ways',
     100, 600,
     directed => false
-  ) AS q1
-  JOIN ways ON (edge = gid) ORDER BY seq;
+  ) AS a
+  JOIN ways AS b ON (a.edge = b.gid) ORDER BY seq;
 
 
 The results, for visual purposes are truncated here, the geometries are much longer
