@@ -959,23 +959,23 @@ OSGeoLive
     .. revealjs:: Domain Specific GIS
         :title-heading: h3
   
-           |zygrib_logo|
-           zyGrib
+           |xygrib_logo|
+           XyGrib
 
 
         .. rv_note::
             In this section, we have grouped applications targeted at a specific domain.
     
 
-    .. revealjs:: zyGrib
+    .. revealjs:: XyGrib
         :title-heading: h3
   
-        .. image:: ../images/projects/zygrib/zygrib_screenshot.png
+        .. image:: ../images/projects/xygrib/xygrib_screenshot.png
             :height: 600
 
         .. rv_note::
             Note 
-            zyGrib is a program to download and visualize weather forecast data from GRIB data sources, the standard format for storing meteorological forecast and historical data. Among other things, it supports playing forecast animations, plotting wind, pressure, temperature, humidity, rain, snow, cloud cover, dew point, and high altitude pressure data.
+            XyGrib is a program to download and visualize weather forecast data from GRIB data sources, the standard format for storing meteorological forecast and historical data. Among other things, it supports playing forecast animations, plotting wind, pressure, temperature, humidity, rain, snow, cloud cover, dew point, and high altitude pressure data. XyGrib is the continuation of the zyGrib software package with a new team of volunteers.
 
 
 
@@ -1284,7 +1284,7 @@ OSGeoLive
 .. |R_logo| image:: ../images/projects/R/logo_R.png
 .. |mapnik_logo| image:: ../images/projects/mapnik/logo_mapnik.png
 .. |jupyter_logo| image:: ../images/projects/jupyter/logo_jupyter.png
-.. |zygrib_logo| image:: ../images/projects/zygrib/logo_zygrib.png
+.. |xygrib_logo| image:: ../images/projects/xygrib/logo_xygrib.png
 .. |naturalearth_logo| image:: ../images/projects/naturalearth/logo_naturalearth.png
 .. |nc_dataset_logo| image:: ../images/projects/nc_dataset/logo_nc_dataset.png
 .. |osm_dataset_logo| image:: ../images/projects/osm_dataset/logo_osm_dataset.png
