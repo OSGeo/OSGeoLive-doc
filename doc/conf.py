@@ -313,6 +313,9 @@ rst_epilog="""
 .. |osgeolive-appmenupath-geoserver| replace:: :menuselection:`Geospatial --> Web Services --> GeoServer --> Start GeoServer`
 .. |osgeolive-appmenupath-udig| replace:: :menuselection:`Geospatial --> Desktop GIS --> uDig`
 .. |osgeolive-appmenupath-52nWPS| replace:: :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North WPS`
+.. |vmdk| image:: /images/logos/vmdk.png
+                        :align: bottom
+                        :height: 18
 .. |nologo| image:: /images/logos/nologo.png
                         :align: bottom
                         :height: 18
@@ -321,12 +324,12 @@ rst_epilog="""
                         :align: bottom
                         :height: 18
                         :target: ../sponsors_osgeo.html
-.. |osgeo_incubation| image:: /images/logos/OSGeo_compass.png
+.. |osgeo_incubation| image:: /images/logos/OSGeo_compass_bw.png
                         :alt: OSGeo Community
                         :align: middle
                         :height: 18
                         :target: ../sponsors_osgeo.html
-.. |osgeo_community| image:: /images/logos/OSGeo_compass.png
+.. |osgeo_community| image:: /images/logos/OSGeo_compass_bw.png
                         :alt: OSGeo Community
                         :align: middle
                         :height: 18
