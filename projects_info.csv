@@ -26,7 +26,7 @@ Y | geoserver | 2.18.1 | Y | Y | Web Services | | OGC Web Services | geoserver |
 Y | mapserver | 7.6.2 | Y | Y | Web Services | | OGC Web Services | mapserver | https://mapserver.org | OSGeo_project | MapServer | Y
 Y | mapcache | 1.10.0 | Y | Y | Web Services | | OGC Web Services | mapcache | https://mapserver.org/mapcache | OSGeo_project | MapCache | Y
 Y | deegree | 3.4.1 | Y | Y | Web Services | | OGC Web Services | deegree3 | http://www.deegree.org | OSGeo_project | deegree | Y
-Y | ncWMS | 2.2.8 | Y | Y | Web Services | | Web Map Service | ncwms | https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/ | | ncWMS | N
+Y | ncWMS | 2.4.2 | Y | Y | Web Services | | Web Map Service | ncwms | https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/ | | ncWMS | N
 Y | eoxserver | 1.0.0RC22 | Y | Y | Web Services | | Web Coverage Service | eoxserver | https://docs.eoxserver.org/en/stable/ | | EOxServer | Y
 Y | geonetwork | 3.2.1 | Y | Y | Web Services | | Metadata Catalogue | geonetwork-opensource | https://geonetwork-opensource.org | OSGeo_project | GeoNetwork | Y
 Y | pycsw | 2.6.0 | Y | Y | Web Services | | Metadata Catalogue | pycsw | https://pycsw.org/ | OSGeo_project | pycsw | Y
