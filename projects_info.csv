@@ -69,7 +69,7 @@ Y | jupyter | 4.6.3 | Y | Y | Spatial Tools | | Mixing rich media in presentatio
 ###################### | | | | | | | | | | | |
 #   Domain Specific GIS | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |
-Y | zygrib | 1.2.6 | Y | Y | Domain Specific GIS | | Weather Forecast Maps | | https://www.zygrib.org | | zyGrib | Y
+Y | xygrib | 1.2.6 | Y | Y | Domain Specific GIS | | Weather Forecast Maps | | https://opengribs.org | | XyGrib | Y
 ###################### | | | | | | | | | | | |
 #   Data | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |
