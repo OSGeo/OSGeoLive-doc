@@ -1,22 +1,22 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeolive7.9
+:Version: osgeolive14.0
 :License: Creative Commons Attribution 3.0 Unported  (CC BY 3.0)
 
-@LOGO_zygrib@
-@OSGEO_KIND_zygrib@
+@LOGO_xygrib@
+@OSGEO_KIND_xygrib@
 
 
-@NAME_zygrib@
+@NAME_xygrib@
 ================================================================================
 
 Weather forecasting 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-zyGrib is a program to download and visualize weather forecast data in
-the standard GRIB distribution format.
+XyGrib is a Grib file reader and visualizes meteorological data providing an off-line capability to analyse weather forecasts or hindcasts. XyGrib is the continuation of the zyGrib software package with a new team of volunteers.
+It is intended to be used as a capable weather work station for anyone with a serious interest in examining weather. This would include members of the sailing community, private and sport aviators, farmers, weather buffs and many more.
 
-@SCREENSHOT_zygrib@
+@SCREENSHOT_xygrib@
 
 Core Features
 --------------------------------------------------------------------------------
@@ -31,19 +31,19 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** @WEB_zygrib@
+**Website:** @WEB_xygrib@
 
 **Licence:** GNU General Public License (GPL) version 3
 
-**Software Version:** |version-zygrib|
+**Software Version:** |version-xygrib|
 
 **Supported Platforms:** GNU/Linux, Mac OSX, MS Windows
 
-**Support:** https://zygrib.org/forum/
+**Support:** https://opengribs.org/en/support-forum
 
 
-@VMDK_zygrib@
-@QUICKSTART_zygrib@
+@VMDK_xygrib@
+@QUICKSTART_xygrib@
 
 .. presentation-note
-    zyGrib is a program to download and visualize weather forecast data from GRIB data sources, the standard format for storing meteorological forecast and historical data. Among other things, it supports playing forecast animations, plotting wind, pressure, temperature, humidity, rain, snow, cloud cover, dew point, and high altitude pressure data.
+    XyGrib is a program to download and visualize weather forecast data from GRIB data sources, the standard format for storing meteorological forecast and historical data. Among other things, it supports playing forecast animations, plotting wind, pressure, temperature, humidity, rain, snow, cloud cover, dew point, and high altitude pressure data. XyGrib is the continuation of the zyGrib software package with a new team of volunteers.
