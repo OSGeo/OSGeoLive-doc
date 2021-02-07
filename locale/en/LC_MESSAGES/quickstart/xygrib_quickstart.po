@@ -8,119 +8,119 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2021-02-06 18:01-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:15
-msgid "zyGrib Quickstart"
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:18
+msgid "XyGrib Quickstart"
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:17
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:20
 msgid ""
-"zyGrib is a program to download and visualize weather forecast data in "
+"XyGrib is a program to download and visualize weather forecast data in "
 "the standard GRIB distribution format."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:23
-msgid "Start zyGrib"
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:26
+msgid "Start XyGrib"
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:25
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:28
 msgid ""
-"From the desktop, choose :menuselection:`Navigation and Maps --> zyGrib "
+"From the desktop, choose :menuselection:`Navigation and Maps --> XyGrib "
 "GRIB file viewer`."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:26
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:29
 msgid ""
 "Select your preferred language and click :guilabel:`OK`. The program "
 "opens and you are presented with a map of the world."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:27
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:30
 msgid ""
 "Check the connection to the data server. On the toolbar at the top right "
 "of the screen, click the power plug icon. The File Server Status window "
 "opens and after a moment, it will confirm the status of the connection."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:30
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:33
 msgid ""
 "You'll need an internet connection to download GRIB weather forecast "
 "data. You can get GRIB data from many sources, but as a convenience the "
-"zyGrib authors maintain a data server to use with zyGrib."
+"XyGrib authors maintain a data server to use with XyGrib."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:34
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:37
 msgid "Download data"
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:36
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:39
 msgid ""
 "Use the mouse to click and drag a box on the map canvas on a part of the "
 "world you are interested in. The Gulf of Mexico or the southern tip of "
 "Africa often have dynamic winds."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:37
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:40
 msgid ""
 "With your box drawn on the map, click the zoom-to-box icon on the taskbar"
 " (the magnifying glass with a small box underneath it)"
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:38
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:41
 msgid ""
 "Again,  mark out a box of interest with a left-click drag, but this time "
 "covering most or all of the zoomed-in map canvas."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:39
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:42
 msgid ""
 "Select :menuselection:`File --> Download GRIB` and select the features "
 "you want to download. If in doubt, accept the defaults."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:40
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:43
 msgid "When ready click the ``Download`` button, and save the file to disk."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:42
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:45
 msgid ""
 "The application displays a weather map with a time slider along the "
 "bottom, set for the current time. You can use the mouse wheel to zoom in "
 "if you like."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:46
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:49
 msgid "Change views"
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:48
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:51
 msgid ""
 "Move the mouse around the map you'll see the exact conditions listed in "
 "the pane on the left."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:49
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:52
 msgid ""
 "You can change the time by moving the slider along the bottom, or from "
 "the drop down menu in the top-left of the window."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:50
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:53
 msgid ""
 "From the ``Weather map`` menu, select a variable to visualize. For "
 "example, select :menuselection:`Weather map --> Cloud cover` and the view"
 " should change."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:52
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:55
 msgid ""
 "If you downloaded data for the Gulf of Mexico you'll be interested to "
 "view the CAPE data. \"CAPE\" stands for Convective Available Potential "
@@ -129,48 +129,48 @@ msgid ""
 "tornadoes."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:54
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:57
 msgid ""
 "If you downloaded data for southern Africa, cloud cover may be more "
 "interesting."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:58
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:61
 msgid "Create an animation"
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:60
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:63
 msgid ""
 "Click the right-hand most icon on the toolbar (a rocketship). A new "
 "window opens and an animation will be generated."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:61
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:64
 msgid ""
 "Wait while it runs through the time sequence for the first time. When it "
 "is done it will rewind to the beginning of the time series."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:62
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:65
 msgid "You can play, pause and rewind the sequence as you like."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:63
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:66
 msgid ""
 "You can also save each frame as an image file for later encoding into an "
 "AVI, MPEG, or animated GIF `using other software "
 "<https://grasswiki.osgeo.org/wiki/Movies>`_."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:64
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:67
 msgid "When you're done, click the red power button to close."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:68
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:71
 msgid "What next?"
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:70
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:73
 msgid ""
 "The :doc:`OpenCPN software <../overview/opencpn_overview>` (also on this "
 "disc) has a GRIB overlay plugin which you may try with your newly "
@@ -178,11 +178,11 @@ msgid ""
 "<../quickstart/opencpn_quickstart>` for details."
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:76
-msgid "Website: https://www.zygrib.org"
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:79
+msgid "Website: https://opengribs.org"
 msgstr ""
 
-#: ../../build/doc/quickstart/zygrib_quickstart.rst:77
-msgid "Support: https://zygrib.org/forum/"
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:80
+msgid "Support: https://opengribs.org/en/support-forum"
 msgstr ""
 

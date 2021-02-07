@@ -181,9 +181,9 @@ source_file = locale/pot/quickstart/liblas_quickstart.pot
 source_lang = en
 type = PO
 
-[osgeolive.quickstart--zygrib_quickstart]
-file_filter = locale/<lang>/LC_MESSAGES/quickstart/zygrib_quickstart.po
-source_file = locale/pot/quickstart/zygrib_quickstart.pot
+[osgeolive.quickstart--xygrib_quickstart]
+file_filter = locale/<lang>/LC_MESSAGES/quickstart/xygrib_quickstart.po
+source_file = locale/pot/quickstart/xygrib_quickstart.pot
 source_lang = en
 type = PO
 
@@ -487,9 +487,9 @@ source_file = locale/pot/overview/pycsw_overview.pot
 source_lang = en
 type = PO
 
-[osgeolive.overview--zygrib_overview]
-file_filter = locale/<lang>/LC_MESSAGES/overview/zygrib_overview.po
-source_file = locale/pot/overview/zygrib_overview.pot
+[osgeolive.overview--xygrib_overview]
+file_filter = locale/<lang>/LC_MESSAGES/overview/xygrib_overview.po
+source_file = locale/pot/overview/xygrib_overview.pot
 source_lang = en
 type = PO
 
