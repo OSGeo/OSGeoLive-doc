@@ -21,12 +21,15 @@ GeoStyler makes it easy to style geodata in any web page. The UI is independent 
 Installing GeoStyler
 ================================================================================
 
-In order to use GeoStyler, you need to have ``node.js`` installed on your system. Instructions on how to install ``node.js` can be found on the
+In order to use GeoStyler, you need to have ``node.js`` installed on your system.
+Instructions on how to install ``node.js`` can be found on the
 `node.js homepage <https://nodejs.org/>`__.
 
-It is recommended to install GeoStyler for each project separately. This sections describes the required steps.
+It is recommended to install GeoStyler for each project separately.
+This sections describes the required steps.
 
-The most simple way to install GeoStyler is to use ``npm`` that comes with the ``node.js` installation. Simply run following command from your project root:
+The most simple way to install GeoStyler is to use ``npm`` that comes with the
+``node.js`` installation. Simply run following command from your project root:
 
 .. code-block:: bash
 

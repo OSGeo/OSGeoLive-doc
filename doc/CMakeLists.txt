@@ -12,7 +12,6 @@ set(OSGeoLiveDoc_FILES
     "welcome_message.txt"
     "copyright.rst"
     "download.rst"
-    "presentation.rst"
     "sponsors_osgeo.rst"
     "prior_applications.rst"
     )
@@ -60,7 +59,7 @@ add_custom_command(
     COMMAND ${PERL_EXECUTABLE} ${CMAKE_CURRENT_BINARY_DIR}/scripts/build_overview.pl
     COMMAND ${PERL_EXECUTABLE} ${CMAKE_CURRENT_BINARY_DIR}/scripts/build_metrics.pl
 
-    DEPENDS 
+    DEPENDS
     ${CMAKE_CURRENT_BINARY_DIR}/scripts/build_overview.pl
     ${CMAKE_CURRENT_BINARY_DIR}/scripts/build_metrics.pl
     ${CMAKE_SOURCE_DIR}/projects_info.csv
@@ -91,13 +90,13 @@ set(LATEX_PAPER_SIZE " -D latex_paper_size=${LATEX_PAPER_SIZE}")
 
 if (LOCALE)
     add_custom_target(locale
-        COMMAND ${SPHINX_EXECUTABLE} 
+        COMMAND ${SPHINX_EXECUTABLE}
 
         -b gettext
 
          # the location of the documentation to be build
-        "${CMAKE_CURRENT_BINARY_DIR}" 
-        "${CMAKE_SOURCE_DIR}/locale/pot" 
+        "${CMAKE_CURRENT_BINARY_DIR}"
+        "${CMAKE_SOURCE_DIR}/locale/pot"
 
         COMMAND sphinx-intl update -d ${CMAKE_SOURCE_DIR}/locale -l en
 
@@ -123,7 +122,7 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
 
     foreach (lang ${OSGeoLiveDoc_BUILD_LANGUAGES})
         add_custom_target(
-            "${target}-${lang}" 
+            "${target}-${lang}"
             COMMAND ${SPHINX_EXECUTABLE}
 
             -b ${target}

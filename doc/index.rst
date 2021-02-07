@@ -59,7 +59,6 @@ Quick Starts
   download
   sponsors
   sponsors_osgeo
-  presentation
   metrics
   osgeo_contact
 
@@ -68,4 +67,4 @@ Quick Starts
 Presentation
 --------------------------------------------------------------------------------
 
-A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive applications, is available with slides, script, and `abstract <presentation/abstract.txt>`_.
+A half hour `presentation <./presentation.html>`_, highlighting all OSGeoLive applications, is available with slides, script, and `abstract <presentation/abstract.txt>`_.
