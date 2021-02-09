@@ -122,18 +122,26 @@ sub get_section {
         my @values = split('\|', $line);
         s{^\s+|\s+$}{}g foreach @values;
 
+        #Writting the OSgeoLogo
+        if(defined($values[10]) and ($values[10] ne "")) {
+          $bullets .= "|$values[10]|";
+        } else {
+          $bullets .= "|nologo|";
+        }
+        # logo for only vmdk
+        if($values[12] =~ "N") {
+            $bullets .= " - |vmdk|";
+        } else {
+            $bullets .= "";
+        }
+
         # Handling the overview
         if($values[4] =~ "Y") {
-            #Writting the OSgeoLogo
-            if(defined($values[10]) and ($values[10] ne "")) {
-                $bullets .= "|$values[10]|";
-            } else {
-                $bullets .= "|nologo|";
-            }
 
             $toctree .= "    $values[1]_overview\n";
             $bullets .= " :doc:`$values[1]_overview` "
         }
+
 
         # Handling the quickstart
         if($values[3] =~ "Y") {
@@ -179,6 +187,12 @@ sub write_script {
 
 .. contents::
     :local:
+
+.. rubric:: Symbology
+
+* |osgeo_project| Is an OSGeo Project
+* |osgeo_community| Is an OSGeo Community Project
+* |vmdk| Included only on OSGeoLive VMDK version
 
 
 $sections

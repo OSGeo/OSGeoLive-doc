@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-02-06 18:01-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +73,7 @@ msgid "Things to try"
 msgstr ""
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:72
-msgid "Current weather and wave forecast data can be downloaded and draped over your charts using the GRIB plugin. The :doc:`zyGrib software <../overview/zygrib_overview>` (also on this disc) is an easy way to download that."
+msgid "Current weather and wave forecast data can be downloaded and draped over your charts using the GRIB plugin. The :doc:`zyGrib software <../overview/xygrib_overview>` (also on this disc) is an easy way to download that."
 msgstr ""
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:74
@@ -93,11 +93,11 @@ msgid "Click :guilabel:`OK`. A windsock icon is now displayed on the toolbar."
 msgstr ""
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:80
-msgid "Run through the :doc:`zyGrib quickstart <../quickstart/zygrib_quickstart>` and load the zyGrib file over your chart."
+msgid "Run through the :doc:`zyGrib quickstart <../quickstart/xygrib_quickstart>` and load the zyGrib file over your chart."
 msgstr ""
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:82
-msgid "If you saved the zyGrib file into your home directory, navigate to :file:`/home` and select your ``user`` directory as the GRIB data directory. Then right click on the file listing's background to show hidden files, including the ``.zygrib`` directory that contains the GRIB download files."
+msgid "If you saved the zyGrib file into your home directory, navigate to :file:`/home` and select your ``user`` directory as the GRIB data directory. Then right click on the file listing's background to show hidden files, including the ``.xygrib`` directory that contains the GRIB download files."
 msgstr ""
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:84

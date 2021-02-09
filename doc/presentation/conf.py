@@ -82,7 +82,7 @@ html_theme_options = {
     'preview_links': False,
 
     # Theme (black/white/league/beige/sky/night/serif/simple/solarized)
-    'theme': 'serif',
+    'theme': 'white',
 
     # Transition style (default(=convex)/none/fade/slide/concave/zoom)
     'transition': 'default',
