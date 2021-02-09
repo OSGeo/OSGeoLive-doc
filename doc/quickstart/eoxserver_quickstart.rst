@@ -1,6 +1,5 @@
 :Author: OSGeoLive
-:Author: Stephan Meissl
-:Author: Stephan Krause
+:Author: Stephan Meissl, Stephan Krause, Fabian Schindler, Nikola Jankovic
 :Reviewer: Angelos Tzotsos, OSGeo
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive13.0
@@ -36,10 +35,11 @@ This Quick Start describes how to:
 Start EoxServer
 ===============
 
-Choose :menuselection:`Geospatial --> Web Services --> EOxServer`. This launches a browser showing the demonstration instance available at http://localhost/eoxserver/
+Choose :menuselection:`Geospatial --> Web Services --> EOxServer`. This launches a
+browser showing the demonstration instance available at http://localhost/eoxserver/
 
 .. image:: /images/projects/eoxserver/eoxserver_start.png
-  :scale: 50 %
+  :scale: 70 %
   :alt: EOxServer demonstration start
 
 Work with the Web Client
@@ -54,9 +54,8 @@ demonstration instance is filled with ENVISAT MERIS scenes.
   :scale: 50 %
   :alt: Main view of the EOxServer Web Client
 
-The client provides a set of interactions. On the top you can see a menu bar to
-show the Layer Selection and the Tools widgets. The main area is the map widget
-of the client with a set of datasets already displayed.
+The client consists of the map view and widgets that contain the main interactions. 
+The main area is the map widget of the client with a set of datasets already displayed.
 On the bottom, you'll find the timeslider widget, that allows you to explore the
 contents in the temporal dimension.
 
@@ -64,13 +63,11 @@ contents in the temporal dimension.
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines
 
-The Layer Selection widget allows you to enable or disable the visibility and
+The Layer Selection widget can be expanded by clicking the cogwheel on the top left and
+it allows you to enable or disable the visibility and
 configure the rendering of the layers. Also, you can show or hide the
-streets-overlay and select the background layer. Please note, that when you
-disable the "MER FRS 1P RGB reduced" layer, the timeslider widget is hidden and
-only reappears once a dataset layer is enabled.
-The Tools widget provides three different tools: the Bounding Box Selection Tool,
-the Selection Management Tool and the Download Tool.
+streets-overlay and select the background layer. The Filters tab in this widget enables
+querying for different spatial and temporal values.
 
 .. image:: /images/projects/eoxserver/eoxserver_webclient3.png
   :scale: 50 %
@@ -85,10 +82,18 @@ map automatically zooms to the extent of the dataset.
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines
 
-When the Bounding Box Tool is enabled, you can draw a bounding box directly on
-the map. The bounding box is used for querying within the Download Tool.
+When a spatial filter is enabled, you can draw a bounding box, polygon or point
+directly on the map. The drawn feature is used for querying within the Download Tool.
 
 .. image:: /images/projects/eoxserver/eoxserver_webclient5.png
+  :scale: 50 %
+  :alt: EOxServer demonstration embedded client outlines
+
+You can get more information of available services and metadata on the selected product
+by hovering on the product in the search results widget and clicking on the icon in the
+top right.
+
+.. image:: /images/projects/eoxserver/eoxserver_webclient6.png
   :scale: 50 %
   :alt: EOxServer demonstration embedded client outlines
 
@@ -105,7 +110,8 @@ information on this topic.
 Work with the Admin Client
 ==========================
 
-From the EOxServer main page, click the **Admin Client** link and login with user `admin` and password `admin`.
+From the EOxServer main page, click the **Admin Client** link and login with user
+`admin` and password `admin`.
 
 .. image:: /images/projects/eoxserver/eoxserver_adminclient1.png
   :scale: 50 %
@@ -120,14 +126,14 @@ be found in the `operators' guide
   :scale: 50 %
   :alt: EOxServer demonstration admin client start
 
-For example, you can inspect the dataset series that is loaded by default by
-clicking the "Dataset Series" link and then the "MER_FRS_1P_RGB_reduced" link.
+For example, you can inspect the collection that is loaded by default by
+clicking the "Collections" link and then the "MER_FRS_1P_RGB_reduced" link.
 
 .. image:: /images/projects/eoxserver/eoxserver_adminclient3.png
   :scale: 50 %
   :alt: EOxServer demonstration admin client Dataset Series
 
-Here you can also see the included datasets. You can exclude single datasets using the "delete" checkbox on the right and click on "Save".
+You can preview the coverages by going back and clicking on the "Coverages" link. 
 
 .. image:: /images/projects/eoxserver/eoxserver_adminclient4.png
   :scale: 50 %
@@ -142,10 +148,7 @@ a few resources to check out next:
 
 * See the :doc:`EOxServer Overview <../overview/eoxserver_overview>` for more information.
 * Read the `EOxServer Operators' Guide <https://docs.eoxserver.org/en/latest/users/operators.html>`_.
-* Read the complete `EOxServer Users' documentation <https://docs.eoxserver.org/en/latest/users/index.html>`_
-  starting from the `EOxServer Basics <https://docs.eoxserver.org/en/latest/users/basics.html>`_.
-* If you are already in the OSGeoLive environment, read the local copy of the `EOxServer Users' local documentation
-  <https://localhost/eoxserver-docs/EOxServer_documentation.pdf>`_
+* Read the `EOxServer Basics <https://docs.eoxserver.org/en/latest/users/basics.html>`_.
 * Ready to use EOxServer? Then join the community on the `mailing lists
   <https://docs.eoxserver.org/en/latest/users/mailing_lists.html>`_ to
   exchange ideas, discuss potential software improvements, and ask questions.
