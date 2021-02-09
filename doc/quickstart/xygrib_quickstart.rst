@@ -1,33 +1,33 @@
 :Author: Hamish Bowman
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
-:Version: osgeolive13.0
+:Version: osgeolive14.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 :Copyright: 2011 by The OSGeo Foundation
 
-@LOGO_zygrib@
-@OSGEO_KIND_zygrib@
-@VMDK_zygrib@
+@LOGO_xygrib@
+@OSGEO_KIND_xygrib@
+@VMDK_xygrib@
 
 
 
 ************************
-@NAME_zygrib@ Quickstart
+@NAME_xygrib@ Quickstart
 ************************
 
-zyGrib is a program to download and visualize weather forecast data in the standard GRIB distribution format.
+XyGrib is a program to download and visualize weather forecast data in the standard GRIB distribution format.
 
 .. contents:: Contents
    :local:
 
-Start @NAME_zygrib@
+Start @NAME_xygrib@
 ===================
 
-#. From the desktop, choose :menuselection:`Navigation and Maps --> zyGrib GRIB file viewer`. 
+#. From the desktop, choose :menuselection:`Navigation and Maps --> XyGrib GRIB file viewer`.
 #. Select your preferred language and click :guilabel:`OK`. The program opens and you are presented with a map of the world. 
 #. Check the connection to the data server. On the toolbar at the top right of the screen, click the power plug icon. The File Server Status window opens and after a moment, it will confirm the status of the connection. 
 
 .. Note:: 
-  You'll need an internet connection to download GRIB weather forecast data. You can get GRIB data from many sources, but as a convenience the zyGrib authors maintain a data server to use with zyGrib.
+  You'll need an internet connection to download GRIB weather forecast data. You can get GRIB data from many sources, but as a convenience the XyGrib authors maintain a data server to use with XyGrib.
 
 
 Download data
@@ -73,5 +73,5 @@ downloaded GRIB file.
 See
 the :doc:`OpenCPN quickstart <../quickstart/opencpn_quickstart>` for details.
 
-* Website: https://www.zygrib.org
-* Support: https://zygrib.org/forum/
+* Website: https://opengribs.org
+* Support: https://opengribs.org/en/support-forum
