@@ -1,5 +1,5 @@
 :Author: OSGeoLive
-:Author: Stephan Meissl, Stephan Krause
+:Author: Stephan Meissl, Stephan Krause, Fabian Schindler, Nikola Jankovic
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos, OSGeo
 :Version: osgeolive11.0
@@ -44,6 +44,8 @@ Core Features
     projections (CRSs), scaling, and interpolation.
   * Protocols supported are: KVP and XML/POST (used together with SOAP2POST
     Proxy to provide also XML/SOAP)
+
+* Register data stored in S3
 
 * Publish using the following formats and groupings:
 
