@@ -109,8 +109,8 @@ Y | osm_dataset | | N | Y | Data | | Sample extract from OpenStreetMap | | https
 Y | gdal | 3.2.1 | Y | Y | Geospatial Libraries | | Geospatial Data Translation Tools | gdal | https://gdal.org/ | OSGeo_project | GDAL/OGR | Y
 Y | geos | 3.9.0 | N | Y | Geospatial Libraries | | C/C++ Spatial Library | geos | https://trac.osgeo.org/geos | OSGeo_project | GEOS | Y
 Y | geotools | NA | N | Y | Geospatial Libraries | | Java GIS Toolkit | geotools | https://geotools.org/ | OSGeo_project | GeoTools | Y
+Y | proj | 7.2.1 | Y | Y | Geospatial Libraries | | Coordinate Reference System Libraries | proj | https://proj.org/ | OSGeo_project | PROJ | Y
 #   OSGeo Community | | | | | | | | | | | |
-Y | proj | 7.2.1 | Y | Y | Geospatial Libraries | | Coordinate Reference System Libraries | proj | https://proj.org/ | OSGeo_community | PROJ | Y
 #   Others  | | | | | | | | | | | |
 Y | jts | NA | N | Y | Geospatial Libraries | | Java Topology Suite | jts-topo-suite | https://projects.eclipse.org/projects/locationtech.jts | | JTS | Y
 N | pdal | 2.2.0 | Y | Y | Geospatial Libraries | | Pointcloud and LiDAR Data Access | pdal | https://pdal.io | | PDAL | Y
