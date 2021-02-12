@@ -43,7 +43,7 @@ Y | mapproxy | 1.13.0 | Y | Y | Web Services | | Proxy WMS & tile services | map
 Y | pygeoapi | 0.9.0 | Y | Y | Web Services | | OGC Web Services | pygeoapi | https://pygeoapi.io/ | OSGeo_community | pygeoapi | Y
 Y | zoo-project | 1.8.0 | Y | Y | Web Services | | Web Processing Service | zoo-project | http://zoo-project.org/ | OSGeo_incubation | Zoo Project | Y
 #   Others  | | | | | | | | | | | |
-Y | actinia | 0.99.8 | Y | Y | Web Services | | Processing of Geographical Data | actinia_core | https://actinia.mundialis.de/ | | actinia | Y
+Y | actinia | 0.99.8 | Y | Y | Web Services | | Processing of Geographical Data | actinia_core | https://actinia.mundialis.de/ | OSGeo_community | actinia | Y
 Y | eoxserver | 1.0.0RC22 | Y | Y | Web Services | | Web Coverage Service | eoxserver | https://docs.eoxserver.org/en/stable/ | | EOxServer | Y
 Y | ncWMS | 2.4.2 | Y | Y | Web Services | | Web Map Service | ncwms | https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/ | | ncWMS | N
 Y | qgis_mapserver | 3.16.3 | Y | Y | Web Services | | Web Map Service | | https://www.qgis.org/en/site/ | | QGIS Server | Y
@@ -109,8 +109,8 @@ Y | osm_dataset | | N | Y | Data | | Sample extract from OpenStreetMap | | https
 Y | gdal | 3.2.1 | Y | Y | Geospatial Libraries | | Geospatial Data Translation Tools | gdal | https://gdal.org/ | OSGeo_project | GDAL/OGR | Y
 Y | geos | 3.9.0 | N | Y | Geospatial Libraries | | C/C++ Spatial Library | geos | https://trac.osgeo.org/geos | OSGeo_project | GEOS | Y
 Y | geotools | NA | N | Y | Geospatial Libraries | | Java GIS Toolkit | geotools | https://geotools.org/ | OSGeo_project | GeoTools | Y
+Y | proj | 7.2.1 | Y | Y | Geospatial Libraries | | Coordinate Reference System Libraries | proj | https://proj.org/ | OSGeo_project | PROJ | Y
 #   OSGeo Community | | | | | | | | | | | |
-Y | proj | 7.2.1 | Y | Y | Geospatial Libraries | | Coordinate Reference System Libraries | proj | https://proj.org/ | OSGeo_community | PROJ | Y
 #   Others  | | | | | | | | | | | |
 Y | jts | NA | N | Y | Geospatial Libraries | | Java Topology Suite | jts-topo-suite | https://projects.eclipse.org/projects/locationtech.jts | | JTS | Y
 N | pdal | 2.2.0 | Y | Y | Geospatial Libraries | | Pointcloud and LiDAR Data Access | pdal | https://pdal.io | | PDAL | Y
