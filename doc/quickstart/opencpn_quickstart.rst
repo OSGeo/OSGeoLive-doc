@@ -66,7 +66,7 @@ option.
 Things to try
 =============
 
-Current weather and wave forecast data can be downloaded and draped over your charts using the GRIB plugin. The :doc:`zyGrib software <../overview/xygrib_overview>` (also on this disc) is an easy way to download that. 
+Current weather and wave forecast data can be downloaded and draped over your charts using the GRIB plugin. The :doc:`XyGrib software <../overview/xygrib_overview>` (also on this disc) is an easy way to download that.
 
 #. Click the :guilabel:`Options` icon on the toolbar. The Options window displays.
 #. Select the :guilabel:`Plugins` tab.
@@ -74,9 +74,9 @@ Current weather and wave forecast data can be downloaded and draped over your ch
 #. Click :guilabel:`OK`. A windsock icon is now displayed on the toolbar.
 
 
-Run through the :doc:`zyGrib quickstart <../quickstart/xygrib_quickstart>` and load the zyGrib file over your chart.
+Run through the :doc:`XyGrib quickstart <../quickstart/xygrib_quickstart>` and load the XyGrib file over your chart.
 
-.. Note:: If you saved the zyGrib file into your home directory, navigate to :file:`/home` and select your ``user`` directory as the GRIB data directory. Then right click on the file listing's background to show hidden files, including the ``.xygrib`` directory that contains the GRIB download files.
+.. Note:: If you saved the XyGrib file into your home directory, navigate to :file:`/home` and select your ``user`` directory as the GRIB data directory. Then right click on the file listing's background to show hidden files, including the ``.xygrib`` directory that contains the GRIB download files.
 
   There is no need to uncompress the file.  Click on the ">" to the left of the filename and select from the list of available forecast times.
 
