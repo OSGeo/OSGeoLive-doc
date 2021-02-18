@@ -130,7 +130,7 @@ sub get_section {
         }
         # logo for only vmdk
         if($values[12] =~ "N") {
-            $bullets .= " - |vmdk|";
+            $bullets .= " |vmdk|";
         } else {
             $bullets .= "";
         }
