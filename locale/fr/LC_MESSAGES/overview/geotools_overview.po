@@ -6,6 +6,7 @@
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
 # Nicolas Roelandt (Personnel), 2020
+# Harrissou Sant-anna, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-25 18:18-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
+"Last-Translator: Harrissou Sant-anna, 2021\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,6 +46,11 @@ msgid ""
 "AtlasStyler, Geomajas, Geopublisher, :doc:`geoserver_overview`, and "
 ":doc:`udig_overview`."
 msgstr ""
+"GeoTools est utilisé par un grand nombre de projets incluant des services "
+"web, des outils en ligne de commande et des applications bureautiques. Les "
+"applications OSGeoLive qui embarquent GeoTools sont: :doc:`52nSOS_overview`,"
+" :doc:`52nWPS_overview`, AtlasStyler, Geomajas, Geopublisher, "
+":doc:`geoserver_overview` et :doc:`udig_overview`."
 
 #: ../../build/doc/overview/geotools_overview.rst:31
 msgid "Core Features"

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"POT-Creation-Date: 2021-02-06 18:01-0600\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2017\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -75,14 +75,14 @@ msgstr "Navigation et Cartes"
 msgid "Spatial Tools"
 msgstr "Outils spatiaux"
 
-#: ../../build/doc/metrics.rst:112
+#: ../../build/doc/metrics.rst:113
 msgid "Domain Specific GIS"
 msgstr "SIG spécifiques à un domaine"
 
-#: ../../build/doc/metrics.rst:120
+#: ../../build/doc/metrics.rst:121
 msgid "Data"
 msgstr "Données"
 
-#: ../../build/doc/metrics.rst:131
+#: ../../build/doc/metrics.rst:132
 msgid "Geospatial Libraries"
 msgstr "Bibliothèques géospatiales"
