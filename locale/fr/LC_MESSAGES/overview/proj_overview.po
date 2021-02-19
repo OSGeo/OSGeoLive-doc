@@ -7,6 +7,7 @@
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2021
 # Nicolas Roelandt (Personnel), 2021
 # Vicky Vergara <vicky@georepublic.de>, 2021
+# Harrissou Sant-anna, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-25 20:14-0600\n"
 "PO-Revision-Date: 2021-01-26 00:35+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
+"Last-Translator: Harrissou Sant-anna, 2021\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,6 +61,8 @@ msgid ""
 "PROJ has been translated from C to `other languages "
 "<https://trac.osgeo.org/metacrs/wiki>`_. These sub-projects include:"
 msgstr ""
+"PROJ a été traduit de C vers `d'autres langages "
+"<https://trac.osgeo.org/metacrs/wiki>`_. Ces sous-projets incluent :"
 
 #: ../../build/doc/overview/proj_overview.rst:29
 msgid ""
@@ -92,6 +95,8 @@ msgid ""
 "`SpatialReference.org <https://spatialreference.org/>`_ - website to "
 "retrieve coordinate system definitions (obsolete)."
 msgstr ""
+"`SpatialReference.org <https://spatialreference.org/>`_ - site web des "
+"définitions de systèmes de coordonnées (obsolète)."
 
 #: ../../build/doc/overview/proj_overview.rst:43
 msgid "Core Features"
@@ -139,6 +144,8 @@ msgid ""
 "**Licence:** `X/MIT Open Source license "
 "<https://proj.org/about.html#license>`_"
 msgstr ""
+"**Licence:** `X/MIT Open Source license "
+"<https://proj.org/about.html#license>`_"
 
 #: ../../build/doc/overview/proj_overview.rst:65
 msgid "**Software Version:** |version-proj|"

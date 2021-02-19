@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Nicolas Roelandt (Personnel), 2020
+# Harrissou Sant-anna, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-25 18:18-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
+"Last-Translator: Harrissou Sant-anna, 2021\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,6 +46,12 @@ msgid ""
 "libraries with Python bindings.  Source data can be provided with WPS "
 "requests or accessed from data on the WPS server."
 msgstr ""
+"Les process sont écrits dans le langage de programmation Python et peuvent "
+"intégrer des outils tels que :doc:`GRASS GIS <grass_overview>`, :doc:`R "
+"<R_overview>`, :doc:`GDAL/OGR <gdal_overview>`, :doc:`proj <proj_overview>` "
+"et d'autres bibliothèques avec des liens Python. Les données sources peuvent"
+" être fournies avec des requêtes WPS ou accédées à partir de données sur le "
+"serveur WPS."
 
 #: ../../build/doc/overview/pywps_overview.rst:37
 msgid "Core Features"
@@ -80,7 +87,7 @@ msgstr "GDAL/OGR"
 
 #: ../../build/doc/overview/pywps_overview.rst:47
 msgid "Proj"
-msgstr ""
+msgstr "Proj"
 
 #: ../../build/doc/overview/pywps_overview.rst:48
 msgid "Numpy"
