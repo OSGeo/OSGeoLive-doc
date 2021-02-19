@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"POT-Creation-Date: 2021-02-19 11:35-0600\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -21,15 +21,15 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../build/doc/overview/actinia_overview.rst:15
-msgid "actinia"
-msgstr ""
-
 #: ../../build/doc/overview/actinia_overview.rst:18
+msgid "actinia"
+msgstr "actinia"
+
+#: ../../build/doc/overview/actinia_overview.rst:21
 msgid "High Performance Geospatial Processing"
 msgstr "高パフォーマンスの地理空間処理"
 
-#: ../../build/doc/overview/actinia_overview.rst:20
+#: ../../build/doc/overview/actinia_overview.rst:23
 msgid ""
 "`Actinia <https://actinia.mundialis.de/>`__ is an open source REST API for "
 "scalable, distributed, high performance processing of geographical data that"
@@ -39,62 +39,62 @@ msgstr ""
 "は、地理データのスケーラブルで分散した高パフォーマンス処理のためのオープンソースREST APIであり、計算タスクに  `GRASS GIS "
 "<https://grass.osgeo.org/>`__  を使用します。"
 
-#: ../../build/doc/overview/actinia_overview.rst:25
+#: ../../build/doc/overview/actinia_overview.rst:28
 msgid ""
 "It provides a REST API to process satellite images, time series of satellite"
 " images, arbitrary raster data with geographical relations and vector data."
 msgstr "衛星画像、時系列衛星画像、地理的関係を持つ任意のラスタデータ、ベクタデータを処理するREST APIを提供しています。"
 
-#: ../../build/doc/overview/actinia_overview.rst:36
+#: ../../build/doc/overview/actinia_overview.rst:39
 msgid "Core Features"
 msgstr "主な機能"
 
-#: ../../build/doc/overview/actinia_overview.rst:38
+#: ../../build/doc/overview/actinia_overview.rst:41
 msgid ""
 "REST API to process satellite images, time series of satellite images, "
 "raster and vector data."
 msgstr "衛星画像、時系列の衛星画像、ラスタおよびベクタデータを処理するREST API。"
 
-#: ../../build/doc/overview/actinia_overview.rst:39
+#: ../../build/doc/overview/actinia_overview.rst:42
 msgid "Explore the `tutorial <https://actinia.mundialis.de/tutorial/>`_."
 msgstr "`チュートリアル <https://actinia.mundialis.de/tutorial/>`_ をご覧ください。"
 
-#: ../../build/doc/overview/actinia_overview.rst:42
+#: ../../build/doc/overview/actinia_overview.rst:45
 msgid "Details"
 msgstr "詳細"
 
-#: ../../build/doc/overview/actinia_overview.rst:44
+#: ../../build/doc/overview/actinia_overview.rst:47
 msgid "**Website:** https://actinia.mundialis.de/"
 msgstr "**Webサイト:** https://actinia.mundialis.de/"
 
-#: ../../build/doc/overview/actinia_overview.rst:46
+#: ../../build/doc/overview/actinia_overview.rst:49
 msgid "**Licence:** GNU General Public License (GPL) version 3"
 msgstr "**ライセンス:** GNU General Public License (GPL) version 3"
 
-#: ../../build/doc/overview/actinia_overview.rst:48
+#: ../../build/doc/overview/actinia_overview.rst:51
 msgid "**Software Version:** |version-actinia|"
 msgstr "**ソフトウェアバージョン:** |version-actinia|"
 
-#: ../../build/doc/overview/actinia_overview.rst:50
+#: ../../build/doc/overview/actinia_overview.rst:53
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
 msgstr "**対応プラットフォーム:** GNU/Linux, Mac OSX, MS Windows"
 
-#: ../../build/doc/overview/actinia_overview.rst:52
+#: ../../build/doc/overview/actinia_overview.rst:55
 msgid "**API Interfaces:** REST API, Python"
 msgstr "**API インタフェース:** REST API, Python"
 
-#: ../../build/doc/overview/actinia_overview.rst:54
+#: ../../build/doc/overview/actinia_overview.rst:57
 msgid "**API documentation:** https://actinia.mundialis.de/api_docs/"
 msgstr "**API文書:** https://actinia.mundialis.de/api_docs/"
 
-#: ../../build/doc/overview/actinia_overview.rst:56
+#: ../../build/doc/overview/actinia_overview.rst:59
 msgid "**Support:** https://github.com/mundialis/actinia_core"
 msgstr "**サポート:** https://github.com/mundialis/actinia_core"
 
-#: ../../build/doc/overview/actinia_overview.rst:61
+#: ../../build/doc/overview/actinia_overview.rst:64
 msgid "Quickstart"
 msgstr "クイックスタート"
 
-#: ../../build/doc/overview/actinia_overview.rst:63
+#: ../../build/doc/overview/actinia_overview.rst:66
 msgid ":doc:`Quickstart documentation <../quickstart/actinia_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/actinia_quickstart>`"

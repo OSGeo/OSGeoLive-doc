@@ -708,11 +708,11 @@ msgstr "?"
 
 #: ../../build/contributors.csv:1
 msgid "Enock Seth Nyamador"
-msgstr ""
+msgstr "Enock Seth Nyamador"
 
 #: ../../build/contributors.csv:1
 msgid "open enockseth co"
-msgstr ""
+msgstr "open enockseth co"
 
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 msgid "Ghana"
@@ -720,7 +720,7 @@ msgstr "ガーナ"
 
 #: ../../build/contributors.csv:1
 msgid "enockseth"
-msgstr ""
+msgstr "enockseth"
 
 #: ../../build/contributors.csv:1
 msgid "Eric Lemoine"
@@ -2584,23 +2584,23 @@ msgstr "sanak"
 
 #: ../../build/translators.csv:1
 msgid "Taro Matsuzawa"
-msgstr ""
+msgstr "Taro Matsuzawa"
 
 #: ../../build/translators.csv:1
 msgid "taro georepublic co jp"
-msgstr ""
+msgstr "taro georepublic co jp"
 
 #: ../../build/translators.csv:1
 msgid "Hiroshi Miura"
-msgstr ""
+msgstr "Hiroshi Miura"
 
 #: ../../build/translators.csv:1
 msgid "miurahr osmf jp"
-msgstr ""
+msgstr "miurahr osmf jp"
 
 #: ../../build/translators.csv:1
 msgid "miurahr"
-msgstr ""
+msgstr "miurahr"
 
 #: ../../build/translators.csv:1
 msgid "Korean"

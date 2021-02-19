@@ -259,7 +259,7 @@ msgstr "実行"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:95
 msgid "Run as per: :doc:`osgeolive_quickstart`"
-msgstr ""
+msgstr ":doc:`osgeolive_quickstart` のように実行します"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:98
 msgid "See Also:"

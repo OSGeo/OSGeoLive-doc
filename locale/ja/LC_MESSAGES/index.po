@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-18 20:30+0100\n"
+"POT-Creation-Date: 2021-02-06 18:01-0600\n"
 "PO-Revision-Date: 2017-01-21 16:46+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -80,15 +80,15 @@ msgstr ""
 msgid "Quick Starts"
 msgstr "クイックスタート"
 
-#: ../../build/doc/index.rst:69
+#: ../../build/doc/index.rst:68
 msgid "Presentation"
 msgstr "プレゼンテーション"
 
-#: ../../build/doc/index.rst:71
+#: ../../build/doc/index.rst:70
 msgid ""
-"A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive "
-"applications, is available with slides, script, and `abstract "
+"A half hour `presentation <./presentation.html>`_, highlighting all "
+"OSGeoLive applications, is available with slides, script, and `abstract "
 "<presentation/abstract.txt>`_."
 msgstr ""
-"全ての OSGeoLive アプリケーションを取り上げた30分間の `プレゼンテーション <presentation.html>`_ がスライドや原稿、"
-" `要約 <presentation/abstract.txt>`_ とともに、利用可能です。"
+"全ての OSGeoLive アプリケーションを取り上げた30分間の `プレゼンテーション <./presentation.html>`_ "
+"がスライドや原稿、 `要約 <presentation/abstract.txt>`_ とともに、利用可能です。"

@@ -1,0 +1,514 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# MarPetra <mvergaratrejo@gmail.com>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"PO-Revision-Date: 2021-01-21 18:51+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:8
+msgid "Command Line Quickstart"
+msgstr "コマンドライン クイックスタート"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:10
+msgid ""
+"When you work with GNU/Linux Operating Systems such as OSGeoLive, Ubuntu, "
+"etc., it is good to know how to work on the command line."
+msgstr ""
+"OSGeoLiveやUbuntuなどのGNU/Linuxオペレーティングシステムを使用している場合は、コマンドラインでの操作方法を知っておくことをお勧めします。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:12
+msgid ""
+"Don't worry. It is not difficult to learn and you will discover that it is "
+"fun and very powerful."
+msgstr "心配しないでください。学習することは難しくありません。そして、それが楽しくてとても強力であることがわかるでしょう。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:14
+msgid "In this quickstart you will learn some basic commands."
+msgstr "このクイックスタートでは、いくつかの基本的なコマンドについて学習します。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:16
+msgid "The following commands run from within a Terminal Emulator window."
+msgstr "次のコマンドは、ターミナルエミュレータウィンドウから実行します。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:18
+msgid ""
+"Start a Terminal Emulator (`QTerminal` currently) from the `Applications` "
+"menu in the `System Tools` section. This gives you a Unix shell command "
+"prompt."
+msgstr ""
+"`アプリケーション` メニューの `システムツール`  から、ターミナルエミュレータ (現在は `QTerminal` "
+")を起動します。これにより、Unixシェルのコマンドプロンプトが表示されます。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:25
+msgid "Where am I?"
+msgstr "ここはどこですか?"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:27
+msgid "`pwd` shows the path of your current location."
+msgstr "`pwd` は現在の場所のパスを表示します。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:36
+msgid ""
+"You can ask all commands for help and get information on how they can be "
+"used and find out about additional options."
+msgstr "すべてのコマンドには、ヘルプを求めたり、それらの使用方法や追加オプションについての情報を得たりできるコマンドオプションがあります。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:59
+msgid "How to navigate in the file system?"
+msgstr "ファイルシステム内での操作方法"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:61
+msgid ""
+"First you should get to know how the file system under Linux is organized. "
+"The file system is organized in a tree. It starts with the `/` known as root"
+" directory. All files and directories are under the root directory (`/`)."
+msgstr ""
+"まず、Linuxのファイルシステムがどのように構成されているかを知っておく必要があります。ファイルシステムは樹木(ツリー)状に構成されています。ルートディレクトリと呼ばれる"
+" `/` で始まります。すべてのファイルとディレクトリは、ルートディレクトリ( `/` )の下にあります。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:63
+msgid ""
+"The current user is \"`user`\" and has a home directory located at "
+"`/home/user`. Anytime you open a terminal window it will start in your home "
+"directory (see pwd)."
+msgstr ""
+"現在のユーザーは「 `user` 」で、 `/home/user` "
+"にホームディレクトリがあります。ターミナルウィンドウを開くと、ホームディレクトリから開きます(pwdを参照)。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:65
+msgid "You can easily navigate in the file system with the command cd."
+msgstr "cdコマンドを使用すると、ファイルシステム内を簡単に移動できます。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:67
+msgid ""
+"cd / navigated to the root directory cd /home/user goes to your home "
+"directory same as cd ~"
+msgstr "cd / では、ルートディレクトリに移動します。 cd  /home/user  は、cd ~ と同じで、ホームディレクトリに移動します。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:72
+msgid ""
+"`cd ..` moves you one directory to the top, `cd` user goes from your current"
+" location to the home directory of user. This is not the same as `/user`"
+msgstr ""
+"`cd ..` はディレクトリを一つ上に移動します。 `cd` では、現在の場所からユーザーのホームディレクトリに移動します。これは `/user` "
+"と同じではありません"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:76
+msgid "Use the tab key to autocomplete the path while you are typing."
+msgstr "入力中にTabキーを使用すれば、パスを自動補完入力します。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:80
+msgid "Create a directory"
+msgstr "ディレクトリを作成"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:82
+msgid ""
+"You have write access in your user-directory. You can create files and "
+"directories there. Next we will create a directory for some command line "
+"tests."
+msgstr "あなたディレクトリに書き込み権限があります。ファイルやディレクトリを作成できます。次に、コマンドラインテスト用のディレクトリを作成します。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:91
+msgid ""
+"You have a command history. You can navigate in the history with the arrow "
+"up and down key."
+msgstr "コマンド履歴があります。矢印の上下キーで履歴内を移動できます。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:95
+msgid "How to create a new file"
+msgstr "新しいファイルを作成する方法"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:97
+msgid "`touch` creates a new empty file."
+msgstr "`touch` をつかうと、新しい空のファイルを作成します。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:105
+msgid ""
+"You can pipe the information from a command to a file i.e. the command "
+"history. `history` displays the command history. With the following command "
+"it can be saved in a file."
+msgstr ""
+"パイプを使用して、コマンドからファイルに情報を渡すことができます。たとえば、コマンド履歴です。`history` "
+"では、コマンドの履歴を表示します。次のコマンドを使用すると、ファイルに保存できます。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:113
+msgid "Show me what is in a directory"
+msgstr "ディレクトリの内容を表示する"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:115
+msgid ""
+"You would like to know more about the content of a directory. `ls` is the "
+"program that gives you a lot of information."
+msgstr "ディレクトリの内容について詳しく知りたいです。`ls` は多くの情報を提供するプログラムです。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:117
+msgid "`ls` lists all files and directories"
+msgstr "`ls` はすべてのファイルとディレクトリをリストします"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:118
+msgid ""
+"`ls -l` shows a more detailed list of the files/directories with time, user "
+"access rights"
+msgstr "`ls -l` を使うと、時間、ユーザーのアクセス権限などの、ファイル/ディレクトリの詳細なリストを表示します。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:119
+msgid "`ls -a` also shows hidden files"
+msgstr "`ls -a` は隠しファイルも表示します"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:120
+msgid "`ls -al` you can combine the different options"
+msgstr "`ls -al` 他のオプションとくみあわせることもできます。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:121
+msgid "`ls -1` shows only the file names"
+msgstr "`ls -1` は、ファイル名だけ表示します。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:136
+msgid "Copy files and directories"
+msgstr "ファイルとディレクトリーのコピー"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:138
+msgid "You can copy files from one location to another."
+msgstr "ファイルを一方の場所から他へコピーすることができます。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:141
+msgid "Copy a file to a new file"
+msgstr "ファイルをあたらしいファイルへコピー"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:148
+msgid "Copy a file to another directory"
+msgstr "ファイルを他のディレクトリにコピー"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:155
+msgid "Copy a whole directory to a new location (-R recursive)"
+msgstr "ディレクトリ全体をあたらしい場所へコピー (-R 再帰的にたどる)"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:164
+msgid "Who is sudo?"
+msgstr "sudoとは?"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:166
+msgid ""
+"With `sudo` you can do things that you are normally not allowed to. `sudo` "
+"runs commands with the rights of the superuser also known as root With "
+"`sudo` you can i.e. install more software, administrate services, change "
+"access rights and more fun. You will see the use of `sudo` in some of the "
+"following commands."
+msgstr ""
+"`sudo` を使って、通常は実行できないコマンドを実行できるようにします。`sudo` は、コマンドを通常 root "
+"ユーザとして知られるスーパーユーザーの権限で実行します。 `sudo` "
+"をつかうと、ソフトウエアを導入するとか、サービスの管理をするとか、アクセス権限を変更するとか、いろいろ可能です。次のコマンドは、 `sudo` "
+"の用例です。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:172
+msgid "Search and install programs"
+msgstr "検索とプログラムのインストール"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:174
+msgid "Show information about programs."
+msgstr "プログラムの情報を表示"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:180
+msgid "Search for programs"
+msgstr "プログラムを検索する"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:187
+msgid "Install programs"
+msgstr "プログラムをインストールする"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:194
+msgid ""
+"You will love the program `sl`. Run the new program with `sl` see also `apt "
+"show sl`."
+msgstr ""
+"`sl` プログラムを気にいるとおもいますよ。`sl` で新しいプログラムを実行してください。`apt show sl` も参照してください。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:198
+msgid "Services"
+msgstr "サービス"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:200
+msgid ""
+"Some programms run as services like PostgreSQL, tomcat or Apache Webserver. "
+"You can start or stop the services."
+msgstr ""
+"PostgreSQL、TomcatやApache webサーバのように一部のプログラムはサービスとして実行されています。サービスを開始、停止できます。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:202
+msgid "Restart your Apache Service"
+msgstr "Apacheサービスを再開できます。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:214
+msgid "How to edit files"
+msgstr "ファイルの編集方法"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:216
+msgid ""
+"You can either edit files in the terminal or open them with an external "
+"program like Geany."
+msgstr "ターミナルでファイルを編集することもできますし、Geanyのような外部プログラムで開くこともできます。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:218
+msgid ""
+"In the terminal window you can use the `vim` editor (Vi IMproved). `vim` is "
+"very powerful and has many options."
+msgstr "ターミナルウインドウで、 `vim` エディタ (Vi IMproved)を利用できます。`vim` はパワフルで、様々な機能があります。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:220
+msgid "See also"
+msgstr "参照"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:222
+msgid "https://help.ubuntu.com/community/VimHowto"
+msgstr "https://help.ubuntu.com/community/VimHowto"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:223
+msgid "https://vim.rtorr.com/lang/en_en"
+msgstr "https://vim.rtorr.com/lang/en_en"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:226
+msgid "Open a file with `vim`:"
+msgstr "`vim` でファイルを開く:"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:232
+msgid "press `i` to switch to the input mode"
+msgstr "`i` キーをおして、入力モードへ変更する"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:233
+msgid "`ESC` leaves the input mode"
+msgstr "`ESC` キーで、入力モードからぬける"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:234
+msgid "`:w` saves your changes"
+msgstr "`:w` は、変更点を保存する"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:235
+msgid "`:wq` saves your changes and closes the file"
+msgstr "`:wq` は、変更点を保存し、ファイルをとじる"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:236
+msgid "`:q` closes the file"
+msgstr "`:q` ファイルを閉じる"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:237
+msgid "`:q!` closes the file without saving"
+msgstr "`:q!` は、保存することなしに、ファイルを閉じる"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:242
+msgid "Owner and access rights"
+msgstr "ファイル所有者とアクセス権"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:244
+msgid ""
+"Access rights define whether a `user` or `group` or `others` have access to "
+"a file and what sort of access is given. You can have `read`, `write` or "
+"`excecute` access."
+msgstr ""
+"アクセス権は、 `ユーザ` または `グループ` または `他者` "
+"がファイルにアクセスできるかどうか、およびどのようなアクセスが与えられるかを定義します。`読み込み` `書き込み` `実行` のアクセス権があります。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:246
+msgid ""
+"Directories or files have an owner and a group definition. By default the "
+"creator of a file/directory is the owner. But this definition can be "
+"changed. You will learn this in the next section."
+msgstr ""
+"ディレクトリまたはファイルには、所有者とグループ定義があります。デフォルトで、ファイルやディレクトリの作成者が所有者になります。しかし、この変更は変更できます。次の章でまなんでいきましょう。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:248
+msgid "You can show the owner and group via `ls -l`"
+msgstr "所有者と所有グループを  `ls -l` で見ることができます。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:256
+msgid "the initial character can be `-` for a file or `d` for directory"
+msgstr "最初の文字が `-` のときはファイル、 `d` のときはディレクトリです。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:257
+msgid "`user` is defined as the owner and the group"
+msgstr "`user` は、所有者とグループで定義されます"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:259
+msgid "Access rights are listed at the beginning of the row:"
+msgstr "アクセス権は、各行の最初に表示されます。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:261
+msgid "`r` read"
+msgstr "`r` 読み込み"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:262
+msgid "`w` write"
+msgstr "`w` 書き込み"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:263
+msgid "`x` execute"
+msgstr "`x` 実行"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:265
+msgid "first 3 letters for the owner"
+msgstr "最初の3文字は、所有者のアクセス権です。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:266
+msgid "then next 3 letters for the group"
+msgstr "つぎの3文字は、グループのアクセス権です"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:267
+msgid "followed by the last 3 letters for others"
+msgstr "続く3文字は、他者のアクセス権になります。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:271
+msgid "Change the owner with `chown`"
+msgstr "`chown` で所有者を変更する"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:277
+msgid "first pass the user then the group - like `user:www-data`"
+msgstr "`user:www-data` のように前半がユーザで、後半がグループを指定します。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:278
+#: ../../build/doc/quickstart/commandline_quickstart.rst:290
+msgid "`-R` recursive"
+msgstr "`-R` 再帰的"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:282
+msgid "Change access rights with `chmod`"
+msgstr "`chmod` でアクセス権を変更する"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:289
+msgid "777 everyone can do everything"
+msgstr "777 を指定すると、だれでもなんでもできます。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:292
+msgid "number: owner (u)"
+msgstr "number: owner (u)"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:293
+msgid "number: group (g)"
+msgstr "number: group (g)"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:294
+msgid "number: other (o)"
+msgstr "number: other (o)"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:296
+msgid "4 read"
+msgstr "4 読み込み"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:297
+msgid "2 write"
+msgstr "2 書き込み"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:298
+msgid "1 execute"
+msgstr "1 実行"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:300
+msgid ""
+"660 - owner and group are allowed to read and write, other have no rights"
+msgstr "660 - 所有者とグループは、読み書きできますが、他人には一切のアクセス権がありません。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:301
+msgid "744 - owner can do everything, group and others can only read"
+msgstr "744 - 所有者はすべてのことができ、グループと他人は読み込みのみできます。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:303
+msgid "or use it like this"
+msgstr "あるいは次のように指定できます。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:309
+msgid "u = user"
+msgstr "u = user"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:310
+msgid "g = group"
+msgstr "g = group"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:311
+msgid "o = other"
+msgstr "o = other"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:312
+msgid "a = all"
+msgstr "a = all"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:313
+msgid "+/- right: r = read / w = write / x = execute"
+msgstr "+/- right: r = read / w = write / x = execute"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:317
+msgid "Things to try"
+msgstr "試してみること"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:319
+msgid "Here are other commands you may try."
+msgstr "試してみるコマンドが他にもあります。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:321
+msgid "grep - search for a pattern in a text"
+msgstr "grep - テキストのなかから、パターンを検索します。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:322
+msgid "history | grep cd"
+msgstr "history | grep cd"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:323
+msgid "rm - remove a file"
+msgstr "rm - ファイルを削除"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:324
+msgid "rmdir - remove an empty directory"
+msgstr "rmdir - 空になったディレクトリを削除"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:325
+msgid "mv - rename/move"
+msgstr "mv - 名前変更または移動"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:326
+msgid "head - show the beginning of a file"
+msgstr "head - ファイルの冒頭を表示"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:327
+msgid "tail - show the end of a file"
+msgstr "tail - ファイルの末尾を表示"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:328
+msgid "find - search for files in a directory hierarchy"
+msgstr "find - ディレクトリをたどって、ファイルを検索します"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:329
+msgid "locate - find files by name"
+msgstr "locate - 名前でファイルを検索"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:334
+msgid "What next?"
+msgstr "次のステップ"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:336
+msgid ""
+"You have learned some important commands and information to work with the "
+"command line. Hopefully you have discovered how powerful the command line "
+"is."
+msgstr "ここまでで、重要なコマンドとその利用方法について学習してきました。コマンドラインがいかにパワフルか理解できたでしょう。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:338
+msgid "https://ubuntu.com/tutorials/command-line-for-beginners#1-overview"
+msgstr "https://ubuntu.com/tutorials/command-line-for-beginners#1-overview"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:339
+msgid "https://en.wikipedia.org/wiki/Category:Standard_Unix_programs"
+msgstr "https://en.wikipedia.org/wiki/Category:Standard_Unix_programs"

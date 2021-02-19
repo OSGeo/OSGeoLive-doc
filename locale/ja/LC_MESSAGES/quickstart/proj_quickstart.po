@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"PO-Revision-Date: 2021-01-26 00:34+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:22
+msgid "PROJ Quickstart"
+msgstr "PROJクイックスタート"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:24
+msgid ""
+"PROJ is a standard Unix filter function which converts geographic longitude "
+"and latitude coordinates into cartesian coordinates (and vice versa), and it"
+" is a C API for software developers to include coordinate transformation in "
+"their own software."
+msgstr ""
+"PROJは、地理的な経緯度座標をデカルト座標に(またはその逆に)変換する標準的なUnixのフィルタ関数であり、ソフトウェア開発者が自身のソフトウェアに座標変換を含めるためのC"
+" APIです。"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:34
+msgid "PROJ"
+msgstr "PROJ"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:38
+msgid ""
+"**What will I learn ?** In this section, you will learn how to use the PROJ "
+"tool."
+msgstr "**何を学べますか?** このセクションでは、PROJツールの使用方法を学習します。"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:41
+msgid "What is PROJ ?"
+msgstr "PROJとは？"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:43
+msgid ""
+"PROJ and invproj perform respective forward and inverse transformation of "
+"cartographic data to or from cartesian data with a wide range of selectable "
+"projection functions."
+msgstr "PROJとinvprojは、選択可能なデカルト関数を使用して、投影データとの間で地図データの順変換と逆変換を行います。"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:47
+msgid "proj Synopsis"
+msgstr "proj概要"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:53
+#: ../../build/doc/quickstart/proj_quickstart.rst:153
+msgid ""
+"These commands are fully describe in `PROJ documentation "
+"<https://proj.org/apps/proj.html>`_ for the latest version."
+msgstr ""
+"これらのコマンドについては、最新バージョンの  `proj ドキュメント <https://proj.org/apps/proj.html>`_ "
+"で詳しく説明しています。"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:56
+msgid "PROJ Example"
+msgstr "PROJの例"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:58
+#: ../../build/doc/quickstart/proj_quickstart.rst:103
+msgid "The following script"
+msgstr "次のスクリプト"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:69
+msgid ""
+"will perform UTM forward projection with a stan- dard UTM central meridian "
+"nearest longitude 112W. The geographic values of this example are equivalent"
+" and meant as examples of various forms of DMS input. The x-y output data "
+"will appear as three lines of::"
+msgstr ""
+"は、経度112Wに最も近い標準的なUTM中心子午線を使用して、UTM投影を実行します。この例の地理的値は、DMS入力の様々な形式の例として、等価であり、意味があります。x-y"
+" アウトプットデータは、3行で表示され::"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:79
+msgid "cs2cs"
+msgstr "cs2cs"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:83
+msgid ""
+"**What will I learn ?** In this section, you will learn how to use the cs2cs"
+" tool."
+msgstr "**何を学べますか?** このセクションでは、cs2csツールの使用方法を学習します。"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:86
+msgid "What is cs2cs ?"
+msgstr "cs2csとは？"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:88
+msgid ""
+"``cs2cs`` performs transformation between the source and destination "
+"cartographic coordinate system on a set of input points. The coordinate "
+"system transformation can include translation between projected and "
+"geographic coordinates as well as the application of datum shifts."
+msgstr ""
+"``cs2cs`` "
+"は、一連の入力点上で、変換元と変換先の地図作成座標系間の変換を行います。座標系変換には、投影座標と地理座標との間の平行移動や、データムシフトの適用が含まれます。"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:93
+msgid "cs2cs Synopsis"
+msgstr "cs2cs概要"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:98
+msgid ""
+"These commands are fully describe in `cs2cs documentation "
+"<https://proj.org/apps/cs2cs.html>`_ for the latest version."
+msgstr ""
+"これらのコマンドについては、最新版の `cs2cs ドキュメント <https://proj.org/apps/cs2cs.html>`_ "
+"を参照してください。"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:101
+msgid "cs2cs Example"
+msgstr "cs2csの例"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:115
+msgid ""
+"will transform the input NAD83 geographic coordinates into NAD27 coordinates"
+" in the UTM projection with zone 10 selected. The geographic values of this "
+"example are equivalent and meant as examples of various forms of DMS input. "
+"The x-y output data will appear as three lines of:"
+msgstr ""
+"は、zone10を選択した状態で、UTM投影のNAD83地理座標をNAD27座標に変換します。この例の地理的値は、DMS入力の様々な形式の例として、等価であり、意味があります。x-y出力データは、次の3行で表示されます:"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:125
+msgid "geod"
+msgstr "geod"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:129
+msgid ""
+"**What will I learn ?** In this section, you will learn how to use the geod "
+"tool."
+msgstr "**何を学べますか?** このセクションでは、geodツールの使用方法を学習します。"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:132
+msgid "What is geod ?"
+msgstr "geod とは?"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:134
+msgid ""
+"``geod`` (direct) and ``invgeod`` (inverse) perform geodesic (\"Great "
+"Circle\") computations for determining latitude, longitude and back azimuth "
+"of a terminus point given a initial point latitude, longitude, azimuth and "
+"distance (direct) or the forward and back azimuths and distance between an "
+"initial and terminus point latitudes and longitudes (inverse). The results "
+"are accurate to round off for `|f| < 1/50`, where f is flattening."
+msgstr ""
+"``geod`` (直接) と ``invgeod`` (逆) は、測地線 (\"Great Circle\") "
+"計算を実行します。この計算では、最初の点の緯度、経度、方位角、距離 (直接) 、または前後の方位角と最初と最後の点の間の距離 (逆) "
+"を指定します。結果は、 `|f| < 1/50` (fは平坦化) の丸めに適しています。"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:142
+msgid ""
+"``invgeod`` may not be available on all platforms; in this case call geod "
+"with the -I option."
+msgstr ""
+"``invgeod`` はすべてのプラットフォームで利用できるわけではありません。この場合、-Iオプションを指定してgeodを呼び出してください。"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:146
+msgid "geod Synopsis"
+msgstr "geod概要"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:156
+msgid "geod Example"
+msgstr "geodの例"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:158
+msgid ""
+"The following script determines the geodesic azimuths and distance in U.S. "
+"statute miles from Boston, MA, to Portland, OR:"
+msgstr "次のスクリプトは、測地線の方位角と距離を計算します。マサチューセッツ州ボストンからオレゴン州ポートランドまでの法定マイル:"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:167
+msgid "which gives the results:"
+msgstr "結果は次のようになります:"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:173
+msgid ""
+"where the first two values are the azimuth from Boston to Portland, the back"
+" azimuth from Portland to Boston followed by the distance."
+msgstr "ここで、最初の2つの値は、ボストンからポートランドまでの方位角、ポートランドからボストンまでの背面方位角、その後が距離です。"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:176
+msgid ""
+"An example of forward geodesic use is to use the Boston loca- tion and "
+"determine Portland's location by azimuth and distance:"
+msgstr "前方測地線を使用する例として、ボストンの位置を使用し、方位角と距離でポートランドのロケーションを決定する方法を示した事例:"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:185
+msgid "which gives:"
+msgstr "つぎのようになります:"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:192
+msgid ""
+"Lack of precision in the distance value compromises the precision of the "
+"Portland location."
+msgstr "距離の値に精度がないと、ポートランドのロケーションの精度が低下します。"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:197
+msgid "Further reading"
+msgstr "さらに読む"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:199
+msgid "`GeographicLib <https://geographiclib.sourceforge.io/>`_"
+msgstr "`GeographicLib <https://geographiclib.sourceforge.io/>`_"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:201
+msgid ""
+"`C. F. F. Karney, Algorithms for Geodesics, J. Geodesy 87, 43-55 (2013) "
+"<https://link.springer.com/article/10.1007/s00190-012-0578-z>`_. `Addendum "
+"<https://geographiclib.sourceforge.io/geod-addenda.html>`_"
+msgstr ""
+"`C. F. F. Karney, Algorithms for Geodesics, J. Geodesy 87, 43-55 (2013) "
+"<https://link.springer.com/article/10.1007/s00190-012-0578-z>`_. `Addendum "
+"<https://geographiclib.sourceforge.io/geod-addenda.html>`_"
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:204
+msgid ""
+"`The online geodesic bibliography <https://geographiclib.sourceforge.io"
+"/geodesic-papers/biblio.html>`_"
+msgstr ""
+"`The online geodesic bibliography <https://geographiclib.sourceforge.io"
+"/geodesic-papers/biblio.html>`_"

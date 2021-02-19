@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-02-06 18:01-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -91,6 +91,11 @@ msgstr "**API インタフェース:** コマンドライン"
 #: ../../build/doc/overview/gmt_overview.rst:56
 msgid "**Support:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
 msgstr "**サポート:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
+
+#: ../../build/doc/overview/gmt_overview.rst:59
+msgid ""
+"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr "このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています"
 
 #: ../../build/doc/overview/gmt_overview.rst:62
 msgid "Quickstart"

@@ -119,32 +119,36 @@ msgid ""
 "functions in the catalog, then select the **Metadata and templates** "
 "menuitem to access the sample data and templates tab."
 msgstr ""
+"トップツールバーの **管理コンソール** を選択してカタログ内の管理機能にアクセスし、 **メタデータとテンプレート** "
+"メニューを選択してサンプルデータとテンプレートタブにアクセスします。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:74
 msgid ""
 "This page lists all the metadata standards loaded in the catalog. The "
 "default standards in GeoNetwork are:"
 msgstr ""
+"このページには、カタログにロードされているすべてのメタデータ標準が一覧表示されます。GeoNetwork の既定の標準規格は次のとおりです:"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:76
 msgid "Geographic information - Metadata (iso19139:2007)"
-msgstr ""
+msgstr "Geographic information - Metadata (iso19139:2007)"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:77
 msgid "Geographic information - Metadata (iso19115-3.2018)"
-msgstr ""
+msgstr "Geographic information - Metadata (iso19115-3.2018)"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:78
 msgid "Dublin Core (for CSW only) (csw-record)"
-msgstr ""
+msgstr "Dublin Core (for CSW only) (csw-record)"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:79
 msgid "Dublin Core (dublin core)"
-msgstr ""
+msgstr "Dublin Core (dublin core)"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:80
 msgid "Geographic information - Methodology for feature cataloguing (iso9110)"
 msgstr ""
+"Geographic information - Methodology for feature cataloguing (iso9110)"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:82
 msgid ""
@@ -152,12 +156,14 @@ msgid ""
 "- Metadata (iso19139:2007)`` and then select first the **Load samples for "
 "selected standards** button below the list."
 msgstr ""
+"このクイックスタートガイドでは、 ``Geographic information - Metadata (iso19139:2007)`` "
+"を選択し、一覧の下にある **Load samples for selected standards** ボタンをクリックします。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:87
 msgid ""
 "*When this process is complete, a notice will appear in the right of the "
 "window indicating that 5 record(s) have been added for schema ‘iso19139’.*"
-msgstr ""
+msgstr "*このプロセスが完了すると、ウィンドウの右側に、スキーマ「iso19139」に5つのレコードが追加されたことを示す通知が表示されます。*"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:90
 msgid "Search for spatial data"
@@ -272,8 +278,8 @@ msgid ""
 "and Central Eurasia (Sample record, please remove!)** to view the metadata. "
 "Move down the page until the **Download and links** section is visible."
 msgstr ""
-"**検索タブ** から、 **Physiographic Region of North and Central "
-"Eurasia(これはサンプルです。削除できます!)** のカードをクリックしてメタデータをビューに移動します。マップページを下へ移動して、 "
+"**検索タブ** から、 **Physiographic Region of North and Central Eurasia "
+"(これはサンプルです。削除できます!)** のカードをクリックしてメタデータをビューに移動します。マップページを下へ移動して、 "
 "**ダウンロードとリンク** セクションを表示します。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:152
@@ -293,7 +299,8 @@ msgstr "Webページなどの詳細情報"
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:156
 msgid ""
 "A Web Mapping Service (WMS) or Web Feature Service (WFS) link to the data."
-msgstr "Web Mapping Service(WMS)またはWeb Feature Service(WFS)がデータにリンクしています。"
+msgstr ""
+"Web Mapping Service (WMS) または Web Feature Service (WFS) がデータにリンクしています。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:158
 msgid ""
@@ -330,7 +337,7 @@ msgstr "マップにレイヤーを追加カタログを検索したり、Webサ
 msgid ""
 "Manage existing layers or change the background map (the default is "
 "openstreetmap),"
-msgstr "既存のレイヤーを管理するか、背景のマップを変更します(既定はOpenStreetMap)。"
+msgstr "既存のレイヤーを管理するか、背景のマップを変更します (既定はOpenStreetMap)。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:172
 msgid "Filter layers on the map (if configured),"
@@ -382,7 +389,7 @@ msgstr "マップの最初の範囲にズーム"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:190
 msgid "Zoom to your position (if your browser is location-enabled),"
-msgstr "自分の位置にズームします(ブラウザがロケーション対応の場合)。"
+msgstr "自分の位置にズームします (ブラウザがロケーション対応の場合)。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:191
 msgid "Add a graticule (grid lines) to your map."
@@ -410,8 +417,8 @@ msgid ""
 "you the classification used for the display. You can dismiss this dialog by "
 "selecting the **X** in the top right corner."
 msgstr ""
-"レイヤの横にある **paintbrush** "
-"アイコンを選択すると、凡例が表示され、表示に使用された分類が表示されます。このダイアログを閉じるには、右上隅の **X** を選択します。"
+"レイヤの横にある **ペイントブラシ** アイコンを選択すると、凡例が表示され、表示に使用された分類が表示されます。このダイアログを閉じるには、右上隅の"
+" **X** を選択します。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:211
 msgid ""
