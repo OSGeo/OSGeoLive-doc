@@ -1,0 +1,247 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-06 18:01-0600\n"
+"PO-Revision-Date: 2021-02-07 00:37+0000\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:18
+msgid "XyGrib Quickstart"
+msgstr "XyGrib Quickstart"
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:20
+msgid ""
+"XyGrib is a program to download and visualize weather forecast data in the "
+"standard GRIB distribution format."
+msgstr ""
+"XyGrib ist ein Programm, um Daten zur Wettervorhersage im standardmäßigen "
+"GRIB-Format herunterzuladen und zu visualisieren."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:26
+msgid "Start XyGrib"
+msgstr "Start XyGrib"
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:28
+msgid ""
+"From the desktop, choose :menuselection:`Navigation and Maps --> XyGrib GRIB"
+" file viewer`."
+msgstr ""
+"Wählen Sie auf dem Desktop :menuselection:'Navigation and Maps --> XyGrib "
+"GRIB file viewer'."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:29
+msgid ""
+"Select your preferred language and click :guilabel:`OK`. The program opens "
+"and you are presented with a map of the world."
+msgstr ""
+"Wählen Sie Ihre bevorzugte Sprache und klicken Sie auf :guilabel:'OK'. Das "
+"Programm wird geöffnet und Sie erhalten eine Weltkarte."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:30
+msgid ""
+"Check the connection to the data server. On the toolbar at the top right of "
+"the screen, click the power plug icon. The File Server Status window opens "
+"and after a moment, it will confirm the status of the connection."
+msgstr ""
+"Überprüfen Sie die Verbindung zum Datenserver. Klicken Sie auf der "
+"Symbolleiste oben rechts auf dem Bildschirm auf das Netzsteckersymbol. Das "
+"Fenster Dateiserverstatus wird geöffnet und nach einem Moment wird der "
+"Status der Verbindung bestätigt."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:33
+msgid ""
+"You'll need an internet connection to download GRIB weather forecast data. "
+"You can get GRIB data from many sources, but as a convenience the XyGrib "
+"authors maintain a data server to use with XyGrib."
+msgstr ""
+"Sie benötigen eine Internetverbindung, um GRIB Wettervorhersagedaten "
+"herunterzuladen. Sie können GRIB-Daten aus vielen Quellen beziehen, aber aus"
+" Bequemlichkeit unterhalten die XyGrib-Autoren einen Datenserver, der mit "
+"XyGrib verwendet werden kann."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:37
+msgid "Download data"
+msgstr "Daten herunterladen"
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:39
+msgid ""
+"Use the mouse to click and drag a box on the map canvas on a part of the "
+"world you are interested in. The Gulf of Mexico or the southern tip of "
+"Africa often have dynamic winds."
+msgstr ""
+"Klicken und ziehen Sie mit der Maus ein Feld auf der Karte in dem Bereich "
+"auf, an dem Sie interessiert sind. Der Golf von Mexiko oder die südliche "
+"Spitze Afrikas haben oft dynamische Winde."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:40
+msgid ""
+"With your box drawn on the map, click the zoom-to-box icon on the taskbar "
+"(the magnifying glass with a small box underneath it)"
+msgstr ""
+"Wenn das Feld auf der Karte gezeichnet ist, klicken Sie auf das Zoom-to-Box-"
+"Symbol in der Taskleiste (die Lupe mit einem kleinen Feld darunter)"
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:41
+msgid ""
+"Again,  mark out a box of interest with a left-click drag, but this time "
+"covering most or all of the zoomed-in map canvas."
+msgstr ""
+"Ziehen Sie erneut einen Bereich mit einem Linksklick-Ziehen auf, das jedoch "
+"dieses Mal den größten Teil oder den gesamten vergrößerten Kartenbereich "
+"abdeckt."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:42
+msgid ""
+"Select :menuselection:`File --> Download GRIB` and select the features you "
+"want to download. If in doubt, accept the defaults."
+msgstr ""
+"Wählen Sie :menuselection:`File --> Download GRIB` und wählen Sie die "
+"Funktionen aus, die Sie herunterladen möchten. Wählen Sie im Zweifelsfall "
+"die Standardwerte."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:43
+msgid "When ready click the ``Download`` button, and save the file to disk."
+msgstr ""
+"Wenn Sie fertig sind, klicken Sie auf die Schaltfläche ''Download'' und "
+"speichern Sie die Datei."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:45
+msgid ""
+"The application displays a weather map with a time slider along the bottom, "
+"set for the current time. You can use the mouse wheel to zoom in if you "
+"like."
+msgstr ""
+"Die Anwendung zeigt eine Wetterkarte mit einem Zeitschieberegler entlang der"
+" Unterseite. Dieser ist auf die aktuelle Zeit eingestellt. Sie können das "
+"Mausrad verwenden, um die Karte zu vergrößern, wenn Sie möchten."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:49
+msgid "Change views"
+msgstr "Ansichten anpassen"
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:51
+msgid ""
+"Move the mouse around the map you'll see the exact conditions listed in the "
+"pane on the left."
+msgstr ""
+"Bewegen Sie die Maus auf der Karte, sie sehen die genauen Bedingungen im "
+"Bereich auf der linken Seite aufgeführt."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:52
+msgid ""
+"You can change the time by moving the slider along the bottom, or from the "
+"drop down menu in the top-left of the window."
+msgstr ""
+"Sie können die Uhrzeit ändern, indem Sie den Schieberegler am unteren Rand "
+"oder über das Dropdown-Menü oben links im Fenster verschieben."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:53
+msgid ""
+"From the ``Weather map`` menu, select a variable to visualize. For example, "
+"select :menuselection:`Weather map --> Cloud cover` and the view should "
+"change."
+msgstr ""
+"Wählen Sie im Menü ``Weather map``  eine Variable aus, die visualisiert "
+"werden soll. Wählen Sie beispielsweise :menuselection:`Wetterkarte --> "
+"Wolkenabdeckung` und die Ansicht sollte sich ändern."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:55
+msgid ""
+"If you downloaded data for the Gulf of Mexico you'll be interested to view "
+"the CAPE data. \"CAPE\" stands for Convective Available Potential Energy at "
+"ground level. It is a measure of atmospheric instability, and high values "
+"(1000s of J/kg) indicate a threat of thunderstorms and/or tornadoes."
+msgstr ""
+"Wenn Sie Daten für den Golf von Mexiko heruntergeladen haben, werden Sie "
+"daran interessiert sein, die CAPE-Daten anzuzeigen. \"CAPE\" steht für "
+"Convective Available Potential Energy at ground level. Es ist ein Maß für "
+"die atmosphärische Instabilität, und hohe Werte (1000 J/kg) deuten auf die "
+"Gefahr von Gewittern und/oder Tornados hin."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:57
+msgid ""
+"If you downloaded data for southern Africa, cloud cover may be more "
+"interesting."
+msgstr ""
+"Wenn Sie Daten für das südliche Afrika heruntergeladen haben, kann die "
+"Cloud-Abdeckung interessanter sein."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:61
+msgid "Create an animation"
+msgstr "Erstellen einer Animation"
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:63
+msgid ""
+"Click the right-hand most icon on the toolbar (a rocketship). A new window "
+"opens and an animation will be generated."
+msgstr ""
+"Klicken Sie auf das rechte Symbol auf der Symbolleiste (ein Raketenschiff). "
+"Ein neues Fenster wird geöffnet und eine Animation wird generiert."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:64
+msgid ""
+"Wait while it runs through the time sequence for the first time. When it is "
+"done it will rewind to the beginning of the time series."
+msgstr ""
+"Warten Sie, während es zum ersten Mal durch die Zeitsequenz läuft. Wenn es "
+"fertig ist, wird es zum Anfang der Zeitreihe zurückspulen."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:65
+msgid "You can play, pause and rewind the sequence as you like."
+msgstr ""
+"Sie können die Sequenz nach Belieben wiedergeben, anhalten und zurückspulen."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:66
+msgid ""
+"You can also save each frame as an image file for later encoding into an "
+"AVI, MPEG, or animated GIF `using other software "
+"<https://grasswiki.osgeo.org/wiki/Movies>`_."
+msgstr ""
+"Sie können jeden Ausschnitt auch als Bilddatei als AVI, MPEG oder animiertes"
+" GIF `mit anderer Software <https://grasswiki.osgeo.org/wiki/Movies>`_ "
+"speichern."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:67
+msgid "When you're done, click the red power button to close."
+msgstr ""
+"Wenn Sie fertig sind, klicken Sie auf den roten Button, zum Schließen."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:71
+msgid "What next?"
+msgstr "Was kommt als Nächstes?"
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:73
+msgid ""
+"The :doc:`OpenCPN software <../overview/opencpn_overview>` (also on this "
+"disc) has a GRIB overlay plugin which you may try with your newly downloaded"
+" GRIB file. See the :doc:`OpenCPN quickstart "
+"<../quickstart/opencpn_quickstart>` for details."
+msgstr ""
+"Die :doc:`OpenCPN Software <../overview/opencpn_overview>`  (auch auf "
+"OSGeoLive) hat ein GRIB-Overlay-Plugin, das Sie mit Ihrer neu "
+"heruntergeladenen GRIB-Datei ausprobieren können. Details finden Sie im "
+":doc:`OpenCPN Quickstart <../quickstart/opencpn_quickstart>`."
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:79
+msgid "Website: https://opengribs.org"
+msgstr "Webseite: https://opengribs.org"
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:80
+msgid "Support: https://opengribs.org/en/support-forum"
+msgstr "Support: https://opengribs.org/en/support-forum"

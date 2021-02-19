@@ -5,9 +5,9 @@
 # 
 # Translators:
 # Peter Czaja <pczaja@gmx.de>, 2019
-# Astrid Emde <astrid_emde@osgeo.org>, 2020
 # John Kennedy <julius.krey@wheregroup.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,17 +58,19 @@ msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:32
 msgid "Start JOSM"
-msgstr ""
+msgstr "JOSM starten"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:34
 msgid ""
 "From the desktop, choose :menuselection:`Navigation and Maps --> JOSM`. When"
 " JOSM starts, it will look something like this:"
 msgstr ""
+"Wählen Sie auf dem Desktop :menuselection:'Navigation and Maps --> JOSM'. "
+"Wenn JOSM startet, sieht es etwa so aus:"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:41
 msgid "Load a sample (ficticious) map"
-msgstr ""
+msgstr "Laden einer Beispielkarte (fiktive)"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:43
 msgid ""
@@ -109,6 +111,8 @@ msgid ""
 "Click on it, and then click “Open”. You should now see a sample map that "
 "looks like this:"
 msgstr ""
+"Klicken Sie auf die Ansicht und anschließend auf \"Öffnen\". Sie sollten nun"
+" eine Beispielkarte sehen, die wie folgt aussieht:"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:62
 msgid ""
@@ -121,7 +125,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:67
 msgid "Navigate the map"
-msgstr ""
+msgstr "Navigieren in der Karte"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:69
 msgid ""
@@ -383,12 +387,16 @@ msgstr ""
 #: ../../build/doc/quickstart/josm_quickstart.rst:183
 msgid "Select one of the objects that you drew with the Draw tool."
 msgstr ""
+"Wählen Sie eines der Objekte aus, die Sie mit dem Zeichenwerkzeug gezeichnet"
+" haben."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:184
 msgid ""
 "On the top menu, click “Presets” and choose the type of location you would "
 "like to define."
 msgstr ""
+"Klicken Sie im oberen Menü auf \"Presets\" und wählen Sie den Bereich, den "
+"Sie definieren möchten."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:185
 msgid ""

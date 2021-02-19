@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Astrid Emde <astrid_emde@osgeo.org>, 2020
+# Jan Suleiman <suleiman@terrestris.de>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-06 18:01-0600\n"
+"PO-Revision-Date: 2020-10-21 15:59+0000\n"
+"Last-Translator: Jan Suleiman <suleiman@terrestris.de>, 2021\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:16
+msgid "GeoStyler Quickstart"
+msgstr "GeoStyler Quickstart"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:18
+msgid ""
+"This Quickstart describes the basic steps required to start working with "
+"GeoStyler: installing GeoStyler and adding a first UI component to your "
+"react application."
+msgstr ""
+"Dieses Quickstart beschreibt die grundlegenden Schritte, die notwendig sind,"
+" um mit GeoStyler zu arbeiten: Die Installation von GeoStyler, sowie das "
+"Hinzufügen einer ersten UI Komponente zu Ihrer react Anwendung."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:20
+msgid ""
+"A complete beginner tutorial can be found on `localhost/geostyler "
+"<localhost/geostyler>`__."
+msgstr ""
+"Ein vollständiges Anfängertutorial kann auf `localhost/geostyler "
+"<localhost/geostyler>`__ gefunden werden."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:22
+msgid ""
+"GeoStyler makes it easy to style geodata in any web page. The UI is "
+"independent from any styling format and should be usable for e.g. OpenLayer "
+"or SLD."
+msgstr ""
+"GeoStyler ermöglicht es geographische Stilinformationen für Geodaten auf "
+"einfache Art und Weise im Web zu editieren. Die UI funktioniert Stilformat "
+"unabhängig und kann beispielsweise mit OpenLayers oder SLD genutzt werden."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:28
+msgid "Installing GeoStyler"
+msgstr "GeoStyler installieren"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:30
+msgid ""
+"In order to use GeoStyler, you need to have ``node.js`` installed on your "
+"system. Instructions on how to install ``node.js`` can be found on the "
+"`node.js homepage <https://nodejs.org/>`__."
+msgstr ""
+"Um GeoStyler zu verwenden muss ``node.js`` auf Ihrem System installiert "
+"sein. Anleitungen zur Installation von ``node.js`` können auf der `node.js "
+"homepage <https://nodejs.org/>`__ gefunden werden."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:34
+msgid ""
+"It is recommended to install GeoStyler for each project separately. This "
+"sections describes the required steps."
+msgstr ""
+"Wir empfehlen GeoStyler für jedes Projekt separat zu installieren. Dieser "
+"Abschnitt beschreibt die dazu notwendigen Schritte."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:37
+msgid ""
+"The most simple way to install GeoStyler is to use ``npm`` that comes with "
+"the ``node.js`` installation. Simply run following command from your project"
+" root:"
+msgstr ""
+"Der einfachste Weg GeoStyler zu installieren ist mittels ``npm``, was bei "
+"der Installation von ``node.js`` mitgeliefert wird. Führen Sie einfach "
+"folgenden Befehl auf root-Ebene des jeweiligen Projekts aus:"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:44
+msgid ""
+"Please make sure that all peer dependencies are installed in the specified "
+"versions:"
+msgstr ""
+"Bitte stellen Sie sicher, dass alle peer dependencies in den angegebenen "
+"Versionen installiert wurden:"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:50
+msgid "Don't forget to install the parsers you want to use:"
+msgstr ""
+"Denken Sie daran, die Parser zu installieren, die Sie verwenden möchten:"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:58
+msgid "Integrate GeoStyler"
+msgstr "GeoStyler integrieren"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:60
+msgid ""
+"Import the GeoStyler ``Style`` component into your application as follows:"
+msgstr ""
+"Importieren Sie die GeoStyler ``Style`` Komponente folgendermaßen in Ihre "
+"Anwendung:"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:66
+msgid "The ``Style`` component provides a variety of styling functionality."
+msgstr ""
+"Die ``Style`` Komponente stellt eine Vielzahl an Stylingfunktionalität "
+"bereit."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:68
+msgid "After importing, you can use it in your render method like this:"
+msgstr ""
+"Nach dem Importieren kann sie folgendermaßen in der render-Methode verwendet"
+" werden:"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:76
+msgid "The ``Style`` component should now be visible in the browser."
+msgstr "Die ``Style`` Komponente sollte jetzt im Browser sichtbar sein."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:81
+msgid "Integrate geostyler-sld-parser"
+msgstr "geostyler-sld-parser integrieren"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:83
+msgid ""
+"To edit an existing SLD via GeoStyler, we first have to import and "
+"instantiate the ``geostyler-sld-parser``."
+msgstr ""
+"Um ein bestehendes SLD mittels GeoStyler zu editieren, müssen wir zunächst "
+"den ``geostyler-sld-parser`` importieren und instanziieren."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:90
+msgid ""
+"Afterwards, we are able to read an existing SLD into the GeoStyler-readable "
+"format."
+msgstr ""
+"Anschließend können wir ein existierendes SLD in das GeoStyler-lesbare "
+"Format überführen."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:120
+msgid ""
+"To connect this style with the UI, we have to store it in a state variable "
+"and pass it to our ``Style`` component. After defining ``myStyle`` as a "
+"state variable, you can use it as follows:"
+msgstr ""
+"Um diesen Stil mit der UI zu verbinden, müssen wir ihn in einer state-"
+"Variablen speichern und ihn an unsere ``Style`` Komponente weitergeben. "
+"Nachdem ``myStyle`` als state-Variable definiert wurde, können wir sie wie "
+"folgt nutzen:"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:157
+msgid "The GeoStyler UI should now match the style that was defined as SLD."
+msgstr ""
+"Die GeoStyler UI sollte jetzt dem im SLD definierten Stil entsprechen."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:159
+msgid ""
+"To get the edited style as SLD from the ``Style`` component, you can use the"
+" ``writeStyle()`` method of the geostyler-sld-parser within the "
+"``onStyleChange()`` method of the ``Style`` component."
+msgstr ""
+"Um den editierten Stil als SLD von der ``Style`` Komponente zu erhalten, "
+"kann die ``writeStyle()``-Methode des geostyler-sld-parsers innerhalb der "
+"``onStyleChange()``-Methode der ``Style`` Komponente verwendet werden."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:202
+msgid "Things to try"
+msgstr "Was Sie noch ausprobieren können"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:204
+msgid ""
+"As a next step, you can try to add an `OpenLayers "
+"<https://openlayers.org/>`__ map and connect the ``Style`` component to the "
+"map, so that you can directly see the changes you made on the map."
+msgstr ""
+"Probieren Sie doch als nächsten Schritt eine OpenLayers "
+"<https://openlayers.org/>`__ Karte hinzuzufügen und die ``Style`` Komponente"
+" mit der Karte zu verknüpfen. Dadurch können Stiländerungen direkt in der "
+"Karte dargestellt werden."
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:208
+msgid "What next?"
+msgstr "Was kommt als Nächstes?"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:210
+msgid "Check out these other resources about this application."
+msgstr "Weitere GeoStyler Informationen finden Sie hier:"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:212
+msgid ""
+"`GeoStyler Documentation "
+"<https://geostyler.github.io/geostyler/latest/index.html>`__"
+msgstr ""
+"`GeoStyler Dokumentation "
+"<https://geostyler.github.io/geostyler/latest/index.html>`__"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:213
+msgid ""
+"`Beginner Tutorial <https://geostyler.github.io/geostyler-beginner-"
+"workshop>`__"
+msgstr ""
+"`Anfänger Tutorial <https://geostyler.github.io/geostyler-beginner-"
+"workshop>`__"
+
+#: ../../build/doc/quickstart/geostyler_quickstart.rst:214
+msgid "`geostyler.org Website <https://geostyler.org>`__"
+msgstr "`geostyler.org Website <https://geostyler.org>`__"

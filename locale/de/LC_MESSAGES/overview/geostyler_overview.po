@@ -7,6 +7,7 @@
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2020
 # Astrid Emde <astrid_emde@osgeo.org>, 2021
+# Jan Suleiman <suleiman@terrestris.de>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:08-0500\n"
 "PO-Revision-Date: 2020-10-21 15:59+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
+"Last-Translator: Jan Suleiman <suleiman@terrestris.de>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -100,9 +101,9 @@ msgid ""
 "Graphical User Interface (GUI) including support for reordering of rules, a "
 "mapview, pickers for colors and symbols and a ton more"
 msgstr ""
-"Grafische Benutzeroberfläche (GUI) einschließlich Unterstützung für die "
+"Grafische Benutzeroberfläche (GUI) einschließlich der Unterstützung für die "
 "Neuanordnung von Regeln, eine Kartenansicht, Farb- und Symbolauswahl und "
-"viele mehr"
+"vieles mehr"
 
 #: ../../build/doc/overview/geostyler_overview.rst:46
 msgid "Has a GUI - but you are not required to use it"

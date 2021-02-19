@@ -5,7 +5,6 @@
 # 
 # Translators:
 # Astrid Emde <astrid_emde@osgeo.org>, 2018
-# Andreas Schild <andreas.schild@bfw.gv.at>, 2019
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # 
 #, fuzzy
@@ -13,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-02-06 18:01-0600\n"
 "PO-Revision-Date: 2017-01-21 16:46+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -98,10 +97,7 @@ msgstr "Präsentation"
 
 #: ../../build/doc/index.rst:70
 msgid ""
-"A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive "
-"applications, is available with slides, script, and `abstract "
+"A half hour `presentation <./presentation.html>`_, highlighting all "
+"OSGeoLive applications, is available with slides, script, and `abstract "
 "<presentation/abstract.txt>`_."
 msgstr ""
-"Eine halbstündige `Präsentation <presentation.html>`_,  mit Erläuterungen zu"
-" allen OSGeoLive Programmen ist als Folien mit Manuskript und `Einführung "
-"<presentation/abstract.txt>`_ verfügbar."

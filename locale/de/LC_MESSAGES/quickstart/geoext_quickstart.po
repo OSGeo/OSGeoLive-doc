@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Astrid Emde <astrid_emde@osgeo.org>, 2019
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2019-07-17 15:40+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:27
 msgid "Create an HTML page"
-msgstr ""
+msgstr "Erstellen einer HTML-Seite"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:29
 msgid ""
@@ -55,6 +55,10 @@ msgid ""
 "application. We'll use the text editor FeatherPad installed on OSGeoLive to "
 "create a new HTML file at ``/var/www/html/geoext/demo.html``"
 msgstr ""
+"In diesem Schritt richten wir eine leere HTML-Seite ein, die die Anwendung "
+"enthält. Wir verwenden den auf OSGeoLive installierten Texteditor "
+"FeatherPad, um eine neue HTML-Datei unter ''/var/www/html/geoext/demo.html''"
+" zu erstellen."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:31
 msgid ""
@@ -62,6 +66,9 @@ msgid ""
 "save the file, using System Tools > QTerminal and then running run the "
 "command below:"
 msgstr ""
+"Öffnen Sie FeatherPad über die Befehlszeile mit erhöhten Berechtigungen, so "
+"dass Sie die Datei mit System Tools > QTerminal speichern und dann den "
+"folgenden Befehl ausführen können:"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:37
 msgid ""
@@ -70,6 +77,10 @@ msgid ""
 " OpenLayers JavaScript libraries, and two CSS files used to style ExtJS and "
 "OpenLayers components."
 msgstr ""
+"Fügen Sie den folgenden HTML-Code ein und speichern Sie die Datei als  "
+"``/var/www/html/geoext/demo.html``. Dieser enthält Links zu den JavaScript-"
+"Bibliotheken ExtJS und OpenLayers sowie zwei CSS-Dateien, die zum "
+"Formatieren von ExtJS- und OpenLayers-Komponenten verwendet werden."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:39
 msgid ""
@@ -85,6 +96,8 @@ msgid ""
 "You should now be able to view an empty HTML page in Firefox at "
 "http://localhost/geoext/demo.html"
 msgstr ""
+"Sie sollten nun eine leere HTML-Seite im Firefox unter "
+"http://localhost/geoext/demo.html aufrufen können."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:72
 msgid ""
@@ -93,21 +106,31 @@ msgid ""
 "``Ext.onReady`` function. Placing code here ensures the JavaScript libraries"
 " have been loaded before running any custom JavaScript code."
 msgstr ""
+"Der gesamte JavaScript-Code der folgenden Sektion sollte nach dem folgenden "
+"Kommentar ``// all JavaScript application code should go here`` eingefügt "
+"werden. An dieser Stelle wird gewährleistet, dass die JavaScript-"
+"Bibliotheken geladen wurden, bevor benutzerdefinierter JavaScript-Code "
+"ausgeführt wird."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:76
 msgid "Configure OpenLayers objects"
-msgstr ""
+msgstr "Konfigurieren von OpenLayers-Objekten"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:78
 msgid ""
 "Next we will configure some OpenLayers objects used by the application."
 msgstr ""
+"Als Nächstes konfigurieren wir einige OpenLayers-Objekte, die von der "
+"Anwendung verwendet werden."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:80
 msgid ""
 "First lets create a map tile layer using OpenStreetMap, and some WMS layers "
 "that are available from the MapServer Itasca demo on OSGeoLive."
 msgstr ""
+"Zunächst können Sie einen Kartenkachel-Layer mit OpenStreetMap und einige "
+"WMS-Layer erstellen, die über die MapServer Itasca-Demo auf OSGeoLive zur "
+"Verfügung stehen."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:116
 msgid ""
@@ -134,13 +157,15 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:155
 msgid "Work with GeoExt components"
-msgstr ""
+msgstr "Arbeiten mit GeoExt-Komponenten"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:157
 msgid ""
 "Now the map and layers have been configured we are going to create and "
 "configure our GeoExt components."
 msgstr ""
+"Jetzt sind die Karte und die Layer konfiguriert, wir werden nun unsere "
+"GeoExt-Komponenten erstellen und konfigurieren."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:159
 msgid ""
@@ -148,6 +173,9 @@ msgid ""
 "OpenLayers map we created, and will be positioned in the 'center' region of "
 "our application."
 msgstr ""
+"Zuallererst erstellen wir eine ''GeoExt.component.Map''. Diese verwendet die"
+" OpenLayers-Karte, die wir erstellt haben, und wird im Bereich \"center\" "
+"unserer Anwendung positioniert"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:169
 msgid ""
@@ -191,7 +219,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:242
 msgid "Create a viewport"
-msgstr ""
+msgstr "Erstellen einer Ansicht"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:244
 msgid ""
