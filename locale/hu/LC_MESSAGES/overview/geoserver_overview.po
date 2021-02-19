@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # MarPetra <mvergaratrejo@gmail.com>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,7 +41,7 @@ msgstr ""
 "A GeoServer egy web szerver, mely  lehetővé teszi önnek, hogy különböző "
 "formátumú térképeket és adatokat szolgáltasson szabványos klienseknek mint "
 "például web böngészők és asztali GIS programok. Az adatokat szabványokon "
-"alapuló interfészeken keresztül publokálja, mint például WMS, WFS, WCS, WPS,"
+"alapuló interfészeken keresztül publikálja, mint például WMS, WFS, WCS, WPS,"
 " Tile Cache és továbbiak. A GeoServer böngésző alapú kezelő felülettel "
 "érkezik és több adatforráshoz kapcsolódik a szerver oldalon."
 
@@ -81,8 +81,8 @@ msgstr ""
 msgid ""
 "**Data is served as safe and quick images using WMS and WMTS protocols:**"
 msgstr ""
-"**Az adatokat biztonságos és gyors képekként szolgáltatja WMS és WMTS "
-"protokolok használatával:**"
+"**Az adatokat biztonságosan és gyorsan képként szolgáltatja WMS és WMTS "
+"protokollok használatával:**"
 
 #: ../../build/doc/overview/geoserver_overview.rst:47
 msgid ""
@@ -96,9 +96,9 @@ msgid ""
 msgstr ""
 "Mivel az adatokat képként szolgáltatjuk, az adatai teljes biztonságban "
 "vannak. Hacsak nem digitalizálják újra  nincs lehetőség az adatainak "
-"ellopására. Az egyes térkép rétegek megjelenését SLD szabvány "
+"ellopására. Az egyes térképi rétegek megjelenése SLD szabvány "
 "felhasználásával vezérelhető, mely lehetővé teszi az elemek színezését és "
-"címkézését.Az OGC szűrőkkel kombinálva ezeket a szabályokat, méretarány "
+"címkézését. Ezeket a szabályokat az OGC szűrőkkel kombinálva , méretarány "
 "függő stílusokat implementálhatunk, lehető téve, hogy több részlet jelenjen "
 "meg ahogy a felhasználó nagyít. Címke ütközést, csoportosítást és prioritást"
 " is implementálták."

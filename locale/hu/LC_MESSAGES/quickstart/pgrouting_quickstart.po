@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"POT-Creation-Date: 2021-02-06 18:01-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -114,7 +114,7 @@ msgid "The :command:`\\\\d` command will list all available tables and sequences
 msgstr ""
 "A  :command:`\\\\d` parancs az összes elérhető táblát szekvenciát listázza"
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:211
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:207
 msgid ""
 "osm2pgrouting loads the OSM identifiers `osm_id` and it also generates a "
 "unique identifier for all the data: `id` on the vertices, `gid` on the "
@@ -123,16 +123,16 @@ msgstr ""
 "Az osm2pgrouting betölti az OSM azonosítókat `osm_id` és egyedi azonosítókat"
 " generál az adatokhoz: `id` a töréspontokhoz, `gid` as élekhez."
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:220
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:279
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:216
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:275
 msgid "The results are:"
 msgstr "Az eredmények:"
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:232
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:228
 msgid "Inner Query"
 msgstr "Belső lekérdezés"
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:234
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:230
 msgid ""
 "Most of the pgRouting functions have a parameter that is an SQL statement, "
 "it is called **inner query**"
@@ -140,7 +140,7 @@ msgstr ""
 "A legtöbb pgRouting függvénynek van egy paramétere, mely egy SQL kifejezés, "
 "ezt **belső lekérdezésnek** nevezzük"
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:237
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:233
 msgid ""
 "The inner SQL statement must always have field names `id`, `source`, "
 "`target`, and `cost` having `reverse_cost` as optional."
@@ -148,11 +148,11 @@ msgstr ""
 "A belső SQL kifejezésnek mindig tartalmaznia kell az id`, `source`, "
 "`target`, és `cost` mező neveket és opcionálisan a `reverse_cost`-ot."
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:240
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:236
 msgid "Inner query that use `gid` as identifier of the segments"
 msgstr "Belső lekérdezés, mely a szakaszok `gid` azonosítóját használja"
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:249
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:245
 msgid ""
 "Inner query that use `gid` as identifier of the segments and lenght as "
 "`cost` without the optional `reverse_cost`"
@@ -160,11 +160,11 @@ msgstr ""
 "Belső lekérdezés, mely a szakaszok `gid` azonosítóját  és `cost`-ként a "
 "hosszát használja az opcionális `reverse_cost` nélkül"
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:261
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:257
 msgid "pgr_Dijkstra"
 msgstr "pgr_Dijkstra"
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:263
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:259
 msgid ""
 "Run the Dijkstra shortest path function based on the time in seconds to "
 "traverse a segment on an undirected graph, using `id` as the identifier of a"
@@ -173,11 +173,11 @@ msgstr ""
 "A Dijkstra legrövidebb útvonal  futtatása egy irányítatlan gráfban az "
 "utazási időre alapozva, a csomópont `id`-k használatával"
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:302
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:298
 msgid "A query that use the OSM identifier becomes:"
 msgstr "Az OSM azonosítót használó lekérdezés a következő:"
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:315
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:311
 msgid ""
 "Because the query is using fields `source_osm` and `target_osm` the query "
 "aliases them to have the required names `source` and `target`."
@@ -186,23 +186,23 @@ msgstr ""
 "lekérdezés álneveket rendel hozzájuk a szükséges `source` és `target "
 "nevekkel`."
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:318
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:314
 msgid "Output is:"
 msgstr "Az eredmény:"
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:340
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:336
 msgid "The costs are the same as in the first query"
 msgstr "A költségek megegyeznek az első lekérdezéssel"
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:343
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:339
 msgid "A query to get the geometry of the path"
 msgstr "Egy lekérdezés az útvonal geometriájának beszerzésére"
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:344
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:340
 msgid "The results of `pgr_dijkstra` need to be joined with the table ways."
 msgstr "A \"pgr_dijkstra\" eredményeit össze kell kapcsolni az utak táblával."
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:360
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:356
 msgid ""
 "The results, for visual purposes are truncated here, the geometries are much"
 " longer than shown"
@@ -210,15 +210,15 @@ msgstr ""
 "Az eredményt a megjelenítés érdekében itt lerövidítettük, a geometria sokkal"
 " hosszabb a megjelenítettnél"
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:383
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:379
 msgid "With :command:`\\\\q` command leave the PostgreSQL shell."
 msgstr "A :command:`\\\\q` paranccsal kiléphet a PostgreSQL burokból."
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:387
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:383
 msgid "What next?"
 msgstr "Mi a következő?"
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:389
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:385
 msgid ""
 "**pgRouting Website** - Visit the project website https://pgrouting.org to "
 "learn more about pgRouting."
@@ -226,7 +226,7 @@ msgstr ""
 "**pgRouting honlap** - Látogassa meg a projekt honlapját "
 "https://pgrouting.org, hogy többet tudjon meg a pgRouting-ról."
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:390
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:386
 msgid ""
 "**pgRouting Documentation** - Find the most recent documentation in "
 "https://docs.pgrouting.org."
@@ -234,7 +234,7 @@ msgstr ""
 "**pgRouting dokumentáció** - A legújabb dokumentációt a "
 "https://docs.pgrouting.org oldalon találja."
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:391
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:387
 msgid ""
 "**pgRouting Workshop** - The workshop `\"FOSS4G routing with pgRouting tools"
 " and OpenStreetMap road data\"` is available in: "
@@ -244,7 +244,7 @@ msgstr ""
 "OpenStreetMap road data\"` workshop elérhető a "
 "https://workshop.pgrouting.org oldalon."
 
-#: ../../build/doc/quickstart/pgrouting_quickstart.rst:392
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:388
 msgid ""
 "**osm2pgRouting loading data** - "
 "https://github.com/pgRouting/osm2pgrouting/wiki/Documentation-for-"

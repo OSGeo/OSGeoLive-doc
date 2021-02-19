@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2018-06-09 16:37+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:8
 msgid "OSGeoLive Quickstart for Running in a Hyper-V Virtual Machine"
-msgstr "OSGEoLive gyorstalpaló a  Hyper-V virtuális gépen futtatáshoz"
+msgstr "OSGeoLive gyorstalpaló a  Hyper-V virtuális gépen futtatáshoz"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:10
 msgid ""
@@ -150,7 +150,7 @@ msgstr "Töltse le a DS File Ops Kit-et és tömörítse ki."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:50
 msgid "Open PowerShell (with administrator rights)"
-msgstr "Nyissa meg a PeorShell-t (adminisztrátori jogokkal)"
+msgstr "Nyissa meg a PowerShell-t (adminisztrátori jogokkal)"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:51
 msgid ""
@@ -260,7 +260,7 @@ msgid ""
 "Right-click and select \"Connect\". You will be prompted to start the "
 "machine, and a new \"Virtual Machine Connection\" window will open."
 msgstr ""
-"Jobb kattintás és válassza a \"Connect\"et.  A rendszer rákérdez a a ép "
+"Jobb kattintás és válassza a \"Connect\"et.  A rendszer rákérdez a gép "
 "elindítására és egy új \"Virtual Machine Connection\" ablak nyílik meg."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:119

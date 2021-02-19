@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"POT-Creation-Date: 2021-02-19 11:35-0600\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,15 +21,15 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/overview/actinia_overview.rst:15
-msgid "actinia"
-msgstr ""
-
 #: ../../build/doc/overview/actinia_overview.rst:18
+msgid "actinia"
+msgstr "actinia"
+
+#: ../../build/doc/overview/actinia_overview.rst:21
 msgid "High Performance Geospatial Processing"
 msgstr "Nagy teljesítményű térinformatikai feldolgozás"
 
-#: ../../build/doc/overview/actinia_overview.rst:20
+#: ../../build/doc/overview/actinia_overview.rst:23
 msgid ""
 "`Actinia <https://actinia.mundialis.de/>`__ is an open source REST API for "
 "scalable, distributed, high performance processing of geographical data that"
@@ -40,7 +40,7 @@ msgstr ""
 "feldolgozásához, mely `GRASS GIS-t <https://grass.osgeo.org/>`__ használ a "
 "számítási feladatokhoz."
 
-#: ../../build/doc/overview/actinia_overview.rst:25
+#: ../../build/doc/overview/actinia_overview.rst:28
 msgid ""
 "It provides a REST API to process satellite images, time series of satellite"
 " images, arbitrary raster data with geographical relations and vector data."
@@ -48,11 +48,11 @@ msgstr ""
 "Egy REST API-t biztosít a műholdképek, műholdkép idősorok, térbeli "
 "pozícióval bíró tetszőleges raszter adatok és vektor adatok feldolgozására."
 
-#: ../../build/doc/overview/actinia_overview.rst:36
+#: ../../build/doc/overview/actinia_overview.rst:39
 msgid "Core Features"
 msgstr "Alapfunkciók"
 
-#: ../../build/doc/overview/actinia_overview.rst:38
+#: ../../build/doc/overview/actinia_overview.rst:41
 msgid ""
 "REST API to process satellite images, time series of satellite images, "
 "raster and vector data."
@@ -60,47 +60,47 @@ msgstr ""
 " REST API műholdképek, műholdkép idősorok,  raszter adatok és vektor adatok "
 "feldolgozására."
 
-#: ../../build/doc/overview/actinia_overview.rst:39
+#: ../../build/doc/overview/actinia_overview.rst:42
 msgid "Explore the `tutorial <https://actinia.mundialis.de/tutorial/>`_."
 msgstr ""
 "Fedezze fel az `oktatóanyagot <https://actinia.mundialis.de/tutorial/>`_."
 
-#: ../../build/doc/overview/actinia_overview.rst:42
+#: ../../build/doc/overview/actinia_overview.rst:45
 msgid "Details"
 msgstr "Részletek"
 
-#: ../../build/doc/overview/actinia_overview.rst:44
+#: ../../build/doc/overview/actinia_overview.rst:47
 msgid "**Website:** https://actinia.mundialis.de/"
 msgstr "**Honlap:** https://actinia.mundialis.de/"
 
-#: ../../build/doc/overview/actinia_overview.rst:46
+#: ../../build/doc/overview/actinia_overview.rst:49
 msgid "**Licence:** GNU General Public License (GPL) version 3"
 msgstr "**Licenc:** GNU General Public License (GPL) version 3"
 
-#: ../../build/doc/overview/actinia_overview.rst:48
+#: ../../build/doc/overview/actinia_overview.rst:51
 msgid "**Software Version:** |version-actinia|"
 msgstr "**Szoftver verzió:** |version-actinia|"
 
-#: ../../build/doc/overview/actinia_overview.rst:50
+#: ../../build/doc/overview/actinia_overview.rst:53
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
 msgstr "**Támogatott platformok:** GNU/Linux, Mac OSX, MS Windows"
 
-#: ../../build/doc/overview/actinia_overview.rst:52
+#: ../../build/doc/overview/actinia_overview.rst:55
 msgid "**API Interfaces:** REST API, Python"
 msgstr "**API interfészek:** REST API, Python"
 
-#: ../../build/doc/overview/actinia_overview.rst:54
+#: ../../build/doc/overview/actinia_overview.rst:57
 msgid "**API documentation:** https://actinia.mundialis.de/api_docs/"
 msgstr "**API dokumentáció:** https://actinia.mundialis.de/api_docs/"
 
-#: ../../build/doc/overview/actinia_overview.rst:56
+#: ../../build/doc/overview/actinia_overview.rst:59
 msgid "**Support:** https://github.com/mundialis/actinia_core"
 msgstr "**Támogatás:** https://github.com/mundialis/actinia_core"
 
-#: ../../build/doc/overview/actinia_overview.rst:61
+#: ../../build/doc/overview/actinia_overview.rst:64
 msgid "Quickstart"
 msgstr "Gyorstalpaló"
 
-#: ../../build/doc/overview/actinia_overview.rst:63
+#: ../../build/doc/overview/actinia_overview.rst:66
 msgid ":doc:`Quickstart documentation <../quickstart/actinia_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/actinia_quickstart>`"

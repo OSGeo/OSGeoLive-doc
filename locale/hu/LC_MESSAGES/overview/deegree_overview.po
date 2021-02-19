@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -321,7 +321,7 @@ msgstr "Támogatja a RawDataOutput/ResponseDocument válaszokat"
 #: ../../build/doc/overview/deegree_overview.rst:106
 msgid "Supports asynchronous execution (with polling of process status)"
 msgstr ""
-"Támogatja az aszinkron végrehajtása (a folyamat állapot folyamatos "
+"Támogatja az aszinkron végrehajtást (a folyamat állapot folyamatos "
 "lekérdezésével)"
 
 #: ../../build/doc/overview/deegree_overview.rst:109

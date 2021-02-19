@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-15 14:20-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -71,7 +71,7 @@ msgid ""
 "Source an OSGeoLive DVD, ISO available from: [:doc:`Download <../download>`]"
 " Put the DVD into your computer's CD drive, then reboot your computer."
 msgstr ""
-"Egy OSGeoLive DVDV forrása, ISO elérhető itt:  [:doc:`Download "
+"Az OSGeoLive DVD forrása, ISO elérhető itt:  [:doc:`Letöltés "
 "<../download>`]. Helyezze a DVD-t a számtógép CD meghajtójába és indítsa "
 "újra a gépet."
 
@@ -82,9 +82,9 @@ msgid ""
 "Otherwise you'll have to adjust the BIOS boot settings or press the boot "
 "menu button just after powering-up."
 msgstr ""
-"Ha a számítógépe a CD-ről betöltésre állították (ami gyakori eset), akkor az"
+"Ha a számítógépét a CD-ről indításra állították (ami gyakori eset), akkor az"
 " Lubuntu rendszert tölt be a telepített térinformatikai alkalmazásokkal. Más"
-" esetben a BIOS rendszer betöltési beállításait kell beállítania vagy a boot"
+" esetben a BIOS rendszer betöltési beállításait kell módosítania vagy a boot"
 " menüt kell választania a gép indításánál."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:42
