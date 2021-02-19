@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-06 18:01-0600\n"
+"POT-Creation-Date: 2021-02-19 11:35-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../../build/doc/overview/overview.rst:41
 msgid ""
-"|OSGeo_project| - |vmdk| :doc:`gvsig_overview` - [:doc:`Quickstart "
+"|OSGeo_project| |vmdk| :doc:`gvsig_overview` - [:doc:`Quickstart "
 "<../quickstart/gvsig_quickstart>`]"
 msgstr ""
 
@@ -214,7 +214,7 @@ msgstr ""
 
 #: ../../build/doc/overview/overview.rst:163
 msgid ""
-"|nologo| :doc:`actinia_overview` - [:doc:`Quickstart "
+"|OSGeo_community| :doc:`actinia_overview` - [:doc:`Quickstart "
 "<../quickstart/actinia_quickstart>`] - Processing of Geographical Data"
 msgstr ""
 
@@ -226,7 +226,7 @@ msgstr ""
 
 #: ../../build/doc/overview/overview.rst:167
 msgid ""
-"|nologo| - |vmdk| :doc:`ncWMS_overview` - [:doc:`Quickstart "
+"|nologo| |vmdk| :doc:`ncWMS_overview` - [:doc:`Quickstart "
 "<../quickstart/ncWMS_quickstart>`] - Web Map Service"
 msgstr ""
 
@@ -238,7 +238,7 @@ msgstr ""
 
 #: ../../build/doc/overview/overview.rst:171
 msgid ""
-"|nologo| - |vmdk| :doc:`re3gistry_overview` - [:doc:`Quickstart "
+"|nologo| |vmdk| :doc:`re3gistry_overview` - [:doc:`Quickstart "
 "<../quickstart/re3gistry_quickstart>`] - Management of reference codes"
 msgstr ""
 
@@ -348,7 +348,7 @@ msgstr ""
 
 #: ../../build/doc/overview/overview.rst:261
 msgid ""
-"|nologo| - |vmdk| :doc:`gmt_overview` - [:doc:`Quickstart "
+"|nologo| |vmdk| :doc:`gmt_overview` - [:doc:`Quickstart "
 "<../quickstart/gmt_quickstart>`] - Cartographic Rendering"
 msgstr ""
 
@@ -430,7 +430,7 @@ msgstr ""
 
 #: ../../build/doc/overview/overview.rst:328
 msgid ""
-"|OSGeo_community| :doc:`proj_overview` - [:doc:`Quickstart "
+"|OSGeo_project| :doc:`proj_overview` - [:doc:`Quickstart "
 "<../quickstart/proj_quickstart>`] - Coordinate Reference System Libraries"
 msgstr ""
 

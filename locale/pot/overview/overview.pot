@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-06 18:01-0600\n"
+"POT-Creation-Date: 2021-02-19 11:35-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgid "|OSGeo_project| :doc:`grass_overview` - [:doc:`Quickstart <../quickstart/
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:41
-msgid "|OSGeo_project| - |vmdk| :doc:`gvsig_overview` - [:doc:`Quickstart <../quickstart/gvsig_quickstart>`]"
+msgid "|OSGeo_project| |vmdk| :doc:`gvsig_overview` - [:doc:`Quickstart <../quickstart/gvsig_quickstart>`]"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:43
@@ -161,7 +161,7 @@ msgid "|OSGeo_incubation| :doc:`zoo-project_overview` - [:doc:`Quickstart <../qu
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:163
-msgid "|nologo| :doc:`actinia_overview` - [:doc:`Quickstart <../quickstart/actinia_quickstart>`] - Processing of Geographical Data"
+msgid "|OSGeo_community| :doc:`actinia_overview` - [:doc:`Quickstart <../quickstart/actinia_quickstart>`] - Processing of Geographical Data"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:165
@@ -169,7 +169,7 @@ msgid "|nologo| :doc:`eoxserver_overview` - [:doc:`Quickstart <../quickstart/eox
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:167
-msgid "|nologo| - |vmdk| :doc:`ncWMS_overview` - [:doc:`Quickstart <../quickstart/ncWMS_quickstart>`] - Web Map Service"
+msgid "|nologo| |vmdk| :doc:`ncWMS_overview` - [:doc:`Quickstart <../quickstart/ncWMS_quickstart>`] - Web Map Service"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:169
@@ -177,7 +177,7 @@ msgid "|nologo| :doc:`qgis_mapserver_overview` - [:doc:`Quickstart <../quickstar
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:171
-msgid "|nologo| - |vmdk| :doc:`re3gistry_overview` - [:doc:`Quickstart <../quickstart/re3gistry_quickstart>`] - Management of reference codes"
+msgid "|nologo| |vmdk| :doc:`re3gistry_overview` - [:doc:`Quickstart <../quickstart/re3gistry_quickstart>`] - Management of reference codes"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:173
@@ -257,7 +257,7 @@ msgid "|OSGeo_project| :doc:`otb_overview` - [:doc:`Quickstart <../quickstart/ot
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:261
-msgid "|nologo| - |vmdk| :doc:`gmt_overview` - [:doc:`Quickstart <../quickstart/gmt_quickstart>`] - Cartographic Rendering"
+msgid "|nologo| |vmdk| :doc:`gmt_overview` - [:doc:`Quickstart <../quickstart/gmt_quickstart>`] - Cartographic Rendering"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:263
@@ -325,7 +325,7 @@ msgid "|OSGeo_project| :doc:`geotools_overview`  - Java GIS Toolkit"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:328
-msgid "|OSGeo_community| :doc:`proj_overview` - [:doc:`Quickstart <../quickstart/proj_quickstart>`] - Coordinate Reference System Libraries"
+msgid "|OSGeo_project| :doc:`proj_overview` - [:doc:`Quickstart <../quickstart/proj_quickstart>`] - Coordinate Reference System Libraries"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:330
