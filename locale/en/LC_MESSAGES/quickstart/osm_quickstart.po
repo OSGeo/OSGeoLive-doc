@@ -396,25 +396,3 @@ msgstr ""
 msgid "Get support: https://www.openstreetmap.org/help"
 msgstr ""
 
-#~ msgid "Merkaartor"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "**Merkaartor** is a map editor for "
-#~ "OpenStreetMap which uses the Qt toolkit."
-#~ " It's a bit more user friendly "
-#~ "than JOSM, but has a few less "
-#~ "features."
-#~ msgstr ""
-
-#~ msgid "Homepage: http://merkaartor.be"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Online help: "
-#~ "https://wiki.openstreetmap.org/wiki/Merkaartor/Documentation"
-#~ msgstr ""
-
-#~ msgid "QuickOSM: https://plugins.qgis.org/plugins/QuickOSM/"
-#~ msgstr ""
-
