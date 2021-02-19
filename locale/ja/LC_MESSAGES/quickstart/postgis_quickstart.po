@@ -116,7 +116,7 @@ msgstr "次のコマンドを使用すると、サーバ上のデータベース
 msgid ""
 "command. You should see several databases used by some of the projects on "
 "the system. We will create a new one for this quickstart."
-msgstr " システム上の一部のプロジェクトで使用されている複数のデータベースが表示されます。このクイックスタート用に新しいものを作成します。"
+msgstr ". システム上の一部のプロジェクトで使用されている複数のデータベースが表示されます。このクイックスタート用に新しいものを作成します。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:93
 msgid ""
@@ -660,7 +660,7 @@ msgstr "異なるFDWの一覧は次の場所にあります。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:544
 msgid "https://wiki.postgresql.org/wiki/Foreign_data_wrappers"
-msgstr ""
+msgstr "https://wiki.postgresql.org/wiki/Foreign_data_wrappers"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:546
 msgid ""

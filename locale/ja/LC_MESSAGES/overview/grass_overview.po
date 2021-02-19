@@ -101,7 +101,7 @@ msgstr "詳細"
 
 #: ../../build/doc/overview/grass_overview.rst:71
 msgid "**Website:** https://grass.osgeo.org/"
-msgstr ""
+msgstr "**Webサイト:** https://grass.osgeo.org/"
 
 #: ../../build/doc/overview/grass_overview.rst:73
 msgid "**Licence:** GNU General Public License (GPL) version 2+"

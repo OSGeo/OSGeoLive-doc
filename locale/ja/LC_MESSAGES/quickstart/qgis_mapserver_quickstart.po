@@ -23,13 +23,13 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:21
 msgid "QGIS Server Quickstart"
-msgstr "QGIS Server Quickstart"
+msgstr "QGIS サーバ クイックスタート"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:23
 msgid ""
 "QGIS Server provides a web map service (WMS) based on libraries from the "
 "QGIS desktop application."
-msgstr "QGISサーバは、GIS(QGIS)デスクトップアプリケーションと同じライブラリを使用して、Webマップサービス(WMS)を提供します。"
+msgstr "QGIS サーバは、QGIS デスクトップアプリケーションと同じライブラリを使用して、Webマップサービス(WMS)を提供します。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:25
 msgid "This Quick Start describes how to:"
@@ -37,7 +37,7 @@ msgstr "このクイックスタートでは、次の方法について説明し
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:27
 msgid "update an existing QGIS project and render it with QGIS Server"
-msgstr "既存のQGISプロジェクトを開いて、QGISサーバでレンダリングしましょう。"
+msgstr "既存の QGIS プロジェクトを開いて、QGIS サーバでレンダリングしましょう。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:28
 msgid "create a new QGIS project and open the WMS directly in a browser"
@@ -52,7 +52,7 @@ msgid ""
 "OSGeoLive contains an example of web map viewer based on the GeoExt "
 "Javascript framework and using QGIS Server for rendering the map."
 msgstr ""
-"OSGeoLiveには、GeoExt javascriptフレームワークにもとづくサンプル地図ビューアが収録されていますので、QGIS "
+"OSGeoLive には、GeoExt Javascript フレームワークにもとづくサンプル地図ビューアが収録されていますので、QGIS "
 "サーバをつかって地図をレンダリングしましょう。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:39
@@ -60,7 +60,7 @@ msgid ""
 "Click :menuselection:`Geospatial --> Web Services --> QGIS Server`. You "
 "should see a browser window with a web map viewer showing a world map."
 msgstr ""
-" :menuselection:`Geospatial --> Web Services --> QGIS Server` "
+":menuselection:`Geospatial --> Web Services --> QGIS Server` "
 "をクリックします。ブラウザウィンドウに、世界のマップを表示するWebマップビューアが表示されます。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:43
@@ -75,11 +75,11 @@ msgstr "QGISプロジェクトの編集"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:50
 msgid "We will now change the map styling using QGIS."
-msgstr "さて、これでQGISで地図スタイルを変更できるようになりました。"
+msgstr "さて、これで QGIS で地図スタイルを変更できるようになりました。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:52
 msgid "Click :menuselection:`Geospatial --> Desktop GIS --> QGIS`."
-msgstr " :menuselection:`Geospatial --> Desktop GIS --> QGIS` をクリックします。"
+msgstr ":menuselection:`Geospatial --> Desktop GIS --> QGIS` をクリックします。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:54
 msgid "Choose :menuselection:`Project --> Open` from the menu bar."
@@ -89,13 +89,13 @@ msgstr "メニューバーから、 :menuselection:`Project --> Open` を選択�
 msgid ""
 "Select :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`."
 msgstr ""
-" :file:`QGIS-NaturalEarth-Example.qgs` を選択して、 :guilabel:`Open` をクリックします。"
+":file:`QGIS-NaturalEarth-Example.qgs` を選択して、 :guilabel:`Open` をクリックします。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:58
 msgid ""
 "You should see the same world map rendered by QGIS. We will now change river"
 " styling and look at the result in the web map viewer."
-msgstr "QGISでレンダリングされた同じ地図が表示されるはずです。さて、河川のスタイルを変更してwebマップビューアで確認してみましょう。"
+msgstr "QGIS でレンダリングされた同じ地図が表示されるはずです。さて、河川のスタイルを変更してWebマップビューアで確認してみましょう。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:61
 msgid ""
@@ -108,7 +108,7 @@ msgstr "アウトラインオプションで、異なる青色へ変更してみ
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:65
 msgid "Press :guilabel:`OK`. Rivers are now rendered in a new color."
-msgstr " :guilabel:`OK` をクリックします。河川が新しい色にレンダリングされました。"
+msgstr ":guilabel:`OK` をクリックします。河川が新しい色にレンダリングされました。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:67
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:87
@@ -117,7 +117,7 @@ msgstr ":menuselection:`Project --> Save` を選択して、プロジェクト�
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:69
 msgid "Reopen the web browser."
-msgstr "webブラウザをもういちど開きます。"
+msgstr "Webブラウザをもういちど開きます。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:71
 msgid "Zoom in. You will now see rivers rendered in the same new color."
@@ -125,11 +125,11 @@ msgstr "拡大ズームします。河川が同じ色でレンダリングされ
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:75
 msgid "Create a new QGIS project"
-msgstr "新規QGISプロジェクトの作成"
+msgstr "新規 QGIS プロジェクトの作成"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:77
 msgid "Reopen QGIS."
-msgstr "QGISをもう一度開きます。"
+msgstr "QGIS をもう一度開きます。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:79
 msgid "Choose :menuselection:`Project --> New`."
@@ -149,7 +149,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:85
 msgid "Press :guilabel:`Open`. You should see all world countries."
-msgstr " :guilabel:`Open` をクリックします。世界の国々のマップが表示されました。"
+msgstr ":guilabel:`Open` をクリックします。世界の国々のマップが表示されました。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:89
 msgid "Use file name :file:`/home/user/world.qgs` and press :guilabel:`Save`."
@@ -161,6 +161,9 @@ msgid ""
 "bin/qgis_mapserv.fcgi?map=/home/user/world.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_."
 " You should see all world countries, this time rendered by QGIS Server."
 msgstr ""
+"`WMS URL <http://localhost/cgi-"
+"bin/qgis_mapserv.fcgi?map=/home/user/world.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_"
+" を開きます。QGIS サーバでレンダリングされた世界地図が表示されるはずです。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:95
 msgid "What next?"
@@ -170,7 +173,7 @@ msgstr "次のステップ"
 msgid ""
 "To learn more about QGIS Server, a good starting point is the `QGIS Server "
 "Guide`_."
-msgstr ""
+msgstr "QGIS サーバの詳細については、`QGIS Server Guide`_ を参照してください。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:103
 msgid "Documentation:"
@@ -178,11 +181,11 @@ msgstr "ドキュメント"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:103
 msgid "https://docs.qgis.org/3.10/en/docs/server_manual/"
-msgstr ""
+msgstr "https://docs.qgis.org/3.10/en/docs/server_manual/"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:105
 msgid "Quick start for Server Installation on Debian/Ubuntu:"
-msgstr "Debian/Ubuntuでのサーバ導入については:"
+msgstr "Debian/Ubuntu でのサーバ導入については:"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:107
 msgid ":command:`apt-get install qgis-mapserver libapache2-mod-fcgid`"

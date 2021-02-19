@@ -42,6 +42,11 @@ msgid ""
 "AtlasStyler, Geomajas, Geopublisher, :doc:`geoserver_overview`, and "
 ":doc:`udig_overview`."
 msgstr ""
+"GeoTools は Web "
+"サービスやコマンドラインツール、デスクトップアプリケーションなど、さまざまなプロジェクトで利用されています。OSGeoLive のアプリケーションで "
+"GeoTools を利用しているのは次のものです: :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, "
+"AtlasStyler, Geomajas, Geopublisher, :doc:`geoserver_overview`, 及び "
+":doc:`udig_overview`。"
 
 #: ../../build/doc/overview/geotools_overview.rst:31
 msgid "Core Features"

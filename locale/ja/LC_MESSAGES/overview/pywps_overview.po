@@ -44,6 +44,10 @@ msgid ""
 "libraries with Python bindings.  Source data can be provided with WPS "
 "requests or accessed from data on the WPS server."
 msgstr ""
+"プロセスは、 Python プログラミング言語で実装されており、 :doc:`GRASS GIS <grass_overview>`, :doc:`R "
+"<R_overview>`, :doc:`GDAL/OGR <gdal_overview>`, :doc:`proj <proj_overview>` "
+"などのライブラリを、Pythonバインディングを通じて統合できます。ソース・データは、 WPS 要求で提供することも、 WPS "
+"サーバー上のデータからアクセスすることもできます。"
 
 #: ../../build/doc/overview/pywps_overview.rst:37
 msgid "Core Features"
@@ -79,7 +83,7 @@ msgstr "GDAL/OGR"
 
 #: ../../build/doc/overview/pywps_overview.rst:47
 msgid "Proj"
-msgstr ""
+msgstr "Proj"
 
 #: ../../build/doc/overview/pywps_overview.rst:48
 msgid "Numpy"

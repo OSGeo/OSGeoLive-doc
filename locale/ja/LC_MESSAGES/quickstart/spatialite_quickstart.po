@@ -153,6 +153,8 @@ msgid ""
 "Before working from the command line, we need to open a terminal window: "
 ":menuselection:`System Tools -> LXTerminal`."
 msgstr ""
+"コマンドラインから作業する前に、ターミナルウィンドウ: :menuselection:`System Tools -> LXTerminal` "
+"を開いてください。"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:106
 msgid "In the terminal open a sample database with **spatialite** by typing::"
@@ -190,9 +192,7 @@ msgstr "次に、ハイウェイ42に近い学校を検索します::"
 msgid ""
 "Finally, we output the query to a \"comma separated values\" text file "
 "\"schools_rt42.txt\" with the following commands::"
-msgstr ""
-"最後に、次のコマンドを使用して、クエリを\"comma separated "
-"values\"テキストファイル\"schools_rt42.txt\"に出力します::"
+msgstr "最後に、次のコマンドを使用して、クエリを \"カンマ区切り\" のテキストファイル \"schools_rt42.txt\" に出力します::"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:170
 msgid "Things to try"

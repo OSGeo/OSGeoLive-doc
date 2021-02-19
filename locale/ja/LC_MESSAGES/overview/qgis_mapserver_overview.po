@@ -39,8 +39,9 @@ msgid ""
 "exactly the same as in the desktop. QGIS Server is usually run as "
 "CGI/FastCGI module within the Apache Webserver."
 msgstr ""
-"QGIS サーバは、GIS (QGIS)デスクトップアプリケーションと同じライブラリを使用して、Webマップおよびフィーチャサービス(WMS & "
-"WFS)を提供します。QGISのデスクトップで作成されたマップと印刷テンプレートは、QGISプロジェクトファイルをサーバディレクトリにコピーするだけで、Webマップとしてパブリッシュできます。作成されるWebマップは、デスクトップとまったく同じように表示されます。QGIS"
+"QGIS サーバは、GIS (QGIS) デスクトップアプリケーションと同じライブラリを使用して、Webマップおよびフィーチャサービス(WMS & "
+"WFS)を提供します。QGIS のデスクトップで作成されたマップと印刷テンプレートは、QGIS "
+"プロジェクトファイルをサーバディレクトリにコピーするだけで、Webマップとしてパブリッシュできます。作成されるWebマップは、デスクトップとまったく同じように表示されます。QGIS"
 " サーバは通常、Apache Webserver 内で CGI/FastCGI モジュールとして実行されます。"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:30
