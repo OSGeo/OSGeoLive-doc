@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"POT-Creation-Date: 2021-02-19 11:35-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Santtu Pyykkönen, 2019\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
@@ -26,24 +26,32 @@ msgstr ""
 msgid "|osgeolive-version| Contents"
 msgstr "|osgeolive-version| Sisältö"
 
+#: ../../build/doc/overview/overview.rst:12
+msgid "Symbology"
+msgstr ""
+
 #: ../../build/doc/overview/overview.rst:13
+msgid "|osgeo_project| Is an OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:14
+msgid "|osgeo_community| Is an OSGeo Community Project"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:15
+msgid "|vmdk| Included only on OSGeoLive VMDK version"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:19
 msgid "Desktop GIS"
 msgstr "Työasema GIS"
 
-#: ../../build/doc/overview/overview.rst:15
+#: ../../build/doc/overview/overview.rst:21
 msgid "General GIS viewing, editing, and analysis on the desktop"
 msgstr ""
 "Yleinen paikkatietojen katselu, muokkaus ja analyyointi työasemaympäristössä"
 
-#: ../../build/doc/overview/overview.rst:33
-msgid ""
-"|OSGeo_project| :doc:`qgis_overview` - [:doc:`Quickstart "
-"<../quickstart/qgis_quickstart>`]"
-msgstr ""
-"|OSGeo_project| :doc:`qgis_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/qgis_quickstart>`]"
-
-#: ../../build/doc/overview/overview.rst:35
+#: ../../build/doc/overview/overview.rst:39
 msgid ""
 "|OSGeo_project| :doc:`grass_overview` - [:doc:`Quickstart "
 "<../quickstart/grass_quickstart>`]"
@@ -51,23 +59,21 @@ msgstr ""
 "|OSGeo_project| :doc:`grass_overview` - [:doc:`Pika-aloitus "
 "<../quickstart/grass_quickstart>`]"
 
-#: ../../build/doc/overview/overview.rst:37
-msgid ""
-"|OSGeo_project| :doc:`gvsig_overview` - [:doc:`Quickstart "
-"<../quickstart/gvsig_quickstart>`]"
-msgstr ""
-"|OSGeo_project| :doc:`gvsig_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/gvsig_quickstart>`]"
-
-#: ../../build/doc/overview/overview.rst:39
-msgid ""
-"|nologo| :doc:`udig_overview` - [:doc:`Quickstart "
-"<../quickstart/udig_quickstart>`]"
-msgstr ""
-"|nologo| :doc:`udig_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/udig_quickstart>`]"
-
 #: ../../build/doc/overview/overview.rst:41
+msgid ""
+"|OSGeo_project| |vmdk| :doc:`gvsig_overview` - [:doc:`Quickstart "
+"<../quickstart/gvsig_quickstart>`]"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:43
+msgid ""
+"|OSGeo_project| :doc:`qgis_overview` - [:doc:`Quickstart "
+"<../quickstart/qgis_quickstart>`]"
+msgstr ""
+"|OSGeo_project| :doc:`qgis_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/qgis_quickstart>`]"
+
+#: ../../build/doc/overview/overview.rst:45
 msgid ""
 "|nologo| :doc:`openjump_overview` - [:doc:`Quickstart "
 "<../quickstart/openjump_quickstart>`]"
@@ -75,7 +81,7 @@ msgstr ""
 "|nologo| :doc:`openjump_overview` - [:doc:`Pika-aloitus "
 "<../quickstart/openjump_quickstart>`]"
 
-#: ../../build/doc/overview/overview.rst:43
+#: ../../build/doc/overview/overview.rst:47
 msgid ""
 "|nologo| :doc:`saga_overview` - [:doc:`Quickstart "
 "<../quickstart/saga_quickstart>`]"
@@ -83,56 +89,23 @@ msgstr ""
 "|nologo| :doc:`saga_overview` - [:doc:`Pika-aloitus "
 "<../quickstart/saga_quickstart>`]"
 
-#: ../../build/doc/overview/overview.rst:47
+#: ../../build/doc/overview/overview.rst:49
+msgid ""
+"|nologo| :doc:`udig_overview` - [:doc:`Quickstart "
+"<../quickstart/udig_quickstart>`]"
+msgstr ""
+"|nologo| :doc:`udig_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/udig_quickstart>`]"
+
+#: ../../build/doc/overview/overview.rst:53
 msgid "Browser Facing GIS"
 msgstr "Selainkäyttöinen GIS"
 
-#: ../../build/doc/overview/overview.rst:49
+#: ../../build/doc/overview/overview.rst:55
 msgid "General GIS viewing, editing and analysis in the browser"
 msgstr "Yleinen GIS katselu, muokkaus ja analysointi selaimessa"
 
-#: ../../build/doc/overview/overview.rst:71
-msgid ""
-"|OSGeo_project| :doc:`openlayers_overview` - [:doc:`Quickstart "
-"<../quickstart/openlayers_quickstart>`] - Browser Mapping Library"
-msgstr ""
-"|OSGeo_project| :doc:`openlayers_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/openlayers_quickstart>`] - Selain karttojen kirjasto"
-
-#: ../../build/doc/overview/overview.rst:73
-msgid ""
-"|nologo| :doc:`leaflet_overview` - [:doc:`Quickstart "
-"<../quickstart/leaflet_quickstart>`] - Mobile Friendly Interactive Maps"
-msgstr ""
-"|nologo| :doc:`leaflet_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/leaflet_quickstart>`] - Mobiili ystävälliset "
-"vuorovaikutteiset kartat"
-
-#: ../../build/doc/overview/overview.rst:75
-msgid ""
-"|nologo| :doc:`cesium_overview` - [:doc:`Quickstart "
-"<../quickstart/cesium_quickstart>`] - 3D globes and 2D maps in a browser"
-msgstr ""
-"|nologo| :doc:`cesium_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/cesium_quickstart>`] - 3D maailmat ja 2D kartat selaimessa"
-
 #: ../../build/doc/overview/overview.rst:77
-msgid ""
-"|OSGeo_project| :doc:`mapbender_overview` - [:doc:`Quickstart "
-"<../quickstart/mapbender_quickstart>`] - Geoportal Framework"
-msgstr ""
-"|OSGeo_project| :doc:`mapbender_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/mapbender_quickstart>`] - Geoportalin Rakenteet"
-
-#: ../../build/doc/overview/overview.rst:79
-msgid ""
-"|nologo| :doc:`geoext_overview` - [:doc:`Quickstart "
-"<../quickstart/geoext_quickstart>`] - JavaScript Toolkit Web Mapping"
-msgstr ""
-"|nologo| :doc:`geoext_overview` - [:doc:`Quickstart "
-"<../quickstart/geoext_quickstart>`] - JavaScript Toolkit Web Mapping"
-
-#: ../../build/doc/overview/overview.rst:81
 msgid ""
 "|OSGeo_project| :doc:`geomoose_overview` - [:doc:`Quickstart "
 "<../quickstart/geomoose_quickstart>`] - Web GIS Portal"
@@ -140,7 +113,7 @@ msgstr ""
 "|OSGeo_project| :doc:`geomoose_overview` - [:doc:`Pika-aloitus "
 "<../quickstart/geomoose_quickstart>`] - Paikkatieto rakenteet verkkoon"
 
-#: ../../build/doc/overview/overview.rst:83
+#: ../../build/doc/overview/overview.rst:79
 msgid ""
 "|OSGeo_project| :doc:`geonode_overview` - [:doc:`Quickstart "
 "<../quickstart/geonode_quickstart>`] - Geospatial Content Management System"
@@ -149,43 +122,60 @@ msgstr ""
 "<../quickstart/geonode_quickstart>`] - Paikkatiedon sisällön "
 "hallintajärjestelmä"
 
+#: ../../build/doc/overview/overview.rst:81
+msgid ""
+"|OSGeo_project| :doc:`mapbender_overview` - [:doc:`Quickstart "
+"<../quickstart/mapbender_quickstart>`] - Geoportal Framework"
+msgstr ""
+"|OSGeo_project| :doc:`mapbender_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/mapbender_quickstart>`] - Geoportalin Rakenteet"
+
+#: ../../build/doc/overview/overview.rst:83
+msgid ""
+"|OSGeo_project| :doc:`openlayers_overview` - [:doc:`Quickstart "
+"<../quickstart/openlayers_quickstart>`] - Browser Mapping Library"
+msgstr ""
+"|OSGeo_project| :doc:`openlayers_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/openlayers_quickstart>`] - Selain karttojen kirjasto"
+
 #: ../../build/doc/overview/overview.rst:85
 msgid ""
 "|OSGeo_community| :doc:`geostyler_overview` - [:doc:`Quickstart "
 "<../quickstart/geostyler_quickstart>`] - Generic Styler For Geodata"
 msgstr ""
 
+#: ../../build/doc/overview/overview.rst:87
+msgid ""
+"|nologo| :doc:`cesium_overview` - [:doc:`Quickstart "
+"<../quickstart/cesium_quickstart>`] - 3D globes and 2D maps in a browser"
+msgstr ""
+"|nologo| :doc:`cesium_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/cesium_quickstart>`] - 3D maailmat ja 2D kartat selaimessa"
+
 #: ../../build/doc/overview/overview.rst:89
+msgid ""
+"|nologo| :doc:`geoext_overview` - [:doc:`Quickstart "
+"<../quickstart/geoext_quickstart>`] - JavaScript Toolkit Web Mapping"
+msgstr ""
+"|nologo| :doc:`geoext_overview` - [:doc:`Quickstart "
+"<../quickstart/geoext_quickstart>`] - JavaScript Toolkit Web Mapping"
+
+#: ../../build/doc/overview/overview.rst:91
+msgid ""
+"|nologo| :doc:`leaflet_overview` - [:doc:`Quickstart "
+"<../quickstart/leaflet_quickstart>`] - Mobile Friendly Interactive Maps"
+msgstr ""
+"|nologo| :doc:`leaflet_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/leaflet_quickstart>`] - Mobiili ystävälliset "
+"vuorovaikutteiset kartat"
+
+#: ../../build/doc/overview/overview.rst:95
 msgid "Web Services"
 msgstr "Verkkopalvelut"
 
-#: ../../build/doc/overview/overview.rst:91
+#: ../../build/doc/overview/overview.rst:97
 msgid "Publishing spatial data to the internet"
 msgstr "Paikkatiedon julkaiseminen verkossa"
-
-#: ../../build/doc/overview/overview.rst:135
-msgid ""
-"|OSGeo_project| :doc:`geoserver_overview` - [:doc:`Quickstart "
-"<../quickstart/geoserver_quickstart>`] - OGC Web Services"
-msgstr ""
-"|OSGeo_project| :doc:`geoserver_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/geoserver_quickstart>`] - OGC-verkkopalvelut"
-
-#: ../../build/doc/overview/overview.rst:137
-msgid ""
-"|OSGeo_project| :doc:`mapserver_overview` - [:doc:`Quickstart "
-"<../quickstart/mapserver_quickstart>`] - OGC Web Services"
-msgstr ""
-"|OSGeo_project| :doc:`mapserver_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/mapserver_quickstart>`] - OGC-verkkopalvelut"
-
-#: ../../build/doc/overview/overview.rst:139
-msgid ""
-"|OSGeo_project| :doc:`mapcache_overview` - [:doc:`Quickstart "
-"<../quickstart/mapcache_quickstart>`] - OGC Web Services"
-msgstr ""
-"|OSGeo_project| :doc:`mapcache_overview` - [:doc:`Quickstart "
-"<../quickstart/mapcache_quickstart>`] - OGC Web Services"
 
 #: ../../build/doc/overview/overview.rst:141
 msgid ""
@@ -195,13 +185,89 @@ msgstr ""
 
 #: ../../build/doc/overview/overview.rst:143
 msgid ""
-"|nologo| :doc:`ncWMS_overview` - [:doc:`Quickstart "
-"<../quickstart/ncWMS_quickstart>`] - Web Map Service"
+"|OSGeo_project| :doc:`geonetwork_overview` - [:doc:`Quickstart "
+"<../quickstart/geonetwork_quickstart>`] - Metadata Catalogue"
 msgstr ""
-"|nologo| :doc:`ncWMS_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/ncWMS_quickstart>`] - Verkkokarttapalvelu"
+"|OSGeo_project| :doc:`geonetwork_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/geonetwork_quickstart>`] - Metadata Luettelo"
 
 #: ../../build/doc/overview/overview.rst:145
+msgid ""
+"|OSGeo_project| :doc:`geoserver_overview` - [:doc:`Quickstart "
+"<../quickstart/geoserver_quickstart>`] - OGC Web Services"
+msgstr ""
+"|OSGeo_project| :doc:`geoserver_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/geoserver_quickstart>`] - OGC-verkkopalvelut"
+
+#: ../../build/doc/overview/overview.rst:147
+msgid ""
+"|OSGeo_project| :doc:`mapcache_overview` - [:doc:`Quickstart "
+"<../quickstart/mapcache_quickstart>`] - OGC Web Services"
+msgstr ""
+"|OSGeo_project| :doc:`mapcache_overview` - [:doc:`Quickstart "
+"<../quickstart/mapcache_quickstart>`] - OGC Web Services"
+
+#: ../../build/doc/overview/overview.rst:149
+msgid ""
+"|OSGeo_project| :doc:`mapserver_overview` - [:doc:`Quickstart "
+"<../quickstart/mapserver_quickstart>`] - OGC Web Services"
+msgstr ""
+"|OSGeo_project| :doc:`mapserver_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/mapserver_quickstart>`] - OGC-verkkopalvelut"
+
+#: ../../build/doc/overview/overview.rst:151
+msgid ""
+"|OSGeo_project| :doc:`pycsw_overview` - [:doc:`Quickstart "
+"<../quickstart/pycsw_quickstart>`] - Metadata Catalogue"
+msgstr ""
+"|OSGeo_project| :doc:`pycsw_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/pycsw_quickstart>`] - Metadata Luettelo"
+
+#: ../../build/doc/overview/overview.rst:153
+msgid ""
+"|OSGeo_project| :doc:`pywps_overview` - [:doc:`Quickstart "
+"<../quickstart/pywps_quickstart>`] - Web Processing Service"
+msgstr ""
+"|OSGeo_project| :doc:`pywps_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/pywps_quickstart>`] - Web Processing Service"
+
+#: ../../build/doc/overview/overview.rst:155
+msgid ""
+"|OSGeo_community| :doc:`istsos_overview` - [:doc:`Quickstart "
+"<../quickstart/istsos_quickstart>`] - Sensor Observation Service"
+msgstr ""
+"|OSGeo_community| :doc:`istsos_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/istsos_quickstart>`] - Sensorien havainnointipalvelu"
+
+#: ../../build/doc/overview/overview.rst:157
+msgid ""
+"|OSGeo_community| :doc:`mapproxy_overview` - [:doc:`Quickstart "
+"<../quickstart/mapproxy_quickstart>`] - Proxy WMS & tile services"
+msgstr ""
+"|OSGeo_community| :doc:`mapproxy_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/mapproxy_quickstart>`] - Proxy WMS & tiilipalveluille"
+
+#: ../../build/doc/overview/overview.rst:159
+msgid ""
+"|OSGeo_community| :doc:`pygeoapi_overview` - [:doc:`Quickstart "
+"<../quickstart/pygeoapi_quickstart>`] - OGC Web Services"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:161
+msgid ""
+"|OSGeo_incubation| :doc:`zoo-project_overview` - [:doc:`Quickstart "
+"<../quickstart/zoo-project_quickstart>`] - Web Processing Service"
+msgstr ""
+"|OSGeo_incubation| :doc:`zoo-project_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/zoo-project_quickstart>`] - Verkossa prosessointipalvelu"
+
+#: ../../build/doc/overview/overview.rst:163
+msgid ""
+"|OSGeo_community| :doc:`actinia_overview` - [:doc:`Quickstart "
+"<../quickstart/actinia_quickstart>`] - Processing of Geographical Data"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:165
 msgid ""
 "|nologo| :doc:`eoxserver_overview` - [:doc:`Quickstart "
 "<../quickstart/eoxserver_quickstart>`] - Web Coverage Service"
@@ -210,39 +276,13 @@ msgstr ""
 "<../quickstart/eoxserver_quickstart>`] - Verkkopalvelu alueellisesta "
 "kattavuudesta"
 
-#: ../../build/doc/overview/overview.rst:147
+#: ../../build/doc/overview/overview.rst:167
 msgid ""
-"|OSGeo_project| :doc:`geonetwork_overview` - [:doc:`Quickstart "
-"<../quickstart/geonetwork_quickstart>`] - Metadata Catalogue"
+"|nologo| |vmdk| :doc:`ncWMS_overview` - [:doc:`Quickstart "
+"<../quickstart/ncWMS_quickstart>`] - Web Map Service"
 msgstr ""
-"|OSGeo_project| :doc:`geonetwork_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/geonetwork_quickstart>`] - Metadata Luettelo"
 
-#: ../../build/doc/overview/overview.rst:149
-msgid ""
-"|OSGeo_project| :doc:`pycsw_overview` - [:doc:`Quickstart "
-"<../quickstart/pycsw_quickstart>`] - Metadata Catalogue"
-msgstr ""
-"|OSGeo_project| :doc:`pycsw_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/pycsw_quickstart>`] - Metadata Luettelo"
-
-#: ../../build/doc/overview/overview.rst:151
-msgid ""
-"|OSGeo_project| :doc:`pywps_overview` - [:doc:`Quickstart "
-"<../quickstart/pywps_quickstart>`] - Web Processing Service"
-msgstr ""
-"|OSGeo_project| :doc:`pywps_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/pywps_quickstart>`] - Web Processing Service"
-
-#: ../../build/doc/overview/overview.rst:153
-msgid ""
-"|OSGeo_community| :doc:`mapproxy_overview` - [:doc:`Quickstart "
-"<../quickstart/mapproxy_quickstart>`] - Proxy WMS & tile services"
-msgstr ""
-"|OSGeo_community| :doc:`mapproxy_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/mapproxy_quickstart>`] - Proxy WMS & tiilipalveluille"
-
-#: ../../build/doc/overview/overview.rst:155
+#: ../../build/doc/overview/overview.rst:169
 msgid ""
 "|nologo| :doc:`qgis_mapserver_overview` - [:doc:`Quickstart "
 "<../quickstart/qgis_mapserver_quickstart>`] - Web Map Service"
@@ -250,15 +290,19 @@ msgstr ""
 "|nologo| :doc:`qgis_mapserver_overview` - [:doc:`Pika-aloitus "
 "<../quickstart/qgis_mapserver_quickstart>`] - Verkkokarttapalvelu"
 
-#: ../../build/doc/overview/overview.rst:157
+#: ../../build/doc/overview/overview.rst:171
 msgid ""
-"|OSGeo_community| :doc:`istsos_overview` - [:doc:`Quickstart "
-"<../quickstart/istsos_quickstart>`] - Sensor Observation Service"
+"|nologo| |vmdk| :doc:`re3gistry_overview` - [:doc:`Quickstart "
+"<../quickstart/re3gistry_quickstart>`] - Management of reference codes"
 msgstr ""
-"|OSGeo_community| :doc:`istsos_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/istsos_quickstart>`] - Sensorien havainnointipalvelu"
 
-#: ../../build/doc/overview/overview.rst:159
+#: ../../build/doc/overview/overview.rst:173
+msgid ""
+"|nologo| :doc:`t-rex_overview` - [:doc:`Quickstart "
+"<../quickstart/t-rex_quickstart>`] - Vector Tile Service"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:175
 msgid ""
 "|nologo| :doc:`52nSOS_overview` - [:doc:`Quickstart "
 "<../quickstart/52nSOS_quickstart>`] - Sensor Observation Service"
@@ -266,7 +310,7 @@ msgstr ""
 "|nologo| :doc:`52nSOS_overview` - [:doc:`Pika-aloitus "
 "<../quickstart/52nSOS_quickstart>`] - Sensorien havainnontipalvelu"
 
-#: ../../build/doc/overview/overview.rst:161
+#: ../../build/doc/overview/overview.rst:177
 msgid ""
 "|nologo| :doc:`52nWPS_overview` - [:doc:`Quickstart "
 "<../quickstart/52nWPS_quickstart>`] - Web Processing Service"
@@ -274,47 +318,15 @@ msgstr ""
 "|nologo| :doc:`52nWPS_overview` - [:doc:`Pika-aloitus "
 "<../quickstart/52nWPS_quickstart>`] - Verkkopohjainen prosessointipalvelu"
 
-#: ../../build/doc/overview/overview.rst:163
-msgid ""
-"|OSGeo_incubation| :doc:`zoo-project_overview` - [:doc:`Quickstart "
-"<../quickstart/zoo-project_quickstart>`] - Web Processing Service"
-msgstr ""
-"|OSGeo_incubation| :doc:`zoo-project_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/zoo-project_quickstart>`] - Verkossa prosessointipalvelu"
-
-#: ../../build/doc/overview/overview.rst:165
-msgid ""
-"|nologo| :doc:`t-rex_overview` - [:doc:`Quickstart "
-"<../quickstart/t-rex_quickstart>`] - Vector Tile Service"
-msgstr ""
-
-#: ../../build/doc/overview/overview.rst:167
-msgid ""
-"|nologo| :doc:`actinia_overview` - [:doc:`Quickstart "
-"<../quickstart/actinia_quickstart>`] - Processing of Geographical Data"
-msgstr ""
-
-#: ../../build/doc/overview/overview.rst:169
-msgid ""
-"|nologo| :doc:`re3gistry_overview` - [:doc:`Quickstart "
-"<../quickstart/re3gistry_quickstart>`] - Management of reference codes"
-msgstr ""
-
-#: ../../build/doc/overview/overview.rst:171
-msgid ""
-"|OSGeo_community| :doc:`pygeoapi_overview` - [:doc:`Quickstart "
-"<../quickstart/pygeoapi_quickstart>`] - OGC Web Services"
-msgstr ""
-
-#: ../../build/doc/overview/overview.rst:175
+#: ../../build/doc/overview/overview.rst:181
 msgid "Data Stores"
 msgstr "Tietovarastot"
 
-#: ../../build/doc/overview/overview.rst:177
+#: ../../build/doc/overview/overview.rst:183
 msgid "Storing spatial data"
 msgstr "Paikkatiedon tallennnus"
 
-#: ../../build/doc/overview/overview.rst:191
+#: ../../build/doc/overview/overview.rst:197
 msgid ""
 "|OSGeo_project| :doc:`postgis_overview` - [:doc:`Quickstart "
 "<../quickstart/postgis_quickstart>`] - Spatial Database"
@@ -322,23 +334,7 @@ msgstr ""
 "|OSGeo_project| :doc:`postgis_overview` - [:doc:`Pika-aloitus "
 "<../quickstart/postgis_quickstart>`] - Tietokanta paikkatiedolle"
 
-#: ../../build/doc/overview/overview.rst:193
-msgid ""
-"|nologo| :doc:`spatialite_overview` - [:doc:`Quickstart "
-"<../quickstart/spatialite_quickstart>`] - Lightweight Database"
-msgstr ""
-"|nologo| :doc:`spatialite_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/spatialite_quickstart>`] - Kevyt tietokanta paikkatiedolle"
-
-#: ../../build/doc/overview/overview.rst:195
-msgid ""
-"|OSGeo_incubation| :doc:`rasdaman_overview` - [:doc:`Quickstart "
-"<../quickstart/rasdaman_quickstart>`] - Multi-Dimensional Raster Database"
-msgstr ""
-"|OSGeo_incubation| :doc:`rasdaman_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/rasdaman_quickstart>`] - Moniulotteinen rasteritietokanta"
-
-#: ../../build/doc/overview/overview.rst:197
+#: ../../build/doc/overview/overview.rst:199
 msgid ""
 "|OSGeo_community| :doc:`pgrouting_overview` - [:doc:`Quickstart "
 "<../quickstart/pgrouting_quickstart>`] - Routing for PostGIS"
@@ -347,10 +343,50 @@ msgstr ""
 "<../quickstart/pgrouting_quickstart>`] - Reititys PostGISille"
 
 #: ../../build/doc/overview/overview.rst:201
+msgid ""
+"|OSGeo_incubation| :doc:`rasdaman_overview` - [:doc:`Quickstart "
+"<../quickstart/rasdaman_quickstart>`] - Multi-Dimensional Raster Database"
+msgstr ""
+"|OSGeo_incubation| :doc:`rasdaman_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/rasdaman_quickstart>`] - Moniulotteinen rasteritietokanta"
+
+#: ../../build/doc/overview/overview.rst:203
+msgid ""
+"|nologo| :doc:`spatialite_overview` - [:doc:`Quickstart "
+"<../quickstart/spatialite_quickstart>`] - Lightweight Database"
+msgstr ""
+"|nologo| :doc:`spatialite_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/spatialite_quickstart>`] - Kevyt tietokanta paikkatiedolle"
+
+#: ../../build/doc/overview/overview.rst:207
 msgid "Navigation and Maps"
 msgstr "Navigointi ja kartat"
 
-#: ../../build/doc/overview/overview.rst:221
+#: ../../build/doc/overview/overview.rst:227
+msgid ""
+"|OSGeo_project| :doc:`marble_overview` - [:doc:`Quickstart "
+"<../quickstart/marble_quickstart>`] - Virtual Globe"
+msgstr ""
+"|OSGeo_project| :doc:`marble_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/marble_quickstart>`] - Virtuaalinen maapallo"
+
+#: ../../build/doc/overview/overview.rst:229
+msgid ""
+"|nologo| :doc:`ideditor_overview` - [:doc:`Quickstart "
+"<../quickstart/ideditor_quickstart>`] - OpenStreetMap Web Editor"
+msgstr ""
+"|nologo| :doc:`ideditor_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/ideditor_quickstart>`] - OpenStreetMap verkkomuokkain"
+
+#: ../../build/doc/overview/overview.rst:231
+msgid ""
+"|nologo| :doc:`josm_overview` - [:doc:`Quickstart "
+"<../quickstart/josm_quickstart>`] - OpenStreetMap Desktop Editor"
+msgstr ""
+"|nologo| :doc:`josm_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/josm_quickstart>`] - OpenStreetMap Työasema muokkain"
+
+#: ../../build/doc/overview/overview.rst:233
 msgid ""
 "|nologo| :doc:`gpsprune_overview` - [:doc:`Quickstart "
 "<../quickstart/gpsprune_quickstart>`] - View, Edit and Convert GPS Tracks"
@@ -359,39 +395,7 @@ msgstr ""
 "<../quickstart/gpsprune_quickstart>`] - Katsele, muokkaa ja muunna GPS "
 "-jälkiä"
 
-#: ../../build/doc/overview/overview.rst:223
-msgid ""
-"|OSGeo_project| :doc:`marble_overview` - [:doc:`Quickstart "
-"<../quickstart/marble_quickstart>`] - Virtual Globe"
-msgstr ""
-"|OSGeo_project| :doc:`marble_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/marble_quickstart>`] - Virtuaalinen maapallo"
-
-#: ../../build/doc/overview/overview.rst:225
-msgid ""
-"|nologo| :doc:`osm_overview` - [:doc:`Quickstart "
-"<../quickstart/osm_quickstart>`] - OpenStreetMap Tools"
-msgstr ""
-"|nologo| :doc:`osm_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/osm_quickstart>`] - OpenStreetMap Työkalut"
-
-#: ../../build/doc/overview/overview.rst:227
-msgid ""
-"|nologo| :doc:`ideditor_overview` - [:doc:`Quickstart "
-"<../quickstart/ideditor_quickstart>`] - OpenStreetMap Web Editor"
-msgstr ""
-"|nologo| :doc:`ideditor_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/ideditor_quickstart>`] - OpenStreetMap verkkomuokkain"
-
-#: ../../build/doc/overview/overview.rst:229
-msgid ""
-"|nologo| :doc:`josm_overview` - [:doc:`Quickstart "
-"<../quickstart/josm_quickstart>`] - OpenStreetMap Desktop Editor"
-msgstr ""
-"|nologo| :doc:`josm_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/josm_quickstart>`] - OpenStreetMap Työasema muokkain"
-
-#: ../../build/doc/overview/overview.rst:231
+#: ../../build/doc/overview/overview.rst:235
 msgid ""
 "|nologo| :doc:`opencpn_overview` - [:doc:`Quickstart "
 "<../quickstart/opencpn_quickstart>`] - Marine GPS Chartplotter"
@@ -399,23 +403,23 @@ msgstr ""
 "|nologo| :doc:`opencpn_overview` - [:doc:`Pika-aloitus "
 "<../quickstart/opencpn_quickstart>`] - Merellinen GPS karttaplotteri"
 
-#: ../../build/doc/overview/overview.rst:235
+#: ../../build/doc/overview/overview.rst:237
+msgid ""
+"|nologo| :doc:`osm_overview` - [:doc:`Quickstart "
+"<../quickstart/osm_quickstart>`] - OpenStreetMap Tools"
+msgstr ""
+"|nologo| :doc:`osm_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/osm_quickstart>`] - OpenStreetMap Työkalut"
+
+#: ../../build/doc/overview/overview.rst:241
 msgid "Spatial Tools"
 msgstr "Työkalut paikkatiedolle"
 
-#: ../../build/doc/overview/overview.rst:237
+#: ../../build/doc/overview/overview.rst:243
 msgid "Specific analysis tools"
 msgstr "Erityiset työkalut analysointiin"
 
-#: ../../build/doc/overview/overview.rst:251
-msgid ""
-"|nologo| :doc:`gmt_overview` - [:doc:`Quickstart "
-"<../quickstart/gmt_quickstart>`] - Cartographic Rendering"
-msgstr ""
-"|nologo| :doc:`gmt_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/gmt_quickstart>`] - Kartografinen mallinnus"
-
-#: ../../build/doc/overview/overview.rst:253
+#: ../../build/doc/overview/overview.rst:259
 msgid ""
 "|OSGeo_project| :doc:`otb_overview` - [:doc:`Quickstart "
 "<../quickstart/otb_quickstart>`] - Image Processing"
@@ -423,15 +427,19 @@ msgstr ""
 "|OSGeo_project| :doc:`otb_overview` - [:doc:`Pika-aloitus "
 "<../quickstart/otb_quickstart>`] - Kuvankäsittely"
 
-#: ../../build/doc/overview/overview.rst:255
+#: ../../build/doc/overview/overview.rst:261
 msgid ""
-"|nologo| :doc:`R_overview` - [:doc:`Quickstart "
-"<../quickstart/R_quickstart>`] - Statistical Programming"
+"|nologo| |vmdk| :doc:`gmt_overview` - [:doc:`Quickstart "
+"<../quickstart/gmt_quickstart>`] - Cartographic Rendering"
 msgstr ""
-"|nologo| :doc:`R_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/R_quickstart>`] - Tilastollinen ohjelmointi"
 
-#: ../../build/doc/overview/overview.rst:257
+#: ../../build/doc/overview/overview.rst:263
+msgid ""
+"|nologo| :doc:`jupyter_overview` - [:doc:`Quickstart "
+"<../quickstart/jupyter_quickstart>`] - Mixing rich media in presentations"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:265
 msgid ""
 "|nologo| :doc:`mapnik_overview` - [:doc:`Quickstart "
 "<../quickstart/mapnik_quickstart>`] - Cartographic Rendering"
@@ -439,44 +447,45 @@ msgstr ""
 "|nologo| :doc:`mapnik_overview` - [:doc:`Pika-aloitus "
 "<../quickstart/mapnik_quickstart>`] - Kartografinen mallinnus"
 
-#: ../../build/doc/overview/overview.rst:261
+#: ../../build/doc/overview/overview.rst:267
+msgid ""
+"|nologo| :doc:`R_overview` - [:doc:`Quickstart "
+"<../quickstart/R_quickstart>`] - Statistical Programming"
+msgstr ""
+"|nologo| :doc:`R_overview` - [:doc:`Pika-aloitus "
+"<../quickstart/R_quickstart>`] - Tilastollinen ohjelmointi"
+
+#: ../../build/doc/overview/overview.rst:271
 msgid "Domain Specific GIS"
 msgstr "Erityisalojen paikkatietosovellukset"
 
-#: ../../build/doc/overview/overview.rst:263
+#: ../../build/doc/overview/overview.rst:273
 msgid "Applications targeted at a specific domain"
 msgstr "Sovellutukset jotka on tarkoitettu erityisaloille"
 
-#: ../../build/doc/overview/overview.rst:271
+#: ../../build/doc/overview/overview.rst:281
 msgid ""
-"|nologo| :doc:`zygrib_overview` - [:doc:`Quickstart "
-"<../quickstart/zygrib_quickstart>`] - Weather Forecast Maps"
+"|nologo| :doc:`xygrib_overview` - [:doc:`Quickstart "
+"<../quickstart/xygrib_quickstart>`] - Weather Forecast Maps"
 msgstr ""
-"|nologo| :doc:`zygrib_overview` - [:doc:`Pika-aloitus "
-"<../quickstart/zygrib_quickstart>`] - Sääennustekartat"
 
-#: ../../build/doc/overview/overview.rst:275
+#: ../../build/doc/overview/overview.rst:285
 msgid "Data"
 msgstr "Tiedot"
 
-#: ../../build/doc/overview/overview.rst:277
+#: ../../build/doc/overview/overview.rst:287
 msgid "Spatial data sets"
 msgstr "Paikkatiedon tietojoukot"
 
-#: ../../build/doc/overview/overview.rst:287
+#: ../../build/doc/overview/overview.rst:297
 msgid "|nologo| :doc:`naturalearth_overview`  - Global Data Sets"
 msgstr "|nologo| :doc:`naturalearth_overview`  - Globaalit datajoukot"
 
-#: ../../build/doc/overview/overview.rst:289
+#: ../../build/doc/overview/overview.rst:299
 msgid "|nologo| :doc:`nc_dataset_overview`"
 msgstr "|nologo| :doc:`nc_dataset_overview`"
 
-#: ../../build/doc/overview/overview.rst:291
-msgid ""
-"|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
-msgstr "|nologo| :doc:`osm_dataset_overview`  - Otteita OpenStreetMapista"
-
-#: ../../build/doc/overview/overview.rst:293
+#: ../../build/doc/overview/overview.rst:301
 msgid ""
 "|nologo| :doc:`netcdf_dataset_overview`  - Time series temperature and "
 "precipitation"
@@ -484,11 +493,16 @@ msgstr ""
 "|nologo| :doc:`netcdf_dataset_overview`  - Aikasarjoja lämpötilasta ja "
 "sademääristä"
 
-#: ../../build/doc/overview/overview.rst:297
+#: ../../build/doc/overview/overview.rst:303
+msgid ""
+"|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
+msgstr "|nologo| :doc:`osm_dataset_overview`  - Otteita OpenStreetMapista"
+
+#: ../../build/doc/overview/overview.rst:307
 msgid "Geospatial Libraries"
 msgstr "Paikkatietokirjastot"
 
-#: ../../build/doc/overview/overview.rst:312
+#: ../../build/doc/overview/overview.rst:322
 msgid ""
 "|OSGeo_project| :doc:`gdal_overview` - [:doc:`Quickstart "
 "<../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools"
@@ -496,45 +510,45 @@ msgstr ""
 "|OSGeo_project| :doc:`gdal_overview` - [:doc:`Pika-aloitus "
 "<../quickstart/gdal_quickstart>`] - Paikkadatan muunnostyökalut"
 
-#: ../../build/doc/overview/overview.rst:314
+#: ../../build/doc/overview/overview.rst:324
+msgid "|OSGeo_project| :doc:`geos_overview`  - C/C++ Spatial Library"
+msgstr "|OSGeo_project| :doc:`geos_overview`  - C/C++ paikkatietokirjasto"
+
+#: ../../build/doc/overview/overview.rst:326
 msgid "|OSGeo_project| :doc:`geotools_overview`  - Java GIS Toolkit"
 msgstr ""
 "|OSGeo_project| :doc:`geotools_overview`  - Java pohjaiset paikkatiedon "
 "työkalut"
 
-#: ../../build/doc/overview/overview.rst:316
-msgid "|OSGeo_project| :doc:`geos_overview`  - C/C++ Spatial Library"
-msgstr "|OSGeo_project| :doc:`geos_overview`  - C/C++ paikkatietokirjasto"
-
-#: ../../build/doc/overview/overview.rst:318
+#: ../../build/doc/overview/overview.rst:328
 msgid ""
-"|OSGeo_community| :doc:`proj_overview` - [:doc:`Quickstart "
+"|OSGeo_project| :doc:`proj_overview` - [:doc:`Quickstart "
 "<../quickstart/proj_quickstart>`] - Coordinate Reference System Libraries"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:320
+#: ../../build/doc/overview/overview.rst:330
 msgid "|nologo| :doc:`jts_overview`  - Java Topology Suite"
 msgstr "|nologo| :doc:`jts_overview`  - Java Topologinen kirjasto"
 
-#: ../../build/doc/overview/overview.rst:324
+#: ../../build/doc/overview/overview.rst:334
 msgid "Geospatial Standards"
 msgstr "Paikkatietostandardit"
 
-#: ../../build/doc/overview/overview.rst:334
+#: ../../build/doc/overview/overview.rst:344
 msgid "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
 msgstr "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
 
-#: ../../build/doc/overview/overview.rst:336
+#: ../../build/doc/overview/overview.rst:346
 msgid ""
 "|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial Information "
 "in Europe"
 msgstr ""
 "|nologo| :doc:`inspire_overview`  - Paikkatiedon infrastruktuuri Euroopassa"
 
-#: ../../build/doc/overview/overview.rst:340
+#: ../../build/doc/overview/overview.rst:350
 msgid "Available in prior OSGeo-Live releases"
 msgstr "Saatavilla aiemmissa OSGeo-Live julkaisuissa"
 
-#: ../../build/doc/overview/overview.rst:352
+#: ../../build/doc/overview/overview.rst:362
 msgid ":doc:`../prior_applications`"
 msgstr ":doc:`../prior_applications`"

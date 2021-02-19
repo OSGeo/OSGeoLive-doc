@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-18 20:30+0100\n"
+"POT-Creation-Date: 2021-02-06 18:01-0600\n"
 "PO-Revision-Date: 2017-01-21 16:46+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
@@ -92,16 +92,13 @@ msgstr ""
 msgid "Quick Starts"
 msgstr "Pika-aloitukset"
 
-#: ../../build/doc/index.rst:69
+#: ../../build/doc/index.rst:68
 msgid "Presentation"
 msgstr "Esittely"
 
-#: ../../build/doc/index.rst:71
+#: ../../build/doc/index.rst:70
 msgid ""
-"A half hour `presentation <presentation.html>`_, highlighting all OSGeoLive "
-"applications, is available with slides, script, and `abstract "
+"A half hour `presentation <./presentation.html>`_, highlighting all "
+"OSGeoLive applications, is available with slides, script, and `abstract "
 "<presentation/abstract.txt>`_."
 msgstr ""
-"Kaikki OSGeoLive-sovellutukset esittelevä puolen tunnin `esitys "
-"<presentation.html>`_ on saatavilla esityskalvoineen, skripteineen ja "
-"`abstrakteineen <presentation/abstract.txt>`_."
