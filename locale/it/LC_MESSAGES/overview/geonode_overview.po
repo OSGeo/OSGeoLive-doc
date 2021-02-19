@@ -6,6 +6,7 @@
 # Translators:
 # Luca Delucchi <lucadeluge@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Alessandro <alessandro.sarretta@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Alessandro <alessandro.sarretta@gmail.com>, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,8 +52,7 @@ msgstr ""
 msgid ""
 "GeoNode is built upon: GeoServer, GeoExplorer, pycsw, Django, and GeoExt."
 msgstr ""
-"Geonode è creto utilizzando: GeoServer, GeoExplorer, pycsw, Django, and "
-"GeoExt."
+"Geonode è creto utilizzando: GeoServer, GeoExplorer, pycsw, Django e GeoExt."
 
 #: ../../build/doc/overview/geonode_overview.rst:33
 msgid "Core Features"
@@ -80,11 +80,11 @@ msgstr "Importazione e gestione dei dati geospaziali"
 
 #: ../../build/doc/overview/geonode_overview.rst:43
 msgid "Publish raster, vector, and tabular data"
-msgstr "Publicazione di dati raster, vector, e tavolari"
+msgstr "Publicazione di dati raster, vettoriali e tabellari"
 
 #: ../../build/doc/overview/geonode_overview.rst:44
 msgid "Manage metadata and associated documents"
-msgstr "Gestione dei metadati e documenti associati"
+msgstr "Gestione dei metadati e dei documenti associati"
 
 #: ../../build/doc/overview/geonode_overview.rst:45
 msgid "Securely or publicly share data"
@@ -92,7 +92,7 @@ msgstr "Condivisione sicura o pubblica dei dati"
 
 #: ../../build/doc/overview/geonode_overview.rst:46
 msgid "Versioned geospatial data editor"
-msgstr "Editor dei dati geospaziali con versioning"
+msgstr "Editor di dati geospaziali con versioning"
 
 #: ../../build/doc/overview/geonode_overview.rst:48
 msgid "Interactive Mapping"
