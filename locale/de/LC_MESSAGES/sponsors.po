@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-18 20:30+0100\n"
+"POT-Creation-Date: 2021-01-21 12:32-0600\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -368,6 +368,7 @@ msgstr "anton.patrushev gmail com"
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
@@ -2543,10 +2544,12 @@ msgstr "Roberta Fagandini"
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1
 msgid "Japanese"
 msgstr "Japanisch"
 
+#: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
@@ -2601,6 +2604,26 @@ msgstr "nagase georepublic co jp"
 #: ../../build/translators.csv:1
 msgid "sanak"
 msgstr "sanak"
+
+#: ../../build/translators.csv:1
+msgid "Taro Matsuzawa"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "taro georepublic co jp"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Hiroshi Miura"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "miurahr osmf jp"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "miurahr"
+msgstr ""
 
 #: ../../build/translators.csv:1
 msgid "Korean"

@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Astrid Emde <astrid_emde@osgeo.org>, 2020
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 20:30+0100\n"
 "PO-Revision-Date: 2020-11-29 04:49+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2020\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,6 +59,11 @@ msgid ""
 "knowledge is recommended, although you can do without by running the "
 "application from OSGeoLive."
 msgstr ""
+"pygeoapi ist eine Python Web-Anwendung für räumliche Daten. Sie sollten sich"
+" also mit dem Konzept von Webanwendungen und räumlichen  Aspekten wie Grids,"
+" Vektorformaten, OGC Standards und Projektionssystemen auseinandersetzen. "
+"Python-Kenntnisse werden empfohlen, obwohl es auch ohne diese geht, wenn Sie"
+" die Anwendung von OSGeoLive verwenden."
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:38
 msgid "Configure and start the service"
@@ -138,6 +143,12 @@ msgid ""
 "``/var/www/html/openlayers/examples/data/geojson/countries.geojson``. You "
 "can configure it in pygeoapi using the GeoJSON provider."
 msgstr ""
+"Interessante Datensätze, die als OAPI-Features verfügbar gemacht werden "
+"sollen, bestehen aus realen Daten mit mehreren Attributen und Verknüpfungen "
+"zu anderen Ressourcen. OSGeoLive enthält eine Reihe von Datensätzen, die wir"
+" verwenden können. Ein Beispiel ist "
+"''/var/www/html/openlayers/examples/data/geojson/countries.geojson''. Sie "
+"können es in pygeoapi mit dem GeoJSON-Provider konfigurieren."
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:64
 msgid "Download the GeoJSON file and place it in the tests/data folder."

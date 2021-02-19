@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-02-19 11:35-0600\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -865,10 +865,6 @@ msgstr "tilemill_overview"
 #: ../../build/licenses.csv:1
 msgid "tinyows_overview"
 msgstr "tinyows_overview"
-
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-msgid "toc"
-msgstr "toc"
 
 #: ../../build/licenses.csv:1
 msgid "udig_overview"

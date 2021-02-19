@@ -7,10 +7,10 @@
 # John Kennedy <julius.krey@wheregroup.com>, 2018
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Richard Bischof <richard.bischof@lgln.niedersachsen.de>, 2018
-# Astrid Emde <astrid_emde@osgeo.org>, 2018
 # Dirk Stenger <stenger@lat-lon.de>, 2018
 # lgoltz <goltz@lat-lon.de>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -19,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,23 +47,23 @@ msgstr ""
 
 #: ../../build/doc/overview/deegree_overview.rst:28
 msgid "|WFS|: Serves vector data from geospatial data"
-msgstr ""
+msgstr "|WFS|: Liefert Vektordaten zu Geodaten"
 
 #: ../../build/doc/overview/deegree_overview.rst:29
 msgid "|WMS|: Serves maps rendered from geospatial data"
-msgstr ""
+msgstr "|WMS|: Liefert Karte auf Basis von Geodaten"
 
 #: ../../build/doc/overview/deegree_overview.rst:30
 msgid "|WMTS|: Serves pre-rendered map tiles"
-msgstr ""
+msgstr "|WMTS|: Liefert vorprozessierte Karten-Kacheln"
 
 #: ../../build/doc/overview/deegree_overview.rst:31
 msgid "|CSW|: Performs searches for geospatial datasets and services"
-msgstr ""
+msgstr "|CSW|: Suche nach Geodaten und Diensten"
 
 #: ../../build/doc/overview/deegree_overview.rst:32
 msgid "|WPS|: Executes geospatial processes"
-msgstr ""
+msgstr "|WPS|: Führt räumliche Berechnungen durch"
 
 #: ../../build/doc/overview/deegree_overview.rst:41
 msgid "Core Features"

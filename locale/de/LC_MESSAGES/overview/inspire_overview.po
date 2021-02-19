@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2019
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2018-07-27 22:51+0000\n"
-"Last-Translator: Andreas Schild <andreas.schild@bfw.gv.at>, 2019\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,6 +42,22 @@ msgid ""
 "standards, mainly those developed by the :doc:`OGC <ogc_overview>` and `ISO "
 "<https://www.iso.org>`__."
 msgstr ""
+"Die `INSPIRE - Richtlinie <https://inspire.ec.europa.eu>`__ zielt darauf ab,"
+" eine Geodateninfrastruktur der Europäischen Union (GDI) für die Zwecke der "
+"Umweltpolitik der EU zu schaffen. Diese europäische Geodateninfrastruktur "
+"soll den Austausch von räumlichen Umweltdaten zwischen öffentlichen "
+"Organisationen ermöglichen, den Zugang der Öffentlichkeit zu Geodaten "
+"erleichtern und politische Entscheidungen über Grenzen hinweg unterstützen. "
+"INSPIRE beruht auf den, von den 27 Mitgliedsstaaten der Europäischen Union "
+"eingerichteten und betriebenen Geodateninfrastrukturen. Die Richtlinie "
+"(siehe PDF `full text <https://eur-lex.europa.eu/legal-"
+"content/EN/TXT/PDF/?uri=CELEX:32007L0002&from=EN>`__) behandelt 34 "
+"Geodatenthemen, die für Anwendungen im Umweltbereich benötigt werden. Sie "
+"ist am 15. Mai 2007 in Kraft getreten und wird in mehreren Schritten "
+"umgesetzt, wobei sie bis 2021 vollständig umgesetzt werden muss. In "
+"technischer Hinsicht basiert INSPIRE auf internationalen Standards, im "
+"wesentlichen auf den von :doc:`OGC <ogc_overview>` und ISO entwickelten "
+"Normen."
 
 #: ../../build/doc/overview/inspire_overview.rst:19
 msgid ""
@@ -52,16 +69,26 @@ msgid ""
 "define a location reference that the remaining domain-specific themes (in "
 "Annex III and partly Annex II) can then refer to."
 msgstr ""
+"Die Datensätze, die in den Anwendungsbereich der INSPIRE-Richtlinie fallen, "
+"sind in 34 sektorübergreifende Kategorien unterteilt - die `Räumliche Daten "
+"Themen <https://inspire.ec.europa.eu/Themes/Data-Specifications/2892>`__,  "
+"die in den Anhängen der Richtlinie definiert sind und zwei Haupttypen von "
+"Daten widerspiegeln: Räumliche Referenzdaten, die in Anhang I und teilweise "
+"Anhang II dargestellt sind und die einen Standortbezug definieren, auf den "
+"sich die verbleibenden domänenspezifischen Themen (in Anhang III und "
+"teilweise Anhang II) beziehen können."
 
 #: ../../build/doc/overview/inspire_overview.rst:21
 msgid ""
 "Public sector authorities whose data falls within the scope of the INSPIRE "
 "Directive shall:"
 msgstr ""
+"Öffentliche Stellen und Behörden, deren Daten in den Geltungsbereich der "
+"Direktive fallen, müssen:"
 
 #: ../../build/doc/overview/inspire_overview.rst:23
 msgid "Document them through metadata;"
-msgstr ""
+msgstr "Diese mittels Metadaten beschreiben."
 
 #: ../../build/doc/overview/inspire_overview.rst:24
 msgid ""
@@ -69,6 +96,9 @@ msgid ""
 "data), view services (to access the data) and download services (to download"
 " the data);"
 msgstr ""
+"Stellen Sie sie über Netzwerkdienste zur Verfügung: Discovery-Dienste (zum "
+"Ermitteln der Daten), View-Services (um auf die Daten zuzugreifen) und "
+"Download-Dienste (zum Herunterladen der Daten);"
 
 #: ../../build/doc/overview/inspire_overview.rst:25
 msgid ""
@@ -76,6 +106,9 @@ msgid ""
 "<https://inspire.ec.europa.eu/Data-Models/Data-Specifications/2892>`__ "
 "defined for each theme."
 msgstr ""
+"Harmonisieren Sie ihre räumlichen Datensätze nach den für jedes Thema "
+"definierten `Daten-Modell <https://inspire.ec.europa.eu/Data-Models/Data-"
+"Specifications/2892>`__."
 
 #: ../../build/doc/overview/inspire_overview.rst:33
 msgid ""
@@ -91,6 +124,15 @@ msgid ""
 "together with selected use cases and an overview of OSGeo software projects "
 "that implementers may use."
 msgstr ""
+"Zurzeit geben mehr als 7000 Institutionen ihre Daten an INSPIRE weiter. Ein "
+"erheblicher Teil davon verwendet OSGeo-Anwendungen für die Implementierung. "
+":doc:`OSGeoLive <../index>` bietet mittels einer ständig wachsenden Anzahl "
+"von verfügbaren Beispielen mit europäischen Daten mehrerer Domänen einen "
+"einfachen Zugang in den Implementierungsprozess. Zusätzlich wurde `INSPIRE "
+"und OSGeo <https://wiki.osgeo.org/wiki/INSPIRE>`__ eine eigene Wikiseite "
+"gewidmet, welche einen Überblick über die rechtlichen und technischen "
+"Aspekte gibt. Außerdem finden sich hier ausgewählte Anwendungsfälle und ein "
+"Überblick von OSGeo-Werkzeugen, die sich für die Umsetzung anbieten."
 
 #: ../../build/doc/overview/inspire_overview.rst:36
 msgid ""
@@ -99,6 +141,10 @@ msgid ""
 "software components, which help Member States in the INSPIRE implementation "
 "process:"
 msgstr ""
+"Das `Joint Research Centre (JRC) of the European Commission "
+"<https://ec.europa.eu/jrc/en>`__ entwickelt und unterhält einige zentrale "
+"Software Komponenten, die den Mitgliedsstaaten beim INSPIRE-"
+"Implementationprozess helfen:"
 
 #: ../../build/doc/overview/inspire_overview.rst:38
 msgid ""
@@ -107,6 +153,10 @@ msgid ""
 "unique identifiers and descriptions of INSPIRE resources such as themes, "
 "code lists and application schemas;"
 msgstr ""
+"Die `INSPIRE Registry <https://inspire.ec.europa.eu/registry>`__, basiert "
+"auf der Open-Source-Software :doc:`Re3gistry <re3gistry_overview>` , "
+"verwaltet die Unique Identifiers und Beschreibung der INSPIRE-Quellen wie "
+"Themen, Code-Listen und Anwendungs-Schemata;"
 
 #: ../../build/doc/overview/inspire_overview.rst:39
 msgid ""
@@ -115,6 +165,11 @@ msgid ""
 " `ETF testing framework <https://etf-validator.net>`__, allows to test that "
 "metadata, datasets and services are compliant with INSPIRE requirements;"
 msgstr ""
+"Der 'INSPIRE Reference Validator <https: "
+"inspire.ec.europa.eu/validator/about/=\"\">'__, basierend auf dem Open "
+"Source 'ETF-Testframework <https: etf-validator.net=\"\">'__, ermöglicht es "
+"zu testen, ob Metadaten, Datasets und Dienste den INSPIRE-Anforderungen "
+"entsprechen;</https:> </https:>"
 
 #: ../../build/doc/overview/inspire_overview.rst:40
 msgid ""
@@ -122,6 +177,9 @@ msgid ""
 "to discover, access and download all the datasets made available by Member "
 "States under INSPIRE."
 msgstr ""
+"Das `INSPIRE Geoportal <https://inspire-geoportal.ec.europa.eu/>`__ "
+"ermöglicht das Entdecken, den Zugriff und den Download aller Datensätze, die"
+" über die Mitgliedsstaaten über INSPIRE bereitgestellt wurden."
 
 #: ../../build/doc/overview/inspire_overview.rst:48
 msgid "Details"

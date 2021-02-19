@@ -6,16 +6,16 @@
 # Translators:
 # John Kennedy <julius.krey@wheregroup.com>, 2018
 # Astrid Emde <astrid_emde@osgeo.org>, 2018
-# Vicky Vergara <vicky@georepublic.de>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-01-25 18:18-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,15 +43,14 @@ msgid ""
 "GeoTools is used by a number of projects including web services, command "
 "line tools and desktop applications. OSGeoLive applications which include "
 "GeoTools include: :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, "
-"AtlasStyler, :doc:`geomajas_overview`, Geopublisher, "
-":doc:`geoserver_overview`, and :doc:`udig_overview`."
-msgstr ""
-"GeoTools wird von verschiedensten Projekten verwendet, angefangen von Web Services über Kommandozeilen-Tools bis hin zu Desktop-Anwendungen. OSGeoLive Anwendungen, die u.A. auf GeoTools basieren: \n"
-":doc:`52nSOS_overview`, \n"
-":doc:`52nWPS_overview`, AtlasStyler, \n"
-":doc:`geomajas_overview`, Geopublisher, \n"
-":doc:`geoserver_overview`, und \n"
+"AtlasStyler, Geomajas, Geopublisher, :doc:`geoserver_overview`, and "
 ":doc:`udig_overview`."
+msgstr ""
+"GeoTools wird von verschiedensten Projekten verwendet, angefangen von Web "
+"Services über Kommandozeilen-Tools bis hin zu Desktop-Anwendungen. OSGeoLive"
+" Anwendungen, die u. A. auf GeoTools basieren: :doc:`52nSOS_overview`, "
+":doc:`52nWPS_overview`, AtlasStyler, Geomajas, Geopublisher, "
+":doc:`geoserver_overview`, und :doc:`udig_overview`."
 
 #: ../../build/doc/overview/geotools_overview.rst:31
 msgid "Core Features"

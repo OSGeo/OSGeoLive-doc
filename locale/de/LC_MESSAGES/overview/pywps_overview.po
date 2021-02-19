@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Astrid Emde <astrid_emde@osgeo.org>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-01-25 18:18-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,13 +42,13 @@ msgstr ""
 msgid ""
 "Processes are written in the Python programming language and can integrate "
 "tools such as :doc:`GRASS GIS <grass_overview>`, :doc:`R <R_overview>`, "
-":doc:`GDAL/OGR <gdal_overview>`, :doc:`proj.4 <proj4_overview>` and other "
+":doc:`GDAL/OGR <gdal_overview>`, :doc:`proj <proj_overview>` and other "
 "libraries with Python bindings.  Source data can be provided with WPS "
 "requests or accessed from data on the WPS server."
 msgstr ""
 "Die Prozesse werden in der Programmiersprache Python geschrieben und können "
 "Programme wie :doc:`GRASS GIS <grass_overview>`, :doc:`R <R_overview>`, "
-":doc:`GDAL/OGR <gdal_overview>`, :doc:`proj.4 <proj4_overview>` und andere "
+":doc:`GDAL/OGR <gdal_overview>`, :doc:`proj <proj_overview>` und andere "
 "Bibliotheken mit Python-Bindings integrieren. Daten können über WPS-Anfragen"
 " bereitgestellt werden."
 
@@ -85,8 +85,8 @@ msgid "GDAL/OGR"
 msgstr "GDAL/OGR"
 
 #: ../../build/doc/overview/pywps_overview.rst:47
-msgid "Proj.4"
-msgstr "Proj.4"
+msgid "Proj"
+msgstr "Proj"
 
 #: ../../build/doc/overview/pywps_overview.rst:48
 msgid "Numpy"
