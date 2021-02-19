@@ -4,8 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Vicky Vergara <vicky@georepublic.de>, 2020
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:10
 msgid "OSGeoLive Quickstart for Running in a Virtual Machine"
-msgstr "OSGEoLive gyorstalpaló a virtuális gép futtatásához"
+msgstr "OSGeoLive gyorstalpaló a virtuális gép futtatásához"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:12
 msgid ""
@@ -45,8 +44,8 @@ msgid ""
 "The response speed of a VM is much faster than on the DVD, and typically "
 "comparable with installing directly on the host machine."
 msgstr ""
-"A VM válaszolásideje sokkal gyorsabb mint a DVD-é és jellemzően "
-"összehasonlítható a  a közvetlenül a fogadó gépre történő telepítéssel."
+"A VM válaszideje sokkal gyorsabb mint a DVD-é és jellemzően "
+"összehasonlítható a közvetlenül a fogadó gépre történő telepítéssel."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:19
 msgid ""
@@ -100,7 +99,7 @@ msgid ""
 msgstr ""
 "Szabad merevlemez terület:: a :doc:`live.osgeo.org <../download>` oldalról "
 "letöltött virtuális lemez fájl (vmdk) kitömörítve majdnem 10 GB. És további "
-"területre lesz szüksége a virtuális gépen dolgozáshoz. 20 GB egy megfelelő "
+"területre lesz szüksége a munkához a virtuális gépen. 20 GB egy megfelelő "
 "javasolt méret."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:33
@@ -151,7 +150,7 @@ msgid ""
 msgstr ""
 "Emellett töltse le az OSGeo virtuális lemez fájlt (vmdk) a  "
 ":doc:`live.osgeo.org <../download>` oldalról. Kattintson a \"Virtuális gép "
-"letöltés\" gombra. Majd tömörítse ki a letöltött fájl (`7zip "
+"letöltés\" gombra. Majd tömörítse ki a letöltött fájlt (`7zip "
 "<https://www.7-zip.org>`_ használatával)."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:50
@@ -163,8 +162,8 @@ msgid ""
 "Start the VirtualBox application and click on the New button to create a new"
 " VM, and then Next."
 msgstr ""
-"Indítsa el a virtuális gép alkalmazást és kattintson az Új gombra egy új VM "
-"létrehozásához, majd nyomja meg a Következő gombot."
+"Indítsa el a virtuális gép alkalmazást és kattintson az Új (New) gombra egy "
+"új VM létrehozásához, majd nyomja meg a Következő (Next) gombot."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:57
 msgid ""
@@ -204,8 +203,8 @@ msgid ""
 "screen\" for the Mini toolbar."
 msgstr ""
 "A VM létrehozása után kattintson a Settings gombra. A \"General\" szakaszban"
-" nyissa meg az Advanced fület, és kattintson a \"Show at top of screen\" a "
-"Mini eszköztárnál."
+" nyissa meg az Advanced fület, és kattintson a \"Show at top of screen\"-re "
+"a Mini eszköztárnál."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:79
 msgid ""

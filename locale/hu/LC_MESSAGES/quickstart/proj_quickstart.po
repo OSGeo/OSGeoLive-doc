@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
 # Vicky Vergara <vicky@georepublic.de>, 2021
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-25 18:18-0600\n"
 "PO-Revision-Date: 2021-01-26 00:34+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -149,6 +149,10 @@ msgid ""
 "example are equivalent and meant as examples of various forms of DMS input. "
 "The x-y output data will appear as three lines of:"
 msgstr ""
+"az input NAD83  földrajzi koordinátákat UTM vetületbe transzformálja a "
+"kiválasztott 10-es zónába. A példa földrajzi értékei példaként szolgálnak a "
+"DMS adatbevitel különböző formáira. Az x-y output adatok három sorban "
+"jelennek meg:"
 
 #: ../../build/doc/quickstart/proj_quickstart.rst:125
 msgid "geod"
