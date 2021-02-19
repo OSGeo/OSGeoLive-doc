@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2018
-# MarPetra <mvergaratrejo@gmail.com>, 2018
+# MarPetra <mvergaratrejo@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-02-06 18:01-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2018\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -96,6 +96,13 @@ msgstr "**Interfaces API:** Lineas de comando"
 #: ../../build/doc/overview/gmt_overview.rst:56
 msgid "**Support:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
 msgstr "**Soporte:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
+
+#: ../../build/doc/overview/gmt_overview.rst:59
+msgid ""
+"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr ""
+"Este proyecto solo se incluye en el disco de máquina virtual OSGeoLive "
+"(VMDK)"
 
 #: ../../build/doc/overview/gmt_overview.rst:62
 msgid "Quickstart"
