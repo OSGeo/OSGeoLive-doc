@@ -138,6 +138,9 @@
 <p>Kiválaszthatja, hogy a megosztott mappa csak olvasható, és automatikusan elérhető (auto-mount) legyen. Miután kitöltötte a „Folder path” és a „Folder name” mezőket, kattintson az OK gombra, majd ismét az OK gombra a beállítások befejezéséhez és az ablak bezárásához.</p>
 <p><strong>Virtuális gép futtatása</strong></p>
 <p>Most töltse be a VM-et a Start (zöld nyíl) gombra kattintva.</p>
+<p>You should install the virtualbox guest additions, this will allow you to use full-screen mode.</p>
+<blockquote>
+<div><code class="docutils literal"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">--yes</span> <span class="pre">virtualbox-guest-dkms</span> <span class="pre">virtualbox-guest-utils</span> <span class="pre">virtualbox-guest-x11</span></code></div></blockquote>
 <p>Amikor az ISO-t egy virtuális gépre telepíti, a felhasználó névnek „user”-nek kell lennie</p>
 <p>A „user” felhasználó nem tagja a „users” csoportnak az OSGeoLive virtuális gépen. Ez megakadályozza, hogy néhány eszköz az adatkönyvtárakba írjon és néhány szoftver elindulását megakadályozza.</p>
 <p>A megoldás a VMDK javítása a következő egyszeri eljárással:</p>
