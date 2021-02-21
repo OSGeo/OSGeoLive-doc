@@ -409,7 +409,7 @@ Importing spatial data into the database
 
 Most of the OSGeo desktop tools have functions for importing spatial data from other formats (f.e. ESRI Shape) into the database. Again we'll use QGIS to show this.
 
-Importing shapefiles to QGIS can be done via the handy QGIS Database Manager. You find the manager in the menu. Go to ``Database -> DB Manager -> DB Manager``.
+Importing shapefiles to QGIS can be done via the handy QGIS Database Manager. You find the manager in the menu. Go to ``Database -> DB Manager``.
 
 Deploys the Postgis item, then the NaturalEarth item. It will then  connect to the Natural Earth database. Leave
 the password blank if it asks. In the public item, there is the list of the layers provided by the database. You'll see the main manager window. On the left you can select 
@@ -426,7 +426,7 @@ the North Carolina sudden infant death syndrome (SIDS) data that is included wit
 of the R statistics package add-ons.
 
 From the ``Table`` menu choose the ``Import layer/file`` option. 
-Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R ``maptools`` package
+Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R directory.
 (located in /home/user/data/vector/R/shapes):
 
 .. image:: /images/projects/postgis/postgis_browsedata.png
@@ -441,7 +441,7 @@ Leave everything else as it is and hit ``Load``
   :alt: Import a shapefile
   :align: center
 
-Let the Coordinate Reference System Selector default to (WGS 84 EPSG:4326) and hit ``OK``. The shapefile should be imported into PostGIS with no errors. Close the PostGIS manager and
+Let the Coordinate Reference System Selector default to (WGS 84 EPSG:4326) and hit ``OK``. The shapefile should be imported into PostGIS with no errors. Close the DB Manager and
 get back to the main QGIS window.
 
 Now load the SIDS data into the map using the 'Add PostGIS Layer'
@@ -584,6 +584,7 @@ The extension ``ogr_fdw`` allows connection too several geodata formats like KML
 GeoPackage, WFS, GeoJSON, GPX, GML and more.
 
 Read more about ``ogr_fdw``:
+
 * Repository: https://github.com/pramsey/pgsql-ogr-fdw 
 * New and improved: http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html
 
