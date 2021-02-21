@@ -427,7 +427,7 @@ of the R statistics package add-ons.
 
 From the ``Table`` menu choose the ``Import layer/file`` option. 
 Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R ``maptools`` package
-(located in /usr/local/lib/R/site-library/spData/shapes):
+(located in /home/user/data/vector/R/shapes):
 
 .. image:: /images/projects/postgis/postgis_browsedata.png
   :scale: 75 %
@@ -456,31 +456,30 @@ a choropleth map of the sudden infant death syndrome counts (sid74 or sid79 fiel
 
 
 
-Get to know pgAdmin III
+Get to know pgAdmin
 =======================
 
-You can use the graphical database client ``pgAdmin III`` from the Databases menu to query and modify your database non-spatially. This is the official client for PostgreSQL.
+You can use the graphical database client ``pgAdmin`` from the Databases menu to query and modify your database non-spatially. This is the official client for PostgreSQL.
 
-.. tip:: 
-   Please note that there is a new version of pgAdmin called pgAdmin4 that can get installed via apt install pgadmin4
-
-pgAdmin III lets you use SQL to manipulate your data tables. You can find and launch pgAdmin III 
+pgAdmin lets you use SQL to manipulate your data tables. You can find and launch pgAdmin 
 from the Databases folder, existing on the OSGeoLive Desktop. 
 
 .. image:: /images/projects/postgis/postgis_pgadmin_main_window.png
   :scale: 50 %
-  :alt: pgAdmin III
+  :alt: pgAdmin
   :align: center
+  
+Enter the master password  ``user``.
 
 Here, you have the option of creating a new connection to a PostgreSQL server, or connecting to an existing server.
-In this case, we are going to connect to the predefined ``local`` server.
+In this case, we are going to connect to the predefined ``localhost`` server.
 
 
 After connection established, you can see the list of the databases already existing in the system.
 
 .. image:: /images/projects/postgis/postgis_adminscreen0.png
   :scale: 75 %
-  :alt: pgAdmin III
+  :alt: pgAdmin
   :align: center
 
 The red "X" on the image of most of the databases, denotes that you haven't been yet connected to any of them (you are connected only
@@ -488,7 +487,7 @@ to the default ``postgres`` database).
 At this point you are able only to see the existing databases on the system. You can connect, by double clicking,
 on the name of a database. Do it for the natural_earth2 database.
 
-You can see now that the red X disappeared and a "+" appeared on the left. By pressing it a tree is going to appear,
+You can see now that the red X disappeared and a ">" appeared on the left. By pressing it a tree is going to appear,
 displaying the contents of the database.
 
 Navigate at the ``schemas`` subtree, expand it. Afterwards expand the 
@@ -498,18 +497,17 @@ Navigate at the ``schemas`` subtree, expand it. Afterwards expand the
 
 .. image:: /images/projects/postgis/postgis_adminscreen1.png
   :scale: 75 %
-  :alt: pgAdmin III
+  :alt: pgAdmin
   :align: center
 
   
 
 
-Executing a SQL query from pgAdmin III
+Executing a SQL query from pgAdmin
 ======================================
-pgAdmin III, offers the capability of executing queries to a relational database.
+pgAdmin, offers the capability of executing queries to a relational database.
 
-To perform a query on the database, you have to press the ``SQL`` button from the main toolbar (the one with the 
-yellow Magnifying lens).
+To perform a query on the database, you have to press the ``Query Tool`` button from the main toolbar (the one at the left with the database symbol).
 
 We are going to find the rate of the SIDS over the births for the 1974 for each city.
 Furthermore we are going to sort the result, based on the computed rate. To do that, we need to perform the following query (submit it
@@ -519,11 +517,11 @@ on the text editor of the SQL Window):
 
  select name, 1000*sid74/bir74 as rate from sids order by rate;
 
-Afterwards, you should press the green arrow button, pointing to the right (execute query).
+Afterwards, you should press the arrow button, pointing to the right (Execute).
 
 .. image:: /images/projects/postgis/postgis_adminscreen2.png
   :scale: 75 %
-  :alt: pgAdmin III
+  :alt: pgAdmin
   :align: center
   
 
@@ -547,9 +545,6 @@ First load the extension for the Foreign Data Wrapper that you want to use. For 
 
  CREATE EXTENSION postgres_fdw;
 
-.. tip:: 
-   Please note that in pgAdmin III the foreign data wrappers, foreign servers, user mappings and foreign tables are not displayed by default in the tree. 
-   You have to activate them via menu via :menuselection:`File --> Options --> Browser --> Display`
 
 Create a foreign Server that tells you where to find the data source that you want to connect
 
