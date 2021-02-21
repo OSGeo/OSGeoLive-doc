@@ -317,17 +317,18 @@
 <div class="section" id="importing-spatial-data-into-the-database">
 <h2><a class="toc-backref" href="#id7">空間データをデータベースに読み込む</a><a class="headerlink" href="#importing-spatial-data-into-the-database" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>ほとんどのOSGeoデスクトップツールには、他の形式(例 ESRI Shape)から空間データをデータベースに読み込むための機能があります。ここでもQGISを使って説明します</p>
-<p>シェープファイルをQGISに読み込むには、QGISデータベースマネージャを使用します。マネージャーはメニューにあります。 <code class="docutils literal"><span class="pre">Database</span> <span class="pre">-&gt;</span> <span class="pre">DB</span> <span class="pre">Manager</span> <span class="pre">-&gt;</span> <span class="pre">DB</span> <span class="pre">Manager</span></code> に移動します。</p>
+<p>Importing shapefiles to QGIS can be done via the handy QGIS Database Manager. You find the manager in the menu. Go to <code class="docutils literal"><span class="pre">Database</span> <span class="pre">-&gt;</span> <span class="pre">DB</span> <span class="pre">Manager</span></code>.</p>
 <p>Postgisアイテムを展開し、次にNaturalEarthアイテムを展開します。その後、Natural Earthデータベースに接続します。パスワードを確認するメッセージが表示されたら、空白のままにします。パブリックアイテムには、データベースによって提供されるレイヤのリストがあります。メインマネージャウィンドウが表示されます。左側では、データベースからテーブルを選択し、右側のタブを使用してテーブルについて調べることができます。[プレビュー]タブに小さなマップが表示されます。</p>
 <a class="reference internal image-reference" href="../../_images/postgis_managerpreview.png"><img alt="QGIS Manager Preview" class="align-center" src="../../_images/postgis_managerpreview.png" style="width: 1026.0px; height: 603.75px;" /></a>
 <p>次に、DBマネージャを使用して、シェープファイルをデータベースにインポートします。ここでは、R Statistics Packageアドオンの1つに含まれているNorth Carolina Sudden Infant Death Syndrome(SIDS)データを使用します。</p>
 <p>From the <code class="docutils literal"><span class="pre">Table</span></code> menu choose the <code class="docutils literal"><span class="pre">Import</span> <span class="pre">layer/file</span></code> option.
-Hit the <code class="docutils literal"><span class="pre">...</span></code> button and browse to the <code class="docutils literal"><span class="pre">sids.shp</span></code> shapefile in the R <code class="docutils literal"><span class="pre">maptools</span></code> package
+Hit the <code class="docutils literal"><span class="pre">...</span></code> button and browse to the <code class="docutils literal"><span class="pre">sids.shp</span></code> shapefile in the R directory.
 (located in /home/user/data/vector/R/shapes):</p>
 <a class="reference internal image-reference" href="../../_images/postgis_browsedata.png"><img alt="Find the shapefile" class="align-center" src="../../_images/postgis_browsedata.png" style="width: 632.25px; height: 492.0px;" /></a>
 <p>他のものはすべてそのままにして、 <code class="docutils literal"><span class="pre">Load</span></code> を押します。</p>
 <a class="reference internal image-reference" href="../../_images/postgis_importsids.png"><img alt="Import a shapefile" class="align-center" src="../../_images/postgis_importsids.png" style="width: 346.5px; height: 400.5px;" /></a>
-<p>座標参照系セレクタの既定値を(WGS 84 EPSG:4326)にして、 <code class="docutils literal"><span class="pre">OK</span></code> を押します。シェープファイルは、エラーなしでPostGISにインポートする必要があります。PostGISマネージャを閉じて、メインのQGISウィンドウに戻ります。</p>
+<p>Let the Coordinate Reference System Selector default to (WGS 84 EPSG:4326) and hit <code class="docutils literal"><span class="pre">OK</span></code>. The shapefile should be imported into PostGIS with no errors. Close the DB Manager and
+get back to the main QGIS window.</p>
 <p>次に、』PostGISマップを追加’オプションを使用して、SIDSデータをレイヤにロードします。レイヤの再配置と若干の色付けを行うことで、North Carolinaの乳幼児突然死症候群の発生数 (sid74またはsid79フィールド)の階級区分図を作成できるようになります。</p>
 <a class="reference internal image-reference" href="../../_images/postgis_sidsmap.png"><img alt="SIDS data mapped" class="align-center" src="../../_images/postgis_sidsmap.png" style="width: 1036.5px; height: 607.5px;" /></a>
 </div>
@@ -398,7 +399,11 @@ displaying the contents of the database.</p>
 <div class="section" id="connect-to-a-remote-ogr-data-source-via-ogr-fdw">
 <h2><a class="toc-backref" href="#id11">ogr_fdw経由でリモートOGRデータソースに接続</a><a class="headerlink" href="#connect-to-a-remote-ogr-data-source-via-ogr-fdw" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>拡張 <code class="docutils literal"><span class="pre">ogr_fdw</span></code> は、KML、GeoPackage、WFS、GeoJSON、GPX、GMLなどのいくつかの地理データフォーマットの接続を可能にします。</p>
-<p><code class="docutils literal"><span class="pre">ogr_fdw</span></code>: * リポジトリ: <a class="reference external" href="https://github.com/pramsey/pgsql-ogr-fdw">https://github.com/pramsey/pgsql-ogr-fdw</a> * 新規改良版: <a class="reference external" href="http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html">http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html</a></p>
+<p>Read more about <code class="docutils literal"><span class="pre">ogr_fdw</span></code>:</p>
+<ul class="simple">
+<li>Repository: <a class="reference external" href="https://github.com/pramsey/pgsql-ogr-fdw">https://github.com/pramsey/pgsql-ogr-fdw</a></li>
+<li>New and improved: <a class="reference external" href="http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html">http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html</a></li>
+</ul>
 <p class="rubric">拡張機能 <code class="docutils literal"><span class="pre">ogr_fdw</span></code> をデータベースにインストールします。</p>
 <p>データベースプロンプトで、次のように入力します。</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">CREATE</span> <span class="n">EXTENSION</span> <span class="n">ogr_fdw</span><span class="p">;</span>

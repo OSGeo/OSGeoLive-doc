@@ -317,17 +317,18 @@
 <div class="section" id="importing-spatial-data-into-the-database">
 <h2><a class="toc-backref" href="#id7">Import de données spatiales dans la base de données</a><a class="headerlink" href="#importing-spatial-data-into-the-database" title="Lien permanent vers ce titre">¶</a></h2>
 <p>La plupart des outils de bureau OSGeo ont des fonctions pour importer des données spatiales à partir d’autres formats (f.e. ESRI Shape) dans la base de données. Encore une fois, nous allons utiliser QGIS pour montrer cela.</p>
-<p>L’importation des shapefiles vers QGIS peut se faire via le gestionnaire de base de données de QGIS. Vous trouverez le gestionnaire dans le menu. Allez à <code class="docutils literal"><span class="pre">Database</span> <span class="pre">-&gt;</span> <span class="pre">DB</span> <span class="pre">Manager</span> <span class="pre">-&gt;</span> <span class="pre">DB</span> <span class="pre">Manager</span></code>.</p>
+<p>Importing shapefiles to QGIS can be done via the handy QGIS Database Manager. You find the manager in the menu. Go to <code class="docutils literal"><span class="pre">Database</span> <span class="pre">-&gt;</span> <span class="pre">DB</span> <span class="pre">Manager</span></code>.</p>
 <p>Dépliez l’élément Postgis, puis l’élément NaturalEarth. Puis, il se connectera à la base NaturalEarth. Laisser le mot de passe vide si demandé Dans l’élément public, il y a la liste des couches fournies par la base de données. Vous verrez la fenêtre principale de gestion. Sur la gauche, vous pouvez sélectionner les tables de la base de données et utilisez les onglets sur la droite pour en savoir à leur sujet. L’onglet Aperçu vous montre une petite carte.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_managerpreview.png"><img alt="QGIS Manager Preview" class="align-center" src="../../_images/postgis_managerpreview.png" style="width: 1026.0px; height: 603.75px;" /></a>
 <p>Nous allons maintenant utiliser le gestionnaire DB pour importer un shapefile dans la base de données. Nous utiliserons les données de syndrome de mort subite du nourrisson (SMSN) de Caroline du Nord qui est incluses avec l’un des paquets supplémentaires du langage de statistiques R.</p>
 <p>From the <code class="docutils literal"><span class="pre">Table</span></code> menu choose the <code class="docutils literal"><span class="pre">Import</span> <span class="pre">layer/file</span></code> option.
-Hit the <code class="docutils literal"><span class="pre">...</span></code> button and browse to the <code class="docutils literal"><span class="pre">sids.shp</span></code> shapefile in the R <code class="docutils literal"><span class="pre">maptools</span></code> package
+Hit the <code class="docutils literal"><span class="pre">...</span></code> button and browse to the <code class="docutils literal"><span class="pre">sids.shp</span></code> shapefile in the R directory.
 (located in /home/user/data/vector/R/shapes):</p>
 <a class="reference internal image-reference" href="../../_images/postgis_browsedata.png"><img alt="Find the shapefile" class="align-center" src="../../_images/postgis_browsedata.png" style="width: 632.25px; height: 492.0px;" /></a>
 <p>Laissez tout le reste comme il est et cliquez sur <code class="docutils literal"><span class="pre">Load</span></code></p>
 <a class="reference internal image-reference" href="../../_images/postgis_importsids.png"><img alt="Import a shapefile" class="align-center" src="../../_images/postgis_importsids.png" style="width: 346.5px; height: 400.5px;" /></a>
-<p>Laissez la valeur par défaut du sélecteur de système de coordonnées de référence à (WGS 84 EPSG:4326) et cliquez sur <code class="docutils literal"><span class="pre">OK</span></code>. Le shapefile devrait être importé dans PostGIS sans erreur. Fermez le gestionnaire de PostGIS et revenez à la fenêtre principale de QGIS.</p>
+<p>Let the Coordinate Reference System Selector default to (WGS 84 EPSG:4326) and hit <code class="docutils literal"><span class="pre">OK</span></code>. The shapefile should be imported into PostGIS with no errors. Close the DB Manager and
+get back to the main QGIS window.</p>
 <p>Maintenant charger les données du SIDS sur la carte à l’aide de l’option “Add PostGIS Layer”. Avec un peu de réorganisation des couches et un peu de colorisation, vous devriez être en mesure de produire une carte choroplèthe des  mort subite du nourrisson (champs sid74 ou sid79) en Caroline du Nord&nbsp;:</p>
 <a class="reference internal image-reference" href="../../_images/postgis_sidsmap.png"><img alt="SIDS data mapped" class="align-center" src="../../_images/postgis_sidsmap.png" style="width: 1036.5px; height: 607.5px;" /></a>
 </div>
@@ -398,7 +399,11 @@ displaying the contents of the database.</p>
 <div class="section" id="connect-to-a-remote-ogr-data-source-via-ogr-fdw">
 <h2><a class="toc-backref" href="#id11">Connectez-vous à une source de données OGR distante via ogr_fdw</a><a class="headerlink" href="#connect-to-a-remote-ogr-data-source-via-ogr-fdw" title="Lien permanent vers ce titre">¶</a></h2>
 <p>L’extension <code class="docutils literal"><span class="pre">ogr_fdw</span></code> permet la connexion vers plusieurs formats de données géospatiales comme KML, GeoPackage, WFS, GeoJSON, GPX, GML et plus encore.</p>
-<p>Lire la suite de <code class="docutils literal"><span class="pre">ogr_fdw</span></code>: * Dépôt: <a class="reference external" href="https://github.com/pramsey/pgsql-ogr-fdw">https://github.com/pramsey/pgsql-ogr-fdw</a> * Nouveau et amélioré: <a class="reference external" href="http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html">http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html</a></p>
+<p>Read more about <code class="docutils literal"><span class="pre">ogr_fdw</span></code>:</p>
+<ul class="simple">
+<li>Repository: <a class="reference external" href="https://github.com/pramsey/pgsql-ogr-fdw">https://github.com/pramsey/pgsql-ogr-fdw</a></li>
+<li>New and improved: <a class="reference external" href="http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html">http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html</a></li>
+</ul>
 <p class="rubric">Installez l’extension <code class="docutils literal"><span class="pre">ogr_fdw</span></code> dans votre base de données.</p>
 <p>Dans le type d’invite de la base de données :</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">CREATE</span> <span class="n">EXTENSION</span> <span class="n">ogr_fdw</span><span class="p">;</span>
