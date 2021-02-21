@@ -93,6 +93,10 @@ You can choose to make the shared folder read-only, and auto-mounted. Once the "
 
 Now bootup the VM by clicking the Start (green arrow) button.
 
+You should install the virtualbox guest additions, this will allow you to use full-screen mode.
+
+  ``sudo apt-get install --yes virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11``
+
 When you install the iso on the VM, the username must be set to "user"
 
 The user "user" is not a member of the "users" group on the OSGeoLive virtual machine. This prevents some tools from writing to its data directory and causes some software to fail to start. 
