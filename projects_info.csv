@@ -6,7 +6,7 @@
 #   OSGeo Projects | | | | | | | | | | | |
 Y | grass | 7.8.5 | Y | Y | Desktop GIS | | | grass_gis | https://grass.osgeo.org/ | OSGeo_project | GRASS GIS | Y
 Y | gvsig | 2.4.0 | Y | Y | Desktop GIS | | | gvsig-desktop-2 | http://www.gvsig.com/es | OSGeo_project | gvSIG Desktop | N
-Y | qgis | 3.16.3 | Y | Y | Desktop GIS | | | qgis | https://www.qgis.org/en/site/ | OSGeo_project | QGIS | Y
+Y | qgis | 3.16.4 | Y | Y | Desktop GIS | | | qgis | https://www.qgis.org/en/site/ | OSGeo_project | QGIS | Y
 #   OSGeo Community | | | | | | | | | | | |
 #   Others  | | | | | | | | | | | |
 Y | openjump | 1.15.1 | Y | Y | Desktop GIS | | | openjump_gis | http://www.openjump.org | | OpenJUMP GIS | Y
@@ -46,7 +46,7 @@ Y | zoo-project | 1.8.0 | Y | Y | Web Services | | Web Processing Service | zoo-
 Y | actinia | 0.99.8 | Y | Y | Web Services | | Processing of Geographical Data | actinia_core | https://actinia.mundialis.de/ | OSGeo_community | actinia | Y
 Y | eoxserver | 1.0.0RC22 | Y | Y | Web Services | | Web Coverage Service | eoxserver | https://docs.eoxserver.org/en/stable/ | | EOxServer | Y
 Y | ncWMS | 2.4.2 | Y | Y | Web Services | | Web Map Service | ncwms | https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/ | | ncWMS | N
-Y | qgis_mapserver | 3.16.3 | Y | Y | Web Services | | Web Map Service | | https://www.qgis.org/en/site/ | | QGIS Server | Y
+Y | qgis_mapserver | 3.16.4 | Y | Y | Web Services | | Web Map Service | | https://www.qgis.org/en/site/ | | QGIS Server | Y
 Y | re3gistry | 2.0.0 | Y | Y | Web Services | | Management of reference codes | re3gistry | https://github.com/ec-jrc/re3gistry | | Re3gistry | N
 Y | t-rex | 0.10.2 | Y | Y | Web Services | | Vector Tile Service | t-rex | https://t-rex.tileserver.ch/ | | t-rex | Y
 Y | 52nSOS | 4.4.3 | Y | Y | Web Services | | Sensor Observation Service | SensorObservationService | https://52north.org/software/software-projects/sos | | 52 North SOS | Y
