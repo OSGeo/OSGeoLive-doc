@@ -6,7 +6,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
-OSGeoLive Quickstart for Running in a Virtual Machine
+Running in a Virtual Machine
 ********************************************************************************
 
 This Quick Start describes one way to run OSGeoLive within a VirtualBox virtual machine. For other methods, follow links from the "See Also" section below.

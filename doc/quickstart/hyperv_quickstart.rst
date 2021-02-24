@@ -4,7 +4,7 @@
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
-OSGeoLive Quickstart for Running in a Hyper-V Virtual Machine
+Running in a Hyper-V Virtual Machine
 ********************************************************************************
 
 This Quick Start describes how to run OSGeoLive using Hyper-V, Microsoft's virtualisation software. For other methods, follow links from the "See Also" section below. 
