@@ -13,13 +13,13 @@
 
 The `INSPIRE Directive <https://inspire.ec.europa.eu>`__ aims to create a European Union spatial data infrastructure (SDI) for the purposes of environmental policies. This European SDI enables the sharing of environmental spatial information among public sector organisations, facilitates public access to spatial information and assist in policy-making across boundaries. INSPIRE is based on the infrastructures for spatial information established and operated by the 27 Member States of the European Union. The Directive (see the `full text <https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002&from=EN>`__) came into force on 15 May 2007 and is implemented in various stages, with full implementation required by 2021. INSPIRE is on a technical level based on international standards, mainly those developed by the :doc:`OGC <ogc_overview>` and `ISO <https://www.iso.org>`__.
 
-The datasets falling under the scope of the INSPIRE Directive are grouped into 34 cross-sectoral categories names `spatial data themes <https://inspire.ec.europa.eu/Themes/Data-Specifications/2892>`__, which are defined in the Annexes of the Directive and reflect two main types of data: geospatial reference data, presented in Annex I and partly Annex II, which define a location reference that the remaining domain-specific themes (in Annex III and partly Annex II) can then refer to.
+The datasets falling under the scope of the INSPIRE Directive are grouped into 34 cross-sectoral categories named `spatial data themes <https://inspire.ec.europa.eu/Themes/Data-Specifications/2892>`__, which are defined in the Annexes of the Directive and reflect two main types of data: geospatial reference data, presented in Annex I and partly Annex II, which define a location reference that the remaining domain-specific themes (in Annex III and partly Annex II) can then refer to.
 
 Public sector authorities whose data falls within the scope of the INSPIRE Directive shall:
 
-  * Document them through metadata;
-  * Expose them through network services: discovery services (to discover the data), view services (to access the data) and download services (to download the data);
-  * Harmonise their spatial datasets in accordance with `common data models <https://inspire.ec.europa.eu/Data-Models/Data-Specifications/2892>`__ defined for each theme.
+  * document them through metadata;
+  * expose them through network services: discovery services (to discover the data), view services (to access the data) and download services (to download the data);
+  * harmonise their spatial datasets in accordance with `common data models <https://inspire.ec.europa.eu/Data-Models/Data-Specifications/2892>`__ defined for each theme.
 
 @SCREENSHOT_inspire@
 
