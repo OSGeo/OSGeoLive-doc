@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-03-01 08:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:8
-msgid "OSGeoLive Quickstart for Running in a Hyper-V Virtual Machine"
+msgid "Running in a Hyper-V Virtual Machine"
 msgstr ""
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:10
@@ -233,4 +233,7 @@ msgstr ""
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:126
 msgid ":doc:`usb_quickstart`"
 msgstr ""
+
+#~ msgid "OSGeoLive Quickstart for Running in a Hyper-V Virtual Machine"
+#~ msgstr ""
 

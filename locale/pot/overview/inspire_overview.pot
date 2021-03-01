@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-03-01 08:42-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "The `INSPIRE Directive <https://inspire.ec.europa.eu>`__ aims to create a
 msgstr ""
 
 #: ../../build/doc/overview/inspire_overview.rst:19
-msgid "The datasets falling under the scope of the INSPIRE Directive are grouped into 34 cross-sectoral categories names `spatial data themes <https://inspire.ec.europa.eu/Themes/Data-Specifications/2892>`__, which are defined in the Annexes of the Directive and reflect two main types of data: geospatial reference data, presented in Annex I and partly Annex II, which define a location reference that the remaining domain-specific themes (in Annex III and partly Annex II) can then refer to."
+msgid "The datasets falling under the scope of the INSPIRE Directive are grouped into 34 cross-sectoral categories named `spatial data themes <https://inspire.ec.europa.eu/Themes/Data-Specifications/2892>`__, which are defined in the Annexes of the Directive and reflect two main types of data: geospatial reference data, presented in Annex I and partly Annex II, which define a location reference that the remaining domain-specific themes (in Annex III and partly Annex II) can then refer to."
 msgstr ""
 
 #: ../../build/doc/overview/inspire_overview.rst:21
@@ -33,15 +33,15 @@ msgid "Public sector authorities whose data falls within the scope of the INSPIR
 msgstr ""
 
 #: ../../build/doc/overview/inspire_overview.rst:23
-msgid "Document them through metadata;"
+msgid "document them through metadata;"
 msgstr ""
 
 #: ../../build/doc/overview/inspire_overview.rst:24
-msgid "Expose them through network services: discovery services (to discover the data), view services (to access the data) and download services (to download the data);"
+msgid "expose them through network services: discovery services (to discover the data), view services (to access the data) and download services (to download the data);"
 msgstr ""
 
 #: ../../build/doc/overview/inspire_overview.rst:25
-msgid "Harmonise their spatial datasets in accordance with `common data models <https://inspire.ec.europa.eu/Data-Models/Data-Specifications/2892>`__ defined for each theme."
+msgid "harmonise their spatial datasets in accordance with `common data models <https://inspire.ec.europa.eu/Data-Models/Data-Specifications/2892>`__ defined for each theme."
 msgstr ""
 
 #: ../../build/doc/overview/inspire_overview.rst:33
