@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-15 14:20-0600\n"
+"POT-Creation-Date: 2021-03-01 08:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:9
-msgid "OSGeoLive Quickstart"
+msgid "Getting started with OSGeoLive"
 msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:11
@@ -122,3 +122,7 @@ msgstr ""
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:60
 msgid ":doc:`usb_quickstart`"
 msgstr ""
+
+#~ msgid "OSGeoLive Quickstart"
+#~ msgstr ""
+
