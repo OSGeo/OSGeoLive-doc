@@ -378,7 +378,7 @@ displaying the contents of the database.</p>
  <span class="n">OPTIONS</span> <span class="p">(</span><span class="n">host</span> <span class="s1">&#39;127.0.0.1&#39;</span><span class="p">,</span> <span class="n">port</span> <span class="s1">&#39;5432&#39;</span><span class="p">,</span> <span class="n">dbname</span> <span class="s1">&#39;osm_local&#39;</span><span class="p">);</span>
 </pre></div>
 </div>
-<p>外部サーバーに接続するときに使用するユーザーを定義</p>
+<p>外部サーバに接続するときに使用するユーザを定義</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">CREATE</span> <span class="n">USER</span> <span class="n">MAPPING</span> <span class="n">FOR</span> <span class="n">user</span>
       <span class="n">SERVER</span> <span class="n">fdw_pg_server_osm_local</span>
       <span class="n">OPTIONS</span> <span class="p">(</span><span class="n">user</span> <span class="s1">&#39;user&#39;</span><span class="p">,</span> <span class="n">password</span> <span class="s1">&#39;user&#39;</span><span class="p">);</span>
@@ -465,7 +465,7 @@ displaying the contents of the database.</p>
 <li>コマンドラインで <code class="docutils literal"><span class="pre">pgsql2shp</span></code> を使用して、テーブルをシェープファイルにエクスポートします。</li>
 <li>データベースにデータをインポート/エクスポートするには、コマンドラインで <code class="docutils literal"><span class="pre">ogr2ogr</span></code> を試してください。</li>
 <li>コマンドラインで <code class="docutils literal"><span class="pre">shp2pgsql</span></code> を使用して、データベースにデータをインポートしてみてください。</li>
-<li>Try to do road routing using <a class="reference internal" href="../overview/pgrouting_overview.html"><span class="doc">pgRouting</span></a>.</li>
+<li><a class="reference internal" href="../overview/pgrouting_overview.html"><span class="doc">pgRouting</span></a> を使用して、道路のルーティングを試みます。</li>
 </ul>
 </div>
 <div class="section" id="what-next">
