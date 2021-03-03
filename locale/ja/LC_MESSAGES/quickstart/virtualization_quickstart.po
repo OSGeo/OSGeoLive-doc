@@ -5,8 +5,8 @@
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # Hiroshi Miura <miurahr@northside.tokyo>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-01 08:19-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Hiroshi Miura <miurahr@northside.tokyo>, 2021\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +33,7 @@ msgid ""
 "virtual machine. For other methods, follow links from the \"See Also\" "
 "section below."
 msgstr ""
-"ここでは、 OSGeo-Live を VirtualBox の仮想マシン内で動作させる1つの方法について記載します。他の方法については、以下の "
+"ここでは、 OSGeoLive を VirtualBox の仮想マシン内で動作させる1つの方法について記載します。他の方法については、以下の "
 "\"参照\" の章のリンクにしたがってください。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:15
@@ -225,13 +225,15 @@ msgstr "Start (緑の矢印) ボタンをクリックして、VM を起動しま
 msgid ""
 "You should install the virtualbox guest additions, this will allow you to "
 "use full-screen mode."
-msgstr ""
+msgstr "VirtualBox Guest Addition をインストールする必要があります。これにより、フルスクリーンモードを利用できます。"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:98
 msgid ""
 "``sudo apt-get install --yes virtualbox-guest-dkms virtualbox-guest-utils "
 "virtualbox-guest-x11``"
 msgstr ""
+"``sudo apt-get install --yes virtualbox-guest-dkms virtualbox-guest-utils "
+"virtualbox-guest-x11``"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:100
 msgid "When you install the iso on the VM, the username must be set to \"user\""

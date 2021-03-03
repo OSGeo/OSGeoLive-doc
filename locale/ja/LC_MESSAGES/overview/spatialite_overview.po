@@ -118,7 +118,7 @@ msgid ""
 "Specific support for ISO-Metadata, SLD/SE styles and SVG graphics.XML "
 "documents can be queried using standard XPath syntax."
 msgstr ""
-"XML ドキュメントやストアド BLOB 圧縮バイナリオブジェクトへの、\"well formed\" 構文、及び XSF "
+"XML ドキュメントやストアド BLOB 圧縮バイナリオブジェクトへの、 \"well formed\" 構文、及び XSF "
 "スキーマ妥当性検証チェック付きアクセス。特別に ISOメタデータ、SLD/SE スタイル、SVG グラフィックスをサポート。XML ドキュメントは標準の"
 " XPath 構文でクエリ可能。"
 

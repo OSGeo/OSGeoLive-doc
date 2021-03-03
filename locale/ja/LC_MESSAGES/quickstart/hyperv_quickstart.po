@@ -148,7 +148,7 @@ msgid ""
 "Run the following command to get the disk descriptor from the OSGeoLive "
 "vmdk. This saves the disk description to the \"descriptor1.txt\" file."
 msgstr ""
-"OSGeoLiveのvmdkファイルから、ディスクの記述子を取得するため、次のコマンドを実行します。\"descriptor1.txt\" "
+"OSGeoLiveのvmdkファイルから、ディスクの記述子を取得するため、次のコマンドを実行します。 \"descriptor1.txt\" "
 "に仮想ディスクの情報が保存されます。"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:60
