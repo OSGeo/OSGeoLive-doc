@@ -6,6 +6,7 @@
 # Translators:
 # Gregor Engelmann <shl00913@myport.ac.uk>, 2018
 # Astrid Emde <astrid_emde@osgeo.org>, 2021
+# Vicky Vergara <vicky@georepublic.de>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -401,7 +402,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:159
 msgid "Reverse line direction (good for rivers & one-way streets) |image32|"
-msgstr "Richtung umgekehren (gut für Flüsse & Einbahnstraßen) |Bild32|"
+msgstr "Richtung umgekehren (gut für Flüsse & Einbahnstraßen) |image32|"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:162
 msgid "A \"line\" created in the iD editor is actually a \"way\" with \"tags\" on it."
@@ -420,7 +421,7 @@ msgstr ""
 "Ein besonderer Hinweis zum **Löschen**: Im Allgemeinen sollten Sie "
 "vermeiden, die Zuordnung anderer Personen zu löschen, wenn es nur verbessert"
 " werden muss. Sie können Ihre eigenen Fehler löschen, aber Sie sollten "
-"versuchen, *die zugeordneten Objekte anderer Personen anzupassen, wenn sie "
+"versuchen, die zugeordneten Objekte anderer Personen anzupassen, wenn sie "
 "Änderungen benötigen. Dies bewahrt die Historie der Elemente in der OSM-"
 "Datenbank und ist respektvoll gegenüber anderen Mappern. Wenn Sie wirklich "
 "das Gefühl haben, dass etwas gelöscht werden sollte, sollten Sie zuerst den "
