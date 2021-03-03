@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 20:30+0100\n"
 "PO-Revision-Date: 2020-11-29 04:49+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -61,6 +61,11 @@ msgid ""
 "knowledge is recommended, although you can do without by running the "
 "application from OSGeoLive."
 msgstr ""
+"pygeoapi es una aplicación web de Python para el dominio espacial, por lo "
+"que debe tener en cuenta los conceptos de aplicaciones web y aspectos "
+"geoespaciales como formatos de cuadrícula y vectores, estándares OGC y "
+"sistemas de proyección. Se recomienda el conocimiento de Python, aunque "
+"puede hacerlo sin ejecutar la aplicación desde OSGeoLive."
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:38
 msgid "Configure and start the service"

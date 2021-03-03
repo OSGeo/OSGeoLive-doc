@@ -89,7 +89,7 @@ msgstr "きめ細やかなアクセス制御"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:41
 msgid "Group and user management"
-msgstr "グループとユーザーの管理"
+msgstr "グループとユーザの管理"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:42
 msgid "Multi-lingual user interface"

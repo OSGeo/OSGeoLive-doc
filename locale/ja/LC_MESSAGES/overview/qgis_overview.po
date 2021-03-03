@@ -191,7 +191,7 @@ msgstr "実装されている標準規格"
 
 #: ../../build/doc/overview/qgis_overview.rst:80
 msgid "OGC standards compliant (WMS, WFS, ... )"
-msgstr "OGC スタンダードに準拠 (WMS、WFS など)"
+msgstr "OGC標準に準拠 (WMS、WFS など)"
 
 #: ../../build/doc/overview/qgis_overview.rst:83
 msgid "Details"

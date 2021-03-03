@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# MarPetra <mvergaratrejo@gmail.com>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:03+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:22
+msgid "MapProxy Quickstart"
+msgstr "MapProxy クイックスタート"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:24
+msgid ""
+"MapProxy is *the* swiss army knife for all WMS and tile services. It caches,"
+" accelerates and transforms data from existing map services and serves any "
+"desktop or web GIS client."
+msgstr ""
+"MapProxyはすべてのWMSとタイルサービス用の *いわば* "
+"スイスアーミーナイフです。既存のマップサービスのデータをキャッシュし、高速化し、変換して、任意のデスクトップまたはWeb "
+"GISクライアントに提供します。"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:31
+msgid ""
+"MapProxy is not only a tile cache solution, but also offers many new and "
+"innovative features like full support for WMS clients."
+msgstr ""
+"MapProxyはタイルキャッシュソリューションであるだけでなく、WMSクライアントの完全サポートなど、多くの新しい革新的な機能を提供します。"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:37
+msgid "Start the service and view the demo"
+msgstr "サービスの開始とデモの表示"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:39
+msgid ""
+"MapProxy has flexible deployment options and you can integrate it in Apache "
+"for example. But you can also start MapProxy as a standalone service, which "
+"is the best option to get started."
+msgstr ""
+"MapProxyには柔軟な配置オプションがあり、例えばApacheに統合することができます。さらに、スタンドアロンサービスとしてMapProxyを開始することもできます。"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:41
+msgid ""
+"To start MapProxy as a standalone service click on "
+":menuselection:`Geospatial --> Web Services --> MapProxy --> Start "
+"MapProxy`."
+msgstr ""
+"MapProxy をスタンドアロンサービスとして起動するには、 :menuselection:`Geospatial --> Web Services "
+"--> MapProxy --> Start MapProxy` をクリックします。"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:43
+msgid "Open Firefox and navigate to `<http://localhost:8011/demo>`_"
+msgstr "Firefoxを開き、`<http://localhost:8011/demo>`_ に移動します"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:45
+msgid ""
+"The MapProxy demo page contains a rudimentary WMS and tile client for each "
+"configured layer. You can't select the projection for WMS layers for "
+"example, but it is enough to quickly verify that your installation works."
+msgstr ""
+"MapProxyのデモページには、基本的なWMSと各設定レイヤのタイルクライアントが含まれています。たとえば、WMSレイヤの投影選択ができませんが、インストール後に動作確認するには十分です。"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:49
+msgid "View in desktop GIS"
+msgstr "デスクトップGISで表示する"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:51
+msgid ""
+"You can add MapProxy in any WMS Desktop GIS like uDig, QGIS or gvSIG. The "
+"service URL is: `<http://localhost:8011/service?>`_"
+msgstr ""
+"uDig、QGIS、gvSIGなど、任意のWMS Desktop GISにMapProxyを追加できます。サービス URL: "
+"`<http://localhost:8011/service?>`_"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:53
+msgid ""
+"The MapProxy example configuration contains a few layers that use different "
+"map engines and map data. See below for more details about each layer."
+msgstr ""
+"MapProxyの設定例には、異なるマップエンジンとマップデータを使用するレイヤがいくつか含まれています。各レイヤの詳細については、以下を参照してください。"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:60
+msgid ""
+"Single WMS layer with data from two cascaded sources and "
+"`FeatureInformation` from one source."
+msgstr "2つのカスケードソースからのデータと、1つのソースからの `FeatureInformation` による単一のWMSレイヤ"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:63
+msgid "Available layers"
+msgstr "使用可能なレイヤ"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:66
+msgid "**mapnik**:"
+msgstr "**mapnik**:"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:66
+msgid ""
+"The world population rendered by Mapnik. You don't need to start the Mapnik "
+"service, because this layer makes use of the integrated Mapnik support in "
+"MapProxy."
+msgstr ""
+"Mapnikが描いた世界人口。Mapnikサービスを開始する必要はありません。なぜなら、このレイヤはMapProxyで統合されたMapnikサポートを利用しているからです。"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:70
+msgid "**tilestache**:"
+msgstr "**tilestache**:"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:69
+msgid ""
+"TileStache is a server that delivers tiles from the Mapnik world population "
+"service. This layer demonstrates the ability to include existing tile "
+"services in MapProxy and to make them available as WMS. You need to start "
+"TileStache with *Start Mapnik & TileStache* before accessing this layer."
+msgstr ""
+"TileStacheは、Mapnik世界人口サービスからタイルを配信するサーバーです。このレイヤは、MapProxyの既存のタイルサービスを組み込み、WMSとして使用できるようにする機能を示しています。このレイヤにアクセスする前に、"
+" *Start Mapnik & TileStache* でTileStacheを開始する必要があります。"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:74
+msgid "**geoserver**:"
+msgstr "**geoserver**:"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:73
+msgid ""
+"The US population rendered by the :doc:`GeoServer "
+"<../overview/geoserver_overview>` WMS. This layer also supports "
+"``GetFeatureInfo`` requests which are cascaded to the source WMS. You need "
+"to start GeoServer with |osgeolive-appmenupath-geoserver| before accessing "
+"this layer."
+msgstr ""
+":doc:`GeoServer <../overview/geoserver_overview>` "
+"WMSによるUSの人口統計のレンダリングこのレイヤは、ソースWMSにカスケードされる ``GetFeatureInfo`` "
+"要求をサポートします。このレイヤにアクセスする前に、 |osgeolive-appmenupath-geoserver| "
+"でGeoServerを起動する必要があります。"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:78
+msgid "**mapnik_geoserver**:"
+msgstr "**mapnik_geoserver**:"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:77
+msgid ""
+"This layer demonstrates the ability to combine multiple sources into one "
+"layer. It combines the world population from Mapnik with the US population "
+"from GeoServer. The ``GetFeatureInfo`` support for the US population is "
+"still available. You need to start GeoServer with |osgeolive-appmenupath-"
+"geoserver| before accessing this layer."
+msgstr ""
+"このレイヤは、複数のソースを1つのレイヤに結合する機能を示しています。Mapnikの世界人口とGeoServerの米国人口を組み合わせたものです。USの人口統計についての"
+"  ``GetFeatureInfo`` サポートは引き続き利用可能です。このレイヤにアクセスする前に、 |osgeolive-appmenupath-"
+"geoserver| でGeoServerを起動する必要があります。"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:82
+msgid "**mapserver**:"
+msgstr "**mapserver**:"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:81
+msgid ""
+"This layer uses Mapserver Itasca demo dataset. It is a local dataset and it "
+"uses the *coverage* feature to limit the BBOX to Itasca, IL."
+msgstr ""
+"このレイヤはMapserver Itascaデモデータセットを使用します。ローカルデータセットであり、 *カバレッジ* "
+"機能を使用してBBOXをItasca,ILに制限します。"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:85
+msgid "Create you own configuration"
+msgstr "独自の構成を作成する"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:87
+msgid ""
+"You can use ``mapproxy-util`` to create new configuration templates and to "
+"start a test server."
+msgstr "``mapproxy-util`` を使って新しい設定テンプレートを作成し、テストサーバを起動することができます。"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:89
+msgid "To create a new configuration::"
+msgstr "新規構成を作成する手順は、次のとおりです::"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:93
+msgid "To start the test server on port 8011 with the created configuration::"
+msgstr "作成した設定でポート8011上のテストサーバを起動するには、次の手順を実行します::"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:97
+msgid ""
+"You can now visit the demo page at http://127.0.0.1:8011/demo/. MapProxy "
+"will automatically reload if you change your configuration file."
+msgstr ""
+"http://127.0.0.1:8011/demo/  "
+"でデモページを見ることができます。設定ファイルを変更すると、MapProxyが自動的にリロードされます。"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:102
+msgid "What next?"
+msgstr "次のステップ"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:104
+msgid "Read the `documentation of MapProxy <../../mapproxy/index.html>`_"
+msgstr "`MapProxyドキュメント <../../mapproxy/index.html>`_  を読みます"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:106
+msgid ""
+"Read the example configuration (``/usr/local/share/mapproxy/mapproxy.yaml``)"
+msgstr "設定例 (``/usr/local/share/mapproxy/mapproxy.yaml``) を確認します。"

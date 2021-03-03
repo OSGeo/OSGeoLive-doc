@@ -181,8 +181,8 @@ msgid ""
 "output format is GeoTIFF.  The `-of` flag is used to select an output format"
 " and the -co flag is used to specify a creation option:"
 msgstr ""
-"変換はgdal_translateコマンドで行います。既定の出力形式はGeoTIFFです。`-of` フラグは出力フォーマットの選択に使用され、-co "
-"フラグは作成オプションの指定に使用されます:"
+"変換はgdal_translateコマンドで行います。デフォルトの出力形式はGeoTIFFです。`-of` "
+"フラグは出力フォーマットの選択に使用され、-co フラグは作成オプションの指定に使用されます:"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:143
 msgid "The `-ot` switch can be used to alter the output data type."

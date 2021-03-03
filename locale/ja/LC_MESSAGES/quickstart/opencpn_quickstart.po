@@ -87,7 +87,7 @@ msgstr "および"
 msgid ""
 "BlueTooth GPS users should take special care to read up about the no-probe "
 "option."
-msgstr "Bluetooth GPSユーザーは、no-probeオプションについて詳しく調べる必要があります。"
+msgstr "Bluetooth GPSユーザは、no-probeオプションについて詳しく調べる必要があります。"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:66
 msgid "'`xgps`' is a good program to check that Gpsd can see your GPS ok."
@@ -104,6 +104,8 @@ msgid ""
 "<../overview/xygrib_overview>` (also on this disc) is an easy way to "
 "download that."
 msgstr ""
+"GRIBプラグインを使用すると、現在の気象や波の予測データをダウンロードして、グラフ上にドレープすることができます。:doc:`XyGrib "
+"ソフトウェア <../overview/xygrib_overview>` (このディスクにもあります) は、簡単にダウンロードできます。"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:74
 msgid ""
@@ -128,6 +130,8 @@ msgid ""
 "Run through the :doc:`XyGrib quickstart <../quickstart/xygrib_quickstart>` "
 "and load the XyGrib file over your chart."
 msgstr ""
+":doc:`XyGrib クイックスタート <../quickstart/xygrib_quickstart>` "
+"を実行し、XyGribファイルをチャート上にロードします。"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:82
 msgid ""
@@ -136,6 +140,9 @@ msgid ""
 " Then right click on the file listing's background to show hidden files, "
 "including the ``.xygrib`` directory that contains the GRIB download files."
 msgstr ""
+"XyGrib ファイルをホームディレクトリに保存した場合は、 :file:`/home` に移動して、 ``user`` "
+"ディレクトリをGRIBデータディレクトリとして選択してください。次に、ファイルリストの背景を右クリックして、GRIBダウンロードファイルを含む "
+"``.zygrib`` ディレクトリなどの隠しファイルを表示します。"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:84
 msgid ""

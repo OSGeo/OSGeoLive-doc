@@ -67,7 +67,7 @@ msgstr "OpenCPN は次のものをサポートします:"
 
 #: ../../build/doc/overview/opencpn_overview.rst:38
 msgid "BSB raster, C-MAP (CM93/2) and S-57 ENC vector charts"
-msgstr "BSBラスター、C-MAP(CM93/2)、S-57ENCベクトル図"
+msgstr "BSBラスター、C-MAP(CM93/2)、S-57ENCベクタ図"
 
 #: ../../build/doc/overview/opencpn_overview.rst:39
 msgid "AIS input decoding"

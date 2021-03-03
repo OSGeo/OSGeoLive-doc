@@ -6,15 +6,16 @@
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2019
 # Astrid Emde <astrid_emde@osgeo.org>, 2021
+# Vicky Vergara <vicky@georepublic.de>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-03-01 08:42-0600\n"
 "PO-Revision-Date: 2018-07-27 22:51+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,7 +63,7 @@ msgstr ""
 #: ../../build/doc/overview/inspire_overview.rst:19
 msgid ""
 "The datasets falling under the scope of the INSPIRE Directive are grouped "
-"into 34 cross-sectoral categories names `spatial data themes "
+"into 34 cross-sectoral categories named `spatial data themes "
 "<https://inspire.ec.europa.eu/Themes/Data-Specifications/2892>`__, which are"
 " defined in the Annexes of the Directive and reflect two main types of data:"
 " geospatial reference data, presented in Annex I and partly Annex II, which "
@@ -87,12 +88,12 @@ msgstr ""
 "Direktive fallen, müssen:"
 
 #: ../../build/doc/overview/inspire_overview.rst:23
-msgid "Document them through metadata;"
+msgid "document them through metadata;"
 msgstr "Diese mittels Metadaten beschreiben."
 
 #: ../../build/doc/overview/inspire_overview.rst:24
 msgid ""
-"Expose them through network services: discovery services (to discover the "
+"expose them through network services: discovery services (to discover the "
 "data), view services (to access the data) and download services (to download"
 " the data);"
 msgstr ""
@@ -102,7 +103,7 @@ msgstr ""
 
 #: ../../build/doc/overview/inspire_overview.rst:25
 msgid ""
-"Harmonise their spatial datasets in accordance with `common data models "
+"harmonise their spatial datasets in accordance with `common data models "
 "<https://inspire.ec.europa.eu/Data-Models/Data-Specifications/2892>`__ "
 "defined for each theme."
 msgstr ""

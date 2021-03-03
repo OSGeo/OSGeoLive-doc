@@ -5,7 +5,6 @@
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Vicky Vergara <vicky@georepublic.de>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
@@ -41,7 +40,7 @@ msgid ""
 "captured from users."
 msgstr ""
 "`GeoNode <https://geonode.org>`_ "
-"は地理空間データのためのコンテンツ管理システムであり、地理空間データの作成、共有、および共同使用の仕組みを提供します。データセットはさまざまな形式でアップロードでき、マップはブラウザベースのツールを使用して編集、スタイル設定、集計を行うことができ、マップとメタデータを公開して検索することができ、レビュー、評価、コメントをユーザーから取得することができます。"
+"は地理空間データのためのコンテンツ管理システムであり、地理空間データの作成、共有、および共同使用の仕組みを提供します。データセットはさまざまな形式でアップロードでき、マップはブラウザベースのツールを使用して編集、スタイル設定、集計を行うことができ、マップとメタデータを公開して検索することができ、レビュー、評価、コメントをユーザから取得することができます。"
 
 #: ../../build/doc/overview/geonode_overview.rst:24
 msgid ""
@@ -122,7 +121,7 @@ msgstr "データのレビュー、評価、コメント"
 
 #: ../../build/doc/overview/geonode_overview.rst:59
 msgid "Groups of users"
-msgstr "ユーザーのグループ"
+msgstr "ユーザのグループ"
 
 #: ../../build/doc/overview/geonode_overview.rst:60
 msgid "Activity streams"

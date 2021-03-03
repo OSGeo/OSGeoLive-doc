@@ -148,7 +148,7 @@ msgid ""
 "**User manual:** https://github.com/ec-"
 "jrc/re3gistry/blob/master/documentation/user-manual.md"
 msgstr ""
-"**ユーザーマニュアル:** https://github.com/ec-jrc/re3gistry/blob/master/documentation"
+"**ユーザマニュアル:** https://github.com/ec-jrc/re3gistry/blob/master/documentation"
 "/user-manual.md"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:76

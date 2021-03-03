@@ -36,7 +36,7 @@ msgid ""
 "Completing the steps below will result in the demo GeoExt application at "
 "http://localhost/geoext/."
 msgstr ""
-"GeoExtはブラウザ上で動作するJavaScriptライブラリであり、ExtJSフレームワークとOpenLayersライブラリを組み合わせて拡張したものです。このクイックスタートでは、200行未満のコードでGeoExtコンポーネントを使用してリッチなWebアプリケーションを作成する手順について詳しく説明します。アプリケーションにマップ・レイヤーを提供するために、OSGeoLiveにインストールされたMapServer"
+"GeoExtはブラウザ上で動作するJavaScriptライブラリであり、ExtJSフレームワークとOpenLayersライブラリを組み合わせて拡張したものです。このクイックスタートでは、200行未満のコードでGeoExtコンポーネントを使用してリッチなWebアプリケーションを作成する手順について詳しく説明します。アプリケーションにマップ・レイヤを提供するために、OSGeoLiveにインストールされたMapServer"
 " WebサービスをMapServerとして使用します。以下のステップを完了すると、http://localhost/geoext/ "
 "でGeoExtアプリケーションのデモが行われます。"
 
@@ -120,7 +120,7 @@ msgid ""
 "Next we are going to add in a WFS vector layer - this is a little more "
 "complicated, but follows the same approach of creating a source and then a "
 "layer as the previous layers:"
-msgstr "次に、WFSベクトルレイヤを追加します。これは少し複雑ですが、前のレイヤと同じ方法でソースとレイヤを作成します。"
+msgstr "次に、WFSベクタレイヤを追加します。これは少し複雑ですが、前のレイヤと同じ方法でソースとレイヤを作成します。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:136
 msgid ""
@@ -169,7 +169,7 @@ msgid ""
 "features in our WFS layer. Similar to the layer tree store and tree panel, "
 "we create a ``GeoExt.data.store.Features`` store and a grid panel."
 msgstr ""
-"また、WFSレイヤのフィーチャの属性を表示するグリッドコンポーネントを作成します。レイヤーツリーストアとツリーパネルと同様に、 "
+"また、WFSレイヤのフィーチャの属性を表示するグリッドコンポーネントを作成します。レイヤツリーストアとツリーパネルと同様に、 "
 "``GeoExt.data.store.Features`` ストアとグリッドパネルを作成します。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:221
@@ -179,7 +179,7 @@ msgid ""
 "OpenStreetMap layer we created earlier, and place it in an ExtJS panel."
 msgstr ""
 "我々の最後のGeoExtコンポーネントは概観地図- ``GeoExt.componnet.OverviewMap`` "
-"である。先ほど作成したOpenStreetMapレイヤーを表示するように設定し、ExtJSパネルに配置します。"
+"である。先ほど作成したOpenStreetMapレイヤを表示するように設定し、ExtJSパネルに配置します。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:242
 msgid "Create a viewport"

@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:9
 msgid "Creating an OSGeoLive Bootable USB flash drive"
-msgstr "OSGeoLive を起動できる ブータブル USB フラッシュドライブの作成"
+msgstr "OSGeoLive のブータブル USB フラッシュドライブを作成する"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:11
 msgid ""

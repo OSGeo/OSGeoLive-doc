@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-03-01 08:19-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -474,11 +474,8 @@ msgstr ""
 #: ../../build/doc/quickstart/postgis_quickstart.rst:418
 msgid ""
 "Importing shapefiles to QGIS can be done via the handy QGIS Database "
-"Manager. You find the manager in the menu. Go to ``Database -> DB Manager ->"
-" DB Manager``."
+"Manager. You find the manager in the menu. Go to ``Database -> DB Manager``."
 msgstr ""
-"シェープファイルをQGISに読み込むには、QGISデータベースマネージャを使用します。マネージャーはメニューにあります。 ``Database -> "
-"DB Manager -> DB Manager`` に移動します。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:420
 msgid ""
@@ -505,13 +502,9 @@ msgstr ""
 #: ../../build/doc/quickstart/postgis_quickstart.rst:434
 msgid ""
 "From the ``Table`` menu choose the ``Import layer/file`` option. Hit the "
-"``...`` button and browse to the ``sids.shp`` shapefile in the R "
-"``maptools`` package (located in /usr/local/lib/R/site-"
-"library/spData/shapes):"
+"``...`` button and browse to the ``sids.shp`` shapefile in the R directory. "
+"(located in /home/user/data/vector/R/shapes):"
 msgstr ""
-"``Table`` メニューから ``Import layer/file`` オプションを選択します。``...`` ボタンを押して、R "
-"``maptools`` パッケージ(/usr/local/lib/R/site-library/spData/shapesにある) "
-"``sids.shp`` シェープファイルを参照してください。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:443
 msgid "Leave everything else as it is and hit ``Load``"
@@ -521,10 +514,8 @@ msgstr "他のものはすべてそのままにして、 ``Load`` を押しま�
 msgid ""
 "Let the Coordinate Reference System Selector default to (WGS 84 EPSG:4326) "
 "and hit ``OK``. The shapefile should be imported into PostGIS with no "
-"errors. Close the PostGIS manager and get back to the main QGIS window."
+"errors. Close the DB Manager and get back to the main QGIS window."
 msgstr ""
-"座標参照系セレクタの既定値を(WGS 84 EPSG:4326)にして、 ``OK`` "
-"を押します。シェープファイルは、エラーなしでPostGISにインポートする必要があります。PostGISマネージャを閉じて、メインのQGISウィンドウに戻ります。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:453
 msgid ""
@@ -537,51 +528,40 @@ msgstr ""
 "Carolinaの乳幼児突然死症候群の発生数 (sid74またはsid79フィールド)の階級区分図を作成できるようになります。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:466
-msgid "Get to know pgAdmin III"
-msgstr "pgAdmin IIIについて知る"
+msgid "Get to know pgAdmin"
+msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:468
 msgid ""
-"You can use the graphical database client ``pgAdmin III`` from the Databases"
-" menu to query and modify your database non-spatially. This is the official "
+"You can use the graphical database client ``pgAdmin`` from the Databases "
+"menu to query and modify your database non-spatially. This is the official "
 "client for PostgreSQL."
 msgstr ""
-"グラフィカルなデータベースクライアント ``pgAdmin III`` "
-"を[データベース]メニューから使用して、データベースに対して非空間的に問い合わせや変更を行うことができます。これはPostgreSQLの公式クライアントです。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:471
+#: ../../build/doc/quickstart/postgis_quickstart.rst:470
 msgid ""
-"Please note that there is a new version of pgAdmin called pgAdmin4 that can "
-"get installed via apt install pgadmin4"
+"pgAdmin lets you use SQL to manipulate your data tables. You can find and "
+"launch pgAdmin from the Databases folder, existing on the OSGeoLive Desktop."
 msgstr ""
-"pgAdminの新しいバージョンであるpgadmin4があり、apt install "
-"pgadmin4を使用してインストールできることに注意してください。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:473
-msgid ""
-"pgAdmin III lets you use SQL to manipulate your data tables. You can find "
-"and launch pgAdmin III from the Databases folder, existing on the OSGeoLive "
-"Desktop."
+#: ../../build/doc/quickstart/postgis_quickstart.rst:478
+msgid "Enter the master password  ``user``."
 msgstr ""
-"pgAdmin IIIでは、SQLを使用してデータテーブルを操作できます。pgAdmin "
-"IIIは、OSGeoLiveデスクトップ上のDatabasesフォルダから検索して起動できます。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:481
+#: ../../build/doc/quickstart/postgis_quickstart.rst:480
 msgid ""
 "Here, you have the option of creating a new connection to a PostgreSQL "
 "server, or connecting to an existing server. In this case, we are going to "
-"connect to the predefined ``local`` server."
+"connect to the predefined ``localhost`` server."
 msgstr ""
-"ここでは、PostgreSQLサーバへの新しい接続を作成するか、既存のサーバに接続するかを選択できます。この場合、定義済みの ``local`` "
-"サーバに接続します。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:485
+#: ../../build/doc/quickstart/postgis_quickstart.rst:484
 msgid ""
 "After connection established, you can see the list of the databases already "
 "existing in the system."
 msgstr "接続が確立されると、システムにすでに存在するデータベースの一覧が表示されます。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:492
+#: ../../build/doc/quickstart/postgis_quickstart.rst:491
 msgid ""
 "The red \"X\" on the image of most of the databases, denotes that you "
 "haven't been yet connected to any of them (you are connected only to the "
@@ -593,14 +573,14 @@ msgstr ""
 "``postgres`` "
 "データベースにのみ接続しています)。この時点では、システム上の既存のデータベースしか表示できません。データベースの名前をダブルクリックすることで接続できます。Natural_earth2データベースで実行します。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:497
+#: ../../build/doc/quickstart/postgis_quickstart.rst:496
 msgid ""
-"You can see now that the red X disappeared and a \"+\" appeared on the left."
+"You can see now that the red X disappeared and a \">\" appeared on the left."
 " By pressing it a tree is going to appear, displaying the contents of the "
 "database."
-msgstr "これで、赤いXが消え、左側に \"+\" が表示されたことがわかります。これを押すとツリーが表示され、データベースの内容が表示されます。"
+msgstr ""
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:500
+#: ../../build/doc/quickstart/postgis_quickstart.rst:499
 msgid ""
 "Navigate at the ``schemas`` subtree, expand it. Afterwards expand the "
 "``public`` schema. By navigating and expanding the ``Tables``, you can see "
@@ -609,23 +589,23 @@ msgstr ""
 "``schemas`` サブツリーに移動して展開します。その後、 ``public`` スキーマを展開します。 ``Tables`` "
 "を移動して展開すると、このスキーマに含まれるすべてのテーブルを表示できます。"
 
+#: ../../build/doc/quickstart/postgis_quickstart.rst:513
+msgid "Executing a SQL query from pgAdmin"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:514
-msgid "Executing a SQL query from pgAdmin III"
-msgstr "pgAdmin IIIからのSQLクエリーの実行"
-
-#: ../../build/doc/quickstart/postgis_quickstart.rst:515
 msgid ""
-"pgAdmin III, offers the capability of executing queries to a relational "
+"pgAdmin, offers the capability of executing queries to a relational "
 "database."
-msgstr "pgAdmin IIIは、リレーショナルデータベースへのクエリーを実行する機能を提供します。"
+msgstr ""
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:517
+#: ../../build/doc/quickstart/postgis_quickstart.rst:516
 msgid ""
-"To perform a query on the database, you have to press the ``SQL`` button "
-"from the main toolbar (the one with the yellow Magnifying lens)."
-msgstr "データベースに対してクエリを実行するには、メインツールバーの ``SQL`` ボタン(黄色の拡大レンズ付き)を押す必要があります。"
+"To perform a query on the database, you have to press the ``Query Tool`` "
+"button from the main toolbar (the one at the left with the database symbol)."
+msgstr ""
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:520
+#: ../../build/doc/quickstart/postgis_quickstart.rst:518
 msgid ""
 "We are going to find the rate of the SIDS over the births for the 1974 for "
 "each city. Furthermore we are going to sort the result, based on the "
@@ -634,17 +614,17 @@ msgid ""
 msgstr ""
 "各都市の1974年の乳幼児突然死症候群の発生率を求めます。さらに、計算されたレートに基づいて結果を並べ替えます。そのためには、次のクエリを実行する必要があります(SQLウィンドウのテキストエディタで送信)。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:528
+#: ../../build/doc/quickstart/postgis_quickstart.rst:526
 msgid ""
-"Afterwards, you should press the green arrow button, pointing to the right "
-"(execute query)."
-msgstr "その後、緑色の矢印ボタンを押して右向きにします(クエリーを実行)。"
+"Afterwards, you should press the arrow button, pointing to the right "
+"(Execute)."
+msgstr ""
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:537
+#: ../../build/doc/quickstart/postgis_quickstart.rst:535
 msgid "Get to know Foreign Data Wrappers (FDW)"
 msgstr "外部データラッパー(FDW)について知る"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:539
+#: ../../build/doc/quickstart/postgis_quickstart.rst:537
 msgid ""
 "From you database you can access remote objects like tables from other "
 "PostgreSQL databases or connect to remote databases like Oracle, MySQL, MS "
@@ -654,25 +634,25 @@ msgstr ""
 "データベースから、他のPostgreSQLデータベースからテーブルなどのリモートオブジェクトにアクセスしたり、Oracle、MySQL、MS "
 "SQL、CouchDBなどのリモートデータベースに接続したりできます。ODBC経由で接続したり、CSVや地理空間データに接続したり、Twitterに接続することもできます。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:542
+#: ../../build/doc/quickstart/postgis_quickstart.rst:540
 msgid "You find a list of different FDW at:"
 msgstr "異なるFDWの一覧は次の場所にあります。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:544
+#: ../../build/doc/quickstart/postgis_quickstart.rst:542
 msgid "https://wiki.postgresql.org/wiki/Foreign_data_wrappers"
 msgstr "https://wiki.postgresql.org/wiki/Foreign_data_wrappers"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:546
+#: ../../build/doc/quickstart/postgis_quickstart.rst:544
 msgid ""
 "Let's see how it works! The easiest way is to connect to a different "
 "PostgreSQL database."
 msgstr "動作の仕組みを見てみましょう。異なるPostgreSQLデータベースに接続するのが一番簡単でしょう。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:548
+#: ../../build/doc/quickstart/postgis_quickstart.rst:546
 msgid "Here are the steps:"
 msgstr "次の手順に従います。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:550
+#: ../../build/doc/quickstart/postgis_quickstart.rst:548
 msgid ""
 "First load the extension for the Foreign Data Wrapper that you want to use. "
 "For a connection to a different PostgreSQL database you need "
@@ -681,43 +661,32 @@ msgstr ""
 "最初に、使用する外部データラッパーの拡張機能をロードします。異なるPostgreSQLデータベースへの接続には、 ``postgres_fdw`` "
 "が必要です。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:557
-msgid ""
-"Please note that in pgAdmin III the foreign data wrappers, foreign servers, "
-"user mappings and foreign tables are not displayed by default in the tree. "
-"You have to activate them via menu via :menuselection:`File --> Options --> "
-"Browser --> Display`"
-msgstr ""
-"pgAdmin "
-"IIIでは、外部データラッパー、外部サーバ、ユーザマッピング、外部テーブルが既定でツリーに表示されないことに注意してください。これらを有効にするには、メニューの"
-" :menuselection:`File--> Options--> Browser--> Display` を使用する必要があります。"
-
-#: ../../build/doc/quickstart/postgis_quickstart.rst:560
+#: ../../build/doc/quickstart/postgis_quickstart.rst:555
 msgid ""
 "Create a foreign Server that tells you where to find the data source that "
 "you want to connect"
 msgstr "接続するデータソースの場所を通知する外部サーバーを作成"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:568
+#: ../../build/doc/quickstart/postgis_quickstart.rst:563
 msgid ""
 "Define the user that should be used when you connect to the foreign server"
-msgstr "外部サーバーに接続するときに使用するユーザーを定義"
+msgstr "外部サーバに接続するときに使用するユーザを定義"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:576
+#: ../../build/doc/quickstart/postgis_quickstart.rst:571
 msgid "Now you can create a foreign table."
 msgstr "これで、外部テーブルを作成できます。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:585
+#: ../../build/doc/quickstart/postgis_quickstart.rst:580
 msgid ""
 "Find new tables in your database and have a look at the data from a foreign "
 "table."
 msgstr "データベース内の新しいテーブルを検索し、外部テーブルのデータを参照します。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:592
+#: ../../build/doc/quickstart/postgis_quickstart.rst:587
 msgid "Connect to a remote OGR data source via ogr_fdw"
 msgstr "ogr_fdw経由でリモートOGRデータソースに接続"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:594
+#: ../../build/doc/quickstart/postgis_quickstart.rst:589
 msgid ""
 "The extension ``ogr_fdw`` allows connection too several geodata formats like"
 " KML, GeoPackage, WFS, GeoJSON, GPX, GML and more."
@@ -725,40 +694,44 @@ msgstr ""
 "拡張 ``ogr_fdw`` "
 "は、KML、GeoPackage、WFS、GeoJSON、GPX、GMLなどのいくつかの地理データフォーマットの接続を可能にします。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:597
-msgid ""
-"Read more about ``ogr_fdw``: * Repository: https://github.com/pramsey/pgsql-"
-"ogr-fdw * New and improved: http://blog.cleverelephant.ca/2016/04/ogr-fdw-"
-"update.html"
+#: ../../build/doc/quickstart/postgis_quickstart.rst:592
+msgid "Read more about ``ogr_fdw``:"
 msgstr ""
-"``ogr_fdw``: * リポジトリ: https://github.com/pramsey/pgsql-ogr-fdw * 新規改良版: "
-"http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:603
+#: ../../build/doc/quickstart/postgis_quickstart.rst:594
+msgid "Repository: https://github.com/pramsey/pgsql-ogr-fdw"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:595
+msgid ""
+"New and improved: http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:599
 msgid "Install the extension ``ogr_fdw`` in your database."
 msgstr "拡張機能 ``ogr_fdw`` をデータベースにインストールします。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:604
+#: ../../build/doc/quickstart/postgis_quickstart.rst:600
 msgid "On the database prompt type:"
 msgstr "データベースプロンプトで、次のように入力します。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:612
+#: ../../build/doc/quickstart/postgis_quickstart.rst:608
 msgid "Inspect which formats are supported:"
 msgstr "サポートされているフォーマットを確認:"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:613
+#: ../../build/doc/quickstart/postgis_quickstart.rst:609
 msgid "Open a terminal and search for ogr_fdw_info:"
 msgstr "端末を開き、ogr_fdw_infoを検索します:"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:620
+#: ../../build/doc/quickstart/postgis_quickstart.rst:616
 msgid "Results might look like these: ::"
 msgstr "結果は次のようになります: ::"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:638
+#: ../../build/doc/quickstart/postgis_quickstart.rst:634
 msgid "Create a FDW to a WFS"
 msgstr "WFSへのFDWの作成"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:639
+#: ../../build/doc/quickstart/postgis_quickstart.rst:635
 msgid ""
 "Start Geoserver via :menuselection:`Geospatial --> Web Services --> "
 "GeoServer -->  Start GeoServer`"
@@ -766,32 +739,32 @@ msgstr ""
 "Geoserverの起動 :menuselection:`Geospatial --> Web Services --> GeoServer --> "
 "Start GeoServer`"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:641
+#: ../../build/doc/quickstart/postgis_quickstart.rst:637
 msgid "Open GeoServer http://localhost:8082/geoserver/web/"
 msgstr "GeoServerを開く http://localhost:8082/geoserver/web/"
 
+#: ../../build/doc/quickstart/postgis_quickstart.rst:638
+msgid ""
+"GeoServer WFS GetCapabilities "
+"http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities"
+msgstr ""
+"GeoServer WFS GetCapabilities "
+"http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:639
+msgid ""
+"GeoServer WFS DescribeFeatureType for topp:states "
+"`http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states"
+" "
+"<http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states>`__"
+msgstr ""
+"GeoServer WFS DescribeFeatureType for topp:states "
+"`http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states"
+" "
+"<http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states>`__"
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:642
 msgid ""
-"GeoServer WFS GetCapabilities "
-"http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities"
-msgstr ""
-"GeoServer WFS GetCapabilities "
-"http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities"
-
-#: ../../build/doc/quickstart/postgis_quickstart.rst:643
-msgid ""
-"GeoServer WFS DescribeFeatureType for topp:states "
-"`http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states"
-" "
-"<http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states>`__"
-msgstr ""
-"GeoServer WFS DescribeFeatureType for topp:states "
-"`http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states"
-" "
-"<http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states>`__"
-
-#: ../../build/doc/quickstart/postgis_quickstart.rst:646
-msgid ""
 "GeoServer WFS GetFeature topp:states "
 "`http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states"
 " "
@@ -802,33 +775,33 @@ msgstr ""
 " "
 "<http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states>`__"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:652
+#: ../../build/doc/quickstart/postgis_quickstart.rst:648
 msgid ""
 "Create a foreign server that refers to the WFS that you want to connect"
 msgstr "接続するWFSを参照する外部サーバーを作成する"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:660
+#: ../../build/doc/quickstart/postgis_quickstart.rst:656
 msgid "Import all WFS feature_types as foreign tables with one command."
 msgstr "1つのコマンドで、すべてのWFS地物_タイプを外部テーブルとしてインポートします。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:661
+#: ../../build/doc/quickstart/postgis_quickstart.rst:657
 msgid ""
 "After the import you will see several new foreign tables in your schema."
 msgstr "インポート後、スキーマに新しい外部テーブルがいくつか表示されます。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:670
+#: ../../build/doc/quickstart/postgis_quickstart.rst:666
 msgid "Inspect the foreign data table ``topp_states``:"
 msgstr "外部データテーブルを確認 ``topp_states``:"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:677
+#: ../../build/doc/quickstart/postgis_quickstart.rst:673
 msgid "Things to try"
 msgstr "試してみること"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:679
+#: ../../build/doc/quickstart/postgis_quickstart.rst:675
 msgid "Here are some additional challenges for you to try:"
 msgstr "次に、試すべき追加の課題をいくつか示します。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:681
+#: ../../build/doc/quickstart/postgis_quickstart.rst:677
 msgid ""
 "Try some more spatial functions like ``st_buffer(geom)``, "
 "``st_transform(geom,25831)``, ``st_x(geom)`` - you will find full "
@@ -837,39 +810,39 @@ msgstr ""
 "``st_buffer(geom)``, ``st_transform(geom,25831)``, ``st_x(geom)`` - "
 "のようないくつかの空間関数を試してください。完全なドキュメントは http://postgis.net/documentation/"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:683
+#: ../../build/doc/quickstart/postgis_quickstart.rst:679
 msgid ""
 "Export your tables to shapefiles with ``pgsql2shp`` on the command line."
 msgstr "コマンドラインで ``pgsql2shp`` を使用して、テーブルをシェープファイルにエクスポートします。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:685
+#: ../../build/doc/quickstart/postgis_quickstart.rst:681
 msgid ""
 "Try ``ogr2ogr`` on the command line to import/export data to your database."
 msgstr "データベースにデータをインポート/エクスポートするには、コマンドラインで ``ogr2ogr`` を試してください。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:687
+#: ../../build/doc/quickstart/postgis_quickstart.rst:683
 msgid ""
 "Try to import data with ``shp2pgsql`` on the command line to your database."
 msgstr "コマンドラインで ``shp2pgsql`` を使用して、データベースにデータをインポートしてみてください。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:689
+#: ../../build/doc/quickstart/postgis_quickstart.rst:685
 msgid "Try to do road routing using :doc:`../overview/pgrouting_overview`."
-msgstr " :doc:`../overview/pgrouting_overview` を使用して、道路のルーティングを試みます。"
+msgstr ":doc:`../overview/pgrouting_overview` を使用して、道路のルーティングを試みます。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:694
+#: ../../build/doc/quickstart/postgis_quickstart.rst:690
 msgid "What next?"
 msgstr "次のステップ"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:696
+#: ../../build/doc/quickstart/postgis_quickstart.rst:692
 msgid ""
 "This is only the first step on the road to using PostGIS. There is a lot "
 "more functionality you can try."
 msgstr "これは、PostGISを使用するための最初のステップです。他にも多くの機能を試すことができます。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:698
+#: ../../build/doc/quickstart/postgis_quickstart.rst:694
 msgid "PostGIS Project home -  http://postgis.net"
 msgstr "PostGISプロジェクトホーム -  http://postgis.net"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:700
+#: ../../build/doc/quickstart/postgis_quickstart.rst:696
 msgid "PostGIS Documentation -  http://postgis.net/documentation/"
 msgstr "PostGISドキュメント -  http://postgis.net/documentation/"

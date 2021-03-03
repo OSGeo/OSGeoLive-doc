@@ -101,7 +101,7 @@ msgstr "スケールバーと、その領域にどのユーザが貢献したか
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:62
 msgid "Configuring the background layer"
-msgstr "背景レイヤーの設定"
+msgstr "背景レイヤの設定"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:64
 msgid ""
@@ -126,7 +126,7 @@ msgid ""
 "You also can **change the background layer** based on your desired tile "
 "provider (the default is Bing Aerial Imagery)."
 msgstr ""
-"また、目的のタイルプロバイダに基づいて **背景レイヤーを変更する** こともできます(デフォルトはBing Aerial Imagery)。"
+"また、目的のタイルプロバイダに基づいて **背景レイヤを変更する** こともできます(デフォルトはBing Aerial Imagery)。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:74
 msgid ""

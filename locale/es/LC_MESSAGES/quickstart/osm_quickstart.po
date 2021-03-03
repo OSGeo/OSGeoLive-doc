@@ -371,16 +371,20 @@ msgid ""
 "There are several ways to download OpenStreetMap data for your region. You "
 "can get the data in several formats."
 msgstr ""
+"Hay varias maneras de descargar datos de OpenStreetMap para su región. Puede"
+" obtener los datos en varios formatos."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:174
 msgid ""
 "You can use the following tools and services to extract OSM data for your "
 "area of interest."
 msgstr ""
+"Puede utilizar las siguientes herramientas y servicios para extraer datos de"
+" OSM para su área de interés."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:178
 msgid "Geofabrik"
-msgstr ""
+msgstr "Geofabrik"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:180
 msgid ""
@@ -390,6 +394,11 @@ msgid ""
 "`.osm.pbf`, `.shp.zip` and `.osm.bz2`. `.osm.pbf` and`.shp.zip` can be "
 "opened directly in QGIS."
 msgstr ""
+"`Geofabrik <https://download.geofabrik.de/>`_ proporciona diariamente "
+"extractos de datos penstreetmap en todo el mundo por subregión y país. Elija"
+" la región o país que le interesa. Los datos se proporcionan en tres "
+"formatos: `.osm.pbf`, `.shp.zip` y `.osm.bz2`. `.osm.pbf` y`.shp.zip` pueden"
+" abrirse directamente en QGIS."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:184
 msgid ""
@@ -397,43 +406,53 @@ msgid ""
 " them, find out more about working with them here "
 "https://wiki.openstreetmap.org/wiki/OSM_XML"
 msgstr ""
+"**.osm.bz2** contiene archivos XML de OSM sin procesar `.osm`, `osm2pgsql`_ "
+"funciona bien con ellos, obtenga más información sobre cómo trabajar con "
+"ellos aquí https://wiki.openstreetmap.org/wiki/OSM_XML"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:188
 msgid "Overpass turbo"
-msgstr ""
+msgstr "Overpass turbo"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:190
 msgid ""
 "Overpass turbo is a web based data mining tool for OpenStreetMap based on "
 "the Overpass-API."
 msgstr ""
+"Overpass turbo es una herramienta de minería de datos basada en web para "
+"OpenStreetMap basada en la Overpass-API."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:192
 msgid ""
 "Have a look at the web client and download all the pubs in the FOSS4G city."
 msgstr ""
+"Echa un vistazo al cliente web y descarga todos los pubs de la ciudad del "
+"FOSS4G."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:194
 msgid "Open https://overpass-turbo.eu/"
-msgstr ""
+msgstr "Abierto https://overpass-turbo.eu/"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:196
 msgid ""
 "Click on the button `Wizard` and paste the query to the search column "
 "`amenity=pub in \"Buenos Aires\"`"
 msgstr ""
+"Haga clic en el botón `Asistente` y pegue la consulta a la columna de "
+"búsqueda `amenity=pub in \"Buenos Aires\"`"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:197
 msgid "Then click the button `build and run query`"
-msgstr ""
+msgstr "A continuación, haga clic en el botón `compilar y ejecutar consulta`"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:198
 msgid "Click `zoom to data` in the map canvas to navigate to your results"
 msgstr ""
+"Clic en `zoom a datos` en el lienzo del mapa para navegar a sus resultados"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:204
 msgid "HOT Export Tool"
-msgstr ""
+msgstr "Herramienta de Exportación HOT"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:206
 msgid ""
@@ -441,11 +460,17 @@ msgid ""
 "OpenStreetMap too. To use it you need an OSM account. You can download data "
 "in several formats and have history for your downloaded data and exports."
 msgstr ""
+"El Equipo Humanitario de OpenStreetMap (HOT) también proporciona una "
+"herramienta de exportación para OpenStreetMap. Para usarlo necesita una "
+"cuenta de OSM. Puede descargar datos en varios formatos y tener historial "
+"para sus datos descargados y exportaciones."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:210
 msgid ""
 "Here is a quickstart: https://export.hotosm.org/en/v3/learn/quick_start"
 msgstr ""
+"Aquí hay una guía de inicio rápido: "
+"https://export.hotosm.org/en/v3/learn/quick_start"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:214
 msgid "What next?"

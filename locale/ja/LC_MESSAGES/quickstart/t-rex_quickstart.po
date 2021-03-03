@@ -30,7 +30,7 @@ msgstr "t-rexクイックスタート"
 msgid ""
 "t-rex is a vector tile server specialized on publishing MVT tiles from your "
 "own data."
-msgstr "t-rexは、独自のデータからMVTタイルを配信することに特化したベクタータイルサーバです。"
+msgstr "t-rexは、独自のデータからMVTタイルを配信することに特化したベクタタイルサーバです。"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:24
 msgid "This Quick Start describes how to:"
@@ -40,7 +40,7 @@ msgstr "このクイックスタートでは、次の方法について説明し
 msgid ""
 "generate vector tiles without configuration and inspect them with built-in "
 "viewers"
-msgstr "設定なしでベクタータイルを生成し、組み込みビューアで検査する"
+msgstr "設定なしでベクタタイルを生成し、組み込みビューアで検査する"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:27
 msgid "generate a tile cache"
@@ -70,7 +70,7 @@ msgstr "組み込みビューア"
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:46
 msgid ""
 "t-rex comes with built-in viewers for inspecting generated vector tiles."
-msgstr "t-rexには、生成されたベクタータイルを検査するためのビューアが組み込まれています。"
+msgstr "t-rexには、生成されたベクタタイルを検査するためのビューアが組み込まれています。"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:48
 msgid ""

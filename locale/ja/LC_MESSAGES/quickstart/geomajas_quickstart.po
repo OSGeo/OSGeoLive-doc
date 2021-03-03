@@ -113,7 +113,7 @@ msgid ""
 "if available. Click the info icon in the upper left to toggle between basic "
 "or more detailed information."
 msgstr ""
-"Geomajasアプリケーションには、レイヤー内のさまざまな情報を表示する機能があります。地図をクリックすると、関連情報が表示されます(利用可能な場合)。左上の情報アイコンをクリックして、基本情報と詳細情報を切り替えます。"
+"Geomajasアプリケーションには、レイヤ内のさまざまな情報を表示する機能があります。地図をクリックすると、関連情報が表示されます(利用可能な場合)。左上の情報アイコンをクリックして、基本情報と詳細情報を切り替えます。"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:78
 msgid "Things to try"
