@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-19 11:35-0600\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,7 +55,7 @@ msgid ""
 msgstr ""
 "Az OSGeoLive projektet az  `LGPL license v2.1 "
 "<http://www.gnu.de/documents/lgpl-2.1.en.html>`__ alatt adják közre. Az "
-"összes dokumentációt a `Creative Commons Nevezd meg 3.0 Unported Licence "
+"összes dokumentációt a `Creative Commons Attribution 3.0 Unported License "
 "<https://creativecommons.org/licenses/by/3.0/>`_ alatt biztosítják."
 
 #: ../../build/doc/copyright.rst:10
@@ -66,9 +66,9 @@ msgid ""
 "this page."
 msgstr ""
 "Az OSGeo-Live kizárólag szabad szoftverekből, nyílt adatokból, és nyílt "
-"dokumentációból áll, így szabadon terjeszthetjük, másolhatjuk és átadhatjuk "
-"ismerőseinknek. A kapcsolódó projektek licenceit összegezzük a továbbiakban "
-"ezen az oldalon."
+"dokumentációkból áll, így szabadon terjeszthetjük, másolhatjuk és átadhatjuk"
+" ismerőseinknek. A kapcsolódó projektek licenceit összegezzük a továbbiakban"
+" ezen az oldalon."
 
 #: ../../build/doc/copyright.rst:12
 msgid ""
@@ -86,7 +86,7 @@ msgid ""
 "Commons Attribution-ShareAlike 3.0 Unported License "
 "<https://creativecommons.org/licenses/by-sa/3.0/>`_."
 msgstr ""
-"A gyorstalpalókra és a gyorsalpaló fordításokra   `Creative Commons "
+"A gyorstalpalókra és a gyorstalpaló fordításokra   `Creative Commons "
 "Attribution-ShareAlike 3.0 Unported License "
 "<https://creativecommons.org/licenses/by-sa/3.0/>`_ vonatkozik."
 
@@ -103,7 +103,7 @@ msgid ""
 "licenses, as listed in the Project Overviews."
 msgstr ""
 "Az OSGeoLive szoftverei különböző szabad és nyílt forráskódú licencek alatt "
-"érhető el a projekt áttekintésben szereplők szerint."
+"érhetők el a projekt áttekintésben szereplők szerint."
 
 #: ../../build/doc/copyright.rst:16
 msgid "Data on OSGeoLive is available under various Open Licences."
@@ -146,7 +146,7 @@ msgstr "A megnevezés szövegben a következőhöz hasonlót használhat:"
 
 #: ../../build/doc/copyright.rst:29
 msgid "**Verbose, suitable for a 100 page thesis:**"
-msgstr "**Bőbeszédű, 100 oldalas tézishez alkalmas:**"
+msgstr "**Bőbeszédű, 100 oldalas tézishez használható:**"
 
 #: ../../build/doc/copyright.rst:31
 msgid ""
@@ -175,10 +175,9 @@ msgid ""
 "from|Includes|Extends] :doc:`OSGeoLive <index>` documentation by "
 ":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
-"© 2011 [Your Name] under a `CC By SA License "
-"<https://creativecommons.org/licenses/by-sa/3.0/>`_.  [Derived "
-"from|Includes|Extends] :doc:`OSGeoLive <index>` dokumentáció by "
-":doc:`OSGeoLive hozzájárulóktól <copyright>`."
+"© 2011 [ön neve]  a `CC By SA Licenc <https://creativecommons.org/licenses"
+"/by-sa/3.0/>`_ alatt.  [Levezetve|tartalmazza|kibővíti] :doc:`OSGeoLive "
+"<index>` dokumentációt az :doc:`OSGeoLive hozzájárulóktól <copyright>`."
 
 #: ../../build/doc/copyright.rst:40
 msgid "**Alternative Concise CC-By and attribution:**"
@@ -190,7 +189,7 @@ msgid ""
 ":doc:`OSGeoLive <index>` Project Overviews by :doc:`OSGeoLive contributors "
 "<copyright>`."
 msgstr ""
-"|CC-By-small| © 2011 [Your Name]. [Derived from|Includes|Extends] "
+"|CC-By-small| © 2011 [ön neve]. [levezetve|tartalmazza|kibővíti] "
 ":doc:`OSGeoLive <index>` Projekt áttekintők a :doc:`OSGeoLive "
 "hozzájárulóktól <copyright>`."
 
@@ -208,13 +207,13 @@ msgstr ""
 
 #: ../../build/doc/copyright.rst:52
 msgid "Documentation Contributors"
-msgstr "Dokumentáció közreműködői"
+msgstr "Dokumentáció közreműködők"
 
 #: ../../build/doc/copyright.rst:54
 msgid ""
 "The table below credits the contributors for each of the documents on "
 "OSGeoLive."
-msgstr "Az alábbi táblázat felsorolja az OSGeoLive dokumentációk készítőit."
+msgstr "Az alábbi táblázat felsorolja az OSGeoLive dokumentáció készítőit."
 
 #: ../../build/doc/copyright.rst:56
 msgid "OSGeoLive Document Contributors"

@@ -92,7 +92,7 @@ msgstr "Koordinátarendszer és transzformáció"
 
 #: ../../build/doc/overview/geotools_overview.rst:42
 msgid "Work with an extensive range of map projections"
-msgstr "Térképi vetületek kiterjedt tartománya használható"
+msgstr "Térképi vetületek kiterjedt készlete használható"
 
 #: ../../build/doc/overview/geotools_overview.rst:43
 msgid "filter and analyze data in terms of spatial and non-spatial attributes"
