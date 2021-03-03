@@ -5,8 +5,8 @@
 # 
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
-# Vicky Vergara <vicky@georepublic.de>, 2020
 # Astrid Emde <astrid_emde@osgeo.org>, 2021
+# Vicky Vergara <vicky@georepublic.de>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-19 11:35-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -121,8 +121,8 @@ msgid ""
 "download that."
 msgstr ""
 "Aktuelle Wetter- und Wellenvorhersagedaten können mit dem GRIB-Plugin "
-"heruntergeladen und über Ihre Charts drapiert werden. Die :d oc:'XyGrib <.. "
-"verview/xygrib_overview=\"\">Software' (auch auf dieser Disc) ist eine "
+"heruntergeladen und über Ihre Charts drapiert werden. Die :doc:`XyGrib "
+"<../overview/xygrib_overview>` Software' (auch auf dieser Disc) ist eine "
 "einfache Möglichkeit, diese herunterzuladen.</..>"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:74
@@ -152,9 +152,9 @@ msgid ""
 "Run through the :doc:`XyGrib quickstart <../quickstart/xygrib_quickstart>` "
 "and load the XyGrib file over your chart."
 msgstr ""
-"Führen Sie den :doc:'XyGrib-Quickstart' aus <.. "
-"uickstart/xygrib_quickstart=\"\">und laden Sie die XyGrib-Datei über Ihr "
-"Diagramm.</..>"
+"Führen Sie den :doc:`XyGrib-Quickstart aus "
+"<../quickstart/xygrib_quickstart>` und laden Sie die XyGrib-Datei über Ihr "
+"Diagramm."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:82
 msgid ""

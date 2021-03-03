@@ -6,6 +6,7 @@
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Astrid Emde <astrid_emde@osgeo.org>, 2021
+# Vicky Vergara <vicky@georepublic.de>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -349,13 +350,12 @@ msgid ""
 "In the :ref:`Layer list <Layer_list>` select the style button (it looks like"
 " an artist's palette)."
 msgstr ""
-"Wählen Sie in der Liste :ref:'Layer' den Stil-Button aus <Layer_list>(dieser"
-" sieht aus wie die Palette eines Künstlers).</Layer_list>"
+"Wählen Sie in der Liste :ref:`Layer <Layer_list>` den Stil-Button aus "
+"(dieser sieht aus wie die Palette eines Künstlers)."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:162
 msgid "This will open the :ref:`Style Pane <Style_Pane>`."
-msgstr ""
-"Dadurch wird der Bereich :ref:'Style' <Style_Pane>geöffnet.</Style_Pane>"
+msgstr "Dadurch wird der Bereich :ref:`Style <Style_Pane>` geöffnet."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:163
 msgid ""
