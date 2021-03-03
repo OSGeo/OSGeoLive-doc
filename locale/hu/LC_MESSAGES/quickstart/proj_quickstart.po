@@ -74,7 +74,7 @@ msgid ""
 "These commands are fully describe in `PROJ documentation "
 "<https://proj.org/apps/proj.html>`_ for the latest version."
 msgstr ""
-"Ezeket a parancsokat részletesen leírják  `PROJ dokumentációjának "
+"Ezeket a parancsokat részletesen leírják  `PROJ dokumentáció "
 "<https://proj.org/apps/proj.html>`_ legújabb verziójában."
 
 #: ../../build/doc/quickstart/proj_quickstart.rst:56

@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-19 11:35-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -115,6 +115,10 @@ msgid ""
 "<../overview/xygrib_overview>` (also on this disc) is an easy way to "
 "download that."
 msgstr ""
+"A GRIB modul segítségéve aktuális időjárási és hullám előrejelzés adatokat "
+"lehet letölteni és a térképekre rátenni. A :doc:`XyGrib szoftver "
+"<../overview/xygrib_overview>` (szintén ezen a lemezen) egy egyszerű módja "
+"arra, hogy letölthesse ezeket."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:74
 msgid ""
@@ -143,6 +147,8 @@ msgid ""
 "Run through the :doc:`XyGrib quickstart <../quickstart/xygrib_quickstart>` "
 "and load the XyGrib file over your chart."
 msgstr ""
+"Futtassa a :doc:`XyGrib quickstart <../quickstart/xygrib_quickstart>`-on "
+"keresztül és töltse be a XyGrib fájlt a térkép fölé."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:82
 msgid ""
@@ -151,6 +157,11 @@ msgid ""
 " Then right click on the file listing's background to show hidden files, "
 "including the ``.xygrib`` directory that contains the GRIB download files."
 msgstr ""
+"Ha a XyGrib fájlt a bejelentkezési könyvtárába mentette, akkor navigáljon a "
+":file:`/home` mappába és válassza a  ``user`` könyvtárat mint a GRIB "
+"adatkönyvtár. Majd jobb kattintás a fájl lista hátterébe a rejtett fájlok "
+"megjelenítéséhez, a ``.xygrib`` könyvtár tartalmazza a letöltött GRIB "
+"fájlokat."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:84
 msgid ""

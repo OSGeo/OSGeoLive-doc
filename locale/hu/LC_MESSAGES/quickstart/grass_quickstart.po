@@ -115,7 +115,7 @@ msgstr ""
 msgid ""
 "Click on the toolbar button with a \"+\" and a bent poly-line which looks a "
 "bit like a \"V\"."
-msgstr "Kattintson a \"V\" betű alakú eszközsor gombra a \"+\" jellel."
+msgstr "Kattintson az eszközsorban a \"V\" betű alakú gombra a \"+\" jellel."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:76
 msgid ""

@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,7 +31,7 @@ msgid ""
 "OpenLayers: creating a basic map, adding raster and vector layers and "
 "styling features."
 msgstr ""
-"Ez a gyorstalpaló leírja a munka elkezdéséhez szükséges alapvető lépéseket "
+"Ez a gyorstalpaló a munka elkezdéséhez szükséges alapvető lépéseket "
 "tartalmazza az OpenLayers-el: alaptérkép létrehozása,  raszter és vektor "
 "réteg hozzáadása és az elemek stílusának beállítása"
 
@@ -169,8 +169,8 @@ msgid ""
 "An OpenLayers map needs to be attached to a HTML DOM element, so we have "
 "created a ``<div>`` element identified by the *map* id."
 msgstr ""
-"Egy OpenLayers térképet egy HTML DOM elemhez kapcsolnunk, ezért létrehoztunk"
-" egy ``<div>`` elemet, a *map* azonosítóval (id)."
+"Egy OpenLayers térképet egy HTML DOM elemhez kapcsolunk, ezért létrehoztunk "
+"egy ``<div>`` elemet, a *map* azonosítóval (id)."
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:121
 msgid ""
@@ -236,7 +236,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:163
 msgid "Add them manually with the ``map.addLayer()`` method:"
-msgstr "Manuális hozzáadásuk a  ``map.addLayer()`` metódussal:"
+msgstr "Manuális hozzáadás a  ``map.addLayer()`` metódussal:"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:172
 msgid "Add vector layers"
