@@ -59,7 +59,8 @@ msgid ""
 "save the file, using System Tools > QTerminal and then running run the "
 "command below:"
 msgstr ""
-"管理者特権でコマンドラインからFeatherPadを開き、[システムツール]>[QTerminal]を使用してファイルを保存し、次のコマンドを実行して実行できるようにします。"
+"管理者特権でコマンドラインからFeatherPadを開くことで、ファイルを保存することができるようになります。[システムツール] > "
+"[QTerminal]を使用して、次のコマンドを実行します。"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:37
 msgid ""

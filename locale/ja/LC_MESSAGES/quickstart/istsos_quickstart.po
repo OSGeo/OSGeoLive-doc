@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-28 22:14-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +33,7 @@ msgid ""
 "observations from monitoring sensors according to the Sensor Observation "
 "Service standard."
 msgstr ""
-"istSOSは、`Python <https://www.python.org/>`__  で記述されたOGC |SOS| "
+"istSOSは、 `Python <https://www.python.org/>`__ で記述されたOGC |SOS| "
 "サーバ実装です。istSOSは、Sensor Observation "
 "Service標準に従って、モニタリングセンサーからの観測情報を管理し、ディスパッチすることを可能にします。"
 
@@ -43,7 +43,7 @@ msgid ""
 "the daily operations and a RESTFull Web api for automatizing administration "
 "procedures."
 msgstr ""
-"このプロジェクトはまた、日常的な操作を容易にするグラフィカル・ユーザー・インターフェースと、管理手順を自動化するためのRESTフル Web "
+"このプロジェクトはまた、日常的な操作を容易にするグラフィカル・ユーザ・インタフェースと、管理手順を自動化するためのRESTful Web "
 "apiも提供しています。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:28
@@ -89,8 +89,8 @@ msgid ""
 " Admin interface. Alternatively, open a browser and go to "
 "`<http://localhost/istsos/admin>`_"
 msgstr ""
-":menuselection:`Geospatial-->Webservices-->istSOS` をクリックして、Web "
-"Adminインターフェイスを開きます。または、ブラウザを開き、`<http://localhost/istsos/admin>`_ に移動します。"
+":menuselection:`Geospatial --> Webservices --> istSOS` をクリックして、Web "
+"Adminインタフェースを開きます。または、ブラウザを開き、 `<http://localhost/istsos/admin>`_ に移動します。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:54
 msgid "Click the :guilabel:`Enter` button in the administration page."
@@ -100,7 +100,7 @@ msgstr "管理ページで :guilabel:`Enter` ボタンをクリックします�
 msgid ""
 "Configure your database connection. From the toolbar buttons menu, press the"
 " \"Database\" button and fill in the database configuration options:"
-msgstr "データベース接続を設定します。ツールバーのボタンメニューから、\"Database\"ボタンを押し、データベース設定オプションを入力します。"
+msgstr "データベース接続を設定します。ツールバーのボタンメニューから、 \"Database\"ボタンを押し、データベース設定オプションを入力します。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:66
 msgid ""
@@ -118,13 +118,13 @@ msgstr "\"Service identification\"ボタンを押して、サービスの使用�
 msgid ""
 "Press the \"Coordinates system\" button to manage the Coordinate Reference "
 "System (CRS)."
-msgstr "座標参照系(CRS)を管理するには、\"Coordinates system\" ボタンを押します。"
+msgstr "座標参照系(CRS)を管理するには、 \"Coordinates system\" ボタンを押します。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:73
 msgid ""
 "*Default EPSG code*: this will be the native Coordinate Reference System of "
 "your geometries in the database."
-msgstr "*Default EPSG code*:これはデータベース内のジオメトリのネイティブの座標参照システムになります。"
+msgstr "*Default EPSG code*: これはデータベース内のジオメトリのネイティブの座標参照システムになります。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:75
 msgid ""
@@ -138,7 +138,7 @@ msgid ""
 "button to set maximum time interval per getObservation request (zero for no "
 "limits) and aggregation no-data value."
 msgstr ""
-"ツールバーのボタンメニューから、\"GetObservation "
+"ツールバーのボタンメニューから、 \"GetObservation "
 "Configuration\"ボタンを押して、getObservation要求ごとの最大時間間隔(無制限の場合は0)と集計のno-"
 "data値を設定します。"
 
@@ -162,11 +162,11 @@ msgstr "istSOSを設定したので、次は新しいサービスインスタン
 msgid ""
 "From the toolbar buttons menu press the \"new service\" button and click "
 ":guilabel:`Next`."
-msgstr "ツールバーのボタンメニューから\"new service\"ボタンを押し、:guilabel:`Next` をクリックします。"
+msgstr "ツールバーのボタンメニューから \"new service\" ボタンを押し、 :guilabel:`Next` をクリックします。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:89
 msgid "Type **demo** for the Service name."
-msgstr "サービス名に**demo**と入力します。"
+msgstr "サービス名に **demo** と入力します。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:91
 msgid ""
@@ -181,7 +181,7 @@ msgid ""
 "Clicking on the \"Customize database\" box, you are able to change the "
 "default database configuration for this new istSOS instance."
 msgstr ""
-"\"Customize database\"ボックスをクリックすると、この新しいistSOSインスタンスのデフォルトデータベース設定を変更できます。"
+"\"Customize database\" ボックスをクリックすると、この新しいistSOSインスタンスのデフォルトデータベース設定を変更できます。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:95
 msgid ""
@@ -196,7 +196,8 @@ msgid ""
 "the default configuration. If, for any reason you decide to modify them, the"
 " changes will affect only this instance."
 msgstr ""
-"istSOSの\"demo\"インスタンスは、デフォルト設定からすべての設定オプションを継承しています。何らかの理由で変更した場合、変更はこのインスタンスにのみ影響します。"
+"istSOSの \"demo\" "
+"インスタンスは、デフォルト設定からすべての設定オプションを継承しています。何らかの理由で変更した場合、変更はこのインスタンスにのみ影響します。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:102
 msgid "Add a new procedure"
@@ -207,12 +208,13 @@ msgid ""
 "From the “services” drop down button of the admin interface "
 "(http://localhost/istsos/admin ) choose the desired instance."
 msgstr ""
-"管理インターフェイス(http://localhost/istsos/admin)の\"services\"ドロップダウンボタンから、目的のインスタンスを選択します。"
+"管理インタフェース(http://localhost/istsos/admin)の \"services\" "
+"ドロップダウンボタンから、目的のインスタンスを選択します。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:106
 msgid ""
 "From the toolbar buttons menu press the :guilabel:`New procedure` button."
-msgstr "ツールバーのボタンメニューから: guilabel:`New procedure` ボタンを押します。"
+msgstr "ツールバーのボタンメニューから :guilabel:`New procedure` ボタンを押します。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:108
 msgid "Fill in the form using appropriate information."
@@ -234,39 +236,39 @@ msgstr "*例* (最小構成)"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:119
 msgid "Name: T_LUGANO"
-msgstr ""
+msgstr "Name: T_LUGANO"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:121
 msgid "Description: temperature weather station in Lugano"
-msgstr ""
+msgstr "Description: temperature weather station in Lugano"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:123
 msgid "Keywords: weather, meteorological, IST"
-msgstr ""
+msgstr "Keywords: weather, meteorological, IST"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:125
 msgid "System type: insitu-fixed-point"
-msgstr ""
+msgstr "System type: insitu-fixed-point"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:127
 msgid "Sensor type: PTC thermistors of the \"switching\" type"
-msgstr ""
+msgstr "Sensor type: PTC thermistors of the \"switching\" type"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:129
 msgid "FOI name: LUGANO"
-msgstr ""
+msgstr "FOI name: LUGANO"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:131
 msgid "EPSG: 4326"
-msgstr ""
+msgstr "EPSG: 4326"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:133
 msgid "Coordinates: x: 8.96127 y: 46.02723 z: 344.1"
-msgstr ""
+msgstr "Coordinates: x: 8.96127 y: 46.02723 z: 344.1"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:136
 msgid "*Outputs (confirm the outputs pressing the \"add\" button):*"
-msgstr "*出力(\"add\"ボタンを押して出力を確認):*"
+msgstr "*出力(\"add\" ボタンを押して出力を確認):*"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:139
 msgid ""
@@ -300,47 +302,50 @@ msgid ""
 "format. The first line contains header information, including URI names of "
 "the observed properties. The following lines contain the data."
 msgstr ""
-"まず、\"text/csv,subtype=istSOS\"に従ってフォーマットされたセンサーデータのテキストファイルを作成します。このファイルはCSV(カンマ区切りテキスト)形式を使用しています。最初の行には、観測されたプロパティのURI名を含むヘッダ情報が含まれます。次の行にデータが含まれています。"
+"まず、 \"text/csv,subtype=istSOS\" "
+"に従ってフォーマットされたセンサーデータのテキストファイルを作成します。このファイルはCSV(カンマ区切りテキスト)形式を使用しています。最初の行には、観測されたプロパティのURI名を含むヘッダ情報が含まれます。次の行にデータが含まれています。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:157
 msgid ""
 "Open a text editor by selecting :menuselection:`Accessories --> FeatherPad`."
-msgstr ":menuselection:`アクセサリ-->FeatherPad` を選択して、テキストエディタを開きます。"
+msgstr ":menuselection:`アクセサリ --> FeatherPad` を選択して、テキストエディタを開きます。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:159
 msgid "Copy and paste the following text into the text editor window:"
-msgstr ""
+msgstr "次のテキストをコピーしてテキストエディタウィンドウに貼り付けます:"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:176
 msgid ""
 "Save the file as \"T_LUGANO_20140603161000000.dat\" on the Desktop. The "
 "filename convention being used is: PROCEDURENAME_YYYYMMDDhhmmssfff.dat"
 msgstr ""
+"デスクトップ上に \"T_LUGANO_20140603161000000.dat\" という名前で保存します。ファイル名の命名方法は次のとおりです: "
+"PROCEDURENAME_YYYYMMDDhhmmssfff.dat"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:178
 msgid ""
 "Open a terminal by selecting :menuselection:`System Tools --> LXTerminal`."
-msgstr ""
+msgstr ":menuselection:`System Tools --> LXTerminal` を選択して端末を開きます。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:180
 msgid "In the terminal, enter: \"cd /usr/share/istsos/\" and press ENTER."
-msgstr "端末で:\"cd/usr/share/istSOS/\"と入力し、ENTERを押します。"
+msgstr "端末で: \"cd/usr/share/istSOS/\" と入力し、ENTERを押します。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:182
 msgid ""
 "Write \"python scripts/csv2istsos.py -p T_LUGANO -u http://localhost/istsos "
 "-s demo -w ~/Desktop\" and press ENTER"
 msgstr ""
-" \"python scripts/csv2istsos.py -p T_LUGANO -u http://localhost/istsos -s "
+"\"python scripts/csv2istsos.py -p T_LUGANO -u http://localhost/istsos -s "
 "demo -w ~/Desktop\" とうちこんで、ENTERを押します"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:184
 msgid "You should see a message \"Insert observation success: True\""
-msgstr "\"Insert observation success:True\"というメッセージが表示されます。"
+msgstr "\"Insert observation success:True\" というメッセージが表示されます。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:186
 msgid "Click :menuselection:`Geospatial --> Webservices --> istSOS`."
-msgstr ":menuselection:`Geospatial-->Webservices-->istSOS` をクリックします。"
+msgstr ":menuselection:`Geospatial --> Webservices --> istSOS` をクリックします。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:188
 msgid "Click the :guilabel:`Enter` button in the administration page"
@@ -356,15 +361,15 @@ msgstr "次を選択してください:"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:193
 msgid "Service = demo"
-msgstr ""
+msgstr "Service = demo"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:194
 msgid "Offering = temporary"
-msgstr ""
+msgstr "Offering = temporary"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:195
 msgid "Procedure T_LUGANO"
-msgstr ""
+msgstr "Procedure T_LUGANO"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:197
 msgid "Click the :guilabel:`Add` button"

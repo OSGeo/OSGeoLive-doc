@@ -322,9 +322,8 @@ msgid ""
 "Capabilities\" section and two links for WMS Services you can drag into your"
 " empty map."
 msgstr ""
-"インターネットに接続していない場合は、ローカルWMSの |osgeolive-appmenupath-geoserver| "
-"を実行します。\"Service Capabilities\" "
-"セクションと、空のマップにドラッグできるWMSサービスへの2つのリンクがあるページが開きます。"
+"インターネットに接続していない場合は、ローカルWMSの |osgeolive-appmenupath-geoserver| を実行します。 "
+"\"Service Capabilities\" セクションと、空のマップにドラッグできるWMSサービスへの2つのリンクがあるページが開きます。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:211
 msgid ""

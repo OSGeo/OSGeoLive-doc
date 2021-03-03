@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:58
 msgid "Right click on the MunicipalHallsView table and select \"Show Columns\""
-msgstr "MunicipalHallsViewテーブルを右クリックして、\"Show Columns\"を選択します。"
+msgstr "MunicipalHallsViewテーブルを右クリックして、 \"Show Columns\" を選択します。"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:63
 msgid "You will notice the display broken into 3 areas:"

@@ -85,7 +85,7 @@ msgstr ""
 msgid ""
 "Now let’s open the sample map file in JOSM. Click the “Open” button in the "
 "upper left."
-msgstr "次に、JOSMでサンプルの地図を開きます。JOSMの左上に表示されている\"ファイルを開く\"ボタンを押してください。"
+msgstr "次に、JOSMでサンプルの地図を開きます。JOSMの左上に表示されている \"ファイルを開く\" ボタンを押してください。"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:54
 msgid ""
@@ -97,7 +97,7 @@ msgstr "**sample.osm** ファイルを探します。別の場所に保存して
 msgid ""
 "Click on it, and then click “Open”. You should now see a sample map that "
 "looks like this:"
-msgstr "ファイルをクリックして、もう一度\"Open\"をクリックしてください。サンプルの地図が開き、次のように表示されます。"
+msgstr "ファイルをクリックして、もう一度 \"Open\" をクリックしてください。サンプルの地図が開き、次のように表示されます。"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:62
 msgid ""
