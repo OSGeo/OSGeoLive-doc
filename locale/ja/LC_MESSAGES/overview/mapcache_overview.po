@@ -149,7 +149,7 @@ msgstr "デモ"
 
 #: ../../build/doc/overview/mapcache_overview.rst:70
 msgid "`Default MapCache Demo <http://localhost/mapcache/demo/>`_"
-msgstr "`既定の MapCache デモ <http://localhost/mapcache/demo/>`_"
+msgstr "`デフォルトの MapCache デモ <http://localhost/mapcache/demo/>`_"
 
 #: ../../build/doc/overview/mapcache_overview.rst:73
 msgid "Documentation"

@@ -55,7 +55,8 @@ msgstr "デスクトップ上の \"Browser Clients\" フォルダに移動しま
 msgid ""
 "Click on the desktop icon \"Start GeoMoose\". This will launch the default "
 "browser which will navigate to the correct location automatically."
-msgstr "デスクトップアイコン \"Start GeoMoose\" をクリックします。これにより既定のブラウザが起動し、自動的に正しい場所に移動します。"
+msgstr ""
+"デスクトップアイコン \"Start GeoMoose\" をクリックします。これによりデフォルトのブラウザが起動し、自動的に正しい場所に移動します。"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:37
 msgid ""
@@ -201,8 +202,8 @@ msgid ""
 "Positive values expand what you drew by that distance, negative values "
 "shrink your drawing."
 msgstr ""
-"描画したもののバッファバージョンに基づいてフィーチャを選択するオプションもあります。既定値は \"0\" "
-"でバッファリングされ、何も行われません。正の値を指定すると、その距離で描いたものが拡大され、負の値を指定すると縮小されます。"
+"描画したもののバッファバージョンに基づいてフィーチャを選択するオプションもあります。バッファサイズのデフォルト値は \"0\" "
+"であり、何も行われません。正の値を指定すると、その距離で描いたものが拡大され、負の値を指定すると縮小されます。"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:96
 msgid ""

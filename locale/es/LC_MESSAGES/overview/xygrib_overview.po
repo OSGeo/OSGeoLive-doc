@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Vicky Vergara <vicky@georepublic.de>, 2018
-# MarPetra <mvergaratrejo@gmail.com>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2021
+# MarPetra <mvergaratrejo@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
-"PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"POT-Creation-Date: 2021-02-06 18:01-0600\n"
+"PO-Revision-Date: 2021-02-07 00:39+0000\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,43 +22,54 @@ msgstr ""
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/overview/zygrib_overview.rst:14
-msgid "zyGrib"
-msgstr "zyGrib"
+#: ../../build/doc/overview/xygrib_overview.rst:14
+msgid "XyGrib"
+msgstr "XyGrib"
 
-#: ../../build/doc/overview/zygrib_overview.rst:17
+#: ../../build/doc/overview/xygrib_overview.rst:17
 msgid "Weather forecasting"
 msgstr "Pronóstico del tiempo"
 
-#: ../../build/doc/overview/zygrib_overview.rst:19
+#: ../../build/doc/overview/xygrib_overview.rst:19
 msgid ""
-"zyGrib is a program to download and visualize weather forecast data in the "
-"standard GRIB distribution format."
+"XyGrib is a Grib file reader and visualizes meteorological data providing an"
+" off-line capability to analyse weather forecasts or hindcasts. XyGrib is "
+"the continuation of the zyGrib software package with a new team of "
+"volunteers. It is intended to be used as a capable weather work station for "
+"anyone with a serious interest in examining weather. This would include "
+"members of the sailing community, private and sport aviators, farmers, "
+"weather buffs and many more."
 msgstr ""
-"zyGrib es un programa para descargar y visualizar datos de Pronóstico del "
-"tiempo en el formato estándar de la distribución de GRIB."
+"XyGrib es un lector de archivos Grib y visualiza los datos meteorológicos "
+"proporcionando una capacidad fuera de línea para analizar las previsiones "
+"meteorológicas o los hindcasts. XyGrib es la continuación del paquete de "
+"software zyGrib con un nuevo equipo de voluntarios. Está destinado a ser "
+"utilizado como una estación de trabajo meteorológico capaz para cualquier "
+"persona con un gran interés en examinar el clima. Esto incluiría a miembros "
+"de la comunidad de vela, aviadores privados y deportivos, agricultores, "
+"aficionados al clima y muchos más."
 
-#: ../../build/doc/overview/zygrib_overview.rst:29
+#: ../../build/doc/overview/xygrib_overview.rst:29
 msgid "Core Features"
 msgstr "Características Principales"
 
-#: ../../build/doc/overview/zygrib_overview.rst:31
+#: ../../build/doc/overview/xygrib_overview.rst:31
 msgid "Visualization of meteorologic data from files in GRIB format"
 msgstr "Visualización de datos meteorológicos de los archivos en formato GRIB"
 
-#: ../../build/doc/overview/zygrib_overview.rst:32
+#: ../../build/doc/overview/xygrib_overview.rst:32
 msgid "Automatic download of weather and wave forecasts"
 msgstr "Descarga automática de las pronósticos de tiempo y de onda"
 
-#: ../../build/doc/overview/zygrib_overview.rst:33
+#: ../../build/doc/overview/xygrib_overview.rst:33
 msgid "Automatic download from IAC (fleetcode) data"
 msgstr "Descarga automática de datos IAC (fleetcode)"
 
-#: ../../build/doc/overview/zygrib_overview.rst:34
+#: ../../build/doc/overview/xygrib_overview.rst:34
 msgid "Play animations of 8-day forecasts"
 msgstr "Animaciones de los pronósticos de 8 días"
 
-#: ../../build/doc/overview/zygrib_overview.rst:35
+#: ../../build/doc/overview/xygrib_overview.rst:35
 msgid ""
 "Create your own regional weather maps (worldwide), or view a detailed "
 "quantitative forecast for a particular location."
@@ -66,7 +77,7 @@ msgstr ""
 "Crea tus propios mapas de clima regionales (mundial), o ver un pronóstico "
 "cuantitativo detallado de un lugar en particular."
 
-#: ../../build/doc/overview/zygrib_overview.rst:36
+#: ../../build/doc/overview/xygrib_overview.rst:36
 msgid ""
 "Plot wind, pressure, temperature, humidity, rain, snow, cloud cover, dew "
 "point, wave height, and high altitude data."
@@ -74,35 +85,35 @@ msgstr ""
 "Grafica de viento, presión, temperatura, humedad, lluvia, nieve, nubosidad, "
 "punto de rocío, altura de onda y datos de gran altitud."
 
-#: ../../build/doc/overview/zygrib_overview.rst:39
+#: ../../build/doc/overview/xygrib_overview.rst:39
 msgid "Details"
 msgstr "Detalles"
 
-#: ../../build/doc/overview/zygrib_overview.rst:41
-msgid "**Website:** https://www.zygrib.org"
-msgstr "**Sitio web:** https://www.zygrib.org"
+#: ../../build/doc/overview/xygrib_overview.rst:41
+msgid "**Website:** https://opengribs.org"
+msgstr "**Sitio Web:** https://opengribs.org"
 
-#: ../../build/doc/overview/zygrib_overview.rst:43
+#: ../../build/doc/overview/xygrib_overview.rst:43
 msgid "**Licence:** GNU General Public License (GPL) version 3"
 msgstr "**Licencia:** GNU General Public License (GPL) version 3"
 
-#: ../../build/doc/overview/zygrib_overview.rst:45
-msgid "**Software Version:** |version-zygrib|"
-msgstr "**Versión de software:** |version-zygrib|"
+#: ../../build/doc/overview/xygrib_overview.rst:45
+msgid "**Software Version:** |version-xygrib|"
+msgstr "**Versión de Software:** |version-xygrib|"
 
-#: ../../build/doc/overview/zygrib_overview.rst:47
+#: ../../build/doc/overview/xygrib_overview.rst:47
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
 msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
 
-#: ../../build/doc/overview/zygrib_overview.rst:49
-msgid "**Support:** https://zygrib.org/forum/"
-msgstr "**Soporte:** https://zygrib.org/forum/"
+#: ../../build/doc/overview/xygrib_overview.rst:49
+msgid "**Support:** https://opengribs.org/en/support-forum"
+msgstr "**Soporte:** https://opengribs.org/en/support-forum"
 
-#: ../../build/doc/overview/zygrib_overview.rst:55
+#: ../../build/doc/overview/xygrib_overview.rst:55
 msgid "Quickstart"
-msgstr "Inicio Rápido"
+msgstr "Guía de Inicio Rápido"
 
-#: ../../build/doc/overview/zygrib_overview.rst:57
-msgid ":doc:`Quickstart documentation <../quickstart/zygrib_quickstart>`"
+#: ../../build/doc/overview/xygrib_overview.rst:57
+msgid ":doc:`Quickstart documentation <../quickstart/xygrib_quickstart>`"
 msgstr ""
-":doc:`Documentación de Inicio Rápido <../quickstart/zygrib_quickstart>`"
+":doc:`Documentación de Inicio Rápido <../quickstart/xygrib_quickstart>`"

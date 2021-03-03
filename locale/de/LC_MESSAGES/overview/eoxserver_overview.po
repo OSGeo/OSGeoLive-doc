@@ -111,7 +111,7 @@ msgstr ""
 
 #: ../../build/doc/overview/eoxserver_overview.rst:55
 msgid "Register data stored in S3"
-msgstr ""
+msgstr "Registrieren für in S3 gespeicherte Daten"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:57
 msgid "Publish using the following formats and groupings:"

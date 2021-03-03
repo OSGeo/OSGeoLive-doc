@@ -33,7 +33,7 @@ msgstr "About"
 msgid ""
 "EOxServer is a server for presenting big Earth Observation (EO) data "
 "archives and metadata via Open Standards."
-msgstr "EOxServerは、大規模な地球観測(EO)データアーカイブとメタデータをオープンスタンダードで提供するサーバです。"
+msgstr "EOxServerは、大規模な地球観測(EO)データアーカイブとメタデータをオープン標準で提供するサーバです。"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:23
 msgid ""

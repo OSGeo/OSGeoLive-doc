@@ -28,13 +28,13 @@ msgstr "t-rex"
 
 #: ../../build/doc/overview/t-rex_overview.rst:16
 msgid "Vector Tile Service"
-msgstr "ベクタータイルサービス"
+msgstr "ベクタタイルサービス"
 
 #: ../../build/doc/overview/t-rex_overview.rst:18
 msgid ""
 "t-rex is a vector tile server specialized on publishing MVT tiles from your "
 "own data."
-msgstr "t-rexは、独自のデータからMVTタイルを配信することに特化したベクタータイルサーバです。"
+msgstr "t-rexは、独自のデータからMVTタイルを配信することに特化したベクタタイルサーバです。"
 
 #: ../../build/doc/overview/t-rex_overview.rst:27
 msgid "Core Features"
@@ -42,11 +42,11 @@ msgstr "主な機能"
 
 #: ../../build/doc/overview/t-rex_overview.rst:29
 msgid "Support for PostGIS databases and GDAL vector formats"
-msgstr "PostGISデータベースとGDALベクターフォーマットのサポート"
+msgstr "PostGISデータベースとGDALベクタフォーマットのサポート"
 
 #: ../../build/doc/overview/t-rex_overview.rst:30
 msgid "Auto-detection of layers in data source"
-msgstr "データソース内のレイヤーの自動検出"
+msgstr "データソース内のレイヤの自動検出"
 
 #: ../../build/doc/overview/t-rex_overview.rst:31
 msgid "Built-in viewers for data display and inspection"

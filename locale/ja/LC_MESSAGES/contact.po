@@ -95,7 +95,7 @@ msgid ""
 "IRC users might try the #osgeolive or #osgeo channel at Freenode.net for "
 "real-time assistance. You also can meet us at Slack, Matrix or Glitter."
 msgstr ""
-"IRCユーザーは、Freenode.netの #osgeolive または #osgeo "
+"IRCユーザは、Freenode.netの #osgeolive または #osgeo "
 "チャンネルを使ってリアルタイムによる支援を試してみてください。Slack、Matrix、Glitterでも私たちに会うことができます。"
 
 #: ../../build/doc/contact.rst:35

@@ -6,15 +6,16 @@
 # Translators:
 # Jorge Sanz <xurxosanz@gmail.com>, 2017
 # Violeta Sosa <vsosa.ud@gmail.com>, 2018
+# Vicky Vergara <vicky@georepublic.de>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-03-01 08:19-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Violeta Sosa <vsosa.ud@gmail.com>, 2018\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,8 +24,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:10
-msgid "OSGeoLive Internationalisation Quickstart"
-msgstr "Guía de inicio rápido para la internacionalización de OSGeo-Live"
+msgid "Change language or keyboard type"
+msgstr "Cambiar el idioma o el tipo de teclado"
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:13
 msgid "Switching Language"

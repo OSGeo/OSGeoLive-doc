@@ -1,0 +1,556 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# MarPetra <mvergaratrejo@gmail.com>, 2021
+# Vicky Vergara <vicky@georepublic.de>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-01 08:19-0600\n"
+"PO-Revision-Date: 2021-01-21 18:51+0000\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:8
+msgid "Command Line basics"
+msgstr "Conceptos básicos de la línea de comandos"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:10
+msgid ""
+"When you work with GNU/Linux Operating Systems such as OSGeoLive, Ubuntu, "
+"etc., it is good to know how to work on the command line."
+msgstr ""
+"Cuando se trabaja con sistemas operativos GNU/Linux como OSGeoLive, Ubuntu, "
+"etc., es bueno saber cómo trabajar en la línea de comandos."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:12
+msgid ""
+"Don't worry. It is not difficult to learn and you will discover that it is "
+"fun and very powerful."
+msgstr ""
+"No te preocupes. No es difícil de aprender y descubrirás que es divertido y "
+"muy potente."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:14
+msgid "In this quickstart you will learn some basic commands."
+msgstr "En esta guía de inicio rápido aprenderá algunos comandos básicos."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:16
+msgid "The following commands run from within a Terminal Emulator window."
+msgstr ""
+"Los siguientes comandos se ejecutan desde una ventana del Emulador de "
+"Terminal."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:18
+msgid ""
+"Start a Terminal Emulator (`QTerminal` currently) from the `Applications` "
+"menu in the `System Tools` section. This gives you a Unix shell command "
+"prompt."
+msgstr ""
+"Iniciar un Emulador de Terminal (`QTerminal` actualmente) desde el menú "
+"`Aplicaciones` en la sección `Herramientas del Sistema`. Esto le proporciona"
+" un símbolo del sistema de shell de Unix."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:25
+msgid "Where am I?"
+msgstr "¿Dónde estoy?"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:27
+msgid "`pwd` shows the path of your current location."
+msgstr "`pwd` muestra el camino de su ubicación actual."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:36
+msgid ""
+"You can ask all commands for help and get information on how they can be "
+"used and find out about additional options."
+msgstr ""
+"Puede pedir ayuda a todos los comandos y obtener información sobre cómo se "
+"pueden usar y averiguar sobre opciones adicionales."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:59
+msgid "How to navigate in the file system?"
+msgstr "¿Cómo navegar en el sistema de archivos?"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:61
+msgid ""
+"First you should get to know how the file system under Linux is organized. "
+"The file system is organized in a tree. It starts with the `/` known as root"
+" directory. All files and directories are under the root directory (`/`)."
+msgstr ""
+"En primer lugar, debe conocer cómo se organiza el sistema de archivos en "
+"Linux. El sistema de archivos está organizado en un árbol. Comienza con el "
+"`/` conocido como directorio raíz. Todos los archivos y directorios están "
+"bajo el directorio (`/`)."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:63
+msgid ""
+"The current user is \"`user`\" and has a home directory located at "
+"`/home/user`. Anytime you open a terminal window it will start in your home "
+"directory (see pwd)."
+msgstr ""
+"El usuario actual es \"`usuario`\" y tiene un directorio de inicio ubicado "
+"en `/home/user`. Cada vez que abra una ventana de terminal, se iniciará en "
+"su directorio de inicio (consulte pwd)."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:65
+msgid "You can easily navigate in the file system with the command cd."
+msgstr ""
+"Puede navegar fácilmente por el sistema de archivos con el comando cd."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:67
+msgid ""
+"cd / navigated to the root directory cd /home/user goes to your home "
+"directory same as cd ~"
+msgstr ""
+"cd / navegado al directorio raíz cd /home/user va a su directorio de inicio "
+"igual que cd ~"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:72
+msgid ""
+"`cd ..` moves you one directory to the top, `cd` user goes from your current"
+" location to the home directory of user. This is not the same as `/user`"
+msgstr ""
+"`cd ..` lleva a un directorio a la parte superior, el usuario `cd` va de tu "
+"ubicación actual al directorio de inicio del usuario. Esto no es lo mismo "
+"que `/usuario`"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:76
+msgid "Use the tab key to autocomplete the path while you are typing."
+msgstr ""
+"Utilice la tecla tabulador para autocompletar la ruta mientras escribe."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:80
+msgid "Create a directory"
+msgstr "Crear un directorio"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:82
+msgid ""
+"You have write access in your user-directory. You can create files and "
+"directories there. Next we will create a directory for some command line "
+"tests."
+msgstr ""
+"Tiene acceso de escritura en el directorio de usuario. Puede crear archivos "
+"y directorios allí. A continuación, crearemos un directorio para algunas "
+"pruebas de línea de comandos."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:91
+msgid ""
+"You have a command history. You can navigate in the history with the arrow "
+"up and down key."
+msgstr ""
+"Tienes un historial de comandos. Puede navegar en el historial con la tecla "
+"de flecha arriba y abajo."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:95
+msgid "How to create a new file"
+msgstr "Cómo crear un nuevo archivo"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:97
+msgid "`touch` creates a new empty file."
+msgstr "`touch` crea un nuevo archivo vacío."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:105
+msgid ""
+"You can pipe the information from a command to a file i.e. the command "
+"history. `history` displays the command history. With the following command "
+"it can be saved in a file."
+msgstr ""
+"Es posible canalizar la información de un comando a un archivo, es decir, el"
+" historial de comandos. `historial` muestra el historial de comandos. Con el"
+" siguiente comando se puede guardar en un archivo."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:113
+msgid "Show me what is in a directory"
+msgstr "Mostrar lo que hay en un directorio"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:115
+msgid ""
+"You would like to know more about the content of a directory. `ls` is the "
+"program that gives you a lot of information."
+msgstr ""
+"Para saber más sobre el contenido de un directorio. `ls` es el programa que "
+"te da mucha información."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:117
+msgid "`ls` lists all files and directories"
+msgstr "`Is` enumera todos los archivos y directorios"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:118
+msgid ""
+"`ls -l` shows a more detailed list of the files/directories with time, user "
+"access rights"
+msgstr ""
+"`ls -l` muestra una lista más detallada de los archivos/directorios con "
+"tiempo, derechos de acceso de los usuarios"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:119
+msgid "`ls -a` also shows hidden files"
+msgstr "`ls -a` también muestra archivos ocultos"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:120
+msgid "`ls -al` you can combine the different options"
+msgstr "`ls -al` hace posible combinar las diferentes opciones"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:121
+msgid "`ls -1` shows only the file names"
+msgstr "`ls -1` muestra sólo los nombres de archivo"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:136
+msgid "Copy files and directories"
+msgstr "Copiar archivos y directorios"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:138
+msgid "You can copy files from one location to another."
+msgstr "Es posible copiar archivos de una ubicación a otra."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:141
+msgid "Copy a file to a new file"
+msgstr "Copiar un archivo en un nuevo archivo"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:148
+msgid "Copy a file to another directory"
+msgstr "Copiar un archivo en otro directorio"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:155
+msgid "Copy a whole directory to a new location (-R recursive)"
+msgstr "Copiar un directorio completo en una nueva ubicación (-R recursivo)"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:164
+msgid "Who is sudo?"
+msgstr "¿Quién es Sudo?"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:166
+msgid ""
+"With `sudo` you can do things that you are normally not allowed to. `sudo` "
+"runs commands with the rights of the superuser also known as root With "
+"`sudo` you can i.e. install more software, administrate services, change "
+"access rights and more fun. You will see the use of `sudo` in some of the "
+"following commands."
+msgstr ""
+"Con `sudo` es posible hacer cosas que normalmente no se te permiten. `sudo` "
+"ejecuta comandos con los derechos del superusuario también conocidos como "
+"root. Con `sudo` es posible instalar más software, administrar servicios, "
+"cambiar los derechos de acceso y más diversión. Verá el uso de `sudo` en "
+"algunos de los siguientes comandos."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:172
+msgid "Search and install programs"
+msgstr "Buscar e instalar programas"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:174
+msgid "Show information about programs."
+msgstr "Mostrar información sobre los programas."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:180
+msgid "Search for programs"
+msgstr "Búsqueda de programas"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:187
+msgid "Install programs"
+msgstr "Instalar programas"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:194
+msgid ""
+"You will love the program `sl`. Run the new program with `sl` see also `apt "
+"show sl`."
+msgstr ""
+"El programa `sl` es un amor. Ejecute el nuevo programa con `sl` ver también "
+"`apt show sl`."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:198
+msgid "Services"
+msgstr "Servicios"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:200
+msgid ""
+"Some programms run as services like PostgreSQL, tomcat or Apache Webserver. "
+"You can start or stop the services."
+msgstr ""
+"Algunos programas se ejecutan como servicios como PostgreSQL, tomcat o "
+"Apache Webserver. Puede iniciar o detener los servicios."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:202
+msgid "Restart your Apache Service"
+msgstr "Reinicie su Servicio Apache"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:214
+msgid "How to edit files"
+msgstr "Cómo editar archivos"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:216
+msgid ""
+"You can either edit files in the terminal or open them with an external "
+"program like Geany."
+msgstr ""
+"Es posible editar archivos en el terminal o abrirlos con un programa externo"
+" como Geany."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:218
+msgid ""
+"In the terminal window you can use the `vim` editor (Vi IMproved). `vim` is "
+"very powerful and has many options."
+msgstr ""
+"En la ventana del terminal se puede utilizar el editor `vim` (Vi IMproved). "
+"`vim` es muy potente y tiene muchas opciones."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:220
+msgid "See also"
+msgstr "Véase también"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:222
+msgid "https://help.ubuntu.com/community/VimHowto"
+msgstr "https://help.ubuntu.com/community/VimHowto"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:223
+msgid "https://vim.rtorr.com/lang/en_en"
+msgstr "https://vim.rtorr.com/lang/en_en"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:226
+msgid "Open a file with `vim`:"
+msgstr "Abra un archivo con `vim`:"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:232
+msgid "press `i` to switch to the input mode"
+msgstr "pulse `i` para cambiar al modo de entrada"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:233
+msgid "`ESC` leaves the input mode"
+msgstr "`ESC` sale del modo de entrada"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:234
+msgid "`:w` saves your changes"
+msgstr "`:w` guarda los cambios"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:235
+msgid "`:wq` saves your changes and closes the file"
+msgstr "`:wq` guarda los cambios y cierra el archivo"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:236
+msgid "`:q` closes the file"
+msgstr "`:q` cierra el archivo"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:237
+msgid "`:q!` closes the file without saving"
+msgstr "`:q!` cierra el archivo sin guardar"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:242
+msgid "Owner and access rights"
+msgstr "Derechos de propietario y acceso"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:244
+msgid ""
+"Access rights define whether a `user` or `group` or `others` have access to "
+"a file and what sort of access is given. You can have `read`, `write` or "
+"`excecute` access."
+msgstr ""
+"Los derechos de acceso definen si un `usuario` o `grupo` u `otros` tienen "
+"acceso a un archivo y qué tipo de acceso se da. Puede tener acceso `leer`, "
+"`escribir` o `ejecutar`."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:246
+msgid ""
+"Directories or files have an owner and a group definition. By default the "
+"creator of a file/directory is the owner. But this definition can be "
+"changed. You will learn this in the next section."
+msgstr ""
+"Los directorios o archivos tienen un propietario y una definición de grupo. "
+"De forma predeterminada, el creador de un archivo/directorio es el "
+"propietario. Pero esta definición se puede cambiar. Aprenderás esto en la "
+"siguiente sección."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:248
+msgid "You can show the owner and group via `ls -l`"
+msgstr "Puede mostrar al propietario y al grupo a través de `ls -l`"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:256
+msgid "the initial character can be `-` for a file or `d` for directory"
+msgstr ""
+"el carácter inicial puede ser `-` para un archivo o `d` para el directorio"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:257
+msgid "`user` is defined as the owner and the group"
+msgstr "`usuario` se define como el propietario y el grupo"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:259
+msgid "Access rights are listed at the beginning of the row:"
+msgstr "Los derechos de acceso se enumeran al principio de la fila:"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:261
+msgid "`r` read"
+msgstr "`r` leer"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:262
+msgid "`w` write"
+msgstr "`w` escribir"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:263
+msgid "`x` execute"
+msgstr "`x` ejecutar"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:265
+msgid "first 3 letters for the owner"
+msgstr "primeras 3 cartas para el propietario"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:266
+msgid "then next 3 letters for the group"
+msgstr "siguientes 3 letras para el grupo"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:267
+msgid "followed by the last 3 letters for others"
+msgstr "seguido por las últimas 3 letras para los demás"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:271
+msgid "Change the owner with `chown`"
+msgstr "Cambia al dueño por `chown`"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:277
+msgid "first pass the user then the group - like `user:www-data`"
+msgstr "primero pase el usuario y luego el grupo - como `user:www-data`"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:278
+#: ../../build/doc/quickstart/commandline_quickstart.rst:290
+msgid "`-R` recursive"
+msgstr "`-R` recursivo"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:282
+msgid "Change access rights with `chmod`"
+msgstr "Cambiar derechos de acceso con `chmod`"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:289
+msgid "777 everyone can do everything"
+msgstr "777 todo el mundo puede hacer todo"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:292
+msgid "number: owner (u)"
+msgstr "número: propietario (u)"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:293
+msgid "number: group (g)"
+msgstr "número: grupo (g)"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:294
+msgid "number: other (o)"
+msgstr "número: otro (o)"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:296
+msgid "4 read"
+msgstr "4 leer"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:297
+msgid "2 write"
+msgstr "2 escribir"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:298
+msgid "1 execute"
+msgstr "1 ejecución"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:300
+msgid ""
+"660 - owner and group are allowed to read and write, other have no rights"
+msgstr ""
+"660 - propietario y grupo pueden leer y escribir, otros no tienen derechos"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:301
+msgid "744 - owner can do everything, group and others can only read"
+msgstr "744 - el propietario puede hacer todo, grupo y otros sólo pueden leer"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:303
+msgid "or use it like this"
+msgstr "o usarlo así"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:309
+msgid "u = user"
+msgstr "u = usuario"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:310
+msgid "g = group"
+msgstr "g = grupo"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:311
+msgid "o = other"
+msgstr "o = otros"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:312
+msgid "a = all"
+msgstr "a = todos"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:313
+msgid "+/- right: r = read / w = write / x = execute"
+msgstr "+/- derecha: r = lectura / w = escritura / x = ejecutar"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:317
+msgid "Things to try"
+msgstr "Cosas para probar"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:319
+msgid "Here are other commands you may try."
+msgstr "Aquí hay otros comandos que puede probar."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:321
+msgid "grep - search for a pattern in a text"
+msgstr "grep - buscar un patrón en un texto"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:322
+msgid "history | grep cd"
+msgstr "historia | grep cd"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:323
+msgid "rm - remove a file"
+msgstr "rm - eliminar un archivo"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:324
+msgid "rmdir - remove an empty directory"
+msgstr "rmdir - eliminar un directorio vacío"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:325
+msgid "mv - rename/move"
+msgstr "mv - cambiar el nombre/mover"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:326
+msgid "head - show the beginning of a file"
+msgstr "head - mostrar el comienzo de un archivo"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:327
+msgid "tail - show the end of a file"
+msgstr "tail - mostrar el final de un archivo"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:328
+msgid "find - search for files in a directory hierarchy"
+msgstr "buscar - buscar archivos en una jerarquía de directorios"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:329
+msgid "locate - find files by name"
+msgstr "localizar - encontrar archivos por nombre"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:334
+msgid "What next?"
+msgstr "¿Qué sigue?"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:336
+msgid ""
+"You have learned some important commands and information to work with the "
+"command line. Hopefully you have discovered how powerful the command line "
+"is."
+msgstr ""
+"Ahora ha aprendido algunos comandos e información importantes para trabajar "
+"con la línea de comandos. Esperemos que haya descubierto lo poderosa que es "
+"la línea de comandos."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:338
+msgid "https://ubuntu.com/tutorials/command-line-for-beginners#1-overview"
+msgstr "https://ubuntu.com/tutorials/command-line-for-beginners#1-overview"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:339
+msgid "https://en.wikipedia.org/wiki/Category:Standard_Unix_programs"
+msgstr "https://en.wikipedia.org/wiki/Category:Standard_Unix_programs"

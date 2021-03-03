@@ -1,0 +1,199 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Manfred Reiter <ma.reiter@gmail.com>, 2017
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:04+0000\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:22
+msgid "Marble Quickstart"
+msgstr "Marble Quickstart"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:24
+msgid ""
+"Marble is an open source KDE Education Project program similar to NASA World"
+" Wind or Google Earth. Besides choosing any number of maps to view on your "
+"globe (including OpenStreetMap), you are encouraged to include a KDE Marble "
+"widget in your application."
+msgstr ""
+"Marble ist ein Open Source Programm des KDE Education Projekts, ähnlich "
+"`NASA World Wind oder Google Earth. Neben der Möglichkeit, eine beliebige "
+"Zahl von Kartenlayern (einschließlich OpenStreetMap) auf dem virtuellen "
+"Globus darzustellen, unterstützt Marble die Integration in andere "
+"Anwendungen durch das KDE Marble Widget."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:30
+msgid "Start Marble"
+msgstr "Marble starten"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:32
+msgid ""
+"On the desktop, choose :menuselection:`Navigation and Maps --> Marble`. You "
+"will see a window like this:"
+msgstr ""
+"Wählen Sie auf dem Desktop :menuselection:`Navigation and Maps --> Marble`. "
+"Sie werden ein Fenster wie dieses sehen:"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:39
+msgid "Change the display"
+msgstr "Ändern der Ansicht"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:41
+msgid "Scale the globe by rotating the wheel of your mouse."
+msgstr "Skalieren Sie den Globus, indem Sie das Rad Ihrer Maus drehen."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:42
+msgid "To move around press the left button of your mouse and move it."
+msgstr ""
+"Um sich zu bewegen, drücken Sie die linke Maustaste und bewegen Sie sie."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:44
+msgid "Marble has 11 different views (themes):"
+msgstr "Marmor hat 11 verschiedene Ansichten (Themen):"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:46
+msgid "Atlas"
+msgstr "Atlas"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:47
+msgid "OpenStreetMap"
+msgstr "OpenStreetMap"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:48
+msgid "Satellite View"
+msgstr "Satelliten-Ansicht"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:49
+msgid "Earth at Night"
+msgstr "Erde bei Nacht"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:50
+msgid "Historical Map 1689"
+msgstr "Historische Karte 1689"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:51
+msgid "Moon"
+msgstr "Mond"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:52
+msgid "Plain Map"
+msgstr "Einfache Karte "
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:53
+msgid "Precipitation (December)"
+msgstr "Niederschlag (Dezember)"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:54
+msgid "Precipitation (July)"
+msgstr "Niederschlag (Juli)"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:55
+msgid "Temperature (December)"
+msgstr "Temperatur (Dezember)"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:56
+msgid "Temperature (July)."
+msgstr "Temperatur (Juli)."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:58
+msgid ""
+"Click one of entries in the \"Theme\" list in \"Map View\" tab to switch "
+"between them."
+msgstr ""
+"Klicken Sie auf einen der Einträge in der Liste \"Thema\" in der "
+"Registerkarte \"Kartenansicht\", um zwischen ihnen zu wechseln."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:63
+msgid "Click a label in any place to view more information about it."
+msgstr ""
+"Klicken Sie an einer beliebigen Stelle auf eine Beschriftung, um weitere "
+"Informationen dazu anzuzeigen."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:70
+msgid "Find a location"
+msgstr "Suchen eines Ortes"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:72
+msgid ""
+"To find a location, enter its name into the search line on the top of "
+"\"Search\" panel. As you start typing, suggestions below the search line "
+"will appear like this:"
+msgstr ""
+"Um einen Ort zu finden, geben Sie seinen Namen in die Suchzeile oben im "
+"Bedienfeld \"Suchen\" ein. Wenn Sie mit der Eingabe beginnen, werden "
+"Vorschläge unterhalb der Suchzeile wie folgt angezeigt:"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:80
+msgid "Add a bookmark"
+msgstr "Hinzufügen eines Lesezeichens"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:82
+msgid "Use bookmarks in Marble to remember the location of something."
+msgstr "Verwenden Sie Lesezeichen in Marble, um sich einen Ort zu merken."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:84
+msgid ""
+"To add a bookmark, press the left button of your mouse and click \"Add "
+"bookmark\". A window will appear like this:"
+msgstr ""
+"Um ein Lesezeichen hinzuzufügen, drücken Sie die linke Maustaste und klicken"
+" Sie auf \"Lesezeichen hinzufügen\". Ein Fenster wird wie folgt angezeigt:"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:89
+msgid "Write the name, description and destination folder of the bookmark"
+msgstr ""
+"Definieren Sie den Namen, eine Beschreibung und ein Zielverzeichnis des "
+"Lesezeichens"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:90
+msgid "Click the \"Ok\" button. Then the bookmark will appear."
+msgstr ""
+"Klicken Sie auf die Schaltfläche \"Ok\". Dann wird das Lesezeichen "
+"angezeigt."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:92
+msgid "To manage bookmarks, go to \"Bookmarks->Manage Bookmarks\"."
+msgstr ""
+"Um Lesezeichen zu verwalten, gehen Sie zu \"Lesezeichen->Verwalten von "
+"Lesezeichen\"."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:98
+msgid "Things to try"
+msgstr "Was Sie noch ausprobieren können"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:100
+msgid ""
+"Try to use the Routing feature. See the `Marble documentation "
+"<https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ for help."
+msgstr ""
+"Versuchen Sie, die Routing-Funktion zu verwenden. Hilfe finden Sie in der "
+"<https: docs.kde.org/trunk5/en/kdeedu/marble/index.html=\"\">'Marble-"
+"Dokumentation'_.</https:>"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:104
+msgid "What next?"
+msgstr "Was kommt als Nächstes?"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:106
+msgid ""
+"See the `Marble homepage <https://marble.kde.org/>`_ for more information."
+msgstr ""
+"Weitere Informationen finden Sie auf der `Marble-Homepage "
+"<https://marble.kde.org/>`_."

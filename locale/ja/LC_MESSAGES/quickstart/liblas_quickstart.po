@@ -64,8 +64,8 @@ msgid ""
 " those tasks. The demo data can be found in "
 ":file:`/home/user/data/las/srs.las`"
 msgstr ""
-"libLASの 'コマンドライン・ユーティリティー' "
-"は、libLAS用のユーザー向けの操作ソフトウェアの大部分を提供していますが、基礎となるlibLAS・ライブラリーがその原動力となっています。以下は、LASデータに対して実行する一般的な操作と、これらのタスクを実行するために使用するユーティリティとアプローチの一覧です。デモデータは、"
+"libLASの 'コマンドライン・ユーティリティ' "
+"は、libLAS用のユーザ向けの操作ソフトウェアの大部分を提供していますが、基礎となるlibLAS・ライブラリがその原動力となっています。以下は、LASデータに対して実行する一般的な操作と、これらのタスクを実行するために使用するユーティリティとアプローチの一覧です。デモデータは、"
 " :file:`/home/user/data/las/srs.las` にあります。"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:37
@@ -123,7 +123,7 @@ msgid ""
 "precision. We need to set our scale values to something that can hold more "
 "precision in our case:"
 msgstr ""
-" ``srs.las`` ファイルは、スケールは0.01 つまり、X、Y, "
+"``srs.las`` ファイルは、スケールは0.01 つまり、X、Y, "
 "Z座標の小数点以下2桁の精度でした。UTMデータの場合、これは1cmの暗黙的な精度を意味するため、問題ありません。投影されていない経緯度座標系の10進数データに対しては、かなり精度を失わせることになります。ここでは、スケール値を、より精度の高い値に設定する必要があります。"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:113
@@ -134,7 +134,7 @@ msgstr "'lasinfo' で更なる簡単な調査をすることで、快適な作�
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:127
 msgid "Output LAS file to text"
-msgstr " LASファイルをテキストに出力"
+msgstr "LASファイルをテキストに出力"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:134
 msgid "What next?"

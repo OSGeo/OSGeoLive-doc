@@ -365,7 +365,7 @@ msgstr "自分自身の地図を書き終えたら作業完了です。”sample
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:205
 msgid "Remove the sample layer"
-msgstr "サンプル レイヤーを削除する"
+msgstr "サンプル レイヤを削除する"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:207
 msgid ""
@@ -379,7 +379,7 @@ msgid ""
 "These data are fictitious and must not be uploaded to the OpenStreetMap "
 "database (newer JOSM releases automatically prevent this).*"
 msgstr ""
-"*最初にサンプルデータを含むレイヤーを削除することが非常に重要です。これらのデータは架空のものであり、OpenStreetMapデータベースにアップロードしないでください(新しいJOSMリリースでは自動的にこの問題が回避されます)。*"
+"*最初にサンプルデータを含むレイヤを削除することが非常に重要です。これらのデータは架空のものであり、OpenStreetMapデータベースにアップロードしないでください(新しいJOSMリリースでは自動的にこの問題が回避されます)。*"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:212
 msgid ""

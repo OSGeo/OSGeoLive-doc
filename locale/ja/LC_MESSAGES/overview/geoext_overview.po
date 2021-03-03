@@ -50,7 +50,7 @@ msgid ""
 "classes are also available allowing OpenLayers features and layers to be "
 "used as ExtJS data models, and for various map layer types to be serialized."
 msgstr ""
-"ユーザーインタフェースコンポーネントには、マップパネル、レイヤツリーパネル、地物グリッド、および全体図マップがあります。GeoExtコンポーネントは、他のExtJSコンポーネントと同様に使用でき、簡単に設定と拡張ができます。下位レベルのクラスも利用可能で、OpenLayersの地物とレイヤをExtJSデータモデルとして使用したり、さまざまなマップレイヤタイプをシリアライズしたりすることができます。"
+"ユーザインタフェースコンポーネントには、マップパネル、レイヤツリーパネル、地物グリッド、および全体図マップがあります。GeoExtコンポーネントは、他のExtJSコンポーネントと同様に使用でき、簡単に設定と拡張ができます。下位レベルのクラスも利用可能で、OpenLayersの地物とレイヤをExtJSデータモデルとして使用したり、さまざまなマップレイヤタイプをシリアライズしたりすることができます。"
 
 #: ../../build/doc/overview/geoext_overview.rst:26
 msgid ""

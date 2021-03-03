@@ -96,7 +96,7 @@ msgstr "3種類の投影を使用できます(3D地球儀、平面図、メル�
 msgid ""
 "Information layers (Weather, Real-time clouds, Day/Night View, Real-time "
 "Satellites, Wikipedia Articles, Photos, Postal Codes, Earthquakes)"
-msgstr "情報レイヤー(天気、リアルタイム・クラウド、昼/夜ビュー、リアルタイム衛星、ウィキペディアの記事、写真、郵便番号、地震)"
+msgstr "情報レイヤ(天気、リアルタイム・クラウド、昼/夜ビュー、リアルタイム衛星、ウィキペディアの記事、写真、郵便番号、地震)"
 
 #: ../../build/doc/overview/marble_overview.rst:57
 msgid "Search (Online address search, Online POI search)"

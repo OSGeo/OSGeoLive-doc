@@ -65,7 +65,7 @@ msgstr ""
 
 #: ../../build/doc/overview/openjump_overview.rst:37
 msgid "reads (OGC standards): WKT, WMS, KML+, GeoPackage"
-msgstr "読み取り (OGC スタンダード): WKT, WMS, KML+, GeoPackage"
+msgstr "読み取り (OGC標準): WKT, WMS, KML+, GeoPackage"
 
 #: ../../build/doc/overview/openjump_overview.rst:38
 msgid ""
@@ -86,7 +86,7 @@ msgstr "編集と合成"
 msgid ""
 "drawing points, lines, polygons, multi-geometries, geometry collections and "
 "circles (eventually mixed in a single layer)"
-msgstr "ポイント、ライン、ポリゴン、マルチジオメトリ、ジオメトリコレクション、円の描画(最終的には一つのレイヤーに混在)"
+msgstr "ポイント、ライン、ポリゴン、マルチジオメトリ、ジオメトリコレクション、円の描画(最終的には一つのレイヤに混在)"
 
 #: ../../build/doc/overview/openjump_overview.rst:44
 msgid "adding, moving, deleting vertices"
@@ -123,7 +123,7 @@ msgstr "解析:バッファ、和、オーバーレイ、図心、凸包..."
 #: ../../build/doc/overview/openjump_overview.rst:54
 msgid ""
 "statistics : length, area, layer statistics, attribute statistics, plots..."
-msgstr "統計:長さ、面積、レイヤーの統計、属性の統計、印刷..."
+msgstr "統計:長さ、面積、レイヤの統計、属性の統計、印刷..."
 
 #: ../../build/doc/overview/openjump_overview.rst:55
 msgid ""
@@ -162,7 +162,7 @@ msgstr "実装されている標準規格"
 #: ../../build/doc/overview/openjump_overview.rst:70
 msgid ""
 "OGC standards supported: GML2, SFS, WMS, KML, SLD, GeoPackage (reading);"
-msgstr "サポートされている OGC スタンダード: GML2, SFS, WMS, KML, SLD, GeoPackage (読み込み);"
+msgstr "サポートされている OGC標準: GML2, SFS, WMS, KML, SLD, GeoPackage (読み込み);"
 
 #: ../../build/doc/overview/openjump_overview.rst:73
 msgid "Details"

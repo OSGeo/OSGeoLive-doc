@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-03-01 08:19-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2017\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -23,8 +23,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:10
-msgid "OSGeoLive Internationalisation Quickstart"
-msgstr "Guide de démarrage rapide de l'internationalisation de l'OSGeoLive"
+msgid "Change language or keyboard type"
+msgstr ""
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:13
 msgid "Switching Language"

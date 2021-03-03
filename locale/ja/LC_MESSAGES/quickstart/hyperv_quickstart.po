@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# Hiroshi Miura <miurahr@northside.tokyo>, 2021
 # Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
@@ -11,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-03-01 08:19-0600\n"
 "PO-Revision-Date: 2018-06-09 16:37+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -22,8 +23,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:8
-msgid "OSGeoLive Quickstart for Running in a Hyper-V Virtual Machine"
-msgstr "Hyper-V 仮想マシン内での OSGeoLive 起動クイックスタート"
+msgid "Running in a Hyper-V Virtual Machine"
+msgstr "Hyper-V 仮想マシンで動作させる"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:10
 msgid ""
@@ -32,9 +33,9 @@ msgid ""
 "Also\" section below. Hyper-V is available on both Windows Server, and "
 "Windows 10 Professional - it is not part of Windows 10 Home."
 msgstr ""
-"ここでは、OSGeoLive を マイクロソフトの仮想マシン技術ソフトウエアのHyper-V から起動する方法を説明します。他の方法については、以下の "
-"\"参照\" の章のリンクにしたがってください。Hyper-V は、Windowsサーバか、Windows 10 "
-"プロフェッショナル版で利用することができます。Windows 10 Homeには含まれていません。"
+"ここでは、OSGeoLive を Microsoft の仮想化ソフトウエアである Hyper-V "
+"から起動する方法を説明します。他の方法については、以下の \"参照\" の章のリンクにしたがってください。Hyper-V は、Windows "
+"Serverか、Windows 10 Professionalで利用することができます。Windows 10 Homeには含まれていません。"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:13
 msgid ""

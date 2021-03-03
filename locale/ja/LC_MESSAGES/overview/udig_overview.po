@@ -114,7 +114,7 @@ msgstr "OGC Webサービスを認識し、画面上のマップへのリンク�
 msgid ""
 "Style Layer Descriptor control of rendering allowing you to publish your Map"
 " using the same settings in uDig as with popular Web Map Servers"
-msgstr "スタイルレイヤー記述子レンダリングの制御。uDigで一般的なWeb Map Serverと同じ設定を使用してマップを配信できます。"
+msgstr "スタイルレイヤ記述子レンダリングの制御。uDigで一般的なWeb Map Serverと同じ設定を使用してマップを配信できます。"
 
 #: ../../build/doc/overview/udig_overview.rst:50
 msgid ""

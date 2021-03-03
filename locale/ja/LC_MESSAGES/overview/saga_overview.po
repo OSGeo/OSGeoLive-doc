@@ -59,7 +59,7 @@ msgstr "主な機能"
 msgid ""
 "Access to a large number of scientific modules via the Graphical User "
 "Interface or the command line"
-msgstr "グラフィカル・ユーザー・インタフェース(GUI)またはコマンドライン(CLI)を使用し多数の科学モジュールへのアクセス"
+msgstr "グラフィカル・ユーザ・インタフェース(GUI)またはコマンドライン(CLI)を使用し多数の科学モジュールへのアクセス"
 
 #: ../../build/doc/overview/saga_overview.rst:43
 msgid "Import/Export to different file formats"
@@ -98,7 +98,7 @@ msgstr "地球統計学: バリオグラムのフィッティングおよびク�
 
 #: ../../build/doc/overview/saga_overview.rst:52
 msgid "Fast user interface for managing and visualising data"
-msgstr "データを管理および視覚化するための高速ユーザー・インタフェース"
+msgstr "データを管理および視覚化するための高速ユーザ・インタフェース"
 
 #: ../../build/doc/overview/saga_overview.rst:54
 msgid "3D visualisation"

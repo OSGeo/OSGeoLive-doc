@@ -70,7 +70,7 @@ msgid ""
 "(world_population.xml), defining the layers to read data from and the styles"
 " to apply to those layers."
 msgstr ""
-"上記のコードは、Mapnikが読み取れるXMLスタイルシートを用意し、データを読み込むレイヤーと、それらのレイヤーに適用するスタイルを定義することで実現しています。"
+"上記のコードは、Mapnikが読み取れるXMLスタイルシートを用意し、データを読み込むレイヤと、それらのレイヤに適用するスタイルを定義することで実現しています。"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:54
 msgid "Mapnik & MapProxy"

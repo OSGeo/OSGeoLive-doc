@@ -49,7 +49,7 @@ msgid ""
 "integrate with server functionality to provide advanced functionality like "
 "security proxying, digitizing, auto snapping and more."
 msgstr ""
-"Mapbenderは、いわば氷山の一角であり、国際標準に準拠したSDIコンポーネントへのアクセスを提供するソフトウェアのメタレイヤです。Mapbenderを使用すると、ユーザーはさまざまなウィジェットから、プログラミング不要、あるいは最小限のプログラミングで、カスタマイズされたブラウザクライアントを簡単に作成できます。ウィジェットはサーバ機能と統合され、セキュリティプロキシ、デジタイズ、自動スナップなどの先進的な機能を提供します。"
+"Mapbenderは、いわば氷山の一角であり、国際標準に準拠したSDIコンポーネントへのアクセスを提供するソフトウェアのメタレイヤです。Mapbenderを使用すると、ユーザはさまざまなウィジェットから、プログラミング不要、あるいは最小限のプログラミングで、カスタマイズされたブラウザクライアントを簡単に作成できます。ウィジェットはサーバ機能と統合され、セキュリティプロキシ、デジタイズ、自動スナップなどの先進的な機能を提供します。"
 
 #: ../../build/doc/overview/mapbender_overview.rst:23
 msgid ""
@@ -120,12 +120,12 @@ msgstr "フォーマット"
 #: ../../build/doc/overview/mapbender_overview.rst:50
 msgid ""
 "Create users and groups, share and grant access to services and modules"
-msgstr "ユーザーとグループを作成し、サービスとモジュールへのアクセスを共有および許可する"
+msgstr "ユーザとグループを作成し、サービスとモジュールへのアクセスを共有および許可する"
 
 #: ../../build/doc/overview/mapbender_overview.rst:51
 msgid ""
 "Restrict user access with the OWS security proxy module via trusted servers"
-msgstr "信頼されたサーバー経由でOWSセキュリティプロキシモジュールを使用してユーザーアクセスを制限する"
+msgstr "信頼されたサーバー経由でOWSセキュリティプロキシモジュールを使用してユーザアクセスを制限する"
 
 #: ../../build/doc/overview/mapbender_overview.rst:52
 msgid ""

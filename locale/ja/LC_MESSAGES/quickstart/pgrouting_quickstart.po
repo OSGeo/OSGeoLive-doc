@@ -43,7 +43,7 @@ msgstr "データベース内で pgRouting を有効化"
 msgid ""
 "In this example we will create a database called `city_routing` and enable "
 "pgRouting in the database."
-msgstr "このサンプルでは、 `city_routing` というデータベースを作成し、そのデータベースで pgRouting を有効化します。"
+msgstr "この例では、 `city_routing` というデータベースを作成し、そのデータベースで pgRouting を有効化します。"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:36
 msgid ""
