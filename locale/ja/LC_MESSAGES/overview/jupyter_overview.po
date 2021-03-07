@@ -22,15 +22,15 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../build/doc/overview/jupyter_overview.rst:13
+#: ../../build/doc/overview/jupyter_overview.rst:16
 msgid "Jupyter Notebook"
 msgstr "Jupyterノートブック"
 
-#: ../../build/doc/overview/jupyter_overview.rst:16
+#: ../../build/doc/overview/jupyter_overview.rst:19
 msgid "Mixing rich media in documentation"
 msgstr "ドキュメントにリッチメディアを混在させる"
 
-#: ../../build/doc/overview/jupyter_overview.rst:18
+#: ../../build/doc/overview/jupyter_overview.rst:21
 msgid ""
 "The Jupyter Notebook is a web application that allows you to create and "
 "share documents that contain live code, equations, visualizations and "
@@ -38,17 +38,17 @@ msgid ""
 msgstr ""
 "Jupyterノートブックは、ライブコード、数式、視覚化、および説明テキストを含むドキュメントを作成および共有できるWebアプリケーションです。"
 
-#: ../../build/doc/overview/jupyter_overview.rst:20
+#: ../../build/doc/overview/jupyter_overview.rst:23
 msgid "It combines two components:"
 msgstr "次の2つのコンポーネントが組み合わされています。"
 
-#: ../../build/doc/overview/jupyter_overview.rst:34
+#: ../../build/doc/overview/jupyter_overview.rst:25
 msgid ""
 "A web application providing browser-based, interactive authoring of notebook"
 " documents."
 msgstr "ブラウザベースで、対話式でノートブックドキュメント作成を支援するWebアプリケーション。"
 
-#: ../../build/doc/overview/jupyter_overview.rst:36
+#: ../../build/doc/overview/jupyter_overview.rst:27
 msgid ""
 "Notebook documents which store a representation of all content visible in "
 "the web application, including inputs and outputs of computations, "
@@ -57,7 +57,7 @@ msgid ""
 msgstr ""
 "計算、説明テキスト、数学、コード、、数学、コード、イメージ、ビデオ、グラフ、マップ、およびオブジェクトのその他のリッチメディア表現を含む、Webアプリケーションに表示されるすべてのコンテンツの表現を格納するノートブックドキュメント。"
 
-#: ../../build/doc/overview/jupyter_overview.rst:38
+#: ../../build/doc/overview/jupyter_overview.rst:35
 msgid ""
 "Notebooks can be shared with others on GitHub, Dropbox, and the `Jupyter "
 "Notebook Viewer <https://nbviewer.jupyter.org/>`_."
@@ -65,43 +65,43 @@ msgstr ""
 "ノートブックはGitHub、Dropbox、そして `Jupyter Notebook Viewer "
 "<https://nbviewer.jupyter.org/>`_ で他の人と共有することができます。"
 
-#: ../../build/doc/overview/jupyter_overview.rst:40
+#: ../../build/doc/overview/jupyter_overview.rst:37
 msgid ""
 "Uses include: data cleaning and transformation, numerical simulation, "
 "statistical modeling, machine learning and much more."
 msgstr "データの消去と変換、数値シミュレーション、統計モデリング、機械学習などの用途があります。"
 
-#: ../../build/doc/overview/jupyter_overview.rst:43
+#: ../../build/doc/overview/jupyter_overview.rst:41
 msgid "Core Features"
 msgstr "主な機能"
 
-#: ../../build/doc/overview/jupyter_overview.rst:45
-msgid "Create Jupyter notebooks which can contain:"
+#: ../../build/doc/overview/jupyter_overview.rst:43
+msgid "Create Jupyter Notebooks which can contain:"
 msgstr "次の内容を含むJupyterノートブックを作成します:"
 
-#: ../../build/doc/overview/jupyter_overview.rst:47
+#: ../../build/doc/overview/jupyter_overview.rst:45
 msgid "Marked up text (with headings, styles, paragraphs, etc)"
 msgstr "マークアップされたテキスト(見出し、スタイル、段落など)"
 
-#: ../../build/doc/overview/jupyter_overview.rst:48
+#: ../../build/doc/overview/jupyter_overview.rst:46
 msgid "Formulas, mathematics, plots, maps, ..."
 msgstr "数式、数学、グラフ図、地図..."
 
-#: ../../build/doc/overview/jupyter_overview.rst:49
-msgid "Imported external libraries to add functionality."
+#: ../../build/doc/overview/jupyter_overview.rst:47
+msgid "Imported external libraries to add functionality"
 msgstr "機能を追加するために外部ライブラリをインポート。"
 
-#: ../../build/doc/overview/jupyter_overview.rst:50
+#: ../../build/doc/overview/jupyter_overview.rst:48
 msgid ""
-"Code from multiple programming languages, including python, R, Julia, Bash "
+"Code from multiple programming languages, including Python, R, Julia, Bash "
 "and many more."
 msgstr "Python、R、Julia、Bashなど、複数のプログラミング言語によるコード。"
 
-#: ../../build/doc/overview/jupyter_overview.rst:52
-msgid "Jupyter notebooks on OSGeo-Live can use geospatial functions from:"
+#: ../../build/doc/overview/jupyter_overview.rst:50
+msgid "Jupyter Notebooks on OSGeoLive can use geospatial functions from:"
 msgstr "OSGeo-Live上のJupyterノートブックでは、次の空間関数を使用できます。"
 
-#: ../../build/doc/overview/jupyter_overview.rst:54
+#: ../../build/doc/overview/jupyter_overview.rst:52
 msgid ""
 "Numpy, SciPy Matplotlib, IRIS, Cartopy, gdal, Geopandas, pyshp, Fiona, "
 "netCDF4, PostgreSQL, psycopg2, R, rpy2, and more."
@@ -109,38 +109,38 @@ msgstr ""
 "Numpy, SciPy Matplotlib, IRIS, Cartopy, gdal, Geopandas, pyshp, Fiona, "
 "netCDF4, PostgreSQL, psycopg2, R, rpy2, などなど。"
 
-#: ../../build/doc/overview/jupyter_overview.rst:57
+#: ../../build/doc/overview/jupyter_overview.rst:56
 msgid "Details"
 msgstr "詳細"
 
-#: ../../build/doc/overview/jupyter_overview.rst:59
+#: ../../build/doc/overview/jupyter_overview.rst:58
 msgid "**Website:** http://jupyter.org/"
 msgstr "**Webサイト:** http://jupyter.org/"
 
-#: ../../build/doc/overview/jupyter_overview.rst:61
+#: ../../build/doc/overview/jupyter_overview.rst:60
 msgid "**Licence:** revised BSD license"
 msgstr "**ライセンス:** revised BSD license"
 
-#: ../../build/doc/overview/jupyter_overview.rst:63
+#: ../../build/doc/overview/jupyter_overview.rst:62
 msgid "**Software Version:** |version-jupyter|"
 msgstr "**ソフトウェアバージョン:** |version-jupyter|"
 
-#: ../../build/doc/overview/jupyter_overview.rst:65
+#: ../../build/doc/overview/jupyter_overview.rst:64
 msgid "**Supported Platforms:** Linux, Mac, Windows"
 msgstr "**対応プラットフォーム:** Linux, Mac, Windows"
 
-#: ../../build/doc/overview/jupyter_overview.rst:67
+#: ../../build/doc/overview/jupyter_overview.rst:66
 msgid "**API Interfaces:** Python"
 msgstr "**API インタフェース:** Python"
 
-#: ../../build/doc/overview/jupyter_overview.rst:69
+#: ../../build/doc/overview/jupyter_overview.rst:68
 msgid "**Support:**  http://jupyter.org/community.html"
 msgstr "**サポート:**  http://jupyter.org/community.html"
 
-#: ../../build/doc/overview/jupyter_overview.rst:73
+#: ../../build/doc/overview/jupyter_overview.rst:74
 msgid "Quickstart"
 msgstr "クイックスタート"
 
-#: ../../build/doc/overview/jupyter_overview.rst:75
+#: ../../build/doc/overview/jupyter_overview.rst:76
 msgid ":doc:`Quickstart documentation <../quickstart/jupyter_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/jupyter_quickstart>`"
