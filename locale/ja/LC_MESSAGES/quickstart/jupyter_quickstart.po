@@ -52,7 +52,7 @@ msgstr "*Geospatial* -> *Spatial Tools* -> *Jupyter Notebook* を選択する"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:40
 msgid "A terminal window will open and a startup log will begin to scroll. Afterwards a web browser is launched showing the Jupyter Notebook dashboard. From the Jupyter Notebook dashboard you can navigate the directory tree, start new notebooks, create files and directories, as well as rename, delete and upload files."
-msgstr "ターミナルウィンドウが開き、起動ログがスクロールし始めます。Webブラウザが起動し、Jupyterノートブックのダッシュボードが表示されます。From the Jupyter Notebook dashboard you can navigate the directory tree, start new notebooks, create files and directories, as well as rename, delete and upload files."
+msgstr "ターミナルウィンドウが開き、起動ログがスクロールし始めます。その後、Webブラウザが起動し、Jupyterノートブックのダッシュボードが表示されます。Jupyterノートブックのダッシュボードから、ディレクトリツリーのナビゲート、新しいノートブックの起動、ファイルとディレクトリの作成、ファイルの名前変更、削除、およびアップロードを行うことができます。"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:51
 msgid "Open and execute an existing notebook"
