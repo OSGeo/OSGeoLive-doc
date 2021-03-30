@@ -66,6 +66,6 @@ What next?
 
 * You can develop some quick applications using the `Sandcastle website <https://sandcastle.cesium.com/index.html>`_. Sandcastle is generally one of the best ways to learn about Cesium, and all the code examples are useful for this purpose.
 
-* The `Cesium Forum <https://groups.google.com/forum/#!forum/cesium-dev>`_ is a great place to search for answers to common questions, and to raise questions that haven't been asked before.
+* The `Cesium Forum <https://community.cesium.com`_ is a great place to search for answers to common questions, and to raise questions that haven't been asked before.
 
 * In-depth documentation is available `locally <http://localhost/cesium/>`_ on the OSGeoLive package.
