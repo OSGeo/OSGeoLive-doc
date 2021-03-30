@@ -57,7 +57,7 @@ Details
 
 **Supported Platforms:**  Platform independent, depends only on a browser which supports WebGL
 
-**Community Support:** Forum at https://groups.google.com/forum/?hl=en#!forum/cesium-dev
+**Community Support:** Forum at https://community.cesium.com
 
 @VMDK_cesium@
 @QUICKSTART_cesium@
