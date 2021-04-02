@@ -118,22 +118,35 @@ Create a new spatialite database and load a shapefile
 #. Let's create a new, empty spatialite database, and load two shapefiles from the north_carolina dataset::
 
       user@osgeo-6:~$ spatialite test.sqlite
-      SpatiaLite version ..: 3.1.0-RC2      Supported Extensions:
-           - 'VirtualShape'        [direct Shapefile access]
-           - 'VirtualDbf'          [direct DBF access]
-           - 'VirtualXL'           [direct XLS access]
-           - 'VirtualText'         [direct CSV/TXT access]
-           - 'VirtualNetwork'      [Dijkstra shortest path]
-           - 'RTree'               [Spatial Index - R*Tree]
-           - 'MbrCache'            [Spatial Index - MBR cache]
-           - 'VirtualSpatialIndex' [R*Tree metahandler]
-           - 'VirtualFDO'          [FDO-OGR interoperability]
-           - 'SpatiaLite'          [Spatial SQL - OGC]
-      PROJ.4 version ......: Rel. 4.8.0, 6 March 2012
-      GEOS version ........: 3.3.3-CAPI-1.7.4
-      SQLite version ......: 3.7.9
+      SpatiaLite version ..: 5.0.0    Supported Extensions:
+          - 'VirtualShape'        [direct Shapefile access]
+          - 'VirtualDbf'          [direct DBF access]
+          - 'VirtualText'         [direct CSV/TXT access]
+          - 'VirtualGeoJSON'              [direct GeoJSON access]
+          - 'VirtualXL'           [direct XLS access]
+          - 'VirtualNetwork'      [Dijkstra shortest path - obsolete]
+          - 'RTree'               [Spatial Index - R*Tree]
+          - 'MbrCache'            [Spatial Index - MBR cache]
+          - 'VirtualFDO'          [FDO-OGR interoperability]
+          - 'VirtualBBox'         [BoundingBox tables]
+          - 'VirtualSpatialIndex' [R*Tree metahandler]
+          - 'VirtualElementary'   [ElemGeoms metahandler]
+          - 'VirtualRouting'      [Dijkstra shortest path - advanced]
+          - 'VirtualKNN'  [K-Nearest Neighbors metahandler]
+          - 'VirtualGPKG' [OGC GeoPackage interoperability]
+          - 'SpatiaLite'          [Spatial SQL - OGC]
+          - 'VirtualXPath'        [XML Path Language - XPath]
+      PROJ version ........: Rel. 6.3.1, February 10th, 2020
+      GEOS version ........: 3.9.0-CAPI-1.16.2
+      RTTOPO version ......: 1.1.0
+      TARGET CPU ..........: x86_64-linux-gnu
+      the SPATIAL_REF_SYS table already contains some row(s)
+      SQLite version ......: 3.31.1
       Enter ".help" for instructions
-      spatialite>
+      SQLite version 3.31.1 2020-01-27 19:55:54
+      Enter ".help" for instructions
+      Enter SQL statements terminated with a ";"
+      spatialite>       
       spatialite> .loadshp data/north_carolina/shape/schools_wake schools utf-8 3358
       spatialite> .loadshp data/north_carolina/shape/roadsmajor roads utf-8 3358
 
