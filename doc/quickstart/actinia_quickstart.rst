@@ -80,7 +80,7 @@ Selected datasets are available to the demo user. To list the locations you have
 
 .. code:: bash
 
-   ace --list-locations
+   ace -l
    ['latlong_wgs84', 'ECAD', 'nc_spm_08']
 
 The following command lists mapsets of current location in the active
@@ -90,13 +90,13 @@ GRASS GIS session (nc_spm_08):
 
    # running ace in the "nc_spm_08" location
    # (the current location name is propagated to the server):
-   ace --location latlong_wgs84 --list-mapsets
-   ['PERMANENT', 'landsat']
+   ace location="nc_spm_08" -m
+   ['PERMANENT', 'landsat', 'modis_lst']
 
 Access data from external sources
 ---------------------------------
 GRASS GIS commands can be augmented with actinia specific extensions.
-The ``+`` operator can be specified for an input parameter to import a
+The ``@`` operator can be specified for an input parameter to import a
 web located resource and to specify the export of an output parameter.
 
 Importantly, the name of the local location and mapset must correspond
@@ -146,7 +146,7 @@ To generate the actinia process chain JSON request simply add the
 
 .. code:: bash
 
-   ace --dry-run r.slope.aspect elevation=elevation slope=myslope
+   ace location="nc_spm_08" grass_command="r.slope.aspect elevation=elevation slope=myslope" -d
 
 Display a map - map rendering
 =============================
@@ -156,8 +156,9 @@ It is very easy (and fast) to render a map:
 ::
 
    # check amount of pixels, just FYI
-   ace --location latlong_wgs84 r.info globcover@globcover
-   ace --location latlong_wgs84 --render-raster globcover@globcover
+   ace location="latlong_wgs84" grass_command="r.info globcover@globcover"
+   # render the map ... 7 billion pixels
+   ace location="latlong_wgs84" render_raster="globcover@globcover"
 
 .. figure:: /images/projects/actinia/esa_globcover_rendered_by_ace.png
    :alt: ESA Globcover map shown by actinia
@@ -214,7 +215,7 @@ To generate the actinia process chain JSON request simply add the
 
 .. code:: bash
 
-   ace --dry-run --location nc_spm_08 --script /tmp/ace_dtm_statistics.sh
+   ace -d location="nc_spm_08" script="/tmp/ace_dtm_statistics.sh"
 
 The output should look like this:
 
@@ -345,7 +346,7 @@ Run the script saved in a text file as
 
 .. code:: bash
 
-   ace --location nc_spm_08 --script /tmp/ace_segmentation.sh
+   ace location="nc_spm_08" script="/tmp/ace_segmentation.sh"
 
 The results (messages, statistics, files) are provided as REST resources.
 
@@ -363,33 +364,33 @@ To create a new mapset in the **nc_spm_08** location with the name
 
 .. code:: bash
 
-   ace --location nc_spm_08 --create-mapset test_mapset
+   ace location="nc_spm_08" create_mapset="test_mapset"
 
 Run the commands from the statistic script in the new persistent mapset
 
 .. code:: bash
 
-   ace --location nc_spm_08 --persistent test_mapset --script /tmp/ace_dtm_statistics.sh
+   ace location="nc_spm_08" mapset="test_mapset" script="/path/to/ace_dtm_statistics.sh"
 
 Show all raster maps that have been created with the script in
 test_mapset
 
 .. code:: bash
 
-   ace --location nc_spm_08 --persistent test_mapset g.list type=raster mapset=test_mapset
+   ace location="nc_spm_08" mapset="test_mapset" grass_commmand="g.list type=raster mapset=test_mapset"
 
 Show information about raster map elev and slope_elev
 
 .. code:: bash
 
-   ace --location nc_spm_08 --persistent test_mapset r.info elev@test_mapset
-   ace --location nc_spm_08 --persistent test_mapset r.info slope_elev@test_mapset
+   ace location="nc_spm_08" mapset="test_mapset" grass_command="r.info elev@test_mapset"
+   ace location="nc_spm_08" mapset="test_mapset" grass_command="r.info slope_elev@test_mapset"
 
 Delete the test_mapset (always double check names when deleting)
 
 .. code:: bash
 
-   ace --location nc_spm_08 --delete-mapset test_mapset
+   ace location="nc_spm_08" delete_mapset="test_mapset"
 
 If the active GRASS GIS session has identical location/mapset names,
 then an alias can be used to avoid the persistent option in each single
@@ -405,11 +406,11 @@ commands from above can be executed in the following way:
 
 .. code:: bash
 
-   ace --create-mapset test_mapset
-   acp --script /path/to/ace_dtm_statistics.sh
-   acp g.list type=raster mapset=test_mapset
-   acp r.info elev@test_mapset
-   acp r.info slope_elev@test_mapset
+   ace location="nc_spm_08" create_mapset="test_mapset"
+   acp location="nc_spm_08" script="/path/to/ace_dtm_statistics.sh"
+   acp location="nc_spm_08" grass_command="g.list type=raster mapset=test_mapset"
+   acp location="nc_spm_08" grass_command="r.info elev@test_mapset"
+   acp location="nc_spm_08" grass_command="r.info slope_elev@test_mapset"
 
 Things to try
 =============
@@ -419,22 +420,25 @@ Create new locations
 
 .. code:: bash
 
+   # (note: the "demouser" is not enabled for this)
+   #
    # create new location
-   ace --create-location latlon_test 4326
+   ace create_location="mylatlon 4326"
    # create new mapset within location
-   ace --location latlon_test --create-mapset user1
+   ace location="mylatlon" create_mapset="user1"
 
 Install GRASS GIS addons (extensions)
 --------------------------------------------------------------------------------
-.. code:: bash
 
+.. code:: bash
+   # (requires elevated user privileges)
+   #
    # list existing addons, see also
    # https://grass.osgeo.org/grass7/manuals/addons/
-   ace --location latlon_test g.extension -l
+   ace location="latlong_wgs84" grass_command="g.extension -l"
 
-   # install machine learning addon r.learn.ml
-   ace --location latlon_test g.extension r.learn.ml
-
+   # install machine learning addon r.learn.ml2
+   ace location="latlong_wgs84" grass_command="g.extension extension=\"r.learn.ml2\""
 
 
 What next?
