@@ -173,6 +173,7 @@ The following export formats are currently supported:
 -  vector: ``GPKG``, ``GML``, ``GeoJSON``, ``ESRI_Shapefile``
 -  table: ``CSV``, ``TXT``
 
+
 Script examples
 ===============
 
@@ -416,10 +417,10 @@ Things to try
 Create new locations
 --------------------------------------------------------------------------------
 
-(note: the "demouser" is not enabled for this)
-
 .. code:: bash
 
+   # (note: the "demouser" is not enabled for this)
+   #
    # create new location
    ace create_location="mylatlon 4326"
    # create new mapset within location
@@ -428,10 +429,9 @@ Create new locations
 Install GRASS GIS addons (extensions)
 --------------------------------------------------------------------------------
 
-(requires elevated user privileges)
-
 .. code:: bash
-
+   # (requires elevated user privileges)
+   #
    # list existing addons, see also
    # https://grass.osgeo.org/grass7/manuals/addons/
    ace location="latlong_wgs84" grass_command="g.extension -l"
