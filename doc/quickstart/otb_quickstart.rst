@@ -31,7 +31,7 @@ The OTB applications provide lots of interesting tools which facilitate the mani
   * QGIS plugin - available through the processing framework.
 
 Sample data used in this quickstart can be found in :
-  * /home/user/data/north_carolina/rast_geotiffs
+  * /home/user/data/north_carolina/rast_geotiff
 
 .. contents:: Contents
    :local:
