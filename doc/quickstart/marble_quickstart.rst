@@ -91,7 +91,7 @@ To manage bookmarks, go to "Bookmarks->Manage Bookmarks".
 Things to try
 =============
 
-Try to use the Routing feature. See the `Marble documentation <https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ for help.
+Try to use the Routing feature. See the `Marble documentation <https://marble.kde.org>`_ for help.
 
 
 What next?
