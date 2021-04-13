@@ -122,7 +122,7 @@ msgstr ""
 msgid ""
 "This was a quick introduction to the EOxServer Web Client. Please refer "
 "to the `online documentation "
-"<https://docs.eoxserver.org/en/latest/users/webclient.html>`_ for more "
+"<https://docs.eoxserver.org/en/stable/users/webclient.html>`_ for more "
 "information on this topic."
 msgstr ""
 
@@ -141,7 +141,7 @@ msgid ""
 "The `Admin Client` is Djangos standard admin and allows you to configure "
 "the available data. Please feel free to explore the client. More "
 "information can be found in the `operators' guide "
-"<https://docs.eoxserver.org/en/latest/users/operators.html>`_."
+"<https://docs.eoxserver.org/en/stable/users/operators.html>`_."
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:132
@@ -177,19 +177,19 @@ msgstr ""
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:153
 msgid ""
 "Read the `EOxServer Operators' Guide "
-"<https://docs.eoxserver.org/en/latest/users/operators.html>`_."
+"<https://docs.eoxserver.org/en/stable/users/operators.html>`_."
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:154
 msgid ""
 "Read the `EOxServer Basics "
-"<https://docs.eoxserver.org/en/latest/users/basics.html>`_."
+"<https://docs.eoxserver.org/en/stable/users/basics.html>`_."
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:155
 msgid ""
 "Ready to use EOxServer? Then join the community on the `mailing lists "
-"<https://docs.eoxserver.org/en/latest/users/mailing_lists.html>`_ to "
+"<https://docs.eoxserver.org/en/stable/users/mailing_lists.html>`_ to "
 "exchange ideas, discuss potential software improvements, and ask "
 "questions."
 msgstr ""
