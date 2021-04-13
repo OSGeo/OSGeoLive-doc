@@ -104,7 +104,7 @@ to download.
 
 This was a quick introduction to the EOxServer Web Client. Please refer to the
 `online documentation
-<https://docs.eoxserver.org/en/latest/users/webclient.html>`_ for more
+<https://docs.eoxserver.org/en/stable/users/webclient.html>`_ for more
 information on this topic.
 
 Work with the Admin Client
@@ -120,7 +120,7 @@ From the EOxServer main page, click the **Admin Client** link and login with use
 The `Admin Client` is Djangos standard admin and allows you to configure the
 available data. Please feel free to explore the client. More information can
 be found in the `operators' guide
-<https://docs.eoxserver.org/en/latest/users/operators.html>`_.
+<https://docs.eoxserver.org/en/stable/users/operators.html>`_.
 
 .. image:: /images/projects/eoxserver/eoxserver_adminclient2.png
   :scale: 50 %
@@ -147,8 +147,8 @@ project website contains a lot of resources to help you get started. Here’s
 a few resources to check out next:
 
 * See the :doc:`EOxServer Overview <../overview/eoxserver_overview>` for more information.
-* Read the `EOxServer Operators' Guide <https://docs.eoxserver.org/en/latest/users/operators.html>`_.
-* Read the `EOxServer Basics <https://docs.eoxserver.org/en/latest/users/basics.html>`_.
+* Read the `EOxServer Operators' Guide <https://docs.eoxserver.org/en/stable/users/operators.html>`_.
+* Read the `EOxServer Basics <https://docs.eoxserver.org/en/stable/users/basics.html>`_.
 * Ready to use EOxServer? Then join the community on the `mailing lists
-  <https://docs.eoxserver.org/en/latest/users/mailing_lists.html>`_ to
+  <https://docs.eoxserver.org/en/stable/users/mailing_lists.html>`_ to
   exchange ideas, discuss potential software improvements, and ask questions.

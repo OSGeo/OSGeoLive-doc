@@ -49,7 +49,7 @@ $sections .= get_section('Domain Specific GIS', 'Applications targeted at a spec
 $sections .= get_section('Data', 'Spatial data sets', $configuration);
 $sections .= get_section('Geospatial Libraries', ' ', $configuration);
 $sections .= get_section('Geospatial Standards', ' ', $configuration);
-$sections .= get_section('Available in prior OSGeo-Live releases', ' ', $configuration);
+$sections .= get_section('Available in prior OSGeoLive releases', ' ', $configuration);
 write_script($sections);
 exit 0;
 
