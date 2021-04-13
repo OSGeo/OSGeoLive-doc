@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
-"PO-Revision-Date: 2017-09-20 16:10+0000\n"
+"POT-Creation-Date: 2021-02-06 18:01-0600\n"
+"PO-Revision-Date: 2021-02-07 00:39+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -21,80 +21,88 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../build/doc/overview/zygrib_overview.rst:14
-msgid "zyGrib"
-msgstr "zyGrib"
+#: ../../build/doc/overview/xygrib_overview.rst:14
+msgid "XyGrib"
+msgstr "XyGrib"
 
-#: ../../build/doc/overview/zygrib_overview.rst:17
+#: ../../build/doc/overview/xygrib_overview.rst:17
 msgid "Weather forecasting"
 msgstr "気象予想"
 
-#: ../../build/doc/overview/zygrib_overview.rst:19
+#: ../../build/doc/overview/xygrib_overview.rst:19
 msgid ""
-"zyGrib is a program to download and visualize weather forecast data in the "
-"standard GRIB distribution format."
-msgstr "zyGrib は、標準的なGRIB配布フォーマットで天気予報データをダウンロードして視覚化するプログラムです。"
+"XyGrib is a Grib file reader and visualizes meteorological data providing an"
+" off-line capability to analyse weather forecasts or hindcasts. XyGrib is "
+"the continuation of the zyGrib software package with a new team of "
+"volunteers. It is intended to be used as a capable weather work station for "
+"anyone with a serious interest in examining weather. This would include "
+"members of the sailing community, private and sport aviators, farmers, "
+"weather buffs and many more."
+msgstr ""
+"XyGrib は Grib ファイルリーダ、気象データを可視化して、天気予報もしくは過去の再予報を分析するオフライン機能を提供しています。XyGrib "
+"は zyGrip "
+"ソフトウェアパッケージの新しいボランティアチームによる後継となります。気象を調べることに真剣な興味がある誰もに、有能な気象ワークステーションとして利用されることを意図されています。これには、セーリングコミュニティのメンバーや、民間およびスポーツの飛行士、農業従事者、気象マニアなどが含まれています。"
 
-#: ../../build/doc/overview/zygrib_overview.rst:29
+#: ../../build/doc/overview/xygrib_overview.rst:29
 msgid "Core Features"
 msgstr "主な機能"
 
-#: ../../build/doc/overview/zygrib_overview.rst:31
+#: ../../build/doc/overview/xygrib_overview.rst:31
 msgid "Visualization of meteorologic data from files in GRIB format"
 msgstr "GRIB フォーマットのファイルからの気象データの可視化"
 
-#: ../../build/doc/overview/zygrib_overview.rst:32
+#: ../../build/doc/overview/xygrib_overview.rst:32
 msgid "Automatic download of weather and wave forecasts"
 msgstr "気象・波浪予報の自動ダウンロード"
 
-#: ../../build/doc/overview/zygrib_overview.rst:33
+#: ../../build/doc/overview/xygrib_overview.rst:33
 msgid "Automatic download from IAC (fleetcode) data"
 msgstr "IAC (fleetcode) データからの自動ダウンロード"
 
-#: ../../build/doc/overview/zygrib_overview.rst:34
+#: ../../build/doc/overview/xygrib_overview.rst:34
 msgid "Play animations of 8-day forecasts"
 msgstr "8日間の予測アニメーションの再生"
 
-#: ../../build/doc/overview/zygrib_overview.rst:35
+#: ../../build/doc/overview/xygrib_overview.rst:35
 msgid ""
 "Create your own regional weather maps (worldwide), or view a detailed "
 "quantitative forecast for a particular location."
 msgstr "独自の地域天気図(世界中)を作成するか、特定の場所の詳細な数量予測を表示します。"
 
-#: ../../build/doc/overview/zygrib_overview.rst:36
+#: ../../build/doc/overview/xygrib_overview.rst:36
 msgid ""
 "Plot wind, pressure, temperature, humidity, rain, snow, cloud cover, dew "
 "point, wave height, and high altitude data."
 msgstr "風、気圧、温度、湿度、雨、雪、雲量、露点、波の高さ、および高さのデータをプロットします。"
 
-#: ../../build/doc/overview/zygrib_overview.rst:39
+#: ../../build/doc/overview/xygrib_overview.rst:39
 msgid "Details"
 msgstr "詳細"
 
-#: ../../build/doc/overview/zygrib_overview.rst:41
-msgid "**Website:** https://www.zygrib.org"
-msgstr "**Website:** https://www.zygrib.org"
+#: ../../build/doc/overview/xygrib_overview.rst:41
+msgid "**Website:** https://opengribs.org"
+msgstr "**Webサイト:** https://opengribs.org"
 
-#: ../../build/doc/overview/zygrib_overview.rst:43
+#: ../../build/doc/overview/xygrib_overview.rst:43
 msgid "**Licence:** GNU General Public License (GPL) version 3"
 msgstr "**ライセンス:** GNU General Public License (GPL) version 3"
 
-#: ../../build/doc/overview/zygrib_overview.rst:45
-msgid "**Software Version:** |version-zygrib|"
-msgstr "**ソフトウェアバージョン:** |version-zygrib|"
+#: ../../build/doc/overview/xygrib_overview.rst:45
+msgid "**Software Version:** |version-xygrib|"
+msgstr "**ソフトウェアバージョン:** |version-xygrib|"
 
-#: ../../build/doc/overview/zygrib_overview.rst:47
+#: ../../build/doc/overview/xygrib_overview.rst:47
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
 msgstr "**対応プラットフォーム:** GNU/Linux, Mac OSX, MS Windows"
 
-#: ../../build/doc/overview/zygrib_overview.rst:49
-msgid "**Support:** https://zygrib.org/forum/"
-msgstr "**サポート:** https://zygrib.org/forum/"
+#: ../../build/doc/overview/xygrib_overview.rst:49
+msgid "**Support:** https://opengribs.org/en/support-forum"
+msgstr "**サポート:** https://opengribs.org/en/support-forum"
 
-#: ../../build/doc/overview/zygrib_overview.rst:55
+#: ../../build/doc/overview/xygrib_overview.rst:55
 msgid "Quickstart"
 msgstr "クイックスタート"
 
-#: ../../build/doc/overview/zygrib_overview.rst:57
-msgid ":doc:`Quickstart documentation <../quickstart/zygrib_quickstart>`"
-msgstr ":doc:`クイックスタート文書 <../quickstart/zygrib_quickstart>`"
+#: ../../build/doc/overview/xygrib_overview.rst:57
+msgid ":doc:`Quickstart documentation <../quickstart/xygrib_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/xygrib_quickstart>`"

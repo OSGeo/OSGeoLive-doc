@@ -5,17 +5,17 @@
 # 
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
-# Astrid Emde <astrid_emde@osgeo.org>, 2020
-# Vicky Vergara <vicky@georepublic.de>, 2020
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
+# Vicky Vergara <vicky@georepublic.de>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-02-19 11:35-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,26 +48,36 @@ msgid ""
 " time you open OpenCPN you are presented with the option to do this "
 "automatically."
 msgstr ""
+"Bevor Sie OpenCPN auf OSGeoLive ausführen, sollten Sie die Beispieldaten "
+"aktivieren. Dies ist eine Bedingung für die Umverteilung der kostenlosen "
+"Seekarten der NOAA. Wenn Sie OpenCPN zum ersten Mal öffnen, erhalten Sie die"
+" Möglichkeit, dies automatisch zu tun."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:35
 msgid ""
 "From the Start menu, select :menuselection:`Geospatial --> Navigation and "
 "Maps --> OpenCPN`."
 msgstr ""
+"Wählen Sie im Startmenü :menuselection:'Geospatial --> Navigation and Maps "
+"--> OpenCPN'."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:36
 msgid "Click :guilabel:`I agree` to the NOAA Nautical Chart Data Agreement."
 msgstr ""
+"Klicken Sie auf :guilabel:`I agree` to the NOAA Nautical Chart Data "
+"Agreement."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:37
 msgid "Click :guilabel:`OK` to agree to the OpenCPN license."
-msgstr ""
+msgstr "Klicken Sie :guilabel:`OK`, um der OpenCPN Lizenz zuzustimmen."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:41
 msgid ""
 "You can download additional US nautical charts from NOAA at "
 "https://www.charts.noaa.gov/"
 msgstr ""
+"Weitere US-Seekarten von NOAA können Sie unter dem folgenden Link "
+"herunterladen https://www.charts.noaa.gov/"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:45
 msgid "Setting up your GPS"
@@ -78,6 +88,8 @@ msgid ""
 "If you have a GPS connected you will want to start the gpsd service. To do "
 "that, open a terminal and run:"
 msgstr ""
+"Wenn Sie ein GPS angeschlossen haben, sollten Sie den GPS-Dienst starten. "
+"Öffnen Sie dazu ein Terminal und führen Sie folgenden Befehl aus:"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:54
 msgid "and"
@@ -104,46 +116,57 @@ msgstr "Was Sie noch ausprobieren können"
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:72
 msgid ""
 "Current weather and wave forecast data can be downloaded and draped over "
-"your charts using the GRIB plugin. The :doc:`zyGrib software "
-"<../overview/zygrib_overview>` (also on this disc) is an easy way to "
+"your charts using the GRIB plugin. The :doc:`XyGrib software "
+"<../overview/xygrib_overview>` (also on this disc) is an easy way to "
 "download that."
 msgstr ""
+"Aktuelle Wetter- und Wellenvorhersagedaten können mit dem GRIB-Plugin "
+"heruntergeladen und über Ihre Charts drapiert werden. Die :doc:`XyGrib "
+"<../overview/xygrib_overview>` Software' (auch auf dieser Disc) ist eine "
+"einfache Möglichkeit, diese herunterzuladen.</..>"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:74
 msgid ""
 "Click the :guilabel:`Options` icon on the toolbar. The Options window "
 "displays."
 msgstr ""
+"Klicken Sie auf der Symbolleiste :guilabel:'Optionen'. Das Fenster Optionen "
+"wird angezeigt."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:75
 msgid "Select the :guilabel:`Plugins` tab."
-msgstr ""
+msgstr "Wählen Sie die Registerkarte :guilabel:'Plugins'."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:76
 msgid "Choose GRIB and then click :guilabel:`Enable`."
-msgstr ""
+msgstr "Wählen Sie GRIB und klicken Sie dann auf :guilabel:'Enable'."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:77
 msgid "Click :guilabel:`OK`. A windsock icon is now displayed on the toolbar."
 msgstr ""
+"Klicken Sie auf :guilabel:'OK'. Auf der Symbolleiste wird nun ein Windsack-"
+"Symbol angezeigt."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:80
 msgid ""
-"Run through the :doc:`zyGrib quickstart <../quickstart/zygrib_quickstart>` "
-"and load the zyGrib file over your chart."
+"Run through the :doc:`XyGrib quickstart <../quickstart/xygrib_quickstart>` "
+"and load the XyGrib file over your chart."
 msgstr ""
+"Führen Sie den :doc:`XyGrib-Quickstart aus "
+"<../quickstart/xygrib_quickstart>` und laden Sie die XyGrib-Datei über Ihr "
+"Diagramm."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:82
 msgid ""
-"If you saved the zyGrib file into your home directory, navigate to "
+"If you saved the XyGrib file into your home directory, navigate to "
 ":file:`/home` and select your ``user`` directory as the GRIB data directory."
 " Then right click on the file listing's background to show hidden files, "
-"including the ``.zygrib`` directory that contains the GRIB download files."
+"including the ``.xygrib`` directory that contains the GRIB download files."
 msgstr ""
-"Haben Sie die GRIB Daten im Home-Verzeichnis des Benutzers gespeichert, "
+"Haben Sie die XyGrib-Datei im Home-Verzeichnis des Benutzers gespeichert, "
 "navigieren Sie nach :file:`/home` und wählen Sie Ihr ``user``-Verzeichnis "
 "als das GRIB Datenverzeichnis. Versteckte Dateien inklusive des "
-"``.zygrib``-Verzeichnissen mit den GRIB download Dateien werden über den "
+"``.xygrib``-Verzeichnissen mit den GRIB download Dateien werden über den "
 "rechten Klick auf die Dateieigenschaften angezeigt."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:84
@@ -163,6 +186,8 @@ msgid ""
 "Documentation is available from the Help menu or online at "
 "https://opencpn.org/OpenCPN/info/manuals.html"
 msgstr ""
+"Die Dokumentation ist im Hilfemenü oder online unter "
+"https://opencpn.org/OpenCPN/info/manuals.html verfügbar"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:92
 msgid "`Getting started tips <../../opencpn/tips.html>`_"

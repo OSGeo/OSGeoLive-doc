@@ -83,7 +83,7 @@ msgid ""
 "labelled  “My GeoNetwork catalogue” but it may have a different name and "
 "logo."
 msgstr ""
-"トップツールバーの左上に表示されているカタログロゴを選択すると、ホームページにいつでも戻ることができます。下のスクリーンショットでは、これに \"My "
+"上部ツールバーの左上に表示されているカタログロゴを選択すると、ホームページにいつでも戻ることができます。下のスクリーンショットでは、これに \"My "
 "GeoNetwork catalog\" というラベルが付いていますが、名前とロゴが異なる場合があります。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:55
@@ -97,7 +97,7 @@ msgid ""
 "and select the blue **Sign in** button to sign in as the catalog "
 "administrator."
 msgstr ""
-"ホームページのトップツールバーの右上にある **サインイン** を選択して、サインインページを表示します。ユーザー名 ``admin`` とパスワード "
+"ホームページの上部ツールバーの右上にある **サインイン** を選択して、サインインページを表示します。ユーザ名 ``admin`` とパスワード "
 "``admin`` を入力し、青い **[サインイン]** ボタンを選択してカタログ管理者としてサインインします。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:63
@@ -107,7 +107,7 @@ msgid ""
 "user, a link to Sign out, and a dropdown box for changing the interface "
 "language."
 msgstr ""
-"サインインすると、上部のツールバーが変更され、管理コンソールへのリンク、サインインしたユーザの名前、サインアウトへのリンク、インタフェース言語を変更するためのドロップダウンボックスなどの追加要素が表示されます。"
+"サインインすると、上部ツールバーが変更され、管理コンソールへのリンク、サインインしたユーザの名前、サインアウトへのリンク、インタフェース言語を変更するためのドロップダウンボックスなどの追加要素が表示されます。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:70
 msgid "Load sample data"
@@ -119,7 +119,7 @@ msgid ""
 "functions in the catalog, then select the **Metadata and templates** "
 "menuitem to access the sample data and templates tab."
 msgstr ""
-"トップツールバーの **管理コンソール** を選択してカタログ内の管理機能にアクセスし、 **メタデータとテンプレート** "
+"上部ツールバーの **管理コンソール** を選択してカタログ内の管理機能にアクセスし、 **メタデータとテンプレート** "
 "メニューを選択してサンプルデータとテンプレートタブにアクセスします。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:74
@@ -127,7 +127,8 @@ msgid ""
 "This page lists all the metadata standards loaded in the catalog. The "
 "default standards in GeoNetwork are:"
 msgstr ""
-"このページには、カタログにロードされているすべてのメタデータ標準が一覧表示されます。GeoNetwork の既定の標準規格は次のとおりです:"
+"このページには、カタログにロードされているすべてのメタデータ標準が一覧表示されます。GeoNetwork "
+"のデフォルトでサポートされる標準規格は次のとおりです:"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:76
 msgid "Geographic information - Metadata (iso19139:2007)"
@@ -177,11 +178,11 @@ msgid ""
 "Below this are tabs classifying the records by date added (latest news) and "
 "popularity (most popular)."
 msgstr ""
-"トップツールバーの左上に表示されているカタログ名を選択して、カタログのホームページに戻ります。ホームページには、トピック(青)とリソースタイプ(緑)で分類された読み込んだレコードを表すアイコンが表示されます。この下には、追加された日付(最新ニュース)と人気(最も一般的)でレコードを分類するタブがあります。"
+"上部ツールバーの左上に表示されているカタログ名を選択して、カタログのホームページに戻ります。ホームページには、トピック(青)とリソースタイプ(緑)で分類された読み込んだレコードを表すアイコンが表示されます。この下には、追加された日付(最新ニュース)と人気(最も一般的)でレコードを分類するタブがあります。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:97
 msgid "Select **Search** in the top toolbar to access the Search page."
-msgstr "トップツールバーの **検索** を選択して、検索ページにアクセスします。"
+msgstr "上部ツールバーの **検索** を選択して、検索ページにアクセスします。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:99
 msgid "The Search page provides different ways for search:"
@@ -251,7 +252,7 @@ msgstr "レコードを削除"
 msgid ""
 "Managing the record (such as assigning viewing or editing privileges, "
 "transferring ownership to a different user)"
-msgstr "レコードの管理(表示または編集権限の割り当て、所有権の別のユーザーへの転送など)"
+msgstr "レコードの管理(表示または編集権限の割り当て、所有権の別のユーザへの転送など)"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:142
 msgid "Downloading the record as multiple formats"
@@ -266,11 +267,11 @@ msgid ""
 "Switching to **Full view** will show more detailed metadata. To switch back "
 "to the original view select **Default view** from the list."
 msgstr ""
-"**完全なビュー** に切り替えると、より詳細なメタデータが表示されます。元のビューに戻すには、一覧から **既定のビュー** を選択します。"
+"**完全なビュー** に切り替えると、より詳細なメタデータが表示されます。元のビューに戻すには、一覧から **デフォルトのビュー** を選択します。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:148
 msgid "Add layers to the map"
-msgstr "マップにレイヤーを追加"
+msgstr "マップにレイヤを追加"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:150
 msgid ""
@@ -331,17 +332,17 @@ msgstr "ツールは次のとおりです。"
 msgid ""
 "Add new layers to the map. You can search the catalog, add layers from web "
 "services, or KML,"
-msgstr "マップにレイヤーを追加カタログを検索したり、WebサービスやKMLからレイヤーを追加したりできます。"
+msgstr "マップにレイヤを追加カタログを検索したり、WebサービスやKMLからレイヤを追加したりできます。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:171
 msgid ""
 "Manage existing layers or change the background map (the default is "
 "openstreetmap),"
-msgstr "既存のレイヤーを管理するか、背景のマップを変更します (既定はOpenStreetMap)。"
+msgstr "既存のレイヤを管理するか、背景のマップを変更します (デフォルトはOpenStreetMap)。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:172
 msgid "Filter layers on the map (if configured),"
-msgstr "マップ上のレイヤーをフィルタ(設定されている場合)"
+msgstr "マップ上のレイヤをフィルタ(設定されている場合)"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:173
 msgid ""
@@ -349,7 +350,7 @@ msgid ""
 "definition, downloading the current map, or saving the map configuration as "
 "a layer in the catalog,"
 msgstr ""
-"マップを管理します。既定の設定に戻すか、新しいマップ定義を読み込むか、現在のマップをダウンロードするか、マップの設定をレイヤとしてカタログに保存します。"
+"マップを管理します。デフォルト設定に戻すか、新しいマップ定義を読み込むか、現在のマップをダウンロードするか、マップの設定をレイヤとしてカタログに保存します。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:174
 msgid "Print the map,"
@@ -357,7 +358,7 @@ msgstr "マップを印刷"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:175
 msgid "Synchronise layers with the small map on the Search tab,"
-msgstr "検索タブでレイヤーを小さなマップに同期させます。"
+msgstr "検索タブでレイヤを小さなマップに同期させます。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:176
 msgid "Measure distances on the map,"
@@ -404,7 +405,7 @@ msgid ""
 "Using the Manage Layers tool, select the cog symbol next to **Physiography "
 "of North and Central Eurasia Landform** and select **Zoom to layer**."
 msgstr ""
-"レイヤーを管理ツールを使用して、 **Physiography of North and Central Eurasia Landform** "
+"レイヤを管理ツールを使用して、 **Physiography of North and Central Eurasia Landform** "
 "の横にあるcogシンボルを選択し、 **レイヤへズーム** を選択します。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:201

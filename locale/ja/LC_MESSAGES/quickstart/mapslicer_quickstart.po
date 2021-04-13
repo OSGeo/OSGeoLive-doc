@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:06+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:19
+msgid "MapSlicer Quickstart"
+msgstr "MapSlicer クイックスタート"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:21
+msgid ""
+"`MapSlicer <https://wiki.osgeo.org/wiki/MapSlicer>`_ provides a simple way "
+"of creating a set of tiles from any georeferenced map image. The tiles can "
+"then be presented as a georeferenced map overlay on a web server. It follows"
+" the `Open Source Geospatial Foundation's (OSGeo's) "
+"<https://www.osgeo.org/>`_ `Tile Map Service (TMS) "
+"<https://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`_ "
+"specification."
+msgstr ""
+"`MapSlicer <https://wiki.osgeo.org/wiki/MapSlicer>`_ "
+"は、様々な地理参照されたマップイメージから、タイル一式を生成するシンプルな方法を提供します。タイルは、Webサーバー上で地理参照マップオーバーレイとして表示できます。これは、`Open"
+" Source Geospatial Foundation (OSGeo財団) <https://www.osgeo.org/>`_  の、 `Tile"
+" Map Service (TMS) "
+"<https://wiki.osgeo.org/wiki/Tile_Map_Service_Specification>`_ に従っています。"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:23
+msgid ""
+"**Input options**: Any georeferenced image file, eg. a TIFF, JPEG from "
+"ArcGIS, QGIS."
+msgstr "**入力設定**: 様々な地理参照された画像ファイル、例：ArcGISやQGISで生成したTIFF, JPEG"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:24
+msgid ""
+"**Output options**: A set of directories with tiled images which can be "
+"copied to a web server for presentation as a georeferenced overlay."
+msgstr ""
+"**出力設定**: タイル化された画像が含まれるディレクトリー一式で、Webサーバにコピーして地理参照されたオーバーレイとして表示することができる。"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:25
+msgid ""
+"**Strengths**: MapSlicer is simple, free, open-source software, with an easy"
+" wizard, described below, to guide through the options."
+msgstr ""
+"**強み**: MapSlicerは、シンプルで自由なオープンソースソフトウエアです。以下に紹介する、様々な設定をガイドしてくれるウィザード "
+"があります。"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:29
+msgid ""
+"MapSlicer takes advantage of the fact that `Google Maps "
+"<http://maps.google.com/>`__, `Microsoft Bing "
+"<https://www.bing.com/maps>`__, `Yahoo Maps <https://maps.yahoo.com/>`__, "
+"and other online mapping providers including `OpenStreetMap "
+"<https://www.openstreetmap.org/>`__ use the same projection and tiling "
+"profile and the tiles are therefore compatible. MapSlicer prepares tiles "
+"using this specification as an easy and quick way of preparing a "
+"georeferenced map in a mashup web page."
+msgstr ""
+"MapSlicer  は、  `Google Maps <http://maps.google.com/>`__ , `Microsoft Bing "
+"<https://www.bing.com/maps>`__, `Yahoo Maps <https://maps.yahoo.com/>`__, と "
+"その他の `OpenStreetMap <https://www.openstreetmap.org/>`__  "
+"を含むオンラインマップが提供する投影法とタイル提供方法と互換性があるという優位性があります。MapSlicerでは、マッシュアップWebページでGeoリファレンスマップを簡単かつ迅速に作成する方法として、この仕様を使用してタイルを作成しています。"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:37
+msgid "Start MapSlicer"
+msgstr "MapSlicerを開始"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:39
+msgid ""
+"Start MapSlicer from the Geospatial menu, under the Spatial Tools sub-menu."
+msgstr "[Geospatial]メニューの配下の [Spatial Tools]サブメニューから[MapSlicer]を開始します。"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:41
+msgid ""
+"Select the **Tile Profile**. Choose *Image Based Tiles (raster)* for "
+"standard web publishing. Click *Continue*."
+msgstr ""
+"**Tile Profile** を選択します。標準Webパブリッシングの場合は、*Image Based Tiles (raster)* "
+"を選択します。*Continue* をクリック。"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:47
+msgid ""
+"Choose the **Source Data Files**. Browse to select the raster image you want"
+" to tile. It is also possible to select a NODATA colour that will appear as "
+"transparent in the resulting image. Click *Continue*."
+msgstr ""
+"**Source Data Files** "
+"を選択。タイルに変換したいラスタ画像をブラウズして選択します。また、透明に表示されるNODATAカラーを選択することもできます。*Continue* "
+"をクリック。"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:53
+msgid ""
+"Specify the **Spatial Reference System / Coordinate System** of the image. "
+"Specify the id-number from the EPSG database. Click *Continue*."
+msgstr "画像の **空間参照システム/ 座標系** を指定します。EPSGデータベースの番号を指定します。*Continue* をクリック。"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:59
+msgid ""
+"Specify details about the **Tile Pyramid**. The default settings for zoom "
+"levels and file format are often best. Click *Continue*."
+msgstr ""
+"**Tile Pyramid** の詳細を指定します。Zoomレベルやファイルフォーマットのデフォルトの設定値が通常は最適です。*Continue* "
+"をクリック。"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:65
+msgid ""
+"Specify details about the **Destination folder and Addresses / URLs** for "
+"the tileset. If you do not know these, they can be added into the default "
+"*googlemaps.html* and *openlayers.html* files after tile generation. Click "
+"*Continue*."
+msgstr ""
+"タイルセットの **行き先フォルダとアドレス/URL** の詳細を指定します。これらがわからない場合は、タイル生成後にデフォルトの "
+"*googlemaps.html* と *openlayers.html* ファイルに追加できます。*Continue* をクリック。"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:71
+msgid ""
+"Tick the **Viewers that should be generated**. By default, a "
+"*openlayers.html* file is generated. Click *Continue*."
+msgstr ""
+"**生成するビューア** をチェックします。デフォルトでは、 *openlayers.html* ファイルが生成されます。*Continue* "
+"をクリック。"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:77
+msgid ""
+"Specify the **Details for generating the Viewers**, such as the title, "
+"copyright notice, and API keys. If you do not know these, they can be added "
+"into the default *googlemaps.html / openlayers.html* files after tile "
+"generation. Click *Continue*."
+msgstr ""
+"タイトル、著作権表示、APIキーなど、 **ビューアを生成するための詳細** を指定します。これらがわからない場合は、タイル生成後にデフォルトの "
+"*googlemaps.html/openlayers.html* ファイルに追加できます。*Continue* をクリック。"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:83
+msgid "Click **Render** to start rendering the image."
+msgstr "**Render** をクリックしてイメージのレンダリングを開始します。"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:89
+msgid "When complete, MapSlicer provides a link to the finished tileset."
+msgstr "完了すると、MapSlicerは完成したタイルセットへのリンクを提供します。"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:95
+msgid ""
+"Open the *openlayers.html* files in a web browser to view the tileset as an "
+"overlay on the live online map. To present this on the web, just copy the "
+"entire tileset and all subdirectories to a web server, and edit the "
+"googlemaps.html or openlayers.html files as required."
+msgstr ""
+"実際のオンラインマップ上のオーバーレイとしてタイルセットを表示するには、Webブラウザで *openlayers.html* "
+"ファイルを開きます。これをWebに公開するには、タイルセットの全てのディレクトリをwebサーバへコピーします。そして、 googlemaps.html "
+"や openlayers.html ッファイルを必要に応じて編集します。"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:103
+msgid "Using gdal2tiles to create a MBTiles database"
+msgstr "gdal2tiles を使用すると、MBTilesデータベースを作成できます。"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:105
+msgid ""
+"MapSlicer is essentially a GUI frontend to the `gdal2tiles.py` script. An "
+"updated version of `gdal2tiles.py` is also present on the Live disc. The "
+"resulting tile trees created by these software can be used with the `mb-"
+"util` program to create an mbtiles database, for use with smartphone "
+"software like `Geopaparazzi <https://www.geopaparazzi.org/>`_."
+msgstr ""
+"MapSlicerは本質的に `gdal2tiles.py` スクリプトのGUIフロントエンドです。`gdal2tiles.py` "
+"のアップデート版もライブディスクにあります。これらのソフトウェアで作成されたタイルツリーを `mb-util` "
+"プログラムを使用してmbtilesデータベースを作成し、 `Geopaparazzi <https://www.geopaparazzi.org/>`_"
+" のようなスマートフォンソフトウェアで使用することができます。"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:111
+msgid ""
+"To create an MBTiles SQLite database from the newly created tile tree, open "
+"a terminal, then"
+msgstr "新しく作成したタイルツリーからMBTiles SQLiteデータベースを作成するには、ターミナルを開いて"
+
+#: ../../build/doc/quickstart/mapslicer_quickstart.rst:121
+msgid ""
+"See `gdal2tiles.py --help` and `mb-util --help` for additional information "
+"on running these tools."
+msgstr ""
+"これらのツールに関する追加情報は `gdal2tiles.py --help` と `mb-util --help` "
+"で表示されるヘルプメッセージを見てください。"

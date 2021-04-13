@@ -80,7 +80,7 @@ msgstr "一般的なフォーマット(SLD、QGISなど)をサポートしてい
 msgid ""
 "Graphical User Interface (GUI) including support for reordering of rules, a "
 "mapview, pickers for colors and symbols and a ton more"
-msgstr "ルールの並べ替えサポート、Mapview、色とシンボルのピッカーなどの、グラフィカル・ユーザー・インタフェース(GUI)"
+msgstr "ルールの並べ替えサポート、Mapview、色とシンボルのピッカーなどの、グラフィカル・ユーザ・インタフェース(GUI)"
 
 #: ../../build/doc/overview/geostyler_overview.rst:46
 msgid "Has a GUI - but you are not required to use it"

@@ -6,6 +6,7 @@
 # Translators:
 # Luca Delucchi <lucadeluge@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Marco Minghini <marco.minghini86@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-15 14:20-0600\n"
 "PO-Revision-Date: 2017-09-20 16:07+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Marco Minghini <marco.minghini86@gmail.com>, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -122,15 +123,15 @@ msgstr "Open Archives Initiatives (OAI-PMH)"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:49
 msgid "OpenSearch-Geo / INSPIRE Atom"
-msgstr ""
+msgstr "OpenSearch-Geo / INSPIRE Atom"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:50
 msgid "Client for OGC-WMS/WMTS/WFS"
-msgstr ""
+msgstr "Client per OGC-WMS/WMTS/WFS"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:51
 msgid "Metadata standards:"
-msgstr "Standards dei matadati:"
+msgstr "Standard dei matadati:"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:53
 msgid "ISO19115/ISO19119/ISO19139/ISO19110 and ISO Profiles"

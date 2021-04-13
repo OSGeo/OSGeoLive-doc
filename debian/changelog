@@ -1,3 +1,9 @@
+osgeolive-docs (14.0.0) focal; urgency=medium
+
+  * Preparing 14.0 final release.
+
+ -- Angelos Tzotsos <gcpp.kalxas@gmail.com>  Thu, 04 Mar 2021 12:00:00 +0200
+
 osgeolive-docs (14.0~beta3) focal; urgency=medium
 
   * Preparing 14.0 beta3 release.

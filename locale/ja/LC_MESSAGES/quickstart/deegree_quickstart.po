@@ -102,7 +102,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:54
 msgid "Press start on the *deegree-inspire-workspace*."
-msgstr " *deegree-inspire-workspace* の開始を押してください。"
+msgstr "*deegree-inspire-workspace* の開始を押してください。"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:56
 msgid ""

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-15 14:20-0600\n"
+"POT-Creation-Date: 2021-03-01 08:19-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -24,8 +24,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:9
-msgid "OSGeoLive Quickstart"
-msgstr "OSGeoLive Quickstart"
+msgid "Getting started with OSGeoLive"
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:11
 msgid "This Quick Start describes how to start OSGeoLive from a DVD or USB."

@@ -44,7 +44,7 @@ msgstr ""
 " OSM Webサイト <https://learnosm.org>`_ "
 "は、OpenStreetMapへの貢献、OpenStreetMapの使用、およびOpenStreetMapデータの使用を開始するための、理解しやすいステップバイステップのガイドを提供します。上記のリンクにある『Learn"
 " "
-"OSM』ガイドでは、OpenStreetMapのWebサイトの操作方法、マップの表示と印刷方法、ユーザアカウントへのサインアップ方法を順を追って説明しています。独自のユーザー名とパスワードを入力すると、地図に最初のポイントを追加したり、街路調査の方法を学習したり、航空画像を操作したりできるようになります。"
+"OSM』ガイドでは、OpenStreetMapのWebサイトの操作方法、マップの表示と印刷方法、ユーザアカウントへのサインアップ方法を順を追って説明しています。独自のユーザ名とパスワードを入力すると、地図に最初のポイントを追加したり、街路調査の方法を学習したり、航空画像を操作したりできるようになります。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:36
 msgid ""
@@ -101,7 +101,7 @@ msgstr "ホームページ: https://josm.openstreetmap.de"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:67
 msgid "User guide: https://wiki.openstreetmap.org/wiki/JOSM/Guide"
-msgstr "ユーザーガイド: https://wiki.openstreetmap.org/wiki/JOSM/Guide"
+msgstr "ユーザガイド: https://wiki.openstreetmap.org/wiki/JOSM/Guide"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:68
 msgid "Tutorial: https://learnosm.org/en/josm/start-josm/"
@@ -120,7 +120,7 @@ msgid ""
 "OpenStreetMap data can be loaded in **QGIS** as vector layer, as a core "
 "functionality or through plugins like QuickOSM."
 msgstr ""
-"OpenStreetMapデータは、ベクトルレイヤとして、コア機能として、またはQuickOSMのようなプラグインを通じて、 **QGIS** "
+"OpenStreetMapデータは、ベクタレイヤとして、コア機能として、またはQuickOSMのようなプラグインを通じて、 **QGIS** "
 "にロードすることができます。"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:77

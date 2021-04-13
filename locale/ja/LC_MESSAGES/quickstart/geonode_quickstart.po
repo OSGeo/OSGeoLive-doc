@@ -55,7 +55,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:46
 msgid "Sign in as a registered user"
-msgstr "登録ユーザーとしてサインイン"
+msgstr "登録ユーザとしてサインイン"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:48
 msgid ""
@@ -65,7 +65,7 @@ msgid ""
 "layers. In order to create a map and add layers to it, you have to sign in "
 "first."
 msgstr ""
-"上記のインタフェースから、既存の空間レイヤとマップをビューおよび変更したり、他のGeoNodeユーザに関する情報を検索したりできます。しかし、ログインしていないと、パブリックレイヤーへの読み取り専用アクセスに制限されます。マップを作成してレイヤを追加するには、最初にサインインする必要があります。"
+"上記のインタフェースから、既存の空間レイヤとマップをビューおよび変更したり、他のGeoNodeユーザに関する情報を検索したりできます。しかし、ログインしていないと、パブリックレイヤへの読み取り専用アクセスに制限されます。マップを作成してレイヤを追加するには、最初にサインインする必要があります。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:50
 msgid ""
@@ -74,7 +74,7 @@ msgid ""
 "fill in the user credentials. Try \"admin\" and \"admin\" for the Username "
 "and Password."
 msgstr ""
-"Webインタフェースの任意のページから、ページの右上に[*サインイン*]リンクが表示されます。そのリンクをクリックし、表示されるダイアログでユーザー認証情報を入力します。ユーザー名とパスワードに"
+"Webインタフェースの任意のページから、ページの右上に[*サインイン*]リンクが表示されます。そのリンクをクリックし、表示されるダイアログでユーザ認証情報を入力します。ユーザ名とパスワードに"
 " \"admin\" と \"admin\" を使用してみてください。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:57
@@ -86,14 +86,14 @@ msgid ""
 "Layers are a published resource representing a raster or vector spatial data"
 " source. Layers also can be associated with metadata, ratings, and comments."
 msgstr ""
-"レイヤーは、ラスタまたはベクタ空間データソースを表すパブリッシュされたリソースです。レイヤーはメタデータ、評価、コメントに関連付けることもできます。"
+"レイヤは、ラスタまたはベクタ空間データソースを表すパブリッシュされたリソースです。レイヤはメタデータ、評価、コメントに関連付けることもできます。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:61
 msgid ""
 "To see existing layers, from the navigation bar on the top of any page, "
 "select *Data* menu and click on the *Layers* link."
 msgstr ""
-"既存のレイヤーを表示するには、ページの最上部にあるナビゲーションバーから *[データ]* メニューを選択し、 *[レイヤー]* リンクをクリックします。"
+"既存のレイヤを表示するには、ページの最上部にあるナビゲーションバーから *[データ]* メニューを選択し、 *[レイヤ]* リンクをクリックします。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:66
 msgid "The result will look like this:"
@@ -158,7 +158,7 @@ msgstr ""
 "GeoNodeには、レイヤのビュー、編集、管理が可能なユーザを制限する機能があります。ページの右側には *Permission* "
 "セクションが表示され、レイヤのアクセスを制限できます。*[Who can view and download this data]* の下で、 "
 "*[Any registered user]* を選択します。これにより、匿名のビューアクセスが無効になります。同じ領域で、 *[Who can "
-"edit this data]* の下からユーザー名を選択します。これにより、レイヤのデータを編集できるのはあなただけになります。"
+"edit this data]* の下からユーザ名を選択します。これにより、レイヤのデータを編集できるのはあなただけになります。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:107
 msgid "To upload data, click the *Upload* button at the bottom."
@@ -215,7 +215,7 @@ msgid ""
 "In this interface there is a toolbar, layer list, and map window. The map "
 "window contains the OpenStreetMap layer by default."
 msgstr ""
-"このインタフェースには、ツールバー、レイヤ一覧、マップウィンドウがあります。マップウィンドウには、既定でOpenStreetMapレイヤが表示されます。"
+"このインタフェースには、ツールバー、レイヤ一覧、マップウィンドウがあります。マップウィンドウには、デフォルトでOpenStreetMapレイヤが表示されます。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:147
 msgid "Click on the *New Layers* button and select *Add Layers*."
@@ -225,19 +225,19 @@ msgstr "*New Layers* ボタンをクリックし、 *Add Layers* を選択しま
 msgid ""
 "Now you should be able to see all the available layers. In this case, this "
 "should include the ones you've added before."
-msgstr "これで、利用可能なすべてのレイヤーが表示されます。この場合、これには前に追加したものが含まれます。"
+msgstr "これで、利用可能なすべてのレイヤが表示されます。この場合、これには前に追加したものが含まれます。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:155
 msgid ""
 "Select some layers by clicking the first entry and Ctrl-clicking the rest. "
 "Click *Add Layers* to add them all to the map."
 msgstr ""
-"最初の項目をクリックし、Ctrlキーを押しながら残りの項目をクリックして、いくつかのレイヤーを選択します。 *Add Layers* "
+"最初の項目をクリックし、Ctrlキーを押しながら残りの項目をクリックして、いくつかのレイヤを選択します。 *Add Layers* "
 "をクリックして、すべてのレイヤをマップに追加します。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:160
 msgid "The layers will be added to the map."
-msgstr "レイヤーがマップに追加されます。"
+msgstr "レイヤがマップに追加されます。"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:162
 msgid ""

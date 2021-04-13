@@ -38,7 +38,7 @@ msgid ""
 "raster data."
 msgstr ""
 "Natural "
-"Earthは、1:10、1:50、および1:110百万のスケールで小規模な世界、地域、および国のマップを作成するための既製のソリューションを地図作成者に提供します。政治(行政)フィーチャと物理(自然)フィーチャの両方が含まれ、ベクトルフィーチャは含まれるラスターデータと完全に位置合わせされます。"
+"Earthは、1:10、1:50、および1:110百万のスケールで小規模な世界、地域、および国のマップを作成するための既製のソリューションを地図作成者に提供します。政治(行政)フィーチャと物理(自然)フィーチャの両方が含まれ、ベクタフィーチャは含まれるラスタデータと完全に位置合わせされます。"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:22
 msgid ""
@@ -55,7 +55,7 @@ msgstr "主な機能"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:33
 msgid "Vector features include name and other attributes"
-msgstr "ベクトルフィーチャには、名前とその他の属性が含まれます。"
+msgstr "ベクタフィーチャには、名前とその他の属性が含まれます。"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:34
 msgid ""
@@ -69,7 +69,7 @@ msgid ""
 "contain enough data  points for smooth bending in conic projections, but not"
 " so many that computer processing speed suffers."
 msgstr ""
-"投影に適したベクトルは、経度180度で正確に一致します。直線には、円錐図法で滑らかに曲げるのに十分なデータ点が含まれていますが、コンピュータ処理速度が低下するほど多くは含まれていません。"
+"投影に適したベクタは、経度180度で正確に一致します。直線には、円錐図法で滑らかに曲げるのに十分なデータ点が含まれていますが、コンピュータ処理速度が低下するほど多くは含まれていません。"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:36
 msgid ""

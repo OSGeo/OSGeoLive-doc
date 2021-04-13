@@ -59,7 +59,7 @@ msgstr "ラスタ: WMS/WMTS, OpenStreetMap, Stamen, Bing, その他 XYZ ソー�
 #: ../../build/doc/overview/openlayers_overview.rst:40
 msgid ""
 "Vector: WFS, KML, GeoJSON, TopoJSON, GPX, GML, and MapBox vector tiles."
-msgstr "ベクタ: WFS, KML, GeoJSON, TopoJSON, GPX, GML, MapBox ベクトルタイル"
+msgstr "ベクタ: WFS, KML, GeoJSON, TopoJSON, GPX, GML, MapBox ベクタタイル"
 
 #: ../../build/doc/overview/openlayers_overview.rst:41
 msgid "Heatmaps."

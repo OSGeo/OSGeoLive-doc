@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# Hiroshi Miura <miurahr@northside.tokyo>, 2021
 # Ko Nagase <nagase@georepublic.co.jp>, 2021
 # 
 #, fuzzy
@@ -11,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-03-01 08:19-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -22,8 +23,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:10
-msgid "OSGeoLive Internationalisation Quickstart"
-msgstr "OSGeoLive 国際化 クイックスタート"
+msgid "Change language or keyboard type"
+msgstr "キーボードや言語を変更する"
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:13
 msgid "Switching Language"
@@ -39,7 +40,7 @@ msgstr "ログアウトします"
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:18
 msgid "Select user=\"user\", password=\"user\""
-msgstr "user=\"user\", password=\"user\" でログインします"
+msgstr "user= \"user\" , password= \"user\" でログインします"
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:19
 msgid "Select another language from the top panel menu."

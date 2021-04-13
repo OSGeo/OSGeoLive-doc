@@ -105,7 +105,7 @@ msgstr "柔軟性 : カスタムデータへの接続、フォーマットおよ
 #: ../../build/doc/overview/pygeoapi_overview.rst:45
 msgid ""
 "supports any Python web framework (included are Flask [default], Starlette)"
-msgstr "あらゆる (Flask [既定], Starletteをふくむ) Python webフレームワークをサポート"
+msgstr "あらゆる (Flask [デフォルト], Starletteをふくむ) Python webフレームワークをサポート"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:49
 msgid "Implemented Standards"

@@ -1,0 +1,638 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Andreas Schild <andreas.schild@bfw.gv.at>, 2018
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
+# Vicky Vergara <vicky@georepublic.de>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2017-09-20 16:03+0000\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:28
+msgid "GeoServer Quickstart"
+msgstr "GeoServer Quickstart"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:30
+msgid ""
+"GeoServer is a java application for serving maps (and data) for other "
+"clients (such as web browsers) to draw. GeoServer comes with a browser-based"
+" management interface and connects to multiple data sources at the back end."
+msgstr ""
+"GeoServer ist eine Java-Anwendung zur Veröffentlichung von Karten (und "
+"Daten) für andere Clients (z. B. Webbrowser). GeoServer verfügt über eine "
+"browserbasierte Administration und verbindet so im Hintergrund viele "
+"Datenquellen."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:32
+msgid "This Quick Start describes how to:"
+msgstr "Dieser Quickstart beschreibt, wie:"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:34
+msgid "add a vector and raster data source to GeoServer"
+msgstr "Vektor und Rasterdaten einer GeoServer-Instanz hinzufügt"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:35
+msgid "apply color to map features using styling"
+msgstr ""
+"Farben für einen Stil anwendet, der sich auf die Darstellung von "
+"Kartenobjekten auswirkt,"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:36
+msgid "test the layers in a simple web map"
+msgstr "veröffentlichte Daten in einer einfachen Web-basierten Karte testet,"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:37
+msgid "learn about clients that can display your maps"
+msgstr ""
+"Karten in anderen Applikationen darstellt und welche Applikationen hierfür "
+"verwendet werden können und"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:38
+msgid "add a layer from a NetCDF file"
+msgstr "einen NetCDF Layer hinzufügt"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:44
+msgid "Start Geoserver"
+msgstr "Geoserver starten"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:46
+msgid ""
+"From the Start menu, select |osgeolive-appmenupath-geoserver|. The "
+"application will take a few moments to start up and will open a web page at "
+"http://localhost:8082/geoserver/web"
+msgstr ""
+"Wählen Sie aus dem Startmenü |osgeolive-appmenupath-geoserver|.  Die "
+"Applikation benötigt einen kurzen Augenblick um zu starten und öffnet eine "
+"Webseite unter http://localhost:8082/geoserver/web"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:51
+msgid ""
+"Log in using the username **admin** and password **geoserver**. You will now"
+" see the *admin page*."
+msgstr ""
+"Melden Sie sich mit dem Benutzernamen **admin** und dem Kennwort "
+"**geoserver** an. Sie sehen nun die *admin-Seite*."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:56
+msgid ""
+"Select the **Layer Preview** link at the top of the *Data* section in the "
+"left hand menu to see a preview of the layers that are loaded on the server."
+msgstr ""
+"Über den Link zur Layer-Vorschau (**Layer Preview**) innerhalb des *Data* "
+"Bereiches im linken Menübaum ermöglicht es Ihnen, die Layer des GeoServers "
+"anzusehen."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:61
+msgid ""
+"Scroll to the bottom of the page and click on the **OpenLayers** link in the"
+" **tiger-ny** row. This will open a new window with a preview of some of the"
+" sample data."
+msgstr ""
+"Scrollen Sie zum unteren Rand der Seite und klicken Sie auf den Link "
+"**OpenLayers** in der Zeile **tiger-ny**. Dadurch wird ein neues Fenster mit"
+" einer Vorschau einiger Beispieldaten geöffnet."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:66
+msgid "You can zoom in to the map in three ways:"
+msgstr ""
+"Sie haben in diesem Kartenfenster drei Möglichkeiten, Kartenausschnitte "
+"einzustellen:"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:68
+msgid ""
+"by clicking on the zoom bar on the left, the higher you click on it the more"
+" zoomed in you will see."
+msgstr ""
+"im linken Bereich über die Navigationsleiste können Sie mit einem Klick auf "
+"`+` den Ausschnitt verkleinern und somit mehr Details sehen. Mit einem Klick"
+" unterhalb des Schiebereglers können Sie den Ausschnitt mit `-` vergrößern "
+"um weniger Details zu sehen und somit eine Übersicht zu erhalten. Sie können"
+" auch den Schieberegler selbst nutzen, um den Detalierungsgrad festzulegen."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:70
+msgid ""
+"by using the mouse scroll wheel (if you have one), scrolling up will zoom in"
+" and down will zoom out."
+msgstr ""
+"Über das Scrollrad der Maus, sofern sie eine Scrollmaus nutzen, können Sie "
+"beim Drehen nach oben hineinzoomen und beim Drehen nach unten herauszoomen."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:72
+msgid ""
+"by dragging a box on the map while holding down the :kbd:`shift key` - this "
+"will zoom in to the box selected (or as near as will fit in the screen)."
+msgstr ""
+"Bei gedrückter :kbd:`Shift` Taste können Sie mit der Maus ein Rechteck "
+"aufziehen, um einen Bereich anzeigen zu lassen."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:74
+msgid ""
+"Experiment with this view and look at some of the other previews.  Once you "
+"are comfortable viewing existing data you can move on to adding some new "
+"data."
+msgstr ""
+"Experimentieren Sie mit dieser Vorschau und testen Sie auch die anderen "
+"Daten. Sobald Sie einen Eindruck gewonnen haben, wie es sich anfühlt, Daten "
+"anzusehen, können Sie beginnen, selbst welche einzubinden und zu "
+"veröffentlichen."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:77
+msgid "Loading data"
+msgstr "Laden von Daten"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:82
+msgid ""
+"You will not be able to carry out the following steps if you are running "
+"with a **read only** file system (such as the DVD). You will either need to "
+"run in a Virtual Machine, or from a USB, or install OSGeoLive (or just "
+"GeoServer) onto your hard drive."
+msgstr ""
+"Sie werden nicht in der Lage sei, die folgenden Schritte durchzuführen, wenn"
+"  Sie ein **read only** Dateisystem nutzen, so bei der DVD. Für diesen Fall "
+"sollten Sie entweder |GS| von der DVD auf das Dateisystem installieren oder "
+"ein USB Stick basiertes System nutzen."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:87
+msgid ""
+"In this example we are going to use the :doc:`Natural Earth data set "
+"<../overview/naturalearth_overview>` that is included on OSGeoLive "
+"(:file:`/usr/local/share/data/natural_earth2/`)."
+msgstr ""
+"In diesem Beispiel werden wir die :doc:`Natural Earth Datensätze "
+"<../overview/naturalearth_overview>` nutzen, die in OSGeoLive mit enthalten "
+"sind (:file:`/usr/local/share/data/natural_earth2/`)."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:90
+msgid ""
+"We need to create a Store for our data. From the |GS| admin page go to "
+":guilabel:`Stores`."
+msgstr ""
+"Es muss ein **Store** für unsere Daten angelegt werden. Von der |GS| "
+"Administrationsseite gehen Sie zu :guilabel:`Stores`."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:91
+msgid "Click on :guilabel:`Add new Store`. You will see this page:"
+msgstr ""
+"Klicken Sie auf :guilabel:`Add new Store`. Folgende Ansicht werden Sie vor "
+"sich haben:"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:98
+msgid ""
+"Select the :guilabel:`Directory of spatial files`. You will see the "
+"following:"
+msgstr ""
+"Wählen Sie :guilabel:`Directory of spatial files` und sie werden folgendes "
+"sehen:"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:105
+msgid ""
+"Type in a name for the Data Store (for example, *Natural Earth*) and fill in"
+" the URL to the data set - in this case "
+":file:`/usr/local/share/data/natural_earth2/`. You can use the browse button"
+" to find the directory if your data is somewhere else."
+msgstr ""
+"Geben Sie einen Namen für den Store an - hier wurde *Natural Earth* "
+"eingegeben - sowie eine URL für den Datensatz, in unserem Fall "
+":file:`/usr/local/share/data/natural_earth2/`. Sie können die "
+":guilabel:`Browse` Schaltfläche nutzen, um ein Verzeichnis auf dem "
+"Dateisystem zu finden, falls sonstige Daten eingebunden werden sollen."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:106
+msgid "Press :guilabel:`save`."
+msgstr "Schließen Sie den Vorgang mit :guilabel:`Save` ab."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:113
+msgid ""
+"Press :guilabel:`publish` next to one of the layers to finish adding the "
+"data. This will take you to the *Layers* page:"
+msgstr ""
+"Klicken Sie auf :guilabel:`Publish` auf einen der Einträge der nächsten "
+"Seite, um das veröffentlichen der Layer abzuschließen. Dies wird Sie zur "
+"*Layers*-Seite führen:"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:120
+msgid ""
+"As you scroll down the page you will see that |GS| has filled in many of the"
+" fields for you. When you reach :guilabel:`Coordinate Reference System` you "
+"will notice that under *Native SRS* it says UNKNOWN you will need to fill in"
+" the next box (*declared SRS*) to make sure |GS| knows where the data is."
+msgstr ""
+"Wenn Sie auf der Seite nach unten scrollen, sehen Sie, dass | GS| für Sie "
+"viele Felder für Sie ausgefüllt hat. Wenn Sie :guilabel:'Coordinate "
+"Reference System' erreichen, werden Sie feststellen, dass unter *Native SRS*"
+" UNKNOWN angegeben ist. Sie müssen das nächste Feld (*deklarierte SRS*) "
+"ausfüllen, um sicherzustellen, dass | GS| weiß, wo sich die Daten befinden."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:122
+msgid ""
+"You can type epsg:4326 in the box, or go to `http://prj2epsg.org/search "
+"<http://prj2epsg.org/search>`_ and paste in the string you see if you click "
+"on the link next to \"UNKNOWN\"."
+msgstr ""
+"Sie können epsg:4326 in das Feld eingeben oder zu "
+"'http://prj2epsg.org/search '_ gehen <http: prj2epsg.org/search=\"\">und in "
+"die Zeichenfolge einfügen, die Sie sehen, wenn Sie auf den Link neben "
+"\"UNKNOWN\" klicken.</http:>"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:123
+msgid ""
+"Click on :guilabel:`Compute from data` and :guilabel:`Compute from native "
+"bounds` to fill in the Bounding Boxes."
+msgstr ""
+"Klicken Sie auf :guilabel:'Compute from data' und :guilabel:'Compute from "
+"native bounds', um die BoundingBox zu füllen."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:124
+msgid "Finally hit :guilabel:`save` and you have published your first layer."
+msgstr ""
+"Klicken Sie abschließend auf :guilabel:'save'. Sie haben damit Ihre erste "
+"Ebene veröffentlicht."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:127
+msgid ""
+"Don't worry if the layer preview doesn't look very good as it is using the "
+"default style. In the next section we will look at producing a nicer style."
+msgstr ""
+"Sollten Sie sich den Layer über die Voransicht ansehen und nicht mit der "
+"Darstellung der Daten zufrieden sein, liegt dies daran, dass ein Standard-"
+"Stil verwendet worden ist. Wie der Stil eines Layers angepasst wird, wird im"
+" folgenden Kapitel beschrieben."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:129
+msgid ""
+"You can follow the same step with the other layers in the directory by using"
+" the :guilabel:`Add a new resource` button on the layers page. Just select "
+"the natural earth store from the drop down box to get back to the store's "
+"page."
+msgstr ""
+"Sie können die Prozedur mit weiteren Layern vollziehen, um auch diese zu "
+"veröffentlichen. Dabei haben die Möglichkeit über die Layer Seite eine neue "
+"Ressource mit :guilabel:`Add a new resource` hinzuzufügen. Auf der folgenden"
+" Seite wählen Sie den bereits angelegten *Natural Earth* Store in der "
+"Auswahlliste aus, um diesem die neue Ressource zuzuordnen."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:132
+msgid "Styling data"
+msgstr "Anpassen des Stils"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:134
+msgid ""
+"Styling a data set into a map layer |GS| uses an OGC standard called |SLD|. "
+"These are represented as XML files which describe the rules that are used to"
+" apply various symbolizers to the data."
+msgstr ""
+"Styling eines Datensatzes in einen Karten-Layer | FS] verwendet einen OGC-"
+"Standard namens | SLD|. Diese werden als XML-Dateien definiert, die die "
+"Regeln beschreiben, die verwendet werden, um verschiedene Stile auf die "
+"Daten anzuwenden."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:136
+msgid ""
+"To get started, lets style the Land and Ocean datasets. You can create SLD "
+"files using a simple text editor, but sometimes a graphical editor is "
+"better. There are several options here but |UG| allows you to open the "
+"shapefiles directly and apply simple styles using a GUI. It also provides a "
+"simple editor to modify the XML if I need to."
+msgstr ""
+"Um zu beginnen, können Sie die Land- und Ocean-Datasets formatieren. Sie "
+"können SLD-Dateien mit einem einfachen Texteditor erstellen, aber manchmal "
+"ist ein grafischer Editor besser. Es gibt mehrere Möglichkeiten hier, aber "
+"|UG| ermöglicht es Ihnen, die Shapefiles direkt zu öffnen und einfache Stile"
+" mithilfe einer GUI anzuwenden. Es bietet auch einen einfachen Editor, um "
+"den XML-Code zu ändern, wenn dies erforderlich ist."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:140
+msgid "Using |UG| to create simple styles"
+msgstr "|UG| verwenden, um einen einfachen Stil zu erzeugen"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:144
+msgid ""
+"For more details on how to use |UG| see the :doc:`uDig Quickstart "
+"<../quickstart/udig_quickstart>`"
+msgstr ""
+"Weitere Informationen, wie uDig zu verwenden ist, können Sie unter "
+":doc:`uDig Quickstart <../quickstart/udig_quickstart>` finden. "
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:146
+msgid ""
+"Open |UG| and add the shapefiles (using the add data button in the top left "
+"hand corner)."
+msgstr ""
+"Öffnen Sie |UG| und fügen Sie die Shape-Datei hinzu (mit der Schaltfläche "
+"Daten hinzufügen in der oberen linken Ecke)."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:147
+msgid ""
+"Drag the ne_10m_land and ne_10m_ocean tables into the map window. |UG| "
+"automatically applies a style (so you can see the data)."
+msgstr ""
+"Sie können die Shapefiles ne_10m_land und ne_10m_ocean per Drag&Drop "
+"hinzufügen, |UG| setzt den Stil automatisch, um die Daten anzeigen zu "
+"können:"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:154
+msgid ""
+"In the :ref:`Layer list <Layer_list>` select the style button (it looks like"
+" an artist's palette)."
+msgstr ""
+"Wählen Sie in der Liste :ref:`Layer <Layer_list>` den Stil-Button aus "
+"(dieser sieht aus wie die Palette eines Künstlers)."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:162
+msgid "This will open the :ref:`Style Pane <Style_Pane>`."
+msgstr "Dadurch wird der Bereich :ref:`Style <Style_Pane>` geöffnet."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:163
+msgid ""
+"In the simple window we can easily select a nice blue for the oceans by "
+"clicking on the colored box on the fill tab and choosing from the color "
+"picker it produces. We can also increase the opacity of the fill to 100% to "
+"make the color look better. Pick the same blue for the border color so it "
+"will match."
+msgstr ""
+"Im einfachen Fenster können wir ganz einfach ein schönes Blau für die Ozeane"
+" auswählen, indem wir auf das farbige Feld auf der Füllregisterkarte klicken"
+" und aus der Farbauswahl auswählen, die es erzeugt. Wir können auch die "
+"Deckkraft der Füllung auf 100% erhöhen, um die Farbe besser aussehen zu "
+"lassen. Wählen Sie dasselbe Blau für die Umrandungsfarbe, damit es "
+"übereinstimmt."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:171
+msgid "Click ``OK`` and |UG| will display the changes."
+msgstr "Klicken Sie auf ''OK'' und |UG| zeigt die Änderungen an."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:178
+msgid ""
+"Repeat the steps above to change the color of the land layer. You can use "
+"the ``define custom colors`` section to create your preferred color."
+msgstr ""
+"Wiederholen Sie die obigen Schritte, um die Farben der Landebene zu ändern. "
+"Sie können den Abschnitt ''define custom colors'' verwenden, um Ihre "
+"bevorzugte Farbe auszuwählen."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:185
+msgid "This gives a nice looking basic world map."
+msgstr "Dies ergibt eine schön aussehende Basiskarte."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:193
+msgid "Adding the style to GeoServer"
+msgstr "Stile in |GS| hinzufügen"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:195
+msgid "Now we need to transfer these styles to |GS|."
+msgstr "Jetzt müssen wir diese Stile auf nach |GS| übertragen."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:197
+msgid ""
+"On the style window there is an export button which allows you to save the "
+"SLD file that defines your style."
+msgstr ""
+"Im Stilfenster befindet sich eine Exportschaltfläche, mit der Sie die SLD-"
+"Datei speichern können, die Ihren Stil definiert."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:198
+msgid ""
+"Once saved, you can go to the |GS| admin page again and select ``Styles`` "
+"(at the bottom of the ``Data`` section)."
+msgstr ""
+"Nach dem Speichern können Sie zur | GS| Admin-Seite zurückkehren und "
+"anschließend ''Styles'' (am unteren Rand des Abschnitts ''Daten'') "
+"auswählen."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:199
+msgid ""
+"Select the ``Add New Style`` link. At the bottom of that page is a file "
+"upload box and a browse button."
+msgstr ""
+"Wählen Sie den Link ``Add New Style`` (Neuen Stil hinzufügen)'. Am unteren "
+"Rand dieser Seite befindet sich ein Datei-Upload-Feld und eine Schaltfläche "
+"zum Durchsuchen."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:200
+msgid "Clicking browse to find the files you just saved."
+msgstr ""
+"Klicken Sie auf Durchsuchen, um die Dateien zu finden, die Sie gerade "
+"gespeichert haben."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:201
+msgid ""
+"Click the upload link (next to the browse button) and a copy of the file "
+"appears in the editor."
+msgstr ""
+"Klicken Sie auf den Upload-Link (neben der Schaltfläche \"Durchsuchen\") und"
+" eine Kopie der Datei wird im Editor angezeigt."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:202
+msgid ""
+"If you click on the validate button the highlighted lines will give you an "
+"error but you can safely ignore the error (or delete those lines as they "
+"don't do anything)."
+msgstr ""
+"Wenn Sie auf die Schaltfläche \"Validieren\" klicken, erhalten Sie in den "
+"hervorgehobenen Zeilen einen Fehler, aber Sie können den Fehler sicher "
+"ignorieren (oder diese Zeilen löschen, da sie keine Auswirkung haben)."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:203
+msgid "Press the :guilabel:`Submit` at the bottom of the page."
+msgstr "Drücken Sie das :guilabel:'Submit' am unteren Rand der Seite."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:212
+msgid "Adding the style to the layer"
+msgstr "Hinzufügen des Stils zum Layer"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:214
+msgid ""
+"Click on the :guilabel:`Layers` link in the Menu on the left of the |GS| "
+"window."
+msgstr ""
+"Klicken Sie auf den Link :guilabel:'Layers' im Menü auf der linken Seite des"
+" | GS| Fenster."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:215
+msgid ""
+"Click on the layer (e.g. *ne_10m_land*), then select the "
+":guilabel:`Publishing` tab."
+msgstr ""
+"Klicken Sie auf die Ebene (z.B. *ne_10m_land*), und wählen Sie dann die "
+"Registerkarte :guilabel:'Publishing'."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:216
+msgid ""
+"Change the :guilabel:`Default Style` box to the name of the style you "
+"uploaded in the previous section."
+msgstr ""
+"Ändern Sie das Auswahlfeld :guilabel:'Default Style' in den Namen des Stils,"
+" den Sie im vorherigen Abschnitt hochgeladen haben."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:217
+msgid ""
+"Now click :guilabel:`Save` and go to the Layer Preview page to check that it"
+" looks good."
+msgstr ""
+"Klicken Sie nun auf :guilabel:'Save' und gehen Sie zur Seite Layer-Vorschau,"
+" um zu überprüfen, ob die Ansicht gut aussieht."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:220
+msgid ""
+"There are example style files for all of the example Natural Earth layers in"
+" :file:`/usr/local/share/geoserver`."
+msgstr ""
+"Sie können für alle Natural Earth Datensätze beispielhafte Stil-Definitionen"
+" unter :file:`/usr/local/share/geoserver` finden. "
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:244
+msgid "Clients for WMS layers"
+msgstr "Clients für WMS Layer"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:246
+msgid ""
+"The |WMS| layers you are serving from |GS| can be used with a variety of "
+"clients on this OSGeoLive distribution, including:"
+msgstr ""
+"Die | WMS| Layer, die | GS| bereitstellt, können von einer Vielzahl von "
+"Clients dieser OSGeoLive-Distribution verwendet werden, einschließlich:"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:248
+msgid ":doc:`uDig <../overview/udig_overview>`"
+msgstr ":doc:`uDig <../overview/udig_overview>`"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:249
+msgid ":doc:`OpenLayers <../overview/openlayers_overview>`"
+msgstr ":doc:`OpenLayers <../overview/openlayers_overview>`"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:250
+msgid ":doc:`MapBender <../overview/mapbender_overview>`"
+msgstr ":doc:`MapBender <../overview/mapbender_overview>`"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:253
+msgid "Add a layer from a NetCDF file"
+msgstr "Hinzufügen einer Ebene aus einer NetCDF-Datei"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:255
+msgid ""
+"The GeoServer NetCDF plugin allows the publication of rasters from NetCDF "
+"files."
+msgstr ""
+"Das NetCDF Plugin von GeoServer NetCDF ermöglicht die Einbindung von "
+"Rasterlayern aus NetCDF Files."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:258
+msgid "Configure a NetCDF store"
+msgstr "Einen NetCDF Speicher anlegen"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:260
+msgid "After running \"Start GeoServer\""
+msgstr "Nach dem Ausführen von \"GeoServer starten\""
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:261
+msgid "Login as the administrator."
+msgstr "Melden Sie sich als Administrator an."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:262
+msgid "Click on :guilabel:`Add stores` then :guilabel:`NetCDF`."
+msgstr "Klicken Sie auf :guilabel:'Add stores' then :guilabel:'NetCDF'."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:263
+msgid ""
+"Enter a value for Data Source Name (this example uses \"netcdf\") and a "
+"NetCDF URL. You can use this sample file::"
+msgstr ""
+"Geben Sie einen Wert für den Datenquellennamen (in diesem Beispiel verwenden"
+" Sie \"netcdf\") und eine NetCDF-URL ein. Sie können diese Beispieldatei "
+"verwenden:"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:267
+msgid "Press \"Save\", \"Publish\" the \"O3\" layer."
+msgstr "Drücken Sie \"Speichern\", \"Veröffentlichen\" der Ebene \"O3\"."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:268
+msgid "Scroll down to the bottom of the \"Data\" tab and press \"Save\" again."
+msgstr ""
+"Scrollen Sie nach unten auf der Registerkarte \"Daten\" und drücken Sie "
+"erneut \"Speichern\"."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:276
+msgid "Preview the NetCDF layer"
+msgstr "Vorschau des NetCDF Layer"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:278
+msgid "Select \"Layer Preview\" from the menu on the left"
+msgstr "Wählen Sie \"Layer Preview\" aus dem Menü auf der linken Seite"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:279
+msgid ""
+"Scroll down to find the \"cite:O3\" entry, and click on the \"OpenLayers\" "
+"link to show a preview of the layer."
+msgstr ""
+"Scrollen Sie nach unten, um den Eintrag \"cite:O3\" zu finden, und klicken "
+"Sie auf den Link \"OpenLayers\", um eine Vorschau des Layers anzuzeigen."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:280
+msgid ""
+"Clicking on points will cause the value of \"Ozone_concentration\" to be "
+"shown in a table at the bottom of the map."
+msgstr ""
+"Wenn Sie auf Punkte klicken, wird der Wert \"Ozone_concentration\" in einer "
+"Tabelle am unteren Rand der Karte angezeigt."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:288
+msgid ""
+"This GeoServer instance has been configured with the ``NETCDF_DATA_DIR`` "
+"Java system property to allow the publication of NetCDF files in read-only "
+"directories."
+msgstr ""
+"Diese GeoServer-Instanz wurde mit der Java-Systemeigenschaft "
+"''NETCDF_DATA_DIR'' konfiguriert, um die Veröffentlichung von NetCDF-Dateien"
+" in schreibgeschützten Verzeichnissen zu ermöglichen."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:291
+msgid "What next?"
+msgstr "Was kommt als Nächstes?"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:293
+msgid ""
+"This is only the first step on the road to using GeoServer. There is a lot "
+"more functionality you can try."
+msgstr ""
+"Dies ist nur der erste Schritt auf dem Weg zur Verwendung von GeoServer. Es "
+"gibt viel mehr Funktionalität, die Sie ausprobieren können."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:295
+msgid "GeoServer Project home - http://geoserver.org/"
+msgstr "GeoServer Projektseite - http://geoserver.org/"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:297
+msgid "GeoServer User Manual - https://docs.geoserver.org/latest/en/user/"
+msgstr ""
+"GeoServer Benutzerhandbuch - https://docs.geoserver.org/latest/en/user/"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:299
+msgid ""
+"GeoServer Tutorials - "
+"https://docs.geoserver.org/latest/en/user/tutorials/index.html"
+msgstr ""
+"GeoServer Tutorials - "
+"https://docs.geoserver.org/latest/en/user/tutorials/index.html"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:301
+msgid ""
+"GeoServer Styling Workshop - "
+"https://docs.geoserver.org/latest/en/user/styling/workshop/index.html"
+msgstr ""
+"GeoServer Styling Workshop - "
+"https://docs.geoserver.org/latest/en/user/styling/workshop/index.html"

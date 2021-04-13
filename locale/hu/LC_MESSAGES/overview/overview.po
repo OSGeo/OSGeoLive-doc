@@ -62,6 +62,8 @@ msgid ""
 "|OSGeo_project| |vmdk| :doc:`gvsig_overview` - [:doc:`Quickstart "
 "<../quickstart/gvsig_quickstart>`]"
 msgstr ""
+"|OSGeo_project| |vmdk| :doc:`gvsig_overview` - [:doc:`Gyorstalpaló "
+"<../quickstart/gvsig_quickstart>`]"
 
 #: ../../build/doc/overview/overview.rst:43
 msgid ""
@@ -271,6 +273,8 @@ msgid ""
 "|OSGeo_community| :doc:`actinia_overview` - [:doc:`Quickstart "
 "<../quickstart/actinia_quickstart>`] - Processing of Geographical Data"
 msgstr ""
+"|OSGeo_community| :doc:`actinia_overview` - [:doc:`Gyorstalpaló "
+"<../quickstart/actinia_quickstart>`] - Térinformatikai adatok feldolgozása"
 
 #: ../../build/doc/overview/overview.rst:165
 msgid ""
@@ -285,6 +289,8 @@ msgid ""
 "|nologo| |vmdk| :doc:`ncWMS_overview` - [:doc:`Quickstart "
 "<../quickstart/ncWMS_quickstart>`] - Web Map Service"
 msgstr ""
+"|nologo| |vmdk| :doc:`ncWMS_overview` - [:doc:`Gyorstalpaló "
+"<../quickstart/ncWMS_quickstart>`] - Web térkép szolgáltatás"
 
 #: ../../build/doc/overview/overview.rst:169
 msgid ""
@@ -299,6 +305,8 @@ msgid ""
 "|nologo| |vmdk| :doc:`re3gistry_overview` - [:doc:`Quickstart "
 "<../quickstart/re3gistry_quickstart>`] - Management of reference codes"
 msgstr ""
+"|nologo| |vmdk| :doc:`re3gistry_overview` - [:doc:`Gyorstalpaló "
+"<../quickstart/re3gistry_quickstart>`] - Referencia kódok kezelése"
 
 #: ../../build/doc/overview/overview.rst:173
 msgid ""
@@ -438,6 +446,8 @@ msgid ""
 "|nologo| |vmdk| :doc:`gmt_overview` - [:doc:`Quickstart "
 "<../quickstart/gmt_quickstart>`] - Cartographic Rendering"
 msgstr ""
+"|nologo| |vmdk| :doc:`gmt_overview` - [:doc:`Gyorstalpaló "
+"<../quickstart/gmt_quickstart>`] - Kartografált megjelenítés"
 
 #: ../../build/doc/overview/overview.rst:263
 msgid ""
@@ -534,6 +544,8 @@ msgid ""
 "|OSGeo_project| :doc:`proj_overview` - [:doc:`Quickstart "
 "<../quickstart/proj_quickstart>`] - Coordinate Reference System Libraries"
 msgstr ""
+"|OSGeo_project| :doc:`proj_overview` - [:doc:`Gyorstalpaló "
+"<../quickstart/proj_quickstart>`] - Vetületi rendszerek könyvtár"
 
 #: ../../build/doc/overview/overview.rst:330
 msgid "|nologo| :doc:`jts_overview`  - Java Topology Suite"

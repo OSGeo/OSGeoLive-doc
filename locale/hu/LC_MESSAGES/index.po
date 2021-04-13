@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 "Előre konfigurált alkalmazásokat kínál a térinformatikai felhasználás széles"
 " skáláján, többek között a térinformatikai adatok tárolást, publikálását, "
-"megtekintést, elemzését és manipulálását. Emellett mintaadatokat és "
+"megtekintését, elemzését és manipulálását. Emellett mintaadatokat és "
 "dokumentációt is tartalmaz"
 
 #: ../../build/doc/index.rst:21
@@ -94,7 +94,7 @@ msgstr "Gyors kezdés"
 
 #: ../../build/doc/index.rst:68
 msgid "Presentation"
-msgstr "Prezentációk"
+msgstr "Prezentáció"
 
 #: ../../build/doc/index.rst:70
 msgid ""
@@ -102,6 +102,6 @@ msgid ""
 "OSGeoLive applications, is available with slides, script, and `abstract "
 "<presentation/abstract.txt>`_."
 msgstr ""
-"Egy fél órás  `bemutató <./presentation.html>`_ elérhető a diákkal, "
-"szkripttel és `összefoglalóval  <presentation/abstract.txt>`_, mely "
-"bemutatja az összes OSGeoLive alkalmazást."
+"Egy félórás  `bemutató <./presentation.html>`_  diákkal, szkripttel és "
+"`összefoglalóval  <presentation/abstract.txt>`_, mely bemutatja az összes "
+"OSGeoLive alkalmazást."

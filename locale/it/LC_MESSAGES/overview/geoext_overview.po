@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Luca Delucchi <lucadeluge@gmail.com>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"PO-Revision-Date: 2019-07-17 15:40+0000\n"
+"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2021\n"
+"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/geoext_overview.rst:14
+msgid "GeoExt"
+msgstr "GeoExt"
+
+#: ../../build/doc/overview/geoext_overview.rst:17
+msgid "A JavaScript Toolkit for Rich Web Mapping Applications"
+msgstr "Un toolkit JavaScript per applicazioni di mappatura web complesse"
+
+#: ../../build/doc/overview/geoext_overview.rst:19
+msgid ""
+"GeoExt is Open Source and enables building desktop-like GIS applications "
+"through the web. It is a JavaScript framework that combines the GIS "
+"functionality of `OpenLayers <https://openlayers.org/>`_ with the user "
+"interface of the `ExtJS <https://www.sencha.com/products/extjs/>`_ library "
+"provided by `Sencha <https://www.sencha.com>`_."
+msgstr ""
+"GeoExt è Open Source e permette di costruire applicazioni GIS simili al "
+"desktop attraverso il web. È un framework JavaScript che combina la "
+"funzionalità GIS di `OpenLayers <https://openlayers.org/>`_ con "
+"l'interfaccia utente della libreria `ExtJS "
+"<https://www.sencha.com/products/extjs/>`_ fornita da `Sencha "
+"<https://www.sencha.com>`_."
+
+#: ../../build/doc/overview/geoext_overview.rst:22
+msgid ""
+"User interface components include a map panel, layer tree panel, feature "
+"grid, and an overview map. GeoExt components can be used just like any other"
+" ExtJS component and can be easily configured and extended. Lower level "
+"classes are also available allowing OpenLayers features and layers to be "
+"used as ExtJS data models, and for various map layer types to be serialized."
+msgstr ""
+"I componenti dell'interfaccia utente includono un pannello della mappa, un "
+"pannello ad albero dei livelli, una griglia di caratteristiche e una mappa "
+"panoramica. I componenti GeoExt possono essere usati come qualsiasi altro "
+"componente ExtJS e possono essere facilmente configurati ed estesi. Sono "
+"anche disponibili classi di livello inferiore che permettono alle "
+"caratteristiche e ai livelli OpenLayers di essere usati come modelli di dati"
+" ExtJS, e per vari tipi di livelli di mappa da serializzare."
+
+#: ../../build/doc/overview/geoext_overview.rst:26
+msgid ""
+"GeoExt3 is dual licensed. The license you choose depends on the license of "
+"the framework ExtJS you use with it. If you are using the GPL v3 version of "
+"the ExtJS framework you will use it under GPLv3. If you own a Sencha ExtJS "
+"Commercial License, you have the right to use GeoExt3 under the BSD License."
+msgstr ""
+"GeoExt3 ha una doppia licenza. La licenza che scegliete dipende dalla "
+"licenza del framework ExtJS che usate. Se state usando la versione GPL v3 "
+"del framework ExtJS lo userete sotto GPLv3. Se si possiede una licenza "
+"commerciale Sencha ExtJS, si ha il diritto di utilizzare GeoExt3 sotto la "
+"licenza BSD."
+
+#: ../../build/doc/overview/geoext_overview.rst:37
+msgid "Core Features"
+msgstr "Caratteristiche principali"
+
+#: ../../build/doc/overview/geoext_overview.rst:39
+msgid "UI Components"
+msgstr "Componenti UI"
+
+#: ../../build/doc/overview/geoext_overview.rst:41
+msgid "Map panel"
+msgstr "Pannello della mappa"
+
+#: ../../build/doc/overview/geoext_overview.rst:42
+msgid "Overview map"
+msgstr "Mappa di panoramica"
+
+#: ../../build/doc/overview/geoext_overview.rst:43
+msgid "Pop-ups"
+msgstr "Pop-ups"
+
+#: ../../build/doc/overview/geoext_overview.rst:44
+msgid "Feature renderer"
+msgstr ""
+
+#: ../../build/doc/overview/geoext_overview.rst:45
+msgid "Layer Tree, legends, and drag-and-drop layer ordering"
+msgstr "Albero dei layer, legende e riordino dei layer tramite drag-and-drop"
+
+#: ../../build/doc/overview/geoext_overview.rst:47
+msgid "Data Models and Stores"
+msgstr "Modelli e archivi di dati"
+
+#: ../../build/doc/overview/geoext_overview.rst:49
+msgid ""
+"Integration of the OpenLayers data model with the ExtJS data model enabling "
+"sorting and filtering of features using ExtJS components"
+msgstr ""
+"Integrazione del modello di dati OpenLayers con il modello di dati ExtJS che"
+" permette l'ordinamento e il filtraggio delle caratteristiche usando "
+"componenti ExtJS"
+
+#: ../../build/doc/overview/geoext_overview.rst:51
+msgid "ExtJS stores and models for OpenLayers features and layers"
+msgstr "Archivi e modelli ExtJS per le caratteristiche e i livelli OpenLayers"
+
+#: ../../build/doc/overview/geoext_overview.rst:53
+msgid "Miscellaneous"
+msgstr "Varie"
+
+#: ../../build/doc/overview/geoext_overview.rst:55
+msgid ""
+"Integration with `MapFish Print <http://mapfish.github.io/mapfish-print-"
+"doc/>`_ and `GeoServer Printing Module "
+"<https://docs.geoserver.org/latest/en/user/extensions/printing/index.html>`_"
+msgstr ""
+"Integrazione con  `MapFish Print <http://mapfish.github.io/mapfish-print-"
+"doc/>`_ e `GeoServer Printing Module "
+"<https://docs.geoserver.org/latest/en/user/extensions/printing/index.html>`_"
+
+#: ../../build/doc/overview/geoext_overview.rst:57
+msgid "Layer Serializers (WMS, WMTS, XYZ)"
+msgstr "Layer Serializers (WMS, WMTS, XYZ)"
+
+#: ../../build/doc/overview/geoext_overview.rst:60
+msgid "Details"
+msgstr "Dettagli"
+
+#: ../../build/doc/overview/geoext_overview.rst:62
+msgid "**Website:** https://geoext.github.io/geoext3"
+msgstr "**Sito internet:** https://geoext.github.io/geoext3"
+
+#: ../../build/doc/overview/geoext_overview.rst:64
+msgid ""
+"**License:** GPLv3 or BSD License dependent on ExtJS license - see `License "
+"<https://github.com/geoext/geoext3/blob/master/LICENSE>`_ and `License FAQ "
+"<https://github.com/geoext/geoext3/blob/master/LICENSE-FAQ.md>`_"
+msgstr ""
+"**Licenza:** Licenza GPLv3 o BSD dipende sulla licenza di ExtJS - vedere "
+"`Licenza <https://github.com/geoext/geoext3/blob/master/LICENSE>`_ e `FAQ "
+"della Licenza <https://github.com/geoext/geoext3/blob/master/LICENSE-"
+"FAQ.md>`_"
+
+#: ../../build/doc/overview/geoext_overview.rst:67
+msgid "**Software Version:** |version-geoext|"
+msgstr "**Versione del software:** |version-geoext|"
+
+#: ../../build/doc/overview/geoext_overview.rst:69
+msgid "**API Interface:** JavaScript"
+msgstr "**Interfaccia API:** JavaScript"
+
+#: ../../build/doc/overview/geoext_overview.rst:71
+msgid ""
+"**Support:** Mailing list https://www.geoext.org/cgi-"
+"bin/mailman/listinfo/users and "
+"https://stackoverflow.com/questions/tagged/geoext3"
+msgstr ""
+"**Supporto:** Mailing list https://www.geoext.org/cgi-"
+"bin/mailman/listinfo/users e "
+"https://stackoverflow.com/questions/tagged/geoext3"
+
+#: ../../build/doc/overview/geoext_overview.rst:77
+msgid "Quickstart"
+msgstr "Guida rapida"
+
+#: ../../build/doc/overview/geoext_overview.rst:79
+msgid ":doc:`Quickstart documentation <../quickstart/geoext_quickstart>`"
+msgstr ":doc:`Documentazione introduttiva <../quickstart/geoext_quickstart>`"

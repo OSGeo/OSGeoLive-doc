@@ -42,7 +42,7 @@ msgstr "デスクトップから :menuselection:`Desktop GIS --> OpenJUMP` を�
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:33
 msgid "The OpenJUMP user interface has four (4) basic components."
-msgstr "OpenJUMPのユーザーインタフェースには、4つの基本コンポーネントがあります。"
+msgstr "OpenJUMPのユーザインタフェースには、4つの基本コンポーネントがあります。"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:35
 msgid ""
@@ -217,8 +217,8 @@ msgid ""
 "You can get help fast on the OpenJUMP users mailing list: "
 "https://groups.google.com/forum/#!forum/openjump-users"
 msgstr ""
-"OpenJUMPユーザーメーリングリスト:  https://groups.google.com/forum/#!forum/openjump-"
-"users で、すばやくヘルプを見ることができます。"
+"OpenJUMPユーザメーリングリスト:  https://groups.google.com/forum/#!forum/openjump-users"
+" で、すばやくヘルプを見ることができます。"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:109
 msgid ""
