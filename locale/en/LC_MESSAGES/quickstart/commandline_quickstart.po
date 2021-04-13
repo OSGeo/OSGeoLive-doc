@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"POT-Creation-Date: 2021-03-01 08:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:8
-msgid "Command Line Quickstart"
+msgid "Command Line basics"
 msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:10
@@ -488,4 +488,7 @@ msgstr ""
 #: ../../build/doc/quickstart/commandline_quickstart.rst:339
 msgid "https://en.wikipedia.org/wiki/Category:Standard_Unix_programs"
 msgstr ""
+
+#~ msgid "Command Line Quickstart"
+#~ msgstr ""
 

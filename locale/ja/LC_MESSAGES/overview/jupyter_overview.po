@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# Hiroshi Miura <miurahr@northside.tokyo>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-03 08:36-0500\n"
+"PO-Revision-Date: 2017-09-20 16:07+0000\n"
+"Last-Translator: Hiroshi Miura <miurahr@northside.tokyo>, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/jupyter_overview.rst:16
+msgid "Jupyter Notebook"
+msgstr "Jupyterノートブック"
+
+#: ../../build/doc/overview/jupyter_overview.rst:19
+msgid "Mixing rich media in documentation"
+msgstr "ドキュメントにリッチメディアを混在させる"
+
+#: ../../build/doc/overview/jupyter_overview.rst:21
+msgid ""
+"The Jupyter Notebook is a web application that allows you to create and "
+"share documents that contain live code, equations, visualizations and "
+"explanatory text."
+msgstr ""
+"Jupyterノートブックは、ライブコード、数式、視覚化、および説明テキストを含むドキュメントを作成および共有できるWebアプリケーションです。"
+
+#: ../../build/doc/overview/jupyter_overview.rst:23
+msgid "It combines two components:"
+msgstr "次の2つのコンポーネントが組み合わされています。"
+
+#: ../../build/doc/overview/jupyter_overview.rst:25
+msgid ""
+"A web application providing browser-based, interactive authoring of notebook"
+" documents."
+msgstr "ブラウザベースで、対話式でノートブックドキュメント作成を支援するWebアプリケーション。"
+
+#: ../../build/doc/overview/jupyter_overview.rst:27
+msgid ""
+"Notebook documents which store a representation of all content visible in "
+"the web application, including inputs and outputs of computations, "
+"explanatory text, mathematics, code, images, videos, graphs, maps, and other"
+" rich media representations of objects."
+msgstr ""
+"計算、説明テキスト、数学、コード、、数学、コード、イメージ、ビデオ、グラフ、マップ、およびオブジェクトのその他のリッチメディア表現を含む、Webアプリケーションに表示されるすべてのコンテンツの表現を格納するノートブックドキュメント。"
+
+#: ../../build/doc/overview/jupyter_overview.rst:35
+msgid ""
+"Notebooks can be shared with others on GitHub, Dropbox, and the `Jupyter "
+"Notebook Viewer <https://nbviewer.jupyter.org/>`_."
+msgstr ""
+"ノートブックはGitHub、Dropbox、そして `Jupyter Notebook Viewer "
+"<https://nbviewer.jupyter.org/>`_ で他の人と共有することができます。"
+
+#: ../../build/doc/overview/jupyter_overview.rst:37
+msgid ""
+"Uses include: data cleaning and transformation, numerical simulation, "
+"statistical modeling, machine learning and much more."
+msgstr "データの消去と変換、数値シミュレーション、統計モデリング、機械学習などの用途があります。"
+
+#: ../../build/doc/overview/jupyter_overview.rst:41
+msgid "Core Features"
+msgstr "主な機能"
+
+#: ../../build/doc/overview/jupyter_overview.rst:43
+msgid "Create Jupyter Notebooks which can contain:"
+msgstr "次の内容を含むJupyterノートブックを作成します:"
+
+#: ../../build/doc/overview/jupyter_overview.rst:45
+msgid "Marked up text (with headings, styles, paragraphs, etc)"
+msgstr "マークアップされたテキスト(見出し、スタイル、段落など)"
+
+#: ../../build/doc/overview/jupyter_overview.rst:46
+msgid "Formulas, mathematics, plots, maps, ..."
+msgstr "数式、数学、グラフ図、地図..."
+
+#: ../../build/doc/overview/jupyter_overview.rst:47
+msgid "Imported external libraries to add functionality"
+msgstr "機能を追加するために外部ライブラリをインポート。"
+
+#: ../../build/doc/overview/jupyter_overview.rst:48
+msgid ""
+"Code from multiple programming languages, including Python, R, Julia, Bash "
+"and many more."
+msgstr "Python、R、Julia、Bashなど、複数のプログラミング言語によるコード。"
+
+#: ../../build/doc/overview/jupyter_overview.rst:50
+msgid "Jupyter Notebooks on OSGeoLive can use geospatial functions from:"
+msgstr "OSGeo-Live上のJupyterノートブックでは、次の空間関数を使用できます。"
+
+#: ../../build/doc/overview/jupyter_overview.rst:52
+msgid ""
+"Numpy, SciPy Matplotlib, IRIS, Cartopy, gdal, Geopandas, pyshp, Fiona, "
+"netCDF4, PostgreSQL, psycopg2, R, rpy2, and more."
+msgstr ""
+"Numpy, SciPy Matplotlib, IRIS, Cartopy, gdal, Geopandas, pyshp, Fiona, "
+"netCDF4, PostgreSQL, psycopg2, R, rpy2, などなど。"
+
+#: ../../build/doc/overview/jupyter_overview.rst:56
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/jupyter_overview.rst:58
+msgid "**Website:** http://jupyter.org/"
+msgstr "**Webサイト:** http://jupyter.org/"
+
+#: ../../build/doc/overview/jupyter_overview.rst:60
+msgid "**Licence:** revised BSD license"
+msgstr "**ライセンス:** revised BSD license"
+
+#: ../../build/doc/overview/jupyter_overview.rst:62
+msgid "**Software Version:** |version-jupyter|"
+msgstr "**ソフトウェアバージョン:** |version-jupyter|"
+
+#: ../../build/doc/overview/jupyter_overview.rst:64
+msgid "**Supported Platforms:** Linux, Mac, Windows"
+msgstr "**対応プラットフォーム:** Linux, Mac, Windows"
+
+#: ../../build/doc/overview/jupyter_overview.rst:66
+msgid "**API Interfaces:** Python"
+msgstr "**API インタフェース:** Python"
+
+#: ../../build/doc/overview/jupyter_overview.rst:68
+msgid "**Support:**  http://jupyter.org/community.html"
+msgstr "**サポート:**  http://jupyter.org/community.html"
+
+#: ../../build/doc/overview/jupyter_overview.rst:74
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/jupyter_overview.rst:76
+msgid ":doc:`Quickstart documentation <../quickstart/jupyter_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/jupyter_quickstart>`"

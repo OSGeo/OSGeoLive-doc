@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr "Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-26 21:04+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:20
+msgid "Jupyter Notebook Quickstart"
+msgstr "Jupyterノートブック・クイックスタート"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:22
+msgid "The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, machine learning and much more."
+msgstr "Jupyterノートブックは、ライブコード、数式、視覚化、および説明テキストを含むドキュメントを作成および共有できるWebアプリケーションです。データの消去と変換、数値シミュレーション、統計モデリング、機械学習などの用途があります。"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:25
+msgid "This Quick Start describes how to:"
+msgstr "このクイックスタートでは、次の方法について説明します:"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:27
+msgid "Start a Jupyter Notebook server"
+msgstr "Jupyterノートブックサーバーを起動する"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:28
+msgid "Load a jupyter notebook"
+msgstr "Jupyterノートブックをロードする"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:29
+msgid "Interact with python code"
+msgstr "Pythonコードとの対話"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:34
+msgid "Start the Jupyter server"
+msgstr "Jupyterサーバを起動する"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:36
+msgid "From the application launch menu in the lower left corner."
+msgstr "左下隅のアプリケーション起動メニューから。"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:38
+msgid "Choose  *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*"
+msgstr "*Geospatial* -> *Spatial Tools* -> *Jupyter Notebook* を選択する"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:40
+msgid "A terminal window will open and a startup log will begin to scroll. Afterwards a web browser is launched showing the Jupyter Notebook dashboard. From the Jupyter Notebook dashboard you can navigate the directory tree, start new notebooks, create files and directories, as well as rename, delete and upload files."
+msgstr "ターミナルウィンドウが開き、起動ログがスクロールし始めます。その後、Webブラウザが起動し、Jupyterノートブックのダッシュボードが表示されます。Jupyterノートブックのダッシュボードから、ディレクトリツリーのナビゲート、新しいノートブックの起動、ファイルとディレクトリの作成、ファイルの名前変更、削除、およびアップロードを行うことができます。"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:51
+msgid "Open and execute an existing notebook"
+msgstr "既存のノートブックを開いて実行する"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:53
+msgid "Let's open an existing notebook. From the main page click on the directory geopandas-tutorial and choose the Introduction notebook (01-introduction-geospatial-data.ipynb). This is an introduction with many examples on how to use geospatial vector data in Python with geopandas using the Natural Earth2 data."
+msgstr "既存のノートブックを開きます。メインページで geopandas-tutorial ディレクトリをクリックし、Introduction ノートブック (01-introduction-geospatial-data.ipynb)を選択します。ここでは、PythonでNatural Earth2データを使用してgeopandasで空間ベクトルデータを使用する方法について、多くの例を紹介します。"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:59
+msgid "The tutorial is made up with explaining text and cells. The cells contain in this case python code, that can be run."
+msgstr "チュートリアルは、テキストとセルの説明で構成されています。この場合、セルには実行可能なPythonコードが含まれています。"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:61
+msgid "From the toolbar on top of the notebook you can choose different options:"
+msgstr "ノートブックの上部にあるツールバーから、さまざまなオプションを選択できます。"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:63
+msgid "Cell-> Run Cells: will run the code in the cell with the focus and will move to the next cell."
+msgstr "Cell-> Run Cells: フォーカスのあるセルでコードを実行し、次のセルに移動します。"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:64
+msgid "Cell-> Run All:  will run all the cells and show the results If everything worked as planned you should be able to see the results at the bottom of the page."
+msgstr "Cell-> Run All:  すべてのセルを実行し、結果を表示します。すべてが計画どおりに動作した場合は、ページの下部に結果が表示されます。"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:66
+msgid "Have a look at the results after running all the cells."
+msgstr "すべてのセルを実行した結果を確認します。"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:71
+msgid "You will see additional Out[] section with different output for example tables, maps or calculations."
+msgstr "テーブル、マップ、計算など、さまざまな出力を持つ追加のOut[]セクションが表示されます。"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:73
+msgid "In Out[3] you can see the country information as a table."
+msgstr "Out[3]では、国の情報が表形式で表示されます。"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:79
+msgid "In Out[4] a plot was generated from all the countries."
+msgstr "Out[4] では、全ての国から生成されたグラフのプロットが表示されます。"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:88
+msgid "Change code"
+msgstr "コードの変更"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:90
+msgid "Now let's change some of the code."
+msgstr "次に、コードの一部を変更しましょう。"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:93
+msgid "In In [10] a filter was defined for the countries. Only the continent ``Africa`` is selected from the countries:"
+msgstr "In [10]では、国々のフィルタが定義されます。``Africa`` 大陸のみが国々から選択されます:"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:99
+msgid "Therefore in the plot there is only the continent ``Africa``."
+msgstr "そのため、プロットでは ``Africa`` 大陸のみが表示されます。"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:104
+msgid "Change the selection to ``Asia`` and rund the two cells again."
+msgstr "選択を ``Asia`` に変更して、二つのセルを再実行してみましょう。"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:110
+msgid "As result you will see that instead of ``Africa`` there will be ``Asia`` in the plot."
+msgstr "その結果、 ``Africa`` のかわりに、プロットには ``Asia`` が表示されるでしょう。"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:119
+msgid "What Next?"
+msgstr "次のステップ"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:121
+msgid "Discover the other notebooks that are provided with OSGeoLive and find out how to work with Shapely, Rasterio, R, Iris & other software."
+msgstr "OSGeoLiveで提供されるその他のノートブック、およびShapely、Rasterio、R、Iris、その他のソフトウェアの操作方法をご覧ください。"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:122
+msgid "For more information about the jupyter notebook, please refer to the `Jupyter Notebooks official documentation <https://jupyter.readthedocs.io/>`_."
+msgstr "Jupyterノートブックについての詳細は  `Jupyter Notebooks official documentation <https://jupyter.readthedocs.io/>`_ を参照してください。"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:123
+msgid "More notebook examples are available from the notebook root directory."
+msgstr "ノートブックの例は、ノートブックのルートディレクトリから入手できます。"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:124
+msgid "Quick introduction on how to use the Jupyter Notebooks interface: `Get started with Jupyter Notebook <https://jupyter.readthedocs.io/en/latest/content-quickstart.html>`_."
+msgstr "jupiterノートブックのインターフェイスの使用方法については、 `Get started with Jupyter Notebook <https://jupyter.readthedocs.io/en/latest/content-quickstart.html>`_ を参照してください。"
+
