@@ -173,10 +173,10 @@ msgstr "Kipróbálandó dolgok"
 #: ../../build/doc/quickstart/marble_quickstart.rst:100
 msgid ""
 "Try to use the Routing feature. See the `Marble documentation "
-"<https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ for help."
+"<https://marble.kde.org>`_ for help."
 msgstr ""
 "Próbálja ki az útvonalkeresés funkciót. További segítségért lásd a `Marble "
-"dokumentációt <https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_."
+"dokumentációt <https://marble.kde.org>`_."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:104
 msgid "What next?"

@@ -182,10 +182,10 @@ msgstr "Was Sie noch ausprobieren können"
 #: ../../build/doc/quickstart/marble_quickstart.rst:100
 msgid ""
 "Try to use the Routing feature. See the `Marble documentation "
-"<https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ for help."
+"<https://marble.kde.org>`_ for help."
 msgstr ""
 "Versuchen Sie, die Routing-Funktion zu verwenden. Hilfe finden Sie in der "
-"<https: docs.kde.org/trunk5/en/kdeedu/marble/index.html=\"\">'Marble-"
+"<https: marble.kde.org=\"\">'Marble-"
 "Dokumentation'_.</https:>"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:104
