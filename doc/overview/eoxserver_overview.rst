@@ -73,7 +73,7 @@ Details
 
 **Website:** @WEB_eoxserver@
 
-**Licence:** `MIT-style license <https://docs.eoxserver.org/en/latest/copyright.html#license>`_
+**Licence:** `MIT-style license <https://docs.eoxserver.org/en/stable/copyright.html#license>`_
 
 **Software Version:** |version-eoxserver|
 
@@ -81,7 +81,7 @@ Details
 
 **API Interfaces:** Python
 
-**Support:** https://docs.eoxserver.org/en/latest/users/basics.html#where-can-i-get-support
+**Support:** https://docs.eoxserver.org/en/stable/users/basics.html#where-can-i-get-support
 
 @VMDK_eoxserver@
 @QUICKSTART_eoxserver@
