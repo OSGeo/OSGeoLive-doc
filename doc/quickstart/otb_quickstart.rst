@@ -31,7 +31,12 @@ The OTB applications provide lots of interesting tools which facilitate the mani
   * QGIS plugin - available through the processing framework.
 
 Sample data used in this quickstart can be found in :
-  * /home/user/data/north_carolina/rast_geotiffs
+  * /home/user/data/north_carolina/rast_geotiff
+  
+Start a Terminal Emulator (LXTerminal currently) from the Applications menu in the Accessories section. This gives you a Unix shell command prompt. Go to the data directory.
+
+  cd /home/user/data/north_carolina/rast_geotiff
+  
 
 .. contents:: Contents
    :local:
@@ -50,7 +55,7 @@ Calculator on image bands
 The `otbcli_otbBandMath` provides an efficient way to perform mathematical operation on image bands.
 The syntax is quite simple. For example to substrate two bands to study the image differences on the images `lsat7_2002_10.tif` and `lsat7_2002_20.tif`, just use the command::
 
-  otbcli_BandMath -il lsat7_2002_10.tif lsat7_2002_20.tif -out difference.tif -exp "im1b1-im2b1"
+  otbcli_BandMath -il lsat7_2002_10.tif lsat7_2002_20.tif -out  ~/difference.tif -exp "im1b1-im2b1"
 
 The application is able to perform complex mathematical operations over images (threshold, logarithmic rescaling, etc).
 This homebrewed digital calculator is also bundled with custom functions allowing you to compute a full expression. For example, as remote sensing images measure physical values, it is possible to extract several indices with physical meaning like the NDVI (Normalized Difference Vegetation Index) for the vegetation. With the calculator you're able to compute the NDVI on a multispectral sensors images by doing::
