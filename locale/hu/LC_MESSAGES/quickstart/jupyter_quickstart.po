@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-03 08:36-0500\n"
+"PO-Revision-Date: 2017-09-20 16:02+0000\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:14
+msgid "Jupyter Notebook Quickstart"
+msgstr "Jupyter jegyzettömb gyorstalpaló"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:16
+msgid ""
+"The Jupyter Notebook is a web application that allows you to create and "
+"share documents that contain live code, equations, visualizations and "
+"explanatory text. Uses include: data cleaning and transformation, numerical "
+"simulation, statistical modeling, machine learning and much more."
+msgstr ""
+"A Jupyter jegyzettömb egy web alkalmazás, mely lehetővé teszi élő kódot, "
+"egyenleteket, vizualizációt és magyarázó szöveget tartalmazó dokumentumok "
+"létrehozását és megosztását. A felhasználás kiterjed a következőkre: "
+"adattisztítás és transzformáció, numerikus modellezés, gépi tanulás és még "
+"továbbiak."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:19
+msgid "This Quick Start describes how to:"
+msgstr "Ez a gyorstalpaló a következőket írja le:"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:21
+msgid "start a jupyter notebook server"
+msgstr "a jupyter jegyzettömb szerver indítása"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:22
+msgid "load a jupyter notebook"
+msgstr "jupyter jegyzettömb betöltése"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:23
+msgid "interact with python code and javascript widgets"
+msgstr "együttműködés python kód és javascript vezérlők között"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:28
+msgid "Start the jupyter server"
+msgstr "Jupyter szerver indítása"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:30
+msgid "From the application launch menu in the lower left corner."
+msgstr "Az alkalmazásindítás menüből a bal alsó sarokban."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:32
+msgid "Choose  *Geospatial* -> *Spatial Tools* -> *Start Jupyter Notebook*"
+msgstr ""
+"Válassza a *Geospatial* -> *Spatial Tools* -> *Start Jupyter Notebook*-ot"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:37
+msgid "A terminal window will open and a startup log will begin to scroll."
+msgstr ""
+"Egy terminál ablak nyílik meg és az indítási napló látható az ablakban."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:39
+msgid "Choose   *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*"
+msgstr "Válassza a *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*-ot"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:44
+msgid "A web browser is launched showing the notebook dashboard."
+msgstr "Egy web böngésző indul a jegyzettömb vezérlő pulttal."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:49
+msgid ""
+"From the notebook dashboard you can navigate the directory tree, start new "
+"notebooks, create files and directories, as well as rename, delete and "
+"upload files."
+msgstr ""
+"A jegyzettömb vezérlőpultban navigálhat a könyvtár fában, új jegyzettömböket"
+" hozhat létre, fájlokat és könyvtárakat hozhat létre. valamint fájlokat "
+"átnevezhet, törölhet és feltölthet."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:56
+msgid "Open and execute an existing notebook"
+msgstr "Létező jegyzettömb megnyitása és végrehajtása"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:58
+msgid ""
+"Let's open an existing notebook. From the main page click on the directory "
+"GSOC."
+msgstr ""
+"Nyissunk meg egy létező jegyzettömböt. A fő ablakban kattintson a GSOC "
+"könyvtárra."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:66
+msgid "Choose the Introduction notebook."
+msgstr "Válassza az Introduction jegyzettömböt."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:71
+msgid ""
+"This is a simple notebook, which contains text and links, like a HTML web "
+"page."
+msgstr ""
+"Ez egy egyszerű jegyzettömb, mely szöveget és linkeket tartalmaz mint egy "
+"web lap."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:73
+msgid "Then under \"Simple-web-gis-products\" select \"CESIUM\"."
+msgstr "A \"Simple-web-gis-products\" alatt válassza a \"CESIUM\"-ot."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:81
+msgid ""
+"Here there are a series of example using the cesium javascript library. "
+"Let's click on \"CesiumWidget Interact-Example\", which uses the widget "
+"extension, some python libraries and cesium-js."
+msgstr ""
+"Itt egy példa sorozat van a cesium javascript könyvtár használatáról. "
+"Kattintsunk a \"CesiumWidget Interact-Example\"-re, mely néhány python "
+"könyvtár és cesium-js vezérlő kiterjesztését használja."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:84
+msgid ""
+"From the toolbar on top of the notebook chose: cell->run all. If everything "
+"worked as planned you should be able to see the results at the bottom of the"
+" page."
+msgstr ""
+"A jegyzettömb feletti eszközsorból válassza a cell->run all-t. Ha minden a "
+"tervek szerint működik a lap alján látnia kell az eredményeket."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:90
+msgid "Change code"
+msgstr "Kód módosítása"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:92
+msgid "Now lets change some of the code:"
+msgstr "Most változtassuk meg a kódot:"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:94
+msgid ""
+"In the code cell ``in [8]`` we generated a python dictionary based on some "
+"keywords (location names) with empty values:"
+msgstr ""
+"Az ``in [8]`` kód cellában egy python szótárat gneráltunk néhány kulccsal "
+"(hely nevek) és üres értékekkel:"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:100
+msgid ""
+"and at the code input cell ``in [9]``, we loop over the dictionary keys and "
+"making use of a geocoding library ``geocoder``, we add the location "
+"information inside the previously created python dictionary ``my place``:"
+msgstr ""
+"és az ``in [9]``kód input cellában végigmegyünk a szótár kulcsokon és a "
+"``geocoder`` geokódoló könyvtár használatával a hely információt hozzáadjuk "
+"az előzőleg létrehozott ``my place` python szótárhoz:"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:112
+msgid "Try to add or replace new keywords like we did in ``In [8]``"
+msgstr ""
+"Próbáljon meg  hozzáadni vagy lecserélni kulcsokat, mint ahogy azt az ``In "
+"[8]``-ban csináltuk"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:118
+msgid ""
+"and re run ``In [9] [10] [11]`` you will see the newly created dictionary is"
+" now used in the drop down menu to select the new location and zoom-to "
+"withing the Cesium globe."
+msgstr ""
+"és futtassa újra a  ``In [9] [10] [11]``-t, láthatja, hogy az újonnan "
+"létrehozott szótárt használjuk a legördülő menüben egy új hely "
+"kiválasztásánál és a nagyításnál a Cesium földgömbön."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:121
+msgid "What Next?"
+msgstr "Mi következik?"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:123
+msgid ""
+"For more information about the jupyter notebook, please refer to the "
+"`jupyter official documentation`_. More notebook examples are available from"
+" the notebook root directory. For a quick introduction on how to use the "
+"jupyter-notebook interface, from the start page, check the notebook: "
+"\"Introduction to jupyter notebook\""
+msgstr ""
+"További információért a jupiter jegyzettömbről forduljon a  hivatalos "
+"`jupyter  dokumentációhozn`_.  További jegyzettömb példák érhetők el a "
+"jegyzettömb gyökér könyvtárából. Nézze meg a a kezdőoldalról elérhető "
+"\"Introduction to jupyter notebook\"-ot egy gyors bemutatáshoz a jupiter "
+"jegyzettömb használatához."

@@ -100,8 +100,8 @@ msgstr "Erstellen eines Projekts"
 #: ../../build/doc/quickstart/qgis_quickstart.rst:66
 msgid "To create a new project, choose :menuselection:`Project --> New`."
 msgstr ""
-"Um ein neues Projekt zu erstellen, wählen Sie :menuselection:'Project --> "
-"New'."
+"Um ein neues Projekt zu erstellen, wählen Sie :menuselection:`Project --> "
+"New`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:72
 msgid ""
@@ -169,7 +169,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:111
 msgid "Choose :menuselection:`Project --> Save`."
-msgstr "Wählen Sie :menuselection:'Project --> Speichern'."
+msgstr "Wählen Sie :menuselection:`Project --> Speichern`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:117
 msgid "Make the location to save the project '/home/user/desktop'."
@@ -228,7 +228,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:143
 msgid "Choose :menuselection:`Project --> Open`."
-msgstr "Wählen Sie :menuselection:'Project --> Öffnen'."
+msgstr "Wählen Sie :menuselection:`Project --> Öffnen`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:144
 msgid "Navigate to '/home/user/qgis-example'."

@@ -5,8 +5,8 @@
 # 
 # Translators:
 # gislars, 2018
-# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # Vicky Vergara <vicky@georepublic.de>, 2021
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 20:30+0100\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -68,8 +68,8 @@ msgid ""
 "Click :menuselection:`Geospatial --> Web Services --> QGIS Server`. You "
 "should see a browser window with a web map viewer showing a world map."
 msgstr ""
-"Klicken Sie auf :menuselection:'Geospatial --> Web Services --> QGIS "
-"Server'. Sie sollten ein Browserfenster mit einem Webmap Viewer sehen, der "
+"Klicken Sie auf :menuselection:`Geospatial --> Web Services --> QGIS "
+"Server`. Sie sollten ein Browserfenster mit einem Webmap Viewer sehen, der "
 "eine Weltkarte anzeigt."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:43
@@ -123,7 +123,7 @@ msgstr "Ändern Sie die Farbe der Umrisslinie zu einem anderen Blauton."
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:65
 msgid "Press :guilabel:`OK`. Rivers are now rendered in a new color."
 msgstr ""
-"Drücken Sie :guilabel:'OK'. die Flüsse werden nun in einer neuen Farbe "
+"Drücken Sie :guilabel:`OK`. die Flüsse werden nun in einer neuen Farbe "
 "angezeigt."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:67
@@ -167,7 +167,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:85
 msgid "Press :guilabel:`Open`. You should see all world countries."
-msgstr "Drücken Sie :guilabel:'Open'. Sie sollten alle Länder der Welt sehen."
+msgstr "Drücken Sie :guilabel:`Open`. Sie sollten alle Länder der Welt sehen."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:89
 msgid "Use file name :file:`/home/user/world.qgs` and press :guilabel:`Save`."
@@ -179,10 +179,9 @@ msgid ""
 "bin/qgis_mapserv.fcgi?map=/home/user/world.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_."
 " You should see all world countries, this time rendered by QGIS Server."
 msgstr ""
-"Öffnen Sie die 'WMS URL <http: localhost/cgi-"
-"bin/qgis_mapserv.fcgi?map=\"/home/user/world.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true\">'_."
-" Sie sollten alle Länder der Welt sehen, diesmal von QGIS Server "
-"gerendert.</http:>"
+"Öffnen Sie die `WMS URL <http://localhost/cgi-"
+"bin/qgis_mapserv.fcgi?map=/home/user/world.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_."
+" Sie sollten alle Länder der Welt sehen, diesmal von QGIS Server gerendert."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:95
 msgid "What next?"

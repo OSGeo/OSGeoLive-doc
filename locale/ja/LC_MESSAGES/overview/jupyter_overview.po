@@ -114,8 +114,8 @@ msgid "Details"
 msgstr "詳細"
 
 #: ../../build/doc/overview/jupyter_overview.rst:58
-msgid "**Website:** http://jupyter.org/"
-msgstr "**Webサイト:** http://jupyter.org/"
+msgid "**Website:** https://jupyter.org/"
+msgstr "**Webサイト:** https://jupyter.org/"
 
 #: ../../build/doc/overview/jupyter_overview.rst:60
 msgid "**Licence:** revised BSD license"
@@ -134,8 +134,8 @@ msgid "**API Interfaces:** Python"
 msgstr "**API インタフェース:** Python"
 
 #: ../../build/doc/overview/jupyter_overview.rst:68
-msgid "**Support:**  http://jupyter.org/community.html"
-msgstr "**サポート:**  http://jupyter.org/community.html"
+msgid "**Support:**  https://jupyter.org/community.html"
+msgstr "**サポート:**  https://jupyter.org/community.html"
 
 #: ../../build/doc/overview/jupyter_overview.rst:74
 msgid "Quickstart"

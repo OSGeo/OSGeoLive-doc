@@ -58,7 +58,7 @@ Details
 
 **API Interfaces:** Python
 
-**Support:** http://jupyter.org/community.html
+**Support:** https://jupyter.org/community.html
 
 
 @VMDK_jupyter@

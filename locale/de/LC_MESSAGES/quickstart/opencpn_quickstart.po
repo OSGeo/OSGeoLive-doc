@@ -5,8 +5,8 @@
 # 
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
-# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # Vicky Vergara <vicky@georepublic.de>, 2021
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-19 11:35-0600\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,8 +58,8 @@ msgid ""
 "From the Start menu, select :menuselection:`Geospatial --> Navigation and "
 "Maps --> OpenCPN`."
 msgstr ""
-"Wählen Sie im Startmenü :menuselection:'Geospatial --> Navigation and Maps "
-"--> OpenCPN'."
+"Wählen Sie im Startmenü :menuselection:`Geospatial --> Navigation and Maps "
+"--> OpenCPN`."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:36
 msgid "Click :guilabel:`I agree` to the NOAA Nautical Chart Data Agreement."
@@ -122,8 +122,8 @@ msgid ""
 msgstr ""
 "Aktuelle Wetter- und Wellenvorhersagedaten können mit dem GRIB-Plugin "
 "heruntergeladen und über Ihre Charts drapiert werden. Die :doc:`XyGrib "
-"<../overview/xygrib_overview>` Software' (auch auf dieser Disc) ist eine "
-"einfache Möglichkeit, diese herunterzuladen.</..>"
+"<../overview/xygrib_overview>` Software (auch auf dieser Dirstibution) ist "
+"eine einfache Möglichkeit, diese herunterzuladen.</..>"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:74
 msgid ""
@@ -139,12 +139,12 @@ msgstr "Wählen Sie die Registerkarte :guilabel:'Plugins'."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:76
 msgid "Choose GRIB and then click :guilabel:`Enable`."
-msgstr "Wählen Sie GRIB und klicken Sie dann auf :guilabel:'Enable'."
+msgstr "Wählen Sie GRIB und klicken Sie dann auf :guilabel:`Enable`."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:77
 msgid "Click :guilabel:`OK`. A windsock icon is now displayed on the toolbar."
 msgstr ""
-"Klicken Sie auf :guilabel:'OK'. Auf der Symbolleiste wird nun ein Windsack-"
+"Klicken Sie auf :guilabel:`OK`. Auf der Symbolleiste wird nun ein Windsack-"
 "Symbol angezeigt."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:80

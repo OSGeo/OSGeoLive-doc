@@ -175,10 +175,10 @@ msgstr "Cosas para probar"
 #: ../../build/doc/quickstart/marble_quickstart.rst:100
 msgid ""
 "Try to use the Routing feature. See the `Marble documentation "
-"<https://marble.kde.org>`_ for help."
+"<https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ for help."
 msgstr ""
 "Intente utilizar la Característica de Ruteo. Consulte la `Documentación de "
-"Marble <https://marble.kde.org>`_ para "
+"Marble <https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ para "
 "obtener ayuda."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:104

@@ -56,7 +56,7 @@ msgid ""
 "this::"
 msgstr ""
 "Das Erstellen von Karten in Python ist mit Mapnik ganz einfach. Öffnen Sie  "
-"ein Terminalfenster, und geben Sie 'python3' in der Befehlszeile ein, um zum"
+"ein Terminalfenster, und geben Sie `python3` in der Befehlszeile ein, um zum"
 " Python-Interpreter zu gelangen. Probieren Sie dann:"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:38
@@ -104,8 +104,8 @@ msgid ""
 "MapProxy`. The server starts in a terminal window (which stays open and "
 "outputs basic debugging information)."
 msgstr ""
-"Klicken Sie auf :menuselection:'Geospatial --> Web Services --> MapProxy -->"
-" Start MapProxy'. Der Server startet in einem Terminalfenster (das offen "
+"Klicken Sie auf :menuselection:`Geospatial --> Web Services --> MapProxy -->"
+" Start MapProxy`. Der Server startet in einem Terminalfenster (das offen "
 "bleibt und grundlegende Debug-Informationen ausgibt)."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:62

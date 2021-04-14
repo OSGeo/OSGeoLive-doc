@@ -57,7 +57,7 @@ msgid ""
 "interface (GUI). Fortunately R is well documented on the web site which "
 "eases the learning process. Scripts are often used to automate processing"
 " steps but there are GUIs, the leading one being RStudio "
-"(https://rstudio.com)."
+"(https://www.rstudio.com)."
 msgstr ""
 
 #: ../../build/doc/overview/R_overview.rst:44

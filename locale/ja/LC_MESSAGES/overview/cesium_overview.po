@@ -79,8 +79,8 @@ msgid "Draw 3D models using COLLADA and glTF."
 msgstr "COLLADAとglTFを使用して3Dモデルを描画します。"
 
 #: ../../build/doc/overview/cesium_overview.rst:38
-msgid "Use `plugins <https://cesium.com/cesiumjs>`_ to extend Cesium."
-msgstr "`プラグイン <https://cesium.com/cesiumjs>`_ を使用してCesiumを拡張します。"
+msgid "Use `plugins <https://cesium.com/platform/cesiumjs/>`_ to extend Cesium."
+msgstr "`プラグイン <https://cesium.com/platform/cesiumjs/>`_ を使用してCesiumを拡張します。"
 
 #: ../../build/doc/overview/cesium_overview.rst:40
 msgid "Built for Performance and Precision:"

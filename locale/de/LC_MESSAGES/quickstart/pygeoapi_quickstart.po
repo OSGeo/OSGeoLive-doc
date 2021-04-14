@@ -147,7 +147,7 @@ msgstr ""
 "sollen, bestehen aus realen Daten mit mehreren Attributen und Verknüpfungen "
 "zu anderen Ressourcen. OSGeoLive enthält eine Reihe von Datensätzen, die wir"
 " verwenden können. Ein Beispiel ist "
-"''/var/www/html/openlayers/examples/data/geojson/countries.geojson''. Sie "
+"``/var/www/html/openlayers/examples/data/geojson/countries.geojson``. Sie "
 "können es in pygeoapi mit dem GeoJSON-Provider konfigurieren."
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:64

@@ -243,8 +243,8 @@ msgstr ""
 " détails."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:79
-msgid "Website: https://opengribs.org"
-msgstr "Site web: https://opengribs.org"
+msgid "Website: https://opengribs.org/en"
+msgstr "Site web: https://opengribs.org/en"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:80
 msgid "Support: https://opengribs.org/en/support-forum"

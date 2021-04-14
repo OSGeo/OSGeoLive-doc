@@ -12,7 +12,7 @@ and for many of the software teams which contribute to it.
 
 .. image:: /images/logos/ucd_ice_logo.png
   :alt: Information Center for the Environment at the University of California, Davis
-  :target: http://ice.ucdavis.edu
+  :target: https://www.ice.ucdavis.edu/
 
 Information Center for the Environment at the University of California,
 Davis provides hardware resources and development support to the

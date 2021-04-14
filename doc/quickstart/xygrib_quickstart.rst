@@ -73,5 +73,5 @@ downloaded GRIB file.
 See
 the :doc:`OpenCPN quickstart <../quickstart/opencpn_quickstart>` for details.
 
-* Website: https://opengribs.org
+* Website: https://opengribs.org/en
 * Support: https://opengribs.org/en/support-forum

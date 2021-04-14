@@ -114,7 +114,7 @@ msgstr ""
 #: ../../build/doc/overview/pgrouting_overview.rst:67
 msgid ""
 "Learn more about pgRouting in the `documentation "
-"<http://docs.pgrouting.org>`__."
+"<https://docs.pgrouting.org>`__."
 msgstr ""
 
 #: ../../build/doc/overview/pgrouting_overview.rst:71

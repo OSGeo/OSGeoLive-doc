@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:9
 msgid "Getting started with OSGeoLive"
-msgstr ""
+msgstr "Erste Schritte mit OSGeoLive"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:11
 msgid "This Quick Start describes how to start OSGeoLive from a DVD or USB."

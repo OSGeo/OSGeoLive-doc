@@ -58,7 +58,7 @@ msgstr "T-Rex starten"
 msgid ""
 "Choose :menuselection:`Geospatial --> Web Services --> T-Rex` from the menu."
 msgstr ""
-"Wählen Sie :menuselection:'Geospatial --> Web Services --> T-Rex' aus dem "
+"Wählen Sie :menuselection:`Geospatial --> Web Services --> T-Rex` aus dem "
 "Startmenü"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:37
@@ -67,7 +67,7 @@ msgid ""
 "`osm_local`. A browser window is opened showing the t-rex backend."
 msgstr ""
 "t-rex wird im Auto-Konfigurationsmodus gestartet und stellt eine Verbindung "
-"zur PostGIS-Datenbank 'osm_local' her. Es wird ein Browserfenster geöffnet, "
+"zur PostGIS-Datenbank `osm_local` her. Es wird ein Browserfenster geöffnet, "
 "das das t-rex-Backend zeigt."
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:44
@@ -85,7 +85,7 @@ msgstr ""
 msgid ""
 "Click on th `X-Ray` entry in the upper right menu to open the x-ray viewer."
 msgstr ""
-"Klicken Sie auf den Eintrag \"X-Ray\" im oberen rechten Menü, um den X-Ray-"
+"Klicken Sie auf den Eintrag `X-Ray` im oberen rechten Menü, um den X-Ray-"
 "Viewer zu öffnen."
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:49
@@ -120,8 +120,8 @@ msgstr ""
 msgid ""
 "Open any text editor (e.g. :menuselection:`Accessories --> FeatherPad`)."
 msgstr ""
-"Öffnen Sie einen Texteditor (z.B. :menuselection:'Accessories --> "
-"FeatherPad')."
+"Öffnen Sie einen Texteditor (z.B. :menuselection:`Accessories --> "
+"FeatherPad`)."
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:65
 msgid ""
@@ -129,7 +129,7 @@ msgid ""
 ":file:`/home/user/ne.toml`"
 msgstr ""
 "Erstellen Sie die Datei \"ne.toml\" in Ihrem Home-Verzeichnis: "
-":file:'/home/user/ne.toml'"
+":file:`/home/user/ne.toml`"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:68
 msgid "Put the following content in it::"
@@ -139,7 +139,7 @@ msgstr "Fügen Sie den folgenden Inhalt ein:"
 msgid ""
 "Open a terminal (:menuselection:`System Tools --> LXTerminal`) and type::"
 msgstr ""
-"Öffnen Sie ein Terminal (:menuselection:'System Tools --> LXTerminal') und "
+"Öffnen Sie ein Terminal (:menuselection:`System Tools --> LXTerminal`) und "
 "geben Sie ein::"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:115

@@ -54,7 +54,7 @@ pgRouting provides functions for:
 * Traveling Sales Person
 * And many more
 
-Learn more about pgRouting in the `documentation <http://docs.pgrouting.org>`__.
+Learn more about pgRouting in the `documentation <https://docs.pgrouting.org>`__.
 
 
 Details

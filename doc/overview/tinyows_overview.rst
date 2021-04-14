@@ -43,7 +43,7 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://mapserver.org/tinyows/
+**Website:** https://mapserver.org/tinyows/
 
 **Licence:** MIT
 

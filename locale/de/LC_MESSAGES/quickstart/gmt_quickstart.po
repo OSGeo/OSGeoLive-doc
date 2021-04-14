@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Andreas Schild <andreas.schild@bfw.gv.at>, 2019
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-06 18:01-0600\n"
+"PO-Revision-Date: 2017-09-20 16:05+0000\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
+"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:14
+msgid ""
+"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr ""
+"Das Projekt ist lediglich auf der OSGeoLive Virtual Machine Disk (VMDK)"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:20
+msgid "GMT Quickstart"
+msgstr "GMT Quickstart"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:22
+msgid ""
+"GMT is a collection of tools that allow users to manipulate (x,y) and "
+"(x,y,z) data sets (including filtering, trend fitting, gridding, projecting,"
+" etc.) and produce Encapsulated PostScript File (EPS) illustrations ranging "
+"from simple x-y plots through contour maps to artificially illuminated "
+"surfaces and 3-D perspective views in black and white, gray tone, hachure "
+"patterns, and 24-bit color."
+msgstr ""
+"GMT ist eine Sammlung von Werkzeugen, die es Benutzern erlauben, gezielt (x,"
+" y) und (x, y, z) Datensätze zu manipulieren (einschließlich Filterung, "
+"Trend-Fitting, Rasterung, Projektion, etc.) und Encapsulated PostScript "
+"Datei (EPS) Illustrationen zu produzieren, von einfachen xy-Plots über "
+"Reliefkarten bis hin zu künstlich beleuchteten Oberflächen und 3D "
+"Perspektive in Schwarz und Weiß, Graustufen, Mustern und 24-Bit-Farben."
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:29
+msgid ""
+"In this quick GMT tutorial we will use a digital terrain model (DTM) to "
+"generate a shaded relief map."
+msgstr ""
+"In diesem GMT-Tutorial verwenden wir ein digitales Geländemodell (DTM), um "
+"eine schattierte Reliefkarte zu generieren."
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:35
+msgid "Create a map"
+msgstr "Erstellen einer Karte"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:37
+msgid ""
+"As our input dataset we will use a DTM from the GRASS GIS example dataset, "
+"which is accessible by GDAL using the GDAL-GRASS driver."
+msgstr ""
+"Als Eingabe-Datensatz verwenden wir ein DTM aus dem GRASS GIS-Beispiel-"
+"Datensatz, auf das via GDAL mit dem GDAL-GRASS-Treiber zugegriffen werden "
+"kann."
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:39
+msgid ""
+"From a quick look at the DTM metadata, open a terminal and use the GDAL "
+"command `gdalinfo`:"
+msgstr ""
+"Öffnen Sie aus einem kurzen Blick auf die DTM-Metadaten ein Terminal und "
+"verwenden Sie den GDAL-Befehl `gdalinfo`:"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:51
+msgid ""
+"We can see the DTM is in a projected coordinate system and the data range is"
+" between 50 and 160 meters."
+msgstr ""
+"Wir können sehen, dass sich das DTM in einem projizierten Koordinatensystem "
+"befindet und der Datenbereich zwischen 50 und 160 Metern liegt."
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:53
+msgid ""
+"We can convert the DTM in a GMT Compatible netCDF file format with "
+"`gdal_translate` as follow:"
+msgstr ""
+"Wir können das DTM in ein GMT-kompatibles netCDF-Dateiformat mit "
+"`gdal_translate` wie folgt konvertieren:"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:59
+msgid ""
+"For our GMT example we will first transform the dataset into geographic "
+"coordinates Longitude-Latitude (EPSG:4326) using the `gdalwarp` command:"
+msgstr ""
+"Für unser GMT-Beispiel transformieren wir den Dtensatz zunächst mit dem "
+"Befehl `gdalwarp` in geographische Koordinaten Longitude-Latitude "
+"(EPSG:4326):"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:66
+msgid "Make a color palette"
+msgstr "Erstellen einer Farbpalette"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:68
+msgid ""
+"To assign a color map to our grid we can make a GMT color palette tables "
+"with the `makecpt` command. We will set the range and number of colors with "
+"the flag `-T` and assign a colormap with the flag `-C`."
+msgstr ""
+"Um unserem Raster eine Farbkarte zuzuweisen, können wir mit dem Befehl "
+"`makecpt` eine GMT-Farbpalettentabellen erstellen. Wir legen den Bereich und"
+" die Anzahl der Farben mit dem Flag `-T` fest und weisen eine Colormap mit "
+"dem Flag `-C` zu."
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:76
+msgid ""
+"You can experiment with other colortables, see `man gmt makecpt` for a "
+"complete list."
+msgstr ""
+"Sie können mit anderen Farbtabellen experimentieren, siehe `man gmt makecpt`"
+" für eine vollständige Liste."
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:79
+msgid "Define the gradient"
+msgstr "Definieren des Farbverlaufs (Gradient)"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:81
+msgid ""
+"For our shaded relief example we need to specify show how the color "
+"intensity is distributed along the grid. To do so, we will compute the "
+"directional derivative, or gradient, from our grid using the `grdgradient` "
+"command. In `grdgradient` we will use the `-Ne` flag to normalize the output"
+" using a cumulative Laplace distribution and the `-A` flag for Azimuthal "
+"direction for a directional derivative."
+msgstr ""
+"Für unser schattiertes Reliefbeispiel müssen wir angeben, wie die "
+"Farbintensität entlang des Rasters verteilt ist. Dazu berechnen wir die "
+"Richtungsableitung oder den Gradienten aus unserem Raster mit dem Befehl "
+"`grdgradient`. In `grdgradient` verwenden Sie das `-Ne`-Flag, um die Ausgabe"
+" mit einer kumulativen Laplace-Verteilung und das `-A`-Flag für "
+"Azimuthalrichtung für eine directional derivative zu normalisieren."
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:89
+msgid ""
+"The output is a netCDF file which can then be used as color intensity by the"
+" `grdimage` command as follow:"
+msgstr ""
+"Die Ausgabe ist eine netCDF-Datei, die dann als Farbintensität durch den "
+"Befehl `grdimage` wie folgt verwendet werden kann:"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:96
+msgid "Display the color bar"
+msgstr "Anzeigen der Farbleiste"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:98
+msgid "Finally we can add a colorbar with `psscale`:"
+msgstr "Schließlich können wir eine Farbleiste mit `psscale` hinzufügen:"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:105
+msgid ""
+"Here the flag `-D` is used to select the colorbar position `TC: Top Center`,"
+" the size `5x0.25` expressed in inches `i` the orientation by `h: "
+"horizontal` and the flag `-By` to set a label `m` on the `y axis`."
+msgstr ""
+"Hier wird das Flag `-D` verwendet, um die Farbbalkenposition `TC: Top "
+"Center`, die Größe `5x0.25` in Zoll `i` die Ausrichtung durch `h: "
+"horizontal` und das Flag `-By` auszuwählen, um eine Beschriftung `m` auf der"
+" `y-Achse` zu setzen."
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:108
+msgid "The output ps document should look like:"
+msgstr "Das Ausgabe-ps-Dokument sollte wie folgt aussehen:"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:117
+msgid "Things to try"
+msgstr "Was Sie noch ausprobieren können"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:119
+msgid ""
+"Look at some of the examples found in: `/usr/share/doc/gmt/examples "
+"<../../gmt/examples/>`_"
+msgstr ""
+"Schauen Sie sich einige der Beispiele an unter: `/usr/share/doc/gmt/examples"
+" <../../gmt/examples/>`_"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:127
+msgid ""
+"Go through the GMT tutorial and follow the several examples available in the"
+" src code. There are 30 example jobs built in, to test:"
+msgstr ""
+"Gehen Sie durch das GMT-Tutorial und folgen Sie den verschiedenen "
+"Beispielen, die im src-Code verfügbar sind. Es sind 30 Beispielaufträge zum "
+"Testen integriert:"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:130
+msgid "Open a terminal, then"
+msgstr "Öffnen Sie ein Terminal,"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:138
+msgid ""
+"To view the results in Ghostview (http://www.gnu.org/software/gv/) , use "
+"command `gv`. Type `q` to quit Ghostview."
+msgstr ""
+"Um die Ergebnisse in Ghostview (http://www.gnu.org/software/gv/) anzuzeigen,"
+" verwenden Sie den Befehl `gv`. Geben Sie `q` ein, um Ghostview zu beenden."
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:147
+msgid "What next?"
+msgstr "Was kommt als Nächstes?"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:149
+msgid ""
+"Have a read of the local documentation stored in: `/usr/share/doc/gmt/html/ "
+"<../../gmt/html/index.html>`_"
+msgstr ""
+"Lesen Sie die lokale Dokumentation, die unter `/usr/share/doc/gmt/html/ "
+"<../../gmt/html/index.html>`_ gespeichert ist."
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:151
+msgid "Website: https://gmt.soest.hawaii.edu"
+msgstr "Webseite: https://gmt.soest.hawaii.edu"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:153
+msgid "Support: https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
+msgstr "Support: https://gmt.soest.hawaii.edu/projects/gmt/boards/1"

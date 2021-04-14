@@ -36,7 +36,7 @@ become a proficient user when compared to software with a graphical
 user interface (GUI). Fortunately R is well documented on the web site
 which eases the learning process. Scripts are often used to automate
 processing steps but there are GUIs, the leading one being
-RStudio (https://rstudio.com).
+RStudio (https://www.rstudio.com).
 
 R is an implementation of the S programming language and there is
 significant compatibility between R and legacy S and S-Plus code as
