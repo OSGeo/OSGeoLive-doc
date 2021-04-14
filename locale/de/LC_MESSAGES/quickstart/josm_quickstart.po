@@ -65,12 +65,12 @@ msgid ""
 "From the desktop, choose :menuselection:`Navigation and Maps --> JOSM`. When"
 " JOSM starts, it will look something like this:"
 msgstr ""
-"Wählen Sie auf dem Desktop :menuselection:'Navigation and Maps --> JOSM'. "
+"Wählen Sie auf dem Desktop :menuselection:`Navigation and Maps --> JOSM`. "
 "Wenn JOSM startet, sieht es etwa so aus:"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:41
 msgid "Load a sample (ficticious) map"
-msgstr "Laden einer Beispielkarte (fiktive)"
+msgstr "Laden einer Beispielkarte (fiktiv)"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:43
 msgid ""
@@ -80,7 +80,7 @@ msgid ""
 msgstr ""
 "Öffnen wir nun eine OSM Beispieldatei, an der wir die grundlegende "
 "Erstellung von Karten mit JOSM lernen. Da diese Karte keinen realen Ort "
-"repräsentiert, werden wir sie natürlich nicht in Openstreetmap speichern."
+"repräsentiert, werden wir sie natürlich nicht in OpenStreetMap speichern."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:47
 msgid ""
@@ -321,7 +321,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:153
 msgid "Before you draw, you need to make sure that nothing is selected."
-msgstr "Before you draw, you need to make sure that nothing is selected. "
+msgstr ""
+"Bevor Sie zeichnen, müssen Sie sicherstellen, dass nichts ausgewählt ist."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:155
 msgid ""

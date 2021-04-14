@@ -103,7 +103,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/jupyter_overview.rst:58
-msgid "**Website:** http://jupyter.org/"
+msgid "**Website:** https://jupyter.org/"
 msgstr ""
 
 #: ../../build/doc/overview/jupyter_overview.rst:60
@@ -123,7 +123,7 @@ msgid "**API Interfaces:** Python"
 msgstr ""
 
 #: ../../build/doc/overview/jupyter_overview.rst:68
-msgid "**Support:** http://jupyter.org/community.html"
+msgid "**Support:** https://jupyter.org/community.html"
 msgstr ""
 
 #: ../../build/doc/overview/jupyter_overview.rst:74

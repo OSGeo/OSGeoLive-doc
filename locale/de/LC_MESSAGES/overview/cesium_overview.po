@@ -84,9 +84,9 @@ msgid "Draw 3D models using COLLADA and glTF."
 msgstr "Zeichnet 3D Modelle mit Hilfe von COLLADA und glTF."
 
 #: ../../build/doc/overview/cesium_overview.rst:38
-msgid "Use `plugins <https://cesium.com/cesiumjs>`_ to extend Cesium."
+msgid "Use `plugins <https://cesium.com/platform/cesiumjs/>`_ to extend Cesium."
 msgstr ""
-"Mit Hilfe von `Plugins <https://cesium.com/cesiumjs>`_ kann Cesium erweitert"
+"Mit Hilfe von `Plugins <https://cesium.com/platform/cesiumjs/>`_ kann Cesium erweitert"
 " werden."
 
 #: ../../build/doc/overview/cesium_overview.rst:40

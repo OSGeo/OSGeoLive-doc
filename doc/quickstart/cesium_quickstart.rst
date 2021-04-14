@@ -21,7 +21,7 @@ This guide shows how to use the Cesium with the 3D (Globe), 2.5D (Columbus View)
 .. contents:: Contents
    :local:
 
-Start Cesium 
+Start Cesium
 ============
 
 Open the browser and point it to http://localhost/cesium/Apps/HelloWorld.html
@@ -66,6 +66,6 @@ What next?
 
 * You can develop some quick applications using the `Sandcastle website <https://sandcastle.cesium.com/index.html>`_. Sandcastle is generally one of the best ways to learn about Cesium, and all the code examples are useful for this purpose.
 
-* The `Cesium Forum <https://community.cesium.com`_ is a great place to search for answers to common questions, and to raise questions that haven't been asked before.
+* The `Cesium Forum <https://community.cesium.com>`_ is a great place to search for answers to common questions, and to raise questions that haven't been asked before.
 
 * In-depth documentation is available `locally <http://localhost/cesium/>`_ on the OSGeoLive package.

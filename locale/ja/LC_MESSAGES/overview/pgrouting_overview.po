@@ -111,9 +111,9 @@ msgstr "その他多数"
 #: ../../build/doc/overview/pgrouting_overview.rst:67
 msgid ""
 "Learn more about pgRouting in the `documentation "
-"<http://docs.pgrouting.org>`__."
+"<https://docs.pgrouting.org>`__."
 msgstr ""
-"pgRouting についてもっと知りたい場合は `ドキュメント <http://docs.pgrouting.org>`__ を参照してください。"
+"pgRouting についてもっと知りたい場合は `ドキュメント <https://docs.pgrouting.org>`__ を参照してください。"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:71
 msgid "Details"

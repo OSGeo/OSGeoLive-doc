@@ -5,8 +5,8 @@
 # 
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
-# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # Vicky Vergara <vicky@georepublic.de>, 2021
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-21 12:32-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -133,7 +133,7 @@ msgid ""
 "OpenStreetMap data can be loaded in **QGIS** as vector layer, as a core "
 "functionality or through plugins like QuickOSM."
 msgstr ""
-"OpenStreetMap-Daten können mit ** QGIS ** als Vektor-Layer geladen werden: "
+"OpenStreetMap-Daten können mit **QGIS** als Vektor-Layer geladen werden. "
 "Diese Möglichkeit liegt als Kernfunktionalität vor oder kann durch Plugins "
 "wie QuickOSM erfolgen."
 
@@ -146,7 +146,7 @@ msgid ""
 "Online help: "
 "https://wiki.openstreetmap.org/wiki/QGIS#QGIS_2:_Importing_OSM_vector_layers"
 msgstr ""
-"Online Hilfe: "
+"Online-Hilfe: "
 "https://wiki.openstreetmap.org/wiki/QGIS#QGIS_2:_Importing_OSM_vector_layers"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:79
@@ -163,9 +163,9 @@ msgid ""
 " a raw level on OSM data. This includes data import and export to databases,"
 " sorting, cleaning, and creating data dumps."
 msgstr ""
-"**Osmose** ist ein äußerst fähiges Werkzeug für viele Aufgaben mit OSM-"
+"**Osmosis** ist ein äußerst fähiges Werkzeug für viele Aufgaben mit OSM-"
 "Rohdaten. Dazu gehören Datenimport und Export, Datenbanken, Sortierung, "
-"Reinigung und Erstellen von Daten-Sicherung."
+"Bereinigung von Daten und Erstellen von Daten-Sicherungen."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:88
 msgid "Documentation: https://wiki.openstreetmap.org/wiki/Osmosis#Usage"
@@ -189,7 +189,7 @@ msgstr ""
 "**osm2pgsql** ist ein Hilfsprogramm, das (.osm) OpenStreetMap-Daten in ein "
 "Format umwandelt, das in PostgreSQL (PostGIS) geladen werden kann. Es wird "
 "oft zum Rendern von OSM-Daten über Mapnik verwendet, da  Mapnik PostgreSQL "
-"unterstützt, aber nicht direkt mit OSM-Dateien funktioniert."
+"unterstützt, aber OSM-Dateien nicht direkt unterstützt. "
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:101
 msgid "Homepage: https://wiki.openstreetmap.org/wiki/Osm2pgsql"
@@ -210,10 +210,10 @@ msgid ""
 " system at `/usr/local/share/data/osm/` or in the PostgreSQL database "
 "`osm_local`."
 msgstr ""
-"OSGeoLive enthält OSM-Daten für die Stadt, in der die globale \"FOSS4G-"
-"Konferenz\" <https: foss4g.org=\"\">stattfindet. Die Daten finden Sie im "
+"OSGeoLive enthält OSM-Daten für die Stadt, in der die globale `FOSS4G- "
+"Konferenz <https://foss4g.org>`_ stattfindet. Die Daten finden Sie im "
 "Dateisystem unter '/usr/local/share/data/osm/' oder in der PostgreSQL-"
-"Datenbank 'osm_local'.</https:>"
+"Datenbank 'osm_local'."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:111
 msgid "Start QGIS and have a look at the data."
@@ -221,11 +221,11 @@ msgstr "Starten Sie QGIS und werfen Sie einen Blick auf die Daten."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:113
 msgid "Open the `Desktop GIS` folder."
-msgstr "Öffnen Sie den Ordner \"Desktop GIS\"."
+msgstr "Öffnen Sie den Ordner `Desktop GIS`."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:114
 msgid "Double click on the `QGIS` icon."
-msgstr "Doppelklicken Sie auf das \"QGIS\"-Symbol."
+msgstr "Doppelklicken Sie auf das `QGIS`-Symbol."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:115
 msgid "Go the browser panel on the left of the screen."
@@ -237,14 +237,14 @@ msgid ""
 "Navigate to `PostGIS` and then to the database `osm_local`. You will find "
 "the data in the schema `public`."
 msgstr ""
-"Navigieren Sie zu 'PostGIS' und dann zur Datenbank 'osm_local'. Sie finden "
-"die Daten im Schema 'public'."
+"Navigieren Sie zu `PostGIS` und dann zur Datenbank `osm_local`. Sie finden "
+"die Daten im Schema `public`."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:117
 msgid ""
 "Drag the layers from the `Browser` panel and drop them in the map canvas."
 msgstr ""
-"Ziehen Sie die Layer aus dem \"Browser\"-Bedienfeld, und legen Sie sie im "
+"Ziehen Sie die Layer aus dem `Browser`-Bedienfeld, und legen Sie sie im "
 "Kartenbereich ab."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:122
@@ -276,12 +276,12 @@ msgid ""
 "You have to enable the Plugin in QGIS. Search for `QuickOSM` from `Plugins "
 "--> Manage and Install Plugins` in QGIS"
 msgstr ""
-"Sie müssen das Plugin in QGIS aktivieren. Suchen Sie nach 'QuickOSM' unter "
-"'Plugins --> Verwalten und Installieren von Plugins' in QGIS"
+"Sie müssen das Plugin in QGIS aktivieren. Suchen Sie nach `QuickOSM` unter "
+"`Plugins --> Verwalten und Installieren von Plugins` in QGIS"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:135
 msgid "Open QuickOSM from `Vector --> QuickOSM --> QuickOSM`"
-msgstr "Öffnen Sie QuickOSM über 'Vector --> QuickOSM --> QuickOSM'"
+msgstr "Öffnen Sie QuickOSM über `Vector --> QuickOSM --> QuickOSM`"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:136
 #: ../../build/doc/quickstart/osm_quickstart.rst:195
@@ -290,7 +290,7 @@ msgstr "Suche nach allen Kneipen in der FOSS4G Stadt"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:137
 msgid "Choose key `amenity`, value `pub`, in `Buenos Aires`"
-msgstr "Wählen Sie den Schlüssel 'amenity', Wert 'pub', in 'Buenos Aires'"
+msgstr "Wählen Sie den Schlüssel `amenity` Wert `pub`, in `Buenos Aires`"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:138
 msgid "Show the query to see the Overpass query"
@@ -301,7 +301,7 @@ msgid ""
 "Click  `Run query`. The resulting data will be loaded in your QGIS project "
 "as temporal data"
 msgstr ""
-"Klicken Sie auf 'Abfrage ausführen'. Die resultierenden Daten werden in Ihr "
+"Klicken Sie auf `Abfrage ausführen`. Die resultierenden Daten werden in Ihr "
 "QGIS-Projekt als temporäre Daten geladen."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:140
@@ -309,8 +309,8 @@ msgid ""
 "You can now save the data via `Export -> Save as....`. Choose i.e. "
 "Geopackage and save the data as `buenos_aires_pubs`."
 msgstr ""
-"Sie können die Daten jetzt über 'Export -> Save as....' speichern. Wählen "
-"Sie z.B. Geopackage und speichern Sie die Daten als \"buenos_aires_pubs\"."
+"Sie können die Daten jetzt über `Export -> Save as....` speichern. Wählen "
+"Sie z.B. Geopackage und speichern Sie die Daten als `buenos_aires_pubs`."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:142
 msgid ""
@@ -318,7 +318,7 @@ msgid ""
 "repository."
 msgstr ""
 "Sie finden auch viele OSM Plugins für QGIS. Suchen Sie im Plugin-Repository "
-"nach 'OSM'."
+"nach `OSM`."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:146
 msgid "Using OSM as basemap in QGIS"
@@ -334,7 +334,7 @@ msgid ""
 "the `Browser Panel` under `XYZ Tiles`."
 msgstr ""
 "Standardmäßig kommt QGIS mit einem OpenStreetMap Basemap Layer. Dieses "
-"befindet sich im 'Browser-Panel' unter 'XYZ Tiles'."
+"befindet sich im `Browser-Panel` unter `XYZ Tiles`."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:157
 msgid "QuickMapServices"
@@ -345,7 +345,7 @@ msgid ""
 "`QuickMapServices` plugin allows you to easily add various map services as "
 "basemaps with one click in QGIS."
 msgstr ""
-"Mit dem 'QuickMapServices'-Plugin können Sie ganz einfach verschiedene "
+"Mit dem `QuickMapServices`-Plugin können Sie ganz einfach verschiedene "
 "Karten-Services als Basiskarten mit einem Klick in QGIS hinzufügen."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:161
@@ -357,13 +357,13 @@ msgid ""
 "You have to enable the Plugin in QGIS. Search for `QuickMapServices` from "
 "`Plugins --> Manage and Install Plugins` in QGIS"
 msgstr ""
-"Sie müssen das Plugin in QGIS aktivieren. Suchen Sie nach 'QuickMapServices'"
-" unter 'Plugins --> Verwalten und Installieren von Plugins' in QGIS"
+"Sie müssen das Plugin in QGIS aktivieren. Suchen Sie nach `QuickMapServices`"
+" unter `Plugins --> Verwalten und Installieren von Plugins` in QGIS"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:164
 msgid "Add an OSM basemap from `Web --> QuickMapServices --> OSM`"
 msgstr ""
-"Hinzufügen einer OSM-Grundkarte aus 'Web --> QuickMapServices --> OSM'"
+"Hinzufügen einer OSM-Grundkarte aus `Web --> QuickMapServices --> OSM`"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:170
 msgid "Start working with OSM data"
@@ -397,12 +397,12 @@ msgid ""
 "`.osm.pbf`, `.shp.zip` and `.osm.bz2`. `.osm.pbf` and`.shp.zip` can be "
 "opened directly in QGIS."
 msgstr ""
-"Die 'Geofabrik <https: download.geofabrik.de/=\"\">'_ bietet tagesaktuelle "
+"Die `Geofabrik <https://download.geofabrik.de/>`_  bietet tagesaktuelle "
 "weltweite OpenStreetMap-Datenextrakte nach Subregion und Land zum Downlaod. "
 "Wählen Sie die Region oder das Land, für das Sie sich interessieren aus. Die"
-" Daten werden in drei Formaten bereitgestellt: '.osm.pbf', '.shp.zip' und "
-"'.osm.bz2'. '.osm.pbf' und '.shp.zip' und können direkt in QGIS geöffnet "
-"werden.</https:>"
+" Daten werden in drei Formaten bereitgestellt: `.osm.pbf`, `.shp.zip` und "
+"`.osm.bz2`., `.osm.pbf` und `.shp.zip` und können direkt in QGIS geöffnet "
+"werden."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:184
 msgid ""
@@ -411,7 +411,7 @@ msgid ""
 "https://wiki.openstreetmap.org/wiki/OSM_XML"
 msgstr ""
 "**.osm.bz2** enthält rohe OSM-XML-Dateien `.osm`, `osm2pgsql`_ funktioniert "
-"gut mit bz2-Dateien, erfahren Sie mehr über die Arbeit mit ihnen unter "
+"gut mit bz2-Dateien. Erfahren Sie mehr über die Arbeit mit ihnen unter "
 "https://wiki.openstreetmap.org/wiki/OSM_XML"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:188
@@ -447,13 +447,14 @@ msgstr ""
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:197
 msgid "Then click the button `build and run query`"
-msgstr "Klicken Sie dann auf die Schaltfläche \"Abfrage erstellen und ausführen\""
+msgstr ""
+"Klicken Sie dann auf die Schaltfläche `Abfrage erstellen und ausführen`"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:198
 msgid "Click `zoom to data` in the map canvas to navigate to your results"
 msgstr ""
-"Klicken Sie im Kartenbereich auf \"Zoom auf Daten\", um zu Ihren Ergebnissen"
-" zu navigieren"
+"Klicken Sie im Kartenbereich auf `Zoom auf Daten`, um zu Ihren Ergebnissen "
+"zu navigieren"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:204
 msgid "HOT Export Tool"

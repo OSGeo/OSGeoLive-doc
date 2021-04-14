@@ -82,7 +82,7 @@ Y | otb | 6.6.1 | Y | Y | Spatial Tools | | Image Processing | otb | https://www
 #   OSGeo Community | | | | | | | | | | | |
 #   Others  | | | | | | | | | | | |
 Y | gmt | 5.4.5 | Y | Y | Spatial Tools | 11 | Cartographic Rendering | GMT | https://gmt.soest.hawaii.edu | | GMT | N
-Y | jupyter | 4.6.3 | Y | Y | Spatial Tools | | Mixing rich media in presentations | jupyter_notebook | http://jupyter.org/ | | Jupyter Notebook | Y
+Y | jupyter | 4.6.3 | Y | Y | Spatial Tools | | Mixing rich media in presentations | jupyter_notebook | https://jupyter.org/ | | Jupyter Notebook | Y
 Y | mapnik | 3.0.22 | Y | Y | Spatial Tools | | Cartographic Rendering | mapnik | https://mapnik.org/ | | Mapnik | Y
 Y | R | 3.4.4 | Y | Y | Spatial Tools | | Statistical Programming | R_project | https://cran.r-project.org | | R | Y
 ###################### | | | | | | | | | | | |
@@ -91,7 +91,7 @@ Y | R | 3.4.4 | Y | Y | Spatial Tools | | Statistical Programming | R_project | 
 #   OSGeo Projects | | | | | | | | | | | |
 #   OSGeo Community | | | | | | | | | | | |
 #   Others  | | | | | | | | | | | |
-Y | xygrib | 1.2.6 | Y | Y | Domain Specific GIS | | Weather Forecast Maps | | https://opengribs.org | | XyGrib | Y
+Y | xygrib | 1.2.6 | Y | Y | Domain Specific GIS | | Weather Forecast Maps | | https://opengribs.org/en | | XyGrib | Y
 ###################### | | | | | | | | | | | |
 #   Data | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |
@@ -147,4 +147,4 @@ N | ushahidi | retired | Y | Y | Domain Specific GIS | 11 | | ushahidi | http://
 N | viking | retired | Y | Y | Navigation and Maps | 11 | GPS Data Analysis and Viewer | viking | http://sourceforge.net/apps/mediawiki/viking/ | | Viking | N
 N | worldwindjava | | Y | Y | Navigation and Maps | 11 | Desktop Virtual Globe | | http://goworldwind.org/ | | goWorldWind | N
 N | kosmo | retired | Y | Y | Desktop GIS | | | kosmo_desktop | http://www.opengis.es/index.php?lang=en | | Kosmo_desktop | N
-N | tinyows | retire? | Y | Y | Web Services | | WFS-T Service | tinyows | http://mapserver.org/tinyows/ | OSGeo_project | TinyOWS | N
+N | tinyows | retire? | Y | Y | Web Services | | WFS-T Service | tinyows | https://mapserver.org/tinyows/ | OSGeo_project | TinyOWS | N

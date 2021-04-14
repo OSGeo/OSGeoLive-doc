@@ -56,7 +56,7 @@ Things you can see:
 * Online maps like OpenStreetMap_, `ArcGIS Online`_, or `NASA OnEarth`_
 
 .. _WMS: http://www.opengeospatial.org
-.. _MapServer: http://mapserver.org
+.. _MapServer: https://mapserver.org
 .. _`ESRI ArcGIS Server`: http://www.esri.com/software/arcgis/arcgisserver/
 .. _OpenStreetMap: http://openstreetmap.org
 .. _`ArcGIS Online`: http://resources.esri.com/arcgisonlineservices/

@@ -6,7 +6,7 @@
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Astrid Emde <astrid_emde@osgeo.org>, 2020
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-28 21:50-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2020\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -84,7 +84,7 @@ msgid ""
 "Choose :menuselection:`Geospatial --> Spatial Tools --> R Statistics`. A "
 "terminal window opens running R."
 msgstr ""
-"Wählen Sie :menuselection:'Geospatial --> Spatial Tools --> R Statistics'. "
+"Wählen Sie :menuselection:`Geospatial --> Spatial Tools --> R Statistics`. "
 "Ein Terminalfenster öffnet sich mit R."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:45
@@ -99,8 +99,7 @@ msgid ""
 msgstr ""
 "Eine vollständige Palette von arithmetischen, trigonometrischen und "
 "statistischen Funktionen sind integriert, und Tausende weitere sind über "
-"Paketen im <https: cran.r-project.org/=\"\">'CRAN'_-Archiv "
-"verfügbar.</https:>"
+"Paketen im `CRAN <https://cran.r-project.org/>`_ Archiv verfügbar.</https:>"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:66
 msgid ""
@@ -108,8 +107,8 @@ msgid ""
 "``+``, which appears if R expects more input to make a valid expression. "
 "You'll see this if you forget a closing bracket or parenthesis."
 msgstr ""
-"Die Haupteingabeaufforderung in R ist ''>'', aber es gibt auch die "
-"Fortsetzungsaufforderung ''+'', die angezeigt wird, wenn R erwartet, dass "
+"Die Haupteingabeaufforderung in R ist ``>``, aber es gibt auch die "
+"Fortsetzungsaufforderung ``+``, die angezeigt wird, wenn R erwartet, dass "
 "weitere Eingaben erst einen gültigen Ausdruck ergeben. Sie werden dies "
 "sehen, wenn Sie beispielsweise eine schließende Klammer vergessen haben."
 
@@ -212,7 +211,7 @@ msgid ""
 msgstr ""
 "Wenn ein OGR Datensatz auf diese Weise nach R eingelesen wird, bekommen wir "
 "ein Objekt, dass sich in vielerlei Hinsicht wie ein Daten Frame verhält. Wir"
-" können die Spalte ``COUNTRY`` benutzen, um eine Teilmenge der Weltdaten, "
+" können die Spalte ``admin`` benutzen, um eine Teilmenge der Weltdaten, "
 "nämlich nur das UK zu bekommen:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:207
@@ -270,10 +269,10 @@ msgid ""
 "your workspace as an R data image file. When you start R again from a "
 "directory with a ``.RData`` file it will restore all its data from there."
 msgstr ""
-"Um R zu beenden, geben Sie ''q()'' ein und drücken Sie return. R fragt Sie, "
+"Um R zu beenden, geben Sie ``q()`` ein und drücken Sie return. R fragt Sie, "
 "ob Sie Ihren Arbeitsbereich als R-Data-Image-Datei speichern möchten. Wenn "
-"Sie R erneut aus einem Verzeichnis mit einer `.RData``-Datei starten,  wird "
-"R alle seine Daten daraus wiederherstellen."
+"Sie R erneut aus einem Verzeichnis mit einer ``.RData``-Datei starten,  wird"
+" R alle seine Daten daraus wiederherstellen."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:260
 msgid "Vignettes"
@@ -289,7 +288,7 @@ msgid ""
 " introduction to the R spatial package."
 msgstr ""
 "In der Vergangenheit waren die Dokumentationen für R-Pakete eher knapp. Nun "
-"werden Autoren von Paketen aufgefordert eine 'Vignette' , d.h. eine "
+"werden Autoren von Paketen aufgefordert eine ``Vignette`` , d.h. eine "
 "Einführung für ihr Paket zu schreiben. Wenn Sie nun einfach die "
 "``vignette()``-Funktion ohne Argumente aufrufen, erhalten Sie eine Liste "
 "dieser Vignetten auf ihrem System. Rufen Sie ``vignette(\"sf1\")`` für eine "

@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:10
 msgid "Running in a Virtual Machine"
-msgstr ""
+msgstr "Ausführen einer virtuellen Maschine"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:12
 msgid ""
@@ -255,12 +255,16 @@ msgid ""
 "You should install the virtualbox guest additions, this will allow you to "
 "use full-screen mode."
 msgstr ""
+"Sie sollten die Virtualbox-Gast-Erweiterung installieren, um den "
+"Vollbildmodus verwenden können."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:98
 msgid ""
 "``sudo apt-get install --yes virtualbox-guest-dkms virtualbox-guest-utils "
 "virtualbox-guest-x11``"
 msgstr ""
+"``sudo apt-get install --yes virtualbox-guest-dkms virtualbox-guest-utils "
+"virtualbox-guest-x11``"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:100
 msgid "When you install the iso on the VM, the username must be set to \"user\""

@@ -5,8 +5,8 @@
 # 
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
-# Astrid Emde <astrid_emde@osgeo.org>, 2019
-# Vicky Vergara <vicky@georepublic.de>, 2020
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
+# Vicky Vergara <vicky@georepublic.de>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,7 +64,7 @@ msgid ""
 "An OSGeoLive ISO image (downloaded from: :doc:`OSGeoLive downloads "
 "<../download>`) or converted from a DVD."
 msgstr ""
-"Ein OSGeoLive ISO-Image (heruntergeladen von: :doc:`OSGeoLive downloads "
+"Ein OSGeoLive ISO-Image (heruntergeladen von: ::doc:`OSGeoLive downloads "
 "<../download>`) oder nutzen Sie es von einer DVD."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:21
@@ -98,22 +98,22 @@ msgstr ""
 "ISO-Images für OSGeoLive 10.5 und höher sind *isohybrid* (und für amd64, sie"
 " unterstützen auch UEFI boot). Unter Linux können diese Images direkt auf "
 "das Blockgerät für ein USB-Laufwerk mit dem Befehlszeilen-Dienstprogramm "
-"''dd'' geschrieben werden:"
+"``dd`` geschrieben werden:"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:33
 msgid ""
 "``/dev/sdX`` is the block device for the USB drive, where ``X`` might be "
 "``b`` or ``c``."
 msgstr ""
-"''/dev/sdX'' ist das Block Device für das USB-Laufwerk, wobei ''X'' ''b'' "
-"oder ''c''' sein könnte."
+"``/dev/sdX`` ist das Block Device für das USB-Laufwerk, wobei ``X`` ``b`` "
+"oder ``c`` sein könnte."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:34
 msgid ""
 "Use ``lsblk`` to list block devices and ``dmesg`` to see kernel messages "
 "identifying the USB drive when it is connected."
 msgstr ""
-"Verwenden Sie ''lsblk'', um Block Devices aufzulisten, und ''dmesg''' um "
+"Verwenden Sie ``lsblk``, um Block Devices aufzulisten, und ``dmesg`` um "
 "Kernel-Nachrichten anzuzeigen, die das USB-Laufwerk identifizieren, wenn es "
 "angeschlossen ist."
 
@@ -124,7 +124,7 @@ msgstr "Der USB-Stick darf nicht gemountet sein."
 #: ../../build/doc/quickstart/usb_quickstart.rst:36
 msgid "``sudo`` is not required if the command is run as ``root``."
 msgstr ""
-"''sudo'' ist nicht erforderlich, wenn der Befehl als ''root'' ausgeführt "
+"``sudo`` ist nicht erforderlich, wenn der Befehl als ``root`` ausgeführt "
 "wird."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:39
@@ -132,7 +132,7 @@ msgid ""
 "Be certain to select the correct block device as ``dd`` will overwrite it "
 "without question, even if it is your primary system drive."
 msgstr ""
-"Achten Sie darauf, das richtige Block Device als ''dd'' zu wählen, es wird "
+"Achten Sie darauf, das richtige Block Device als ``dd`` zu wählen, es wird "
 "ohne Rückfrage überschreiben, auch wenn es Ihr primäres Systemlaufwerk ist."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:42

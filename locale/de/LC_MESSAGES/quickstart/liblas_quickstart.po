@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2019
-# Astrid Emde <astrid_emde@osgeo.org>, 2020
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2020\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,6 +33,11 @@ msgid ""
 "data from LiDAR sensors and by LiDAR processing software for data "
 "interchange and archival."
 msgstr ""
+"libLAS ist eine C/C++ Bibliothek zum Lesen und Schreiben des sehr "
+"verbreiteten `LAS` `LiDAR`_ Formats. Das `ASPRS LAS Format`_ ist ein "
+"sequentielles Binärformat, das zum Speichern von Daten von LiDAR Sensoren "
+"und von LiDAR Prozessierungssoftware für den Datenaustausch und die "
+"Archivierung verwendet wird."
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:22
 msgid ""
@@ -43,6 +48,13 @@ msgid ""
 "measurements representing distance from the sensor to a returned emission. A"
 " common storage format for these point cloud data is ASPRS LAS format."
 msgstr ""
+"LiDAR (Light Detection and Ranging) ist eine Form von hochpräziser "
+"Bereichsermittlung ähnlich einem Radarsystem, das Laserstrahlen als "
+"electromagnetische Emissionen nutzt. Eines der LiDAR Systems' Produkte ist "
+"ein \"Punktwolken\"-Daten-Produkt, das eine Serie von Punktmessungen "
+"erfasst, die eine Entfernung von einem Sensor zu einerr empfangenen Emission"
+" darstellen. Ein übliches Speicherformat für diese Punktwolken ist das ASPRS"
+" LAS Format."
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:28
 msgid "Processing"
@@ -77,6 +89,12 @@ msgid ""
 "the `EPSG`_ database.  Another source of information about coordinate "
 "systems in https://spatialreference.org."
 msgstr ""
+"Alle LAS-Daten befinden sich in einer Art Koordinatensystem, auch wenn "
+"dieses Koordinatensystem nicht in der LAS-Datei beschrieben ist.  Bei "
+"terrestrischen LAS-Daten werden diese Koordinatensystembeschreibungen häufig"
+" den Koordinatensystemen zugeordnet, die von der Datenbank `EPSG`_ "
+"beschrieben werden.  Eine weitere Informationsquelle über Koordinatensysteme"
+" in http://spatialreference.org."
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:52
 msgid ""
@@ -153,8 +171,8 @@ msgstr "Was kommt als Nächstes?"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:136
 msgid "Website: https://liblas.org"
-msgstr ""
+msgstr "Webseite: https://liblas.org"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:137
 msgid "Support: https://liblas.org/community.html"
-msgstr ""
+msgstr "Support: https://liblas.org/community.html"

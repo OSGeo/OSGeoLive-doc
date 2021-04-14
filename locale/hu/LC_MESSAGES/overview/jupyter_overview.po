@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011, OSGeo
+# This file is distributed under the same license as the OSGeo-Live package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-03 08:36-0500\n"
+"PO-Revision-Date: 2017-09-20 16:07+0000\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
+"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/overview/jupyter_overview.rst:13
+msgid "Jupyter Notebook"
+msgstr "Jupyter jegyzettömb"
+
+#: ../../build/doc/overview/jupyter_overview.rst:16
+msgid "Mixing rich media in documentation"
+msgstr "Multimédiás tartalom hozzáadása a dokumentációhoz"
+
+#: ../../build/doc/overview/jupyter_overview.rst:18
+msgid ""
+"The Jupyter Notebook is a web application that allows you to create and "
+"share documents that contain live code, equations, visualizations and "
+"explanatory text."
+msgstr ""
+"A Jupyter jegyzettömb egy web alkalmazás, mely lehetővé teszi önnek élő "
+"kódot, egyenleteket, vizualizációt és magyarázó szöveget tartalmazó "
+"dokumentumok létrehozását és megosztását."
+
+#: ../../build/doc/overview/jupyter_overview.rst:20
+msgid "It combines two components:"
+msgstr "Két összetevőt egyesít:"
+
+#: ../../build/doc/overview/jupyter_overview.rst:34
+msgid ""
+"A web application providing browser-based, interactive authoring of notebook"
+" documents."
+msgstr ""
+"Egy web alkalmazás, mely egy böngésző alapú , interaktív jegyzettömb "
+"dokumentáció készítését biztosítja."
+
+#: ../../build/doc/overview/jupyter_overview.rst:36
+msgid ""
+"Notebook documents which store a representation of all content visible in "
+"the web application, including inputs and outputs of computations, "
+"explanatory text, mathematics, code, images, videos, graphs, maps, and other"
+" rich media representations of objects."
+msgstr ""
+"Notebook dokumentumok, amelyek a webes alkalmazásban látható összes tartalom"
+" ábrázolását tárolják, beleértve a számítások bemeneteit és kimeneteit, "
+"magyarázó szöveget, matematikát, kódot, képeket, videókat, grafikonokat, "
+"térképeket és más multimédiás objektumokat."
+
+#: ../../build/doc/overview/jupyter_overview.rst:38
+msgid ""
+"Notebooks can be shared with others on GitHub, Dropbox, and the `Jupyter "
+"Notebook Viewer <https://nbviewer.jupyter.org/>`_."
+msgstr ""
+"A jegyzettömbök megoszthatók másokkal a GitHun-on, Dropbox-on és a `Jupyter "
+"Notebook Viewer-en <https://nbviewer.jupyter.org/>`_ keresztül."
+
+#: ../../build/doc/overview/jupyter_overview.rst:40
+msgid ""
+"Uses include: data cleaning and transformation, numerical simulation, "
+"statistical modeling, machine learning and much more."
+msgstr ""
+"A felhasználás lehet: adat tisztítás és transzformálás, numerikus "
+"szimuláció, statisztikai modellezés, gépi tanulás és még továbbiak."
+
+#: ../../build/doc/overview/jupyter_overview.rst:43
+msgid "Core Features"
+msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/jupyter_overview.rst:45
+msgid "Create Jupyter notebooks which can contain:"
+msgstr ""
+"Hozzon létre Jupiter jegyzettömböt, mely a következőket tartalmazhatja:"
+
+#: ../../build/doc/overview/jupyter_overview.rst:47
+msgid "Marked up text (with headings, styles, paragraphs, etc)"
+msgstr "Jelölt szöveg (címsorokkal, stílusokkal, bekezdésekkel stb.)"
+
+#: ../../build/doc/overview/jupyter_overview.rst:48
+msgid "Formulas, mathematics, plots, maps, ..."
+msgstr "Képletek, matematika, grafikonok, térképek, ..."
+
+#: ../../build/doc/overview/jupyter_overview.rst:49
+msgid "Imported external libraries to add functionality."
+msgstr "Importált külső könyvtárak további funkcionalitás hozzáadásához."
+
+#: ../../build/doc/overview/jupyter_overview.rst:50
+msgid ""
+"Code from multiple programming languages, including python, R, Julia, Bash "
+"and many more."
+msgstr "Kód több program nyelvhez, Python, R, Julia, Bash és még továbbiak."
+
+#: ../../build/doc/overview/jupyter_overview.rst:52
+msgid "Jupyter notebooks on OSGeo-Live can use geospatial functions from:"
+msgstr ""
+"Az OSGeoLive-on a Jupiter jegyzettömb a következők térbeli funkcióit "
+"használhatja:"
+
+#: ../../build/doc/overview/jupyter_overview.rst:54
+msgid ""
+"Numpy, SciPy Matplotlib, IRIS, Cartopy, gdal, Geopandas, pyshp, Fiona, "
+"netCDF4, PostgreSQL, psycopg2, R, rpy2, and more."
+msgstr ""
+"Numpy, SciPy Matplotlib, IRIS, Cartopy, gdal, Geopandas, pyshp, Fiona, "
+"netCDF4, PostgreSQL, psycopg2, R, rpy2, és még továbbiak."
+
+#: ../../build/doc/overview/jupyter_overview.rst:57
+msgid "Details"
+msgstr "Részletek"
+
+#: ../../build/doc/overview/jupyter_overview.rst:59
+msgid "**Website:** https://jupyter.org/"
+msgstr "**Honlap:** https://jupyter.org/"
+
+#: ../../build/doc/overview/jupyter_overview.rst:61
+msgid "**Licence:** revised BSD license"
+msgstr "**Licenc:** revised BSD license"
+
+#: ../../build/doc/overview/jupyter_overview.rst:63
+msgid "**Software Version:** |version-jupyter|"
+msgstr "**Szoftver verzió:** |version-jupyter|"
+
+#: ../../build/doc/overview/jupyter_overview.rst:65
+msgid "**Supported Platforms:** Linux, Mac, Windows"
+msgstr "**Támogatott platformok:** Linux, Mac, Windows"
+
+#: ../../build/doc/overview/jupyter_overview.rst:67
+msgid "**API Interfaces:** Python"
+msgstr "**API interfészek:** Python"
+
+#: ../../build/doc/overview/jupyter_overview.rst:69
+msgid "**Support:**  https://jupyter.org/community.html"
+msgstr "**Támogatás:**  https://jupyter.org/community.html"
+
+#: ../../build/doc/overview/jupyter_overview.rst:73
+msgid "Quickstart"
+msgstr "Gyorstalpaló"
+
+#: ../../build/doc/overview/jupyter_overview.rst:75
+msgid ":doc:`Quickstart documentation <../quickstart/jupyter_quickstart>`"
+msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/jupyter_quickstart>`"

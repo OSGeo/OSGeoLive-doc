@@ -1,5 +1,5 @@
 :Author: Markus Neteler, mundialis
-:Reviewer: Astrid Emde 
+:Reviewer: Astrid Emde
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive14.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
@@ -17,7 +17,7 @@
 
 Actinia is an open source REST API for scalable, distributed, high performance
 processing of geographical data that uses GRASS GIS for computational tasks.
-Actinia provides a REST API to process satellite images, time series of 
+Actinia provides a REST API to process satellite images, time series of
 satellite images, raster and vector data.
 
 .. contents:: Contents
@@ -430,6 +430,7 @@ Install GRASS GIS addons (extensions)
 --------------------------------------------------------------------------------
 
 .. code:: bash
+
    # (requires elevated user privileges)
    #
    # list existing addons, see also

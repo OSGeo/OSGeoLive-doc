@@ -157,8 +157,8 @@ msgid ""
 msgstr ""
 "Klicken Sie auf *'see layer'*, um einen einfachen Map-Client zu öffnen. Der "
 "Dienst ist so konfiguriert, dass er die Daten und eine Grundkarte "
-"visualisiert (gerendert von 'OpenStreetMap <https: "
-"www.openstreetmap.org/=\"\">'_).</https:>"
+"visualisiert (gerendert von `OpenStreetMap "
+"<https://www.openstreetmap.org/>`_)."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:77
 msgid ""

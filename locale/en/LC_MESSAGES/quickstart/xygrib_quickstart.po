@@ -179,7 +179,7 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:79
-msgid "Website: https://opengribs.org"
+msgid "Website: https://opengribs.org/en"
 msgstr ""
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:80

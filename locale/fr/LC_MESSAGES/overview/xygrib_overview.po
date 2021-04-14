@@ -95,8 +95,8 @@ msgid "Details"
 msgstr "Détails"
 
 #: ../../build/doc/overview/xygrib_overview.rst:41
-msgid "**Website:** https://opengribs.org"
-msgstr "**Site web:** https://opengribs.org"
+msgid "**Website:** https://opengribs.org/en"
+msgstr "**Site web:** https://opengribs.org/en"
 
 #: ../../build/doc/overview/xygrib_overview.rst:43
 msgid "**Licence:** GNU General Public License (GPL) version 3"

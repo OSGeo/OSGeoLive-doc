@@ -42,15 +42,15 @@ msgid ""
 "From the desktop, choose :menuselection:`Navigation and Maps --> XyGrib GRIB"
 " file viewer`."
 msgstr ""
-"Wählen Sie auf dem Desktop :menuselection:'Navigation and Maps --> XyGrib "
-"GRIB file viewer'."
+"Wählen Sie auf dem Desktop :menuselection:`Navigation and Maps --> XyGrib "
+"GRIB file viewer`."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:29
 msgid ""
 "Select your preferred language and click :guilabel:`OK`. The program opens "
 "and you are presented with a map of the world."
 msgstr ""
-"Wählen Sie Ihre bevorzugte Sprache und klicken Sie auf :guilabel:'OK'. Das "
+"Wählen Sie Ihre bevorzugte Sprache und klicken Sie auf :guilabel:`OK`. Das "
 "Programm wird geöffnet und Sie erhalten eine Weltkarte."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:30
@@ -118,7 +118,7 @@ msgstr ""
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:43
 msgid "When ready click the ``Download`` button, and save the file to disk."
 msgstr ""
-"Wenn Sie fertig sind, klicken Sie auf die Schaltfläche ''Download'' und "
+"Wenn Sie fertig sind, klicken Sie auf die Schaltfläche ``Download`` und "
 "speichern Sie die Datei."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:45

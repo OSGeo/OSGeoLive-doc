@@ -5,8 +5,8 @@
 # 
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
-# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # Vicky Vergara <vicky@georepublic.de>, 2021
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -233,8 +233,8 @@ msgid ""
 " the next box (*declared SRS*) to make sure |GS| knows where the data is."
 msgstr ""
 "Wenn Sie auf der Seite nach unten scrollen, sehen Sie, dass | GS| für Sie "
-"viele Felder für Sie ausgefüllt hat. Wenn Sie :guilabel:'Coordinate "
-"Reference System' erreichen, werden Sie feststellen, dass unter *Native SRS*"
+"viele Felder für Sie ausgefüllt hat. Wenn Sie :guilabel:`Coordinate "
+"Reference System` erreichen, werden Sie feststellen, dass unter *Native SRS*"
 " UNKNOWN angegeben ist. Sie müssen das nächste Feld (*deklarierte SRS*) "
 "ausfüllen, um sicherzustellen, dass | GS| weiß, wo sich die Daten befinden."
 
@@ -245,22 +245,22 @@ msgid ""
 "on the link next to \"UNKNOWN\"."
 msgstr ""
 "Sie können epsg:4326 in das Feld eingeben oder zu "
-"'http://prj2epsg.org/search '_ gehen <http: prj2epsg.org/search=\"\">und in "
-"die Zeichenfolge einfügen, die Sie sehen, wenn Sie auf den Link neben "
-"\"UNKNOWN\" klicken.</http:>"
+"`http://prj2epsg.org/search <http://prj2epsg.org/search>`_  gehen und in die"
+" Zeichenfolge einfügen, die Sie sehen, wenn Sie auf den Link neben "
+"\"UNKNOWN\" klicken."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:123
 msgid ""
 "Click on :guilabel:`Compute from data` and :guilabel:`Compute from native "
 "bounds` to fill in the Bounding Boxes."
 msgstr ""
-"Klicken Sie auf :guilabel:'Compute from data' und :guilabel:'Compute from "
-"native bounds', um die BoundingBox zu füllen."
+"Klicken Sie auf :guilabel:`Compute from data` und :guilabel:`Compute from "
+"native bounds`, um die BoundingBox zu füllen."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:124
 msgid "Finally hit :guilabel:`save` and you have published your first layer."
 msgstr ""
-"Klicken Sie abschließend auf :guilabel:'save'. Sie haben damit Ihre erste "
+"Klicken Sie abschließend auf :guilabel:`save`. Sie haben damit Ihre erste "
 "Ebene veröffentlicht."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:127
@@ -374,7 +374,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:171
 msgid "Click ``OK`` and |UG| will display the changes."
-msgstr "Klicken Sie auf ''OK'' und |UG| zeigt die Änderungen an."
+msgstr "Klicken Sie auf ``OK`` und |UG| zeigt die Änderungen an."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:178
 msgid ""
@@ -382,7 +382,7 @@ msgid ""
 "the ``define custom colors`` section to create your preferred color."
 msgstr ""
 "Wiederholen Sie die obigen Schritte, um die Farben der Landebene zu ändern. "
-"Sie können den Abschnitt ''define custom colors'' verwenden, um Ihre "
+"Sie können den Abschnitt ``define custom colors`` verwenden, um Ihre "
 "bevorzugte Farbe auszuwählen."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:185
@@ -411,7 +411,7 @@ msgid ""
 "(at the bottom of the ``Data`` section)."
 msgstr ""
 "Nach dem Speichern können Sie zur | GS| Admin-Seite zurückkehren und "
-"anschließend ''Styles'' (am unteren Rand des Abschnitts ''Daten'') "
+"anschließend ``Styles`` (am unteren Rand des Abschnitts ``Daten``) "
 "auswählen."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:199
@@ -449,7 +449,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:203
 msgid "Press the :guilabel:`Submit` at the bottom of the page."
-msgstr "Drücken Sie das :guilabel:'Submit' am unteren Rand der Seite."
+msgstr "Drücken Sie das :guilabel:`Submit` am unteren Rand der Seite."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:212
 msgid "Adding the style to the layer"
@@ -460,7 +460,7 @@ msgid ""
 "Click on the :guilabel:`Layers` link in the Menu on the left of the |GS| "
 "window."
 msgstr ""
-"Klicken Sie auf den Link :guilabel:'Layers' im Menü auf der linken Seite des"
+"Klicken Sie auf den Link :guilabel:`Layers` im Menü auf der linken Seite des"
 " | GS| Fenster."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:215
@@ -469,14 +469,14 @@ msgid ""
 ":guilabel:`Publishing` tab."
 msgstr ""
 "Klicken Sie auf die Ebene (z.B. *ne_10m_land*), und wählen Sie dann die "
-"Registerkarte :guilabel:'Publishing'."
+"Registerkarte :guilabel:`Publishing`."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:216
 msgid ""
 "Change the :guilabel:`Default Style` box to the name of the style you "
 "uploaded in the previous section."
 msgstr ""
-"Ändern Sie das Auswahlfeld :guilabel:'Default Style' in den Namen des Stils,"
+"Ändern Sie das Auswahlfeld :guilabel:`Default Style` in den Namen des Stils,"
 " den Sie im vorherigen Abschnitt hochgeladen haben."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:217
@@ -484,7 +484,7 @@ msgid ""
 "Now click :guilabel:`Save` and go to the Layer Preview page to check that it"
 " looks good."
 msgstr ""
-"Klicken Sie nun auf :guilabel:'Save' und gehen Sie zur Seite Layer-Vorschau,"
+"Klicken Sie nun auf :guilabel:`Save` und gehen Sie zur Seite Layer-Vorschau,"
 " um zu überprüfen, ob die Ansicht gut aussieht."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:220
@@ -517,7 +517,7 @@ msgstr ":doc:`OpenLayers <../overview/openlayers_overview>`"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:250
 msgid ":doc:`MapBender <../overview/mapbender_overview>`"
-msgstr ":doc:`MapBender <../overview/mapbender_overview>`"
+msgstr ":doc:`Mapbender <../overview/mapbender_overview>`"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:253
 msgid "Add a layer from a NetCDF file"
@@ -545,7 +545,7 @@ msgstr "Melden Sie sich als Administrator an."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:262
 msgid "Click on :guilabel:`Add stores` then :guilabel:`NetCDF`."
-msgstr "Klicken Sie auf :guilabel:'Add stores' then :guilabel:'NetCDF'."
+msgstr "Klicken Sie auf :guilabel:`Add stores` then :guilabel:`NetCDF`."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:263
 msgid ""
@@ -597,7 +597,7 @@ msgid ""
 "directories."
 msgstr ""
 "Diese GeoServer-Instanz wurde mit der Java-Systemeigenschaft "
-"''NETCDF_DATA_DIR'' konfiguriert, um die Veröffentlichung von NetCDF-Dateien"
+"``NETCDF_DATA_DIR`` konfiguriert, um die Veröffentlichung von NetCDF-Dateien"
 " in schreibgeschützten Verzeichnissen zu ermöglichen."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:291

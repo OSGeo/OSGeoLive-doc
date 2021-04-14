@@ -385,8 +385,7 @@ msgstr "cartaro_overview"
 #: ../../build/licenses.csv:1
 msgid "Friedjoff Trautwein, https://geops.de; Patric Hafner, https://geops.de"
 msgstr ""
-"Friedjoff Trautwein, https://www.geops.de; Patric Hafner, "
-"https://www.geops.de"
+"Friedjoff Trautwein, https://geops.de; Patric Hafner, https://geops.de"
 
 #: ../../build/licenses.csv:1
 msgid "Cameron Shorter, https://www.jirotech.com"

@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # Vicky Vergara <vicky@georepublic.de>, 2021
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -89,8 +89,8 @@ msgstr ""
 "GUI (eine eigenständige grafische Benutzeroberfläche in Qt). Die Anwendungen"
 " können von einem Terminal mit dem Alias `otbgui_`  plus dem Anwendungsnamen"
 " aufgerufen werden. Eine weitere Möglichkeit ist die Verwendung eines "
-"Launchers (verfügbar in der :menuselection:'menu --> Geospatial --> Spatial "
-"Tools --> OTB Launcher')."
+"Launchers (verfügbar in der :menuselection:`menu --> Geospatial --> Spatial "
+"Tools --> OTB Launcher`)."
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:37
 msgid "QGIS plugin - available through the processing framework."
@@ -171,8 +171,8 @@ msgstr ""
 #: ../../build/doc/quickstart/otb_quickstart.rst:68
 msgid "You can then visualize input images and the result with the command ::"
 msgstr ""
-"Sie können dann Eingabebilder und das Ergebnis mit dem Befehl :: "
-"visualisieren:"
+"Sie können dann Eingabebilder und das Ergebnis mit dem folgenden Befehl "
+"visualisieren ::"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:73
 msgid "Pixel based classification"
@@ -195,7 +195,7 @@ msgstr ""
 "Verwendung einer bestimmten machine learning-Methode wie SVM, Bayes, KNN, "
 "Random Forests, Artificial Neural Network und anderen basiert. Weitere "
 "Informationen zu allen verfügbaren Klassifikatoren finden Sie in der "
-"Anwendungshilfe von 'TrainImagesClassifier'. Es unterstützt riesige Bilder "
+"Anwendungshilfe von `TrainImagesClassifier`. Es unterstützt riesige Bilder "
 "durch Streaming und Multi-Threading. Die Klassifizierungskette führt einen "
 "Trainingsschritt basierend auf den Intensitäten jedes Pixels als Features "
 "durch. Bitte beachten Sie, dass alle Eingabebilder die gleiche Anzahl von "
@@ -298,7 +298,7 @@ msgid ""
 "sorted by tag."
 msgstr ""
 "Die selben OTB-Anwendungen können auch aus dem Menü "
-":menuselection:'Processing --> Toolbox' in QGis verwendet werden. Die "
+":menuselection:`Processing --> Toolbox` in QGis verwendet werden. Die "
 "Anwendungen sind nach Tags sortiert."
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:144

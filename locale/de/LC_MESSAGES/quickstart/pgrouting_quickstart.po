@@ -46,7 +46,7 @@ msgid ""
 "In this example we will create a database called `city_routing` and enable "
 "pgRouting in the database."
 msgstr ""
-"In diesem Beispiel erstellen wir eine Datenbank mit dem Namen 'city_routing'"
+"In diesem Beispiel erstellen wir eine Datenbank mit dem Namen `city_routing`"
 " und aktivieren pgRouting in der Datenbank."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:36
@@ -54,9 +54,9 @@ msgid ""
 "Open a :menuselection:`System Tools --> QTerminal` window and execute the "
 "commandline tool packaged with PostgreSQL `psql`"
 msgstr ""
-"Öffnen Sie ein Terminal über :menuselection:'System Tools --> QTerminal' und"
-" öffnen Sie psql: (psql ist ein kommandozeilen basierter Datenbankclient, "
-"der mit PostgreSQL ausgeliefert wird)"
+"Öffnen Sie ein Terminalfenster über :menuselection:`System Tools --> "
+"QTerminal` und öffnen Sie psql: (psql ist ein kommandozeilen basierter "
+"Datenbankclient, der mit PostgreSQL ausgeliefert wird)"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:43
 msgid "At the `psql` prompt type:"
@@ -84,7 +84,7 @@ msgid ""
 "osm2pgrouting is a command-line tool for loading `.osm` files into the "
 "database with a pgRouting compatible format."
 msgstr ""
-"osm2pgrouting ist ein Befehlszeilenwerkzeug zum Laden von .osm-Dateien in "
+"osm2pgrouting ist ein Befehlszeilenwerkzeug zum Laden von `.osm`-Dateien in "
 "das pgRouting-kompatible Format. "
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:80
@@ -109,7 +109,7 @@ msgstr "Überprüfen der importierten Daten"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:179
 msgid "Connect to the `city_routing` database"
-msgstr "Bauen Sie eine Verbindung zu der Datenbank \"city_routing\" auf"
+msgstr "Bauen Sie eine Verbindung zu der Datenbank `city_routing` auf"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:185
 msgid "The :command:`\\\\d` command will list all available tables and sequences"
@@ -123,8 +123,8 @@ msgid ""
 "unique identifier for all the data: `id` on the vertices, `gid` on the "
 "edges."
 msgstr ""
-"osm2pgrouting lädt die OSM-Bezeichner 'osm_id' und generiert auch einen "
-"eindeutigen Bezeichner für alle Daten: 'id' auf den Knoten, 'gid' an den "
+"osm2pgrouting lädt die OSM-Bezeichner `osm_id` und generiert auch einen "
+"eindeutigen Bezeichner für alle Daten: `id` auf den Knoten, `gid` an den "
 "Kanten."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:216
@@ -149,8 +149,8 @@ msgid ""
 "The inner SQL statement must always have field names `id`, `source`, "
 "`target`, and `cost` having `reverse_cost` as optional."
 msgstr ""
-"Die innere SQL-Anweisung muss immer die Feldnamen 'id', 'source', 'target' "
-"haben und 'cost' mit 'reverse_cost' als optional haben."
+"Die innere SQL-Anweisung muss immer die Feldnamen `id`, `source`, `target` "
+"haben und `cost` mit `reverse_cost` als optional haben."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:236
 msgid "Inner query that use `gid` as identifier of the segments"
@@ -163,8 +163,8 @@ msgid ""
 "Inner query that use `gid` as identifier of the segments and lenght as "
 "`cost` without the optional `reverse_cost`"
 msgstr ""
-"Innere Abfrage, die 'gid' als Bezeichner der Segmente verwendet und Länge "
-"als 'cost' ohne die optionale 'reverse_cost'."
+"Innere Abfrage, die `gid` als Bezeichner der Segmente verwendet und Länge "
+"als `cost` ohne die optionale `reverse_cost`."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:257
 msgid "pgr_Dijkstra"
@@ -178,8 +178,8 @@ msgid ""
 msgstr ""
 "Führen Sie die Dijkstra-Funktion für den kürzesten Pfad (Dijkstra shortest "
 "path) basierend auf der Zeit in Sekunden aus, um ein Segment in einem "
-"ungerichteten Graphen zu durchlaufen, und verwenden Sie \"id\" als "
-"Bezeichner eines Knotens."
+"ungerichteten Graphen zu durchlaufen, und verwenden Sie `id` als Bezeichner "
+"eines Knotens."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:298
 msgid "A query that use the OSM identifier becomes:"
@@ -190,9 +190,9 @@ msgid ""
 "Because the query is using fields `source_osm` and `target_osm` the query "
 "aliases them to have the required names `source` and `target`."
 msgstr ""
-"Da die Abfrage die Felder 'source_osm' und 'target_osm' verwendet, werden in"
-" der Abfrage Aliase vergeben, um die erforderlichen Namen 'source' und "
-"'target' zu haben."
+"Da die Abfrage die Felder `source_osm` und `target_osm` verwendet, werden in"
+" der Abfrage Aliase vergeben, um die erforderlichen Namen `source` und "
+"`target` zu haben."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:314
 msgid "Output is:"
@@ -209,8 +209,8 @@ msgstr "Eine Abfrage, um die Geometrie des Weges zu ermitteln."
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:340
 msgid "The results of `pgr_dijkstra` need to be joined with the table ways."
 msgstr ""
-"Die Ergebnisse von `pgr_dijkstra` müssen mit den Werten der Tabelle \"ways\""
-" kombiniert werden."
+"Die Ergebnisse von `pgr_dijkstra` müssen mit den Werten der Tabelle ways "
+"kombiniert werden."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:356
 msgid ""
@@ -250,8 +250,8 @@ msgid ""
 " and OpenStreetMap road data\"` is available in: "
 "https://workshop.pgrouting.org."
 msgstr ""
-"**pgRouting Workshop** - Der Workshop '\"FOSS4G routing with pgRouting tools"
-" and OpenStreetMap road data\"' ist verfügbar unter: "
+"**pgRouting Workshop** - Der Workshop `\"FOSS4G routing with pgRouting tools"
+" and OpenStreetMap road data\"` ist verfügbar unter: "
 "https://workshop.pgrouting.org."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:388

@@ -200,8 +200,8 @@ msgstr ""
 ":doc:`クイックスタート文書 <../quickstart/opencpn_quickstart>` を参照してください。"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:79
-msgid "Website: https://opengribs.org"
-msgstr "Webサイト: https://opengribs.org"
+msgid "Website: https://opengribs.org/en"
+msgstr "Webサイト: https://opengribs.org/en"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:80
 msgid "Support: https://opengribs.org/en/support-forum"

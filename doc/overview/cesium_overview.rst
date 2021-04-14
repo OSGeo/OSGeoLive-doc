@@ -28,7 +28,7 @@ Core Features
   * Draw imagery layers using WMS, TMS, OpenStreetMaps, Bing, and Esri standards.
   * Draw vector data from GeoJSON and TopoJSON.
   * Draw 3D models using COLLADA and glTF.
-  * Use `plugins <https://cesium.com/cesiumjs>`_ to extend Cesium.
+  * Use `plugins <https://cesium.com/platform/cesiumjs/>`_ to extend Cesium.
 
 * Built for Performance and Precision:
 

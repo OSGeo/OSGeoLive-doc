@@ -73,7 +73,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/xygrib_overview.rst:41
-msgid "**Website:** https://opengribs.org"
+msgid "**Website:** https://opengribs.org/en"
 msgstr ""
 
 #: ../../build/doc/overview/xygrib_overview.rst:43

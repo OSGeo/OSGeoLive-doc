@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # Vicky Vergara <vicky@georepublic.de>, 2021
+# Astrid Emde <astrid_emde@osgeo.org>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,11 +33,11 @@ msgid ""
 " geospatial metadata.  Existing repositories of geospatial metadata can be "
 "exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0."
 msgstr ""
-"pycsw ist eine OGC CSW-Serverimplementierung, die in <https: "
-"www.python.org=\"\">'Python'_. pycsw geschrieben wurde. pycsw ermöglicht die"
-" Veröffentlichung und Durchsuchung von räumlichen Metadaten.  Vorhandene "
+"pycsw ist eine OGC CSW-Serverimplementierung, die in `Python "
+"<https://www.python.org>`_ geschrieben wurde. pycsw ermöglicht die "
+"Veröffentlichung und das Durchsuchung von räumlichen Metadaten. Vorhandene "
 "Repositorys von räumlichen Metadaten können über OGC:CSW 2.0.2 oder OGC:CSW "
-"3.0.0 verfügbar gemacht werden.</https:>"
+"3.0.0 verfügbar gemacht werden."
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:30
 msgid "Run the tester application"
@@ -48,8 +48,8 @@ msgid ""
 "On the Desktop go to `Web Services --> pycsw` or open Firefox and navigate "
 "to ``http://localhost/pycsw/tests/index.html``:"
 msgstr ""
-"Zum Aufruf der  pycsw-Test-Anwendung gehen Sie über den Menüeintrag pycsw "
-"unter Web Services oder öffnen Sie die Seite "
+"Zum Aufruf der pycsw-Test-Anwendung gehen Sie über den Menüeintrag `Web "
+"Services --> pycsw` oder öffnen Sie die Seite "
 "``http://localhost/pycsw/tests/index.html`` mit Firefox:"
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:37
@@ -180,7 +180,7 @@ msgid ""
 "with the INSPIRE directive."
 msgstr ""
 "Nachdem Sie alle verfügbaren Informationen hinzugefügt haben, drücken Sie "
-"oben auf der Seite die Schaltfläche :guilabel:'validation', um die "
+"oben auf der Seite die Schaltfläche :guilabel:`validation`, um die "
 "Übereinstimmung mit der INSPIRE-Direktive zu überprüfen."
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:83
@@ -293,8 +293,8 @@ msgid ""
 "On the Desktop go to `Desktop GIS --> QGIS` to start QGIS, then click on the"
 " :guilabel:`MetaSearch` button (CSW icon)"
 msgstr ""
-"Gehen Sie auf dem Desktop auf 'Desktop GIS --> QGIS', um QGIS zu starten, "
-"und klicken Sie dann auf die Schaltfläche :guilabel:'MetaSearch' (CSW-"
+"Gehen Sie auf dem Desktop auf `Desktop GIS --> QGIS`, um QGIS zu starten, "
+"und klicken Sie dann auf die Schaltfläche :guilabel:`MetaSearch` (CSW-"
 "Symbol)"
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:146
@@ -302,7 +302,7 @@ msgid ""
 "Add the pycsw server by pressing the :guilabel:`New` button and type in "
 "``http://localhost/pycsw/``"
 msgstr ""
-"Fügen Sie den pycsw-Server hinzu, indem Sie die Schaltfläche :guilabel:'New'"
+"Fügen Sie den pycsw-Server hinzu, indem Sie die Schaltfläche :guilabel:`New`"
 " drücken und ''http://localhost/pycsw/'' eingeben."
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:151

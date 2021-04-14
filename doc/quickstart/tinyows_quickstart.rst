@@ -91,7 +91,7 @@ What Next?
 
 To learn more about TinyOWS, a starting point is the `TinyOWS Documentation`_ on the MapServer homepage.
 
-.. _`TinyOWS Documentation`: http://mapserver.org/trunk/tinyows/
+.. _`TinyOWS Documentation`: https://mapserver.org/trunk/tinyows/
 
 
 
