@@ -26,7 +26,7 @@ satellite images, raster and vector data.
 Actinia can be used in different ways:
 
 -  `curl` or similar command line tools
--  the `Postman` extension for browsers
+-  the `Postman` or `RESTman` extension for browsers
 -  open a GRASS GIS session and use the `ace` (actinia command execution) tool
 -  other interfaces to REST API
 
@@ -39,24 +39,23 @@ then execute it on the server.
 Introduction to ace - actinia command execution
 ===============================================
 
-The ``ace`` tool (`details <https://github.com/mundialis/actinia_core/tree/master/scripts/README.md>`_)
+The ``ace`` tool (`details <https://neteler.gitlab.io/actinia-introduction/#controlling-actinia-from-a-running-grass-gis-session>`_)
 allows the execution of a single GRASS GIS command or a
 list of GRASS GIS commands on an actinia REST service
 (https://actinia.mundialis.de/). In addition it provides job management,
 the ability to list locations, mapsets and map layer the user has access
 to as well as the creation and deletion of mapsets.
 
-Th ``ace`` tool must be executed in an active GRASS GIS session and will
-use the current location of this session to access the actinia service.
+Th ``ace`` tool must be executed in an active GRASS GIS session. It is
+installed with ``g.extension extension=ace url=https://github.com/mundialis/ace``.
 
-The current location setting can be overridden by the
-``--location LOCATION_NAME`` option. All commands will be executed per
-default in an **ephemeral** database. Hence, generated output must be
-exported using augmented GRASS commands.
+All commands will be executed per default in an **ephemeral** database.
+Hence, generated output must be exported using augmented GRASS
+commands.
 
-The option ``--persistent MAPSET_NAME`` allows the execution of commands
-in the **persistent** user database. It can be used with
-``--location LOCATION_NAME``\ option.
+The option ``mapset=MAPSET_NAME`` allows the execution of commands in
+the persistent user database. It can be used with
+``location=LOCATION_NAME`` option.
 
 Setup your environment
 ======================
@@ -142,7 +141,7 @@ Inspect the REST call prior to submission
 ================================================================================
 
 To generate the actinia process chain JSON request simply add the
---dry-run flag:
+``-d`` (dry-run) flag:
 
 .. code:: bash
 
@@ -171,7 +170,7 @@ output of GRASS GIS modules to store the computational result for download and f
 The following export formats are currently supported:
 
 -  raster: ``COG``, ``GTiff``
--  vector: ``ESRI_Shapefile``, ``GeoJSON``, ``GML``, ``GPKG``
+-  vector: ``GPKG``, ``GML``, ``GeoJSON``, ``ESRI_Shapefile``
 -  table: ``CSV``, ``TXT``
 
 
@@ -211,7 +210,7 @@ run the saved script as
 The results (messages, statistics, files) are provided as REST resources.
 
 To generate the actinia process chain JSON request simply add the
---dry-run flag
+``-d`` (dry-run) flag:
 
 .. code:: bash
 
@@ -326,7 +325,7 @@ Store the following script as text file ``/tmp/ace_segmentation.sh``:
 
    # grass78 ~/grassdata/nc_spm_08/user1/
    # Import the web resource and set the region to the imported map
-   # we apply a trick for the import of multi-band GeoTIFFs:
+   # we apply a importer trick for the import of multi-band GeoTIFFs:
    # install with: g.extension importer url=https://github.com/mundialis/importer
    importer raster=ortho2010@https://apps.mundialis.de/workshops/osgeo_ireland2017/north_carolina/ortho2010_t792_subset_20cm.tif
    # The importer has created three new raster maps, one for each band in the geotiff file
