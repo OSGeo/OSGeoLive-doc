@@ -5,7 +5,7 @@
 # Main configuration
 # ------------------------------------------------------------------------------
 
-cmake -DHTML=ON -DFI=ON -DIT=ON -DJA=ON -DES=ON -DFR=ON -DDE=ON -DHU=ON -@OSGeoLiveDoc_DEBUG=ON ..
+cmake -DHTML=ON -DFI=ON -DIT=ON -DJA=ON -DES=ON -DFR=ON -DDE=ON -DHU=ON -DOSGeoLiveDoc_DEBUG=ON ..
 make
 cd ..
 bash scripts/clean-images.sh
