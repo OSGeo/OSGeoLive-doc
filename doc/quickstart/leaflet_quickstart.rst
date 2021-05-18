@@ -176,5 +176,5 @@ Now you've learned Leaflet basics and can start building map apps straight away!
 
 
 .. _documentation: https://leafletjs.com/reference.html
-.. _example: https://localhost/leaflet-demo.html
+.. _example: http://localhost/leaflet-demo.html
 .. _examples: https://leafletjs.com/examples.html
