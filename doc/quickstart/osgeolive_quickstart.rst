@@ -1,7 +1,7 @@
 :Author: OSGeoLive
 :Author: Cameron Shorter, Hamish Bowman
 :Reviewer: Cameron Shorter, Jirotech
-:Version: osgeolive7.0
+:Version: osgeolive14.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 ********************************************************************************
@@ -15,8 +15,8 @@ System Requirements
 
 Your computer should have at least:
 
-* RAM: 1 GB.
-* CPU: 1 GHz i686 or compatible (Intel/AMD)
+* RAM: minimum 2 GB (4 GB recommended).
+* CPU: 1 GHz 64 bit.
 * Hard Disk: 
 
  * None required if running directly from the DVD 
@@ -50,9 +50,9 @@ Run:
 See Also:
 --------------------------------------------------------------------------------
 
- * Getting started with Lubuntu and the LXDE desktop (which is used by OSGeoLive):
-    https://help.ubuntu.com/community/Lubuntu/Documentation and
-    https://www.lxde.org/
+ * Getting started with Lubuntu and the LXQt desktop (which is used by OSGeoLive):
+    https://lubuntu.me/ and
+    https://lxqt-project.org/
  * Getting started with the Ubuntu operating system:
     `local eBook <file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and `extended online help <https://help.ubuntu.com>`_
  * :doc:`virtualization_quickstart`
