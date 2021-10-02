@@ -15,8 +15,8 @@ System Requirements
 
 Your computer should have at least:
 
-* RAM: 1 GB.
-* CPU: 1 GHz i686 or compatible (Intel/AMD)
+* RAM: minimum 2 GB (4 GB recommended).
+* CPU: 1 GHz 64 bit.
 * Hard Disk: 
 
  * None required if running directly from the DVD 
