@@ -27,6 +27,7 @@
         * Astrid Emde
         * Nicolas Roelandt
         * Vicky Vergara
+        * Enock Seth Nyamador
 
         .. rv_note::
             As you can see listed here, many people have been involved in packaging the Open Source Software for OSGeoLive,
