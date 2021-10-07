@@ -26,9 +26,6 @@ Community Support
 If you have any questions, comments, or run into any problems, please drop us a
 note on `our mailing list <https://lists.osgeo.org/mailman/listinfo/osgeolive>`_.
 
-Searchable archives of the mailing list are hosted by
-`Nabble <http://www.osgeo-org.1560.x6.nabble.com/OSGeoLive-f3777350.html>`_.
-
 IRC users might try the #osgeolive or #osgeo channel at Freenode.net for real-time
 assistance. You also can meet us at Slack, Matrix or Glitter.
 

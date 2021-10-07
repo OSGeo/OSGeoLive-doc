@@ -15,11 +15,9 @@ We have found that there are a number of quirks and tricks involved in successfu
 Requirements
 --------------------------------------------------------------------------------
 
-* A USB flash drive (at least 4 Gig, 8+ Gig is recommended).
+* A USB flash drive (8+ Gig is recommended).
 * An OSGeoLive ISO image (downloaded from: :doc:`OSGeoLive downloads <../download>`) or converted from a DVD.
 
- * For a 4 GB USB flash drive, use osgeolive-mini ISO (without Windows and Mac installers), without persistence.
- * For a 8+ GB USB flash drive, use either osgeolive-mini ISO, or osgeolive ISO (with Windows and Mac installers). 8+ GB is recommended if you wish to support persistence.
 
 Creating bootable USB drive with ``dd`` under Linux
 --------------------------------------------------------------------------------

@@ -28,7 +28,7 @@ GeoNetwork is a catalog application to manage spatially referenced resources. It
 Prerequisites
 =============
 
-GeoNetwork can directly be started from the OSGeo Live start menu and will be available at http://localhost:8080/geonetwork some moments later. Check the `Installation Guide <https://geonetwork-opensource.org/manuals/trunk/en/install-guide/index.html>`__ if you are using GeoNetwork is some other context.
+GeoNetwork can directly be started from the OSGeo Live start menu and will be available at http://localhost:8080/geonetwork some moments later. Check the `Installation Guide <https://geonetwork-opensource.org/manuals/trunk/en/install-guide/index.html>`__ if you are using GeoNetwork in some other context.
 
 Throughout this guide we will use the URL ``http://localhost:8880/geonetwork`` to refer to the catalog, please substitute a different URL if this is not correct for your system.
 
