@@ -1,5 +1,5 @@
 :Author: OSGeoLive
-:Author: Christopher Ganta, Gayathri Krishnaswamy, Nelson Guya
+:Author: Christopher Ganta, Gayathri Krishnaswamy, Nelson Guya, Micha Silver
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Stephen Woodbridge
 :Version: osgeolive11.0
