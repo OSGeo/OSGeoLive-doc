@@ -90,15 +90,15 @@ Questions?
   in particular the annual FOSS4G conference.
   Georepublic provides commercial support in Japan and Germany.
 
-.. |osgeo_logo| image:: images/logos/OSGeo_compass_with_text_square.png
+.. |osgeo_logo| image:: ../images/logos/OSGeo_compass_with_text_square.png
                         :height: 50
-.. |ucdice_logo| image:: images/logos/ucd_ice_logo.png
+.. |ucdice_logo| image:: ../images/logos/ucd_ice_logo.png
                         :height: 50
-.. |ntua_logo| image:: images/logos/ntua_logo.jpg
+.. |ntua_logo| image:: ../images/logos/ntua_logo.jpg
                         :height: 50
-.. |debian_logo| image:: images/logos/debiangis_mollweide.png
+.. |debian_logo| image:: ../images/logos/debiangis_mollweide.png
                         :height: 50
-.. |georepublic_logo| image:: images/logos/georepublic.png
+.. |georepublic_logo| image:: ../images/logos/georepublic.png
                         :height: 50
-.. |okeanos_logo| image:: images/logos/okeanos-logo.jpg
+.. |okeanos_logo| image:: ../images/logos/okeanos-logo.jpg
                         :height: 50

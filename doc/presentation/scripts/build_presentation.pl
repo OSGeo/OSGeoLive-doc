@@ -161,7 +161,7 @@ sub read_and_parse_section_notes {
 
         # Remove trailing spaces from the note
         $line =~ s/\s*$//;
-        $current_note .= "\n    $line";
+        $current_note .= "$line\n";
     } # end of while loop
 
     # close the file
@@ -184,10 +184,9 @@ sub get_section {
     my $section_data = $configuration->{$section};
 
     $contents .=  "
-.. revealjs::
     
-    .. revealjs:: $section
-        :title-heading: h3
+$section
+===============================================================================
   
 ";
 
@@ -210,14 +209,15 @@ sub get_section {
         my $note = get_note($slug);
 
         my $slide = "
-    .. revealjs:: $name
-        :title-heading: h3
+$name
+--------------------------------------------------------------------------------
   
-        .. image:: ../images/projects/$slug/$slug"."_screenshot.png
-            :height: 600
+.. image:: ../images/projects/$slug/$slug"."_screenshot.png
+   :height: 500
 
-        .. rv_note::
-            Note $note\n\n
+.. Note $note
+
+
 ";
         $slides .= $slide;
 
@@ -230,7 +230,7 @@ sub get_section {
         $max = $elem_count if $elem_count > $max;
         if ($elem_count == 4) {
             $tbl->row(@img_line);
-            $tbl->row(@name_line);
+	    #$tbl->row(@name_line);
 
 
             $elem_count = 0;
@@ -238,7 +238,7 @@ sub get_section {
             @img_line = ();
         }
 
-        $logo_list .= ".. |$slug" . "_logo| image:: ../images/projects/$slug/logo_$slug.png\n";
+        $logo_list .= ".. |$slug" . "_logo| image:: ../images/projects/$slug/logo_$slug.png\n                        :height: 50\n";
     }
 
     if ($elem_count != 0) {
@@ -248,18 +248,20 @@ sub get_section {
             push @img_line,   "____1234____ ";  
         }
         $tbl->row(@img_line);
-        $tbl->row(@name_line);
+	#$tbl->row(@name_line);
 
     }
 
     if ($max == 1) {
-        $contents .= "           @img_line\n           @name_line\n\n";
+        $contents .= "           @img_line\n\n"; #           @name_line\n\n";
         $contents .= "$description";
         return "$contents\n$slides";
     }
     my $tbl_info = $tbl->draw;
     $tbl_info = cleanup($tbl_info);
-    $contents .= "\n$tbl_info\n\n";
+    $contents .= "
+$tbl_info
+";
     $contents .= "$description";
     return "$contents\n$slides";
 }

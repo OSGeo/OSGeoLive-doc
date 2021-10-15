@@ -1,18 +1,16 @@
-
-
 set(LIST
-    "abstract.txt"
-    "start_presentation.txt"
-    "middle_presentation.txt"
-    "end_presentation.txt"
-    "workshop_abstract.txt"
-    )
+  "abstract.txt"
+  "start_presentation.txt"
+  "middle_presentation.txt"
+  "end_presentation.txt"
+  "workshop_abstract.txt"
+  )
 
 foreach (f ${LIST} )
-    if (OSGeoLiveDoc_VERBOSE_DEBUG)
-        message(STATUS "        Adding file ${f}")
-    endif()
-    configure_file("${f}" "${f}")
+  if (OSGeoLiveDoc_VERBOSE_DEBUG)
+    message(STATUS "        Adding file ${f}")
+  endif()
+  configure_file("${f}" "${f}")
 endforeach()
 
 #---------------------------------------------
@@ -21,18 +19,18 @@ endforeach()
 
 add_subdirectory(scripts)
 add_custom_command(
-    OUTPUT
-    "${CMAKE_CURRENT_BINARY_DIR}/presentation.rst"
+  OUTPUT
+  "${CMAKE_CURRENT_BINARY_DIR}/presentation.rst"
 
-    COMMAND ${PERL_EXECUTABLE} ${CMAKE_CURRENT_BINARY_DIR}/scripts/build_presentation.pl
+  COMMAND ${PERL_EXECUTABLE} ${CMAKE_CURRENT_BINARY_DIR}/scripts/build_presentation.pl
 
-    DEPENDS 
-    ${CMAKE_CURRENT_BINARY_DIR}/start_presentation.txt
-    ${CMAKE_CURRENT_BINARY_DIR}/middle_presentation.txt
-    ${CMAKE_CURRENT_BINARY_DIR}/end_presentation.txt
-    ${CMAKE_CURRENT_BINARY_DIR}/scripts/build_presentation.pl
-    ${CMAKE_SOURCE_DIR}/projects_info.csv
-    )
+  DEPENDS
+  ${CMAKE_CURRENT_BINARY_DIR}/start_presentation.txt
+  ${CMAKE_CURRENT_BINARY_DIR}/middle_presentation.txt
+  ${CMAKE_CURRENT_BINARY_DIR}/end_presentation.txt
+  ${CMAKE_CURRENT_BINARY_DIR}/scripts/build_presentation.pl
+  ${CMAKE_SOURCE_DIR}/projects_info.csv
+  )
 
 
 #---------------------------------------------
@@ -40,61 +38,60 @@ add_custom_command(
 #---------------------------------------------
 configure_file("conf.py" "conf.py" @ONLY)
 
-set(SPHINX_DOCUMENTATION_DIR "${CMAKE_CURRENT_BINARY_DIR}")
-#set(SPHINX_BUILD_DIR "${CMAKE_CURRENT_BINARY_DIR}/../_build")
 
 
 if (LOCALE)
-    add_custom_target(p-locale
-        COMMAND ${SPHINX_EXECUTABLE} 
+  add_custom_target(p-locale
+    COMMAND ${SPHINX_EXECUTABLE}
 
-        -b gettext
+    -b gettext
 
-        # the location of the documentation to be build
-        "${CMAKE_CURRENT_BINARY_DIR}" 
-        "${CMAKE_SOURCE_DIR}/locale/pot" 
+    # the location of the documentation to be build
+    "${CMAKE_CURRENT_BINARY_DIR}"
+    "${CMAKE_SOURCE_DIR}/locale/pot"
 
-        COMMAND sphinx-intl update -d ${CMAKE_SOURCE_DIR}/locale -l en
+    COMMAND sphinx-intl update -d ${CMAKE_SOURCE_DIR}/locale -l en
 
-        COMMAND sphinx-intl update-txconfig-resources --locale-dir ${CMAKE_SOURCE_DIR}/locale --pot-dir ${CMAKE_SOURCE_DIR}/locale/pot --transifex-project-name osgeolive
+    COMMAND sphinx-intl update-txconfig-resources --locale-dir ${CMAKE_SOURCE_DIR}/locale --pot-dir ${CMAKE_SOURCE_DIR}/locale/pot --transifex-project-name osgeolive
 
 
-        DEPENDS presentation.rst
+    DEPENDS presentation.rst
 
-        COMMENT "Generating POT & PO files ..."
-        )
+    COMMENT "Generating POT & PO files ..."
+    )
 endif()
 
 
-add_custom_target(presentation
-    COMMENT "Building presentation with Sphinx")
-
-foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
-    add_custom_target(p-${target} ALL
-        COMMENT "Building presentation with Sphinx")
+add_custom_target(presentation ALL
+  COMMENT "Building presentation with Sphinx")
 
 
-    foreach (lang ${OSGeoLiveDoc_BUILD_LANGUAGES})
-        add_custom_target(
-            "p-${target}-${lang}" 
-            COMMAND ${SPHINX_EXECUTABLE}
+message(STATUS "CMAKE_CURRENT_BINARY_DIR ${CMAKE_CURRENT_BINARY_DIR}")
 
-            -b ${target}
-            -c "${CMAKE_CURRENT_BINARY_DIR}"
-            -D language='${lang}'
+set(lang "en")
+# Presentation is only revealjs
+#foreach (lang ${OSGeoLiveDoc_BUILD_LANGUAGES})
+  add_custom_target(
+    "presentation-${lang}"
+    COMMAND ${SPHINX_EXECUTABLE}
 
-            # the location of the documentation to be build
-            "${CMAKE_CURRENT_BINARY_DIR}"
+    -M revealjs
+    #-c "${CMAKE_CURRENT_BINARY_DIR}"
+    #-D language='${lang}'
 
-            #where the documentations is written
-            "${SPHINX_BUILD_DIR}/${target}/${lang}"
+    # the location of the documentation to be build
+    "${CMAKE_CURRENT_BINARY_DIR}"
 
-            DEPENDS presentation.rst
+    # where the documentations is written
+    "${SPHINX_BUILD_DIR}/revealjs/${lang}"
 
-            COMMENT "Generating p-${target}/${lang} documentation ..."
-            )
-        add_dependencies("p-${target}" "p-${target}-${lang}")
-    endforeach()
-    add_dependencies(doc "p-${target}")
-endforeach()
+    DEPENDS presentation.rst
+
+    COMMENT "Generating presentation/${lang} documentation ..."
+    )
+  add_dependencies("presentation" "presentation-${lang}")
+#endforeach()
+add_dependencies(doc presentation)
+#]]
+
 

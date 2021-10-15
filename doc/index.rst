@@ -67,4 +67,6 @@ Quick Starts
 Presentation
 --------------------------------------------------------------------------------
 
-A half hour `presentation <./presentation.html>`_, highlighting all OSGeoLive applications, is available with slides, script, and `abstract <presentation/abstract.txt>`_.
+A half hour `presentation <../../revealjs/en/revealjs/presentation.html>`_, highlighting all
+OSGeoLive applications, is available with slides, script, and `abstract
+<presentation/abstract.txt>`_.

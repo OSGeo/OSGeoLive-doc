@@ -1,5 +1,4 @@
-
-cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.2 FATAL_ERROR)
 if ( ${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR} )
     message(FATAL_ERROR "In-source builds not allowed.
     Please make a new directory (called a build directory) and run CMake from there.
@@ -31,13 +30,13 @@ set(OSGeoLiveDoc_NAME "OSGeoLive")
 #---------------------------------------------
 # minimum versions
 #---------------------------------------------
-set(SPHINX_MINIMUM_VERSION "1.1")
+set(SPHINX_MINIMUM_VERSION "4.0")
 
 
 #---------------------------------------------
 # Fining sphinx
 #---------------------------------------------
-find_package(Sphinx REQUIRED)
+find_package(Sphinx ${SPHINX_MINIMUM_VERSION} REQUIRED)
 if (NOT SPHINX_FOUND)
     message(WARNING "Sphinx not found. Cannot generate documentation!")
 #elseif (SPHINX_VERSION VERSION_LESS SPHINX_MINIMUM_VERSION)
