@@ -41,7 +41,7 @@ Prerequisites
 
 
 Step 1 : Create a Virtual Machine
-----------------------------------
+--------------------------------------------------------------------------------
 
 1. Start the VirtualBox application and click **New**. Create Virtual Machine pop up is displayed.
 
@@ -68,7 +68,7 @@ Step 1 : Create a Virtual Machine
 
 
 Step 2: Configure VM
---------------------
+--------------------------------------------------------------------------------
 
 **VM Settings**
 
@@ -94,7 +94,7 @@ You can choose to make the shared folder read-only, and auto-mounted. Once the "
 
 
 Step 3 : Running the Virtual Machine
-------------------------------------
+--------------------------------------------------------------------------------
 
 Now bootup the VM by clicking the **Start** (green arrow) button.
 
@@ -115,7 +115,7 @@ Now bootup the VM by clicking the **Start** (green arrow) button.
 
 
 Step 4 : Set OSGeoLive user
-----------------------------
+--------------------------------------------------------------------------------
 
 .. note::
    Some tools configured on OSGeoLive rely of "user" to be in the "users" group so they can write into the data directory. If not set, these tools will fail when run.
@@ -125,7 +125,7 @@ Step 4 : Set OSGeoLive user
 3. Apply this change by starting a new desktop session: either restart the virtual machine or log out and log back in (username "user", password "user").
 
 Step 5: Access shared folders
------------------------------
+--------------------------------------------------------------------------------
 
 * Add yourself to the vboxsf group so that the shared folders (defined above) are accessible by running in a terminal window:
 
@@ -133,7 +133,7 @@ Step 5: Access shared folders
 
 
 Step 6: Mount shared folder
----------------------------
+--------------------------------------------------------------------------------
 
 * In the above example, we defined a Shared Folder path on the host system and named it "GIS" in the VM Settings. The shared folder will appear in the file system under /media/sf_GIS/. To mount this folder in the user's home directory, for example, in a terminal run:
 
