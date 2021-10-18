@@ -59,6 +59,8 @@ if (LOCALE)
 
     COMMENT "Generating POT & PO files ..."
     )
+  add_dependencies(locale p-locale)
+  return()
 endif()
 
 
@@ -68,16 +70,15 @@ add_custom_target(presentation ALL
 
 message(STATUS "CMAKE_CURRENT_BINARY_DIR ${CMAKE_CURRENT_BINARY_DIR}")
 
-set(lang "en")
 # Presentation is only revealjs
-#foreach (lang ${OSGeoLiveDoc_BUILD_LANGUAGES})
+foreach (lang ${OSGeoLiveDoc_BUILD_LANGUAGES})
   add_custom_target(
     "presentation-${lang}"
     COMMAND ${SPHINX_EXECUTABLE}
 
     -M revealjs
     #-c "${CMAKE_CURRENT_BINARY_DIR}"
-    #-D language='${lang}'
+    -D language="${lang}"
 
     # the location of the documentation to be build
     "${CMAKE_CURRENT_BINARY_DIR}"
@@ -90,8 +91,5 @@ set(lang "en")
     COMMENT "Generating presentation/${lang} documentation ..."
     )
   add_dependencies("presentation" "presentation-${lang}")
-#endforeach()
+endforeach()
 add_dependencies(doc presentation)
-#]]
-
-

@@ -107,6 +107,7 @@ if (LOCALE)
 
         COMMENT "Generating POT & PO files ..."
         )
+    add_subdirectory(presentation)
     return()
 endif()
 
