@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 11:35-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,6 +80,11 @@ msgstr ""
 msgid "|CC-By-SA-med| This document includes content from the \"gvSIG Quickstart\" created by Simon Cropper under the Creative Commons Attribution-ShareAlike 3.0 Unported licence, https://creativecommons.org/licenses/by-sa/3.0/ available from the OSGeoLive project, :doc:`quickstart/gvsig_quickstart`, and downloaded on 25 July 2011. The original work was translated from English to German."
 msgstr ""
 
+#: ../../build/doc/copyright.rst:0
+#: ../../build/doc/copyright.rst:0
+msgid "CC-By-SA-med"
+msgstr ""
+
 #: ../../build/doc/copyright.rst:36
 msgid "**Concise CC-By-SA and attribution:**"
 msgstr ""
@@ -94,6 +99,11 @@ msgstr ""
 
 #: ../../build/doc/copyright.rst:42
 msgid "|CC-By-small| © 2011 [Your Name]. [Derived from|Includes|Extends] :doc:`OSGeoLive <index>` Project Overviews by :doc:`OSGeoLive contributors <copyright>`."
+msgstr ""
+
+#: ../../build/doc/copyright.rst:0
+#: ../../build/doc/copyright.rst:0
+msgid "CC-By-small"
 msgstr ""
 
 #: ../../build/doc/copyright.rst:47
@@ -1482,3 +1492,19 @@ msgstr ""
 msgid "*The contents of OSGeoLive are provided by the copyright holders and contributors \"as is\" and any express or implied warranties, including, but not limited to, the implied warranties of the merchantability and fitness for a particular purpose are disclaimed. In no event shall the copyright owner or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, date, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liablity, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.*"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

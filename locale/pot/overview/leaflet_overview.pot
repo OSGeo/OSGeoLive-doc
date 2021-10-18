@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,6 +30,10 @@ msgstr ""
 
 #: ../../build/doc/overview/leaflet_overview.rst:23
 msgid "Leaflet is designed with simplicity, performance and usability in mind. It works efficiently across all major desktop and mobile platforms out of the box,  taking advantage of HTML5 and CSS3 on modern browsers while being accessible on older ones too.  It can be extended with many plugins, has a beautiful, easy to use and well-documented API and a simple, readable source code that is a joy to contribute to."
+msgstr ""
+
+#: ../../build/doc/overview/leaflet_overview.rst:None
+msgid "leaflet screenshot"
 msgstr ""
 
 #: ../../build/doc/overview/leaflet_overview.rst:37
@@ -236,3 +240,19 @@ msgstr ""
 msgid ":doc:`Quickstart documentation <../quickstart/leaflet_quickstart>`"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

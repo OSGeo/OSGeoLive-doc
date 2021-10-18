@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,6 +46,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:38
 msgid "add a layer from a NetCDF file"
+msgstr ""
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:41
+msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:44
@@ -108,8 +112,16 @@ msgstr ""
 msgid "Click on :guilabel:`Add new Store`. You will see this page:"
 msgstr ""
 
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
+msgid "The New Store page"
+msgstr ""
+
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:98
 msgid "Select the :guilabel:`Directory of spatial files`. You will see the following:"
+msgstr ""
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
+msgid "Filling in the New Store page"
 msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:105
@@ -120,8 +132,16 @@ msgstr ""
 msgid "Press :guilabel:`save`."
 msgstr ""
 
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
+msgid "The Natural Earth Datastore"
+msgstr ""
+
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:113
 msgid "Press :guilabel:`publish` next to one of the layers to finish adding the data. This will take you to the *Layers* page:"
+msgstr ""
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:None
+msgid "The layer publishing page"
 msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:120
@@ -176,8 +196,16 @@ msgstr ""
 msgid "Drag the ne_10m_land and ne_10m_ocean tables into the map window. |UG| automatically applies a style (so you can see the data)."
 msgstr ""
 
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
+msgid "Default Styling in uDig"
+msgstr ""
+
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:154
 msgid "In the :ref:`Layer list <Layer_list>` select the style button (it looks like an artist's palette)."
+msgstr ""
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:None
+msgid "The Layer list window"
 msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:162
@@ -188,16 +216,32 @@ msgstr ""
 msgid "In the simple window we can easily select a nice blue for the oceans by clicking on the colored box on the fill tab and choosing from the color picker it produces. We can also increase the opacity of the fill to 100% to make the color look better. Pick the same blue for the border color so it will match."
 msgstr ""
 
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
+msgid "The Style Pane"
+msgstr ""
+
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:171
 msgid "Click ``OK`` and |UG| will display the changes."
+msgstr ""
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
+msgid "Blue Oceans"
 msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:178
 msgid "Repeat the steps above to change the color of the land layer. You can use the ``define custom colors`` section to create your preferred color."
 msgstr ""
 
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
+msgid "Defining a nicer land color"
+msgstr ""
+
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:185
 msgid "This gives a nice looking basic world map."
+msgstr ""
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:None
+msgid "A basic word map"
 msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:193
@@ -234,6 +278,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:203
 msgid "Press the :guilabel:`Submit` at the bottom of the page."
+msgstr ""
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:None
+msgid "Adding a Style to GeoServer"
 msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:212
@@ -316,6 +364,10 @@ msgstr ""
 msgid "Scroll down to the bottom of the \"Data\" tab and press \"Save\" again."
 msgstr ""
 
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
+msgid "Adding a NetCDF store"
+msgstr ""
+
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:276
 msgid "Preview the NetCDF layer"
 msgstr ""
@@ -330,6 +382,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:280
 msgid "Clicking on points will cause the value of \"Ozone_concentration\" to be shown in a table at the bottom of the map."
+msgstr ""
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
+msgid "OpenLayers preview of a NetCDF layer"
 msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:288
@@ -360,3 +416,19 @@ msgstr ""
 msgid "GeoServer Styling Workshop - https://docs.geoserver.org/latest/en/user/styling/workshop/index.html"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

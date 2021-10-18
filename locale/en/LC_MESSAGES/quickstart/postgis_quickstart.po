@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-01 08:19-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:39
 msgid "PostGIS Quickstart"
@@ -42,6 +42,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:49
 msgid "Manage data from the ``pgAdmin`` client."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:53
+msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:56
@@ -390,8 +394,14 @@ msgid ""
 "Natural Earth, or just hit ``Connect`` to continue:"
 msgstr ""
 
+msgid "Connect to Natural Earth"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:392
 msgid "You will now get a list of the spatial tables in the database:"
+msgstr ""
+
+msgid "Natural Earth Layers"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:399
@@ -399,6 +409,9 @@ msgid ""
 "Choose the ne_10m_lakes table and hit ``Add`` at the bottom (not ``Load``"
 " at the top - that loads database connection parameters), and it should "
 "be loaded into QGIS:"
+msgstr ""
+
+msgid "My First PostGIS layer"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:408
@@ -437,6 +450,9 @@ msgid ""
 "them. The Preview tab will show you a little map."
 msgstr ""
 
+msgid "QGIS Manager Preview"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:430
 msgid ""
 "We will now use the DB Manager to import a shapefile into the database. "
@@ -451,8 +467,14 @@ msgid ""
 "directory. (located in /home/user/data/vector/R/shapes):"
 msgstr ""
 
+msgid "Find the shapefile"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:443
 msgid "Leave everything else as it is and hit ``Load``"
+msgstr ""
+
+msgid "Import a shapefile"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:450
@@ -471,6 +493,9 @@ msgid ""
 "counts (sid74 or sid79 fields) in North Carolina:"
 msgstr ""
 
+msgid "SIDS data mapped"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:466
 msgid "Get to know pgAdmin"
 msgstr ""
@@ -487,6 +512,9 @@ msgid ""
 "pgAdmin lets you use SQL to manipulate your data tables. You can find and"
 " launch pgAdmin from the Databases folder, existing on the OSGeoLive "
 "Desktop."
+msgstr ""
+
+msgid "pgAdmin"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:478
@@ -767,113 +795,19 @@ msgstr ""
 msgid "PostGIS Documentation -  http://postgis.net/documentation/"
 msgstr ""
 
-#~ msgid ""
-#~ "Importing shapefiles to QGIS can be "
-#~ "done via the handy QGIS Database "
-#~ "Manager. You find the manager in "
-#~ "the menu. Go to ``Database -> DB"
-#~ " Manager -> DB Manager``."
-#~ msgstr ""
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
 
-#~ msgid ""
-#~ "From the ``Table`` menu choose the "
-#~ "``Import layer/file`` option. Hit the "
-#~ "``...`` button and browse to the "
-#~ "``sids.shp`` shapefile in the R "
-#~ "``maptools`` package (located in "
-#~ "/usr/local/lib/R/site-library/spData/shapes):"
-#~ msgstr ""
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
 
-#~ msgid ""
-#~ "Let the Coordinate Reference System "
-#~ "Selector default to (WGS 84 EPSG:4326)"
-#~ " and hit ``OK``. The shapefile should"
-#~ " be imported into PostGIS with no "
-#~ "errors. Close the PostGIS manager and"
-#~ " get back to the main QGIS "
-#~ "window."
-#~ msgstr ""
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Project"
+msgstr ""
 
-#~ msgid "Get to know pgAdmin III"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You can use the graphical database "
-#~ "client ``pgAdmin III`` from the "
-#~ "Databases menu to query and modify "
-#~ "your database non-spatially. This is "
-#~ "the official client for PostgreSQL."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Please note that there is a new"
-#~ " version of pgAdmin called pgAdmin4 "
-#~ "that can get installed via apt "
-#~ "install pgadmin4"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "pgAdmin III lets you use SQL to"
-#~ " manipulate your data tables. You can"
-#~ " find and launch pgAdmin III from "
-#~ "the Databases folder, existing on the"
-#~ " OSGeoLive Desktop."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Here, you have the option of "
-#~ "creating a new connection to a "
-#~ "PostgreSQL server, or connecting to an"
-#~ " existing server. In this case, we"
-#~ " are going to connect to the "
-#~ "predefined ``local`` server."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You can see now that the red "
-#~ "X disappeared and a \"+\" appeared "
-#~ "on the left. By pressing it a "
-#~ "tree is going to appear, displaying "
-#~ "the contents of the database."
-#~ msgstr ""
-
-#~ msgid "Executing a SQL query from pgAdmin III"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "pgAdmin III, offers the capability of"
-#~ " executing queries to a relational "
-#~ "database."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "To perform a query on the "
-#~ "database, you have to press the "
-#~ "``SQL`` button from the main toolbar "
-#~ "(the one with the yellow Magnifying "
-#~ "lens)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Afterwards, you should press the green"
-#~ " arrow button, pointing to the right"
-#~ " (execute query)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Please note that in pgAdmin III "
-#~ "the foreign data wrappers, foreign "
-#~ "servers, user mappings and foreign "
-#~ "tables are not displayed by default "
-#~ "in the tree. You have to activate"
-#~ " them via menu via :menuselection:`File "
-#~ "--> Options --> Browser --> Display`"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Read more about ``ogr_fdw``: * "
-#~ "Repository: https://github.com/pramsey/pgsql-ogr-fdw"
-#~ " * New and improved: "
-#~ "http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html"
-#~ msgstr ""
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Community"
+msgstr ""
 

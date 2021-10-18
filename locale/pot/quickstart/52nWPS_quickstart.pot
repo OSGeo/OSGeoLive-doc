@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,10 @@ msgstr ""
 msgid "This quickstart describes how to process data and store the result in another web service using WPS operations."
 msgstr ""
 
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:27
+msgid "Contents"
+msgstr ""
+
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:30
 msgid "Start 52°North WPS"
 msgstr ""
@@ -38,6 +42,14 @@ msgstr ""
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:34
 msgid "The 52n WPS welcome page will appear."
+msgstr ""
+
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:0
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:0
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:0
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:0
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:0
+msgid "screenshot"
 msgstr ""
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:40
@@ -124,3 +136,19 @@ msgstr ""
 msgid "geoprocessing@52north.org"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

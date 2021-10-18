@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-19 18:15+0000\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,12 +36,20 @@ msgstr ""
 msgid "Use the Admin Client to inspect EO data archives"
 msgstr ""
 
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:36
+msgid "Contents"
+msgstr ""
+
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:39
 msgid "Start EoxServer"
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:41
 msgid "Choose :menuselection:`Geospatial --> Web Services --> EOxServer`. This launches a browser showing the demonstration instance available at http://localhost/eoxserver/"
+msgstr ""
+
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
+msgid "EOxServer demonstration start"
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:49
@@ -56,8 +64,20 @@ msgstr ""
 msgid "Within this client you can explore the contents of the EOxServer instance. The demonstration instance is filled with ENVISAT MERIS scenes."
 msgstr ""
 
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
+msgid "Main view of the EOxServer Web Client"
+msgstr ""
+
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:60
 msgid "The client consists of the map view and widgets that contain the main interactions. The main area is the map widget of the client with a set of datasets already displayed. On the bottom, you'll find the timeslider widget, that allows you to explore the contents in the temporal dimension."
+msgstr ""
+
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
+msgid "EOxServer demonstration embedded client outlines"
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:69
@@ -92,16 +112,32 @@ msgstr ""
 msgid "From the EOxServer main page, click the **Admin Client** link and login with user `admin` and password `admin`."
 msgstr ""
 
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
+msgid "EOxServer demonstration admin client login"
+msgstr ""
+
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:123
 msgid "The `Admin Client` is Djangos standard admin and allows you to configure the available data. Please feel free to explore the client. More information can be found in the `operations' guide <https://docs.eoxserver.org/en/stable/users/operations/index.html>`_."
+msgstr ""
+
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
+msgid "EOxServer demonstration admin client start"
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:132
 msgid "For example, you can inspect the collection that is loaded by default by clicking the \"Collections\" link and then the \"MER_FRS_1P_RGB_reduced\" link."
 msgstr ""
 
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
+msgid "EOxServer demonstration admin client Dataset Series"
+msgstr ""
+
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:139
 msgid "You can preview the coverages by going back and clicking on the \"Coverages\" link."
+msgstr ""
+
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
+msgid "EOxServer demonstration admin client Dataset Series Management"
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:146
@@ -128,3 +164,19 @@ msgstr ""
 msgid "Ready to use EOxServer? Then join the community on the `mailing lists <https://docs.eoxserver.org/en/stable/users/basics.html#where-can-i-get-support>`_ to exchange ideas, discuss potential software improvements, and ask questions."
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

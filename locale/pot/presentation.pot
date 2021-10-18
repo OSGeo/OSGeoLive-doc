@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
-# This file is distributed under the same license as the OSGeoLive package.
+# Copyright (C) 2018, Kazuya Takei
+# This file is distributed under the same license as the sphinx-revealjs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: sphinx-revealjs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,3 +16,1167 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: ../../build/doc/presentation/presentation.rst:7
+msgid "OSGeoLive"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:13
+msgid "Version: 14.0"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:14
+msgid "Released: August 2021"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:17
+#: ../../build/doc/presentation/presentation.rst:206
+msgid "An Open Source Geospatial GNU/Linux Distribution"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:34
+msgid "Find this presentation"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:36
+msgid "`Presentation <https://live.osgeo.org/en/presentation.html#/>`__"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:37
+msgid "`Presentation Development <https://osgeo.github.io/OSGeoLive-doc/en/presentation.html#/>`__"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:40
+msgid "Press ESC to zoom out, SPACE / arrow keys to navigate, s for slide notes. Pop-ups are blocked in some browsers due to security settings. Try Firefox or Safari."
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:44
+#: ../../build/doc/presentation/presentation.rst:50
+msgid "What is new in 14.0"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:54
+msgid "Updated to Lubuntu 20.04 LTS"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:58
+msgid "Updated core packages based on `DebianGIS <href=\"https://wiki.debian.org/DebianGis\">`__"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:62
+msgid "QGIS 3.10.13, GDAL 3.2.1, PROJ 7.2.1, PostGIS 3.1.0, GRASS 7.8.5, GeoServer 2.18.0, MapServer 7.6.1 and many more..."
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:66
+msgid "New projects added: GeoStyler, Re3gistry"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:70
+msgid "Download OSGeoLive ISO or VMDK (with even more software)"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:74
+msgid "Documentation updates"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:78
+msgid "OSM data for Buenos Aires"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:82
+msgid "Updated packages contributed back to `UbuntuGIS <href=\"https://wiki.ubuntu.com/UbuntuGIS\">`__"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:86
+msgid "Full `changelog <href=\"https://github.com/OSGeo/OSGeoLive/blob/master/CHANGES.txt\">`__"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:95
+msgid "What is OSGeoLive?"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:107
+msgid "Components on OSGeoLive"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:109
+msgid "50+ Open Source Geospatial Applications"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:110
+msgid "Sample Datasets"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:111
+msgid "Consistent Overviews & Quickstarts"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:112
+msgid "Translations"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:125
+msgid "DVD / USB / Virtual Machine"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:138
+msgid "Quality Criteria"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:140
+msgid "Established, stable, working software"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:141
+msgid "Active community"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:142
+msgid "`Metrics <https://live.osgeo.org/en/metrics.html>`__"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:155
+msgid "Production & Marketing Pipeline"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:180
+msgid "Open Source Geospatial Foundation (OSGeo)"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:None
+#: ../../build/doc/presentation/presentation.rst:195
+#: ../../build/doc/presentation/presentation.rst:1175
+msgid "OSGeo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:197
+msgid "Non Profit for geospatial community, fostering:"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:199
+msgid "Free and Open Source Software"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:200
+msgid "Open Standards"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:201
+msgid "Open Education"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:202
+msgid "Open Research"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:203
+msgid "Open Data"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:None
+msgid "\"GNU\""
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:213
+msgid "OGC Standards"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:215
+msgid "Interoperability"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:216
+msgid "Future Proof"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:217
+msgid "Return on Investment"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:235
+msgid "Desktop GIS"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:240
+msgid "|grass_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1217
+#: ../../build/doc/presentation/presentation.rst:1217
+msgid "grass_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:240
+msgid "|gvsig_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1219
+#: ../../build/doc/presentation/presentation.rst:1219
+msgid "gvsig_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:240
+msgid "|qgis_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1221
+#: ../../build/doc/presentation/presentation.rst:1221
+msgid "qgis_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:240
+msgid "|openjump_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1223
+#: ../../build/doc/presentation/presentation.rst:1223
+msgid "openjump_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:241
+msgid "|saga_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1225
+#: ../../build/doc/presentation/presentation.rst:1225
+msgid "saga_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:241
+msgid "|udig_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1227
+#: ../../build/doc/presentation/presentation.rst:1227
+msgid "udig_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:252
+msgid "GRASS GIS"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:266
+msgid "gvSIG Desktop"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:282
+msgid "QGIS"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:295
+msgid "OpenJUMP GIS"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:309
+msgid "SAGA"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:322
+msgid "uDig"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:336
+msgid "Browser Facing GIS"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:341
+msgid "|geomoose_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1229
+#: ../../build/doc/presentation/presentation.rst:1229
+msgid "geomoose_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:341
+msgid "|geonode_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1231
+#: ../../build/doc/presentation/presentation.rst:1231
+msgid "geonode_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:341
+msgid "|mapbender_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1233
+#: ../../build/doc/presentation/presentation.rst:1233
+msgid "mapbender_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:341
+msgid "|openlayers_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1235
+#: ../../build/doc/presentation/presentation.rst:1235
+msgid "openlayers_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:342
+msgid "|geostyler_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1237
+#: ../../build/doc/presentation/presentation.rst:1237
+msgid "geostyler_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:342
+msgid "|cesium_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1239
+#: ../../build/doc/presentation/presentation.rst:1239
+msgid "cesium_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:342
+msgid "|geoext_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1241
+#: ../../build/doc/presentation/presentation.rst:1241
+msgid "geoext_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:342
+msgid "|leaflet_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1243
+#: ../../build/doc/presentation/presentation.rst:1243
+msgid "leaflet_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:353
+msgid "GeoMoose"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:365
+msgid "GeoNode"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:377
+msgid "Mapbender"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:391
+msgid "OpenLayers"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:403
+msgid "GeoStyler"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:415
+msgid "Cesium"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:428
+msgid "GeoExt"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:441
+msgid "Leaflet"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:456
+msgid "Web Services"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:461
+msgid "|deegree_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1245
+#: ../../build/doc/presentation/presentation.rst:1245
+msgid "deegree_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:461
+msgid "|geonetwork_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1247
+#: ../../build/doc/presentation/presentation.rst:1247
+msgid "geonetwork_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:461
+msgid "|geoserver_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1249
+#: ../../build/doc/presentation/presentation.rst:1249
+msgid "geoserver_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:461
+msgid "|mapcache_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1251
+#: ../../build/doc/presentation/presentation.rst:1251
+msgid "mapcache_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:462
+msgid "|mapserver_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1253
+#: ../../build/doc/presentation/presentation.rst:1253
+msgid "mapserver_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:462
+msgid "|pycsw_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1255
+#: ../../build/doc/presentation/presentation.rst:1255
+msgid "pycsw_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:462
+msgid "|pywps_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1257
+#: ../../build/doc/presentation/presentation.rst:1257
+msgid "pywps_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:462
+msgid "|istsos_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1259
+#: ../../build/doc/presentation/presentation.rst:1259
+msgid "istsos_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:463
+msgid "|mapproxy_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1261
+#: ../../build/doc/presentation/presentation.rst:1261
+msgid "mapproxy_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:463
+msgid "|pygeoapi_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1263
+#: ../../build/doc/presentation/presentation.rst:1263
+msgid "pygeoapi_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:463
+msgid "|zoo-project_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1265
+#: ../../build/doc/presentation/presentation.rst:1265
+msgid "zoo-project_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:463
+msgid "|actinia_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1267
+#: ../../build/doc/presentation/presentation.rst:1267
+msgid "actinia_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:464
+msgid "|eoxserver_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1269
+#: ../../build/doc/presentation/presentation.rst:1269
+msgid "eoxserver_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:464
+msgid "|ncWMS_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1271
+#: ../../build/doc/presentation/presentation.rst:1271
+msgid "ncWMS_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:464
+msgid "|qgis_mapserver_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1273
+#: ../../build/doc/presentation/presentation.rst:1273
+msgid "qgis_mapserver_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:464
+msgid "|re3gistry_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1275
+#: ../../build/doc/presentation/presentation.rst:1275
+msgid "re3gistry_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:465
+msgid "|t-rex_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1277
+#: ../../build/doc/presentation/presentation.rst:1277
+msgid "t-rex_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:465
+msgid "|52nSOS_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1279
+#: ../../build/doc/presentation/presentation.rst:1279
+msgid "52nSOS_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:465
+msgid "|52nWPS_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1281
+#: ../../build/doc/presentation/presentation.rst:1281
+msgid "52nWPS_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:478
+msgid "deegree"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:490
+msgid "GeoNetwork"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:503
+msgid "GeoServer"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:516
+msgid "MapCache"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:529
+msgid "MapServer"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:541
+msgid "pycsw"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:553
+msgid "PyWPS"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:563
+msgid "istSOS"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:575
+msgid "MapProxy"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:587
+msgid "pygeoapi"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:599
+msgid "Zoo Project"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:611
+msgid "actinia"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:626
+msgid "EOxServer"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:638
+msgid "ncWMS"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:650
+msgid "QGIS Server"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:662
+msgid "Re3gistry"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:676
+msgid "t-rex"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:688
+msgid "52 North SOS"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:700
+msgid "52 North WPS"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:713
+msgid "Data Stores"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:718
+msgid "|postgis_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1283
+#: ../../build/doc/presentation/presentation.rst:1283
+msgid "postgis_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:718
+msgid "|pgrouting_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1285
+#: ../../build/doc/presentation/presentation.rst:1285
+msgid "pgrouting_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:718
+msgid "|rasdaman_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1287
+#: ../../build/doc/presentation/presentation.rst:1287
+msgid "rasdaman_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:718
+msgid "|spatialite_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1289
+#: ../../build/doc/presentation/presentation.rst:1289
+msgid "spatialite_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:727
+msgid "PostGIS"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:742
+msgid "pgRouting"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:756
+msgid "Rasdaman"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:769
+msgid "SpatiaLite"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:783
+msgid "Navigation and Maps"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:788
+msgid "|marble_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1291
+#: ../../build/doc/presentation/presentation.rst:1291
+msgid "marble_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:788
+msgid "|ideditor_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1293
+#: ../../build/doc/presentation/presentation.rst:1293
+msgid "ideditor_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:788
+msgid "|josm_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1295
+#: ../../build/doc/presentation/presentation.rst:1295
+msgid "josm_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:788
+msgid "|gpsprune_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1297
+#: ../../build/doc/presentation/presentation.rst:1297
+msgid "gpsprune_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:789
+msgid "|opencpn_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1299
+#: ../../build/doc/presentation/presentation.rst:1299
+msgid "opencpn_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:789
+msgid "|osm_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1301
+#: ../../build/doc/presentation/presentation.rst:1301
+msgid "osm_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:798
+msgid "Marble"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:810
+msgid "iD editor"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:823
+msgid "JOSM"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:835
+msgid "GpsPrune"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:847
+msgid "OpenCPN"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:860
+#: ../../build/doc/presentation/presentation.rst:1024
+msgid "OpenStreetMap"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:871
+msgid "Spatial Tools"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:876
+msgid "|otb_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1303
+#: ../../build/doc/presentation/presentation.rst:1303
+msgid "otb_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:876
+msgid "|gmt_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1305
+#: ../../build/doc/presentation/presentation.rst:1305
+msgid "gmt_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:876
+msgid "|jupyter_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1307
+#: ../../build/doc/presentation/presentation.rst:1307
+msgid "jupyter_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:876
+msgid "|mapnik_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1309
+#: ../../build/doc/presentation/presentation.rst:1309
+msgid "mapnik_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:877
+msgid "|R_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1311
+#: ../../build/doc/presentation/presentation.rst:1311
+msgid "R_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:886
+msgid "OTB"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:898
+msgid "GMT"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:910
+msgid "Jupyter Notebook"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:922
+msgid "Mapnik"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:934
+msgid "R"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:949
+msgid "Domain Specific GIS"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:951
+msgid "|xygrib_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1313
+#: ../../build/doc/presentation/presentation.rst:1313
+msgid "xygrib_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:959
+msgid "XyGrib"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:972
+msgid "Data"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:977
+msgid "|naturalearth_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1315
+#: ../../build/doc/presentation/presentation.rst:1315
+msgid "naturalearth_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:977
+msgid "|nc_dataset_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1317
+#: ../../build/doc/presentation/presentation.rst:1317
+msgid "nc_dataset_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:977
+msgid "|netcdf_dataset_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1319
+#: ../../build/doc/presentation/presentation.rst:1319
+msgid "netcdf_dataset_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:977
+msgid "|osm_dataset_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1321
+#: ../../build/doc/presentation/presentation.rst:1321
+msgid "osm_dataset_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:987
+msgid "Natural Earth"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1000
+msgid "North Carolina USA Educational dataset"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1012
+msgid "NetCDF Data Set"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1038
+msgid "Geospatial Libraries"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1043
+msgid "|gdal_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1323
+#: ../../build/doc/presentation/presentation.rst:1323
+msgid "gdal_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1043
+msgid "|geos_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1325
+#: ../../build/doc/presentation/presentation.rst:1325
+msgid "geos_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1043
+msgid "|geotools_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1327
+#: ../../build/doc/presentation/presentation.rst:1327
+msgid "geotools_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1043
+msgid "|proj_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1329
+#: ../../build/doc/presentation/presentation.rst:1329
+msgid "proj_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1044
+msgid "|jts_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1331
+#: ../../build/doc/presentation/presentation.rst:1331
+msgid "jts_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1053
+msgid "GDAL/OGR"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1065
+msgid "GEOS"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1077
+msgid "GeoTools"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1089
+msgid "PROJ"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1101
+msgid "JTS"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1112
+msgid "Credits"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1114
+msgid "Developers and project maintainers"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1115
+msgid "Authors and reviewers of the documentation"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1116
+msgid "Translators"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1117
+msgid "https://live.osgeo.org/en/sponsors.html"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1127
+msgid "Project Steering Committee"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1129
+msgid "Angelos Tzotsos (Chair)"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1130
+msgid "Brian M Hamlin"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1131
+msgid "Alex Mandel"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1132
+msgid "Johan Van de Wauw"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1133
+msgid "Bas Couwenberg"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1134
+msgid "Massimo De Stefano"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1135
+msgid "Astrid Emde"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1136
+msgid "Nicolas Roelandt"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1137
+msgid "Vicky Vergara"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1138
+msgid "Enock Seth Nyamador"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1148
+msgid "Get involved"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1150
+msgid "Become a member of our team"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1152
+msgid "Join our `Mailing List <https://lists.osgeo.org/mailman/listinfo/osgeolive>`__ and introduce yourself"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1153
+msgid "Take part in our weekly `IRC <https://wiki.osgeo.org/wiki/IRC>`__ meetings (channel ``#osgeolive`` on Libre-)"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1154
+msgid "There are two ways you can help"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1156
+msgid "Help improve OSGeoLive website and documentation"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1157
+msgid "Submit new projects"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1160
+msgid "Improving OSGeoLive Documentation"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1162
+msgid "Proof-read, test and correct Quickstarts and Overviews"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1163
+msgid "There is a good possibility to get to know cool software!"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1164
+msgid "Translate and improve the documentation"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1165
+msgid "Translation is made in `Transifex <https://www.transifex.com/osgeo/osgeolive>`__"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1166
+msgid "Local Chapters can easily get involved here"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1167
+msgid "No technical experience necessary"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1171
+msgid "Sponsors"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1175
+msgid "UCD ICE"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1175
+msgid "NTUA"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1176
+msgid "|osgeo_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1203
+#: ../../build/doc/presentation/presentation.rst:1203
+msgid "osgeo_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1176
+msgid "|ucdice_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1205
+#: ../../build/doc/presentation/presentation.rst:1205
+msgid "ucdice_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1176
+msgid "|ntua_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1207
+#: ../../build/doc/presentation/presentation.rst:1207
+msgid "ntua_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1177
+msgid "DebianGIS"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1177
+msgid "okeanos"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1177
+msgid "Georepublic"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1178
+msgid "|debian_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1209
+#: ../../build/doc/presentation/presentation.rst:1209
+msgid "debian_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1178
+msgid "|okeanos_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1213
+#: ../../build/doc/presentation/presentation.rst:1213
+msgid "okeanos_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1178
+msgid "|georepublic_logo|"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1211
+#: ../../build/doc/presentation/presentation.rst:1211
+msgid "georepublic_logo"
+msgstr ""
+
+#: ../../build/doc/presentation/presentation.rst:1192
+msgid "Questions?"
+msgstr ""

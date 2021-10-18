@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:23
 msgid "This quick start shows how to add a new WMS layer to a MapCache set-up, display the tile service in an OpenLayers web map, and seed a tile cache from the command line."
+msgstr ""
+
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:28
+msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:31
@@ -160,3 +164,19 @@ msgstr ""
 msgid "Then join the MapServer community, of which MapCache is a part, on the `Mailing Lists <https://www.mapserver.org/community/lists.html>`_ to exchange ideas, discuss potential software improvements and ask questions."
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

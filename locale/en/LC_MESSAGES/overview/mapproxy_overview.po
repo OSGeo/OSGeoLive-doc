@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:18
 msgid "MapProxy"
@@ -41,8 +41,14 @@ msgid ""
 "dozens of distributed WMS services."
 msgstr ""
 
+msgid "mapproxy screenshot"
+msgstr ""
+
 #: ../../build/doc/overview/mapproxy_overview.rst:35
 msgid "Core Features"
+msgstr ""
+
+msgid "MapProxy demo"
 msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:49
@@ -283,11 +289,27 @@ msgstr ""
 msgid "**Support:** https://mapproxy.org/support"
 msgstr ""
 
-#: ../../build/doc/overview/mapproxy_overview.rst:124
+#: ../../build/doc/overview/mapproxy_overview.rst:125
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/mapproxy_overview.rst:126
+#: ../../build/doc/overview/mapproxy_overview.rst:127
 msgid ":doc:`Quickstart documentation <../quickstart/mapproxy_quickstart>`"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Community"
 msgstr ""
 

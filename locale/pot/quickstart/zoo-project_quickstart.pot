@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +24,10 @@ msgstr ""
 msgid "The ZOO-Project provides a developer friendly Web Processing Service (WPS) framework for creating and chaining Web Processing Services. A WPS provides web access to functions which run spatial algorithms."
 msgstr ""
 
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:30
+msgid "Contents"
+msgstr ""
+
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:33
 msgid "Start ZOO-Project"
 msgstr ""
@@ -34,6 +38,14 @@ msgstr ""
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:37
 msgid "Firefox will open the ZOO Project demonstration landing page. From here, you can select a demon application."
+msgstr ""
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:None
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
+msgid "screenshot"
 msgstr ""
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:45
@@ -104,3 +116,19 @@ msgstr ""
 msgid "For further questions you can contact the ZOO Project mailing list: zoo-discuss@lists.osgeo.org"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:22
 msgid "SAGA (System for Automated Geoscientific Analyses) is an open source geographic information system (GIS) used for editing and analysing spatial data. It includes a large number of modules for the analysis of vector (point, line and polygon), table, grid and image data. Among others the package includes modules for geostatistics, image classification, projections, simulation of dynamic processes (hydrology, landscape development) and terrain analysis. The functionality can be accessed through a GUI, the command line or by using the C++ API."
+msgstr ""
+
+#: ../../build/doc/quickstart/saga_quickstart.rst:32
+msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:35
@@ -240,3 +244,19 @@ msgstr ""
 msgid "More documentation can be found on the SAGA website: * http://www.saga-gis.org and specifically in the documentation archive: * http://www.saga-gis.org/en/about/references.html * https://sourceforge.net/p/saga-gis/wiki/Documentation/"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

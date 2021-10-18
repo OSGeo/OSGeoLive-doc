@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 11:35-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,10 @@ msgstr ""
 
 #: ../../build/doc/overview/eoxserver_overview.rst:28
 msgid "EOxServer builds upon an Open Source stack of software which includes Python, :doc:`MapServer <mapserver_overview>`, Django/GeoDjango, :doc:`GDAL <gdal_overview>`, PROJ, and a :doc:`SpatiaLite <spatialite_overview>` or :doc:`PostGIS <postgis_overview>` database."
+msgstr ""
+
+#: ../../build/doc/overview/eoxserver_overview.rst:None
+msgid "eoxserver screenshot"
 msgstr ""
 
 #: ../../build/doc/overview/eoxserver_overview.rst:40
@@ -141,7 +145,7 @@ msgid "**Website:** https://docs.eoxserver.org/en/stable/"
 msgstr ""
 
 #: ../../build/doc/overview/eoxserver_overview.rst:83
-msgid "**Licence:** `MIT-style license <https://docs.eoxserver.org/en/latest/copyright.html#license>`_"
+msgid "**Licence:** `MIT-style license <https://docs.eoxserver.org/en/stable/copyright.html#license>`_"
 msgstr ""
 
 #: ../../build/doc/overview/eoxserver_overview.rst:85
@@ -157,7 +161,7 @@ msgid "**API Interfaces:** Python"
 msgstr ""
 
 #: ../../build/doc/overview/eoxserver_overview.rst:91
-msgid "**Support:** https://docs.eoxserver.org/en/latest/users/basics.html#where-can-i-get-support"
+msgid "**Support:** https://docs.eoxserver.org/en/stable/users/basics.html#where-can-i-get-support"
 msgstr ""
 
 #: ../../build/doc/overview/eoxserver_overview.rst:96
@@ -168,3 +172,19 @@ msgstr ""
 msgid ":doc:`Quickstart documentation <../quickstart/eoxserver_quickstart>`"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

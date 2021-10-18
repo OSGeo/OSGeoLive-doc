@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../build/doc/overview/geotools_overview.rst:17
 msgid "GeoTools"
@@ -35,6 +35,9 @@ msgid ""
 " GeoTools include: :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, "
 "AtlasStyler, Geomajas, Geopublisher, :doc:`geoserver_overview`, and "
 ":doc:`udig_overview`."
+msgstr ""
+
+msgid "geotools screenshot"
 msgstr ""
 
 #: ../../build/doc/overview/geotools_overview.rst:31
@@ -119,6 +122,10 @@ msgstr ""
 msgid ""
 "Provide additional capabilities built using the spatial facilites of the "
 "core library."
+msgstr ""
+
+#: ../../build/doc/overview/geotools_overview.rst
+msgid "Extensions built using the GeoTools library"
 msgstr ""
 
 #: ../../build/doc/overview/geotools_overview.rst:64
@@ -265,5 +272,21 @@ msgstr ""
 msgid ""
 "`Quickstart documentation "
 "<http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Community"
 msgstr ""
 

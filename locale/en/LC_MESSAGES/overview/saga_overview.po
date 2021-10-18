@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../build/doc/overview/saga_overview.rst:14
 msgid "SAGA"
@@ -42,6 +42,9 @@ msgid ""
 "SAGA has been in development since 2001, and the centre of SAGA "
 "development is located in the Institute of Geography at the University of"
 " Hamburg, with contributions from the growing world wide community."
+msgstr ""
+
+msgid "saga screenshot"
 msgstr ""
 
 #: ../../build/doc/overview/saga_overview.rst:39
@@ -138,11 +141,27 @@ msgstr ""
 msgid "**Support:** http://www.saga-gis.org"
 msgstr ""
 
-#: ../../build/doc/overview/saga_overview.rst:78
+#: ../../build/doc/overview/saga_overview.rst:79
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/saga_overview.rst:80
+#: ../../build/doc/overview/saga_overview.rst:81
 msgid ":doc:`Quickstart documentation <../quickstart/saga_quickstart>`"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Community"
 msgstr ""
 

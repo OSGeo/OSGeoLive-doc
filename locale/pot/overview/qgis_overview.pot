@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,10 @@ msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rst:25
 msgid "QGIS is a user friendly, Open Source, GIS client where you can visualize, manage, edit, analyse data, and compose printable maps. It includes powerful analytical functionality through integration with :doc:`GRASS <grass_overview>`, :doc:`SAGA <saga_overview>`, :doc:`Orfeo Toolbox <otb_overview>` , :doc:`GDAL/OGR <gdal_overview>` and many other algorithm providers. It runs on Linux, Unix, Mac OSX, and Windows and supports numerous vector, raster and database formats and functionality."
+msgstr ""
+
+#: ../../build/doc/overview/qgis_overview.rst:None
+msgid "qgis screenshot"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rst:36
@@ -196,3 +200,19 @@ msgstr ""
 msgid ":doc:`Quickstart documentation <../quickstart/qgis_quickstart>`"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""
