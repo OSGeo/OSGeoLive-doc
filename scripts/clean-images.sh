@@ -23,9 +23,17 @@
 #############################################################################
 
 
-cd build/doc/_build/html
+pushd build/doc/_build > /tmp/null || exit 1
 
-# Copy the images generated on the english documentation
+# Copy the presentation and its requirements
+mv revealjs/en/revealjs/presentation.html html/en/
+mv revealjs/en/revealjs/_static/revealjs4/ html/en/_static/
+mv revealjs/en/revealjs/_images/osgeolive-banner.png html/en/_images/
+
+
+pushd html > /tmp/null || exit 1
+
+# Images generated on the english documentation are used in all languages
 mv en/_images .
 mv en/_static .
 
@@ -39,7 +47,7 @@ perl -pi -e 's/_images/\.\.\/_images/g' `find ./ -name "*.html"`
 # Fix the links to the new _static locations
 perl -pi -e 's/_static/\.\.\/_static/g' `find ./ -name "*.html"`
 
-
+# Cleanup the _static directory
 rm -rf _static/CMakeFiles
 rm -rf _static/img/CMakeFiles
 rm -rf _static/lib/font/league-gothic/
@@ -58,10 +66,12 @@ rm -f _static/reveal.js/css/theme/$file
 done
 
 # highlight  markdown   notes  print-pdf zoom-js"
-plugin_not_used="leap          math         multiplex        notes-server int-pdf    remotes      search"       
+plugin_not_used="leap          math         multiplex        notes-server int-pdf    remotes      search"
 
 for file in $plugin_not_used ; do
 rm -rf _static/plugin/$file
 rm -rf _static/reveal.js/plugin/$file
 done
 
+popd > /dev/null || exit 1
+popd > /dev/null || exit 1

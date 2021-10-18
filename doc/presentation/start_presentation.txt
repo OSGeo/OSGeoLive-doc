@@ -3,7 +3,7 @@ OSGeoLive
 ================================================================================
 
 
-.. image:: ../images/banner.png
+.. image:: ../images/osgeolive-logo/osgeolive-banner.png
 
 
 * Version: 14.0
@@ -12,7 +12,7 @@ OSGeoLive
 An Open Source Geospatial GNU/Linux Distribution
 ================================================================================
 
-.. image:: ../images/banner.png
+.. image:: ../images/osgeolive-logo/osgeolive-banner.png
 
 .. speaker notes
    This OSGeoLive Overview, originally compiled by Cameron Shorter is licensed
@@ -185,7 +185,7 @@ Open Source Geospatial Foundation (OSGeo)
   community which fosters an open approach to software, standards, education,
   research and data.  It supports with advocacy, events, organisation and legal
   matters.  OSGeoLive derives its name from the Open Source GeoSpatial
-  Foundation, or OSGeo for short.  
+  Foundation, or OSGeo for short.
 
 OSGeo
 --------------------------------------------------------------------------------

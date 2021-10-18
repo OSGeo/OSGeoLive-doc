@@ -4,7 +4,6 @@
 # Files
 #---------------------
 set(OSGeoLiveDoc_IMG_FILES
-    "banner.png"
     )
 
 
@@ -17,6 +16,7 @@ set(OSGeoLiveDoc_IMG_SUBDIRS
     "logos"
     "presentation"
     "stars"
+    "osgeolive-logo"
     )
 
 

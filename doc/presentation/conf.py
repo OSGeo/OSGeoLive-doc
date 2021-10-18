@@ -12,8 +12,6 @@ release = "2018.10"
 
 # -- General configuration ---------------------------------------------------
 extensions = [
-    "sphinx.ext.mathjax",
-    "sphinx.ext.todo",
     "sphinx_revealjs",
 ]
 templates_path = ["_templates"]
