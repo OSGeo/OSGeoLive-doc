@@ -1,4 +1,5 @@
 sphinx>=4.0.0
 sphinx-intl>=2.0.0
 sphinx-revealjs
+sphinx-intl[transifex]
 transifex-client
