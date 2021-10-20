@@ -11,7 +11,8 @@
 
 This Quickstart describes the basic steps required to start working with GeoStyler: installing GeoStyler and adding a first UI component to your react application.
 
-A complete beginner tutorial can be found on `localhost/geostyler <localhost/geostyler>`__.
+A complete beginner tutorial can be found on `localhost/geostyler
+<http://localhost/geostyler>`__.
 
 GeoStyler makes it easy to style geodata in any web page. The UI is independent from any styling format and should be usable for e.g. OpenLayer or SLD.
 
