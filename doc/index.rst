@@ -67,6 +67,6 @@ Quick Starts
 Presentation
 --------------------------------------------------------------------------------
 
-A half hour `presentation <presentation.html>`_, highlighting all
+A half hour `presentation <presentation.html>`__, highlighting all
 OSGeoLive applications, is available with slides, script, and `abstract
 <presentation/abstract.txt>`_.

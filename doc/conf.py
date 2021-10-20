@@ -323,6 +323,9 @@ linkcheck_ignore = [
         # Link with error 400 Client Error
         # Used in contact
         r'https://mobile.twitter.com/osgeolive',
+
+        # Link to the presentation
+        r'presentation.html'
         ]
 
 linkcheck_anchors = False
@@ -357,17 +360,17 @@ rst_epilog="""
                         :alt: OSGeo Project
                         :align: bottom
                         :height: 18
-                        :target: ../sponsors_osgeo.html
+                        :target: https://localhost/osgeolive/sponsors_osgeo.html
 .. |osgeo_incubation| image:: /images/logos/OSGeo_compass_bw.png
                         :alt: OSGeo Community
                         :align: middle
                         :height: 18
-                        :target: ../sponsors_osgeo.html
+                        :target: https://localhost/osgeolive/sponsors_osgeo.html
 .. |osgeo_community| image:: /images/logos/OSGeo_compass_bw.png
                         :alt: OSGeo Community
                         :align: middle
                         :height: 18
-                        :target: ../sponsors_osgeo.html
+                        :target: https://localhost/osgeolive/sponsors_osgeo.html
 .. |CAT| replace:: `Catalogue Service <https://www.ogc.org/standards/cat>`__
 .. |CSW| replace:: `Catalogue Service <https://www.ogc.org/standards/cat>`__
 .. |GML| replace:: `Geography Markup Language (GML) <https://www.ogc.org/standards/gml>`__
