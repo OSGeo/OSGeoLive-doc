@@ -236,13 +236,13 @@ MACRO(INSERT_INTO_MAP_KIND _KEY _TARGET)
     if ("${_TARGET}" STREQUAL "")
       set(_TRGT  "")
     else ()
-      set(_TRGT 
+      set(_TRGT
 ".. image:: /images/logos/${_TARGET}.png
     :align: right
     :target: https://www.osgeo.org
 ")
     endif()
-      
+
     SET("OSGEO_KIND_${_KEY}" "${_TRGT}")
 ENDMACRO(INSERT_INTO_MAP_KIND)
 
@@ -252,7 +252,7 @@ MACRO(INSERT_INTO_MAP_LOGO _KEY _TARGET)
     else()
       set(_TRGT ":target: ${_TARGET}")
     endif()
-      
+
     SET("LOGO_${_KEY}"
  ".. image:: /images/projects/${_KEY}/logo_${_KEY}.png
     :align: right
@@ -402,4 +402,6 @@ configure_file("licenses.csv" "licenses.csv")
 configure_file("contributors.csv" "contributors.csv")
 configure_file("translators.csv" "translators.csv")
 
+set(SPHINX_BUILD_DIR "${CMAKE_CURRENT_BINARY_DIR}/_build")
 add_subdirectory(doc)
+add_subdirectory(presentation)

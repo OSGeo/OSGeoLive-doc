@@ -20,6 +20,7 @@ master_doc = "presentation"
 language = None
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 pygments_style = None
+locale_dirs = ['@CMAKE_SOURCE_DIR@/locale']
 
 # -- Options for HTML output -------------------------------------------------
 html_theme = "alabaster"

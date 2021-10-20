@@ -7,7 +7,7 @@ use strict;
 use Data::Dumper;
 use File::Find ();
 use Text::SimpleTable::AutoWidth;
- 
+
 
 use vars qw/*name *dir/;
 *name   = *File::Find::name;
@@ -20,7 +20,7 @@ $FULL_DEBUG = 1 if "@OSGeoLiveDoc_VERBOSE_DEBUG@" =~ /ON/;
 $DEBUG = 1 if ("@OSGeoLiveDoc_DEBUG@" =~ /ON/) or $FULL_DEBUG;
 my $version = "@OSGeoLiveDoc_VERSION@";
 my $projects_info_file = '@CMAKE_SOURCE_DIR@/projects_info.csv';
-my $output_file = '@CMAKE_CURRENT_BINARY_DIR@/../presentation.rst';
+my $output_file = '@CMAKE_CURRENT_BINARY_DIR@/../revealjs/presentation.rst';
 my $start_file = '@CMAKE_CURRENT_BINARY_DIR@/../start_presentation.txt';
 my $section_notes_file = '@CMAKE_CURRENT_BINARY_DIR@/../middle_presentation.txt';
 my $end_file = '@CMAKE_CURRENT_BINARY_DIR@/../end_presentation.txt';
@@ -67,7 +67,7 @@ exit 0;
 # subroutines
 ######################################################
 
-# read the beginning of the presentation 
+# read the beginning of the presentation
 sub read_start {
     my $file = shift;
 
@@ -184,10 +184,10 @@ sub get_section {
     my $section_data = $configuration->{$section};
 
     $contents .=  "
-    
+
 $section
 ===============================================================================
-  
+
 ";
 
     my @name_line;
@@ -211,8 +211,8 @@ $section
         my $slide = "
 $name
 --------------------------------------------------------------------------------
-  
-.. image:: ../images/projects/$slug/$slug"."_screenshot.png
+
+.. image:: /images/projects/$slug/$slug"."_screenshot.png
    :height: 500
 
 .. Note $note
@@ -222,9 +222,9 @@ $name
         $slides .= $slide;
 
 
-        
-        push @name_line,  "$name";  
-        push @img_line,   "|$slug" . "_logo|";  
+
+        push @name_line,  "$name";
+        push @img_line,   "|$slug" . "_logo|";
 
         ++$elem_count;
         $max = $elem_count if $elem_count > $max;
@@ -238,14 +238,14 @@ $name
             @img_line = ();
         }
 
-        $logo_list .= ".. |$slug" . "_logo| image:: ../images/projects/$slug/logo_$slug.png\n                        :height: 50\n";
+        $logo_list .= ".. |$slug" . "_logo| image:: /images/projects/$slug/logo_$slug.png\n                        :height: 50\n";
     }
 
     if ($elem_count != 0) {
         while ($elem_count < $max) {
             ++$elem_count;
-            push @name_line,  "____1234____ ";  
-            push @img_line,   "____1234____ ";  
+            push @name_line,  "____1234____ ";
+            push @img_line,   "____1234____ ";
         }
         $tbl->row(@img_line);
 	#$tbl->row(@name_line);
@@ -273,7 +273,7 @@ sub get_note {
     # Read the file and save contents
     open(IN, $file) || die "ERROR: Failed to open '$file'\n";
     my $string = "";
-    my $found  = 0;   
+    my $found  = 0;
     while (<IN>) {
         $found = 1 if  $_ =~ /^.*presentation-note/;
         if ($found == 1) {

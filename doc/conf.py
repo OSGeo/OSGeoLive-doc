@@ -194,7 +194,7 @@ htmlhelp_basename = '%sdoc' % project
 
 
 # -- Options for locale output --------------------------------------------------
-locale_dirs = ['../../locale/']   # path is example but recommended.
+locale_dirs = ['@CMAKE_SOURCE_DIR@/locale']   # path is example but recommended.
 gettext_compact = False     # optional.
 gettext_auto_build = True
 

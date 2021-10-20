@@ -27,6 +27,7 @@ set(OSGeoLiveDoc_IMG_SUBDIRS
 
 foreach (dir ${OSGeoLiveDoc_IMG_SUBDIRS})
     file(COPY "${dir}" DESTINATION "${CMAKE_CURRENT_BINARY_DIR}")
+    file(COPY "${dir}" DESTINATION "${CMAKE_BINARY_DIR}/presentation/revealjs/images")
     if (OSGeoLiveDoc_DEBUG)
         message(STATUS "   Adding images directory ${dir}")
     endif()
@@ -41,4 +42,3 @@ endforeach()
 
 
 add_subdirectory(projects)
-

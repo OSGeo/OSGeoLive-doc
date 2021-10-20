@@ -73,7 +73,6 @@ configure_file("conf.py" "conf.py" @ONLY)
 add_subdirectory(_themes)
 
 set(SPHINX_DOCUMENTATION_DIR "${CMAKE_CURRENT_BINARY_DIR}")
-set(SPHINX_BUILD_DIR "${CMAKE_CURRENT_BINARY_DIR}/_build")
 
 
 # Internal variables.
@@ -144,5 +143,3 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
     endforeach()
     add_dependencies(doc "${target}")
 endforeach()
-
-add_subdirectory(presentation)
