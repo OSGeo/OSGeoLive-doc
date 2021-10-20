@@ -111,20 +111,27 @@ The output ps document should look like:
 
 
 Things to try
-=============
+================================================================================
 
-Look at some of the examples found in: `/usr/share/doc/gmt/examples <../../gmt/examples/>`_
+Install the following packages:
 
-.. packages:
-  gmt-doc (and -pdf)
-  gmt-coast-low
-  gmt-examples
-  gmt-tutorial (and -pdf)
-  
-Go through the GMT tutorial and follow the several examples available in the src code.
-There are 30 example jobs built in, to test:
+*  gmt-doc (and -pdf)
+*  gmt-coast-low
+*  gmt-examples
+*  gmt-tutorial (and -pdf)
 
-Open a terminal, then
+
+.. TODO the disk has directory /var/www/gmt but is empty (issue
+  https://trac.osgeo.org/osgeolive/ticket/2344)
+
+Examples will be found in: `/usr/share/doc/gmt/examples`
+
+Go through the `GMT tutorial
+<https://gmt.soest.hawaii.edu/doc/latest/GMT_Tutorial.html>` and follow the
+examples available in the `src` code.
+There are 30 example jobs built in, to test
+
+Open a terminal, then execute the example
 
 ::
 
@@ -132,7 +139,8 @@ Open a terminal, then
   cd gmt-examples/ex20
   ./example_20.sh
 
-To view the results in Ghostview (http://www.gnu.org/software/gv/) , use command `gv`. Type `q` to quit Ghostview. 
+To view the results in Ghostview (http://www.gnu.org/software/gv/) , use command
+`gv`. Type `q` to quit Ghostview.
 
 
 ::
@@ -143,9 +151,7 @@ To view the results in Ghostview (http://www.gnu.org/software/gv/) , use command
 What next?
 ==========
 
-* Have a read of the local documentation stored in: `/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_
-
+* Documentation: https://www.soest.hawaii.edu/gmt/
 * Website: https://gmt.soest.hawaii.edu
-
 * Support: https://gmt.soest.hawaii.edu/projects/gmt/boards/1
 
