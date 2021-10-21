@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -277,11 +277,11 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:295
-msgid "`API Docs <../../openlayers/apidoc/>`_"
+msgid "`API Docs <https://localhost/openlayers/apidoc/>`_"
 msgstr ""
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:297
-msgid "`Examples <../../openlayers/examples/>`_"
+msgid "`Examples <https://localhost/openlayers/examples/>`_"
 msgstr ""
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:299

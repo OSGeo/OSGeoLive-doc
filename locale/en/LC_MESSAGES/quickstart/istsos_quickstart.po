@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -250,7 +250,7 @@ msgstr ""
 #: ../../build/doc/quickstart/istsos_quickstart.rst:139
 msgid ""
 "Observed property: "
-"urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature"
+"`urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature`"
 msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:141
@@ -258,7 +258,7 @@ msgid "Unit of measure: °C"
 msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:143
-msgid "Description (optional): conversion from resistance to temperature"
+msgid "Description (optional): conversion from resistance to tempera"
 msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:145

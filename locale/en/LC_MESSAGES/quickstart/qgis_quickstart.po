@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -534,16 +534,16 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:303
 msgid ""
-"Try publishing your QGIS map to the web using `QGIS Map Server "
-"<../overview/qgis_mapserver_overview.html>`_. in the "
-":menuselection:`Geospatial --> Web Services` menu."
-msgstr ""
-
-#: ../../build/doc/quickstart/qgis_quickstart.rst:307
-msgid "What next?"
+"Try publishing your QGIS map to the web using :doc:`QGIS Map Server "
+"<../overview/qgis_mapserver_overview>`. in the :menuselection:`Geospatial"
+" --> Web Services` menu."
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:309
+msgid "What next?"
+msgstr ""
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:311
 msgid ""
 "To learn more about QGIS, a good starting point is the `Documentation "
 "page`_ on the QGIS homepage and `A Gentle Introduction to GIS`_ eBook."

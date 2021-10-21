@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -116,15 +116,11 @@ msgstr ""
 msgid "Documentation is available from the Help menu or online at https://opencpn.org/OpenCPN/info/manuals.html"
 msgstr ""
 
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:92
-msgid "`Getting started tips <../../opencpn/tips.html>`_"
-msgstr ""
-
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:94
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:95
 msgid "Website: https://www.opencpn.org"
 msgstr ""
 
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:96
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:97
 msgid "Support: https://www.cruisersforum.com/forums/f134"
 msgstr ""
 

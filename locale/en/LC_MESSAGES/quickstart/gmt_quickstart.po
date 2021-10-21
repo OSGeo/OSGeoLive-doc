@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,42 +145,60 @@ msgid "Things to try"
 msgstr ""
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:119
-msgid ""
-"Look at some of the examples found in: `/usr/share/doc/gmt/examples "
-"<../../gmt/examples/>`_"
+msgid "Install the following packages:"
 msgstr ""
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:127
-msgid ""
-"Go through the GMT tutorial and follow the several examples available in "
-"the src code. There are 30 example jobs built in, to test:"
+#: ../../build/doc/quickstart/gmt_quickstart.rst:121
+msgid "gmt-doc (and -pdf)"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:122
+msgid "gmt-coast-low"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:123
+msgid "gmt-examples"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:124
+msgid "gmt-tutorial (and -pdf)"
 msgstr ""
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:130
-msgid "Open a terminal, then"
+msgid "Examples will be found in: `/usr/share/doc/gmt/examples`"
 msgstr ""
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:138
+#: ../../build/doc/quickstart/gmt_quickstart.rst:132
+msgid ""
+"Go through the `GMT tutorial "
+"<https://gmt.soest.hawaii.edu/doc/latest/GMT_Tutorial.html>` and follow "
+"the examples available in the `src` code. There are 30 example jobs built"
+" in, to test"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:137
+msgid "Open a terminal, then execute the example"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:145
 msgid ""
 "To view the results in Ghostview (http://www.gnu.org/software/gv/) , use "
 "command `gv`. Type `q` to quit Ghostview."
 msgstr ""
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:147
+#: ../../build/doc/quickstart/gmt_quickstart.rst:155
 msgid "What next?"
 msgstr ""
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:149
-msgid ""
-"Have a read of the local documentation stored in: "
-"`/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_"
+#: ../../build/doc/quickstart/gmt_quickstart.rst:157
+msgid "Documentation: https://www.soest.hawaii.edu/gmt/"
 msgstr ""
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:151
+#: ../../build/doc/quickstart/gmt_quickstart.rst:158
 msgid "Website: https://gmt.soest.hawaii.edu"
 msgstr ""
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:153
+#: ../../build/doc/quickstart/gmt_quickstart.rst:159
 msgid "Support: https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
 msgstr ""
 
