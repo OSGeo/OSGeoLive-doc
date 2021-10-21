@@ -78,7 +78,7 @@ message(STATUS "CMAKE_CURRENT_BINARY_DIR ${CMAKE_CURRENT_BINARY_DIR}")
 foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
   foreach (lang ${OSGeoLiveDoc_BUILD_LANGUAGES})
     add_custom_target(
-      "presentation-${lang}"
+      "presentation-${target}-${lang}"
       COMMAND ${SPHINX_EXECUTABLE}
 
       -M revealjs
@@ -95,7 +95,7 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
 
       COMMENT "Generating presentation/${lang} documentation ..."
       )
-    add_dependencies("presentation" "presentation-${lang}")
+    add_dependencies("presentation" "presentation-${target}-${lang}")
   endforeach()
 endforeach()
 add_dependencies(doc presentation)
