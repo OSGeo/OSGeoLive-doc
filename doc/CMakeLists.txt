@@ -127,6 +127,7 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
 
             -b ${target}
             -c "${CMAKE_CURRENT_BINARY_DIR}"
+            -j auto
             -D language='${lang}'
 
             # the location of the documentation to be build
