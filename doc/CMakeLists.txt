@@ -106,7 +106,6 @@ if (LOCALE)
 
         COMMENT "Generating POT & PO files ..."
         )
-    add_subdirectory(presentation)
     return()
 endif()
 
@@ -128,6 +127,7 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
             -b ${target}
             -c "${CMAKE_CURRENT_BINARY_DIR}"
             -j auto
+            -v
             -D language='${lang}'
 
             # the location of the documentation to be build

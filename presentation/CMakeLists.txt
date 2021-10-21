@@ -47,7 +47,7 @@ if (LOCALE)
     -b gettext
 
     # the location of the documentation to be build
-    "${CMAKE_CURRENT_BINARY_DIR}"
+    "${CMAKE_CURRENT_BINARY_DIR}/revealjs"
     "${CMAKE_SOURCE_DIR}/locale/pot"
 
     COMMAND sphinx-intl update

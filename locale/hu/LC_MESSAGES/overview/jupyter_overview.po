@@ -125,8 +125,8 @@ msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/jupyter_overview.rst:59
-msgid "**Website:** https://jupyter.org/"
-msgstr "**Honlap:** https://jupyter.org/"
+msgid "**Website:** http://jupyter.org/"
+msgstr "**Honlap:** http://jupyter.org/"
 
 #: ../../build/doc/overview/jupyter_overview.rst:61
 msgid "**Licence:** revised BSD license"
@@ -145,8 +145,8 @@ msgid "**API Interfaces:** Python"
 msgstr "**API interfészek:** Python"
 
 #: ../../build/doc/overview/jupyter_overview.rst:69
-msgid "**Support:**  https://jupyter.org/community.html"
-msgstr "**Támogatás:**  https://jupyter.org/community.html"
+msgid "**Support:**  http://jupyter.org/community.html"
+msgstr "**Támogatás:**  http://jupyter.org/community.html"
 
 #: ../../build/doc/overview/jupyter_overview.rst:73
 msgid "Quickstart"

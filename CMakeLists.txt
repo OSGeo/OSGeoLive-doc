@@ -151,7 +151,7 @@ message(STATUS "OSGeoLiveDoc_DOC_TARGETS = ${OSGeoLiveDoc_DOC_TARGETS}")
 # TODO: figure out how to support this
 #  "el"   "hu"  "id"  "zh")
 #---------------------------------------------
-set(OSGeoLiveDoc_SUPPORTED_LANGUAGES "ca"  "de"  "es"  "fi" "fr"  "it"  "ja"  "ko"  "pl"  "ru" "hu")
+set(OSGeoLiveDoc_SUPPORTED_LANGUAGES "de" "es" "fi"  "fr"  "hu"  "it"  "ja")
 set(OSGeoLiveDoc_ENGLISH "en")
 
 #---------------------------------------------

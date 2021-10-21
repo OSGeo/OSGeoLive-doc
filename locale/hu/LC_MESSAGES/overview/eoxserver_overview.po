@@ -181,10 +181,10 @@ msgstr "**Honlap:** https://docs.eoxserver.org/en/stable/"
 #: ../../build/doc/overview/eoxserver_overview.rst:83
 msgid ""
 "**Licence:** `MIT-style license "
-"<https://docs.eoxserver.org/en/stable/copyright.html#license>`_"
+"<https://docs.eoxserver.org/en/latest/copyright.html#license>`_"
 msgstr ""
 "**Licenc:** `MIT-style license "
-"<https://docs.eoxserver.org/en/stable/copyright.html#license>`_"
+"<https://docs.eoxserver.org/en/latest/copyright.html#license>`_"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:85
 msgid "**Software Version:** |version-eoxserver|"
@@ -200,10 +200,10 @@ msgstr "**API interfészek:** Python"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:91
 msgid ""
-"**Support:** https://docs.eoxserver.org/en/stable/users/basics.html#where-"
+"**Support:** https://docs.eoxserver.org/en/latest/users/basics.html#where-"
 "can-i-get-support"
 msgstr ""
-"**Támogatás:** https://docs.eoxserver.org/en/stable/users/basics.html#where-"
+"**Támogatás:** https://docs.eoxserver.org/en/latest/users/basics.html#where-"
 "can-i-get-support"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:96
