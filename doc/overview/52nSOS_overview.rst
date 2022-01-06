@@ -56,7 +56,7 @@ Core Features
   Hence, observation data can be requested in a RESTful way and is returned
   in JSON encoded responses. More details incl. documentation can be found in the
   `SOS webapp <http://localhost:8080/52nSOS/static/doc/api-doc/>`_.
-* **INSPIRE Sepcialized Observations**: Support for the INSPIRE Specialized
+* **INSPIRE Specialized Observations**: Support for the INSPIRE Specialized
   Observations defined in Guidelines for the use of `Observations & Measurements and
   Sensor Web Enablement-related standards in INSPIRE (D2.9) <https://inspire.ec.europa.eu/id/document/tg/d2.9-o%26m-swe>`_
   (`detailed information about the implementation <https://wiki.52north.org/SensorWeb/InspireSpecialisedObservations>`_).
