@@ -78,17 +78,17 @@
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#core-concepts" id="id1">Keskeiset käsitteet</a></li>
-<li><a class="reference internal" href="#create-a-basic-map" id="id2">Create a basic map</a></li>
-<li><a class="reference internal" href="#add-raster-layers" id="id3">Add raster layers</a></li>
-<li><a class="reference internal" href="#add-vector-layers" id="id4">Add vector layers</a></li>
-<li><a class="reference internal" href="#apply-style-to-features" id="id5">Apply style to features</a></li>
-<li><a class="reference internal" href="#work-with-events" id="id6">Work with events</a></li>
-<li><a class="reference internal" href="#what-next" id="id7">Mitä seuraavaksi?</a></li>
+<li><a class="reference internal" href="#core-concepts" id="toc-entry-1">Keskeiset käsitteet</a></li>
+<li><a class="reference internal" href="#create-a-basic-map" id="toc-entry-2">Create a basic map</a></li>
+<li><a class="reference internal" href="#add-raster-layers" id="toc-entry-3">Add raster layers</a></li>
+<li><a class="reference internal" href="#add-vector-layers" id="toc-entry-4">Add vector layers</a></li>
+<li><a class="reference internal" href="#apply-style-to-features" id="toc-entry-5">Apply style to features</a></li>
+<li><a class="reference internal" href="#work-with-events" id="toc-entry-6">Work with events</a></li>
+<li><a class="reference internal" href="#what-next" id="toc-entry-7">Mitä seuraavaksi?</a></li>
 </ul>
 </div>
 <div class="section" id="core-concepts">
-<h2><a class="toc-backref" href="#id1">Keskeiset käsitteet</a><a class="headerlink" href="#core-concepts" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-1">Keskeiset käsitteet</a><a class="headerlink" href="#core-concepts" title="Permalink to this headline">¶</a></h2>
 <p>Before we start working with OpenLayers it helps to understand OpenLayers core concepts:</p>
 <dl class="docutils">
 <dt><strong>Kartta</strong></dt>
@@ -109,7 +109,7 @@ determines its look (line thinkness, fill color, etc).</dd>
 </dl>
 </div>
 <div class="section" id="create-a-basic-map">
-<h2><a class="toc-backref" href="#id2">Create a basic map</a><a class="headerlink" href="#create-a-basic-map" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-2">Create a basic map</a><a class="headerlink" href="#create-a-basic-map" title="Permalink to this headline">¶</a></h2>
 <p>Create a file in e.g. /home/user/ called basic-map.html , and copy the following content into the file.</p>
 <div class="highlight-html"><div class="highlight"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&quot;en&quot;</span><span class="p">&gt;</span>
@@ -118,26 +118,26 @@ determines its look (line thinkness, fill color, etc).</dd>
         <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;UTF-8&quot;</span><span class="p">&gt;</span>
         <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;viewport&quot;</span> <span class="na">content</span><span class="o">=</span><span class="s">&quot;width=device-width&quot;</span><span class="p">&gt;</span>
 
-        <span class="c">&lt;!-- OpenLayers CSS --&gt;</span>
+        <span class="cm">&lt;!-- OpenLayers CSS --&gt;</span>
         <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;http://localhost/openlayers/dist/ol.css&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/css&quot;</span><span class="p">&gt;</span>
 
-        <span class="c">&lt;!-- Custom styles --&gt;</span>
-        <span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span>
-          <span class="p">#</span><span class="nn">map</span> <span class="p">{</span>
-            <span class="k">width</span><span class="p">:</span> <span class="mi">100</span><span class="kt">%</span><span class="p">;</span>
-            <span class="k">height</span><span class="p">:</span> <span class="mi">500</span><span class="kt">px</span><span class="p">;</span>
-          <span class="p">}</span>
-        <span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
+        <span class="cm">&lt;!-- Custom styles --&gt;</span>
+        <span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span><span class="w"></span>
+<span class="w">          </span><span class="p">#</span><span class="nn">map</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="k">width</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="kt">%</span><span class="p">;</span><span class="w"></span>
+<span class="w">            </span><span class="k">height</span><span class="p">:</span><span class="w"> </span><span class="mi">500</span><span class="kt">px</span><span class="p">;</span><span class="w"></span>
+<span class="w">          </span><span class="p">}</span><span class="w"></span>
+<span class="w">        </span><span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
     <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
     <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
         <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Basic map<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
 
         <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;map&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
 
-        <span class="c">&lt;!-- OpenLayers JS--&gt;</span>
+        <span class="cm">&lt;!-- OpenLayers JS--&gt;</span>
         <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;http://localhost/openlayers/dist/ol.js&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
 
-        <span class="c">&lt;!-- App code --&gt;</span>
+        <span class="cm">&lt;!-- App code --&gt;</span>
         <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
           <span class="kd">var</span> <span class="nx">map</span> <span class="o">=</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nb">Map</span><span class="p">({</span>
             <span class="nx">target</span><span class="o">:</span> <span class="s1">&#39;map&#39;</span><span class="p">,</span>
@@ -170,7 +170,7 @@ determines its look (line thinkness, fill color, etc).</dd>
 </ul>
 </div>
 <div class="section" id="add-raster-layers">
-<h2><a class="toc-backref" href="#id3">Add raster layers</a><a class="headerlink" href="#add-raster-layers" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-3">Add raster layers</a><a class="headerlink" href="#add-raster-layers" title="Permalink to this headline">¶</a></h2>
 <p>The most used raster layers are the tiled layers, provided by the likes of
 OpenStreetMap, Stamen, Bing, etc. Tiled layers are represented by the
 <code class="docutils literal"><span class="pre">ol.layer.Tile</span></code> class and must use a source that knows how to load tiles from
@@ -210,7 +210,7 @@ a given provider, like <code class="docutils literal"><span class="pre">ol.sourc
 </ul>
 </div>
 <div class="section" id="add-vector-layers">
-<h2><a class="toc-backref" href="#id4">Add vector layers</a><a class="headerlink" href="#add-vector-layers" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-4">Add vector layers</a><a class="headerlink" href="#add-vector-layers" title="Permalink to this headline">¶</a></h2>
 <p>Vector layers are represented by the <code class="docutils literal"><span class="pre">ol.layer.Vector</span></code> class and must use a
 source suitable for reading the vector format, like <code class="docutils literal"><span class="pre">ol.source.GeoJSON</span></code>,
 <code class="docutils literal"><span class="pre">ol.source.KML</span></code> or <code class="docutils literal"><span class="pre">ol.source.TopoJSON</span></code>.</p>
@@ -260,7 +260,7 @@ that represents the feature:</p>
 </div>
 </div>
 <div class="section" id="apply-style-to-features">
-<h2><a class="toc-backref" href="#id5">Apply style to features</a><a class="headerlink" href="#apply-style-to-features" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-5">Apply style to features</a><a class="headerlink" href="#apply-style-to-features" title="Permalink to this headline">¶</a></h2>
 <p>Features within vector layers can be styled.
 The style is determined by a combination of fill, stroke, text  and image, which are all optional. In addition, a style can be applied to a layer, which determines the style of all contained features, or to an individual feature.</p>
 <p>A style is represented by the <code class="docutils literal"><span class="pre">ol.style.Style</span></code> class which has properties to set the <code class="docutils literal"><span class="pre">fill</span></code>, <code class="docutils literal"><span class="pre">stroke</span></code>, <code class="docutils literal"><span class="pre">text</span></code> and <code class="docutils literal"><span class="pre">image</span></code> to be applied. The next example shows the World’s administrative limits dataset styled to use a green fill and stroke:</p>
@@ -294,7 +294,7 @@ We have set a <code class="docutils literal"><span class="pre">fill</span></code
 <code class="docutils literal"><span class="pre">image</span></code> (in this case a circle) used for point features.</p>
 </div>
 <div class="section" id="work-with-events">
-<h2><a class="toc-backref" href="#id6">Work with events</a><a class="headerlink" href="#work-with-events" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-6">Work with events</a><a class="headerlink" href="#work-with-events" title="Permalink to this headline">¶</a></h2>
 <p>Most of the components, like map, layers or controls, trigger events to notify changes. For example we can be notified each time the mouse is moved over the map, or when a feature is added to a vector layer, etc.</p>
 <p>Tapahtumat voidaan helposti rekisteröidä objektiin <code class="docutils literal"><span class="pre">on()</span></code> -menetelmällä ja rekisteröidä <code class="docutils literal"><span class="pre">un()</span></code> lla.</p>
 <p>The following code registers an event on a map instance, and will be notified each time the pointer is moved. Within the callback function we obtain the pointer coordinates and print in the browser console in two different projections.</p>
@@ -308,7 +308,7 @@ We have set a <code class="docutils literal"><span class="pre">fill</span></code
 </div>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id7">Mitä seuraavaksi?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-7">Mitä seuraavaksi?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
 <p>Sometimes the quickest way to work out how OpenLayers works is to look at examples
 and their source code. You can find more OpenLayers information here:</p>
 <ul class="simple">

@@ -104,24 +104,24 @@
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#display-metadata-information-in-an-image" id="id1">Abrufen von Metadateninformationen zu Bildern</a></li>
-<li><a class="reference internal" href="#calculator-on-image-bands" id="id2">Rechner auf Bildkanälen</a></li>
-<li><a class="reference internal" href="#pixel-based-classification" id="id3">Pixelbasierte Klassifizierung</a></li>
-<li><a class="reference internal" href="#perform-segmentation" id="id4">Segmentierung durchführen</a></li>
-<li><a class="reference internal" href="#otb-in-qgis" id="id5">OTB in QGis</a></li>
-<li><a class="reference internal" href="#developing-with-otb" id="id6">Entwicklung mit OTB</a></li>
-<li><a class="reference internal" href="#what-next" id="id7">Was kommt als Nächstes?</a></li>
+<li><a class="reference internal" href="#display-metadata-information-in-an-image" id="toc-entry-1">Abrufen von Metadateninformationen zu Bildern</a></li>
+<li><a class="reference internal" href="#calculator-on-image-bands" id="toc-entry-2">Rechner auf Bildkanälen</a></li>
+<li><a class="reference internal" href="#pixel-based-classification" id="toc-entry-3">Pixelbasierte Klassifizierung</a></li>
+<li><a class="reference internal" href="#perform-segmentation" id="toc-entry-4">Segmentierung durchführen</a></li>
+<li><a class="reference internal" href="#otb-in-qgis" id="toc-entry-5">OTB in QGis</a></li>
+<li><a class="reference internal" href="#developing-with-otb" id="toc-entry-6">Entwicklung mit OTB</a></li>
+<li><a class="reference internal" href="#what-next" id="toc-entry-7">Was kommt als Nächstes?</a></li>
 </ul>
 </div>
 <div class="section" id="display-metadata-information-in-an-image">
-<h2><a class="toc-backref" href="#id1">Abrufen von Metadateninformationen zu Bildern</a><a class="headerlink" href="#display-metadata-information-in-an-image" title="Link zu dieser Überschrift">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-1">Abrufen von Metadateninformationen zu Bildern</a><a class="headerlink" href="#display-metadata-information-in-an-image" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Sie können alle Metadateninformationen, die in einem Bild enthalten sind, mit dem Befehl <cite>otbcli_ReadImageInfo</cite> abrufen. Der eindeutige Parameter ist der Name der Eingabebilddatei, z. B.:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">otbcli_ReadImageInfo</span> <span class="o">-</span><span class="ow">in</span> <span class="n">ortho_2001_t792_1m</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="calculator-on-image-bands">
-<h2><a class="toc-backref" href="#id2">Rechner auf Bildkanälen</a><a class="headerlink" href="#calculator-on-image-bands" title="Link zu dieser Überschrift">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-2">Rechner auf Bildkanälen</a><a class="headerlink" href="#calculator-on-image-bands" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Die <cite>otbcli_otbBandMath</cite> bietet eine effiziente Möglichkeit, mathematische Operationen an Bildkanälen durchzuführen. Die Syntax ist ganz einfach. Beispielsweile können Sie zwei Kanäle subtrahieren und so die Unterschiede zweier Bilder ermitteln Vergleich <cite>lsat7_2002_10.tif</cite> und <cite>lsat7_2002_20.tif</cite>:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">otbcli_BandMath</span> <span class="o">-</span><span class="n">il</span> <span class="n">lsat7_2002_10</span><span class="o">.</span><span class="n">tif</span> <span class="n">lsat7_2002_20</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">out</span>  <span class="o">~/</span><span class="n">difference</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">exp</span> <span class="s2">&quot;im1b1-im2b1&quot;</span>
 </pre></div>
@@ -137,7 +137,7 @@
 </div>
 </div>
 <div class="section" id="pixel-based-classification">
-<h2><a class="toc-backref" href="#id3">Pixelbasierte Klassifizierung</a><a class="headerlink" href="#pixel-based-classification" title="Link zu dieser Überschrift">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-3">Pixelbasierte Klassifizierung</a><a class="headerlink" href="#pixel-based-classification" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Die Klassifizierung im Anwendungsframework bietet eine überwachte pixelweise Klassifizierungskette, die auf dem Lernen aus mehreren Bildern und der Verwendung einer bestimmten machine learning-Methode wie SVM, Bayes, KNN, Random Forests, Artificial Neural Network und anderen basiert. Weitere Informationen zu allen verfügbaren Klassifikatoren finden Sie in der Anwendungshilfe von <cite>TrainImagesClassifier</cite>. Es unterstützt riesige Bilder durch Streaming und Multi-Threading. Die Klassifizierungskette führt einen Trainingsschritt basierend auf den Intensitäten jedes Pixels als Features durch. Bitte beachten Sie, dass alle Eingabebilder die gleiche Anzahl von Bändern haben müssen, um vergleichbar zu sein.</p>
 <p>Um diese Anwendung anzuschauen, können Sie den Befehl verwenden:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">otbgui_TrainImagesClassifier</span>
@@ -145,7 +145,7 @@
 </div>
 </div>
 <div class="section" id="perform-segmentation">
-<h2><a class="toc-backref" href="#id4">Segmentierung durchführen</a><a class="headerlink" href="#perform-segmentation" title="Link zu dieser Überschrift">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-4">Segmentierung durchführen</a><a class="headerlink" href="#perform-segmentation" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Die OTB <em>Segmentation</em>-Anwendung ermöglicht es, eine Raster-Segmentierungsausgabe mit verschiedenen Algorithmen zu erzeugen und auf große Raster zu skalieren, indem Vektorausgaben erzeugt werden, die Sie in eine GIS-Software importieren können. In der Anwendung stehen vier Segmentierungsmethoden zur Verfügung:</p>
 <ul class="simple">
 <li>Mean-Shift</li>
@@ -183,14 +183,14 @@
 <p>OTB enthält auch ein Framework, um die kachelweise Segmentierung sehr großer Bilder mit theoretischen Garantien zu erzielen, die identische Ergebnisse mit denen ohne Kacheln, die als <a class="reference external" href="https://www.orfeo-toolbox.org/CookBook/recipes/improc.html#large-scale-mean-shift-lsms-segmentation">LSMS</a> bezeichnet werden, zu erzielen.</p>
 </div>
 <div class="section" id="otb-in-qgis">
-<h2><a class="toc-backref" href="#id5">OTB in QGis</a><a class="headerlink" href="#otb-in-qgis" title="Link zu dieser Überschrift">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-5">OTB in QGis</a><a class="headerlink" href="#otb-in-qgis" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Die selben OTB-Anwendungen können auch aus dem Menü <span class="menuselection">Processing ‣ Toolbox</span> in QGis verwendet werden. Die Anwendungen sind nach Tags sortiert.</p>
 <blockquote>
 <div><img alt="../../_images/otb-processing-qgis.png" src="../../_images/otb-processing-qgis.png" />
 </div></blockquote>
 </div>
 <div class="section" id="developing-with-otb">
-<h2><a class="toc-backref" href="#id6">Entwicklung mit OTB</a><a class="headerlink" href="#developing-with-otb" title="Link zu dieser Überschrift">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-6">Entwicklung mit OTB</a><a class="headerlink" href="#developing-with-otb" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Wenn Sie die OTB-Bibliothek verwenden und Ihren C++-Code in OSGeoLive kompilieren möchten, müssen Sie:</p>
 <ul class="simple">
 <li>Installieren Sie das Entwicklungspaket <strong>libotb-dev</strong> und <strong>libqt4-dev</strong> .</li>
@@ -200,7 +200,7 @@
 <p>Weitere Informationen finden Sie im Software-Handbuch.</p>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id7">Was kommt als Nächstes?</a><a class="headerlink" href="#what-next" title="Link zu dieser Überschrift">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-7">Was kommt als Nächstes?</a><a class="headerlink" href="#what-next" title="Link zu dieser Überschrift">¶</a></h2>
 <ul>
 <li><p class="first">OTB-Softwarehandbuch</p>
 <p>Die wichtigste Informationsquelle ist der OTB Software Guide. Dies ist eine umfassende Anleitung, die etwa 600 Seiten umfasst, die die Schritte zur Installation und Verwendung von OTB detailliert beschreibt. Die meisten der verfügbaren Beschreibungen sind stark mit Ergebnissen aus der realen Fernerkundungsverarbeitung illustriert.</p>

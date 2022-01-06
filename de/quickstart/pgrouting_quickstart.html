@@ -77,16 +77,16 @@
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#enabling-pgrouting-in-a-database" id="id1">Aktivieren von pgRouting in einer Datenbank</a></li>
-<li><a class="reference internal" href="#loading-osm-data-with-osm2pgrouting" id="id2">OSM-Daten mit osm2pgrouting laden</a></li>
-<li><a class="reference internal" href="#check-the-imported-data" id="id3">Überprüfen der importierten Daten</a></li>
-<li><a class="reference internal" href="#inner-query" id="id4">Inner Query</a></li>
-<li><a class="reference internal" href="#pgr-dijkstra" id="id5">pgr_Dijkstra</a></li>
-<li><a class="reference internal" href="#what-next" id="id6">Was kommt als Nächstes?</a></li>
+<li><a class="reference internal" href="#enabling-pgrouting-in-a-database" id="toc-entry-1">Aktivieren von pgRouting in einer Datenbank</a></li>
+<li><a class="reference internal" href="#loading-osm-data-with-osm2pgrouting" id="toc-entry-2">OSM-Daten mit osm2pgrouting laden</a></li>
+<li><a class="reference internal" href="#check-the-imported-data" id="toc-entry-3">Überprüfen der importierten Daten</a></li>
+<li><a class="reference internal" href="#inner-query" id="toc-entry-4">Inner Query</a></li>
+<li><a class="reference internal" href="#pgr-dijkstra" id="toc-entry-5">pgr_Dijkstra</a></li>
+<li><a class="reference internal" href="#what-next" id="toc-entry-6">Was kommt als Nächstes?</a></li>
 </ul>
 </div>
 <div class="section" id="enabling-pgrouting-in-a-database">
-<h2><a class="toc-backref" href="#id1">Aktivieren von pgRouting in einer Datenbank</a><a class="headerlink" href="#enabling-pgrouting-in-a-database" title="Link zu dieser Überschrift">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-1">Aktivieren von pgRouting in einer Datenbank</a><a class="headerlink" href="#enabling-pgrouting-in-a-database" title="Link zu dieser Überschrift">¶</a></h2>
 <p>In diesem Beispiel erstellen wir eine Datenbank mit dem Namen <cite>city_routing</cite> und aktivieren pgRouting in der Datenbank.</p>
 <ul class="simple">
 <li>Öffnen Sie ein Terminalfenster über <span class="menuselection">System Tools ‣ QTerminal</span> und öffnen Sie psql: (psql ist ein kommandozeilen basierter Datenbankclient, der mit PostgreSQL ausgeliefert wird)</li>
@@ -117,7 +117,7 @@
 </div>
 </div>
 <div class="section" id="loading-osm-data-with-osm2pgrouting">
-<h2><a class="toc-backref" href="#id2">OSM-Daten mit osm2pgrouting laden</a><a class="headerlink" href="#loading-osm-data-with-osm2pgrouting" title="Link zu dieser Überschrift">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-2">OSM-Daten mit osm2pgrouting laden</a><a class="headerlink" href="#loading-osm-data-with-osm2pgrouting" title="Link zu dieser Überschrift">¶</a></h2>
 <p>osm2pgrouting ist ein Befehlszeilenwerkzeug zum Laden von <cite>.osm</cite>-Dateien in das pgRouting-kompatible Format.</p>
 <p>Prüfen Sie die installierte Version</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">osm2pgrouting</span> <span class="o">--</span><span class="n">version</span>
@@ -206,7 +206,7 @@
 </div>
 </div>
 <div class="section" id="check-the-imported-data">
-<h2><a class="toc-backref" href="#id3">Überprüfen der importierten Daten</a><a class="headerlink" href="#check-the-imported-data" title="Link zu dieser Überschrift">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-3">Überprüfen der importierten Daten</a><a class="headerlink" href="#check-the-imported-data" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Bauen Sie eine Verbindung zu der Datenbank <cite>city_routing</cite> auf</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">psql</span> <span class="n">city_routing</span>
 </pre></div>
@@ -245,7 +245,7 @@
 </div>
 </div>
 <div class="section" id="inner-query">
-<h2><a class="toc-backref" href="#id4">Inner Query</a><a class="headerlink" href="#inner-query" title="Link zu dieser Überschrift">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-4">Inner Query</a><a class="headerlink" href="#inner-query" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Die meisten der pgRouting-Funktionen haben einen Parameter, der eine SQL-Anweisung darstellt, er wird als <strong>inner query</strong> bezeichnet</p>
 <p>Die innere SQL-Anweisung muss immer die Feldnamen <cite>id</cite>, <cite>source</cite>, <cite>target</cite> haben und <cite>cost</cite> mit <cite>reverse_cost</cite> als optional haben.</p>
 <p>Eine innere Abfrage, die <cite>gid</cite> als Identifizierungsnummer für die Segmente verwendet</p>
@@ -264,7 +264,7 @@
 </div>
 </div>
 <div class="section" id="pgr-dijkstra">
-<h2><a class="toc-backref" href="#id5">pgr_Dijkstra</a><a class="headerlink" href="#pgr-dijkstra" title="Link zu dieser Überschrift">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-5">pgr_Dijkstra</a><a class="headerlink" href="#pgr-dijkstra" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Führen Sie die Dijkstra-Funktion für den kürzesten Pfad (Dijkstra shortest path) basierend auf der Zeit in Sekunden aus, um ein Segment in einem ungerichteten Graphen zu durchlaufen, und verwenden Sie <cite>id</cite> als Bezeichner eines Knotens.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">SELECT</span> <span class="o">*</span>
 <span class="n">FROM</span> <span class="n">pgr_dijkstra</span><span class="p">(</span>
@@ -364,7 +364,7 @@
 <p>Über den Befehl <strong class="command">\q</strong> können Sie psql verlassen.</p>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id6">Was kommt als Nächstes?</a><a class="headerlink" href="#what-next" title="Link zu dieser Überschrift">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-6">Was kommt als Nächstes?</a><a class="headerlink" href="#what-next" title="Link zu dieser Überschrift">¶</a></h2>
 <ul class="simple">
 <li><strong>pgRouting-Webseite</strong> - Besuchen Sie die Projektwebseite <a class="reference external" href="https://pgrouting.org">https://pgrouting.org</a>, um mehr über pgRouting zu erfahren.</li>
 <li><strong>pgRouting Dokumentation</strong> - Sie finden die aktuellste Dokumentation unter <a class="reference external" href="https://docs.pgrouting.org">https://docs.pgrouting.org</a>.</li>

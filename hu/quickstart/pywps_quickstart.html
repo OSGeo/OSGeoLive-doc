@@ -84,14 +84,14 @@
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#installing-pywps-flask" id="id1">pywps-flask telepítés</a></li>
-<li><a class="reference internal" href="#testing-available-processes" id="id2">Elérhető feldolgozások tesztelése</a></li>
-<li><a class="reference internal" href="#developing-wps-processes" id="id3">WPS feldolgozások fejlesztése</a></li>
-<li><a class="reference internal" href="#what-s-next" id="id4">Mi a következő</a></li>
+<li><a class="reference internal" href="#installing-pywps-flask" id="toc-entry-1">pywps-flask telepítés</a></li>
+<li><a class="reference internal" href="#testing-available-processes" id="toc-entry-2">Elérhető feldolgozások tesztelése</a></li>
+<li><a class="reference internal" href="#developing-wps-processes" id="toc-entry-3">WPS feldolgozások fejlesztése</a></li>
+<li><a class="reference internal" href="#what-s-next" id="toc-entry-4">Mi a következő</a></li>
 </ul>
 </div>
 <div class="section" id="installing-pywps-flask">
-<h2><a class="toc-backref" href="#id1">pywps-flask telepítés</a><a class="headerlink" href="#installing-pywps-flask" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-1">pywps-flask telepítés</a><a class="headerlink" href="#installing-pywps-flask" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Mivel a minta szolgáltatás a Flask-et használja, győződjön meg, hogy telepítették-e az OSGeoLive-ra:</p>
 <p><cite>sudo apt install python-flask</cite></p>
 <p>Majd klónozza a GitHub-ról a tárházat:</p>
@@ -106,7 +106,7 @@
 <p><cite>* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)</cite></p>
 </div>
 <div class="section" id="testing-available-processes">
-<h2><a class="toc-backref" href="#id2">Elérhető feldolgozások tesztelése</a><a class="headerlink" href="#testing-available-processes" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-2">Elérhető feldolgozások tesztelése</a><a class="headerlink" href="#testing-available-processes" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Nyisson meg egy web böngészőt és mutasson arra a címre, ahol a példa szolgáltatás figyel: <a class="reference external" href="http://127.0.0.1:5000/">http://127.0.0.1:5000/</a>  A következő lap jelenik meg:</p>
 <a class="reference internal image-reference" href="../../_images/pywps-4.0.0_example.png"><img alt="../../_images/pywps-4.0.0_example.png" src="../../_images/pywps-4.0.0_example.png" style="width: 1024.0px; height: 768.0px;" /></a>
 <p>Használja a zöld gombokat a szolgáltatás felfedezéséhez. Adjon ki egy <cite>GetCapabilities</cite> kérést a szolgáltatás áttekintéséhez; adjon ki egy <cite>DescribeProcess</cite> kérést egy adott projekt részleteinek megismeréséhez. Nézze meg a kérés URL-jét a böngésző cím sorában.</p>
@@ -116,7 +116,7 @@
 <a class="reference internal image-reference" href="../../_images/pywps-4.0.0_response.png"><img alt="../../_images/pywps-4.0.0_response.png" src="../../_images/pywps-4.0.0_response.png" style="width: 1024.0px; height: 768.0px;" /></a>
 </div>
 <div class="section" id="developing-wps-processes">
-<h2><a class="toc-backref" href="#id3">WPS feldolgozások fejlesztése</a><a class="headerlink" href="#developing-wps-processes" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-3">WPS feldolgozások fejlesztése</a><a class="headerlink" href="#developing-wps-processes" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Egy új feldolgozás fejlesztéséhez csak egy új Python modult kell létrehoznia a <cite>processes</cite> mappában. Használja a meglévő feldolgozásokat sablonként a kódjának strukturálásához. Egy közelebbi pillantás a <cite>say_hello</cite> feldolgozásra megmutatja egy PyWPS feldolgozás főbb elemeit:</p>
 <p>1. Import the necessary assets and create a class inheriting from the PyWPS
 <cite>Process</cite> class. In the constructor create the necessary objects for inputs
@@ -157,7 +157,7 @@ and outputs:</p>
 </div>
 </div>
 <div class="section" id="what-s-next">
-<h2><a class="toc-backref" href="#id4">Mi a következő</a><a class="headerlink" href="#what-s-next" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-4">Mi a következő</a><a class="headerlink" href="#what-s-next" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>PyWPS szabadságot és rugalmasságot biztosít, hogy saját Python folyamatokat írjon és ennek megfelelően kifejtse.</p>
 <ul class="simple">
 <li>Hivatalos dokumentáció - További információkért a PyWPS konfigurációról és az API-ról olvassa a <a class="reference external" href="https://pywps.org/docs/">documentation</a> a PyWPS honlapon.</li>

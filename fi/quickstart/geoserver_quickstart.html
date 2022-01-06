@@ -87,25 +87,25 @@
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#start-geoserver" id="id1">Käynnistä Geoserver</a></li>
-<li><a class="reference internal" href="#loading-data" id="id2">Ladataan tietoja</a></li>
-<li><a class="reference internal" href="#styling-data" id="id3">Tietojen muotoilu</a><ul>
-<li><a class="reference internal" href="#using-ug-to-create-simple-styles" id="id4">Käyttämällä uDig luoda yksinkertaisia tyylejä</a></li>
-<li><a class="reference internal" href="#adding-the-style-to-geoserver" id="id5">Tyylin lisääminen GeoServeriin</a></li>
-<li><a class="reference internal" href="#adding-the-style-to-the-layer" id="id6">Tyylin lisääminen tasoon</a></li>
+<li><a class="reference internal" href="#start-geoserver" id="toc-entry-1">Käynnistä Geoserver</a></li>
+<li><a class="reference internal" href="#loading-data" id="toc-entry-2">Ladataan tietoja</a></li>
+<li><a class="reference internal" href="#styling-data" id="toc-entry-3">Tietojen muotoilu</a><ul>
+<li><a class="reference internal" href="#using-ug-to-create-simple-styles" id="toc-entry-4">Käyttämällä uDig luoda yksinkertaisia tyylejä</a></li>
+<li><a class="reference internal" href="#adding-the-style-to-geoserver" id="toc-entry-5">Tyylin lisääminen GeoServeriin</a></li>
+<li><a class="reference internal" href="#adding-the-style-to-the-layer" id="toc-entry-6">Tyylin lisääminen tasoon</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#clients-for-wms-layers" id="id7">WMS-kerrosten asiakkaat</a></li>
-<li><a class="reference internal" href="#add-a-layer-from-a-netcdf-file" id="id8">Tason lisääminen NetCDF-tiedostosta</a><ul>
-<li><a class="reference internal" href="#configure-a-netcdf-store" id="id9">NetCDF-säilön määrittäminen</a></li>
-<li><a class="reference internal" href="#preview-the-netcdf-layer" id="id10">NetCDF-tason esikatselu</a></li>
+<li><a class="reference internal" href="#clients-for-wms-layers" id="toc-entry-7">WMS-kerrosten asiakkaat</a></li>
+<li><a class="reference internal" href="#add-a-layer-from-a-netcdf-file" id="toc-entry-8">Tason lisääminen NetCDF-tiedostosta</a><ul>
+<li><a class="reference internal" href="#configure-a-netcdf-store" id="toc-entry-9">NetCDF-säilön määrittäminen</a></li>
+<li><a class="reference internal" href="#preview-the-netcdf-layer" id="toc-entry-10">NetCDF-tason esikatselu</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#what-next" id="id11">Mitä seuraavaksi?</a></li>
+<li><a class="reference internal" href="#what-next" id="toc-entry-11">Mitä seuraavaksi?</a></li>
 </ul>
 </div>
 <div class="section" id="start-geoserver">
-<h2><a class="toc-backref" href="#id1">Käynnistä Geoserver</a><a class="headerlink" href="#start-geoserver" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-1">Käynnistä Geoserver</a><a class="headerlink" href="#start-geoserver" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
 <li><p class="first">Valitse Käynnistä-valikosta <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span>. Sovellus käynnistyy hetken ja avaa verkkosivun <a class="reference external" href="http://localhost:8082/geoserver/web">http://localhost:8082/geoserver/web</a></p>
 <a class="reference internal image-reference" href="../../_images/geoserver-login.png"><img alt="../../_images/geoserver-login.png" src="../../_images/geoserver-login.png" style="width: 562.0999999999999px; height: 289.79999999999995px;" /></a>
@@ -132,7 +132,7 @@
 <p>Kokeile tätä näkymää ja katso joitakin muita esikatseluita.  Kun olet tyytyväinen tarkastelemaan olemassa olevia tietoja, voit lisätä uusia tietoja.</p>
 </div>
 <div class="section" id="loading-data">
-<h2><a class="toc-backref" href="#id2">Ladataan tietoja</a><a class="headerlink" href="#loading-data" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-2">Ladataan tietoja</a><a class="headerlink" href="#loading-data" title="Permalink to this headline">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">Muista</p>
 <p class="last">Seuraavia vaiheita ei voi suorittaa, jos käytössä on <strong>vain luku</strong>-tiedostojärjestelmä (kuten DVD-levy). Sinun on joko suoritettava Virtuaalikoneessa tai USB:stä tai asennettava OSGeoLive (tai vain GeoServer) kiintolevylle.</p>
@@ -170,11 +170,11 @@
 <p>Voit seurata samaa vaihetta muiden hakemiston tasojen kanssa käyttämällä tasosivun :guilabel:’Add a new resource’-painiketta. Valitse vain luonnollinen maakauppa avattavasta valikosta palataksesi kaupan sivulle.</p>
 </div>
 <div class="section" id="styling-data">
-<h2><a class="toc-backref" href="#id3">Tietojen muotoilu</a><a class="headerlink" href="#styling-data" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-3">Tietojen muotoilu</a><a class="headerlink" href="#styling-data" title="Permalink to this headline">¶</a></h2>
 <p>Tietojoukon muotoilu karttakerrokseen GeoServer käyttää OGC-standardia nimeltään <a class="reference external" href="https://www.ogc.org/standards/sld">Styled Layer Descriptor (SLD)</a>. Ne esitetään XML-tiedostoina, jotka kuvaavat sääntöjä, joita käytetään erilaisten symbolien käyttämiseen tietoihin.</p>
 <p>Aloita säis, antaa tyyli Maa ja valtameri tietojoukot. Voit luoda SLD-tiedostoja yksinkertaisella tekstieditorilla, mutta joskus graafinen editori on parempi. Täällä on useita vaihtoehtoja, mutta uDig antaa sinun avata muototiedostot suoraan ja käyttää yksinkertaisia tyylejä graafisen käyttöliittymän avulla. Se tarjoaa myös yksinkertaisen toimittajan, joka voi muokata XML: ää tarvittaessa.</p>
 <div class="section" id="using-ug-to-create-simple-styles">
-<h3><a class="toc-backref" href="#id4">Käyttämällä uDig luoda yksinkertaisia tyylejä</a><a class="headerlink" href="#using-ug-to-create-simple-styles" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-4">Käyttämällä uDig luoda yksinkertaisia tyylejä</a><a class="headerlink" href="#using-ug-to-create-simple-styles" title="Permalink to this headline">¶</a></h3>
 <div class="admonition note">
 <p class="first admonition-title">Muista</p>
 <p class="last">Lisätietoja | UG: n käytöstä katso <a class="reference internal" href="udig_quickstart.html"><span class="doc">uDig Pika-aloitus</span></a></p>
@@ -203,7 +203,7 @@
 <a class="reference internal image-reference" href="../../_images/geoserver-basic-world.png"><img alt="A basic word map" class="align-center" src="../../_images/geoserver-basic-world.png" style="width: 743.4px; height: 375.2px;" /></a>
 </div>
 <div class="section" id="adding-the-style-to-geoserver">
-<h3><a class="toc-backref" href="#id5">Tyylin lisääminen GeoServeriin</a><a class="headerlink" href="#adding-the-style-to-geoserver" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-5">Tyylin lisääminen GeoServeriin</a><a class="headerlink" href="#adding-the-style-to-geoserver" title="Permalink to this headline">¶</a></h3>
 <p>Nyt meidän täytyy siirtää nämä tyylit GeoServer.</p>
 <ol class="arabic simple">
 <li>Tyyli-ikkunassa on vientipainike, jonka avulla voit tallentaa tyylisi määrittävän SLD-tiedoston.</li>
@@ -217,7 +217,7 @@
 <a class="reference internal image-reference" href="../../_images/geoserver-add-style.png"><img alt="Adding a Style to GeoServer" class="align-center" src="../../_images/geoserver-add-style.png" style="width: 765.0999999999999px; height: 455.7px;" /></a>
 </div>
 <div class="section" id="adding-the-style-to-the-layer">
-<h3><a class="toc-backref" href="#id6">Tyylin lisääminen tasoon</a><a class="headerlink" href="#adding-the-style-to-the-layer" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-6">Tyylin lisääminen tasoon</a><a class="headerlink" href="#adding-the-style-to-the-layer" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Napsauta <span class="guilabel">Layers</span> -linkkiä GeoServer vasemmalla puolella olevassa valikossa ikkuna.</li>
 <li>Napsauta tasoa (esim. <em>ne_10m_land</em>) ja valitse sitten <span class="guilabel">Publishing</span> -välilehti.</li>
@@ -231,7 +231,7 @@
 </div>
 </div>
 <div class="section" id="clients-for-wms-layers">
-<h2><a class="toc-backref" href="#id7">WMS-kerrosten asiakkaat</a><a class="headerlink" href="#clients-for-wms-layers" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-7">WMS-kerrosten asiakkaat</a><a class="headerlink" href="#clients-for-wms-layers" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> kerrokset, joista palvelet GeoServer voidaan käyttää useiden asiakkaiden kanssa tässä OSGeoLive-jakelussa, mukaan lukien:</p>
 <ul class="simple">
 <li><a class="reference internal" href="../overview/udig_overview.html"><span class="doc">uDig</span></a></li>
@@ -240,10 +240,10 @@
 </ul>
 </div>
 <div class="section" id="add-a-layer-from-a-netcdf-file">
-<h2><a class="toc-backref" href="#id8">Tason lisääminen NetCDF-tiedostosta</a><a class="headerlink" href="#add-a-layer-from-a-netcdf-file" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-8">Tason lisääminen NetCDF-tiedostosta</a><a class="headerlink" href="#add-a-layer-from-a-netcdf-file" title="Permalink to this headline">¶</a></h2>
 <p>GeoServer NetCDF plugin mahdollistaa julkaisemisen rasters alkaen NetCDF tiedostoja.</p>
 <div class="section" id="configure-a-netcdf-store">
-<h3><a class="toc-backref" href="#id9">NetCDF-säilön määrittäminen</a><a class="headerlink" href="#configure-a-netcdf-store" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-9">NetCDF-säilön määrittäminen</a><a class="headerlink" href="#configure-a-netcdf-store" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic">
 <li><p class="first">Kun olet suoritettaessa ”Käynnistä GeoServer”</p>
 </li>
@@ -266,7 +266,7 @@
 </ol>
 </div>
 <div class="section" id="preview-the-netcdf-layer">
-<h3><a class="toc-backref" href="#id10">NetCDF-tason esikatselu</a><a class="headerlink" href="#preview-the-netcdf-layer" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-10">NetCDF-tason esikatselu</a><a class="headerlink" href="#preview-the-netcdf-layer" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic">
 <li><p class="first">Valitse ”Layer Preview” vasemmalla olevasta valikosta</p>
 </li>
@@ -285,7 +285,7 @@
 </div>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id11">Mitä seuraavaksi?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-11">Mitä seuraavaksi?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
 <p>Tämä on vasta ensimmäinen askel tiellä käyttää GeoServer. On paljon enemmän toimintoja voit kokeilla.</p>
 <ul class="simple">
 <li>GeoServer Projectin kotisivu - <a class="reference external" href="http://geoserver.org/">http://geoserver.org/</a></li>

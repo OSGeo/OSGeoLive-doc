@@ -103,17 +103,17 @@
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#display-metadata-information-in-an-image" id="id1">Display metadata information in an image</a></li>
-<li><a class="reference internal" href="#calculator-on-image-bands" id="id2">Calculator on image bands</a></li>
-<li><a class="reference internal" href="#pixel-based-classification" id="id3">Pixel based classification</a></li>
-<li><a class="reference internal" href="#perform-segmentation" id="id4">Perform segmentation</a></li>
-<li><a class="reference internal" href="#otb-in-qgis" id="id5">OTB in QGis</a></li>
-<li><a class="reference internal" href="#developing-with-otb" id="id6">Developing with OTB</a></li>
-<li><a class="reference internal" href="#what-next" id="id7">What next?</a></li>
+<li><a class="reference internal" href="#display-metadata-information-in-an-image" id="toc-entry-1">Display metadata information in an image</a></li>
+<li><a class="reference internal" href="#calculator-on-image-bands" id="toc-entry-2">Calculator on image bands</a></li>
+<li><a class="reference internal" href="#pixel-based-classification" id="toc-entry-3">Pixel based classification</a></li>
+<li><a class="reference internal" href="#perform-segmentation" id="toc-entry-4">Perform segmentation</a></li>
+<li><a class="reference internal" href="#otb-in-qgis" id="toc-entry-5">OTB in QGis</a></li>
+<li><a class="reference internal" href="#developing-with-otb" id="toc-entry-6">Developing with OTB</a></li>
+<li><a class="reference internal" href="#what-next" id="toc-entry-7">What next?</a></li>
 </ul>
 </div>
 <div class="section" id="display-metadata-information-in-an-image">
-<h2><a class="toc-backref" href="#id1">Display metadata information in an image</a><a class="headerlink" href="#display-metadata-information-in-an-image" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-1">Display metadata information in an image</a><a class="headerlink" href="#display-metadata-information-in-an-image" title="Permalink to this headline">¶</a></h2>
 <p>You can get all the metadata information contained in an image with the command : <cite>otbcli_ReadImageInfo</cite>
 The unique parameter is the Input image file name, for example:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">otbcli_ReadImageInfo</span> <span class="o">-</span><span class="ow">in</span> <span class="n">ortho_2001_t792_1m</span><span class="o">.</span><span class="n">tif</span>
@@ -121,7 +121,7 @@ The unique parameter is the Input image file name, for example:</p>
 </div>
 </div>
 <div class="section" id="calculator-on-image-bands">
-<h2><a class="toc-backref" href="#id2">Calculator on image bands</a><a class="headerlink" href="#calculator-on-image-bands" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-2">Calculator on image bands</a><a class="headerlink" href="#calculator-on-image-bands" title="Permalink to this headline">¶</a></h2>
 <p>The <cite>otbcli_otbBandMath</cite> provides an efficient way to perform mathematical operation on image bands.
 The syntax is quite simple. For example to substrate two bands to study the image differences on the images <cite>lsat7_2002_10.tif</cite> and <cite>lsat7_2002_20.tif</cite>, just use the command:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">otbcli_BandMath</span> <span class="o">-</span><span class="n">il</span> <span class="n">lsat7_2002_10</span><span class="o">.</span><span class="n">tif</span> <span class="n">lsat7_2002_20</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">out</span>  <span class="o">~/</span><span class="n">difference</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">exp</span> <span class="s2">&quot;im1b1-im2b1&quot;</span>
@@ -139,7 +139,7 @@ This homebrewed digital calculator is also bundled with custom functions allowin
 </div>
 </div>
 <div class="section" id="pixel-based-classification">
-<h2><a class="toc-backref" href="#id3">Pixel based classification</a><a class="headerlink" href="#pixel-based-classification" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-3">Pixel based classification</a><a class="headerlink" href="#pixel-based-classification" title="Permalink to this headline">¶</a></h2>
 <p>The classification in the application framework provides a supervised pixel-wise
 classification chain based on learning from multiple images, and using a
 specified machine learning method like SVM, Bayes, KNN, Random Forests, Artificial
@@ -156,7 +156,7 @@ of bands to be comparable.</p>
 </div>
 </div>
 <div class="section" id="perform-segmentation">
-<h2><a class="toc-backref" href="#id4">Perform segmentation</a><a class="headerlink" href="#perform-segmentation" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-4">Perform segmentation</a><a class="headerlink" href="#perform-segmentation" title="Permalink to this headline">¶</a></h2>
 <p>The OTB <em>Segmentation</em> application allows to produce a raster segmentation
 output with different algorithms and to scale up to large raster by producing
 vector outputs that you can import in a GIS software.
@@ -197,14 +197,14 @@ There are four segmentation methods available in the application:</p>
 <p>OTB also includes a framework to perform tile-wise segmentation of very large images with theoretical guarantees of getting identical results to those without tiling called <a class="reference external" href="https://www.orfeo-toolbox.org/CookBook/recipes/improc.html#large-scale-mean-shift-lsms-segmentation">LSMS</a>.</p>
 </div>
 <div class="section" id="otb-in-qgis">
-<h2><a class="toc-backref" href="#id5">OTB in QGis</a><a class="headerlink" href="#otb-in-qgis" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-5">OTB in QGis</a><a class="headerlink" href="#otb-in-qgis" title="Permalink to this headline">¶</a></h2>
 <p>The same set of OTB applications can also be used from the <span class="menuselection">Processing ‣ Toolbox</span> menu in QGis. The applications are sorted by tag.</p>
 <blockquote>
 <div><img alt="../../_images/otb-processing-qgis.png" src="../../_images/otb-processing-qgis.png" />
 </div></blockquote>
 </div>
 <div class="section" id="developing-with-otb">
-<h2><a class="toc-backref" href="#id6">Developing with OTB</a><a class="headerlink" href="#developing-with-otb" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-6">Developing with OTB</a><a class="headerlink" href="#developing-with-otb" title="Permalink to this headline">¶</a></h2>
 <p>If you want to use the OTB library and compile your C++ code inside OSGeoLive,
 you will need to:</p>
 <ul class="simple">
@@ -215,7 +215,7 @@ you will need to:</p>
 <p>More information can be found in the Software Guide.</p>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id7">What next?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-7">What next?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
 <ul>
 <li><p class="first">OTB Software Guide</p>
 <p>The main source of information is the OTB Software Guide. This is a

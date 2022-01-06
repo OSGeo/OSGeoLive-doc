@@ -76,15 +76,15 @@
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#create-an-html-page" id="id1">Crear una página HTML</a></li>
-<li><a class="reference internal" href="#configure-openlayers-objects" id="id2">Configurar objetos OpenLayers</a></li>
-<li><a class="reference internal" href="#work-with-geoext-components" id="id3">Trabajar con componentes GeoExt</a></li>
-<li><a class="reference internal" href="#create-a-viewport" id="id4">Crear una ventana gráfica</a></li>
-<li><a class="reference internal" href="#what-s-next" id="id5">¿Qué sigue?</a></li>
+<li><a class="reference internal" href="#create-an-html-page" id="toc-entry-1">Crear una página HTML</a></li>
+<li><a class="reference internal" href="#configure-openlayers-objects" id="toc-entry-2">Configurar objetos OpenLayers</a></li>
+<li><a class="reference internal" href="#work-with-geoext-components" id="toc-entry-3">Trabajar con componentes GeoExt</a></li>
+<li><a class="reference internal" href="#create-a-viewport" id="toc-entry-4">Crear una ventana gráfica</a></li>
+<li><a class="reference internal" href="#what-s-next" id="toc-entry-5">¿Qué sigue?</a></li>
 </ul>
 </div>
 <div class="section" id="create-an-html-page">
-<h2><a class="toc-backref" href="#id1">Crear una página HTML</a><a class="headerlink" href="#create-an-html-page" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-1">Crear una página HTML</a><a class="headerlink" href="#create-an-html-page" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>En este paso, configuraremos una página HTML vacía que contendrá la aplicación. Usaremos el editor de texto FeatherPad instalado en OSGeoLive para crear un nuevo archivo HTML en  <code class="docutils literal"><span class="pre">/var/www/html/geoext/demo.html</span></code></p>
 <ol class="arabic">
 <li><p class="first">Abra FeatherPad desde la línea de comando con permisos elevados, para que pueda guardar el archivo, usando Herramientas del Sistema&gt; QTerminal y luego ejecute el siguiente comando:</p>
@@ -128,7 +128,7 @@
 <p>Todo el JavaScript en las siguientes secciones debe pegarse después del comentario <code class="docutils literal"><span class="pre">//</span> <span class="pre">todo</span> <span class="pre">el</span> <span class="pre">código</span> <span class="pre">de</span> <span class="pre">la</span> <span class="pre">aplicación</span> <span class="pre">JavaScript</span> <span class="pre">debe</span> <span class="pre">ir</span> <span class="pre">aquí</span> <span class="pre">``</span> <span class="pre">en</span> <span class="pre">la</span> <span class="pre">función</span> <span class="pre">``Ext.onReady</span></code>. Colocar código aquí garantiza que las bibliotecas de JavaScript se han cargado antes de ejecutar cualquier código JavaScript personalizado.</p>
 </div>
 <div class="section" id="configure-openlayers-objects">
-<h2><a class="toc-backref" href="#id2">Configurar objetos OpenLayers</a><a class="headerlink" href="#configure-openlayers-objects" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-2">Configurar objetos OpenLayers</a><a class="headerlink" href="#configure-openlayers-objects" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>A continuación configuraremos algunos objetos OpenLayers utilizados por la aplicación.</p>
 <ol class="arabic">
 <li><p class="first">En primer lugar, vamos a crear una capa de teselas de mapa mediante OpenStreetMap y algunas capas WMS que están disponibles en la demo de MapServer Itasca en OSGeoLive.</p>
@@ -204,7 +204,7 @@
 </ol>
 </div>
 <div class="section" id="work-with-geoext-components">
-<h2><a class="toc-backref" href="#id3">Trabajar con componentes GeoExt</a><a class="headerlink" href="#work-with-geoext-components" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-3">Trabajar con componentes GeoExt</a><a class="headerlink" href="#work-with-geoext-components" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Ahora el mapa y las capas se han configurado vamos a crear y configurar nuestros componentes GeoExt.</p>
 <ol class="arabic">
 <li><p class="first">En primer lugar vamos a crear un  <code class="docutils literal"><span class="pre">GeoExt.component.Map</span></code>. Esto utiliza el mapa OpenLayers que creamos, y se colocará en la región “centro” de nuestra aplicación.</p>
@@ -281,7 +281,7 @@
 </ol>
 </div>
 <div class="section" id="create-a-viewport">
-<h2><a class="toc-backref" href="#id4">Crear una ventana gráfica</a><a class="headerlink" href="#create-a-viewport" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-4">Crear una ventana gráfica</a><a class="headerlink" href="#create-a-viewport" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>El último paso para crear nuestra aplicación es crear una ventana gráfica: un contenedor que represente la aplicación que mostrará todos los componentes que creamos anteriormente.</p>
 <div class="highlight-js"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">vp</span> <span class="o">=</span> <span class="nx">Ext</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="s1">&#39;Ext.container.Viewport&#39;</span><span class="p">,</span> <span class="p">{</span>
     <span class="nx">layout</span><span class="o">:</span> <span class="s1">&#39;border&#39;</span><span class="p">,</span>
@@ -306,7 +306,7 @@
 <a class="reference internal image-reference" href="../../_images/geoext_quickstart.png"><img alt="../../_images/geoext_quickstart.png" src="../../_images/geoext_quickstart.png" style="width: 1521.0px; height: 725.0px;" /></a>
 </div>
 <div class="section" id="what-s-next">
-<h2><a class="toc-backref" href="#id5">¿Qué sigue?</a><a class="headerlink" href="#what-s-next" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-5">¿Qué sigue?</a><a class="headerlink" href="#what-s-next" title="Enlazar permanentemente con este título">¶</a></h2>
 <ul class="simple">
 <li>La <a class="reference external" href="https://geoext.github.io/geoext3/">página de inicio de GeoExt</a> contiene <a class="reference external" href="https://geoext.github.io/geoext3/v3.1.0/docs">documentación completa del API</a> y ejemplos</li>
 <li>Un ` taller deGeoExt &lt;<a class="reference external" href="https://github.com/geoext/geoext3-ws">https://github.com/geoext/geoext3-ws</a>&gt;`_ detalla todos los pasos para configurar y usar GeoExt3 en sus aplicaciones ExtJS</li>

@@ -79,16 +79,16 @@
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#create-postgis-database" id="id1">Crear base de datos PostGIS</a></li>
-<li><a class="reference internal" href="#set-up-an-istsos-service-instance" id="id2">Configurar una instancia de servicio istSOS</a></li>
-<li><a class="reference internal" href="#create-a-new-service" id="id3">Crear un nuevo servicio</a></li>
-<li><a class="reference internal" href="#add-a-new-procedure" id="id4">Agregar un nuevo procedimiento</a></li>
-<li><a class="reference internal" href="#add-new-observations" id="id5">Agregar nuevas observaciones</a></li>
-<li><a class="reference internal" href="#what-next" id="id6">¿Qué sigue?</a></li>
+<li><a class="reference internal" href="#create-postgis-database" id="toc-entry-1">Crear base de datos PostGIS</a></li>
+<li><a class="reference internal" href="#set-up-an-istsos-service-instance" id="toc-entry-2">Configurar una instancia de servicio istSOS</a></li>
+<li><a class="reference internal" href="#create-a-new-service" id="toc-entry-3">Crear un nuevo servicio</a></li>
+<li><a class="reference internal" href="#add-a-new-procedure" id="toc-entry-4">Agregar un nuevo procedimiento</a></li>
+<li><a class="reference internal" href="#add-new-observations" id="toc-entry-5">Agregar nuevas observaciones</a></li>
+<li><a class="reference internal" href="#what-next" id="toc-entry-6">¿Qué sigue?</a></li>
 </ul>
 </div>
 <div class="section" id="create-postgis-database">
-<h2><a class="toc-backref" href="#id1">Crear base de datos PostGIS</a><a class="headerlink" href="#create-postgis-database" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-1">Crear base de datos PostGIS</a><a class="headerlink" href="#create-postgis-database" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Abra una terminal y ejecute los siguientes comandos:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="o">-</span><span class="n">u</span> <span class="n">postgres</span> <span class="n">createdb</span> <span class="o">-</span><span class="n">E</span> <span class="n">UTF8</span> <span class="n">istsos</span>
 <span class="n">sudo</span> <span class="o">-</span><span class="n">u</span> <span class="n">postgres</span> <span class="n">psql</span> <span class="o">-</span><span class="n">d</span> <span class="n">istsos</span> <span class="o">-</span><span class="n">c</span> <span class="s1">&#39;CREATE EXTENSION postgis&#39;</span>
@@ -96,7 +96,7 @@
 </div>
 </div>
 <div class="section" id="set-up-an-istsos-service-instance">
-<h2><a class="toc-backref" href="#id2">Configurar una instancia de servicio istSOS</a><a class="headerlink" href="#set-up-an-istsos-service-instance" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-2">Configurar una instancia de servicio istSOS</a><a class="headerlink" href="#set-up-an-istsos-service-instance" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Con istSOS puede organizar los datos de su sensor en diferentes instancias. Cada instancia tiene su propio esquema de base de datos independiente de otras instancias. Incluso puede implementar otras bases de datos en su red según sus necesidades.</p>
 <p>Los primeros pasos en la configuración de istSOS es configurar las opciones de configuración predeterminadas. Estas opciones serán utilizadas automáticamente para su conveniencia por cada nueva instancia de istSOS creada.</p>
 <ol class="arabic">
@@ -130,7 +130,7 @@
 </ol>
 </div>
 <div class="section" id="create-a-new-service">
-<h2><a class="toc-backref" href="#id3">Crear un nuevo servicio</a><a class="headerlink" href="#create-a-new-service" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-3">Crear un nuevo servicio</a><a class="headerlink" href="#create-a-new-service" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Ahora que ha configurado istSOS, es hora de crear una nueva instancia de servicio.</p>
 <ol class="arabic simple">
 <li>En el menú de botones de la barra de herramientas pulse el botón «nuevo servicio» y haga click en <span class="guilabel">Siguiente</span>.</li>
@@ -145,7 +145,7 @@
 </div>
 </div>
 <div class="section" id="add-a-new-procedure">
-<h2><a class="toc-backref" href="#id4">Agregar un nuevo procedimiento</a><a class="headerlink" href="#add-a-new-procedure" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-4">Agregar un nuevo procedimiento</a><a class="headerlink" href="#add-a-new-procedure" title="Enlazar permanentemente con este título">¶</a></h2>
 <ol class="arabic simple">
 <li>Desde el botón desplegable “services” de la interfaz de administración (<a class="reference external" href="http://localhost/istsos/admin">http://localhost/istsos/admin</a>) elija la instancia deseada.</li>
 <li>En el menú de botones de la barra de herramientas, pulse el botón <span class="guilabel">Nuevo procedimiento</span>.</li>
@@ -205,7 +205,7 @@
 </div>
 </div>
 <div class="section" id="add-new-observations">
-<h2><a class="toc-backref" href="#id5">Agregar nuevas observaciones</a><a class="headerlink" href="#add-new-observations" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-5">Agregar nuevas observaciones</a><a class="headerlink" href="#add-new-observations" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Primero crearemos un archivo de texto con datos del sensor, formateado de acuerdo con  «text/csv, subtype=istSOS».  El archivo utiliza un formato de valores separados por comas (CSV). La primera línea contiene información de encabezado, incluidos los nombres de URI de las propiedades observadas. Las siguientes líneas contienen los datos.</p>
 <ol class="arabic">
 <li><p class="first">Abra un editor de texto seleccionando <span class="menuselection">Accessories ‣ FeatherPad</span>.</p>
@@ -262,7 +262,7 @@
 <a class="reference internal image-reference" href="../../_images/istsos_viewer.png"><img alt="../../_images/istsos_viewer.png" src="../../_images/istsos_viewer.png" style="width: 512.0px; height: 384.0px;" /></a>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id6">¿Qué sigue?</a><a class="headerlink" href="#what-next" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-6">¿Qué sigue?</a><a class="headerlink" href="#what-next" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Para obtener más información sobre istSOS, un punto de partida es la <a class="reference external" href="http://istsos.org/tutorial/">Documentación de istSOS</a> y el <a class="reference external" href="http://istsos.org/en/trunk/doc/index.html">Tutorial de istSOS</a>.</p>
 </div>
 </div>

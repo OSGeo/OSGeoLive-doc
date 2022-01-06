@@ -81,14 +81,14 @@
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#configure-and-start-the-service" id="id1">Konfiguration und Start des Dienstes</a></li>
-<li><a class="reference internal" href="#configure-new-service" id="id2">Konfiguration neuer Dienste</a></li>
-<li><a class="reference internal" href="#using-a-web-browser-to-query-the-api" id="id3">Über den Web-Browser die API abfragen</a></li>
-<li><a class="reference internal" href="#using-oapi-features-in-desktop-gis" id="id4">Verwendung von OAPI-Features im Desktop GIS</a></li>
+<li><a class="reference internal" href="#configure-and-start-the-service" id="toc-entry-1">Konfiguration und Start des Dienstes</a></li>
+<li><a class="reference internal" href="#configure-new-service" id="toc-entry-2">Konfiguration neuer Dienste</a></li>
+<li><a class="reference internal" href="#using-a-web-browser-to-query-the-api" id="toc-entry-3">Über den Web-Browser die API abfragen</a></li>
+<li><a class="reference internal" href="#using-oapi-features-in-desktop-gis" id="toc-entry-4">Verwendung von OAPI-Features im Desktop GIS</a></li>
 </ul>
 </div>
 <div class="section" id="configure-and-start-the-service">
-<h3><a class="toc-backref" href="#id1">Konfiguration und Start des Dienstes</a><a class="headerlink" href="#configure-and-start-the-service" title="Link zu dieser Überschrift">¶</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-1">Konfiguration und Start des Dienstes</a><a class="headerlink" href="#configure-and-start-the-service" title="Link zu dieser Überschrift">¶</a></h3>
 <ol class="arabic">
 <li><p class="first">Wählen Sie aus dem Startmenü, <span class="menuselection">Structure ‣ osgeolive ‣ appmenupath ‣ pygeoapi</span>. Die Anwendung wird eine Webseite öffnen <a class="reference external" href="http://localhost:5000">http://localhost:5000</a></p>
 </li>
@@ -104,7 +104,7 @@
 </ol>
 </div>
 <div class="section" id="configure-new-service">
-<h3><a class="toc-backref" href="#id2">Konfiguration neuer Dienste</a><a class="headerlink" href="#configure-new-service" title="Link zu dieser Überschrift">¶</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-2">Konfiguration neuer Dienste</a><a class="headerlink" href="#configure-new-service" title="Link zu dieser Überschrift">¶</a></h3>
 <p>Sie werden nun einen Vektordatensatz in pygeoapi veröffentlichen und dessen Objekte über einen OGC API - Features bereitstellen. OGC API - Features ist ein Standard des OGCs, um Vektor-Objekte als als Webservice bereitzustellen. OGC API - Features ist die OpenAPI Alternative zu WFS.</p>
 <p>pygeoapi unterstützt zahlreiche Vektorformate, z.B. Geopackage, PostGIS, Elasticsearch, WFS, etc. Über den GDAL OGR Provider kann nahezu jede Vektordatenquelle hinzugefügt werden.</p>
 <p>Interessante Datensätze, die als OAPI-Features verfügbar gemacht werden sollen, bestehen aus realen Daten mit mehreren Attributen und Verknüpfungen zu anderen Ressourcen. OSGeoLive enthält eine Reihe von Datensätzen, die wir verwenden können. Ein Beispiel ist <code class="docutils literal"><span class="pre">/var/www/html/openlayers/examples/data/geojson/countries.geojson</span></code>. Sie können es in pygeoapi mit dem GeoJSON-Provider konfigurieren.</p>
@@ -113,32 +113,32 @@
 <li>Passen Sie die Datei pygeoapi-config.yml an, so dass <code class="docutils literal"><span class="pre">countries</span></code> als eine neuen Collection in pygeoapi auftaucht (fügen Sie den Codeblock unten zwischen den anderen Collections ein. Beachten Sie die Einrückungen. Einrückungen sind wichtig im YAML-Syntax).</li>
 <li>Neustart von pygeoapi</li>
 </ol>
-<div class="highlight-yaml"><div class="highlight"><pre><span></span><span class="nt">countries</span><span class="p">:</span>
-   <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">collection</span>
-   <span class="nt">title</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Countries</span>
-   <span class="nt">description</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Countries of the world</span>
-   <span class="nt">keywords</span><span class="p">:</span>
-      <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">industry</span>
-   <span class="nt">links</span><span class="p">:</span>
-      <span class="p p-Indicator">-</span> <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">text/html</span>
-        <span class="nt">rel</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">canonical</span>
-        <span class="nt">title</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">information</span>
-        <span class="nt">href</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://openlayers.org</span>
-        <span class="nt">hreflang</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">en-US</span>
-   <span class="nt">extents</span><span class="p">:</span>
-      <span class="nt">spatial</span><span class="p">:</span>
-         <span class="nt">bbox</span><span class="p">:</span> <span class="p p-Indicator">[</span><span class="nv">-180</span><span class="p p-Indicator">,</span><span class="nv">-90</span><span class="p p-Indicator">,</span><span class="nv">180</span><span class="p p-Indicator">,</span><span class="nv">90</span><span class="p p-Indicator">]</span>
-   <span class="nt">providers</span><span class="p">:</span>
-      <span class="p p-Indicator">-</span> <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">feature</span>
-        <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">GeoJSON</span>
-        <span class="nt">data</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">/var/www/html/openlayers/examples/data/geojson/countries.geojson</span>
-        <span class="nt">id_field</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">name</span>
+<div class="highlight-yaml"><div class="highlight"><pre><span></span><span class="nt">countries</span><span class="p">:</span><span class="w"></span>
+<span class="w">   </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">collection</span><span class="w"></span>
+<span class="w">   </span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Countries</span><span class="w"></span>
+<span class="w">   </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Countries of the world</span><span class="w"></span>
+<span class="w">   </span><span class="nt">keywords</span><span class="p">:</span><span class="w"></span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">industry</span><span class="w"></span>
+<span class="w">   </span><span class="nt">links</span><span class="p">:</span><span class="w"></span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">text/html</span><span class="w"></span>
+<span class="w">        </span><span class="nt">rel</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">canonical</span><span class="w"></span>
+<span class="w">        </span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">information</span><span class="w"></span>
+<span class="w">        </span><span class="nt">href</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://openlayers.org</span><span class="w"></span>
+<span class="w">        </span><span class="nt">hreflang</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">en-US</span><span class="w"></span>
+<span class="w">   </span><span class="nt">extents</span><span class="p">:</span><span class="w"></span>
+<span class="w">      </span><span class="nt">spatial</span><span class="p">:</span><span class="w"></span>
+<span class="w">         </span><span class="nt">bbox</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">-180</span><span class="p p-Indicator">,</span><span class="nv">-90</span><span class="p p-Indicator">,</span><span class="nv">180</span><span class="p p-Indicator">,</span><span class="nv">90</span><span class="p p-Indicator">]</span><span class="w"></span>
+<span class="w">   </span><span class="nt">providers</span><span class="p">:</span><span class="w"></span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">feature</span><span class="w"></span>
+<span class="w">        </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">GeoJSON</span><span class="w"></span>
+<span class="w">        </span><span class="nt">data</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">/var/www/html/openlayers/examples/data/geojson/countries.geojson</span><span class="w"></span>
+<span class="w">        </span><span class="nt">id_field</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">name</span><span class="w"></span>
 </pre></div>
 </div>
 <p>Versichern Sie sich, dass die Collection über den Browser erreichbar ist <a class="reference external" href="http://localhost:5000/collections/countries">http://localhost:5000/collections/countries</a></p>
 </div>
 <div class="section" id="using-a-web-browser-to-query-the-api">
-<h3><a class="toc-backref" href="#id3">Über den Web-Browser die API abfragen</a><a class="headerlink" href="#using-a-web-browser-to-query-the-api" title="Link zu dieser Überschrift">¶</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-3">Über den Web-Browser die API abfragen</a><a class="headerlink" href="#using-a-web-browser-to-query-the-api" title="Link zu dieser Überschrift">¶</a></h3>
 <p>Nun, da wir den Dienst zur Verfügung stehen haben, können wir ihn mit verschiedenen Client-Werkzeugen abfragen. Jedes Feature der Collection ist in gängigen Formaten wie HTML, GeoJSON und GML verfügbar. Als Erstes können wir einen Webbrowser verwenden, um den Dienst zu durchsuchen. Über <a class="reference external" href="http://localhost:5000/collections/countries">http://localhost:5000/collections/countries</a> können Sie zu den einzelnen Features gelangen. Der Dienst erkennt automatisch (Einstellung accept header), dass Sie einen Webbrowser verwenden, und gibt die HTML-Darstellung der Feature zurück. Beachten Sie in der oberen rechten Ecke explizite Links, um den accept header zu überschreiben und spezifische Darstellungen der Feature anzufordern (?f=geojson).</p>
 <p>Jede Open API hat eine interaktive Dokumentationsseite unter  <a class="reference external" href="http://localhost:5000/openapi">http://localhost:5000/openapi</a>. Auf dieser interaktiven Seiten erhalten Sie Informationen über die unterschiedlichen Methoden des Dienstes, gleichzeitig können Sie über das Webformular mit dem Dienst interagieren.</p>
 <blockquote>
@@ -147,7 +147,7 @@
 <p>OGC-APIs wurden unter Berücksichtigung der „räumlichen Daten im Web-Best &lt;https: w3c.github.io/sdw/bp/#bp-summary=““&gt;Practices“. Ein wichtiger Aspekt dieser Best Practices ist die Suchmaschinenoptimierung. pygeoapi fügt einige Crawl-Optimierungen zusätzlich zu den Anforderungen der Open API-Standards hinzu. Collection-Metadaten können von Suchmaschinen strukturiert durchforstet werden, mit dem Ziel, die Sammlungen in Werkzeugen wie der Google-Dataset-Suche auffindbar zu machen. Zur Auswertung der strukturierten Datenfunktionen können Sie die Structured Data Testing Tools von Yandex oder Google verwenden. Kopieren Sie die HTML-Quelle der countries-Collection  (oder die URL einer Collection einer Online-pygeoapi-Instanz) in ein strukturiertes Datentestwerkzeug und bewerten Sie, welche strukturierten Daten das Werkzeug daraus extrahieren kann. Die Suchmaschine verwendet diese Informationen in ihrem Dataset-Index.&lt;/https:&gt;</p>
 </div>
 <div class="section" id="using-oapi-features-in-desktop-gis">
-<h3><a class="toc-backref" href="#id4">Verwendung von OAPI-Features im Desktop GIS</a><a class="headerlink" href="#using-oapi-features-in-desktop-gis" title="Link zu dieser Überschrift">¶</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-4">Verwendung von OAPI-Features im Desktop GIS</a><a class="headerlink" href="#using-oapi-features-in-desktop-gis" title="Link zu dieser Überschrift">¶</a></h3>
 <p>In diesem Quickstart nutzen wir QGIS zur Abfrage des Dienstes. Eine ähnliche Nutzung ist aber auch mit anderen GIS-Werkzeugen wie ArcGIS, FME oder OpenLayers möglich.</p>
 <p>Ab QGIS 3.14 können OAPI-Features Layer als Vektorlayer hinzugefügt werden. Dies erfolgt über den Menüpunkt  <code class="docutils literal"><span class="pre">add</span> <span class="pre">layer</span></code> menu select <code class="docutils literal"><span class="pre">Add</span> <span class="pre">WFS</span> <span class="pre">/</span> <span class="pre">OAPI-Features</span> <span class="pre">layer</span></code>.</p>
 <blockquote>

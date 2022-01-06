@@ -86,25 +86,25 @@
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#start-geoserver" id="id1">Start Geoserver</a></li>
-<li><a class="reference internal" href="#loading-data" id="id2">Loading data</a></li>
-<li><a class="reference internal" href="#styling-data" id="id3">Styling data</a><ul>
-<li><a class="reference internal" href="#using-ug-to-create-simple-styles" id="id4">Using uDig to create simple styles</a></li>
-<li><a class="reference internal" href="#adding-the-style-to-geoserver" id="id5">Adding the style to GeoServer</a></li>
-<li><a class="reference internal" href="#adding-the-style-to-the-layer" id="id6">Adding the style to the layer</a></li>
+<li><a class="reference internal" href="#start-geoserver" id="toc-entry-1">Start Geoserver</a></li>
+<li><a class="reference internal" href="#loading-data" id="toc-entry-2">Loading data</a></li>
+<li><a class="reference internal" href="#styling-data" id="toc-entry-3">Styling data</a><ul>
+<li><a class="reference internal" href="#using-ug-to-create-simple-styles" id="toc-entry-4">Using uDig to create simple styles</a></li>
+<li><a class="reference internal" href="#adding-the-style-to-geoserver" id="toc-entry-5">Adding the style to GeoServer</a></li>
+<li><a class="reference internal" href="#adding-the-style-to-the-layer" id="toc-entry-6">Adding the style to the layer</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#clients-for-wms-layers" id="id7">Clients for WMS layers</a></li>
-<li><a class="reference internal" href="#add-a-layer-from-a-netcdf-file" id="id8">Add a layer from a NetCDF file</a><ul>
-<li><a class="reference internal" href="#configure-a-netcdf-store" id="id9">Configure a NetCDF store</a></li>
-<li><a class="reference internal" href="#preview-the-netcdf-layer" id="id10">Preview the NetCDF layer</a></li>
+<li><a class="reference internal" href="#clients-for-wms-layers" id="toc-entry-7">Clients for WMS layers</a></li>
+<li><a class="reference internal" href="#add-a-layer-from-a-netcdf-file" id="toc-entry-8">Add a layer from a NetCDF file</a><ul>
+<li><a class="reference internal" href="#configure-a-netcdf-store" id="toc-entry-9">Configure a NetCDF store</a></li>
+<li><a class="reference internal" href="#preview-the-netcdf-layer" id="toc-entry-10">Preview the NetCDF layer</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#what-next" id="id11">What next?</a></li>
+<li><a class="reference internal" href="#what-next" id="toc-entry-11">What next?</a></li>
 </ul>
 </div>
 <div class="section" id="start-geoserver">
-<h2><a class="toc-backref" href="#id1">Start Geoserver</a><a class="headerlink" href="#start-geoserver" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-1">Start Geoserver</a><a class="headerlink" href="#start-geoserver" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
 <li><p class="first">From the Start menu, select <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span>. The application will take a few moments to start up and will open a web page at <a class="reference external" href="http://localhost:8082/geoserver/web">http://localhost:8082/geoserver/web</a></p>
 <a class="reference internal image-reference" href="../../_images/geoserver-login.png"><img alt="../../_images/geoserver-login.png" src="../../_images/geoserver-login.png" style="width: 562.0999999999999px; height: 289.79999999999995px;" /></a>
@@ -131,7 +131,7 @@
 <p>Experiment with this view and look at some of the other previews.  Once you are comfortable viewing existing data you can move on to adding some new data.</p>
 </div>
 <div class="section" id="loading-data">
-<h2><a class="toc-backref" href="#id2">Loading data</a><a class="headerlink" href="#loading-data" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-2">Loading data</a><a class="headerlink" href="#loading-data" title="Permalink to this headline">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">You will not be able to carry out the following steps if you are
@@ -173,12 +173,12 @@ that is included on OSGeoLive (<code class="file docutils literal"><span class="
 <p>You can follow the same step with the other layers in the directory by using the <span class="guilabel">Add a new resource</span> button on the layers page. Just select the natural earth store from the drop down box to get back to the store’s page.</p>
 </div>
 <div class="section" id="styling-data">
-<h2><a class="toc-backref" href="#id3">Styling data</a><a class="headerlink" href="#styling-data" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-3">Styling data</a><a class="headerlink" href="#styling-data" title="Permalink to this headline">¶</a></h2>
 <p>Styling a data set into a map layer GeoServer uses an OGC standard called <a class="reference external" href="https://www.ogc.org/standards/sld">Styled Layer Descriptor (SLD)</a>. These are represented as XML files which describe the rules that are used to apply various symbolizers to the data.</p>
 <p>To get started, lets style the Land and Ocean datasets.
 You can create SLD files using a simple text editor, but sometimes a graphical editor is better. There are several options here but uDig allows you to open the shapefiles directly and apply simple styles using a GUI. It also provides a simple editor to modify the XML if I need to.</p>
 <div class="section" id="using-ug-to-create-simple-styles">
-<h3><a class="toc-backref" href="#id4">Using uDig to create simple styles</a><a class="headerlink" href="#using-ug-to-create-simple-styles" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-4">Using uDig to create simple styles</a><a class="headerlink" href="#using-ug-to-create-simple-styles" title="Permalink to this headline">¶</a></h3>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">For more details on how to use uDig see the <a class="reference internal" href="udig_quickstart.html"><span class="doc">uDig Quickstart</span></a></p>
@@ -207,7 +207,7 @@ You can create SLD files using a simple text editor, but sometimes a graphical e
 <a class="reference internal image-reference" href="../../_images/geoserver-basic-world.png"><img alt="A basic word map" class="align-center" src="../../_images/geoserver-basic-world.png" style="width: 743.4px; height: 375.2px;" /></a>
 </div>
 <div class="section" id="adding-the-style-to-geoserver">
-<h3><a class="toc-backref" href="#id5">Adding the style to GeoServer</a><a class="headerlink" href="#adding-the-style-to-geoserver" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-5">Adding the style to GeoServer</a><a class="headerlink" href="#adding-the-style-to-geoserver" title="Permalink to this headline">¶</a></h3>
 <p>Now we need to transfer these styles to GeoServer.</p>
 <ol class="arabic simple">
 <li>On the style window there is an export button which allows you to save the SLD file that defines your style.</li>
@@ -221,7 +221,7 @@ You can create SLD files using a simple text editor, but sometimes a graphical e
 <a class="reference internal image-reference" href="../../_images/geoserver-add-style.png"><img alt="Adding a Style to GeoServer" class="align-center" src="../../_images/geoserver-add-style.png" style="width: 765.0999999999999px; height: 455.7px;" /></a>
 </div>
 <div class="section" id="adding-the-style-to-the-layer">
-<h3><a class="toc-backref" href="#id6">Adding the style to the layer</a><a class="headerlink" href="#adding-the-style-to-the-layer" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-6">Adding the style to the layer</a><a class="headerlink" href="#adding-the-style-to-the-layer" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Click on the <span class="guilabel">Layers</span> link in the Menu on the left of the GeoServer window.</li>
 <li>Click on the layer (e.g. <em>ne_10m_land</em>), then select the <span class="guilabel">Publishing</span> tab.</li>
@@ -235,7 +235,7 @@ You can create SLD files using a simple text editor, but sometimes a graphical e
 </div>
 </div>
 <div class="section" id="clients-for-wms-layers">
-<h2><a class="toc-backref" href="#id7">Clients for WMS layers</a><a class="headerlink" href="#clients-for-wms-layers" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-7">Clients for WMS layers</a><a class="headerlink" href="#clients-for-wms-layers" title="Permalink to this headline">¶</a></h2>
 <p>The <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> layers you are serving from GeoServer can be used with a variety of clients on this OSGeoLive distribution, including:</p>
 <ul class="simple">
 <li><a class="reference internal" href="../overview/udig_overview.html"><span class="doc">uDig</span></a></li>
@@ -244,10 +244,10 @@ You can create SLD files using a simple text editor, but sometimes a graphical e
 </ul>
 </div>
 <div class="section" id="add-a-layer-from-a-netcdf-file">
-<h2><a class="toc-backref" href="#id8">Add a layer from a NetCDF file</a><a class="headerlink" href="#add-a-layer-from-a-netcdf-file" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-8">Add a layer from a NetCDF file</a><a class="headerlink" href="#add-a-layer-from-a-netcdf-file" title="Permalink to this headline">¶</a></h2>
 <p>The GeoServer NetCDF plugin allows the publication of rasters from NetCDF files.</p>
 <div class="section" id="configure-a-netcdf-store">
-<h3><a class="toc-backref" href="#id9">Configure a NetCDF store</a><a class="headerlink" href="#configure-a-netcdf-store" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-9">Configure a NetCDF store</a><a class="headerlink" href="#configure-a-netcdf-store" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic">
 <li><p class="first">After running “Start GeoServer”</p>
 </li>
@@ -270,7 +270,7 @@ You can create SLD files using a simple text editor, but sometimes a graphical e
 </ol>
 </div>
 <div class="section" id="preview-the-netcdf-layer">
-<h3><a class="toc-backref" href="#id10">Preview the NetCDF layer</a><a class="headerlink" href="#preview-the-netcdf-layer" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-10">Preview the NetCDF layer</a><a class="headerlink" href="#preview-the-netcdf-layer" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic">
 <li><p class="first">Select “Layer Preview” from the menu on the left</p>
 </li>
@@ -289,7 +289,7 @@ You can create SLD files using a simple text editor, but sometimes a graphical e
 </div>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id11">What next?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-11">What next?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
 <p>This is only the first step on the road to using GeoServer. There is a lot more functionality you can try.</p>
 <ul class="simple">
 <li>GeoServer Project home - <a class="reference external" href="http://geoserver.org/">http://geoserver.org/</a></li>

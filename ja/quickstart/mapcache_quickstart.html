@@ -78,14 +78,14 @@
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#adding-a-new-tileset-and-displaying-in-openlayers" id="id1">新しいタイルセットを追加してOpenLayersに表示する</a></li>
-<li><a class="reference internal" href="#adding-new-services" id="id2">新規サービスの追加</a></li>
-<li><a class="reference internal" href="#the-seeder-application" id="id3">シーダー・アプリケーション</a></li>
-<li><a class="reference internal" href="#what-next" id="id4">次のステップ</a></li>
+<li><a class="reference internal" href="#adding-a-new-tileset-and-displaying-in-openlayers" id="toc-entry-1">新しいタイルセットを追加してOpenLayersに表示する</a></li>
+<li><a class="reference internal" href="#adding-new-services" id="toc-entry-2">新規サービスの追加</a></li>
+<li><a class="reference internal" href="#the-seeder-application" id="toc-entry-3">シーダー・アプリケーション</a></li>
+<li><a class="reference internal" href="#what-next" id="toc-entry-4">次のステップ</a></li>
 </ul>
 </div>
 <div class="section" id="adding-a-new-tileset-and-displaying-in-openlayers">
-<h2><a class="toc-backref" href="#id1">新しいタイルセットを追加してOpenLayersに表示する</a><a class="headerlink" href="#adding-a-new-tileset-and-displaying-in-openlayers" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-1">新しいタイルセットを追加してOpenLayersに表示する</a><a class="headerlink" href="#adding-a-new-tileset-and-displaying-in-openlayers" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>MapCacheはXMLファイルを使用して構成されます。OSGeoLiveには、<code class="docutils literal"><span class="pre">/usr/local/share/mapcache/mapcache-quickstart.xml</span></code> にサンプル設定ファイルがあります。この例では、ソースとして米国のイタスカ郡のデータを使用し、OSGeoLiveデモのMapServerアプリケーションを使用しています。</p>
 <p>このクイックスタートでは、追加のWMSレイヤのタイルキャッシュを設定し、OpenLayersマップを含む単純なHTMLページにタイルを表示します。</p>
 <p>まず、FeatherPad(テキストエディタ)でMapCache設定ファイルを開きます。管理者特権でコマンドラインからFeatherPadを開くことで、ファイルを保存することができるようになります。[システムツール] &gt; [QTerminal]を使用して、次のコマンドを実行します。</p>
@@ -157,20 +157,20 @@
 </div>
 </div>
 <div class="section" id="adding-new-services">
-<h2><a class="toc-backref" href="#id2">新規サービスの追加</a><a class="headerlink" href="#adding-new-services" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-2">新規サービスの追加</a><a class="headerlink" href="#adding-new-services" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p><code class="docutils literal"><span class="pre">/etc/apache2/conf-enabled/mapcache.conf</span></code> ファイルを編集することで、それぞれが独自の設定ファイルを持つ、多数の異なるMapCacheサービスを実行するようにApacheを設定できます。スーパーユーザ権限が必要なので、次のコマンドを実行してFeatherPadで編集用に開くことができます。</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>sudo featherpad /etc/apache2/conf-enabled/mapcache.conf
 </pre></div>
 </div>
 <p>OSGeoLiveには2つのMapCacheサービスがあり、それぞれにエイリアスと設定ファイルがあります。エイリアスはサーバ上で使用するURLです。例 <a class="reference external" href="http://localhost/mapcache">http://localhost/mapcache</a> と <a class="reference external" href="http://localhost/itasca">http://localhost/itasca</a></p>
-<div class="highlight-apache"><div class="highlight"><pre><span></span><span class="nt">&lt;IfModule</span> <span class="s">mapcache_module</span><span class="nt">&gt;</span>
-   <span class="nt">&lt;Directory</span> <span class="s">/path/to/directory</span><span class="nt">&gt;</span>
-      <span class="nb">Order</span> Allow,Deny
-      <span class="nb">Allow</span> from <span class="k">all</span>
-   <span class="nt">&lt;/Directory&gt;</span>
-   <span class="nb">MapCacheAlias</span> <span class="sx">/mapcache</span> <span class="s2">&quot;/usr/share/doc/libapache2-mod-mapcache/examples/mapcache.xml&quot;</span>
-   <span class="nb">MapCacheAlias</span> <span class="sx">/itasca</span> <span class="s2">&quot;/home/user/mapcache.xml&quot;</span>
-<span class="nt">&lt;/IfModule&gt;</span>
+<div class="highlight-apache"><div class="highlight"><pre><span></span><span class="nt">&lt;IfModule</span><span class="w"> </span><span class="s">mapcache_module</span><span class="nt">&gt;</span><span class="w"></span>
+<span class="w">   </span><span class="nt">&lt;Directory</span><span class="w"> </span><span class="s">/path/to/directory</span><span class="nt">&gt;</span><span class="w"></span>
+<span class="w">      </span><span class="nb">Order</span><span class="w"> </span>Allow,Deny<span class="w"></span>
+<span class="w">      </span><span class="nb">Allow</span><span class="w"> </span>from<span class="w"> </span><span class="k">all</span><span class="w"></span>
+<span class="w">   </span><span class="nt">&lt;/Directory&gt;</span><span class="w"></span>
+<span class="w">   </span><span class="nb">MapCacheAlias</span><span class="w"> </span><span class="sx">/mapcache</span><span class="w"> </span><span class="s2">&quot;/usr/share/doc/libapache2-mod-mapcache/examples/mapcache.xml&quot;</span><span class="w"></span>
+<span class="w">   </span><span class="nb">MapCacheAlias</span><span class="w"> </span><span class="sx">/itasca</span><span class="w"> </span><span class="s2">&quot;/home/user/mapcache.xml&quot;</span><span class="w"></span>
+<span class="nt">&lt;/IfModule&gt;</span><span class="w"></span>
 </pre></div>
 </div>
 <p>新しいサービスを追加するには、WEB_PATHおよびPATH_TO_CONFIG_FILEを関連パラメータで置き換えて、次のフォーマットで新しい行を追加します:</p>
@@ -180,7 +180,7 @@
 <p>Apacheモジュールの設定の詳細は、 <a class="reference external" href="https://mapserver.org/mapcache/install.html#apache-module-specific-instructions">Apache Module Instructions</a>  を参照してください。</p>
 </div>
 <div class="section" id="the-seeder-application">
-<h2><a class="toc-backref" href="#id3">シーダー・アプリケーション</a><a class="headerlink" href="#the-seeder-application" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-3">シーダー・アプリケーション</a><a class="headerlink" href="#the-seeder-application" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>マップタイルは、Webサーバーから要求されたときに動的に作成されます。要求時間を短縮するために、コマンドラインアプリケーションを使用してタイルを生成できます。この処理は、 <em>シーディング</em> として知られており、 MapCache コマンドラインアプリケーションは <code class="docutils literal"><span class="pre">mapcache_seed</span></code> です。</p>
 <p>シーダーアプリケーションによって作成されたタイルがウェブサーバアカウントからアクセスできるようにするために、 <code class="docutils literal"><span class="pre">mapcache_seed</span></code> アプリケーションを実行する前に <code class="docutils literal"><span class="pre">sudo-u</span> <span class="pre">www-data</span></code> を追加します。</p>
 <p>以下の例では、 <code class="docutils literal"><span class="pre">mapcache_seed</span></code> に三つのオプションを与えています:</p>
@@ -200,7 +200,7 @@
 </div>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id4">次のステップ</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-4">次のステップ</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ul class="simple">
 <li><a class="reference external" href="https://mapserver.org/mapcache/index.html">MapCache 文書</a> を読む。</li>
 <li><a class="reference external" href="https://www.mapserver.org/community/lists.html">メーリングリスト</a>  のコミュニティ(ここではMapCacheがその対象の一部です)に参加して、アイデアを交換したり、ソフトウェアの改善点について話し合ったり、質問したりできます。</li>

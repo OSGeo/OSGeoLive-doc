@@ -87,25 +87,25 @@
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#start-geoserver" id="id1">Geoserverを起動する</a></li>
-<li><a class="reference internal" href="#loading-data" id="id2">データをロード</a></li>
-<li><a class="reference internal" href="#styling-data" id="id3">データをスタイリング</a><ul>
-<li><a class="reference internal" href="#using-ug-to-create-simple-styles" id="id4">uDig を使用したシンプルなスタイルの作成</a></li>
-<li><a class="reference internal" href="#adding-the-style-to-geoserver" id="id5">GeoServerへのスタイルの追加</a></li>
-<li><a class="reference internal" href="#adding-the-style-to-the-layer" id="id6">レイヤにスタイルを追加</a></li>
+<li><a class="reference internal" href="#start-geoserver" id="toc-entry-1">Geoserverを起動する</a></li>
+<li><a class="reference internal" href="#loading-data" id="toc-entry-2">データをロード</a></li>
+<li><a class="reference internal" href="#styling-data" id="toc-entry-3">データをスタイリング</a><ul>
+<li><a class="reference internal" href="#using-ug-to-create-simple-styles" id="toc-entry-4">uDig を使用したシンプルなスタイルの作成</a></li>
+<li><a class="reference internal" href="#adding-the-style-to-geoserver" id="toc-entry-5">GeoServerへのスタイルの追加</a></li>
+<li><a class="reference internal" href="#adding-the-style-to-the-layer" id="toc-entry-6">レイヤにスタイルを追加</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#clients-for-wms-layers" id="id7">WMSレイヤのクライアント</a></li>
-<li><a class="reference internal" href="#add-a-layer-from-a-netcdf-file" id="id8">NetCDFファイルからレイヤを追加する</a><ul>
-<li><a class="reference internal" href="#configure-a-netcdf-store" id="id9">NetCDFストアを設定</a></li>
-<li><a class="reference internal" href="#preview-the-netcdf-layer" id="id10">NetCDFレイヤをプレビュー</a></li>
+<li><a class="reference internal" href="#clients-for-wms-layers" id="toc-entry-7">WMSレイヤのクライアント</a></li>
+<li><a class="reference internal" href="#add-a-layer-from-a-netcdf-file" id="toc-entry-8">NetCDFファイルからレイヤを追加する</a><ul>
+<li><a class="reference internal" href="#configure-a-netcdf-store" id="toc-entry-9">NetCDFストアを設定</a></li>
+<li><a class="reference internal" href="#preview-the-netcdf-layer" id="toc-entry-10">NetCDFレイヤをプレビュー</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#what-next" id="id11">次のステップ</a></li>
+<li><a class="reference internal" href="#what-next" id="toc-entry-11">次のステップ</a></li>
 </ul>
 </div>
 <div class="section" id="start-geoserver">
-<h2><a class="toc-backref" href="#id1">Geoserverを起動する</a><a class="headerlink" href="#start-geoserver" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-1">Geoserverを起動する</a><a class="headerlink" href="#start-geoserver" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ol class="arabic">
 <li><p class="first">スタートメニューから、 <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span> を選択します。アプリケーションの起動には少し時間がかかり、<a class="reference external" href="http://localhost:8082/geoserver/web">http://localhost:8082/geoserver/web</a> でWebページが開きます。</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-login.png"><img alt="../../_images/geoserver-login.png" src="../../_images/geoserver-login.png" style="width: 562.0999999999999px; height: 289.79999999999995px;" /></a>
@@ -132,7 +132,7 @@
 <p>このビューを試して、他のプレビューをいくつか見てみましょう。既存のデータを見やすくなったら、新しいデータを追加することができます。</p>
 </div>
 <div class="section" id="loading-data">
-<h2><a class="toc-backref" href="#id2">データをロード</a><a class="headerlink" href="#loading-data" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-2">データをロード</a><a class="headerlink" href="#loading-data" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">注釈</p>
 <p class="last"><strong>読み取り専用</strong> ファイルシステム(DVDなど)を使用している場合は、次の手順を実行できません。仮想マシンまたはUSBから実行するか、OSGeoLive(または単にGeoServer)をハードドライブにインストールする必要があります。</p>
@@ -170,11 +170,11 @@
 <p>ディレクトリ内の他のレイヤについても、レイヤページの <span class="guilabel">Add a new resource</span> ボタンを使用して同じ手順を実行できます。ドロップダウンボックスからNatural Earthストアを選択するだけで、ストアのページに戻ります。</p>
 </div>
 <div class="section" id="styling-data">
-<h2><a class="toc-backref" href="#id3">データをスタイリング</a><a class="headerlink" href="#styling-data" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-3">データをスタイリング</a><a class="headerlink" href="#styling-data" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>マップレイヤへのデータセットのスタイリングにおいて、 GeoServer は <a class="reference external" href="https://www.ogc.org/standards/sld">Styled Layer Descriptor (SLD)</a> と呼ばれるOGC標準を使用しています。これらは、データにさまざまな図案化を適用するために使用されるルールを記述するXMLファイルとして表されます。</p>
 <p>はじめに、で陸地と海洋のデータセットのスタイルを設定しましょう。SLDファイルは簡単なテキストエディタで作成できますが、グラフィカルエディタの方がよい場合もあります。ここにはいくつかのオプションがありますが、 uDig ではシェープファイルを直接開き、GUIを使用して簡単なスタイルを適用できます。また、必要に応じてXMLを変更するための簡単なエディタも提供しています。</p>
 <div class="section" id="using-ug-to-create-simple-styles">
-<h3><a class="toc-backref" href="#id4">uDig を使用したシンプルなスタイルの作成</a><a class="headerlink" href="#using-ug-to-create-simple-styles" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-4">uDig を使用したシンプルなスタイルの作成</a><a class="headerlink" href="#using-ug-to-create-simple-styles" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <div class="admonition note">
 <p class="first admonition-title">注釈</p>
 <p class="last">uDig の使用方法に関するその他の詳細については、 <a class="reference internal" href="udig_quickstart.html"><span class="doc">uDigクイックスタート</span></a> を参照してください。</p>
@@ -203,7 +203,7 @@
 <a class="reference internal image-reference" href="../../_images/geoserver-basic-world.png"><img alt="A basic word map" class="align-center" src="../../_images/geoserver-basic-world.png" style="width: 743.4px; height: 375.2px;" /></a>
 </div>
 <div class="section" id="adding-the-style-to-geoserver">
-<h3><a class="toc-backref" href="#id5">GeoServerへのスタイルの追加</a><a class="headerlink" href="#adding-the-style-to-geoserver" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-5">GeoServerへのスタイルの追加</a><a class="headerlink" href="#adding-the-style-to-geoserver" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <p>次に、これらのスタイルを GeoServer に転送する必要があります。</p>
 <ol class="arabic simple">
 <li>スタイルウィンドウにはエクスポートボタンがあり、スタイルを定義するSLDファイルを保存できます。</li>
@@ -217,7 +217,7 @@
 <a class="reference internal image-reference" href="../../_images/geoserver-add-style.png"><img alt="Adding a Style to GeoServer" class="align-center" src="../../_images/geoserver-add-style.png" style="width: 765.0999999999999px; height: 455.7px;" /></a>
 </div>
 <div class="section" id="adding-the-style-to-the-layer">
-<h3><a class="toc-backref" href="#id6">レイヤにスタイルを追加</a><a class="headerlink" href="#adding-the-style-to-the-layer" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-6">レイヤにスタイルを追加</a><a class="headerlink" href="#adding-the-style-to-the-layer" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <ol class="arabic simple">
 <li>GeoServer ウィンドウの左側にあるメニューの <span class="guilabel">レイヤ</span> リンクをクリックします。</li>
 <li>レイヤ(例: <em>ne_10m_land</em>)をクリックし、 <span class="guilabel">Publishing</span> タブを選択します。</li>
@@ -231,7 +231,7 @@
 </div>
 </div>
 <div class="section" id="clients-for-wms-layers">
-<h2><a class="toc-backref" href="#id7">WMSレイヤのクライアント</a><a class="headerlink" href="#clients-for-wms-layers" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-7">WMSレイヤのクライアント</a><a class="headerlink" href="#clients-for-wms-layers" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>GeoServer から提供されている <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> レイヤは、このOSGeoLiveディストリビューションのさまざまなクライアントで使用できます。次のものがあります。</p>
 <ul class="simple">
 <li><a class="reference internal" href="../overview/udig_overview.html"><span class="doc">uDig</span></a></li>
@@ -240,10 +240,10 @@
 </ul>
 </div>
 <div class="section" id="add-a-layer-from-a-netcdf-file">
-<h2><a class="toc-backref" href="#id8">NetCDFファイルからレイヤを追加する</a><a class="headerlink" href="#add-a-layer-from-a-netcdf-file" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-8">NetCDFファイルからレイヤを追加する</a><a class="headerlink" href="#add-a-layer-from-a-netcdf-file" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>GeoServer NetCDFプラグインを使用すると、NetCDFファイルからラスターを発行できます。</p>
 <div class="section" id="configure-a-netcdf-store">
-<h3><a class="toc-backref" href="#id9">NetCDFストアを設定</a><a class="headerlink" href="#configure-a-netcdf-store" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-9">NetCDFストアを設定</a><a class="headerlink" href="#configure-a-netcdf-store" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <ol class="arabic">
 <li><p class="first">「GeoServerの開始」の実行後</p>
 </li>
@@ -266,7 +266,7 @@
 </ol>
 </div>
 <div class="section" id="preview-the-netcdf-layer">
-<h3><a class="toc-backref" href="#id10">NetCDFレイヤをプレビュー</a><a class="headerlink" href="#preview-the-netcdf-layer" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<h3><a class="toc-backref" href="#toc-entry-10">NetCDFレイヤをプレビュー</a><a class="headerlink" href="#preview-the-netcdf-layer" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <ol class="arabic">
 <li><p class="first">左側のメニューから 「レイヤプレビュー」 を選択</p>
 </li>
@@ -285,7 +285,7 @@
 </div>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id11">次のステップ</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-11">次のステップ</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>これは、GeoServerを使用するための最初のステップにすぎません。他にも多くの機能を試すことができます。</p>
 <ul class="simple">
 <li>GeoServer プロジェクト ホーム - <a class="reference external" href="http://geoserver.org/">http://geoserver.org/</a></li>

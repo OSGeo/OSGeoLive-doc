@@ -71,29 +71,29 @@
             
   <a class="reference external image-reference" href="https://rasdaman.org"><img alt="../../_images/logo_rasdaman.png" class="align-right" src="../../_images/logo_rasdaman.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_incubation.png" class="align-right" src="../../_images/OSGeo_incubation.png" /></a>
-<div class="section" id="rasdaman-quickstart">
-<span id="id1"></span><h1>Guide de démarrage rapide avec Rasdaman<a class="headerlink" href="#rasdaman-quickstart" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="rasdaman-quickstart-1">
+<span id="rasdaman-quickstart"></span><h1>Guide de démarrage rapide avec Rasdaman<a class="headerlink" href="#rasdaman-quickstart-1" title="Lien permanent vers ce titre">¶</a></h1>
 <p>Rasdaman est un moteur Big Data pour l’analyse ad hoc flexible sur les données multidimensionnelles de capteur spatio-temporel, d’image, de simulation et de statistiques de taille illimitée. Le langage de requête du Service de traitement de la couverture Web (WCPS) est une norme de l’Open Geospatial Consortium (OGC) qui permet le filtrage et le traitement des couvertures raster multidimensionnelles, telles que les données sur les capteurs, la simulation, l’image et les statistiques à l’aide de services Web. Les requêtes WCPS sont traduites en langue de requête rasdaman, rasql, et sont exécutées sur rasdaman. Ce guide de démarrage rapide montre comment accéder et manipuler une couverture 2D par exemple en utilisant le langage WCPS.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#setup" id="id3">Configuration</a></li>
-<li><a class="reference internal" href="#running-wcps-queries" id="id4">Exécution des requêtes WCPS</a></li>
-<li><a class="reference internal" href="#running-coverage" id="id5">Lancer la couverture</a></li>
-<li><a class="reference internal" href="#access-full-coverage" id="id6">Accéder à la couverture complète</a></li>
-<li><a class="reference internal" href="#select-a-subset-of-the-coverage" id="id7">Sélectionner un sous-ensemble de la couverture</a></li>
-<li><a class="reference internal" href="#band-extraction-from-the-coverage" id="id8">Extraction de bande à partir de la couverture</a></li>
-<li><a class="reference internal" href="#arithmetic-operation-extracting-ndvi-of-the-coverage" id="id9">Opération arithmétique : Extraction de l’indice NDVI de la couverture</a></li>
-<li><a class="reference internal" href="#what-next" id="id10">Ensuite ?</a></li>
+<li><a class="reference internal" href="#setup" id="toc-entry-1">Configuration</a></li>
+<li><a class="reference internal" href="#running-wcps-queries" id="toc-entry-2">Exécution des requêtes WCPS</a></li>
+<li><a class="reference internal" href="#running-coverage" id="toc-entry-3">Lancer la couverture</a></li>
+<li><a class="reference internal" href="#access-full-coverage" id="toc-entry-4">Accéder à la couverture complète</a></li>
+<li><a class="reference internal" href="#select-a-subset-of-the-coverage" id="toc-entry-5">Sélectionner un sous-ensemble de la couverture</a></li>
+<li><a class="reference internal" href="#band-extraction-from-the-coverage" id="toc-entry-6">Extraction de bande à partir de la couverture</a></li>
+<li><a class="reference internal" href="#arithmetic-operation-extracting-ndvi-of-the-coverage" id="toc-entry-7">Opération arithmétique : Extraction de l’indice NDVI de la couverture</a></li>
+<li><a class="reference internal" href="#what-next" id="toc-entry-8">Ensuite ?</a></li>
 </ul>
 </div>
 <div class="section" id="setup">
-<h2><a class="toc-backref" href="#id3">Configuration</a><a class="headerlink" href="#setup" title="Lien permanent vers ce titre">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-1">Configuration</a><a class="headerlink" href="#setup" title="Lien permanent vers ce titre">¶</a></h2>
 <p>La première étape avant d’essayer l’une des requêtes suivantes est de commencer rasdaman et Tomcat. Ouvrez l’annuaire <em>Databases</em> sur le bureau, puis <em>Start Rasdaman Server</em>. Prévoyez deux à trois minutes pour rasdaman et surtout Tomcat pour démarrer complètement (une fois que le <a class="reference external" href="http://localhost:8080/rasdaman/ows">client web rasdaman</a> est chargé dans le navigateur).</p>
 <p>Ensuite, vous pouvez ouvrir <em>Rasdaman-Earthlook Demo</em> à partir du même répertoire, qui lancera un démonstrateur local dans le navigateur. Pour un tutoriel plus pratique, continuez avec les prochains exemples ici.</p>
 </div>
 <div class="section" id="running-wcps-queries">
-<h2><a class="toc-backref" href="#id4">Exécution des requêtes WCPS</a><a class="headerlink" href="#running-wcps-queries" title="Lien permanent vers ce titre">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-2">Exécution des requêtes WCPS</a><a class="headerlink" href="#running-wcps-queries" title="Lien permanent vers ce titre">¶</a></h2>
 <dl class="docutils">
 <dt>Soit&nbsp;:</dt>
 <dd><ul class="first last simple">
@@ -104,12 +104,12 @@
 </dl>
 </div>
 <div class="section" id="running-coverage">
-<h2><a class="toc-backref" href="#id5">Lancer la couverture</a><a class="headerlink" href="#running-coverage" title="Lien permanent vers ce titre">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-3">Lancer la couverture</a><a class="headerlink" href="#running-coverage" title="Lien permanent vers ce titre">¶</a></h2>
 <p>L’exemple de couverture qui sera utilisé ultérieurement est une image de 6 Mo comme ci-dessous:</p>
 <a class="reference internal image-reference" href="../../_images/rasdaman_ndvi1.png"><img alt="../../_images/rasdaman_ndvi1.png" src="../../_images/rasdaman_ndvi1.png" style="width: 479.0px; height: 269.0px;" /></a>
 </div>
 <div class="section" id="access-full-coverage">
-<h2><a class="toc-backref" href="#id6">Accéder à la couverture complète</a><a class="headerlink" href="#access-full-coverage" title="Lien permanent vers ce titre">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-4">Accéder à la couverture complète</a><a class="headerlink" href="#access-full-coverage" title="Lien permanent vers ce titre">¶</a></h2>
 <p>La requête WCPS pour accéder à la couverture complète est la suivante :</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span><span class="n">NIR</span><span class="p">)</span> <span class="k">return</span> <span class="n">encode</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="s2">&quot;png&quot;</span><span class="p">)</span>
 </pre></div>
@@ -117,7 +117,7 @@
 <p>Cliquez sur <a class="reference external" href="http://localhost:8080/rasdaman/ows?query=forn%20(NIR)%20returnncode,22png29">coverage request</a> pour l’exécuter dans le navigateur.</p>
 </div>
 <div class="section" id="select-a-subset-of-the-coverage">
-<h2><a class="toc-backref" href="#id7">Sélectionner un sous-ensemble de la couverture</a><a class="headerlink" href="#select-a-subset-of-the-coverage" title="Lien permanent vers ce titre">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-5">Sélectionner un sous-ensemble de la couverture</a><a class="headerlink" href="#select-a-subset-of-the-coverage" title="Lien permanent vers ce titre">¶</a></h2>
 <p>La requête WCPS pour accéder à un sous-ensemble de la couverture est la suivante :</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span><span class="n">NIR</span><span class="p">)</span> <span class="k">return</span> <span class="n">encode</span><span class="p">(</span><span class="n">c</span><span class="p">[</span><span class="n">i</span><span class="p">(</span><span class="mi">0</span><span class="p">:</span><span class="mi">500</span><span class="p">),</span><span class="n">j</span><span class="p">(</span><span class="mi">0</span><span class="p">:</span><span class="mi">500</span><span class="p">)],</span> <span class="s2">&quot;png&quot;</span><span class="p">)</span>
 </pre></div>
@@ -127,7 +127,7 @@
 <a class="reference internal image-reference" href="../../_images/rasdaman_ndvi2.png"><img alt="../../_images/rasdaman_ndvi2.png" src="../../_images/rasdaman_ndvi2.png" style="width: 479.0px; height: 125.25px;" /></a>
 </div>
 <div class="section" id="band-extraction-from-the-coverage">
-<h2><a class="toc-backref" href="#id8">Extraction de bande à partir de la couverture</a><a class="headerlink" href="#band-extraction-from-the-coverage" title="Lien permanent vers ce titre">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-6">Extraction de bande à partir de la couverture</a><a class="headerlink" href="#band-extraction-from-the-coverage" title="Lien permanent vers ce titre">¶</a></h2>
 <p>La requête WCPS pour accéder à la bande rouge de la couverture est la suivante :</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span><span class="n">NIR</span><span class="p">)</span> <span class="k">return</span> <span class="n">encode</span><span class="p">(</span><span class="n">c</span><span class="o">.</span><span class="n">red</span><span class="p">,</span> <span class="s2">&quot;png&quot;</span><span class="p">)</span>
 </pre></div>
@@ -136,7 +136,7 @@
 <a class="reference internal image-reference" href="../../_images/rasdaman_ndvi3.png"><img alt="../../_images/rasdaman_ndvi3.png" src="../../_images/rasdaman_ndvi3.png" style="width: 479.0px; height: 269.0px;" /></a>
 </div>
 <div class="section" id="arithmetic-operation-extracting-ndvi-of-the-coverage">
-<h2><a class="toc-backref" href="#id9">Opération arithmétique : Extraction de l’indice NDVI de la couverture</a><a class="headerlink" href="#arithmetic-operation-extracting-ndvi-of-the-coverage" title="Lien permanent vers ce titre">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-7">Opération arithmétique : Extraction de l’indice NDVI de la couverture</a><a class="headerlink" href="#arithmetic-operation-extracting-ndvi-of-the-coverage" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Le NDVI (Normalized Difference Vegetation Index) est une mesure de la probabilité de végétation dans la télédétection, c’est-à-dire que plus le pixel est proche de +1, plus il est probable qu’il s’agit de plantes. La requête WCPS pour extraire le NDVI de la couverture est la suivante:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span> <span class="n">NIR</span> <span class="p">)</span> <span class="k">return</span>
 <span class="n">encode</span><span class="p">(</span>
@@ -150,7 +150,7 @@
 <a class="reference internal image-reference" href="../../_images/rasdaman_ndvi4.png"><img alt="../../_images/rasdaman_ndvi4.png" src="../../_images/rasdaman_ndvi4.png" style="width: 479.0px; height: 269.0px;" /></a>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id10">Ensuite ?</a><a class="headerlink" href="#what-next" title="Lien permanent vers ce titre">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-8">Ensuite ?</a><a class="headerlink" href="#what-next" title="Lien permanent vers ce titre">¶</a></h2>
 <ul class="simple">
 <li>Le <a class="reference external" href="https://tutorial.rasdaman.org/">tutoriel de rasdaman</a> fournit une introduction condensée aux concepts derrière rasdaman, rasql et le support des services Web OGC.</li>
 <li>Pour en savoir plus sur le language <a class="reference external" href="https://www.ogc.org/standards/wcps">Web Coverage Processing Service</a>  normalisé  par l’OGC (qui a été fortement inspirée par rasdaman); un bon point de départ est la page de <a class="reference external" href="http://localhost/rasdaman-demo/demo/client/query-sandbox.html">documentation et de tutoriels &lt;https://standards.rasdaman.com/&gt;`_et le ` bac à sable de requête WCPS</a>.</li>

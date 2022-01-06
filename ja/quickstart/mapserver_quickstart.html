@@ -77,17 +77,17 @@
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#configure-mapserver-using-the-mapfile-configuration-file" id="id1">Mapfile設定ファイルを使用してMapServerを設定する</a></li>
-<li><a class="reference internal" href="#render-a-map-image-with-mapserver-using-a-wms-getmap-request" id="id2">WMSの <strong>GetMap</strong> 要求を使用してMapServerで地図イメージをレンダリングする</a></li>
-<li><a class="reference internal" href="#render-a-map-image-with-mapserver-using-the-command-line" id="id3">コマンドラインを使用してMapServerで地図イメージをレンダリングする</a></li>
-<li><a class="reference internal" href="#add-a-new-layer-to-the-mapfile-to-serve-a-local-shapefile" id="id4">新しいレイヤをMapfileに追加して、ローカルシェープファイルを提供する</a></li>
-<li><a class="reference internal" href="#style-a-layer-using-mapfile-configurations" id="id5">マップファイル設定を使用してレイヤのスタイルを設定する</a></li>
-<li><a class="reference internal" href="#publish-your-data-as-ogc-wms-web-map-service" id="id6">データをOGC WMS(Web Map Service)としてパブリッシュする</a></li>
-<li><a class="reference internal" href="#what-next" id="id7">次のステップ</a></li>
+<li><a class="reference internal" href="#configure-mapserver-using-the-mapfile-configuration-file" id="toc-entry-1">Mapfile設定ファイルを使用してMapServerを設定する</a></li>
+<li><a class="reference internal" href="#render-a-map-image-with-mapserver-using-a-wms-getmap-request" id="toc-entry-2">WMSの <strong>GetMap</strong> 要求を使用してMapServerで地図イメージをレンダリングする</a></li>
+<li><a class="reference internal" href="#render-a-map-image-with-mapserver-using-the-command-line" id="toc-entry-3">コマンドラインを使用してMapServerで地図イメージをレンダリングする</a></li>
+<li><a class="reference internal" href="#add-a-new-layer-to-the-mapfile-to-serve-a-local-shapefile" id="toc-entry-4">新しいレイヤをMapfileに追加して、ローカルシェープファイルを提供する</a></li>
+<li><a class="reference internal" href="#style-a-layer-using-mapfile-configurations" id="toc-entry-5">マップファイル設定を使用してレイヤのスタイルを設定する</a></li>
+<li><a class="reference internal" href="#publish-your-data-as-ogc-wms-web-map-service" id="toc-entry-6">データをOGC WMS(Web Map Service)としてパブリッシュする</a></li>
+<li><a class="reference internal" href="#what-next" id="toc-entry-7">次のステップ</a></li>
 </ul>
 </div>
 <div class="section" id="configure-mapserver-using-the-mapfile-configuration-file">
-<h2><a class="toc-backref" href="#id1">Mapfile設定ファイルを使用してMapServerを設定する</a><a class="headerlink" href="#configure-mapserver-using-the-mapfile-configuration-file" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-1">Mapfile設定ファイルを使用してMapServerを設定する</a><a class="headerlink" href="#configure-mapserver-using-the-mapfile-configuration-file" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">注釈</p>
 <p class="last"><strong>何を学べますか？</strong> ここでは、Mapfileの概要と、MapServerがWMS要求を使用してシェープファイルをイメージとして処理できるように設定する方法について説明します。</p>
@@ -171,7 +171,7 @@
 </div>
 </div>
 <div class="section" id="render-a-map-image-with-mapserver-using-a-wms-getmap-request">
-<h2><a class="toc-backref" href="#id2">WMSの <strong>GetMap</strong> 要求を使用してMapServerで地図イメージをレンダリングする</a><a class="headerlink" href="#render-a-map-image-with-mapserver-using-a-wms-getmap-request" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-2">WMSの <strong>GetMap</strong> 要求を使用してMapServerで地図イメージをレンダリングする</a><a class="headerlink" href="#render-a-map-image-with-mapserver-using-a-wms-getmap-request" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">注釈</p>
 <p class="last"><strong>何を学べますか?</strong> OGC WMS要求を使用して、MapServerを使用してMapfileからレイヤを含むイメージをレンダリングする方法を学習します。</p>
@@ -190,7 +190,7 @@
 </div>
 </div>
 <div class="section" id="render-a-map-image-with-mapserver-using-the-command-line">
-<h2><a class="toc-backref" href="#id3">コマンドラインを使用してMapServerで地図イメージをレンダリングする</a><a class="headerlink" href="#render-a-map-image-with-mapserver-using-the-command-line" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-3">コマンドラインを使用してMapServerで地図イメージをレンダリングする</a><a class="headerlink" href="#render-a-map-image-with-mapserver-using-the-command-line" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>MapServerはウェブアプリケーション向けだが、コマンドラインで画像を生成することもできます。これは、反復マッピングを探している場合やデバッグ中に便利です。</p>
 <p>ターミナルを開き(<span class="menuselection">Applications ‣ System Tools ‣ Terminal Emulator</span>)、次のように入力します。</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">shp2img</span> <span class="o">-</span><span class="n">m</span> <span class="n">mapserver_quickstart</span><span class="o">.</span><span class="n">map</span> <span class="o">-</span><span class="n">o</span> <span class="n">mymap</span><span class="o">.</span><span class="n">png</span>
@@ -199,7 +199,7 @@
 <p>このコマンドが正常に実行されると、<a class="reference external" href="file:///home/user/mymap.png">file:///home/user/mymap.png</a> でレンダリングされたマップを表示できます。</p>
 </div>
 <div class="section" id="add-a-new-layer-to-the-mapfile-to-serve-a-local-shapefile">
-<h2><a class="toc-backref" href="#id4">新しいレイヤをMapfileに追加して、ローカルシェープファイルを提供する</a><a class="headerlink" href="#add-a-new-layer-to-the-mapfile-to-serve-a-local-shapefile" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-4">新しいレイヤをMapfileに追加して、ローカルシェープファイルを提供する</a><a class="headerlink" href="#add-a-new-layer-to-the-mapfile-to-serve-a-local-shapefile" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">注釈</p>
 <p class="last"><strong>何を学べますか?</strong> 新しいレイヤオブジェクト定義をMapfileに追加する方法を学習します。</p>
@@ -229,7 +229,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="style-a-layer-using-mapfile-configurations">
-<h2><a class="toc-backref" href="#id5">マップファイル設定を使用してレイヤのスタイルを設定する</a><a class="headerlink" href="#style-a-layer-using-mapfile-configurations" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-5">マップファイル設定を使用してレイヤのスタイルを設定する</a><a class="headerlink" href="#style-a-layer-using-mapfile-configurations" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">注釈</p>
 <p class="last"><strong>何を学ベますか?</strong> レイヤ内の要素のスタイル設定の例が、データプロパティの一部に応じて表示されます。</p>
@@ -268,7 +268,7 @@
 </div>
 </div>
 <div class="section" id="publish-your-data-as-ogc-wms-web-map-service">
-<h2><a class="toc-backref" href="#id6">データをOGC WMS(Web Map Service)としてパブリッシュする</a><a class="headerlink" href="#publish-your-data-as-ogc-wms-web-map-service" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-6">データをOGC WMS(Web Map Service)としてパブリッシュする</a><a class="headerlink" href="#publish-your-data-as-ogc-wms-web-map-service" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>MapServerは、OGC WMS、WFS、WCSなど、さまざまなOGC標準をサポートしています。OGC WMSを使用すると、データをマップサービスとしてパブリッシュし、QGISのようなデスクトップGISや、OpenLayersやMapbenderのようなWebクライアントでサービスを統合できます。</p>
 <div class="section" id="using-qgis-desktop-to-load-your-ogc-wms">
 <h3>QGISデスクトップを使用したOGC WMSのロード<a class="headerlink" href="#using-qgis-desktop-to-load-your-ogc-wms" title="このヘッドラインへのパーマリンク">¶</a></h3>
@@ -286,7 +286,7 @@
 </div>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id7">次のステップ</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-7">次のステップ</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>これは簡単な例ですが、できることはたくさんあります。MapServerプロジェクトのWebサイトには、作業を開始に役立つ多くのリソースが用意されています。次に、いくつかのをいくつか紹介しよう。</p>
 <ul class="simple">
 <li><a class="reference external" href="https://mapserver.org/introduction.html#introduction">MapServerの概要</a> を読む</li>

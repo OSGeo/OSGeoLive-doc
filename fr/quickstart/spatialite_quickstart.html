@@ -78,16 +78,16 @@
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#start-spatialite-and-load-a-database" id="id1">Démarrer spatialite et charger une base de données</a></li>
-<li><a class="reference internal" href="#run-an-sql-query" id="id2">Exécuter une requête SQL</a></li>
-<li><a class="reference internal" href="#run-spatialite-from-the-command-line" id="id3">Exécuter la spatialite à partir de la ligne de commande</a></li>
-<li><a class="reference internal" href="#create-a-new-spatialite-database-and-load-a-shapefile" id="id4">Créer une nouvelle base de données spatialite et charger un shapefile</a></li>
-<li><a class="reference internal" href="#things-to-try" id="id5">Choses à essayer</a></li>
-<li><a class="reference internal" href="#what-next" id="id6">Ensuite ?</a></li>
+<li><a class="reference internal" href="#start-spatialite-and-load-a-database" id="toc-entry-1">Démarrer spatialite et charger une base de données</a></li>
+<li><a class="reference internal" href="#run-an-sql-query" id="toc-entry-2">Exécuter une requête SQL</a></li>
+<li><a class="reference internal" href="#run-spatialite-from-the-command-line" id="toc-entry-3">Exécuter la spatialite à partir de la ligne de commande</a></li>
+<li><a class="reference internal" href="#create-a-new-spatialite-database-and-load-a-shapefile" id="toc-entry-4">Créer une nouvelle base de données spatialite et charger un shapefile</a></li>
+<li><a class="reference internal" href="#things-to-try" id="toc-entry-5">Choses à essayer</a></li>
+<li><a class="reference internal" href="#what-next" id="toc-entry-6">Ensuite ?</a></li>
 </ul>
 </div>
 <div class="section" id="start-spatialite-and-load-a-database">
-<h2><a class="toc-backref" href="#id1">Démarrer spatialite et charger une base de données</a><a class="headerlink" href="#start-spatialite-and-load-a-database" title="Lien permanent vers ce titre">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-1">Démarrer spatialite et charger une base de données</a><a class="headerlink" href="#start-spatialite-and-load-a-database" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Spatialite-gui fournit une interface visuelle pour la visualisation et la maintenance d’une base de données spatialite. Vous pouvez facilement voir la structure des tables et du contenu des données à l’aide de fonctions point et clic, dont beaucoup construisent des requêtes SQL communes, ou créez vos propres requêtes SQL.</p>
 <ol class="arabic">
 <li><p class="first">Ouvrez l’interface graphique spatialite en sélectionnant <span class="menuselection">Geospatial-&gt;Databases-&gt;Spatialite GUI</span>.</p>
@@ -117,7 +117,7 @@
 </ol>
 </div>
 <div class="section" id="run-an-sql-query">
-<h2><a class="toc-backref" href="#id2">Exécuter une requête SQL</a><a class="headerlink" href="#run-an-sql-query" title="Lien permanent vers ce titre">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-2">Exécuter une requête SQL</a><a class="headerlink" href="#run-an-sql-query" title="Lien permanent vers ce titre">¶</a></h2>
 <ol class="arabic">
 <li><p class="first">Maintenant, essayons de peaufiner cette instruction SQL pour obtenir NOME et (Lat,Long) pour seulement les entités dont le champ NOME_PROV contient «&nbsp;BRESCIA&nbsp;», cette fois en utilisant la table MunicipalHallsView.  Dans le type de volet SQL supérieur droit</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">SELECT</span> <span class="n">NOME</span><span class="p">,</span> <span class="n">X</span><span class="p">(</span><span class="n">Geometry</span><span class="p">)</span> <span class="n">AS</span> <span class="n">Longitude</span><span class="p">,</span> <span class="n">Y</span><span class="p">(</span><span class="n">Geometry</span><span class="p">)</span> <span class="n">AS</span> <span class="n">Latitude</span>
@@ -132,7 +132,7 @@
 </ol>
 </div>
 <div class="section" id="run-spatialite-from-the-command-line">
-<h2><a class="toc-backref" href="#id3">Exécuter la spatialite à partir de la ligne de commande</a><a class="headerlink" href="#run-spatialite-from-the-command-line" title="Lien permanent vers ce titre">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-3">Exécuter la spatialite à partir de la ligne de commande</a><a class="headerlink" href="#run-spatialite-from-the-command-line" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Les utilisateurs qui ont besoin de scripter ou d’automatiser des requêtes apprendront les avantages de travailler avec une base de données spatialite à partir de l’interface de la ligne de commande. Dans cet exemple, nous allons charger un shapefile, et la recherche d’écoles qui sont près de l’autoroute 42.</p>
 <ol class="arabic">
 <li><p class="first">Avant de travailler à partir de la ligne de commande, nous devons ouvrir une fenêtre terminale : <span class="menuselection">System Tools -&gt; LXTerminal</span>.</p>
@@ -151,7 +151,7 @@
 </ol>
 </div>
 <div class="section" id="create-a-new-spatialite-database-and-load-a-shapefile">
-<h2><a class="toc-backref" href="#id4">Créer une nouvelle base de données spatialite et charger un shapefile</a><a class="headerlink" href="#create-a-new-spatialite-database-and-load-a-shapefile" title="Lien permanent vers ce titre">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-4">Créer une nouvelle base de données spatialite et charger un shapefile</a><a class="headerlink" href="#create-a-new-spatialite-database-and-load-a-shapefile" title="Lien permanent vers ce titre">¶</a></h2>
 <ol class="arabic">
 <li><p class="first">Créons une nouvelle base de données spatialite vide et chargeons deux shapefiles à partir du jeu de données north_carolina :</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>user@osgeo-6:~$ spatialite test.sqlite
@@ -216,7 +216,7 @@ spatialite&gt; .loadshp data/north_carolina/shape/roadsmajor roads utf-8 3358
 </ol>
 </div>
 <div class="section" id="things-to-try">
-<h2><a class="toc-backref" href="#id5">Choses à essayer</a><a class="headerlink" href="#things-to-try" title="Lien permanent vers ce titre">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-5">Choses à essayer</a><a class="headerlink" href="#things-to-try" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Voici quelques défis supplémentaires que vous pouvez relever :</p>
 <ul class="simple">
 <li>Inspecter les géométries avec spatialite-gui</li>
@@ -224,7 +224,7 @@ spatialite&gt; .loadshp data/north_carolina/shape/roadsmajor roads utf-8 3358
 </ul>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id6">Ensuite ?</a><a class="headerlink" href="#what-next" title="Lien permanent vers ce titre">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-6">Ensuite ?</a><a class="headerlink" href="#what-next" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Pour en savoir plus sur SpatiaLite, un point de départ est la <a class="reference external" href="https://www.gaia-gis.it/fossil/libspatialite/index">page du projet SpatiaLite</a>.</p>
 <p>N’oubliez pas de visiter le tutoriel <a class="reference external" href="http://www.gaia-gis.it/gaia-sins/spatialite-cookbook/index.html">Spatialite cookbook</a></p>
 </div>

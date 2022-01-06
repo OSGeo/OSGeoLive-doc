@@ -85,15 +85,15 @@
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#start-r" id="id1">R の起動</a></li>
-<li><a class="reference internal" href="#building-data" id="id2">データの構築</a></li>
-<li><a class="reference internal" href="#loading-map-data" id="id3">マップ データの読み込み</a></li>
-<li><a class="reference internal" href="#vignettes" id="id4">ビネット(短かい解説)</a></li>
-<li><a class="reference internal" href="#what-next" id="id5">次のステップ</a></li>
+<li><a class="reference internal" href="#start-r" id="toc-entry-1">R の起動</a></li>
+<li><a class="reference internal" href="#building-data" id="toc-entry-2">データの構築</a></li>
+<li><a class="reference internal" href="#loading-map-data" id="toc-entry-3">マップ データの読み込み</a></li>
+<li><a class="reference internal" href="#vignettes" id="toc-entry-4">ビネット(短かい解説)</a></li>
+<li><a class="reference internal" href="#what-next" id="toc-entry-5">次のステップ</a></li>
 </ul>
 </div>
 <div class="section" id="start-r">
-<h2><a class="toc-backref" href="#id1">R の起動</a><a class="headerlink" href="#start-r" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-1">R の起動</a><a class="headerlink" href="#start-r" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>R は基本的にコマンドラインプログラムですが、GUI も利用できます。プロンプトで1行のコードを入力し、return キーを押すと、R インタプリタがそれを評価して結果を出力します。</p>
 <div class="admonition tip">
 <p class="first admonition-title">ちなみに</p>
@@ -124,7 +124,7 @@
 </div>
 </div>
 <div class="section" id="building-data">
-<h2><a class="toc-backref" href="#id2">データの構築</a><a class="headerlink" href="#building-data" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-2">データの構築</a><a class="headerlink" href="#building-data" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>出力の中で、角括弧に囲まれた謎の’one’が何をしているのか、不思議に思っているかもしれません。これは、結果が1つの数値であることを示しています。Rは、1次元のベクタ、2次元の行列、多次元の配列ます。これらを生成する関数はたくさんあります。以下に簡単なシーケンスを示します。</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">&gt;</span> <span class="n">seq</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="nb">len</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 <span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="mf">1.000000</span> <span class="mf">1.444444</span> <span class="mf">1.888889</span> <span class="mf">2.333333</span> <span class="mf">2.777778</span> <span class="mf">3.222222</span> <span class="mf">3.666667</span> <span class="mf">4.111111</span>
@@ -196,7 +196,7 @@
 </div>
 </div>
 <div class="section" id="loading-map-data">
-<h2><a class="toc-backref" href="#id3">マップ データの読み込み</a><a class="headerlink" href="#loading-map-data" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-3">マップ データの読み込み</a><a class="headerlink" href="#loading-map-data" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>空間データ操作と統計のための多くのパッケージがあります。ここに含まれているものもあれば、CRANからダウンロードできるものもあります。</p>
 <p>ここでは、2つのシェープファイル、つまりNatural Earthデータから国の境界と居住地を読み込みます。空間機能を利用するために、2つのアドオンパッケージを使用します。</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">&gt;</span> <span class="n">library</span><span class="p">(</span><span class="n">sf</span><span class="p">)</span>           <span class="c1"># Simple Features manipulation Library</span>
@@ -250,11 +250,11 @@
 </div>
 </div>
 <div class="section" id="vignettes">
-<h2><a class="toc-backref" href="#id4">ビネット(短かい解説)</a><a class="headerlink" href="#vignettes" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-4">ビネット(短かい解説)</a><a class="headerlink" href="#vignettes" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>以前は、Rパッケージのドキュメントは、関数ごとに簡潔に書かれたヘルプページになる傾向がありました。パッケージ作成者は、パッケージをわかりやすく紹介するために 『ビネット』 を書くことが推奨されています。<code class="docutils literal"><span class="pre">vignette()</span></code> 関数を引数なしで実行すると、システム内のビネット の一覧を得ることができます。R空間パッケージのより技術的な紹介を見るには、 <code class="docutils literal"><span class="pre">vignette(&quot;sf1&quot;)</span></code> を試してみてください。</p>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id5">次のステップ</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-5">次のステップ</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>いまは、Rに関する一般的な情報については、公式の <a class="reference external" href="https://cran.r-project.org/doc/manuals/R-intro.html">Introduction to R</a> またはメインの <a class="reference external" href="https://www.r-project.org/">R Project</a> ページにあたるとよいでしょう。</p>
 <p>Rの空間的側面の詳細については、おそらく <a class="reference external" href="https://cran.r-project.org/web/views/Spatial.html">R Spatial Task View</a> から始めるのが最適です。</p>
 <p><a class="reference external" href="https://www.rspatial.org">R-Spatial</a>  ページもチェックしてみてください。</p>

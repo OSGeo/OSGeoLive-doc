@@ -71,29 +71,29 @@
             
   <a class="reference external image-reference" href="https://rasdaman.org"><img alt="../../_images/logo_rasdaman.png" class="align-right" src="../../_images/logo_rasdaman.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_incubation.png" class="align-right" src="../../_images/OSGeo_incubation.png" /></a>
-<div class="section" id="rasdaman-quickstart">
-<span id="id1"></span><h1>Rasdaman クイックスタート<a class="headerlink" href="#rasdaman-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<div class="section" id="rasdaman-quickstart-1">
+<span id="rasdaman-quickstart"></span><h1>Rasdaman クイックスタート<a class="headerlink" href="#rasdaman-quickstart-1" title="このヘッドラインへのパーマリンク">¶</a></h1>
 <p>Rasdamanは、多次元の時空間センサー、画像、シミュレーション、統計データに関する柔軟なアドホック分析のためのビッグデータエンジンです。Web Coverage Processing Service(WCPS)クエリ言語は、オープン地理空間コンソーシアム(OGC)標準で、Webサービスを使用して、センサー、シミュレーション、画像、統計データなどの多次元ラスタカバレッジのフィルタリングと処理を可能にします。WCPSクエリは、rasdamanクエリ言語であるrasqlに変換され、rasdaman上で実行されます。このクイックスタートでは、WCPS言語を使用してサンプルの2Dカバレッジにアクセスし、操作する方法を説明します。</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#setup" id="id3">セットアップ</a></li>
-<li><a class="reference internal" href="#running-wcps-queries" id="id4">WCPSクエリを実行</a></li>
-<li><a class="reference internal" href="#running-coverage" id="id5">実行中のカバレッジ</a></li>
-<li><a class="reference internal" href="#access-full-coverage" id="id6">フル・カバレッジへのアクセス</a></li>
-<li><a class="reference internal" href="#select-a-subset-of-the-coverage" id="id7">カバレッジのサブセットを選択します。</a></li>
-<li><a class="reference internal" href="#band-extraction-from-the-coverage" id="id8">カバレッジからのバンド抽出</a></li>
-<li><a class="reference internal" href="#arithmetic-operation-extracting-ndvi-of-the-coverage" id="id9">算術演算:カバレッジのNDVIの抽出</a></li>
-<li><a class="reference internal" href="#what-next" id="id10">次のステップ</a></li>
+<li><a class="reference internal" href="#setup" id="toc-entry-1">セットアップ</a></li>
+<li><a class="reference internal" href="#running-wcps-queries" id="toc-entry-2">WCPSクエリを実行</a></li>
+<li><a class="reference internal" href="#running-coverage" id="toc-entry-3">実行中のカバレッジ</a></li>
+<li><a class="reference internal" href="#access-full-coverage" id="toc-entry-4">フル・カバレッジへのアクセス</a></li>
+<li><a class="reference internal" href="#select-a-subset-of-the-coverage" id="toc-entry-5">カバレッジのサブセットを選択します。</a></li>
+<li><a class="reference internal" href="#band-extraction-from-the-coverage" id="toc-entry-6">カバレッジからのバンド抽出</a></li>
+<li><a class="reference internal" href="#arithmetic-operation-extracting-ndvi-of-the-coverage" id="toc-entry-7">算術演算:カバレッジのNDVIの抽出</a></li>
+<li><a class="reference internal" href="#what-next" id="toc-entry-8">次のステップ</a></li>
 </ul>
 </div>
 <div class="section" id="setup">
-<h2><a class="toc-backref" href="#id3">セットアップ</a><a class="headerlink" href="#setup" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-1">セットアップ</a><a class="headerlink" href="#setup" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>次のクエリを実行する前に、まずrasdamanとTomcatを起動します。デスクトップで <em>Databases</em> ディレクトリを開き、 <em>Rasdaman Server</em> を起動します。rasdamanが起動するまで、特にTomcatが完全に起動するまで(<a class="reference external" href="http://localhost:8080/rasdaman/ows">rasdaman ウェブクライアント</a> がブラウザにロードされるまで)、2分から3分間待ちます。</p>
 <p>その後、同じディレクトリから <em>Rasdaman-Earthlookデモ</em> を開くことができます。これにより、ブラウザでローカルのデモが起動します。より実践的なチュートリアルを行なうので、次の例に進んでください。</p>
 </div>
 <div class="section" id="running-wcps-queries">
-<h2><a class="toc-backref" href="#id4">WCPSクエリを実行</a><a class="headerlink" href="#running-wcps-queries" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-2">WCPSクエリを実行</a><a class="headerlink" href="#running-wcps-queries" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <dl class="docutils">
 <dt>次のいずれか：</dt>
 <dd><ul class="first last simple">
@@ -104,12 +104,12 @@
 </dl>
 </div>
 <div class="section" id="running-coverage">
-<h2><a class="toc-backref" href="#id5">実行中のカバレッジ</a><a class="headerlink" href="#running-coverage" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-3">実行中のカバレッジ</a><a class="headerlink" href="#running-coverage" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>後で使用されるカバレッジの例は、次の6MBイメージです：</p>
 <a class="reference internal image-reference" href="../../_images/rasdaman_ndvi1.png"><img alt="../../_images/rasdaman_ndvi1.png" src="../../_images/rasdaman_ndvi1.png" style="width: 479.0px; height: 269.0px;" /></a>
 </div>
 <div class="section" id="access-full-coverage">
-<h2><a class="toc-backref" href="#id6">フル・カバレッジへのアクセス</a><a class="headerlink" href="#access-full-coverage" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-4">フル・カバレッジへのアクセス</a><a class="headerlink" href="#access-full-coverage" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>すべてのカバレッジにアクセスするためのWCPSクエリは次のとおりです。</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span><span class="n">NIR</span><span class="p">)</span> <span class="k">return</span> <span class="n">encode</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="s2">&quot;png&quot;</span><span class="p">)</span>
 </pre></div>
@@ -117,7 +117,7 @@
 <p><a class="reference external" href="http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c,%20%22png%22%29">カバレッジリクエスト</a> をクリックしてブラウザで実行してください。</p>
 </div>
 <div class="section" id="select-a-subset-of-the-coverage">
-<h2><a class="toc-backref" href="#id7">カバレッジのサブセットを選択します。</a><a class="headerlink" href="#select-a-subset-of-the-coverage" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-5">カバレッジのサブセットを選択します。</a><a class="headerlink" href="#select-a-subset-of-the-coverage" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>カバレッジのサブセットにアクセスするためのWCPSクエリは次のとおりです：</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span><span class="n">NIR</span><span class="p">)</span> <span class="k">return</span> <span class="n">encode</span><span class="p">(</span><span class="n">c</span><span class="p">[</span><span class="n">i</span><span class="p">(</span><span class="mi">0</span><span class="p">:</span><span class="mi">500</span><span class="p">),</span><span class="n">j</span><span class="p">(</span><span class="mi">0</span><span class="p">:</span><span class="mi">500</span><span class="p">)],</span> <span class="s2">&quot;png&quot;</span><span class="p">)</span>
 </pre></div>
@@ -127,7 +127,7 @@
 <a class="reference internal image-reference" href="../../_images/rasdaman_ndvi2.png"><img alt="../../_images/rasdaman_ndvi2.png" src="../../_images/rasdaman_ndvi2.png" style="width: 479.0px; height: 125.25px;" /></a>
 </div>
 <div class="section" id="band-extraction-from-the-coverage">
-<h2><a class="toc-backref" href="#id8">カバレッジからのバンド抽出</a><a class="headerlink" href="#band-extraction-from-the-coverage" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-6">カバレッジからのバンド抽出</a><a class="headerlink" href="#band-extraction-from-the-coverage" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>カバレッジの赤色帯域にアクセスするためのWCPSクエリは次のとおりです:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span><span class="n">NIR</span><span class="p">)</span> <span class="k">return</span> <span class="n">encode</span><span class="p">(</span><span class="n">c</span><span class="o">.</span><span class="n">red</span><span class="p">,</span> <span class="s2">&quot;png&quot;</span><span class="p">)</span>
 </pre></div>
@@ -136,7 +136,7 @@
 <a class="reference internal image-reference" href="../../_images/rasdaman_ndvi3.png"><img alt="../../_images/rasdaman_ndvi3.png" src="../../_images/rasdaman_ndvi3.png" style="width: 479.0px; height: 269.0px;" /></a>
 </div>
 <div class="section" id="arithmetic-operation-extracting-ndvi-of-the-coverage">
-<h2><a class="toc-backref" href="#id9">算術演算:カバレッジのNDVIの抽出</a><a class="headerlink" href="#arithmetic-operation-extracting-ndvi-of-the-coverage" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-7">算術演算:カバレッジのNDVIの抽出</a><a class="headerlink" href="#arithmetic-operation-extracting-ndvi-of-the-coverage" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>NDVI(Normalized Difference Vegetation Index)はリモートセンシングにおける植生の確率の尺度です。カバレッジからNDVIを導出するためのWCPSクエリは次のとおりです。</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span> <span class="n">NIR</span> <span class="p">)</span> <span class="k">return</span>
 <span class="n">encode</span><span class="p">(</span>
@@ -150,7 +150,7 @@
 <a class="reference internal image-reference" href="../../_images/rasdaman_ndvi4.png"><img alt="../../_images/rasdaman_ndvi4.png" src="../../_images/rasdaman_ndvi4.png" style="width: 479.0px; height: 269.0px;" /></a>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id10">次のステップ</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-8">次のステップ</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ul class="simple">
 <li>rasdamanや rasql そして、OGC Webサービスサポートの背景にある概念を要約して <a class="reference external" href="https://tutorial.rasdaman.org/">rasdaman チュートリアル</a> で紹介しています。</li>
 <li>OGC  <a class="reference external" href="https://www.ogc.org/standards/wcps">Web Coverage Processing Service</a> 言語標準 (rasdamanに影響されて制定された)について、学んでください。 <a class="reference external" href="https://standards.rasdaman.com/">ドキュメントとチュートリアルのページ</a>  そして、 <a class="reference external" href="http://localhost/rasdaman-demo/demo/client/query-sandbox.html">WCPS Query SandBox</a> が良い出発点になるでしょう。</li>

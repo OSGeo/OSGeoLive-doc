@@ -77,17 +77,17 @@
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#configure-mapserver-using-the-mapfile-configuration-file" id="id1">Configure MapServer usando el archivo de configuración del archivo Map</a></li>
-<li><a class="reference internal" href="#render-a-map-image-with-mapserver-using-a-wms-getmap-request" id="id2">Renderizar una imagen del mapa con MapServer usando una Solicitud de <strong>GetMap</strong> de WMS</a></li>
-<li><a class="reference internal" href="#render-a-map-image-with-mapserver-using-the-command-line" id="id3">Renderice una imagen del mapa con MapServer usando la línea de comando</a></li>
-<li><a class="reference internal" href="#add-a-new-layer-to-the-mapfile-to-serve-a-local-shapefile" id="id4">Agregue una nueva capa al archivo Map para servir un archivo Shape local</a></li>
-<li><a class="reference internal" href="#style-a-layer-using-mapfile-configurations" id="id5">Estilo de una capa mediante configuraciones de archivo Map</a></li>
-<li><a class="reference internal" href="#publish-your-data-as-ogc-wms-web-map-service" id="id6">Publique los datos como OGC WMS (Servicio Web de Mapas)</a></li>
-<li><a class="reference internal" href="#what-next" id="id7">¿Qué sigue?</a></li>
+<li><a class="reference internal" href="#configure-mapserver-using-the-mapfile-configuration-file" id="toc-entry-1">Configure MapServer usando el archivo de configuración del archivo Map</a></li>
+<li><a class="reference internal" href="#render-a-map-image-with-mapserver-using-a-wms-getmap-request" id="toc-entry-2">Renderizar una imagen del mapa con MapServer usando una Solicitud de <strong>GetMap</strong> de WMS</a></li>
+<li><a class="reference internal" href="#render-a-map-image-with-mapserver-using-the-command-line" id="toc-entry-3">Renderice una imagen del mapa con MapServer usando la línea de comando</a></li>
+<li><a class="reference internal" href="#add-a-new-layer-to-the-mapfile-to-serve-a-local-shapefile" id="toc-entry-4">Agregue una nueva capa al archivo Map para servir un archivo Shape local</a></li>
+<li><a class="reference internal" href="#style-a-layer-using-mapfile-configurations" id="toc-entry-5">Estilo de una capa mediante configuraciones de archivo Map</a></li>
+<li><a class="reference internal" href="#publish-your-data-as-ogc-wms-web-map-service" id="toc-entry-6">Publique los datos como OGC WMS (Servicio Web de Mapas)</a></li>
+<li><a class="reference internal" href="#what-next" id="toc-entry-7">¿Qué sigue?</a></li>
 </ul>
 </div>
 <div class="section" id="configure-mapserver-using-the-mapfile-configuration-file">
-<h2><a class="toc-backref" href="#id1">Configure MapServer usando el archivo de configuración del archivo Map</a><a class="headerlink" href="#configure-mapserver-using-the-mapfile-configuration-file" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-1">Configure MapServer usando el archivo de configuración del archivo Map</a><a class="headerlink" href="#configure-mapserver-using-the-mapfile-configuration-file" title="Enlazar permanentemente con este título">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">Nota</p>
 <p class="last"><strong>¿Qué aprenderé?</strong> En esta sección, aprenderá sin igual lo que es un archivo Map y cómo configurarlo para permitir que MapServer sirva un archivo Shape como imágenes mediante solicitudes WMS.</p>
@@ -171,7 +171,7 @@
 </div>
 </div>
 <div class="section" id="render-a-map-image-with-mapserver-using-a-wms-getmap-request">
-<h2><a class="toc-backref" href="#id2">Renderizar una imagen del mapa con MapServer usando una Solicitud de <strong>GetMap</strong> de WMS</a><a class="headerlink" href="#render-a-map-image-with-mapserver-using-a-wms-getmap-request" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-2">Renderizar una imagen del mapa con MapServer usando una Solicitud de <strong>GetMap</strong> de WMS</a><a class="headerlink" href="#render-a-map-image-with-mapserver-using-a-wms-getmap-request" title="Enlazar permanentemente con este título">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">Nota</p>
 <p class="last"><strong>¿Qué aprenderé?</strong> Aprenderá a renderizar una imagen con capas de un archivo Map con MapServer utilizando una solicitud de OGC WMS.</p>
@@ -190,7 +190,7 @@
 </div>
 </div>
 <div class="section" id="render-a-map-image-with-mapserver-using-the-command-line">
-<h2><a class="toc-backref" href="#id3">Renderice una imagen del mapa con MapServer usando la línea de comando</a><a class="headerlink" href="#render-a-map-image-with-mapserver-using-the-command-line" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-3">Renderice una imagen del mapa con MapServer usando la línea de comando</a><a class="headerlink" href="#render-a-map-image-with-mapserver-using-the-command-line" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Aunque MapServer está orientado a aplicaciones web, también puede producir imágenes en la línea de comandos. Esto puede ser útil si está buscando mapeo repetitivo o durante la depuración.</p>
 <p>Abra una terminal(<span class="menuselection">Applications ‣ System Tools ‣ Terminal Emulator</span>) y tecleé:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">shp2img</span> <span class="o">-</span><span class="n">m</span> <span class="n">mapserver_quickstart</span><span class="o">.</span><span class="n">map</span> <span class="o">-</span><span class="n">o</span> <span class="n">mymap</span><span class="o">.</span><span class="n">png</span>
@@ -199,7 +199,7 @@
 <p>Si este comando se ejecuta con éxito, puede ver su mapa renderizado en  <a class="reference external" href="file:///home/user/mymap.png">file:///home/user/mymap.png</a>.</p>
 </div>
 <div class="section" id="add-a-new-layer-to-the-mapfile-to-serve-a-local-shapefile">
-<h2><a class="toc-backref" href="#id4">Agregue una nueva capa al archivo Map para servir un archivo Shape local</a><a class="headerlink" href="#add-a-new-layer-to-the-mapfile-to-serve-a-local-shapefile" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-4">Agregue una nueva capa al archivo Map para servir un archivo Shape local</a><a class="headerlink" href="#add-a-new-layer-to-the-mapfile-to-serve-a-local-shapefile" title="Enlazar permanentemente con este título">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">Nota</p>
 <p class="last"><strong>¿Qué aprenderé?</strong> Aprenderás a agregar una nueva definición de objeto de capa a tu archivo Map.</p>
@@ -229,7 +229,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="style-a-layer-using-mapfile-configurations">
-<h2><a class="toc-backref" href="#id5">Estilo de una capa mediante configuraciones de archivo Map</a><a class="headerlink" href="#style-a-layer-using-mapfile-configurations" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-5">Estilo de una capa mediante configuraciones de archivo Map</a><a class="headerlink" href="#style-a-layer-using-mapfile-configurations" title="Enlazar permanentemente con este título">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">Nota</p>
 <p class="last"><strong>¿Qué aprenderé?</strong> Verá un ejemplo de elementos de estilo dentro de una capa según algunas de sus propiedades de datos.</p>
@@ -268,7 +268,7 @@
 </div>
 </div>
 <div class="section" id="publish-your-data-as-ogc-wms-web-map-service">
-<h2><a class="toc-backref" href="#id6">Publique los datos como OGC WMS (Servicio Web de Mapas)</a><a class="headerlink" href="#publish-your-data-as-ogc-wms-web-map-service" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-6">Publique los datos como OGC WMS (Servicio Web de Mapas)</a><a class="headerlink" href="#publish-your-data-as-ogc-wms-web-map-service" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>MapServer admite diferentes estándares OGC como OGC WMS, WFS o WCS. Con OGC WMS puede publicar sus datos como un servicio de mapas e integrar el servicio en un SIG de escritorio como QGIS o en un cliente web como OpenLayers o Mapbender.</p>
 <div class="section" id="using-qgis-desktop-to-load-your-ogc-wms">
 <h3>Uso de QGIS Desktop para cargar su OGC WMS<a class="headerlink" href="#using-qgis-desktop-to-load-your-ogc-wms" title="Enlazar permanentemente con este título">¶</a></h3>
@@ -286,7 +286,7 @@
 </div>
 </div>
 <div class="section" id="what-next">
-<h2><a class="toc-backref" href="#id7">¿Qué sigue?</a><a class="headerlink" href="#what-next" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><a class="toc-backref" href="#toc-entry-7">¿Qué sigue?</a><a class="headerlink" href="#what-next" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Este es un ejemplo simple, pero usted puede hacer mucho, mucho más. La página web del proyecto MapServer contiene muchos recursos para ayudarle a comenzar. Aquí hay algunos recursos para comprobar hacia fuera el siguiente:</p>
 <ul class="simple">
 <li>Leer la <a class="reference external" href="https://mapserver.org/introduction.html#introduction">Introduction to MapServer</a>.</li>
