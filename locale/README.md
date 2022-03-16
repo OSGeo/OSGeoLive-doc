@@ -82,10 +82,30 @@ cd ..
 
 ## when there is a new resource
 
+When a new rst file is been processed
+
+### Manual change
+
+Edit file `.tx/config`, following the structure of other resources
+
+### Automatic change
+
+From the root of the repository in a terminal that has the python environment:
+
 ```
+pushd build || exit 1
+rm -rf ./*
+cmake -DLOCALE=ON ..
+make locale
+popd
 sphinx-intl update-txconfig-resources --locale-dir locale --pot-dir locale/pot --transifex-project-name osgeolive
+perl -pi -e 's/\[osgeolive\./\[o:osgeo:p:osgeolive:r:/' .tx/config
+```
+
+```
 git add .tx/config
 ```
+
 `git add` the pot & po files of the new resource
 
 ```
