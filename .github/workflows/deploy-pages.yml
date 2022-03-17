@@ -69,7 +69,7 @@ jobs:
           popd > /dev/null || exit 1
 
           # List all the files that need to be committed in build/docs/locale_changes.txt                              
-          awk '/^Update|^Create/{print $2}' build/docs/locale_changes.txt > tmp && mv tmp build/docs/locale_changes.txt        # .po files
+          awk '/^Update|^Create/{print $2}' build/doc/locale_changes.txt > tmp && mv tmp build/docs/locale_changes.txt        # .po files
           cat build/docs/locale_changes.txt | perl -pe 's/(.*)en\/LC_MESSAGES(.*)/$1pot$2t/' >> build/docs/locale_changes.txt  # .pot files
           cat build/docs/locale_changes.txt                                                                             
                                                                                                                         

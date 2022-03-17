@@ -245,6 +245,11 @@ latex_documents = [
 # Linkcheck configuration, see http://sphinx.pocoo.org/latest/config.html#options-for-the-linkcheck-builder
 
 linkcheck_ignore = [
+        # link changed name to https://geops.ch
+        # mostly used on the contibutors list. 
+        # TODO need to verify the change is correct
+        'https://geops.de',
+
         # link exists but does not accept robots and linkchecker is a robot
         # used in overview/mapserver_overview
         'http://www.dnr.state.mn.us/maps/compass.html',
