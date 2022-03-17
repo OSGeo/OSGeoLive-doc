@@ -56,7 +56,7 @@ jobs:
       - name: Update locale                                                                                             
         if: github.ref == 'refs/heads/testtransifex'
         run: |                                                                                                          
-          bash ci/udate_locale.sh
+          bash ci/update_locale.sh
           # commit the changes
           git diff --staged --quiet || git commit -m "Automatic update of locale files from commit ${{ env.GIT_HASH }}"
           git fetch origin testtransifex
