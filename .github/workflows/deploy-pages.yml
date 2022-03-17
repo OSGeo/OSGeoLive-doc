@@ -37,9 +37,9 @@ jobs:
       # This section updates the gh-pages
       - name: Build pages
         run: |
-          mkdir -p build
+          mkdir build
           pushd build > /dev/null || exit 1
-          cmake -DHTML=ON -DFI=ON -DIT=ON -DJA=ON -DES=ON -DFR=ON -DDE=ON -DHU=ON -DOSGeoLiveDoc_DEBUG=ON -DLOCALE=ON ..
+          cmake -DHTML=ON -DFI=ON -DIT=ON -DJA=ON -DES=ON -DFR=ON -DDE=ON -DHU=ON -DOSGeoLiveDoc_DEBUG=ON ..
           make
           popd
           bash scripts/clean-images.sh
@@ -63,6 +63,11 @@ jobs:
       - name: Update locale                                                                                             
         if: github.ref == 'refs/heads/testtransifex'
         run: |                                                                                                          
+          pushd build > /dev/null || exit 1
+          cmake -DLOCALE=ON ..
+          make locale
+          popd > /dev/null || exit 1
+
           # List all the files that need to be committed in build/docs/locale_changes.txt                              
           awk '/^Update|^Create/{print $2}' build/docs/locale_changes.txt > tmp && mv tmp build/docs/locale_changes.txt        # .po files
           cat build/docs/locale_changes.txt | perl -pe 's/(.*)en\/LC_MESSAGES(.*)/$1pot$2t/' >> build/docs/locale_changes.txt  # .pot files
