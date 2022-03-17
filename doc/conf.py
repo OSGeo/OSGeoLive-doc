@@ -261,6 +261,10 @@ linkcheck_ignore = [
         # TODO remove this line when the CERT is fixed
         r'https://www.rspatial.org',
 
+        # bad gateway
+        # TODO remove line when page is reachable
+        'https://demo.pycsw.org/',
+
         # Leaflet moved the documentation temporarly due to the Ucrania situation
         # TODO hope for the war to be over and remove this line
         r'https://leafletjs.com',
