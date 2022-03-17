@@ -234,6 +234,3 @@ msgstr ""
 msgid ":doc:`usb_quickstart`"
 msgstr ""
 
-#~ msgid "OSGeoLive Quickstart for Running in a Hyper-V Virtual Machine"
-#~ msgstr ""
-

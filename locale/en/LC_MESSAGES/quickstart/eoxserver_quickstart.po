@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 11:35-0600\n"
+"POT-Creation-Date: 2022-03-17 17:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:19
 msgid "EOxServer Quickstart"
@@ -122,8 +122,8 @@ msgstr ""
 msgid ""
 "This was a quick introduction to the EOxServer Web Client. Please refer "
 "to the `online documentation "
-"<https://docs.eoxserver.org/en/stable/users/webclient.html>`_ for more "
-"information on this topic."
+"<https://docs.eoxserver.org/en/stable/users/services/webclient.html>`_ "
+"for more information on this topic."
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:114
@@ -140,8 +140,8 @@ msgstr ""
 msgid ""
 "The `Admin Client` is Djangos standard admin and allows you to configure "
 "the available data. Please feel free to explore the client. More "
-"information can be found in the `operators' guide "
-"<https://docs.eoxserver.org/en/stable/users/operators.html>`_."
+"information can be found in the `operations' guide "
+"<https://docs.eoxserver.org/en/stable/users/operations/index.html>`_."
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:132
@@ -176,8 +176,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:153
 msgid ""
-"Read the `EOxServer Operators' Guide "
-"<https://docs.eoxserver.org/en/stable/users/operators.html>`_."
+"Read the `EOxServer Operations' Guide "
+"<https://docs.eoxserver.org/en/stable/users/operations/index.html>`_."
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:154
@@ -189,8 +189,8 @@ msgstr ""
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:155
 msgid ""
 "Ready to use EOxServer? Then join the community on the `mailing lists "
-"<https://docs.eoxserver.org/en/stable/users/mailing_lists.html>`_ to "
-"exchange ideas, discuss potential software improvements, and ask "
-"questions."
+"<https://docs.eoxserver.org/en/stable/users/basics.html#where-can-i-get-"
+"support>`_ to exchange ideas, discuss potential software improvements, "
+"and ask questions."
 msgstr ""
 

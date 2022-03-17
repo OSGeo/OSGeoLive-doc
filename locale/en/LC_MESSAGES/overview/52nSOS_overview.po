@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2022-03-17 17:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:18
 msgid "52 North SOS"
@@ -94,7 +94,7 @@ msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rst:66
 msgid ""
-"**INSPIRE Sepcialized Observations**: Support for the INSPIRE Specialized"
+"**INSPIRE Specialized Observations**: Support for the INSPIRE Specialized"
 " Observations defined in Guidelines for the use of `Observations & "
 "Measurements and Sensor Web Enablement-related standards in INSPIRE "
 "(D2.9) <https://inspire.ec.europa.eu/id/document/tg/d2.9-o%26m-swe>`_ "
@@ -315,11 +315,11 @@ msgstr ""
 msgid "**Other 52°North projects on OSGeoLive:** :doc:`WPS <./52nWPS_overview>`"
 msgstr ""
 
-#: ../../build/doc/overview/52nSOS_overview.rst:161
+#: ../../build/doc/overview/52nSOS_overview.rst:162
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/52nSOS_overview.rst:163
+#: ../../build/doc/overview/52nSOS_overview.rst:164
 msgid ":doc:`Quickstart documentation <../quickstart/52nSOS_quickstart>`"
 msgstr ""
 

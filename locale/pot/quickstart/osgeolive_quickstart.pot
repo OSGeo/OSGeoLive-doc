@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-01 08:19-0600\n"
+"POT-Creation-Date: 2022-03-17 17:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,11 +33,11 @@ msgid "Your computer should have at least:"
 msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:18
-msgid "RAM: 1 GB."
+msgid "RAM: minimum 2 GB (4 GB recommended)."
 msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:19
-msgid "CPU: 1 GHz i686 or compatible (Intel/AMD)"
+msgid "CPU: 1 GHz 64 bit."
 msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:20
@@ -81,11 +81,11 @@ msgid "See Also:"
 msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
-msgid "Getting started with Lubuntu and the LXDE desktop (which is used by OSGeoLive):"
+msgid "Getting started with Lubuntu and the LXQt desktop (which is used by OSGeoLive):"
 msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
-msgid "https://help.ubuntu.com/community/Lubuntu/Documentation and https://www.lxde.org/"
+msgid "https://lubuntu.me/ and https://lxqt-project.org/"
 msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:56

@@ -86,6 +86,3 @@ msgid ""
 "select the active keyboard layout."
 msgstr ""
 
-#~ msgid "OSGeoLive Internationalisation Quickstart"
-#~ msgstr ""
-

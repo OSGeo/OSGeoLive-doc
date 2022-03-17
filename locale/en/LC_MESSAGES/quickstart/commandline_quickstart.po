@@ -489,6 +489,3 @@ msgstr ""
 msgid "https://en.wikipedia.org/wiki/Category:Standard_Unix_programs"
 msgstr ""
 
-#~ msgid "Command Line Quickstart"
-#~ msgstr ""
-
