@@ -60,7 +60,6 @@ jobs:
           # commit the changes
           git diff --staged --quiet || git commit -m "Automatic update of locale files from commit ${{ env.GIT_HASH }}"
           git fetch origin testtransifex
-          git restore .  # Remove the unstaged changes before rebasing
           git rebase origin/testtransifex
           git push origin testtransifex
 
