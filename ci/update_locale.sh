@@ -31,7 +31,4 @@ scripts/remove_obsolete_entries.sh
 # Add the files, commit and push
 for line in `cat build/doc/locale_changes.txt`; do git add "$line"; done
 
-# Remove the unstaged changes
-git restore .
-
 popd
