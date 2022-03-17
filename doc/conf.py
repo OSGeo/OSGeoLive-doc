@@ -248,7 +248,22 @@ linkcheck_ignore = [
         # link changed name to https://geops.ch
         # mostly used on the contibutors list. 
         # TODO need to verify the change is correct
-        'https://geops.de',
+        r'https://geops.de',
+
+        # The project you're trying to access has been archived.
+        # TODO Verify what happened to gmt because its for gmt_overview and gmt_quickstart
+        r'https://gmt.soest.hawaii.edu/',
+
+        # TODO verify what happened to the archive
+        r'https://live.osgeo.org/archive',
+
+        # currently SSL_ERROR_BAD_CERT_DOMAIN
+        # TODO remove this line when the CERT is fixed
+        r'https://www.rspatial.org/',
+
+        # Leaflet moved the documentation temporarly due to the Ucrania situation
+        # TODO hope for the war to be over and remove this line
+        r'https://leafletjs.com/',
 
         # link exists but does not accept robots and linkchecker is a robot
         # used in overview/mapserver_overview
