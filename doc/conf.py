@@ -254,9 +254,6 @@ linkcheck_ignore = [
         # TODO Verify what happened to gmt because its for gmt_overview and gmt_quickstart
         r'https://gmt.soest.hawaii.edu',
 
-        # TODO verify what happened to the archive
-        r'https://live.osgeo.org/archive',
-
         # currently SSL_ERROR_BAD_CERT_DOMAIN
         # TODO remove this line when the CERT is fixed
         r'https://www.rspatial.org',
