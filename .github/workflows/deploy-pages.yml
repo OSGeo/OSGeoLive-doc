@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------------
-# GitHub Actions scripts 
+# GitHub Actions scripts
 # Copyright(c) pgRouting Contributors
 #
 # Main configuration
@@ -10,7 +10,6 @@ on:
   push:
     branches:
       - master
-      - testtransifex
 
 jobs:
   deploy:
@@ -42,28 +41,25 @@ jobs:
 
       # This section updates the locale
       - name: Extract commit hash
-        if: github.ref == 'refs/heads/testtransifex'
         run: |
           git_hash=$(git rev-parse --short "$GITHUB_SHA")
           echo "GIT_HASH=$git_hash" >> $GITHUB_ENV
 
       - name: Initialize mandatory git config
-        if: github.ref == 'refs/heads/testtransifex'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Update locale                                                                                             
-        if: github.ref == 'refs/heads/testtransifex'
-        run: |                                                                                                          
+      - name: Update locale
+        run: |
           bash ci/update_locale.sh
           # commit the changes
           git diff --staged --quiet || git commit -m "Automatic update of locale files from commit ${{ env.GIT_HASH }}"
           # Remove the unstaged changes
           git restore .
-          git fetch origin testtransifex
-          git rebase origin/testtransifex
-          git push origin testtransifex
+          git fetch origin master
+          git rebase origin/master
+          git push origin master
 
 
       - name: Deploy pages
