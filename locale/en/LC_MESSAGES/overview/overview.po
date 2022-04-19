@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 11:35-0600\n"
+"POT-Creation-Date: 2022-04-19 18:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../build/doc/overview/overview.rst:6
 msgid "|osgeolive-version| Contents"
@@ -453,7 +453,7 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:350
-msgid "Available in prior OSGeo-Live releases"
+msgid "Available in prior OSGeoLive releases"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:362

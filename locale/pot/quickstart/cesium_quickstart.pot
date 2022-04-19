@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2022-04-19 18:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,7 +81,7 @@ msgid "You can develop some quick applications using the `Sandcastle website <ht
 msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:72
-msgid "The `Cesium Forum <https://groups.google.com/forum/#!forum/cesium-dev>`_ is a great place to search for answers to common questions, and to raise questions that haven't been asked before."
+msgid "The `Cesium Forum <https://community.cesium.com>`_ is a great place to search for answers to common questions, and to raise questions that haven't been asked before."
 msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:74

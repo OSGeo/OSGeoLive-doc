@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2022-04-19 18:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../build/doc/contact.rst:2
 msgid "Contact Us"
@@ -69,41 +69,35 @@ msgstr ""
 
 #: ../../build/doc/contact.rst:29
 msgid ""
-"Searchable archives of the mailing list are hosted by `Nabble <http://www"
-".osgeo-org.1560.x6.nabble.com/OSGeoLive-f3777350.html>`_."
-msgstr ""
-
-#: ../../build/doc/contact.rst:32
-msgid ""
 "IRC users might try the #osgeolive or #osgeo channel at Freenode.net for "
 "real-time assistance. You also can meet us at Slack, Matrix or Glitter."
 msgstr ""
 
-#: ../../build/doc/contact.rst:35
+#: ../../build/doc/contact.rst:32
 msgid ""
 "A wealth of information is available on our `Wiki site "
 "<https://trac.osgeo.org/osgeolive/wiki>`_, and a `bug and wish tracking "
 "system <https://trac.osgeo.org/osgeolive/report/10>`_ is also available."
 msgstr ""
 
-#: ../../build/doc/contact.rst:38
+#: ../../build/doc/contact.rst:35
 msgid ""
 "Stay tuned and follow OSGeoLive on Twitter `@osgeolive "
 "<https://mobile.twitter.com/osgeolive>`_."
 msgstr ""
 
-#: ../../build/doc/contact.rst:41
+#: ../../build/doc/contact.rst:38
 msgid "Commercial Support"
 msgstr ""
 
-#: ../../build/doc/contact.rst:43
+#: ../../build/doc/contact.rst:40
 msgid ""
 "Most packaged applications have both community and commercial support "
 "offerings for them. Refer to specific application descriptions linked "
 "from the :doc:`Contents <./overview/overview>` for details."
 msgstr ""
 
-#: ../../build/doc/contact.rst:46
+#: ../../build/doc/contact.rst:43
 msgid ""
 "In addition, there are a large number of consultancy firms world wide who"
 " provide support for OSGeo member projects. See https://www.osgeo.org"

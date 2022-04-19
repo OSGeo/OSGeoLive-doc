@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-21 12:32-0600\n"
+"POT-Creation-Date: 2022-04-19 18:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,30 +17,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../build/doc/sponsors.rst:1
-msgid "OSGeoLive Sponsors kea"
+msgid "OSGeoLive Sponsors"
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:10
+#: ../../build/doc/sponsors.rst:9
 msgid "The Open Source Geospatial Foundation (OSGeo) provides the primary development & hosting infrastructure and personnel for the project, and for many of the software teams which contribute to it."
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:18
+#: ../../build/doc/sponsors.rst:17
 msgid "Information Center for the Environment at the University of California, Davis provides hardware resources and development support to the OSGeoLive project."
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:27
+#: ../../build/doc/sponsors.rst:26
 msgid "Remote Sensing Laboratory at the National Technical University of Athens, provides hardware resources and development support to the OSGeoLive project."
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:35
+#: ../../build/doc/sponsors.rst:34
 msgid "The DebianGIS and UbuntuGIS projects provide and quality-assure many of the core packages."
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:42
+#: ../../build/doc/sponsors.rst:41
 msgid "Okeanos is the Greek Academic cloud service (IaaS) which is providing virtualized computing resources free of charge to the Greek Universities and public Research Centres. Okeanos is build on top of existing proven open source software (e.g. Synnefo, Google Ganeti). Okeanos is kindly providing Virtual Machines for building the OSGeoLive iso images."
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:53
+#: ../../build/doc/sponsors.rst:52
 msgid "Georepublic is a Geolocation Technology Company, that embraces the idea of Free Software, and provide support and custom development for Open Source GIS software."
 msgstr ""
 
@@ -76,7 +76,7 @@ msgstr ""
 msgid "`FOSS4G <https://foss4g.org>`_: Annual, international conference for *Free and Open Source Software for Geospatial*, as well as many regional and local `events <https://www.osgeo.org/events>`_."
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:59
+#: ../../build/doc/sponsors.rst:58
 msgid "Contributors"
 msgstr ""
 
@@ -249,6 +249,10 @@ msgstr ""
 #: ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1
+#: ../../build/contributors.csv:1
+#: ../../build/contributors.csv:1
+#: ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 #: ../../build/translators.csv:1
 #: ../../build/translators.csv:1
 #: ../../build/translators.csv:1
@@ -669,6 +673,18 @@ msgstr ""
 #: ../../build/contributors.csv:1
 #: ../../build/translators.csv:1
 msgid "danielkastl"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+msgid "Daniele Francioli"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+msgid "daniele.francioli outlook com"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+msgid "danfra"
 msgstr ""
 
 #: ../../build/contributors.csv:1
@@ -1402,6 +1418,21 @@ msgstr ""
 
 #: ../../build/contributors.csv:1
 #: ../../build/translators.csv:1
+msgid "Marco Minghini"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+#: ../../build/translators.csv:1
+msgid "marco.minghini86 gmail com"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+#: ../../build/translators.csv:1
+msgid "MarcoMinghini"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+#: ../../build/translators.csv:1
 msgid "Margherita Di Leo"
 msgstr ""
 
@@ -1986,7 +2017,7 @@ msgstr ""
 msgid "Siki"
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:69
+#: ../../build/doc/sponsors.rst:68
 msgid "Translators"
 msgstr ""
 
@@ -2589,9 +2620,13 @@ msgstr ""
 #: ../../build/translators.csv:1
 #: ../../build/translators.csv:1
 #: ../../build/translators.csv:1
+#: ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "Italian"
 msgstr ""
 
+#: ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 #: ../../build/translators.csv:1
 #: ../../build/translators.csv:1
 #: ../../build/translators.csv:1
@@ -2682,6 +2717,10 @@ msgstr ""
 
 #: ../../build/translators.csv:1
 msgid "Roberta Fagandini"
+msgstr ""
+
+#: ../../build/translators.csv:1
+msgid "Antonio Rotundo"
 msgstr ""
 
 #: ../../build/translators.csv:1
