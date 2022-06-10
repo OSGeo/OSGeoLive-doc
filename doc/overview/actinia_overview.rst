@@ -29,7 +29,7 @@ Core Features
 --------------------------------------------------------------------------------
 
 * REST API to process satellite images, time series of satellite images, raster and vector data.
-* Explore the `tutorial <https://actinia.mundialis.de/actinia_core/>`_.
+* Explore the `tutorial <https://mundialis.github.io/actinia_core/>`_.
 
 Details
 --------------------------------------------------------------------------------
