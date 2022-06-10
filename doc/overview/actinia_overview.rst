@@ -29,7 +29,7 @@ Core Features
 --------------------------------------------------------------------------------
 
 * REST API to process satellite images, time series of satellite images, raster and vector data.
-* Explore the `tutorial <https://actinia.mundialis.de/tutorial/>`_.
+* Explore the `tutorial <https://actinia.mundialis.de/actinia_core/>`_.
 
 Details
 --------------------------------------------------------------------------------
@@ -44,7 +44,7 @@ Details
 
 **API Interfaces:** REST API, Python
 
-**API documentation:** https://actinia.mundialis.de/api_docs/
+**API documentation:** https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json#section/Examples:
 
 **Support:** https://github.com/mundialis/actinia_core
 
@@ -54,5 +54,5 @@ Details
 .. presentation-note
     Actinia is an open source REST API for scalable, distributed, high performance
     processing of geographical data that uses GRASS GIS for computational tasks.
-    Actinia provides a REST API to process satellite images, time series of 
+    Actinia provides a REST API to process satellite images, time series of
     satellite images, raster and vector data.
