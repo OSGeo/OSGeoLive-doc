@@ -3,7 +3,7 @@
 :Reviewer: Cameron Shorter
 :Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
-:Copyright: 2019 by The OSGeo Foundation
+:Copyright: 2019-2022 by The OSGeo Foundation
 
 @LOGO_actinia@
 @OSGEO_KIND_actinia@
@@ -16,7 +16,7 @@ High Performance Geospatial Processing
 
 `Actinia <https://actinia.mundialis.de/>`__ is an open source REST API
 for scalable, distributed, high performance processing of geographical
-data that uses `GRASS GIS <https://grass.osgeo.org/>`__ for
+data that uses mainly `GRASS GIS <https://grass.osgeo.org/>`__ for
 computational tasks.
 
 It provides a REST API to process satellite images, time series of
@@ -29,7 +29,7 @@ Core Features
 --------------------------------------------------------------------------------
 
 * REST API to process satellite images, time series of satellite images, raster and vector data.
-* Explore the `tutorial <https://actinia.mundialis.de/tutorial/>`_.
+* Explore the `tutorial <https://mundialis.github.io/actinia_core/>`_.
 
 Details
 --------------------------------------------------------------------------------

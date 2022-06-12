@@ -98,10 +98,10 @@ msgstr "Alapfunkciók"
 #: ../../build/doc/overview/grass_overview.rst:65
 msgid ""
 "You name it, there's a `tool for it "
-"<https://grass.osgeo.org/grass78/manuals/keywords.html>`_."
+"<https://grass.osgeo.org/grass-stable/manuals/keywords.html>`_."
 msgstr ""
 "Ha meg tudja nevezni talál hozzá egy `eszközt "
-"<https://grass.osgeo.org/grass78/manuals/keywords.html>`_."
+"<https://grass.osgeo.org/grass-stable/manuals/keywords.html>`_."
 
 #: ../../build/doc/overview/grass_overview.rst:66
 msgid ""

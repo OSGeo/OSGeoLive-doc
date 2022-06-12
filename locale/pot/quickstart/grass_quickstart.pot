@@ -201,7 +201,7 @@ msgid "Things to try"
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:308
-msgid "While not covered here, you may like to experiment with the Cartographic Composer and object-oriented Graphical Modelling Tool (offers export to Python). You'll find icons to launch them on the lower row of icons in the `Layer Manager` window. Further details can be found in the `wxGUI <https://grass.osgeo.org/grass78/manuals/wxGUI.html>`_ help pages."
+msgid "While not covered here, you may like to experiment with the Cartographic Composer and object-oriented Graphical Modelling Tool (offers export to Python). You'll find icons to launch them on the lower row of icons in the `Layer Manager` window. Further details can be found in the `wxGUI <https://grass.osgeo.org/grass-stable/manuals/wxGUI.html>`_ help pages."
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:315
@@ -241,10 +241,10 @@ msgid "More tutorials and overviews can be found `here <https://grasswiki.osgeo.
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:346
-msgid "A `synopsis of the GRASS GIS modules <https://grass.osgeo.org/grass78/manuals/full_index.html>`_"
+msgid "A `synopsis of the GRASS GIS modules <https://grass.osgeo.org/grass-stable/manuals/full_index.html>`_"
 msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:347
-msgid "If the 400 GIS modules which come with GRASS aren't enough for you have a look at the many contributed add-ons at `https://grass.osgeo.org/grass78/manuals/addons/ <https://grass.osgeo.org/grass78/manuals/addons/>`_"
+msgid "If the 400 GIS modules which come with GRASS aren't enough for you have a look at the many contributed add-ons at `https://grass.osgeo.org/grass-stable/manuals/addons/ <https://grass.osgeo.org/grass-stable/manuals/addons/>`_"
 msgstr ""
 

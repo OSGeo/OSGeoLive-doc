@@ -3,7 +3,7 @@
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive14.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
-:Copyright: 2019-2021 by The OSGeo Foundation
+:Copyright: 2019-2022 by The OSGeo Foundation
 
 @LOGO_actinia@
 @OSGEO_KIND_actinia@
@@ -16,7 +16,8 @@
 ********************************************************************************
 
 Actinia is an open source REST API for scalable, distributed, high performance
-processing of geographical data that uses GRASS GIS for computational tasks.
+processing of geographical data that uses mainly `GRASS GIS <https://grass.osgeo.org/>`__
+for computational tasks.
 Actinia provides a REST API to process satellite images, time series of
 satellite images, raster and vector data.
 
@@ -34,7 +35,6 @@ In this quickstart, we make use of GRASS GIS to conveniently launch
 commands from the session to the actinia server (which itself uses GRASS GIS).
 The idea is to rapidly develop a workflow locally on small data sets to
 then execute it on the server.
-
 
 Introduction to ace - actinia command execution
 ===============================================
@@ -190,7 +190,7 @@ Store the following script as text file ``ace_dtm_statistics.sh``:
 
 .. code:: bash
 
-   # grass78 ~/grassdata/nc_spm_08/user1/
+   # grass ~/grassdata/nc_spm_08/user1/
    # Import the web resource and set the region to the imported map
    g.region raster=elev@https://storage.googleapis.com/graas-geodata/elev_ned_30m.tif -ap
    # Compute univariate statistics
@@ -323,7 +323,7 @@ Store the following script as text file ``/tmp/ace_segmentation.sh``:
 
 .. code:: bash
 
-   # grass78 ~/grassdata/nc_spm_08/user1/
+   # grass ~/grassdata/nc_spm_08/user1/
    # Import the web resource and set the region to the imported map
    # we apply a importer trick for the import of multi-band GeoTIFFs:
    # install with: g.extension importer url=https://github.com/mundialis/importer
@@ -434,7 +434,7 @@ Install GRASS GIS addons (extensions)
    # (requires elevated user privileges)
    #
    # list existing addons, see also
-   # https://grass.osgeo.org/grass7/manuals/addons/
+   # https://grass.osgeo.org/grass-stable/manuals/addons/
    ace location="latlong_wgs84" grass_command="g.extension -l"
 
    # install machine learning addon r.learn.ml2
