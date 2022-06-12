@@ -44,7 +44,7 @@ Details
 
 **API Interfaces:** REST API, Python
 
-**API documentation:** https://actinia.mundialis.de/api_docs/
+**API documentation:** https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json
 
 **Support:** https://github.com/mundialis/actinia_core
 

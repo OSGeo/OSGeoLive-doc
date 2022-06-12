@@ -69,7 +69,7 @@ msgid "**API Interfaces:** REST API, Python"
 msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:57
-msgid "**API documentation:** https://actinia.mundialis.de/api_docs/"
+msgid "**API documentation:** https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json"
 msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:59
