@@ -137,20 +137,20 @@ determines its look (line thinkness, fill color, etc).</dd>
         <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;http://localhost/openlayers/dist/ol.js&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
 
         <span class="cm">&lt;!-- App code --&gt;</span>
-        <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
-          <span class="kd">var</span> <span class="nx">map</span> <span class="o">=</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nb">Map</span><span class="p">({</span>
-            <span class="nx">target</span><span class="o">:</span> <span class="s1">&#39;map&#39;</span><span class="p">,</span>
-            <span class="nx">layers</span><span class="o">:</span> <span class="p">[</span>
-              <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Tile</span><span class="p">({</span>
-                <span class="nx">source</span><span class="o">:</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">OSM</span><span class="p">()</span>
-              <span class="p">})</span>
-            <span class="p">],</span>
-            <span class="nx">view</span><span class="o">:</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">View</span><span class="p">({</span>
-              <span class="nx">center</span><span class="o">:</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">proj</span><span class="p">.</span><span class="nx">fromLonLat</span><span class="p">([</span><span class="mf">2.1833</span><span class="p">,</span> <span class="mf">41.3833</span><span class="p">]),</span>
-              <span class="nx">zoom</span><span class="o">:</span> <span class="mf">6</span>
-            <span class="p">})</span>
-          <span class="p">});</span>
-        <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span><span class="w"></span>
+<span class="w">          </span><span class="kd">var</span><span class="w"> </span><span class="nx">map</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nb">Map</span><span class="p">({</span><span class="w"></span>
+<span class="w">            </span><span class="nx">target</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;map&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="nx">layers</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<span class="w">              </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Tile</span><span class="p">({</span><span class="w"></span>
+<span class="w">                </span><span class="nx">source</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">OSM</span><span class="p">()</span><span class="w"></span>
+<span class="w">              </span><span class="p">})</span><span class="w"></span>
+<span class="w">            </span><span class="p">],</span><span class="w"></span>
+<span class="w">            </span><span class="nx">view</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">View</span><span class="p">({</span><span class="w"></span>
+<span class="w">              </span><span class="nx">center</span><span class="o">:</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">proj</span><span class="p">.</span><span class="nx">fromLonLat</span><span class="p">([</span><span class="mf">2.1833</span><span class="p">,</span><span class="w"> </span><span class="mf">41.3833</span><span class="p">]),</span><span class="w"></span>
+<span class="w">              </span><span class="nx">zoom</span><span class="o">:</span><span class="w"> </span><span class="mf">6</span><span class="w"></span>
+<span class="w">            </span><span class="p">})</span><span class="w"></span>
+<span class="w">          </span><span class="p">});</span><span class="w"></span>
+<span class="w">        </span><span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
 
     <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
 <span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
@@ -174,34 +174,34 @@ determines its look (line thinkness, fill color, etc).</dd>
 OpenStreetMap, Stamen, Bing, etc. Tiled layers are represented by the
 <code class="docutils literal"><span class="pre">ol.layer.Tile</span></code> class and must use a source that knows how to load tiles from
 a given provider, like <code class="docutils literal"><span class="pre">ol.source.OSM</span></code> or <code class="docutils literal"><span class="pre">ol.source.Stamen</span></code>:</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">osm</span> <span class="o">=</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Tile</span><span class="p">({</span>
-  <span class="nx">source</span><span class="o">:</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">OSM</span><span class="p">()</span>
-<span class="p">});</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">osm</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Tile</span><span class="p">({</span><span class="w"></span>
+<span class="w">  </span><span class="nx">source</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">OSM</span><span class="p">()</span><span class="w"></span>
+<span class="p">});</span><span class="w"></span>
 
-<span class="kd">var</span> <span class="nx">stamen</span> <span class="o">=</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Tile</span><span class="p">({</span>
-  <span class="nx">source</span><span class="o">:</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">Stamen</span><span class="p">({</span>
-    <span class="nx">layer</span><span class="o">:</span> <span class="s1">&#39;watercolor&#39;</span>
-  <span class="p">})</span>
-<span class="p">});</span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">stamen</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Tile</span><span class="p">({</span><span class="w"></span>
+<span class="w">  </span><span class="nx">source</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">Stamen</span><span class="p">({</span><span class="w"></span>
+<span class="w">    </span><span class="nx">layer</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;watercolor&#39;</span><span class="w"></span>
+<span class="w">  </span><span class="p">})</span><span class="w"></span>
+<span class="p">});</span><span class="w"></span>
 </pre></div>
 </div>
 <p>Layers can be added to the map in two ways:</p>
 <ul>
 <li><p class="first">When constructing the <code class="docutils literal"><span class="pre">ol.Map</span></code>, use the <code class="docutils literal"><span class="pre">layers</span></code> property:</p>
 <blockquote>
-<div><div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">map</span> <span class="o">=</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nb">Map</span><span class="p">({</span>
-  <span class="p">...</span>
-  <span class="nx">layers</span><span class="o">:</span> <span class="p">[</span><span class="nx">osm</span><span class="p">,</span> <span class="nx">stamen</span><span class="p">]</span>
-  <span class="p">...</span>
-<span class="p">});</span>
+<div><div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">map</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nb">Map</span><span class="p">({</span><span class="w"></span>
+<span class="w">  </span><span class="p">...</span><span class="w"></span>
+<span class="w">  </span><span class="nx">layers</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="nx">osm</span><span class="p">,</span><span class="w"> </span><span class="nx">stamen</span><span class="p">]</span><span class="w"></span>
+<span class="w">  </span><span class="p">...</span><span class="w"></span>
+<span class="p">});</span><span class="w"></span>
 </pre></div>
 </div>
 </div></blockquote>
 </li>
 <li><p class="first">Add them manually with the <code class="docutils literal"><span class="pre">map.addLayer()</span></code> method:</p>
 <blockquote>
-<div><div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="nx">map</span><span class="p">.</span><span class="nx">addLayer</span><span class="p">(</span><span class="nx">osm</span><span class="p">);</span>
-<span class="nx">map</span><span class="p">.</span><span class="nx">addLayer</span><span class="p">(</span><span class="nx">stamen</span><span class="p">);</span>
+<div><div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="nx">map</span><span class="p">.</span><span class="nx">addLayer</span><span class="p">(</span><span class="nx">osm</span><span class="p">);</span><span class="w"></span>
+<span class="nx">map</span><span class="p">.</span><span class="nx">addLayer</span><span class="p">(</span><span class="nx">stamen</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 </div></blockquote>
@@ -213,14 +213,14 @@ a given provider, like <code class="docutils literal"><span class="pre">ol.sourc
 <p>Vector layers are represented by the <code class="docutils literal"><span class="pre">ol.layer.Vector</span></code> class and must use a
 source suitable for reading the vector format, like <code class="docutils literal"><span class="pre">ol.source.GeoJSON</span></code>,
 <code class="docutils literal"><span class="pre">ol.source.KML</span></code> or <code class="docutils literal"><span class="pre">ol.source.TopoJSON</span></code>.</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">vectorLayer</span> <span class="o">=</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Vector</span><span class="p">({</span>
-  <span class="nx">source</span><span class="o">:</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">GeoJSON</span><span class="p">({</span>
-    <span class="nx">url</span><span class="o">:</span> <span class="s1">&#39;url_to_geojson_file&#39;</span>
-  <span class="p">})</span>
-<span class="p">});</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">vectorLayer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Vector</span><span class="p">({</span><span class="w"></span>
+<span class="w">  </span><span class="nx">source</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">GeoJSON</span><span class="p">({</span><span class="w"></span>
+<span class="w">    </span><span class="nx">url</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;url_to_geojson_file&#39;</span><span class="w"></span>
+<span class="w">  </span><span class="p">})</span><span class="w"></span>
+<span class="p">});</span><span class="w"></span>
 
-<span class="c1">// Add Vector layer to map</span>
-<span class="nx">map</span><span class="p">.</span><span class="nx">addLayer</span><span class="p">(</span><span class="nx">vectorLayer</span><span class="p">);</span>
+<span class="c1">// Add Vector layer to map</span><span class="w"></span>
+<span class="nx">map</span><span class="p">.</span><span class="nx">addLayer</span><span class="p">(</span><span class="nx">vectorLayer</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 <a class="reference internal image-reference" href="../../_images/openlayers-vector.png"><img alt="../../_images/openlayers-vector.png" src="../../_images/openlayers-vector.png" style="width: 518.0px; height: 277.0px;" /></a>
@@ -229,32 +229,32 @@ valid GeoJSON file placed in our server.
 Note that Javascript security will prevent sourcing of datasets from an external URL on a different domain / port (a.k.a. same-origin policy).</p>
 <p>Features can also be created manually. In this case we need to create a geometry
 that represents the feature:</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="c1">// Geometries</span>
-<span class="kd">var</span> <span class="nx">point</span> <span class="o">=</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">geom</span><span class="p">.</span><span class="nx">Point</span><span class="p">(</span>
-    <span class="nx">ol</span><span class="p">.</span><span class="nx">proj</span><span class="p">.</span><span class="nx">transform</span><span class="p">([</span><span class="mf">3</span><span class="p">,</span><span class="mf">50</span><span class="p">],</span> <span class="s1">&#39;EPSG:4326&#39;</span><span class="p">,</span> <span class="s1">&#39;EPSG:3857&#39;</span><span class="p">)</span>
-<span class="p">);</span>
-<span class="kd">var</span> <span class="nx">circle</span> <span class="o">=</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">geom</span><span class="p">.</span><span class="nx">Circle</span><span class="p">(</span>
-    <span class="nx">ol</span><span class="p">.</span><span class="nx">proj</span><span class="p">.</span><span class="nx">transform</span><span class="p">([</span><span class="mf">2.1833</span><span class="p">,</span> <span class="mf">41.3833</span><span class="p">],</span> <span class="s1">&#39;EPSG:4326&#39;</span><span class="p">,</span> <span class="s1">&#39;EPSG:3857&#39;</span><span class="p">),</span>
-    <span class="mf">1000000</span>
-<span class="p">);</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="c1">// Geometries</span><span class="w"></span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">point</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">geom</span><span class="p">.</span><span class="nx">Point</span><span class="p">(</span><span class="w"></span>
+<span class="w">    </span><span class="nx">ol</span><span class="p">.</span><span class="nx">proj</span><span class="p">.</span><span class="nx">transform</span><span class="p">([</span><span class="mf">3</span><span class="p">,</span><span class="mf">50</span><span class="p">],</span><span class="w"> </span><span class="s1">&#39;EPSG:4326&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;EPSG:3857&#39;</span><span class="p">)</span><span class="w"></span>
+<span class="p">);</span><span class="w"></span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">circle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">geom</span><span class="p">.</span><span class="nx">Circle</span><span class="p">(</span><span class="w"></span>
+<span class="w">    </span><span class="nx">ol</span><span class="p">.</span><span class="nx">proj</span><span class="p">.</span><span class="nx">transform</span><span class="p">([</span><span class="mf">2.1833</span><span class="p">,</span><span class="w"> </span><span class="mf">41.3833</span><span class="p">],</span><span class="w"> </span><span class="s1">&#39;EPSG:4326&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;EPSG:3857&#39;</span><span class="p">),</span><span class="w"></span>
+<span class="w">    </span><span class="mf">1000000</span><span class="w"></span>
+<span class="p">);</span><span class="w"></span>
 
-<span class="c1">// Features</span>
-<span class="kd">var</span> <span class="nx">pointFeature</span> <span class="o">=</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">Feature</span><span class="p">(</span><span class="nx">point</span><span class="p">);</span>
-<span class="kd">var</span> <span class="nx">circleFeature</span> <span class="o">=</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">Feature</span><span class="p">(</span><span class="nx">circle</span><span class="p">);</span>
+<span class="c1">// Features</span><span class="w"></span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">pointFeature</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">Feature</span><span class="p">(</span><span class="nx">point</span><span class="p">);</span><span class="w"></span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">circleFeature</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">Feature</span><span class="p">(</span><span class="nx">circle</span><span class="p">);</span><span class="w"></span>
 
-<span class="c1">// Source</span>
-<span class="kd">var</span> <span class="nx">vectorSource</span> <span class="o">=</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">Vector</span><span class="p">({</span>
-    <span class="nx">projection</span><span class="o">:</span> <span class="s1">&#39;EPSG:4326&#39;</span>
-<span class="p">});</span>
-<span class="nx">vectorSource</span><span class="p">.</span><span class="nx">addFeatures</span><span class="p">([</span><span class="nx">pointFeature</span><span class="p">,</span> <span class="nx">circleFeature</span><span class="p">]);</span>
+<span class="c1">// Source</span><span class="w"></span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">vectorSource</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">Vector</span><span class="p">({</span><span class="w"></span>
+<span class="w">    </span><span class="nx">projection</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;EPSG:4326&#39;</span><span class="w"></span>
+<span class="p">});</span><span class="w"></span>
+<span class="nx">vectorSource</span><span class="p">.</span><span class="nx">addFeatures</span><span class="p">([</span><span class="nx">pointFeature</span><span class="p">,</span><span class="w"> </span><span class="nx">circleFeature</span><span class="p">]);</span><span class="w"></span>
 
-<span class="c1">// Vector layer</span>
-<span class="kd">var</span> <span class="nx">vectorLayer</span> <span class="o">=</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Vector</span><span class="p">({</span>
-  <span class="nx">source</span><span class="o">:</span> <span class="nx">vectorSource</span>
-<span class="p">});</span>
+<span class="c1">// Vector layer</span><span class="w"></span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">vectorLayer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Vector</span><span class="p">({</span><span class="w"></span>
+<span class="w">  </span><span class="nx">source</span><span class="o">:</span><span class="w"> </span><span class="nx">vectorSource</span><span class="w"></span>
+<span class="p">});</span><span class="w"></span>
 
-<span class="c1">// Add Vector layer to map</span>
-<span class="nx">map</span><span class="p">.</span><span class="nx">addLayer</span><span class="p">(</span><span class="nx">vectorLayer</span><span class="p">);</span>
+<span class="c1">// Add Vector layer to map</span><span class="w"></span>
+<span class="nx">map</span><span class="p">.</span><span class="nx">addLayer</span><span class="p">(</span><span class="nx">vectorLayer</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 </div>
@@ -264,28 +264,28 @@ that represents the feature:</p>
 The style is determined by a combination of fill, stroke, text  and image, which are all optional. In addition, a style can be applied to a layer, which determines the style of all contained features, or to an individual feature.</p>
 <p>A style is represented by the <code class="docutils literal"><span class="pre">ol.style.Style</span></code> class which has properties to set the <code class="docutils literal"><span class="pre">fill</span></code>, <code class="docutils literal"><span class="pre">stroke</span></code>, <code class="docutils literal"><span class="pre">text</span></code> and <code class="docutils literal"><span class="pre">image</span></code> to be applied. The next example shows the World’s administrative limits dataset styled to use a green fill and stroke:</p>
 <a class="reference internal image-reference" href="../../_images/openlayers-styling.png"><img alt="../../_images/openlayers-styling.png" src="../../_images/openlayers-styling.png" style="width: 555.0px; height: 283.0px;" /></a>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">limitsLayer</span> <span class="o">=</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Vector</span><span class="p">({</span>
-  <span class="nx">source</span><span class="o">:</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">Vector</span><span class="p">({</span>
-    <span class="nx">url</span><span class="o">:</span> <span class="s1">&#39;data/world_limits.json&#39;</span><span class="p">,</span>
-    <span class="nx">format</span><span class="o">:</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">format</span><span class="p">.</span><span class="nx">TopoJSON</span><span class="p">(),</span>
-    <span class="nx">projection</span><span class="o">:</span> <span class="s1">&#39;EPSG:3857&#39;</span>
-  <span class="p">}),</span>
-  <span class="nx">style</span><span class="o">:</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">Style</span><span class="p">({</span>
-    <span class="nx">fill</span><span class="o">:</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">Fill</span><span class="p">({</span>
-      <span class="nx">color</span><span class="o">:</span> <span class="s1">&#39;rgba(55, 155, 55, 0.3)&#39;</span>
-    <span class="p">}),</span>
-    <span class="nx">stroke</span><span class="o">:</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">Stroke</span><span class="p">({</span>
-      <span class="nx">color</span><span class="o">:</span> <span class="s1">&#39;rgba(55, 155, 55, 0.8)&#39;</span><span class="p">,</span>
-      <span class="nx">width</span><span class="o">:</span> <span class="mf">1</span>
-    <span class="p">}),</span>
-    <span class="nx">image</span><span class="o">:</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">Circle</span><span class="p">({</span>
-      <span class="nx">radius</span><span class="o">:</span> <span class="mf">7</span><span class="p">,</span>
-      <span class="nx">fill</span><span class="o">:</span> <span class="ow">new</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">Fill</span><span class="p">({</span>
-        <span class="nx">color</span><span class="o">:</span> <span class="s1">&#39;rgba(55, 155, 55, 0.5)&#39;</span><span class="p">,</span>
-      <span class="p">})</span>
-    <span class="p">})</span>
-  <span class="p">})</span>
-<span class="p">});</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">limitsLayer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Vector</span><span class="p">({</span><span class="w"></span>
+<span class="w">  </span><span class="nx">source</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">Vector</span><span class="p">({</span><span class="w"></span>
+<span class="w">    </span><span class="nx">url</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;data/world_limits.json&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="nx">format</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">format</span><span class="p">.</span><span class="nx">TopoJSON</span><span class="p">(),</span><span class="w"></span>
+<span class="w">    </span><span class="nx">projection</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;EPSG:3857&#39;</span><span class="w"></span>
+<span class="w">  </span><span class="p">}),</span><span class="w"></span>
+<span class="w">  </span><span class="nx">style</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">Style</span><span class="p">({</span><span class="w"></span>
+<span class="w">    </span><span class="nx">fill</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">Fill</span><span class="p">({</span><span class="w"></span>
+<span class="w">      </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;rgba(55, 155, 55, 0.3)&#39;</span><span class="w"></span>
+<span class="w">    </span><span class="p">}),</span><span class="w"></span>
+<span class="w">    </span><span class="nx">stroke</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">Stroke</span><span class="p">({</span><span class="w"></span>
+<span class="w">      </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;rgba(55, 155, 55, 0.8)&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="w">      </span><span class="nx">width</span><span class="o">:</span><span class="w"> </span><span class="mf">1</span><span class="w"></span>
+<span class="w">    </span><span class="p">}),</span><span class="w"></span>
+<span class="w">    </span><span class="nx">image</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">Circle</span><span class="p">({</span><span class="w"></span>
+<span class="w">      </span><span class="nx">radius</span><span class="o">:</span><span class="w"> </span><span class="mf">7</span><span class="p">,</span><span class="w"></span>
+<span class="w">      </span><span class="nx">fill</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">Fill</span><span class="p">({</span><span class="w"></span>
+<span class="w">        </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;rgba(55, 155, 55, 0.5)&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="w">      </span><span class="p">})</span><span class="w"></span>
+<span class="w">    </span><span class="p">})</span><span class="w"></span>
+<span class="w">  </span><span class="p">})</span><span class="w"></span>
+<span class="p">});</span><span class="w"></span>
 </pre></div>
 </div>
 <p>In the code, we have loaded a TopoJSON file and styled it through the <code class="docutils literal"><span class="pre">style</span></code> property.
@@ -297,12 +297,12 @@ We have set a <code class="docutils literal"><span class="pre">fill</span></code
 <p>Most of the components, like map, layers or controls, trigger events to notify changes. For example we can be notified each time the mouse is moved over the map, or when a feature is added to a vector layer, etc.</p>
 <p>Events can be easily registered on an object with the <code class="docutils literal"><span class="pre">on()</span></code> method and unregistered with <code class="docutils literal"><span class="pre">un()</span></code>.</p>
 <p>The following code registers an event on a map instance, and will be notified each time the pointer is moved. Within the callback function we obtain the pointer coordinates and print in the browser console in two different projections.</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;pointermove&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kd">var</span> <span class="nx">coord3857</span> <span class="o">=</span> <span class="nx">event</span><span class="p">.</span><span class="nx">coordinate</span><span class="p">;</span>
-  <span class="kd">var</span> <span class="nx">coord4326</span> <span class="o">=</span> <span class="nx">ol</span><span class="p">.</span><span class="nx">proj</span><span class="p">.</span><span class="nx">transform</span><span class="p">(</span><span class="nx">coord3857</span><span class="p">,</span> <span class="s1">&#39;EPSG:3857&#39;</span><span class="p">,</span> <span class="s1">&#39;EPSG:4326&#39;</span><span class="p">);</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;pointermove&#39;</span><span class="p">,</span><span class="w"> </span><span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">coord3857</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">event</span><span class="p">.</span><span class="nx">coordinate</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">coord4326</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">proj</span><span class="p">.</span><span class="nx">transform</span><span class="p">(</span><span class="nx">coord3857</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;EPSG:3857&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;EPSG:4326&#39;</span><span class="p">);</span><span class="w"></span>
 
-  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">coord3857</span><span class="p">,</span> <span class="nx">coord4326</span><span class="p">);</span>
-<span class="p">});</span>
+<span class="w">  </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">coord3857</span><span class="p">,</span><span class="w"> </span><span class="nx">coord4326</span><span class="p">);</span><span class="w"></span>
+<span class="p">});</span><span class="w"></span>
 </pre></div>
 </div>
 </div>

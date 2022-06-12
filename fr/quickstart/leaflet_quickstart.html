@@ -132,7 +132,7 @@
 <div class="section" id="setting-up-the-map">
 <h2><a class="toc-backref" href="#toc-entry-4">Mise en place de la carte</a><a class="headerlink" href="#setting-up-the-map" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Nous allons créer une carte de l’Afrique orientale avec une indication de la Conférence FOSS4G de 2018. Tout d’abord, nous allons initialiser la carte et définir son point de vue avec les coordonnées géographiques choisies et un niveau de zoom&nbsp;:</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">map</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="s1">&#39;map&#39;</span><span class="p">).</span><span class="nx">setView</span><span class="p">([</span><span class="mf">44.43743</span><span class="p">,</span> <span class="mf">26.104</span><span class="p">],</span> <span class="mf">15</span><span class="p">);</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">map</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="s1">&#39;map&#39;</span><span class="p">).</span><span class="nx">setView</span><span class="p">([</span><span class="mf">44.43743</span><span class="p">,</span><span class="w"> </span><span class="mf">26.104</span><span class="p">],</span><span class="w"> </span><span class="mf">15</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 <p>Par défaut (comme nous n’avons pas passé toutes les options lors de la création de l’instance de carte), toutes les interactions de souris et de touché sur la carte sont activées et il y a des contrôles de zoom et d’attribution.</p>
@@ -152,33 +152,33 @@
 <div class="section" id="markers-circles-and-polygons">
 <h2><a class="toc-backref" href="#toc-entry-5">Marqueurs, cercles et polygones</a><a class="headerlink" href="#markers-circles-and-polygons" title="Lien permanent vers ce titre">¶</a></h2>
 <p>En plus des couches de tuiles, vous pouvez facilement ajouter d’autres choses à votre carte, y compris des marqueurs, des polylignes, des polygones, des cercles et des infobulles (fenêtres pop-up). Nous allons ajouter un marqueur&nbsp;:</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">marker</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">marker</span><span class="p">([</span><span class="mf">44.437</span> <span class="p">,</span><span class="mf">26.104</span><span class="p">]).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">marker</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">marker</span><span class="p">([</span><span class="mf">44.437</span><span class="w"> </span><span class="p">,</span><span class="mf">26.104</span><span class="p">]).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 <p>L’ajout d’un cercle est identique (sauf qu’il spécifier le rayon en mètres comme deuxième argument), mais vous permet de contrôler à quoi il ressemble en passant des options comme dernier argument lors de la création de l’objet&nbsp;:</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">circle</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">circle</span><span class="p">([</span><span class="mf">44.435</span><span class="p">,</span> <span class="mf">26.11</span><span class="p">],</span> <span class="mf">250</span><span class="p">,</span> <span class="p">{</span>
-   <span class="nx">color</span><span class="o">:</span> <span class="s1">&#39;red&#39;</span><span class="p">,</span>
-   <span class="nx">fillColor</span><span class="o">:</span> <span class="s1">&#39;#f03&#39;</span><span class="p">,</span>
-   <span class="nx">fillOpacity</span><span class="o">:</span> <span class="mf">0.5</span>
-<span class="p">}).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">circle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">circle</span><span class="p">([</span><span class="mf">44.435</span><span class="p">,</span><span class="w"> </span><span class="mf">26.11</span><span class="p">],</span><span class="w"> </span><span class="mf">250</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">   </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;red&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="w">   </span><span class="nx">fillColor</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;#f03&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="w">   </span><span class="nx">fillOpacity</span><span class="o">:</span><span class="w"> </span><span class="mf">0.5</span><span class="w"></span>
+<span class="p">}).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 <p>Il est aussi facile d’ajouter un polygone&nbsp;:</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">polygon</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">polygon</span><span class="p">([</span>
-    <span class="p">[</span><span class="mf">44.433</span><span class="p">,</span> <span class="mf">26.102</span><span class="p">],</span>
-    <span class="p">[</span><span class="mf">44.442</span><span class="p">,</span> <span class="mf">26.095</span><span class="p">],</span>
-    <span class="p">[</span><span class="mf">44.436</span><span class="p">,</span> <span class="mf">26.093</span><span class="p">]</span>
-<span class="p">]).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">polygon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">polygon</span><span class="p">([</span><span class="w"></span>
+<span class="w">    </span><span class="p">[</span><span class="mf">44.433</span><span class="p">,</span><span class="w"> </span><span class="mf">26.102</span><span class="p">],</span><span class="w"></span>
+<span class="w">    </span><span class="p">[</span><span class="mf">44.442</span><span class="p">,</span><span class="w"> </span><span class="mf">26.095</span><span class="p">],</span><span class="w"></span>
+<span class="w">    </span><span class="p">[</span><span class="mf">44.436</span><span class="p">,</span><span class="w"> </span><span class="mf">26.093</span><span class="p">]</span><span class="w"></span>
+<span class="p">]).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="working-with-popups">
 <h2><a class="toc-backref" href="#toc-entry-6">Travailler avec les infobulles</a><a class="headerlink" href="#working-with-popups" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Les fenêtres infobulle sont généralement utilisées lorsque vous souhaitez joindre des informations à un objet particulier sur la carte. Leaflet a un raccourci très pratique pour cela&nbsp;:</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">popup</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">popup</span><span class="p">()</span>
-   <span class="p">.</span><span class="nx">setLatLng</span><span class="p">([</span><span class="mf">44.437</span><span class="p">,</span> <span class="mf">26.104</span><span class="p">])</span>
-   <span class="p">.</span><span class="nx">setContent</span><span class="p">(</span><span class="s2">&quot;I am a standalone popup.&quot;</span><span class="p">)</span>
-   <span class="p">.</span><span class="nx">openOn</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">popup</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">popup</span><span class="p">()</span><span class="w"></span>
+<span class="w">   </span><span class="p">.</span><span class="nx">setLatLng</span><span class="p">([</span><span class="mf">44.437</span><span class="p">,</span><span class="w"> </span><span class="mf">26.104</span><span class="p">])</span><span class="w"></span>
+<span class="w">   </span><span class="p">.</span><span class="nx">setContent</span><span class="p">(</span><span class="s2">&quot;I am a standalone popup.&quot;</span><span class="p">)</span><span class="w"></span>
+<span class="w">   </span><span class="p">.</span><span class="nx">openOn</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 <p>Ici nous utilisons <strong>openOn</strong> au lieu de <strong>addTo</strong> car cela gère la fermeture automatique d’une infobulle ouverte préalablement à l’ouverture d’une nouvelle, ce qui est bon pour la facilité d’utilisation.</p>
@@ -186,25 +186,25 @@
 <div class="section" id="dealing-with-events">
 <h2><a class="toc-backref" href="#toc-entry-7">Gérer les événements</a><a class="headerlink" href="#dealing-with-events" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Chaque fois que quelque chose se passe dans Leaflet, par exemple quand l’utilisateur clique sur un marqueur ou le zoom de la carte change, l’objet correspondant envoie un événement aucquel vous pouvez abonner  une fonction. Il vous permet de réagir à l’intervention de l’utilisateur&nbsp;:</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">function</span> <span class="nx">onMapClick</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
-   <span class="nx">alert</span><span class="p">(</span><span class="s2">&quot;You clicked the map at &quot;</span> <span class="o">+</span> <span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">);</span>
-<span class="p">}</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">function</span><span class="w"> </span><span class="nx">onMapClick</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">   </span><span class="nx">alert</span><span class="p">(</span><span class="s2">&quot;You clicked the map at &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">);</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 
-<span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span> <span class="nx">onMapClick</span><span class="p">);</span>
+<span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">onMapClick</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 <p>Chaque objet possède son propre ensemble d’événements - voir la <a class="reference external" href="https://leafletjs.com/reference.html">documentation</a> pour plus de détails. Le premier argument de la fonction d’écouteur est un objet <em>event</em> - il contient des informations utiles sur l’événement qui s’est passé. Par exemple, l’événement Clic sur l’objet de la carte (<em>e</em> dans l’exemple ci-dessus) a une propriété latlng  qui est l’emplacement où le clic s’est produit en coordonnées géographiques (latitude longitude).</p>
 <p>Nous allons améliorer notre exemple en utilisant une infobulle au lieu d’une alerte&nbsp;:</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">popup</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">popup</span><span class="p">();</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">popup</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">popup</span><span class="p">();</span><span class="w"></span>
 
-<span class="kd">function</span> <span class="nx">onMapClick</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
-   <span class="nx">popup</span>
-        <span class="p">.</span><span class="nx">setLatLng</span><span class="p">(</span><span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">)</span>
-        <span class="p">.</span><span class="nx">setContent</span><span class="p">(</span><span class="s2">&quot;You clicked the map at &quot;</span> <span class="o">+</span> <span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">.</span><span class="nx">toString</span><span class="p">())</span>
-         <span class="p">.</span><span class="nx">openOn</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span>
-<span class="p">}</span>
+<span class="kd">function</span><span class="w"> </span><span class="nx">onMapClick</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">   </span><span class="nx">popup</span><span class="w"></span>
+<span class="w">        </span><span class="p">.</span><span class="nx">setLatLng</span><span class="p">(</span><span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">)</span><span class="w"></span>
+<span class="w">        </span><span class="p">.</span><span class="nx">setContent</span><span class="p">(</span><span class="s2">&quot;You clicked the map at &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">.</span><span class="nx">toString</span><span class="p">())</span><span class="w"></span>
+<span class="w">         </span><span class="p">.</span><span class="nx">openOn</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 
-<span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span> <span class="nx">onMapClick</span><span class="p">);</span>
+<span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">onMapClick</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 <p>Essayez de cliquer sur la carte et vous verrez les coordonnées dans une infobulle. Découvrez l’<a class="reference external" href="http://localhost/leaflet-demo.html">exemple</a> complet</p>

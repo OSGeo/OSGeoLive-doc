@@ -132,7 +132,7 @@
 <div class="section" id="setting-up-the-map">
 <h2><a class="toc-backref" href="#toc-entry-4">A térkép beállítása</a><a class="headerlink" href="#setting-up-the-map" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Készítsünk egy térképet Kelet-Afrikáról a 2018-asFOSS4G konferencia megjelölésével. Először inicializáljuk a térképet és beállítjuk a nézetet a választott földrajzi koordinátákra és a nagyítási szintet:</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">map</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="s1">&#39;map&#39;</span><span class="p">).</span><span class="nx">setView</span><span class="p">([</span><span class="mf">44.43743</span><span class="p">,</span> <span class="mf">26.104</span><span class="p">],</span> <span class="mf">15</span><span class="p">);</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">map</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="s1">&#39;map&#39;</span><span class="p">).</span><span class="nx">setView</span><span class="p">([</span><span class="mf">44.43743</span><span class="p">,</span><span class="w"> </span><span class="mf">26.104</span><span class="p">],</span><span class="w"> </span><span class="mf">15</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 <p>Alapértelmezésben minden egér és érintés interakció engedélyezett a térképen (mivel a térkép példány létrehozásánál nem adtunk meg paramétereket), és van vezérlő elem a nagyításhoz és a szerzőkhöz.</p>
@@ -152,33 +152,33 @@
 <div class="section" id="markers-circles-and-polygons">
 <h2><a class="toc-backref" href="#toc-entry-5">Szimbólumok, körök és zárt idomok</a><a class="headerlink" href="#markers-circles-and-polygons" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>A csempe rétegek mellett más dolgokat is könnyen hozzáadhat a térképéhez, beleértve a szimbólumokat, törtvonalakat, zárt idomokat és felugró ablakokat. Adjunk hozzá egy szimbólumot:</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">marker</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">marker</span><span class="p">([</span><span class="mf">44.437</span> <span class="p">,</span><span class="mf">26.104</span><span class="p">]).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">marker</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">marker</span><span class="p">([</span><span class="mf">44.437</span><span class="w"> </span><span class="p">,</span><span class="mf">26.104</span><span class="p">]).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 <p>Egy kör hozzáadás ugyanígy megy (eltekintve a második argumentumként méterben megadott sugártól), de lehetővé teszi, hogy a kinézetét beállítsa az objektum létrehozásánál utolsóként átadott beállításokkal.</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">circle</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">circle</span><span class="p">([</span><span class="mf">44.435</span><span class="p">,</span> <span class="mf">26.11</span><span class="p">],</span> <span class="mf">250</span><span class="p">,</span> <span class="p">{</span>
-   <span class="nx">color</span><span class="o">:</span> <span class="s1">&#39;red&#39;</span><span class="p">,</span>
-   <span class="nx">fillColor</span><span class="o">:</span> <span class="s1">&#39;#f03&#39;</span><span class="p">,</span>
-   <span class="nx">fillOpacity</span><span class="o">:</span> <span class="mf">0.5</span>
-<span class="p">}).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">circle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">circle</span><span class="p">([</span><span class="mf">44.435</span><span class="p">,</span><span class="w"> </span><span class="mf">26.11</span><span class="p">],</span><span class="w"> </span><span class="mf">250</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">   </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;red&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="w">   </span><span class="nx">fillColor</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;#f03&#39;</span><span class="p">,</span><span class="w"></span>
+<span class="w">   </span><span class="nx">fillOpacity</span><span class="o">:</span><span class="w"> </span><span class="mf">0.5</span><span class="w"></span>
+<span class="p">}).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 <p>Egy zárt idom hozzáadása ilyen könnyű:</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">polygon</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">polygon</span><span class="p">([</span>
-    <span class="p">[</span><span class="mf">44.433</span><span class="p">,</span> <span class="mf">26.102</span><span class="p">],</span>
-    <span class="p">[</span><span class="mf">44.442</span><span class="p">,</span> <span class="mf">26.095</span><span class="p">],</span>
-    <span class="p">[</span><span class="mf">44.436</span><span class="p">,</span> <span class="mf">26.093</span><span class="p">]</span>
-<span class="p">]).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">polygon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">polygon</span><span class="p">([</span><span class="w"></span>
+<span class="w">    </span><span class="p">[</span><span class="mf">44.433</span><span class="p">,</span><span class="w"> </span><span class="mf">26.102</span><span class="p">],</span><span class="w"></span>
+<span class="w">    </span><span class="p">[</span><span class="mf">44.442</span><span class="p">,</span><span class="w"> </span><span class="mf">26.095</span><span class="p">],</span><span class="w"></span>
+<span class="w">    </span><span class="p">[</span><span class="mf">44.436</span><span class="p">,</span><span class="w"> </span><span class="mf">26.093</span><span class="p">]</span><span class="w"></span>
+<span class="p">]).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="working-with-popups">
 <h2><a class="toc-backref" href="#toc-entry-6">Munka a felugró ablakokkal</a><a class="headerlink" href="#working-with-popups" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>A felugró ablakokat általában akkor használják, ha néhány információt szeretne csatolni egy adott objektumhoz a térképen. A Leaflet-nek van egy nagyon praktikus megoldása erre:</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">popup</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">popup</span><span class="p">()</span>
-   <span class="p">.</span><span class="nx">setLatLng</span><span class="p">([</span><span class="mf">44.437</span><span class="p">,</span> <span class="mf">26.104</span><span class="p">])</span>
-   <span class="p">.</span><span class="nx">setContent</span><span class="p">(</span><span class="s2">&quot;I am a standalone popup.&quot;</span><span class="p">)</span>
-   <span class="p">.</span><span class="nx">openOn</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">popup</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">popup</span><span class="p">()</span><span class="w"></span>
+<span class="w">   </span><span class="p">.</span><span class="nx">setLatLng</span><span class="p">([</span><span class="mf">44.437</span><span class="p">,</span><span class="w"> </span><span class="mf">26.104</span><span class="p">])</span><span class="w"></span>
+<span class="w">   </span><span class="p">.</span><span class="nx">setContent</span><span class="p">(</span><span class="s2">&quot;I am a standalone popup.&quot;</span><span class="p">)</span><span class="w"></span>
+<span class="w">   </span><span class="p">.</span><span class="nx">openOn</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 <p>Itt az <strong>addTo</strong> helyett az <strong>openOn</strong>-t használjuk, mert ez kezeli a korábban megnyitott felugró ablak automatikus lezárását amikor egy újat nyitunk meg, ami jó a használhatósághoz.</p>
@@ -186,32 +186,32 @@
 <div class="section" id="dealing-with-events">
 <h2><a class="toc-backref" href="#toc-entry-7">Események kezelése</a><a class="headerlink" href="#dealing-with-events" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Minden alkalommal, amikor valami történik a Leaflet-ben, pl. a felhasználó egy szimbólumra kattintott vagy a térkép nagyítása megváltozott, a megfelelő objektumot küld egy esemény, amelynek kezeléséhez egy függvényt rendelhet.. Ez lehetővé teszi, hogy a felhasználó műveleteire reagáljon:</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">function</span> <span class="nx">onMapClick</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
-   <span class="nx">alert</span><span class="p">(</span><span class="s2">&quot;You clicked the map at &quot;</span> <span class="o">+</span> <span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">);</span>
-<span class="p">}</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">function</span><span class="w"> </span><span class="nx">onMapClick</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">   </span><span class="nx">alert</span><span class="p">(</span><span class="s2">&quot;You clicked the map at &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">);</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 
-<span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span> <span class="nx">onMapClick</span><span class="p">);</span>
+<span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">onMapClick</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 <p>Minden objektumnak van saját esemény készlete - lásd a <a class="reference external" href="https://leafletjs.com/reference.html">dokumentációt</a> a részletekért. Az esemény figyelő függvény első argumentuma egy esemény objektum - ez hasznos információkat tartalmaz a bekövetkezett eseményről. Például a térkép kattintás objektumnak (e a fentipéldában) van latlng tulajdonsága, mely a hely ahová kattintottak.</p>
 <p>Tökéletesítsük a példánkat az alert helyett használjunk felugró ablakot:</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">popup</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">popup</span><span class="p">();</span>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">popup</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">popup</span><span class="p">();</span><span class="w"></span>
 
-<span class="kd">function</span> <span class="nx">onMapClick</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
-   <span class="nx">popup</span>
-        <span class="p">.</span><span class="nx">setLatLng</span><span class="p">(</span><span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">)</span>
-        <span class="p">.</span><span class="nx">setContent</span><span class="p">(</span><span class="s2">&quot;You clicked the map at &quot;</span> <span class="o">+</span> <span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">.</span><span class="nx">toString</span><span class="p">())</span>
-         <span class="p">.</span><span class="nx">openOn</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span>
-<span class="p">}</span>
+<span class="kd">function</span><span class="w"> </span><span class="nx">onMapClick</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">   </span><span class="nx">popup</span><span class="w"></span>
+<span class="w">        </span><span class="p">.</span><span class="nx">setLatLng</span><span class="p">(</span><span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">)</span><span class="w"></span>
+<span class="w">        </span><span class="p">.</span><span class="nx">setContent</span><span class="p">(</span><span class="s2">&quot;You clicked the map at &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">.</span><span class="nx">toString</span><span class="p">())</span><span class="w"></span>
+<span class="w">         </span><span class="p">.</span><span class="nx">openOn</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 
-<span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span> <span class="nx">onMapClick</span><span class="p">);</span>
+<span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">onMapClick</span><span class="p">);</span><span class="w"></span>
 </pre></div>
 </div>
 <p>Próbáljon a térképre kattintani és egy felugró ablakban látja a koordinátákat. A teljes <a class="reference external" href="http://localhost/leaflet-demo.html">példa</a> megtekintése</p>
 </div>
 <div class="section" id="what-next">
 <h2><a class="toc-backref" href="#toc-entry-8">Mi a következő?</a><a class="headerlink" href="#what-next" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>Most megtanulta a Leaflet alapjait és azonnal elkezdheti a térkép alkalmazás készítését! Ne felejtsen el egy pillantást vetni a részletes <a class="reference external" href="https://leafletjs.com/reference.html">dokumentációra</a> vagy további <a class="reference external" href="https://leafletjs.com/examples.html">példákra</a>.</p>
+<p>Most megtanulta a Leaflet alapjait és azonnal elkezdheti a térkép alkalmazás készítését! Ne felejtsen el egy pillantást vetni a részletes <a class="reference external" href="https://leafletjs.com/examples.html">dokumentációra</a> vagy további <a class="reference external" href="https://leafletjs.com/reference.html">példákra</a>.</p>
 </div>
 </div>
 
