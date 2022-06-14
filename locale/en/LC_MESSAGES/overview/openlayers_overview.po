@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../build/doc/overview/openlayers_overview.rst:21
 msgid "OpenLayers"
@@ -32,6 +32,9 @@ msgid ""
 "OpenLayers has been developed to further the use of geographic "
 "information of all kinds. It is completely free, Open Source JavaScript, "
 "released under the 2-clause BSD License (also known as the FreeBSD)."
+msgstr ""
+
+msgid "openlayers screenshot"
 msgstr ""
 
 #: ../../build/doc/overview/openlayers_overview.rst:35
@@ -164,11 +167,27 @@ msgid ""
 " and https://groups.google.com/forum/#!forum/openlayers-dev (developer)"
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:89
+#: ../../build/doc/overview/openlayers_overview.rst:90
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/openlayers_overview.rst:91
+#: ../../build/doc/overview/openlayers_overview.rst:92
 msgid ":doc:`Quickstart documentation <../quickstart/openlayers_quickstart>`"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Community"
 msgstr ""
 

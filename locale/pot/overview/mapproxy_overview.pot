@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,8 +32,16 @@ msgstr ""
 msgid "MapProxy is flexible and scales from simple to complex use-cases: from a single tile cache for an :doc:`OpenLayers <openlayers_overview>` web client to a central SDI node that combines, unifies and accelerates dozens of distributed WMS services."
 msgstr ""
 
+#: ../../build/doc/overview/mapproxy_overview.rst:None
+msgid "mapproxy screenshot"
+msgstr ""
+
 #: ../../build/doc/overview/mapproxy_overview.rst:35
 msgid "Core Features"
+msgstr ""
+
+#: ../../build/doc/overview/mapproxy_overview.rst:None
+msgid "MapProxy demo"
 msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:49
@@ -272,3 +280,19 @@ msgstr ""
 msgid ":doc:`Quickstart documentation <../quickstart/mapproxy_quickstart>`"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

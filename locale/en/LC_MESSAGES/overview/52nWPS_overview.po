@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:15
 msgid "52 North WPS"
@@ -32,6 +32,9 @@ msgid ""
 "functions. Algorithms may be as simple as determining the difference in "
 "influenza cases between two different seasons, or as complicated as a "
 "global climate change model."
+msgstr ""
+
+msgid "52nWPS screenshot"
 msgstr ""
 
 #: ../../build/doc/overview/52nWPS_overview.rst:32
@@ -146,11 +149,27 @@ msgstr ""
 msgid "**Other 52°North projects:** :doc:`SOS <./52nSOS_overview>`"
 msgstr ""
 
-#: ../../build/doc/overview/52nWPS_overview.rst:82
+#: ../../build/doc/overview/52nWPS_overview.rst:83
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/52nWPS_overview.rst:84
+#: ../../build/doc/overview/52nWPS_overview.rst:85
 msgid ":doc:`Quickstart documentation <../quickstart/52nWPS_quickstart>`"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Community"
 msgstr ""
 

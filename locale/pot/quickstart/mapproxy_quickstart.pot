@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,8 +24,16 @@ msgstr ""
 msgid "MapProxy is *the* swiss army knife for all WMS and tile services. It caches, accelerates and transforms data from existing map services and serves any desktop or web GIS client."
 msgstr ""
 
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:None
+msgid "MapProxy diagram"
+msgstr ""
+
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:31
 msgid "MapProxy is not only a tile cache solution, but also offers many new and innovative features like full support for WMS clients."
+msgstr ""
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:34
+msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:37
@@ -58,6 +66,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:53
 msgid "The MapProxy example configuration contains a few layers that use different map engines and map data. See below for more details about each layer."
+msgstr ""
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:60
+msgid "MapProxy example in uDig"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:60
@@ -133,10 +145,26 @@ msgid "What next?"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:104
-msgid "Read the `documentation of MapProxy <../../mapproxy/index.html>`_"
+msgid "Read the `documentation of MapProxy <https://localhost/mapproxy/index.html>`__"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:106
 msgid "Read the example configuration (``/usr/local/share/mapproxy/mapproxy.yaml``)"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

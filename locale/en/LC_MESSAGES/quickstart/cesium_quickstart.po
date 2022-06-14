@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-19 18:15+0000\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,6 +35,10 @@ msgid ""
 "(Columbus View) and 2D (map)."
 msgstr ""
 
+#: ../../build/doc/quickstart/cesium_quickstart.rst:25
+msgid "Contents"
+msgstr ""
+
 #: ../../build/doc/quickstart/cesium_quickstart.rst:28
 msgid "Start Cesium"
 msgstr ""
@@ -55,6 +59,9 @@ msgid ""
 "for. In the following display, we look for India."
 msgstr ""
 
+msgid "Cesium Searching Location"
+msgstr ""
+
 #: ../../build/doc/quickstart/cesium_quickstart.rst:41
 msgid "Switch between 3D, 2.5D and 2D"
 msgstr ""
@@ -65,8 +72,14 @@ msgid ""
 "the 2.5D Columbus view has been selected."
 msgstr ""
 
+msgid "Cesium switching between 3D, 2.5D and 2D"
+msgstr ""
+
 #: ../../build/doc/quickstart/cesium_quickstart.rst:48
 msgid "Now the 2D map is selected."
+msgstr ""
+
+msgid "Cesium 2D map"
 msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:55
@@ -113,5 +126,21 @@ msgstr ""
 msgid ""
 "In-depth documentation is available `locally <http://localhost/cesium/>`_"
 " on the OSGeoLive package."
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Community"
 msgstr ""
 

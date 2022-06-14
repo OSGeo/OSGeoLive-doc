@@ -153,7 +153,7 @@ Layers can be added to the map in two ways:
        ...
      });
 
-   
+
 * Add them manually with the ``map.addLayer()`` method:
 
    .. code-block:: javascript
@@ -161,7 +161,7 @@ Layers can be added to the map in two ways:
      map.addLayer(osm);
      map.addLayer(stamen);
 
-   
+
 Add vector layers
 =================
 
@@ -286,8 +286,8 @@ What next?
 Sometimes the quickest way to work out how OpenLayers works is to look at examples
 and their source code. You can find more OpenLayers information here:
 
-* `API Docs <../../openlayers/apidoc/>`_
+* `API Docs <https://localhost/openlayers/apidoc/>`_
 
-* `Examples <../../openlayers/examples/>`_
+* `Examples <https://localhost/openlayers/examples/>`_
 
 * `OpenLayers.org Website <https://openlayers.org/>`_

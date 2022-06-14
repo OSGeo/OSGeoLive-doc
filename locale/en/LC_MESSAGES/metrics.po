@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 17:45-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../build/doc/metrics.rst:6
 msgid "|osgeolive-version| Project Metrics"
@@ -49,27 +49,43 @@ msgstr ""
 msgid "Web Services"
 msgstr ""
 
-#: ../../build/doc/metrics.rst:75
+#: ../../build/doc/metrics.rst:77
 msgid "Data Stores"
 msgstr ""
 
-#: ../../build/doc/metrics.rst:86
+#: ../../build/doc/metrics.rst:88
 msgid "Navigation and Maps"
 msgstr ""
 
-#: ../../build/doc/metrics.rst:99
+#: ../../build/doc/metrics.rst:101
 msgid "Spatial Tools"
 msgstr ""
 
-#: ../../build/doc/metrics.rst:111
+#: ../../build/doc/metrics.rst:113
 msgid "Domain Specific GIS"
 msgstr ""
 
-#: ../../build/doc/metrics.rst:119
+#: ../../build/doc/metrics.rst:121
 msgid "Data"
 msgstr ""
 
-#: ../../build/doc/metrics.rst:130
+#: ../../build/doc/metrics.rst:132
 msgid "Geospatial Libraries"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Community"
 msgstr ""
 

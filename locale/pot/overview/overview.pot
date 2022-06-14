@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-19 18:15+0000\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,12 +28,61 @@ msgstr ""
 msgid "|osgeo_project| Is an OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
 #: ../../build/doc/overview/overview.rst:14
 msgid "|osgeo_community| Is an OSGeo Community Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""
+
 #: ../../build/doc/overview/overview.rst:15
 msgid "|vmdk| Included only on OSGeoLive VMDK version"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:19
@@ -58,6 +107,41 @@ msgstr ""
 
 #: ../../build/doc/overview/overview.rst:45
 msgid "|nologo| :doc:`openjump_overview` - [:doc:`Quickstart <../quickstart/openjump_quickstart>`]"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:47
@@ -351,4 +435,3 @@ msgstr ""
 #: ../../build/doc/overview/overview.rst:362
 msgid ":doc:`../prior_applications`"
 msgstr ""
-

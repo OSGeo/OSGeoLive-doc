@@ -4,8 +4,8 @@ Building OSGeoLive Documentation
 The following steps describe how to build OSGeoLive_ documentation on an Ubuntu
 based operating system (such as Lubuntu).
 
-https://osgeo.github.io/OSGeoLive-doc/ - automated publication of latest docs from GitHub. 
-You can see the [build script here](.travis.yml). 
+https://osgeo.github.io/OSGeoLive-doc/ - automated publication of latest docs from GitHub.
+You can see the [build script here](.travis.yml).
 
 About OSGeoLive
 ~~~~~~~~~~~~~~~
@@ -26,10 +26,10 @@ quick check, GitHub will (partially) render reSt documents as HTML.
 Build steps
 ~~~~~~~~~~~
 
-Following the steps below on the OSGeoLive Virtual Machine itself is one of the easiest ways 
-to build the OSGeoLive documentation. 
+Following the steps below on the OSGeoLive Virtual Machine itself is one of the easiest ways
+to build the OSGeoLive documentation.
 
-First install Python and create a virtual environment. 
+First install Python and create a virtual environment.
 
 1.0 Requirements
 You might need to install `git` and `cmake` if they are not on your system yet.
@@ -38,19 +38,7 @@ You might need to install `git` and `cmake` if they are not on your system yet.
    sudo apt-get install git cmake
 
 
-1.1. For Python 2
-::
-   # Install pip
-   sudo apt-get install python-pip
-
-   # Prepare python environment
-   pip install virtualenv
-   virtualenv py-env
-
-   # activate the environment
-   source py-env/bin/activate
-
-1.2. For Python 3
+1.1 For Python 3
 ::
    # Install pip
    sudo apt-get install python3-pip
@@ -62,24 +50,24 @@ You might need to install `git` and `cmake` if they are not on your system yet.
    # activate the environment
    source py-env/bin/activate
 
-2. Install the requirements
-::
    # Python requirements
-   pip install sphinx==1.6.5
-   pip install sphinx-intl
-   pip install sphinxjp.themes.revealjs
+   pip install -r requirementsi.txt
 
-   # Requirements for the presentation
+1.2 Requirements for the presentation
+
+::
    sudo apt-get install cpanminus
    sudo cpanm Text::SimpleTable::AutoWidth
-   
-   
+
+
 2.1 For Ubuntu 20.04 (Focal Fossa)
 To build onto Focal Fossa, you will need `specific packages <https://github.com/OSGeo/OSGeoLive-doc/blob/master/debian/control#L5-L12>`_:
 ::
    # Packages required for doc building on Ubuntu 20.04
    sudo apt install debhelper python3-sphinx python3-stemmer python3-pil \
    pngquant cmake libtext-simpletable-autowidth-perl \
+
+.. TODO sphinx-revealjs is now used
    python3-sphinxjp.themes.revealjs
 
 3. Clone or download OSGeoLive source documentation
@@ -87,7 +75,7 @@ To build onto Focal Fossa, you will need `specific packages <https://github.com/
    git clone https://github.com/OSGeo/OSGeoLive-doc.git
 
 4. Generate the English documentation
-::   
+::
    cd OSGeoLive-doc
    mkdir build
    cd build
@@ -104,7 +92,7 @@ The output is in `build/doc/_build/html/`
    make
    cd ..
 
-Adding -DFR=ON adds the French language, adding another -DES=ON adds Spanish, and so on. 
+Adding -DFR=ON adds the French language, adding another -DES=ON adds Spanish, and so on.
 The output is also in `build/doc/_build/html/`
 
 6. To build all available languages

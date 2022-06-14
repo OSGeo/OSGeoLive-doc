@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,10 @@ msgstr ""
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:19
 msgid "QGIS Server provides web map and feature services (WMS & WFS) using the same libraries as the GIS (QGIS) desktop application. Maps and print templates created in QGIS desktop can be published as web maps simply by copying the QGIS project file into the server directory. The resulting web maps look exactly the same as in the desktop. QGIS Server is usually run as CGI/FastCGI module within the Apache Webserver."
+msgstr ""
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:None
+msgid "qgis_mapserver screenshot"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:30
@@ -117,3 +121,19 @@ msgstr ""
 msgid ":doc:`Quickstart documentation <../quickstart/qgis_mapserver_quickstart>`"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

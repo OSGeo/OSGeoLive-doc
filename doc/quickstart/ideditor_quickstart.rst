@@ -1,5 +1,5 @@
 :Source: https://github.com/hotosm/learnosm/blob/gh-pages/_posts/en/0200-12-23-id-editor.md
-:Source Reviewed: 2016-03-30  
+:Source Reviewed: 2016-03-30
 :Author: Nick Allen
 :Version: osgeolive 11
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
@@ -58,12 +58,12 @@ The iD editor requires an active connection to the Internet.
 Configuring the background layer
 ================================
 
-#. Click the **Background settings** button or use the *shortcut key* **b**. 
-   |image14| 
+#. Click the **Background settings** button or use the *shortcut key* **b**.
+   |image14|
 
    |image15|
 
-#. To change the **brightness level** click one of these boxes, the levels are 100%, 75%, 50%, and 25% 
+#. To change the **brightness level** click one of these boxes, the levels are 100%, 75%, 50%, and 25%
    |image16|
 
 #. You also can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).
@@ -71,7 +71,7 @@ Configuring the background layer
 #. You can add your own map tiles by clicking on **Custom**. For example,   if you want to **add a Field Paper**  [1], click **Custom** then   click on the magnifying glass (search) icon to open the following window:
 
    |image17|
-  
+
 #. Enter your **FieldPaper snapshot URL**, which will be something like this:
    http://fieldpapers.org/snapshots/cqhmf2v9#18/37.80593/-122.22715
 
@@ -80,8 +80,9 @@ Configuring the background layer
 #. To enable **OpenStreetMap GPS traces** click on the box. In the image below, public GPS traces are shown in various colors, indicating the direction of travel.
 
    |osm gps traces|
- 
-#. If there is `imagery offset </en/josm/aerial-imagery>`__, you can **correct the imagery offset** by clicking **Fix Alignment**.
+
+#. If there is imagery offset, it can be **corrected** by clicking **Fix
+   Alignment**.
 
    |image18|
 

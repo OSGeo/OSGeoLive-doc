@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-01 08:19-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:49
 msgid "Manage data from the ``pgAdmin`` client."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:53
+msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:56
@@ -260,12 +264,24 @@ msgstr ""
 msgid "Start QGIS from the Desktop GIS menu and choose ``Add PostGIS layers`` from the layer menu. The parameters for connecting to the Natural Earth data in PostGIS are already defined in the Connections drop-down menu. You can define new server connections here, and store the settings for easy recall. Click on Connections drop down menu and choose Natural Earth. Hit ``Edit`` if you want to see what those parameters are for Natural Earth, or just hit ``Connect`` to continue:"
 msgstr ""
 
+#: ../../build/doc/quickstart/postgis_quickstart.rst:None
+msgid "Connect to Natural Earth"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:392
 msgid "You will now get a list of the spatial tables in the database:"
 msgstr ""
 
+#: ../../build/doc/quickstart/postgis_quickstart.rst:None
+msgid "Natural Earth Layers"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:399
 msgid "Choose the ne_10m_lakes table and hit ``Add`` at the bottom (not ``Load`` at the top - that loads database connection parameters), and it should be loaded into QGIS:"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:None
+msgid "My First PostGIS layer"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:408
@@ -288,6 +304,10 @@ msgstr ""
 msgid "Deploys the Postgis item, then the NaturalEarth item. It will then  connect to the Natural Earth database. Leave the password blank if it asks. In the public item, there is the list of the layers provided by the database. You'll see the main manager window. On the left you can select tables from the database and use the tabs on the right find out about them. The Preview tab will show you a little map."
 msgstr ""
 
+#: ../../build/doc/quickstart/postgis_quickstart.rst:None
+msgid "QGIS Manager Preview"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:430
 msgid "We will now use the DB Manager to import a shapefile into the database. We'll use the North Carolina sudden infant death syndrome (SIDS) data that is included with one of the R statistics package add-ons."
 msgstr ""
@@ -296,8 +316,16 @@ msgstr ""
 msgid "From the ``Table`` menu choose the ``Import layer/file`` option. Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R directory. (located in /home/user/data/vector/R/shapes):"
 msgstr ""
 
+#: ../../build/doc/quickstart/postgis_quickstart.rst:None
+msgid "Find the shapefile"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:443
 msgid "Leave everything else as it is and hit ``Load``"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:None
+msgid "Import a shapefile"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:450
@@ -306,6 +334,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:453
 msgid "Now load the SIDS data into the map using the 'Add PostGIS Layer' option. With a bit of rearranging of the layers and some colouring, you should be able to produce a choropleth map of the sudden infant death syndrome counts (sid74 or sid79 fields) in North Carolina:"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:None
+msgid "SIDS data mapped"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:466
@@ -318,6 +350,13 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:470
 msgid "pgAdmin lets you use SQL to manipulate your data tables. You can find and launch pgAdmin from the Databases folder, existing on the OSGeoLive Desktop."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:None
+#: ../../build/doc/quickstart/postgis_quickstart.rst:None
+#: ../../build/doc/quickstart/postgis_quickstart.rst:None
+#: ../../build/doc/quickstart/postgis_quickstart.rst:None
+msgid "pgAdmin"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:478
@@ -532,3 +571,19 @@ msgstr ""
 msgid "PostGIS Documentation -  http://postgis.net/documentation/"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""
