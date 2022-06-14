@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 22:14-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,6 +30,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:33
 msgid "This Quick Start describes how to open a spatialite database from both GUI applications and the command line. Some sample SQL queries are shown."
+msgstr ""
+
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:36
+msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:39
@@ -116,43 +120,59 @@ msgstr ""
 msgid "Let's create a new, empty spatialite database, and load two shapefiles from the north_carolina dataset::"
 msgstr ""
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:144
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:157
 msgid "Note the format of the .loadshp command: first the shapefile without the .shp extension, then the name of the new spatialite table, next the character encoding, and finally the EPSG code of the shapefile's CRS."
 msgstr ""
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:146
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:159
 msgid "Now we'll query for schools near to highway 42.::"
 msgstr ""
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:157
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:170
 msgid "Finally, we output the query to a \"comma separated values\" text file \"schools_rt42.txt\" with the following commands::"
 msgstr ""
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:170
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:183
 msgid "Things to try"
 msgstr ""
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:172
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:185
 msgid "Here are some additional challenges for you to try:"
 msgstr ""
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:174
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:187
 msgid "Inspect geometries with spatialite-gui"
 msgstr ""
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:175
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:188
 msgid "Open and edit SpatiaLite layers in QGIS"
 msgstr ""
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:178
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:191
 msgid "What next?"
 msgstr ""
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:180
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:193
 msgid "To learn more about SpatiaLite, a starting point is the `SpatiaLite project page`_."
 msgstr ""
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:184
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:197
 msgid "Be sure to visit the tutorial `Spatialite cookbook`_"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

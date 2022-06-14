@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-21 12:32-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:36
 msgid "The remainder of this guide introduces some of the online and offline software used to edit and render OSM data."
+msgstr ""
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:40
+msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:43
@@ -317,3 +321,19 @@ msgstr ""
 msgid "Get support: https://www.openstreetmap.org/help"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

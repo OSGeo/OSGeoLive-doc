@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,6 +42,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:38
 msgid "Develop your own WPS processes"
+msgstr ""
+
+#: ../../build/doc/quickstart/pywps_quickstart.rst:41
+msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:44
@@ -160,3 +164,19 @@ msgstr ""
 msgid "Deployment to production -   The `pywps-flask` service is just an example and not designed for production. One possible alternative is a Django based service, `pywps-django <https://github.com/jorgejesus/pywps-django>`_. The documentation provides further details on how to `set up a production service <https://pywps.readthedocs.io/en/latest/deployment.html>`_ with `Apache <https://httpd.apache.org/>`_ or `nginx <https://nginx.org/>`_ and `Gunicorn <https://gunicorn.org/>`_."
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -231,8 +231,8 @@ msgstr ""
 "<../quickstart/opencpn_quickstart>` találja."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:79
-msgid "Website: https://opengribs.org/en"
-msgstr "Honlap: https://opengribs.org/en"
+msgid "Website: https://opengribs.org"
+msgstr "Honlap: https://opengribs.org"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:80
 msgid "Support: https://opengribs.org/en/support-forum"

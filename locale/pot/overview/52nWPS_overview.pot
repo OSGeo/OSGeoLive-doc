@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,10 @@ msgstr ""
 
 #: ../../build/doc/overview/52nWPS_overview.rst:20
 msgid "The 52°North |WPS| enables web access to geospatial processing algorithms provided by Sextante, ArcGIS Server, R, GRASS 7, or custom developed functions. Algorithms may be as simple as determining the difference in influenza cases between two different seasons, or as complicated as a global climate change model."
+msgstr ""
+
+#: ../../build/doc/overview/52nWPS_overview.rst:None
+msgid "52nWPS screenshot"
 msgstr ""
 
 #: ../../build/doc/overview/52nWPS_overview.rst:32
@@ -148,3 +152,19 @@ msgstr ""
 msgid ":doc:`Quickstart documentation <../quickstart/52nWPS_quickstart>`"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

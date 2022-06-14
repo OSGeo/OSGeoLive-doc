@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-19 18:15+0000\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,10 @@ msgid ""
 "performance processing of geographical data that uses GRASS GIS for "
 "computational tasks. Actinia provides a REST API to process satellite "
 "images, time series of satellite images, raster and vector data."
+msgstr ""
+
+#: ../../build/doc/quickstart/actinia_quickstart.rst:30
+msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:32
@@ -400,5 +404,21 @@ msgid ""
 "Space (BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the "
 "European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani "
 "(Eds.). (`DOI <https://zenodo.org/record/2631917>`__)"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Community"
 msgstr ""
 

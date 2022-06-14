@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:24
 msgid "Marble is an open source KDE Education Project program similar to NASA World Wind or Google Earth. Besides choosing any number of maps to view on your globe (including OpenStreetMap), you are encouraged to include a KDE Marble widget in your application."
+msgstr ""
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:27
+msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:30
@@ -137,7 +141,7 @@ msgid "Things to try"
 msgstr ""
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:100
-msgid "Try to use the Routing feature. See the `Marble documentation <https://docs.kde.org/trunk5/en/kdeedu/marble/index.html>`_ for help."
+msgid "Try to use the Routing feature. See the `Marble documentation <https://marble.kde.org>`_ for help."
 msgstr ""
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:104
@@ -148,3 +152,19 @@ msgstr ""
 msgid "See the `Marble homepage <https://marble.kde.org/>`_ for more information."
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

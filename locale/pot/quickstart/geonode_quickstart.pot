@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:26
 msgid "GeoNode is a web-based application and platform for developing geospatial information systems (GIS) and for deploying spatial data infrastructures (SDI)."
+msgstr ""
+
+#: ../../build/doc/quickstart/geonode_quickstart.rst:31
+msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:34
@@ -220,3 +224,19 @@ msgstr ""
 msgid "If you need help or want to get some information about a specific topic please don't hasitate to ask us! You can do this through the #geonode IRC channel using https://webchat.freenode.net/, through the `GeoNode Gitter channel <https://gitter.im/GeoNode/general>`_ or by asking your question in our `mailing list <https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users>`_ !"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

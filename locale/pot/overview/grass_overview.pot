@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,10 @@ msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:45
 msgid "The GRASS GIS software includes more than 400 built-in analysis modules. Additionally, over 100 community supplied modules and toolboxes are available for free from the Add-on repository. After more than 30 years of continuous development GRASS GIS is both the longest maintained and largest Open Source GIS available. It is easily scriptable and versatile enough to be used both for batch data processing on massively-parallel supercomputers as well as a handy desktop GIS for handheld PDAs or netbooks."
+msgstr ""
+
+#: ../../build/doc/overview/grass_overview.rst:None
+msgid "grass screenshot"
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:63
@@ -84,3 +88,19 @@ msgstr ""
 msgid ":doc:`Quickstart documentation <../quickstart/grass_quickstart>`"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

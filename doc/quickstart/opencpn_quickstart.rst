@@ -86,7 +86,8 @@ What next?
 
 * Documentation is available from the Help menu or online at https://opencpn.org/OpenCPN/info/manuals.html
 
-*  `Getting started tips <../../opencpn/tips.html>`_
+.. TODO This file does not exist on the disk
+  `Getting started tips <ihttps://localhost/opencpn/tips.html>`__
 
 * Website: @WEB_opencpn@
 

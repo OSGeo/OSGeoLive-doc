@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-19 18:15+0000\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,8 +68,16 @@ msgstr ""
 msgid "If your computer is set to boot from CD (as is often the case) you should boot up into a Lubuntu system, with Geospatial applications installed. Otherwise you'll have to adjust the BIOS boot settings or press the boot menu button just after powering-up."
 msgstr ""
 
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
+msgid "boot"
+msgstr ""
+
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:42
 msgid "Sit back while the system boots up."
+msgstr ""
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
+msgid "boot select"
 msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:48
@@ -108,3 +116,19 @@ msgstr ""
 msgid ":doc:`usb_quickstart`"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

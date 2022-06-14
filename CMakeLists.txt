@@ -1,5 +1,4 @@
-
-cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.2 FATAL_ERROR)
 if ( ${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR} )
     message(FATAL_ERROR "In-source builds not allowed.
     Please make a new directory (called a build directory) and run CMake from there.
@@ -31,13 +30,13 @@ set(OSGeoLiveDoc_NAME "OSGeoLive")
 #---------------------------------------------
 # minimum versions
 #---------------------------------------------
-set(SPHINX_MINIMUM_VERSION "1.1")
+set(SPHINX_MINIMUM_VERSION "4.0")
 
 
 #---------------------------------------------
 # Fining sphinx
 #---------------------------------------------
-find_package(Sphinx REQUIRED)
+find_package(Sphinx ${SPHINX_MINIMUM_VERSION} REQUIRED)
 if (NOT SPHINX_FOUND)
     message(WARNING "Sphinx not found. Cannot generate documentation!")
 #elseif (SPHINX_VERSION VERSION_LESS SPHINX_MINIMUM_VERSION)
@@ -152,7 +151,7 @@ message(STATUS "OSGeoLiveDoc_DOC_TARGETS = ${OSGeoLiveDoc_DOC_TARGETS}")
 # TODO: figure out how to support this
 #  "el"   "hu"  "id"  "zh")
 #---------------------------------------------
-set(OSGeoLiveDoc_SUPPORTED_LANGUAGES "ca"  "de"  "es"  "fi" "fr"  "it"  "ja"  "ko"  "pl"  "ru" "hu")
+set(OSGeoLiveDoc_SUPPORTED_LANGUAGES "de" "es" "fi" "fr" "hu" "it" "ja")
 set(OSGeoLiveDoc_ENGLISH "en")
 
 #---------------------------------------------
@@ -237,13 +236,13 @@ MACRO(INSERT_INTO_MAP_KIND _KEY _TARGET)
     if ("${_TARGET}" STREQUAL "")
       set(_TRGT  "")
     else ()
-      set(_TRGT 
+      set(_TRGT
 ".. image:: /images/logos/${_TARGET}.png
     :align: right
     :target: https://www.osgeo.org
 ")
     endif()
-      
+
     SET("OSGEO_KIND_${_KEY}" "${_TRGT}")
 ENDMACRO(INSERT_INTO_MAP_KIND)
 
@@ -253,7 +252,7 @@ MACRO(INSERT_INTO_MAP_LOGO _KEY _TARGET)
     else()
       set(_TRGT ":target: ${_TARGET}")
     endif()
-      
+
     SET("LOGO_${_KEY}"
  ".. image:: /images/projects/${_KEY}/logo_${_KEY}.png
     :align: right
@@ -403,4 +402,6 @@ configure_file("licenses.csv" "licenses.csv")
 configure_file("contributors.csv" "contributors.csv")
 configure_file("translators.csv" "translators.csv")
 
+set(SPHINX_BUILD_DIR "${CMAKE_CURRENT_BINARY_DIR}/_build")
 add_subdirectory(doc)
+add_subdirectory(presentation)

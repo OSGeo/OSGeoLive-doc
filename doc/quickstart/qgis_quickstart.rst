@@ -36,7 +36,7 @@ you visualize, manage, edit, analyse data and compose printable maps.
    :local:
 
 
-Start QGIS 
+Start QGIS
 ==========
 
 #. Open the 'Desktop GIS' folder.
@@ -81,7 +81,7 @@ countries.
    :scale: 70 %
    :alt: QGIS vector layer
 
-Now let's try adding a raster layer to the project. 
+Now let's try adding a raster layer to the project.
 
 #. Go the browser panel on the left of the screen.
 #. Navigate the folder tree to 'home/data/natural_earth2'.
@@ -294,7 +294,9 @@ Things to try
 
 * Use QGIS to view content from a `PostGIS database <https://docs.qgis.org/3.4/en/docs/training_manual/spatial_databases/index.html>`_.
 
-* Try publishing your QGIS map to the web using `QGIS Map Server <../overview/qgis_mapserver_overview.html>`_. in the :menuselection:`Geospatial --> Web Services` menu.
+* Try publishing your QGIS map to the web using :doc:`QGIS Map Server
+  <../overview/qgis_mapserver_overview>`. in the
+  :menuselection:`Geospatial --> Web Services` menu.
 
 
 What next?

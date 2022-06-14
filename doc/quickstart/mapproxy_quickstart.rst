@@ -44,13 +44,13 @@ View in desktop GIS
 
 You can add MapProxy in any WMS Desktop GIS like uDig, QGIS or gvSIG. The service URL is: `<http://localhost:8011/service?>`_
 
-The MapProxy example configuration contains a few layers that use different map engines and map data. See below for more details about each layer. 
+The MapProxy example configuration contains a few layers that use different map engines and map data. See below for more details about each layer.
 
 .. figure:: /images/projects/mapproxy/mapproxy_udig.png
   :scale: 70 %
   :alt: MapProxy example in uDig
   :align: center
-  
+
   Single WMS layer with data from two cascaded sources and `FeatureInformation` from one source.
 
 Available layers
@@ -95,7 +95,7 @@ MapProxy will automatically reload if you change your configuration file.
 What next?
 ==========
 
-* Read the `documentation of MapProxy <../../mapproxy/index.html>`_
+* Read the `documentation of MapProxy <https://localhost/mapproxy/index.html>`__
 
 * Read the example configuration (``/usr/local/share/mapproxy/mapproxy.yaml``)
 

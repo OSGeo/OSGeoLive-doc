@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,6 +30,10 @@ msgstr ""
 
 #: ../../build/doc/overview/mapcache_overview.rst:24
 msgid "MapCache is part of the MapServer family, but can be configured to cache and serve data from any geospatial server that uses WMS. MapCache can be run on Apache as a module or on any web server that supports CGI/FastCGI such as IIS, Nginx, and Jetty."
+msgstr ""
+
+#: ../../build/doc/overview/mapcache_overview.rst:None
+msgid "mapcache screenshot"
 msgstr ""
 
 #: ../../build/doc/overview/mapcache_overview.rst:34
@@ -168,3 +172,19 @@ msgstr ""
 msgid ":doc:`Quickstart documentation <../quickstart/mapcache_quickstart>`"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,10 @@ msgstr ""
 msgid "GeoMoose is a GIS data portal management framework. The installed version of GeoMoose on the Live DVD is an example configuration that displays an example set of layers."
 msgstr ""
 
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:28
+msgid "Contents"
+msgstr ""
+
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:31
 msgid "Start GeoMoose"
 msgstr ""
@@ -42,6 +46,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:37
 msgid "You will be presented with a web page displaying a demo interface of a GeoMoose instance."
+msgstr ""
+
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:0
+msgid "GeoMoose Screenshot"
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:43
@@ -208,3 +216,19 @@ msgstr ""
 msgid "https://www.geomoose.org/quickstart.html"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

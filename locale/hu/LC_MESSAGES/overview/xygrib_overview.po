@@ -89,8 +89,8 @@ msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/xygrib_overview.rst:41
-msgid "**Website:** https://opengribs.org/en"
-msgstr "**Honlap:** https://opengribs.org/en"
+msgid "**Website:** https://opengribs.org"
+msgstr "**Honlap:** https://opengribs.org"
 
 #: ../../build/doc/overview/xygrib_overview.rst:43
 msgid "**Licence:** GNU General Public License (GPL) version 3"

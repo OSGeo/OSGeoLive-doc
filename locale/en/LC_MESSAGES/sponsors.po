@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-19 18:15+0000\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,19 @@ msgstr ""
 msgid "OSGeoLive Sponsors"
 msgstr ""
 
+msgid "OSGeo"
+msgstr ""
+
 #: ../../build/doc/sponsors.rst:9
 msgid ""
 "The Open Source Geospatial Foundation (OSGeo) provides the primary "
 "development & hosting infrastructure and personnel for the project, and "
 "for many of the software teams which contribute to it."
+msgstr ""
+
+msgid ""
+"Information Center for the Environment at the University of California, "
+"Davis"
 msgstr ""
 
 #: ../../build/doc/sponsors.rst:17
@@ -35,6 +43,9 @@ msgid ""
 "OSGeoLive project."
 msgstr ""
 
+msgid "National Technical University of Athens"
+msgstr ""
+
 #: ../../build/doc/sponsors.rst:26
 msgid ""
 "Remote Sensing Laboratory at the National Technical University of Athens,"
@@ -42,10 +53,16 @@ msgid ""
 "project."
 msgstr ""
 
+msgid "The DebianGIS and UbuntuGIS projects"
+msgstr ""
+
 #: ../../build/doc/sponsors.rst:34
 msgid ""
 "The DebianGIS and UbuntuGIS projects provide and quality-assure many of "
 "the core packages."
+msgstr ""
+
+msgid "The Greek Academic cloud service"
 msgstr ""
 
 #: ../../build/doc/sponsors.rst:41
@@ -55,6 +72,9 @@ msgid ""
 "and public Research Centres. Okeanos is build on top of existing proven "
 "open source software (e.g. Synnefo, Google Ganeti). Okeanos is kindly "
 "providing Virtual Machines for building the OSGeoLive iso images."
+msgstr ""
+
+msgid "Geolocation Technology Company"
 msgstr ""
 
 #: ../../build/doc/sponsors.rst:52
@@ -2814,5 +2834,21 @@ msgstr ""
 
 #: ../../build/translators.csv:1
 msgid "alindeneanu"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Community"
 msgstr ""
 
