@@ -84,9 +84,9 @@ msgstr "主な機能"
 #: ../../build/doc/overview/grass_overview.rst:65
 msgid ""
 "You name it, there's a `tool for it "
-"<https://grass.osgeo.org/grass78/manuals/keywords.html>`_."
+"<https://grass.osgeo.org/grass-stable/manuals/keywords.html>`_."
 msgstr ""
-"名前から逆引するための `ツール <https://grass.osgeo.org/grass78/manuals/keywords.html>`_ "
+"名前から逆引するための `ツール <https://grass.osgeo.org/grass-stable/manuals/keywords.html>`_ "
 "があります。"
 
 #: ../../build/doc/overview/grass_overview.rst:66

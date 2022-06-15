@@ -99,10 +99,10 @@ msgstr "Caractéristiques principales"
 #: ../../build/doc/overview/grass_overview.rst:65
 msgid ""
 "You name it, there's a `tool for it "
-"<https://grass.osgeo.org/grass78/manuals/keywords.html>`_."
+"<https://grass.osgeo.org/grass-stable/manuals/keywords.html>`_."
 msgstr ""
 "Vous nommez une fonction, il y a `un outil pour ça "
-"<https://grass.osgeo.org/grass78/manuals/keywords.html>`_. dans GRASS."
+"<https://grass.osgeo.org/grass-stable/manuals/keywords.html>`_. dans GRASS."
 
 #: ../../build/doc/overview/grass_overview.rst:66
 msgid ""

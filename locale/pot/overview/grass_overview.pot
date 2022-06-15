@@ -45,7 +45,7 @@ msgid "Core Features"
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:65
-msgid "You name it, there's a `tool for it <https://grass.osgeo.org/grass78/manuals/keywords.html>`_."
+msgid "You name it, there's a `tool for it <https://grass.osgeo.org/grass-stable/manuals/keywords.html>`_."
 msgstr ""
 
 #: ../../build/doc/overview/grass_overview.rst:66

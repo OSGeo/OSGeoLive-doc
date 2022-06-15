@@ -1,11 +1,11 @@
 :Author: Hamish Bowman
 :Reviewer: Cameron Shorter, Jirotech
-:Reviewer: Markus Neteler
+:Reviewer: Markus Neteler, OSGeo & mundialis
 :Reviewer: Angelos Tzotsos, OSGeo
 :Reviewer: Luca Delucchi
 :Version: osgeolive13.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-:Copyright: 2011-2019 by The OSGeo Foundation
+:Copyright: 2011-2022 by The OSGeo Foundation
 
 @LOGO_grass@
 @OSGEO_KIND_grass@
@@ -52,7 +52,7 @@ as well as a handy desktop GIS for handheld PDAs or netbooks.
 Core Features
 --------------------------------------------------------------------------------
 
-* You name it, there's a `tool for it <https://grass.osgeo.org/grass78/manuals/keywords.html>`_.
+* You name it, there's a `tool for it <https://grass.osgeo.org/grass-stable/manuals/keywords.html>`_.
 * Explore the `screenshot collection <https://grass.osgeo.org/learn/gallery/>`_.
 
 Details
