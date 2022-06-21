@@ -4,23 +4,23 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Vicky Vergara <vicky@georepublic.de>, 2020
-# MarPetra <mvergaratrejo@gmail.com>, 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2022
+# Vicky Vergara <vicky@georepublic.de>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:22
 msgid "MapProxy Quickstart"
@@ -36,6 +36,10 @@ msgstr ""
 "mosaico. Almacena en memoria caché, acelera y transforma los datos de los "
 "servicios de mapa y sirve a cualquier cliente GIS de escritorio o web."
 
+#: ../../build/doc/quickstart/mapproxy_quickstart.rstNone
+msgid "MapProxy diagram"
+msgstr ""
+
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:31
 msgid ""
 "MapProxy is not only a tile cache solution, but also offers many new and "
@@ -44,6 +48,10 @@ msgstr ""
 "MapProxy no es sólo una solución de caché de mosaico, también ofrece muchas "
 "características nuevas e innovadoras como soporte completo para clientes "
 "WMS."
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:34
+msgid "Contents"
+msgstr "Contenidos"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:37
 msgid "Start the service and view the demo"
@@ -103,6 +111,10 @@ msgid ""
 msgstr ""
 "La configuración de ejemplo MapProxy contiene algunas capas que usan motores"
 " de mapa y datos de mapa. Ver abajo para más detalles sobre cada capa."
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:60
+msgid "MapProxy example in uDig"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:60
 msgid ""
@@ -232,8 +244,10 @@ msgid "What next?"
 msgstr "¿Qué sigue?"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:104
-msgid "Read the `documentation of MapProxy <../../mapproxy/index.html>`_"
-msgstr "Leer la `documentación de MapProxy <../../mapproxy/index.html>`_"
+msgid ""
+"Read the `documentation of MapProxy "
+"<https://localhost/mapproxy/index.html>`__"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:106
 msgid ""
@@ -241,3 +255,19 @@ msgid ""
 msgstr ""
 "Leer el ejemplo de configuración "
 "(``/usr/local/share/mapproxy/mapproxy.yaml``)"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Proyecto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo Comunitario"

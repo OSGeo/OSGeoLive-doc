@@ -4,23 +4,23 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Vicky Vergara <vicky@georepublic.de>, 2020
 # MarPetra <mvergaratrejo@gmail.com>, 2021
+# Vicky Vergara <vicky@georepublic.de>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2021\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/grass_overview.rst:21
 msgid "GRASS GIS"
@@ -91,17 +91,21 @@ msgstr ""
 " lotes de datos en supercomputadores paralelas masivas paralelo así como un "
 "práctico escritorio SIG para PDA portables o netbooks ."
 
+#: ../../build/doc/overview/grass_overview.rstNone
+msgid "grass screenshot"
+msgstr "pantalla de grass"
+
 #: ../../build/doc/overview/grass_overview.rst:63
 msgid "Core Features"
 msgstr "Características Principales"
 
 #: ../../build/doc/overview/grass_overview.rst:65
 msgid ""
-"You name it, there's a `tool for it "
-"<https://grass.osgeo.org/grass-stable/manuals/keywords.html>`_."
+"You name it, there's a `tool for it <https://grass.osgeo.org/grass-"
+"stable/manuals/keywords.html>`_."
 msgstr ""
-"Lo que sea, hay una `herramienta para ello "
-"<https://grass.osgeo.org/grass-stable/manuals/keywords.html>`_."
+"Lo que sea, hay una `herramienta para ello <https://grass.osgeo.org/grass-"
+"stable/manuals/keywords.html>`_."
 
 #: ../../build/doc/overview/grass_overview.rst:66
 msgid ""
@@ -147,3 +151,19 @@ msgstr "Inicio Rápido"
 msgid ":doc:`Quickstart documentation <../quickstart/grass_quickstart>`"
 msgstr ""
 ":doc:`Documentación de inicio rápido <../quickstart/grass_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Proyecto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo Comunitario"

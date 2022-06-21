@@ -4,23 +4,23 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Vicky Vergara <vicky@georepublic.de>, 2018
 # MarPetra <mvergaratrejo@gmail.com>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/cesium_overview.rst:13
 msgid "Cesium"
@@ -45,6 +45,10 @@ msgstr ""
 " navegador web sin complementos. Utiliza WebGL para gráficos acelerados por "
 "hardware, y es multiplataforma, navegador cruzado y ajustado para la "
 "visualización de datos dinámicos."
+
+#: ../../build/doc/overview/cesium_overview.rstNone
+msgid "cesium screenshot"
+msgstr "pantalla de cesium"
 
 #: ../../build/doc/overview/cesium_overview.rst:30
 msgid "Core Features"
@@ -83,9 +87,11 @@ msgid "Draw 3D models using COLLADA and glTF."
 msgstr "Dibujar modelos 3D COLLADA y glTF."
 
 #: ../../build/doc/overview/cesium_overview.rst:38
-msgid "Use `plugins <https://cesium.com/platform/cesiumjs/>`_ to extend Cesium."
+msgid ""
+"Use `plugins <https://cesium.com/platform/cesiumjs/>`_ to extend Cesium."
 msgstr ""
-"Utiliza `complementos <https://cesium.com/platform/cesiumjs/>`_ para extender Cesium."
+"Utiliza `complementos <https://cesium.com/platform/cesiumjs/>`_ para "
+"extender Cesium."
 
 #: ../../build/doc/overview/cesium_overview.rst:40
 msgid "Built for Performance and Precision:"
@@ -109,8 +115,8 @@ msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rst:44
 msgid ""
-"Use `3D Tiles <https://cesium.com/blog/2017/07/12/the-next-generation-of-3d-"
-"tiles/>`_ to stream, style and interact with heterogeneous 3D data, "
+"Use `3D Tiles <https://cesium.com/blog/2017/07/12/the-next-generation-"
+"of-3d-tiles/>`_ to stream, style and interact with heterogeneous 3D data, "
 "including photogrammetry models, 3D buildings, CAD and BIM exterior and "
 "interiors, and point clouds."
 msgstr ""
@@ -176,12 +182,8 @@ msgstr ""
 "un navegador que soporte WebGL"
 
 #: ../../build/doc/overview/cesium_overview.rst:67
-msgid ""
-"**Community Support:** Forum at "
-"https://groups.google.com/forum/?hl=en#!forum/cesium-dev"
-msgstr ""
-"**Soporte de la comunidad:** Foro en "
-"https://groups.google.com/forum/?hl=en#!forum/cesium-dev"
+msgid "**Community Support:** Forum at https://community.cesium.com"
+msgstr "**Soporte de la comunidad:** Foro en https://community.cesium.com"
 
 #: ../../build/doc/overview/cesium_overview.rst:72
 msgid "Quickstart"
@@ -191,3 +193,19 @@ msgstr "Inicio Rápido"
 msgid ":doc:`Quickstart documentation <../quickstart/cesium_quickstart>`"
 msgstr ""
 ":doc:`Documentación de Inicio Rápido <../quickstart/cesium_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Proyecto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo Comunitario"

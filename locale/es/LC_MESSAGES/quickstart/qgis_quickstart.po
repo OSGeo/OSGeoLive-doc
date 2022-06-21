@@ -4,23 +4,23 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Vicky Vergara <vicky@georepublic.de>, 2020
-# MarPetra <mvergaratrejo@gmail.com>, 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2022
+# Vicky Vergara <vicky@georepublic.de>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:36
 msgid "QGIS Quickstart"
@@ -34,6 +34,10 @@ msgstr ""
 "QGIS es un cliente de escritorio SIG fácil de usar que le permite "
 "visualizar, administrar, editar, analizar datos y componer mapas "
 "imprimibles."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:43
+msgid "Contents"
+msgstr "Contenidos"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:46
 msgid "Start QGIS"
@@ -54,6 +58,10 @@ msgid ""
 msgstr ""
 "Verá el lanzamiento de QGIS con un proyecto vacío. Las diversas partes de la"
 " interfaz QGIS se enumeran a continuación."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:0
+msgid "Open a QGIS project"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:57
 msgid ""
@@ -101,6 +109,10 @@ msgid "To create a new project, choose :menuselection:`Project --> New`."
 msgstr ""
 "Para crear un nuevo proyecto, elija :menuselection:`Proyecto --> Nuevo`."
 
+#: ../../build/doc/quickstart/qgis_quickstart.rst:0
+msgid "QGIS new project"
+msgstr ""
+
 #: ../../build/doc/quickstart/qgis_quickstart.rst:72
 msgid ""
 "Let's start by adding a vector layer to the map. Layers can be added to QGIS"
@@ -131,6 +143,10 @@ msgstr ""
 "Arrastre la capa desde el panel del navegador y suéltela en el marco del "
 "mapa."
 
+#: ../../build/doc/quickstart/qgis_quickstart.rst:0
+msgid "QGIS browser add vector layer"
+msgstr ""
+
 #: ../../build/doc/quickstart/qgis_quickstart.rst:83
 msgid ""
 "Once the layer has been dragged onto the map frame, you will see a layer "
@@ -138,6 +154,10 @@ msgid ""
 msgstr ""
 "Una vez que la capa se ha arrastrado al marco del mapa, verá una capa que "
 "muestra los países."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS vector layer"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:90
 msgid "Now let's try adding a raster layer to the project."
@@ -147,6 +167,10 @@ msgstr "Ahora vamos a intentar agregar una capa ráster al proyecto."
 msgid "Select 'HYP_50M_SR_W.tif'."
 msgstr "Seleccione 'HYP_50M_SR_W.tif'."
 
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS browser add raster layer"
+msgstr ""
+
 #: ../../build/doc/quickstart/qgis_quickstart.rst:101
 msgid ""
 "Once the layer has been dragged onto the map frame, you will see a raster "
@@ -154,6 +178,10 @@ msgid ""
 msgstr ""
 "Una vez que la capa se ha arrastrado al marco del mapa, verá una capa ráster"
 " que muestra la cobertura del suelo y la batimetría."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS raster layer"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:108
 msgid ""
@@ -167,6 +195,10 @@ msgstr ""
 msgid "Choose :menuselection:`Project --> Save`."
 msgstr "Elija :menuselection:`Proyecto --> Guardar`."
 
+#: ../../build/doc/quickstart/qgis_quickstart.rst:0
+msgid "QGIS save"
+msgstr ""
+
 #: ../../build/doc/quickstart/qgis_quickstart.rst:117
 msgid "Make the location to save the project '/home/user/desktop'."
 msgstr ""
@@ -175,6 +207,10 @@ msgstr ""
 #: ../../build/doc/quickstart/qgis_quickstart.rst:118
 msgid "Call the project 'My QGIS project'."
 msgstr "Llame al proyecto 'Mi proyecto QGIS'."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:0
+msgid "QGIS project location"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:124
 msgid "Click 'Save'."
@@ -191,6 +227,10 @@ msgstr ""
 "el escritorio llamado 'Mi proyecto QGIS' y la parte superior del documento "
 "del proyecto ya no se leerá como 'sin título' sino que se leerá como 'Mi "
 "proyecto QGIS'."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS saved project"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:134
 msgid "Open an existing project"
@@ -238,6 +278,10 @@ msgstr "Seleccione el proyecto 'QGIS-NaturalEarth-Example.qgs'."
 msgid "Click 'Open'."
 msgstr "Haga click en `Abrir`."
 
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS Open project"
+msgstr ""
+
 #: ../../build/doc/quickstart/qgis_quickstart.rst:152
 msgid ""
 "This will open a QGIS project with a number of Natural Earth datasets, as "
@@ -248,6 +292,10 @@ msgstr ""
 "Tierra Natural, como se muestra a continuación. Este proyecto contiene "
 "varias capas en el panel de capas y muestra el contenido espacial en el "
 "marco del mapa."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS Open project result"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:160
 msgid ""
@@ -261,6 +309,10 @@ msgstr ""
 "activa una capa en el panel de capas, el marco del mapa se actualizará para "
 "mostrar la capa. A continuación se muestra un primer plano del panel de "
 "capas."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS layer panel"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:168
 msgid ""
@@ -295,6 +347,10 @@ msgstr ""
 "en la lista de capas. Ahora podemos ver la capa 'ne_10m_populated_places' "
 "como puntos, pero ya no podemos ver los ríos y lagos que se encuentran "
 "dentro de la capa 'Aguas'."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS result of layer visibility changes"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:181
 msgid ""
@@ -331,6 +387,10 @@ msgstr ""
 " panel de capas. Esto ahora representa la capa ráster encima de todas las "
 "otras capas en el marco del mapa."
 
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS modified the order of layers"
+msgstr ""
+
 #: ../../build/doc/quickstart/qgis_quickstart.rst:196
 msgid ""
 "Try moving the 'HYP_50M_SR_W' layer to the bottom of the layer list. This "
@@ -350,6 +410,10 @@ msgid ""
 msgstr ""
 "La barra de herramientas de navegación permite a los usuarios moverse por el"
 " mapa y cambiar la extensión del mapa."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS navigation toolbar"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:208
 msgid "[1] Pan: Allows the map to be dragged ('panned') to a new location."
@@ -466,6 +530,10 @@ msgstr ""
 "fácilmente a través de un botón en la parte superior del panel de capas como"
 " se muestra a continuación."
 
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS style dock"
+msgstr ""
+
 #: ../../build/doc/quickstart/qgis_quickstart.rst:245
 msgid ""
 "The above button acts as a toggle so the style dock can be easily hidden "
@@ -487,6 +555,10 @@ msgstr ""
 "Con el muelle de estilo abierto, podemos modificar la apariencia de la capa "
 "que se muestra en la parte superior del muelle de estilo."
 
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS style dock layer"
+msgstr ""
+
 #: ../../build/doc/quickstart/qgis_quickstart.rst:255
 msgid ""
 "With the style dock now open, we can modify the colour and the width of the "
@@ -505,16 +577,28 @@ msgstr ""
 "Haga click en la muestra 'Color' que se muestra a continuación. Esto lanzará"
 " una paleta de colores que le permitirá elegir un color diferente."
 
+#: ../../build/doc/quickstart/qgis_quickstart.rst:0
+msgid "QGIS style dock color"
+msgstr ""
+
 #: ../../build/doc/quickstart/qgis_quickstart.rst:264
 msgid ""
 "In the 'Select Color' palette, move the cross-hair to your preferred colour."
 msgstr "En la paleta 'Seleccionar Color', mueva la cruz a su color preferido."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:0
+msgid "QGIS color palette"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:270
 msgid "Then click the back arrow to return to the symbol render preview."
 msgstr ""
 "Luego haga click en la flecha hacia atrás para volver a la vista previa de "
 "representación del símbolo."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:0
+msgid "QGIS style return"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:276
 msgid ""
@@ -523,6 +607,10 @@ msgid ""
 msgstr ""
 "La vista previa del símbolo se actualizará con el nuevo color, y también la "
 "capa en el marco del mapa."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:0
+msgid "QGIS style result"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:282
 msgid ""
@@ -544,6 +632,10 @@ msgstr ""
 #: ../../build/doc/quickstart/qgis_quickstart.rst:286
 msgid "In the style panel enter the value '0.5' in the 'width' input."
 msgstr "En el panel de estilo, ingrese el valor '0.5' en la entrada 'ancho'."
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:0
+msgid "QGIS style width"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:292
 msgid ""
@@ -583,19 +675,16 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:303
 msgid ""
-"Try publishing your QGIS map to the web using `QGIS Map Server "
-"<../overview/qgis_mapserver_overview.html>`_. in the "
-":menuselection:`Geospatial --> Web Services` menu."
+"Try publishing your QGIS map to the web using :doc:`QGIS Map Server "
+"<../overview/qgis_mapserver_overview>`. in the :menuselection:`Geospatial "
+"--> Web Services` menu."
 msgstr ""
-"Try publishing your QGIS map to the web using `QGIS Map Server "
-"<../overview/qgis_mapserver_overview.html>`_.  en el menú "
-":menuselection:`Geospatial --> Web Services`."
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:307
+#: ../../build/doc/quickstart/qgis_quickstart.rst:309
 msgid "What next?"
 msgstr "¿Qué sigue?"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:309
+#: ../../build/doc/quickstart/qgis_quickstart.rst:311
 msgid ""
 "To learn more about QGIS, a good starting point is the `Documentation page`_"
 " on the QGIS homepage and `A Gentle Introduction to GIS`_ eBook."
@@ -603,3 +692,19 @@ msgstr ""
 "Para obtener más información acerca de QGIS, un buen punto de partida es  "
 "`Documentation page`_ en la página web QGIS y  `A Gentle Introduction to "
 "GIS`_ eBook."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Proyecto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo Comunitario"

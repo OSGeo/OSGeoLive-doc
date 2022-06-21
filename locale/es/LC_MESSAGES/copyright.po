@@ -7,22 +7,22 @@
 # Jorge Sanz <xurxosanz@gmail.com>, 2017
 # Violeta Sosa <vsosa.ud@gmail.com>, 2018
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Vicky Vergara <vicky@georepublic.de>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 11:35-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/copyright.rst:2
 msgid "OSGeoLive Copyright"
@@ -161,10 +161,14 @@ msgid ""
 msgstr ""
 "|CC-By-SA-med| Este documento incluye contenido de la \"Guía de Inicio "
 "Rápido de gvSIG\" creada por Simon Cropper bajo la licenciaCreative Commons "
-"Attribution-ShareAlike 3.0 Unported, https://creativecommons.org/licenses"
-"/by-sa/3.0/ disponible en el proyecto OSGeoLive, "
-":doc:`quickstart/gvsig_quickstart`, y descargado el 25 de Julio de 2011. El "
-"trabajo original fue traducido del inglés al español."
+"Attribution-ShareAlike 3.0 Unported, "
+"https://creativecommons.org/licenses/by-sa/3.0/ disponible en el proyecto "
+"OSGeoLive, :doc:`quickstart/gvsig_quickstart`, y descargado el 25 de Julio "
+"de 2011. El trabajo original fue traducido del inglés al español."
+
+#: ../../build/doc/copyright.rst:0 ../../build/doc/copyright.rst:0
+msgid "CC-By-SA-med"
+msgstr "CC-By-SA-med"
 
 #: ../../build/doc/copyright.rst:36
 msgid "**Concise CC-By-SA and attribution:**"
@@ -195,6 +199,10 @@ msgstr ""
 "|CC-By-small| © 2011 [Su nombre]. [Derivado de | Incluye | Extiende] los "
 "resúmenes de los proyectos :doc:`OSGeoLive <index>`  por los "
 ":doc:`Contrinuidores de OSGeoLive <copyright>`."
+
+#: ../../build/doc/copyright.rst:0 ../../build/doc/copyright.rst:0
+msgid "CC-By-small"
+msgstr "CC-By-small"
 
 #: ../../build/doc/copyright.rst:47
 msgid "**Minimum (for Project Overviews), attribution only:**"
@@ -1483,3 +1491,19 @@ msgstr ""
 "contractual, esta responsabilidad estricta o agravio (incluyendo negligencia"
 " u otra) que surjan de cualquier modo por el uso de este software, incluso "
 "si se ha advertido de la posibilidad de tales daños.*"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Proyecto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo Comunitario"

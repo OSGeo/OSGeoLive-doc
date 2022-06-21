@@ -7,22 +7,22 @@
 # Debora Robles Perez <derobpe@gmail.com>, 2017
 # Violeta Sosa <vsosa.ud@gmail.com>, 2018
 # MarPetra <mvergaratrejo@gmail.com>, 2021
-# Vicky Vergara <vicky@georepublic.de>, 2021
+# Vicky Vergara <vicky@georepublic.de>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 11:35-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/overview.rst:6
 msgid "|osgeolive-version| Contents"
@@ -36,13 +36,43 @@ msgstr "Simbología"
 msgid "|osgeo_project| Is an OSGeo Project"
 msgstr "|osgeo_project| Es un proyecto OSGeo"
 
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Proyecto OSGeo"
+
 #: ../../build/doc/overview/overview.rst:14
 msgid "|osgeo_community| Is an OSGeo Community Project"
 msgstr "|osgeo_community| Es un Proyecto Comunitario de OSGeo"
 
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo Comunitario"
+
 #: ../../build/doc/overview/overview.rst:15
 msgid "|vmdk| Included only on OSGeoLive VMDK version"
 msgstr "|vmdk| Incluido sólo en la versión VMDK de OSGeoLive"
+
+#: ../../build/doc/<rst_epilog>:12 ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:12 ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:12 ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
 
 #: ../../build/doc/overview/overview.rst:19
 msgid "Desktop GIS"
@@ -83,6 +113,25 @@ msgid ""
 msgstr ""
 "|nologo| :doc:`openjump_overview` - [:doc:`Quickstart "
 "<../quickstart/openjump_quickstart>`]"
+
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
 
 #: ../../build/doc/overview/overview.rst:47
 msgid ""
@@ -576,8 +625,8 @@ msgstr ""
 "Espacial en Europa"
 
 #: ../../build/doc/overview/overview.rst:350
-msgid "Available in prior OSGeo-Live releases"
-msgstr "Disponible en versiones anteriores de OSGeo-Live"
+msgid "Available in prior OSGeoLive releases"
+msgstr "Disponible en versiones anteriores de OSGeoLive"
 
 #: ../../build/doc/overview/overview.rst:362
 msgid ":doc:`../prior_applications`"
