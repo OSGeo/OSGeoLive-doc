@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -37,6 +37,10 @@ msgstr ""
 "Marble はオープンソースの KDE 教育プロジェクトプログラムで、NASA World Wind や Google Earth "
 "に似ています。地球儀に表示する(OpenStreetMap を含む)マップをいろいろ選択するだけでなく、アプリケーションに KDE Marble "
 "ウィジェットを含めることをお勧めします。"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:27
+msgid "Contents"
+msgstr ""
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:30
 msgid "Start Marble"
@@ -165,8 +169,6 @@ msgid ""
 "Try to use the Routing feature. See the `Marble documentation "
 "<https://marble.kde.org>`_ for help."
 msgstr ""
-"ルーティング機能を使用してみます。ヘルプについて、 `Marble ドキュメント "
-"<https://marble.kde.org>`_ を参照してください。"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:104
 msgid "What next?"
@@ -176,3 +178,19 @@ msgstr "次のステップ"
 msgid ""
 "See the `Marble homepage <https://marble.kde.org/>`_ for more information."
 msgstr "詳細については、 `Marble ホームページ <https://marble.kde.org/>`_ を参照してください。"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

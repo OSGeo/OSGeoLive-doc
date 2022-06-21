@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-06 18:01-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2021-02-07 00:39+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -42,6 +42,10 @@ msgstr ""
 "XyGrib は Grib ファイルリーダ、気象データを可視化して、天気予報もしくは過去の再予報を分析するオフライン機能を提供しています。XyGrib "
 "は zyGrip "
 "ソフトウェアパッケージの新しいボランティアチームによる後継となります。気象を調べることに真剣な興味がある誰もに、有能な気象ワークステーションとして利用されることを意図されています。これには、セーリングコミュニティのメンバーや、民間およびスポーツの飛行士、農業従事者、気象マニアなどが含まれています。"
+
+#: ../../build/doc/overview/xygrib_overview.rstNone
+msgid "xygrib screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/xygrib_overview.rst:29
 msgid "Core Features"
@@ -81,7 +85,7 @@ msgstr "詳細"
 
 #: ../../build/doc/overview/xygrib_overview.rst:41
 msgid "**Website:** https://opengribs.org/en"
-msgstr "**Webサイト:** https://opengribs.org/en"
+msgstr ""
 
 #: ../../build/doc/overview/xygrib_overview.rst:43
 msgid "**Licence:** GNU General Public License (GPL) version 3"
@@ -106,3 +110,19 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/xygrib_overview.rst:57
 msgid ":doc:`Quickstart documentation <../quickstart/xygrib_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/xygrib_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-06 18:01-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -34,6 +34,10 @@ msgstr ""
 "pgRouting は、経路探索と他のネットワーク解析機能を "
 ":doc:`../overview/postgis_overview`/`PostgreSQL "
 "<https://www.postgresql.org>`_ データベースに追加する拡張機能です。"
+
+#: ../../build/doc/quickstart/pgrouting_quickstart.rst:29
+msgid "Contents"
+msgstr ""
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:32
 msgid "Enabling pgRouting in a database"
@@ -237,3 +241,19 @@ msgstr ""
 "**osm2pgRouting によるデータの読み込み** - "
 "https://github.com/pgRouting/osm2pgrouting/wiki/Documentation-for-"
 "osm2pgrouting-v2.3"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

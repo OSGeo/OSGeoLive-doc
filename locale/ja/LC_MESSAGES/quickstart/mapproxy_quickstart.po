@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -36,12 +36,20 @@ msgstr ""
 "スイスアーミーナイフです。既存のマップサービスのデータをキャッシュし、高速化し、変換して、任意のデスクトップまたはWeb "
 "GISクライアントに提供します。"
 
+#: ../../build/doc/quickstart/mapproxy_quickstart.rstNone
+msgid "MapProxy diagram"
+msgstr ""
+
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:31
 msgid ""
 "MapProxy is not only a tile cache solution, but also offers many new and "
 "innovative features like full support for WMS clients."
 msgstr ""
 "MapProxyはタイルキャッシュソリューションであるだけでなく、WMSクライアントの完全サポートなど、多くの新しい革新的な機能を提供します。"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:34
+msgid "Contents"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:37
 msgid "Start the service and view the demo"
@@ -94,6 +102,10 @@ msgid ""
 "map engines and map data. See below for more details about each layer."
 msgstr ""
 "MapProxyの設定例には、異なるマップエンジンとマップデータを使用するレイヤがいくつか含まれています。各レイヤの詳細については、以下を参照してください。"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:60
+msgid "MapProxy example in uDig"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:60
 msgid ""
@@ -207,10 +219,28 @@ msgid "What next?"
 msgstr "次のステップ"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:104
-msgid "Read the `documentation of MapProxy <../../mapproxy/index.html>`_"
-msgstr "`MapProxyドキュメント <../../mapproxy/index.html>`_  を読みます"
+msgid ""
+"Read the `documentation of MapProxy "
+"<https://localhost/mapproxy/index.html>`__"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:106
 msgid ""
 "Read the example configuration (``/usr/local/share/mapproxy/mapproxy.yaml``)"
 msgstr "設定例 (``/usr/local/share/mapproxy/mapproxy.yaml``) を確認します。"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

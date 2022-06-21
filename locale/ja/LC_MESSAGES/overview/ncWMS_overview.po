@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-06 18:01-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:11+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -39,6 +39,10 @@ msgid ""
 msgstr ""
 "ncWMS は OGC 準拠の Web Map Service (WMS) として多次元データ ( 環境や気象データなど ) "
 "を公開しています。ncWMS は、通常、環境データに関連付けられた非常に大きなデータ・ファイルから、マップ・イメージを迅速かつ効率的に抽出します。"
+
+#: ../../build/doc/overview/ncWMS_overview.rstNone
+msgid "ncWMS screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/ncWMS_overview.rst:28
 msgid "Core Features"
@@ -147,3 +151,19 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/ncWMS_overview.rst:77
 msgid ":doc:`Quickstart documentation <../quickstart/ncWMS_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/ncWMS_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

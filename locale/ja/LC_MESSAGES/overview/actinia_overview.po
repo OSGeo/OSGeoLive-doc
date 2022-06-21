@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 11:35-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -44,6 +44,10 @@ msgid ""
 "It provides a REST API to process satellite images, time series of satellite"
 " images, arbitrary raster data with geographical relations and vector data."
 msgstr "衛星画像、時系列衛星画像、地理的関係を持つ任意のラスタデータ、ベクタデータを処理するREST APIを提供しています。"
+
+#: ../../build/doc/overview/actinia_overview.rstNone
+msgid "actinia screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:39
 msgid "Core Features"
@@ -84,8 +88,10 @@ msgid "**API Interfaces:** REST API, Python"
 msgstr "**API インタフェース:** REST API, Python"
 
 #: ../../build/doc/overview/actinia_overview.rst:57
-msgid "**API documentation:** https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json"
-msgstr "**API文書:** https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json"
+msgid ""
+"**API documentation:** "
+"https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json"
+msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:59
 msgid "**Support:** https://github.com/mundialis/actinia_core"
@@ -98,3 +104,19 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/actinia_overview.rst:66
 msgid ":doc:`Quickstart documentation <../quickstart/actinia_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/actinia_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

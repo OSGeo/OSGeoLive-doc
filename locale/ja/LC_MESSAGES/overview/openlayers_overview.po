@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -41,6 +41,10 @@ msgstr ""
 "OpenLayersを使用すると、任意のWebページに動的な地図を簡単に配置できます。任意のソースから地図タイル、ベクタデータやマーカーをロードして表示可能です。OpenLayers"
 " はすべての種類の地理情報のさらなる利用のために開発されてきました。完全にフリーなオープンソース JavaScript で、2条項 BSD ライセンス "
 "(FreeBSD ライセンスとしても知られています) でリリースされています。"
+
+#: ../../build/doc/overview/openlayers_overview.rstNone
+msgid "openlayers screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/openlayers_overview.rst:35
 msgid "Core Features"
@@ -181,3 +185,19 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/openlayers_overview.rst:92
 msgid ":doc:`Quickstart documentation <../quickstart/openlayers_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/openlayers_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

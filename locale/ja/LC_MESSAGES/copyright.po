@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 11:35-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -146,6 +146,10 @@ msgstr ""
 "and downloaded on 25 July 2011. The original work was translated from "
 "English to German."
 
+#: ../../build/doc/copyright.rst:0 ../../build/doc/copyright.rst:0
+msgid "CC-By-SA-med"
+msgstr ""
+
 #: ../../build/doc/copyright.rst:36
 msgid "**Concise CC-By-SA and attribution:**"
 msgstr "**簡潔な CC-By-SA と帰属:**"
@@ -175,6 +179,10 @@ msgstr ""
 "|CC-By-small| © 2011 [あなたの名前]. [Derived from|Includes|Extends] "
 ":doc:`OSGeoLive <index>` Project Overviews by :doc:`OSGeoLive contributors "
 "<copyright>`."
+
+#: ../../build/doc/copyright.rst:0 ../../build/doc/copyright.rst:0
+msgid "CC-By-small"
+msgstr ""
 
 #: ../../build/doc/copyright.rst:47
 msgid "**Minimum (for Project Overviews), attribution only:**"
@@ -1451,3 +1459,19 @@ msgid ""
 msgstr ""
 "*OSGeoLiveのコンテンツは、著作権保持者および貢献者によって \"現状のまま\" "
 "提供され、商品性および特定目的への適合性の黙示的な保証を含む(ただし、これらに限定されない)、明示的または暗示的ないかなる保証も拒否されます。いかなる場合においても、著作権所有者または貢献者は、直接的、間接的、付随的、特別、懲罰的、または結果的な損害(代替の商品またはサービスの調達、使用、日付、または利益の損失、またはビジネスの中断を含むが、これらに限定されない)に対して責任を負わないものとします。ただし、契約、厳格な賠償責任、または不法行為(過失またはその他を含む)のいずれであるかを問わず、いかなる責任の理論に基づいて、本ソフトウェアの使用によって発生したいかなる損害についても、たとえそのような損害の可能性について知らされていたとしても、責任を負わないものとします。*"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -40,6 +40,10 @@ msgstr ""
 "Rasdamanは、多次元の時空間センサー、画像、シミュレーション、統計データに関する柔軟なアドホック分析のためのビッグデータエンジンです。Web "
 "Coverage Processing "
 "Service(WCPS)クエリ言語は、オープン地理空間コンソーシアム(OGC)標準で、Webサービスを使用して、センサー、シミュレーション、画像、統計データなどの多次元ラスタカバレッジのフィルタリングと処理を可能にします。WCPSクエリは、rasdamanクエリ言語であるrasqlに変換され、rasdaman上で実行されます。このクイックスタートでは、WCPS言語を使用してサンプルの2Dカバレッジにアクセスし、操作する方法を説明します。"
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:31
+msgid "Contents"
+msgstr ""
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:34
 msgid "Setup"
@@ -229,3 +233,19 @@ msgstr ""
 "demo>`_ をご覧ください。OSGeoLive に含まれているのは小さい例です。 `OGC標準ショーケースサイト "
 "<https://standards.rasdaman.com>`_  "
 "では、(ドライブ容量をこえるような)大きなデータセットを使っている例を見ることができます。"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -36,6 +36,10 @@ msgstr ""
 "Leaflet はブラウザベースで、モバイルフレンドリーなインタラクティブ地図のための JavaScript "
 "ライブラリです。軽量ですが、ほとんどの開発者がオンライン地図に必要とするすべての機能を備えています。Leaflet "
 "はシンプル、パフォーマンス、ユーザビリティを念頭に設計されています。"
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:22
+msgid "Contents"
+msgstr ""
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:25
 msgid "Running"
@@ -258,3 +262,19 @@ msgid ""
 msgstr ""
 "これで、Leaflet の基礎を学び、地図アプリをすぐに作ることができます! 詳細な documentation_ やその他の examples_ "
 "をぜひ見てください。"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 22:14-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -43,14 +43,10 @@ msgstr "前提条件"
 msgid ""
 "GeoNetwork can directly be started from the OSGeo Live start menu and will "
 "be available at http://localhost:8080/geonetwork some moments later. Check "
-"the `Installation Guide <https://geonetwork-opensource.org/manuals/trunk/en"
-"/install-guide/index.html>`__ if you are using GeoNetwork is some other "
-"context."
+"the `Installation Guide <https://geonetwork-"
+"opensource.org/manuals/trunk/en/install-guide/index.html>`__ if you are "
+"using GeoNetwork in some other context."
 msgstr ""
-"GeoNetworkは、OSGeo Liveのスタートメニューから直接起動できます。http://localhost:8080/geonetwork "
-"には、しばらく後に接続可能になります。`Installation Guide <https://geonetwork-"
-"opensource.org/manuals/trunk/en/install-guide/index.html>`__  "
-"を参照してください。GeoNetworkを使用している場合は、他のコンテキストも参照してください。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:39
 msgid ""
@@ -441,9 +437,9 @@ msgid ""
 " on **Describing Information**, to learn how to create and edit metadata "
 "records."
 msgstr ""
-"`Geonetwork User Guide <https://geonetwork-opensource.org/manuals/trunk/en"
-"/user-guide/index.html>`_ にアクセスし、 **Describing Information** "
-"の章を参照して、メタデータレコードの作成と編集方法を学んでください。"
+"`Geonetwork User Guide <https://geonetwork-"
+"opensource.org/manuals/trunk/en/user-guide/index.html>`_ にアクセスし、 "
+"**Describing Information** の章を参照して、メタデータレコードの作成と編集方法を学んでください。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:223
 msgid ""
@@ -452,3 +448,19 @@ msgid ""
 " and publish your metadata to the outside world."
 msgstr ""
 "後続の章へ進んで、リソースをメタデータに関連付け、キーワードでタグ付けしてカテゴリに追加し、メタデータを外部に公開する方法を学習しましょう。"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

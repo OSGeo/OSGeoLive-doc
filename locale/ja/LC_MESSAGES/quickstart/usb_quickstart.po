@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -51,8 +51,8 @@ msgid "Requirements"
 msgstr "必要なもの"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:18
-msgid "A USB flash drive (at least 4 Gig, 8+ Gig is recommended)."
-msgstr "USB フラッシュドライブ (最低 4 GB、推奨 8 GB 以上)。"
+msgid "A USB flash drive (8+ Gig is recommended)."
+msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:19
 msgid ""
@@ -62,28 +62,11 @@ msgstr ""
 "OSGeoLive ISOイメージ(:doc:`OSGeoLive downloads <../download>` "
 "からダウンロード)またはDVDから変換されたもの。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:21
-msgid ""
-"For a 4 GB USB flash drive, use osgeolive-mini ISO (without Windows and Mac "
-"installers), without persistence."
-msgstr ""
-"4 GB USB フラッシュドライブ用には、osgeolive-mini ISO を使用 "
-"(WindowsとMac向けのインストーラーを含まない)、永続性は非サポート。"
-
-#: ../../build/doc/quickstart/usb_quickstart.rst:22
-msgid ""
-"For a 8+ GB USB flash drive, use either osgeolive-mini ISO, or osgeolive ISO"
-" (with Windows and Mac installers). 8+ GB is recommended if you wish to "
-"support persistence."
-msgstr ""
-"8 GB 以上の USB フラッシュドライブ用には、osgeolive-mini ISO か osgeolive ISO のどちらかを使用 "
-"(WindowsとMac向けのインストーラーを含む)、永続性をサポートする場合は 8 GB 以上を推奨。"
-
-#: ../../build/doc/quickstart/usb_quickstart.rst:25
+#: ../../build/doc/quickstart/usb_quickstart.rst:23
 msgid "Creating bootable USB drive with ``dd`` under Linux"
 msgstr "Linux 環境で ``dd`` でブータブル USB ドライブの作成"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:27
+#: ../../build/doc/quickstart/usb_quickstart.rst:25
 msgid ""
 "ISO images for OSGeoLive 10.5 and later are *isohybrid* (and for amd64, also"
 " support UEFI boot). Under Linux, these images can be written directly to "
@@ -92,13 +75,13 @@ msgstr ""
 "OS GeoLive10.5以降のISOイメージは *isohybrid* です(amd64もサポートUEFIブート)。Linuxでは、 ``dd`` "
 "コマンドラインユーティリティを使用して、これらのイメージをUSBドライブのブロックデバイスに直接書き込むことができます。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:33
+#: ../../build/doc/quickstart/usb_quickstart.rst:31
 msgid ""
 "``/dev/sdX`` is the block device for the USB drive, where ``X`` might be "
 "``b`` or ``c``."
 msgstr "``/dev/sdX`` はUSBドライブのブロックデバイスで、 ``X`` は ``b`` または ``c`` かもしれません。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:34
+#: ../../build/doc/quickstart/usb_quickstart.rst:32
 msgid ""
 "Use ``lsblk`` to list block devices and ``dmesg`` to see kernel messages "
 "identifying the USB drive when it is connected."
@@ -106,31 +89,31 @@ msgstr ""
 "``lsblk`` を使用してブロックデバイスを一覧表示し、 ``dmesg`` "
 "を使用して接続時にUSBドライブを識別するカーネルメッセージを表示します。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:35
+#: ../../build/doc/quickstart/usb_quickstart.rst:33
 msgid "The USB drive should not be mounted."
 msgstr "USBドライブはマウントされていないようにしてください。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:36
+#: ../../build/doc/quickstart/usb_quickstart.rst:34
 msgid "``sudo`` is not required if the command is run as ``root``."
 msgstr "``sudo`` は、 ``root`` としてコマンド実行している場合は必要ありません。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:39
+#: ../../build/doc/quickstart/usb_quickstart.rst:37
 msgid ""
 "Be certain to select the correct block device as ``dd`` will overwrite it "
 "without question, even if it is your primary system drive."
 msgstr "``dd`` は、たとえプライマリシステムドライブであっても、問題なく上書きするので、正しいブロックデバイスを選択してください。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:42
+#: ../../build/doc/quickstart/usb_quickstart.rst:40
 msgid "Creating bootable USB drive with Ubuntu Startup Disk Creator"
 msgstr "Ubuntu Startup Disk Creatorを使用したブータブルUSBドライブの作成"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:44
+#: ../../build/doc/quickstart/usb_quickstart.rst:42
 msgid ""
 "(This is the recommended process for creating a USB. It is applicable to "
 "Ubuntu and Ubuntu variants such as OSGeoLive.)"
 msgstr "(これはUSBを作成するための推奨プロセスです。UbuntuやOSGeoLiveなどのUbuntuバージョンにも適用されます。)"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:47
+#: ../../build/doc/quickstart/usb_quickstart.rst:45
 msgid ""
 "The version of Ubuntu you are running, needs to be the same or newer than "
 "the version of Lubuntu being installed onto your USB.  If installing "
@@ -140,7 +123,7 @@ msgstr ""
 "実行しているUbuntuのバージョンは、USBにインストールされているUbuntuのバージョンと同じか新しい必要があります。OS "
 "GeoLive8.0をUSBにインストールする場合は、Ubuntu14.04以降を実行している必要があります。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:49
+#: ../../build/doc/quickstart/usb_quickstart.rst:47
 msgid ""
 ":doc:`Download <../download>` osgeolive or osgeolive-mini to your computer's"
 " hard drive."
@@ -148,7 +131,7 @@ msgstr ""
 "osgeoliveまたはosgeolive-miniをコンピュータのハードディスクに :doc:`ダウンロード <../download>` "
 "してください。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:51
+#: ../../build/doc/quickstart/usb_quickstart.rst:49
 msgid ""
 "Boot your computer into a recent Ubuntu/Xbuntu distribution. You can do this"
 " by running from an OSGeoLive DVD, as explained in "
@@ -157,11 +140,11 @@ msgstr ""
 "最新のUbuntu/Xbuntuディストリビューションでコンピュータを起動します。これは、 :doc:`osgeolive_quickstart` "
 "で説明されているように、OSGeoLive DVDから実行すること実行できます。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:53
+#: ../../build/doc/quickstart/usb_quickstart.rst:51
 msgid "Insert the USB flash drive into your computer."
 msgstr "USBフラッシュドライブをコンピュータに挿入します。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:58
+#: ../../build/doc/quickstart/usb_quickstart.rst:56
 msgid ""
 "Select :menuselection:`System Tools --> Startup Disk Creator`, or search for"
 " `Startup Disk Creator` from the Unity desktop."
@@ -169,13 +152,13 @@ msgstr ""
 ":menuselection:`System Tools --> Startup Disk Creator` を選択するか、デスクトップから "
 "`Startup Disk Creator` を検索します。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:63
+#: ../../build/doc/quickstart/usb_quickstart.rst:61
 msgid ""
 "Select the osgeolive or osgeolive-mini ISO Image that you downloaded "
 "earlier."
 msgstr "先ほどダウンロードしたosgeoliveまたはosgeolive-mini ISOイメージを選択します。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:65
+#: ../../build/doc/quickstart/usb_quickstart.rst:63
 msgid ""
 "Select the USB flash drive. If you have extra room you might adjust the "
 "slider to create persistent storage space on the USB drive (recommended). In"
@@ -184,41 +167,41 @@ msgid ""
 msgstr ""
 "USBフラッシュドライブを選択します。余裕がある場合は、スライダーを調整してUSBドライブに永続的なストレージスペースを作成することをお勧めします(推奨)。このオプションを利用するには、8GB以上のUSBフラッシュドライブが必要です。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:67
+#: ../../build/doc/quickstart/usb_quickstart.rst:65
 msgid "Select :guilabel:`Make Startup Disk`"
 msgstr ":guilabel:`Make Startup Disk` を選択します。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:72
+#: ../../build/doc/quickstart/usb_quickstart.rst:70
 msgid "Wait 20 minutes or so for the USB flash drive to be created."
 msgstr "USBフラッシュドライブが作成されるまで20分ほど待ちます。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:76
+#: ../../build/doc/quickstart/usb_quickstart.rst:74
 msgid "Booting from the USB drive:"
 msgstr "USBドライブから起動中:"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:78
+#: ../../build/doc/quickstart/usb_quickstart.rst:76
 msgid "Start with the computer off."
 msgstr "コンピュータをオフにして起動します。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:79
+#: ../../build/doc/quickstart/usb_quickstart.rst:77
 msgid "Insert the USB drive into an open USB port."
 msgstr "開いているUSBポートにUSBドライブを挿入します。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:80
+#: ../../build/doc/quickstart/usb_quickstart.rst:78
 msgid "Power on the Machine and select to boot from USB:"
 msgstr "マシンの電源を入れ、USBから起動するように選択します。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:82
+#: ../../build/doc/quickstart/usb_quickstart.rst:80
 msgid "Most computers are not set to boot from a USB drive by default."
 msgstr "ほとんどのコンピュータは、デフォルトではUSBドライブから起動するように設定されていません。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:83
+#: ../../build/doc/quickstart/usb_quickstart.rst:81
 msgid ""
 "When booting, look for a message indicating a Boot Menu (most commonly you "
 "press F12)"
 msgstr "起動時に、起動メニューを示すメッセージを探します(通常はF12を押します)"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:84
+#: ../../build/doc/quickstart/usb_quickstart.rst:82
 msgid ""
 "If your computer does not have a boot menu, then boot into your system BIOS."
 " The button to enter BIOS varies by brand and model of computer. If you "
@@ -226,58 +209,58 @@ msgid ""
 "https://www.mydigitallife.net/comprehensive-list-of-how-key-to-press-to-"
 "access-bios-for-various-oem-and-computer-systems/"
 msgstr ""
-"コンピュータに起動メニューがない場合は、システムBIOSで起動します。BIOSに入るボタンは、コンピュータのブランドとモデルによって異なります。あなたのBIOSがわからない場合は、多くのBIOSホットキーがリストされているこのWebサイトを試してください。https://www.mydigitallife.net"
-"/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-"
-"computer-systems/"
+"コンピュータに起動メニューがない場合は、システムBIOSで起動します。BIOSに入るボタンは、コンピュータのブランドとモデルによって異なります。あなたのBIOSがわからない場合は、多くのBIOSホットキーがリストされているこのWebサイトを試してください。https://www.mydigitallife.net/comprehensive-"
+"list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-"
+"systems/"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:86
+#: ../../build/doc/quickstart/usb_quickstart.rst:84
 msgid "Select to boot from the USB device."
 msgstr "選択してUSBデバイスから起動します。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:88
+#: ../../build/doc/quickstart/usb_quickstart.rst:86
 msgid ""
 "Note, that for some computers you will need to have the USB drive inserted "
 "into the computer in order to select it."
 msgstr "一部のコンピュータでは、USBドライブをコンピュータに挿入して選択する必要があります。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:89
+#: ../../build/doc/quickstart/usb_quickstart.rst:87
 msgid ""
 "Note also, the USB drive is often listed under hard drives rather than "
 "removable devices."
 msgstr "また、USBドライブは多くの場合、取り外し可能なデバイスではなくハードドライブに表示されます。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:90
+#: ../../build/doc/quickstart/usb_quickstart.rst:88
 msgid ""
 "This `Video <https://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates "
 "booting from USB."
 msgstr ""
 "この `ビデオ <https://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ は、USBからの起動を示しています。"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:93
+#: ../../build/doc/quickstart/usb_quickstart.rst:91
 msgid "Run:"
 msgstr "実行"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:95
+#: ../../build/doc/quickstart/usb_quickstart.rst:93
 msgid "Run as per: :doc:`osgeolive_quickstart`"
 msgstr ":doc:`osgeolive_quickstart` のように実行します"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:98
+#: ../../build/doc/quickstart/usb_quickstart.rst:96
 msgid "See Also:"
 msgstr "参照:"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:100
+#: ../../build/doc/quickstart/usb_quickstart.rst:98
 msgid ":doc:`osgeolive_quickstart`"
 msgstr ":doc:`osgeolive_quickstart`"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:101
+#: ../../build/doc/quickstart/usb_quickstart.rst:99
 msgid ":doc:`virtualization_quickstart`"
 msgstr ":doc:`virtualization_quickstart`"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:102
+#: ../../build/doc/quickstart/usb_quickstart.rst:100
 msgid ":doc:`osgeolive_install_quickstart`"
 msgstr ":doc:`osgeolive_install_quickstart`"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:103
+#: ../../build/doc/quickstart/usb_quickstart.rst:101
 msgid ""
 "Alternative USB creation methods and latest tips are collected here: `wiki "
 "<https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
@@ -285,8 +268,24 @@ msgstr ""
 "代替のUSB作成方法と最新のヒントは、次の場所に集められています: `wiki "
 "<https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
 
-#: ../../build/doc/quickstart/usb_quickstart.rst:104
+#: ../../build/doc/quickstart/usb_quickstart.rst:102
 msgid ""
 "Questions can be directed to our email list: "
 "https://lists.osgeo.org/pipermail/osgeolive/"
 msgstr "質問は、メーリングリストに送ることができます: https://lists.osgeo.org/pipermail/osgeolive/"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

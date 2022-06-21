@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -34,6 +34,10 @@ msgstr ""
 "ZOOプロジェクトは、Web Processing Servicesを作成およびチェーンするための開発者向けのWeb Processing "
 "Service(WPS)フレームワークを提供します。WPSは空間アルゴリズムを実行する機能へのWebアクセスを提供します。"
 
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:30
+msgid "Contents"
+msgstr ""
+
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:33
 msgid "Start ZOO-Project"
 msgstr "ZOOプロジェクトを開始する"
@@ -51,6 +55,14 @@ msgid ""
 "Firefox will open the ZOO Project demonstration landing page. From here, you"
 " can select a demon application."
 msgstr "FirefoxはZOOプロジェクトのデモランディングページを開きます。ここから、デモアプリケーションを選択できます。"
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rstNone
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
+msgid "screenshot"
+msgstr ""
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:45
 msgid "OGR spatial tools demo"
@@ -150,3 +162,19 @@ msgid ""
 "discuss@lists.osgeo.org"
 msgstr ""
 "詳細については、ZOO Projectメーリングリスト: zoo-discuss@lists.osgeo.org  に問い合わせてください。"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

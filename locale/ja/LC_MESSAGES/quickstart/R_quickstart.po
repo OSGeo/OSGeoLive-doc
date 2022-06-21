@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 21:50-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -50,6 +50,10 @@ msgstr "座標変換を行う"
 #: ../../build/doc/quickstart/R_quickstart.rst:27
 msgid "plot some data points on a map"
 msgstr "地図上にいくつかのデータポイントをプロットする"
+
+#: ../../build/doc/quickstart/R_quickstart.rst:31
+msgid "Contents"
+msgstr ""
 
 #: ../../build/doc/quickstart/R_quickstart.rst:34
 msgid "Start R"
@@ -277,3 +281,19 @@ msgid ""
 "You might also want to check out the `R-Spatial <https://www.rspatial.org>`_"
 " page."
 msgstr "`R-Spatial <https://www.rspatial.org>`_  ページもチェックしてみてください。"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

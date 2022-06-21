@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:11+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -71,6 +71,10 @@ msgid ""
 "growing community of individuals, businesses and organizations."
 msgstr "pgRouting は GPLv2+ ライセンスで提供され、個人、企業及び団体からなる、成長中のコミュニティによってサポートされています。"
 
+#: ../../build/doc/overview/pgrouting_overview.rstNone
+msgid "pgrouting screenshot"
+msgstr ""
+
 #: ../../build/doc/overview/pgrouting_overview.rst:48
 msgid "Core Features"
 msgstr "主な機能"
@@ -113,7 +117,6 @@ msgid ""
 "Learn more about pgRouting in the `documentation "
 "<https://docs.pgrouting.org>`__."
 msgstr ""
-"pgRouting についてもっと知りたい場合は `ドキュメント <https://docs.pgrouting.org>`__ を参照してください。"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:71
 msgid "Details"
@@ -150,3 +153,19 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/pgrouting_overview.rst:91
 msgid ":doc:`Quickstart documentation <../quickstart/pgrouting_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/pgrouting_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

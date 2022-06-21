@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:07+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -51,9 +51,17 @@ msgstr ""
 "<openlayers_overview>` Web クライアントのための単一のタイルキャッシュから、数十の分散型 WMS "
 "サービスの結合、統合、高速化を行う、中央の空間データインフラストラクチャ SDI ノードまでスケールします。"
 
+#: ../../build/doc/overview/mapproxy_overview.rstNone
+msgid "mapproxy screenshot"
+msgstr ""
+
 #: ../../build/doc/overview/mapproxy_overview.rst:35
 msgid "Core Features"
 msgstr "主な機能"
+
+#: ../../build/doc/overview/mapproxy_overview.rstNone
+msgid "MapProxy demo"
+msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rst:49
 msgid "Input sources:"
@@ -308,3 +316,19 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/mapproxy_overview.rst:127
 msgid ":doc:`Quickstart documentation <../quickstart/mapproxy_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/mapproxy_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

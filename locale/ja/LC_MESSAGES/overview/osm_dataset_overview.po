@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -67,6 +67,10 @@ msgid ""
 msgstr ""
 "OSGeoLive "
 "のディストリビューションには、いくつかのアプリケーションで例に使用されているOSMデータの都市サイズに抽出されたデータが含まれています。"
+
+#: ../../build/doc/overview/osm_dataset_overview.rstNone
+msgid "osm_dataset screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:34
 msgid "Core Features"
@@ -138,10 +142,9 @@ msgid ""
 "another PostGIS database called \"pgrouting\"."
 msgstr ""
 "OSM機能の都市データは、osm2pgsqlツールを使用して \"osm_local\" "
-"という名前のPostGISデータベースにインポートされています。このデータベースに使用される空間参照システムは、WGS84データム(EPSGコード4326"
-")を使用した緯度-経度順であり、必要に応じて、Spherical-"
-"Mercatorなどの他の空間参照システム(SRS)に再投影できます。小さなCBD抽出物は、 \"pgrouting\" "
-"と呼ばれる別のPostGISデータベースにロードされます。"
+"という名前のPostGISデータベースにインポートされています。このデータベースに使用される空間参照システムは、WGS84データム(EPSGコード4326)を使用した緯度-"
+"経度順であり、必要に応じて、Spherical-Mercatorなどの他の空間参照システム(SRS)に再投影できます。小さなCBD抽出物は、 "
+"\"pgrouting\" と呼ばれる別のPostGISデータベースにロードされます。"
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:63
 msgid "Details"
@@ -174,3 +177,19 @@ msgstr "**空間参照系:** 緯度経度 WGS84"
 #: ../../build/doc/overview/osm_dataset_overview.rst:75
 msgid "**Support:** https://www.openstreetmap.org/help"
 msgstr "**サポート:** https://www.openstreetmap.org/help"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

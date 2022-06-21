@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2019-07-17 15:40+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -39,6 +39,10 @@ msgstr ""
 "GeoExtはブラウザ上で動作するJavaScriptライブラリであり、ExtJSフレームワークとOpenLayersライブラリを組み合わせて拡張したものです。このクイックスタートでは、200行未満のコードでGeoExtコンポーネントを使用してリッチなWebアプリケーションを作成する手順について詳しく説明します。アプリケーションにマップ・レイヤを提供するために、OSGeoLiveにインストールされたMapServer"
 " WebサービスをMapServerとして使用します。以下のステップを完了すると、http://localhost/geoext/ "
 "でGeoExtアプリケーションのデモが行われます。"
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:24
+msgid "Contents"
+msgstr ""
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:27
 msgid "Create an HTML page"
@@ -233,3 +237,19 @@ msgstr ""
 #: ../../build/doc/quickstart/geoext_quickstart.rst:280
 msgid "The `ExtJS 6.2.0 API docs <https://docs.sencha.com/extjs/6.2.0/>`_"
 msgstr "`ExtJS 6.2.0 API ドキュメント <https://docs.sencha.com/extjs/6.2.0/>`_"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

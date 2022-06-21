@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -34,6 +34,10 @@ msgid ""
 msgstr ""
 "QGISはユーザフレンドリなデスクトップGISクライアントで、データの視覚化、管理、編集、分析、印刷可能なマップの作成を行うことができます。"
 
+#: ../../build/doc/quickstart/qgis_quickstart.rst:43
+msgid "Contents"
+msgstr ""
+
 #: ../../build/doc/quickstart/qgis_quickstart.rst:46
 msgid "Start QGIS"
 msgstr "スタートQGIS"
@@ -51,6 +55,10 @@ msgid ""
 "You will see QGIS launch with an empty project. The various parts of the "
 "QGIS Interface are listed below."
 msgstr "QGISが空プロジェクトで起動します。QGISインタフェースのさまざまな部分を次に示します。"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:0
+msgid "Open a QGIS project"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:57
 msgid ""
@@ -88,6 +96,10 @@ msgstr "プロジェクトを作成する"
 msgid "To create a new project, choose :menuselection:`Project --> New`."
 msgstr "新しいプロジェクトを作成するには、 :menuselection:`Project --> New` を選択します。"
 
+#: ../../build/doc/quickstart/qgis_quickstart.rst:0
+msgid "QGIS new project"
+msgstr ""
+
 #: ../../build/doc/quickstart/qgis_quickstart.rst:72
 msgid ""
 "Let's start by adding a vector layer to the map. Layers can be added to QGIS"
@@ -113,11 +125,19 @@ msgstr "'ne_10m_admin_0_countries.shp' を選択します。"
 msgid "Drag the layer from the browser panel and drop it in the map frame."
 msgstr "ブラウザパネルから画層をドラッグし、マップフレームにドロップします。"
 
+#: ../../build/doc/quickstart/qgis_quickstart.rst:0
+msgid "QGIS browser add vector layer"
+msgstr ""
+
 #: ../../build/doc/quickstart/qgis_quickstart.rst:83
 msgid ""
 "Once the layer has been dragged onto the map frame, you will see a layer "
 "showing countries."
 msgstr "レイヤをマップフレームにドラッグすると、レイヤに国が表示されます。"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS vector layer"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:90
 msgid "Now let's try adding a raster layer to the project."
@@ -127,11 +147,19 @@ msgstr "次に、プロジェクトにラスタレイヤを追加してみまし
 msgid "Select 'HYP_50M_SR_W.tif'."
 msgstr "[HYP_50M_SR_W.tif] を選択します。"
 
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS browser add raster layer"
+msgstr ""
+
 #: ../../build/doc/quickstart/qgis_quickstart.rst:101
 msgid ""
 "Once the layer has been dragged onto the map frame, you will see a raster "
 "layer showing land cover and bathymetry."
 msgstr "レイヤをマップフレームにドラッグすると、土地被覆と水深を示すラスタレイヤが表示されます。"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS raster layer"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:108
 msgid ""
@@ -143,6 +171,10 @@ msgstr "プロジェクトにコンテンツを追加したので、このプロ
 msgid "Choose :menuselection:`Project --> Save`."
 msgstr ":menuselection:`Project-->Save` を選択します。"
 
+#: ../../build/doc/quickstart/qgis_quickstart.rst:0
+msgid "QGIS save"
+msgstr ""
+
 #: ../../build/doc/quickstart/qgis_quickstart.rst:117
 msgid "Make the location to save the project '/home/user/desktop'."
 msgstr "プロジェクトを保存する場所を '/home/user/desktop' にします。"
@@ -150,6 +182,10 @@ msgstr "プロジェクトを保存する場所を '/home/user/desktop' にし�
 #: ../../build/doc/quickstart/qgis_quickstart.rst:118
 msgid "Call the project 'My QGIS project'."
 msgstr "このプロジェクトを 'My QGIS project' と呼びます。"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:0
+msgid "QGIS project location"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:124
 msgid "Click 'Save'."
@@ -165,6 +201,10 @@ msgstr ""
 "プロジェクトが保存されたことがわかります。これは、 'My QGIS project' "
 "という名前のプロジェクトファイルがデスクトップにあり、プロジェクトドキュメントの一番上が 'untitled' ではなく 'My QGIS "
 "project' になるためです。"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS saved project"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:134
 msgid "Open an existing project"
@@ -207,6 +247,10 @@ msgstr "プロジェクト 'QGIS-NaturalEarth-Example.qgs' を選択します。
 msgid "Click 'Open'."
 msgstr "[開く]をクリックします。"
 
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS Open project"
+msgstr ""
+
 #: ../../build/doc/quickstart/qgis_quickstart.rst:152
 msgid ""
 "This will open a QGIS project with a number of Natural Earth datasets, as "
@@ -216,6 +260,10 @@ msgstr ""
 "以下に示すように、Natural "
 "Earchデータセットを持つQGISプロジェクトが開かれます。このプロジェクトには、レイヤパネルに複数のレイヤーが含まれ、マップフレームに空間コンテンツが表示されています。"
 
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS Open project result"
+msgstr ""
+
 #: ../../build/doc/quickstart/qgis_quickstart.rst:160
 msgid ""
 "Layers can be turned on or off by clicking the checkbox next to the layer "
@@ -224,6 +272,10 @@ msgid ""
 "panel is shown below."
 msgstr ""
 "レイヤパネルでレイヤ名の横にあるチェックボックスをクリックすると、レイヤ表示/非表示を切り替えることができます。レイヤパネルでレイヤをオンにすると、マップフレームが更新されてレイヤが表示されます。レイヤパネルの拡大図を以下に示します。"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS layer panel"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:168
 msgid ""
@@ -250,6 +302,10 @@ msgid ""
 msgstr ""
 "マップフレームが更新され、レイヤリストの変更が反映されていることに注目してください。現在では、 'ne_10m_populated_places' "
 "レイヤをポイントとして見ることができますが、 'Waters' レイヤ内の河川や湖を見ることはできません。"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS result of layer visibility changes"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:181
 msgid ""
@@ -278,6 +334,10 @@ msgid ""
 msgstr ""
 "ラスタレイヤがレイヤパネルの他のすべてのレイヤの上に表示されます。これで、ラスタレイヤがマップフレームの他のすべてのレイヤの上にレンダリングされます。"
 
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS modified the order of layers"
+msgstr ""
+
 #: ../../build/doc/quickstart/qgis_quickstart.rst:196
 msgid ""
 "Try moving the 'HYP_50M_SR_W' layer to the bottom of the layer list. This "
@@ -293,6 +353,10 @@ msgid ""
 "The navigation toolbar allows users to move around the map and change the "
 "map extent."
 msgstr "ナビゲーションツールバーを使用すると、マップを移動したり、マップの範囲を変更したりできます。"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS navigation toolbar"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:208
 msgid "[1] Pan: Allows the map to be dragged ('panned') to a new location."
@@ -388,6 +452,10 @@ msgid ""
 msgstr ""
 "レイヤは、スタイルドックを使用してQGISでスタイル設定できます。スタイル枠はデフォルトでは表示されていませんが、次に示すように、レイヤパネルの上部にあるボタンから簡単にアクセスできます。"
 
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS style dock"
+msgstr ""
+
 #: ../../build/doc/quickstart/qgis_quickstart.rst:245
 msgid ""
 "The above button acts as a toggle so the style dock can be easily hidden "
@@ -402,6 +470,10 @@ msgid ""
 "With the style dock open, we can modify the appearance of the layer shown at"
 " the top of the style dock."
 msgstr "スタイル枠を開くと、スタイル枠の最上部に表示されるレイヤの外観を変更できます。"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rstNone
+msgid "QGIS style dock layer"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:255
 msgid ""
@@ -418,20 +490,36 @@ msgid ""
 "allowing you to choose a different colour."
 msgstr "下に表示されている[カラー]をクリックします。これにより、異なる色を選択できるカラーパレットが表示されます。"
 
+#: ../../build/doc/quickstart/qgis_quickstart.rst:0
+msgid "QGIS style dock color"
+msgstr ""
+
 #: ../../build/doc/quickstart/qgis_quickstart.rst:264
 msgid ""
 "In the 'Select Color' palette, move the cross-hair to your preferred colour."
 msgstr "[色選択]パレットで、十字を希望の色に移動します。"
 
+#: ../../build/doc/quickstart/qgis_quickstart.rst:0
+msgid "QGIS color palette"
+msgstr ""
+
 #: ../../build/doc/quickstart/qgis_quickstart.rst:270
 msgid "Then click the back arrow to return to the symbol render preview."
 msgstr "次に、戻る矢印をクリックしてシンボルレンダリングプレビューに戻ります。"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:0
+msgid "QGIS style return"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:276
 msgid ""
 "The symbol preview will be updated with the new colour, and so will the "
 "layer in the map frame."
 msgstr "シンボルプレビューが新しい色で更新され、レイヤフレームのマップも更新されます。"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:0
+msgid "QGIS style result"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:282
 msgid ""
@@ -448,6 +536,10 @@ msgstr "スタイルパネルの最上部で 'ne_10m_rivers_lakes_centrelines' �
 #: ../../build/doc/quickstart/qgis_quickstart.rst:286
 msgid "In the style panel enter the value '0.5' in the 'width' input."
 msgstr "スタイルパネルで、入力値 'width' に値 '0.5' を入力します。"
+
+#: ../../build/doc/quickstart/qgis_quickstart.rst:0
+msgid "QGIS style width"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:292
 msgid ""
@@ -488,22 +580,35 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:303
 msgid ""
-"Try publishing your QGIS map to the web using `QGIS Map Server "
-"<../overview/qgis_mapserver_overview.html>`_. in the "
-":menuselection:`Geospatial --> Web Services` menu."
+"Try publishing your QGIS map to the web using :doc:`QGIS Map Server "
+"<../overview/qgis_mapserver_overview>`. in the :menuselection:`Geospatial "
+"--> Web Services` menu."
 msgstr ""
-"`QGISマップサーバ <./overview/qgis_mapserver_overview.html>`_ "
-"を使用して、QGISマップをWebに公開してみてください。:menuselection:`Geospatial --> Web Services` "
-"メニューにあります。"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:307
+#: ../../build/doc/quickstart/qgis_quickstart.rst:309
 msgid "What next?"
 msgstr "次のステップ"
 
-#: ../../build/doc/quickstart/qgis_quickstart.rst:309
+#: ../../build/doc/quickstart/qgis_quickstart.rst:311
 msgid ""
 "To learn more about QGIS, a good starting point is the `Documentation page`_"
 " on the QGIS homepage and `A Gentle Introduction to GIS`_ eBook."
 msgstr ""
 "QGISの詳細については、QGISホームページの `ドキュメントページ`_ と `A Gentle Introduction to GIS(英語)`_ "
 "eBookを参照してください。"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

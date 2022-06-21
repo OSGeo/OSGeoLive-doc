@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-21 12:32-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -32,6 +32,10 @@ msgid ""
 "both desktop and web development."
 msgstr ""
 "Mapnikは、マッピング・アプリケーションを開発するためのツールキットです。Mapnikの目的は、何よりも美しい地図を作ることです。簡単に拡張でき、デスクトップとWebの両方の開発に適しています。"
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:27
+msgid "Contents"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:30
 msgid "Mapnik & Python"
@@ -141,3 +145,19 @@ msgstr ""
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:80
 msgid "Visit the Mapnik website: https://mapnik.org"
 msgstr "Mapnik Webサイトを訪問してください: https://mapnik.org"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 11:35-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -54,6 +54,10 @@ msgstr "Web Clientを使用して、EOデータをビュー、フィルタリン
 msgid "Use the Admin Client to inspect EO data archives"
 msgstr "管理クライアントを使用してEOデータアーカイブを検査"
 
+#: ../../build/doc/quickstart/eoxserver_quickstart.rst:36
+msgid "Contents"
+msgstr ""
+
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:39
 msgid "Start EoxServer"
 msgstr "EoxServerを起動"
@@ -66,6 +70,10 @@ msgid ""
 msgstr ""
 "メニューから :menuselection:`Geospatial --> Web Services --> EOxServer` "
 "を選択します。これによりブラウザが起動し、 http://localhost/eoxserver/ で利用可能なデモインスタンスが表示されます"
+
+#: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
+msgid "EOxServer demonstration start"
+msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:49
 msgid "Work with the Web Client"
@@ -82,6 +90,10 @@ msgid ""
 msgstr ""
 "このクライアントでは、EOxServerインスタンスの内容を表示できます。デモインスタンスはENVISAT MERISのシーンで構成されています。"
 
+#: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
+msgid "Main view of the EOxServer Web Client"
+msgstr ""
+
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:60
 msgid ""
 "The client consists of the map view and widgets that contain the main "
@@ -90,6 +102,14 @@ msgid ""
 "widget, that allows you to explore the contents in the temporal dimension."
 msgstr ""
 "クライアントは、マップ・ビューと、主要な相互作用を含むウィジェットで構成されています。主な領域は、クライアントのマップウィジェットで、一連のデータセットがすでに表示されています。下部にはタイムスライダウィジェットが表示され、時間次元のコンテンツを表示できます。"
+
+#: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
+#: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
+#: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
+#: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
+#: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
+msgid "EOxServer demonstration embedded client outlines"
+msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:69
 msgid ""
@@ -139,11 +159,9 @@ msgstr ""
 msgid ""
 "This was a quick introduction to the EOxServer Web Client. Please refer to "
 "the `online documentation "
-"<https://docs.eoxserver.org/en/stable/users/webclient.html>`_ for more "
-"information on this topic."
+"<https://docs.eoxserver.org/en/stable/users/services/webclient.html>`_ for "
+"more information on this topic."
 msgstr ""
-"これは、EOxServer Web Clientの簡単な説明です。このトピックの詳細については、 `オンライン文書 "
-"<https://docs.eoxserver.org/en/stable/users/webclient.html>`_ を参照してください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:114
 msgid "Work with the Admin Client"
@@ -157,16 +175,21 @@ msgstr ""
 "EOxServerのメインページで **Admin Client** リンクをクリックし、ユーザ `admin` とパスワード `admin` "
 "でログインします。"
 
+#: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
+msgid "EOxServer demonstration admin client login"
+msgstr ""
+
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:123
 msgid ""
 "The `Admin Client` is Djangos standard admin and allows you to configure the"
 " available data. Please feel free to explore the client. More information "
-"can be found in the `operators' guide "
-"<https://docs.eoxserver.org/en/stable/users/operators.html>`_."
+"can be found in the `operations' guide "
+"<https://docs.eoxserver.org/en/stable/users/operations/index.html>`_."
 msgstr ""
-"`Admin Client` はDjangos標準の管理者であり、利用可能なデータを設定できます。クライアントを自由にご覧ください。詳細については、 "
-"`オペレーターズ・ガイド <https://docs.eoxserver.org/en/stable/users/operators.html>`_ "
-"を参照してください。"
+
+#: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
+msgid "EOxServer demonstration admin client start"
+msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:132
 msgid ""
@@ -177,11 +200,19 @@ msgstr ""
 "たとえば、デフォルトでロードされているコレクションを検査するには、 \"コレクション\" リンクをクリックし、 "
 "\"MER_FRS_1P_RGB_reduced\" リンクをクリックします。"
 
+#: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
+msgid "EOxServer demonstration admin client Dataset Series"
+msgstr ""
+
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:139
 msgid ""
 "You can preview the coverages by going back and clicking on the "
 "\"Coverages\" link."
 msgstr "\"Coverages\" リンクをクリックすると、カバレッジをプレビューできます。"
+
+#: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
+msgid "EOxServer demonstration admin client Dataset Series Management"
+msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:146
 msgid "What Next?"
@@ -205,26 +236,36 @@ msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:153
 msgid ""
-"Read the `EOxServer Operators' Guide "
-"<https://docs.eoxserver.org/en/stable/users/operators.html>`_."
+"Read the `EOxServer Operations' Guide "
+"<https://docs.eoxserver.org/en/stable/users/operations/index.html>`_."
 msgstr ""
-"`EOxServer オペレーターズ・ガイド "
-"<https://docs.eoxserver.org/en/stable/users/operators.html>`_ を読んでください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:154
 msgid ""
 "Read the `EOxServer Basics "
 "<https://docs.eoxserver.org/en/stable/users/basics.html>`_."
 msgstr ""
-"`EOxServer の基本 <https://docs.eoxserver.org/en/stable/users/basics.html>`_ "
-"を読んでください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:155
 msgid ""
 "Ready to use EOxServer? Then join the community on the `mailing lists "
-"<https://docs.eoxserver.org/en/stable/users/mailing_lists.html>`_ to "
-"exchange ideas, discuss potential software improvements, and ask questions."
+"<https://docs.eoxserver.org/en/stable/users/basics.html#where-can-i-get-"
+"support>`_ to exchange ideas, discuss potential software improvements, and "
+"ask questions."
 msgstr ""
-"EOxServerを使用する準備はできていますか?次に、 `メーリングリスト "
-"<https://docs.eoxserver.org/en/stable/users/mailing_lists.html>`_ "
-"のコミュニティに参加して、アイデアを交換したり、ソフトウェアの改善点について話し合ったり、質問したりします。"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""
