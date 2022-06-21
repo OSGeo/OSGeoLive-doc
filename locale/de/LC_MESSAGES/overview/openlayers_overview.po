@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -45,6 +45,10 @@ msgstr ""
 "wurde entwickelt um die Verwendung jeglicher Art von Geoinformation zu "
 "erweitern. Es ist vollständig frei, Open Source und JavaScript, und ist "
 "unter der 2-clause BSDLizenz (auch bekannt als FreeBSD) veröffentlicht."
+
+#: ../../build/doc/overview/openlayers_overview.rstNone
+msgid "openlayers screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/openlayers_overview.rst:35
 msgid "Core Features"
@@ -195,3 +199,19 @@ msgstr "Schnellstart"
 #: ../../build/doc/overview/openlayers_overview.rst:92
 msgid ":doc:`Quickstart documentation <../quickstart/openlayers_quickstart>`"
 msgstr ":doc:`Quickstart Dokumentation <../quickstart/openlayers_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

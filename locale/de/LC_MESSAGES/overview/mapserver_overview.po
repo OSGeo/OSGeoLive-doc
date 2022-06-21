@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -81,6 +81,10 @@ msgstr ""
 "innerhalb der OSGeo durch das MapServer Project Steering Committee "
 "administriert, das sich aus Entwicklern und engagierten Mitwirkenden "
 "zusammensetzt."
+
+#: ../../build/doc/overview/mapserver_overview.rstNone
+msgid "mapserver screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/mapserver_overview.rst:42
 msgid "Core Features"
@@ -294,8 +298,9 @@ msgid "Documentation"
 msgstr "Dokumentation"
 
 #: ../../build/doc/overview/mapserver_overview.rst:115
-msgid "`MapServer 7.0 Documentation <../../../mapserver/doc/index.html>`_"
-msgstr "`MapServer 7.0 Documentation <../../../mapserver/doc/index.html>`_"
+msgid ""
+"`MapServer 7.0 Documentation <https://localhost/mapserver/doc/index.html>`__"
+msgstr ""
 
 #: ../../build/doc/overview/mapserver_overview.rst:118
 msgid "Details"
@@ -336,3 +341,19 @@ msgstr "Schnellstart"
 #: ../../build/doc/overview/mapserver_overview.rst:137
 msgid ":doc:`Quickstart documentation <../quickstart/mapserver_quickstart>`"
 msgstr ":doc:`Quickstart Dokumentation <../quickstart/mapserver_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

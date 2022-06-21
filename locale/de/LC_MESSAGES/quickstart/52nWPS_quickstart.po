@@ -6,16 +6,16 @@
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Astrid Emde <astrid_emde@osgeo.org>, 2021
+# Astrid Emde <astrid_emde@osgeo.org>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2022\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,14 +45,19 @@ msgstr ""
 "Dieser Quickstart beschreibt die Prozessierung von Daten und die Speicherung"
 " der Ergebnisse in Internetdiensten mittels WPS Operationen."
 
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:27
+msgid "Contents"
+msgstr "Inhalt"
+
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:30
 msgid "Start 52°North WPS"
 msgstr "Starten Sie den 52°North WPS"
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:32
 msgid ""
-"To run the 52°North WPS on the Live DVD, go to |osgeolive-appmenupath-"
-"52nWPS| or use this `direct link <http://localhost:8080/52nWPS/>`_."
+"To run the 52°North WPS on the Live DVD, go to |osgeolive-"
+"appmenupath-52nWPS| or use this `direct link "
+"<http://localhost:8080/52nWPS/>`_."
 msgstr ""
 "Um den 52°North WPS auf der Live-DVD auszuführen, gehen Sie zu |osgeolive-"
 "appmenupath-52nWPS| oder verwenden Sie diesen 'direkten Link <http: "
@@ -61,6 +66,14 @@ msgstr ""
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:34
 msgid "The 52n WPS welcome page will appear."
 msgstr "Die 52n WPS Willkommenseite wird erscheinen."
+
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:0
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:0
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:0
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:0
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:0
+msgid "screenshot"
+msgstr ""
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:40
 msgid ""
@@ -142,14 +155,14 @@ msgstr ""
 msgid ""
 "Copy the ResourceID from the response. This is the name of the GeoServer "
 "layer. Add the ID to the following request: "
-"http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers"
-"=Add-ResourceID-here You should get the following result:"
+"http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers=Add-"
+"ResourceID-here You should get the following result:"
 msgstr ""
 "Kopieren Sie den Wert der ResourceID vom zurückgelieferten Dokument. Dies "
 "ist der Name des GeoServer Layers. Fügen Sie die ID zur folgender Anfrage "
 "hinzu: "
-"http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers"
-"=Fügen-Sie-hier-die-ResourceID-ein Folgendes Ergebnis sollte zu sehen sein:"
+"http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers=Fügen-"
+"Sie-hier-die-ResourceID-ein Folgendes Ergebnis sollte zu sehen sein:"
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:84
 msgid "Things to try"
@@ -210,3 +223,19 @@ msgstr ""
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:102
 msgid "geoprocessing@52north.org"
 msgstr "geoprocessingservices@52north.org"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

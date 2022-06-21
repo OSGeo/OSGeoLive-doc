@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 11:35-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -64,6 +64,10 @@ msgstr ""
 ":doc:`MapServer<mapserver_overview>`, Django/GeoDjango, :doc:`GDAL "
 "<gdal_overview>`, PROJ, und einer :doc:`SpatiaLite <spatialite_overview>` "
 "oder :doc:`PostGIS <postgis_overview>` Datenbank."
+
+#: ../../build/doc/overview/eoxserver_overview.rstNone
+msgid "eoxserver screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/eoxserver_overview.rst:40
 msgid "Core Features"
@@ -185,10 +189,8 @@ msgstr "**Webseite:** https://docs.eoxserver.org/en/stable/"
 #: ../../build/doc/overview/eoxserver_overview.rst:83
 msgid ""
 "**Licence:** `MIT-style license "
-"<https://docs.eoxserver.org/en/latest/copyright.html#license>`_"
+"<https://docs.eoxserver.org/en/stable/copyright.html#license>`_"
 msgstr ""
-"**Lizenz:** `MIT-style license "
-"<https://docs.eoxserver.org/en/latest/copyright.html#license>`_"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:85
 msgid "**Software Version:** |version-eoxserver|"
@@ -204,11 +206,9 @@ msgstr "**API Schnittstellen:** Python"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:91
 msgid ""
-"**Support:** https://docs.eoxserver.org/en/latest/users/basics.html#where-"
+"**Support:** https://docs.eoxserver.org/en/stable/users/basics.html#where-"
 "can-i-get-support"
 msgstr ""
-"**Support:** https://docs.eoxserver.org/en/latest/users/basics.html#where-"
-"can-i-get-support"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:96
 msgid "Quickstart"
@@ -217,3 +217,19 @@ msgstr "Schnellstart"
 #: ../../build/doc/overview/eoxserver_overview.rst:98
 msgid ":doc:`Quickstart documentation <../quickstart/eoxserver_quickstart>`"
 msgstr ":doc:`Quickstart Dokumentation <../quickstart/eoxserver_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: Andreas Schild <andreas.schild@bfw.gv.at>, 2018\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -59,6 +59,10 @@ msgstr ""
 "SAGA wird seit 2001 entwickelt. Dabei findet der Großteil der Entwicklung am"
 " Institut für Geographie an der Universität Hamburg statt und wird von einer"
 " wachsenden weltweiten Community unterstützt."
+
+#: ../../build/doc/overview/saga_overview.rstNone
+msgid "saga screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/saga_overview.rst:39
 msgid "Core Features"
@@ -172,3 +176,19 @@ msgstr "Schnellstart"
 #: ../../build/doc/overview/saga_overview.rst:81
 msgid ":doc:`Quickstart documentation <../quickstart/saga_quickstart>`"
 msgstr ":doc:`Quickstart Dokumentation <../quickstart/saga_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011, OSGeo
-# This file is distributed under the same license as the OSGeo-Live package.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Pirmin Kalberer <pka@sourcepole.com>, 2019
-# Peter Czaja <pczaja@gmx.de>, 2019
-# Astrid Emde <astrid_emde@osgeo.org>, 2021
+# Peter Czaja, 2019
+# Astrid Emde <astrid_emde@osgeo.org>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-03 08:36-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2022\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,11 +23,11 @@ msgstr ""
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:14
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:20
 msgid "Jupyter Notebook Quickstart"
 msgstr "Jupyter Notebook Quickstart"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:16
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:22
 msgid ""
 "The Jupyter Notebook is a web application that allows you to create and "
 "share documents that contain live code, equations, visualizations and "
@@ -40,162 +40,170 @@ msgstr ""
 "Datenbereinigung und -transformation, numerische Simulation, statistische "
 "Modellierung, maschinelles Lernen und vieles mehr."
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:19
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:25
 msgid "This Quick Start describes how to:"
 msgstr "Dieser Quickstart beschreibt, wie Sie:"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:21
-msgid "start a jupyter notebook server"
-msgstr "Starten eines Jupyter-Notebook-Servers"
-
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:22
-msgid "load a jupyter notebook"
-msgstr "Laden eines Jupyter-Notebooks"
-
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:23
-msgid "interact with python code and javascript widgets"
-msgstr "Interagieren mit Python-Code und Javascript-Widgets"
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:27
+msgid "Start a Jupyter Notebook server"
+msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:28
-msgid "Start the jupyter server"
-msgstr "Starten des Jupyter-Servers"
+msgid "Load a jupyter notebook"
+msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:30
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:29
+msgid "Interact with python code"
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:31
+msgid "Contents"
+msgstr "Inhalt"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:34
+msgid "Start the Jupyter server"
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:36
 msgid "From the application launch menu in the lower left corner."
 msgstr "Aus dem Anwendungsstartmenü in der linken unteren Ecke."
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:32
-msgid "Choose  *Geospatial* -> *Spatial Tools* -> *Start Jupyter Notebook*"
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:38
+msgid "Choose  *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*"
 msgstr ""
-"Wählen Sie *Geospatial* -> *Spatial Tools* -> *Start Jupyter Notebook*"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:37
-msgid "A terminal window will open and a startup log will begin to scroll."
-msgstr "Ein Terminalfenster wird geöffnet, und ein Startprotokoll erscheint."
-
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:39
-msgid "Choose   *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*"
-msgstr "Wählen Sie *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*"
-
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:44
-msgid "A web browser is launched showing the notebook dashboard."
-msgstr "Es wird ein Webbrowser gestartet, der das Notebook-Dashboard anzeigt."
-
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:49
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:40
 msgid ""
-"From the notebook dashboard you can navigate the directory tree, start new "
-"notebooks, create files and directories, as well as rename, delete and "
-"upload files."
+"A terminal window will open and a startup log will begin to scroll. "
+"Afterwards a web browser is launched showing the Jupyter Notebook dashboard."
+" From the Jupyter Notebook dashboard you can navigate the directory tree, "
+"start new notebooks, create files and directories, as well as rename, delete"
+" and upload files."
 msgstr ""
-"Über das Nootebook-Dashboard können Sie durch die Verzeichnisstruktur "
-"navigieren, neue Nootebooks starten, Dateien und Verzeichnisse erstellen "
-"sowie Dateien umbenennen, löschen und hochladen."
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:56
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:51
 msgid "Open and execute an existing notebook"
 msgstr "Öffnen und Ausführen eines vorhandenen Nootebooks"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:58
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:53
 msgid ""
 "Let's open an existing notebook. From the main page click on the directory "
-"GSOC."
+"geopandas-tutorial and choose the Introduction notebook (01-introduction-"
+"geospatial-data.ipynb). This is an introduction with many examples on how to"
+" use geospatial vector data in Python with geopandas using the Natural "
+"Earth2 data."
 msgstr ""
-"Öffnen wir ein vorhandenes Notizbuch. Klicken Sie auf der Hauptseite auf das"
-" Verzeichnis GSOC."
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:66
-msgid "Choose the Introduction notebook."
-msgstr "Wählen Sie das Einführungs-Notebook aus."
-
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:71
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:59
 msgid ""
-"This is a simple notebook, which contains text and links, like a HTML web "
-"page."
+"The tutorial is made up with explaining text and cells. The cells contain in"
+" this case python code, that can be run."
 msgstr ""
-"Dies ist ein einfaches Notizbuch, das Text und Links enthält, wie eine HTML-"
-"Webseite."
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:73
-msgid "Then under \"Simple-web-gis-products\" select \"CESIUM\"."
-msgstr "Wählen Sie dann unter \"Simple-web-gis-products\" \"CESIUM\" aus."
-
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:81
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:61
 msgid ""
-"Here there are a series of example using the cesium javascript library. "
-"Let's click on \"CesiumWidget Interact-Example\", which uses the widget "
-"extension, some python libraries and cesium-js."
+"From the toolbar on top of the notebook you can choose different options:"
 msgstr ""
-"Hier gibt es eine Reihe von Beispielen mit der cesium javascript Bibliothek."
-" Klicken wir auf \"CesiumWidget Interact-Example\", das die Widget-"
-"Erweiterung, einige Python-Bibliotheken und cesium-js verwendet."
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:84
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:63
 msgid ""
-"From the toolbar on top of the notebook chose: cell->run all. If everything "
+"Cell-> Run Cells: will run the code in the cell with the focus and will move"
+" to the next cell."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:64
+msgid ""
+"Cell-> Run All:  will run all the cells and show the results If everything "
 "worked as planned you should be able to see the results at the bottom of the"
 " page."
 msgstr ""
-"Aus der Symbolleiste oben im Notebook wählen Sie: cell ->run all. Wenn alles"
-" wie geplant funktioniert hat, sollten Sie in der Lage sein, die Ergebnisse "
-"am unteren Rand der Seite zu sehen."
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:90
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:66
+msgid "Have a look at the results after running all the cells."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:71
+msgid ""
+"You will see additional Out[] section with different output for example "
+"tables, maps or calculations."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:73
+msgid "In Out[3] you can see the country information as a table."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:79
+msgid "In Out[4] a plot was generated from all the countries."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:88
 msgid "Change code"
 msgstr "Code ändern"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:92
-msgid "Now lets change some of the code:"
-msgstr "Nun können Sie den Codes anpassen:"
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:90
+msgid "Now let's change some of the code."
+msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:94
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:93
 msgid ""
-"In the code cell ``in [8]`` we generated a python dictionary based on some "
-"keywords (location names) with empty values:"
+"In In [10] a filter was defined for the countries. Only the continent "
+"``Africa`` is selected from the countries:"
 msgstr ""
-"In der Codezelle ``in [8]`` haben wir ein Python-Wörterbuch generiert, das "
-"auf einigen Schlüsselwörtern (Standortnamen) mit leeren Werten basiert:"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:100
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:99
+msgid "Therefore in the plot there is only the continent ``Africa``."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:104
+msgid "Change the selection to ``Asia`` and rund the two cells again."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:110
 msgid ""
-"and at the code input cell ``in [9]``, we loop over the dictionary keys and "
-"making use of a geocoding library ``geocoder``, we add the location "
-"information inside the previously created python dictionary ``my place``:"
+"As result you will see that instead of ``Africa`` there will be ``Asia`` in "
+"the plot."
 msgstr ""
-"und in der Code-Eingabezelle ``in [9``', wir Schleifen über die dictionary "
-"keys und unter Verwendung einer Geokodierungbibliothek ``geocoder``, fügen "
-"wir die Standortinformationen innerhalb der zuvor erstellten Python-"
-"Wörterbuch ``mein Ort``:"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:112
-msgid "Try to add or replace new keywords like we did in ``In [8]``"
-msgstr ""
-"Versuchen Sie, neue Keywords hinzuzufügen oder zu ersetzen, wie wir es in "
-"``In [8]`` getan haben."
-
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:118
-msgid ""
-"and re run ``In [9] [10] [11]`` you will see the newly created dictionary is"
-" now used in the drop down menu to select the new location and zoom-to "
-"withing the Cesium globe."
-msgstr ""
-"und führen Sie ``In [9] [10] [11]`` erneut aus, sehen Sie, dass das neu "
-"erstellte dictionary nun im Dropdown-Menü verwendet wird, um die neue "
-"Position auszuwählen und den Cesium-Globus zu vergrößern."
-
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:121
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:119
 msgid "What Next?"
 msgstr "Was nun?"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:123
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:121
+msgid ""
+"Discover the other notebooks that are provided with OSGeoLive and find out "
+"how to work with Shapely, Rasterio, R, Iris & other software."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:122
 msgid ""
 "For more information about the jupyter notebook, please refer to the "
-"`jupyter official documentation`_. More notebook examples are available from"
-" the notebook root directory. For a quick introduction on how to use the "
-"jupyter-notebook interface, from the start page, check the notebook: "
-"\"Introduction to jupyter notebook\""
+"`Jupyter Notebooks official documentation "
+"<https://jupyter.readthedocs.io/>`_."
 msgstr ""
-"Weitere Informationen zu Jupyter Notebook finden Sie in der `Jupyter "
-"Official Documentation`_. Weitere Notebook-Beispiele sind im "
-"Stammverzeichnis des Notebooks verfügbar. Eine kurze Einführung in die "
-"Verwendung der Jupyter-Notebook-Schnittstelle finden Sie auf der Startseite "
-"im Notebook: ``Einführung in das Jupyter Notebook``"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:123
+msgid "More notebook examples are available from the notebook root directory."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:124
+msgid ""
+"Quick introduction on how to use the Jupyter Notebooks interface: `Get "
+"started with Jupyter Notebook "
+"<https://jupyter.readthedocs.io/en/latest/content-quickstart.html>`_."
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

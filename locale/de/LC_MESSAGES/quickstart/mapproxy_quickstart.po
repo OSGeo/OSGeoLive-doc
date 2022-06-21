@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Dominik Helle <helle@omniscale.de>, 2018
-# Astrid Emde <astrid_emde@osgeo.org>, 2020
+# Astrid Emde <astrid_emde@osgeo.org>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2020\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2022\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,6 +36,10 @@ msgstr ""
 "Kacheldienste. MapProxy speichert, beschleunigt und transformiert bestehende"
 " Kartendienste aller Art."
 
+#: ../../build/doc/quickstart/mapproxy_quickstart.rstNone
+msgid "MapProxy diagram"
+msgstr ""
+
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:31
 msgid ""
 "MapProxy is not only a tile cache solution, but also offers many new and "
@@ -45,6 +49,10 @@ msgstr ""
 "umfangreiche und innovative Funktionen an. So beschleunigt MapProxy zum "
 "Beispiel WMS-Dienste, ohne dass dabei der WMS-Standard verloren geht. "
 "Vorhandene Desktop- und WebGIS Anwendungen können weiter genutzt werden."
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:34
+msgid "Contents"
+msgstr "Inhalt"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:37
 msgid "Start the service and view the demo"
@@ -108,6 +116,10 @@ msgstr ""
 "Die Beispiel-Konfiguration des MapProxy beinhaltet einige Layer die "
 "unterschiedliche Kartenserver und Kartendaten verwenden. Im Folgenden sind "
 "nähere Einzelheiten zu den einzelnen Layern beschrieben:"
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:60
+msgid "MapProxy example in uDig"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:60
 msgid ""
@@ -234,8 +246,10 @@ msgid "What next?"
 msgstr "Was kommt als Nächstes?"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:104
-msgid "Read the `documentation of MapProxy <../../mapproxy/index.html>`_"
-msgstr "Lesen Sie die `MapProxy Dokumentation <../../mapproxy/index.html>`_"
+msgid ""
+"Read the `documentation of MapProxy "
+"<https://localhost/mapproxy/index.html>`__"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:106
 msgid ""
@@ -243,3 +257,19 @@ msgid ""
 msgstr ""
 "Schauen Sie die Beispiel-Konfiguration an: "
 "(``/usr/local/share/mapproxy/mapproxy.yaml``)"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -6,16 +6,16 @@
 # Translators:
 # Pirmin Kalberer <pka@sourcepole.com>, 2020
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2020
-# Astrid Emde <astrid_emde@osgeo.org>, 2021
+# Astrid Emde <astrid_emde@osgeo.org>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:08-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2020-10-21 15:59+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2022\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -66,6 +66,10 @@ msgstr ""
 msgid "Manage data from the ``pgAdmin`` client."
 msgstr "Das Datenmanagement über den grafische Datenbank-Client ``pgAdmin``."
 
+#: ../../build/doc/quickstart/re3gistry_quickstart.rst:31
+msgid "Contents"
+msgstr "Inhalt"
+
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:34
 msgid "Start the Re3gistry"
 msgstr "Starten Sie die Re3gistry"
@@ -106,8 +110,8 @@ msgid ""
 "a password. Then click on \"Save and continue\"."
 msgstr ""
 "Auf der Seite \"Registrierungsmanager\" können Sie das Konto für die "
-"Systemadministration (Registry Manager) definieren. Geben Sie eine gültige E"
-"-Mail-Adresse und ein Kennwort ein. Klicken Sie dann auf \"Speichern und "
+"Systemadministration (Registry Manager) definieren. Geben Sie eine gültige "
+"E-Mail-Adresse und ein Kennwort ein. Klicken Sie dann auf \"Speichern und "
 "fortfahren\"."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:49
@@ -400,8 +404,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:152
 msgid ""
-"`User manual <https://github.com/ec-jrc/re3gistry/blob/master/documentation"
-"/user-manual.md>`__"
+"`User manual <https://github.com/ec-"
+"jrc/re3gistry/blob/master/documentation/user-manual.md>`__"
 msgstr ""
 "`Benutzerhandbuch <https://github.com/ec-"
 "jrc/re3gistry/blob/master/documentation/user-manual.md>`__"
@@ -421,3 +425,19 @@ msgid ""
 msgstr ""
 "`Entwicklerhandbuch <https://github.com/ec-"
 "jrc/re3gistry/blob/master/documentation/developer-manual.md>`__"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

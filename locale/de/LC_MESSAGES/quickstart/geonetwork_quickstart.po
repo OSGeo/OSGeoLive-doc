@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 22:14-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -47,15 +47,10 @@ msgstr "Voraussetzungen"
 msgid ""
 "GeoNetwork can directly be started from the OSGeo Live start menu and will "
 "be available at http://localhost:8080/geonetwork some moments later. Check "
-"the `Installation Guide <https://geonetwork-opensource.org/manuals/trunk/en"
-"/install-guide/index.html>`__ if you are using GeoNetwork is some other "
-"context."
+"the `Installation Guide <https://geonetwork-"
+"opensource.org/manuals/trunk/en/install-guide/index.html>`__ if you are "
+"using GeoNetwork in some other context."
 msgstr ""
-"GeoNetwork kann direkt über das OSGeoLive-Startmenü gestartet werden und "
-"wird einige Augenblicke später http://localhost:8080/geonetwork verfügbar "
-"sein. Überprüfen Sie das 'Installationshandbuch <https: geonetwork-"
-"opensource.org/manuals/trunk/en/install-guide/index.html=\"\">'__, wenn Sie "
-"GeoNetwork verwenden, ist ein anderer Kontext.</https:>"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:39
 msgid ""
@@ -523,3 +518,19 @@ msgstr ""
 "Besuchen Sie die folgenden Kapitel, um zu erfahren, wie Sie Ressourcen mit "
 "Ihren Metadaten verknüpfen, sie mit Schlüsselwörtern kennzeichnen und "
 "Kategorien hinzufügen und Ihre Metadaten in der Außenwelt veröffentlichen."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

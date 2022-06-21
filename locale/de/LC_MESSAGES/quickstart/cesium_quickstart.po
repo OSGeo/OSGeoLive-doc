@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
-# Astrid Emde <astrid_emde@osgeo.org>, 2021
+# Astrid Emde <astrid_emde@osgeo.org>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2022\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,6 +46,10 @@ msgstr ""
 "Dieses Dokument zeigt, wie Cesium mit dem 3D (Globus), 2.5D (Columbus View) "
 "und 2D (Karte) verwendet wird."
 
+#: ../../build/doc/quickstart/cesium_quickstart.rst:25
+msgid "Contents"
+msgstr "Inhalt"
+
 #: ../../build/doc/quickstart/cesium_quickstart.rst:28
 msgid "Start Cesium"
 msgstr "Cesium starten"
@@ -70,6 +74,10 @@ msgstr ""
 "Klicken Sie auf die Lupe und geben Sie den gesuchten Ort ein. In der "
 "folgenden Anzeige suchen wir nach Indien."
 
+#: ../../build/doc/quickstart/cesium_quickstart.rstNone
+msgid "Cesium Searching Location"
+msgstr ""
+
 #: ../../build/doc/quickstart/cesium_quickstart.rst:41
 msgid "Switch between 3D, 2.5D and 2D"
 msgstr "Wechsel zwischen 3D, 2.5D und 2D"
@@ -83,9 +91,18 @@ msgstr ""
 "zu wechseln. Auf dem folgenden Bild wurde die 2.5D Columbus Ansicht "
 "ausgewählt."
 
+#: ../../build/doc/quickstart/cesium_quickstart.rstNone
+msgid "Cesium switching between 3D, 2.5D and 2D"
+msgstr ""
+
 #: ../../build/doc/quickstart/cesium_quickstart.rst:48
 msgid "Now the 2D map is selected."
 msgstr "Nun wurde die 2D Karte ausgewählt."
+
+#: ../../build/doc/quickstart/cesium_quickstart.rstNone
+#: ../../build/doc/quickstart/cesium_quickstart.rstNone
+msgid "Cesium 2D map"
+msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:55
 msgid "Select the Image layer"
@@ -131,13 +148,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:72
 msgid ""
-"The `Cesium Forum <https://groups.google.com/forum/#!forum/cesium-dev>`_ is "
-"a great place to search for answers to common questions, and to raise "
-"questions that haven't been asked before."
+"The `Cesium Forum <https://community.cesium.com>`_ is a great place to "
+"search for answers to common questions, and to raise questions that haven't "
+"been asked before."
 msgstr ""
-"Das `Cesium Forum <https://groups.google.com/forum/#!forum/cesium-dev>`_ ist"
-" ein größartiger Ort zur Suche nach Antwortenauf gängige Fragen und um "
-"Fragen zu stellen, die bisher noch nicht aufkamen."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:74
 msgid ""
@@ -146,3 +160,19 @@ msgid ""
 msgstr ""
 "Eine ausführliche Dokumentation finden Sie `lokal vorinstalliert "
 "<http://localhost/cesium/>`_."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

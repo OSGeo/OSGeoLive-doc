@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2021
-# Astrid Emde <astrid_emde@osgeo.org>, 2021
+# Astrid Emde <astrid_emde@osgeo.org>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2022\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,6 +38,10 @@ msgstr ""
 "Veröffentlichung und das Durchsuchung von räumlichen Metadaten. Vorhandene "
 "Repositorys von räumlichen Metadaten können über OGC:CSW 2.0.2 oder OGC:CSW "
 "3.0.0 verfügbar gemacht werden."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:27
+msgid "Contents"
+msgstr "Inhalt"
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:30
 msgid "Run the tester application"
@@ -239,8 +243,8 @@ msgstr "**[repository]**"
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:106
 msgid ""
 "**database**: the full file path to the metadata database, in database URL "
-"format (see https://docs.sqlalchemy.org/en/latest/core/engines.html"
-"#database-urls)"
+"format (see "
+"https://docs.sqlalchemy.org/en/latest/core/engines.html#database-urls)"
 msgstr ""
 "**Datenbank**: der vollständige Dateipfad zur Metadatendatenbank im "
 "Datenbank-URL-Format (siehe "
@@ -362,3 +366,19 @@ msgstr ""
 "Zur Information über die volle Funktionalität und die "
 "Konfigurationsmöglichkeiten, schauen Sie bitte in die `Documentation`_ auf "
 "der pycsw-Webseite."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

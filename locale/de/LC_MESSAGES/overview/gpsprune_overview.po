@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -74,6 +74,10 @@ msgstr ""
 "GpsPrune läuft sowohl auf Linux als auch auf Mac OSX und Windows, and ist in über zehn\n"
 "verschiedenen Sprachen verfügbar."
 
+#: ../../build/doc/overview/gpsprune_overview.rstNone
+msgid "gpsprune screenshot"
+msgstr ""
+
 #: ../../build/doc/overview/gpsprune_overview.rst:42
 msgid "Core Features"
 msgstr "Kernfunktionen"
@@ -111,8 +115,8 @@ msgid ""
 "Interactive 3d view of the data or export to POV format for 3D rendering, "
 "both including map imagery painted onto the terrain"
 msgstr ""
-"Drehbare 3D Ansicht der Daten, oder nach POV-Datei exportieren für 3D-"
-"Rendering"
+"Drehbare 3D Ansicht der Daten, oder nach POV-Datei exportieren für "
+"3D-Rendering"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:49
 msgid ""
@@ -175,3 +179,19 @@ msgstr "Schnellstart"
 #: ../../build/doc/overview/gpsprune_overview.rst:72
 msgid ":doc:`Quickstart documentation <../quickstart/gpsprune_quickstart>`"
 msgstr ":doc:`Quickstart Dokumentation <../quickstart/gpsprune_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""
