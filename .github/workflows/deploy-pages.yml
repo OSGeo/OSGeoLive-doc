@@ -39,6 +39,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+      - name: Build pages
+        run: |
+          mkdir -p build
+          bash ci/build-pages.sh
+
       - name: Update locale
         if: github.ref == 'refs/heads/master'
         run: |
@@ -53,14 +58,9 @@ jobs:
           git rebase origin/master
           git push origin master
 
-      - name: Build pages
-        run: |
-          mkdir -p build
-          bash ci/build-pages.sh
-
       - name: Deploy pages
         if: github.ref == 'refs/heads/master'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: build/_build/html/
+          publish_dir: build/_build/html
