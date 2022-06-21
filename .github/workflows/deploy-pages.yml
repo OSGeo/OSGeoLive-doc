@@ -50,8 +50,8 @@ jobs:
           git diff --staged --quiet || git commit -m "Update locale: commit ${{ env.GIT_HASH }}"
           git fetch origin master
           git restore .  # Remove the unstaged changes before rebasing
-          git rebase origin/develop
-          git push origin develop
+          git rebase origin/master
+          git push origin master
 
       - name: Build pages
         run: |
