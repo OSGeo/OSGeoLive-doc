@@ -4,23 +4,23 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Vicky Vergara <vicky@georepublic.de>, 2020
-# MarPetra <mvergaratrejo@gmail.com>, 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2022
+# Vicky Vergara <vicky@georepublic.de>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:23
 msgid "OpenLayers Quickstart"
@@ -50,6 +50,10 @@ msgstr ""
 "promover el uso de información geográfica de todo tipo. Es completamente "
 "gratuito, JavaScript de Código Abierto, publicado bajo la licencia BSD de 2 "
 "cláusulas (también conocida como FreeBSD)."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:30
+msgid "Contents"
+msgstr "Contenidos"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:33
 msgid "Core concepts"
@@ -365,13 +369,29 @@ msgstr ""
 "OpenLayers aquí:"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:295
-msgid "`API Docs <../../openlayers/apidoc/>`_"
-msgstr "`Documentación de API <../../openlayers/apidoc/>`_"
+msgid "`API Docs <https://localhost/openlayers/apidoc/>`_"
+msgstr "`Documentación del API <https://localhost/openlayers/apidoc/>`_"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:297
-msgid "`Examples <../../openlayers/examples/>`_"
-msgstr "`Ejemplos <../../openlayers/examples/>`_"
+msgid "`Examples <https://localhost/openlayers/examples/>`_"
+msgstr "`Ejemplos <https://localhost/openlayers/examples/>`_"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:299
 msgid "`OpenLayers.org Website <https://openlayers.org/>`_"
 msgstr "`Sitio web OpenLayers.org <https://openlayers.org/>`_"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Proyecto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo Comunitario"

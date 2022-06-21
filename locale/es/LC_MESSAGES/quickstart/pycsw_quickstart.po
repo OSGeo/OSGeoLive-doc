@@ -4,23 +4,23 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Vicky Vergara <vicky@georepublic.de>, 2020
-# MarPetra <mvergaratrejo@gmail.com>, 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2022
+# Vicky Vergara <vicky@georepublic.de>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:22
 msgid "pycsw Quickstart"
@@ -37,6 +37,10 @@ msgstr ""
 "<https://www.python.org>`_. pycsw permite la publicación y el descubrimiento"
 " de metadatos geoespaciales. Los repositorios existentes de metadatos "
 "geoespaciales se pueden exponer a través de OGC:CSW 2.0.2 u OGC:CSW 3.0.0."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:27
+msgid "Contents"
+msgstr "Contenidos"
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:30
 msgid "Run the tester application"
@@ -154,8 +158,8 @@ msgstr ""
 "Los archivos de metadatos para un conjunto de datos espaciales o un servicio"
 " web espacial se pueden crear a través de la implementación de código "
 "abierto de la directiva inspire para metadatos, European Open Source "
-"Metadata Editor (EUOSME). Esta aplicación se puede encontrar en ``http"
-"://inspire-geoportal.ec.europa.eu/editor/``. El código fuente está "
+"Metadata Editor (EUOSME). Esta aplicación se puede encontrar en "
+"``http://inspire-geoportal.ec.europa.eu/editor/``. El código fuente está "
 "disponible en ``https://joinup.ec.europa.eu/svn/euosme/trunk``"
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:73
@@ -237,8 +241,8 @@ msgstr "**[repository]**"
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:106
 msgid ""
 "**database**: the full file path to the metadata database, in database URL "
-"format (see https://docs.sqlalchemy.org/en/latest/core/engines.html"
-"#database-urls)"
+"format (see "
+"https://docs.sqlalchemy.org/en/latest/core/engines.html#database-urls)"
 msgstr ""
 "**Base de datos**: la ruta completa del archivo a la base de datos de "
 "metadatos, en formato URL de base de datos (consulte "
@@ -360,3 +364,19 @@ msgid ""
 msgstr ""
 "Para más información sobre pycsw, consulte el `documentation`_ en la página "
 "web pycsw."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Proyecto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo Comunitario"

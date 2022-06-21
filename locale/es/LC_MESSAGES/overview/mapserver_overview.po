@@ -4,23 +4,23 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Vicky Vergara <vicky@georepublic.de>, 2020
 # MarPetra <mvergaratrejo@gmail.com>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/mapserver_overview.rst:18
 msgid "MapServer"
@@ -79,6 +79,10 @@ msgstr ""
 "mejoras y mantenimiento, y administrado dentro de OSGeo por el Comité "
 "Directivo del Proyecto MapServer compuesto por desarrolladores y otros "
 "colaboradores.   "
+
+#: ../../build/doc/overview/mapserver_overview.rstNone
+msgid "mapserver screenshot"
+msgstr "pantalla de mapserver"
 
 #: ../../build/doc/overview/mapserver_overview.rst:42
 msgid "Core Features"
@@ -294,8 +298,11 @@ msgid "Documentation"
 msgstr "Documentación"
 
 #: ../../build/doc/overview/mapserver_overview.rst:115
-msgid "`MapServer 7.0 Documentation <../../../mapserver/doc/index.html>`_"
-msgstr "`MapServer 7.0 Documentación <../../../mapserver/doc/index.html>`_"
+msgid ""
+"`MapServer 7.0 Documentation <https://localhost/mapserver/doc/index.html>`__"
+msgstr ""
+"`Socumentación de MapServer 7.0  "
+"<https://localhost/mapserver/doc/index.html>`__"
 
 #: ../../build/doc/overview/mapserver_overview.rst:118
 msgid "Details"
@@ -337,3 +344,19 @@ msgstr "Inicio Rápido"
 msgid ":doc:`Quickstart documentation <../quickstart/mapserver_quickstart>`"
 msgstr ""
 ":doc:`Documentación de inicio rápido  <../quickstart/mapserver_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Proyecto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo Comunitario"

@@ -4,23 +4,23 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2020
-# Vicky Vergara <vicky@georepublic.de>, 2021
+# MarPetra <mvergaratrejo@gmail.com>, 2022
+# Vicky Vergara <vicky@georepublic.de>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-01 08:19-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:39
 msgid "PostGIS Quickstart"
@@ -55,6 +55,10 @@ msgstr ""
 #: ../../build/doc/quickstart/postgis_quickstart.rst:49
 msgid "Manage data from the ``pgAdmin`` client."
 msgstr "Administrar datos desde el cliente ``pgAdmin``."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:53
+msgid "Contents"
+msgstr "Contenidos"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:56
 msgid "Client-server architecture"
@@ -536,10 +540,18 @@ msgstr ""
 "esos parámetros son para  Natural Earth, o sólo presione ``Connect`` para "
 "continuar:"
 
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "Connect to Natural Earth"
+msgstr "Conectarse a Natural Earth"
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:392
 msgid "You will now get a list of the spatial tables in the database:"
 msgstr ""
 "Ahora obtendrá una lista de las tablas espaciales en la base de datos:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "Natural Earth Layers"
+msgstr "Capas de Natural Earth"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:399
 msgid ""
@@ -550,6 +562,10 @@ msgstr ""
 "Elegir la tabla ne_10m_lakes y presione ``Add`` en la parte inferior (no "
 "``Load`` en la parte superior - que carga los parámetros de conexión de base"
 " de datos), y se debe cargar en QGIS:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "My First PostGIS layer"
+msgstr "Mi primera capa PostGIS"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:408
 msgid ""
@@ -601,6 +617,10 @@ msgstr ""
 "seleccionar tablas de la base de datos y usar las pestañas de la derecha "
 "para conocerlas. La pestaña Vista previa le mostrará un pequeño mapa."
 
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "QGIS Manager Preview"
+msgstr "Vista previa de QGIS Manager"
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:430
 msgid ""
 "We will now use the DB Manager to import a shapefile into the database. "
@@ -622,9 +642,17 @@ msgstr ""
 " ``...`` y busque el shapefile  ``sids.shp`` en el el directorio de R "
 "(ubicado en /home/user/data/vector/R/shapes):"
 
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "Find the shapefile"
+msgstr "Buscar el shapefile"
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:443
 msgid "Leave everything else as it is and hit ``Load``"
 msgstr "Deja todo lo demás como está y presione ``Load``"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "Import a shapefile"
+msgstr "Importar un shapefile"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:450
 msgid ""
@@ -649,6 +677,10 @@ msgstr ""
 "usyed debe ser capaz de producir un mapa coroplético de las cuentas de "
 "síndrome de muerte súbita (campos sid74 o sid79) en Carolina del norte:"
 
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "SIDS data mapped"
+msgstr "Datos SIDS mapeados"
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:466
 msgid "Get to know pgAdmin"
 msgstr "Conocer pgAdmin"
@@ -671,6 +703,13 @@ msgstr ""
 "pgAdmin III le permite utilizar SQL para manipular las tablas de datos. "
 "Puede encontrar e iniciar pgAdmin desde la carpeta Bases de Datos, existente"
 " en OSGeoLive Desktop."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "pgAdmin"
+msgstr "pgAdmin"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:478
 msgid "Enter the master password  ``user``."
@@ -1019,3 +1058,19 @@ msgstr "PostGIS Proyecto en casa -  http://postgis.net"
 #: ../../build/doc/quickstart/postgis_quickstart.rst:696
 msgid "PostGIS Documentation -  http://postgis.net/documentation/"
 msgstr "PostGIS Documentación -  http://postgis.net/documentation/"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Proyecto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo Comunitario"

@@ -6,23 +6,23 @@
 # Translators:
 # Nicolas Roelandt (Personnel), 2017
 # Violeta Sosa <vsosa.ud@gmail.com>, 2018
-# Vicky Vergara <vicky@georepublic.de>, 2020
-# MarPetra <mvergaratrejo@gmail.com>, 2021
+# MarPetra <mvergaratrejo@gmail.com>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-06 18:01-0600\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: 2017-01-21 16:46+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2021\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/index.rst:3
 msgid "Welcome to |osgeolive-version|"
@@ -42,6 +42,10 @@ msgstr ""
 "sin necesidad de instalar algo particular. Se compone enteramente de "
 "software libre, lo que le permite ser libremente distribuido, duplicado y "
 "compartido."
+
+#: ../../build/doc/index.rstNone
+msgid "boot select"
+msgstr ""
 
 #: ../../build/doc/index.rst:17
 msgid ""
@@ -98,10 +102,23 @@ msgstr "Presentación"
 
 #: ../../build/doc/index.rst:70
 msgid ""
-"A half hour `presentation <./presentation.html>`_, highlighting all "
-"OSGeoLive applications, is available with slides, script, and `abstract "
+"A half hour `presentation <presentation.html>`__, highlighting all OSGeoLive"
+" applications, is available with slides, script, and `abstract "
 "<presentation/abstract.txt>`_."
 msgstr ""
-"Una `presentación de media hora  <./presentation.html>`_, destacando todas "
-"las aplicaciones de OSGeoLive, está disponible con diapositivas, script y  "
-"`abstract <presentation/abstract.txt>`_."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Proyecto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo Comunitario"

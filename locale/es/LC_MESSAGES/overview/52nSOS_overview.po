@@ -4,23 +4,23 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2020
-# Vicky Vergara <vicky@georepublic.de>, 2020
+# MarPetra <mvergaratrejo@gmail.com>, 2022
+# Vicky Vergara <vicky@georepublic.de>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:18
 msgid "52 North SOS"
@@ -40,6 +40,10 @@ msgstr ""
 " de sensores vivos y archivados. Un sensor podría ser un medidor de nivel de"
 " agua en una corriente, una estación meteorológica o una estación de "
 "monitoreo de calidad del aire."
+
+#: ../../build/doc/overview/52nSOS_overview.rstNone
+msgid "52nSOS screenshot"
+msgstr "pantalla de 52nSOS"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:35
 msgid "Core Features"
@@ -410,8 +414,8 @@ msgid ""
 "**Community Website:** https://52north.org/research/research-labs/sensor-"
 "web/"
 msgstr ""
-"**Sitio Web Comunitario:** https://52north.org/research/research-labs"
-"/sensor-web/"
+"**Sitio Web Comunitario:** https://52north.org/research/research-"
+"labs/sensor-web/"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:155
 msgid ""
@@ -427,3 +431,19 @@ msgstr "Inicio Rápido"
 msgid ":doc:`Quickstart documentation <../quickstart/52nSOS_quickstart>`"
 msgstr ""
 ":doc:`Documentación de inicio rápido <../quickstart/52nSOS_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Proyecto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo Comunitario"

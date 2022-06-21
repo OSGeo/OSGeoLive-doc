@@ -5,22 +5,22 @@
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Vicky Vergara <vicky@georepublic.de>, 2021
+# Vicky Vergara <vicky@georepublic.de>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-01 08:42-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2018-07-27 22:51+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/inspire_overview.rst:15
 msgid "INSPIRE"
@@ -108,6 +108,10 @@ msgstr ""
 "datos comunes <https://inspire.ec.europa.eu/Data-Models/Data-"
 "Specifications/2892>`__ definidos para cada tema."
 
+#: ../../build/doc/overview/inspire_overview.rstNone
+msgid "inspire screenshot"
+msgstr "pantalla de inspire"
+
 #: ../../build/doc/overview/inspire_overview.rst:33
 msgid ""
 "Currently, more than 7,000 European public institutions contribute their "
@@ -188,3 +192,19 @@ msgstr "Detalles "
 #: ../../build/doc/overview/inspire_overview.rst:50
 msgid "**Website:** https://inspire.ec.europa.eu/about-inspire/563"
 msgstr "**Sitio web:** https://inspire.ec.europa.eu/about-inspire/563"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Proyecto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo Comunitario"

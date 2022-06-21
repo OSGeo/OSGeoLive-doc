@@ -4,23 +4,23 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Vicky Vergara <vicky@georepublic.de>, 2020
-# MarPetra <mvergaratrejo@gmail.com>, 2021
+# Vicky Vergara <vicky@georepublic.de>, 2022
+# MarPetra <mvergaratrejo@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-21 12:32-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2021\n"
+"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:21
 msgid "OpenStreetMap Quickstart"
@@ -56,6 +56,10 @@ msgid ""
 msgstr ""
 "El resto de esta guía presenta parte del software en línea y fuera de línea "
 "utilizada para editar y representar datos OSM."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:40
+msgid "Contents"
+msgstr "Contenidos"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:43
 msgid "Programs that work with OSM data"
@@ -485,3 +489,19 @@ msgstr ""
 #: ../../build/doc/quickstart/osm_quickstart.rst:218
 msgid "Get support: https://www.openstreetmap.org/help"
 msgstr "Obtenga soporte: https://www.openstreetmap.org/help"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Proyecto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo Comunitario"

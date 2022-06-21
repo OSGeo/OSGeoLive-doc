@@ -5,22 +5,22 @@
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2021
-# Vicky Vergara <vicky@georepublic.de>, 2021
+# Vicky Vergara <vicky@georepublic.de>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:11+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:19
 msgid "pgRouting"
@@ -79,6 +79,10 @@ msgstr ""
 "pgRouting está disponible bajo la licencia GPLv2+ y es apoyado por una "
 "creciente comunidad de individuos, empresas y organizaciones."
 
+#: ../../build/doc/overview/pgrouting_overview.rstNone
+msgid "pgrouting screenshot"
+msgstr "pantalla de pgrouting"
+
 #: ../../build/doc/overview/pgrouting_overview.rst:48
 msgid "Core Features"
 msgstr "Características Principales"
@@ -121,10 +125,10 @@ msgstr "Y muchos más"
 #: ../../build/doc/overview/pgrouting_overview.rst:67
 msgid ""
 "Learn more about pgRouting in the `documentation "
-"<http://docs.pgrouting.org>`__."
+"<https://docs.pgrouting.org>`__."
 msgstr ""
 "Obtenga más información sobre pgRouting en la `documentation "
-"<http://docs.pgrouting.org>`__."
+"<https://docs.pgrouting.org>`__."
 
 #: ../../build/doc/overview/pgrouting_overview.rst:71
 msgid "Details"
@@ -162,3 +166,19 @@ msgstr "Inicio Rápido"
 msgid ":doc:`Quickstart documentation <../quickstart/pgrouting_quickstart>`"
 msgstr ""
 ":doc:`Documentación de inicio rápido <../quickstart/pgrouting_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Proyecto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo Comunitario"
