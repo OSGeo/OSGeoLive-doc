@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-20 21:55-0500\n"
+"POT-Creation-Date: 2022-06-21 20:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "`OSGeoLive <https://live.osgeo.org>`_ is a self-contained bootable DVD, USB thumb drive or Virtual Machine based on `Lubuntu <https://lubuntu.net>`_, that allows you to try a wide variety of open source geospatial software without installing anything. It is composed entirely of free software, allowing it to be freely distributed, duplicated and passed around."
 msgstr ""
 
-#: ../../build/doc/index.rst:None
+#: ../../build/doc/index.rst:-1
 msgid "boot select"
 msgstr ""
 
@@ -65,7 +65,7 @@ msgid "Presentation"
 msgstr ""
 
 #: ../../build/doc/index.rst:70
-msgid "A half hour `presentation <presentation.html>`__, highlighting all OSGeoLive applications, is available with slides, script, and `abstract <presentation/abstract.txt>`_."
+msgid "A half hour `presentation <presentation.html>`__, highlighting all OSGeoLive applications, is available with slides, script"
 msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
@@ -80,7 +80,6 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

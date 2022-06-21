@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-20 21:55-0500\n"
+"POT-Creation-Date: 2022-06-21 20:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../build/doc/index.rst:3
 msgid "Welcome to |osgeolive-version|"
@@ -31,6 +31,7 @@ msgid ""
 "duplicated and passed around."
 msgstr ""
 
+#: ../../build/doc/index.rst:-1
 msgid "boot select"
 msgstr ""
 
@@ -80,8 +81,7 @@ msgstr ""
 #: ../../build/doc/index.rst:70
 msgid ""
 "A half hour `presentation <presentation.html>`__, highlighting all "
-"OSGeoLive applications, is available with slides, script, and `abstract "
-"<presentation/abstract.txt>`_."
+"OSGeoLive applications, is available with slides, script"
 msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
