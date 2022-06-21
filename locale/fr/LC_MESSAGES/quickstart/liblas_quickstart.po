@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:18
 msgid "libLAS Quickstart"
@@ -151,8 +151,8 @@ msgstr ""
 "OK, parce qu’elle implique une précision implicite de 1 cm. Pour les degrés "
 "décimaux données du système de coordonnées cartographique plate carrée, il "
 "nous amène à perdre beaucoup de précision. Nous devons définir nos valeurs "
-"d’échelle à quelque chose qui peut contenir plus de précision dans notre cas"
-" :"
+"d’échelle à quelque chose qui peut contenir plus de précision dans notre "
+"cas :"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:113
 msgid ""

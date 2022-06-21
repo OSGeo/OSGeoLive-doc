@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Harrissou Sant-anna, 2021\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/grass_overview.rst:21
 msgid "GRASS GIS"
@@ -92,17 +92,19 @@ msgstr ""
 "lots sur ​​des supercalculateurs massivement parallélisés que pour être "
 "utilisé sur des SIG de bureau, des PDA ou sur des netbooks"
 
+#: ../../build/doc/overview/grass_overview.rstNone
+msgid "grass screenshot"
+msgstr ""
+
 #: ../../build/doc/overview/grass_overview.rst:63
 msgid "Core Features"
 msgstr "Caractéristiques principales"
 
 #: ../../build/doc/overview/grass_overview.rst:65
 msgid ""
-"You name it, there's a `tool for it "
-"<https://grass.osgeo.org/grass-stable/manuals/keywords.html>`_."
+"You name it, there's a `tool for it <https://grass.osgeo.org/grass-"
+"stable/manuals/keywords.html>`_."
 msgstr ""
-"Vous nommez une fonction, il y a `un outil pour ça "
-"<https://grass.osgeo.org/grass-stable/manuals/keywords.html>`_. dans GRASS."
 
 #: ../../build/doc/overview/grass_overview.rst:66
 msgid ""
@@ -149,3 +151,19 @@ msgid ":doc:`Quickstart documentation <../quickstart/grass_quickstart>`"
 msgstr ""
 ":doc:`Documentation du guide de démarrage rapide "
 "<../quickstart/grass_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

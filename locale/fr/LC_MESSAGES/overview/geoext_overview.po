@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2019-07-17 15:40+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/geoext_overview.rst:14
 msgid "GeoExt"
@@ -74,6 +74,10 @@ msgstr ""
 "version GPL v3 du framework ExtJS, vous l'utiliserez sous GPLv3. Si vous "
 "possédez une licence commerciale Sencha ExtJS, vous avez le droit d'utiliser"
 " GeoExt3 sous la licence BSD."
+
+#: ../../build/doc/overview/geoext_overview.rstNone
+msgid "geoext screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/geoext_overview.rst:37
 msgid "Core Features"
@@ -181,3 +185,19 @@ msgstr "Guide de démarrage rapide"
 #: ../../build/doc/overview/geoext_overview.rst:79
 msgid ":doc:`Quickstart documentation <../quickstart/geoext_quickstart>`"
 msgstr ":doc:`Guide de démarrage rapide <../quickstart/geoext_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

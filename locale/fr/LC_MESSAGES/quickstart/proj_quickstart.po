@@ -8,22 +8,22 @@
 # Nicolas Roelandt (Personnel), 2021
 # julien2512 <moquet.julien@gmail.com>, 2021
 # Vicky Vergara <vicky@georepublic.de>, 2021
-# Harrissou Sant-anna, 2021
+# Harrissou Sant-anna, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2021-01-26 00:34+0000\n"
-"Last-Translator: Harrissou Sant-anna, 2021\n"
+"Last-Translator: Harrissou Sant-anna, 2022\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/quickstart/proj_quickstart.rst:22
 msgid "PROJ Quickstart"
@@ -40,6 +40,10 @@ msgstr ""
 "et longitude en coordonnées cartésiennes (et vice versa). C'est aussi une "
 "API C destinée aux développeurs pour inclure cette transformation de "
 "coordonnées dans leur propre logiciel."
+
+#: ../../build/doc/quickstart/proj_quickstart.rst:31
+msgid "This Quick Start describes how to use these tools :"
+msgstr "Ce guide de démarrage rapide décrit comment utiliser ces outils:"
 
 #: ../../build/doc/quickstart/proj_quickstart.rst:34
 msgid "PROJ"
@@ -269,8 +273,24 @@ msgstr ""
 
 #: ../../build/doc/quickstart/proj_quickstart.rst:204
 msgid ""
-"`The online geodesic bibliography <https://geographiclib.sourceforge.io"
-"/geodesic-papers/biblio.html>`_"
+"`The online geodesic bibliography "
+"<https://geographiclib.sourceforge.io/geodesic-papers/biblio.html>`_"
 msgstr ""
-"`The online geodesic bibliography <https://geographiclib.sourceforge.io"
-"/geodesic-papers/biblio.html>`_"
+"`The online geodesic bibliography "
+"<https://geographiclib.sourceforge.io/geodesic-papers/biblio.html>`_"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

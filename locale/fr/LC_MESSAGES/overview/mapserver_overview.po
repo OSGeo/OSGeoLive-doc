@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/mapserver_overview.rst:18
 msgid "MapServer"
@@ -80,6 +80,10 @@ msgstr ""
 "financent les améliorations et la maintenance, et est administré au sein de "
 "l’OSGeo par le Comité de Gouvernance de Projet composé de développeurs et "
 "d’autres contributeurs."
+
+#: ../../build/doc/overview/mapserver_overview.rstNone
+msgid "mapserver screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/mapserver_overview.rst:42
 msgid "Core Features"
@@ -297,8 +301,9 @@ msgid "Documentation"
 msgstr "Documentation"
 
 #: ../../build/doc/overview/mapserver_overview.rst:115
-msgid "`MapServer 7.0 Documentation <../../../mapserver/doc/index.html>`_"
-msgstr "`Documentation MapServer 7.0 <../../../mapserver/doc/index.html>`_"
+msgid ""
+"`MapServer 7.0 Documentation <https://localhost/mapserver/doc/index.html>`__"
+msgstr ""
 
 #: ../../build/doc/overview/mapserver_overview.rst:118
 msgid "Details"
@@ -341,3 +346,19 @@ msgid ":doc:`Quickstart documentation <../quickstart/mapserver_quickstart>`"
 msgstr ""
 ":doc:`Documentation du guide de démarrage rapide "
 "<../quickstart/mapserver_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

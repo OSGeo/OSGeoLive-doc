@@ -6,27 +6,26 @@
 # Translators:
 # Harrissou Sant-anna, 2017
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
-# Nicolas Roelandt (Personnel), 2020
-# Vicky Vergara <vicky@georepublic.de>, 2020
+# Nicolas Roelandt (Personnel), 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-01 08:19-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2021\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:9
 msgid "Getting started with OSGeoLive"
-msgstr ""
+msgstr "Commencer avec OSGeoLive"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:11
 msgid "This Quick Start describes how to start OSGeoLive from a DVD or USB."
@@ -43,12 +42,12 @@ msgid "Your computer should have at least:"
 msgstr "Votre ordinateur devrait avoir au minimum:"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:18
-msgid "RAM: 1 GB."
-msgstr "RAM: 1 GB."
+msgid "RAM: minimum 2 GB (4 GB recommended)."
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:19
-msgid "CPU: 1 GHz i686 or compatible (Intel/AMD)"
-msgstr "CPU: 1 GHz i686 ou compatible (Intel/AMD)"
+msgid "CPU: 1 GHz 64 bit."
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:20
 msgid "Hard Disk:"
@@ -95,9 +94,17 @@ msgstr ""
 "ajuster vos paramètres de démarrage dans le BIOS ou appuyer sur le bouton de"
 " menu de démarrage juste après la mise sous tension de l'ordinateur."
 
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
+msgid "boot"
+msgstr ""
+
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:42
 msgid "Sit back while the system boots up."
 msgstr "Attendez jusqu'à ce le système démarre."
+
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
+msgid "boot select"
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:48
 msgid "Try the many applications from the :menuselection:`Geospatial` menu."
@@ -111,19 +118,13 @@ msgstr "Voir Aussi:"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
 msgid ""
-"Getting started with Lubuntu and the LXDE desktop (which is used by "
+"Getting started with Lubuntu and the LXQt desktop (which is used by "
 "OSGeoLive):"
 msgstr ""
-"Bien démarrer avec Lubuntu et le bureau LXDE (qui est utilisé par "
-"l'OSGeoLive):"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
-msgid ""
-"https://help.ubuntu.com/community/Lubuntu/Documentation and "
-"https://www.lxde.org/"
+msgid "https://lubuntu.me/ and https://lxqt-project.org/"
 msgstr ""
-"https://help.ubuntu.com/community/Lubuntu/Documentation et "
-"https://www.lxde.org/"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:56
 msgid "Getting started with the Ubuntu operating system:"
@@ -150,3 +151,19 @@ msgstr ":doc:`osgeolive_install_quickstart`"
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:60
 msgid ":doc:`usb_quickstart`"
 msgstr ":doc:`usb_quickstart`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

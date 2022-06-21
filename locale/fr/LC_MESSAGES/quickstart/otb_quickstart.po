@@ -7,22 +7,22 @@
 # Harrissou Sant-anna, 2017
 # Vicky Vergara <vicky@georepublic.de>, 2018
 # Manuel Grizonnet <manuel.grizonnet@cnes.fr>, 2018
-# Nicolas Roelandt (Personnel), 2020
+# Nicolas Roelandt (Personnel), 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:22
 msgid "OTB Quickstart"
@@ -101,18 +101,33 @@ msgstr ""
 #: ../../build/doc/quickstart/otb_quickstart.rst:40
 msgid "Sample data used in this quickstart can be found in :"
 msgstr ""
-"On trouvera des exemples de données utilisées dans ce démarrage rapide dans "
-":"
+"On trouvera des exemples de données utilisées dans ce démarrage rapide "
+"dans :"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:40
-msgid "/home/user/data/north_carolina/rast_geotiffs"
-msgstr "/home/user/data/north_carolina/rast_geotiffs"
+msgid "/home/user/data/north_carolina/rast_geotiff"
+msgstr ""
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:46
+#: ../../build/doc/quickstart/otb_quickstart.rst:42
+msgid ""
+"Start a Terminal Emulator (LXTerminal currently) from the Applications menu "
+"in the Accessories section. This gives you a Unix shell command prompt. Go "
+"to the data directory."
+msgstr ""
+
+#: ../../build/doc/quickstart/otb_quickstart.rst:44
+msgid "cd /home/user/data/north_carolina/rast_geotiff"
+msgstr ""
+
+#: ../../build/doc/quickstart/otb_quickstart.rst:48
+msgid "Contents"
+msgstr "Contenu"
+
+#: ../../build/doc/quickstart/otb_quickstart.rst:51
 msgid "Display metadata information in an image"
 msgstr "Afficher les informations de métadonnées d'une image"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:48
+#: ../../build/doc/quickstart/otb_quickstart.rst:53
 msgid ""
 "You can get all the metadata information contained in an image with the "
 "command : `otbcli_ReadImageInfo` The unique parameter is the Input image "
@@ -122,11 +137,11 @@ msgstr ""
 "une image avec la commande : `otbcli_ReadImageInfo`. L'unique paramètre est "
 "le nom du fichier image d’entrée, par exemple ::"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:54
+#: ../../build/doc/quickstart/otb_quickstart.rst:59
 msgid "Calculator on image bands"
 msgstr "Calculatrice sur bandes d’image"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:56
+#: ../../build/doc/quickstart/otb_quickstart.rst:61
 msgid ""
 "The `otbcli_otbBandMath` provides an efficient way to perform mathematical "
 "operation on image bands. The syntax is quite simple. For example to "
@@ -139,7 +154,7 @@ msgstr ""
 "d’image sur les images `lsat7_2002_10.tif` et `lsat7_2002_20.tif`, utilisez "
 "seulement la commande::"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:61
+#: ../../build/doc/quickstart/otb_quickstart.rst:66
 msgid ""
 "The application is able to perform complex mathematical operations over "
 "images (threshold, logarithmic rescaling, etc). This homebrewed digital "
@@ -160,7 +175,7 @@ msgstr ""
 "normalisé) pour la végétation. Avec la calculatrice, vous êtes en mesure de "
 "calculer le NDVI sur des images de capteurs multispectraux en faisant::"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:66
+#: ../../build/doc/quickstart/otb_quickstart.rst:71
 msgid ""
 "The file `lsat7_2002_30.tif` corresponds to Landsat 7 red channel, "
 "`lsat7_2002_40.tif` corresponds to Near Infra-Red."
@@ -168,17 +183,17 @@ msgstr ""
 "Le fichier `lsat7_2002_30.tif` correspond au canal rouge de Landsat 7, "
 "`lsat7_2002_40.tif` au proche Infra-rouge."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:68
+#: ../../build/doc/quickstart/otb_quickstart.rst:73
 msgid "You can then visualize input images and the result with the command ::"
 msgstr ""
 "Vous pouvez ensuite visualiser les images d’entrée et le résultat avec la "
 "commande ::"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:73
+#: ../../build/doc/quickstart/otb_quickstart.rst:78
 msgid "Pixel based classification"
 msgstr "Classification basée sur les pixels"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:74
+#: ../../build/doc/quickstart/otb_quickstart.rst:79
 msgid ""
 "The classification in the application framework provides a supervised pixel-"
 "wise classification chain based on learning from multiple images, and using "
@@ -201,15 +216,15 @@ msgstr ""
 "caractéristiques. Veuillez noter que toutes les images d’entrée doivent "
 "avoir le même nombre de bandes pour être comparables."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:85
+#: ../../build/doc/quickstart/otb_quickstart.rst:90
 msgid "To discover this application, you can use the command ::"
 msgstr "Pour découvrir cette application, vous pouvez utiliser la commande ::"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:91
+#: ../../build/doc/quickstart/otb_quickstart.rst:96
 msgid "Perform segmentation"
 msgstr "Effectuer la segmentation"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:92
+#: ../../build/doc/quickstart/otb_quickstart.rst:97
 msgid ""
 "The OTB *Segmentation* application allows to produce a raster segmentation "
 "output with different algorithms and to scale up to large raster by "
@@ -222,43 +237,43 @@ msgstr ""
 "un logiciel SIG. Il existe quatre méthodes de segmentation dans "
 "l’application :"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:97
+#: ../../build/doc/quickstart/otb_quickstart.rst:102
 msgid "Mean-Shift"
 msgstr "Mean-Shift"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:98
+#: ../../build/doc/quickstart/otb_quickstart.rst:103
 msgid "Watershed (ITK implementation)"
 msgstr "Ligne de partage des eaux  (Implémentation ITK)"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:99
+#: ../../build/doc/quickstart/otb_quickstart.rst:104
 msgid "Connected-Components"
 msgstr "Analyse en composante connexes"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:100
+#: ../../build/doc/quickstart/otb_quickstart.rst:105
 msgid "Morphological profiles"
 msgstr "Profils morphologiques"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:102
+#: ../../build/doc/quickstart/otb_quickstart.rst:107
 msgid "You can test the segmentation with these commands:"
 msgstr "Vous pouvez tester la segmentation avec ces commandes :"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:104
+#: ../../build/doc/quickstart/otb_quickstart.rst:109
 msgid "Creation of a multichannel Red-Green-Blue-Nir image"
 msgstr "Création d’une image multicanal Rouge-Vert-Bleu-Proche-Infrarouge "
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:110
+#: ../../build/doc/quickstart/otb_quickstart.rst:115
 msgid "Apply segmentation"
 msgstr "Appliquer la segmentation"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:116
+#: ../../build/doc/quickstart/otb_quickstart.rst:121
 msgid "Generate colors instead of labels"
 msgstr "Générer des couleurs au lieu d’étiquettes"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:123
+#: ../../build/doc/quickstart/otb_quickstart.rst:128
 msgid "Moreover the application can work in two different modes:"
 msgstr "En outre, l’application peut fonctionner dans deux modes différents :"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:125
+#: ../../build/doc/quickstart/otb_quickstart.rst:130
 msgid ""
 "Raster mode: allows you to segment a small image and produces a raster where"
 " each component of the segmentation is labeled with a unique integer"
@@ -266,7 +281,7 @@ msgstr ""
 "Mode raster : vous permet de segmenter une petite image et produit une trame"
 " où chaque composant de la segmentation est étiqueté avec un entier unique"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:126
+#: ../../build/doc/quickstart/otb_quickstart.rst:131
 msgid ""
 "Vector mode: segment larger images and produce a vector file where each "
 "segment of the segmentation is represented by a polygon"
@@ -275,7 +290,7 @@ msgstr ""
 "vectoriel où chaque segment de la segmentation est représenté par un "
 "polygone"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:130
+#: ../../build/doc/quickstart/otb_quickstart.rst:135
 msgid ""
 "OTB also includes a framework to perform tile-wise segmentation of very "
 "large images with theoretical guarantees of getting identical results to "
@@ -285,11 +300,11 @@ msgstr ""
 "tuiles d’images très grandes avec des garanties théoriques d’obtenir des "
 "résultats identiques à ceux sans tuilage appelé LSMS_."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:136
+#: ../../build/doc/quickstart/otb_quickstart.rst:141
 msgid "OTB in QGis"
 msgstr "OTB dans QGis"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:138
+#: ../../build/doc/quickstart/otb_quickstart.rst:143
 msgid ""
 "The same set of OTB applications can also be used from the "
 ":menuselection:`Processing --> Toolbox` menu in QGis. The applications are "
@@ -299,11 +314,11 @@ msgstr ""
 ":menuselection:`Processing --> Toolbox` dans QGis. Les applications sont "
 "triées par balise."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:144
+#: ../../build/doc/quickstart/otb_quickstart.rst:149
 msgid "Developing with OTB"
 msgstr "Développer avec OTB"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:146
+#: ../../build/doc/quickstart/otb_quickstart.rst:151
 msgid ""
 "If you want to use the OTB library and compile your C++ code inside "
 "OSGeoLive, you will need to:"
@@ -311,16 +326,16 @@ msgstr ""
 "Si vous souhaitez utiliser la bibliothèque OTB et compiler votre code C++ à "
 "l’intérieur d’OSGeoLive, vous devrez :"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:149
+#: ../../build/doc/quickstart/otb_quickstart.rst:154
 msgid "Install development package **libotb-dev** and **libqt4-dev** ."
 msgstr ""
 "Installez le paquet de développement **libotb-dev** et **libqt4-dev** ."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:150
+#: ../../build/doc/quickstart/otb_quickstart.rst:155
 msgid "Check that **cmake** is installed."
 msgstr "Vérifiez que **cmake** est installé."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:152
+#: ../../build/doc/quickstart/otb_quickstart.rst:157
 msgid ""
 "The OTB_DIR location should be found automatically (usually in "
 "*/usr/lib/x86_64-linux-gnu/cmake/OTB-...*). In your CMake configuration, you"
@@ -330,19 +345,19 @@ msgstr ""
 "*/usr/lib/x86_64-linux-gnu/cmake/OTB-...*). Dans votre configuration CMake, "
 "vous devez lier les bibliothèques dans la variable OTB_LIBRARIES."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:154
+#: ../../build/doc/quickstart/otb_quickstart.rst:159
 msgid "More information can be found in the Software Guide."
 msgstr "Plus d’informations peuvent être trouvées dans le Guide logiciel."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:158
+#: ../../build/doc/quickstart/otb_quickstart.rst:163
 msgid "What next?"
 msgstr "Ensuite ?"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:160
+#: ../../build/doc/quickstart/otb_quickstart.rst:165
 msgid "OTB Software Guide"
 msgstr "Guide du logiciel OTB"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:162
+#: ../../build/doc/quickstart/otb_quickstart.rst:167
 msgid ""
 "The main source of information is the OTB Software Guide. This is a "
 "comprehensive guide which comprises about 600 pages, detailing the steps to "
@@ -354,11 +369,11 @@ msgstr ""
 "pour installer OTB et l'utilisez. La plupart des classes disponibles est "
 "largement illustrée avec les résultats de traitement de télédétection réels."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:173
+#: ../../build/doc/quickstart/otb_quickstart.rst:178
 msgid "OTB CookBook"
 msgstr "OTB CookBook"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:175
+#: ../../build/doc/quickstart/otb_quickstart.rst:180
 msgid ""
 "A guide for OTB-Applications and Monteverdi dedicated for non-developers is "
 "also available.This guide is composed of a brief tour of of OTB-Applications"
@@ -370,23 +385,23 @@ msgstr ""
 "applications OTB et de Monteverdi, suivie d’une série de recettes pour "
 "mettre oeuvre des tâches habituelles de télédétection avec ces deux outils."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:185
+#: ../../build/doc/quickstart/otb_quickstart.rst:190
 msgid "OTB Tutorials"
 msgstr "Tutoriels OTB"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:187
+#: ../../build/doc/quickstart/otb_quickstart.rst:192
 msgid "Follow the tutorials_ to learn more about OTB."
 msgstr "Suivez les tutorials_ pour en savoir plus sur OTB."
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:191
+#: ../../build/doc/quickstart/otb_quickstart.rst:196
 msgid "OTB Applications documentation"
 msgstr "Documentation des applications OTB"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:193
+#: ../../build/doc/quickstart/otb_quickstart.rst:198
 msgid "See also detailed documentation about OTB applications_"
 msgstr "Voir aussi une documentation détaillée sur les applications_ OTB"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:197
+#: ../../build/doc/quickstart/otb_quickstart.rst:202
 msgid ""
 "OTB courses with Pleiades images to learn how to use OTB applications and "
 "Monteverdi"
@@ -394,7 +409,23 @@ msgstr ""
 "Cours d’OTB avec des images Pléiades pour apprendre à utiliser les "
 "applications de l’OTB et Monteverdi"
 
-#: ../../build/doc/quickstart/otb_quickstart.rst:199
+#: ../../build/doc/quickstart/otb_quickstart.rst:204
 msgid "Follow the courses_ to learn more about OTB (see section Tutorials)."
 msgstr ""
 "Suivez les courses_ pour en savoir plus sur OTB (voir la section Tutoriels)."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

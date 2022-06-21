@@ -5,23 +5,23 @@
 # 
 # Translators:
 # MarieSilvestre, 2019
-# Nicolas Roelandt (Personnel), 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Nicolas Roelandt (Personnel), 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:28
 msgid "GeoServer Quickstart"
@@ -61,6 +61,10 @@ msgstr "en savoir plus sur les clients qui peuvent afficher vos cartes"
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:38
 msgid "add a layer from a NetCDF file"
 msgstr "ajouter une couche à partir d’un fichier NetCDF"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:41
+msgid "Contents"
+msgstr "Contenu"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:44
 msgid "Start Geoserver"
@@ -180,6 +184,10 @@ msgstr ""
 msgid "Click on :guilabel:`Add new Store`. You will see this page:"
 msgstr "Cliquez sur :guilabel:`Add new Store`. Vous verrez cette page :"
 
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
+msgid "The New Store page"
+msgstr ""
+
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:98
 msgid ""
 "Select the :guilabel:`Directory of spatial files`. You will see the "
@@ -187,6 +195,10 @@ msgid ""
 msgstr ""
 "Sélectionnez le :guilabel:`Directory of spatial files`. Vous verrez ce qui "
 "suit :"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
+msgid "Filling in the New Store page"
+msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:105
 msgid ""
@@ -205,6 +217,10 @@ msgstr ""
 msgid "Press :guilabel:`save`."
 msgstr "Appuyez sur :guilabel:`save`."
 
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
+msgid "The Natural Earth Datastore"
+msgstr ""
+
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:113
 msgid ""
 "Press :guilabel:`publish` next to one of the layers to finish adding the "
@@ -212,6 +228,10 @@ msgid ""
 msgstr ""
 "Appuyez sur :guilabel:`publish` à côté de l’une des couches pour terminer "
 "l’ajout des données. Cela vous mènera à la page *Layers* :"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rstNone
+msgid "The layer publishing page"
+msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:120
 msgid ""
@@ -330,6 +350,10 @@ msgstr ""
 "carte. |UG| applique automatiquement un style (afin que vous puissiez voir "
 "les données)."
 
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
+msgid "Default Styling in uDig"
+msgstr ""
+
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:154
 msgid ""
 "In the :ref:`Layer list <Layer_list>` select the style button (it looks like"
@@ -337,6 +361,10 @@ msgid ""
 msgstr ""
 "Dans la liste :ref:`Layer list <Layer_list>` sélectionnez le bouton de style"
 " (il ressemble à la palette d’un artiste)"
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rstNone
+msgid "The Layer list window"
+msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:162
 msgid "This will open the :ref:`Style Pane <Style_Pane>`."
@@ -357,9 +385,17 @@ msgstr ""
 "plus jolie. Choisissez le même bleu pour la  bordure afin qu’elle "
 "corresponde."
 
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
+msgid "The Style Pane"
+msgstr ""
+
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:171
 msgid "Click ``OK`` and |UG| will display the changes."
 msgstr "Cliquez sur ``OK`` et |UG| affichera les modifications."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
+msgid "Blue Oceans"
+msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:178
 msgid ""
@@ -370,9 +406,17 @@ msgstr ""
 "terrestre. Vous pouvez utiliser la section``define custom colors``  pour "
 "créer votre couleur préférée."
 
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
+msgid "Defining a nicer land color"
+msgstr ""
+
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:185
 msgid "This gives a nice looking basic world map."
 msgstr "Cela donne une belle carte de base mondiale."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rstNone
+msgid "A basic word map"
+msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:193
 msgid "Adding the style to GeoServer"
@@ -434,6 +478,10 @@ msgstr ""
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:203
 msgid "Press the :guilabel:`Submit` at the bottom of the page."
 msgstr "Appuyez sur le :guilabel:`Submit` en bas de la page."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rstNone
+msgid "Adding a Style to GeoServer"
+msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:212
 msgid "Adding the style to the layer"
@@ -549,6 +597,10 @@ msgstr ""
 "Faites défiler vers le bas jusqu’au bas de l’onglet \"Data\" et appuyez à "
 "nouveau sur \"Save\"."
 
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
+msgid "Adding a NetCDF store"
+msgstr ""
+
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:276
 msgid "Preview the NetCDF layer"
 msgstr "Aperçu de la couche NetCDF"
@@ -572,6 +624,10 @@ msgid ""
 msgstr ""
 "En cliquant sur les points, la valeur \"Ozone_concentration\" sera indiquée "
 "dans un tableau en bas de la carte."
+
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
+msgid "OpenLayers preview of a NetCDF layer"
+msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:288
 msgid ""
@@ -619,3 +675,19 @@ msgid ""
 msgstr ""
 "Atelier de style GeoServer - "
 "https://docs.geoserver.org/latest/en/user/styling/workshop/index.html"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

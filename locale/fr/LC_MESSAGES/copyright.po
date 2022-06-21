@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 11:35-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: MarieSilvestre, 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/copyright.rst:2
 msgid "OSGeoLive Copyright"
@@ -167,6 +167,10 @@ msgstr ""
 "OSGeoLive, :doc:`quickstart/gvsig_quickstart`, et téléchargée le 25 Juillet "
 "2011. Le travail original a été traduit de l'anglais à l'allemand."
 
+#: ../../build/doc/copyright.rst:0 ../../build/doc/copyright.rst:0
+msgid "CC-By-SA-med"
+msgstr ""
+
 #: ../../build/doc/copyright.rst:36
 msgid "**Concise CC-By-SA and attribution:**"
 msgstr "**CC-By-SA concise et attribution:**"
@@ -196,6 +200,10 @@ msgstr ""
 "|CC-By-small| © 2011 [Votre Nom]. [dérivé de|Incluant|Étendant] les guides "
 "de démarrage rapides du projet :doc:`OSGeoLive <index>` par les "
 ":doc:`contributeurs OSGeoLive <copyright>`."
+
+#: ../../build/doc/copyright.rst:0 ../../build/doc/copyright.rst:0
+msgid "CC-By-small"
+msgstr ""
 
 #: ../../build/doc/copyright.rst:47
 msgid "**Minimum (for Project Overviews), attribution only:**"
@@ -1485,3 +1493,19 @@ msgstr ""
 "responsabilité, que ce soit dans le cadre d'un contrat, d'une responsabilité"
 " stricte ou d'un délit (y compris la négligence ou autre) survenant de "
 "quelque manière que ce soit.*"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

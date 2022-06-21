@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-15 14:20-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2020-11-29 04:49+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:17
 msgid "pygeoapi"
@@ -44,6 +44,10 @@ msgstr ""
 "de déployer un point de terminaison d’API OGC RESTful à l’aide d’OpenAPI, "
 "GeoJSON et HTML. pygeoapi est `open source <https://opensource.org>`_ et "
 "publié sous une licence `MIT`_."
+
+#: ../../build/doc/overview/pygeoapi_overview.rstNone
+msgid "pygeoapi screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:32
 msgid "Core Features"
@@ -220,3 +224,19 @@ msgstr "Guide de démarrage rapide"
 #: ../../build/doc/overview/pygeoapi_overview.rst:98
 msgid ":doc:`Quickstart documentation <../quickstart/pygeoapi_quickstart>`"
 msgstr ":doc:`Guide de démarrage rapide <../quickstart/pygeoapi_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

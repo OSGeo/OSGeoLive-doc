@@ -7,22 +7,22 @@
 # Harrissou Sant-anna, 2017
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2019
 # MarieSilvestre, 2020
-# Nicolas Roelandt (Personnel), 2020
+# Nicolas Roelandt (Personnel), 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 22:14-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:27
 msgid "SpatiaLite Quickstart"
@@ -53,6 +53,10 @@ msgstr ""
 "Ce guide de démarrage rapide décrit comment ouvrir une base de données "
 "spatialite à partir d'applications et de la ligne de commande. Certains "
 "exemples de requêtes SQL sont affichés."
+
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:36
+msgid "Contents"
+msgstr "Contenu"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:39
 msgid "Start Spatialite and load a database"
@@ -204,7 +208,7 @@ msgstr ""
 "Créons une nouvelle base de données spatialite vide et chargeons deux "
 "shapefiles à partir du jeu de données north_carolina :"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:144
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:157
 msgid ""
 "Note the format of the .loadshp command: first the shapefile without the "
 ".shp extension, then the name of the new spatialite table, next the "
@@ -214,12 +218,12 @@ msgstr ""
 "l’extension .shp, puis le nom de la nouvelle table spatialite, ensuite "
 "l’encodage des caractères, et enfin le code EPSG du CRS du shapefile."
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:146
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:159
 msgid "Now we'll query for schools near to highway 42.::"
 msgstr ""
 "Maintenant, nous allons interroger pour les écoles près de l’autoroute 42.::"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:157
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:170
 msgid ""
 "Finally, we output the query to a \"comma separated values\" text file "
 "\"schools_rt42.txt\" with the following commands::"
@@ -228,27 +232,27 @@ msgstr ""
 " separated values (CSV)\" \"schools_rt42.txt\" avec les commandes "
 "suivantes::"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:170
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:183
 msgid "Things to try"
 msgstr "Choses à essayer"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:172
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:185
 msgid "Here are some additional challenges for you to try:"
 msgstr "Voici quelques défis supplémentaires que vous pouvez relever :"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:174
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:187
 msgid "Inspect geometries with spatialite-gui"
 msgstr "Inspecter les géométries avec spatialite-gui"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:175
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:188
 msgid "Open and edit SpatiaLite layers in QGIS"
 msgstr "Ouvrez et modifiez les couches SpatiaLite dans QGIS"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:178
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:191
 msgid "What next?"
 msgstr "Ensuite ?"
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:180
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:193
 msgid ""
 "To learn more about SpatiaLite, a starting point is the `SpatiaLite project "
 "page`_."
@@ -256,6 +260,22 @@ msgstr ""
 "Pour en savoir plus sur SpatiaLite, un point de départ est la `page du "
 "projet SpatiaLite`_."
 
-#: ../../build/doc/quickstart/spatialite_quickstart.rst:184
+#: ../../build/doc/quickstart/spatialite_quickstart.rst:197
 msgid "Be sure to visit the tutorial `Spatialite cookbook`_"
 msgstr "N’oubliez pas de visiter le tutoriel `Spatialite cookbook`_"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""
