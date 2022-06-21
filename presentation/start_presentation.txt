@@ -6,8 +6,8 @@ OSGeoLive
 .. image:: /images/osgeolive-logo/osgeolive-banner.png
 
 
-* Version: 14.0
-* Released: August 2021
+* Version: @OSGeoLiveDoc_VERSION_MAJOR@
+* Released: August 2022
 
 An Open Source Geospatial GNU/Linux Distribution
 ================================================================================
@@ -36,7 +36,7 @@ Find this presentation
 Press ESC to zoom out, SPACE / arrow keys to navigate, s for slide notes.
 Pop-ups are blocked in some browsers due to security settings. Try Firefox or Safari.
 
-What is new in 14.0
+What is new in @OSGeoLiveDoc_VERSION_MAJOR@.0
 ================================================================================
 
 .. image:: /images/projects/osgeolive/osgeolive_menu.png
@@ -45,9 +45,11 @@ What is new in 14.0
 What is new in 14.0
 --------------------------------------------------------------------------------
 
+.. TODO update this
+
 .. revealjs-break::
 
-* Updated to Lubuntu 20.04 LTS
+* Updated to Lubuntu 22.04 LTS
 
 .. revealjs-break::
 
