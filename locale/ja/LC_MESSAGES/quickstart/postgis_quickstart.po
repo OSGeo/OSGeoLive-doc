@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-01 08:19-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -52,6 +52,10 @@ msgstr ""
 #: ../../build/doc/quickstart/postgis_quickstart.rst:49
 msgid "Manage data from the ``pgAdmin`` client."
 msgstr "``pgAdmin`` クライアントからデータを管理します。"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:53
+msgid "Contents"
+msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:56
 msgid "Client-server architecture"
@@ -438,9 +442,17 @@ msgstr ""
 " Earth]を選択します。これらのパラメータがNatural Earthのパラメータであることを確認するには、 ``[編集]`` "
 "をクリックします。続行するには、 ``[接続]`` をクリックします。"
 
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "Connect to Natural Earth"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:392
 msgid "You will now get a list of the spatial tables in the database:"
 msgstr "データベース内の空間テーブルのリストが表示されます:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "Natural Earth Layers"
+msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:399
 msgid ""
@@ -450,6 +462,10 @@ msgid ""
 msgstr ""
 "ne_10m_lakesテーブルを選択し、一番下にある ``[追加]`` をクリックします(データベース接続パラメータをロードする ``[読み込み]``"
 " をクリックするのではなく)。QGISにロードする必要があります。"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "My First PostGIS layer"
+msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:408
 msgid ""
@@ -493,6 +509,10 @@ msgstr ""
 "Postgisアイテムを展開し、次にNaturalEarthアイテムを展開します。その後、Natural "
 "Earthデータベースに接続します。パスワードを確認するメッセージが表示されたら、空白のままにします。パブリックアイテムには、データベースによって提供されるレイヤのリストがあります。メインマネージャウィンドウが表示されます。左側では、データベースからテーブルを選択し、右側のタブを使用してテーブルについて調べることができます。[プレビュー]タブに小さなマップが表示されます。"
 
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "QGIS Manager Preview"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:430
 msgid ""
 "We will now use the DB Manager to import a shapefile into the database. "
@@ -513,9 +533,17 @@ msgstr ""
 "ディレクトリにある ``sids.shp`` シェープファイルを参照します。(/home/user/data/vector/R/shapes "
 "にあります):"
 
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "Find the shapefile"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:443
 msgid "Leave everything else as it is and hit ``Load``"
 msgstr "他のものはすべてそのままにして、 ``Load`` を押します。"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "Import a shapefile"
+msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:450
 msgid ""
@@ -537,6 +565,10 @@ msgstr ""
 "次に、 'PostGISマップを追加' オプションを使用して、SIDSデータをレイヤにロードします。レイヤの再配置と若干の色付けを行うことで、North"
 " Carolinaの乳幼児突然死症候群の発生数 (sid74またはsid79フィールド)の階級区分図を作成できるようになります。"
 
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "SIDS data mapped"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:466
 msgid "Get to know pgAdmin"
 msgstr "pgAdminを知る"
@@ -556,6 +588,13 @@ msgid ""
 "launch pgAdmin from the Databases folder, existing on the OSGeoLive Desktop."
 msgstr ""
 "pgAdminでは、SQLを使用してデータテーブルを操作できます。pgAdminは、OSGeoLiveのデスクトップにあるDatabasesフォルダから検索して起動できます。"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "pgAdmin"
+msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:478
 msgid "Enter the master password  ``user``."
@@ -863,3 +902,19 @@ msgstr "PostGISプロジェクトホーム -  http://postgis.net"
 #: ../../build/doc/quickstart/postgis_quickstart.rst:696
 msgid "PostGIS Documentation -  http://postgis.net/documentation/"
 msgstr "PostGISドキュメント -  http://postgis.net/documentation/"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 22:14-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -41,6 +41,10 @@ msgid ""
 "demonstration."
 msgstr ""
 "このクイックスタートでは、このライブイメージに含まれるデータファイルをロードして表示し、オンライン情報を使って追加情報を確認します。したがってこのデモでは、インターネット接続が必須です。"
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:23
+msgid "Contents"
+msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:26
 msgid "Start GpsPrune"
@@ -187,7 +191,7 @@ msgid ""
 "To find out how long the climb is, we will select just the part of the track"
 " which contains the climb, and then we will be able to view the properties "
 "of this selected range, such as the distance, climb and descent."
-msgstr "上昇の長さを確認するには、上昇を含むトラックの部分だけを選択し、選択した範囲のプロパティ(距離、上昇、下降など)を表示します。"
+msgstr "高低差を確認するには、高低差を含むトラックの部分を選択して、その範囲のプロパティ(道のり、登り、下りなど)を表示します。"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:85
 msgid ""
@@ -216,7 +220,7 @@ msgstr ":menuselection:`Range --> Set range end` を選択して、選択終了�
 msgid ""
 "You can now see in the \"Range details\" section that this part of the track"
 " is 8.55 km long, climbs 346 m and descends just 10 m."
-msgstr "\"Range Details\" セクションでは、この部分の長さが8.55kmで、346mを登って10mだけ下っていることがわかります。"
+msgstr "「Range Details」 セクションでは、この部分の道のりが8.55kmで、346mを登って10mだけ下っていることがわかります。"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:95
 msgid "Things to Try"
@@ -311,6 +315,22 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:115
 msgid ""
-"How-tos and instructions: https://activityworkshop.net/software/gpsprune"
-"/how-tos.html"
+"How-tos and instructions: "
+"https://activityworkshop.net/software/gpsprune/how-tos.html"
 msgstr "ノウハウや手順: https://activityworkshop.net/software/gpsprune/how-tos.html"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

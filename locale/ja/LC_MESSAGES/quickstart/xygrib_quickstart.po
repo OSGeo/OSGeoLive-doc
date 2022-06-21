@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-06 18:01-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2021-02-07 00:37+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -30,6 +30,10 @@ msgid ""
 "XyGrib is a program to download and visualize weather forecast data in the "
 "standard GRIB distribution format."
 msgstr "XyGrib は、標準的なGRIB配布フォーマットで天気予報データをダウンロードして視覚化するプログラムです。"
+
+#: ../../build/doc/quickstart/xygrib_quickstart.rst:23
+msgid "Contents"
+msgstr ""
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:26
 msgid "Start XyGrib"
@@ -201,8 +205,24 @@ msgstr ""
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:79
 msgid "Website: https://opengribs.org/en"
-msgstr "Webサイト: https://opengribs.org/en"
+msgstr ""
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:80
 msgid "Support: https://opengribs.org/en/support-forum"
 msgstr "サポート: https://opengribs.org/en/support-forum"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

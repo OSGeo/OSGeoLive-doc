@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2019-08-06 18:07+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -43,6 +43,10 @@ msgstr ""
 "このクイックスタートでは、新しいWMSレイヤをMapCacheのセットアップに追加し、タイルサービスをOpenLayers "
 "Webマップに表示し、コマンドラインからタイルキャッシュをシードする方法を示します。"
 
+#: ../../build/doc/quickstart/mapcache_quickstart.rst:28
+msgid "Contents"
+msgstr ""
+
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:31
 msgid "Adding a New Tileset and Displaying in OpenLayers"
 msgstr "新しいタイルセットを追加してOpenLayersに表示する"
@@ -54,8 +58,8 @@ msgid ""
 " The example uses the OSGeoLive demo MapServer application of Itasca County "
 "in the United States as its source."
 msgstr ""
-"MapCacheはXMLファイルを使用して構成されます。OSGeoLiveには、``/usr/local/share/mapcache"
-"/mapcache-quickstart.xml`` "
+"MapCacheはXMLファイルを使用して構成されます。OSGeoLiveには、``/usr/local/share/mapcache/mapcache-"
+"quickstart.xml`` "
 "にサンプル設定ファイルがあります。この例では、ソースとして米国のイタスカ郡のデータを使用し、OSGeoLiveデモのMapServerアプリケーションを使用しています。"
 
 #: ../../build/doc/quickstart/mapcache_quickstart.rst:36
@@ -306,3 +310,19 @@ msgid ""
 msgstr ""
 "`メーリングリスト <https://www.mapserver.org/community/lists.html>`_  "
 "のコミュニティ(ここではMapCacheがその対象の一部です)に参加して、アイデアを交換したり、ソフトウェアの改善点について話し合ったり、質問したりできます。"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

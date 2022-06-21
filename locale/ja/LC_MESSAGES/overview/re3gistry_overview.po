@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 21:50-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2020-10-21 15:59+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -50,6 +50,10 @@ msgstr ""
 "インフラストラクチャの中心的なコンポーネントとして開発されたもので、リファレンスコードのラベルと説明を人間が簡単にブラウズし、マシンが検索できる一貫した中央アクセスポイントを提供します。リファレンスコードは、何らかの「もの」を一意に参照するためにアプリケーション間で交換されます。これらを使用して、データフィールドの許容値のセットを定義したり、交換されるデータの参照またはコンテキストを提供したりできます。例としては、列挙、統制された語彙、分類法、シソーラス、あるいは単に「ものの一覧」があります。Re3gistry"
 " "
 "2は、組織が一貫した方法で参照コードを管理し更新することを支援しています。Re3gistryソフトウェアのバージョン番号は、セマンティック・バージョン付与標準2.0.0に準拠しています。"
+
+#: ../../build/doc/overview/re3gistry_overview.rstNone
+msgid "re3gistry screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/re3gistry_overview.rst:43
 msgid "Core Features"
@@ -148,24 +152,24 @@ msgid ""
 "**User manual:** https://github.com/ec-"
 "jrc/re3gistry/blob/master/documentation/user-manual.md"
 msgstr ""
-"**ユーザマニュアル:** https://github.com/ec-jrc/re3gistry/blob/master/documentation"
-"/user-manual.md"
+"**ユーザマニュアル:** https://github.com/ec-"
+"jrc/re3gistry/blob/master/documentation/user-manual.md"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:76
 msgid ""
 "**Administrator manual:** https://github.com/ec-"
 "jrc/re3gistry/blob/master/documentation/administrator-manual.md"
 msgstr ""
-"**管理者マニュアル:** https://github.com/ec-jrc/re3gistry/blob/master/documentation"
-"/administrator-manual.md"
+"**管理者マニュアル:** https://github.com/ec-"
+"jrc/re3gistry/blob/master/documentation/administrator-manual.md"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:78
 msgid ""
 "**Developer manual:** https://github.com/ec-"
 "jrc/re3gistry/blob/master/documentation/developer-manual.md"
 msgstr ""
-"**開発者マニュアル:** https://github.com/ec-jrc/re3gistry/blob/master/documentation"
-"/developer-manual.md"
+"**開発者マニュアル:** https://github.com/ec-"
+"jrc/re3gistry/blob/master/documentation/developer-manual.md"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:83
 msgid "Quickstart"
@@ -174,3 +178,19 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/re3gistry_overview.rst:85
 msgid ":doc:`Quickstart documentation <../quickstart/re3gistry_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/re3gistry_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

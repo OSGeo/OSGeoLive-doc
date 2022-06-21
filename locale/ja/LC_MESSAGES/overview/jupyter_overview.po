@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011, OSGeo
-# This file is distributed under the same license as the OSGeo-Live package.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-03 08:36-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:07+0000\n"
 "Last-Translator: Hiroshi Miura <miurahr@northside.tokyo>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -57,6 +57,10 @@ msgid ""
 msgstr ""
 "計算、説明テキスト、数学、コード、、数学、コード、イメージ、ビデオ、グラフ、マップ、およびオブジェクトのその他のリッチメディア表現を含む、Webアプリケーションに表示されるすべてのコンテンツの表現を格納するノートブックドキュメント。"
 
+#: ../../build/doc/overview/jupyter_overview.rstNone
+msgid "jupyter screenshot"
+msgstr ""
+
 #: ../../build/doc/overview/jupyter_overview.rst:35
 msgid ""
 "Notebooks can be shared with others on GitHub, Dropbox, and the `Jupyter "
@@ -77,7 +81,7 @@ msgstr "主な機能"
 
 #: ../../build/doc/overview/jupyter_overview.rst:43
 msgid "Create Jupyter Notebooks which can contain:"
-msgstr "次の内容を含むJupyterノートブックを作成します:"
+msgstr ""
 
 #: ../../build/doc/overview/jupyter_overview.rst:45
 msgid "Marked up text (with headings, styles, paragraphs, etc)"
@@ -89,17 +93,17 @@ msgstr "数式、数学、グラフ図、地図..."
 
 #: ../../build/doc/overview/jupyter_overview.rst:47
 msgid "Imported external libraries to add functionality"
-msgstr "機能を追加するために外部ライブラリをインポート。"
+msgstr ""
 
 #: ../../build/doc/overview/jupyter_overview.rst:48
 msgid ""
 "Code from multiple programming languages, including Python, R, Julia, Bash "
 "and many more."
-msgstr "Python、R、Julia、Bashなど、複数のプログラミング言語によるコード。"
+msgstr ""
 
 #: ../../build/doc/overview/jupyter_overview.rst:50
 msgid "Jupyter Notebooks on OSGeoLive can use geospatial functions from:"
-msgstr "OSGeo-Live上のJupyterノートブックでは、次の空間関数を使用できます。"
+msgstr ""
 
 #: ../../build/doc/overview/jupyter_overview.rst:52
 msgid ""
@@ -115,11 +119,11 @@ msgstr "詳細"
 
 #: ../../build/doc/overview/jupyter_overview.rst:58
 msgid "**Website:** https://jupyter.org/"
-msgstr "**Webサイト:** https://jupyter.org/"
+msgstr ""
 
 #: ../../build/doc/overview/jupyter_overview.rst:60
-msgid "**Licence:** revised BSD license"
-msgstr "**ライセンス:** revised BSD license"
+msgid "**Licence:** The 3-Clause BSD License"
+msgstr ""
 
 #: ../../build/doc/overview/jupyter_overview.rst:62
 msgid "**Software Version:** |version-jupyter|"
@@ -134,8 +138,8 @@ msgid "**API Interfaces:** Python"
 msgstr "**API インタフェース:** Python"
 
 #: ../../build/doc/overview/jupyter_overview.rst:68
-msgid "**Support:**  https://jupyter.org/community.html"
-msgstr "**サポート:**  https://jupyter.org/community.html"
+msgid "**Support:** https://jupyter.org/community.html"
+msgstr ""
 
 #: ../../build/doc/overview/jupyter_overview.rst:74
 msgid "Quickstart"
@@ -144,3 +148,19 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/jupyter_overview.rst:76
 msgid ":doc:`Quickstart documentation <../quickstart/jupyter_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/jupyter_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

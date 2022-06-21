@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -56,6 +56,10 @@ msgid ""
 "following."
 msgstr ""
 "ホストの船舶が移動すると、新しいチャートが選択され、ユーザ指定の解像度および詳細で表示されます。さらに、ユーザは、正確なコース追跡のための外部自動操縦装置へのインタフェースを可能にする経路およびウェイポイントを入力することができます。"
+
+#: ../../build/doc/overview/opencpn_overview.rstNone
+msgid "opencpn screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/opencpn_overview.rst:34
 msgid "Core Features"
@@ -133,3 +137,19 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/opencpn_overview.rst:67
 msgid ":doc:`Quickstart documentation <../quickstart/opencpn_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/opencpn_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

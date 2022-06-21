@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-01 08:19-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2021-01-21 18:51+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -55,6 +55,10 @@ msgid ""
 msgstr ""
 "`アプリケーション` メニューの `システムツール`  から、ターミナルエミュレータ (現在は `QTerminal` "
 ")を起動します。これにより、Unixシェルのコマンドプロンプトが表示されます。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:22
+msgid "Contents"
+msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:25
 msgid "Where am I?"
@@ -512,3 +516,19 @@ msgstr "https://ubuntu.com/tutorials/command-line-for-beginners#1-overview"
 #: ../../build/doc/quickstart/commandline_quickstart.rst:339
 msgid "https://en.wikipedia.org/wiki/Category:Standard_Unix_programs"
 msgstr "https://en.wikipedia.org/wiki/Category:Standard_Unix_programs"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

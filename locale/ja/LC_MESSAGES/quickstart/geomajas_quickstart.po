@@ -144,8 +144,9 @@ msgid ""
 "To continue using the stand-alone application, visit "
 "`<http://files.geomajas.org/downloads/2.3.0/geomajas-standalone-gwt2.zip>`_."
 msgstr ""
-"スタンドアロンアプリケーションの使用を継続するには、 `<http://files.geomajas.org/downloads/2.3.0"
-"/geomajas-standalone-gwt2. zip>`_ を参照してください。"
+"スタンドアロンアプリケーションの使用を継続するには、 "
+"`<http://files.geomajas.org/downloads/2.3.0/geomajas-standalone-gwt2. zip>`_"
+" を参照してください。"
 
 #: ../../build/doc/quickstart/geomajas_quickstart.rst:90
 msgid ""

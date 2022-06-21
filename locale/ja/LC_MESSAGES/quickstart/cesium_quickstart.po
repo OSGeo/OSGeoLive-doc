@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -41,6 +41,10 @@ msgid ""
 "View) and 2D (map)."
 msgstr "このガイドでは、Cesiumを3D(地球儀)、2.5D(コロンブスビュー)、2D(マップ)で使用する方法について説明します。"
 
+#: ../../build/doc/quickstart/cesium_quickstart.rst:25
+msgid "Contents"
+msgstr ""
+
 #: ../../build/doc/quickstart/cesium_quickstart.rst:28
 msgid "Start Cesium"
 msgstr "Cesiumの開始"
@@ -61,6 +65,10 @@ msgid ""
 "In the following display, we look for India."
 msgstr "虫眼鏡をクリックして、探している位置を入力します。次の表示では、インドを探します。"
 
+#: ../../build/doc/quickstart/cesium_quickstart.rstNone
+msgid "Cesium Searching Location"
+msgstr ""
+
 #: ../../build/doc/quickstart/cesium_quickstart.rst:41
 msgid "Switch between 3D, 2.5D and 2D"
 msgstr "3D、2.5D、2Dの切り替え"
@@ -71,9 +79,18 @@ msgid ""
 " 2.5D Columbus view has been selected."
 msgstr "ワイヤーで囲まれたビューアイコンをクリックして、希望の地球儀を選択します。ここでは、2.5D Columbusビューが選択されています。"
 
+#: ../../build/doc/quickstart/cesium_quickstart.rstNone
+msgid "Cesium switching between 3D, 2.5D and 2D"
+msgstr ""
+
 #: ../../build/doc/quickstart/cesium_quickstart.rst:48
 msgid "Now the 2D map is selected."
 msgstr "これで、2Dマップが選択されました。"
+
+#: ../../build/doc/quickstart/cesium_quickstart.rstNone
+#: ../../build/doc/quickstart/cesium_quickstart.rstNone
+msgid "Cesium 2D map"
+msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:55
 msgid "Select the Image layer"
@@ -115,12 +132,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:72
 msgid ""
-"The `Cesium Forum <https://groups.google.com/forum/#!forum/cesium-dev>`_ is "
-"a great place to search for answers to common questions, and to raise "
-"questions that haven't been asked before."
+"The `Cesium Forum <https://community.cesium.com>`_ is a great place to "
+"search for answers to common questions, and to raise questions that haven't "
+"been asked before."
 msgstr ""
-"`Cesium フォーラム <https://groups.google.com/forum/#!forum/cesium-dev>`_ "
-"は、一般的な質問に対する回答を検索したり、これまでに質問されたことのない質問を提起したりするのに最適な場所です。"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:74
 msgid ""
@@ -128,3 +143,19 @@ msgid ""
 " the OSGeoLive package."
 msgstr ""
 "詳細なドキュメントは、OSGeoLiveパッケージ上で `ローカルに <http://localhost/cesium/>`_ 利用できます。"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

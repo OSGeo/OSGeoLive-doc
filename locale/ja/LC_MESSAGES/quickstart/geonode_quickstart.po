@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -37,6 +37,10 @@ msgid ""
 "(SDI)."
 msgstr ""
 "GeoNodeは、地理空間情報システム(GIS)の開発および空間データインフラストラクチャ(SDI)の展開のためのWebベースのアプリケーションおよびプラットフォームです。"
+
+#: ../../build/doc/quickstart/geonode_quickstart.rst:31
+msgid "Contents"
+msgstr ""
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:34
 msgid "Start GeoNode"
@@ -351,3 +355,19 @@ msgstr ""
 "<https://gitter.im/GeoNode/general>`_  にアクセスしたり、または私たちの `メーリングリスト "
 "<https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users>`_ "
 "で質問いただけます。問"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

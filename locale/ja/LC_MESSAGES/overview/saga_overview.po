@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -50,6 +50,10 @@ msgid ""
 "contributions from the growing world wide community."
 msgstr ""
 "SAGAは2001年から開発を行われており、SAGAの開発の中心はハンブルク大学の地理学研究所にあり、世界中のコミュニティからの貢献を受けています。"
+
+#: ../../build/doc/overview/saga_overview.rstNone
+msgid "saga screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/saga_overview.rst:39
 msgid "Core Features"
@@ -153,3 +157,19 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/saga_overview.rst:81
 msgid ":doc:`Quickstart documentation <../quickstart/saga_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/saga_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

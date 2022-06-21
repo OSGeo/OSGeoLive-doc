@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -61,6 +61,10 @@ msgstr "南西部のウェイク郡のラスタデータで、解像度 30m-10m;
 msgid ""
 "a small watershed in rural area with data resolutions of 1m-3m (see image)."
 msgstr "1m-3m のデータ解像度を持つ田舎の小さな滝 ( イメージを参照 )。"
+
+#: ../../build/doc/overview/nc_dataset_overview.rstNone
+msgid "nc_dataset screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:40
 msgid "Core Features"
@@ -146,3 +150,19 @@ msgstr "**空間参照系:** NC State Plane (Lambert Conformal Conic), NAD83"
 #: ../../build/doc/overview/nc_dataset_overview.rst:73
 msgid "**Support:** https://lists.osgeo.org/mailman/listinfo/geodata"
 msgstr "**サポート:** https://lists.osgeo.org/mailman/listinfo/geodata"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

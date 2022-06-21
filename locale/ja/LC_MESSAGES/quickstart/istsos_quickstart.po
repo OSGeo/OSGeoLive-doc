@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 22:14-0600\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -54,6 +54,10 @@ msgid ""
 msgstr ""
 "istSOSはGPLv2ライセンスでリリースされ、すべての主要プラットフォーム(Windows、Linux、Mac OS "
 "X)で動作します。ただし、これまでLinux環境でのみ使用されていました。"
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:32
+msgid "Contents"
+msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:35
 msgid "Create postgis database"
@@ -272,16 +276,17 @@ msgstr "*出力(\"add\" ボタンを押して出力を確認):*"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:139
 msgid ""
-"Observed property: urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature"
-msgstr "観測されたプロパティ:urn:ogc:def:parameter:x-istSOS:1.0:meteo:air:temperature"
+"Observed property: "
+"`urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature`"
+msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:141
 msgid "Unit of measure: °C"
 msgstr "単位:°C"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:143
-msgid "Description (optional): conversion from resistance to temperature"
-msgstr "説明(オプション): 抵抗値から温度への変換"
+msgid "Description (optional): conversion from resistance to tempera"
+msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:145
 msgid "quality index check (optional): Between / from -40 to +60"
@@ -391,3 +396,19 @@ msgid ""
 "and the `istSOS Tutorial`_."
 msgstr ""
 "istSOSについてさらに学ぶには、 `istSOS Documentation`_ と `istSOS Tutorial`_ を参照してください。"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

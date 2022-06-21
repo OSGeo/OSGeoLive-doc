@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -61,6 +61,10 @@ msgid ""
 "climate data centers."
 msgstr ""
 "Rasdamanは、ヨーロッパIT賞と地理空間イノベーション賞といった、数々の国際的なイノベーション賞を受賞しています。テクノロジーは成熟して安定しており、10年以上にわたって稼働しています。rasdamanサービスの事業者には、地図作成機関と気象データセンターがある。"
+
+#: ../../build/doc/overview/rasdaman_overview.rstNone
+msgid "rasdaman screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/rasdaman_overview.rst:40
 msgid "Core Features"
@@ -143,3 +147,19 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/rasdaman_overview.rst:76
 msgid ":doc:`Quickstart documentation <../quickstart/rasdaman_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/rasdaman_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

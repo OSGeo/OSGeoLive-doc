@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -41,6 +41,10 @@ msgstr ""
 "GeoServer は、多様なフォーマットから地図とデータを Web ブラウザやデスクトップ GIS プログラム等の標準的なクライアントに配信する "
 "Web サーバです。データは WMS、WFS、WCS、WPS、タイルキャッシュなどの標準に基づくインタフェース経由で配信されます。GeoServer "
 "は、ブラウザベースの管理インタフェースを持ち、バックエンド側で複数のデータソースへ接続します。"
+
+#: ../../build/doc/overview/geoserver_overview.rstNone
+msgid "geoserver screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:37
 msgid "Core Features"
@@ -242,3 +246,19 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/geoserver_overview.rst:102
 msgid ":doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/geoserver_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

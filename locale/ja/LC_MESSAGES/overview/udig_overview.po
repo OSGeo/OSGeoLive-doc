@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -73,6 +73,10 @@ msgid ""
 "custom application."
 msgstr ""
 "uDigは、オープン・ソース・コンポーネントを使用して空間アプリケーションを構築するための共通のJavaプラットフォームを開発者に提供します。このWebサイトには、簡単なツールの作成から独自のカスタムアプリケーションのリリースまでを網羅した一連の明確なチュートリアルが用意されています。"
+
+#: ../../build/doc/overview/udig_overview.rstNone
+msgid "udig screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/udig_overview.rst:39
 msgid "Core Features"
@@ -218,3 +222,19 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/udig_overview.rst:92
 msgid ":doc:`Quickstart documentation <../quickstart/udig_quickstart>`"
 msgstr ":doc:`クイックスタート文書  <../quickstart/udig_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

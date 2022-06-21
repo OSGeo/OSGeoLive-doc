@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:08-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2020-10-21 15:59+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -60,9 +60,13 @@ msgid ""
 " to several datasources like WFS, Shapefiles and GeoJSON files. We plan on "
 "developing a data reader for the Geopackage format."
 msgstr ""
-"さらに、GeoStylerでは、SLD、OpenLayers、QGIS、Mapboxなど、複数のスタイルフォーマット間の変換が可能です。私たちはマイクロパッケージの概念に従っているので、これらの変換器(私たちはパーサーと呼んでいます)は、依存関係としてUIコンポーネントを含める必要なく、スタンドアロンのライブラリとして使用することができます。現在、SLD"
-"、QGIS-styles、Mapbox styles、OpenLayers "
+"さらに、GeoStylerでは、SLD、OpenLayers、QGIS、Mapboxなど、複数のスタイルフォーマット間の変換が可能です。私たちはマイクロパッケージの概念に従っているので、これらの変換器(私たちはパーサーと呼んでいます)は、依存関係としてUIコンポーネントを含める必要なく、スタンドアロンのライブラリとして使用することができます。現在、SLD、QGIS-"
+"styles、Mapbox styles、OpenLayers "
 "stylesのパーサーがあります。Mapfilesのパーサーは現在進行中です。StyleParserの実装を見てみてください。スタイル設定するデータを見られれば、地理データの属性スタイル設定が簡単になるため、WFS、Shapefiles、GeoJSONファイルなどの複数のデータソースに接続できるようになっています。Geopackageフォーマットのデータよみこみの開発を計画しています。"
+
+#: ../../build/doc/overview/geostyler_overview.rstNone
+msgid "geostyler screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/geostyler_overview.rst:42
 msgid "Core Features"
@@ -160,3 +164,19 @@ msgstr "クイックスタート"
 #: ../../build/doc/overview/geostyler_overview.rst:82
 msgid ":doc:`Quickstart documentation <../quickstart/geostyler_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/geostyler_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""
