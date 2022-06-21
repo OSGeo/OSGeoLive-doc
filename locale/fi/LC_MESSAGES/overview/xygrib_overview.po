@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2018
-# MarPetra <mvergaratrejo@gmail.com>, 2020
+# Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2021
+# Santtu Pyykkönen, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
-"PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"PO-Revision-Date: 2021-02-07 00:39+0000\n"
+"Last-Translator: Santtu Pyykkönen, 2021\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,44 +22,51 @@ msgstr ""
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/overview/zygrib_overview.rst:14
-msgid "zyGrib"
-msgstr "zyGrib"
+#: ../../build/doc/overview/xygrib_overview.rst:14
+msgid "XyGrib"
+msgstr ""
 
-#: ../../build/doc/overview/zygrib_overview.rst:17
+#: ../../build/doc/overview/xygrib_overview.rst:17
 msgid "Weather forecasting"
 msgstr "Sääennustus"
 
-#: ../../build/doc/overview/zygrib_overview.rst:19
+#: ../../build/doc/overview/xygrib_overview.rst:19
 msgid ""
-"zyGrib is a program to download and visualize weather forecast data in the "
-"standard GRIB distribution format."
+"XyGrib is a Grib file reader and visualizes meteorological data providing an"
+" off-line capability to analyse weather forecasts or hindcasts. XyGrib is "
+"the continuation of the zyGrib software package with a new team of "
+"volunteers. It is intended to be used as a capable weather work station for "
+"anyone with a serious interest in examining weather. This would include "
+"members of the sailing community, private and sport aviators, farmers, "
+"weather buffs and many more."
 msgstr ""
-"zyGrib on ohjelma jolla voi ladata ja visualisoida sääennuste data "
-"vakioidussa GRIB jakeluformaatissa."
 
-#: ../../build/doc/overview/zygrib_overview.rst:29
+#: ../../build/doc/overview/xygrib_overview.rstNone
+msgid "xygrib screenshot"
+msgstr ""
+
+#: ../../build/doc/overview/xygrib_overview.rst:29
 msgid "Core Features"
-msgstr "Perusominaisuudet"
+msgstr "Keskeiset ominaisuudet"
 
-#: ../../build/doc/overview/zygrib_overview.rst:31
+#: ../../build/doc/overview/xygrib_overview.rst:31
 msgid "Visualization of meteorologic data from files in GRIB format"
 msgstr ""
 "Meteorologisen datan visualisointi  tiedostoista jotka ovat GRIB formaatissa"
 
-#: ../../build/doc/overview/zygrib_overview.rst:32
+#: ../../build/doc/overview/xygrib_overview.rst:32
 msgid "Automatic download of weather and wave forecasts"
 msgstr "Sää-  ja aaltoennusteiden automaattinen lataus"
 
-#: ../../build/doc/overview/zygrib_overview.rst:33
+#: ../../build/doc/overview/xygrib_overview.rst:33
 msgid "Automatic download from IAC (fleetcode) data"
 msgstr "Automaattinen lataus IAC datasta"
 
-#: ../../build/doc/overview/zygrib_overview.rst:34
+#: ../../build/doc/overview/xygrib_overview.rst:34
 msgid "Play animations of 8-day forecasts"
 msgstr "Näyttää animaatioita 8-päivän ennusteesta"
 
-#: ../../build/doc/overview/zygrib_overview.rst:35
+#: ../../build/doc/overview/xygrib_overview.rst:35
 msgid ""
 "Create your own regional weather maps (worldwide), or view a detailed "
 "quantitative forecast for a particular location."
@@ -67,7 +74,7 @@ msgstr ""
 "Luo oma alueellinen sääkartta (maailmanlaajuinen), tai tarkastele "
 "yksityiskohtaista määrällistä ennustusta tietylle sijainnille."
 
-#: ../../build/doc/overview/zygrib_overview.rst:36
+#: ../../build/doc/overview/xygrib_overview.rst:36
 msgid ""
 "Plot wind, pressure, temperature, humidity, rain, snow, cloud cover, dew "
 "point, wave height, and high altitude data."
@@ -75,35 +82,50 @@ msgstr ""
 "Suunnittele tuuli, ilmanpaine, lämpötila, kosteus, sade, lumi, pilvipeite, "
 "kastepiste, aallonkorkeus ja korkeuksittainen data."
 
-#: ../../build/doc/overview/zygrib_overview.rst:39
+#: ../../build/doc/overview/xygrib_overview.rst:39
 msgid "Details"
-msgstr "Yksityiskohdat"
+msgstr "Lisätiedot"
 
-#: ../../build/doc/overview/zygrib_overview.rst:41
-msgid "**Website:** https://www.zygrib.org"
-msgstr "**Verkkosivusto:** https://www.zygrib.org"
+#: ../../build/doc/overview/xygrib_overview.rst:41
+msgid "**Website:** https://opengribs.org/en"
+msgstr ""
 
-#: ../../build/doc/overview/zygrib_overview.rst:43
+#: ../../build/doc/overview/xygrib_overview.rst:43
 msgid "**Licence:** GNU General Public License (GPL) version 3"
 msgstr "**Lisenssi:** GNU General Public License (GPL) version 3"
 
-#: ../../build/doc/overview/zygrib_overview.rst:45
-msgid "**Software Version:** |version-zygrib|"
-msgstr "**Ohjelmisto Versio:** |version-zygrib|"
+#: ../../build/doc/overview/xygrib_overview.rst:45
+msgid "**Software Version:** |version-xygrib|"
+msgstr ""
 
-#: ../../build/doc/overview/zygrib_overview.rst:47
+#: ../../build/doc/overview/xygrib_overview.rst:47
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
 msgstr "**Tuetut ympäristöt:** GNU/Linux, Mac OSX, MS Windows"
 
-#: ../../build/doc/overview/zygrib_overview.rst:49
-msgid "**Support:** https://zygrib.org/forum/"
-msgstr "**Tuki:** https://zygrib.org/forum/"
+#: ../../build/doc/overview/xygrib_overview.rst:49
+msgid "**Support:** https://opengribs.org/en/support-forum"
+msgstr ""
 
-#: ../../build/doc/overview/zygrib_overview.rst:55
+#: ../../build/doc/overview/xygrib_overview.rst:55
 msgid "Quickstart"
 msgstr "Pika-aloitus"
 
-#: ../../build/doc/overview/zygrib_overview.rst:57
-msgid ":doc:`Quickstart documentation <../quickstart/zygrib_quickstart>`"
+#: ../../build/doc/overview/xygrib_overview.rst:57
+msgid ":doc:`Quickstart documentation <../quickstart/xygrib_quickstart>`"
 msgstr ""
-":doc:`Pika-aloituksen dokumentaatio <../quickstart/zygrib_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

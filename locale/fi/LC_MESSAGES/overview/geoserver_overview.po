@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
@@ -44,6 +44,10 @@ msgstr ""
 "rajapintaprotokollien, kuten WMS-, WFS-, WCS- ja WPS- avulla. GeoServeria "
 "voi käyttää sen selainpohjaisen käyttöliittymän avulla ja siihen voidaan "
 "yhdistää datoja laajasti eri tietoformaateista ja ohjelmistoista."
+
+#: ../../build/doc/overview/geoserver_overview.rstNone
+msgid "geoserver screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:37
 msgid "Core Features"
@@ -273,3 +277,19 @@ msgid ":doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`"
 msgstr ""
 ":d oC: ' Pika-aloitus <.. uickstart/geoserver_quickstart=\"\">-dokumentaatio"
 " '</..>"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

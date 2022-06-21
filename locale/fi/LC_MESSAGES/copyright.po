@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 11:35-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2021\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
@@ -153,6 +153,10 @@ msgid ""
 "English to German."
 msgstr ""
 
+#: ../../build/doc/copyright.rst:0 ../../build/doc/copyright.rst:0
+msgid "CC-By-SA-med"
+msgstr ""
+
 #: ../../build/doc/copyright.rst:36
 msgid "**Concise CC-By-SA and attribution:**"
 msgstr "**Suppea CC-By-SA ja ansion osoittaminen:**"
@@ -178,6 +182,10 @@ msgstr ""
 "|CC-By-small| © 2011 [tuntematon]. [Periytyy|Sisältää|Laajentaa]  "
 ":doc:`OSGeoLive <index>` Projektien kuvaukset :doc:`OSGeoLive avustajat "
 "<copyright>`."
+
+#: ../../build/doc/copyright.rst:0 ../../build/doc/copyright.rst:0
+msgid "CC-By-small"
+msgstr ""
 
 #: ../../build/doc/copyright.rst:47
 msgid "**Minimum (for Project Overviews), attribution only:**"
@@ -1467,3 +1475,19 @@ msgstr ""
 "vahingonkorvaus (mukaan lukien huolimattomuus tai muuten), jotka syntyvät "
 "millään tavalla tämän ohjelmiston käytöstä, vaikka tällaisen vahingon "
 "mahdollisuudesta olisi ilmoitettu. *"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

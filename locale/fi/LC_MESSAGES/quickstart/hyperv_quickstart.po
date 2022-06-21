@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-01 08:19-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2018-06-09 16:37+0000\n"
 "Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2021\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
@@ -117,15 +117,15 @@ msgstr "StarWind V2V konvertoija"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:40
 msgid ""
-"Use the `StarWind V2V Converter <https://www.starwindsoftware.com/starwind-"
-"v2v-converter>`_ program. This has a simple user interface allowing you to "
-"select the ``osgeo-live-XX.X-vm.vmdk`` file and convert to a *Microsoft "
-"VHDX* image."
+"Use the `StarWind V2V Converter "
+"<https://www.starwindsoftware.com/starwind-v2v-converter>`_ program. This "
+"has a simple user interface allowing you to select the ``osgeo-live-"
+"XX.X-vm.vmdk`` file and convert to a *Microsoft VHDX* image."
 msgstr ""
-"Käytä `StarWind V2V Converter <https://www.starwindsoftware.com/starwind-"
-"v2v-converter>`_ ohjelmaa. Tällä on yksinkertainen käyttäjäliitäntä joka "
-"sallii Sinun valita ``osgeo-live-XX.X-vm.vmdk`` tiedoston ja konvertoida sen"
-" *Microsoft VHDX* imageksi."
+"Käytä `StarWind V2V Converter "
+"<https://www.starwindsoftware.com/starwind-v2v-converter>`_ ohjelmaa. Tällä "
+"on yksinkertainen käyttäjäliitäntä joka sallii Sinun valita ``osgeo-live-"
+"XX.X-vm.vmdk`` tiedoston ja konvertoida sen *Microsoft VHDX* imageksi."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:44
 msgid "Microsoft Virtual Machine Converter 3.0"
@@ -141,8 +141,9 @@ msgid ""
 "<https://www.microsoft.com/en-us/download/details.aspx?id=42497>`_ and "
 "install."
 msgstr ""
-"Lataa `Microsoft Virtual Machine Converter 3.0 <https://www.microsoft.com"
-"/en-us/download/details.aspx?id=42497>`_ ja asenna se."
+"Lataa `Microsoft Virtual Machine Converter 3.0 "
+"<https://www.microsoft.com/en-us/download/details.aspx?id=42497>`_ ja asenna"
+" se."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:49
 msgid "Download the DS File Ops Kit and unzip."
@@ -185,8 +186,9 @@ msgid ""
 "a supported disk database entry for the descriptor.\"*"
 msgstr ""
 "Epäonnistuminen edellisten vaiheiden suorittamisessa aiheuttaa virheen "
-"*\"ConvertTo-MvmcVirtualHardDisk : The entry 0247ca9d-f9aa-4910-9e8c-"
-"1c14d83a7749 is not a supported disk database entry for the descriptor.\"*"
+"*\"ConvertTo-MvmcVirtualHardDisk : The entry "
+"0247ca9d-f9aa-4910-9e8c-1c14d83a7749 is not a supported disk database entry "
+"for the descriptor.\"*"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:81
 msgid "Finally run the conversion process:"
@@ -295,3 +297,19 @@ msgstr ":doc:`osgeolive_install_quickstart`"
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:126
 msgid ":doc:`usb_quickstart`"
 msgstr ":doc:`usb_quickstart`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

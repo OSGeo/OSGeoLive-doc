@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
@@ -71,6 +71,10 @@ msgstr ""
 "dxf2postgis), työasemaohjelmistoja tai web-sovellukset hyödyntäen. Nämä "
 "ohjelmistot ja sovellukset pystyvät visualisoimaan ja manipuloimaan PostGIS-"
 "paikkatietokantatauluja."
+
+#: ../../build/doc/overview/postgis_overview.rstNone
+msgid "postgis screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/postgis_overview.rst:81
 msgid "Core Features"
@@ -161,3 +165,19 @@ msgstr "Lähtöohjeistus"
 #: ../../build/doc/overview/postgis_overview.rst:128
 msgid ":doc:`Quickstart documentation <../quickstart/postgis_quickstart>`"
 msgstr ":doc:`Pika-aloitusdokumentaatio <../quickstart/postgis_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""
