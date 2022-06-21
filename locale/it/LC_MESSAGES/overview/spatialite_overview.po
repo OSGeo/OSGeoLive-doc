@@ -5,22 +5,23 @@
 # 
 # Translators:
 # pibinko <pibinko@gmail.com>, 2018
-# Luca Delucchi <lucadeluge@gmail.com>, 2019
+# Stefano Campus <skampus@gmail.com>, 2021
+# Giuseppe Mattiozzi <mattiozzig@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2019\n"
+"Last-Translator: Giuseppe Mattiozzi <mattiozzig@gmail.com>, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/spatialite_overview.rst:15
 msgid "SpatiaLite"
@@ -44,6 +45,10 @@ msgstr ""
 "SQLite è un sistema di gestione database (DBMS) semplice, robusto, facile da"
 " usare e molto leggero. Ogni database SQLite è un semplice file. Potete "
 "copiarlo liberamente, comprimerlo e portarlo su Windows, Linux, MacOs ecc."
+
+#: ../../build/doc/overview/spatialite_overview.rstNone
+msgid "spatialite screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/spatialite_overview.rst:33
 msgid "Core Features"
@@ -130,6 +135,11 @@ msgid ""
 "Specific support for ISO-Metadata, SLD/SE styles and SVG graphics.XML "
 "documents can be queried using standard XPath syntax."
 msgstr ""
+"Accesso a documenti XML, oggetti memorizzzati binari compressi BLOB, "
+"compresi i controlli sintattici \"well formed\" e le verifiche dei vincoli "
+"dello schema XSF. Supporto specifico per ISO-Metadata, stili SLD/SE e "
+"grafica SVG.I documenti XML possono essere interrogati usando la sintassi "
+"XPath standard."
 
 #: ../../build/doc/overview/spatialite_overview.rst:52
 msgid "Query external WFS servers."
@@ -145,7 +155,7 @@ msgstr ""
 
 #: ../../build/doc/overview/spatialite_overview.rst:54
 msgid "Generate and Export DXF files"
-msgstr "Generazione ed esportazione di file DXF"
+msgstr "Generazione ed Esportazione di file DXF"
 
 #: ../../build/doc/overview/spatialite_overview.rst:57
 msgid "Details"
@@ -165,7 +175,7 @@ msgstr "**Versione Software:** |version-spatialite|"
 
 #: ../../build/doc/overview/spatialite_overview.rst:65
 msgid "**Supported Platforms:** Linux, Mac, Windows"
-msgstr "**Piattaforme supportate:** Linux, Mac, Windows"
+msgstr "**Piattaforme Supportate:** Linux, Mac, Windows"
 
 #: ../../build/doc/overview/spatialite_overview.rst:67
 msgid "**API Interfaces:** C"
@@ -177,5 +187,20 @@ msgstr "Guida rapida"
 
 #: ../../build/doc/overview/spatialite_overview.rst:75
 msgid ":doc:`Quickstart documentation <../quickstart/spatialite_quickstart>`"
+msgstr ":doc:`Guida rapida <../quickstart/spatialite_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
 msgstr ""
-":doc:`Documentazione introduttiva <../quickstart/spatialite_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

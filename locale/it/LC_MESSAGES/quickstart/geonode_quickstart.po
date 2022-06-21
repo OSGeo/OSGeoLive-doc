@@ -4,28 +4,31 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Federico Gianoli <fritz4@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2019
 # Antonio Rotundo <anto.rotundo@gmail.com>, 2021
+# Stefano Campus <skampus@gmail.com>, 2021
+# Valerio Pinna <pinnavalerio@yahoo.co.uk>, 2022
+# Simone Falceri, 2022
+# Federico Gianoli <fritz4@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Antonio Rotundo <anto.rotundo@gmail.com>, 2021\n"
+"Last-Translator: Federico Gianoli <fritz4@gmail.com>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:22
 msgid "GeoNode Quickstart"
-msgstr "Guida Rapida GeoNode"
+msgstr "Guida rapida GeoNode"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:24
 msgid "Open Source Geospatial Content Management System"
@@ -41,9 +44,13 @@ msgstr ""
 "informativi geospaziali (GIS) e per l'implementazione di infrastrutture di "
 "dati spaziali (SDI)."
 
+#: ../../build/doc/quickstart/geonode_quickstart.rst:31
+msgid "Contents"
+msgstr "Contenuti"
+
 #: ../../build/doc/quickstart/geonode_quickstart.rst:34
 msgid "Start GeoNode"
-msgstr ""
+msgstr "Avvia GeoNode"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:36
 msgid ""
@@ -70,11 +77,11 @@ msgid ""
 "layers. In order to create a map and add layers to it, you have to sign in "
 "first."
 msgstr ""
-"Dall'interfaccia mostrata sopra, è possibile visualizzare e modificare "
-"layers e mappe esistenti, nonché trovare informazioni sugli altri utenti di "
+"Dall'interfaccia mostrata sopra, è possibile visualizzare e modificare layer"
+" e mappe esistenti, nonché trovare informazioni sugli altri utenti di "
 "GeoNode. Ma, se non si è loggati, si è limitati all'accesso in sola lettura "
-"dei layers pubblici. Per creare una mappa e aggiungervi dei layers, devi "
-"prima loggarti."
+"dei layer pubblici. Per creare una mappa e aggiungervi dei layer, devi prima"
+" loggarti."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:50
 msgid ""
@@ -97,9 +104,9 @@ msgid ""
 "Layers are a published resource representing a raster or vector spatial data"
 " source. Layers also can be associated with metadata, ratings, and comments."
 msgstr ""
-"I layer sono risorse pubblicate che  possono essere sia vettori che dati "
-"raster. I layers possono anche essere implementati con metadati, votazioni e"
-" commenti."
+"I layer sono risorse pubblicate che  possono essere sia vettori sia dati "
+"raster. I layer possono anche essere associati a metadati, valutazioni e "
+"commenti."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:61
 msgid ""
@@ -177,7 +184,7 @@ msgid ""
 "data in the layer."
 msgstr ""
 "GeoNode ha la possibilità di limitare chi può visualizzare, modificare e "
-"gestire i layers. Sul lato destro della pagina puoi vedere la sezione "
+"gestire i layer. Sul lato destro della pagina puoi vedere la sezione "
 "*Permission*, dove puoi limitare l'accesso al tuo layer. In *Who can view "
 "and download this data*, selezionare *Qualsiasi utente registrato*. Questa "
 "opzione disabiliterà la visualizzazione dei layer agli utenti non loggati. "
@@ -227,6 +234,8 @@ msgid ""
 "Currently, there aren't any maps here. To add one click the *Create a New "
 "Map* button."
 msgstr ""
+"Attualmente non ci sono mappe qui. Per aggiungerne una clicca sul pulsante "
+"*Crea una nuova mappa*."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:138
 msgid "A map composition interface will display."
@@ -258,19 +267,21 @@ msgid ""
 "Now you should be able to see all the available layers. In this case, this "
 "should include the ones you've added before."
 msgstr ""
+"Ora dovresti essere in grado di vedere tutti i layer disponibili. In questo "
+"caso, questo dovrebbe includere quelli che hai aggiunto prima."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:155
 msgid ""
 "Select some layers by clicking the first entry and Ctrl-clicking the rest. "
 "Click *Add Layers* to add them all to the map."
 msgstr ""
-"Per selzionare più layers, clicca sul primo e per aggiungerne altri alla "
-"selezioni tieni premuto il tasto Ctrl. Clicca *Add Layers* per aggiungere "
+"Per selezionare più layer, clicca sul primo e per aggiungerne altri alla "
+"selezione tieni premuto il tasto Ctrl. Clicca *Add Layers* per aggiungere "
 "tutti i layer selezionati nella mappa."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:160
 msgid "The layers will be added to the map."
-msgstr "I layers saranno aggiunti alla mappa."
+msgstr "I layer saranno aggiunti alla mappa."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:162
 msgid ""
@@ -351,7 +362,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:211
 msgid "Your map can now be shared."
-msgstr ""
+msgstr "Ora la tua mappa può essere condivisa!"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:215
 msgid "What next?"
@@ -371,12 +382,17 @@ msgid ""
 "<https://docs.geonode.org/en/master/start/index.html#quick-installation-"
 "guide>`_ ."
 msgstr ""
+"Per installare GeoNode su un tuo server, segui la `Guida rapida di "
+"Installazione <https://docs.geonode.org/en/master/start/index.html#quick-"
+"installation-guide>`_ ."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:221
 msgid ""
 "In order to get started with GeoNode our `documentation "
 "<https://docs.geonode.org/en/master/>`_ might be useful."
 msgstr ""
+"Per iniziare con GeoNode la nostra `documentazione "
+"<https://docs.geonode.org/en/master/>`_ potrebbe esserti utile."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:223
 msgid ""
@@ -386,4 +402,26 @@ msgid ""
 "channel <https://gitter.im/GeoNode/general>`_ or by asking your question in "
 "our `mailing list <https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-"
 "users>`_ !"
+msgstr ""
+"Se hai bisogno di aiuto o vuoi ottenere qualche informazione su un argomento"
+" specifico, non esitare a chiederlo a noi! Puoi farlo attraverso il canale "
+"IRC #geonode usando https://webchat.freenode.net/, attraverso il canale "
+"`GeoNode Gitter <https://gitter.im/GeoNode/general>`_ o facendo la tua "
+"domanda nella nostra `mailing list <https://lists.osgeo.org/cgi-"
+"bin/mailman/listinfo/geonode-users>`_ !"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
 msgstr ""

@@ -6,21 +6,22 @@
 # Translators:
 # Luca Delucchi <lucadeluge@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Stefano Campus <skampus@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:16
 msgid "Zoo Project"
@@ -120,6 +121,10 @@ msgstr ""
 " gli algoritmi e funzioni, e attualmente possono essere implementate in "
 "C/C++, Fortran, Java, Python, PHP and JavaScript."
 
+#: ../../build/doc/overview/zoo-project_overview.rstNone
+msgid "zoo-project screenshot"
+msgstr ""
+
 #: ../../build/doc/overview/zoo-project_overview.rst:61
 msgid "Core Features"
 msgstr "Caratteristiche principali"
@@ -154,8 +159,8 @@ msgstr "Demo"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:76
 msgid ""
-"`Demo using Services Provider based GEOS and OGR libraries <http://localhost"
-"/zoo-demo/ogr-example.html>`_"
+"`Demo using Services Provider based GEOS and OGR libraries "
+"<http://localhost/zoo-demo/ogr-example.html>`_"
 msgstr ""
 "`Demo che utilizza un Services Provider basato sulle librerie GEOS e OGR "
 "<http://localhost/zoo-demo/ogr-example.html>`_"
@@ -173,8 +178,8 @@ msgid ""
 "`Demo using OTB Applications as WPS Services <http://localhost/zoo-demo/otb-"
 "example.html>`_"
 msgstr ""
-"`Demo che utilizza Applicazioni di OTB come Servizio WPS <http://localhost"
-"/zoo-demo/otb-example.html>`_"
+"`Demo che utilizza Applicazioni di OTB come Servizio WPS "
+"<http://localhost/zoo-demo/otb-example.html>`_"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:82
 msgid "Details"
@@ -214,5 +219,20 @@ msgstr "Guida rapida"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:102
 msgid ":doc:`Quickstart documentation <../quickstart/zoo-project_quickstart>`"
+msgstr ":doc:`Guida rapida <../quickstart/zoo-project_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
 msgstr ""
-":doc:`Documentazione introduttiva <../quickstart/zoo-project_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

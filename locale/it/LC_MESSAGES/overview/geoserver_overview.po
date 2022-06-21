@@ -6,21 +6,22 @@
 # Translators:
 # pibinko <pibinko@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Stefano Campus <skampus@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/geoserver_overview.rst:19
 msgid "GeoServer"
@@ -44,6 +45,10 @@ msgstr ""
 "quali WMS, WFS, WCS, WPS, Tile Caching e altri. GeoServer viene fornito con "
 "un'interfaccia di gestione basata su browser e si collega a varie fonti di "
 "dati."
+
+#: ../../build/doc/overview/geoserver_overview.rstNone
+msgid "geoserver screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/geoserver_overview.rst:37
 msgid "Core Features"
@@ -244,14 +249,14 @@ msgstr "**Licenza:** GNU General Public License (GPL) versione 2"
 
 #: ../../build/doc/overview/geoserver_overview.rst:89
 msgid "**Software Version:** |version-geoserver|"
-msgstr "**Versione software:** |version-geoserver|"
+msgstr "**Versione Software:** |version-geoserver|"
 
 #: ../../build/doc/overview/geoserver_overview.rst:91
 msgid ""
 "**Supported Platforms:** Java 8 (Oracle JDK and OpenJDK) on Windows, Linux, "
 "and Mac"
 msgstr ""
-"**Piattaforme supportate:** Java 8 (Oracle JDK e OpenJDK) su Windows, Linux,"
+"**Piattaforme Supportate:** Java 8 (Oracle JDK e OpenJDK) su Windows, Linux,"
 " e Mac"
 
 #: ../../build/doc/overview/geoserver_overview.rst:93
@@ -268,4 +273,20 @@ msgstr "Guida rapida"
 
 #: ../../build/doc/overview/geoserver_overview.rst:102
 msgid ":doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`"
-msgstr ":doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`"
+msgstr ":doc:`Guida rapida <../quickstart/geoserver_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

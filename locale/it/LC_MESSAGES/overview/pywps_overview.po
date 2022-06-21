@@ -6,21 +6,24 @@
 # Translators:
 # Luca Delucchi <lucadeluge@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Valerio Pinna <pinnavalerio@yahoo.co.uk>, 2021
+# Stefano Campus <skampus@gmail.com>, 2021
+# Simone Falceri, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Simone Falceri, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/pywps_overview.rst:18
 msgid "PyWPS"
@@ -45,6 +48,15 @@ msgid ""
 ":doc:`GDAL/OGR <gdal_overview>`, :doc:`proj <proj_overview>` and other "
 "libraries with Python bindings.  Source data can be provided with WPS "
 "requests or accessed from data on the WPS server."
+msgstr ""
+"I processi sono scritti nel linguaggio di programmazione Python e possono "
+"integrare strumenti come :doc:`GRASS GIS <grass_overview>`, :doc:`R "
+"<R_overview>`, :doc:`GDAL/OGR <gdal_overview>`, :doc:`proj <proj_overview>` "
+"e altre librerie con binding Python. I dati di origine possono essere "
+"forniti con richieste WPS o accessibili dai dati sul server WPS."
+
+#: ../../build/doc/overview/pywps_overview.rstNone
+msgid "pywps screenshot"
 msgstr ""
 
 #: ../../build/doc/overview/pywps_overview.rst:37
@@ -81,7 +93,7 @@ msgstr "GDAL/OGR"
 
 #: ../../build/doc/overview/pywps_overview.rst:47
 msgid "Proj"
-msgstr ""
+msgstr "Proj"
 
 #: ../../build/doc/overview/pywps_overview.rst:48
 msgid "Numpy"
@@ -117,7 +129,7 @@ msgstr "**Licenza:** GPL"
 
 #: ../../build/doc/overview/pywps_overview.rst:65
 msgid "**Software Version:** |version-pywps|"
-msgstr "**Versione del Software:** |version-pywps|"
+msgstr "**Versione Software:** |version-pywps|"
 
 #: ../../build/doc/overview/pywps_overview.rst:67
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -137,4 +149,20 @@ msgstr "Guida rapida"
 
 #: ../../build/doc/overview/pywps_overview.rst:78
 msgid ":doc:`Quickstart documentation <../quickstart/pywps_quickstart>`"
-msgstr ":doc:`Documentazione introduttiva <../quickstart/pywps_quickstart>`"
+msgstr ":doc:`Guida rapida <../quickstart/pywps_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

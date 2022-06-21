@@ -7,21 +7,22 @@
 # pibinko <pibinko@gmail.com>, 2018
 # Luca Delucchi <lucadeluge@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Stefano Campus <skampus@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/jts_overview.rst:14
 msgid "JTS"
@@ -55,10 +56,14 @@ msgid ""
 ":doc:`geos_overview`, which is a C++ port of JTS, is used by most C based "
 "applications.  Additional ports are available for C# and JavaScript."
 msgstr ""
-"JTS viene usato dalla maggior parte delle applicazione open source java, e "
+"JTS viene usato dalla maggior parte delle applicazioni Jjava Open Source, e "
 "da :doc:`geos_overview`, che è un port in C++ di JTS, ed è usato dalla "
 "maggior parte delle applicazioni basate su C. Sono disponibili port "
 "aggiuntivi per C# e JavaScript."
+
+#: ../../build/doc/overview/jts_overview.rstNone
+msgid "jts screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/jts_overview.rst:35
 msgid "Core Features"
@@ -156,3 +161,19 @@ msgstr "**Interfacce API:** Java"
 #: ../../build/doc/overview/jts_overview.rst:71
 msgid "**Support:** https://sourceforge.net/projects/jts-topo-suite/"
 msgstr "**Supporto:** https://sourceforge.net/projects/jts-topo-suite/"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""
