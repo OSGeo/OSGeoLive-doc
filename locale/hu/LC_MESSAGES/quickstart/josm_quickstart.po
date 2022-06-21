@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -66,6 +66,10 @@ msgstr ""
 "Az asztalról válassza :menuselection:`Navigation and Maps --> JOSM`. Amikor "
 "a JOSM elindul valahogy így néz ki:"
 
+#: ../../build/doc/quickstart/josm_quickstart.rstNone
+msgid "JOSM splash page"
+msgstr ""
+
 #: ../../build/doc/quickstart/josm_quickstart.rst:41
 msgid "Load a sample (ficticious) map"
 msgstr "Egy (képzeletbeli) minta térkép betöltése"
@@ -97,6 +101,10 @@ msgstr ""
 "Most nyissuk meg a minta térkép fájlt a JOSM-ban. Kattintson az \"Open\" "
 "gombra a bal felső sarokban."
 
+#: ../../build/doc/quickstart/josm_quickstart.rst:0
+msgid "Open file"
+msgstr ""
+
 #: ../../build/doc/quickstart/josm_quickstart.rst:54
 msgid ""
 "Find the file **sample.osm**. It is probably in your Downloads folder, "
@@ -112,6 +120,10 @@ msgid ""
 msgstr ""
 "Kattintson az \"Open\"-re. Egy minta térképet kell látnia, mely ehhez "
 "hasonlóan néz ki:"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:0
+msgid "Sample file"
+msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:62
 msgid ""
@@ -147,6 +159,10 @@ msgstr ""
 "használ és nincs egere, akkor a térkép ablak bal-felső  részén található "
 "léptékvonalzót használhatja. Húzza a vonalzót jobbra és balra a bal egérgomb"
 " nyomvatartása mellett."
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:0
+msgid "Scale bar"
+msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:82
 msgid ""
@@ -310,6 +326,11 @@ msgstr ""
 msgid "Until now, you have been using the Select tool, which looks like this:"
 msgstr "Idáig a kiválasztás eszközöket használtuk, melyek így néznek ki:"
 
+#: ../../build/doc/quickstart/josm_quickstart.rstNone
+#: ../../build/doc/quickstart/josm_quickstart.rst:0
+msgid "Select tool"
+msgstr ""
+
 #: ../../build/doc/quickstart/josm_quickstart.rst:153
 msgid "Before you draw, you need to make sure that nothing is selected."
 msgstr ""
@@ -326,6 +347,10 @@ msgstr ""
 #: ../../build/doc/quickstart/josm_quickstart.rst:157
 msgid "Click on the second button, the Draw tool."
 msgstr "Kattintson a második ikonra, a Draw eszközre."
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:0
+msgid "Draw tool"
+msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:163
 msgid ""
@@ -499,3 +524,19 @@ msgstr ""
 #: ../../build/doc/quickstart/josm_quickstart.rst:225
 msgid "Website: https://josm.openstreetmap.de/"
 msgstr "Honlap: https://josm.openstreetmap.de/"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

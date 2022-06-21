@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -90,14 +90,6 @@ msgstr ""
 
 #: ../../build/doc/contact.rst:29
 msgid ""
-"Searchable archives of the mailing list are hosted by `Nabble <http://www"
-".osgeo-org.1560.x6.nabble.com/OSGeoLive-f3777350.html>`_."
-msgstr ""
-"A levelezőlista kereshető archívumát a `Nabble <http://www.osgeo-"
-"org.1560.x6.nabble.com/OSGeoLive-f3777350.html>_` tárolja."
-
-#: ../../build/doc/contact.rst:32
-msgid ""
 "IRC users might try the #osgeolive or #osgeo channel at Freenode.net for "
 "real-time assistance. You also can meet us at Slack, Matrix or Glitter."
 msgstr ""
@@ -105,7 +97,7 @@ msgstr ""
 "vagy a  #osgeo csatornát a Freenode.net-en. Találkozhat velünk a Slack-en, a"
 " Matrix-on vagy a Glitter-en is."
 
-#: ../../build/doc/contact.rst:35
+#: ../../build/doc/contact.rst:32
 msgid ""
 "A wealth of information is available on our `Wiki site "
 "<https://trac.osgeo.org/osgeolive/wiki>`_, and a `bug and wish tracking "
@@ -115,7 +107,7 @@ msgstr ""
 "információ érhető el, valamint egy `hiba és kívánság követő rendszer "
 "<https://trac.osgeo.org/osgeolive/report/10>`_  is megtalálható."
 
-#: ../../build/doc/contact.rst:38
+#: ../../build/doc/contact.rst:35
 msgid ""
 "Stay tuned and follow OSGeoLive on Twitter `@osgeolive "
 "<https://mobile.twitter.com/osgeolive>`_."
@@ -123,11 +115,11 @@ msgstr ""
 "Maradjon velünk és kövesse az OSGeoLive-ot a Twitter-en `@osgeolive "
 "<https://mobile.twitter.com/osgeolive>`_."
 
-#: ../../build/doc/contact.rst:41
+#: ../../build/doc/contact.rst:38
 msgid "Commercial Support"
 msgstr "Kereskedelmi támogatás"
 
-#: ../../build/doc/contact.rst:43
+#: ../../build/doc/contact.rst:40
 msgid ""
 "Most packaged applications have both community and commercial support "
 "offerings for them. Refer to specific application descriptions linked from "
@@ -137,12 +129,28 @@ msgstr ""
 "támogatás. Nézze meg az egyes alkalmazások leírását a részletekért, a  "
 ":doc:`Contents <./overview/overview>` oldalon található linkeken keresztül."
 
-#: ../../build/doc/contact.rst:46
+#: ../../build/doc/contact.rst:43
 msgid ""
 "In addition, there are a large number of consultancy firms world wide who "
-"provide support for OSGeo member projects. See https://www.osgeo.org"
-"/service-providers/ for one that meets your needs."
+"provide support for OSGeo member projects. See "
+"https://www.osgeo.org/service-providers/ for one that meets your needs."
 msgstr ""
 "Emellett számos tanácsadó cég létezik világszerte, akik támogatást adnak az "
 "OSGeo tagprojektjeihez. Lásd https://www.osgeo.org/service-providers/ oldalt"
 " az igényeinek megfelelő partner megtalálásához."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

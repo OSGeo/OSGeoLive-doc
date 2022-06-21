@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,6 +49,10 @@ msgstr ""
 "térinformatikai adat használatára fejlesztették. Teljesen szabad, nyílt "
 "forráskódú JavaScript, melyet a 2-záradék BSD licenc (úgyis ismert mint "
 "FreeBSD) alatt bocsájtanak ki."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:30
+msgid "Contents"
+msgstr "Tartalom"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:33
 msgid "Core concepts"
@@ -364,13 +368,29 @@ msgstr ""
 "itt talál:"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:295
-msgid "`API Docs <../../openlayers/apidoc/>`_"
-msgstr "`API Docs <../../openlayers/apidoc/>`_"
+msgid "`API Docs <https://localhost/openlayers/apidoc/>`_"
+msgstr ""
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:297
-msgid "`Examples <../../openlayers/examples/>`_"
-msgstr "`Példák <../../openlayers/examples/>`_"
+msgid "`Examples <https://localhost/openlayers/examples/>`_"
+msgstr ""
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:299
 msgid "`OpenLayers.org Website <https://openlayers.org/>`_"
 msgstr "`OpenLayers.org honlap <https://openlayers.org/>`_"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -61,6 +61,10 @@ msgstr ""
 msgid "Explore the REST API endpoint for client developers."
 msgstr "Fedezze fel a REST API végpontot a kliens fejlesztéshez."
 
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:33
+msgid "Contents"
+msgstr "Tartalom"
+
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:36
 msgid "Getting Started"
 msgstr "Kezdjen neki"
@@ -81,6 +85,10 @@ msgstr "Ez megnyitja az 52°North SOS kliens üdvözlő oldalát a firefoxban it
 msgid "http://localhost:8080/52nSOS/ (see Fig. 1)."
 msgstr "http://localhost:8080/52nSOS/ (lásd 1. ábra)."
 
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:0
+msgid "52°North SOS client welcome page"
+msgstr ""
+
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:48
 msgid "**Fig. 1**: 52°North SOS client - welcome page."
 msgstr "**1. ábra**: 52°North SOS kliens - üdvözlő oldal."
@@ -100,6 +108,10 @@ msgstr ""
 " (lásd 2. ábra), megfelelő lekérdezéseket készíthet. A képességek "
 "dokumentumból származó információk felhasználásával módosíthatja a elérhető "
 "példa lekérdezéseket."
+
+#: ../../build/doc/quickstart/52nSOS_quickstart.rstNone
+msgid "52°North SOS client - test client with GetCapabilities request"
+msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:61
 msgid ""
@@ -197,6 +209,10 @@ msgstr ""
 "<http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ ismét és "
 "fedezze fel a generált minta adatokat."
 
+#: ../../build/doc/quickstart/52nSOS_quickstart.rstNone
+msgid "52°North SOS client - JavaScript client with time series data"
+msgstr ""
+
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:125
 msgid ""
 "**Fig. 3**: 52°North SOS client - JavaScript client with time series data."
@@ -237,11 +253,11 @@ msgstr "52°North Szenzor Web levelezőlista: sensorweb@52north.org"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:195
 msgid ""
-"52°North `Sensor Web community <https://52north.org/research/research-labs"
-"/sensor-web/>`_"
+"52°North `Sensor Web community <https://52north.org/research/research-"
+"labs/sensor-web/>`_"
 msgstr ""
-"52°North `Szenzor Web közösség <https://52north.org/research/research-labs"
-"/sensor-web/>`_"
+"52°North `Szenzor Web közösség <https://52north.org/research/research-"
+"labs/sensor-web/>`_"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:196
 msgid ""
@@ -293,3 +309,19 @@ msgid ""
 "**Listing 3:** Tomcat Status and Start (password for sudo: :code:`user`)."
 msgstr ""
 "**3. lista:** Tomcat statusz és indítás (jelszó a sudo.hoz: :code:`user`)."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

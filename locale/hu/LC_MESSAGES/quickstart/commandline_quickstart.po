@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-01 08:19-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2021-01-21 18:51+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,6 +57,10 @@ msgid ""
 msgstr ""
 "Indítson egy terminál emulátort (aktuálisan `QTerminal`) az `Applications` "
 "menü `System Tools` részéből. Ez egy Unix burok parancs promptot ad."
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:22
+msgid "Contents"
+msgstr "Tartalom"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:25
 msgid "Where am I?"
@@ -548,3 +552,19 @@ msgstr "https://ubuntu.com/tutorials/command-line-for-beginners#1-overview"
 #: ../../build/doc/quickstart/commandline_quickstart.rst:339
 msgid "https://en.wikipedia.org/wiki/Category:Standard_Unix_programs"
 msgstr "https://en.wikipedia.org/wiki/Category:Standard_Unix_programs"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

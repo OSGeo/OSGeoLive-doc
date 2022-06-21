@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,6 +49,10 @@ msgstr "szabványos térképi eszközök használata"
 #: ../../build/doc/quickstart/udig_quickstart.rst:38
 msgid "apply colour to map features using styling"
 msgstr "stílus beállítás, színek alkalmazása a térképi elemekhez"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:40
+msgid "Contents"
+msgstr "Tartalom"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:43
 msgid "start uDig"
@@ -288,6 +292,12 @@ msgstr ""
 msgid "The |ZOOM| Zoom tool is available by default"
 msgstr "A |ZOOM| nagyító eszköz alapértelmezésben elérhető"
 
+#: ../../build/doc/quickstart/udig_quickstart.rst:169
+#: ../../build/doc/quickstart/udig_quickstart.rst:169
+#: ../../build/doc/quickstart/udig_quickstart.rst:169
+msgid "ZOOM"
+msgstr ""
+
 #: ../../build/doc/quickstart/udig_quickstart.rst:171
 msgid ""
 "Use the zoom tool by drawing a box using the left mouse button around the "
@@ -312,6 +322,11 @@ msgstr ""
 "A |PAN| eltolás eszköz használható a térkép görgetéséhez, a méretarány "
 "módosítása nélkül."
 
+#: ../../build/doc/quickstart/udig_quickstart.rst:178
+#: ../../build/doc/quickstart/udig_quickstart.rst:178
+msgid "PAN"
+msgstr ""
+
 #: ../../build/doc/quickstart/udig_quickstart.rst:180
 msgid ""
 "There are also several navigation buttons that can be used at any time:"
@@ -323,6 +338,11 @@ msgid ""
 msgstr ""
 "|SHOWALL| Show All használható bármikor a teljes terjedelemhez visszatérésre"
 
+#: ../../build/doc/quickstart/udig_quickstart.rst:184
+#: ../../build/doc/quickstart/udig_quickstart.rst:184
+msgid "SHOWALL"
+msgstr ""
+
 #: ../../build/doc/quickstart/udig_quickstart.rst:186
 msgid ""
 "|ZOOM_IN| Zoom In and |ZOOM_OUT| Zoom Out can be used to change the scale by"
@@ -331,6 +351,16 @@ msgstr ""
 "|ZOOM_IN|  Zoom In és |ZOOM_OUT| Zoom Out használható a a méretarány fix "
 "mértékkel módosításához."
 
+#: ../../build/doc/quickstart/udig_quickstart.rst:188
+#: ../../build/doc/quickstart/udig_quickstart.rst:188
+msgid "ZOOM_IN"
+msgstr ""
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:189
+#: ../../build/doc/quickstart/udig_quickstart.rst:189
+msgid "ZOOM_OUT"
+msgstr ""
+
 #: ../../build/doc/quickstart/udig_quickstart.rst:191
 msgid ""
 "You can use Navigation Back |BNAV| and Forward |FNAV| in the menu bar to "
@@ -338,6 +368,16 @@ msgid ""
 msgstr ""
 "A Navigation Back |BNAV| és Forward |FNAV| használható a menüsorban az "
 "előzőleg megtekintett helyek visszanézésére."
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:194
+#: ../../build/doc/quickstart/udig_quickstart.rst:194
+msgid "BNAV"
+msgstr ""
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:195
+#: ../../build/doc/quickstart/udig_quickstart.rst:195
+msgid "FNAV"
+msgstr ""
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:197
 msgid ""
@@ -444,6 +484,11 @@ msgid ""
 msgstr ""
 "Váltson az |INFO| info eszközre és kattintson egy parkra, hogy többet tudjon"
 " meg róla"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:247
+#: ../../build/doc/quickstart/udig_quickstart.rst:247
+msgid "INFO"
+msgstr ""
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:249
 msgid ""
@@ -614,3 +659,19 @@ msgstr ""
 #: ../../build/doc/quickstart/udig_quickstart.rst:320
 msgid "Available on http://udig.refractions.net/"
 msgstr "Elérhető a http://udig.refractions.net/ címen"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

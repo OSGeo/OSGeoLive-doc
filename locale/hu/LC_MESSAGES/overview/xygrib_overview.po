@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-06 18:01-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2021-02-07 00:39+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -46,6 +46,10 @@ msgstr ""
 "munkaállomást biztosítson. Ez magában foglalja a vitorlás közösség tagjait, "
 "a magán és sport pilótákat, a mezőgazdasági termelőket, időjárás kedvelőket "
 "és még sokakat."
+
+#: ../../build/doc/overview/xygrib_overview.rstNone
+msgid "xygrib screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/xygrib_overview.rst:29
 msgid "Core Features"
@@ -89,8 +93,8 @@ msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/xygrib_overview.rst:41
-msgid "**Website:** https://opengribs.org"
-msgstr "**Honlap:** https://opengribs.org"
+msgid "**Website:** https://opengribs.org/en"
+msgstr ""
 
 #: ../../build/doc/overview/xygrib_overview.rst:43
 msgid "**Licence:** GNU General Public License (GPL) version 3"
@@ -115,3 +119,19 @@ msgstr "Gyorstalpaló"
 #: ../../build/doc/overview/xygrib_overview.rst:57
 msgid ":doc:`Quickstart documentation <../quickstart/xygrib_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/xygrib_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

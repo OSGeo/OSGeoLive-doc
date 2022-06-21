@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-18 20:30+0100\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,6 +33,10 @@ msgid ""
 msgstr ""
 "A GRASS GIS egy hatékony GIS, mely lehetővé teszi, hogy térinformatikai "
 "adatokat megjelenítsen, kezeljen, elemezzen és szerkesszen."
+
+#: ../../build/doc/quickstart/grass_quickstart.rst:31
+msgid "Contents"
+msgstr "Tartalom"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:34
 msgid "Start GRASS"
@@ -58,15 +62,24 @@ msgstr ""
 msgid "Click on :guilabel:`Start GRASS session`."
 msgstr "Kattintson a :guilabel:`Start GRASS session`-re."
 
+#: ../../build/doc/quickstart/grass_quickstart.rstNone
+#: ../../build/doc/quickstart/grass_quickstart.rstNone
+#: ../../build/doc/quickstart/grass_quickstart.rstNone
+#: ../../build/doc/quickstart/grass_quickstart.rstNone
+#: ../../build/doc/quickstart/grass_quickstart.rstNone
+#: ../../build/doc/quickstart/grass_quickstart.rstNone
+#: ../../build/doc/quickstart/grass_quickstart.rstNone
+#: ../../build/doc/quickstart/grass_quickstart.rstNone
+msgid "screenshot"
+msgstr ""
+
 #: ../../build/doc/quickstart/grass_quickstart.rst:48
 msgid ""
 "This will launch GRASS into the `graphical user interface (written in "
-"wxPython) <../../grass/wxGUI.html>`_."
+"wxPython) <http://localhost/grass/wxGUI.html>`_."
 msgstr ""
-"Ez elindítja a GRASS-t a `grafikus felhasználói felülettel (wxPythonban "
-"írták)  <../../grass/wxGUI.html>`_."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:50
+#: ../../build/doc/quickstart/grass_quickstart.rst:51
 msgid ""
 "If you are on a netbook with a very small display (800x600 resolution) the "
 "startup screen might get a little scrunched and the [*Start GRASS*] button "
@@ -83,11 +96,11 @@ msgstr ""
 "hogy legyen hely (tartsa nyomva az Alt billentyűt és a bal egérgombbal "
 "ragadja meg ablakot a mozgatáshoz)."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:64
+#: ../../build/doc/quickstart/grass_quickstart.rst:65
 msgid "Display a map"
 msgstr "Egy térkép megjelenítése"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:71
+#: ../../build/doc/quickstart/grass_quickstart.rst:72
 msgid ""
 "Once inside, select for display the raster map layer \"`elevation`\" from "
 "the PERMANENT mapset."
@@ -95,15 +108,15 @@ msgstr ""
 "Belépés után a megjelenítéshez válasszon egy raszter réteget  mint például "
 "az \"`elevation`\"-t a PERMANENT térképhalmazból."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:72
+#: ../../build/doc/quickstart/grass_quickstart.rst:73
 msgid "Go into the `GIS Layer Manager` window."
 msgstr "Menjen a `GIS Layer Manager` ablakba."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:73
+#: ../../build/doc/quickstart/grass_quickstart.rst:74
 msgid "Click on the checkerboard toolbar button with a \"+\" on it."
 msgstr "Kattintson a sakktábla eszköztár gombra, melyen \"+\" van."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:74
+#: ../../build/doc/quickstart/grass_quickstart.rst:75
 msgid ""
 "Select the map name you want from the \"*map to be displayed*\" pull-down "
 "list, and click :guilabel:`Ok`."
@@ -111,13 +124,13 @@ msgstr ""
 "Válassza ki a térkép nevét a \"*map to be displayed*\" legördülő listából és"
 " kattintson a  :guilabel:`Ok`-ra."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:75
+#: ../../build/doc/quickstart/grass_quickstart.rst:76
 msgid ""
 "Click on the toolbar button with a \"+\" and a bent poly-line which looks a "
 "bit like a \"V\"."
 msgstr "Kattintson az eszközsorban a \"V\" betű alakú gombra a \"+\" jellel."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:76
+#: ../../build/doc/quickstart/grass_quickstart.rst:77
 msgid ""
 "Select the \"`roadsmajor`\" vector layer from the PERMANENT mapset, and "
 "click :guilabel:`Ok`."
@@ -125,7 +138,7 @@ msgstr ""
 "Válassza a \"`roadsmajor`\" vektor réteget a PERMANENT térképhalmazból és "
 "kattintson az :guilabel:`Ok`-ra."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:78
+#: ../../build/doc/quickstart/grass_quickstart.rst:79
 msgid ""
 "If you need to, right click on the raster map layer and choose \"Zoom to "
 "selected map(s)\"."
@@ -133,15 +146,15 @@ msgstr ""
 "Ha szükséges, kattintson jobb gombbal a raszter térképre és válassza a  "
 "\"Zoom to selected map(s)\" menüpontot."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:80
+#: ../../build/doc/quickstart/grass_quickstart.rst:81
 msgid "You should now see the maps displayed."
 msgstr "Most látnia kellene a térképet."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:83
+#: ../../build/doc/quickstart/grass_quickstart.rst:84
 msgid "Plot an elevation profile"
 msgstr "Metszet rajzolás"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:89
+#: ../../build/doc/quickstart/grass_quickstart.rst:90
 msgid ""
 "Back in the `GIS Layer Manager` window click on the `elevation` raster map "
 "name to select it. Then in the `Map Display` window, to the right of the "
@@ -167,11 +180,11 @@ msgstr ""
 "vissza a metszet ablakba. Kattintson a jobb szélen lévő I/O gombra a metszet"
 " ablak lezárásához."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:102
+#: ../../build/doc/quickstart/grass_quickstart.rst:103
 msgid "Adjust raster map colors"
 msgstr "Rasztertérkép színeinek beállítása"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:103
+#: ../../build/doc/quickstart/grass_quickstart.rst:104
 msgid ""
 "Now you'll see your new raster map added to the layer list along with the "
 "elevation raster map, except this time it will be in your \"user1\" working "
@@ -201,11 +214,11 @@ msgstr ""
 "\"srtm\" egy jó választás. Végül kattintson a  [*Run*] gombra és zárja le az"
 " *r.colors* párbeszédablakot. A színek automatikusan frissülnek."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:118
+#: ../../build/doc/quickstart/grass_quickstart.rst:119
 msgid "Create a shaded relief map"
 msgstr "Árnyékolt domborzati térkép létrehozása"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:124
+#: ../../build/doc/quickstart/grass_quickstart.rst:125
 msgid ""
 "Next we'll create a shaded relief map of the `elevation` layer we saw "
 "earlier. Start by verifying that the *computational region* is set match the"
@@ -224,7 +237,7 @@ msgstr ""
 "map(s)\"-t.  Ha szükséges kattintson a \"*Layers*\" fülre alul, hogy "
 "visszatérjen a réteglistához."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:132
+#: ../../build/doc/quickstart/grass_quickstart.rst:133
 msgid ""
 "In the `Raster` menu select :menuselection:`Terrain analysis --> Compute "
 "shaded relief` (Terrain analysis is about half way down the `Raster` menu), "
@@ -243,11 +256,11 @@ msgstr ""
 "ki a többi rétegmegjelenítését, hogy csak az újonnan létrehozott árnyékolt "
 "domborzat jelenjen meg."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:141
+#: ../../build/doc/quickstart/grass_quickstart.rst:142
 msgid "Add watersheds and streams"
 msgstr "Vízgyűjtők és vízfolyások hozzáadása"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:142
+#: ../../build/doc/quickstart/grass_quickstart.rst:143
 msgid ""
 "Once again select the `elevation` *@PERMANENT* map. If you changed the "
 "region since the last step, again right click on the layer name and click on"
@@ -261,7 +274,7 @@ msgstr ""
 "map(s)`-re a felbukkanó menüben, hogy a teljes térképet figyelembe vegyük a "
 "vízgyűjtő terület számításánál."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:147
+#: ../../build/doc/quickstart/grass_quickstart.rst:148
 msgid ""
 "The wxGUI map display's view and zoom is independent and does not affect "
 "processing calculations. Check the computational region at any time with "
@@ -277,7 +290,7 @@ msgstr ""
 "felbontású rasztertérképeket a rendszer röptében újramintavételezi az "
 "aktuális számítási területre."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:149
+#: ../../build/doc/quickstart/grass_quickstart.rst:150
 msgid ""
 "Next, in the `Raster` menu choose :menuselection:`Hydrologic modeling --> "
 "Watershed analysis`. This will open the ``r.watershed`` module. Select the "
@@ -297,7 +310,7 @@ msgstr ""
 "stream segments raster map\" *streams* opciót  \"elev.streams\"-re. Majd "
 "kattintson a [*Run*]-ra."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:158
+#: ../../build/doc/quickstart/grass_quickstart.rst:159
 msgid ""
 "Back in the `GIS Layer Manager` window check that those two new raster maps "
 "are in the layer list and make sure that the basins map is ticked for "
@@ -319,7 +332,7 @@ msgstr ""
 "húzza lentebb a réteglistában, hogy a vízgyűjtők rétege alatt legyen és "
 "kapcsolja be a réteget, hogy egy háttérképként jelenjen meg."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:173
+#: ../../build/doc/quickstart/grass_quickstart.rst:174
 msgid ""
 "In the `GIS Layer Manager` window click on the `Add various overlays` button"
 " and `Add grid layer`. For size of grid put 5000 (in map units, here meter)."
@@ -331,7 +344,7 @@ msgstr ""
 "(térképi egységekben, itt méterben). Ha kész nyomja meg az :guilabel:`OK`-t."
 " Megváltoztathatja a rácsvonalak és a címkék színét."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:178
+#: ../../build/doc/quickstart/grass_quickstart.rst:179
 msgid ""
 "To add a scalebar go to the `Map Display` window and press the \"Add map "
 "elements\" button to the right of where you selected the Profile tool "
@@ -345,7 +358,7 @@ msgstr ""
 "Egy léptékvonalzó jelenik meg a bal-felső sarokban a térképen. Húzza le a "
 "jobb-alsó sarokba."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:193
+#: ../../build/doc/quickstart/grass_quickstart.rst:194
 msgid ""
 "Now you may be thinking to yourself that these fonts are a bit bare. That's "
 "easily fixed in the `GIS Layer Manager` menus open :menuselection:`Settings "
@@ -364,11 +377,11 @@ msgstr ""
 "életbe lépjenek, kattintson az első gombra a `Map Display` ablakban az "
 "újrarajzoláshoz. A betűk sokkal szebbek most."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:203
+#: ../../build/doc/quickstart/grass_quickstart.rst:204
 msgid "Work with vector modules"
 msgstr "Munka a vektor modulokkal"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:204
+#: ../../build/doc/quickstart/grass_quickstart.rst:205
 msgid ""
 "The above tasks have only covered a few raster modules. Don't let this give "
 "you the idea that GRASS GIS is just for raster maps -- the vector engine and"
@@ -382,7 +395,7 @@ msgstr ""
 "mint a raszteresek. A GRASS GIS egy teljes topológikus vektormotort tart "
 "fenn, amely sokféle hatékony elemzést tesz lehetővé."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:215
+#: ../../build/doc/quickstart/grass_quickstart.rst:216
 msgid ""
 "Continuing with the watershed basins created above, next we'll convert them "
 "into vector polygons. In the `Raster` menu select :menuselection:`Map type "
@@ -409,11 +422,11 @@ msgstr ""
 "vektortérkép megjelenik a `Layer Manager` listában, jobb kattintás után "
 "módosítsa az átlátszósági szintet 50%-ra."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:228
+#: ../../build/doc/quickstart/grass_quickstart.rst:229
 msgid "Adjust vector map colors"
 msgstr "Vektortérkép színeinek beállítása"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:229
+#: ../../build/doc/quickstart/grass_quickstart.rst:230
 msgid ""
 "As we did earlier with a raster map we will change the color table of the "
 "new watershed basins vector map. With the ``basins_areas`` selected in the "
@@ -433,11 +446,11 @@ msgstr ""
 " *v.colors* párbeszédablakot. Lehet, hogy újra kel rajzoltatnia a térképet, "
 "hogy megjelenjen az átszínezett térkép."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:244
+#: ../../build/doc/quickstart/grass_quickstart.rst:245
 msgid "Manage attributes"
 msgstr "Attribútumok kezelése"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:245
+#: ../../build/doc/quickstart/grass_quickstart.rst:246
 msgid ""
 "Next we'll add some attributes to those new areas, containing the average "
 "elevation in each basin. In the Vector menu select :menuselection:`Update "
@@ -460,7 +473,7 @@ msgstr ""
 "ellenőrizte, hogy az aktuális térkép a vector-areas legyen, kattintson a "
 "vektortérkép területére a térképvásznon."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:254
+#: ../../build/doc/quickstart/grass_quickstart.rst:255
 msgid ""
 "You can now re-colorize the areas based on the average elevation values "
 "using the ``v.colors`` module. In the Vector menu select "
@@ -484,7 +497,7 @@ msgstr ""
 "frissítenie kell a térkép megjelenítést (első ikon balról) hogy a módosított"
 " térképet lássuk."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:264
+#: ../../build/doc/quickstart/grass_quickstart.rst:265
 msgid ""
 "Now let's look at the attribute table and SQL builder in more detail. In the"
 " `Layer Manager` click the table icon (\"Show attribute data for selected "
@@ -518,11 +531,11 @@ msgstr ""
 "``Highlight selected features``-t. A ``Map Display`` ablakban látnia kell a "
 "hordalékkal feltöltött medencéket."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:281
+#: ../../build/doc/quickstart/grass_quickstart.rst:282
 msgid "View a 3D visualization"
 msgstr "Egy 3D megjelenítés megtekintése"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:287
+#: ../../build/doc/quickstart/grass_quickstart.rst:288
 msgid ""
 "In order to start the 3D visualization suite, select the `elevation` map as "
 "the raster elevation in the `Layer list` and additionally highlight the "
@@ -542,7 +555,7 @@ msgstr ""
 "pozicionáló korong és a magasság csúszkát a \"View\" fülön, hogy különböző "
 "nézeteket kapjon."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:296
+#: ../../build/doc/quickstart/grass_quickstart.rst:297
 msgid ""
 "To drape maps, satellite or aerial imagery over the top of the DEM, in the "
 "\"Data\" tab select as name for the **Surface Attributes** map the overlay "
@@ -556,7 +569,7 @@ msgstr ""
 "viszonylag sík, visszatérhet a \"View\" füre és növelheti a Z nagyítás "
 "(\"z-Exag\") értékét."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:303
+#: ../../build/doc/quickstart/grass_quickstart.rst:304
 msgid ""
 "For easy navigation in the 3D view, switch on the \"Rotate 3D scene\" in the"
 " map display toolbar, then use the mouse to move the view around."
@@ -565,7 +578,7 @@ msgstr ""
 "scene\"-re a térkép ablak eszköztárában, majd használja az egeret a nézet "
 "forgatásához."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:307
+#: ../../build/doc/quickstart/grass_quickstart.rst:308
 msgid "Things to try"
 msgstr "Kipróbálandó dolgok"
 
@@ -577,18 +590,12 @@ msgid ""
 "`Layer Manager` window. Further details can be found in the `wxGUI "
 "<https://grass.osgeo.org/grass-stable/manuals/wxGUI.html>`_ help pages."
 msgstr ""
-"Bár nem szerepelt itt, érdemes kísérletezni a Cartographic Composerrel és az"
-" objektum-orientált Graphical Modelling Toollal (Pythonba exportálást "
-"biztosít); Az indításukra szolgáló ikonokat a Layer Manager ablakban az alsó"
-" ikonsorban találja. További részletek a `wxGUI "
-"<https://grass.osgeo.org/grass-stable/manuals/wxGUI.html>` _ súgóoldalakon "
-"találhatók."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:315
+#: ../../build/doc/quickstart/grass_quickstart.rst:316
 msgid "API"
 msgstr "API"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:316
+#: ../../build/doc/quickstart/grass_quickstart.rst:317
 msgid ""
 "The wxGUI is written in Python, and if you're a fan of Python programming "
 "there are a number of great tools and an API available to you. In the bottom"
@@ -610,11 +617,11 @@ msgstr ""
 "közvetlen hozzáférést a GRASS GIS kiterjedt C könyvtáraihoz. A programozási "
 "lehetőségek leírásához nézze meg a kézikönyv oldalakat."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:327
+#: ../../build/doc/quickstart/grass_quickstart.rst:328
 msgid "Command line"
 msgstr "Parancssor"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:328
+#: ../../build/doc/quickstart/grass_quickstart.rst:329
 msgid ""
 "In the GRASS terminal session, try a GRASS module by typing \"``v.clean "
 "--help``\" which will give you a list of module options. The GRASS command "
@@ -635,7 +642,7 @@ msgstr ""
 "kódolással létrehozhat egy új GRASS modult a hatékony parancsértelmező, GUI "
 "és súgó oldal sablon segítségével."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:337
+#: ../../build/doc/quickstart/grass_quickstart.rst:338
 msgid ""
 "\"``g.manual -i``\" will launch a web browser with the module help pages. "
 "When you are done close the browser and type \"exit\" at the GRASS terminal "
@@ -645,11 +652,11 @@ msgstr ""
 "elolvasta zárja be a böngészőt és gépelje be az \"exit\" parancsot a GRASS "
 "terminál promptnál a kilépéshez a GRASS környezetből."
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:342
+#: ../../build/doc/quickstart/grass_quickstart.rst:343
 msgid "What next?"
 msgstr "Mi a következő?"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:343
+#: ../../build/doc/quickstart/grass_quickstart.rst:344
 msgid ""
 "Visit the GRASS GIS website at `https://grass.osgeo.org "
 "<https://grass.osgeo.org>`_"
@@ -657,7 +664,7 @@ msgstr ""
 "Látogassa meg a GRASS GIS honlapot  `http://grass.osgeo.org "
 "<https://grass.osgeo.org>`_"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:344
+#: ../../build/doc/quickstart/grass_quickstart.rst:345
 msgid ""
 "Visit the GRASS GIS Wiki help site at `https://grasswiki.osgeo.org/wiki/ "
 "<https://grasswiki.osgeo.org/wiki/Main_Page>`_"
@@ -666,7 +673,7 @@ msgstr ""
 "`https://grasswiki.osgeo.org/wiki/ "
 "<https://grasswiki.osgeo.org/wiki/Main_Page>`_"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst:345
+#: ../../build/doc/quickstart/grass_quickstart.rst:346
 msgid ""
 "More tutorials and overviews can be found `here "
 "<https://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_."
@@ -676,20 +683,30 @@ msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:346
 msgid ""
-"A `synopsis of the GRASS GIS modules "
-"<https://grass.osgeo.org/grass-stable/manuals/full_index.html>`_"
+"A `synopsis of the GRASS GIS modules <https://grass.osgeo.org/grass-"
+"stable/manuals/full_index.html>`_"
 msgstr ""
-"Egy `összefoglaló a GRASS modulokhoz "
-"<https://grass.osgeo.org/grass-stable/manuals/full_index.html>`_"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:347
 msgid ""
 "If the 400 GIS modules which come with GRASS aren't enough for you have a "
-"look at the many contributed add-ons at "
-"`https://grass.osgeo.org/grass-stable/manuals/addons/ "
-"<https://grass.osgeo.org/grass-stable/manuals/addons/>`_"
+"look at the many contributed add-ons at `https://grass.osgeo.org/grass-"
+"stable/manuals/addons/ <https://grass.osgeo.org/grass-"
+"stable/manuals/addons/>`_"
 msgstr ""
-"Ha a GRASS-szal érkező 400 GIS modul nem elegendő önnek, akkor vessen egy "
-"pillantást a sok hozzáadott bővítményre a "
-"`https://grass.osgeo.org/grass-stable/manuals/addons/ "
-"<https://grass.osgeo.org/grass-stable/manuals/addons/>`_ oldalon."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

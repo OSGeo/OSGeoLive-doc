@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-01 08:19-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2018-06-09 16:37+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -57,8 +57,8 @@ msgstr ""
 "Egy szabad eszköz hypervswitch "
 "<https://unclassified.software/en/apps/hypervswitch>`_ használható a Hyper-V"
 " gyors engedélyezéséhez és letiltásához - bár ez egy újraindítást igényel a "
-"beállítás minden módosítása után. Az oldal további része az OSGeoLive "
-"Hyper-V-n futtatását dokumentálja."
+"beállítás minden módosítása után. Az oldal további része az OSGeoLive Hyper-"
+"V-n futtatását dokumentálja."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:19
 msgid "System Requirements"
@@ -116,15 +116,15 @@ msgstr "StarWind V2V konventer"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:40
 msgid ""
-"Use the `StarWind V2V Converter <https://www.starwindsoftware.com/starwind-"
-"v2v-converter>`_ program. This has a simple user interface allowing you to "
-"select the ``osgeo-live-XX.X-vm.vmdk`` file and convert to a *Microsoft "
-"VHDX* image."
+"Use the `StarWind V2V Converter "
+"<https://www.starwindsoftware.com/starwind-v2v-converter>`_ program. This "
+"has a simple user interface allowing you to select the ``osgeo-live-"
+"XX.X-vm.vmdk`` file and convert to a *Microsoft VHDX* image."
 msgstr ""
-"Használja a `StarWind V2V Converter <https://www.starwindsoftware.com"
-"/starwind-v2v-converter>`_ programot. Egy egyszerű felhasználói felülete "
-"van, megengedi az ``osgeo-live-XX.X-vm.vmdk`` fájl kiválasztását és a  "
-"*Microsoft VHDX* képbe konvertálását."
+"Használja a `StarWind V2V Converter "
+"<https://www.starwindsoftware.com/starwind-v2v-converter>`_ programot. Egy "
+"egyszerű felhasználói felülete van, megengedi az ``osgeo-live-XX.X-vm.vmdk``"
+" fájl kiválasztását és a  *Microsoft VHDX* képbe konvertálását."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:44
 msgid "Microsoft Virtual Machine Converter 3.0"
@@ -294,3 +294,19 @@ msgstr ":doc:`osgeolive_install_quickstart`"
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:126
 msgid ":doc:`usb_quickstart`"
 msgstr ":doc:`usb_quickstart`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

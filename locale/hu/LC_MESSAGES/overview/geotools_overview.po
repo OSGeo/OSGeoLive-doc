@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -49,6 +49,10 @@ msgstr ""
 "Live alkalmazások: :doc:`52nSOS_overview`, :doc:`52nWPS_overview`, "
 "AtlasStyler, Geomajas, Geopublisher, :doc:`geoserver_overview`, és "
 ":doc:`udig_overview`."
+
+#: ../../build/doc/overview/geotools_overview.rstNone
+msgid "geotools screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/geotools_overview.rst:31
 msgid "Core Features"
@@ -153,6 +157,10 @@ msgid ""
 "core library."
 msgstr ""
 "További képességeket biztosít a mag könyvtár funkcióinak felhasználásával."
+
+#: ../../build/doc/overview/geotools_overview.rst:0
+msgid "Extensions built using the GeoTools library"
+msgstr ""
 
 #: ../../build/doc/overview/geotools_overview.rst:64
 msgid ""
@@ -326,3 +334,19 @@ msgid ""
 msgstr ""
 "`Gyorstalpaló dokumentáció "
 "<http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

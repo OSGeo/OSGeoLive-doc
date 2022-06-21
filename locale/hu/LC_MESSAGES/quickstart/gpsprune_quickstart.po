@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 22:14-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,6 +46,10 @@ msgstr ""
 "adatokat és ezek kiegészítésére néhány online információhoz férünk hozzá. "
 "Ezért hasznos lesz, ha ennek bemutatásához valamilyen fajta internet "
 "kapcsolattal rendelkezik."
+
+#: ../../build/doc/quickstart/gpsprune_quickstart.rst:23
+msgid "Contents"
+msgstr "Tartalom"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:26
 msgid "Start GpsPrune"
@@ -133,9 +137,10 @@ msgid ""
 msgstr ""
 "Megváltoztathatja a térképet a  :menuselection:`Settings --> Set map "
 "background` menüponttal. Vessünk egy pillantást egy alternatív "
-"térképforrásra az ötödik \"Hikebikemap\" kiválasztásával. Ez a hikebikemap"
-".org-ról használja a térképet hegymászáshoz és kerékpározáshoz hasznos "
-"további információk megjelenítéséhez mint szintvonalak és kerékpárutak."
+"térképforrásra az ötödik \"Hikebikemap\" kiválasztásával. Ez a "
+"hikebikemap.org-ról használja a térképet hegymászáshoz és kerékpározáshoz "
+"hasznos további információk megjelenítéséhez mint szintvonalak és "
+"kerékpárutak."
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:62
 msgid "Advanced Functions"
@@ -366,8 +371,24 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:115
 msgid ""
-"How-tos and instructions: https://activityworkshop.net/software/gpsprune"
-"/how-tos.html"
+"How-tos and instructions: "
+"https://activityworkshop.net/software/gpsprune/how-tos.html"
 msgstr ""
 "Segéd és oktatóanyagok: https://activityworkshop.net/software/gpsprune/how-"
 "tos.html"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

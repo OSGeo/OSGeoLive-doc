@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2019-07-18 21:57+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -36,6 +36,10 @@ msgid ""
 msgstr ""
 "A t-rex saját adatokból történő MVT csempék publikálására specializált "
 "vektor csempe szolgáltatás"
+
+#: ../../build/doc/overview/t-rex_overview.rstNone
+msgid "t-rex screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/t-rex_overview.rst:27
 msgid "Core Features"
@@ -100,3 +104,19 @@ msgstr "Gyorstalpaló"
 #: ../../build/doc/overview/t-rex_overview.rst:57
 msgid ":doc:`Quickstart documentation <../quickstart/t-rex_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/t-rex_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

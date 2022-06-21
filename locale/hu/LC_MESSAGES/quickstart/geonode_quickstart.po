@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,6 +37,10 @@ msgid ""
 msgstr ""
 "A GeoNode egy web alapú alkalmazás és platform térinformatikai rendszerek "
 "(GIS) fejlesztésére és téradat infrastruktúra (SDI) telepítésére."
+
+#: ../../build/doc/quickstart/geonode_quickstart.rst:31
+msgid "Contents"
+msgstr "Tartalom"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:34
 msgid "Start GeoNode"
@@ -401,3 +405,19 @@ msgstr ""
 "`GeoNode Gitter csatornán <https://gitter.im/GeoNode/general>`_ vagy kérdés "
 "feltevésével a `levelező listánkon <https://lists.osgeo.org/cgi-"
 "bin/mailman/listinfo/geonode-users>`_ !"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

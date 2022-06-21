@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-01 08:19-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,6 +55,10 @@ msgstr ""
 #: ../../build/doc/quickstart/postgis_quickstart.rst:49
 msgid "Manage data from the ``pgAdmin`` client."
 msgstr "Hogyan kezeljük az adatokat a pgAdmin kliensből."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:53
+msgid "Contents"
+msgstr "Tartalom"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:56
 msgid "Client-server architecture"
@@ -530,9 +534,17 @@ msgstr ""
 "tekinteni a Natural Earth-höz tartozó paramétereket vagy egyszerűen "
 "kattintson a ``Connect``-re (Kapcsolódás) gombra a folytatáshoz:"
 
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "Connect to Natural Earth"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:392
 msgid "You will now get a list of the spatial tables in the database:"
 msgstr "Az adatbázisban lévő téradat táblák listáját kapja meg:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "Natural Earth Layers"
+msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:399
 msgid ""
@@ -543,6 +555,10 @@ msgstr ""
 "Válassza az ne_10m_lake táblát és kattintson az ``Add`` (Hozzáad) gombra "
 "alul (ne a ``Load``-ra (Betölt) felül - az az adatbázis paramétereket tölti "
 "be) és ezzel betöltjük a QGIS-be:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "My First PostGIS layer"
+msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:408
 msgid ""
@@ -595,6 +611,10 @@ msgstr ""
 " használja a füleket a jobb oldalon, hogy megtudjon valamit róluk. A Preview"
 " (Előnézet) fül egy kis térképet mutat."
 
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "QGIS Manager Preview"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:430
 msgid ""
 "We will now use the DB Manager to import a shapefile into the database. "
@@ -615,9 +635,17 @@ msgstr ""
 "``...`` gombra és tallózzon a ``sids.shp`` shape fájlhoz az R könyvtárban (a"
 " /usr/local/lib/R/site-library/spData/shapes mappában):"
 
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "Find the shapefile"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:443
 msgid "Leave everything else as it is and hit ``Load``"
 msgstr "Hagyjon minden mást változatlanul és kattintson a ``Load``-ra"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "Import a shapefile"
+msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:450
 msgid ""
@@ -642,6 +670,10 @@ msgstr ""
 " kartogram létrehozására a hirtelen csecsemőhalál-szindróma számokból (sid74"
 " vagy sid79 mező) Észak-Karolinában:"
 
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "SIDS data mapped"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:466
 msgid "Get to know pgAdmin"
 msgstr "Ismerjük meg a pgAdmin-t"
@@ -663,6 +695,13 @@ msgid ""
 msgstr ""
 "A pgAdmin lehetővé teszi az adattábláinak kezelését az SQL használatával. Az"
 " OSGeoLive asztalon a Databases mappában találja és indíthatja a pgAdmin-t."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "pgAdmin"
+msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:478
 msgid "Enter the master password  ``user``."
@@ -1006,3 +1045,19 @@ msgstr "PostGIS Projekt honlap - http://postgis.net"
 #: ../../build/doc/quickstart/postgis_quickstart.rst:696
 msgid "PostGIS Documentation -  http://postgis.net/documentation/"
 msgstr "PostGIS Dokumentáció -  http://postgis.net/documentation/"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

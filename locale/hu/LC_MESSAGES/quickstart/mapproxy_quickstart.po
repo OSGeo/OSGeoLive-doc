@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,6 +35,10 @@ msgstr ""
 "tárazza, gyorsítja és transzformálja az adatokat egy létező térkép "
 "szolgáltatásból és bármelyik asztali vagy web GIS klienst kiszolgálja."
 
+#: ../../build/doc/quickstart/mapproxy_quickstart.rstNone
+msgid "MapProxy diagram"
+msgstr ""
+
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:31
 msgid ""
 "MapProxy is not only a tile cache solution, but also offers many new and "
@@ -42,6 +46,10 @@ msgid ""
 msgstr ""
 "A MapProxy nem csak egy csempe tároló megoldás, sok új és innovatív funkciót"
 " kínál mint a teljes támogatás WMS kliensekhez. "
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:34
+msgid "Contents"
+msgstr "Tartalom"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:37
 msgid "Start the service and view the demo"
@@ -104,6 +112,10 @@ msgstr ""
 "A MapProxy minta konfiguráció kevés réteget tartalmaz, melyek különböző "
 "térkép motorokat és térkép adatokat használnak. Lentebb találhat több "
 "részletet az egyes rétegekről."
+
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:60
+msgid "MapProxy example in uDig"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:60
 msgid ""
@@ -227,8 +239,10 @@ msgid "What next?"
 msgstr "Mi a következő?"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:104
-msgid "Read the `documentation of MapProxy <../../mapproxy/index.html>`_"
-msgstr "Olvassa el a `MapProxy dokumentációját <../../mapproxy/index.html>`_"
+msgid ""
+"Read the `documentation of MapProxy "
+"<https://localhost/mapproxy/index.html>`__"
+msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:106
 msgid ""
@@ -236,3 +250,19 @@ msgid ""
 msgstr ""
 "Olvassa el a példa konfigurációt "
 "(``/usr/local/share/mapproxy/mapproxy.yaml``)"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""
