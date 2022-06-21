@@ -246,7 +246,7 @@ latex_documents = [
 
 linkcheck_ignore = [
         # link changed name to https://geops.ch
-        # mostly used on the contibutors list. 
+        # mostly used on the contibutors list.
         # TODO need to verify the change is correct
         r'https://geops.de',
 
@@ -286,6 +286,8 @@ linkcheck_ignore = [
         r'https://github.com/geoext/geoext3',
         # TODO change to https://inspire.ec.europa.eu/validator/home/index.html
         'https://inspire.ec.europa.eu/validator/about/',
+        # TODO this link is failing: RemoteDisconnected('Remote end closed connection without response'))
+        'https://www.iso.org',
 
         # links to the disk internals
         r'http://localhost', r'https://localhost',
