@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2018\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
@@ -57,6 +57,19 @@ msgstr "Kuvaus"
 #: ../../build/doc/prior_applications.rst:1
 msgid "|nologo|"
 msgstr "|nologo|"
+
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`OGC Standards`_"
@@ -265,6 +278,11 @@ msgstr "Microsoft Windows pohjainen työasema GIS."
 msgid "|osgeo_project|"
 msgstr "|osgeo_project|"
 
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
 #: ../../build/doc/prior_applications.rst:1
 msgid "MapFish_"
 msgstr "MapFish_"
@@ -333,3 +351,11 @@ msgstr "5.0"
 #: ../../build/doc/prior_applications.rst:1
 msgid "Web Service"
 msgstr "Verkkopalvelu"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

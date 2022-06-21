@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
@@ -46,6 +46,10 @@ msgstr ""
 "WebGL-laitteistokiihdytettyä grafiikkaa. Cesium on myös järjestelmä- ja "
 "selainohjelmariippumaton ja se toimii hyvin dynaamisten datojen "
 "visualisoinnissa."
+
+#: ../../build/doc/overview/cesium_overview.rstNone
+msgid "cesium screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rst:30
 msgid "Core Features"
@@ -84,10 +88,9 @@ msgid "Draw 3D models using COLLADA and glTF."
 msgstr "Visualisoi 3D-malleja käyttämällä COLLADA- ja glTF-formaatteja."
 
 #: ../../build/doc/overview/cesium_overview.rst:38
-msgid "Use `plugins <https://cesium.com/platform/cesiumjs/>`_ to extend Cesium."
+msgid ""
+"Use `plugins <https://cesium.com/platform/cesiumjs/>`_ to extend Cesium."
 msgstr ""
-"Käytä `lisäosat <https://cesium.com/platform/cesiumjs/>`_  laajentamaan Cesiumin "
-"toiminnallisuuksia."
 
 #: ../../build/doc/overview/cesium_overview.rst:40
 msgid "Built for Performance and Precision:"
@@ -111,15 +114,15 @@ msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rst:44
 msgid ""
-"Use `3D Tiles <https://cesium.com/blog/2017/07/12/the-next-generation-of-3d-"
-"tiles/>`_ to stream, style and interact with heterogeneous 3D data, "
+"Use `3D Tiles <https://cesium.com/blog/2017/07/12/the-next-generation-"
+"of-3d-tiles/>`_ to stream, style and interact with heterogeneous 3D data, "
 "including photogrammetry models, 3D buildings, CAD and BIM exterior and "
 "interiors, and point clouds."
 msgstr ""
 "Käytä `3D-karttatiilejä <https://cesium.com/blog/2017/07/12/the-next-"
 "generation-of-3d-tiles/>`_ ja suoratoista, tyylittele ja vuorovaikuta "
-"erilaisten 3D-karttatiilien kanssa, mukaan lukien fotogrammetria-mallit, 3D-"
-"rakennukset, CAD-ja BIM- ulko- ja sisätiloja varten sekä pistepilvet."
+"erilaisten 3D-karttatiilien kanssa, mukaan lukien fotogrammetria-mallit, "
+"3D-rakennukset, CAD-ja BIM- ulko- ja sisätiloja varten sekä pistepilvet."
 
 #: ../../build/doc/overview/cesium_overview.rst:45
 msgid "Control the camera and create flight paths."
@@ -178,12 +181,8 @@ msgstr ""
 "tukee WebGL-tekniikkaa"
 
 #: ../../build/doc/overview/cesium_overview.rst:67
-msgid ""
-"**Community Support:** Forum at "
-"https://groups.google.com/forum/?hl=en#!forum/cesium-dev"
+msgid "**Community Support:** Forum at https://community.cesium.com"
 msgstr ""
-"**Yhteisö tuki:** Foorumi osoitteessa "
-"https://groups.google.com/forum/?hl=en#!forum/cesium-dev"
 
 #: ../../build/doc/overview/cesium_overview.rst:72
 msgid "Quickstart"
@@ -192,3 +191,19 @@ msgstr "Pika-aloitus"
 #: ../../build/doc/overview/cesium_overview.rst:74
 msgid ":doc:`Quickstart documentation <../quickstart/cesium_quickstart>`"
 msgstr ":doc:`Pika-aloituksen dokumentaatio<../quickstart/cesium_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""
