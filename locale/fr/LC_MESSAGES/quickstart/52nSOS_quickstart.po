@@ -5,23 +5,23 @@
 # 
 # Translators:
 # MarieSilvestre, 2020
-# Nicolas Roelandt (Personnel), 2020
 # MarPetra <mvergaratrejo@gmail.com>, 2020
+# Nicolas Roelandt (Personnel), 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:19
 msgid "52 North SOS Quickstart"
@@ -64,6 +64,10 @@ msgstr ""
 msgid "Explore the REST API endpoint for client developers."
 msgstr "Explorer l'API REST pour les développeurs de clients."
 
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:33
+msgid "Contents"
+msgstr "Contenu"
+
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:36
 msgid "Getting Started"
 msgstr "Mise en route"
@@ -83,6 +87,10 @@ msgstr "Cela ouvrira la page d’accueil du client 52°North SOS dans firefox à
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:41
 msgid "http://localhost:8080/52nSOS/ (see Fig. 1)."
 msgstr "http://localhost:8080/52nSOS/ (voir Fig. 1)."
+
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:0
+msgid "52°North SOS client welcome page"
+msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:48
 msgid "**Fig. 1**: 52°North SOS client - welcome page."
@@ -104,6 +112,10 @@ msgstr ""
 "Ceci est rendu plus facile en sélectionnant des requêtes d'exemple dans la "
 "liste déroulante. En utilisant les informations des capacités, vous pouvez "
 "ajuster les requêtes exemples."
+
+#: ../../build/doc/quickstart/52nSOS_quickstart.rstNone
+msgid "52°North SOS client - test client with GetCapabilities request"
+msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:61
 msgid ""
@@ -205,6 +217,10 @@ msgstr ""
 "<http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ encore une "
 "fois et explorer les données d'exemple générées."
 
+#: ../../build/doc/quickstart/52nSOS_quickstart.rstNone
+msgid "52°North SOS client - JavaScript client with time series data"
+msgstr ""
+
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:125
 msgid ""
 "**Fig. 3**: 52°North SOS client - JavaScript client with time series data."
@@ -246,11 +262,11 @@ msgstr "Liste de diffusion 52°North Sensor Web: sensorweb@52north.org,"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:195
 msgid ""
-"52°North `Sensor Web community <https://52north.org/research/research-labs"
-"/sensor-web/>`_"
+"52°North `Sensor Web community <https://52north.org/research/research-"
+"labs/sensor-web/>`_"
 msgstr ""
-"Communauté 52°North `Sensor Web <https://52north.org/research/research-labs"
-"/sensor-web/>`_"
+"Communauté 52°North `Sensor Web <https://52north.org/research/research-"
+"labs/sensor-web/>`_"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:196
 msgid ""
@@ -303,3 +319,19 @@ msgid ""
 msgstr ""
 "**Liste 3:** Status et démarrage de Tomcat (mot de passe pour sudo: "
 ":code:`user`)."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

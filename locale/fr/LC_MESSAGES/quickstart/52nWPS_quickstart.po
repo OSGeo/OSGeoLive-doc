@@ -5,22 +5,22 @@
 # 
 # Translators:
 # MarieSilvestre, 2020
-# Nicolas Roelandt (Personnel), 2020
+# Nicolas Roelandt (Personnel), 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:19
 msgid "52 North WPS Quickstart"
@@ -44,21 +44,35 @@ msgstr ""
 "Ce guide de démarrage rapide décrit comment traiter de la donnée et stocker "
 "le résultat dans un autre service web en utilisant des opérations WPS."
 
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:27
+msgid "Contents"
+msgstr "Contenu"
+
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:30
 msgid "Start 52°North WPS"
 msgstr "Démarrer 52°North WPS"
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:32
 msgid ""
-"To run the 52°North WPS on the Live DVD, go to |osgeolive-appmenupath-"
-"52nWPS| or use this `direct link <http://localhost:8080/52nWPS/>`_."
+"To run the 52°North WPS on the Live DVD, go to |osgeolive-"
+"appmenupath-52nWPS| or use this `direct link "
+"<http://localhost:8080/52nWPS/>`_."
 msgstr ""
-"Pour lancer 52°North WPS dans le Live DVD, àllez à |osgeolive-appmenupath-"
-"52nWPS| ou utilisez le `lien direct <http://localhost:8080/52nWPS/>`_."
+"Pour lancer 52°North WPS dans le Live DVD, àllez à |osgeolive-"
+"appmenupath-52nWPS| ou utilisez le `lien direct "
+"<http://localhost:8080/52nWPS/>`_."
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:34
 msgid "The 52n WPS welcome page will appear."
 msgstr "La page d'accueil de52n WPS va apparaître."
+
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:0
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:0
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:0
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:0
+#: ../../build/doc/quickstart/52nWPS_quickstart.rst:0
+msgid "screenshot"
+msgstr ""
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:40
 msgid ""
@@ -133,13 +147,13 @@ msgstr ""
 msgid ""
 "Copy the ResourceID from the response. This is the name of the GeoServer "
 "layer. Add the ID to the following request: "
-"http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers"
-"=Add-ResourceID-here You should get the following result:"
+"http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers=Add-"
+"ResourceID-here You should get the following result:"
 msgstr ""
 "Copier le ResourceID de la réponse. C'est le nom de la couche dans "
 "GeoServer. Ajouter l'identifiant (ID) à la requête suivante: "
-"http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers"
-"=Ajouter-ResourceID-ici Vous devriez obtenir le résultat suivant:"
+"http://localhost:8082/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&width=512&height=430&srs=EPSG:4326&format=application/openlayers&layers=Ajouter-"
+"ResourceID-ici Vous devriez obtenir le résultat suivant:"
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:84
 msgid "Things to try"
@@ -199,3 +213,19 @@ msgstr ""
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:102
 msgid "geoprocessing@52north.org"
 msgstr "geoprocessing@52north.org"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -4,22 +4,22 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Nicolas Roelandt (Personnel), 2020
+# Nicolas Roelandt (Personnel), 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-01 08:19-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:39
 msgid "PostGIS Quickstart"
@@ -35,8 +35,8 @@ msgid ""
 msgstr ""
 "PostGIS ajoute des capacités spatiales à la base de données relationnelle "
 "PostgreSQL. Il étend PostgreSQL pour stocker, requête et manipuler des "
-"données spatiales. Dans ce guide de démarrage rapide, nous allons utiliser «"
-" PostgreSQL » lors de la description des fonctions de base de données "
+"données spatiales. Dans ce guide de démarrage rapide, nous allons utiliser "
+"« PostgreSQL » lors de la description des fonctions de base de données "
 "générale et « PostGIS » pour décrire les fonctionnalités spatiales "
 "supplémentaires fournies par PostGIS."
 
@@ -55,6 +55,10 @@ msgstr ""
 #: ../../build/doc/quickstart/postgis_quickstart.rst:49
 msgid "Manage data from the ``pgAdmin`` client."
 msgstr "Gérer les données à partir du client ``pgAdmin``."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:53
+msgid "Contents"
+msgstr "Contenu"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:56
 msgid "Client-server architecture"
@@ -86,8 +90,8 @@ msgid ""
 msgstr ""
 "Il n’y a rien pour empêcher le serveur d'être sur le même ordinateur que le "
 "client, et cela vous permet d’utiliser PostgreSQL sur une seule machine. "
-"Votre client se connecte au serveur via la connexion de réseau interne « "
-"loopback » et n’est pas visible aux autres ordinateurs sauf si vous "
+"Votre client se connecte au serveur via la connexion de réseau interne "
+"« loopback » et n’est pas visible aux autres ordinateurs sauf si vous "
 "configurez pour l’être."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:70
@@ -551,11 +555,19 @@ msgstr ""
 " voulez voir ce que ces paramètres sont Natural Earth, ou appuyez simplement"
 " sur ``Connect`` pour continuer :"
 
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "Connect to Natural Earth"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:392
 msgid "You will now get a list of the spatial tables in the database:"
 msgstr ""
 "Vous obtiendrez maintenant une liste des tables spatiales dans la base de "
 "données :"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "Natural Earth Layers"
+msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:399
 msgid ""
@@ -566,6 +578,10 @@ msgstr ""
 "Choisissez la table ne_10m_lakes et appuyez sur ``Add`` en bas (et non pas "
 "``Load``' en haut - qui se charge des paramètres de connexion de base de "
 "données), et la couche doit être chargée dans QGIS :"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "My First PostGIS layer"
+msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:408
 msgid ""
@@ -597,6 +613,9 @@ msgid ""
 "Importing shapefiles to QGIS can be done via the handy QGIS Database "
 "Manager. You find the manager in the menu. Go to ``Database -> DB Manager``."
 msgstr ""
+"L'importation des shapefiles vers QGIS peut se faire via le gestionnaire de "
+"base de données de QGIS. Vous trouverez le gestionnaire dans le menu. Allez "
+"à ``Database -> DB Manager``."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:420
 msgid ""
@@ -615,6 +634,10 @@ msgstr ""
 " sur la droite pour en savoir à leur sujet. L’onglet Aperçu vous montre une "
 "petite carte."
 
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "QGIS Manager Preview"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:430
 msgid ""
 "We will now use the DB Manager to import a shapefile into the database. "
@@ -632,10 +655,21 @@ msgid ""
 "``...`` button and browse to the ``sids.shp`` shapefile in the R directory. "
 "(located in /home/user/data/vector/R/shapes):"
 msgstr ""
+"Dans le menu ``Table``  choisir l’option``Import layer/file``. Cliquez sur "
+"le bouton ``...`` , puis accédez au shapefile ``sids.shp`` de R (situé dans "
+"/home/user/data/vector/R/shapes) :"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "Find the shapefile"
+msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:443
 msgid "Leave everything else as it is and hit ``Load``"
 msgstr "Laissez tout le reste comme il est et cliquez sur ``Load``"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "Import a shapefile"
+msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:450
 msgid ""
@@ -643,6 +677,10 @@ msgid ""
 "and hit ``OK``. The shapefile should be imported into PostGIS with no "
 "errors. Close the DB Manager and get back to the main QGIS window."
 msgstr ""
+"Laissez la valeur par défaut du sélecteur de système de coordonnées de "
+"référence à (WGS 84 EPSG:4326) et cliquez sur ``OK``. Le shapefile devrait "
+"être importé dans PostGIS sans erreur. Fermez le DB Manager et revenez à la "
+"fenêtre principale de QGIS."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:453
 msgid ""
@@ -656,9 +694,13 @@ msgstr ""
 "colorisation, vous devriez être en mesure de produire une carte choroplèthe "
 "des  mort subite du nourrisson (champs sid74 ou sid79) en Caroline du Nord :"
 
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "SIDS data mapped"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:466
 msgid "Get to know pgAdmin"
-msgstr ""
+msgstr "Faire connaissance avec pgAdmin"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:468
 msgid ""
@@ -666,16 +708,29 @@ msgid ""
 "menu to query and modify your database non-spatially. This is the official "
 "client for PostgreSQL."
 msgstr ""
+"Vous pouvez utiliser le client de base de données graphique '``pgAdmin``  à "
+"partir du menu Bases de données pour interroger et modifier votre base de "
+"données non spatialement. C’est le client officiel de PostgreSQL."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:470
 msgid ""
 "pgAdmin lets you use SQL to manipulate your data tables. You can find and "
 "launch pgAdmin from the Databases folder, existing on the OSGeoLive Desktop."
 msgstr ""
+"pgAdmin vous permet d’utiliser SQL pour manipuler vos tables de données. "
+"Vous pouvez trouver et lancer pgAdmin à partir du dossier Bases de données, "
+"existant sur le bureau OSGeoLive."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "pgAdmin"
+msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:478
 msgid "Enter the master password  ``user``."
-msgstr ""
+msgstr "Entrez le mot de passe principal ``user``."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:480
 msgid ""
@@ -683,6 +738,9 @@ msgid ""
 "server, or connecting to an existing server. In this case, we are going to "
 "connect to the predefined ``localhost`` server."
 msgstr ""
+"Ici, vous avez la possibilité de créer une nouvelle connexion à un serveur "
+"PostgreSQL, ou de vous connecter à un serveur existant. Dans ce cas, nous "
+"allons nous connecter au serveur ``localhost`` prédéfini."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:484
 msgid ""
@@ -713,6 +771,9 @@ msgid ""
 " By pressing it a tree is going to appear, displaying the contents of the "
 "database."
 msgstr ""
+"Vous pouvez voir maintenant que le X rouge a disparu et un  \">\" apparaît "
+"sur la gauche. En appuyant dessus un arbre va apparaître, affichant le "
+"contenu de la base de données."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:499
 msgid ""
@@ -726,19 +787,24 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:513
 msgid "Executing a SQL query from pgAdmin"
-msgstr ""
+msgstr "Exécution d’une requête SQL à partir de pgAdmin"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:514
 msgid ""
 "pgAdmin, offers the capability of executing queries to a relational "
 "database."
 msgstr ""
+"pgAdmin, offre la possibilité d’exécuter des requêtes à une base de données "
+"relationnelle."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:516
 msgid ""
 "To perform a query on the database, you have to press the ``Query Tool`` "
 "button from the main toolbar (the one at the left with the database symbol)."
 msgstr ""
+"Pour effectuer une requête sur la base de données, vous devez appuyer sur le"
+" bouton ``Query Tool`` à partir de la barre d’outils principale (celle à "
+"gauche avec le symbole de base de données)."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:518
 msgid ""
@@ -757,6 +823,8 @@ msgid ""
 "Afterwards, you should press the arrow button, pointing to the right "
 "(Execute)."
 msgstr ""
+"Par la suite, vous devez appuyer sur le bouton en forme de flèche pointant "
+"vers la droite (Exécuter)."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:535
 msgid "Get to know Foreign Data Wrappers (FDW)"
@@ -847,16 +915,18 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:592
 msgid "Read more about ``ogr_fdw``:"
-msgstr ""
+msgstr "En savoir plus sur ``ogr_fdw``:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:594
 msgid "Repository: https://github.com/pramsey/pgsql-ogr-fdw"
-msgstr ""
+msgstr "Dépôt: https://github.com/pramsey/pgsql-ogr-fdw"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:595
 msgid ""
 "New and improved: http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html"
 msgstr ""
+"Nouveau et amélioré : http://blog.cleverelephant.ca/2016/04/ogr-fdw-"
+"update.html"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:599
 msgid "Install the extension ``ogr_fdw`` in your database."
@@ -1015,3 +1085,19 @@ msgstr "Site du projet PostGIS -  http://postgis.net"
 #: ../../build/doc/quickstart/postgis_quickstart.rst:696
 msgid "PostGIS Documentation -  http://postgis.net/documentation/"
 msgstr "Documentation de PostGIS -  http://postgis.net/documentation/"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

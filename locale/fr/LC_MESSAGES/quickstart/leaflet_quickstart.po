@@ -4,22 +4,22 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Nicolas Roelandt (Personnel), 2020
+# Nicolas Roelandt (Personnel), 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:18
 msgid "Leaflet Quickstart"
@@ -37,6 +37,10 @@ msgstr ""
 "légère, mais possède toutes les caractéristiques dont la plupart des "
 "développeurs ont besoin pour créer des cartes en ligne. Leaflet est conçu "
 "avec la simplicité, la performance et la convivialité à l’esprit."
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:22
+msgid "Contents"
+msgstr "Contenu"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:25
 msgid "Running"
@@ -65,8 +69,9 @@ msgid ""
 "this demo uses tilestache on OSGeoLive."
 msgstr ""
 "Si vous lisez ce guide de démarrage rapide à l’extérieur d'OSGeoLive, vous "
-"pouvez préférer lire la démo originale sur : https://leafletjs.com/examples"
-"/quick-start/, puisque cette démo utilise Tilestache présent dans OSGeoLive."
+"pouvez préférer lire la démo originale sur : "
+"https://leafletjs.com/examples/quick-start/, puisque cette démo utilise "
+"Tilestache présent dans OSGeoLive."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:35
 msgid "Preparing your page"
@@ -220,8 +225,8 @@ msgid ""
 msgstr ""
 "L'ajout d’un cercle est identique (sauf qu'il spécifier le rayon en mètres "
 "comme deuxième argument), mais vous permet de contrôler à quoi il ressemble "
-"en passant des options comme dernier argument lors de la création de l’objet"
-" :"
+"en passant des options comme dernier argument lors de la création de "
+"l’objet :"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:118
 msgid "Adding a polygon is as easy:"
@@ -308,3 +313,19 @@ msgstr ""
 "Maintenant, vous avez appris des rudiments de Leaflet et pouvez commencer à "
 "créer des applications de carte tout de suite ! N’oubliez pas de jeter un "
 "oeil à la documentation_ détaillée ou autres exemples_."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

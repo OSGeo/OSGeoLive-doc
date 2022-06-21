@@ -5,22 +5,22 @@
 # 
 # Translators:
 # Harrissou Sant-anna, 2020
-# Nicolas Roelandt (Personnel), 2020
+# Nicolas Roelandt (Personnel), 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 21:50-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:18
 msgid "R Quickstart"
@@ -52,6 +52,10 @@ msgstr "faire une transformation de coordonnées"
 #: ../../build/doc/quickstart/R_quickstart.rst:27
 msgid "plot some data points on a map"
 msgstr "tracer quelques points sur une carte"
+
+#: ../../build/doc/quickstart/R_quickstart.rst:31
+msgid "Contents"
+msgstr "Contenu"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:34
 msgid "Start R"
@@ -330,3 +334,19 @@ msgid ""
 msgstr ""
 "Vous pouvez également consulter la page `R-Spatial "
 "<https://www.rspatial.org>`_ ."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

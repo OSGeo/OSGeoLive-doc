@@ -4,22 +4,22 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Nicolas Roelandt (Personnel), 2020
+# Nicolas Roelandt (Personnel), 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:23
 msgid "Zoo Project Quickstart"
@@ -35,6 +35,10 @@ msgstr ""
 "création et le chaînage de géotraitements par le Web (WPS - Web Processing "
 "Service). Un WPS fournit l’accès web aux fonctions qui exécutent des "
 "algorithmes spatiaux."
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:30
+msgid "Contents"
+msgstr "Contenu"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:33
 msgid "Start ZOO-Project"
@@ -55,6 +59,14 @@ msgid ""
 msgstr ""
 "Firefox ouvrira la page de destination de démonstration de ZOO-Project. De "
 "là, vous pouvez sélectionner une application en arrière-plan."
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rstNone
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
+msgid "screenshot"
+msgstr ""
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:45
 msgid "OGR spatial tools demo"
@@ -175,3 +187,19 @@ msgid ""
 msgstr ""
 "Pour toute autre question, vous pouvez contacter la liste de diffusion ZOO "
 "Project : zoo-discuss@lists.osgeo.org"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2019-08-06 18:07+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/mapcache_overview.rst:16
 msgid "MapCache"
@@ -54,6 +54,10 @@ msgstr ""
 "géospatial qui utilise WMS. MapCache peut être exécuté sur Apache en tant "
 "que module ou sur n’importe quel serveur Web qui prend en charge CGI/FastCGI"
 " tel que IIS, Nginx et Jetty."
+
+#: ../../build/doc/overview/mapcache_overview.rstNone
+msgid "mapcache screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/mapcache_overview.rst:34
 msgid "Core Features"
@@ -200,3 +204,19 @@ msgstr "Guide de démarrage rapide"
 #: ../../build/doc/overview/mapcache_overview.rst:95
 msgid ":doc:`Quickstart documentation <../quickstart/mapcache_quickstart>`"
 msgstr ":doc:`Guide de démarrage rapide <../quickstart/mapcache_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""
