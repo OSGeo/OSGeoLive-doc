@@ -5,23 +5,24 @@
 # 
 # Translators:
 # pibinko <pibinko@gmail.com>, 2018
-# Luca Delucchi <lucadeluge@gmail.com>, 2019
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Stefano Campus <skampus@gmail.com>, 2021
+# Luca Delucchi <lucadeluge@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/cesium_overview.rst:13
 msgid "Cesium"
@@ -47,13 +48,17 @@ msgstr ""
 "grafico, ed è cross-platform, cross-browser, e sviluppato per la "
 "visualizzazione di dati dinamici."
 
+#: ../../build/doc/overview/cesium_overview.rstNone
+msgid "cesium screenshot"
+msgstr ""
+
 #: ../../build/doc/overview/cesium_overview.rst:30
 msgid "Core Features"
 msgstr "Caratteristiche principali"
 
 #: ../../build/doc/overview/cesium_overview.rst:31
 msgid "Dynamic Geospatial Visualization:"
-msgstr "Visualizzazione geospaziale dinamica:"
+msgstr "Visualizzazione Geospaziale Dinamica:"
 
 #: ../../build/doc/overview/cesium_overview.rst:33
 msgid ""
@@ -84,9 +89,11 @@ msgid "Draw 3D models using COLLADA and glTF."
 msgstr "Renderizza modelli 3D utilizzando COLLADA e glTF."
 
 #: ../../build/doc/overview/cesium_overview.rst:38
-msgid "Use `plugins <https://cesium.com/platform/cesiumjs/>`_ to extend Cesium."
+msgid ""
+"Use `plugins <https://cesium.com/platform/cesiumjs/>`_ to extend Cesium."
 msgstr ""
-"Usate i `plugins <https://cesium.com/platform/cesiumjs/>`_ per estendere Cesium."
+"Usere i `plugins <https://cesium.com/platform/cesiumjs/>`_ per estendere "
+"Cesium."
 
 #: ../../build/doc/overview/cesium_overview.rst:40
 msgid "Built for Performance and Precision:"
@@ -110,8 +117,8 @@ msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rst:44
 msgid ""
-"Use `3D Tiles <https://cesium.com/blog/2017/07/12/the-next-generation-of-3d-"
-"tiles/>`_ to stream, style and interact with heterogeneous 3D data, "
+"Use `3D Tiles <https://cesium.com/blog/2017/07/12/the-next-generation-"
+"of-3d-tiles/>`_ to stream, style and interact with heterogeneous 3D data, "
 "including photogrammetry models, 3D buildings, CAD and BIM exterior and "
 "interiors, and point clouds."
 msgstr ""
@@ -162,7 +169,7 @@ msgstr "**Sito web:** https://cesium.com/"
 
 #: ../../build/doc/overview/cesium_overview.rst:61
 msgid "**Licence:** Apache 2.0 license"
-msgstr "**Licenza:** Apache 2.0 license"
+msgstr "**Licenza:** licenza Apache 2.0"
 
 #: ../../build/doc/overview/cesium_overview.rst:63
 msgid "**Software Version:** |version-cesium|"
@@ -173,16 +180,12 @@ msgid ""
 "**Supported Platforms:**  Platform independent, depends only on a browser "
 "which supports WebGL"
 msgstr ""
-"**Piattaforme Supportate:** Independente dalla piattaforma, dipende solo da "
+"**Piattaforme Supportate:** Indipendente dalla piattaforma, dipende solo da "
 "un browser che supporta WebGL"
 
 #: ../../build/doc/overview/cesium_overview.rst:67
-msgid ""
-"**Community Support:** Forum at "
-"https://groups.google.com/forum/?hl=en#!forum/cesium-dev"
-msgstr ""
-"**Supporto alla comunità:** Forum su "
-"https://groups.google.com/forum/?hl=en#!forum/cesium-dev"
+msgid "**Community Support:** Forum at https://community.cesium.com"
+msgstr "**Supporto della comunità:** Forum a https://community.cesium.com"
 
 #: ../../build/doc/overview/cesium_overview.rst:72
 msgid "Quickstart"
@@ -190,4 +193,20 @@ msgstr "Guida rapida"
 
 #: ../../build/doc/overview/cesium_overview.rst:74
 msgid ":doc:`Quickstart documentation <../quickstart/cesium_quickstart>`"
-msgstr ":doc:`Documentazione introduttiva <../quickstart/cesium_quickstart>`"
+msgstr ":doc:`Guida rapida <../quickstart/cesium_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

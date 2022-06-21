@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Stefano Campus <skampus@gmail.com>, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/grass_overview.rst:21
 msgid "GRASS GIS"
@@ -90,17 +90,19 @@ msgstr ""
 "sia per elaborazioni su supercomputer massivamente parallelizzati, sia un "
 "comodo GIS desktop per palmari o netbook."
 
+#: ../../build/doc/overview/grass_overview.rstNone
+msgid "grass screenshot"
+msgstr ""
+
 #: ../../build/doc/overview/grass_overview.rst:63
 msgid "Core Features"
 msgstr "Caratteristiche principali"
 
 #: ../../build/doc/overview/grass_overview.rst:65
 msgid ""
-"You name it, there's a `tool for it "
-"<https://grass.osgeo.org/grass-stable/manuals/keywords.html>`_."
+"You name it, there's a `tool for it <https://grass.osgeo.org/grass-"
+"stable/manuals/keywords.html>`_."
 msgstr ""
-"Tu lo nomini, ed esiste uno `strumento utile a quello "
-"<https://grass.osgeo.org/grass-stable/manuals/keywords.html>`_."
 
 #: ../../build/doc/overview/grass_overview.rst:66
 msgid ""
@@ -128,7 +130,7 @@ msgstr "**Versione Software:** |version-grass|"
 
 #: ../../build/doc/overview/grass_overview.rst:77
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
-msgstr "**Piattaforme supportate:** GNU/Linux, Mac OSX, MS Windows"
+msgstr "**Piattaforme Supportate:** GNU/Linux, Mac OSX, MS Windows"
 
 #: ../../build/doc/overview/grass_overview.rst:79
 msgid "**API Interfaces:** C, Python, Bourne Shell"
@@ -144,4 +146,20 @@ msgstr "Guida rapida"
 
 #: ../../build/doc/overview/grass_overview.rst:89
 msgid ":doc:`Quickstart documentation <../quickstart/grass_quickstart>`"
-msgstr ":doc:`Documentazione introduttiva <../quickstart/grass_quickstart>`"
+msgstr ":doc:`Guida rapida <../quickstart/grass_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

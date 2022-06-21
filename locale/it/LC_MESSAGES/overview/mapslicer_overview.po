@@ -5,6 +5,7 @@
 # 
 # Translators:
 # pibinko <pibinko@gmail.com>, 2020
+# Stefano Campus <skampus@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,13 +14,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
 "PO-Revision-Date: 2017-09-20 16:11+0000\n"
-"Last-Translator: pibinko <pibinko@gmail.com>, 2020\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:15
 msgid "MapSlicer"
@@ -134,4 +135,4 @@ msgstr "Guida rapida"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:64
 msgid ":doc:`Quickstart documentation <../quickstart/mapslicer_quickstart>`"
-msgstr ":doc:`Quickstart documentation <../quickstart/mapslicer_quickstart>`"
+msgstr ":doc:`Guida rapida <../quickstart/mapslicer_quickstart>`"

@@ -4,24 +4,26 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Marco Minghini <marco.minghini86@gmail.com>, 2021
 # Luca Delucchi <lucadeluge@gmail.com>, 2021
 # Antonio Rotundo <anto.rotundo@gmail.com>, 2021
+# Marco Minghini <marco.minghini86@gmail.com>, 2021
+# Stefano Campus <skampus@gmail.com>, 2021
+# Federico Gianoli <fritz4@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:08-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2020-10-21 15:59+0000\n"
-"Last-Translator: Antonio Rotundo <anto.rotundo@gmail.com>, 2021\n"
+"Last-Translator: Federico Gianoli <fritz4@gmail.com>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:12
 msgid "Re3gistry Quickstart"
@@ -42,15 +44,15 @@ msgid ""
 msgstr ""
 "Il Re3gistry 2 è una soluzione open source riutilizzabile per la gestione e "
 "la condivisione di \"codici di riferimento\". Esso fornisce un punto "
-"centrale consistente in cui etichette e descrizioni dei codici di "
-"riferimento possono essere facilmente accessibili sia da esseri umani che da"
-" macchine. I codici di riferimento vengono scambiati tra le applicazioni per"
-" referenziare univocamente qualche \"cosa\". Possono essere usati per "
-"definire insiemi di valori ammissibili per un campo di dati o per fornire un"
-" riferimento o un contesto per i dati scambiati. Esempi sono enumerazioni, "
-"vocabolari controllati, tassonomie, thesauri o, semplicemente, 'elenchi di "
-"cose'. Il Re3gistry 2 supporta le organizzazioni nella gestione e "
-"nell'aggiornamento dei codici di riferimento in modo consistente.  "
+"centrale consistente per rendere etichette e descrizioni dei codici di "
+"riferimento facilmente accessibili sia da esseri umani che da macchine. I "
+"codici di riferimento vengono scambiati tra le applicazioni per referenziare"
+" univocamente qualche \"cosa\". Possono essere usati per definire insiemi di"
+" valori ammissibili per un campo di dati o per fornire un riferimento o un "
+"contesto per i dati scambiati. Esempi sono enumerazioni, vocabolari "
+"controllati, tassonomie, thesauri o, semplicemente, 'elenchi di cose'. Il "
+"Re3gistry 2 supporta le organizzazioni nella gestione e nell'aggiornamento "
+"dei codici di riferimento in modo consistente.  "
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:24
 msgid "This Quick Start describes how to:"
@@ -59,16 +61,20 @@ msgstr "Questa guida rapida descrive come:"
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:26
 msgid "Start and install the Re3gistry using the wizard (first start only)"
 msgstr ""
-"Avviare e installare il Re3gistry utilizzando la procedura guidata (solo per"
-" il primo avvio)"
+"Avvia e installa il Re3gistry utilizzando la procedura guidata (solo per il "
+"primo avvio)"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:27
 msgid "Manage data from the ``pgAdmin`` client."
 msgstr "Gestire i dati dal client ``pgAdmin``"
 
+#: ../../build/doc/quickstart/re3gistry_quickstart.rst:31
+msgid "Contents"
+msgstr "Contenuti"
+
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:34
 msgid "Start the Re3gistry"
-msgstr "Avviare il Re3gistry"
+msgstr "Avvia il Re3gistry"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:36
 msgid ""
@@ -77,10 +83,10 @@ msgid ""
 "start up. Firefox opens the *Re3gistry landing page* (you can also open this"
 " manually by pointing your browser to http://localhost:8080/re3gistry2)."
 msgstr ""
-"Scegliere *'Start Re3gistry'* dal menu :menuselection:`Geospatial --> Web "
+"Scegli *'Start Re3gistry'* dal menu :menuselection:`Geospatial --> Web "
 "Services --> Re3gistry`. L'applicazione impiegherà alcuni istanti per "
-"avviarsi. Firefox apre la *pagina di accesso del Re3gistry* (si può anche "
-"aprire manualmente collegandosi con il browser a "
+"avviarsi. Firefox apre la *pagina di accesso del Re3gistry* (puoi anche "
+"aprirla manualmente collegandosi con il browser a "
 "http://localhost:8080/re3gistry2)."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:41
@@ -248,8 +254,8 @@ msgid ""
 "Click on \"Install\" to begin the migration. An information page will be "
 "shown."
 msgstr ""
-"Fare click su \"Install\" per avviare la migrazione.\n"
-"Verrà visualizzata una pagina informativa."
+"Fare click su \"Install\" per avviare la migrazione. Verrà visualizzata una "
+"pagina informativa."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:95
 msgid ""
@@ -399,8 +405,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:152
 msgid ""
-"`User manual <https://github.com/ec-jrc/re3gistry/blob/master/documentation"
-"/user-manual.md>`__"
+"`User manual <https://github.com/ec-"
+"jrc/re3gistry/blob/master/documentation/user-manual.md>`__"
 msgstr ""
 "`Manuale utente <https://github.com/ec-"
 "jrc/re3gistry/blob/master/documentation/user-manual.md>`__"
@@ -420,3 +426,19 @@ msgid ""
 msgstr ""
 "`Manuale sviluppatore <https://github.com/ec-"
 "jrc/re3gistry/blob/master/documentation/developer-manual.md>`__"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

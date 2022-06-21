@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 21:50-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Stefano Campus <skampus@gmail.com>, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/josm_overview.rst:15
 msgid "JOSM"
@@ -60,6 +60,10 @@ msgid ""
 msgstr ""
 "Un grande numero di plugins specializzati sono stati scritti per JSOM, che "
 "sono disponibili per lo scaricamento e l’installazione."
+
+#: ../../build/doc/overview/josm_overview.rstNone
+msgid "josm screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/josm_overview.rst:34
 msgid "Core Features"
@@ -180,7 +184,7 @@ msgstr ""
 
 #: ../../build/doc/overview/josm_overview.rst:79
 msgid "**Software Version:** r11427"
-msgstr "**Versione del Software:** r11427"
+msgstr "**Versione Software:** r11427"
 
 #: ../../build/doc/overview/josm_overview.rst:81
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -196,4 +200,20 @@ msgstr "Guida rapida"
 
 #: ../../build/doc/overview/josm_overview.rst:91
 msgid ":doc:`Quickstart documentation <../quickstart/josm_quickstart>`"
-msgstr ":doc:`Documentazione introduttiva <../quickstart/josm_quickstart>`"
+msgstr ":doc:`Guida rapida <../quickstart/josm_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

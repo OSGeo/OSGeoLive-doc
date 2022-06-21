@@ -6,21 +6,22 @@
 # Translators:
 # Luca Delucchi <lucadeluge@gmail.com>, 2017
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Stefano Campus <skampus@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/prior_applications.rst:5
 msgid "Previously available applications"
@@ -32,7 +33,7 @@ msgstr "Nome"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Last Available"
-msgstr "Disponibile fino"
+msgstr "Ultimo Disponibile"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Description"
@@ -58,6 +59,19 @@ msgstr "Descrizione"
 #: ../../build/doc/prior_applications.rst:1
 msgid "|nologo|"
 msgstr "|nologo|"
+
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`OGC Standards`_"
@@ -91,7 +105,7 @@ msgstr "`Guida rapida <Viking_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "GPS Data Analysis and Viewer"
-msgstr "Visualizza e analisi dati GPS"
+msgstr "Analisi e Visualizzatore di Dati GPS"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Ushahidi_"
@@ -103,7 +117,7 @@ msgstr "`Guida rapida <Ushahidi_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Mapping and Timeline for events"
-msgstr "Mappature e timeline per eventi"
+msgstr "Mappature e Timeline per eventi"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "TinyOWS_"
@@ -127,7 +141,7 @@ msgstr "`Guida rapida <osgEarth_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "3D Terrain Rendering"
-msgstr "Visualizzazione terreno 3D"
+msgstr "Visualizzazione 3D del Terreno"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`Kosmo Desktop`_"
@@ -147,7 +161,7 @@ msgstr "`Guida rapida <WorldWind Java_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Desktop Virtual Globe"
-msgstr "Globo Virtuale su desktop"
+msgstr "Globo Virtuale su Desktop"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Iris_"
@@ -159,7 +173,7 @@ msgstr "`Guida rapida <Iris_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Meteorology and Climatology"
-msgstr "Metereologia e Climatologia"
+msgstr "Meteorologia e Climatologia"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "GeoKettle_"
@@ -195,7 +209,7 @@ msgstr "`Guida rapida <MB System_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Sea Floor Mapping"
-msgstr "Mappatura del fondo marino"
+msgstr "Mappatura del Fondo Marino"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Cartaro_"
@@ -227,7 +241,7 @@ msgstr "9.5"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Styling and Publishing"
-msgstr "Stile e pubblicazione"
+msgstr "Stilizzazione e Pubblicazione"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "GpsDrive_"
@@ -259,12 +273,17 @@ msgstr "8.0"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Microsoft Windows based Desktop GIS."
-msgstr "GIS desktop basato su Microsoft Windows"
+msgstr "GIS Desktop basato su Microsoft Windows"
 
 #: ../../build/doc/prior_applications.rst:1
 #: ../../build/doc/prior_applications.rst:1
 msgid "|osgeo_project|"
 msgstr "|osgeo_project|"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "MapFish_"
@@ -280,7 +299,7 @@ msgstr "7.9"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Web Mapping Framework"
-msgstr "Ambiente per mappatura web"
+msgstr "Ambiente per Mappatura Web"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "52NorthWSS_"
@@ -317,7 +336,7 @@ msgstr "AtlasStyler_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Style Editor"
-msgstr "Editor di stili"
+msgstr "Editor di Stile"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "MapGuide_"
@@ -334,3 +353,11 @@ msgstr "5.0"
 #: ../../build/doc/prior_applications.rst:1
 msgid "Web Service"
 msgstr "Servizio Web"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

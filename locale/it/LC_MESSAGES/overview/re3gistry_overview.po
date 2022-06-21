@@ -5,22 +5,23 @@
 # 
 # Translators:
 # Luca Delucchi <lucadeluge@gmail.com>, 2020
-# Marco Minghini <marco.minghini86@gmail.com>, 2020
+# Marco Minghini <marco.minghini86@gmail.com>, 2021
+# Stefano Campus <skampus@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 21:50-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2020-10-21 15:59+0000\n"
-"Last-Translator: Marco Minghini <marco.minghini86@gmail.com>, 2020\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:18
 msgid "Re3gistry"
@@ -55,10 +56,14 @@ msgstr ""
 "qualche 'cosa'. Possono essere usati per definire insiemi di valori "
 "ammissibili per un campo di dati o per fornire un riferimento o contesto ai "
 "dati che vengono scambiati. Esempi sono enumerazioni, vocabolari "
-"controllati, tassonomie, thesauri o, semplicemente, 'liste di cose'. Il "
+"controllati, tassonomie, thesauri o, semplicemente, 'elenchi di cose'. Il "
 "Re3gistry 2 supporta le organizzazioni nella gestione ed aggiornamento dei "
 "codici di riferimento in modo consistente. I numeri di versione del "
 "Re3gistry aderiscono alla Specifica del Versionamento Semantico 2.0.0."
+
+#: ../../build/doc/overview/re3gistry_overview.rstNone
+msgid "re3gistry screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/re3gistry_overview.rst:43
 msgid "Core Features"
@@ -192,5 +197,20 @@ msgstr "Guida rapida"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:85
 msgid ":doc:`Quickstart documentation <../quickstart/re3gistry_quickstart>`"
+msgstr ":doc:`Guida rapida <../quickstart/re3gistry_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
 msgstr ""
-":doc:`Documentazione introduttiva <../quickstart/re3gistry_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

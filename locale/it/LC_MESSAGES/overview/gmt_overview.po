@@ -5,21 +5,23 @@
 # 
 # Translators:
 # Luca Delucchi <lucadeluge@gmail.com>, 2021
+# Stefano Campus <skampus@gmail.com>, 2021
+# Simone Falceri, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-06 18:01-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2021\n"
+"Last-Translator: Simone Falceri, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/gmt_overview.rst:15
 msgid "GMT"
@@ -27,7 +29,7 @@ msgstr "GMT"
 
 #: ../../build/doc/overview/gmt_overview.rst:18
 msgid "The Generic Mapping Tools"
-msgstr "The Generic Mapping Tools"
+msgstr "Gli Strumenti di Mappatura Generici"
 
 #: ../../build/doc/overview/gmt_overview.rst:20
 msgid ""
@@ -56,6 +58,10 @@ msgstr ""
 "logaritmico e a potenza, e viene fornito con supporto a dati come linee di "
 "costa, fiumi e confini politici."
 
+#: ../../build/doc/overview/gmt_overview.rstNone
+msgid "gmt screenshot"
+msgstr ""
+
 #: ../../build/doc/overview/gmt_overview.rst:38
 msgid "Core Features"
 msgstr "Caratteristiche principali"
@@ -82,15 +88,15 @@ msgstr "**Licenza:** GNU General Public License (GPL) versione 2"
 
 #: ../../build/doc/overview/gmt_overview.rst:50
 msgid "**Software Version:** |version-gmt|"
-msgstr "**Versione del Software:** |version-gmt|"
+msgstr "**Versione Software:** |version-gmt|"
 
 #: ../../build/doc/overview/gmt_overview.rst:52
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
-msgstr "**Piattaforme supportate:** GNU/Linux, Mac OSX, MS Windows"
+msgstr "**Piattaforme Supportate:** GNU/Linux, Mac OSX, MS Windows"
 
 #: ../../build/doc/overview/gmt_overview.rst:54
 msgid "**API Interfaces:** Command line"
-msgstr "**Interfacce API:** Command line"
+msgstr "**Interfacce API:** Linea di comando"
 
 #: ../../build/doc/overview/gmt_overview.rst:56
 msgid "**Support:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
@@ -109,4 +115,20 @@ msgstr "Guida rapida"
 
 #: ../../build/doc/overview/gmt_overview.rst:64
 msgid ":doc:`Quickstart documentation <../quickstart/gmt_quickstart>`"
-msgstr ":doc:`Documentazione introduttiva <../quickstart/gmt_quickstart>`"
+msgstr ":doc:`Guida rapida <../quickstart/gmt_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

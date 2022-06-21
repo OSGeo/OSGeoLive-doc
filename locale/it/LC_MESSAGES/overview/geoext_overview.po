@@ -5,21 +5,22 @@
 # 
 # Translators:
 # Luca Delucchi <lucadeluge@gmail.com>, 2021
+# Stefano Campus <skampus@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2019-07-17 15:40+0000\n"
-"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2021\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/geoext_overview.rst:14
 msgid "GeoExt"
@@ -73,6 +74,10 @@ msgstr ""
 "commerciale Sencha ExtJS, si ha il diritto di utilizzare GeoExt3 sotto la "
 "licenza BSD."
 
+#: ../../build/doc/overview/geoext_overview.rstNone
+msgid "geoext screenshot"
+msgstr ""
+
 #: ../../build/doc/overview/geoext_overview.rst:37
 msgid "Core Features"
 msgstr "Caratteristiche principali"
@@ -95,7 +100,7 @@ msgstr "Pop-ups"
 
 #: ../../build/doc/overview/geoext_overview.rst:44
 msgid "Feature renderer"
-msgstr ""
+msgstr "Rendering dell'elemento"
 
 #: ../../build/doc/overview/geoext_overview.rst:45
 msgid "Layer Tree, legends, and drag-and-drop layer ordering"
@@ -142,7 +147,7 @@ msgstr "Dettagli"
 
 #: ../../build/doc/overview/geoext_overview.rst:62
 msgid "**Website:** https://geoext.github.io/geoext3"
-msgstr "**Sito internet:** https://geoext.github.io/geoext3"
+msgstr "**Sito web:** https://geoext.github.io/geoext3"
 
 #: ../../build/doc/overview/geoext_overview.rst:64
 msgid ""
@@ -157,7 +162,7 @@ msgstr ""
 
 #: ../../build/doc/overview/geoext_overview.rst:67
 msgid "**Software Version:** |version-geoext|"
-msgstr "**Versione del software:** |version-geoext|"
+msgstr "**Versione Software:** |version-geoext|"
 
 #: ../../build/doc/overview/geoext_overview.rst:69
 msgid "**API Interface:** JavaScript"
@@ -179,4 +184,20 @@ msgstr "Guida rapida"
 
 #: ../../build/doc/overview/geoext_overview.rst:79
 msgid ":doc:`Quickstart documentation <../quickstart/geoext_quickstart>`"
-msgstr ":doc:`Documentazione introduttiva <../quickstart/geoext_quickstart>`"
+msgstr ":doc:`Guida rapida <../quickstart/geoext_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

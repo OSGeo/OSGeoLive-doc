@@ -6,21 +6,23 @@
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Luca Delucchi <lucadeluge@gmail.com>, 2021
+# Valerio Pinna <pinnavalerio@yahoo.co.uk>, 2021
+# Stefano Campus <skampus@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 11:35-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
-"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2021\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../build/doc/overview/actinia_overview.rst:18
 msgid "actinia"
@@ -36,8 +38,8 @@ msgid ""
 "scalable, distributed, high performance processing of geographical data that"
 " uses `GRASS GIS <https://grass.osgeo.org/>`__ for computational tasks."
 msgstr ""
-"`Actinia <https://actinia.mundialis.de/>`__ è una REST API a codice aperto "
-"per il processamento scalabile, distribuito ad alte performance di da "
+"`Actinia <https://actinia.mundialis.de/>`__ è una API REST a codice aperto "
+"per il processamento scalabile, distribuito ad alte performance di dati "
 "geografici che usa `GRASS GIS <https://grass.osgeo.org/>`__ per i compiti "
 "computazionali. "
 
@@ -46,9 +48,13 @@ msgid ""
 "It provides a REST API to process satellite images, time series of satellite"
 " images, arbitrary raster data with geographical relations and vector data."
 msgstr ""
-"Fornisce un REST API per processare immagini satellitari, serie temporali di"
+"Fornisce un API REST per processare immagini satellitari, serie temporali di"
 " immagini satellitari, qualsiasi raster con relazione geografica e dati "
 "vettoriali. "
+
+#: ../../build/doc/overview/actinia_overview.rstNone
+msgid "actinia screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:39
 msgid "Core Features"
@@ -64,7 +70,7 @@ msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:42
 msgid "Explore the `tutorial <https://actinia.mundialis.de/tutorial/>`_."
-msgstr "Visualizza il `turorial <https://actinia.mundialis.de/tutorial/>`_."
+msgstr "Visualizza il `tutorial <https://actinia.mundialis.de/tutorial/>`_."
 
 #: ../../build/doc/overview/actinia_overview.rst:45
 msgid "Details"
@@ -84,15 +90,17 @@ msgstr "**Versione Software:** |version-actinia|"
 
 #: ../../build/doc/overview/actinia_overview.rst:53
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
-msgstr "**Piattaforme supportate:** GNU/Linux, Mac OSX, MS Windows"
+msgstr "**Piattaforme Supportate:** GNU/Linux, Mac OSX, MS Windows"
 
 #: ../../build/doc/overview/actinia_overview.rst:55
 msgid "**API Interfaces:** REST API, Python"
 msgstr "**Interfacce API:** REST API, Python"
 
 #: ../../build/doc/overview/actinia_overview.rst:57
-msgid "**API documentation:** https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json"
-msgstr "**Documentazione delle API:** https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json"
+msgid ""
+"**API documentation:** "
+"https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json"
+msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:59
 msgid "**Support:** https://github.com/mundialis/actinia_core"
@@ -105,3 +113,19 @@ msgstr "Guida rapida"
 #: ../../build/doc/overview/actinia_overview.rst:66
 msgid ":doc:`Quickstart documentation <../quickstart/actinia_quickstart>`"
 msgstr ":doc:`Guida rapida <../quickstart/actinia_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""
