@@ -37,6 +37,7 @@ jobs:
       - name: Update locale
         if: github.ref == 'refs/heads/master'
         run: |
+          mkdir -p build
           bash tools/transifex/update_locale.sh
 
           # Add the files, commit and push
@@ -50,7 +51,7 @@ jobs:
       # This section updates the gh-pages
       - name: Build pages
         run: |
-          mkdir build
+          mkdir -p build
           bash ci/build-pages.sh
 
       # This section updates the locale
