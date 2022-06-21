@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -44,6 +44,10 @@ msgstr ""
 "könyvtár 3D-s földgömbök és 2D-s térképek létrehozására. WebGL-t használ a "
 "hardver gyorsított grafikához, platform- és böngészőfüggetlen és a dinamikus"
 " adatmegjelenítésére hangolták."
+
+#: ../../build/doc/overview/cesium_overview.rstNone
+msgid "cesium screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rst:30
 msgid "Core Features"
@@ -82,10 +86,9 @@ msgid "Draw 3D models using COLLADA and glTF."
 msgstr "3D modellek megjelenítése COLLADA és glTF felhasználásával."
 
 #: ../../build/doc/overview/cesium_overview.rst:38
-msgid "Use `plugins <https://cesium.com/cesiumjs>`_ to extend Cesium."
+msgid ""
+"Use `plugins <https://cesium.com/platform/cesiumjs/>`_ to extend Cesium."
 msgstr ""
-"`Beépülő modulok <https://cesium.com/cesiumjs>`_  használata a Cesium "
-"kibővítésére."
 
 #: ../../build/doc/overview/cesium_overview.rst:40
 msgid "Built for Performance and Precision:"
@@ -109,8 +112,8 @@ msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rst:44
 msgid ""
-"Use `3D Tiles <https://cesium.com/blog/2017/07/12/the-next-generation-of-3d-"
-"tiles/>`_ to stream, style and interact with heterogeneous 3D data, "
+"Use `3D Tiles <https://cesium.com/blog/2017/07/12/the-next-generation-"
+"of-3d-tiles/>`_ to stream, style and interact with heterogeneous 3D data, "
 "including photogrammetry models, 3D buildings, CAD and BIM exterior and "
 "interiors, and point clouds."
 msgstr ""
@@ -177,12 +180,8 @@ msgstr ""
 "böngészőtől függ"
 
 #: ../../build/doc/overview/cesium_overview.rst:67
-msgid ""
-"**Community Support:** Forum at "
-"https://groups.google.com/forum/?hl=en#!forum/cesium-dev"
+msgid "**Community Support:** Forum at https://community.cesium.com"
 msgstr ""
-"**Közösségi támogatás:** Fórum "
-"ahttps://groups.google.com/forum/?hl=en#!forum/cesium-dev oldalon"
 
 #: ../../build/doc/overview/cesium_overview.rst:72
 msgid "Quickstart"
@@ -191,3 +190,19 @@ msgstr "Gyorstalpaló"
 #: ../../build/doc/overview/cesium_overview.rst:74
 msgid ":doc:`Quickstart documentation <../quickstart/cesium_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/cesium_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

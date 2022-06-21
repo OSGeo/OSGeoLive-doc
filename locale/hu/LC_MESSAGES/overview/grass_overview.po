@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-25 18:18-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -91,17 +91,19 @@ msgstr ""
 "mint egy kézreálló asztali térinformatikai programot a kézben tartott PDA-"
 "hoz vagy netbookokhoz."
 
+#: ../../build/doc/overview/grass_overview.rstNone
+msgid "grass screenshot"
+msgstr ""
+
 #: ../../build/doc/overview/grass_overview.rst:63
 msgid "Core Features"
 msgstr "Alapfunkciók"
 
 #: ../../build/doc/overview/grass_overview.rst:65
 msgid ""
-"You name it, there's a `tool for it "
-"<https://grass.osgeo.org/grass-stable/manuals/keywords.html>`_."
+"You name it, there's a `tool for it <https://grass.osgeo.org/grass-"
+"stable/manuals/keywords.html>`_."
 msgstr ""
-"Ha meg tudja nevezni talál hozzá egy `eszközt "
-"<https://grass.osgeo.org/grass-stable/manuals/keywords.html>`_."
 
 #: ../../build/doc/overview/grass_overview.rst:66
 msgid ""
@@ -146,3 +148,19 @@ msgstr "Gyorstalpaló"
 #: ../../build/doc/overview/grass_overview.rst:89
 msgid ":doc:`Quickstart documentation <../quickstart/grass_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/grass_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

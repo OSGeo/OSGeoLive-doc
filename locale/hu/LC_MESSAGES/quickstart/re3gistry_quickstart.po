@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2021
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:08-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2020-10-21 15:59+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,6 +64,10 @@ msgstr ""
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:27
 msgid "Manage data from the ``pgAdmin`` client."
 msgstr "Hogyan kezeljük az adatokat a pgAdmin kliensből."
+
+#: ../../build/doc/quickstart/re3gistry_quickstart.rst:31
+msgid "Contents"
+msgstr "Tartalom"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:34
 msgid "Start the Re3gistry"
@@ -384,8 +388,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:152
 msgid ""
-"`User manual <https://github.com/ec-jrc/re3gistry/blob/master/documentation"
-"/user-manual.md>`__"
+"`User manual <https://github.com/ec-"
+"jrc/re3gistry/blob/master/documentation/user-manual.md>`__"
 msgstr ""
 "`Felhasználói kézikönyv <https://github.com/ec-"
 "jrc/re3gistry/blob/master/documentation/user-manual.md>`__"
@@ -405,3 +409,19 @@ msgid ""
 msgstr ""
 "`Fejlesztői kézikönyv <https://github.com/ec-"
 "jrc/re3gistry/blob/master/documentation/developer-manual.md>`__"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

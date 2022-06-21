@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,6 +51,10 @@ msgstr ""
 "munkához (lekérdező eszközök, nyomtatái kép, geoprocessing, hálózatok, "
 "stb.), melyek a téradatokkal dolgozó felhasználók számára ideális eszközzé "
 "teszik."
+
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:36
+msgid "Contents"
+msgstr "Tartalom"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:38
 msgid ""
@@ -197,8 +201,8 @@ msgid ""
 "Click on the :guilabel:`Add layer` icon in the main toolbar to open the "
 "**Add layer** dialog."
 msgstr ""
-"Kattintson az :guilabel:`Add layer` ikonra fő eszköztárban az **Add layer**"
-"  párbeszédablak megnyitásához."
+"Kattintson az :guilabel:`Add layer` ikonra fő eszköztárban az **Add layer** "
+" párbeszédablak megnyitásához."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:102
 msgid ""
@@ -889,9 +893,25 @@ msgid ""
 "`Learning gvSIG in 30 minutes <https://blog.gvsig.org/2017/05/23/learning-"
 "gvsig-in-30-minutes/>`_"
 msgstr ""
-"`Tanulja meg a gvSIG-et 30 perc alatt <https://blog.gvsig.org/2017/05/23"
-"/learning-gvsig-in-30-minutes/>`_"
+"`Tanulja meg a gvSIG-et 30 perc alatt "
+"<https://blog.gvsig.org/2017/05/23/learning-gvsig-in-30-minutes/>`_"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:455
 msgid "`gvSIG Blog <https://blog.gvsig.org/category/languages/english/>`_"
 msgstr "`gvSIG Blog <https://blog.gvsig.org/category/languages/english/>`_"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

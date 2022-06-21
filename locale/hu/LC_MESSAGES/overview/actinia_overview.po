@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 11:35-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -47,6 +47,10 @@ msgid ""
 msgstr ""
 "Egy REST API-t biztosít a műholdképek, műholdkép idősorok, térbeli "
 "pozícióval bíró tetszőleges raszter adatok és vektor adatok feldolgozására."
+
+#: ../../build/doc/overview/actinia_overview.rstNone
+msgid "actinia screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:39
 msgid "Core Features"
@@ -90,8 +94,10 @@ msgid "**API Interfaces:** REST API, Python"
 msgstr "**API interfészek:** REST API, Python"
 
 #: ../../build/doc/overview/actinia_overview.rst:57
-msgid "**API documentation:** https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json"
-msgstr "**API dokumentáció:** https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json"
+msgid ""
+"**API documentation:** "
+"https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json"
+msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:59
 msgid "**Support:** https://github.com/mundialis/actinia_core"
@@ -104,3 +110,19 @@ msgstr "Gyorstalpaló"
 #: ../../build/doc/overview/actinia_overview.rst:66
 msgid ":doc:`Quickstart documentation <../quickstart/actinia_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/actinia_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

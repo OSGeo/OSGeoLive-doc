@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011, OSGeo
-# This file is distributed under the same license as the OSGeo-Live package.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeo-Live 11.0.0.-dev\n"
+"Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-03 08:36-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:14
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:20
 msgid "Jupyter Notebook Quickstart"
 msgstr "Jupyter jegyzettömb gyorstalpaló"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:16
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:22
 msgid ""
 "The Jupyter Notebook is a web application that allows you to create and "
 "share documents that contain live code, equations, visualizations and "
@@ -38,161 +38,170 @@ msgstr ""
 "adattisztítás és transzformáció, numerikus modellezés, gépi tanulás és még "
 "továbbiak."
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:19
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:25
 msgid "This Quick Start describes how to:"
 msgstr "Ez a gyorstalpaló a következőket írja le:"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:21
-msgid "start a jupyter notebook server"
-msgstr "a jupyter jegyzettömb szerver indítása"
-
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:22
-msgid "load a jupyter notebook"
-msgstr "jupyter jegyzettömb betöltése"
-
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:23
-msgid "interact with python code and javascript widgets"
-msgstr "együttműködés python kód és javascript vezérlők között"
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:27
+msgid "Start a Jupyter Notebook server"
+msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:28
-msgid "Start the jupyter server"
-msgstr "Jupyter szerver indítása"
+msgid "Load a jupyter notebook"
+msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:30
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:29
+msgid "Interact with python code"
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:31
+msgid "Contents"
+msgstr "Tartalom"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:34
+msgid "Start the Jupyter server"
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:36
 msgid "From the application launch menu in the lower left corner."
 msgstr "Az alkalmazásindítás menüből a bal alsó sarokban."
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:32
-msgid "Choose  *Geospatial* -> *Spatial Tools* -> *Start Jupyter Notebook*"
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:38
+msgid "Choose  *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*"
 msgstr ""
-"Válassza a *Geospatial* -> *Spatial Tools* -> *Start Jupyter Notebook*-ot"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:37
-msgid "A terminal window will open and a startup log will begin to scroll."
-msgstr ""
-"Egy terminál ablak nyílik meg és az indítási napló látható az ablakban."
-
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:39
-msgid "Choose   *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*"
-msgstr "Válassza a *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*-ot"
-
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:44
-msgid "A web browser is launched showing the notebook dashboard."
-msgstr "Egy web böngésző indul a jegyzettömb vezérlő pulttal."
-
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:49
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:40
 msgid ""
-"From the notebook dashboard you can navigate the directory tree, start new "
-"notebooks, create files and directories, as well as rename, delete and "
-"upload files."
+"A terminal window will open and a startup log will begin to scroll. "
+"Afterwards a web browser is launched showing the Jupyter Notebook dashboard."
+" From the Jupyter Notebook dashboard you can navigate the directory tree, "
+"start new notebooks, create files and directories, as well as rename, delete"
+" and upload files."
 msgstr ""
-"A jegyzettömb vezérlőpultban navigálhat a könyvtár fában, új jegyzettömböket"
-" hozhat létre, fájlokat és könyvtárakat hozhat létre. valamint fájlokat "
-"átnevezhet, törölhet és feltölthet."
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:56
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:51
 msgid "Open and execute an existing notebook"
 msgstr "Létező jegyzettömb megnyitása és végrehajtása"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:58
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:53
 msgid ""
 "Let's open an existing notebook. From the main page click on the directory "
-"GSOC."
+"geopandas-tutorial and choose the Introduction notebook (01-introduction-"
+"geospatial-data.ipynb). This is an introduction with many examples on how to"
+" use geospatial vector data in Python with geopandas using the Natural "
+"Earth2 data."
 msgstr ""
-"Nyissunk meg egy létező jegyzettömböt. A fő ablakban kattintson a GSOC "
-"könyvtárra."
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:66
-msgid "Choose the Introduction notebook."
-msgstr "Válassza az Introduction jegyzettömböt."
-
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:71
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:59
 msgid ""
-"This is a simple notebook, which contains text and links, like a HTML web "
-"page."
+"The tutorial is made up with explaining text and cells. The cells contain in"
+" this case python code, that can be run."
 msgstr ""
-"Ez egy egyszerű jegyzettömb, mely szöveget és linkeket tartalmaz mint egy "
-"web lap."
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:73
-msgid "Then under \"Simple-web-gis-products\" select \"CESIUM\"."
-msgstr "A \"Simple-web-gis-products\" alatt válassza a \"CESIUM\"-ot."
-
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:81
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:61
 msgid ""
-"Here there are a series of example using the cesium javascript library. "
-"Let's click on \"CesiumWidget Interact-Example\", which uses the widget "
-"extension, some python libraries and cesium-js."
+"From the toolbar on top of the notebook you can choose different options:"
 msgstr ""
-"Itt egy példa sorozat van a cesium javascript könyvtár használatáról. "
-"Kattintsunk a \"CesiumWidget Interact-Example\"-re, mely néhány python "
-"könyvtár és cesium-js vezérlő kiterjesztését használja."
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:84
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:63
 msgid ""
-"From the toolbar on top of the notebook chose: cell->run all. If everything "
+"Cell-> Run Cells: will run the code in the cell with the focus and will move"
+" to the next cell."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:64
+msgid ""
+"Cell-> Run All:  will run all the cells and show the results If everything "
 "worked as planned you should be able to see the results at the bottom of the"
 " page."
 msgstr ""
-"A jegyzettömb feletti eszközsorból válassza a cell->run all-t. Ha minden a "
-"tervek szerint működik a lap alján látnia kell az eredményeket."
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:90
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:66
+msgid "Have a look at the results after running all the cells."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:71
+msgid ""
+"You will see additional Out[] section with different output for example "
+"tables, maps or calculations."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:73
+msgid "In Out[3] you can see the country information as a table."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:79
+msgid "In Out[4] a plot was generated from all the countries."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:88
 msgid "Change code"
 msgstr "Kód módosítása"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:92
-msgid "Now lets change some of the code:"
-msgstr "Most változtassuk meg a kódot:"
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:90
+msgid "Now let's change some of the code."
+msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:94
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:93
 msgid ""
-"In the code cell ``in [8]`` we generated a python dictionary based on some "
-"keywords (location names) with empty values:"
+"In In [10] a filter was defined for the countries. Only the continent "
+"``Africa`` is selected from the countries:"
 msgstr ""
-"Az ``in [8]`` kód cellában egy python szótárat gneráltunk néhány kulccsal "
-"(hely nevek) és üres értékekkel:"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:100
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:99
+msgid "Therefore in the plot there is only the continent ``Africa``."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:104
+msgid "Change the selection to ``Asia`` and rund the two cells again."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:110
 msgid ""
-"and at the code input cell ``in [9]``, we loop over the dictionary keys and "
-"making use of a geocoding library ``geocoder``, we add the location "
-"information inside the previously created python dictionary ``my place``:"
+"As result you will see that instead of ``Africa`` there will be ``Asia`` in "
+"the plot."
 msgstr ""
-"és az ``in [9]``kód input cellában végigmegyünk a szótár kulcsokon és a "
-"``geocoder`` geokódoló könyvtár használatával a hely információt hozzáadjuk "
-"az előzőleg létrehozott ``my place` python szótárhoz:"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:112
-msgid "Try to add or replace new keywords like we did in ``In [8]``"
-msgstr ""
-"Próbáljon meg  hozzáadni vagy lecserélni kulcsokat, mint ahogy azt az ``In "
-"[8]``-ban csináltuk"
-
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:118
-msgid ""
-"and re run ``In [9] [10] [11]`` you will see the newly created dictionary is"
-" now used in the drop down menu to select the new location and zoom-to "
-"withing the Cesium globe."
-msgstr ""
-"és futtassa újra a  ``In [9] [10] [11]``-t, láthatja, hogy az újonnan "
-"létrehozott szótárt használjuk a legördülő menüben egy új hely "
-"kiválasztásánál és a nagyításnál a Cesium földgömbön."
-
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:121
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:119
 msgid "What Next?"
 msgstr "Mi következik?"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:123
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:121
+msgid ""
+"Discover the other notebooks that are provided with OSGeoLive and find out "
+"how to work with Shapely, Rasterio, R, Iris & other software."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:122
 msgid ""
 "For more information about the jupyter notebook, please refer to the "
-"`jupyter official documentation`_. More notebook examples are available from"
-" the notebook root directory. For a quick introduction on how to use the "
-"jupyter-notebook interface, from the start page, check the notebook: "
-"\"Introduction to jupyter notebook\""
+"`Jupyter Notebooks official documentation "
+"<https://jupyter.readthedocs.io/>`_."
 msgstr ""
-"További információért a jupiter jegyzettömbről forduljon a  hivatalos "
-"`jupyter  dokumentációhozn`_.  További jegyzettömb példák érhetők el a "
-"jegyzettömb gyökér könyvtárából. Nézze meg a a kezdőoldalról elérhető "
-"\"Introduction to jupyter notebook\"-ot egy gyors bemutatáshoz a jupiter "
-"jegyzettömb használatához."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:123
+msgid "More notebook examples are available from the notebook root directory."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:124
+msgid ""
+"Quick introduction on how to use the Jupyter Notebooks interface: `Get "
+"started with Jupyter Notebook "
+"<https://jupyter.readthedocs.io/en/latest/content-quickstart.html>`_."
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,6 +37,10 @@ msgstr ""
 "implementáció. A pycsw lehetővé teszi térbeli metaadatok publikálását és "
 "felfedezését. Létező térbeli metaadatok feltárhatók OGC:CSW 2.0.2 vagy "
 "OGC:CSW 3.0.0 keresztül."
+
+#: ../../build/doc/quickstart/pycsw_quickstart.rst:27
+msgid "Contents"
+msgstr "Tartalom"
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:30
 msgid "Run the tester application"
@@ -235,12 +239,12 @@ msgstr "**[repository]**"
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:106
 msgid ""
 "**database**: the full file path to the metadata database, in database URL "
-"format (see https://docs.sqlalchemy.org/en/latest/core/engines.html"
-"#database-urls)"
+"format (see "
+"https://docs.sqlalchemy.org/en/latest/core/engines.html#database-urls)"
 msgstr ""
 "*database**: teljes elérési új a metaadat adatbázishoz, adatbázis URL "
-"formátumban (lásd https://docs.sqlalchemy.org/en/latest/core/engines.html"
-"#database-urls)"
+"formátumban (lásd "
+"https://docs.sqlalchemy.org/en/latest/core/engines.html#database-urls)"
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:107
 msgid ""
@@ -357,3 +361,19 @@ msgid ""
 msgstr ""
 "Forduljon a pywcs honlapon található `dokumentációhoz`_  további "
 "információkért a pycsw-ről."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

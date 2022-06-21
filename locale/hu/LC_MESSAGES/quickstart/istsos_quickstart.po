@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 22:14-0600\n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,6 +57,10 @@ msgstr ""
 "Az istSOS-t a GPLv2 licenc alatt bocsájtják ki és minden elterjedtebb "
 "platformon fut (Windows, Linux, Mac OS X), annak ellenére, hogy csak Linux "
 "környezetben használják élesben."
+
+#: ../../build/doc/quickstart/istsos_quickstart.rst:32
+msgid "Contents"
+msgstr "Tartalom"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:35
 msgid "Create postgis database"
@@ -305,17 +309,17 @@ msgstr "*Output (erősítse meg az outputot az \"add\" gomb megnyomásával).*"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:139
 msgid ""
-"Observed property: urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature"
+"Observed property: "
+"`urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature`"
 msgstr ""
-"Observed property: urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:141
 msgid "Unit of measure: °C"
 msgstr "Unit of measure: °C"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:143
-msgid "Description (optional): conversion from resistance to temperature"
-msgstr "Description (optional): conversion from resistance to temperature"
+msgid "Description (optional): conversion from resistance to tempera"
+msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:145
 msgid "quality index check (optional): Between / from -40 to +60"
@@ -439,3 +443,19 @@ msgid ""
 msgstr ""
 "Egy kiinduló pont, hogy többet tudjon meg az istSOS-ről az `istSOS "
 "Documentation`_ és az `istSOS Tutorial`_."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

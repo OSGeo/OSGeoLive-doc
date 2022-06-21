@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 22:14-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -46,15 +46,10 @@ msgstr "Előfeltételek"
 msgid ""
 "GeoNetwork can directly be started from the OSGeo Live start menu and will "
 "be available at http://localhost:8080/geonetwork some moments later. Check "
-"the `Installation Guide <https://geonetwork-opensource.org/manuals/trunk/en"
-"/install-guide/index.html>`__ if you are using GeoNetwork is some other "
-"context."
+"the `Installation Guide <https://geonetwork-"
+"opensource.org/manuals/trunk/en/install-guide/index.html>`__ if you are "
+"using GeoNetwork in some other context."
 msgstr ""
-"A GeoNetwork-öt közvetlenül elindíthatja az OSGeoLive tart menüjéből és "
-"néhány pillanat múlva elérhető lesz a http://localhost:8080/geonetwork "
-"címen. Nézze meg a `Telepítési útmutatót <https://geonetwork-"
-"opensource.org/manuals/trunk/en/install-guide/index.html>`__, ha másik "
-"környezetben használná a GeoNetwork-öt."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:39
 msgid ""
@@ -513,3 +508,19 @@ msgstr ""
 "társíthatja az adatforrásokat a metaadataihoz, hogyan címkézheti meg "
 "kulcsszavakkal, és hogyan adhatja hozzá a kategóriákhoz, és hogyan teheti "
 "közzé metaadatait a külvilág számára."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""
