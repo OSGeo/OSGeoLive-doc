@@ -6,16 +6,16 @@
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2019
-# Astrid Emde <astrid_emde@osgeo.org>, 2021
+# Astrid Emde <astrid_emde@osgeo.org>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-01 08:19-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2022\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,6 +56,10 @@ msgstr ""
 #: ../../build/doc/quickstart/postgis_quickstart.rst:49
 msgid "Manage data from the ``pgAdmin`` client."
 msgstr "Das Datenmanagement über den grafische Datenbank-Client ``pgAdmin``."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:53
+msgid "Contents"
+msgstr "Inhalt"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:56
 msgid "Client-server architecture"
@@ -548,11 +552,19 @@ msgstr ""
 "Verbindung zu Natural Earth anschauen möchten, oder drücken Sie einfach "
 "``Connect``, um fortzufahren:"
 
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "Connect to Natural Earth"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:392
 msgid "You will now get a list of the spatial tables in the database:"
 msgstr ""
 "Im Anschluss daran erscheint eine Liste der Tabellen mit räumlichen "
 "Informationen:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "Natural Earth Layers"
+msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:399
 msgid ""
@@ -562,6 +574,10 @@ msgid ""
 msgstr ""
 "Wählen Sie ne_10m_lakes table (Seen) und klicken Sie ``Hinzufügen`` (nicht "
 "``Abfrage erstellen``). Die Daten sollten nun in QGIS geladen werden:"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "My First PostGIS layer"
+msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:408
 msgid ""
@@ -615,6 +631,10 @@ msgstr ""
 " Seite verwenden, um mehr über die Daten zu erfahren. Auf der Registerkarte "
 "Vorschau wird eine Ansicht der Daten angezeigt."
 
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "QGIS Manager Preview"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:430
 msgid ""
 "We will now use the DB Manager to import a shapefile into the database. "
@@ -636,9 +656,17 @@ msgstr ""
 "Klicken Sie auf die Schaltfläche ``...`` und navigieren Sie zur Shape-Datei "
 "``sids.shp`` im R-Verzeichnis (unter /home/user/data/vector/R/shapes):"
 
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "Find the shapefile"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:443
 msgid "Leave everything else as it is and hit ``Load``"
 msgstr "Lassen Sie alles andere so, wie es ist und drücken Sie ``Load``"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "Import a shapefile"
+msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:450
 msgid ""
@@ -663,6 +691,10 @@ msgstr ""
 " der Lage sein, eine Choropleth-Karte der plötzlichen Anzahl des "
 "Kindstodsyndroms (sid74 oder sid79 Felder) in North Carolina zu erstellen:"
 
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "SIDS data mapped"
+msgstr ""
+
 #: ../../build/doc/quickstart/postgis_quickstart.rst:466
 msgid "Get to know pgAdmin"
 msgstr "Lernen Sie pgAdmin kennen"
@@ -685,6 +717,13 @@ msgstr ""
 "Mit pgAdmin können Sie SQL verwenden, um Ihre Datentabellen zu bearbeiten. "
 "Sie finden pgAdmin unter dem Menüeintrag Datenbanken auf dem OSGeoLive "
 "Desktop."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "pgAdmin"
+msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:478
 msgid "Enter the master password  ``user``."
@@ -1034,3 +1073,19 @@ msgstr "PostGIS-Webseite - http://postgis.net"
 #: ../../build/doc/quickstart/postgis_quickstart.rst:696
 msgid "PostGIS Documentation -  http://postgis.net/documentation/"
 msgstr "PostGIS-Dokumentation - http://postgis.net/documentation/"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

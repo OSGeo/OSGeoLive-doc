@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Astrid Emde <astrid_emde@osgeo.org>, 2021
+# Astrid Emde <astrid_emde@osgeo.org>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-18 20:30+0100\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2020-11-29 04:49+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2022\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,6 +64,10 @@ msgstr ""
 " Vektorformaten, OGC Standards und Projektionssystemen auseinandersetzen. "
 "Python-Kenntnisse werden empfohlen, obwohl es auch ohne diese geht, wenn Sie"
 " die Anwendung von OSGeoLive verwenden."
+
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:35
+msgid "Contents"
+msgstr "Inhalt"
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:38
 msgid "Configure and start the service"
@@ -292,3 +296,19 @@ msgid ""
 msgstr ""
 "Wählen Sie die Collection``countries`` und klicken Sie  ‘Add’, um den Layer "
 "in QGIS zu Karte hinzuzufügen."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

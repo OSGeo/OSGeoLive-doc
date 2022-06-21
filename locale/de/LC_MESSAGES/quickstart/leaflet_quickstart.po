@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Astrid Emde <astrid_emde@osgeo.org>, 2019
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Astrid Emde <astrid_emde@osgeo.org>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2022\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,6 +37,10 @@ msgstr ""
 "freundliche, interaktive Karten.  Leaflet ist leicht, verfügt über alle "
 "Funktionen, die die meisten Entwicker für Online-Karten benötigen. Leaflet "
 "ist mit einfach, performant und benutzerfreundlich."
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:22
+msgid "Contents"
+msgstr "Inhalt"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:25
 msgid "Running"
@@ -65,8 +69,9 @@ msgid ""
 "this demo uses tilestache on OSGeoLive."
 msgstr ""
 "Wenn Sie dieses Quickstart außerhalb von OSGeoLive lesen, können Sie es "
-"vielleicht besser die Original-Demo auf https://leafletjs.com/examples"
-"/quick-start/ anschauen, da diese nicht lokal auf Tilestache zugreift."
+"vielleicht besser die Original-Demo auf "
+"https://leafletjs.com/examples/quick-start/ anschauen, da diese nicht lokal "
+"auf Tilestache zugreift."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:35
 msgid "Preparing your page"
@@ -120,9 +125,10 @@ msgid ""
 "conference. First we'll initialize the map and set its view to our chosen "
 "geographical coordinates and a zoom level:"
 msgstr ""
-"Erstellen wir eine Karte von Ostafrika mit einem Hinweis auf die FOSS4G-"
-"Konferenz 2018. Zuerst initialisieren wir die Karte und legen die Ansicht "
-"auf unsere gewählten geographischen Koordinaten und eine Zoomstufe fest:"
+"Erstellen wir eine Karte von Ostafrika mit einem Hinweis auf die "
+"FOSS4G-Konferenz 2018. Zuerst initialisieren wir die Karte und legen die "
+"Ansicht auf unsere gewählten geographischen Koordinaten und eine Zoomstufe "
+"fest:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:75
 msgid ""
@@ -302,3 +308,19 @@ msgstr ""
 "Jetzt haben Sie die Grundlagen von Leaflet gelernt und können sofort mit dem"
 " Erstellen von Karten-Anwendungen beginnen! Vergessen Sie nicht, einen Blick"
 " in die detaillierte Dokumentation_ oder andere Beispiele_ zu werfen."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

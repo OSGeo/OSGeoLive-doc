@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -60,6 +60,10 @@ msgstr ""
 "verwendet. :doc:`geos_overview`, eine nach C++ portierte Version der JTS, "
 "wird von den meisten C basierten Anwendungen verwendet. Weitere "
 "Schnittstellen liegen für C# und JavaScript vor."
+
+#: ../../build/doc/overview/jts_overview.rstNone
+msgid "jts screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/jts_overview.rst:35
 msgid "Core Features"
@@ -158,3 +162,19 @@ msgstr "**API Schnittstellen:** Java"
 #: ../../build/doc/overview/jts_overview.rst:71
 msgid "**Support:** https://sourceforge.net/projects/jts-topo-suite/"
 msgstr "**Support:** https://sourceforge.net/projects/jts-topo-suite/"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

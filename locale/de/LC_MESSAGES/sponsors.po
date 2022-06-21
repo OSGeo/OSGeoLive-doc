@@ -7,16 +7,16 @@
 # Manfred Reiter <ma.reiter@gmail.com>, 2017
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Astrid Emde <astrid_emde@osgeo.org>, 2021
+# Astrid Emde <astrid_emde@osgeo.org>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-21 12:32-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2022\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,10 +25,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../build/doc/sponsors.rst:1
-msgid "OSGeoLive Sponsors kea"
-msgstr "OSGeoLive Sponsors kea"
+msgid "OSGeoLive Sponsors"
+msgstr "OSGeoLive Sponsoren"
 
-#: ../../build/doc/sponsors.rst:10
+#: ../../build/doc/sponsors.rstNone ../../build/doc/sponsors_osgeo.rstNone
+msgid "OSGeo"
+msgstr ""
+
+#: ../../build/doc/sponsors.rst:9
 msgid ""
 "The Open Source Geospatial Foundation (OSGeo) provides the primary "
 "development & hosting infrastructure and personnel for the project, and for "
@@ -38,7 +42,13 @@ msgstr ""
 "Entwicklungs- und Hostinginfrastruktur und personelle Unterstützung für das "
 "Projekt sowie für viele der Software Teams, die Beiträge leisten, bereit."
 
-#: ../../build/doc/sponsors.rst:18
+#: ../../build/doc/sponsors.rstNone
+msgid ""
+"Information Center for the Environment at the University of California, "
+"Davis"
+msgstr ""
+
+#: ../../build/doc/sponsors.rst:17
 msgid ""
 "Information Center for the Environment at the University of California, "
 "Davis provides hardware resources and development support to the OSGeoLive "
@@ -48,7 +58,11 @@ msgstr ""
 "Davis stellt dem OSGeo-Live Projekt Hardware und Entwicklerleistung zur "
 "Verfügung."
 
-#: ../../build/doc/sponsors.rst:27
+#: ../../build/doc/sponsors.rstNone
+msgid "National Technical University of Athens"
+msgstr ""
+
+#: ../../build/doc/sponsors.rst:26
 msgid ""
 "Remote Sensing Laboratory at the National Technical University of Athens, "
 "provides hardware resources and development support to the OSGeoLive "
@@ -57,7 +71,11 @@ msgstr ""
 "Das Remote Sensing Laboratory der National Technical University von Athen "
 "unterstützt das OSGeo-Live Projekt mit Hardware und Entwicklerleistungen."
 
-#: ../../build/doc/sponsors.rst:35
+#: ../../build/doc/sponsors.rstNone
+msgid "The DebianGIS and UbuntuGIS projects"
+msgstr ""
+
+#: ../../build/doc/sponsors.rst:34
 msgid ""
 "The DebianGIS and UbuntuGIS projects provide and quality-assure many of the "
 "core packages."
@@ -65,7 +83,11 @@ msgstr ""
 "Das DebianGIS und UbuntuGIS Projekt stellen viele der Hauptprojekte bereit "
 "und sorgen für eine Qualitätssicherung."
 
-#: ../../build/doc/sponsors.rst:42
+#: ../../build/doc/sponsors.rstNone
+msgid "The Greek Academic cloud service"
+msgstr ""
+
+#: ../../build/doc/sponsors.rst:41
 msgid ""
 "Okeanos is the Greek Academic cloud service (IaaS) which is providing "
 "virtualized computing resources free of charge to the Greek Universities and"
@@ -80,7 +102,11 @@ msgstr ""
 "Ganeti) auf. Okeanos stellt freundlicherweise die Virtuellen Maschinen, auf "
 "denen die OSGeoLive iso-Images gebaut werden."
 
-#: ../../build/doc/sponsors.rst:53
+#: ../../build/doc/sponsors.rstNone
+msgid "Geolocation Technology Company"
+msgstr ""
+
+#: ../../build/doc/sponsors.rst:52
 msgid ""
 "Georepublic is a Geolocation Technology Company, that embraces the idea of "
 "Free Software, and provide support and custom development for Open Source "
@@ -158,7 +184,7 @@ msgstr ""
 "zahlreiche regionale und lokale `Veranstaltungen "
 "<http://www.osgeo.org/events>`_."
 
-#: ../../build/doc/sponsors.rst:59
+#: ../../build/doc/sponsors.rst:58
 msgid "Contributors"
 msgstr "Beitragende"
 
@@ -293,6 +319,8 @@ msgstr "alexander.kotsev ec.europa eu"
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/contributors.csv:1
+#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
+#: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
@@ -649,6 +677,18 @@ msgstr "daniel.kastl georepublic de"
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
 msgid "danielkastl"
 msgstr "danielkastl"
+
+#: ../../build/contributors.csv:1
+msgid "Daniele Francioli"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+msgid "daniele.francioli outlook com"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+msgid "danfra"
+msgstr ""
 
 #: ../../build/contributors.csv:1
 msgid "Danilo Bretschneider"
@@ -1347,6 +1387,18 @@ msgid "XJTUmg1007"
 msgstr "XJTUmg1007"
 
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
+msgid "Marco Minghini"
+msgstr ""
+
+#: ../../build/contributors.csv:1 ../../build/translators.csv:1
+msgid "marco.minghini86 gmail com"
+msgstr ""
+
+#: ../../build/contributors.csv:1 ../../build/translators.csv:1
+msgid "MarcoMinghini"
+msgstr ""
+
+#: ../../build/contributors.csv:1 ../../build/translators.csv:1
 msgid "Margherita Di Leo"
 msgstr "Margherita Di Leo"
 
@@ -1909,7 +1961,7 @@ msgstr "Ungarn"
 msgid "Siki"
 msgstr "Siki"
 
-#: ../../build/doc/sponsors.rst:69
+#: ../../build/doc/sponsors.rst:68
 msgid "Translators"
 msgstr "Übersetzer"
 
@@ -2451,10 +2503,12 @@ msgstr "andry"
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1
 msgid "Italian"
 msgstr "Italienisch"
 
+#: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
@@ -2540,6 +2594,10 @@ msgstr "pasquale.didonato gmail com"
 #: ../../build/translators.csv:1
 msgid "Roberta Fagandini"
 msgstr "Roberta Fagandini"
+
+#: ../../build/translators.csv:1
+msgid "Antonio Rotundo"
+msgstr ""
 
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
@@ -3007,3 +3065,19 @@ msgstr "alin.deneanu gmail com"
 #: ../../build/translators.csv:1
 msgid "alindeneanu"
 msgstr "alindeneanu"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

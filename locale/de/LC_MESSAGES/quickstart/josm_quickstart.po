@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Peter Czaja <pczaja@gmx.de>, 2019
+# Peter Czaja, 2019
 # John Kennedy <julius.krey@wheregroup.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Astrid Emde <astrid_emde@osgeo.org>, 2021
@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -68,6 +68,10 @@ msgstr ""
 "Wählen Sie auf dem Desktop :menuselection:`Navigation and Maps --> JOSM`. "
 "Wenn JOSM startet, sieht es etwa so aus:"
 
+#: ../../build/doc/quickstart/josm_quickstart.rstNone
+msgid "JOSM splash page"
+msgstr ""
+
 #: ../../build/doc/quickstart/josm_quickstart.rst:41
 msgid "Load a sample (ficticious) map"
 msgstr "Laden einer Beispielkarte (fiktiv)"
@@ -98,6 +102,10 @@ msgstr ""
 "Öffne die eben heruntergeladene Datei in JOSM durch Auswählen der "
 "Schaltfläche \"Öffnen\" oben links."
 
+#: ../../build/doc/quickstart/josm_quickstart.rst:0
+msgid "Open file"
+msgstr ""
+
 #: ../../build/doc/quickstart/josm_quickstart.rst:54
 msgid ""
 "Find the file **sample.osm**. It is probably in your Downloads folder, "
@@ -113,6 +121,10 @@ msgid ""
 msgstr ""
 "Klicken Sie auf die Ansicht und anschließend auf \"Öffnen\". Sie sollten nun"
 " eine Beispielkarte sehen, die wie folgt aussieht:"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:0
+msgid "Sample file"
+msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:62
 msgid ""
@@ -148,6 +160,10 @@ msgstr ""
 "kannst Du den Maßstabsregler links oben in der Kartenansicht verwenden. "
 "Benutze die linke Maustaste, um den Regler zu fassen und verschiebe ihn bei "
 "gedrückt gehaltener Taste."
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:0
+msgid "Scale bar"
+msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:82
 msgid ""
@@ -319,6 +335,11 @@ msgid "Until now, you have been using the Select tool, which looks like this:"
 msgstr ""
 "Bisher hast Du das Auswahl-Werkzeug verwendet, das wie folgt aussieht:"
 
+#: ../../build/doc/quickstart/josm_quickstart.rstNone
+#: ../../build/doc/quickstart/josm_quickstart.rst:0
+msgid "Select tool"
+msgstr ""
+
 #: ../../build/doc/quickstart/josm_quickstart.rst:153
 msgid "Before you draw, you need to make sure that nothing is selected."
 msgstr ""
@@ -335,6 +356,10 @@ msgstr ""
 #: ../../build/doc/quickstart/josm_quickstart.rst:157
 msgid "Click on the second button, the Draw tool."
 msgstr "Klicke auf das zweite Werkzeug, das Zeichenwerkzeug."
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:0
+msgid "Draw tool"
+msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:163
 msgid ""
@@ -519,3 +544,19 @@ msgstr ""
 #: ../../build/doc/quickstart/josm_quickstart.rst:225
 msgid "Website: https://josm.openstreetmap.de/"
 msgstr "Webseite: https://josm.openstreetmap.de/"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

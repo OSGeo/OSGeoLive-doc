@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2020\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -43,6 +43,10 @@ msgstr ""
 "vereinigen, zu speichern und anzuzeigen. Es ist außerdem sehr gut zur "
 "schnellen Entwicklung von Prototypen mit angepassten GIS Funktionen "
 "geeignet."
+
+#: ../../build/doc/overview/openjump_overview.rstNone
+msgid "openjump screenshot"
+msgstr ""
 
 #: ../../build/doc/overview/openjump_overview.rst:31
 msgid "Features (Core Features and PlugIns*)"
@@ -220,3 +224,19 @@ msgstr "Schnellstart"
 #: ../../build/doc/overview/openjump_overview.rst:94
 msgid ":doc:`Quickstart documentation <../quickstart/openjump_quickstart>`"
 msgstr ":doc:`Quickstart Dokumentation <../quickstart/openjump_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

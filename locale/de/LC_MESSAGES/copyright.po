@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 11:35-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -166,6 +166,10 @@ msgstr ""
 "heruntergeladen am 25. Juli 2011. Das ursprüngliche Werk wurde von Englisch "
 "auf Deutsch übersetzt."
 
+#: ../../build/doc/copyright.rst:0 ../../build/doc/copyright.rst:0
+msgid "CC-By-SA-med"
+msgstr ""
+
 #: ../../build/doc/copyright.rst:36
 msgid "**Concise CC-By-SA and attribution:**"
 msgstr "**Kurzgefasste CC-By-SA und Namensnennung:**"
@@ -196,6 +200,10 @@ msgstr ""
 ":doc:`OSGeoLive <index>`  Projektübersichten von  :doc:`OSGeoLive "
 "contributors <copyright>`."
 
+#: ../../build/doc/copyright.rst:0 ../../build/doc/copyright.rst:0
+msgid "CC-By-small"
+msgstr ""
+
 #: ../../build/doc/copyright.rst:47
 msgid "**Minimum (for Project Overviews), attribution only:**"
 msgstr "**Minimal (für Projektübersicht), lediglich Namensnennung:**"
@@ -205,8 +213,8 @@ msgid ""
 "This document includes :doc:`OSGeoLive <index>` Project Overviews by "
 ":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
-"Dieses Dokument enthält :doc:`OSGeoLive <index>` Projektübersichten von :doc"
-":`OSGeoLive-Mitwirkenden<copyright>`. "
+"Dieses Dokument enthält :doc:`OSGeoLive <index>` Projektübersichten von "
+":doc:`OSGeoLive-Mitwirkenden<copyright>`. "
 
 #: ../../build/doc/copyright.rst:52
 msgid "Documentation Contributors"
@@ -1483,3 +1491,19 @@ msgstr ""
 "Verarbeitung von Daten, Verluste, die von Ihnen oder anderen getragen werden"
 " müssen), selbst wenn ein Copyright-Inhaber oder Dritter über die "
 "Möglichkeit solcher Schäden unterrichtet worden war."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -106,9 +106,9 @@ msgid ""
 msgstr ""
 "Die Option --no-check weist lasinfo an, nur die Kopfzeileninformationen zur "
 "Datei zu drucken und nicht alle Punkte zu durchsuchen.  Für eine 10-Punkte-"
-"Datei ist dies natürlich kein großes Problem, aber bei einer 50- oder 500"
-"-Millionen-Punkt-Datei lohnt es sich nicht, auf einen vollständigen Scan der"
-" Daten zu warten, wenn Sie nur Header-Informationen benötigen."
+"Datei ist dies natürlich kein großes Problem, aber bei einer 50- oder "
+"500-Millionen-Punkt-Datei lohnt es sich nicht, auf einen vollständigen Scan "
+"der Daten zu warten, wenn Sie nur Header-Informationen benötigen."
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:58
 msgid ""

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-01 08:19-0600\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -57,6 +57,10 @@ msgstr "Drücke :guilabel: `Anmelden`."
 msgid "Repeat the process if needed or if you wish to change languages again."
 msgstr ""
 "Wiederholen Sie den Vorgang, wenn Sie eine andere Sprache einstellen möchten"
+
+#: ../../build/doc/quickstart/internationalisation_quickstart.rst:0
+msgid "login screen"
+msgstr ""
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:27
 msgid ""
@@ -112,3 +116,19 @@ msgid ""
 msgstr ""
 "Nun können Sie über einen Klick auf das Tastatur-Symbol in der unteren Desktop-Leiste das \n"
 "aktive Tastaturlayout auswählen."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""
