@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Cesiumクイックスタート &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="検索" href="../search.html" />
+    <link rel="copyright" title="著作権" href="../copyright.html" />
+    <link rel="next" title="GeoExt" href="../overview/geoext_overview.html" />
+    <link rel="prev" title="Cesium" href="../overview/cesium_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://cesium.com/"><img alt="../../_images/logo_cesium.png" class="align-right" src="../../_images/logo_cesium.png" /></a>
+<section id="cesium-quickstart">
+<h1>Cesiumクイックスタート<a class="headerlink" href="#cesium-quickstart" title="Permalink to this heading">¶</a></h1>
+<p>Cesiumは、プラグインなしでウェブブラウザで3D地球儀と2Dマップを作成するためのJavaScriptライブラリです。OSGeoLiveは、ハードウェアアクセラレーションによるグラフィックス処理にWebGLを使用し、クロスプラットフォーム、クロスブラウザ対応で、時間動的なデータ視覚化に合わせて調整されています。</p>
+<p>このガイドでは、Cesiumを3D(地球儀)、2.5D(コロンブスビュー)、2D(マップ)で使用する方法について説明します。</p>
+<nav class="contents local" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#start-cesium" id="id1">Cesiumの開始</a></p></li>
+<li><p><a class="reference internal" href="#search-for-a-location" id="id2">場所を検索</a></p></li>
+<li><p><a class="reference internal" href="#switch-between-3d-2-5d-and-2d" id="id3">3D、2.5D、2Dの切り替え</a></p></li>
+<li><p><a class="reference internal" href="#select-the-image-layer" id="id4">画像のレイヤを選択</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id5">次のステップ</a></p></li>
+</ul>
+</nav>
+<section id="start-cesium">
+<h2><a class="toc-backref" href="#id1" role="doc-backlink">Cesiumの開始</a><a class="headerlink" href="#start-cesium" title="Permalink to this heading">¶</a></h2>
+<p>ブラウザを開き、<a class="reference external" href="http://localhost/cesium/Apps/HelloWorld">http://localhost/cesium/Apps/HelloWorld</a>.htmlを開く</p>
+</section>
+<section id="search-for-a-location">
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">場所を検索</a><a class="headerlink" href="#search-for-a-location" title="Permalink to this heading">¶</a></h2>
+<p>虫眼鏡をクリックして、探している位置を入力します。次の表示では、インドを探します。</p>
+<a class="reference internal image-reference" href="../../_images/cesium_1_SearchingLocation.png"><img alt="Cesium Searching Location" src="../../_images/cesium_1_SearchingLocation.png" style="width: 510.99999999999994px; height: 301.7px;" /></a>
+</section>
+<section id="switch-between-3d-2-5d-and-2d">
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">3D、2.5D、2Dの切り替え</a><a class="headerlink" href="#switch-between-3d-2-5d-and-2d" title="Permalink to this heading">¶</a></h2>
+<p>ワイヤーで囲まれたビューアイコンをクリックして、希望の地球儀を選択します。ここでは、2.5D Columbusビューが選択されています。</p>
+<a class="reference internal image-reference" href="../../_images/cesium_2_2253d.png"><img alt="Cesium switching between 3D, 2.5D and 2D" src="../../_images/cesium_2_2253d.png" style="width: 510.29999999999995px; height: 302.4px;" /></a>
+<p>これで、2Dマップが選択されました。</p>
+<a class="reference internal image-reference" href="../../_images/cesium_3_2D.png"><img alt="Cesium 2D map" src="../../_images/cesium_3_2D.png" style="width: 507.49999999999994px; height: 301.7px;" /></a>
+</section>
+<section id="select-the-image-layer">
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">画像のレイヤを選択</a><a class="headerlink" href="#select-the-image-layer" title="Permalink to this heading">¶</a></h2>
+<p>最後のアイコンをクリックして、イメージサービスの種類を選択します。ここでNatural Earth IIが選択され、マップのイメージレイヤがどのように変化したかを見ることができます。</p>
+<a class="reference internal image-reference" href="../../_images/cesium_4_Layer.png"><img alt="Cesium 2D map" src="../../_images/cesium_4_Layer.png" style="width: 510.29999999999995px; height: 302.4px;" /></a>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">次のステップ</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.youtube.com/playlist?list=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V">ビデオチュートリアル</a> をご覧ください。</p></li>
+<li><p><a class="reference external" href="https://cesium.com/docs">チュートリアル</a> をお読みください。</p></li>
+<li><p><a class="reference external" href="https://sandcastle.cesium.com/index.html">Sandcastle Webサイト</a> を使用して、簡単なアプリケーションを開発できます。Sandcastleは一般的にCesiumについて学ぶ最良の方法の1つであり、すべてのコード例がこの目的に役立ちます。</p></li>
+<li><p>The <a class="reference external" href="https://community.cesium.com">Cesium Forum</a> is a great place to search for answers to common questions, and to raise questions that haven't been asked before.</p></li>
+<li><p>詳細なドキュメントは、OSGeoLiveパッケージ上で <a class="reference external" href="http://localhost/cesium/">ローカルに</a> 利用できます。</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

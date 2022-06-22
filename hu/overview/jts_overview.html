@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>JTS &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Tárgymutató" href="../genindex.html" />
+    <link rel="search" title="Keresés" href="../search.html" />
+    <link rel="copyright" title="Minden jog fenntartva" href="../copyright.html" />
+    <link rel="next" title="OGC" href="ogc_overview.html" />
+    <link rel="prev" title="PROJ gyorstalpaló" href="../quickstart/proj_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://projects.eclipse.org/projects/locationtech.jts"><img alt="../../_images/logo_jts.png" class="align-right" src="../../_images/logo_jts.png" /></a>
+<section id="jts">
+<h1>JTS<a class="headerlink" href="#jts" title="Permalink to this heading">¶</a></h1>
+<p>A JTS a térbeli predikátumok és függvények nyílt forráskódú könyvtára geometriai adatok feldolgozására. A 2-dimenziós síkon a lineáris geometriai számítások alapvető algoritmusainak teljes, konzisztens és robusztus implementációját biztosítja.</p>
+<p>A JTS tartalmazza a „JTS Test Builder”-t, melynek segítségével a felhasználó egy interaktív felhasználói felületet használhat a tesztek futtatására és a kísérletezésre. A JTS stabilitását egy kiterjedt teszt készlet biztosítja.</p>
+<p>A JTS-t a legtöbb java alapú nyílt forráskódú térinformatikai alkalmazás használja, a <a class="reference internal" href="geos_overview.html"><span class="doc">GEOS</span></a>, mely a JTS egy C++ átírása, melyet a legtöbb C alapú alkalmazás használ. További átírások érhetők el C# és JavaScript nyelvekhez.</p>
+<a class="reference internal image-reference" href="../../_images/jts_screenshot.png"><img alt="jts screenshot" class="align-right" src="../../_images/jts_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h2>Alapfunkciók<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Geometriai modell (pont, vonal, terület)</p></li>
+<li><p>Geometriai műveletek (pl., metszet, unió, beleesés, stb.)</p></li>
+<li><p>Pontosság kezelés</p></li>
+<li><p>Geometriai szerkezetek</p></li>
+<li><p>Metrikus függvények (pl., 2D távolság, Hausdorff távolság)</p></li>
+<li><p>Térbeli algoritmusok (pl. övezet generálás, vonal eltolás, vonal egyszerűsítés)</p></li>
+<li><p>Geometriai matematikai függvények (pl. szögek, távolságok, stb.)</p></li>
+<li><p>Térbeli struktúrák (pl. négyes-fa és R-fa, Delauney háromszögek)</p></li>
+<li><p>Input/Output (pl., WKT, GML)</p></li>
+<li><p>High-precision arithmetic</p></li>
+</ul>
+</section>
+<section id="supported-formats">
+<h2>Támogatott formátumok<a class="headerlink" href="#supported-formats" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Well Known Text (WKT) és Well Known Binary (WKB)</p></li>
+<li><p>GML 2</p></li>
+<li><p>Java Swing/AWT writing</p></li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h2>Implementált szabványok<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>OGC Simple Features for SQL (SFSQL)</p></li>
+</ul>
+</section>
+<section id="details">
+<h2>Részletek<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h2>
+<p><strong>Honlap:</strong> <a class="reference external" href="https://projects.eclipse.org/projects/locationtech.jts">https://projects.eclipse.org/projects/locationtech.jts</a></p>
+<p><strong>Licenc:</strong> LGPL</p>
+<p><strong>Támogatott platformok:</strong> Windows, Linux, Mac</p>
+<p><strong>API Interfészek:</strong> Java</p>
+<p><strong>Támogatás:</strong> <a class="reference external" href="https://sourceforge.net/projects/jts-topo-suite/">https://sourceforge.net/projects/jts-topo-suite/</a></p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

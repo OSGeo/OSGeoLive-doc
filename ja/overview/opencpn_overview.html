@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>OpenCPN &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="検索" href="../search.html" />
+    <link rel="copyright" title="著作権" href="../copyright.html" />
+    <link rel="next" title="OpenCPNクイックスタート" href="../quickstart/opencpn_quickstart.html" />
+    <link rel="prev" title="GpsPruneクイックスタート" href="../quickstart/gpsprune_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://www.opencpn.org"><img alt="../../_images/logo_opencpn.png" class="align-right" src="../../_images/logo_opencpn.png" /></a>
+<section id="opencpn">
+<h1>OpenCPN<a class="headerlink" href="#opencpn" title="Permalink to this heading">¶</a></h1>
+<section id="marine-gps-navigation-software">
+<h2>船舶用GPS航法ソフトウェア<a class="headerlink" href="#marine-gps-navigation-software" title="Permalink to this heading">¶</a></h2>
+<p>OpenCPNはあらゆる船型や船型の船舶を操船するためのフリーナビゲーション・ソフトウェアや、航路計画のためのオフライン・ソフトウェアを提供しています。これは、プログラムのテストと改良のために実世界の条件を使用して、アクティブな水兵のチームによって開発されました。</p>
+<p>OpenCPNは、正確な航海図画像、潮汐及び海流予測に重ね合わされた船の現在位置、速度及び針路をユーザに提示します。他の船舶の位置及び意図を記述する標準無線リンクによって受信された情報も示すことができます。</p>
+<p>ホストの船舶が移動すると、新しいチャートが選択され、ユーザ指定の解像度および詳細で表示されます。さらに、ユーザは、正確なコース追跡のための外部自動操縦装置へのインタフェースを可能にする経路およびウェイポイントを入力することができます。</p>
+<a class="reference internal image-reference" href="../../_images/opencpn_screenshot.png"><img alt="opencpn screenshot" class="align-right" src="../../_images/opencpn_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>主な機能<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<p>OpenCPN は次のものをサポートします:</p>
+<ul class="simple">
+<li><p>BSBラスター、C-MAP(CM93/2)、S-57ENCベクタ図</p></li>
+<li><p>AIS入力デコード</p></li>
+<li><p>NMEA GPS または <a class="reference external" href="https://www.berlios.de/software/gpsd/">Gpsd</a> デーモンの入力</p></li>
+<li><p>ウェイポイント/オートパイロットナビゲーション</p></li>
+<li><p>無制限のルート/マークの作成</p></li>
+<li><p>海図の繋ぎ合わせ</p></li>
+<li><p>国際化のサポート</p></li>
+<li><p>クロスプラットフォーム対応</p></li>
+<li><p>GRIB天候データオーバーレイ</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>詳細<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>ウェブサイト:</strong> <a class="reference external" href="https://www.opencpn.org">https://www.opencpn.org</a></p>
+<p><strong>ライセンス:</strong> GNU General Public License (GPL) version 2</p>
+<p><strong>ソフトウェアバージョン:</strong> 5.0.0</p>
+<p><strong>対応プラットフォーム:</strong> GNU/Linux, Mac OSX, MS Windows</p>
+<p><strong>サポート:</strong> <a class="reference external" href="https://www.cruisersforum.com/forums/f134/">https://www.cruisersforum.com/forums/f134/</a></p>
+</section>
+<section id="quickstart">
+<h3>クイックスタート<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/opencpn_quickstart.html"><span class="doc">クイックスタート文書</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

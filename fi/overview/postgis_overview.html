@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>PostGIS &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Sisällysluettelo" href="../genindex.html" />
+    <link rel="search" title="Etsi" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="PostGIS pika-aloitus" href="../quickstart/postgis_quickstart.html" />
+    <link rel="prev" title="52 North WPS Quickstart" href="../quickstart/52nWPS_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="http://postgis.net"><img alt="../../_images/logo_postgis.png" class="align-right" src="../../_images/logo_postgis.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="postgis">
+<h1>PostGIS<a class="headerlink" href="#postgis" title="Permalink to this heading">¶</a></h1>
+<section id="spatial-database">
+<h2>Paikkatietokanta<a class="headerlink" href="#spatial-database" title="Permalink to this heading">¶</a></h2>
+<p>PostGIS:in avulla voidaan hyödyntää paikkatietoja suositussa PostgreSQL relaatiotietokanta-ohjelmassa. Näin PostGIS:ia voidaan käyttää paikkatietojärjestelmien (GIS-järjestelmät) ja web-karttasovelluksien tietokantana.</p>
+<p>Markkinoiden laajimmiten käytössä oleva avoimen lähdekoodin PostGIS on vakaa, suoritustehokas, standardien mukainen, satojen paikkatietofunktioiden paikkatietokanta. PostGIS:ia käytetään eri organisaatioiden toimesta eri puolilla maailmaa. Myös riskivarmat valtioiden virastot ja muut organisaatiot hallinnoivat PostGIS:issa useiden terabittien tai miljoonien sovelluksiin kohdistuvien verkkokyselyiden edestä paikkatietoja.</p>
+<p>Tietokannan hallinta voi tapahtua työpöytäohjelmistojen tai verkkosovellusten kuten pgAdmin ja phpPgAdmin avulla. Paikkatietojen tuonti ja vienti onnistuu komento-ohjelmistoja (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis), työasemaohjelmistoja tai web-sovellukset hyödyntäen. Nämä ohjelmistot ja sovellukset pystyvät visualisoimaan ja manipuloimaan PostGIS-paikkatietokantatauluja.</p>
+<a class="reference internal image-reference" href="../../_images/postgis_screenshot.png"><img alt="postgis screenshot" class="align-right" src="../../_images/postgis_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Päätoiminnallisuudet<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Satoja paikkatietofunktioita</p>
+<ul>
+<li><p>Puskurit, yhdistämiset, päällekkäisyysanalyysit, etäisyydet ja paljon enemmän</p></li>
+</ul>
+</li>
+<li><p>ACID-transaktionaalinen eheys</p></li>
+<li><p>R-Tree spatiaalinen indeksi</p></li>
+<li><p>Usean käyttäjän tuki</p></li>
+<li><p>Rivi tason lukitus</p></li>
+<li><p>Replikointi</p></li>
+<li><p>Osiointi</p></li>
+<li><p>Rooleille perustuva suojaus</p></li>
+<li><p>Taulukko-tilat, skeemat</p></li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>Toteutetut standardit<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>OGC-standardien mukainen (SFSQL)</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Tiedot<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p>** Verkkosivut: ** <a class="reference external" href="http://postgis.net">http://postgis.net</a></p>
+<p>** Lisenssi: ** GNU General Public License (GPL) versio 2</p>
+<p>** Ohjelmistoversio: ** | versio-postgis |</p>
+<p>** Tuetut käyttöjärjestelmät: ** Windows, Linux, Mac</p>
+<p>** API-rajapinnat: ** SQL</p>
+<p><strong>Tuki:</strong> <a class="reference external" href="https://www.osgeo.org/service-providers">OSGeo service providers</a></p>
+</section>
+<section id="quickstart">
+<h3>Lähtöohjeistus<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/postgis_quickstart.html"><span class="doc">Pika-aloitusdokumentaatio</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

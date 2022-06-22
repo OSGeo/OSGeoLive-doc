@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Guía de Inicio Rápido de GeoNetwork &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="GeoServer" href="../overview/geoserver_overview.html" />
+    <link rel="prev" title="GeoNetwork" href="../overview/geonetwork_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://geonetwork-opensource.org"><img alt="../../_images/logo_geonetwork.png" class="align-right" src="../../_images/logo_geonetwork.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="geonetwork-quickstart">
+<h1>Guía de Inicio Rápido de GeoNetwork<a class="headerlink" href="#geonetwork-quickstart" title="Permalink to this heading">¶</a></h1>
+<p>GeoNetwork es una aplicación de catálogo para administrar recursos espacialmente referenciados. Proporciona poderosas funciones de edición y búsqueda de metadatos así como un interactivo visor de mapas web. Actualmente se utiliza en numerosas iniciativas de Infraestructura de Datos Espaciales en todo el mundo.</p>
+<nav class="contents local" id="contenido">
+<ul class="simple">
+<li><p><a class="reference internal" href="#prerequisites" id="id1">Prerequisitos</a></p></li>
+<li><p><a class="reference internal" href="#access-the-catalog" id="id2">Acceder al catálogo</a></p></li>
+<li><p><a class="reference internal" href="#sign-in" id="id3">Iniciar sesión</a></p></li>
+<li><p><a class="reference internal" href="#load-sample-data" id="id4">Cargar datos de muestra</a></p></li>
+<li><p><a class="reference internal" href="#search-for-spatial-data" id="id5">Buscar datos espaciales</a></p></li>
+<li><p><a class="reference internal" href="#display-results" id="id6">Mostrar resultados</a></p></li>
+<li><p><a class="reference internal" href="#add-layers-to-the-map" id="id7">Añadir capas al mapa</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id8">¿Qué sigue?</a></p></li>
+</ul>
+</nav>
+<section id="prerequisites">
+<h2><a class="toc-backref" href="#id1" role="doc-backlink">Prerequisitos</a><a class="headerlink" href="#prerequisites" title="Permalink to this heading">¶</a></h2>
+<p>GeoNetwork se puede iniciar directamente desde el menú de inicio de OSGeo Live y estará disponible en <a class="reference external" href="http://localhost:8080/geonetwork">http://localhost:8080/geonetwork</a> unos momentos después. Revisar la <a class="reference external" href="https://geonetwork-opensource.org/manuals/trunk/en/install-guide/index.html">Guía de Instalación</a> si se utiliza GeoNetwork en algún otro contexto.</p>
+<p>A lo largo de esta guía usaremos la URL <code class="docutils literal notranslate"><span class="pre">http://localhost:8880/geonetwork</span></code> para hacer referencia al catálogo, sustituya una URL diferente si esto no es correcto para su sistema.</p>
+</section>
+<section id="access-the-catalog">
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">Acceder al catálogo</a><a class="headerlink" href="#access-the-catalog" title="Permalink to this heading">¶</a></h2>
+<p>En la carpeta Servicios web del escritorio (o a través del menú Inicio), haga doble clic en <strong>Iniciar GeoNetwork</strong>. Esto abrirá el navegador web de Firefox en la URL <cite>http://localhost:8880/geonetwork`</cite>. Esto se denominará a lo largo de este documento como la <em>página de inicio</em>.</p>
+<p>Puede volver a la página de inicio en cualquier momento seleccionando el logotipo del catálogo en la parte superior izquierda de la barra de herramientas superior. En la captura de pantalla a continuación, está etiquetada como «Mi catálogo de GeoNetwork», pero puede tener un nombre y un logotipo diferentes.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_home-page.png"><img alt="../../_images/geonetwork_home-page.png" src="../../_images/geonetwork_home-page.png" style="width: 716.8px; height: 427.7px;" /></a>
+</figure>
+</section>
+<section id="sign-in">
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Iniciar sesión</a><a class="headerlink" href="#sign-in" title="Permalink to this heading">¶</a></h2>
+<p>Seleccione <strong>Iniciar sesión</strong> en la esquina superior derecha de la barra de herramientas superior de la página de inicio para visitar la página de inicio de sesión. Ingrese el nombre de usuario <code class="docutils literal notranslate"><span class="pre">admin</span></code> y la contraseña <code class="docutils literal notranslate"><span class="pre">admin</span></code> y seleccione el botón azul <strong>Iniciar sesión</strong> para ingresar como administrador del catálogo.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_signin.png"><img alt="../../_images/geonetwork_signin.png" src="../../_images/geonetwork_signin.png" style="width: 539.0px; height: 161.7px;" /></a>
+</figure>
+<p>Una vez que haya iniciado sesión, la barra de herramientas superior cambiará para incluir algunos elementos adicionales, a saber, un enlace a la consola de Administración, el nombre del usuario que inició sesión, un enlace para Cerrar Sesión y un cuadro desplegable para cambiar el idioma de la interfaz.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_identified-user.png"><img alt="../../_images/geonetwork_identified-user.png" src="../../_images/geonetwork_identified-user.png" style="width: 347.9px; height: 32.199999999999996px;" /></a>
+</figure>
+</section>
+<section id="load-sample-data">
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Cargar datos de muestra</a><a class="headerlink" href="#load-sample-data" title="Permalink to this heading">¶</a></h2>
+<p>Seleccionar <strong>Admin console</strong> en la barra de herramientas superior para acceder a las funciones administrativas del catálogo y, a continuación, seleccionar el elemento de menú <strong>Metadatos y plantillas</strong> para acceder a la pestaña de datos y plantillas de ejemplo.</p>
+<p>Esta página enumera todos los estándares de metadatos cargados en el catálogo. Los estándares predeterminados en GeoNetwork son:</p>
+<ul class="simple">
+<li><p>Información geográfica - Metadatos (iso19139:2007)</p></li>
+<li><p>Información geográfica - Metadatos (iso19115-3.2018)</p></li>
+<li><p>Núcleo Dublin (solo para CSW) (csw-record)</p></li>
+<li><p>Núcleo Dublin (núcleo dublin)</p></li>
+<li><p>Información geográfica - Metodología para la catalogación de características (iso9110)</p></li>
+</ul>
+<p>Para los fines de esta Guía de inicio rápido, seleccione  <code class="docutils literal notranslate"><span class="pre">Información</span> <span class="pre">geográfica</span> <span class="pre">-</span> <span class="pre">Metadatos</span> <span class="pre">(iso19139:2007)</span></code> y luego seleccione primero el botón <strong>Cargar muestras para los estándares seleccionados</strong> debajo de la lista.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_templates.png"><img alt="../../_images/geonetwork_templates.png" src="../../_images/geonetwork_templates.png" style="width: 534.1px; height: 467.59999999999997px;" /></a>
+</figure>
+<p><em>Cuando se complete este proceso, aparecerá un aviso a la derecha de la ventana que indica que se han agregado 5 registro(s) para el esquema ‘iso19139’.</em></p>
+</section>
+<section id="search-for-spatial-data">
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">Buscar datos espaciales</a><a class="headerlink" href="#search-for-spatial-data" title="Permalink to this heading">¶</a></h2>
+<p>Regrese a la página de inicio del catálogo seleccionando el nombre del catálogo en la parte superior izquierda de la barra de herramientas superior. La página de inicio ahora mostrará íconos que representan los registros cargados, clasificados por tema (en azul) y tipo de recurso (en verde). Debajo de esto hay pestañas que clasifican los registros por fecha de adición (últimas noticias) y popularidad (más populares).</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_screenshot.png"><img alt="../../_images/geonetwork_screenshot.png" src="../../_images/geonetwork_screenshot.png" style="width: 716.8px; height: 532.0px;" /></a>
+</figure>
+<p>Seleccione <strong>Buscar</strong> en la barra de herramientas superior para acceder a la página Buscar.</p>
+<p>La página de Búsqueda proporciona diferentes formas de búsqueda:</p>
+<ul class="simple">
+<li><p>un cuadro de búsqueda de texto completo que proporciona sugerencias mientras escribe,</p></li>
+</ul>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_full-text.png"><img alt="../../_images/geonetwork_full-text.png" src="../../_images/geonetwork_full-text.png" style="width: 415.79999999999995px; height: 43.4px;" /></a>
+</figure>
+<ul class="simple">
+<li><p><em>Facetas de búsqueda</em> o filtros que proporcionan formas de reducir los resultados de búsqueda, como <em>Tipo de recurso</em> , <em>Tema</em> , <em>Palabras clave</em> ,</p></li>
+</ul>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_facets.png"><img alt="../../_images/geonetwork_facets.png" src="../../_images/geonetwork_facets.png" style="width: 215.6px; height: 248.49999999999997px;" /></a>
+</figure>
+<ul class="simple">
+<li><p>Un mapa general, donde puede dibujar un cuadro para filtrar los resultados espacialmente (Sugerencia- si no puede ver esto, seleccione MAPA en la esquina inferior derecha de su página)</p></li>
+</ul>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_spatial-filter.png"><img alt="../../_images/geonetwork_spatial-filter.png" src="../../_images/geonetwork_spatial-filter.png" style="width: 169.39999999999998px; height: 162.39999999999998px;" /></a>
+</figure>
+<ul class="simple">
+<li><p>Al seleccionar los puntos suspensivos verticales en el cuadro de búsqueda, puede acceder al panel de <strong>búsqueda avanzada</strong> y buscar por <em>categoría</em>, <em>palabra clave</em>, <em>contacto</em> o registros dentro de un período de tiempo específico.</p></li>
+</ul>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_advanced.png"><img alt="../../_images/geonetwork_advanced.png" src="../../_images/geonetwork_advanced.png" style="width: 640.5px; height: 142.79999999999998px;" /></a>
+</figure>
+</section>
+<section id="display-results">
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">Mostrar resultados</a><a class="headerlink" href="#display-results" title="Permalink to this heading">¶</a></h2>
+<p>Los resultados de la búsqueda se representan como «tarjetas», que muestran las Categorías con las que se clasifican los metadatos, el título del registro, una miniatura, un resumen (si está presente) y enlaces a descargas y otros recursos (si se presentan).</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_a-result.png"><img alt="../../_images/geonetwork_a-result.png" src="../../_images/geonetwork_a-result.png" style="width: 315.7px; height: 177.1px;" /></a>
+</figure>
+<p>Seleccione una tarjeta para llevarlo a una página que muestre los detalles completos de ese registro. Seleccione el botón azul <strong>Volver a buscar</strong> para volver a la página de Búsqueda cuando haya terminado.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_a-record.png"><img alt="../../_images/geonetwork_a-record.png" src="../../_images/geonetwork_a-record.png" style="width: 716.8px; height: 448.7px;" /></a>
+</figure>
+<p>En la parte superior derecha del registro hay iconos para:</p>
+<ul class="simple">
+<li><p>Edición del registro (cuando inicia sesión)</p></li>
+<li><p>Eliminar el registro</p></li>
+<li><p>Administrar el registro (como asignar privilegios de visualización o edición, transferir la propiedad a un usuario diferente)</p></li>
+<li><p>Descargar el registro en múltiples formatos</p></li>
+<li><p>Cambiar a <strong>Vista completa</strong> o <strong>vista XML</strong></p></li>
+</ul>
+<p>Cambiar a la <strong>Vista completa</strong> mostrará metadatos más detallados. Para volver a la vista original, seleccione <strong>Vista predeterminada</strong> de la lista.</p>
+</section>
+<section id="add-layers-to-the-map">
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">Añadir capas al mapa</a><a class="headerlink" href="#add-layers-to-the-map" title="Permalink to this heading">¶</a></h2>
+<p>En la <strong>pestaña Buscar</strong>, haga click en la tarjeta del <strong>Mapa fisiográfico del norte y centro de Eurasia (¡Registro de muestra, elimínelo!)</strong> para ver los metadatos. Desplácese hacia abajo de la página hasta que la sección <strong>Descargar y enlaces</strong> esté visible.</p>
+<p>La sección <strong>Descarga y enlaces</strong> muestra recursos externos asociados con el registro de metadatos, como:</p>
+<ul class="simple">
+<li><p>Una descarga de archivos de los datos,</p></li>
+<li><p>Más información, como una página web,</p></li>
+<li><p>Un enlace de Servicio de Mapeo Web (WMS) o Servicio de Funciones Web (WFS) a los datos.</p></li>
+</ul>
+<p>Busque el enlace etiquetado como <strong>Este conjunto de datos se publica en el servicio de visualización (WMS) disponible en http://data.fao.org/maps/wms con el nombre de capa GEONETWORK:phy_landf_7386.</strong> y seleccione <strong>Agregar al mapa</strong> .</p>
+<p>Este paso lo cambiará a la pestaña <strong>Mapa</strong> en el catálogo, y después de un breve retraso, la capa WMS se agregará al mapa.</p>
+<p>Las herramientas para usar el Mapa están organizadas en dos grupos en el lado derecho del mapa. El grupo superior se ve así:</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_maptools_top.png"><img alt="../../_images/geonetwork_maptools_top.png" src="../../_images/geonetwork_maptools_top.png" style="width: 27.299999999999997px; height: 203.0px;" /></a>
+</figure>
+<p>Las herramientas son las siguientes:</p>
+<ul class="simple">
+<li><p>Agrega nuevas capas al mapa. Puede buscar en el catálogo, agregar capas de servicios web o KML,</p></li>
+<li><p>Administre las capas existentes o cambie el mapa de fondo (el valor predeterminado es openstreetmap),</p></li>
+<li><p>Filtrar capas en el mapa (si está configurado),</p></li>
+<li><p>Administre el Mapa volviéndolo a la configuración predeterminada, cargando una nueva definición de mapa, descargando el mapa actual o guardando la configuración del mapa como una capa en el catálogo,</p></li>
+<li><p>Imprimir el mapa,</p></li>
+<li><p>Sincronizar capas con el mapa pequeño en la pestaña Buscar,</p></li>
+<li><p>Medir distancias en el mapa,</p></li>
+<li><p>Dibujar anotaciones en el mapa.</p></li>
+</ul>
+<p>El grupo inferior de herramientas se ve así:</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_maptools_bottom.png"><img alt="../../_images/geonetwork_maptools_bottom.png" src="../../_images/geonetwork_maptools_bottom.png" style="width: 28.7px; height: 126.69999999999999px;" /></a>
+</figure>
+<p>Son los siguientes:</p>
+<ul class="simple">
+<li><p>Zoom en el mapa,</p></li>
+<li><p>Alejar en el mapa,</p></li>
+<li><p>Zoom a la extensión inicial del mapa,</p></li>
+<li><p>Zoom a su posición (si su navegador está habilitado para la ubicación),</p></li>
+<li><p>Agregue una retícula (líneas de cuadrícula) a su mapa.</p></li>
+</ul>
+<p>Además, hay una herramienta de búsqueda geográfica en la parte superior izquierda.</p>
+<p>Con la herramienta Administrar Capas, seleccione el símbolo de engranaje junto a <strong>Fisiografía de la Forma de Relieve de Eurasia Norte y Central</strong> y seleccione <strong>Zoom a capa</strong>.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_manage_layers_cog.png"><img alt="../../_images/geonetwork_manage_layers_cog.png" src="../../_images/geonetwork_manage_layers_cog.png" style="width: 291.9px; height: 272.29999999999995px;" /></a>
+</figure>
+<p>El mapa se ampliará en la medida de esta capa.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_zoom_to_layer.png"><img alt="../../_images/geonetwork_zoom_to_layer.png" src="../../_images/geonetwork_zoom_to_layer.png" style="width: 1302.0px; height: 576.8px;" /></a>
+</figure>
+<p>Seleccione el ícono de <strong>pincel</strong> al lado de la capa para ver la leyenda, que le muestra la clasificación utilizada para la pantalla. Puede descartar este cuadro de diálogo seleccionando la <strong>X</strong> en la esquina superior derecha.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_layer_legend.png"><img alt="../../_images/geonetwork_layer_legend.png" src="../../_images/geonetwork_layer_legend.png" style="width: 249.89999999999998px; height: 357.7px;" /></a>
+</figure>
+<p>Seleccione una característica en el mapa correspondiente a una categoría en la leyenda, como un área de agua. Haga zoom y panee el mapa según sea necesario para identificar un área adecuada. Al hacer click en la función, aparecerá un cuadro de identificación en la parte inferior del mapa que muestra detalles sobre el área seleccionada.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_maplayer_infoclick.png"><img alt="../../_images/geonetwork_maplayer_infoclick.png" src="../../_images/geonetwork_maplayer_infoclick.png" style="width: 1271.1999999999998px; height: 535.5px;" /></a>
+</figure>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id8" role="doc-backlink">¿Qué sigue?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<p>Visita la <a class="reference external" href="https://geonetwork-opensource.org/manuals/trunk/en/user-guide/index.html">Guía de Usuario de Geonetwork</a> y pruebe el capítulo sobre <strong>Describiendo información</strong>, para aprender cómo crear y editar registros de metadatos.</p>
+<p>Realice un seguimiento visitando capítulos posteriores para aprender cómo asociar recursos con metadatos, etiquetarlos con palabras clave y agregarlos a categorías y publicar sus metadatos en el mundo exterior.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

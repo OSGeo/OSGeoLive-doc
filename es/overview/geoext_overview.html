@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>GeoExt &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Inicio Rápido de GeoExt" href="../quickstart/geoext_quickstart.html" />
+    <link rel="prev" title="Inicio Rápido de Cesium" href="../quickstart/cesium_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://geoext.github.io/geoext3"><img alt="../../_images/logo_geoext.png" class="align-right" src="../../_images/logo_geoext.png" /></a>
+<section id="geoext">
+<h1>GeoExt<a class="headerlink" href="#geoext" title="Permalink to this heading">¶</a></h1>
+<section id="a-javascript-toolkit-for-rich-web-mapping-applications">
+<h2>Un kit de herramientas de JavaScript para aplicaciones de mapeo web enriquecidas<a class="headerlink" href="#a-javascript-toolkit-for-rich-web-mapping-applications" title="Permalink to this heading">¶</a></h2>
+<p>GeoExt es de código abierto y permite la creación de aplicaciones SIG de escritorio a través de la web. Es un marco JavaScript que combina la funcionalidad SIG de <a class="reference external" href="https://openlayers.org/">OpenLayers</a> con la interfaz de usuario de la librería <a class="reference external" href="https://www.sencha.com/products/extjs/">ExtJS</a> proporcionada por <a class="reference external" href="https://www.sencha.com">Sencha</a>.</p>
+<p>Los componentes de la interfaz de usuario incluyen un panel de mapa, un panel de árbol de capas, una cuadrícula de características y un mapa general. Los componentes GeoExt se pueden usar como cualquier otro componente ExtJS y se pueden configurar y ampliar fácilmente. Las clases de nivel inferior también están disponibles, lo que permite que las características y capas de OpenLayers se utilicen como modelos de datos ExtJS y que se serialicen varios tipos de capas de mapa.</p>
+<p>GeoExt3 tiene doble licencia. La licencia que elija depende de la licencia del mar o de trabajo ExtJS que use con él. Si está utilizando la versión GPL v3 del marco ExtJS, la usará en GPLv3. Si posee una licencia comercial Sencha ExtJS, tiene derecho a usar GeoExt3 bajo la licencia BSD.</p>
+<a class="reference internal image-reference" href="../../_images/geoext_screenshot.png"><img alt="pantalla de geoext" class="align-right" src="../../_images/geoext_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Características Principales<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Componentes de la IU</p>
+<ul>
+<li><p>Panel de mapas</p></li>
+<li><p>Mapa general</p></li>
+<li><p>Ventanas emergentes</p></li>
+<li><p>Renderizador de funciones</p></li>
+<li><p>Árbol de capas, leyendas y orden de capas de arrastrar y soltar</p></li>
+</ul>
+</li>
+<li><p>Modelos de Datos y Tiendas</p>
+<ul>
+<li><p>Integración del modelo de datos OpenLayers con el modelo de datos ExtJS que permite la clasificación y el filtrado de características utilizando componentes ExtJS</p></li>
+<li><p>Tiendas y modelos de ExtJS para características y capas de OpenLayers</p></li>
+</ul>
+</li>
+<li><p>Varios</p>
+<ul>
+<li><p>Integración con <a class="reference external" href="http://mapfish.github.io/mapfish-print-doc/">Impresión de MapFish</a> y el <a class="reference external" href="https://docs.geoserver.org/latest/en/user/extensions/printing/index.html">Módulo de Impresión GeoServer</a></p></li>
+<li><p>Serializadores de capa (WMS, WMTS, XYZ)</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="details">
+<h3>Detalles<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Sitio web:</strong> <a class="reference external" href="https://geoext.github.io/geoext3">https://geoext.github.io/geoext3</a></p>
+<p>Licencia: la licencia GPLv3 o BSD depende de la licencia deExtJS; consulte  <a class="reference external" href="https://github.com/geoext/geoext3/blob/master/LICENSE">licencias</a> y <a class="reference external" href="https://github.com/geoext/geoext3/blob/master/LICENSE-FAQ.md">Preguntas Frecuentes sobre Licencias</a></p>
+<p><strong>Versión de software:</strong> 3.1.0</p>
+<p><strong>Interfaces API:</strong> Javascript</p>
+<p><strong>Soporte:</strong> Lista de correo <a class="reference external" href="https://www.geoext.org/cgi-bin/mailman/listinfo/users">https://www.geoext.org/cgi-bin/mailman/listinfo/users</a> y <a class="reference external" href="https://stackoverflow.com/questions/tagged/geoext3">https://stackoverflow.com/questions/tagged/geoext3</a></p>
+</section>
+<section id="quickstart">
+<h3>Guía de Inicio Rápido<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/geoext_quickstart.html"><span class="doc">Documentación de inicio rápido</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>MapServer &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
+    <link rel="search" title="Suche" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="MapServer Quickstart" href="../quickstart/mapserver_quickstart.html" />
+    <link rel="prev" title="MapCache Quickstart" href="../quickstart/mapcache_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://mapserver.org"><img alt="../../_images/logo_mapserver.png" class="align-right" src="../../_images/logo_mapserver.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="mapserver">
+<h1>MapServer<a class="headerlink" href="#mapserver" title="Permalink to this heading">¶</a></h1>
+<section id="web-service">
+<h2>Web Service<a class="headerlink" href="#web-service" title="Permalink to this heading">¶</a></h2>
+<p>MapServer ist eine <a class="reference external" href="https://opensource.org/">Open Source</a> Software zur Visualisierung von räumlichen Daten, die in der Sprache C geschrieben wurde. Neben der Anzeige von Geodaten können MapServer Anwendungen den Nutzer über die Karte zu thematischen Inhalten weiterleiten. Beispielsweise stellt der Minnesota DNR <a class="reference external" href="http://www.dnr.state.mn.us/maps/compass.html">Recreation Compass</a> seinen Nutzern mehr als 10000 Webseiten, Berichte und Karten über eine einzige Anwendung zur Verfügung. Die Anwendung dient als Kartenkomponente und verlinkt auf andere Bereiche der Seite. Sie stellt je nach Thema einen räumlichen Kontext her.</p>
+<p>MapServer wurde ursprünglich durch das ForNet Projekt an der Universität von Minnesota (UMN) in Zusammenarbeit mit der NASA und dem Minnesota Department of Natural Resources (MNDNR) entwickelt. Danach wurde MapServer vom NASA-finanzierten TerraSIP-Projekt getragen, in dem die University of Minnesota mit einem Konsortium für Bodenordnung und Landentwicklung zusammenarbeitete.</p>
+<p>MapServer ist nun ein Projekt der <a class="reference external" href="https://www.osgeo.org">OSGeo</a> und wird von einer wachsenden Anzahl an Entwicklern (etwa 20), die weltweit vertreten sind, betreut. Das Projekt wird von diversen Organisationen unterstützt, die die Unterhaltung und Weiterentwicklung unterstützten. MapServer wird innerhalb der OSGeo durch das MapServer Project Steering Committee administriert, das sich aus Entwicklern und engagierten Mitwirkenden zusammensetzt.</p>
+<a class="reference internal image-reference" href="../../_images/mapserver_screenshot.png"><img alt="mapserver screenshot" class="align-right" src="../../_images/mapserver_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Kernfunktionen<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Leistungsstarke kartographische Ausgabe</p>
+<ul>
+<li><p>Maßstabsabhängige Anzeige und Anwendungsausführung</p></li>
+<li><p>Objektbeschriftungen mit Vermeidung von Überlappungen</p></li>
+<li><p>TrueType Schriften zur Beschriftung und Symboldarstellung</p></li>
+<li><p>Generierung von Kartenelementen (Maßstabsleiste, Referenzkarte, Legende)</p></li>
+<li><p>Thematische Karten durch die Nutzung von logischen Klassen oder über reguläre Ausdrücke definierte Klassen</p></li>
+<li><p>Erweiterung um weitere Ausgabeformate durch Treiber für AGG, Cairo, GD und OpenGL und andere</p></li>
+<li><p>Spezielle Generierung von Kacheln</p></li>
+<li><p>Maskieren von Ebenen</p></li>
+<li><p>Präzise Symbolplatzierung</p></li>
+<li><p>Komplexe Mehrfachbeschriftung/komplexe Symbolik</p></li>
+<li><p>Vektorfelder</p></li>
+<li><p>Label Leader Offsetting</p></li>
+<li><p>Unterstützung von SVG-Symbolen</p></li>
+<li><p>Unterstützung verschiedener Schriften</p></li>
+<li><p>Dynamische Heatmaps</p></li>
+<li><p>Unterstützung von UTF-Grids</p></li>
+<li><p>Layer Compositing</p></li>
+</ul>
+</li>
+<li><p>Unterstützung anspruchsvoller räumlicher Abfragen</p>
+<ul>
+<li><p>Ermittlung von Objekten über Attribute, Punkt, Umgebungsrechteck oder Geometrie über ein oder mehrere Layer hinweg</p></li>
+<li><p>Unterstützung von Abfragen auf Rasterdaten</p></li>
+<li><p>Vollständig anpassbare vorlagenbasierte Ausgabe</p></li>
+<li><p>OGR-basierte Ausgabe von Abfrageergebnissen</p></li>
+</ul>
+</li>
+<li><p>Unterstützung für beliebte scripting und Entwicklungsumgebungen</p>
+<ul>
+<li><p>CGI/FastCGI</p></li>
+<li><p>PHP, Python, Perl, Ruby, Java, und .NET</p></li>
+</ul>
+</li>
+<li><p>Betriebssystemübergreifende Unterstützung</p>
+<ul>
+<li><p>Linux, Windows, Mac OS X, Solaris und mehr</p></li>
+</ul>
+</li>
+<li><p>zahlreiche Raster- und Vektordatenformate</p>
+<ul>
+<li><p>Native Unterstützung von ESRI Shapes, PostGIS, ESRI ArcSDE und Oracle Spatial</p></li>
+<li><p>Viele andere Formate über GDAL und OGR</p></li>
+</ul>
+</li>
+<li><p>Karten Umprojektion</p>
+<ul>
+<li><p>On-the-fly Umprojektion für tausende Projektionen durch die Verwendung der Proj.4 Bibliothek</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>Unterstützte Standards<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Unterstützung zahlreicher Open Geospatial Consortium (OGC) Standards</p>
+<ul>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> (client/server)</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> (nicht transaktional, Client/Server)</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wmc">Web Map Context (WMC)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/filter">Filter Encoding (FE)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/sld">Styled Layer Descriptor (SLD)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/gml">Geography Markup Language (GML)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/sos">Sensor Observation Service (SOS)</a></p></li>
+<li><p>OM</p></li>
+</ul>
+</li>
+<li><p>INSPIRE View Service</p></li>
+</ul>
+</section>
+<section id="demo">
+<h3>Demo<a class="headerlink" href="#demo" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="http://localhost/mapserver_demos/itasca/">Itasca</a></p></li>
+</ul>
+</section>
+<section id="documentation">
+<h3>Dokumentation<a class="headerlink" href="#documentation" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://localhost/mapserver/doc/index.html">MapServer 7.0 Documentation</a></p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Details<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Webseite:</strong> <a class="reference external" href="https://mapserver.org">https://mapserver.org</a></p>
+<p><strong>Lizenz:</strong> <a class="reference external" href="https://mapserver.org/copyright.html#license">MIT-style license</a></p>
+<p><strong>Software Version:</strong> 7.6.2</p>
+<p><strong>Unterstützte Plattformen:</strong> Windows, Linux, Mac</p>
+<p><strong>API Schnittstellen:</strong> C, PHP, Python, Perl, Ruby, Java, and .NET</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://mapserver.org/community/">https://mapserver.org/community/</a></p>
+</section>
+<section id="quickstart">
+<h3>Schnellstart<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/mapserver_quickstart.html"><span class="doc">Quickstart Dokumentation</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

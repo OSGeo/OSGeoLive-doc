@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>GeoStyler &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Sisällysluettelo" href="../genindex.html" />
+    <link rel="search" title="Etsi" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="GeoStyler Quickstart" href="../quickstart/geostyler_quickstart.html" />
+    <link rel="prev" title="OpenLayers Pika-aloitus" href="../quickstart/openlayers_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://geostyler.org"><img alt="../../_images/logo_geostyler.png" class="align-right" src="../../_images/logo_geostyler.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
+<section id="geostyler">
+<h1>GeoStyler<a class="headerlink" href="#geostyler" title="Permalink to this heading">¶</a></h1>
+<p>GeoStyler is an Open Source JavaScript library that enables users to style maps with the help of a Graphical User Interface.
+The goal of GeoStyler is a universally applicable GUI that works with any given style format; be it SLD, QML, OpenLayers, etc.</p>
+<p>GeoStyler provides a set of UI Components for map styling. Just like a modular building block system all components can be stacked
+together to create a nice UI for your web applications. To simplify the setup, we also provide some high-level components
+(based on our building blocks) that already do the work for you. These include, among many others, Symbolizer Editors, RuleTables and
+a fully-fledged StyleEditor including filters and scale denominators.</p>
+<p>Furthermore, GeoStyler allows for the translation between multiple styling formats, i.e. SLD, OpenLayers, QGIS, Mapbox. Since we are
+following the concept of micro packages, these translators (we call them parsers) can be used as standalone libraries, without the need to
+include the UI components as a dependency. Currently we have parsers for SLD, QGIS-styles, Mapbox styles and OpenLayers styles. Parsing of
+Mapfiles is in the works. Please take a look at StyleParser Implementations. Since attributively styling geodata is easier when you can look
+at the data to be styled, we can connect to several datasources like WFS, Shapefiles and GeoJSON files. We plan on developing a data reader for
+the Geopackage format.</p>
+<a class="reference internal image-reference" href="../../_images/geostyler_screenshot.png"><img alt="geostyler screenshot" class="align-right" src="../../_images/geostyler_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h2>Core Features<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Generic - not bound to one format only</p></li>
+<li><p>Supports common formats (e.g. SLD, QGIS) already out of the box</p></li>
+<li><p>Graphical User Interface (GUI) including support for reordering of rules, a mapview, pickers for colors and symbols and a ton more</p></li>
+<li><p>Has a GUI - but you are not required to use it</p></li>
+<li><p>Extensible - you’re invited to build your own data readers or parsers</p></li>
+<li><p>Continues to grow - we are planning new features (like a commandline interface, more parsers etc.) and small improvements</p></li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h2>Implemented Standards<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.ogc.org/standards/filter">Filter Encoding (FE)</a></p></li>
+<li><p>Geographic JSON (GeoJSON)</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org">Open Geospatial Consortium (OGC)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/sld">Styled Layer Descriptor (SLD)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a></p></li>
+</ul>
+</section>
+<section id="details">
+<h2>Details<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h2>
+<p><strong>Website:</strong> <a class="reference external" href="https://geostyler.org">https://geostyler.org</a></p>
+<p><strong>Licence:</strong> BSD-2-Clause</p>
+<p><strong>Software Version:</strong> 4.6.0</p>
+<p><strong>API Interfaces:</strong> JavaScript</p>
+<p><strong>Support:</strong> Issues on <a class="reference external" href="https://github.com/geostyler/geostyler">https://github.com/geostyler/geostyler</a></p>
+<p><strong>Developers:</strong> <a class="reference external" href="https://github.com/geostyler/geostyler/graphs/contributors">https://github.com/geostyler/geostyler/graphs/contributors</a></p>
+</section>
+<section id="quickstart">
+<h2>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/geostyler_quickstart.html"><span class="doc">Quickstart documentation</span></a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

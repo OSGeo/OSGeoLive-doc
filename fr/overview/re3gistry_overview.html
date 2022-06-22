@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Re3gistry &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Re3gistry Quickstart" href="../quickstart/re3gistry_quickstart.html" />
+    <link rel="prev" title="Guide de démarrage avec QGIS Server" href="../quickstart/qgis_mapserver_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://inspire.ec.europa.eu/about-inspire/563"><img alt="../../_images/logo_inspire.png" class="align-right" src="../../_images/logo_inspire.png" /></a>
+<section id="re3gistry">
+<h1>Re3gistry<a class="headerlink" href="#re3gistry" title="Lien permanent vers cette rubrique">¶</a></h1>
+<section id="about">
+<h2>A propos<a class="headerlink" href="#about" title="Lien permanent vers cette rubrique">¶</a></h2>
+<p>Re3gistry 2 est une solution open source réutilisable pour la gestion et le partage de « codes de référence ». Initialement développé comme un élément central de l’infrastructure <a class="reference internal" href="inspire_overview.html"><span class="doc">INSPIRE</span></a>, il fournit un point d’accès central cohérent où les étiquettes et les descriptions des codes de référence peuvent être facilement parcourues par les humains et récupérées par des machines. Les codes de référence sont échangés entre les applications pour référencer uniquement quelque chose. Ils peuvent être utilisés pour définir des ensembles de valeurs admissibles pour un champ de données ou pour fournir une référence ou un contexte pour les données échangées. Par exemple, les énumérations, les vocabulaires contrôlés, les taxonomies, les thésaurus ou, tout simplement, les « listes de choses ». Le Re3gistry 2 soutient les organisations dans la gestion et la mise à jour cohérentes des codes de référence. Les numéros de version du logiciel Re3gistry sont conformes à la spécification de version sémantique 2.0.0.</p>
+<a class="reference internal image-reference" href="../../_images/re3gistry_screenshot.png"><img alt="re3gistry screenshot" class="align-right" src="../../_images/re3gistry_screenshot.png" style="width: 500px;" /></a>
+</section>
+<section id="core-features">
+<h2>Fonctionnalités principales<a class="headerlink" href="#core-features" title="Lien permanent vers cette rubrique">¶</a></h2>
+<ul class="simple">
+<li><p>Interface d’édition conviviale pour ajouter, modifier et gérer facilement les registres et les codes de référence</p></li>
+<li><p>Gestion du cycle de vie complet des codes de référence (basé sur le standard ISO 19135)</p></li>
+<li><p>Modèles de données très flexibles et personnalisables</p></li>
+<li><p>Prise en charge du contenu multilingue</p></li>
+<li><p>Prise en charge de la version</p></li>
+<li><p>API RESTful avec négociation de contenu (y compris le descripteur OpenAPI 3)</p></li>
+<li><p>Recherche en plein text</p></li>
+<li><p>Formats pris en charge : HTML, XML ISO 19135, JSON</p></li>
+<li><p>Les formats de service peuvent être facilement ajoutés ou personnalisés (formats par défaut : JSON et ISO 19135 XML)</p></li>
+<li><p>Options d’authentification multiples</p></li>
+<li><p>Éléments gérés par l’extérieur référencés par l’intermédiaire d’URIs</p></li>
+<li><p>Prise en charge du format de fédération d’enregistrement INSPIRE (option pour créer automatiquement le format RoR)</p></li>
+<li><p>Application Web pour accéder aux codes de référence d’une manière lisible par l’humain.</p></li>
+</ul>
+</section>
+<section id="details">
+<h2>Détails<a class="headerlink" href="#details" title="Lien permanent vers cette rubrique">¶</a></h2>
+<p><strong>Site web:</strong> <a class="reference external" href="https://github.com/ec-jrc/re3gistry">https://github.com/ec-jrc/re3gistry</a></p>
+<p><strong>Licence :</strong> EUPL</p>
+<p><strong>Version :</strong> 2.0.0</p>
+<p><strong>Plates-formes supportées:</strong> Windows, Linux</p>
+<p><strong>Interface d’API:</strong> Java</p>
+<p><strong>Support :</strong> <a class="reference external" href="https://github.com/ec-jrc/re3gistry">https://github.com/ec-jrc/re3gistry</a></p>
+<p><strong>Manuel d’utilisation :</strong> <a class="reference external" href="https://github.com/ec-jrc/re3gistry/blob/master/documentation/user-manual.md">https://github.com/ec-jrc/re3gistry/blob/master/documentation/user-manual.md</a></p>
+<p><strong>Manuel d’administration :</strong> <a class="reference external" href="https://github.com/ec-jrc/re3gistry/blob/master/documentation/administrator-manual.md">https://github.com/ec-jrc/re3gistry/blob/master/documentation/administrator-manual.md</a></p>
+<p><strong>Manuel de développement :</strong> <a class="reference external" href="https://github.com/ec-jrc/re3gistry/blob/master/documentation/developer-manual.md">https://github.com/ec-jrc/re3gistry/blob/master/documentation/developer-manual.md</a></p>
+</section>
+<section id="quickstart">
+<h2>Guide de démarrage rapide<a class="headerlink" href="#quickstart" title="Lien permanent vers cette rubrique">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/re3gistry_quickstart.html"><span class="doc">Guide de démarrage rapide</span></a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

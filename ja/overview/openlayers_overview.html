@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>OpenLayers &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="検索" href="../search.html" />
+    <link rel="copyright" title="著作権" href="../copyright.html" />
+    <link rel="next" title="OpenLayersクイックスタート" href="../quickstart/openlayers_quickstart.html" />
+    <link rel="prev" title="Mapbender Quickstart" href="../quickstart/mapbender_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://openlayers.org/"><img alt="../../_images/logo_openlayers.png" class="align-right" src="../../_images/logo_openlayers.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="openlayers">
+<h1>OpenLayers<a class="headerlink" href="#openlayers" title="Permalink to this heading">¶</a></h1>
+<section id="a-high-performance-feature-packed-library-for-all-your-mapping-needs">
+<h2>すべてのマッピングのニーズを満たす、ハイパフォーマンス、多機能なライブラリ<a class="headerlink" href="#a-high-performance-feature-packed-library-for-all-your-mapping-needs" title="Permalink to this heading">¶</a></h2>
+<p>OpenLayersを使用すると、任意のWebページに動的な地図を簡単に配置できます。任意のソースから地図タイル、ベクタデータやマーカーをロードして表示可能です。OpenLayers はすべての種類の地理情報のさらなる利用のために開発されてきました。完全にフリーなオープンソース JavaScript で、2条項 BSD ライセンス (FreeBSD ライセンスとしても知られています) でリリースされています。</p>
+<a class="reference internal image-reference" href="../../_images/openlayers_screenshot.png"><img alt="openlayers screenshot" class="align-right" src="../../_images/openlayers_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>主な機能<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>レイヤ</p>
+<ul>
+<li><p>ラスタ: WMS/WMTS, OpenStreetMap, Stamen, Bing, その他 XYZ ソース, 静的画像など</p></li>
+<li><p>ベクタ: WFS, KML, GeoJSON, TopoJSON, GPX, GML, MapBox ベクタタイル</p></li>
+<li><p>ヒートマップ</p></li>
+<li><p>ベクタレイヤをラスタとして描画</p></li>
+</ul>
+</li>
+<li><p>コントロールとインタラクション</p>
+<ul>
+<li><p>地図オーバービュー、ズームスライダー、ズームイン/アウト ボタン、縮尺バー、回転など</p></li>
+<li><p>地図の移動、ズームと回転、地物の選択、編集など</p></li>
+</ul>
+</li>
+<li><p>スタイリングとカスタマイズ</p>
+<ul>
+<li><p>強力な地物のスタイリング機能: ポイント、ライン、ポリゴンとアイコン</p></li>
+<li><p>CSS3 を利用したコントロールのルック&amp;フィールのカスタマイズ</p></li>
+</ul>
+</li>
+<li><p>オーバーレイ</p>
+<ul>
+<li><p>地図上の任意の位置への任意の DOM 要素描画</p></li>
+<li><p>ツールチップとマーカー作成の高柔軟性</p></li>
+<li><p>HTML5 の能力を地図アプリケーションに混合</p></li>
+</ul>
+</li>
+<li><p>イベント</p>
+<ul>
+<li><p>リスナー関数を地図イベントに対する反応としてアタッチ</p></li>
+<li><p>カスタムコントロールやインタラクションの作成</p></li>
+</ul>
+</li>
+<li><p>その他</p>
+<ul>
+<li><p>モバイルブラウザ対応</p></li>
+<li><p>ラスタ再投影</p></li>
+<li><p>軽量ライブラリ。サイズを減らすため、カスタマイズパッケージとしてビルド</p></li>
+<li><p>地図を異なる技術で描画: Canvas、WebGL</p></li>
+<li><p>ラスタ解析 (色調/彩度の変更)</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="details">
+<h3>詳細<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Webサイト:</strong> <a class="reference external" href="https://openlayers.org/">https://openlayers.org/</a></p>
+<p><strong>ライセンス:</strong> 2-clause BSD License (FreeBSD License として知られています)</p>
+<p><strong>ソフトウェアバージョン:</strong> 6.5.0</p>
+<p><strong>API インタフェース:</strong> JavaScript</p>
+<p><strong>サポート:</strong> <a class="reference external" href="https://stackoverflow.com/questions/tagged/openlayers">https://stackoverflow.com/questions/tagged/openlayers</a> (ユーザ向け) 及び <a class="reference external" href="https://groups.google.com/forum/#!forum/openlayers-dev">https://groups.google.com/forum/#!forum/openlayers-dev</a> (開発者向け)</p>
+</section>
+<section id="quickstart">
+<h3>クイックスタート<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/openlayers_quickstart.html"><span class="doc">クイックスタート文書</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

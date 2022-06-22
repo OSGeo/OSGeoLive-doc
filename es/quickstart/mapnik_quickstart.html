@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Guía de Inicio Rapido de Mapnik &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="R" href="../overview/R_overview.html" />
+    <link rel="prev" title="Mapnik" href="../overview/mapnik_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://mapnik.org/"><img alt="../../_images/logo_mapnik.png" class="align-right" src="../../_images/logo_mapnik.png" /></a>
+<section id="mapnik-quickstart">
+<h1>Guía de Inicio Rapido de Mapnik<a class="headerlink" href="#mapnik-quickstart" title="Permalink to this heading">¶</a></h1>
+<p>Mapnik es un conjunto de herramientas para desarrollar aplicaciones de mapeo. Sobre todo, Mapnik trata sobre la elaboración de mapas hermosos. Es fácilmente extensible y adecuado para el desarrollo web y en escritorio.</p>
+<nav class="contents local" id="contents">
+<p class="topic-title">Contenidos</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#mapnik-python" id="id1">Mapnik &amp; Python</a></p></li>
+<li><p><a class="reference internal" href="#mapnik-mapproxy" id="id2">Mapnik y MapProxy</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id3">¿Qué sigue?</a></p></li>
+</ul>
+</nav>
+<section id="mapnik-python">
+<h2><a class="toc-backref" href="#id1" role="doc-backlink">Mapnik &amp; Python</a><a class="headerlink" href="#mapnik-python" title="Permalink to this heading">¶</a></h2>
+<p>Mapnik y sus enlaces de python están instalados y listos para ser utilizados para scripting en esta máquina.</p>
+<p>Crear mapas en python es fácil con Mapnik. Abra una ventana de terminal y escriba <cite>python3</cite> en la línea de comandos para introducir un intérprete de Python. Después pruebe esto:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">::</span>
+</pre></div>
+</div>
+<blockquote>
+<div><p>importar mapnik, os m = mapnik.Map(600,400) style = “/usr/local/share/mapnik/world_population.xml” mapnik.load_map(m,style) m.zoom_all() mapnik.render_to_file(m,”world_population.png”) os.system(“xdg-open world_population.png”)</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>El código anterior depende de tener una hoja de estilos XML que Mapnik pueda leer (world_population.xml), definiendo las capas desde las que leer datos y los estilos que se aplicarán a esas capas.</p>
+</div>
+</section>
+<section id="mapnik-mapproxy">
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">Mapnik y MapProxy</a><a class="headerlink" href="#mapnik-mapproxy" title="Permalink to this heading">¶</a></h2>
+<p>Una aplicación de demostración básica que muestra el uso de Mapnik con MapProxy está disponible</p>
+<p>La demostración utiliza el world_population.xml de la demostración Mapnik.</p>
+<ol class="arabic simple">
+<li><p>Clic en <span class="menuselection">Geospatial ‣ Servicios Web ‣ MapProxy ‣ Iniciar MapProxy</span>. El servidor se inicia en una ventana de terminal (que permanece abierta y genera información básica de depuración).</p></li>
+<li><p>Abra la aplicación de demostración MapProxy <a class="reference external" href="http://0.0.0.0:8011/demo/">http://0.0.0.0:8011/demo/</a></p></li>
+<li><p>Encontrará la demostración de población mundial de Mapnik como una capa WMS y también la población mundial en combinación con una capa GeoServer topp:states (asegúrese de que GeoServer se está ejecutando)</p></li>
+<li><p>Puede utilizar mapproxy WMS en otras aplicaciones, por ejemplo, en QGIS o en Mapbender (<a class="reference external" href="http://localhost/mapbender/application/mapbender_user">http://localhost/mapbender/application/mapbender_user</a>).</p></li>
+<li><p>Observe la salida en la ventana del terminal del servidor.</p></li>
+</ol>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">¿Qué sigue?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Siga los tutoriales para obtener más información sobre Mapnik: <a class="reference external" href="https://github.com/mapnik/mapnik/wiki/MapnikTutorials">https://github.com/mapnik/mapnik/wiki/MapnikTutorials</a></p></li>
+<li><p>Explore los archivos incluidos en la última distribución de OSGeoLive, en este directorio:  <a class="reference external" href="file:///usr/local/share/mapnik/">file:///usr/local/share/mapnik/</a></p></li>
+<li><p>Visite el sitio web de Mapnik: <a class="reference external" href="https://mapnik.org">https://mapnik.org</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

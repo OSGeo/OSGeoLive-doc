@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>OpenLayers &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Sisällysluettelo" href="../genindex.html" />
+    <link rel="search" title="Etsi" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="OpenLayers Pika-aloitus" href="../quickstart/openlayers_quickstart.html" />
+    <link rel="prev" title="Mapbender Quickstart" href="../quickstart/mapbender_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://openlayers.org/"><img alt="../../_images/logo_openlayers.png" class="align-right" src="../../_images/logo_openlayers.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="openlayers">
+<h1>OpenLayers<a class="headerlink" href="#openlayers" title="Permalink to this heading">¶</a></h1>
+<section id="a-high-performance-feature-packed-library-for-all-your-mapping-needs">
+<h2>Tehokas ja monipuolinen ohjelmistokirjasto kaikkiin karttatarpeisiisi<a class="headerlink" href="#a-high-performance-feature-packed-library-for-all-your-mapping-needs" title="Permalink to this heading">¶</a></h2>
+<p>OpenLayersin avulla on helppo viedä dynaaminen kartta mille tahansa verkkosivulle. Se voi visualisoida karttatiilejä, vektoriaineistoja  ja karttamerkkejä  mistä tahansa lähteestä. OpenLayers on kehitetty edistämään kaikenlaisen paikkatiedon käyttöä. Se on täysin ilmainen, avoimen lähdekoodin JavaScript-kirjasto ja se on julkaistu BSD-lisenssin pykälä kahden puiettaissa  (tunnetaan myös nimellä FreeBSD).</p>
+<a class="reference internal image-reference" href="../../_images/openlayers_screenshot.png"><img alt="openlayers screenshot" class="align-right" src="../../_images/openlayers_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Keskeiset ominaisuudet<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Tasot</p>
+<ul>
+<li><p>Rasteriaineistot: WMS/WMTS, OpenStreetMap, Stamen, Bing, muut XYZ lähteet, staattisia kuvia, jne.</p></li>
+<li><p>Vektoriaineistot: WFS, KML, GeoJSON, TopoJSON, GPX, GML, ja MapBox vektoritiilit.</p></li>
+<li><p>Lämpökartat.</p></li>
+<li><p>Visualisoi vektorianeistot rastereina.</p></li>
+</ul>
+</li>
+<li><p>Säätimet ja vuoro vaikutukset</p>
+<ul>
+<li><p>Yleiskatsaus kartta, zoom liuku säädintä, zoom in/out-painikkeet, asteikko viiva, kiertää karttaa, jne.</p></li>
+<li><p>Kartta pannulla, zoom ja kierto, ominaisuus valinta, muutos jne.</p></li>
+</ul>
+</li>
+<li><p>Muotoilu ja räätälöinti</p>
+<ul>
+<li><p>Tehokas muotoilu ominaisuuksia: pisteitä, linjat, polygoneja ja kuvakkeita.</p></li>
+<li><p>Mukauta säätimet näyttävät ja tuntuvat käyttämällä CSS.</p></li>
+</ul>
+</li>
+<li><p>Peittokuvat</p>
+<ul>
+<li><p>Render kaikki DOM elementti missä tahansa paikassa kartalla.</p></li>
+<li><p>Suuri joustavuus luoda työkalu vihjeet ja markkereita.</p></li>
+<li><p>Sekoita HTML5-ominaisuuksien teho kartoitus sovelluksella.</p></li>
+</ul>
+</li>
+<li><p>Tapahtumia</p>
+<ul>
+<li><p>Liitä kuuntelijan toimintoja tapahtumien karttaan.</p></li>
+<li><p>Luo mukautettuja ohjaus objekteja tai vuoro vaikutuksia.</p></li>
+</ul>
+</li>
+<li><p>Muut</p>
+<ul>
+<li><p>Mobiiliselainten tuki.</p></li>
+<li><p>Rasterin uudelleenprojektio.</p></li>
+<li><p>Kevyt kirjasto. Rakenna räätälöityjä paketteja pienentää kokoa.</p></li>
+<li><p>Render karttoja eri tekniikoita: Canvas, WebGL.</p></li>
+<li><p>Rasteri analyysi (muuta sävyä/kylläisyyttä).</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="details">
+<h3>Tiedot<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Verkkosivusto:</strong> <a class="reference external" href="https://openlayers.org/">https://openlayers.org/</a></p>
+<p><strong>License:</strong> 2-clause BSD License (aka FreeBSD License)</p>
+<p><strong>Software Version:</strong> 6.5.0</p>
+<p><strong>API Interface:</strong> JavaScript</p>
+<p><strong>Tuki:</strong>  <a class="reference external" href="https://stackoverflow.com/questions/tagged/openlayers">https://stackoverflow.com/questions/tagged/openlayers</a> (käyttäjä) ja
+<a class="reference external" href="https://groups.google.com/forum/#!forum/openlayers-dev">https://groups.google.com/forum/#!forum/openlayers-dev</a> (kehittäjä)</p>
+</section>
+<section id="quickstart">
+<h3>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/openlayers_quickstart.html"><span class="doc">Pika-aloitusdokumentaatio</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

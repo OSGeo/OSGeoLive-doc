@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>MapServer &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="検索" href="../search.html" />
+    <link rel="copyright" title="著作権" href="../copyright.html" />
+    <link rel="next" title="MapServer クイックスタート" href="../quickstart/mapserver_quickstart.html" />
+    <link rel="prev" title="MapCache クイックスタート" href="../quickstart/mapcache_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://mapserver.org"><img alt="../../_images/logo_mapserver.png" class="align-right" src="../../_images/logo_mapserver.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="mapserver">
+<h1>MapServer<a class="headerlink" href="#mapserver" title="Permalink to this heading">¶</a></h1>
+<section id="web-service">
+<h2>Web サービス<a class="headerlink" href="#web-service" title="Permalink to this heading">¶</a></h2>
+<p>MapServer は C 言語で記述された <a class="reference external" href="https://opensource.org/">オープンソース</a> のジオグラフィックデータレンダリングエンジンです。GISデータのブラウズはもちろん、MapServer はユーザにコンテンツを直接伝えるためのグラフィックイメージ地図を作ることが出来ます。例として、ミネソタ DNR <a class="reference external" href="http://www.dnr.state.mn.us/maps/compass.html">Recreation Compass</a> は10,000を超えるウェブページ、レポートおよび地図を１つのアプリケーションを通じて提供しています。同様のアプリケーションは空間情報を提供するサイトのマップエンジンとしても利用されています。</p>
+<p>MapServer は NASA、Minnesota Department of Natural Resources (MNDNR) の協力のもとでミネソタ大学 (UMN) ForNet プロジェクトにより当初開発されました。後に UMN と土地管理業者コンソーシアムで作られた、NASA のスポンサーによる TerraSIP プロジェクトが管理することになりました。</p>
+<p>現在、MapServer は <a class="reference external" href="https://www.osgeo.org">OSGeo</a> の１プロジェクトとして管理されています。今後増え続ける世界中からの開発者(現在約20人)によって維持管理されています。基金強化およびメインテナンスなどの様々な機関によってサポートされています。開発者とコントリビュータによって構成される MapServer Project Steering Committee として OSGeo のなかで運営されています。</p>
+<a class="reference internal image-reference" href="../../_images/mapserver_screenshot.png"><img alt="mapserver screenshot" class="align-right" src="../../_images/mapserver_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>主な機能<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>高度な地図出力</p>
+<ul>
+<li><p>縮尺に依存したフィーチャ描画および機能実行</p></li>
+<li><p>重複を回避するフィーチャのラベル付け</p></li>
+<li><p>ラベリングとシンボル描画のための TrueType フォントサポート</p></li>
+<li><p>マップ要素の自動化 (スケールバー、マップ参照、凡例)</p></li>
+<li><p>論理または正規表現ベースのクラスを利用した主題マッピング</p></li>
+<li><p>AGG、Cairoその他のドライバーでのプラガブルなレンダラーサポート</p></li>
+<li><p>タイル化された出力生成のための特別なプロビジョニング</p></li>
+<li><p>マスクレイヤ</p></li>
+<li><p>正確なシンボル配置</p></li>
+<li><p>複雑な複数ラベル・シンボルのシンボロジー</p></li>
+<li><p>ベクタフィールド</p></li>
+<li><p>ラベル先頭のオフセット</p></li>
+<li><p>SVG シンボロジー</p></li>
+<li><p>複数フォントサポート</p></li>
+<li><p>動的ヒートマップ</p></li>
+<li><p>UTF Grid サポート</p></li>
+<li><p>レイヤ合成</p></li>
+</ul>
+</li>
+<li><p>洗練された空間クエリサポート</p>
+<ul>
+<li><p>属性、ポイント、バウンディングボックス、ジオメトリによる、単一もしくは複数レイヤにまたがるフィーチャの識別</p></li>
+<li><p>ラスタクエリのサポート</p></li>
+<li><p>十分にカスタマイズ可能なテンプレート駆動の出力</p></li>
+<li><p>OGR ベースのクエリ出力生成</p></li>
+</ul>
+</li>
+<li><p>人気のあるスクリプトや開発環境のサポート</p>
+<ul>
+<li><p>CGI/FastCGI</p></li>
+<li><p>PHP, Python, Perl, Ruby, Java, .NET</p></li>
+</ul>
+</li>
+<li><p>クロスプラットフォーム対応</p>
+<ul>
+<li><p>Linux, Windows, Mac OS X, Solaris その他</p></li>
+</ul>
+</li>
+<li><p>多数のラスタ・ベクタデータフォーマット</p>
+<ul>
+<li><p>ESRI シェープファイル, PostGIS, Oracle Spatial のネイティブサポート</p></li>
+<li><p>GDAL 及び OGR 経由の、他の多くのフォーマット</p></li>
+</ul>
+</li>
+<li><p>地図投影サポート</p>
+<ul>
+<li><p>Proj.4 ライブラリ使用による、1000を超える投影法でのオンザフライ地図投影</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>実装されている標準規格<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>多数の Open Geospatial Consortium  (OGC) 標準規格のサポート</p>
+<ul>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> (クライアント/サーバ)</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> (非トランザクショナル、クライアント/サーバ)</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wmc">Web Map Context (WMC)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/filter">Filter Encoding (FE)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/sld">Styled Layer Descriptor (SLD)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/gml">Geography Markup Language (GML)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/sos">Sensor Observation Service (SOS)</a></p></li>
+<li><p>OM</p></li>
+</ul>
+</li>
+<li><p>INSPIRE View Service 準拠</p></li>
+</ul>
+</section>
+<section id="demo">
+<h3>デモ<a class="headerlink" href="#demo" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="http://localhost/mapserver_demos/itasca/">Itasca</a></p></li>
+</ul>
+</section>
+<section id="documentation">
+<h3>ドキュメント<a class="headerlink" href="#documentation" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://localhost/mapserver/doc/index.html">MapServer 7.0 Documentation</a></p></li>
+</ul>
+</section>
+<section id="details">
+<h3>詳細<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Webサイト:</strong> <a class="reference external" href="https://mapserver.org">https://mapserver.org</a></p>
+<p><strong>ライセンス:</strong> <a class="reference external" href="https://mapserver.org/copyright.html#license">MIT-style license</a></p>
+<p><strong>ソフトウェアバージョン:</strong> 7.6.2</p>
+<p><strong>対応プラットフォーム:</strong> Windows, Linux, Mac</p>
+<p><strong>API インタフェース:</strong> C, PHP, Python, Perl, Ruby, Java, .NET</p>
+<p><strong>サポート:</strong> <a class="reference external" href="https://mapserver.org/community/">https://mapserver.org/community/</a></p>
+</section>
+<section id="quickstart">
+<h3>クイックスタート<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/mapserver_quickstart.html"><span class="doc">クイックスタート文書</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

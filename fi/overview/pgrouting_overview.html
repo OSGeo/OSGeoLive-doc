@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>pgRouting &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Sisällysluettelo" href="../genindex.html" />
+    <link rel="search" title="Etsi" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="pgRouting Quickstart" href="../quickstart/pgrouting_quickstart.html" />
+    <link rel="prev" title="PostGIS pika-aloitus" href="../quickstart/postgis_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://pgrouting.org/"><img alt="../../_images/logo_pgrouting.png" class="align-right" src="../../_images/logo_pgrouting.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
+<section id="pgrouting">
+<h1>pgRouting<a class="headerlink" href="#pgrouting" title="Permalink to this heading">¶</a></h1>
+<section id="gis-tools">
+<h2>GIS Tools<a class="headerlink" href="#gis-tools" title="Permalink to this heading">¶</a></h2>
+<p>pgRouting extends the
+<a class="reference internal" href="postgis_overview.html"><span class="doc">PostGIS</span></a>/<a class="reference external" href="https://www.postgresql.org">PostgreSQL</a>
+geospatial database to provide geospatial routing and other network analysis functionality.</p>
+<p>Advantages of the database routing approach are:</p>
+<ul class="simple">
+<li><p>Data and attributes can be modified by many clients, like <a class="reference internal" href="qgis_overview.html"><span class="doc">QGIS</span></a>
+and <a class="reference internal" href="udig_overview.html"><span class="doc">uDig</span></a> through JDBC, ODBC, or directly using Pl/pgSQL.
+The clients can either be PCs or mobile devices.</p></li>
+<li><p>Data changes can be reflected instantaneously through the routing engine.
+There is no need for precalculation.</p></li>
+<li><p>The ”cost” parameter can be dynamically calculated through SQL and its value can come
+from multiple fields or tables.</p></li>
+</ul>
+<p>pgRouting is available under the GPLv2+ license and is supported by a growing community
+of individuals, businesses and organizations.</p>
+<a class="reference internal image-reference" href="../../_images/pgrouting_screenshot.png"><img alt="pgrouting screenshot" class="align-right" src="../../_images/pgrouting_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Core Features<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<p>pgRouting provides functions for:</p>
+<ul class="simple">
+<li><p>All Pairs Shortest Path
+* Johnson’s Algorithm
+* Floyd-Warshall Algorithm</p></li>
+<li><p>Shortest Path
+* A* algorithm
+* Dijkstra algorithm</p></li>
+<li><p>Bi-directional Shortest Path
+* A* algorithm
+* Dijkstra algorithm</p></li>
+<li><p>Driving Distance</p></li>
+<li><p>K-Shortest Path
+* Yen’s algorithm</p></li>
+<li><p>Traveling Sales Person</p></li>
+<li><p>And many more</p></li>
+</ul>
+<p>Learn more about pgRouting in the <a class="reference external" href="https://docs.pgrouting.org">documentation</a>.</p>
+</section>
+<section id="details">
+<h3>Details<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Website:</strong> <a class="reference external" href="https://pgrouting.org/">https://pgrouting.org/</a></p>
+<p><strong>Licence:</strong> GNU General Public License (GPL) version 2</p>
+<p><strong>Software Version:</strong> 3.1.0</p>
+<p><strong>Supported Platforms:</strong> Linux, Windows, Mac</p>
+<p><strong>API Interfaces:</strong> SQL</p>
+<p><strong>Commercial Support:</strong> <a class="reference external" href="https://pgrouting.org/support.html">https://pgrouting.org/support.html</a></p>
+</section>
+<section id="quickstart">
+<h3>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/pgrouting_quickstart.html"><span class="doc">Quickstart documentation</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

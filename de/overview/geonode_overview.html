@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>GeoNode &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
+    <link rel="search" title="Suche" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="GeoNode Quickstart" href="../quickstart/geonode_quickstart.html" />
+    <link rel="prev" title="GeoMoose Quickstart" href="../quickstart/geomoose_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://geonode.org"><img alt="../../_images/logo_geonode.png" class="align-right" src="../../_images/logo_geonode.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="geonode">
+<h1>GeoNode<a class="headerlink" href="#geonode" title="Permalink to this heading">¶</a></h1>
+<section id="geospatial-content-management-system">
+<h2>Geospatial Content Management System<a class="headerlink" href="#geospatial-content-management-system" title="Permalink to this heading">¶</a></h2>
+<p><a class="reference external" href="https://geonode.org">GeoNode</a> ist ein Content Management System für räumliche Daten, das die Erzeugung, Verteilung und die gemeinsame Nutzung von räumlichen Daten ermöglicht. Datensätze können in verschiedenen Formaten hochgeladen werden, Karten können über einen browserbasiertes Werkzeug editiert, der Stil kann angepasst werden und Themen können zusammengestellt werden. Karten und Metadaten können veröffentlicht und durchsucht werden. Prüfungen, Bewertungen und Kommentare können von Anwendern abgegeben werden.</p>
+<p>GeoNode baut auf folgender Soaftware auf: GeoServer, GeoExplorer, pycsw, Django und GeoExt.</p>
+<a class="reference internal image-reference" href="../../_images/geonode_screenshot.png"><img alt="geonode screenshot" class="align-right" src="../../_images/geonode_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Kernfunktionen<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Räumliche Daten entdecken</p>
+<ul>
+<li><p>Leistungsstarke räumliche Suche</p></li>
+<li><p>OGC Dienste</p></li>
+<li><p>Metadatakatalog</p></li>
+</ul>
+</li>
+<li><p>Import und Management von räumlichen Daten</p>
+<ul>
+<li><p>Veröffentlichung von Raster-, Vektor- und tabellarischen Daten</p></li>
+<li><p>Management von Metadaten und angefügten Dokumenten</p></li>
+<li><p>Abgesicherte oder öffentliche Nutzung von Daten</p></li>
+<li><p>Versionierter Editor</p></li>
+</ul>
+</li>
+<li><p>Interaktives Mapping</p>
+<ul>
+<li><p>GeoExplorer GIS Client</p></li>
+<li><p>Grafischer Stil-Editor</p></li>
+<li><p>Erzeugung von interaktive Karten mit vielen Ebenen</p></li>
+<li><p>Weitergabe und Einbindung von Karten in Webseiten</p></li>
+<li><p>Druckausgabe als PDF</p></li>
+</ul>
+</li>
+<li><p>Zusammenarbeit</p>
+<ul>
+<li><p>Prüfung, Bewertung, und Kommentare auf Daten</p></li>
+<li><p>Gruppen von Benutzern</p></li>
+<li><p>Aktivitätsanzeige</p></li>
+<li><p>Ankündigungen und Benachrichtigungen</p></li>
+</ul>
+</li>
+<li><p>… und mehr!</p></li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>Unterstützte Standards<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/cat">Catalogue Service</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/filter">Filter Encoding (FE)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/sld">Styled Layer Descriptor (SLD)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/gml">Geography Markup Language (GML)</a></p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Details<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Webseite:</strong> <a class="reference external" href="https://geonode.org">https://geonode.org</a></p>
+<p><strong>Lizenz:</strong> GNU General Public License (GPL) Version 2.0</p>
+<p><strong>Software Version:</strong> 3.1.0</p>
+<p><strong>Unterstützte Plattformen:</strong> Windows, Linux, Mac</p>
+<p><strong>API Schnittstellen:</strong> Python (Django)</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://www.osgeo.org/service-providers">https://www.osgeo.org/service-providers</a></p>
+</section>
+<section id="quickstart">
+<h3>Schnellstart<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/geonode_quickstart.html"><span class="doc">Quickstart Dokumentation</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

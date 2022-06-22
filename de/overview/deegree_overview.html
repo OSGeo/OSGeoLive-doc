@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>deegree &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
+    <link rel="search" title="Suche" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Deegree Quickstart" href="../quickstart/deegree_quickstart.html" />
+    <link rel="prev" title="Leaflet Quickstart" href="../quickstart/leaflet_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="http://www.deegree.org"><img alt="../../_images/logo_deegree.png" class="align-right" src="../../_images/logo_deegree.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="deegree">
+<h1>deegree<a class="headerlink" href="#deegree" title="Permalink to this heading">¶</a></h1>
+<section id="about">
+<h2>Über<a class="headerlink" href="#about" title="Permalink to this heading">¶</a></h2>
+<p>Die deegree Webservices sind Implementierungen der Webservice Spezifikationen des <a class="reference external" href="https://www.ogc.org">Open Geospatial Consortium (OGC)</a> und der <a class="reference external" href="https://inspire.ec.europa.eu">INSPIRE Network Services</a>. deegree unterstützt die folgenden Dienste:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a>: Liefert Vektordaten zu Geodaten</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a>: Liefert Karte auf Basis von Geodaten</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wmts">OpenGIS Web Map Tile ServiceW (WMTS)</a>: Liefert vorprozessierte Karten-Kacheln</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/cat">Catalogue Service</a>: Suche nach Geodaten und Diensten</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wps">Web Processing Service (WPS)</a>: Führt räumliche Berechnungen durch</p></li>
+</ul>
+<a class="reference internal image-reference" href="../../_images/deegree_screenshot.png"><img alt="deegree screenshot" class="align-right" src="../../_images/deegree_screenshot.png" style="width: 500px;" /></a>
+</section>
+<section id="core-features">
+<h2>Eigenschaften des deegree WFS<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h2>
+<p><strong>WFS</strong></p>
+<ul class="simple">
+<li><p>Implementiert  WFS standards 1.0.0, 1.1.0 and 2.0.0</p></li>
+<li><p>Vollständig transaktional (auch bei komplexen Datenmodellen)</p></li>
+<li><p>Unterstützt KVP, XML und SOAP Requests</p></li>
+<li><p>GML 2/3.0/3.1/3.2 Output/Input</p></li>
+<li><p>Unterstützung von GetGmlObject Requests und XLinks</p></li>
+<li><p>Hoch performant und hervorragend skalierbar</p></li>
+<li><p>Koordinatentransformation on-the-fly</p></li>
+<li><p>Von Grund auf für komplexe Datenmodelle entworfen</p></li>
+<li><p>Die Back-Ends unterstützen eine flexible Abbildung von GML-Applikationsschemata in relationale Modelle</p></li>
+<li><p>ISO 19107 konformes geometrisches Modell: Komplexe Geometrie (z.B. nicht lineare Kurven)</p></li>
+<li><p>Unterstützt fortschrittliche Filterausdrücke basierend auf XPath 1.0</p></li>
+<li><p>Unterstützt eine Vielzahl von Datenquellen, wie beispielsweise PostGIS, Oracle Spatial, MS SQL Server, Shapefile oder GML-Dokumente.</p></li>
+</ul>
+<p><strong>WMS</strong></p>
+<ul class="simple">
+<li><p>Implementiert die WMS Standards 1.1.1 und 1.3.0</p></li>
+<li><p>Umfangreiche Unterstützung für die Styling-Sprachen SLD/SE-Versionen 1.0.0 und 1.1.0</p></li>
+<li><p>Hoch performant und hervorragend skalierbar</p></li>
+<li><p>Hoch qualitatives Rendering</p></li>
+<li><p>Maßstabsabhängige Signaturen</p></li>
+<li><p>Durch die Unterstützung von SE entfällt die Notwendigkeit für eine Vielzahl von proprietären Erweiterungen</p></li>
+<li><p>Einfache Konfiguration von HTML und anderen Ausgabeformaten für GetFeatureInfo Antworten</p></li>
+<li><p>Stream-basierter Datenzugriff mit minimalem Speicherbedarf</p></li>
+<li><p>Nahezu vollständige Unterstützung für Rastersymbolisierung über SE (mit einigen Erweiterungen)</p></li>
+<li><p>Vollständige Unterstützung für Time/ELEVATION und andere Dimensionen für Feature- und Raster-Daten</p></li>
+<li><p>Unterstützt zahlreiche Backends, wie PostGIS, Oracle Spatial, Shape oder GML-Instanz-Dokumente</p></li>
+<li><p>Rich-data-models können direkt angezeigt werden.</p></li>
+</ul>
+<p><strong>WMTS</strong></p>
+<ul class="simple">
+<li><p>Implementiert Basic WMTS Standard 1.0.0 (KVP)</p></li>
+<li><p>Hoch performant und hervorragend skalierbar</p></li>
+<li><p>Unterstützt verschiedene Datenquellen, wie beispielsweise GeoTIFF, Remote WMS oder hierarchische Rasterkacheln im Dateisystem</p></li>
+<li><p>Unterstützt on-the-fly Caching (Verwendung von EHCache)</p></li>
+<li><p>Unterstützt GetFeatureInfo für Remote WMS Datenquellen</p></li>
+</ul>
+<p><strong>CSW</strong></p>
+<ul class="simple">
+<li><p>Implementiert CSV standard 2.0.2</p></li>
+<li><p>Vollständig transaktional</p></li>
+<li><p>Unterstützt KVP, XML und SOAP Requests</p></li>
+<li><p>Hoch performant und hervorragend skalierbar</p></li>
+<li><p>ISO Metadata Application Profile 1.0.0</p></li>
+<li><p>Erweiterbare und modulare Data-Access-Layer ermöglichen die Unterstützung von neuen APs und Backends.</p></li>
+<li><p>Modulare Inspector-Architectur ermöglicht die Validierung von neuen Datensätzen nach diversen Kriterien</p></li>
+<li><p>Standard-Inspektor: Schema-Validierung, Identifier-Integrität, INSPIRE-Anforderungen</p></li>
+<li><p>Unterstützt all definierten queryable Properties (für Dublin Core und ISO Profil)</p></li>
+<li><p>Komplexe Filter-Ausdrücke</p></li>
+</ul>
+<p><strong>WPS</strong></p>
+<ul class="simple">
+<li><p>Implementiert WPS Standard 1.0.0</p></li>
+<li><p>Unterstützt KVP, XML und SOAP Requests</p></li>
+<li><p>Pluggable Process Provider Layer</p></li>
+<li><p>Leicht zu bedienende API, um Java-Prozesse zu implementieren</p></li>
+<li><p>Unterstützt alle Varianten von Input-/Output-Parametern: literal, bbox, complex (binary und xml)</p></li>
+<li><p>Streamingzugriff für komplexe Input-/Output-Parameter</p></li>
+<li><p>Verarbeitung von großen Datenmengen mit minimalem Speicherbedarf</p></li>
+<li><p>Unterstützt Speichern der Response-Dokumente/Output-Parameter</p></li>
+<li><p>Unterstützt Eingabeparameter inline und als Referenz</p></li>
+<li><p>Unterstützt RawDataOutput/ResponseDocument Responses</p></li>
+<li><p>Unterstützt asynchrone Ausführung (mit Abfrage des Prozessstatus)</p></li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h2>Implementierte Standards<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> 1.0.0, 1.1.0 und 2.0.0</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> 1.1.1 und 1.3.0</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wmts">OpenGIS Web Map Tile ServiceW (WMTS)</a> 1.1.0</p></li>
+<li><p>OGC Catalogue Service-Web (CSW) 2.0.2</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wps">Web Processing Service (WPS)</a> 1.0.0</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/gml">Geography Markup Language (GML)</a> 2.12, 3.0.1, 3.1.1 und 3.2.1</p></li>
+</ul>
+</section>
+<section id="details">
+<h2>Details<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h2>
+<p><strong>Webseite:</strong> <a class="reference external" href="http://www.deegree.org">http://www.deegree.org</a></p>
+<p><strong>Lizenz:</strong> LGPL</p>
+<p><strong>Software Version:</strong> 3.4.1</p>
+<p><strong>Unterstützte Plattformen:</strong> Windows, Linux</p>
+<p><strong>API Schnittstellen:</strong> Java</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://www.deegree.org/community">https://www.deegree.org/community</a></p>
+</section>
+<section id="quickstart">
+<h2>Schnellstart<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/deegree_quickstart.html"><span class="doc">Quickstart documentation</span></a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

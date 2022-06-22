@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Guide de démarrage avec OpenStreetMap &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="OTB" href="../overview/otb_overview.html" />
+    <link rel="prev" title="OpenStreetMap" href="../overview/osm_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://www.openstreetmap.org/"><img alt="../../_images/logo_osm.png" class="align-right" src="../../_images/logo_osm.png" /></a>
+<section id="openstreetmap-quickstart">
+<h1>Guide de démarrage avec OpenStreetMap<a class="headerlink" href="#openstreetmap-quickstart" title="Lien permanent vers cette rubrique">¶</a></h1>
+<p>OpenStreetMap est une carte du monde en licence libre, créée par une communauté grandissante. Tout le monde peut participer à OpenStreetMap. Le <a class="reference external" href="https://learnosm.org">site web Learn OSM</a> met à disposition une série de guides simples et progressifs pour vous accompagner dans votre prise en main d’OpenStreetMap. Le guide Learn OSM montre, étape par étape, comment naviguer sur le site d’OpenStreetMap, visualiser et imprimer des cartes, créer un compte utilisateur. Une fois créés votre nom d’utilisateur et votre mot de passe, vous aurez la possibilité d’ajouter vos premiers points à la carte, apprendre à faire des relevés de terrain et travailler avec les images aériennes.</p>
+<p>La suite du guide de démarrage présente un certain nombre de logiciels en ligne ou hors-ligne utilisés pour l’édition et le rendu de données OSM.</p>
+<nav class="contents local" id="contents">
+<p class="topic-title">Contenu</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#programs-that-work-with-osm-data" id="id4">Programmes qui fonctionnent avec les données OSM</a></p>
+<ul>
+<li><p><a class="reference internal" href="#id" id="id5">iD</a></p></li>
+<li><p><a class="reference internal" href="#josm" id="id6">JOSM</a></p></li>
+<li><p><a class="reference internal" href="#qgis" id="id7">QGIS</a></p></li>
+<li><p><a class="reference internal" href="#osmosis" id="id8">Osmosis</a></p></li>
+<li><p><a class="reference internal" href="#osm2pgsql" id="id9">osm2pgsql</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#working-with-osm-data-in-qgis" id="id10">Travailler avec des données OSM dans QGIS</a></p>
+<ul>
+<li><p><a class="reference internal" href="#quickosm" id="id11">QuickOSM</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#using-osm-as-basemap-in-qgis" id="id12">Utilisation d’OSM en tant que fond de carte dans QGIS</a></p>
+<ul>
+<li><p><a class="reference internal" href="#xyz-tiles" id="id13">Tuiles XYZ</a></p></li>
+<li><p><a class="reference internal" href="#quickmapservices" id="id14">QuickMapServices</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#start-working-with-osm-data" id="id15">Commencez à travailler avec les données OSM</a></p>
+<ul>
+<li><p><a class="reference internal" href="#geofabrik" id="id16">Geofabrik</a></p></li>
+<li><p><a class="reference internal" href="#overpass-turbo" id="id17">Overpass turbo</a></p></li>
+<li><p><a class="reference internal" href="#hot-export-tool" id="id18">Outil d’Export HOT</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#what-next" id="id19">Ensuite ?</a></p></li>
+</ul>
+</nav>
+<section id="programs-that-work-with-osm-data">
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Programmes qui fonctionnent avec les données OSM</a><a class="headerlink" href="#programs-that-work-with-osm-data" title="Lien permanent vers cette rubrique">¶</a></h2>
+<section id="id">
+<h3><a class="toc-backref" href="#id5" role="doc-backlink">iD</a><a class="headerlink" href="#id" title="Lien permanent vers cette rubrique">¶</a></h3>
+<p><strong>iD</strong> est l’éditeur en ligne par défaut d’OpenStreetMap(OSM). Rapide et facile d’utilisation, iD permet de cartographier en se basant sur différentes sources de données telles que des relevés de terrain, des images aériennes et satellites, des traces GPS ou des photos géo-référencées.</p>
+<ul class="simple">
+<li><p>Page d’accueil : <a class="reference external" href="https://www.openstreetmap.org/edit">https://www.openstreetmap.org/edit</a></p></li>
+<li><p>Documentation : <a class="reference external" href="https://wiki.openstreetmap.org/wiki/ID">https://wiki.openstreetmap.org/wiki/ID</a></p></li>
+<li><p>Didacticiel: <a class="reference external" href="https://learnosm.org/en/beginner/id-editor/">https://learnosm.org/en/beginner/id-editor/</a></p></li>
+</ul>
+</section>
+<section id="josm">
+<h3><a class="toc-backref" href="#id6" role="doc-backlink">JOSM</a><a class="headerlink" href="#josm" title="Lien permanent vers cette rubrique">¶</a></h3>
+<p><strong>JOSM</strong> (Java OpenStreetMap Editor) est un éditeur avancé pour OpenStreetMap (OSM) écrit en Java. Il est plus puissant et complexe que l’iD, peut être utilisé pour l’édition en vrac, hors ligne ou sur une connexion Internet peu fiable. Il peut être étendu avec des plugins, des paramètres personnalisés et plus d’extensions.</p>
+<ul class="simple">
+<li><p>Page d’accueil : <a class="reference external" href="https://josm.openstreetmap.de/wiki/Fr:WikiStart">https://josm.openstreetmap.de/wiki/Fr:WikiStart</a></p></li>
+<li><p>Documentation : <a class="reference external" href="https://wiki.openstreetmap.org/wiki/FR:JOSM/Guide">https://wiki.openstreetmap.org/wiki/FR:JOSM/Guide</a></p></li>
+<li><p>Didacticiel: <a class="reference external" href="https://learnosm.org/en/josm/start-josm/">https://learnosm.org/en/josm/start-josm/</a></p></li>
+<li><p>Liste des plugins JOSM : <a class="reference external" href="https://josm.openstreetmap.de/wiki/Fr:Plugins">https://josm.openstreetmap.de/wiki/Fr:Plugins</a></p></li>
+</ul>
+</section>
+<section id="qgis">
+<h3><a class="toc-backref" href="#id7" role="doc-backlink">QGIS</a><a class="headerlink" href="#qgis" title="Lien permanent vers cette rubrique">¶</a></h3>
+<p>Les données OpenStreetMap peuvent être chargées dans <strong>QGIS</strong> en tant que couche vectorielle ou par le biais de l’extension QuickOSM.</p>
+<ul class="simple">
+<li><p>QuickOSM : Voir la section <a class="reference internal" href="#quickosm">QuickOSM</a></p></li>
+<li><p>Aide en ligne : <a class="reference external" href="https://wiki.openstreetmap.org/wiki/QGIS#QGIS_2:_Importing_OSM_vector_layers">https://wiki.openstreetmap.org/wiki/QGIS#QGIS_2:_Importing_OSM_vector_layers</a></p></li>
+<li><p>Didacticiel: <a class="reference external" href="https://learnosm.org/en/osm-data/osm-in-qgis/">https://learnosm.org/en/osm-data/osm-in-qgis/</a></p></li>
+</ul>
+</section>
+<section id="osmosis">
+<h3><a class="toc-backref" href="#id8" role="doc-backlink">Osmosis</a><a class="headerlink" href="#osmosis" title="Lien permanent vers cette rubrique">¶</a></h3>
+<p><strong>Osmosis</strong> est un programme utilitaire hautement performant pour effectuer de nombreuses tâches sur les données OSM brutes. Cela comprend l’importation et l’exportation de données vers les bases de données, le tri, le nettoyage et la création d’archives de données.</p>
+<ul class="simple">
+<li><p>Documentation : <a class="reference external" href="https://wiki.openstreetmap.org/wiki/FR:Osmosis#Utilisation">https://wiki.openstreetmap.org/wiki/FR:Osmosis#Utilisation</a></p></li>
+<li><p>Didacticiel: <a class="reference external" href="https://learnosm.org/en/osm-data/osmosis/">https://learnosm.org/en/osm-data/osmosis/</a></p></li>
+</ul>
+</section>
+<section id="osm2pgsql">
+<span id="id1"></span><h3><a class="toc-backref" href="#id9" role="doc-backlink">osm2pgsql</a><a class="headerlink" href="#osm2pgsql" title="Lien permanent vers cette rubrique">¶</a></h3>
+<p><strong>osm2pgsql</strong> est un programme utilitaire qui convertit les données OpenStreetMap (.osm) en un format qui peut être chargé dans PostgreSQL (PostGIS). Il est souvent utilisé pour fournir un rendu visuel des données OSM à l’aide de Mapnik, car Mapnik peut interroger PostgreSQL pour les données cartographiques, mais ne fonctionne pas directement avec les fichiers OSM.</p>
+<ul class="simple">
+<li><p>Page d’accueil: <a class="reference external" href="https://wiki.openstreetmap.org/wiki/FR:Osm2pgsql">https://wiki.openstreetmap.org/wiki/FR:Osm2pgsql</a></p></li>
+<li><p>Didacticiel: <a class="reference external" href="https://learnosm.org/en/osm-data/osm2pgsql/">https://learnosm.org/en/osm-data/osm2pgsql/</a></p></li>
+</ul>
+</section>
+</section>
+<section id="working-with-osm-data-in-qgis">
+<h2><a class="toc-backref" href="#id10" role="doc-backlink">Travailler avec des données OSM dans QGIS</a><a class="headerlink" href="#working-with-osm-data-in-qgis" title="Lien permanent vers cette rubrique">¶</a></h2>
+<p>OSGeoLive est livré avec des données OSM de la ville où la “conférence FOSS4G &lt;<a class="reference external" href="https://foss4g.org">https://foss4g.org</a>&gt;” mondiale se tient. Vous trouvez les données dans le fichier système sous “/usr/local/share/data/osm/” ou dans la base de données “osm_local”.</p>
+<p>Démarrez QGIS et jetez un œil aux données.</p>
+<ol class="arabic simple">
+<li><p>Ouvrez le dossier “Desktop GIS”.</p></li>
+<li><p>Double-cliquez sur l’icône “QGIS”.</p></li>
+<li><p>Allez dans le panneau du navigateur sur la gauche de l’écran.</p></li>
+<li><p>Naviguez vers “PostGIS” puis vers la base de données “osm_local”. Vous trouverez les données dans le schéma “public”.</p></li>
+<li><p>Faites glisser les couches depuis le panneau “Parcourir” et déposez-les dans le canevas de carte.</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/osm_postgis_qgis.jpg"><img alt="../../_images/osm_postgis_qgis.jpg" src="../../_images/osm_postgis_qgis.jpg" style="width: 1004.8000000000001px; height: 599.2px;" /></a>
+</div></blockquote>
+<p>Vous trouvez une introduction à QGIS dans le <a class="reference internal" href="qgis_quickstart.html"><span class="doc">QGIS démarrage rapide</span></a></p>
+<section id="quickosm">
+<span id="id2"></span><h3><a class="toc-backref" href="#id11" role="doc-backlink">QuickOSM</a><a class="headerlink" href="#quickosm" title="Lien permanent vers cette rubrique">¶</a></h3>
+<p>“QuickOSM” vous permet de travailler rapidement avec des données OSM dans QGIS grâce à l’API Overpass.</p>
+<ul class="simple">
+<li><p>Page d’accueil : <a class="reference external" href="https://github.com/3liz/QuickOSM">https://github.com/3liz/QuickOSM</a></p></li>
+</ul>
+<ol class="arabic simple">
+<li><p>Vous devez activer l’extension dans QGIS. Recherchez “QuickOSM” depuis “Extensions –&gt; Installer/Gérer les extensions” dans QGIS</p></li>
+<li><p>Ouvrir QuickOSM depuis “Vecteur –&gt; QuickOSM –&gt; QuickOSM”</p></li>
+<li><p>Recherchez tous les pubs dans la ville où a lieu le FOSS4G</p></li>
+<li><p>Choisissez clé <cite>amenity</cite>, valeur <cite>pub</cite>, à <cite>Buenos Aires</cite></p></li>
+<li><p>“Montrer la requête” pour voir la requête Overpass</p></li>
+<li><p>Cliquer sur “Exécuter la requête”. Les données correspondantes vont être chargées dans votre projet QGIS en tant que données temporaires</p></li>
+<li><p>Vous pouvez maintenant sauvegarder les données via “Exporter -&gt; Sauvegarder les entités sous…”. Choisissez par exemple Geopackage et sauvegardez les données sous “buenos_aires_pubs”.</p></li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Astuce</p>
+<p>Vous trouvez aussi de nombreuses extensions OSM pour QGIS. Recherchez “OSM” dans le dépôt d’extensions.</p>
+</div>
+</section>
+</section>
+<section id="using-osm-as-basemap-in-qgis">
+<h2><a class="toc-backref" href="#id12" role="doc-backlink">Utilisation d’OSM en tant que fond de carte dans QGIS</a><a class="headerlink" href="#using-osm-as-basemap-in-qgis" title="Lien permanent vers cette rubrique">¶</a></h2>
+<section id="xyz-tiles">
+<h3><a class="toc-backref" href="#id13" role="doc-backlink">Tuiles XYZ</a><a class="headerlink" href="#xyz-tiles" title="Lien permanent vers cette rubrique">¶</a></h3>
+<p>Par défaut, QGIS est livré avec la couche de fond de carte OpenStreetMap qui est située dans le panneau “Parcourir” sous “Tuiles XYZ”.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/osm_xyz_qgis.jpg"><img alt="../../_images/osm_xyz_qgis.jpg" src="../../_images/osm_xyz_qgis.jpg" style="width: 1004.8000000000001px; height: 599.2px;" /></a>
+</div></blockquote>
+</section>
+<section id="quickmapservices">
+<h3><a class="toc-backref" href="#id14" role="doc-backlink">QuickMapServices</a><a class="headerlink" href="#quickmapservices" title="Lien permanent vers cette rubrique">¶</a></h3>
+<p>L’extension “QuickMapServices” vous permet d’ajouter facilement une variété de services cartographiques en tant que fond de carte en un clic dans QGIS.</p>
+<ul class="simple">
+<li><p>Page d’accueil : <a class="reference external" href="https://github.com/nextgis/quickmapservices">https://github.com/nextgis/quickmapservices</a></p></li>
+</ul>
+<ol class="arabic simple">
+<li><p>Vous devez activer l’extension dans QGIS. Recherchez “QuickMapServices” dans “Extensions –&gt; Installer/Gérer les extensions” dans QGIS</p></li>
+<li><p>Ajoutez un fond de carte OSM depuis “Internet –&gt; QuickMapServices –&gt; OSM”</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/osm_quickmapservices_qgis.jpg"><img alt="../../_images/osm_quickmapservices_qgis.jpg" src="../../_images/osm_quickmapservices_qgis.jpg" style="width: 1004.8000000000001px; height: 599.2px;" /></a>
+</div></blockquote>
+</section>
+</section>
+<section id="start-working-with-osm-data">
+<h2><a class="toc-backref" href="#id15" role="doc-backlink">Commencez à travailler avec les données OSM</a><a class="headerlink" href="#start-working-with-osm-data" title="Lien permanent vers cette rubrique">¶</a></h2>
+<p>Il existe diverses façons pour télécharger des données OpenStreetMap pour votre région. Vous pouvez obtenir ces données en divers formats.</p>
+<p>Vous pouvez utiliser les outils et services suivants pour extraire des données OSM pour votre zone d’intérêt.</p>
+<section id="geofabrik">
+<h3><a class="toc-backref" href="#id16" role="doc-backlink">Geofabrik</a><a class="headerlink" href="#geofabrik" title="Lien permanent vers cette rubrique">¶</a></h3>
+<p>“Geofabrik &lt;<a class="reference external" href="https://download.geofabrik.de/">https://download.geofabrik.de/</a>&gt;” fournit quotidiennement des extraits mondiaux des données OpenStreetMap par sous-région et pays. Choisissez la région ou le pays qui vous intéresse. Les données sous fournies en trois formats : “.osm.pbf”, “.shp.zip” et “.osm.bz2”. “.osm.pbf” et “.shp.zip” peuvent être ouverts directement dans QGIS.</p>
+<div class="admonition tip">
+<p class="admonition-title">Astuce</p>
+<p><strong>.osm.bz2</strong> contient les fichiers bruts XML OSM <cite>.osm</cite>, <a class="reference internal" href="#osm2pgsql">osm2pgsql</a> est adapté à ces formats, pour savoir plus comment travailler avec ces fichiers consultez <a class="reference external" href="https://wiki.openstreetmap.org/wiki/OSM_XML">https://wiki.openstreetmap.org/wiki/OSM_XML</a></p>
+</div>
+</section>
+<section id="overpass-turbo">
+<h3><a class="toc-backref" href="#id17" role="doc-backlink">Overpass turbo</a><a class="headerlink" href="#overpass-turbo" title="Lien permanent vers cette rubrique">¶</a></h3>
+<p>Overpass turbo est un outil internet d’exploration de données pour OpenStreetMap basé sur l’API Overpass.</p>
+<p>Naviguez sur le client web et téléchargez tous les pubs dans la ville du FOSS4G.</p>
+<ol class="arabic simple">
+<li><p>Ouvrez <a class="reference external" href="https://overpass-turbo.eu/">https://overpass-turbo.eu/</a></p></li>
+<li><p>Recherchez tous les pubs dans la ville où a lieu le FOSS4G</p></li>
+<li><p>Cliquez sur le bouton “Assistant” et copiez la requête dans le champ de recherche <cite>amenity=pub in « Buenos Aires »</cite></p></li>
+<li><p>Cliquez ensuite sur le bouton “Construire et exécuter une requête”</p></li>
+<li><p>Cliquez sur “zoomer sur les données” dans le canevas de carte pour vous centrer sur vos résultats</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/overpass_turbo.jpg"><img alt="../../_images/overpass_turbo.jpg" src="../../_images/overpass_turbo.jpg" style="width: 941.0px; height: 586.0px;" /></a>
+</div></blockquote>
+</section>
+<section id="hot-export-tool">
+<h3><a class="toc-backref" href="#id18" role="doc-backlink">Outil d’Export HOT</a><a class="headerlink" href="#hot-export-tool" title="Lien permanent vers cette rubrique">¶</a></h3>
+<p>La Humanitarian OpenStreetMap Team (HOT) fournit aussi un outil d’export pour OpenStreetMap. Pour l’utiliser vous avez besoin d’un compte OSM. Vous pouvez télécharger des données dans de nombreux formats et retrouver l’historique de vos données téléchargées et exports.</p>
+<p>Se trouve ici un guide de démarrage rapide : <a class="reference external" href="https://export.hotosm.org/fr/v3/learn/quick_start">https://export.hotosm.org/fr/v3/learn/quick_start</a></p>
+</section>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id19" role="doc-backlink">Ensuite ?</a><a class="headerlink" href="#what-next" title="Lien permanent vers cette rubrique">¶</a></h2>
+<p>Pour en savoir plus sur OSM, consultez le site Web : <a class="reference external" href="https://www.openstreetmap.org">https://www.openstreetmap.org</a></p>
+<p>Obtenir du soutien : <a class="reference external" href="https://www.openstreetmap.org/help">https://www.openstreetmap.org/help</a></p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>GeoServer &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="検索" href="../search.html" />
+    <link rel="copyright" title="著作権" href="../copyright.html" />
+    <link rel="next" title="GeoServer クイック スタート" href="../quickstart/geoserver_quickstart.html" />
+    <link rel="prev" title="GeoNetworkクイックスタート" href="../quickstart/geonetwork_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="http://geoserver.org/"><img alt="../../_images/logo_geoserver.png" class="align-right" src="../../_images/logo_geoserver.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="geoserver">
+<h1>GeoServer<a class="headerlink" href="#geoserver" title="Permalink to this heading">¶</a></h1>
+<section id="web-service">
+<h2>Web サービス<a class="headerlink" href="#web-service" title="Permalink to this heading">¶</a></h2>
+<p>GeoServer は、多様なフォーマットから地図とデータを Web ブラウザやデスクトップ GIS プログラム等の標準的なクライアントに配信する Web サーバです。データは WMS、WFS、WCS、WPS、タイルキャッシュなどの標準に基づくインタフェース経由で配信されます。GeoServer は、ブラウザベースの管理インタフェースを持ち、バックエンド側で複数のデータソースへ接続します。</p>
+<a class="reference internal image-reference" href="../../_images/geoserver_screenshot.png"><img alt="geoserver screenshot" class="align-right" src="../../_images/geoserver_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>主な機能<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<dl class="simple">
+<dt><strong>様々なデータストアからデータを配信:</strong></dt><dd><ul class="simple">
+<li><dl class="simple">
+<dt>ベクタ</dt><dd><ul>
+<li><p>シェープファイル、 外部WFS</p></li>
+<li><p>PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>ラスタ</dt><dd><ul>
+<li><p>GeoTiff, JPG 及び PNG (ワールドファイル付き), イメージピラミッド, GDALフォーマット, イメージモザイク, Oracle GeoRaster, NetCDF</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+<dt><strong>WMS 及び WMTS プロトコルを利用した、安全かつ迅速なデータ配信:</strong></dt><dd><p>データはイメージとして提供されるため、データは完全に安全で保護されています。彼らがあなたのデータを再デジタル化しない限り、あなたのデータを盗む方法はありません。各マップ画層の外観は、フィーチャの色付けとラベル付けを可能にするSLD標準を使用してコントロールできます。これらのルールをOGCと組み合わせることで、スケールに依存するスタイル設定を実装できるため、ユーザがズームインしたときに詳細を追加できます。ラベル衝突管理、グループ化、優先順位も実装されています。</p>
+</dd>
+<dt><strong>WFS プロトコルを利用した、クライアントへの全ベクタデータ送信:</strong></dt><dd><p>WFS クライアントは、ベクタデータをダウンロードして地図表示や空間解析等の用途に使用できます。さらに WFS-T プロトコルを利用して、認証されたユーザがサーバのデータを編集、アップロードすることで更新できます。シェープファイルや JSON のような標準規格同様に、データは圧縮した GML で送受信を行います。</p>
+</dd>
+<dt><strong>WCS プロトコルを利用した、クライアントへのラスタデータ値送信:</strong></dt><dd><p>GISクライアントはラスタの実データを要求して空間解析に使うことができます。この機能を使うと、あなたのデータで記述したプロセスをベースに、ユーザが活用することができます。</p>
+</dd>
+<dt><strong>オンザフライ投影変換:</strong></dt><dd><p>GeoServer は EPSG データベースの主な投影法をサポートしており、オンデマンドでそれらの投影法への再投影ができます。クライアント側で再投影を制限されている場合にはサーバ側でその処理を行うこともできます。</p>
+</dd>
+<dt><strong>タイルキャッシュ</strong></dt><dd><p><a class="reference external" href="https://www.geowebcache.org">GeoWebCache</a> は GeoServer に統合されていて、 WMS などの様々なソースからタイル化して地図画像をキャッシュします。様々な (WMS-C, WMTS, TMS, Google Maps KML, Virtual Earth などの) サービスインタフェースを実装し、地図画像配信を加速・最適化します。通常の WMS クライアントで動作するよう、タイルを再結合することも可能です。</p>
+</dd>
+<dt><strong>Web Processing Service (WPS)</strong></dt><dd><p><a class="reference internal" href="jts_overview.html"><span class="doc">JTS</span></a> に由来する地理空間アルゴリズムを、 GeoServer の <a class="reference external" href="https://www.ogc.org/standards/wps">Web Processing Service (WPS)</a> インタフェースを経由して呼び出すことが可能です。これには、処理を連結することや、 レンダリング変換を使用したWMS インタフェースによる強力な可視化が含まれます。</p>
+</dd>
+</dl>
+</section>
+<section id="implemented-standards">
+<h3>準拠している標準規格<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
+<p>多くの Open Geospatial Consortium (OGC) 標準をサポートしています:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> (クライアント/サーバ)</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wmts">OpenGIS Web Map Tile ServiceW (WMTS)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> (トランザクション)</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/filter">Filter Encoding (FE)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/sld">Styled Layer Descriptor (SLD)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/gml">Geography Markup Language (GML)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/kml">KML</a></p></li>
+</ul>
+</section>
+<section id="details">
+<h3>詳細<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Webサイト:</strong> <a class="reference external" href="http://geoserver.org/">http://geoserver.org/</a></p>
+<p><strong>ライセンス:</strong> GNU General Public License (GPL) version 2</p>
+<p><strong>ソフトウェアバージョン:</strong> 2.18.1</p>
+<p><strong>対応プラットフォーム:</strong> Windows, Linux, Mac 上の Java 8 (Oracle JDK 及び OpenJDK)</p>
+<p><strong>API インタフェース:</strong> WMS, WFS, WCS, REST</p>
+<p><strong>サポート:</strong> <a class="reference external" href="http://geoserver.org/support/">http://geoserver.org/support/</a></p>
+</section>
+<section id="quickstart">
+<h3>クイックスタート<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/geoserver_quickstart.html"><span class="doc">クイックスタート文書</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

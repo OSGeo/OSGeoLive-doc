@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Leaflet &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Guide de démarrage rapide de Leaflet" href="../quickstart/leaflet_quickstart.html" />
+    <link rel="prev" title="Guide de démarrage avec GeoExt" href="../quickstart/geoext_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://leafletjs.com"><img alt="../../_images/logo_leaflet.png" class="align-right" src="../../_images/logo_leaflet.png" /></a>
+<section id="leaflet">
+<h1>Leaflet<a class="headerlink" href="#leaflet" title="Lien permanent vers cette rubrique">¶</a></h1>
+<section id="browser-mobile-map-library">
+<h2>Bibliothèque cartographique pour navigateur/mobile<a class="headerlink" href="#browser-mobile-map-library" title="Lien permanent vers cette rubrique">¶</a></h2>
+<p>Leaflet est une bibliothèque JavaScript pour les cartes mobiles interactives basées dans le navigateur.  Elle est légère, mais possède toutes les fonctionnalités dont la plupart des développeurs auront besoin pour des cartes en ligne.</p>
+<p>Leaflet a été conçue dans un souci de simplicité, de performance et d’ergonomie. Elle fonctionne efficacement sur toutes les principales plates-formes de bureau et mobiles, en tirant parti des technologies HTML5 et CSS3 sur les navigateurs modernes tout en étant accessible sur les plus anciens aussi.  Elle peut être étendue avec de nombreux plugins, dispose d’une belle API, facile à utiliser et bien documentée et d’un code source simple, lisible qui est un plaisir à contribuer.</p>
+<a class="reference internal image-reference" href="../../_images/leaflet_screenshot.png"><img alt="leaflet screenshot" class="align-right" src="../../_images/leaflet_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Caractéristiques principales<a class="headerlink" href="#core-features" title="Lien permanent vers cette rubrique">¶</a></h3>
+<ul>
+<li><p>Couches de carte</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Tuiles, marqueurs, popup, image surimposé, WMS, GeoJSON</p></li>
+<li><p>Vecteurs: polylignes, polygones, cercles, rectangles, marqueurs circulaires</p></li>
+<li><p>Groupes de couche</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Fonctionnalités de personnalisation</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Des popups et des contrôles CSS3 purs pour faciliter le restylage</p></li>
+<li><p>Marqueurs basés sur des images et le HTML</p></li>
+<li><p>Couches, contrôles et projections de cartes personnalisées</p></li>
+<li><p>De puissants utilitaires OOP pour étendre les classes existantes</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><dl class="simple">
+<dt>Interaction et fonctionnalités visuelles</dt><dd><ul class="simple">
+<li><p>Déplacement par drag avec inertie</p></li>
+<li><p>Navigation clavier</p></li>
+<li><p>Multi-touch</p></li>
+<li><p>Animation lors du zoom/déplacement</p></li>
+<li><p>Très beau design par défaut pour les marqueurs, popups et autres contrôles cartographiques</p></li>
+<li><p>Prise en charge de la résolution Retina pour les couches tuilées et les marqueurs</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Fonctionnalités liées à la performance</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Accélération matérielle</p></li>
+<li><p>Utilisation des fonctions CSS3 pour rendre le déplacement et le zoom vraiment fluides</p></li>
+<li><p>Rendu de polyligne/polygone intelligent</p></li>
+<li><p>La conception modulaire permet de n’inclure que les caractéristiques requises</p></li>
+<li><p>Élimination du délai tap sur support mobile</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Contrôles de carte</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Boutons de zoom, Attribution, bascule entre couches, barre d’échelle</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Support des navigateurs bureautiques</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Chrome</p></li>
+<li><p>Firefox</p></li>
+<li><p>Safari 5+</p></li>
+<li><p>Opera 12+</p></li>
+<li><p>IE 7–11</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Support des navigateurs sur mobile</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Safari pour iOS 3-7+</p></li>
+<li><p>Navigateur Android 2.2+, 3.1+, 4+</p></li>
+<li><p>Chrome pour Android 4+ et iOS</p></li>
+<li><p>Firefox pour Android</p></li>
+<li><p>Autres navigateurs basés sur webkit (webOS, Blackberry 7+, etc.)</p></li>
+<li><p>IE10/IE11 pour les appareils basés sur Windows 8</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Divers</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Extrêmement légère — environ 34 Ko de code JS gzippé</p></li>
+<li><p>Pas de dépendances externes</p></li>
+<li><p>Garde votre environnement JS propre - pas de pollution de prototypes globaux ou natifs</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</section>
+<section id="details">
+<h3>Détails<a class="headerlink" href="#details" title="Lien permanent vers cette rubrique">¶</a></h3>
+<p><strong>Site Internet:</strong> <a class="reference external" href="https://leafletjs.com">https://leafletjs.com</a></p>
+<p><strong>Licence:</strong> BSD</p>
+<p><strong>Version du logiciel:</strong> 1.6.0</p>
+<p><strong>Plates-formes supportées:</strong> Windows, Mac, Linux, Android, iOS</p>
+<p><strong>Interface d’API:</strong> Javascript</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://groups.google.com/forum/#!forum/leaflet-js">https://groups.google.com/forum/#!forum/leaflet-js</a></p>
+</section>
+<section id="quickstart">
+<h3>Guide de démarrage rapide<a class="headerlink" href="#quickstart" title="Lien permanent vers cette rubrique">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/leaflet_quickstart.html"><span class="doc">Documentation du guide de démarrage rapide</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

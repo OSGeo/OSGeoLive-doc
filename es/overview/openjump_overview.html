@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>OpenJUMP SIG &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Inicio rápido de OpenJUMP GIS" href="../quickstart/openjump_quickstart.html" />
+    <link rel="prev" title="Inicio Rápido de QGIS" href="../quickstart/qgis_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="http://www.openjump.org"><img alt="../../_images/logo_openjump.png" class="align-right" src="../../_images/logo_openjump.png" /></a>
+<section id="openjump-gis">
+<h1>OpenJUMP SIG<a class="headerlink" href="#openjump-gis" title="Permalink to this heading">¶</a></h1>
+<section id="desktop-gis">
+<h2>SIG de escritorio<a class="headerlink" href="#desktop-gis" title="Permalink to this heading">¶</a></h2>
+<p>OpenJUMP es un potente SIG de escritorio fácil de usar  que permite a los usuarios visualizar, editar, analizar y combinar datos geográficos. Viene en un CORE y una edición PLUS, agregando en este último muchos plugins útiles. OpenJUMP es excelente para la edición de datos y la creación rápida de prototipos de funciones SIG.</p>
+<a class="reference internal image-reference" href="../../_images/openjump_screenshot.png"><img alt="pantalla de openjump" class="align-right" src="../../_images/openjump_screenshot.png" style="width: 500px;" /></a>
+<section id="features-core-features-and-plugins">
+<h3>Características (características principales y PlugIns*)<a class="headerlink" href="#features-core-features-and-plugins" title="Permalink to this heading">¶</a></h3>
+<ul>
+<li><p>Formatos de datos</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Lee (archivos): GML, SHP, DXF+, MIF*, CSV+, KML+, OSM* y TIFF, ASCII grid, JPG PNG, JPEG2000, MrSID*, ECW +</p></li>
+<li><p>Lee (DB): PostGIS, ArcSDE*, Oracle*, MySQL*, SpatiaLite, H2 Spatial+, MariaDB+</p></li>
+<li><p>Lee (estándares OGC): WKT WMS, KML+, GeoPackage</p></li>
+<li><p>escribe: GML, SHP, WKT, DXF+, CSV+, PostGIS y JPG, TIFF, ASCII grid*, SVG+</p></li>
+<li><p>Nota, formatos marcados con (*) requieren un plugin adicional y con (+) son parte de la edición PLUS.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Edición y fusión</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>dibujar puntos, líneas, multi-geometrías, colecciones de geometría y círculos (eventualmente mezclado en una sola capa)</p></li>
+<li><p>Agregar, mover, eliminar vértices</p></li>
+<li><p>rotación, escalamiento, autocompletar polígono</p></li>
+<li><p>cortar, combinar, simplificar polígonos y líneas</p></li>
+<li><p>envolver, herramientas de aseguramiento de la calidad</p></li>
+<li><p>conversiones de coordenadas entre CRS</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Análisis y consulta</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Funciones de consulta espaciales y de atributos</p></li>
+<li><p>Análisis: buffer, superposición, centroide, casco convexo…</p></li>
+<li><p>Estadísticas: longitud, área, capa estadísticas, estadísticas de atributo, parcelas…</p></li>
+<li><p>herramientas de edición: convertidor, noder, poligonizador, gráfico planar, topología de limpieza PLUS de edición ,…</p></li>
+<li><p>herramientas de transferencia de atributos: Join, coincidencia*</p></li>
+<li><p>La caja de herramientas de análisis raster SEXTANTE incluida en la edición PLUS</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Personalización</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>internacionalización (cz, de, en, es, fi, fr, hu, él, ja, pt, ta, zh)</p></li>
+<li><p>proporciona una API de  de secuencias de comandos, via  BeanShell y Java Python/Ython</p></li>
+<li><p>Sistema de plugins (Java)</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>Estándares implementados<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Estándares OGC compatibles: GML2, SFS, WMS, KML, SLD, GeoPackage (lectura);</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Detalles<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Sitio web:</strong> <a class="reference external" href="http://www.openjump.org">http://www.openjump.org</a></p>
+<p><strong>Licencia:</strong> GPL</p>
+<p><strong>Versión de software:</strong> 1.15.1</p>
+<p><strong>Plataformas compatibles:</strong> GNU/Linux, Mac OSX, MS Windows, Unix</p>
+<p><strong>Apoyo de la comunidad:</strong> <a class="reference external" href="http://www.openjump.org/support.html">http://www.openjump.org/support.html</a></p>
+<p><strong>Soporte Comercial:</strong> <a class="reference external" href="https://ojwiki.soldin.de/index.php?title=Professional_Support_Page">https://ojwiki.soldin.de/index.php?title=Professional_Support_Page</a></p>
+<p><strong>Página de descarga:</strong>  <a class="reference external" href="https://sourceforge.net/projects/jump-pilot/files/">https://sourceforge.net/projects/jump-pilot/files/</a></p>
+</section>
+<section id="quickstart">
+<h3>Inicio Rápido<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/openjump_quickstart.html"><span class="doc">Documentación de Inicio Rápido</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

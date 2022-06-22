@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>GeoTools &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
+    <link rel="search" title="Suche" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="PROJ" href="proj_overview.html" />
+    <link rel="prev" title="GEOS" href="geos_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://geotools.org/"><img alt="../../_images/logo_geotools.png" class="align-right" src="../../_images/logo_geotools.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="geotools">
+<h1>GeoTools<a class="headerlink" href="#geotools" title="Permalink to this heading">¶</a></h1>
+<p>GeoTools ist eine Open Source Bibliothek (LGPL) basierend auf Java, mit deren Hilfe man standardkonform räumliche Daten manipulieren und die Datenstrukturen ansprechen kann, die auf Open Geospatial Consortium (OGC) Spezifikationen beruhen.</p>
+<p>GeoTools wird von verschiedensten Projekten verwendet, angefangen von Web Services über Kommandozeilen-Tools bis hin zu Desktop-Anwendungen. OSGeoLive Anwendungen, die u. A. auf GeoTools basieren: <a class="reference internal" href="52nSOS_overview.html"><span class="doc">52° North SOS</span></a>, <a class="reference internal" href="52nWPS_overview.html"><span class="doc">52°North WPS</span></a>, AtlasStyler, Geomajas, Geopublisher, <a class="reference internal" href="geoserver_overview.html"><span class="doc">GeoServer</span></a>, und <a class="reference internal" href="udig_overview.html"><span class="doc">uDig</span></a>.</p>
+<a class="reference internal image-reference" href="../../_images/geotools_screenshot.png"><img alt="geotools screenshot" class="align-right" src="../../_images/geotools_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h2>Kernfunktionalität<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h2>
+<ul>
+<li><p>Definition von Schnittstellen für zentrale räumliche Konzepte und Datenstrukturen</p>
+<ul class="simple">
+<li><p>Integrierte Unterstützung von Geometrien, bereit gestellt über die <a class="reference external" href="https://sourceforge.net/projects/jts-topo-suite/">JTS Topology Suite (JTS)</a></p></li>
+<li><p>attributive und räumliche Filter basierend auf der OGC Filter Encoding Spezifikation</p></li>
+</ul>
+</li>
+<li><p>Eine saubere Programmierschnittstelle (Application Programming Interface - API) für den Zugriff auf räumliche Objekte (Features) und Unterstützung für Transaktionen und Sicherstellung der Sperrungen zwischen Threads</p>
+<ul class="simple">
+<li><p>Zugriffe datei- und datenbankbasierte GIS Daten</p></li>
+<li><p>unterstützt Koordinatensysteme und Transformationen</p></li>
+<li><p>kann mir einer erweiterbaren Pallette von Kartenprojektionen umgehen</p></li>
+<li><p>Filterung und Analyse bezogen auf rämliche Daten und Daten, die keine räumliche Komponente besitzen</p></li>
+</ul>
+</li>
+<li><p>Zustandsloser, wenig Speicher nutzender Renderer, vor allem hilfreich auf serverseitigen Umgebungen.</p>
+<ul class="simple">
+<li><p>Erzeugen und Anzeigen von Larten mit komplexem Styling</p></li>
+</ul>
+</li>
+<li><p>Ein zustandsloser Renderer, der wenig Arbeitsspeicher benötigt und somit insbesondere für serverseitige Anwendungen geeignet ist.</p>
+<ul class="simple">
+<li><p>Die Kodierung und Parser Technologie wird bereitgestellt für viele OGC Standards, unter anderem GML, KML, SLD, SE und Filter</p></li>
+</ul>
+</li>
+<li><p>GeoTools Plugins: Offenes System zur Erweiterung, um weitere Formate zu unterstützen</p>
+<ul class="simple">
+<li><p>Plugins für das ImageIO-EXT Projekt, welches GeoTools ermöglicht, weitere Rasterformate über GDAL zu lesen</p></li>
+</ul>
+</li>
+<li><p>GeoTools Erweiterungen</p>
+<ul class="simple">
+<li><p>stellt weitere Möglichkeiten zur Erweiterung bereit, die auf die Kernbibliothek aufbauend umgesetzt worden sind</p></li>
+</ul>
+<img alt="Extensions built using the GeoTools library" src="../../_images/geotools-extension.png" />
+<ul class="simple">
+<li><p>Die Erweiterungen stellen Graphen- und Netzwerkanalysen (kürzester/schnellster Weg), Validierung, einen Web Map Server (WMS) Client, Bindings für XML Parser und Kodierer sowie <cite>Color Brewer</cite>.</p></li>
+</ul>
+</li>
+<li><p>GeoTools <em>Unsupported</em></p>
+<ul class="simple">
+<li><p>GeoTools stellt mit dem <em>Unsupported</em> Bereich ein Sammelbecken zur Verfügung, welches von der Community genutzt werden kann, experimentell auf Basis der Kernbibliothek zu arbeiten und Talenten eine Plattform zu bieten, sich einzubringen.</p></li>
+<li><p>Einige Highlights sind die Unterstützung für Swing (wird in den Tutorials verwendet), Eclipse SWT, Unterstützung für Verarbeitungen in Prozessketten im Web (WPS) und lokal. Zusätzliche Symboliken, weitere Datenformate, Erzeugen von Gittern sowie einige Implementierungen für ISO Geometrien.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="supported-formats">
+<h2>Unterstützte Formate<a class="headerlink" href="#supported-formats" title="Permalink to this heading">¶</a></h2>
+<ul>
+<li><p>Rasterdaten und Datenzugriffe:</p>
+<p>arcsde, arcgrid, geotiff, grassraster, gtopo30, image (JPEG, TIFF, GIF, PNG), imageio-ext-gdal, imagemoasaic, imagepyramid, JP2K, matlab.</p>
+</li>
+<li><p>Datenbanken „jdbc-ng“ Unterstützung:</p>
+<p>db2, h2, mysql, oracle, postgis, spatialite, sqlserver.</p>
+</li>
+<li><p>Vektordaten und Datenzugriffe:</p>
+<p>app-schema, arcsde, csv, dxf, edigeo, excel, geojson, org, property, shapefile, wfs.</p>
+</li>
+<li><p>XML Bindings:</p>
+<p>Java Datenstrukturen und Bindings werde angeboten für: xsd-core (xml simple types), fes, filter, gml2, gml3, kml, ows, sld, wcs, wfs, wms, wps, vpf.</p>
+<p>Weitere Geometrie-, Filter- und Stil- Parser/Kodierer sind für DOM und SAX basierte Anwendungen verfügbar.</p>
+</li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h2>Implementierte Standards<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h2>
+<p>Unterstützung für eine breite Palette der Open Geospatial Consortium (OGC) Standards:</p>
+<ul class="simple">
+<li><p>OGC Style Layer Descriptor / Symbology Encoding</p></li>
+<li><p>OGC General Feature Model including Simple Feature support</p></li>
+<li><p>OGC Grid Coverage Repräsentationen von Rasterinformationen</p></li>
+<li><p>OGC Filter und Common Constraint Language (CQL)</p></li>
+<li><p>Clients für Web Feature Service (WFS), Web Map Service (WMS) and experimentelle Unterstützung für Web Process Service (WPS)</p></li>
+<li><p>ISO 19107 Geometry</p></li>
+</ul>
+</section>
+<section id="details">
+<h2>Details<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h2>
+<p><strong>Webseite:</strong> <a class="reference external" href="https://geotools.org/">https://geotools.org/</a></p>
+<p><strong>Lizenz:</strong> LGPL</p>
+<p><strong>Unterstützte Plattformen:</strong> Plattformübergreifend Java 8,9,10</p>
+<p><strong>API Schnittstellen:</strong> Java</p>
+<p><strong>Support:</strong> <a class="reference external" href="http://docs.geotools.org/latest/userguide/welcome/support.html">Kontakt und Unterstützung (englisch)</a></p>
+</section>
+<section id="geotools-support">
+<h2>GeoTools_Support<a class="headerlink" href="#geotools-support" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html">Quickstart Dokumentation</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

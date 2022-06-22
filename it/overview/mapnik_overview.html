@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Mapnik &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Indice" href="../genindex.html" />
+    <link rel="search" title="Cerca" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Mapnik Quickstart" href="../quickstart/mapnik_quickstart.html" />
+    <link rel="prev" title="Jupyter Notebook Quickstart" href="../quickstart/jupyter_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://mapnik.org/"><img alt="../../_images/logo_mapnik.png" class="align-right" src="../../_images/logo_mapnik.png" /></a>
+<section id="mapnik">
+<h1>Mapnik<a class="headerlink" href="#mapnik" title="Permalink to this heading">¶</a></h1>
+<section id="cartographic-rendering-engine">
+<h2>Motore per restituzione cartografiche<a class="headerlink" href="#cartographic-rendering-engine" title="Permalink to this heading">¶</a></h2>
+<p>Mapnik è uno strumento per renderizzare belle le mappe, con bordi morbidi caratteristica fornita da dalla qualità grafica anti-aliasing, posizionamento delle etichette intelligenti e simboli SVG scalabili. Il più famoso utilizzo di Mapnik è per renderizzare lo stile del layer principale di OpenStreetMap.</p>
+<p>Mapnik solitamente viene utilizzato in applicazioni Python per distribuire le proprie mappe attraverso internet anche se i miglioramenti alla scala hanno fatto sì che mapnik è stato recentemente usato per creare mappe cartacee ad alta risoluzione.</p>
+<a class="reference internal image-reference" href="../../_images/mapnik_screenshot.png"><img alt="mapnik screenshot" class="align-right" src="../../_images/mapnik_screenshot.png" style="width: 500px;" /></a>
+</section>
+<section id="core-features">
+<h2>Caratteristiche principali<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h2>
+<p>Essenzialmente è una collezione di oggetti geografici (mappe, layer, datasource, feature, geometry), la libreria non si basa su “sistemi a finestre” e può essere implementata in qualunque ambiente server. Esso è destinato a essere eseguito in un ambiente multithread e mira principalmente, ma non esclusivamente, allo sviluppo basato sul web.</p>
+<p>Bindings ad alto livello in Python (Boost.Python) facilitano lo sviluppo rapido di applicazioni, mirando a zope3, django ecc.</p>
+<p>Mapnik è multipiattaforma. I pacchetti sono disponibili per le maggiori distribuzioni linux e gli eseguibili sono comunemente utilizzati su Mac OS X e Windows.</p>
+</section>
+<section id="details">
+<h2>Dettagli<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h2>
+<p><strong>Sito web:</strong> <a class="reference external" href="https://mapnik.org/">https://mapnik.org/</a></p>
+<p><strong>Licenza:</strong> LGPL (GNU Lesser General Public Licence)</p>
+<p><strong>Versione Software:</strong> 3.0.22</p>
+<p><strong>Piattaforme Supportate:</strong> Windows, Linux, Mac</p>
+<p><strong>Interfacce API:</strong> C++, Python</p>
+</section>
+<section id="quickstart">
+<h2>Guida rapida<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/mapnik_quickstart.html"><span class="doc">Guida rapida</span></a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

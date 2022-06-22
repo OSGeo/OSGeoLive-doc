@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>MapCache &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="検索" href="../search.html" />
+    <link rel="copyright" title="著作権" href="../copyright.html" />
+    <link rel="next" title="MapCache クイックスタート" href="../quickstart/mapcache_quickstart.html" />
+    <link rel="prev" title="GeoServer クイック スタート" href="../quickstart/geoserver_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://mapserver.org/mapcache"><img alt="../../_images/logo_mapcache.png" class="align-right" src="../../_images/logo_mapcache.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="mapcache">
+<h1>MapCache<a class="headerlink" href="#mapcache" title="Permalink to this heading">¶</a></h1>
+<section id="web-service">
+<h2>Web サービス<a class="headerlink" href="#web-service" title="Permalink to this heading">¶</a></h2>
+<p>MapCache は、 WMS レイヤへのアクセスを高速化するタイルのキャッシュを実装しているサーバーです。第一の目標は、タイルキャッシュに期待される主要機能 (およびそれ以上!) を提供しつつ、迅速かつ容易にデプロイできることです。</p>
+<p>MapCache は MapServer ファミリーの一部ですが、 WMSを使用するすべての地理空間サーバーのデータをキャッシュできます。MapCache は Apache  httpdのモジュールとして利用できるほか、IIS、 Nginx、 Jetty などの CGI/FastCGI をサポートする任意の Web サーバーでも実行できます。</p>
+<a class="reference internal image-reference" href="../../_images/mapcache_screenshot.png"><img alt="mapcache screenshot" class="align-right" src="../../_images/mapcache_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>主な機能<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>タイル・キャッシュを</p>
+<ul>
+<li><p>ディスクに格納できます。</p></li>
+<li><p>REST (S3, Azure, Google)を使ってクラウドに格納できます。</p></li>
+<li><p>SQLite, Berkeley DB, Riakといったデータベースに格納できます。</p></li>
+<li><p>Memcacheへ格納できます。</p></li>
+</ul>
+</li>
+<li><p>シーダー・アプリケーションを内蔵</p></li>
+<li><p>(時間など)次元にもとづくキャッシュ</p></li>
+<li><p>Mapbox Vector (MVT)や UTFGrid タイルのキャッシュをサポート</p></li>
+<li><p>カスタマイズ可能なグリッド</p></li>
+<li><p>タイルを一緒に &quot;くみこんで&quot;、異なるデータ・セットのタイルを 1 つのタイルにまぜこみして、クライアントに送信できます。</p></li>
+<li><p>コマンドラインからキャッシュを事前に蓄積するシーダーアプリケーションが含まれています。</p></li>
+<li><p>要求がサーバーにプロキシー処理されることを許可します</p></li>
+<li><p>組み込みデモ・インタフェースがあります</p></li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>実装されている標準規格<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>多数の Open Geospatial Consortium  (OGC) 標準規格のサポート</p>
+<ul>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wmts">OpenGIS Web Map Tile ServiceW (WMTS)</a></p></li>
+</ul>
+</li>
+<li><p>その他の標準には:</p>
+<ul>
+<li><p><a class="reference external" href="https://wiki.osgeo.org/wiki/Tile_Map_Service_Specification">TMS</a></p></li>
+<li><p>Google Maps XYZ</p></li>
+<li><p>KML SuperOverlays</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="demo">
+<h3>デモ<a class="headerlink" href="#demo" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="http://localhost/mapcache/demo/">デフォルトの MapCache デモ</a></p></li>
+</ul>
+</section>
+<section id="documentation">
+<h3>ドキュメント<a class="headerlink" href="#documentation" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://mapserver.org/mapcache/">MapCache 文書</a></p></li>
+</ul>
+</section>
+<section id="details">
+<h3>詳細<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Webサイト:</strong> <a class="reference external" href="https://mapserver.org/mapcache">https://mapserver.org/mapcache</a></p>
+<p><strong>ライセンス:</strong> <a class="reference external" href="https://mapserver.org/copyright.html#license">MIT-style license</a></p>
+<p><strong>ソフトウェアバージョン:</strong> 1.10.0</p>
+<p><strong>対応プラットフォーム:</strong> Windows, Linux, Mac</p>
+<p><strong>サポート:</strong> <a class="reference external" href="https://mapserver.org/community/">https://mapserver.org/community/</a></p>
+</section>
+<section id="quickstart">
+<h3>クイックスタート<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/mapcache_quickstart.html"><span class="doc">クイックスタート文書</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

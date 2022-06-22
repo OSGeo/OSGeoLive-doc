@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>SpatiaLite &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Tárgymutató" href="../genindex.html" />
+    <link rel="search" title="Keresés" href="../search.html" />
+    <link rel="copyright" title="Minden jog fenntartva" href="../copyright.html" />
+    <link rel="next" title="SpatiaLite gyorstalpaló" href="../quickstart/spatialite_quickstart.html" />
+    <link rel="prev" title="Rasdaman gyorstalpaló" href="../quickstart/rasdaman_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="http://www.gaia-gis.it/gaia-sins/"><img alt="../../_images/logo_spatialite.png" class="align-right" src="../../_images/logo_spatialite.png" /></a>
+<section id="spatialite">
+<h1>SpatiaLite<a class="headerlink" href="#spatialite" title="Permalink to this heading">¶</a></h1>
+<section id="spatial-database">
+<h2>Téradatbázis<a class="headerlink" href="#spatial-database" title="Permalink to this heading">¶</a></h2>
+<p>A SpatiLite egy térbeli függvényekkel kibővített <a class="reference external" href="https://www.sqlite.org/index.html">SQLite</a> adatbázis motor.</p>
+<p>Az SQLite egy egyszerű, robusztus, könnyen használható és könnyűsúlyú adatbázis kezelő rendszer. Minden SQLite adatbázis egyszerűen egy fájl. Szabadon másolhatja, tömörítheti átviheti Windows, Linux, MacOs, stb. között.</p>
+<a class="reference internal image-reference" href="../../_images/spatialite_screenshot.png"><img alt="spatialite screenshot" class="align-right" src="../../_images/spatialite_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Alapfunkciók<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<p>A SpatiaLite bővítmény az OGC specifikációnak megfelelő téradat kezelést tesz lehetővé a SQLite-ban.</p>
+<p>Kiemelkedő funkciók:</p>
+<ul class="simple">
+<li><p>Felhasználó barát GUI</p></li>
+<li><p>Szabványos WKT és WKB formátumok</p></li>
+<li><p>SQL térbeli függvények mint például AsText(), GeomFromText(), Area(), PointN() …</p></li>
+<li><p>GEOS könyvtár által szolgáltatott OpenGIS térbeli elemző függvények, mint például Overlaps(), Touches(), Union(), Buffer() …</p></li>
+<li><p>Az OpenGIS specifikációnak megfelelő teljes térinformatikai metaadat</p></li>
+<li><p>Többféle geometria ábrázolás - EWKT, GML, KML és GeoJSON</p></li>
+<li><p>Shape fájl import és export</p></li>
+<li><p>Vetületi átszámítás PROJ.4 segítségével, EPSG paraméterek alapján</p></li>
+<li><p>Helyi kódlap használata GNU libiconv segítségével</p></li>
+<li><p>Térbeli index az SQLite RTree bővítményen keresztül</p></li>
+<li><p>Shape fájlok elérése virtuális táblaként, szabványos SQL lekérdezések hajthatók végre külső shape fájlokon anélkül, hogy importálnák vagy konvertálnánk őket</p></li>
+<li><p>Külső CSV/TxtTab fájlok vagy xls számolótáblák elérése virtuális táblaként</p></li>
+<li><p>XML dokumentumok, tömörített bináris BLOB objektumok elérése, beleértve a szintaktikailag „jól formázott” és XFS séma ellenőrzést. Speciális ISO-Metaadat támogatás, SLD/SE stílusok és SVG grafika. XML dokumentumok lekérdezhetők a szabványos XPath szintaxissal.</p></li>
+<li><p>Lekérdezés külső WFS szerverről.</p></li>
+<li><p>Külső DXF fájlok (minden verzió) értelmezése a megtalált rétegek és geometriai elemek tárolása.</p></li>
+<li><p>DXF fájl generálás és export</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Részletek<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Honlap:</strong> <a class="reference external" href="http://www.gaia-gis.it/gaia-sins/">http://www.gaia-gis.it/gaia-sins/</a></p>
+<p><strong>Licenc:</strong> MPL v1.1 and GPL v3</p>
+<p><strong>Szoftver verzió:</strong> 5.0.0</p>
+<p><strong>Támogatott platformok:</strong> Linux, Mac, Windows</p>
+<p><strong>API interfészek:</strong> C</p>
+</section>
+<section id="quickstart">
+<h3>Gyorstalpaló<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/spatialite_quickstart.html"><span class="doc">Gyorstalpaló dokumentáció</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

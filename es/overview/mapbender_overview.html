@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Mapbender &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Gía de Inicio Rápido de Mapbender" href="../quickstart/mapbender_quickstart.html" />
+    <link rel="prev" title="Guía de Inicio Rápido de GeoNode" href="../quickstart/geonode_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://mapbender.org"><img alt="../../_images/logo_mapbender.png" class="align-right" src="../../_images/logo_mapbender.png" /></a>
+<section id="mapbender">
+<h1>Mapbender<a class="headerlink" href="#mapbender" title="Permalink to this heading">¶</a></h1>
+<section id="geoportal-framework">
+<h2>Marco Geoportal<a class="headerlink" href="#geoportal-framework" title="Permalink to this heading">¶</a></h2>
+<p><a class="reference external" href="https://mapbender.org/en">Mapbender</a>  es un proyecto graduado de OSGeo. Es un marco de geoportal basado en web para publicar, registrar, ver, navegar, monitorear y otorgar acceso seguro a servicios de infraestructura de datos espaciales.</p>
+<p>Mapbender es la punta del iceberg, una meta capa de software que proporciona acceso a los componentes de SDI que se adhieren a los estándares internacionales. Mapbender permite a los usuarios crear fácilmente clientes de navegador personalizados a partir de una amplia gama de widgets (sin necesidad de / con mínima) programación requerida. Los widgets se integran con la funcionalidad del servidor para proporcionar funciones avanzadas como proxying de seguridad, digitalización, ajuste automático y más.</p>
+<p>Las aplicaciones de gestión de Mapbender son sencillas y fáciles de usar, proporcionando una funcionalidad altamente enfocada para el funcionamiento de componentes SDI distribuidos a gran escala. Es la herramienta preferida por los administradores de SDI que necesitan mantener, categorizar y monitorear los servicios de mapas y funciones. Mapbender otorga acceso a individuos, grupos y gestiona el acceso de máquina a máquina. La adhesión a servicios estandarizados, como OGC WMS, permite aprovechar los servicios interoperables de una multitud de plataformas de servidor.</p>
+<p>Mapbender es basado en OpenLayers, Symfony y jQuery.</p>
+<a class="reference internal image-reference" href="../../_images/mapbender_screenshot.png"><img alt="pantalla de mapbender" class="align-right" src="../../_images/mapbender_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Características Principales<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Crear fácilmente interfaces de mapas utilizando aplicaciones de plantilla web</p>
+<ul>
+<li><p>aplicaciones para añadir/quitar/personalizar</p></li>
+</ul>
+</li>
+<li><p>Crear aplicaciones con funcionalidad de digitalización</p></li>
+<li><p>Crear aplicaciones móviles</p></li>
+<li><p>Imprimir mapas de alta calidad usando sus propias plantillas PDF.</p></li>
+<li><p>Digitalización mediante SQL</p></li>
+<li><p>Subir y compartir remotos OGC WMS (capacidades de almacenamiento en caché)</p>
+<ul>
+<li><p>organizar WMS subido para superposición</p></li>
+<li><p>edición de visibilidad de capa</p></li>
+<li><p>orden</p></li>
+<li><p>formato</p></li>
+</ul>
+</li>
+<li><p>Crear usuarios y grupos, compartir y permitir el acceso a los servicios y módulos</p></li>
+<li><p>Restringir el acceso de los usuarios con el módulo de proxy OWS de seguridad vía servidores de confianza</p></li>
+<li><p>Protocolos cifrados monitoreo y servicio de notificación y actualización automática de estado remoto servicios OGC</p></li>
+<li><p>… y más!</p></li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>Estándares implementados<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Web Map Service (WMS) 1.1.1, 1.3.0 de OGC</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Detalles<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Sitio web:</strong> <a class="reference external" href="https://mapbender.org">https://mapbender.org</a></p>
+<p><strong>Licencia:</strong> <a class="reference external" href="https://opensource.org/licenses/MIT">MIT license</a></p>
+<p><strong>Versión de software:</strong> 3.2.3</p>
+<p><strong>Plataformas compatibles:</strong> GNU/Linux, Mac OSX, MS Windows</p>
+<p><strong>Soporte:</strong> <a class="reference external" href="https://mapbender.org/en/community">https://mapbender.org/en/community</a></p>
+</section>
+<section id="quickstart">
+<h3>Inicio Rápido<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/mapbender_quickstart.html"><span class="doc">Documentación de inicio rápido</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

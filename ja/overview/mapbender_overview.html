@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Mapbender &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="検索" href="../search.html" />
+    <link rel="copyright" title="著作権" href="../copyright.html" />
+    <link rel="next" title="Mapbender Quickstart" href="../quickstart/mapbender_quickstart.html" />
+    <link rel="prev" title="GeoNodeクイックスタート" href="../quickstart/geonode_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://mapbender.org"><img alt="../../_images/logo_mapbender.png" class="align-right" src="../../_images/logo_mapbender.png" /></a>
+<section id="mapbender">
+<h1>Mapbender<a class="headerlink" href="#mapbender" title="Permalink to this heading">¶</a></h1>
+<section id="geoportal-framework">
+<h2>Geoportalフレームワーク<a class="headerlink" href="#geoportal-framework" title="Permalink to this heading">¶</a></h2>
+<p><a class="reference external" href="https://mapbender.org/en">Mapbender</a> は卒業したOSGeoプロジェクトです。これは、空間データインフラストラクチャサービスへの安全なアクセスを公開、登録、ビュー、ナビゲート、監視、および付与するためのWebベースのGeoportal フレームワークです。</p>
+<p>Mapbenderは、いわば氷山の一角であり、国際標準に準拠したSDIコンポーネントへのアクセスを提供するソフトウェアのメタレイヤです。Mapbenderを使用すると、ユーザはさまざまなウィジェットから、プログラミング不要、あるいは最小限のプログラミングで、カスタマイズされたブラウザクライアントを簡単に作成できます。ウィジェットはサーバ機能と統合され、セキュリティプロキシ、デジタイズ、自動スナップなどの先進的な機能を提供します。</p>
+<p>Mapbender管理アプリケーションは、大規模な分散SDIコンポーネントの操作に高度に焦点を当てた機能を提供する、簡単で使いやすいものです。これは、マップと地物のサービスを維持、分類、および監視する必要があるSDI管理者向けのツールです。Mapbenderは、個人、グループへのアクセスを許可し、M2Mアクセスを管理します。OGC WMSなどの標準化されたサービスに準拠することで、多数のサーバプラットフォームから相互運用可能なサービスを利用できます。</p>
+<p>MapbenderはSymfony、OpenLayers、およびjQueryに基づいています。</p>
+<a class="reference internal image-reference" href="../../_images/mapbender_screenshot.png"><img alt="mapbender screenshot" class="align-right" src="../../_images/mapbender_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>主な機能<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>テンプレートアプリケーションを使用してWebマッピングインタフェースを簡単に作成する</p>
+<ul>
+<li><p>アプリケーションの追加/削除/カスタマイズ</p></li>
+</ul>
+</li>
+<li><p>デジタイズ機能を備えたアプリケーションを作成する</p></li>
+<li><p>モバイルアプリケーションを作成する</p></li>
+<li><p>独自のPDFテンプレートを使用して高品質な地図を印刷します。</p></li>
+<li><p>SQLによるデジタイズ</p></li>
+<li><p>アップロードしてリモートOGC WMS(キャッシュ機能つき)を共有する</p>
+<ul>
+<li><p>アップロードされたWMSをオーバーレイ用に加工する</p></li>
+<li><p>レイヤの可視性を編集する</p></li>
+<li><p>順序</p></li>
+<li><p>フォーマット</p></li>
+</ul>
+</li>
+<li><p>ユーザとグループを作成し、サービスとモジュールへのアクセスを共有および許可する</p></li>
+<li><p>信頼されたサーバー経由でOWSセキュリティプロキシモジュールを使用してユーザアクセスを制限する</p></li>
+<li><p>リモートOGCサービスのための暗号化プロトコルモニタリング、ステータス通知、自動更新サービス</p></li>
+<li><p>などなど ...</p></li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>実装されている標準規格<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>OGC Web Map Service (WMS) 1.1.1, 1.3.0</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>詳細<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Webサイト:</strong> <a class="reference external" href="https://mapbender.org">https://mapbender.org</a></p>
+<p><strong>ライセンス:</strong> <a class="reference external" href="https://opensource.org/licenses/MIT">MIT license</a></p>
+<p><strong>ソフトウェアバージョン:</strong> 3.2.3</p>
+<p><strong>対応プラットフォーム:</strong> Windows, Linux, Mac</p>
+<p><strong>サポート:</strong> <a class="reference external" href="https://mapbender.org/en/community">https://mapbender.org/en/community</a></p>
+</section>
+<section id="quickstart">
+<h3>クイックスタート<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/mapbender_quickstart.html"><span class="doc">クイックスタート文書</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

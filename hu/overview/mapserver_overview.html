@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>MapServer &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Tárgymutató" href="../genindex.html" />
+    <link rel="search" title="Keresés" href="../search.html" />
+    <link rel="copyright" title="Minden jog fenntartva" href="../copyright.html" />
+    <link rel="next" title="MapServer gyorstalpaló" href="../quickstart/mapserver_quickstart.html" />
+    <link rel="prev" title="MapCache gyorstalpaló" href="../quickstart/mapcache_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://mapserver.org"><img alt="../../_images/logo_mapserver.png" class="align-right" src="../../_images/logo_mapserver.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="mapserver">
+<h1>MapServer<a class="headerlink" href="#mapserver" title="Permalink to this heading">¶</a></h1>
+<section id="web-service">
+<h2>Web szolgáltatás<a class="headerlink" href="#web-service" title="Permalink to this heading">¶</a></h2>
+<p>A MapServer egy C-ben írt <a class="reference external" href="https://opensource.org/">nyílt forráskódú</a> térinformatikai adatmegjelenítő motor. Az adatok böngészésén túl a MapServer „térinformatikai kép térképek” létrehozását is lehetővé teszi, ez olyan térkép, mely különböző web tartalmakra irányíthatja a felhasználót. Például a Minnesota <a class="reference external" href="http://www.dnr.state.mn.us/maps/compass.html">DNR Rekreációs iránytű</a> alkalmazás több mint 10,000 weblapot kínál a felhasználóknak, egyetlen alkalmazáson keresztül. Ugyanez az alkalmazás „térkép motorként” szolgálja ki az oldal többi részét és térbeli tartalmat szolgáltat ahol szükséges.</p>
+<p>A MapServert eredetileg a Minnesota Egyetem (UMN) Természetes Erőforrások tanszékén (MNDNR) fejlesztették, a NASA-val együttműködésben a ForNet projekt keretében. Később a TerraSIP projekt kezelésébe került, melyet a NASA szponzorált és az UMN mellett egy termőföld kezelésben érdekelt konzorcium vett benne részt.</p>
+<p>Napjainkban az <a class="reference external" href="https://www.osgeo.org">OSGeo</a> egy projektje és a világon mindenfelé megtalálható, növekvő számú fejlesztő (közel 20) tartja karban. A szervezetek sokszínű csoportja biztosít támogatást, alapfejlesztést és karbantartást, az OSGeo-n belüli irányításról a MapServer Projekt Irányító Bizottság gondoskodik, mely fejlesztőkből és közreműködőkből áll.</p>
+<a class="reference internal image-reference" href="../../_images/mapserver_screenshot.png"><img alt="mapserver screenshot" class="align-right" src="../../_images/mapserver_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Alapfunkciók<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Fejlett térképi kimenet</p>
+<ul>
+<li><p>Méretarány függő megjelenítés és alkalmazás végrehajtás</p></li>
+<li><p>Címkézés és címke egybeesés vizsgálat</p></li>
+<li><p>TrueType font támogatás a címkézéshez és a szimbólumokhoz</p></li>
+<li><p>Automatikus térkép elemek (lépték vonalzó, áttekintő térkép és jelmagyarázat)</p></li>
+<li><p>Tematikus térkép logikai vagy szabályos kifejezés alapján kialakított osztályokra</p></li>
+<li><p>Lecserélhető megjelenítő AGG, Cairo, GD, OpenGL és még további meghajtókkal</p></li>
+<li><p>Speciális szolgáltatás a csempe output generálásához</p></li>
+<li><p>Maszk rétegek</p></li>
+<li><p>Pontos szimbólum elhelyezés</p></li>
+<li><p>Összetett többszörös címke/szimbólum definíciók</p></li>
+<li><p>Vektor mezők</p></li>
+<li><p>Nyilazott címkék</p></li>
+<li><p>SVG szimbólumok</p></li>
+<li><p>Többféle font támogatása</p></li>
+<li><p>Dinamikus hőtérképek</p></li>
+<li><p>UTF rács támogatás</p></li>
+<li><p>Réteg kompozíció</p></li>
+</ul>
+</li>
+<li><p>Kifinomult térbeli lekérdezések</p>
+<ul>
+<li><p>Elemek azonosítása attribútum, pont, befoglaló idom vagy geometria alapján, egy vagy több rétegen</p></li>
+<li><p>Raszter lekérdezések</p></li>
+<li><p>Teljesen testreszabható sablon alapú kimenet</p></li>
+<li><p>OGR alapú lekérdezés kimenet</p></li>
+</ul>
+</li>
+<li><p>Népszerű szkript és fejlesztő környezetek támogatása</p>
+<ul>
+<li><p>CGI/FastCGI</p></li>
+<li><p>PHP, Python, Perl, Ruby, Java, és .NET</p></li>
+</ul>
+</li>
+<li><p>Platform függetlenség</p>
+<ul>
+<li><p>Linux, Windows, Mac OS X, Solaris, és továbbiak</p></li>
+</ul>
+</li>
+<li><p>Vektor és raszter formátumok sokasága</p>
+<ul>
+<li><p>Natív támogatás ESRI shape fájl, PostGIS és Oracle Spatial adatforrásokhoz</p></li>
+<li><p>Sok további formátum GDAL és OGR könyvtárakon keresztül</p></li>
+</ul>
+</li>
+<li><p>Térkép vetületek</p>
+<ul>
+<li><p>Röptében történő vetületi átszámítások több ezer vetület között a Proj.4 könyvtárral</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>Implementált szabványok<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Számos Open Geospatial Consortium (OGC) szabvány támogatása</p>
+<ul>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> (kliens/szerver)</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> (nem tranzakciósl, kliens/szerver)</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wmc">Web Map Context (WMC)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/filter">Filter Encoding (FE)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/sld">Styled Layer Descriptor (SLD)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/gml">Geography Markup Language (GML)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/sos">Sensor Observation Service (SOS)</a></p></li>
+<li><p>OM</p></li>
+</ul>
+</li>
+<li><p>INSPIRE View Service megfelelőség</p></li>
+</ul>
+</section>
+<section id="demo">
+<h3>Demó<a class="headerlink" href="#demo" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="http://localhost/mapserver_demos/itasca/">Itasca</a></p></li>
+</ul>
+</section>
+<section id="documentation">
+<h3>Dokumentáció<a class="headerlink" href="#documentation" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://localhost/mapserver/doc/index.html">MapServer 7.0 Documentation</a></p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Részletek<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Honlap:</strong> <a class="reference external" href="https://mapserver.org">https://mapserver.org</a></p>
+<p><strong>Licenc:</strong> <a class="reference external" href="https://mapserver.org/copyright.html#license">MIT-style licenc</a></p>
+<p><strong>Szoftver verzió:</strong> 7.6.2</p>
+<p><strong>Támogatott platformok:</strong> Windows, Linux, Mac</p>
+<p><strong>API Interfészek:</strong> C, PHP, Python, Perl, Ruby, Java, és .NET</p>
+<p><strong>Támogatás:</strong> <a class="reference external" href="https://mapserver.org/community/">https://mapserver.org/community/</a></p>
+</section>
+<section id="quickstart">
+<h3>Gyorstalpaló<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/mapserver_quickstart.html"><span class="doc">Gyorstalpaló dokumentáció</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

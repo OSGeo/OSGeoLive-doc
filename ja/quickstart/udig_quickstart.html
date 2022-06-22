@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>uDig クイックスタート &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="検索" href="../search.html" />
+    <link rel="copyright" title="著作権" href="../copyright.html" />
+    <link rel="next" title="GeoMoose" href="../overview/geomoose_overview.html" />
+    <link rel="prev" title="uDig" href="../overview/udig_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="http://udig.refractions.net/"><img alt="../../_images/logo_udig.png" class="align-right" src="../../_images/logo_udig.png" /></a>
+<section id="udig-quickstart">
+<h1><a class="toc-backref" href="#id1" role="doc-backlink">uDig クイックスタート</a><a class="headerlink" href="#udig-quickstart" title="Permalink to this heading">¶</a></h1>
+<p>uDig(User Friendly Internet Desktop GIS)は、地理空間データを編集および表示するためのGISデスクトップクライアントです。</p>
+<p>このクイックスタートでは、次の方法について説明します:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>シェープファイルと <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> からマップレイヤをロードする</p></li>
+<li><p>標準のマップツールを使用する</p></li>
+<li><p>スタイルを使用して地物に色を適用する</p></li>
+</ul>
+</div></blockquote>
+<nav class="contents" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#udig-quickstart" id="id1">uDig クイックスタート</a></p>
+<ul>
+<li><p><a class="reference internal" href="#start-udig" id="id2">uDigの開始</a></p></li>
+<li><p><a class="reference internal" href="#welcome-view" id="id3">ウェルカム画面</a></p></li>
+<li><p><a class="reference internal" href="#workbench" id="id4">ワークベンチ</a></p></li>
+<li><p><a class="reference internal" href="#files" id="id5">ファイル</a></p></li>
+<li><p><a class="reference internal" href="#map" id="id6">マップ</a></p></li>
+<li><p><a class="reference internal" href="#web-map-server" id="id7">Web Map サーバ</a></p></li>
+<li><p><a class="reference internal" href="#style" id="id8">スタイル</a></p></li>
+<li><p><a class="reference internal" href="#things-to-try" id="id9">試してみること</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id10">次のステップ</a></p></li>
+</ul>
+</li>
+</ul>
+</nav>
+<section id="start-udig">
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">uDigの開始</a><a class="headerlink" href="#start-udig" title="Permalink to this heading">¶</a></h2>
+<ol class="arabic simple">
+<li><p>メニューから <span class="menuselection">Geospatial ‣ Desktop GIS ‣ uDig</span> を選択してください</p></li>
+<li><p>アプリケーションの起動にはしばらくかかります</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/udig_Quickstart1Splash.png"><img alt="../../_images/udig_Quickstart1Splash.png" src="../../_images/udig_Quickstart1Splash.png" style="width: 350.0px; height: 224.0px;" /></a>
+<p>問題がある場合、またはuDigを実行している場合は、実行中のuDigのリファレンスページを確認してください。</p>
+</section>
+<section id="welcome-view">
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">ウェルカム画面</a><a class="headerlink" href="#welcome-view" title="Permalink to this heading">¶</a></h2>
+<ol class="arabic simple">
+<li><p>uDigを初めて起動すると、ウェルカム画面が画面全体に表示されます。この画面には、チュートリアル、ドキュメント、およびプロジェクトWebサイトへのリンクがあります。</p></li>
+<li><p>右上隅にあるワークベンチというラベルの矢印をクリックすると、uDigワークベンチの内容が表示されます。</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/udig_welcome.png"><img alt="../../_images/udig_welcome.png" src="../../_images/udig_welcome.png" style="width: 711.1999999999999px; height: 514.5px;" /></a>
+</div></blockquote>
+<p>メニューバーから <span class="menuselection">Help ‣ Welcome</span> を選択すると、いつでもウェルカム画面に戻ることができます。</p>
+</section>
+<section id="workbench">
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">ワークベンチ</a><a class="headerlink" href="#workbench" title="Permalink to this heading">¶</a></h2>
+<p>ワークベンチウィンドウには複数のエディタ(それぞれがマップを表示)とサポートするビュー(現在のマップに関する情報を提供)があります。</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/udig_workbench.png"><img alt="../../_images/udig_workbench.png" src="../../_images/udig_workbench.png" style="width: 718.9px; height: 524.3px;" /></a>
+</div></blockquote>
+<p>上に表示されているのは、典型的なuDigセッションで</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>レイヤビュー(1)</p></li>
+<li><p>プロジェクトビュー(2)</p></li>
+<li><p>カタログビュー(3)と</p></li>
+<li><p>マップエディタ(4)</p></li>
+</ol>
+</div></blockquote>
+<p>これらのビューについては、その使用方法を説明する際に詳しく説明します。</p>
+</section>
+<section id="files">
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">ファイル</a><a class="headerlink" href="#files" title="Permalink to this heading">¶</a></h2>
+<p>まず、DVDに含まれているサンプルデータの一部をロードします。</p>
+<ol class="arabic simple">
+<li><p>メニューバーから <span class="menuselection">Layer ‣ Add</span> を選択して、 <strong>Add Data</strong> ウィザードを開きます。</p></li>
+<li><p>データソースのリストから <strong>ファイル</strong> を選択します</p></li>
+<li><p><span class="guilabel">Next</span> を押してファイルダイアログを開きます</p></li>
+<li><p>OSGeoLive DVDにはサンプルデータが含まれています。</p>
+<ul class="simple">
+<li><p><code class="file docutils literal notranslate"><span class="pre">~/data</span></code> (<code class="file docutils literal notranslate"><span class="pre">/usr/local/share/data</span></code> へのショートカット)</p></li>
+</ul>
+</li>
+<li><p><code class="file docutils literal notranslate"><span class="pre">natural_earth2</span></code> フォルダから次のファイルを選択します。</p>
+<ul class="simple">
+<li><p><code class="file docutils literal notranslate"><span class="pre">ne_10m_admin_0_countries.shp</span></code></p></li>
+</ul>
+</li>
+<li><p><span class="guilabel">Open</span> を押します。</p>
+<ul class="simple">
+<li><p>シェープファイルの内容に基づいて、新しいマップエディタが開きます。マップのデフォルト名と投影はシェープファイルから取得されています。</p></li>
+<li><p><strong>ビューカタログ</strong> が <code class="file docutils literal notranslate"><span class="pre">ne_10m_admin_0_countries.shp</span></code> のエントリで更新されました。このビューは、uDigアプリケーションによるリソースの使用を追跡するために使用されます。</p></li>
+<li><p><strong>レイヤ</strong> ビューは、単一のレイヤがこのマップに表示されていることを示します。このビューは、マップ内の情報の順序と外観を変更するために使用されます。</p></li>
+<li><p><strong>プロジェクト</strong> ビューが更新され、あなたのマップが <cite>projects &gt; ne 10m admin 0 countries</cite> に保存されていることが示されました。一度に複数のプロジェクトを開くことができ、各プロジェクトは複数のマップを持つことができます。</p></li>
+</ul>
+</li>
+<li><p>デスクトップ上の <code class="file docutils literal notranslate"><span class="pre">~/data/natural_earth2/</span></code> フォルダを開く</p></li>
+<li><p><code class="file docutils literal notranslate"><span class="pre">HYP_50M_SR_W.tif</span></code> をマップエディタにドラッグすると、新しいレイヤがマップに追加されます。</p></li>
+<li><p>レイヤが描画される順序をレイヤビューで確認できます。現在、 <cite>HYP_50M_SR_W</cite> レイヤは <cite>ne 10m admin 0 countries</cite> レイヤの上に描画されています。</p></li>
+<li><p>カタログレイヤの <cite>HYP_50M_SR_W</cite> ビューを選択し、リストの一番下にドラッグします</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/udig_QuickstartCountriesMap.png"><img alt="../../_images/udig_QuickstartCountriesMap.png" src="../../_images/udig_QuickstartCountriesMap.png" style="width: 718.9px; height: 524.3px;" /></a>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">注釈</p>
+<p>組織でuDigが検討されるときによく聞かれる質問の1つは、アプリケーションが使用するメモリの量です。ほとんどのGISアプリケーションとは異なり、uDigは固定された量のメモリで動作します。上記のシェープファイルはメモリにロードされません。必要に応じてディスク上にデータを保持し、このシェープファイルのようなデータを画面上に描画するポリシーがあります。</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>シェープファイルをuDigアプリケーションに直接ドラッグ&amp;ドロップすることもできます。</p>
+</div>
+</section>
+<section id="map">
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">マップ</a><a class="headerlink" href="#map" title="Permalink to this heading">¶</a></h2>
+<p>画面上部にあるツールバーのナビゲーションツールを使用して、マップエディタが世界のどこを見ているかを制御できます。</p>
+<ol class="arabic simple">
+<li><p><img alt="ZOOM" src="../../_images/udig_zoom_mode.png" /> ズームツールはデフォルトで利用可能です</p>
+<ul class="simple">
+<li><p>ズームツールを使用して、表示したい世界の領域の周りに左マウスボタンでボックスを描画します。</p></li>
+<li><p>縮小するには、マウスの右ボタンでボックスを描画します。現在のマップ範囲は、描画したボックス内に配置されます。</p></li>
+</ul>
+</li>
+<li><p><img alt="PAN" src="../../_images/udig_pan_mode.png" /> Panツールを使用すると、スケールを変更せずにマップをスクロールできます。</p>
+</li>
+<li><p>いつでも使用できるナビゲーションボタンもいくつかあります。</p>
+<ul class="simple">
+<li><p><img alt="SHOWALL" src="../../_images/udig_zoom_extent_co.png" /> 全表示。いつでも全範囲に戻るために使用できます</p>
+</li>
+<li><p><img alt="ZOOM_IN" src="../../_images/udig_zoom_in_co.png" /> Zoom In と <img alt="ZOOM_OUT" src="../../_images/udig_zoom_out_co.png" /> Zoom Out を使用すると、スケールを一定量だけ変更できます。</p>
+</li>
+<li><p>メニューバーのナビゲーション <img alt="BNAV" src="../../_images/udig_backward_nav.png" /> 戻ると <img alt="FNAV" src="../../_images/udig_forward_nav.png" /> 進むを使用して、前に訪れた場所を循環させることができます。</p>
+</li>
+</ul>
+</li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>ほとんどのツールでは、中央ボタンを押したままスクロールホイールを使用してスケールを制御することでパンを行うことができます。</p>
+</div>
+</section>
+<section id="web-map-server">
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">Web Map サーバ</a><a class="headerlink" href="#web-map-server" title="Permalink to this heading">¶</a></h2>
+<p>uDigのようなアプリケーションを使用する理由の1つは、Web上で利用可能なすべての優れた無料の地理空間情報にアクセスすることです。このセクションでは、Webマップサーバを使用して、独自のマップに混合できる情報のレイヤを利用可能にする方法について説明します。</p>
+<div class="admonition note">
+<p class="admonition-title">注釈</p>
+<p>インターネットに接続していない場合は、ローカルWMSの <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span> を実行します。 &quot;Service Capabilities&quot; セクションと、空のマップにドラッグできるWMSサービスへの2つのリンクがあるページが開きます。</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><a class="reference external" href="http://localhost:8082/geoserver/web">GeoServer Welcome page</a> の右パネルからWMS URL(例えば <a class="reference external" href="http://localhost:8082/geoserver/ows?service=wms&amp;version=1.1.1&amp;request=GetCapabilities">WMS1.1.1</a> 用)をコピーし、それを <strong>マップ</strong> ビューまたは <strong>レイヤ</strong> ビューのいずれかに &quot;貼り付ける&quot; ことができます。ウィザードには、 <strong>マップ</strong> に追加できるレイヤが表示されます。<strong>Add Data</strong> (<span class="menuselection">Layer ‣ Add...</span>)ウィザードを使用してWebマップサーバに接続し、WMS URLをそこに貼り付けることもできます。</p>
+</div>
+<ol class="arabic">
+<li><p>メニューバーから <span class="menuselection">ファイル ‣ 新規 ‣ 新規マップ</span> を選択します。</p></li>
+<li><p><strong>Web</strong> ビューに切り替えるため、<strong>カタログ</strong> ビューの次のタブをクリックして、<em>Web</em> ビューを表示します。</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/udig_WebViewClick.png"><img alt="../../_images/udig_WebViewClick.png" src="../../_images/udig_WebViewClick.png" style="width: 415.5px; height: 177.0px;" /></a>
+</div></blockquote>
+</li>
+<li><p>リンク <code class="docutils literal notranslate"><span class="pre">WMS\:http://www2.dmsolutions.ca/cgi-bin/mswms_gmap?Service=WMS&amp;VERSION=1.1.0&amp;REQUEST=GetCapabilities</span></code> をクリックしてください。</p></li>
+</ol>
+<ol class="arabic">
+<li><p>リソース選択ページから、次のレイヤを選択します。</p>
+<ul>
+<li><p>標高/水深測定</p></li>
+<li><p>公園</p></li>
+<li><p>市町村</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/udig_AddWMSLayers.png"><img alt="../../_images/udig_AddWMSLayers.png" src="../../_images/udig_AddWMSLayers.png" style="width: 367.5px; height: 410.2px;" /></a>
+</div></blockquote>
+</li>
+</ul>
+</li>
+<li><p><span class="guilabel">Finish</span> をクリックして、これらのレイヤをマップに追加します。</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/udig_WMSMap.png"><img alt="../../_images/udig_WMSMap.png" src="../../_images/udig_WMSMap.png" style="width: 714.0px; height: 517.3px;" /></a>
+</div></blockquote>
+</li>
+<li><p><img alt="ZOOM" src="../../_images/udig_zoom_mode.png" /> Zoom ツールを使用して、公園の一つに移動します。</p></li>
+<li><p><img alt="INFO" src="../../_images/udig_info_mode.png" /> Info Toolに切り替えて、公園の1つをクリックすると、さらに詳しく知ることができます。</p></li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>キーボードの <cite>Z</cite> と <cite>I</cite> を押して、ズームと情報ツールを切り替えることができます。</p>
+</div>
+</section>
+<section id="style">
+<h2><a class="toc-backref" href="#id8" role="doc-backlink">スタイル</a><a class="headerlink" href="#style" title="Permalink to this heading">¶</a></h2>
+<ol class="arabic">
+<li><p><cite>project &gt; ne 10m admin 0 countries</cite> を選択し、ダブルクリックしてこのマップを開くか、右クリックして[マップを開く]を選択します。</p></li>
+<li><p>レイヤビューのレイヤの国を選択</p></li>
+<li><p><strong>Style Editor</strong> を開くには、 <cite>ne 10m admin 0 countries</cite> レイヤを右クリックし、<span class="guilabel">Change Style</span> を選択します。</p></li>
+<li><p>国の表示方法について、いくつかの点を変更します。</p>
+<ul class="simple">
+<li><p>ライン:  <span class="guilabel">Border</span> をクリックし、色ボタンをクリックして、色を黒色に変更します。</p></li>
+<li><p>ぬりつぶし: ぬりつぶしをオフにするには、タブ  <span class="guilabel">Fill</span> のチェックボックス   <span class="guilabel">enable/disable fill</span> のチェックをはずす</p></li>
+<li><p>ラベル:  タブ <span class="guilabel">Labels</span> のチェックボックス <span class="guilabel">enable/disable labeling</span> のチェックを いれ、一覧からアトリビュート <strong>NAME</strong> を選択します。</p></li>
+</ul>
+<a class="reference internal image-reference" href="../../_images/udig_StyleEditor.png"><img alt="../../_images/udig_StyleEditor.png" src="../../_images/udig_StyleEditor.png" style="width: 716.8px; height: 498.4px;" /></a>
+</li>
+<li><p><span class="guilabel">適用</span> をおすと、<strong>レイヤ</strong> ビューが現在のスタイルを反映して更新されるので、あなたのマップの見えかたを確認してみてください。</p></li>
+<li><p>問題なければ、 <span class="guilabel">閉じる</span> を押してダイログを閉じてください。</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">注釈</p>
+<p>一部のファイルにはスタイル設定が含まれています。スタイル定義は <code class="file docutils literal notranslate"><span class="pre">*.sld</span></code> 拡張子のファイルにあります。名前自体は、データを含むファイルと同じでなければなりません。そのような <a class="reference external" href="https://www.ogc.org/standards/sld">Styled Layer Descriptor (SLD)</a> ファイルが存在する場合、スタイルは自動的に適用されます。</p>
+</div>
+<p>多くの詳細が含まれるレイヤで状況を確認するのは、時として少し難しいことがあります。作業したいタスクに集中するには、メニューバーから <span class="menuselection">マップ‣Mylar</span> を選択します。<em>レイヤ</em> ビューを使用して、順番にレイヤを選択して効果を確認します。この効果は、メニューバーから <span class="menuselection">マップ‣Mylar</span> を使用して、いつでもオフにすることができます。</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/udig_MapMylar.png"><img alt="../../_images/udig_MapMylar.png" src="../../_images/udig_MapMylar.png" style="width: 718.9px; height: 524.3px;" /></a>
+</div></blockquote>
+</section>
+<section id="things-to-try">
+<h2><a class="toc-backref" href="#id9" role="doc-backlink">試してみること</a><a class="headerlink" href="#things-to-try" title="Permalink to this heading">¶</a></h2>
+<p>次に、試すべき追加の課題をいくつか示します。</p>
+<ol class="arabic simple">
+<li><p>独自のGISマップレイヤを表示するか、<a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> からレイヤを追加してみてください</p></li>
+<li><p>WFSレイヤのスタイリングを試してください。</p></li>
+</ol>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id10" role="doc-backlink">次のステップ</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<p>これはuDigを使用するための最初のステップです。<strong>ウォークスルー</strong> 文書には、さらに多くの優れた資料(と能力)が残されています。</p>
+<ul>
+<li><p>ウォークスルー1</p>
+<p><a class="reference internal" href="../overview/postgis_overview.html"><span class="doc">PostGIS</span></a> を使用する。WFSサーバからデータを取得をする。 <cite>Color Brewer</cite> 技術を使用して <strong>Themes</strong> の活用をする。</p>
+<p><code class="file docutils literal notranslate"><span class="pre">/usr/local/share/udig/udig-docs/uDigWalkthrough</span> <span class="pre">1.pdf</span></code></p>
+</li>
+<li><p>ウオークスルー 2 -シェイプファイルを作成し、編集ツールを使用して地物データを操作する方法を学習します。 <a class="reference internal" href="../overview/geoserver_overview.html"><span class="doc">GeoServer</span></a> のインストールと、 Web Feature Serverでの編集ができます。</p>
+<p><a class="reference external" href="http://udig.refractions.net/">http://udig.refractions.net/</a> にあります。</p>
+</li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>QGIS &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Indice" href="../genindex.html" />
+    <link rel="search" title="Cerca" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="QGIS Quickstart" href="../quickstart/qgis_quickstart.html" />
+    <link rel="prev" title="gvSIG Desktop Quickstart" href="../quickstart/gvsig_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://www.qgis.org/en/site/"><img alt="../../_images/logo_qgis.png" class="align-right" src="../../_images/logo_qgis.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="qgis">
+<h1>QGIS<a class="headerlink" href="#qgis" title="Permalink to this heading">¶</a></h1>
+<section id="desktop-gis">
+<h2>Desktop GIS<a class="headerlink" href="#desktop-gis" title="Permalink to this heading">¶</a></h2>
+<p>QGIS è un programma GIS user friendly, Open Source, con il quale si possono visualizzare, gestire, modificare e analizzare i dati, oltre che comporre mappe stampabili. Include funzionalità analitiche molto performanti grazie all’integrazione con <a class="reference internal" href="grass_overview.html"><span class="doc">GRASS</span></a>, <a class="reference internal" href="saga_overview.html"><span class="doc">SAGA</span></a>, <a class="reference internal" href="otb_overview.html"><span class="doc">Orfeo Toolbox</span></a> , <a class="reference internal" href="gdal_overview.html"><span class="doc">GDAL/OGR</span></a> e molti altri provider di algoritmi. Funziona in ambienti Linux, Unix, Mac OSX e Windows, supporta inoltre diversi formati e funzionalità raster, vettoriali e database.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_screenshot.png"><img alt="qgis screenshot" class="align-right" src="../../_images/qgis_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Caratteristiche principali<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<ul>
+<li><p>Interfaccia grafica per l’utente amichevole</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>identifica/seleziona elementi</p></li>
+<li><p>modifica/guarda/ricerca attributi</p></li>
+<li><p>riproiezione al volo</p></li>
+<li><p>compositore di stampe</p></li>
+<li><p>etichettatura elemento</p></li>
+<li><p>cambia simbologia vettoriale e raster</p></li>
+<li><p>aggiungi un reticolo</p></li>
+<li><p>e oltre…</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Facile Visualizzazione di molti Formati Vettoriali e Raster</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>tabelle di database: PostgreSQL/PostGIS, Oracle Spatial, MS SQL Spatial, SpatiaLite</p></li>
+<li><p>la maggior parte dei formati vettoriali: compresi shapefile ESRI, MapInfo, SDTS and GML, OpenStreetMap</p></li>
+<li><p>formati raster come modelli digitali del terreno, fotografie aeree o immagini satellitari</p></li>
+<li><p>Location e mapset di GRASS</p></li>
+<li><p>Dati spaziali in rete esposti con servizi WMS, WMTS, WFS o WCS conformi alle specifiche OGC</p></li>
+<li><p>supporto alla visualizzazione 2.5D</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Cea, modifica ed esporta dati spaziali utlizzando:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>strumenti di digitalizzazione per GRASS e formati shapefile</p></li>
+<li><p>Il plugin di georerenziazione</p></li>
+<li><p>Strumenti per GPS per importare ed esportare in formato GPX, convertire altri formati GPS in GPX, o scaricare/caricare direttamente su una unità GPS</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Esegui analisi spaziali utilizzando il supporto integrato per SAGA, OTB, MMGIS e GRASS</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>algebra delle mappe</p></li>
+<li><p>analisi geomorfologica</p></li>
+<li><p>modellazione idrologica</p></li>
+<li><p>analisi di reti</p></li>
+<li><p>Organizzazione delle funzioni completa e ricercabile</p></li>
+<li><p>crea e lancia routine di analisi riusabili attraverso concatenamento di funzioni, utilizzando uno strumento di modellazione grafica</p></li>
+<li><p>e molte altre</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Pubblicazione su Internet</p></li>
+<li><p>Architettura di plugin estensibile</p></li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>Standard implementati<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Conformi agli standard OGC (WMS, WFS,…)</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Dettagli<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Sito web:</strong> <a class="reference external" href="https://www.qgis.org/en/site/">https://www.qgis.org/en/site/</a></p>
+<p><strong>Licenza:</strong> GNU General Public License (GPL) versione 2</p>
+<p><strong>Versione Software:</strong> 3.16.4</p>
+<p><strong>Piattaforme Supportate:</strong> Windows, Linux, Mac, Unix</p>
+<p><strong>Support della comunità:</strong> <a class="reference external" href="https://qgis.org/en/site/forusers/support.html">https://qgis.org/en/site/forusers/support.html</a></p>
+<p><strong>Supporto commerciale:</strong> <a class="reference external" href="https://qgis.org/en/site/forusers/commercial_support.html">https://qgis.org/en/site/forusers/commercial_support.html</a></p>
+</section>
+<section id="quickstart">
+<h3>Guida rapida<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/qgis_quickstart.html"><span class="doc">Guida rapida</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

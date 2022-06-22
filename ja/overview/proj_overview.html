@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>PROJ &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="検索" href="../search.html" />
+    <link rel="copyright" title="著作権" href="../copyright.html" />
+    <link rel="next" title="PROJクイックスタート" href="../quickstart/proj_quickstart.html" />
+    <link rel="prev" title="GeoTools" href="geotools_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://proj.org/"><img alt="../../_images/logo_proj.png" class="align-right" src="../../_images/logo_proj.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="proj">
+<h1>PROJ<a class="headerlink" href="#proj" title="Permalink to this heading">¶</a></h1>
+<p>PROJは、異なる座標参照システム間で変換するメソッドを提供するライブラリです。地理座標参照システムでは、地球上のすべての点を座標(緯度、経度、高度など)のセットとして記述できます。それぞれのシステムは、平坦な二次元マップ上に三次元地球を表現ししています。</p>
+<p>PROJは、 <a class="reference internal" href="mapserver_overview.html"><span class="doc">MapServer</span></a> 、 <a class="reference internal" href="grass_overview.html"><span class="doc">GRASS GIS</span></a> 、 <a class="reference internal" href="postgis_overview.html"><span class="doc">PostGIS</span></a> 、 <a class="reference internal" href="mapnik_overview.html"><span class="doc">Mapnik</span></a> 、そして、 Thuban, OGDI, TopoCad, OGRCoordinateTransformation などなどで利用されています。</p>
+<p>PROJ は、Cから、 <a class="reference external" href="https://trac.osgeo.org/metacrs/wiki">ほかの言語へ</a> 変換されています。サブプロジェクトには、:</p>
+<ul class="simple">
+<li><p>Proj4js (JavaScript) -  <a class="reference internal" href="openlayers_overview.html"><span class="doc">OpenLayers</span></a> で使われている。</p></li>
+<li><p>CS-Map (C++) -   MapGuide に採用</p></li>
+<li><p>GeoTIFF/libgeotiff (C++)。</p></li>
+<li><p>Proj4J (Java)。</p></li>
+<li><p><a class="reference external" href="https://epsg.io/">EPSG.io</a>  - 座標系定義を取得するためのWebサイトです</p></li>
+<li><p><a class="reference external" href="https://spatialreference.org/">SpatialReference.org</a>  - 座標系定義を取得するためのWebサイトです(旧式)</p></li>
+</ul>
+<a class="reference internal image-reference" href="../../_images/proj_screenshot.png"><img alt="proj screenshot" class="align-right" src="../../_images/proj_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h2>主な機能<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>ある座標参照システムから別の座標参照システムへの点変換を提供します。</p></li>
+<li><p>データ間の変換が含まれます。</p></li>
+<li><p>多数の投影クラスがサポートされています。</p></li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h2>実装されている標準規格<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h2>
+<p>PROJ は、 <a class="reference external" href="https://www.epsg.org/">European Petroleum Survey Group (EPSG)</a> で定義されている座標系定義を使用しています。Well Known Text(WKT)形式。</p>
+</section>
+<section id="details">
+<h2>詳細<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h2>
+<p><strong>Webサイト:</strong> <a class="reference external" href="https://proj.org/">https://proj.org/</a></p>
+<p><strong>ライセンス:</strong> <a class="reference external" href="https://proj.org/about.html#license">X/MIT Open Source license</a></p>
+<p><strong>ソフトウエアバージョン:</strong> 7.2.1</p>
+<p><strong>対応プラットフォーム:</strong> Windows, Linux, Mac</p>
+<p><strong>API インタフェース:</strong> C, C++, Python, Java, Ruby</p>
+<p><strong>サポート:</strong> <a class="reference external" href="https://lists.osgeo.org/mailman/listinfo/proj">https://lists.osgeo.org/mailman/listinfo/proj</a></p>
+</section>
+<section id="quickstart">
+<h2>クイックスタート<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/proj_quickstart.html"><span class="doc">クイックスタート文書</span></a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

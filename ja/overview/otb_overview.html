@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>OTB &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="検索" href="../search.html" />
+    <link rel="copyright" title="著作権" href="../copyright.html" />
+    <link rel="next" title="OTB Quickstart" href="../quickstart/otb_quickstart.html" />
+    <link rel="prev" title="OpenStreetMapクイックスタート" href="../quickstart/osm_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://www.orfeo-toolbox.org/"><img alt="../../_images/logo_otb.png" class="align-right" src="../../_images/logo_otb.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="otb">
+<h1>OTB<a class="headerlink" href="#otb" title="Permalink to this heading">¶</a></h1>
+<section id="image-processing">
+<h2>イメージ処理<a class="headerlink" href="#image-processing" title="Permalink to this heading">¶</a></h2>
+<p>ORFEO Toolbox Library (OTB ) は、高性能イメージ処理ライブラリーです。主にレーダー、人工衛星、航空写真などの大きなリモートセンシング画像を処理するのに使われます。OTB は、光学およびレーダーのイメージ (三次元の側面、セグメンテーション、分類、変更検出、テクスチャー分析、パターン・マッチング、および光学/レーダーの補完性 ) を提供するツールを提供しており、これらの多くは性能が限定的なノートPCでも実行できます。</p>
+<p>OTB には同梱アプリケーションとともに配布されています。それは、リモートセンシング用の拡張可能な従来型のツールと 、複数のレイヤを可視化させたりメニュー項目から OTB の処理ツールを呼び出せる高速なビューアであるMonteverdiという完全に統合されたアプリケーションです。</p>
+<p>OTB は、ORFEO/Pleiades付属プログラムの メソドロジカル・パートの枠組みにもとづき、フランス宇宙機関 (CNES) の資金提供をうけて、 2006年から活発に開発されている。これは、 ITK イメージ処理ライブラリーに基づいており、オープンソースとして配布されます。</p>
+<a class="reference internal image-reference" href="../../_images/otb_screenshot.png"><img alt="otb screenshot" class="align-right" src="../../_images/otb_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>主な機能<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>画像アクセス:  ほとんどのリモートセンシングラスターフォーマット ( JPEG2000 形式を含む)、メタデータアクセス、および視覚化のための最適化された読み取り/書き込みアクセス</p></li>
+<li><p>DEM、地図の再投影、およびセンサーモデルの改良によるオルソ化</p></li>
+<li><p>光学式および SAR 調整</p></li>
+<li><p>画像融合</p></li>
+<li><p>フィルタリング: ぼかし、ノイズ除去、強調...</p></li>
+<li><p>フィーチャー抽出:  POI、整列、線分...</p></li>
+<li><p>オブジェクト抽出</p></li>
+<li><p>大規模画像セグメンテーション: 領域拡張、平均シフト、水位、レベルセット...</p></li>
+<li><p>トレーニング用のサンプル選択フレームワーク</p></li>
+<li><p>種別: OpenCV 、 Shark、 libSVM 、またはカスタム・インプリメンテーション ( K - 平均、マルコフ・ランダム・フィールド、 SVM、ランダム・フォレスト、 ...) からくる、教師ありアルゴリズムと教師なしアルゴリズムの両方。</p></li>
+<li><p>OpenCV (SVM、ランダム・フォレスト、 ...) から機械学習メソッドを使用した回帰</p></li>
+<li><p>オブジェクト・ベースのイメージ分析</p></li>
+<li><p>地理空間分析</p></li>
+<li><p>光学画像からの立体構造の復元</p></li>
+<li><p>SAR データ分析 : 較正、偏光分析</p></li>
+<li><p>変更の検出。</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>詳細<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Webサイト:</strong> <a class="reference external" href="https://www.orfeo-toolbox.org/">https://www.orfeo-toolbox.org/</a></p>
+<p><strong>ライセンスLicence:</strong> Apache v2.0</p>
+<p><strong>ソフトウェアバージョン:</strong> 6.6.1</p>
+<p><strong>対応プラットフォーム:</strong> Linux, Mac, Windows</p>
+<p><strong>API インタフェース:</strong> C++</p>
+<p><strong>商用サポート:</strong> <a class="reference external" href="https://www.osgeo.org/service-providers">OSGeo service providers</a></p>
+</section>
+<section id="quickstart">
+<h3>クイックスタート<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/otb_quickstart.html"><span class="doc">クイックスタート文書</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

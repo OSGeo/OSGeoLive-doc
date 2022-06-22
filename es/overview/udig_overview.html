@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>uDig &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Inicio Rápido de uDig" href="../quickstart/udig_quickstart.html" />
+    <link rel="prev" title="Inicio rápido de SAGA" href="../quickstart/saga_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="http://udig.refractions.net/"><img alt="../../_images/logo_udig.png" class="align-right" src="../../_images/logo_udig.png" /></a>
+<section id="udig">
+<h1>uDig<a class="headerlink" href="#udig" title="Permalink to this heading">¶</a></h1>
+<section id="desktop-gis">
+<h2>SIG de escritorio<a class="headerlink" href="#desktop-gis" title="Permalink to this heading">¶</a></h2>
+<p>User-friendly Desktop Internet GIS (uDig) es un visor/editor de datos espaciales de código abierto, con especial énfasis en los estándares OpenGIS para GIS de Internet, el servidor de mapas web (WMS) y los estándares del servidor de funciones web (WFS).</p>
+<p>uDig es:</p>
+<ul class="simple">
+<li><p><strong>Amigable a Usuario</strong>, proporciona un entorno gráfico familiar para los usuarios de GIS;</p></li>
+<li><p><strong>Situado en Escritorio</strong>, ejecuta nativamente en Windows, Mac OS/X y Linux;</p></li>
+<li><p><strong>Orientado a Internet</strong>, consumiendo los servicios estándar web y de facto geoespaciales; y,</p></li>
+<li><p><strong>SIG  listo</strong>, proporcionando el marco en el cual se pueden construir capacidades analíticas complejas y gradualmente poner esas capacidades en la aplicación principal.</p></li>
+</ul>
+<p>Para los desarrolladores, uDig proporciona una plataforma Java común para construir aplicaciones espaciales con componentes de Código Abierto. El sitio web ofrece una serie de tutoriales claros que cubren la creación de una herramienta simple para lanzar su propia aplicación personalizada.</p>
+<a class="reference internal image-reference" href="../../_images/udig_screenshot.png"><img alt="pantalla de udig" class="align-right" src="../../_images/udig_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Características Principales<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Cliente de escritorio con integración  Arrastrar y Soltar para el explorador de archivos y navegador Web</p></li>
+<li><p>Integración con su infraestructura existente: ArcSDE, Oracle, DB2 y más</p></li>
+<li><p>Trabajar con archivos locales: Shapefile, jpeg, png, tiff y más.</p></li>
+<li><p>Trabajar con formatos raster espacial avanzada: ECW, MrSID y JPEG 2000</p></li>
+<li><p>Soporte para Servidores de Cartografía Web compatibles ( <a class="reference internal" href="geoserver_overview.html"><span class="doc">GeoServer</span></a>, MapServer probado)</p></li>
+<li><p>Experiencia web integrada con un navegador incrustado que reconoce los servicios web de OGC y suavemente agrega enlaces al mapa en pantalla</p></li>
+<li><p>Control de Descriptor de Capa de Estilo de Rendering que le permite publicar su Mapa usando la misma configuración en uDig que con servidores de mapas Web populares</p></li>
+<li><p>Integración profunda de estándares que permite a la aplicación intercambiar entre el servicio apropiado según sea necesario para mostrar, interactuar y editar</p></li>
+<li><p>Impresión y generación de PDF</p></li>
+<li><p>Para Desarrolladores</p>
+<ul>
+<li><p>Aplicación de Java usando <a class="reference internal" href="geotools_overview.html"><span class="doc">GeoTools</span></a>, <a class="reference external" href="https://sourceforge.net/projects/jts-topo-suite/">JTS Suite de Topología (JTS)</a></p></li>
+<li><p>Systema de plug-in de fuerza industrial proporcionada por la plataforma cliente de Eclipse</p></li>
+<li><p>Uso de widgets nativos</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>Estándares implementados<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>OGC Web Map Server (WMS)</p></li>
+<li><p>Servidor Web de Características (WFS) de  OGC</p></li>
+<li><p>Servidor Web de Características transaccional (WFS-T) de OGC</p></li>
+<li><p>Funciones simples para SQL (SFSQL) de OGC</p></li>
+<li><p>Cache de Servidor de Cartografía Web (WMS-C)</p></li>
+<li><p>Descriptor de Estilos de Capa (SLD) de OGC</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Detalles<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Sitio web:</strong> <a class="reference external" href="http://udig.refractions.net/">http://udig.refractions.net/</a></p>
+<p><strong>Licencia:</strong> Dual BSD / EPL (Eclipse Foundation)</p>
+<p><strong>Versión de software:</strong> 2.0.0RC1</p>
+<p><strong>Plataformas compatibles:</strong> GNU/Linux, Mac OSX, MS Windows</p>
+<p><strong>Interfaces API:</strong> GeoTools, ImageIO-Ext, Java Advanced Imaging, Plataforma Eclipse de cliente rico,  Marco de Modelado Eclipse</p>
+<p><strong>Soporte:</strong> <a class="reference external" href="http://udig.refractions.net/users/">http://udig.refractions.net/users/</a></p>
+<p><strong>Desarrolladores:</strong> <a class="reference external" href="http://udig.refractions.net/developers/">http://udig.refractions.net/developers/</a></p>
+</section>
+<section id="quickstart">
+<h3>Inicio Rápido<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/udig_quickstart.html"><span class="doc">Documentación de inicio rápido</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

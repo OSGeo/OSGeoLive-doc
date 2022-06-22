@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>XyGrib Quickstart &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Sisällysluettelo" href="../genindex.html" />
+    <link rel="search" title="Etsi" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Natural Earth" href="../overview/naturalearth_overview.html" />
+    <link rel="prev" title="XyGrib" href="../overview/xygrib_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://opengribs.org/en"><img alt="../../_images/logo_xygrib.png" class="align-right" src="../../_images/logo_xygrib.png" /></a>
+<section id="xygrib-quickstart">
+<h1>XyGrib Quickstart<a class="headerlink" href="#xygrib-quickstart" title="Permalink to this heading">¶</a></h1>
+<p>XyGrib is a program to download and visualize weather forecast data in the standard GRIB distribution format.</p>
+<nav class="contents local" id="contents">
+<p class="topic-title">Sisältö</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#start-xygrib" id="id1">Start XyGrib</a></p></li>
+<li><p><a class="reference internal" href="#download-data" id="id2">Download data</a></p></li>
+<li><p><a class="reference internal" href="#change-views" id="id3">Change views</a></p></li>
+<li><p><a class="reference internal" href="#create-an-animation" id="id4">Create an animation</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id5">Mitä seuraavaksi?</a></p></li>
+</ul>
+</nav>
+<section id="start-xygrib">
+<h2><a class="toc-backref" href="#id1" role="doc-backlink">Start XyGrib</a><a class="headerlink" href="#start-xygrib" title="Permalink to this heading">¶</a></h2>
+<ol class="arabic simple">
+<li><p>From the desktop, choose <span class="menuselection">Navigation and Maps ‣ XyGrib GRIB file viewer</span>.</p></li>
+<li><p>Select your preferred language and click <span class="guilabel">OK</span>. The program opens and you are presented with a map of the world.</p></li>
+<li><p>Check the connection to the data server. On the toolbar at the top right of the screen, click the power plug icon. The File Server Status window opens and after a moment, it will confirm the status of the connection.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Muista</p>
+<p>You’ll need an internet connection to download GRIB weather forecast data. You can get GRIB data from many sources, but as a convenience the XyGrib authors maintain a data server to use with XyGrib.</p>
+</div>
+</section>
+<section id="download-data">
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">Download data</a><a class="headerlink" href="#download-data" title="Permalink to this heading">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Use the mouse to click and drag a box on the map canvas on a part of the world you are interested in. The Gulf of Mexico or the southern tip of Africa often have dynamic winds.</p></li>
+<li><p>With your box drawn on the map, click the zoom-to-box icon on the taskbar (the magnifying glass with a small box underneath it)</p></li>
+<li><p>Again,  mark out a box of interest with a left-click drag, but this time covering most or all of the zoomed-in map canvas.</p></li>
+<li><p>Select <span class="menuselection">File ‣ Download GRIB</span> and select the features you want to download. If in doubt, accept the defaults.</p></li>
+<li><p>When ready click the <code class="docutils literal notranslate"><span class="pre">Download</span></code> button, and save the file to disk.</p></li>
+</ol>
+<p>The application displays a weather map with a time slider along the bottom, set for the current time. You can use the mouse wheel to zoom in if you like.</p>
+</section>
+<section id="change-views">
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Change views</a><a class="headerlink" href="#change-views" title="Permalink to this heading">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Move the mouse around the map you’ll see the exact conditions listed in the pane on the left.</p></li>
+<li><p>You can change the time by moving the slider along the bottom, or from the drop down menu in the top-left of the window.</p></li>
+<li><p>From the <code class="docutils literal notranslate"><span class="pre">Weather</span> <span class="pre">map</span></code> menu, select a variable to visualize. For example, select <span class="menuselection">Weather map ‣ Cloud cover</span> and the view should change.</p></li>
+</ol>
+<p>If you downloaded data for the Gulf of Mexico you’ll be interested to view the CAPE data. ”CAPE” stands for Convective Available Potential Energy at ground level. It is a measure of atmospheric instability, and high values (1000s of J/kg) indicate a threat of thunderstorms and/or tornadoes.</p>
+<p>If you downloaded data for southern Africa, cloud cover may be more interesting.</p>
+</section>
+<section id="create-an-animation">
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Create an animation</a><a class="headerlink" href="#create-an-animation" title="Permalink to this heading">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Click the right-hand most icon on the toolbar (a rocketship). A new window opens and an animation will be generated.</p></li>
+<li><p>Wait while it runs through the time sequence for the first time. When it is done it will rewind to the beginning of the time series.</p></li>
+<li><p>You can play, pause and rewind the sequence as you like.</p></li>
+<li><p>Voit myös tallentaa jokaisen kehyksen kuvatiedostona myöhempää koodausta varten AVI-, MPEG- tai animoidussa GIF-muodossa <a class="reference external" href="https://grasswiki.osgeo.org/wiki/Movies">käyttämällä muuta ohjelmistoa</a>.</p></li>
+<li><p>When you’re done, click the red power button to close.</p></li>
+</ol>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">Mitä seuraavaksi?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<p><span class="xref std std-doc">OpenCPN ohjelmistossa</span> (myös tällä levyllä) on GRIB-tason plugin, jota voit kokeilla juuri lataamasi GRIB-tiedoston avulla.  Katso <a class="reference internal" href="opencpn_quickstart.html"><span class="doc">OpenCPN pika-aloitus</span></a> yksityiskohdista.</p>
+<ul class="simple">
+<li><p>Website: <a class="reference external" href="https://opengribs.org/en">https://opengribs.org/en</a></p></li>
+<li><p>Support: <a class="reference external" href="https://opengribs.org/en/support-forum">https://opengribs.org/en/support-forum</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

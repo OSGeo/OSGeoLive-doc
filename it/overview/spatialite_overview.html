@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>SpatiaLite &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Indice" href="../genindex.html" />
+    <link rel="search" title="Cerca" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="SpatiaLite Quickstart" href="../quickstart/spatialite_quickstart.html" />
+    <link rel="prev" title="Rasdaman Quickstart" href="../quickstart/rasdaman_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="http://www.gaia-gis.it/gaia-sins/"><img alt="../../_images/logo_spatialite.png" class="align-right" src="../../_images/logo_spatialite.png" /></a>
+<section id="spatialite">
+<h1>SpatiaLite<a class="headerlink" href="#spatialite" title="Permalink to this heading">¶</a></h1>
+<section id="spatial-database">
+<h2>Database spaziale<a class="headerlink" href="#spatial-database" title="Permalink to this heading">¶</a></h2>
+<p>SpatiaLite è un motore database <a class="reference external" href="https://www.sqlite.org/index.html">SQLite</a> con l’aggiunta di funzioni spaziali.</p>
+<p>SQLite è un sistema di gestione database (DBMS) semplice, robusto, facile da usare e molto leggero. Ogni database SQLite è un semplice file. Potete copiarlo liberamente, comprimerlo e portarlo su Windows, Linux, MacOs ecc.</p>
+<a class="reference internal image-reference" href="../../_images/spatialite_screenshot.png"><img alt="spatialite screenshot" class="align-right" src="../../_images/spatialite_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Caratteristiche principali<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<p>L’estensione SpatiaLite consente a SQLite di supportare dati spaziali in conformità con le specifiche OGC.</p>
+<p>Caratteristiche salienti</p>
+<ul class="simple">
+<li><p>Interfaccia grafica semplice</p></li>
+<li><p>Formati standard WKT e WKB</p></li>
+<li><p>Funzioni spaziali SQL quali AsText(), GeomFromText(), Area(), PointN() …</p></li>
+<li><p>Funzioni spaziali OpenGis tramite GEOS, quali Overlaps(), Touches(), Union(), Buffer() …</p></li>
+<li><p>Metadati spaziali completi in conformità alle specifiche OpenGis</p></li>
+<li><p>Numerose notazioni per la geometria - EWKT, GML, KML, e GeoJSON</p></li>
+<li><p>Importazione ed esportazione di shapefile</p></li>
+<li><p>Riproiezione di coordinate tramite PROJ4 e l’insieme di parametri geodetici EPSG</p></li>
+<li><p>Set di caratteri locali tramite libiconv GNU</p></li>
+<li><p>Indici spaziali basati sull’estensione RTree di SQLite</p></li>
+<li><p>Accesso a shapefile come VIRTUAL TABLE, che consente l’esecuzione di query standard SQL su shapefile esterni, senza importarli o convertirli</p></li>
+<li><p>Accesso a file esterni CSV/TxtTab o fogli di calcolo xls come VIRTUAL TABLE</p></li>
+<li><p>Accesso a documenti XML, oggetti memorizzzati binari compressi BLOB, compresi i controlli sintattici «well formed» e le verifiche dei vincoli dello schema XSF. Supporto specifico per ISO-Metadata, stili SLD/SE e grafica SVG.I documenti XML possono essere interrogati usando la sintassi XPath standard.</p></li>
+<li><p>Interrogazione di server WFS esterni</p></li>
+<li><p>Scansione di DXF esterni (qualsiasi versione) e memorizzazione dei layer e delle geometrie incontrate</p></li>
+<li><p>Generazione ed Esportazione di file DXF</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Dettagli<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Sito web:</strong> <a class="reference external" href="http://www.gaia-gis.it/gaia-sins/">http://www.gaia-gis.it/gaia-sins/</a></p>
+<p><strong>Licenza:</strong> MPL v1.1 e GPL v3</p>
+<p><strong>Versione Software:</strong> 5.0.0</p>
+<p><strong>Piattaforme Supportate:</strong> Linux, Mac, Windows</p>
+<p><strong>Interfacce API:</strong> C</p>
+</section>
+<section id="quickstart">
+<h3>Guida rapida<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/spatialite_quickstart.html"><span class="doc">Guida rapida</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

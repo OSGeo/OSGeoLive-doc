@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Re3gistry gyorstalpaló &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Tárgymutató" href="../genindex.html" />
+    <link rel="search" title="Keresés" href="../search.html" />
+    <link rel="copyright" title="Minden jog fenntartva" href="../copyright.html" />
+    <link rel="next" title="t-rex" href="../overview/t-rex_overview.html" />
+    <link rel="prev" title="Re3gistry" href="../overview/re3gistry_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://inspire.ec.europa.eu/about-inspire/563"><img alt="../../_images/logo_inspire.png" class="align-right" src="../../_images/logo_inspire.png" /></a>
+<section id="re3gistry-quickstart">
+<h1>Re3gistry gyorstalpaló<a class="headerlink" href="#re3gistry-quickstart" title="Permalink to this heading">¶</a></h1>
+<p>A Re3gistry 2 egy újrafelhasználható nyílt forráskódú megoldás a „referenciakódok” kezelésére és megosztására. Egységes központi hozzáférési pontot biztosít, ahol a referenciakódok címkéi és leírásai könnyen böngészhetők az emberek és a gépek által lehívható.  A referenciakódokat az alkalmazások között cserélik ki, hogy egyedileg hivatkoznak valami „dologra”. Felhasználhatók egy adatmező megengedett értékkészleteinek meghatározására, illetve a kicserélt adatokra vonatkozó hivatkozás vagy környezet megadására. Ilyenek például a felsorolások, az ellenőrzött szókincsek, a taxonómiák, a thesauri vagy egyszerűen a „dolgok listája”.  A Re3gistry 2 támogatja a szervezeteket a referenciakódok következetes kezelésében és frissítésében.</p>
+<p>Ez a gyorstalpaló a következőket írja le:</p>
+<ul class="simple">
+<li><p>Indítsa el és telepítse a Re3gidtry-t a varázslóval (csak az első indításnál)</p></li>
+<li><p>Hogyan kezeljük az adatokat a pgAdmin kliensből.</p></li>
+</ul>
+<nav class="contents local" id="contents">
+<p class="topic-title">Tartalom</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#start-the-re3gistry" id="id1">Re3gistry indítása</a></p></li>
+<li><p><a class="reference internal" href="#introduction-to-the-re3gistry-2" id="id2">Re3gistry bemutatkozás</a></p></li>
+<li><p><a class="reference internal" href="#users-roles-and-groups" id="id3">Felhasználók, szerepek, csoportok</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id4">Mi a következő?</a></p></li>
+</ul>
+</nav>
+<section id="start-the-re3gistry">
+<h2><a class="toc-backref" href="#id1" role="doc-backlink">Re3gistry indítása</a><a class="headerlink" href="#start-the-re3gistry" title="Permalink to this heading">¶</a></h2>
+<p>Válassza a <em>«Start Re3gistry»</em>-t a <span class="menuselection">Geospatial ‣ Web Services ‣ Re3gistry</span> menüből. Az alkalmazás elindítása néhány pillanatig tarthat. A Firefox megnyitja a <em>Re3gistry landing page</em>-t (ezt manuálisan is megnyithatja a böngészővel a <a class="reference external" href="http://localhost:8080/re3gistry2">http://localhost:8080/re3gistry2</a> címen).</p>
+<p>Ha ez az első indítás, a Re3gistry elindítja a telepítő varázslót. Ez a varázsló végig vezeti a felhasználót az eszköz beállításán és első futtatásán.</p>
+<ul class="simple">
+<li><p>Az első oldal csak egy bemutatkozó leírás. Kattintson a „continue”-ra.</p></li>
+<li><p>A „Registry manager” oldal lehetővé teszi a rendszergazda bejelentkezés megadását  (Registry manager). Írjon be egy elő emailcímet és jelszót. Kattintson a „Save and continue”-ra.</p></li>
+<li><p>A következő lépésben 2 beállítás között választhat:</p>
+<ul>
+<li><p>Installation: válassza ezt a lehetőséget, ha először szeretné telepíteni a Re3gistry szoftvert, és teljesen új tárhelyet létrehozni.</p></li>
+<li><p>Migration: válassza ezt a lehetőséget, ha egy már meglévő Re3gistry példányt szeretne frissíteni. Ez a beállítás megtartja a beállításokat és a tartalmat. Ne feledje, hogy ez a beállítás csak a Re3gistry 1.3.X verzióján futó meglévő példányon fog működni.</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Installation opció</strong></p>
+<p>Az „Installation” beállítás választása esetén az új tárhely alap konfigurációjának beállítására van szükség.</p>
+<ul class="simple">
+<li><p>System languages: a rendszer nyelvek a Re3gistry 2 által támogatott nyelvek. Vegye figyelembe, hogy egy vagy több rendszer nyelvet is választhat.</p></li>
+<li><p>Mastere language: a mesternyelv az, amelyet a Re3gistry 2 használ a többnyelvűség kezelésére. Vegye figyelembe, hogy ehhez minden tartalomnak elérhetőnek kell lennie a kiválasztott mesternyelven.</p></li>
+<li><p>Base URI: az alap URI a nyilvános URL része lesz, általában ennek meg kell egyeznie a saját tartománynevével: <cite>**http://example.com**/registry</cite></p></li>
+<li><p>Local ID: a helyi azonosító a nyilvános URL része lesz, általában a tartománynevet követő elérési út: <cite>http://example.com/**registry**</cite></p></li>
+<li><p>Label: a tárhely címkéje, a Re3gistry 2 példány „címe”. Ez megjelenik a tárház kezdőoldalán.</p></li>
+<li><p>Content summary: ez a szöveg írja le röviden, hogy mi lesz elérhető a Re3gistry 2 példányában. Ez megjelenik a rendszerleíró adatbázis kezdőoldalán.</p></li>
+</ul>
+<p>Az adatok kitöltése után kattintson a „Save and continue”-ra.</p>
+<p>A következő lépés a bevitt adatok összefoglalását mutatja be. Ha az összes mező helyes, kattintson a „Install” gombra a telepítés megkezdéséhez.  A telepítés befejezése után a felhasználót átirányítjuk a bejelentkezési oldalra.</p>
+<p><strong>Migration opció</strong></p>
+<p>Abban az esetben, ha a „Migration” opciót választotta az adatbázis részleteire lesz szükség a létező Re3gistry telepítésből.</p>
+<ul class="simple">
+<li><p>Töltse ki a kért mezőket, és</p></li>
+<li><p>kattintson a „Save and continue” gombra. Ezután egy oldalt kap, amely összefoglalja a Re3gistry meglévő példányából kapott adatokat.</p></li>
+<li><p>Kattintson az „Install” gombra a migráció megkezdéséhez. Egy információs oldal jelenik meg.</p></li>
+</ul>
+<p>Most lezárhatja a böngészőt és a rendszer egy emailben értesíti, a „Registry manager” létrehozás lépésben megadott címen.</p>
+</section>
+<section id="introduction-to-the-re3gistry-2">
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">Re3gistry bemutatkozás</a><a class="headerlink" href="#introduction-to-the-re3gistry-2" title="Permalink to this heading">¶</a></h2>
+<p>A Re3gistry szerkesztési felület lehetővé teszi, hogy grafikusan kezelje a referenciakódokat a teljes életciklusuk alatt, mint például a kódlisták, felsorolások, ellenőrzött szótárak, taxonómiák, szinonimák vagy egyszerűen „dolgok listáját”.  Ha a varázslóból a „installation mode”-t választja, amikor először jelentkezik be a rendszerbe, akkor üres rendszerleíró adatbázisa lesz. Ezután elkezdheti a feltöltését a szerkesztési felület által biztosított eszközök segítségével.  Ha a varázslóból az „migration mode -tválasztja, az eszköz régebbi verziójából importált regisztereket kapja meg.</p>
+<p>A szerkesztő interfészrészletes dokumentációját kérjük olvassa el a <a class="reference external" href="https://github.com/ec-jrc/re3gistry/blob/master/documentation/user-manual.md">felhasználói kézikönyvben</a>.</p>
+</section>
+<section id="users-roles-and-groups">
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Felhasználók, szerepek, csoportok</a><a class="headerlink" href="#users-roles-and-groups" title="Permalink to this heading">¶</a></h2>
+<p>A Re3gistry 2 az <a class="reference external" href="https://www.iso.org/standard/54721.html">ISO 19135 szabványt „Földrajzi információ - Eljárások az elem regisztrációhoz”</a> követi.</p>
+<p>A Re3gistry 2 által kezelt felhasználói szerepek:</p>
+<ol class="arabic simple">
+<li><p>Regisztry kezelő</p></li>
+<li><p>Regiszter tulajdonos</p></li>
+<li><p>Regiszter kezelő</p></li>
+<li><p>Ellenőrző szervezet</p></li>
+<li><p>Benyújtó szervezetek</p></li>
+</ol>
+<p>A regisztri kezelő rendelkezik a legmagasabb privilégiummal a rendszerben. Ez a szerep három különböző feladatot hajthat végre:</p>
+<ul class="simple">
+<li><p>Bármilyen művelet a referencia kódokon.</p>
+<ul>
+<li><p>A referenciakódokon végrehajtott módosításokat az ellenőrző szerv jóváhagyásának megszerzéséhez jóváhagyási munkafolyamatnak kell alávetni,</p></li>
+</ul>
+</li>
+<li><p>A rendszer strukturális elemeinek kezelése.</p></li>
+<li><p>A regisztrivel és a regiszterekkel kapcsolatos információk megváltoztatása és szerkesztése.</p></li>
+<li><p>Új regiszter hozzáadása.</p></li>
+<li><p>A regisztri, regiszterek, referencia kódok mezőinek kezelése.</p>
+<ul>
+<li><p>Ezekhez a szerkezeti változásokhoz nem kell jóváhagyási munkafolyamattal rendelkezni, és</p></li>
+</ul>
+</li>
+<li><p>Felhasználók és csoportok kezelése.</p></li>
+</ul>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Mi a következő?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<p>Ez csak egy nagyon rövid áttekintés a Re3gistry-ről. Több információ érhető el a demó telepítésben és a Re3gistry GitHub oldalán.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/ec-jrc/re3gistry/blob/master/documentation/user-manual.md">Felhasználói kézikönyv</a></p></li>
+<li><p><a class="reference external" href="https://github.com/ec-jrc/re3gistry/blob/master/documentation/administrator-manual.md">Rendszergazda kézikönyv</a></p></li>
+<li><p><a class="reference external" href="https://github.com/ec-jrc/re3gistry/blob/master/documentation/developer-manual.md">Fejlesztői kézikönyv</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

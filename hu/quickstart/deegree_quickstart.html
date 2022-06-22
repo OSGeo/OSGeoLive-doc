@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>deegree gyorstalpaló &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Tárgymutató" href="../genindex.html" />
+    <link rel="search" title="Keresés" href="../search.html" />
+    <link rel="copyright" title="Minden jog fenntartva" href="../copyright.html" />
+    <link rel="next" title="GeoNetwork" href="../overview/geonetwork_overview.html" />
+    <link rel="prev" title="deegree" href="../overview/deegree_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="http://www.deegree.org"><img alt="../../_images/logo_deegree.png" class="align-right" src="../../_images/logo_deegree.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="deegree-quickstart">
+<h1>deegree gyorstalpaló<a class="headerlink" href="#deegree-quickstart" title="Permalink to this heading">¶</a></h1>
+<p><em>deegree</em> egí nyílt forráskódú szoftver a térinformatikai adat infrastruktúrákhoz és a térinformatikai web-hez. A <em>deegree</em> egy Java alkalmazás térkép  (és vektor adat) szolgáltatáshoz más kliensekben megjelenítéshez.</p>
+<p>Elérhető komponensek:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Web szolgáltatások: WFS, WMS, WMTS, CSW, WPS</p></li>
+</ul>
+</div></blockquote>
+<p><em>deegree 3</em> a deegree Java keretrendszer új generációja GIS alkalmazásokhoz és OGC szolgáltatások implementációjához. Web alapú téradat infrastruktúra (GDI) építésére használható.</p>
+<nav class="contents local" id="contents">
+<p class="topic-title">Tartalom</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#start-deegree-3-webservices" id="id1">deegree3 web szolgáltatások indítása</a></p></li>
+<li><p><a class="reference internal" href="#load-a-workspace" id="id2">Egy munkaterület betöltése</a></p></li>
+<li><p><a class="reference internal" href="#view-a-map" id="id3">Egy térkép megtekintése</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id4">Mi a következő?</a></p></li>
+</ul>
+</nav>
+<section id="start-deegree-3-webservices">
+<h2><a class="toc-backref" href="#id1" role="doc-backlink">deegree3 web szolgáltatások indítása</a><a class="headerlink" href="#start-deegree-3-webservices" title="Permalink to this heading">¶</a></h2>
+<p>Válassza a  <em>«Start deegree»</em>-t a <span class="menuselection">Geospatial ‣ Web Services ‣ deegree</span> menüből. Az alkalmazás néhány pillanat múlva elindul.</p>
+<p>A Firefox megnyitja a <em>deegree 3 szolgáltatás konzolt</em>. (Ezt manuálisan is megnyithatja a <a class="reference external" href="http://localhost:8033">http://localhost:8033</a> címre irányítva a böngészőt). Ez egy egyszerű web alapú GUI a <em>deegree munkaterületnek</em> nevezett konfiguráció fájlok szerkesztéséhez.</p>
+</section>
+<section id="load-a-workspace">
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">Egy munkaterület betöltése</a><a class="headerlink" href="#load-a-workspace" title="Permalink to this heading">¶</a></h2>
+<p>A <em>deegree 3</em> olyan konfigurációkat használ, mely megfelel minden <em>deegree 3</em> alapú web szolgáltatásnak. A konfigurációkat úgynevezett munkaterületekben tároljuk.</p>
+<ol class="arabic simple">
+<li><p>A használatra kész és telepített munkaterületek kezeléséhez kattintson a „workspaces”-re a bal oldalon. Most a futó <em>deegree</em> példány munkaterület kezelőjében van. Láthatja melyik workspace aktív (csak egy lehet aktív egyidőben), inaktív lokálisan elérhető workspace-ket és hivatalos workspace-ket importálhat, ha van internet kapcsolata.</p></li>
+<li><p>Nyomja meg a start-ot a <em>deegree-inspire-workspace</em>-en.</p></li>
+</ol>
+<p>Ez a workpace egy minta INSPIRE nézet és letöltés szolgáltatás konfigurációt tartalmaz. Ez egy tranzakciós WFS-ből (2.0.0 és 1.1.0) és egy WMS-ből (1.3.0 és 1.1.1) áll, melyek az az I. függelék összes adattémái közül három réteget szolgáltatnak. Tartalmaz néhány holland adminisztrációs egységet, telkeket és címeket. A WFS ebben a példában mint egy INSPIRE letöltés szolgáltatás (közvetlen hozzáférés) szerepel és az eredménye helyes, harmonizált INSPIRE GML. Továbbá többféle kérdés típust és lekérdezést támogat.</p>
+<div class="admonition tip">
+<p class="admonition-title">Javaslat</p>
+<p>Ez a workspace összhngban lévő INSPIRE GML helyi fájlokat tölt be. Ez könnyen megváltoztatható  PostGIS, Oracel Spatial vagy Microsoft SQL server háttérre.</p>
+</div>
+</section>
+<section id="view-a-map">
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Egy térkép megtekintése</a><a class="headerlink" href="#view-a-map" title="Permalink to this heading">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Kattintson a <em>«see layers»</em>-re egy egyszerű térkép megnyitásához. A szolgáltatást az adatok és egy alaptérkép (<a class="reference external" href="https://www.openstreetmap.org/">OpenStreetMap</a>) megjelenítésére konfigurálták.</p></li>
+<li><p>A jobb oldali <em>+*</em>-ra kattintva megnyitja az összes elérhető réteget tartalmazó réteg fát. Itt kapcsolhatja be a deegree WMS által szolgáltatott INSPIRE réteget.</p></li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Javaslat</p>
+<p>A térkép kliens az <a class="reference external" href="https://openlayers.org/">OpenLayers-re</a> épül. A térkép eltolásához tartsa a  egér bal gombját lenyomva és húzza a térképet. A nagyítás az egérgörgő vagy a bal oldali navigációs elemek segítségével lehetséges.</p>
+</div>
+<p>További információ és lépésről-lépésre oktatóanyag az INSPIRE munkaterületről megtalálható a deegree <a class="reference external" href="https://download.deegree.org/documentation/3.4.1/html/lightly.html#example-workspace-1-inspire-network-services">dokumentációban</a>.</p>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Mi a következő?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<p>Ez csak egy rövid bemutatkozás volt a deegree 3 funkcióiról. Több információ érhető el a demó telepítésben és a deegree honlapon.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>deegree online demó - elérhető itt: <a class="reference external" href="https://www.deegree.org/demo/">https://www.deegree.org/demo/</a></p></li>
+<li><p>deegree honlap - elérhető itt: <a class="reference external" href="https://www.deegree.org">https://www.deegree.org</a></p></li>
+</ul>
+</div></blockquote>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

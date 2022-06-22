@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>pycsw &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Inicio Rápido de pycsw" href="../quickstart/pycsw_quickstart.html" />
+    <link rel="prev" title="Inicio Rápido de MapServer" href="../quickstart/mapserver_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://pycsw.org/"><img alt="../../_images/logo_pycsw.png" class="align-right" src="../../_images/logo_pycsw.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="pycsw">
+<h1>pycsw<a class="headerlink" href="#pycsw" title="Permalink to this heading">¶</a></h1>
+<section id="metadata-catalogue">
+<h2>Catálogo de metadatos<a class="headerlink" href="#metadata-catalogue" title="Permalink to this heading">¶</a></h2>
+<p>pycsw permite a los usuarios publicar un catálogo de descripciones de conjunto de datos (metadatos) en la web, utilizando interfaces  y formatos basados en estándares, de modo que pueda ser consultado y actualizado por los clientes del catálogo. pycsw es fácil de configurar dentro de un servidor web Apache (o cualquier servidor WSGI) y puede acceder a registros de metadatos almacenados como archivos XML dentro de una base de datos.</p>
+<p>Los metadatos son “datos acerca de datos”, que almacenan información como fecha de creación, autor, título, área de interés, etc., y generalmente están codificados como archivos XML, siguiendo estándares internacionales como ISO 19115, ISO 19139 y FGDC CSDGM.</p>
+<p>pycsw es una implementación <a class="reference external" href="https://www.python.org/">Python</a>  de el <a class="reference external" href="https://www.ogc.org/standards/cat">Catalogue Service</a>. Es un proyecto certificado por <a class="reference external" href="https://www.ogc.org/resource/products/details/?pid=1374">OGC Compliant</a>,  y es una <a class="reference external" href="https://demo.pycsw.org/">OGC Reference Implementation</a>. El estándar de CSW define interfaces comunes para descubrir, navegar y consultar metadatos sobre datos espaciales, sevicios web y recursos relacionados.</p>
+<p>pycsw es de Código Abierto, publicado bajo una licencia MIT y se puede ejecutar en todas las plataformas principales (Windows, Linux, Mac OS X).</p>
+<a class="reference internal image-reference" href="../../_images/pycsw_screenshot.png"><img alt="pantalla de pycsw" class="align-right" src="../../_images/pycsw_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Características Principales<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Certificación OGC Compliant y OGC  Implementación de Referencia para OGC CSW 2.0.2 y CSW 3.0.0</p></li>
+<li><p>apoyo a la recolección de metadatos para WMS, WFS, WCS, WPS, WAF, CSW, SOS</p></li>
+<li><p>implementa INSPIRE Discovery Services 3.0</p></li>
+<li><p>implementa ISO Metadata Application Profile 1.0.0</p></li>
+<li><p>implementa FGDC CSDGM Application Profile para CSW 2.0</p></li>
+<li><p>implementa la búsqueda/recuperación a través del protocolo de búsqueda URL (SRU)</p></li>
+<li><p>implementa las Capacidades de Búsqueda de Texto</p></li>
+<li><p>implementa extensiones de OGC OpenSearch Geo/Time</p></li>
+<li><p>implementa el Protocolo de Iniciativa de Archivos Abiertos para la Recolección de Metadatos</p></li>
+<li><p>Soporta modelos de metadatos  ISO, Dublin Core, DIF, FGDC, Atom y GM03</p></li>
+<li><p>despliegue de CGI o WSGI</p></li>
+<li><p>Python 2 y 3 compatibles</p></li>
+<li><p>configuración simple</p></li>
+<li><p>capacidades transaccionales (CSW-T)</p></li>
+<li><p>configuración de repositorio flexible</p></li>
+<li><p>Conectividad GeoNode</p></li>
+<li><p>Conectividad HHypermap</p></li>
+<li><p>Conectividad de catálogo de Open Data</p></li>
+<li><p>Conectividad CKAN</p></li>
+<li><p>Búsqueda en catálogos federales distribuidos</p></li>
+<li><p>validación en tiempo real  de esquema XML</p></li>
+<li><p>arquitectura de plugin de perfil extensible</p></li>
+<li><p>muy ligero (Python + CGI)</p></li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>Estándares implementados<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
+<p>Estándares OGC</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.ogc.org/standards/cat">Catalogue Service</a>         2.0.2, 3.0.0</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/filter">Filter Encoding (FE)</a>          1.1.0, 2.0.0</p></li>
+<li><p>OWS Common    1.0.0, 2.0.0</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/gml">Geography Markup Language (GML)</a>         3.1.1</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/sfs">Simple Feature Access (SFS)</a>         1.2.1</p></li>
+<li><p>OGC OpenSearch  1.0</p></li>
+</ul>
+<p>Estándares de metadatos:</p>
+<ul class="simple">
+<li><p>Dublin Core   1.1</p></li>
+<li><p>SOAP  1.2</p></li>
+<li><p>ISO 19115:2003</p></li>
+<li><p>ISO 19139:2007</p></li>
+<li><p>ISO 19119:2005</p></li>
+<li><p>NASA DIF 9.7</p></li>
+<li><p>FGDC CSDGM 1998</p></li>
+<li><p>GM03  2.1</p></li>
+<li><p>SRU   1.1</p></li>
+<li><p>OAI-PMH   2.0</p></li>
+<li><p>A9 OpenSearch         1.1</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Detalles<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Sitio web:</strong> <a class="reference external" href="https://pycsw.org/">https://pycsw.org/</a></p>
+<p>** Licencia:** <a class="reference external" href="https://docs.pycsw.org/en/latest/license.html">MIT</a></p>
+<p><strong>Versión de software:</strong> 2.6.0</p>
+<p><strong>Plataformas compatibles:</strong> GNU/Linux, Mac OSX, MS Windows</p>
+<p><strong>Interfaces API:</strong> Python</p>
+<p><strong>Soporte:</strong> <a class="reference external" href="https://www.osgeo.org/service-providers">OSGeo service providers</a></p>
+</section>
+<section id="quickstart">
+<h3>Inicio Rápido<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/pycsw_quickstart.html"><span class="doc">Documentación de inicio rápido</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>MapProxy &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Inicio Rápido de MapProxy" href="../quickstart/mapproxy_quickstart.html" />
+    <link rel="prev" title="Inicio Rápido de istSOS" href="../quickstart/istsos_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://mapproxy.org/"><img alt="../../_images/logo_mapproxy.png" class="align-right" src="../../_images/logo_mapproxy.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
+<section id="mapproxy">
+<h1>MapProxy<a class="headerlink" href="#mapproxy" title="Permalink to this heading">¶</a></h1>
+<section id="proxy-wms-tile-services">
+<h2>Proxy de WMS &amp; servicios tile<a class="headerlink" href="#proxy-wms-tile-services" title="Permalink to this heading">¶</a></h2>
+<p>MapProxy acelera las aplicaciones de mapeo al preprocesar e integrar mapas de múltiples fuentes y almacenarlos en un caché local. Las capas se pueden hacer transparentes, las proyecciones se pueden cambiar, las capas de mapas múltiples se pueden transformar en una, se pueden agregar marcas de agua y más …</p>
+<p>MapProxy es flexible y escala casos de uso de simples a complejos: desde un solo caché de teselas para un <a class="reference internal" href="openlayers_overview.html"><span class="doc">OpenLayers</span></a> cliente web, hasta un nodo SDI central que combina, unifica y acelera docenas de servicios WMS distribuidos.</p>
+<a class="reference internal image-reference" href="../../_images/mapproxy_screenshot.png"><img alt="pantalla de mapproxy" class="align-right" src="../../_images/mapproxy_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Características Principales<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<a class="reference internal image-reference" href="../../_images/mapproxy_demo.png"><img alt="Demostración de MapProxy" class="align-right" src="../../_images/mapproxy_demo.png" style="width: 557.1999999999999px; height: 566.3px;" /></a>
+<dl class="simple">
+<dt>Fuentes de entrada:</dt><dd><ul class="simple">
+<li><p>WMS 1.0.0–1.3.0 (<a class="reference internal" href="mapserver_overview.html"><span class="doc">MapServer</span></a>, <a class="reference internal" href="geoserver_overview.html"><span class="doc">GeoServer</span></a>, etc.)</p></li>
+<li><p>TMS, WMTS (TileCache, GeoWebcache, etc.)</p></li>
+<li><p>MapServer y Mapnik (directamente, sin WMS)</p></li>
+<li><p>cualquier fuente compatible TileCache, Google Maps o Bing</p></li>
+<li><p>ArcGIS REST servidores y archivos de caché compactos</p></li>
+</ul>
+</dd>
+<dt>Servicios:</dt><dd><ul class="simple">
+<li><p>WMS (1.0.0-1.3.0)</p></li>
+<li><p>TMS</p></li>
+<li><p>WMTS</p></li>
+<li><p>SuperOverlays KML</p></li>
+</ul>
+</dd>
+<dt>Cache de tiles:</dt><dd><ul class="simple">
+<li><p>almacena imágenes idénticas una sola vez (por ejemplo teselas del océano)</p></li>
+<li><p>mosaicos de caché en el sistema de archivos, MBTiles/SQLite, ArcGIS Compact Cache, S3, Redis, Riak, o CouchDB</p></li>
+<li><p>Añadir marca de agua a las teselas</p></li>
+</ul>
+</dd>
+<dt>Opciones de fuente:</dt><dd><ul class="simple">
+<li><p>limitar fuentes a geometrías (a partir de Shapefile por ejemplo)</p></li>
+<li><p>Añadir transparencia a las capas opacas</p></li>
+<li><p>combinar múltiples fuentes</p></li>
+<li><p>reproyectar WMS y fuentes de mosaico a otros SRS</p></li>
+</ul>
+</dd>
+<dt>Características WMS:</dt><dd><ul class="simple">
+<li><p>construcción de árboles de capas desde fuentes diferentes</p></li>
+<li><p>crear respuestas <code class="docutils literal notranslate"><span class="pre">GetMap</span></code> de cache con soporte para zoom libre y cualquier proyección (para cualquier SIG de escritorio)</p></li>
+<li><p>acelera los WMS 10 a 100 veces</p></li>
+<li><p>responde a solicitudes de <code class="docutils literal notranslate"><span class="pre">GetLegendGraphic</span></code></p></li>
+<li><p>cascada las peticiones <code class="docutils literal notranslate"><span class="pre">GetFeatureInfo</span></code> con transformaciones XSL en el opcionales</p></li>
+<li><p>reproyecciónes al vuielo</p></li>
+<li><p>convertir versiones WMS y formatos de imagen</p></li>
+</ul>
+</dd>
+<dt>Seguridad:</dt><dd><ul class="simple">
+<li><p>API de autorización flexible y potente</p></li>
+<li><p>control granular sobre los servicios y capas</p></li>
+<li><p>restringir el acceso a las zonas de polígono (para WMS y servicios de teselas)</p></li>
+<li><p>integración con bases de datos de usuario existentes y métodos de autenticación</p></li>
+</ul>
+</dd>
+<dt>Poderosas herramientas:</dt><dd><ul class="simple">
+<li><p>herramienta germinal eficiente para el pre-llenado de caché que puede sembrar áreas de polígono con Shapefiles, GeoJSON, PostGIS o geometrías WKT</p></li>
+<li><p>exportación de caché de teselas a otros formatos</p></li>
+<li><p>calcular escalas y mostrar configuraciones de retícula</p></li>
+</ul>
+</dd>
+<dt>Otras características:</dt><dd><ul class="simple">
+<li><p>simple pero potente configuración de formato (YAML/JSON)</p></li>
+<li><p>Cliente demo basado en OpenLayers</p></li>
+<li><p>ejecuta múltiples servicios WMS en una instancia de MapProxy</p></li>
+<li><p>Añade líneas de atribución a las imágenes</p></li>
+<li><p>soporte para datos de no-imagen raster no como DEMs</p></li>
+<li><p>manipular bandas de imagen para crear imágenes en escala de grises o de falso color</p></li>
+<li><p>muchos más</p></li>
+</ul>
+</dd>
+</dl>
+</section>
+<section id="implemented-standards">
+<h3>Estándares implementados<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
+<p>MapProxy implementa las siguientes especificaciones abiertas:</p>
+<ul class="simple">
+<li><p>OGC WMS 1.0.0, 1.1.0, 1.1.1, 1.3.0</p></li>
+<li><p>OGC WMTS 1.0.0 (KVP y RESTful)</p></li>
+<li><p>OSGeo TMS 1.0.0</p></li>
+<li><p>OGC KML 2.2 SuperOverlays</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Detalles<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Website:</strong> <a class="reference external" href="https://mapproxy.org/">https://mapproxy.org/</a></p>
+<p><strong>Licence:</strong> <a class="reference external" href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</a></p>
+<p><strong>Versión de software:</strong> 1.13.0</p>
+<p><strong>Plataformas compatibles:</strong> GNU/Linux, Mac OSX, MS Windows</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://mapproxy.org/support">https://mapproxy.org/support</a></p>
+</section>
+<section id="quickstart">
+<h3>Inicio Rápido<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/mapproxy_quickstart.html"><span class="doc">Documentación de inicio rápido</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

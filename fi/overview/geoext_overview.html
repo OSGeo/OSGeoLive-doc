@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>GeoExt &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Sisällysluettelo" href="../genindex.html" />
+    <link rel="search" title="Etsi" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="GeoExt Quickstart" href="../quickstart/geoext_quickstart.html" />
+    <link rel="prev" title="Cesium Pika-aloitus" href="../quickstart/cesium_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://geoext.github.io/geoext3"><img alt="../../_images/logo_geoext.png" class="align-right" src="../../_images/logo_geoext.png" /></a>
+<section id="geoext">
+<h1>GeoExt<a class="headerlink" href="#geoext" title="Permalink to this heading">¶</a></h1>
+<section id="a-javascript-toolkit-for-rich-web-mapping-applications">
+<h2>A JavaScript Toolkit for Rich Web Mapping Applications<a class="headerlink" href="#a-javascript-toolkit-for-rich-web-mapping-applications" title="Permalink to this heading">¶</a></h2>
+<p>GeoExt is Open Source and enables building desktop-like GIS applications through the web. It is a JavaScript framework that combines the GIS functionality of
+<a class="reference external" href="https://openlayers.org/">OpenLayers</a> with the user interface of the <a class="reference external" href="https://www.sencha.com/products/extjs/">ExtJS</a> library provided by <a class="reference external" href="https://www.sencha.com">Sencha</a>.</p>
+<p>User interface components include a map panel, layer tree panel, feature grid, and an overview map. GeoExt components can be used just like any other ExtJS component
+and can be easily configured and extended. Lower level classes are also available allowing OpenLayers features and layers to be used as ExtJS data models, and for various
+map layer types to be serialized.</p>
+<p>GeoExt3 is dual licensed. The license you choose depends on the license of the framework ExtJS you use with it.
+If you are using the GPL v3 version of the ExtJS framework you will use it under GPLv3. If you own a Sencha ExtJS Commercial License, you
+have the right to use GeoExt3 under the BSD License.</p>
+<a class="reference internal image-reference" href="../../_images/geoext_screenshot.png"><img alt="geoext screenshot" class="align-right" src="../../_images/geoext_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Core Features<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>UI Components</p>
+<ul>
+<li><p>Map panel</p></li>
+<li><p>Overview map</p></li>
+<li><p>Pop-ups</p></li>
+<li><p>Feature renderer</p></li>
+<li><p>Layer Tree, legends, and drag-and-drop layer ordering</p></li>
+</ul>
+</li>
+<li><p>Data Models and Stores</p>
+<ul>
+<li><p>Integration of the OpenLayers data model with the ExtJS data model enabling sorting and filtering of features
+using ExtJS components</p></li>
+<li><p>ExtJS stores and models for OpenLayers features and layers</p></li>
+</ul>
+</li>
+<li><p>Miscellaneous</p>
+<ul>
+<li><p>Integration with <a class="reference external" href="http://mapfish.github.io/mapfish-print-doc/">MapFish Print</a> and
+<a class="reference external" href="https://docs.geoserver.org/latest/en/user/extensions/printing/index.html">GeoServer Printing Module</a></p></li>
+<li><p>Layer Serializers (WMS, WMTS, XYZ)</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="details">
+<h3>Details<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Website:</strong> <a class="reference external" href="https://geoext.github.io/geoext3">https://geoext.github.io/geoext3</a></p>
+<p><strong>License:</strong> GPLv3 or BSD License dependent on ExtJS license - see <a class="reference external" href="https://github.com/geoext/geoext3/blob/master/LICENSE">License</a>
+and <a class="reference external" href="https://github.com/geoext/geoext3/blob/master/LICENSE-FAQ.md">License FAQ</a></p>
+<p><strong>Software Version:</strong> 3.1.0</p>
+<p><strong>API Interface:</strong> JavaScript</p>
+<p><strong>Support:</strong> Mailing list <a class="reference external" href="https://www.geoext.org/cgi-bin/mailman/listinfo/users">https://www.geoext.org/cgi-bin/mailman/listinfo/users</a> and <a class="reference external" href="https://stackoverflow.com/questions/tagged/geoext3">https://stackoverflow.com/questions/tagged/geoext3</a></p>
+</section>
+<section id="quickstart">
+<h3>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/geoext_quickstart.html"><span class="doc">Quickstart documentation</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

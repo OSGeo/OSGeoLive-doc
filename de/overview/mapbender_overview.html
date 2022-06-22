@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Mapbender &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
+    <link rel="search" title="Suche" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Mapbender Quickstart" href="../quickstart/mapbender_quickstart.html" />
+    <link rel="prev" title="GeoNode Quickstart" href="../quickstart/geonode_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://mapbender.org"><img alt="../../_images/logo_mapbender.png" class="align-right" src="../../_images/logo_mapbender.png" /></a>
+<section id="mapbender">
+<h1>Mapbender<a class="headerlink" href="#mapbender" title="Permalink to this heading">¶</a></h1>
+<section id="geoportal-framework">
+<h2>Geoportal Framework<a class="headerlink" href="#geoportal-framework" title="Permalink to this heading">¶</a></h2>
+<p><a class="reference external" href="https://mapbender.org">Mapbender</a> ist ein graduiertes OSGeo Projekt. Mapbender ist ein web-basiertes Geoportal Framework zum Veröffentlichen, Anzeigen und Überwachen von OGC Diensten, mit der Möglichkeit Dienste gesichert anzubieten.</p>
+<p>Mapbender ist die Spitze des Eisbergs, eine Software, die als Zwischenschicht für den Zugriff auf GIS Komponenten dient. Mapbender bietet eine einfache Möglichkeit, angepasste Client-Anwendungen aus einer Vielzahl von Komponenten zusammen zu stellen. Das Besondere ist, dass hierbei keiner bis minimaler Programmieraufwand notwendig ist. Für die Administration wird lediglich ein Browser benötigt.</p>
+<p>Mapbender ist das Werkzeug der Wahl für GIS Administratoren, die Karten- und Datendienste veröffentlichen, unterhalten, kategorisieren und überwachen müssen. Mapbender bietet eine Rechteverwaltung mit der Vergabe von Rechten für einzelne Benutzer und Gruppen. Mapbender bietet Komponenten mit Serverfunktionalität beispielsweise für den gesicherten Zugriff auf Dienste, Digitalisierung und mehr.</p>
+<p>Mapbender basiert auf Symfony, OpenLayers und jQuery.</p>
+<a class="reference internal image-reference" href="../../_images/mapbender_screenshot.png"><img alt="mapbender screenshot" class="align-right" src="../../_images/mapbender_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Kernfunktionen<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>leichtes Erzeugen von Web Mapping Anwendungen über Anwendungsvorlagen</p>
+<ul>
+<li><p>Hinzufügen/ Entfernen/ Anpassen von Anwendungen</p></li>
+</ul>
+</li>
+<li><p>Erzeugung von Anwendungen mit Digitalisierfunktionalitäten</p></li>
+<li><p>Erzeugung von mobilen Anwendungen</p></li>
+<li><p>Hochqualitativer Druck unter Verwendung eigener PDF-Vorlagen</p></li>
+<li><p>Nutzung von SQL-Abfragen für die Digitalisierung</p></li>
+<li><p>Laden und Verwalten von OGC WMS-Diensten (Speicherung der GetCapabilities Parameter)</p>
+<ul>
+<li><p>Überlagern von verschiedenen WMS-Diensten</p></li>
+<li><p>Anpassung der Layersichtbarkeit</p></li>
+<li><p>Sortierung</p></li>
+<li><p>Formatauswahl</p></li>
+</ul>
+</li>
+<li><p>Benutzerverwaltung: Anlegen von Benutzern und Gruppen. Absicherung von Diensten, Anwendungen und Modulen über die Rechtezuweisung</p></li>
+<li><p>Beschränker Benutzerzugriff auf gesicherte Dienste mit dem OWS Security Proxy Modul</p></li>
+<li><p>Verschlüsseltes Monitoring, Statusbenachrichtigungen und Auto-Update Services für entfernte OGC Services</p></li>
+<li><p>…und mehr!</p></li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>Unterstützte Standards<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>OGC Web Map Service (WMS) 1.1.1, 1.3.0</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Details<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Webseite:</strong> <a class="reference external" href="https://mapbender.org">https://mapbender.org</a></p>
+<p><strong>Lizenz:</strong> <a class="reference external" href="https://opensource.org/licenses/MIT">MIT-Lizenz</a></p>
+<p><strong>Software-Version:</strong> 3.2.3</p>
+<p><strong>Unterstützte Plattformen:</strong> Windows, Linux, Mac</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://mapbender.org/community">https://mapbender.org/community</a></p>
+</section>
+<section id="quickstart">
+<h3>Schnellstart<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/mapbender_quickstart.html"><span class="doc">Schnellstart: Dokumentation</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

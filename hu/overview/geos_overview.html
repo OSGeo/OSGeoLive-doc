@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>GEOS &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Tárgymutató" href="../genindex.html" />
+    <link rel="search" title="Keresés" href="../search.html" />
+    <link rel="copyright" title="Minden jog fenntartva" href="../copyright.html" />
+    <link rel="next" title="GeoTools" href="geotools_overview.html" />
+    <link rel="prev" title="GDAL/OGR gyorstalpaló" href="../quickstart/gdal_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://trac.osgeo.org/geos"><img alt="../../_images/logo_geos.png" class="align-right" src="../../_images/logo_geos.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="geos">
+<h1>GEOS<a class="headerlink" href="#geos" title="Permalink to this heading">¶</a></h1>
+<section id="spatial-library">
+<h2>Térinformatikai könyvtár<a class="headerlink" href="#spatial-library" title="Permalink to this heading">¶</a></h2>
+<p>GEOS (Geometry Engine- nyílt forráskódú) a « JTS topológia Suite <a class="reference external" href="https://projects.eclipse.org/projects/locationtech">JTS Topology Suite (JTS)</a> C++ átirata. Ez magában foglalja az OpenGIS egyszerű elemek SQL térbeli  függvényekhez és térbeli operátorokhoz, valamint a különleges JTS kibővített topológia funkciók.</p>
+<p>A GEOS a legszélesebb körben használt térinformatikai, geometriai C++ könyvtár, olyan nyílt forráskódú projektekben használják mint <a class="reference internal" href="postgis_overview.html"><span class="doc">PostGIS</span></a>, <a class="reference internal" href="qgis_overview.html"><span class="doc">QGIS</span></a>, <a class="reference internal" href="gdal_overview.html"><span class="doc">GDAL/OGR</span></a>,  és <a class="reference internal" href="mapserver_overview.html"><span class="doc">MapServer</span></a> és kereskedelmi termékekben mint például <a class="reference external" href="https://www.safe.com/fme">FME</a>.</p>
+<section id="implemented-standards">
+<h3>Implementált szabványok<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>OpenGIS Simple Features for SQL térinformatikai függvények és operátorok</p></li>
+</ul>
+</section>
+<section id="core-features">
+<h3>Alapfunkciók<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Geometria: pont, törtvonal, felület, multi pont, multi törtvonal, multi felület, geometria gyűjtemény</p></li>
+<li><p>Feltételek: metsz, érint, , különáll, keresztez, beleesik, tartalmaz, átlapol, egyenlő, letakar.</p></li>
+<li><p>Műveletek: unió, távolság, metszet, szimmetrikus különbség, konvex burkoló, befoglaló téglalap, övezet, egyszerűsítés, Polygon Assembly, validálás, terület, hossz,</p></li>
+<li><p>Előkészített geometriák (előzetes térbeli index)</p></li>
+<li><p>STR térbeli index</p></li>
+<li><p>OGC jól ismert szöveg (WKT) és jól ismert bináris (WKB) kódolók és dekódolók.</p></li>
+<li><p>C és C++ API (a C API hosszútávú ABI stabilitást biztosít)</p></li>
+<li><p>Biztonságos szálak (reentráns API használatával)</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Részletek<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Honlap:</strong> <a class="reference external" href="https://trac.osgeo.org/geos">https://trac.osgeo.org/geos</a></p>
+<p><strong>Licenc:</strong> LGPL</p>
+<p><strong>Szoftver verzió:</strong> 3.9.0</p>
+<p><strong>Támogatott platformok:</strong> Windows, Linux, Mac</p>
+<p><strong>API interfészek:</strong> C, C++</p>
+<p><strong>Támogatás:</strong> <a class="reference external" href="https://lists.osgeo.org/mailman/listinfo/geos-devel">https://lists.osgeo.org/mailman/listinfo/geos-devel</a>, <a class="reference external" href="https://www.osgeo.org/service-providers">https://www.osgeo.org/service-providers</a></p>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

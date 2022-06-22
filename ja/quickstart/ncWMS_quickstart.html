@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>ncWMS Quickstart &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="検索" href="../search.html" />
+    <link rel="copyright" title="著作権" href="../copyright.html" />
+    <link rel="next" title="QGIS サーバ" href="../overview/qgis_mapserver_overview.html" />
+    <link rel="prev" title="ncWMS" href="../overview/ncWMS_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/"><img alt="../../_images/logo_ncWMS.png" class="align-right" src="../../_images/logo_ncWMS.png" /></a>
+<div class="admonition note">
+<p class="admonition-title">注釈</p>
+<p>This  project is only included on the OSGeoLive virtual machine disk (VMDK)</p>
+</div>
+<section id="ncwms-quickstart">
+<h1>ncWMS Quickstart<a class="headerlink" href="#ncwms-quickstart" title="Permalink to this heading">¶</a></h1>
+<p>ncWMS is a Web Map Service which allows the fast visualisation of data from NetCDF files and other sources of environmental data.  This quickstart guide describes how to explore the sample data provided using the Godiva2 web client.  For configuration and adding other data sources to the server, please consult the documentation on the <a class="reference external" href="https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/">ncWMS website</a>.</p>
+<nav class="contents local" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#start-ncwms-and-understand-the-workspace" id="id1">Start ncWMS and understand the workspace</a></p>
+<ul>
+<li><p><a class="reference internal" href="#navigating-the-map" id="id2">Navigating the map</a></p></li>
+<li><p><a class="reference internal" href="#selecting-the-vertical-level" id="id3">Selecting the vertical level</a></p></li>
+<li><p><a class="reference internal" href="#selecting-the-timestep" id="id4">Selecting the timestep</a></p></li>
+<li><p><a class="reference internal" href="#finding-the-data-value-at-a-point" id="id5">Finding the data value at a point</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#change-the-style-of-the-data-display" id="id6">Change the style of the data display</a></p>
+<ul>
+<li><p><a class="reference internal" href="#adjusting-the-colour-contrast-range" id="id7">Adjusting the colour contrast range</a></p></li>
+<li><p><a class="reference internal" href="#locking-the-scale-range" id="id8">Locking the scale range</a></p></li>
+<li><p><a class="reference internal" href="#changing-the-colour-palette" id="id9">Changing the colour palette</a></p></li>
+<li><p><a class="reference internal" href="#other-parameters" id="id10">Other parameters</a></p></li>
+<li><p><a class="reference internal" href="#creating-animations" id="id11">Creating animations</a></p></li>
+<li><p><a class="reference internal" href="#timeseries-plots" id="id12">Timeseries plots</a></p></li>
+<li><p><a class="reference internal" href="#vertical-sections-and-transects-along-arbitrary-paths" id="id13">Vertical sections and transects along arbitrary paths</a></p></li>
+<li><p><a class="reference internal" href="#changing-the-background-map" id="id14">Changing the background map</a></p></li>
+<li><p><a class="reference internal" href="#changing-the-map-projection" id="id15">Changing the map projection</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#saving-and-emailing-the-view" id="id16">Saving and emailing the view</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id17">What next?</a></p></li>
+</ul>
+</nav>
+<section id="start-ncwms-and-understand-the-workspace">
+<h2><a class="toc-backref" href="#id1" role="doc-backlink">Start ncWMS and understand the workspace</a><a class="headerlink" href="#start-ncwms-and-understand-the-workspace" title="Permalink to this heading">¶</a></h2>
+<p>Select <span class="menuselection">Geospatial ‣ Web Services ‣ ncWMS ‣ Start ncWMS</span>.</p>
+<p>After a few moments the application will start up and open a web browser at <a class="reference external" href="http://localhost:8080/ncWMS2/Godiva3.html">http://localhost:8080/ncWMS2/Godiva3.html</a></p>
+<a class="reference internal image-reference" href="../../_images/ncWMS-01-start_screen.png"><img alt="../../_images/ncWMS-01-start_screen.png" src="../../_images/ncWMS-01-start_screen.png" style="width: 563.2px; height: 422.40000000000003px;" /></a>
+<ul class="simple">
+<li><p>Use the left-hand menu to choose a dataset to view.</p></li>
+<li><p>Clicking a dataset (or the + icon to the left of it) will expand the dataset to show the available variables to plot.</p></li>
+<li><p>Choose a variable by clicking on it. The data displays on the interactive map after a short delay (a progress bar may display showing the progress of loading image tiles from the WMS servers).</p></li>
+</ul>
+<section id="navigating-the-map">
+<h3><a class="toc-backref" href="#id2" role="doc-backlink">Navigating the map</a><a class="headerlink" href="#navigating-the-map" title="Permalink to this heading">¶</a></h3>
+<p>The interactive map can be dragged with the mouse to navigate around. Using the controls in the top left of the map you can zoom in and out. You can zoom quickly to a particular area by holding down the Shift key and dragging a rectangle on the map.</p>
+</section>
+<section id="selecting-the-vertical-level">
+<h3><a class="toc-backref" href="#id3" role="doc-backlink">Selecting the vertical level</a><a class="headerlink" href="#selecting-the-vertical-level" title="Permalink to this heading">¶</a></h3>
+<p>If the variable you are viewing has a vertical dimension you will be able to select the vertical level using the drop-down box above the map.</p>
+</section>
+<section id="selecting-the-timestep">
+<h3><a class="toc-backref" href="#id4" role="doc-backlink">Selecting the timestep</a><a class="headerlink" href="#selecting-the-timestep" title="Permalink to this heading">¶</a></h3>
+<p>If the displayed variable has a time dimension a date control will appear above the map. Click on this control to select the date you want to focus on. If there are several timesteps available for this day, use the drop-down box above the map to select the time.</p>
+</section>
+<section id="finding-the-data-value-at-a-point">
+<h3><a class="toc-backref" href="#id5" role="doc-backlink">Finding the data value at a point</a><a class="headerlink" href="#finding-the-data-value-at-a-point" title="Permalink to this heading">¶</a></h3>
+<p>Once a variable has been displayed on the map, you can click on the map to discover the data value at that point. The data value, along with the latitude and longitude of the point you clicked, will appear in a small pop-up window at the point where you clicked.</p>
+<a class="reference internal image-reference" href="../../_images/ncWMS_screenshot.png"><img alt="../../_images/ncWMS_screenshot.png" src="../../_images/ncWMS_screenshot.png" style="width: 563.2px; height: 422.40000000000003px;" /></a>
+</section>
+</section>
+<section id="change-the-style-of-the-data-display">
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">Change the style of the data display</a><a class="headerlink" href="#change-the-style-of-the-data-display" title="Permalink to this heading">¶</a></h2>
+<section id="adjusting-the-colour-contrast-range">
+<h3><a class="toc-backref" href="#id7" role="doc-backlink">Adjusting the colour contrast range</a><a class="headerlink" href="#adjusting-the-colour-contrast-range" title="Permalink to this heading">¶</a></h3>
+<p>When you first load a variable it will appear with a default colour scale range. This range may not be appropriate for the geographical region and timestep you are interested in. By clicking &quot;auto&quot; (the colour wheel to the right of the colour scale bar) the colour scale range will be automatically stretched to suit the data currently displayed in the map. You can also manually change the colour scale range by editing the values at the top and bottom of the colour scale bar.</p>
+</section>
+<section id="locking-the-scale-range">
+<h3><a class="toc-backref" href="#id8" role="doc-backlink">Locking the scale range</a><a class="headerlink" href="#locking-the-scale-range" title="Permalink to this heading">¶</a></h3>
+<p>Sometimes, when comparing two datasets, you might want to fix the colour scale range so that when you select a new variable, that variable is shaded with exactly the same colour scale. To do this, click the &quot;lock&quot; link, which is the padlock icon to the right of the colour scale bar. The colour scale range will then not be changed when a new variable is loaded and the scale range cannot be edited manually. However, the colour palette and the number of colour bands can still be modified while the scale range is locked. Click the lock icon again to make the colour scale editable.</p>
+</section>
+<section id="changing-the-colour-palette">
+<h3><a class="toc-backref" href="#id9" role="doc-backlink">Changing the colour palette</a><a class="headerlink" href="#changing-the-colour-palette" title="Permalink to this heading">¶</a></h3>
+<p>The colour palette can be changed by clicking on the colour scale bar. A pop-up window will display with the available palettes. Click on one to load the new palette. The window also contains a drop-down box to select the number of colour bands to use, from 10 (giving a contoured appearance) to 250 (smoothed).  Note that if the number of colour bands is changed, you will need to click on the desired palette to effect the change.  All colour palettes can be reversed by clicking the &quot;Flip&quot; button on the colour palette selector.</p>
+</section>
+<section id="other-parameters">
+<h3><a class="toc-backref" href="#id10" role="doc-backlink">Other parameters</a><a class="headerlink" href="#other-parameters" title="Permalink to this heading">¶</a></h3>
+<p>Certain variables, particularly biological parameters, are best displayed with a logarithmic colour scale. The spacing of the colour scale can be toggled between linear and logarithmic using the drop-down box to the right of the colour scale bar. Note that you cannot select a logarithmic scale if the colour scale range contains negative or zero values.</p>
+</section>
+<section id="creating-animations">
+<h3><a class="toc-backref" href="#id11" role="doc-backlink">Creating animations</a><a class="headerlink" href="#creating-animations" title="Permalink to this heading">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Click the animation wizard button below the lower left corner of the map.</p></li>
+<li><p>Select a start and end time for the animation</p></li>
+<li><p>Choose the granularity and frame rate for the animation</p></li>
+<li><p>Click &quot;Go&quot;. Note that the animation may take quite a while to display.</p></li>
+<li><p>Click the &quot;Stop animation&quot; button (where the wizard was) to stop the animation and return the controls to normal.</p></li>
+</ol>
+</section>
+<section id="timeseries-plots">
+<h3><a class="toc-backref" href="#id12" role="doc-backlink">Timeseries plots</a><a class="headerlink" href="#timeseries-plots" title="Permalink to this heading">¶</a></h3>
+<p>Creating a timeseries plot uses a similar wizard to that used to create animations. When finding the data value at a point, a link will be present to create a timeseries plot if the data have a time axis.  Timeseries plots open in a new window.</p>
+</section>
+<section id="vertical-sections-and-transects-along-arbitrary-paths">
+<h3><a class="toc-backref" href="#id13" role="doc-backlink">Vertical sections and transects along arbitrary paths</a><a class="headerlink" href="#vertical-sections-and-transects-along-arbitrary-paths" title="Permalink to this heading">¶</a></h3>
+<ol class="arabic simple">
+<li><p>At the top of the map, click the icon that looks like a line joining four points.</p></li>
+<li><p>Click on the map to start drawing a line.</p></li>
+<li><p>Add &quot;waypoints&quot; along this line by single-clicking at each point.</p></li>
+<li><p>Double-click to finish the line.
+A new browser window opens showing the variation of the viewed variable along the line (i.e. a transect plot). If the variable has a vertical dimension, a vertical section plot will display under the transect plot.</p></li>
+</ol>
+</section>
+<section id="changing-the-background-map">
+<h3><a class="toc-backref" href="#id14" role="doc-backlink">Changing the background map</a><a class="headerlink" href="#changing-the-background-map" title="Permalink to this heading">¶</a></h3>
+<p>A selection of background maps is available on which data can be projected. Select a different background map by clicking the small plus sign in the top right-hand corner of the interactive map.</p>
+</section>
+<section id="changing-the-map-projection">
+<h3><a class="toc-backref" href="#id15" role="doc-backlink">Changing the map projection</a><a class="headerlink" href="#changing-the-map-projection" title="Permalink to this heading">¶</a></h3>
+<p>The map projection is changed by selecting a new background map as above. If the background map is in a different projection then the data overlay will be automatically reprojected into the new coordinate system. Godiva3 provides the option to select a background map in north or south polar stereographic projection. There may be a delay before the map displays in the new projection.</p>
+<a class="reference internal image-reference" href="../../_images/ncWMS-04-north_pole.png"><img alt="../../_images/ncWMS-04-north_pole.png" src="../../_images/ncWMS-04-north_pole.png" style="width: 563.2px; height: 422.40000000000003px;" /></a>
+</section>
+</section>
+<section id="saving-and-emailing-the-view">
+<h2><a class="toc-backref" href="#id16" role="doc-backlink">Saving and emailing the view</a><a class="headerlink" href="#saving-and-emailing-the-view" title="Permalink to this heading">¶</a></h2>
+<p>You may want to save the current view to return to it later or share it with a colleague. The &quot;Permalink&quot; under the bottom right-hand corner of the map links to a complete URL that recreates the current view.</p>
+<ul class="simple">
+<li><p>Left-click on the permalink to bring up a new window with an identical view.</p></li>
+<li><p>Right-click on the permalink and select &quot;Copy link location&quot; or the equivalent for your web browser. You can then paste the link into a report, your notes or an email.</p></li>
+<li><p>You can click on &quot;Email Link&quot; to start a new email message in your default email client with the permalink already included in the message body.</p></li>
+</ul>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id17" role="doc-backlink">What next?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<p>Website: <a class="reference external" href="https://github.com/Reading-eScience-Centre/ncwms">https://github.com/Reading-eScience-Centre/ncwms</a></p>
+<p>Support: <a class="reference external" href="https://github.com/Reading-eScience-Centre/ncwms/issues">https://github.com/Reading-eScience-Centre/ncwms/issues</a></p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

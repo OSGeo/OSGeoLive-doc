@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>EOxServer &#8212; OSGeoLive 15.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="検索" href="../search.html" />
+    <link rel="copyright" title="著作権" href="../copyright.html" />
+    <link rel="next" title="EOxServer クイックスタート" href="../quickstart/eoxserver_quickstart.html" />
+    <link rel="prev" title="actinia クイックスタート" href="../quickstart/actinia_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div> 
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://docs.eoxserver.org/en/stable/"><img alt="../../_images/logo_eoxserver.png" class="align-right" src="../../_images/logo_eoxserver.png" /></a>
+<section id="eoxserver">
+<h1>EOxServer<a class="headerlink" href="#eoxserver" title="Permalink to this heading">¶</a></h1>
+<section id="about">
+<h2>About<a class="headerlink" href="#about" title="Permalink to this heading">¶</a></h2>
+<p>EOxServerは、大規模な地球観測(EO)データアーカイブとメタデータをオープン標準で提供するサーバです。</p>
+<p>現在サポートされている地球観測データには、衛星や航空機のセンサを用いて一般的に取得された2Dラスタデータが含まれ、取得時刻や地球上のフットプリントに関する情報が含まれています。一般的には、地球の自然や人工的な環境を監視するために使用されます。</p>
+<p>EOxServerは、Python、<a class="reference internal" href="mapserver_overview.html"><span class="doc">MapServer</span></a>、Django/GeoDjango、<a class="reference internal" href="gdal_overview.html"><span class="doc">GDAL</span></a>、PROJ と <a class="reference internal" href="spatialite_overview.html"><span class="doc">SpatiaLite</span></a> または <a class="reference internal" href="postgis_overview.html"><span class="doc">PostGIS</span></a> データベースを含むソフトウェアのオープンソーススタック上に構築されています。</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_screenshot.png"><img alt="eoxserver screenshot" class="align-right" src="../../_images/eoxserver_screenshot.png" style="width: 500px;" /></a>
+</section>
+<section id="core-features">
+<h2>主な機能<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>EOデータの表示、フィルタ、サブセット作成、およびダウンロード</p></li>
+<li><p>EOデータアーカイブの登録</p></li>
+<li><p>Webベースのコマンドライン管理インタフェース</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org">Open Geospatial Consortium (OGC)</a> 経由でのデータ公開</p>
+<ul>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a> 1.0, 1.1 および 2.0 と 提案されている EO-WCS</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> および EO-WMS</p></li>
+<li><p>提案されているWCSの拡張: GeoTIFFエンコーディング、定義済み投影法(CRS)、スケーリング、補間。</p></li>
+<li><p>サポートされているプロトコル: KVP と XML/POST (SOAP2POST プロキシと一緒に使用して XML/SOAP も提供)</p></li>
+</ul>
+</li>
+<li><p>S3に格納されているデータの登録</p></li>
+<li><p>次の形式とグループ分けを使用したパブリッシュ:</p>
+<ul>
+<li><p>gmlcov:RectifiedGridCoverage から派生した2-D EOカバレッジ</p></li>
+<li><p>gmlcov:ReferenceableGridCoverage から派生した2-D EOカバレッジ</p></li>
+<li><p>時系列などのEOカバレッジのコレクションとしてのデータセットシリーズ</p></li>
+<li><p>修正EOカバレッジのステッチ済みモザイク(contributingFootprintを含む)</p></li>
+</ul>
+</li>
+<li><p>サポートされているカバレッジフォーマット:</p></li>
+</ul>
+<blockquote>
+<div><ul class="simple">
+<li><p>GeoTIFF</p></li>
+<li><p>GDALライブラリでサポートされているフォーマット</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="implemented-standards">
+<h2>実装されている標準規格<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>WCS, EO-WCS</p></li>
+<li><p>WMS, EO-WMS</p></li>
+<li><p>WPS</p></li>
+<li><p>GML, GMLCOV, EO-O&amp;M</p></li>
+<li><p>OpenSearch</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="details">
+<h2>詳細<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h2>
+<p><strong>Webサイト:</strong> <a class="reference external" href="https://docs.eoxserver.org/en/stable/">https://docs.eoxserver.org/en/stable/</a></p>
+<p><strong>Licence:</strong> <a class="reference external" href="https://docs.eoxserver.org/en/stable/copyright.html#license">MIT-style license</a></p>
+<p><strong>ソフトウェアバージョン:</strong> 1.0.0RC22</p>
+<p><strong>対応プラットフォーム:</strong> Linux, Windows, Mac</p>
+<p><strong>API インタフェース:</strong> Python</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://docs.eoxserver.org/en/stable/users/basics.html#where-can-i-get-support">https://docs.eoxserver.org/en/stable/users/basics.html#where-can-i-get-support</a></p>
+</section>
+<section id="quickstart">
+<h2>クイックスタート<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/eoxserver_quickstart.html"><span class="doc">クイックスタート文書</span></a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>
