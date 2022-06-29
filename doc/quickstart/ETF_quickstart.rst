@@ -20,7 +20,7 @@ ETF is an open source testing framework for validating spatial data, metadata an
 
 This Quick Start describes how to:
 
-  * navigate through the web applicattion
+  * navigate through the web application
   * start a test
   * monitor a test run
   * watch and manage test reports
