@@ -195,7 +195,7 @@ The Test Reports view shows all reports that have been generated from Test Runs.
 .. image:: /images/projects/ETF/test-reports-1.png
     :scale: 70 %
 
-By clicking on the plus button information, about the start time, the test result status, the name of the Test Object and the used Test Suites is shown.
+By clicking on the plus button information, about the start time, the test result status, the name of the Test Object and the used Test Suites are shown.
 
 A Test Report can be opened again by clicking on Open report or can be downloaded as HTML file by clicking on the Download button.
 
