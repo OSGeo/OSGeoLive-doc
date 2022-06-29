@@ -236,7 +236,7 @@ The number of levels depends on the tested Test Object. If service tests have be
 
         * Test Steps (interactions with the service, bundles Test Assertions)
 
-        * Test Assertions (atomar tests)
+        * Test Assertions (atomic tests)
 
 In a file-based test, Test Modules and Test Steps do not exist and are not shown in the report.
 
