@@ -6,10 +6,10 @@ Build-Depends: debhelper (>= 8.0.0),
                python3-sphinx,
                python3-stemmer,
                python3-pil,
+               python3-sphinx-revealjs,
                pngquant,
                cmake,
-               libtext-simpletable-autowidth-perl,
-               python3-sphinxjp.themes.revealjs,
+               libtext-simpletable-autowidth-perl
 Standards-Version: 3.9.6
 Homepage: http://live.osgeo.org
 

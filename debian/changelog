@@ -1,3 +1,9 @@
+osgeolive-docs (15.0~alpha2) jammy; urgency=medium
+
+  * Preparing 15.0 alpha2 release.
+
+ -- Angelos Tzotsos <gcpp.kalxas@gmail.com>  Sun, 03 Jul 2022 15:00:00 +0300
+
 osgeolive-docs (14.0.0) focal; urgency=medium
 
   * Preparing 14.0 final release.
