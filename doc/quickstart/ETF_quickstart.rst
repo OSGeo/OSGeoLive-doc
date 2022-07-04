@@ -163,7 +163,7 @@ If the Test accepts parameters, they are shown in the Test Suite Parameters sect
 Finally the test can be started by clicking on the Start button. The view then changes automatically to the Monitor View.
 
 Monitor test runs
-============
+=================
 
 After a Test Run has been started the Monitor View is shown.
 
@@ -203,7 +203,7 @@ The log file of the test run can be inspected with the Open log button. By click
 
 
 Inspect test reports
-============
+====================
 
 The top of a Test Report shows general information including the overall test result Status, the start time, the duration and a table, which summarizes the status of all tests on several levels.
 
@@ -255,4 +255,29 @@ Helpful information may also be found on the next higher level, like for instanc
 .. image:: /images/projects/ETF/inspect-test-reports-6.png
     :scale: 70 %
 
+Resources
+============
 
+Using the instructions provided above, please find below a predefined set of resources that you can test in the ETF:
+
+
+    GML data sets: some predefined data sets can be downloaded from `here<https://github.com/guadaltel/OSGeoLive-ETF/tree/resources/resources/GML-data-sets>`_ .
+    WMS services: a list of services is available `here<https://github.com/guadaltel/OSGeoLive-ETF/tree/resources/resources/WFS-services>`_.
+    WFS services: a list of services is available `here<https://github.com/guadaltel/OSGeoLive-ETF/tree/resources/resources/WMS-services>`_.
+
+.. note::	Some of the resources do not pass all the tests, so you can try to fix them before validating them again
+
+What's next?
+============
+
+This was just a very brief overview of the ETF.  There is more information in the demo installation and on the `ETF GitHub space`_.
+.. _ETF GitHub space: https://github.com/etf-validator
+
+Please also check:
+        * `User manual`_
+        * `Administrator manual`_
+        * `Developer manual`_
+
+.. _User Manual: https://docs.etf-validator.net/v2.0/User_manuals/Simplified_workflows.html
+.. _Administrator manual: https://docs.etf-validator.net/v2.0/Admin_manuals/index.html
+.. _Developer manual: https://docs.etf-validator.net/v2.0/#_developer_manuals
