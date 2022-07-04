@@ -33,7 +33,7 @@ Introduction
 
 From the Start menu, select |osgeolive-appmenupath-ETF|. The application will take a few moments to start up and will open a web page at http://localhost:9090/ETF. 
     
-In the header, there is a menu with 4 options, each representing differents views and functionalities: 
+In the header, there is a menu with 4 options, each representing different views and functionalities: 
 
 .. image:: /images/projects/ETF/introduction.png
     :scale: 70 %
