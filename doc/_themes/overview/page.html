@@ -1,6 +1,6 @@
 {% extends "basic/page.html" %}
 
-{%- block extrahead %} 
+{%- block extrahead %}
 {%- if pagename not in ['presentation'] %}
 	<script type="text/javascript" src="{{ pathto('_static/osgeolive.js', 1) }}"></script>
 {% endif %}
@@ -20,7 +20,7 @@
 {# header for subdirectories' files like: overview quicstart#}
 {%- macro header1() %}
     <div class="header">
-	<div class="banner"><a href="http://live.osgeo.org/"><img src="../_images/banner.png"></a></div>
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../_images/osgeolive-banner.png"></a></div>
         <div class="nowrap">
             <ul id="top-nav">
               <li><a href="../index.html">Home</a></li>
@@ -38,7 +38,7 @@
 {# header for files at the level of index#}
 {%- macro header2() %}
     <div class="header">
-	<div class="banner"><a href="http://live.osgeo.org/"><img src="_images/banner.png"></a></div>
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="_images/osgeolive-banner.png"></a></div>
         <div class="nowrap">
             <ul id="top-nav">
               <li><a href="./index.html">Home</a></li>
@@ -81,13 +81,13 @@
 {%- if pagename in ['index', 'contact', 'disclaimer.rst', 'osgeo_contact',  'scripts',  'translators',
             'download', 'metrics', 'prior_applications', 'sponsors_osgeo', 'copyright', 'sponsors']
 %}
-    {{ header2() }} 
+    {{ header2() }}
     {% else %}
     {%- if pagename in ['presentation'] %}
-    {{ header3() }} 
+    {{ header3() }}
         {% else  %}
         {# header for subdirectories' files like: overview quicstart#}
-        {{ header1() }} 
+        {{ header1() }}
         {% endif %}
 {% endif %}
 {% endblock %}

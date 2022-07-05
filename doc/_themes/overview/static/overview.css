@@ -58,7 +58,7 @@ div.sphinxsidebar {
     float: right;
     font-size: 1em;
     text-align: left;
-    background-color: #FFFFFF; 
+    background-color: #FFFFFF;
 }
 
 div.sphinxsidebar h3, div.sphinxsidebar h4 {
@@ -130,12 +130,12 @@ div.header div.wrap {
 
 /*#getting-started ul {*/
 #quicklinks ul {
-	float: left; 
+	float: left;
 	padding: 0;
 }
 /*#getting-started li {*/
 #quicklinks li {
-	float: left; 
+	float: left;
 	display: inline;
 	margin: 1.1em;
 }
@@ -228,7 +228,7 @@ h2, h3, h4 {
 
 /** outdenting literal code examples */
 div.highlight {
-    margin-right: -175px;    
+    margin-right: -175px;
 }
 
 /* making code samples less gigantic */
@@ -251,7 +251,7 @@ ul.rss_items li.rss_item {
 /*
 .wrap {
 width: 990px;
-margin: 0 auto; 
+margin: 0 auto;
 padding: 0;
 }
 */
