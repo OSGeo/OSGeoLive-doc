@@ -245,6 +245,11 @@ linkcheck_ignore = [
         # Used in quickstart/osm_quickstart
         'https://www.openstreetmap.org/edit',
 
+        # link exists but link check failes
+        # SSL: CERTIFICATE_VERIFY_FAILED
+        # Used in sponsors.rst
+        'https://www.ntua.gr/en',
+
         # Used in overview/inspire_overview
         # Error message: broken    https://etf-validator.net - 503 Server Error: Service Temporarily Unavailable for url: https://etf-validator.net/
         'https://etf-validator.net',
