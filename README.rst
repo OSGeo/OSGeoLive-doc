@@ -51,7 +51,7 @@ You might need to install `git` and `cmake` if they are not on your system yet.
    source py-env/bin/activate
 
    # Python requirements
-   pip install -r requirementsi.txt
+   pip install -r requirements.txt
 
 1.2 Requirements for the presentation
 

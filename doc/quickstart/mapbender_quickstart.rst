@@ -73,6 +73,9 @@ Create a new application by providing basic information about your application. 
 
 #. Choose the button **Create** to create the application
 
+.. tip:: You can easily create an application by copying an existing application using the **Duplicate Application** button. 
+
+
 Your application is set up. Next you need a WMS to be displayed in your application. 
 
   .. image:: /images/projects/mapbender/mapbender3_create_application.png
@@ -95,6 +98,8 @@ A WMS returns an XML-file when the getCapabilities document is requested. This i
 #. Enter username and password if your service needs authentication.
 
 #. Click **Load** to load the Service to the repository.
+
+#. Load another WMS https://sgx.geodatenzentrum.de/wms_topplus_open?request=GetCapabilities&service=WMS&VERSION=1.3.0
 
   .. image:: /images/projects/mapbender/mapbender3_wms_load.png
      :scale: 70 %
