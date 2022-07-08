@@ -1,7 +1,7 @@
-:Author: Enrique Soriano
-:Author: Marco Minghini
 :Author: Clemens Portele
 :Author: Jon Herrmann
+:Author: Marco Minghini
+:Author: Enrique Soriano
 :License: Creative Commons Attribution (cc-by) 4.0
 :Thanks: 
 
