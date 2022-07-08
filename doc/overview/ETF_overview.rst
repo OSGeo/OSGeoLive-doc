@@ -77,7 +77,7 @@ About ETF
 
 **Licence:** EUPL 1.2
 
-**Software Version:** |version-ETF|
+**Software Version:** 2.0
 
 **Supported Platforms:** Windows, Linux
 
