@@ -42,7 +42,7 @@ What is new in @OSGeoLiveDoc_VERSION_MAJOR@.0
 .. image:: /images/projects/osgeolive/osgeolive_menu.png
    :height: 400
 
-What is new in 14.0
+What is new in 15.0
 --------------------------------------------------------------------------------
 
 .. TODO update this
@@ -61,7 +61,7 @@ What is new in 14.0
 
 .. revealjs-break::
 
-* New projects added: GeoStyler, Re3gistry
+* New projects added: ETF testing framework software
 
 .. revealjs-break::
 
@@ -73,7 +73,7 @@ What is new in 14.0
 
 .. revealjs-break::
 
-* OSM data for Buenos Aires
+* OSM data for Firence
 
 .. revealjs-break::
 
@@ -84,10 +84,10 @@ What is new in 14.0
 * Full `changelog <href="https://github.com/OSGeo/OSGeoLive/blob/master/CHANGES.txt">`__
 
 .. speaker notes
-  In OSGeoLive Version 14.0 we've updated our core packages to the latest
-  stable, added new projects (GeoStyler, Re3gistry), improved our documentation
+  In OSGeoLive Version 15.0 we've updated our core packages to the latest
+  stable, added new projects (EFT), improved our documentation
   and translations. We've also updated many existing applications and moved to
-  the latest Lubuntu 20.04 Long Term Support release.
+  the latest Lubuntu 22.04 Long Term Support release.
 
 What is OSGeoLive?
 ================================================================================
