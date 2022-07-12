@@ -57,7 +57,7 @@ What is new in 15.0
 
 .. revealjs-break::
 
-* QGIS 3.10.13, GDAL 3.2.1, PROJ 7.2.1, PostGIS 3.1.0, GRASS 7.8.5, GeoServer 2.18.0, MapServer 7.6.1 and many more...
+* QGIS 3.22, GDAL 3.4, PROJ 8, PostGIS 3.2.0, GRASS 8, GeoServer 2.21, MapServer 7.6 and many more...
 
 .. revealjs-break::
 
