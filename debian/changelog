@@ -1,3 +1,9 @@
+osgeolive-docs (15.0~beta1) jammy; urgency=medium
+
+  * Preparing 15.0 beta1 release.
+
+ -- Angelos Tzotsos <gcpp.kalxas@gmail.com>  Wed, 13 Jul 2022 16:00:00 +0300
+
 osgeolive-docs (15.0~alpha2) jammy; urgency=medium
 
   * Preparing 15.0 alpha2 release.
