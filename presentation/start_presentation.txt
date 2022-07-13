@@ -57,11 +57,11 @@ What is new in 15.0
 
 .. revealjs-break::
 
-* QGIS 3.22, GDAL 3.4, PROJ 8, PostGIS 3.2.0, GRASS 8, GeoServer 2.21, MapServer 7.6 and many more...
+* QGIS 3.22.7, GDAL 3.4.3, PROJ 8.2.1, PostGIS 3.2.0, GRASS 8, GeoServer 2.21, MapServer 7.6.4 and many more...
 
 .. revealjs-break::
 
-* New projects added: ETF testing framework software
+* New project added: ETF testing framework software
 
 .. revealjs-break::
 
@@ -177,7 +177,7 @@ Production & Marketing Pipeline
 Open Source Geospatial Foundation (OSGeo)
 ================================================================================
 
-.. image:: /images/logos/OSGeo_compass_with_text_square.png
+.. image:: /images/logos/OSGeo_logo.png
     :alt: OSGeo
     :height: 400
     :target: https://www.osgeo.org
@@ -192,7 +192,7 @@ Open Source Geospatial Foundation (OSGeo)
 OSGeo
 --------------------------------------------------------------------------------
 
-Non Profit for geospatial community, fostering:
+Non Profit for geospatial community, fostering
 
 * Free and Open Source Software
 * Open Standards
@@ -213,8 +213,6 @@ OGC Standards
 * Interoperability
 * Future Proof
 * Return on Investment
-
-|
 
 .. image:: /images/presentation/ogc.png
     :height: 300px
