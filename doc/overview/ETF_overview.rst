@@ -31,12 +31,11 @@ ETF is the underlying framework used by the INSPIRE Reference Validator to valid
 Core Features
 --------------------------------------------------------------------------------
 **Testable resources**
-* datasets (up to multiplr hundreds GB): GML
+* datasets (up to multiple hundreds GB): GML
 * metadata: XML
 * view services: WMS/WMTS
 * download services: Atom, WFS, WCS, SOS
 * catalogue services: CSW
-* large data sets(multiple hundreds of GB)
 
 **Access**
 * web-based user interface
@@ -45,7 +44,7 @@ Core Features
 * Java client library
 
 **Supported test engines**
-* SoapUI for testing web
+* SoapUI for testing web services
 * BaseX for testing sets of XML documents
 * TEAM Engine to support CITE tests developed using TestNG
 * NeoTL for testing OGC WFS and OGC APIs (in development)
@@ -59,14 +58,14 @@ Implemented Standards
 --------------------------------------------------------------------------------
 
 * Catalogue Service for the Web (CSW)
-* International Organization for Standardization (ISO)
+* International Organization for Standardization (ISO) 19105
 * Sensor Observation Service (SOS)
 * Web Feature Service (WFS)
 * Web Map Tile Service (WMTS)
 * Geography Markup Language (GML)
-* (OGC API - Features)
+* OGC API - Features
 * Web Coverage Service (WCS)
-* Web Map  Service (WMS)
+* Web Map Service (WMS)
 
 
 
