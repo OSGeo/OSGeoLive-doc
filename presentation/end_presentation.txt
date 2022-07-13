@@ -40,7 +40,8 @@ Get involved
 Become a member of our team
 
 * Join our `Mailing List <https://lists.osgeo.org/mailman/listinfo/osgeolive>`__ and introduce yourself
-* Take part in our weekly `IRC <https://wiki.osgeo.org/wiki/IRC>`__ meetings (channel ``#osgeolive`` on Libre-)
+* Take part in our weekly `IRC <https://wiki.osgeo.org/wiki/IRC>`__ meetings (channel #osgeolive on Libera.Chat
+
 * There are two ways you can help
 
   * Help improve OSGeoLive website and documentation
@@ -49,7 +50,7 @@ Become a member of our team
 Improving OSGeoLive Documentation
 --------------------------------------------------------------------------------
 
-*  Proof-read, test and correct Quickstarts and Overviews
+* Proof-read, test and correct Quickstarts and Overviews
 * There is a good possibility to get to know cool software!
 * Translate and improve the documentation
 * Translation is made in `Transifex <https://www.transifex.com/osgeo/osgeolive>`__
