@@ -301,6 +301,7 @@ rst_epilog="""
 .. |osgeolive-appmenupath-geoserver| replace:: :menuselection:`Geospatial --> Web Services --> GeoServer --> Start GeoServer`
 .. |osgeolive-appmenupath-udig| replace:: :menuselection:`Geospatial --> Desktop GIS --> uDig`
 .. |osgeolive-appmenupath-52nWPS| replace:: :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North WPS`
+.. |osgeolive-appmenupath-ETF| replace:: :menuselection:`Geospatial --> Spatial tools --> ETF`
 .. |vmdk| image:: /images/logos/vmdk.png
                         :align: bottom
                         :height: 18
@@ -322,8 +323,8 @@ rst_epilog="""
                         :align: middle
                         :height: 18
                         :target: https://localhost/osgeolive/sponsors_osgeo.html
-.. |CAT| replace:: `Catalogue Service <https://www.ogc.org/standards/cat>`__
-.. |CSW| replace:: `Catalogue Service <https://www.ogc.org/standards/cat>`__
+.. |CAT| replace:: `Catalogue Service for the web <https://www.ogc.org/standards/cat>`__
+.. |CSW| replace:: `Catalogue Service for the web <https://www.ogc.org/standards/cat>`__
 .. |GML| replace:: `Geography Markup Language (GML) <https://www.ogc.org/standards/gml>`__
 .. |FE| replace:: `Filter Encoding (FE) <https://www.ogc.org/standards/filter>`__
 .. |KML| replace:: `KML <https://www.ogc.org/standards/kml>`__
