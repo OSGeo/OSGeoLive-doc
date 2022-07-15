@@ -95,7 +95,7 @@ Details
 
 **API Interfaces:** REST API, OpenAPI Specification, Java client library
 
-**Support:** https://github.com/INSPIRE-MIF/helpdesk-validator
+**Support:** https://github.com/etf-validator/etf-webapp/issues
 
 **User manual:** https://docs.etf-validator.net/v2.0/User_manuals/Simplified_workflows.html
 
