@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-07-18 21:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:21
 msgid "GeoMoose Quickstart"
@@ -204,13 +204,19 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:101
 msgid ""
+"You may need to scroll down in the \"Super Tab\" to find the \"Go\" "
+"button if your browser window is small."
+msgstr ""
+
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:106
+msgid ""
 "Finally, click the \"Go\" button to actually select the features.  "
 "GeoMoose will return a summary of what was selected in the Super Tab as "
 "well, highlight the selected features on the map, and show an attribute "
 "table of the selected features."
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:106
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:111
 msgid ""
 "If you hover over a line in the table, the corresponding feature on the "
 "map will be highlighted.  Additionally, you can use the funnel icons in "
@@ -219,11 +225,11 @@ msgid ""
 "CSV file using the download icon to the top and left of the table."
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:110
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:115
 msgid "Search for features"
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:112
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:117
 msgid ""
 "You can also search for features by attribute.  To start, hover over the "
 "\"Search\" menu in the toolbar and then click on the \"Search Parcels\" "
@@ -231,27 +237,27 @@ msgid ""
 "\"Go!\" button."
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:116
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:121
 msgid ""
 "The following screenshot demonstrates a search of all parcel owners "
 "containing the name \"frank\"."
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:120
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:125
 msgid "Three results appear in the list and are highlighted on the map."
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:124
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:129
 msgid ""
 "Clicking the magnifying glass icon/parcel number will zoom you to the "
 "specific parcel as illustrated in the following screenshot."
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:130
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:135
 msgid "Print the map"
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:132
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:137
 msgid ""
 "This next screenshot shows how the Print tool looks as provided with demo"
 " for GeoMoose.  When you click on the Print tool, a dialog appears which "
@@ -259,43 +265,43 @@ msgid ""
 " resolution, and shows a preview of what will be printed."
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:136
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:141
 msgid ""
 "Clicking the Print button in the dialog will generate a PDF printout that"
 " you can open or save."
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:142
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:147
 msgid "What next?"
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:144
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:149
 msgid ""
 "This is only the first step on the road to using GeoMoose. There is a lot"
 " more functionality you can try."
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:147
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:152
 msgid "GeoMoose Project home"
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:149
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:154
 msgid "https://www.geomoose.org/"
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:151
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:156
 msgid "GeoMoose Tutorial"
 msgstr ""
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:153
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:158
 msgid "https://www.geomoose.org/quickstart.html"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 
