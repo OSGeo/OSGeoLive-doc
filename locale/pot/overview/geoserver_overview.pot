@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-07-13 22:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "GeoServer is a web server that allows you to serve maps and data from a variety of formats to standard clients such as web browsers and desktop GIS programs. Data is published via standards based interfaces, such as WMS, WFS, WCS, WPS, Tile Caching and more. GeoServer comes with a browser-based management interface and connects to multiple data sources at the back end."
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:None
+#: ../../build/doc/overview/geoserver_overview.rst:-1
 msgid "geoserver screenshot"
 msgstr ""
 
@@ -116,79 +116,79 @@ msgstr ""
 msgid "Support of numerous Open Geospatial Consortium  (OGC) standards:"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:73
+#: ../../build/doc/overview/geoserver_overview.rst:71
 msgid "|WMS| (client/server)"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:74
+#: ../../build/doc/overview/geoserver_overview.rst:72
 msgid "|WMTS|"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:75
+#: ../../build/doc/overview/geoserver_overview.rst:73
 msgid "|WFS| (transactional)"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:76
+#: ../../build/doc/overview/geoserver_overview.rst:74
 msgid "|WCS|"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:77
+#: ../../build/doc/overview/geoserver_overview.rst:75
 msgid "|FE|"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:78
+#: ../../build/doc/overview/geoserver_overview.rst:76
 msgid "|SLD|"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:79
+#: ../../build/doc/overview/geoserver_overview.rst:77
 msgid "|GML|"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:80
+#: ../../build/doc/overview/geoserver_overview.rst:78
 msgid "|KML|"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:83
+#: ../../build/doc/overview/geoserver_overview.rst:81
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:85
-msgid "**Website:** http://geoserver.org/"
+#: ../../build/doc/overview/geoserver_overview.rst:83
+msgid "**Website:** https://geoserver.org/"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:87
+#: ../../build/doc/overview/geoserver_overview.rst:85
 msgid "**Licence:** GNU General Public License (GPL) version 2"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:89
+#: ../../build/doc/overview/geoserver_overview.rst:87
 msgid "**Software Version:** |version-geoserver|"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:91
+#: ../../build/doc/overview/geoserver_overview.rst:89
 msgid "**Supported Platforms:** Java 8 (Oracle JDK and OpenJDK) on Windows, Linux, and Mac"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:93
+#: ../../build/doc/overview/geoserver_overview.rst:91
 msgid "**API Interfaces:** WMS, WFS, WCS, REST"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:95
-msgid "**Support:** http://geoserver.org/support/"
+#: ../../build/doc/overview/geoserver_overview.rst:93
+msgid "**Support:** https://geoserver.org/support/"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:100
+#: ../../build/doc/overview/geoserver_overview.rst:98
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:102
+#: ../../build/doc/overview/geoserver_overview.rst:100
 msgid ":doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 
@@ -196,7 +196,6 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

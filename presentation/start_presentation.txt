@@ -42,7 +42,7 @@ What is new in @OSGeoLiveDoc_VERSION_MAJOR@.0
 .. image:: /images/projects/osgeolive/osgeolive_menu.png
    :height: 400
 
-What is new in 14.0
+What is new in 15.0
 --------------------------------------------------------------------------------
 
 .. TODO update this
@@ -57,11 +57,11 @@ What is new in 14.0
 
 .. revealjs-break::
 
-* QGIS 3.10.13, GDAL 3.2.1, PROJ 7.2.1, PostGIS 3.1.0, GRASS 7.8.5, GeoServer 2.18.0, MapServer 7.6.1 and many more...
+* QGIS 3.22.7, GDAL 3.4.3, PROJ 8.2.1, PostGIS 3.2.0, GRASS 8, GeoServer 2.21, MapServer 7.6.4 and many more...
 
 .. revealjs-break::
 
-* New projects added: GeoStyler, Re3gistry
+* New project added: ETF testing framework software
 
 .. revealjs-break::
 
@@ -73,7 +73,7 @@ What is new in 14.0
 
 .. revealjs-break::
 
-* OSM data for Buenos Aires
+* OSM data for Firence
 
 .. revealjs-break::
 
@@ -84,10 +84,10 @@ What is new in 14.0
 * Full `changelog <href="https://github.com/OSGeo/OSGeoLive/blob/master/CHANGES.txt">`__
 
 .. speaker notes
-  In OSGeoLive Version 14.0 we've updated our core packages to the latest
-  stable, added new projects (GeoStyler, Re3gistry), improved our documentation
+  In OSGeoLive Version 15.0 we've updated our core packages to the latest
+  stable, added new projects (EFT), improved our documentation
   and translations. We've also updated many existing applications and moved to
-  the latest Lubuntu 20.04 Long Term Support release.
+  the latest Lubuntu 22.04 Long Term Support release.
 
 What is OSGeoLive?
 ================================================================================
@@ -177,7 +177,7 @@ Production & Marketing Pipeline
 Open Source Geospatial Foundation (OSGeo)
 ================================================================================
 
-.. image:: /images/logos/OSGeo_compass_with_text_square.png
+.. image:: /images/logos/OSGeo_logo.png
     :alt: OSGeo
     :height: 400
     :target: https://www.osgeo.org
@@ -192,7 +192,7 @@ Open Source Geospatial Foundation (OSGeo)
 OSGeo
 --------------------------------------------------------------------------------
 
-Non Profit for geospatial community, fostering:
+Non Profit for geospatial community, fostering
 
 * Free and Open Source Software
 * Open Standards
@@ -213,8 +213,6 @@ OGC Standards
 * Interoperability
 * Future Proof
 * Return on Investment
-
-|
 
 .. image:: /images/presentation/ogc.png
     :height: 300px
