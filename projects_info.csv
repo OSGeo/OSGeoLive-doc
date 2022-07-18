@@ -32,7 +32,7 @@ Y | leaflet | 1.6.0 | Y | Y | Browser Facing GIS | | Mobile Friendly Interactive
 #   OSGeo Projects | | | | | | | | | | | |
 Y | deegree | 3.4.1 | Y | Y | Web Services | | OGC Web Services | deegree3 | http://www.deegree.org | OSGeo_project | deegree | Y
 Y | geonetwork | 3.2.1 | Y | Y | Web Services | | Metadata Catalogue | geonetwork-opensource | https://geonetwork-opensource.org | OSGeo_project | GeoNetwork | Y
-Y | geoserver | 2.18.1 | Y | Y | Web Services | | OGC Web Services | geoserver | http://geoserver.org/ | OSGeo_project | GeoServer | Y
+Y | geoserver | 2.18.1 | Y | Y | Web Services | | OGC Web Services | geoserver | https://geoserver.org/ | OSGeo_project | GeoServer | Y
 Y | mapcache | 1.10.0 | Y | Y | Web Services | | OGC Web Services | mapcache | https://mapserver.org/mapcache | OSGeo_project | MapCache | Y
 Y | mapserver | 7.6.2 | Y | Y | Web Services | | OGC Web Services | mapserver | https://mapserver.org | OSGeo_project | MapServer | Y
 Y | pycsw | 2.6.0 | Y | Y | Web Services | | Metadata Catalogue | pycsw | https://pycsw.org/ | OSGeo_project | pycsw | Y
@@ -85,6 +85,7 @@ Y | gmt | 5.4.5 | Y | Y | Spatial Tools | 11 | Cartographic Rendering | GMT | ht
 Y | jupyter | 4.6.3 | Y | Y | Spatial Tools | | Mixing rich media in presentations | jupyter_notebook | https://jupyter.org/ | | Jupyter Notebook | Y
 Y | mapnik | 3.0.22 | Y | Y | Spatial Tools | | Cartographic Rendering | mapnik | https://mapnik.org/ | | Mapnik | Y
 Y | R | 3.4.4 | Y | Y | Spatial Tools | | Statistical Programming | R_project | https://cran.r-project.org | | R | Y
+Y | ETF | 2.0.0 | Y | Y | Spatial Tools | | Testing framework for validating spatial data, metadata and web services in Spatial Data Infrastructures (SDIs) | etf-validator | https://github.com/etf-validator| | ETF | N
 ###################### | | | | | | | | | | | |
 #   Domain Specific GIS | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |

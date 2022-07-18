@@ -15,7 +15,9 @@
 Mixing rich media in documentation
 --------------------------------------------------------------------------------
 
-The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. 
+The Jupyter Notebook is a web application that allows you to create and share
+documents that contain live code, equations, visualizations and explanatory
+text.
 
 It combines two components:
 
@@ -25,10 +27,12 @@ It combines two components:
 
 @SCREENSHOT_jupyter@
 
-Notebooks can be shared with others on GitHub, Dropbox, and the `Jupyter Notebook Viewer <https://nbviewer.jupyter.org/>`_.
+Notebooks can be shared with others on GitHub, Dropbox, and the `Jupyter
+Notebook Viewer <https://nbviewer.org>`__.
 
-Uses include: data cleaning and transformation, numerical simulation, statistical modeling, machine learning and much more. 
-  
+Uses include: data cleaning and transformation, numerical simulation,
+statistical modeling, machine learning and much more.
+
 
 Core Features
 ================================================================================

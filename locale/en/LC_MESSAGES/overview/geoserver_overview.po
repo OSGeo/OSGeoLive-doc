@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-07-13 22:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../build/doc/overview/geoserver_overview.rst:19
 msgid "GeoServer"
@@ -35,6 +35,7 @@ msgid ""
 "at the back end."
 msgstr ""
 
+#: ../../build/doc/overview/geoserver_overview.rst:-1
 msgid "geoserver screenshot"
 msgstr ""
 
@@ -152,81 +153,81 @@ msgstr ""
 msgid "Support of numerous Open Geospatial Consortium  (OGC) standards:"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:73
+#: ../../build/doc/overview/geoserver_overview.rst:71
 msgid "|WMS| (client/server)"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:74
+#: ../../build/doc/overview/geoserver_overview.rst:72
 msgid "|WMTS|"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:75
+#: ../../build/doc/overview/geoserver_overview.rst:73
 msgid "|WFS| (transactional)"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:76
+#: ../../build/doc/overview/geoserver_overview.rst:74
 msgid "|WCS|"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:77
+#: ../../build/doc/overview/geoserver_overview.rst:75
 msgid "|FE|"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:78
+#: ../../build/doc/overview/geoserver_overview.rst:76
 msgid "|SLD|"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:79
+#: ../../build/doc/overview/geoserver_overview.rst:77
 msgid "|GML|"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:80
+#: ../../build/doc/overview/geoserver_overview.rst:78
 msgid "|KML|"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:83
+#: ../../build/doc/overview/geoserver_overview.rst:81
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:85
-msgid "**Website:** http://geoserver.org/"
+#: ../../build/doc/overview/geoserver_overview.rst:83
+msgid "**Website:** https://geoserver.org/"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:87
+#: ../../build/doc/overview/geoserver_overview.rst:85
 msgid "**Licence:** GNU General Public License (GPL) version 2"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:89
+#: ../../build/doc/overview/geoserver_overview.rst:87
 msgid "**Software Version:** |version-geoserver|"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:91
+#: ../../build/doc/overview/geoserver_overview.rst:89
 msgid ""
 "**Supported Platforms:** Java 8 (Oracle JDK and OpenJDK) on Windows, "
 "Linux, and Mac"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:93
+#: ../../build/doc/overview/geoserver_overview.rst:91
 msgid "**API Interfaces:** WMS, WFS, WCS, REST"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:95
-msgid "**Support:** http://geoserver.org/support/"
+#: ../../build/doc/overview/geoserver_overview.rst:93
+msgid "**Support:** https://geoserver.org/support/"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:100
+#: ../../build/doc/overview/geoserver_overview.rst:98
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:102
+#: ../../build/doc/overview/geoserver_overview.rst:100
 msgid ":doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 
