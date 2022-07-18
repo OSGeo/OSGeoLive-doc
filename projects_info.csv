@@ -16,7 +16,7 @@ Y | udig | 2.0.0RC1 | Y | Y | Desktop GIS | | | udig | http://udig.refractions.n
 # Browser Facing GIS | | | | | | | | | | | |
 ###################### | | | | | | | | | | ||
 #   OSGeo Projects | | | | | | | | | | | |
-Y | geomoose | 3.6.2 | Y | Y | Browser Facing GIS | | Web GIS Portal | geomoose | https://www.geomoose.org | OSGeo_project | GeoMoose | Y
+Y | geomoose | 3.9.0 | Y | Y | Browser Facing GIS | | Web GIS Portal | geomoose | https://www.geomoose.org | OSGeo_project | GeoMoose | Y
 Y | geonode | 3.1.0 | Y | Y | Browser Facing GIS | | Geospatial Content Management System | geonode | https://geonode.org | OSGeo_project | GeoNode | Y
 Y | mapbender | 3.2.3 | Y | Y | Browser Facing GIS | | Geoportal Framework | mapbender | https://mapbender.org | OSGeo_project | Mapbender | Y
 Y | openlayers | 6.5.0 | Y | Y | Browser Facing GIS | | Browser Mapping Library | openlayers | https://openlayers.org/ | OSGeo_project | OpenLayers | Y

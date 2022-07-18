@@ -92,6 +92,11 @@ Select which layer you want to select features from using the "Query Layer" sele
   .. image:: /images/projects/geomoose/geomoose-quickstart-03a.png
 
 
+You may need to scroll down in the "Super Tab" to find the "Go" button if your browser window is small.
+
+  .. image:: /images/projects/geomoose/geomoose-quickstart-03a2.png
+
+
 Finally, click the "Go" button to actually select the features.  GeoMoose will return a summary of what was selected in the Super Tab as well, highlight the selected features on the map, and show an attribute table of the selected features.
 
 
