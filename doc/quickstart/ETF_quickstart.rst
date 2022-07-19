@@ -303,11 +303,11 @@ resources that you can test in the ETF:
 
 
 * GML data sets: some predefined data sets can be downloaded from `here
-  <https://github.com/etf-validator/OSGeoLive-ETF/tree/resources/resources/GML-data-sets>`__ .
+  <https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/GML-data-sets>`__ .
 * WMS services: a list of services is available `here
-  <https://github.com/etf-validator/OSGeoLive-ETF/tree/resources/resources/WFS-services>`__.
+  <https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/WMS-services>`__.
 * WFS services: a list of services is available `here
-  <https://github.com/etf-validator/OSGeoLive-ETF/tree/resources/resources/WMS-services>`__.
+  <https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/WFS-services>`__.
 
 .. note::	Some of the resources do not pass all the tests, so you can try to fix
    them before validating them again
