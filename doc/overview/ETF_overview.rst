@@ -46,50 +46,43 @@ API in their workflow.
 
 Core Features
 --------------------------------------------------------------------------------
-**Testable resources**
+* Testable resources
+   - datasets (up to multiple hundreds GB): GML
+   - metadata: XML
+   - view services: WMS/WMTS
+   - download services: Atom, WFS, WCS, SOS
+   - catalogue services: CSW
 
-* datasets (up to multiple hundreds GB): GML
-* metadata: XML
-* view services: WMS/WMTS
-* download services: Atom, WFS, WCS, SOS
-* catalogue services: CSW
+* Access
+   - web-based user interface
+   - REST API
+   - OpenAPI Specification
+   - Java client library
+   
+* Supported test engines
+   - SoapUI for testing web services
+   - BaseX for testing sets of XML documents
+   - TEAM Engine to support CITE tests developed using TestNG
+   - NeoTL for testing OGC WFS and OGC APIs (in development)
 
-**Access**
+* Test reports
+   - user-friendly and self-explanatory
+   - downloadable in HTML, XML and JSON
 
-* web-based user interface
-* REST API
-* OpenAPI Specification
-* Java client library
-
-**Supported test engines**
-
-* SoapUI for testing web services
-* BaseX for testing sets of XML documents
-* TEAM Engine to support CITE tests developed using TestNG
-* NeoTL for testing OGC WFS and OGC APIs (in development)
-
-**Test reports**
-
-* user-friendly and self-explanatory
-* downloadable in HTML, XML and JSON
-
-
-Implemented Standards
---------------------------------------------------------------------------------
-
-* |CSW|
-* International Organization for Standardization (ISO) 19105
-* |SOS|
-* |WFS|
-* |WMTS|
-* |GML|
-* OGC API - Features
-* |WCS|
-* |WMS|
+* Implemented Standards
+   - |CSW|
+   - ISO 19105
+   - |SOS|
+   - |WFS|
+   - |WMTS|
+   - |GML|
+   - OGC API - Features
+   - |WCS|
+   - |WMS|
 
 
 
-About ETF
+Details
 --------------------------------------------------------------------------------
 
 **Website:** @WEB_ETF@
@@ -102,7 +95,7 @@ About ETF
 
 **API Interfaces:** REST API, OpenAPI Specification, Java client library
 
-**Support:** https://github.com/INSPIRE-MIF/helpdesk-validator
+**Support:** https://github.com/etf-validator/etf-webapp/issues
 
 **User manual:** https://docs.etf-validator.net/v2.0/User_manuals/Simplified_workflows.html
 
