@@ -302,6 +302,10 @@ MACRO(INSERT_INTO_MAP_VMDK _KEY _TARGET)
 ENDMACRO(INSERT_INTO_MAP_VMDK)
 
 
+MACRO(INSERT_INTO_MAP_VERSION _KEY _TARGET)
+  SET("VERSION_${_KEY}" "${_TARGET}")
+ENDMACRO()
+
 MACRO(INSERT_INTO_MAP_NAME _KEY _TARGET)
     SET("NAME_${_KEY}" "${_TARGET}")
 ENDMACRO(INSERT_INTO_MAP_NAME)
@@ -368,6 +372,7 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     INSERT_INTO_MAP_WEB("${project_page}" "${url_target}")
     INSERT_INTO_MAP_QUICK("${project_page}" "${want_quickstart}")
     INSERT_INTO_MAP_VMDK("${project_page}" "${on_iso}")
+    INSERT_INTO_MAP_VERSION("${project_page}" "${project_version}")
 
 
     if ("${want_quickstart}" MATCHES "Y")
