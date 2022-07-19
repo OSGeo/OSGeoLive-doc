@@ -79,10 +79,13 @@ DebianGIS        okeanos          Georepublic
   the Okeanos IaaS service
   and Georepublic geomatics company.
 
-Questions?
+Try out OSGeoLive
 --------------------------------------------------------------------------------
 
+.. image:: /images/osgeolive-logo/osgeolive-banner.png
+
 .. speaker notes
+  Time for questions.
   This has just been a taster,
   do you want to know more?
   You can see project descriptions or download OSGeoLive from the website.
