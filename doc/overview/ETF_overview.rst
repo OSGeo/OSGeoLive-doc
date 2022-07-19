@@ -58,7 +58,7 @@ Core Features
    - REST API
    - OpenAPI Specification
    - Java client library
-   
+
 * Supported test engines
    - SoapUI for testing web services
    - BaseX for testing sets of XML documents
@@ -89,7 +89,7 @@ Details
 
 **Licence:** EUPL 1.2
 
-**Software Version:** 2.0
+**Software Version:** |version-ETF|
 
 **Supported Platforms:** Windows, Linux
 
