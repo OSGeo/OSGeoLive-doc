@@ -1,6 +1,5 @@
 /*@import url("http://extjs.cachefly.net/ext-2.2.1/resources/css/ext-all.css");*/
 @import url("osgeolive.css");
-@import url("sphinxdoc.css");
 
 /* override some of ext-all.css  */
 ul, ol {
@@ -26,11 +25,13 @@ html {
 body {
     border: none;
     background-color: white;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 5;
+    margin-right: 5;
     min-width: 760px;
+    max-width: inherit;
     padding: 0;
     line-height: 110%;
+    text-align: left;
     font-family: "Miriam Libre","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
@@ -377,4 +378,8 @@ div.document {
     text-align: left;
     //background-image: none;
    // background-repeat: repeat-x;
+}
+
+div.related {
+  text-align: center;
 }
