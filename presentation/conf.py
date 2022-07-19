@@ -4,11 +4,11 @@
 import os
 
 # -- Project information -----------------------------------------------------
-project = "sphinx-revealjs"
-copyright = "2018, Kazuya Takei"
-author = "Kazuya Takei"
-version = ""
-release = "2018.10"
+project = "OSGeoLive"
+copyright = "2022, OSGeoLive"
+author = "Vicky Vergara"
+version = "15"
+release = "August, 2022"
 
 # -- General configuration ---------------------------------------------------
 extensions = [
@@ -17,21 +17,20 @@ extensions = [
 templates_path = ["_templates"]
 source_suffix = ".rst"
 master_doc = "presentation"
-language = None
+language = "en"
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 pygments_style = None
-locale_dirs = ['@CMAKE_SOURCE_DIR@/locale']
+locale_dirs = ["@CMAKE_SOURCE_DIR@/locale"]
 
 # -- Options for HTML output -------------------------------------------------
 html_theme = "alabaster"
 html_theme_options = {
     "revealjs_theme": "league",
 }
-#html_static_path = ["'@CMAKE_CURRENT_SOURCE_DIR@/../_static'"]
+#html_static_path = ["@CMAKE_SOURCE_DIR@/doc/_static"]
 
 # -- Options for Reveal.js output ---------------------------------------------
-revealjs_static_path = ["'@CMAKE_CURRENT_SOURCE_DIR@/../_static'"]
-revealjs_google_fonts = ["M PLUS 1p",]
+revealjs_static_path = ["@CMAKE_SOURCE_DIR@/doc/_static"]
 revealjs_style_theme = "white"
 revealjs_script_conf = """
     {
@@ -39,7 +38,7 @@ revealjs_script_conf = """
         progress: true,
         history: true,
         center: true,
-        transition: "slide",
+        transition: "cube",
     }
 """
 revealjs_script_plugins = [
@@ -47,18 +46,11 @@ revealjs_script_plugins = [
         "name": "RevealNotes",
         "src": "revealjs4/plugin/notes/notes.js",
     },
-    {
-        "name": "RevealHighlight",
-        "src": "revealjs4/plugin/highlight/highlight.js",
-    },
-    {
-        "name": "RevealMath",
-        "src": "revealjs4/plugin/math/math.js",
-    },
 ]
 revealjs_css_files = [
-    "revealjs4/plugin/highlight/zenburn.css",
+    "presentation.css",
 ]
+revealjs_notes_from_comments = True
 
 # -- Options for HTMLHelp output ---------------------------------------------
 htmlhelp_basename = "sphinx-revealjsdoc"

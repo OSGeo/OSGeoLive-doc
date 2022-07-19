@@ -2,12 +2,17 @@
 OSGeoLive
 ================================================================================
 
-
 .. image:: /images/osgeolive-logo/osgeolive-banner.png
 
 
-* Version: @OSGeoLiveDoc_VERSION_MAJOR@
-* Released: August 2022
+Version: @OSGeoLiveDoc_VERSION_MAJOR@
+
+Released: August 2022
+
+|
+
+* Press “s” for slide notes, ESC to zoom out, SPACE / arrow keys to navigate.
+* Pop-ups are blocked in some browsers due to security settings. Try Firefox or Safari.
 
 An Open Source Geospatial GNU/Linux Distribution
 ================================================================================
@@ -29,65 +34,70 @@ An Open Source Geospatial GNU/Linux Distribution
 Find this presentation
 --------------------------------------------------------------------------------
 
-* `Presentation <https://live.osgeo.org/en/presentation.html#/>`__
-* `Presentation Development <https://osgeo.github.io/OSGeoLive-doc/en/presentation.html#/>`__
+`Presentation <https://live.osgeo.org/en/presentation.html>`__
 
+https://live.osgeo.org/en/presentation.html
 
-Press ESC to zoom out, SPACE / arrow keys to navigate, s for slide notes.
-Pop-ups are blocked in some browsers due to security settings. Try Firefox or Safari.
+`Presentation Development <https://osgeo.github.io/OSGeoLive-doc/en/presentation.html#/>`__
+
+https://osgeo.github.io/OSGeoLive-doc/en/presentation.html
+
 
 What is new in @OSGeoLiveDoc_VERSION_MAJOR@.0
 ================================================================================
 
 .. image:: /images/projects/osgeolive/osgeolive_menu.png
-   :height: 400
 
-What is new in 15.0
---------------------------------------------------------------------------------
-
-.. TODO update this
-
-.. revealjs-break::
-
-* Updated to Lubuntu 22.04 LTS
-
-.. revealjs-break::
-
-* Updated core packages based on `DebianGIS <href="https://wiki.debian.org/DebianGis">`__
-
-.. revealjs-break::
-
-* QGIS 3.22.7, GDAL 3.4.3, PROJ 8.2.1, PostGIS 3.2.0, GRASS 8, GeoServer 2.21, MapServer 7.6.4 and many more...
-
-.. revealjs-break::
-
-* New project added: ETF testing framework software
-
-.. revealjs-break::
-
-* Download OSGeoLive ISO or VMDK (with even more software)
-
-.. revealjs-break::
-
-* Documentation updates
-
-.. revealjs-break::
-
-* OSM data for Firence
-
-.. revealjs-break::
-
-* Updated packages contributed back to `UbuntuGIS <href="https://wiki.ubuntu.com/UbuntuGIS">`__
-
-.. revealjs-break::
-
-* Full `changelog <href="https://github.com/OSGeo/OSGeoLive/blob/master/CHANGES.txt">`__
-
-.. speaker notes
-  In OSGeoLive Version 15.0 we've updated our core packages to the latest
+.. speaker note
+  In OSGeoLive Version .@OSGeoLiveDoc_VERSION_MAJOR@.0 we've updated our core packages to the latest
   stable, added new projects (EFT), improved our documentation
   and translations. We've also updated many existing applications and moved to
   the latest Lubuntu 22.04 Long Term Support release.
+
+What is new in @OSGeoLiveDoc_VERSION_MAJOR@.0
+--------------------------------------------------------------------------------
+
+Updated to Lubuntu 22.04 LTS
+
+.. revealjs-break::
+
+Updated core packages based on `DebianGIS <href="https://wiki.debian.org/DebianGis">`__
+
+.. revealjs-break::
+
+* QGIS @VERSION_qgis@,
+* GDAL @VERSION_gdal@,
+* PROJ @VERSION_proj@,
+* PostGIS @VERSION_postgis@,
+* GRASS  @VERSION_grass@,
+* GeoServer @VERSION_geoserver@,
+* MapServer @VERSION_mapserver@,
+
+and many more...
+
+.. revealjs-break::
+
+New project added: ETF testing framework software
+
+.. revealjs-break::
+
+Download OSGeoLive ISO or VMDK (with even more software)
+
+.. revealjs-break::
+
+Documentation updates
+
+.. revealjs-break::
+
+OSM data for Firenze
+
+.. revealjs-break::
+
+Updated packages contributed back to `UbuntuGIS <href="https://wiki.ubuntu.com/UbuntuGIS">`__
+
+.. revealjs-break::
+
+Full `changelog <href="https://github.com/OSGeo/OSGeoLive/blob/master/CHANGES.txt">`__
 
 What is OSGeoLive?
 ================================================================================
@@ -104,10 +114,13 @@ What is OSGeoLive?
 Components on OSGeoLive
 --------------------------------------------------------------------------------
 
-* 50+ Open Source Geospatial Applications
-* Sample Datasets
-* Consistent Overviews & Quickstarts
-* Translations
+50+ Open Source Geospatial Applications
+
+Sample Datasets
+
+Consistent Overviews & Quickstarts
+
+Translations
 
 
 .. speaker notes
@@ -123,7 +136,6 @@ DVD / USB / Virtual Machine
 --------------------------------------------------------------------------------
 
 .. image:: /images/presentation/virtual_machine_usb.png
-   :height: 400
 
 .. speaker notes
    OSGeoLive can be run from a DVD, USB flash drive, installed into a Virtual
@@ -135,12 +147,12 @@ DVD / USB / Virtual Machine
 Quality Criteria
 --------------------------------------------------------------------------------
 
-* Established, stable, working software
-* Active community
-* `Metrics <https://live.osgeo.org/en/metrics.html>`__
+Established, stable, working software
+
+Active community `Metrics <https://live.osgeo.org/en/metrics.html>`__
 
 .. image:: /images/presentation/metrics.png
-   :height: 200
+   :height: 400
 
 .. speaker notes
    OSGeoLive helps new users quickly find quality GIS applications from the
@@ -153,7 +165,7 @@ Production & Marketing Pipeline
 --------------------------------------------------------------------------------
 
 .. image:: /images/presentation/pipeline.png
-    :height: 400
+   :height: 600
 
 .. speaker notes
   * OSGeoLive provides a production and marketing pipeline, providing value to
@@ -171,7 +183,8 @@ Production & Marketing Pipeline
     giving away an OSGeoLive DVD or USB.
   * Geospatial educators and workshop presenters use the stable OGeo-Live
     Virtual Machine or USB for practical class room settings.
-  * Which all leads to Architects and Developers discovering, and then incorporating Open Source Geospatial software in their projects.
+  * Which all leads to Architects and Developers discovering, and then incorporating Open Source Geospatial software in
+    their projects.
 
 
 Open Source Geospatial Foundation (OSGeo)
@@ -179,7 +192,6 @@ Open Source Geospatial Foundation (OSGeo)
 
 .. image:: /images/logos/OSGeo_logo.png
     :alt: OSGeo
-    :height: 400
     :target: https://www.osgeo.org
 
 .. speaker notes
@@ -210,18 +222,20 @@ An Open Source Geospatial GNU/Linux Distribution
 OGC Standards
 --------------------------------------------------------------------------------
 
+.. image:: /images/presentation/ogc.png
+    :height: 400
+    :align: center
+
 * Interoperability
 * Future Proof
 * Return on Investment
 
-.. image:: /images/presentation/ogc.png
-    :height: 300px
-    :align: center
-
 .. speaker notes
-  * Open Source applications have a reputation for excellent standards compliance. Notably, the OGC uses Open Source projects when defining reference implementations for standards.
+  * Open Source applications have a reputation for excellent standards compliance. Notably, the OGC uses Open Source
+    projects when defining reference implementations for standards.
   * Standards supported by included projects are listed in the Project Overviews.
-  * Building Spatial Data Infrastructures using standards, facilitates interoperability between proprietary and open source applications.
+  * Building Spatial Data Infrastructures using standards, facilitates interoperability between proprietary and open
+    source applications.
   * It facilitates sharing data between agencies.
   * It reduces long term costs associated with data maintenance,
   * and it reduces long term project risk by avoiding dependence upon proprietary formats or products, thus avoiding vendor lock-in.
