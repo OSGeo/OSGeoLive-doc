@@ -1,0 +1,23 @@
+.reveal h1,
+.reveal h2,
+.reveal h3
+{
+  text-transform: none
+}
+
+.speaker-controls-notes .value {
+  font-size: 1.0em;
+}
+
+.reveal img {
+  margin: var(--r-block-margin) 5;
+}
+
+.reveal p {
+  margin: 0;
+}
+
+.reveal ul {
+  text-align: left;
+  font-size: smaller;
+}
