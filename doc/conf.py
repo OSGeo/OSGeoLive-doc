@@ -91,23 +91,17 @@ html_title='%(projectname)s %(projectversion)s Documentation' % { 'projectname':
 html_static_path = ['@CMAKE_CURRENT_SOURCE_DIR@/_static']
 html_favicon = '@CMAKE_CURRENT_SOURCE_DIR@/_static/favicon.ico'
 
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
-#html_static_path = ['_static']
+html_css_files = [
+    '../_themes/overview/static/overview.css',
+]
 
 html_copy_source = False
 
-# If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
-# using the given strftime format.
 html_last_updated_fmt = '%b %d, %Y'
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
 #html_use_smartypants = True
-
-# Custom sidebar templates, maps document names to template names.
-#html_sidebars = {}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
