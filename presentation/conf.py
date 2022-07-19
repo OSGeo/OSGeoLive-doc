@@ -38,7 +38,7 @@ revealjs_script_conf = """
         progress: true,
         history: true,
         center: true,
-        transition: "slide",
+        transition: "cube",
     }
 """
 revealjs_script_plugins = [
