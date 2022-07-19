@@ -26,11 +26,12 @@ html {
 body {
     border: none;
     background-color: white;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 10;
+    margin-right: 10;
     min-width: 760px;
     padding: 0;
     line-height: 110%;
+    text-align: left;
     font-family: "Miriam Libre","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
@@ -377,4 +378,8 @@ div.document {
     text-align: left;
     //background-image: none;
    // background-repeat: repeat-x;
+}
+
+div.related {
+  text-align: center;
 }
