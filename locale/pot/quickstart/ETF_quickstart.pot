@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-13 22:52+0000\n"
+"POT-Creation-Date: 2022-07-19 14:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -345,15 +345,15 @@ msgid "Using the instructions provided above, please find below a predefined set
 msgstr ""
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:308
-msgid "GML data sets: some predefined data sets can be downloaded from `herei <https://github.com/guadaltel/OSGeoLive-ETF/tree/resources/resources/GML-data-sets>`__ ."
+msgid "GML data sets: some predefined data sets can be downloaded from `here <https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/GML-data-sets>`__ ."
 msgstr ""
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:310
-msgid "WMS services: a list of services is available `here <https://github.com/guadaltel/OSGeoLive-ETF/tree/resources/resources/WFS-services>`__."
+msgid "WMS services: a list of services is available `here <https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/WMS-services>`__."
 msgstr ""
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:312
-msgid "WFS services: a list of services is available `here <https://github.com/guadaltel/OSGeoLive-ETF/tree/resources/resources/WMS-services>`__."
+msgid "WFS services: a list of services is available `here <https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/WFS-services>`__."
 msgstr ""
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:315
