@@ -21,8 +21,8 @@ a fully-fledged StyleEditor including filters and scale denominators.
 
 Furthermore, @NAME_geostyler@ allows for the translation between multiple styling formats, i.e. SLD, OpenLayers, QGIS, Mapbox. Since we are
 following the concept of micro packages, these translators (we call them parsers) can be used as standalone libraries, without the need to
-include the UI components as a dependency. Currently we have parsers for SLD, QGIS-styles, Mapbox styles and OpenLayers styles. Parsing of
-Mapfiles is in the works. Please take a look at StyleParser Implementations. Since attributively styling geodata is easier when you can look
+include the UI components as a dependency. Currently we have parsers for SLD, QGIS-styles, Mapbox styles, OpenLayers styles and Mapfiles.
+Please take a look at StyleParser Implementations. Since attributively styling geodata is easier when you can look
 at the data to be styled, we can connect to several datasources like WFS, Shapefiles and GeoJSON files. We plan on developing a data reader for
 the Geopackage format.
 
