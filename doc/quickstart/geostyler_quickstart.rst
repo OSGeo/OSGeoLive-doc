@@ -109,7 +109,7 @@ Afterwards, we are able to read an existing SLD into the GeoStyler-readable form
                                 '</sld:UserStyle>' +
                             '</sld:NamedLayer>' +
                         '</sld:StyledLayerDescriptor>')
-        .then(style => console.log(style));
+        .then(style => console.log(style.output));
 
 
 To connect this style with the UI, we have to store it in a state variable and pass it to
@@ -140,7 +140,7 @@ our ``Style`` component. After defining ``myStyle`` as a state variable, you can
                                 '</sld:UserStyle>' +
                             '</sld:NamedLayer>' +
                         '</sld:StyledLayerDescriptor>')
-        .then(style => this.setStyle({myStyle}));
+        .then(style => this.setStyle({myStyle: style.output}));
 
     // ...
 
@@ -179,7 +179,7 @@ of the geostyler-sld-parser within the ``onStyleChange()`` method of the ``Style
                                 '</sld:UserStyle>' +
                             '</sld:NamedLayer>' +
                         '</sld:StyledLayerDescriptor>')
-        .then(style => this.setStyle({myStyle}));
+        .then(style => this.setStyle({myStyle: style.output}));
 
     // ...
 
@@ -188,7 +188,7 @@ of the geostyler-sld-parser within the ``onStyleChange()`` method of the ``Style
         style={myStyle}
         onStyleChange={gsStyle => {
             parser.writeStyle(gsStyle)
-                .then(sld => console.log(sld));
+                .then(sld => console.log(sld.output));
         }}
     />
 
