@@ -68,7 +68,12 @@
 <h1>GeoStyler<a class="headerlink" href="#geostyler" title="Lien permanent vers cette rubrique">¶</a></h1>
 <p>GeoStyler est une bibliothèque JavaScript Open Source qui permet aux utilisateurs de styliser des cartes à travers d’une interface graphique. L’objectif de GeoStyler est de fournir une interface universellement applicable qui fonctionne avec n’importe quel format de style donné; que ce soit SLD, QML, OpenLayers, etc.</p>
 <p>GeoStyler fournit un ensemble de composants d’interface utilisateur pour le style de la carte. Tout comme un système modulaire de blocs de construction tous les composants peuvent être empilés ensemble pour créer une interface utilisateur agréable pour vos applications Web. Pour simplifier la configuration, nous fournissons également quelques composants de haut niveau (basés sur nos blocs de construction) qui font déjà le travail pour vous. Il s’agit, entre autres, de Symbolizer Editors, de RuleTables et d’un StyleEditor complet, y compris des filtres et des dénominateurs d’échelle.</p>
-<p>En outre, GeoStyler permet la traduction entre plusieurs formats de style, c’est-à-dire SLD, OpenLayers, QGIS, Mapbox. Puisque nous suivons le concept de micro-packages, ces traducteurs (nous les appelons parseurs) peuvent être utilisés comme bibliothèques autonomes, sans avoir besoin d’inclure les composants de l’interface utilisateur comme une dépendance. Actuellement, nous avons des analyseurs pour SLD, QGIS-styles, styles Mapbox et styles OpenLayers. L’analyse des Mapfiles est en préparation. S’il vous plaît jeter un œil à StyleParser Implementations pour plus de détails. Étant donné que le style des données géospatiales est plus facile lorsque vous pouvez regarder les données à styliser, nous pouvons nous connecter à plusieurs sources de données comme les fichiers WFS, Shapefiles et GeoJSON. Nous prévoyons de développer un lecteur de données pour le format Geopackage.</p>
+<p>Furthermore, GeoStyler allows for the translation between multiple styling formats, i.e. SLD, OpenLayers, QGIS, Mapbox. Since we are
+following the concept of micro packages, these translators (we call them parsers) can be used as standalone libraries, without the need to
+include the UI components as a dependency. Currently we have parsers for SLD, QGIS-styles, Mapbox styles, OpenLayers styles and Mapfiles.
+Please take a look at StyleParser Implementations. Since attributively styling geodata is easier when you can look
+at the data to be styled, we can connect to several datasources like WFS, Shapefiles and GeoJSON files. We plan on developing a data reader for
+the Geopackage format.</p>
 <a class="reference internal image-reference" href="../../_images/geostyler_screenshot.png"><img alt="geostyler screenshot" class="align-right" src="../../_images/geostyler_screenshot.png" style="width: 500px;" /></a>
 <section id="core-features">
 <h2>Fonctionnalités principales<a class="headerlink" href="#core-features" title="Lien permanent vers cette rubrique">¶</a></h2>
@@ -96,7 +101,7 @@
 <h2>Détails<a class="headerlink" href="#details" title="Lien permanent vers cette rubrique">¶</a></h2>
 <p><strong>Site internet :</strong> <a class="reference external" href="https://geostyler.org">https://geostyler.org</a></p>
 <p><strong>Licence:</strong> BSD-2-Clause</p>
-<p><strong>Version:</strong> 4.6.0</p>
+<p><strong>Version:</strong> 9.0.0</p>
 <p><strong>Interface de l’API:</strong> JavaScript</p>
 <p><strong>Support:</strong> Bugs et suggestions sur <a class="reference external" href="https://github.com/geostyler/geostyler">https://github.com/geostyler/geostyler</a></p>
 <p><strong>Développeurs :</strong> <a class="reference external" href="https://github.com/geostyler/geostyler/graphs/contributors">https://github.com/geostyler/geostyler/graphs/contributors</a></p>

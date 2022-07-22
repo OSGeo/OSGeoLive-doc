@@ -147,7 +147,7 @@ This sections describes the required steps.</p>
 <span class="w">                            </span><span class="s1">&#39;&lt;/sld:UserStyle&gt;&#39;</span><span class="w"> </span><span class="o">+</span><span class="w"></span>
 <span class="w">                        </span><span class="s1">&#39;&lt;/sld:NamedLayer&gt;&#39;</span><span class="w"> </span><span class="o">+</span><span class="w"></span>
 <span class="w">                    </span><span class="s1">&#39;&lt;/sld:StyledLayerDescriptor&gt;&#39;</span><span class="p">)</span><span class="w"></span>
-<span class="w">    </span><span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">style</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">style</span><span class="p">));</span><span class="w"></span>
+<span class="w">    </span><span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">style</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">style</span><span class="p">.</span><span class="nx">output</span><span class="p">));</span><span class="w"></span>
 </pre></div>
 </div>
 <p>To connect this style with the UI, we have to store it in a state variable and pass it to
@@ -175,7 +175,7 @@ our <code class="docutils literal notranslate"><span class="pre">Style</span></c
                             <span class="s1">&#39;&lt;/sld:UserStyle&gt;&#39;</span> <span class="o">+</span>
                         <span class="s1">&#39;&lt;/sld:NamedLayer&gt;&#39;</span> <span class="o">+</span>
                     <span class="s1">&#39;&lt;/sld:StyledLayerDescriptor&gt;&#39;</span><span class="p">)</span>
-    <span class="o">.</span><span class="n">then</span><span class="p">(</span><span class="n">style</span> <span class="o">=&gt;</span> <span class="n">this</span><span class="o">.</span><span class="n">setStyle</span><span class="p">({</span><span class="n">myStyle</span><span class="p">}));</span>
+    <span class="o">.</span><span class="n">then</span><span class="p">(</span><span class="n">style</span> <span class="o">=&gt;</span> <span class="n">this</span><span class="o">.</span><span class="n">setStyle</span><span class="p">({</span><span class="n">myStyle</span><span class="p">:</span> <span class="n">style</span><span class="o">.</span><span class="n">output</span><span class="p">}));</span>
 
 <span class="o">//</span> <span class="o">...</span>
 
@@ -211,7 +211,7 @@ of the geostyler-sld-parser within the <code class="docutils literal notranslate
                             <span class="s1">&#39;&lt;/sld:UserStyle&gt;&#39;</span> <span class="o">+</span>
                         <span class="s1">&#39;&lt;/sld:NamedLayer&gt;&#39;</span> <span class="o">+</span>
                     <span class="s1">&#39;&lt;/sld:StyledLayerDescriptor&gt;&#39;</span><span class="p">)</span>
-    <span class="o">.</span><span class="n">then</span><span class="p">(</span><span class="n">style</span> <span class="o">=&gt;</span> <span class="n">this</span><span class="o">.</span><span class="n">setStyle</span><span class="p">({</span><span class="n">myStyle</span><span class="p">}));</span>
+    <span class="o">.</span><span class="n">then</span><span class="p">(</span><span class="n">style</span> <span class="o">=&gt;</span> <span class="n">this</span><span class="o">.</span><span class="n">setStyle</span><span class="p">({</span><span class="n">myStyle</span><span class="p">:</span> <span class="n">style</span><span class="o">.</span><span class="n">output</span><span class="p">}));</span>
 
 <span class="o">//</span> <span class="o">...</span>
 
@@ -220,7 +220,7 @@ of the geostyler-sld-parser within the <code class="docutils literal notranslate
     <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="n">myStyle</span><span class="p">}</span>
     <span class="n">onStyleChange</span><span class="o">=</span><span class="p">{</span><span class="n">gsStyle</span> <span class="o">=&gt;</span> <span class="p">{</span>
         <span class="n">parser</span><span class="o">.</span><span class="n">writeStyle</span><span class="p">(</span><span class="n">gsStyle</span><span class="p">)</span>
-            <span class="o">.</span><span class="n">then</span><span class="p">(</span><span class="n">sld</span> <span class="o">=&gt;</span> <span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">sld</span><span class="p">));</span>
+            <span class="o">.</span><span class="n">then</span><span class="p">(</span><span class="n">sld</span> <span class="o">=&gt;</span> <span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">sld</span><span class="o">.</span><span class="n">output</span><span class="p">));</span>
     <span class="p">}}</span>
 <span class="o">/&gt;</span>
 </pre></div>

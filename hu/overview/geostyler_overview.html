@@ -68,7 +68,12 @@
 <h1>GeoStyler<a class="headerlink" href="#geostyler" title="Permalink to this heading">¶</a></h1>
 <p>A GeoStyler egy JavaScript könyvtár, mely lehetővé teszi a térképek stílusának beállítását egy grafikus felhasználói felület segítségével. A GeoStyler célja egy általánosan használható GUI, mely bármilyen stílus formátummal dolgozik, legyen az SLD, QML, OpenLayers, stb.</p>
 <p>A GeoStyler az UI komponensek egy halmazát biztosítja a térkép stílus beállításhoz. Mint egy moduláris építőkocka rendszer, minden komponens egymásra építhető, hogy a webes alkalmazásaihoz szép UI-t készítsen. A beállítás egyszerűsítése érdekében néhány magas szintű összetevőt is kínálunk (építőkockáinkra alapozva), amelyek már elvégzik az Ön munkáját. Ide tartozik többek között a Symbolizer Editors, a RuleTables és a teljes értékű StyleEditor, amely szűrőket és méretarányszámokat tartalmaz.</p>
-<p>Továbbá, a GeoStyler lehetővé teszi a fordítást több stílus formátum között, pl. SLD, OpenLayers, QGIS, Mapbox. Mivel a mikrocsomag koncepciót követjük, ezek a fordítók (értelmezőknek nevezzük őket) önálló könyvtárakként használhatók, anélkül, hogy a felhasználói felület összetevőit függőségként kellene feltüntetni. Jelenleg SLD, QGIS-stílus, Mapbox stílus és OpenLayers stílus értelmezővel rendelkezünk. A Mapfiles értelmező készítése folyamatban van. Kérjük, vessen egy pillantást StyleParser megvalósításokra. Ha egy pillantást vethet a megjelenítendő adatokra, akkor az attribútumok alapján történő stílus beállítás  egyszerűbb, több adatforráshoz tudunk csatlakozni, mint a WFS, Shapefiles és GeoJSON fájlok. Azt tervezzük, hogy a fejlesztünk egy adat beolvasót a Geopackage formátumhoz.</p>
+<p>Furthermore, GeoStyler allows for the translation between multiple styling formats, i.e. SLD, OpenLayers, QGIS, Mapbox. Since we are
+following the concept of micro packages, these translators (we call them parsers) can be used as standalone libraries, without the need to
+include the UI components as a dependency. Currently we have parsers for SLD, QGIS-styles, Mapbox styles, OpenLayers styles and Mapfiles.
+Please take a look at StyleParser Implementations. Since attributively styling geodata is easier when you can look
+at the data to be styled, we can connect to several datasources like WFS, Shapefiles and GeoJSON files. We plan on developing a data reader for
+the Geopackage format.</p>
 <a class="reference internal image-reference" href="../../_images/geostyler_screenshot.png"><img alt="geostyler screenshot" class="align-right" src="../../_images/geostyler_screenshot.png" style="width: 500px;" /></a>
 <section id="core-features">
 <h2>Alapfunkciók<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h2>
@@ -96,7 +101,7 @@
 <h2>Részletek<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h2>
 <p><strong>Honlap:</strong> <a class="reference external" href="https://geostyler.org">https://geostyler.org</a></p>
 <p><strong>Licenc:</strong> BSD-2-Clause</p>
-<p><strong>Szoftver verzió:</strong> 4.6.0</p>
+<p><strong>Szoftver verzió:</strong> 9.0.0</p>
 <p><strong>API interfész:</strong> JavaScript</p>
 <p><strong>Támogatás:</strong> problémák a <a class="reference external" href="https://github.com/geostyler/geostyler">https://github.com/geostyler/geostyler</a> oldalon</p>
 <p><strong>Fejlesztők:</strong> <a class="reference external" href="https://github.com/geostyler/geostyler/graphs/contributors">https://github.com/geostyler/geostyler/graphs/contributors</a></p>
