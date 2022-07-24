@@ -53,8 +53,14 @@ You might need to install `git` and `cmake` if they are not on your system yet.
    # Python requirements
    pip install -r requirements.txt
 
-1.2 Requirements for the presentation
+1.2 Transifex Client
+::
+   mkdir -p $HOME/bin/tx
+   cd $HOME/bin/tx
+   curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
+   # restart terminal
 
+1.3 Requirements for the presentation
 ::
    sudo apt-get install cpanminus
    sudo cpanm Text::SimpleTable::AutoWidth
