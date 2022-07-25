@@ -250,7 +250,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:79
 msgid "Website: https://opengribs.org/en"
-msgstr ""
+msgstr "Site web : https://opengribs.org/en"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:80
 msgid "Support: https://opengribs.org/en/support-forum"
@@ -258,16 +258,16 @@ msgstr "Support: https://opengribs.org/en/support-forum"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "Pas de logo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Projet OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Communauté OSGeo"
