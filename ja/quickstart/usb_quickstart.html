@@ -4,7 +4,7 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
     <title>OSGeoLive のブータブル USB フラッシュドライブを作成する &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -63,18 +63,18 @@
           <div class="body" role="main">
             
   <section id="creating-an-osgeolive-bootable-usb-flash-drive">
-<h1>OSGeoLive のブータブル USB フラッシュドライブを作成する<a class="headerlink" href="#creating-an-osgeolive-bootable-usb-flash-drive" title="Permalink to this heading">¶</a></h1>
+<h1>OSGeoLive のブータブル USB フラッシュドライブを作成する<a class="headerlink" href="#creating-an-osgeolive-bootable-usb-flash-drive" title="この見出しへのパーマリンク">¶</a></h1>
 <p>ここでは、OSGeoLive のブータブル (起動できる) USB フラッシュドライブを作る方法について記載します。フラッシュドライブからの起動は DVD から起動するよりも速く動作し、フラッシュドライブではセッションを超えてデータを保存することもできます。</p>
 <p>USBドライブを正常に構築するためには、さまざまな工夫が必要です。私たちは知っていることを文書化しましたが、おそらくもっと多くのトリックと問題があります。ここで最新のヒントを探してください: <a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB">https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB</a></p>
 <section id="requirements">
-<h2>必要なもの<a class="headerlink" href="#requirements" title="Permalink to this heading">¶</a></h2>
+<h2>必要なもの<a class="headerlink" href="#requirements" title="この見出しへのパーマリンク">¶</a></h2>
 <ul class="simple">
 <li><p>A USB flash drive (8+ Gig is recommended).</p></li>
 <li><p>OSGeoLive ISOイメージ(<a class="reference internal" href="../download.html"><span class="doc">OSGeoLive downloads</span></a> からダウンロード)またはDVDから変換されたもの。</p></li>
 </ul>
 </section>
 <section id="creating-bootable-usb-drive-with-dd-under-linux">
-<h2>Linux 環境で <code class="docutils literal notranslate"><span class="pre">dd</span></code> でブータブル USB ドライブの作成<a class="headerlink" href="#creating-bootable-usb-drive-with-dd-under-linux" title="Permalink to this heading">¶</a></h2>
+<h2>Linux 環境で <code class="docutils literal notranslate"><span class="pre">dd</span></code> でブータブル USB ドライブの作成<a class="headerlink" href="#creating-bootable-usb-drive-with-dd-under-linux" title="この見出しへのパーマリンク">¶</a></h2>
 <p>OS GeoLive10.5以降のISOイメージは <em>isohybrid</em> です(amd64もサポートUEFIブート)。Linuxでは、 <code class="docutils literal notranslate"><span class="pre">dd</span></code> コマンドラインユーティリティを使用して、これらのイメージをUSBドライブのブロックデバイスに直接書き込むことができます。</p>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">sudo dd if=osgeolive-10.5-amd64.iso of=/dev/sdX bs=4M; sync</span>
 </pre></div>
@@ -91,7 +91,7 @@
 </div>
 </section>
 <section id="creating-bootable-usb-drive-with-ubuntu-startup-disk-creator">
-<h2>Ubuntu Startup Disk Creatorを使用したブータブルUSBドライブの作成<a class="headerlink" href="#creating-bootable-usb-drive-with-ubuntu-startup-disk-creator" title="Permalink to this heading">¶</a></h2>
+<h2>Ubuntu Startup Disk Creatorを使用したブータブルUSBドライブの作成<a class="headerlink" href="#creating-bootable-usb-drive-with-ubuntu-startup-disk-creator" title="この見出しへのパーマリンク">¶</a></h2>
 <p>(これはUSBを作成するための推奨プロセスです。UbuntuやOSGeoLiveなどのUbuntuバージョンにも適用されます。)</p>
 <div class="admonition note">
 <p class="admonition-title">注釈</p>
@@ -116,7 +116,7 @@
 <p>USBフラッシュドライブが作成されるまで20分ほど待ちます。</p>
 </section>
 <section id="booting-from-the-usb-drive">
-<h2>USBドライブから起動中:<a class="headerlink" href="#booting-from-the-usb-drive" title="Permalink to this heading">¶</a></h2>
+<h2>USBドライブから起動中:<a class="headerlink" href="#booting-from-the-usb-drive" title="この見出しへのパーマリンク">¶</a></h2>
 <ol class="arabic simple">
 <li><p>コンピュータをオフにして起動します。</p></li>
 <li><p>開いているUSBポートにUSBドライブを挿入します。</p></li>
@@ -137,11 +137,11 @@
 </ol>
 </section>
 <section id="run">
-<h2>実行<a class="headerlink" href="#run" title="Permalink to this heading">¶</a></h2>
+<h2>実行<a class="headerlink" href="#run" title="この見出しへのパーマリンク">¶</a></h2>
 <p><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">OSGeoLive を始める</span></a> のように実行します</p>
 </section>
 <section id="see-also">
-<h2>参照:<a class="headerlink" href="#see-also" title="Permalink to this heading">¶</a></h2>
+<h2>参照:<a class="headerlink" href="#see-also" title="この見出しへのパーマリンク">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
 <li><p><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">OSGeoLive を始める</span></a></p></li>

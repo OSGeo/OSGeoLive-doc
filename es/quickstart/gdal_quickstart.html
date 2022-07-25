@@ -4,7 +4,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
     <title>Inicio Rápido GDAL/OGR &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -65,7 +65,7 @@
   <a class="reference external image-reference" href="https://gdal.org/"><img alt="../../_images/logo_gdal.png" class="align-right" src="../../_images/logo_gdal.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="gdal-ogr-quickstart">
-<h1>Inicio Rápido GDAL/OGR<a class="headerlink" href="#gdal-ogr-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1>Inicio Rápido GDAL/OGR<a class="headerlink" href="#gdal-ogr-quickstart" title="Enlace permanente a este encabezado">¶</a></h1>
 <p>Esta Guía de Inicio Rápido se divide en dos partes: GDAL (datos ráster) y OGR (datos vectoriales).</p>
 <p>Esta Guía de Inicio Rápido describe cómo:</p>
 <dl class="simple">
@@ -103,7 +103,7 @@
 </ul>
 </nav>
 <section id="get-to-know-gdal">
-<h2><a class="toc-backref" href="#id1" role="doc-backlink">Conozca GDAL</a><a class="headerlink" href="#get-to-know-gdal" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id1" role="doc-backlink">Conozca GDAL</a><a class="headerlink" href="#get-to-know-gdal" title="Enlace permanente a este encabezado">¶</a></h2>
 <p>Encontrará los datos de la demo en  <code class="file docutils literal notranslate"><span class="pre">/usr/local/share/data</span></code>. Queremos echar un vistazo a  <a class="reference internal" href="../overview/naturalearth_overview.html"><span class="doc">Natural Earth data</span></a> en este inicio rápido. Queremos trabajar con una copia de los datos. Así que el primer paso es copiar los datos en su directorio home.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span>
 <span class="n">cp</span> <span class="o">-</span><span class="n">R</span> <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">share</span><span class="o">/</span><span class="n">data</span><span class="o">/</span><span class="n">natural_earth2</span><span class="o">/</span> <span class="o">./</span><span class="n">gdal_natural_earth</span>
@@ -119,7 +119,7 @@
 </div>
 </section>
 <section id="get-information-about-the-raster-data-with-gdalinfo">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Obtenga información acerca de los datos ráster con gdalinfo</a><a class="headerlink" href="#get-information-about-the-raster-data-with-gdalinfo" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">Obtenga información acerca de los datos ráster con gdalinfo</a><a class="headerlink" href="#get-information-about-the-raster-data-with-gdalinfo" title="Enlace permanente a este encabezado">¶</a></h2>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>gdalinfo HYP_50M_SR_W.tif
   Driver: GTiff/GeoTIFF
   Files: HYP_50M_SR_W.tif
@@ -159,7 +159,7 @@
 </dl>
 </section>
 <section id="simple-format-translation">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Traducción de formato simple</a><a class="headerlink" href="#simple-format-translation" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Traducción de formato simple</a><a class="headerlink" href="#simple-format-translation" title="Enlace permanente a este encabezado">¶</a></h2>
 <p>Primero Conozca a sus conductores.El modificador de línea de comando <cite>–formats</cite> de gdal_translate se puede usar para ver una lista de controladores de formato disponibles.</p>
 <dl class="simple">
 <dt>Cada formato informa si es</dt><dd><ul class="simple">
@@ -179,7 +179,7 @@
 </div>
 </section>
 <section id="translation">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Traducción</a><a class="headerlink" href="#translation" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Traducción</a><a class="headerlink" href="#translation" title="Enlace permanente a este encabezado">¶</a></h2>
 <p>Las traducciones se logran con el comando gdal_translate. El formato de salida predeterminado es GeoTIFF.  La bandera  <cite>-of</cite>  se utiliza para seleccionar un formato de salida y la bandera -co se utiliza para especificar una opción de creación:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">-</span><span class="n">of</span> <span class="n">JPEG</span> <span class="o">-</span><span class="n">co</span> <span class="n">QUALITY</span><span class="o">=</span><span class="mi">40</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">jpg</span>
 </pre></div>
@@ -191,7 +191,7 @@
 <p>Uso gdalinfo para verificar el tipo de datos.</p>
 </section>
 <section id="rescaling">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">Reescalando</a><a class="headerlink" href="#rescaling" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">Reescalando</a><a class="headerlink" href="#rescaling" title="Enlace permanente a este encabezado">¶</a></h2>
 <p>El  interruptor  <cite>-outsize</cite> puede usarse para definir el tamaño del archivo de salida.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">-</span><span class="n">outsize</span> <span class="mi">50</span><span class="o">%</span> <span class="mi">50</span><span class="o">%</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span>  <span class="n">HYP_50M_SR_W_small</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
@@ -206,7 +206,7 @@
 </div>
 </section>
 <section id="raster-tileindex-with-gdaltindex">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">Ráster tileindex con gdaltindex</a><a class="headerlink" href="#raster-tileindex-with-gdaltindex" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">Ráster tileindex con gdaltindex</a><a class="headerlink" href="#raster-tileindex-with-gdaltindex" title="Enlace permanente a este encabezado">¶</a></h2>
 <p>Puede crear un shapefile como un ráster tileindex. Cada imagen se genera un polígono con los límites de la extensión del polígono y la ruta de acceso al archivo.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdaltindex</span> <span class="n">index_natural_earth</span><span class="o">.</span><span class="n">shp</span> <span class="o">*</span><span class="n">st</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
@@ -236,7 +236,7 @@ OGRFeature(index_natural_earth):1
 </div>
 </section>
 <section id="reprojecting">
-<h2><a class="toc-backref" href="#id7" role="doc-backlink">Reproyectando</a><a class="headerlink" href="#reprojecting" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">Reproyectando</a><a class="headerlink" href="#reprojecting" title="Enlace permanente a este encabezado">¶</a></h2>
 <p>Para este proceso asumimos que HYP_50M_SR_W.tif se ha creado correctamente con límites. Como vimos antes con gdainfo ningún sistema de coordenadas fue configurado. Por lo tanto asignamos WGS84 como sistema de coordenadas de la imagen en el primer paso.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">-</span><span class="n">a_srs</span> <span class="n">WGS84</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span> <span class="n">HYP_50M_SR_W_4326</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
@@ -258,7 +258,7 @@ the WGS84 geographic image to the Mercator projection:</p>
 <p>¿Nota cómo se recortan los polos?  Esto es porque los bordes en el polo no pueden ser reproyectados, gdalwarp no lee todos los datos.  Podemos forzar gdalwarp para leer un montón de datos excedentes en trozos como una manera de resolver esto. Lea más sobre esto en el  RasterTutorial de <a class="reference external" href="https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial">https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial</a>.</p>
 </section>
 <section id="mosaicking">
-<h2><a class="toc-backref" href="#id8" role="doc-backlink">Mosaico</a><a class="headerlink" href="#mosaicking" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id8" role="doc-backlink">Mosaico</a><a class="headerlink" href="#mosaicking" title="Enlace permanente a este encabezado">¶</a></h2>
 <p>gdal_merge.py es un script en python que se puede utilizar para tareas sencillas de mosaico. Mosaico de east.tif y west.tif en un solo archivo:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_merge</span><span class="o">.</span><span class="n">py</span>  <span class="n">east</span><span class="o">.</span><span class="n">tif</span> <span class="n">west</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">o</span> <span class="n">merged</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
@@ -269,7 +269,7 @@ the WGS84 geographic image to the Mercator projection:</p>
 </div>
 </section>
 <section id="get-to-know-ogr">
-<h2><a class="toc-backref" href="#id9" role="doc-backlink">Conozca OGR</a><a class="headerlink" href="#get-to-know-ogr" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id9" role="doc-backlink">Conozca OGR</a><a class="headerlink" href="#get-to-know-ogr" title="Enlace permanente a este encabezado">¶</a></h2>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">gdal_natural_earth</span><span class="o">/</span>
 </pre></div>
 </div>
@@ -279,7 +279,7 @@ the WGS84 geographic image to the Mercator projection:</p>
 </div>
 </section>
 <section id="get-information-about-the-vector-data-with-ogrinfo">
-<h2><a class="toc-backref" href="#id10" role="doc-backlink">Obtener información acerca de los datos de vector con ogrinfo</a><a class="headerlink" href="#get-information-about-the-vector-data-with-ogrinfo" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id10" role="doc-backlink">Obtener información acerca de los datos de vector con ogrinfo</a><a class="headerlink" href="#get-information-about-the-vector-data-with-ogrinfo" title="Enlace permanente a este encabezado">¶</a></h2>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>ogrinfo -ro /home/user/gdal_natural_earth
 INFO: Open of `/home/user/gdal_natural_earth&#39;
       using driver `ESRI Shapefile&#39; successful.
@@ -397,7 +397,7 @@ homepart: Real (16.6)
 <p>Puede convertir sus datos a otros formatos. Obtener la lista de los formatos compatibles con  <cite>–formats</cite>.</p>
 </section>
 <section id="use-ogr2ogr-to-convert-data-between-file-formats">
-<h2><a class="toc-backref" href="#id11" role="doc-backlink">Utilizar ogr2ogr para convertir datos entre formatos de archivo</a><a class="headerlink" href="#use-ogr2ogr-to-convert-data-between-file-formats" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id11" role="doc-backlink">Utilizar ogr2ogr para convertir datos entre formatos de archivo</a><a class="headerlink" href="#use-ogr2ogr-to-convert-data-between-file-formats" title="Enlace permanente a este encabezado">¶</a></h2>
 <p>Puede utilizar ogr2ogr para convertir datos de características simples entre formatos de archivo. Puede utilizar <cite>–formats</cite>  para obtener la lista de los formatos soportados con información de lectura/escritura</p>
 <p>Convertir a los países a GML.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ogr2ogr</span> <span class="o">--</span><span class="n">formats</span>
@@ -406,7 +406,7 @@ homepart: Real (16.6)
 </div>
 </section>
 <section id="things-to-try">
-<h2><a class="toc-backref" href="#id12" role="doc-backlink">Cosas para probar</a><a class="headerlink" href="#things-to-try" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id12" role="doc-backlink">Cosas para probar</a><a class="headerlink" href="#things-to-try" title="Enlace permanente a este encabezado">¶</a></h2>
 <p>Aquí hay algunos desafíos adicionales para que intentes:</p>
 <ul class="simple">
 <li><p>Pruebe gdalwarp o gdal_merge.py para hacer un mosaico con sus datos</p></li>
@@ -417,7 +417,7 @@ homepart: Real (16.6)
 </ul>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id13" role="doc-backlink">¿Qué sigue?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id13" role="doc-backlink">¿Qué sigue?</a><a class="headerlink" href="#what-next" title="Enlace permanente a este encabezado">¶</a></h2>
 <p>Esto es sólo el primer paso en el camino al uso de GDAL y OGR. Hay mucha más funcionalidad que puede probar.</p>
 <p>Proyecto GDAL inicio</p>
 <blockquote>
