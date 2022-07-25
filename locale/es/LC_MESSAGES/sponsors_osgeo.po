@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../build/doc/sponsors_osgeo.rstNone
 msgid "OSGeo"
-msgstr ""
+msgstr "OSGeo"
 
 #: ../../build/doc/sponsors_osgeo.rst:7
 msgid "The OSGeo Foundation"

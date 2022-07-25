@@ -181,6 +181,8 @@ msgid ""
 "Try to use the Routing feature. See the `Marble documentation "
 "<https://marble.kde.org>`_ for help."
 msgstr ""
+"Intente utilizar la característica de Ruteo. Consulte la `documentación de "
+"Marble <https://marble.kde.org>`_ para obtener ayuda."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:104
 msgid "What next?"

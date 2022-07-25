@@ -89,7 +89,7 @@ msgstr "http://localhost:8080/52nSOS/ (ver Fig. 1)."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:0
 msgid "52°North SOS client welcome page"
-msgstr ""
+msgstr "Página de bienvenida al cliente 52°North SOS"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:48
 msgid "**Fig. 1**: 52°North SOS client - welcome page."
@@ -114,6 +114,7 @@ msgstr ""
 #: ../../build/doc/quickstart/52nSOS_quickstart.rstNone
 msgid "52°North SOS client - test client with GetCapabilities request"
 msgstr ""
+"Cliente 52°North SOS - cliente de prueba con solicitud GetCapabilities"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:61
 msgid ""
@@ -218,6 +219,7 @@ msgstr ""
 #: ../../build/doc/quickstart/52nSOS_quickstart.rstNone
 msgid "52°North SOS client - JavaScript client with time series data"
 msgstr ""
+"Cliente 52°North SOS - Cliente JavaScript con datos de series de tiempo"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:125
 msgid ""

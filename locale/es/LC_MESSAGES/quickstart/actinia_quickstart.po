@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-06-21 20:07+0000\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -29,44 +29,45 @@ msgstr "Guía de Inicio Rápido de Actinia"
 #: ../../build/doc/quickstart/actinia_quickstart.rst:24
 msgid ""
 "Actinia is an open source REST API for scalable, distributed, high "
-"performance processing of geographical data that uses GRASS GIS for "
-"computational tasks. Actinia provides a REST API to process satellite "
-"images, time series of satellite images, raster and vector data."
+"performance processing of geographical data that uses mainly `GRASS GIS "
+"<https://grass.osgeo.org/>`__ for computational tasks. Actinia provides a "
+"REST API to process satellite images, time series of satellite images, "
+"raster and vector data."
 msgstr ""
 "Actinia es una API REST de código abierto para el procesamiento escalable, "
-"distribuido y de alto rendimiento de datos geográficos que utiliza GRASS GIS"
-" para tareas computacionales. Actinia proporciona una API REST para procesar"
-" imágenes satelitales, series temporales de imágenes satelitales, datos "
-"ráster y vectoriales. "
+"distribuido y de alto rendimiento de datos geográficos que utiliza `GRASS "
+"GIS <https://grass.osgeo.org/>`__ para tareas computacionales. Actinia "
+"proporciona una API REST para procesar imágenes satelitales, series "
+"temporales de imágenes satelitales, datos ráster y vectoriales."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:30
+#: ../../build/doc/quickstart/actinia_quickstart.rst:31
 msgid "Contents"
 msgstr "Contenidos"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:32
+#: ../../build/doc/quickstart/actinia_quickstart.rst:33
 msgid "Actinia can be used in different ways:"
 msgstr "Actinia se puede utilizar de diferentes maneras:"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:34
+#: ../../build/doc/quickstart/actinia_quickstart.rst:35
 msgid "`curl` or similar command line tools"
 msgstr "`curl` o herramientas de línea de comando similares"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:35
-msgid "the `Postman` or `RESTman` extension for browsers"
-msgstr ""
-
 #: ../../build/doc/quickstart/actinia_quickstart.rst:36
+msgid "the `Postman` or `RESTman` extension for browsers"
+msgstr "la extensión `Postman` o `RESTman` para navegadores"
+
+#: ../../build/doc/quickstart/actinia_quickstart.rst:37
 msgid ""
 "open a GRASS GIS session and use the `ace` (actinia command execution) tool"
 msgstr ""
 "abrir una sesión GRASS GIS y usar la herramienta `ace` (ejecución de comando"
 " actinia)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:37
+#: ../../build/doc/quickstart/actinia_quickstart.rst:38
 msgid "other interfaces to REST API"
 msgstr "otras interfaces para la API REST"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:39
+#: ../../build/doc/quickstart/actinia_quickstart.rst:40
 msgid ""
 "In this quickstart, we make use of GRASS GIS to conveniently launch commands"
 " from the session to the actinia server (which itself uses GRASS GIS). The "
@@ -93,6 +94,13 @@ msgid ""
 "and map layer the user has access to as well as the creation and deletion of"
 " mapsets."
 msgstr ""
+"La herramienta ``ace`` (`detalles <https://neteler.gitlab.io/actinia-"
+"introduction/#controlling-actinia-from-a-running-grass-gis-session>`_) "
+"permite la ejecución de un solo comando GRASS GIS o una lista de comandos "
+"GRASS GIS en un servicio REST actinia (https://actinia.mundialis.de/). "
+"Además, proporciona gestión de trabajos, la capacidad de enumerar "
+"ubicaciones, conjuntos de mapas y capas de mapas a los que el usuario tiene "
+"acceso, así como la creación y eliminación de conjuntos de mapas."
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:55
 msgid ""
@@ -100,12 +108,18 @@ msgid ""
 "installed with ``g.extension extension=ace "
 "url=https://github.com/mundialis/ace``."
 msgstr ""
+"La herramienta ''ace'' debe ejecutarse en una sesión activa de GRASS GIS. Se"
+" instala con ``g.extension extension=ace "
+"url=https://github.com/mundialis/ace``."
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:58
 msgid ""
 "All commands will be executed per default in an **ephemeral** database. "
 "Hence, generated output must be exported using augmented GRASS commands."
 msgstr ""
+"odos los comandos se ejecutarán por defecto en una base de datos **efímera**"
+" . Por lo tanto, la salida generada debe exportarse utilizando comandos "
+"GRASS aumentados."
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:62
 msgid ""
@@ -113,6 +127,9 @@ msgid ""
 "persistent user database. It can be used with ``location=LOCATION_NAME`` "
 "option."
 msgstr ""
+"La opción  ``mapset=MAPSET_NAME`` permite la ejecución de comandos en la "
+"base de datos de usuario **persistente**. Se puede usar con la opción "
+"``location=LOCATION_NAME``."
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:67
 msgid "Setup your environment"
@@ -161,6 +178,10 @@ msgid ""
 "``@`` operator can be specified for an input parameter to import a web "
 "located resource and to specify the export of an output parameter."
 msgstr ""
+"Los comandos GRASS GIS  se pueden aumentar con extensiones específicas de "
+"actinia. El operador ``@`` se puede especificar para un parámetro de entrada"
+" para importar un recurso ubicado en la web y para especificar la "
+"exportación de un parámetro de salida."
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:107
 msgid ""
@@ -278,6 +299,8 @@ msgid ""
 "To generate the actinia process chain JSON request simply add the ``-d`` "
 "(dry-run) flag:"
 msgstr ""
+"Para generar la solicitud JSON de cadena de proceso actinia, simplemente "
+"agregue la bandera ``-d`` (dry-run):"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:157
 msgid "Display a map - map rendering"
@@ -287,7 +310,6 @@ msgstr "Mostrar un mapa - representación del mapa"
 msgid "It is very easy (and fast) to render a map:"
 msgstr "Es muy fácil (y rápido) renderizar un mapa:"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:171
 #: ../../build/doc/quickstart/actinia_quickstart.rst:171
 msgid "ESA Globcover map shown by actinia"
 msgstr "Mapa de ESA Globcover mostrado por actinia"
@@ -313,7 +335,7 @@ msgstr "ráster: ``COG``, ``GTiff``"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:179
 msgid "vector: ``GPKG``, ``GML``, ``GeoJSON``, ``ESRI_Shapefile``"
-msgstr ""
+msgstr "vector: ``GPKG``, ``GML``, ``GeoJSON``, ``ESRI_Shapefile``"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:180
 msgid "table: ``CSV``, ``TXT``"
@@ -516,6 +538,6 @@ msgstr "nologo"
 msgid "OSGeo Project"
 msgstr "Proyecto OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"

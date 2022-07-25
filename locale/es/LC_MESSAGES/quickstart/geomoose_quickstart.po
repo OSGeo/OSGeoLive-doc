@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:0
 msgid "GeoMoose Screenshot"
-msgstr ""
+msgstr "Captura de pantalla de GeoMoose"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:43
 msgid "The Interfaces presented above shows:"

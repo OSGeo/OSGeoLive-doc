@@ -184,7 +184,7 @@ msgstr "El documento de salida ps debe parecerse:"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rstNone
 msgid "North Caroline - sample elevation data"
-msgstr ""
+msgstr "Carolina del Norte: datos de elevación de muestra"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:117
 msgid "Things to try"
@@ -192,27 +192,27 @@ msgstr "Cosas para probar"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:119
 msgid "Install the following packages:"
-msgstr ""
+msgstr "Instale los siguientes paquetes:"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:121
 msgid "gmt-doc (and -pdf)"
-msgstr ""
+msgstr "gmt-doc (y -pdf)"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:122
 msgid "gmt-coast-low"
-msgstr ""
+msgstr "gmt-coast-low"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:123
 msgid "gmt-examples"
-msgstr ""
+msgstr "gmt-examples"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:124
 msgid "gmt-tutorial (and -pdf)"
-msgstr ""
+msgstr "gmt-tutorial (y -pdf)"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:130
 msgid "Examples will be found in: `/usr/share/doc/gmt/examples`"
-msgstr ""
+msgstr "Los ejemplos se encontrarán en: `/usr/share/doc/gmt/examples`"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:132
 msgid ""
@@ -221,10 +221,14 @@ msgid ""
 "examples available in the `src` code. There are 30 example jobs built in, to"
 " test"
 msgstr ""
+"Vaya a través del `Tutorial GMT "
+"<https://gmt.soest.hawaii.edu/doc/latest/GMT_Tutorial.html>` y siga los "
+"ejemplos disponibles en el código `src`. Hay 30 trabajos de ejemplo "
+"incorporados, para probar"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:137
 msgid "Open a terminal, then execute the example"
-msgstr ""
+msgstr "Abra un terminal y, a continuación, ejecute el ejemplo"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:145
 msgid ""
@@ -240,7 +244,7 @@ msgstr "¿Qué sigue?"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:157
 msgid "Documentation: https://www.soest.hawaii.edu/gmt/"
-msgstr ""
+msgstr "Documentación: https://www.soest.hawaii.edu/gmt/"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:158
 msgid "Website: https://gmt.soest.hawaii.edu"

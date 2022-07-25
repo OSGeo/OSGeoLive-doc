@@ -57,7 +57,7 @@ msgstr "Requisitos"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:18
 msgid "A USB flash drive (8+ Gig is recommended)."
-msgstr ""
+msgstr "Una unidad flash USB (se recomiendan más de 8 Giga)."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:19
 msgid ""

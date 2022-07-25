@@ -61,7 +61,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "Open a QGIS project"
-msgstr ""
+msgstr "Abrir un proyecto QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:57
 msgid ""
@@ -111,7 +111,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS new project"
-msgstr ""
+msgstr "Nuevo proyecto QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:72
 msgid ""
@@ -145,7 +145,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS browser add vector layer"
-msgstr ""
+msgstr "El navegador QGIS agrega capa vectorial"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:83
 msgid ""
@@ -157,7 +157,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS vector layer"
-msgstr ""
+msgstr "Capa vectorial QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:90
 msgid "Now let's try adding a raster layer to the project."
@@ -169,7 +169,7 @@ msgstr "Seleccione 'HYP_50M_SR_W.tif'."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS browser add raster layer"
-msgstr ""
+msgstr "El navegador QGIS agrega capa ráster"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:101
 msgid ""
@@ -181,7 +181,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS raster layer"
-msgstr ""
+msgstr "Capa ráster QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:108
 msgid ""
@@ -197,7 +197,7 @@ msgstr "Elija :menuselection:`Proyecto --> Guardar`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS save"
-msgstr ""
+msgstr "Guardar QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:117
 msgid "Make the location to save the project '/home/user/desktop'."
@@ -210,7 +210,7 @@ msgstr "Llame al proyecto 'Mi proyecto QGIS'."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS project location"
-msgstr ""
+msgstr "Ubicación del proyecto QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:124
 msgid "Click 'Save'."
@@ -230,7 +230,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS saved project"
-msgstr ""
+msgstr "Proyecto guardado de QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:134
 msgid "Open an existing project"
@@ -280,7 +280,7 @@ msgstr "Haga click en `Abrir`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS Open project"
-msgstr ""
+msgstr "Proyecto Abierto QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:152
 msgid ""
@@ -295,7 +295,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS Open project result"
-msgstr ""
+msgstr "Resultado de abrir proyecto QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:160
 msgid ""
@@ -312,7 +312,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS layer panel"
-msgstr ""
+msgstr "Panel de capas QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:168
 msgid ""
@@ -350,7 +350,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS result of layer visibility changes"
-msgstr ""
+msgstr "Resultado de QGIS de los cambios en la visibilidad de la capa"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:181
 msgid ""
@@ -389,7 +389,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS modified the order of layers"
-msgstr ""
+msgstr "QGIS modificó el orden de las capas"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:196
 msgid ""
@@ -413,7 +413,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS navigation toolbar"
-msgstr ""
+msgstr "Barra de herramientas de navegación QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:208
 msgid "[1] Pan: Allows the map to be dragged ('panned') to a new location."
@@ -532,7 +532,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS style dock"
-msgstr ""
+msgstr "Dock de estilo QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:245
 msgid ""
@@ -557,7 +557,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS style dock layer"
-msgstr ""
+msgstr "Capa de base de estilo QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:255
 msgid ""
@@ -579,7 +579,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS style dock color"
-msgstr ""
+msgstr "Color del dock de estilo QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:264
 msgid ""
@@ -588,7 +588,7 @@ msgstr "En la paleta 'Seleccionar Color', mueva la cruz a su color preferido."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS color palette"
-msgstr ""
+msgstr "Paleta de colores QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:270
 msgid "Then click the back arrow to return to the symbol render preview."
@@ -598,7 +598,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS style return"
-msgstr ""
+msgstr "Retorno de estilo QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:276
 msgid ""
@@ -610,7 +610,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS style result"
-msgstr ""
+msgstr "Resultado del estilo QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:282
 msgid ""
@@ -635,7 +635,7 @@ msgstr "En el panel de estilo, ingrese el valor '0.5' en la entrada 'ancho'."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS style width"
-msgstr ""
+msgstr "Ancho de estilo QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:292
 msgid ""
@@ -679,6 +679,9 @@ msgid ""
 "<../overview/qgis_mapserver_overview>`. in the :menuselection:`Geospatial "
 "--> Web Services` menu."
 msgstr ""
+"Intente publicar su mapa QGIS en la Web utilizando :doc:`QGIS Map Server "
+"<../overview/qgis_mapserver_overview>` en el menú :menuselection:`Geospatial"
+" --> Web Services` ."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:309
 msgid "What next?"

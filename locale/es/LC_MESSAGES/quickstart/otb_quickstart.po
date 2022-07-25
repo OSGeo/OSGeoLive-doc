@@ -103,7 +103,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:40
 msgid "/home/user/data/north_carolina/rast_geotiff"
-msgstr ""
+msgstr "/home/user/data/north_carolina/rast_geotiff"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:42
 msgid ""
@@ -111,10 +111,13 @@ msgid ""
 "in the Accessories section. This gives you a Unix shell command prompt. Go "
 "to the data directory."
 msgstr ""
+"Inicie un emulador de terminal (LXTerminal actualmente) desde el menú "
+"Aplicaciones de la sección Accesorios. Esto le da un símbolo del sistema de "
+"shell de Unix. Vaya al directorio de datos."
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:44
 msgid "cd /home/user/data/north_carolina/rast_geotiff"
-msgstr ""
+msgstr "cd /home/user/data/north_carolina/rast_geotiff"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:48
 msgid "Contents"
