@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-07-25 19:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../build/doc/overview/ogc_overview.rst:13
 msgid "OGC"
@@ -23,35 +23,51 @@ msgstr ""
 
 #: ../../build/doc/overview/ogc_overview.rst:15
 msgid ""
-"The Open Geospatial Consortium (OGC) is an international consortium of "
-"more than 500 businesses, government agencies, research organizations, "
-"and universities driven to make geospatial (location) information and "
-"services FAIR - Findable, Accessible, Interoperable, and Reusable. OGC's "
-"member-driven consensus process creates royalty free, publicly available,"
-" open geospatial standards. Existing at the cutting edge, OGC actively "
-"analyzes and anticipates emerging tech trends, and runs an agile, "
-"collaborative Research and Development (R&D) lab - the OGC Innovation "
-"Program - that builds and tests innovative prototype solutions to "
-"members' use cases. OGC members together form a global forum of experts "
-"and communities that use location to connect people with technology and "
-"improve decision-making at all levels. OGC is committed to creating a "
-"sustainable future for us, our children, and future generations. A look "
-"at the `OGC Domain Working Groups "
+"The Open Geospatial Consortium (OGC) is a collective problem-solving "
+"community of more than 550 experts representing industry, government, "
+"research and academia, collaborating to make geospatial (location) "
+"information and services FAIR - Findable, Accessible, Interoperable, and "
+"Reusable."
+msgstr ""
+
+#: ../../build/doc/overview/ogc_overview.rst:17
+msgid ""
+"The global OGC Community engages in a mix of activities related to "
+"location-based technologies: developing consensus-based open standards "
+"and best-practices; collaborating on problem solving in agile innovation "
+"initiatives; participating in member meetings, events, and workshops; and"
+" more."
+msgstr ""
+
+#: ../../build/doc/overview/ogc_overview.rst:21
+msgid ""
+"OGC's unique standards development process moves at the pace of "
+"innovation, with constant input from technology forecasting, practical "
+"prototyping, real-world testing, and community engagement. OGC bridges "
+"disparate sectors, domains, and technology trends, and encourages the "
+"cross-pollination of ideas between different communities of practice to "
+"improve decision-making at all levels. OGC is committed to creating an "
+"inclusive and sustainable future."
+msgstr ""
+
+#: ../../build/doc/overview/ogc_overview.rst:24
+msgid ""
+"A look at the `OGC Domain Working Groups "
 "<https://www.ogc.org/projects/groups/wg>`_ shows the wide scope of "
 "current activity in the OGC."
 msgstr ""
 
-#: ../../build/doc/overview/ogc_overview.rst:19
+#: ../../build/doc/overview/ogc_overview.rst:26
 msgid ""
-"The OGC Standards Baseline consists of the |OGC| standards for "
-"interfaces, encodings, profiles, application schemas, and best practice "
-"documents. The |ORM| describes these standards and the relationships "
-"between them and related ISO standards. The ORM provides an overview of "
-"OGC standards and serves as a useful resource for defining architectures "
-"for specific applications."
+"The OGC Standards Baseline consists of the Open Geospatial Consortium "
+"|OGC| standards for interfaces, encodings, profiles, application schemas,"
+" and best practice documents. The |ORM| describes these standards and the"
+" relationships between them and related ISO standards. The ORM provides "
+"an overview of OGC standards and serves as a useful resource for defining"
+" architectures for specific applications."
 msgstr ""
 
-#: ../../build/doc/overview/ogc_overview.rst:26
+#: ../../build/doc/overview/ogc_overview.rst:33
 msgid ""
 "In 2020, the `OGC API <https://ogcapi.ogc.org/>`_ family of standards "
 "started to be developed to make it easy for anyone to provide geospatial "
@@ -66,25 +82,25 @@ msgid ""
 "OGC's Innovation Program."
 msgstr ""
 
-#: ../../build/doc/overview/ogc_overview.rst:28
+#: ../../build/doc/overview/ogc_overview.rst:35
 msgid ""
 "For further details, check the `comprehensive list of OGC standards "
 "<https://www.ogc.org/standards/>`__."
 msgstr ""
 
-#: ../../build/doc/overview/ogc_overview.rst:32
+#: ../../build/doc/overview/ogc_overview.rst:39
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/ogc_overview.rst:34
+#: ../../build/doc/overview/ogc_overview.rst:41
 msgid "**Website:** https://www.ogc.org"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 
