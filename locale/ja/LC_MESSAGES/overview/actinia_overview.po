@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-06-21 20:07+0000\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -33,11 +33,9 @@ msgstr "高パフォーマンスの地理空間処理"
 msgid ""
 "`Actinia <https://actinia.mundialis.de/>`__ is an open source REST API for "
 "scalable, distributed, high performance processing of geographical data that"
-" uses `GRASS GIS <https://grass.osgeo.org/>`__ for computational tasks."
+" uses mainly `GRASS GIS <https://grass.osgeo.org/>`__ for computational "
+"tasks."
 msgstr ""
-"`Actinia <https://actinia.mundialis.de/>`__ "
-"は、地理データのスケーラブルで分散した高パフォーマンス処理のためのオープンソースREST APIであり、計算タスクに  `GRASS GIS "
-"<https://grass.osgeo.org/>`__  を使用します。"
 
 #: ../../build/doc/overview/actinia_overview.rst:28
 msgid ""
@@ -45,7 +43,7 @@ msgid ""
 " images, arbitrary raster data with geographical relations and vector data."
 msgstr "衛星画像、時系列衛星画像、地理的関係を持つ任意のラスタデータ、ベクタデータを処理するREST APIを提供しています。"
 
-#: ../../build/doc/overview/actinia_overview.rstNone
+#: ../../build/doc/overview/actinia_overview.rst-1
 msgid "actinia screenshot"
 msgstr ""
 
@@ -60,8 +58,8 @@ msgid ""
 msgstr "衛星画像、時系列の衛星画像、ラスタおよびベクタデータを処理するREST API。"
 
 #: ../../build/doc/overview/actinia_overview.rst:42
-msgid "Explore the `tutorial <https://actinia.mundialis.de/tutorial/>`_."
-msgstr "`チュートリアル <https://actinia.mundialis.de/tutorial/>`_ をご覧ください。"
+msgid "Explore the `tutorial <https://mundialis.github.io/actinia_core/>`_."
+msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:45
 msgid "Details"
@@ -93,15 +91,15 @@ msgid ""
 "https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json"
 msgstr ""
 
-#: ../../build/doc/overview/actinia_overview.rst:59
+#: ../../build/doc/overview/actinia_overview.rst:60
 msgid "**Support:** https://github.com/mundialis/actinia_core"
 msgstr "**サポート:** https://github.com/mundialis/actinia_core"
 
-#: ../../build/doc/overview/actinia_overview.rst:64
+#: ../../build/doc/overview/actinia_overview.rst:65
 msgid "Quickstart"
 msgstr "クイックスタート"
 
-#: ../../build/doc/overview/actinia_overview.rst:66
+#: ../../build/doc/overview/actinia_overview.rst:67
 msgid ":doc:`Quickstart documentation <../quickstart/actinia_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/actinia_quickstart>`"
 
@@ -117,6 +115,6 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""
