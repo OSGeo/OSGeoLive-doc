@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Elena Mezzini <elena.mezzini@gmail.com>, 2019
+# Antonio Rotundo <anto.rotundo@gmail.com>, 2021
+# Valerio Pinna <pinnavalerio@yahoo.co.uk>, 2021
+# Simone Falceri, 2022
+# Federico Gianoli <fritz4@gmail.com>, 2022
+# Stefano Campus <skampus@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"PO-Revision-Date: 2017-09-20 16:04+0000\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
+"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:22
+msgid "Marble Quickstart"
+msgstr "Guida rapida Marble"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:24
+msgid ""
+"Marble is an open source KDE Education Project program similar to NASA World"
+" Wind or Google Earth. Besides choosing any number of maps to view on your "
+"globe (including OpenStreetMap), you are encouraged to include a KDE Marble "
+"widget in your application."
+msgstr ""
+"Marble è un programma open source di KDE Education Project simile a NASA "
+"World Wind o Google Earth. Oltre a scegliere qualsiasi numero di mappe da "
+"visualizzare sul tuo globo (incluso OpenStreetMap), sei incoraggiato a "
+"includere un widget di KDE Marble nella tua applicazione."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:27
+msgid "Contents"
+msgstr "Contenuti"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:30
+msgid "Start Marble"
+msgstr "Avvia Marble"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:32
+msgid ""
+"On the desktop, choose :menuselection:`Navigation and Maps --> Marble`. You "
+"will see a window like this:"
+msgstr ""
+"Sul desktop, scegli :menuselection:`Navigazione e Mappe --> Marble`. Vedrai "
+"una finestra come questa:"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:39
+msgid "Change the display"
+msgstr "Cambia la visualizzazione"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:41
+msgid "Scale the globe by rotating the wheel of your mouse."
+msgstr "Scala il globo ruotando la rotella del mouse."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:42
+msgid "To move around press the left button of your mouse and move it."
+msgstr "Per spostarsi premi il tasto sinistro del mouse e muovilo."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:44
+msgid "Marble has 11 different views (themes):"
+msgstr "Marble ha 11 viste diverse (temi):"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:46
+msgid "Atlas"
+msgstr "Atlas"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:47
+msgid "OpenStreetMap"
+msgstr "OpenStreetMap"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:48
+msgid "Satellite View"
+msgstr "Vista da Satellite"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:49
+msgid "Earth at Night"
+msgstr "Earth at Night"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:50
+msgid "Historical Map 1689"
+msgstr "Historical Map 1689"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:51
+msgid "Moon"
+msgstr "Luna"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:52
+msgid "Plain Map"
+msgstr "Plain Map"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:53
+msgid "Precipitation (December)"
+msgstr "Precipitazioni (Dicembre)"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:54
+msgid "Precipitation (July)"
+msgstr "Precipitazioni (Luglio)"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:55
+msgid "Temperature (December)"
+msgstr "Temperature (December)"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:56
+msgid "Temperature (July)."
+msgstr "Temperature (July)."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:58
+msgid ""
+"Click one of entries in the \"Theme\" list in \"Map View\" tab to switch "
+"between them."
+msgstr ""
+"Clicca su una delle voci dell'elenco \"Tema\" nella scheda \"Vista mappa\" "
+"per passare da una all'altra."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:63
+msgid "Click a label in any place to view more information about it."
+msgstr ""
+"Fai clic su un'etichetta in qualsiasi luogo per visualizzare ulteriori "
+"informazioni su di essa."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:70
+msgid "Find a location"
+msgstr "Trova un luogo"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:72
+msgid ""
+"To find a location, enter its name into the search line on the top of "
+"\"Search\" panel. As you start typing, suggestions below the search line "
+"will appear like this:"
+msgstr ""
+"Per trovare una località, inserisci il suo nome nella riga di ricerca nella "
+"parte superiore del pannello \"Cerca\". Quando inizi a digitare, sotto la "
+"linea di ricerca appariranno dei suggerimenti come questo:"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:80
+msgid "Add a bookmark"
+msgstr "Aggiungi un segnalibro"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:82
+msgid "Use bookmarks in Marble to remember the location of something."
+msgstr "Usa i segnalibri in Marble per ricordare la posizione di qualcosa."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:84
+msgid ""
+"To add a bookmark, press the left button of your mouse and click \"Add "
+"bookmark\". A window will appear like this:"
+msgstr ""
+"Per aggiungere un segnalibro, premi il tasto sinistro del tuo mouse e clicca"
+" su \"Aggiungi segnalibro\". Apparirà una finestra come questa:"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:89
+msgid "Write the name, description and destination folder of the bookmark"
+msgstr ""
+"Scrivi il nome, la descrizione e la cartella di destinazione del segnalibro"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:90
+msgid "Click the \"Ok\" button. Then the bookmark will appear."
+msgstr "Fare clic sul pulsante \"Ok\". Poi apparirà il segnalibro."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:92
+msgid "To manage bookmarks, go to \"Bookmarks->Manage Bookmarks\"."
+msgstr "Per gestire i segnalibri, vai su \"Bookmarks->Manage Bookmarks\"."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:98
+msgid "Things to try"
+msgstr "Cose da provare"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:100
+msgid ""
+"Try to use the Routing feature. See the `Marble documentation "
+"<https://marble.kde.org>`_ for help."
+msgstr ""
+"Prova a utilizzare la funzione di instradamento. Si veda la documentazione "
+"di `Marble <https://marble.kde.org>`_."
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:104
+msgid "What next?"
+msgstr "E ora?"
+
+#: ../../build/doc/quickstart/marble_quickstart.rst:106
+msgid ""
+"See the `Marble homepage <https://marble.kde.org/>`_ for more information."
+msgstr ""
+"Vedi la `home page di Marble <https://marble.kde.org/>`_ per maggiori "
+"informazioni."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Progetto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "Comunità OSGeo"

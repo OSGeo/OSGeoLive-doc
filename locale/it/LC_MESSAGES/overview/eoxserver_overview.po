@@ -65,7 +65,7 @@ msgstr ""
 
 #: ../../build/doc/overview/eoxserver_overview.rstNone
 msgid "eoxserver screenshot"
-msgstr ""
+msgstr "screenshot di eoxserver"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:40
 msgid "Core Features"
@@ -189,6 +189,8 @@ msgid ""
 "**Licence:** `MIT-style license "
 "<https://docs.eoxserver.org/en/stable/copyright.html#license>`_"
 msgstr ""
+"**Licenza:** Licenza su stile `MIT "
+"<https://docs.eoxserver.org/en/stable/copyright.html#license>`_"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:85
 msgid "**Software Version:** |version-eoxserver|"
@@ -207,6 +209,8 @@ msgid ""
 "**Support:** https://docs.eoxserver.org/en/stable/users/basics.html#where-"
 "can-i-get-support"
 msgstr ""
+"**Supporto:** https://docs.eoxserver.org/en/stable/users/basics.html#where-"
+"can-i-get-support"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:96
 msgid "Quickstart"
@@ -218,16 +222,16 @@ msgstr ":doc:`Guida rapida <../quickstart/eoxserver_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Progetto OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Comunità OSGeo"

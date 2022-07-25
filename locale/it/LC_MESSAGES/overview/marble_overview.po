@@ -6,7 +6,7 @@
 # Translators:
 # pibinko <pibinko@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Stefano Campus <skampus@gmail.com>, 2021
+# Stefano Campus <skampus@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Stefano Campus <skampus@gmail.com>, 2021\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -76,7 +76,7 @@ msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rstNone
 msgid "marble screenshot"
-msgstr ""
+msgstr "screenshot di marble"
 
 #: ../../build/doc/overview/marble_overview.rst:48
 msgid "Core Features"
@@ -211,16 +211,16 @@ msgstr ":doc:`Guida rapida <../quickstart/marble_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Progetto OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Comunità OSGeo"
