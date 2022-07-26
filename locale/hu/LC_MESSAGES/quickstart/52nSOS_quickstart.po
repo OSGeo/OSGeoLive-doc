@@ -87,7 +87,7 @@ msgstr "http://localhost:8080/52nSOS/ (lásd 1. ábra)."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:0
 msgid "52°North SOS client welcome page"
-msgstr ""
+msgstr "52°North SOS kliens üdvözlő oldal"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:48
 msgid "**Fig. 1**: 52°North SOS client - welcome page."
@@ -111,7 +111,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rstNone
 msgid "52°North SOS client - test client with GetCapabilities request"
-msgstr ""
+msgstr "52°North SOS kliens - kliens test a GetCapabilities kéréssel."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:61
 msgid ""
@@ -211,7 +211,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rstNone
 msgid "52°North SOS client - JavaScript client with time series data"
-msgstr ""
+msgstr "52°North SOS kliens - JavaScript kliens idősoros adatokkal"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:125
 msgid ""
@@ -312,16 +312,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

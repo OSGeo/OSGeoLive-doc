@@ -179,7 +179,7 @@ msgstr "Az eredmény ps dokumentumnak így kellene kinéznie:"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rstNone
 msgid "North Caroline - sample elevation data"
-msgstr ""
+msgstr "North Caroline - minta magassági adatok"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:117
 msgid "Things to try"
@@ -187,27 +187,27 @@ msgstr "Kipróbálandó dolgok"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:119
 msgid "Install the following packages:"
-msgstr ""
+msgstr "Telepítse a következő csomagokat:"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:121
 msgid "gmt-doc (and -pdf)"
-msgstr ""
+msgstr "gmt-doc (és -pdf)"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:122
 msgid "gmt-coast-low"
-msgstr ""
+msgstr "gmt-coast-low"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:123
 msgid "gmt-examples"
-msgstr ""
+msgstr "gmt-examples"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:124
 msgid "gmt-tutorial (and -pdf)"
-msgstr ""
+msgstr "gmt-tutorial (és -pdf)"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:130
 msgid "Examples will be found in: `/usr/share/doc/gmt/examples`"
-msgstr ""
+msgstr "Példák találhatók itt:  `/usr/share/doc/gmt/examples`"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:132
 msgid ""
@@ -236,7 +236,7 @@ msgstr "Mi a következő?"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:157
 msgid "Documentation: https://www.soest.hawaii.edu/gmt/"
-msgstr ""
+msgstr "Dokumentáció: https://www.soest.hawaii.edu/gmt/"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:158
 msgid "Website: https://gmt.soest.hawaii.edu"
@@ -248,16 +248,16 @@ msgstr "Támogatás: https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

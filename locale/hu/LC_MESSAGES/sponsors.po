@@ -28,7 +28,7 @@ msgstr "OSGeoLive Szponzorok"
 
 #: ../../build/doc/sponsors.rstNone ../../build/doc/sponsors_osgeo.rstNone
 msgid "OSGeo"
-msgstr ""
+msgstr "OSGeo"
 
 #: ../../build/doc/sponsors.rst:9
 msgid ""
@@ -46,6 +46,8 @@ msgid ""
 "Information Center for the Environment at the University of California, "
 "Davis"
 msgstr ""
+"Information Center for the Environment at the University of California, "
+"Davis"
 
 #: ../../build/doc/sponsors.rst:17
 msgid ""
@@ -59,7 +61,7 @@ msgstr ""
 
 #: ../../build/doc/sponsors.rstNone
 msgid "National Technical University of Athens"
-msgstr ""
+msgstr "National Technical University of Athens"
 
 #: ../../build/doc/sponsors.rst:26
 msgid ""
@@ -72,7 +74,7 @@ msgstr ""
 
 #: ../../build/doc/sponsors.rstNone
 msgid "The DebianGIS and UbuntuGIS projects"
-msgstr ""
+msgstr "The DebianGIS and UbuntuGIS projects"
 
 #: ../../build/doc/sponsors.rst:34
 msgid ""
@@ -84,7 +86,7 @@ msgstr ""
 
 #: ../../build/doc/sponsors.rstNone
 msgid "The Greek Academic cloud service"
-msgstr ""
+msgstr "The Greek Academic cloud service"
 
 #: ../../build/doc/sponsors.rst:41
 msgid ""
@@ -102,7 +104,7 @@ msgstr ""
 
 #: ../../build/doc/sponsors.rstNone
 msgid "Geolocation Technology Company"
-msgstr ""
+msgstr "Geolocation Technology Company"
 
 #: ../../build/doc/sponsors.rst:52
 msgid ""
@@ -676,15 +678,15 @@ msgstr "danielkastl"
 
 #: ../../build/contributors.csv:1
 msgid "Daniele Francioli"
-msgstr ""
+msgstr "Daniele Francioli"
 
 #: ../../build/contributors.csv:1
 msgid "daniele.francioli outlook com"
-msgstr ""
+msgstr "daniele.francioli outlook com"
 
 #: ../../build/contributors.csv:1
 msgid "danfra"
-msgstr ""
+msgstr "danfra"
 
 #: ../../build/contributors.csv:1
 msgid "Danilo Bretschneider"
@@ -1384,15 +1386,15 @@ msgstr "XJTUmg1007"
 
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
 msgid "Marco Minghini"
-msgstr ""
+msgstr "Marco Minghini"
 
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
 msgid "marco.minghini86 gmail com"
-msgstr ""
+msgstr "marco.minghini86 gmail com"
 
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
 msgid "MarcoMinghini"
-msgstr ""
+msgstr "MarcoMinghini"
 
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
 msgid "Margherita Di Leo"
@@ -2593,7 +2595,7 @@ msgstr "Roberta Fagandini"
 
 #: ../../build/translators.csv:1
 msgid "Antonio Rotundo"
-msgstr ""
+msgstr "Antonio Rotundo"
 
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
@@ -3064,16 +3066,16 @@ msgstr "alindeneanu"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

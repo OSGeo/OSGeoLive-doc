@@ -60,7 +60,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "Open a QGIS project"
-msgstr ""
+msgstr "QGIS projekt megnyitása"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:57
 msgid ""
@@ -112,7 +112,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS new project"
-msgstr ""
+msgstr "Új QGIS projekt"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:72
 msgid ""
@@ -155,7 +155,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS vector layer"
-msgstr ""
+msgstr "QGIS vektor réteg"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:90
 msgid "Now let's try adding a raster layer to the project."
@@ -179,7 +179,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS raster layer"
-msgstr ""
+msgstr "QGIS raszter réteg"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:108
 msgid ""
@@ -277,7 +277,7 @@ msgstr "Kattintson az 'Open'-re."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS Open project"
-msgstr ""
+msgstr "QGIS projekt megnyitása"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:152
 msgid ""
@@ -306,7 +306,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS layer panel"
-msgstr ""
+msgstr "QGIS réteg panel"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:168
 msgid ""
@@ -379,7 +379,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS modified the order of layers"
-msgstr ""
+msgstr "QGIS módosított rétegsorrend"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:196
 msgid ""
@@ -403,7 +403,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS navigation toolbar"
-msgstr ""
+msgstr "QGIS navigációs eszközsor"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:208
 msgid "[1] Pan: Allows the map to be dragged ('panned') to a new location."
@@ -570,7 +570,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS color palette"
-msgstr ""
+msgstr "QGIS színpaletta"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:270
 msgid "Then click the back arrow to return to the symbol render preview."
@@ -661,6 +661,9 @@ msgid ""
 "<../overview/qgis_mapserver_overview>`. in the :menuselection:`Geospatial "
 "--> Web Services` menu."
 msgstr ""
+"Próbálja meg a QGIS térképét a weben publikálni  a  :doc:`QGIS Map Server "
+"<../overview/qgis_mapserver_overview>` felhasználásával a "
+"menuselection:`Geospatial --> Web Services` menüben."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:309
 msgid "What next?"
@@ -676,16 +679,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

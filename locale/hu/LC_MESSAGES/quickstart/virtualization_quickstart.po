@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
+# Vicky Vergara <vicky@georepublic.de>, 2022
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-20 21:55-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,12 +36,18 @@ msgid ""
 "virtual machine (VM). For other methods, follow links from the \"See Also\" "
 "section below."
 msgstr ""
+"Ez a gyorstalpaló az OSGeoLive egy futtatási módját írja le a VirtualBox "
+"virtuális gépben (VM). Más megoldásokhoz kövesse a linkeket a \"Lásd még\" "
+"szakaszt lentebb."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:18
 msgid ""
 "To learn more about the benefits of virtualization, see `Virtualization "
 "<https://en.wikipedia.org/wiki/Virtualization>`_ in Wiki"
 msgstr ""
+"Ha többet szeretne megtudni a virtualizáció előnyeiről, olvassa el a "
+"`Virtualizáció <https://en.wikipedia.org/wiki/Virtualization>`_  című részt "
+"a Wiki-ben"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:21
 msgid "Prerequisites"
@@ -48,7 +55,7 @@ msgstr "Előfeltételek"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:23
 msgid "**Software**"
-msgstr ""
+msgstr "**Szoftver**"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:25
 msgid ""
@@ -56,6 +63,9 @@ msgid ""
 "and install the software. On Windows run the installer, or on Ubuntu-like "
 "Linux systems run the following:"
 msgstr ""
+"Töltse le a `Virtual Box-ot <https://www.virtualbox.org/>`_ a platformjához "
+"és telepítse a szoftvert.  Windowson futtassa a telepítőt vagy Ubuntu típusú"
+" Linux rendszereken tegye a következőt:"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:27
 msgid "``apt-get install virtualbox-ose``"
@@ -66,16 +76,20 @@ msgid ""
 "Download the OSGeo Virtual disk file (vmdk) from :doc:`live.osgeo.org "
 "<../download>`."
 msgstr ""
+"Töltse le az OSGeo Virtual disk fájlt (vmdk) a :doc:`live.osgeo.org "
+"<../download>` oldalról."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:31
 msgid ""
 "Under **osgeolive-vm**, download the 7-zip file. Then unzip the downloaded "
 "file (using `7zip <https://www.7-zip.org>`_ )."
 msgstr ""
+"Az **osgeolive-vm** alól töltse le a 7-zip fájlt. Majd tömörítse ki a "
+"letöltött fájlt (a `7zip <https://www.7-zip.org>`_ használatával)."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:33
 msgid "**Hardware**"
-msgstr ""
+msgstr "**Hardver**"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:35
 msgid ""
@@ -84,6 +98,9 @@ msgid ""
 "applications (such as GeoServer). So a total of 2 GB is recommended for a "
 "smooth operation."
 msgstr ""
+"**RAM**: Minimum 2 GB. A Lubuntu rendszer jól fut 1GB RAM-mal, mindaz amire "
+"szüksége van legalább ugyanennyi memőria az alkalmazásoknak (mint például "
+"GeoServer). Így összesen 2 GB ajánlott a sima működéshez."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:36
 msgid ""
@@ -92,6 +109,10 @@ msgid ""
 "want more space to allow some room to work on the virtual machine. So a "
 "total of 20 GB is a good recommendation."
 msgstr ""
+"**Háttértár**: Minimum 20 GB merev lemez. A :doc:`live.osgeo.org "
+"<../download>` oldalról letöltött virtuális lemez fájl (vmdk) kitömörítve "
+"majdnem 10 MB. További helyre van szüksége a virtuális gépen történő "
+"munkához. 20 GB egy jó javaslat."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:37
 msgid ""
@@ -100,32 +121,43 @@ msgid ""
 " Technology "
 "<https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html>`_"
 msgstr ""
+"**CPU**: bármilyen CPU megfelelő, de a \"Virtualizációs technológiát\" "
+"támogató processzorok gyorsabbak. Ellenőrizze, hogy a számítógépe "
+"támogatja-e a `virtualizációs technológiát "
+"<https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html>`_"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:40
 msgid "Most machines produced after 2010 will meet these requirements."
 msgstr ""
+"A 2010 után készített gépek többsége megfelel ezeknek a követelményeknek."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:44
 msgid "Step 1 : Create a Virtual Machine"
-msgstr ""
+msgstr "1. lépés: Virtuális gép létrehozása"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:46
 msgid ""
 "Start the VirtualBox application and click **New**. Create Virtual Machine "
 "pop up is displayed."
 msgstr ""
+"Indítsa el a VirtualBox alkalmazást és kattintson a **New**-ra. A virtuális "
+"gép létrehozása ablak jelenik meg."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:52
 msgid ""
 "Enter a name such as OSGeoLive, and select Linux as the \"Operating "
 "system\", and Ubuntu as the \"Version\", and then click **Next**."
 msgstr ""
+"Írjon be egy nevet, mint például OSGeoLive és válassza a Linux-ot mit "
+"operációs rendszer, és Ubuntut a verzióhoz és kattintson  **Next**-re."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:57
 msgid ""
 "In the next screen set the memory to at least 1024 MB (or more if your host "
 "computer has more than 4GB, like in the screenshot below)."
 msgstr ""
+"A következő képernyőn állítsa a memóriát legalább 1024 MB-ra (vagy többre, "
+"ha a gazda számítógépében több mint 4 GB van, mint az alábbi képernyőképen)."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:62
 msgid ""
@@ -133,19 +165,23 @@ msgid ""
 "file**. Click the folder icon to browse to where you saved the OSGeoLive "
 "vmdk-file. Select the file, click **Next** and **Create**."
 msgstr ""
+"Folytassa a következő lappal és válassza a \"Use existing hard disk file\" "
+"beállítást. Kattintson a mappa ikonra, tallózzon oda, ahova az OSGeoLive "
+"vmdk fájlt mentette. Válassza ezt a fájlt, kattintson a **Next**.re és "
+"\"Create\"."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:64
 msgid ""
 "You should now be able to view the **OSGeoLive** listed in your virtual box."
-msgstr ""
+msgstr "Most látnia kellene az **OSGeoLive**-ot a virtuál box-ában."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:71
 msgid "Step 2: Configure VM"
-msgstr ""
+msgstr "2. lépés: VM konfigurálása"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:73
 msgid "**VM Settings**"
-msgstr ""
+msgstr "**VM beállítások**"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:76
 msgid ""
@@ -153,6 +189,9 @@ msgid ""
 "Interface** section, click to select **Show at top of screen** for the Mini "
 "toolbar."
 msgstr ""
+"Miután a VM-et létrehozta kattintson a **Settings** gombra a **User "
+"Interface** részben, kattintson a **Show at top of screen**-re a mini "
+"eszközsor kiválasztásához."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:81
 msgid ""
@@ -160,10 +199,13 @@ msgid ""
 "some host operating systems, it may be required to \"Enable 3D "
 "Acceleration\" for display to work properly."
 msgstr ""
+"Menjen a **Display** részhez és növelje a videomemóriát 32 vagy 64 MB-ra. "
+"Bizonyos gazda operációs rendszerek esetén szükség lehet az \"Enable 3D "
+"Acceleration\" bekapcsolására a képernyő tökéletes működéséhez."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:86
 msgid "**Add shared folders to access files from host**"
-msgstr ""
+msgstr "**Megosztott mappák hozzáadása a gazda gép fájljainak eléréséhez**"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:88
 msgid ""
@@ -171,6 +213,9 @@ msgid ""
 "icon on the right) to find a directory on your host computer that you wish "
 "to share inside the VM."
 msgstr ""
+"Menjen a \"Shared folders\" szakaszra, és kattintson az **Add Folder** (zöld"
+" + ikonra a jobb oldalon), hogy megtalálja azt a mappát a gazdagépen, "
+"amelyet meg szeretne osztani a VM-en belül."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:93
 msgid ""
@@ -185,11 +230,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:97
 msgid "Step 3 : Running the Virtual Machine"
-msgstr ""
+msgstr "3. lépés: Virtuális gép futtatása"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:99
 msgid "Now bootup the VM by clicking the **Start** (green arrow) button."
-msgstr ""
+msgstr "Most töltse be a VM-et a **Start** (zöld nyíl) gombra kattintva."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:101
 msgid ""
@@ -198,6 +243,10 @@ msgid ""
 "should install the virtualbox guest additions, this will allow you to use "
 "full-screen mode."
 msgstr ""
+"Az OSGeoLive virtuális képernyője (az ablak mérete) nagyon kicsi lehet és "
+"nem lehet növelni a Guest Addition installálása nélkül. Telepítenie kell a "
+"virtualbox guest additiont, ez lehetővé teszi a teljes képernyős mód "
+"használatát."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:103
 msgid ""
@@ -212,37 +261,44 @@ msgid ""
 "(Alternative) If the above command does not work, use the following "
 "alternative:"
 msgstr ""
+"(Alternatíva) ha a fenti parancs nem működne, használja a következő "
+"alternatív megoldást:"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:107
 msgid ""
 "From the VirtualBox Devices menu, select **Insert Guest Additions CD Image**"
 msgstr ""
+"A VirtualBox Devices menüből válassza a **Insert Guest Additions CD Image** "
+"opciót"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:108
 msgid ""
 "Click **OK** when prompted to open the removable media in **File Manager**."
 msgstr ""
+"Kattintson az **OK**-ra, amikor a rendszer kéri, hogy nyissa meg a "
+"cserélhető adathordozót a **File Manager**-ben."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:109
 msgid ""
 "In **File Manager**, select **Tools** → **Open Current Folder** in terminal."
 msgstr ""
+"A **File Manager**-ben válassza a **Tools** → **Open Current Folder**-t."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:110
 msgid "In the terminal type:"
-msgstr ""
+msgstr "Gépelje a terminál ablakba:"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:112
 msgid "``sudo ./VBoxLinuxAdditions.run``"
-msgstr ""
+msgstr "``sudo ./VBoxLinuxAdditions.run``"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:114
 msgid "Press ENTER."
-msgstr ""
+msgstr "Nyomjon ENTER-t."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:118
 msgid "Step 4 : Set OSGeoLive user"
-msgstr ""
+msgstr "4. lépés OSGEoLive felhasználó beállítása"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:121
 msgid ""
@@ -250,6 +306,10 @@ msgid ""
 "group so they can write into the data directory. If not set, these tools "
 "will fail when run."
 msgstr ""
+"Egyes az OSGeoLive-ban konfigurált eszközök arra támaszkodnak, hogy a "
+"\"user\" a \"users\" csoportban legyen és így képesek írni az adat "
+"könyvtárakba. Ha nem állítják be, akkor ezek az eszközök nem fognak működni "
+"amikor futtatja őket."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:123
 msgid "Start a terminal."
@@ -257,7 +317,7 @@ msgstr "Indítson egy terminált"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:124
 msgid "Run ``sudo adduser user users``."
-msgstr ""
+msgstr "Futtassa a ``sudo adduser user users`` parancsot."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:125
 msgid ""
@@ -271,13 +331,15 @@ msgstr ""
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:128
 msgid "Step 5: Access shared folders"
-msgstr ""
+msgstr "5. lépés: Osztott mappa elérése"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:130
 msgid ""
 "Add yourself to the vboxsf group so that the shared folders (defined above) "
 "are accessible by running in a terminal window:"
 msgstr ""
+"Adja hozzá magát a vboxfs csoporthoz, hogy az osztott mappákat (fentebb "
+"írtunk róla) tartalmát elérje, ehhez egy terminál ablakban futtassa:"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:132
 msgid "``user@osgeolive:~$ sudo usermod -a -G vboxsf user``"
@@ -285,7 +347,7 @@ msgstr "``user@osgeolive:~$ sudo usermod -a -G vboxsf user``"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:136
 msgid "Step 6: Mount shared folder"
-msgstr ""
+msgstr "6. lépés: osztott mappa csatlakoztatása"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:138
 msgid ""
@@ -314,15 +376,18 @@ msgid ""
 "Now files on your host machine in the chosen folder will also be available "
 "in the VM in the \"GIS\" folder in the user's home directory."
 msgstr ""
+"Ezután a gazda gépen a kiválasztott mappában található fájlok elérhetők "
+"lesznek a VM-ben a felhasználó bejelentkezési könyvtárában a \"GIS\" "
+"mappábanl."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:146
 msgid ""
 "Congratulations, you should now have OSGeoLive running in a Virtual Machine."
-msgstr ""
+msgstr "Gratulálunk, most van egy futó OSGeoLive-ja egy virtuális gépben."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:149
 msgid "Next steps:"
-msgstr ""
+msgstr "Következő lépések:"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:151
 msgid ""
@@ -330,6 +395,9 @@ msgid ""
 "Quickstart "
 "<https://live.osgeo.org/en/quickstart/osgeolive_quickstart.html>`_"
 msgstr ""
+"Miért nem próbál meg futtatni néhány alkalmazást az `OSGeoLive gyorstalpaló "
+"<https://live.osgeo.org/en/quickstart/osgeolive_quickstart.html>`_ leírás "
+"szerint."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:154
 msgid "See Also:"
@@ -340,6 +408,8 @@ msgid ""
 "OSGeo wiki pages: `Other ways to create a Virtual Machine "
 "<https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
 msgstr ""
+"OSGeo wiki oldalak: `Other ways to create a Virtual Machine "
+"<https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:157
 msgid ":doc:`osgeolive_quickstart`"
@@ -355,16 +425,16 @@ msgstr ":doc:`usb_quickstart`"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"
