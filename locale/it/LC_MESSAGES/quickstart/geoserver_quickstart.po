@@ -173,7 +173,7 @@ msgid ""
 msgstr ""
 "In questo esempio useremo il :doc:`daset Natural Earth "
 "<../overview/naturalearth_overview>` incluso in OSGeoLive "
-"(:file:'/usr/local/share/data/natural_earth2/')."
+"(:file:`/usr/local/share/data/natural_earth2/`)."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:100
 msgid ""
@@ -299,8 +299,8 @@ msgid ""
 "These are represented as XML files which describe the rules that are used to"
 " apply various symbolizers to the data."
 msgstr ""
-"Lo styling di un set di dati in un layer di mappa (GS|) usa uno standard OGC"
-" chiamato |SLD|. Questi sono rappresentati come file XML che descrivono le "
+"Lo styling di un set di dati in un layer di mappa |GS| usa uno standard OGC "
+"chiamato |SLD|. Questi sono rappresentati come file XML che descrivono le "
 "regole che sono usate per applicare vari simbolizzatori ai dati."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:161
