@@ -91,8 +91,8 @@ msgid ""
 "Create the file \"mapserver_quickstart.map\" in your home directory: "
 ":file:`/home/user/mapserver_quickstart.map`"
 msgstr ""
-"Crear el archivo \"mapserver_quickstart.map\" en tu directorio home:: "
-"file:'/home/user/mapserver_quickstart.map'"
+"Crear el archivo \"mapserver_quickstart.map\" en tu directorio raiz: "
+":file:`/home/user/mapserver_quickstart.map`"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:64
 msgid "Put the following content in it::"
